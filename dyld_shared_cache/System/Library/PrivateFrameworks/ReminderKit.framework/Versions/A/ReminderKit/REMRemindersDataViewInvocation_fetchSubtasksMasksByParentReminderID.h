@@ -11,10 +11,9 @@
 @interface REMRemindersDataViewInvocation_fetchSubtasksMasksByParentReminderID : REMStoreInvocation
 {
     _Bool _includingConcealed;
-    REMObjectID *_parentReminderID;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (void);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool includingConcealed; // @synthesize includingConcealed=_includingConcealed;
 @property(readonly, nonatomic) REMObjectID *parentReminderID; // @synthesize parentReminderID=_parentReminderID;
 
 @end

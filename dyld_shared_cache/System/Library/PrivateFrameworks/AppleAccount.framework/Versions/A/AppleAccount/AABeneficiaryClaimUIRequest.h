@@ -13,10 +13,10 @@
     NSString *_claimCode;
 }
 
+- (id)ctivationLockAllowed:(id)arg1 DEP MDMProtocolVersion:(id)arg2 %@;
 - (id);
-- (id);
-- (void)en;
-- (id)E_KEY_OPTIONS_MESSAGE;
+- (void)forceGSToken;
+- (id)INHERITANCE_SHARE_KEY_OPTIONS_MESSAGE;
 
 @end
 

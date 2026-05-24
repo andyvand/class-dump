@@ -5,5 +5,6 @@
 //
 
 @protocol AWDLServiceDiscoveryManagerXPCDelegate
+- (void)P;
 @end
 

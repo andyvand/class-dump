@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSIntentReference, NSString;
+@class CHSIntentReference;
 
 @interface CHSIntentRecommendation
 {
     CHSIntentReference *_intentReference;
-    NSString *_localizedDescription;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setCachedExitingStatus: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isSchemaSeparated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CHSIntentReference *intentReference; // @synthesize intentReference=_intentReference;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface MNTrafficIncidentTriggerRange
 {
     MNTrafficIncidentTriggerPoint *_showTriggerPoint;
-    MNTrafficIncidentTriggerPoint *_hideTriggerPoint;
-    double _displayTime;
 }
 
 + (_Bool);
@@ -20,12 +18,10 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)_accounts;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double displayTime; // @synthesize displayTime=_displayTime;
-@property(readonly, nonatomic) MNTrafficIncidentTriggerPoint *hideTriggerPoint; // @synthesize hideTriggerPoint=_hideTriggerPoint;
 @property(readonly, nonatomic) MNTrafficIncidentTriggerPoint *showTriggerPoint; // @synthesize showTriggerPoint=_showTriggerPoint;
 
 @end

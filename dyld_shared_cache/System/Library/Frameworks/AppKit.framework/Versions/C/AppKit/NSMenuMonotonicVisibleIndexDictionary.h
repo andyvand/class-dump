@@ -4,41 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSMenuMonotonicVisibleIndexDictionary
 {
     id visibleIndexToMenuIndex;
-    id numberOfVisibleItems;
-    id menuIndexes;
-    id _menuIndexesBeforeUpdate;
-    id groupingCount;
-    id hasPendingUpdates;
 }
 
 - (long long);
+- (long long):(long long)arg1 8@16@24@32Q40@48@?56;
 - (long long);
+- (long long)%@;
 - (long long);
-- (long long);
-- (long long);
-- (long long);
-- (id);
+- (long long);
+- (id)GGHHIIJJKKLLE	EE(EF	FF(FG	GG(GH	HH(HEE
+EEEE)E8EFF
+FFFF)F8FGG
+GGGG)G8GHH
+HHHH)H8HI	II(IJ	JJ(JK	KK(KL	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4_;
 - (void)olutionSpacing:repeatAxis: /* Error: Ran out of types for this method. */;
 - (_Bool)<lïÿ`lïÿlïÿÐlïÿôlïÿHmïÿ¬mïÿônïÿôoïÿpïÿpïÿÜpïÿ(qïÿ@qïÿdqïÿqïÿÀqïÿèqïÿ;
 - (id)sult of calling validateMenuItem:on the validator %@ /* Error: Ran out of types for this method. */;
-- (long long)arItemTargetKey;
+- (long long)NSStepperTouchBarItemTargetKey;
 - (void)9¤ÿ>l?;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *arrangedMenuIndexes;
 @property(nonatomic, readonly) long long count;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) _Bool isEmpty;
 
 @end
 

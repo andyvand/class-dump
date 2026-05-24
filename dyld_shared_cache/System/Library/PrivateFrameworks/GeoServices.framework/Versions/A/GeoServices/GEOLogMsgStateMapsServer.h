@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapsServerMetadata, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateMapsServer
 {
     PBUnknownFields *_unknownFields;
-    GEOMapsServerMetadata *_serverMetadata;
 }
 
-+ (_Bool)Affordance:(id)arg1;
++ (_Bool)setHasSupportRapAffordance:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -22,13 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_z;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)sCount;
+- (void)%s not defined for %@;
+- (id)supportedTransitFeaturesCount;
 - (id)houldDrawPlatter;
 - (id)ering for battery percentage changes failed;
 - (id);
@@ -36,8 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasServerMetadata;
-@property(retain, nonatomic) GEOMapsServerMetadata *serverMetadata;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

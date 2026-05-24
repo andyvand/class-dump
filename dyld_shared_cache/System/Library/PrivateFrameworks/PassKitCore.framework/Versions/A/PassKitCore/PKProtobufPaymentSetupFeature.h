@@ -7,36 +7,28 @@
 @interface PKProtobufPaymentSetupFeature
 {
     unsigned long long _state;
-    unsigned long long _type;
-    struct {
-        unsigned int state:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);PRE&gt;, &lt;STYLE&gt; and &lt;SCRIPT&gt; when generating XML. This is needed if the whitespace in such elements is to be parsed appropriately without having access to the DTD. ;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool)manager;
-- (void)dential;
+- (void)credential;
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -6,16 +6,10 @@
 
 #import <AppKit/NSClipView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSTableRowsClipView : NSClipView
 {
     struct CGRect _targetFrame;
-    CDUnknownBlockType _animationFinishedHandler;
-    double _fromYPosition;
-    _Bool _shouldAdjustBounds;
-    _Bool _forDeletion;
 }
 
 - (struct CGRect);
@@ -31,28 +25,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
+- (void){CompactHTTPCookieReference=^^?^{CompactCookieArray}^{CompactCookieHeader}};
+- (long long)^{_CFURLAuthChallenge=}16@24;
+- (void)_url;
+- (void);
 - (void);
-- (long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)nDocumentForURL:(struct CGRect)arg1 withContentsOfURL:display:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)reopenDocumentForURL:(struct CGRect)arg1 withContentsOfURL:display:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)À¢C;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType animationFinishedHandler; // @synthesize animationFinishedHandler=_animationFinishedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool forDeletion; // @synthesize forDeletion=_forDeletion;
-@property double fromYPosition; // @synthesize fromYPosition=_fromYPosition;
-@property(readonly) unsigned long long hash;
-@property _Bool shouldAdjustBounds; // @synthesize shouldAdjustBounds=_shouldAdjustBounds;
-@property(readonly) Class superclass;
 @property struct CGRect targetFrame; // @synthesize targetFrame=_targetFrame;
 
 @end

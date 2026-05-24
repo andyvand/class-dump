@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDChipCountersRx, AWDChipCountersTx, AWDChipErrorCountersTx, AWDMacCountersRx, AWDMacCountersRxErrors, AWDRxPhyErrors, AWDWPA2Counters, AWDWiFiMetricsManagerFrameCounterStats, NSMutableArray;
-
 @interface AWDWiFiMetricsManagerChipCounters
 {
     unsigned long long _timestamp;
-    NSMutableArray *_frameCounterPerInterfaces;
-    AWDWiFiMetricsManagerFrameCounterStats *_frameCounters;
-    AWDWPA2Counters *_mcastWPA2Counters;
-    AWDChipCountersRx *_rxGeneralStats;
-    AWDMacCountersRx *_rxMACCounterStats;
-    AWDMacCountersRxErrors *_rxMACErrorStats;
-    AWDRxPhyErrors *_rxPhyErrors;
-    AWDChipErrorCountersTx *_txErrorStats;
-    AWDChipCountersTx *_txGeneralStats;
-    AWDWPA2Counters *_ucastWPA2Counters;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)[): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -40,7 +27,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -55,7 +42,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -72,27 +59,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *frameCounterPerInterfaces; // @synthesize frameCounterPerInterfaces=_frameCounterPerInterfaces;
-@property(retain, nonatomic) AWDWiFiMetricsManagerFrameCounterStats *frameCounters; // @synthesize frameCounters=_frameCounters;
-@property(readonly, nonatomic) _Bool hasFrameCounters;
-@property(readonly, nonatomic) _Bool hasMcastWPA2Counters;
-@property(readonly, nonatomic) _Bool hasRxGeneralStats;
-@property(readonly, nonatomic) _Bool hasRxMACCounterStats;
-@property(readonly, nonatomic) _Bool hasRxMACErrorStats;
-@property(readonly, nonatomic) _Bool hasRxPhyErrors;
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasTxErrorStats;
-@property(readonly, nonatomic) _Bool hasTxGeneralStats;
-@property(readonly, nonatomic) _Bool hasUcastWPA2Counters;
-@property(retain, nonatomic) AWDWPA2Counters *mcastWPA2Counters; // @synthesize mcastWPA2Counters=_mcastWPA2Counters;
-@property(retain, nonatomic) AWDChipCountersRx *rxGeneralStats; // @synthesize rxGeneralStats=_rxGeneralStats;
-@property(retain, nonatomic) AWDMacCountersRx *rxMACCounterStats; // @synthesize rxMACCounterStats=_rxMACCounterStats;
-@property(retain, nonatomic) AWDMacCountersRxErrors *rxMACErrorStats; // @synthesize rxMACErrorStats=_rxMACErrorStats;
-@property(retain, nonatomic) AWDRxPhyErrors *rxPhyErrors; // @synthesize rxPhyErrors=_rxPhyErrors;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) AWDChipErrorCountersTx *txErrorStats; // @synthesize txErrorStats=_txErrorStats;
-@property(retain, nonatomic) AWDChipCountersTx *txGeneralStats; // @synthesize txGeneralStats=_txGeneralStats;
-@property(retain, nonatomic) AWDWPA2Counters *ucastWPA2Counters; // @synthesize ucastWPA2Counters=_ucastWPA2Counters;
 
 @end
 

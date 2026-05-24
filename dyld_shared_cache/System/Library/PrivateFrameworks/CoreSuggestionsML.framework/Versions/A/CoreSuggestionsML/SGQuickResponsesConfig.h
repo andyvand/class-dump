@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PMLSessionDescriptor, SGCustomResponsesParameters, SGModelHyperparameters, SGQuickResponsesClassificationParameters, SGQuickResponsesPredictionParameters, SGQuickResponsesReplies;
-@protocol PMLWordPieceVocabProtocol;
+@class SGModelHyperparameters;
 
 @interface SGQuickResponsesConfig
 {
     SGModelHyperparameters *_modelHyperparameters;
-    NSArray *_preprocessingMethods;
-    NSArray *_labels;
-    SGQuickResponsesReplies *_replies;
-    NSDictionary *_modelHeads;
-    SGQuickResponsesClassificationParameters *_classificationParams;
-    SGQuickResponsesPredictionParameters *_predictionParams;
-    SGCustomResponsesParameters *_customResponsesParameters;
-    NSString *_language;
-    unsigned long long _mode;
-    PMLSessionDescriptor *_sessionDescriptor;
-    id <PMLWordPieceVocabProtocol> _vocab;
 }
 
 + (id);
@@ -41,26 +29,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)expected IFR value for IPE (%d);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)secondsFromGMT;
+- (id)pected image file for type '%@';
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SGQuickResponsesClassificationParameters *classificationParams; // @synthesize classificationParams=_classificationParams;
-@property(readonly, nonatomic) SGCustomResponsesParameters *customResponsesParameters; // @synthesize customResponsesParameters=_customResponsesParameters;
-@property(readonly, nonatomic) NSArray *labels; // @synthesize labels=_labels;
-@property(readonly, copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) NSDictionary *modelHeads; // @synthesize modelHeads=_modelHeads;
 @property(readonly, nonatomic) SGModelHyperparameters *modelHyperparameters; // @synthesize modelHyperparameters=_modelHyperparameters;
-@property(readonly, nonatomic) SGQuickResponsesPredictionParameters *predictionParams; // @synthesize predictionParams=_predictionParams;
-@property(readonly, nonatomic) NSArray *preprocessingMethods; // @synthesize preprocessingMethods=_preprocessingMethods;
-@property(readonly, nonatomic) SGQuickResponsesReplies *replies; // @synthesize replies=_replies;
-@property(readonly, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
-@property(readonly, nonatomic) id <PMLWordPieceVocabProtocol> vocab; // @synthesize vocab=_vocab;
 
 @end
 

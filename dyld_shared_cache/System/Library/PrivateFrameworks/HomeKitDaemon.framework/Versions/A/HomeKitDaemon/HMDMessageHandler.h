@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDHome, HMDHomeManager, HMDMessageHandlerMetricsDispatcher, HMFMessageDispatcher, NSArray, NSDictionary, NSMutableDictionary, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDMessageHandlerDataSource, OS_dispatch_queue;
+@class HMDMessageHandlerMetricsDispatcher;
 
 __attribute__((visibility("hidden")))
 @interface HMDMessageHandler
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_messageNameToQueuedIncomingMessages;
-    NSMutableDictionary *_messageNameToQueuedOutgoingMessage;
-    NSMutableDictionary *_deviceIdentifierToQueuedOutgoingMessageNames;
-    NSUUID *_messageTargetUUID;
-    NSArray *_ownerPrivateRemoteMessages;
-    NSArray *_adminPrivateRemoteMessages;
-    NSArray *_internalMessages;
-    NSArray *_notifications;
-    NSDictionary *_notificationsToObject;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSNotificationCenter *_notificationCenter;
-    HMDMessageHandlerMetricsDispatcher *_metricsDispatcher;
-    HMDAppleAccountManager *_appleAccountManager;
-    HMDHome *_home;
-    HMDHomeManager *_homeManager;
-    id <HMDMessageHandlerDataSource> _dataSource;
 }
 
 + (id)sB;
@@ -40,27 +23,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)Number";
+- (void)tem";
+- (void)@"NSString"32@"NSError"40;
+- (void)ileOptions"16@0:(id)arg1 8;
+- (id)stringWithFileSystemRepresentation:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (id)stringWithFileSystemRepresentation:length: /* Error: Ran out of types for this method. */;
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (void)stringByRemovingURLEscapes;
+- (void)stopSharingWithReason:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)localUpdatedTimestamp;
+- (id)deleteContentsObjectAtIndexes: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id)MSPPinnedPlacesVersion;
+- (id)elFetcher;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)_֩;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -68,15 +51,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)NL;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (id);
-- (id);
+- (id)setDebugColorAnalysisBuffer: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -89,38 +72,13 @@ __attribute__((visibility("hidden")))
 - (id)lic}@Failed to fetch invitation context:%@ /* Error: Ran out of types for this method. */;
 - (void)ication Managers...;
 - (id);
-- (void)ameraAccessChange;
-- (id);
-- (id)s;
+- (void)CameraAccessChange;
+- (id)HMDNotificationHomeRemovedTrigger;
+- (id)fetchEventCounters;
 - (id)3á;
 
 // Remaining properties
-@property(readonly, copy) NSArray *adminPrivateRemoteMessages; // @synthesize adminPrivateRemoteMessages=_adminPrivateRemoteMessages;
-@property(readonly) HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
-@property __weak id <HMDMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasQueuedIncomingMessages;
-@property(readonly) _Bool hasQueuedOutgoingMessages;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, copy) NSArray *internalMessages; // @synthesize internalMessages=_internalMessages;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
 @property(readonly) HMDMessageHandlerMetricsDispatcher *metricsDispatcher; // @synthesize metricsDispatcher=_metricsDispatcher;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) NSArray *notifications; // @synthesize notifications=_notifications;
-@property(readonly, copy) NSDictionary *notificationsToObject; // @synthesize notificationsToObject=_notificationsToObject;
-@property(readonly, copy) NSArray *ownerPrivateRemoteMessages; // @synthesize ownerPrivateRemoteMessages=_ownerPrivateRemoteMessages;
-@property(readonly) Class superclass;
 
 @end
 

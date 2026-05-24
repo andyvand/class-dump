@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDApplicationVendorIDStoreValue
 {
     _Bool _spiClient;
-    NSData *_vendorIDSHA1;
-    NSString *_applicationBundleID;
-    NSString *_companionAppBundleID;
 }
 
 + (_Bool),X:	 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool)Ð1Â0@ù
 × ;
 - (id)Ô ;
@@ -28,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *applicationBundleID; // @synthesize applicationBundleID=_applicationBundleID;
-@property(readonly, copy, nonatomic) NSString *companionAppBundleID; // @synthesize companionAppBundleID=_companionAppBundleID;
-@property(readonly, nonatomic, getter=isSPIClient) _Bool spiClient; // @synthesize spiClient=_spiClient;
 @property(readonly, copy, nonatomic) NSData *vendorIDSHA1; // @synthesize vendorIDSHA1=_vendorIDSHA1;
 
 @end

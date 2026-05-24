@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 @interface PLSubmissionRecord
 {
     _Bool _inSubmission;
-    NSString *_tagUUID;
-    NSUUID *_configUUID;
-    NSDate *_configDateApplied;
-    NSDate *_configDateReceived;
-    NSString *_filePath;
-    NSString *_ckFileDirPath;
-    NSString *_daFileDirPath;
-    NSDictionary *_tagConfig;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (id)M;
++ (_Bool)g;
 - (id);
 - (void);
 - (void);
@@ -32,7 +24,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)b<;
 - (id);
 - (id);
 - (id);
@@ -40,21 +32,14 @@
 - (id);
 - (id);
 - (void);
+- (void)];
 - (void);
+- (id)('C3*'FH
+;
 - (void);
-- (id);
-- (void);
-- (void)mStatus;
+- (void)PortControllerUvdmStatus;
 
 // Remaining properties
-@property(retain) NSString *ckFileDirPath; // @synthesize ckFileDirPath=_ckFileDirPath;
-@property(readonly, nonatomic) NSDate *configDateApplied; // @synthesize configDateApplied=_configDateApplied;
-@property(readonly, nonatomic) NSDate *configDateReceived; // @synthesize configDateReceived=_configDateReceived;
-@property(readonly, nonatomic) NSUUID *configUUID; // @synthesize configUUID=_configUUID;
-@property(retain) NSString *daFileDirPath; // @synthesize daFileDirPath=_daFileDirPath;
-@property(retain) NSString *filePath; // @synthesize filePath=_filePath;
-@property _Bool inSubmission; // @synthesize inSubmission=_inSubmission;
-@property(retain) NSDictionary *tagConfig; // @synthesize tagConfig=_tagConfig;
 @property(retain) NSString *tagUUID; // @synthesize tagUUID=_tagUUID;
 
 @end

@@ -6,47 +6,9 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableArray, RTDefaultsManager, RTDistanceCalculator, RTIntermittentGNSSManagerMetrics, RTInvocationDispatcher, RTLearnedLocationManager, RTLocationManager, RTMotionActivityManager, RTPlatform, RTTimer, RTTimerManager, RTVehicleLocationProvider, RTWiFiManager;
-
 @interface RTIntermittentGNSSManager : RTService
 {
     _Bool _awayFromFrequentlyVisitedLOI;
-    _Bool _motionActivityTypeSatisfied;
-    _Bool _registeredForIntermittentGNSS;
-    _Bool _settledStateLOIVerified;
-    _Bool _signalEnvironmentAtRisk;
-    _Bool _unsettled;
-    _Bool _completedInitialWifiScan;
-    _Bool _wifiLocationStarved;
-    _Bool _activeWifiScan;
-    int _currentSignalEnvironment;
-    int _previousSignalEnvironment;
-    long long _lastRemoteStatus;
-    unsigned long long _remoteStatusChecklist;
-    RTInvocationDispatcher *_remoteStatusDispatcher;
-    RTTimer *_remoteStatusTimeoutTimer;
-    RTDefaultsManager *_defaultsManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTIntermittentGNSSManagerMetrics *_metrics;
-    RTMotionActivityManager *_motionActivityManager;
-    RTPlatform *_platform;
-    RTTimerManager *_timerManager;
-    RTVehicleLocationProvider *_vehicleLocationProvider;
-    RTWiFiManager *_wifiManager;
-    RTTimer *_conditionCheckTimer;
-    RTTimer *_wifiLocationStarvedTimer;
-    RTTimer *_wifiScanTimer;
-    RTDistanceCalculator *_distanceCalculator;
-    NSDate *_lastRegisteredForIntermittentGNSSVariableFlipDate;
-    NSDate *_lastLOINearbyCheckDate;
-    NSDate *_lastSettledStateChangeDate;
-    NSDate *_lastWifiLocationDate;
-    NSDate *_lastDenseWifiScanResultDate;
-    double _totalDailyDuration;
-    NSMutableArray *_accessPoints;
-    unsigned long long _currentDominantMotionType;
-    unsigned long long _intermittentGNSSOverrideState;
 }
 
 + (_Bool);
@@ -69,8 +31,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)};
+- (id)e key in the keychain [Identifier:%@] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -85,7 +47,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (_Bool);
 - (void);
@@ -102,13 +64,13 @@
 - (double);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)service %@ since phone number accounts are disabled;
+- (void)nt:(id)arg1 options:delegate:queue:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -125,29 +87,29 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void)2@40@48@56;
-- (void)etLastLockDate:(id)arg1;
-- (id)tGeoMapItem: /* Error: Ran out of types for this method. */;
-- (id)vity;
-- (_Bool)ePOITilesWithGeoTileKeys:handler: /* Error: Ran out of types for this method. */;
+- (void)setLastLockDate:(id)arg1;
+- (id)setGeoMapItem: /* Error: Ran out of types for this method. */;
+- (id)onUserDisabledConnectivity;
+- (_Bool)_removeBluePOITilesWithGeoTileKeys:handler: /* Error: Ran out of types for this method. */;
 - (_Bool)T@"CLLocation",&,N,V_originLocation;
-- (int)enessBeforeUnlockTimerDurationKey;
+- (int)RTDefaultsSessionManagerEndAwarenessBeforeUnlockTimerDurationKey;
 - (id)dMapItem, %@, reverseGeocodeError, %@;
 - (id)clRoadID,%llu;
-- (void)days_with_screen_lock_others_bucketed;
+- (void)percentage_of_days_with_screen_lock_others_bucketed;
 - (void)ires a non-nil location of interest.;
 - (id)dates, %.2f, maxDaysNonZeroDwellTimePlaceCandidates, %.2f, minWeeklyAggregateDwellTimeBetweenDateRangeAveragePlaceCandidates, %.2f, totalWeeklyVisitCountPlaceCandidates, %.2f:%{sensitive}@ /* Error: Ran out of types for this method. */;
 - (void)f ActiveSessionDetails;
@@ -162,43 +124,7 @@
 - (void).¬Þ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(nonatomic) _Bool activeWifiScan; // @synthesize activeWifiScan=_activeWifiScan;
-@property(nonatomic) _Bool awayFromFrequentlyVisitedLOI; // @synthesize awayFromFrequentlyVisitedLOI=_awayFromFrequentlyVisitedLOI;
-@property(nonatomic) _Bool completedInitialWifiScan; // @synthesize completedInitialWifiScan=_completedInitialWifiScan;
-@property(retain, nonatomic) RTTimer *conditionCheckTimer; // @synthesize conditionCheckTimer=_conditionCheckTimer;
-@property(nonatomic) unsigned long long currentDominantMotionType; // @synthesize currentDominantMotionType=_currentDominantMotionType;
-@property(nonatomic) int currentSignalEnvironment; // @synthesize currentSignalEnvironment=_currentSignalEnvironment;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) unsigned long long intermittentGNSSOverrideState; // @synthesize intermittentGNSSOverrideState=_intermittentGNSSOverrideState;
-@property(retain, nonatomic) NSDate *lastDenseWifiScanResultDate; // @synthesize lastDenseWifiScanResultDate=_lastDenseWifiScanResultDate;
-@property(retain, nonatomic) NSDate *lastLOINearbyCheckDate; // @synthesize lastLOINearbyCheckDate=_lastLOINearbyCheckDate;
-@property(retain, nonatomic) NSDate *lastRegisteredForIntermittentGNSSVariableFlipDate; // @synthesize lastRegisteredForIntermittentGNSSVariableFlipDate=_lastRegisteredForIntermittentGNSSVariableFlipDate;
 @property(nonatomic) long long lastRemoteStatus; // @synthesize lastRemoteStatus=_lastRemoteStatus;
-@property(retain, nonatomic) NSDate *lastSettledStateChangeDate; // @synthesize lastSettledStateChangeDate=_lastSettledStateChangeDate;
-@property(retain, nonatomic) NSDate *lastWifiLocationDate; // @synthesize lastWifiLocationDate=_lastWifiLocationDate;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTIntermittentGNSSManagerMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(nonatomic) _Bool motionActivityTypeSatisfied; // @synthesize motionActivityTypeSatisfied=_motionActivityTypeSatisfied;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic) int previousSignalEnvironment; // @synthesize previousSignalEnvironment=_previousSignalEnvironment;
-@property(nonatomic) _Bool registeredForIntermittentGNSS; // @synthesize registeredForIntermittentGNSS=_registeredForIntermittentGNSS;
-@property(nonatomic) unsigned long long remoteStatusChecklist; // @synthesize remoteStatusChecklist=_remoteStatusChecklist;
-@property(retain, nonatomic) RTInvocationDispatcher *remoteStatusDispatcher; // @synthesize remoteStatusDispatcher=_remoteStatusDispatcher;
-@property(retain, nonatomic) RTTimer *remoteStatusTimeoutTimer; // @synthesize remoteStatusTimeoutTimer=_remoteStatusTimeoutTimer;
-@property(nonatomic) _Bool settledStateLOIVerified; // @synthesize settledStateLOIVerified=_settledStateLOIVerified;
-@property(nonatomic) _Bool signalEnvironmentAtRisk; // @synthesize signalEnvironmentAtRisk=_signalEnvironmentAtRisk;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(nonatomic) double totalDailyDuration; // @synthesize totalDailyDuration=_totalDailyDuration;
-@property(nonatomic) _Bool unsettled; // @synthesize unsettled=_unsettled;
-@property(retain, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
-@property(nonatomic) _Bool wifiLocationStarved; // @synthesize wifiLocationStarved=_wifiLocationStarved;
-@property(retain, nonatomic) RTTimer *wifiLocationStarvedTimer; // @synthesize wifiLocationStarvedTimer=_wifiLocationStarvedTimer;
-@property(retain, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(retain, nonatomic) RTTimer *wifiScanTimer; // @synthesize wifiScanTimer=_wifiScanTimer;
 
 @end
 

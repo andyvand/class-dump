@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol NSSpeechRecognizerDelegate;
 
 @interface NSSpeechRecognizer
@@ -18,23 +17,19 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)dataTaskWithRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)nvalidated;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fo:(id)arg1 text-align="end" ;
 - (void)ÿ;
 - (void)om top down: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool blocksOtherRecognizers;
-@property(copy) NSArray *commands;
 @property __weak id <NSSpeechRecognizerDelegate> delegate;
-@property(copy) NSString *displayedCommandsTitle;
-@property _Bool listensInForegroundOnly;
 
 @end
 

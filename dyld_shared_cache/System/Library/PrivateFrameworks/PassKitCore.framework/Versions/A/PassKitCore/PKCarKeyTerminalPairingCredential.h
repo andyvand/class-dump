@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKAddCarKeyPassConfiguration;
+@class PKAddCarKeyPassConfiguration;
 
 @interface PKCarKeyTerminalPairingCredential : PKPaymentCredential
 {
     PKAddCarKeyPassConfiguration *_configuration;
-    NSString *_productIdentifier;
 }
 
 - (id);
@@ -19,12 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)ate;
+- (_Bool)hasGatewayPingDuration;
+- (void)precursorPassUpdate;
 
 // Remaining properties
 @property(readonly, nonatomic) PKAddCarKeyPassConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
 
 @end
 

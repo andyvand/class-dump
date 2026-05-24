@@ -5,12 +5,10 @@
 //
 
 @class CRRecentContactsLibrary;
-@protocol CNScheduler;
 
 @interface CNUICoreRecentsManager
 {
     CRRecentContactsLibrary *_recentsLibrary;
-    id <CNScheduler> _workQueue;
 }
 
 + (CDUnknownBlockType);
@@ -36,11 +34,10 @@
 - (id);
 - (id);
 - (id);
-- (void)eUserActivityState:withContentsOfListTopContact:displayedContact:searchString:isShowingGroups: /* Error: Ran out of types for this method. */;
+- (void)updateUserActivityState:withContentsOfListTopContact:displayedContact:searchString:isShowingGroups: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CRRecentContactsLibrary *recentsLibrary; // @synthesize recentsLibrary=_recentsLibrary;
-@property(readonly, nonatomic) id <CNScheduler> workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

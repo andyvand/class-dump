@@ -9,7 +9,7 @@
 - (int);
 - (_Bool);
 - (void);
-- (struct _NSModalSession *);
+- (struct _NSModalSession *);
 - (struct _NSModalSession *);
 - (id);
 @end

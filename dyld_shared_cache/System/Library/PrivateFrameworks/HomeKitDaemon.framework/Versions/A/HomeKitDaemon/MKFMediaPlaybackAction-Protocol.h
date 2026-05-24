@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFMediaPlaybackActionDatabaseID, MPPlaybackArchive, NSArray, NSNumber;
-@protocol MKFHome;
+@class MPPlaybackArchive, NSNumber;
+@protocol MKFAccessory, MKFHome;
 
 @protocol MKFMediaPlaybackAction
+- (MPPlaybackArchive *)receivingRulesForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)nates:(id <MKFAccessory>)arg1 %{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (void)timeOfDayGivenCallWithEntity;
 - (NSNumber *)1Â0@ù
 × ;
 - (id <MKFHome>)áàÐ!Dùqð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accessories;
-@property(readonly, copy, nonatomic) MKFMediaPlaybackActionDatabaseID *databaseID;
 @property(retain, nonatomic) MPPlaybackArchive *encodedPlaybackArchive;
-@property(readonly) id <MKFHome> home;
-@property(copy, nonatomic) NSNumber *state;
-@property(copy, nonatomic) NSNumber *volume;
 @end
 

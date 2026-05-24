@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXGridInlinePlaybackController, PXPhotosContentController, PXPhotosContentInlinePlaybackController, PXPhotosGridFooterPresentation, PXPhotosGridFooterStatusController, PXPhotosViewOptionsModel;
-@protocol PXGDisplayAssetPixelBufferSourcesProvider, PXPhotosViewEventTracker;
+@class PXPhotosContentInlinePlaybackController, PXPhotosViewOptionsModel;
 
 @interface PXPhotosAppGridContentController
 {
     PXPhotosContentInlinePlaybackController *_photosInlinePlaybackController;
-    _Bool _shouldEnablePlaybackDuringAnimatedScroll;
-    _Bool _needsCountsInitially;
-    _Bool _needsFooterStatusController;
-    PXPhotosGridFooterStatusController *_footerStatusController;
-    PXPhotosGridFooterPresentation *_footerPresentation;
-    PXPhotosContentController *_contentController;
-    id <PXPhotosViewEventTracker> _eventTracker;
-    id _swift_associatedData;
-    PXPhotosViewOptionsModel *_viewOptionsModel;
 }
 
 - (id);
@@ -49,7 +39,7 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -75,28 +65,9 @@
 ×  /* Error: Ran out of types for this method. */;
 - (void)braryMockDataSourceManager init];
 - (void)uery.entities(for:(id)arg1 ) [Singular];
-- (void)tem;
+- (void)BackingItem;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appIntentsDebugDescription;
-@property(readonly, nonatomic) __weak PXPhotosContentController *contentController; // @synthesize contentController=_contentController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableSpatialPhotoPlayback;
-@property(readonly, nonatomic) id <PXPhotosViewEventTracker> eventTracker; // @synthesize eventTracker=_eventTracker;
-@property(readonly, nonatomic) PXPhotosGridFooterPresentation *footerPresentation; // @synthesize footerPresentation=_footerPresentation;
-@property(readonly, nonatomic) PXPhotosGridFooterStatusController *footerStatusController; // @synthesize footerStatusController=_footerStatusController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXGridInlinePlaybackController<PXGDisplayAssetPixelBufferSourcesProvider> *inlinePlaybackController;
-@property(readonly, nonatomic) _Bool needsCountsInitially; // @synthesize needsCountsInitially=_needsCountsInitially;
-@property(readonly, nonatomic) _Bool needsFooterStatusController; // @synthesize needsFooterStatusController=_needsFooterStatusController;
-@property(nonatomic) long long numberOfItemsToPlayInline;
-@property(nonatomic) _Bool shouldEnablePlaybackDuringAnimatedScroll; // @synthesize shouldEnablePlaybackDuringAnimatedScroll=_shouldEnablePlaybackDuringAnimatedScroll;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id swift_associatedData; // @synthesize swift_associatedData=_swift_associatedData;
 @property(readonly, nonatomic) PXPhotosViewOptionsModel *viewOptionsModel; // @synthesize viewOptionsModel=_viewOptionsModel;
 
 @end

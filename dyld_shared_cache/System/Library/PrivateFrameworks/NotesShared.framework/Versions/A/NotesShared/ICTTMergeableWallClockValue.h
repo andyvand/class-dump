@@ -10,7 +10,6 @@
 @interface ICTTMergeableWallClockValue
 {
     id <NSObject><NSCopying> _value;
-    NSDate *_timestamp;
 }
 
 + (id);
@@ -23,14 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)teContext",R,N,V_noteContext;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) id <NSObject><NSCopying> value; // @synthesize value=_value;
 
 @end
 

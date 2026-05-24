@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLSessionDataTask, WBSConfigurationDataTransformer;
+@class WBSConfigurationDataTransformer;
 
 @interface WBSConfigurationDownloader
 {
     WBSConfigurationDataTransformer *_transformer;
-    NSURLSessionDataTask *_dataTask;
-    NSURL *_baseURL;
-    NSString *_fileName;
-    _Bool _isCancelled;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)A×Ð!¼FùÑX1Â0@ù

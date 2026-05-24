@@ -11,8 +11,6 @@
         unsigned long long count;
         unsigned long long size;
     } _deviceIDs;
-    unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
@@ -21,26 +19,23 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)?;
 - (id);
-- (id);
+- (id)uod_asr_on_server_enabled_remora;
 - (void),C,N,V_customData;
 - (unsigned int *)øò;
-- (unsigned int)ormats;
+- (unsigned int)requestedRemoteArtworkFormats;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *deviceIDs;
 @property(readonly, nonatomic) unsigned long long deviceIDsCount;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
 
 @end
 

@@ -4,37 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TSKSelection, UIView;
+@class NSArray, NSString, TSKSelection, UIColor, UIFont, UIView;
 @protocol TSDTextSelection;
 
 @protocol TSDTextInput
+- (_Bool)ple.MPCMediaRemoteController.playerPathControllersQueue/callout;
+- (TSKSelection<TSDTextSelection> *)ediaRemoteController.playerPathControllersQueue/access;
+- (UIFont *)ContentItemIdentifier [nullcontroller - init];
+- (UIColor *)ntentItemArtworkForIdentifier [nullcontroller - init];
+- (void)sts;
+- (struct _NSRange)sing section model class] for identifiers:(unsigned long long)arg1 %@;
+- (_Bool)AYER EVENT RECEIVED   〔;
+- (struct _NSRange)lic}@;
 - (UIView *)0@ù
 × ;
 - (long long)mFormulaError;
-- (NSString *)election:(struct _NSRange)arg1 withInteractiveCanvasController: /* Error: Ran out of types for this method. */;
-- (UIView *)oundary:inDirection:preferPosition: /* Error: Ran out of types for this method. */;
+- (NSString *)infosToConnectFromSelection:(struct _NSRange)arg1 withInteractiveCanvasController: /* Error: Ran out of types for this method. */;
+- (UIView *)charIndexByMovingPosition:toBoundary:inDirection:preferPosition: /* Error: Ran out of types for this method. */;
 - (NSArray *)exturedRectangle",N;
 - (struct _NSRange)&) const;
 - (struct CGRect)g the write lock;
 
 @optional
+- (long long)dleID[MR]=%@;
+- (_Bool)lay queue identifers;
+- (NSString *)MPMusicPlayerQueueDescriptor;
+- (void)continueListening;
+- (void)nsToPopulate contains non-section:(long long)arg1 %@;
+- (TSKSelection<TSDTextSelection> *)lder(_MPCAccumulatorProgressiveResult *__strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong);
+- (void);
+- (void)backQueue;
+- (unsigned long long)PlayerItemSnapshot;
+- (void);
+- (_Bool);
 - (long long)Orientation;
 - (void)÷¬ø;
 - (NSArray *)inedLayoutForInstructionalText];
 - (UIView *)=%f; tail position=%@, tail size=%f natural size=%@;
 
 // Remaining properties
-@property(readonly, retain) UIView *inputAccessoryView;
-@property(readonly, retain) UIView *inputView;
-@property(readonly, nonatomic) struct _NSRange markedRange;
-@property(retain, nonatomic) TSKSelection<TSDTextSelection> *selectionForArrowKeys;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSKSelection<TSDTextSelection>",?,&,N
-
 @property(readonly, retain, nonatomic) TSKSelection<TSDTextSelection> *textInputSelection;
-@property(readonly) _Bool wantsRawArrowKeyEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @end
 

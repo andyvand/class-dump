@@ -6,13 +6,11 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface REMEventKitBridgingDataViewInvocation_fetchIncompleteRemindersWithDueDate : REMStoreInvocation
 {
     NSArray *_listIDs;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool);
@@ -24,14 +22,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) NSArray *listIDs; // @synthesize listIDs=_listIDs;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

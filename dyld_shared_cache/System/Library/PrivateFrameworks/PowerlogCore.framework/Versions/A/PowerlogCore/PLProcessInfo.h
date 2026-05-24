@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface PLProcessInfo
 {
     int _pid;
-    double _totalSystemTime;
-    double _totalUserTime;
-    NSString *_processName;
-    NSDictionary *_threadNameToInfo;
 }
 
 - (double);
@@ -21,24 +15,20 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)$>;
 - (id);
 - (double);
 - (void);
-- (int);
+- (int)H;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)_shouldResetRequestAfterHandle;
+- (void)h;
 - (void);
 
 // Remaining properties
-@property int pid; // @synthesize pid=_pid;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
-@property(retain) NSDictionary *threadNameToInfo; // @synthesize threadNameToInfo=_threadNameToInfo;
 @property double totalSystemTime; // @synthesize totalSystemTime=_totalSystemTime;
-@property double totalUserTime; // @synthesize totalUserTime=_totalUserTime;
 
 @end
 

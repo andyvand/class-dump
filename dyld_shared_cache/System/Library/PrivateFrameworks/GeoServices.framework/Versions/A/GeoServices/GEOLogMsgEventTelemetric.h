@@ -9,17 +9,16 @@
 @interface GEOLogMsgEventTelemetric
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_telemetricEntitys;
 }
 
 + (Class);
-+ (_Bool)identMessageIndex:(id)arg1;
++ (_Bool)setHasSteppingTransitIncidentMessageIndex:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)sendResultsToObserver: /* Error: Ran out of types for this method. */;
+- (void)dateFormatPlaceholderString;
 - (void);
 - (id);
 - (id);
@@ -28,10 +27,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setDescriptorCache:(id)arg1;
 - (_Bool);
 - (void);
-- (id)EverConnectedToCarplay:(struct _NSZone *)arg1;
+- (id)setWasEverConnectedToCarplay:(struct _NSZone *)arg1;
 - (id)ansfer;
 - (id)GEODirectionsServiceWaypointModificationType_Delete` - Invalid number of waypoints. Cannot delete;
 - (id);
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *telemetricEntitys;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

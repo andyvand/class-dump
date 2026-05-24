@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceCanvasStatusProgress
 {
     id total;
-    id completed;
-    id editor;
-    id message;
-    id identifier;
 }
 
 @end

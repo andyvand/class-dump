@@ -6,45 +6,32 @@
 
 #import <TSReading/TSDStyledInfo.h>
 
-@class NSString;
-
 @interface TSDMediaInfo : TSDStyledInfo
 {
     struct CGSize mOriginalSize;
-    struct {
-        unsigned int isPlaceholder:1;
-        unsigned int wasMediaReplaced:1;
-    } mFlags;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)nternalPlayerController - Attempting to play without a player - Stack: /* Error: Ran out of types for this method. */;
+- (void)tion info;
+- (void)ing;
 - (void);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
+- (struct CGSize)q;
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)endOfArticleReadCount;
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (unsigned int);
 - (void);
-- (void)eStyle:(id)arg1;
+- (void)setTableNameShapeStyle:(id)arg1;
 - (_Bool)ect<TSDCanvasEditor>",&,N,VmCanvasEditor;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize defaultOriginalSize;
-@property(nonatomic) unsigned int flags;
-@property(nonatomic) _Bool isPlaceholder;
-@property(readonly, nonatomic) NSString *mediaDisplayName;
-@property(readonly, nonatomic) NSString *mediaFileType;
 @property(nonatomic) struct CGSize originalSize; // @synthesize originalSize=mOriginalSize;
-@property(readonly, nonatomic) struct CGSize rawDataSize;
-@property(nonatomic) _Bool wasMediaReplaced;
 
 @end
 

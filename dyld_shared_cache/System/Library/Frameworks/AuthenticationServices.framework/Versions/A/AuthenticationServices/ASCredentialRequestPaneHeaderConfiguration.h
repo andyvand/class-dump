@@ -17,8 +17,8 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (long long);
+- (id)startRedirectingTabDialogPresentationForBrowserViewController: /* Error: Ran out of types for this method. */;
+- (long long)HeightConstraint;
 - (id);
 - (void);
 - (_Bool);
@@ -27,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSString *subtitle;
 @property(nonatomic, copy) NSString *title;
 
 @end

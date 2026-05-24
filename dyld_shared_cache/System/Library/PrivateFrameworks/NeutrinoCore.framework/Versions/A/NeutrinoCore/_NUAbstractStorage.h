@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUMutableRegion, NUPixelFormat, NURegion;
+@class NUMutableRegion;
 
 @interface _NUAbstractStorage
 {
     NUMutableRegion *_validRegion;
-    _Bool isDirty;
-    float contentHeadroom;
-    NUColorSpace *colorSpace;
-    NUPixelFormat *_format;
-    CDStruct_d58201db _size;
 }
 
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (long long);
@@ -35,13 +30,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)checkAndPromptRepairIfNeededWithLocale:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (CDStruct_912cb5d2);
-- (void);
-- (_Bool);
+- (void)y/Logs/CrashReporter/CoreCapture/WiFi;
+- (_Bool)_httpClientDidCloseConnectionDueToServer: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
 - (void);
@@ -49,20 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NUColorSpace *colorSpace; // @synthesize colorSpace;
-@property float contentHeadroom; // @synthesize contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NUPixelFormat *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property _Bool isDirty; // @synthesize isDirty;
 @property CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) long long sizeInBytes; // @dynamic sizeInBytes;
-@property(readonly) Class superclass;
-@property(readonly) NURegion *validRegion;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface RemindersUICore.TTRShowTemplateDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id template;
-    id listRepresentation;
-    id countCompleted;
-    id store;
-    id dataViewMonitor;
 }
 
 @end

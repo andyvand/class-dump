@@ -13,7 +13,8 @@
     id _aesKeyInternal;
 }
 
-- (id);
+- (id)
+3I;
 - (void);
 
 // Remaining properties

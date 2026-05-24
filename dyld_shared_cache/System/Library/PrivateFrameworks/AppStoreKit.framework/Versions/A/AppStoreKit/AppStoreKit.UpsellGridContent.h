@@ -7,7 +7,6 @@
 @interface AppStoreKit.UpsellGridContent
 {
     id primaryIcon;
-    id remainingIcons;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface SAUITemplateTabularDataColumn : SAUITemplateBaseItem
 {
@@ -18,15 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *minimumWidth;
-@property(copy, nonatomic) NSNumber *rightMargin;
-@property(copy, nonatomic) NSArray *values;
 
 @end
 

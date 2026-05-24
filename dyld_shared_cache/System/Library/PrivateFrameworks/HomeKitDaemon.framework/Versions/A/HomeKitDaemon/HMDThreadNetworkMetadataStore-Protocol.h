@@ -5,5 +5,9 @@
 //
 
 @protocol HMDThreadNetworkMetadataStore
+- (void);
+- (void)u chunks (up to %#.1lfkB each)
+	destinations:(void (^)(_Bool, NSError *))arg1 %{private}@
+	options:%{public}@ /* Error: Ran out of types for this method. */;
 @end
 

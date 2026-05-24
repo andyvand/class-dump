@@ -9,46 +9,33 @@
 @interface NTPBShareSheetIapFail
 {
     NSString *_articleId;
-    NSString *_failedIapId;
-    int _failureReason;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int failureReason:1;
-    } _has;
 }
 
+- (_Bool)createAnchorForScrollingToPosition: /* Error: Ran out of types for this method. */;
+- (id)configurationWithSystemImageName:title:spec: /* Error: Ran out of types for this method. */;
+- (void)changeRequestForSuggestion:(id)arg1;
+- (void)@9	;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (id)a;
+- (void)ed.;
 - (id);
 - (_Bool);
+- (void)nforcesChildRestrictions:(id)arg1 %{public}hhd;
 - (void);
 - (_Bool);
+- (unsigned long long)_providedAVPlayer;
+- (void);
+- (id);
+- (_Bool)UserMatch(displayName:(id)arg1 %@, confidence:%.1f%%, reason:%@, isAdmin:%@, isFileVaultEnabled:%@, uid:%ld) /* Error: Ran out of types for this method. */;
+- (void)FeedQueryOperation validateOperation];
+- (_Bool)ublic}s;
 - (int);
 - (id);
 - (id);
-- (void)chAppSessionDuration: /* Error: Ran out of types for this method. */;
+- (void)setWatchAppSessionDuration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSString *failedIapId; // @synthesize failedIapId=_failedIapId;
-@property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly, nonatomic) _Bool hasArticleId;
 @property(readonly, nonatomic) _Bool hasFailedIapId;
-@property(nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

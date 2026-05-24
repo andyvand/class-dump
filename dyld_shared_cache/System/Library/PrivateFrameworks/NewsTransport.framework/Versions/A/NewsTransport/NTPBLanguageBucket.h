@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBGroupingFlags;
+@class NTPBGroupingFlags;
 
 @interface NTPBLanguageBucket
 {
     NTPBGroupingFlags *_groupingFlags;
-    NSString *_key;
-    NSMutableArray *_values;
 }
 
 + (Class);
-- (void);
-- (_Bool);
-- (id);
+- (void)collectionView:(id)arg1 didChangeItemsAtIndexPaths:toHighlightState: /* Error: Ran out of types for this method. */;
+- (_Bool)allEntriesInLibrary: /* Error: Ran out of types for this method. */;
+- (id)actionConfirmationAlertButtonTitle;
 - (id);
 - (void);
 - (id);
@@ -30,18 +28,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id))A;
 - (id);
 - (_Bool);
 - (void);
-- (void)CuratedSubtype: /* Error: Ran out of types for this method. */;
+- (void)setCuratedSubtype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBGroupingFlags *groupingFlags; // @synthesize groupingFlags=_groupingFlags;
-@property(readonly, nonatomic) _Bool hasGroupingFlags;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

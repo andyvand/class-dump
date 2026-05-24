@@ -7,26 +7,22 @@
 @interface CKManualUpdater
 {
     _Bool _needsUpdate;
-    id _target;
-    SEL _action;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (id);
-- (SEL)ance;
+- (SEL)currentPlatterAppearance;
 - (void)GÄÇ[o»\yA%\yë	\yE»\yç \j%\GAIGGGG;
 - (_Bool)è;
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
 @property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end
 

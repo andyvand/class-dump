@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)uginToPrepareForDraftWithCompletion:(struct CGPoint)arg1;
+- (_Bool)requestPollPluginToPrepareForDraftWithCompletion:(struct CGPoint)arg1;
 
 @end
 

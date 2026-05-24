@@ -4,55 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, _OSSystemExtensionsWorkspaceServerToClientInterface;
-
 __attribute__((visibility("hidden")))
 @interface OSSystemExtensionsWorkspaceClient
 {
     id _remoteProtocol;
-    id _exportedProtocol;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <_OSSystemExtensionsWorkspaceServerToClientInterface> _delegate;
 }
 
+- (void)lFilePath:(id)arg1 can't get new path from original %@ destination %@;
+- (void)component from %@;
+- (void)yFileFromOriginalFilePath:(id)arg1 can't get last path component from %@;
+- (void)rom %@;
+- (void)PairResourceTransferSender open() failed;
+- (_Bool)d %d messageUUID %@;
+- (id)scriptor:%d expiryDate:%@ /* Error: Ran out of types for this method. */;
+- (void)ver:(CDUnknownBlockType)arg1 already done with this resource! messageUUID %@;
+- (id)ourceTransferReceiver:finished writing all %llu  bytes to file %@ /* Error: Ran out of types for this method. */;
+- (void)th filesystem-free-size %llu header %@ expiryDate %@;
+- (_Bool)(%s));
+- (id)UyZEJ-k16sBj1A0ZEirDhV4TOzEpeqeU/Library/Caches/com.apple.xbs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDSFoundation/IDSSocketPairMessage.m;
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)ation (%d);
 - (id);
-- (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)s:(id)arg1 mapsExpectedTravelTime:remainingDistance:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)ansformer reverseTransformedValue:(id)arg1 ];
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_OSSystemExtensionsWorkspaceServerToClientInterface> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) id exportedProtocol; // @synthesize exportedProtocol=_exportedProtocol;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain) id remoteProtocol; // @synthesize remoteProtocol=_remoteProtocol;
-@property(readonly) Class superclass;
 
 @end
 

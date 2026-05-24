@@ -6,26 +6,12 @@
 
 #import <PhotosUICore/PXStoryBaseTimeline.h>
 
-@class NSCountedSet, NSMutableDictionary;
-
 @interface PXStoryDummyTimeline : PXStoryBaseTimeline
 {
     CDStruct_e83c9415 _timeRange;
-    long long _clipCapacity;
-    CDStruct_e83c9415 *_clipTimeRanges;
-    struct CGRect *_clipFrames;
-    CDStruct_c0304e72 *_clipInfos;
-    long long _segmentCapacity;
-    CDStruct_e83c9415 *_segmentTimeRanges;
-    CDStruct_ae7b37d2 *_segmentInfos;
-    NSMutableDictionary *_clipsByIdentifier;
-    NSCountedSet *_resourceOccurrenceCounts;
-    long long _numberOfSegments;
-    long long _numberOfClips;
-    struct CGSize _size;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -33,13 +19,13 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct CGSize);
 - (id)
 × ;
-- (id)yheadMovedManually:(struct _NSZone *)arg1 currentAudioVolume: /* Error: Ran out of types for this method. */;
+- (id)setIsPlayheadInVideoTimeRange:(struct _NSZone *)arg1 isPlayheadInAudioTimeRange:wasPlayheadMovedManually:currentAudioVolume: /* Error: Ran out of types for this method. */;
 - (CDStruct_e83c9415)lu) doesn't match with count of inserted indexes (%lu);
 - (void);
 

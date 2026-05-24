@@ -6,35 +6,25 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSData, NSString, NSURL, PKAccount, PKPaymentRewardsRedemption;
+@class NSData, NSString;
 
 @interface PKPaymentRewrapResponseBase : PKPaymentWebServiceResponse
 {
     NSString *_transactionIdentifier;
-    NSData *_rewrappedPaymentData;
-    NSString *_primaryAccountNumberSuffix;
-    PKAccount *_account;
-    PKPaymentRewardsRedemption *_redemption;
-    NSURL *_issuerInstallmentManagementURL;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
 - (void)ing-tlks-user-did-not-reset;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSURL *issuerInstallmentManagementURL; // @synthesize issuerInstallmentManagementURL=_issuerInstallmentManagementURL;
-@property(readonly, copy, nonatomic) NSString *primaryAccountNumberSuffix; // @synthesize primaryAccountNumberSuffix=_primaryAccountNumberSuffix;
-@property(readonly, nonatomic) PKPaymentRewardsRedemption *redemption; // @synthesize redemption=_redemption;
 @property(copy, nonatomic) NSData *rewrappedPaymentData; // @synthesize rewrappedPaymentData=_rewrappedPaymentData;
-@property(readonly, copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

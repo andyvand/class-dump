@@ -9,7 +9,7 @@
     id animators;
 }
 
-- (id);
+- (id)n"16@0:8 /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (void);
@@ -31,9 +31,6 @@
 - (void)ops=;
 
 // Remaining properties
-@property(nonatomic) double fractionComplete;
-@property(nonatomic) _Bool reversed;
-@property(nonatomic, readonly) _Bool running;
 @property(nonatomic, readonly) long long state;
 
 @end

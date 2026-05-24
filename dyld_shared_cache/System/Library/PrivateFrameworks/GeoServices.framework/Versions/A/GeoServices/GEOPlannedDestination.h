@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSDate;
 
 @interface GEOPlannedDestination
 {
     NSDate *_arrivalDate;
-    NSDate *_expirationDate;
-    int _transportType;
-    NSData *_handle;
 }
 
 + (_Bool)%lf;
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)pendingAudioSessionActivationToken;
+- (id);
 - (void);
 - (id)!(BùQ·*Ð1Â0@ù
 × ;
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *arrivalDate; // @synthesize arrivalDate=_arrivalDate;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) NSData *handle; // @synthesize handle=_handle;
-@property(nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end
 

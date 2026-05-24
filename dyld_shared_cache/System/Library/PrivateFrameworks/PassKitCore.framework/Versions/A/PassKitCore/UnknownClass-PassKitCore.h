@@ -14,6 +14,5 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *street1;
-@property(nonatomic, copy) NSString *street2;
 @end
 

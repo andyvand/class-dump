@@ -4,64 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceBattery, GCDeviceLight, GCSystemButtonServer, GCSystemGesturesState, NSArray, NSMapTable, NSSet, NSString, _GCDeviceConfiguration;
-@protocol GCSSettingsStoreService, GCUserDefaults, NSObject><NSCopying><NSSecureCoding, _GCDefaultLogicalDeviceDelegate, _GCDeviceAdaptiveTriggersComponent, _GCDeviceBatteryComponent, _GCDeviceLightComponent, _GCDeviceManager, _GCDeviceMotionComponent, _GCDevicePlayerIndexIndicatorComponent, _GCDeviceSettingsComponent, _GCDeviceSystemGestureComponent, _GCPhysicalDevice;
+@protocol _GCPhysicalDevice;
 
 @interface _GCDefaultLogicalDevice
 {
     id <_GCPhysicalDevice> _underlyingDevice;
-    NSMapTable *_clients;
-    id <_GCDevicePlayerIndexIndicatorComponent> _devicePlayerIndicatorComponent;
-    long long _indicatedPlayerIndex;
-    NSMapTable *_clientPlayerIndicatorEndpoints;
-    id <_GCDeviceAdaptiveTriggersComponent> _deviceAdaptiveTriggersComponent;
-    NSArray *_adaptiveTriggerStatuses;
-    NSMapTable *_pidToAdaptiveTriggersComponent;
-    NSMapTable *_clientAdaptiveTriggersEndpoints;
-    id <_GCDeviceLightComponent> _deviceLightComponent;
-    GCDeviceLight *_light;
-    _Bool _lightClientOverrideEnabled;
-    _Bool _lightUserOverrideEnabled;
-    NSMapTable *_clientLightEndpoints;
-    id <_GCDeviceMotionComponent> _deviceMotionComponent;
-    _Bool _motionSensorsActive;
-    NSMapTable *_clientMotionEndpoints;
-    id <_GCDeviceBatteryComponent> _deviceBatteryComponent;
-    GCDeviceBattery *_battery;
-    NSMapTable *_clientBatteryEndpoints;
-    id <GCSSettingsStoreService> _settingsStore;
-    id <_GCDeviceSettingsComponent> _deviceSettingsComponent;
-    NSMapTable *_clientSettingsEndpoints;
-    id <_GCDeviceSystemGestureComponent> _deviceSystemGestureComponent;
-    id _deviceSystemGestureButtonHandle;
-    id _systemShellLauncherService;
-    GCSystemGesturesState *_activeSystemGesturesState;
-    NSMapTable *_clientToSystemGesturesState;
-    NSMapTable *_clientToSystemButtonResponderAssertion;
-    NSMapTable *_clientSystemGestureEndpoints;
-    GCSystemButtonServer *_systemButtonServer;
-    id <GCUserDefaults> _userDefaults;
-    int _activeApplicationPID;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    id <_GCDeviceManager> _manager;
-    _GCDeviceConfiguration *_configuration;
-    id <_GCDefaultLogicalDeviceDelegate> _delegate;
 }
 
 - (id);
 - (void);
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void);
 - (int);
 - (void);
 - (id);
@@ -70,10 +33,10 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)5;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)(;
+- (void)X;
 - (id);
 - (void);
 - (id);
@@ -85,21 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int activeApplicationPID; // @synthesize activeApplicationPID=_activeApplicationPID;
-@property(readonly) NSSet *components;
-@property(readonly, nonatomic) _GCDeviceConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_GCDefaultLogicalDeviceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) __weak id <_GCDeviceManager> manager; // @synthesize manager=_manager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <_GCPhysicalDevice> underlyingDevice; // @synthesize underlyingDevice=_underlyingDevice;
-@property(readonly) NSSet *underlyingDevices;
 
 @end
 

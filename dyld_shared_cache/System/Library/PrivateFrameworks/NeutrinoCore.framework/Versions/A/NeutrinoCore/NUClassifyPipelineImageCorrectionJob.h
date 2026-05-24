@@ -11,14 +11,13 @@
 @interface NUClassifyPipelineImageCorrectionJob : NURenderJob
 {
     VNObservation *_observation;
-    CDStruct_d58201db _imageSize;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)jh8hjh8i;
+- (id)b;
 - (id);
 - (id);
 - (_Bool);

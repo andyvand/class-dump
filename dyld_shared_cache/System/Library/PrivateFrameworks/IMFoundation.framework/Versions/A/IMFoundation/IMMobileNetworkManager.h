@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSRecursiveLock;
-
 @interface IMMobileNetworkManager
 {
     _Bool _registered;
-    _Bool _shouldBringUpDataContext;
-    _Bool _isDataPossible;
-    _Bool _isDataContextActive;
-    _Bool _isDataIndicatorNone;
-    _Bool _isDataContextUsable;
-    NSRecursiveLock *_lock;
-    NSMutableSet *_cellAutoAssociationTokens;
 }
 
 + (id);
@@ -30,50 +21,50 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)C;
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)CEL_ACTIVITY_FOR_SELECTOR;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)nput-tray-check;
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void));
+- (_Bool)C) (Ts1S);
+- (_Bool);
 - (void);
-- (_Bool)kPacketAsTimedOut: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)end. See rdar:(id)arg1 //problem/45973444", "event":%{public, location:escape_only}s, "condition":%{private, location:escape_only}s} /* Error: Ran out of types for this method. */;
+- (void){"msg%{public}.0s":(_Bool)arg1 "CLRunLoopSilo doesn't support time coercion. See rdar://problem/45973444", "event":%{public, location:escape_only}s, "condition":%{private, location:escape_only}s} /* Error: Ran out of types for this method. */;
+- (void)ification"8;
+- (_Bool);
+- (void);
+- (_Bool)_markPacketAsTimedOut: /* Error: Ran out of types for this method. */;
 - (_Bool)ist appendLinkedListNode:] /* Error: Ran out of types for this method. */;
 - (void);
 

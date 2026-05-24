@@ -6,7 +6,7 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringSelectionTarget.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringTarget, BKSHIDEventDisplay;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSMutableHIDEventDeferringSelectionTarget : BKSHIDEventDeferringSelectionTarget
 {
@@ -18,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventDisplay *display; // @dynamic display;
 @property(retain, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @dynamic environment;
-@property(retain, nonatomic) BKSHIDEventDeferringTarget *target; // @dynamic target;
 
 @end
 

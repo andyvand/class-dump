@@ -5,5 +5,6 @@
 //
 
 @protocol LACContextExternalizingXPC
+- (void)distinctListCount;
 @end
 

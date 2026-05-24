@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSSet, PGGraphYearNodeCollection;
+@class NSSet;
 
 @interface PGTimeTitleOptions
 {
     _Bool _filterDates;
-    _Bool _usePeopleSubtitleFormatWithYears;
-    _Bool _filterForSignificantDateNodes;
-    NSSet *_momentNodes;
-    PGGraphYearNodeCollection *_featuredYearNodes;
-    NSSet *_locationNodes;
-    unsigned long long _allowedFormats;
-    NSLocale *_locale;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (void)A;
 - (void);
 - (void);
 - (id);
+- (_Bool)eventTapManager:passivelyTappedMouseEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (_Bool)eventTapManager:activelyTappedGestureEvent:cgEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (id)currentParagraphRange;
+- (unsigned long long)AXKApplicationController;
+- (void)4;
+- (void);
+- (id)Versions/A/SecurityFoundation;
 - (void);
 - (id);
 - (void);
 - (id)lResults: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedFormats; // @synthesize allowedFormats=_allowedFormats;
-@property(retain, nonatomic) PGGraphYearNodeCollection *featuredYearNodes; // @synthesize featuredYearNodes=_featuredYearNodes;
-@property(nonatomic) _Bool filterDates; // @synthesize filterDates=_filterDates;
-@property(nonatomic) _Bool filterForSignificantDateNodes; // @synthesize filterForSignificantDateNodes=_filterForSignificantDateNodes;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSSet *locationNodes; // @synthesize locationNodes=_locationNodes;
 @property(retain, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(nonatomic) _Bool usePeopleSubtitleFormatWithYears; // @synthesize usePeopleSubtitleFormatWithYears=_usePeopleSubtitleFormatWithYears;
 
 @end
 

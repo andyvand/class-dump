@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)N3fst12SigmaMatcherINS_10PhiMatcherINS_13SortedMatcherINS_3FstINS_6ArcTplINS_17TropicalWeightTplIfEEEEEEEEEEEE;
 
 @end
 

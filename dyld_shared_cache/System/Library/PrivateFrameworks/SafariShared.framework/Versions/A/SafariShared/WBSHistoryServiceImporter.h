@@ -9,8 +9,6 @@
 @interface WBSHistoryServiceImporter
 {
     NSMutableArray *_visits;
-    WBSHistoryServiceDatabase *_database;
-    unsigned long long _visitTimePrecision;
 }
 
 - (unsigned long long);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) WBSHistoryServiceDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) unsigned long long visitTimePrecision; // @synthesize visitTimePrecision=_visitTimePrecision;
 
 @end
 

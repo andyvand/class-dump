@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLPredictionEventMetric, NSNumber, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MLPredictionEvent
 {
     NSObject<OS_dispatch_queue> *_predictionEventQueue;
-    long long _featuresPredictionCountSoFar;
-    unsigned long long _epochIndex;
-    MLPredictionEventMetric *_lastReportedMetric;
-    struct mach_timebase_info _timebaseInfo;
-    NSString *_bundleIdentifier;
-    NSString *_modelName;
-    NSNumber *_firstPartyExecutable;
-    NSNumber *_modelType;
 }
 
-- (id);
+- (id)originalSizeBytes;
 - (id);
 - (id);
 - (id);
@@ -36,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSNumber *firstPartyExecutable; // @synthesize firstPartyExecutable=_firstPartyExecutable;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSNumber *modelType; // @synthesize modelType=_modelType;
 
 @end
 

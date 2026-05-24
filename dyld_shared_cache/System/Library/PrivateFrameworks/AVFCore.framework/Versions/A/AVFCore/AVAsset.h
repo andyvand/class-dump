@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetInternal, AVDisplayCriteria;
+@class AVAssetInternal;
 
 @interface AVAsset
 {
     AVAssetInternal *_asset;
-    AVDisplayCriteria *_preferredDisplayCriteria;
 }
 
 @end

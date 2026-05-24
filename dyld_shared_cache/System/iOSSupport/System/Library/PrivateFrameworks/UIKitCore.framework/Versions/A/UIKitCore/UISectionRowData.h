@@ -4,42 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableViewRowData;
-
 __attribute__((visibility("hidden")))
 @interface UISectionRowData
 {
     _Bool _valid;
-    _Bool _sectionOffsetValid;
-    double _sectionOffset;
-    long long _sectionRowOffset;
-    unsigned long long _numRows;
-    double _sectionHeight;
-    double _headerOffset;
-    double _footerOffset;
-    long long _headerAlignment;
-    long long _footerAlignment;
-    double _maxHeaderTitleWidth;
-    double _maxFooterTitleWidth;
-    UITableViewRowData *_rowData;
-    struct CGSize _headerSize;
-    double _footerHeight;
-    unsigned long long _arrayLength;
-    float *_rowHeights;
-    double *_rowOffsets;
 }
 
 + (int);
 + (int);
 - (id);
 - (double);
-- (void);
+- (void)setPayloadCustomBehavior: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (void);
 - (double);
 - (double);
-- (void);
+- (void);
 - (long long)ù
 × ;
 - (void)\Ð1Â0@ù
@@ -47,19 +28,19 @@ __attribute__((visibility("hidden")))
 - (int)Ô ;
 - (double);
 - (struct CGSize);
-- (double)path:(long long)arg1;
-- (void):(long long)arg1;
-- (void)tiveTextShortAudioBrightness;
-- (int)tionAdjustmentForSearchBarIcon:(long long)arg1;
-- (void)allTextDragOnView:(double)arg1;
-- (void)ressWithExecutionContext:(long long)arg1;
-- (void)berOfLines:(double)arg1 includingShadow:(long long)arg2;
-- (void)ultOriginShape;
-- (double)antiateViewControllerWithIdentifier:(long long)arg1 creator:(long long)arg2 storyboardSegueTemplate:(_Bool)arg3 sender: /* Error: Ran out of types for this method. */;
+- (double)set_path:(long long)arg1;
+- (void)setTrailingBarNoItemsConstraint:(long long)arg1;
+- (void)predictiveTextShortAudioBrightness;
+- (int)positionAdjustmentForSearchBarIcon:(long long)arg1;
+- (void)installTextDragOnView:(double)arg1;
+- (void)endLongPressWithExecutionContext:(long long)arg1;
+- (void)_textRectForBounds:(double)arg1 limitedToNumberOfLines:(long long)arg2 includingShadow: /* Error: Ran out of types for this method. */;
+- (void)_defaultOriginShape;
+- (double)__reallyInstantiateViewControllerWithIdentifier:(long long)arg1 creator:(long long)arg2 storyboardSegueTemplate:(_Bool)arg3 sender: /* Error: Ran out of types for this method. */;
 - (double)trackingElementsNeedUpdate;
 - (double)eActionRepresentationView",W,N,S_setVisualRepresentation:(long long)arg1 ,V__visualRepresentation;
 - (struct CGSize)e;
-- (id)rReevaluation;
+- (id)_needsLocalBehaviorReevaluation;
 - (void)OÐPSSôTdVZ;
 - (double)void _UIUpdateCompletionObservationAddObserver(_UIUpdateCompletionObservation *const _Nonnull, const id<_UIUpdateCompletionObserving>  _Nonnull const __strong, const BOOL);
 - (void)³lÜ°^;

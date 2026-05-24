@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)fp_safeDecodeNSDictionaryForKey:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void)etectorBasedTorso;
+- (void);
+- (void)VNCreateTorsoprintRequestPrivateRevisionSydroMD2HomeAIHumanDetectorBasedTorso;
 
 @end
 

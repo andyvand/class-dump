@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetal4CommandAllocator, IOGPUMetal4CommandBuffer, NSCountedSet, NSObject;
-@protocol MTLSharedEventSPI, OS_dispatch_queue;
-
 @interface IOGPUMetal4CommandQueue
 {
     struct os_unfair_lock_s _mappingLock;
-    IOGPUMetal4CommandBuffer *_mappingCommandBuffer;
-    id <MTLSharedEventSPI> _postMappingEvent;
-    unsigned long long _postMappingValue;
-    _Bool _disableAsyncMapping;
-    _Bool _tier1ResourceMapping;
-    struct __IOGPUCommandQueue *_commandQueue;
-    int _qosLevel;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSCountedSet *_resourceGroups[2];
-    struct os_unfair_lock_s _resourceGroupsLock;
-    IOGPUMetal4CommandAllocator *_commandAllocator;
-    unsigned long long _lastSubmissionID;
-    CDUnknownBlockType _scheduledHandler;
 }
 
 - (id);
@@ -31,14 +15,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)9!;
+- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Ts";
 - (id);
 - (void);
 - (void);
@@ -46,10 +30,10 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)CNLikenessEditorPresentationPopoverStrategy;
+- (void)act"16@?0@"CNContact"8;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)didCheckActionResponseDelegate;
 - (id);
 - (void);
 - (id);

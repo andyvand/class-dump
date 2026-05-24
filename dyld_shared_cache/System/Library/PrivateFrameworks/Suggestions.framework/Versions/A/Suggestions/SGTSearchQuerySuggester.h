@@ -6,17 +6,17 @@
 
 #import <Suggestions/SGTSuggester.h>
 
-@class NSArray, NSString, SGTSearchQuerySuggesterReserved;
+@class NSArray, SGTSearchQuerySuggesterReserved;
 
 @interface SGTSearchQuerySuggester : SGTSuggester
 {
     SGTSearchQuerySuggesterReserved *_reserved2;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
++ (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -24,15 +24,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)3;
 - (_Bool);
 - (id);
 - (id);
@@ -40,40 +40,25 @@
 - (id);
 - (id);
 - (void);
+- (void)#;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)i;
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)qa;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)J	;
+- (void)akColorWithWhite:alpha: /* Error: Ran out of types for this method. */;
 - (void)¥;
 
 // Remaining properties
-@property(copy) NSArray *additionalAttributeNames;
-@property(readonly) NSArray *attributeNames;
-@property(copy) NSString *baseQuery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *excludeSearchScope;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *includeSearchBundle;
-@property _Bool matchesFinderFilesOnly;
-@property _Bool matchesSupportFiles;
 @property(copy) NSArray *searchScope;
-@property(copy) NSArray *sortingAttributeNames;
-@property(readonly) Class superclass;
 
 @end
 

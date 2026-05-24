@@ -10,19 +10,13 @@ __attribute__((visibility("hidden")))
 @interface HMPBMetadata
 {
     NSMutableArray *_hapCategories;
-    NSMutableArray *_hapCharacteristics;
-    NSMutableArray *_hapServices;
-    int _version;
-    struct {
-        unsigned int version:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)insulation;
 - (id);
 - (id);
 - (void)D)ü);

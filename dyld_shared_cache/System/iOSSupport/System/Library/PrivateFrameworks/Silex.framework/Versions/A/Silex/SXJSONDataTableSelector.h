@@ -6,12 +6,9 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-
 @interface SXJSONDataTableSelector : SXJSONObject
 {
     unsigned long long _selectorWeight;
-    unsigned long long _numberOfConditions;
 }
 
 - (unsigned long long);
@@ -27,22 +24,11 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id)andVersion: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (id)initWithJSONData:andVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columnIndex; // @dynamic columnIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *descriptor; // @dynamic descriptor;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long numberOfConditions; // @synthesize numberOfConditions=_numberOfConditions;
-@property(readonly, nonatomic) unsigned long long rowIndex; // @dynamic rowIndex;
-@property(nonatomic) unsigned long long selectorWeight; // @synthesize selectorWeight=_selectorWeight;
-@property(readonly) Class superclass;
 
 @end
 

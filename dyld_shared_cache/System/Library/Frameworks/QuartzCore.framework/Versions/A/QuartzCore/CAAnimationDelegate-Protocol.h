@@ -8,6 +8,6 @@
 
 @optional
 - (void)assertion;
-- (void)ultiPlaneSupportKey;
+- (void)IOMFBRGBMultiPlaneSupportKey;
 @end
 

@@ -6,27 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODDimension, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPnRODSiriMetricsAndDims : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnId;
-    SISchemaUUID *_componentInvocationId;
-    long long _componentIndex;
-    PNRODSchemaPNRODMetricDuration *_metricDuration;
-    PNRODSchemaPNRODDimension *_dimensionValue;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int componentIndex:1;
-    } _has;
-    _Bool _hasTurnId;
-    _Bool _hasComponentInvocationId;
-    _Bool _hasMetricDuration;
-    _Bool _hasDimensionValue;
-    _Bool _hasFailureInfo;
 }
 
-- (void);
+- (void)qb;
 - (void);
 - (void);
 - (void);
@@ -61,26 +48,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)om %@;
 - (id);
-- (id);
+- (id)T;
 - (id)_numAppLaunchesLastSevenDays;
 - (id)ed;
-- (void)_NO_APP_PREDICTION_ONLY_FIRST_PARTY_APP_INSTALLED;
+- (void)FLOWAPPRESOLUTIONTYPE_NO_APP_PREDICTION_ONLY_FIRST_PARTY_APP_INSTALLED;
 
 // Remaining properties
-@property(nonatomic) long long componentIndex; // @synthesize componentIndex=_componentIndex;
-@property(retain, nonatomic) SISchemaUUID *componentInvocationId; // @synthesize componentInvocationId=_componentInvocationId;
-@property(retain, nonatomic) PNRODSchemaPNRODDimension *dimensionValue; // @synthesize dimensionValue=_dimensionValue;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasComponentIndex;
-@property(nonatomic) _Bool hasComponentInvocationId; // @synthesize hasComponentInvocationId=_hasComponentInvocationId;
-@property(nonatomic) _Bool hasDimensionValue; // @synthesize hasDimensionValue=_hasDimensionValue;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasMetricDuration; // @synthesize hasMetricDuration=_hasMetricDuration;
-@property(nonatomic) _Bool hasTurnId; // @synthesize hasTurnId=_hasTurnId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *metricDuration; // @synthesize metricDuration=_metricDuration;
 @property(retain, nonatomic) SISchemaUUID *turnId; // @synthesize turnId=_turnId;
 
 @end

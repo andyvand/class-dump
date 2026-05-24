@@ -9,22 +9,20 @@
 @interface HMNumberRange
 {
     NSNumber *_minValue;
-    NSNumber *_maxValue;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)expertise;
 - (void)0{;
-- (id)oPeer;
+- (id)HMSymptomTypeNetworkMisconfigurationPeerToPeer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *maxValue; // @synthesize maxValue=_maxValue;
 @property(readonly, nonatomic) NSNumber *minValue; // @synthesize minValue=_minValue;
 
 @end

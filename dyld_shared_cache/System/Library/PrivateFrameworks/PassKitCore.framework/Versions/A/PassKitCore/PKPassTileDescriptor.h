@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PKPassTileMetadata;
+@class PKPassTileMetadata;
 
 @interface PKPassTileDescriptor
 {
     _Bool _defaultEnabled;
-    PKPassTileMetadata *_metadata;
-    NSDictionary *_states;
-    NSArray *_childDescriptors;
-    NSString *_defaultStateIdentifier;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,17 +22,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)chanSwitchEvent;
 - (_Bool);
-- (void)ayCopy;
+- (void)pk_arrayCopy;
 - (void)fers for %@ since there is no criteria for that identifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *childDescriptors; // @synthesize childDescriptors=_childDescriptors;
-@property(nonatomic, getter=isDefaultEnabled) _Bool defaultEnabled; // @synthesize defaultEnabled=_defaultEnabled;
-@property(copy, nonatomic) NSString *defaultStateIdentifier; // @synthesize defaultStateIdentifier=_defaultStateIdentifier;
 @property(retain, nonatomic) PKPassTileMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSDictionary *states; // @synthesize states=_states;
 
 @end
 

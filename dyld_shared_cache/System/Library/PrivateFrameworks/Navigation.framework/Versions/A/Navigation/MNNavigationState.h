@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNLocationProviderCLParameters, MNNavigationStateManager, MNNavigationTraceManager, MNSimulationLocationProvider;
+@class MNNavigationStateManager;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationState
 {
     double _locationUpdateInterval;
-    double _suggestionUpdateFrequency;
-    MNNavigationStateManager *_stateManager;
 }
 
-- (id);
+- (id)7,\
+;
 - (double);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)DragSingleItemStorageBox;
 - (double);
-- (void);
+- (void)";6;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (void);
@@ -32,26 +31,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void)localizedActionTitle;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)CoreDevice] RemoteServiceDiscovery indicates that this is a T2 bridgeOS device via REMOTE_DEVICE_TYPE_BRIDGE_COPROC (initializeBridgeOSProperties);
+- (id)EAAccessoryManager _externalAccessoryDisconnected:] /* Error: Ran out of types for this method. */;
 - (void)
 × ;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) MNLocationProviderCLParameters *clParameters;
-@property(readonly, nonatomic) long long desiredLocationProviderType;
-@property(readonly, nonatomic) double locationUpdateInterval; // @synthesize locationUpdateInterval=_locationUpdateInterval;
-@property(readonly, nonatomic) _Bool requiresHighMemoryThreshold;
-@property(readonly, nonatomic) _Bool requiresLocationAccess;
-@property(readonly, nonatomic) _Bool shouldClearStoredRoutes;
-@property(readonly, nonatomic) MNSimulationLocationProvider *simulationLocationProvider;
 @property(readonly, nonatomic) __weak MNNavigationStateManager *stateManager; // @synthesize stateManager=_stateManager;
-@property(readonly, nonatomic) double suggestionUpdateFrequency; // @synthesize suggestionUpdateFrequency=_suggestionUpdateFrequency;
-@property(readonly, nonatomic) MNNavigationTraceManager *traceManager;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

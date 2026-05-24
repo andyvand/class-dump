@@ -6,21 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCloudContext, FCDateRange, FCEdgeCacheHint, NSArray, NSString;
-@protocol FCChannelProviding;
+@class FCCloudContext;
 
 @interface FCChannelSectionHeadlinesFetchOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    FCCloudContext *_cloudContext;
-    NSString *_channelID;
-    unsigned long long _maxHeadlinesCount;
-    unsigned long long _maxHeadlinesPerFeed;
-    FCDateRange *_fetchWindow;
-    double _sectionsCacheTimeToLive;
-    id <FCChannelProviding> _channel;
-    NSArray *_sectionHeadlinesGroups;
-    FCEdgeCacheHint *_edgeCacheHint;
 }
 
 - (void);
@@ -44,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (id)itor:ignoredHosts:networkBehaviorMonitor: /* Error: Ran out of types for this method. */;
+- (id)initWithAppActivationMonitor:ignoredHosts:networkBehaviorMonitor: /* Error: Ran out of types for this method. */;
 - (id)N,V_eventType;
 - (void)ARNING:These values are deprecated and shouldn't be the origin for any subscription /* Error: Ran out of types for this method. */;
 - (void)ic}@;
@@ -52,16 +42,7 @@
 - (_Bool)XÑÿ33;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCChannelProviding> channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
 @property(readonly, nonatomic) FCCloudContext *cloudContext; // @synthesize cloudContext=_cloudContext;
-@property(readonly, nonatomic) FCEdgeCacheHint *edgeCacheHint; // @synthesize edgeCacheHint=_edgeCacheHint;
-@property(copy) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(readonly, nonatomic) FCDateRange *fetchWindow; // @synthesize fetchWindow=_fetchWindow;
-@property(readonly, nonatomic) unsigned long long maxHeadlinesCount; // @synthesize maxHeadlinesCount=_maxHeadlinesCount;
-@property(readonly, nonatomic) unsigned long long maxHeadlinesPerFeed; // @synthesize maxHeadlinesPerFeed=_maxHeadlinesPerFeed;
-@property(copy, nonatomic) NSArray *sectionHeadlinesGroups; // @synthesize sectionHeadlinesGroups=_sectionHeadlinesGroups;
-@property(readonly, nonatomic) double sectionsCacheTimeToLive; // @synthesize sectionsCacheTimeToLive=_sectionsCacheTimeToLive;
 
 @end
 

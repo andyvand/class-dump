@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFShowMoreOnTap;
+@class NSArray;
 
 @protocol _SFPBRFTextElement
+- (int);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *formatted_texts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int line_limit;
-@property(retain, nonatomic) _SFPBRFShowMoreOnTap *show_more_on_tap;
 @end
 

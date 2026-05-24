@@ -9,39 +9,27 @@
 @interface DEEvaluator
 {
     NSString *_templateDir;
-    NSString *_locale;
-    id _globalParameters;
-    NSString *_typeName;
-    NSString *_propName;
-    id _parameters;
-    id _userSettings;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)HMDLegacyAccessorySettingsAdaptor;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)Cl;
 - (void);
 - (id);
 - (void)Ð¾Ð»Ñ;
 - (id)FWDByvH0oCeGYOVRo/Library/Caches/com.apple.xbs/TemporaryDirectory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/map_field.h;
 
 // Remaining properties
-@property(retain, nonatomic) id globalParameters; // @synthesize globalParameters=_globalParameters;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) id parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) NSString *propName; // @synthesize propName=_propName;
 @property(retain, nonatomic) NSString *templateDir; // @synthesize templateDir=_templateDir;
-@property(retain, nonatomic) NSString *typeName; // @synthesize typeName=_typeName;
-@property(retain, nonatomic) id userSettings; // @synthesize userSettings=_userSettings;
 
 @end
 

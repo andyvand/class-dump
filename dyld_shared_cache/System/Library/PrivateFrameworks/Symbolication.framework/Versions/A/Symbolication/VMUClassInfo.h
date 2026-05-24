@@ -4,44 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface VMUClassInfo
 {
     unsigned long long _remoteIsa;
-    unsigned int _remotePointerSize;
-    unsigned int _ivarCount;
-    unsigned int _superclassOffset;
-    unsigned int _instanceSize;
-    unsigned int _ro_flags;
-    unsigned int _rw_flags;
-    unsigned int _defaultScanType;
-    unsigned int _remoteType;
-    id *_localIvarList;
-    NSString *_remoteClassName;
-    NSString *_displayName;
-    NSString *_remoteBinaryPath;
-    VMUClassInfo *_superclassLayout;
-    VMUClassInfo *_genericLayout;
-    NSMutableArray *_variantEvaluators;
-    NSMutableArray *_variantActions;
-    NSMutableArray *_complexVariantEvaluators;
-    NSMutableArray *_complexVariantActions;
-    const char *_weakLayout;
-    const char *_strongLayout;
-    BOOL _hasSpecificLayout;
-    BOOL _hasVariantLayout;
-    _Bool _usesSwiftRefcounting;
-    _Bool _isCoreMediaFigObject;
-    _Bool _isDerivedFromStackBacktrace;
-    _Bool _hasStorageIvar;
-    _Bool _isStorageForSpecificOwnerClassInfo;
 }
 
-+ (unsigned long long);
++ (unsigned long long)Th;
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void)¡,Ð! EùQ[°1Â0@ù
 × ;
@@ -76,32 +47,32 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)s;
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)";
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -109,29 +80,29 @@
 - (unsigned int);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)S=S?	;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
+- (void)?k;
 - (void);
-- (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)d object at path:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)RecentlyFollowedCodingKeys;
+- (void))?;
 - (id);
 - (id);
 - (void);
@@ -139,35 +110,7 @@
 - (id)õÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *binaryName;
-@property(readonly, nonatomic) NSString *binaryPath; // @synthesize binaryPath=_remoteBinaryPath;
-@property(readonly, nonatomic) NSString *className; // @synthesize className=_remoteClassName;
 @property(readonly, nonatomic) unsigned int defaultScanType;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *fullIvarDescription;
-@property(readonly, nonatomic) VMUClassInfo *genericInfo;
-@property(readonly) _Bool hasCppConstructorOrDestructor;
-@property(readonly, nonatomic) _Bool hasSpecificLayout;
-@property(readonly) _Bool hasStorageIvar; // @synthesize hasStorageIvar=_hasStorageIvar;
-@property(readonly, nonatomic) _Bool hasVariantLayout;
-@property(readonly) unsigned int infoType;
-@property(readonly) unsigned int instanceSize; // @synthesize instanceSize=_instanceSize;
-@property(readonly) _Bool isARR;
-@property(readonly) _Bool isCoreMediaFigObject; // @synthesize isCoreMediaFigObject=_isCoreMediaFigObject;
-@property(nonatomic) _Bool isDerivedFromStackBacktrace; // @synthesize isDerivedFromStackBacktrace=_isDerivedFromStackBacktrace;
-@property(readonly) _Bool isMetaClass;
-@property(readonly) _Bool isRealized;
-@property(readonly) _Bool isRootClass;
-@property(readonly) _Bool isStorageForSpecificOwnerClassInfo; // @synthesize isStorageForSpecificOwnerClassInfo=_isStorageForSpecificOwnerClassInfo;
-@property(readonly, nonatomic) unsigned int ivarCount; // @synthesize ivarCount=_ivarCount;
-@property(readonly, nonatomic) unsigned int ivarGapForClassHierarchy;
-@property(readonly, nonatomic) unsigned int pointerSize; // @synthesize pointerSize=_remotePointerSize;
-@property(readonly) unsigned long long remoteIsa; // @synthesize remoteIsa=_remoteIsa;
-@property(readonly, nonatomic) NSString *shortIvarDescription;
-@property(readonly, nonatomic) VMUClassInfo *superclassInfo; // @synthesize superclassInfo=_superclassLayout;
-@property(readonly, nonatomic) unsigned int superclassOffset; // @synthesize superclassOffset=_superclassOffset;
-@property(readonly, nonatomic) NSString *typeName;
-@property(readonly, nonatomic) _Bool usesSwiftRefcounting; // @synthesize usesSwiftRefcounting=_usesSwiftRefcounting;
 
 @end
 

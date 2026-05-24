@@ -4,43 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, AVQueuePlayer, NSArray, NSDictionary, NSNumber, NSString;
-@protocol MFExternalPlaybackConfigurable, MFPlaybackStackControllerDelegate, MFQueuePlayerItem;
+@class AVQueuePlayer;
 
 @interface MFPlaybackStackControllerImplementation
 {
     void delegate;
-    id signpostSubscription;
-    id internalStack;
 }
 
 - (void);
-- (id);
+- (id);;
 - (void);
 - (void);
 - (id);
 - (void);
-- (float);
+- (float);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)stalt.dylib;
+- (void)__objc_classname__TEXT;
 - (void);
 - (void);
 - (void);
+- (void)iled to removed AIDA account:(long long)arg1 %@;
 - (void);
 - (void);
 - (void);
+- (void)__AUTH_CONST;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tore"24;
+- (void)account:(double)arg1 willPerformActionsForDataclasses:(id)arg2;
+- (void)account:(double)arg1 didChangeWithType:(id)arg2 inStore:(CDUnknownBlockType)arg3 oldAccount: /* Error: Ran out of types for this method. */;
+- (void)_unboostingQueue;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -48,13 +45,13 @@
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)account:didChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (float);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)__DATA_CONST;
 - (long long);
 - (void);
 - (void);
@@ -62,13 +59,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithTitle:(id)arg1 viewSnippet:snippetAction:encodedSnippetActionToolInvocation:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:requestConfirmation:systemStyle:showPrompt:destructive: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)dimension;
 - (float);
-- (long long);
+- (long long)A;
 - (id);
 - (id);
 - (_Bool);
@@ -84,37 +81,10 @@
 × ;
 - (_Bool)8#d(() .;
 - (void)sampleIndex:%lld - nextContiguous:%lld - previousContiguous:%lld /* Error: Ran out of types for this method. */;
-- (float)aylist;
+- (float)playlist;
 
 // Remaining properties
-@property(nonatomic, readonly) id <MFQueuePlayerItem> currentItem;
-@property(nonatomic, readonly) long long currentItemTransition;
-@property(nonatomic, readonly) id <MFQueuePlayerItem> currentQueueItem;
-@property(nonatomic, readonly) long long currentState;
-@property(nonatomic, readonly) double currentTime;
-@property(nonatomic) __weak id <MFPlaybackStackControllerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) float effectiveRate;
-@property(nonatomic, readonly) id <MFExternalPlaybackConfigurable> externalPlaybackConfigurablePlayer;
-@property(nonatomic, readonly) long long interruptedState;
-@property(nonatomic, readonly) _Bool isModeManagedSession;
-@property(nonatomic, readonly) _Bool isModeShared;
-@property(nonatomic, readonly) _Bool isModeSolo;
-@property(nonatomic) _Bool isMuted;
-@property(nonatomic, readonly) _Bool isPlaybackLikelyToKeepUp;
-@property(nonatomic, readonly) _Bool mediaServicesAvailable;
-@property(nonatomic, readonly) NSString *modeDescription;
-@property(nonatomic, readonly) NSArray *nextItems;
-@property(nonatomic, readonly) float rate;
-@property(nonatomic) float relativeVolume;
-@property(nonatomic, readonly) long long renderingMode;
-@property(nonatomic, readonly) NSDictionary *stateDictionary;
-@property(nonatomic, readonly) _Bool supportsMultichannelAudio;
-@property(nonatomic, readonly) float targetRate;
-@property(nonatomic, readonly) NSNumber *targetTime;
-@property(nonatomic, readonly) long long timeControlStatus;
 @property(nonatomic, readonly) AVQueuePlayer *unsafePlayer;
-@property(nonatomic) _Bool videoEnabled;
-@property(nonatomic, readonly) AVPlayerViewController *videoViewController;
 
 @end
 

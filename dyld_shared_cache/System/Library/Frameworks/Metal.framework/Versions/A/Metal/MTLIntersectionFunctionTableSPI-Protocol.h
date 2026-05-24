@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 @protocol MTLIntersectionFunctionTableSPI
-- (unsigned long long)enderPipelineStateWithDescriptor:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)newRenderPipelineStateWithDescriptor:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)load cvlit exch TrueState render end}ifelse end} bind def
+;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> globalBuffer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,&,N
-
-@property(nonatomic) unsigned long long globalBufferOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly) unsigned long long gpuHandle;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
 
 @end
 

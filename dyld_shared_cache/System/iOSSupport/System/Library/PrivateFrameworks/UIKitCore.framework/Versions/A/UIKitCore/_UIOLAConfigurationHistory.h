@@ -6,24 +6,14 @@
 
 #import <UIKitCore/_UILAConfigurationHistory.h>
 
-@class NSMapTable, NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIOLAConfigurationHistory : _UILAConfigurationHistory
 {
     _Bool _baselineRelativeArrangement;
-    _Bool _itemOrderingChanged;
-    _Bool _itemFittingSizeChanged;
-    _Bool _hasEstablishedOrderingValues;
-    _Bool _inOrderedArrangementUpdateSection;
-    double _spacing;
-    long long _distribution;
-    NSMapTable *_customSpacings;
-    double _proportionalFillDenominator;
 }
 
-- (double);
-- (void);
+- (double)countOfBytesSent;
+- (void)essage for container %s;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,13 +23,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)qg1Â0@ù
 × ;
-- (long long)ViewFrame;
+- (long long)inputViewFrame;
 - (_Bool)dgeInsets=dddd},N,V_containerSafeAreaInsets;
 - (id),V_imageContentMode;
 - (double)à¡ÑÔ¢;
 - (void)%@; number of sections before update:(double)arg1 %ld; collection view:%@ /* Error: Ran out of types for this method. */;
 - (void)sets=%@}>;
-- (void)elConfiguration_hasCustomized_numberOfLines;
+- (void)UILabelConfiguration_hasCustomized_numberOfLines;
 - (_Bool)þÿ$ÿÿ;
 - (id)vàþÿZàþÿ;
 - (void)uR0ýè23°®;
@@ -47,28 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)ZÀ;
 
 // Remaining properties
-@property(nonatomic, setter=_setItemFittingSizeChanged:) _Bool _itemFittingSizeChanged; // @synthesize _itemFittingSizeChanged;
-@property(nonatomic, setter=_setItemOrderingChanged:) _Bool _itemOrderingChanged; // @synthesize _itemOrderingChanged;
-@property(readonly, nonatomic) NSSet *_newlyHiddenItems;
-@property(readonly, nonatomic) NSSet *_newlyUnhiddenItems;
-@property(nonatomic) long long axis;
-@property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement; // @synthesize baselineRelativeArrangement=_baselineRelativeArrangement;
-@property(readonly, nonatomic) NSMapTable *customSpacings; // @synthesize customSpacings=_customSpacings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long distribution; // @synthesize distribution=_distribution;
 @property(nonatomic) _Bool hasEstablishedOrderingValues; // @synthesize hasEstablishedOrderingValues=_hasEstablishedOrderingValues;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInOrderedArrangementUpdateSection) _Bool inOrderedArrangementUpdateSection; // @synthesize inOrderedArrangementUpdateSection=_inOrderedArrangementUpdateSection;
-@property(readonly, nonatomic) NSSet *invalidBaselineConstraints;
-@property(nonatomic) _Bool layoutFillsCanvas;
-@property(nonatomic) _Bool layoutUsesCanvasMarginsWhenFilling;
-@property(nonatomic) double proportionalFillDenominator; // @synthesize proportionalFillDenominator=_proportionalFillDenominator;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
-@property(readonly) Class superclass;
 
 @end
 

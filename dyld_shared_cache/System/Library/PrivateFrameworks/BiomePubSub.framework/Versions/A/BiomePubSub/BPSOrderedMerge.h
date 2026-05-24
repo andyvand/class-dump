@@ -6,26 +6,22 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@class BMIndirectHeap, NSArray, NSMutableArray;
+@class NSArray, NSMutableArray;
 
 @interface BPSOrderedMerge : BMBookmarkablePublisher
 {
     NSArray *_publishers;
-    CDUnknownBlockType _comparator;
-    NSMutableArray *_upstreamStates;
-    BMIndirectHeap *_heap;
-    id _mostRecentEvent;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)CLLocationProvider_Type:(id)arg1:(id)arg2 kNotificationGnssModeOfOperationStatusUpdate;
 - (id);
-- (id);
+- (id)setFilePromiseUUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -39,15 +35,11 @@
 - (id);
 - (id);
 - (id);
-- (id)me;
+- (id)dueTime;
 - (id)ÿéÿÿëÿÿØêÿÿ;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(retain, nonatomic) BMIndirectHeap *heap; // @synthesize heap=_heap;
-@property(retain) id mostRecentEvent; // @synthesize mostRecentEvent=_mostRecentEvent;
-@property(readonly, nonatomic) NSArray *publishers; // @synthesize publishers=_publishers;
 @property(retain, nonatomic) NSMutableArray *upstreamStates; // @synthesize upstreamStates=_upstreamStates;
 
 @end

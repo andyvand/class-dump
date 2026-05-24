@@ -11,8 +11,8 @@
     NSColor *_fillColor;
 }
 
-- (id);
-- (void);
+- (id));
+- (void)V_;
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;

@@ -6,15 +6,11 @@
 
 #import <MediaRemote/MRExternalDeviceTransportConnection.h>
 
-@class MRIDSCompanionConnection, NSError, NSString;
+@class MRIDSCompanionConnection, NSString;
 
 @interface MRIDSCompanionTransportConnection : MRExternalDeviceTransportConnection
 {
     MRIDSCompanionConnection *_connection;
-    NSError *_error;
-    NSString *_type;
-    NSString *_destination;
-    NSString *_session;
 }
 
 - (long long);
@@ -31,21 +27,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)essage;
+- (void)registerVoiceInputDeviceMessage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

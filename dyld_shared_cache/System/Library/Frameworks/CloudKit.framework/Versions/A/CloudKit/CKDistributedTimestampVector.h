@@ -23,11 +23,11 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setRestrictNeuralNetworksFromUsingANE: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);

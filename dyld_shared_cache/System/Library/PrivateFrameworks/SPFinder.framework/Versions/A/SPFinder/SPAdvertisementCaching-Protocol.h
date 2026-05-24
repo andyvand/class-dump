@@ -5,5 +5,6 @@
 //
 
 @protocol SPAdvertisementCaching
+- (void);
 @end
 

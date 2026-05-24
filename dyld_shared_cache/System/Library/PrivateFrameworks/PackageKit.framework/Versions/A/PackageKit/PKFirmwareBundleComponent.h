@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKBundleComponent, PKBundleComponentVersion;
-
 @interface PKFirmwareBundleComponent
 {
     long long _type;
-    NSArray *_variants;
-    NSArray *_models;
-    PKBundleComponent *_bundle;
-    NSString *_bridgeVersion;
 }
 
 + (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)4;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)atible initializer of type %2;
+- (id)S;
 - (void)Cleared responsibility for install from %d.;
 
 // Remaining properties
-@property(retain) NSString *bridgeVersion; // @synthesize bridgeVersion=_bridgeVersion;
-@property(retain) PKBundleComponent *bundle; // @synthesize bundle=_bundle;
-@property(readonly) PKBundleComponentVersion *bundleComponentVersion;
-@property(readonly) NSString *bundlePath;
-@property(retain) NSArray *models; // @synthesize models=_models;
 @property long long type; // @synthesize type=_type;
-@property(retain) NSArray *variants; // @synthesize variants=_variants;
 
 @end
 

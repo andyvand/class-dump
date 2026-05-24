@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSImage, NSString, WBSPrivacyReportData;
-
 @interface WBSStartPageBanner
 {
     _Bool _privateBrowsingEnabled;
-    NSString *_appearanceName;
-    CDUnknownBlockType _action;
-    long long _contentVariant;
-    NSImage *_image;
-    NSString *_title;
-    NSString *_message;
-    NSAttributedString *_attributedMessage;
-    long long _numberOfTrackers;
-    WBSPrivacyReportData *_privacyReportData;
-    NSString *_primaryButtonTitle;
-    NSString *_secondaryButtonTitle;
-    CDUnknownBlockType _primaryButtonHandler;
-    CDUnknownBlockType _secondaryButtonHandler;
-    CDUnknownBlockType _dismissHandler;
-    NSArray *_privateBrowsingExplanationItems;
-    long long _privateBrowsingExplanationState;
-    CDUnknownBlockType _privateBrowsingExplanationDismissHandler;
 }
 
 + (id);
@@ -35,19 +16,19 @@
 + (id);
 + (id);
 + (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)S;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)Z#;
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -67,23 +48,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(retain, nonatomic) NSString *appearanceName; // @synthesize appearanceName=_appearanceName;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedMessage; // @synthesize attributedMessage=_attributedMessage;
-@property(readonly, nonatomic) long long contentVariant; // @synthesize contentVariant=_contentVariant;
-@property(readonly, copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) long long numberOfTrackers; // @synthesize numberOfTrackers=_numberOfTrackers;
-@property(copy, nonatomic) CDUnknownBlockType primaryButtonHandler; // @synthesize primaryButtonHandler=_primaryButtonHandler;
-@property(retain, nonatomic) NSString *primaryButtonTitle; // @synthesize primaryButtonTitle=_primaryButtonTitle;
-@property(readonly, nonatomic) WBSPrivacyReportData *privacyReportData; // @synthesize privacyReportData=_privacyReportData;
-@property(readonly, nonatomic, getter=isPrivateBrowsingEnabled) _Bool privateBrowsingEnabled; // @synthesize privateBrowsingEnabled=_privateBrowsingEnabled;
-@property(copy, nonatomic) CDUnknownBlockType privateBrowsingExplanationDismissHandler; // @synthesize privateBrowsingExplanationDismissHandler=_privateBrowsingExplanationDismissHandler;
-@property(readonly, copy, nonatomic) NSArray *privateBrowsingExplanationItems; // @synthesize privateBrowsingExplanationItems=_privateBrowsingExplanationItems;
-@property(readonly, nonatomic) long long privateBrowsingExplanationState; // @synthesize privateBrowsingExplanationState=_privateBrowsingExplanationState;
-@property(copy, nonatomic) CDUnknownBlockType secondaryButtonHandler; // @synthesize secondaryButtonHandler=_secondaryButtonHandler;
-@property(retain, nonatomic) NSString *secondaryButtonTitle; // @synthesize secondaryButtonTitle=_secondaryButtonTitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

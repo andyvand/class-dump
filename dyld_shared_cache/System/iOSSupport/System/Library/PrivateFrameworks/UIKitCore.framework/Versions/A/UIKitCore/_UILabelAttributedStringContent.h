@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UILabelAttributedStringContent : _UILabelContent
 {
     NSAttributedString *_attributedString;
-    NSAttributedString *_lightReactiveAttributedString;
-    NSAttributedString *_lightInertAttributedString;
 }
 
 - (_Bool);
-- (id);
+- (id)isTrailingButtonEnabled;
 - (_Bool);
-- (long long);
-- (id);
+- (long long)6@24@32;
+- (id)d_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)},N,V_hc;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -29,12 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)ù
 × ;
-- (_Bool)D;
-- (_Bool)leView:(id)arg1 checked:(id)arg2;
-- (_Bool)nWithSearchBarNotHostedByNavBarWillBegin;
+- (_Bool)setDownAnimationContextID;
+- (_Bool)_sendCheckedRow:(id)arg1 inTableView:(id)arg2 checked: /* Error: Ran out of types for this method. */;
+- (_Bool)_dismissalTransitionWithSearchBarNotHostedByNavBarWillBegin;
 - (id)dedEdge;
 - (_Bool)_visualProvider;
-- (id)micFactory;
+- (id)_dynamicFactory;
 - (id)guration: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)8è;

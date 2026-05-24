@@ -9,13 +9,13 @@
     struct __CFDictionary *_dictionary;
 }
 
-- (void)<È<É<b­Ê<b­;
-- (void);
-- (id)ªôªA ;
-- (id)ªáª;
-- (_Bool);
-- (_Bool)ªM#K©Ic@ùL+B©K@ù¿;
-- (void)ýÿT,;
+- (void);
+- (void)C;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);

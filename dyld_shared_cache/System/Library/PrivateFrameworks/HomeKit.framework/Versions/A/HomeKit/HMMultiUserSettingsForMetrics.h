@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface HMMultiUserSettingsForMetrics
 {
     NSNumber *_numSharedUsers;
-    NSNumber *_numUsersWithSettings;
-    NSNumber *_numUsersWithIdentifyVoiceOff;
-    NSNumber *_numUsersWithPlayBackInfluencesForYouOff;
-    NSNumber *_numUsersCloudShareTrustNotConfigured;
-    NSNumber *_numUsersSharedBackingStoreNotStarted;
-    NSNumber *_numUsersSharedBackingStoreRunning;
-    NSNumber *_numUsersSharedBackingStoreNotRunningDueToError;
-    NSNumber *_numUsersSharedBackingStoreNotRunningDueToStopped;
-    NSNumber *_numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation;
 }
 
 + (id);
@@ -25,13 +16,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -41,44 +32,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)O;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)lolly;
+- (id)?;
 - (void)Ôë;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSNumber *numSharedUsers; // @synthesize numSharedUsers=_numSharedUsers;
-@property(copy) NSNumber *numUsersCloudShareTrustNotConfigured; // @synthesize numUsersCloudShareTrustNotConfigured=_numUsersCloudShareTrustNotConfigured;
-@property(copy) NSNumber *numUsersSharedBackingStoreNotRunningDueToError; // @synthesize numUsersSharedBackingStoreNotRunningDueToError=_numUsersSharedBackingStoreNotRunningDueToError;
-@property(copy) NSNumber *numUsersSharedBackingStoreNotRunningDueToStopped; // @synthesize numUsersSharedBackingStoreNotRunningDueToStopped=_numUsersSharedBackingStoreNotRunningDueToStopped;
-@property(copy) NSNumber *numUsersSharedBackingStoreNotStarted; // @synthesize numUsersSharedBackingStoreNotStarted=_numUsersSharedBackingStoreNotStarted;
-@property(copy) NSNumber *numUsersSharedBackingStoreRunning; // @synthesize numUsersSharedBackingStoreRunning=_numUsersSharedBackingStoreRunning;
-@property(copy) NSNumber *numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation; // @synthesize numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation=_numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation;
-@property(copy) NSNumber *numUsersWithIdentifyVoiceOff; // @synthesize numUsersWithIdentifyVoiceOff=_numUsersWithIdentifyVoiceOff;
-@property(copy) NSNumber *numUsersWithPlayBackInfluencesForYouOff; // @synthesize numUsersWithPlayBackInfluencesForYouOff=_numUsersWithPlayBackInfluencesForYouOff;
-@property(copy) NSNumber *numUsersWithSettings; // @synthesize numUsersWithSettings=_numUsersWithSettings;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

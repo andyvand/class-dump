@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     long long _type;
 }
 
-+ (id);
++ (id)GӨ;
 + (id);
 + (id);
 + (id);
@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)fetchRecordVersionsProgressBlock;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,14 +31,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (double);
+- (id)it was already imported;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)	K	;
+- (_Bool)// gradient direction approximates direction from the closest object pixel
+   vec2 deriv = normalize(dxy);
+   float c3 = sample(blurImage, samplerCoord(blurImage)+1.0*deriv).a; // resample Gaussian a bit further following the gradient direction
+   float dc = c1 - c3; // slope of Gaussian in the derivative direction
+   vec3 normal = normalize(vec3(deriv.x,deriv.y,dc)); // normal to Gaussian 3D surface
+   float alpha = cos(radians(light.x));
+   vec2 beta = cossin(radians(light.y));
+   vec3 light = vec3(alpha, beta); // Light vector with azimuth and altitude
+   float a = 2.0*dot(normal,light); // in -1..+1
+   float c = c1; // C is the base of modulation function in 0..1
+   float cc = c-0.5; c = 0.5+4.0*(cc*cc*cc); // maps 0..1 to 0..1 to revert Gaussian shape a bit
+    a *= clamp( c, 0.0, 1.0); // modulate with gradient to fade with distance
+    float a1 = clamp (a, 0.0, 1.0); // weight of color 1
+    float a2 = clamp (-a, 0.0, 1.0);  // weight of color 2
+    return (1.0-m)*(highlightColor*a1+shadowColor*a2); // outside only
+}
+;
 - (id);
 - (unsigned int);
-- (id);
-- (_Bool)dForExtWhenLidClose;
+- (id)t;
+- (_Bool)IOMFBIntDcpUsedForExtWhenLidClose;
 - (int)- contentsTransform size %u;
 - (unsigned int)nµµ¸F¹?{®Gáz?ü©ñÒMbP?-Cëâ6?ñhãµøä>íµ ÷Æ°>H¯¼ò×z>:0âyE>Ö&è.>»½×Ùß|Û=dyáý¥=ê-q=vIhÂ%<=+¡=Vç¯Ò<¼Ø²Ò<ÔFFõg<¬CÒÑ]r2<¬Ò¶OÉý;#B¡Ç;O
 ´ã;æ^ 9^;Q²@³-(;§¨ÂWó:Ù}ÚõÐò¾:Ë®Ä@Â:<ò6ÎS:`P¾ö°:G³¦þ^Zé9 ÂëþKH´9heÖ993§¨Õ#öI9 /* Error: Ran out of types for this method. */;

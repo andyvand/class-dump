@@ -7,8 +7,6 @@
 @interface AMSCampaignCohortParamsProvider
 {
     id kParamsKey;
-    id kLastUpdatedKey;
-    id defaults;
 }
 
 + (id);

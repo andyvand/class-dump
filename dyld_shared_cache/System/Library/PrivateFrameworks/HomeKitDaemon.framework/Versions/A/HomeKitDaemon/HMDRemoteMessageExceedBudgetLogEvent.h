@@ -14,15 +14,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id);
+- (id)to resolve handles to contacts, but Maps is not authorised for Contacts;
 - (struct _HMFRate);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _HMFRate budgetRate; // @synthesize budgetRate=_budgetRate;
-@property(readonly, copy) NSString *diagnosticReportEventSubType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSString *diagnosticReportEventType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

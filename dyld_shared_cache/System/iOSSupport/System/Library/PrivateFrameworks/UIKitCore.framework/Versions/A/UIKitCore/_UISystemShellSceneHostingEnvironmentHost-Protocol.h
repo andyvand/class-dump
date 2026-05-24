@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol _UISystemShellSceneHostingEnvironmentHost
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *systemShellHostingSpaceIdentifier;

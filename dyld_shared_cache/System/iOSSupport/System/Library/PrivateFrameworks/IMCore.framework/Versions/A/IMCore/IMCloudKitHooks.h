@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)x;
 + (id);
 + (id);
 + (id);
@@ -16,22 +16,22 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)l;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)&;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -39,6 +39,7 @@
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -51,6 +52,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)7;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,25 +76,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)ualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -90,7 +90,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ttachmentNotExported;
+- (void)attachmentNotExported;
 - (void)Reconstructions:] /* Error: Ran out of types for this method. */;
 
 @end

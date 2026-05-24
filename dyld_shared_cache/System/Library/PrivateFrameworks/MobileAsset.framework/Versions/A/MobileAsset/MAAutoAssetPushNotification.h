@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetUpdatePolicy, NSDictionary, NSString;
-
 @interface MAAutoAssetPushNotification
 {
     long long _pushReason;
-    NSString *_assetType;
-    NSString *_assetSpecifier;
-    NSString *_assetVersion;
-    MAAutoAssetUpdatePolicy *_autoUpdatePolicy;
-    NSDictionary *_additionalPushParameters;
 }
 
 + (id);
@@ -31,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithPluginType:(id)arg1 pluginClass:pluginInfo:queue:factory: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -41,12 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalPushParameters; // @synthesize additionalPushParameters=_additionalPushParameters;
-@property(readonly, retain, nonatomic) NSString *assetSpecifier; // @synthesize assetSpecifier=_assetSpecifier;
-@property(readonly, retain, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, retain, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(readonly, retain, nonatomic) MAAutoAssetUpdatePolicy *autoUpdatePolicy; // @synthesize autoUpdatePolicy=_autoUpdatePolicy;
-@property(readonly, retain, nonatomic) NSDictionary *historyRepresentation;
 @property(nonatomic) long long pushReason; // @synthesize pushReason=_pushReason;
 
 @end

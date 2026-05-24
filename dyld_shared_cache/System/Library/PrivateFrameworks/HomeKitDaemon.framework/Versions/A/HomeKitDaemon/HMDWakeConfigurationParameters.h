@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDWakeConfigurationParameters
 {
     NSData *_delimiter;
-    NSData *_primaryIdentifier;
-    NSMutableArray *_secondaryIdentifier;
 }
 
-+ (id);
-- (id);
++ (id)numberOfPublicEventsCategoryCommunity;
+- (id)navigationListener:(id)arg1 didUpdateLocation:(id)arg2 routeMatchedCoordinate:(id)arg3;
 - (void);
 - (id);
 - (void);
@@ -27,20 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ssage:(struct _NSZone *)arg1;
-- (void)olutionType1600x1200;
+- (id)processAccountModel:(struct _NSZone *)arg1 message: /* Error: Ran out of types for this method. */;
+- (void)HMDVideoResolutionType1600x1200;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) NSData *delimiter; // @synthesize delimiter=_delimiter;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *primaryIdentifier; // @synthesize primaryIdentifier=_primaryIdentifier;
-@property(retain, nonatomic) NSMutableArray *secondaryIdentifier; // @synthesize secondaryIdentifier=_secondaryIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

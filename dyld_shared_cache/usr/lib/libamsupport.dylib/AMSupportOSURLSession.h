@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURLSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AMSupportOSURLSession
 {
     NSObject<OS_dispatch_queue> *_queue;
-    double _timeout;
-    float _priority;
-    NSURLSession *_session;
-    NSDictionary *_options;
-    _Bool _sslEvalFailed;
 }
 
 - (_Bool);
@@ -24,35 +19,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)$;
 - (void);
 - (void);
+- (void);
+- (id)addObserver:selector:name:object: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)X509_EXTENSION;
 - (id);
 - (void);
 - (double);
-- (float);
+- (float)Kh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) float priority; // @synthesize priority=_priority;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) _Bool sslEvalFailed; // @synthesize sslEvalFailed=_sslEvalFailed;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

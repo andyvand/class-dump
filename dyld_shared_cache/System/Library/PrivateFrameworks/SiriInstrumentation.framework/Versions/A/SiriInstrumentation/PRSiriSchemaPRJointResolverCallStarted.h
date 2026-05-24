@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PRSiriSchemaPRJointResolverCallStarted : SISchemaInstrumentationMessage
 {
     int _callType;
-    struct {
-        unsigned int callType:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int):Code validation failed:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s;
 - (_Bool);
-- (_Bool);
+- (_Bool)Calculating quick export count for message records;
 - (id);
 - (id);
-- (id)Active;
+- (id)_sharingAppActive;
 - (id)led;
 
 // Remaining properties
 @property(nonatomic) int callType; // @synthesize callType=_callType;
-@property(nonatomic) _Bool hasCallType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

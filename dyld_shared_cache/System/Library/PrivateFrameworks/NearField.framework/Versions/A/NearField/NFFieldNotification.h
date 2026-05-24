@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSDate;
 
 @interface NFFieldNotification
 {
     _Bool _cachedBeforeRFReset;
-    unsigned short _typeFSystemCode;
-    unsigned short _rawDetectionInfo;
-    unsigned int _rfTechnology;
-    unsigned long long _notificationType;
-    NSDate *_creationDate;
-    NSData *_vasData;
-    long long _category;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned short);
 - (_Bool);
 - (_Bool);
@@ -33,15 +26,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned short);
 - (unsigned int);
-- (void);
-- (unsigned long long);
+- (void)&;
+- (unsigned long long)>&;
 - (id);
 - (id);
 - (id);
@@ -55,14 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cachedBeforeRFReset; // @synthesize cachedBeforeRFReset=_cachedBeforeRFReset;
-@property(nonatomic) long long category; // @synthesize category=_category;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly) unsigned long long notificationType; // @synthesize notificationType=_notificationType;
-@property(nonatomic) unsigned short rawDetectionInfo; // @synthesize rawDetectionInfo=_rawDetectionInfo;
-@property(readonly) unsigned int rfTechnology; // @synthesize rfTechnology=_rfTechnology;
-@property(readonly) unsigned short typeFSystemCode; // @synthesize typeFSystemCode=_typeFSystemCode;
-@property(retain, nonatomic) NSData *vasData; // @synthesize vasData=_vasData;
 
 @end
 

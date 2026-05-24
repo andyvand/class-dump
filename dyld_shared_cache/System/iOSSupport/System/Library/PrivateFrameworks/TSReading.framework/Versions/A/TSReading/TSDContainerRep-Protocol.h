@@ -4,10 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
+@class NSArray, NSObject;
 @protocol TSDContainerInfo;
 
 @protocol TSDContainerRep
+- (void)Ȑ;
+- (NSObject<TSDContainerInfo> *)A�;
+
+@optional
+- (void)loadedRange;
+- (void)identifier from animated artwork loading than when we requested %@ -> %@;
+- (void)animated artwork preview image request.;
+- (void)items for remote artwork request.;
+- (int)er;
+- (int)adata;
+- (NSArray *);
+- (_Bool);
+- (void)MPCPlaybackEngineEventDeviceMetadataKey;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<TSDContainerInfo> *containerInfo;

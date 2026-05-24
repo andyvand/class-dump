@@ -5,5 +5,6 @@
 //
 
 @protocol GEORoutePreloadCamera
+- (void);
 @end
 

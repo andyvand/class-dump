@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)context:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)q;;
+- (void)_deactivateForReason:options:context:completion: /* Error: Ran out of types for this method. */;
 - (id)ng>"8;
 
 // Remaining properties

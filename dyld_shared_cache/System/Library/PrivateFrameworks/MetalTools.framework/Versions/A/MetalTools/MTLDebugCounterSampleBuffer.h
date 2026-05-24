@@ -11,7 +11,6 @@
 @interface MTLDebugCounterSampleBuffer : MTLToolsCounterSampleBuffer
 {
     MTLCounterSampleBufferDescriptor *_descriptor;
-    unsigned long long _storageMode;
 }
 
 - (id);
@@ -19,12 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)I;
 - (unsigned long long)ated on a heap.;
 
 // Remaining properties
 @property(readonly, nonatomic) MTLCounterSampleBufferDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) unsigned long long storageMode; // @synthesize storageMode=_storageMode;
 
 @end
 

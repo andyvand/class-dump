@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHPersonalizedSynthesisModelStatus, NSSet, NSString, NSURL;
-
 @interface CHSynthesisStyleInventoryStatus
 {
     _Bool _isGenerationAllowed;
-    _Bool _hasAllDigits;
-    CHPersonalizedSynthesisModelStatus *_personalizedSynthesisModelState;
-    long long _styleSampleCount;
-    long long _samplesWithoutStylePredictionCount;
-    NSSet *_characterCoverage;
-    NSURL *_inventoryStorageURL;
-    NSString *_inventoryRelativePath;
 }
 
-+ (_Bool);
++ (_Bool)_imageWidth;
 - (long long);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (_Bool);
@@ -35,14 +26,7 @@
 - (void)è	È';
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *characterCoverage; // @synthesize characterCoverage=_characterCoverage;
 @property(readonly, nonatomic) _Bool hasAllDigits; // @synthesize hasAllDigits=_hasAllDigits;
-@property(readonly, nonatomic) NSString *inventoryRelativePath; // @synthesize inventoryRelativePath=_inventoryRelativePath;
-@property(readonly, nonatomic) NSURL *inventoryStorageURL; // @synthesize inventoryStorageURL=_inventoryStorageURL;
-@property(readonly, nonatomic) _Bool isGenerationAllowed; // @synthesize isGenerationAllowed=_isGenerationAllowed;
-@property(readonly, nonatomic) CHPersonalizedSynthesisModelStatus *personalizedSynthesisModelState; // @synthesize personalizedSynthesisModelState=_personalizedSynthesisModelState;
-@property(readonly, nonatomic) long long samplesWithoutStylePredictionCount; // @synthesize samplesWithoutStylePredictionCount=_samplesWithoutStylePredictionCount;
-@property(readonly, nonatomic) long long styleSampleCount; // @synthesize styleSampleCount=_styleSampleCount;
 
 @end
 

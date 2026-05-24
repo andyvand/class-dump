@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id);
+- (id)fer from IMDAttachmentRecordRef rowid:(id)arg1 %lld, marking as failed to sync ***;
+- (id)@n;
 
 @end
 

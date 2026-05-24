@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _block;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_shouldForceReplicationForStaleChatWithLastKnownReplicationDate:(id)arg1;
+- (id),N,V_purgedAttachmentHandler;
 - (void);
-- (void);
+- (void)Encoder>"24@0:8@"<MTLBufferBinding>"16 /* Error: Ran out of types for this method. */;
 - (void)h^^;
 
 @end

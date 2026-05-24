@@ -14,9 +14,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)n_id;
+- (id)tion_type;
+- (id);
 - (id);
 - (void);
 - (void);

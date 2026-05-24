@@ -9,10 +9,6 @@
 @interface MPAVAuxiliaryDevice
 {
     _Bool _playing;
-    NSString *_uniqueID;
-    NSString *_productName;
-    NSString *_deviceName;
-    NSString *_modelIdentifier;
 }
 
 + (id);
@@ -25,10 +21,6 @@
 - (id)@parentVersionHash AND child_key = @childKey ORDER BY suborder;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(readonly, nonatomic) NSString *productName; // @synthesize productName=_productName;
 @property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

@@ -7,10 +7,6 @@
 @interface ChronoKit.LocaleChangeCoordinator
 {
     id _subscriptions;
-    id _queue;
-    id _queue_extensionManager;
-    id _queue_localeChangeToken;
-    id _queue_preferredLanguages;
 }
 
 @end

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointHAPSettings
 {
     _Bool _assistantsUpdated;
-    NSNumber *_siriEnable;
-    NSNumber *_siriListening;
-    NSNumber *_siriTouchToUse;
-    NSNumber *_siriLightOnUse;
-    NSString *_siriEndpointVersion;
-    NSString *_siriEngineVersion;
-    NSNumber *_activeIdentifier;
-    NSNumber *_manuallyDisabled;
-    NSNumber *_multifunctionButton;
 }
 
 - (id);
@@ -41,19 +32,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ured;
+- (void)dateCaptured;
 
 // Remaining properties
-@property(retain) NSNumber *activeIdentifier; // @synthesize activeIdentifier=_activeIdentifier;
-@property _Bool assistantsUpdated; // @synthesize assistantsUpdated=_assistantsUpdated;
-@property(retain) NSNumber *manuallyDisabled; // @synthesize manuallyDisabled=_manuallyDisabled;
-@property(retain) NSNumber *multifunctionButton; // @synthesize multifunctionButton=_multifunctionButton;
 @property(retain) NSNumber *siriEnable; // @synthesize siriEnable=_siriEnable;
-@property(retain) NSString *siriEndpointVersion; // @synthesize siriEndpointVersion=_siriEndpointVersion;
-@property(retain) NSString *siriEngineVersion; // @synthesize siriEngineVersion=_siriEngineVersion;
-@property(retain) NSNumber *siriLightOnUse; // @synthesize siriLightOnUse=_siriLightOnUse;
-@property(retain) NSNumber *siriListening; // @synthesize siriListening=_siriListening;
-@property(retain) NSNumber *siriTouchToUse; // @synthesize siriTouchToUse=_siriTouchToUse;
 
 @end
 

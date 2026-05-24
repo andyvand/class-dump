@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SADialogInflectWordCommand : SABaseCommand
 {
@@ -14,38 +14,24 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)NNS IR:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSArray *constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool defaultToSemantic;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *semanticFeatureName;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

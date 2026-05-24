@@ -9,8 +9,6 @@
 @interface CHSTimelineController
 {
     CHSChronoServicesConnection *_connection;
-    NSString *_extensionBundleIdentifier;
-    NSString *_kind;
 }
 
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *avocadoIdentifier;
-@property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
 
 @end
 

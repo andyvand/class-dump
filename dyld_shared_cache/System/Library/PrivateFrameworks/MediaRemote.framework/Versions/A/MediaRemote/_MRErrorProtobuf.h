@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRDictionaryProtobuf;
-
 @interface _MRErrorProtobuf
 {
     int _code;
-    NSString *_debugMessage;
-    NSString *_domain;
-    NSString *_localizedDescription;
-    NSString *_localizedFailureReason;
-    NSMutableArray *_underlyingErrors;
-    _MRDictionaryProtobuf *_userInfo;
-    struct {
-        unsigned int code:1;
-    } _has;
 }
 
 + (Class);
@@ -31,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)wallet:(id)arg1 accountRemoved;
 - (id);
 - (id);
 - (void);
@@ -51,27 +40,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)AssistantDirectActionEventMessagesConversationGUIDKey;
 - (id);
 - (int)0@ù
 × ;
-- (void)List;
+- (void)_hasInWishList;
 - (void)buf",&,N,V_connectionState;
 
 // Remaining properties
-@property(nonatomic) int code; // @synthesize code=_code;
-@property(retain, nonatomic) NSString *debugMessage; // @synthesize debugMessage=_debugMessage;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(readonly, nonatomic) _Bool hasDebugMessage;
 @property(readonly, nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasLocalizedDescription;
-@property(readonly, nonatomic) _Bool hasLocalizedFailureReason;
-@property(readonly, nonatomic) _Bool hasUserInfo;
-@property(retain, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(retain, nonatomic) NSString *localizedFailureReason; // @synthesize localizedFailureReason=_localizedFailureReason;
-@property(retain, nonatomic) NSMutableArray *underlyingErrors; // @synthesize underlyingErrors=_underlyingErrors;
-@property(retain, nonatomic) _MRDictionaryProtobuf *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

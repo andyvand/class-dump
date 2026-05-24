@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol MLModelAssetResourceFactoryImpl, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MLModelAssetResourceFactory
 {
     NSObject<OS_dispatch_queue> *_modelLoadQueue;
-    NSObject<OS_dispatch_queue> *_descriptionLoadQueue;
-    NSObject<OS_dispatch_queue> *_structureLoadQueue;
-    id <MLModelAssetResourceFactoryImpl> _impl;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)LTileRenderPipelineColorAttachmentDescriptorArrayInternal objectAtIndexedSubscript:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -40,11 +37,7 @@ __attribute__((visibility("hidden")))
 	 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *compiledModelURL;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *descriptionLoadQueue; // @synthesize descriptionLoadQueue=_descriptionLoadQueue;
-@property(readonly, nonatomic) id <MLModelAssetResourceFactoryImpl> impl; // @synthesize impl=_impl;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *modelLoadQueue; // @synthesize modelLoadQueue=_modelLoadQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *structureLoadQueue; // @synthesize structureLoadQueue=_structureLoadQueue;
 
 @end
 

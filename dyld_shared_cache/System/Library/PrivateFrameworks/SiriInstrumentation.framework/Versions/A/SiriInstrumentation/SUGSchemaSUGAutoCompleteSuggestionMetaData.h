@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGAutoCompleteSuggestionMetaData : SISchemaInstrumentationMessage
 {
     int _autoCompleteSuggestionSource;
-    struct {
-        unsigned int autoCompleteSuggestionSource:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)Date";
+- (_Bool)alue",&,N,V_donatedValueToReject;
+- (_Bool)to add column transfer_name to the attachment table.;
 - (id);
-- (id);
-- (id)omponentContext;
-- (id)hasSsuUserRequestContext;
+- (id);
+- (id)deleteNlRouterBridgeSubComponentContext;
+- (id)_hasSsuUserRequestContext;
 
 // Remaining properties
 @property(nonatomic) int autoCompleteSuggestionSource; // @synthesize autoCompleteSuggestionSource=_autoCompleteSuggestionSource;
-@property(nonatomic) _Bool hasAutoCompleteSuggestionSource;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

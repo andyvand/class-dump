@@ -7,7 +7,7 @@
 @class NSString, UIView;
 
 @protocol _UISceneLayerHostContainerViewDataSource
-- (NSString *)llectionViewListAccessoryDisclosure;
+- (NSString *)_UICollectionViewListAccessoryDisclosure;
 - (UIView *)orrect_bubble_stretchable@2x;
 @end
 

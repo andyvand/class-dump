@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaControlsConfiguration, NSString, NSXPCConnection, NSXPCListener, UIView;
-@protocol UITraitChangeRegistration;
+@class NSXPCListener;
 
 @interface MPMediaControls
 {
     _Bool _shouldObserveRoutingContextUIDChanges;
-    unsigned long long _dismissalReason;
-    NSString *_tappedCustomRowIdentifier;
-    UIView *_sourceView;
-    CDUnknownBlockType _dismissHandler;
-    CDUnknownBlockType _customRowDidTapHandler;
-    NSString *_routeUID;
-    double _preferredWidth;
-    NSXPCListener *_listener;
-    NSXPCConnection *_connection;
-    id <UITraitChangeRegistration> _traitChangeRegistration;
-    MPMediaControlsConfiguration *_configuration;
-    CDUnknownBlockType _dismissHandlerWithReason;
 }
 
 - (id);
@@ -38,25 +25,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)=;
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)8;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void)et is not supported anymore;
 - (void);
-- (void);
-- (double);
+- (double)";
 - (void);
 - (id);
 - (id);
@@ -69,23 +56,7 @@
 - (void)_person_id = @hashedPersonID AND flavor = @flavor;
 
 // Remaining properties
-@property(readonly, nonatomic) MPMediaControlsConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(copy, nonatomic) CDUnknownBlockType customRowDidTapHandler; // @synthesize customRowDidTapHandler=_customRowDidTapHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandlerWithReason; // @synthesize dismissHandlerWithReason=_dismissHandlerWithReason;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(copy, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <UITraitChangeRegistration> traitChangeRegistration; // @synthesize traitChangeRegistration=_traitChangeRegistration;
 
 @end
 

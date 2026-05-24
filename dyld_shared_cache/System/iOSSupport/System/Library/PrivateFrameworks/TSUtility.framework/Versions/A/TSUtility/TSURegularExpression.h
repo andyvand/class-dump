@@ -9,17 +9,16 @@
 @interface TSURegularExpression
 {
     NSString *_expressionString;
-    void *_reserved;
 }
 
-+ (id);
++ (id);
 + (void);
 - (unsigned long long);
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
 - (id);
-- (const char *);
+- (const char *)=;
 - (id);
 - (void);
 - (id);
@@ -27,7 +26,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)unknown;
 
 @end
 

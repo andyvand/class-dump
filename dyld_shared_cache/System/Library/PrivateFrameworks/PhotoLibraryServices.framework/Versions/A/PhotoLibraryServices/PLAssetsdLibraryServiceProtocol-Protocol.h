@@ -5,6 +5,9 @@
 //
 
 @protocol PLAssetsdLibraryServiceProtocol
+- (id);
+- (id)2JD'F/JJ
+;
 - (id)ñÇð1Â0@ù
 × ;
 - (id)ù

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTMItem, NSArray, NSError;
+@class NSArray;
 
 @interface BTMFetchResult
 {
     long long _code;
-    NSArray *_items;
-    NSArray *_containers;
-    NSArray *_encodedItems;
 }
 
 + (id);
@@ -20,25 +17,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)MPSMatrixInternalLowerTriangularBlockDiagonalInverse;
+- (void)?;
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)?;
 
 // Remaining properties
-@property long long code; // @synthesize code=_code;
 @property(retain) NSArray *containers; // @synthesize containers=_containers;
-@property(retain) NSArray *encodedItems; // @synthesize encodedItems=_encodedItems;
-@property(readonly) NSError *error;
-@property(readonly) BTMItem *firstItem;
-@property(copy) NSArray *items; // @synthesize items=_items;
 
 @end
 

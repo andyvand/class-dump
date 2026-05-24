@@ -5,5 +5,6 @@
 //
 
 @protocol HAPSystemKeychainStore
+- (_Bool)RG";
 @end
 

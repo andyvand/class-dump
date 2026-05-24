@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)boolOption:(unsigned long long)arg1;
 - (id);
 - (id);
 - (id);
@@ -17,10 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 
 @end

@@ -4,45 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSError, NSMutableArray, NSMutableDictionary, NSObject, NSString, PKInstallClient, PKInstallRequest;
-@protocol OS_os_activity, SUInstallOperationDelegate><NSObject;
+@class NSArray;
+@protocol SUInstallOperationDelegate><NSObject;
 
 __attribute__((visibility("hidden")))
 @interface SUInstallOperation
 {
     NSArray *_localProducts;
-    PKInstallRequest *_request;
-    _Bool _clientBlocksRestart;
-    _Bool _holdBoostDuringInstall;
-    _Bool _isStaging;
-    unsigned int _packageScriptUserID;
-    struct AuthorizationOpaqueRef *_overrideAuthorization;
-    id <SUInstallOperationDelegate><NSObject> delegate;
-    _Bool _didPreflight;
-    _Bool _isInstalling;
-    int _state;
-    unsigned long long _totalSize;
-    double _progressPercent;
-    double _estimatedTimeRemaining;
-    NSString *_firmwareStatus;
-    double _lastFirmwareUpdateProgress;
-    NSDate *_firmwareUpdateStalledAt;
-    NSString *_activeSpecialStatus;
-    _Bool _isDoingIndeterminateFirmwareUpdate;
-    NSError *_nonSpecificError;
-    NSMutableDictionary *_errorByProductKey;
-    _Bool _didInstallSuccessfully;
-    NSMutableArray *_productKeysToDelete;
-    CDUnknownBlockType _finishBlock;
-    CDUnknownBlockType _progressBlock;
-    NSObject<OS_os_activity> *_activity;
-    PKInstallClient *_installClient;
-    CDUnknownBlockType _bundleRegistrationBlock;
-    double _estimatedTimeForPostLogoutCommit;
 }
 
-+ (unsigned long long);
-+ (id);
++ (unsigned long long);
++ (id);
 + (unsigned long long);
 + (unsigned long long);
 + (_Bool);
@@ -58,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id)-: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -66,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (double);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -79,16 +51,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (id);
-- (void);
+- (id)0;
+- (void)rite to CK was skipped because session should soon handoff, shouldWriteActiveSessionDetails, %@;
 - (void);
 
 // Remaining properties
-@property _Bool clientBlocksRestart; // @synthesize clientBlocksRestart=_clientBlocksRestart;
 @property id <SUInstallOperationDelegate><NSObject> delegate; // @synthesize delegate;
-@property double estimatedTimeForPostLogoutCommit; // @synthesize estimatedTimeForPostLogoutCommit=_estimatedTimeForPostLogoutCommit;
-@property _Bool holdBoostDuringInstall; // @synthesize holdBoostDuringInstall=_holdBoostDuringInstall;
-@property unsigned int packageScriptUserID; // @synthesize packageScriptUserID=_packageScriptUserID;
 
 @end
 

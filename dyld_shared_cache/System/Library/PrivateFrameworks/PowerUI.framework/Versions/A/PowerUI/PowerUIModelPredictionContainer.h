@@ -9,12 +9,9 @@
 @interface PowerUIModelPredictionContainer
 {
     NSString *_modelVersion;
-    unsigned long long _state;
-    double _engagementConfidence;
-    double _smartChargeDuration;
 }
 
-- (double);
+- (double)";
 - (id);
 - (id);
 - (double);
@@ -24,10 +21,7 @@
 - (id)ays;
 
 // Remaining properties
-@property(readonly, nonatomic) double engagementConfidence; // @synthesize engagementConfidence=_engagementConfidence;
 @property(readonly, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(readonly, nonatomic) double smartChargeDuration; // @synthesize smartChargeDuration=_smartChargeDuration;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

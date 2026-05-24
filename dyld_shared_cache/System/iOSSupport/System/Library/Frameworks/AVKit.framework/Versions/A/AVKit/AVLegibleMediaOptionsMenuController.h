@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaOptionsController, AVMediaOptionsMenuBuilder, AVPlayer, NSString;
-@protocol AVLegibleMediaOptionsMenuControllerDelegate, AVLegibleMediaOptionsMenuControllerDelegatePrivate;
+@class AVMediaOptionsController, AVPlayer;
 
 @interface AVLegibleMediaOptionsMenuController
 {
     AVMediaOptionsController *mediaOptionsController;
-    AVMediaOptionsMenuBuilder *mediaOptionsMenuBuilder;
-    id <AVLegibleMediaOptionsMenuControllerDelegatePrivate> _privateDelegate;
-    AVPlayer *_player;
-    id <AVLegibleMediaOptionsMenuControllerDelegate> _delegate;
 }
 
 - (struct AVLegibleMediaOptionsMenuState);
@@ -24,7 +19,7 @@
 - (struct AVLegibleMediaOptionsMenuState);
 - (id);
 - (id);
-- (void);
+- (void)ersion tai,%.3lf,sv,%hhu,t_ls,%.3lf,curr_ls,%d,fut_ls,%d;
 - (id);
 - (void);
 - (id);
@@ -37,16 +32,7 @@
 - (id)ve;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVLegibleMediaOptionsMenuControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct AVLegibleMediaOptionsMenuState menuState;
 @property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(readonly) Class superclass;
 
 @end
 

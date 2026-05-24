@@ -4,60 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MRAudioDucker
 {
     double _duration;
-    double _duckInDuration;
-    double _duckOutDuration;
-    double _duckLevel;
-    double _time;
-    double _parentDuration;
-    long long _priority;
-    double _duckInTime;
-    double _duckOutTime;
 }
 
+- (void)_TtC19NewsAnalyticsUpload15DynamicEndpoint;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)8};
+- (void)w;
+- (double)?0@"NSNumber"8@"NSNumber"16;
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
 - (void);
 - (double);
 - (void);
-- (double);
-- (void);
+- (double): /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (double);
 - (void);
 - (long long)%d.jpg;
 
 // Remaining properties
-@property(readonly) double currentDuckLevel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duckInDuration; // @synthesize duckInDuration=_duckInDuration;
-@property(nonatomic) double duckInTime; // @synthesize duckInTime=_duckInTime;
-@property(nonatomic) double duckLevel; // @synthesize duckLevel=_duckLevel;
-@property(nonatomic) double duckOutDuration; // @synthesize duckOutDuration=_duckOutDuration;
-@property(nonatomic) double duckOutTime; // @synthesize duckOutTime=_duckOutTime;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double parentDuration; // @synthesize parentDuration=_parentDuration;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
-@property(nonatomic) double time; // @synthesize time=_time;
 
 @end
 

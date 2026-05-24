@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSMutableDictionary, UIFont, UILabel, UIView, _UINavigationBarLargeTitleView;
+@class NSMutableDictionary, _UINavigationBarLargeTitleView;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarLargeTitleViewLayout
 {
     NSMutableDictionary *_titleHeightCache;
-    NSMutableDictionary *_restingHeightCache;
-    double _cachedRestingHeight;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    _Bool _alignAccessoryViewToTitleBaseline;
-    _Bool _providesExtraSpaceForExcessiveLineHeights;
-    _Bool _overlaysContentView;
-    _UINavigationBarLargeTitleView *_contentView;
-    long long _titleType;
-    UIView *_customTitleView;
-    UIView *_subtitleView;
-    NSAttributedString *_subtitle;
-    unsigned long long _twoLineMode;
-    double _titleRestingHeight;
-    UIView *_accessoryView;
-    unsigned long long _accessoryViewHorizontalAlignment;
-    struct NSDirectionalEdgeInsets _layoutMargins;
 }
 
 - (_Bool);
@@ -50,15 +33,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)f1Â0@ù
 × ;
-- (struct CGSize)sentationPhase:(struct CGSize)arg1;
-- (void)ate:(struct UIOffset)arg1;
+- (struct CGSize)setTargetPresentationPhase:(struct CGSize)arg1;
+- (void)setFileModificationDate:(struct UIOffset)arg1;
 - (double)instantiateWithOwner:(struct CGSize)arg1 options:(long long)arg2;
-- (double)ilOfSize:(struct CGSize)arg1;
-- (void);
-- (void)rch:(_Bool)arg1;
-- (struct CGRect)aceStyleViewController;
-- (void)iewsForTransitionLayout;
-- (void)r;
+- (double)imageByPreparingThumbnailOfSize:(struct CGSize)arg1;
+- (void)_updateExcludedFromWindowsMenuForScene: /* Error: Ran out of types for this method. */;
+- (void)_setUsesSearchSuggestionsMenuForStackedSearch:(_Bool)arg1;
+- (struct CGRect)_presentedUserInterfaceStyleViewController;
+- (void)_prepareClonedViewsForTransitionLayout;
+- (void)_inactiveLanguageIndicator;
 - (void)der;
 - (id)	T;
 - (id)icsRendererContext subclass as a UIGraphicsRenderer context.;
@@ -77,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)or;
+- (void)NUISplitViewControllerSplitBehavior;
 - (struct NSDirectionalEdgeInsets);
 - (id)3Ä;
 - (id)ÿÚhó];
@@ -90,22 +73,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) unsigned long long accessoryViewHorizontalAlignment; // @synthesize accessoryViewHorizontalAlignment=_accessoryViewHorizontalAlignment;
-@property(nonatomic) _Bool alignAccessoryViewToTitleBaseline; // @synthesize alignAccessoryViewToTitleBaseline=_alignAccessoryViewToTitleBaseline;
 @property(nonatomic) _UINavigationBarLargeTitleView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UIView *customTitleView; // @synthesize customTitleView=_customTitleView;
-@property(nonatomic) struct NSDirectionalEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(nonatomic) _Bool overlaysContentView; // @synthesize overlaysContentView=_overlaysContentView;
-@property(nonatomic) _Bool providesExtraSpaceForExcessiveLineHeights; // @synthesize providesExtraSpaceForExcessiveLineHeights=_providesExtraSpaceForExcessiveLineHeights;
-@property(copy, nonatomic) NSAttributedString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) UIView *subtitleView; // @synthesize subtitleView=_subtitleView;
-@property(copy, nonatomic) NSAttributedString *title;
-@property(readonly, nonatomic) UIView *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(readonly, nonatomic) UIFont *titleLabelFont;
-@property(readonly, nonatomic) double titleRestingHeight; // @synthesize titleRestingHeight=_titleRestingHeight;
-@property(nonatomic) long long titleType; // @synthesize titleType=_titleType;
-@property(nonatomic) unsigned long long twoLineMode; // @synthesize twoLineMode=_twoLineMode;
 
 @end
 

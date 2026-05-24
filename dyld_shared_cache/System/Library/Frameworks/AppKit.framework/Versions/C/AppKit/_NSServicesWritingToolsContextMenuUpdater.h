@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
+- (_Bool)encoding of token data failed.;
 
 @end
 

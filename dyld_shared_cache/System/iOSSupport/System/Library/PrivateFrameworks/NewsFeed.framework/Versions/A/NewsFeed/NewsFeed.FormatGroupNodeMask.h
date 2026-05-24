@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatGroupNodeMask
 {
     id style;
-    id animation;
-    id _size;
-    id _adjustments;
 }
 
 @end

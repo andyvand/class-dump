@@ -8,21 +8,18 @@ __attribute__((visibility("hidden")))
 @interface _NSIdleTimer
 {
     unsigned long long _id;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _suspensionCount;
-    CDUnknownBlockType _handler;
 }
 
-+ (void);
-+ (void);
-+ (void)ouldActivateForServiceRequest;
++ (void)URLSession:(id)arg1 dataTask:_didReceiveData:completionHandler: /* Error: Ran out of types for this method. */;
++ (void)BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB);;
++ (void)shouldActivateForServiceRequest;
 - (void);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType)itWithSize:geometry:vectorGlyph:colors:renderingStyle:namedColorOverrides:debugBackgroundColor: /* Error: Ran out of types for this method. */;
-- (void)dStyles;
-- (void)gSeparators:errorDescription: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)initWithSize:geometry:vectorGlyph:colors:renderingStyle:namedColorOverrides:debugBackgroundColor: /* Error: Ran out of types for this method. */;
+- (void)_updateBackgroundStyles;
+- (void)_tokenizeString:intoArray:ignoringSeparators:errorDescription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType handler;

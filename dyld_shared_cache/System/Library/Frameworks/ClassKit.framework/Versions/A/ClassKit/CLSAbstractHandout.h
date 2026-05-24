@@ -6,21 +6,17 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSDate, NSString;
+@class NSDate, NSString;
 
 @interface CLSAbstractHandout : CLSObject
 {
     NSString *_title;
-    NSString *_instructions;
-    NSDate *_dueDate;
-    NSDate *_dateOfPublication;
-    long long _version;
-    NSArray *assets;
 }
 
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)_altDSID;
+- (void)stats version %u
+;
+- (void)StaticNETime;
 - (void);
 - (id);
 - (void);
@@ -41,19 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
 @property(retain, nonatomic) NSDate *dateOfPublication;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *dueDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *instructions;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) long long version;
 
 @end
 

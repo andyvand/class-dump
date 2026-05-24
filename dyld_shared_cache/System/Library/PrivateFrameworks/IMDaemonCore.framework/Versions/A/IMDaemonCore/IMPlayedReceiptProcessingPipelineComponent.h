@@ -11,7 +11,7 @@
     IMDiMessagePipelineResources *_pipelineResources;
 }
 
-- (id);
+- (id)ha;
 - (id);
 - (id);
 - (void);

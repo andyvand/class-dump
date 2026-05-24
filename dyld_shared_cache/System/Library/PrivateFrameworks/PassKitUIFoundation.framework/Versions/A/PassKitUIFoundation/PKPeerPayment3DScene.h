@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNMaterial, SCNNode;
+@class SCNNode;
 
 @interface PKPeerPayment3DScene
 {
     SCNNode *_lightNode;
-    SCNNode *_cameraNode;
-    SCNNode *_textContainerNode;
-    SCNMaterial *_textMaterial;
-    id _currentSkew;
-    id _currentRollPitch;
-    CDStruct_95fa7c00 _currentRotationMatrix;
 }
 
 + (id);
@@ -31,20 +25,14 @@
 - (id);
 - (id);
 - (CDStruct_95fa7c00);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SCNNode *cameraNode; // @synthesize cameraNode=_cameraNode;
-@property(nonatomic) id currentRollPitch; // @synthesize currentRollPitch=_currentRollPitch;
-@property(nonatomic) CDStruct_95fa7c00 currentRotationMatrix; // @synthesize currentRotationMatrix=_currentRotationMatrix;
-@property(nonatomic) id currentSkew; // @synthesize currentSkew=_currentSkew;
 @property(retain, nonatomic) SCNNode *lightNode; // @synthesize lightNode=_lightNode;
-@property(retain, nonatomic) SCNNode *textContainerNode; // @synthesize textContainerNode=_textContainerNode;
-@property(retain, nonatomic) SCNMaterial *textMaterial; // @synthesize textMaterial=_textMaterial;
 
 @end
 

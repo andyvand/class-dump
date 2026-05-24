@@ -11,12 +11,12 @@
 }
 
 + (Class);
-+ (id);
++ (id)integerValue;
 + (void);
-- (_Bool);
+- (_Bool)E;
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)C;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFPBlurEffect : MFPEffect
 {
     float mRadius;
-    _Bool mExpandEdge;
 }
 
 + (id);

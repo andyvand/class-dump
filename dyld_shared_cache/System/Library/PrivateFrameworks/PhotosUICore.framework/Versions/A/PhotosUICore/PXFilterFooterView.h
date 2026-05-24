@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSTextField, PXContentFilterState, PXLibraryFilterState, PXSharedLibraryStatusProvider;
+@class NSTextField;
 @protocol PXFilterFooterViewDelegate;
 
 @interface PXFilterFooterView
 {
     NSTextField *_captionLabel;
-    id <PXFilterFooterViewDelegate> _delegate;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    PXContentFilterState *_contentFilterState;
-    NSColor *_captionColor;
 }
 
 - (struct CGSize);
@@ -26,18 +21,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)needsFlipped;
 - (void);
 - (id)edSettings";
 - (id)ionRange(mainItemsGeometryRange, trailingHiddenItemGeometryRange).length == 0;
 - (void)Øpõþ;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *captionColor; // @synthesize captionColor=_captionColor;
-@property(retain, nonatomic) PXContentFilterState *contentFilterState; // @synthesize contentFilterState=_contentFilterState;
 @property(nonatomic) __weak id <PXFilterFooterViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(retain, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
 
 @end
 

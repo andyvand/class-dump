@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMFileList, DOMHTMLFormElement, NSString, NSURL;
+@class NSString;
 
 @interface DOMHTMLInputElement : DOMHTMLElement
 {
@@ -24,41 +24,41 @@
 - (void);
 - (void);
 - (void);
+- (void)d|;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)#;
+- (void)K$;
 - (void);
+- (void)Mei1;
 - (void);
+- (void));
 - (void);
+- (void)\-;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)QE;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -69,7 +69,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -83,7 +83,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)AMSNotificationSettingsTask;
 - (void);
 - (void);
 - (void);
@@ -103,16 +103,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
+- (void)%u;
+- (void);
 - (id);
 - (id);
+- (id)not entitled.;
 - (_Bool);
-- (void)achWindow:(_Bool)arg1;
+- (void)attachWindow:(_Bool)arg1;
 - (id)terEvents API;
 - (int)ype &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id).Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h;
@@ -121,32 +121,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *absoluteImageURL;
 @property(copy) NSString *accept;
-@property(copy) NSString *accessKey;
-@property(copy) NSString *align;
-@property(copy) NSString *alt;
-@property(readonly, copy) NSString *altDisplayString;
-@property _Bool autofocus;
-@property _Bool checked;
-@property _Bool defaultChecked;
-@property(copy) NSString *defaultValue;
-@property _Bool disabled;
-@property(retain) DOMFileList *files;
-@property(readonly) DOMHTMLFormElement *form;
-@property _Bool indeterminate;
-@property int maxLength;
-@property _Bool multiple;
-@property(copy) NSString *name;
-@property _Bool readOnly;
-@property int selectionEnd;
-@property int selectionStart;
-@property(copy) NSString *size;
-@property(copy) NSString *src;
-@property(copy) NSString *type;
-@property(copy) NSString *useMap;
-@property(copy) NSString *value;
-@property(readonly) _Bool willValidate;
 
 @end
 

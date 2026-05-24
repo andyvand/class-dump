@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)configureServiceWithOptions:(struct CGPoint)arg1;
 
 @end
 

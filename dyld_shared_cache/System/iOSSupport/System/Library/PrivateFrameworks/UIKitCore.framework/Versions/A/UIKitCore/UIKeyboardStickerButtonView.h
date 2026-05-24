@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
+- (id)eceived iMessage account session instead;
+- (void)ies %@;
 - (void);
 - (unsigned long long)!!8Fù1aÐ1Â0@ù
 × ;

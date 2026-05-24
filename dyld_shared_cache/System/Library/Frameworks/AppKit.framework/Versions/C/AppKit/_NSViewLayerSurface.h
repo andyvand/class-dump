@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCGSWindowLayerSurface, NSView, NSWindow;
-@protocol NSObject;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewLayerSurface
 {
     NSView *_view;
-    NSWindow *_window;
-    NSCGSWindowLayerSurface *_surface;
-    id <NSObject> _viewGeometryObserver;
-    NSArray *_windowObservers;
 }
 
 - (void);
 - (void);
 - (void);
-- (void)rid_rows;
+- (void)NSGrid_rows;
 - (id);
 
 @end

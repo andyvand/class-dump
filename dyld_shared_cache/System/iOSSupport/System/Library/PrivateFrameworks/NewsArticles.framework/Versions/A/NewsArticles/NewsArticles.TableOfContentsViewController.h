@@ -7,14 +7,9 @@
 @interface NewsArticles.TableOfContentsViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id purchasePresenter;
-    id commandContainer;
-    id pageIdentifierToDisplay;
 }
 
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (void);

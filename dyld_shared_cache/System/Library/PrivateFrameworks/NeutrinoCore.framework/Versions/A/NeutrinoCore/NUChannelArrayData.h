@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ramesInWindowForTrackID:fromRequest: /* Error: Ran out of types for this method. */;
+- (void)videoFramesInWindowForTrackID:fromRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *array; // @synthesize array=_array;

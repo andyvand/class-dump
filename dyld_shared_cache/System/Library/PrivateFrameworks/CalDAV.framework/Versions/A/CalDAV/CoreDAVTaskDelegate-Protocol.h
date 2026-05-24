@@ -5,5 +5,8 @@
 //
 
 @protocol CoreDAVTaskDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,27 +6,24 @@
 
 #import <KnowledgeGraphKit/MAElementFilter.h>
 
-@class KGEdgeFilter, MARelation;
+@class KGEdgeFilter;
 
 @interface MAEdgeFilter : MAElementFilter
 {
 }
 
 + (_Bool);
-+ (id);
++ (id)A;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)inating,V_terminating;
 
 // Remaining properties
-@property(readonly, nonatomic) MARelation *anyDirectionRelation;
-@property(readonly, nonatomic) MARelation *inRelation;
 @property(readonly, nonatomic) KGEdgeFilter *kgEdgeFilter;
-@property(readonly, nonatomic) MARelation *outRelation;
 
 @end
 

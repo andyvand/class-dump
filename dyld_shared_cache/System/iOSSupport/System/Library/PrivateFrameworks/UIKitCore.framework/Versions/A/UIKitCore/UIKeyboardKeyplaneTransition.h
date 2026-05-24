@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableArray, UIKBKeyViewAnimator, UIKBTree, UIView;
-@protocol UIKeyboardKeyplaneTransitionDelegate;
+@class UIKBTree;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardKeyplaneTransition
 {
     double _currentProgress;
-    double _liftOffProgress;
-    double _finishProgress;
-    double _finishDuration;
-    double _finalTransitionStartTime;
-    CADisplayLink *_displayLink;
-    UIKBTree *_keyboard;
-    UIKBTree *_start;
-    UIKBTree *_end;
-    UIView *_startView;
-    UIView *_endView;
-    CDUnknownBlockType _completionBlock;
-    id <UIKeyboardKeyplaneTransitionDelegate> _transitionDelegate;
-    _Bool _initiallyAtEnd;
-    NSMutableArray *_transitionViews;
-    UIKBKeyViewAnimator *_keyViewAnimator;
 }
 
 - (void);
@@ -34,20 +18,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)ID %@ and service result %@:(CDUnknownBlockType)arg1 isFinal:%d
+isRCS:%d
+didSupportEncryption:%d
+serviceForSendingResult.bestResult.allSupportEncryption):%d
+retryAsUnencryptedRCS:%d /* Error: Ran out of types for this method. */;
+- (void)sent an auto reply in the last %ld messages.;
+- (double)ead receipt pipeline;
+- (_Bool)all history with sender:%@ /* Error: Ran out of types for this method. */;
+- (void)r sending;
+- (void)ep, we should reflect it only if it came from one of our devices (senderDevice %s) isInProxyMode %@;
+- (double)play names;
+- (void)CACHE_DELETE_VOLUME;
+- (void)pple.imessage;
+- (_Bool)ngNoticeProtobuf:(id)arg1 service:(id)arg2 account:fromID:context:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (double);
-- (_Bool);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)ponderTarget;
+- (void)firstResponderTarget;
 - (id);
 - (CDUnknownBlockType)s¬;
 - (void)f;
@@ -56,14 +44,7 @@ __attribute__((visibility("hidden")))
 - (id)Òqþ)îÚ9k;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, nonatomic) double endHeight;
-@property(nonatomic) _Bool initiallyAtEnd; // @synthesize initiallyAtEnd=_initiallyAtEnd;
-@property(retain, nonatomic) UIKBKeyViewAnimator *keyViewAnimator; // @synthesize keyViewAnimator=_keyViewAnimator;
 @property(retain, nonatomic) UIKBTree *keyboard; // @synthesize keyboard=_keyboard;
-@property(readonly, nonatomic) double nonInteractiveDuration;
-@property(readonly, nonatomic) double startHeight;
-@property(nonatomic) __weak id <UIKeyboardKeyplaneTransitionDelegate> transitionDelegate; // @synthesize transitionDelegate=_transitionDelegate;
 
 @end
 

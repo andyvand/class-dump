@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTCategory
 {
     NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSString *_canonicalBundleIdentifier;
-    NSArray *_equivalentBundleIdentifiers;
-    NSArray *_webDomains;
-    NSString *_primaryWebDomain;
 }
 
 + (id);
@@ -21,22 +16,22 @@
 + (void);
 + (id);
 + (void);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)iS;
 + (id);
 + (void);
-+ (void);
-+ (id);
-+ (id);
 + (void);
 + (id);
 + (id);
++ (void);
++ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -51,7 +46,7 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -82,13 +77,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *canonicalBundleIdentifier; // @synthesize canonicalBundleIdentifier=_canonicalBundleIdentifier;
-@property(readonly, copy, nonatomic) NSArray *equivalentBundleIdentifiers; // @synthesize equivalentBundleIdentifiers=_equivalentBundleIdentifiers;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(copy, nonatomic) NSString *primaryWebDomain; // @synthesize primaryWebDomain=_primaryWebDomain;
-@property(copy, nonatomic) NSArray *webDomains; // @synthesize webDomains=_webDomains;
 
 @end
 

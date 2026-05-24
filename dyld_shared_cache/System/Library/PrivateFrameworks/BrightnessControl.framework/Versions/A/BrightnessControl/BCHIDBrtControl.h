@@ -6,24 +6,9 @@
 
 #import <BrightnessControl/BCBrtControl.h>
 
-@class HIDDevice, HIDElement, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface BCHIDBrtControl : BCBrtControl
 {
     unsigned int _hidBrightnessService;
-    HIDDevice *_hidBrightnessDevice;
-    HIDElement *_brightnessElement;
-    HIDElement *_brightnessFadeElement;
-    float _nitsScaler;
-    double _nits;
-    float _brightnessUpdateTarget;
-    unsigned long long _brighntessUpdateCounter;
-    NSObject<OS_dispatch_queue> *_brightnessUpdateQueue;
-    struct IONotificationPort *_boostFactorNotificationPort;
-    unsigned int _boostFactorNotification;
-    float _nitsBoostFactor;
-    unsigned long long _registryID;
 }
 
 + (id);
@@ -40,7 +25,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);

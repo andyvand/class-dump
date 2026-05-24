@@ -6,29 +6,22 @@
 
 #import <AppKit/NSButtonCell.h>
 
-@class NSMenu, NSObject, NSString, NSTrackingArea;
+@class NSObject;
 @protocol NSWindowSharingSessionHostButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowSharingSessionHostButtonCell : NSButtonCell
 {
     NSObject<NSWindowSharingSessionHostButtonDelegate> *_delegate;
-    _Bool _acceptsHover;
-    _Bool _isMouseInside;
-    _Bool _recordingStyle;
-    NSMenu *_popupMenu;
-    NSTrackingArea *_exitTrackingArea;
-    _Bool _trackingMouseDown;
-    _Bool _showedMenuForMouseDown;
 }
 
-+ (Class);
-+ (Class);
-- (_Bool);
++ (Class)kCFHTTPServerKeychain;
++ (Class)OS_dispatch_data;
+- (_Bool)BagsAllowUnsealed (%d);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)AppleDiagnosticDataAccessReadOnly;
 - (void);
 - (_Bool);
 - (void);
@@ -39,30 +32,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (_Bool)defaultTimeoutInterval;
+- (void)_lowThroughputTimerRetryCount;
+- (_Bool)_downloadTaskWithRequest:downloadFilePath: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (long long)e;
-- (void)teWithOrder:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)b/libenergytrace.dylib;
+- (id);
+- (void);
+- (long long)miniaturizedSize;
+- (void)enumerateWithOrder:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 - (SEL)expected. Please adopt constraints for the accessory to avoid this issue.;
 - (void)read.;
 
 // Remaining properties
-@property _Bool acceptsHover; // @synthesize acceptsHover=_acceptsHover;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak NSObject<NSWindowSharingSessionHostButtonDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

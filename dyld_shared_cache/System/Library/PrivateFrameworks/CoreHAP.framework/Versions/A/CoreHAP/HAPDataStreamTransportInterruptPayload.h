@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSData, NSString;
+@class NSData;
 
 @interface HAPDataStreamTransportInterruptPayload
 {
     NSData *_requestToSendIdentifiers;
-    HAPTLVUnsignedNumberValue *_dataStreamTransportInterruptSequenceNumber;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)respondsToSelector:(id)arg1;
 - (_Bool);
 - (id);
 - (void)tCommon>"16;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *dataStreamTransportInterruptSequenceNumber; // @synthesize dataStreamTransportInterruptSequenceNumber=_dataStreamTransportInterruptSequenceNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *requestToSendIdentifiers; // @synthesize requestToSendIdentifiers=_requestToSendIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

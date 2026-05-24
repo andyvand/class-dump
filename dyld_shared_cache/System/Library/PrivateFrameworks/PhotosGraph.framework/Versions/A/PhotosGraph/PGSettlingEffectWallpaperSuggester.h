@@ -6,22 +6,17 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSString, PGSettlingEffectWallpaperSuggesterFilteringContext, PGSettlingEffectWallpaperSuggesterLogger, PGWallpaperSuggestionAssetGater;
+@class PGSettlingEffectWallpaperSuggesterFilteringContext, PGWallpaperSuggestionAssetGater;
 
 @interface PGSettlingEffectWallpaperSuggester : PGAbstractSuggester
 {
     PGWallpaperSuggestionAssetGater *_assetGater;
-    CDStruct_42b60269 _filteringStatistics;
-    NSString *_loggingPrefix;
-    _Bool _noLimit;
-    PGSettlingEffectWallpaperSuggesterLogger *_logger;
-    PGSettlingEffectWallpaperSuggesterFilteringContext *_filteringContext;
 }
 
-+ (id);
-+ (id);
++ (id)formatAttributedString:font:fontColor:backgroundColor:fontSize:shouldUseOriginalAlpha: /* Error: Ran out of types for this method. */;
++ (id)LibCall_ACMContextCreateWithExternalForm;
++ (_Bool)SString"8;
 + (_Bool);
-+ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -30,15 +25,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool)childrenDescriptionUsedForDescriptionOfElementWithRole: /* Error: Ran out of types for this method. */;
+- (id)accessibilityAttributedStringForAXFTextRange: /* Error: Ran out of types for this method. */;
+- (id)_shouldElementBeIgnoredInNavigationMap:(id)arg1;
+- (id)_setMainScreenObserver: /* Error: Ran out of types for this method. */;
+- (void)Window;
+- (id)includeRoleDescriptionForRoles:(id)arg1;
 - (unsigned long long);
-- (id);
-- (void)ticalDedupingThresholdForPeople;
+- (id);
+- (void)semanticalDedupingThresholdForPeople;
 - (id);
 
 // Remaining properties

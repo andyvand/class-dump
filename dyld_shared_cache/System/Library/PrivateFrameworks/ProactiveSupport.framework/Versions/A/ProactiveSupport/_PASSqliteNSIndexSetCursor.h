@@ -13,10 +13,10 @@
 }
 
 + (const char *);
-+ (_Bool);
++ (_Bool)isGeocodeCandidateLocation:(_Bool)arg1 forEvent: /* Error: Ran out of types for this method. */;
 + (id);
 + (const char *);
-+ (double);
++ (double)y must be a string. Dict:%@ /* Error: Ran out of types for this method. */;
 + (double);
 - (void);
 - (void);

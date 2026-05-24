@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WADeviceAnalytics_AdaptiveRoamingBSSParams
 {
     short _rssiRoamTrigger;
-    NSString *_bssid;
-    NSArray *_neighborChannels;
-    NSArray *_neighbors;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (short);
-- (id);
+- (id)haredGroceryList:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(retain, nonatomic) NSArray *neighborChannels; // @synthesize neighborChannels=_neighborChannels;
-@property(retain, nonatomic) NSArray *neighbors; // @synthesize neighbors=_neighbors;
-@property(nonatomic) short rssiRoamTrigger; // @synthesize rssiRoamTrigger=_rssiRoamTrigger;
 
 @end
 

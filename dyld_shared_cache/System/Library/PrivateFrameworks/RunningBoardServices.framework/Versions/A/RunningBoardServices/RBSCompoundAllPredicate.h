@@ -13,7 +13,7 @@
     NSSet *_predicates;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);

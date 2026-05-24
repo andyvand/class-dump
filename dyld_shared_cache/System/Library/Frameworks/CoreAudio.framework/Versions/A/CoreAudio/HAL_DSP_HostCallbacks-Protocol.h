@@ -5,5 +5,6 @@
 //
 
 @protocol HAL_DSP_HostCallbacks
+- (void);
 @end
 

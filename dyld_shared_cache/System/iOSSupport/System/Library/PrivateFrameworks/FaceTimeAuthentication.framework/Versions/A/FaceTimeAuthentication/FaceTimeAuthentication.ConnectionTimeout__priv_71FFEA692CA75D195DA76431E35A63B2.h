@@ -8,7 +8,6 @@
 {
     id waiting;
     id timeout;
-    id logger;
 }
 
 @end

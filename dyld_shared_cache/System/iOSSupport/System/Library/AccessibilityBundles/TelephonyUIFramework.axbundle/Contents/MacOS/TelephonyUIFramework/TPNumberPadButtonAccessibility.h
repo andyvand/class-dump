@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)selectRow:inComponent:animated: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 

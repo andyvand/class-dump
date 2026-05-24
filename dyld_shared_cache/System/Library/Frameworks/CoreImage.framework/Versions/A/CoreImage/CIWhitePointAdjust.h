@@ -6,26 +6,24 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIWhitePointAdjust : CIFilter
 {
     CIImage *inputImage;
-    CIColor *inputColor;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (id)¦¥¦¦£byvu~~{{{{uxxxwwwwuuuuXto} §®®¬´ºº····¤¤¤¤~~~~K_Qrdh\ukuuv^^U^)>+N8J=UffafB`Ynookppppp;
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

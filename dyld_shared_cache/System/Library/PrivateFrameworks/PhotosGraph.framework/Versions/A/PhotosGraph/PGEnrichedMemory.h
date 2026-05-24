@@ -4,57 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSIndexSet, NSString, PGFlexMusicCuration, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection, PGMoodVector, PGMusicCuration;
+@class NSString;
 @protocol PGTriggeredMemoryProtocol;
 
 @interface PGEnrichedMemory
 {
     id <PGTriggeredMemoryProtocol> _triggeredMemory;
-    _Bool _featuresGuestAssets;
-    NSString *_title;
-    NSString *_subtitle;
-    NSArray *_chapterTitles;
-    NSString *_keyAssetUUID;
-    NSArray *_curatedAssetUUIDs;
-    NSArray *_representativeAssetUUIDs;
-    NSArray *_extendedCuratedAssetUUIDs;
-    NSArray *_legacyMoodKeywords;
-    unsigned long long _suggestedMood;
-    unsigned long long _recommendedMoods;
-    unsigned long long _forbiddenMoods;
-    PGMoodVector *_positiveMoodVector;
-    long long _notificationLevel;
-    double _score;
-    unsigned long long _numberOfRelevantAssets;
-    long long _titleCategory;
-    PGFlexMusicCuration *_flexMusicCuration;
-    PGMusicCuration *_musicCuration;
-    unsigned long long _failureReason;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)set_batteryStatus:(long long)arg1;
+- (void)setTrackFocusedElement:(unsigned long long)arg1;
+- (void)setConfirmButtonVisible:(unsigned long long)arg1;
+- (void)rebuildMapIfNeeded;
+- (void)objectForAXAttribute:(unsigned long long)arg1;
+- (void)formatAttributedString:(long long)arg1 font:fontColor:backgroundColor:fontSize:shouldUseOriginalAlpha: /* Error: Ran out of types for this method. */;
+- (void)childControllers;
+- (void)addAttribute:(unsigned long long)arg1 value:range: /* Error: Ran out of types for this method. */;
+- (void)accessibilityTitle;
+- (void)accessibilityHorizontalScrollBar;
+- (void)_updateCacheWithApplicationElements:(id)arg1 applicationControllers: /* Error: Ran out of types for this method. */;
+- (void)_tokenizerUnit;
+- (id)set_isEditable: /* Error: Ran out of types for this method. */;
+- (unsigned long long)AXKKeyboardFocusListenerSharedKeyboardFocusElementInfo;
+- (long long)U;
 - (id);
-- (unsigned long long);
-- (long long);
+- (id)us.wifi.strength.4.withNetwork%@%@;
+- (id)pple.AccessibilityKit.AXKKeyboardFocusTracker.DelegateQueue;
+- (unsigned long long)KElementController"8;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)aa;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -81,7 +61,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)EEEEE;
 - (id);
 - (void);
 - (id);
@@ -89,51 +69,12 @@
 - (void);
 - (unsigned long long);
 - (double);
-- (id)taForMemoriesInPhotoLibrary:withConfiguration: /* Error: Ran out of types for this method. */;
-- (void)onContext;
+- (id)_shouldPrefetchMetadataForMemoriesInPhotoLibrary:withConfiguration: /* Error: Ran out of types for this method. */;
+- (void)PGTitleSpecArgumentEvaluationContext;
 - (void)I/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGGraphIngestBusinessProcessor.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *blockableFeatures;
-@property(copy, nonatomic) NSArray *chapterTitles; // @synthesize chapterTitles=_chapterTitles;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(copy, nonatomic) NSArray *curatedAssetUUIDs; // @synthesize curatedAssetUUIDs=_curatedAssetUUIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double electionScore;
-@property(copy, nonatomic) NSArray *extendedCuratedAssetUUIDs; // @synthesize extendedCuratedAssetUUIDs=_extendedCuratedAssetUUIDs;
-@property(readonly, nonatomic) _Bool failedEnrichment;
-@property(nonatomic) unsigned long long failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool featuresGuestAssets; // @synthesize featuresGuestAssets=_featuresGuestAssets;
-@property(retain, nonatomic) PGFlexMusicCuration *flexMusicCuration; // @synthesize flexMusicCuration=_flexMusicCuration;
-@property(nonatomic) unsigned long long forbiddenMoods; // @synthesize forbiddenMoods=_forbiddenMoods;
-@property(readonly, nonatomic) _Bool generatedWithFallbackRequirements;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *keyAssetUUID; // @synthesize keyAssetUUID=_keyAssetUUID;
-@property(copy, nonatomic) NSArray *legacyMoodKeywords; // @synthesize legacyMoodKeywords=_legacyMoodKeywords;
-@property(readonly, nonatomic) unsigned long long memoryCategory;
-@property(readonly, nonatomic) unsigned long long memoryCategorySubcategory;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *memoryMomentNodes;
-@property(retain, nonatomic) PGMusicCuration *musicCuration; // @synthesize musicCuration=_musicCuration;
-@property(nonatomic) long long notificationLevel; // @synthesize notificationLevel=_notificationLevel;
-@property(nonatomic) unsigned long long numberOfRelevantAssets; // @synthesize numberOfRelevantAssets=_numberOfRelevantAssets;
-@property(readonly, nonatomic) long long photosGraphVersion;
-@property(retain, nonatomic) PGMoodVector *positiveMoodVector; // @synthesize positiveMoodVector=_positiveMoodVector;
-@property(nonatomic) unsigned long long recommendedMoods; // @synthesize recommendedMoods=_recommendedMoods;
-@property(copy, nonatomic) NSArray *representativeAssetUUIDs; // @synthesize representativeAssetUUIDs=_representativeAssetUUIDs;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(nonatomic) unsigned long long suggestedMood; // @synthesize suggestedMood=_suggestedMood;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long titleCategory; // @synthesize titleCategory=_titleCategory;
-@property(readonly, nonatomic) NSIndexSet *triggerTypes;
-@property(readonly, nonatomic) NSString *uniqueMemoryIdentifier;
-@property(readonly, nonatomic) NSDictionary *validityIntervalByTriggerType;
 
 @end
 

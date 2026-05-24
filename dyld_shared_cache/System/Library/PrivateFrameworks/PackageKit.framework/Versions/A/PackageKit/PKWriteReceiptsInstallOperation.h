@@ -11,7 +11,6 @@
 @interface PKWriteReceiptsInstallOperation : PKInstallOperation
 {
     PKPackageSpecifier *_currentPackageSpecifier;
-    _Bool _inSandbox;
 }
 
 - (id);

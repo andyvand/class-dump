@@ -11,12 +11,10 @@
 @interface IMAggregateAttachmentMessagePartChatItem : IMAttachmentMessagePartChatItem
 {
     NSArray *_transferGUIDs;
-    NSArray *_aggregateAttachmentParts;
 }
 
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *aggregateAttachmentParts; // @synthesize aggregateAttachmentParts=_aggregateAttachmentParts;
-@property(readonly, copy, nonatomic) NSArray *transferGUIDs; // @synthesize transferGUIDs=_transferGUIDs;
 @end
 

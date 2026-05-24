@@ -6,20 +6,19 @@
 
 #import <QuartzComposer/QCProgrammablePatch.h>
 
-@class QCMathematicalExpression, QCNumberPort;
+@class QCNumberPort;
 
 @interface QCExpression : QCProgrammablePatch
 {
     QCNumberPort *outputResult;
-    QCMathematicalExpression *_evaluator;
 }
 
 + (id);
 + (Class);
 + (_Bool);
 + (_Bool);
-- (void);
-- (_Bool);
+- (void)@n` ;
+- (_Bool)qhA;
 - (id);
 - (void);
 

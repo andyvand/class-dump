@@ -6,61 +6,50 @@
 
 #import <TSReading/TSPObject.h>
 
-@class TSTCellStyle, TSTTableStyle, TSWPParagraphStyle, TSWPShapeStyle;
+@class TSTTableStyle;
 
 @interface TSTTableStyleNetwork : TSPObject
 {
     unsigned long long mPresetIndex;
-    TSTTableStyle *mTableStyle;
-    TSTCellStyle *mHeaderRowCellStyle;
-    TSTCellStyle *mHeaderColumnCellStyle;
-    TSTCellStyle *mFooterRowCellStyle;
-    TSTCellStyle *mBodyCellStyle;
-    TSWPParagraphStyle *mHeaderRowTextStyle;
-    TSWPParagraphStyle *mHeaderColumnTextStyle;
-    TSWPParagraphStyle *mFooterRowTextStyle;
-    TSWPParagraphStyle *mBodyTextStyle;
-    TSWPParagraphStyle *mTableNameStyle;
-    TSWPShapeStyle *mTableNameShapeStyle;
 }
 
 + (id);
++ (id);
++ (id);
++ (id)a;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)nnot change repeatIteration for EndOfQueuePlaceholder;
+- (id)%@;
+- (id)rItemTypeEndOfQueuePlaceholder):%@ /* Error: Ran out of types for this method. */;
+- (_Bool).StartPlayerItemDonation;
+- (id)pe:%d /* Error: Ran out of types for this method. */;
+- (void)t-type-selection-metadata;
+- (void)cs;
+- (void)yer-item-id;
+- (void)e-metadata;
+- (void)n;
+- (void)avTfac2SetRateEnd;
+- (void)avTfac2SetRate;
+- (void)tfac2RPCreate;
+- (void)avTfac2IReady;
+- (void)suzeLeaseWaitTime;
+- (void)subscriptionAssetLoadWaitTime;
+- (void)- model:(id)arg1 %@ - level:(unsigned int)arg2 %3.2f;
+- (void)ytes/Packet:(id)arg1 %u - Frames/Packet:%u - Bytes/Frame:%u - Channels/Frame:%u - Bits/Channel:%u /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)AsyncAssetReaderSequence;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)80]x;
 - (id);
 - (id);
 - (void);
@@ -73,23 +62,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)WPLineFragment}40^B48;
 - (id)e *, BOOL);
 - (unsigned long long)r;
 
 // Remaining properties
-@property(readonly, nonatomic) TSTCellStyle *bodyCellStyle;
-@property(readonly, nonatomic) TSWPParagraphStyle *bodyTextStyle;
-@property(readonly, nonatomic) TSTCellStyle *footerRowCellStyle;
-@property(readonly, nonatomic) TSWPParagraphStyle *footerRowTextStyle;
-@property(readonly, nonatomic) TSTCellStyle *headerColumnCellStyle;
-@property(readonly, nonatomic) TSWPParagraphStyle *headerColumnTextStyle;
-@property(readonly, nonatomic) TSTCellStyle *headerRowCellStyle;
-@property(readonly, nonatomic) TSWPParagraphStyle *headerRowTextStyle;
-@property(nonatomic) unsigned long long presetIndex;
-@property(retain, nonatomic) TSWPShapeStyle *tableNameShapeStyle;
-@property(retain, nonatomic) TSWPParagraphStyle *tableNameStyle;
 @property(retain, nonatomic) TSTTableStyle *tableStyle;
 
 @end

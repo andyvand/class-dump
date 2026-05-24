@@ -5,5 +5,6 @@
 //
 
 @protocol PSGInputSuggesterProtocol
+- (void)ޕe`_4;
 @end
 

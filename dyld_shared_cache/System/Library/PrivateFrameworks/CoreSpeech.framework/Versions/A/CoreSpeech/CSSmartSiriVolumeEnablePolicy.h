@@ -14,8 +14,8 @@
 
 - (void);
 - (id);
-- (void);
-- (void)sh:locale:digest:signature:certificate: /* Error: Ran out of types for this method. */;
+- (void)dingBox:] is not available, use class designated initializers /* Error: Ran out of types for this method. */;
+- (void)initWithData:hash:locale:digest:signature:certificate: /* Error: Ran out of types for this method. */;
 
 @end
 

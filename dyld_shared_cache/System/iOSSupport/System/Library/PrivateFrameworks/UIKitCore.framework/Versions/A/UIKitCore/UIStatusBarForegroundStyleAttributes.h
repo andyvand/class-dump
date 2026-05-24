@@ -4,71 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarForegroundStyleAttributes
 {
     double _height;
-    long long _legibilityStyle;
-    long long _idiom;
-    NSMutableDictionary *_cachedFonts;
-    _Bool _isTintColorBlack;
-    _Bool _hasBusyBackground;
-    NSString *_cachedUniqueIdentifier;
-    _Bool _canShowBreadcrumbs;
-    UIColor *_tintColor;
 }
 
-- (_Bool);
+- (_Bool)addItem:toParentChatID:updatedLastMessageCount: /* Error: Ran out of types for this method. */;
+- (id)_shouldFindAssociatedMessagePartTextForMessageItem:(id)arg1;
+- (id)_serviceNameCapabilityCache;
+- (double)_lastMessageStorageTimerInterval;
+- (id)_isSuppressedForGUID:(int)arg1;
+- (id)_isShareBearURL:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_hasRegisteredLocalPhoneNumberForHandle:(long long)arg1;
+- (_Bool)_chipListDictionary: /* Error: Ran out of types for this method. */;
+- (double)ery;
+- (double)ction",&,N,V_timingComingBackFromStorage;
+- (id)eCaptureAssistant",&,N,V_stateCaptureAssistant;
 - (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)errorIndicatesBatchSizeFailure:(id)arg1;
 - (void);
-- (double);
+- (double);�H6So29BGSystemTaskThroughputMetricsCABSH17IMSharedUtilitiesyHCg_G;
 - (struct CGPoint);
 - (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (id)`;
+- (id)sage:(double)arg1 %@ error:(long long)arg2 %@;
+- (id)alid state. %lu;
+- (id)next pipeline;
+- (id)assing input to next pipeline;
+- (id)ry;
+- (id)d for notice collaboration id %s, elapsedMinutes:(id)arg1 %ld < threshold:(double)arg2 %ld;
+- (id)ared API is not available, subscriptionValidationTokenForHandle:completion: /* Error: Ran out of types for this method. */;
+- (id)ion for %@, has translated message parts;
+- (struct UIEdgeInsets)duled fetch changes operation to check for the existence of a single chat with identifier:%@ (batch size %d) /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)%@ with error:%@, foundRecord:%d /* Error: Ran out of types for this method. */;
+- (void)essagePipelineParameter> Started processing;
+- (void)otified recipient with GUID=%@:(id)arg1 message not found;
+- (void)e is SOS;
+- (void)catedMessagePipelineComponent> Allowing instant delivery of %@, message is SOS;
+- (void)owing instant delivery of %@, default set;
+- (_Bool)houldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)ePartGUID %@ that was retracted. Deleting the associated message item.;
+- (id)ed message %@;
+- (void)ION FAILED:(id)arg1 %@;
+- (id)with item (%@) and type %lld;
+- (double)etch IMMessageItem from IMDMessageRecord with item (%@) and type %lld;
+- (id)t message:(double)arg1 %@ with room names:(_Bool)arg2 %@ on services:%@ /* Error: Ran out of types for this method. */;
+- (id)reated for %@;
+- (double)ng %@;
+- (double)ge was marked as failed but didn't update the scheduleState:(long long)arg1 %@;
+- (long long)for command:(_Bool)arg1 %s (%@);
+- (id)%@;
+- (_Bool)wasDetectedAsiMessageSpam;
+- (double)Ȣ;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (double);
-- (id);
-- (id);
-- (double);
-- (double);
-- (long long);
-- (id);
-- (_Bool);
-- (double);
-- (void);
-- (id);
+- (id)RM;
 - (id);
 - (void);
 - (void);
@@ -78,11 +70,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double)
 × ;
-- (id)owsEditingTextAttributes;
+- (id)_allowsEditingTextAttributes;
 - (id)nextFocusedGroupIdentifier,V_nextFocusedGroupIdentifier;
 - (id)ject",W,N,V_inspectedObject;
 - (long long)ï;
-- (id)Dimensions;
+- (id)UILayoutGuideAllowsNegativeDimensions;
 - (void)yO;
 - (long long)hþ;
 

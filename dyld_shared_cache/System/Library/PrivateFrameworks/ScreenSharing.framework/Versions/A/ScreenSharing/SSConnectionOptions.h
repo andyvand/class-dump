@@ -4,55 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SSDisplayConfiguration;
-
 @interface SSConnectionOptions
 {
     _Bool _shouldGetUserInfo;
-    _Bool _shouldCurtainScreen;
-    _Bool _shouldSharePasteboard;
-    _Bool _shouldFallbackToObserve;
-    _Bool _skipAddressPresentation;
-    _Bool _openInFullScreen;
-    _Bool _showConnectionProgress;
-    _Bool _skipUserPassDialogIfPossible;
-    _Bool _noReconnect;
-    _Bool _connectingToIOSdevice;
-    _Bool _isFTSS;
-    _Bool _hdr;
-    _Bool _virtualDisplay1HDREnabled;
-    _Bool _virtualDisplay2HDREnabled;
-    _Bool _inviterAppIsMessages;
-    _Bool _idsDeviceAudioStreamPausedAtStart;
-    _Bool _screenQualitySet;
-    _Bool _screenQualityDowngraded;
-    unsigned int _displayID;
-    long long _minimumEncryptionLevel;
-    long long _controlType;
-    long long _sessionSelectionAction;
-    long long _panningMode;
-    long long _screenQualityMode;
-    unsigned long long _selectedScreen;
-    long long _scalingMode;
-    long long _authMethod;
-    NSDictionary *_hints;
-    NSArray *_videoEncodings;
-    long long _recoveryAction;
-    NSString *_idsDestination;
-    NSString *_deviceID;
-    NSString *_displayName;
-    long long _appleIDInviteMethod;
-    NSString *_callUUID;
-    long long _windowAlignment;
-    SSDisplayConfiguration *_displayConfiguration;
-    long long _numVirtualDisplays;
-    NSData *_managedCredentialPersistentRef;
-    NSString *_savedConnectionID;
-    NSString *_connectionGroupID;
-    struct CGSize _maxSize;
-    struct CGRect _restoreWindowFrame;
-    struct CGRect _restoreContentFrame;
-    struct CGRect _sourceAppWindowRect;
 }
 
 + (id);
@@ -75,6 +29,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,8 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(\;
 - (void);
 - (void);
 - (void);
@@ -102,7 +56,7 @@
 - (void);
 - (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool),;
 - (long long);
 - (_Bool);
 - (id);
@@ -119,6 +73,9 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
+- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -128,10 +85,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (_Bool);
 - (long long);
@@ -144,11 +98,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (unsigned long long);
 - (void);
 - (long long);
-- (long long);
+- (long long)A;
 - (void);
 - (void);
 - (void);
@@ -167,72 +121,26 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)Q;
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id)ate.;
 - (void);
 - (void);
-- (id);
+- (id)_hasUserRatingScore;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
-- (void)Consumer: /* Error: Ran out of types for this method. */;
+- (void)ssSetInputEventConsumer: /* Error: Ran out of types for this method. */;
 - (struct CGSize)P;
 - (void)%s;
 
 // Remaining properties
-@property long long appleIDInviteMethod; // @synthesize appleIDInviteMethod=_appleIDInviteMethod;
-@property long long authMethod; // @synthesize authMethod=_authMethod;
-@property(retain) NSString *callUUID; // @synthesize callUUID=_callUUID;
-@property _Bool connectingToIOSdevice; // @synthesize connectingToIOSdevice=_connectingToIOSdevice;
-@property(retain, nonatomic) NSString *connectionGroupID; // @synthesize connectionGroupID=_connectionGroupID;
-@property long long controlType; // @synthesize controlType=_controlType;
-@property(retain) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain, nonatomic) SSDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hdr; // @synthesize hdr=_hdr;
-@property(copy) NSDictionary *hints; // @synthesize hints=_hints;
-@property(retain) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(nonatomic) _Bool idsDeviceAudioStreamPausedAtStart; // @synthesize idsDeviceAudioStreamPausedAtStart=_idsDeviceAudioStreamPausedAtStart;
-@property(nonatomic) _Bool inviterAppIsMessages; // @synthesize inviterAppIsMessages=_inviterAppIsMessages;
-@property(nonatomic) _Bool isFTSS; // @synthesize isFTSS=_isFTSS;
-@property(retain, nonatomic) NSData *managedCredentialPersistentRef; // @synthesize managedCredentialPersistentRef=_managedCredentialPersistentRef;
-@property struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property long long minimumEncryptionLevel; // @synthesize minimumEncryptionLevel=_minimumEncryptionLevel;
-@property _Bool noReconnect; // @synthesize noReconnect=_noReconnect;
-@property(nonatomic) long long numVirtualDisplays; // @synthesize numVirtualDisplays=_numVirtualDisplays;
-@property _Bool openInFullScreen; // @synthesize openInFullScreen=_openInFullScreen;
-@property long long panningMode; // @synthesize panningMode=_panningMode;
-@property long long recoveryAction; // @synthesize recoveryAction=_recoveryAction;
-@property struct CGRect restoreContentFrame; // @synthesize restoreContentFrame=_restoreContentFrame;
-@property struct CGRect restoreWindowFrame; // @synthesize restoreWindowFrame=_restoreWindowFrame;
-@property(retain, nonatomic) NSString *savedConnectionID; // @synthesize savedConnectionID=_savedConnectionID;
-@property long long scalingMode; // @synthesize scalingMode=_scalingMode;
-@property(nonatomic) _Bool screenQualityDowngraded; // @synthesize screenQualityDowngraded=_screenQualityDowngraded;
-@property long long screenQualityMode; // @synthesize screenQualityMode=_screenQualityMode;
 @property(nonatomic) _Bool screenQualitySet; // @synthesize screenQualitySet=_screenQualitySet;
-@property unsigned long long selectedScreen; // @synthesize selectedScreen=_selectedScreen;
-@property long long sessionSelectionAction; // @synthesize sessionSelectionAction=_sessionSelectionAction;
-@property _Bool shouldCurtainScreen; // @synthesize shouldCurtainScreen=_shouldCurtainScreen;
-@property _Bool shouldFallbackToObserve; // @synthesize shouldFallbackToObserve=_shouldFallbackToObserve;
-@property _Bool shouldGetUserInfo; // @synthesize shouldGetUserInfo=_shouldGetUserInfo;
-@property _Bool shouldReturnToAddressBox;
-@property _Bool shouldScaleScreen;
-@property _Bool shouldSharePasteboard; // @synthesize shouldSharePasteboard=_shouldSharePasteboard;
-@property _Bool showConnectionProgress; // @synthesize showConnectionProgress=_showConnectionProgress;
-@property _Bool skipAddressPresentation; // @synthesize skipAddressPresentation=_skipAddressPresentation;
-@property _Bool skipUserPassDialogIfPossible; // @synthesize skipUserPassDialogIfPossible=_skipUserPassDialogIfPossible;
-@property struct CGRect sourceAppWindowRect; // @synthesize sourceAppWindowRect=_sourceAppWindowRect;
-@property(copy) NSArray *videoEncodings; // @synthesize videoEncodings=_videoEncodings;
-@property(nonatomic, getter=isVirtualDisplay1HDREnabled) _Bool virtualDisplay1HDREnabled; // @synthesize virtualDisplay1HDREnabled=_virtualDisplay1HDREnabled;
-@property(nonatomic, getter=isVirtualDisplay2HDREnabled) _Bool virtualDisplay2HDREnabled; // @synthesize virtualDisplay2HDREnabled=_virtualDisplay2HDREnabled;
-@property long long windowAlignment; // @synthesize windowAlignment=_windowAlignment;
 
 @end
 

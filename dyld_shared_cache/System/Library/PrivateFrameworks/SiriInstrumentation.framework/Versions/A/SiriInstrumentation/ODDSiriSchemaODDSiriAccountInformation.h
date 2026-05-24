@@ -6,35 +6,241 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ODDSiriSchemaODDSiriAccountInformation : SISchemaInstrumentationMessage
 {
     NSString *_assistantId;
-    _Bool _hasAssistantId;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)IndexCorruption</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>search-diags</string>
+							<string>search-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Telephony</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>TestDomain</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>libnetcore</string>
+					</array>
+				</dict>
+				<key>TestType</key>
+				<dict>
+					<key>symptomsd</key>
+					<array>
+						<string>libnetcore</string>
+						<string>tuscany</string>
+						<string>symptomsd</string>
+						<string>networking-wifi</string>
+						<string>powerlog-diags</string>
+						<string>microstackshot-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>ThreadSW</key>
+			<dict>
+				<key>Performance</key>
+				<dict>
+					<key>Data Stall</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>networking-wifi</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Tuscany</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+			</dict>
+			<key>UIPerformance</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>WiFi</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>IMS Call KPI</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IMS Reg</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>iCloudDrive</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>clouddocs-diags</string>
+						<string>fileprovider-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>AccessoryInteraction</key>
+			<dict>
+				<key>FirmwareUpdate</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>AirTagDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>ULPN</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>Heuristics</key>
+				<dict>
+					<key>RxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>RxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>FailureThresholdExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>StorageDrivers</key>
+			<dict>
+				<key>AppleSDXC</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SDXC-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IONVMeFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IOSCSIFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>CONFIG_IDENTIFIER</key>
+	<string>diagnostic_actions</string>
+	<key>CONFIG_VERSION</key>
+	<integer>0</integer>
+</dict>
+</plist>
+;
 - (_Bool);
 - (id);
 - (id)
 × ;
 - (id)i,N,V_conversionMetricType;
-- (id)ype;
+- (id)clearTargetType;
 - (void)t.marrsContextualSpanMatcherEndedTier1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assistantId; // @synthesize assistantId=_assistantId;
-@property(nonatomic) _Bool hasAssistantId; // @synthesize hasAssistantId=_hasAssistantId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,37 +6,17 @@
 
 #import <AVKit/AVView.h>
 
-@class AVGlassBackedGroupView, AVMobileGlassAuxiliaryControlsView, AVMobileGlassBackgroundView, AVMobileGlassContentTabsView, AVMobileGlassContentTagView, AVMobileGlassControlsStyleSheet, AVMobileGlassDisplayModeControlsView, AVMobileGlassPlaybackControlsView, AVMobileGlassTimelineView, AVMobileGlassTransportControlsView, AVMobileGlassVolumeControlsView, AVMobileTitlebarView, CAGradientLayer, NSArray, NSMutableArray, NSString;
-@protocol AVMobileGlassControlsViewDelegate;
+@class AVGlassBackedGroupView, AVMobileGlassControlsStyleSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassControlsView : AVView
 {
     AVGlassBackedGroupView *_contentTabsContainerView;
-    AVGlassBackedGroupView *_playbackControlsContainerView;
-    AVGlassBackedGroupView *_topControlsContainerView;
-    AVGlassBackedGroupView *_transportControlsContainerView;
-    CAGradientLayer *_transportControlsContainerMask;
-    NSMutableArray *_detachedViews;
-    _Bool _layoutAllowed;
-    AVMobileGlassAuxiliaryControlsView *_auxiliaryControlsView;
-    AVMobileGlassBackgroundView *_backgroundView;
-    AVMobileGlassContentTabsView *_contentTabsView;
-    AVMobileGlassDisplayModeControlsView *_displayModeControlsView;
-    AVMobileGlassContentTagView *_liveEdgeContentTagView;
-    AVMobileGlassPlaybackControlsView *_playbackControlsView;
-    AVMobileGlassTimelineView *_timelineView;
-    AVMobileTitlebarView *_titlebarView;
-    AVMobileGlassVolumeControlsView *_volumeControlsView;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    id <AVMobileGlassControlsViewDelegate> _delegate;
-    AVMobileGlassTransportControlsView *_transportControlsView;
-    struct AVMobileGlassControlsLayoutConfiguration _layoutConfiguration;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)>;
 - (void);
 - (void);
 - (void);
@@ -51,53 +31,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)Q;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)red while validating the counter:(id)arg1 %@;
+- (id);
+- (void)ration (%0.2fq/%0.2fe), data u/d:(id)arg1 %lu/%lu, %lu connections (%lu created));
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void);
+- (void)s",&,N,V_spinner;
 - (id);
 - (id);
 - (void)Ô ;
 - (void);
-- (void)ffectView;
+- (void)_backgroundBlurEffectView;
 
 // Remaining properties
-@property(retain, nonatomic) AVMobileGlassAuxiliaryControlsView *auxiliaryControlsView; // @synthesize auxiliaryControlsView=_auxiliaryControlsView;
-@property(retain, nonatomic) AVMobileGlassBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) AVMobileGlassContentTabsView *contentTabsView; // @synthesize contentTabsView=_contentTabsView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileGlassControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *detachedViews; // @synthesize detachedViews=_detachedViews;
-@property(retain, nonatomic) AVMobileGlassDisplayModeControlsView *displayModeControlsView; // @synthesize displayModeControlsView=_displayModeControlsView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool layoutAllowed; // @synthesize layoutAllowed=_layoutAllowed;
-@property(nonatomic) struct AVMobileGlassControlsLayoutConfiguration layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) AVMobileGlassContentTagView *liveEdgeContentTagView; // @synthesize liveEdgeContentTagView=_liveEdgeContentTagView;
-@property(retain, nonatomic) AVMobileGlassPlaybackControlsView *playbackControlsView; // @synthesize playbackControlsView=_playbackControlsView;
 @property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVMobileGlassTimelineView *timelineView; // @synthesize timelineView=_timelineView;
-@property(retain, nonatomic) AVMobileTitlebarView *titlebarView; // @synthesize titlebarView=_titlebarView;
-@property(readonly, nonatomic) AVMobileGlassTransportControlsView *transportControlsView; // @synthesize transportControlsView=_transportControlsView;
-@property(retain, nonatomic) AVMobileGlassVolumeControlsView *volumeControlsView; // @synthesize volumeControlsView=_volumeControlsView;
 
 @end
 

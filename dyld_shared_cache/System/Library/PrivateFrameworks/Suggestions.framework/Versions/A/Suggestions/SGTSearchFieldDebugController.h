@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGTSearchField;
+@class SGTSearchField;
 
 __attribute__((visibility("hidden")))
 @interface SGTSearchFieldDebugController
@@ -16,20 +16,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)addLocalMonitorForEventsMatchingMask:handler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool)dFindImageData:(id)arg1;
+- (_Bool)loader:(id)arg1 didFindImageData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) SGTSearchField *field; // @synthesize field;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSMutableArray, PKPassEntitlementsComposerEntryNode, PKPassEntitlementsComposerPredefinedSelectionEntry;
+@class NSArray;
 
 @interface PKPassEntitlementsComposer
 {
     NSArray *_originalSharedEntitlements;
-    NSArray *_availableEntitlements;
-    NSDictionary *_entitlementEntriesForEntitlementIdentifier;
-    NSArray *_entitlementEntries;
-    NSArray *_predefinedEntitlementEntries;
-    NSArray *_predefinedCapabilitySets;
-    PKPassEntitlementsComposerEntryNode *_globalGroup;
-    NSMapTable *_entitlementNodeForEntitlementEntry;
-    NSMapTable *_predefinedSelectionNodeForPredefinedEntry;
-    NSMutableArray *_allEntryNodes;
-    unsigned long long _maxSelectionCount;
-    _Bool _isMyEntitlements;
-    _Bool _editable;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -39,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -51,13 +39,7 @@
 - (void)esponseBase"32;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPassEntitlementsComposerPredefinedSelectionEntry *activePredefinedSelectionEntry;
-@property(readonly, nonatomic) _Bool canAllowResharing;
-@property(readonly, nonatomic) NSArray *composeSharedEntitlements;
-@property(readonly, nonatomic) _Bool editable; // @synthesize editable=_editable;
 @property(readonly, nonatomic) NSArray *entitlementEntries;
-@property(readonly, nonatomic) NSArray *predefinedEntitlementEntries; // @synthesize predefinedEntitlementEntries=_predefinedEntitlementEntries;
-@property(readonly, nonatomic) _Bool preferDetailedCapabilityDisplay;
 
 @end
 

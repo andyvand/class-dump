@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSUUID, WTContext;
+@class WTContext;
 
 @interface NSWritingToolsCoordinatorContext
 {
     WTContext *_wtContext;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -17,16 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (struct _NSRange);
-- (id)sion: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)"NSArray",&,D;
+- (id)_evictRevision: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)CKShareMetadata;
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *attributedString;
-@property(readonly) NSUUID *identifier;
-@property(readonly) struct _NSRange range; // @synthesize range=_range;
-@property(readonly) struct _NSRange resolvedRange;
 @property(retain, setter=_setWTContext:) WTContext *wtContext; // @synthesize wtContext=_wtContext;
 
 @end

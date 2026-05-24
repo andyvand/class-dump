@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSObject, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface PPNotificationManager
 {
     _PASLock *_lockedData;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id);
 + (id);
-+ (void);
++ (void)?;
 + (void);
 + (void);
 + (void);
@@ -34,13 +31,13 @@
 - (id);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void)purgeableSpace;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Command;
 - (void);
 
 @end

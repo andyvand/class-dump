@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface DAResolveRecipientsRequest
 {
     _Bool _retrieveCertificates;
-    _Bool _retrieveAvailablilty;
-    NSArray *_emailAddresses;
-    NSDate *_startTime;
-    NSDate *_endTime;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -29,15 +25,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)r:inFolderWithId:callback: /* Error: Ran out of types for this method. */;
 - (void)You really think we're going to fall for that?;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(nonatomic) _Bool retrieveAvailablilty; // @synthesize retrieveAvailablilty=_retrieveAvailablilty;
-@property(nonatomic) _Bool retrieveCertificates; // @synthesize retrieveCertificates=_retrieveCertificates;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

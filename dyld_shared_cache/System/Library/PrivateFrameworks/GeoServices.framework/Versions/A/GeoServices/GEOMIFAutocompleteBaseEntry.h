@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientACSuggestionEntry, GEOPDMIFAutocompleteBaseEntry, NSString;
+@class NSString;
 
 @interface GEOMIFAutocompleteBaseEntry
 {
     NSString *_itemIdentifier;
-    GEOClientACSuggestionEntry *_acSuggestionsEntry;
-    GEOPDMIFAutocompleteBaseEntry *_pdBaseEntry;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)resourceLock_willAccessKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void),ÿ±È;
 - (id)@³;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOClientACSuggestionEntry *acSuggestionsEntry; // @synthesize acSuggestionsEntry=_acSuggestionsEntry;
 @property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) GEOPDMIFAutocompleteBaseEntry *pdBaseEntry; // @synthesize pdBaseEntry=_pdBaseEntry;
 
 @end
 

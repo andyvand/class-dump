@@ -18,19 +18,18 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)sQueueAtOrAboveHighWater called;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)yForLookupInfo:container: /* Error: Ran out of types for this method. */;
+- (Class)cachedIdentityForLookupInfo:container: /* Error: Ran out of types for this method. */;
 - (void)ient/pushRegister;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSignedSupportedAdopterCapabilities;
-@property(retain, nonatomic) CKDPSignedVersionedBlob *signedSupportedAdopterCapabilities; // @synthesize signedSupportedAdopterCapabilities=_signedSupportedAdopterCapabilities;
 
 @end
 

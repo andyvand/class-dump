@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     NSString *_value;
 }
 
-- (void);
+- (void));
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)(%;
 - (id);
 - (id);
 - (id);
@@ -30,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *uuid;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

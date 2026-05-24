@@ -5,5 +5,8 @@
 //
 
 @protocol MNLocationManagerObserver
+
+@optional
+- (void)@;
 @end
 

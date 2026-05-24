@@ -6,34 +6,24 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWLimitedGMErrorLogger, NSMutableArray, NSObject;
-@protocol BWNodeBackPressureSource, OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_semaphore;
 
 @interface BWBackPressureNode : BWNode
 {
     NSObject<OS_dispatch_semaphore> *_semaphore;
-    unsigned int _numberOfInputs;
-    NSMutableArray *_receivedPresentationTimestampByInput;
-    struct os_unfair_lock_s _presentationTimestampLock;
-    long long _initialSemaphoreValue;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    struct os_unfair_lock_s _stateLock;
-    int _numEODMessagesReceived;
-    _Bool _receivedFirstFrame;
-    id <BWNodeBackPressureSource> _backPressureSourceNode;
-    NSObject<OS_dispatch_queue> *_semaphoreSignalQueue;
 }
 
 + (void)tadataFanOutNode error:&error] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)ation/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)etFlightReferencesAndReservationId without JS assets;
 - (void);
 - (void);
 - (void);
@@ -48,9 +38,7 @@
 - (id)point cloud media type;
 
 // Remaining properties
-@property(nonatomic) id <BWNodeBackPressureSource> backPressureSourceNode; // @synthesize backPressureSourceNode=_backPressureSourceNode;
 @property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *semaphoreSignalQueue; // @synthesize semaphoreSignalQueue=_semaphoreSignalQueue;
 
 @end
 

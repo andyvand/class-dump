@@ -4,54 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFPBrush, MFPCustomLineCap;
+@class MFPBrush;
 
 __attribute__((visibility("hidden")))
 @interface MFPPen
 {
     MFPBrush *mBrush;
-    float mWidth;
-    struct CGAffineTransform mTransform;
-    int mStartCap;
-    int mEndCap;
-    int mLineJoin;
-    float mMiterLimit;
-    int mDashStyle;
-    int mDashCap;
-    float mDashOffset;
-    int mDashPatternCount;
-    float *mDashPattern;
-    int mAlignment;
-    int mCompoundArrayCount;
-    float *mCompoundArray;
-    MFPCustomLineCap *mCustomStartCap;
-    MFPCustomLineCap *mCustomEndCap;
 }
 
 - (int);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (int);
 - (int);
-- (int);
-- (const float *);
-- (float);
-- (id);
-- (id);
 - (int);
 - (const float *);
+- (float);
 - (id);
-- (void);
-- (void);
+- (id);
+- (int);
+- (const float *);
+- (id);
+- (void)RiR;
+- (void)H;
 - (void);
 - (void);
 - (int);
@@ -60,11 +44,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (void);
-- (struct CGAffineTransform);
-- (id);
+- (struct CGAffineTransform)c;
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (float);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)ä>;

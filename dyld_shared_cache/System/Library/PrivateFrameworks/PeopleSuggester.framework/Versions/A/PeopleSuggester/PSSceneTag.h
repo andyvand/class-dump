@@ -4,56 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PSSceneTag
 {
     _Bool _isSearchable;
-    NSArray *_detectorClasses;
-    double _searchThreshold;
-    NSString *_humanReadableLabel;
-    long long _identifier;
-    NSString *_label;
-    NSArray *_humanReadableSynonyms;
-    NSArray *_parentClasses;
-    NSString *_network;
-    NSArray *_childrenClasses;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
+- (void)_crossDeviceCommandContext;
+- (void)_countAttributeQPQUMatch;
+- (void)_confirmationSnippetUserAction;
+- (void)_confirmationSelectedCount;
+- (void)_clearChannelAssessmentScore;
+- (void)_cirAlertProfaneFilter;
+- (id)_backgroundUpdateType;
+- (id)_accumulatedAggregationStats;
+- (id)_accessoryCategory;
+- (double)Codec;
+- (id)N,V_experimentStatusCode;
+- (id)ion;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)HJ
+;
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void){;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *childrenClasses; // @synthesize childrenClasses=_childrenClasses;
 @property(retain, nonatomic) NSArray *detectorClasses; // @synthesize detectorClasses=_detectorClasses;
-@property(retain, nonatomic) NSString *humanReadableLabel; // @synthesize humanReadableLabel=_humanReadableLabel;
-@property(retain, nonatomic) NSArray *humanReadableSynonyms; // @synthesize humanReadableSynonyms=_humanReadableSynonyms;
-@property(nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isSearchable; // @synthesize isSearchable=_isSearchable;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *network; // @synthesize network=_network;
-@property(retain, nonatomic) NSArray *parentClasses; // @synthesize parentClasses=_parentClasses;
-@property(nonatomic) double searchThreshold; // @synthesize searchThreshold=_searchThreshold;
 
 @end
 

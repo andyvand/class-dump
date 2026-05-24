@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface PKSigningIdentity
 {
     struct __SecIdentity *_identity;
-    NSMutableArray *_supportingCerts;
-    NSString *_keychainSpec;
 }
 
 + (id);
@@ -21,24 +19,22 @@
 + (id);
 + (id);
 + (struct __SecKeychain *);
-+ (id);
++ (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (struct __SecIdentity *);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *keychainPath;
 @property(readonly) NSString *name;
-@property(readonly) NSArray *supportingCertificateRefs;
 
 @end
 

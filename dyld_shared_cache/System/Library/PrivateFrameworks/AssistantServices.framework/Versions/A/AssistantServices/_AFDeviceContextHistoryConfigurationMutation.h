@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeviceContextHistoryConfiguration, NSString;
+@class AFDeviceContextHistoryConfiguration;
 
 @interface _AFDeviceContextHistoryConfigurationMutation
 {
     AFDeviceContextHistoryConfiguration *_base;
-    _Bool _keepsHistory;
-    unsigned long long _historyBufferSize;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasKeepsHistory:1;
-        unsigned int hasHistoryBufferSize:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)8;
 - (_Bool);
 - (_Bool);
-- (id)eply:(id)arg1;
-- (void)n;
+- (id)speechRecordingPerformTwoShotPromptWithType:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)_killDaemon;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

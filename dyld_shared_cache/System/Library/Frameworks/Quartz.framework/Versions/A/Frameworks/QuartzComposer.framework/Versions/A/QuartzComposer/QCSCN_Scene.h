@@ -25,35 +25,273 @@
 + (id);
 + (id);
 - (struct __C3DScene *);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void *);
-- (struct __C3DAnimationTarget *);
+- (struct __C3DAnimationTarget *)eObserver",&,N,V_deviceObserver;
 - (void);
+- (void);
 - (void);
-- (void);
-- (float);
+- (float)A;
 - (id);
 - (id);
 - (void);
 - (void);
+- (double)authenticatedRootVolume;
+- (id);
+- (id);
 - (double);
 - (id);
-- (id);
+- (void)int tmp = boundaryEdgeNeighbors[0];
+                    boundaryEdgeNeighbors[0] = boundaryEdgeNeighbors[1];
+                    boundaryEdgeNeighbors[1] = tmp;
+                    zerothNeighbor = i;
+                }
+            }
+        }
+#endif
+
+        float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*i + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_p = OsdReadVertexIndex(vID, 2*ip, osdBuffers.valenceBuffer);
+        float3 neighbor_p = OsdReadVertex(idx_neighbor_p, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_m = OsdReadVertexIndex(vID, 2*im, osdBuffers.valenceBuffer);
+        float3 neighbor_m = OsdReadVertex(idx_neighbor_m, osdBuffers.vertexBuffer);
+
+        int idx_diagonal_m = OsdReadVertexIndex(vID, 2*im + 1, osdBuffers.valenceBuffer);
+        float3 diagonal_m = OsdReadVertex(idx_diagonal_m, osdBuffers.vertexBuffer);
+
+        f[i] = (pos * float(valence) + (neighbor_p + neighbor)*2.0f + diagonal) / (float(valence)+5.0f);
+
+        opos += f[i];
+        v.r[i] = (neighbor_p-neighbor_m)/3.0f + (diagonal - diagonal_m)/6.0f;
+    }
+
+    opos /= valence;
+    v.P = float4(opos, 1.0f).xyz;
+
+    float3 e;
+    v.e0 = float3(0,0,0);
+    v.e1 = float3(0,0,0);
+
+    for(int i=0; i<valence; ++i) {
+        int im = (i + valence -1) % valence;
+        e = 0.5f * (f[i] + f[im]);
+        v.e0 += cosfn(valence, i)*e;
+        v.e1 += sinfn(valence, i)*e;
+    }
+    v.e0 *= ef[valence - 3];
+    v.e1 *= ef[valence - 3];
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.zerothNeighbor = zerothNeighbor;
+    if (currNeighbor == 1) {
+        boundaryEdgeNeighbors[1] = boundaryEdgeNeighbors[0];
+    }
+
+    if (ivalence < 0) {
+        if (valence > 2) {
+            v.P = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+                   OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+                   4.0f * pos)/6.0f;
+        } else {
+            v.P = pos;
+        }
+
+        v.e0 = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) -
+                OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer))/6.0;
+
+        float k = float(float(valence) - 1.0f);    //k is the number of faces
+        float c = cospi(1.0/k);
+        float s = sinpi(1.0/k);
+        float gamma = -(4.0f*s)/(3.0f*k+c);
+        float alpha_0k = -((1.0f+2.0f*c)*sqrt(1.0f+c))/((3.0f*k+c)*sqrt(1.0f-c));
+        float beta_0 = s/(3.0f*k + c);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*zerothNeighbor + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        v.e1 = gamma * pos +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+            beta_0 * diagonal;
+
+        for (int x=1; x<valence - 1; ++x) {
+            int curri = ((x + zerothNeighbor)%valence);
+            float alpha = (4.0f*sinpi((float(x))/k))/(3.0f*k+c);
+            float beta = (sinpi((float(x))/k) + sinpi((float(x+1))/k))/(3.0f*k+c);
+
+            int idx_neighbor = OsdReadVertexIndex(vID, 2*curri, osdBuffers.valenceBuffer);
+            float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+            idx_diagonal = OsdReadVertexIndex(vID, 2*curri + 1, osdBuffers.valenceBuffer);
+            diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+            v.e1 += alpha * neighbor + beta * diagonal;
+        }
+
+        v.e1 /= 3.0f;
+    }
+#endif
+}
+
+static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsigned primitiveID,
+                                threadgroup OsdPerVertexGregory* v,
+                                device OsdPerPatchVertexGregory& result,
+                                OsdPatchParamBufferSet osdBuffers)
+{
+    result.P = v[ID].P;
+
+    int i = ID;
+    int ip = (i+1)%4;
+    int im = (i+3)%4;
+    int valence = abs(v[i].valence);
+    int n = valence;
+
+    int start = OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev = (OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int start_m = OsdReadQuadOffset(primitiveID, im, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev_p = (OsdReadQuadOffset(primitiveID, ip, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int np = abs(v[ip].valence);
+    int nm = abs(v[im].valence);
+
+    // Control Vertices based on :(double)arg1 // "Approximating Subdivision Surfaces with Gregory Patches
+    //  for Hardware Tessellation"
+    // Loop, Schaefer, Ni, Castano (ACM ToG Siggraph Asia 2009)
+    //
+    //  P3         e3-      e2+         P2
+    //     O--------O--------O--------O
+    //     |        |        |        |
+    //     |        |        |        |
+    //     |        | f3-    | f2+    |
+    //     |        O        O        |
+    // e3+ O------O            O------O e2-
+    //     |     f3+          f2-     |
+    //     |                          |
+    //     |                          |
+    //     |      f0-         f1+     |
+    // e0- O------O            O------O e1+
+    //     |        O        O        |
+    //     |        | f0+    | f1-    |
+    //     |        |        |        |
+    //     |        |        |        |
+    //     O--------O--------O--------O
+    //  P0         e0+      e1-         P1
+    //
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    float3 Em_ip;
+    if (v[ip].valence < -2) {
+        int j = (np + prev_p - v[ip].zerothNeighbor) % np;
+        Em_ip = v[ip].P + cospi(j/float(np-1))*v[ip].e0 + sinpi(j/float(np-1))*v[ip].e1;
+    } else {
+        Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    }
+
+    float3 Ep_im;
+    if (v[im].valence < -2) {
+        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
+        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
+    } else {
+        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+    }
+
+    if (v[i].valence < 0) {
+        n = (n-1)*2;
+    }
+    if (v[im].valence < 0) {
+        nm = (nm-1)*2;
+    }
+    if (v[ip].valence < 0) {
+        np = (np-1)*2;
+    }
+
+    if (v[i].valence > 2) {
+        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
+        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+
+        float s1=3-2*cosfn(n,1)-cosfn(np,1);
+        float s2=2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+    } else if (v[i].valence < -2) {
+        int j = (valence + start - v[i].zerothNeighbor) % valence;
+
+        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+        j = (valence + prev - v[i].zerothNeighbor) % valence;
+        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+
+        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
+        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+
+        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+        float s2 = 2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+        if (v[im].valence < 0) {
+            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        } else if (v[ip].valence < 0) {
+            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
+            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+        }
+
+    } else if (v[i].valence == -2) {
+        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
+        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
+        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+    }
+
+#else // not OSD_PATCH_GREGORY_BOUNDARY
+
+    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+;
 - (double);
 - (id);
-- (void);
-- (double);
-- (id);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (id);
-- (struct __C3DLibrary *)Format:options: /* Error: Ran out of types for this method. */;
-- (void)ttributes;
-- (id)ixelFormatKYMC8;
+- (struct __C3DLibrary *)initWithCGLContext:pixelFormat:options: /* Error: Ran out of types for this method. */;
+- (void)_noteAttributes;
+- (id)pixelFormatKYMC8;
 - (void)X¨E;
 - (void);
 

@@ -5,7 +5,14 @@
 //
 
 @protocol C2RequestDelegate
+- (void)NSt3__120__shared_ptr_emplaceIN8Espresso16MPSBuffersEngine20general_slice_kernelENS_9allocatorIS3_EEEE;
+- (void);
+- (void))1;
+- (void);
 - (void)Ì ¼!Ì"pÌ,;
-- (void)lStart;
+- (void)sslStart;
+
+@optional
+- (void);
 @end
 

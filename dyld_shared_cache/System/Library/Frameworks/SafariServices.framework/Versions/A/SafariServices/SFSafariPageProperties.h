@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SFSafariPageProperties
 {
     _Bool _usesPrivateBrowsing;
-    _Bool _active;
-    NSURL *_url;
-    NSString *_title;
 }
 
 + (_Bool);
@@ -25,13 +22,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UITextInput><_UITextInputRevealSupport;
+
 @protocol _UITextInputRevealSupportProviding
+- (id <UITextInput><_UITextInputRevealSupport>);
 @end
 

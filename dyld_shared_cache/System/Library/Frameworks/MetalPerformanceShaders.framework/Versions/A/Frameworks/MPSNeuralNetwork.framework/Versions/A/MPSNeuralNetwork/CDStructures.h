@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageCopyToMatrix, MPSMatrixCopyToImage, MPSMatrixMultiplication, MPSNNGraph, NSData, NSNull, NSObject;
+@class MPSImageCopyToMatrix, MPSMatrixCopyToImage, MPSMatrixMultiplication, MPSNNGraph, NSNull, NSObject;
 
 #pragma mark Function Pointers and Blocks
 
@@ -138,11 +138,6 @@ struct MPSSize {
     double _field3;
 };
 
-struct MPSSliceInfo {
-    unsigned long long _field1;
-    unsigned long long _field2;
-};
-
 struct MPSStateInfo {
     id _field1;
 };
@@ -161,11 +156,11 @@ struct NNKernelSourceParams {
 };
 
 struct NeuronInfo {
-    int type;
-    float a;
-    float b;
-    float c;
-    NSData *aData;
+    int _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    id _field5;
 };
 
 struct NodeList<FilterGraphNode *> {
@@ -181,12 +176,6 @@ struct NodeList<ResourceGraphNode *> {
 };
 
 struct ResourceGraphNode;
-
-struct atomic<long> {
-    struct __cxx_atomic_impl<long, std::__cxx_atomic_base_impl<long>> {
-        _Atomic long long __a_value;
-    } __a_;
-};
 
 #pragma mark Typedef'd Structures
 
@@ -225,7 +214,11 @@ typedef struct {
 } CDStruct_4b22da39;
 
 typedef struct {
-    CDStruct_67e7699a origin;
+    struct {
+        unsigned long long x;
+        unsigned long long y;
+        unsigned long long z;
+    } origin;
     CDStruct_da2e99ad size;
 } CDStruct_1e3be3a8;
 
@@ -316,10 +309,4 @@ typedef struct {
     unsigned long long height;
     unsigned long long depth;
 } CDStruct_da2e99ad;
-
-typedef struct {
-    unsigned long long x;
-    unsigned long long y;
-    unsigned long long z;
-} CDStruct_67e7699a;
 

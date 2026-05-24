@@ -9,24 +9,6 @@
 @interface _TSF_TSDPortMetrics
 {
     _TSF_TSDgPTPPort *_port;
-    unsigned short _portNumber;
-    unsigned long long _syncTimeouts;
-    unsigned long long _filterResetsDroppedLimit;
-    unsigned long long _filterResetsOutOfBounds;
-    unsigned long long _meanDelayTime;
-    unsigned long long _droppedMeasurements;
-    unsigned long long _discardedPpmLimitMeasurements;
-    unsigned long long _discardedDelayLimitExceededMeasurements;
-    unsigned long long _discardedOutOfBoundsMeasurements;
-    unsigned long long _discardedTimestampsOutOfOrderMeasurements;
-    unsigned long long _successfulMeasurements;
-    unsigned long long _totalMeasurements;
-    unsigned long long _droppedPercentage;
-    unsigned long long _discardedPpmLimitPercentage;
-    unsigned long long _discardedDelayLimitExceededPercentage;
-    unsigned long long _discardedOutOfBoundsPercentage;
-    unsigned long long _discardedTimestampsOutOfOrderPercentage;
-    unsigned long long _successfulPercentage;
 }
 
 - (unsigned long long);
@@ -71,24 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long discardedDelayLimitExceededMeasurements; // @synthesize discardedDelayLimitExceededMeasurements=_discardedDelayLimitExceededMeasurements;
-@property(nonatomic) unsigned long long discardedDelayLimitExceededPercentage; // @synthesize discardedDelayLimitExceededPercentage=_discardedDelayLimitExceededPercentage;
-@property(nonatomic) unsigned long long discardedOutOfBoundsMeasurements; // @synthesize discardedOutOfBoundsMeasurements=_discardedOutOfBoundsMeasurements;
-@property(nonatomic) unsigned long long discardedOutOfBoundsPercentage; // @synthesize discardedOutOfBoundsPercentage=_discardedOutOfBoundsPercentage;
-@property(nonatomic) unsigned long long discardedPpmLimitMeasurements; // @synthesize discardedPpmLimitMeasurements=_discardedPpmLimitMeasurements;
-@property(nonatomic) unsigned long long discardedPpmLimitPercentage; // @synthesize discardedPpmLimitPercentage=_discardedPpmLimitPercentage;
-@property(nonatomic) unsigned long long discardedTimestampsOutOfOrderMeasurements; // @synthesize discardedTimestampsOutOfOrderMeasurements=_discardedTimestampsOutOfOrderMeasurements;
-@property(nonatomic) unsigned long long discardedTimestampsOutOfOrderPercentage; // @synthesize discardedTimestampsOutOfOrderPercentage=_discardedTimestampsOutOfOrderPercentage;
-@property(nonatomic) unsigned long long droppedMeasurements; // @synthesize droppedMeasurements=_droppedMeasurements;
-@property(nonatomic) unsigned long long droppedPercentage; // @synthesize droppedPercentage=_droppedPercentage;
-@property(nonatomic) unsigned long long filterResetsDroppedLimit; // @synthesize filterResetsDroppedLimit=_filterResetsDroppedLimit;
-@property(nonatomic) unsigned long long filterResetsOutOfBounds; // @synthesize filterResetsOutOfBounds=_filterResetsOutOfBounds;
-@property(nonatomic) unsigned long long meanDelayTime; // @synthesize meanDelayTime=_meanDelayTime;
 @property(nonatomic) unsigned short portNumber; // @synthesize portNumber=_portNumber;
-@property(nonatomic) unsigned long long successfulMeasurements; // @synthesize successfulMeasurements=_successfulMeasurements;
-@property(nonatomic) unsigned long long successfulPercentage; // @synthesize successfulPercentage=_successfulPercentage;
-@property(nonatomic) unsigned long long syncTimeouts; // @synthesize syncTimeouts=_syncTimeouts;
-@property(nonatomic) unsigned long long totalMeasurements; // @synthesize totalMeasurements=_totalMeasurements;
 
 @end
 

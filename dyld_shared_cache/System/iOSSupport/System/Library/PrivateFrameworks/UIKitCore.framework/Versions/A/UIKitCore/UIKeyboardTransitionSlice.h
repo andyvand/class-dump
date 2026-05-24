@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKBCacheToken;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardTransitionSlice
 {
     struct CGRect _startRect;
-    struct CGRect _endRect;
-    UIKBCacheToken *_startToken;
-    UIKBCacheToken *_endToken;
-    _Bool _shiftContents;
-    _Bool _delayCrossfade;
-    int _normalization;
 }
 
-+ (id);
++ (id)indChatProcessingPipelineComponent> Chat not found for toId:(struct CGRect)arg1 %{private}@ participantIdentifiers:(struct CGRect)arg2 %{private}@, displayName:%{private}@. IMMessageLegacyProcessingPipelineComponent will create it. /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGRect);
 - (void);
@@ -26,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
-- (id);
-- (_Bool);
-- (void);
+- (void);
+- (int)ciated GUID %@ for %@. Cross Service Association message has already binded this message to an IML. Dropping.;
+- (id)edited, processing newer edit. ThisEdit:%@, DateOfLastPartEdit:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Name:%@ /* Error: Ran out of types for this method. */;
+- (void)tate:(struct CGRect)arg1 %ld;
 - (_Bool);
 - (id);
 - (struct CGRect);
@@ -38,13 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)EþÛ$e;
 
 // Remaining properties
-@property _Bool delayCrossfade; // @synthesize delayCrossfade=_delayCrossfade;
-@property struct CGRect endRect; // @synthesize endRect=_endRect;
-@property(retain) UIKBCacheToken *endToken; // @synthesize endToken=_endToken;
-@property(readonly) _Bool hasGeometry;
-@property int normalization; // @synthesize normalization=_normalization;
 @property struct CGRect startRect; // @synthesize startRect=_startRect;
-@property(retain) UIKBCacheToken *startToken; // @synthesize startToken=_startToken;
 
 @end
 

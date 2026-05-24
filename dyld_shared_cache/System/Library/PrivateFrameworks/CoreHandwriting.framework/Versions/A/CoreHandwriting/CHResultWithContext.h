@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, CHMutableTokenizedTextResult, NSString;
+@class NSString;
 
 @interface CHResultWithContext
 {
     int _contentType;
-    NSString *_leftContext;
-    CHMutableTokenizedTextResult *_result;
-    CHDrawing *_drawing;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)�;
 - (id);
 - (int);
 - (void)°Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) int contentType;
-@property(readonly, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
 @property(readonly, nonatomic) NSString *leftContext;
-@property(readonly, nonatomic) CHMutableTokenizedTextResult *result;
 
 @end
 

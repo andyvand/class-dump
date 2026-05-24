@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistence, NSBackgroundActivityScheduler, NSString;
 @protocol EFCancelable;
 
 @interface EDSearchableIndexDiagnosticsController
 {
     id <EFCancelable> _stateCancelable;
-    NSBackgroundActivityScheduler *_indexingDiagnosticsScheduler;
-    EDPersistence *_persistence;
 }
 
 + (id)0@ù
@@ -22,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)=;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -36,16 +33,7 @@
 - (id)Ì;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSBackgroundActivityScheduler *indexingDiagnosticsScheduler; // @synthesize indexingDiagnosticsScheduler=_indexingDiagnosticsScheduler;
-@property(nonatomic) __weak EDPersistence *persistence; // @synthesize persistence=_persistence;
 @property(retain, nonatomic) id <EFCancelable> stateCancelable; // @synthesize stateCancelable=_stateCancelable;
-@property(readonly) Class superclass;
 
 @end
 

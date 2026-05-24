@@ -9,31 +9,24 @@
 @interface GEOCameraFrame
 {
     PBUnknownFields *_unknownFields;
-    double _altitude;
-    double _latitude;
-    double _longitude;
-    double _pitch;
-    double _roll;
-    double _yaw;
-    CDStruct_3c2347a5 _flags;
 }
 
-+ (_Bool)e:(id)arg1;
++ (_Bool)setHasNavMapType:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)";
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
+- (_Bool)aseE5RTModelSourceP;
+- (void)underwear_male;
+- (_Bool);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void)setFirstPassDeviceID:(_Bool)arg1;
+- (void)didSmartSiriVolumeChangeForReason:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
@@ -42,10 +35,10 @@
 - (_Bool);
 - (void)0@ù
 × ;
-- (void)t:(double)arg1;
-- (id):(struct _NSZone *)arg1;
-- (double)pItemVerticalDisplayOrder;
-- (void)tNavDurationTime:(double)arg1;
+- (void)setHasMapViewLocationPuckInViewport:(double)arg1;
+- (id)realtimeDodgeballAtIndex:(struct _NSZone *)arg1;
+- (double)hasGroupItemVerticalDisplayOrder;
+- (void)bucketNavDurationTime:(double)arg1;
 - (id)D>;
 - (double)Ø´ÀHLÐP;
 - (id)code, type, sort_order, time_zone_name, name, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND icu_match(name, @name) != 0    ORDER BY name COLLATE region_collater, sort_order, iso_code, time_zone_name;;
@@ -62,19 +55,7 @@
 - (double)K;;
 
 // Remaining properties
-@property(nonatomic) double altitude;
-@property(nonatomic) _Bool hasAltitude;
 @property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) _Bool hasPitch;
-@property(nonatomic) _Bool hasRoll;
-@property(nonatomic) _Bool hasYaw;
-@property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
-@property(nonatomic) double pitch;
-@property(nonatomic) double roll;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double yaw;
 
 @end
 

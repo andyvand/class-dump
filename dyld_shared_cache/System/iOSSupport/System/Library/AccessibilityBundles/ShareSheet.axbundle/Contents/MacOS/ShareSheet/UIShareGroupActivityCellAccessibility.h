@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)m.apple.arkit.worldTracking.participantAnchors;
 + (void);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)setAU: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (unsigned long long);
 

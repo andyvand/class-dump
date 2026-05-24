@@ -7,7 +7,8 @@
 @protocol _UIContentEffectDescriptor;
 
 @protocol _UIContentEffect
-- (id <_UIContentEffectDescriptor>)moothScrolling;
+- (void);
+- (id <_UIContentEffectDescriptor>)WillStartSmoothScrolling;
 - (void)ÓÕ;
 
 // Remaining properties

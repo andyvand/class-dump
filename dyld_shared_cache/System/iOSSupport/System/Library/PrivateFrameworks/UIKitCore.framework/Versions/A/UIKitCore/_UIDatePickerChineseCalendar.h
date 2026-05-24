@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (void);
-- (id);
+- (void)ing"16@"NSString"24@"IMServiceReachabilityContext"32;
+- (id)messagesReceivedDuringStorage;
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)led;
+- (void)reduceMotionEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) NSCalendar *realCalendar; // @synthesize realCalendar=_realCalendar;

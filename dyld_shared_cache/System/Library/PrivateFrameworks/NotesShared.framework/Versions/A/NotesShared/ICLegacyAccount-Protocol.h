@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyFolder;
+@class NSManagedObjectContext;
 
 @protocol ICLegacyAccount
+- (_Bool);
+- (_Bool);
+- (_Bool)address specified and unable to find an IP address for server '%@', computer record not updated;
 - (_Bool)eSmartFoldersForHashtagStandardizedContent:account:] /* Error: Ran out of types for this method. */;
 - (NSManagedObjectContext *)ÿ5süçÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountIdentifier;
-@property(readonly, copy, nonatomic) NSString *allItemsFolderLocalizedTitle;
-@property(readonly, nonatomic) NSManagedObject<ICLegacyFolder> *defaultFolder;
-@property(nonatomic) _Bool didChooseToMigrate;
-@property(readonly, copy, nonatomic) NSString *emailAddress;
 @property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) NSSet *folders;
-@property(readonly, nonatomic) _Bool hasAnyCustomFolders;
-@property(readonly, nonatomic) _Bool isExchangeAccount;
-@property(readonly, nonatomic) _Bool isIMAPAccount;
-@property(readonly, nonatomic) _Bool isLocalAccount;
-@property(readonly, nonatomic) _Bool isManaged;
-@property(readonly, nonatomic) long long legacyAccountType;
-@property(readonly, copy, nonatomic) NSString *localizedAttachmentsNotSupportedReason;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, copy, nonatomic) NSString *objectIdentifier;
-@property(readonly, nonatomic) _Bool preventMovingNotesToOtherAccounts;
-@property(readonly, nonatomic) _Bool supportsAttachments;
 @end
 

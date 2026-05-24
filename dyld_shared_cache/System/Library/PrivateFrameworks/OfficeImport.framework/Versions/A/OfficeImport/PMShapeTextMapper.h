@@ -6,22 +6,19 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CMStyle, OADOrientedBounds, OADTextBody;
+@class OADTextBody;
 
 __attribute__((visibility("hidden")))
 @interface PMShapeTextMapper : CMMapper
 {
     OADTextBody *mTextBody;
-    OADOrientedBounds *mBounds;
-    CMStyle *mStyle;
-    _Bool mRectangular;
 }
 
 - (unsigned char);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)a;
 - (void)perform comparison on %{public}@;
 
 @end

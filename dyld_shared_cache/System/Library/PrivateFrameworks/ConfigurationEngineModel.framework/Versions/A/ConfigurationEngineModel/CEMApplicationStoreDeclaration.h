@@ -6,31 +6,22 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMApplicationStoreDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowAppInstallation;
-    NSNumber *_payloadAllowAppClips;
-    NSNumber *_payloadAllowUIAppInstallation;
-    NSNumber *_payloadAllowAutomaticAppDownloads;
-    NSNumber *_payloadAllowSystemAppRemoval;
-    NSNumber *_payloadAllowAppRemoval;
-    NSNumber *_payloadAllowInAppPurchases;
-    NSNumber *_payloadForceITunesStorePasswordEntry;
-    NSNumber *_payloadAllowMarketplaceAppInstallation;
-    NSNumber *_payloadAllowWebDistributionAppInstallation;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)king.framework/Versions/A/SoftLinking;
++ (id);
++ (id)tion.framework/Versions/C/Foundation;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)B;
 + (id);
 - (void);
 - (void);
@@ -45,40 +36,24 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void),;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAppClips; // @synthesize payloadAllowAppClips=_payloadAllowAppClips;
 @property(copy, nonatomic) NSNumber *payloadAllowAppInstallation; // @synthesize payloadAllowAppInstallation=_payloadAllowAppInstallation;
-@property(copy, nonatomic) NSNumber *payloadAllowAppRemoval; // @synthesize payloadAllowAppRemoval=_payloadAllowAppRemoval;
-@property(copy, nonatomic) NSNumber *payloadAllowAutomaticAppDownloads; // @synthesize payloadAllowAutomaticAppDownloads=_payloadAllowAutomaticAppDownloads;
-@property(copy, nonatomic) NSNumber *payloadAllowInAppPurchases; // @synthesize payloadAllowInAppPurchases=_payloadAllowInAppPurchases;
-@property(copy, nonatomic) NSNumber *payloadAllowMarketplaceAppInstallation; // @synthesize payloadAllowMarketplaceAppInstallation=_payloadAllowMarketplaceAppInstallation;
-@property(copy, nonatomic) NSNumber *payloadAllowSystemAppRemoval; // @synthesize payloadAllowSystemAppRemoval=_payloadAllowSystemAppRemoval;
-@property(copy, nonatomic) NSNumber *payloadAllowUIAppInstallation; // @synthesize payloadAllowUIAppInstallation=_payloadAllowUIAppInstallation;
-@property(copy, nonatomic) NSNumber *payloadAllowWebDistributionAppInstallation; // @synthesize payloadAllowWebDistributionAppInstallation=_payloadAllowWebDistributionAppInstallation;
-@property(copy, nonatomic) NSNumber *payloadForceITunesStorePasswordEntry; // @synthesize payloadForceITunesStorePasswordEntry=_payloadForceITunesStorePasswordEntry;
-@property(readonly) Class superclass;
 
 @end
 

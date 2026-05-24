@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface OADRgbColor : OADColor
 {
     float mRed;
-    float mGreen;
-    float mBlue;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -33,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (float);
-- (float);
+- (float);
 - (float);
 
 @end

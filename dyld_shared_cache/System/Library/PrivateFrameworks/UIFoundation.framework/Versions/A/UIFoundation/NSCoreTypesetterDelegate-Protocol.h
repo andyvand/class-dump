@@ -5,5 +5,8 @@
 //
 
 @protocol NSCoreTypesetterDelegate
+
+@optional
+- (struct CGRect);
 @end
 

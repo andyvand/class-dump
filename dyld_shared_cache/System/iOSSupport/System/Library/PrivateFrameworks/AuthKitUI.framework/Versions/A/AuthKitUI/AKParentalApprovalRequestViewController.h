@@ -6,21 +6,18 @@
 
 #import <AuthKitUI/AKAuthorizationPaneViewController.h>
 
-@class AKAuthorizationPresentationContext, AKAuthorizationSubPaneInfoLabel, AKAuthorizationViewController;
+@class AKAuthorizationSubPaneInfoLabel, AKAuthorizationViewController;
 
 @interface AKParentalApprovalRequestViewController : AKAuthorizationPaneViewController
 {
     AKAuthorizationSubPaneInfoLabel *_messageLabel;
-    AKAuthorizationPresentationContext *_presentationContext;
-    _Bool _requestStatusPending;
-    AKAuthorizationViewController *_authorizationViewController;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

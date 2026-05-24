@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaABSeverEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_siriDeviceId;
-    SISchemaUUID *_speechId;
-    long long _timestampNs;
-    CDStruct_8e7b2486 _has;
-    _Bool _hasSiriDeviceId;
-    _Bool _hasSpeechId;
 }
 
 - (long long);
@@ -34,25 +29,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)dD,FxF;
+- (_Bool)emoving records:(id)arg1 %@ %@;
+- (_Bool)state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
-- (id);
-- (id)dressDetail;
-- (id)d;
-- (void)tSessionUUIDChanged;
+- (id)/AppleInternal/Library/BuildRoots/4~CNqOugD81887uuqTGGakGQQvWRRgCpCFwldIh_s/Library/Caches/com.apple.xbs/TemporaryDirectory.yg06Le/Sources/vImage_CGInterfaces/Source/iccUtils.c;
+- (id)contactHasRequestedAddressDetail;
+- (id)_STGlobalSearchResultId;
+- (void)bootSessionUUIDChanged;
 - (id)^áÿÇ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriDeviceId; // @synthesize hasSiriDeviceId=_hasSiriDeviceId;
-@property(nonatomic) _Bool hasSpeechId; // @synthesize hasSpeechId=_hasSpeechId;
-@property(nonatomic) _Bool hasTimestampNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *siriDeviceId; // @synthesize siriDeviceId=_siriDeviceId;
-@property(retain, nonatomic) SISchemaUUID *speechId; // @synthesize speechId=_speechId;
-@property(nonatomic) long long timestampNs; // @synthesize timestampNs=_timestampNs;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface IMDPersistence.StorageInspectorReportStringBuilder
 {
     id lines;
-    id tab;
 }
 
 @end

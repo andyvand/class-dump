@@ -11,12 +11,12 @@
 }
 
 + (Class);
-+ (id);
++ (id)InvertColorsDarkModeWindowFilter;
 + (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)vCardRepresentationForPeople: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

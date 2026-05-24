@@ -7,7 +7,6 @@
 @interface AVRenderedCaptionImage
 {
     struct __CVBuffer *_pixelBuffer;
-    struct CGPoint _position;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
-@property(readonly, nonatomic) struct CGPoint position;
 
 @end
 

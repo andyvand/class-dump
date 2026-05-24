@@ -8,8 +8,6 @@
 {
     id state;
     id _$scope;
-    id _importedRecipes;
-    id cookingSessionsManager;
 }
 
 @end

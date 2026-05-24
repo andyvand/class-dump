@@ -14,7 +14,7 @@
 - (id);
 - (long long);
 - (id);
-- (void *);
+- (void *)O;
 - (void)t image;
 
 // Remaining properties

@@ -6,30 +6,27 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSGetItemsResponseOperation, NSArray;
+@class NSArray;
 
 @interface MFEWSGetItemsRequestOperation : MFEWSRequestOperation
 {
     NSArray *_EWSItemIds;
-    NSArray *_additionalProperties;
 }
 
 - (void);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
+- (id);
+- (id)direction);
 - (id);
 - (void)è;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *EWSItemIds; // @synthesize EWSItemIds=_EWSItemIds;
 @property(readonly, copy, nonatomic) NSArray *additionalProperties; // @synthesize additionalProperties=_additionalProperties;
-@property(retain, nonatomic) MFEWSGetItemsResponseOperation *responseOperation;
 
 @end
 

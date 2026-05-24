@@ -7,11 +7,6 @@
 @interface Safari.CompletionListCollectionViewController.SectionHeaderView
 {
     id metrics;
-    id sectionTitleBottomPaddingConstraint;
-    id contentStackView;
-    id sectionTitleTextField;
-    id sectionType;
-    id isTopSection;
 }
 
 - (id);

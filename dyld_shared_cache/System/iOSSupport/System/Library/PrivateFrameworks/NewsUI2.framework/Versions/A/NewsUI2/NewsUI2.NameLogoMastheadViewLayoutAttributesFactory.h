@@ -7,7 +7,6 @@
 @interface NewsUI2.NameLogoMastheadViewLayoutAttributesFactory
 {
     id baseMastheadHeight;
-    id styler;
 }
 
 @end

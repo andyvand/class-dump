@@ -6,15 +6,13 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INTimer, NSString;
-
 @interface INCreateTimerIntentResponse : INIntentResponse
 {
 }
 
++ (int)_finishRequestIfNeeded:(long long)arg1;
 + (int);
-+ (int);
-+ (long long);
++ (long long);
 + (_Bool);
 + (_Bool);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)T@"<GCIdleServiceServerInterface>",R,N,V_idleServiceServer;
+- (id);
+- (void)ne_sg.4492ff20-d474-11eb-bf2a-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)eLoaderRegistry;
+- (long long)INImageLoaderRegistry;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INTimer *createdTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

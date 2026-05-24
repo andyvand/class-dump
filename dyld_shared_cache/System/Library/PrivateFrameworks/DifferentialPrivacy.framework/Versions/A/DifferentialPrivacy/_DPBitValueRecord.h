@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPBitValueRecord
 {
     _Bool _submitted;
-    short _clearBitValue;
-    NSString *_key;
-    NSString *_privateBitValueStr;
-    double _creationDate;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
@@ -30,35 +24,29 @@
 - (id);
 - (short);
 - (id);
-- (double);
+- (double)result in a download; %{public}@;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)actionConfigAdjustSettings:(double)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ow yielded infinity point:%{public}@ positioningRect:%{public}@ contentSize:%{public}@ parentWindow:%@ /* Error: Ran out of types for this method. */;
 - (id)±.ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) short clearBitValue; // @synthesize clearBitValue=_clearBitValue;
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(copy, nonatomic) NSString *privateBitValueStr; // @synthesize privateBitValueStr=_privateBitValueStr;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

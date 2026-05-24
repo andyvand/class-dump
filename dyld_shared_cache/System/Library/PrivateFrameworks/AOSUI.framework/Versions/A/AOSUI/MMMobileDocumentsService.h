@@ -6,68 +6,11 @@
 
 #import <AOSUI/MMService.h>
 
-@class MMModalDialog, MMWebKitViewController, NSArray, NSButton, NSDictionary, NSImageView, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSOutlineView, NSProgress, NSProgressIndicator, NSString, NSTabView, NSTabViewItem, NSTableView, NSTextField, NSTimer, NSTouchBar, NSView, NSWindow, iCloudTouchBarController;
-@protocol OS_dispatch_semaphore;
+@class NSMutableArray, iCloudTouchBarController;
 
 @interface MMMobileDocumentsService : MMService
 {
     NSMutableArray *cachedListOfApps;
-    NSMutableDictionary *_rowViews;
-    NSMutableArray *cachedListOfLiverPoolApps;
-    NSMutableDictionary *_liverPoolrowViews;
-    MMWebKitViewController *_webKitViewController;
-    MMModalDialog *_confirmModalDialog;
-    NSProgress *_confirmProgress;
-    NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_semaphore> *_stopDialogSemaphore;
-    double _progressSpinnerStopTime;
-    _Bool _isMigrationInProgress;
-    _Bool _shouldSignOut;
-    _Bool _preflightDialogIsDone;
-    _Bool _preflightCalledForSignout;
-    _Bool _isSigningOut;
-    _Bool _isShowingDisableStop;
-    _Bool _didEncounterLoadError;
-    NSWindow *_mobileDocumentsOptionsSheet;
-    NSTextField *_mobileDocumentsOptionsTitle;
-    NSButton *_mobileDocumentDoneButton;
-    NSTableView *_mobileDocumentsOptionsTable;
-    NSTabView *_optionsTab;
-    NSTabViewItem *_documentsAndDataTab;
-    NSTabViewItem *_liverpoolTab;
-    NSTextField *_lookMeUpByEmailOptionsTitle;
-    NSOutlineView *_liverPoolOptionsTable;
-    iCloudTouchBarController *_optionsTouchBarController;
-    iCloudTouchBarController *_disableiCloudDriveTouchBarController;
-    iCloudTouchBarController *_upgradeDevicesTouchBarController;
-    NSArray *_upgradeDeviceList;
-    NSArray *_incompatibleDeviceList;
-    unsigned long long _devicesState;
-    NSDictionary *_deviceList;
-    NSWindow *_upgradeDevicesSheet;
-    NSImageView *_upgradeDevicesImageView;
-    NSTextField *_upgradeDevicesTitleTextField;
-    NSButton *_upgradeDevicesCancelButton;
-    NSButton *_upgradeDevicesContinueButton;
-    NSTextField *_upgradeDevicesMessageTextField;
-    NSTextField *_upgradeDevicesSecondaryMessageTextField;
-    NSLayoutConstraint *_upgradeDevicesSingleDeviceTypeConstraint;
-    NSLayoutConstraint *_upgradeDevicesSecondaryDeviceTypeConstraint;
-    NSTimer *_migrationStatusCheckTimer;
-    NSWindow *_disableiCloudDriveSheet;
-    NSView *_disableiCloudDriveSheetView;
-    NSImageView *_disableiCloudDriveImageView;
-    NSTextField *_disableiCloudDriveTitleTextField;
-    NSTextField *_disableiCloudDriveMessageTextField;
-    NSButton *_disableiCloudDriveCancelButton;
-    NSButton *_disableiCloudDriveStopButton;
-    NSProgressIndicator *_disableiCloudDriveProgress;
-    NSProgress *_downloadProgress;
-    NSProgress *_uploadProgress;
-    NSTextField *_disableiCloudDriveProgressTextField;
-    NSProgress *_stopProgress;
-    CDUnknownBlockType _stopCompletionHandler;
-    NSLayoutConstraint *_exsistingProgressTextToButtonConstraint;
 }
 
 + (id);
@@ -111,11 +54,11 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
+- (void)I			K;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)齂R	k;
 - (void);
 - (void);
 - (void);
@@ -152,7 +95,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -183,38 +126,40 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void))
+?Eq	3;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)c;
+- (id);
+- (id);
+- (id);
+- (id)ų;
+- (void)q	3;
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)K(
+!(q	3;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);
@@ -225,32 +170,32 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (_Bool);
+- (id)k(3;
 - (void);
+- (id);
+- (id);
+- (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (void)1(3;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)(3;
+- (void));
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void)pleaccount.custodian.accountRecovery;
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -260,17 +205,17 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (long long);
+- (_Bool);
 - (id);
 - (long long);
-- (_Bool);
-- (id);
-- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)VC;
 - (void);
 - (id);
 - (_Bool);
@@ -279,66 +224,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) MMModalDialog *confirmModalDialog; // @synthesize confirmModalDialog=_confirmModalDialog;
-@property(retain) NSProgress *confirmProgress; // @synthesize confirmProgress=_confirmProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *deviceList; // @synthesize deviceList=_deviceList;
-@property(nonatomic) unsigned long long devicesState; // @synthesize devicesState=_devicesState;
-@property(nonatomic) _Bool didEncounterLoadError; // @synthesize didEncounterLoadError=_didEncounterLoadError;
-@property __weak NSButton *disableiCloudDriveCancelButton; // @synthesize disableiCloudDriveCancelButton=_disableiCloudDriveCancelButton;
-@property __weak NSImageView *disableiCloudDriveImageView; // @synthesize disableiCloudDriveImageView=_disableiCloudDriveImageView;
-@property __weak NSTextField *disableiCloudDriveMessageTextField; // @synthesize disableiCloudDriveMessageTextField=_disableiCloudDriveMessageTextField;
-@property __weak NSProgressIndicator *disableiCloudDriveProgress; // @synthesize disableiCloudDriveProgress=_disableiCloudDriveProgress;
-@property __weak NSTextField *disableiCloudDriveProgressTextField; // @synthesize disableiCloudDriveProgressTextField=_disableiCloudDriveProgressTextField;
-@property(retain) NSWindow *disableiCloudDriveSheet; // @synthesize disableiCloudDriveSheet=_disableiCloudDriveSheet;
-@property __weak NSView *disableiCloudDriveSheetView; // @synthesize disableiCloudDriveSheetView=_disableiCloudDriveSheetView;
-@property __weak NSButton *disableiCloudDriveStopButton; // @synthesize disableiCloudDriveStopButton=_disableiCloudDriveStopButton;
-@property __weak NSTextField *disableiCloudDriveTitleTextField; // @synthesize disableiCloudDriveTitleTextField=_disableiCloudDriveTitleTextField;
-@property(retain) iCloudTouchBarController *disableiCloudDriveTouchBarController; // @synthesize disableiCloudDriveTouchBarController=_disableiCloudDriveTouchBarController;
-@property __weak NSTabViewItem *documentsAndDataTab; // @synthesize documentsAndDataTab=_documentsAndDataTab;
-@property(retain) NSProgress *downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property __weak NSLayoutConstraint *exsistingProgressTextToButtonConstraint; // @synthesize exsistingProgressTextToButtonConstraint=_exsistingProgressTextToButtonConstraint;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *incompatibleDeviceList; // @synthesize incompatibleDeviceList=_incompatibleDeviceList;
-@property _Bool isMigrationInProgress; // @synthesize isMigrationInProgress=_isMigrationInProgress;
-@property _Bool isShowingDisableStop; // @synthesize isShowingDisableStop=_isShowingDisableStop;
-@property _Bool isSigningOut; // @synthesize isSigningOut=_isSigningOut;
-@property __weak NSOutlineView *liverPoolOptionsTable; // @synthesize liverPoolOptionsTable=_liverPoolOptionsTable;
-@property __weak NSTabViewItem *liverpoolTab; // @synthesize liverpoolTab=_liverpoolTab;
-@property __weak NSTextField *lookMeUpByEmailOptionsTitle; // @synthesize lookMeUpByEmailOptionsTitle=_lookMeUpByEmailOptionsTitle;
-@property(retain) NSTimer *migrationStatusCheckTimer; // @synthesize migrationStatusCheckTimer=_migrationStatusCheckTimer;
-@property __weak NSButton *mobileDocumentDoneButton; // @synthesize mobileDocumentDoneButton=_mobileDocumentDoneButton;
-@property(retain) NSWindow *mobileDocumentsOptionsSheet; // @synthesize mobileDocumentsOptionsSheet=_mobileDocumentsOptionsSheet;
-@property __weak NSTableView *mobileDocumentsOptionsTable; // @synthesize mobileDocumentsOptionsTable=_mobileDocumentsOptionsTable;
-@property __weak NSTextField *mobileDocumentsOptionsTitle; // @synthesize mobileDocumentsOptionsTitle=_mobileDocumentsOptionsTitle;
-@property __weak NSTabView *optionsTab; // @synthesize optionsTab=_optionsTab;
 @property(retain) iCloudTouchBarController *optionsTouchBarController; // @synthesize optionsTouchBarController=_optionsTouchBarController;
-@property NSWindow *parentWindow; // @dynamic parentWindow;
-@property _Bool preflightCalledForSignout; // @synthesize preflightCalledForSignout=_preflightCalledForSignout;
-@property _Bool preflightDialogIsDone; // @synthesize preflightDialogIsDone=_preflightDialogIsDone;
-@property _Bool shouldSignOut; // @synthesize shouldSignOut=_shouldSignOut;
-@property(readonly) _Bool showSecondaryDeviceTypeField;
-@property(copy) CDUnknownBlockType stopCompletionHandler; // @synthesize stopCompletionHandler=_stopCompletionHandler;
-@property(retain) NSProgress *stopProgress; // @synthesize stopProgress=_stopProgress;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) NSArray *upgradeDeviceList; // @synthesize upgradeDeviceList=_upgradeDeviceList;
-@property __weak NSButton *upgradeDevicesCancelButton; // @synthesize upgradeDevicesCancelButton=_upgradeDevicesCancelButton;
-@property __weak NSButton *upgradeDevicesContinueButton; // @synthesize upgradeDevicesContinueButton=_upgradeDevicesContinueButton;
-@property __weak NSImageView *upgradeDevicesImageView; // @synthesize upgradeDevicesImageView=_upgradeDevicesImageView;
-@property __weak NSTextField *upgradeDevicesMessageTextField; // @synthesize upgradeDevicesMessageTextField=_upgradeDevicesMessageTextField;
-@property __weak NSLayoutConstraint *upgradeDevicesSecondaryDeviceTypeConstraint; // @synthesize upgradeDevicesSecondaryDeviceTypeConstraint=_upgradeDevicesSecondaryDeviceTypeConstraint;
-@property __weak NSTextField *upgradeDevicesSecondaryMessageTextField; // @synthesize upgradeDevicesSecondaryMessageTextField=_upgradeDevicesSecondaryMessageTextField;
-@property(retain) NSWindow *upgradeDevicesSheet; // @synthesize upgradeDevicesSheet=_upgradeDevicesSheet;
-@property __weak NSLayoutConstraint *upgradeDevicesSingleDeviceTypeConstraint; // @synthesize upgradeDevicesSingleDeviceTypeConstraint=_upgradeDevicesSingleDeviceTypeConstraint;
-@property __weak NSTextField *upgradeDevicesTitleTextField; // @synthesize upgradeDevicesTitleTextField=_upgradeDevicesTitleTextField;
-@property(retain) iCloudTouchBarController *upgradeDevicesTouchBarController; // @synthesize upgradeDevicesTouchBarController=_upgradeDevicesTouchBarController;
-@property(retain) NSProgress *uploadProgress; // @synthesize uploadProgress=_uploadProgress;
-@property(retain) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end
 

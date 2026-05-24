@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)SignpostContextFrameLifetime;
+- (id)e<;
 - (id);
 - (unsigned long long);
 - (void);

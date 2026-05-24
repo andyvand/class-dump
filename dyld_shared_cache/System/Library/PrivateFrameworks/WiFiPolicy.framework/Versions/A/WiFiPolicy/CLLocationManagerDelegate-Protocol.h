@@ -5,5 +5,10 @@
 //
 
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void)UsoEntityBuilder_common_PaymentAccount;
+- (void)B;
+- (void);
 @end
 

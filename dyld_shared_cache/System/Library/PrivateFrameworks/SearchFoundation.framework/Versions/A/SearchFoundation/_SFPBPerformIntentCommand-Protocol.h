@@ -7,13 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBPerformIntentCommand
+- (NSString *)A%;
+- (NSString *)fractionOfAssetsWithFacesInIndex;
+- (NSData *)setGazeCenterX: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *biomeStreamIdentifier;
-@property(copy, nonatomic) NSData *intentMessageData;
 @property(copy, nonatomic) NSString *intentMessageName;
-@property(nonatomic) _Bool isRunnableWorkflow;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

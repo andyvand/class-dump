@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)t";
 + (id);
 + (unsigned int);
 - (id);
 - (id);
 - (id);
 - (unsigned short);
-- (id);
+- (id)startNextContentTransitionButtonEnabled;
 - (void);
 
 // Remaining properties

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface easy_engageOutput
 {
     long long _engage;
-    NSDictionary *_classProbability;
 }
 
 - (void);
@@ -19,13 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (void);
-- (id)p_1_00_at_charge_start_secs_curr_static_bin;
+- (void)@;
+- (id)_drain_depth_p_1_00_at_charge_start_secs_curr_static_bin;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
 @property(nonatomic) long long engage; // @synthesize engage=_engage;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

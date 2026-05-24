@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SISchemaServerEventMetadata : SISchemaInstrumentationMessage
 {
     NSData *_turnID;
-    long long _timestampNs;
-    NSData *_siriDeviceID;
-    NSString *_serverPod;
-    CDStruct_8e7b2486 _has;
-    _Bool _hasTurnID;
-    _Bool _hasSiriDeviceID;
-    _Bool _hasServerPod;
 }
 
 - (long long);
@@ -27,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,28 +32,20 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)Parameters;
-- (id)flowLinkClientEvent;
-- (void)IC;
+- (void);
+- (unsigned long long)_localizedName;
+- (_Bool)h:(id)arg1 /System/Library/Frameworks/Contacts.framework/Contacts;
+- (_Bool);
+- (id);
+- (id);
+- (id)deleteDefaultParameters;
+- (id)_flowLinkClientEvent;
+- (void)MWTFORMATLAYOUT_LOGIC_QUADRAPHONIC;
 
 // Remaining properties
-@property(nonatomic) _Bool hasServerPod; // @synthesize hasServerPod=_hasServerPod;
-@property(nonatomic) _Bool hasSiriDeviceID; // @synthesize hasSiriDeviceID=_hasSiriDeviceID;
-@property(nonatomic) _Bool hasTimestampNs;
-@property(nonatomic) _Bool hasTurnID; // @synthesize hasTurnID=_hasTurnID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *serverPod; // @synthesize serverPod=_serverPod;
-@property(copy, nonatomic) NSData *siriDeviceID; // @synthesize siriDeviceID=_siriDeviceID;
-@property(nonatomic) long long timestampNs; // @synthesize timestampNs=_timestampNs;
 @property(copy, nonatomic) NSData *turnID; // @synthesize turnID=_turnID;
 
 @end

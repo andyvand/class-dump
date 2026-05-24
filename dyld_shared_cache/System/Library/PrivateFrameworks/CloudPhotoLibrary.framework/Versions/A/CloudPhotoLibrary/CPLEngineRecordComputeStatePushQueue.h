@@ -6,20 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLEngineFileStorage, CPLPlatformObject, NSDate, NSMutableArray, NSString, NSURL;
+@class CPLEngineFileStorage, NSMutableArray;
 
 @interface CPLEngineRecordComputeStatePushQueue : CPLEngineStorage
 {
     NSMutableArray *_filesToCommit;
-    NSMutableArray *_filesToDelete;
-    NSDate *_incomingDownloadFolderCreationDate;
-    NSURL *_outgoingUploadFolderURL;
-    struct os_unfair_lock_s _lastComputeStateDownloadRequestDateLock;
-    NSDate *_lastComputeStateDownloadRequestDate;
-    unsigned long long _tempFolderIndex;
-    NSURL *_incomingDownloadFolderURL;
-    CPLEngineFileStorage *_fileStorage;
-    NSDate *_throttlingDate;
 }
 
 - (_Bool);
@@ -32,9 +23,9 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (_Bool)$;
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -43,8 +34,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)ýªèbù;
-- (id)àªâªÈ¶ýªèù;
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -55,17 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CPLEngineFileStorage *fileStorage; // @synthesize fileStorage=_fileStorage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *incomingDownloadFolderURL; // @synthesize incomingDownloadFolderURL=_incomingDownloadFolderURL;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
-@property(copy) NSDate *throttlingDate; // @synthesize throttlingDate=_throttlingDate;
 
 @end
 

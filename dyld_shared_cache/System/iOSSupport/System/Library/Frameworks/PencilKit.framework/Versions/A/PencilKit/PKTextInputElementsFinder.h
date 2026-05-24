@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet;
-
 @interface PKTextInputElementsFinder
 {
     _Bool _ignoreEditableElements;
-    _Bool _supportNonEditableElements;
-    _Bool __currentlyCollectingViews;
-    NSArray *_windowsToSearch;
-    long long __finderState;
-    NSMutableSet *__pendingElementContainerReplies;
-    CDUnknownBlockType __finderCompletionHandler;
-    NSArray *__reusableElements;
-    NSMutableSet *__foundElements;
 }
 
 + (_Bool);
@@ -57,15 +47,7 @@
 - (void)ViewHashtagsAndMentionsDelegate>",W,N,V_hashtagAndMentionsDelegate;
 
 // Remaining properties
-@property(nonatomic) _Bool _currentlyCollectingViews; // @synthesize _currentlyCollectingViews=__currentlyCollectingViews;
-@property(copy, nonatomic) CDUnknownBlockType _finderCompletionHandler; // @synthesize _finderCompletionHandler=__finderCompletionHandler;
 @property(nonatomic, setter=_setFinderState:) long long _finderState; // @synthesize _finderState=__finderState;
-@property(retain, nonatomic) NSMutableSet *_foundElements; // @synthesize _foundElements=__foundElements;
-@property(retain, nonatomic) NSMutableSet *_pendingElementContainerReplies; // @synthesize _pendingElementContainerReplies=__pendingElementContainerReplies;
-@property(retain, nonatomic) NSArray *_reusableElements; // @synthesize _reusableElements=__reusableElements;
-@property(nonatomic) _Bool ignoreEditableElements; // @synthesize ignoreEditableElements=_ignoreEditableElements;
-@property(nonatomic) _Bool supportNonEditableElements; // @synthesize supportNonEditableElements=_supportNonEditableElements;
-@property(readonly, copy, nonatomic) NSArray *windowsToSearch; // @synthesize windowsToSearch=_windowsToSearch;
 
 @end
 

@@ -9,7 +9,7 @@
     CDUnknownBlockType _handler;
 }
 
-- (void);
+- (void)collectionView:updateDraggingItemsForDrag: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (void)0@ù

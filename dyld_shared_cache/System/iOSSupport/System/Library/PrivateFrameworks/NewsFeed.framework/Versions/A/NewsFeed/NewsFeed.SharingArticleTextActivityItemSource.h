@@ -7,7 +7,6 @@
 @interface NewsFeed.SharingArticleTextActivityItemSource
 {
     id headline;
-    id itemTitle;
 }
 
 - (id);

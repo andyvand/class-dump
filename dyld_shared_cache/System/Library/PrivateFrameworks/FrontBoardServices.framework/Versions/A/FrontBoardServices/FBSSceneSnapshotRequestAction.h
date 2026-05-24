@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneSnapshotContext;
-
 @interface FBSSceneSnapshotRequestAction
 {
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) FBSSceneSnapshotContext *context;
 @property(readonly, nonatomic) unsigned long long type;
 
 @end

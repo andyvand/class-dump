@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgressIndicator, NSTextField;
+@class NSProgressIndicator;
 
 @interface EKUITravelTimeSpinnerView
 {
     NSProgressIndicator *_spinner;
-    NSTextField *_textfield;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)release;
 
 // Remaining properties
 @property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) NSTextField *textfield; // @synthesize textfield=_textfield;
 
 @end
 

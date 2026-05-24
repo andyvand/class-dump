@@ -9,7 +9,6 @@
 @interface CKDPRequestedFields
 {
     NSMutableArray *_fields;
-    NSMutableArray *_listFields;
 }
 
 + (Class);
@@ -19,14 +18,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)ing 'ActiveConfigurationDidBecomeInvalid'!
+;
+- (unsigned long long)count:%u with err= %d 
+  /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)next conversation ID, including journaled:(id)arg1 %lld;
 - (void);
-- (void);
-- (id);
+- (id)";
 - (unsigned long long);
 - (void);
 - (void);
@@ -51,7 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *fields; // @synthesize fields=_fields;
-@property(retain, nonatomic) NSMutableArray *listFields; // @synthesize listFields=_listFields;
 
 @end
 

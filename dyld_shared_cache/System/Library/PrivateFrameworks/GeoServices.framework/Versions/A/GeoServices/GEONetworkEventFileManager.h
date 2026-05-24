@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface GEONetworkEventFileManager
 {
     NSObject<OS_dispatch_queue> *_syncQ;
-    NSObject<OS_dispatch_source> *_closeTimer;
-    NSDateFormatter *_dateFormatter;
-    NSString *_fileDirectory;
-    NSMutableDictionary *_netEventFiles;
-    _Bool _needDir;
 }
 
 + (id);
 - (void);
-- (int);
+- (int);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)\h	;
 - (void);
 - (void);
 - (void)tD2;

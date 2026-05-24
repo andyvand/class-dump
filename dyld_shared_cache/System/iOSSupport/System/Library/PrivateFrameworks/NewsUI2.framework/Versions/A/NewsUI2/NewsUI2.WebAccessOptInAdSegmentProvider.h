@@ -7,10 +7,9 @@
 @interface NewsUI2.WebAccessOptInAdSegmentProvider
 {
     id needsUpdate;
-    id purchaseController;
 }
 
-- (void);
+- (void)eventStore;
 
 @end
 

@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (id);
-- (id)tBlinkTimersWithSharedData:(struct CGRect)arg1;
+- (id)_startBlinkTimersWithSharedData:(struct CGRect)arg1;
 
 @end
 

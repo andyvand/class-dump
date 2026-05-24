@@ -7,16 +7,10 @@
 @interface NewsUI2.TodayFeedQuerySidecar
 {
     id tagController;
-    id localChannelsProvider;
-    id paidAccessChecker;
-    id todayServiceConfig;
-    id $__lazy_storage_$_localNewsChannelIDs;
-    id $__lazy_storage_$_newspaperChannelIDs;
-    id $__lazy_storage_$_introToSportsTopicIDs;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 

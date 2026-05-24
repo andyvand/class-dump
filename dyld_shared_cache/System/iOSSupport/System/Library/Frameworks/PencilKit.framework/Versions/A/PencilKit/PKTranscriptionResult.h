@@ -9,16 +9,14 @@
 @interface PKTranscriptionResult
 {
     NSString *_transcription;
-    _Bool _didShowHUD;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)setPaletteView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didShowHUD; // @synthesize didShowHUD=_didShowHUD;
 @property(readonly, copy, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFCoercionOptions, WFType;
+@class WFType;
 
 @interface WFCoercionContext
 {
     WFType *_requestedType;
-    WFCoercionOptions *_options;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WFCoercionOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) WFType *requestedType; // @synthesize requestedType=_requestedType;
 
 @end

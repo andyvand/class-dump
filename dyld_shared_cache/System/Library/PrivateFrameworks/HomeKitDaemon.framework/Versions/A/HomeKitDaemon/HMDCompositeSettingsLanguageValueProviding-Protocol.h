@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol HMDCompositeSettingsLanguageValueProviding
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *inputLanguageCode;
-@property(readonly, copy) NSString *outputVoiceGenderCode;
-@property(readonly, copy) NSString *outputVoiceLanguageCode;
-@property(readonly, copy) NSString *voiceName;
 @end
 

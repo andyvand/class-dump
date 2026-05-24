@@ -9,25 +9,22 @@
 @interface _CLMicroLocationClusterIdAndClusterData
 {
     NSString *_clusterIdentifier;
-    double _meanBLEReceivedSignalStrength;
-    double _meanUWBRange;
 }
 
-+ (_Bool);
++ (_Bool);
 - (double);
 - (double);
+- (id);
+- (void)for final JPEG2000
+;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setReportBufferInPrivateData:(struct _NSZone *)arg1 privateDataOffset:logState: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *clusterIdentifier; // @synthesize clusterIdentifier=_clusterIdentifier;
-@property(readonly, nonatomic) double meanBLEReceivedSignalStrength; // @synthesize meanBLEReceivedSignalStrength=_meanBLEReceivedSignalStrength;
-@property(readonly, nonatomic) double meanUWBRange; // @synthesize meanUWBRange=_meanUWBRange;
 
 @end
 

@@ -9,15 +9,13 @@
 @interface AVCaptureReactionEffectState
 {
     NSString *_reactionType;
-    CDStruct_1b6d18a9 _startTime;
-    CDStruct_1b6d18a9 _endTime;
 }
 
 - (id);
+- (id)8;
 - (id);
-- (id);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void)service:account:incomingData:fromID:context: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)P;
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) NSString *reactionType; // @synthesize reactionType=_reactionType;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
 
 @end
 

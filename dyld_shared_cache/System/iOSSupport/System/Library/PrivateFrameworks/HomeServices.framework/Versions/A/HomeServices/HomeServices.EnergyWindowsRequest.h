@@ -9,6 +9,7 @@
 @interface HomeServices.EnergyWindowsRequest : HomeServices.GridBaseRequest
 {
     id HMACAuthInfo;
+    id;
 }
 
 @end

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     HMDNetworkObserver *_networkObserver;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)d"b1};
+- (id)essions %@;
+- (id)ey %@;
 - (id);
 - (void);
-- (void);
+- (void)REs;
 - (id);
 - (id);
 - (void)Disabling;

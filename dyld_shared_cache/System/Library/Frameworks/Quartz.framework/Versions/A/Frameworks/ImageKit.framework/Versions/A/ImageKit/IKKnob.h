@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKImageLayer;
+@class IKImageLayer;
 
 @interface IKKnob
 {
     IKImageLayer *_imageLayer;
-    CALayer *_originalLayer;
-    int _mode;
 }
 
 + (id);
@@ -22,10 +20,10 @@
 - (void);
 - (id);
 - (void);
+- (void)removeObjectAtIndex:(struct CGRect)arg1;
+- (void)a;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 
 @end
 

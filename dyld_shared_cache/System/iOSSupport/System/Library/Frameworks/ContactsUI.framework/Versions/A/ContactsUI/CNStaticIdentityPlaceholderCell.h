@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)entifier:inContainerIdentifier:moveWasAuthorized: /* Error: Ran out of types for this method. */;
+- (void)addContact:toGroupIdentifier:inContainerIdentifier:moveWasAuthorized: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;

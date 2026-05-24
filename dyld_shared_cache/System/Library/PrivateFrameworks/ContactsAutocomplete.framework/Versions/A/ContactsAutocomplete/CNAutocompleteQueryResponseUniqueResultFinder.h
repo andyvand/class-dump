@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSIndexSet, NSMutableArray, NSMutableIndexSet;
+@class NSMutableArray;
 
 @interface CNAutocompleteQueryResponseUniqueResultFinder
 {
     NSMutableArray *_uniqueResults;
-    NSMutableArray *_hashes;
-    NSDictionary *_hashIndex;
-    NSIndexSet *_firstIndexes;
-    NSMutableIndexSet *_uniqueResultIndexes;
-    CDUnknownBlockType _duplicateResultHandler;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (void);

@@ -24,7 +24,7 @@
 - (void);
 - (Class);
 - (_Bool);
-- (void)enceEditing:(id)arg1;
+- (void)setSupportsCanvasReferenceEditing:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) TSDPathSource *pathSource; // @synthesize pathSource=mPathSource;

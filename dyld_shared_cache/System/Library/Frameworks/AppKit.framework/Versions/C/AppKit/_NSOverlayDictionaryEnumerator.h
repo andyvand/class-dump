@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _NSOverlayDictionaryEnumerator
 {
     NSArray *_keys;
-    long long _i;
 }
 
 - (id);
 - (void);
-- (id)on:imageScaling: /* Error: Ran out of types for this method. */;
+- (id)_imageByScalingToSize:withImageInterpolation:imageScaling: /* Error: Ran out of types for this method. */;
 - (id)D|;
 
 @end

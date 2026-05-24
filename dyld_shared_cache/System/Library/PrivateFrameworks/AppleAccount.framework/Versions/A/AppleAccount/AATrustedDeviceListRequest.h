@@ -11,15 +11,14 @@
 @interface AATrustedDeviceListRequest : AARequest
 {
     AAGrandSlamSigner *_grandSlamSigner;
-    NSString *_heartbeatToken;
 }
 
 + (Class);
+- (id)d = %d;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)ceDelegate: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setInheritanceDelegate: /* Error: Ran out of types for this method. */;
 - (id)pple.AAFollowUpIdentifier.adpUserMissingHealthyCustodian;
 
 // Remaining properties

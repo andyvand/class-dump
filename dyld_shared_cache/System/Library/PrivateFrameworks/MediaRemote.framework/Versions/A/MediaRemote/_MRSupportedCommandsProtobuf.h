@@ -23,12 +23,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)er-;
 - (void);
-- (id);
+- (id)berOfRetries:completion:] /* Error: Ran out of types for this method. */;
 - (id)@ù
 × ;
-- (void)rkFormatsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)availableAnimatedArtworkFormatsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *supportedCommands; // @synthesize supportedCommands=_supportedCommands;

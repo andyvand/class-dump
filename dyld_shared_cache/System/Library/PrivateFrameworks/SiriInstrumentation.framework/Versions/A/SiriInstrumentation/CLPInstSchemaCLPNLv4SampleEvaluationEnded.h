@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPNLv4SampleEvaluationEnded : SISchemaInstrumentationMessage
 {
     _Bool _evaluated;
-    _Bool _evaluationResultOnTheFirstUserParse;
-    _Bool _userStatedTaskOnTheFirstUserParse;
-    int _matchedIndex;
-    _Bool _evaluationResult;
-    _Bool _userProfileSandboxRequested;
-    struct {
-        unsigned int evaluated:1;
-        unsigned int evaluationResultOnTheFirstUserParse:1;
-        unsigned int userStatedTaskOnTheFirstUserParse:1;
-        unsigned int matchedIndex:1;
-        unsigned int evaluationResult:1;
-        unsigned int userProfileSandboxRequested:1;
-    } _has;
 }
 
 - (_Bool);
@@ -61,25 +46,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Xh;
 - (id)PlayerContext";
-- (id)entEnded;
+- (id)GATSchemaGATGenerativeRequestEventEnded;
 - (id)¯;
 
 // Remaining properties
 @property(nonatomic) _Bool evaluated; // @synthesize evaluated=_evaluated;
-@property(nonatomic) _Bool evaluationResult; // @synthesize evaluationResult=_evaluationResult;
-@property(nonatomic) _Bool evaluationResultOnTheFirstUserParse; // @synthesize evaluationResultOnTheFirstUserParse=_evaluationResultOnTheFirstUserParse;
-@property(nonatomic) _Bool hasEvaluated;
-@property(nonatomic) _Bool hasEvaluationResult;
-@property(nonatomic) _Bool hasEvaluationResultOnTheFirstUserParse;
-@property(nonatomic) _Bool hasMatchedIndex;
-@property(nonatomic) _Bool hasUserProfileSandboxRequested;
-@property(nonatomic) _Bool hasUserStatedTaskOnTheFirstUserParse;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int matchedIndex; // @synthesize matchedIndex=_matchedIndex;
-@property(nonatomic) _Bool userProfileSandboxRequested; // @synthesize userProfileSandboxRequested=_userProfileSandboxRequested;
-@property(nonatomic) _Bool userStatedTaskOnTheFirstUserParse; // @synthesize userStatedTaskOnTheFirstUserParse=_userStatedTaskOnTheFirstUserParse;
 
 @end
 

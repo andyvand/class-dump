@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersListEditingSessionProviderCapability
 {
     id registerUndoToDeleteReminderIfExists;
-    id concludeEditingSessionStates;
-    id deferredAction;
-    id needsSave;
 }
 
 @end

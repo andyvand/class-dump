@@ -4,42 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMapTable, NSTimer, UIScreen, _UIFocusEngineScrollableContainerOffsets;
+@class UIScreen;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusDisplayLinkScrollAnimator
 {
     UIScreen *_screen;
-    _UIFocusEngineScrollableContainerOffsets *_singleScrollableContainerEntry;
-    NSMapTable *_scrollableContainers;
-    CADisplayLink *_displayLink;
-    NSTimer *_timer;
-    double _lastHeartbeatTime;
-    double _defaultConvergenceRate;
 }
 
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (void);
-- (double);
-- (struct CGPoint);
+- (double)_handleDeleteCommandWithMessageDictionary: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_dndHandleForIMDHandle:(id)arg1;
+- (void)loginServiceSessionWithAccount:(id)arg1;
+- (void)IMStickerTapbackMessageProcessingParameter;
+- (void)\9
+ : /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)j1G;
 - (_Bool);
-- (void);
-- (struct CGPoint);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGPoint);
+- (void)ember %s isn't iMessage-able;
+- (struct CGPoint)oming %@ fetchAllChanges %@;
+- (id)for GUID (%@);
+- (id)ommand (%ld), trustedData:(id)arg1 %@;
+- (void)error %@;
+- (id)dicationAction. Got:(id)arg1 %d, expected:%d /* Error: Ran out of types for this method. */;
+- (void):(double)arg1 Load success:%@    (Error:%@) /* Error: Ran out of types for this method. */;
+- (void)oaded:%@   identifier:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ror:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)osePipelineParameter %p> { guid:(struct CGPoint)arg1 %@, timestamp:(struct CGPoint)arg2 %@, isFromStorage:(struct CGPoint)arg3 %@, isLastFromStorage:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);

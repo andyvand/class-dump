@@ -6,26 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, PEGASUSSchemaPEGASUSAsrHypothesisIdx;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSAsrHypothesisInfo : SISchemaInstrumentationMessage
 {
     NSString *_postItnUtterance;
-    PEGASUSSchemaPEGASUSAsrHypothesisIdx *_idx;
-    float _score;
-    _Bool _selectedAsPrimaryResponse;
-    _Bool _selectedAsAlternateSuggestion;
-    NSArray *_corrections;
-    struct {
-        unsigned int score:1;
-        unsigned int selectedAsPrimaryResponse:1;
-        unsigned int selectedAsAlternateSuggestion:1;
-    } _has;
-    _Bool _hasPostItnUtterance;
-    _Bool _hasIdx;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +27,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)*A@9
+A;
 - (void);
 - (void);
 - (void);
@@ -51,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)adaptiveIcon;
 - (id);
 - (void);
 - (id);
@@ -60,29 +49,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)d other handle:(id)arg1 %@  for message ID:%lld /* Error: Ran out of types for this method. */;
 - (id);
 - (id)
 × ;
 - (float)TContextRetrieved";
-- (id)essed;
+- (id)_firstAudioPacketProcessed;
 - (id)nded",&,N,V_ended;
 - (void)ý0;
 - (void)sponseGenerated.outcome.valueDisambiguation.items.collection.values.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *corrections; // @synthesize corrections=_corrections;
-@property(nonatomic) _Bool hasIdx; // @synthesize hasIdx=_hasIdx;
-@property(nonatomic) _Bool hasPostItnUtterance; // @synthesize hasPostItnUtterance=_hasPostItnUtterance;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasSelectedAsAlternateSuggestion;
-@property(nonatomic) _Bool hasSelectedAsPrimaryResponse;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAsrHypothesisIdx *idx; // @synthesize idx=_idx;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *postItnUtterance; // @synthesize postItnUtterance=_postItnUtterance;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) _Bool selectedAsAlternateSuggestion; // @synthesize selectedAsAlternateSuggestion=_selectedAsAlternateSuggestion;
-@property(nonatomic) _Bool selectedAsPrimaryResponse; // @synthesize selectedAsPrimaryResponse=_selectedAsPrimaryResponse;
 
 @end
 

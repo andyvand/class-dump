@@ -9,9 +9,6 @@
 @interface BMPBUserFocusActivityEvent
 {
     NSString *_clientID;
-    NSString *_mode;
-    _Bool _isStart;
-    CDStruct_95016f1d _has;
 }
 
 - (_Bool);
@@ -36,12 +33,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, nonatomic) _Bool hasClientID;
 @property(nonatomic) _Bool hasIsStart;
-@property(readonly, nonatomic) _Bool hasMode;
-@property(nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(retain, nonatomic) NSString *mode; // @synthesize mode=_mode;
 
 @end
 

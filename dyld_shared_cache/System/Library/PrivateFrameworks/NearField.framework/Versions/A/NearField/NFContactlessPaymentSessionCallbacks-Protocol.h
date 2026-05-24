@@ -5,5 +5,17 @@
 //
 
 @protocol NFContactlessPaymentSessionCallbacks
+- (void)nternal/Library/BuildRoots/4~CNqZugD1ADkw0k1kbooLy7sY5cuP1RyCwoCeIBg/Library/Caches/com.apple.xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBook/ABUserActivityRestoration.m;
+- (void)ftLinking.h;
+- (void)etCNClass(void)_block_invoke;
+- (void)multivalue property;
+- (void)ueOntoExistingContactCommand.m;
+
+@optional
+- (void)CNPostalAddressStateKey;
+- (void)CNPostalAddressSubAdministrativeAreaKey;
+- (void)CNPostalAddressCityKey;
+- (void)CNPostalAddressSubLocalityKey;
+- (void)4@?0@"ABPerson"8@"ABPerson"16;
 @end
 

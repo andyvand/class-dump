@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, EFPromise, NSMutableData, NSString, NSURLResponse;
+@class EFFuture, NSMutableData;
 
 @interface _EFURLConnectionDelegate
 {
     NSMutableData *_responseBody;
-    EFPromise *_promise;
-    NSURLResponse *_response;
 }
 
-- (void);
+- (void)rows_even_rounded_thick_variant_age_child.heic;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)oreFoundation;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) EFFuture *future;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURLResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

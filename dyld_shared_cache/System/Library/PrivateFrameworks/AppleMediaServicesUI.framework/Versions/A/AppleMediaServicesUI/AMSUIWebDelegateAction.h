@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebDelegateAction : AMSUIWebAction
@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSDictionary *_delegateData;
 }
 
-- (void);
-- (id);
+- (void)ated:(id)arg1 %{public}@;
+- (id)(%@, localOnly:%d, installedOnly:%d, latestOnly:%d, cacheOnly:%d)> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -25,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)URLSessionTask"24q32@?<v@?@"NSInputStream">40;
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NSDictionary *delegateData; // @synthesize delegateData=_delegateData;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

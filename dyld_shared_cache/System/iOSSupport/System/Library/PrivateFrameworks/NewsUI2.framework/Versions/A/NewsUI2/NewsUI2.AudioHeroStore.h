@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioHeroStore
 {
     id headlineService;
-    id cloudContext;
-    id headlineCache;
 }
 
 @end

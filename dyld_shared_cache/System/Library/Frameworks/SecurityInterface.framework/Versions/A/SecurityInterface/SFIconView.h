@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void)%@ didTechCrossCheckPass,%{public}d,didTechCrossCheckPassAndDeviceInsideALOI,%{public}d,foundAnyWiFi,%{public}d,foundGps,%{public}d,foundHighIntegrityWiFi,%{public}d,isDeviceLocationInsideALOI,%{public}d,isDeviceLocationOutsideALOI,%{public}d,_technologiesMissingToLookForInLocationUpdates,%{public}lu;
 - (_Bool);
 
 @end

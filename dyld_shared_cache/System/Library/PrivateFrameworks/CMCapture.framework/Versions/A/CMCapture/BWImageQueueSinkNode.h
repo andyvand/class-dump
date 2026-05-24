@@ -6,94 +6,23 @@
 
 #import <CMCapture/BWSinkNode.h>
 
-@class BWFigVideoCaptureDevice, BWLimitedGMErrorLogger, BWStats, CAContext, CMCaptureFrameSenderService, NSMutableArray, NSObject;
-@protocol BWImageQueueSinkNodePreviewTapDelegate, OS_dispatch_queue, OS_os_transaction;
-
 @interface BWImageQueueSinkNode : BWSinkNode
 {
     unsigned int _imageQueueCapacity;
-    unsigned int _imageQueueWidth;
-    unsigned int _imageQueueHeight;
-    unsigned int _imageQueueRequiredFreeSlots;
-    struct _CAImageQueue *_imageQueue;
-    unsigned int _imageQueueSlot;
-    unsigned long long _imageQueueCurrentFreeSlots;
-    CMCaptureFrameSenderService *_frameSender;
-    CDStruct_4c969caf _frameSenderClientAuditToken;
-    int _syncStrategy;
-    int _liveSyncStrategy;
-    _Bool _resetPreviewSynchronizerOnNextFrame;
-    struct OpaqueBWPreviewSynchronizer *_previewSynchronizer;
-    double _lastDisplaySamplingTime;
-    double _lastDisplayVSyncInterval;
-    double _lastHarmonicFractionalVSyncInterval;
-    double _lastFramePTS;
-    double _lastDisplayTime;
-    double _lateFrameIntervalStartPTS;
-    double _previousFrameDuration;
-    unsigned long long _framesSinceLastHarmonicCompensation;
-    _Bool _CAVSyncIntervalWorkaroundEnabled;
-    _Bool _highLatencyJitterHandlingEnabled;
-    _Bool _fasterLatencyRecoveryEnabled;
-    _Bool _driftCompensationTimestampFilteringEnabled;
-    id <BWImageQueueSinkNodePreviewTapDelegate> _previewTapDelegate;
-    unsigned long long _numFramesReceived;
-    unsigned long long _numFramesReceivedBeforeFirstDisplayTimeout;
-    _Bool _receivingBlackenedFrames;
-    NSObject<OS_os_transaction> *_holdingBuffersForClientAssertion;
-    NSMutableArray *_sharedSurfaces;
-    unsigned long long *_sharedBufferIDs;
-    unsigned long long _sharedSurfaceCount;
-    _Bool _renderingTCCPlaceholderFrames;
-    struct OpaqueFigSimpleMutex *_surfaceRegistrationMutex;
-    NSMutableArray *_bufferIDsInQueue;
-    struct _EnqueuedBufferContext **_enqueuedBufferContexts;
-    unsigned long long _enqueuedBufferContextCount;
-    NSMutableArray *_previewPTSHistory;
-    struct OpaqueFigSimpleMutex *_previewPTSHistoryMutex;
-    NSObject<OS_dispatch_queue> *_previewPTSHistoryQueue;
-    CDStruct_1b6d18a9 _firstFramePTS;
-    long long _previewStartedHostTime;
-    long long _firstDisplayedFrameHostTime;
-    CDStruct_1b6d18a9 _firstDisplayedFramePTS;
-    _Bool _didCallFirstFrameAtHostTimeCallback;
-    _Bool _didCallFirstFrameCallback;
-    CDStruct_1b6d18a9 _firstOverCaptureDisplayedFramePTS;
-    long long _firstOverCaptureDisplayedFrameHostTime;
-    _Bool _didLogFirstOverCaptureFrame;
-    _Bool _triggerDisplayTimeout;
-    _Bool _fenceSupportEnabled;
-    _Bool _fencePortGenerationIDWillChange;
-    int _framesSinceLastFenceIDWillChange;
-    int _framesSinceLastFence;
-    long long _lastFencedGenerationID;
-    int _savedSyncStrategy;
-    CAContext *_imageQueueContext;
-    int _maxLossyCompressionLevel;
-    struct FigCaptureVideoTransform _transform;
-    BWStats *_frameDisplayLatencyStats;
-    BWFigVideoCaptureDevice *_captureDevice;
-    int _clientPID;
-    CDStruct_4c969caf _clientAuditToken;
-    struct os_unfair_lock_s _clientPIDLock;
-    _Bool _videoHDRImageStatisticsEnabled;
-    _Bool _liveVideoHDRImageStatisticsEnabled;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    _Bool _cleanupImageQueueAtEndOfData;
 }
 
 + (void)s movie processing suspended while deallocating.;
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)releaseGlobalCache;
 - (void);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void);
 - (struct FigCaptureVideoTransform);
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (struct _CAImageQueue *);
+- (struct _CAImageQueue *)deleteURLsFromBundleIdentifier:groupIdentifierGlobs: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -103,7 +32,7 @@
 - (_Bool)Â0@ù
 × ;
 - (void)e:(int)arg1 irisMovieInfo:debugMetadataSidecarFileURL:recordingSucceeded: /* Error: Ran out of types for this method. */;
-- (void)OffsetEnabled;
+- (void)_teleSwitchBasedOnExposureAndFocusTargetOffsetEnabled;
 - (void)tApplicationStateMonitor >>>> %s:(id)arg1 %{public}@ Updating client state condition "_deviceIsLocked" with new value "%{public}@";
 - (void);
 - (void)ÈÿÏÿÖÿß!ÿ;
@@ -120,11 +49,7 @@ Client process ID:%d /* Error: Ran out of types for this method. */;
 - (void)ì=Éÿ;
 
 // Remaining properties
-@property(retain, nonatomic) BWFigVideoCaptureDevice *captureDevice; // @synthesize captureDevice=_captureDevice;
-@property(nonatomic) _Bool cleanupImageQueueAtEndOfData; // @synthesize cleanupImageQueueAtEndOfData=_cleanupImageQueueAtEndOfData;
 @property(readonly, nonatomic) struct _CAImageQueue *imageQueue;
-@property(readonly, nonatomic) unsigned int imageQueueSlot;
-@property(nonatomic) id <BWImageQueueSinkNodePreviewTapDelegate> previewTapDelegate; // @synthesize previewTapDelegate=_previewTapDelegate;
 
 @end
 

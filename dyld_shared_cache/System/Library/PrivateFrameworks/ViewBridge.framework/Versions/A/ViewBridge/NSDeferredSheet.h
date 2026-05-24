@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface NSDeferredSheet
 {
     _Bool _isCritical;
-    unsigned char _windowBase;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    NSString *_childIdentifier;
-    NSString *_parentIdentifier;
-    CDUnknownBlockType _reply;
-    unsigned long long _styleMask;
-    struct CGSize _size;
 }
 
-- (unsigned char);
+- (unsigned char)74;
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (struct CGSize);
+- (struct CGSize)BRWatchingConfiguration;
 - (id);
 - (_Bool);
 - (id);
-- (void)ServiceNamed:(CDUnknownBlockType)arg1 instanceIdentifier: /* Error: Ran out of types for this method. */;
+- (void)connectionForListenerNamed:(CDUnknownBlockType)arg1 fromServiceNamed:instanceIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *childIdentifier; // @synthesize childIdentifier=_childIdentifier;
-@property(readonly) _Bool isCritical; // @synthesize isCritical=_isCritical;
 @property(retain) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
-@property(retain) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(copy) CDUnknownBlockType reply; // @synthesize reply=_reply;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
-@property(readonly) unsigned long long styleMask; // @synthesize styleMask=_styleMask;
-@property(readonly) unsigned char windowBase; // @synthesize windowBase=_windowBase;
 
 @end
 

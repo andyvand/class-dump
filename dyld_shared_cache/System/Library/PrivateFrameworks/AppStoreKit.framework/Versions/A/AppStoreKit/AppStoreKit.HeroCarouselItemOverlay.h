@@ -7,17 +7,6 @@
 @interface AppStoreKit.HeroCarouselItemOverlay
 {
     id overlayType;
-    id displayOptions;
-    id badgeText;
-    id titleText;
-    id descriptionText;
-    id callToActionText;
-    id buttonTitle;
-    id clickAction;
-    id lockup;
-    id collectionIcons;
-    id id;
-    id impressionMetrics;
 }
 
 @end

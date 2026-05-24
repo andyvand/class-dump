@@ -9,36 +9,32 @@
 @interface CKDPRequestOperationHeaderAssetAuthorizeGetRequestOptions
 {
     unsigned long long _contentRequestAuthorizeGetOptions;
-    NSMutableArray *_contentRequestHeaders;
-    CDStruct_3f29eb26 _has;
 }
 
 + (Class);
 - (_Bool);
 - (void);
-- (id);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)igEndpointStreamAudioEngineRef, OSStatus);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)0;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)È;
 
 // Remaining properties
-@property(nonatomic) unsigned long long contentRequestAuthorizeGetOptions; // @synthesize contentRequestAuthorizeGetOptions=_contentRequestAuthorizeGetOptions;
 @property(retain, nonatomic) NSMutableArray *contentRequestHeaders; // @synthesize contentRequestHeaders=_contentRequestHeaders;
-@property(nonatomic) _Bool hasContentRequestAuthorizeGetOptions;
 
 @end
 

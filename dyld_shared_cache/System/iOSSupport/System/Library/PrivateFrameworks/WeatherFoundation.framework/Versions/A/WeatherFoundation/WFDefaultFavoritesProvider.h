@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WFFavoriteLocationProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WFDefaultFavoritesProvider
 {
-    id _delegate;
+    id <WFFavoriteLocationProviderDelegate> _delegate;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)DELETE_TAG_CONFIRMATION_MESSAGE_TWO_TAGS_BOTH;
+- (id)0;
 - (void);
 - (id);
 - (void);
@@ -25,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WFFavoriteLocationProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

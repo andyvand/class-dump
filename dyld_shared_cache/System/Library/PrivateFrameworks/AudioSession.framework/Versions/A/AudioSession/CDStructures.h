@@ -32,8 +32,6 @@ struct AVAudioTimeInterval {
     unsigned long long _field3;
 };
 
-struct AggregateDeviceFactory;
-
 struct AudioPresentationTimeStamp {
     unsigned int _field1;
     unsigned int _field2;
@@ -81,8 +79,6 @@ struct IOClientImpl;
 
 struct IOController;
 
-struct IOControllerImpl;
-
 struct IOStream;
 
 struct IOStreamBasicImpl;
@@ -115,7 +111,7 @@ struct PortDescriptionImpl {
 };
 
 struct ProcessIdentity {
-    CDStruct_4c969caf _field1;
+    CDStruct_6ad76789 _field1;
     int _field2;
     int _field3;
 };
@@ -174,8 +170,8 @@ struct shared_ptr<avas::client::HardwareObjectBase> {
 };
 
 struct shared_ptr<avas::client::IOClientImpl> {
-    struct IOClientImpl *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct IOClientImpl *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<avas::client::IOController> {
@@ -189,8 +185,8 @@ struct shared_ptr<avas::client::IOStream> {
 };
 
 struct shared_ptr<avas::client::IOStreamBasicImpl> {
-    struct IOStreamBasicImpl *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct IOStreamBasicImpl *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<avas::client::KVOMutex> {
@@ -271,18 +267,6 @@ struct unfair_lock {
     struct os_unfair_lock_s m_lock;
 };
 
-struct unique_ptr<avas::client::AggregateDeviceFactory, std::default_delete<avas::client::AggregateDeviceFactory>> {
-    struct {
-        struct AggregateDeviceFactory *__ptr_;
-    } ;
-};
-
-struct unique_ptr<avas::client::IOControllerImpl, std::default_delete<avas::client::IOControllerImpl>> {
-    struct {
-        struct IOControllerImpl *__ptr_;
-    } ;
-};
-
 struct unique_ptr<caulk::synchronized<avas::client::AVAudioApplicationImpl>, std::default_delete<caulk::synchronized<avas::client::AVAudioApplicationImpl>>> {
     struct {
         void *__ptr_;
@@ -334,8 +318,8 @@ typedef struct {
 } CDStruct_a7186859;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 // Template types
 typedef struct shared_ptr<avas::client::HardwareObjectBase> {
@@ -344,9 +328,9 @@ typedef struct shared_ptr<avas::client::HardwareObjectBase> {
 } shared_ptr_b8ec4899;
 
 typedef struct shared_ptr<avas::client::IOClientImpl> {
-    struct IOClientImpl *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_f81f53c0;
+    struct IOClientImpl *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_e362ef8b;
 
 typedef struct shared_ptr<avas::client::IOController> {
     struct IOController *_field1;
@@ -354,9 +338,9 @@ typedef struct shared_ptr<avas::client::IOController> {
 } shared_ptr_111619eb;
 
 typedef struct shared_ptr<avas::client::IOStreamBasicImpl> {
-    struct IOStreamBasicImpl *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_32df9ec2;
+    struct IOStreamBasicImpl *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_1adca86a;
 
 typedef struct shared_ptr<avas::client::SessionManager> {
     struct SessionManager *__ptr_;
@@ -381,5 +365,5 @@ typedef struct tuple<std::shared_ptr<avas::client::XPCConnection>, avas::Process
         struct ProcessIdentity _field2;
         unsigned int _field3;
     } _field1;
-} tuple_6d7417c9;
+} tuple_402069fb;
 

@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface CAARSchemaCAARTieBreaker : SISchemaInstrumentationMessage
 {
     NSString *_tieBreakerName;
-    NSArray *_actionCandidateBoosts;
-    _Bool _isTieBreakerSupported;
-    _Bool _wasTieBreakerForcedSkipped;
-    struct {
-        unsigned int isTieBreakerSupported:1;
-        unsigned int wasTieBreakerForcedSkipped:1;
-    } _has;
-    _Bool _hasTieBreakerName;
 }
 
 - (_Bool);
@@ -56,14 +48,7 @@
 - (void)hÜ­ÿ*~;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionCandidateBoosts; // @synthesize actionCandidateBoosts=_actionCandidateBoosts;
-@property(nonatomic) _Bool hasIsTieBreakerSupported;
-@property(nonatomic) _Bool hasTieBreakerName; // @synthesize hasTieBreakerName=_hasTieBreakerName;
-@property(nonatomic) _Bool hasWasTieBreakerForcedSkipped;
-@property(nonatomic) _Bool isTieBreakerSupported; // @synthesize isTieBreakerSupported=_isTieBreakerSupported;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *tieBreakerName; // @synthesize tieBreakerName=_tieBreakerName;
-@property(nonatomic) _Bool wasTieBreakerForcedSkipped; // @synthesize wasTieBreakerForcedSkipped=_wasTieBreakerForcedSkipped;
 
 @end
 

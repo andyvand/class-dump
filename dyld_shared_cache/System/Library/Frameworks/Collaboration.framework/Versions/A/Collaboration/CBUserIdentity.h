@@ -13,16 +13,14 @@
 + (id);
 - (unsigned int);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)_loadImageIsFramework:(id)arg1;
 - (struct __SecCertificate *);
 - (_Bool);
 - (void);
-- (id);
+- (id)observerWithResultBlock:(struct _NSZone *)arg1 completionBlock:failureBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __SecCertificate *certificate;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
 @property(readonly, nonatomic) unsigned int posixUID;
 
 @end

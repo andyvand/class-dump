@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class UIImage;
 
 @interface SFSafariViewControllerActivityButton
 {
     UIImage *_templateImage;
-    NSString *_extensionIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)safari_hasUserOrPassword;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -24,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _fieldsAreValid;
-@property(readonly, copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(readonly, copy, nonatomic) UIImage *templateImage; // @synthesize templateImage=_templateImage;
 
 @end
 

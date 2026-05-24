@@ -11,14 +11,14 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)isClientInitiated;
+- (_Bool)7;
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)LAAuthenticationMethodObserver;
 - (id);
 - (void);
 - (void)ª)ð1Â0@ù

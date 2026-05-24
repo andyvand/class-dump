@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPIdentifierSet, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MPModelObject
 {
     NSMutableDictionary *_storage;
-    _Bool _isFinalized;
-    MPIdentifierSet *_identifiers;
 }
 
 @end

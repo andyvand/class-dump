@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SASVTokenData : AceObject
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
@@ -23,20 +23,10 @@
 - (id);
 - (float);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSNumber *endTimeMillis;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float score;
-@property(copy, nonatomic) NSNumber *startTimeMillis;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

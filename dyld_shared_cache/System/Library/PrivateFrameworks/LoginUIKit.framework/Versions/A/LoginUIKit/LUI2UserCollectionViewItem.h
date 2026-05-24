@@ -9,7 +9,6 @@
 @interface LUI2UserCollectionViewItem
 {
     _Bool _usesVisualEffectBackgroundUserView;
-    LUI2UserView *_userView;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)pinLength;
 - (void);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain) LUI2UserView *userView; // @synthesize userView=_userView;
-@property _Bool usesVisualEffectBackgroundUserView; // @synthesize usesVisualEffectBackgroundUserView=_usesVisualEffectBackgroundUserView;
 
 @end
 

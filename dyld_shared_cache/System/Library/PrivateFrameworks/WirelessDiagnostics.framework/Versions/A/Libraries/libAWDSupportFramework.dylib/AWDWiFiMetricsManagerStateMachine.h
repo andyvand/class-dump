@@ -7,11 +7,6 @@
 @interface AWDWiFiMetricsManagerStateMachine
 {
     unsigned long long _stateDuration;
-    unsigned int _stateChanges;
-    struct {
-        unsigned int stateDuration:1;
-        unsigned int stateChanges:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -21,22 +16,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (id);
+- (void)u~;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long));
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasStateChanges;
-@property(nonatomic) _Bool hasStateDuration;
-@property(nonatomic) unsigned int stateChanges; // @synthesize stateChanges=_stateChanges;
-@property(nonatomic) unsigned long long stateDuration; // @synthesize stateDuration=_stateDuration;
 
 @end
 

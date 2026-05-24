@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, PKSelectedPaymentOfferPaymentPassDetails;
-
 @interface PKSelectedPaymentOffer
 {
     unsigned long long _type;
-    NSString *_selectedOfferIdentifier;
-    PKSelectedPaymentOfferPaymentPassDetails *_passDetails;
-    NSString *_criteriaIdentifier;
-    NSString *_sessionIdentifier;
-    NSDictionary *_serviceProviderData;
-    unsigned long long _storageType;
-    NSDate *_userSelectionDate;
-    NSDate *_createdDate;
 }
 
 + (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);
@@ -46,24 +36,16 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (void)_sample2Rssi;
+- (id){;
+- (unsigned long long)F;
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool)OnDevice: /* Error: Ran out of types for this method. */;
-- (void)lectorTile;
+- (_Bool)setValidCertificatesOnDevice: /* Error: Ran out of types for this method. */;
+- (void)paymentSelectorTile;
 - (id)@"PKPassField"16@?0@"NSDictionary"8;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(retain, nonatomic) PKSelectedPaymentOfferPaymentPassDetails *passDetails; // @synthesize passDetails=_passDetails;
-@property(copy, nonatomic) NSString *selectedOfferIdentifier; // @synthesize selectedOfferIdentifier=_selectedOfferIdentifier;
-@property(copy, nonatomic) NSDictionary *serviceProviderData; // @synthesize serviceProviderData=_serviceProviderData;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(nonatomic) unsigned long long storageType; // @synthesize storageType=_storageType;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSDate *userSelectionDate; // @synthesize userSelectionDate=_userSelectionDate;
 
 @end
 

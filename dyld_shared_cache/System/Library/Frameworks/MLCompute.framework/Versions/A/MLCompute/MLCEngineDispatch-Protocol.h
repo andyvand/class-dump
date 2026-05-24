@@ -5,5 +5,7 @@
 //
 
 @protocol MLCEngineDispatch
+- (void);
+- (void)K;
 @end
 

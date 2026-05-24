@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
++ (Class)4;
 + (id);
 + (void);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)validateClass: /* Error: Ran out of types for this method. */;
 
 @end
 

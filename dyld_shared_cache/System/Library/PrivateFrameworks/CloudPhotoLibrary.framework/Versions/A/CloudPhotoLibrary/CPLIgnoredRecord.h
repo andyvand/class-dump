@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLRecordChange, NSDate;
+@class CPLRecordChange;
 
 @interface CPLIgnoredRecord
 {
     CPLRecordChange *_record;
-    NSDate *_ignoredDate;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *ignoredDate; // @synthesize ignoredDate=_ignoredDate;
 @property(readonly, nonatomic) CPLRecordChange *record; // @synthesize record=_record;
 
 @end

@@ -6,27 +6,25 @@
 
 #import <EventKit/EKSerializableObject.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface EKSerializableAttachment : EKSerializableObject
 {
     NSURL *_urlOnDisk;
-    NSString *_contentTypeFromServer;
 }
 
-+ (id);
-- (id);
++ (id)MediaRemoteGetSavedAVRoutePassword(CFStringRef, __strong dispatch_queue_t, void (^__strong)(CFStringRef));
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void)¡#°!DAùQ2'°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentTypeFromServer; // @synthesize contentTypeFromServer=_contentTypeFromServer;
 @property(retain, nonatomic) NSURL *urlOnDisk; // @synthesize urlOnDisk=_urlOnDisk;
 
 @end

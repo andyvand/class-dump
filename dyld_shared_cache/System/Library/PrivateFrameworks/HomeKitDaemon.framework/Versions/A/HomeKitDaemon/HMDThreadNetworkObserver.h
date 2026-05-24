@@ -4,40 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventCountersManager, HMMDateProvider, NSDate, NSMutableDictionary, NSNotificationCenter, NSString;
-@protocol HMDCurrentResidentDeviceDataSource, HMMLogEventDispatching;
+@protocol HMMLogEventDispatching;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadNetworkObserver
 {
     _Bool _curReport_threadNetworkUp;
-    _Bool _started;
-    _Bool _dailyReportingRegistered;
-    id <HMMLogEventDispatching> _logEventDispatcher;
-    HMDEventCountersManager *_countersManager;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDCurrentResidentDeviceDataSource> _currentHomeDataSource;
-    HMMDateProvider *_dateProvider;
-    unsigned long long _curReport_numAdvertisedBRs;
-    unsigned long long _curReport_numAppleBRs;
-    unsigned long long _curReport_numThirdPartyBRs;
-    unsigned long long _curReport_numThreadNetworks;
-    unsigned long long _curReport_maxSimuIPPrefixes;
-    unsigned long long _curReport_txTotal;
-    unsigned long long _curReport_txSuccess;
-    unsigned long long _curReport_txDelayAvg;
-    unsigned long long _curReport_rxTotal;
-    unsigned long long _curReport_rxSuccess;
-    unsigned long long _curReport_reportDuration;
-    double _curReport_threadNetworkUpDuration;
-    double _curReport_threadNetworkDownDuration;
-    NSDate *_curReport_threadNetworkLastUpTime;
-    NSDate *_curReport_threadNetworkLastDownTime;
-    unsigned long long _curReport_readWritesCount;
-    unsigned long long _curReport_readErrorCount;
-    unsigned long long _curReport_writeErrorCount;
-    NSMutableDictionary *_curReport_topReadWriteErrors;
-    NSMutableDictionary *_curReport_topSessionErrors;
 }
 
 + (id)× ;
@@ -46,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,31 +32,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)initWithLocation:(id)arg1 isCurrentLocation:(id)arg2;
+- (id)initWithLibraryDirectoryURL:(id)arg1 groupLibraryURL:(id)arg2 invalidationHandler:(id)arg3;
+- (void)y of identifiers:(id)arg1 %@;
+- (void)bP;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (unsigned long long)w;
+- (unsigned long long)p;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)ʬ;
+- (id);
 - (double);
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double);
+- (unsigned long long);
+- (unsigned long long)qp;
+- (unsigned long long);
+- (unsigned long long)q;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)q;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -100,52 +72,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)ed a request to negotiate video stream;
 - (void)ause the lastUpdateTimestamp is within the update interval;
 - (void)3E9DFF99;
-- (_Bool)esidentNameKey;
-- (id)rnalRequestKey;
+- (_Bool)HMDResidentDeviceManagerBackupResidentNameKey;
+- (id)kUserResetHomeConfigInternalRequestKey;
 - (id)úþ ;
 - (void)q;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(nonatomic) unsigned long long curReport_maxSimuIPPrefixes; // @synthesize curReport_maxSimuIPPrefixes=_curReport_maxSimuIPPrefixes;
-@property(nonatomic) unsigned long long curReport_numAdvertisedBRs; // @synthesize curReport_numAdvertisedBRs=_curReport_numAdvertisedBRs;
-@property(nonatomic) unsigned long long curReport_numAppleBRs; // @synthesize curReport_numAppleBRs=_curReport_numAppleBRs;
-@property(nonatomic) unsigned long long curReport_numThirdPartyBRs; // @synthesize curReport_numThirdPartyBRs=_curReport_numThirdPartyBRs;
-@property(nonatomic) unsigned long long curReport_numThreadNetworks; // @synthesize curReport_numThreadNetworks=_curReport_numThreadNetworks;
-@property(nonatomic) unsigned long long curReport_readErrorCount; // @synthesize curReport_readErrorCount=_curReport_readErrorCount;
-@property(nonatomic) unsigned long long curReport_readWritesCount; // @synthesize curReport_readWritesCount=_curReport_readWritesCount;
-@property(nonatomic) unsigned long long curReport_reportDuration; // @synthesize curReport_reportDuration=_curReport_reportDuration;
-@property(nonatomic) unsigned long long curReport_rxSuccess; // @synthesize curReport_rxSuccess=_curReport_rxSuccess;
-@property(nonatomic) unsigned long long curReport_rxTotal; // @synthesize curReport_rxTotal=_curReport_rxTotal;
-@property(nonatomic) double curReport_threadNetworkDownDuration; // @synthesize curReport_threadNetworkDownDuration=_curReport_threadNetworkDownDuration;
-@property(retain, nonatomic) NSDate *curReport_threadNetworkLastDownTime; // @synthesize curReport_threadNetworkLastDownTime=_curReport_threadNetworkLastDownTime;
-@property(retain, nonatomic) NSDate *curReport_threadNetworkLastUpTime; // @synthesize curReport_threadNetworkLastUpTime=_curReport_threadNetworkLastUpTime;
-@property(nonatomic) _Bool curReport_threadNetworkUp; // @synthesize curReport_threadNetworkUp=_curReport_threadNetworkUp;
-@property(nonatomic) double curReport_threadNetworkUpDuration; // @synthesize curReport_threadNetworkUpDuration=_curReport_threadNetworkUpDuration;
-@property(readonly, nonatomic) NSMutableDictionary *curReport_topReadWriteErrors; // @synthesize curReport_topReadWriteErrors=_curReport_topReadWriteErrors;
-@property(readonly, nonatomic) NSMutableDictionary *curReport_topSessionErrors; // @synthesize curReport_topSessionErrors=_curReport_topSessionErrors;
-@property(nonatomic) unsigned long long curReport_txDelayAvg; // @synthesize curReport_txDelayAvg=_curReport_txDelayAvg;
-@property(nonatomic) unsigned long long curReport_txSuccess; // @synthesize curReport_txSuccess=_curReport_txSuccess;
-@property(nonatomic) unsigned long long curReport_txTotal; // @synthesize curReport_txTotal=_curReport_txTotal;
-@property(nonatomic) unsigned long long curReport_writeErrorCount; // @synthesize curReport_writeErrorCount=_curReport_writeErrorCount;
-@property(readonly, nonatomic) __weak id <HMDCurrentResidentDeviceDataSource> currentHomeDataSource; // @synthesize currentHomeDataSource=_currentHomeDataSource;
-@property(readonly, nonatomic) _Bool dailyReportingRegistered; // @synthesize dailyReportingRegistered=_dailyReportingRegistered;
-@property(readonly, nonatomic) __weak HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <HMMLogEventDispatching> logEventDispatcher; // @synthesize logEventDispatcher=_logEventDispatcher;
-@property(readonly, nonatomic) __weak NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

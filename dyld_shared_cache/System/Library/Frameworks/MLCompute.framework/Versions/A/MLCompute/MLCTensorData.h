@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -26,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) void *bytes;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned long long length;
 
 @end
 

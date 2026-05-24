@@ -6,42 +6,11 @@
 
 #import <NotesUI/ICCoreDataIndexer.h>
 
-@class ICTagCoreDataIndexer, NSFetchedResultsController, NSManagedObjectID, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSSet;
-@protocol ICItemIdentifier, OS_dispatch_queue;
+@class NSFetchedResultsController;
 
 @interface ICFolderCoreDataIndexer : ICCoreDataIndexer
 {
     _Bool _shouldIncludeLegacyAccounts;
-    _Bool _shouldIncludeTags;
-    _Bool _shouldIncludeTagOperator;
-    _Bool _shouldIncludeSmartFolders;
-    _Bool _shouldIncludeDefaultFolder;
-    _Bool _shouldIncludeTrash;
-    _Bool _shouldIncludeNewFolderButton;
-    _Bool _shouldIncludeSubfolders;
-    _Bool _shouldAutoExpandSingleSection;
-    NSManagedObjectID *_ancestorObjectID;
-    NSManagedObjectID *_accountObjectID;
-    long long _shouldIncludeSystemPaper;
-    long long _shouldIncludeMathNotes;
-    long long _shouldIncludeCallNotes;
-    long long _shouldIncludeSharedWithYou;
-    long long _shouldIncludeAccount;
-    id <ICItemIdentifier> _overrideContainerIdentifier;
-    NSFetchedResultsController *_legacyFetchedResultsController;
-    NSFetchedResultsController *_modernFetchedResultsController;
-    NSObject<OS_dispatch_queue> *_indexAccessQueue;
-    NSMutableDictionary *_folderListSectionIdentifiersToButtonIdentifiers;
-    NSMutableDictionary *_folderListSectionIdentifiersToVirtualSmartFolderIdentifiers;
-    NSMutableDictionary *_folderListSectionIdentifiersToFolderItemIdentifiers;
-    NSMutableDictionary *_folderItemIdentifiersToParentFolderItemIdentifier;
-    NSMutableDictionary *_folderItemIdentifiersToChildFolderItemIdentifiers;
-    NSMutableOrderedSet *_folderListSectionIdentifiers;
-    NSMutableSet *_legacyAccountManagedObjectIDs;
-    NSMutableSet *_modernAccountManagedObjectIDs;
-    NSMutableSet *_smartFolderManagedObjectIDs;
-    NSMutableSet *_virtualSmartFolderIdentifiers;
-    ICTagCoreDataIndexer *_tagIndexer;
 }
 
 - (void);
@@ -59,12 +28,18 @@
 - (_Bool);
 - (long long);
 - (_Bool);
+- (long long)B;
+- (_Bool);
+- (_Bool);
+- (long long)A;
 - (long long);
 - (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)]2;
 - (void);
 - (void);
 - (void);
@@ -74,19 +49,13 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,23 +65,23 @@
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -139,48 +108,10 @@
 - (void);
 - (void);
 - (id);
-- (void)deSystemPaper;
+- (void)_insideSystemPaper;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
-@property(readonly, nonatomic) NSSet *allSmartFolderObjectIDs;
-@property(readonly, nonatomic) NSSet *allVirtualSmartFolderIdentifiers;
-@property(retain, nonatomic) NSManagedObjectID *ancestorObjectID; // @synthesize ancestorObjectID=_ancestorObjectID;
-@property(readonly, nonatomic) unsigned long long countOfLegacyAccounts;
-@property(readonly, nonatomic) unsigned long long countOfModernAccounts;
-@property(retain, nonatomic) NSMutableDictionary *folderItemIdentifiersToChildFolderItemIdentifiers; // @synthesize folderItemIdentifiersToChildFolderItemIdentifiers=_folderItemIdentifiersToChildFolderItemIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *folderItemIdentifiersToParentFolderItemIdentifier; // @synthesize folderItemIdentifiersToParentFolderItemIdentifier=_folderItemIdentifiersToParentFolderItemIdentifier;
-@property(retain, nonatomic) NSMutableOrderedSet *folderListSectionIdentifiers; // @synthesize folderListSectionIdentifiers=_folderListSectionIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *folderListSectionIdentifiersToButtonIdentifiers; // @synthesize folderListSectionIdentifiersToButtonIdentifiers=_folderListSectionIdentifiersToButtonIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *folderListSectionIdentifiersToFolderItemIdentifiers; // @synthesize folderListSectionIdentifiersToFolderItemIdentifiers=_folderListSectionIdentifiersToFolderItemIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *folderListSectionIdentifiersToVirtualSmartFolderIdentifiers; // @synthesize folderListSectionIdentifiersToVirtualSmartFolderIdentifiers=_folderListSectionIdentifiersToVirtualSmartFolderIdentifiers;
-@property(readonly, nonatomic) _Bool hideUnmigratedLocalLegacyAccounts;
-@property(readonly, nonatomic) _Bool includeMigratedICloudLegacyAccounts;
-@property(readonly, nonatomic) _Bool includeMigratedLocalLegacyAccounts;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *indexAccessQueue; // @synthesize indexAccessQueue=_indexAccessQueue;
-@property(retain, nonatomic) NSMutableSet *legacyAccountManagedObjectIDs; // @synthesize legacyAccountManagedObjectIDs=_legacyAccountManagedObjectIDs;
 @property(retain, nonatomic) NSFetchedResultsController *legacyFetchedResultsController; // @synthesize legacyFetchedResultsController=_legacyFetchedResultsController;
-@property(retain, nonatomic) NSMutableSet *modernAccountManagedObjectIDs; // @synthesize modernAccountManagedObjectIDs=_modernAccountManagedObjectIDs;
-@property(retain, nonatomic) NSFetchedResultsController *modernFetchedResultsController; // @synthesize modernFetchedResultsController=_modernFetchedResultsController;
-@property(retain, nonatomic) id <ICItemIdentifier> overrideContainerIdentifier; // @synthesize overrideContainerIdentifier=_overrideContainerIdentifier;
-@property(nonatomic) _Bool shouldAutoExpandSingleSection; // @synthesize shouldAutoExpandSingleSection=_shouldAutoExpandSingleSection;
-@property(nonatomic) long long shouldIncludeAccount; // @synthesize shouldIncludeAccount=_shouldIncludeAccount;
-@property(nonatomic) long long shouldIncludeCallNotes; // @synthesize shouldIncludeCallNotes=_shouldIncludeCallNotes;
-@property(nonatomic) _Bool shouldIncludeDefaultFolder; // @synthesize shouldIncludeDefaultFolder=_shouldIncludeDefaultFolder;
-@property(nonatomic) _Bool shouldIncludeLegacyAccounts; // @synthesize shouldIncludeLegacyAccounts=_shouldIncludeLegacyAccounts;
-@property(nonatomic) long long shouldIncludeMathNotes; // @synthesize shouldIncludeMathNotes=_shouldIncludeMathNotes;
-@property(nonatomic) _Bool shouldIncludeNewFolderButton; // @synthesize shouldIncludeNewFolderButton=_shouldIncludeNewFolderButton;
-@property(nonatomic) long long shouldIncludeSharedWithYou; // @synthesize shouldIncludeSharedWithYou=_shouldIncludeSharedWithYou;
-@property(nonatomic) _Bool shouldIncludeSmartFolders; // @synthesize shouldIncludeSmartFolders=_shouldIncludeSmartFolders;
-@property(nonatomic) _Bool shouldIncludeSubfolders; // @synthesize shouldIncludeSubfolders=_shouldIncludeSubfolders;
-@property(nonatomic) long long shouldIncludeSystemPaper; // @synthesize shouldIncludeSystemPaper=_shouldIncludeSystemPaper;
-@property(nonatomic) _Bool shouldIncludeTagOperator; // @synthesize shouldIncludeTagOperator=_shouldIncludeTagOperator;
-@property(nonatomic) _Bool shouldIncludeTags; // @synthesize shouldIncludeTags=_shouldIncludeTags;
-@property(nonatomic) _Bool shouldIncludeTrash; // @synthesize shouldIncludeTrash=_shouldIncludeTrash;
-@property(retain, nonatomic) NSMutableSet *smartFolderManagedObjectIDs; // @synthesize smartFolderManagedObjectIDs=_smartFolderManagedObjectIDs;
-@property(retain, nonatomic) ICTagCoreDataIndexer *tagIndexer; // @synthesize tagIndexer=_tagIndexer;
-@property(readonly, nonatomic) unsigned long long totalFolderCount;
-@property(retain, nonatomic) NSMutableSet *virtualSmartFolderIdentifiers; // @synthesize virtualSmartFolderIdentifiers=_virtualSmartFolderIdentifiers;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface PromotedContentUI.PromotedContentMetricCollector
 {
     id pageStorage;
-    id adTrackingInstanceStorage;
-    id storeKitRecorder;
 }
 
 @end

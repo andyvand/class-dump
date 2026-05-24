@@ -6,33 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableDictionary, NSString, UIColor, _UIFloatingShadowView;
+@class NSMutableDictionary, _UIFloatingShadowView;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerTVBackgroundView : UIView
 {
     NSMutableDictionary *_alphas;
-    _Bool _shouldUseTintColorAsBackgroundColor;
-    _Bool _isHighlighted;
-    _Bool _isPressed;
-    _Bool _shouldShowShadow;
-    _UIFloatingShadowView *_shadowView;
-    UIView *_backgroundView;
 }
 
-+ (_Bool);
++ (_Bool)participants:%@ /* Error: Ran out of types for this method. */;
 + (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)storageTimerFiredNotificationObserver;
+- (_Bool)startTrackingMessageGUID:chat: /* Error: Ran out of types for this method. */;
+- (void)replicationSourceServiceNameWithBlastDoorMessage:(_Bool)arg1;
+- (void)replicationRequiredForFeaturesUsedByMessageItem:(_Bool)arg1;
+- (void)Context:(unsigned long long)arg1 progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithUnprefixedURI:(_Bool)arg1;
+- (void)conversationManager:(double)arg1 localVideoToggledForConversation:(unsigned long long)arg2;
 - (double);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (void);
@@ -41,8 +35,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGSize)Ð!¤Eùcð1Â0@ù
 × ;
-- (void)tContainerForPosition:(_Bool)arg1;
-- (id)eTouchesQueue;
+- (void)textContainerForPosition:(_Bool)arg1;
+- (id)_activeTouchesQueue;
 - (void);
 - (id)EmojiCategory",W;
 - (void)evice.;
@@ -55,23 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *fillColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
-@property(nonatomic) _Bool isPressed; // @synthesize isPressed=_isPressed;
 @property(retain, nonatomic) _UIFloatingShadowView *shadowView; // @synthesize shadowView=_shadowView;
-@property(nonatomic) _Bool shouldShowShadow; // @synthesize shouldShowShadow=_shouldShowShadow;
-@property(nonatomic) _Bool shouldUseTintColorAsBackgroundColor; // @synthesize shouldUseTintColorAsBackgroundColor=_shouldUseTintColorAsBackgroundColor;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol WFWidgetConfigurationServiceVendorProtocol
+- (void);
 @end
 

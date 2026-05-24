@@ -4,10 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSManagedObject;
+
 @protocol HMDCoreDataCloudTransformable
++ (NSManagedObject *)setHasIconType:(NSManagedObject *)arg1;
++ (NSManagedObject *)r %@;
++ (_Bool);
++ (_Bool);
 + (_Bool)¡â°!GùÑ°1Â0@ù
 × ;
 + (_Bool)Q32^@40@48;
 + (_Bool)\ÎÏ;
+- (NSManagedObject *)_enqueuedCoalescingCompletionBlocks;
+- (NSManagedObject *)ng state...;
 @end
 

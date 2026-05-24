@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface VNRemoveBackgroundRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _performInPlace;
-    _Bool _cropResult;
-    _Bool _returnMask;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)XÚÚ;
 
 // Remaining properties
-@property(nonatomic) _Bool cropResult; // @synthesize cropResult=_cropResult;
 @property(nonatomic) _Bool performInPlace; // @synthesize performInPlace=_performInPlace;
-@property(nonatomic) _Bool returnMask; // @synthesize returnMask=_returnMask;
 
 @end
 

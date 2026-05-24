@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyValueFloatPair
 {
     NSString *_key;
-    float _value;
-    CDStruct_38ef1b98 _flags;
 }
 
 - (id);
-- (void);
+- (void)ath '%@' (%@);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)kenGuidance"b1"wrote_anyField"b1};
-- (id)rredAuditToken;
+- (id)_preferredAuditToken;
 - (id)¤<t=x>?X@´A;
 - (void)"7ÃøH@;
 

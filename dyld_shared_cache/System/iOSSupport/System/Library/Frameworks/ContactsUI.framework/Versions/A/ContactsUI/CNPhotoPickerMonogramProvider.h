@@ -10,30 +10,21 @@ __attribute__((visibility("hidden")))
 @interface CNPhotoPickerMonogramProvider
 {
     NSString *_identifier;
-    CNVisualIdentity *_visualIdentity;
 }
 
++ (id)!;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)qa;
 + (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)CardPropertyViewConfiguration;
+- (id)@9;
+- (void)__objc_data;
+- (id)B;
+- (void)_lazyUpdateContactCardPropertyViewConfiguration;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end

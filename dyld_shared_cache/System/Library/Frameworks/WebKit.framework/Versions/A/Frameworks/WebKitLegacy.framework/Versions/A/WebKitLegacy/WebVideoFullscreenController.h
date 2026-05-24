@@ -4,61 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow, WebCoreFullScreenWindow, WebWindowFadeAnimation;
+@class WebCoreFullScreenWindow;
 
 __attribute__((visibility("hidden")))
 @interface WebVideoFullscreenController
 {
     struct RefPtr<WebCore::HTMLVideoElement, WTF::RawPtrTraits<WebCore::HTMLVideoElement>, WTF::DefaultRefDerefTraits<WebCore::HTMLVideoElement>> _videoElement;
-    NSWindow *_backgroundFullscreenWindow;
-    WebWindowFadeAnimation *_fadeAnimation;
-    _Bool _isEndingFullscreen;
-    _Bool _forceDisableAnimation;
-    struct RefPtr<WebCore::PlaybackSessionModelMediaElement, WTF::RawPtrTraits<WebCore::PlaybackSessionModelMediaElement>, WTF::DefaultRefDerefTraits<WebCore::PlaybackSessionModelMediaElement>> _playbackModel;
-    struct RefPtr<WebCore::PlaybackSessionInterfaceIOS, WTF::RawPtrTraits<WebCore::PlaybackSessionInterfaceIOS>, WTF::DefaultRefDerefTraits<WebCore::PlaybackSessionInterfaceIOS>> _playbackInterface;
-    struct RetainPtr<NSView> _contentOverlay;
-    struct RetainPtr<WebAVPlayerView> _playerView;
-    _Bool _isFullScreen;
 }
 
 - (struct CGRect);
 - (NakedPtr_311734dd);
-- (void);
-- (void);
+- (void)'db~
+;
+- (void)q;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)ing data for %{public}@ cacheTypeId:%{public}@, networkPolicy:%ld. /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (void)__objc_data;
 - (void)1'ð1Â0@ù
 × ;
 - (void)× ;
 - (void)°1Â0@ù
 × ;
-- (void)ormDelegate;
+- (void)_formDelegate;
 - (void)ouldValidateKey:(id)arg1:Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) WebCoreFullScreenWindow *fullscreenWindow;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

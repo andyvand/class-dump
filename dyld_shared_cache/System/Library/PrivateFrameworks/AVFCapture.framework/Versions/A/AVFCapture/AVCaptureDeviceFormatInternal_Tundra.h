@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceFormatInternal_Tundra
 {
     struct opaqueCMFormatDescription *formatDescription;
-    NSArray *videoSupportedFrameRateRanges;
-    double maxVideoZoomFactor;
-    long long autoFocusSystem;
-    _Bool centerStageSupported;
-    _Bool backgroundBlurSupported;
-    _Bool backgroundBlurApertureSupported;
-    _Bool studioLightingSupported;
-    _Bool studioLightingIntensitySupported;
-    _Bool reactionEffectsSupported;
-    _Bool backgroundReplacementSupported;
-    _Bool ringLightSupported;
 }
 
 @end

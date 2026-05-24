@@ -5,5 +5,9 @@
 //
 
 @protocol _WKDiagnosticLoggingDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

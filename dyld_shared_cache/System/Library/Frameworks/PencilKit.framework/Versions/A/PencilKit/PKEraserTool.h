@@ -23,13 +23,11 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (double);
+- (double)ultSection",C,N,V_section;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double _weight;
-@property(readonly, nonatomic) long long eraserType;
-@property(readonly, nonatomic) double width;
 
 @end
 

@@ -10,17 +10,20 @@
 
 + (unsigned long long);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
-+ (unsigned long long);
-+ (_Bool);
++ (unsigned long long)%{public}s. Ignoring.;
++ (_Bool)lt 0,
+  album                blob,
+  object               blob
+);;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)|;
 + (id);
 + (id);
 + (id);
@@ -33,7 +36,7 @@
 + (id);
 + (id);
 + (id);
-+ (CDStruct_8b1c126c);
++ (CDStruct_8b1c126c)appleVideo_VideoAttribute_PhotoAttributesBounce;
 + (id);
 + (id);
 + (id);
@@ -46,7 +49,7 @@
 + (id);
 + (id);
 + (int);
-+ (id);
++ (id)V;
 + (id);
 + (id);
 + (int);
@@ -56,11 +59,11 @@
 + (id);
 + (id);
 + (double);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (_Bool)initWithArray:(id)arg1 copyItems: /* Error: Ran out of types for this method. */;
++ (id)tRef);
++ (id)demoHIDupdateMotionData;
++ (_Bool)rtaeAudioIOAssertionDurationSecs;
++ (id)bufferedAudioEngine_flushWithinSampleRangeInternal;
 + (id);
 + (id);
 + (id);

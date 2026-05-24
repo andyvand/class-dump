@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPEvent, WKWebView;
+@class WKWebView;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherConfiguration
 {
     _Bool _loadingIsNonAppInitiated;
-    _Bool _fetchIsNotUserInitiated;
-    WKWebView *_webViewForProcessSharing;
-    long long _maximumResponseCount;
-    LPEvent *_rootEvent;
 }
 
-- (id);
+- (id)testPerformSearchDelegate;
+- (void)tailAttachmentPointWithOutputForMinimumContinousAnchorX:(id)arg1 maximumContinuousAnchorX: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 previewForDismissingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)tableView:(long long)arg1 canPerformAction:forRowAtIndexPath:withSender: /* Error: Ran out of types for this method. */;
+- (void)tableCellDefaultSelectionTintColor;
+- (void)systemDefaultScrollAnimation;
+- (id)swipeDismissBrowser;
+- (long long)supplementaryViewForIndexPath:inCollectionView:withKind: /* Error: Ran out of types for this method. */;
+- (_Bool)superFormatText:transferGUIDs:mediaObjects: /* Error: Ran out of types for this method. */;
+- (_Bool)stickerReactionHorizontalOverlapPercentage;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)_homeSupportedFeatures;
 - (id);
 - (void)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool fetchIsNotUserInitiated; // @synthesize fetchIsNotUserInitiated=_fetchIsNotUserInitiated;
-@property(nonatomic) _Bool loadingIsNonAppInitiated; // @synthesize loadingIsNonAppInitiated=_loadingIsNonAppInitiated;
-@property(nonatomic) long long maximumResponseCount; // @synthesize maximumResponseCount=_maximumResponseCount;
-@property(retain, nonatomic) LPEvent *rootEvent; // @synthesize rootEvent=_rootEvent;
 @property(retain, nonatomic) WKWebView *webViewForProcessSharing; // @synthesize webViewForProcessSharing=_webViewForProcessSharing;
 
 @end

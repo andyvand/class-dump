@@ -4,19 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
+@class FCArticleAudioTrack, FCColor, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
 
 @protocol FCHeadlineProviding
+- (double)";
+- (NSString *);
+- (NSDate *)o;
+- (NSURL *)!;
+- (_Bool)is;
+- (_Bool)assetClient:didUpdateImageSize:orientation:updateNumber: /* Error: Ran out of types for this method. */;
+- (NSArray *)0.823857, -0.23538, - 1.5104); 
+														w5 = w + lowval; 
+															
+															return (w1 
+																	+ (w2 - w1) * step(v1, vec3 (w)) 
+																	+ (w3 - w2) * step(v2, vec3 (w)) 
+																	+ (w4 - w3) * step(v3, vec3 (w)) 
+																	+ (w5 - w4) * step(v4, vec3 (w))); 
+} 
+
+kernel vec4 recalibrate (sampler src, float t)  __attribute__ ((preserves_opacity))    
+{ 
+    vec4 s, u;  
+		float lum; 
+			
+			s = sample (src, samplerCoord (src)); 
+				u.rgb =  sqrt(max(s.rgb, vec3(0.0))); 
+					lum = dot (vec3 (0.2988,.5869,.114), u.rgb);  
+						
+						u.rgb = rampSepiaRGB (lum); 
+							u.rgb = u.rgb * u.rgb; 
+								u.a = s.a; 
+									
+									return mix (s, clamp (u, 0.0, 1.0), t); 
+} 
+;
+- (_Bool)ncSource mapsSync:didChangeForContentType:]_block_invoke /* Error: Ran out of types for this method. */;
+- (NSArray *)isSecureTokenAuth;
+- (NSDate *)",&,V_transferredUsers;
+- (long long)ng:%@ out of Failed:%@ /* Error: Ran out of types for this method. */;
+- (double)ompatible app folder data file.;
+- (NSArray *);
 - (_Bool)0@ù
 × ;
 - (NSArray *)1Â0@ù
 × ;
 - (NSString *)@0:8 /* Error: Ran out of types for this method. */;
-- (NSString *)ne: /* Error: Ran out of types for this method. */;
-- (NSArray *)tiFetchBaseURLString;
-- (NSString *)cleID;
-- (NSURL *)d;
+- (NSString *)setMinimumSecondsSinceSuccessToOffline: /* Error: Ran out of types for this method. */;
+- (NSArray *)ckMultiFetchBaseURLString;
+- (NSString *)_nonSubscriberUpsellArticleID;
+- (NSURL *)_convergenceThreshold;
 - (FCHeadlineThumbnail *)sArticleEmbeddingConfiguration",&,N,V_titleEmbeddingConfiguration;
 - (unsigned long long),N,V_videoTitle;
 - (NSArray *)ingConfig",R,N,V_todayWidgetScoringConfig;
@@ -32,252 +69,25 @@
 - (FCHeadlineThumbnail *)[ÿÿ0[ÿÿLXÿÿ%ÿÿ;
 - (NSString *)÷iySS_GSg;
 - (long long)´;
-- (FCHeadlineThumbnail *);
 - (_Bool);
 
 @optional
-- (FCIssue *)ogyLevelConfig;
-- (NSString *);
-- (unsigned long long)ng;
+- (FCHeadlineThumbnail *);
+- (NSData *)E;
+- (double)Feedback"16@"NSString"24@?<v@?B@"NSError">32;
+- (NSData *)alized>;
+- (_Bool);
+- (NSString *)et video preroll rate:%@ - %f /* Error: Ran out of types for this method. */;
+- (FCArticleAudioTrack *)ine database.;
+- (FCIssue *)_mySportsGroupForYouOntologyLevelConfig;
+- (_Bool)_learnMoreURL;
+- (unsigned long long)_darkStyleBackgroundColorHexString;
 - (FCColor *)s/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeedTransformationPersonalize.m;
-- (NSArray *)ngConfig;
+- (NSArray *)curatedScoringConfig;
 - (FCColor *)dings:%@ /* Error: Ran out of types for this method. */;
 - (FCColor *)on;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryText;
-@property(readonly, nonatomic, getter=isAIGenerated) _Bool aiGenerated;
-@property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;
-@property(readonly, copy, nonatomic) id <FCHeadlineMetadata> appliedOverrideMetadata;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCHeadlineMetadata>",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) FCAssetHandle *articleRecirculationConfigAssetHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCAssetHandle",?,R,N
-
-@property(readonly, nonatomic) id <FCNativeAdProviding> associatedAd;
-@property(readonly, copy, nonatomic) NSArray *authors;
-@property(readonly, nonatomic) long long backendArticleVersion;
-@property(readonly, nonatomic) NSData *backingArticleRecordData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *blockedStorefrontIDs;
-@property(readonly, nonatomic, getter=isBoundToContext) _Bool boundToContext;
-@property(readonly, nonatomic, getter=isBundlePaid) _Bool bundlePaid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisBundlePaid
-
-@property(readonly, copy, nonatomic) NSString *callToActionText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, nonatomic) unsigned long long contentType;
-@property(readonly, copy, nonatomic) NSURL *contentURL;
-@property(readonly, nonatomic) FCCoverArt *coverArt;
-@property(readonly, nonatomic) unsigned long long dataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic, getter=isDeleted) _Bool deleted;
-@property(readonly, nonatomic) _Bool disableBookmarking;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool disablePrerollAds;
-@property(readonly, nonatomic) _Bool disableTapToChannel;
-@property(readonly, nonatomic) NSString *dismissingIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic, getter=isDisplayingAsNativeAd) _Bool displayAsNativeAd;
-@property(readonly, copy, nonatomic) NSDate *displayDate;
-@property(readonly, copy, nonatomic) NSString *excerpt;
-@property(readonly, copy, nonatomic) FCHeadlineExperimentalTitleMetadata *experimentalTitleMetadata;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCHeadlineExperimentalTitleMetadata",?,R,C,N
-
-@property(readonly, nonatomic, getter=isFeatureCandidate) _Bool featureCandidate;
-@property(readonly, nonatomic) unsigned long long feedOrder;
-@property(readonly, nonatomic) NSDate *globalExpirationTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,N
-
-@property(readonly, nonatomic) double globalUserFeedback;
-@property(readonly, nonatomic) _Bool hasThumbnail;
-@property(readonly, nonatomic, getter=isHiddenFromAutoFavorites) _Bool hiddenFromAutoFavorites;
-@property(readonly, nonatomic, getter=isHiddenFromFeeds) _Bool hiddenFromFeeds;
-@property(readonly, nonatomic) _Bool hideModalCloseButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *iAdCategories;
-@property(readonly, copy, nonatomic) NSArray *iAdKeywords;
-@property(readonly, copy, nonatomic) NSArray *iAdSectionIDs;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isBlockedExplicitContent;
-@property(readonly, nonatomic) _Bool isDraft;
-@property(readonly, nonatomic) _Bool isFullTrackAvailableToAll;
-@property(readonly, nonatomic) _Bool isLocalDraft;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isTopStory;
-@property(readonly, nonatomic, getter=isIssueOnly) _Bool issueOnly;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisIssueOnly
-
-@property(readonly, copy, nonatomic) NSString *language;
-@property(readonly, copy, nonatomic) NSDate *lastFetchedDate;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate;
-@property(readonly, nonatomic) double layeredThumbnailAspectRatio;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *layeredThumbnailJSON;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *linkedArticleIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *linkedIssueIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) _Bool liveCoverageCompleted;
-@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
-@property(readonly, copy, nonatomic) NSString *localDraftPath;
-@property(readonly, nonatomic) long long minimumNewsVersion;
-@property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
-@property(readonly, nonatomic) FCArticleAudioTrack *narrativeTrack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCArticleAudioTrack",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *narrativeTrackBuddyArticleIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) NSString *narrativeTrackPreferredUpsellVariantID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) FCArticleAudioTrack *narrativeTrackSample;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCArticleAudioTrack",?,R,N
-
-@property(readonly, nonatomic) NSString *narrativeTrackTextRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *narrators;
-@property(readonly, copy, nonatomic) NSString *nativeAdCampaignData;
-@property(readonly, nonatomic) _Bool needsRapidUpdates;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid;
-@property(readonly, copy, nonatomic) FCIssue *parentIssue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCIssue",?,R,C,N
-
-@property(readonly, nonatomic, getter=isPressRelease) _Bool pressRelease;
-@property(readonly, copy, nonatomic) NSString *primaryAudience;
-@property(readonly, copy, nonatomic) NSDate *publishDate;
-@property(readonly, nonatomic) NSArray *publisherSpecifiedArticleIDs;
-@property(readonly, copy, nonatomic) NSArray *recipeIDs;
-@property(readonly, nonatomic) _Bool reduceVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool reduceVisibilityForNonFollowers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSString *referencedArticleID;
-@property(readonly, copy, nonatomic) NSArray *relatedArticleIDs;
-@property(readonly, nonatomic) unsigned long long role;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) NSURL *routeURL;
-@property(readonly, copy, nonatomic) NSString *shortExcerpt;
-@property(readonly, nonatomic) _Bool showBundleSoftPaywall;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool showPublisherLogo;
-@property(readonly, nonatomic) _Bool showSubscriptionRequiredText;
-@property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
-@property(readonly, copy, nonatomic) NSString *sourceName;
-@property(readonly, copy, nonatomic) NSString *sponsoredBy;
-@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
-@property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
-@property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCHeadlineStocksFields>",?,R,N
-
-@property(readonly, nonatomic) FCTopStoriesStyleConfiguration *storyStyle;
-@property(readonly, nonatomic) int storyType;
-@property(readonly, copy, nonatomic) NSString *surfacedByBinID;
-@property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
-@property(readonly, nonatomic) long long surfacedByFlags;
-@property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
-@property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
-@property(readonly, nonatomic) NSArray *tagsExpiration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnail;
-@property(readonly, nonatomic) struct CGRect thumbnailFocalFrame;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailHQ;
-@property(readonly, nonatomic) FCColor *thumbnailImageAccentColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCColor *thumbnailImageBackgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCColor *thumbnailImagePrimaryColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCColor *thumbnailImageTextColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailLQ;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailMedium;
-@property(readonly, nonatomic) NSData *thumbnailPerceptualHash;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailUltraHQ;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailWidget;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailWidgetHQ;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailWidgetLQ;
-@property(readonly, nonatomic) double tileProminenceScore;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSString *titleCompact;
-@property(readonly, nonatomic) unsigned long long topStoryType;
-@property(readonly, copy, nonatomic) NSArray *topicIDs;
-@property(readonly, copy, nonatomic) NSArray *topics;
-@property(readonly, nonatomic) _Bool usesImageOnTopLayout;
-@property(readonly, copy, nonatomic) NSString *videoCallToActionTitle;
-@property(readonly, copy, nonatomic) NSURL *videoCallToActionURL;
-@property(readonly, nonatomic) double videoDuration;
-@property(readonly, nonatomic) FCAssetHandle *videoStillImage;
-@property(readonly, copy, nonatomic) NSString *videoType;
-@property(readonly, nonatomic) NSURL *videoURL;
-@property(readonly, nonatomic) _Bool webConverted;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool webEmbedsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

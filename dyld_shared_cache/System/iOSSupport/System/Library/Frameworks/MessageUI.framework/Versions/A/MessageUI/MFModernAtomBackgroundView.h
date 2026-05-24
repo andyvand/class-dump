@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFModernAtomView, UIView;
+@class UIView;
 
 @interface MFModernAtomBackgroundView
 {
     UIView *_selectedView;
-    unsigned long long _selectionStyle;
-    UIView *_separatorView;
-    long long _separatorStyle;
-    _Bool _selected;
-    double _scalingFactor;
-    MFModernAtomView *_hostAtomView;
 }
 
 - (void);
@@ -27,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -38,11 +32,7 @@
 - (long long)¨;
 
 // Remaining properties
-@property(nonatomic) __weak MFModernAtomView *hostAtomView; // @synthesize hostAtomView=_hostAtomView;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
 @property(readonly, nonatomic) UIView *selectedView; // @synthesize selectedView=_selectedView;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end
 

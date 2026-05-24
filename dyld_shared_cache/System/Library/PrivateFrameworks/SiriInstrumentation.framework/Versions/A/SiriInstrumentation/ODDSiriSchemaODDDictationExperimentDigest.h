@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDDictationExperimentCounts, ODDSiriSchemaODDDictationExperimentDimensions, ODDSiriSchemaODDDictationExperimentTuples;
+@class ODDSiriSchemaODDDictationExperimentDimensions;
 
 @interface ODDSiriSchemaODDDictationExperimentDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDDictationExperimentDimensions *_dimensions;
-    ODDSiriSchemaODDDictationExperimentCounts *_counts;
-    ODDSiriSchemaODDDictationExperimentTuples *_tuples;
-    NSArray *_turnIds;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
-    _Bool _hasTuples;
 }
 
 - (unsigned long long);
@@ -25,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
+- (_Bool)*I;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,11 +34,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)dataWithBytesNoCopy:(id)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -54,14 +48,7 @@
 - (void)ientEvent.dictationAlternativesSelected;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDDictationExperimentCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDDictationExperimentDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(nonatomic) _Bool hasTuples; // @synthesize hasTuples=_hasTuples;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDDictationExperimentTuples *tuples; // @synthesize tuples=_tuples;
-@property(copy, nonatomic) NSArray *turnIds; // @synthesize turnIds=_turnIds;
 
 @end
 

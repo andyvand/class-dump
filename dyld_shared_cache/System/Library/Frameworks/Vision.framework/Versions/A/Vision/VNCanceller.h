@@ -7,8 +7,6 @@
 @interface VNCanceller
 {
     CDUnknownBlockType _signallingBlock;
-    struct os_unfair_lock_s _lock;
-    _Bool _signalled;
 }
 
 - (_Bool);
@@ -17,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void)core;
+- (void)harmoniousColorScore;
 
 @end
 

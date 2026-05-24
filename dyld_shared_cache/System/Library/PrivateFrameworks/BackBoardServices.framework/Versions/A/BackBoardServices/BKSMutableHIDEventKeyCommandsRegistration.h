@@ -6,13 +6,13 @@
 
 #import <BackBoardServices/BKSHIDEventKeyCommandsRegistration.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, NSSet;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSMutableHIDEventKeyCommandsRegistration : BKSHIDEventKeyCommandsRegistration
 {
 }
 
-+ (id);
++ (id)DISTRUSTED_RECOVERY_KEY_REPAIR_TITLE;
 - (void);
 - (void);
 - (void);
@@ -21,8 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) BKSHIDEventDeferringEnvironment *deferringEnvironment; // @dynamic deferringEnvironment;
-@property(copy, nonatomic) BKSHIDEventDeferringToken *deferringToken; // @dynamic deferringToken;
-@property(copy, nonatomic) NSSet *keyCommands; // @dynamic keyCommands;
 
 @end
 

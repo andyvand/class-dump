@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager;
+
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void);
+- (void)activateWithCompletionHandler:(HMHomeManager *)arg1;
+- (void);
 @end
 

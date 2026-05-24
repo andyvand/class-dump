@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol BWFaceDetector;
 
 @interface BWDetectedFacesRingBuffer
 {
     NSMutableArray *_ringBuffer;
-    struct OpaqueFigSimpleMutex *_mutex;
-    int _depth;
-    int _numConsecutiveFramesWithFaces;
-    CDStruct_1b6d18a9 _lastUpdatePTS;
-    CDStruct_1b6d18a9 _lastStableFacePTS;
 }
 
 - (void);
 - (id);
-- (float);
+- (float)ata"16@?0@"NSData"8;
 - (void);
 - (void);
-- (void)onTimeThreshold;
-- (id)y;
+- (void)sifrMainEffectiveIntegrationTimeThreshold;
+- (id)StillImageProcessingHomography;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <BWFaceDetector> faceDetector;
-@property(readonly) unsigned long long hash;
-@property(readonly) float secondsSinceLastFaceDetected;
-@property(readonly) Class superclass;
 
 @end
 

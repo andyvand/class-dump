@@ -6,12 +6,11 @@
 
 #import <OnBoardingKit/OBPrivacyLinkController.h>
 
-@class NSTextField, OBPrivacyLinkButton;
+@class OBPrivacyLinkButton;
 
 @interface OBPrivacyLinkController_macOS : OBPrivacyLinkController
 {
     OBPrivacyLinkButton *_button;
-    NSTextField *_caption;
 }
 
 - (void);
@@ -23,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@i;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface WBSCRDTGeneration
 {
     NSString *_deviceIdentifier;
-    unsigned long long _generation;
 }
 
 + (_Bool);
@@ -21,17 +20,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long);
 - (id);
 - (void)ÿÿ';
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic) _Bool isValid;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSSet, NSString;
+
 @protocol PGGraphRelatableEvent
++ (NSString *)Delegate>";
++ (NSString *)16@24Q32;
+- (double);
+- (NSDictionary *);
+- (NSSet *)_windowDeminiaturizedNotification:(unsigned short)arg1;
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.FeedModalAdService
 {
     id adManager;
-    id adRequestManager;
-    id adRequestStore;
-    id contextBuilder;
-    id tracker;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol _UILookupEventRespondable
+- (void)baseAttachmentController;
 @end
 

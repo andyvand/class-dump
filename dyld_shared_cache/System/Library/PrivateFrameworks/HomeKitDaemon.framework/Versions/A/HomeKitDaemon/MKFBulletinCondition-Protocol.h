@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFBulletinConditionDatabaseID, NSDate;
+@class NSDate;
 @protocol MKFBulletinRegistration, MKFHome;
 
 @protocol MKFBulletinCondition
+- (id <MKFBulletinRegistration>)ndCommand:%@ to destination:%@ (from account:%@, handle:%@) /* Error: Ran out of types for this method. */;
 - (id <MKFHome>);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFBulletinRegistration> bulletinRegistration;
-@property(readonly, copy, nonatomic) MKFBulletinConditionDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

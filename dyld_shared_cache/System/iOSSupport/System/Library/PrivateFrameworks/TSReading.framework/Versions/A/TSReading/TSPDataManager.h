@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, TSPObjectContext, TSUPathSet;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class TSPObjectContext;
 
 @interface TSPDataManager
 {
     TSPObjectContext *_context;
-    NSObject<OS_dispatch_queue> *_datasQueue;
-    long long _nextNewIdentifier;
-    struct unordered_map<const long long, TSPData *__weak, TSP::ObjectIdentifierHash, std::equal_to<const long long>, std::allocator<std::pair<const long long, TSPData *__weak>>> _identifierToDataMap;
-    struct unordered_map<const std::array<unsigned char, 20>, TSPData *__weak, TSP::DataDigestHash, TSP::DataDigestEqualTo, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>> _digestToDataMap;
-    NSObject<OS_dispatch_queue> *_temporaryDirectoryQueue;
-    NSURL *_lastDocumentURL;
-    NSURL *_temporaryDirectoryURL;
-    NSURL *_temporaryUniqueDirectoryURL;
-    TSUPathSet *_temporaryPathSet;
-    _Bool _hasExternalReferences;
-    NSObject<OS_dispatch_group> *_externalReferenceRemovalGroup;
 }
 
 + (id);
-+ (void);
-- (void);
-- (id);
-- (void);
++ (void)f;
+- (void)er;
+- (id)checkpointFirstAudioFrame;
+- (void)ing: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)EventTime;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -43,23 +31,23 @@
 - (id);
 - (id);
 - (id);
+- (id)hh;
 - (id);
 - (id);
 - (id);
+- (id)t]zh;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (id);

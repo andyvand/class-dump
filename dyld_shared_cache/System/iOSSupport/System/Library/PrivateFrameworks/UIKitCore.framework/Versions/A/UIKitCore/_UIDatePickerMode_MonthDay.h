@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)has_updatedDateWithServerTime;
+- (unsigned long long)has_stickerScale;
 
 @end
 

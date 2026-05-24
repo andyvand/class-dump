@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBMonogramImage
 {
     int _monogramStyle;
-    NSString *_monogramLetters;
 }
 
 - (void);
@@ -21,23 +20,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)photosAlbumIdentifiersKey;
+- (id)r count:%lu, result count:%lu, change:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void):8@"RFImageElement"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *monogramLetters; // @synthesize monogramLetters=_monogramLetters;
-@property(nonatomic) int monogramStyle; // @synthesize monogramStyle=_monogramStyle;
-@property(readonly) Class superclass;
 
 @end
 

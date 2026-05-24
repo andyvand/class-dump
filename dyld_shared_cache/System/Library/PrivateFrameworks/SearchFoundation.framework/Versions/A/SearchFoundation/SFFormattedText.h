@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFText.h>
 
-@class NSData, NSDictionary, NSString, SFImage;
+@class SFImage;
 
 @interface SFFormattedText : SFText
 {
@@ -16,17 +16,12 @@
         unsigned int textColor:1;
         unsigned int encapsulationStyle:1;
     } _has;
-    _Bool _isEmphasized;
-    _Bool _isBold;
-    int _textColor;
-    int _encapsulationStyle;
-    SFImage *_glyph;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setCloudUniversalLibraryID:(id)arg1;
 - (_Bool);
 - (int);
 - (void);
@@ -34,11 +29,11 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)request for %{public}@ with system sound context:(id)arg1 %{public}@. Will process stop request after deemphasized playback starts.;
+- (id)ject<PLResourceDataStore>";
+- (id)_pendingPlayCount;
+- (id)tionary"8@"NSDictionary"16;
+- (id)rary/Frameworks/SensitiveContentAnalysis.framework/SensitiveContentAnalysis;
 - (int);
 - (id);
 - (_Bool);
@@ -50,22 +45,7 @@
 - (_Bool)ðÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int encapsulationStyle; // @synthesize encapsulationStyle=_encapsulationStyle;
 @property(retain, nonatomic) SFImage *glyph; // @synthesize glyph=_glyph;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBold; // @synthesize isBold=_isBold;
-@property(nonatomic) _Bool isEmphasized; // @synthesize isEmphasized=_isEmphasized;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxLines;
-@property(readonly) Class superclass;
-@property(copy) NSString *text;
-@property(nonatomic) int textColor; // @synthesize textColor=_textColor;
 
 @end
 

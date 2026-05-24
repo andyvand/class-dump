@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CBPowerSource
 {
     NSMutableDictionary *_componentMap;
-    struct OpaqueIOPSPowerSourceID *_psID;
-    unsigned char _deviceType;
-    _Bool _present;
-    unsigned char _vendorIDSource;
-    unsigned short _accessoryCategory;
-    unsigned short _partID;
-    unsigned short _vendorID;
-    unsigned short _batteryInfo;
-    unsigned int _appearanceValue;
-    unsigned int _productID;
-    unsigned int _changeFlags;
-    unsigned int _internalFlags;
-    NSString *_accessoryID;
-    long long _familyCode;
-    NSString *_groupID;
-    long long _lowWarnLevel;
-    double _maxCapacity;
-    NSString *_name;
-    NSString *_partName;
-    long long _sourceID;
-    long long _temperature;
-    NSString *_transportType;
-    NSString *_type;
 }
 
 + (_Bool);
 - (unsigned int);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)\;
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -58,7 +35,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)kValidityPeriod;
 - (unsigned short);
 - (double);
 - (unsigned int);
@@ -66,34 +43,35 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	@y)	@y_k;
 - (id);
 - (id);
 - (void);
 - (unsigned short);
-- (void);
-- (id);
+- (void);
+- (id));
 - (void);
 - (int);
+- (long long)_federationId;
+- (void)indexSetWithIndexesInRange:(id)arg1;
+- (unsigned short);
 - (long long);
-- (void);
-- (unsigned short);
-- (long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)RecoveryDiskForDisk:(long long)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (unsigned char);
-- (void);
+- (void)@
+;
 - (id);
 - (unsigned char);
 - (void);
@@ -101,37 +79,15 @@
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)y: /* Error: Ran out of types for this method. */;
+- (void)logArchivePath;
 - (void);
-- (void);
-- (_Bool)d: /* Error: Ran out of types for this method. */;
+- (_Bool)setSpatialSoundProfileAllowed: /* Error: Ran out of types for this method. */;
 - (unsigned int)ÂS;
 - (void)9þÿ¨ª;
 
 // Remaining properties
-@property(nonatomic) unsigned short accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(copy, nonatomic) NSString *accessoryID; // @synthesize accessoryID=_accessoryID;
-@property(nonatomic) unsigned int appearanceValue; // @synthesize appearanceValue=_appearanceValue;
 @property(nonatomic) unsigned short batteryInfo; // @synthesize batteryInfo=_batteryInfo;
-@property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(readonly, nonatomic) NSMutableDictionary *components;
-@property(nonatomic) unsigned char deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) long long familyCode; // @synthesize familyCode=_familyCode;
-@property(copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) unsigned int internalFlags; // @synthesize internalFlags=_internalFlags;
-@property(nonatomic) long long lowWarnLevel; // @synthesize lowWarnLevel=_lowWarnLevel;
-@property(nonatomic) double maxCapacity; // @synthesize maxCapacity=_maxCapacity;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned short partID; // @synthesize partID=_partID;
-@property(copy, nonatomic) NSString *partName; // @synthesize partName=_partName;
-@property(nonatomic) _Bool present; // @synthesize present=_present;
-@property(nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(nonatomic) long long sourceID; // @synthesize sourceID=_sourceID;
-@property(nonatomic) long long temperature; // @synthesize temperature=_temperature;
-@property(copy, nonatomic) NSString *transportType; // @synthesize transportType=_transportType;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) unsigned short vendorID; // @synthesize vendorID=_vendorID;
-@property(nonatomic) unsigned char vendorIDSource; // @synthesize vendorIDSource=_vendorIDSource;
 
 @end
 

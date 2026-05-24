@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID, SPDiscoveredAccessoryMetadata, SPDiscoveredAccessoryProductInformation;
+@class NSUUID;
 
 @interface SPDiscoveredAccessory
 {
     _Bool _isBatteryTooLow;
-    NSUUID *_identifier;
-    NSData *_macAddress;
-    SPDiscoveredAccessoryMetadata *_discoveredMetadata;
-    SPDiscoveredAccessoryProductInformation *_productInformation;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -30,16 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)validUntil;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) SPDiscoveredAccessoryMetadata *discoveredMetadata; // @synthesize discoveredMetadata=_discoveredMetadata;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isBatteryTooLow; // @synthesize isBatteryTooLow=_isBatteryTooLow;
-@property(copy, nonatomic) NSData *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) SPDiscoveredAccessoryProductInformation *productInformation; // @synthesize productInformation=_productInformation;
 
 @end
 

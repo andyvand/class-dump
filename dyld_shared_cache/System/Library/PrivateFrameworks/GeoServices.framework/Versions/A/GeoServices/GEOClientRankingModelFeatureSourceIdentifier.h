@@ -9,21 +9,17 @@
 @interface GEOClientRankingModelFeatureSourceIdentifier : GEOClientRankingModelFeatureIdentifier
 {
     long long _sourceType;
-    int _suggestionType;
-    int _serverEntryType;
 }
 
-- (id);
-- (long long);
+- (id)_weakReference;
+- (long long)Phonetic Jordan;
 - (int);
-- (id);
+- (id)edWithXpcClient:]_block_invoke /* Error: Ran out of types for this method. */;
 - (int)ª>: /* Error: Ran out of types for this method. */;
 - (long long)È;
 
 // Remaining properties
-@property(readonly, nonatomic) int serverEntryType; // @synthesize serverEntryType=_serverEntryType;
 @property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic) int suggestionType; // @synthesize suggestionType=_suggestionType;
 
 @end
 

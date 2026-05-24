@@ -6,23 +6,20 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISparseRendererPreFiltering : CIFilter
 {
     CIImage *inputImage;
-    NSDictionary *inputTuningParameters;
-    NSNumber *inputApertureScaling;
-    NSNumber *inputScale;
 }
 
 - (void);
 - (void);
+- (id)/;
+- (id)�	;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -31,10 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)||||`lhr>[Rl]idopuqv~~brmw\lfsxyxyy~~p}`pfrysxxxx`aZbMWLZJYOb_jesx}}}}crqrqqqqYsr{y¤¤¤¤    qyx}Wgbj\\R\HREYXc]errrrpvuwwwwwtrmtlohv~x«¨««©®®««««¦¦¦¦p]ogyttrtjjjj/I8Z8N>^yyyy~YjdvekfrorotssssokdoMhbr~~~~utzy~yyv|Xogulogs[piwkyu|yxryZaUoJbWpwyvyt{x~­­­­£¨¨    ¡¡¡¡jzjslyttttvvvv|}}~mwvSh`ruuuu||||txqn{~~~~~}}}}zzzzjsqwk~rw;
 
 // Remaining properties
-@property(copy) NSNumber *inputApertureScaling; // @synthesize inputApertureScaling;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

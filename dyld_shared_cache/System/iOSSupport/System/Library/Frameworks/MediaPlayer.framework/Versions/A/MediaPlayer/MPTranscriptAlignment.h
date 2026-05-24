@@ -7,11 +7,6 @@
 @interface MPTranscriptAlignment
 {
     _Bool _matchedBeginning;
-    _Bool _matchedEnd;
-    double _playerStartTime;
-    double _playerEndTime;
-    double _referenceStartTime;
-    double _referenceEndTime;
 }
 
 - (double);
@@ -19,17 +14,12 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (double);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool matchedBeginning; // @synthesize matchedBeginning=_matchedBeginning;
-@property(readonly, nonatomic) _Bool matchedEnd; // @synthesize matchedEnd=_matchedEnd;
-@property(readonly, nonatomic) double playerEndTime; // @synthesize playerEndTime=_playerEndTime;
 @property(readonly, nonatomic) double playerStartTime; // @synthesize playerStartTime=_playerStartTime;
-@property(readonly, nonatomic) double referenceEndTime; // @synthesize referenceEndTime=_referenceEndTime;
-@property(readonly, nonatomic) double referenceStartTime; // @synthesize referenceStartTime=_referenceStartTime;
 
 @end
 

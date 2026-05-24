@@ -6,13 +6,10 @@
 
 #import <Foundation/NSExpression.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface NSBlockExpression : NSExpression
 {
     CDUnknownBlockType _block;
-    NSArray *_arguments;
 }
 
 + (_Bool)e-unresolvable-file-reference-url: /* Error: Ran out of types for this method. */;
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)preferredMinimumSize;
 - (id);
 - (void);
 - (id)setQueryItems:(struct _NSZone *)arg1;

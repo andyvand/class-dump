@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMFVersion, NSArray;
+
 @protocol HMDCompositeSettingsControllerPrivate
+- (NSArray *)_initWithParentSource:(NSArray *)arg1 preprocessingBlock:(HMFVersion *)arg2 mappingBlock:(unsigned long long)arg3;
 @end
 

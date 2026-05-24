@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMAddAccessoryRequest, HMHomeManager;
+
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void)er root doesn't exist %@:(HMHomeManager *)arg1 %@;
+- (void)containerRootURLsForDomain:(HMHomeManager *)arg1 ] App-domain library container root doesn't exist %@:(HMAddAccessoryRequest *)arg2 %@;
 @end
 

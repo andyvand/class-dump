@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFSunriseSunsetTimeSpecificationDatabaseID, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @protocol MKFSunriseSunsetTimeSpecification
+- (NSString *)_crossPlatformUnifiedMeContactWithKeysToFetch:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFSunriseSunsetTimeSpecificationDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *offsetSeconds;
-@property(copy, nonatomic) NSString *significantEvent;
 @end
 

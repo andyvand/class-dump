@@ -11,24 +11,22 @@
 @interface CEMDeviceInformationCommand_StatusQueryResponsesAutoSetupAdminAccountsItem : CEMPayloadBase
 {
     NSString *_statusGUID;
-    NSString *_statusShortName;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
+- (void)b;
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)uffers;
+- (id)xfuaxtncxoba;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *statusGUID; // @synthesize statusGUID=_statusGUID;
-@property(copy, nonatomic) NSString *statusShortName; // @synthesize statusShortName=_statusShortName;
 
 @end
 

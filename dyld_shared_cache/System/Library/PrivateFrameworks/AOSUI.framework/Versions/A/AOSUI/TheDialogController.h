@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TheDialogController
 {
     long long userClickedOk;
-    unsigned short timesShown;
 }
 
 - (void);
@@ -16,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)ÔÁò!´EùqY°1Â0@ù
 × ;
-- (void)SID:(id)arg1;
-- (void)Custodians:(id)arg1;
+- (void)setupResourceLoadDelegateWithAltDSID:(id)arg1;
+- (void)fetchMyHealthyCustodians:(id)arg1;
 - (void)or MMPasswordChangeWebKitViewController;
 
 @end

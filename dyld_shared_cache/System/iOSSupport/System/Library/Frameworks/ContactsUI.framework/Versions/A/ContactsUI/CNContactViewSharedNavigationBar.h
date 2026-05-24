@@ -9,10 +9,6 @@
 @interface CNContactViewSharedNavigationBar
 {
     UIBarButtonItem *cancelButton;
-    UIBarButtonItem *editButton;
-    UIBarButtonItem *doneButton;
-    UIBarButtonItem *addContactButton;
-    long long mode;
 }
 
 - (id);
@@ -24,22 +20,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)|�`;
 - (void);
 - (id);
-- (long long);
+- (long long)_sanitizeInputString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id)osition;
+- (id)updateBadgeImageViewPosition;
 - (void)@"<CNMeCardSharingOnboardingAudienceViewControllerDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(nonatomic, retain) UIBarButtonItem *addContactButton; // @synthesize addContactButton;
 @property(nonatomic, retain) UIBarButtonItem *cancelButton; // @synthesize cancelButton;
-@property(nonatomic, retain) UIBarButtonItem *doneButton; // @synthesize doneButton;
-@property(nonatomic, retain) UIBarButtonItem *editButton; // @synthesize editButton;
-@property(nonatomic) long long mode; // @synthesize mode;
 
 @end
 

@@ -7,12 +7,12 @@
 @interface UnknownClass (VNPersonsModel)
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,15 +22,15 @@
 - (void);
 - (float);
 - (float);
-- (CDStruct_e83c9415);
-- (struct CGSize);
+- (CDStruct_3c1748cc);
+- (struct CGSize);
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
 - (struct __CVBuffer *);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (struct CGAffineTransform);
 - (CDStruct_95fa7c00);
@@ -42,6 +42,6 @@
 - (CDStruct_95fa7c00);
 - (CDStruct_1fe29af2);
 - (CDStruct_1fe29af2);
-- (void);
+- (void);
 @end
 

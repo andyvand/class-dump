@@ -10,14 +10,14 @@
 }
 
 + (id);
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ap;
 - (void);
 - (id);
 - (unsigned long long)ü;

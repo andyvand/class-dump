@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DCLRUCache, NSMutableDictionary, NSObject, NSURL;
-@protocol DCDataCryptorDelegate, OS_dispatch_queue;
+@class NSURL;
+@protocol DCDataCryptorDelegate;
 
 @interface ICDocCamImageCache
 {
     id <DCDataCryptorDelegate> _dataCryptorDelegate;
-    NSURL *_cachesDirectoryURL;
-    NSURL *_docCamImageDirectoryURL;
-    NSObject<OS_dispatch_queue> *_imageCacheQueue;
-    DCLRUCache *_inMemoryImageCache;
-    NSMutableDictionary *_imageSizeCache;
 }
 
 - (_Bool);
@@ -23,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)P;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -45,17 +40,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)oderList=^{tagDecoderSettings}I}I{tagVCAudioReceiverStatistics=AIIIIIQQQfAIAIAIAIAIAIAIAI}^{tagWRMMetricsInfo}^?{tagVCAudioReceiverCallbackContext=^v^?^?}^?{tagVCAudioReceiverCallbackContext=^v^?^?}I[2{_RTCPPacketList=(tagNTP=Q{?=II})C[10^{tagRTCPPACKET}]^{OpaqueCMBlockBuffer}*QI[1472C][12S]CBQ{?=^{_RTCPPacketList}}}]dII[300{tagPacketHistoryInfo=ISIBB}]SS{_opaque_pthread_mutex_t=q[56c]}^{tagVCAudioReceiverStream}SSdBSS{_VCAudioCodecModeChangeEvent=iiiI{EVSRFParams=II}}BSSSIBBQB^v^?^?^?^?^{tagVCJBTargetEstimatorSynchronizer}{tagVCJitterBufferWRMReportingMetrics=IIIIQQII}^vBdiddId^{tagVCAudioIssueDetector}ii[128I][128I]IIIi^{tagVCAudioDump}{tagVCAudioDumpPayloadInfo=BiBB^{AudioStreamBasicDescription}}BB^{tagVCAudioFrameDelay}dq^{tagVCOverlaySource}BdIdB{tagVCAudioReceiverInactiveFrameDetectionInfo=BBIf}B},R,VaudioReceiver;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cachesDirectoryURL; // @synthesize cachesDirectoryURL=_cachesDirectoryURL;
-@property(retain, nonatomic) id <DCDataCryptorDelegate> dataCryptorDelegate; // @synthesize dataCryptorDelegate=_dataCryptorDelegate;
-@property(readonly, nonatomic) NSURL *docCamImageDirectoryURL; // @synthesize docCamImageDirectoryURL=_docCamImageDirectoryURL;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *imageCacheQueue; // @synthesize imageCacheQueue=_imageCacheQueue;
-@property(retain, nonatomic) NSMutableDictionary *imageSizeCache; // @synthesize imageSizeCache=_imageSizeCache;
-@property(retain, nonatomic) DCLRUCache *inMemoryImageCache; // @synthesize inMemoryImageCache=_inMemoryImageCache;
 
 @end
 

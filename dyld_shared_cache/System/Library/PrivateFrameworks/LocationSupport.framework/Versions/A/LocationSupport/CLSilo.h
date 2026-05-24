@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 @interface CLSilo
 {
     NSString *_identifier;
-    _Bool _isIdle;
-    double _lastIdleCheck;
-    NSMutableSet *_idleHandlers;
-    struct os_unfair_lock_s _idleHandlersLock;
-    double _currentLatchedAbsoluteTimestamp;
 }
 
 + (id);
@@ -21,7 +16,7 @@
 + (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -32,8 +27,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)DegC) (TH0O);
 - (_Bool);
 - (id);
 - (void);

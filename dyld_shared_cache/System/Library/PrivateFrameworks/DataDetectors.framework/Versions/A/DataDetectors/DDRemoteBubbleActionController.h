@@ -12,23 +12,22 @@ __attribute__((visibility("hidden")))
 @interface DDRemoteBubbleActionController : DDGenericBubbleController
 {
     DDPopover *_bubble;
-    NSView *_view;
 }
 
-+ (id);
++ (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (struct CGRect);
 + (struct CGSize);
-+ (id);
-+ (unsigned long long);
++ (id);
++ (unsigned long long);
 + (unsigned long long);
 + (id);
 + (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

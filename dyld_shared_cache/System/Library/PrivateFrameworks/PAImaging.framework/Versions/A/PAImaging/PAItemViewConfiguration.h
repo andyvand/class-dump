@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScreen, PAContentTransform, PADisplay;
-
 @interface PAItemViewConfiguration
 {
     double _scaleCoverage;
-    PAContentTransform *_itemToContentTransform;
-    PAContentTransform *_contentToViewTransform;
-    _Bool _enableHDR;
-    long long _itemOrientation;
-    double _contentScale;
-    NSScreen *_screen;
-    double _backingScaleFactor;
-    PADisplay *_display;
-    struct CGPoint _contentOrigin;
-    struct CGPoint _contentAnchor;
-    struct PIRotationAttributes _itemRotationAttributes;
-    CDStruct_1b6d18a9 _frameRenderTime;
-    struct CGRect _itemExtent;
-    struct CGRect _itemClipRect;
-    struct CGRect _canvasFrame;
-    struct CATransform3D _itemTransform;
 }
 
 - (struct CGRect);
@@ -40,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)TH;
 - (struct CGRect);
 - (struct CATransform3D);
 - (struct CATransform3D);
@@ -60,7 +42,7 @@
 - (struct CGRect);
 - (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (double);
 - (struct CGRect);
@@ -76,18 +58,18 @@
 - (void);
 - (void);
 - (long long);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (_Bool);
 - (void);
 - (struct CGPoint);
-- (void);
-- (void);
+- (void)SharedAlbumsActivityItemListManager;
+- (void)p;
 - (struct CATransform3D);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)F=;
 - (struct CGRect);
 - (double);
 - (void);
@@ -95,10 +77,10 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)E;
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -106,27 +88,7 @@
 - (id)_compositionControllerStack;
 
 // Remaining properties
-@property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;
-@property(nonatomic) struct CGRect canvasFrame; // @synthesize canvasFrame=_canvasFrame;
-@property(nonatomic) struct CGPoint contentAnchor; // @synthesize contentAnchor=_contentAnchor;
-@property(readonly, nonatomic) struct CGRect contentBounds; // @dynamic contentBounds;
-@property(nonatomic) struct CGPoint contentOrigin; // @synthesize contentOrigin=_contentOrigin;
-@property(nonatomic) double contentScale; // @synthesize contentScale=_contentScale;
-@property(retain, nonatomic) PADisplay *display; // @synthesize display=_display;
-@property(nonatomic) _Bool enableHDR; // @synthesize enableHDR=_enableHDR;
-@property(nonatomic) CDStruct_1b6d18a9 frameRenderTime; // @synthesize frameRenderTime=_frameRenderTime;
-@property(nonatomic) struct CGRect itemClipRect; // @synthesize itemClipRect=_itemClipRect;
 @property(nonatomic) struct CGRect itemExtent; // @synthesize itemExtent=_itemExtent;
-@property(nonatomic) long long itemOrientation; // @synthesize itemOrientation=_itemOrientation;
-@property(nonatomic) struct PIRotationAttributes itemRotationAttributes; // @synthesize itemRotationAttributes=_itemRotationAttributes;
-@property(nonatomic) struct CGSize itemSize;
-@property(nonatomic) struct CATransform3D itemTransform; // @synthesize itemTransform=_itemTransform;
-@property(readonly, nonatomic) struct CGRect overlayViewFrame;
-@property(readonly, nonatomic) double scaleToFit; // @dynamic scaleToFit;
-@property(retain, nonatomic) NSScreen *screen; // @synthesize screen=_screen;
-@property(readonly, nonatomic) struct CGRect viewBounds;
-@property(readonly, nonatomic) struct CGRect viewContentBounds;
-@property(readonly, nonatomic) struct CGRect viewFrame; // @dynamic viewFrame;
 
 @end
 

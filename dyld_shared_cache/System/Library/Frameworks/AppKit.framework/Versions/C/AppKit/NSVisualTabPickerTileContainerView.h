@@ -6,40 +6,33 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMutableArray, NSString, NSTextField, NSVisualTabPickerGridView;
-@protocol NSVisualTabPickerTileContainerDataSource, NSVisualTabPickerTileContainerDelegate;
+@class NSMutableArray;
+@protocol NSVisualTabPickerTileContainerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerTileContainerView : NSView
 {
     NSMutableArray *_thumbnailViews;
-    NSView *_3DContainerView;
-    NSTextField *_title;
-    _Bool _didSetTileConstraints;
-    id <NSVisualTabPickerTileContainerDataSource> _dataSource;
-    id <NSVisualTabPickerTileContainerDelegate> _delegate;
-    NSVisualTabPickerGridView *_visualTabPickerGridView;
-    long long _tileContainerType;
 }
 
 + (double);
 + (struct CGPoint);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)of %s is invalid (%@);
+- (void)lue for key %@ (%@)!;
+- (id)urned NULL;
+- (id)lane :(id)arg1 /product strict-wake-vendor-id;
 - (id);
 - (long long);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
+- (struct CGRect)__terminated_by(0), size_t);
+- (void)SupportsBurninMitigation;
+- (void)to fetch wifi vendor (no AppleOLYHAL node);
+- (void)nvalid boot-args:(long long)arg1 %s and %s are both set;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -58,34 +51,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)M;
+- (id)eal with leftover bytes here yet;
+- (void)at stream is this??;
+- (void)due to overlong value %@;
+- (struct CGRect)been invalidated;
 - (void);
+- (void)oc length;
+- (id)p to the cloud;
 - (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)setTextLayoutManager:(id)arg1;
+- (void)_sanitizeWebArchiveDictionary:(id)arg1;
 - (void)medLabels"b1"drawing"b1"recalcToolTips"b1"usesWindowsStyle"b1"dontShowSelectedAndPressedAppearance"b1"menuShouldBeUniquedAgainstMain"b1"style"b8"flatMinX"b1"flatMaxX"b1"segmentedSeparated"b1"animateNextLayout"b1};
-- (void)onDelay;
+- (void)_cancelFadeAnimationDelay;
 - (void)oreNotch:adding %g to title extra for each menu before notch /* Error: Ran out of types for this method. */;
 - (void)pt to get parameterized attribute "%@" of element %@ using an unsupported type of parameter:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <NSVisualTabPickerTileContainerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NSVisualTabPickerTileContainerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) long long tileContainerType; // @synthesize tileContainerType=_tileContainerType;
-@property(nonatomic) __weak NSVisualTabPickerGridView *visualTabPickerGridView; // @synthesize visualTabPickerGridView=_visualTabPickerGridView;
 
 @end
 

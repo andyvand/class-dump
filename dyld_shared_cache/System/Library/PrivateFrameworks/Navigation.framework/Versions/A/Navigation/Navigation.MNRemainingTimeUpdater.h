@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNNavigationSessionState, NSDate;
-@protocol Navigation.MNRemainingTimeUpdaterDelegate;
+@class MNNavigationSessionState;
 
 @interface Navigation.MNRemainingTimeUpdater
 {
     void delegate;
-    id _navigationSessionState;
-    id _routes;
-    id _timerToNextMinute;
-    id _stabilizeETA;
-    void dateOverride;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)EllipticalListStyle;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, copy) NSDate *dateOverride;
-@property(nonatomic) __weak id <Navigation.MNRemainingTimeUpdaterDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, retain) MNNavigationSessionState *navigationSessionState;
 
 @end

@@ -4,15 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MPCQueueControllerBehaviorHost;
+@class NSDictionary, NSString;
+@protocol MPCQueueControllerBehaviorHost, MPCQueueControllerItemIdentifierComponents;
 
 @protocol MPCQueueControllerBehaviorImplementation
+- (long long)performSelector: /* Error: Ran out of types for this method. */;
+- (NSString *)em.B.dylib;
+- (_Bool)saveAccount:(NSString *)arg1 onAccountStore:withDataclassActions:doVerify:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (id <MPCQueueControllerItemIdentifierComponents>);
+- (void);
+- (NSDictionary *)release;
+- (id <MPCQueueControllerBehaviorHost>)o;
+- (_Bool)*;
+
+@optional
+- (void)ADataclassManager.m;
+- (void)dataclasses;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <MPCQueueControllerBehaviorHost> host;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) long long playbackPositionRestorationPolicy;
 @property(readonly, copy, nonatomic) NSString *sessionID;
 @end
 

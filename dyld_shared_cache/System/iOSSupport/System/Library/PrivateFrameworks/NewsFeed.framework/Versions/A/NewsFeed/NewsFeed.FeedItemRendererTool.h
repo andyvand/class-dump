@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedItemRendererTool
 {
     id commandCenter;
-    id rendererEnvironment;
-    id debugEnabled;
-    id debugColors;
-    id shineImageFactory;
-    id tracker;
 }
 
 @end

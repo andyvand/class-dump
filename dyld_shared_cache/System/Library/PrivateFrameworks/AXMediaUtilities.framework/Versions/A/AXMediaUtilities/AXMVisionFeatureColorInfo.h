@@ -9,13 +9,11 @@
 @interface AXMVisionFeatureColorInfo
 {
     double _remainingColorWeight;
-    NSArray *_mainColors;
-    NSArray *_mainColorWeights;
 }
 
-+ (_Bool);
++ (_Bool)n";
 - (void);
-- (void);
+- (void)|;
 - (void);
 - (void);
 - (double);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *mainColorWeights; // @synthesize mainColorWeights=_mainColorWeights;
 @property(retain, nonatomic) NSArray *mainColors; // @synthesize mainColors=_mainColors;
-@property(nonatomic) double remainingColorWeight; // @synthesize remainingColorWeight=_remainingColorWeight;
 
 @end
 

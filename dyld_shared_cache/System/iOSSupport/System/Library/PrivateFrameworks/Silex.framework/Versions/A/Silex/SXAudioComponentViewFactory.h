@@ -6,14 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@protocol SXAnalyticsReportingProvider, SXAppStateMonitor, SXHost, SXResourceDataSourceProvider;
+@protocol SXAnalyticsReportingProvider;
 
 @interface SXAudioComponentViewFactory : SXComponentViewFactory
 {
     id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
-    id <SXAppStateMonitor> _appStateMonitor;
-    id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
-    id <SXHost> _host;
 }
 
 - (id);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
 
 @end
 

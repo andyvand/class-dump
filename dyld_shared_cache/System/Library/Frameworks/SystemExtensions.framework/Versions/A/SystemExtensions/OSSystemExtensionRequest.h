@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSXPCConnection;
-@protocol OSSystemExtensionRequestDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol OSSystemExtensionRequestDelegate;
 
 @interface OSSystemExtensionRequest
 {
     id <OSSystemExtensionRequestDelegate> _delegate;
-    NSString *_identifier;
-    NSXPCConnection *_connection;
-    NSURL *_containingApplication;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)FromOriginalMessage:(id)arg1 made %u pieces from %u length at %u per fragment;
++ (id)lu bytes, need at least %lu
+;
++ (id)nceNumber %u;
++ (id)offset %u identifier length %u packet length %u
+;
+- (void)eTransferSender:(id)arg1 done with %@ attributes %@ fd %d messageUUID %@;
+- (void)er:(id)arg1 file too big %llu;
+- (void)d %@ peerResponseIdentifier %@ messageUUID %@ expiryDate %@;
+- (void)@;
+- (id)!= actual %llu;
+- (void)urceTransferReceiver:incoming chunk does not have sufficient data (%lu) /* Error: Ran out of types for this method. */;
+- (id)-k16sBj1A0ZEirDhV4TOzEpeqeU/Library/Caches/com.apple.xbs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDSFoundation/IDSSocketPairMessage.m;
+- (void)t support cancelReason;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)managedObjectWithSMWorkoutEvent:(id)arg1 managedObject:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)WithOptions:(id)arg1 handler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -45,10 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSURL *containingApplication; // @synthesize containingApplication=_containingApplication;
-@property(nonatomic) __weak id <OSSystemExtensionRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

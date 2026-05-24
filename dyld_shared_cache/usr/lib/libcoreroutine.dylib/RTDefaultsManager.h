@@ -6,7 +6,6 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString;
 @protocol RTUserDefaults;
 
 @interface RTDefaultsManager : RTService
@@ -17,31 +16,25 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)IDSGroupSessionParticipantUpdateClientContextDataKey;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ome;
+- (void)median_daily_total_visit_duration_weekend_home;
 - (void)printStore (in %s:(id)arg1 %d);
 - (void)@,messageID:%@,conversation is nil /* Error: Ran out of types for this method. */;
 - (void)learnedPlaceTypeInference;
 - (void)¦~;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

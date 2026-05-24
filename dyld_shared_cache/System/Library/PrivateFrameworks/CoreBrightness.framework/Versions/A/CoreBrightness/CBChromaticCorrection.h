@@ -6,22 +6,12 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBLuxRamp, NSString;
-@protocol CBChromaticCorectionParamsProtocol, CBChromaticCorrectionPolicy;
+@protocol CBChromaticCorectionParamsProtocol;
 
 __attribute__((visibility("hidden")))
 @interface CBChromaticCorrection : CBModule
 {
     _Bool _autoBrightnessIsEnabled;
-    _Bool _isEnabled;
-    id <CBChromaticCorrectionPolicy> _policy;
-    CBLuxRamp *_ramp;
-    float _trustedLux;
-    _Bool _referenceModeActive;
-    _Bool _isExternallyClocked;
-    float _nits;
-    id <CBChromaticCorectionParamsProtocol> _params;
-    CDUnknownFunctionPointerType _currentTime;
 }
 
 - (void);
@@ -42,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (float);
@@ -51,12 +41,12 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (void);
-- (id);
+- (id)FyH;
 - (void);
 - (void);
 - (void);
-- (id);
-- (float);
+- (id)AmbientFlashFrame;
+- (float));
 - (void);
 - (_Bool);
 - (id);
@@ -65,20 +55,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property CDUnknownFunctionPointerType currentTime; // @synthesize currentTime=_currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property _Bool isExternallyClocked; // @synthesize isExternallyClocked=_isExternallyClocked;
-@property float nits; // @synthesize nits=_nits;
 @property(readonly) id <CBChromaticCorectionParamsProtocol> params; // @synthesize params=_params;
-@property(nonatomic) _Bool referenceModeActive; // @synthesize referenceModeActive=_referenceModeActive;
-@property(readonly) Class superclass;
-@property float trustedLux;
 
 @end
 

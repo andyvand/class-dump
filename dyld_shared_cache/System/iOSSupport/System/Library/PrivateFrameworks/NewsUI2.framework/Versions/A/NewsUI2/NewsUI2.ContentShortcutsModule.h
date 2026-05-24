@@ -7,7 +7,6 @@
 @interface NewsUI2.ContentShortcutsModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

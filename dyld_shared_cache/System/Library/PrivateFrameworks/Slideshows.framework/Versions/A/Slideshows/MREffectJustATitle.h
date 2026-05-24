@@ -6,29 +6,21 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectJustATitle : MREffect
 {
     MRTextRenderer *mTextRenderer0;
-    MRTextRenderer *mTextRenderer1;
-    MRImage *mImage0;
-    MRImage *mImage1;
-    MRCroppingSprite *mTextSprite0;
-    MRCroppingSprite *mTextSprite1;
-    struct CGRect mText0Rect;
-    struct CGRect mText1Rect;
-    _Bool mTextWasUpdatedSinceLastRendering;
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)So13NTPBTelemetryC;
+- (_Bool)lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadUploader.m;
 - (_Bool);
 - (id);
 - (struct CGSize);
 - (long long);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);

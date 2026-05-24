@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTDeferredTaskQueue, IDSCurrentServerTimePair;
+@class IDSCurrentServerTimePair;
 @protocol IDSCurrentServerTimeProvider;
 
 @interface IDSCurrentServerTime
 {
     IDSCurrentServerTimePair *_timePair;
-    id <IDSCurrentServerTimeProvider> _serverTimeProvider;
-    CUTDeferredTaskQueue *_refreshServerTimeTask;
 }
 
-+ (id)ing;
++ (id)Reinitiating;
 - (id);
-- (void);
+- (void)";
 - (double);
 - (id);
 - (void);
@@ -25,14 +23,12 @@
 - (void);
 - (void);
 - (id);
-- (id)ConnectionIDDispatchData: /* Error: Ran out of types for this method. */;
+- (id)_getConnectionIDDispatchData: /* Error: Ran out of types for this method. */;
 - (void)ockpuppet.classd;
 - (id)T!CáWèw	;
 
 // Remaining properties
-@property(readonly, nonatomic) CUTDeferredTaskQueue *refreshServerTimeTask; // @synthesize refreshServerTimeTask=_refreshServerTimeTask;
 @property(retain, nonatomic) id <IDSCurrentServerTimeProvider> serverTimeProvider; // @synthesize serverTimeProvider=_serverTimeProvider;
-@property(retain) IDSCurrentServerTimePair *timePair; // @synthesize timePair=_timePair;
 
 @end
 

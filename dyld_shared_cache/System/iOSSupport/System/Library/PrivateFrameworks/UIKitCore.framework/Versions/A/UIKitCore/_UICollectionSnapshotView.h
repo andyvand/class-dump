@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _snapshottedViewDisablesRasterizationInAnimations;
 }
 
-- (_Bool);
+- (_Bool)^B24;
 
 @end
 

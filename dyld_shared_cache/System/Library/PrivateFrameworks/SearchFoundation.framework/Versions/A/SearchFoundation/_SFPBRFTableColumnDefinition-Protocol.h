@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTableContentColumnDefinition, _SFPBRFTableSpacerColumnDefinition;
+@class NSData, _SFPBRFTableSpacerColumnDefinition;
 
 @protocol _SFPBRFTableColumnDefinition
+- (unsigned long long);
+- (NSData *)Set",R,N,V_insertedLocalIdentifiers;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFTableContentColumnDefinition *content;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTableSpacerColumnDefinition *spacer;
-@property(readonly, nonatomic) unsigned long long whichDefinition;
 @end
 

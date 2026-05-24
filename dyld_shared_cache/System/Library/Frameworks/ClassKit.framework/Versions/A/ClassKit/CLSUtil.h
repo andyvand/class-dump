@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
@@ -24,7 +24,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (void);
++ (void)kView;
 + (id);
 
 @end

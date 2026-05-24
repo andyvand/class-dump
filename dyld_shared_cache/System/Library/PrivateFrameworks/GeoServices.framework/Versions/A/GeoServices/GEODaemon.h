@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString, geo_isolater;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_xpc_object;
+@class geo_isolater;
 
 @interface GEODaemon
 {
     geo_isolater *_isolater;
-    NSMutableDictionary *_servers;
-    NSMutableArray *_serversToStart;
-    NSMutableSet *_peers;
-    NSObject<OS_dispatch_source> *_sigInfoSrc;
-    NSObject<OS_dispatch_source> *_sigTermSrc;
-    NSObject<OS_dispatch_source> *_sigUsr1Src;
-    NSObject<OS_dispatch_source> *_sigUsr2Src;
-    NSObject<OS_xpc_object> *_listener;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    unsigned long long _stateCaptureHandle;
-    NSString *_knownLocale;
-    NSObject<OS_dispatch_queue> *_submitBGSTQueue;
 }
 
 - (_Bool);
@@ -30,36 +17,27 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)objectAtIndex:(struct os_state_hints_s *)arg1;
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
+- (id);
+- (void)transitArtworkImageWithDataSource:size:featureType:scale:nightMode:withWidthPaddingMultiple: /* Error: Ran out of types for this method. */;
+- (void)ance: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)¶*ð1Â0@ù
 × ;
 - (void)ata"16i24;
 - (id). coordinate count:(Class)arg1 %d;
-- (id)RTSANDMUSEUMS;
+- (id)SPATIAL_EVENT_LOOKUP_CATEGORY_ARTSANDMUSEUMS;
 - (void)q5;
 - (void);
 - (void)ñ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *peers;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *submitBGSTQueue; // @synthesize submitBGSTQueue=_submitBGSTQueue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long version;
 
 @end

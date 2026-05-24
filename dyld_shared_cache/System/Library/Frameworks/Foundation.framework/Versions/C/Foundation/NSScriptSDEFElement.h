@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSScriptSDEFElement
 {
     NSString *_name;
-    NSDictionary *_attributes;
-    NSMutableDictionary *_descriptionsPerSubelementName;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)arameters: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

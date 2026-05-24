@@ -7,13 +7,6 @@
 @interface NewsUI2.PuzzleArchiveService
 {
     id puzzleService;
-    id endpointConnection;
-    id endpointConfigManager;
-    id appConfigurationManager;
-    id bundleSubscriptionProvider;
-    id storefrontID;
-    id defaultArchiveInitialEndpoint;
-    id defaultArchivePagingEndpoint;
 }
 
 @end

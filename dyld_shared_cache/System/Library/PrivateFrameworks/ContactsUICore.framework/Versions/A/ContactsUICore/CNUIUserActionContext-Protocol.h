@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSString;
-@protocol CNUIUserActionCurator, CNUIUserActionDialRequestOpener, CNUIUserActionRecorder, CNUIUserActionURLOpener, CNUIUserActionUserActivityOpener;
+@protocol CNUIUserActionURLOpener;
 
 @protocol CNUIUserActionContext
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNUIUserActionCurator> actionCurator;
-@property(readonly, nonatomic) id <CNUIUserActionRecorder> actionRecorder;
-@property(copy, nonatomic) NSString *channelIdentifier;
-@property(copy, nonatomic) BSServiceConnectionEndpoint *connectionEndpoint;
-@property(readonly, nonatomic) id <CNUIUserActionDialRequestOpener> dialRequestOpener;
-@property(nonatomic) _Bool isOriginatingFromFavorites;
 @property(readonly, nonatomic) id <CNUIUserActionURLOpener> urlOpener;
-@property(readonly, nonatomic) id <CNUIUserActionUserActivityOpener> userActivityOpener;
 @end
 

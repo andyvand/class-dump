@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineCatalogDataManager
 {
     id delegate;
-    id magazineCategoryConfigService;
-    id magazineGridModelLoader;
-    id magazineGridModelLoaderFactory;
-    id subscriptionService;
 }
 
 @end

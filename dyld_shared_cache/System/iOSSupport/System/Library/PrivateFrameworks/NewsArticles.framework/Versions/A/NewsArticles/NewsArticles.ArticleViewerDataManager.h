@@ -7,8 +7,6 @@
 @interface NewsArticles.ArticleViewerDataManager
 {
     id articleRecirculationService;
-    id headlineService;
-    id previewService;
 }
 
 @end

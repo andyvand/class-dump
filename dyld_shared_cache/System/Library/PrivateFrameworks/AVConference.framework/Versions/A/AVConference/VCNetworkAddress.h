@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface VCNetworkAddress
 {
     NSString *_ip;
-    NSString *_interfaceName;
-    unsigned short _port;
-    unsigned short _ipVersion;
 }
 
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (unsigned short);
@@ -32,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)Keyboard/Lombard);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
 @property(copy, nonatomic) NSString *ip; // @synthesize ip=_ip;
-@property(nonatomic) unsigned short ipVersion; // @synthesize ipVersion=_ipVersion;
-@property(nonatomic) unsigned short port; // @synthesize port=_port;
 
 @end
 

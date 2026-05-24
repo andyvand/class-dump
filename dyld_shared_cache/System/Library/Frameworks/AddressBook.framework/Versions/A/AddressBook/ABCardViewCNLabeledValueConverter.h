@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewPersonMapper, NSString;
-@protocol ABCardViewProperty;
+@class ABCardViewPersonMapper;
 
 @interface ABCardViewCNLabeledValueConverter
 {
     ABCardViewPersonMapper *_personMapper;
-    id <ABCardViewProperty> _property;
 }
 
 - (id);
@@ -21,22 +19,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)getUpdateMetricsEventsWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (void)
 × ;
 - (void)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ABCardViewPersonMapper *personMapper; // @synthesize personMapper=_personMapper;
-@property(retain, nonatomic) id <ABCardViewProperty> property; // @synthesize property=_property;
-@property(readonly) Class superclass;
 
 @end
 

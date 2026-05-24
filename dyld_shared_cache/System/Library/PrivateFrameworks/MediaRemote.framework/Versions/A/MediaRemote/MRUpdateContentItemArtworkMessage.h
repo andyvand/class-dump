@@ -6,19 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSArray;
+@class MRPlayerPath;
 
 @interface MRUpdateContentItemArtworkMessage : MRProtocolMessage
 {
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)iled to %@ (error:%@) /* Error: Ran out of types for this method. */;
 - (id);
-- (id)tputContextSync;
+- (id)supportOutputContextSync;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contentItems;
 @property(readonly, nonatomic) MRPlayerPath *playerPath;
 
 @end

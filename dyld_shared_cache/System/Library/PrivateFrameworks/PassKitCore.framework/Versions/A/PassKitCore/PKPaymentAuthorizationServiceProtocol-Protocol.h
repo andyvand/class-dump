@@ -5,5 +5,9 @@
 //
 
 @protocol PKPaymentAuthorizationServiceProtocol
+- (void)	;
+
+@optional
+- (void);
 @end
 

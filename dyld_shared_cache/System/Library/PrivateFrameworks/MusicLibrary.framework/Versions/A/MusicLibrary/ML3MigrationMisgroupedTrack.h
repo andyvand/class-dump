@@ -7,15 +7,14 @@
 @interface ML3MigrationMisgroupedTrack
 {
     long long _persistentID;
-    long long _albumArtistPID;
 }
 
-- (id);
-- (long long);
-- (long long);
+- (id)Image=},R,N,V_CGImage;
+- (long long)oudFeedAssetsEntry",&,D,N;
+- (long long)PropagatableAttachments exist but NULL - no SEI created
+;
 
 // Remaining properties
-@property(readonly, nonatomic) long long albumArtistPID; // @synthesize albumArtistPID=_albumArtistPID;
 @property(readonly, nonatomic) long long persistentID; // @synthesize persistentID=_persistentID;
 
 @end

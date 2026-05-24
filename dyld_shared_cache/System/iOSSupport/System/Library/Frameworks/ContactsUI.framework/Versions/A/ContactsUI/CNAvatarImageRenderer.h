@@ -4,16 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNSchedulerProvider, CNUILikenessRendering, CNUIPRLikenessResolver;
+@protocol CNUIPRLikenessResolver;
 
 @interface CNAvatarImageRenderer
 {
     id <CNUIPRLikenessResolver> _resolver;
-    id <CNUILikenessRendering> _renderer;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
-+ (id)fileBannerAction: /* Error: Ran out of types for this method. */;
++ (id)setTappedSharedProfileBannerAction: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id)r`;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,15 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
@@ -42,9 +40,7 @@
 - (void)NAccountsAndGroupsViewControllerDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNUILikenessRendering> renderer; // @synthesize renderer=_renderer;
 @property(readonly, nonatomic) id <CNUIPRLikenessResolver> resolver; // @synthesize resolver=_resolver;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end
 

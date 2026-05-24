@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface IDSPinnedIdentities
 {
     NSData *_pushToken;
-    NSArray *_pinnedIdentityMetadatas;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)_';
 - (id);
 - (void);
 - (id);
@@ -24,7 +23,6 @@
 - (id)Ü9êÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *pinnedIdentityMetadatas; // @synthesize pinnedIdentityMetadatas=_pinnedIdentityMetadatas;
 @property(retain, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
 
 @end

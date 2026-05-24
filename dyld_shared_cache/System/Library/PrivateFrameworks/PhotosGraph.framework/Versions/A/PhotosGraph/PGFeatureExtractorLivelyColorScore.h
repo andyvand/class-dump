@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)text;
+- (id)requestWithTitle:url:minimumIconSize:maximumIconSize:options: /* Error: Ran out of types for this method. */;
+- (id)PGManagerWorkingContext;
 
 @end
 

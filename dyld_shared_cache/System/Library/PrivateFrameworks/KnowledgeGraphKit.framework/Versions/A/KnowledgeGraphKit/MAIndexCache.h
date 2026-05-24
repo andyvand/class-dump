@@ -9,7 +9,6 @@
 @interface MAIndexCache
 {
     NSArray *_labels;
-    NSDictionary *_cache;
 }
 
 - (long long);
@@ -18,11 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_TtCV13ControlCenter11PreferencesP33_4594EF6CB5B512FEE8A37227EC8D52EB8KVOProxy;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *cache; // @synthesize cache=_cache;
-@property(readonly, copy, nonatomic) NSArray *labels; // @synthesize labels=_labels;
 
 @end
 

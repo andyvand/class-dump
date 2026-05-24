@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PHCollection, PHFetchResult;
+@class PHCollection, PHFetchResult;
 
 @interface PXExportContainer
 {
     PHCollection *_collection;
-    NSURL *_url;
 }
 
 + (id);
 + (id);
-+ (void);
++ (void)!;
 - (id);
-- (id);
-- (void);
-- (id)nsitionCueAlignment;
+- (id)`;
+- (void);
+- (id)_wipeTransitionCueAlignment;
 - (id)g",C,N,V_activityTypeForAssetExportAnalytics;
 - (id)È	H	lø<;
 - (void);
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *assets;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface XQueryModules
 {
     NSMutableArray *_namespaces;
-    NSMutableDictionary *_namespaceIDs;
-    NSMutableArray *_prologs;
 }
 
 + (id);
 + (id);
 + (void);
-- (id);
+- (id)
+c;
 - (unsigned long long);
 - (void);
 - (id);

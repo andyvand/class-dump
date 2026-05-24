@@ -7,7 +7,6 @@
 @interface NewsArticles.NewsletterSubscriptionStatusProvider
 {
     id newsletterManager;
-    id observers;
 }
 
 - (unsigned long long);

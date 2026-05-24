@@ -9,6 +9,7 @@
 @protocol PXLibrarySummaryOutputPresenter
 
 @optional
+- (void)== eSin_PI_Zero_Cycle;
 - (void)¡%°!GùÑ8°1Â0@ù
 × ;
 - (NSString *)tentPrivacyEnabled/locked = NO, since this smart album is not currently privacy sensitive;
@@ -20,30 +21,6 @@
 @property(copy, nonatomic) NSAttributedString *attributedTitle;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSAttributedString",?,C,N
-
-@property(readonly, nonatomic) NSDictionary *defaultAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *emphasizedAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(nonatomic) _Bool wantsDisclosureIndicator;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool wantsLocationNames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
 
 @end
 

@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol AXETrackingTwoFingerGestureRecognizerDelegate;
-
 @interface AXETrackingTwoFingerGestureRecognizer
 {
     double _minimumPanDistance;
-    double _minimumPinchSeparationDeviation;
-    double _minimumRotateAngleDeviation;
-    id <AXETrackingTwoFingerGestureRecognizerDelegate> _delegate;
-    unsigned long long __currentState;
-    NSMutableArray *__touchStartEvents;
-    double __initialTouchSeparation;
-    double __initialAngleInDegrees;
-    struct CGPoint __initialCentroidLocation;
 }
 
+- (void)%@q@+;
 - (void);
+- (void)@9;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)i;
 - (double);
 - (double);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -45,21 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long _currentState; // @synthesize _currentState=__currentState;
-@property(nonatomic) double _initialAngleInDegrees; // @synthesize _initialAngleInDegrees=__initialAngleInDegrees;
-@property(nonatomic) struct CGPoint _initialCentroidLocation; // @synthesize _initialCentroidLocation=__initialCentroidLocation;
-@property(nonatomic) double _initialTouchSeparation; // @synthesize _initialTouchSeparation=__initialTouchSeparation;
-@property(retain, nonatomic) NSMutableArray *_touchStartEvents; // @synthesize _touchStartEvents=__touchStartEvents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXETrackingTwoFingerGestureRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double minimumPanDistance; // @synthesize minimumPanDistance=_minimumPanDistance;
-@property(readonly, nonatomic) double minimumPinchSeparationDeviation; // @synthesize minimumPinchSeparationDeviation=_minimumPinchSeparationDeviation;
-@property(readonly, nonatomic) double minimumRotateAngleDeviation; // @synthesize minimumRotateAngleDeviation=_minimumRotateAngleDeviation;
-@property(readonly) Class superclass;
 
 @end
 

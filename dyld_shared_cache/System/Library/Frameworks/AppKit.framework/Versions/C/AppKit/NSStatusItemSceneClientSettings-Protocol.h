@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSStatusItemSceneClientSettings
+- (_Bool)_;
+- (_Bool)C;
+- (void)k`;
+- (void);
+- (void)";
+- (struct CGRect);
+- (_Bool)e=0x%016llX, re-evaluate with FDR 2.0 format;
+- (_Bool)DeviceSupportsPersonalTranslator;
+- (_Bool)Tr9qG122eEQiKGfr6EGRdQ;
 - (void)ôÿÿÿèðÿ¬ÿ/ÿ¼m;
 - (void)ContentLuma;
 - (int)SdµhXC;
-- (_Bool);
 
 // Remaining properties
-@property _Bool allowItemDragging;
-@property _Bool allowUserRemoval;
-@property(copy) NSString *autosaveName;
-@property long long clientWindowID;
-@property double dropPriority;
-@property _Bool invalid;
-@property _Bool isPresentingContent;
-@property _Bool neverClip;
-@property _Bool participatesInNavigationLoop;
-@property int priority;
 @property _Bool resumed;
-@property float savedPreferredPosition;
-@property struct CGRect selectedContentFrame;
-@property long long selectedContentFrameOptions;
-@property _Bool systemClock;
-@property _Bool systemCompactClock;
-@property int systemInsertOrder;
-@property _Bool terminateOnRemoval;
-@property _Bool visible;
 @end
 

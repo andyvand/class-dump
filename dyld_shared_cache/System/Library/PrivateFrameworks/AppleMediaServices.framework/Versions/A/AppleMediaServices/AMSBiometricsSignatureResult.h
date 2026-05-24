@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBiometricsSignatureRequest, NSData, NSString;
+@class AMSBiometricsSignatureRequest;
 
 @interface AMSBiometricsSignatureResult
 {
     AMSBiometricsSignatureRequest *_originalRequest;
-    NSData *_publicKey;
-    NSString *_signature;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@ DH /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) AMSBiometricsSignatureRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
-@property(retain) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(retain) NSString *signature; // @synthesize signature=_signature;
 
 @end
 

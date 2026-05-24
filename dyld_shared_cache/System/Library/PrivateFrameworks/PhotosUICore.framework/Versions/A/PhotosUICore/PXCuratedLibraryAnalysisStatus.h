@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, PXCuratedLibraryAssetsDataSourceManager;
-@protocol PXCuratedLibraryEventTracker;
-
 @interface PXCuratedLibraryAnalysisStatus
 {
     long long _numberOfRequestsToCycleThroughAlternateTitles;
-    NSTimer *_alternateTitleTimer;
-    _Bool _isDaysMonthsYearsStructureEnabled;
-    _Bool _isDevicePlugged;
-    _Bool _hasBattery;
-    float _progress;
-    float _displayProgress;
-    PXCuratedLibraryAssetsDataSourceManager *_dataSourceManager;
-    id <PXCuratedLibraryEventTracker> _eventTracker;
-    long long _state;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    long long _alternateTitleIndex;
 }
 
 + (id);
@@ -45,7 +30,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)J,GAEGtGGGG;
 - (void);
 - (void);
 - (id);
@@ -56,29 +41,12 @@
 - (long long);
 - (id)× ;
 - (float)resolution image;
-- (void)uttonTitle_Skip;
+- (void)PXSharedLibraryAssistant_ButtonTitle_Skip;
 - (void)t+ÿÀ/ÊTt;
 - (id)ÈN=;
 
 // Remaining properties
 @property(readonly, nonatomic) long long alternateTitleIndex; // @synthesize alternateTitleIndex=_alternateTitleIndex;
-@property(retain, nonatomic) PXCuratedLibraryAssetsDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float displayProgress; // @synthesize displayProgress=_displayProgress;
-@property(retain, nonatomic) id <PXCuratedLibraryEventTracker> eventTracker; // @synthesize eventTracker=_eventTracker;
-@property(readonly, nonatomic) _Bool hasBattery; // @synthesize hasBattery=_hasBattery;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDaysMonthsYearsStructureEnabled; // @synthesize isDaysMonthsYearsStructureEnabled=_isDaysMonthsYearsStructureEnabled;
-@property(readonly, nonatomic) _Bool isDevicePlugged; // @synthesize isDevicePlugged=_isDevicePlugged;
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, nonatomic) float progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

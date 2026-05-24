@@ -7,11 +7,12 @@
 @class MDLAnimatedScalarArray, NSArray;
 
 @protocol MDLMorphDeformerComponent
+- (NSArray *)sValues must contain the same number of elements (expected bytes length in int/float ratio but got %lu and %lu).;
+- (NSArray *)e can only be set once;
+- (NSArray *)racker.m;
+- (MDLAnimatedScalarArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *shapeSetTargetCounts;
-@property(readonly, nonatomic) NSArray *shapeSetTargetWeights;
 @property(readonly, nonatomic) NSArray *targetShapes;
-@property(readonly, nonatomic) MDLAnimatedScalarArray *weights;
 @end
 

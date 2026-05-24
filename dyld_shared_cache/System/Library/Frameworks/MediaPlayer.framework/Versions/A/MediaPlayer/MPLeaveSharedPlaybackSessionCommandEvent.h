@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void)tyTVShowShortEditorNotes__MAPPING_MISSING__;
+- (void)__MPModelPropertyTVShowShortEditorNotes__MAPPING_MISSING__;
 - (id)d)_block_invoke;
 
 // Remaining properties

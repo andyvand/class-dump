@@ -9,10 +9,10 @@
 }
 
 + (id);
++ (id)_nsError;
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)˿;
 
 @end
 

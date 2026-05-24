@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSString, NSURL;
+@class NSURL;
 
 @interface PHImportAssetFilePresenter
 {
     NSURL *_presentedItemURL;
-    NSURL *_primaryPresentedItemURL;
-    NSOperationQueue *_presentedItemOperationQueue;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)eosCount:audiosCount: /* Error: Ran out of types for this method. */;
-- (void)tsWithOptions: /* Error: Ran out of types for this method. */;
+- (id)mediaTypeCountsWithPhotosCount:videosCount:audiosCount: /* Error: Ran out of types for this method. */;
+- (void)queryForGuestAssetsWithOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue; // @synthesize presentedItemOperationQueue=_presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL; // @synthesize presentedItemURL=_presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL; // @synthesize primaryPresentedItemURL=_primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C,V_primaryPresentedItemURL
-
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMMTRUIDialogPresenterDelegate
+- (void);
 @end
 

@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)hema;
+- (id)fromRecordSchema;
 - (void)@-publisherSpecifiedArticleIDs;
 
 // Remaining properties

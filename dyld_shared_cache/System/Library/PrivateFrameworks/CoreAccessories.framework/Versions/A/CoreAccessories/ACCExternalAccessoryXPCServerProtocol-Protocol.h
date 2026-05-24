@@ -5,5 +5,7 @@
 //
 
 @protocol ACCExternalAccessoryXPCServerProtocol
+- (void);
+- (void)_smartChargeDuration;
 @end
 

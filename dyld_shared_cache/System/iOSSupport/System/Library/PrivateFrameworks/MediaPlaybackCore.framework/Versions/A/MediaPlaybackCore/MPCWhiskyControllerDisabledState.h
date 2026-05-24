@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPCWhiskyControllerDisabledState
 {
     long long _reason;
-    NSString *_explanation;
 }
 
 - (id);
@@ -21,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void), re-enumerating [];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
 @property(nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end

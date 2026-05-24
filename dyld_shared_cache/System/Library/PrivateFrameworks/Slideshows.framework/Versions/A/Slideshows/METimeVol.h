@@ -7,10 +7,9 @@
 @interface METimeVol
 {
     float _time;
-    float _volume;
 }
 
-- (id);
+- (id);
 - (id);
 - (float);
 - (float);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly) float time; // @synthesize time=_time;
-@property(readonly) float volume; // @synthesize volume=_volume;
 
 @end
 

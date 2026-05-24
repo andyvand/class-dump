@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)FOLLOWUP_RENEW_CREDENTIALS_MESSAGE;
++ (_Bool)b>;
+- (id)runProceedableActivities:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)CPLogCTypesV;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -30,14 +30,7 @@
 - (id)ßE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

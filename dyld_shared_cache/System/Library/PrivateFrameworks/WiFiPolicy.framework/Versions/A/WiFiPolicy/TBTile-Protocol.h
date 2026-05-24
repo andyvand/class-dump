@@ -9,21 +9,10 @@
 @protocol TBTile
 
 @optional
-- (NSDate *)broadcastClientConnectCount;
+- (NSString *);
+- (NSDate *)_broadcastClientConnectCount;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *created;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,C,N
-
-@property(retain, nonatomic) NSString *etag;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
 @property(readonly, nonatomic) unsigned long long key;
-@property(readonly, nonatomic) unsigned long long networkCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @end
 

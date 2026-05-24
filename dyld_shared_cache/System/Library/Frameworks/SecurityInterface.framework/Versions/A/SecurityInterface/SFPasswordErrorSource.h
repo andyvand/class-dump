@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMatrix, NSMutableAttributedString;
+@class NSImage;
 
 @interface SFPasswordErrorSource
 {
     NSImage *_iconWarning;
-    NSImage *_iconError;
-    NSMutableAttributedString *_attrString;
-    id _controller;
-    NSMatrix *_theMatrix;
-    int SFPasswordErrorType;
 }
 
 - (void);
 - (id);
 - (id);
-- (int);
-- (void);
+- (int)_deadPeerDetectionRetryIntervalMilliseconds;
+- (void)L;
 - (id);
 
 @end

@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMIFAutocompleteResultSection
 {
     PBDataReader *_reader;
-    NSMutableArray *_resultEntrys;
-    NSString *_sectionHeader;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_resultEntrys:1;
-        unsigned int read_sectionHeader:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ag;
+- (id)_aggressiveEchoCancellationApplied;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ewResultFilter";
-- (id)t:bounds: /* Error: Ran out of types for this method. */;
+- (id)_findRouteCoordinateWithOffset:aPos:aCoord:bCoord:pointOnSegment:bounds: /* Error: Ran out of types for this method. */;
 - (id)Øõ;
 - (void)1*Ôõ?uvÒ¡@;
 

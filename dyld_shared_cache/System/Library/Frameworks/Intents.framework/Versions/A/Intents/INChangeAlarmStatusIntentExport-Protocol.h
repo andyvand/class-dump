@@ -7,13 +7,11 @@
 @class INAlarmSearch, NSArray;
 
 @protocol INChangeAlarmStatusIntentExport
-- (NSArray *)pletion: /* Error: Ran out of types for this method. */;
-- (long long)meOptionsForGetFileInformation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSArray *)provideTimeOptionsForControlHome:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)providePropertyNameOptionsForGetFileInformation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy) INAlarmSearch *alarmSearch;
-@property(copy) NSArray *alarms;
-@property long long operation;
 @end
 

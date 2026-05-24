@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface ASRSchemaASRSampledAudioFileStorageFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    NSString *_errorDomain;
-    int _underlyingErrorCode;
-    NSString *_underlyingErrorDomain;
-    int _sampledAudioStorageFailureReason;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int underlyingErrorCode:1;
-        unsigned int sampledAudioStorageFailureReason:1;
-    } _has;
-    _Bool _hasErrorDomain;
-    _Bool _hasUnderlyingErrorDomain;
 }
 
 - (void);
@@ -29,8 +16,8 @@
 - (int);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)Ҏ	;
 - (void);
 - (void);
 - (void);
@@ -45,15 +32,59 @@
 - (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)on_id AS location,
+        event_name,
+        event_description
+    FROM
+        navigation_events INNER JOIN navigation_event_types ON navigation_events.event_id = navigation_event_types.event_id;
+
+-- ev_data
+
+CREATE VIEW ev_data_view as
+    SELECT
+        PRINTF("%.1f", relative_timestamp) AS time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS date,
+        PRINTF("%.0f%%", battery_percentage * 100) AS "battery%",
+        PRINTF("%.1f", current_range_m) AS "range (meters)",
+        PRINTF("%.1f", current_battery_capacity_kwh) AS "capacity (kwh)",
+        is_charging,
+        CASE WHEN length(vehicle_data) > 0 THEN identifier END as identifier
+    FROM
+        ev_data;
+
+-- custom_route_creation_actions
+
+CREATE VIEW route_creation_actions_view AS
+    SELECT
+        rowid AS 'Index',
+        PRINTF("%.3f", request_timestamp) AS 'Request Time',
+        PRINTF("%.3f", response_timestamp) AS 'Response Time',
+        LENGTH(request_data) AS 'Request',
+        LENGTH(response_data) AS 'Response',
+        LENGTH(response_error_data) AS 'Error',
+        LENGTH(anchor_points_data) AS 'Anchor Points',
+        CASE action
+            WHEN 0 THEN 'Unset'
+            WHEN 1 THEN 'Append Anchor'
+            WHEN 2 THEN 'Delete Anchor'
+            WHEN 101 THEN 'Reverse'
+            WHEN 102 THEN 'Out and Back'
+            WHEN 103 THEN 'Close Loop'
+            WHEN 1001 THEN 'Undo'
+            WHEN 1002 THEN 'Redo'
+            ELSE 'Unknown'
+        END AS 'Action'
+    FROM
+        custom_route_creation_actions;
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)s;
+- (id)userAggregationIdRotationTimestampMs;
 - (id)%;
 - (id);
 - (void)ä«ÿ%L´yÅ&;
@@ -62,16 +93,6 @@
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(nonatomic) _Bool hasSampledAudioStorageFailureReason;
-@property(nonatomic) _Bool hasUnderlyingErrorCode;
-@property(nonatomic) _Bool hasUnderlyingErrorDomain; // @synthesize hasUnderlyingErrorDomain=_hasUnderlyingErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int sampledAudioStorageFailureReason; // @synthesize sampledAudioStorageFailureReason=_sampledAudioStorageFailureReason;
-@property(nonatomic) int underlyingErrorCode; // @synthesize underlyingErrorCode=_underlyingErrorCode;
-@property(copy, nonatomic) NSString *underlyingErrorDomain; // @synthesize underlyingErrorDomain=_underlyingErrorDomain;
 
 @end
 

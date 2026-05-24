@@ -7,6 +7,7 @@
 @protocol CNContactPickerInternalResponseDelegate;
 
 @protocol CNContactPickerViewController
+- (id <CNContactPickerInternalResponseDelegate>)disableSpellCheckInControl:inFrame:webView:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak id <CNContactPickerInternalResponseDelegate> responseDelegate;

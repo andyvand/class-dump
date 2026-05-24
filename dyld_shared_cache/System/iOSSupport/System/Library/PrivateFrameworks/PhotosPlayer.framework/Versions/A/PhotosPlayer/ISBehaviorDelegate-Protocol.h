@@ -5,5 +5,17 @@
 //
 
 @protocol ISBehaviorDelegate
+- (float)_recordValueTransformerFactory;
+- (void)_exposureIdentifier;
+- (void)_exposedEvents;
+- (void)_experimentationDelegate;
+- (_Bool)_expectVideoPlayerViewController;
+- (_Bool)_exclusionRect;
+- (void)_exceptions;
+- (_Bool)_errorState;
+- (void)_enclosingCanvasScrolling;
+- (void)_enableLineBalancing;
+- (id)_elapsedDuration;
+- (_Bool)URLActionFactory;
 @end
 

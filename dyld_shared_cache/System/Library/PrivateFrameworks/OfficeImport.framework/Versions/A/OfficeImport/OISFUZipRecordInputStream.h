@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OISFUZipRecordInputStream
 {
     id <OISFUBufferedInputStream> mInput;
-    const char *mBuffer;
-    long long mBufferStart;
-    long long mBufferEnd;
 }
 
 - (const char *);

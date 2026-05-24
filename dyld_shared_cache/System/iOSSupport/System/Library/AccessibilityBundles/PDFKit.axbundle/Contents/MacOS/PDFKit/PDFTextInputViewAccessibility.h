@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)aph;
++ (id)Z;
 + (void);
 - (_Bool);
 

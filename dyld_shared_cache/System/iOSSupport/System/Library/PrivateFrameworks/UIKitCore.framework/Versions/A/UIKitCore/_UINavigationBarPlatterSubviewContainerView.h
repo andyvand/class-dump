@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (id)ewLabel;
+- (id)setSongPopularity:forIdentifierSet: /* Error: Ran out of types for this method. */;
+- (id)_UITableViewHeaderFooterViewLabel;
 - (void)ø\l;
 
 // Remaining properties

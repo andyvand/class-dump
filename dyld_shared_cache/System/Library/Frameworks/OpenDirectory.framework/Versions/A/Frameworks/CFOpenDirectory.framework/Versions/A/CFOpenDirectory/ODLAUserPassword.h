@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     LAUserPassword *_underlying;
 }
 
-- (void);
+- (void)r state with error %i.;
 - (id);
 
 @end

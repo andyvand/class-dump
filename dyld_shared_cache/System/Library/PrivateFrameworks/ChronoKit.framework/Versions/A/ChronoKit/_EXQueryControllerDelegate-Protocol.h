@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _EXQueryController;
+
 @protocol _EXQueryControllerDelegate
+
+@optional
+- (void)5;
+- (void)setDonorBundleID:(_EXQueryController *)arg1;
 @end
 

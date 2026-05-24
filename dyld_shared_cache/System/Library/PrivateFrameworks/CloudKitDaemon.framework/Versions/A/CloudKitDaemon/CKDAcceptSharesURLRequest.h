@@ -6,13 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDAcceptSharesURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _shareAcceptedBlock;
-    NSArray *_shareMetadatasToAccept;
-    NSMutableDictionary *_shareMetadataByRequestID;
 }
 
 - (id);
@@ -21,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Dj;
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (_Bool);
 - (id)tanding decryptions;
 - (void)save a record with a CKPackage value.  Found %@;
@@ -36,8 +34,6 @@
 - (void)D»çÿóðë;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType shareAcceptedBlock; // @synthesize shareAcceptedBlock=_shareAcceptedBlock;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadataByRequestID; // @synthesize shareMetadataByRequestID=_shareMetadataByRequestID;
 @property(retain, nonatomic) NSArray *shareMetadatasToAccept; // @synthesize shareMetadatasToAccept=_shareMetadatasToAccept;
 
 @end

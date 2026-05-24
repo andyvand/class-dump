@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+@protocol ECAuthenticationMessageSigningContext;
+
 @protocol ECAuthenticationKey
+- (id <ECAuthenticationMessageSigningContext>)ary:dumping bad mapping:%@ with length: %ld /* Error: Ran out of types for this method. */;
+- (NSData *)_INDEX ON %@(%@,COUNT);;
 @end
 

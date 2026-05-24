@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFBulletinCondition.h>
 
-@class MKFTimePeriodBulletinConditionDatabaseID, NSDate, NSString, NSUUID;
-@protocol MKFBulletinRegistration, MKFBulletinTimeSpecification, MKFHome;
+@class _MKFBulletinTimeSpecification;
 
 __attribute__((visibility("hidden")))
 @interface _MKFTimePeriodBulletinCondition : _MKFBulletinCondition
@@ -15,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (id);
@@ -24,39 +23,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)_sharedSessions;
+- (id)int;
+- (id)V_accessibilityText;
+- (id)N;
+- (id)DataForPrivacy early exit:(id)arg1 no composed route to truncate;
+- (id)referenceFrame:(id)arg1 %{public}@
+================;
+- (id)trafficColors:(id)arg1 %{public}@, trafficOffsets:(id)arg2 %{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (id)[Server] reportUserConfirmationOfSharingIdentity:(id)arg1 set user-confirmed handle:%{private}@ /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 %{private}@;
+- (id)ingIdentity:(id)arg1 %s, handle:(id)arg2 %{private}@, last confirmed:%{private}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)Ջ;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);
 - (id)Aá°!EùñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFBulletinRegistration> bulletinRegistration;
-@property(readonly, copy, nonatomic) MKFTimePeriodBulletinConditionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFBulletinTimeSpecification> endElement; // @dynamic endElement;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) id <MKFBulletinTimeSpecification> startElement; // @dynamic startElement;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
+@property(retain, nonatomic) _MKFBulletinTimeSpecification *endElement; // @dynamic endElement;
 
 @end
 

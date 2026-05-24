@@ -5,5 +5,6 @@
 //
 
 @protocol DOMEventListener
+- (void)rectionFactor;
 @end
 

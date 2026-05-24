@@ -6,27 +6,17 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSError, NSPopover, NSString;
+@class NSPopover;
 
 __attribute__((visibility("hidden")))
 @interface NSThemeAutosaveButton : NSButton
 {
     long long _editState;
-    NSError *_autosavingError;
-    id _animationCompletionBlock;
-    id _showHideDelay;
-    id _eventMonitor;
-    id _flagsChangedEventMonitor;
-    NSPopover *_documentPopover;
-    NSError *_nonModalError;
-    NSPopover *_alertPopover;
-    _Bool _needsShowAlertPopover;
-    _Bool _userIsIdleForAlertPopover;
 }
 
 + (id);
 + (Class);
-- (void);
+- (void)uyejyEdaxNWSRQQwHmXz1A;
 - (_Bool);
 - (void);
 - (void);
@@ -42,46 +32,55 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
+- (void)HTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (void)_voucher>";
+- (_Bool)y"B>48;
+- (_Bool)ialStorage=}16@0:(id)arg1 8;
+- (void)"_ipAddressToConnectionKey"{map<std:(_Bool)arg1:string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)?}16@0:(_Bool)arg1 8;
+- (void)ocolImplementation=q^v^?^?^?^?^?^?^?}16@0:(id)arg1 8;
+- (void)er:(CDUnknownBlockType)arg1;
+- (void)_onqueue_connectionWaitingWithReason: /* Error: Ran out of types for this method. */;
+- (struct CGRect)NSDictionary",C,V_legacySocketStreamProperties;
+- (_Bool)NSPersistentHTTPCookie2Storage;
+- (void)ng wake up for uuid %@ for session %@ with identifier %@;
+- (void)X;
 - (id);
-- (void);
-- (id);
+- (void)%s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (id)quest;
+- (_Bool)countOfBytesExpectedToSend;
+- (void)ion Complete;
+- (void)__nsurlrequest_proto_prop_obj_16;
 - (_Bool);
+- (id)e)e8eii
+iiii)i8ioo
+oooo)o8osstt;
 - (void);
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)setCgsWindow:(struct CGRect)arg1;
 - (void)th:/System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI /* Error: Ran out of types for this method. */;
 - (void)ÿüp"D;
 
 // Remaining properties
-@property(readonly) _Bool _shouldShowSeparatorField;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSPopover *displayedPopover;
-@property(copy) NSError *documentAutosavingError;
-@property(readonly) unsigned long long hash;
-@property(copy) NSError *nonModalDocumentError;
-@property(readonly) Class superclass;
 
 @end
 

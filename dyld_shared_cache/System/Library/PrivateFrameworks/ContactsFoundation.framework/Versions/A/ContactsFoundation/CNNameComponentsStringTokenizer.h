@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CNNameComponentsStringTokenizer
 {
     NSString *_string;
-    NSPersonNameComponents *_components;
-    NSArray *_tokens;
-    unsigned long long _options;
 }
 
-+ (id);
++ (id)	
+;
 + (id);
 + (id);
 + (id);
@@ -24,7 +22,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 - (void);
@@ -34,22 +32,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)crementing network energy by energy=%f;
+- (void)ldap_connection_start:(id)arg1:: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(retain) NSPersonNameComponents *components; // @synthesize components=_components;
-@property unsigned long long options; // @synthesize options=_options;
 @property(copy) NSString *string; // @synthesize string=_string;
-@property(retain) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

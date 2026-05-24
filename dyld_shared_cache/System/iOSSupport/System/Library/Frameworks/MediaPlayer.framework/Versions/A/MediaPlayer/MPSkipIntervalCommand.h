@@ -14,11 +14,11 @@
 }
 
 - (void);
+- (id);
 - (id);
+- (id)deviceIdentifier;
 - (id);
-- (id);
-- (id);
-- (void)o_KEY;
+- (void)__containsVideo_KEY;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *preferredIntervals; // @synthesize preferredIntervals=_preferredIntervals;

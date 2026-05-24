@@ -17,22 +17,6 @@
 - (unsigned long long)ated to person changes;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isReliable;
-@property(readonly, nonatomic) unsigned long long numberOfAssets;
-@property(readonly, nonatomic) unsigned long long numberOfDominantSceneAssets;
-@property(readonly, nonatomic) unsigned long long numberOfHighConfidenceAssets;
-@property(readonly, nonatomic) unsigned long long numberOfSearchConfidenceAssets;
-@property(readonly, nonatomic) NSString *placeInterestType;
-@property(readonly, nonatomic) double relevance;
-@property(readonly, nonatomic) unsigned long long sceneIdentifier;
-@property(readonly) Class superclass;
 @end
 

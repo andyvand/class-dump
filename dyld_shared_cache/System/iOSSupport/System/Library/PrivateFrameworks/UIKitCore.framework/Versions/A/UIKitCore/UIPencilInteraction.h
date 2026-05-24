@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIHoverGestureRecognizer, UIView;
-@protocol BSInvalidatable, UIInteractionEffect, UIPencilInteractionDelegate;
-
 @interface UIPencilInteraction
 {
     struct {
@@ -19,18 +16,6 @@
         unsigned int delegateSupportsPrivateDidReceiveSqueeze:1;
         unsigned int queriedDispatchBehavior:1;
     } _interactionFlags;
-    _Bool _enabled;
-    UIView *_view;
-    id <BSInvalidatable> _eventRegistrationToken;
-    unsigned long long _cachedDispatchBehavior;
-    UIHoverGestureRecognizer *_hoverGestureRecognizer;
-    double _lastKnownHoverZOffset;
-    double _lastKnownHoverAzimuthAngle;
-    double _lastKnownHoverAltitudeAngle;
-    double _lastKnownHoverRollAngle;
-    id <UIPencilInteractionDelegate> _delegate;
-    struct CGVector _lastKnownHoverAzimuthUnitVector;
-    struct CAPoint3D _lastKnownHoverLocation3D;
 }
 
 + (_Bool);
@@ -42,9 +27,9 @@
 + (void);
 + (void);
 + (long long);
-- (void);
-- (void);
-- (void);
+- (void)eSession_Chat.m;
+- (void)AFetchFamilyCircleRequestClass(void)_block_invoke;
+- (void)arameter %p> { guid:(id)arg1 %@, assocatedMessageType:%lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -64,17 +49,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (void);
+- (void)_payloadSMIMESigningCertificateUUIDOverrideable;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)updateRoundedCornerLabels:(id)arg1;
+- (id)(;
 - (id);
 - (id);
 - (id)ñZð1Â0@ù
@@ -84,41 +69,17 @@
 × ;
 - (void)ilPairingUI"b1"cachedHasUsedPassivePencil"b1};
 - (id)ViewController";
-- (void)eactiveActiveKeys;
+- (void)_deactiveActiveKeys;
 - (id)tentSizeCategory:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)ingHostingEnvironmentObserver;
+- (id)setHighlightedVariantIndex:key: /* Error: Ran out of types for this method. */;
+- (id)_UISceneKeyboardProxyLayerForwardingHostingEnvironmentObserver;
 - (void)ornerRadii(const _UIIntegralRect, const _UIIntegralCornerRadii);
 - (void)dDictationDidBegin(void);
-- (id)BSceneCSg;
+- (id)So7FBSceneCSg;
 - (void)Ø1Úd;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _cachedDispatchBehavior; // @synthesize _cachedDispatchBehavior;
-@property(readonly, nonatomic) unsigned long long _dispatchBehavior;
-@property(readonly, nonatomic) id <BSInvalidatable> _eventRegistrationToken; // @synthesize _eventRegistrationToken;
-@property(readonly, nonatomic) UIHoverGestureRecognizer *_hoverGestureRecognizer; // @synthesize _hoverGestureRecognizer;
-@property(readonly, nonatomic) double _lastKnownHoverAltitudeAngle; // @synthesize _lastKnownHoverAltitudeAngle;
-@property(readonly, nonatomic) double _lastKnownHoverAzimuthAngle; // @synthesize _lastKnownHoverAzimuthAngle;
-@property(readonly, nonatomic) struct CGVector _lastKnownHoverAzimuthUnitVector; // @synthesize _lastKnownHoverAzimuthUnitVector;
-@property(readonly, nonatomic) struct CAPoint3D _lastKnownHoverLocation3D; // @synthesize _lastKnownHoverLocation3D;
-@property(readonly, nonatomic) double _lastKnownHoverRollAngle; // @synthesize _lastKnownHoverRollAngle;
-@property(readonly, nonatomic) double _lastKnownHoverZOffset; // @synthesize _lastKnownHoverZOffset;
 @property(readonly, nonatomic) _Bool _registrationPendingWindowMoveToScene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIPencilInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

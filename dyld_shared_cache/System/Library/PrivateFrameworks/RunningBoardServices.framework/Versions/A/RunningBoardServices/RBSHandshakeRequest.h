@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface RBSHandshakeRequest
 {
     unsigned int _auid;
-    unsigned int _euid;
-    NSSet *_assertionDescriptors;
-    NSArray *_savedEndowments;
 }
 
-+ (_Bool);
++ (_Bool){;
 - (id);
 - (unsigned int);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,16 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *assertionDescriptors; // @synthesize assertionDescriptors=_assertionDescriptors;
-@property(nonatomic) unsigned int auid; // @synthesize auid=_auid;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int euid; // @synthesize euid=_euid;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *savedEndowments; // @synthesize savedEndowments=_savedEndowments;
-@property(readonly) Class superclass;
 
 @end
 

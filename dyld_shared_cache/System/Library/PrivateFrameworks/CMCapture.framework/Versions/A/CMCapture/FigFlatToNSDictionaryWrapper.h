@@ -8,17 +8,11 @@ __attribute__((visibility("hidden")))
 @interface FigFlatToNSDictionaryWrapper
 {
     struct OpaqueFigFlatDictionary *_flatDictionary;
-    struct OpaqueFigFlatDictionaryKeySpec *_keySpec;
-    int _keySpace;
-    void *_dictionaryBacking;
-    void *_exportedKeySpec;
-    CDUnknownBlockType _deallocatorBlock;
-    struct os_unfair_lock_s _lazyInitializationMutex;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)R,V_formatScientificStringMinus;
 - (id);
 - (id);
 - (id);

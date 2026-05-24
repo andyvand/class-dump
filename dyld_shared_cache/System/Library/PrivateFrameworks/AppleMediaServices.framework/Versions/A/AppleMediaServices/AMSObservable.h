@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSError, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface AMSObservable
 {
     unsigned long long _behavior;
-    NSError *_failureError;
-    NSString *_logKey;
-    NSMutableArray *_observers;
-    NSMutableArray *_queuedResults;
-    NSObject<OS_dispatch_queue> *_sendMessageQueue;
-    NSConditionLock *_stateLock;
 }
 
 - (id);
@@ -23,12 +14,12 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)SiriShouldRouteCommandsToLegacyMusicApplication;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)s: /* Error: Ran out of types for this method. */;
+- (id)setPercentEncodedQueryItems: /* Error: Ran out of types for this method. */;
 - (void)clientOnlyEventDate;
 - (id)lR};
 - (id)lic}@Handling result of loadWithCompletion.;
@@ -59,14 +50,6 @@ n[¸re®®®®®¶Þ¢Ñn_þ5`îûæ®®®®®Ñ©êAâRewÇ|Å�
 
 // Remaining properties
 @property(readonly) unsigned long long behavior; // @synthesize behavior=_behavior;
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, getter=isComplete) _Bool complete;
-@property(retain) NSError *failureError; // @synthesize failureError=_failureError;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSMutableArray *observers; // @synthesize observers=_observers;
-@property(retain) NSMutableArray *queuedResults; // @synthesize queuedResults=_queuedResults;
-@property(retain) NSObject<OS_dispatch_queue> *sendMessageQueue; // @synthesize sendMessageQueue=_sendMessageQueue;
-@property(retain) NSConditionLock *stateLock; // @synthesize stateLock=_stateLock;
 
 @end
 

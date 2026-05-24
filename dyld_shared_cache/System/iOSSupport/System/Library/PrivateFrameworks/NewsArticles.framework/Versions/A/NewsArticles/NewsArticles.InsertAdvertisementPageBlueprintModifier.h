@@ -7,8 +7,6 @@
 @interface NewsArticles.InsertAdvertisementPageBlueprintModifier
 {
     id advertisementModel;
-    id articlePage;
-    id tracker;
 }
 
 @end

@@ -5,12 +5,13 @@
 //
 
 @class UIViewController;
-@protocol CKBrowserViewControllerProtocol, CKExpandedAppViewControllerDelegate;
+@protocol CKBrowserViewControllerProtocol;
 
 @protocol CKExpandedAppViewControllerProtocol
+- (id)Regex;
+- (void)LoopCGAKGGSo6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyA1_GGA4_G;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController<CKBrowserViewControllerProtocol> *contentViewController;
-@property(nonatomic) __weak id <CKExpandedAppViewControllerDelegate> delegate;
 @end
 

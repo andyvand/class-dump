@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLocale, NSTimeZone;
+@class NSLocale;
 
 @interface REMNLQueryParser
 {
     _Bool _forTesting;
-    NSLocale *_locale;
-    NSTimeZone *_timeZone;
-    NSDate *_referenceDate;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
 
 @end
 

@@ -6,58 +6,40 @@
 
 #import <MechanismBase/MechanismBase.h>
 
-@class NSDictionary, NSMutableArray, NSString;
-@protocol LACAuthenticationUIManaging, LACBackoffCounter, LACEvaluationRequest;
+@protocol LACBackoffCounter;
 
 @interface MechanismUI_PC : MechanismBase
 {
     MechanismBase *_nonUiMechanism;
-    MechanismBase *_backgroundMechanism;
-    MechanismBase *_fallbackMechanism;
-    NSMutableArray *_continueMechanisms;
-    unsigned long long _mechanismIndex;
-    id <LACEvaluationRequest> _request;
-    long long _policy;
-    NSDictionary *_internalInfo;
-    NSDictionary *_policyOptions;
-    NSDictionary *_additionalControllerInternalInfo;
-    NSDictionary *_eventProcessing;
-    NSDictionary *_previousResult;
-    _Bool _usingSecureIO;
-    id <LACAuthenticationUIManaging> _uiManager;
 }
 
-- (_Bool);
+- (_Bool)ialized;
+- (void)r this distribution type;
+- (void)ean() - not supported for this distribution type;
+- (id)ile:(id)arg1;
+- (void)Ascii()  - only LOG type supported for weights (file %s);
+- (void)VSD type supported for variances in GMIS (file %s);
+- (id)ianMixtureModelsHeader:(long long)arg1:readAscii()  - only INVSD type supported for variances in GMIS (file %s) /* Error: Ran out of types for this method. */;
+- (void)y be called after initialize();
+- (void);
+- (void)ect:scoresupervector() can only be called after initialize() /* Error: Ran out of types for this method. */;
+- (void)Detect:(id)arg1 supervector not enabled in config;
+- (void)only be called after initialize();
+- (_Bool)best_start:(id)arg1 %u
+best_end:%u
+best_score:%.3f
+ /* Error: Ran out of types for this method. */;
+- (_Bool)after initialize();
+- (void));
+- (id)transform_file;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)tionLabel]-[_rotationTextField(==_sourceSizeWidth)];
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <LACBackoffCounter> backoffCounter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

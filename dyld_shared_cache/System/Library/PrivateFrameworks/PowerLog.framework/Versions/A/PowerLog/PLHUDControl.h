@@ -11,7 +11,7 @@
 
 - (void);
 - (_Bool);
-- (void);
+- (void)NSt3__120__shared_ptr_emplaceI8ImsTcpNwNS_9allocatorIS1_EEEE;
 
 // Remaining properties
 @property(nonatomic) _Bool internalHUDEnabled; // @synthesize internalHUDEnabled=_internalHUDEnabled;

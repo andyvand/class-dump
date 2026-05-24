@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLIndexIntermediate : NSSQLIntermediate
 {
     NSSQLBinaryIndex *_index;
-    _Bool _isHandlingExpressions;
 }
 
 - (_Bool);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ITE_ENABLE_SEE=1" required to activate SEE;
 
 @end
 

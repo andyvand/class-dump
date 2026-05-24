@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)CNObservableTimeoutAfterDelayBlockObserver;
+- (id)ioRecordTypeForSpeechRequestOptions:useBorealisBuffer:currentClientConfiguration:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void)rB5;
 
 @end

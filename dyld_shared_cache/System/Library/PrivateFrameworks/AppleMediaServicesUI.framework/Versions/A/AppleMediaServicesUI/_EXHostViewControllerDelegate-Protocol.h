@@ -5,5 +5,8 @@
 //
 
 @protocol _EXHostViewControllerDelegate
+
+@optional
+- (_Bool)hashes are not the same;
 @end
 

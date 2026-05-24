@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKTransitAppletCommutePlan
 {
     NSString *_identifier;
-    NSString *_uniqueIdentifier;
-    unsigned long long _status;
-    NSDate *_startDate;
-    NSDate *_expirationDate;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)|;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,7 +20,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)appDataStallTimerMsecs;
 - (id);
 - (void);
 - (id);
@@ -33,16 +29,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id)PassWithUniqueIdentifier:(id)arg1 didUpdateBalanceReminder:forBalanceWithIdentifier: /* Error: Ran out of types for this method. */;
-- (void)assTileValueText;
+- (id)paymentPassWithUniqueIdentifier:(id)arg1 didUpdateBalanceReminder:forBalanceWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)PKPassTileValueText;
 - (void)erlihy@icloud.com;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

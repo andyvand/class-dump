@@ -9,8 +9,6 @@
 @interface WBSSearchSuggestionsFetcher
 {
     unsigned long long _numberOfPendingFetches;
-    _Bool _hasConnectionToSearchHelper;
-    WBSOpenSearchURLTemplate *_suggestionsURLTemplate;
 }
 
 - (id);
@@ -21,10 +19,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void):completionHandler: /* Error: Ran out of types for this method. */;
+- (void)removeEntriesForKeyStrings:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFetching) _Bool fetching;
 @property(readonly, nonatomic) WBSOpenSearchURLTemplate *suggestionsURLTemplate; // @synthesize suggestionsURLTemplate=_suggestionsURLTemplate;
 
 @end

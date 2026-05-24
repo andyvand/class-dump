@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBExecuteToolCommand
 {
     NSString *_toolIdentifier;
-    NSData *_toolInvocationData;
 }
 
 - (id);
@@ -21,23 +20,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)localIdentifierMappingsForCloudIdentifiers:(id)arg1;
+- (id)ted formats" lookup for asset:%{public}@. Type identifier:%{public}@, codec (if video):%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)gaged: /* Error: Ran out of types for this method. */;
+- (void)setPreviouslyEngaged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *toolIdentifier; // @synthesize toolIdentifier=_toolIdentifier;
-@property(copy, nonatomic) NSData *toolInvocationData; // @synthesize toolInvocationData=_toolInvocationData;
 
 @end
 

@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BWPhotoEncoderNodeAttachedMediaConfiguration
 {
     float _mainImageDownscalingFactor;
-    CDStruct_79c71658 _dimensions;
-    _Bool _keepInputDimensions;
-    long long _propagationMode;
 }
 
 - (void);
@@ -19,19 +16,14 @@ __attribute__((visibility("hidden")))
 - (float);
 - (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (long long);
 - (id);
 - (CDStruct_1ef3fb1f)ÿÿ¨ÿÿÿ§ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1ef3fb1f dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly, nonatomic) _Bool keepInputDimensions; // @synthesize keepInputDimensions=_keepInputDimensions;
 @property(readonly, nonatomic) float mainImageDownscalingFactor; // @synthesize mainImageDownscalingFactor=_mainImageDownscalingFactor;
-@property(readonly, nonatomic) _Bool propagatesDownstream;
-@property(nonatomic) long long propagationMode; // @synthesize propagationMode=_propagationMode;
-@property(readonly, nonatomic) _Bool requiresEncoding;
 
 @end
 

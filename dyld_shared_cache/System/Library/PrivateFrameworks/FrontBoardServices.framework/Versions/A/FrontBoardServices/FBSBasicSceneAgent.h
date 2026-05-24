@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FBSSceneHandle;
 
 @interface FBSBasicSceneAgent
@@ -19,19 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setOneTimeOnly: /* Error: Ran out of types for this method. */;
+- (id)setAVCFLayer: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <FBSSceneHandle> scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
 
 @end
 

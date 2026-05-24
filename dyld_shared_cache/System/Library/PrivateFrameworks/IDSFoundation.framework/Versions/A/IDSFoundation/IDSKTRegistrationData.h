@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSData;
 
 @interface IDSKTRegistrationData
 {
     _Bool _uploadedToKVS;
-    NSData *_ktDataForRegistration;
-    NSData *_ktPublicAccountKey;
-    NSData *_ktDataSignature;
-    NSDate *_registeredTime;
-    NSDate *_ktAccountKeyTimestamp;
-    NSDate *_ktOptInTimestamp;
-    unsigned long long _ktOptInStatus;
-    NSNumber *_ktAccountKeyErrorCode;
-    NSNumber *_ktOptInErrorCode;
-    NSString *_dsid;
 }
 
 + (_Bool);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)q ;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -36,36 +26,26 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)H87C;
 - (void);
 - (id);
 - (id)	
 ;
 - (void)Xç;
-- (void)dZoneDefaultName;
+- (void)CKRecordZoneDefaultName;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain, nonatomic) NSNumber *ktAccountKeyErrorCode; // @synthesize ktAccountKeyErrorCode=_ktAccountKeyErrorCode;
-@property(retain, nonatomic) NSDate *ktAccountKeyTimestamp; // @synthesize ktAccountKeyTimestamp=_ktAccountKeyTimestamp;
 @property(retain, nonatomic) NSData *ktDataForRegistration; // @synthesize ktDataForRegistration=_ktDataForRegistration;
-@property(retain, nonatomic) NSData *ktDataSignature; // @synthesize ktDataSignature=_ktDataSignature;
-@property(retain, nonatomic) NSNumber *ktOptInErrorCode; // @synthesize ktOptInErrorCode=_ktOptInErrorCode;
-@property(nonatomic) unsigned long long ktOptInStatus; // @synthesize ktOptInStatus=_ktOptInStatus;
-@property(retain, nonatomic) NSDate *ktOptInTimestamp; // @synthesize ktOptInTimestamp=_ktOptInTimestamp;
-@property(retain, nonatomic) NSData *ktPublicAccountKey; // @synthesize ktPublicAccountKey=_ktPublicAccountKey;
-@property(retain, nonatomic) NSDate *registeredTime; // @synthesize registeredTime=_registeredTime;
-@property(nonatomic) _Bool uploadedToKVS; // @synthesize uploadedToKVS=_uploadedToKVS;
 
 @end
 

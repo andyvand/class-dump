@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VSSubscriptionFetchOptionDescription
 {
     _Bool _container;
-    NSString *_key;
-    id _defaultValue;
-    unsigned long long _minCount;
-    Class _allowedClass;
-    NSPredicate *_allowedValuePredicate;
 }
 
 - (void);
-- (void);
+- (void)browser:(unsigned long long)arg1 selectionIndexesForProposedSelection:inColumn: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -27,19 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (void);
-- (id);
+- (id)E}SJe;
 - (void);
 - (void)	;
 - (unsigned long long)etch identity provider.;
 - (void)P*þÿ;
 
 // Remaining properties
-@property(retain, nonatomic) Class allowedClass; // @synthesize allowedClass=_allowedClass;
-@property(copy, nonatomic) NSPredicate *allowedValuePredicate; // @synthesize allowedValuePredicate=_allowedValuePredicate;
-@property(nonatomic, getter=isContainer) _Bool container; // @synthesize container=_container;
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) unsigned long long minCount; // @synthesize minCount=_minCount;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSOperationQueue;
-
 @interface CKDAccountNotifier
 {
     _Bool _warmingUp;
-    int _accountChangedToken;
-    NSMapTable *_notificationHandlers;
-    NSOperationQueue *_accountChangeHandlerQueue;
-    NSMutableDictionary *_authTokenRenewalHandlersByAccountID;
 }
 
 + (id);
@@ -28,10 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (void);
-- (void);
+- (void)performMessageHighImpactChangeAction:(id)arg1;
+- (void)B;
 - (void);
 - (id);
 - (_Bool);
@@ -39,11 +33,7 @@
 - (void)Private PCS:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *accountChangeHandlerQueue; // @synthesize accountChangeHandlerQueue=_accountChangeHandlerQueue;
 @property(nonatomic) int accountChangedToken; // @synthesize accountChangedToken=_accountChangedToken;
-@property(retain, nonatomic) NSMutableDictionary *authTokenRenewalHandlersByAccountID; // @synthesize authTokenRenewalHandlersByAccountID=_authTokenRenewalHandlersByAccountID;
-@property(retain, nonatomic) NSMapTable *notificationHandlers; // @synthesize notificationHandlers=_notificationHandlers;
-@property(getter=isWarmingUp) _Bool warmingUp; // @synthesize warmingUp=_warmingUp;
 
 @end
 

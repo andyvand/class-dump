@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRAVOutputContextEndpoint.h>
 
-@class MRAVRoutingDiscoverySession, MRGroupSessionEligibilityMonitor, NSString;
+@class MRAVRoutingDiscoverySession;
 
 @interface MRAVLocalEndpoint : MRAVOutputContextEndpoint
 {
@@ -16,14 +16,14 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)setHasVoiceCommandEditIntent:(id)arg1;
 - (void);
 - (_Bool)";
 - (_Bool)%@;
@@ -31,14 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MRAVRoutingDiscoverySession *audioDiscoverySession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MRGroupSessionEligibilityMonitor *groupSessionEligibilityMonitor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

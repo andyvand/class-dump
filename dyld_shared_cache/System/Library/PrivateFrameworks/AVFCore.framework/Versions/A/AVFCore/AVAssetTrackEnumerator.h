@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetTrackEnumerator
 {
     NSString *_mediaType;
-    NSArray *_mediaCharacteristics;
-    NSEnumerator *_enumerator;
 }
 
 + (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)layLayout";
 - (void);
 - (id);
 

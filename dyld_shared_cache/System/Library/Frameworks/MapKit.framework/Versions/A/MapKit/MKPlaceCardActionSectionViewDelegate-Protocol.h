@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKPlaceCardActionSectionView;
+
 @protocol MKPlaceCardActionSectionViewDelegate
+- (void)setIdentifierToCoalitionID:(MKPlaceCardActionSectionView *)arg1;
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (id)À5;
-- (void);
+- (void)_performBlockWhenCheckinCompleted:(id)arg1;
 - (id);
 - (id);
 - (id);

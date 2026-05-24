@@ -6,26 +6,11 @@
 
 #import <AppKit/NSResponder.h>
 
-@class NSArray, NSBundle, NSPointerArray, NSString, NSView;
+@class NSString;
 
 @interface NSViewController : NSResponder
 {
     NSString *_nibName;
-    NSBundle *_nibBundle;
-    id _representedObject;
-    NSString *_title;
-    NSView *view;
-    NSArray *_topLevelObjects;
-    NSPointerArray *_editors;
-    id _autounbinder;
-    NSString *_designNibBundleIdentifier;
-    id __privateData;
-    unsigned int _viewIsAppearing:1;
-    unsigned int _delayViewDidAppear:1;
-    unsigned int _isContentViewController:1;
-    unsigned int _shouldDirtyLayoutOnSizeChanges:1;
-    unsigned int _hasObservationTrackingDictionary:1;
-    unsigned int _reserved:27;
 }
 
 @end

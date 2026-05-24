@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString, NUVideoAttributes;
-@protocol NURenderStatistics;
+@class NUVideoAttributes;
 
 @interface _NUVideoAttributesResult : _NURenderResult
 {
@@ -20,14 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NUVideoAttributes *videoAttributes; // @synthesize videoAttributes=_videoAttributes;
 
 @end

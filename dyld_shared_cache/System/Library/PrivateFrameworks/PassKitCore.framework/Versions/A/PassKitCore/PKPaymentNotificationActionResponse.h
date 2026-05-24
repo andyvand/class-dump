@@ -6,25 +6,21 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKPaymentNotificationActionResponse : PKPaymentWebServiceResponse
 {
     NSDictionary *_aps;
-    NSString *_action;
-    NSString *_requestID;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)ebService;
+- (id)_destinationWebService;
 - (void)contact-bank;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *action; // @synthesize action=_action;
 @property(readonly, copy, nonatomic) NSDictionary *aps; // @synthesize aps=_aps;
-@property(readonly, copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end
 

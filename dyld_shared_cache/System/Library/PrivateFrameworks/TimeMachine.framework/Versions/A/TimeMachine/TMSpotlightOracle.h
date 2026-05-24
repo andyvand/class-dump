@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDSPathFilter, NSArray, NSString;
+@class MDSPathFilter;
 
 @interface TMSpotlightOracle
 {
     MDSPathFilter *_spotlightFilter;
-    NSString *_mountPoint;
-    int _dev;
-    _Bool _indexTrustable;
 }
 
 + (id);
@@ -32,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned char currentIndexingState;
-@property(readonly) int device; // @synthesize device=_dev;
-@property _Bool indexTrustable; // @synthesize indexTrustable=_indexTrustable;
-@property(readonly) NSString *mountPoint; // @synthesize mountPoint=_mountPoint;
 @property(readonly) MDSPathFilter *spotlightFilter; // @synthesize spotlightFilter=_spotlightFilter;
-@property(readonly) NSArray *stickyExclusionPaths;
 
 @end
 

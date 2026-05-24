@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol LACRemoteContextOwnership, OS_os_transaction;
+@class NSString, NSUUID;
 
 @interface RemoteContext
 {
     NSString *_description;
-    NSUUID *_uuid;
-    id <LACRemoteContextOwnership> _ownership;
-    unsigned long long _acmExternalizedFormHash;
-    RemoteContext *_originalOwnership;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (void);
+- (void)=H;
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
@@ -29,10 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long acmExternalizedFormHash; // @synthesize acmExternalizedFormHash=_acmExternalizedFormHash;
-@property(readonly, nonatomic) RemoteContext *originalOwnership; // @synthesize originalOwnership=_originalOwnership;
-@property(readonly, nonatomic) id <LACRemoteContextOwnership> ownership; // @synthesize ownership=_ownership;
-@property(readonly, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

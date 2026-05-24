@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
-
 @interface SGSimpleTimeRange
 {
     struct SGUnixTimestamp_ _start;
-    struct SGUnixTimestamp_ _end;
-    NSTimeZone *_startTimeZone;
-    NSTimeZone *_endTimeZone;
-    _Bool _floating;
-    long long _startUTCOffsetSeconds;
-    long long _endUTCOffsetSeconds;
 }
 
 + (id);
@@ -22,7 +14,7 @@
 + (struct SGUnixTimestamp_);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -43,12 +35,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)h;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -61,19 +53,11 @@
 - (id);
 - (struct SGUnixTimestamp_);
 - (id);
-- (_Bool);
+- (_Bool)proposedStartDateForEvent: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct SGUnixTimestamp_ end; // @synthesize end=_end;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSTimeZone *endTimeZone;
-@property(readonly, nonatomic) long long endUTCOffsetSeconds; // @synthesize endUTCOffsetSeconds=_endUTCOffsetSeconds;
-@property(readonly, nonatomic, getter=isFloating) _Bool floating; // @synthesize floating=_floating;
 @property(readonly, nonatomic) struct SGUnixTimestamp_ start; // @synthesize start=_start;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) NSTimeZone *startTimeZone;
-@property(readonly, nonatomic) long long startUTCOffsetSeconds; // @synthesize startUTCOffsetSeconds=_startUTCOffsetSeconds;
 
 @end
 

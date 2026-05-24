@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
+- (id)(=;
+- (void)ќ;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)abilityFetcher";
-- (id)inCoordinate;
+- (id)_originCoordinate;
 - (id)AÐABPCÐC DàD|FGàG H¼IJK\LM`NèN;
 
 @end

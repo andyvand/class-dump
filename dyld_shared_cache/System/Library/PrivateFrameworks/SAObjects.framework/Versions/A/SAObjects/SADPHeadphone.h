@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADPDeviceDetail.h>
 
-@class NSString;
-
 @interface SADPHeadphone : SADPDeviceDetail
 {
 }
@@ -16,14 +14,13 @@
 + (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id));
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool inOrOverEar;
-@property(copy, nonatomic) NSString *position;
 
 @end
 

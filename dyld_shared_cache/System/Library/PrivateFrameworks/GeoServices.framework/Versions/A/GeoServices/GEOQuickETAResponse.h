@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOQuickETATransitDeparturesInfo, NSMutableArray, NSString;
+@class GEOLocation;
 
 @interface GEOQuickETAResponse
 {
     GEOLocation *_sourceLocation;
-    GEOLocation *_destinationLocation;
-    unsigned int _responseETASeconds;
-    unsigned int _baselineETASeconds;
-    double _distance;
-    NSString *_routeDescription;
-    GEOQuickETATransitDeparturesInfo *_transitDeparturesInfo;
-    double _distanceToDepartureStop;
-    double _walkingDurationToDepartureStop;
-    NSMutableArray *_sortedETAs;
 }
 
 - (double);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)ResultBuilder;
 - (id);
 - (id);
 - (double);
@@ -35,16 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int baselineETASeconds; // @synthesize baselineETASeconds=_baselineETASeconds;
-@property(readonly, nonatomic) GEOLocation *destinationLocation; // @synthesize destinationLocation=_destinationLocation;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) double distanceToDepartureStop; // @synthesize distanceToDepartureStop=_distanceToDepartureStop;
-@property(readonly, nonatomic) unsigned int responseETASeconds; // @synthesize responseETASeconds=_responseETASeconds;
-@property(readonly, nonatomic) NSString *routeDescription; // @synthesize routeDescription=_routeDescription;
-@property(readonly, nonatomic) NSMutableArray *sortedETAs; // @synthesize sortedETAs=_sortedETAs;
 @property(readonly, nonatomic) GEOLocation *sourceLocation; // @synthesize sourceLocation=_sourceLocation;
-@property(readonly, nonatomic) GEOQuickETATransitDeparturesInfo *transitDeparturesInfo; // @synthesize transitDeparturesInfo=_transitDeparturesInfo;
-@property(readonly, nonatomic) double walkingDurationToDepartureStop; // @synthesize walkingDurationToDepartureStop=_walkingDurationToDepartureStop;
 
 @end
 

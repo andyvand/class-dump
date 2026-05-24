@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMDispatchQueue
 {
     unsigned long long _fifo;
-    _Bool _suspended;
-    _Bool _cancelled;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_dispatch_queue> *_lockQueue;
-    struct __CFBinaryHeap *_heap;
-    NSMutableDictionary *_dispatchQueueBlocks;
 }
 
 + (id);
@@ -31,15 +25,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)Ka;
+- (void)WTF:(CDUnknownBlockType)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -48,12 +42,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSMutableDictionary *dispatchQueueBlocks; // @synthesize dispatchQueueBlocks=_dispatchQueueBlocks;
-@property(retain, nonatomic) struct __CFBinaryHeap *heap; // @synthesize heap=_heap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *lockQueue; // @synthesize lockQueue=_lockQueue;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

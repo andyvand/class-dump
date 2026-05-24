@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)nRange: /* Error: Ran out of types for this method. */;
-- (id)nsionIconBadgePaddingAroundBalloon;
++ (id)attributedString:containsConfirmedMentionInRange: /* Error: Ran out of types for this method. */;
+- (id)extensionIconBadgePaddingAroundBalloon;
 
 @end
 

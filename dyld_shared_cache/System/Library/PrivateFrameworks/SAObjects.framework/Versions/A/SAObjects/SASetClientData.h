@@ -12,13 +12,13 @@
 {
 }
 
++ (id);
 + (id);
-+ (id);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)i, seteugid(%u) => %i;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *holdToTalkThresholdInMilliseconds;

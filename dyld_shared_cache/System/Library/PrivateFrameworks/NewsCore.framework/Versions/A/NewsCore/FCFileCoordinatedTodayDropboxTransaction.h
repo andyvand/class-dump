@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
-
 @interface FCFileCoordinatedTodayDropboxTransaction
 {
     unsigned long long _transactionType;
-    NSArray *_insertedOrUpdatedHistoryItems;
-    NSSet *_deletedArticleIDs;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id); float s = 1.0/(im.r+im.g+im.b); float r = im.r*s; float b = im.b*s; float d = 1.0-.8*smoothstep(0.2, 0.4, r-b); damp *= d; damp = amt < 1.0 ? 1.0 :damp; damp = amt > 2.5 ? min(damp+(amt-2.5)/5.0, 1.0) :damp; float sat = min(amt, 3.0); vec4 result; result.rgb = (im.rgb - gray)*sat + gray; result.rgb = mix(im.rgb, result.rgb, damp); result.a = im.a; return premultiply(result); } kernel vec4 colorContrast2(sampler image, float amt) { vec4 im, result ; im = unpremultiply(sample(image, samplerCoord(image))) ; result = im; vec3 diff = im.rgb-dot(im.rgb, vec3(0.0, .3, .5)); float dist = distance(diff, vec3(0.0)); dist = smoothstep(0.0, 1.0, dist); float strength = 5.0*dist*amt ; vec3 pos = max(im.rgb, 1.0)-1.0 + min(im.rgb, 0.0); im.rgb = clamp(im.rgb, 0.0, 1.0); strength *= im.b-im.g ; strength = max(strength, -0.35); result.rgb = (1.0+strength*0.0)*im.rgb/(strength+1.0-(im.rgb*strength)) + pos; return premultiply(result) ; } kernel vec4 comboCast (sampler image, float lum, float grayI, float grayQ, float strength) { vec4 im = unpremultiply(sample(image, samplerCoord(image))) ; vec4 pix = clamp(im, 0.0, 1.0); pix.rgb = pow(pix.rgb, vec3(.25)); pix.rgb = pix.r * vec3(0.299, 0.595716, 0.211456) + pix.g * vec3(0.587, -0.274453, -0.522591) + pix.b * vec3(0.114, -0.321263, 0.311135); vec2 grayOffset = vec2(grayI, grayQ) ; vec3 result = pix.rgb; float newStrength = 1.0 + (strength-1.0)*(1.0-pix.r) ; result.gb = pix.gb + newStrength*grayOffset ; float damp = max(min(1.0, pix.r/(lum+0.00001)),0.0) ; result.rgb = mix(pix.rgb, result.rgb, damp) ; pix.rgb = result.r * vec3(1.0) + result.g * vec3(0.956296, -0.272122, -1.10699) + result.b * vec3(0.621024, -0.647381, 1.70461); pix.rgb = clamp(pix.rgb, 0.0, 1.0); pix.rgb *= pix.rgb*pix.rgb*pix.rgb; pix.rgb += min(im.rgb, 0.0) + max(im.rgb,1.0) -1.0; return pix; } /* Error: Ran out of types for this method. */;
 + (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)CASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsETARequester.m;
+- (void)8;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)setComparisonSystemLongTermIdentifier: /* Error: Ran out of types for this method. */;
+- (id)systemMigrationFrameworkVersion;
 - (CDUnknownBlockType)V_webAccessOptIn;
 - (void)NquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCUserFacingTagSearchOperation.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *deletedArticleIDs; // @synthesize deletedArticleIDs=_deletedArticleIDs;
-@property(copy, nonatomic) NSArray *insertedOrUpdatedHistoryItems; // @synthesize insertedOrUpdatedHistoryItems=_insertedOrUpdatedHistoryItems;
 @property(nonatomic) unsigned long long transactionType; // @synthesize transactionType=_transactionType;
 
 @end

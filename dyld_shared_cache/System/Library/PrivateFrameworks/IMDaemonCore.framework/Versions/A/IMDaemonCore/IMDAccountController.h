@@ -4,43 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface IMDAccountController
 {
     NSMutableDictionary *_accounts;
-    NSMutableDictionary *_activeAccounts;
-    NSSet *_operationalAccountsCache;
-    _Bool _isLoading;
-    _Bool _isFirstLoad;
-    _Bool _networkDataAvailable;
 }
 
 + (id);
 + (id)und for message %s;
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)v;
+- (_Bool)accessibilityMaxValue;
+- (id)findProductWithCustomOSBuildVersion:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)I;
+- (_Bool);
+- (_Bool);
 - (id);
+- (void){	;
+- (id);
+- (id)setHasIsOnScreen: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)hijklmn;
 - (id);
 - (_Bool);
 - (id);
@@ -48,22 +43,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)`;
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)_setAudioDeviceUID:(id)arg1 channels: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)0@ù
 × ;
 - (id)sageCommand"24@"NSString"32@"NSString"40@"NSData"48;
-- (void)tive;
-- (_Bool)Manager:(id)arg1 activitySessionsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (void)UIDToPackMap;
+- (void)hasMultipleSubscriptionsWithAtLeastOneActive;
+- (_Bool)conversationManager:(id)arg1 activitySessionsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)_stickerPackGUIDToPackMap;
 - (id);
 - (void)ed.;
 - (void)message (%@), error:%@ /* Error: Ran out of types for this method. */;
@@ -72,20 +67,7 @@
 - (_Bool)mcs-filename;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-@property(readonly, nonatomic) NSArray *activeAccounts;
-@property(readonly, nonatomic) NSArray *activeSessions;
-@property(readonly, nonatomic) NSArray *connectedAccounts;
-@property(readonly, nonatomic) NSArray *connectingAccounts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isLoading; // @synthesize isLoading=_isLoading;
-@property(nonatomic) _Bool networkDataAvailable; // @synthesize networkDataAvailable=_networkDataAvailable;
-@property(readonly) Class superclass;
 
 @end
 

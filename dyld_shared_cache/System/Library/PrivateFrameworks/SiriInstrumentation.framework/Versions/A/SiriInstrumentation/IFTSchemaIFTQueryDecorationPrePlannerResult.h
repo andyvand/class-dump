@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTQueryDecorationPrePlannerResult : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -25,15 +22,13 @@
 - (id)
 × ;
 - (id)vated",&,N,V_turnActivated;
-- (id)SVSchemaASVOutputVolumeQueried;
+- (id)ASVSchemaASVOutputVolumeQueried;
 - (_Bool)pb!;
 - (_Bool)»%;
 - (void)Ë);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBInteger, _INPBString;
+@class NSArray;
 
 @interface _INPBSearchForFilesIntentResponse
 {
     CDStruct_f2ecb737 _has;
-    _Bool _success;
-    NSArray *_entities;
-    _INPBInteger *_numResults;
-    _INPBString *_query;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -25,40 +21,26 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)/usr/lib/libSystem.B.dylib;
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
-- (id);
-- (_Bool)ntTrigger:temporalEventTrigger:createdDateComponents:modifiedDateComponents:identifier:contactEventTrigger:taskReference: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTitle:status:taskType:spatialEventTrigger:temporalEventTrigger:createdDateComponents:modifiedDateComponents:identifier:contactEventTrigger:taskReference: /* Error: Ran out of types for this method. */;
 - (void)esolution;
 - (void)aryStoreManager managerForBundleID:(_Bool)arg1 bundlePath:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(readonly, nonatomic) unsigned long long entitiesCount;
-@property(readonly, nonatomic) _Bool hasNumResults;
-@property(readonly, nonatomic) _Bool hasQuery;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBInteger *numResults; // @synthesize numResults=_numResults;
-@property(retain, nonatomic) _INPBString *query; // @synthesize query=_query;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

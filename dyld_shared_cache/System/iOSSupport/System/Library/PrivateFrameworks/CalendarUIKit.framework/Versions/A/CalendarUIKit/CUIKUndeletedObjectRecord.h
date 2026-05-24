@@ -11,9 +11,9 @@
     EKObject *_undeletedObject;
 }
 
-- (void);
+- (void)C;
 - (id);
-- (void)orSortingIgnoringNonHumans:event:includeOrganizer: /* Error: Ran out of types for this method. */;
+- (void)sortedEKParticipantsForSortingIgnoringNonHumans:event:includeOrganizer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) EKObject *undeletedObject; // @synthesize undeletedObject=_undeletedObject;

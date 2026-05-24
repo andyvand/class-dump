@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSUUID;
+@class NSObject, NSOperationQueue;
 @protocol OS_dispatch_queue;
 
 @interface IMDCoreSpotlightIndexingJobQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSOperationQueue *_operationQueue;
-    NSUUID *_identifier;
 }
 
 + (id);
@@ -24,9 +22,7 @@
 - (void)PDATE attachment SET ck_sync_state = ? WHERE guid IN ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

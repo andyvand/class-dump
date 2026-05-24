@@ -5,16 +5,10 @@
 //
 
 @class CLSPublicEventCache, CPAnalytics;
-@protocol CLSPublicEventServiceClientProtocol;
 
 @interface CLSPublicEventCacheCreator
 {
     CPAnalytics *_analytics;
-    _Bool _simulatesTimeout;
-    CLSPublicEventCache *_cache;
-    unsigned long long _maximumBatchSize;
-    double _queryRadius;
-    id <CLSPublicEventServiceClientProtocol> _serviceClient;
 }
 
 - (_Bool);
@@ -25,16 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)PGCurationCache;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CLSPublicEventCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) unsigned long long maximumBatchSize; // @synthesize maximumBatchSize=_maximumBatchSize;
-@property(readonly, nonatomic) double queryRadius; // @synthesize queryRadius=_queryRadius;
-@property(readonly, nonatomic) id <CLSPublicEventServiceClientProtocol> serviceClient; // @synthesize serviceClient=_serviceClient;
-@property(nonatomic) _Bool simulatesTimeout; // @synthesize simulatesTimeout=_simulatesTimeout;
 
 @end
 

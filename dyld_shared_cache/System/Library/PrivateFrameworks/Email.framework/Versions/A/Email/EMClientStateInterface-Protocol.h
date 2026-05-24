@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol EMClientStateInterface
+- (void);
+- (void);
 
 // Remaining properties
 @property _Bool isForeground;
-@property _Bool isRunningTests;
-@property(copy) NSArray *visibleMailboxObjectIDs;
 @end
 

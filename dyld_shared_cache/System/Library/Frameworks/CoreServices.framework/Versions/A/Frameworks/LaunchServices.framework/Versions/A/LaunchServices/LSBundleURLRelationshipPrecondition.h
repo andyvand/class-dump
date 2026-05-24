@@ -6,23 +6,20 @@
 
 #import <LaunchServices/LSPrecondition.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LSBundleURLRelationshipPrecondition : LSPrecondition
 {
     NSURL *_url;
-    NSString *_bundleIdentifier;
-    long long _placeholderFetchBehavior;
-    long long _requiredRelationship;
 }
 
-+ (_Bool);
++ (_Bool)MTLIndirectCommandBufferDescriptor"16Q24Q32;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)U ;
 - (void);
 
 @end

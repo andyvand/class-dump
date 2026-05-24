@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface INKeyImageExtraction
 {
     NSMutableDictionary *_keyImagesByType;
-    long long _imageTypeToStore;
-    NSString *_proxyIdentifier;
 }
 
 + (_Bool);
@@ -22,34 +20,22 @@
 - (id);
 - (void);
 - (void);
+- (id)REAL, pKey INTEGER PRIMARY KEY);;
+- (id);
+- (id)_motionComponentServiceConnectedHandler;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)Result TLV Failure;
+- (void)classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}console.log('check123'); let element = document.querySelector('%@'); if (element){ console.log('check4'); let value = '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)ptionsCollectionForShareFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideRecipientsOptionsCollectionForShareFile:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setImageTypeToStore:) long long _imageTypeToStore; // @synthesize _imageTypeToStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) INImage *keyImage;
-@property(copy, nonatomic) NSDictionary *keyImagesByType; // @synthesize keyImagesByType=_keyImagesByType;
-@property(copy, nonatomic) NSString *proxyIdentifier; // @synthesize proxyIdentifier=_proxyIdentifier;
-@property(readonly, nonatomic) NSString *serviceIdentifier;
-@property(readonly, nonatomic) unsigned long long servicePriority;
-@property(readonly) Class superclass;
 
 @end
 

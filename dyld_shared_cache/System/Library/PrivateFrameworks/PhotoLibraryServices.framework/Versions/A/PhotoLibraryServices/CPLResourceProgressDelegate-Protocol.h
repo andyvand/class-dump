@@ -5,6 +5,8 @@
 //
 
 @protocol CPLResourceProgressDelegate
+- (id)= %@ ;
+- (id);
 - (id)× ;
 @end
 

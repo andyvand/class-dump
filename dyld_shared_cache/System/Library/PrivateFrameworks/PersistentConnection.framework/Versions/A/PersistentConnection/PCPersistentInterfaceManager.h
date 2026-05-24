@@ -4,57 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCServiceSubscriptionContext, CoreTelephonyClient, NSMapTable, NSRecursiveLock, NSString, NSTimer, PCSimpleTimer;
+@class NSRecursiveLock;
 
 @interface PCPersistentInterfaceManager
 {
     NSRecursiveLock *_lock;
-    NSMapTable *_delegatesAndQueues;
-    struct __CFSet *_WiFiAutoAssociationDelegates;
-    PCSimpleTimer *_WiFiAutoAssociationDisableTimer;
-    struct __CFSet *_wakeOnWiFiDelegates;
-    PCSimpleTimer *_wakeOnWiFiDisableTimer;
-    void *_interfaceAssertion;
-    NSString *_WWANInterfaceName;
-    _Bool _isWWANInterfaceUp;
-    NSTimer *_inCallWWANOverrideTimer;
-    _Bool _isWWANInterfaceDataActive;
-    _Bool _ctIsWWANInHomeCountry;
-    _Bool _hasWWANStatusIndicator;
-    _Bool _isWWANInterfaceSuspended;
-    _Bool _isPowerStateDetectionSupported;
-    _Bool _isWWANInterfaceInProlongedHighPowerState;
-    _Bool _isWWANInterfaceActivationPermitted;
-    double _lastActivationTime;
-    _Bool _isInCall;
-    _Bool _isWakeOnWiFiSupported;
-    _Bool _isWakeOnWiFiEnabled;
-    CoreTelephonyClient *_ctClient;
-    CTXPCServiceSubscriptionContext *_currentDataSimContext;
-    void *_ctServerConnection;
 }
 
-+ (id);
++ (id)s;
 - (_Bool);
 - (void);
 - (void);
+- (void)(D'�4'F;
+- (_Bool)'E6EHF;
+- (_Bool)/;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)D == __null || PMIsValidCFString(ourNewPPD);
+- (void);
+- (_Bool);
+- (_Bool)d
+
+;
+- (void)an 0x7FFFFFFF (2147483647) for tag %d in Classic TIFF file. TIFF writing to file aborted;
 - (_Bool);
 - (void);
 - (id);
@@ -65,53 +44,107 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool)rray>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.29</real>
+						<key>DelayMS</key>
+						<real>0</real>
+						<key>DurationMS</key>
+						<real>6</real>
+						<key>FrequencykHz</key>
+						<real>0.1</real>
+						<key>Type</key>
+						<string>Sine</string>
+					</dict>
+				</array>
+				<key>ToneMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>ActuationID</key>
+			<integer>16</integer>
+			<key>Default</key>
+			<dict>
+				<key>BaseWaveform</key>
+				<dict>
+					<key>Amplitude</key>
+					<integer>0</integer>
+					<key>DurationMS</key>
+					<real>6</real>
+					<key>Type</key>
+					<string>Gaussian</string>
+				</dict>
+				<key>BaseMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+				<key>Tones</key>
+				<array>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.29</real>
+						<key>DelayMS</key>
+						<real>0</real>
+						<key>DurationMS</key>
+						<real>6</real>
+						<key>FrequencykHz</key>
+						<real>0.1</real>
+						<key>Type</key>
+						<string>Sine</string>
+					</dict>
+				</array>
+				<key>ToneMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
+;
+- (void)Reloaded binary filter from bundle %{public}@;
+- (void)?;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)L;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)personaString;
+- (void)bjc.A.dylib;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *WWANInterfaceName;
-@property(readonly, nonatomic) _Bool allowBindingToWWAN;
-@property(readonly) _Bool areAllNetworkInterfacesDisabled;
-@property(readonly, nonatomic) NSString *currentLinkQualityString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool doesWWANInterfaceExist;
-@property(readonly, nonatomic) _Bool hasWWANStatusIndicator; // @synthesize hasWWANStatusIndicator=_hasWWANStatusIndicator;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isInCall;
-@property(readonly, nonatomic) _Bool isInternetReachable;
-@property(readonly, nonatomic) _Bool isInternetReachableViaWiFi;
 @property(readonly) _Bool isPowerStateDetectionSupported;
-@property(readonly, nonatomic) _Bool isWWANBetterThanWiFi;
-@property(readonly, nonatomic) _Bool isWWANInHomeCountry;
-@property(readonly) _Bool isWWANInterfaceActivationPermitted;
-@property(readonly) _Bool isWWANInterfaceInProlongedHighPowerState;
-@property(readonly, nonatomic) _Bool isWWANInterfaceSuspended;
-@property(readonly, nonatomic) _Bool isWWANInterfaceUp;
-@property(readonly, nonatomic) _Bool isWakeOnWiFiSupported;
-@property(readonly) Class superclass;
 
 @end
 

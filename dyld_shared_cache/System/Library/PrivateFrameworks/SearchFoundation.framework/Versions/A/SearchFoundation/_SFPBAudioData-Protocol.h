@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBAudioData
-- (int);
+- (void);
+- (int)!;
+- (void)s;
+- (int);
+- (void);
+- (NSData *)L ;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *audioBuffer;
-@property(nonatomic) int bitsPerChannel;
-@property(nonatomic) int bytesPerFrame;
-@property(nonatomic) int bytesPerPacket;
-@property(nonatomic) int channelsPerFrame;
-@property(nonatomic) int formatFlags;
-@property(copy, nonatomic) NSString *formatID;
-@property(nonatomic) int framesPerPacket;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reserved;
-@property(nonatomic) double sampleRate;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NUImageGeometry;
+@class NSURL;
 
 @protocol NUExportResult
 
 // Remaining properties
 @property(readonly) NSURL *destinationURL;
-@property(readonly) NUImageGeometry *geometry;
 @end
 

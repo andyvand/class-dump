@@ -9,7 +9,7 @@
     id offers;
 }
 
-- (id);
+- (id)gleIndexInCellFromGlobalTriangleIndex:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

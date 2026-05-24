@@ -5,5 +5,9 @@
 //
 
 @protocol NSTableViewDataSource
+
+@optional
+- (unsigned long long);
+- (void);
 @end
 

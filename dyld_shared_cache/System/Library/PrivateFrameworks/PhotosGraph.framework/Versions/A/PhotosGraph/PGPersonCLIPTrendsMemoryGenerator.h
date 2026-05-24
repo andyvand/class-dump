@@ -12,7 +12,7 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id)isAttributeIncluded:(id)arg1;
 - (void);
 
 @end

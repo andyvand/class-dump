@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphEdgeCollection.h>
 
-@class PGGraphMeaningNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphMeaningEdgeCollection : PGGraphEdgeCollection
 {
@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) PGGraphMeaningNodeCollection *meaningNodes;
 @property(readonly) PGGraphMomentNodeCollection *momentNodes;
 
 @end

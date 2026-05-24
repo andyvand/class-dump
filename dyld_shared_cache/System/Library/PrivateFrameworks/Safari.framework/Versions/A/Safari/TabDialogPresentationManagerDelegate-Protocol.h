@@ -5,5 +5,6 @@
 //
 
 @protocol TabDialogPresentationManagerDelegate
+- (_Bool);
 @end
 

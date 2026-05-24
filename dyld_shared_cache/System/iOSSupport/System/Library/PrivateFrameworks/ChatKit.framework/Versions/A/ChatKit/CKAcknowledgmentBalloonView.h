@@ -6,24 +6,18 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class UIView;
-@protocol CKTapbackViewProtocol;
-
 @interface CKAcknowledgmentBalloonView : CKBalloonView
 {
     long long stackCount;
-    long long coloredPart;
-    UIView<CKTapbackViewProtocol> *glyphView;
-    double transcriptBackgroundLuminance;
 }
 
 - (void);
 - (double);
-- (long long);
+- (long long)isPerformingMerge;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)e;
+- (void)aximum-scale=1.0" />        <style>            %@        </style>    </head>    <body id="editor">    </body></html>;
 - (void);
 - (long long);
 - (void);
@@ -32,10 +26,7 @@
 - (void)rMaterialLayer;
 
 // Remaining properties
-@property(nonatomic) long long coloredPart; // @synthesize coloredPart;
-@property(nonatomic, retain) UIView<CKTapbackViewProtocol> *glyphView; // @synthesize glyphView;
 @property(nonatomic) long long stackCount; // @synthesize stackCount;
-@property(nonatomic) double transcriptBackgroundLuminance; // @synthesize transcriptBackgroundLuminance;
 
 @end
 

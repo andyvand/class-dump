@@ -6,29 +6,13 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSString;
-
 @interface HMFVersion : HMFObject
 {
     unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    unsigned long long _updateVersion;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedDescription;
 @property(readonly) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly) struct operatingSystemVersion;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long updateVersion; // @synthesize updateVersion=_updateVersion;
-@property(readonly, copy) NSString *versionString;
 @end
 

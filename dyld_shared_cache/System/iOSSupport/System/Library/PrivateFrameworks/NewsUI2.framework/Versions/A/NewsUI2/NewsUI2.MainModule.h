@@ -7,11 +7,6 @@
 @interface NewsUI2.MainModule
 {
     id resolver;
-    id tracker;
-    id feedFeatureAvailability;
-    id featureAvailability;
-    id appConfigurationManager;
-    id tipManager;
 }
 
 @end

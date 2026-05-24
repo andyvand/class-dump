@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 __attribute__((visibility("hidden")))
 @interface MXExclaves
 {
     unsigned int mSensorPort;
-    NSLock *mSensorPortLock;
-    unsigned int mSensorAccessCount;
 }
 
 + (id);
@@ -20,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id)k;
 
 @end
 

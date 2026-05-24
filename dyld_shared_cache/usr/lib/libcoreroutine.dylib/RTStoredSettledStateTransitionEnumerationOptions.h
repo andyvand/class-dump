@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSNumber;
-
 @interface RTStoredSettledStateTransitionEnumerationOptions
 {
     _Bool _ascending;
-    NSDateInterval *_dateInterval;
-    NSNumber *_limit;
-    unsigned long long _batchSize;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)nkID:%hhd; delegatedLinkID:%hhd /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long)edTravelTime:crowFliesExpectedTravelTime:etaScaleFactor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)upperBoundEtaForDepartureDate:defaultsManager:mapsExpectedTravelTime:crowFliesExpectedTravelTime:etaScaleFactor: /* Error: Ran out of types for this method. */;
 - (void)option:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
 
 @end
 

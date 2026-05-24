@@ -4,34 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, NSString;
-@protocol NSObject><NSCopying><NSSecureCoding;
-
 @interface GCMotion
 {
     id _motionEventObservation;
-    CDStruct_31142d93 _gravity;
-    CDStruct_31142d93 _userAcceleration;
-    CDStruct_31142d93 _acceleration;
-    struct GCQuaternion _attitude;
-    struct GCQuaternion _prevAttitude;
-    CDStruct_27cd59c8 _eulerAngles;
-    CDStruct_27cd59c8 _prevEulerAngles;
-    CDStruct_31142d93 _rotationRate;
-    float _tip;
-    float _tilt;
-    _Bool _motionLite;
-    _Bool _compassEnabled;
-    _Bool _hasAttitude;
-    _Bool _hasRotationRate;
-    CDUnknownBlockType _valueChangedHandler;
-    _Bool _sensorsActive;
-    GCController *_controller;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
 }
 
 + (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)+;
 - (void);
 - (void);
 - (void);
@@ -44,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)';
 - (_Bool);
 - (_Bool);
 - (float);
@@ -52,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,43 +40,24 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct GCQuaternion);
-- (CDStruct_39925896);
+- (CDStruct_31142d93);
 - (id);
-- (CDStruct_39925896);
+- (CDStruct_31142d93);
+- (void);
+- (id)replyWithContextSize:(id)arg1 currentContextDrawingBlock: /* Error: Ran out of types for this method. */;
+- (CDStruct_31142d93);
+- (id);
 - (void);
 - (id);
-- (CDStruct_39925896);
-- (id);
+- (id)avigationNode"8Q16^B24;
 - (void);
-- (id);
-- (id);
-- (void);
-- (CDStruct_39925896);
+- (CDStruct_31142d93);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_39925896 acceleration;
-@property(readonly, nonatomic) struct GCQuaternion attitude; // @synthesize attitude=_attitude;
-@property(readonly, nonatomic) __weak GCController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_39925896 gravity; // @synthesize gravity=_gravity;
-@property(readonly, nonatomic) _Bool hasAttitude;
-@property(readonly, nonatomic) _Bool hasAttitudeAndRotationRate;
-@property(readonly, nonatomic) _Bool hasGravityAndUserAcceleration;
-@property(readonly, nonatomic) _Bool hasRotationRate;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDStruct_39925896 rotationRate; // @synthesize rotationRate=_rotationRate;
-@property(nonatomic) _Bool sensorsActive; // @synthesize sensorsActive=_sensorsActive;
-@property(readonly, nonatomic) _Bool sensorsRequireManualActivation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_39925896 userAcceleration; // @synthesize userAcceleration=_userAcceleration;
-@property(copy, nonatomic) CDUnknownBlockType valueChangedHandler;
 
 @end
 

@@ -6,21 +6,15 @@
 
 #import <PencilKit/PKQuery.h>
 
-@class CHStrokeGroupQuery, NSArray, NSObject, NSSet, NSString, PKDrawing;
+@class CHStrokeGroupQuery, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKGroupQuery : PKQuery
 {
     NSObject<OS_dispatch_queue> *_intersectionQueue;
-    NSObject<OS_dispatch_queue> *_strokeGroupComputationQueue;
-    double _defaultUpdatesInterval;
-    NSArray *_strokeGroups;
-    NSSet *_handwritingStrokeUUIDs;
-    CHStrokeGroupQuery *_strokeGroupQuery;
-    PKDrawing *_drawing;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);
@@ -51,7 +45,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)è
@@ -59,15 +53,7 @@
 - (void)ñÿÿhÝÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CHStrokeGroupQuery *strokeGroupQuery; // @synthesize strokeGroupQuery=_strokeGroupQuery;
-@property(readonly) Class superclass;
 
 @end
 

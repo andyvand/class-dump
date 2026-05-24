@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaCarPlayHeadUnitContext : SISchemaInstrumentationMessage
 {
     NSString *_vehicleName;
-    NSString *_vehicleModel;
-    NSString *_vehicleManufacturer;
-    _Bool _hasVehicleName;
-    _Bool _hasVehicleModel;
-    _Bool _hasVehicleManufacturer;
 }
 
 - (id);
@@ -25,32 +20,27 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)KECHAINRECOVERY_RESET_COMPLETED_MESSAGE;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)NSLocking;
+- (_Bool)tiValueEntry"8Q16^B24;
+- (_Bool)rm.chat_guid, urrm.message_guid, urrm.part_index FROM unsynced_removed_recoverable_messages AS urrm LIMIT ?;;
 - (id);
-- (id);
+- (id)geFromBuffer) - kCGImageBlockBaseAddressAlignmentRequest:best we can do is page aligned. Returning NULL.
+ /* Error: Ran out of types for this method. */;
 - (id)delegatedUserDialogAct;
-- (id)r;
-- (void)Y_FINDMY_DEVICE;
+- (id)_appContactFreqForPhoneCall6Hr;
+- (void)MHAUDIOSESSIONCATEGORY_FINDMY_DEVICE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVehicleManufacturer; // @synthesize hasVehicleManufacturer=_hasVehicleManufacturer;
-@property(nonatomic) _Bool hasVehicleModel; // @synthesize hasVehicleModel=_hasVehicleModel;
-@property(nonatomic) _Bool hasVehicleName; // @synthesize hasVehicleName=_hasVehicleName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *vehicleManufacturer; // @synthesize vehicleManufacturer=_vehicleManufacturer;
-@property(copy, nonatomic) NSString *vehicleModel; // @synthesize vehicleModel=_vehicleModel;
 @property(copy, nonatomic) NSString *vehicleName; // @synthesize vehicleName=_vehicleName;
 
 @end

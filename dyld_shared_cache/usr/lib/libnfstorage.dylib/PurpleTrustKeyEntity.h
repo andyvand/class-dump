@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PurpleTrustAppletEntity, PurpleTrustClientEntity;
+@class NSObject, NSString;
 
 @interface PurpleTrustKeyEntity
 {
@@ -13,12 +13,8 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) PurpleTrustAppletEntity *applet; // @dynamic applet;
 @property(retain, nonatomic) NSObject *blob; // @dynamic blob;
-@property(retain, nonatomic) PurpleTrustClientEntity *client; // @dynamic client;
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *uniqueIdentifier; // @dynamic uniqueIdentifier;
-@property(nonatomic) int version; // @dynamic version;
 
 @end
 

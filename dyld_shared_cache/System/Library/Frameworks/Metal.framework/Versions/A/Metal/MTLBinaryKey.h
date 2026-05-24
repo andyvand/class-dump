@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
+- (id)L;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (const CDStruct_41a22ec7 *);
+- (const CDStruct_41a22ec7 *)T;
 - (_Bool);
 
 // Remaining properties

@@ -7,13 +7,13 @@
 @interface UnknownClass (TokenMatch)
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)shouldAllowMultipleImagesForURL: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithData:MIMEType: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAudio:style:theme:player: /* Error: Ran out of types for this method. */;
+- (id)fixAttributesInRange: /* Error: Ran out of types for this method. */;
+- (unsigned long long)createCGImage:fromRect: /* Error: Ran out of types for this method. */;
+- (unsigned long long)createCGImage:fromRect: /* Error: Ran out of types for this method. */;
+- (id)_shouldUseDominantBackgroundColorAsCaptionBackgroundForProperties: /* Error: Ran out of types for this method. */;
 - (_Bool);
 @end
 

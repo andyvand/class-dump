@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSize;
-
 __attribute__((visibility("hidden")))
 @interface _NSCollectionPreferredSize
 {
     struct CGSize _originalSize;
-    struct CGSize _fittingSize;
-    NSCollectionLayoutSize *_layoutSize;
-    _Bool _preferredSizeDirty;
 }
 
-+ (struct CGSize);
++ (struct CGSize)NSHTTPURLRequestParameters;
 - (_Bool);
-- (id);
+- (id);
 - (struct CGSize);
-- (id);
+- (id)previousBestTuningValue;
 - (id);
 - (struct CGSize);
 - (struct CGSize)å3°1Â0@ù
 × ;
-- (id)rRemovable;
+- (id)NSToolbarIsUserRemovable;
 - (void)View * _Nonnull * _Nonnull, NSLayoutAttribute * _Nonnull);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize fittingSize; // @synthesize fittingSize=_fittingSize;
-@property(readonly, nonatomic) NSCollectionLayoutSize *layoutSize; // @synthesize layoutSize=_layoutSize;
-@property(readonly, nonatomic) struct CGSize originalSize; // @synthesize originalSize=_originalSize;
 @property(readonly, nonatomic, getter=isPreferredSizeDirty) _Bool preferredSizeDirty; // @synthesize preferredSizeDirty=_preferredSizeDirty;
 
 @end

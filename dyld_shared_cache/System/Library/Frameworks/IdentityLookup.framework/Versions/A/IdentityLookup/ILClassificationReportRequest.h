@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ILClassificationReportRequest
 {
     NSString *_extensionIdentifier;
-    NSDictionary *_jsonDictionary;
 }
 
-+ (_Bool);
++ (_Bool)DelegateAdapter",&,N,V_playbackDelegateAdapter;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)V,%s;
+- (id)a";
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(copy, nonatomic) NSDictionary *jsonDictionary; // @synthesize jsonDictionary=_jsonDictionary;
 
 @end
 

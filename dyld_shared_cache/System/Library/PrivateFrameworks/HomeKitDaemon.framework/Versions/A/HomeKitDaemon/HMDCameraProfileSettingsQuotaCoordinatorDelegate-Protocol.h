@@ -7,6 +7,7 @@
 @class _HMCameraUserSettings;
 
 @protocol HMDCameraProfileSettingsQuotaCoordinatorDelegate
+- (void);
 
 // Remaining properties
 @property(readonly, copy) _HMCameraUserSettings *currentSettings;

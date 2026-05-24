@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRReminderEditor
 {
     id changeItem;
-    id undoContext;
-    id unitTest_oneShotSyncSaveForUndo;
-    id dueDateDeltaAlert;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface NUPattern
 {
@@ -21,17 +21,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)crypto/err/err.c;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isFixedOrder; // @synthesize isFixedOrder=_isFixedOrder;
-@property(readonly, nonatomic) NSArray *shortestMatch;
-@property(readonly, nonatomic) NSString *stringRepresentation;
 @property(readonly, nonatomic) NSSet *tokens;
 
 @end

@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)A9;
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void)_nextAvailableInstantMessageService;

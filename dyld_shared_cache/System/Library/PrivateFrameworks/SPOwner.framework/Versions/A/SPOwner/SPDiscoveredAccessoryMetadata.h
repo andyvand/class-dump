@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, SPRawAccessoryMetadata;
+@class NSData;
 
 @interface SPDiscoveredAccessoryMetadata
 {
     unsigned char _batteryType;
-    unsigned char _batteryState;
-    unsigned char _networkId;
-    unsigned int _accessoryCapabilities;
-    NSData *_productData;
-    NSString *_manufacturerName;
-    NSString *_modelName;
-    NSString *_firmwareVersion;
-    NSString *_findMyVersion;
-    NSString *_protocolVersion;
-    unsigned long long _accessoryCategory;
-    unsigned long long _capabilities;
-    SPRawAccessoryMetadata *_rawMetadata;
 }
 
 + (_Bool);
@@ -44,33 +32,21 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)AVTranscodeMetadataDictionary;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void)°!Bùð1Â0@ù
 × ;
-- (id)ier:completion: /* Error: Ran out of types for this method. */;
-- (id)longitude:horizontalAcuracy:altitude:verticalAccuracy:speed:speedAccuracy:course:courseAccuracy:floorLevel: /* Error: Ran out of types for this method. */;
+- (id)peripheralConnectionMaterialForAccessoryIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)initWithTimestamp:latitude:longitude:horizontalAcuracy:altitude:verticalAccuracy:speed:speedAccuracy:course:courseAccuracy:floorLevel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int accessoryCapabilities; // @synthesize accessoryCapabilities=_accessoryCapabilities;
-@property(nonatomic) unsigned long long accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(nonatomic) unsigned char batteryState; // @synthesize batteryState=_batteryState;
-@property(nonatomic) unsigned char batteryType; // @synthesize batteryType=_batteryType;
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(copy, nonatomic) NSString *findMyVersion; // @synthesize findMyVersion=_findMyVersion;
-@property(copy, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(nonatomic) unsigned char networkId; // @synthesize networkId=_networkId;
 @property(copy, nonatomic) NSData *productData; // @synthesize productData=_productData;
-@property(copy, nonatomic) NSString *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(copy, nonatomic) SPRawAccessoryMetadata *rawMetadata; // @synthesize rawMetadata=_rawMetadata;
 
 @end
 

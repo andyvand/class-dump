@@ -4,7 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, CKSendMenuViewController, NSString;
+
 @protocol CKSendMenuViewControllerDelegate
+- (void)selectedRangeWithinRange:(CKSendMenuViewController *)arg1 inFindableString: /* Error: Ran out of types for this method. */;
+- (void)selectedPlainLinkAction;
+- (void)selectedInkColorString;
+- (void)selectCellRangeAtColumns:(CKSendMenuViewController *)arg1 rows:(NSString *)arg2;
+- (void)scheduleUpdateAffectingChangeCounts:(CKSendMenuViewController *)arg1 isHighPriority:(long long)arg2;
+- (_Bool)_usesBiometricAuthenticationIfAvailable;
+- (void)snippetHighlightRegexMatchFinder;
+- (void)snippetForPasswordProtectedNote:(CKSendMenuViewController *)arg1;
+- (void)snippetForAttributedContent:(CKSendMenuViewController *)arg1 attributedSnippetIfNecessary: /* Error: Ran out of types for this method. */;
+- (void)snippetAttachmentType;
+- (void)showHideThreshold;
+- (_Bool)countOfVisiblePasswordProtectedNotesInAccount: /* Error: Ran out of types for this method. */;
+- (CKConversation *)NotesUI1;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isAppCardPresentationStyleExpanded;

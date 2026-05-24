@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBTimestamp, TRIPersistedTaskAttribution;
+@class NSString;
 
 @interface TRIDeactivateTreatmentPersistedTask
 {
@@ -13,20 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool failOnUnrecognizedExperiment; // @dynamic failOnUnrecognizedExperiment;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasFailOnUnrecognizedExperiment; // @dynamic hasFailOnUnrecognizedExperiment;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasStartTimestamp; // @dynamic hasStartTimestamp;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) _Bool hasTriggerEvent; // @dynamic hasTriggerEvent;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
-@property(retain, nonatomic) TRIPBTimestamp *startTimestamp; // @dynamic startTimestamp;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
-@property(nonatomic) int triggerEvent; // @dynamic triggerEvent;
 
 @end
 

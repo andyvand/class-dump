@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id)oVocoderI2SClockRate;
+- (id)kCTAudioVocoderI2SClockRate;
 
 // Remaining properties
 @property(readonly, nonatomic) CTNetworkList *networks;

@@ -10,14 +10,14 @@
 
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (void);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)reDate:(long long)arg1 firedDate:(id)arg2 dismissedDate:lastModifiedDate: /* Error: Ran out of types for this method. */;
 + (id);
 + (long long);
 + (_Bool);

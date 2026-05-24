@@ -6,28 +6,24 @@
 
 #import <ResponseKit/RKText.h>
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface RKMessage : RKText
 {
     NSString *_title;
-    NSUUID *_senderUUID;
-    NSDate *_dateSent;
-    unsigned long long _position;
 }
 
-- (id);
+- (id)
+k	
+J;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)cancelHypothesisRefreshRequestForEventWithExternalURL: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSDate *dateSent; // @synthesize dateSent=_dateSent;
-@property(readonly) unsigned long long position; // @synthesize position=_position;
-@property(readonly, copy) NSUUID *senderUUID; // @synthesize senderUUID=_senderUUID;
 @property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end

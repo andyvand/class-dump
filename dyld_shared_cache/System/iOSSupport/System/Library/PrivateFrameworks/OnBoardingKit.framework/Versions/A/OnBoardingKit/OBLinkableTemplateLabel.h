@@ -7,28 +7,26 @@
 #import <OnBoardingKit/OBTemplateLabel.h>
 
 @class UITapGestureRecognizer;
-@protocol OBButtonTrayLinkAction;
 
 __attribute__((visibility("hidden")))
 @interface OBLinkableTemplateLabel : OBTemplateLabel
 {
     UITapGestureRecognizer *_tapRecognizer;
-    id <OBButtonTrayLinkAction> _tapAction;
 }
 
 - (id);
-- (void);
+- (void)!b@	`  `
+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <OBButtonTrayLinkAction> tapAction; // @synthesize tapAction=_tapAction;
 @property(retain, nonatomic) UITapGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
 
 @end

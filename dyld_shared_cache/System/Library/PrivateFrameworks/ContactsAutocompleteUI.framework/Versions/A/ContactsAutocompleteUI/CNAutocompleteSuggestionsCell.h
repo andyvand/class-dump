@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSString, NSTextField;
+@class NSImageView;
 
 @interface CNAutocompleteSuggestionsCell
 {
     _Bool _drawsSelected;
-    NSImageView *_avatarView;
-    NSTextField *_nameLabel;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)elIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, unsigned int>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, unsigned int>>, WTF::DefaultHash<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashMap<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, unsigned int>::KeyValuePairTraits, WTF::HashTraits<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, unsigned int>>, HashFunctions = WTF::DefaultHash<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)yValuePairKeyExtractor<WTF:(id)arg1:KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -30,10 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSImageView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) NSString *displayString;
-@property(nonatomic) _Bool drawsSelected; // @synthesize drawsSelected=_drawsSelected;
-@property(retain, nonatomic) NSImage *image;
-@property(retain, nonatomic) NSTextField *nameLabel; // @synthesize nameLabel=_nameLabel;
 
 @end
 

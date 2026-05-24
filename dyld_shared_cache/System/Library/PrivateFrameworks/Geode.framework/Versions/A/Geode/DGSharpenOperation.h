@@ -11,15 +11,14 @@
 @interface DGSharpenOperation : DGOperation
 {
     NSNumber *_inputRadius;
-    NSNumber *_inputIntensity;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)6;
++ (id)@;
 + (id);
 - (void);
-- (id);
+- (id)CodingKeys;
 - (void);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 - (id)l@À;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
 @property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end

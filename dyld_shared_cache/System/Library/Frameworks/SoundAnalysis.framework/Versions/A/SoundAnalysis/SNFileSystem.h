@@ -7,7 +7,6 @@
 @interface SNFileSystem
 {
     id inflightTasks;
-    id queue;
 }
 
 - (void);

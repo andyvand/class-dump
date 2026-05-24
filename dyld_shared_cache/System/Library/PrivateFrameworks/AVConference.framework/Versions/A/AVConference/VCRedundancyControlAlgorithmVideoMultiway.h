@@ -4,35 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCRedundancyControlAlgorithmVideoMultiway
 {
     double _packetLossPercentage;
-    double _plrEnvelope;
-    double _currentTime;
-    double _lastPercentageChange;
-    unsigned int _redundancyPercentage;
-    double _redundancyInterval;
 }
 
-- (void);
+- (void)?);
 - (void);
 - (unsigned int);
 - (double);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double redundancyInterval; // @synthesize redundancyInterval=_redundancyInterval;
 @property(readonly, nonatomic) unsigned int redundancyPercentage; // @synthesize redundancyPercentage=_redundancyPercentage;
-@property(readonly) Class superclass;
 
 @end
 

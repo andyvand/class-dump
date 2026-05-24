@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSArray, NSMutableSet;
 
 @interface _PICompositionControllerTransaction
 {
     NSMutableSet *_changes;
-    unsigned long long _count;
 }
 
 - (void);
@@ -18,19 +17,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void)CGSize=dd}}48@80@88;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *changes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

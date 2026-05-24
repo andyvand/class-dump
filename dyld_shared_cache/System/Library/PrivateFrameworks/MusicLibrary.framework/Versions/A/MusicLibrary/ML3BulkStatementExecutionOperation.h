@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)_connectionForListenerEndpoint:(id)arg1;
+- (_Bool)_connectionForListenerEndpoint:(id *)arg1;
 - (unsigned long long);
 
 @end

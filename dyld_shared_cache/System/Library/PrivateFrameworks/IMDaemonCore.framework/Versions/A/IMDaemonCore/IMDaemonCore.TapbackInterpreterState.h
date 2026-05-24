@@ -7,7 +7,6 @@
 @interface IMDaemonCore.TapbackInterpreterState
 {
     id languages;
-    id bloomParser;
 }
 
 @end

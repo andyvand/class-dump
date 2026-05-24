@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSMutableArray;
-
 @interface VSTreeNode
 {
     id _representedObject;
-    VSTreeNode *_parentNode;
-    NSMutableArray *_children;
 }
 
 + (id);
@@ -25,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -35,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *childNodes;
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(readonly, copy, nonatomic) NSIndexPath *indexPath;
-@property(readonly, nonatomic, getter=isLeaf) _Bool leaf;
-@property(readonly, nonatomic) NSMutableArray *mutableChildNodes;
 @property(nonatomic) __weak VSTreeNode *parentNode; // @synthesize parentNode=_parentNode;
-@property(readonly, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
 
 @end
 

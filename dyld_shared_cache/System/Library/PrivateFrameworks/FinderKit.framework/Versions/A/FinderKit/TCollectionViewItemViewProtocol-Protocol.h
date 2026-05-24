@@ -7,6 +7,7 @@
 @class NSImage;
 
 @protocol TCollectionViewItemViewProtocol
+- (void)removeFontWeightInRange:(NSImage *)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSImage *iconImage;

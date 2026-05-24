@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPSiriContext
 {
     PBDataReader *_reader;
-    NSString *_additionalDetails;
-    NSString *_siriIncidentType;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_additionalDetails:1;
-        unsigned int read_siriIncidentType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)lSearchProviderID:(id)arg1;
++ (_Bool)setLocalSearchProviderID:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)validateForGuardianRestrictions:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,23 +23,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)bundleForClass:(id)arg1;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)t;
 - (_Bool);
 - (id);
 - (void);
 - (id)Accuracy"b1"has_localSearchProviderID"b1"has_mapMode"b1"has_maxBusinessReviews"b1"has_maxResults"b1"has_placeTypeLimit"b1"has_searchSource"b1"has_sequenceNumber"b1"has_transportTypeForTravelTimes"b1"has_excludeAddressInResults"b1"has_includeBusinessCategories"b1"has_includeBusinessRating"b1"has_includeEntryPoints"b1"has_includeFeatureSets"b1"has_includeGeoId"b1"has_includeMatchedToken"b1"has_includeNameForForwardGeocodingResults"b1"has_includePhonetics"b1"has_includeQuads"b1"has_includeRoadAccessPoints"b1"has_includeSpokenNames"b1"has_includeStatusCodeInfo"b1"has_includeSuggestionsOnly"b1"has_includeTravelDistance"b1"has_includeTravelTime"b1"has_includeUnmatchedStrings"b1"has_isCanonicalLocationSearch"b1"has_isFromAPI"b1"has_isStrictGeocoding"b1"has_isStrictMapRegion"b1"has_isPopularNearbyRequest"b1"has_structuredSearch"b1"has_suppressResultsRequiringAttribution"b1"read_unknownFields"b1"read_additionalPlaceTypes"b1"read_businessIDs"b1"read_optionalSuppressionReasons"b1"read_additionalEnabledMarkets"b1"read_address"b1"read_businessOptions"b1"read_clientCapabilities"b1"read_deviceCountryCode"b1"read_deviceLocation"b1"read_deviceTimeZone"b1"read_deviceLocationCountryCode"b1"read_filterByBusinessCategorys"b1"read_indexFilter"b1"read_inputLanguage"b1"read_knownLocation"b1"read_limitToCountryCodeIso2s"b1"read_location"b1"read_mapRegion"b1"read_phoneticLocaleIdentifier"b1"read_preserveFields"b1"read_searchContextSubstring"b1"read_searchContext"b1"read_searchLocation"b1"read_searchSubstrings"b1"read_search"b1"read_serviceTags"b1"read_suggestionsOptions"b1"read_suggestionsPrefix"b1"read_viewportCenterCountryCode"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)ountExtAttrs;
+- (id)countExtAttrs;
 - (id)¨`;
-- (id);
+- (id)POI_SEARCH_SPELL_CORRECTION;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *additionalDetails;
-@property(readonly, nonatomic) _Bool hasAdditionalDetails;
 @property(readonly, nonatomic) _Bool hasSiriIncidentType;
-@property(retain, nonatomic) NSString *siriIncidentType;
 
 @end
 

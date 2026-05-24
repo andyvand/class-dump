@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WatchdogTimerItem
 {
     NSString *_name;
-    unsigned long long _startTime;
-    unsigned long long _endTime;
 }
 
 - (unsigned long long);
@@ -23,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)iSsSSS^{stat}[1c]}8;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endTime; // @synthesize endTime=_endTime;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long startTime; // @synthesize startTime=_startTime;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGManagerWorkingContext, PHPhotoLibrary;
+@class PGManagerWorkingContext;
 
 @interface PGExternalAssetProcessor
 {
     PGManagerWorkingContext *_workingContext;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);
-- (_Bool);
+- (_Bool),N;
 - (_Bool);
 - (id);
 - (void)es.syndicationIdentifier IN %@;

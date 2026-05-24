@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ERROR_TITLE;
+- (void)PEER_PAYMENT_MINIMUM_AMOUNT_NOT_MET_ERROR_TITLE;
 
 @end
 

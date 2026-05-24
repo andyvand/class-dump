@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, TIKeyboardCandidate, TIWordSearch;
+@class NSMutableArray, TIWordSearch;
 @protocol TIMarkedTextBuffer;
 
 @interface TIKeyboardInputManager_ja_Edit
 {
     _Bool _shouldCancelIfPhraseBoundaryChanged;
     TIWordSearch *_wordSearch;
-    TIKeyboardCandidate *_inlineCandidate;
-    NSMutableArray *_mutableSegments;
-    id <TIMarkedTextBuffer> _kanaString;
-    long long _escapeKeyPressed;
 }
 
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
+- (id);
 - (id);
-- (id);
+- (_Bool)/;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)	k
+;
 - (id);
 - (_Bool);
 - (void);
@@ -41,36 +38,30 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (void);
+- (unsigned int)T;
+- (id);
 - (unsigned int);
-- (id);
-- (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)l:sparserendering_sample_noAlpha_ray /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long escapeKeyPressed; // @synthesize escapeKeyPressed=_escapeKeyPressed;
-@property(readonly, nonatomic) TIKeyboardCandidate *inlineCandidate; // @synthesize inlineCandidate=_inlineCandidate;
 @property(retain, nonatomic) id <TIMarkedTextBuffer> kanaString; // @synthesize kanaString=_kanaString;
 @property(retain, nonatomic) NSMutableArray *mutableSegments; // @synthesize mutableSegments=_mutableSegments;
-@property(readonly, nonatomic) NSString *prefixString;
-@property(readonly, nonatomic) NSString *rawInputString;
-@property(readonly, nonatomic) NSArray *segments;
-@property(nonatomic) _Bool shouldCancelIfPhraseBoundaryChanged; // @synthesize shouldCancelIfPhraseBoundaryChanged=_shouldCancelIfPhraseBoundaryChanged;
 
 @end
 

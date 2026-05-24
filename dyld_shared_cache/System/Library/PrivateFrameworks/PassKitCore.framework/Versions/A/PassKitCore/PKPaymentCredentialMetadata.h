@@ -9,23 +9,21 @@
 @interface PKPaymentCredentialMetadata
 {
     NSString *_localizedDisplayName;
-    NSString *_value;
 }
 
 + (id);
 + (Class);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setHasTcpiRcvNxt:(id)arg1;
 - (id);
 - (id);
-- (id)AppletProperties:(id)arg1;
-- (void)ER_PAYMENT_MAXIMUM_AMOUNT_EXCEEDED_ERROR_TITLE;
+- (id)setAppletProperties:(id)arg1;
+- (void)PEER_PAYMENT_MAXIMUM_AMOUNT_EXCEEDED_ERROR_TITLE;
 - (id).developer.web-payments;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

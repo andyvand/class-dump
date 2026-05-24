@@ -7,10 +7,6 @@
 @interface PhotosGraph.BirthdayPeople
 {
     id priority;
-    id logger;
-    id triggerResults;
-    id supportsFutureLookup;
-    id futureLookupResults;
 }
 
 @end

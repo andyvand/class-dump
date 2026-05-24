@@ -11,13 +11,13 @@
 + (void);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)loadRequest:(id)arg1;
++ (id)layoutWebViewBottomButtons;
++ (id)layoutBottomButtonsWithAlternativeButton;
++ (id)layoutBottomButtons;
++ (id)lastCredentialRenewalRejectionDate;
++ (id)base64EncodedStringWithOptions:(id)arg1;
++ (id)CUIAccountTypesViewController",W,V_accountTypesVC;
 
 @end
 

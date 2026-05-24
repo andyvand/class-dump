@@ -5,12 +5,10 @@
 //
 
 @protocol NUFlexRangeChannelProperties
+- (float);
+- (float)shaderModifierPropertyFromDictionary:assetsPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) float alternateOffset;
-@property(readonly, nonatomic) float baseOffset;
-@property(readonly, nonatomic) float gamma;
-@property(readonly, nonatomic) float max;
 @property(readonly, nonatomic) float min;
 @end
 

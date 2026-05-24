@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, PricePopoverBar, StockChartView, StockGraphView, StocksTapDragGestureRecognizer, UILabel;
+@class StockChartView, UILabel;
 
 @interface ChartHUDView
 {
     UILabel *_leftDateLabel;
-    UILabel *_centeredLabel;
-    UILabel *_rightDateLabel;
-    long long _interval;
-    NSMutableSet *_inactiveTouchInfoSet;
-    NSMutableSet *_touchInfoSet;
-    _Bool _forceTouchUpdate;
-    PricePopoverBar *_pricePopoverBar;
-    StocksTapDragGestureRecognizer *_tapDragGesture;
-    _Bool _enabled;
-    _Bool _overlayHidden;
-    StockChartView *_chartView;
-    StockGraphView *_graphView;
-    double _barHeight;
 }
 
-+ (id);
++ (id)m;
 + (id);
 + (id);
 + (void);
-+ (id);
-- (void);
++ (id)&u;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +26,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)q;
 - (_Bool);
 - (void);
 - (void);
@@ -47,16 +34,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (double);
+- (double);
 
 // Remaining properties
-@property(nonatomic) double barHeight; // @synthesize barHeight=_barHeight;
 @property(nonatomic) __weak StockChartView *chartView; // @synthesize chartView=_chartView;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) StockGraphView *graphView; // @synthesize graphView=_graphView;
-@property(nonatomic, getter=isOverlayHidden) _Bool overlayHidden; // @synthesize overlayHidden=_overlayHidden;
 
 @end
 

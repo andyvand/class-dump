@@ -7,7 +7,6 @@
 @interface AppStoreKit.SearchResultsLearnMoreNotice
 {
     id linkableText;
-    id id;
 }
 
 @end

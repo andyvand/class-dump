@@ -7,13 +7,10 @@
 @interface TeaUI.PillView
 {
     id contentView;
-    id titleLabel;
-    id iconImageView;
-    id touchInsets;
 }
 
 - (id);
-- (id);
+- (id)sportsFavoritesVector;
 - (void)V_ýÿ°_ýÿ;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKAction, NSData;
+@class FLOWLINKSchemaFLOWLINKAction;
 
 @interface FLOWLINKSchemaFLOWLinkActionStarted : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKAction *_currentAction;
-    _Bool _hasCurrentAction;
 }
 
 - (void);
@@ -20,8 +19,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)setLpcd:(id)arg1;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAction *currentAction; // @synthesize currentAction=_currentAction;
-@property(nonatomic) _Bool hasCurrentAction; // @synthesize hasCurrentAction=_hasCurrentAction;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

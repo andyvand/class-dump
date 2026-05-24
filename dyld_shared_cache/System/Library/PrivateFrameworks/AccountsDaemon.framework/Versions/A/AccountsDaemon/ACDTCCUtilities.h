@@ -10,7 +10,7 @@
 
 + (struct __CFString *);
 + (_Bool);
-+ (_Bool);
++ (_Bool)!;
 + (id);
 + (_Bool);
 + (int);

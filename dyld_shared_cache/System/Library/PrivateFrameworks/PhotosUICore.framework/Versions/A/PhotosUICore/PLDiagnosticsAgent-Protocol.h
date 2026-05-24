@@ -7,6 +7,7 @@
 @class PLAssetsdClient;
 
 @protocol PLDiagnosticsAgent
+- (void);
 
 @optional
 - (PLAssetsdClient *)eference in non-empty data source:%@ /* Error: Ran out of types for this method. */;

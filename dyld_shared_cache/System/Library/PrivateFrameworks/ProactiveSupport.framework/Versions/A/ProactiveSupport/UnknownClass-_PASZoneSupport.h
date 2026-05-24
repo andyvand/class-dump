@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (_PASZoneSupport)
-- (void);
+- (void)Digest;
 @end
 

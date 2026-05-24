@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class ACAccount, NSString;
 
 @protocol AMSUIRegulatoryAgeVerificationMethod
+- (id)led with error:(ACAccount *)arg1 %{public}@;
+- (NSString *)uto asset:%{public}@ unlocked successfully /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *enablementBagKey;

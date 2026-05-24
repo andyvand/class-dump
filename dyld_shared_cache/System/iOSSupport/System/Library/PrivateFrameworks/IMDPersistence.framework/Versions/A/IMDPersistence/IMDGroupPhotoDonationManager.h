@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSString;
+@class NSFileManager;
 
 @interface IMDGroupPhotoDonationManager
 {
@@ -17,18 +17,11 @@
 - (void);
 - (id);
 - (void)) for quick export estimate;
-- (void)on_spin;
+- (void)poison_spin;
 - (id)eMigration(int, CSDBSqliteDatabase *, CSDBSqliteConnection *, int, int *, NSError **, MigratorBlock);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

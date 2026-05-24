@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface BWAmbientLightSensor
 {
     struct __IOHIDEventSystemClient *_hidSystemClient;
-    NSObject<OS_dispatch_queue> *_alsQueue;
-    int _luxLevel;
-    float _rearLuxLevel;
-    long long _numberOfAmbientLightUpdates;
 }
 
 + (void)ynchronizedStreamsGroup initWithFigCaptureSynchronizedStreamsGroup:bwFigCaptureStreams:figCaptureStreams:] /* Error: Ran out of types for this method. */;
@@ -21,11 +14,10 @@
 - (void);
 - (float);
 - (id);
-- (int);
+- (int)P;
 
 // Remaining properties
 @property(readonly, nonatomic) int luxLevel;
-@property(readonly, nonatomic) float rearLuxLevel;
 
 @end
 

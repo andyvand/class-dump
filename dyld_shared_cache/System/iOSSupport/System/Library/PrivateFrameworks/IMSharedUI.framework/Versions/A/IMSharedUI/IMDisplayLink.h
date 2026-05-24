@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRunLoop, NSString, UIScreen;
-
 @interface IMDisplayLink
 {
     id _target;
-    SEL _selector;
-    long long _preferredFramesPerSecond;
-    NSRunLoop *_runLoop;
-    NSString *_runLoopMode;
-    UIScreen *_screen;
 }
 
 + (Class);
-+ (id);
++ (id)Perform overflow scrolling off the main thread;
 - (void);
-- (id);
+- (id)rtionDelegate:assertionWillInvalidate /* Error: Ran out of types for this method. */;
+- (void)EnhancedSecurityHeuristicsEnabled;
+- (id)TF::ObjectIdentifierGeneric<WebKit::RemoteSerializedImageBufferIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebCore::ImageBuffer>>::ReferenceState>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<IPC::ObjectIdentifierReference<WTF::ObjectIdentifierGeneric<WebKit::RemoteSerializedImageBufferIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (long long);
+- (void)	;
+- (SEL)qA;
 - (void);
-- (SEL);
-- (void);
-- (id);
+- (id)p;
 
 // Remaining properties
 @property(nonatomic) long long preferredFramesPerSecond; // @synthesize preferredFramesPerSecond=_preferredFramesPerSecond;
-@property(nonatomic) __weak NSRunLoop *runLoop; // @synthesize runLoop=_runLoop;
-@property(retain, nonatomic) NSString *runLoopMode; // @synthesize runLoopMode=_runLoopMode;
-@property(nonatomic) __weak UIScreen *screen; // @synthesize screen=_screen;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

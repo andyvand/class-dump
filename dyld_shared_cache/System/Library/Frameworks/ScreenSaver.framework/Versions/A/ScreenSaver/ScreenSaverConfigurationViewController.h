@@ -13,10 +13,10 @@
 
 - (void);
 - (void);
-- (void);
+- (void)1`;
 - (unsigned long long);
-- (void);
-- (id);
+- (void);
+- (id)`;
 
 // Remaining properties
 @property(retain) NSExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface AXETrackingGestureEvent
 {
     _Bool _isSynthetic;
-    unsigned long long _source;
-    NSDate *_timestamp;
-    NSArray *_allTouches;
-    NSArray *_touchingTouches;
 }
 
 - (id);
@@ -30,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allTouches; // @synthesize allTouches=_allTouches;
-@property(readonly, nonatomic) _Bool isSynthetic; // @synthesize isSynthetic=_isSynthetic;
 @property(readonly, nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) NSArray *touchingTouches; // @synthesize touchingTouches=_touchingTouches;
 
 @end
 

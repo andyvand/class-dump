@@ -9,11 +9,10 @@
 @interface MLModelExecutionSchedule
 {
     NSDictionary *_modelExecutionSchedule;
-    NSDictionary *_modelExecutionScheduleByModelStructurePath;
 }
 
-- (void);
-- (void);
+- (void)or object and mesh shaders;
+- (void)ry linked functions are not supported for object and mesh shaders;
 - (id);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *modelExecutionSchedule; // @synthesize modelExecutionSchedule=_modelExecutionSchedule;
-@property(copy, nonatomic) NSDictionary *modelExecutionScheduleByModelStructurePath; // @synthesize modelExecutionScheduleByModelStructurePath=_modelExecutionScheduleByModelStructurePath;
 
 @end
 

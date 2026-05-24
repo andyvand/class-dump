@@ -5,5 +5,6 @@
 //
 
 @protocol MTLBlitCommandEncoder
+- (void);
 @end
 

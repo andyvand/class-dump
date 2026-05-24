@@ -7,13 +7,6 @@
 @interface PhotosGraph.SocialGroupsEvaluationMetrics
 {
     id librarySize;
-    id electedCount;
-    id personCount;
-    id leqTenAssetContainmentCount;
-    id leqThirtyAssetContainmentCount;
-    id leqFiftyAssetContainmentCount;
-    id leqOneHundredAssetContainmentCount;
-    id greaterThanOneHundredAssetContainmentCount;
 }
 
 @end

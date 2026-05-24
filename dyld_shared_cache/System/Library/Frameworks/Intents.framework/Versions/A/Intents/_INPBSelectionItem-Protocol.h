@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentSlotValue;
+@class NSString;
 
 @protocol _INPBSelectionItem
+- (void)c;
 - (void)utomationEntityProvider:(NSString *)arg1;
 - (_Bool)_typeFromCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasVocabularyValue;
 @property(copy, nonatomic) NSString *uuid;
-@property(retain, nonatomic) _INPBIntentSlotValue *value;
-@property(copy, nonatomic) NSString *vocabularyValue;
 @end
 

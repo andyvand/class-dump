@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface RCBackgroundTaskResult
 {
     NSString *_taskIdentifier;
-    NSError *_error;
-    NSDictionary *_configurationResourcesByRequestKey;
 }
 
-- (id);
+- (id)>;
 - (void);
 - (id);
 - (void);
@@ -23,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configurationResourcesByRequestKey; // @synthesize configurationResourcesByRequestKey=_configurationResourcesByRequestKey;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end

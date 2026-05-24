@@ -11,11 +11,11 @@
     CDUnknownBlockType _messageSendingComplete;
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
 + (_Bool);
-+ (id);
-- (void);
++ (id)%s;
+- (void)Y%s;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -23,7 +23,6 @@
 - (void)6;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType messageSendingComplete; // @synthesize messageSendingComplete=_messageSendingComplete;
 @property(readonly, nonatomic) UIViewController *viewController;
 
 @end

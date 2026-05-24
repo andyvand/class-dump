@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RadiosPreferences;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PK_PHDevice
 {
     _Bool _cellularRadioEnabled;
     _Bool _ringerSwitchEnabled;
-    _Bool _proximitySensorState;
-    int _ringerStateNotifyToken;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    RadiosPreferences *_radiosPreferences;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (unsigned long long);
+- (void)CodingKeys;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -44,10 +40,6 @@
 // Remaining properties
 @property(nonatomic, getter=isCellularRadioEnabled) _Bool cellularRadioEnabled; // @synthesize cellularRadioEnabled=_cellularRadioEnabled;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool proximitySensorState; // @synthesize proximitySensorState=_proximitySensorState;
-@property(retain, nonatomic) RadiosPreferences *radiosPreferences; // @synthesize radiosPreferences=_radiosPreferences;
-@property(nonatomic) int ringerStateNotifyToken; // @synthesize ringerStateNotifyToken=_ringerStateNotifyToken;
-@property(nonatomic, getter=isRingerSwitchEnabled) _Bool ringerSwitchEnabled; // @synthesize ringerSwitchEnabled=_ringerSwitchEnabled;
 
 @end
 

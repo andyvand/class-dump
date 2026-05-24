@@ -9,26 +9,20 @@
 @interface IdFeatureConfig : FeatureConfig
 {
     _Bool _hashing;
-    int _embeddingTableSize;
-    int _embeddingDimention;
-    int _hashBucketStart;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (_Bool);
+- (void)etadata";
+- (void)ionActivity";
+- (void)@0:(int)arg1 8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSData"32;
+- (void)k"24@"NSURLSessionStreamTask"32;
+- (int)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (int)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (int)_resolvedBackgroundColor;
+- (_Bool)_placeholderProperties;
 - (id);
 
 // Remaining properties
-@property int embeddingDimention; // @synthesize embeddingDimention=_embeddingDimention;
 @property int embeddingTableSize; // @synthesize embeddingTableSize=_embeddingTableSize;
-@property int hashBucketStart; // @synthesize hashBucketStart=_hashBucketStart;
-@property _Bool hashing; // @synthesize hashing=_hashing;
 
 @end
 

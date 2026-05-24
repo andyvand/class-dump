@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SABinary, SASharedCache;
-
 __attribute__((visibility("hidden")))
 @interface SATaskAggregationIdentifier
 {
     _Bool _isTarget;
-    SABinary *_binary;
-    SASharedCache *_sharedCache;
-    unsigned long long _rcid;
 }
 
 - (unsigned long long);

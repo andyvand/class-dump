@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class)C;
 + (id);
 + (void);
-- (id);
-- (id);
+- (id)CNAssistantConversion;
+- (id)ton.label;
 
 @end
 

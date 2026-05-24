@@ -6,34 +6,26 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface PHAssetVisualSearchProperties : PHAssetPropertySet
 {
     float _stickerConfidenceScore;
-    NSData *_visualSearchData;
-    long long _stickerAlgorithmVersion;
-    long long _algorithmVersion;
-    NSDate *_adjustmentVersion;
 }
 
 + (id);
 + (id);
-+ (id)ropertyNextTokenSuggestions;
++ (id)PHSearchSuggestionPropertyNextTokenSuggestions;
 + (id);
 - (id);
 - (float);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (void)ferenced:alternate:guest:companionSynced:recovered:legacyImport:collectionShare:unrecognized: /* Error: Ran out of types for this method. */;
 - (id)4Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *adjustmentVersion; // @synthesize adjustmentVersion=_adjustmentVersion;
-@property(readonly, nonatomic) long long algorithmVersion; // @synthesize algorithmVersion=_algorithmVersion;
-@property(readonly, nonatomic) long long stickerAlgorithmVersion; // @synthesize stickerAlgorithmVersion=_stickerAlgorithmVersion;
-@property(readonly, nonatomic) float stickerConfidenceScore; // @synthesize stickerConfidenceScore=_stickerConfidenceScore;
 @property(readonly, nonatomic) NSData *visualSearchData; // @synthesize visualSearchData=_visualSearchData;
 
 @end

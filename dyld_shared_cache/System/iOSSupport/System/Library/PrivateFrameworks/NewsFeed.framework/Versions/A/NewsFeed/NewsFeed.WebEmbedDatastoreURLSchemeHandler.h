@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WKURLSchemeTask;
 
 @interface NewsFeed.WebEmbedDatastoreURLSchemeHandler
 {
     id <WKURLSchemeTask> task;
-    id loadTask;
-    id assetManager;
-    id _description;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)oviding>",R,N;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) id <WKURLSchemeTask> task; // @synthesize task;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CSImportInfo
 {
     NSURL *_contentURL;
-    NSString *_contentType;
-    NSString *_sandboxExtension;
-    NSString *_externalID;
 }
 
 - (void);
@@ -26,10 +23,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(retain, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
-@property(retain, nonatomic) NSString *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
 
 @end
 

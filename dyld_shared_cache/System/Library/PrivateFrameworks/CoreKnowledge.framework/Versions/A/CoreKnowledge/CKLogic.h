@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKLogic
 {
     id body;
-    id negatedBody;
 }
 
 + (id);
@@ -18,13 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)title: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)T;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *identifier;
 
 @end
 

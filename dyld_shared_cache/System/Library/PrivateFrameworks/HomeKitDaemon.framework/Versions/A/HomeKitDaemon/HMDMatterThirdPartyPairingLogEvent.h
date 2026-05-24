@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterThirdPartyPairingLogEvent
 {
     _Bool _cleanClose;
-    NSNumber *_pairingDuration;
-    NSNumber *_success;
-    NSString *_errorDomain;
-    NSNumber *_errorCode;
-    NSString *_underlyingErrorDomain;
-    NSNumber *_underlyingErrorCode;
-    NSString *_longestStateName;
-    NSNumber *_longestStateDuration;
-    NSNumber *_matterCategoryNumber;
-    NSNumber *_matterVendorNumber;
-    NSNumber *_matterProductNumber;
-    NSNumber *_matterProductID;
-    NSString *_firmwareVersion;
-    NSNumber *_threadSetupDuration;
-    NSNumber *_pairingWindowOpenedWithPasscodeDuration;
-    NSString *_accessoryTransportType;
-    NSNumber *_supportsSoftAP;
-    NSNumber *_hasShortDiscriminator;
-    NSString *_client;
-    NSNumber *_communicationProtocol;
-    NSNumber *_requiresMatterCustomCommissioningFlow;
-    NSNumber *_credentialsSentToClient;
-    NSNumber *_providedWiFiScanResults;
-    NSNumber *_providedThreadScanResults;
-    NSNumber *_knownToSystemCommissioner;
-    NSNumber *_discoveredOverBLE;
-    NSNumber *_caseSessionSanityCheckPassed;
 }
 
 - (id);
@@ -44,6 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)stem/Library/PrivateFrameworks/WebBookmarks.framework/Versions/A/WebBookmarks;
+- (void)spector;
+- (void)__AUTH_CONST;
 - (void);
 - (void);
 - (void);
@@ -55,15 +31,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithRoute:range:desiredElevationModel: /* Error: Ran out of types for this method. */;
+- (id)initWithRelay: /* Error: Ran out of types for this method. */;
+- (id)accountAliases;
+- (id)MSPUnauthFeedbackReportTicket;
+- (id)MSPContainerAdditions;
+- (id)MSPQuerySource;
 - (id);
 - (id);
 - (id);
@@ -80,12 +53,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)to run since %{public}s;
 - (unsigned long long);
 - (id);
 - (id);
@@ -102,56 +75,7 @@ __attribute__((visibility("hidden")))
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(copy, nonatomic) NSString *accessoryTransportType; // @synthesize accessoryTransportType=_accessoryTransportType;
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(retain, nonatomic) NSNumber *caseSessionSanityCheckPassed; // @synthesize caseSessionSanityCheckPassed=_caseSessionSanityCheckPassed;
-@property(nonatomic) _Bool cleanClose; // @synthesize cleanClose=_cleanClose;
-@property(copy, nonatomic) NSString *client; // @synthesize client=_client;
-@property(retain, nonatomic) NSNumber *communicationProtocol; // @synthesize communicationProtocol=_communicationProtocol;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(retain, nonatomic) NSNumber *credentialsSentToClient; // @synthesize credentialsSentToClient=_credentialsSentToClient;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSNumber *discoveredOverBLE; // @synthesize discoveredOverBLE=_discoveredOverBLE;
-@property(retain, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(copy, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(retain, nonatomic) NSNumber *hasShortDiscriminator; // @synthesize hasShortDiscriminator=_hasShortDiscriminator;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(retain, nonatomic) NSNumber *knownToSystemCommissioner; // @synthesize knownToSystemCommissioner=_knownToSystemCommissioner;
-@property(retain, nonatomic) NSNumber *longestStateDuration; // @synthesize longestStateDuration=_longestStateDuration;
-@property(copy, nonatomic) NSString *longestStateName; // @synthesize longestStateName=_longestStateName;
-@property(retain, nonatomic) NSNumber *matterCategoryNumber; // @synthesize matterCategoryNumber=_matterCategoryNumber;
-@property(retain, nonatomic) NSNumber *matterProductID; // @synthesize matterProductID=_matterProductID;
-@property(retain, nonatomic) NSNumber *matterProductNumber; // @synthesize matterProductNumber=_matterProductNumber;
-@property(retain, nonatomic) NSNumber *matterVendorNumber; // @synthesize matterVendorNumber=_matterVendorNumber;
 @property(retain, nonatomic) NSNumber *pairingDuration; // @synthesize pairingDuration=_pairingDuration;
-@property(copy, nonatomic) NSNumber *pairingWindowOpenedWithPasscodeDuration; // @synthesize pairingWindowOpenedWithPasscodeDuration=_pairingWindowOpenedWithPasscodeDuration;
-@property(retain, nonatomic) NSNumber *providedThreadScanResults; // @synthesize providedThreadScanResults=_providedThreadScanResults;
-@property(retain, nonatomic) NSNumber *providedWiFiScanResults; // @synthesize providedWiFiScanResults=_providedWiFiScanResults;
-@property(retain, nonatomic) NSNumber *requiresMatterCustomCommissioningFlow; // @synthesize requiresMatterCustomCommissioningFlow=_requiresMatterCustomCommissioningFlow;
-@property(retain, nonatomic) NSNumber *success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *supportsSoftAP; // @synthesize supportsSoftAP=_supportsSoftAP;
-@property(copy, nonatomic) NSNumber *threadSetupDuration; // @synthesize threadSetupDuration=_threadSetupDuration;
-@property(retain, nonatomic) NSNumber *underlyingErrorCode; // @synthesize underlyingErrorCode=_underlyingErrorCode;
-@property(copy, nonatomic) NSString *underlyingErrorDomain; // @synthesize underlyingErrorDomain=_underlyingErrorDomain;
 
 @end
 

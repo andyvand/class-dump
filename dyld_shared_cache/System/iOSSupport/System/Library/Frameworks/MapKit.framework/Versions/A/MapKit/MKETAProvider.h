@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, MKMapItem, NSHashTable, NSLock, NSNumber, NSString, NSTimer, _MKQuickRouteManager;
-@protocol GEOTransitLineItem, MKETAProviderDelegate, _MKPlaceItem;
+@class NSHashTable, _MKQuickRouteManager;
 
 @interface MKETAProvider
 {
     _MKQuickRouteManager *_quickRouteManager;
-    NSNumber *_lastTransportTypeFound;
-    MKMapItem *_nearestStationItem;
-    _Bool _distanceOrETAIsSuppressed;
-    _Bool _distanceOrETAWasFound;
-    NSString *_distanceTextItem;
-    NSString *_rawDistanceString;
-    double _distance;
-    unsigned long long _etaTransportType;
-    double _etaTravelTime;
-    _Bool _active;
-    _Bool _paused;
-    _Bool _inactiveInBackground;
-    NSTimer *_refreshTimer;
-    _Bool _allowsDistantETA;
-    CLLocation *_currentLocation;
-    id <MKETAProviderDelegate> _delegate;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOWalkingOptions *_walkingOptions;
-    GEOTransitOptions *_transitOptions;
-    GEOCyclingOptions *_cyclingOptions;
-    MKMapItem *_mapItem;
-    id <_MKPlaceItem> _placeItem;
-    id <GEOTransitLineItem> _lineItem;
-    NSHashTable *_observers;
-    NSLock *_observersLock;
 }
 
 - (id);
@@ -49,16 +23,16 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)@m;
 - (double);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -80,17 +54,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)_updateConstraintsForDetailLabel;
 - (void);
 - (id);
 - (id);
@@ -103,7 +77,7 @@
 × ;
 - (void)
 × ;
-- (void)m;
+- (void)_revGeoMapItem;
 - (void)ring>"8;
 - (void)object;
 - (id)q:/s
@@ -112,33 +86,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDistantETA; // @synthesize allowsDistantETA=_allowsDistantETA;
-@property(retain, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(readonly, nonatomic) CLLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(retain, nonatomic) GEOCyclingOptions *cyclingOptions; // @synthesize cyclingOptions=_cyclingOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKETAProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double distance;
-@property(readonly, nonatomic) NSString *distanceString;
-@property(readonly, nonatomic) unsigned long long etaTransportType;
-@property(readonly, nonatomic) double etaTravelTime;
-@property(readonly, nonatomic) _Bool hasFoundDistanceOrETA;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLikelyToReturnETA;
-@property(readonly, nonatomic) id <GEOTransitLineItem> lineItem; // @synthesize lineItem=_lineItem;
-@property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSLock *observersLock; // @synthesize observersLock=_observersLock;
-@property(readonly, nonatomic) id <_MKPlaceItem> placeItem; // @synthesize placeItem=_placeItem;
-@property(readonly, nonatomic) NSString *rawDistanceString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEOTransitOptions *transitOptions; // @synthesize transitOptions=_transitOptions;
-@property(readonly, nonatomic) NSNumber *transportTypePreferenceNumber;
-@property(retain, nonatomic) GEOWalkingOptions *walkingOptions; // @synthesize walkingOptions=_walkingOptions;
 
 @end
 

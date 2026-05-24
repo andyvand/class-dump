@@ -6,14 +6,11 @@
 
 #import <MailUI/MUISearchSuggestion.h>
 
-@class EMMessageList, EMMessageObjectID, NSArray;
+@class NSArray;
 
 @interface MUIResultSuggestion : MUISearchSuggestion
 {
     NSArray *_authors;
-    NSArray *_authorEmailAddresses;
-    EMMessageList *_messageList;
-    EMMessageObjectID *_objectID;
 }
 
 - (id);
@@ -21,13 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ionModel:countDeleteMovesToTrashForItemIDs: /* Error: Ran out of types for this method. */;
+- (void)selectionModel:countDeleteMovesToTrashForItemIDs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *authorEmailAddresses; // @synthesize authorEmailAddresses=_authorEmailAddresses;
 @property(readonly, nonatomic) NSArray *authors; // @synthesize authors=_authors;
-@property(readonly, nonatomic) EMMessageList *messageList; // @synthesize messageList=_messageList;
-@property(readonly, nonatomic) EMMessageObjectID *objectID; // @synthesize objectID=_objectID;
 
 @end
 

@@ -13,12 +13,13 @@
     PGMemoryMomentRequirements *_momentRequirements;
 }
 
-+ (id);
-+ (id);
++ (id)accessibilityAttributedStringForAXFTextRange: /* Error: Ran out of types for this method. */;
++ (id)acl = %p, aclLength = %zu.
+;
 - (void);
+- (id)setDeletionCandidateText: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)tch;
+- (void)PGSharedLibrarySuggestionsProcessorFetchAssetsFromMomentsBatch;
 
 @end
 

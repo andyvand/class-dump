@@ -6,42 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEContactResolverConfig, INFERENCESchemaINFERENCEPotentialRetryContactInteractionContext, INFERENCESchemaINFERENCEPromptContext, INFERENCESchemaINFERENCETrialEnrollment, NSArray, NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface INFERENCESchemaINFERENCECRRTrainingSampleCollected : SISchemaInstrumentationMessage
 {
     NSString *_intentTypeName;
-    INFERENCESchemaINFERENCEContactResolverConfig *_resolverConfig;
-    INFERENCESchemaINFERENCETrialEnrollment *_trialEnrollment;
-    NSString *_modelVersion;
-    NSArray *_matches;
-    int _resolutionState;
-    int _resolutionType;
-    INFERENCESchemaINFERENCEPromptContext *_forcePrompt;
-    NSArray *_anonymizedContactIdentifiers;
-    _Bool _isInteractionExecuted;
-    _Bool _isInteractionSuccess;
-    unsigned int _interactionDurationInSecBucket;
-    INFERENCESchemaINFERENCEPotentialRetryContactInteractionContext *_interactionContext;
-    _Bool _isPlusContactSuggesterEnabled;
-    _Bool _isEntityCandidateRetrievalEnabled;
-    SISchemaUUID *_crrCommsAppSelectionJointId;
-    struct {
-        unsigned int resolutionState:1;
-        unsigned int resolutionType:1;
-        unsigned int isInteractionExecuted:1;
-        unsigned int isInteractionSuccess:1;
-        unsigned int interactionDurationInSecBucket:1;
-        unsigned int isPlusContactSuggesterEnabled:1;
-        unsigned int isEntityCandidateRetrievalEnabled:1;
-    } _has;
-    _Bool _hasIntentTypeName;
-    _Bool _hasResolverConfig;
-    _Bool _hasTrialEnrollment;
-    _Bool _hasModelVersion;
-    _Bool _hasForcePrompt;
-    _Bool _hasInteractionContext;
-    _Bool _hasCrrCommsAppSelectionJointId;
 }
 
 - (void);
@@ -66,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)f;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -77,19 +46,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)9*A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,24 +76,24 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)IA	*;
 - (_Bool);
 - (void);
 - (void);
 - (int);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)d]|;
+- (void):(id)arg1 E;
+- (id)`;
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)UIBackgroundModes;
 - (id);
 - (void);
 - (unsigned long long);
@@ -135,43 +104,13 @@
 - (void);
 - (id);
 - (id)essageLength",&,N,V_textMessageLength;
-- (id)TEntityValue;
+- (id)IFTSchemaIFTEntityValue;
 - (void)CLPEVALUATIONENVIRONMENT_CARRY;
 - (void);
 - (id)ø<®ÿ{W²&;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *anonymizedContactIdentifiers; // @synthesize anonymizedContactIdentifiers=_anonymizedContactIdentifiers;
-@property(retain, nonatomic) SISchemaUUID *crrCommsAppSelectionJointId; // @synthesize crrCommsAppSelectionJointId=_crrCommsAppSelectionJointId;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEPromptContext *forcePrompt; // @synthesize forcePrompt=_forcePrompt;
-@property(nonatomic) _Bool hasCrrCommsAppSelectionJointId; // @synthesize hasCrrCommsAppSelectionJointId=_hasCrrCommsAppSelectionJointId;
-@property(nonatomic) _Bool hasForcePrompt; // @synthesize hasForcePrompt=_hasForcePrompt;
-@property(nonatomic) _Bool hasIntentTypeName; // @synthesize hasIntentTypeName=_hasIntentTypeName;
-@property(nonatomic) _Bool hasInteractionContext; // @synthesize hasInteractionContext=_hasInteractionContext;
-@property(nonatomic) _Bool hasInteractionDurationInSecBucket;
-@property(nonatomic) _Bool hasIsEntityCandidateRetrievalEnabled;
-@property(nonatomic) _Bool hasIsInteractionExecuted;
-@property(nonatomic) _Bool hasIsInteractionSuccess;
-@property(nonatomic) _Bool hasIsPlusContactSuggesterEnabled;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasResolutionState;
-@property(nonatomic) _Bool hasResolutionType;
-@property(nonatomic) _Bool hasResolverConfig; // @synthesize hasResolverConfig=_hasResolverConfig;
-@property(nonatomic) _Bool hasTrialEnrollment; // @synthesize hasTrialEnrollment=_hasTrialEnrollment;
 @property(copy, nonatomic) NSString *intentTypeName; // @synthesize intentTypeName=_intentTypeName;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEPotentialRetryContactInteractionContext *interactionContext; // @synthesize interactionContext=_interactionContext;
-@property(nonatomic) unsigned int interactionDurationInSecBucket; // @synthesize interactionDurationInSecBucket=_interactionDurationInSecBucket;
-@property(nonatomic) _Bool isEntityCandidateRetrievalEnabled; // @synthesize isEntityCandidateRetrievalEnabled=_isEntityCandidateRetrievalEnabled;
-@property(nonatomic) _Bool isInteractionExecuted; // @synthesize isInteractionExecuted=_isInteractionExecuted;
-@property(nonatomic) _Bool isInteractionSuccess; // @synthesize isInteractionSuccess=_isInteractionSuccess;
-@property(nonatomic) _Bool isPlusContactSuggesterEnabled; // @synthesize isPlusContactSuggesterEnabled=_isPlusContactSuggesterEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matches; // @synthesize matches=_matches;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) int resolutionState; // @synthesize resolutionState=_resolutionState;
-@property(nonatomic) int resolutionType; // @synthesize resolutionType=_resolutionType;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEContactResolverConfig *resolverConfig; // @synthesize resolverConfig=_resolverConfig;
-@property(retain, nonatomic) INFERENCESchemaINFERENCETrialEnrollment *trialEnrollment; // @synthesize trialEnrollment=_trialEnrollment;
 
 @end
 

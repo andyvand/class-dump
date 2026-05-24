@@ -9,9 +9,6 @@
 @interface ChatKit.TapbackPickerArrowButtonView : ChatKit.TapbackPickerButtonView
 {
     id delegate;
-    id arrowDirection;
-    id gradientBackground;
-    id gradientMask;
 }
 
 - (void);

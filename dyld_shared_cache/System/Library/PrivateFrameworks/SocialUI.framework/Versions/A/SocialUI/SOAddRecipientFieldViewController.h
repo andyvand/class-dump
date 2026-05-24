@@ -6,39 +6,11 @@
 
 #import <SocialUI/SOChatViewController.h>
 
-@class CNAutocompleteResult, CNAutocompleteStore, CNExtendedAutocompleteResultWindow, IDSBatchIDQueryController, IMAccount, IMHandle, NSCandidateListTouchBarItem, NSColor, NSDate, NSImageView, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSProgressIndicator, NSString, NSTextField, NSTimer;
-@protocol CNCancelable;
+@class IDSBatchIDQueryController;
 
 @interface SOAddRecipientFieldViewController : SOChatViewController
 {
     IDSBatchIDQueryController *_batchIDQueryController;
-    NSMutableDictionary *_validatedIDQueryResults;
-    NSMutableDictionary *_idsIDsToValidate;
-    NSDate *_previousCompletionDisplayDate;
-    unsigned long long _previousListCount;
-    _Bool _skipCompletionRebuilding;
-    _Bool _userIsDeleting;
-    _Bool _completionWindowVisible;
-    _Bool _isBlockedForDowntime;
-    _Bool _shouldShowDowntimeErrorAppearance;
-    CDUnknownBlockType _autocompleteResultComparator;
-    NSString *_searchString;
-    CNExtendedAutocompleteResultWindow *_completionWindow;
-    NSCandidateListTouchBarItem *_recipientCandidateListTouchBarItem;
-    NSProgressIndicator *_addRecipientProgressIndicator;
-    IMHandle *_addRecipientInvitedHandle;
-    NSTimer *_addRecipientIDSCheckTimer;
-    CNAutocompleteStore *_autocompleteStore;
-    long long _completionWindowLevel;
-    NSMutableArray *_autocompleteResults;
-    NSMutableOrderedSet *_searchResults;
-    id <CNCancelable> _currentFetchRequest;
-    id _showingMenuForRepresentedObject;
-    NSImageView *_screenTimeGlyphView;
-    NSMutableDictionary *_lastMessageDateCache;
-    NSTextField *_blockedForDowntimeTextField;
-    NSImageView *_blockedForDowntimeImageView;
-    NSColor *_textFieldNormalColor;
 }
 
 + (id);
@@ -57,14 +29,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Ae;
 - (void);
 - (void);
 - (void);
@@ -73,13 +45,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)匹;
 - (struct _NSRange);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -98,7 +70,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
@@ -131,8 +103,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)tem",&,N,V_observedProgressButtonItem;
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -145,59 +117,25 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)initWithBytes:(id)arg1 length:(id)arg2 encoding: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setFlintFontResourceIDs:(id)arg1;
+- (void);
 - (id);
 - (void);
 - (void);
 - (void)!!Fù1	1Â0@ù
 × ;
 - (_Bool)TextStorage";
-- (id)ts;
+- (id)hasAttachments;
 
 // Remaining properties
-@property(readonly) NSTextField *addRecipientField; // @dynamic addRecipientField;
-@property(retain, nonatomic) NSTimer *addRecipientIDSCheckTimer; // @synthesize addRecipientIDSCheckTimer=_addRecipientIDSCheckTimer;
-@property(retain) IMHandle *addRecipientInvitedHandle; // @synthesize addRecipientInvitedHandle=_addRecipientInvitedHandle;
-@property(retain) NSProgressIndicator *addRecipientProgressIndicator; // @synthesize addRecipientProgressIndicator=_addRecipientProgressIndicator;
-@property(readonly) IMAccount *autocompleteAccount; // @dynamic autocompleteAccount;
-@property(readonly) CDUnknownBlockType autocompleteResultComparator; // @synthesize autocompleteResultComparator=_autocompleteResultComparator;
-@property(retain) NSMutableArray *autocompleteResults; // @synthesize autocompleteResults=_autocompleteResults;
-@property(retain, nonatomic) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(retain, nonatomic) NSImageView *blockedForDowntimeImageView; // @synthesize blockedForDowntimeImageView=_blockedForDowntimeImageView;
-@property(retain, nonatomic) NSTextField *blockedForDowntimeTextField; // @synthesize blockedForDowntimeTextField=_blockedForDowntimeTextField;
-@property(retain, nonatomic) CNExtendedAutocompleteResultWindow *completionWindow; // @synthesize completionWindow=_completionWindow;
-@property long long completionWindowLevel; // @synthesize completionWindowLevel=_completionWindowLevel;
-@property(readonly, getter=isCompletionWindowVisible) _Bool completionWindowVisible; // @synthesize completionWindowVisible=_completionWindowVisible;
-@property(retain, nonatomic) id <CNCancelable> currentFetchRequest; // @synthesize currentFetchRequest=_currentFetchRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBlockedForDowntime; // @synthesize isBlockedForDowntime=_isBlockedForDowntime;
-@property(retain) NSMutableDictionary *lastMessageDateCache; // @synthesize lastMessageDateCache=_lastMessageDateCache;
-@property(retain) NSCandidateListTouchBarItem *recipientCandidateListTouchBarItem; // @synthesize recipientCandidateListTouchBarItem=_recipientCandidateListTouchBarItem;
-@property(retain, nonatomic) NSImageView *screenTimeGlyphView; // @synthesize screenTimeGlyphView=_screenTimeGlyphView;
-@property(retain, nonatomic) NSMutableOrderedSet *searchResults; // @synthesize searchResults=_searchResults;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) CNAutocompleteResult *selectedCompletionResult;
-@property(readonly) _Bool shouldShowAccountColumn; // @dynamic shouldShowAccountColumn;
-@property(nonatomic) _Bool shouldShowDowntimeErrorAppearance; // @synthesize shouldShowDowntimeErrorAppearance=_shouldShowDowntimeErrorAppearance;
-@property(readonly) _Bool showingCompletionWindow; // @dynamic showingCompletionWindow;
-@property(retain) id showingMenuForRepresentedObject; // @synthesize showingMenuForRepresentedObject=_showingMenuForRepresentedObject;
-@property _Bool skipCompletionRebuilding; // @synthesize skipCompletionRebuilding=_skipCompletionRebuilding;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSColor *textFieldNormalColor; // @synthesize textFieldNormalColor=_textFieldNormalColor;
-@property _Bool userIsDeleting; // @synthesize userIsDeleting=_userIsDeleting;
 
 @end
 

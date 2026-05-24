@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol UMLibInfoProviding, UMLibNotifyProviding;
+@protocol UMLibInfoProviding;
 
 @protocol UMSideEffectsProviding
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<UMLibInfoProviding> *libInfo;
-@property(readonly, nonatomic) NSObject<UMLibNotifyProviding> *libNotify;
 @end
 

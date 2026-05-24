@@ -7,34 +7,30 @@
 @interface GEOAddressCorrectionUpdateResponse
 {
     unsigned int _retryScheduleInDays;
-    struct {
-        unsigned int has_retryScheduleInDays:1;
-    } _flags;
 }
 
-+ (_Bool)tchQuality:(id)arg1;
++ (_Bool)setHasMatchQuality:(id)arg1;
 - (void);
-- (void);
-- (unsigned int);
-- (_Bool);
+- (void):(_Bool)arg1 8@"NSURL"16;
+- (unsigned int)_onCompletion;
+- (_Bool)dj;
 - (void);
 - (id);
 - (id);
+- (void)Id:(id)arg1 withRetainFileFlag:withFilePrefix: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void)1·*ð1Â0@ù
 × ;
-- (id)ontext;
+- (id)motionContext;
 - (id)º`¼H½Ð¾P¿È¿;
 - (id)ctivities.com.apple.geod;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasRetryScheduleInDays;
-@property(nonatomic) unsigned int retryScheduleInDays;
 
 @end
 

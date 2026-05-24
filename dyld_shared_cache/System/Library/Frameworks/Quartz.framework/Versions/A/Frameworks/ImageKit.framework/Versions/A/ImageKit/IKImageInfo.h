@@ -9,11 +9,10 @@
 @interface IKImageInfo
 {
     IKImageInfoView *_ikImageInfoView;
-    NSArray *_ikImageInfoViewTLO;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDDeviceIDManager
 {
     _Bool _useLegacyKeychain;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_deviceIDsByContainerIdentifierByContainerEnvironmentByPersona;
-    NSMutableDictionary *_globalDeviceIDsPerPersona;
 }
 
 + (id);
@@ -30,12 +27,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)per_NotifySubEndpointAdded(CMBaseObjectRef, FigEndpointRef);
 - (id);
-- (void);
+- (void)N,V_building;
 - (id);
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (id);
@@ -43,13 +40,10 @@
 - (id);
 - (id);
 - (id);
-- (void)roundProxySetupQueue;
+- (void)ForceTimingIssueAroundProxySetupQueue;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *deviceIDsByContainerIdentifierByContainerEnvironmentByPersona; // @synthesize deviceIDsByContainerIdentifierByContainerEnvironmentByPersona=_deviceIDsByContainerIdentifierByContainerEnvironmentByPersona;
-@property(retain, nonatomic) NSMutableDictionary *globalDeviceIDsPerPersona; // @synthesize globalDeviceIDsPerPersona=_globalDeviceIDsPerPersona;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool useLegacyKeychain; // @synthesize useLegacyKeychain=_useLegacyKeychain;
 
 @end
 

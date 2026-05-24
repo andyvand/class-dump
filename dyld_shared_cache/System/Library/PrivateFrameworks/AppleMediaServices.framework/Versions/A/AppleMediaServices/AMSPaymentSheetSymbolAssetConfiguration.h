@@ -9,14 +9,12 @@
 @interface AMSPaymentSheetSymbolAssetConfiguration
 {
     NSString *_accessibilityText;
-    NSString *_name;
-    long long _scale;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (long long);
 - (void);
@@ -26,15 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) long long scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
 
 @end
 

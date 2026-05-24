@@ -9,26 +9,13 @@
 @interface TSKAbstractAlert
 {
     long long _result;
-    id _context;
-    id <TSKUIAlertProtocol> _delegate;
-    _Bool _isDelegateRetained;
-    _Bool _cancelOnEnterBackground;
-    _Bool _inBackground;
-    _Bool _clickedButtonAtIndex;
-    _Bool _didDismissWithButtonIndex;
-    _Bool _willDismissWithButtonIndex;
-    _Bool _didPresentAlertView;
-    _Bool _willPresentAlertView;
-    CDUnknownBlockType _clickedBlock;
-    CDUnknownBlockType _dismissedBlock;
-    id <TSKUIAlertProtocol> _retainedDelegate;
 }
 
+- (void)HasPlayedWithSiri;
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)trollerBehavior - Completed user action - action:(id)arg1;
+- (void)d user action - action:(CDUnknownBlockType)arg1;
+- (long long)iewControllerBehavior - Started user action - action: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -36,9 +23,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)pg;
 - (void);
-- (void);
-- (long long);
+- (long long)tle action attributes ;
 - (void);
 - (long long);
 - (id);
@@ -59,11 +46,6 @@
 - (long long){?="__size_"Q}}};
 
 // Remaining properties
-@property(nonatomic) long long cancelButtonIndex;
-@property(nonatomic) _Bool cancelOnEnterBackground; // @synthesize cancelOnEnterBackground=_cancelOnEnterBackground;
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) id <TSKUIAlertProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool inBackground; // @synthesize inBackground=_inBackground;
 @property(retain, nonatomic) id <TSKUIAlertProtocol> retainedDelegate; // @synthesize retainedDelegate=_retainedDelegate;
 
 @end

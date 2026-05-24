@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString;
-@protocol CNContactViewControllerPPTDelegate, CNContactViewHostProtocol, NSCopying;
+@protocol CNContactViewHostProtocol, NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface CNContactViewHostViewController
 {
     id <CNContactViewHostProtocol> _delegate;
-    id <CNContactViewControllerPPTDelegate> _pptDelegate;
-    id <NSCopying> _currentRequestIdentifier;
-    NSExtension *_extension;
 }
 
 + (_Bool);
@@ -22,27 +18,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)qa;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)l;
 - (void);
 - (void);
 - (id);
@@ -52,20 +48,10 @@ __attribute__((visibility("hidden")))
 - (void)qt°1Â0@ù
 × ;
 - (id);
-- (void)r;
+- (void)_avatarCarouselViewController;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSCopying> currentRequestIdentifier; // @synthesize currentRequestIdentifier=_currentRequestIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactViewHostProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CNContactViewControllerPPTDelegate> pptDelegate; // @synthesize pptDelegate=_pptDelegate;
-@property(readonly) Class superclass;
 
 @end
 

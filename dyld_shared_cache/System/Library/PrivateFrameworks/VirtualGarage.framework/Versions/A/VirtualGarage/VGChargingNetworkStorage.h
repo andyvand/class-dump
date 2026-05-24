@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VGChargingNetworkStorage
 {
     unsigned long long _identifier;
-    NSString *_name;
-    struct {
-        unsigned int identifier:1;
-    } _has;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)>";
 - (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)@24@32;
+- (void)w;
 - (id);
 - (id);
 - (unsigned long long);
@@ -34,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

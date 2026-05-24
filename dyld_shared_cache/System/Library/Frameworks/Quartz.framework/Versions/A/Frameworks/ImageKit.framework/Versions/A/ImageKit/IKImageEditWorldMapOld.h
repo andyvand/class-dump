@@ -7,14 +7,6 @@
 @interface IKImageEditWorldMapOld
 {
     struct CGImage *_map;
-    unsigned long long _mapWidth;
-    unsigned long long _mapHeight;
-    _Bool _invalidGPSInfo;
-    double _mappedLongitude;
-    double _mappedLatitude;
-    double _longitude;
-    double _latitude;
-    double _scale;
 }
 
 - (void);

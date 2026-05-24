@@ -4,59 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HapticServerConfig
 {
     NSString *_currentLocality;
-    _Bool _usingInternalHaptics;
-    _Bool _supportsAudioPlayback;
-    _Bool _supportsHapticPlayback;
-    _Bool _supportsAdvancedPatternPlayers;
-    float _hapticContinuousTimeLimit;
-    float _defaultHapticTransientEventSharpness;
-    float _defaultHapticContinuousEventSharpness;
-    float _defaultHapticTransientEventIntensity;
-    float _defaultHapticContinuousEventIntensity;
-    NSDictionary *_builtInAudioEventIDs;
-    vector_85d7f63b _hapticTransientIDs;
-    vector_85d7f63b _hapticContinuousSustainedIDs;
-    vector_85d7f63b _hapticContinuousNonsustainedIDs;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (vector_aa56f780);
+- (float);
+- (vector_aa56f780);
+- (float);
+- (float);
+- (float);
+- (float);
 - (id);
-- (vector_85d7f63b);
-- (float);
-- (vector_85d7f63b);
-- (float);
-- (float);
-- (float);
-- (float);
-- (id);
-- (id);
-- (vector_85d7f63b);
+- (id);
+- (vector_aa56f780);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *builtInAudioEventIDs; // @synthesize builtInAudioEventIDs=_builtInAudioEventIDs;
-@property(readonly) NSString *currentLocality; // @synthesize currentLocality=_currentLocality;
-@property(readonly) float defaultHapticContinuousEventIntensity; // @synthesize defaultHapticContinuousEventIntensity=_defaultHapticContinuousEventIntensity;
-@property(readonly) float defaultHapticContinuousEventSharpness; // @synthesize defaultHapticContinuousEventSharpness=_defaultHapticContinuousEventSharpness;
-@property(readonly) float defaultHapticTransientEventIntensity; // @synthesize defaultHapticTransientEventIntensity=_defaultHapticTransientEventIntensity;
-@property(readonly) float defaultHapticTransientEventSharpness; // @synthesize defaultHapticTransientEventSharpness=_defaultHapticTransientEventSharpness;
-@property(readonly) vector_85d7f63b hapticContinuousNonsustainedIDs; // @synthesize hapticContinuousNonsustainedIDs=_hapticContinuousNonsustainedIDs;
-@property(readonly) vector_85d7f63b hapticContinuousSustainedIDs; // @synthesize hapticContinuousSustainedIDs=_hapticContinuousSustainedIDs;
-@property(readonly) float hapticContinuousTimeLimit; // @synthesize hapticContinuousTimeLimit=_hapticContinuousTimeLimit;
-@property(readonly) vector_85d7f63b hapticTransientIDs; // @synthesize hapticTransientIDs=_hapticTransientIDs;
-@property(readonly) _Bool supportsAdvancedPatternPlayers; // @synthesize supportsAdvancedPatternPlayers=_supportsAdvancedPatternPlayers;
-@property(readonly) _Bool supportsAudioPlayback; // @synthesize supportsAudioPlayback=_supportsAudioPlayback;
-@property(readonly) _Bool supportsHapticPlayback; // @synthesize supportsHapticPlayback=_supportsHapticPlayback;
 @property(readonly) _Bool usingInternalHaptics; // @synthesize usingInternalHaptics=_usingInternalHaptics;
 
 @end

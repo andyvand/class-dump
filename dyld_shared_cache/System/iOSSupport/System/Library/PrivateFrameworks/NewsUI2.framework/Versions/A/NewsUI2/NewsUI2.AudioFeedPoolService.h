@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioFeedPoolService
 {
     id dataManager;
-    id readingHistory;
 }
 
 @end

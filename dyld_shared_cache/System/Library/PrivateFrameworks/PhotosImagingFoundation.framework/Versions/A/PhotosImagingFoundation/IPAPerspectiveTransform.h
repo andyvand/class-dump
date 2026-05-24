@@ -6,24 +6,19 @@
 
 #import <PhotosImagingFoundation/IPAImageTransform.h>
 
-@protocol IPAQuadGeometry;
-
 __attribute__((visibility("hidden")))
 @interface IPAPerspectiveTransform : IPAImageTransform
 {
     struct Matrix4d _projectionTransform;
-    struct Matrix4d _viewingTransform;
-    id <IPAQuadGeometry> _intrinsicGeometry;
-    _Bool _isInverse;
 }
 
 - (struct Vector2d);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
-- (void);
+- (void)setDroppedEndFrameCount: /* Error: Ran out of types for this method. */;
 
 @end
 

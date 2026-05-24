@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, CNContactStore, FAFamilyMember;
+@class FAFamilyMember;
 
 @interface CNContactPickerFamilyMemberScope
 {
     FAFamilyMember *_familyMember;
-    CNContactStore *_familyMemberScopedContactStore;
-    ABAddressBook *_familyMemberScopedAddressBook;
 }
 
 + (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
-@property(readonly, nonatomic) ABAddressBook *familyMemberScopedAddressBook; // @synthesize familyMemberScopedAddressBook=_familyMemberScopedAddressBook;
-@property(readonly, nonatomic) CNContactStore *familyMemberScopedContactStore; // @synthesize familyMemberScopedContactStore=_familyMemberScopedContactStore;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -13,12 +11,12 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -49,34 +47,34 @@ struct NSEdgeInsets {
 };
 
 struct PHAssetResourceTableDataSpecification {
-    int width;
-    int height;
-    int bytesPerRow;
-    int dataWidth;
-    int dataHeight;
-    int imageDataOffset;
-    long long kind;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+    int _field5;
+    int _field6;
+    long long _field7;
 };
 
 struct PXAssetBadgeInfo {
-    unsigned long long badges;
-    double duration;
-    long long count;
-    long long fileSize;
+    unsigned long long _field1;
+    double _field2;
+    long long _field3;
+    long long _field4;
 };
 
 struct PXCornerRadius {
-    double topLeft;
-    double topRight;
-    double bottomLeft;
-    double bottomRight;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct PXDisplayVelocity {
-    double x;
-    double y;
-    double scale;
-    double rotation;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct PXGAssetDecorationInfo {
@@ -152,10 +150,10 @@ struct PXProtectedTileState {
 };
 
 struct PXSimpleIndexPath {
-    long long dataSourceIdentifier;
-    long long section;
-    long long item;
-    long long subitem;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    long long _field4;
 };
 
 struct PXSortCollectionActionSortType {
@@ -177,18 +175,18 @@ struct PXTileGeometry {
 };
 
 struct PXTileIdentifier {
-    unsigned long long length;
-    unsigned long long index[10];
+    unsigned long long _field1;
+    unsigned long long _field2[10];
 };
 
 struct PXTileInfo {
-    long long index;
-    struct CGSize imageSize;
-    struct CGSize minimumSize;
-    _Bool hasCaption;
-    _Bool hasLikes;
-    long long commentCount;
-    _Bool isBatchStart;
+    long long _field1;
+    struct CGSize _field2;
+    struct CGSize _field3;
+    _Bool _field4;
+    _Bool _field5;
+    long long _field6;
+    _Bool _field7;
 };
 
 struct PXTileState {
@@ -230,21 +228,15 @@ struct _NSRange {
 };
 
 struct _PXCornerSpriteIndexes {
-    unsigned int topLeft;
-    unsigned int topRight;
-    unsigned int bottomLeft;
-    unsigned int bottomRight;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
 };
 
 struct _PXGSpriteIndexRange {
-    unsigned int location;
-    unsigned int length;
-};
-
-struct _PXLRUMemoryCacheList {
-    unsigned long long _field1;
-    struct _PXLRUMemoryCacheListElement *_field2;
-    struct _PXLRUMemoryCacheListElement *_field3;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct _PXLRUMemoryCacheListElement {
@@ -271,7 +263,7 @@ struct _PXQuadTreeStoreNode {
     struct _PXQuadTreeStoreNode *_field4;
     unsigned long long _field5;
     unsigned long long _field6;
-    CDStruct_02837cd9 _field7;
+    CDStruct_90e2a262 _field7;
     id _field8;
     CDStruct_183601bc *_field9;
 };
@@ -297,30 +289,6 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<PXTileIdentifier, unsigned long, std::hash<PXTileIdentifier>, std::equal_to<PXTileIdentifier>, std::allocator<std::pair<const PXTileIdentifier, unsigned long>>> {
-    struct __hash_table<std::__hash_value_type<PXTileIdentifier, unsigned long>, std::__unordered_map_hasher<PXTileIdentifier, std::pair<const PXTileIdentifier, unsigned long>, std::hash<PXTileIdentifier>, std::equal_to<PXTileIdentifier>>, std::__unordered_map_equal<PXTileIdentifier, std::pair<const PXTileIdentifier, unsigned long>, std::equal_to<PXTileIdentifier>, std::hash<PXTileIdentifier>>, std::allocator<std::pair<const PXTileIdentifier, unsigned long>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
-};
-
 struct vector<(anonymous namespace)::_PXStoryAutoEditCropScoreInfo, std::allocator<(anonymous namespace)::_PXStoryAutoEditCropScoreInfo>> {
     struct _PXStoryAutoEditCropScoreInfo *__begin_;
     struct _PXStoryAutoEditCropScoreInfo *__end_;
@@ -329,16 +297,12 @@ struct vector<(anonymous namespace)::_PXStoryAutoEditCropScoreInfo, std::allocat
     } ;
 };
 
-struct vector<PFStoryDurationInfo, std::allocator<PFStoryDurationInfo>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
 struct vector<PXStoryAutoEditComposabilityScores, std::allocator<PXStoryAutoEditComposabilityScores>> {
     CDStruct_183601bc *__begin_;
     CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
+    struct {
+        CDStruct_183601bc *__cap_;
+    } ;
 };
 
 #pragma mark Typedef'd Structures
@@ -377,15 +341,15 @@ typedef struct {
 } CDStruct_6238c8e0;
 
 typedef struct {
-    unsigned long long type;
-    _Bool isConstrained;
-    _Bool isExpensive;
-} CDStruct_857573eb;
+    unsigned long long _field1;
+    _Bool _field2;
+    _Bool _field3;
+} CDStruct_f362805f;
 
 typedef struct {
-    unsigned long long croppingOptions;
-    _Bool preferStillKeySegment;
-} CDStruct_aa11df03;
+    unsigned long long _field1;
+    _Bool _field2;
+} CDStruct_5577c19c;
 
 typedef struct {
     unsigned long long needsUpdate;
@@ -412,9 +376,9 @@ typedef struct {
 } CDStruct_aa0b146f;
 
 typedef struct {
-    unsigned long long direction;
-    unsigned long long relativeMotion;
-} CDStruct_b4d0f0d1;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     unsigned long long _field1;
@@ -424,14 +388,21 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned long long count;
-    long long type;
-} CDStruct_15189878;
+    unsigned long long _field1;
+    long long _field2;
+} CDStruct_3f164e09;
 
 typedef struct {
-    double previousDuration;
-    unsigned long long currentStartTime;
-} CDStruct_2e59876b;
+    unsigned long long _field1;
+} CDStruct_69d7cc99;
+
+typedef struct {
+    double _field1[6];
+    double _field2[6];
+    long long _field3[6];
+    double _field4[6];
+    double _field5[6];
+} CDStruct_58b866b9;
 
 typedef struct {
     double minValue;
@@ -454,11 +425,16 @@ typedef struct {
 } CDStruct_efe6456d;
 
 typedef struct {
-    float topLeft;
-    float topRight;
-    float bottomLeft;
-    float bottomRight;
-} CDStruct_0054b44d;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
+
+typedef struct {
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+} CDStruct_818bb265;
 
 typedef struct {
     float _field1;
@@ -466,18 +442,18 @@ typedef struct {
 } CDStruct_b2fbf00d;
 
 typedef struct {
-    long long moduleType;
-    _Bool isStart;
-    _Bool isBreak;
-} CDStruct_3ac0dd7e;
+    long long _field1;
+    _Bool _field2;
+    _Bool _field3;
+} CDStruct_fa0c26dd;
 
 typedef struct {
-    long long numberOfClips;
-    _Bool clipFramesExtendToBounds;
-    long long mainDividerAxis;
-    double mainDividerSplitRatio;
-    long long numberOfAssets;
-} CDStruct_99303aee;
+    long long _field1;
+    _Bool _field2;
+    long long _field3;
+    double _field4;
+    long long _field5;
+} CDStruct_ee3879f9;
 
 typedef struct {
     long long _field1;
@@ -485,10 +461,10 @@ typedef struct {
 } CDStruct_777fda0b;
 
 typedef struct {
-    long long firstSegmentIdentifier;
-    double secondSegmentMixFactor;
-    long long secondSegmentIdentifier;
-} CDStruct_982265da;
+    long long _field1;
+    double _field2;
+    long long _field3;
+} CDStruct_48d5200d;
 
 typedef struct {
     long long _field1;
@@ -509,29 +485,22 @@ typedef struct {
 } CDStruct_b8f58034;
 
 typedef struct {
-    long long preloadableClipsCount;
-    long long preloadedClipsCount;
-    double accumulatedClipsLoadingTime;
-    long long accumulatedClipsLoadedCount;
-} CDStruct_11a7f259;
+    long long _field1;
+    long long _field2;
+    float _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+} CDStruct_2f782ce9;
 
 typedef struct {
-    long long mode;
-    long long modeBasis;
-    float volume;
-    double JCutLength;
-    double LCutLength;
-    double fadeIn;
-    double fadeOut;
-} CDStruct_273850af;
-
-typedef struct {
-    long long contentFormat;
-    long long filterType;
-    float hdrGain;
-    long long fallbackFilterType;
-    float fallbackHdrGain;
-} CDStruct_0b45e515;
+    long long _field1;
+    long long _field2;
+    float _field3;
+    long long _field4;
+    float _field5;
+} CDStruct_93820064;
 
 typedef struct {
     long long _field1;
@@ -555,15 +524,11 @@ typedef struct {
 } CDStruct_2ec95fd7;
 
 typedef struct {
-    long long fromSegmentIdentifier;
-    long long toSegmentIdentifier;
-} CDStruct_b1a1f14e;
+    long long _field1;
+    long long _field2;
+} CDStruct_912cb5d2;
 
 typedef struct CDStruct_183601bc;
-
-typedef struct {
-    CDStruct_183601bc *__cap_;
-} CDStruct_669ce3ce;
 
 typedef struct {
     char orderOutTransition;
@@ -590,10 +555,10 @@ typedef struct {
 } CDStruct_d1ca95b4;
 
 typedef struct {
-    double pressedFraction;
-    double pressedFractionVelocity;
-    struct CGSize timelineSizeBeforePressing;
-} CDStruct_dd79e6a2;
+    double _field1;
+    double _field2;
+    struct CGSize _field3;
+} CDStruct_81349e8c;
 
 typedef struct {
     long long curve;
@@ -614,26 +579,20 @@ typedef struct {
 } CDStruct_c3f531b1;
 
 typedef struct {
-    struct {
-        double x;
-        double y;
-    } origin;
-    struct {
-        double width;
-        double height;
-    } size;
-} CDStruct_02837cd9;
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_90e2a262;
 
 typedef struct {
-    CDStruct_1b6d18a9 time;
-    long long rank;
-} CDStruct_2a08cb02;
+    CDStruct_1b6d18a9 _field1;
+    long long _field2;
+} CDStruct_14e04ed5;
 
 typedef struct {
-    CDStruct_1b6d18a9 minimumDuration;
-    CDStruct_1b6d18a9 preferredDuration;
-    CDStruct_1b6d18a9 maximumDuration;
-} CDStruct_c8943d03;
+    CDStruct_1b6d18a9 _field1;
+    CDStruct_1b6d18a9 _field2;
+    CDStruct_1b6d18a9 _field3;
+} CDStruct_d2aef016;
 
 typedef struct {
     CDStruct_1b6d18a9 start;
@@ -641,33 +600,33 @@ typedef struct {
 } CDStruct_e83c9415;
 
 typedef struct {
-    struct CGAffineTransform affineTransform;
-    double tz;
-} CDStruct_c1f6e9bb;
+    struct CGAffineTransform _field1;
+    double _field2;
+} CDStruct_db347611;
 
 typedef struct {
-    struct CGAffineTransform t;
-} CDStruct_597fa96d;
+    struct CGAffineTransform _field1;
+} CDStruct_e7d4c00a;
 
 typedef struct {
-    struct CGPoint initialLocation;
-    struct CGPoint location;
-    struct CGPoint velocity;
-    NSView *coordinateSpace;
-    double initialTimestamp;
-    double lastTimestamp;
-} CDStruct_b546a901;
+    struct CGPoint _field1;
+    struct CGPoint _field2;
+    struct CGPoint _field3;
+    id _field4;
+    double _field5;
+    double _field6;
+} CDStruct_84602be5;
 
 typedef struct {
-    struct CGPoint center;
-    struct CGSize size;
-    double zPos;
-    double rotationAngle;
-    double alpha;
-    double overlayAlpha;
-    double tapbackScale;
-    double aspectMixFactor;
-} CDStruct_e6e97baa;
+    struct CGPoint _field1;
+    struct CGSize _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+} CDStruct_decfe93a;
 
 typedef struct {
     struct CGSize viewportSize;
@@ -676,28 +635,16 @@ typedef struct {
 } CDStruct_0b735c3a;
 
 typedef struct {
-    struct CGSize _field1;
-    struct CGSize _field2;
-    struct CGSize _field3;
-    _Bool _field4;
-    unsigned long long _field5;
-    struct CGPoint _field6;
-} CDStruct_341496a7;
-
-typedef struct {
-    struct CLLocationCoordinate2D center;
-    struct {
-        double latitudeDelta;
-        double longitudeDelta;
-    } span;
-} CDStruct_b7cb895d;
+    struct CLLocationCoordinate2D _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_26e8d939;
 
 typedef struct {
     union {
-        CDStruct_0054b44d ;
-        float byIndex[4];
-    } ;
-} CDStruct_2bd92d94;
+        CDStruct_818bb265 _field1;
+        float _field2[4];
+    } _field1;
+} CDStruct_c2259bfa;
 
 typedef struct {
     unsigned char _field1;
@@ -710,27 +657,27 @@ typedef struct {
 } CDStruct_fe8c0406;
 
 typedef struct {
-    long long style;
+    long long _field1;
     union {
-        CDStruct_b4d0f0d1 pan;
-        CDStruct_66ab5b12 scale;
-        CDStruct_66ab5b12 rotate;
-    } settings;
-} CDStruct_b8e7e30c;
+        CDStruct_4bcfbbae _field1;
+        CDStruct_69d7cc99 _field2;
+        CDStruct_69d7cc99 _field3;
+    } _field2;
+} CDStruct_412fc33d;
 
 typedef struct {
-    long long kind;
-    double duration;
+    long long _field1;
+    double _field2;
     union {
-        CDStruct_b4d0f0d1 pan;
-        CDStruct_66ab5b12 scale;
-        CDStruct_66ab5b12 rotate;
+        CDStruct_4bcfbbae _field1;
+        CDStruct_69d7cc99 _field2;
+        CDStruct_69d7cc99 _field3;
         struct {
-            char kind;
-            char firstAssetDirection;
-        } wipe;
-    } settings;
-} CDStruct_618113c1;
+            char _field1;
+            char _field2;
+        } _field4;
+    } _field3;
+} CDStruct_4ae65f2e;
 
 typedef struct {
     long long _field1;
@@ -751,49 +698,43 @@ typedef struct {
 } CDStruct_f5e2432b;
 
 typedef struct {
-    long long kind;
-    CDStruct_c8943d03 specificDurationInfo;
-} CDStruct_5d4c7ed3;
+    long long _field1;
+    CDStruct_d2aef016 _field2;
+} CDStruct_f0d1f9bc;
 
 typedef struct {
-    long long segmentIdentifier;
-    CDStruct_e83c9415 allowedTimeRange;
-    CDStruct_1b6d18a9 originalDuration;
-    CDStruct_1b6d18a9 adjustedDuration;
-    CDStruct_2a08cb02 cue;
-    long long cueVersion;
-    CDStruct_1b6d18a9 cueTime;
-    double startTime;
-    CDStruct_1b6d18a9 startTimeIntoSegment;
-    long long timelineVersion;
-    char transitionKind;
-    CDStruct_1b6d18a9 transitionCorrection;
-} CDStruct_12f93e2f;
+    long long _field1;
+    CDStruct_e83c9415 _field2;
+    CDStruct_1b6d18a9 _field3;
+    CDStruct_1b6d18a9 _field4;
+    CDStruct_14e04ed5 _field5;
+    long long _field6;
+    CDStruct_1b6d18a9 _field7;
+    double _field8;
+    CDStruct_1b6d18a9 _field9;
+    long long _field10;
+    char _field11;
+    CDStruct_1b6d18a9 _field12;
+} CDStruct_2dd41ccf;
 
 typedef struct {
-    CDStruct_1b6d18a9 minimumDuration;
-    CDStruct_1b6d18a9 preferredDuration;
-    CDStruct_1b6d18a9 maximumDuration;
-    CDStruct_2a08cb02 preferredCue;
-    char expectedTransitionKind;
-} CDStruct_bb38be21;
+    CDStruct_1b6d18a9 _field1;
+    CDStruct_1b6d18a9 _field2;
+    CDStruct_1b6d18a9 _field3;
+    CDStruct_14e04ed5 _field4;
+    char _field5;
+} CDStruct_e96db414;
 
 typedef struct {
-    CDStruct_e307eb02 sourceInsets;
-    CDStruct_e307eb02 targetInsets;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_db17f41a;
+    CDStruct_e7d4c00a _field1;
+    CDStruct_e7d4c00a _field2;
+    CDStruct_1b6d18a9 _field3;
+} CDStruct_6bc7ba05;
 
 typedef struct {
-    CDStruct_597fa96d sourceContentsRect;
-    CDStruct_597fa96d targetContentsRect;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_24e54195;
-
-typedef struct {
-    CDStruct_597fa96d s;
-    CDStruct_597fa96d t;
-} CDStruct_f7388bc9;
+    CDStruct_e7d4c00a _field1;
+    CDStruct_e7d4c00a _field2;
+} CDStruct_3d940f03;
 
 typedef struct {
     struct CGRect _field1;
@@ -807,23 +748,16 @@ typedef struct {
 } CDStruct_fd7a954a;
 
 typedef struct {
-    struct CGRect _field1;
-    CDStruct_e307eb02 _field2;
-    struct CGPoint _field3;
-    struct CGSize _field4;
-} CDStruct_e7a99259;
-
-typedef struct {
-    struct CGSize size;
-    struct CGRect preferredCropRect;
-    struct CGRect acceptableCropRect;
-    struct CGRect faceAreaRect;
-    struct CGRect bestPlaybackRect;
-} CDStruct_4cef5b45;
+    struct CGSize _field1;
+    struct CGRect _field2;
+    struct CGRect _field3;
+    struct CGRect _field4;
+    struct CGRect _field5;
+} CDStruct_b9de0efa;
 
 typedef struct {
     float _field1;
-    CDStruct_2bd92d94 _field2;
+    CDStruct_c2259bfa _field2;
     float _field3;
     float _field4;
     float _field5;
@@ -834,41 +768,37 @@ typedef struct {
     struct {
         id _field1[4];
     } _field10;
-} CDStruct_a9e72675;
+} CDStruct_08707347;
 
 typedef struct {
-    long long identifier;
-    long long resourceKind;
-    struct CGSize clipSize;
-    unsigned long long options;
-    CDStruct_bb38be21 durationInfo;
-    long long playbackStyle;
-    CDStruct_4cef5b45 assetContentInfo;
-    struct NSEdgeInsets safeAreaInsets;
-    CDStruct_db17f41a clippingAnimationInfo;
-    CDStruct_24e54195 kenBurnsAnimationInfo;
-    CDStruct_cac3ced6 transitionInfo;
-    CDStruct_273850af audioInfo;
-} CDStruct_c0304e72;
+    long long _field1;
+    long long _field2;
+    struct CGSize _field3;
+    unsigned long long _field4;
+    CDStruct_e96db414 _field5;
+    long long _field6;
+    CDStruct_b9de0efa _field7;
+    struct NSEdgeInsets _field8;
+    struct {
+        CDStruct_e307eb02 _field1;
+        CDStruct_e307eb02 _field2;
+        CDStruct_1b6d18a9 _field3;
+    } _field9;
+    CDStruct_6bc7ba05 _field10;
+    CDStruct_cac3ced6 _field11;
+    CDStruct_2f782ce9 _field12;
+} CDStruct_58af7e62;
 
 typedef struct {
-    long long identifier;
-    CDStruct_99303aee compositionInfo;
-    CDStruct_cac3ced6 transitionInfo;
-    CDStruct_bb38be21 durationInfo;
-} CDStruct_ae7b37d2;
+    long long _field1;
+    CDStruct_ee3879f9 _field2;
+    CDStruct_cac3ced6 _field3;
+    CDStruct_e96db414 _field4;
+} CDStruct_1e69568f;
 
 // Ambiguous groups
 typedef struct {
     _Bool respondsToPlayerStatusChangedForPlayerWrapper;
     _Bool respondsToTimeChanged;
 } CDStruct_42e984b2;
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    unsigned long long direction;
-} CDStruct_66ab5b12;
 

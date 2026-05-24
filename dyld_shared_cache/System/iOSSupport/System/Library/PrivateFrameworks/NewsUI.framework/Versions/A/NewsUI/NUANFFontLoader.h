@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCANFContent, FCAsyncOnceOperation, FCFlintResourceManager, NSMutableArray, NSString;
-@protocol NUFontRegistration;
+@class FCANFContent;
 
 @interface NUANFFontLoader
 {
     _Bool _hasLoaded;
-    long long _relativePriority;
-    FCANFContent *_anfContent;
-    FCFlintResourceManager *_flintResourceManager;
-    NSMutableArray *_fontResourcesToRegister;
-    NSMutableArray *_fontResourcesRegistered;
-    FCAsyncOnceOperation *_asyncOnceOperation;
-    id <NUFontRegistration> _fontRegistration;
 }
 
 - (void);
@@ -29,28 +21,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FCANFContent *anfContent; // @synthesize anfContent=_anfContent;
-@property(readonly, nonatomic) FCAsyncOnceOperation *asyncOnceOperation; // @synthesize asyncOnceOperation=_asyncOnceOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager; // @synthesize flintResourceManager=_flintResourceManager;
-@property(readonly, nonatomic) id <NUFontRegistration> fontRegistration; // @synthesize fontRegistration=_fontRegistration;
-@property(readonly, nonatomic) NSMutableArray *fontResourcesRegistered; // @synthesize fontResourcesRegistered=_fontResourcesRegistered;
-@property(readonly, nonatomic) NSMutableArray *fontResourcesToRegister; // @synthesize fontResourcesToRegister=_fontResourcesToRegister;
-@property(readonly, nonatomic) _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(readonly) Class superclass;
 
 @end
 

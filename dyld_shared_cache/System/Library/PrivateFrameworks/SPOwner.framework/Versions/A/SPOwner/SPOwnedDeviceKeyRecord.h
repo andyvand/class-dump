@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSUUID;
+@class NSUUID;
 
 @interface SPOwnedDeviceKeyRecord
 {
     NSUUID *_identifier;
-    NSUUID *_deviceIdentifier;
-    NSData *_advertisement;
-    NSData *_hashedAdvertisement;
-    NSDate *_creationDate;
 }
 
 + (_Bool);
@@ -27,10 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *advertisement; // @synthesize advertisement=_advertisement;
-@property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy, nonatomic) NSUUID *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, copy, nonatomic) NSData *hashedAdvertisement; // @synthesize hashedAdvertisement=_hashedAdvertisement;
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 
 @end

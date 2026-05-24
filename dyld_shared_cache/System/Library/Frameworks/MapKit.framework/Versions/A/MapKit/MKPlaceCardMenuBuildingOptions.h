@@ -9,17 +9,15 @@
 @interface MKPlaceCardMenuBuildingOptions
 {
     _Bool _addMismatchedItems;
-    NSArray *_requestedActionTypes;
 }
 
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)ing;
+- (void)mapsIdentifierString;
 
 // Remaining properties
-@property(nonatomic) _Bool addMismatchedItems; // @synthesize addMismatchedItems=_addMismatchedItems;
 @property(readonly, copy, nonatomic) NSArray *requestedActionTypes; // @synthesize requestedActionTypes=_requestedActionTypes;
 
 @end

@@ -9,20 +9,6 @@
 @interface AppStoreKit.HttpTemplateAction : AppStoreKit.Action
 {
     id url;
-    id method;
-    id headers;
-    id jsonBody;
-    id dictionaryBody;
-    id formBody;
-    id parameters;
-    id isStoreRequest;
-    id needsAuthentication;
-    id needsMediaToken;
-    id retryCount;
-    id disableCache;
-    id successAction;
-    id failureAction;
-    id message;
 }
 
 @end

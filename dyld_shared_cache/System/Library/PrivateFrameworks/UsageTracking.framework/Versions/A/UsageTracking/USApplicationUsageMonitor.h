@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, NSData, NSDictionary;
-
 @interface USApplicationUsageMonitor
 {
     void *_notificationID;
-    unsigned long long _activityNotificationHandle;
-    NSDictionary *_activeApplicationEvents;
-    NSData *_frontmostAuditToken;
-    NSDictionary *_frontmostApplicationUsage;
-    NSDictionary *_inUseApplicationEvents;
-    BMSource *_appUsageSource;
 }
 
 + (id);
@@ -44,19 +36,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void *);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *activeApplicationEvents; // @synthesize activeApplicationEvents=_activeApplicationEvents;
-@property unsigned long long activityNotificationHandle; // @synthesize activityNotificationHandle=_activityNotificationHandle;
-@property(retain, nonatomic) BMSource *appUsageSource; // @synthesize appUsageSource=_appUsageSource;
-@property(copy, nonatomic) NSDictionary *frontmostApplicationUsage; // @synthesize frontmostApplicationUsage=_frontmostApplicationUsage;
-@property(copy, nonatomic) NSData *frontmostAuditToken; // @synthesize frontmostAuditToken=_frontmostAuditToken;
-@property(copy, nonatomic) NSDictionary *inUseApplicationEvents; // @synthesize inUseApplicationEvents=_inUseApplicationEvents;
 @property void *notificationID; // @synthesize notificationID=_notificationID;
 
 @end

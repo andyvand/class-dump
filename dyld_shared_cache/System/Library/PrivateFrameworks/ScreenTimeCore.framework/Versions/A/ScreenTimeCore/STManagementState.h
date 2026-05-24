@@ -4,86 +4,75 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 @interface STManagementState
 {
     _Bool _cachedShouldRequestMoreTime;
-    _Bool _cachedIsRestrictionsPasscodeSet;
-    NSXPCConnection *_connection;
 }
 
+- (_Bool)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16I24B28^d32^{?=BCi[4^v]}40B48B52;
 - (_Bool);
 - (_Bool);
+- (void)reflective;
+- (void)PortTooltip_BoundingBox;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)p!;
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)sourceVersion:(id)arg1 updateDateDefaultsKey:(CDUnknownBlockType)arg2 updateInterval:snapshotClass:snapshotTransformerClass: /* Error: Ran out of types for this method. */;
+- (_Bool)_mutableDictionary;
+- (void),N,V_URL;
+- (void)r key %{public}@, error:(_Bool)arg1 %{public}@;
+- (void)l;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool cachedIsRestrictionsPasscodeSet; // @synthesize cachedIsRestrictionsPasscodeSet=_cachedIsRestrictionsPasscodeSet;
 @property _Bool cachedShouldRequestMoreTime; // @synthesize cachedShouldRequestMoreTime=_cachedShouldRequestMoreTime;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) _Bool contactsEditable;
-@property(readonly, nonatomic) _Bool isLocalUserManaged;
-@property(readonly, nonatomic) _Bool isRestrictionsPasscodeSet;
-@property(readonly) _Bool needsToSetRestrictionsPasscode;
-@property(readonly, nonatomic) _Bool shouldRequestMoreTime;
 
 @end
 

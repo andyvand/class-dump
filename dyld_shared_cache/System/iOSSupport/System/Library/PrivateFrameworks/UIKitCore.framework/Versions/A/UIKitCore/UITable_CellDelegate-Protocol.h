@@ -5,6 +5,7 @@
 //
 
 @protocol UITable_CellDelegate
+- (struct UIEdgeInsets)eventType;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_rawSeparatorInset) struct UIEdgeInsets rawSeparatorInset;

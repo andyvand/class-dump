@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SKPaymentAppleIDAuthorizationRequest, SKPaymentDiscount, SKProductSubscriptionPeriod;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SKPaymentInternal
 {
     NSString *_applicationUsername;
-    NSString *_partnerIdentifier;
-    NSString *_partnerTransactionIdentifier;
-    NSString *_productIdentifier;
-    NSString *_productKind;
-    long long _quantity;
-    NSData *_requestData;
-    NSDictionary *_requestParameters;
-    _Bool _simulatesAskToBuyInSandbox;
-    SKProductSubscriptionPeriod *_subscriptionPeriod;
-    _Bool _isStoreOriginated;
-    SKPaymentDiscount *_paymentDiscount;
-    SKPaymentAppleIDAuthorizationRequest *_appleIDAuthorizationClientInfo;
-    NSDictionary *_metricsOverlay;
 }
 
 - (id);
-- (id);
+- (id)u";
 - (void);
 
 @end

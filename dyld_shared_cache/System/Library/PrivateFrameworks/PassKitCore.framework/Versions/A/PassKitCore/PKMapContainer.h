@@ -9,8 +9,6 @@
 @interface PKMapContainer
 {
     NSMutableDictionary *_recipientMap;
-    NSMutableDictionary *_scoreMap;
-    long long _version;
 }
 
 + (_Bool);
@@ -19,15 +17,13 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)fourthLevelMMCSErrorDomain;
 - (void);
 - (void)ext=}8;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableDictionary *recipientMap; // @synthesize recipientMap=_recipientMap;
-@property(readonly, copy, nonatomic) NSMutableDictionary *scoreMap; // @synthesize scoreMap=_scoreMap;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

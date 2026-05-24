@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRShowScheduledByDateBucketsMonitorableDataView
 {
     id store;
-    id style;
-    id showCompleted;
-    id countCompleted;
-    id sortingStyle;
-    id remindersToPrefetchCount;
 }
 
 @end

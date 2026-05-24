@@ -6,52 +6,36 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSArray, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKPeerPaymentRequestTokenRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_recipientIdentifier;
-    NSDecimalNumber *_amount;
-    NSString *_currency;
-    NSString *_senderAddress;
-    unsigned long long _source;
-    unsigned long long _behavior;
-    NSString *_recipientPhoneOrEmail;
-    unsigned long long _messagesContext;
-    NSArray *_recipientAddresses;
 }
 
-- (void);
+- (void)V;
 - (id);
 - (id);
+- (void)u;
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (void);
-- (void)Instructions;
+- (unsigned long long)$;
+- (void)_TtC11PassKitCore33ProvisioningCarKeyStepStartAccept;
+- (void)fortifiedInstructions;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned long long behavior; // @synthesize behavior=_behavior;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(nonatomic) unsigned long long messagesContext; // @synthesize messagesContext=_messagesContext;
-@property(copy, nonatomic) NSArray *recipientAddresses; // @synthesize recipientAddresses=_recipientAddresses;
 @property(copy, nonatomic) NSString *recipientIdentifier; // @synthesize recipientIdentifier=_recipientIdentifier;
-@property(copy, nonatomic) NSString *recipientPhoneOrEmail; // @synthesize recipientPhoneOrEmail=_recipientPhoneOrEmail;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
 
 @end
 

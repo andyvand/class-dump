@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     id _parentObject;
 }
 
-+ (unsigned long long);
++ (unsigned long long)~;
 - (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
-- (_Bool);
+- (_Bool)RBCompatibility;
 - (id);
 - (_Bool);
 - (id)transaction query generation with error %d

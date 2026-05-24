@@ -9,28 +9,6 @@
 @interface BWStartupCalibrationAnalyticsPayload
 {
     NSString *_portType;
-    float _accelStandardDeviation;
-    float _gyroStandardDeviation;
-    float _sessionOffset;
-    float _deltaOffset;
-    int _apsVoltage;
-    float _maxAcceleration;
-    float _deltaAcceleration;
-    int _offsetEstimatorStatus;
-    _Bool _headroomErrorOccurred;
-    _Bool _convergeErrorOccurred;
-    _Bool _motionErrorOccurred;
-    _Bool _confidenceErrorOccurred;
-    _Bool _largeOffsetErrorOccurred;
-    _Bool _saturationErrorOccurred;
-    _Bool _degradedAPSMagnetErrorOccurred;
-    _Bool _success;
-    _Bool _gcolEntry;
-    _Bool _closedLoopEntry;
-    float _gravityX;
-    float _gravityY;
-    float _gravityZ;
-    float _completionTime;
 }
 
 - (void);
@@ -41,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void))j;
+- (void)T;
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -60,7 +38,7 @@
 - (_Bool);
 - (float);
 - (float);
-- (float);
+- (float);
 - (float);
 - (_Bool);
 - (float);
@@ -71,51 +49,23 @@
 - (int);
 - (float);
 - (void);
-- (float);
+- (float)9
+';
 - (_Bool);
 - (void);
 - (float);
 - (void);
 - (void);
-- (void);
+- (void)OAXDrawable;
 - (id);
 - (id);
-- (id);
+- (id)WPAirPlaySoloKeyDeviceAddress;
 - (_Bool)ÿ¿9ÿÅ7ÿÍ4ÿÔ3ÿÜ2ÿä4ÿî7ÿõ<ÿ÷>ÿ÷>ÿø>ÿ;
 - (void)ror];
 - (id)ass only works for pass through nodes. ;
 
 // Remaining properties
-@property(nonatomic) float accelStandardDeviation; // @synthesize accelStandardDeviation=_accelStandardDeviation;
-@property(nonatomic) int apsVoltage; // @synthesize apsVoltage=_apsVoltage;
-@property(nonatomic) _Bool closedLoopEntry; // @synthesize closedLoopEntry=_closedLoopEntry;
-@property(nonatomic) float completionTime; // @synthesize completionTime=_completionTime;
-@property(nonatomic) _Bool confidenceErrorOccurred; // @synthesize confidenceErrorOccurred=_confidenceErrorOccurred;
-@property(nonatomic) _Bool convergeErrorOccurred; // @synthesize convergeErrorOccurred=_convergeErrorOccurred;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool degradedAPSMagnetErrorOccurred; // @synthesize degradedAPSMagnetErrorOccurred=_degradedAPSMagnetErrorOccurred;
-@property(nonatomic) float deltaAcceleration; // @synthesize deltaAcceleration=_deltaAcceleration;
-@property(nonatomic) float deltaOffset; // @synthesize deltaOffset=_deltaOffset;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool gcolEntry; // @synthesize gcolEntry=_gcolEntry;
-@property(nonatomic) float gravityX; // @synthesize gravityX=_gravityX;
-@property(nonatomic) float gravityY; // @synthesize gravityY=_gravityY;
-@property(nonatomic) float gravityZ; // @synthesize gravityZ=_gravityZ;
-@property(nonatomic) float gyroStandardDeviation; // @synthesize gyroStandardDeviation=_gyroStandardDeviation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool headroomErrorOccurred; // @synthesize headroomErrorOccurred=_headroomErrorOccurred;
-@property(nonatomic) _Bool largeOffsetErrorOccurred; // @synthesize largeOffsetErrorOccurred=_largeOffsetErrorOccurred;
-@property(nonatomic) float maxAcceleration; // @synthesize maxAcceleration=_maxAcceleration;
-@property(nonatomic) _Bool motionErrorOccurred; // @synthesize motionErrorOccurred=_motionErrorOccurred;
-@property(nonatomic) int offsetEstimatorStatus; // @synthesize offsetEstimatorStatus=_offsetEstimatorStatus;
 @property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) _Bool saturationErrorOccurred; // @synthesize saturationErrorOccurred=_saturationErrorOccurred;
-@property(nonatomic) float sessionOffset; // @synthesize sessionOffset=_sessionOffset;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

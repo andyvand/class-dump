@@ -10,11 +10,11 @@
 
 + (void);
 + (id);
++ (id)rkJ+;
 + (id);
-+ (id);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);

@@ -5,13 +5,11 @@
 //
 
 @class NSXPCConnection;
-@protocol AUPBInspecting;
 
 __attribute__((visibility("hidden")))
 @interface AUPBClientConnection
 {
     NSXPCConnection *xpcconnection;
-    id <AUPBInspecting> proxyInterface;
 }
 
 - (id);
@@ -20,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <AUPBInspecting> proxyInterface; // @synthesize proxyInterface;
 @property(retain, nonatomic) NSXPCConnection *xpcconnection; // @synthesize xpcconnection;
 
 @end

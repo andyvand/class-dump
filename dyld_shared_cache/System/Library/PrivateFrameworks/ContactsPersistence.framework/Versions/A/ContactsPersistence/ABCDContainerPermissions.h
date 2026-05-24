@@ -7,11 +7,9 @@
 @interface ABCDContainerPermissions
 {
     _Bool _canCreateContacts;
-    _Bool _canDeleteContacts;
-    _Bool _canCreateGroups;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canCreateContacts; // @synthesize canCreateContacts=_canCreateContacts;
-@property(readonly, nonatomic) _Bool canCreateGroups; // @synthesize canCreateGroups=_canCreateGroups;
-@property(readonly, nonatomic) _Bool canDeleteContacts; // @synthesize canDeleteContacts=_canDeleteContacts;
 
 @end
 

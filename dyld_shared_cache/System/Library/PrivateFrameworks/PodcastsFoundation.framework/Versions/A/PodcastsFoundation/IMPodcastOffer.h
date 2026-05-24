@@ -9,7 +9,6 @@
 @interface IMPodcastOffer
 {
     NSString *_kind;
-    NSString *_priceType;
 }
 
 - (void);
@@ -17,12 +16,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)20B28;
 - (void)SGtG;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSString *priceType; // @synthesize priceType=_priceType;
 
 @end
 

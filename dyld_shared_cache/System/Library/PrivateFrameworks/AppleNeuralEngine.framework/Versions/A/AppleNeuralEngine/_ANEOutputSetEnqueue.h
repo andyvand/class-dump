@@ -7,10 +7,6 @@
 @interface _ANEOutputSetEnqueue
 {
     _Bool _signalNotRequired;
-    _Bool _isOpenLoop;
-    unsigned int _procedureIndex;
-    unsigned int _setIndex;
-    unsigned long long _signalValue;
 }
 
 + (id);
@@ -24,11 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isOpenLoop; // @synthesize isOpenLoop=_isOpenLoop;
 @property(readonly, nonatomic) unsigned int procedureIndex; // @synthesize procedureIndex=_procedureIndex;
-@property(readonly, nonatomic) unsigned int setIndex; // @synthesize setIndex=_setIndex;
-@property(readonly, nonatomic) _Bool signalNotRequired; // @synthesize signalNotRequired=_signalNotRequired;
-@property(readonly, nonatomic) unsigned long long signalValue; // @synthesize signalValue=_signalValue;
 
 @end
 

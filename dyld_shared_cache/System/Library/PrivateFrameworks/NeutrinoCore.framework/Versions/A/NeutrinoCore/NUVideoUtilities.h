@@ -20,7 +20,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)jv87;
 + (id);
 + (id);
 + (id);
@@ -41,7 +41,7 @@
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
++ (id)?;
 + (CDStruct_912cb5d2);
 + (CDStruct_1b6d18a9);
 + (CDStruct_1b6d18a9);
@@ -62,7 +62,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -94,12 +94,12 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool)!;
 + (_Bool);
 + (id);
 + (id);
-+ (float);
++ (float)_;
 
 @end
 

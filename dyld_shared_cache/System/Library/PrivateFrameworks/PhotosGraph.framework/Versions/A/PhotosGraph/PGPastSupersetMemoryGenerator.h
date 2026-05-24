@@ -18,12 +18,12 @@
 - (id);
 - (id);
 - (id);
+- (void)_becomeFrontmostApplication;
+- (id)SharedSupport.framework/AccessibilitySharedSupport;
+- (id)tus.wifi.strength.4.withNetwork%@%@;
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)assetCollectionStartDate;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *localDate; // @synthesize localDate=_localDate;

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingAnalysisNodeMetrics, HMDResidentDevice;
+@class HMDResidentDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingAnalysisNode
 {
     HMDResidentDevice *_residentDevice;
-    HMDCameraRecordingAnalysisNodeMetrics *_metrics;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)N;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDCameraRecordingAnalysisNodeMetrics *metrics; // @synthesize metrics=_metrics;
 @property(readonly, nonatomic) HMDResidentDevice *residentDevice; // @synthesize residentDevice=_residentDevice;
 
 @end

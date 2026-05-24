@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, VMUCallTreeRoot, VMUClassPatternMatcher, VMUDebugTimer, VMUDominatorGraph, VMUProcessObjectGraph;
+@class VMUDebugTimer, VMUProcessObjectGraph;
 
 __attribute__((visibility("hidden")))
 @interface VMUDominatorCallTreeCreator
 {
     VMUDebugTimer *_debugTimer;
-    void *_visitedNodes;
-    _Bool _showRegionVirtualSize;
-    _Bool _groupByType;
-    VMUProcessObjectGraph *_processObjectGraph;
-    VMUDominatorGraph *_dominatorGraph;
-    VMUCallTreeRoot *_callTreeRoot;
-    NSNumber *_desiredAddress;
-    VMUClassPatternMatcher *_desiredClassesPattern;
 }
 
 - (unsigned long long);
@@ -33,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void *);
+- (id)@9;
+- (void *)g;
 - (id);
 - (id);
 - (void);
@@ -44,10 +36,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) VMUCallTreeRoot *callTreeRoot; // @synthesize callTreeRoot=_callTreeRoot;
-@property(retain) NSNumber *desiredAddress; // @synthesize desiredAddress=_desiredAddress;
-@property(retain) VMUClassPatternMatcher *desiredClassesPattern; // @synthesize desiredClassesPattern=_desiredClassesPattern;
-@property(retain) VMUDominatorGraph *dominatorGraph; // @synthesize dominatorGraph=_dominatorGraph;
 @property(retain) VMUProcessObjectGraph *processObjectGraph; // @synthesize processObjectGraph=_processObjectGraph;
 
 @end

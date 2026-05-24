@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPaywallTopOffsetConfiguration, FCPaywallVisualSpecConfiguration, FCSubscriptionButtonConfiguration, NSString, NSURL;
-
 @interface FCPaywallConfiguration
 {
     _Bool _externalOverridesEnabled;
-    unsigned long long _paywallType;
-    NSString *_title;
-    NSString *_descriptionTrial;
-    NSString *_descriptionNonTrial;
-    NSString *_learnMoreTitle;
-    NSURL *_learnMoreURL;
-    NSString *_offersLinkTitle;
-    NSURL *_offersLinkURL;
-    unsigned long long _offersLinkTargetType;
-    FCSubscriptionButtonConfiguration *_subscriptionButtonConfig;
-    FCPaywallVisualSpecConfiguration *_visualSpecConfig;
-    FCPaywallTopOffsetConfiguration *_paywallTopOffsetConfig;
 }
 
 + (id);
 + (id);
++ (id)˟;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
++ (id)Ѡ;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -48,8 +34,9 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)F
+;
 - (id);
 - (void);
 - (_Bool);
@@ -66,33 +53,21 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)A;
+- (_Bool)SUCCESS;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)lSignalEventCount;
-- (id)ordSource;
+- (id)maxExternalSignalEventCount;
+- (id)FCWidgetSectionConfigRecordSource;
 - (void)tokenize() function:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *descriptionNonTrial; // @synthesize descriptionNonTrial=_descriptionNonTrial;
-@property(copy, nonatomic) NSString *descriptionTrial; // @synthesize descriptionTrial=_descriptionTrial;
-@property(readonly, nonatomic) _Bool externalOverridesEnabled; // @synthesize externalOverridesEnabled=_externalOverridesEnabled;
-@property(copy, nonatomic) NSString *learnMoreTitle; // @synthesize learnMoreTitle=_learnMoreTitle;
-@property(copy, nonatomic) NSURL *learnMoreURL; // @synthesize learnMoreURL=_learnMoreURL;
-@property(nonatomic) unsigned long long offersLinkTargetType; // @synthesize offersLinkTargetType=_offersLinkTargetType;
-@property(copy, nonatomic) NSString *offersLinkTitle; // @synthesize offersLinkTitle=_offersLinkTitle;
-@property(copy, nonatomic) NSURL *offersLinkURL; // @synthesize offersLinkURL=_offersLinkURL;
-@property(readonly, nonatomic) FCPaywallTopOffsetConfiguration *paywallTopOffsetConfig; // @synthesize paywallTopOffsetConfig=_paywallTopOffsetConfig;
 @property(nonatomic) unsigned long long paywallType; // @synthesize paywallType=_paywallType;
-@property(retain, nonatomic) FCSubscriptionButtonConfiguration *subscriptionButtonConfig; // @synthesize subscriptionButtonConfig=_subscriptionButtonConfig;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) FCPaywallVisualSpecConfiguration *visualSpecConfig; // @synthesize visualSpecConfig=_visualSpecConfig;
 
 @end
 

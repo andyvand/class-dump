@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt32DoubleDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -30,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)RolloutId;
-- (void)tchingCrash;
+- (void)hasLatestRolloutId;
+- (void)DiagnosticPatternMatchingCrash;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

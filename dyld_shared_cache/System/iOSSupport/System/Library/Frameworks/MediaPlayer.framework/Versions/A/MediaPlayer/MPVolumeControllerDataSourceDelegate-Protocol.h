@@ -5,5 +5,9 @@
 //
 
 @protocol MPVolumeControllerDataSourceDelegate
+- (void)LI;
+
+@optional
+- (void);
 @end
 

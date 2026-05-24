@@ -7,16 +7,6 @@
 @interface NewsUI2.MagazineFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintSelectionProvider;
-    id blueprintLayoutProvider;
-    id offlineAlertControllerFactory;
-    id feedPaywallConfigFactory;
-    id sharingActivityProviderFactory;
-    id commandContainer;
-    id newsActivityManager;
-    id tipManager;
 }
 
 - (void);
@@ -27,7 +17,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)	
 H;

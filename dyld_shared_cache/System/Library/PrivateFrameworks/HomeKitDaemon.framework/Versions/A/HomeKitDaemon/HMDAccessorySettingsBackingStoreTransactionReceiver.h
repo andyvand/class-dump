@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMDAccessorySettingsBackingStoreTransactionReceiverDelegate;
 
 __attribute__((visibility("hidden")))
@@ -14,21 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)ce:(id)arg1;
+- (void)@;
+- (id)setWACDevice:(id)arg1;
 - (void)rgeIdentifier:(id)arg1 %@;
 - (void)etworkMismatchDetectorDataSourceP;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDAccessorySettingsBackingStoreTransactionReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

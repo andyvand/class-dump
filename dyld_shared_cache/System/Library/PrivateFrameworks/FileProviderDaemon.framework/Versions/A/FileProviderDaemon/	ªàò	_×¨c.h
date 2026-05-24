@@ -7,49 +7,12 @@
 @interface 	ªàò	?×¨c
 {
     id ù?;
-    id ñª1ôò1	?×hBDù@ùÝG©tþCù@ùñª1\íò0ÁÚLøP_òò	?×ô;
-    id 	?×ô;
-    id °10@ù
-?×é;
-    id ÑPøàª*~ô;
-    id iCù(@øàªáªñ	ªàò	?×iúCù(@ø`¦Cùáªñ	ªàò	?×t
-DùiîCù(@øàªa2Dùñ	ªàò	?×;
-    id càªwÚCùáª"Rc`þCùáªôª»wþiCù(@øàªáªñ	ªàò	?×iúCù(@ø`¦Cùáªñ	ªàò	?×t
-DùiîCù(@øàªa2Dùñ	ªàò	?×;
-    id ùé;
-    id ª"Rc`þCùáªôª»wþiCù(@øàªáªñ	ªàò	?×iúCù(@ø`¦Cùáªñ	ªàò	?×t
-DùiîCù(@øàªa2Dùñ	ªàò	?×;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª1\íò0ÁÚAù
-// Property attributes: Pø	@øªãÑ@PøªC
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: ª¢R{àª¶Qøáª"Rv Tøáªôªþ©Qø(@øàª.
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 1\íò0ÁÚAùõg©öS©á
-// Property attributes: ?
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ò0ÁÚ	"@ù(=
-// Property attributes: {bùàªFx`
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: töCùxúAùwæAùzAùyJDùà
 // Property attributes: _øðªñ	ªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: Cù(	?×
-// Property attributes: ªâªãªôª)c
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: A²À_Ö
-// Property attributes: Ñ	Pø(@øªcÑ@PøªÃÑAPøñ	ªàò	?×öÿ¨c
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 0@ù
-?×é
-// Property attributes: 
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ø_©öW©ôO©ý{©ý@ùðªñª1\íò0ÁÚ"Aùðªñª1\íò0ÁÚAùðªñª1\íò0ÁÚAùÖ
-// Property attributes: 
 
 @end
 

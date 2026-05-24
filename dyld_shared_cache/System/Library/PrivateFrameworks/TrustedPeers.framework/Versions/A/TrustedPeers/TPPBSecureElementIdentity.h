@@ -9,31 +9,28 @@
 @interface TPPBSecureElementIdentity
 {
     NSData *_peerData;
-    NSData *_peerIdentifier;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)__objc_methtype;
+- (unsigned long long)6;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)en information for Suica, invalid block:(id)arg1 %@;
+- (id)metadata
+;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPeerData;
 @property(readonly, nonatomic) _Bool hasPeerIdentifier;
-@property(retain, nonatomic) NSData *peerData; // @synthesize peerData=_peerData;
-@property(retain, nonatomic) NSData *peerIdentifier; // @synthesize peerIdentifier=_peerIdentifier;
 
 @end
 

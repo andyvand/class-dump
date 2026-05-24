@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
+@class NSString;
 
 @interface GEOTimezoneInfo
 {
     CDStruct_2c43369c _originCoordinate;
-    CDStruct_2c43369c _nearestEdgeCoordinate;
-    double _distance;
-    NSTimeZone *_timeZone;
-    _Bool _isWithinRadius;
-    NSString *_ianaTimeZoneName;
 }
 
 - (void);
 - (CDStruct_c3b9c2ee);
 - (_Bool);
+- (id)__DATA_DIRTY;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ple.contacts.persistence.stores-adjusted-unexpectedly;
 - (double);
 - (unsigned long long);
 - (_Bool);
@@ -30,11 +25,7 @@
 - (id)?8×«3;
 
 // Remaining properties
-@property(readonly, nonatomic) double distanceToNearestEdgeCoordinate;
 @property(readonly, nonatomic) NSString *ianaTimeZoneName; // @synthesize ianaTimeZoneName=_ianaTimeZoneName;
-@property(readonly, nonatomic) _Bool isWithinRadius; // @synthesize isWithinRadius=_isWithinRadius;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee nearestEdgeCoordinate;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 
 @end
 

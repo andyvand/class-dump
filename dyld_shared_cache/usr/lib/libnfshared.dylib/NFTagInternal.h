@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-@protocol NFTagA, NFTagB, NFTagF;
+@class NSData;
 
 @interface NFTagInternal
 {
     NSData *_tagID;
-    NSData *_idm;
-    NSData *_pmm;
-    NSArray *_allSystemCodes;
-    NSData *_appData;
-    NSData *_uid;
-    NSData *_atqa;
-    NSData *_sak;
-    NSData *_historicalBytes;
-    unsigned int _type;
-    unsigned int _technology;
-    unsigned int _ndefAvailability;
-    unsigned long long _ndefMessageSize;
-    unsigned long long _ndefContainerSize;
-    unsigned char _silentType;
-    unsigned char _sfgi;
-    _Bool _supportsPACE;
 }
 
 + (_Bool);
@@ -36,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,17 +29,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (unsigned char);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -76,48 +59,17 @@
 - (id);
 - (void);
 - (unsigned int);
-- (unsigned int);
-- (void);
-- (_Bool);
+- (unsigned int)ACCOUNT_SYNC_AUTHENTICATION_PENDING_RESET_TITLE_REBRAND;
+- (void)initWithIdentifier:(id)arg1 configuration:activationState: /* Error: Ran out of types for this method. */;
+- (_Bool)o set environment modifiers because session key couldn't be encoded:%{public}s /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)y.aCINrX/Sources/Navigation/Location/MNLocation.m;
 - (void);
 - (void);
 - (id);
 - (id)essionStateChangeEvent;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *AppData;
-@property(readonly, copy, nonatomic) NSData *IDm;
-@property(readonly, copy, nonatomic) NSData *PMm;
-@property(readonly, copy, nonatomic) NSData *SystemCode;
-@property(readonly, copy, nonatomic) NSData *UID;
-@property(readonly, copy, nonatomic) NSArray *allSystemCodes;
-@property(readonly, copy, nonatomic) NSData *applicationData;
-@property(readonly, nonatomic) _Bool applicationDataCoding;
-@property(readonly, copy, nonatomic) NSData *atqa;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *historicalBytes;
-@property(readonly, nonatomic) unsigned int ndefAvailability;
-@property(readonly, nonatomic) unsigned long long ndefContainerSize;
-@property(readonly, nonatomic) unsigned long long ndefMessageSize;
-@property(readonly, copy, nonatomic) NSData *pupi;
-@property(readonly, copy, nonatomic) NSData *sak;
-@property(readonly, copy, nonatomic) NSData *selectedAID;
-@property(readonly, nonatomic) unsigned char sfgi;
-@property(readonly, nonatomic) double sfgt;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsPACE;
-@property(readonly, nonatomic) id <NFTagA> tagA;
-@property(readonly, nonatomic) id <NFTagB> tagB;
-@property(readonly, nonatomic) id <NFTagF> tagF;
-@property(readonly, copy, nonatomic) NSData *tagID;
-@property(readonly, nonatomic) unsigned int technology;
 @property(readonly, nonatomic) unsigned int type;
 
 @end

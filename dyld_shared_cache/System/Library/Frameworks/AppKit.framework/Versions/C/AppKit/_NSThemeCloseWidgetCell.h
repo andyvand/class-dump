@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _edited;
 }
 
+- (_Bool)DataAccessor.framework/MSUDataAccessor;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)5;
 - (id);
 
 // Remaining properties

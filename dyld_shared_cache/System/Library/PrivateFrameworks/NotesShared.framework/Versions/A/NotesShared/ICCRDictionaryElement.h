@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRVectorTimestamp;
 @protocol ICCRDataType;
 
 __attribute__((visibility("hidden")))
 @interface ICCRDictionaryElement
 {
     id <ICCRDataType> _value;
-    ICCRVectorTimestamp *_timestamp;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (id)!;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (void);
-- (id);
+- (id)E;
 - (id)1Â0@ù
 × ;
 - (void)P®;
 
 // Remaining properties
-@property(retain, nonatomic) ICCRVectorTimestamp *timestamp; // @synthesize timestamp=_timestamp;
 @property(retain, nonatomic) id <ICCRDataType> value; // @synthesize value=_value;
 
 @end

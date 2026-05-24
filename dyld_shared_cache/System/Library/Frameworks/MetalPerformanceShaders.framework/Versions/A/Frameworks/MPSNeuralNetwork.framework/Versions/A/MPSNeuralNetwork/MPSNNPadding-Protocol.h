@@ -5,5 +5,6 @@
 //
 
 @protocol MPSNNPadding
+- (unsigned long long);
 @end
 

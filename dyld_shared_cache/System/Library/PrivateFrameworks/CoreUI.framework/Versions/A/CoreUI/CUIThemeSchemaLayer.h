@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CUIThemeSchemaLayer
 {
     NSArray *_renditions;
-    NSString *_name;
-    unsigned long long _index;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 - (void)VersionBrowserHUDSmallCapLeft;
 
 // Remaining properties
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSArray *renditions; // @synthesize renditions=_renditions;
 
 @end

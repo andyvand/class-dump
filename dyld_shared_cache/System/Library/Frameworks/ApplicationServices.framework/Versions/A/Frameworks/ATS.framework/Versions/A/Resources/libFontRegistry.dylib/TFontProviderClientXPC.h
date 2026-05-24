@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSXPCListener;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TFontProviderClientXPC
 {
     struct __CFRunLoopSource *fRunLoopSource;
-    struct __CFRunLoop *fPossibleRunLoop;
-    CDUnknownBlockType fCallback;
-    NSMutableArray *fRequests;
-    NSXPCListener *fListener;
 }
 
 - (void);
@@ -23,22 +19,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)dsRecTypeStandard:(id)arg1 RecordTypes;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSXPCListener *fListener; // @synthesize fListener;
 @property(retain, nonatomic) NSMutableArray *fRequests; // @synthesize fRequests;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

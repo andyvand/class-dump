@@ -7,16 +7,6 @@
 @interface WorkflowUIServices.PrefetchableImage.Coordinator
 {
     id $defaultActor;
-    id context;
-    id persistence;
-    id hasBeenActivated;
-    id isActive;
-    id prefetchState;
-    id futureState;
-    id environment;
-    id reportedStages;
-    id stagesToPrefetch;
-    id seenImages;
 }
 
 @end

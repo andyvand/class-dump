@@ -7,7 +7,6 @@
 @interface AppKit.NSViewBackingLayerContents.ContentLayer__priv_936B6E90B4E319ADDB011517F9EF5EC6
 {
     id _previousDraw;
-    id image;
 }
 
 + (id);
@@ -16,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void)rView: /* Error: Ran out of types for this method. */;
+- (void)_valueOfVisibilityPriorityForView: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)è®¶ÿ»¶¨EE;
 

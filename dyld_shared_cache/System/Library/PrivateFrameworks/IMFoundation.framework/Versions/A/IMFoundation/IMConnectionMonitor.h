@@ -5,22 +5,20 @@
 //
 
 @class NSString;
-@protocol IMConnectionMonitorDelegate;
 
 @interface IMConnectionMonitor
 {
     NSString *_remoteHost;
-    id <IMConnectionMonitorDelegate> _delegate;
 }
 
 + (id)ot store data for service:%@   account:%@%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)ions/A/CoreFoundation;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)DDR 1.5V (Memory) current. (Amps) (IM0C);
 - (void);
 - (_Bool);
 - (void);
@@ -29,11 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <IMConnectionMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, setter=setDataConnectionActive:) _Bool isDataConnectionActive;
 @property(readonly, nonatomic) _Bool isImmediatelyReachable;
-@property(readonly, retain, nonatomic) NSString *remoteHost; // @synthesize remoteHost=_remoteHost;
-@property(readonly, nonatomic) _Bool requiresDataConnectionActivation;
 
 @end
 

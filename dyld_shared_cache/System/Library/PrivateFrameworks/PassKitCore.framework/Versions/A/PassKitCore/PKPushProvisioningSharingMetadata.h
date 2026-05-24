@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPushProvisioningSharingMetadata
 {
     NSString *_sharingInstanceIdentifier;
-    NSString *_provisioningCredentialHash;
-    unsigned long long _sharingStatus;
-    long long _source;
-    NSString *_credentialAuthorityIdentifier;
-    unsigned long long _securityOptions;
-    NSDate *_createdAt;
 }
 
 + (_Bool);
-- (id);
+- (id)?=;
 - (void);
 - (void);
 - (void);
@@ -28,29 +22,22 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)N;
+- (id)!;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)_heCapabilitiesIE;
 - (unsigned long long);
 - (void);
 - (id);
 - (long long);
-- (void)ed;
+- (void)addMoneySpecified;
 - (id)lÏÿ®¹jÌ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowProvisioningOnLockedDevice;
-@property(retain, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(retain, nonatomic) NSString *credentialAuthorityIdentifier; // @synthesize credentialAuthorityIdentifier=_credentialAuthorityIdentifier;
-@property(copy, nonatomic) NSString *provisioningCredentialHash; // @synthesize provisioningCredentialHash=_provisioningCredentialHash;
-@property(nonatomic) unsigned long long securityOptions; // @synthesize securityOptions=_securityOptions;
 @property(copy, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) unsigned long long sharingStatus; // @synthesize sharingStatus=_sharingStatus;
-@property(nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

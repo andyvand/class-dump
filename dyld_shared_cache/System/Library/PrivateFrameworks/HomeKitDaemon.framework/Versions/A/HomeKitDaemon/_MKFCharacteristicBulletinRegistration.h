@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFBulletinRegistration.h>
 
-@class MKFCharacteristicBulletinRegistrationDatabaseID, NSArray, NSDate, NSString, NSUUID;
-@protocol MKFCharacteristic, MKFGuest, MKFHome, MKFUser;
+@class _MKFCharacteristic;
 
 __attribute__((visibility("hidden")))
 @interface _MKFCharacteristicBulletinRegistration : _MKFBulletinRegistration
@@ -17,29 +16,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)Wb;
 - (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFCharacteristic> characteristic; // @dynamic characteristic;
-@property(readonly, retain, nonatomic) NSArray *conditions;
-@property(readonly, copy, nonatomic) MKFCharacteristicBulletinRegistrationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSUUID *deviceIdsIdentifier;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
+@property(retain, nonatomic) _MKFCharacteristic *characteristic; // @dynamic characteristic;
 
 @end
 

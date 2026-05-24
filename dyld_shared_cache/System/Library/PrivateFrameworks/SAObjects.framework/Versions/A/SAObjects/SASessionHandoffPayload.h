@@ -6,13 +6,13 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SASessionHandoffPayload : AceObject
 {
 }
 
-+ (id);
++ (id)#;
 + (id);
 - (void);
 - (id);
@@ -20,14 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *sessionHandoffData;
-@property(readonly) Class superclass;
 
 @end
 

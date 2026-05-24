@@ -7,9 +7,14 @@
 @class NSView;
 
 @protocol NSKeyViewContainer
+- (void);
+- (void)0;
+- (NSView *)x%X);
+- (NSView *)vIK/A;
+- (NSView *)Tr9qG122eEQiKGfr6EGRdQ;
+- (void)hfs43coKE3iWlCwnqPgBpg;
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *nextKeyView;
-@property(readonly, nonatomic) NSView *previousKeyView;
 @end
 

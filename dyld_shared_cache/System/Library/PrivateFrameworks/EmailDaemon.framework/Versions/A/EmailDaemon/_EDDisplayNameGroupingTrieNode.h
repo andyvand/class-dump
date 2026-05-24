@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface _EDDisplayNameGroupingTrieNode
 {
     NSMutableDictionary *_children;
-    NSMutableArray *_addressIDs;
-    _Bool _isEndOfName;
-    NSString *_value;
 }
 
 - (_Bool);
@@ -19,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (id)m;
 - (id);
-- (id);
-- (id)rocessing;
+- (id)requiresPreprocessing;
 - (void)ccount, 2, 0, 0, 0, :started_at, NULL),
        (:account, 3, 0, 0, 0, :started_at, NULL),
        (:account, 4, 0, 0, 0, :started_at, NULL),
@@ -47,9 +44,6 @@
        (:account, 24, 0, 0, 0, :started_at, NULL) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *addressIDs;
-@property(readonly, copy, nonatomic) NSDictionary *children;
-@property(nonatomic) _Bool isEndOfName; // @synthesize isEndOfName=_isEndOfName;
 @property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (id);
++ (void)Resuming;
++ (_Bool)workBlock;
++ (id)er on resources;
 - (id);
-- (void)mpletion: /* Error: Ran out of types for this method. */;
+- (void)purchase:handlePaymentSheetRequest:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

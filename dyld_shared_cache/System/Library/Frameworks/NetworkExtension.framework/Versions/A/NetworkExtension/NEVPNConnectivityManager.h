@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfigurationManager, NSArray, NSObject;
-@protocol NEVPNConnectivityManagerDelegate, OS_dispatch_queue;
-
 @interface NEVPNConnectivityManager
 {
     _Bool _hasRelayConfigurations;
-    _Bool _usesPolicyBasedRouting;
-    id <NEVPNConnectivityManagerDelegate> _delegate;
-    unsigned long long _visibilityStyle;
-    unsigned long long _connectivityState;
-    NEConfigurationManager *_configManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_sessions;
 }
 
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)hasMultipleSIMs;
+- (_Bool)%@;
+- (void)ĵ;
 - (void);
 - (void);
 - (void);
@@ -36,10 +26,6 @@
 - (void)^{AuthorizationOpaqueRef=}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long connectivityState; // @synthesize connectivityState=_connectivityState;
-@property __weak id <NEVPNConnectivityManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasRelayConfigurations; // @synthesize hasRelayConfigurations=_hasRelayConfigurations;
-@property(nonatomic) _Bool usesPolicyBasedRouting; // @synthesize usesPolicyBasedRouting=_usesPolicyBasedRouting;
 @property(nonatomic) unsigned long long visibilityStyle; // @synthesize visibilityStyle=_visibilityStyle;
 
 @end

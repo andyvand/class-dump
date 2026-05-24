@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNLocation, NSString, _MNLocationSimulationData, _MNLocationSimulationState;
+@class _MNLocationSimulationData;
 
 @interface MNSimulatedLocationGenerator
 {
     _MNLocationSimulationData *_data;
-    _MNLocationSimulationState *_currentState;
 }
 
 - (void);
@@ -17,30 +16,19 @@
 - (void);
 - (void);
 - (id);
-- (CDStruct_3f2a7a20);
+- (CDStruct_3f2a7a20)MainMenuNavigationBridge;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (CDStruct_3f2a7a20);
 - (id);
-- (long long);
+- (long long)dateInstalled;
 - (void);
-- (void)E_CLOSURE;
+- (void)NO_THOROUGHFARE_CLOSURE;
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentStateType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool endAtFinalDestination;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MNLocation *lastLocation;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 lastRouteCoordinate;
-@property(nonatomic) double speedOverride;
-@property(readonly) Class superclass;
 
 @end
 

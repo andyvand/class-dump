@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCardSection, _SFPBColor, _SFPBMediaMetadata;
+@class NSArray, NSData, _SFPBMediaMetadata;
 
 @protocol _SFPBListenToCardSection
+- (_SFPBMediaMetadata *);
+- (void);
+- (NSArray *)ckb;
+- (_Bool)initialPurchaseTimestamp;
+- (_Bool)initWithStoreIdentifier:trackInfo: /* Error: Ran out of types for this method. */;
+- (void)tl_nonRedundantDescription;
+- (NSData *)arationStepTimingInfo;
 - (int)ù;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) _SFPBCardSection *fallbackCardSection;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

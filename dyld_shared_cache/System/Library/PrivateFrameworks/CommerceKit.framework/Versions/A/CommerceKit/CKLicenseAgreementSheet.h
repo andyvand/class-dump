@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSTextField, NSTextView, NSWindow;
+@class NSButton, NSWindow;
 
 @interface CKLicenseAgreementSheet
 {
     NSButton *_agreeButton;
-    NSButton *_cancelButton;
-    NSTextView *_textView;
-    NSTextField *_titleField;
-    long long _sheetReturnCode;
-    NSArray *_productKeys;
-    NSWindow *_hostWindow;
 }
 
-- (_Bool);
+- (_Bool)ݐ;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)personsToUpdateForFeaturedContent;
+- (id)cleanupResources;
+- (void)_updateCachedPolicyConfigurationWithCPLConfiguration:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -36,7 +30,6 @@
 
 // Remaining properties
 @property __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(copy) NSArray *productKeys; // @synthesize productKeys=_productKeys;
 
 @end
 

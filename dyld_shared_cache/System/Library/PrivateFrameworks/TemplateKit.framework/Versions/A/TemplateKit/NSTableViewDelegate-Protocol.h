@@ -4,6 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCell, NSIndexSet, NSNotification, NSString, NSTableColumn, NSTableRowView, NSTableView, NSView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void)manifest, sealingManifestOverride :(NSNotification *)arg1 %@, forceSealing :%@, allowForbidden :%@, allowUnSeal :%d /* Error: Ran out of types for this method. */;
+- (void)eal :(NSNotification *)arg1 %d;
+- (void)erride :(NSNotification *)arg1 %@, forceSealing :%@, allowForbidden :%@, allowUnSeal :%d /* Error: Ran out of types for this method. */;
+- (void)with sealing map, sealingManifestOverride :(NSNotification *)arg1 %@, forceSealing :%@, allowForbidden :%@, allowUnSeal :%d /* Error: Ran out of types for this method. */;
+- (void)AMFDRSealingMapVerifySealing;
+- (NSView *)MissingIntraFactoryDataInstances;
+- (void)tMinimalManifestClassInstanceWithVersions failed;
+- (_Bool)ed. Old permissions:(NSTableView *)arg1 %@ new permissions %@;
+- (NSString *)failed;
+- (NSString *)st failed on amfdrRemote;
+- (double)ces from the local sealing manifest, skipping;
+- (_Bool)est from the local sealing manifest, skipping;
+- (_Bool)sealing manifest, skipping;
+- (_Bool)l sealing manifest, skipping;
+- (_Bool)ng manifest, skipping;
+- (_Bool):(NSTableView *)arg1 %@;
+- (_Bool)allowForbidden :(NSTableView *)arg1 %@, allowUnSeal :(long long)arg2 %d, updateDataClasses :(long long)arg3 %@, updateProperties :%@ /* Error: Ran out of types for this method. */;
+- (_Bool)sealingManifestOverride :(NSTableView *)arg1 %@, forceSealing :(NSTableColumn *)arg2 %@, allowForbidden :(long long)arg3 %@, allowUnSeal :%d, updateDataClasses :%@, updateProperties :%@ /* Error: Ran out of types for this method. */;
+- (NSIndexSet *)%@;
+- (NSTableRowView *)igestDict queried from sealing map is %@;
+- (NSArray *)sidDict from amfdrRemote to amfdrLocal;
+- (long long)ctoryData :(NSTableView *)arg1 %d;
+- (void)stOverride :(NSTableView *)arg1 %@, forceSealing :(NSTableColumn *)arg2 %@, allowForbidden :%@, allowUnSeal :%d, updateDataClasses :%@, updateProperties :%@, getIntraFactoryData :%d /* Error: Ran out of types for this method. */;
+- (_Bool)ta with sealing map, sealingManifestOverride :(NSTableView *)arg1 %@, forceSealing :(long long)arg2 %@, allowForbidden :%@, allowUnSeal :%d, updateDataClasses :%@, updateProperties :%@, getIntraFactoryData :%d /* Error: Ran out of types for this method. */;
+- (double)we have data class and instance override;
+- (void)ide do not match;
+- (void)dataClassesOverride and dataInstancesOverride do not match;
+- (void)DataClassesOverride;
+- (NSCell *)SealingManifestOverride;
+- (void)updatePendingNicknameUpdates:(NSTableView *)arg1 handledNicknames:(NSTableRowView *)arg2 archivedNicknames:(long long)arg3;
 @end
 

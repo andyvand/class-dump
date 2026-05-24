@@ -7,12 +7,11 @@
 @class NSArray, NSString;
 
 @protocol IMTranslationProcessingParameter
+- (void);
+- (void)ationClock(0x%016llx) updateLockState:(NSString *)arg1 %d;
+- (NSArray *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationLocaleIdentifier;
-@property(copy, nonatomic) NSArray *messages;
-@property(copy, nonatomic) NSString *requestID;
-@property(copy, nonatomic) NSString *sourceLocaleIdentifier;
 @property(nonatomic) long long type;
 @end
 

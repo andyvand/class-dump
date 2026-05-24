@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageUpdateT2
 {
     NSString *_msgid;
-    NSData *_padding;
-    NSString *_sr;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (id);
@@ -30,24 +26,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id)Size=dd}12@"NSError"28;
-- (void)ter;
+- (void)UNUserNotificationCenter;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMsgid;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(readonly, nonatomic) _Bool hasSr;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *msgid; // @synthesize msgid=_msgid;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) NSString *sr; // @synthesize sr=_sr;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

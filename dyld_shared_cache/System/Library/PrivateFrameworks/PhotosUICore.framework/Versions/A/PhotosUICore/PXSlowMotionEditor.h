@@ -10,28 +10,6 @@
 @interface PXSlowMotionEditor
 {
     UXImageView *_startHandleView;
-    UXImageView *_endHandleView;
-    UXImageView *_trackImageView;
-    UXImageView *_trackSnapshotView;
-    _Bool _draggingStart;
-    _Bool _draggingEnd;
-    double _touchOffset;
-    _Bool _zoomed;
-    _Bool _trackingZoom;
-    struct CGPoint _touchLocationWhenTrackingZoomBegan;
-    _Bool _forceLayout;
-    double _zoomMinValue;
-    double _zoomMaxValue;
-    _Bool _zoomAnimating;
-    id <PXSlowMotionEditorDelegate> _delegate;
-    double _trimHandleWidth;
-    unsigned long long _regionEditorStyle;
-    double _minValue;
-    double _maxValue;
-    double _startValue;
-    double _endValue;
-    double _zoomDelay;
-    struct NSEdgeInsets _trackInsets;
 }
 
 + (id);
@@ -81,31 +59,20 @@
 - (void);
 - (double);
 - (double);
-- (struct CGSize);
+- (struct CGSize)TSKScrollViewDelegate;
 - (void);
 - (struct CGSize);
 - (double);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)33@;
 - (id);
 - (void);
 - (double);;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXSlowMotionEditorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) struct CGRect endHandleFrame;
-@property(nonatomic) double endValue; // @synthesize endValue=_endValue;
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
-@property(nonatomic) double minValue; // @synthesize minValue=_minValue;
-@property(nonatomic) unsigned long long regionEditorStyle; // @synthesize regionEditorStyle=_regionEditorStyle;
-@property(readonly, nonatomic) struct CGRect startHandleFrame;
-@property(nonatomic) double startValue; // @synthesize startValue=_startValue;
-@property(nonatomic) struct NSEdgeInsets trackInsets; // @synthesize trackInsets=_trackInsets;
-@property(nonatomic) double trimHandleWidth; // @synthesize trimHandleWidth=_trimHandleWidth;
-@property(nonatomic, getter=isZoomAnimating, setter=setZoomAnimating:) _Bool zoomAnimating; // @synthesize zoomAnimating=_zoomAnimating;
-@property(nonatomic) double zoomDelay; // @synthesize zoomDelay=_zoomDelay;
 
 @end
 

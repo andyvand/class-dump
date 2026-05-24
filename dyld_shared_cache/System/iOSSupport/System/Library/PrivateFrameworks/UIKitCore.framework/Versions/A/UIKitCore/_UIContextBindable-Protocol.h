@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, _UIContextBinder;
+@class CAContext, CALayer, _UIContextBinder;
 
 @protocol _UIContextBindable
+- (void)responseHandlers;
+- (void)replaceOccurrencesOfString:(CAContext *)arg1 withString:options:range: /* Error: Ran out of types for this method. */;
+- (CALayer *);
+- (double);
 
 // Remaining properties
 @property(nonatomic, setter=_setBoundContext:) __weak CAContext *_boundContext;

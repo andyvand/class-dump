@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASREntityScoringResult : SISchemaInstrumentationMessage
 {
     NSString *_referenceName;
-    NSArray *_entityScores;
-    _Bool _hasReferenceName;
 }
 
 - (void);
@@ -24,10 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B�
+%;
 - (void);
 - (id);
-- (id);
+- (id)EAProtocolTransportNotification;
 - (id);
 - (void);
 - (unsigned long long);
@@ -35,14 +34,11 @@
 - (_Bool);
 - (id);
 - (id)olutionType"b1"isInteractionExecuted"b1"isInteractionSuccess"b1"interactionDurationInSecBucket"b1"isPlusContactSuggesterEnabled"b1"isEntityCandidateRetrievalEnabled"b1};
-- (id)DSiriSchemaODDAssistantVoicesDimensions;
+- (id)ODDSiriSchemaODDAssistantVoicesDimensions;
 - (id)0;
 - (void)Ë¶ÿ¬ê´%;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *entityScores; // @synthesize entityScores=_entityScores;
-@property(nonatomic) _Bool hasReferenceName; // @synthesize hasReferenceName=_hasReferenceName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *referenceName; // @synthesize referenceName=_referenceName;
 
 @end

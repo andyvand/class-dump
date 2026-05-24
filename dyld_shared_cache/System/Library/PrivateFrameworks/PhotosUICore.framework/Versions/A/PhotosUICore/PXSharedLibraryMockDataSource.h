@@ -17,7 +17,7 @@
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
-- (long long)own: /* Error: Ran out of types for this method. */;
+- (long long)setShouldCountDown: /* Error: Ran out of types for this method. */;
 - (long long)Pënÿ|ãnÿ¤ãnÿ;
 - (void)ñIµLZÿ;
 

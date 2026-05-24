@@ -7,21 +7,14 @@
 @interface NTPBNotificationPoolIndexEntry
 {
     unsigned long long _itemLength;
-    unsigned long long _itemOffset;
-    double _score;
-    struct {
-        unsigned int itemLength:1;
-        unsigned int itemOffset:1;
-        unsigned int score:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)displayedTimelineDidChange;
+- (void)currentHiddenShelves;
+- (void)currentHeight;
+- (unsigned long long)checkInTile: /* Error: Ran out of types for this method. */;
+- (_Bool)audioQueue_assetReader;
+- (_Bool)audioQueue;
 - (void);
 - (unsigned long long);
 - (void);
@@ -30,7 +23,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Queue thread is clear;
 - (_Bool);
 - (id);
 - (id);
@@ -38,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasItemLength;
 @property(nonatomic) _Bool hasItemOffset;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) unsigned long long itemLength; // @synthesize itemLength=_itemLength;
-@property(nonatomic) unsigned long long itemOffset; // @synthesize itemOffset=_itemOffset;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

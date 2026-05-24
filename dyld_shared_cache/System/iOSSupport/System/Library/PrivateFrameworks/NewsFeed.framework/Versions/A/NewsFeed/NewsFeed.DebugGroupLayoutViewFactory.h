@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugGroupLayoutViewFactory
 {
     id colorPaletteProvider;
-    id cellSelectionRenderer;
-    id imageHeadlineViewRenderer;
-    id coverIssueViewRenderer;
-    id coverChannelViewRenderer;
-    id formatLayoutViewRenderer;
-    id internalErrorViewRenderer;
 }
 
 - (id);

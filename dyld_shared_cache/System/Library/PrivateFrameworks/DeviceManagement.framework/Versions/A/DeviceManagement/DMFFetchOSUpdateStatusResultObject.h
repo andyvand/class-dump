@@ -9,8 +9,6 @@
 @interface DMFFetchOSUpdateStatusResultObject
 {
     NSString *_productKey;
-    unsigned long long _status;
-    double _downloadPercentComplete;
 }
 
 + (id);
@@ -19,18 +17,16 @@
 - (id);
 - (void);
 - (id);
-- (double);
-- (id);
+- (double)	;
+- (id)@;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)AutocompleteUI;
 
 // Remaining properties
-@property(nonatomic) double downloadPercentComplete; // @synthesize downloadPercentComplete=_downloadPercentComplete;
 @property(copy, nonatomic) NSString *productKey; // @synthesize productKey=_productKey;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end
 

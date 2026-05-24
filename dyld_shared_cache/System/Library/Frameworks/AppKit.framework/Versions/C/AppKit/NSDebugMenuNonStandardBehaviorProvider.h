@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenuItem, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugMenuNonStandardBehaviorProvider
@@ -13,25 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)v@?>32;
+- (void)_NSURLDataProtocol;
 - (void);
+- (void)6;
+- (id)nknown CFNA result %lld;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)callDurNoonSat;
 - (id);
 
 // Remaining properties
 @property(copy) NSArray *cachedEntries; // @synthesize cachedEntries=_cachedEntries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSMenuItem *menuItem;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface Network.ECNCounters
 {
     id txECNPackets;
-    id rxECNPackets;
-    id currentECNFeedback;
-    id largestCECount;
 }
 
 @end

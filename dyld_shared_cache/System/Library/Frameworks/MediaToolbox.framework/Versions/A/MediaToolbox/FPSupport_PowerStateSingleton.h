@@ -10,13 +10,11 @@
 @interface FPSupport_PowerStateSingleton
 {
     NSObject<OS_dispatch_queue> *_notificationQ;
-    int notifyTokenPowerSource;
-    int notifyTokenPrefsChange;
 }
 
-+ (id);
++ (id)h*;
 - (void);
-- (id);
+- (id)';
 - (void);
 - (void);
 

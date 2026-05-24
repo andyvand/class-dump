@@ -5,5 +5,7 @@
 //
 
 @protocol NANowPlayingTitleViewLayoutSpecProvider
+- (double)=;
+- (double);
 @end
 

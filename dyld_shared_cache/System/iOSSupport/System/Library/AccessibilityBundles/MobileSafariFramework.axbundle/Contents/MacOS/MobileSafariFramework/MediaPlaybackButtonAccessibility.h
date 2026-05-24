@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)insertRowsAtIndexPaths:withRowAnimation: /* Error: Ran out of types for this method. */;
 + (void);
-- (id);
+- (id)__PKPassTileViewAccessibility_super;
 
 @end
 

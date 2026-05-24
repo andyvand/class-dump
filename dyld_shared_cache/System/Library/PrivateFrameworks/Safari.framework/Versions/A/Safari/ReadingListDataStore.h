@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSArray, NSDictionary;
 
 @interface ReadingListDataStore
 {
     NSDictionary *_itemsByUUID;
-    NSDictionary *_itemsByURLString;
-    NSString *_storedTitle;
-    _Bool _shouldSuppressChangeNotifications;
-    _Bool _loaded;
-    NSArray *_items;
 }
 
 - (void);
@@ -42,9 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *itemUUIDs;
 @property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic, getter=isLoaded) _Bool loaded; // @synthesize loaded=_loaded;
 
 @end
 

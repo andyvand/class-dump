@@ -6,16 +6,11 @@
 
 #import <AppStoreDaemon/ASDPersistentRequest.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ASDSystemAppRequest : ASDPersistentRequest
 {
     _Bool _oneShot;
-    _Bool _suppressDialogs;
-    _Bool _userInitiated;
-    _Bool _userWaiting;
-    NSString *_bundleID;
-    NSNumber *_storeItemID;
 }
 
 - (void);
@@ -31,16 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)iIi84uSJ;
 - (void)ring",C,V_circularAppIconArtworkURLString;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic, getter=isOneShot) _Bool oneShot; // @synthesize oneShot=_oneShot;
-@property(copy, nonatomic) NSNumber *storeItemID; // @synthesize storeItemID=_storeItemID;
-@property(nonatomic) _Bool suppressDialogs; // @synthesize suppressDialogs=_suppressDialogs;
-@property(nonatomic, getter=isUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(nonatomic, getter=isUserWaiting) _Bool userWaiting; // @synthesize userWaiting=_userWaiting;
 
 @end
 

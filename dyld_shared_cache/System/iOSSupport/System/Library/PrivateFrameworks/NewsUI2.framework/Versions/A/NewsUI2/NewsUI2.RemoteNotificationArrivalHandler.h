@@ -7,9 +7,6 @@
 @interface NewsUI2.RemoteNotificationArrivalHandler
 {
     id cloudContext;
-    id offlineProvider;
-    id offlineContentManager;
-    id amsNotificationChecker;
 }
 
 @end

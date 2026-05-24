@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBDiscoverMoreInterstitialExposure
 {
     int _nextArticleAffordanceType;
-    NSString *_tappedNextArticleAffordanceFeedId;
-    int _userAction;
-    _Bool _withNextArticleAffordance;
-    struct {
-        unsigned int nextArticleAffordanceType:1;
-        unsigned int userAction:1;
-        unsigned int withNextArticleAffordance:1;
-    } _has;
 }
 
+- (_Bool)dateFromComponents: /* Error: Ran out of types for this method. */;
+- (id)currentItemIsLikelyToKeepUp;
+- (void)curatedLibraryEdgeToEdgeContentDefaultPadding;
+- (void)createAnimationIfNeededForLayout:(id)arg1 context:userData: /* Error: Ran out of types for this method. */;
+- (void)configureLoadingStatusManager:(int)arg1 andVideoProgressHandler:withVideoSensitivityProcessingProgress:imageManagerRequestProgress:loadOperationTrackingID:stop:info:error: /* Error: Ran out of types for this method. */;
+- (void)collectionView:(_Bool)arg1 draggingSession:willBeginAtPoint:forItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (void)cancelOperationsWithIdentifiers:(_Bool)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)allCreativeCasts;
+- (int)allConfiguredWidgetsWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)addIsFavoriteQuery: /* Error: Ran out of types for this method. */;
+- (_Bool)accessibilityLabel;
+- (_Bool)_vfxAssembleAnimatingGradientUseAlternativeGradient;
+- (int)_startIndexes;
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)_110__function6__funcIZ54ITTouchTranscoderSessionEnumerateCandidatesWithOptionsE3$_0FbNS_10unique_ptrIN15InputTranscoder13CandidateImplENS_14default_deleteIS5_EEEEEEE;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (id);
-- (void)dGroupingIfAutofavorited;
+- (void)isEligibleForFoodGroupingIfAutofavorited;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNextArticleAffordanceType;
-@property(readonly, nonatomic) _Bool hasTappedNextArticleAffordanceFeedId;
 @property(nonatomic) _Bool hasUserAction;
-@property(nonatomic) _Bool hasWithNextArticleAffordance;
-@property(nonatomic) int nextArticleAffordanceType; // @synthesize nextArticleAffordanceType=_nextArticleAffordanceType;
-@property(retain, nonatomic) NSString *tappedNextArticleAffordanceFeedId; // @synthesize tappedNextArticleAffordanceFeedId=_tappedNextArticleAffordanceFeedId;
-@property(nonatomic) int userAction; // @synthesize userAction=_userAction;
-@property(nonatomic) _Bool withNextArticleAffordance; // @synthesize withNextArticleAffordance=_withNextArticleAffordance;
 
 @end
 

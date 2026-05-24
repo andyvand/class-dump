@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface HMDResidentReachabilityState
 {
     _Bool _isReachable;
-    NSUUID *_residentDeviceIdentifier;
 }
 
 + (_Bool)øÜ¸ä¹Låºäå»xæí;
 - (id);
-- (id);
-- (id);
+- (id)_image;
+- (id)-[SSEventSession stSetLocalBitmap];
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)umDifferentiationNumber;
+- (id)maximumDifferentiationNumber;
 - (id)ublic}@Failed to fetch local models:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)6@?0@"HMBCloudZoneID"8;
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool isReachable; // @synthesize isReachable=_isReachable;
 @property(readonly, copy) NSUUID *residentDeviceIdentifier; // @synthesize residentDeviceIdentifier=_residentDeviceIdentifier;
 
 @end

@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface CommunicationsFilterBlockListCache
 {
     NSMutableArray *_recentItems;
-    int _notifyEmptyListToken;
-    _Bool _listIsEmpty;
-    CMFNotificationObserver *_blockListUpdateObserver;
 }
 
-- (void);
+- (void)ietf:params:xml:ns:common-policy /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)\;
 - (long long);
 - (void);
 - (void);

@@ -6,13 +6,9 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class NSString;
-
 @interface IMAPListResponse : IMAPResponse
 {
     unsigned long long _mailboxAttributes;
-    NSString *_separator;
-    NSString *_mailboxName;
 }
 
 + (_Bool);
@@ -31,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long mailboxAttributes; // @synthesize mailboxAttributes=_mailboxAttributes;
-@property(copy, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property(copy, nonatomic) NSString *separator; // @synthesize separator=_separator;
 
 @end
 

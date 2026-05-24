@@ -19,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) Class balloonViewClass;
 @property(nonatomic, readonly) _Bool canSendTapbacks;
 
 @end

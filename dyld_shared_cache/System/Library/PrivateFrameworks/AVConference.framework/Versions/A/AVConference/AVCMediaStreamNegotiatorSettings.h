@@ -4,70 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableSet, NSSet, NSString, VCMediaNegotiatorAudioConfiguration, VCVideoRuleCollections;
+@class VCVideoRuleCollections;
 
 __attribute__((visibility("hidden")))
 @interface AVCMediaStreamNegotiatorSettings
 {
     VCVideoRuleCollections *_videoRuleCollections;
-    VCVideoRuleCollections *_screenRuleCollections;
-    VCMediaNegotiatorAudioConfiguration *_audioConfiguration;
-    unsigned int _localSSRC;
-    NSMutableSet *_hdrModesSupported;
-    long long _mediaStreamDirection;
-    _Bool _shouldSetJitterBufferMode;
-    long long _accessNetworkType;
-    NSArray *_hdrModePixelFormats;
-    long long _tilesPerFrame;
-    _Bool _shouldApply16AlignedAdjustment;
-    _Bool _blackFrameOnClearScreenEnabledDefault;
-    _Bool _blackFrameOnClearScreenEnabled;
-    _Bool _foveationIsSupported;
-    NSString *_audioDeviceUID;
-    long long _preferredAudioCodecType;
-    _Bool _ltrpEnabled;
-    unsigned char _bitrateArbiterMode;
-    _Bool _shouldNegotiateDirection;
-    long long _systemAudioCaptureMuteBehavior;
-    _Bool _enableInterleavedEncoding;
-    NSArray *_videoBufferDescription;
-    NSString *clientName;
-    unsigned long long _fixedJitterBufferSize;
 }
 
 + (id);
 + (id);
 + (_Bool);
 + (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id)_;
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)!;
 - (_Bool);
 - (double);
 - (unsigned long long);
 - (long long);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
-- (unsigned long long);
+- (unsigned long long)9;
 - (long long);
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)(,;
 - (unsigned int);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)";
 - (unsigned char);
 - (id);
 - (_Bool);
@@ -87,53 +64,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (int);
-- (id)ayFast;
+- (id)audioPriorityDecayFast;
 
 // Remaining properties
-@property(nonatomic) long long accessNetworkType; // @synthesize accessNetworkType=_accessNetworkType;
-@property(readonly, nonatomic) unsigned long long audioChannelCount;
-@property(readonly, nonatomic) VCMediaNegotiatorAudioConfiguration *audioConfiguration; // @synthesize audioConfiguration=_audioConfiguration;
-@property(readonly, nonatomic) NSString *audioDeviceUID; // @synthesize audioDeviceUID=_audioDeviceUID;
-@property(readonly, nonatomic) long long audioStreamMode;
-@property(readonly, nonatomic) unsigned char bitrateArbiterMode; // @synthesize bitrateArbiterMode=_bitrateArbiterMode;
-@property(readonly, nonatomic) _Bool blackFrameOnClearScreenEnabled; // @synthesize blackFrameOnClearScreenEnabled=_blackFrameOnClearScreenEnabled;
-@property(readonly, nonatomic) _Bool blackFrameOnClearScreenEnabledDefault; // @synthesize blackFrameOnClearScreenEnabledDefault=_blackFrameOnClearScreenEnabledDefault;
-@property(readonly, nonatomic) long long captureSource;
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName;
-@property(readonly, nonatomic) int connectionType;
-@property(readonly, nonatomic) _Bool enableInterleavedEncoding; // @synthesize enableInterleavedEncoding=_enableInterleavedEncoding;
-@property(readonly, nonatomic) NSDictionary *featureListString;
-@property(readonly, nonatomic) unsigned char featureListStringType;
-@property(readonly, nonatomic) unsigned long long fixedJitterBufferSize; // @synthesize fixedJitterBufferSize=_fixedJitterBufferSize;
-@property(readonly, nonatomic) _Bool foveationIsSupported; // @synthesize foveationIsSupported=_foveationIsSupported;
-@property(readonly, nonatomic) NSArray *hdrModePixelFormats; // @synthesize hdrModePixelFormats=_hdrModePixelFormats;
-@property(readonly, nonatomic) NSSet *hdrModesSupported; // @synthesize hdrModesSupported=_hdrModesSupported;
-@property(readonly, nonatomic) unsigned int jitterBufferMode;
-@property(readonly, nonatomic) unsigned int localSSRC; // @synthesize localSSRC=_localSSRC;
-@property(readonly, nonatomic) _Bool ltrpEnabled; // @synthesize ltrpEnabled=_ltrpEnabled;
-@property(readonly, nonatomic) unsigned long long maxBandwidth;
-@property(readonly, nonatomic) long long mediaStreamDirection; // @synthesize mediaStreamDirection=_mediaStreamDirection;
-@property(readonly, nonatomic) unsigned long long minBandwidth;
-@property(readonly, nonatomic) int operatingMode;
-@property(readonly, nonatomic) unsigned long long packetExpirationTime;
-@property(readonly, nonatomic) int preferredAudioCodec;
-@property(readonly, nonatomic) long long preferredAudioCodecType; // @synthesize preferredAudioCodecType=_preferredAudioCodecType;
-@property(readonly, nonatomic) unsigned long long preferredMediaBitRate;
-@property(readonly, nonatomic) unsigned long long ptime;
-@property(readonly, nonatomic) long long rtcpCipherSuite;
-@property(readonly, nonatomic) double rtcpSendInterval;
-@property(readonly, nonatomic) _Bool rtcpTimeOutEnabled;
-@property(readonly, nonatomic) double rtcpTimeOutInterval;
-@property(readonly, nonatomic) long long rtpCipherSuite;
 @property(readonly, nonatomic) VCVideoRuleCollections *screenRuleCollections; // @synthesize screenRuleCollections=_screenRuleCollections;
-@property(readonly, nonatomic) _Bool shouldApply16AlignedAdjustment; // @synthesize shouldApply16AlignedAdjustment=_shouldApply16AlignedAdjustment;
-@property(readonly, nonatomic) _Bool shouldNegotiateDirection; // @synthesize shouldNegotiateDirection=_shouldNegotiateDirection;
-@property(readonly, nonatomic) _Bool shouldSetJitterBufferMode; // @synthesize shouldSetJitterBufferMode=_shouldSetJitterBufferMode;
-@property(nonatomic) long long systemAudioCaptureMuteBehavior; // @synthesize systemAudioCaptureMuteBehavior=_systemAudioCaptureMuteBehavior;
-@property(readonly, nonatomic) long long tilesPerFrame; // @synthesize tilesPerFrame=_tilesPerFrame;
-@property(readonly, nonatomic) NSArray *videoBufferDescription; // @synthesize videoBufferDescription=_videoBufferDescription;
-@property(readonly, nonatomic) VCVideoRuleCollections *videoRuleCollections; // @synthesize videoRuleCollections=_videoRuleCollections;
-@property(readonly, nonatomic) long long videoStreamMode;
 
 @end
 

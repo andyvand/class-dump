@@ -6,36 +6,35 @@
 
 #import <AppKit/NSTextFieldAppearanceBasedVisualProvider.h>
 
-@class NSString, NSTextFieldBezelConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface NSComboBoxAppearanceBasedVisualProvider : NSTextFieldAppearanceBasedVisualProvider
 {
 }
 
-+ (id);
-+ (id);
-+ (struct CGSize);
++ (id)kCFHTTPServerServerIdentity;
++ (id)time, last_access_time)     values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
++ (struct CGSize)alue, domain, path, partition,is_secure,     is_hostOnly, is_httpOnly, same_site, creation_time, expires_time, last_access_time)     values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool),
+;
 + (_Bool);
 + (id);
 + (unsigned long long);
 - (int);
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)setPriorityHint:(struct CGRect)arg1 incremental: /* Error: Ran out of types for this method. */;
+- (struct CGRect)x;
 - (void);
 - (void);
-- (void);
+- (void)T:(struct CGRect)arg1;
 - (struct CGRect);
-- (id);
-- (struct CGSize);
+- (id)le me auth token or authPersonId is not valid;
+- (struct CGSize)ier %@ invoked=%d;
 - (void);
 - (void);
 - (double);
@@ -44,18 +43,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) double _buttonWidth;
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) _Bool allowsTextTightening;
-@property(readonly) double bezelCellSizeHeightPadding;
-@property(copy) NSTextFieldBezelConfiguration *bezelConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsSeparatedSubviews;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSMapTable, NSMutableSet;
+@class NSLayoutConstraint, NSMapTable;
 
 @interface NSLayoutConstraintExplainer
 {
     NSLayoutConstraint *_constraint;
-    NSMutableSet *_requiredConstraints;
-    NSMutableSet *_frozenConstraints;
-    NSMutableSet *_relaxedConstraints;
-    NSMapTable *_satisfactionChanges;
-    NSMapTable *_priorities;
-    NSArray *_mutuallyExclusiveConstraints;
 }
 
 - (void);
@@ -31,12 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *mutuallyExclusiveConstraints; // @synthesize mutuallyExclusiveConstraints=_mutuallyExclusiveConstraints;
-@property(retain) NSMapTable *priorities; // @synthesize priorities=_priorities;
 @property(retain) NSMapTable *satisfactionChanges; // @synthesize satisfactionChanges=_satisfactionChanges;
 
 @end

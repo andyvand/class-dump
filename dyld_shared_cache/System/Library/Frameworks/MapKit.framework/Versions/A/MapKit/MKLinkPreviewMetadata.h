@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPlaceCollection, GEOURLCollectionStorage, MKLookAroundScene, MKMapCamera, NSArray, NSImage, NSString;
-
 @interface MKLinkPreviewMetadata
 {
     long long _type;
-    NSString *_title;
-    NSString *_subtitle;
-    NSImage *_icon;
-    long long _actionType;
-    unsigned long long _mapType;
-    MKMapCamera *_mapCamera;
-    NSArray *_mapItems;
-    MKLookAroundScene *_scene;
-    GEOPlaceCollection *_curatedCollection;
-    GEOURLCollectionStorage *_collectionStorage;
-    CDStruct_b7cb895d _coordinateRegion;
 }
 
-+ (double);
++ (double)n - %{public}d;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (CDStruct_b7cb895d);
-- (void);
+- (CDStruct_4760c753);
+- (void)_parseProximityPairingAppleTVRemotePtr:(id)arg1 end: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)nt"16;
 - (id);
 - (void);
 - (long long);
@@ -40,26 +27,15 @@
 - (long long);
 - (void);
 - (unsigned long long);
+- (id)processedAudioInSeconds;
+- (void)containsValueForKey:(id)arg1;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)ingPlace;
+- (void)hasEnclosingPlace;
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) GEOURLCollectionStorage *collectionStorage; // @synthesize collectionStorage=_collectionStorage;
-@property(nonatomic) CDStruct_b7cb895d coordinateRegion; // @synthesize coordinateRegion=_coordinateRegion;
-@property(retain, nonatomic) GEOPlaceCollection *curatedCollection; // @synthesize curatedCollection=_curatedCollection;
-@property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) MKMapCamera *mapCamera; // @synthesize mapCamera=_mapCamera;
-@property(retain, nonatomic) NSArray *mapItems; // @synthesize mapItems=_mapItems;
-@property(readonly, nonatomic) unsigned long long mapType; // @synthesize mapType=_mapType;
-@property(retain, nonatomic) MKLookAroundScene *scene; // @synthesize scene=_scene;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

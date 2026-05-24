@@ -7,7 +7,6 @@
 @interface NewsUI2.OpenCloseWebArticleTestSuite
 {
     id commandCenter;
-    id tagService;
 }
 
 - (id);

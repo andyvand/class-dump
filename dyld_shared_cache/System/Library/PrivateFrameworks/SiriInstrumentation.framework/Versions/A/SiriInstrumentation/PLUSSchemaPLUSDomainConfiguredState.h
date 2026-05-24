@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSMediaConfiguredState;
+@class PLUSSchemaPLUSMediaConfiguredState;
 
 @interface PLUSSchemaPLUSDomainConfiguredState : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSMediaConfiguredState *_mediaState;
-    _Bool _hasMediaState;
-    unsigned long long _whichDomainstate;
 }
 
 - (unsigned long long);
@@ -23,22 +21,19 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)]F;
 - (_Bool);
-- (_Bool);
+- (_Bool)atus Query success for:(id)arg1 %@;
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ubText;
+- (id)_hasSubText;
 - (id)text;
-- (void)COL_CANCEL_ACTION;
+- (void)LINKSYSTEMACTIONPROTOCOL_CANCEL_ACTION;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaState; // @synthesize hasMediaState=_hasMediaState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PLUSSchemaPLUSMediaConfiguredState *mediaState; // @synthesize mediaState=_mediaState;
-@property(readonly, nonatomic) unsigned long long whichDomainstate; // @synthesize whichDomainstate=_whichDomainstate;
 
 @end
 

@@ -6,30 +6,19 @@
 
 #import <CloudPhotoLibrary/CPLContainerChange.h>
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSData;
 
 @interface CPLAlbumChange : CPLContainerChange
 {
     _Bool _albumSortAscending;
-    unsigned long long _albumType;
-    NSString *_name;
-    long long _position;
-    NSString *_parentIdentifier;
-    unsigned long long _albumSortType;
-    NSString *_projectDocumentType;
-    NSData *_projectData;
-    NSData *_projectPreviewImageData;
-    NSString *_importedByBundleIdentifier;
-    NSDate *_userModificationDate;
-    NSData *_smartQueryParamsData;
 }
 
 + (Class);
 + (_Bool);
-+ (_Bool)kErrors;
++ (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,28 +27,27 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (id)es;
+- (id)_logTriggerIfNecessary:queryId: /* Error: Ran out of types for this method. */;
+- (void)",&,N,V_matchedPeople;
+- (void)SSPurchaseRequestResultBuilder;
+- (void)PARResultFactory;
+- (void);
+- (void)X@$%&D(t.;
+- (void);
+- (unsigned long long)isAppleSystemApp;
+- (unsigned long long)isFrequentlyUsedAppleInternalApp;
+- (_Bool)isAppleInternalApp;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long)âEùñª1\íò0
-ÁÚð;
+- (long long)?;
 - (id);
 - (id);
 - (void);
@@ -67,19 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool albumSortAscending; // @synthesize albumSortAscending=_albumSortAscending;
-@property(nonatomic) unsigned long long albumSortType; // @synthesize albumSortType=_albumSortType;
-@property(nonatomic) unsigned long long albumType; // @synthesize albumType=_albumType;
-@property(copy, nonatomic) NSString *importedByBundleIdentifier; // @synthesize importedByBundleIdentifier=_importedByBundleIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(nonatomic) long long position; // @synthesize position=_position;
-@property(copy, nonatomic) NSData *projectData; // @synthesize projectData=_projectData;
-@property(copy, nonatomic) NSString *projectDocumentType; // @synthesize projectDocumentType=_projectDocumentType;
-@property(copy, nonatomic) NSData *projectPreviewImageData; // @synthesize projectPreviewImageData=_projectPreviewImageData;
-@property(copy, nonatomic) NSDictionary *smartQueryParams;
 @property(copy, nonatomic) NSData *smartQueryParamsData; // @synthesize smartQueryParamsData=_smartQueryParamsData;
-@property(copy, nonatomic) NSDate *userModificationDate; // @synthesize userModificationDate=_userModificationDate;
 
 @end
 

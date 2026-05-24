@@ -7,17 +7,13 @@
 @interface AFThreeArgumentSafetyBlock
 {
     struct atomic_flag _hasInvoked;
-    CDUnknownBlockType _block;
-    id _defaultValue1;
-    id _defaultValue2;
-    id _defaultValue3;
 }
 
-- (_Bool);
+- (_Bool));
 - (id);
-- (void);
+- (void)ld);
 - (id);
-- (void)e:toDest:length: /* Error: Ran out of types for this method. */;
+- (void)_copyRawBytesFromSource:toDest:length: /* Error: Ran out of types for this method. */;
 
 @end
 

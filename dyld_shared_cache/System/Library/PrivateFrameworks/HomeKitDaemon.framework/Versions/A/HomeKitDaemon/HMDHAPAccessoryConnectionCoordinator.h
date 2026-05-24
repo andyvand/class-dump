@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSNotificationCenter, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryConnectionCoordinator
 {
     struct os_unfair_lock_s _lock;
-    HMDHome *_home;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id)ÀB;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,13 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)0@"HAPTLVUnsignedNumberValue"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

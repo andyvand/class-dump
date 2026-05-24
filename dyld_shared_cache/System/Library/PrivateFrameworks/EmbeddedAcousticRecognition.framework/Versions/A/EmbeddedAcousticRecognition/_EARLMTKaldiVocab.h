@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _EARLMTKaldiVocab
 {
     unsigned long long _bosIndex;
-    unsigned long long _eosIndex;
-    unsigned long long _unkIndex;
-    NSString *_eosToken;
-    struct unordered_map<std::string, unsigned long, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, unsigned long>>> _w2i;
 }
 
 + (void)c;
@@ -20,8 +14,8 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ions/A/CoreFoundation;
+- (id)4;
 - (unsigned long long);
 - (id);
 - (id);

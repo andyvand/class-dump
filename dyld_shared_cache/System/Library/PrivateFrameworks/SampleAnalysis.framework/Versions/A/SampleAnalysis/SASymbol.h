@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface SASymbol
 {
     unsigned long long _offsetIntoSegment;
-    unsigned long long _length;
-    NSString *_name;
-    NSMutableArray *_sourceInfos;
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long length;
-@property(readonly) NSString *name;
 @property(readonly) unsigned long long offsetIntoSegment;
-@property(readonly) unsigned long long offsetIntoTextSegment;
 
 @end
 

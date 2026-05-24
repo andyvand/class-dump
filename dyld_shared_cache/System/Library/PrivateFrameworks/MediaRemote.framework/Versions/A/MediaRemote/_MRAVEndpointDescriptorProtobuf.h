@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRAVOutputDeviceDescriptorProtobuf;
-
 @interface _MRAVEndpointDescriptorProtobuf
 {
     int _connectionType;
-    _MRAVOutputDeviceDescriptorProtobuf *_designatedGroupLeader;
-    NSString *_instanceIdentifier;
-    NSString *_name;
-    NSMutableArray *_outputDevices;
-    NSMutableArray *_personalOutputDevices;
-    NSString *_uniqueIdentifier;
-    _Bool _canModifyGroupMembership;
-    _Bool _isLocalEndpoint;
-    _Bool _isProxyGroupPlayer;
-    struct {
-        unsigned int connectionType:1;
-        unsigned int canModifyGroupMembership:1;
-        unsigned int isLocalEndpoint:1;
-        unsigned int isProxyGroupPlayer:1;
-    } _has;
 }
 
 + (Class);
@@ -31,7 +14,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (_Bool);
 - (void);
@@ -47,16 +30,16 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (_Bool)setUserAuthorizationStatus:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ѿ#<�(;
+- (int)DisplayServicesAmbientLightResetChanged;
+- (void)stringByResolvingSymlinksInPath;
+- (_Bool),;
+- (void);
 - (_Bool);
+- (void);
 - (void);
 - (int);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (int);
 - (_Bool);
 - (id);
 - (id);
@@ -70,37 +53,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)initWithType:value: /* Error: Ran out of types for this method. */;
+- (id)non_assistantd_write_to_shared_domain;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)s;
 - (void)Áê"ð!Bùñ&1Â0@ù
 × ;
 - (void)R,N,GisEligibleForSpatialization;
-- (void)rrorCode;
+- (void)errorCode;
 
 // Remaining properties
-@property(nonatomic) _Bool canModifyGroupMembership; // @synthesize canModifyGroupMembership=_canModifyGroupMembership;
-@property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(retain, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *designatedGroupLeader; // @synthesize designatedGroupLeader=_designatedGroupLeader;
-@property(nonatomic) _Bool hasCanModifyGroupMembership;
-@property(nonatomic) _Bool hasConnectionType;
-@property(readonly, nonatomic) _Bool hasDesignatedGroupLeader;
-@property(readonly, nonatomic) _Bool hasInstanceIdentifier;
-@property(nonatomic) _Bool hasIsLocalEndpoint;
-@property(nonatomic) _Bool hasIsProxyGroupPlayer;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(retain, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
-@property(nonatomic) _Bool isLocalEndpoint; // @synthesize isLocalEndpoint=_isLocalEndpoint;
-@property(nonatomic) _Bool isProxyGroupPlayer; // @synthesize isProxyGroupPlayer=_isProxyGroupPlayer;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *outputDevices; // @synthesize outputDevices=_outputDevices;
-@property(retain, nonatomic) NSMutableArray *personalOutputDevices; // @synthesize personalOutputDevices=_personalOutputDevices;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

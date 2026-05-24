@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKAddIdentityDocumentConfiguration, PKAddSecureElementPassConfiguration, PKAddShareablePassConfiguration;
+@class NSArray, PKAddSecureElementPassConfiguration;
 
 @protocol PKPushablePassConfigurationProvider
+- (PKAddSecureElementPassConfiguration *);
+- (_Bool)&[9;
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak PKAddIdentityDocumentConfiguration *identityDocumentConfiguration;
 @property(readonly, nonatomic) NSArray *metadataProviders;
-@property(nonatomic) _Bool requiresNonceValidityChecks;
-@property(readonly, nonatomic) PKAddSecureElementPassConfiguration *secureElementPassConfiguration;
-@property(readonly, nonatomic) __weak PKAddShareablePassConfiguration *shareablePassConfiguration;
 @end
 

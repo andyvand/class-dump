@@ -8,7 +8,6 @@
 {
     id disableOverlayPlacements;
     id isSmarterMessagingEnabled;
-    id blockMastheadUpsellBanner;
 }
 
 @end

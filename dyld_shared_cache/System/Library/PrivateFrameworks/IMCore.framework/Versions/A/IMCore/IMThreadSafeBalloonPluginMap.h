@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMThreadSafeBalloonPluginMap
 {
     unsigned long long _pluginCount;
-    NSObject<OS_dispatch_queue> *_dataQueue;
-    NSMutableDictionary *_map;
 }
 
+- (void)=%d already;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (void)iguration!;
+- (void)No codec configurations for stream configuration!;
+- (id)] %s:(id)arg1 %d Participant already started;
+- (unsigned long long)s:%d Failed to start the VCAudioIO. error=%@ /* Error: Ran out of types for this method. */;
+- (id)s] %s:(id)arg1 %d Secondary Screen rules:Could not retrieve hardware encoder type /* Error: Ran out of types for this method. */;
+- (id)r [%s] %s:%d %7.03f:jump:%.01fms /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)l is set;
 - (unsigned long long);
 - (void);
 - (void)x;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allIdentifiers;
-@property(readonly, nonatomic) NSArray *allPlugins;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dataQueue; // @synthesize dataQueue=_dataQueue;
-@property(readonly, nonatomic) NSDictionary *dictionaryMapCopy;
-@property(retain, nonatomic) NSMutableDictionary *map; // @synthesize map=_map;
-@property(readonly, nonatomic) unsigned long long pluginCount; // @synthesize pluginCount=_pluginCount;
 
 @end
 

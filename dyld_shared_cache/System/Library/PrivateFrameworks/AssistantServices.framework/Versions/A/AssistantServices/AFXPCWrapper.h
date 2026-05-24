@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)eningForClient: /* Error: Ran out of types for this method. */;
+- (void)_endListeningForClient: /* Error: Ran out of types for this method. */;
 
 @end
 

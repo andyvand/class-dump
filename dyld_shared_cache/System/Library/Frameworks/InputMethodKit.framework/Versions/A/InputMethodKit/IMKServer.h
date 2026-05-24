@@ -13,11 +13,11 @@
 
 + (_Bool);
 + (_Bool);
++ (id)#;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)W;
 + (id);
 + (id);
 + (Class);

@@ -12,19 +12,19 @@
 }
 
 + (double);
-+ (double);
-+ (struct CGSize);
++ (double)s;
++ (struct CGSize)s;
 - (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id)ID;
+- (void), missing username!;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)Attachments: /* Error: Ran out of types for this method. */;
+- (id)AAPPlistEntryInfo;
+- (void)setStripAttachments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <EKExpandedReminderStackLayoutDelegate> delegate; // @synthesize delegate=_delegate;

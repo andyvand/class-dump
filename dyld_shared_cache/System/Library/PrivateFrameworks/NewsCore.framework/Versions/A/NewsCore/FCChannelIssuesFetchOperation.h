@@ -6,20 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, NSArray, NSDictionary;
+@class FCCachePolicy;
 @protocol FCContentContext;
 
 @interface FCChannelIssuesFetchOperation : FCOperation
 {
     FCCachePolicy *_cachePolicy;
-    CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    NSArray *_channelIDs;
-    long long _issueSet;
-    NSDictionary *_resultIssuesByChannel;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (long long);
@@ -39,12 +34,7 @@
 - (_Bool)Ö;
 
 // Remaining properties
-@property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(retain, nonatomic) NSArray *channelIDs; // @synthesize channelIDs=_channelIDs;
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(nonatomic) long long issueSet; // @synthesize issueSet=_issueSet;
-@property(retain, nonatomic) NSDictionary *resultIssuesByChannel; // @synthesize resultIssuesByChannel=_resultIssuesByChannel;
 
 @end
 

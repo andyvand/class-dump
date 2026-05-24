@@ -9,33 +9,31 @@
 @interface MCSubdata
 {
     NSData *_parentData;
-    struct _NSRange _subrange;
 }
 
 - (struct _NSRange);
 - (void);
 - (void);
-- (id);
+- (id)�A;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (const void *);
+- (const void *);
 - (id);
 - (id);
-- (id);
+- (id)hread_%x;
 - (id);
 - (id);
 - (void);
 - (id)Ô ;
 - (id)i1Â0@ù
 × ;
-- (id)ReadingItemAtURL:(id)arg1 options:error:byAccessor: /* Error: Ran out of types for this method. */;
+- (id)coordinateReadingItemAtURL:(id)arg1 options:error:byAccessor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *parentData; // @synthesize parentData=_parentData;
 @property(nonatomic) struct _NSRange subrange; // @synthesize subrange=_subrange;
 
 @end

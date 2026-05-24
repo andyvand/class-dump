@@ -9,18 +9,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)aUseful:(id)arg1;
++ (_Bool)setIsDataUseful:(id)arg1;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)s Jarvis VoiceTrigger result doesn't have trigger end mach time;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)H `K;
 - (id)wnAccuracy"b1"read_unknownFields"b1"read_localizedAddress"b1"read_spokenNavigationAddress"b1"read_spokenStructuredAddress"b1"wrote_anyField"b1};
-- (id)entIndex;
+- (id)_transitIncidentIndex;
 - (id)P;
 - (id)cesReadAllFrom can only be called once per object;
 

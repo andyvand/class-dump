@@ -6,18 +6,17 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CPLEngineTransientRepository : CPLEngineStorage
 {
     NSMutableArray *_observers;
-    unsigned long long _maximumCountOfRecordsInBatches;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)cloudContainerIdentifier;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -33,28 +32,28 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)ý{©ýóªô;
-- (id)1Ìàªý{A©ôOÂ¨ÿ#ÕÐÊP;
-- (_Bool)>ªö;;
-- (void)¡¹õjhøø#;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)o;
+- (_Bool)a;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)j;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (unsigned long long);
 - (id);
 - (void)1Â0@ù
@@ -62,16 +61,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long countOfUnmingledRecords;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasUnmingledChanges;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maximumCountOfRecordsInBatches; // @synthesize maximumCountOfRecordsInBatches=_maximumCountOfRecordsInBatches;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

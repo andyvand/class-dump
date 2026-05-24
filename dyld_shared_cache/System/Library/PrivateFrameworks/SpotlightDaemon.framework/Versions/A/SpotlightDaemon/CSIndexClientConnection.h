@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDSearchableIndexService, SDConnectionConfiguration;
+@class SDConnectionConfiguration;
 
 @interface CSIndexClientConnection
 {
     _Bool _quotaDisabled;
-    SDConnectionConfiguration *_configuration;
-    MDSearchableIndexService *_service;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SDConnectionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) _Bool quotaDisabled; // @synthesize quotaDisabled=_quotaDisabled;
-@property(readonly, nonatomic) MDSearchableIndexService *service; // @synthesize service=_service;
 
 @end
 

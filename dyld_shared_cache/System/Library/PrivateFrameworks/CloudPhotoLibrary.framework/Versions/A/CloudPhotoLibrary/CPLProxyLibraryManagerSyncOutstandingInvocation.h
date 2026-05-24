@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface CPLProxyLibraryManagerSyncOutstandingInvocation
 {
     _Bool _didFinish;
-    NSDictionary *_errors;
 }
 
-- (void);
+- (void)fecyclePolicy;
 - (id);
 - (void);
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool didFinish; // @synthesize didFinish=_didFinish;
 @property(retain, nonatomic) NSDictionary *errors; // @synthesize errors=_errors;
 
 @end

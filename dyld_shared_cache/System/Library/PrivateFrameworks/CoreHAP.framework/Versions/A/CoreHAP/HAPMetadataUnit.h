@@ -9,25 +9,23 @@
 @interface HAPMetadataUnit
 {
     NSString *_name;
-    NSString *_unitDescription;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (id)d name;
+- (_Bool)@104@112;
+- (id)setPersonalizationUserEditNamedEntityMetrics:(id)arg1;
 - (void);
 - (void)";
 - (void)C;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *unitDescription; // @synthesize unitDescription=_unitDescription;
 
 @end
 

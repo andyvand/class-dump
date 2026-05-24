@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone, NSURL;
+@class NSString;
 
 @interface PKUserNotificationReceipt
 {
     NSString *_notificationIdentifier;
-    NSString *_accountIdentifier;
-    NSURL *_accountBaseURL;
-    NSString *_messageTitle;
-    NSString *_messageSubtitle;
-    NSString *_messageBody;
-    NSDate *_dateScheduled;
-    NSTimeZone *_scheduledTimeZone;
-    NSDate *_dateDelivered;
-    NSTimeZone *_deliveredTimeZone;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9;
 - (void);
 - (id);
 - (id);
@@ -47,22 +38,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)capabilities;
 - (id)üå@æ;
-- (void)IRREGULAR;
+- (void)SEARCH_TAG_IRREGULAR;
 - (void)@'; ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *accountBaseURL; // @synthesize accountBaseURL=_accountBaseURL;
-@property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSDate *dateDelivered; // @synthesize dateDelivered=_dateDelivered;
-@property(retain, nonatomic) NSDate *dateScheduled; // @synthesize dateScheduled=_dateScheduled;
-@property(retain, nonatomic) NSTimeZone *deliveredTimeZone; // @synthesize deliveredTimeZone=_deliveredTimeZone;
-@property(retain, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(retain, nonatomic) NSString *messageSubtitle; // @synthesize messageSubtitle=_messageSubtitle;
-@property(retain, nonatomic) NSString *messageTitle; // @synthesize messageTitle=_messageTitle;
 @property(retain, nonatomic) NSString *notificationIdentifier; // @synthesize notificationIdentifier=_notificationIdentifier;
-@property(retain, nonatomic) NSTimeZone *scheduledTimeZone; // @synthesize scheduledTimeZone=_scheduledTimeZone;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)Sg;
++ (id)(;
 + (void);
 - (id);
 

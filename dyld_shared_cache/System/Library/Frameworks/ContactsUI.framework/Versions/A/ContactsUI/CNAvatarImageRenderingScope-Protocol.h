@@ -5,5 +5,6 @@
 //
 
 @protocol CNAvatarImageRenderingScope
+- (struct CGSize);
 @end
 

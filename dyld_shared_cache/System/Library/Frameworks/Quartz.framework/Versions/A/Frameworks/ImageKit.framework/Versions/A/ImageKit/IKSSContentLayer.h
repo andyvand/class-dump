@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKSSIndexHandler, IKSlideshowHandler;
+@class IKSSIndexHandler;
 
 __attribute__((visibility("hidden")))
 @interface IKSSContentLayer
 {
     IKSSIndexHandler *_indexHandler;
-    IKSlideshowHandler *_slideshow;
-    int _thumbnailCount;
-    int _thumbnailSize;
-    int _itemsPerRow;
-    int _rowsPerScreen;
-    int _numberOfRows;
 }
 
 - (id);
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
 - (int);
 - (void);
@@ -31,14 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (int)ight: /* Error: Ran out of types for this method. */;
+- (int)createSquarePixelCopy:width:height: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property int itemsPerRow; // @synthesize itemsPerRow=_itemsPerRow;
-@property int numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property int rowsPerScreen; // @synthesize rowsPerScreen=_rowsPerScreen;
 @property int thumbnailCount; // @synthesize thumbnailCount=_thumbnailCount;
-@property int thumbnailSize; // @synthesize thumbnailSize=_thumbnailSize;
 
 @end
 

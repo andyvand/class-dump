@@ -9,12 +9,6 @@
 @interface _PXAnalyticsSlideshowInfo
 {
     id <CPAnalyticsEventProtocol> _startEvent;
-    id <CPAnalyticsEventProtocol> _endEvent;
-    id <CPAnalyticsEventProtocol> _lastPauseEvent;
-    double _timePaused;
-    long long _pauseCount;
-    long long _signpostID;
-    long long _appSuspensionCount;
 }
 
 - (void);
@@ -33,13 +27,7 @@
 - (void)±ìq;
 
 // Remaining properties
-@property(nonatomic) long long appSuspensionCount; // @synthesize appSuspensionCount=_appSuspensionCount;
-@property(retain, nonatomic) id <CPAnalyticsEventProtocol> endEvent; // @synthesize endEvent=_endEvent;
-@property(readonly, nonatomic) id <CPAnalyticsEventProtocol> lastPauseEvent; // @synthesize lastPauseEvent=_lastPauseEvent;
-@property(readonly, nonatomic) long long pauseCount; // @synthesize pauseCount=_pauseCount;
-@property(nonatomic) long long signpostID; // @synthesize signpostID=_signpostID;
 @property(retain, nonatomic) id <CPAnalyticsEventProtocol> startEvent; // @synthesize startEvent=_startEvent;
-@property(readonly, nonatomic) double timePaused; // @synthesize timePaused=_timePaused;
 
 @end
 

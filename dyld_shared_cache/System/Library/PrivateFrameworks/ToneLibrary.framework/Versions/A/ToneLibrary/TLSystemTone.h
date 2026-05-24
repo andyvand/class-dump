@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, TLSystemSound;
+@class NSURL;
 
 @interface TLSystemTone
 {
     unsigned int _actualSoundID;
-    unsigned int _previewSoundID;
-    TLSystemSound *_actualSound;
-    TLSystemSound *_previewSound;
-    _Bool _requiresLongFormPlayback;
-    NSURL *_soundFileURL;
 }
 
 - (id);
@@ -24,9 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TLSystemSound *actualSound;
-@property(readonly, nonatomic) TLSystemSound *previewSound;
-@property(readonly, nonatomic) _Bool requiresLongFormPlayback; // @synthesize requiresLongFormPlayback=_requiresLongFormPlayback;
 @property(readonly, nonatomic) NSURL *soundFileURL; // @synthesize soundFileURL=_soundFileURL;
 
 @end

@@ -6,57 +6,51 @@
 
 #import <SkyLight/SLSDisplayControlClient.h>
 
-@class NSMutableArray, NSString, SLSXPCService;
+@class SLSXPCService;
 
 @interface SLSBrightnessControlClient : SLSDisplayControlClient
 {
     struct SLSBrightnessPolicyTxState _brightnessPolicyTx;
-    SLSXPCService *_service;
-    CDUnknownBlockType _notifyBlock;
-    NSMutableArray *_displays;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ingDelegate executeMirroringRequest:(id *)arg1 error:] /* Error: Ran out of types for this method. */;
+- (void)e.coredata.cloudkit.activity.import;
+- (void)dKitMirroringDelegate.setup;
+- (void)SLessThanPredicateOperatorType,
+NSLessThanOrEqualToPredicateOperatorType,
+NSGreaterThanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (id)%@_%@_UPDATE_TO_NULL;
+- (unsigned long long)COUNT FROM %@ WHERE %@ = %@), 0);;
+- (unsigned long long).%@ = %@;;
+- (unsigned long long)R EACH ROW WHEN (%@) AND (%@) AND (OLD.%@ == NEW.%@);
+- (int)ACH ROW WHEN %@;
+- (unsigned long long)%@ = %@),0);;
+- (unsigned long long)SET %@ = IFNULL((SELECT COUNT FROM %@ WHERE %@ = %@),0);;
+- (unsigned long long)INDEX %@_INDEX ON %@(%@,COUNT);;
+- (int)@;
+- (id)ile with backupd;
+- (id)load to send backupd;
+- (void)ifier failed to adopt currentQueryGeneration:(id)arg1 %d;
+- (_Bool)pointer value:(CDStruct_443af386 *)arg1 %@
+	pointer:(const char *)arg2 %p;
+- (_Bool)ages - %lld;
+- (id)@ - %@;
+- (_Bool)ase busy;
+- (id)forceVacuum;
+- (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (int);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (int);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void)R;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *displays; // @synthesize displays=_displays;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType notifyBlock; // @synthesize notifyBlock=_notifyBlock;
 @property(retain, nonatomic) SLSXPCService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

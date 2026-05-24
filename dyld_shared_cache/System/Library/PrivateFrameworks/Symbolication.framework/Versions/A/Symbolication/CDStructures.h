@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VMUObjectIdentifier, VMUSwiftRemoteMirrorCallbackCache, VMUTask;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -48,12 +46,6 @@ struct _VMUBlockNode {
     unsigned int :23;
 };
 
-struct _VMUDirectedGraphEdge {
-    unsigned int _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-};
-
 struct _VMUObjectGraphEdge {
     union {
         struct {
@@ -69,28 +61,9 @@ struct _VMUObjectGraphEdge {
     } _field1;
 };
 
-struct _VMUObjectGraphEdgeLarge {
-    unsigned int :56;
-    unsigned int :8;
-    unsigned int :56;
-    unsigned int :8;
-};
-
 struct _VMURange {
     unsigned long long location;
     unsigned long long length;
-};
-
-struct _VMURegionMap {
-    struct _VMUBlockNode *_field1;
-    unsigned int _field2;
-    unsigned long long _field3;
-    void *_field4;
-    struct _VMURegionNode *_field5;
-    unsigned int _field6;
-    unsigned long long _field7;
-    unsigned long long _field8;
-    unsigned int _field9[0];
 };
 
 struct _VMURegionNode {
@@ -110,15 +83,6 @@ struct _VMUScanLocationCache {
     unsigned int :6;
     unsigned int :1;
     unsigned int :1;
-};
-
-struct _VMUSwiftRemoteMirrorReaderContext {
-    struct _CSTypeRef symbolicator;
-    VMUSwiftRemoteMirrorCallbackCache *remoteMirrorCallbackCache;
-    _Bool needToValidateAddressRange;
-    _Bool isExclaveCore;
-    VMUObjectIdentifier *objectIdentifier;
-    VMUTask *vmuTask;
 };
 
 struct _VMUVMRegionAttributeStatusData {
@@ -257,44 +221,8 @@ struct swift_typeinfo {
 };
 
 struct timeval {
-    long long tv_sec;
-    int tv_usec;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, unsigned int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUFieldInfo *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUFieldInfo *, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUFieldInfo *, unsigned int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+    long long _field1;
+    int _field2;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const char *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const char *, unsigned int>, void *>*>*>>> {
@@ -306,28 +234,10 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> {
     struct {
         void **__ptr_;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*>> {
             CDStruct_a7186859 ;
         } __deleter_;
     } ;
@@ -351,76 +261,6 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<NSString *, unsigned int, NSStringHashFunctor, NSStringEqualsFunctor, std::allocator<std::pair<NSString *const, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<NSString *, unsigned int>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, unsigned int>, NSStringHashFunctor, NSStringEqualsFunctor>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, unsigned int>, NSStringEqualsFunctor, NSStringHashFunctor>, std::allocator<std::pair<NSString *const, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, unsigned int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<SwiftFieldKey, unsigned int, std::hash<SwiftFieldKey>, std::equal_to<SwiftFieldKey>, std::allocator<std::pair<const SwiftFieldKey, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<SwiftFieldKey, unsigned int>, std::__unordered_map_hasher<SwiftFieldKey, std::pair<const SwiftFieldKey, unsigned int>, std::hash<SwiftFieldKey>, std::equal_to<SwiftFieldKey>>, std::__unordered_map_equal<SwiftFieldKey, std::pair<const SwiftFieldKey, unsigned int>, std::equal_to<SwiftFieldKey>, std::hash<SwiftFieldKey>>, std::allocator<std::pair<const SwiftFieldKey, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<VMUClassInfo *, unsigned int, std::hash<VMUClassInfo *>, std::equal_to<VMUClassInfo *>, std::allocator<std::pair<VMUClassInfo *const, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<VMUClassInfo *, unsigned int>, std::__unordered_map_hasher<VMUClassInfo *, std::pair<VMUClassInfo *const, unsigned int>, std::hash<VMUClassInfo *>, std::equal_to<VMUClassInfo *>>, std::__unordered_map_equal<VMUClassInfo *, std::pair<VMUClassInfo *const, unsigned int>, std::equal_to<VMUClassInfo *>, std::hash<VMUClassInfo *>>, std::allocator<std::pair<VMUClassInfo *const, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<VMUFieldInfo *, unsigned int, std::hash<VMUFieldInfo *>, std::equal_to<VMUFieldInfo *>, std::allocator<std::pair<VMUFieldInfo *const, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<VMUFieldInfo *, unsigned int>, std::__unordered_map_hasher<VMUFieldInfo *, std::pair<VMUFieldInfo *const, unsigned int>, std::hash<VMUFieldInfo *>, std::equal_to<VMUFieldInfo *>>, std::__unordered_map_equal<VMUFieldInfo *, std::pair<VMUFieldInfo *const, unsigned int>, std::equal_to<VMUFieldInfo *>, std::hash<VMUFieldInfo *>>, std::allocator<std::pair<VMUFieldInfo *const, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUFieldInfo *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUFieldInfo *, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<VMUFieldInfo *, unsigned int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_map<const char *, unsigned int, cstring_callbacks, cstring_callbacks, std::allocator<std::pair<const char *const, unsigned int>>> {
     struct __hash_table<std::__hash_value_type<const char *, unsigned int>, std::__unordered_map_hasher<const char *, std::pair<const char *const, unsigned int>, cstring_callbacks, cstring_callbacks>, std::__unordered_map_equal<const char *, std::pair<const char *const, unsigned int>, cstring_callbacks, cstring_callbacks>, std::allocator<std::pair<const char *const, unsigned int>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const char *, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const char *, unsigned int>, void *>*>*>>> __bucket_list_;
@@ -434,37 +274,11 @@ struct unordered_map<const char *, unsigned int, cstring_callbacks, cstring_call
     } __table_;
 };
 
-struct unordered_map<std::string, std::unordered_set<unsigned long long>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::unordered_set<unsigned long long>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::unordered_set<unsigned long long>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::unordered_set<unsigned long long>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::unordered_set<unsigned long long>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_map<unsigned int, NSString *, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, NSString *>>> {
     struct __hash_table<std::__hash_value_type<unsigned int, NSString *>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, NSString *>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, NSString *>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, NSString *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, unsigned int>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, unsigned int>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, unsigned int>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned int>, void *>*> {
                 void *__next_;
             } __first_node_;
         } ;
@@ -497,40 +311,6 @@ struct unordered_map<unsigned long long, unsigned int, std::hash<unsigned long l
         CDStruct_a7186859 ;
         CDStruct_717dde41 ;
     } __table_;
-};
-
-struct unordered_map<unsigned long long, unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, unsigned long long>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, unsigned long long>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, unsigned long long>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, unsigned long long>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, unsigned long long>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
-    struct __hash_table<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<unsigned long long, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct vector<RangeAndString, std::allocator<RangeAndString>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    struct {
-        CDStruct_183601bc *__cap_;
-    } ;
 };
 
 struct vm_region_submap_info_64 {
@@ -573,47 +353,30 @@ struct vm_region_submap_short_info_64 {
     unsigned short _field14;
 };
 
-struct vmu_backtrace_uniquing_table_t {
-    void *_field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-    unsigned long long _field4;
-    unsigned long long _field5;
-    unsigned int _field6;
-    int _field7;
-    unsigned int _field8;
-    unsigned int _field9;
-    unsigned int _field10;
-    struct _opaque_pthread_rwlock_t {
-        long long _field1;
-        char _field2[192];
-    } _field11;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    _Bool groupByType;
-    _Bool referenceTreeShowRegionVirtualSize;
-    unsigned int *autoreleasePoolsExtraReleasesCount;
-} CDStruct_ed25daea;
+    _Bool _field1;
+    _Bool _field2;
+    unsigned int *_field3;
+} CDStruct_fc103fe1;
 
 typedef struct {
-    unsigned int totalEntriesInAutoreleasePools;
-    unsigned int uniqueEntriesInAutoreleasePools;
-    unsigned int autoreleasePoolContentPageCount;
-    unsigned int autoreleasePoolContentPageTotalSize;
-    unsigned int directlyHeldOnlyInAutoreleasePoolsCount;
-    unsigned long long directlyHeldOnlyInAutoreleasePoolsSize;
-    unsigned int reachableOnlyFromAutoreleasePoolsCount;
-    unsigned long long reachableOnlyFromAutoreleasePoolsSize;
-} CDStruct_e3b42702;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned long long _field6;
+    unsigned int _field7;
+    unsigned long long _field8;
+} CDStruct_840911e9;
 
 typedef struct {
-    unsigned int parentPageOffset;
-    unsigned int childPageOffset;
-    unsigned int firstEntryOffset;
-} CDStruct_0c3cdf2c;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+} CDStruct_32a7f38a;
 
 typedef struct {
     unsigned long long _field1;
@@ -683,18 +446,4 @@ typedef struct {
     char *_field3;
     struct re_guts *_field4;
 } CDStruct_d5ae6b26;
-
-typedef struct {
-    struct {
-        int pid;
-        unsigned int thread;
-        int run_state;
-        unsigned long long dispatch_queue_serial_num;
-    } context;
-    unsigned long long *frames;
-    unsigned long long *framePtrs;
-    unsigned int length;
-    unsigned int originalLength;
-    NSArray *recursionInfoArray;
-} CDStruct_a87923d2;
 

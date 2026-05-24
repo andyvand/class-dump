@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySettingModel, HMFMessageDispatcher, NSArray, NSMutableArray, NSMutableSet, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySetting
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_inMemoryCachedConstraintRemovals;
-    NSMutableArray *_inMemoryCachedConstraints;
-    NSMutableArray *_constraints;
-    id _value;
-    NSString *_name;
-    long long _type;
-    _Bool _reflected;
-    unsigned long long _configurationVersion;
-    NSUUID *_parentIdentifier;
-    NSString *_keyPath;
-    NSUUID *_identifier;
-    unsigned long long _properties;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDAccessorySettingModel *_model;
-    NSArray *_models;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)numberOfLoveEmojisSignalRegistrationsInCorrectInference;
++ (id)numberOfLocations;
 + (_Bool)<Ü[;
 + (id)C;
-- (_Bool);
-- (_Bool);
+- (_Bool)gb2YgU2FuIEZyYW5jaXNjb1oOMTU1IEhlcm1hbm4gU3RaHVNhbiBGcmFuY2lzY28sIENBICA5NDEwMi02MTMwWg1Vbml0ZWQgU3RhdGVzevYBCg1Vbml0ZWQgU3RhdGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (_Bool)erver etaController:(id)arg1 sharedTripDidClose:(_Bool)arg2 ];
 - (id);
 - (void);
 - (id);
@@ -47,23 +31,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
+- (void)shouldCreateHolidayEdgeForEventRule:(_Bool)arg1 momentNode:momentLocalDate:withGraph:loggingConnection:localeCountryCode:keyboardLanguageCodes: /* Error: Ran out of types for this method. */;
+- (_Bool)representativePersonNodesForPersonNodesByMomentNode: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)f	;
 - (id);
 - (id);
 - (id);
@@ -83,42 +67,21 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)qÐ1Â0@ù
 × ;
-- (_Bool)up:(id *)arg1 name:record:data:encoding:model:resultBlock: /* Error: Ran out of types for this method. */;
-- (id)ntPrimary;
-- (id)ssoryServerBrowser:getLockedState: /* Error: Ran out of types for this method. */;
-- (id)andleLocalHomeDataRemovedNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithGroup:(id *)arg1 name:record:data:encoding:model:resultBlock: /* Error: Ran out of types for this method. */;
+- (id)currentPrimary;
+- (id)accessoryServerBrowser:getLockedState: /* Error: Ran out of types for this method. */;
+- (id)_handleLocalHomeDataRemovedNotification: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)à;
 - (id)d %lu that is not mapped into the receiver's selected buttons;
 - (void);
-- (id)nt;
+- (id)HMDCloudSyncLogEventsAnalyzerUploadErrorCount;
 - (void)Þ	=;
 - (id);
 - (void)´ô9D;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(nonatomic) unsigned long long configurationVersion; // @synthesize configurationVersion=_configurationVersion;
-@property(readonly, copy) NSArray *constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isCollectionType;
-@property(readonly) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) HMDAccessorySettingModel *model; // @synthesize model=_model;
-@property(readonly, copy) NSArray *models; // @synthesize models=_models;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly) unsigned long long properties; // @synthesize properties=_properties;
-@property(getter=isReflected) _Bool reflected; // @synthesize reflected=_reflected;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
-@property(readonly, copy) id value;
 
 @end
 

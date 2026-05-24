@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaISOLocale;
+@class SISchemaISOLocale;
 
 @interface MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaISOLocale *_siriInputLocale;
-    NSString *_deviceType;
-    NSString *_productVersion;
-    NSArray *_enrollmentUtterances;
-    NSData *_enrollmentDataDedupeHashBytes;
-    _Bool _hasSiriInputLocale;
-    _Bool _hasDeviceType;
-    _Bool _hasProductVersion;
-    _Bool _hasEnrollmentDataDedupeHashBytes;
 }
 
 - (void);
@@ -38,39 +30,30 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id);
+- (_Bool)ed] SUCoreUpdate delegate method %s called;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
+- (void)~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ec2_oct.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)R;
+- (id)P;
 - (_Bool);
 - (id)!4CùQßð1Â0@ù
 × ;
-- (id)eTransitionEvent;
+- (id)_stateTransitionEvent;
 - (id)rsion;
 - (id)_ended;
 - (id)ngParameters",&,N,V_applicationParameters;
-- (void)_TIME;
+- (void)FLOWSPORTSUSECASE_NEXT_GAME_TIME;
 - (void);
 - (void)Ð(;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(copy, nonatomic) NSData *enrollmentDataDedupeHashBytes; // @synthesize enrollmentDataDedupeHashBytes=_enrollmentDataDedupeHashBytes;
-@property(copy, nonatomic) NSArray *enrollmentUtterances; // @synthesize enrollmentUtterances=_enrollmentUtterances;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasEnrollmentDataDedupeHashBytes; // @synthesize hasEnrollmentDataDedupeHashBytes=_hasEnrollmentDataDedupeHashBytes;
-@property(nonatomic) _Bool hasProductVersion; // @synthesize hasProductVersion=_hasProductVersion;
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
 @property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
 
 @end

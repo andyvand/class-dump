@@ -13,10 +13,10 @@
     MRImageProvider *mPlasmaProvider;
 }
 
-- (void);
+- (void)submitEnvelopes:(double)arg1 withCompletion:(id)arg2;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ckRecordRetrieve;
+- (id):(id)arg1 ^BOOL(NTPBEnvelope *envelope) { return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported(envelope.contentType); }];
 - (void);
 - (void);
 - (void);

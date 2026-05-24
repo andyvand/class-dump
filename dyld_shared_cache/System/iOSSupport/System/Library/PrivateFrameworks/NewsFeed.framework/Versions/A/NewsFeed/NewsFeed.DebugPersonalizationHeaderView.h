@@ -7,10 +7,9 @@
 @interface NewsFeed.DebugPersonalizationHeaderView
 {
     id titleLabel;
-    id subHeaderLabel;
 }
 
-- (id);
+- (id)\j;
 - (id)
 × ;
 - (void)Ýõ;

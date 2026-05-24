@@ -13,10 +13,10 @@
     NSNumber *_memberDSID;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)SiriKitInteraction;
+- (id)calls;
+- (id)snippetEndDate;
+- (void)itial INVITE.  Sending Session Progress.;
 - (void);
 
 // Remaining properties

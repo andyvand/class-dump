@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, RTMetricManager, RTStateModelEarliestLatestEl;
-@protocol OS_dispatch_queue;
+@class RTStateModelEarliestLatestEl;
 
 @interface RTStateModel
 {
     RTStateModelEarliestLatestEl *_earliestLatestStateModelEl;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTMetricManager *_metricManager;
-    NSMutableDictionary *_stateModelLut;
 }
 
 + (double);
-+ (double);
++ (double)H";
 + (double);
 - (void);
 - (id);
 - (id);
+- (id)DSTransportThreadRemoveSocket called with bad socket %d;
 - (id);
-- (id);
-- (id);
+- (id)5;
 - (struct CLLocationCoordinate2D);
 - (id);
 - (void);
@@ -38,7 +34,7 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)setAdditionalTopLevelFields: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned int);
@@ -51,9 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTStateModelEarliestLatestEl *earliestLatestStateModelEl; // @synthesize earliestLatestStateModelEl=_earliestLatestStateModelEl;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *stateModelLut; // @synthesize stateModelLut=_stateModelLut;
 
 @end
 

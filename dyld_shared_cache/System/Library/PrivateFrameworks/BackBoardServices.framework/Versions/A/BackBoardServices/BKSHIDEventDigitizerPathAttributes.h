@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventAuthenticationMessage, BKSHIDEventDeferringChangeBasis, BKSHIDEventSimpleProvenance, BKSWindowServerHitTestSecurityAnalysis, NSString;
-@protocol BKSHIDEventProvenance;
+@class BKSHIDEventSimpleProvenance;
 
 @interface BKSHIDEventDigitizerPathAttributes
 {
     BKSHIDEventSimpleProvenance *_simpleProvenance;
-    unsigned char _locus;
-    unsigned int _touchIdentifier;
-    unsigned int _userIdentifier;
-    float _zGradient;
-    long long _pathIndex;
-    long long _hitTestContextCategory;
-    BKSHIDEventAuthenticationMessage *_authenticationMessage;
-    BKSWindowServerHitTestSecurityAnalysis *_securityAnalysis;
-    struct CGPoint _hitTestLocation;
-    struct CGPoint _preciseLocation;
 }
 
 + (id);
 - (void);
 - (struct CGPoint);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)%@ != %@;
 - (void);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (double);
 - (id);
 - (id);
@@ -40,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)A;
 - (void);
 - (_Bool);
 - (long long);
@@ -50,40 +39,18 @@
 - (id);
 - (double);
 - (id);
+- (void)t;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (double)c;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventAuthenticationMessage *authenticationMessage; // @synthesize authenticationMessage=_authenticationMessage;
-@property(readonly, nonatomic) BKSHIDEventDeferringChangeBasis *changeBasis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long hitTestContextCategory; // @synthesize hitTestContextCategory=_hitTestContextCategory;
-@property(nonatomic) struct CGPoint hitTestLocation; // @synthesize hitTestLocation=_hitTestLocation;
-@property(nonatomic) double hitTestLocationX; // @dynamic hitTestLocationX;
-@property(nonatomic) double hitTestLocationY; // @dynamic hitTestLocationY;
-@property(nonatomic) unsigned char locus; // @synthesize locus=_locus;
 @property(nonatomic) long long pathIndex; // @synthesize pathIndex=_pathIndex;
-@property(nonatomic) struct CGPoint preciseLocation; // @synthesize preciseLocation=_preciseLocation;
-@property(nonatomic) double preciseLocationX; // @dynamic preciseLocationX;
-@property(nonatomic) double preciseLocationY; // @dynamic preciseLocationY;
-@property(retain, nonatomic) id <BKSHIDEventProvenance> provenance;
-@property(retain, nonatomic) BKSWindowServerHitTestSecurityAnalysis *securityAnalysis; // @synthesize securityAnalysis=_securityAnalysis;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int touchIdentifier; // @synthesize touchIdentifier=_touchIdentifier;
-@property(nonatomic) unsigned int userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(nonatomic) float zGradient; // @synthesize zGradient=_zGradient;
 
 @end
 

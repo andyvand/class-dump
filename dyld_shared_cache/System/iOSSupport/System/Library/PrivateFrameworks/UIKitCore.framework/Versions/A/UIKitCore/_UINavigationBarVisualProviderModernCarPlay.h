@@ -6,39 +6,15 @@
 
 #import <UIKitCore/_UINavigationBarVisualProvider.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIFocusContainerGuide, UIImageSymbolConfiguration, UIView, UIVisualEffectView, _UIBarButtonItemAppearanceStorage, _UIButtonBar, _UIButtonBarButton, _UICarTitleView;
-
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarVisualProviderModernCarPlay : _UINavigationBarVisualProvider
 {
     _Bool _compactMetrics;
-    _Bool _havePrepared;
-    _UIBarButtonItemAppearanceStorage *_appearanceStorage;
-    UIView *_contentView;
-    _UICarTitleView *_titleView;
-    _UIButtonBar *_leadingBar;
-    _UIButtonBar *_trailingBar;
-    _UIButtonBarButton *_backBarButton;
-    NSLayoutConstraint *_leadingBarConstraint;
-    NSLayoutConstraint *_leadingBarNoItemsConstraint;
-    NSLayoutConstraint *_trailingBarConstraint;
-    NSLayoutConstraint *_trailingBarNoItemsConstraint;
-    NSArray *_backButtonConstraints;
-    NSLayoutConstraint *_largeTitleLeadingConstraint;
-    NSLayoutConstraint *_largeTitleTrailingConstraint;
-    NSLayoutConstraint *_regularTitleConstraint;
-    NSLayoutConstraint *_leadingBarWithTitleTrailingConstraint;
-    NSLayoutConstraint *_leadingBarWithNoTitleTrailingConstraint;
-    NSLayoutConstraint *_trailingBarWithTitleLeadingConstraint;
-    NSLayoutConstraint *_trailingBarWithNoTitleLeadingConstraint;
-    UIVisualEffectView *_backgroundView;
-    UIFocusContainerGuide *_focusContainerGuide;
-    NSArray *_debugViews;
 }
 
 - (struct CGSize);
 - (id);
-- (id);
+- (id)de an itemID. Got:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (void)
@@ -82,32 +58,32 @@ __attribute__((visibility("hidden")))
 - (void)@"_UITVScrollViewManager"16;
 - (void)24;
 - (void)ionView"16@"NSString"24@"NSIndexPath"32;
-- (void)sesContinuousPathProgressiveCandidates;
-- (id)rackBorderGoingOffAnimationDuration;
-- (void)raits:(id)arg1 screenTraits:splitTraits:reload: /* Error: Ran out of types for this method. */;
-- (unsigned long long)InterfaceLanguageForLocalization:(id)arg1;
-- (void)ngentCbrtSpeed:(_Bool)arg1;
-- (void)otSection:(id)arg1;
-- (id)ailingConstraint: /* Error: Ran out of types for this method. */;
+- (void)usesContinuousPathProgressiveCandidates;
+- (id)trackBorderGoingOffAnimationDuration;
+- (void)showKeyboardWithInputMode:(id)arg1 renderConfig:inputTraits:screenTraits:splitTraits:reload: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setUseInterfaceLanguageForLocalization:(id)arg1;
+- (void)setTangentCbrtSpeed:(_Bool)arg1;
+- (void)setPivotSection:(id)arg1;
+- (id)setLeadingBarWithTitleTrailingConstraint: /* Error: Ran out of types for this method. */;
 - (void)setDidSetShowsLargeContentViewer:(id)arg1;
+- (void)predictiveTextMaxLength;
+- (void)paddingAroundImage;
+- (void)lastLayoutResult;
+- (id)initWithBounds:outline: /* Error: Ran out of types for this method. */;
+- (void)dragSessionID;
 - (void);
-- (void)addingAroundImage;
-- (void)utResult;
-- (id)line: /* Error: Ran out of types for this method. */;
-- (void)onID;
-- (void);
-- (void)pUnderView;
-- (_Bool)language:(id)arg1 wrap:details: /* Error: Ran out of types for this method. */;
-- (_Bool)ractionDuringTransition;
-- (void)dLastSelectedComponentsByValidatingSelectedDateWithLastManipulatedComponent:(id)arg1;
-- (void)unconstrainedPointGetter;
-- (void)ysBounceVertical:(id)arg1;
+- (void)clipUnderView;
+- (_Bool)checkGrammarOfString:(id)arg1 startingAt:language:wrap:details: /* Error: Ran out of types for this method. */;
+- (_Bool)allowUserInteractionDuringTransition;
+- (void)_updatedLastSelectedComponentsByValidatingSelectedDateWithLastManipulatedComponent:(id)arg1;
+- (void)_unconstrainedPointGetter;
+- (void)_setAlwaysBounceVertical:(id)arg1;
 - (_Bool)_makeHybridPropertyAnimatorWithDuration:(id)arg1 progressValue:progressValueReversed:progressValueUpdateReason:springAnimationBehavior: /* Error: Ran out of types for this method. */;
-- (void)stingPreviousFlashes;
+- (void)_flashScrollIndicatorsPersistingPreviousFlashes;
 - (void)_delegateImplementsViewForHeaderInSection;
-- (double)onAtLocation: /* Error: Ran out of types for this method. */;
+- (double)_canBeginMenuInteractionAtLocation: /* Error: Ran out of types for this method. */;
 - (void)_animatingToNormalState;
-- (void)yBackgroundName;
+- (void)_activatedKeyplaneSwitchControlKeyBackgroundName;
 - (void)V_containingFrame;
 - (id)SidebarHeight;
 - (void)ation;
@@ -115,11 +91,11 @@ __attribute__((visibility("hidden")))
 - (id)iew",R,N;
 - (void)sWindowDrivingSystemAppearance;
 - (void)"UITextRange",&,N,V_selectedRange;
-- (void)trollerDidCancel:(id)arg1;
+- (void)imagePickerControllerDidCancel:(id)arg1;
 - (id)review",R,N,V_targetedPreview;
-- (void)ion;
-- (id)sorAnimation;
-- (_Bool)ation;
+- (void)_action;
+- (id)_UITextCursorAnimation;
+- (_Bool)_UIFeedbackGeneratorConfiguration;
 - (void)d¹;
 - (void)ld8@ 0! ";
 - (void),áâã;
@@ -137,11 +113,11 @@ __attribute__((visibility("hidden")))
 - (_Bool)probably means that the focus system has been deallocated but its event delivery object is still around. This should never happen and is a UIKit bug.;
 - (double)IContentUnavailable-title-to-message-spacing;
 - (_Bool)u. The number of rows contained in an existing section after the update (%lu) must be equal to the number of rows contained in that section before the update (%lu), plus or minus the number of rows inserted or deleted from that section (%lu inserted, %lu deleted) and plus or minus the number of rows moved into or out of that section (%lu moved in, %lu moved out). Table view:%@ /* Error: Ran out of types for this method. */;
-- (void)deInVideoConference;
+- (void)UIStatusBarStyleOverrideInVideoConference;
 - (id)Finished:] /* Error: Ran out of types for this method. */;
 - (long long)out of sync with its coordinate space:The bitmap should not be more than one point (`scale` pixels) larger than the coordinate space's bounds (in pixels), adjusted for orientation. Bitmap orientation-adjusted size:{width=%lu, height=%lu}; Orientation:%@; Scale:%.1f; Coordinate space:%@ /* Error: Ran out of types for this method. */;
 - (void)ementController.m;
-- (long long)nimumScaleFactor;
+- (long long)minimumScaleFactor;
 - (id)y be caused by a cycle where the first responder is moving back and forth between the same views.
 First responder that was asked to resign (returned %@ from -resignFirstResponder):%@ inside containing view:%@ at index path:%@
 Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
@@ -155,52 +131,7 @@ Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: 
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _UIBarButtonItemAppearanceStorage *appearanceStorage; // @synthesize appearanceStorage=_appearanceStorage;
-@property(retain, nonatomic) _UIButtonBarButton *backBarButton; // @synthesize backBarButton=_backBarButton;
-@property(retain, nonatomic) NSArray *backButtonConstraints; // @synthesize backButtonConstraints=_backButtonConstraints;
-@property(readonly, nonatomic) double backButtonMargin;
-@property(readonly, nonatomic) double backButtonMaximumWidth;
-@property(retain, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) long long barType;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool centerTextButtons;
-@property(readonly, nonatomic) _Bool compactMetrics; // @synthesize compactMetrics=_compactMetrics;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSArray *debugViews; // @synthesize debugViews=_debugViews;
-@property(readonly, nonatomic) double defaultEdgeSpacing;
-@property(readonly, nonatomic) double defaultTextPadding;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIFocusContainerGuide *focusContainerGuide; // @synthesize focusContainerGuide=_focusContainerGuide;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool havePrepared; // @synthesize havePrepared=_havePrepared;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *imageSymbolConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImageSymbolConfiguration",?,R,N
-
-@property(retain, nonatomic) NSLayoutConstraint *largeTitleLeadingConstraint; // @synthesize largeTitleLeadingConstraint=_largeTitleLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *largeTitleTrailingConstraint; // @synthesize largeTitleTrailingConstraint=_largeTitleTrailingConstraint;
-@property(retain, nonatomic) _UIButtonBar *leadingBar; // @synthesize leadingBar=_leadingBar;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarConstraint; // @synthesize leadingBarConstraint=_leadingBarConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarNoItemsConstraint; // @synthesize leadingBarNoItemsConstraint=_leadingBarNoItemsConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarWithNoTitleTrailingConstraint; // @synthesize leadingBarWithNoTitleTrailingConstraint=_leadingBarWithNoTitleTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarWithTitleTrailingConstraint; // @synthesize leadingBarWithTitleTrailingConstraint=_leadingBarWithTitleTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *regularTitleConstraint; // @synthesize regularTitleConstraint=_regularTitleConstraint;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIColor *tintColor;
-@property(retain, nonatomic) _UICarTitleView *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) _UIButtonBar *trailingBar; // @synthesize trailingBar=_trailingBar;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarConstraint; // @synthesize trailingBarConstraint=_trailingBarConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarNoItemsConstraint; // @synthesize trailingBarNoItemsConstraint=_trailingBarNoItemsConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarWithNoTitleLeadingConstraint; // @synthesize trailingBarWithNoTitleLeadingConstraint=_trailingBarWithNoTitleLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarWithTitleLeadingConstraint; // @synthesize trailingBarWithTitleLeadingConstraint=_trailingBarWithTitleLeadingConstraint;
 
 @end
 

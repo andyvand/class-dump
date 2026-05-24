@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)initWithObservables:(const void *)arg1 reportingStrategy: /* Error: Ran out of types for this method. */;
+- (void)initWithInput:(id)arg1 signal:(const void *)arg2;
 - (id);
 - (void)ú3;
 

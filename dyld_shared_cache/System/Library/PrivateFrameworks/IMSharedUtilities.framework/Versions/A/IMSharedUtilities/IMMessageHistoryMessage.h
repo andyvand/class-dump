@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMMessageHistoryMessage
 {
     NSString *_guid;
-    NSDate *_date;
-    long long _messagePartCount;
 }
 
 + (_Bool);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id)egroundColor;
-- (void)or;
+- (id)foregroundColor;
+- (void)Iterator;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, copy, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) long long messagePartCount; // @synthesize messagePartCount=_messagePartCount;
 
 @end
 

@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, NSUUID, NSXPCConnection, NSXPCListener;
-@protocol OS_os_transaction;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ASAgentCredentialExchangeOperation
 {
     NSString *_exporterBundleIdentifier;
-    NSXPCConnection *_exporterConnection;
-    NSXPCConnection *_importerConnection;
-    NSXPCConnection *_viewServiceConnection;
-    NSData *_exportedCredentialData;
-    NSUUID *_importerToken;
-    NSObject<OS_os_transaction> *_transaction;
-    CDUnknownBlockType _exportDataFetchCompletionHandler;
-    NSString *_selectedImporterApplicationIdentifier;
-    NSXPCListener *_viewServiceListener;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)R
+;
 - (void);
 - (void);
 - (void);
@@ -41,20 +32,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)one day?;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType exportDataFetchCompletionHandler; // @synthesize exportDataFetchCompletionHandler=_exportDataFetchCompletionHandler;
-@property(retain, nonatomic) NSData *exportedCredentialData; // @synthesize exportedCredentialData=_exportedCredentialData;
 @property(retain, nonatomic) NSString *exporterBundleIdentifier; // @synthesize exporterBundleIdentifier=_exporterBundleIdentifier;
-@property(retain, nonatomic) NSXPCConnection *exporterConnection; // @synthesize exporterConnection=_exporterConnection;
-@property(retain, nonatomic) NSXPCConnection *importerConnection; // @synthesize importerConnection=_importerConnection;
-@property(retain, nonatomic) NSUUID *importerToken; // @synthesize importerToken=_importerToken;
-@property(retain, nonatomic) NSString *selectedImporterApplicationIdentifier; // @synthesize selectedImporterApplicationIdentifier=_selectedImporterApplicationIdentifier;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
-@property(retain, nonatomic) NSXPCConnection *viewServiceConnection; // @synthesize viewServiceConnection=_viewServiceConnection;
-@property(retain, nonatomic) NSXPCListener *viewServiceListener; // @synthesize viewServiceListener=_viewServiceListener;
 
 @end
 

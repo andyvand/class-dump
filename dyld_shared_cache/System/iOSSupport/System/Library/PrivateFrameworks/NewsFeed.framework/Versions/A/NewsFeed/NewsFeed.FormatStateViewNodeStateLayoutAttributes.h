@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatStateViewNodeStateLayoutAttributes
 {
     id state;
-    id layoutAttributes;
 }
 
 @end

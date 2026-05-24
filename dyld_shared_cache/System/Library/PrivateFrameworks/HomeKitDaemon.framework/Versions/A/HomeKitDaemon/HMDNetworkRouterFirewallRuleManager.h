@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalDatabase, NSArray, NSMutableArray, NSNotificationCenter, NSObject, NSString;
-@protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinator, HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinatorFactory, OS_dispatch_queue;
+@class HMBLocalDatabase;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManager
 {
     struct os_unfair_lock_s _propertyLock;
-    long long _state;
-    id <HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinator> _coordinator;
-    NSMutableArray *_clients;
-    unsigned long long _operationsInProgressCount;
-    HMBLocalDatabase *_localDatabase;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinatorFactory> _coordinatorFactory;
 }
 
 + (double);
@@ -29,33 +19,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)sharedTripService:didUpdateClosedTrip: /* Error: Ran out of types for this method. */;
+- (id)nts, but state doesn't have routeInfo;
+- (id)ate}@;
+- (id){public}@] unable to get handle from participant %{private}@;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)k;
 - (long long);
 - (id)t;
 - (id)L^;
@@ -67,23 +57,7 @@ __attribute__((visibility("hidden")))
 Ðº=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *activeClients;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) NSMutableArray *clients; // @synthesize clients=_clients;
-@property(retain, nonatomic) id <HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinator> coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, nonatomic) id <HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinatorFactory> coordinatorFactory; // @synthesize coordinatorFactory=_coordinatorFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) HMBLocalDatabase *localDatabase; // @synthesize localDatabase=_localDatabase;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(nonatomic) unsigned long long operationsInProgressCount; // @synthesize operationsInProgressCount=_operationsInProgressCount;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

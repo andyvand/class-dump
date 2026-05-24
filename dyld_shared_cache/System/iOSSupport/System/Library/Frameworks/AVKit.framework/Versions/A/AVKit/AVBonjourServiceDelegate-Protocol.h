@@ -5,5 +5,8 @@
 //
 
 @protocol AVBonjourServiceDelegate
+
+@optional
+- (void);
 @end
 

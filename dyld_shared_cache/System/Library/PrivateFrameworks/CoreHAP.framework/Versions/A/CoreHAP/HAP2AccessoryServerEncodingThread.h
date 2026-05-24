@@ -6,13 +6,10 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerEncodingThread : HAP2LoggingObject
 {
     unsigned long long _encodingFeatures;
-    NSString *_accessoryDescription;
 }
 
 + (id);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,6 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,18 +37,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)nPairedPeripheralWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)removeRecentlySeenPairedPeripheralWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long encodingFeatures; // @synthesize encodingFeatures=_encodingFeatures;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

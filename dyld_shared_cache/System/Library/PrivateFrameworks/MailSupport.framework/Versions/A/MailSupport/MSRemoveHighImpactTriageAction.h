@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h;
 
 // Remaining properties
 @property(nonatomic) unsigned long long highImpactChange; // @synthesize highImpactChange=_highImpactChange;

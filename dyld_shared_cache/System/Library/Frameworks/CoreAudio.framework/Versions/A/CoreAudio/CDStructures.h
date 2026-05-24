@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -42,24 +40,24 @@ struct DSP_Host_IOProcessor {
 };
 
 struct DictionaryRef {
-    struct ObjectRef<const __CFDictionary *> mObject;
+    struct ObjectRef<const __CFDictionary *> _field1;
 };
 
 struct Dispatch_Queue {
-    struct object fObj;
-    struct weak_ptr<AMCP::Utility::Dispatch_Queue> __weak_this_;
-    struct Workloop m_workloop;
-    struct atomic<bool> m_flush_started;
-    struct atomic<bool> m_something_dispatched_after_flush;
-    struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> m_port_death_list;
-    struct mutex m_port_death_list_mutex;
-    struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> m_mach_port_receiver_list;
-    struct mutex m_mach_port_receiver_list_mutex;
-    struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> m_mig_server_list;
-    struct mutex m_mig_server_list_mutex;
-    struct atomic<long long> m_after_count;
-    NSObject *m_after_count_semaphore;
-    struct optional<applesauce::dispatch::group> m_dispatch_group;
+    struct object _field1;
+    struct weak_ptr<AMCP::Utility::Dispatch_Queue> _field2;
+    struct Workloop _field3;
+    struct atomic<bool> _field4;
+    struct atomic<bool> _field5;
+    struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> _field6;
+    struct mutex _field7;
+    struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> _field8;
+    struct mutex _field9;
+    struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> _field10;
+    struct mutex _field11;
+    struct atomic<long long> _field12;
+    id _field13;
+    struct optional<applesauce::dispatch::group> _field14;
 };
 
 struct Driver_File;
@@ -75,13 +73,13 @@ struct Event_Source;
 struct HALS_UCRemotePlugIn;
 
 struct HostCallbacks {
-    struct function<void (AudioObjectPropertyAddress)> propertyChangeCallback_;
+    struct function<void (AudioObjectPropertyAddress)> _field1;
 };
 
 struct Host_Interface;
 
 struct ObjectRef<const __CFDictionary *> {
-    struct __CFDictionary *mCFObject;
+    struct __CFDictionary *_field1;
 };
 
 struct ObjectRef<const __CFString *> {
@@ -103,7 +101,7 @@ struct StringRef {
 };
 
 struct Workloop {
-    struct object fObj;
+    struct object _field1;
 };
 
 struct __CFString;
@@ -112,14 +110,14 @@ struct __shared_weak_count;
 
 struct atomic<bool> {
     struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
+        _Atomic _Bool _field1;
+    } _field1;
 };
 
 struct atomic<long long> {
     struct __cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>> {
-        _Atomic long long __a_value;
-    } __a_;
+        _Atomic long long _field1;
+    } _field1;
 };
 
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
@@ -153,51 +151,51 @@ struct dict {
 
 struct function<DSP_HAL_Mock_TestHooks ()> {
     struct __value_func<DSP_HAL_Mock_TestHooks ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<unsigned int (const AudioObjectPropertyAddress &, unsigned int)> {
     struct __value_func<unsigned int (const AudioObjectPropertyAddress &, unsigned int)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<void ()> {
     struct __value_func<void ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<void (AudioObjectPropertyAddress)> {
     struct __value_func<void (AudioObjectPropertyAddress)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<void (bool)> {
     struct __value_func<void (bool)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<void (const AudioObjectPropertyAddress &)> {
     struct __value_func<void (const AudioObjectPropertyAddress &)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<void (const DSP_Host_Types::MutationRequestConfiguration &)> {
     struct __value_func<void (const DSP_Host_Types::MutationRequestConfiguration &)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct function<void (unsigned int, unsigned int)> {
@@ -208,26 +206,26 @@ struct function<void (unsigned int, unsigned int)> {
 };
 
 struct group {
-    struct object fObj;
+    struct object _field1;
 };
 
 struct mutex {
     struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
+        long long _field1;
+        char _field2[56];
+    } _field1;
 };
 
 struct object {
-    NSObject *fObj;
+    id _field1;
 };
 
 struct optional<applesauce::dispatch::group> {
     union {
-        char __null_state_;
-        struct group __val_;
-    } ;
-    _Bool __engaged_;
+        char _field1;
+        struct group _field2;
+    } _field1;
+    _Bool _field2;
 };
 
 struct optional<std::string> {
@@ -253,8 +251,8 @@ struct shared_mutex {
 };
 
 struct shared_ptr<Driver_File> {
-    struct Driver_File *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Driver_File *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<HALS_UCRemotePlugIn> {
@@ -263,58 +261,58 @@ struct shared_ptr<HALS_UCRemotePlugIn> {
 };
 
 struct shared_ptr<Host_Interface> {
-    struct Host_Interface *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Host_Interface *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<Property_Type_Info> {
-    struct Property_Type_Info *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Property_Type_Info *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<caulk::mach::unfair_lock> {
-    struct unfair_lock *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct unfair_lock *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::function<void (std::shared_ptr<Driver_File>)>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::map<unsigned long long, void *>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::unordered_map<AMCP::Portal::IPC::io_messenger_id_t, std::shared_ptr<AMCP::Portal::IPC::IO_Receiver>>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::vector<Registrar_Connection_Info>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::vector<std::pair<AMCP::Portal::IPC::shared_buffer_info_t, applesauce::xpc::dict>>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct unfair_lock;
 
 struct vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>> {
-    struct Event_Source *__begin_;
-    struct Event_Source *__end_;
+    struct Event_Source *_field1;
+    struct Event_Source *_field2;
     struct {
-        struct Event_Source *__cap_;
-    } ;
+        struct Event_Source *_field1;
+    } _field3;
 };
 
 struct weak_ptr<AMCP::Utility::Dispatch_Queue> {
-    struct Dispatch_Queue *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Dispatch_Queue *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -322,52 +320,52 @@ struct weak_ptr<AMCP::Utility::Dispatch_Queue> {
 // Template types
 typedef struct function<DSP_HAL_Mock_TestHooks ()> {
     struct __value_func<DSP_HAL_Mock_TestHooks ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_fb59f3b1;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_92ee635b;
 
 typedef struct function<unsigned int (const AudioObjectPropertyAddress &, unsigned int)> {
     struct __value_func<unsigned int (const AudioObjectPropertyAddress &, unsigned int)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_24f086e5;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_de438ca0;
 
 typedef struct function<void ()> {
     struct __value_func<void ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_e88ba8d7;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_62e87cf2;
 
 typedef struct function<void (bool)> {
     struct __value_func<void (bool)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_002391bb;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_ef502cd9;
 
 typedef struct function<void (const AudioObjectPropertyAddress &)> {
     struct __value_func<void (const AudioObjectPropertyAddress &)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_0ab2561a;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_1339d534;
 
 typedef struct function<void (const DSP_Host_Types::MutationRequestConfiguration &)> {
     struct __value_func<void (const DSP_Host_Types::MutationRequestConfiguration &)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_b5c4072d;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_2adeff0b;
 
 typedef struct function<void (unsigned int, unsigned int)> {
     struct __value_func<void (unsigned int, unsigned int)> {
         union type _field1;
         void *_field2;
     } _field1;
-} function_cd1f5932;
+} function_ba401a17;
 
 typedef struct optional<std::string> {
     union {
@@ -383,9 +381,9 @@ typedef struct pair<int, const void *> {
 } pair_b6862e74;
 
 typedef struct shared_ptr<Driver_File> {
-    struct Driver_File *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_9f79bb43;
+    struct Driver_File *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_be561262;
 
 typedef struct shared_ptr<HALS_UCRemotePlugIn> {
     struct HALS_UCRemotePlugIn *__ptr_;
@@ -393,48 +391,48 @@ typedef struct shared_ptr<HALS_UCRemotePlugIn> {
 } shared_ptr_1f1eae1f;
 
 typedef struct shared_ptr<Host_Interface> {
-    struct Host_Interface *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_515a953c;
+    struct Host_Interface *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_f588f08e;
 
 typedef struct shared_ptr<Property_Type_Info> {
-    struct Property_Type_Info *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_2969c241;
+    struct Property_Type_Info *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_113af87f;
 
 typedef struct shared_ptr<caulk::mach::unfair_lock> {
-    struct unfair_lock *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_53c12af5;
+    struct unfair_lock *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_b1e8babf;
 
 typedef struct shared_ptr<std::function<void (std::shared_ptr<Driver_File>)>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_1201c109;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_ce01d984;
 
 typedef struct shared_ptr<std::map<unsigned long long, void *>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_e6fe39fb;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_8cdc1e41;
 
 typedef struct shared_ptr<std::unordered_map<AMCP::Portal::IPC::io_messenger_id_t, std::shared_ptr<AMCP::Portal::IPC::IO_Receiver>>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_981505df;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_6030c3cf;
 
 typedef struct shared_ptr<std::vector<Registrar_Connection_Info>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_ca6133e4;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_03e266bb;
 
 typedef struct shared_ptr<std::vector<std::pair<AMCP::Portal::IPC::shared_buffer_info_t, applesauce::xpc::dict>>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_cae1ecd9;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_a82571c4;
 
 #pragma mark Named Unions
 
 union type {
-    unsigned char __data[24];
+    unsigned char _field1[24];
 };
 

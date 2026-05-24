@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, NSUUID, TUCTCapabilityInfo, TUCallCapabilitiesXPCClient, TUSenderIdentityCapabilitiesState;
+@class NSUUID, TUSenderIdentityCapabilitiesState;
 
 @interface TUSenderIdentityCapabilities
 {
     NSUUID *_senderIdentityUUID;
-    NSString *_thumperCallingLocalDeviceID;
-    TUSenderIdentityCapabilitiesState *_state;
-    TUCallCapabilitiesXPCClient *_client;
 }
 
-- (id);
+- (id);
 - (int);
 - (id);
 - (int);
@@ -49,59 +46,25 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (void);
-- (_Bool);
+- (_Bool)TI;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)B@`⃁<i;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)l;
 - (id);
-- (void)r;
-- (_Bool)sChangedNotification: /* Error: Ran out of types for this method. */;
+- (void)videoContextSlotIdentifier;
+- (_Bool)callStatusChangedNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAttemptEmergencyCallsWithoutCellularConnection;
-@property(readonly, nonatomic) _Bool canAttemptTelephonyCallsWithoutCellularConnection;
-@property(readonly, nonatomic) TUCallCapabilitiesXPCClient *client; // @synthesize client=_client;
-@property(readonly, nonatomic, getter=isCSCallingCurrentlyAvailable) _Bool csCallingCurrentlyAvailable;
-@property(readonly, nonatomic, getter=isEmergencyWiFiCallingCurrentlyAvailable) _Bool emergencyWiFiCallingCurrentlyAvailable;
-@property(readonly, copy, nonatomic) NSUUID *senderIdentityUUID; // @synthesize senderIdentityUUID=_senderIdentityUUID;
 @property(readonly, copy, nonatomic) TUSenderIdentityCapabilitiesState *state; // @synthesize state=_state;
-@property(readonly, nonatomic) _Bool supportsEmergencyWiFiCalling;
-@property(readonly, nonatomic) _Bool supportsSimultaneousVoiceAndData;
-@property(readonly, nonatomic) _Bool supportsThumperCalling;
-@property(readonly, nonatomic) _Bool supportsThumperCallingOverCellularData;
-@property(readonly, nonatomic) _Bool supportsVoLTECalling;
-@property(readonly, nonatomic) _Bool supportsWiFiCalling;
-@property(readonly, nonatomic) _Bool supportsWiFiCallingRoaming;
-@property(readonly, nonatomic, getter=isThumperCallingAllowedForCurrentDevice) _Bool thumperCallingAllowedForCurrentDevice;
-@property(readonly, nonatomic, getter=isThumperCallingAllowedOnDefaultPairedSecondaryDevice) _Bool thumperCallingAllowedOnDefaultPairedSecondaryDevice;
-@property(readonly, nonatomic) TUCTCapabilityInfo *thumperCallingCapabilityInfo;
-@property(readonly, nonatomic, getter=isThumperCallingCurrentlyAvailable) _Bool thumperCallingCurrentlyAvailable;
-@property(readonly, nonatomic, getter=isThumperCallingEnabled) _Bool thumperCallingEnabled;
-@property(copy, nonatomic) NSString *thumperCallingLocalDeviceID; // @synthesize thumperCallingLocalDeviceID=_thumperCallingLocalDeviceID;
-@property(readonly, copy, nonatomic) NSData *thumperCallingProvisioningPostData;
-@property(readonly, nonatomic) int thumperCallingProvisioningStatus;
-@property(readonly, copy, nonatomic) NSURL *thumperCallingProvisioningURL;
-@property(readonly, nonatomic, getter=isThumperCallingProvisioningURLInvalid) _Bool thumperCallingProvisioningURLInvalid;
-@property(readonly, nonatomic) TUCTCapabilityInfo *voLTECallingCapabilityInfo;
-@property(readonly, nonatomic, getter=isVoLTECallingCurrentlyAvailable) _Bool voLTECallingCurrentlyAvailable;
-@property(readonly, nonatomic, getter=isVoLTECallingEnabled) _Bool voLTECallingEnabled;
-@property(readonly, nonatomic) TUCTCapabilityInfo *wiFiCallingCapabilityInfo;
-@property(readonly, nonatomic, getter=isWiFiCallingCurrentlyAvailable) _Bool wiFiCallingCurrentlyAvailable;
-@property(readonly, nonatomic, getter=isWiFiCallingEnabled) _Bool wiFiCallingEnabled;
-@property(readonly, copy, nonatomic) NSData *wiFiCallingProvisioningPostData;
-@property(readonly, nonatomic) int wiFiCallingProvisioningStatus;
-@property(readonly, copy, nonatomic) NSURL *wiFiCallingProvisioningURL;
-@property(readonly, nonatomic, getter=isWiFiCallingProvisioningURLInvalid) _Bool wiFiCallingProvisioningURLInvalid;
-@property(readonly, nonatomic, getter=isWiFiCallingRoamingEnabled) _Bool wiFiCallingRoamingEnabled;
 
 @end
 

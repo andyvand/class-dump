@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SCNTextureSpriteKitSource : SCNTextureOffscreenRenderingSource
 {
     SKScene *_scene;
-    double _lastUpdate;
 }
 
 - (void);
@@ -21,9 +20,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct __C3DTexture *);
 - (void);
+- (void)B
+;
 - (void);
-- (void);
-- (id);
+- (id)WBSTranslationScrollInteractionAnalyticsHelper;
 
 // Remaining properties
 @property(retain, nonatomic) SKScene *scene; // @synthesize scene=_scene;

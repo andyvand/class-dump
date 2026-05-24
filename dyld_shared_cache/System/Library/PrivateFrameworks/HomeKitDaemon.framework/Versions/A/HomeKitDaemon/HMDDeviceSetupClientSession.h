@@ -6,34 +6,26 @@
 
 #import <HomeKitDaemon/HMDDeviceSetupSessionInternal.h>
 
-@class NSObject, NSString, NSUUID;
+@class NSObject, NSUUID;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceSetupClientSession : HMDDeviceSetupSessionInternal
 {
     NSObject<OS_os_log> *_logger;
-    NSUUID *_sessionIdentifier;
 }
 
 + (id)lic}@Failed to update setting due to no composite setting value conversion for setting value:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)stSiri;
++ (_Bool)supportsJustSiri;
 + (long long)erDailyTotal;
 + (id)Ù²;
-- (_Bool);
-- (id);
+- (_Bool)dGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (id);
 - (void)deletions occurred;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

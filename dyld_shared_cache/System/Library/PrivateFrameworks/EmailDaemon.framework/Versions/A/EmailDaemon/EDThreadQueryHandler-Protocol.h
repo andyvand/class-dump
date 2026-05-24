@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMThreadScope;
+@class EMThreadScope, NSArray;
 
 @protocol EDThreadQueryHandler
+- (NSArray *);
 - (EMThreadScope *)àä;
 
 // Remaining properties

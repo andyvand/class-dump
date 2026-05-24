@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, NSUUID;
-
 @interface _LSTemplateApplication
 {
     _Bool _auditTokenValid;
-    CDStruct_4c969caf _creatorAuditToken;
-    NSURL *_url;
-    NSUUID *_applicationUUID;
-    NSString *_bundleIdentifier;
-    NSString *_proxyHostBundleIdentifier;
-    NSString *_displayName;
-    NSArray *_arguments;
-    NSDictionary *_additionalInfoPListKeys;
-    NSString *_creatorTeamIdentifier;
-    NSDictionary *_creatorInfoPList;
-    NSDictionary *_creatorEntitlements;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (id);
++ (id)(;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)ntEncoder>"32@0:8Q16@"<MTLPipelineLibrary>"24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,7 +27,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -59,30 +46,20 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)?;
+- (id);
+- (id);
+- (id);
+- (id)#$;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)";
 - (void)¤;
 - (void)unch Services seeding, UID %d, max wait %.4f sec;
 
 // Remaining properties
-@property(copy) NSDictionary *additionalInfoPListKeys; // @synthesize additionalInfoPListKeys=_additionalInfoPListKeys;
-@property(readonly, copy) NSUUID *applicationUUID; // @synthesize applicationUUID=_applicationUUID;
-@property(copy) NSArray *arguments; // @synthesize arguments=_arguments;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly) const CDStruct_4c969caf *creatorAuditTokenP; // @dynamic creatorAuditTokenP;
-@property(readonly, copy) NSDictionary *creatorEntitlements; // @synthesize creatorEntitlements=_creatorEntitlements;
-@property(readonly, copy) NSDictionary *creatorInfoPList; // @synthesize creatorInfoPList=_creatorInfoPList;
-@property(readonly, copy) NSString *creatorTeamIdentifier; // @synthesize creatorTeamIdentifier=_creatorTeamIdentifier;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy) NSString *proxyHostBundleIdentifier; // @synthesize proxyHostBundleIdentifier=_proxyHostBundleIdentifier;
-@property(readonly, copy) NSURL *url; // @synthesize url=_url;
 
 @end
 

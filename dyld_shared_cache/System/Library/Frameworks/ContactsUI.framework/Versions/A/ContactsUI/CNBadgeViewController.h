@@ -9,18 +9,16 @@
 @interface CNBadgeViewController
 {
     NSImage *_image;
-    NSImageView *_imageView;
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)2@0:8@16#24 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
 
 @end

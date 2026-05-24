@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (_Bool)R(;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)Settings for intent;
 
 @end
 

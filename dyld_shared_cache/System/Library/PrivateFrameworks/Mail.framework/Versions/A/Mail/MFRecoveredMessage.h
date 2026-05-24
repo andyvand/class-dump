@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessageHeaders, MFMailAccount, MFMailbox, MFMessageFileLocations, NSArray, NSData, NSString, NSURL;
+@class MCMessageHeaders, NSURL;
 
 @interface MFRecoveredMessage
 {
     MCMessageHeaders *_headers;
-    NSData *_messageData;
-    NSData *_allData;
-    NSString *_remoteID;
-    id _remoteIDLock;
-    _Bool _loadedFileData;
-    _Bool _includeConversationID;
-    NSString *_persistentID;
-    long long _conversationID;
-    MFMessageFileLocations *_fileLocations;
-    NSURL *_url;
-    NSString *_remoteMailboxURL;
-    NSArray *_gmailLabelIDs;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -39,7 +27,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -58,12 +46,12 @@
 - (void);
 - (id);
 - (void);
+- (id)@0:8r^v16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id),&,N,SsetCSSHandler: /* Error: Ran out of types for this method. */;
+- (void)highlightRatio;
 - (id);
 - (id);
 - (id);
@@ -72,16 +60,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MFMailAccount *account;
-@property(nonatomic) long long conversationID; // @synthesize conversationID=_conversationID;
-@property(retain, nonatomic) MFMessageFileLocations *fileLocations; // @synthesize fileLocations=_fileLocations;
-@property(copy, nonatomic) NSArray *gmailLabelIDs; // @synthesize gmailLabelIDs=_gmailLabelIDs;
-@property(readonly, nonatomic) _Bool includeConversationID; // @synthesize includeConversationID=_includeConversationID;
-@property(readonly, nonatomic) _Bool isPartial;
-@property(nonatomic) _Bool loadedFileData; // @synthesize loadedFileData=_loadedFileData;
-@property(readonly, nonatomic) MFMailbox *mailbox;
-@property(copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSString *remoteMailboxURL; // @synthesize remoteMailboxURL=_remoteMailboxURL;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

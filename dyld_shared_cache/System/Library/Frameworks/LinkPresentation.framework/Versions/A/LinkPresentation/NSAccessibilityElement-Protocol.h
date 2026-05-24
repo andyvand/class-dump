@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSAccessibilityElement
+- (struct CGRect)ingle request (%ld);
+
+@optional
+- (NSString *)variatesValues, sessionsItemIds.timesAccessed FROM sessions JOIN sessionsItemIds ON sessions.id = sessionsItemIds.sessionId AND sessions.sessionDescriptorId = (SELECT id FROM sessionsDescriptors WHERE name = :name AND version = :version AND locale = :locale) AND sessionsItemIds.lastUsed <= :lastUsedMax AND sessionsItemIds.timesAccessed < :timesUsedMax AND sessions.label IN _pas_nsarray(:labels) ORDER BY RANDOM() limit :limit /* Error: Ran out of types for this method. */;
 @end
 

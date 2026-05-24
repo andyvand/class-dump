@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICAddToWishListResponse
 {
@@ -18,7 +18,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *message;
 @property(readonly, nonatomic) long long statusCode;
 
 @end

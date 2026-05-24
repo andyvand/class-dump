@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (void);
+- (void)charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2;
 
 // Remaining properties
 @property(copy) NSString *text;

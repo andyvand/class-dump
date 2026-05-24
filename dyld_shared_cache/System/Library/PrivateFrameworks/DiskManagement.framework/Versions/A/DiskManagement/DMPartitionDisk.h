@@ -10,7 +10,7 @@
 }
 
 - (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -31,8 +31,8 @@
 - (int);
 - (int);
 - (int);
-- (void);
-- (id);
+- (void)SString",R,N,V_slotName;
+- (id)ental state file with a different session name;
 - (id);
 
 @end

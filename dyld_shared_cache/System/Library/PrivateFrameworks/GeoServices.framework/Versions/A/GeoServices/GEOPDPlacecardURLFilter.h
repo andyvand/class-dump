@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)b;
+- (_Bool);
 - (id)mmaryLayoutMetadata";
-- (id)entLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
+- (id)_mapItemsFromPresentAction:hasCurrentLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
 - (id)ÌÔ
 8ÕÖè×;
 - (void)K;¥3F@;

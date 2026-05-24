@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface IMEventListener
 {
     _Bool _willRepeat;
-    double _timerStart;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    double _timeListeningStarted;
-    double _timeListeningStopped;
-    double _timeLastEventReceived;
-    double _timeout;
-    unsigned long long _eventCount;
-    id _target;
-    CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _willInvokeCompletion;
-    CDUnknownBlockType _didInvokeCompletion;
 }
 
 + (id);
@@ -36,7 +22,7 @@
 - (double);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,39 +39,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)mptcpHeuristicFallback;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_appleBalanceAccountNoBalanceDetailsDictionary;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType)B24;
-- (double)ubmitWithHandler:networkActivity: /* Error: Ran out of types for this method. */;
-- (void)gCriteriaProviding;
-- (void)ation;
+- (double)submitWithHandler:networkActivity: /* Error: Ran out of types for this method. */;
+- (void)IMTypingCriteriaProviding;
+- (void)AuxiliaryOutputRepresentation;
 - (void)y:Û /* Error: Ran out of types for this method. */;
-- (void)e;
+- (void)GroupChatSentToBlackhole;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy) CDUnknownBlockType didInvokeCompletion; // @synthesize didInvokeCompletion=_didInvokeCompletion;
-@property(readonly) double elapsedWaitingTime;
-@property(readonly) unsigned long long eventCount; // @synthesize eventCount=_eventCount;
-@property(readonly, getter=isListening) _Bool listening;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property __weak id target; // @synthesize target=_target;
-@property(readonly) double timeLastEventReceived; // @synthesize timeLastEventReceived=_timeLastEventReceived;
-@property(readonly) double timeListeningStarted; // @synthesize timeListeningStarted=_timeListeningStarted;
-@property(readonly) double timeListeningStopped; // @synthesize timeListeningStopped=_timeListeningStopped;
-@property double timeout; // @synthesize timeout=_timeout;
 @property(nonatomic) double timerStart; // @synthesize timerStart=_timerStart;
-@property(copy) CDUnknownBlockType willInvokeCompletion; // @synthesize willInvokeCompletion=_willInvokeCompletion;
-@property(nonatomic) _Bool willRepeat; // @synthesize willRepeat=_willRepeat;
 
 @end
 

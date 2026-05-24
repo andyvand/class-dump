@@ -7,22 +7,16 @@
 @interface NewsFeed.DebugFormatWorkspaceDeviceViewController
 {
     id editor;
-    id styler;
-    id tableView;
-    id sections;
-    id selectedDevices;
-    id viewer;
-    id isLoading;
 }
 
 - (id);
-- (id);
+- (id)ǿ;
 - (id);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long)$;
 - (void);
 - (void);
 

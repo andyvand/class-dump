@@ -5,5 +5,6 @@
 //
 
 @protocol _UIRotatingAlertControllerDelegate
+- (struct CGRect);
 @end
 

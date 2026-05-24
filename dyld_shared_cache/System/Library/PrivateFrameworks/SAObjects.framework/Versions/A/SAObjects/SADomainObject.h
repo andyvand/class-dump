@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SADomainObject : SABaseAceObject
 {
@@ -14,20 +14,13 @@
 
 + (id);
 + (id);
-- (id);
+- (id));
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSURL *identifier; // @dynamic identifier;
-@property(readonly) Class superclass;
 
 @end
 

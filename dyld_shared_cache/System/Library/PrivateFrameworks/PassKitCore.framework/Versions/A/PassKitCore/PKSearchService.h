@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSObject, PKXPCService;
-@protocol OS_dispatch_queue;
+@class PKXPCService;
 
 @interface PKSearchService
 {
     PKXPCService *_remoteService;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    struct os_unfair_lock_s _lockObservers;
-    NSHashTable *_observers;
-    struct os_unfair_lock_s _lockResults;
-    NSMutableDictionary *_results;
 }
 
+- (void)B9?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)V;
+- (void)T)M;
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -35,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void)E_BILL_PAYMENT_CATEGORY_LAST_PAYMENT_PLUS_MERCHANT_CATEGORY2_MONTH_ONE_TITLE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_LAST_PAYMENT_PLUS_MERCHANT_CATEGORY2_MONTH_ONE_TITLE;
 
 @end
 

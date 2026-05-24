@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
+@class WKUserScript;
 
 @interface SWPresentationStateScript
 {
     WKUserScript *userScript;
-    unsigned long long _presentationState;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -21,18 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *executableScript;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) unsigned long long presentationState; // @synthesize presentationState=_presentationState;
-@property(readonly, nonatomic) _Bool queueable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKUserScript *userScript; // @synthesize userScript;
 
 @end
 

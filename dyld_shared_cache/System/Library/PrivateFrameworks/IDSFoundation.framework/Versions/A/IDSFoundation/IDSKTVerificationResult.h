@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IDSKTVerificationResult
 {
     _Bool _optedIn;
-    NSString *_uri;
-    NSArray *_verifiedPushTokens;
-    NSArray *_unverifiedPushTokens;
-    NSArray *_endpointTransparencyStates;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -26,16 +22,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ހ;
 - (void)<%@:%p alias:%@ pushToken:%@> /* Error: Ran out of types for this method. */;
 - (id)¶n1SÒ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *endpointTransparencyStates; // @synthesize endpointTransparencyStates=_endpointTransparencyStates;
-@property(nonatomic) _Bool optedIn; // @synthesize optedIn=_optedIn;
-@property(retain, nonatomic) NSArray *unverifiedPushTokens; // @synthesize unverifiedPushTokens=_unverifiedPushTokens;
 @property(retain, nonatomic) NSString *uri; // @synthesize uri=_uri;
-@property(retain, nonatomic) NSArray *verifiedPushTokens; // @synthesize verifiedPushTokens=_verifiedPushTokens;
 
 @end
 

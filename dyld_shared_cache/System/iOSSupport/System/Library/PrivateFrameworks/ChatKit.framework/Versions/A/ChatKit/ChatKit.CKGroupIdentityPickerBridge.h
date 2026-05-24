@@ -9,7 +9,7 @@
     id conversation;
 }
 
-- (void);
+- (void)n attempt to insert %@ into a placeholder attachment %@ in note:(id)arg1 %@;
 - (void);
 - (void);
 - (id);

@@ -19,10 +19,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)initWithModelID:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (void)SProgress";
 

@@ -5,5 +5,10 @@
 //
 
 @protocol MKPlaceCardPhotosControllerDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (void)c;
 @end
 

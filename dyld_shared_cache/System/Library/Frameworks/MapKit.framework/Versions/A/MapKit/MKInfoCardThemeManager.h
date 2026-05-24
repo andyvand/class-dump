@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSString;
-
 @interface MKInfoCardThemeManager
 {
     _Bool _themeWasExplicitySet;
-    NSDictionary *_colors;
-    CDUnknownBlockType _tintColorProvider;
-    _Bool _useSmallFont;
-    unsigned long long _themeType;
 }
 
 + (id);
 + (unsigned long long);
-+ (void);
++ (void):(CDUnknownBlockType)arg1;
 + (void);
 + (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)M;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)4H;
 - (id);
 - (id);
 - (id);
@@ -41,62 +35,27 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)VNBarcodeSymbologyGS1DataBarLimited;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)outArrowPath:intersectionBackgroundPath:strokePath:withSize:metrics:drivingSide:visualCenter: /* Error: Ran out of types for this method. */;
+- (void)getRoundaboutArrowPath:intersectionBackgroundPath:strokePath:withSize:metrics:drivingSide:visualCenter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *buttonHighlightedColor;
-@property(readonly, nonatomic) NSColor *buttonNormalColor;
-@property(readonly, nonatomic) NSColor *cardBackgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSColor *disabledActionRowBackgroundColor;
-@property(readonly, nonatomic) NSColor *disabledActionRowTextColor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSColor *headerPrimaryButtonHighlightedColor;
-@property(readonly, nonatomic) NSColor *headerPrimaryButtonNormalColor;
-@property(readonly, nonatomic) NSColor *highlightedTintColor;
-@property(readonly, nonatomic) _Bool isDarkTheme;
-@property(readonly, nonatomic) NSString *javaScriptName;
-@property(readonly, nonatomic) NSColor *lightTextColor;
-@property(readonly, nonatomic) NSColor *normalActionRowBackgroundColor;
-@property(readonly, nonatomic) NSColor *normalActionRowBackgroundPressedColor;
-@property(readonly, nonatomic) NSColor *normalBackgroundColor;
-@property(readonly, nonatomic) NSColor *ratingBarBackgroundColor;
-@property(readonly, nonatomic) NSColor *ratingBarEndColor;
-@property(readonly, nonatomic) NSColor *ratingBarStartColor;
-@property(readonly, nonatomic) NSColor *rowColor;
-@property(readonly, nonatomic) NSColor *selectedRowColor;
-@property(readonly, nonatomic) NSColor *separatorLineColor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSColor *tertiaryTextColor;
-@property(readonly, nonatomic) NSColor *textColor;
-@property(readonly, nonatomic) unsigned long long themeType; // @synthesize themeType=_themeType;
-@property(readonly, nonatomic) NSColor *tintColor;
-@property(readonly, nonatomic) NSColor *transitChevronBackgroundColor;
-@property(readonly, nonatomic) NSColor *transitDelayedTextColor;
-@property(readonly, nonatomic) NSColor *transitIncidentBackgroundColor;
-@property(readonly, nonatomic) NSColor *transitOntimeTextColor;
 @property(nonatomic) _Bool useSmallFont; // @synthesize useSmallFont=_useSmallFont;
 
 @end

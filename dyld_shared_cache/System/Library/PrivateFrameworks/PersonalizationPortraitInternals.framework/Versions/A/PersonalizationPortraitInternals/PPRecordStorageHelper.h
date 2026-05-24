@@ -4,47 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPDKStorage, PPSourceStorage, _DKEventStream;
+@class NSString;
 
 @interface PPRecordStorageHelper
 {
     NSString *_table;
-    NSString *_feedbackTable;
-    NSString *_clusterIdentifierColumn;
-    unsigned int _maxRecords;
-    PPDKStorage *_duetStorage;
-    _DKEventStream *_duetStream;
-    NSString *_lastDuetImportDateKey;
-    NSString *_lastDuetDeletionDateKey;
-    PPSourceStorage *_sourceStorage;
 }
 
-- (unsigned int);
-- (_Bool);
+- (unsigned int)r":(id)arg1 %d,;
+- (_Bool)ionStmt":(id)arg1 {;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)keyPathsForValuesAffectingAsCapable;
+- (_Bool)ryStoreDict is NULL;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool)Version;
+- (id)@;
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (void);
+- (void)D;
 - (void);
 - (id);
 - (void);

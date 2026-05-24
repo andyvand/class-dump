@@ -4,83 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteDelegateWrapper, CNAutocompleteFetchRequest, CNAutocompleteUserSession, CNCancelationToken, NSArray, NSString;
-@protocol CNAutocompleteProbeProvider, CNAutocompleteSearchProvider, CNAutocompleteSourceInclusionPolicy, CNCancelable, CNScheduler;
+@class CNAutocompleteFetchRequest;
 
 @interface CNAutocompleteQuery
 {
     CNAutocompleteFetchRequest *_request;
-    CNAutocompleteDelegateWrapper *_delegate;
-    id <CNScheduler> _scheduler;
-    CNCancelationToken *_cancelationToken;
-    id <CNAutocompleteSearchProvider> _searchProvider;
-    id <CNAutocompleteProbeProvider> _probeProvider;
-    CNAutocompleteUserSession *_userSession;
-    id <CNCancelable> _delegateToken;
-    id <CNAutocompleteSourceInclusionPolicy> _sourceInclusionPolicy;
-    NSArray *_completeResults;
 }
 
 + (_Bool);
 + (_Bool);
++ (_Bool)E9(;
 + (_Bool);
-+ (_Bool);
 + (id);
 + (id);
 + (id);
 + (void);
 + (void);
 + (void);
-- (id);
+- (id)v;
+- (void)@9	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)J;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)hod;
 
 // Remaining properties
-@property(retain) CNCancelationToken *cancelationToken; // @synthesize cancelationToken=_cancelationToken;
-@property(retain) NSArray *completeResults; // @synthesize completeResults=_completeResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) CNAutocompleteDelegateWrapper *delegate; // @synthesize delegate=_delegate;
-@property __weak id <CNCancelable> delegateToken; // @synthesize delegateToken=_delegateToken;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) id <CNAutocompleteProbeProvider> probeProvider; // @synthesize probeProvider=_probeProvider;
 @property(copy) CNAutocompleteFetchRequest *request; // @synthesize request=_request;
-@property(retain) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(retain) id <CNAutocompleteSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(retain) id <CNAutocompleteSourceInclusionPolicy> sourceInclusionPolicy; // @synthesize sourceInclusionPolicy=_sourceInclusionPolicy;
-@property(readonly) Class superclass;
-@property(retain) CNAutocompleteUserSession *userSession; // @synthesize userSession=_userSession;
 
 @end
 

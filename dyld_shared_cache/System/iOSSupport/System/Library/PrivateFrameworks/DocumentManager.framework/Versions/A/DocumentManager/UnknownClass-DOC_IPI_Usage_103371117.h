@@ -14,8 +14,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect _doc_ipi_rectForPresenting;
 @property(retain, nonatomic) UIView *_doc_ipi_view;
-@property(readonly, nonatomic) UIView *_doc_ipi_viewForPresenting;
 @end
 

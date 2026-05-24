@@ -9,20 +9,16 @@
 @interface CLSInvestigationHelperSceneNodeLevelAndWeight
 {
     PFSceneTaxonomyNode *_taxonomyNode;
-    unsigned long long _level;
-    double _weight;
 }
 
 - (id);
 - (id);
-- (double);
+- (double)Ii0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotoAnalysis/Framework/Storytelling/Tasks/AnalyticsTasks/PHAMediaSampleReportingTask.m;
 - (void);
-- (unsigned long long);
+- (unsigned long long)fullName;
 
 // Remaining properties
-@property(readonly) unsigned long long level; // @synthesize level=_level;
 @property(readonly) PFSceneTaxonomyNode *taxonomyNode; // @synthesize taxonomyNode=_taxonomyNode;
-@property(readonly) double weight; // @synthesize weight=_weight;
 
 @end
 

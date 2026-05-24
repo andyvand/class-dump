@@ -6,23 +6,21 @@
 
 #import <Photos/PHObject.h>
 
-@class NSString, PHPhotoLibrary;
+@class NSString;
 
 @interface PHObjectPlaceholder : PHObject
 {
     NSString *_localIdentifier;
-    PHPhotoLibrary *_photoLibrary;
-    long long _assetMediaType;
 }
 
-- (void);
+- (void)`;
 - (id);
 - (long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void)ustered;
-- (id);
+- (id)isCaption;
 
 // Remaining properties
 @property long long assetMediaType; // @synthesize assetMediaType=_assetMediaType;

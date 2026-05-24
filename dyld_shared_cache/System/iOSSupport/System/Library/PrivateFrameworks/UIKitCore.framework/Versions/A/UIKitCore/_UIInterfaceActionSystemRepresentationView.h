@@ -6,78 +6,59 @@
 
 #import <UIKitCore/UIInterfaceActionRepresentationView.h>
 
-@class NSArray, NSSet, NSString, _UIInterfaceActionImagePropertyView, _UIInterfaceActionLabelsPropertyView;
+@class _UIInterfaceActionImagePropertyView;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionSystemRepresentationView : UIInterfaceActionRepresentationView
 {
     _UIInterfaceActionImagePropertyView *_leadingImageView;
-    _UIInterfaceActionImagePropertyView *_trailingImageView;
-    _UIInterfaceActionLabelsPropertyView *_labelsView;
-    NSSet *_viewsToDisplayWhenContentsVisible;
-    NSSet *_displayedViews;
-    NSArray *_displayedViewsSpacingConstraints;
-    NSArray *_displayedViewsPositioningConstraints;
 }
 
 - (id);
+- (void)�;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setStickerPackGUIDToPackMap: /* Error: Ran out of types for this method. */;
+- (id)setMyV1ReadReceiptsReceivedDuringStorageWithQOI: /* Error: Ran out of types for this method. */;
+- (void)sendClearNotice:(id)arg1 toHandles:(id)arg2 reply: /* Error: Ran out of types for this method. */;
+- (void)sendBroadcastToClient;
 - (id);
+- (id)createAndPersistLivePhotoBundleIfNecessary;
+- (id)createAnalyticZoneIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void)}};
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Setting up conversation manager for imagent;
+- (void)down participant list %@ to remove associated members;
+- (void)ed message %@ with scheduleState %@;
+- (_Bool)for %@, has balloon bundle ID;
+- (_Bool)iated message GUID;
+- (void)service %@;
+- (id)ion does not support message revocation for %@ in chat %@;
+- (_Bool)l response message to device %@ message guid %@ with information %@ ;
+- (_Bool)o:%@ /* Error: Ran out of types for this method. */;
+- (id)erationGroupName %@;
+- (id)ed fetch attachment operation  ID %@ fetch operation dictionary %@;
+- (id)Finished sync task for %@ service. Error:(_Bool)arg1 %@;
+- (id)es to process.;
+- (id)st unlock database for %ld services;
+- (id)essageHistoryFirstUnlockReplaySyncTask:Begin replaying first unlock database for %ld services /* Error: Ran out of types for this method. */;
+- (id)ed as:%lld /* Error: Ran out of types for this method. */;
+- (id)Message is not from a trusted sender, received from:(id)arg1 %@;
+- (void)*******;
+- (void)nch [%@] or previous errorFetchingDate [%@];
+- (void)hDate salt zone was not present *********;
+- (void)diCloudSwitchBeEnabled is based on whether feature is enabled or not:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (id)tion;
+- (id)prominentConfiguration;
 - (void)°43Ì};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *displayedViews; // @synthesize displayedViews=_displayedViews;
-@property(readonly, nonatomic) NSArray *displayedViewsPositioningConstraints; // @synthesize displayedViewsPositioningConstraints=_displayedViewsPositioningConstraints;
-@property(readonly, nonatomic) NSArray *displayedViewsSpacingConstraints; // @synthesize displayedViewsSpacingConstraints=_displayedViewsSpacingConstraints;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIInterfaceActionLabelsPropertyView *labelsView; // @synthesize labelsView=_labelsView;
 @property(readonly, nonatomic) _UIInterfaceActionImagePropertyView *leadingImageView; // @synthesize leadingImageView=_leadingImageView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIInterfaceActionImagePropertyView *trailingImageView; // @synthesize trailingImageView=_trailingImageView;
-@property(retain, nonatomic) NSSet *viewsToDisplayWhenContentsVisible; // @synthesize viewsToDisplayWhenContentsVisible=_viewsToDisplayWhenContentsVisible;
 
 @end
 

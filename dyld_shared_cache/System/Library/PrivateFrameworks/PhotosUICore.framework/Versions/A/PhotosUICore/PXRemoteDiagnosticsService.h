@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue, PXDiagnosticsAgent;
+@class NSXPCListener;
+@protocol PXDiagnosticsAgent;
 
 @interface PXRemoteDiagnosticsService
 {
     NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_diagnosticsQueue;
-    id <PXDiagnosticsAgent> _agent;
 }
 
 + (void);
-- (void);
+- (void)pluginModels;
 - (id);
 - (void);
-- (_Bool)scriptors;
+- (_Bool)_geotaggablesSortDescriptors;
 - (id)roller;
 - (void)(#Ê;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDiagnosticsAgent> agent; // @synthesize agent=_agent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

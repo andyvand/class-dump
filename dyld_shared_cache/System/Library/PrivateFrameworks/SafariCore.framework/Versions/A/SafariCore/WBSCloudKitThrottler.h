@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 @protocol WBSCloudKitThrottlerDataStore;
 
 @interface WBSCloudKitThrottler
 {
     NSMutableArray *_pastOperationsWithinMonitoredPeriod;
-    NSArray *_throttlingDistribution;
-    double _numberOfSecondsToMonitor;
-    unsigned long long _maximumNumberOfOperationWithinMonitoredPeriod;
-    id <WBSCloudKitThrottlerDataStore> _dataStore;
 }
 
 + (id);
@@ -22,8 +18,8 @@
 - (void);
 - (double);
 - (double);
-- (_Bool);
-- (id);
+- (_Bool)ictionary"32;
+- (id)drawingCache;
 - (_Bool);
 - (id);
 - (void);
@@ -34,9 +30,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)nDataTask"24@"NSURLResponse"32@?<v@?q>40;
 - (double);
 - (double);
 - (unsigned long long);

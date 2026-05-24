@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRoughlyEquivalentProperties, NSArray, NSPredicate, NSString;
+@class NSPredicate, NSString;
 
 @interface CKQuery
 {
     NSPredicate *_predicate;
-    NSArray *_sortDescriptors;
-    NSString *_recordType;
 }
 
 + (id);
@@ -27,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -37,10 +35,7 @@
 - (void)ü;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
-@property(readonly, copy) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(readonly, copy) NSString *recordType; // @synthesize recordType=_recordType;
-@property(copy) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

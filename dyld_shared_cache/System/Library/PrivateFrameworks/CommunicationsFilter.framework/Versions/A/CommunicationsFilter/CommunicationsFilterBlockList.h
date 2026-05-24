@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CommunicationsFilterBlockListCache, NSMutableArray, NSObject;
-@protocol CMFXPCServiceProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CommunicationsFilterBlockList
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_recentObjectsTested;
-    CommunicationsFilterBlockListCache *_cache;
-    id <CMFXPCServiceProtocol> _xpcService;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)k!S;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id));
 - (id);
 
 @end

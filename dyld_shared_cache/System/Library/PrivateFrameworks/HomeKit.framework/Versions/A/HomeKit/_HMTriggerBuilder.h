@@ -6,23 +6,19 @@
 
 #import <HomeKit/_HMAutomationBuilder.h>
 
-@class HMActionSetBuilder, HMHome, HMTriggerPolicy, NSArray, NSMutableArray, NSString, NSUUID;
+@class HMTriggerPolicy, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _HMTriggerBuilder : _HMAutomationBuilder
 {
     NSString *_name;
-    _Bool _nameIsConfigured;
-    _Bool _enabled;
-    HMTriggerPolicy *_policy;
-    NSMutableArray *_actionSets;
 }
 
 + (void)dd Network Router disabled;
-- (void);
-- (void);
+- (void)ThumbnailExtensionGenerator;
+- (void)QuickLookThumbnailingDaemon;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (void);
 - (id);
-- (id);
+- (id)ce;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -51,22 +47,7 @@ __attribute__((visibility("hidden")))
 - (id)State:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionSets;
-@property(readonly, copy, nonatomic) NSString *configuredName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMHome *home;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool nameIsConfigured;
 @property(retain, nonatomic) HMTriggerPolicy *policy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMActionSetBuilder *triggerOwnedActionSet;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface CPKAXDataItem
 {
     CPKCharactersSectionStaticView *_parent;
-    long long _section;
-    long long _index;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -27,14 +25,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (long long);
-- (long long);
+- (long long)allMetricsForFamily: /* Error: Ran out of types for this method. */;
 - (void)1rð1Â0@ù
 × ;
 
 // Remaining properties
-@property long long index; // @synthesize index=_index;
 @property(readonly) CPKCharactersSectionStaticView *parent; // @synthesize parent=_parent;
-@property long long section; // @synthesize section=_section;
 
 @end
 

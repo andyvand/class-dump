@@ -7,10 +7,6 @@
 @interface IDSFoundation.IDSGLLinkEngineGFTConnectionStrategy
 {
     id linkEngine;
-    id sorter;
-    id relayLinkCreationPlugin;
-    id connectOneRelayPerInterfaceTypePlugin;
-    id portOverridePlugin;
 }
 
 @end

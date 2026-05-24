@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTLocalePair, NSData, NSString;
+@class NSString;
 
 @interface MTSchemaMTAppTextBoxDismissedTier1 : SISchemaInstrumentationMessage
 {
     NSString *_translationPayload;
-    MTSchemaMTLocalePair *_localePair;
-    _Bool _hasTranslationPayload;
-    _Bool _hasLocalePair;
 }
 
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -28,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)key decode error;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,10 +37,6 @@
 - (void)NLRouterSchemaNLRouterDecisionSource;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocalePair; // @synthesize hasLocalePair=_hasLocalePair;
-@property(nonatomic) _Bool hasTranslationPayload; // @synthesize hasTranslationPayload=_hasTranslationPayload;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTLocalePair *localePair; // @synthesize localePair=_localePair;
 @property(copy, nonatomic) NSString *translationPayload; // @synthesize translationPayload=_translationPayload;
 
 @end

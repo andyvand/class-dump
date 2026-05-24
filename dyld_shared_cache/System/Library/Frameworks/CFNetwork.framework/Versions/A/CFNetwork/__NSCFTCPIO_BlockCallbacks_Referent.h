@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface __NSCFTCPIO_BlockCallbacks_Referent
 {
     struct TCPIO_BlockCallbacks_Listener *_readListener;
-    struct TCPIO_BlockCallbacks_Listener *_writeListener;
 }
 
-- (void);
+- (void)finalkafqamatshebrew;
 - (id);
 
 @end

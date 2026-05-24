@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DIMSchemaDIMSiriAccountInformation : SISchemaInstrumentationMessage
 {
     NSString *_siriDeviceId;
-    NSString *_siriSpeechId;
-    NSString *_siriUserId;
-    _Bool _hasSiriDeviceId;
-    _Bool _hasSiriSpeechId;
-    _Bool _hasSiriUserId;
 }
 
 - (id);
@@ -40,18 +35,12 @@
 - (_Bool);
 - (id);
 - (id)ppFreqForMessages"b1"appFreqForMessagesUsingSiri"b1"appFreqForMessagesForCountryCode"b1};
-- (id)SchemaCDMInternalSpanData;
+- (id)NLXSchemaCDMInternalSpanData;
 - (id)¬;
 - (void)ùÊ%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriDeviceId; // @synthesize hasSiriDeviceId=_hasSiriDeviceId;
-@property(nonatomic) _Bool hasSiriSpeechId; // @synthesize hasSiriSpeechId=_hasSiriSpeechId;
-@property(nonatomic) _Bool hasSiriUserId; // @synthesize hasSiriUserId=_hasSiriUserId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *siriDeviceId; // @synthesize siriDeviceId=_siriDeviceId;
-@property(copy, nonatomic) NSString *siriSpeechId; // @synthesize siriSpeechId=_siriSpeechId;
-@property(copy, nonatomic) NSString *siriUserId; // @synthesize siriUserId=_siriUserId;
 
 @end
 

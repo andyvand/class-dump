@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageController, NSHashTable, NSString, PKCanvasView, PKInk, UIGestureRecognizer;
-@protocol AKInkOverlayViewDelegate, PKRulerHostingDelegate;
+@class PKInk;
 
 @interface AKInkOverlayView
 {
     PKInk *_ink;
-    NSHashTable *_reportedStrokes;
-    AKPageController *_pageController;
-    id _drawingUndoTarget;
-    PKCanvasView *_canvasView;
-    id <AKInkOverlayViewDelegate> _delegate;
-    id <PKRulerHostingDelegate> _rulerHostingDelegate;
-    struct CGSize _canvasSizeInPKDrawingSpace;
-    struct CGRect _previousPageRectInAKModel;
 }
 
 + (id);
@@ -26,23 +17,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)։"H9	;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct CGRect);
+- (id)4;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -67,23 +58,7 @@
 - (void);
 
 // Remaining properties
-@property struct CGSize canvasSizeInPKDrawingSpace; // @synthesize canvasSizeInPKDrawingSpace=_canvasSizeInPKDrawingSpace;
-@property(retain) PKCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AKInkOverlayViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIGestureRecognizer *drawingGestureRecognizer;
 @property __weak id drawingUndoTarget; // @synthesize drawingUndoTarget=_drawingUndoTarget;
-@property(readonly) unsigned long long hash;
-@property(copy) PKInk *ink;
-@property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(readonly, nonatomic) UIGestureRecognizer *pinchGestureRecognizer;
-@property(nonatomic) struct CGRect previousPageRectInAKModel; // @synthesize previousPageRectInAKModel=_previousPageRectInAKModel;
-@property(nonatomic) __weak id <PKRulerHostingDelegate> rulerHostingDelegate; // @synthesize rulerHostingDelegate=_rulerHostingDelegate;
-@property(readonly) Class superclass;
 
 @end
 

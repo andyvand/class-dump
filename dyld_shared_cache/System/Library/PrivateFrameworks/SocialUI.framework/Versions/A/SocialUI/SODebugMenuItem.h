@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, SODebugMenu;
+@class NSMenuItem;
 
 @interface SODebugMenuItem
 {
     _Bool _enabled;
-    _Bool _checked;
-    SODebugMenu *_parent;
-    NSMenuItem *_menuItem;
-    id _target;
-    SEL _action;
-    SEL _validate;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -35,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -44,17 +38,10 @@
 - (void);
 - (void);
 - (SEL);
-- (_Bool)dex:(id)arg1;
+- (_Bool)insertObject:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(getter=isChecked) _Bool checked; // @synthesize checked=_checked;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly) NSMenuItem *menuItem; // @synthesize menuItem=_menuItem;
-@property __weak SODebugMenu *parent; // @synthesize parent=_parent;
-@property(retain) id representedObject;
-@property __weak id target; // @synthesize target=_target;
-@property SEL validate; // @synthesize validate=_validate;
 
 @end
 

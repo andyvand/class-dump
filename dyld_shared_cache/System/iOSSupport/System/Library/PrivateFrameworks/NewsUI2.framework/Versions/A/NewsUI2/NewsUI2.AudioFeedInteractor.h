@@ -7,18 +7,9 @@
 @interface NewsUI2.AudioFeedInteractor
 {
     id delegate;
-    id pipeline;
-    id modifierFactory;
-    id dataManager;
-    id audioDataManager;
-    id commandCenter;
-    id playbackState;
-    id bundleSubscriptionManager;
-    id offlineArticleManager;
-    id featureAvailability;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)ÁÎ^©;

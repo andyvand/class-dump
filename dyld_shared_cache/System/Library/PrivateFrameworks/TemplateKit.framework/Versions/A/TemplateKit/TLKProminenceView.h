@@ -7,7 +7,6 @@
 @interface TLKProminenceView
 {
     unsigned long long _prominence;
-    double _customColorAlpha;
 }
 
 + (id);
@@ -15,19 +14,17 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)4	;
 - (void);
 - (void);
 - (void);
 - (double);
-- (unsigned long long)ecessary;
+- (unsigned long long)matchHeightForAlignmentRectWithIntrinsicContentSizeIfNecessary;
 
 // Remaining properties
-@property(nonatomic) double borderWidth;
-@property(nonatomic) double customColorAlpha; // @synthesize customColorAlpha=_customColorAlpha;
 @property(nonatomic) unsigned long long prominence; // @synthesize prominence=_prominence;
 
 @end

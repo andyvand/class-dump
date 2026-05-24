@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     float mAlpha;
 }
 
-- (void);
-- (id);
+- (void)notificationReferenceForObjectID:(float)arg1 withType:inEventStore: /* Error: Ran out of types for this method. */;
+- (id)ConstructionMillis"b1"responseProcessingMillis"b1"totalLatencyMillis"b1"version"b1};
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)!;
 - (float)0@ù
 × ;
 

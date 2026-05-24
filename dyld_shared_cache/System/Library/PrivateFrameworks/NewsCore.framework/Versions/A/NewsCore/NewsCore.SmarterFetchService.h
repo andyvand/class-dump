@@ -7,10 +7,6 @@
 @interface NewsCore.SmarterFetchService
 {
     id throttleGroup;
-    id configurationManager;
-    id networkBehaviorMonitor;
-    id lazyURLSession;
-    id responseProcessingQueue;
 }
 
 @end

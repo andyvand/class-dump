@@ -9,8 +9,6 @@
 @interface CALNNotificationRecordsDiff
 {
     NSArray *_addedRecords;
-    NSArray *_removedRecords;
-    NSArray *_modifiedRecords;
 }
 
 + (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *addedRecords; // @synthesize addedRecords=_addedRecords;
-@property(readonly, copy, nonatomic) NSArray *modifiedRecords; // @synthesize modifiedRecords=_modifiedRecords;
-@property(readonly, copy, nonatomic) NSArray *removedRecords; // @synthesize removedRecords=_removedRecords;
 
 @end
 

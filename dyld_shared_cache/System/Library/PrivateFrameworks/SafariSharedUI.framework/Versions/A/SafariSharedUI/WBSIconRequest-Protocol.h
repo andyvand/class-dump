@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 @protocol WBSIconRequest
+- (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *backgroundColor;
 @property(readonly, nonatomic) struct CGSize sizeForDrawing;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
 @end
 

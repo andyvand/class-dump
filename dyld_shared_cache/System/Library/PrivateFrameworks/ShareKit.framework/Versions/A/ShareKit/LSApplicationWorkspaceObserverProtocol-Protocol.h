@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol LSApplicationWorkspaceObserverProtocol
+
+@optional
+- (void);
+- (void)responseForRequest:(NSArray *)arg1 willProvideUpdates: /* Error: Ran out of types for this method. */;
+- (void)W,N,V_privateSearchEnginePopUpButton;
+- (void)BannerContainerViewDelegate;
+- (void);
+- (void)r for other websites;
+- (void);
 @end
 

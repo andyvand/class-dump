@@ -7,19 +7,18 @@
 @interface TIHandwritingStrokes
 {
     struct vector<std::vector<TIHandwritingPoint>, std::allocator<std::vector<TIHandwritingPoint>>> _strokes;
-    _Bool _continuePreviousStroke;
 }
 
 + (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)photosFaceRepresentationBodyWidth;
 - (void);
 - (id);
 - (void);

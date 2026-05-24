@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-@protocol NSSharingExtensionContextSessionCompletionDelegate, SHKHostExtensionContextProtocol;
+@class NSMutableDictionary;
+@protocol SHKHostExtensionContextProtocol;
 
 @interface NSSharingExtensionContext
 {
     NSMutableDictionary *_parameters;
-    id <NSSharingExtensionContextSessionCompletionDelegate> _sessionCompletionDelegate;
-    unsigned long long _status;
-    id <SHKHostExtensionContextProtocol> _host;
-    NSDictionary *_options;
-    NSDictionary *_sandboxExtensionTokens;
 }
 
-+ (void);
++ (void)P;
 + (id);
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (struct CGRect);
 - (long long);
@@ -35,32 +30,29 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)streamForStreamIdentifier: /* Error: Ran out of types for this method. */;
+- (void)lligencePlatformLibrary.framework/Contents/MacOS/IntelligencePlatformLibrary;
+- (void)ontroller:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)requestViewController:fromServiceWithBundleIdentifier:connectionHandler: /* Error: Ran out of types for this method. */;
 - (id)andbox:(id)arg1 No read access to file with physical url %@;
 
 // Remaining properties
 @property(retain) id <SHKHostExtensionContextProtocol> host; // @synthesize host=_host;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSDictionary *sandboxExtensionTokens; // @synthesize sandboxExtensionTokens=_sandboxExtensionTokens;
-@property unsigned long long status; // @synthesize status=_status;
 
 @end
 

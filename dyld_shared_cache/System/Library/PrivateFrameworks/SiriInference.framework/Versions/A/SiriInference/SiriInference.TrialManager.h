@@ -7,9 +7,6 @@
 @interface SiriInference.TrialManager
 {
     id namespace;
-    id client;
-    id notificationToken;
-    id container;
 }
 
 @end

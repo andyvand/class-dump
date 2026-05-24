@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebAppViewModel, AMSUIWebButtonModel, NSArray, NSString;
+@class AMSUIWebAppViewModel;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebBarButtonItemModel
 {
     AMSUIWebAppViewModel *_appViewModel;
-    AMSUIWebButtonModel *_buttonModel;
-    NSArray *_conditionalButtonModels;
 }
 
-- (void);
+- (void)_CompatibilityVersion;
 - (void);
 - (id);
 - (id);
@@ -27,16 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) AMSUIWebAppViewModel *appViewModel; // @synthesize appViewModel=_appViewModel;
-@property(retain) AMSUIWebButtonModel *buttonModel; // @synthesize buttonModel=_buttonModel;
-@property(retain) NSArray *conditionalButtonModels; // @synthesize conditionalButtonModels=_conditionalButtonModels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

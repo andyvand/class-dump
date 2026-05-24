@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentOfferInstallmentAssessment;
+@class NSString;
 
 @interface PKPaymentOfferAssessmentCollection
 {
     NSString *_sessionIdentifier;
-    PKPaymentOfferInstallmentAssessment *_installmentAssessment;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -21,18 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
+- (unsigned long long)A;
+- (void)1"powerOnDuration"b1"tddDuration"b1"timestamp"b1"channelNum"b1"fwDenyCount"b1"offWifiMode"b1"onWifiMode"b1"offAirplayMode"b1"onAirplayMode"b1};
+- (_Bool)setIsRotted:(id)arg1;
+- (void)@;
 - (id);
 - (id);
-- (id)cimalDigitsMultiplier;
+- (id)decimalDigitsMultiplier;
 - (void)r;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferInstallmentAssessment *installmentAssessment; // @synthesize installmentAssessment=_installmentAssessment;
 @property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end

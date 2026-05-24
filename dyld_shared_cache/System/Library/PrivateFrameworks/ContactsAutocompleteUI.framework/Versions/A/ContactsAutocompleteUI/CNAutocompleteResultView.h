@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImageView, NSTextField;
+@class NSColor, NSImageView;
 
 @interface CNAutocompleteResultView
 {
     NSColor *_originalTextColor;
-    NSTextField *_label;
-    NSImageView *_image;
 }
 
 + (id);
@@ -23,15 +21,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSImageView *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSTextField *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSColor *originalTextColor; // @synthesize originalTextColor=_originalTextColor;
 
 @end
 

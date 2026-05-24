@@ -9,8 +9,6 @@
 @interface SGIPPerson
 {
     NSString *_name;
-    NSString *_handle;
-    NSString *_handleType;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -27,12 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void)fier:(id)arg1 displayName:service:teamIdentifier:label:extractionInfo:recordId: /* Error: Ran out of types for this method. */;
+- (void)initWithUsername:(id)arg1 userIdentifier:bundleIdentifier:displayName:service:teamIdentifier:label:extractionInfo:recordId: /* Error: Ran out of types for this method. */;
 - (void).apple.suggestd.urls;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(retain, nonatomic) NSString *handleType; // @synthesize handleType=_handleType;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

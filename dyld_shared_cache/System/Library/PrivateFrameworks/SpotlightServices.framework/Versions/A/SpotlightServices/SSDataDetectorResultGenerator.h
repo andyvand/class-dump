@@ -7,20 +7,19 @@
 @interface SSDataDetectorResultGenerator
 {
     _Bool _canceled;
-    long long _ddJobIdentifier;
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)scheduledTimerWithTimeInterval:(id)arg1 repeats:(id)arg2 block:(id)arg3;
+- (void)resampleAndCropWithImage:(id)arg1 width:(CDUnknownBlockType)arg2 height:(unsigned long long)arg3;
+- (void)requirePrivateRelayForAllNetworkTraffic;
+- (void)requestStorefrontIdentifierWithCompletionHandler:(id)arg1;
+- (id)requestQuickLookThumbnailForURL:(id)arg1 size:(unsigned long long)arg2 badgeType:(id)arg3 image:(id)arg4;
+- (id)requestMetadataForWebView:(id)arg1 completionHandler:(id)arg2;
+- (id)replaceCharactersInRange:(id)arg1 withString:(id)arg2;
+- (id)reducedSize;
+- (id)initWithVideo:(id)arg1;
+- (void)initWithMetadata:(id)arg1;
 - (void);
 - (void);
 

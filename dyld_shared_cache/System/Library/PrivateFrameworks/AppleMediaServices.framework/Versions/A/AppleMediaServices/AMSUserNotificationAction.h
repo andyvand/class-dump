@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, NSDictionary, NSString, NSURL, NSURLRequest;
+@class NSString;
 
 @interface AMSUserNotificationAction
 {
     NSString *_identifier;
-    NSString *_clientIdentifier;
-    NSURL *_defaultURL;
-    NSString *_title;
-    NSURLRequest *_request;
-    NSURL *_mediaApiRequestURL;
-    NSString *_systemImageName;
-    AMSMetricsEvent *_metricsEvent;
-    NSDictionary *_userInfo;
-    long long _style;
 }
 
-- (unsigned long long);
+- (unsigned long long):t /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,9 +24,9 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ts;
+- (id)to write adaptive image glyph preview:(id)arg1 temporaryPreviewURL=%@, error=%@;
+- (id)sages.IMMetricsCollectorEventWatchShowPage;
 - (id);
 - (id);
 - (void);
@@ -45,21 +36,11 @@
 - (void);
 - (id);
 - (id)Error:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)isBlockedt;
+- (void)So27AMSEngagementMessageRequestC7message_Sb9isBlockedt;
 - (void)ü±üy;
 
 // Remaining properties
-@property(retain) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) NSURL *defaultURL; // @synthesize defaultURL=_defaultURL;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSURL *mediaApiRequestURL; // @synthesize mediaApiRequestURL=_mediaApiRequestURL;
-@property(copy) AMSMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(retain) NSURLRequest *request; // @synthesize request=_request;
-@property long long style; // @synthesize style=_style;
-@property(retain) NSString *systemImageName; // @synthesize systemImageName=_systemImageName;
-@property(retain) NSString *title; // @synthesize title=_title;
 @property(readonly) unsigned long long un_ActionOptions;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

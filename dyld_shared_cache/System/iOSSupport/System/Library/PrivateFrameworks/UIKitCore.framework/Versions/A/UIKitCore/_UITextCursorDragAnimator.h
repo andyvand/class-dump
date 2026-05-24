@@ -12,12 +12,12 @@
     UITextCursorDropPositionAnimator *_impl;
 }
 
-- (void);
+- (void)Metadata:(id)arg1;
+- (id)joinChat:handleInfo:style:groupID:lastAddressedHandle:lastAddressedSIMID:joinProperties: /* Error: Ran out of types for this method. */;
+- (void)_setSortIDOnIncomingMessage:(_Bool)arg1 forChat:(_Bool)arg2;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)%{public}s] finished, marking completed;
 - (void)5/3y	¿7G;
 
 // Remaining properties

@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOperationQueue, NSPasteboard, NSPasteboardItem, NSString;
+@class NSArray, NSPasteboard;
 
 @interface NSFilePromiseReceiver
 {
     NSPasteboard *_pasteboard;
-    NSPasteboardItem *_pasteboardItem;
-    NSArray *_fileTypes;
-    NSArray *_reservedA;
-    NSArray *_fileNames;
-    NSArray *_fileURLs;
-    NSOperationQueue *_operationQueue;
-    long long _promiseType;
-    CDUnknownBlockType _readerBlock;
-    struct {
-        unsigned int usesFileCoordination:1;
-        unsigned int registered:1;
-        unsigned int reserved:30;
-    } _flags;
 }
 
-+ (unsigned long long);
++ (unsigned long long)(D;
 + (id);
++ (id)H0;
 + (id);
-+ (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)w;
+- (id)set_legacySocketStreamProperties:(id)arg1;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelection: /* Error: Ran out of types for this method. */;
+- (id)ve a body data;
+- (void)backgroundIdentifier;
 - (_Bool);
 - (void);
 - (void);
@@ -44,15 +31,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *alternateFileTypes; // @synthesize alternateFileTypes=_reservedA;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *fileNames; // @synthesize fileNames=_fileNames;
-@property(readonly, copy) NSArray *fileTypes; // @synthesize fileTypes=_fileTypes;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

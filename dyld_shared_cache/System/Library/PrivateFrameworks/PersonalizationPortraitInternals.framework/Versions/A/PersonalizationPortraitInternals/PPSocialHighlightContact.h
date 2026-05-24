@@ -9,43 +9,32 @@
 @interface PPSocialHighlightContact
 {
     NSString *_handle;
-    _Bool _isMe;
-    _Bool _isSignificant;
-    struct {
-        unsigned int isMe:1;
-        unsigned int isSignificant:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)b;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)messageHistorySummaryForDateInterval:(_Bool)arg1 chatIdentifiers:chatStyle:services: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id)IMGroupTypingTrackingControllerDelegate;
+- (_Bool)reasons:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)o compute log10 of non-positive number %f (value arg of Logarithm operator) --  output is NaN;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool hasHandle;
-@property(nonatomic) _Bool hasIsMe;
 @property(nonatomic) _Bool hasIsSignificant;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(nonatomic) _Bool isSignificant; // @synthesize isSignificant=_isSignificant;
 
 @end
 

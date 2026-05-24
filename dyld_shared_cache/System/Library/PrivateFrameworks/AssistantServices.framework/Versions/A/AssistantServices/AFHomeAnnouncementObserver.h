@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeAnnouncement, AFHomeAnnouncementSnapshot, AFInstanceContext, AFNotifyObserver, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFHomeAnnouncementObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFInstanceContext *_instanceContext;
-    NSHashTable *_listeners;
-    AFNotifyObserver *_notifyObserver;
-    long long _groupingDepth;
-    NSObject<OS_dispatch_group> *_snapshotGroup;
-    unsigned long long _state;
-    AFHomeAnnouncement *_lastPlayedAnnouncement;
-    AFHomeAnnouncementSnapshot *_snapshot;
 }
 
+- (void)fields;
 - (void);
-- (void);
-- (void);
+- (void)pan;
 - (void);
 - (id);
 - (void);
@@ -33,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void)achServiceForAppWithBundleIdentifier:(CDUnknownBlockType)arg1;
+- (void)taskmasterForMachServiceForAppWithBundleIdentifier:(CDUnknownBlockType)arg1;
 - (void)V_enabled;
 - (void),C,N,V_clientKey;
 - (void)thError:] /* Error: Ran out of types for this method. */;
@@ -46,13 +38,7 @@
 - (void)à~íÿ²ù;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

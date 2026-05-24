@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableDictionary, NSString;
+@class NSData, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationPlayInfoRequest
 {
     NSString *_playerDeviceGUID;
-    NSArray *_tokenRequests;
-    NSData *_playerAnisetteMID;
-    NSString *_playerUserAgent;
 }
 
 - (id);
@@ -29,10 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSData *playerAnisetteMID; // @synthesize playerAnisetteMID=_playerAnisetteMID;
-@property(copy, nonatomic) NSString *playerDeviceGUID; // @synthesize playerDeviceGUID=_playerDeviceGUID;
-@property(copy, nonatomic) NSString *playerUserAgent; // @synthesize playerUserAgent=_playerUserAgent;
-@property(readonly, copy, nonatomic) NSMutableDictionary *propertyListRepresentation;
-@property(copy, nonatomic) NSArray *tokenRequests; // @synthesize tokenRequests=_tokenRequests;
 
 @end
 

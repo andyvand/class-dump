@@ -6,23 +6,13 @@
 
 #import <AppKit/NSTextView.h>
 
-@class NSString;
-
 @interface NSSecureTextView : NSTextView
 {
     long long _outerTag;
-    long long _innerTag;
-    struct {
-        unsigned int _secureInput:1;
-        unsigned int _capsLockDown:1;
-        unsigned int _numLockDown:1;
-        unsigned int _invalidated:1;
-        unsigned int _reserved:28;
-    } _sdvFlags;
 }
 
-+ (id);
-+ (void);
++ (id)_asset;
++ (void);
 + (_Bool);
 + (void)kªeH;
 - (_Bool);
@@ -34,11 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=H;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)es:address is IN6ADDR_ANY_INIT /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -47,48 +37,50 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)ect<OS_dispatch_data>"24@?<v@?>32;
+- (id)sionTask"24@"NSHTTPURLResponse"32;
+- (void)4@"NSURLRequest"32@?<v@?q@"NSURLRequest">40;
+- (id)setSessionDescription:(struct _NSRange)arg1;
+- (void)_proxyPort;
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)treamTask after task has completed;
+- (void)ndSession <%{public}@> FAILED to UNLINK download file:%s, errno:%d, desc:%s /* Error: Ran out of types for this method. */;
+- (id)_kCFNTimingDataNStatRXPackets;
+- (void)responseUnblocked;
+- (void)NDProtocolKey;
+- (id)NSURLSessionResumeBytesReceived;
+- (_Bool)...).8.//33445566778899/	//(/3	33(34	44(45	55(5//
+////)/8/33
+3333)38344
+4444)48455
+5555)5856	66(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)I;
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (_Bool);
 - (void);
+- (id)ent.cd_saveToKnowledgeStore = YES;
 - (void);
-- (id)r;
+- (_Bool)";
+- (void)isSimpleRectangularTextContainerForStartingCharacterAtIndex: /* Error: Ran out of types for this method. */;
+- (void)-360\li%ld\lin%ld };
+- (id)mouseDownEventNumber;
 - (void)´¯íÿç´hC;
 - (_Bool)ÿDú8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

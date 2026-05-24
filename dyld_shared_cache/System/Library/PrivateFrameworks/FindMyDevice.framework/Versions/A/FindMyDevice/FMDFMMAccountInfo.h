@@ -4,74 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface FMDFMMAccountInfo
 {
     NSString *_dsid;
-    NSString *_adsid;
-    NSString *_fmRegion;
-    NSString *_username;
-    NSString *_fmmAuthToken;
-    NSDictionary *_additionalInfo;
-    NSString *_fmdServerHost;
-    NSString *_fmdServerProtocolScheme;
-    NSString *_fmdAPSEnvironment;
-    NSString *_fmdIDSIdentifier;
-    NSString *_rootVolumeUUID;
-    unsigned int _uid;
-    NSString *_userGUID;
 }
 
 + (_Bool);
+- (void)dd}16;
+- (void)t=ffb16b16}16r^{PKMetalLiveStrokePaintStrokePoint=ff}24Q32Q40@48;
+- (void)4@32B40@44B52;
+- (void)24@32B40B44;
+- (void)B24{CGPoint=dd}28;
+- (id)8{CGPoint=dd}16B32;
+- (_Bool)<_PKStrokePoint>>="__begin_"^{_PKStrokePoint}"__end_"^{_PKStrokePoint}""{?="__cap_"^{_PKStrokePoint}}};
+- (id)onymous namespace)::AnimatingStroke, std::allocator<(anonymous namespace)::AnimatingStroke>>="__begin_"^{AnimatingStroke}"__end_"^{AnimatingStroke}""{?="__cap_"^{AnimatingStroke}}} /* Error: Ran out of types for this method. */;
+- (id)okeVertex>>="__ptr_"^v"__cntrl_"^{__shared_weak_count}};
+- (id)<std::vector<PKMetalSDFStrokeVertex>>="__ptr_"^v"__cntrl_"^{__shared_weak_count}} /* Error: Ran out of types for this method. */;
+- (id)ared_weak_count}};
+- (id)x>>="__ptr_"^v"__cntrl_"^{__shared_weak_count}};
+- (id)PaintStrokePoint}}};
+- (id)@16B24;
+- (id)updateOrientationUI;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)_enrollmentType;
+- (id)_invalidateWithError:removePrimitiveHandlers:deactivatePrimitives: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
-- (void);
-- (void);
+- (void)l_performersByName;
+- (void)vCWYje4EBxMQ/Library/Caches/com.apple.xbs/TemporaryDirectory.7H2va2/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/repeated_field.h;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`Hz`;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(retain, nonatomic) NSString *adsid; // @synthesize adsid=_adsid;
 @property(retain, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain, nonatomic) NSString *fmRegion; // @synthesize fmRegion=_fmRegion;
-@property(retain, nonatomic) NSString *fmdAPSEnvironment; // @synthesize fmdAPSEnvironment=_fmdAPSEnvironment;
-@property(retain, nonatomic) NSString *fmdIDSIdentifier; // @synthesize fmdIDSIdentifier=_fmdIDSIdentifier;
-@property(retain, nonatomic) NSString *fmdServerHost; // @synthesize fmdServerHost=_fmdServerHost;
-@property(retain, nonatomic) NSString *fmdServerProtocolScheme; // @synthesize fmdServerProtocolScheme=_fmdServerProtocolScheme;
-@property(retain, nonatomic) NSString *fmmAuthToken; // @synthesize fmmAuthToken=_fmmAuthToken;
-@property(readonly, nonatomic) _Bool hasMandatoryInfo;
-@property(retain, nonatomic) NSString *rootVolumeUUID; // @synthesize rootVolumeUUID=_rootVolumeUUID;
-@property(nonatomic) unsigned int uid; // @synthesize uid=_uid;
-@property(retain, nonatomic) NSString *userGUID; // @synthesize userGUID=_userGUID;
-@property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

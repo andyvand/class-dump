@@ -7,11 +7,6 @@
 @interface Foundation._SwiftURL
 {
     id _parseInfo;
-    id _baseURL;
-    id _encoding;
-    id _isCanonicalFileURL;
-    id _resourceInfo;
-    id _nsurlLock;
 }
 
 @end

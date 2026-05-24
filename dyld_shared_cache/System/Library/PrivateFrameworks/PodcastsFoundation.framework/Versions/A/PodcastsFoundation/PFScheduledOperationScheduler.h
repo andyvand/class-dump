@@ -7,7 +7,6 @@
 @interface PFScheduledOperationScheduler
 {
     id schedule;
-    id storage;
 }
 
 + (id);

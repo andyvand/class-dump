@@ -5,6 +5,7 @@
 //
 
 @protocol PXStoryMutableProducerMonitor
+- (void);
 
 // Remaining properties
 @property(nonatomic) float estimatedFractionCompletedPlaybackSpeed;

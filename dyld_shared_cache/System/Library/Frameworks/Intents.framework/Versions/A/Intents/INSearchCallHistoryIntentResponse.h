@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchCallHistoryIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)Size=dd}16;
++ (int)initWithThumbnailRequest:(long long)arg1;
++ (long long)initWithDictionaryRepresentation:(int)arg1;
++ (_Bool)imageContainsAlpha:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
@@ -25,23 +23,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)logicalDeviceControllerVendorName:(id)arg1 forClient: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ice=%{public}@);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)armAttributes: /* Error: Ran out of types for this method. */;
+- (long long)setPayloadSleepAlarmAttributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *callRecords;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

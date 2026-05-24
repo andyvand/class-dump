@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNClassifyImageAestheticsRequest, VNClassifyJunkImageRequest;
+@class VNClassifyImageAestheticsRequest;
 
 __attribute__((visibility("hidden")))
 @interface _VNCalculateImageAestheticsScoresDependentRequests
 {
     VNClassifyImageAestheticsRequest *_oldAestheticsRequest;
-    VNClassifyJunkImageRequest *_junkRequest;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void)tDetector:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) VNClassifyJunkImageRequest *junkRequest; // @synthesize junkRequest=_junkRequest;
 @property(readonly) VNClassifyImageAestheticsRequest *oldAestheticsRequest; // @synthesize oldAestheticsRequest=_oldAestheticsRequest;
 
 @end

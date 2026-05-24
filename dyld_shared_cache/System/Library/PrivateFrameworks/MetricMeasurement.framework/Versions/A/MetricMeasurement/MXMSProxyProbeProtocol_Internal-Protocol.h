@@ -5,5 +5,6 @@
 //
 
 @protocol MXMSProxyProbeProtocol_Internal
+- (void);
 @end
 

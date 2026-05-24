@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CBDisplayLink
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _frameNotificationBlock;
-    unsigned long long _displayID;
-    NSObject<OS_os_log> *_logHandle;
-    _Bool _valid;
-    double _sMachTimebaseFactor;
-    unsigned long long _submissionInterval;
-    unsigned long long _submissionIntervalLeeway;
-    unsigned long long _currentTimerTarget;
-    unsigned int _displayTimerPort;
-    NSObject<OS_dispatch_source> *_displayTimerDispatchSource;
-    _Bool _enabled;
-    unsigned long long _preferredFramesPerSecond;
-    unsigned long long _previousFrameTimestamp;
-    unsigned long long _nextFrameTimestamp;
-    unsigned long long _frameInterval;
-    unsigned long long _expectedDelay;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -39,38 +23,26 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void);
+- (unsigned long long)$نR;
 - (unsigned long long);
 - (void);
 - (void);
+- (void)OE;
+- (unsigned long long);
+- (void)4H1;
 - (void);
-- (_Bool);
+- (void)VTParavirtualizationHostMotionEstimationProcessorSessionDeliverMessageFromGuest_block_invoke;
+- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)Mtriang_size;
 - (void);
 - (void)r = %f;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) unsigned long long expectedDelay; // @synthesize expectedDelay=_expectedDelay;
-@property(readonly, nonatomic) unsigned long long frameInterval; // @synthesize frameInterval=_frameInterval;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long nextFrameTimestamp; // @synthesize nextFrameTimestamp=_nextFrameTimestamp;
 @property(nonatomic) unsigned long long preferredFramesPerSecond; // @synthesize preferredFramesPerSecond=_preferredFramesPerSecond;
-@property(readonly, nonatomic) unsigned long long previousFrameTimestamp; // @synthesize previousFrameTimestamp=_previousFrameTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

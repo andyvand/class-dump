@@ -14,11 +14,11 @@
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)9;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)incoherence;
 - (void);
 - (id);
 - (_Bool);
@@ -29,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(retain, nonatomic) NSData *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

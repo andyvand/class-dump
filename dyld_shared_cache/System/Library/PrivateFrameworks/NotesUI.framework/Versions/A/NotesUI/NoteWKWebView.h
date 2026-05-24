@@ -9,7 +9,6 @@
 @interface NoteWKWebView
 {
     _Bool _hasActiveFindSession;
-    NoteHTMLEditorView *_noteHTMLEditorView;
 }
 
 - (void);
@@ -18,11 +17,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)aracterRangeForRowID: /* Error: Ran out of types for this method. */;
+- (void)characterRangeForRowID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak NoteHTMLEditorView *noteHTMLEditorView; // @synthesize noteHTMLEditorView=_noteHTMLEditorView;

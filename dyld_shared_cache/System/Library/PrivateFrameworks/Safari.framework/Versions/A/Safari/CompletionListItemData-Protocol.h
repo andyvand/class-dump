@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
+@class NSString;
 
 @protocol CompletionListItemData
-- (void (^)(void))spaceCharactersAfterPaste;
+- (void);
+- (void (^)(void))_replaceWhitespaceCharactersAfterPaste;
 - (NSString *)tag schemes for tab title shortening.;
 - (NSString *)ng background load of %lu URLs; %{public}@;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType deleteAction;
-@property(readonly, copy, nonatomic) NSString *deleteActionTitle;
-@property(readonly, copy, nonatomic) NSString *faviconURLString;
-@property(readonly, copy, nonatomic) NSArray *highlightedRanges;
-@property(readonly, nonatomic) unsigned long long lineBreakMode;
-@property(retain, nonatomic) NSImage *secondaryImage;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, copy, nonatomic) NSString *title;
 @property(readonly, nonatomic) long long type;
 @end
 

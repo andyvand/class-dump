@@ -4,47 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSMapTable, NSString;
-
 @interface INStringLocalizer
 {
     struct os_unfair_lock_s _lock;
-    NSString *_languageCode;
-    NSMapTable *_bundlesByIdentifier;
-    NSMapTable *_bundlesByURL;
-    NSMapTable *_bundleLocalizations;
-    NSMapTable *_preferredBundleLocalizations;
-    NSArray *_preferredLanguages;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)B;
 - (id);
 - (struct __CFBundle *);
+- (id)A;
 - (id);
+- (id)CWFCloudSyncManager;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)T;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id)p8;
 - (struct os_unfair_lock_s) ;
-- (void)xpectedResultTypeOptionsForQueryHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideExpectedResultTypeOptionsForQueryHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *bundleLocalizations; // @synthesize bundleLocalizations=_bundleLocalizations;
-@property(readonly, nonatomic) NSMapTable *bundlesByIdentifier; // @synthesize bundlesByIdentifier=_bundlesByIdentifier;
-@property(readonly, nonatomic) NSMapTable *bundlesByURL; // @synthesize bundlesByURL=_bundlesByURL;
-@property(readonly, copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, nonatomic) NSLocale *locale;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSMapTable *preferredBundleLocalizations; // @synthesize preferredBundleLocalizations=_preferredBundleLocalizations;
-@property(readonly, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
 
 @end
 

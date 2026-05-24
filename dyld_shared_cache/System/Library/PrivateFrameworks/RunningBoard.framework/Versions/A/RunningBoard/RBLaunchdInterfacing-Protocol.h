@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LASSProperties4RB, NSArray, NSString, OSLaunchdDomain;
+@protocol OSLaunchdJobProtocol;
+
 @protocol RBLaunchdInterfacing
+- (NSArray *)viewControllerForResult:(NSString *)arg1 feedbackListener:(out id *)arg2;
+- (id <OSLaunchdJobProtocol>)setSize:(NSString *)arg1;
+- (OSLaunchdDomain *)pasteboardResultBuilderSupportsResult: /* Error: Ran out of types for this method. */;
+- (id <OSLaunchdJobProtocol>)isCalendarOtherReservationEventType;
+- (LASSProperties4RB *)kMDItemContactSharedDateTime;
 @end
 

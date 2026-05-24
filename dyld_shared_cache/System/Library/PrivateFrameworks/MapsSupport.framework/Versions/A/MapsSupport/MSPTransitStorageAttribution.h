@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBUnknownFields;
+@class NSArray, PBUnknownFields;
 
 @interface MSPTransitStorageAttribution
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_providerNames;
 }
 
 + (Class);
+- (void);
+- (unsigned long long)l;
+- (id);
+- (id)l;
+- (id);
+- (void)T;
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)L;
 - (id);
 - (void);
 - (void);
@@ -34,15 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *providerNames; // @synthesize providerNames=_providerNames;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic, getter=_providerNames) NSArray *providerNames;
 
 @end
 

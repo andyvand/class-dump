@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3LanguageResources, NSObject;
-@protocol OS_dispatch_queue;
+@class ML3LanguageResources;
 
 @interface ML3LanguageResourceManager
 {
     ML3LanguageResources *_cachedResources;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)not found for instance id:%@ updated service type:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)feToModifyVolume:Unable to get cryptoMigrating status. DMErr:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -30,8 +28,6 @@ This WILL erase your media library on this device.
 
 // Remaining properties
 @property(retain, nonatomic) ML3LanguageResources *cachedResources; // @synthesize cachedResources=_cachedResources;
-@property(readonly, nonatomic) ML3LanguageResources *resources;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

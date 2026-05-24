@@ -5,5 +5,6 @@
 //
 
 @protocol ICMusicSubscriptionStatusRemoteRequestingService
+- (void);
 @end
 

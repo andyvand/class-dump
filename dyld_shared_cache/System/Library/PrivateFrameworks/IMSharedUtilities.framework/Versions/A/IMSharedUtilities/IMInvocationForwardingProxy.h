@@ -9,7 +9,6 @@
 @interface IMInvocationForwardingProxy
 {
     Protocol *_protocol;
-    CDUnknownBlockType _forwardingHandler;
 }
 
 - (id);
@@ -19,11 +18,10 @@
 - (id);
 - (_Bool)QL&1Â0@ù
 × ;
-- (void)ressChange;
-- (id)ed;
+- (void)downloadProgressChange;
+- (id)CatalystNotificationDisabled;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType forwardingHandler; // @synthesize forwardingHandler=_forwardingHandler;
 @property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

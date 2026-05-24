@@ -12,14 +12,13 @@
 @interface PXPhotoKitPeopleSuggestionsDataSource : PXPeopleSuggestionsDataSource
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PXPhotoKitPeopleSuggestionsDataSourceState *__state;
 }
 
 - (struct PXSimpleIndexPath);
 - (id);
 - (id)0@ù
 × ;
-- (long long);
+- (long long)setIncludeSuggestions: /* Error: Ran out of types for this method. */;
 - (long long)$¥;
 - (void)¤*;
 - (id)ÂÂMX<;

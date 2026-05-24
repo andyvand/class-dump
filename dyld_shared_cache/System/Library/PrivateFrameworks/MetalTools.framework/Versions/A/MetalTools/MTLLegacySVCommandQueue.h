@@ -11,7 +11,6 @@
 @interface MTLLegacySVCommandQueue : MTLToolsCommandQueue
 {
     struct LegacySVDeviceOptions *_deviceOptions;
-    NSString *_tracePath;
 }
 
 - (id);

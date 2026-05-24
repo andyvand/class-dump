@@ -4,42 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAssetCollection, PHFetchResult, PXAssetReference, PXAssetsDataSource, PXPhotosEnvironmentReference;
-@protocol PXAssetCollectionActionPerformerDelegate, PXMemoryAssetsActionFactory;
+@class PXAssetReference, PXAssetsDataSource;
 
 @protocol PXPhotoKitAssetCollectionActionPerformerInput
 
 @optional
-- (PXAssetsDataSource *)lvesDataSource;
+- (PXAssetReference *);
+- (PXAssetsDataSource *)_TtC12PhotosUICore30LemonadeFixedShelvesDataSource;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXAssetsDataSource",?,R,N
-
-@property(readonly, nonatomic) PHFetchResult *assetsFetchResult;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PHFetchResult",?,R,N
-
-@property(readonly, nonatomic) PHAssetCollection *containingAlbum;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PHAssetCollection",?,R,N
-
 @property(readonly, nonatomic) PXAssetReference *dropTargetAssetReference;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"PXAssetReference",?,R,N
-
-@property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXMemoryAssetsActionFactory>",?,R,N
-
-@property(readonly, nonatomic) id <PXAssetCollectionActionPerformerDelegate> performerDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXAssetCollectionActionPerformerDelegate>",?,R,N
-
-@property(readonly, nonatomic) PXPhotosEnvironmentReference *photosEnvironmentReference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXPhotosEnvironmentReference",?,R,N
 
 @end
 

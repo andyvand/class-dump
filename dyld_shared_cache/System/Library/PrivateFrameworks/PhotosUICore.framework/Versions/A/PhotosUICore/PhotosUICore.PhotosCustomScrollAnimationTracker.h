@@ -7,10 +7,6 @@
 @interface PhotosUICore.PhotosCustomScrollAnimationTracker
 {
     id reason;
-    id timeout;
-    id timer;
-    id signpostState;
-    id isTracking;
 }
 
 @end

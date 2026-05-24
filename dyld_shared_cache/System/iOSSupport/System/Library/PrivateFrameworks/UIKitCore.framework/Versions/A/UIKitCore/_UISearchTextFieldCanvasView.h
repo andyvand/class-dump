@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_atomViews;
 }
 
-- (double);
+- (double)conversationManager:linkChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)\;

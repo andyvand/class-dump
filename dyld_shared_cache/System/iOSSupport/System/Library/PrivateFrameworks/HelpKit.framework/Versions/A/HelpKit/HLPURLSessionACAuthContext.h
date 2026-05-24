@@ -10,18 +10,16 @@
 {
     NSString *_appIdentifier;
     NSString *_clientIdentifier;
-    NSString *_enviromentIdentifier;
-    NSString *_interactivityMode;
 }
 
 + (id);
 - (void);
 - (void);
+- (id)z;
 - (id);
+- (id)ez;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)HFThermostatPresetsMode;
 - (id);
 - (id);
 - (void);
@@ -30,8 +28,6 @@
 // Remaining properties
 @property(copy, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
 @property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(copy, nonatomic) NSString *enviromentIdentifier; // @synthesize enviromentIdentifier=_enviromentIdentifier;
-@property(copy, nonatomic) NSString *interactivityMode; // @synthesize interactivityMode=_interactivityMode;
 
 @end
 

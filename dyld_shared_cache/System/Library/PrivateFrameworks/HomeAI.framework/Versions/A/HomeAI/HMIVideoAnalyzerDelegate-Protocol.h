@@ -5,5 +5,8 @@
 //
 
 @protocol HMIVideoAnalyzerDelegate
+
+@optional
+- (void)@y	?%@qa;
 @end
 

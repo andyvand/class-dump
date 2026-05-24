@@ -5,5 +5,10 @@
 //
 
 @protocol CNDonationValueVisitor
+- (void)olutions;
+- (void)defaultUsername;
+- (void)currentSettings;
+- (void)Dictionary",&,N,V_userData;
+- (void)Params;
 @end
 

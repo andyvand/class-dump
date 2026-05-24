@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBString;
+@class _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBCopyFileIntent
-- (_Bool)pabilities: /* Error: Ran out of types for this method. */;
-- (void)NameOptionsForOpenFile:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (int);
+- (int)codeDidChange;
+- (void)ak;
+- (void)P;
+- (_INPBIntentMetadata *)keeping dates:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)addCallCapabilities: /* Error: Ran out of types for this method. */;
+- (void)provideEntityNameOptionsForOpenFile:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (_INPBString *)e proxies into intent response %@:%@ /* Error: Ran out of types for this method. */;
 - (int)butes:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *destinationName;
-@property(nonatomic) int destinationType;
-@property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSourceName;
-@property(nonatomic) _Bool hasSourceType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
-@property(retain, nonatomic) _INPBString *sourceName;
-@property(nonatomic) int sourceType;
 @end
 

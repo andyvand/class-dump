@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CRKNetworkPowerAssertion
 {
     unsigned int mPowerAssertion;
-    NSString *_name;
-    unsigned long long _count;
 }
 
 + (void);
-+ (void);
++ (void)24@32;
 + (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CAShapeLayerAnimated;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

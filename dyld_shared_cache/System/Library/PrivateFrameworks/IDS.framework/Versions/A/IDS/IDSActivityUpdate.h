@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDevice, NSArray, NSData, NSString;
-
 @interface IDSActivityUpdate
 {
     _Bool _isDeviceOnline;
-    NSString *_subActivity;
-    NSData *_pushToken;
-    unsigned long long _serverTimestamp;
-    NSData *_clientContext;
-    IDSDevice *_matchingDevice;
-    NSArray *_URIs;
 }
 
 + (_Bool);
@@ -36,13 +28,7 @@
 - (id)bí;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *URIs; // @synthesize URIs=_URIs;
-@property(readonly, nonatomic) NSData *clientContext; // @synthesize clientContext=_clientContext;
 @property(nonatomic) _Bool isDeviceOnline; // @synthesize isDeviceOnline=_isDeviceOnline;
-@property(retain, nonatomic) IDSDevice *matchingDevice; // @synthesize matchingDevice=_matchingDevice;
-@property(readonly, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(readonly, nonatomic) unsigned long long serverTimestamp; // @synthesize serverTimestamp=_serverTimestamp;
-@property(readonly, nonatomic) NSString *subActivity; // @synthesize subActivity=_subActivity;
 
 @end
 

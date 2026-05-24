@@ -11,10 +11,10 @@
     ICJSSignConfiguration *_configuration;
 }
 
+- (id)Type == kC3DImageSourceTypeCatalogTexture;
 - (id);
 - (id);
-- (id);
-- (void)itor;
+- (void)ICNanoPairedDeviceStatusMonitor;
 
 @end
 

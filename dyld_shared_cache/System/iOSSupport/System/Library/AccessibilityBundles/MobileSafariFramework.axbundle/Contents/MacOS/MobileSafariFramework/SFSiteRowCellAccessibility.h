@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)isKeyboardProcess;
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)PKPaymentButtonAccessibility;
 
 @end
 

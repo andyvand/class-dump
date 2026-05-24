@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface AFAudioSessionCoordinationSystemInfo
 {
     _Bool _isSupportedAndEnabled;
-    NSString *_homeKitRoomName;
-    NSUUID *_homeKitMediaSystemIdentifier;
-    NSString *_mediaRemoteGroupIdentifier;
-    NSString *_mediaRemoteRouteIdentifier;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)accountEnhancedMerchantsForAccountWithIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)Date",C,N,V_redeemExpiryDate;
+- (id)!X"#;
 - (id);
 - (id);
 - (id);
@@ -30,26 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)v16@0:(id)arg1 8;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *homeKitMediaSystemIdentifier; // @synthesize homeKitMediaSystemIdentifier=_homeKitMediaSystemIdentifier;
-@property(readonly, copy, nonatomic) NSString *homeKitRoomName; // @synthesize homeKitRoomName=_homeKitRoomName;
 @property(readonly, nonatomic) _Bool isSupportedAndEnabled; // @synthesize isSupportedAndEnabled=_isSupportedAndEnabled;
-@property(readonly, copy, nonatomic) NSString *mediaRemoteGroupIdentifier; // @synthesize mediaRemoteGroupIdentifier=_mediaRemoteGroupIdentifier;
-@property(readonly, copy, nonatomic) NSString *mediaRemoteRouteIdentifier; // @synthesize mediaRemoteRouteIdentifier=_mediaRemoteRouteIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

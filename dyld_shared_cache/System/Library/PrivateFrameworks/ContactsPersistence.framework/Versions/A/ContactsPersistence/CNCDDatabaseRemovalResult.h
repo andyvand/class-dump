@@ -12,7 +12,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)%p { library:%@ url:%@ }> /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);

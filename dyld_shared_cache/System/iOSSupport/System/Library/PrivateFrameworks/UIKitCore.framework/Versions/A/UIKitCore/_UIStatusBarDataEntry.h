@@ -9,20 +9,20 @@
     _Bool _enabled;
 }
 
++ (id)U;
 + (id);
-+ (id);
-+ (_Bool)ickerView;
++ (_Bool)UIPickerView;
 - (id);
-- (void);
-- (id);
+- (void)CEMSystemWebContentFilterDeclaration;
 - (id);
 - (id);
+- (id)led to get volume;
 - (unsigned long long);
 - (_Bool);
 - (_Bool)Point3D=ddd}40;
-- (void)dicator:(id)arg1;
-- (id);
-- (id)ltipleSelectionDuringEditing;
+- (void)sizeForMaximumContentSizeFittingLength:(id)arg1 hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
+- (id)drawInContext: /* Error: Ran out of types for this method. */;
+- (id)_allowsMultipleSelectionDuringEditing;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

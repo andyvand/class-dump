@@ -6,35 +6,27 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTDefaultsManager, RTDistanceCalculator, RTHealthKitManager, RTLocationManager, RTMapServiceManager, RTPlatform, RTWorkoutDistanceStore, RTWorkoutMetricsManager, RTXPCActivityManager;
+@class RTDefaultsManager;
 
 @interface RTWorkoutRouteManager : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTHealthKitManager *_healthKitManager;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTPlatform *_platform;
-    RTXPCActivityManager *_xpcActivityManager;
-    RTWorkoutDistanceStore *_workoutDistanceStore;
-    RTWorkoutMetricsManager *_workoutMetricsManager;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)< 2, return;
+- (void)ary/BuildRoots/4~COdyugBUyZEJ-k16sBj1A0ZEirDhV4TOzEpeqeU/Library/Caches/com.apple.xbs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDSFoundation/IDSSocketPairMessage.m;
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)DataChannelPreferenceBasebandQueueFlushKey - %@;
+- (void)ak link DeviceIdentity symbols;
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -45,21 +37,13 @@
 - (void);
 - (void)0@ù
 × ;
-- (id)Handler:(id)arg1;
+- (id)fetchRoutineSupportedWithHandler:(id)arg1;
 - (void)PLàØØ ;
 - (id)eoutWithFireDate:] /* Error: Ran out of types for this method. */;
 - (void)%{public, signpost.telemetry:string2}s, nextState:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) RTWorkoutDistanceStore *workoutDistanceStore; // @synthesize workoutDistanceStore=_workoutDistanceStore;
-@property(retain, nonatomic) RTWorkoutMetricsManager *workoutMetricsManager; // @synthesize workoutMetricsManager=_workoutMetricsManager;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

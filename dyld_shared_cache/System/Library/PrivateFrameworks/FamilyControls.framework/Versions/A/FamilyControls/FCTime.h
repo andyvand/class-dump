@@ -7,16 +7,14 @@
 @interface FCTime
 {
     int _hour;
-    int _minute;
-    int _second;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)initWithSignedData: /* Error: Ran out of types for this method. */;
++ (id)initWithServiceName:(id)arg1;
+- (id)initWithTechnology:terminalType:accessTerminalSubtype:valueAddedServiceMode: /* Error: Ran out of types for this method. */;
+- (id)initWithTargetQueue: /* Error: Ran out of types for this method. */;
+- (id)initWithSupportedBLEAdvertisingVersions:(int)arg1 supportedBLEUWBProtocolVersions:(int)arg2 supportedExpeditedTransactionProtocolVersions:(int)arg3;
+- (id)initWithStrokeStartT0:(id)arg1 strokeStartT1:strokeEndT0:strokeEndT1: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (_Bool);

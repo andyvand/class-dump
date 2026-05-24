@@ -10,23 +10,20 @@ __attribute__((visibility("hidden")))
 @interface VNImageSignatureDetector : VNDetector
 {
     struct unique_ptr<vision::mod::ImageDescriptorProcessorHyperplaneLSH, std::default_delete<vision::mod::ImageDescriptorProcessorHyperplaneLSH>> _hyperplaneLSHProcessor;
-    unsigned long long _imageSignatureprintType;
-    unsigned long long _imageSignatureHashType;
 }
 
-+ (id);
++ (id)CNContactFormatter",R;
 + (id);
 - (unsigned long long);
 - (unsigned long long);
 - (shared_ptr_0a6daad2);
 - (shared_ptr_0a6daad2);
 - (_Bool);
-- (id);
+- (id)Ȃ@9;
 - (id);
 - (void)did not provide any data;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long imageSignatureHashType; // @synthesize imageSignatureHashType=_imageSignatureHashType;
 @property(readonly, nonatomic) unsigned long long imageSignatureprintType; // @synthesize imageSignatureprintType=_imageSignatureprintType;
 
 @end

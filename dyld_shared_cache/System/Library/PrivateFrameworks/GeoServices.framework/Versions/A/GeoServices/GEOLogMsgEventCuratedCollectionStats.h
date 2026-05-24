@@ -9,16 +9,15 @@
 @interface GEOLogMsgEventCuratedCollectionStats
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _savedCollectionMuids;
 }
 
-+ (_Bool)ificanceForEndNode:(id)arg1;
++ (_Bool)setHasSignificanceForEndNode:(id)arg1;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long *);
-- (void);
-- (void);
+- (void)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (void)uture;
 - (void);
 - (void);
 - (id);
@@ -31,16 +30,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id)d;
+- (id)setRoll:(struct _NSZone *)arg1;
+- (id)_styleSupported;
 - (id)%#x:%@ /* Error: Ran out of types for this method. */;
 - (id)<Ø;
 - (void)4;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *savedCollectionMuids;
 @property(readonly, nonatomic) unsigned long long savedCollectionMuidsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

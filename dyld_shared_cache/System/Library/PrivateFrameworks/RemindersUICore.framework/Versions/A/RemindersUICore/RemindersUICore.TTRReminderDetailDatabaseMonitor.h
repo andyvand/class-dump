@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailDatabaseMonitor
 {
     id delegate;
-    id isEnabled;
-    id dataViewMonitorHandler;
-    id monitoringContext;
 }
 
 @end

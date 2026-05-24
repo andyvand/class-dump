@@ -9,15 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void);
+- (id)$;
+- (void)g;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)ummary:(struct _NSZone *)arg1;
+- (id)logEventForHomeWithUUID:(struct _NSZone *)arg1 associatedWithDate:isDailySummary: /* Error: Ran out of types for this method. */;
 - (id)",&,N,V_hh2MigratorRecordDataStorePath;
 
 @end

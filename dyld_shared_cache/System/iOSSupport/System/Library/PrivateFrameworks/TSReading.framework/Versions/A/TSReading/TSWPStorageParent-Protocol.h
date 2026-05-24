@@ -5,6 +5,7 @@
 //
 
 @protocol TSWPStorageParent
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentWritingDirection;

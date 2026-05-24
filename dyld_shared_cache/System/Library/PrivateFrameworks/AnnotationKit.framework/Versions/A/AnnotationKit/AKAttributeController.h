@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKPageModelController, NSColor, NSDictionary, NSFont, PKInk;
+@class AKController;
 
 @interface AKAttributeController
 {
     _Bool _strokeIsDashed;
-    _Bool _hasShadow;
-    AKPageModelController *modelControllerToObserveForSelections;
-    NSColor *_strokeColor;
-    NSColor *_fillColor;
-    PKInk *_ink;
-    double _strokeWidth;
-    long long _brushStyle;
-    unsigned long long _arrowHeadStyle;
-    NSFont *_font;
-    NSDictionary *_textAttributes;
-    long long _highlightStyle;
-    AKController *_controller;
 }
 
 + (id);
 + (id);
-+ (void)roupingByEvent;
++ (void)undoManagerWasGroupingByEvent;
 - (void);
 - (void);
 - (void);
@@ -36,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +33,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -62,17 +50,17 @@
 - (void);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tion Predictions;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)minificationFilter;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (void);
@@ -82,19 +70,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long arrowHeadStyle; // @synthesize arrowHeadStyle=_arrowHeadStyle;
-@property long long brushStyle; // @synthesize brushStyle=_brushStyle;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(retain) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(retain) NSFont *font; // @synthesize font=_font;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(nonatomic) long long highlightStyle; // @synthesize highlightStyle=_highlightStyle;
-@property(retain, nonatomic) PKInk *ink; // @synthesize ink=_ink;
-@property(retain, nonatomic) AKPageModelController *modelControllerToObserveForSelections; // @synthesize modelControllerToObserveForSelections;
-@property(retain, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property _Bool strokeIsDashed; // @synthesize strokeIsDashed=_strokeIsDashed;
-@property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(retain) NSDictionary *textAttributes; // @synthesize textAttributes=_textAttributes;
 
 @end
 

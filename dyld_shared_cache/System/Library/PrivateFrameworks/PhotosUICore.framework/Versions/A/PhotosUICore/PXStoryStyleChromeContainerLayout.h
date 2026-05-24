@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PXCArrayStore, PXNumberAnimator, PXStoryModel, PXStoryStyleManager, PXStoryViewModel;
+@class PXNumberAnimator;
 
 @interface PXStoryStyleChromeContainerLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    struct _NSRange _styleSublayoutRange;
-    PXCArrayStore *_framesArrayStore;
-    PXStoryViewModel *_viewModel;
-    PXNumberAnimator *_visibilityAnimator;
-    PXStoryStyleManager *_styleManager;
-    PXStoryModel *_storyModel;
-    NSSet *_artworkPreloadingRecords;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)Am;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id));
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,27 +33,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)subscribedTopicScore;
 - (id);
 - (void);
 - (id);
-- (void)ternalDevicesWithAgentClass: /* Error: Ran out of types for this method. */;
+- (void)startServerOnInternalDevicesWithAgentClass: /* Error: Ran out of types for this method. */;
 - (void)ast used asset collection' couldn't be determined because its local identifier is missing;
 - (void)P;
 - (id)ÈF: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *artworkPreloadingRecords; // @synthesize artworkPreloadingRecords=_artworkPreloadingRecords;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXStoryModel *storyModel; // @synthesize storyModel=_storyModel;
-@property(retain, nonatomic) PXStoryStyleManager *styleManager; // @synthesize styleManager=_styleManager;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 @property(readonly, nonatomic) PXNumberAnimator *visibilityAnimator; // @synthesize visibilityAnimator=_visibilityAnimator;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWLINKSchemaFLOWLINKActionConversionStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_parseHypothesisId;
-    _Bool _hasParseHypothesisId;
 }
 
 - (void);
@@ -19,21 +18,19 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)Object<OS_dispatch_queue>";
+- (id)assertionType;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)onResult";
-- (id)SuggestionsUIActivityTier1;
+- (id)SUGSchemaSUGSuggestionsUIActivityTier1;
 - (id)mÌmPnào(pxrPs;
 - (void)/1%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParseHypothesisId; // @synthesize hasParseHypothesisId=_hasParseHypothesisId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *parseHypothesisId; // @synthesize parseHypothesisId=_parseHypothesisId;
 
 @end

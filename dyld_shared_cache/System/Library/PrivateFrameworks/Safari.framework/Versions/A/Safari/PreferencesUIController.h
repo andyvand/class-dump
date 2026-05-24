@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PreferencesUIController
 {
     _Bool _isCanceling;
-    _Bool _snapshotsArePermitted;
-    _Bool _isShowingDeveloperPreferences;
 }
 
 + (id);
@@ -22,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)A;
 - (double);
 - (void);
 - (void);
@@ -33,13 +31,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)};
 - (void);
 - (void)Ð;
 - (void)ø;

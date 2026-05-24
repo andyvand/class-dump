@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface PGSchemaPGRequestFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    _Bool _hasCriticalError;
 }
 
 - (void);
@@ -21,21 +20,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)`;
+- (_Bool)r;
+- (_Bool)iled deleting chat_handle_join rows failed (%@) - for unwanted chats:(id)arg1 %@;
 - (id);
 - (id)!EùÝ°1Â0@ù
 × ;
-- (id)entId;
+- (id)_hasRawEventId;
 - (id)rm;
-- (void)eNS;
+- (void)voiceTriggerTimeNS;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

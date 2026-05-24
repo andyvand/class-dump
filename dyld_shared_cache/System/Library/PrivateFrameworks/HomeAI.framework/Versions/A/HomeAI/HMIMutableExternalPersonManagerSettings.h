@@ -10,11 +10,10 @@
 {
 }
 
-- (id);
+- (id)WebKitResourceLoadStatisticsDirectory;
 
 // Remaining properties
 @property(getter=isImportingFromPhotoLibraryEnabled) _Bool importingFromPhotoLibraryEnabled; // @dynamic importingFromPhotoLibraryEnabled;
-@property(getter=isSharingFaceClassificationsEnabled) _Bool sharingFaceClassificationsEnabled; // @dynamic sharingFaceClassificationsEnabled;
 
 @end
 

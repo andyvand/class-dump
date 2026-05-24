@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNotificationRegistryCharacteristicsStoreRequest, NSArray;
+@class HMDNotificationRegistryCharacteristicsStoreRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryCharacteristicsStoreRequestResult
 {
     _Bool _didSucceed;
-    _Bool _didModify;
-    _Bool _didModifyThresholdOnly;
-    HMDNotificationRegistryCharacteristicsStoreRequest *_storeRequest;
-    NSArray *_modifiedCharacteristics;
 }
 
 - (id);
+- (id)retainCount;
 - (id);
-- (id);
 - (_Bool);
+- (_Bool)�S-;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool) ;
 - (void)ship must have an inverse relationship;
 
 // Remaining properties
-@property(readonly) _Bool didModify; // @synthesize didModify=_didModify;
-@property(readonly) _Bool didModifyThresholdOnly; // @synthesize didModifyThresholdOnly=_didModifyThresholdOnly;
-@property(readonly) _Bool didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(readonly) NSArray *modifiedCharacteristics; // @synthesize modifiedCharacteristics=_modifiedCharacteristics;
 @property(readonly) HMDNotificationRegistryCharacteristicsStoreRequest *storeRequest; // @synthesize storeRequest=_storeRequest;
 
 @end

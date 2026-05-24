@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface FCPersonalizationURLDomainMapping
 {
     double _averageSafariVisitsPerDay;
-    NSDictionary *_paths;
 }
 
 - (id);
 - (id);
 - (void);
 - (double);
-- (void)TypeLandingPage;
-- (void)Config;
+- (void)SubscriptionButtonTargetTypeLandingPage;
+- (void)smarterMessagingConfig;
 - (id);
 
 // Remaining properties
 @property(nonatomic) double averageSafariVisitsPerDay; // @synthesize averageSafariVisitsPerDay=_averageSafariVisitsPerDay;
-@property(retain, nonatomic) NSDictionary *paths; // @synthesize paths=_paths;
 
 @end
 

@@ -7,13 +7,10 @@
 @interface AppleMediaServicesUI.ExternalAuthenticateTask
 {
     id siwaMetrics;
-    id oAuthMetrics;
-    id request;
-    id presentingViewController;
 }
 
 - (id);
-- (void)rentAccount:clientInfo: /* Error: Ran out of types for this method. */;
+- (void)replaceCurrentAccount:clientInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

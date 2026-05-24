@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol LSDefaultApplicationQueryDatastore, LSDefaultApplicationQueryDefaultAppEvaluator;
+@protocol LSDefaultApplicationQueryDatastore;
 
 __attribute__((visibility("hidden")))
 @interface LSDefaultApplicationQueryBackend
 {
     id <LSDefaultApplicationQueryDatastore> _datastore;
-    id <LSDefaultApplicationQueryDefaultAppEvaluator> _defaultAppEvaluator;
 }
 
 - (id);

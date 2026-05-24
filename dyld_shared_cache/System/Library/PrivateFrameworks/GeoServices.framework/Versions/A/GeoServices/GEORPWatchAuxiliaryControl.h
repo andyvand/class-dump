@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPWatchAuxiliaryControl
 {
     PBDataReader *_reader;
-    NSString *_hardwareIdentifier;
-    NSString *_osBuild;
-    NSString *_osVersion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_hardwareIdentifier:1;
-        unsigned int read_osBuild:1;
-        unsigned int read_osVersion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tLocalizedText:(id)arg1;
++ (_Bool)setLocalizedText:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)V_dataBufferNDEAPI;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)="has_sessionId"b1"has_carHeadunitPixelHeight"b1"has_carHeadunitPixelWidth"b1"has_isTourist"b1"has_mapZoomLevel"b1"has_sessionRelativeTimestamp"b1"has_autocompleteOriginationType"b1"has_auxiliaryTierNumResults"b1"has_carHeadunitConnectionType"b1"has_carHeadunitInteractionModel"b1"has_deviceBatteryState"b1"has_deviceInterfaceOrientation"b1"has_devicePlatform"b1"has_httpRequestPriority"b1"has_mode"b1"has_navigationTransportType"b1"has_photoAlbumCount"b1"has_photosCount"b1"has_placeSummaryRevision"b1"has_ratingsCount"b1"has_relatedPlaceItemCount"b1"has_requestPriority"b1"has_requestPurpose"b1"has_reviewUserPhotosCount"b1"has_routeStopCount"b1"has_searchRequestType"b1"has_searchEnrichmentFpdiLatencyInMs"b1"has_searchOriginationType"b1"has_sequenceNumber"b1"has_source"b1"has_timeSinceMapEnteredForeground"b1"has_timeSinceMapViewportChanged"b1"has_analyticsOptOut"b1"has_appDarkMode"b1"has_autocompleteOriginationEditingServerWaypoints"b1"has_autocompleteRequestSupportsSectionHeader"b1"has_deviceDarkMode"b1"has_deviceInVehicle"b1"has_isAPICall"b1"has_isCarplayScreenAttached"b1"has_isRefund"b1"has_isRoutePlanningEditStopFillRequest"b1"has_isSettlement"b1"has_isWidgetRequest"b1"has_isWithinHikingBoundary"b1"has_isWithinHikingBufferRegion"b1"has_navigating"b1"has_optimizeSearchRequestComponents"b1"has_searchEnrichmentIsOptInEnabled"b1"has_searchEnrichmentIsWarmingSheetTriggered"b1"has_searchOriginationEditingServerWaypoints"b1"has_supportAutocompleteGuideResults"b1"has_supportAutocompletePublisherResults"b1"has_supportChildItems"b1"has_supportClientRankingCompositeFeatures"b1"has_supportClientRankingFeatureMetadata"b1"has_supportDirectionIntentAutocomplete"b1"has_supportDirectionIntentSearch"b1"has_supportDymSuggestion"b1"has_supportStructuredRapAffordance"b1"has_supportUnresolvedDirectionIntent"b1"has_supportsBrandFallback"b1"has_wantsBrandIcon"b1"has_wantsRouteCreationTip"b1"read_unknownFields"b1"read_engineTypes"b1"read_knownClientResolvedTypes"b1"read_knownRefinementTypes"b1"read_preferredBrands"b1"read_supportedAutocompleteListTypes"b1"read_supportedAutocompleteResultCellTypes"b1"read_supportedChildActions"b1"read_supportedPlaceSummaryFormatTypes"b1"read_supportedSearchTierTypes"b1"read_transportTypes"b1"read_addStopRouteInfo"b1"read_analyticsAppIdentifier"b1"read_appIdentifier"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_autocompleteOriginationPreviousLatlng"b1"read_automobileOptions"b1"read_carHeadunitManufacturer"b1"read_carHeadunitModel"b1"read_currentLocaleCurrencySymbol"b1"read_cyclingOptions"b1"read_deviceLocation"b1"read_deviceDisplayLanguages"b1"read_deviceKeyboardLocale"b1"read_deviceSpokenLocale"b1"read_displayRegion"b1"read_evChargingPorts"b1"read_hardwareIdentifier"b1"read_historicalLocations"b1"read_mapRegion"b1"read_photoSizes"b1"read_previousSearchViewport"b1"read_privacyMetadata"b1"read_providerID"b1"read_recentAutocompleteSessionData"b1"read_resultRefinementQuery"b1"read_reviewUserPhotoSizes"b1"read_searchEnrichmentClientRequestId"b1"read_searchEnrichmentRoutingInfoData"b1"read_searchImplicitFilterInfo"b1"read_searchOriginationPreviousLatlng"b1"read_spotlightSearchPunchinEncodedString"b1"read_transitOptions"b1"read_transitScheduleFilter"b1"read_transitTripStopTimeFilter"b1"read_userActionMetadata"b1"read_venueIdentifier"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (void)tedAddressType;
-- (id)teDataForKey: /* Error: Ran out of types for this method. */;
+- (void)formattedAddressType;
+- (id)deleteDataForKey: /* Error: Ran out of types for this method. */;
 - (id)Ô#%Ä.1°2T40;H<	¨APCÜC¸GS,T	ÜWxY,[	;
-- (void)_model;
-- (id)ions_action;
+- (void)device_lens_model;
+- (id)should_suppress_directions_action;
 - (id);
 - (_Bool);
 - (void)îµBA_'õeiP@;
@@ -54,12 +42,7 @@
 UNIT;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *hardwareIdentifier;
 @property(readonly, nonatomic) _Bool hasHardwareIdentifier;
-@property(readonly, nonatomic) _Bool hasOsBuild;
-@property(readonly, nonatomic) _Bool hasOsVersion;
-@property(retain, nonatomic) NSString *osBuild;
-@property(retain, nonatomic) NSString *osVersion;
 
 @end
 

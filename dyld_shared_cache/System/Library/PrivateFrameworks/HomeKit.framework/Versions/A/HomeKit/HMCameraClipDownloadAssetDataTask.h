@@ -5,23 +5,20 @@
 //
 
 @class NSMutableURLRequest;
-@protocol HMCameraClipDownloadAssetDataTaskHandling;
 
 @interface HMCameraClipDownloadAssetDataTask
 {
     NSMutableURLRequest *_urlRequest;
-    id <HMCameraClipDownloadAssetDataTaskHandling> _handler;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)4L;
 
 // Remaining properties
-@property(readonly) id <HMCameraClipDownloadAssetDataTaskHandling> handler; // @synthesize handler=_handler;
 @property(readonly) NSMutableURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
 
 @end

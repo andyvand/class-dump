@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface MLTrackImportChapter
 {
     NSData *_imageData;
-    NSString *_imageCacheKey;
-    unsigned long long _startTimeInMilliseconds;
-    NSString *_title;
-    NSURL *_url;
-    NSString *_urlTitle;
 }
 
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (unsigned long long)_cleanupInvalidAlbumsAndFoldersInStore: /* Error: Ran out of types for this method. */;
+- (void)_checkScopeValidityForDeletingRecords:(id)arg1 includeMainScopeIdentifier:withRecordChangeClass:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)_checkForPushedMastersInLibrary:(unsigned long long)arg1;
+- (void)_calculateStackAssetForAssetCount:(id)arg1 autoPicks:userFavorites: /* Error: Ran out of types for this method. */;
+- (void)_allowSchemaUpgradeWithUserPromptFromVersion:onStore:withMetadata:orStoreURL: /* Error: Ran out of types for this method. */;
+- (_Bool)_addLocationHashesToAssets:(id)arg1;
+- (id)_CPLNotifyRegistrationToken;
+- (id)recoveryManager;
 - (void);
 - (id);
 - (id);
@@ -36,12 +31,7 @@
 - (void)EGIN INSERT INTO item_state (item_pid, persistent_id, exclude_from_shuffle, is_library_added, keep_local_enable_state, keep_local_managed_status, keep_local_constraints, media_type, has_non_purgeable_asset) VALUES (NEW.item_pid, NEW.item_pid, COALESCE(NEW.exclude_from_shuffle, 0), COALESCE(NEW.in_my_library, 0), COALESCE(NEW.keep_local, 0), COALESCE(NEW.keep_local_status, 0), COALESCE(NEW.keep_local_constraints, 0), COALESCE(NEW.media_type, 0), CASE WHEN NEW.base_location_id >= 250 THEN 1 ELSE 0 END) ON CONFLICT(item_pid) DO UPDATE SET persistent_id = excluded.persistent_id, exclude_from_shuffle = excluded.exclude_from_shuffle, is_library_added = excluded.is_library_added, keep_local_enable_state = excluded.keep_local_enable_state, keep_local_managed_status = excluded.keep_local_managed_status, keep_local_constraints = excluded.keep_local_constraints, media_type = excluded.media_type, has_non_purgeable_asset = excluded.has_non_purgeable_asset; END;;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_url;
-@property(copy, nonatomic) NSString *URLTitle; // @synthesize URLTitle=_urlTitle;
-@property(copy, nonatomic) NSString *imageCacheKey; // @synthesize imageCacheKey=_imageCacheKey;
 @property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) unsigned long long startTimeInMilliseconds; // @synthesize startTimeInMilliseconds=_startTimeInMilliseconds;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -15,7 +15,7 @@
 
 - (_Bool);
 - (id);
-- (void)cIcon;
+- (void)GenericIcon;
 
 @end
 

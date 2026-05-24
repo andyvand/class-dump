@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSCoreSpeechServicesAccessoryInfo, NSNumber, NSString, NSUUID;
-
 @interface CSVoiceTriggerRTModelRequestOptions
 {
     _Bool _allowMph;
-    NSNumber *_userSelectedPhraseType;
-    NSUUID *_endpointId;
-    NSNumber *_engineMajorVersion;
-    NSNumber *_engineMinorVersion;
-    NSNumber *_accessoryModelType;
-    NSString *_siriLocale;
-    CSCoreSpeechServicesAccessoryInfo *_accessoryInfo;
 }
 
 + (_Bool);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -29,21 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!@9!;
 - (id);
 - (void);
 - (id);
-- (void)E_SIMPLE_MIN_TTS_VOLUME;
+- (void)kSSVCA_DEVICE_SIMPLE_MIN_TTS_VOLUME;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CSCoreSpeechServicesAccessoryInfo *accessoryInfo; // @synthesize accessoryInfo=_accessoryInfo;
-@property(readonly, nonatomic) NSNumber *accessoryModelType; // @synthesize accessoryModelType=_accessoryModelType;
 @property(readonly, nonatomic) _Bool allowMph; // @synthesize allowMph=_allowMph;
-@property(readonly, nonatomic) NSUUID *endpointId; // @synthesize endpointId=_endpointId;
-@property(readonly, nonatomic) NSNumber *engineMajorVersion; // @synthesize engineMajorVersion=_engineMajorVersion;
-@property(readonly, nonatomic) NSNumber *engineMinorVersion; // @synthesize engineMinorVersion=_engineMinorVersion;
-@property(readonly, nonatomic) NSString *siriLocale; // @synthesize siriLocale=_siriLocale;
-@property(readonly, nonatomic) NSNumber *userSelectedPhraseType; // @synthesize userSelectedPhraseType=_userSelectedPhraseType;
 
 @end
 

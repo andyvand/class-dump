@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)q;
 - (id);
 
 @end

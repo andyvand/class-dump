@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSRemoteViewController, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface NSRemoteViewControllerAuxiliary
 {
     unsigned int _inhibitFirstResponder:1;
-    NSRemoteViewController *_remoteViewController;
-    NSString *_serviceBundleIdentifier;
-    NSUUID *_serviceInstanceIdentifier;
-    NSString *_serviceViewControllerClassName;
-    NSError *_terminationError;
-    CDUnknownBlockType _connectionHandler;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (void);
 - (_Bool);
@@ -30,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (void)Aùq}11Â0@ù
 × ;
 - (id)Á-Ð!ÔEù}1Ð1Â0@ù
@@ -38,10 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType connectionHandler; // @synthesize connectionHandler=_connectionHandler;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

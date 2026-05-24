@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 @interface _CSVisualizerPredicate
 {
     NSString *_title;
-    NSString *_searchString;
-    unsigned long long _operator;
-    NSPredicate *_numericPredicate;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (void);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -28,8 +25,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)HOST_MANAGEDAPPDISTD_PORT;
+- (void)k;
 
 @end
 

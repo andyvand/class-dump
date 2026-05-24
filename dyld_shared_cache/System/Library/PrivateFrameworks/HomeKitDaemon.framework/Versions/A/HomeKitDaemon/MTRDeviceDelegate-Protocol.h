@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MTRDevice;
+
 @protocol MTRDeviceDelegate
+
+@optional
+- (void)sendMessage:(MTRDevice *)arg1 fromAccount:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (void)sendData:(MTRDevice *)arg1 fromAccount:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
 @end
 

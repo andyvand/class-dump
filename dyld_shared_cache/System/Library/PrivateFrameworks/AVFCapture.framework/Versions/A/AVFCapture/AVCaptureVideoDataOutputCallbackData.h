@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnection_Tundra, AVCaptureVideoDataOutput_Tundra;
+@class AVCaptureVideoDataOutput_Tundra;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureVideoDataOutputCallbackData
 {
     AVCaptureVideoDataOutput_Tundra *_output;
-    AVCaptureConnection_Tundra *_connection;
-    struct opaqueCMBufferQueue *_bufferQueue;
-    void *_callbackContextToken;
 }
 
 + (id);
-- (void);
+- (void)_unhandledObjectDataExpectedLength;
+- (id)onnection;
+- (void *)stream reader;
+- (struct opaqueCMBufferQueue *)t;
 - (id);
-- (void *);
-- (struct opaqueCMBufferQueue *);
-- (id);
-- (void);
+- (void)@24@32@40@?48@56;
 - (id);
 
 // Remaining properties

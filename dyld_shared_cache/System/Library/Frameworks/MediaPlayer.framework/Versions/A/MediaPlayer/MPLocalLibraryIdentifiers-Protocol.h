@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol MPLocalLibraryIdentifiers
+- (long long);
+- (long long)containsObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long containedPersistentID;
 @property(readonly, nonatomic) NSString *databaseID;
-@property(readonly, nonatomic) long long persistentID;
-@property(readonly, nonatomic) long long syncID;
 @end
 

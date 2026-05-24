@@ -6,14 +6,9 @@
 
 #import <InputMethodKit/IMKUIAbstractCandidateLayout.h>
 
-@class NSMutableDictionary;
-
 @interface IMKUICandidateIterativeLayout : IMKUIAbstractCandidateLayout
 {
     unsigned long long _candidateIndex;
-    unsigned long long _candidateGroupIndex;
-    _Bool _complete;
-    NSMutableDictionary *_indexPathToCandidateItemMapping;
 }
 
 - (void);
@@ -27,20 +22,17 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (_Bool)1Â0@ù
 × ;
 - (struct CGSize)=QQ}16;
 
 // Remaining properties
-@property(nonatomic) unsigned long long candidateGroupIndex; // @synthesize candidateGroupIndex=_candidateGroupIndex;
 @property(nonatomic) unsigned long long candidateIndex; // @synthesize candidateIndex=_candidateIndex;
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(retain, nonatomic) NSMutableDictionary *indexPathToCandidateItemMapping; // @synthesize indexPathToCandidateItemMapping=_indexPathToCandidateItemMapping;
 
 @end
 

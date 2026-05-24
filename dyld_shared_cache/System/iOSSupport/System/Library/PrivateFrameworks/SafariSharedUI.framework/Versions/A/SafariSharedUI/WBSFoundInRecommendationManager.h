@@ -5,25 +5,23 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, SGSuggestionsServiceURLsProtocol;
+@protocol SGSuggestionsServiceURLsProtocol;
 
 @interface WBSFoundInRecommendationManager
 {
     NSObject<SGSuggestionsServiceURLsProtocol> *_suggestionsService;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    int _changeNotificationToken;
 }
 
 + (unsigned long long);
 + (id);
 + (_Bool);
 + (_Bool);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)ndler: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (void)owningWebViewDidCommitNavigationWithURL:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

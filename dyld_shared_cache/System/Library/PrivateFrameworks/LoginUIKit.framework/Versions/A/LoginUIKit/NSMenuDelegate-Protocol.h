@@ -5,5 +5,8 @@
 //
 
 @protocol NSMenuDelegate
+
+@optional
+- (struct CGRect)`;
 @end
 

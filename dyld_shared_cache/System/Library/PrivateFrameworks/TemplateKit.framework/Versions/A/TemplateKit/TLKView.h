@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, TLKAppearance;
+@class NSView;
 @protocol TLKObserver;
 
 @interface TLKView
 {
     id <TLKObserver> observer;
-    long long batchUpdateCount;
-    NSView *_leadingTextView;
-    NSView *_contentView;
-    TLKAppearance *_tlkAppearance;
-    struct NSEdgeInsets _layoutMargins;
 }
 
 + (void);
 + (void);
 + (void);
 + (struct NSEdgeInsets);
-+ (Class);
++ (Class);
 - (_Bool);
 - (id);
 - (id);
@@ -31,7 +26,7 @@
 - (void);
 - (void);
 - (struct NSEdgeInsets);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (struct NSEdgeInsets);
@@ -44,7 +39,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct NSEdgeInsets);
 - (void);
@@ -53,20 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long batchUpdateCount; // @synthesize batchUpdateCount;
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
 @property(readonly) NSView *leadingTextView; // @synthesize leadingTextView=_leadingTextView;
-@property __weak id <TLKObserver> observer; // @synthesize observer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TLKAppearance *tlkAppearance; // @synthesize tlkAppearance=_tlkAppearance;
-@property(readonly) _Bool usesDefaultLayoutMargins;
 
 @end
 

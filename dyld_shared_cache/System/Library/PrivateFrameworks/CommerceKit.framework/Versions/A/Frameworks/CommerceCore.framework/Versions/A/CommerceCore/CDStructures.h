@@ -15,8 +15,3 @@ struct _NSRange {
     unsigned long long _field2;
 };
 
-struct __sbuf {
-    char *_field1;
-    int _field2;
-};
-

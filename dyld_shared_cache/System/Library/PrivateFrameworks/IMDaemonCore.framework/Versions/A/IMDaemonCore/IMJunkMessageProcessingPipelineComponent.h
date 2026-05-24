@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDTrustKitDecisioningManager, IMDiMessageIDSTrustedData;
+@class IMDiMessageIDSTrustedData;
 
 @interface IMJunkMessageProcessingPipelineComponent
 {
     IMDiMessageIDSTrustedData *_idsTrustedData;
-    IMDTrustKitDecisioningManager *_trustKitManager;
 }
 
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void) ;
 - (id);
 - (void)ôì;
 
 // Remaining properties
 @property(readonly, nonatomic) IMDiMessageIDSTrustedData *idsTrustedData; // @synthesize idsTrustedData=_idsTrustedData;
-@property(retain, nonatomic) IMDTrustKitDecisioningManager *trustKitManager; // @synthesize trustKitManager=_trustKitManager;
 
 @end
 

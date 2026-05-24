@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface CUFileReadRequest
 {
     CDUnknownBlockType _completionHandler;
-    unsigned long long _length;
-    unsigned long long _offset;
 }
 
-- (unsigned long long);
-- (CDUnknownBlockType);
+- (unsigned long long)mote auth service to force update URL Bag for altDSID:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long)geForWiFiInterfaceWithName: /* Error: Ran out of types for this method. */;
+- (unsigned long long)countryCodeDidChangeForWiFiInterfaceWithName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 
 @end
 

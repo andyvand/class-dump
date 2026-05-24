@@ -5,5 +5,7 @@
 //
 
 @protocol RPSignedInUserProvider
+- (_Bool);
+- (unsigned int);
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TILoginCredential
 {
     NSString *_username;
-    NSString *_password;
-    NSString *_site;
 }
 
 - (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, nonatomic) NSString *site; // @synthesize site=_site;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

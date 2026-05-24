@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _DUIPreview, _UIDraggingImageComponent;
+
 @protocol _UIDragPreviewProvider
+- (_UIDraggingImageComponent *)4T;
+- (_DUIPreview *)_TtC12IMDaemonCore26IMDaemonCoreBridgeDelegate;
 @end
 

@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, NSXPCInterface, Protocol;
-@protocol OS_dispatch_queue;
+@class NSXPCInterface, Protocol;
 
 @interface OSSystemExtensionMDMClient
 {
     Protocol *mdmClientToServerInterface;
-    NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)etPairResourceTransferReceiver:(id)arg1 mismatching incoming resource chunk index:stated %llu != actual %llu /* Error: Ran out of types for this method. */;
+- (id)ader (%d);
+- (id)e truncated before expiryDate, offset %u packet length %u
+;
 - (void);
 - (id);
 - (void);
+- (id)ationByConfiguration failed:empty configuration or configuration name /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)managedObjectWithMedicalID:(id)arg1 managedObject:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)q;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain) NSXPCInterface *interface; // @synthesize interface=_interface;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

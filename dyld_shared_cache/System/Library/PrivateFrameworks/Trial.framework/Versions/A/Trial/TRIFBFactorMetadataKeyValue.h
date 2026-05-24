@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSData, NSString;
+@class AFBBufRef, NSString;
 
 @interface TRIFBFactorMetadataKeyValue
 {
     AFBBufRef *_br;
-    const struct FactorMetadataKeyValue *_ptr;
 }
 
 - (_Bool);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,11 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key;
-@property(readonly, nonatomic) const char *keyAsCString;
-@property(readonly, nonatomic) NSData *keyAsData;
-@property(readonly, nonatomic) NSString *val;
-@property(readonly, nonatomic) const char *valAsCString;
-@property(readonly, nonatomic) NSData *valAsData;
 
 @end
 

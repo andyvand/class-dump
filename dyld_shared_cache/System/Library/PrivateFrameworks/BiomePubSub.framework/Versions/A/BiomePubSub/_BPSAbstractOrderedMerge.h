@@ -6,41 +6,24 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class NSMutableArray, NSMutableSet;
-@protocol BPSSubscriber;
-
 @interface _BPSAbstractOrderedMerge : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _recursion;
-    _Bool _finished;
-    _Bool _errored;
-    _Bool _cancelled;
-    unsigned long long _upstreamCount;
-    id <BPSSubscriber> _downstream;
-    NSMutableArray *_subscriptions;
-    NSMutableArray *_buffers;
-    NSMutableArray *_requestsPerSubscription;
-    NSMutableArray *_upstreamBookmarks;
-    NSMutableSet *_completedUpstreamIndexes;
-    long long _demand;
-    unsigned long long _finishCount;
 }
 
-- (id);
-- (id);
+- (id)9;
+- (id)a;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (void);
 - (_Bool);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void):(unsigned long long)arg1 interprocess::iset_index>, std::default_delete<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>>=""{?="__ptr_"^v}} /* Error: Ran out of types for this method. */;
+- (void)Formats/PhotosFormats/PFPosterConfiguration.m;
 - (void);
 - (_Bool);
 - (void);
@@ -50,14 +33,14 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)dRevReqTBS;
+- (unsigned long long)bit prime field;
 - (void);
 - (void);
 - (long long);
@@ -73,18 +56,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffers; // @synthesize buffers=_buffers;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) NSMutableSet *completedUpstreamIndexes; // @synthesize completedUpstreamIndexes=_completedUpstreamIndexes;
-@property(nonatomic) long long demand; // @synthesize demand=_demand;
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) _Bool errored; // @synthesize errored=_errored;
-@property(nonatomic) unsigned long long finishCount; // @synthesize finishCount=_finishCount;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(nonatomic) _Bool recursion; // @synthesize recursion=_recursion;
-@property(retain, nonatomic) NSMutableArray *requestsPerSubscription; // @synthesize requestsPerSubscription=_requestsPerSubscription;
-@property(retain, nonatomic) NSMutableArray *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(retain, nonatomic) NSMutableArray *upstreamBookmarks; // @synthesize upstreamBookmarks=_upstreamBookmarks;
 @property(nonatomic) unsigned long long upstreamCount; // @synthesize upstreamCount=_upstreamCount;
 
 @end

@@ -4,6 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject, NSString, NSURL, SAConnectionPolicyRoute, SiriCoreAceConnectionAnalysisInfo, SiriCoreConnectionMetrics;
+@protocol OS_dispatch_data;
+
 @protocol SiriCoreConnectionProvider
++ (void)FocusedAccountIdentifiers;
+- (void)or;
+- (void)ection. Error:(SiriCoreConnectionMetrics *)arg1 %{public}@;
+- (_Bool);
+- (_Bool)nitialized with accounts:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)Failed to fetch accounts %{public}@;
+- (void)}@;
+- (void)lude requested representation (%{public}@);
+- (void)@).;
+- (void)his is an error message that gets displayed when there’s an error on the mail server that caused us to stop syncing.;
+- (NSString *)vailable.;
+- (_Bool)n the mail server is rejecting the credentials (e.g. username and/or password) that the user has entered for this account. We will automatically try again at the specified time (e.g. 06:12:34). /* Error: Ran out of types for this method. */;
+- (void)network connection to the mail server drops. We will automatically try again at the specified time (e.g. 06:(NSURL *)arg1 12:(NSString *)arg2 34).;
+- (_Bool)e it is already running.;
+- (_Bool)torn down.;
+- (_Bool)downloadingMessages;
+- (NSObject<OS_dispatch_data> *)group.com.apple.mail;
+- (_Bool)ShimmerHighlightsWhenAppearing;
+- (SiriCoreAceConnectionAnalysisInfo *)PreferredGroupedSenderGroupingLogic;
+- (void)ionID:(SAConnectionPolicyRoute *)arg1 %@
+	Subject:%@
+	SenderList:%@
+	ToList:%@
+	CCList:%@
+	Summary:%@
+	Generated Summary:%@ (isUrgent = %@)
+	Flags:%@
+	ConversationNotificationLevel:%ld
+	Category:%@
+	BusinessLogoID:%@
+	IsVIP:%@
+	IsBlocked:%@
+	SearchResultType:%ld
+	SearchRelevanceScore:%@
+	UnsubscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu /* Error: Ran out of types for this method. */;
+- (void)oesn't need to deal with protected data. Uses EMMessages instead.;
+- (void)h;
+- (_Bool)c;
 @end
 

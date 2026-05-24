@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAssistantCommand, HMFMessageDispatcher, HMFTimer, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDAssistantCommand;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantCommandExecutor
 {
     HMDAssistantCommand *_initialCommand;
-    HMFMessageDispatcher *_msgDispatcher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_actionResults;
-    NSMutableDictionary *_pendingCommands;
-    NSString *_clientValidity;
-    HMFTimer *_executionTimer;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
@@ -25,16 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)ÿÿ;
-- (void)ventMetadataHome;
+- (void)HomeIntelligenceProtoPETSecureSubmitterEventMetadataHome;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

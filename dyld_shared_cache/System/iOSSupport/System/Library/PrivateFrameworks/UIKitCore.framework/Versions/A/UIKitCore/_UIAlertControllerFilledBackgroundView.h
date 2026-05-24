@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerFilledBackgroundView : UIView
 {
     UIView *_backgroundView;
-    _Bool _isHighlighted;
-    UIColor *_fillColor;
 }
 
-- (void);
+- (void)StartTime:(unsigned long long)arg1 chatsDidsync:messagesDidSync:attachmentsDidSync:recoverableMessagesDidSync: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)_actionSheet;
 - (void);
@@ -27,14 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

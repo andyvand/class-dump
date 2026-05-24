@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIView, _UIGestureStudyClickInteraction, _UIGestureStudyMetricsGestureRecognizer;
+@class UIView;
 @protocol _UIGestureStudyInteractionDelegate;
 
 @interface _UIGestureStudyInteraction
 {
     UIView *_view;
-    id <_UIGestureStudyInteractionDelegate> _delegate;
-    _UIGestureStudyClickInteraction *_forceClickInteraction;
-    _UIGestureStudyClickInteraction *_longPressClickInteraction;
-    _UIGestureStudyMetricsGestureRecognizer *_metricsGestureRecognizer;
-    NSMutableDictionary *_eventMetadata;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)sendRelayDeliveryReceiptForMessageID:toChat: /* Error: Ran out of types for this method. */;
+- (id)nKey:requestedSize:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)conversationsChangedForConversationManager: /* Error: Ran out of types for this method. */;
+- (id)IMDAccountController;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)t due to error %@ aborting cleaning up MOC;
+- (void)ried to enroll a device that doesnt excist in our set of devices or was nil %@;
+- (void)to inconsistent properties;
+- (id)aired Device %@;
+- (void)@;
+- (id)encodeURL:withSandboxExtensionData: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (id);
 - (void)qdð1Â0@ù
 × ;
-- (id)sBarDataDuringAnimation;
+- (id)_foregroundViewShouldIgnoreStatusBarDataDuringAnimation;
 - (_Bool)__nonFullHeightOffset;
 - (id)ayoutContainer",&,N,V_supplementaryContainer;
 - (void);
-- (void);
+- (void)_UIButtonBarButton;
 - (void)@j[;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIGestureStudyInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) _UIGestureStudyClickInteraction *forceClickInteraction; // @synthesize forceClickInteraction=_forceClickInteraction;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIGestureStudyClickInteraction *longPressClickInteraction; // @synthesize longPressClickInteraction=_longPressClickInteraction;
-@property(retain, nonatomic) _UIGestureStudyMetricsGestureRecognizer *metricsGestureRecognizer; // @synthesize metricsGestureRecognizer=_metricsGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

@@ -7,6 +7,9 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
+- (_Bool)userRetrieveResponse;
+- (_Bool)rk/Versions/A/AdCore;
+- (_Bool);
 - (_Bool)q[Ð1Â0@ù
 × ;
 @end

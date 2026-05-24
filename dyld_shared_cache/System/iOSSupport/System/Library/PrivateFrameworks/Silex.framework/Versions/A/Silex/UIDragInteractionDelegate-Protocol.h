@@ -7,6 +7,7 @@
 @protocol UIDragInteractionDelegate
 
 @optional
+- (_Bool);
 - (_Bool);
 @end
 

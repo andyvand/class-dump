@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ryTriggerUpcomingHoliday;
+- (id)removeDataOfTypes:modifiedSince:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGMemoryTriggerUpcomingHoliday;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IMDynamicGradientLayer, NSImage, NSLayoutConstraint, NSView;
-
 @interface SONativeTranscriptBalloonView
 {
     struct IMBalloonDescriptor_t _balloonDescriptor;
-    IMDynamicGradientLayer *_dynamicGradientLayer;
-    NSLayoutConstraint *_leadingContentFieldConstraint;
-    NSLayoutConstraint *_trailingContentFieldConstraint;
-    CALayer *_maskLayer;
-    NSImage *_maskImage;
-    struct CGRect _contentCenter;
-    NSView *_contentView;
 }
 
 - (id);
@@ -27,24 +18,22 @@
 - (void);
 - (void);
 - (struct IMBalloonDescriptor_t);
-- (id);
-- (id);
+- (id)=;
+- (id)R";
 - (void);
-- (struct NSEdgeInsets);
-- (void);
-- (id);
-- (void);
+- (struct NSEdgeInsets)spaperSectionGroupTopicsConfig;
+- (void);
 - (id);
 - (void);
+- (id)anagerDelegateP;
 - (void);
 - (void);
 - (void);
-- (id)th;
+- (void);
+- (id)_path;
 
 // Remaining properties
 @property(nonatomic) struct IMBalloonDescriptor_t balloonDescriptor; // @synthesize balloonDescriptor=_balloonDescriptor;
-@property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) struct NSEdgeInsets edgeInsets; // @dynamic edgeInsets;
 
 @end
 

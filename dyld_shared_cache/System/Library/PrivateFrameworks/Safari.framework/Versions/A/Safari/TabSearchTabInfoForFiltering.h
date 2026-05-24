@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TabSearchTabInfoForFiltering
 {
     NSString *_title;
-    NSURL *_url;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id)0@ù
 × ;
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

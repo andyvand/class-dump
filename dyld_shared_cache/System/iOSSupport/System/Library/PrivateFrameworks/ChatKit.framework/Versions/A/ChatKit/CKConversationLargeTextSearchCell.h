@@ -6,33 +6,22 @@
 
 #import <ChatKit/CKConversationListLargeTextCell.h>
 
-@class NSString;
-@protocol CKConversationSearchCellDelegate;
-
 @interface CKConversationLargeTextSearchCell : CKConversationListLargeTextCell
 {
     struct UIEdgeInsets marginInsets;
 }
 
 + (id);
-- (void);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void);
+- (void)Pm;
+- (struct UIEdgeInsets)o;
+- (_Bool)t;
+- (void)index-access-queue;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKConversationSearchCellDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(readonly) Class superclass;
 
 @end
 

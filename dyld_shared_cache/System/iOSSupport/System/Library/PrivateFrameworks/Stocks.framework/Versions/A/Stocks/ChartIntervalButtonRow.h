@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChartIntervalButton, NSArray;
 @protocol ChartIntervalButtonRowDelegate;
 
 @interface ChartIntervalButtonRow
 {
     id <ChartIntervalButtonRowDelegate> _delegate;
-    NSArray *_intervalButtons;
-    ChartIntervalButton *_selectedButton;
-    long long _maxChartInterval;
 }
 
 - (void);
@@ -20,23 +16,20 @@
 - (void);
 - (void);
 - (void);
+- (long long)`;
 - (long long);
-- (long long);
+- (void)'u;
+- (id);
+- (id)0;
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <ChartIntervalButtonRowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *intervalButtons; // @synthesize intervalButtons=_intervalButtons;
-@property(nonatomic) long long maxChartInterval; // @synthesize maxChartInterval=_maxChartInterval;
-@property(nonatomic) __weak ChartIntervalButton *selectedButton; // @synthesize selectedButton=_selectedButton;
 
 @end
 

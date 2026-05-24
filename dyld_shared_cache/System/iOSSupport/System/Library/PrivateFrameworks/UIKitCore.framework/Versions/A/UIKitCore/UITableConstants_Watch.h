@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ity: /* Error: Ran out of types for this method. */;
++ (id)_trackVelocity: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct _UITableConstantsBackgroundProperties)tionIndex < _beforeDataSourceState.numberOfSections;
 

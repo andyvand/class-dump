@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface IMUnreadCountReport
 {
     _Bool _blackholed;
-    _Bool _archived;
-    _Bool _pendingReview;
-    NSString *_guid;
-    NSString *_groupID;
-    NSString *_originalGroupID;
-    NSString *_lastAddressedHandleID;
-    NSString *_lastAddressedSIMID;
-    long long _isFiltered;
-    NSDate *_timeSensitiveRefreshDate;
-    long long _timeSensitiveMessageCount;
-    NSArray *_participants;
-    unsigned long long _unreadCount;
 }
 
 + (_Bool);
@@ -29,6 +17,7 @@
 - (id);
 - (long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,20 +25,19 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)߈);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)d;
 - (_Bool);
 - (id);
-- (void);
+- (void)_identityProofingManagerCompletionHandler;
 - (id);
 - (id);
 - (_Bool);
@@ -57,27 +45,14 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long),;
 - (id);
 - (id);
 - (id)TB,N,V_needsGathering;
-- (void);
+- (void)0z;
 
 // Remaining properties
-@property(nonatomic, getter=isArchived) _Bool archived; // @synthesize archived=_archived;
-@property(nonatomic, getter=isBlackholed) _Bool blackholed; // @synthesize blackholed=_blackholed;
-@property(readonly, nonatomic) NSDictionary *dictionary;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
 @property(retain, nonatomic, setter=setGUID:) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) long long isFiltered; // @synthesize isFiltered=_isFiltered;
-@property(retain, nonatomic) NSString *lastAddressedHandleID; // @synthesize lastAddressedHandleID=_lastAddressedHandleID;
-@property(retain, nonatomic) NSString *lastAddressedSIMID; // @synthesize lastAddressedSIMID=_lastAddressedSIMID;
-@property(retain, nonatomic) NSString *originalGroupID; // @synthesize originalGroupID=_originalGroupID;
-@property(retain, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(nonatomic, getter=isPendingReview) _Bool pendingReview; // @synthesize pendingReview=_pendingReview;
-@property(nonatomic) long long timeSensitiveMessageCount; // @synthesize timeSensitiveMessageCount=_timeSensitiveMessageCount;
-@property(retain, nonatomic) NSDate *timeSensitiveRefreshDate; // @synthesize timeSensitiveRefreshDate=_timeSensitiveRefreshDate;
-@property(nonatomic) unsigned long long unreadCount; // @synthesize unreadCount=_unreadCount;
 
 @end
 

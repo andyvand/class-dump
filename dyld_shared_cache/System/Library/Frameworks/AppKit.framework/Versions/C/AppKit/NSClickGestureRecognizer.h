@@ -6,25 +6,9 @@
 
 #import <AppKit/NSGestureRecognizer.h>
 
-@class NSMutableArray;
-
 @interface NSClickGestureRecognizer : NSGestureRecognizer
 {
     long long _flags;
-    struct CGPoint _location;
-    unsigned long long _buttonMask;
-    long long _numberOfClicksRequired;
-    long long _currentButtonCount;
-    long long _activeButtonCount;
-    long long _currentClickCount;
-    double _allowableMovement;
-    long long _behavior;
-    long long _stage;
-    double _pressure;
-    double _stageTransition;
-    long long _numberOfTouchesRequired;
-    long long _activeTouchCount;
-    NSMutableArray *_trackingTouchIdentities;
 }
 
 @end

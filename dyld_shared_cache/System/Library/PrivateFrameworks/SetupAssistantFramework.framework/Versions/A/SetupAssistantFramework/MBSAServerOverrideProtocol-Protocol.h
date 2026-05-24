@@ -5,5 +5,6 @@
 //
 
 @protocol MBSAServerOverrideProtocol
+- (void);
 @end
 

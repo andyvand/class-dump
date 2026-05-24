@@ -7,8 +7,6 @@
 @interface NewsArticles.ANFIssueCoverLayoutAttributesFactory
 {
     id issue;
-    id headline;
-    id issueCoverLayoutAttributesFactory;
 }
 
 - (id);

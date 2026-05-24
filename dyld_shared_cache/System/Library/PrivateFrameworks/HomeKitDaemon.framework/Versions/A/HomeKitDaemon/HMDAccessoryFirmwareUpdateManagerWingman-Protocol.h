@@ -10,7 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UARPController *defaultUARPController;
-@property(readonly, nonatomic) UARPController *matterUARPController;
-@property(readonly, nonatomic) double registerDelay;
 @end
 

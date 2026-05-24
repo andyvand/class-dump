@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSMenuWindowManagerDrawingHandlerView : NSView
 {
     CDUnknownBlockType _drawingHandler;
-    _Bool _allowsVibrancy;
-    struct CGSRegionObject *_invalidRegion;
 }
 
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol GEONavigationListenerDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,7 +6,7 @@
 
 #import <Vision/VNEspressoModelImageprint.h>
 
-@class NSData, NSString, VNRequestSpecifier;
+@class VNRequestSpecifier;
 
 @interface VNAnimalprint : VNEspressoModelImageprint
 {
@@ -28,32 +28,19 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)providerDomainForItem:(id)arg1 error:(id *)arg2;
+- (id)_extensionDispatchQueue;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (float);
+- (float)_CNThrottledObservable;
 
 // Remaining properties
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintByteLength;
-@property(readonly) NSData *VNEntityIdentificationModelPrintData;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementCount;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementType;
 @property(readonly, copy) VNRequestSpecifier *VNEntityIdentificationModelPrintOriginatingRequestSpecifier;
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long serializedLength;
-@property(readonly) Class superclass;
 
 @end
 

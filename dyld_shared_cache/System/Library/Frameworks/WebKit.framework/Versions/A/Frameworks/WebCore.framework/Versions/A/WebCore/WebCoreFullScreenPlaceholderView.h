@@ -9,14 +9,12 @@
 @interface WebCoreFullScreenPlaceholderView
 {
     struct RetainPtr<NSVisualEffectView> _effectView;
-    struct RetainPtr<NSTextField> _exitWarning;
-    struct WeakObjCPtr<NSResponder> _target;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)H;
+- (id);
+- (void);
+- (void)elect{struct|interface|class}3%select{| template}1;
 - (id);
 - (id)apOffset<WebCore:(struct CGRect)arg1:LayoutUnit>>>, HashFunctions = WTF::DefaultHash<WebCore::LayoutUnit>, Traits = WTF::HashMap<WebCore::LayoutUnit, WebCore::SnapOffset<WebCore::LayoutUnit>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::LayoutUnit>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)('left');this._volumeSliderContainer.element.style.removeProperty('top');}

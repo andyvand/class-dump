@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener;
+@class NSXPCListener;
 
 @interface AAFlowPresenter
 {
     CDUnknownBlockType presentationCompletion;
-    NSXPCListener *_remoteListener;
 }
 
+- (void)geAndSetPasscodePolicy return status = %d;
+- (void)ple newpolicy = %s;
+- (id)PListFromXMLFile:Attempt to open "%s" failed. /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)dsAttrTypeStandard:PrimaryGroupID /* Error: Ran out of types for this method. */;
+- (void)nagedClientKeyPathRulesForFilteringPayload MIG_GetFilterRules returned %d;
+- (void)ettouchidconfiguration result = %d;
+- (void)proper data type;
 - (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)njectNativeHeader;
+- (_Bool)D;
+- (void)injectNativeHeader;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType presentationCompletion; // @synthesize presentationCompletion;
 @property(retain, nonatomic) NSXPCListener *remoteListener; // @synthesize remoteListener=_remoteListener;
-@property(readonly) Class superclass;
 
 @end
 

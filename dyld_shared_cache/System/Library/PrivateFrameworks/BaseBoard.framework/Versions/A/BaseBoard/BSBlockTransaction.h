@@ -11,10 +11,9 @@
 @interface BSBlockTransaction : BSTransaction
 {
     CDUnknownBlockType _block;
-    NSString *_debugName;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

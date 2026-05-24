@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUHistogram;
-
 @interface NUImageHistogram
 {
     long long _sampleCount;
-    long long _binCount;
-    NUHistogram *_red;
-    NUHistogram *_green;
-    NUHistogram *_blue;
-    NUHistogram *_luminance;
-    CDStruct_59a221c9 _range;
 }
 
 + (Class);
@@ -24,23 +16,17 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_59a221c9);
+- (CDStruct_c3b9c2ee);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)EntryKey;
 - (void)=qq}56;
 - (long long)r %@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long binCount; // @synthesize binCount=_binCount;
-@property(readonly, nonatomic) NUHistogram *blue; // @synthesize blue=_blue;
-@property(readonly, nonatomic) NUHistogram *green; // @synthesize green=_green;
-@property(readonly, nonatomic) NUHistogram *luminance; // @synthesize luminance=_luminance;
-@property(readonly, nonatomic) CDStruct_59a221c9 range; // @synthesize range=_range;
-@property(readonly, nonatomic) NUHistogram *red; // @synthesize red=_red;
-@property(readonly, nonatomic) long long sampleCount; // @synthesize sampleCount=_sampleCount;
 
 @end
 

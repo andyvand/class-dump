@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSettingGroup, HMSettings, HMUser, NSString, _HMContext;
-@protocol HMSettingsDelegate;
+@class HMUser;
 
 @interface HMUserSettingsAdapter
 {
     _Bool _didEverSentOutSettingsDidUpdate;
-    id <HMSettingsDelegate> delegate;
-    HMSettingGroup *_rootGroup;
-    HMSettings *_settings;
-    HMUser *_user;
-    _HMContext *_context;
-    long long _type;
 }
 
 + (id);
@@ -39,30 +32,19 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)I;
 - (void);
+- (id)
+@
+;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)oudInfo;
+- (void)HMAccessoryDiagnosticInfoProtoCloudInfo;
 - (id)@Pre-configuring home manager;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMSettingsDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didEverSentOutSettingsDidUpdate; // @synthesize didEverSentOutSettingsDidUpdate=_didEverSentOutSettingsDidUpdate;
-@property(readonly) unsigned long long hash;
-@property(retain) HMSettingGroup *rootGroup; // @synthesize rootGroup=_rootGroup;
-@property(readonly) HMSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(nonatomic) __weak HMUser *user; // @synthesize user=_user;
 
 @end

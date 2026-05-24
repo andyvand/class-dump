@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySettingsEventHelper;
 @protocol HMDHomeRemoteEventAccessControllerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeRemoteEventAccessController
 {
     id <HMDHomeRemoteEventAccessControllerDataSource> _dataSource;
-    HMDAccessorySettingsEventHelper *_settingsHelper;
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)allKnownReceiverCapabilities;
+- (_Bool)addWaypointInfo:(id)arg1;
+- (_Bool)addSufficientVisitsNotification:(id)arg1 message:(unsigned long long)arg2;
+- (_Bool)addReceivingObserver:(id)arg1;
+- (_Bool)addObserverForName:(id)arg1 object:(unsigned long long)arg2 queue:(unsigned long long)arg3 usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)ype;
+- (_Bool)MSPContainerClearDiscardableData;
+- (_Bool)MSPShareETABlockedTripShouldClearKVSAfterMigrationKey;
+- (id)foregroundFilters;
 - (id)g;
-- (void)yAddedAccessoryReachabilityObserver;
+- (void)RemotelyAddedAccessoryReachabilityObserver;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMDHomeRemoteEventAccessControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) HMDAccessorySettingsEventHelper *settingsHelper; // @synthesize settingsHelper=_settingsHelper;
 
 @end
 

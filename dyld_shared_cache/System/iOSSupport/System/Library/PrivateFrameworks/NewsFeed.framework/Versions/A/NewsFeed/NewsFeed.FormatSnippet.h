@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatSnippet
 {
     id identifier;
-    id _name;
-    id _description;
-    id _children;
-    id _options;
-    id _selectors;
-    id _types;
 }
 
 @end

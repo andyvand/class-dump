@@ -9,7 +9,6 @@
 @interface SUOSUDDMConfiguration
 {
     int _notifyToken;
-    SUCorePolicyDDMConfiguration *_ddmConfiguration;
 }
 
 + (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain) SUCorePolicyDDMConfiguration *ddmConfiguration; // @synthesize ddmConfiguration=_ddmConfiguration;
-@property int notifyToken; // @synthesize notifyToken=_notifyToken;
 
 @end
 

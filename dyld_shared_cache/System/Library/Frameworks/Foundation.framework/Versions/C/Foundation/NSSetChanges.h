@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)ingPublishing;
++ (id)_KeyValueCodingAndObservingPublishing;
 - (void);
 - (void);
 - (void);

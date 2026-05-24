@@ -7,7 +7,6 @@
 @interface PCKeepAliveState
 {
     unsigned char _state;
-    unsigned char _subState;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned char state; // @synthesize state=_state;
-@property(nonatomic) unsigned char subState; // @synthesize subState=_subState;
 
 @end
 

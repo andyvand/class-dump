@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface JSObjCClassInfo
 {
     Class m_class;
-    _Bool m_block;
-    struct NakedPtr<OpaqueJSClass> m_classRef;
-    struct Weak<JSC::JSObject> m_prototype;
-    struct Weak<JSC::JSObject> m_constructor;
-    struct Weak<JSC::Structure> m_structure;
 }
 
 - (void *);

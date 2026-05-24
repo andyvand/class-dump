@@ -21,9 +21,9 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)?;
+- (id)setPreviousLocation:(struct _NSZone *)arg1;
+- (id)_mainTransportTypeMaxRouteCount;
 - (id)led:[_activeTileGroup.uniqueIdentifier isEqualToString:activeTileGroup.uniqueIdentifier] /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);

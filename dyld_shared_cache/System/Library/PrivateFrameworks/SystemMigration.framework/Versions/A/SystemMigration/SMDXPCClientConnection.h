@@ -9,8 +9,6 @@
 @interface SMDXPCClientConnection
 {
     _Bool _invalidated;
-    NSXPCConnection *_xpcConnection;
-    unsigned long long _requestedScannerState;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (unsigned long long);
@@ -33,14 +31,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)J_pSg;
+- (void)setPlaybackDisabled:(id)arg1 forReason: /* Error: Ran out of types for this method. */;
+- (_Bool)sword to C-string;
 - (void);
 
 // Remaining properties
-@property _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property unsigned long long requestedScannerState; // @synthesize requestedScannerState=_requestedScannerState;
 @property __weak NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

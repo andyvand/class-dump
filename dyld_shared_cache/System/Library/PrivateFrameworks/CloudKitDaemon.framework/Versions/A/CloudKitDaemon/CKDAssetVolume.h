@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID;
+@class NSNumber;
 
 @interface CKDAssetVolume
 {
     NSNumber *_volumeIndex;
-    NSUUID *_volumeUUID;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)T@"NSObject<OS_dispatch_queue>",&,V_internalQueue;
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *volumeIndex; // @synthesize volumeIndex=_volumeIndex;
-@property(retain, nonatomic) NSUUID *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end
 

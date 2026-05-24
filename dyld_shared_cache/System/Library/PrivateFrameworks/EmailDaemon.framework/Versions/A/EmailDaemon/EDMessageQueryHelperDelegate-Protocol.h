@@ -5,5 +5,6 @@
 //
 
 @protocol EDMessageQueryHelperDelegate
+- (void);
 @end
 

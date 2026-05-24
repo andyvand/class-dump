@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UISpringAnimationPrototypeSettings
 {
     UIViewSpringAnimationBehavior *_springAnimationBehavior;
-    double _dampingRatio;
-    double _response;
 }
 
 + (id);
 - (id);
 - (double);
 - (double)á;
-- (void)eraction: /* Error: Ran out of types for this method. */;
-- (void)FallbackAutofillGroup;
+- (void)setWrappedFindInteraction: /* Error: Ran out of types for this method. */;
+- (void)clearFallbackAutofillGroup;
 - (void)eyplaneCacheToken;
 - (void);
 

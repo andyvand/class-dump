@@ -7,7 +7,6 @@
 @interface VMUArchitecture
 {
     int _cpuType;
-    int _cpuSubtype;
 }
 
 + (id);
@@ -31,12 +30,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)_schemaWithName:create:bundleRef: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)ew isKindOfClass:[STTranslucentBlockingBackdropView class]] /* Error: Ran out of types for this method. */;
 
 @end
 

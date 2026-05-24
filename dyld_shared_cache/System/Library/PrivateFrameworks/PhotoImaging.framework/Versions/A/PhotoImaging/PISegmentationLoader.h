@@ -4,50 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSObject, NSString, NURenderContext, PFWallpaperCompoundDeviceConfiguration, PIParallaxSegmentationItem;
-@protocol OS_dispatch_queue, PFParallaxAsset, PIPosterLayoutProvider;
-
 @interface PISegmentationLoader
 {
     unsigned long long _signpost;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isLoading;
-    _Bool _isCancelled;
-    int _loadRequestID;
-    int _petsRequestID;
-    int _loadMotionRequestID;
-    int _loadFocalLengthRequestID;
-    int _settlingEffectCropRequestID;
-    int _settlingEffectVideoRequestID;
-    NSError *_loadingError;
-    NURenderContext *_renderContext;
-    PIParallaxSegmentationItem *_item;
-    _Bool _disableSegmentation;
-    _Bool _disableRendering;
-    _Bool _disableSettlingEffect;
-    _Bool _disableSpatialPhoto;
-    _Bool _disableAdaptiveLayout;
-    _Bool _disableSpatialAdaptiveLayout;
-    _Bool _disableCache;
-    _Bool _performMediaAnalysisInProcess;
-    _Bool _loadFirstResourceOnly;
-    _Bool _preferFullResolutionResource;
-    _Bool _disableDownload;
-    _Bool _disableHeadroomLayout;
-    id <PFParallaxAsset> _asset;
-    long long _sourceMode;
-    unsigned long long _classification;
-    PFWallpaperCompoundDeviceConfiguration *_layoutConfiguration;
-    id <PIPosterLayoutProvider> _layoutProvider;
-    unsigned long long _role;
-    long long _settlingEffectGatingLevel;
-    long long _spatialPhotoGatingLevel;
-    long long _priority;
-    NSArray *_petsRegions;
-    NSArray *_petsFaceRegions;
-    CDUnknownBlockType _downloadProgressHandler;
-    CDUnknownBlockType _loadingHandler;
-    NSObject<OS_dispatch_queue> *_loadingHandlerQueue;
 }
 
 + (void);
@@ -62,7 +21,7 @@
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -74,7 +33,7 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (void);
++ (void)~;
 + (id);
 + (id);
 + (void);
@@ -82,7 +41,7 @@
 + (void);
 + (_Bool);
 + (void);
-+ (void);
++ (void);
 + (void)L-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICompositionController+AdjustmentExtensions.m;
 - (long long);
 - (_Bool);
@@ -105,7 +64,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
@@ -114,12 +73,12 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)*;
+- (_Bool)H;
 - (id);
 - (void);
 - (void);
@@ -163,17 +122,17 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)!L;
+- (void)memoryCreationMusicForTopicConfiguration;
+- (long long)`;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -183,7 +142,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void)leFeatureVectorData;
+- (void)styleFeatureVectorData;
 - (void)ot %{public}@, expected %{public}@;
 - (long long)center, slope) * weight1.z;
 diff4 = luminanceWeight(pix4, center, slope) * weight1.w;
@@ -341,40 +300,7 @@ return vec4(sum.rgb / max(sum.a, 0.001), 1.0);
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PFParallaxAsset> asset; // @synthesize asset=_asset;
-@property(nonatomic) unsigned long long classification; // @synthesize classification=_classification;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAdaptiveLayout; // @synthesize disableAdaptiveLayout=_disableAdaptiveLayout;
-@property(nonatomic) _Bool disableCache; // @synthesize disableCache=_disableCache;
-@property(nonatomic) _Bool disableDownload; // @synthesize disableDownload=_disableDownload;
-@property(nonatomic) _Bool disableHeadroomLayout; // @synthesize disableHeadroomLayout=_disableHeadroomLayout;
-@property(nonatomic) _Bool disableRendering; // @synthesize disableRendering=_disableRendering;
-@property(nonatomic) _Bool disableSegmentation; // @synthesize disableSegmentation=_disableSegmentation;
-@property(nonatomic) _Bool disableSettlingEffect; // @synthesize disableSettlingEffect=_disableSettlingEffect;
-@property(nonatomic) _Bool disableSpatialAdaptiveLayout; // @synthesize disableSpatialAdaptiveLayout=_disableSpatialAdaptiveLayout;
-@property(nonatomic) _Bool disableSpatialPhoto; // @synthesize disableSpatialPhoto=_disableSpatialPhoto;
-@property(copy, nonatomic) CDUnknownBlockType downloadProgressHandler; // @synthesize downloadProgressHandler=_downloadProgressHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) id <PIPosterLayoutProvider> layoutProvider; // @synthesize layoutProvider=_layoutProvider;
-@property(nonatomic) _Bool loadFirstResourceOnly; // @synthesize loadFirstResourceOnly=_loadFirstResourceOnly;
-@property(copy, nonatomic) CDUnknownBlockType loadingHandler; // @synthesize loadingHandler=_loadingHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *loadingHandlerQueue; // @synthesize loadingHandlerQueue=_loadingHandlerQueue;
-@property(nonatomic) _Bool performMediaAnalysisInProcess; // @synthesize performMediaAnalysisInProcess=_performMediaAnalysisInProcess;
-@property(copy, nonatomic) NSArray *petsFaceRegions; // @synthesize petsFaceRegions=_petsFaceRegions;
-@property(copy, nonatomic) NSArray *petsRegions; // @synthesize petsRegions=_petsRegions;
-@property(nonatomic) _Bool preferFullResolutionResource; // @synthesize preferFullResolutionResource=_preferFullResolutionResource;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned long long role; // @synthesize role=_role;
-@property(nonatomic) long long settlingEffectGatingLevel; // @synthesize settlingEffectGatingLevel=_settlingEffectGatingLevel;
 @property(readonly, nonatomic) _Bool shouldUseInteractiveSettlingEffectGating;
-@property(nonatomic) long long sourceMode; // @synthesize sourceMode=_sourceMode;
-@property(nonatomic) long long spatialPhotoGatingLevel; // @synthesize spatialPhotoGatingLevel=_spatialPhotoGatingLevel;
-@property(readonly) Class superclass;
 
 @end
 

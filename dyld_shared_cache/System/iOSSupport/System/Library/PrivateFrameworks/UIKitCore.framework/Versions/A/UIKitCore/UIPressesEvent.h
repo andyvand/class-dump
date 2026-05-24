@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSHashTable, NSMutableSet, NSSet, NSString, UIPress;
+@class NSMutableSet, UIPress;
 
 @interface UIPressesEvent : UIEvent
 {
     NSMutableSet *_allPresses;
-    NSHashTable *_terminalEventRegistrants;
-    UIPress *_lastPreparedPress;
 }
 
 - (void);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MPPreloadPlaybackSessionCommandEvent;
 - (id);
 - (id);
 - (void);
@@ -36,7 +34,7 @@
 × ;
 - (void);
 - (long long)0@0:8^@16^B24^B32 /* Error: Ran out of types for this method. */;
-- (id)city:(long long)arg1;
+- (id)_testTouchPolicyAtPoint:(long long)arg1 withVelocity: /* Error: Ran out of types for this method. */;
 - (_Bool)øü;
 - (id)ing preferred display mode to secondary only;
 - (id)litViewControllerDisplayModeAutomatic. This is a UIKit issue.;
@@ -54,14 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIPress *_lastPreparedPress; // @synthesize _lastPreparedPress;
-@property(readonly, nonatomic) NSSet *allPresses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

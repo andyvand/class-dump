@@ -9,14 +9,6 @@
 @interface CNPostalAddress
 {
     NSString *_street;
-    NSString *_subLocality;
-    NSString *_city;
-    NSString *_subAdministrativeArea;
-    NSString *_state;
-    NSString *_postalCode;
-    NSString *_country;
-    NSString *_ISOCountryCode;
-    NSString *_formattedAddress;
 }
 
 @end

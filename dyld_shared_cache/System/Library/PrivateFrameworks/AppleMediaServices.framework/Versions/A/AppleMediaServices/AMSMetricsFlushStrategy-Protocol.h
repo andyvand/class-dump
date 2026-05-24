@@ -5,6 +5,7 @@
 //
 
 @protocol AMSMetricsFlushStrategy
+- (_Bool)RNowPlayingClient initWithPlayerPath:] /* Error: Ran out of types for this method. */;
 - (_Bool)"AMSAbsintheSignature"@"NSError">8;
 
 // Remaining properties

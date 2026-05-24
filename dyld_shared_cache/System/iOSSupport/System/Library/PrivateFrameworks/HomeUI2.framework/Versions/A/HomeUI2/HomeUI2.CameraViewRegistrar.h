@@ -8,9 +8,6 @@
 {
     id $defaultActor;
     id actions;
-    id batchManager;
-    id deactivatedScenes;
-    id _registrations;
 }
 
 @end

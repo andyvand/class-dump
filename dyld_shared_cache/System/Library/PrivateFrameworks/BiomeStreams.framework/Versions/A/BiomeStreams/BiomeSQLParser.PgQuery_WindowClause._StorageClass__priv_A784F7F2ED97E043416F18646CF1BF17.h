@@ -7,19 +7,6 @@
 @interface BiomeSQLParser.PgQuery_WindowClause._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _name;
-    id _refname;
-    id _partitionClause;
-    id _orderClause;
-    id _frameOptions;
-    id _startOffset;
-    id _endOffset;
-    id _startInRangeFunc;
-    id _endInRangeFunc;
-    id _inRangeColl;
-    id _inRangeAsc;
-    id _inRangeNullsFirst;
-    id _winref;
-    id _copiedOrder;
 }
 
 @end

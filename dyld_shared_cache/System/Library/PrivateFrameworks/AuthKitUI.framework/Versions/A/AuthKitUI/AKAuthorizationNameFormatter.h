@@ -12,9 +12,9 @@
 + (void);
 - (_Bool);
 - (id);
+- (_Bool)<N;
 - (_Bool);
-- (_Bool);
-- (id)pletion:(id)arg1;
+- (id)dismissProximityPairingUIWithCompletion:(id)arg1;
 
 @end
 

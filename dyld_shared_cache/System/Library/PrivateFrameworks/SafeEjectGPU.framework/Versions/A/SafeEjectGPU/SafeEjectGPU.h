@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SafeEjectGPU
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_array;
-    NSMutableArray *_limboArray;
-    NSObject<OS_dispatch_queue> *_limboQueue;
-    _Bool _inLimbo;
 }
 
 + (void);
 + (unsigned long long);
-+ (void);
-+ (void);
++ (void);
++ (void);
 + (_Bool);
 + (void);
 + (id);
@@ -30,16 +26,16 @@
 - (void);
 - (void);
 - (void);
+- (id):(unsigned long long)arg1;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (void)	ɚI};
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)P;
 - (void);
 
 @end

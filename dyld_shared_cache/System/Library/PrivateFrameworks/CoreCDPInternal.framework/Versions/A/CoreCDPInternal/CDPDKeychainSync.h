@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CDPDCircleProxy, CDPDKeychainSyncPolicyProvider;
+@protocol CDPDCircleProxy;
 
 @interface CDPDKeychainSync
 {
     id <CDPDCircleProxy> _circleProxy;
-    id <CDPDCircleProxy> _sosCircleProxy;
-    id <CDPDKeychainSyncPolicyProvider> _syncPolicy;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
++ (id)ReadingListSidebarViewController;
++ (id)ReadingListSidebarView;
++ (id)RolloverActionButtonTableCellViewDelegate;
+- (void)_TabSnapshotOnDiskImageStorageSaveOperation;
+- (id)TabPreviewWindowControllerDelegate;
+- (void)StartPageCollectionSectionProviderDelegate;
+- (_Bool)SecureWindowLockPolicyEnforcer;
+- (id)SafariNSTableViewExtras;
+- (id)BrowserNumberFormattingAdditions;
+- (id)SafariAppExtensionPerSitePreferenceManager;
+- (void)ResponsiveDesignViewportPresetMenuDelegate;
+- (void)ReaderizedArticleFetcherNavigationDelegate;
+- (_Bool)ReaderContainerViewController;
+- (void)TitleAndStackViewControllerDelegate;
+- (_Bool)MenuTableSeparatorRowView;
+- (_Bool)AVTouchBarScrubberDelegate;
+- (_Bool)LibraryViewController;
+- (void)#;
+- (_Bool)SAccountSharingGroupMemberData",R,N;
 - (void);
 - (id);
 - (void);
@@ -39,10 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CDPDCircleProxy> circleProxy; // @synthesize circleProxy=_circleProxy;
-@property(readonly, nonatomic) _Bool isUserVisibleKeychainSyncAvailable;
-@property(readonly, nonatomic) _Bool isUserVisibleKeychainSyncEnabled;
-@property(readonly, nonatomic) id <CDPDCircleProxy> sosCircleProxy; // @synthesize sosCircleProxy=_sosCircleProxy;
-@property(readonly, nonatomic) id <CDPDKeychainSyncPolicyProvider> syncPolicy; // @synthesize syncPolicy=_syncPolicy;
 
 @end
 

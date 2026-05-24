@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UIColor;
+@class NSString;
 
 @interface WBSTemplateIconCacheRecord
 {
     _Bool _canSaveToDisk;
-    NSString *_host;
-    NSURL *_templateIconURL;
-    UIColor *_themeColor;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)eWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)postUrgentNotificationForMessages:withContext: /* Error: Ran out of types for this method. */;
+- (void)safari_dataStoreWithoutCachingForProfileWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canSaveToDisk; // @synthesize canSaveToDisk=_canSaveToDisk;
 @property(readonly, copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(readonly, copy, nonatomic) NSURL *templateIconURL; // @synthesize templateIconURL=_templateIconURL;
-@property(readonly, nonatomic) UIColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end
 

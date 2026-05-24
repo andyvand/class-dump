@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSSet, NSString, PXCuratedLibraryActionPerformer, PXFeatureSpec;
-@protocol PXCuratedLibraryOverlayButtonSpec;
+@class NSColor;
 
 @interface PXCuratedLibraryOverlayButtonConfiguration
 {
     _Bool _forcePointerInteractionEnabled;
-    NSColor *_contentColor;
-    NSColor *_highlightedContentColor;
-    NSImage *_iconImage;
-    NSImage *_iconImageWithoutConfiguration;
-    NSImage *_tintedIconImage;
-    NSImage *_highlightedIconImage;
-    PXFeatureSpec<PXCuratedLibraryOverlayButtonSpec> *_spec;
-    PXCuratedLibraryActionPerformer *_actionPerformer;
-    CDUnknownBlockType _actionHandler;
-    CDUnknownBlockType _menuActionHandler;
-    CDUnknownBlockType _willDisplayMenuActionHandler;
-    CDUnknownBlockType _willDismissMenuActionHandler;
-    long long _style;
-    long long _segment;
-    NSString *_systemImageName;
-    NSString *_title;
-    NSSet *_possibleTitles;
-    NSString *_caption;
-    NSColor *_tintColor;
-    NSColor *_backgroundColor;
-    NSString *_accessibilityTitle;
-    long long _buttonType;
-    struct NSEdgeInsets _imageEdgeInsets;
-    struct NSEdgeInsets _hitTestOutsets;
 }
 
 + (id);
@@ -44,7 +19,7 @@
 + (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -56,7 +31,7 @@
 - (id);
 - (struct NSEdgeInsets);
 - (id);
-- (id);
+- (id)w;
 - (_Bool);
 - (id);
 - (id);
@@ -67,22 +42,22 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)topicSimilarity;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)GaussianBlurS4;
 - (CDUnknownBlockType);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (void);
 - (long long);
-- (id)inedNetwork;
-- (id)del: /* Error: Ran out of types for this method. */;
+- (id)isConstrainedNetwork;
+- (id)initWithStoryViewModel: /* Error: Ran out of types for this method. */;
 - (void)M`NtOÐP4R¼S;
 - (id)ë£Qo__ª £Qo_ÚÜ£yd£GG;
 - (id)(%lu) don't match the count of keyAssetUUIDs (%lu), preferring UUIDs from supplied key assets;
@@ -92,42 +67,7 @@
 - (void)øàÿCã5È?;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(retain, nonatomic) PXCuratedLibraryActionPerformer *actionPerformer; // @synthesize actionPerformer=_actionPerformer;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) long long buttonType; // @synthesize buttonType=_buttonType;
-@property(copy, nonatomic) NSString *caption; // @synthesize caption=_caption;
 @property(readonly, nonatomic) NSColor *contentColor; // @synthesize contentColor=_contentColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forcePointerInteractionEnabled; // @synthesize forcePointerInteractionEnabled=_forcePointerInteractionEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSColor *highlightedContentColor; // @synthesize highlightedContentColor=_highlightedContentColor;
-@property(readonly, nonatomic) NSImage *highlightedIconImage; // @synthesize highlightedIconImage=_highlightedIconImage;
-@property(nonatomic) struct NSEdgeInsets hitTestOutsets; // @synthesize hitTestOutsets=_hitTestOutsets;
-@property(readonly, nonatomic) NSImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, nonatomic) NSImage *iconImageWithoutConfiguration; // @synthesize iconImageWithoutConfiguration=_iconImageWithoutConfiguration;
-@property(nonatomic) struct NSEdgeInsets imageEdgeInsets; // @synthesize imageEdgeInsets=_imageEdgeInsets;
-@property(copy, nonatomic) CDUnknownBlockType menuActionHandler; // @synthesize menuActionHandler=_menuActionHandler;
-@property(copy, nonatomic) NSSet *possibleTitles; // @synthesize possibleTitles=_possibleTitles;
-@property(nonatomic) long long segment; // @synthesize segment=_segment;
-@property(readonly, nonatomic) PXFeatureSpec<PXCuratedLibraryOverlayButtonSpec> *spec; // @synthesize spec=_spec;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *systemImageName; // @synthesize systemImageName=_systemImageName;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(readonly, nonatomic) NSImage *tintedIconImage; // @synthesize tintedIconImage=_tintedIconImage;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(copy, nonatomic) CDUnknownBlockType willDismissMenuActionHandler; // @synthesize willDismissMenuActionHandler=_willDismissMenuActionHandler;
-@property(copy, nonatomic) CDUnknownBlockType willDisplayMenuActionHandler; // @synthesize willDisplayMenuActionHandler=_willDisplayMenuActionHandler;
 
 @end
 

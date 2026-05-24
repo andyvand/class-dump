@@ -9,13 +9,11 @@
 @interface WiFiAwarePairingConfiguration
 {
     _Bool _pairingCachingEnabled;
-    NSArray *_supportedPairSetupMethods;
-    long long _pairingSetupMode;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -24,14 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)E;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool pairingCachingEnabled; // @synthesize pairingCachingEnabled=_pairingCachingEnabled;
-@property(nonatomic) long long pairingSetupMode; // @synthesize pairingSetupMode=_pairingSetupMode;
 @property(copy, nonatomic) NSArray *supportedPairSetupMethods; // @synthesize supportedPairSetupMethods=_supportedPairSetupMethods;
 
 @end

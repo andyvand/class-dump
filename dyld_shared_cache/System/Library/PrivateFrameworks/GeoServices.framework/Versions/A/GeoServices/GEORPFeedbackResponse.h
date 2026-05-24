@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackResult, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORPFeedbackResponse
 {
     PBUnknownFields *_unknownFields;
-    GEORPFeedbackResult *_feedbackResult;
-    int _feedbackRequestType;
-    int _status;
-    _Bool _attestationNotFound;
-    _Bool _discardLogs;
-    struct {
-        unsigned int has_feedbackRequestType:1;
-        unsigned int has_status:1;
-        unsigned int has_attestationNotFound:1;
-        unsigned int has_discardLogs:1;
-    } _flags;
 }
 
-+ (_Bool)twork:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setLabelArtwork:(id)arg1;
+- (void)setExternalUUID:(_Bool)arg1;
+- (void)registrarWithPropertyListPersistenceAtURL:(_Bool)arg1;
+- (void)nameWithFormatter:(_Bool)arg1 rangeOfSortingSubstring: /* Error: Ran out of types for this method. */;
+- (void)isAnyValidContactsStoreTypeAttachedToPersistentStoreCoordinator:(id)arg1;
+- (void)isAnyValidContactsStoreTypeAttachedToPersistentStoreCoordinator:(int)arg1;
+- (void)analysisWithReason:(_Bool)arg1 message: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,8 +43,8 @@
 - (_Bool);
 - (void);
 - (id)nd"b1"read_clientRevisions"b1"read_knownClientResolvedTypes"b1"read_autocompleteParameters"b1"read_deviceCountryCode"b1"read_deviceDisplayLanguage"b1"read_deviceExtendedLocation"b1"read_deviceKeyboardLanguage"b1"read_deviceSpokenLanguage"b1"read_displayLanguages"b1"read_displayRegion"b1"read_mapsSuggestionsTouristInfo"b1"read_spokenLanguages"b1"wrote_anyField"b1};
-- (int)teResponse: /* Error: Ran out of types for this method. */;
-- (id)nStatement:error: /* Error: Ran out of types for this method. */;
+- (int)protobufSession:validateResponse: /* Error: Ran out of types for this method. */;
+- (id)bindBlobParameter:toValue:inStatement:error: /* Error: Ran out of types for this method. */;
 - (id)ÄC E;
 - (id)attributed strings (%d) is greater than number of separators (%d) + 1. Unable to join attributed strings.;
 - (id)trafficCamera;
@@ -65,17 +54,7 @@
 - (void)©¾;N@;
 
 // Remaining properties
-@property(nonatomic) _Bool attestationNotFound;
-@property(nonatomic) _Bool discardLogs;
-@property(nonatomic) int feedbackRequestType;
-@property(retain, nonatomic) GEORPFeedbackResult *feedbackResult;
-@property(nonatomic) _Bool hasAttestationNotFound;
-@property(nonatomic) _Bool hasDiscardLogs;
-@property(nonatomic) _Bool hasFeedbackRequestType;
-@property(readonly, nonatomic) _Bool hasFeedbackResult;
 @property(nonatomic) _Bool hasStatus;
-@property(nonatomic) int status;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

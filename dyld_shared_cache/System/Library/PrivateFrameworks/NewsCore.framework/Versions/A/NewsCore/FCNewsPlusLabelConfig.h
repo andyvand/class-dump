@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCNewsPlusLabelConfig
 {
     _Bool _enabled;
-    int _toolTipDisplayMaxCount;
-    long long _toolTipDisplayQuiescenceInterval;
-    NSString *_toolTipTitle;
-    NSString *_toolTipBody;
-    NSString *_toolTipAlternativeBodyForVoiceOver;
 }
 
 - (id);
@@ -21,17 +14,12 @@
 - (int);
 - (id);
 - (id);
-- (_Bool)d;
+- (_Bool)recipeNotesEnabled;
 - (void)istants pruning the same zone;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSString *toolTipAlternativeBodyForVoiceOver; // @synthesize toolTipAlternativeBodyForVoiceOver=_toolTipAlternativeBodyForVoiceOver;
-@property(readonly, nonatomic) NSString *toolTipBody; // @synthesize toolTipBody=_toolTipBody;
-@property(readonly, nonatomic) int toolTipDisplayMaxCount; // @synthesize toolTipDisplayMaxCount=_toolTipDisplayMaxCount;
-@property(readonly, nonatomic) long long toolTipDisplayQuiescenceInterval; // @synthesize toolTipDisplayQuiescenceInterval=_toolTipDisplayQuiescenceInterval;
-@property(readonly, nonatomic) NSString *toolTipTitle; // @synthesize toolTipTitle=_toolTipTitle;
 
 @end
 

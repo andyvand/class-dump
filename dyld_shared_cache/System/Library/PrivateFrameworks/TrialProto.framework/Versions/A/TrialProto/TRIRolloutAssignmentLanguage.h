@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, TRIRolloutAssignmentLanguage_ExplicitBuckets;
+@class NSMutableArray;
 
 @interface TRIRolloutAssignmentLanguage : TRIPBMessage
 {
@@ -15,13 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int allocationUnitType; // @dynamic allocationUnitType;
 @property(retain, nonatomic) NSMutableArray *assignmentArray; // @dynamic assignmentArray;
-@property(readonly, nonatomic) unsigned long long assignmentArray_Count; // @dynamic assignmentArray_Count;
-@property(readonly, nonatomic) int bucketingOneOfCase; // @dynamic bucketingOneOfCase;
-@property(retain, nonatomic) TRIRolloutAssignmentLanguage_ExplicitBuckets *explicitBuckets; // @dynamic explicitBuckets;
-@property(nonatomic) _Bool hasAllocationUnitType; // @dynamic hasAllocationUnitType;
-@property(nonatomic) unsigned int numBuckets; // @dynamic numBuckets;
 
 @end
 

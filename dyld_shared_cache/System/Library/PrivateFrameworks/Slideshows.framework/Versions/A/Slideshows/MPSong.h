@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCSong, MPAudioPlaylist, MPSongInternal, NSString, NSURL;
+@class NSString;
 
 @interface MPSong
 {
     NSString *_path;
-    MCSong *_song;
-    MPAudioPlaylist *_parentPlaylist;
-    MPSongInternal *_internal;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);
@@ -27,21 +24,21 @@
 - (id);
 - (id);
 - (double);
-- (void);
-- (void);
-- (double);
-- (double);
-- (id);
-- (void);
-- (void);
+- (void)R";
 - (void);
 - (double);
 - (double);
 - (id);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (id)A;
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
@@ -53,13 +50,7 @@
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @dynamic URL;
 @property(nonatomic) double audioVolume; // @dynamic audioVolume;
-@property(nonatomic) double duration; // @dynamic duration;
-@property(nonatomic) double fadeInDuration; // @dynamic fadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @dynamic fadeOutDuration;
-@property(copy, nonatomic) NSString *path; // @dynamic path;
-@property(nonatomic) double startTime; // @dynamic startTime;
 
 @end
 

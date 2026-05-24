@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, CKRecordZoneID, NSString;
+@class CKRecordZoneID;
 
 @interface CKDAnonymousShareTuple
 {
     CKRecordZoneID *_zoneID;
-    CKRecordID *_shareID;
-    CKRecordZoneID *_parentZoneID;
-    NSString *_ckAnonymousShareHashIdentifier;
 }
 
 + (_Bool);
@@ -27,9 +24,6 @@
 - (void)%@;
 
 // Remaining properties
-@property(copy) NSString *ckAnonymousShareHashIdentifier; // @synthesize ckAnonymousShareHashIdentifier=_ckAnonymousShareHashIdentifier;
-@property(readonly, copy, nonatomic) CKRecordZoneID *parentZoneID; // @synthesize parentZoneID=_parentZoneID;
-@property(readonly, copy, nonatomic) CKRecordID *shareID; // @synthesize shareID=_shareID;
 @property(readonly, copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end

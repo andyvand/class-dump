@@ -7,7 +7,6 @@
 @protocol NUColorSamplerResult
 
 // Remaining properties
-@property(readonly) struct CGColor *color;
 @property(readonly) CDStruct_912cb5d2 point;
 @end
 

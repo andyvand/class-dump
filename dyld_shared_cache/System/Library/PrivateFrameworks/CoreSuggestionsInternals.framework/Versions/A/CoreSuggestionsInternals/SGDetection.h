@@ -4,44 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGExtractionInfo;
-
 @interface SGDetection
 {
     _Bool _hasPhoneLabel;
-    _Bool _isUnlikelyPhone;
-    unsigned int _type;
-    NSString *_extraction;
-    NSString *_context;
-    NSString *_label;
-    SGExtractionInfo *_extractionInfo;
-    struct _NSRange _contextRangeOfInterest;
-    struct _NSRange _match;
 }
 
-+ (id);
++ (id)standardizedEmail;
 - (id);
 - (_Bool);
 - (id);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool)setLastCredentialRenewalRejectionDate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (unsigned int);
-- (id);
-- (struct _NSRange);
+- (id)setConflictResolution: /* Error: Ran out of types for this method. */;
+- (unsigned int)256;
+- (id)36PptRoundTripOriginalMainMasterIdAtom;
+- (struct _NSRange);
 - (void)°ä3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *context; // @synthesize context=_context;
-@property(readonly, nonatomic) struct _NSRange contextRangeOfInterest; // @synthesize contextRangeOfInterest=_contextRangeOfInterest;
-@property(readonly, nonatomic) NSString *extraction; // @synthesize extraction=_extraction;
-@property(readonly, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
-@property(readonly, nonatomic) _Bool hasPhoneLabel; // @synthesize hasPhoneLabel=_hasPhoneLabel;
-@property(readonly, nonatomic) _Bool isUnlikelyPhone; // @synthesize isUnlikelyPhone=_isUnlikelyPhone;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) struct _NSRange match; // @synthesize match=_match;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

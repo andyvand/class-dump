@@ -9,8 +9,6 @@
 @interface NSHost
 {
     NSArray *names;
-    NSArray *addresses;
-    id reserved;
 }
 
 + (void);
@@ -22,7 +20,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)imit %.4f)
+;
 - (id);
 - (id);
 - (id);
@@ -30,11 +29,7 @@
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *address;
-@property(readonly, copy) NSArray *addresses;
-@property(readonly, copy) NSString *localizedName;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSArray *names;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface RealityKit.RKARSystem.SessionDelegate__priv_7C42569567E429B6AB2725E2C535D529
 {
     id system;
+    id;
 }
 
 - (void);

@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIRenditionKey, NSString;
+@class CUIRenditionKey;
 
 @interface CUIRenditionLayerReference
 {
     struct CGRect _frame;
-    NSString *_layerName;
-    double _opacity;
-    int _blendMode;
-    _Bool _fixedFrame;
-    _Bool _makeOpaqueIfPossible;
-    _Bool _hasLightingEffects;
-    _Bool _gathersSpecularByElement;
-    long long _shadowStyle;
-    double _shadowOpacity;
-    _Bool _hasSpecular;
-    float _blurStrength;
-    NSString *_gradientOrColorName;
-    CUIRenditionKey *_referenceKey;
-    double _translucency;
 }
 
 - (double);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -44,7 +30,7 @@
 - (_Bool);
 - (float);
 - (void);
-- (long long);
+- (long long)_precisionConfidenceThresholds;
 - (void);
 - (id);
 - (void);
@@ -54,7 +40,7 @@
 - (double);
 - (id);
 - (struct CGRect);
-- (double);
+- (double),;
 - (void);
 - (void);
 - (void);
@@ -62,22 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) float blurStrength; // @synthesize blurStrength=_blurStrength;
-@property(copy, nonatomic) NSString *colorName;
-@property(nonatomic) _Bool fixedFrame; // @synthesize fixedFrame=_fixedFrame;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool gathersSpecularByElement; // @synthesize gathersSpecularByElement=_gathersSpecularByElement;
-@property(copy, nonatomic) NSString *gradientOrColorName; // @synthesize gradientOrColorName=_gradientOrColorName;
-@property(nonatomic) _Bool hasLightingEffects; // @synthesize hasLightingEffects=_hasLightingEffects;
-@property(nonatomic) _Bool hasSpecular; // @synthesize hasSpecular=_hasSpecular;
-@property(copy, nonatomic) NSString *layerName; // @synthesize layerName=_layerName;
-@property(nonatomic) _Bool makeOpaqueIfPossible; // @synthesize makeOpaqueIfPossible=_makeOpaqueIfPossible;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 @property(retain, nonatomic) CUIRenditionKey *referenceKey; // @synthesize referenceKey=_referenceKey;
-@property(nonatomic) double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(nonatomic) long long shadowStyle; // @synthesize shadowStyle=_shadowStyle;
-@property(nonatomic) double translucency; // @synthesize translucency=_translucency;
 
 @end
 

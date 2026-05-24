@@ -10,19 +10,17 @@
 
 + (id)¨;
 + (id);
-- (void);
+- (void)ist2, length(w));
+  dist1 = min(dist1, dist2);
+  interpolant = clamp(hw - dist1, 0.0, 1.0);
+  interpolant = ((3.0 - (2.0 * interpolant)) * interpolant) * interpolant;
+  return compare(vec4(dist1 - (hw - 1.0)), color, compare(vec4(dist1 - hw), color * interpolant, vec4(0.0))) * opacity;
+}
+;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alphaBlendOperation; // @dynamic alphaBlendOperation;
-@property(nonatomic, getter=isBlendingEnabled) _Bool blendingEnabled; // @dynamic blendingEnabled;
-@property(nonatomic) unsigned long long destinationAlphaBlendFactor; // @dynamic destinationAlphaBlendFactor;
-@property(nonatomic) unsigned long long destinationRGBBlendFactor; // @dynamic destinationRGBBlendFactor;
 @property(nonatomic) unsigned long long pixelFormat; // @dynamic pixelFormat;
-@property(nonatomic) unsigned long long rgbBlendOperation; // @dynamic rgbBlendOperation;
-@property(nonatomic) unsigned long long sourceAlphaBlendFactor; // @dynamic sourceAlphaBlendFactor;
-@property(nonatomic) unsigned long long sourceRGBBlendFactor; // @dynamic sourceRGBBlendFactor;
-@property(nonatomic) unsigned long long writeMask; // @dynamic writeMask;
 
 @end
 

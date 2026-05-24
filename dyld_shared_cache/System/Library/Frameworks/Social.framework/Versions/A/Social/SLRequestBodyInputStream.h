@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SLRequestMultiPartInputStream;
+@class NSArray;
 @protocol NSStreamDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SLRequestBodyInputStream
 {
     NSArray *_inputStreams;
-    SLRequestMultiPartInputStream *_currentStream;
-    unsigned long long _dataLength;
-    unsigned long long _dataOffset;
-    unsigned long long _currentIndex;
-    unsigned long long _currentOffset;
-    unsigned long long _currentLength;
-    _Bool _openEventSent;
-    unsigned long long _streamStatus;
-    struct __CFRunLoopSource *_rls;
-    CDUnknownFunctionPointerType _clientCallback;
-    CDStruct_4210025a _clientContext;
-    SLRequestBodyInputStream *_selfReferenceDuringStreamEventTrigger;
-    id <NSStreamDelegate> _delegate;
 }
 
 - (id);
@@ -38,20 +25,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)P5;
+- (unsigned long long);
+- (_Bool)_ambientColor;
 
 // Remaining properties
 @property __weak id <NSStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) unsigned long long totalBytes;
 
 @end
 

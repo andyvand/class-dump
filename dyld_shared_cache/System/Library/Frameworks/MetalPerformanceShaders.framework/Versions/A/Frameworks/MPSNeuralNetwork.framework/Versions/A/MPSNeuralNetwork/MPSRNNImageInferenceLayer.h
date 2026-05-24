@@ -9,25 +9,12 @@
 @interface MPSRNNImageInferenceLayer : MPSCNNKernel
 {
     int *layerTypes;
-    void **layers;
-    void **forwardLayers;
-    int *forwardLayerTypes;
-    unsigned long long nForwardLayers;
-    void **backwardLayers;
-    int *backwardLayerTypes;
-    unsigned long long nBackwardLayers;
-    _Bool _recurrentOutputIsTemporary;
-    _Bool _storeAllIntermediateStates;
-    unsigned long long _numberOfLayers;
-    unsigned long long _bidirectionalCombineMode;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
 }
 
 + (const struct MPSLibraryInfo *);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
 - (id);
@@ -38,18 +25,13 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bidirectionalCombineMode; // @synthesize bidirectionalCombineMode=_bidirectionalCombineMode;
 @property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long numberOfLayers; // @synthesize numberOfLayers=_numberOfLayers;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(nonatomic) _Bool recurrentOutputIsTemporary; // @synthesize recurrentOutputIsTemporary=_recurrentOutputIsTemporary;
-@property(nonatomic) _Bool storeAllIntermediateStates; // @synthesize storeAllIntermediateStates=_storeAllIntermediateStates;
 
 @end
 

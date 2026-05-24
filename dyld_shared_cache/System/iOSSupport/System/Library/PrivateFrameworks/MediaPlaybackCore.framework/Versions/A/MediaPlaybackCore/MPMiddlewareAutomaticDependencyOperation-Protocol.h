@@ -7,10 +7,9 @@
 @class NSArray, NSMapTable;
 
 @protocol MPMiddlewareAutomaticDependencyOperation
+- (NSMapTable *);
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *inputOperations;
 @property(readonly, nonatomic) NSArray *inputProtocols;
-@property(readonly, nonatomic) NSArray *outputProtocols;
 @end
 

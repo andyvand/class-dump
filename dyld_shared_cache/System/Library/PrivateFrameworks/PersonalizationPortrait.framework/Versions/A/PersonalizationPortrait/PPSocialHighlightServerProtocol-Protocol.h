@@ -5,5 +5,7 @@
 //
 
 @protocol PPSocialHighlightServerProtocol
+- (void)imageWithoutProxy;
+- (void)<|;
 @end
 

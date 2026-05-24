@@ -12,18 +12,18 @@
     NSSymbolEffectOptions *_options;
 }
 
-+ (id);
-+ (id);
++ (id)l.;
++ (id)@;
 + (_Bool);
+- (id)s, we know where to send this request, lets go for it;
 - (id);
-- (id);
-- (id);
+- (id)24Q32^Q40;
 - (id);
 - (unsigned long long);
 - (id)á	!ÄFù1fÐ1Â0@ù
 × ;
-- (_Bool)ectOfInterestForPoint:(id)arg1;
-- (void)CommandsAfterDelay:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (_Bool)rectOfInterestForPoint:(id)arg1;
+- (void)hideSelectionCommandsAfterDelay:(id)arg1 reason: /* Error: Ran out of types for this method. */;
 - (id)dColorForUnRenderedContent;
 - (void)0Îqÿ$ñÍb;
 

@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CATBlockOperationObserver
 {
     NSObject<OS_dispatch_queue> *mQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    CDUnknownBlockType _didStart;
-    CDUnknownBlockType _didProgress;
-    CDUnknownBlockType _didFinish;
 }
 
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@"NSFilePromiseProvider";
 - (id);
 - (void);
+- (void));
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didFinish; // @synthesize didFinish=_didFinish;
-@property(copy, nonatomic) CDUnknownBlockType didProgress; // @synthesize didProgress=_didProgress;
-@property(copy, nonatomic) CDUnknownBlockType didStart; // @synthesize didStart=_didStart;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

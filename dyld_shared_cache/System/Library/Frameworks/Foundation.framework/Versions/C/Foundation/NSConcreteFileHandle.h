@@ -6,33 +6,17 @@
 
 #import <Foundation/NSFileHandle.h>
 
-@class NSObject;
-@protocol OS_dispatch_data, OS_dispatch_io, OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface NSConcreteFileHandle : NSFileHandle
 {
     struct os_unfair_lock_s _lock;
-    _Atomic int _error;
-    _Atomic int _resultSocket;
-    NSObject<OS_dispatch_source> *_dsrc;
-    NSObject<OS_dispatch_data> *_resultData;
-    NSObject<OS_dispatch_queue> *_fhQueue;
-    NSObject<OS_dispatch_io> *_readChannel;
-    CDUnknownBlockType _readabilityHandler;
-    CDUnknownBlockType _writeabilityHandler;
-    NSObject<OS_dispatch_source> *_readMonitoringSource;
-    NSObject<OS_dispatch_source> *_writeMonitoringSource;
-    NSObject<OS_dispatch_queue> *_monitoringQueue;
-    int _fd;
-    _Atomic unsigned short _flags;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)PartialWordRange:(struct _NSZone *)arg1 inString:language:options: /* Error: Ran out of types for this method. */;
+- (id)spellServer:(struct _NSZone *)arg1 suggestNextLetterDictionariesForPartialWordRange:inString:language:options: /* Error: Ran out of types for this method. */;
 - (void)       ¡¢££¤¤¥¥¥¥¥¦¦¦¦§¨©©©ª«««««««««¬­­­­®®¯°±²²³³³³´´´µµ¶¶····¸¸¹¹¹º»»»»¼¼¼½½¾¿¿ÀÀÁÂÂÃÃÄÅÅÅÆÆÇÇÈÉÉÊËËËÌÌÍÍÍÍÍÎÎÏÐÐÐÐÐÑÒÒÓÓÔÔÕÕÕÖÖÖÖ×××ØØØÙÙÚÛÜÝÞßßßßààáââãääääåæææææççèèééééêêêëëëëìííîïïððððñòóôôõõõõöö÷÷÷÷÷÷øùúúûüüýþÿ;
 - (void)¡¡¢££¤¤¤¥¥¥¥¦¦§¨¨¨©ªªª«¬¬¬¬¬¬¬¬¬¬¬¬¬¬­®¯°±²²³³³´´´µµ¶·¸¹¹¹¹¹ºº»»¼½¾¾¿¿ÀÀÁÁÂÃÃÃÄÄÄÄÅÅÅÅÅÅÅÅÆÆÆÆÆÆÆÇÈÉÊÊÊÊÊÊËËËËÌÍÎÎÏÏÐÐÑÒÒÒÒÒÒÒÒÒÒÒÒÒÓÔÕÕÕÕÕÕÖÖÖ××ØØØØÙÙÚÛÜÝÞßàáâââãããããäääåååæçççèéêêëìììíîîîîïðñññòòóôôôôõõööö÷÷÷øùùùùúúûûûûûûûûûûüüüüüüüýýýýþþÿÿ;
 - (id)ÈÓÿ;

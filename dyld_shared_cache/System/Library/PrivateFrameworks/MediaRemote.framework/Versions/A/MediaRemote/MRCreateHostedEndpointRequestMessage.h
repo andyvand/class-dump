@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ServerInvalidRequestError;
 - (id);
 
 // Remaining properties

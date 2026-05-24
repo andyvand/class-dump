@@ -7,6 +7,7 @@
 @interface CoreNFC.CardSession.EventStream.Iterator
 {
     id iterator;
+    id;
 }
 
 @end

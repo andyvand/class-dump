@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFColor.h>
 
-@class NSData, NSDate, NSDictionary, NSString, SFLatLng;
+@class NSString;
 
 @interface SFWeatherColor : SFColor
 {
@@ -16,40 +16,12 @@
         unsigned int cloudCoverMidAltPct:1;
         unsigned int cloudCoverHighAltPct:1;
     } _has;
-    NSString *_condition;
-    SFLatLng *_location;
-    NSDate *_date;
-    double _cloudCover;
-    double _cloudCoverLowAltPct;
-    double _cloudCoverMidAltPct;
-    double _cloudCoverHighAltPct;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) double alphaComponent;
-@property(nonatomic) double blueComponent;
-@property(nonatomic) double cloudCover; // @synthesize cloudCover=_cloudCover;
-@property(nonatomic) double cloudCoverHighAltPct; // @synthesize cloudCoverHighAltPct=_cloudCoverHighAltPct;
-@property(nonatomic) double cloudCoverLowAltPct; // @synthesize cloudCoverLowAltPct=_cloudCoverLowAltPct;
-@property(nonatomic) double cloudCoverMidAltPct; // @synthesize cloudCoverMidAltPct=_cloudCoverMidAltPct;
-@property(nonatomic) int colorTintStyle;
 @property(copy, nonatomic) NSString *condition; // @synthesize condition=_condition;
-@property(retain, nonatomic) SFColor *darkModeColor;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) double greenComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLatLng *location; // @synthesize location=_location;
-@property(nonatomic) double redComponent;
-@property(readonly) Class superclass;
 
 @end
 

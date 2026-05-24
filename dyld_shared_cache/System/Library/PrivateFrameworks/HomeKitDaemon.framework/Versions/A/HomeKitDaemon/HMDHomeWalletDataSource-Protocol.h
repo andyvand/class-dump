@@ -8,14 +8,12 @@
 @protocol OS_dispatch_queue;
 
 @protocol HMDHomeWalletDataSource
+- (long long)attributeLightMapHeightKey;
+- (double)G;
 - (_Bool)xUp:(NSObject<OS_dispatch_queue> *)arg1 Updated the home owner's public key to %@;
 - (_Bool);
 
 // Remaining properties
-@property(readonly) long long accessoryWriteMaxRetryCount;
-@property(readonly) double accessoryWriteRetryInterval;
-@property(readonly) _Bool isWatch;
 @property(readonly, getter=isResidentCapable) _Bool residentCapable;
-@property(readonly) long long walletKeyColor;
 @end
 

@@ -6,41 +6,35 @@
 
 #import <PhotosUICore/PXImportConcurrentAction.h>
 
-@class NSArray, NSError, NSMutableArray, NSProgress, NSString, PXImportController;
+@class NSArray, NSProgress;
 
 @interface PXImportDeleteAction : PXImportConcurrentAction
 {
     NSArray *_assets;
-    NSMutableArray *_removedAssets;
-    _Bool _didSucceed;
-    NSString *_sessionUuid;
-    PXImportController *_importController;
-    NSError *_error;
-    NSProgress *_progress;
 }
 
 + (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)animateScaleOfSlide:to:withDuration: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -49,11 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) __weak PXImportController *importController; // @synthesize importController=_importController;
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) NSString *sessionUuid; // @synthesize sessionUuid=_sessionUuid;
 
 @end
 

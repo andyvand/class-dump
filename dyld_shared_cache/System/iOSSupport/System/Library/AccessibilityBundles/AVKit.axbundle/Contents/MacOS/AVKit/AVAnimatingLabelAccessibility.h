@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)viewDidLoad;
 - (_Bool);
 - (id);
 

@@ -7,13 +7,9 @@
 @interface AKTSDPathIntersection
 {
     long long mSegment;
-    long long mSegmentB;
-    double mT;
-    double mTB;
-    struct CGPoint mPoint;
 }
 
-- (double);
+- (double)iaMetadataProviderSpecialization.m;
 - (long long);
 - (id);
 - (id);
@@ -26,11 +22,7 @@
 - (struct CGPoint);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint point; // @synthesize point=mPoint;
 @property(readonly, nonatomic) long long segment; // @synthesize segment=mSegment;
-@property(readonly, nonatomic) long long segmentB; // @synthesize segmentB=mSegmentB;
-@property(readonly, nonatomic) double t; // @synthesize t=mT;
-@property(readonly, nonatomic) double tB; // @synthesize tB=mTB;
 
 @end
 

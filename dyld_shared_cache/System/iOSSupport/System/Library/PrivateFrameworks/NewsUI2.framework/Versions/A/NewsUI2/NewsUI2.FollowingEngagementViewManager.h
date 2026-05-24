@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingEngagementViewManager
 {
     id delegate;
-    id contentAvailabilityValidator;
-    id engagementInlineViewManager;
-    id followingEngagementViewRenderer;
-    id followingEngagementViewLayoutAttributesFactory;
 }
 
 @end

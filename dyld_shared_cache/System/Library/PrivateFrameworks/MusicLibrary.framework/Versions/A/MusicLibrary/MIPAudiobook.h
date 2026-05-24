@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPAlbum, MIPArtist, MIPGenre, MIPPlaybackInfo, NSString;
+@class MIPAlbum;
 
 @interface MIPAudiobook
 {
     MIPAlbum *_album;
-    MIPArtist *_artist;
-    int _audioFormat;
-    MIPArtist *_composer;
-    int _discNumber;
-    MIPGenre *_genre;
-    NSString *_hlsPlaylistURL;
-    MIPPlaybackInfo *_playbackInfo;
-    int _trackNumber;
-    int _userRating;
-    _Bool _excludeFromShuffle;
-    _Bool _hasVideo;
-    struct {
-        unsigned int audioFormat:1;
-        unsigned int discNumber:1;
-        unsigned int trackNumber:1;
-        unsigned int userRating:1;
-        unsigned int excludeFromShuffle:1;
-        unsigned int hasVideo:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)sharedScheduler;
+- (void)eBlock;
+- (void)setMetadata:(_Bool)arg1 forPersistentStore: /* Error: Ran out of types for this method. */;
+- (void)DestinationBundle;
+- (id)addTransaction:toXPCDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)addFaceVisitor: /* Error: Ran out of types for this method. */;
+- (_Bool)t",&,N,V_moc;
+- (_Bool)T@"NSManagedObjectContext",&,N,V_moc;
+- (_Bool)_originalAutoPickIndexes;
+- (_Bool)_lock_spotlightSandboxExtension;
+- (void)tText;
+- (_Bool)ring",R,N,V_personID;
+- (void)ch Indexing:(int)arg1 Found %{public}lu groups for person with UUID:%{public}@ to remove in GC table. /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)shifted;
 - (void);
 - (id);
 - (_Bool);
@@ -57,15 +38,15 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (unsigned long long);
+- (void)<;
+- (_Bool)TaskAssertion:(id)arg1;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (id);
@@ -85,30 +66,7 @@
 - (int)EM;
 
 // Remaining properties
-@property(retain, nonatomic) MIPAlbum *album; // @synthesize album=_album;
-@property(retain, nonatomic) MIPArtist *artist; // @synthesize artist=_artist;
-@property(nonatomic) int audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(retain, nonatomic) MIPArtist *composer; // @synthesize composer=_composer;
-@property(nonatomic) int discNumber; // @synthesize discNumber=_discNumber;
-@property(nonatomic) _Bool excludeFromShuffle; // @synthesize excludeFromShuffle=_excludeFromShuffle;
-@property(retain, nonatomic) MIPGenre *genre; // @synthesize genre=_genre;
 @property(readonly, nonatomic) _Bool hasAlbum;
-@property(readonly, nonatomic) _Bool hasArtist;
-@property(nonatomic) _Bool hasAudioFormat;
-@property(readonly, nonatomic) _Bool hasComposer;
-@property(nonatomic) _Bool hasDiscNumber;
-@property(nonatomic) _Bool hasExcludeFromShuffle;
-@property(readonly, nonatomic) _Bool hasGenre;
-@property(nonatomic) _Bool hasHasVideo;
-@property(readonly, nonatomic) _Bool hasHlsPlaylistURL;
-@property(readonly, nonatomic) _Bool hasPlaybackInfo;
-@property(nonatomic) _Bool hasTrackNumber;
-@property(nonatomic) _Bool hasUserRating;
-@property(nonatomic) _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
-@property(retain, nonatomic) NSString *hlsPlaylistURL; // @synthesize hlsPlaylistURL=_hlsPlaylistURL;
-@property(retain, nonatomic) MIPPlaybackInfo *playbackInfo; // @synthesize playbackInfo=_playbackInfo;
-@property(nonatomic) int trackNumber; // @synthesize trackNumber=_trackNumber;
-@property(nonatomic) int userRating; // @synthesize userRating=_userRating;
 
 @end
 

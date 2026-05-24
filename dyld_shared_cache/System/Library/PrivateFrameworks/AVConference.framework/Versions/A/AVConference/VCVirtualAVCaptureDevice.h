@@ -4,53 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceFormat, NSArray, NSMutableArray, NSObject, NSString, VCCannedVideoCaptureSource, VCImageResizingConverter, VCVideoHardwareDumpCollector, VCVirtualAVCaptureHardware;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualAVCaptureDevice
 {
     struct _opaque_pthread_mutex_t _deviceMutex;
-    AVCaptureDevice *_captureDevice;
-    AVCaptureDeviceFormat *_activeFormat;
-    NSMutableArray *_deviceInputs;
-    CDStruct_1b6d18a9 _activeVideoMaxFrameDuration;
-    CDStruct_1b6d18a9 _activeVideoMinFrameDuration;
-    int _lockCount;
-    int _orientation;
-    VCImageResizingConverter *_imageResizingConverter;
-    NSString *_deviceUniqueID;
-    VCCannedVideoCaptureSource *_captureSource;
-    VCVirtualAVCaptureHardware *_captureHardware;
-    struct CGRect _centerStageRectOfInterest;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    VCVideoHardwareDumpCollector *_dumpCollector;
-    NSString *_deviceType;
 }
 
 - (void);
 - (int);
 - (void);
-- (int);
+- (int)kXz;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)clickDisclosureTriangle:(CDStruct_198678f7)arg1;
+- (_Bool)LocalAuthenticationUserTests;
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (id)son=%d;
 - (void)me:(id)arg1 %f/%f sampleTime:(id)arg2 %u/%u (Audio/Video)];
@@ -62,9 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)b%;
 
 // Remaining properties
-@property(nonatomic) struct CGRect centerStageRectOfInterest; // @synthesize centerStageRectOfInterest=_centerStageRectOfInterest;
 @property(retain, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) NSArray *formats;
 
 @end
 

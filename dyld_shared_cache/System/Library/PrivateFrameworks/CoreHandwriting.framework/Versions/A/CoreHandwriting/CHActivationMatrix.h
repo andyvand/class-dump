@@ -9,7 +9,6 @@
 @interface CHActivationMatrix
 {
     _Bool _unlikelyHasLatinContents;
-    CVNLPActivationMatrix *_activations;
 }
 
 - (_Bool);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CVNLPActivationMatrix *activations; // @synthesize activations=_activations;
-@property(nonatomic) _Bool unlikelyHasLatinContents; // @synthesize unlikelyHasLatinContents=_unlikelyHasLatinContents;
 
 @end
 

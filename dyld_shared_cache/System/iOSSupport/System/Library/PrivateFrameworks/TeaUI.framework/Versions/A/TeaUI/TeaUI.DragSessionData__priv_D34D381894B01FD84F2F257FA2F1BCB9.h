@@ -7,7 +7,6 @@
 @interface TeaUI.DragSessionData__priv_D34D381894B01FD84F2F257FA2F1BCB9
 {
     id initialIndexPath;
-    id sourceView;
 }
 
 @end

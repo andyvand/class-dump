@@ -7,17 +7,15 @@
 @interface PHAdjustmentDataRequestBehaviorSpec
 {
     _Bool _networkAccessAllowed;
-    _Bool _synchronous;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)r defaults initialized;
 - (_Bool)£;
 
 // Remaining properties
 @property(nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end
 

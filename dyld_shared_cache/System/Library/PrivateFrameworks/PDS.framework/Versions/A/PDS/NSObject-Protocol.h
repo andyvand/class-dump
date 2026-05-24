@@ -7,14 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)DonatedItems:itemsNeedingDonationForRedonationRequests: /* Error: Ran out of types for this method. */;
+- (id)initWithAllKnownItems:itemsNeedingDonation:donatedItems:partiallyDonatedItems:itemsNeedingDonationForRedonationRequests: /* Error: Ran out of types for this method. */;
+- (id)initWithActivityType:(SEL)arg1 userInfo:(id)arg2;
+- (id)initWithAccountsProvider:(SEL)arg1 mailboxPersistence:(id)arg2 messagePersistence:vipManager: /* Error: Ran out of types for this method. */;
+- (Class):dateSent:dateReceived:sender:recipients: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (NSString *);
+- (_Bool);
+- (_Bool);
+
+@optional
+- (NSString *)photosFaceRepresentationRoll;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

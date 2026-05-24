@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol MNRouteGeniusDelegateProxy, OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface MNRouteGeniusRemoteService
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _started;
-    id <MNRouteGeniusDelegateProxy> _delegate;
 }
 
-- (void);
+- (void)MakeProperty;
 - (_Bool);
 - (void);
 - (void);
@@ -26,13 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

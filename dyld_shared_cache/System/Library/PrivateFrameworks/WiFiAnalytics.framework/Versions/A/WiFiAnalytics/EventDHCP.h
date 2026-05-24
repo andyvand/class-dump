@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)bh#@9J;
 + (void);
 
 @end

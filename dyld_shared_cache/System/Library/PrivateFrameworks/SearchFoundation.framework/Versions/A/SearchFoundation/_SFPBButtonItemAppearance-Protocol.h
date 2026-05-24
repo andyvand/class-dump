@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBColor;
+@class _SFPBColor;
 
 @protocol _SFPBButtonItemAppearance
-- (void)encrypted_muid;
+- (_SFPBColor *)ailed to execute placeholder assets fetch:%@ /* Error: Ran out of types for this method. */;
+- (id)P;
+- (int)_P;
+- (void)_maps_encrypted_muid;
 - (void)U;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool preferNoFallbackImage;
-@property(nonatomic) int renderingMode;
-@property(nonatomic) int role;
 @property(nonatomic) int style;
-@property(retain, nonatomic) _SFPBColor *tintColor;
 @end
 

@@ -6,42 +6,31 @@
 
 #import <MapKit/MKSelectionAccessoryView.h>
 
-@class MKMapItem, NSString, NSView, NSViewController;
+@class MKMapItem, NSViewController;
 
 __attribute__((visibility("hidden")))
 @interface MKViewSwitchingSelectionAccessoryView : MKSelectionAccessoryView
 {
     MKMapItem *_mapItem;
-    _Bool _error;
-    NSViewController *_viewController;
-    NSView *_view;
-    NSViewController *_parentViewController;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)View;
+- (id);
+- (void);
+- (void);
+- (id)sendPreferredContactForImageEvents;
+- (id)mp=%{private}f);
+- (void)selectionAccessoryView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSViewController *parentViewController; // @synthesize parentViewController=_parentViewController;
-@property(readonly) Class superclass;
 
 @end
 

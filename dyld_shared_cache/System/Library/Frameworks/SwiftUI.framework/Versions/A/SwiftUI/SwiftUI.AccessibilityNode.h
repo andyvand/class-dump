@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXChartDescriptor;
-
 @interface SwiftUI.AccessibilityNode
 {
     id id;
-    id version;
-    id children;
-    id bridgedChild;
-    id parent;
-    id viewRendererHost;
-    id source;
-    id isFromDisplayList;
-    id environment;
-    id attachmentsStorage;
-    id cachedCombinedAttachment;
-    id platformElementPropertiesDirty;
-    id platformRotorStorage;
-    id queuedUpdateFocusResponder;
-    id focusResponder;
-    id cachedIsPlaceholderOrIgnored;
-    id relationshipScope;
 }
 
 - (void);
@@ -40,7 +22,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id))
+;
 - (struct _NSRange);
 - (id);
 - (id);
@@ -87,10 +70,10 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)_saveAdditionalSitesForSavedAccount:(SEL)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_rowIDOfCredentialIdentityIfExists: /* Error: Ran out of types for this method. */;
+- (id)* FROM credential_identities;
 - (id);
 - (void);
 - (_Bool);
@@ -109,8 +92,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _accessibilityAllowsAutomationElements;
-@property(nonatomic, retain) AXChartDescriptor *accessibilityChartDescriptor;
-@property(nonatomic, readonly) _Bool accessibilitySupportsOverriddenAttributes;
 
 @end
 

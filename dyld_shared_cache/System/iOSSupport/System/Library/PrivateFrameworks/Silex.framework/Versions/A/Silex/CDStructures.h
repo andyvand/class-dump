@@ -11,12 +11,12 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -40,15 +40,15 @@ struct CLLocationCoordinate2D {
 };
 
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _SXComponentContentInset {
@@ -71,15 +71,15 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    _Bool size;
-    _Bool position;
-    _Bool state;
-} CDStruct_12a35e6e;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+} CDStruct_2a4d9400;
 
 typedef struct {
-    unsigned long long rowIndex;
-    unsigned long long columnIndex;
-} CDStruct_2fea82da;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     unsigned long long _field1;
@@ -96,21 +96,17 @@ typedef struct {
 } CDStruct_d2b197d1;
 
 typedef struct {
-    struct {
-        double x;
-        double y;
-    } origin;
-    struct {
-        double width;
-        double height;
-    } size;
-} CDStruct_02837cd9;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
+
+typedef struct {
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_90e2a262;
 
 typedef struct {
     struct CLLocationCoordinate2D _field1;
-    struct {
-        double _field1;
-        double _field2;
-    } _field2;
+    CDStruct_c3b9c2ee _field2;
 } CDStruct_2b0c6e0b;
 

@@ -6,15 +6,14 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSDateInterval, NSString;
+@class NSDateInterval;
 
 @interface BMEventTimeElapsingImplementor : BMEventBase
 {
     double absoluteTimestamp;
-    double duration;
 }
 
-- (id);
+- (id);
 - (double);
 - (void);
 - (id);
@@ -25,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp;
 @property(copy, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

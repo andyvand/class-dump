@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)FùdÐ1Â0@ù
 × ;
-- (long long)olor;
+- (long long)_resolvedColor;
 - (void)invalid;
 
 @end

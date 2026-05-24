@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSConcreteDateInterval : NSDateInterval
 {
     NSDate *_startDate;
-    double _duration;
 }
 
 - (void);

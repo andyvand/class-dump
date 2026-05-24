@@ -9,30 +9,24 @@ __attribute__((visibility("hidden")))
 {
     OptionSet_5fe9ad94 _entryUsage;
     unsigned int _binding;
-    unsigned long long _usage;
-    unsigned long long _renderStages;
-    variant_7329a776 _resource;
 }
 
 - (void);
-- (void);
+- (void)*;
 - (unsigned long long);
 - (id);
 - (OptionSet_5fe9ad94);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (id);
-- (variant_7329a776);
+- (variant_0ee71da9);
 - (unsigned long long);
 - (void);
 - (void):(unsigned long long)arg1 state != Unmapped;
 
 // Remaining properties
-@property(nonatomic) unsigned int binding; // @synthesize binding=_binding;
-@property(nonatomic) OptionSet_5fe9ad94 entryUsage; // @synthesize entryUsage=_entryUsage;
 @property(nonatomic) unsigned long long renderStages; // @synthesize renderStages=_renderStages;
-@property(nonatomic) variant_7329a776 resource; // @synthesize resource=_resource;
 @property(nonatomic) unsigned long long usage; // @synthesize usage=_usage;
 
 @end

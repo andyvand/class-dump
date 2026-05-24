@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLock, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, _MCBatchingTimerDelegate;
+@class NSDate, NSLock;
 
 @interface _MCBatchingTimer
 {
     NSLock *_timerLock;
-    NSObject<OS_dispatch_source> *_timer;
-    NSDate *_targetDate;
-    double _minimumTimeout;
-    id <_MCBatchingTimerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -22,15 +16,12 @@
 - (id);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <_MCBatchingTimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double minimumTimeout; // @synthesize minimumTimeout=_minimumTimeout;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) NSDate *targetDate; // @synthesize targetDate=_targetDate;
 
 @end

@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLServerFeedbackMessage, NSDate, NSString;
+@class NSDate, NSString;
 
 @interface CPLFeedbackMessage
 {
     NSDate *_creationDate;
-    NSString *_libraryIdentifier;
-    NSString *_feedbackType;
 }
 
-+ (id)sk;
++ (id)_fetchRecordsTask;
 - (id);
 - (id);
 - (id);
-- (id))ñEù)@ù?ëA;
+- (id);
 - (void)! Cùñð1Â0@ù
 × ;
-- (id)ions;
+- (id)canBoostBackgroundOperations;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *feedbackType; // @synthesize feedbackType=_feedbackType;
 @property(readonly, nonatomic) NSString *libraryIdentifier; // @synthesize libraryIdentifier=_libraryIdentifier;
-@property(readonly, nonatomic) NSString *libraryIdentifierDescription;
-@property(readonly, nonatomic) CPLServerFeedbackMessage *serverMessage;
 
 @end
 

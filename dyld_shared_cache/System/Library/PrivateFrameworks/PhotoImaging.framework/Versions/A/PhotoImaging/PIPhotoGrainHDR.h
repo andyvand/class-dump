@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIPhotoGrainHDR
 {
     CIImage *inputImage;
-    NSNumber *inputISO;
-    NSNumber *inputAmount;
-    NSNumber *inputSeed;
 }
 
 + (id);
+- (id);
+- (id)GenerationHelper.m;
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void)StyleRecipeConfigDirectoryPath: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)setStyleRecipeConfigDirectoryPath: /* Error: Ran out of types for this method. */;
+- (id)scalePolicy;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAmount; // @synthesize inputAmount;
-@property(copy, nonatomic) NSNumber *inputISO; // @synthesize inputISO;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputSeed; // @synthesize inputSeed;
 
 @end
 

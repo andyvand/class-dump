@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _WKFrameHandle;
-
 __attribute__((visibility("hidden")))
 @interface PrintSheetConfigurationInfo
 {
     _Bool _waitUntilDone;
-    _WKFrameHandle *_frameHandle;
-    struct CGSize _pdfFirstPageSize;
 }
 
 - (_Bool);
@@ -21,8 +17,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _WKFrameHandle *frameHandle; // @synthesize frameHandle=_frameHandle;
-@property(readonly, nonatomic) struct CGSize pdfFirstPageSize; // @synthesize pdfFirstPageSize=_pdfFirstPageSize;
 @property(readonly, nonatomic, getter=shouldWaitUntilDone) _Bool waitUntilDone; // @synthesize waitUntilDone=_waitUntilDone;
 
 @end

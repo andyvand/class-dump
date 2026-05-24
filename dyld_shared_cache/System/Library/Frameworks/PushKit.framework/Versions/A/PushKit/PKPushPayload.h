@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKPushPayload
 {
     NSString *_type;
-    NSDictionary *_dictionaryPayload;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *dictionaryPayload; // @synthesize dictionaryPayload=_dictionaryPayload;
 @property(copy) NSString *type; // @synthesize type=_type;
 
 @end

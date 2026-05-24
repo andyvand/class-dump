@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Signing)
-- (id);
+- (id)initWithAccount:(int)arg1 freeSetting:paidSetting:delegate:bag: /* Error: Ran out of types for this method. */;
 @end
 

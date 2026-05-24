@@ -7,26 +7,22 @@
 @interface TSWPListLabelGeometry
 {
     double mScale;
-    double mBaselineOffset;
-    _Bool mScaleWithText;
 }
 
 + (id);
-- (void);
-- (_Bool);
+- (void)rk - AutoPlay triggered;
+- (_Bool)requestURL;
 - (id);
 - (id);
 - (double);
-- (_Bool);
-- (id);
+- (_Bool)ed;
+- (id)0;
 - (void);
 - (double)48B56;
-- (void)ContainedReps;
+- (void)shouldNotAddContainedReps;
 
 // Remaining properties
-@property(nonatomic) double baselineOffset; // @synthesize baselineOffset=mBaselineOffset;
 @property(nonatomic) double scale; // @synthesize scale=mScale;
-@property(nonatomic) _Bool scaleWithText; // @synthesize scaleWithText=mScaleWithText;
 
 @end
 

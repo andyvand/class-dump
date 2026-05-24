@@ -8,11 +8,10 @@
 
 @interface UnknownClass (MNExtras)
 - (id);
-- (id);
+- (id)-G4;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *destinationListInstructionString;
 @property(readonly, nonatomic) NSString *originListInstructionString;
 @end
 

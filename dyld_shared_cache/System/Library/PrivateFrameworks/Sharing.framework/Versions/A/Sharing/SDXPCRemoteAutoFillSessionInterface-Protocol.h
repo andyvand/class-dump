@@ -5,5 +5,7 @@
 //
 
 @protocol SDXPCRemoteAutoFillSessionInterface
+- (void);
+- (void);
 @end
 

@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface TUBusinessCallerItem
 {
     NSString *_department;
-    NSURL *_logoURL;
-    NSString *_name;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)ns1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/WebProcess/WebPage/WebPage.cpp;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)rby;
+- (void)nearby;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *department; // @synthesize department=_department;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSURL *logoURL; // @synthesize logoURL=_logoURL;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

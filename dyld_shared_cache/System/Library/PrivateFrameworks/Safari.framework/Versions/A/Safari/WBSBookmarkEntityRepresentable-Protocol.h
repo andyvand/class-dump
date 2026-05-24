@@ -14,7 +14,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *UUID;
-@property(readonly, copy) NSString *title;
-@property(readonly, copy, nonatomic) NSURL *url;
 @end
 

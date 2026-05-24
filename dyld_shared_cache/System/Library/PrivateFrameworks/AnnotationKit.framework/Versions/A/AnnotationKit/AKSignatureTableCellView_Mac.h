@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton;
-@protocol AKSignatureTableCellViewDelegate;
-
 @interface AKSignatureTableCellView_Mac
 {
     _Bool _eventsCurrentlyInside;
-    id <AKSignatureTableCellViewDelegate> _tableCellViewDelegate;
-    id _viewEventMonitor;
-    NSButton *_deleteButton;
 }
 
 - (id);
@@ -24,18 +18,15 @@
 - (void);
 - (void);
 - (void);
+- (void).rowId)), first_value(r.payload) OVER (ORDER BY r.rowId) FROM batchStatus s LEFT JOIN records r ON s.batchId = r.batchId WHERE s.batchId=? GROUP BY s.batchId;;
 - (void);
-- (void);
-- (void);
+- (void)_cpuLoadPort;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSButton *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property _Bool eventsCurrentlyInside; // @synthesize eventsCurrentlyInside=_eventsCurrentlyInside;
-@property __weak id <AKSignatureTableCellViewDelegate> tableCellViewDelegate; // @synthesize tableCellViewDelegate=_tableCellViewDelegate;
 @property(retain) id viewEventMonitor; // @synthesize viewEventMonitor=_viewEventMonitor;
 
 @end

@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class SMHandle, SMMessage;
+@class SMMessage;
 
 @interface SMMessageReceivedNotification : RTNotification
 {
     _Bool _fromMe;
-    SMMessage *_message;
-    SMHandle *_from;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 - (void)ta.;
 
 // Remaining properties
-@property(readonly, nonatomic) SMHandle *from; // @synthesize from=_from;
-@property(readonly, nonatomic) _Bool fromMe; // @synthesize fromMe=_fromMe;
 @property(readonly, nonatomic) SMMessage *message; // @synthesize message=_message;
 
 @end

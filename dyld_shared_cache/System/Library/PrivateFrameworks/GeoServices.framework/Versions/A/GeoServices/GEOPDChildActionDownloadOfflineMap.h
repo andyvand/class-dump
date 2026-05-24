@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)P;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ificationParameters";
-- (id)ame;
+- (id)_captionDisplayName;
 - (id)¬ô4V´õDV´õTV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)¶¡	*ð?;
 

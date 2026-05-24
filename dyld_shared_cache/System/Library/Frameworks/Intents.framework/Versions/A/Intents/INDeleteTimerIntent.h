@@ -6,19 +6,19 @@
 
 #import <Intents/INIntent.h>
 
-@class INTimer, NSNumber, NSString;
+@class INTimer;
 
 @interface INDeleteTimerIntent : INIntent
 {
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -31,14 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSNumber *deleteMultiple;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy) INTimer *targetTimer;
 
 @end

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CADisplayWallGroup
 {
     unsigned int _groupID;
-    NSArray *_displays;
 }
 
 - (id);
@@ -18,7 +15,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *displays; // @synthesize displays=_displays;
 @property(readonly, nonatomic) unsigned int groupID; // @synthesize groupID=_groupID;
 
 @end

@@ -6,19 +6,11 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UINavigationController, UITableViewController;
+@class NSString;
 
 @interface UIReferenceLibraryViewController : UIViewController
 {
     NSString *_term;
-    NSArray *_definitionValues;
-    UINavigationController *_baseNavController;
-    UITableViewController *_multiDefViewController;
-    UIViewController *_longDefViewController;
-    long long _oldPopoverStyle;
-    _Bool _enableRotation;
-    _Bool _previousIgnoreOrientation;
-    CDUnknownBlockType _dismissCompletionHandler;
 }
 
 + (_Bool);
@@ -32,41 +24,41 @@
 + (_Bool);
 + (id);
 + (id);
+- (void)_automation_markAsReadQuery:(id)arg1 finishedWithResult:(long long)arg2;
+- (id)IMDLocalDaemon;
+- (double)IMDBackgroundMessagingAPIMessageRegistry;
+- (void);
+- (void);
+- (void);
+- (id)ion for IMDBackgroundMessagingAPIListener;
+- (_Bool)expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)@ from pending nickname updates;
+- (void)ctivity state was NOT in state continue(4), was in state %ld!;
+- (void)K=;
 - (void);
 - (id);
-- (double);
+- (long long)R;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (CDUnknownBlockType);
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool)P;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)mmcs_nshttp_did_open;
 - (long long);
+- (void)__role_KEY;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (long long);
+- (long long)	;
 - (void)
 × ;
 - (void)tered with the identifier '%@'. Identifiers can only be registered once.;
@@ -76,14 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType dismissCompletionHandler; // @synthesize dismissCompletionHandler=_dismissCompletionHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

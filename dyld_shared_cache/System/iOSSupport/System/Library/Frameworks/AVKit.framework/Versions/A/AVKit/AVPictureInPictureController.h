@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPictureInPictureControllerContentSource, AVPictureInPicturePlatformAdapter, AVPictureInPictureViewController, AVPlayerController, AVPlayerLayer, NSString;
-@protocol AVPictureInPictureContentSource, AVPictureInPictureControllerDelegate, AVPictureInPictureControllerExtendedDelegate, AVPictureInPicturePrerollDelegate;
+@class AVPictureInPicturePlatformAdapter;
 
 @interface AVPictureInPictureController
 {
     _Bool _canPausePlaybackWhenClosingPictureInPicture;
-    _Bool _microphoneEnabled;
-    _Bool _requiresLinearPlayback;
-    _Bool _pictureInPicturePossible;
-    _Bool _pictureInPictureActive;
-    _Bool _pictureInPictureSuspended;
-    _Bool _canStopPictureInPicture;
-    _Bool _otherPictureInPictureActive;
-    _Bool _wantsImmediateAssetInspection;
-    _Bool _wasPlayingWhenPictureInPictureInterruptionBegan;
-    _Bool _wantsResourceReduction;
-    _Bool _retainsSourceDuringPictureInPicturePlayback;
-    _Bool _allowsPictureInPicturePlayback;
-    _Bool _allowsPictureInPictureFromInlineWhenEnteringBackground;
-    _Bool _pictureInPictureWasStartedWhenEnteringBackground;
-    _Bool _canStartAutomaticallyWhenEnteringBackground;
-    AVPlayerLayer *_playerLayer;
-    long long _controlsStyle;
-    AVPictureInPictureControllerContentSource *_contentSource;
-    id <AVPictureInPictureControllerDelegate> _delegate;
-    AVPictureInPicturePlatformAdapter *_platformAdapter;
-    AVObservationController *_observationController;
-    id <AVPictureInPictureContentSource> _sourceIfRetainedDuringPictureInPicturePlayback;
-    id _playerControllerIsPlayingObservationToken;
-    id <AVPictureInPictureControllerExtendedDelegate> __extendedDelegate;
-    id <AVPictureInPictureContentSource> _source;
-    AVPlayerController *_playerController;
-    id <AVPictureInPicturePrerollDelegate> _prerollDelegate;
 }
 
 + (id);
@@ -54,6 +26,13 @@
 - (id);
 - (void);
 - (void);
+- (void)5;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -62,16 +41,9 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -85,7 +57,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -94,7 +66,7 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -104,85 +76,48 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)k@;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (id);
+- (void);
+- (void)	K	;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void)!Bùq[°1Â0@ù
 × ;
-- (id)ectingFullScreen;
+- (id)keyPathsForValuesAffectingFullScreen;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVPictureInPictureControllerExtendedDelegate> _extendedDelegate; // @synthesize _extendedDelegate=__extendedDelegate;
-@property(nonatomic) _Bool allowsPictureInPictureFromInlineWhenEnteringBackground; // @synthesize allowsPictureInPictureFromInlineWhenEnteringBackground=_allowsPictureInPictureFromInlineWhenEnteringBackground;
-@property(nonatomic) _Bool allowsPictureInPicturePlayback; // @synthesize allowsPictureInPicturePlayback=_allowsPictureInPicturePlayback;
-@property(nonatomic) long long backgroundPlaybackPolicy;
-@property(nonatomic) _Bool canPausePlaybackWhenClosingPictureInPicture; // @synthesize canPausePlaybackWhenClosingPictureInPicture=_canPausePlaybackWhenClosingPictureInPicture;
-@property(nonatomic) _Bool canStartAutomaticallyWhenEnteringBackground; // @synthesize canStartAutomaticallyWhenEnteringBackground=_canStartAutomaticallyWhenEnteringBackground;
-@property(nonatomic) _Bool canStartPictureInPictureAutomaticallyFromInline;
-@property(nonatomic, setter=_setCanStopPictureInPicture:) _Bool canStopPictureInPicture; // @synthesize canStopPictureInPicture=_canStopPictureInPicture;
-@property(retain, nonatomic) AVPictureInPictureControllerContentSource *contentSource; // @synthesize contentSource=_contentSource;
-@property(nonatomic) long long controlsStyle; // @synthesize controlsStyle=_controlsStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVPictureInPictureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMicrophoneEnabled) _Bool microphoneEnabled; // @synthesize microphoneEnabled=_microphoneEnabled;
-@property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(nonatomic, getter=isOtherPictureInPictureActive) _Bool otherPictureInPictureActive; // @synthesize otherPictureInPictureActive=_otherPictureInPictureActive;
-@property(nonatomic, getter=isPictureInPictureActive) _Bool pictureInPictureActive; // @synthesize pictureInPictureActive=_pictureInPictureActive;
-@property(nonatomic, getter=isPictureInPicturePossible) _Bool pictureInPicturePossible; // @synthesize pictureInPicturePossible=_pictureInPicturePossible;
-@property(nonatomic, getter=isPictureInPictureSuspended) _Bool pictureInPictureSuspended; // @synthesize pictureInPictureSuspended=_pictureInPictureSuspended;
-@property(readonly, nonatomic) AVPictureInPictureViewController *pictureInPictureViewController;
-@property(nonatomic) _Bool pictureInPictureWasStartedWhenEnteringBackground; // @synthesize pictureInPictureWasStartedWhenEnteringBackground=_pictureInPictureWasStartedWhenEnteringBackground;
 @property(readonly, nonatomic) AVPictureInPicturePlatformAdapter *platformAdapter; // @synthesize platformAdapter=_platformAdapter;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(retain, nonatomic) id playerControllerIsPlayingObservationToken; // @synthesize playerControllerIsPlayingObservationToken=_playerControllerIsPlayingObservationToken;
-@property(readonly, nonatomic) AVPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
-@property(nonatomic) __weak id <AVPictureInPicturePrerollDelegate> prerollDelegate; // @synthesize prerollDelegate=_prerollDelegate;
-@property(nonatomic) _Bool requiresLinearPlayback; // @synthesize requiresLinearPlayback=_requiresLinearPlayback;
-@property(nonatomic) _Bool retainsSourceDuringPictureInPicturePlayback; // @synthesize retainsSourceDuringPictureInPicturePlayback=_retainsSourceDuringPictureInPicturePlayback;
-@property(readonly, nonatomic) __weak id <AVPictureInPictureContentSource> source; // @synthesize source=_source;
-@property(retain, nonatomic) id <AVPictureInPictureContentSource> sourceIfRetainedDuringPictureInPicturePlayback; // @synthesize sourceIfRetainedDuringPictureInPicturePlayback=_sourceIfRetainedDuringPictureInPicturePlayback;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsImmediateAssetInspection; // @synthesize wantsImmediateAssetInspection=_wantsImmediateAssetInspection;
-@property(readonly, nonatomic) _Bool wantsResourceReduction; // @synthesize wantsResourceReduction=_wantsResourceReduction;
-@property(nonatomic) _Bool wasPlayingWhenPictureInPictureInterruptionBegan; // @synthesize wasPlayingWhenPictureInPictureInterruptionBegan=_wasPlayingWhenPictureInPictureInterruptionBegan;
 
 @end
 

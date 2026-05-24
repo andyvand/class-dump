@@ -7,13 +7,10 @@
 @interface PGEventLabelingFeaturesFileCache
 {
     id delimiterByte;
-    id cacheFile;
-    id cacheFileURL;
-    id featureExtractorsForCaching;
 }
 
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool)__trackerQueue;
 - (_Bool);
 - (_Bool);
 - (id);

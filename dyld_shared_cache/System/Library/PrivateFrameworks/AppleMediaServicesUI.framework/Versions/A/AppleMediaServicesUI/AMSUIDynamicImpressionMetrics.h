@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIDynamicImpressionMetricsIdentifier, NSDictionary;
+@class NSDictionary;
 
 @interface AMSUIDynamicImpressionMetrics
 {
     NSDictionary *_custom;
-    NSDictionary *_fields;
-    AMSUIDynamicImpressionMetricsIdentifier *_identifier;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)rapperContext: /* Error: Ran out of types for this method. */;
-- (id)alogCoordinator;
+- (void)setWrapperContext: /* Error: Ran out of types for this method. */;
+- (id)ReviewDialogCoordinator;
 
 // Remaining properties
 @property(retain) NSDictionary *custom; // @synthesize custom=_custom;
-@property(retain) NSDictionary *fields; // @synthesize fields=_fields;
-@property(retain) AMSUIDynamicImpressionMetricsIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

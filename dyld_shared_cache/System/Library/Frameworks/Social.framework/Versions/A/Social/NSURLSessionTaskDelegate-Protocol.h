@@ -9,7 +9,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)tCallback:(NSURLSession *)arg1 withContext:(NSURLSessionTask *)arg2;
+- (void);
+- (void)_setCallback:(NSURLSession *)arg1 withContext:(NSURLSessionTask *)arg2;
 - (void);
 @end
 

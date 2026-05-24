@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHEmergencyMediaItem, CallRecord, NSString;
+@class CHEmergencyMediaItem;
 
 __attribute__((visibility("hidden")))
 @interface EmergencyMediaItem
@@ -13,15 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)class];
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetId; // @dynamic assetId;
 @property(readonly, nonatomic) CHEmergencyMediaItem *chEmergencyMediaItem;
-@property(nonatomic) long long emergencyMediaType; // @dynamic emergencyMediaType;
-@property(retain, nonatomic) CallRecord *uploadedForCall; // @dynamic uploadedForCall;
 
 @end
 

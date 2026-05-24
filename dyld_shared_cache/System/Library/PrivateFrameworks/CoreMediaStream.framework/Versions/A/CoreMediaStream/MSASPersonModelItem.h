@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSASAlbum, NSString;
-@protocol NSObject;
-
 @interface MSASPersonModelItem
 {
     int _errorCount;
-    MSASAlbum *_album;
-    NSString *_albumGUID;
-    id <NSObject> _object;
 }
 
 - (void);
@@ -20,18 +14,15 @@
 - (id);
 - (id);
 - (void);
-- (int);
-- (void);
-- (void);
+- (int)V_accessoryUARPEntryCount;
+- (void)SPParseBufferToCxt:(id)arg1 avg_rd_window_size(8193):Error adding 5 elements to context /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)g;
 
 // Remaining properties
-@property(retain, nonatomic) MSASAlbum *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
 @property(nonatomic) int errorCount; // @synthesize errorCount=_errorCount;
-@property(retain, nonatomic) id <NSObject> object; // @synthesize object=_object;
 
 @end
 

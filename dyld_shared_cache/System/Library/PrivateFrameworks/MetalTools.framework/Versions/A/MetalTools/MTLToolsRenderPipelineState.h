@@ -6,17 +6,14 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLDebugInstrumentationData, MTLRenderPipelineReflection, NSString;
-@protocol MTLComputePipelineState, MTLDevice;
-
 @interface MTLToolsRenderPipelineState : MTLToolsObject
 {
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)*;
+- (id);
 - (id);
 - (void);
 - (unsigned int);
@@ -39,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)u;
 - (void);
 - (id);
 - (unsigned long long);
@@ -51,14 +48,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)N5MeCab8FreeListI23mecab_dictionary_info_tEE;
 - (unsigned int);
 - (id);
 - (unsigned long long);
 - (CDStruct_14f26992);
-- (_Bool);
+- (_Bool)(;
 - (id);
-- (void);
+- (void)Q;
 - (id);
 - (unsigned long long);
 - (CDStruct_14f26992);
@@ -74,19 +71,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (id);
-- (void);
+- (void)?C;
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h ;
 - (void);
 - (void);
+- (id)r( ;
+- (id) ;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)b;
 - (unsigned long long);
 - (void);
 - (id);
@@ -109,78 +106,10 @@
 - (long long)r;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allocatedSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(nonatomic) unsigned long long emulationMeshMaxPrimitiveCount;
-@property(nonatomic) unsigned long long emulationMeshMaxVertexCount;
-@property(readonly, retain, nonatomic) id <MTLComputePipelineState> emulationMeshPrefixSum1PSO;
-@property(readonly, retain, nonatomic) id <MTLComputePipelineState> emulationMeshPrefixSum2PSO;
-@property(readonly, retain, nonatomic) id <MTLComputePipelineState> emulationMeshPrefixSum3PSO;
-@property(nonatomic) unsigned long long emulationMeshShaderIntermediateBufferSlot;
-@property(retain, nonatomic) id <MTLComputePipelineState> emulationMeshShaderPSO;
-@property(nonatomic) unsigned long long emulationMeshSize;
-@property(readonly, retain, nonatomic) id <MTLComputePipelineState> emulationNoObjectPrefixSumPSO;
-@property(readonly, retain, nonatomic) id <MTLComputePipelineState> emulationObjectPrefixSumPSO;
-@property(nonatomic) unsigned long long emulationObjectShaderIntermediateBufferSlot;
-@property(retain, nonatomic) id <MTLComputePipelineState> emulationObjectShaderPSO;
-@property(nonatomic) unsigned long long emulationPayloadMemoryLength;
-@property(nonatomic) unsigned long long emulationPrimitiveTopology;
-@property(nonatomic) unsigned long long emulationVertexShaderIntermediateBufferSlot;
-@property(readonly, nonatomic) unsigned int explicitVisibilityGroupID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *fragmentDebugInstrumentationData;
-@property(nonatomic) unsigned long long fragmentGlobalConstantsBase;
-@property(nonatomic) unsigned long long fragmentGlobalConstantsSize;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long imageblockSampleLength;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadgroupsPerMeshGrid;
-@property(readonly) unsigned long long maxTotalThreadsPerMeshThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerObjectThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *meshDebugInstrumentationData;
-@property(nonatomic) unsigned long long meshGlobalConstantsBase;
-@property(nonatomic) unsigned long long meshGlobalConstantsSize;
-@property(readonly) unsigned long long meshThreadExecutionWidth;
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *objectDebugInstrumentationData;
-@property(nonatomic) unsigned long long objectGlobalConstantsBase;
-@property(nonatomic) unsigned long long objectGlobalConstantsSize;
-@property(readonly) unsigned long long objectThreadExecutionWidth;
-@property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerTileThreadgroup;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
 
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) long long textureWriteRoundingMode;
-@property(readonly) _Bool threadgroupSizeMatchesTileSize;
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *tileDebugInstrumentationData;
-@property(nonatomic) unsigned long long tileGlobalConstantsBase;
-@property(nonatomic) unsigned long long tileGlobalConstantsSize;
-@property(readonly) unsigned long long uniqueIdentifier;
-@property(nonatomic) _Bool usesMeshShaderEmulation;
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *vertexDebugInstrumentationData;
-@property(nonatomic) unsigned long long vertexGlobalConstantsBase;
-@property(nonatomic) unsigned long long vertexGlobalConstantsSize;
 
 @end
 

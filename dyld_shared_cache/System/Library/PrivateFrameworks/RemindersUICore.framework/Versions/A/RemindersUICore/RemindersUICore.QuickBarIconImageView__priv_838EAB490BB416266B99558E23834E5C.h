@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)A/SystemConfiguration;
 - (id);
 - (id);
 

@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLPlatformObject, NSMutableArray, NSObject, NSString, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CPLEngineFileStorage
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSString *_logDomain;
-    NSURL *_crashMarkerURL;
-    NSMutableArray *_uncommittedFiles;
-    _Bool _trackAllStoresAndDeletesUntilEndOfTransaction;
-    _Bool _shouldResetPlatformTrackAllStoresAndDeletes;
-    _Bool _keepOriginals;
-    _Bool _deleteImmediately;
-    CPLPlatformObject *_platformObject;
-    NSURL *_baseURL;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)ching database at %s;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -43,61 +34,49 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool)e;
-- (_Bool)hed scope:(id)arg1 %@ vs. %@;
-- (_Bool)ãOÄi;
-- (_Bool)ÿCÑôO©ý{©ýóªô;
-- (void)Cýà;
-- (void)`@ùjâ;
-- (void)ýC;
-- (_Bool)ý{©ý;
-- (_Bool)Ò%°`b;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool)E;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (_Bool)!;
+- (_Bool);
+- (_Bool);
+- (id)#;
+- (void);
+- (_Bool)(;
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (id)q!;
+- (id)`;
 - (_Bool);
 - (_Bool)Ð!,EùÑÐ1Â0@ù
 × ;
 - (void)
 × ;
-- (id)rrentForcedTask;
+- (id)_currentForcedTask;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool deleteImmediately; // @synthesize deleteImmediately=_deleteImmediately;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool keepOriginals; // @synthesize keepOriginals=_keepOriginals;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool trackAllStoresAndDeletes;
-@property(nonatomic) _Bool trackAllStoresAndDeletesUntilEndOfTransaction;
 
 @end
 

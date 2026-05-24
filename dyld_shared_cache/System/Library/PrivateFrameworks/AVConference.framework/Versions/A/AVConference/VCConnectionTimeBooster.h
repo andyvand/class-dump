@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface VCConnectionTimeBooster
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    VCAudioCaptionsSpeechRecognizer *_audioCaptions;
 }
 
 - (void);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);

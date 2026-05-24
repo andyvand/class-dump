@@ -6,21 +6,18 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSArray;
-
 @interface TSPObjectContainer : TSPObject
 {
     unsigned char _packageIdentifier;
-    NSArray *_childObjects;
 }
 
-+ (long long);
-- (long long);
-- (_Bool);
-- (void);
++ (long long);
+- (long long)hanged;
+- (_Bool)ter HomePod);
+- (void)ackController - player item did become current:(id)arg1;
+- (id)ate state ;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int) n;
 - (id)CGPath=}16@24@32;
 - (void)àÇ;
 

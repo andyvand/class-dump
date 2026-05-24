@@ -11,11 +11,11 @@
     _Bool _shouldSuppressMiniCal;
 }
 
-+ (id);
-- (void);
++ (id)!c;
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

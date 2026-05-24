@@ -7,11 +7,6 @@
 @interface NewsUI2.TagFeedRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
-    id featureAvailability;
 }
 
 @end

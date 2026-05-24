@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SignpostSupportExactProcessNameFilter, SignpostSupportPIDFilter, SignpostSupportSubsystemCategoryFilter, SignpostSupportUniquePIDFilter;
+@class SignpostSupportSubsystemCategoryFilter;
 
 @interface SignpostSerializationFilterConfiguration
 {
     SignpostSupportSubsystemCategoryFilter *_subsystemCategoryFilter;
-    SignpostSupportPIDFilter *_pidFilter;
-    SignpostSupportUniquePIDFilter *_uniquePidFilter;
-    SignpostSupportExactProcessNameFilter *_processNameFilter;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)textView:writeCell:atIndex:toPasteboard:type: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 willChangeSelectionFromCharacterRange:toCharacterRange: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 shouldSetSpellingState:range: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 draggedCell:inRect:event: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 doubleClickedOnCell:inRect:atIndex: /* Error: Ran out of types for this method. */;
+- (id)textAttributesPopover;
+- (id)textAttributesButton;
+- (id)stringWithContentsOfFile:encoding:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SignpostSupportPIDFilter *pidFilter; // @synthesize pidFilter=_pidFilter;
-@property(retain, nonatomic) SignpostSupportExactProcessNameFilter *processNameFilter; // @synthesize processNameFilter=_processNameFilter;
 @property(retain, nonatomic) SignpostSupportSubsystemCategoryFilter *subsystemCategoryFilter; // @synthesize subsystemCategoryFilter=_subsystemCategoryFilter;
-@property(retain, nonatomic) SignpostSupportUniquePIDFilter *uniquePidFilter; // @synthesize uniquePidFilter=_uniquePidFilter;
 
 @end
 

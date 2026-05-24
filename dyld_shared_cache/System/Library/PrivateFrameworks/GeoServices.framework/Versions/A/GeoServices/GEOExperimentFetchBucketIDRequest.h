@@ -6,27 +6,19 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOExperimentFetchBucketIDRequest : GEOXPCRequest
 {
 }
 
-+ (Class);
++ (Class)_emailAddresses;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)__objc_imageinfo__DATA_CONST;
 - (void)reCountry:(id)arg1 oldDevicePostureRegion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

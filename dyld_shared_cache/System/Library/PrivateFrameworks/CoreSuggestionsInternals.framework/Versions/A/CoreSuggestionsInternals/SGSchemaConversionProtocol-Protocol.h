@@ -5,5 +5,6 @@
 //
 
 @protocol SGSchemaConversionProtocol
++ (id)__eh_frame;
 @end
 

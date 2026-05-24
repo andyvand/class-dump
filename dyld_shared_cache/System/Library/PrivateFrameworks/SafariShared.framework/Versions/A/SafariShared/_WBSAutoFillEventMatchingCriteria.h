@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID;
+@class NSString;
 
 @interface _WBSAutoFillEventMatchingCriteria
 {
     _Bool _shouldAllowPrivateTabs;
-    _Bool _shouldRemoveMatchingEvent;
-    _Bool _shouldIncludeExternalCredentialEvents;
-    _Bool _onlyEventsWhenPasswordWasFilled;
-    NSString *_username;
-    double _timeInterval;
-    NSUUID *_tabID;
-    NSURL *_currentURL;
 }
 
 - (id);
@@ -25,18 +18,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)relatedExtensionsForURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)À;
 - (double) ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *currentURL; // @synthesize currentURL=_currentURL;
-@property(readonly, nonatomic) _Bool onlyEventsWhenPasswordWasFilled; // @synthesize onlyEventsWhenPasswordWasFilled=_onlyEventsWhenPasswordWasFilled;
-@property(readonly, nonatomic) _Bool shouldAllowPrivateTabs; // @synthesize shouldAllowPrivateTabs=_shouldAllowPrivateTabs;
-@property(readonly, nonatomic) _Bool shouldIncludeExternalCredentialEvents; // @synthesize shouldIncludeExternalCredentialEvents=_shouldIncludeExternalCredentialEvents;
-@property(readonly, nonatomic) _Bool shouldRemoveMatchingEvent; // @synthesize shouldRemoveMatchingEvent=_shouldRemoveMatchingEvent;
-@property(readonly, nonatomic) NSUUID *tabID; // @synthesize tabID=_tabID;
-@property(readonly, nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

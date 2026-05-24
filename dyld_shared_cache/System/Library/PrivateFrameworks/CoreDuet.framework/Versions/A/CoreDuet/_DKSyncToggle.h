@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-
 @interface _DKSyncToggle
 {
     _Bool _enabled;
-    NSObject *_object;
-    NSString *_name;
-    SEL _enableSelector;
-    SEL _disableSelector;
 }
 
-- (void);
+- (void)~@@1;
 - (void);
 - (id);
 - (void);

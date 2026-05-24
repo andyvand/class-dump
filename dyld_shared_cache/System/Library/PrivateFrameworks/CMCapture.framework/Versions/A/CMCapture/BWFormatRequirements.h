@@ -11,7 +11,7 @@
 - (unsigned int);
 - (id);
 - (_Bool)orFaceFiltering;
-- (Class)zedName;
+- (Class)LocalizedName;
 
 // Remaining properties
 @property(readonly) unsigned int mediaType;

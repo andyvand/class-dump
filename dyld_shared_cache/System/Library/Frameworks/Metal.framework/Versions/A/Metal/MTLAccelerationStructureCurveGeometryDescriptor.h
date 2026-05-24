@@ -11,22 +11,6 @@
 @interface MTLAccelerationStructureCurveGeometryDescriptor : MTLAccelerationStructureGeometryDescriptor
 {
     id <MTLBuffer> _controlPointBuffer;
-    unsigned long long _controlPointBufferOffset;
-    unsigned long long _controlPointCount;
-    unsigned long long _controlPointStride;
-    unsigned long long _controlPointFormat;
-    id <MTLBuffer> _radiusBuffer;
-    unsigned long long _radiusBufferOffset;
-    unsigned long long _radiusFormat;
-    unsigned long long _radiusStride;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _indexType;
-    unsigned long long _segmentCount;
-    unsigned long long _segmentControlPointCount;
-    long long _curveBasis;
-    long long _curveType;
-    long long _endCaps;
 }
 
 + (id);
@@ -34,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)a;
+- (void)y=;
 - (void);
 - (void);
 - (void);
@@ -68,31 +52,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (unsigned long long)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> controlPointBuffer; // @synthesize controlPointBuffer=_controlPointBuffer;
-@property(nonatomic) unsigned long long controlPointBufferOffset; // @synthesize controlPointBufferOffset=_controlPointBufferOffset;
-@property(nonatomic) unsigned long long controlPointCount; // @synthesize controlPointCount=_controlPointCount;
-@property(nonatomic) unsigned long long controlPointFormat; // @synthesize controlPointFormat=_controlPointFormat;
-@property(nonatomic) unsigned long long controlPointStride; // @synthesize controlPointStride=_controlPointStride;
-@property(nonatomic) long long curveBasis; // @synthesize curveBasis=_curveBasis;
-@property(nonatomic) long long curveEndCaps; // @synthesize curveEndCaps=_endCaps;
-@property(nonatomic) long long curveType; // @synthesize curveType=_curveType;
 @property(nonatomic) long long endCaps;
-@property(retain, nonatomic) id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(retain, nonatomic) id <MTLBuffer> radiusBuffer; // @synthesize radiusBuffer=_radiusBuffer;
-@property(nonatomic) unsigned long long radiusBufferOffset; // @synthesize radiusBufferOffset=_radiusBufferOffset;
-@property(nonatomic) unsigned long long radiusFormat; // @synthesize radiusFormat=_radiusFormat;
-@property(nonatomic) unsigned long long radiusStride; // @synthesize radiusStride=_radiusStride;
-@property(nonatomic) unsigned long long segmentControlPointCount; // @synthesize segmentControlPointCount=_segmentControlPointCount;
-@property(nonatomic) unsigned long long segmentCount; // @synthesize segmentCount=_segmentCount;
 
 @end
 

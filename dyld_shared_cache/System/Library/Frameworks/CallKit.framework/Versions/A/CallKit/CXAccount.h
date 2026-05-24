@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXHandle, NSString, NSUUID;
+@class NSUUID;
 
 @interface CXAccount
 {
     NSUUID *_UUID;
-    NSString *_accountDescription;
-    NSString *_shortLabel;
-    CXHandle *_handle;
-    NSString *_isoCountryCode;
-    NSString *_serviceName;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)eveloperTokenProvider:%@. /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)__MPModelRelationshipMovieStoreAsset__MAPPING_MISSING__;
+- (void)n:(id)arg1 artworkType:sourceType:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *accountDescription; // @synthesize accountDescription=_accountDescription;
-@property(readonly) CXHandle *handle; // @synthesize handle=_handle;
-@property(readonly, copy) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(readonly, copy) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, copy) NSString *shortLabel; // @synthesize shortLabel=_shortLabel;
 
 @end
 

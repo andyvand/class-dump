@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)eue_t, void (^__strong)(CFStringRef));
++ (_Bool)WebKitCSSFunctionAtRuleEnabled;
 - (id);
 - (void);
 

@@ -6,62 +6,46 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSAttributedString, NSColor, NSPanGestureRecognizer, NSString, NSTextField, NSTouchBarColorPickerSliderArtworkProvider, _NSTouchBarColorPickerSliderKnob, _NSTouchBarColorPickerSliderTrack;
-@protocol NSTouchBarColorPickerSliderMinimizationDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSlider : NSControl
 {
     NSTextField *_label;
-    _NSTouchBarColorPickerSliderTrack *_sliderTrack;
-    _NSTouchBarColorPickerSliderKnob *_sliderKnob;
-    double _doubleValue;
-    NSTouchBarColorPickerSliderArtworkProvider *_artworkProvider;
-    NSColor *_displayedColor;
-    NSPanGestureRecognizer *_panRecognizer;
-    id <NSTouchBarColorPickerSliderMinimizationDelegate> _minimizationDelegate;
-    NSArray *_allowedColorSpaces;
-    long long _labelTextEffect;
-    id _autounbinder;
-    _Bool _valueIsFlipped;
-    _Bool _minimized;
-    _Bool _highlighted;
-    _Bool _active;
-    _Bool _labelIsOnLeadingSideOfKnob;
-    _Bool _labelIsVisible;
-    _Bool _relativeTracking;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)%@;
++ (id)in the pending queue;
++ (id)Proxy Challenge invoking completion with no cred cancel %d;
++ (id)g completion with cred %@ cancel %d;
++ (_Bool)>16;
 + (_Bool);
-+ (_Bool);
+- (id)HasSpringBoard;
+- (_Bool)HasPartiallyOccludedDisplay;
+- (void)OMobileFramebufferGetCanvasSizes failed:%d
+ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
+- (_Bool)`
+;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)py app info response:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -70,13 +54,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (_Bool)o	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -86,16 +70,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
+- (void)string for new path.;
+- (void)ession <%{public}@> %{public}@ finished getting auth headers for session %@ with identifier %@;
 - (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (id)H;
+- (long long)earliestBeginDate;
+- (void)interfaceName;
+- (void)http3DiscoveryStatus;
+- (double)%@);
+- (id)resses.empty();
+- (id)kCFStreamSSLAllowsExpiredRoots;
 - (void);
 - (void);
 - (void);
@@ -103,41 +87,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)mumPointSizeAfterScaling:%g /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
-@property id <NSTouchBarColorPickerSliderMinimizationDelegate> minimizationDelegate; // @synthesize minimizationDelegate=_minimizationDelegate;
-- (_Bool)rs:(id)arg1 action:(id)arg2 destinationIdentifier:relativePosition: /* Error: Ran out of types for this method. */;
-- (float)ion;
+- (id)setMinimizationDelegate:(struct CGRect)arg1;
+- (_Bool)initWithItemIdentifiers:(id)arg1 action:(id)arg2 destinationIdentifier:relativePosition: /* Error: Ran out of types for this method. */;
+- (float)_postWillOrderOffScreenNotification;
 - (void);
 - (void);
 - (_Bool)D$;
 - (int)NSSavePanel APIs!  Please use the interface as described in NSSavePanel.h.;
-- (void)ForFlippedImage;
+- (void)NSImageAddFlipBetweenImageAndRepForFlippedImage;
 - (_Bool)#ÿ;
 - (void)X¯ÿÑ¤h°®ÿÁ¤h¬®ÿ;
 - (id)B;
 
 // Remaining properties
-@property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(copy) NSArray *allowedColorSpaces; // @synthesize allowedColorSpaces=_allowedColorSpaces;
-@property(copy) NSTouchBarColorPickerSliderArtworkProvider *artworkProvider; // @synthesize artworkProvider=_artworkProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSColor *displayedColor; // @synthesize displayedColor=_displayedColor;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool knobIsPressed;
-@property(readonly) double labelAlphaValue;
-@property _Bool labelIsOnLeadingSideOfKnob; // @synthesize labelIsOnLeadingSideOfKnob=_labelIsOnLeadingSideOfKnob;
-@property long long labelTextEffect; // @synthesize labelTextEffect=_labelTextEffect;
-@property(getter=isMinimized) _Bool minimized; // @synthesize minimized=_minimized;
-@property _Bool relativeTracking; // @synthesize relativeTracking=_relativeTracking;
-@property(readonly) Class superclass;
-@property _Bool valueIsFlipped; // @synthesize valueIsFlipped=_valueIsFlipped;
-@property(readonly, copy) NSAttributedString *valueLabel;
 
 @end
 

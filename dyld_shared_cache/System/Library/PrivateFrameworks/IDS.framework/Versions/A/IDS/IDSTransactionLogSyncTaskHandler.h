@@ -6,14 +6,11 @@
 
 #import <IDS/IDSTransactionLogTaskHandler.h>
 
-@class IDSTransactionLogSyncTask, NSObject;
-@protocol IDSTransactionLogTaskHandlerDelegate, OS_dispatch_queue;
+@class IDSTransactionLogSyncTask;
 
 @interface IDSTransactionLogSyncTaskHandler : IDSTransactionLogTaskHandler
 {
     IDSTransactionLogSyncTask *_syncTask;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <IDSTransactionLogTaskHandlerDelegate> _delegate;
 }
 
 - (id);
@@ -25,23 +22,21 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <IDSTransactionLogTaskHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) IDSTransactionLogSyncTask *syncTask; // @synthesize syncTask=_syncTask;
 
 @end

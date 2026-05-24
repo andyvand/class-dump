@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)qA;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetPackIdentifier;

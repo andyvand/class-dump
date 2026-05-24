@@ -6,39 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, UIColor, UIPreviewParameters, UIVisualEffectView, _UITextHighlightBackgroundView;
-
 @interface UITextHighlightView : UIView
 {
     struct UIEdgeInsets _padding;
-    UIPreviewParameters *_overriddenPreviewParameters;
-    _Bool _contentViewValid;
-    _UITextHighlightBackgroundView *_backgroundView;
-    UIVisualEffectView *_contentClippingEffectView;
-    CAShapeLayer *_contentClippingMaskLayer;
-    UIView *_contentView;
-    CDUnknownBlockType _previewProvider;
-    UIColor *_fillColor;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)reply for chat with more than one participant;
+- (void)sed while attempting to create IMFileTransfer:(id)arg1 %@;
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id)Y7HwPgNF7O1ShqV5hLdg1iCBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
 - (void)olorMatrixFillColor;
 - (void)èa;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(retain, nonatomic) UIPreviewParameters *overriddenPreviewParameters; // @synthesize overriddenPreviewParameters=_overriddenPreviewParameters;
 @property(readonly, copy, nonatomic) CDUnknownBlockType previewProvider; // @synthesize previewProvider=_previewProvider;
 
 @end

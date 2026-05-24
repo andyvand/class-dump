@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsUnadjustedOpportunisticDelivery;
-@property(readonly, nonatomic) _Bool wantsSingleHighQualityDelivery;
 @end
 

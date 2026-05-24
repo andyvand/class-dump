@@ -4,57 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSImageSymbolConfiguration, NSMenu, NSString;
-
 @interface NSSegmentItem
 {
     double _fullWidth;
-    double _shrinkage;
-    struct CGRect _imageRect;
-    struct CGRect _labelRect;
-    struct CGRect _menuIndRect;
-    long long _toolTipTag;
-    NSImage *_alternateImage;
-    NSImage *_image;
-    NSString *_label;
-    NSMenu *_menu;
-    long long _tag;
-    NSString *_toolTip;
-    double _width;
-    CDStruct_ac47fae2 _flags;
-    _Bool highlighted;
-    _Bool selected;
-    _Bool disabled;
-    _Bool showsMenuIndicator;
-    _Bool mouseInside;
-    _Bool inactiveStateDisablesRollovers;
-    _Bool showsBadge;
-    _Bool animating;
-    _Bool _rollover;
-    double width;
-    long long index;
-    long long highlightState;
-    unsigned long long imageScaling;
-    long long springLoadingHighlight;
-    long long textAlignment;
-    NSImage *image;
-    NSImage *alternateImage;
-    NSImage *imageToDraw;
-    NSString *label;
-    NSMenu *menu;
-    NSString *toolTip;
-    long long toolTipTag;
-    long long tag;
-    long long badgeValue;
-    NSString *accessibilityLabel;
-    NSString *accessibilityIdentifier;
-    NSArray *accessibilityUserInputLabels;
-    NSImageSymbolConfiguration *_symbolConfiguration;
 }
 
 - (long long);
 - (id);
-- (long long);
+- (long long)P;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -79,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)Ƞr;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -90,20 +47,20 @@
 - (id);
 - (long long);
 - (_Bool);
-- (double);
+- (double)initWithOriginalText:alternatives:identifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ñá3Ð1Â0@ù
 × ;
-- (void)asOrthogonalSections;
-- (id)setWindowIdentifier:(struct _NSZone *)arg1 forWindow:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (void)hasOrthogonalSections;
+- (id)_setWindowIdentifier:(struct _NSZone *)arg1 forWindow:fromIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0;
 - (void)oes not have a representedObject.;
 - (long long)dýÿ,ýÿXýÿýÿ°ýÿÜýÿýÿ¤ýÿhýÿXýÿ¤ýÿýÿdýÿÜýÿLýÿýÿÄýÿÜýÿýÿýÿLýÿdýÿ|ýÿýÿ¬ýÿÄýÿÜýÿôýÿ$ ýÿL ýÿd ýÿ¼ ýÿð ýÿ<¡ýÿT¡ýÿ¡ýÿ$¢ýÿð¢ýÿ4£ýÿL£ýÿd£ýÿ£ýÿ¨£ýÿÀ£ýÿà£ýÿà¤ýÿ¥ýÿH¥ýÿ¥ýÿÔ¥ýÿ@¦ýÿ¦ýÿÌ¦ýÿd§ýÿ§ýÿü§ýÿ¬©ýÿpªýÿ¨ªýÿàªýÿ$«ýÿh«ýÿ(¬ýÿX¬ýÿ¬ýÿÔ¬ýÿ­ýÿ@­ýÿd­ýÿ¸­ýÿ<®ýÿ®ýÿÈ®ýÿà®ýÿø®ýÿ¯ýÿ(¯ýÿ@¯ýÿX¯ýÿ¯ýÿ´¯ýÿÌ¯ýÿä¯ýÿ,°ýÿp°ýÿ´±ýÿ$²ýÿ²ýÿ³ýÿ¼³ýÿø³ýÿ<´ýÿh´ýÿ´ýÿ¬´ýÿÐ´ýÿü´ýÿµýÿ8µýÿdµýÿµýÿ¼µýÿàµýÿ;
-- (void)ftMargin;
+- (void)leftMargin;
 - (id)onalInsetsForInsetsAlongAxis(NSDirectionalEdgeInsets, NSAxis);
 - (long long)ote;
-- (void)acos;
+- (void)afui_detection_macos;
 - (void);
 - (id);
 - (id)A;
@@ -116,33 +73,6 @@
 - (void)´E;
 
 // Remaining properties
-@property(copy) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier;
-@property(copy) NSString *accessibilityLabel; // @synthesize accessibilityLabel;
-@property(copy) NSArray *accessibilityUserInputLabels; // @synthesize accessibilityUserInputLabels;
-@property(retain) NSImage *alternateImage; // @synthesize alternateImage;
-@property _Bool animating; // @synthesize animating;
-@property long long badgeValue; // @synthesize badgeValue;
-@property _Bool disabled; // @synthesize disabled;
-@property long long highlightState; // @synthesize highlightState;
-@property _Bool highlighted; // @synthesize highlighted;
-@property(retain) NSImage *image; // @synthesize image;
-@property unsigned long long imageScaling; // @synthesize imageScaling;
-@property(retain) NSImage *imageToDraw; // @synthesize imageToDraw;
-@property _Bool inactiveStateDisablesRollovers; // @synthesize inactiveStateDisablesRollovers;
-@property long long index; // @synthesize index;
-@property(copy) NSString *label; // @synthesize label;
-@property(retain) NSMenu *menu; // @synthesize menu;
-@property _Bool mouseInside; // @synthesize mouseInside;
-@property _Bool rollover; // @synthesize rollover=_rollover;
-@property _Bool selected; // @synthesize selected;
-@property _Bool showsBadge; // @synthesize showsBadge;
-@property _Bool showsMenuIndicator; // @synthesize showsMenuIndicator;
-@property long long springLoadingHighlight; // @synthesize springLoadingHighlight;
-@property(retain) NSImageSymbolConfiguration *symbolConfiguration; // @synthesize symbolConfiguration=_symbolConfiguration;
-@property long long tag; // @synthesize tag;
-@property long long textAlignment; // @synthesize textAlignment;
-@property(copy) NSString *toolTip; // @synthesize toolTip;
-@property long long toolTipTag; // @synthesize toolTipTag;
 @property double width; // @synthesize width;
 
 @end

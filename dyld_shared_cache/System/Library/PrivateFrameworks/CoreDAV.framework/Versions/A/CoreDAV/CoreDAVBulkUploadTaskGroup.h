@@ -6,23 +6,11 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSDictionary, NSMutableDictionary, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface CoreDAVBulkUploadTaskGroup : CoreDAVTaskGroup
 {
     NSURL *_folderURL;
-    NSString *_lastKnownCTag;
-    _Bool _validCTag;
-    unsigned long long _multiPutBatchMaxNumResources;
-    unsigned long long _multiPutBatchMaxSize;
-    NSMutableDictionary *_remainingUUIDsToAddActions;
-    NSMutableDictionary *_remainingHREFsToModDeleteActions;
-    NSMutableDictionary *_uuidToHREF;
-    NSMutableDictionary *_hrefToETag;
-    NSMutableDictionary *_uuidToErrorItems;
-    NSMutableDictionary *_hrefToErrorItems;
-    NSMutableDictionary *_uuidToStatus;
-    NSMutableDictionary *_hrefToStatus;
 }
 
 - (id);
@@ -43,30 +31,13 @@
 - (id);
 - (id);
 - (id);
+- (void).status;
+- (id)_roomTypes;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)finition:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *folderURL; // @synthesize folderURL=_folderURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *hrefToETag; // @synthesize hrefToETag=_hrefToETag;
-@property(readonly, nonatomic) NSDictionary *hrefToErrorItems; // @synthesize hrefToErrorItems=_hrefToErrorItems;
-@property(readonly, nonatomic) NSDictionary *hrefToStatus; // @synthesize hrefToStatus=_hrefToStatus;
-@property(nonatomic) unsigned long long multiPutBatchMaxNumResources; // @synthesize multiPutBatchMaxNumResources=_multiPutBatchMaxNumResources;
-@property(nonatomic) unsigned long long multiPutBatchMaxSize; // @synthesize multiPutBatchMaxSize=_multiPutBatchMaxSize;
 @property(retain, nonatomic) NSString *nextCTag; // @synthesize nextCTag=_lastKnownCTag;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *uuidToErrorItems; // @synthesize uuidToErrorItems=_uuidToErrorItems;
-@property(readonly, nonatomic) NSDictionary *uuidToHREF; // @synthesize uuidToHREF=_uuidToHREF;
-@property(readonly, nonatomic) NSDictionary *uuidToStatus; // @synthesize uuidToStatus=_uuidToStatus;
-@property(readonly, nonatomic) _Bool validCTag; // @synthesize validCTag=_validCTag;
 
 @end
 

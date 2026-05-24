@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBSportsItem
 {
     int _type;
-    NSString *_identifier;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setCanHandleAdjustmentData:(id)arg1;
+- (id)ic}@] Asset does not have valid originalFilename, going with UUID:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -28,15 +25,6 @@
 - (void)kLookCommand"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

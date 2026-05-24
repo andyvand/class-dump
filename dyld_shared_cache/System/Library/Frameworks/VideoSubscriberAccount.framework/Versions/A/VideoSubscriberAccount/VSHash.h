@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface VSHash
 {
     _Bool _finalized;
-    NSData *_finalData;
-    struct CC_SHA256state_st _ctx;
 }
 
 - (void);
@@ -30,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CC_SHA256state_st ctx; // @synthesize ctx=_ctx;
-@property(copy, nonatomic) NSData *finalData; // @synthesize finalData=_finalData;
 @property(nonatomic, getter=isFinalized) _Bool finalized; // @synthesize finalized=_finalized;
 
 @end

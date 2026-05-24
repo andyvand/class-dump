@@ -6,37 +6,9 @@
 
 #import <ImageKit/IKImageCropView.h>
 
-@class IKIrisListener, IKPBNotePlayer, NSAttributedString, NSColor, NSTimer;
-
 @interface IKPictureTakerCropView : IKImageCropView
 {
     _Bool _takingPicture;
-    _Bool _didAbortCapture;
-    _Bool _liveFeed;
-    NSTimer *_cameraTimer;
-    int _cameraState;
-    int _cameraStateCount;
-    _Bool _disableCountDown;
-    _Bool _displayCameraDot;
-    _Bool _cameraGrabSizeValid;
-    _Bool _disableFlash;
-    NSTimer *_seqGrabTimer;
-    _Bool _shouldSendUpdateNotice;
-    _Bool _showPanHelpText;
-    _Bool _cameraDisconnected;
-    NSAttributedString *_panHelpText;
-    id _countdownDelegate;
-    IKPBNotePlayer *_countdownNotePlayer;
-    float _flashRiseTime;
-    float _flashSustainTime;
-    float _flashFallTime;
-    float _flashSaturation;
-    float _cameraCaptureDelay;
-    NSColor *_flashColor;
-    _Bool _roomIsWellLit;
-    NSAttributedString *_cameraNotConnectedText;
-    IKIrisListener *_irisListener;
-    _Bool _waitingForFirstFrame;
 }
 
 - (void);
@@ -49,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,8 +51,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)hasLimitWithBlockEnabled;
+- (void)B;
 - (id);
 - (void);
 - (void);

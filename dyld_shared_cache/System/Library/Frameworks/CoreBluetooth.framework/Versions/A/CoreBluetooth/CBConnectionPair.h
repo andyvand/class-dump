@@ -9,18 +9,16 @@
 @interface CBConnectionPair
 {
     CBConnection *_clientConnection;
-    CBConnection *_serverConnection;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)C;
 
 // Remaining properties
 @property(retain, nonatomic) CBConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(retain, nonatomic) CBConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
 
 @end
 

@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRRecognitionMetrics, NSData;
+@class ASRSchemaASRRecognitionMetrics;
 
 @interface ASRSchemaASREnded : SISchemaInstrumentationMessage
 {
     ASRSchemaASRRecognitionMetrics *_metrics;
-    _Bool _hasMetrics;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)setAverageFrameworkDelay:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id)oHangup;
+- (id)_TtCE8CoreMIDIVSo15MIDIEventPacket7Builder;
+- (id)siriCallTimeToHangup;
 - (id)4yàydzH|}\p;
 - (void)RXSTT¸T`VW;
 - (id);
 - (void)¨ÿ2¡¬z';
 
 // Remaining properties
-@property(nonatomic) _Bool hasMetrics; // @synthesize hasMetrics=_hasMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRRecognitionMetrics *metrics; // @synthesize metrics=_metrics;
 
 @end

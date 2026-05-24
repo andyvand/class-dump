@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet, RBSProcessMonitorConfiguration;
-@protocol OS_dispatch_queue, RBSServiceLocalProtocol;
+@class RBSProcessMonitorConfiguration;
 
 @interface RBSProcessMonitor
 {
     struct os_unfair_lock_s _lock;
-    id <RBSServiceLocalProtocol> _service;
-    _Bool _valid;
-    _Bool _configuring;
-    RBSProcessMonitorConfiguration *_configuration;
-    NSMutableDictionary *_stateByIdentity;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
 + (id);
-+ (id);
++ (id)%;
 + (id);
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -44,14 +37,10 @@
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id)`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
 @property(readonly, nonatomic) RBSProcessMonitorConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) unsigned long long events;
-@property(readonly, nonatomic) unsigned int serviceClass;
-@property(readonly, copy, nonatomic) NSSet *states; // @dynamic states;
 
 @end
 

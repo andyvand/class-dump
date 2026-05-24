@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCIssueBookmark
 {
     long long _issueType;
-    NSString *_pageID;
-    NSString *_articleID;
 }
 
 + (id);
@@ -22,12 +18,10 @@
 - (id)ù
 × ;
 - (id)ernalVersion;
-- (void)honeApp;
+- (void)allowsPubIPhoneApp;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
 @property(readonly, nonatomic) long long issueType; // @synthesize issueType=_issueType;
-@property(readonly, copy, nonatomic) NSString *pageID; // @synthesize pageID=_pageID;
 
 @end
 

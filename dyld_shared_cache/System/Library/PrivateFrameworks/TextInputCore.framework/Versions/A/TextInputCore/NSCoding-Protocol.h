@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)index %lu;
+- (void)_sizeInBytes;
 @end
 

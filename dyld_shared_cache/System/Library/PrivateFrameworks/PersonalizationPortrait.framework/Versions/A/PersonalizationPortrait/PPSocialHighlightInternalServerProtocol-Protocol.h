@@ -5,5 +5,6 @@
 //
 
 @protocol PPSocialHighlightInternalServerProtocol
+- (void)0;
 @end
 

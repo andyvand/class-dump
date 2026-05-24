@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAAceClientState.h>
 
-@class NSArray, NSNumber, NSString, SACalendar, SAUserState, SAUserTokenStatus;
-
 @interface SADynamiteClientState : SAAceClientState
 {
 }
@@ -19,14 +17,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)u;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -39,7 +37,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
@@ -51,26 +49,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool activeTvUser;
-@property(nonatomic) _Bool ageVerificationRequired;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) SAUserState *defaultUserState;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *eligibleOffers;
-@property(retain, nonatomic) SACalendar *expirationDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *iCloudMusicLibraryToggle;
-@property(copy, nonatomic) NSString *iTunesMatchSubscriptionStatus;
-@property(copy, nonatomic) NSArray *inContextUsersStates;
-@property(nonatomic) _Bool isPromotionRelatedStatus;
-@property(copy, nonatomic) NSString *status;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *userHistoryUnmodifiable;
-@property(copy, nonatomic) NSString *userToken;
-@property(retain, nonatomic) SAUserTokenStatus *userTokenStatus;
-@property(copy, nonatomic) NSString *xpAbCookie;
 
 @end
 

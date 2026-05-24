@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDestination, NSString, NSUUID, _HMContext;
+@class HMFMessageDestination, NSUUID;
 
 @interface HMPersonSettingsManager
 {
     NSUUID *_UUID;
-    _HMContext *_context;
 }
 
 + (id);
@@ -18,25 +17,19 @@
 - (id);
 - (void);
 - (void);
+- (id)x;
+- (id)p
+!
+>
+;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)identifiedByThirdParty;
 - (void)¤ÔTì`
 Ì;
-- (id)Message;
+- (id)HMHomeWalletKeyManagerFetchMissingWalletKeysMessage;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMFMessageDestination *messageDestination;
-@property(readonly) Class superclass;
 
 @end
 

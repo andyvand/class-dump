@@ -12,7 +12,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) id monitoringContext; // @synthesize monitoringContext=_monitoringContext;

@@ -5,6 +5,8 @@
 //
 
 @protocol _UIContentContainerInternal
+- (void)ring"32@"NSNumber"40@"NSString"48;
+- (_Bool)addChat:firstLoad:store: /* Error: Ran out of types for this method. */;
 
 @optional
 - (struct CGRect)X82;

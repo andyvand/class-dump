@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UINSApplicationSettingsRootNode;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsNode
 {
     NSString *_localizedTitle;
-    NSArray *_children;
-    UINSApplicationSettingsRootNode *_rootNode;
 }
 
 + (id);
@@ -22,19 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)o get map item from handle when updating recents:%@, %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)ionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id)filePromiseProvider:writePromiseToURL:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *children; // @synthesize children=_children;
 @property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(nonatomic) __weak UINSApplicationSettingsRootNode *rootNode; // @synthesize rootNode=_rootNode;
-@property(readonly, nonatomic, getter=_isUserSettable) _Bool userSettable;
 
 @end
 

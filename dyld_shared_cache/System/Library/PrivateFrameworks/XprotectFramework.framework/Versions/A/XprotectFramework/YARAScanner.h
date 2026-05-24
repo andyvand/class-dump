@@ -9,9 +9,9 @@
     struct YR_SCAN_CONTEXT *_scanner;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 
 @end

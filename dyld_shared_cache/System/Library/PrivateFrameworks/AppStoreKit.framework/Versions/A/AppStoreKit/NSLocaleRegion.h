@@ -9,14 +9,13 @@
 @interface NSLocaleRegion
 {
     NSString *_twoCharacterCode;
-    NSString *_threeCharacterCode;
 }
 
-- (id);
+- (id)o;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)o;
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,7 +23,6 @@
 - (void)g`;
 
 // Remaining properties
-@property(copy) NSString *threeCharacterCode; // @synthesize threeCharacterCode=_threeCharacterCode;
 @property(copy) NSString *twoCharacterCode; // @synthesize twoCharacterCode=_twoCharacterCode;
 
 @end

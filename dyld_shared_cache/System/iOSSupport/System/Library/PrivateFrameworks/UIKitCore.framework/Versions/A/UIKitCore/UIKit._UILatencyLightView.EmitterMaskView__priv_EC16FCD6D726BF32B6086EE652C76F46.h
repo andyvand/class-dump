@@ -9,15 +9,12 @@
 @interface UIKit._UILatencyLightView.EmitterMaskView__priv_EC16FCD6D726BF32B6086EE652C76F46 : UIView
 {
     id emitterCell;
-    id reverse;
-    id radius;
-    id duration;
 }
 
-+ (Class);
++ (Class)_appleAccessory;
 - (id);
 - (void);
-- (id);
+- (id)_UIStatusBarDataBatteryEntry;
 - (void)È2Í¤jl;
 
 @end

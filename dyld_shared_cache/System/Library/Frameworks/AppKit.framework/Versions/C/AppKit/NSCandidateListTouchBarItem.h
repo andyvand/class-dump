@@ -6,25 +6,16 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSArray, NSCandidateListViewController, NSString, NSView, NSViewController;
-@protocol NSCandidateListTouchBarItemDelegate, NSTextInputClient;
+@class NSCandidateListViewController;
 
 @interface NSCandidateListTouchBarItem : NSTouchBarItem
 {
     NSCandidateListViewController *_candidateViewController;
-    NSString *_customizationLabel;
-    NSViewController *_inputContextViewController;
-    struct {
-        unsigned int _allowsIM:1;
-        unsigned int _collapsed:1;
-        unsigned int _isTextCompletionItem:1;
-        unsigned int _reserved:29;
-    } _clfbiFlags;
 }
 
-+ (double);
-+ (id);
-+ (id);
++ (double)="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (id)TTPServer configuring TLS {port=%u, wants_client_cert=%{bool}d, requires_client_cert=%{bool}d};
++ (id)^{__CFDictionary}^{__shared_weak_count}}16;
 - (void);
 - (_Bool);
 - (void);
@@ -36,11 +27,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (void)nary">16;
+- (_Bool)URLSession:assetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ishment_report>",R,&;
+- (_Bool)solvedCNAMEChain;
+- (id)nown PING with ack bit. Ping Seed = %llu;
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -49,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
@@ -60,30 +51,14 @@
 - (id);
 - (void);
 - (void)× ;
-- (id)k;
+- (id)_bookmark;
 - (id)tViewController collides with NSWindowController contentViewController @property added in OS X 10.10, and should be renamed to ensure correct operation;
 - (_Bool)BarItemTree.m;
 - (void)InputAnalytics didInlineCompletionForText:withText:] called without session beginning /* Error: Ran out of types for this method. */;
 - (void)4üþÇüÒ¨I;
 
 // Remaining properties
-@property _Bool allowsCollapsing; // @dynamic allowsCollapsing;
-@property _Bool allowsTextInputContextCandidates; // @dynamic allowsTextInputContextCandidates;
-@property(copy) CDUnknownBlockType attributedStringForCandidate;
 @property(readonly) NSCandidateListViewController *candidateListViewController;
-@property(readonly, getter=isCandidateListVisible) _Bool candidateListVisible; // @dynamic candidateListVisible;
-@property(readonly, copy) NSArray *candidates; // @dynamic candidates;
-@property __weak NSView<NSTextInputClient> *client; // @dynamic client;
-@property(getter=isCollapsed) _Bool collapsed; // @dynamic collapsed;
-@property(copy) NSString *customizationLabel; // @dynamic customizationLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSCandidateListTouchBarItemDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

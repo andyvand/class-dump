@@ -5,5 +5,8 @@
 //
 
 @protocol ENGroupContextObserverMiddleware
+
+@optional
+- (void);
 @end
 

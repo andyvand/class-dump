@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.AdaptiveTemperatureAutomationsConfigurationLogEvent
 {
     void coreAnalyticsEventName;
-    id accessoryCount;
-    id adaptiveTemperatureEnabledCount;
-    id modeSwitchingEnabledCount;
-    id arrivalPredictionEnabledCount;
-    id extendedAwayEnabledCount;
-    id roomOccupancyEnabledCount;
-    id sleepScheduleEnabledCount;
-    id isHomeRoomOccupancySupported;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (id);
@@ -29,10 +20,7 @@
 - (void)ª>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
-@property(nonatomic, readonly) NSString *description;
 
 @end
 

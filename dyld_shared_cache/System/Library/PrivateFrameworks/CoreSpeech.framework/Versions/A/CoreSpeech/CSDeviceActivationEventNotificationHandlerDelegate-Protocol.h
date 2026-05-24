@@ -5,5 +5,6 @@
 //
 
 @protocol CSDeviceActivationEventNotificationHandlerDelegate
+- (void)dataSourceExclusions;
 @end
 

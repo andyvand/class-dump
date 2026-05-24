@@ -5,5 +5,8 @@
 //
 
 @protocol MenuTableViewDelegate
+
+@optional
+- (_Bool);
 @end
 

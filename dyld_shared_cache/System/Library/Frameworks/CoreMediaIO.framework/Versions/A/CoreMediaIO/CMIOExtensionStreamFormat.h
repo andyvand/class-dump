@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CMIOExtensionStreamFormat
 {
     NSString *_description;
-    struct opaqueCMFormatDescription *_formatDescription;
-    NSArray *_validFrameDurations;
-    CDStruct_1b6d18a9 _minFrameDuration;
-    CDStruct_1b6d18a9 _maxFrameDuration;
 }
 
 + (id);
@@ -22,22 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void)H;
+- (CDStruct_198678f7);
 - (id);
-- (id);
-- (CDStruct_1b6d18a9);
-- (id);
+- (id)ionType;
+- (CDStruct_198678f7);
+- (id)c;
 - (_Bool);
-- (void);
+- (void)D;
 - (struct opaqueCMFormatDescription *);
 - (id);
 
 // Remaining properties
 @property(readonly) struct opaqueCMFormatDescription *formatDescription; // @synthesize formatDescription=_formatDescription;
-@property(readonly) CDStruct_1b6d18a9 maxFrameDuration; // @synthesize maxFrameDuration=_maxFrameDuration;
-@property(readonly) CDStruct_1b6d18a9 minFrameDuration; // @synthesize minFrameDuration=_minFrameDuration;
-@property(readonly) NSArray *validFrameDurations; // @synthesize validFrameDurations=_validFrameDurations;
 
 @end
 

@@ -5,5 +5,14 @@
 //
 
 @protocol NSCollectionViewDelegate
+
+@optional
+- (_Bool);
+- (void)_DFRDisplayUsbRecvComplete;
+- (_Bool);
+- (_Bool)lastCompletedFrameID;
+- (_Bool)usbSendBufferStatus;
+- (void)p;
+- (void)B;
 @end
 

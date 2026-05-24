@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <BKMatchTouchIDOperationDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool requireFingerOff; // @synthesize requireFingerOff=_requireFingerOff;
 
 @end
 

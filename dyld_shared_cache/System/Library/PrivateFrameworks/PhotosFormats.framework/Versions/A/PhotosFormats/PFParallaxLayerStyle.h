@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface PFParallaxLayerStyle
 {
     NSString *_kind;
-    NSDictionary *_parameters;
-    NSArray *_colorSuggestions;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
++ (id)x;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)v\0y;
 + (id);
 + (id);
 + (id);
@@ -30,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!"H;
 - (_Bool);
 - (void);
 - (id);
@@ -38,9 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *colorSuggestions; // @synthesize colorSuggestions=_colorSuggestions;
 @property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly, copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
 
 @end
 

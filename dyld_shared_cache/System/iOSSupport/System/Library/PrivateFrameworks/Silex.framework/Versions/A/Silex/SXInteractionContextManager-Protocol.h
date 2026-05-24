@@ -7,7 +7,8 @@
 @protocol SXInteractionContextManagerDelegate, SXInteractionContextProviding;
 
 @protocol SXInteractionContextManager
-- (void)eateColumnLayouterWithDelegate:(id <SXInteractionContextProviding>)arg1;
+- (void);
+- (void)createColumnLayouterWithDelegate:(id <SXInteractionContextProviding>)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXInteractionContextManagerDelegate> delegate;

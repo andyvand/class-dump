@@ -5,5 +5,6 @@
 //
 
 @protocol FindMyDeviceEraseXPCServiceProtocol
+- (void)ssedStrokePoint={_PKPoint=ff}ffSSSSSSfS}16Q24d32;
 @end
 

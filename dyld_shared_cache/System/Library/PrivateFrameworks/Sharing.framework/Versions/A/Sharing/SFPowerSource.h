@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SFPowerSource
 {
     struct OpaqueIOPSPowerSourceID *_psID;
-    int _lowPowerMonitoringToken;
-    double _lowWarnLevel;
-    _Bool _charging;
-    _Bool _lowPowerModeEnabled;
-    _Bool _showChargingUI;
-    _Bool _adapterSharedSource;
-    _Bool _added;
-    _Bool _present;
-    int _powerState;
-    int _role;
-    unsigned int _changes;
-    NSString *_accessoryCategory;
-    NSString *_accessoryID;
-    NSData *_batteryCaseAddress;
-    double _chargeLevel;
-    long long _color;
-    long long _familyCode;
-    NSString *_groupID;
-    NSArray *_LEDs;
-    double _maxCapacity;
-    NSString *_name;
-    NSString *_partID;
-    NSString *_partName;
-    long long _productID;
-    long long _sourceID;
-    NSString *_state;
-    long long _temperature;
-    NSString *_transportType;
-    NSString *_type;
-    long long _vendorID;
-    long long _adapterErrorFlags;
-    long long _adapterFamilyCode;
-    NSString *_adapterName;
-    long long _adapterSourceID;
-    NSDictionary *_ioKitAdapterDescription;
-    NSDictionary *_ioKitDescription;
 }
 
 + (_Bool);
@@ -94,7 +58,7 @@
 - (long long);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -115,21 +79,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rrent:(double)arg1 %@;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (unsigned int);
-- (void);
+- (void)nitSize:(_Bool)arg1 inMaxLatency:inRetransmissionEffort:inPacketType:outSynchronousConnectionCompleteResults: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (int);
 - (void);
-- (void)HasView:(_Bool)arg1;
-- (int)ger:completedUnlockWithDevice: /* Error: Ran out of types for this method. */;
+- (void)setHasView:(_Bool)arg1;
+- (int)manager:completedUnlockWithDevice: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ing services %@;
 - (long long);
@@ -138,47 +102,10 @@
 - (_Bool);
 - (id)ces authorization info
 ;
-- (_Bool)bjectWithSubquerySubstitutions;
+- (_Bool)_SFApplicationExtensionIsSafePredicateOperatorTypeForObjectWithSubquerySubstitutions;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *LEDs; // @synthesize LEDs=_LEDs;
-@property(copy, nonatomic) NSString *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(copy, nonatomic) NSString *accessoryID; // @synthesize accessoryID=_accessoryID;
-@property(nonatomic) long long adapterErrorFlags; // @synthesize adapterErrorFlags=_adapterErrorFlags;
-@property(nonatomic) long long adapterFamilyCode; // @synthesize adapterFamilyCode=_adapterFamilyCode;
-@property(copy, nonatomic) NSString *adapterName; // @synthesize adapterName=_adapterName;
-@property(nonatomic) _Bool adapterSharedSource; // @synthesize adapterSharedSource=_adapterSharedSource;
-@property(nonatomic) long long adapterSourceID; // @synthesize adapterSourceID=_adapterSourceID;
-@property(nonatomic) _Bool added; // @synthesize added=_added;
-@property(copy, nonatomic) NSData *batteryCaseAddress; // @synthesize batteryCaseAddress=_batteryCaseAddress;
-@property(nonatomic) unsigned int changes; // @synthesize changes=_changes;
-@property(nonatomic) double chargeLevel; // @synthesize chargeLevel=_chargeLevel;
-@property(nonatomic) _Bool charging; // @synthesize charging=_charging;
-@property(nonatomic) long long color; // @synthesize color=_color;
-@property(nonatomic) long long familyCode; // @synthesize familyCode=_familyCode;
-@property(copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic, getter=isInternal) _Bool internal;
 @property(copy, nonatomic) NSDictionary *ioKitAdapterDescription; // @synthesize ioKitAdapterDescription=_ioKitAdapterDescription;
-@property(copy, nonatomic) NSDictionary *ioKitDescription; // @synthesize ioKitDescription=_ioKitDescription;
-@property(nonatomic, getter=isLowPowerModeEnabled) _Bool lowPowerModeEnabled; // @synthesize lowPowerModeEnabled=_lowPowerModeEnabled;
-@property(nonatomic) double lowWarnLevel; // @synthesize lowWarnLevel=_lowWarnLevel;
-@property(readonly, nonatomic) long long matID;
-@property(nonatomic) double maxCapacity; // @synthesize maxCapacity=_maxCapacity;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *partID; // @synthesize partID=_partID;
-@property(copy, nonatomic) NSString *partName; // @synthesize partName=_partName;
-@property(nonatomic) int powerState; // @synthesize powerState=_powerState;
-@property(nonatomic) _Bool present; // @synthesize present=_present;
-@property(nonatomic) long long productID; // @synthesize productID=_productID;
-@property(nonatomic) int role; // @synthesize role=_role;
-@property(nonatomic) _Bool showChargingUI; // @synthesize showChargingUI=_showChargingUI;
-@property(nonatomic) long long sourceID; // @synthesize sourceID=_sourceID;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(nonatomic) long long temperature; // @synthesize temperature=_temperature;
-@property(copy, nonatomic) NSString *transportType; // @synthesize transportType=_transportType;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) long long vendorID; // @synthesize vendorID=_vendorID;
-@property(readonly, nonatomic) _Bool wirelessCharging;
 
 @end
 

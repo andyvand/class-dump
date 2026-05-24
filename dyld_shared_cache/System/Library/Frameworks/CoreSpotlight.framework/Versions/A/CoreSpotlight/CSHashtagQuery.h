@@ -11,14 +11,14 @@
 @interface CSHashtagQuery : CSSearchQuery
 {
     NSMutableSet *_hashtags;
-    CDUnknownBlockType _hashTagCompletionHandler;
 }
 
+- (void),;
+- (id)^E;
+- (CDUnknownBlockType);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)RI:(id)arg1 %s%s
+;
 - (id);
 - (void);
 

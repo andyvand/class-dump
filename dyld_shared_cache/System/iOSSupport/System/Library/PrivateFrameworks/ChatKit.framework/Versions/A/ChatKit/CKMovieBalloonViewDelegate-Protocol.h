@@ -5,5 +5,6 @@
 //
 
 @protocol CKMovieBalloonViewDelegate
+- (void)S7xGSg;
 @end
 

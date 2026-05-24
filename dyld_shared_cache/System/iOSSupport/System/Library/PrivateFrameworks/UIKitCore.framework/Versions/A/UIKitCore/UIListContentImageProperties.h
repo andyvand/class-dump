@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, UIImageSymbolConfiguration;
+@class UIImage;
 
 @interface UIListContentImageProperties
 {
@@ -21,21 +21,6 @@
         unsigned int hasCustomizedStrokeWidth:1;
         unsigned int hasCustomizedMonochromaticTreatment:1;
     } _imageFlags;
-    _Bool _accessibilityIgnoresInvertColors;
-    UIImage *_image;
-    UIImageSymbolConfiguration *_preferredSymbolConfiguration;
-    UIColor *_tintColor;
-    CDUnknownBlockType _tintColorTransformer;
-    double _cornerRadius;
-    UIColor *_strokeColor;
-    CDUnknownBlockType _strokeColorTransformer;
-    double _strokeWidth;
-    long long _tintColorTransformerIdentifier;
-    long long _strokeColorTransformerIdentifier;
-    long long __monochromaticTreatment;
-    CDUnknownBlockType _tintFilterGenerator;
-    struct CGSize _reservedLayoutSize;
-    struct CGSize _maximumSize;
 }
 
 + (_Bool)d
@@ -46,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h_geom_diff_scale_delta_std;
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -66,39 +51,39 @@
 - (CDUnknownBlockType);
 - (void);
 - (_Bool)_UIKBRTRecognizer"16@24d32{CGPoint=dd}40{CGPoint=dd}56Q72@?<v@?@B>80;
-- (double)owFeedbackUI;
-- (double)tate:actions:completion: /* Error: Ran out of types for this method. */;
-- (long long)n: /* Error: Ran out of types for this method. */;
-- (_Bool)sTrackingDrag;
-- (id)ultLeadingCellMarginWidthForTableView: /* Error: Ran out of types for this method. */;
-- (void)focusedTraits:(id)arg1;
-- (CDUnknownBlockType)MaximumRadius: /* Error: Ran out of types for this method. */;
-- (void)tyle;
-- (void)nalSafeAreaInsets;
-- (id)sualStyleUpdatableConstraints;
-- (id)ponent;
-- (void)ISEInitialEdgesFailGestureFeature;
+- (double)willShowFeedbackUI;
+- (double)tryAnimatingWithSettings:fromCurrentState:actions:completion: /* Error: Ran out of types for this method. */;
+- (long long)setDimension: /* Error: Ran out of types for this method. */;
+- (_Bool)isTrackingDrag;
+- (id)defaultLeadingCellMarginWidthForTableView: /* Error: Ran out of types for this method. */;
+- (void)contextWithFocusedTraits:(id)arg1 unfocusedTraits: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)capsuleConfigurationWithMaximumRadius: /* Error: Ran out of types for this method. */;
+- (void)associatedBorderStyle;
+- (void)_internalSafeAreaInsets;
+- (id)UIAlertVisualStyleUpdatableConstraints;
+- (id)_UISceneCarPlaySessionClientComponent;
+- (void)_UISEInitialEdgesFailGestureFeature;
 - (_Bool)ÌøÐDç÷;
-- (void)rLine;
+- (void)UIKBKeyDisplayTypeLetterLine;
 - (void)ter.motion;
 - (void)arance customization data does not match method signature;
 - (double)ttempt to create a presenter after the scene has been dealloced :manager=%@ identifier=%@ /* Error: Ran out of types for this method. */;
 - (void)lass of _UIRemoteViewController!;
-- (struct CGSize)b;
-- (id)ryEvaluation;
+- (struct CGSize)UISwitchKnob;
+- (id)QueryEvaluation;
 - (void)ever reach this state.;
 - (long long)ge;
 - (id)ion;
 - (id)com.apple.UIKit.UIButtonBar.UIButton;
 - (id)tCore/_NavigationButtonBarWrapperView.swift;
 - (long long)¸þ;
-- (CDUnknownBlockType)UDGestureManagerCSg;
+- (CDUnknownBlockType)So32UIAccessibilityHUDGestureManagerCSg;
 - (void)7G;
 - (void);
 - (id)?;
 - (double)';
 - (void);
-- (void)ce;
+- (void)FrictionBounce;
 - (struct CGSize)43tþQ43Øtþ!43tþ;
 - (void);
 - (void)[;
@@ -122,36 +107,7 @@
 - (void)ÔkÐ=l;
 
 // Remaining properties
-@property(nonatomic, setter=__setMonochromaticTreatment:) long long __monochromaticTreatment; // @synthesize __monochromaticTreatment;
-@property(retain, nonatomic, setter=__setStrokeColor:) UIColor *__strokeColor; // @synthesize __strokeColor=_strokeColor;
-@property(copy, nonatomic, setter=__setStrokeColorTransformer:) CDUnknownBlockType __strokeColorTransformer; // @synthesize __strokeColorTransformer=_strokeColorTransformer;
-@property(nonatomic, setter=__setStrokeWidth:) double __strokeWidth; // @synthesize __strokeWidth=_strokeWidth;
-@property(nonatomic, setter=_setAccessibilityIgnoresInvertColors:) _Bool _accessibilityIgnoresInvertColors; // @synthesize _accessibilityIgnoresInvertColors;
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
-@property(retain, nonatomic, setter=_setImage:) UIImage *_image; // @synthesize _image;
-@property(nonatomic, setter=_setMaximumSize:) struct CGSize _maximumSize; // @synthesize _maximumSize;
-@property(nonatomic, setter=_setMonochromaticTreatment:) long long _monochromaticTreatment;
-@property(copy, nonatomic, setter=_setPreferredSymbolConfiguration:) UIImageSymbolConfiguration *_preferredSymbolConfiguration; // @synthesize _preferredSymbolConfiguration;
-@property(nonatomic, setter=_setReservedLayoutSize:) struct CGSize _reservedLayoutSize; // @synthesize _reservedLayoutSize;
-@property(retain, nonatomic, setter=_setStrokeColor:) UIColor *_strokeColor;
-@property(copy, nonatomic, setter=_setStrokeColorTransformer:) CDUnknownBlockType _strokeColorTransformer;
-@property(nonatomic, setter=_setStrokeColorTransformerIdentifier:) long long _strokeColorTransformerIdentifier; // @synthesize _strokeColorTransformerIdentifier;
-@property(nonatomic, setter=_setStrokeWidth:) double _strokeWidth;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor; // @synthesize _tintColor;
-@property(copy, nonatomic, setter=_setTintColorTransformer:) CDUnknownBlockType _tintColorTransformer; // @synthesize _tintColorTransformer;
-@property(nonatomic, setter=_setTintColorTransformerIdentifier:) long long _tintColorTransformerIdentifier; // @synthesize _tintColorTransformerIdentifier;
-@property(copy, nonatomic, setter=_setTintFilterGenerator:) CDUnknownBlockType _tintFilterGenerator; // @synthesize _tintFilterGenerator;
-@property(nonatomic) _Bool accessibilityIgnoresInvertColors;
-@property(nonatomic) double cornerRadius;
 @property(retain, nonatomic) UIImage *image;
-@property(nonatomic) struct CGSize maximumSize;
-@property(copy, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(nonatomic) struct CGSize reservedLayoutSize;
-@property(retain, nonatomic) UIColor *strokeColor;
-@property(copy, nonatomic) CDUnknownBlockType strokeColorTransformer;
-@property(nonatomic) double strokeWidth;
-@property(retain, nonatomic) UIColor *tintColor;
-@property(copy, nonatomic) CDUnknownBlockType tintColorTransformer;
 
 @end
 

@@ -7,26 +7,6 @@
 @interface NewsFeed.FormatPackageInventory
 {
     id identifier;
-    id version;
-    id role;
-    id _direction;
-    id _name;
-    id _comment;
-    id _groups;
-    id _items;
-    id _snippets;
-    id _supplementaries;
-    id _styles;
-    id _slots;
-    id _types;
-    id _decorations;
-    id _options;
-    id _selectors;
-    id _localizations;
-    id columnSystem;
-    id _references;
-    id _traits;
-    id compilerOptions;
 }
 
 @end

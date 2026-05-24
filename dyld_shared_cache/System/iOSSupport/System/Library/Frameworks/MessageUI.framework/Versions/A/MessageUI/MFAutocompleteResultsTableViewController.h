@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIColor, _MFAutocompleteResultsTableViewModel;
+@class NSMutableArray;
 @protocol MFAutocompleteResultsTableViewControllerDelegate;
 
 @interface MFAutocompleteResultsTableViewController
 {
     NSMutableArray *_searchResults;
-    NSMutableArray *_suggestedSearchResults;
-    NSMutableArray *_serverSearchResults;
-    _MFAutocompleteResultsTableViewModel *_tableViewModel;
-    _Bool _tableViewNeedsReload;
-    _Bool _cellAnimationsEnabled;
-    _Bool _deferTableViewUpdates;
-    _Bool _shouldHighlightCompleteMatches;
-    _Bool _shouldDimIrrelevantInformation;
-    UIColor *_cellBackgroundColor;
-    id <MFAutocompleteResultsTableViewControllerDelegate> _delegate;
 }
 
 - (id);
@@ -60,26 +50,17 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)shapeDrawingController;
+- (id)_previewDrawingBegan:tiledViewLocation:disableDetachedRendering: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
+- (void)(=;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allRecipients;
-@property(nonatomic, getter=areCellAnimationsEnabled) _Bool cellAnimationsEnabled; // @synthesize cellAnimationsEnabled=_cellAnimationsEnabled;
-@property(retain, nonatomic) UIColor *cellBackgroundColor; // @synthesize cellBackgroundColor=_cellBackgroundColor;
-@property(readonly, nonatomic) NSArray *contactRecipients; // @synthesize contactRecipients=_searchResults;
-@property(nonatomic, getter=isDeferringTableViewUpdates) _Bool deferTableViewUpdates; // @synthesize deferTableViewUpdates=_deferTableViewUpdates;
 @property(nonatomic) __weak id <MFAutocompleteResultsTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *directoryServerRecipients; // @synthesize directoryServerRecipients=_serverSearchResults;
-@property(nonatomic) _Bool shouldDimIrrelevantInformation; // @synthesize shouldDimIrrelevantInformation=_shouldDimIrrelevantInformation;
-@property(nonatomic) _Bool shouldHighlightCompleteMatches; // @synthesize shouldHighlightCompleteMatches=_shouldHighlightCompleteMatches;
-@property(readonly, nonatomic) NSArray *suggestedRecipients; // @synthesize suggestedRecipients=_suggestedSearchResults;
 
 @end
 

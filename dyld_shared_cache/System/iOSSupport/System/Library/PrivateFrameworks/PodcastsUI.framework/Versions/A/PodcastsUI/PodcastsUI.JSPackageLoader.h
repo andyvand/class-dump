@@ -7,10 +7,6 @@
 @interface PodcastsUI.JSPackageLoader
 {
     id bag;
-    id loader;
-    id process;
-    id tracker;
-    id userDefaults;
 }
 
 @end

@@ -9,32 +9,27 @@
 @interface NTPBCKIdentifier
 {
     NSString *_name;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)enge"24@?<v@?q@"NSURLCredential">32;
 - (unsigned long long);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)isFromBlockedStorefront;
+- (_Bool)<;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)~CNq1ugDG8Y2vNj84tw2IO-iWrcShVfoKIciIbF4/Library/Caches/com.apple.xbs/TemporaryDirectory.CDhVpt/Sources/AccessibilityFrameworks/Source/UIAccessibility/AXRemoteElement+UIAccessibility.m;
 - (_Bool)nt"b1"contentType"b1"feedType"b1"groupType"b1"nextArticleAffordanceType"b1"publisherArticleVersion"b1"topStoryType"b1"userAction"b1"fromNextArticleAffordanceTap"b1"isBreakingNewsArticle"b1"isCoverArticle"b1"isDigitalReplicaAd"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isNotificationArticle"b1"isPaidSubscriberToSourceChannel"b1"isSearchResultArticle"b1"isTopStoryArticle"b1"isUserSubscribedToFeed"b1};
-- (void)nConfigsAtIndex:(_Bool)arg1;
-- (void)n;
+- (void)todaySectionConfigsAtIndex:(_Bool)arg1;
+- (void)hasPreviousWebEmbedLocation;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

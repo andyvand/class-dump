@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, NSUUID;
 
 @protocol AAInheritanceContactInfo
+- (id)nagementStatusChangedForDomains;
+- (id)ayloads:(NSUUID *)arg1 ];
 
 // Remaining properties
 @property(readonly, copy) NSString *handle;

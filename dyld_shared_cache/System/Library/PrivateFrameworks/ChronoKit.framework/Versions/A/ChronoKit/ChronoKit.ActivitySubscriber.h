@@ -7,15 +7,6 @@
 @interface ChronoKit.ActivitySubscriber
 {
     id _logger;
-    id _activityCenter;
-    id _calloutQueue_activeStatePublisher;
-    id $__lazy_storage_$_activeStatePublisher;
-    id _lock;
-    id _lock_widgetSubscriptions;
-    id _lock_descriptorState;
-    id _lock_observeAllActivitiesTokens;
-    id _calloutQueue;
-    id _announcementSubscription;
 }
 
 @end

@@ -11,8 +11,6 @@
 @interface PIParallaxColorWashDuotoneStyle : PIParallaxStyle
 {
     _Bool _showsBackground;
-    PFParallaxColor *_primaryColor;
-    PFParallaxColor *_secondaryColor;
 }
 
 + (id);
@@ -28,18 +26,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)tN;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setInputImageTextureMappedRegion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PFParallaxColor *color;
 @property(retain, nonatomic) PFParallaxColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(retain, nonatomic) PFParallaxColor *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property(nonatomic) _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
 
 @end
 

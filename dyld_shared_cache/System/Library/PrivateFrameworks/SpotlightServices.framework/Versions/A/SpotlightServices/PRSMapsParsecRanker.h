@@ -9,26 +9,20 @@
 @interface PRSMapsParsecRanker
 {
     IQFMapsPersonalizationRanker *_iqfRanker;
-    _Bool _rankerEnabled;
-    _Bool _entityRelevanceEnabled;
-    double _visitCountThreshold;
-    double _visitCountGivenLocationThreshold;
-    double _lastVisitDaysThreshold;
-    double _entityRelevanceThreshold;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)selectAction:(id)arg1;
+- (id)mediaPlayer:(_Bool)arg1 didChangeMutedState:(double)arg2;
+- (id)capabilities;
+- (id)backgroundOutset;
+- (void)appearanceNamed: /* Error: Ran out of types for this method. */;
+- (void)appearance;
+- (id)_shouldUseAnimations;
+- (void)_shouldIgnoreAppStoreMetadata;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)nOverrideForQueryContext:config: /* Error: Ran out of types for this method. */;
+- (void)_suggestionConfigurationOverrideForQueryContext:config: /* Error: Ran out of types for this method. */;
 
 @end
 

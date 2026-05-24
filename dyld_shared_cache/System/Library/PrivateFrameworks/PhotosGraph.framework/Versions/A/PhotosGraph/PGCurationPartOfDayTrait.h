@@ -11,11 +11,11 @@
     unsigned long long _value;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id)omentNode: /* Error: Ran out of types for this method. */;
+- (id)insertROINodeWithPlace:fromMomentNode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;

@@ -7,30 +7,30 @@
 @class NSString;
 
 @interface UnknownClass (AppKit)
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (void);
++ (void)6;
++ (void)6;
++ (void)e %s.;
++ (void)ystemStore - unable to create path to file %s.;
++ (void)rno}d.;
++ (_Bool)mon, and will not try to reconnect;
++ (_Bool)%{public}@> no connection to background transfer daemon, and will not try to reconnect;
++ (_Bool)v20@?0^{_CFURLCredential=}8B16;
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool);
++ (id)66x;
++ (id)66k;
++ (id)66j;
++ (id)66Y;
+- (id)_pendingResponseDisposition;
+- (id)_pendingReceiveWork;
+- (_Bool)a;
+- (_Bool)set_storagePartitionIdentifier:(id)arg1;
+- (_Bool)set_maxCacheableEntrySizeRatio:(id)arg1;
+- (id)tion is invalid in %s;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id)ð_ãÿ_;
 

@@ -6,19 +6,11 @@
 
 #import <ChatKit/CKMessagePartChatItem.h>
 
-@class CKChatBotActionButton, IMTranscriptPluginChatItem, NSArray, NSString;
+@class IMTranscriptPluginChatItem;
 
 @interface CKTranscriptPluginChatItem : CKMessagePartChatItem
 {
     _Bool _wantsTranscriptGroupMonograms;
-    _Bool _wantsOutline;
-    _Bool _isAppearing;
-    _Bool _isHandwriting;
-    _Bool _isBusiness;
-    IMTranscriptPluginChatItem *_imTranscriptPluginChatItem;
-    NSString *_conversationID;
-    NSArray *_recipients;
-    CKChatBotActionButton *_cachedChatBotActionButton;
 }
 
 + (double);
@@ -26,85 +18,70 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (BOOL);
-- (struct UIEdgeInsets);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (BOOL)8@"NSString"16@"NSPasteboard"24;
+- (struct UIEdgeInsets)systemPurpleColor;
+- (id)setPlaybackTimeObserver:(id)arg1;
+- (_Bool)setAttachmentObjectID: /* Error: Ran out of types for this method. */;
+- (_Bool)rewrapCryptoKeyForObject:(id)arg1 window: /* Error: Ran out of types for this method. */;
+- (_Bool)rewrapAndDivergeKeyUsingPassphrase:(id)arg1;
+- (void)initWithAccount:(id)arg1;
+- (void)hostViewDidZoom:(id)arg1;
+- (id)convertAllSketchesInNote:(id)arg1;
+- (void)authenticateWithPassphrase:(id)arg1;
+- (void)authenticateDevicePasswordWithPrompt:(id)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)_paperIdentifierBeforeAttachmentIsSet;
+- (id)_oldPasswordIncorrectTextViewScrollView;
+- (void)_ckShareIDToRootRecordID;
+- (void)s;
+- (id)ic_isFullScreen;
+- (struct CGSize)ic_copyTitleToGeneralPasteboard;
+- (id)ssphraseManager;
+- (_Bool)ICTableAttachmentSelection;
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void)b;
+- (_Bool)h;
 - (_Bool);
 - (id);
 - (Class);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)i;
+- (void)attachmentContentIDURLs;
+- (void)Window:(id)arg1 completionHandler:(id)arg2 ];
+- (_Bool)nt to move these shared folders?;
+- (_Bool)upported on this platform;
+- (void);
 - (_Bool);
 - (id);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)ScrollablePreferenceProvider;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)y;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct UIEdgeInsets);
 - (Class);
-- (void);
+- (void)g;
 - (id);
 - (unsigned long long)16@"NSDictionary"24@"NSDictionary"32@"NSURL"40@"NSString"48@"NSString"56;
-- (id)vailabilityWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)fetchPersonalAvailabilityWithCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)raceful failure by continuing send.;
-- (void)RD_ELLIPSIS;
+- (void)FORWARD_ELLIPSIS;
 
 // Remaining properties
-@property(readonly, nonatomic) IMTranscriptPluginChatItem *IMChatItem; // @dynamic IMChatItem;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(retain, nonatomic) CKChatBotActionButton *cachedChatBotActionButton; // @synthesize cachedChatBotActionButton=_cachedChatBotActionButton;
-@property(retain, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
 @property(retain, nonatomic) IMTranscriptPluginChatItem *imTranscriptPluginChatItem; // @synthesize imTranscriptPluginChatItem=_imTranscriptPluginChatItem;
-@property(nonatomic) _Bool isAppearing; // @synthesize isAppearing=_isAppearing;
-@property(nonatomic) _Bool isBusiness; // @synthesize isBusiness=_isBusiness;
-@property(readonly, nonatomic) _Bool isHandwriting; // @synthesize isHandwriting=_isHandwriting;
-@property(readonly, nonatomic) _Bool isPlayed;
-@property(readonly, nonatomic) _Bool isSaved;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) _Bool shouldShowGroupAvatar;
-@property(readonly, nonatomic) _Bool wantsBalloonGradient;
-@property(readonly, nonatomic) _Bool wantsOutline; // @synthesize wantsOutline=_wantsOutline;
-@property(readonly, nonatomic) _Bool wantsPendingMessageStyle;
-@property(readonly, nonatomic) _Bool wantsTranscriptGroupMonograms; // @synthesize wantsTranscriptGroupMonograms=_wantsTranscriptGroupMonograms;
 
 @end
 

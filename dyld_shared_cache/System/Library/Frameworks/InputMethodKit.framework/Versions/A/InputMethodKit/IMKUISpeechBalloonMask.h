@@ -6,42 +6,32 @@
 
 #import <InputMethodKit/IMKUIPanelMask.h>
 
-@class NSImage;
-
 @interface IMKUISpeechBalloonMask : IMKUIPanelMask
 {
     unsigned long long _arrowDirection;
-    double _arrowOffset;
-    NSImage *_arrowImage;
-    struct CGRect _contentFrame;
-    struct CGRect _arrowFrame;
 }
 
 + (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (struct CGRect);
+- (void)�`;
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (void);
 - (struct NSEdgeInsets);
-- (void);
+- (void)handleMediaCallbackNotification:(struct CGRect)arg1 inData:outData: /* Error: Ran out of types for this method. */;
 - (double);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (struct CGRect)ectionKeyToCandidateMapping;
+- (struct CGRect)_selectionKeyToCandidateMapping;
 
 // Remaining properties
-@property(nonatomic) unsigned long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
 @property(nonatomic) struct CGRect arrowFrame; // @synthesize arrowFrame=_arrowFrame;
-@property(retain, nonatomic) NSImage *arrowImage; // @synthesize arrowImage=_arrowImage;
-@property(nonatomic) double arrowOffset; // @synthesize arrowOffset=_arrowOffset;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
 
 @end
 

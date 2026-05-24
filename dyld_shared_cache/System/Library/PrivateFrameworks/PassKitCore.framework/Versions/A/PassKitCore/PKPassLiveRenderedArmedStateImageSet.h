@@ -14,7 +14,7 @@
 + (id);
 + (_Bool)ed with paymentRequest:%p. /* Error: Ran out of types for this method. */;
 + (unsigned int)±È;
-- (id);
+- (id)U@yl1;
 
 @end
 

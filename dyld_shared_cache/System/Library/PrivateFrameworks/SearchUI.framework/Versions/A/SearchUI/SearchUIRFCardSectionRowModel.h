@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
@@ -35,16 +35,7 @@ __attribute__((visibility("hidden")))
 - (int)È;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *dragSubtitle;
-@property(nonatomic, readonly) NSString *dragTitle;
-@property(nonatomic, readonly) _Bool fillsBackgroundWithContent;
-@property(nonatomic, readonly) _Bool hasLeadingImage;
-@property(nonatomic, readonly) double highlightReferenceFrameCornerRadius;
-@property(nonatomic, readonly) struct NSDirectionalEdgeInsets intrinsicContentInset;
-@property(nonatomic, readonly) _Bool prefersNoSeparatorAbove;
 @property(nonatomic, readonly) NSString *reuseIdentifier;
-@property(nonatomic, readonly) int separatorStyle;
-@property(nonatomic, readonly) _Bool supportsCustomHighlightBehavior;
 
 @end
 

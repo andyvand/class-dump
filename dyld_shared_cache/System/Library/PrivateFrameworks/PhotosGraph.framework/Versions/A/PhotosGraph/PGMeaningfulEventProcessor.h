@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ccgcm_update;
 + (id);
 + (id);
 + (id);

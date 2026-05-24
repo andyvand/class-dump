@@ -7,15 +7,12 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)Terminated: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (id);
+- (_Bool)_charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4;
+- (struct _NSZone *)sg_dataEnumeratorUsingEncoding:nullTerminated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

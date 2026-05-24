@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString;
+@class CDPContext;
 
 @interface CDPDSecureBackupProxyImpl
 {
@@ -14,12 +14,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)newBufferWithBytes:(id)arg1 length:(CDUnknownBlockType)arg2 options: /* Error: Ran out of types for this method. */;
+- (_Bool)Vornamen;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)?k1;
 - (id);
 - (void);
 - (_Bool);
@@ -28,19 +28,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

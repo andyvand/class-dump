@@ -6,28 +6,17 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, NSVisualEffectView, NUIContainerBoxView, NUIContainerStackView, SFHeroCardSection, SFImage, SearchUIButtonItemStackView, SearchUIImageView, SearchUILabel;
+@class SearchUIImageView;
 
 @interface SearchUIHeroCardSectionView : SearchUICardSectionView
 {
     SearchUIImageView *_backgroundImageView;
-    SearchUIImageView *_thumbnailImageView;
-    SearchUIImageView *_punchoutIndicatorImageView;
-    NUIContainerStackView *_thumbnailAndLabelsStackView;
-    NUIContainerStackView *_labelsStackView;
-    SearchUILabel *_titleLabel;
-    SearchUILabel *_subtitleLabel;
-    NUIContainerStackView *_containerStackView;
-    NUIContainerStackView *_buttonStackView;
-    SFImage *_currentImage;
-    SearchUIButtonItemStackView *_buttonItemStackView;
-    NSVisualEffectView *_punchoutIndicatorBackgroundBlurView;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (int);
++ (int)8H;
 - (void);
 - (void);
 - (void);
@@ -50,15 +39,15 @@
 - (id);
 - (void);
 - (id);
+- (id)an 1 recipient found.;
+- (void)ResponsesConfig:(id)arg1 Training class count exceeds maximum;
+- (void)objectAssertedForKey:CLASSIFICATION_PREPROCESSING_METHODS] arrayAssertedForKey:language] /* Error: Ran out of types for this method. */;
+- (void);
+- (id)initWithName:value:options:formatter: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)setHasIsOnInternationalDataRoaming:(id)arg1;
 - (struct CGSize);
 - (id);
 - (void);
@@ -72,26 +61,6 @@
 
 // Remaining properties
 @property(retain) SearchUIImageView *backgroundImageView; // @synthesize backgroundImageView=_backgroundImageView;
-@property(retain, nonatomic) SearchUIButtonItemStackView *buttonItemStackView; // @synthesize buttonItemStackView=_buttonItemStackView;
-@property(retain) NUIContainerStackView *buttonStackView; // @synthesize buttonStackView=_buttonStackView;
-@property(retain) NUIContainerStackView *containerStackView; // @synthesize containerStackView=_containerStackView;
-@property(retain) NUIContainerBoxView *contentView; // @dynamic contentView;
-@property(retain) SFImage *currentImage; // @synthesize currentImage=_currentImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NUIContainerStackView *labelsStackView; // @synthesize labelsStackView=_labelsStackView;
-@property(retain) NSVisualEffectView *punchoutIndicatorBackgroundBlurView; // @synthesize punchoutIndicatorBackgroundBlurView=_punchoutIndicatorBackgroundBlurView;
-@property(retain) SearchUIImageView *punchoutIndicatorImageView; // @synthesize punchoutIndicatorImageView=_punchoutIndicatorImageView;
-@property(readonly, nonatomic) SFHeroCardSection *section; // @dynamic section;
-@property(retain) SearchUILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
-@property(retain) NUIContainerStackView *thumbnailAndLabelsStackView; // @synthesize thumbnailAndLabelsStackView=_thumbnailAndLabelsStackView;
-@property(retain) SearchUIImageView *thumbnailImageView; // @synthesize thumbnailImageView=_thumbnailImageView;
-@property(retain) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

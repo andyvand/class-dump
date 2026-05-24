@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNWallpaper, NSData, NSString;
+@class NSString;
 
 @interface CNSharingProfileOnboardingFlowResult
 {
     _Bool _didPersistImageToContact;
-    NSString *_givenName;
-    NSString *_familyName;
-    CNWallpaper *_wallpaper;
-    NSData *_watchWallpaperImageData;
-    NSData *_imageData;
-    NSString *_type;
-    unsigned long long _sharingAudience;
-    struct CGRect _cropRect;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
@@ -31,24 +23,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)/usr/lib/libMobileGestalt.dylib;
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (void)nterspace;
+- (void)actionTypesInterspace;
 - (struct CGRect);
-- (id)ntFooterViewIdentifier;
+- (id)CNContactListCountFooterViewIdentifier;
 
 // Remaining properties
-@property(nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(nonatomic) _Bool didPersistImageToContact; // @synthesize didPersistImageToContact=_didPersistImageToContact;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
 @property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) unsigned long long sharingAudience; // @synthesize sharingAudience=_sharingAudience;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) CNWallpaper *wallpaper; // @synthesize wallpaper=_wallpaper;
-@property(readonly, nonatomic) NSData *watchWallpaperImageData; // @synthesize watchWallpaperImageData=_watchWallpaperImageData;
 
 @end
 

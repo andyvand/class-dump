@@ -6,39 +6,15 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDPCSKeySyncCoreAnalytics, NSArray, NSMutableArray, NSMutableDictionary;
-@protocol CKModifyRecordZonesOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDModifyRecordZonesOperation : CKDDatabaseOperation
 {
     _Bool _hasZoneSaves;
-    _Bool _hasZoneDeletes;
-    _Bool _allowDefaultZoneSave;
-    _Bool _markZonesAsUserPurged;
-    _Bool _dontFetchFromServer;
-    _Bool _didSynchronizeUserKeyRegistry;
-    _Bool _needsSynchronizeSigningIdentities;
-    _Bool _didSynchronizeSigningIdentities;
-    int _numZoneSaveAttempts;
-    CDUnknownBlockType _saveCompletionBlock;
-    CDUnknownBlockType _deleteCompletionBlock;
-    NSMutableArray *_recordZonesToSave;
-    NSArray *_recordZoneIDsToDelete;
-    NSMutableDictionary *_recordZonesByZoneID;
-    NSMutableDictionary *_saveConfigsByZoneID;
-    NSMutableDictionary *_deleteConfigsByZoneID;
-    NSMutableDictionary *_retryableErrorsByZoneID;
-    long long _maxZoneSaveAttempts;
-    NSMutableArray *_zonesWaitingOnKeyRegistrySync;
-    CKDPCSKeySyncCoreAnalytics *_keySyncAnalytics;
-    NSMutableDictionary *_shareRecordByZoneID;
-    unsigned long long _savePolicy;
 }
 
 + (long long);
-+ (id);
++ (id)setRxUcastRTSOverRxCtrlFrmsPercentage:(unsigned long long)arg1;
 - (void);
-- (_Bool);
+- (_Bool)UsoTask_checkExistence_common_NotebookList;
 - (void);
 - (void);
 - (id);
@@ -55,16 +31,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -72,9 +48,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (void)ecutiveFails:(id)arg1 supportsLinkRecommendation:(CDUnknownBlockType)arg2 forInterface: /* Error: Ran out of types for this method. */;
+- (id)Width;
+- (_Bool)RoamReasonBeaconLostCount;
 - (void);
 - (void);
 - (int);
@@ -82,28 +58,28 @@
 - (void);
 - (id);
 - (void);
+- (_Bool)(p;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
+- (void);
+- (void)	;
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (int);
+- (id);
 - (_Bool);
 - (id);
+- (int);
+- (_Bool);
+- (id);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setZoneRetrieveChangesRequest: /* Error: Ran out of types for this method. */;
 - (void)setRunningOperationID:(id)arg1;
-- (_Bool)orShareId;
+- (_Bool)hasClosestAncestorShareId;
 - (void)È;
-- (void)en;
+- (void)token;
 - (void)loudStorage/CKDPCSSQLCache.m;
 - (void)ted non-nil MMCS engine wrapper for %@;
 - (unsigned long long)üÿ¥A;
@@ -113,28 +89,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(nonatomic) _Bool allowDefaultZoneSave; // @synthesize allowDefaultZoneSave=_allowDefaultZoneSave;
-@property(retain, nonatomic) id <CKModifyRecordZonesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType deleteCompletionBlock; // @synthesize deleteCompletionBlock=_deleteCompletionBlock;
-@property(retain, nonatomic) NSMutableDictionary *deleteConfigsByZoneID; // @synthesize deleteConfigsByZoneID=_deleteConfigsByZoneID;
-@property(nonatomic) _Bool didSynchronizeSigningIdentities; // @synthesize didSynchronizeSigningIdentities=_didSynchronizeSigningIdentities;
-@property(nonatomic) _Bool didSynchronizeUserKeyRegistry; // @synthesize didSynchronizeUserKeyRegistry=_didSynchronizeUserKeyRegistry;
-@property(nonatomic) _Bool dontFetchFromServer; // @synthesize dontFetchFromServer=_dontFetchFromServer;
-@property(retain, nonatomic) CKDPCSKeySyncCoreAnalytics *keySyncAnalytics; // @synthesize keySyncAnalytics=_keySyncAnalytics;
-@property(nonatomic) _Bool markZonesAsUserPurged; // @synthesize markZonesAsUserPurged=_markZonesAsUserPurged;
-@property(nonatomic) long long maxZoneSaveAttempts; // @synthesize maxZoneSaveAttempts=_maxZoneSaveAttempts;
-@property(nonatomic) _Bool needsSynchronizeSigningIdentities; // @synthesize needsSynchronizeSigningIdentities=_needsSynchronizeSigningIdentities;
-@property(nonatomic) int numZoneSaveAttempts; // @synthesize numZoneSaveAttempts=_numZoneSaveAttempts;
-@property(retain, nonatomic) NSArray *recordZoneIDsToDelete; // @synthesize recordZoneIDsToDelete=_recordZoneIDsToDelete;
-@property(retain, nonatomic) NSMutableDictionary *recordZonesByZoneID; // @synthesize recordZonesByZoneID=_recordZonesByZoneID;
-@property(retain, nonatomic) NSMutableArray *recordZonesToSave; // @synthesize recordZonesToSave=_recordZonesToSave;
-@property(retain, nonatomic) NSMutableDictionary *retryableErrorsByZoneID; // @synthesize retryableErrorsByZoneID=_retryableErrorsByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType saveCompletionBlock; // @synthesize saveCompletionBlock=_saveCompletionBlock;
-@property(retain, nonatomic) NSMutableDictionary *saveConfigsByZoneID; // @synthesize saveConfigsByZoneID=_saveConfigsByZoneID;
-@property(nonatomic) unsigned long long savePolicy; // @synthesize savePolicy=_savePolicy;
-@property(retain, nonatomic) NSMutableDictionary *shareRecordByZoneID; // @synthesize shareRecordByZoneID=_shareRecordByZoneID;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) NSMutableArray *zonesWaitingOnKeyRegistrySync; // @synthesize zonesWaitingOnKeyRegistrySync=_zonesWaitingOnKeyRegistrySync;
 
 @end
 

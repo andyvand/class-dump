@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol MPCVocalAttenuationPolicyControllerDelegate, OS_dispatch_queue;
+@class NSMutableArray;
+@protocol MPCVocalAttenuationPolicyControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationPolicyController
 {
     id <MPCVocalAttenuationPolicyControllerDelegate> _delegate;
-    NSMutableArray *_policies;
-    NSMutableArray *_blockingPolicies;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 - (void);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)__auth_got;
 - (void);
 - (id);
 - (void);
@@ -32,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(copy, nonatomic) NSMutableArray *blockingPolicies; // @synthesize blockingPolicies=_blockingPolicies;
-@property(readonly, nonatomic) __weak id <MPCVocalAttenuationPolicyControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) NSMutableArray *policies; // @synthesize policies=_policies;
 
 @end

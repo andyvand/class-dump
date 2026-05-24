@@ -11,12 +11,6 @@
 @interface BPSHandleEvents : BMBookmarkablePublisher
 {
     struct os_unfair_lock_s _lock;
-    id <BPSPublisher> _upstream;
-    CDUnknownBlockType _receiveSubscription;
-    CDUnknownBlockType _receiveOutput;
-    CDUnknownBlockType _receiveCompletion;
-    CDUnknownBlockType _receiveCancel;
-    CDUnknownBlockType _receiveRequest;
 }
 
 + (id);
@@ -27,8 +21,8 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)+;
 - (void);
 - (id);
 - (void);
@@ -38,11 +32,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType receiveCancel; // @synthesize receiveCancel=_receiveCancel;
-@property(readonly, nonatomic) CDUnknownBlockType receiveCompletion; // @synthesize receiveCompletion=_receiveCompletion;
-@property(readonly, nonatomic) CDUnknownBlockType receiveOutput; // @synthesize receiveOutput=_receiveOutput;
-@property(readonly, nonatomic) CDUnknownBlockType receiveRequest; // @synthesize receiveRequest=_receiveRequest;
-@property(readonly, nonatomic) CDUnknownBlockType receiveSubscription; // @synthesize receiveSubscription=_receiveSubscription;
 @property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end

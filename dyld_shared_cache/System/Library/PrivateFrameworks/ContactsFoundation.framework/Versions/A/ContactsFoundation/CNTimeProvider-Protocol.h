@@ -5,6 +5,7 @@
 //
 
 @protocol CNTimeProvider
+- (double)+;
 
 // Remaining properties
 @property(readonly) double timestamp;

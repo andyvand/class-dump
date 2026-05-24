@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, PGManager, PGSuggestionSession, PHPhotoLibrary;
+@class NSDictionary, PHPhotoLibrary;
 
 @interface PGPhotosChallengeMetricEventFetchHelper
 {
     PHPhotoLibrary *_photoLibrary;
-    PGManager *_manager;
-    NSDictionary *_questionsByQuestionTypeByEntityType;
-    PGSuggestionSession *_featuredPhotosSuggestionSession;
-    NSDictionary *_assetByAssetIdentifier;
-    NSSet *_momentUUIDsForExhaustiveMomentLabelingQuestion;
-    NSDictionary *_assetByAssetSyndicationIdentifier;
-    NSDictionary *_momentUUIDByAssetIdentifier;
-    NSDictionary *_activePersonUUIDByPersonUUID;
-    NSDictionary *_memoryByMemoryIdentifier;
-    NSSet *_tripKeyAssetIdentifiers;
-    NSSet *_dayHighlightAssetIdentifiers;
 }
 
 - (id);
@@ -37,10 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ancestorElementControllerWithPredicate:(id)arg1;
+- (id)AXKTextElementEditListenerElementInfo;
+- (id)AlertWindow;
+- (id)AXSelectedRows;
 - (id);
 - (void);
 - (void);
@@ -61,16 +50,7 @@
 - (void)hRelationshipTagEdge"8^B16;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *activePersonUUIDByPersonUUID; // @synthesize activePersonUUIDByPersonUUID=_activePersonUUIDByPersonUUID;
-@property(retain, nonatomic) NSDictionary *assetByAssetIdentifier; // @synthesize assetByAssetIdentifier=_assetByAssetIdentifier;
-@property(retain, nonatomic) NSDictionary *assetByAssetSyndicationIdentifier; // @synthesize assetByAssetSyndicationIdentifier=_assetByAssetSyndicationIdentifier;
-@property(retain, nonatomic) NSSet *dayHighlightAssetIdentifiers; // @synthesize dayHighlightAssetIdentifiers=_dayHighlightAssetIdentifiers;
-@property(retain, nonatomic) PGSuggestionSession *featuredPhotosSuggestionSession; // @synthesize featuredPhotosSuggestionSession=_featuredPhotosSuggestionSession;
-@property(retain, nonatomic) NSDictionary *memoryByMemoryIdentifier; // @synthesize memoryByMemoryIdentifier=_memoryByMemoryIdentifier;
-@property(retain, nonatomic) NSDictionary *momentUUIDByAssetIdentifier; // @synthesize momentUUIDByAssetIdentifier=_momentUUIDByAssetIdentifier;
-@property(retain, nonatomic) NSSet *momentUUIDsForExhaustiveMomentLabelingQuestion; // @synthesize momentUUIDsForExhaustiveMomentLabelingQuestion=_momentUUIDsForExhaustiveMomentLabelingQuestion;
 @property(retain, nonatomic) NSDictionary *questionsByQuestionTypeByEntityType; // @synthesize questionsByQuestionTypeByEntityType=_questionsByQuestionTypeByEntityType;
-@property(retain, nonatomic) NSSet *tripKeyAssetIdentifiers; // @synthesize tripKeyAssetIdentifiers=_tripKeyAssetIdentifiers;
 
 @end
 

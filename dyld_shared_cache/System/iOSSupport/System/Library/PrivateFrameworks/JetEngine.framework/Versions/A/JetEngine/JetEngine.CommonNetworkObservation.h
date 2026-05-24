@@ -7,10 +7,9 @@
 @interface JetEngine.CommonNetworkObservation
 {
     id scheduler;
-    id body;
 }
 
-- (void);
+- (void);
 
 @end
 

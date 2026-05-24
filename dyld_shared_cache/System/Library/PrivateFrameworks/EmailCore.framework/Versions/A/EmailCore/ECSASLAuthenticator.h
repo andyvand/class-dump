@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAuthenticationScheme, NSString;
-@protocol ECAuthenticatableAccount, ECAuthenticatableConnection, ECSASLSecurityLayer;
+@class ECAuthenticationScheme;
+@protocol ECAuthenticatableConnection;
 
 @interface ECSASLAuthenticator
 {
     id <ECAuthenticatableConnection> _connection;
-    ECAuthenticationScheme *_authenticationScheme;
-    id <ECAuthenticatableAccount> _account;
-    long long _authenticationState;
 }
 
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (id);
+- (_Bool)eek.;
+- (void)laceholderIndicatorScale - %ld;
+- (void)@ called with an invalid state %ld;
+- (void)fline settings filtered to cache:(long long)arg1 %@;
+- (id)Dialogue level.;
+- (id)feature requires a UIWindowScene.;
+- (id)ning state:(id)arg1 %ld;
+- (_Bool). Fitting state and layout rect for content tabs UI does not match. canFitContentTabs:%d  contentTabsLayoutFrame:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)he content tabs layout frame height does not match the given contentTabsPresentationHeight.;
+- (id)ntrols view!;
+- (_Bool)ing:%d, animated:%d, shouldPresentAnimated:%d /* Error: Ran out of types for this method. */;
+- (long long)fication.;
+- (id)The player controller should have content before calling %@.;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ECAuthenticatableAccount> account;
 @property(readonly, nonatomic) ECAuthenticationScheme *authenticationScheme; // @synthesize authenticationScheme=_authenticationScheme;
-@property(nonatomic) long long authenticationState;
-@property(readonly, nonatomic) _Bool couldRetry;
-@property(readonly, nonatomic) _Bool justSentPlainTextPassword;
-@property(readonly, nonatomic) NSString *saslName;
-@property(readonly, nonatomic) id <ECSASLSecurityLayer> securityLayer;
-@property(readonly, nonatomic) _Bool supportsInitialClientResponse;
-@property(readonly, nonatomic) _Bool usesBase64EncodeResponseData;
-@property(readonly, nonatomic, getter=isUsingSSL) _Bool usingSSL;
 
 @end
 

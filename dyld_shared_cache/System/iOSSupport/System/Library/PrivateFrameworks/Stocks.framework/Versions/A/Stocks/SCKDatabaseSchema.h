@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSArray, NSString;
+@class NSString;
 
 @interface SCKDatabaseSchema
 {
     NSString *_name;
-    long long _environment;
-    NSArray *_zoneSchemas;
-    long long _security;
 }
 
 - (id);
@@ -19,22 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long);
-- (_Bool);
+- (void){CGSize=dd}{CGSize=dd}{CGSize=dd}};
+- (long long)@@;
+- (_Bool)ӟe;
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)onsoleKey(void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CKContainerID *containerID;
-@property(readonly, nonatomic) long long environment; // @synthesize environment=_environment;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool requiresDeviceToDeviceEncryption;
 @property(nonatomic) long long security; // @synthesize security=_security;
-@property(readonly, copy, nonatomic) NSArray *zoneIDs;
-@property(copy, nonatomic) NSArray *zoneSchemas; // @synthesize zoneSchemas=_zoneSchemas;
 
 @end
 

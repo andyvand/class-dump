@@ -7,7 +7,6 @@
 @interface SPShared.QueueSynchronizer
 {
     id queue;
-    id dispatchSpecificKey;
 }
 
 @end

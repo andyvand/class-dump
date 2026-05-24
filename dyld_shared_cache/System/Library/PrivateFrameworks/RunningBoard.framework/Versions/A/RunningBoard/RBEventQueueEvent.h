@@ -7,24 +7,20 @@
 @interface RBEventQueueEvent
 {
     id _context;
-    double _eventTime;
-    CDUnknownBlockType _action;
 }
 
-- (id);
+- (id)ingPids;
 - (double);
 - (id);
 - (void);
-- (long long);
+- (long long)u;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
 @property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) double eventTime; // @synthesize eventTime=_eventTime;
 
 @end
 

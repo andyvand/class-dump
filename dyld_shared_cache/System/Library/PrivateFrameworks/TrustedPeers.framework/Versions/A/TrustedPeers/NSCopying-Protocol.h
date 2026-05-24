@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)andleAPTextMetadataChanged(APMetadataSenderRef, CFDictionaryRef, CFStringRef);
 @end
 

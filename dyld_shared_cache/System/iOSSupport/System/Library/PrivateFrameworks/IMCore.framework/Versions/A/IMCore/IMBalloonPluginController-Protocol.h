@@ -5,5 +5,6 @@
 //
 
 @protocol IMBalloonPluginController
+- (id)O;
 @end
 

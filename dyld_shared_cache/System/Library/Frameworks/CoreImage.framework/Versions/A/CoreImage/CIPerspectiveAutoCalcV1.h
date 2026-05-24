@@ -6,40 +6,10 @@
 
 #import <CoreImage/CIPerspectiveAutoCalc.h>
 
-@class CIImage;
-
 __attribute__((visibility("hidden")))
 @interface CIPerspectiveAutoCalcV1 : CIPerspectiveAutoCalc
 {
     struct float3x3 K;
-    struct float3x3 invK;
-    struct float3x3 T;
-    struct float3x3 invT;
-    CIImage *gradMap;
-    unsigned long long gradMapW;
-    unsigned long long gradMapH;
-    id *gradMapBmp;
-    unsigned long long gradMapRb;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> vLines;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> hLines;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> vLineCluster;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> hLineCluster;
-    _Bool vGuidesValid;
-    _Bool hGuidesValid;
-    float vGuidesAOE;
-    float hGuidesAOE;
-    CDStruct_6fad556d vGuide0;
-    CDStruct_6fad556d vGuide1;
-    CDStruct_6fad556d hGuide0;
-    CDStruct_6fad556d hGuide1;
-    struct PseudoRand pseudoRando;
-    float rX;
-    float rY;
-    float rZ;
-    float pitchCorrectionAreaCoverage;
-    float yawCorrectionAreaCoverage;
-    double minimumPitchCorrectionAreaCoverage;
-    double minimumYawCorrectionAreaCoverage;
 }
 
 - (float);
@@ -54,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (_Bool);
@@ -72,9 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property double minimumPitchCorrectionAreaCoverage; // @synthesize minimumPitchCorrectionAreaCoverage;
-@property double minimumYawCorrectionAreaCoverage; // @synthesize minimumYawCorrectionAreaCoverage;
-@property(readonly) float pitchCorrectionAreaCoverage; // @synthesize pitchCorrectionAreaCoverage;
-@property(readonly) float yawCorrectionAreaCoverage; // @synthesize yawCorrectionAreaCoverage;
 
 @end
 

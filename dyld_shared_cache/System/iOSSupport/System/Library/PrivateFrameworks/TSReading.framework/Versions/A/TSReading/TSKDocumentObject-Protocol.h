@@ -5,5 +5,9 @@
 //
 
 @protocol TSKDocumentObject
+- (void)OperationNotSupportedForPreset;
+- (void)NoLongerPlayable;
+- (void)UndecodableMediaData;
+- (void);
 @end
 

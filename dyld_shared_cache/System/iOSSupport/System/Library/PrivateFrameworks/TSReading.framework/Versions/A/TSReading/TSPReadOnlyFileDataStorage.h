@@ -13,10 +13,10 @@
     NSURL *_URL;
 }
 
-- (_Bool);
-- (void);
-- (id);
-- (_Bool)ity: /* Error: Ran out of types for this method. */;
+- (_Bool)ists are not the same. Moving items between auto play and the queue is not supported.;
+- (void)failedWithUnrecoverrableError;
+- (id)headlineScoring.globalEngagementRawClicks;
+- (_Bool)CGImageForSize:lowQuality: /* Error: Ran out of types for this method. */;
 - (void)À;
 
 @end

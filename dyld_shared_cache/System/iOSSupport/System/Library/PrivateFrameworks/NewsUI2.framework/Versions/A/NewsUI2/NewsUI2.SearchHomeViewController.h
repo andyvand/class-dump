@@ -7,11 +7,6 @@
 @interface NewsUI2.SearchHomeViewController
 {
     id delegate;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id recentSearchManager;
-    id origination;
 }
 
 - (id);

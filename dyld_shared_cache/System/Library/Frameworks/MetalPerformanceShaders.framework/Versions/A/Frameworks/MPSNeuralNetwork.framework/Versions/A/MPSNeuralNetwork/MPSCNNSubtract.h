@@ -10,7 +10,7 @@
 {
 }
 
-- (id)ombine_2d_2dArray_2dArray_float;
+- (id)MPSRNNPNormCombine_2d_2dArray_2dArray_float;
 
 @end
 

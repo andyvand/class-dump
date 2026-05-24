@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEFilterProviderConfiguration, NEPerApp;
-
 @interface NEContentFilter
 {
     _Bool _enabled;
-    _Bool _disableEncryptedDNSSettings;
-    _Bool _enableManualMode;
-    NEFilterProviderConfiguration *_provider;
-    NEPerApp *_perApp;
-    long long _grade;
 }
 
-+ (_Bool);
++ (_Bool)setKnownRecordIDsFromList: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -30,20 +23,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (void)^Q;
-- (void)int;
-- (_Bool)cterSet;
+- (void)remoteEndpoint;
+- (_Bool)decimalDigitCharacterSet;
 - (id)MDM required;
 - (long long);
 
 // Remaining properties
-@property _Bool disableEncryptedDNSSettings; // @synthesize disableEncryptedDNSSettings=_disableEncryptedDNSSettings;
 @property _Bool enableManualMode; // @synthesize enableManualMode=_enableManualMode;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long grade; // @synthesize grade=_grade;
-@property(copy) NEPerApp *perApp; // @synthesize perApp=_perApp;
-@property(copy) NEFilterProviderConfiguration *provider; // @synthesize provider=_provider;
 
 @end
 

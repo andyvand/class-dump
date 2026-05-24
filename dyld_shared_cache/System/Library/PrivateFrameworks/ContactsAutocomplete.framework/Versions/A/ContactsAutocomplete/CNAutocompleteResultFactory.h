@@ -9,7 +9,6 @@
 @interface CNAutocompleteResultFactory
 {
     NSString *_preferredDomain;
-    NSString *_sendingAddress;
 }
 
 + (id);
@@ -22,12 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

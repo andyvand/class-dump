@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, STMInfoAlert;
+@class NSString;
 
 @protocol STMInfoRecommendation
+- (void);
+- (NSString *)should_drop_in_flow_layout"b1};
+- (NSString *)!;
 
 // Remaining properties
-@property(readonly, copy) NSString *actionButtonTitle;
-@property long long confirmOptionMenuIndex;
-@property(retain) NSArray *confirmOptionMenuItems;
-@property(retain) STMInfoAlert *confirmation;
-@property(readonly) NSString *identifier;
-@property(readonly, copy) NSString *message;
-@property(readonly) long long recoverableByteCount;
-@property(readonly, copy) NSString *secondaryMessage;
-@property(readonly, copy) NSString *secondaryTitle;
 @property long long state;
-@property(readonly, copy) NSString *title;
 @end
 

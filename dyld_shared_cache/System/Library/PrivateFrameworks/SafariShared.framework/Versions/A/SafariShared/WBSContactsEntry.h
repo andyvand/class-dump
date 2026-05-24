@@ -21,8 +21,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)@36@0:8@16B24@28 /* Error: Ran out of types for this method. */;
+- (id)%;
 - (void);
 
 // Remaining properties

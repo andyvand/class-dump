@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureCameraCalibrationDataSinkConfiguration, FigCaptureDepthDataSinkConfiguration, FigCaptureInternalSinkConfiguration, FigCaptureIrisSinkConfiguration, FigCaptureMovieFileSinkConfiguration, FigCapturePointCloudDataSinkConfiguration, FigCaptureSinkConfiguration, FigCaptureSourceConfiguration, FigCaptureStillImageSinkConfiguration, FigCaptureVideoDataSinkConfiguration, FigCaptureVideoPreviewSinkConfiguration, FigCaptureVideoThumbnailSinkConfiguration, NSString;
+@class NSString;
 
 @interface FigCaptureConnectionConfiguration
 {
     NSString *_connectionID;
-    unsigned int _mediaType;
-    int _underlyingDeviceType;
-    FigCaptureSourceConfiguration *_sourceConfiguration;
-    FigCaptureSinkConfiguration *_sinkConfiguration;
-    _Bool _enabled;
 }
 
 - (id);
 - (id);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id)}7/;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -36,7 +31,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ticalBorder;
 - (void);
 - (unsigned int);
 - (id);
@@ -48,30 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) FigCaptureCameraCalibrationDataSinkConfiguration *cameraCalibrationDataSinkConfiguration;
-@property(copy, nonatomic) NSString *connectionID; // @synthesize connectionID=_connectionID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) FigCaptureDepthDataSinkConfiguration *depthDataSinkConfiguration;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) FigCaptureInternalSinkConfiguration *internalSinkConfiguration;
-@property(readonly) FigCaptureIrisSinkConfiguration *irisSinkConfiguration;
-@property(nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) FigCaptureMovieFileSinkConfiguration *movieFileSinkConfiguration;
-@property(readonly) FigCapturePointCloudDataSinkConfiguration *pointCloudDataSinkConfiguration;
-@property(retain, nonatomic) FigCaptureSinkConfiguration *sinkConfiguration; // @synthesize sinkConfiguration=_sinkConfiguration;
 @property(readonly) _Bool smartCameraRequired;
-@property(retain, nonatomic) FigCaptureSourceConfiguration *sourceConfiguration; // @synthesize sourceConfiguration=_sourceConfiguration;
-@property(readonly) FigCaptureStillImageSinkConfiguration *stillImageSinkConfiguration;
-@property(readonly) Class superclass;
-@property(readonly) FigCaptureVideoThumbnailSinkConfiguration *thumbnailSinkConfiguration;
-@property(nonatomic) int underlyingDeviceType; // @synthesize underlyingDeviceType=_underlyingDeviceType;
-@property(readonly) FigCaptureVideoDataSinkConfiguration *videoDataSinkConfiguration;
-@property(readonly) FigCaptureVideoPreviewSinkConfiguration *videoPreviewSinkConfiguration;
 
 @end
 

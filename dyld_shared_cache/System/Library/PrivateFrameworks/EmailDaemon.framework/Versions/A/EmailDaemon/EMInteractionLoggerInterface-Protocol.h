@@ -5,5 +5,6 @@
 //
 
 @protocol EMInteractionLoggerInterface
+- (void)P;
 @end
 

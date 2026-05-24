@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIIndexBarView;
+@class UIIndexBarDisplayEntry, UIIndexBarView;
 
 @protocol UIIndexBarVisualStyle
-- (double);
-- (id);
+- (double)\;
 
 @optional
+- (UIIndexBarDisplayEntry *);
+- (double);
 - (_Bool)@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBecomeFocused;
-@property(nonatomic) _Bool expanded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) __weak UIIndexBarView *indexBarView;
-@property(readonly, nonatomic) double indexWidth;
-@property(readonly, nonatomic) double lineSpacing;
-@property(readonly, nonatomic) double minLineHeight;
-@property(readonly, nonatomic) _Bool overlay;
-@property(readonly, nonatomic) double trackingChangeHysteresis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @end
 

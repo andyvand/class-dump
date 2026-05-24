@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, CNAutocompleteUsageMonitor, NSDate, NSObject, _CNAutocompleteUserSessionDisplayedResults;
-@protocol CNAutocompleteProbeProvider, CNFuture, OS_dispatch_queue;
+@protocol CNAutocompleteProbeProvider;
 
 @interface CNAutocompleteUserSession
 {
     id <CNAutocompleteProbeProvider> _probeProvider;
-    CNAutocompleteFetchRequest *_currentRequest;
-    unsigned long long _currentBatch;
-    _CNAutocompleteUserSessionDisplayedResults *_lastDisplayedResults;
-    NSDate *_requestStartTime;
-    CNAutocompleteUsageMonitor *_usageMonitor;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    id <CNFuture> _duetResultsFuture;
 }
 
 - (void);
@@ -34,23 +26,16 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
+- (id)lastSearchString;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)erties:(id)arg1;
+- (void)keysToFetchForProperties:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentBatch; // @synthesize currentBatch=_currentBatch;
-@property(retain, nonatomic) CNAutocompleteFetchRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(retain, nonatomic) id <CNFuture> duetResultsFuture; // @synthesize duetResultsFuture=_duetResultsFuture;
-@property(retain, nonatomic) _CNAutocompleteUserSessionDisplayedResults *lastDisplayedResults; // @synthesize lastDisplayedResults=_lastDisplayedResults;
 @property(readonly, nonatomic) id <CNAutocompleteProbeProvider> probeProvider; // @synthesize probeProvider=_probeProvider;
-@property(retain, nonatomic) NSDate *requestStartTime; // @synthesize requestStartTime=_requestStartTime;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(retain, nonatomic) CNAutocompleteUsageMonitor *usageMonitor; // @synthesize usageMonitor=_usageMonitor;
 
 @end
 

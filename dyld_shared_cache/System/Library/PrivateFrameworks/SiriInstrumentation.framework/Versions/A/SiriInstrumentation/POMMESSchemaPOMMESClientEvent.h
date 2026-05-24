@@ -6,51 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, POMMESSchemaPOMMESCacheInvalidationContext, POMMESSchemaPOMMESCacheLookupContext, POMMESSchemaPOMMESCacheMaintenanceContext, POMMESSchemaPOMMESCacheStoringContext, POMMESSchemaPOMMESClientEventMetadata, POMMESSchemaPOMMESDebugPerformanceReported, POMMESSchemaPOMMESKnowledgeFallbackConfirmationOutcomeReceived, POMMESSchemaPOMMESKnowledgeFallbackContext, POMMESSchemaPOMMESKnowledgeFallbackOffered, POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown, POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived, POMMESSchemaPOMMESOnDeviceIndexSearchContext, POMMESSchemaPOMMESPegasusKitPegasusRequestContext, POMMESSchemaPOMMESPegasusRequestContext, POMMESSchemaPOMMESPegasusRequestGeoAppResolutionReported, POMMESSchemaPOMMESProfileSliceResolutionRequestContext, POMMESSchemaPOMMESRequestContext, POMMESSchemaPOMMESResourceDownloadContext, POMMESSchemaPOMMESSearchRequestClassifierExecuted, POMMESSchemaPOMMESServiceClassifierScoreReported, SISchemaInstrumentationMessage;
+@class POMMESSchemaPOMMESClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface POMMESSchemaPOMMESClientEvent : SISchemaTopLevelUnionType
 {
     POMMESSchemaPOMMESClientEventMetadata *_eventMetadata;
-    POMMESSchemaPOMMESPegasusRequestContext *_pegasusRequestContext;
-    POMMESSchemaPOMMESOnDeviceIndexSearchContext *_onDeviceIndexSearchContext;
-    POMMESSchemaPOMMESServiceClassifierScoreReported *_pommesServiceClassifierScoreReported;
-    POMMESSchemaPOMMESRequestContext *_pommesRequestContext;
-    POMMESSchemaPOMMESDebugPerformanceReported *_performanceReported;
-    POMMESSchemaPOMMESProfileSliceResolutionRequestContext *_profileResolutionRequestContext;
-    POMMESSchemaPOMMESPegasusKitPegasusRequestContext *_pegasusKitRequestContext;
-    POMMESSchemaPOMMESResourceDownloadContext *_resourceDownloadContext;
-    POMMESSchemaPOMMESCacheLookupContext *_cacheLookupContext;
-    POMMESSchemaPOMMESCacheStoringContext *_cacheStoringContext;
-    POMMESSchemaPOMMESCacheInvalidationContext *_cacheInvalidationContext;
-    POMMESSchemaPOMMESCacheMaintenanceContext *_cacheMaintenanceContext;
-    POMMESSchemaPOMMESPegasusRequestGeoAppResolutionReported *_pommesPegasusRequestGeoAppResolutionReported;
-    POMMESSchemaPOMMESSearchRequestClassifierExecuted *_pommesSearchRequestClassifierExecuted;
-    POMMESSchemaPOMMESKnowledgeFallbackContext *_pommesKnowledgeFallbackContext;
-    POMMESSchemaPOMMESKnowledgeFallbackOffered *_pommesKnowledgeFallbackOffered;
-    POMMESSchemaPOMMESKnowledgeFallbackConfirmationOutcomeReceived *_pommesKnowledgeFallbackConfirmationOutcomeReceived;
-    POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown *_pommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
-    POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived *_pommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived;
-    _Bool _hasEventMetadata;
-    _Bool _hasPegasusRequestContext;
-    _Bool _hasOnDeviceIndexSearchContext;
-    _Bool _hasPommesServiceClassifierScoreReported;
-    _Bool _hasPommesRequestContext;
-    _Bool _hasPerformanceReported;
-    _Bool _hasProfileResolutionRequestContext;
-    _Bool _hasPegasusKitRequestContext;
-    _Bool _hasResourceDownloadContext;
-    _Bool _hasCacheLookupContext;
-    _Bool _hasCacheStoringContext;
-    _Bool _hasCacheInvalidationContext;
-    _Bool _hasCacheMaintenanceContext;
-    _Bool _hasPommesPegasusRequestGeoAppResolutionReported;
-    _Bool _hasPommesSearchRequestClassifierExecuted;
-    _Bool _hasPommesKnowledgeFallbackContext;
-    _Bool _hasPommesKnowledgeFallbackOffered;
-    _Bool _hasPommesKnowledgeFallbackConfirmationOutcomeReceived;
-    _Bool _hasPommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
-    _Bool _hasPommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -64,6 +24,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,6 +36,7 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -84,14 +46,12 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -119,14 +79,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)_;
+- (_Bool)@";
 - (_Bool);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -144,7 +104,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?׀o;
 - (void);
 - (int);
 - (id);
@@ -163,62 +123,20 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRequestBroker_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)1;
+- (_Bool)IMDMessageRecordCopyExpiredOrExpiringiMessages;
 - (id);
 - (id);
 - (id)er1";
-- (unsigned long long)entTriggered;
-- (id)sReceived;
+- (unsigned long long)deleteExperimentTriggered;
+- (id)_outOfOrderBytesReceived;
 - (id)anscriptTapped;
 - (int)¼=;
-- (void)APLAYER_MEDIAREMOTE_PLAY;
+- (void)FLOWDOMAINEXECUTIONTYPE_MEDIAPLAYER_MEDIAREMOTE_PLAY;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheInvalidationContext *cacheInvalidationContext; // @synthesize cacheInvalidationContext=_cacheInvalidationContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheLookupContext *cacheLookupContext; // @synthesize cacheLookupContext=_cacheLookupContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheMaintenanceContext *cacheMaintenanceContext; // @synthesize cacheMaintenanceContext=_cacheMaintenanceContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheStoringContext *cacheStoringContext; // @synthesize cacheStoringContext=_cacheStoringContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCacheInvalidationContext; // @synthesize hasCacheInvalidationContext=_hasCacheInvalidationContext;
-@property(nonatomic) _Bool hasCacheLookupContext; // @synthesize hasCacheLookupContext=_hasCacheLookupContext;
-@property(nonatomic) _Bool hasCacheMaintenanceContext; // @synthesize hasCacheMaintenanceContext=_hasCacheMaintenanceContext;
-@property(nonatomic) _Bool hasCacheStoringContext; // @synthesize hasCacheStoringContext=_hasCacheStoringContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasOnDeviceIndexSearchContext; // @synthesize hasOnDeviceIndexSearchContext=_hasOnDeviceIndexSearchContext;
-@property(nonatomic) _Bool hasPegasusKitRequestContext; // @synthesize hasPegasusKitRequestContext=_hasPegasusKitRequestContext;
-@property(nonatomic) _Bool hasPegasusRequestContext; // @synthesize hasPegasusRequestContext=_hasPegasusRequestContext;
-@property(nonatomic) _Bool hasPerformanceReported; // @synthesize hasPerformanceReported=_hasPerformanceReported;
-@property(nonatomic) _Bool hasPommesKnowledgeFallbackConfirmationOutcomeReceived; // @synthesize hasPommesKnowledgeFallbackConfirmationOutcomeReceived=_hasPommesKnowledgeFallbackConfirmationOutcomeReceived;
-@property(nonatomic) _Bool hasPommesKnowledgeFallbackContext; // @synthesize hasPommesKnowledgeFallbackContext=_hasPommesKnowledgeFallbackContext;
-@property(nonatomic) _Bool hasPommesKnowledgeFallbackOffered; // @synthesize hasPommesKnowledgeFallbackOffered=_hasPommesKnowledgeFallbackOffered;
-@property(nonatomic) _Bool hasPommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown; // @synthesize hasPommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown=_hasPommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
-@property(nonatomic) _Bool hasPommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived; // @synthesize hasPommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived=_hasPommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived;
-@property(nonatomic) _Bool hasPommesPegasusRequestGeoAppResolutionReported; // @synthesize hasPommesPegasusRequestGeoAppResolutionReported=_hasPommesPegasusRequestGeoAppResolutionReported;
-@property(nonatomic) _Bool hasPommesRequestContext; // @synthesize hasPommesRequestContext=_hasPommesRequestContext;
-@property(nonatomic) _Bool hasPommesSearchRequestClassifierExecuted; // @synthesize hasPommesSearchRequestClassifierExecuted=_hasPommesSearchRequestClassifierExecuted;
-@property(nonatomic) _Bool hasPommesServiceClassifierScoreReported; // @synthesize hasPommesServiceClassifierScoreReported=_hasPommesServiceClassifierScoreReported;
-@property(nonatomic) _Bool hasProfileResolutionRequestContext; // @synthesize hasProfileResolutionRequestContext=_hasProfileResolutionRequestContext;
-@property(nonatomic) _Bool hasResourceDownloadContext; // @synthesize hasResourceDownloadContext=_hasResourceDownloadContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESOnDeviceIndexSearchContext *onDeviceIndexSearchContext; // @synthesize onDeviceIndexSearchContext=_onDeviceIndexSearchContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusKitPegasusRequestContext *pegasusKitRequestContext; // @synthesize pegasusKitRequestContext=_pegasusKitRequestContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusRequestContext *pegasusRequestContext; // @synthesize pegasusRequestContext=_pegasusRequestContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESDebugPerformanceReported *performanceReported; // @synthesize performanceReported=_performanceReported;
-@property(retain, nonatomic) POMMESSchemaPOMMESKnowledgeFallbackConfirmationOutcomeReceived *pommesKnowledgeFallbackConfirmationOutcomeReceived; // @synthesize pommesKnowledgeFallbackConfirmationOutcomeReceived=_pommesKnowledgeFallbackConfirmationOutcomeReceived;
-@property(retain, nonatomic) POMMESSchemaPOMMESKnowledgeFallbackContext *pommesKnowledgeFallbackContext; // @synthesize pommesKnowledgeFallbackContext=_pommesKnowledgeFallbackContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESKnowledgeFallbackOffered *pommesKnowledgeFallbackOffered; // @synthesize pommesKnowledgeFallbackOffered=_pommesKnowledgeFallbackOffered;
-@property(retain, nonatomic) POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown *pommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown; // @synthesize pommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown=_pommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
-@property(retain, nonatomic) POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived *pommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived; // @synthesize pommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived=_pommesKnowledgeFallbackTurnOffAlwaysPromptOutcomeReceived;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusRequestGeoAppResolutionReported *pommesPegasusRequestGeoAppResolutionReported; // @synthesize pommesPegasusRequestGeoAppResolutionReported=_pommesPegasusRequestGeoAppResolutionReported;
-@property(retain, nonatomic) POMMESSchemaPOMMESRequestContext *pommesRequestContext; // @synthesize pommesRequestContext=_pommesRequestContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESSearchRequestClassifierExecuted *pommesSearchRequestClassifierExecuted; // @synthesize pommesSearchRequestClassifierExecuted=_pommesSearchRequestClassifierExecuted;
-@property(retain, nonatomic) POMMESSchemaPOMMESServiceClassifierScoreReported *pommesServiceClassifierScoreReported; // @synthesize pommesServiceClassifierScoreReported=_pommesServiceClassifierScoreReported;
-@property(retain, nonatomic) POMMESSchemaPOMMESProfileSliceResolutionRequestContext *profileResolutionRequestContext; // @synthesize profileResolutionRequestContext=_profileResolutionRequestContext;
-@property(retain, nonatomic) POMMESSchemaPOMMESResourceDownloadContext *resourceDownloadContext; // @synthesize resourceDownloadContext=_resourceDownloadContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

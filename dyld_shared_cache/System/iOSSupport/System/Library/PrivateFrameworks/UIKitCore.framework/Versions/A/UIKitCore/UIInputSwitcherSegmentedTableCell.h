@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (struct CGSize);
 - (void);
-- (id);
+- (id)riginalTextRangesByPartIndex, messages is being edited for a second (or more) time. Not overriding original values.;
 - (void);
 - (void);
 - (void);
-- (id)ICTFontTextStyleTitle3;
+- (id)UICTFontTextStyleTitle3;
 - (void)~dÑ´¹g;
 
 // Remaining properties

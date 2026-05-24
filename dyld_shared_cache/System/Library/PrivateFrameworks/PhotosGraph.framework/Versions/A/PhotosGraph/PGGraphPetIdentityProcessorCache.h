@@ -9,11 +9,10 @@
 @interface PGGraphPetIdentityProcessorCache
 {
     PGGraph *_graph;
-    NSSet *_relevantAssetUUIDsForPetFaces;
 }
 
 - (id);
-- (void)riend;
+- (void)Friend;
 - (id);
 
 // Remaining properties

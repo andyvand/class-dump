@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDateInterval, NSNumber, NSString, SPBeaconingKey;
+@class NSDateInterval, SPBeaconingKey;
 
 @interface SPCommandKey
 {
     NSDateInterval *dateInterval;
-    SPBeaconingKey *_beaconingKey;
-    NSData *_connectionToken;
-    NSData *_nearbyToken;
-    long long _type;
-    NSNumber *_primaryIndex;
-    NSNumber *_secondaryIndex;
-    NSData *_commandKey;
 }
 
 + (_Bool);
@@ -37,28 +30,13 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)MessageRecordBatchSize;
 - (void);
-- (id);
+- (id)Y;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *address;
 @property(copy, nonatomic) SPBeaconingKey *beaconingKey; // @synthesize beaconingKey=_beaconingKey;
-@property(copy, nonatomic) NSData *commandKey; // @synthesize commandKey=_commandKey;
-@property(copy, nonatomic) NSData *connectionToken; // @synthesize connectionToken=_connectionToken;
-@property(readonly, copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *nearbyToken; // @synthesize nearbyToken=_nearbyToken;
-@property(copy, nonatomic) NSNumber *primaryIndex; // @synthesize primaryIndex=_primaryIndex;
-@property(copy, nonatomic) NSNumber *secondaryIndex; // @synthesize secondaryIndex=_secondaryIndex;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AppleMediaServicesUI.PresentationDelegateWrapper
 {
     id currentClient;
-    id _delegate;
 }
 
 @end

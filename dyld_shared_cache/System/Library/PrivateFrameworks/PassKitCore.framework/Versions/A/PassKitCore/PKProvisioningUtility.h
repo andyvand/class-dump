@@ -10,11 +10,9 @@
 @interface PKProvisioningUtility
 {
     PKPaymentWebService *_destinationWebService;
-    PKPaymentWebService *_managingWebService;
-    id <PKProvisioningUtilityDataHelper> _dataProvider;
 }
 
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -25,15 +23,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)p;
 - (id);
 - (id)on;
-- (void)DynamicFraudPage;
-- (void)icationType;
+- (void)PKPeerPaymentDynamicFraudPage;
+- (void)authenticationType;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKProvisioningUtilityDataHelper> dataProvider; // @synthesize dataProvider=_dataProvider;

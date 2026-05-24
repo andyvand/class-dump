@@ -16,8 +16,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)B;
+- (unsigned long long)streamingAudio_VBRMaxPacketSize;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifierForConstraintFailure;
-@property(retain, nonatomic) CKDPIdentifier *identifierForConstraintFailure; // @synthesize identifierForConstraintFailure=_identifierForConstraintFailure;
 
 @end
 

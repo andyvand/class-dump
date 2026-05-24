@@ -13,8 +13,8 @@
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)Driver _onCloudSyncAuthorizationChange:(id)arg1 ];
+- (void)orizationChange:(id)arg1 ];
 - (id);
 - (void);
 

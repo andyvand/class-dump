@@ -5,5 +5,8 @@
 //
 
 @protocol CHRecognitionSessionObserver
+
+@optional
+- (double);
 @end
 

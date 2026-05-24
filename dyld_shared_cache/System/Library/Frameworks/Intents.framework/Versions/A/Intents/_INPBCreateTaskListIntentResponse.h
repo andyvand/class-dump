@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBTaskList;
+@class _INPBTaskList;
 
 @interface _INPBCreateTaskListIntentResponse
 {
     struct _has;
-    _INPBTaskList *_createdTaskList;
 }
 
 + (_Bool);
-- (void);
+- (void)9h;
 - (_Bool);
 - (id);
 - (id);
@@ -21,21 +20,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)fi] CWFPinger:(id)arg1 Receive error:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)(;
 - (void)fat percentage;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBTaskList *createdTaskList; // @synthesize createdTaskList=_createdTaskList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCreatedTaskList;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

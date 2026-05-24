@@ -5,5 +5,11 @@
 //
 
 @protocol CNKScreenSharingViewControllerDelegate
+- (void);
+- (void){;
+- (void)lz;
+
+@optional
+- (void);
 @end
 

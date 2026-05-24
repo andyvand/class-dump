@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)cation token %d;
 - (void)ðÓ3;
 - (id);
 

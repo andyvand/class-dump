@@ -9,7 +9,6 @@
 @interface EWSCalendarPermissionType : EWSBasePermissionType
 {
     long long _ReadItems;
-    long long _CalendarPermissionLevel;
 }
 
 + (id);
@@ -17,10 +16,9 @@
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id)*;
 
 // Remaining properties
-@property(nonatomic) long long CalendarPermissionLevel; // @synthesize CalendarPermissionLevel=_CalendarPermissionLevel;
 @property(nonatomic) long long ReadItems; // @synthesize ReadItems=_ReadItems;
 
 @end

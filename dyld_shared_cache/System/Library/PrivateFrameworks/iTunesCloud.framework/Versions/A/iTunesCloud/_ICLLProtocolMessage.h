@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ICLLActionMessage, _ICLLCommandMessage, _ICLLErrorMessage, _ICLLQueryMessage;
+@class _ICLLActionMessage;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLProtocolMessage
 {
     _ICLLActionMessage *_action;
-    _ICLLCommandMessage *_command;
-    _ICLLErrorMessage *_error;
-    _ICLLQueryMessage *_query;
-    NSString *_traceId;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);

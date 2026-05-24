@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSString, _HMContext;
+@class HMHomeManager;
 
 @interface HMWidgetManager
 {
     HMHomeManager *_homeManager;
-    _HMContext *_context;
 }
 
 + (id)ID"8@"NSError"16;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)
+@
+;
 - (id);
-- (id);
-- (void)guageValue;
+- (void)HMSettingLanguageValue;
 
 // Remaining properties
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) Class superclass;
 
 @end
 

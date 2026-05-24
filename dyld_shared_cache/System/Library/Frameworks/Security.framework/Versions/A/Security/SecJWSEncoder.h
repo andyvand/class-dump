@@ -7,7 +7,6 @@
 @interface SecJWSEncoder
 {
     struct __SecKey *_publicKey;
-    struct __SecKey *_privateKey;
 }
 
 - (id);
@@ -17,17 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)x;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (struct __SecKey *);
 - (void);
-- (struct __SecKey *)c;
+- (struct __SecKey *)desc;
 
 // Remaining properties
-@property struct __SecKey *privateKey; // @synthesize privateKey=_privateKey;
 @property struct __SecKey *publicKey; // @synthesize publicKey=_publicKey;
 
 @end

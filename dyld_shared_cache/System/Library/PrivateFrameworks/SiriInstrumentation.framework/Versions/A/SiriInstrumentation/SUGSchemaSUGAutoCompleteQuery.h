@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGAutoCompleteQuery : SISchemaInstrumentationMessage
 {
     int _numCharactersInQuery;
-    int _numWordsInQuery;
-    struct {
-        unsigned int numCharactersInQuery:1;
-        unsigned int numWordsInQuery:1;
-    } _has;
 }
 
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -29,21 +22,17 @@
 - (void);
 - (int);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)2@0:8@"ACAccount"16@?<v@?@"NSArray"@"NSError">24 /* Error: Ran out of types for this method. */;
+- (_Bool)ore",&,N,V_contactStore;
+- (_Bool)ileSMS DB migration failed to add column user_info to the attachment table.;
 - (id);
 - (id);
-- (id)ocationSource;
-- (id)pDetected;
+- (id)deleteNextTurnInvocationSource;
+- (id)_hasSpeechStopDetected;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumCharactersInQuery;
-@property(nonatomic) _Bool hasNumWordsInQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int numCharactersInQuery; // @synthesize numCharactersInQuery=_numCharactersInQuery;
-@property(nonatomic) int numWordsInQuery; // @synthesize numWordsInQuery=_numWordsInQuery;
 
 @end
 

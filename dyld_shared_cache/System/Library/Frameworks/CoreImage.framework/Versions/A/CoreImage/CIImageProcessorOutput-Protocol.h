@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLCommandBuffer, MTLTexture;
+@protocol MTLTexture;
 
 @protocol CIImageProcessorOutput
+- (id <MTLTexture>);
 - (int)GPoint=dd}{CGSize=dd}}16i48@52;
 - (struct __CVBuffer *)unable to create 3D bilateral grid hash. Please file a radar.;
 - (struct CGRect)vec2(dot(pt, mtx.xy), dot(pt, mtx.zw));
@@ -28,14 +29,6 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) void *baseAddress;
-@property(readonly, nonatomic) unsigned long long bytesPerRow;
-@property(readonly, nonatomic) unsigned long long digest;
-@property(readonly, nonatomic) int format;
-@property(readonly, nonatomic) id <MTLCommandBuffer> metalCommandBuffer;
-@property(readonly, nonatomic) id <MTLTexture> metalTexture;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
 @property(readonly, nonatomic) struct CGRect region;
-@property(readonly, nonatomic) struct __IOSurface *surface;
 @end
 

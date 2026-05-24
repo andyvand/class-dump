@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIExternalMemoryDescriptor, CMIExternalMemoryResource;
 @protocol MTLDevice;
 
 @interface _NUStyleEngineMemoryResource
 {
     unsigned long long _sid;
-    id <MTLDevice> _device;
-    CMIExternalMemoryDescriptor *_descriptor;
-    CMIExternalMemoryResource *_resource;
 }
 
 + (_Bool);
@@ -22,15 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void)1Â0@ù
 × ;
 - (_Bool)nitWithRequest:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CMIExternalMemoryDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) CMIExternalMemoryResource *resource; // @synthesize resource=_resource;
 
 @end
 

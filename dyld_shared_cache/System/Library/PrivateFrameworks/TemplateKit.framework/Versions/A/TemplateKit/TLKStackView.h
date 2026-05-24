@@ -7,10 +7,9 @@
 @interface TLKStackView
 {
     _Bool _flipsToVerticalAxisForAccessibilityContentSizes;
-    _Bool _isForcedToBeVertical;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool flipsToVerticalAxisForAccessibilityContentSizes; // @synthesize flipsToVerticalAxisForAccessibilityContentSizes=_flipsToVerticalAxisForAccessibilityContentSizes;
 @property(nonatomic) _Bool isForcedToBeVertical; // @synthesize isForcedToBeVertical=_isForcedToBeVertical;
 
 @end

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLLinkedFunctions, MTLPipelineBufferDescriptorArray, MTLStageInputOutputDescriptor, NSArray, NSString;
-@protocol MTLFunction;
+@class NSArray;
 
 @interface MTLComputePipelineDescriptor
 {
@@ -14,30 +13,36 @@
 
 + (id)ü;
 + (id)|;
-- (void);
+- (void)_unordered_gatherX(src, point) gatherX(src, point)
+#define _unordered_gatherY(src, point) gatherY(src, point)
+#define _unordered_gatherZ(src, point) gatherZ(src, point)
+#define _unordered_gatherW(src, point) gatherW(src, point)
+
+// Equivalent to samplerExtent (src).xy.
+#define samplerOrigin(src) samplerExtent(src).xy
+
+// Equivalent to samplerExtent (src).zw.
+#define samplerSize(src) samplerExtent(src).zw
+
+// Stubs for compute kernels compiled with Fosl (to be replaced with context-dependent implementations, post-Fosl codegen)
+void writeImage (vec4 color, vec2 point) {}
+void writeImagePlane (vec4 color, vec2 point) {}
+vec2 writeCoord () { return vec2(0.0); }
+
+// Rename some (C++) reserved keywords to avoid conflict with Metal shading language
+#define new _new
+#define delete _delete
+#define and _and
+#define not _not
+#define or _or
+#define xor _xor
+ ;
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *binaryArchives; // @dynamic binaryArchives;
-@property(readonly) MTLPipelineBufferDescriptorArray *buffers; // @dynamic buffers;
-@property(retain, nonatomic) id <MTLFunction> computeFunction; // @dynamic computeFunction;
 @property(nonatomic) _Bool forceResourceIndex; // @dynamic forceResourceIndex;
-@property(nonatomic) unsigned long long globalConstantsTag; // @dynamic globalConstantsTag;
-@property(copy, nonatomic) NSArray *insertLibraries; // @synthesize insertLibraries=_insertLibraries;
-@property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(copy, nonatomic) MTLLinkedFunctions *linkedFunctions; // @dynamic linkedFunctions;
-@property(nonatomic) unsigned long long maxCallStackDepth; // @dynamic maxCallStackDepth;
-@property(nonatomic) unsigned long long maxTotalThreadsPerThreadgroup; // @dynamic maxTotalThreadsPerThreadgroup;
-@property(copy, nonatomic) NSArray *preloadedLibraries; // @dynamic preloadedLibraries;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerThreadgroup; // @dynamic requiredThreadsPerThreadgroup;
-@property(nonatomic) unsigned long long resourceIndex; // @dynamic resourceIndex;
-@property(nonatomic) long long shaderValidation; // @dynamic shaderValidation;
-@property(copy, nonatomic) MTLStageInputOutputDescriptor *stageInputDescriptor; // @dynamic stageInputDescriptor;
-@property(nonatomic) _Bool supportAddingBinaryFunctions; // @dynamic supportAddingBinaryFunctions;
-@property(nonatomic) _Bool supportIndirectCommandBuffers; // @dynamic supportIndirectCommandBuffers;
-@property(nonatomic) _Bool threadGroupSizeIsMultipleOfThreadExecutionWidth; // @dynamic threadGroupSizeIsMultipleOfThreadExecutionWidth;
 
 @end
 

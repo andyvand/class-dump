@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString, PHFetchResult, PHPerson, PXRecipientTransport;
+@class NSString;
 
 @interface PXPhotoKitPersonSuggestion
 {
     _Bool _fetchQueue_checkedForLinkedContact;
-    CNContact *_fetchQueue_linkedContact;
-    CNContact *_fetchQueue_prefetchedContact;
-    PXRecipientTransport *_fetchQueue_bestTransport;
-    NSString *_localizedName;
-    PHPerson *_person;
-    PHFetchResult *_keyFaceFetchResult;
-    PHFetchResult *_keyAssetFetchResult;
 }
 
 + (id);
@@ -28,33 +21,23 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)processWithDuckLevel: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)WithSharedLibraryStatusProvider:(struct _NSZone *)arg1 sharedLibrary:legacyDevicesFallbackMonitor: /* Error: Ran out of types for this method. */;
+- (id)replyAssistantContextWithSharedLibraryStatusProvider:(struct _NSZone *)arg1 sharedLibrary:legacyDevicesFallbackMonitor: /* Error: Ran out of types for this method. */;
 - (id)ZGAUyï
 ¤SgGG_Qo_AJGGA3_GSgGGACGã;
-- (void)tionsDismissalControllerChange;
+- (void)NotificationsDismissalControllerChange;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PHFetchResult *keyAssetFetchResult; // @synthesize keyAssetFetchResult=_keyAssetFetchResult;
-@property(readonly, nonatomic) PHFetchResult *keyFaceFetchResult; // @synthesize keyFaceFetchResult=_keyFaceFetchResult;
 @property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

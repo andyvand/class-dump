@@ -11,9 +11,9 @@
 }
 
 + (double);
-+ (id);
++ (id)isEqualToDictionary: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -26,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);

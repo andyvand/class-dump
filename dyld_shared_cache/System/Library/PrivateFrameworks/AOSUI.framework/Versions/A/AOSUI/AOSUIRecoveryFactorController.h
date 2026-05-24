@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AIDAAccountManager, AKBiometricRatchetController, AOSUIAccountContactSetupFlowController, CDPStateController, CDPStateUIController, CDPWalrusStateController, NSString, NSWindow;
-@protocol AOSUIRecoveryFactorControllerDelegate;
+@class AIDAAccountManager, CDPStateController;
 
 @interface AOSUIRecoveryFactorController
 {
     CDPStateController *_stateController;
-    CDPStateUIController *_stateUIController;
-    AOSUIAccountContactSetupFlowController *_custodianFlowController;
-    AKBiometricRatchetController *_bioRatchetController;
-    CDPWalrusStateController *_walrusStateController;
-    AIDAAccountManager *_accountManager;
-    NSWindow *_hostWindow;
-    id <AOSUIRecoveryFactorControllerDelegate> _delegate;
-    NSString *_telemetryFlowID;
 }
 
 - (void);
@@ -37,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -57,16 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AIDAAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AOSUIRecoveryFactorControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

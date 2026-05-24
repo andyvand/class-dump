@@ -6,28 +6,25 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UIDelayedAction, UIView;
-@protocol UIScrollViewDelayedTouchesBeganGestureRecognizerClient;
+@class UIDelayedAction;
 
 @interface UIScrollViewDelayedTouchesBeganGestureRecognizer : UIGestureRecognizer
 {
     UIDelayedAction *_touchDelay;
-    struct CGPoint _startSceneReferenceLocation;
-    UIView<UIScrollViewDelayedTouchesBeganGestureRecognizerClient> *_client;
 }
 
 + (_Bool);
 + (_Bool);
-- (void);
-- (_Bool);
+- (void)payloadOutputPath;
+- (_Bool)localizedFailureReason;
 - (void);
 - (id);
-- (void)tems:(id)arg1;
-- (void)tooSmallForInstructionalText;
-- (void)nteredGrowth;
+- (void)addItems:(id)arg1;
+- (void)_tooSmallForInstructionalText;
+- (void)_fullBleedCenteredGrowth;
 - (void)Generator;
-- (void)iggerAdditions;
-- (void)eBar;
+- (void)_UIPressTriggerAdditions;
+- (void)UIKeyboardWillToggleCandidateBar;
 - (void)dÛ ];
 - (void)Pîc;
 - (void)(Í+ÿm;

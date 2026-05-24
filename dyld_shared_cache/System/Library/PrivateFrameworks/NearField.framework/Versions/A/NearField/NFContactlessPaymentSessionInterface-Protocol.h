@@ -5,5 +5,17 @@
 //
 
 @protocol NFContactlessPaymentSessionInterface
+- (oneway void)ACCESSIBILITY_CREATE_NEW_GROUP;
+- (oneway void)_cardViewMinimumHeight;
+- (oneway void)_datumLabelMouseOverHighlightColor;
+- (oneway void)_nameViewTaglinePlaceholderAttributes;
+- (oneway void)oid)_block_invoke;
+- (oneway void)nretained Class, __strong id);
+- (oneway void)/CoreSpotlight.framework/Contents/MacOS/CoreSpotlight;
+- (oneway void)Street;
+- (oneway void)ACTION_PHONE_LARGE_TYPE;
+- (oneway void)atterClass(void)_block_invoke;
+- (oneway void)pronouns;
+- (oneway void);
 @end
 

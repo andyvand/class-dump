@@ -5,7 +5,7 @@
 //
 
 @protocol PXMutableStoryMusicPlayer
-- (void)monadeLoadableShelf;
+- (void)LemonadeLoadableShelf;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;

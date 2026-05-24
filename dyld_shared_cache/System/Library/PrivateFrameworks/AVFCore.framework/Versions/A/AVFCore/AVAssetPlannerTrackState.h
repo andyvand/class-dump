@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVAssetPlannerTrackState
 {
     int _assemblyTrackID;
-    NSString *_mediaType;
-    NSString *_videoCodecType;
-    _Bool _requiresVideoCompression;
-    NSArray *_segmentStates;
-    NSDictionary *_lastCompletedSegmentFinalHDRMetadataGenerationState;
 }
 
 + (id);
-+ (id);
++ (id)A;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int)uu;
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void)Q)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property int assemblyTrackID; // @synthesize assemblyTrackID=_assemblyTrackID;
-@property(copy) NSDictionary *lastCompletedSegmentFinalHDRMetadataGenerationState; // @synthesize lastCompletedSegmentFinalHDRMetadataGenerationState=_lastCompletedSegmentFinalHDRMetadataGenerationState;
-@property(copy) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property _Bool requiresVideoCompression; // @synthesize requiresVideoCompression=_requiresVideoCompression;
-@property(copy) NSArray *segmentStates; // @synthesize segmentStates=_segmentStates;
-@property(copy) NSString *videoCodecType; // @synthesize videoCodecType=_videoCodecType;
 
 @end
 

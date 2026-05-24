@@ -9,11 +9,11 @@
     id _weakReference;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 

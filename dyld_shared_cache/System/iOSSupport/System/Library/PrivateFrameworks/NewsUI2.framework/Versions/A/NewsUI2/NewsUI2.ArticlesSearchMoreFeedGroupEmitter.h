@@ -7,7 +7,6 @@
 @interface NewsUI2.ArticlesSearchMoreFeedGroupEmitter
 {
     id config;
-    id formatService;
 }
 
 @end

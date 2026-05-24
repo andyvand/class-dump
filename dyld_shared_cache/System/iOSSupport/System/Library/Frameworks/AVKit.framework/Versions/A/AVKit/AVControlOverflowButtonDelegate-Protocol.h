@@ -5,5 +5,9 @@
 //
 
 @protocol AVControlOverflowButtonDelegate
+
+@optional
+- (void)L._pG;
+- (void)";
 @end
 

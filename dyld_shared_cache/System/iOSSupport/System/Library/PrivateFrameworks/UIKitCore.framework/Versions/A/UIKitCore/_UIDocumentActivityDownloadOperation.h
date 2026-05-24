@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
     UIWindowScene *_weakScene;
 }
 
-- (id);
-- (void)eadingDecorationView;
+- (id)commandHandlerRegistry;
+- (void)_proofreadingDecorationView;
 - (void)Åã\;
 
 @end

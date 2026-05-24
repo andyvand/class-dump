@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _MLNLPSentenceClassifierModel
 {
     void *_sentenceClassifierModel;
-    MLModelDescription *_modelDescription;
 }
 
-- (void);
-- (id);
+- (void)t:(id)arg1 retainedResources:innerNodeCapacity:leafNodeCapacity:] /* Error: Ran out of types for this method. */;
+- (id)MTL_DEBUG_IGNORE_PRECOMPILED_BINARIES;
 - (void);
 - (id);
 - (id);

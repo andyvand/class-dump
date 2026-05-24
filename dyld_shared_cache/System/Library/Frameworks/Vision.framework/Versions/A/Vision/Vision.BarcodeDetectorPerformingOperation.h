@@ -7,7 +7,6 @@
 @interface Vision.BarcodeDetectorPerformingOperation
 {
     id requests;
-    id options;
 }
 
 @end

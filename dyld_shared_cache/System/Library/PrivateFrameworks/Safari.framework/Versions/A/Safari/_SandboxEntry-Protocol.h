@@ -10,14 +10,13 @@
 + (id)$;
 - (NSDictionary *)!D!GùÑ¥1Â0@ù
 × ;
-- (NSUUID *)nuItem: /* Error: Ran out of types for this method. */;
+- (NSUUID *)setMenuItem: /* Error: Ran out of types for this method. */;
 - (id)Äåðå(æÄæèæ
 @êdê
 äò,ó<ô0õ%õ°ö,÷P÷Ô÷ä÷ø¼ù	ÐúûLûüôüdþÿÿ
 |à\lDÐ`Ðè|,<Üì4%;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) NSUUID *identifier;
 @end
 

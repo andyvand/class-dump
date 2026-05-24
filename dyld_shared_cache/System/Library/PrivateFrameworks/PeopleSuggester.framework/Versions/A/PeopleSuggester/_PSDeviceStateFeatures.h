@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)_UTCOffset;
++ (id)_RGCacheManagerCallContext;
 
 @end
 

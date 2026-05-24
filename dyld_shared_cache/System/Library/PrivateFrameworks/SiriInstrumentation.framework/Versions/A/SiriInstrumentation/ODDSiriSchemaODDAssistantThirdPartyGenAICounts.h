@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDAssistantThirdPartyGenAICounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    _Bool _hasTurnCounts;
 }
 
 - (id);
@@ -24,7 +23,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Context;
 - (id);
 - (id);
 - (id)V_userScoreIdHash;
@@ -32,8 +31,6 @@
 - (void)yStatus;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
 
 @end

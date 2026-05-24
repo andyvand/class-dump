@@ -7,17 +7,15 @@
 @interface _DPPrioPlusPlusMetricsAlgorithm
 {
     double _secretSharingSigma;
-    unsigned long long _dimension;
 }
 
 + (id);
 - (double);
-- (id);
+- (id)!;
 - (id);
 - (unsigned long long)õ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;
 @property(readonly, nonatomic) double secretSharingSigma; // @synthesize secretSharingSigma=_secretSharingSigma;
 
 @end

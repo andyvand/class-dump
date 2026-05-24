@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-@protocol ECMessage;
+@class NSDate;
 
 @interface _EDUserActionState
 {
     _Bool _scrolledToEnd;
-    _Bool _mutedThread;
-    NSDate *_viewingStarted;
-    id <ECMessage> _message;
-    NSString *_key;
-    NSString *_cellStyle;
-    NSString *_messageListType;
-    long long _row;
 }
 
 - (id);
@@ -28,12 +20,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void)AddressComment;
 - (void)INTEGER REFERENCES mailbox(id) NOT NULL,
     date_received TEXT NULL,
@@ -50,13 +42,6 @@
 );;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cellStyle; // @synthesize cellStyle=_cellStyle;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) id <ECMessage> message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *messageListType; // @synthesize messageListType=_messageListType;
-@property(nonatomic) _Bool mutedThread; // @synthesize mutedThread=_mutedThread;
-@property(nonatomic) long long row; // @synthesize row=_row;
-@property(nonatomic) _Bool scrolledToEnd; // @synthesize scrolledToEnd=_scrolledToEnd;
 @property(retain, nonatomic) NSDate *viewingStarted; // @synthesize viewingStarted=_viewingStarted;
 
 @end

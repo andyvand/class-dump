@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)iSourceTypeFor:(id)arg1;
+- (_Bool)iaGlomojiSourceTypeFor:(id)arg1;
 
 @end
 

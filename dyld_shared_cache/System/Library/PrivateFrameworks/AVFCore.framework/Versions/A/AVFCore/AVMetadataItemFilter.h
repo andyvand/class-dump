@@ -11,7 +11,7 @@
     AVMetadataItemFilterInternal *_itemFilterInternal;
 }
 
-+ (id);
++ (id)|;
 - (id);
 
 // Remaining properties

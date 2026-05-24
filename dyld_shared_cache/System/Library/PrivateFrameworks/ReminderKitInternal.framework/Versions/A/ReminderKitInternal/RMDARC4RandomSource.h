@@ -11,7 +11,6 @@
 @interface RMDARC4RandomSource : RMDRandomSource
 {
     struct Arc4State *_state;
-    NSData *_seed;
 }
 
 - (float);
@@ -20,12 +19,12 @@
 - (void);
 - (long long);
 - (unsigned long long);
-- (void);
+- (void)JINAN_Metro_Line_Two;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (void)<ÙÜÿÿÿÿÿ;
 - (id);

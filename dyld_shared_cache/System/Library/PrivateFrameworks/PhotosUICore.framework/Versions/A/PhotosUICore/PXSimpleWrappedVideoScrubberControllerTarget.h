@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISWrappedAVPlayer, NSString;
+@class ISWrappedAVPlayer;
 
 @interface PXSimpleWrappedVideoScrubberControllerTarget
 {
     CDUnknownBlockType statusChangeHandler;
-    CDUnknownBlockType playerItemChangeHandler;
-    CDUnknownBlockType durationChangeHandler;
-    ISWrappedAVPlayer *_videoPlayer;
 }
 
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -28,25 +25,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)Eùq8Ð1Â0@ù
 × ;
-- (void)brary;
+- (void)Library;
 - (void)lúÉA³X;
-- (float)Button;
+- (float)LemonadeProfileButton;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType durationChangeHandler; // @synthesize durationChangeHandler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType playerItemChangeHandler; // @synthesize playerItemChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType statusChangeHandler; // @synthesize statusChangeHandler;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) ISWrappedAVPlayer *videoPlayer; // @synthesize videoPlayer=_videoPlayer;
 
 @end

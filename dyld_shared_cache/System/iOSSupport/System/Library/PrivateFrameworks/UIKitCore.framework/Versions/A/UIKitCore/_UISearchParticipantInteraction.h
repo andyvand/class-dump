@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, UIWindowScene;
-@protocol BSInvalidatable, UIInteractionEffect;
+@protocol BSInvalidatable;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchParticipantInteraction
 {
     id <BSInvalidatable> __searchParticipantToken;
-    UIView *_view;
-    UIWindowScene *__windowScene;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)copyItemAtURL:toURL:error: /* Error: Ran out of types for this method. */;
+- (id)IMDaemonListenerFileProviderProtocol;
 - (void);
 - (void);
 - (void);
@@ -31,19 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <BSInvalidatable> _searchParticipantToken; // @synthesize _searchParticipantToken=__searchParticipantToken;
-@property(nonatomic) __weak UIWindowScene *_windowScene; // @synthesize _windowScene=__windowScene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

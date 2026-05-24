@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CommerceClient
 {
     NSMutableDictionary *_accountObservers;
-    NSMutableDictionary *_purchaseObservers;
-    NSMutableDictionary *_downloadObservers;
-    NSMapTable *_purchaseQueueDelegates;
 }
 
 - (void);
@@ -25,18 +22,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,16 +47,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *accountObservers; // @synthesize accountObservers=_accountObservers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableDictionary *downloadObservers; // @synthesize downloadObservers=_downloadObservers;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *purchaseObservers; // @synthesize purchaseObservers=_purchaseObservers;
-@property(retain) NSMapTable *purchaseQueueDelegates; // @synthesize purchaseQueueDelegates=_purchaseQueueDelegates;
-@property(readonly) Class superclass;
 
 @end
 

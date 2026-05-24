@@ -11,7 +11,6 @@
 @interface WFCNContactGroup : WFContactGroup
 {
     CNGroup *_group;
-    NSArray *_cachedMembers;
 }
 
 + (id);
@@ -20,16 +19,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)L=>AB8;
+- (id);
+- (id)˳;
 - (void)ñ°1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cachedMembers; // @synthesize cachedMembers=_cachedMembers;
-@property(readonly, nonatomic) NSArray *contacts;
-@property(readonly, nonatomic) CNGroup *group; // @synthesize group=_group;
 
 @end
 

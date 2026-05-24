@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAppClipParams
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_appAdamId;
-    NSString *_bundleId;
-    NSString *_symbolImageName;
-    NSString *_title;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_appAdamId:1;
-        unsigned int read_bundleId:1;
-        unsigned int read_symbolImageName:1;
-        unsigned int read_title:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)CSAudioMetricProviding;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}32;
 - (id)5b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})},R,N,V_key;
 - (id)²_²¸,_²ÂT_²Æh_²ðÌ|_²Ñ_²ÄÚ¸_²¸ÝÌ_²|ßà_²8áô_²¼ë`²äïD`²ñX`²<F a²4N4a²°OLa²`Rda²ìTa²\a²¼]¨a²Ld¼a²ìÐa²°;
-- (void)essObjectE;
+- (void)N8addr_obj15V1AddressObjectE;
 
 @end
 

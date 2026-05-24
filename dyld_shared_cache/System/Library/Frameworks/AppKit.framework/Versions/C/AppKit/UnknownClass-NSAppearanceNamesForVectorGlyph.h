@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (NSAppearanceNamesForVectorGlyph)
-- (id);
-- (id);
-- (_Bool);
+- (id)6z7;
+- (id)6Rr;
+- (_Bool)6R7;
 @end
 

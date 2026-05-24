@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);

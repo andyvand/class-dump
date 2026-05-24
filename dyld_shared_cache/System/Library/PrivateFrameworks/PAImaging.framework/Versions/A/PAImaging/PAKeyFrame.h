@@ -7,8 +7,6 @@
 @interface PAKeyFrame
 {
     struct CGRect _bounds;
-    struct CGRect _clip;
-    struct CGAffineTransform _transform;
 }
 
 - (void);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property struct CGRect bounds; // @synthesize bounds=_bounds;
-@property struct CGRect clip; // @synthesize clip=_clip;
-@property struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

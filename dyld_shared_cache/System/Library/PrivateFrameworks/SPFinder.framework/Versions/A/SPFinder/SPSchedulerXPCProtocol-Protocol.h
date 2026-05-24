@@ -5,5 +5,6 @@
 //
 
 @protocol SPSchedulerXPCProtocol
+- (void)=;
 @end
 

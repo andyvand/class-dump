@@ -5,7 +5,7 @@
 //
 
 @protocol GEOTileKeyEnumerator
-- (unsigned long long)N;
+- (unsigned long long)MARK_MY_LOCATION;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGStorageContact, SGStorageEvent, SGStorageReminder;
-
 @interface SGJournalEntry
 {
     unsigned long long _operation;
-    SGStorageEvent *_event;
-    NSArray *_eventBatch;
-    SGStorageContact *_contact;
-    SGStorageReminder *_reminder;
 }
 
 - (_Bool);
@@ -21,11 +15,11 @@
 - (id);
 - (id);
 - (id);
+- (id)uped event %@ (%@);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)Lh;
@@ -33,11 +27,7 @@
 - (id)rls WHERE bundle_id = :(unsigned long long)arg1 bundleId AND COALESCE(document_seconds_from_1970, seconds_from_1970) BETWEEN :startDate AND :endDate /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SGStorageContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) SGStorageEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) NSArray *eventBatch; // @synthesize eventBatch=_eventBatch;
 @property(readonly, nonatomic) unsigned long long operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) SGStorageReminder *reminder; // @synthesize reminder=_reminder;
 
 @end
 

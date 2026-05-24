@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface HMCameraClipAssetContext
 {
     NSURL *_url;
-    NSDate *_expirationDate;
-    NSDictionary *_requiredHTTPHeaders;
-    NSArray *_videoSegments;
 }
 
 + (id);
@@ -23,8 +20,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)jiffy;
+- (id)ings connectForOperations:withErrorHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -33,27 +30,7 @@
 - (void)Àd;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *requiredHTTPHeaders; // @synthesize requiredHTTPHeaders=_requiredHTTPHeaders;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(readonly) NSURL *url; // @synthesize url=_url;
-@property(readonly, copy) NSArray *videoSegments; // @synthesize videoSegments=_videoSegments;
 
 @end
 

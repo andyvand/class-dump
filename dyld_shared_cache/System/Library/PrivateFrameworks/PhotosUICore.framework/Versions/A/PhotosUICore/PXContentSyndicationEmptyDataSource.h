@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (long long)ngViewModeTransition;
+- (long long)pendingViewModeTransition;
 
 @end
 

@@ -7,43 +7,10 @@
 #import <MetalTools/MTLToolsCommandBuffer.h>
 
 @class MTLLegacySVDevice;
-@protocol MTLArgumentEncoder, MTLBuffer;
 
 @interface MTLLegacySVCommandBuffer : MTLToolsCommandBuffer
 {
     _Bool _initialized;
-    struct Options *_options;
-    struct LegacySVDeviceOptions *_deviceOptions;
-    id <MTLArgumentEncoder> _stageArgumentEncoder;
-    id <MTLBuffer> _vertexComputeReportBuffer;
-    unsigned long long _vertexComputeReportOffset;
-    id <MTLBuffer> _fragmentReportBuffer;
-    unsigned long long _fragmentReportOffset;
-    struct vector<LegacySVMetalBuffer, std::allocator<LegacySVMetalBuffer>> _usedBuffers;
-    struct LegacySVMetalBuffer _currentPooledBuffer;
-    unsigned long long _currentPooledBufferOffset;
-    unsigned int _currentEncoderID;
-    unsigned int _currentReportID;
-    struct vector<id<MTLBuffer>, std::allocator<id<MTLBuffer>>> _reportBufferList;
-    struct vector<(anonymous namespace)::ReportBufferEntry, std::allocator<(anonymous namespace)::ReportBufferEntry>> _reportEntryList;
-    struct vector<NSString *, std::allocator<NSString *>> _encoderLabels;
-    struct mutex _allocationLock;
-    struct os_unfair_lock_s _tempBufLock;
-    _Bool _supportsTileStage;
-    _Bool _supportsMeshStage;
-    _Bool _hasDeferredBindingObjectAndMeshReportBuffers;
-    struct BufferUsageTable {
-        id <MTLBuffer> _backingMemory;
-    } _bufferUsageTables[4];
-    struct TextureUsageTable {
-        id <MTLBuffer> _backingMemory;
-    } _textureUsageTables[4];
-    struct HeapUsageTable {
-        unsigned long long _heapUsage;
-        struct vector<(anonymous namespace)::(anonymous namespace)::HeapUsageTable::HeapUsageTableEntry, std::allocator<(anonymous namespace)::(anonymous namespace)::HeapUsageTable::HeapUsageTableEntry>> _heapEntries;
-    } _heapUsageTable;
-    struct unordered_map<unsigned long, MTLLegacySVResidencySet *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, MTLLegacySVResidencySet *>>> _residencySets;
-    struct unordered_map<unsigned long, (anonymous namespace)::EncoderResourceUsage, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>>> _encodersResourceUsage;
 }
 
 - (id);
@@ -54,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (void);
 - (pair_eb21f6dd);
 - (id);
@@ -73,12 +40,12 @@
 - (void);
 - (void);
 - (struct ReportBufferEntry);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)qB;
 - (id);
 - (id);
 - (id);

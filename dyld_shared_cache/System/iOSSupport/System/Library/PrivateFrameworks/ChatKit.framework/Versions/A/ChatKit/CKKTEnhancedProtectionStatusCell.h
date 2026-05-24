@@ -6,58 +6,47 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSMutableArray, NSString, UIButton, UILabel;
-@protocol CKKTEnhancedProtectionStatusCellDelegate;
+@class UILabel;
 
 @interface CKKTEnhancedProtectionStatusCell : CKDetailsCell
 {
     _Bool _shouldShowMacHeader;
-    long long _enhancedProtectionStatusCellState;
-    unsigned long long _verifiedHandlesCount;
-    unsigned long long _handlesInChatCount;
-    NSString *_titleString;
-    UILabel *_macHeaderLabel;
-    UIButton *_ktStatusButton;
-    UILabel *_ktTitleLabel;
-    id <CKKTEnhancedProtectionStatusCellDelegate> _delegate;
-    NSMutableArray *_horizontalLayoutConstraints;
-    NSMutableArray *_verticalLayoutConstraints;
 }
 
 + (_Bool);
 + (id);
+- (id)imageForBounds:attributes:location:textContainer: /* Error: Ran out of types for this method. */;
+- (id)imageClassificationSummaryVersion;
+- (unsigned long long)identifiers;
+- (void)ic_regexForPrefixMatchingTokens:substringMatchingTokens: /* Error: Ran out of types for this method. */;
+- (id)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
+- (_Bool)_oldPasswordContainer;
+- (void)_currentPlayer;
+- (void)_convertDispatchQueue;
+- (void)_collaborationControllerDelegate;
+- (void)_cancelImmediateActionAnimationForWebView: /* Error: Ran out of types for this method. */;
+- (void)fset;
+- (void)Size;
+- (void),&,N,V_fallbackRegex;
+- (void);
+- (void)ckedRangesForAddedExtraNewlines;
+- (void)",&,N,V_collaborationAnalyticsTracker;
+- (void);
+- (id);
+- (void)Q;
+- (id);
+- (id)AFG_AItGGAPGATGG;
+- (id);
+- (id)tch_queueCGShyA1_GGA4_G;
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)n;
 - (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (long long);
-- (id);
-- (void);
+- (long long)o;
+- (id)Default %d hasDark %d;
+- (void)inalNote:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -65,32 +54,15 @@
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (void)StackLayout:(id)arg1;
+- (void)viewClassForItemAtIndex:(id)arg1 inStackLayout: /* Error: Ran out of types for this method. */;
 - (void)ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKKTEnhancedProtectionStatusCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long enhancedProtectionStatusCellState; // @synthesize enhancedProtectionStatusCellState=_enhancedProtectionStatusCellState;
-@property(nonatomic) unsigned long long handlesInChatCount; // @synthesize handlesInChatCount=_handlesInChatCount;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *horizontalLayoutConstraints; // @synthesize horizontalLayoutConstraints=_horizontalLayoutConstraints;
-@property(retain, nonatomic) UIButton *ktStatusButton; // @synthesize ktStatusButton=_ktStatusButton;
-@property(retain, nonatomic) UILabel *ktTitleLabel; // @synthesize ktTitleLabel=_ktTitleLabel;
 @property(retain, nonatomic) UILabel *macHeaderLabel; // @synthesize macHeaderLabel=_macHeaderLabel;
-@property(readonly, nonatomic) _Bool shouldShowMacHeader; // @synthesize shouldShowMacHeader=_shouldShowMacHeader;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *titleString; // @synthesize titleString=_titleString;
-@property(nonatomic) unsigned long long verifiedHandlesCount; // @synthesize verifiedHandlesCount=_verifiedHandlesCount;
-@property(retain, nonatomic) NSMutableArray *verticalLayoutConstraints; // @synthesize verticalLayoutConstraints=_verticalLayoutConstraints;
 
 @end
 

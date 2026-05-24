@@ -6,19 +6,13 @@
 
 #import <MapKit/MKImageView.h>
 
-@class NSColor;
-@protocol MKArtworkImageSource;
-
 @interface MKArtworkImageView : MKImageView
 {
     MKImageView *_cachedBadgeView;
-    id <MKArtworkImageSource> _imageSource;
-    NSColor *_primaryTintColor;
-    NSColor *_secondaryTintColor;
 }
 
 - (void);
-- (void);
+- (void)CNContactsFoundationErrorDomain;
 - (id);
 - (id);
 - (id);
@@ -26,15 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)f];
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)drawAtPoint:withAttributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MKImageView *badgeView;
-@property(retain, nonatomic) id <MKArtworkImageSource> imageSource; // @synthesize imageSource=_imageSource;
-@property(retain, nonatomic) NSColor *primaryTintColor; // @synthesize primaryTintColor=_primaryTintColor;
-@property(retain, nonatomic) NSColor *secondaryTintColor; // @synthesize secondaryTintColor=_secondaryTintColor;
 
 @end
 

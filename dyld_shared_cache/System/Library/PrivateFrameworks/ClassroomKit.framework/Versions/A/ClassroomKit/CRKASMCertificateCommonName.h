@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface CRKASMCertificateCommonName
 {
     NSString *_userIdentifier;
-    NSString *_prefix;
-    NSUUID *_UUID;
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)R^;
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(readonly, copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, copy, nonatomic) NSString *stringValue;
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

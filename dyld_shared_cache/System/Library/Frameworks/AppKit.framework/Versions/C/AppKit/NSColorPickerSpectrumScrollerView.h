@@ -6,24 +6,23 @@
 
 #import <AppKit/NSView.h>
 
-@protocol NSColorPickerSpectrumScrollerViewDataSource, NSColorPickerSpectrumScrollerViewDelegate;
+@protocol NSColorPickerSpectrumScrollerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerSpectrumScrollerView : NSView
 {
     id <NSColorPickerSpectrumScrollerViewDelegate> _delegate;
-    id <NSColorPickerSpectrumScrollerViewDataSource> _dataSource;
 }
 
-- (id);
-- (_Bool);
+- (id)AVAssetDownloadTaskForURLAsset:(struct CGPoint)arg1 assetTitle:assetArtworkData:options:downloadConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void)}24^B32Q40;
 - (void)ÿÔ+PèI;
 

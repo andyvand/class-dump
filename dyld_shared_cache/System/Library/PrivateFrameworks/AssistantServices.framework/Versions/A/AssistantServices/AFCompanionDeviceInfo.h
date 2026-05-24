@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AFCompanionDeviceInfo
 {
     _Bool _syncMetadataCapability;
-    _Bool _peerToPeerHandoffCapability;
-    _Bool _muxSupportCapability;
-    _Bool _meDevice;
-    NSString *_assistantID;
-    NSString *_speechID;
-    NSString *_idsIdentifier;
-    NSString *_productPrefix;
-    NSString *_aceHost;
-    NSDictionary *_syncMetadata;
-    NSString *_siriLanguage;
-    NSString *_companionName;
 }
 
 + (id);
@@ -36,41 +25,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithPaymentDataProvider:(CDUnknownBlockType)arg1 passLibraryDataProvider:isForWatch: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)B;
+- (_Bool)Kit17LUI2GlassTextView";
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)DataSharingPropagationLogEvent;
+- (void)AFHomeAccessorySiriDataSharingPropagationLogEvent;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *aceHost; // @synthesize aceHost=_aceHost;
 @property(readonly, copy, nonatomic) NSString *assistantID; // @synthesize assistantID=_assistantID;
-@property(readonly, copy, nonatomic) NSString *companionName; // @synthesize companionName=_companionName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(readonly, nonatomic) _Bool meDevice; // @synthesize meDevice=_meDevice;
-@property(readonly, nonatomic) _Bool muxSupportCapability; // @synthesize muxSupportCapability=_muxSupportCapability;
-@property(readonly, nonatomic) _Bool peerToPeerHandoffCapability; // @synthesize peerToPeerHandoffCapability=_peerToPeerHandoffCapability;
-@property(readonly, copy, nonatomic) NSString *productPrefix; // @synthesize productPrefix=_productPrefix;
-@property(readonly, copy, nonatomic) NSString *siriLanguage; // @synthesize siriLanguage=_siriLanguage;
-@property(readonly, copy, nonatomic) NSString *speechID; // @synthesize speechID=_speechID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *syncMetadata; // @synthesize syncMetadata=_syncMetadata;
-@property(readonly, nonatomic) _Bool syncMetadataCapability; // @synthesize syncMetadataCapability=_syncMetadataCapability;
 
 @end
 

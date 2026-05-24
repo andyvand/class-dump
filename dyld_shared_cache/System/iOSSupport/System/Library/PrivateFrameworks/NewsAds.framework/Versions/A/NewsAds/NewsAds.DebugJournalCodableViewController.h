@@ -7,7 +7,6 @@
 @interface NewsAds.DebugJournalCodableViewController
 {
     id codable;
-    id textView;
 }
 
 - (id);

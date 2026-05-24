@@ -4,30 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SiriCoreNetworkActivityTracing
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_activities;
-    NSMutableSet *_connections;
 }
 
-+ (id);
++ (id)onversationID:%lld
+	Flags:%@
+	ConversationNotificationLevel:%ld
+	IsBlocked:%@
+	UnsubscribeType:%ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (void)lterPredicate:%@ /* Error: Ran out of types for this method. */;
+- (void)stItemChange"16^B24;
+- (void):(long long)arg1 %@;
+- (void)adCollectionItemID init];
+- (void)etConversationID:(long long)arg1 ];
+- (void)d count changed related block to a non-counting query;
+- (void)tate.json;
+- (void)ctory;
+- (void)Found;
+- (void)le.Email.kMailAccountDirectoryLock;
+- (void)"8@"PARResponse"16@"NSError"24;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@?0@"EMObjectID"8@16;
 - (id);
 - (void);
 

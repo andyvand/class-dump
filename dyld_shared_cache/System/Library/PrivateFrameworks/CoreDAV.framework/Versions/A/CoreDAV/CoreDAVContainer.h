@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVResourceTypeItem, CoreDAVSupportedReportSetItem, NSDictionary, NSSet, NSString, NSURL;
+@class CoreDAVSupportedReportSetItem;
 
 @interface CoreDAVContainer
 {
     _Bool _isUnauthenticated;
-    NSURL *_url;
-    CoreDAVResourceTypeItem *_resourceType;
-    NSString *_containerTitle;
-    NSSet *_privileges;
-    NSString *_pushKey;
-    NSDictionary *_pushTransports;
-    NSURL *_resourceID;
-    CoreDAVSupportedReportSetItem *_supportedReportSetItem;
-    NSString *_quotaAvailable;
-    NSString *_quotaUsed;
-    NSURL *_owner;
-    NSURL *_addMemberURL;
-    NSDictionary *_bulkRequests;
-    NSString *_syncToken;
 }
 
 + (id);
-+ (id);
++ (id)initWithImageData:largeImageData:clippingRect:imageType: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)OtaspStatus:(id)arg1:OTASP_COMMITTED /* Error: Ran out of types for this method. */;
+- (id)_setHiddenStateOfTrailingIcons;
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)&;
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)Section;
 - (_Bool);
 - (id);
 - (void);
@@ -58,15 +44,15 @@
 - (void);
 - (id);
 - (id);
+- (id)RecurrenceId;
+- (void)setMailboxType:(id)arg1;
+- (id)JWTValidator;
+- (void)mm':'ss'.'SXXX /* Error: Ran out of types for this method. */;
+- (void)ErrorUnsupportedRecurrence;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (void);
 - (id);
@@ -77,33 +63,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *addMemberURL; // @synthesize addMemberURL=_addMemberURL;
-@property(retain, nonatomic) NSDictionary *bulkRequests; // @synthesize bulkRequests=_bulkRequests;
-@property(retain, nonatomic) NSString *containerTitle; // @synthesize containerTitle=_containerTitle;
-@property(readonly, nonatomic) _Bool hasBindPrivileges;
-@property(readonly, nonatomic) _Bool hasReadPrivileges;
-@property(readonly, nonatomic) _Bool hasUnbindPrivileges;
-@property(readonly, nonatomic) _Bool hasWriteContentPrivileges;
-@property(readonly, nonatomic) _Bool hasWritePropertiesPrivileges;
-@property(readonly, nonatomic) _Bool isPrincipal;
-@property(nonatomic) _Bool isUnauthenticated; // @synthesize isUnauthenticated=_isUnauthenticated;
-@property(retain, nonatomic) NSURL *owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) NSSet *privileges; // @synthesize privileges=_privileges;
-@property(readonly, nonatomic) NSSet *privilegesAsStringSet;
-@property(retain, nonatomic) NSString *pushKey; // @synthesize pushKey=_pushKey;
-@property(retain, nonatomic) NSDictionary *pushTransports; // @synthesize pushTransports=_pushTransports;
-@property(retain, nonatomic) NSString *quotaAvailable; // @synthesize quotaAvailable=_quotaAvailable;
-@property(retain, nonatomic) NSString *quotaUsed; // @synthesize quotaUsed=_quotaUsed;
-@property(retain, nonatomic) NSURL *resourceID; // @synthesize resourceID=_resourceID;
-@property(retain, nonatomic) CoreDAVResourceTypeItem *resourceType; // @synthesize resourceType=_resourceType;
-@property(readonly, nonatomic) NSSet *resourceTypeAsStringSet;
 @property(retain, nonatomic) CoreDAVSupportedReportSetItem *supportedReportSetItem; // @synthesize supportedReportSetItem=_supportedReportSetItem;
-@property(readonly, nonatomic) NSSet *supportedReports;
-@property(readonly, nonatomic) NSSet *supportedReportsAsStringSet;
-@property(readonly, nonatomic) _Bool supportsPrincipalPropertySearchReport;
-@property(readonly, nonatomic) _Bool supportsSyncCollectionReport;
-@property(retain, nonatomic) NSString *syncToken; // @synthesize syncToken=_syncToken;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

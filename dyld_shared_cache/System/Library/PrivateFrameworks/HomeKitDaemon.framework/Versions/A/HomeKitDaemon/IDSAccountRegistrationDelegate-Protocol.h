@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol IDSAccountRegistrationDelegate
 
 @optional
+- (void):(NSString *)arg1 ;
 - (void);
 - (void),N,C;
 - (void)@"HMDCameraRecordingMediaContainer",R,C,N,V_container;

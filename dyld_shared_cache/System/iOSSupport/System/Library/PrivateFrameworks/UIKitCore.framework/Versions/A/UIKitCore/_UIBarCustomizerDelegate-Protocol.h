@@ -9,7 +9,7 @@
 @protocol _UIBarCustomizerDelegate
 - (UIView *)±eÐ1Â0@ù
 × ;
-- (struct CGRect)nContextForPreferredLayoutAttributes:(_UIBarCustomizer *)arg1 withOriginalAttributes:(_UIBarCustomizationSession *)arg2;
+- (struct CGRect)invalidationContextForPreferredLayoutAttributes:(_UIBarCustomizer *)arg1 withOriginalAttributes:(_UIBarCustomizationSession *)arg2;
 - (UIView *)sTabBar;
 @end
 

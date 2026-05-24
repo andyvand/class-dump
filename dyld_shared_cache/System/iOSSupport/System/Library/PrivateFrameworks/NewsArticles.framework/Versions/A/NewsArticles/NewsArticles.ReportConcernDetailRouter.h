@@ -7,9 +7,6 @@
 @interface NewsArticles.ReportConcernDetailRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id sceneProvider;
 }
 
 @end

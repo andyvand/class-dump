@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaDictationAlternativesPresent;
-
 @interface SISchemaDictationTranscriptionMetadata : SISchemaInstrumentationMessage
 {
     int _dictationModel;
-    NSString *_dictationModelVersion;
-    SISchemaDictationAlternativesPresent *_dictationAlternativesPresent;
-    struct {
-        unsigned int dictationModel:1;
-    } _has;
-    _Bool _hasDictationModelVersion;
-    _Bool _hasDictationAlternativesPresent;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)";
 - (int);
 - (id);
 - (void);
@@ -38,23 +29,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)r",C,N,V_iAdAttribution;
+- (_Bool)ABBookGroupListRowView;
+- (_Bool)WHERE   ROWID = ? LIMIT 1;
 - (id);
-- (id);
-- (id)tateItem;
-- (id)ncRequested;
-- (void)owntimeInSec;
+- (id);
+- (id)deleteAudioQueueStateItem;
+- (id)_companionSyncPluginSyncRequested;
+- (void)downtimeInSec;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaDictationAlternativesPresent *dictationAlternativesPresent; // @synthesize dictationAlternativesPresent=_dictationAlternativesPresent;
 @property(nonatomic) int dictationModel; // @synthesize dictationModel=_dictationModel;
-@property(copy, nonatomic) NSString *dictationModelVersion; // @synthesize dictationModelVersion=_dictationModelVersion;
-@property(nonatomic) _Bool hasDictationAlternativesPresent; // @synthesize hasDictationAlternativesPresent=_hasDictationAlternativesPresent;
-@property(nonatomic) _Bool hasDictationModel;
-@property(nonatomic) _Bool hasDictationModelVersion; // @synthesize hasDictationModelVersion=_hasDictationModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

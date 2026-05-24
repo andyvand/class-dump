@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_changedEvents;
 }
 
-+ (Class);
++ (Class);
 - (void);
 - (void);
 - (unsigned long long);
@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)
 × ;
-- (id)gedIn;
+- (id)loggedIn;
 - (id)eenConfiguredNameLocal;
-- (void)Interval;
+- (void)cloudZoneUploadTimerInitialInterval;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *changedEvents; // @synthesize changedEvents=_changedEvents;

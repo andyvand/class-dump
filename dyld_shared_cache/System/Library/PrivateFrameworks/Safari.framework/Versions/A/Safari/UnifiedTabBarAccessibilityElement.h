@@ -5,17 +5,15 @@
 //
 
 @class UnifiedTabBarItem;
-@protocol UnifiedTabBarAccessibilityElementDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedTabBarAccessibilityElement
 {
     UnifiedTabBarItem *_tabBarItem;
-    id <UnifiedTabBarAccessibilityElementDelegate> _delegate;
 }
 
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (id);
@@ -23,14 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Locale returned nil languageCode;
 - (void);
 - (id)%{public}@; %{public}@;
 - (void);
 - (id);
 
 // Remaining properties
-@property __weak id <UnifiedTabBarAccessibilityElementDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) UnifiedTabBarItem *tabBarItem; // @synthesize tabBarItem=_tabBarItem;
 
 @end

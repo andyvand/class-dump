@@ -6,24 +6,15 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVLayoutItemAttributes, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVGlassBackgroundTouchIgnoringView : AVGlassBackedView
 {
     _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _collapsedOrExcluded;
-    _Bool _collapsed;
-    _Bool _removed;
-    _Bool _included;
-    AVLayoutItemAttributes *_layoutAttributes;
-    struct CGSize _extrinsicContentSize;
 }
 
 - (void);
 - (struct CGSize);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (_Bool);
@@ -31,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)_participantClientIdentifier;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -45,21 +36,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)@?0@"AVPlayerViewControllerContentView"8@16@"NSNotification"24;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded; // @synthesize collapsedOrExcluded=_collapsedOrExcluded;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(readonly) Class superclass;
 
 @end
 

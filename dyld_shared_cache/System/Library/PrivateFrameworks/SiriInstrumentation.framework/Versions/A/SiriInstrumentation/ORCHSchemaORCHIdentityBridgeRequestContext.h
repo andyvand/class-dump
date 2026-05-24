@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHIdentityBridgeRequestEnded, ORCHSchemaORCHIdentityBridgeRequestStarted;
+@class ORCHSchemaORCHIdentityBridgeRequestStarted;
 
 @interface ORCHSchemaORCHIdentityBridgeRequestContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHIdentityBridgeRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHIdentityBridgeRequestEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,7 +18,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -36,17 +32,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)ppType;
+- (id)_callAppType;
 - (id)&,N,V_resultSelected;
 - (void)typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHIdentityBridgeRequestEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHIdentityBridgeRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

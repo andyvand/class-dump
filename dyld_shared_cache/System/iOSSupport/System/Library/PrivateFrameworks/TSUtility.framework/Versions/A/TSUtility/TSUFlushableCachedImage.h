@@ -8,13 +8,14 @@
 
 @interface TSUFlushableCachedImage : TSUFlushableObject
 {
+    struct CGImage *_image;
 }
 
 - (struct CGImage *);
-- (id);
-- (_Bool);
+- (id)recommendedIssuesKnobs;
+- (_Bool)longitude;
 - (void);
-- (void);
+- (void)%;
 
 @end
 

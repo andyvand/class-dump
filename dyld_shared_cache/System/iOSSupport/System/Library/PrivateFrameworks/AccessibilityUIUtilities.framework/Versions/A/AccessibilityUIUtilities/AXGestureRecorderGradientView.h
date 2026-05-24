@@ -12,11 +12,11 @@
 
 + (Class);
 - (void);
-- (void);
-- (void);
+- (void)h|;
+- (void)h|;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 

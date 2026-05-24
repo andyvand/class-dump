@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSilo;
-@protocol CLTimerScheduler;
-
 @interface CLTimer
 {
     double _delaySetAtTime;
-    double _nextFireDelay;
-    CLSilo *_silo;
-    id <CLTimerScheduler> _scheduler;
-    CDUnknownBlockType _handler;
-    double _fireInterval;
 }
 
 - (id);
@@ -26,19 +18,16 @@
 - (void);
 - (double);
 - (void);
-- (double);
-- (void);
-- (void);
+- (double)};
+- (void));
+- (void)A;
 - (double);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)}}}};
 - (void);
 
 // Remaining properties
-@property(nonatomic) double fireInterval; // @synthesize fireInterval=_fireInterval;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) double nextFireDelay; // @synthesize nextFireDelay=_nextFireDelay;
 @property(nonatomic) double nextFireTime; // @dynamic nextFireTime;
 
 @end

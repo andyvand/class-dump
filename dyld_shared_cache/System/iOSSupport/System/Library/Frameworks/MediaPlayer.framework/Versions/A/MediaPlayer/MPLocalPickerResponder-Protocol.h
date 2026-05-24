@@ -5,5 +5,6 @@
 //
 
 @protocol MPLocalPickerResponder
+- (_Bool);
 @end
 

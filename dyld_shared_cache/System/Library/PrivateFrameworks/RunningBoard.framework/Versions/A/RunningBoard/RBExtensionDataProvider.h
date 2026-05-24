@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)commute30MinWarningEntityRelevanceCoarseGeoHashAndDayOfWeekFeatures;
 
 @end
 

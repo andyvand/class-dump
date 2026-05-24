@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSError *_terminalError;
 }
 
-- (void);
+- (void)^;
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)T;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void)ñ)Ð1Â0@ù
 × ;
-- (void)reamDataParser:didProvideContentKeySpecifier:forTrackID: /* Error: Ran out of types for this method. */;
+- (void)streamDataParser:didProvideContentKeySpecifier:forTrackID: /* Error: Ran out of types for this method. */;
 
 @end
 

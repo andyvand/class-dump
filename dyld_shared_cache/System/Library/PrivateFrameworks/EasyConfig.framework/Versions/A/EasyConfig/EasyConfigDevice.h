@@ -4,77 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EasyConfigDevice
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_userQueue;
-    NSDictionary *_scanRecord;
-    _Bool _started;
-    int _firstErr;
-    struct BonjourBrowser *_airplayBrowser;
-    NSDictionary *_airplayBonjourInfo;
-    struct BonjourBrowser *_raopBrowser;
-    NSDictionary *_raopBonjourInfo;
-    struct BonjourBrowser *_mfiConfigBrowser;
-    NSDictionary *_mfiConfigBonjourInfo;
-    struct BonjourBrowser *_hapBrowser;
-    NSDictionary *_hapBonjourInfo;
-    unsigned int _configSeed;
-    struct HTTPClientPrivate *_httpClient;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    int _state;
-    double _securityStartTime;
-    double _securityFinishTime;
-    struct MFiSAP *_mfiSAP;
-    struct PairingSessionPrivate *_pairingSession;
-    CDUnknownBlockType _promptForSetupCodeBlock;
-    unsigned long long _deviceIdentifier;
-    unsigned long long _features;
-    NSString *_model;
-    NSString *_name;
-    NSDictionary *_configuration;
-    NSDictionary *_configResponse;
-    unsigned int _pairSetupFlags;
-    unsigned int _pairVerifyFlags;
-    _Bool _pausesAfterApply;
-    _Bool _skipPairSetup;
-    _Bool _supportsHAP;
-    _Bool _supportsHAP2;
-    _Bool _supportsMFi;
-    _Bool _supportsPairSetup;
-    _Bool _supportsTLV;
-    _Bool _preConfigMetricsSet;
-    CDStruct_56123b44 _preConfigMetrics;
-    _Bool _postConfigMetricsSet;
-    CDStruct_6a23f5a0 _postConfigMetrics;
-    double _configStartTime;
-    double _findPreConfigStartTime;
-    double _findPreConfigFoundTime;
-    double _findPostConfigStartTime;
-    double _findPostConfigFoundTime;
-    double _applyConfigStartTime;
-    double _applyConfigFinishTime;
-    double _postConfigCheckStartTime;
-    double _postConfigCheckFinishTime;
-    NSDictionary *_deviceInfo;
-    double _promptForSetupCodeTime;
-    unsigned int _enterSetupCodeMs;
-    _Bool _hasPairingDelegate;
-    struct {
-        void *context;
-        CDUnknownFunctionPointerType showSetupCode_f;
-        CDUnknownFunctionPointerType hideSetupCode_f;
-        CDUnknownFunctionPointerType promptForSetupCode_f;
-        CDUnknownFunctionPointerType copyIdentity_f;
-        CDUnknownFunctionPointerType findPeer_f;
-        CDUnknownFunctionPointerType savePeer_f;
-        CDUnknownFunctionPointerType resumeRequest_f;
-        CDUnknownFunctionPointerType resumeResponse_f;
-    } _pairingDelegate;
-    CDUnknownBlockType _progressHandler;
 }
 
 + (_Bool);
@@ -87,44 +22,45 @@
 - (_Bool);
 - (void);
 - (int);
-- (int);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (int);
-- (void);
-- (void);
-- (void);
+- (int)r*
+_	;
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
+- (int);
+- (int);
+- (int);
+- (int);
+- (void)h;
+- (int);
+- (int);
+- (void);
+- (int);
+- (int);
+- (int);
+- (void);
+- (void);
+- (void);
+- (int);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Q_a;
+- (void);
+- (void)HJ-H*;
+- (void)setHasControllerResets:(id)arg1;
 - (void);
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void)Q24Q32@40@?48;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)checkUserBlessing:hasCards: /* Error: Ran out of types for this method. */;
+- (id)$;
+- (void)G<%8\;
 - (void);
 - (void);
 - (void);
@@ -133,11 +69,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -145,16 +81,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) unsigned long long deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_userQueue;
-@property(nonatomic) unsigned long long features; // @synthesize features=_features;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int pairSetupFlags; // @synthesize pairSetupFlags=_pairSetupFlags;
-@property(nonatomic) unsigned int pairVerifyFlags; // @synthesize pairVerifyFlags=_pairVerifyFlags;
-@property(nonatomic) _Bool pausesAfterApply; // @synthesize pausesAfterApply=_pausesAfterApply;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(nonatomic) _Bool skipPairSetup; // @synthesize skipPairSetup=_skipPairSetup;
 
 @end
 

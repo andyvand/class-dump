@@ -9,12 +9,11 @@
 @interface QLCacheIndexDatabaseGenericEnumerator
 {
     QLSqliteDatabase *_sqliteDatabase;
-    struct sqlite3_stmt *_stmt;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)h;
 
 @end
 

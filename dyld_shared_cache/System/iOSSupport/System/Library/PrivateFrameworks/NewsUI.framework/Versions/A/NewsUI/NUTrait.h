@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface NUTrait
 {
     double _defaultValue;
-    NSMutableDictionary *_traitBlocks;
 }
 
 - (id);
 - (double);
 - (double);
-- (id);
+- (id)T ;
 - (id);
 - (id);
 - (id);
@@ -24,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, nonatomic) NSMutableDictionary *traitBlocks; // @synthesize traitBlocks=_traitBlocks;
 
 @end
 

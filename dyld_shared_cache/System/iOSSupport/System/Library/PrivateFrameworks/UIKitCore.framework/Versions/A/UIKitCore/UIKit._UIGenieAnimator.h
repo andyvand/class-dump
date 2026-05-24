@@ -7,10 +7,6 @@
 @interface UIKit._UIGenieAnimator
 {
     id view;
-    id vertices;
-    id faces;
-    id padding;
-    id debugView;
 }
 
 @end

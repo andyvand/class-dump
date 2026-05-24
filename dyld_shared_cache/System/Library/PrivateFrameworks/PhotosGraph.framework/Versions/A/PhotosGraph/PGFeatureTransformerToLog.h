@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)sign:baselineOffset:backgroundColor:cornerRadius:title:url: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

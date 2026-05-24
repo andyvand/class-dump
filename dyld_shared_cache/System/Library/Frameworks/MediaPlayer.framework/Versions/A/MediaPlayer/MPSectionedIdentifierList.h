@@ -4,80 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedIdentifierListEntry, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol MPSectionedIdentifierListAnnotationDelegate, MPSectionedIdentifierListDelegate, OS_dispatch_queue;
-
 @interface MPSectionedIdentifierList
 {
     long long _itemCount;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableArray *_startEntries;
-    MPSectionedIdentifierListEntry *_endEntry;
-    NSMutableDictionary *_sectionHeadEntryMap;
-    NSMutableDictionary *_sectionTransactionCallouts;
-    NSMutableArray *_orderedSections;
-    _Bool _automaticallyReversesNonDestructiveDataSourceEdits;
-    NSString *_identifier;
-    id <MPSectionedIdentifierListDelegate> _delegate;
-    id <MPSectionedIdentifierListAnnotationDelegate> _annotationDelegate;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (_Bool);
+- (void)B;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)+kb;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
 - (void);
 - (void);
 - (id);
@@ -92,34 +79,20 @@
 - (void);
 - (void);
 - (id);
+- (id)p;
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void)tentIDSet;
+- (void)_persistentIDSet;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allSectionIdentifiers;
-@property(nonatomic) __weak id <MPSectionedIdentifierListAnnotationDelegate> annotationDelegate; // @synthesize annotationDelegate=_annotationDelegate;
-@property(nonatomic) _Bool automaticallyReversesNonDestructiveDataSourceEdits; // @synthesize automaticallyReversesNonDestructiveDataSourceEdits=_automaticallyReversesNonDestructiveDataSourceEdits;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPSectionedIdentifierListDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long itemCount;
-@property(readonly, nonatomic) NSArray *orderedSectionIdentifiers;
-@property(readonly, nonatomic, getter=_sectionDataSources) NSDictionary *sectionDataSources;
-@property(readonly) Class superclass;
 
 @end
 

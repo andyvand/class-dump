@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SWCollaborationHighlight;
+@class NSUUID, SWCollaborationHighlight;
 
 @interface TUCollaborationNotice
 {
     NSUUID *_UUID;
-    long long _sessionEventType;
-    SWCollaborationHighlight *_collaboration;
 }
 
 + (_Bool);
@@ -20,25 +18,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)`>;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)m;
+- (void)searchTerm;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(retain, nonatomic) SWCollaborationHighlight *collaboration; // @synthesize collaboration=_collaboration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long sessionEventType; // @synthesize sessionEventType=_sessionEventType;
-@property(readonly) Class superclass;
 
 @end
 

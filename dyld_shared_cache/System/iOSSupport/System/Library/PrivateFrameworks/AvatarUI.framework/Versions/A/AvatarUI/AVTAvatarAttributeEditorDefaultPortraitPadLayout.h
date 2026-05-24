@@ -21,7 +21,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (double);

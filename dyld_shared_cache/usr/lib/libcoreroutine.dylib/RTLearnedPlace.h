@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, RTMapItem;
+@class NSUUID;
 
 @interface RTLearnedPlace
 {
     NSUUID *_identifier;
-    unsigned long long _type;
-    unsigned long long _typeSource;
-    RTMapItem *_mapItem;
-    NSString *_customLabel;
-    NSDate *_creationDate;
-    NSDate *_expirationDate;
 }
 
 + (id);
@@ -30,13 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ection;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id)includeSuppressed;
 - (unsigned long long)handler:] /* Error: Ran out of types for this method. */;
@@ -44,20 +38,7 @@
 - (id)ter not satisfying:interval >= 0 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSString *customLabel; // @synthesize customLabel=_customLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned long long typeSource; // @synthesize typeSource=_typeSource;
 
 @end
 

@@ -6,23 +6,9 @@
 
 #import <Photos/PHObject.h>
 
-@class NSDate, NSPersonNameComponents, NSString;
-
 @interface PHShareParticipant : PHObject
 {
     _Bool _isCurrentUser;
-    unsigned short _role;
-    short _permission;
-    short _acceptanceStatus;
-    short _exitState;
-    short _allowlistedState;
-    short _participantKind;
-    NSString *_emailAddress;
-    NSPersonNameComponents *_nameComponents;
-    NSString *_phoneNumber;
-    NSString *_participantID;
-    NSString *_hashedPersonID;
-    NSDate *_subscriptionDate;
 }
 
 + (void);
@@ -32,15 +18,15 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)B;
++ (id)importSubscriptionKeyBagData:completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)ifier:(id)arg1 sceneAnalysisVersion:(id)arg2;
++ (id)_junkConfidenceThresholdForIdentifier:(id)arg1 sceneAnalysisVersion:(id)arg2;
 + (id);
 
 @end

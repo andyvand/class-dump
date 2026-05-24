@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void);
+- (void)(;
 - (long long);
 
 @end

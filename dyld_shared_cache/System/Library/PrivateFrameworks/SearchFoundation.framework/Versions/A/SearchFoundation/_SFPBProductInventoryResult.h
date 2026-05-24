@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBProductInventoryResult
 {
     NSString *_productIdentifier;
-    NSArray *_availabilitys;
 }
 
 - (void);
@@ -25,24 +24,15 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)RINGTONE_PICKER_NONE;
+- (id)primaryPresentedItemURL;
+- (id)x entities matching text:%@, options:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)4@0:8@"SFMetaInfoCardSection"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *availabilitys; // @synthesize availabilitys=_availabilitys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

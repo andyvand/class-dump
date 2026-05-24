@@ -6,15 +6,11 @@
 
 #import <VoiceShortcutClient/WFConfiguredSystemAction.h>
 
-@class INIntent, NSNumber, NSString;
+@class INIntent;
 
 @interface WFConfiguredSystemControlAction : WFConfiguredSystemAction
 {
     INIntent *_intent;
-    NSString *_extensionBundleIdentifier;
-    NSString *_containerBundleIdentifier;
-    NSString *_kind;
-    NSNumber *_controlType;
 }
 
 + (_Bool);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -35,11 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *containerBundleIdentifier; // @synthesize containerBundleIdentifier=_containerBundleIdentifier;
-@property(readonly, nonatomic) NSNumber *controlType; // @synthesize controlType=_controlType;
-@property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
 @property(readonly, copy, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
 
 @end
 

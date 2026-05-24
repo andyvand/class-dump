@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiRecipeEventAggregationConditions, NSArray;
-
 @interface FCNewsTabiRecipeEventAggregationConfiguration
 {
     long long _maxSessionEvents;
-    FCNewsTabiRecipeEventAggregationConditions *_eventConditions;
-    NSArray *_inputNames;
 }
 
 - (long long);
@@ -20,11 +16,9 @@
 - (id);
 - (id)
 × ;
-- (void)zer;
+- (void)feedPersonalizer;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiRecipeEventAggregationConditions *eventConditions; // @synthesize eventConditions=_eventConditions;
-@property(readonly, nonatomic) NSArray *inputNames; // @synthesize inputNames=_inputNames;
 @property(readonly, nonatomic) long long maxSessionEvents; // @synthesize maxSessionEvents=_maxSessionEvents;
 
 @end

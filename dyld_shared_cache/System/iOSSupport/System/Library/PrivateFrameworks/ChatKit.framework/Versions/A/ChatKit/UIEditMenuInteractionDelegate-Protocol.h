@@ -10,8 +10,8 @@
 
 @optional
 - (void)troller showFullScreenAcknowledgmentPickerIfNeededForBalloonAtIndexPath:(UIEditMenuInteraction *)arg1 ];
-- (void)SSAGES;
-- (UIMenu *)hatController_MenuBar;
+- (void)DELETE_MESSAGES;
+- (UIMenu *)CKChatController_MenuBar;
 - (struct CGRect)ü,;
 @end
 

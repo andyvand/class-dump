@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double)allowInteraction:forTextInteractableItem: /* Error: Ran out of types for this method. */;
+- (double)_allowInteraction:forTextInteractableItem: /* Error: Ran out of types for this method. */;
 
 @end
 

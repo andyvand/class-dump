@@ -5,5 +5,6 @@
 //
 
 @protocol GCIdleServiceClientInterface
+- (void);
 @end
 

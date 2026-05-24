@@ -6,44 +6,26 @@
 
 #import <EmailCore/ECLocalMessageActionResults.h>
 
-@class NSArray, NSDictionary, NSError, NSString;
-
 @interface ECTransferMessageActionResults : ECLocalMessageActionResults
 {
     long long _phaseForResults;
-    NSArray *_completedItems;
-    NSArray *_failedItems;
-    NSArray *_createdServerMessages;
-    NSDictionary *_downloadedDataByCopyItems;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (void)d;
+- (void);
+- (void)PlayerControllerStatusFailed = %{public}s, isPictureInPictureAvailable = %{public}s;
+- (id)elessControlsView.;
+- (id)dictionaries. Lookin' at you, '%@'.;
+- (id)@;
+- (long long)Are multiple clients trying to read from this stream? (status = %d);
+- (void)mand;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *completedItems; // @synthesize completedItems=_completedItems;
-@property(copy, nonatomic) NSArray *createdServerMessages; // @synthesize createdServerMessages=_createdServerMessages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDictionary *downloadedDataByCopyItems; // @synthesize downloadedDataByCopyItems=_downloadedDataByCopyItems;
-@property(retain, nonatomic) NSError *error;
-@property(copy, nonatomic) NSArray *failedItems; // @synthesize failedItems=_failedItems;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long phaseForResults; // @synthesize phaseForResults=_phaseForResults;
-@property(readonly) Class superclass;
 
 @end
 

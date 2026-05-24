@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVCTestMonitorInjectAudioConfig
 {
     int _injectAudioConfigType;
-    double _amplitude;
-    NSString *_audioFileName;
-    double _startHostTime;
-    double _loopLength;
 }
 
 - (double);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (double);
-- (int);
+- (int);
 - (id);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double amplitude; // @synthesize amplitude=_amplitude;
-@property(nonatomic) NSString *audioFileName; // @synthesize audioFileName=_audioFileName;
 @property(nonatomic) int injectAudioConfigType; // @synthesize injectAudioConfigType=_injectAudioConfigType;
-@property(nonatomic) double loopLength; // @synthesize loopLength=_loopLength;
-@property(nonatomic) double startHostTime; // @synthesize startHostTime=_startHostTime;
 
 @end
 

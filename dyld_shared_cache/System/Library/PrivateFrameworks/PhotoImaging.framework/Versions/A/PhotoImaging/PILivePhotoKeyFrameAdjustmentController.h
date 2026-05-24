@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)_privacyProxyTrafficBitfield;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 keyFrameTime;

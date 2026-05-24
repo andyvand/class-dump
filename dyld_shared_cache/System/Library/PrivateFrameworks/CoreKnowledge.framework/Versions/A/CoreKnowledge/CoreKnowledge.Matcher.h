@@ -7,8 +7,6 @@
 @interface CoreKnowledge.Matcher
 {
     id comparison;
-    id value;
-    id $__lazy_storage_$_sql;
 }
 
 @end

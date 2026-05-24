@@ -4,63 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DESDataTransport, NSString;
-
 @interface DESPFLNoisable
 {
     CDStruct_fae3dc92 _data32s;
-    CDStruct_82f37d05 _datas;
-    double _weight;
-    DESDataTransport *_dataTransport;
-    unsigned int _iteration;
-    NSString *_recipeId;
-    NSString *_uuid;
-    int _version;
-    struct {
-        unsigned int weight:1;
-        unsigned int iteration:1;
-        unsigned int version:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float *);
-- (id);
+- (void)esponseGenerationRequest.statementResults.payload.outcome.parameterNotAllowed.value.value.entity.typeIdentifier.custom.bundleId;
+- (void)nseGenerationRequest.statementResults.payload.outcome.parameterNotAllowed.value.value.enumeration.typeIdentifier.custom.bundleId;
+- (void).bundleId;
+- (void)owed.value.value.primitive.app.bundleId;
+- (void)ayload.outcome.parameterNotAllowed.value.value.primitive.app.bundleId;
+- (unsigned int)ion.items.value.primitive.app.bundleId;
+- (_Bool)ntResults.payload.outcome.parameterConfirmation.item.collection.typeIdentifier.custom.bundleId;
+- (_Bool)GenerationRequest.statementResults.payload.outcome.parameterConfirmation.item.collection.typeIdentifier.custom.bundleId;
+- (_Bool)dleId;
+- (unsigned long long)nerationRequest.statementResults.payload.outcome.success.returnValue.value.enumeration.typeIdentifier.custom.bundleId;
+- (id)pp.bundleId;
+- (unsigned long long)rnValue.value.primitive.app.bundleId;
+- (float)ayload.outcome.success.returnValue.value.primitive.app.bundleId;
+- (void)actionResolverRequestCreated.unresolvedParameterSets.parameters.candidate.value.collection.values.entity.typeIdentifier.custom.bundleId;
+- (void)ifier.custom.bundleId;
+- (void)e.value.collection.typeIdentifier.custom.bundleId;
+- (void)dleId;
+- (float *)ters.candidate.value.collection.values.primitive.app.bundleId;
+- (id)ISOCOUNTRYCODE_KG;
 - (double *);
 - (void);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (double);
+- (void)J
+;
+- (double)i;
 - (void);
 - (_Bool);
 - (id);
-- (double);
-- (id);
+- (double)PPPNotif_3;
+- (id)CoreDuet_KnowledgeSync;
 - (void);
 - (id);
 - (_Bool);
@@ -69,22 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float *data32s;
-@property(readonly, nonatomic) unsigned long long data32sCount;
-@property(retain, nonatomic) DESDataTransport *dataTransport; // @synthesize dataTransport=_dataTransport;
-@property(readonly, nonatomic) double *datas;
-@property(readonly, nonatomic) unsigned long long datasCount;
-@property(readonly, nonatomic) _Bool hasDataTransport;
-@property(nonatomic) _Bool hasIteration;
-@property(readonly, nonatomic) _Bool hasRecipeId;
-@property(readonly, nonatomic) _Bool hasUuid;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool hasWeight;
-@property(nonatomic) unsigned int iteration; // @synthesize iteration=_iteration;
-@property(retain, nonatomic) NSString *recipeId; // @synthesize recipeId=_recipeId;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) int version; // @synthesize version=_version;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

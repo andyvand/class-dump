@@ -7,9 +7,6 @@
 @interface NewsArticles.UnthrottledContentPrefetchManager__priv_A980B14E2B39EF8B6827173E8EE57D71
 {
     id articlePrefetcher;
-    id articleAudioPrewarmer;
-    id recipePrefetcher;
-    id tagPrefetcher;
 }
 
 @end

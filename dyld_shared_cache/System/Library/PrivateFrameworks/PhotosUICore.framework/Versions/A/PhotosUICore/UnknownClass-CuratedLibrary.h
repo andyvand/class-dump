@@ -7,7 +7,7 @@
 @interface UnknownClass (CuratedLibrary)
 + (id);
 + (id);
-+ (id);
++ (id)";
 + (id);
 + (id);
 + (id);

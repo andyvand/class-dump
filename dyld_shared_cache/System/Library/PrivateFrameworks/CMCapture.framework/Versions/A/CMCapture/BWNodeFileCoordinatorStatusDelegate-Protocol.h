@@ -5,6 +5,7 @@
 //
 
 @protocol BWNodeFileCoordinatorStatusDelegate
+- (void);
 - (void)ííÍÿôìËÿûëÉÿÿëÇÿÿëÆÿÿêÅÿ;
 @end
 

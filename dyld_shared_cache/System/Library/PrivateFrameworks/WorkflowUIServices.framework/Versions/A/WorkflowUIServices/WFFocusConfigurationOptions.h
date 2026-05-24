@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAction, LNFocusConfigurationSuggestionContext, LNFullyQualifiedActionIdentifier, NSArray;
+@class LNFullyQualifiedActionIdentifier;
 
 @interface WFFocusConfigurationOptions
 {
     _Bool _showsEnablementButton;
-    _Bool _enabled;
-    LNFullyQualifiedActionIdentifier *_actionIdentifier;
-    LNAction *_action;
-    LNFocusConfigurationSuggestionContext *_suggestionContext;
-    NSArray *_footerButtons;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)zg;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)f;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) LNAction *action; // @synthesize action=_action;
 @property(readonly, copy, nonatomic) LNFullyQualifiedActionIdentifier *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSArray *footerButtons; // @synthesize footerButtons=_footerButtons;
-@property(readonly, nonatomic) _Bool showsEnablementButton; // @synthesize showsEnablementButton=_showsEnablementButton;
-@property(readonly, copy, nonatomic) LNFocusConfigurationSuggestionContext *suggestionContext; // @synthesize suggestionContext=_suggestionContext;
 
 @end
 

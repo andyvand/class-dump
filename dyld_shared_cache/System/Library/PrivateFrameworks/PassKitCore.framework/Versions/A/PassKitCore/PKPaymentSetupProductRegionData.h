@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKPaymentSetupProductRegionData
 {
     _Bool _persistent;
-    unsigned long long _priority;
-    NSArray *_inclusionaryZones;
-    NSArray *_exclusionaryZones;
-    double _maximumMatchingDistance;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -23,18 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void)GENERIC;
+- (void)setWifiRxBytes:(id)arg1;
+- (id);
+- (void)PROGRESS_DOWNLOADING_CARD_GENERIC;
 - (unsigned long long)¬0;
 - (_Bool)(;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *exclusionaryZones; // @synthesize exclusionaryZones=_exclusionaryZones;
-@property(readonly, copy, nonatomic) NSArray *inclusionaryZones; // @synthesize inclusionaryZones=_inclusionaryZones;
-@property(readonly, nonatomic) double maximumMatchingDistance; // @synthesize maximumMatchingDistance=_maximumMatchingDistance;
 @property(readonly, nonatomic, getter=isPersistent) _Bool persistent; // @synthesize persistent=_persistent;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 
 @end
 

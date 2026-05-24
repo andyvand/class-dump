@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRouteCellularCoverage, GEOComposedRouteCoordinateArray, GEOElevationProfile, GEOMapRegion, NSArray;
+@class GEOComposedRouteCoordinateArray;
 
 __attribute__((visibility("hidden")))
 @interface GEORouteBuilderOutput
 {
     GEOComposedRouteCoordinateArray *_coordinatesArray;
-    NSArray *_legs;
-    NSArray *_segments;
-    NSArray *_steps;
-    NSArray *_guidanceEvents;
-    NSArray *_enrouteNotices;
-    NSArray *_visualInfos;
-    NSArray *_visualInfosForRouteNameLabels;
-    NSArray *_pointSections;
-    GEOComposedRouteCellularCoverage *_cellularCoverage;
-    int _elevationModel;
-    GEOMapRegion *_boundingMapRegion;
-    GEOElevationProfile *_elevationProfile;
-    double _distance;
-    _Bool _usesZilch;
-    NSArray *_cameraInfos;
-    unsigned long long _source;
 }
 
 - (id);
@@ -36,26 +20,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)updatePersistentStoresForAccountsWithURLs:cacheKey: /* Error: Ran out of types for this method. */;
+- (id)ABCDAddressingGrammar;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)-[CSSiriLauncher _notifyBuiltInVoiceTriggerPrewarm:activationSource:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (double);
 - (void);
 - (unsigned long long)rchSection"b1"has_type"b1"has_altTelephoneAdsOptOut"b1"has_enableRapLightweightFeedback"b1"has_hasSprLandmarkIcon"b1"has_isDisputed"b1"has_isPermanentlyClosed"b1"has_isStandaloneBrand"b1"has_telephoneAdsOptOut"b1"read_unknownFields"b1"read_mapsAltCategoryMuids"b1"read_placeLookupCategorys"b1"read_altFaxs"b1"read_altTelephones"b1"read_altUrls"b1"read_alternateSearchableNames"b1"read_disclaimerText"b1"read_fax"b1"read_inlineRapEnablement"b1"read_localizedCategorys"b1"read_mapsAltCategoryIds"b1"read_mapsCategoryId"b1"read_modernLocalizedCategorys"b1"read_modernMapsCategoryId"b1"read_names"b1"read_secondaryName"b1"read_secondarySpokenName"b1"read_spokenNames"b1"read_styleAttributes"b1"read_telephone"b1"read_urlData"b1"read_url"b1"read_walletCategoryId"b1"wrote_anyField"b1};
@@ -63,22 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)%M@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOMapRegion *boundingMapRegion; // @synthesize boundingMapRegion=_boundingMapRegion;
-@property(retain, nonatomic) NSArray *cameraInfos; // @synthesize cameraInfos=_cameraInfos;
-@property(retain, nonatomic) GEOComposedRouteCellularCoverage *cellularCoverage; // @synthesize cellularCoverage=_cellularCoverage;
 @property(retain, nonatomic) GEOComposedRouteCoordinateArray *coordinatesArray; // @synthesize coordinatesArray=_coordinatesArray;
-@property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) GEOElevationProfile *elevationProfile; // @synthesize elevationProfile=_elevationProfile;
-@property(retain, nonatomic) NSArray *enrouteNotices; // @synthesize enrouteNotices=_enrouteNotices;
-@property(retain, nonatomic) NSArray *guidanceEvents; // @synthesize guidanceEvents=_guidanceEvents;
-@property(retain, nonatomic) NSArray *legs; // @synthesize legs=_legs;
-@property(retain, nonatomic) NSArray *pointSections; // @synthesize pointSections=_pointSections;
-@property(retain, nonatomic) NSArray *segments; // @synthesize segments=_segments;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(retain, nonatomic) NSArray *steps; // @synthesize steps=_steps;
-@property(nonatomic) _Bool usesZilch; // @synthesize usesZilch=_usesZilch;
-@property(retain, nonatomic) NSArray *visualInfos; // @synthesize visualInfos=_visualInfos;
-@property(retain, nonatomic) NSArray *visualInfosForRouteNameLabels; // @synthesize visualInfosForRouteNameLabels=_visualInfosForRouteNameLabels;
 
 @end
 

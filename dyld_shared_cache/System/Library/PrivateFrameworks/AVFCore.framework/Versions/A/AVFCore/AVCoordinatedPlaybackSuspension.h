@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlaybackCoordinator, NSDate, NSString;
+@class NSString;
 
 @interface AVCoordinatedPlaybackSuspension
 {
     NSString *_reason;
-    AVPlaybackCoordinator *_coordinator;
-    struct OpaqueFigTimelineCoordinatorSuspension *_figSuspension;
-    NSDate *_beginDate;
-    AVCoordinatedPlaybackSuspension *_interstitialSuspension;
-    struct OpaqueFigSimpleMutex *_iVarMutex;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (struct OpaqueFigTimelineCoordinatorSuspension *);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
 @property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

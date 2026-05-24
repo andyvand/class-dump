@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSProxy, NSViewServiceMarshal, NSWindow;
-@protocol NSXPCProxyCreating;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSServiceViewControllerAuxiliary
 {
     NSWindow *serviceWindow;
-    NSViewServiceMarshal *marshal;
-    unsigned int invalid:1;
-    unsigned int didSetWindowContentView:1;
-    unsigned int makesExplicitResizeRequests:1;
-    unsigned int retainedMarshal:1;
-    unsigned int mostRecentCallToSetViewWasNonNil:1;
-    unsigned int willHaveOwnWindow:1;
-    unsigned int callsToSetViewCount;
-    NSError *leastRecentError;
-    unsigned int hostSDKVersion;
-    NSProxy<NSXPCProxyCreating> *_remoteViewControllerProxy;
 }
 
 - (_Bool);

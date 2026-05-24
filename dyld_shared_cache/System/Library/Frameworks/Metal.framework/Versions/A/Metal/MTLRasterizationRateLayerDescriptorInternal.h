@@ -6,28 +6,22 @@
 
 #import <Metal/MTLRasterizationRateLayerDescriptor.h>
 
-@class MTLRasterizationRateSampleArrayInternal;
-
 @interface MTLRasterizationRateLayerDescriptorInternal : MTLRasterizationRateLayerDescriptor
 {
     float *_data;
-    CDStruct_da2e99ad _size;
-    CDStruct_da2e99ad _currentSampleCount;
-    MTLRasterizationRateSampleArrayInternal *_horizontal;
-    MTLRasterizationRateSampleArrayInternal *_vertical;
 }
 
 - (float *);
 - (CDStruct_da2e99ad);
 - (id);
 - (id);
-- (float *);
+- (float *)C;
 - (void);
 - (id);
+- (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)PT;
 - (id);
 - (id);
 - (id);

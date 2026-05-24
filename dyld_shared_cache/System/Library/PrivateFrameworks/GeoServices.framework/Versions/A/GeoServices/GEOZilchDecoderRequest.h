@@ -6,34 +6,24 @@
 
 #import <GeoServices/GEOMapRequest.h>
 
-@class GEOZilchDecoder, NSError, NSObject;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface GEOZilchDecoderRequest : GEOMapRequest
 {
     struct unique_ptr<geo::ZilchMapModel, std::default_delete<geo::ZilchMapModel>> _mapModel;
-    GEOZilchDecoder *_decoder;
-    shared_ptr_27244a92 _message;
-    CDUnknownBlockType _pathHandler;
-    CDUnknownBlockType _errorHandler;
-    NSError *_firstTileLoadingError;
-    NSObject<OS_dispatch_semaphore> *_finishedSemaphore;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@"NSString",R,V_imagesDirectory;
+- (void)CNPersistentStoreCoordinatorUpdater;
+- (void)y;
 - (id);
 - (void);
 - (CDUnknownBlockType)ÿÿÿÿ;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
 @property(copy) CDUnknownBlockType pathHandler; // @synthesize pathHandler=_pathHandler;
 
 @end

@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)pe_t}d, identifier:(id)arg1 %@);
 
 @end
 

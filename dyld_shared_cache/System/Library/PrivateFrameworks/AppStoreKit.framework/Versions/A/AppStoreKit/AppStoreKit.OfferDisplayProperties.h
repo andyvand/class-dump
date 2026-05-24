@@ -7,33 +7,6 @@
 @interface AppStoreKit.OfferDisplayProperties
 {
     id offerType;
-    id adamId;
-    id bundleId;
-    id parentAdamId;
-    id titles;
-    id titleSymbolNames;
-    id subtitles;
-    id style;
-    id environment;
-    id tint;
-    id isDeletableSystemApp;
-    id isFree;
-    id bypassOnDeviceCompleteMyBundleCalculation;
-    id isPreorder;
-    id isRedownloadDisallowed;
-    id isOpenBundleAllowed;
-    id hasDiscount;
-    id offerLabelStyle;
-    id contentRating;
-    id ignoresContentRestrictions;
-    id offerToken;
-    id subscriptionFamilyId;
-    id overrideLocale;
-    id useAdsLocale;
-    id priceFormatted;
-    id isStreamlinedBuy;
-    id appCapabilities;
-    id supportsCurrentPlatform;
 }
 
 @end

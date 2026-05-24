@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PXPhotosDataSource, PXSelectionSnapshot;
-@protocol PXFastEnumeration;
+@class PXSelectionSnapshot;
 
 @interface PXAssetsSelectionAction : PXPhotosAction
 {
     PXSelectionSnapshot *_selectionSnapshot;
-    PXPhotosDataSource *_photosDataSource;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 - (void)viewfMf_15PreviewRegistryfMu_;
 
 // Remaining properties
-@property(readonly, nonatomic) PXPhotosDataSource *photosDataSource; // @synthesize photosDataSource=_photosDataSource;
-@property(readonly, nonatomic) id <PXFastEnumeration> selectedAssets;
 @property(readonly, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
 
 @end

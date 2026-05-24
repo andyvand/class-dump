@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     CAShapeLayer *_shapeLayer;
 }
 
-- (void);
-- (id);
+- (void)screenNamesForPerson:(id)arg1;
+- (id)handler:(struct CGRect)arg1 outgoingDownloadMessage:(id)arg2 toIdentifier:fromIdentifier:fromToken:messageGUID:timeStamp:isBeingReplayed:isInProxyMode:storageContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

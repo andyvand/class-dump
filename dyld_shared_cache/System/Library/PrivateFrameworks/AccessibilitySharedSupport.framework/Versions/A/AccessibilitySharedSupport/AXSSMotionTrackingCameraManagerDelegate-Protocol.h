@@ -5,5 +5,8 @@
 //
 
 @protocol AXSSMotionTrackingCameraManagerDelegate
+
+@optional
+- (void);
 @end
 

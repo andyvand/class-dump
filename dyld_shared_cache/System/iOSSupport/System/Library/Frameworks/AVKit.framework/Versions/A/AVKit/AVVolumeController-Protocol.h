@@ -5,12 +5,13 @@
 //
 
 @protocol AVVolumeController
-+ (id)ntrolStatus: /* Error: Ran out of types for this method. */;
++ (id)setTimeControlStatus: /* Error: Ran out of types for this method. */;
+- (void)L.G;
+- (_Bool)G;
+- (void).G;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isChangingVolume) _Bool changingVolume;
-@property(readonly, nonatomic) _Bool currentRouteHasVolumeControl;
-@property(nonatomic) _Bool prefersSystemVolumeHUDHidden;
 @property(readonly, nonatomic) float volume;
 @end
 

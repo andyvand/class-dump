@@ -15,13 +15,10 @@
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long)ater";
 
 // Remaining properties
-@property(nonatomic, readonly) long long bufferByteSize;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long pixelHeight;
-@property(nonatomic, readonly) long long pixelWidth;
 
 @end
 

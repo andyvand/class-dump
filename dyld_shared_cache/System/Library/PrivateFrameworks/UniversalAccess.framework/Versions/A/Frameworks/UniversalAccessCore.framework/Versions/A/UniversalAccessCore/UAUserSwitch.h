@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 @interface UAUserSwitch
 {
     _Bool _customNameIsLocalized;
-    unsigned long long _triggerType;
-    unsigned long long _actionType;
-    unsigned long long _action;
-    NSString *_customName;
-    NSUUID *_uuid;
 }
 
-+ (id);
++ (id)#;
 - (void);
 - (id);
 - (_Bool);
@@ -30,20 +23,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)connection:(unsigned long long)arg1 didFailToSendOutgoingMessage:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(nonatomic) unsigned long long actionType; // @synthesize actionType=_actionType;
-@property(copy, nonatomic) NSString *customName; // @synthesize customName=_customName;
-@property(nonatomic) _Bool customNameIsLocalized; // @synthesize customNameIsLocalized=_customNameIsLocalized;
-@property(readonly, copy, nonatomic) NSDictionary *propertyList;
 @property(nonatomic) unsigned long long triggerType; // @synthesize triggerType=_triggerType;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

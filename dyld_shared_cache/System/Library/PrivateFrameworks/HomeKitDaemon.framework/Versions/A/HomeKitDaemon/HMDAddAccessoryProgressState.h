@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, MTRCommissioneeInfo, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAddAccessoryProgressState
 {
     NSUUID *_accessoryUUID;
-    NSString *_accessoryName;
-    NSString *_manufacturerName;
-    HMAccessoryCategory *_category;
-    unsigned long long _certificationStatus;
-    NSString *_productData;
-    MTRCommissioneeInfo *_commissioneeInfo;
-    NSUUID *_systemCommissionerUUID;
 }
 
+- (id)contact values for contact %{private}@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)setNumberOfFamilyHolidaySignalRegistrationsInCorrectInference: /* Error: Ran out of types for this method. */;
+- (unsigned long long)monthDayValueForMonthDayNode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)0@ù
 × ;
@@ -37,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)@.ÿ×öA;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
 @property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, nonatomic) HMAccessoryCategory *category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned long long certificationStatus; // @synthesize certificationStatus=_certificationStatus;
-@property(readonly, nonatomic) MTRCommissioneeInfo *commissioneeInfo; // @synthesize commissioneeInfo=_commissioneeInfo;
-@property(readonly, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(readonly, nonatomic) NSString *productData; // @synthesize productData=_productData;
-@property(readonly, nonatomic) NSUUID *systemCommissionerUUID; // @synthesize systemCommissionerUUID=_systemCommissionerUUID;
 
 @end
 

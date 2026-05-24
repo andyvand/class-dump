@@ -4,43 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiNWActivityAggregateMetrics, AWDWiFiNWActivityBtCoex, AWDWiFiNWActivityImpedingFunctions, AWDWiFiNWActivityPowerPStats, AWDWiFiNWActivityRateAndAggregation, AWDWiFiNWActivityScanActivity, NSMutableArray;
-
 @interface AWDWiFiNWActivityControllerStats
 {
     unsigned long long _commandsIssued;
-    AWDWiFiNWActivityAggregateMetrics *_aggregateMetrics;
-    unsigned int _backoffStuck;
-    AWDWiFiNWActivityBtCoex *_btCoex;
-    unsigned int _ccCaptureDriverLogs;
-    unsigned int _channel;
-    unsigned int _channelBandwidth;
-    unsigned int _channelsVisited0;
-    unsigned int _channelsVisited1;
-    unsigned int _commanderHalted;
-    unsigned int _controllerResets;
-    AWDWiFiNWActivityImpedingFunctions *_impedingFunctions;
-    unsigned int _iorSuccess;
-    unsigned int _iorWA;
-    AWDWiFiNWActivityRateAndAggregation *_phyrate;
-    AWDWiFiNWActivityPowerPStats *_powerActivity;
-    NSMutableArray *_rxmdpuLosts;
-    NSMutableArray *_rxmpduWMEs;
-    AWDWiFiNWActivityScanActivity *_scanActivity;
-    NSMutableArray *_txmpduWMEs;
-    struct {
-        unsigned int commandsIssued:1;
-        unsigned int backoffStuck:1;
-        unsigned int ccCaptureDriverLogs:1;
-        unsigned int channel:1;
-        unsigned int channelBandwidth:1;
-        unsigned int channelsVisited0:1;
-        unsigned int channelsVisited1:1;
-        unsigned int commanderHalted:1;
-        unsigned int controllerResets:1;
-        unsigned int iorSuccess:1;
-        unsigned int iorWA:1;
-    } _has;
 }
 
 + (Class);
@@ -50,6 +16,21 @@
 - (id);
 - (void);
 - (void);
+- (void)G;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)6
+;
+- (void);
+- (void);
+- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -61,22 +42,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)+;
 - (id);
 - (id);
 - (unsigned long long);
@@ -101,12 +68,12 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)B;
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)#;
 - (id);
 - (unsigned int);
 - (id);
@@ -114,67 +81,31 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)hB;
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (unsigned int);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)Ia	;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) AWDWiFiNWActivityAggregateMetrics *aggregateMetrics; // @synthesize aggregateMetrics=_aggregateMetrics;
-@property(nonatomic) unsigned int backoffStuck; // @synthesize backoffStuck=_backoffStuck;
-@property(retain, nonatomic) AWDWiFiNWActivityBtCoex *btCoex; // @synthesize btCoex=_btCoex;
-@property(nonatomic) unsigned int ccCaptureDriverLogs; // @synthesize ccCaptureDriverLogs=_ccCaptureDriverLogs;
-@property(nonatomic) unsigned int channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned int channelBandwidth; // @synthesize channelBandwidth=_channelBandwidth;
-@property(nonatomic) unsigned int channelsVisited0; // @synthesize channelsVisited0=_channelsVisited0;
-@property(nonatomic) unsigned int channelsVisited1; // @synthesize channelsVisited1=_channelsVisited1;
-@property(nonatomic) unsigned int commanderHalted; // @synthesize commanderHalted=_commanderHalted;
-@property(nonatomic) unsigned long long commandsIssued; // @synthesize commandsIssued=_commandsIssued;
-@property(nonatomic) unsigned int controllerResets; // @synthesize controllerResets=_controllerResets;
-@property(readonly, nonatomic) _Bool hasAggregateMetrics;
-@property(nonatomic) _Bool hasBackoffStuck;
-@property(readonly, nonatomic) _Bool hasBtCoex;
-@property(nonatomic) _Bool hasCcCaptureDriverLogs;
-@property(nonatomic) _Bool hasChannel;
-@property(nonatomic) _Bool hasChannelBandwidth;
-@property(nonatomic) _Bool hasChannelsVisited0;
-@property(nonatomic) _Bool hasChannelsVisited1;
-@property(nonatomic) _Bool hasCommanderHalted;
-@property(nonatomic) _Bool hasCommandsIssued;
 @property(nonatomic) _Bool hasControllerResets;
-@property(readonly, nonatomic) _Bool hasImpedingFunctions;
-@property(nonatomic) _Bool hasIorSuccess;
-@property(nonatomic) _Bool hasIorWA;
-@property(readonly, nonatomic) _Bool hasPhyrate;
-@property(readonly, nonatomic) _Bool hasPowerActivity;
-@property(readonly, nonatomic) _Bool hasScanActivity;
-@property(retain, nonatomic) AWDWiFiNWActivityImpedingFunctions *impedingFunctions; // @synthesize impedingFunctions=_impedingFunctions;
-@property(nonatomic) unsigned int iorSuccess; // @synthesize iorSuccess=_iorSuccess;
-@property(nonatomic) unsigned int iorWA; // @synthesize iorWA=_iorWA;
-@property(retain, nonatomic) AWDWiFiNWActivityRateAndAggregation *phyrate; // @synthesize phyrate=_phyrate;
-@property(retain, nonatomic) AWDWiFiNWActivityPowerPStats *powerActivity; // @synthesize powerActivity=_powerActivity;
-@property(retain, nonatomic) NSMutableArray *rxmdpuLosts; // @synthesize rxmdpuLosts=_rxmdpuLosts;
-@property(retain, nonatomic) NSMutableArray *rxmpduWMEs; // @synthesize rxmpduWMEs=_rxmpduWMEs;
-@property(retain, nonatomic) AWDWiFiNWActivityScanActivity *scanActivity; // @synthesize scanActivity=_scanActivity;
-@property(retain, nonatomic) NSMutableArray *txmpduWMEs; // @synthesize txmpduWMEs=_txmpduWMEs;
 
 @end
 

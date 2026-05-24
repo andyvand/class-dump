@@ -12,8 +12,8 @@
 }
 
 + (id);
-+ (double);
-+ (id)nBundleIdentifierOverride: /* Error: Ran out of types for this method. */;
++ (double)`;
++ (id)setApplicationBundleIdentifierOverride: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)Ôáð!¤Cù±[1Â0@ù
@@ -21,10 +21,10 @@
 - (id);
 - (double)× ;
 - (double)raggableGeometrySameViewDropOperation>";
-- (id)cation:(id)arg1;
+- (id)setShouldSendCurrentLocation:(id)arg1;
 - (id)ðt;
 - (id)ping delete of restoration archive even though app has previously crashed during state restoration;
-- (id)onCanvasDefinitionKey;
+- (id)CanvasRestorationCanvasDefinitionKey;
 - (void)øfh;
 
 @end

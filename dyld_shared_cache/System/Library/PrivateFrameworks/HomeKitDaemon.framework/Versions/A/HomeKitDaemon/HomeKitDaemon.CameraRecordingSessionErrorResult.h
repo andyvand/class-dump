@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSUUID;
+@class NSUUID;
 
 @interface HomeKitDaemon.CameraRecordingSessionErrorResult
 {
     void identifier;
-    void error;
-    void timestamp;
 }
 
 - (id);
@@ -20,10 +18,7 @@
 - (_Bool)ing invite with ID %@;
 
 // Remaining properties
-@property(nonatomic, readonly) NSError *error;
-@property(nonatomic, readonly) _Bool expired;
 @property(nonatomic, readonly) NSUUID *identifier;
-@property(nonatomic, readonly) NSDate *timestamp;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol CRKIPAddressProviding, CRKIdentity;
+@class NSArray;
 
 @interface CRKHostResourcesConfiguration
 {
     unsigned short _port;
-    NSArray *_resourceURLs;
-    id <CRKIdentity> _serverIdentity;
-    NSArray *_trustedCertificates;
-    unsigned long long _maximumAllowedDownloads;
-    NSObject<CRKIPAddressProviding> *_IPAddressProvider;
 }
 
 - (id);
@@ -26,19 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short)statusCode;
 - (id);
 - (void);
 - (void)CùS°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<CRKIPAddressProviding> *IPAddressProvider; // @synthesize IPAddressProvider=_IPAddressProvider;
-@property(nonatomic) unsigned long long maximumAllowedDownloads; // @synthesize maximumAllowedDownloads=_maximumAllowedDownloads;
-@property(nonatomic) unsigned short port; // @synthesize port=_port;
 @property(readonly, copy, nonatomic) NSArray *resourceURLs; // @synthesize resourceURLs=_resourceURLs;
-@property(readonly, nonatomic) id <CRKIdentity> serverIdentity; // @synthesize serverIdentity=_serverIdentity;
-@property(readonly, copy, nonatomic) NSArray *trustedCertificates; // @synthesize trustedCertificates=_trustedCertificates;
 
 @end
 

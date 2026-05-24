@@ -6,19 +6,13 @@
 
 #import <OfficeImport/TCDumpType.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TCDumpContainer : TCDumpType
 {
     int mByteSize;
-    int mByteSizeFieldType;
-    NSString *mByteSizeFieldName;
-    int mByteSizeCorrection;
-    TCDumpType *mElementType;
 }
 
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);

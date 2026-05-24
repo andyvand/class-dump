@@ -11,7 +11,7 @@
     IMKInputControllerPrivate *_private;
 }
 
-+ (id);
++ (id)@;
 + (id);
 - (void);
 - (void);
@@ -65,8 +65,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)aymy?!;
+- (id);
 - (id)Ô ;
 
 @end

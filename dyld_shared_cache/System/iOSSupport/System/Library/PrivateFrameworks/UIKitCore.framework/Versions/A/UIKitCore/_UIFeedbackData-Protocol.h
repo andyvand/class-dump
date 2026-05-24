@@ -7,11 +7,12 @@
 @class CHHapticPattern, NSURL, _UIFeedbackParameters;
 
 @protocol _UIFeedbackData
+- (double)nsigned long>, std::__unordered_map_hasher<unsigned short, std::pair<const unsigned short, unsigned long>, std::hash<unsigned short>, std::equal_to<unsigned short>>, std::__unordered_map_equal<unsigned short, std::pair<const unsigned short, unsigned long>, std::equal_to<unsigned short>, std::hash<unsigned short>>, std::allocator<std::pair<const unsigned short, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (float)
 × ;
 - (_Bool)× ;
-- (_UIFeedbackParameters *)Name:point:inView: /* Error: Ran out of types for this method. */;
-- (unsigned long long)nteractiveMoveEnds;
+- (_UIFeedbackParameters *)initWithAttributedName:point:inView: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_selectedBackgroundViewToRestoreWhenInteractiveMoveEnds;
 - (_Bool)ce;
 - (double)_UICalendarMonthYearSelectorDelegate;
 - (CHHapticPattern *)ð;
@@ -20,20 +21,6 @@
 - (NSURL *);
 
 // Remaining properties
-@property(readonly, nonatomic) _UIFeedbackParameters *audioParameters;
-@property(readonly, nonatomic) _Bool canReuseCoreHapticsPlayer;
-@property(readonly, nonatomic) _Bool disableEventUseVolumeEnvelope;
-@property(readonly, nonatomic) double effectiveDelay;
-@property(readonly, nonatomic) double effectiveDuration;
-@property(readonly, nonatomic) unsigned long long effectiveEnabledFeedbackTypes;
 @property(readonly, nonatomic) unsigned long long effectiveEventType;
-@property(readonly, nonatomic) unsigned int effectiveSystemSoundID;
-@property(readonly, nonatomic) unsigned long long fileFeedbackType;
-@property(readonly, nonatomic) NSURL *fileURL;
-@property(readonly, nonatomic) _UIFeedbackParameters *hapticParameters;
-@property(readonly, nonatomic) float intensity;
-@property(readonly, nonatomic) _Bool isTransientHaptic;
-@property(readonly, nonatomic) CHHapticPattern *pattern;
-@property(readonly, nonatomic) float sharpness;
 @end
 

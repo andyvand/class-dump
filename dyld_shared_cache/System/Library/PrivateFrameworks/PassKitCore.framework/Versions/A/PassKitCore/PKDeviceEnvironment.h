@@ -9,7 +9,6 @@
 @interface PKDeviceEnvironment
 {
     NSString *_countryCode;
-    NSString *_deviceLanguage;
 }
 
 - (void);
@@ -18,14 +17,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)tate;
+- (_Bool)hasSwitchToCount;
+- (id)provisionLocalPassState;
 - (void)irements for "%@" scheme.;
-- (void)dowOpacity;
+- (void)shadowOpacity;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *deviceLanguage; // @synthesize deviceLanguage=_deviceLanguage;
 
 @end
 

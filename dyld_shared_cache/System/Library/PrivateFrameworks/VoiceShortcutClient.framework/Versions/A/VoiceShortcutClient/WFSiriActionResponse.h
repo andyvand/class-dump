@@ -11,7 +11,7 @@
     NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool)__cfstring;
 - (id);
 - (id);
 - (void);

@@ -4,45 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PKDynamicAssetIndex;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKMobileAssetManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PKDynamicAssetIndex *_dynamicAssetsIndex;
-    NSMutableDictionary *_cachedStringsBundles;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)B;
+- (id);
+- (id);
+- (void)@9
+!;
+- (void);
+- (void);
+- (id)0;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)MUCGPDFTextWidgetAnnotationAdaptor;
+- (void)Ț;
+- (void)bin;
 - (void);
 - (void);
 - (void);
 - (_Bool)0@ù
 × ;
 - (void)aymentTapToProvisionData";
-- (void)tartStation;
+- (void)StartStation;
 
 @end
 

@@ -6,17 +6,15 @@
 
 #import <PhotosGraph/PGDefaultCollectionTitleGenerator.h>
 
-@class NSString, PGGraphFeatureNodeCollection;
+@class NSString;
 
 @interface PGMeaningfulEventTitleGenerator : PGDefaultCollectionTitleGenerator
 {
     NSString *_meaningLabel;
-    _Bool _meaningIsReliable;
-    PGGraphFeatureNodeCollection *_featureNodes;
 }
 
-- (id);
-- (id);
+- (id)_didRegisterMenuClosedNotification;
+- (id)_didRegisterFocusedUIElementNotification;
 - (id);
 - (id);
 - (void);

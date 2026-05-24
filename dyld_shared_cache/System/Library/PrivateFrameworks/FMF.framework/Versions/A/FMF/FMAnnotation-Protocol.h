@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMAccuracyOverlay, NSColor, NSImage, NSString;
+@class FMAccuracyOverlay, NSColor, NSImage;
 
 @protocol FMAnnotation
+- (NSImage *);
+- (struct CLLocationCoordinate2D)setCloudkit_inverness_service: /* Error: Ran out of types for this method. */;
+- (NSColor *)setEditable: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void)@"NSDate";
 
+@optional
+- (void)aosui_profilePicture;
+
 // Remaining properties
-@property(nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(nonatomic) double distanceFromUser;
-@property(nonatomic) double horizontalAccuracy;
-@property(nonatomic) _Bool isBorderEnabled;
-@property(retain, nonatomic) NSImage *largeAnnotationIcon;
-@property(retain, nonatomic) NSImage *largeOverlayIcon;
 @property(retain, nonatomic) FMAccuracyOverlay *overlay;
-@property(retain, nonatomic) NSImage *smallAnnotationIcon;
-@property(retain, nonatomic) NSImage *smallOverlayIcon;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(retain, nonatomic) NSColor *tintColor;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @end
 

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSMapTable, NSUUID, UICollectionView;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewSectionFocusGuideController
 {
     UICollectionView *_collectionView;
-    NSMapTable *_focusGuideFromSectionMap;
-    NSMapTable *_focusGuideToSectionMap;
-    NSUUID *_lastUpdateIdentifier;
-    NSIndexPath *_focusedIndexPath;
-    long long _pivotSection;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)_scheduledSendDelegateRoutesChanged;
 - (struct CGRect);
 - (id);
 - (void)BùQ^1Â0@ù
@@ -37,27 +32,22 @@ __attribute__((visibility("hidden")))
 - (id)Qfð1Â0@ù
 × ;
 - (void)UISEMuxGestureFeature";
-- (void)PlayBlackWallpaperModeEnabledWithBlock: /* Error: Ran out of types for this method. */;
-- (void)haviors;
-- (void):(long long)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)ackButtonTitleMaxWidthConstraint;
-- (void)rDragSession:atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)observeCarPlayBlackWallpaperModeEnabledWithBlock: /* Error: Ran out of types for this method. */;
+- (void)glassBehaviors;
+- (void)_setShowsScopeBar:(long long)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void)_backButtonTitleMaxWidthConstraint;
+- (void)__tableView:dataOwnerForDragSession:atIndexPath: /* Error: Ran out of types for this method. */;
 - (id)= %p; invalidated layout during preparation;
 - (id);
 - (id);
 - (id);
-- (void)chStoryboards;
+- (void)UILaunchStoryboards;
 - (void)t(þÿ;
 - (void);
 - (long long)I;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) NSMapTable *focusGuideFromSectionMap; // @synthesize focusGuideFromSectionMap=_focusGuideFromSectionMap;
-@property(retain, nonatomic) NSMapTable *focusGuideToSectionMap; // @synthesize focusGuideToSectionMap=_focusGuideToSectionMap;
-@property(retain, nonatomic) NSIndexPath *focusedIndexPath; // @synthesize focusedIndexPath=_focusedIndexPath;
-@property(retain, nonatomic) NSUUID *lastUpdateIdentifier; // @synthesize lastUpdateIdentifier=_lastUpdateIdentifier;
-@property(nonatomic) long long pivotSection; // @synthesize pivotSection=_pivotSection;
 
 @end
 

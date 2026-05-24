@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBDeleteParkingLocationIntent
-- (_Bool)OutgoingMessageType: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)/Application Support/Ubiquity;
+- (_Bool)addPayloadOutgoingMessageType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

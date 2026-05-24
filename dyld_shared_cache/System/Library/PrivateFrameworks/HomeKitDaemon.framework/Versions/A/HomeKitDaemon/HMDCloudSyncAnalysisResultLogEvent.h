@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCloudSyncAnalysisResultLogEvent
 {
     _Bool _uploadMaximumDelayReached;
-    _Bool _lastDecryptionFailed;
-    unsigned long long _incomingPushCount;
-    unsigned long long _fetchCount;
-    unsigned long long _legacyFetchCount;
-    unsigned long long _fetchErrorCount;
-    unsigned long long _legacyFetchErrorCount;
-    unsigned long long _uploadCount;
-    unsigned long long _legacyUploadCount;
-    unsigned long long _uploadErrorCount;
-    unsigned long long _legacyUploadErrorCount;
-    unsigned long long _decryptionFailedCount;
-    unsigned long long _bytesFetched;
-    unsigned long long _bytesPushed;
-    unsigned long long _legacyBytesFetched;
-    unsigned long long _legacyBytesPushed;
-    NSDictionary *_legacyUploadReasonCountMap;
-    NSDictionary *_uploadErrorCountMap;
-    NSDictionary *_legacyUploadErrorCountMap;
 }
 
-- (_Bool);
+- (_Bool)@0:8Q16Q24 /* Error: Ran out of types for this method. */;
+- (id)};
+- (unsigned long long)cher";
+- (unsigned long long)SingleCapabilityLevelFetcher";
+- (void)_removePeerForConnection:(_Bool)arg1;
+- (void)_removeObjectNoLock:(id)arg1;
+- (void)_removeFinishedSession:(unsigned long long)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)t;
+- (void);
+- (void)rvice] Error stopping all sharing:(unsigned long long)arg1 %{public}@;
+- (void)%{private}@:(unsigned long long)arg1 %{public}@;
+- (void)c}@;
+- (void)esponse.;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (unsigned long long)-;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)P;
+- (unsigned long long)/;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -74,46 +54,6 @@ __attribute__((visibility("hidden")))
 - (void)nce in notification ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property unsigned long long bytesFetched; // @synthesize bytesFetched=_bytesFetched;
-@property unsigned long long bytesPushed; // @synthesize bytesPushed=_bytesPushed;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property unsigned long long decryptionFailedCount; // @synthesize decryptionFailedCount=_decryptionFailedCount;
-@property(readonly, copy) NSString *description;
-@property unsigned long long fetchCount; // @synthesize fetchCount=_fetchCount;
-@property unsigned long long fetchErrorCount; // @synthesize fetchErrorCount=_fetchErrorCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property unsigned long long incomingPushCount; // @synthesize incomingPushCount=_incomingPushCount;
-@property _Bool lastDecryptionFailed; // @synthesize lastDecryptionFailed=_lastDecryptionFailed;
-@property unsigned long long legacyBytesFetched; // @synthesize legacyBytesFetched=_legacyBytesFetched;
-@property unsigned long long legacyBytesPushed; // @synthesize legacyBytesPushed=_legacyBytesPushed;
-@property unsigned long long legacyFetchCount; // @synthesize legacyFetchCount=_legacyFetchCount;
-@property unsigned long long legacyFetchErrorCount; // @synthesize legacyFetchErrorCount=_legacyFetchErrorCount;
-@property unsigned long long legacyUploadCount; // @synthesize legacyUploadCount=_legacyUploadCount;
-@property unsigned long long legacyUploadErrorCount; // @synthesize legacyUploadErrorCount=_legacyUploadErrorCount;
-@property(retain, nonatomic) NSDictionary *legacyUploadErrorCountMap; // @synthesize legacyUploadErrorCountMap=_legacyUploadErrorCountMap;
-@property(retain, nonatomic) NSDictionary *legacyUploadReasonCountMap; // @synthesize legacyUploadReasonCountMap=_legacyUploadReasonCountMap;
-@property(readonly) Class superclass;
-@property unsigned long long uploadCount; // @synthesize uploadCount=_uploadCount;
-@property unsigned long long uploadErrorCount; // @synthesize uploadErrorCount=_uploadErrorCount;
-@property(retain, nonatomic) NSDictionary *uploadErrorCountMap; // @synthesize uploadErrorCountMap=_uploadErrorCountMap;
 @property _Bool uploadMaximumDelayReached; // @synthesize uploadMaximumDelayReached=_uploadMaximumDelayReached;
 
 @end

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @protocol _CPPunchoutForFeedback
+- (NSString *)e>>, WTF:(unsigned long long)arg1:HashTraits<WTF::Ref<WebKit::RemoteProgressBasedTimeline>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::RemoteProgressBasedTimeline>, Value = WTF::Ref<WebKit::RemoteProgressBasedTimeline>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::RemoteProgressBasedTimeline>>, Traits = WTF::HashTraits<WTF::Ref<WebKit::RemoteProgressBasedTimeline>>, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::RemoteProgressBasedTimeline>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)rary/BuildRoots/4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/CheckedPtr.h;
+- (unsigned long long);
+- (void);
+- (unsigned long long)localizedStringFromPersonNameComponents:style:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int knownBundleIdentifier;
-@property(copy, nonatomic) NSString *label;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSArray *urls;
-@property(readonly, nonatomic) unsigned long long whichBundleid;
 @end
 

@@ -4,48 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKObject, NSDictionary, NSSet;
+@class EKObject;
 
 @interface EKDiff
 {
     int _result;
-    EKObject *_firstObject;
-    EKObject *_secondObject;
-    NSSet *_differentIdentityKeys;
-    NSSet *_differentImmutableKeys;
-    NSSet *_differentSingleValueKeys;
-    NSSet *_differentRelationshipSingleValueKeys;
-    NSSet *_differentRelationshipMultiValueKeys;
-    NSDictionary *_relationshipMultiValueAdds;
-    NSDictionary *_relationshipMultiValueRemoves;
-    NSDictionary *_relationshipMultiValueModifies;
-    NSDictionary *_relationshipSingleValueModifies;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (id)dated Values:(id)arg1 %@;
++ (id)erClient] Added Fields:(id)arg1 %@;
++ (id)tItemChange for %@. Skipping update;
++ (id)%@;
++ (id)from xpc message;
++ (id)dateValue;
++ (id)stringValue;
++ (id)endTimestamp;
++ (id)Identifiers = %@;
++ (void)pointOrigin isEqual:(id)arg1 origin];
++ (void)RestoreClientStateWithCompletion:(id)arg1 ]_block_invoke_2;
++ (void)restoreClientState;
++ (void)mand = %@, playerPath=%@, options = %@
+>;
++ (void)LeaveSharedSession;
++ (id)MRActivityAttributesKeyRelevanceScore;
++ (id)ingController<%p>.performRequestWithCompletion;
++ (void)MRAVEndpointVolumeMutedDidChangeNotification;
++ (void)MRAVEndpointDidChangeOutputDeviceNotification;
++ (void)MRAVEndpointDidDisconnectNotification;
++ (void)%@>;
++ (void)_MRGroupSessionTokenInitialSyncKey;
++ (id)n.searchOutputDevices-%@;
++ (id)notification;
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,26 +46,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ic}@[%{public}@ <%{public}@-%@>]:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)%{public}@;
+- (id)tput device:%{public}@ | %{public}@ | %{public}@ /* Error: Ran out of types for this method. */;
+- (id)dpointObserver] Dealloc %@;
+- (id)[OS_Transaction] invalidating:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)@ = %@. Now Playing Item = %@. Ignoring command;
+- (id)blic}@ sender sepecified %@ = %@. Now Playing Item = %@. Ignoring command;
+- (id)tem.;
+- (id)ich is no longer the now playing item.;
+- (id)Enqueing endpoint change to %@;
+- (id)%{BOOL}u, canSetVolume=%{BOOL}u, volumeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
+- (void)ic}@<%{public}@> %@;
+- (id)istered for shuffle mode changes.;
+- (id)psed time changes.;
+- (id)MRGroupSessionEventOptionSessionIdentifier;
+- (void)equest"8;
+- (id)JkJ)J;
 - (id);
 - (id);
 - (id);
@@ -82,18 +72,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *differentIdentityKeys; // @synthesize differentIdentityKeys=_differentIdentityKeys;
-@property(retain, nonatomic) NSSet *differentImmutableKeys; // @synthesize differentImmutableKeys=_differentImmutableKeys;
-@property(retain, nonatomic) NSSet *differentRelationshipMultiValueKeys; // @synthesize differentRelationshipMultiValueKeys=_differentRelationshipMultiValueKeys;
-@property(retain, nonatomic) NSSet *differentRelationshipSingleValueKeys; // @synthesize differentRelationshipSingleValueKeys=_differentRelationshipSingleValueKeys;
-@property(retain, nonatomic) NSSet *differentSingleValueKeys; // @synthesize differentSingleValueKeys=_differentSingleValueKeys;
 @property(retain, nonatomic) EKObject *firstObject; // @synthesize firstObject=_firstObject;
-@property(retain, nonatomic) NSDictionary *relationshipMultiValueAdds; // @synthesize relationshipMultiValueAdds=_relationshipMultiValueAdds;
-@property(retain, nonatomic) NSDictionary *relationshipMultiValueModifies; // @synthesize relationshipMultiValueModifies=_relationshipMultiValueModifies;
-@property(retain, nonatomic) NSDictionary *relationshipMultiValueRemoves; // @synthesize relationshipMultiValueRemoves=_relationshipMultiValueRemoves;
-@property(retain, nonatomic) NSDictionary *relationshipSingleValueModifies; // @synthesize relationshipSingleValueModifies=_relationshipSingleValueModifies;
-@property(nonatomic) int result; // @synthesize result=_result;
-@property(retain, nonatomic) EKObject *secondObject; // @synthesize secondObject=_secondObject;
 
 @end
 

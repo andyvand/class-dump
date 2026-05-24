@@ -9,18 +9,17 @@
 @interface CTLazuliGroupChatParticipant
 {
     NSString *_member;
-    long long _role;
 }
 
-+ (_Bool);
++ (_Bool)eekEvent:%p %@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)o`;
 - (_Bool);
-- (void);
+- (void)numberForKey:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void)
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *member; // @synthesize member=_member;
-@property(nonatomic) long long role; // @synthesize role=_role;
 
 @end
 

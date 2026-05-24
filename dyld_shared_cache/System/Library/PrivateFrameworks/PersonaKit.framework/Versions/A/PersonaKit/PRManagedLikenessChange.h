@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface PRManagedLikenessChange
 {
@@ -12,11 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *changedID; // @dynamic changedID;
-@property(retain, nonatomic) NSString *changedProperties; // @dynamic changedProperties;
-@property(retain, nonatomic) NSNumber *changedVersion; // @dynamic changedVersion;
-@property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSDate *timestamp; // @dynamic timestamp;
 @property(retain, nonatomic) NSString *type; // @dynamic type;
 @end
 

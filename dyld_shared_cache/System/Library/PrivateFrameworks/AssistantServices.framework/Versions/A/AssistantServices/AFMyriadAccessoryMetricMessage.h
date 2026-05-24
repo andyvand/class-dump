@@ -25,40 +25,20 @@
 - (_Bool);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)E;
 - (struct MyriadMetricsDataV1);
 - (_Bool);
-- (double);
+- (double)frameErasureRateHistogramAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
-- (unsigned char);
-- (unsigned long long)t;
+- (unsigned char);
+- (unsigned long long)getOverridingContext;
 - (unsigned long long)tion getCapabilitiesDataFromReachableDevicesWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double advDelay;
-@property(readonly, nonatomic) double advInterval;
-@property(readonly, nonatomic) _Bool coordinationAllowed;
-@property(readonly, nonatomic) _Bool decision;
-@property(readonly, nonatomic) unsigned char deviceGroup;
-@property(readonly, nonatomic) unsigned char electionParticipantCount;
-@property(readonly, nonatomic) char *electionParticipantDeviceType;
-@property(readonly, nonatomic) char *electionParticipantGoodnessScore;
-@property(readonly, nonatomic) char *electionParticipantProductType;
-@property(readonly, nonatomic) unsigned char eventType;
-@property(readonly, nonatomic) _Bool homepodInvolved;
-@property(readonly, nonatomic) _Bool lateToElection;
-@property(readonly, nonatomic) _Bool previousDecision;
-@property(readonly, nonatomic) double previousDecisionTime;
-@property(readonly, nonatomic) unsigned long long requestType;
-@property(readonly, nonatomic) unsigned long long sessionId;
-@property(readonly, nonatomic) unsigned char state;
 @property(readonly, nonatomic) unsigned char version;
-@property(readonly, nonatomic) unsigned char winnerDeviceClass;
-@property(readonly, nonatomic) unsigned char winnerGoodnessScore;
-@property(readonly, nonatomic) unsigned char winnerProductType;
 
 @end
 

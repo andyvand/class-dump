@@ -9,8 +9,6 @@
 @interface IMKUIPanelWithRoundedButtonMask : IMKUIPanelMask
 {
     long long _alignment;
-    double _buttonRadius;
-    double _cornerRadius;
 }
 
 + (id);
@@ -18,14 +16,12 @@
 - (double);
 - (void);
 - (long long);
-- (double);
+- (double)updateMediaBitrateHistogramsWithTimeElapsed: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) double buttonRadius; // @synthesize buttonRadius=_buttonRadius;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 
 @end
 

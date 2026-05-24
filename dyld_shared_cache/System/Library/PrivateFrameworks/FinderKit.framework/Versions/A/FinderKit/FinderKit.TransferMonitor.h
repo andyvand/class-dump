@@ -7,7 +7,6 @@
 @interface FinderKit.TransferMonitor
 {
     id client;
-    id transfersMonitorTask;
 }
 
 @end

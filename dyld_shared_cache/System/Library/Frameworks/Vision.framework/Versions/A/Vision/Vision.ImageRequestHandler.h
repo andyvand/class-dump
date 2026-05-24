@@ -7,11 +7,6 @@
 @interface Vision.ImageRequestHandler
 {
     id orientedImageSource;
-    id session;
-    id vnImageBuffer;
-    id timeRange;
-    id imageBuffer;
-    id requestsPerformer;
 }
 
 @end

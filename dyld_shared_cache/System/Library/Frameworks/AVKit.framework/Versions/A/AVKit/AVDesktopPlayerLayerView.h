@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAnimator, AVObservationController, AVPlayerController, AVPlayerLayer, NSDictionary, NSString;
+@class AVObservationController, AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface AVDesktopPlayerLayerView
 {
     AVObservationController *_observationController;
-    id _playerControllerContentDimensionsObservationToken;
-    AVPlayerController *_playerController;
-    AVPlayerLayer *_playerLayer;
-    long long _layoutMode;
-    AVAnimator *_animator;
-    _Bool _wantsPlayerLayerLayout;
-    struct CGSize _fixedPlayerLayerSize;
 }
 
 + (id);
-+ (id);
++ (id)sendAvailableUpdates;
 + (id);
 + (id);
 - (_Bool);
@@ -29,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)d;
 - (struct CGSize);
 - (void);
 - (void);
@@ -37,9 +30,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)#;
 - (id);
-- (id);
+- (id)gPositionStabilizerJS.setTrackPosition(e),this._readerIsForeground=e)},readerWillBecomeVisible:function(){document.body.classList.remove("cached"),this.resumeCachedNextPageLoadIfNecessary();for(let e of document.querySelectorAll("iframe")){let t=this.cachedIframeURLMap.get(e);t&&(e.src=t,this.cachedIframeURLMap.delete(e))}this._readerIsActive&&requestAnimationFrame((function(){ReadingPositionStabilizerJS.applyScrollPositionFromOriginalPage()}))},readerWillEnterBackground:function(){(ReaderJS.isLoadingNextPage()||ReaderJS.loadingNextPageManuallyStopped)&&this.pauseLoadingNextPage();for(let e of document.querySelectorAll("audio"))e.pause();for(let e of document.querySelectorAll("video"))e.hasAttribute("data-reader-silent-looped-animation")||e.pause();for(let e of document.querySelectorAll("iframe")){e.src&&(this.cachedIframeURLMap.set(e,e.src),e.removeAttribute("src"))}},_fixImageElementsWithinPictureElements:function(){requestAnimationFrame((function(){let e=!1,t=document.querySelectorAll("#article picture img");for(let n of t){let t=n.previousElementSibling;if(t)n.remove(),t.after(n),e=!0;else{let t=n.parentElement;n.remove(),t.appendChild(n),e=!0}}e&&ReaderAppearanceJS.layOutContent()}))},serializedDocumentElementForPrintingOrMailing:async function(e){const t=Promise.withResolvers();globalThis.ReaderJSController=new class{readerOperationMode(){return ReaderOperationMode.OffscreenFetching}doneLoadingReaderPage(){t.resolve()}initialConfiguration(){return e}articleScrolled(){}cachedTopScrollOffset(){return 0}clearNextPageArticleFinder(){}contentIsReadyForDisplay(){}didChangeNextPageLoadingState(){}goBack(){}goForward(){}initialArticleScrollPosition(){return null}isInStickyMode(){return!1}log(){}makeFontAvailableIfNecessary(){}maxDistanceForLoadingNextPage(){}nextPageArticleFinder(){}nextPageLoadComplete(){}prepareNextPageFrame(){}setArticleBaseURLString(e){}replaceSimpleTweetsWithRichTweets(){}requestDeactivationFromUserAction(){}requestOnDeviceSummary(){}reportReaderEvent(){}},ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),await t.promise;const n=ReaderJS.sanitizedFullArticleFrame();if(!n?.contentDocument?.documentElement)throw new Error("Unable to render article");return webkit.serializeNode(n.contentDocument.documentElement,{deep:!0})}};let fetchNextPageArticlePromiseWithCanceller=null;ReadingPositionStabilizer=function(){this.elementTouchingTopOfViewport=null,this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=0,this._trackingScrolling=!1,this._hasEverScrolled=!1},ReadingPositionStabilizer.prototype={initialize:function(){this.setTrackPosition(!0);const e=250;this._checkForUpdatedContentSoon=this.debounce(e)._checkForUpdatedContentNow,this.windowDidResize=this.debounce(e)._windowDidResize},setTrackPosition:function(e){if(e===this._trackingScrolling)return;this._trackingScrolling=e;const t=250;this._debouncedDidScroll||(this._debouncedDidScroll=this.debounce(t)._didScroll),e?window.addEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0}):window.removeEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0})},_windowDidResize:function(){this._hasEverScrolled&&this._updatePosition(!1)},contentWasReloaded:function(){this._updatePosition(!1)},_didScroll:function(){this._trackingScrolling&&(this._hasEverScrolled=!0,this._updatePosition(!1))},_updatePosition:function(e=!0){let t=firstContentElementAfterTopOfViewport();if(!t)return void(this.elementTouchingTopOfViewport=null);this.elementTouchingTopOfViewport=t;let n=this.elementTouchingTopOfViewport.getBoundingClientRect();this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=n.height>0?n.top/n.height:0,this._originalPageScrollSyncAndContentRefreshIsAllowed()&&ReaderJS.readerIsForeground()&&(this._pushScrollPositionToOriginalPage(),e&&this._checkForUpdatedContentSoon())},_pushScrollPositionToOriginalPage:function(){const e=ReaderJSController.originalArticleFinder(),[t,n]=this.uniqueIDAndScrollRatioOfElementPinnedToTop();t&&e.scrollToElementWithUniqueID(t,n)},applyScrollPositionFromOriginalPage:async function(){let e=ReaderJSController.originalArticleFinder().uniqueIDAndScrollRatioOfElementPinnedToTop();e instanceof Promise&&(e=await e);const[t,n]=e;t&&this.tryToScrollToUniqueIDAndRatio(t,n)},_checkForUpdatedContentNow:async function(){await ReaderJS.reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged()},restorePosition:function(){if(!this.elementTouchingTopOfViewport)return;let e=this.elementTouchingTopOfViewport.getBoundingClientRect(),t=document.scrollingElement.scrollTop+e.top-e.height*this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio;t>0&&(document.scrollingElement.scrollTop=t),this._updatePosition()},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){if(!this.elementTouchingTopOfViewport)return[null,null];return[this.elementTouchingTopOfViewport.getAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY),this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio]},tryToScrollToUniqueIDAndRatio:function(e,t){const n=document.querySelector("["+READER_UNIQUE_ID_ATTRIBUTE_KEY+"='"+e+"']");if(!n)return!1;const i=n.getBoundingClientRect();return!!i.height&&(document.scrollingElement.scrollTop=i.top-t*i.height+window.scrollY,this._updatePosition(!1),!0)},_originalPageScrollSyncAndContentRefreshIsAllowed:function(){return!document.body.classList.contains("watch")}},document.addEventListener("visibilitychange",handleVisibilityChange,!1);var ContentAwareScrollerJS=new ContentAwareScroller,ReaderAppearanceJS=new ReaderAppearanceController,ReadingPositionStabilizerJS=new ReadingPositionStabilizer,ReaderJS=new ReaderController;window.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -53,23 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)ðÿÿÿúÿÿÌóÿ,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize fixedPlayerLayerSize; // @synthesize fixedPlayerLayerSize=_fixedPlayerLayerSize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long layoutMode; // @synthesize layoutMode=_layoutMode;
-@property(retain, nonatomic) NSDictionary *pixelBufferAttributes;
 @property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(readonly, nonatomic) AVPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
-@property(readonly, nonatomic) struct CGRect playerLayerFrame;
-@property(readonly, nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect videoBounds;
-@property(retain, nonatomic) NSString *videoGravity;
-@property(nonatomic) _Bool wantsPlayerLayerLayout; // @synthesize wantsPlayerLayerLayout=_wantsPlayerLayerLayout;
 
 @end
 

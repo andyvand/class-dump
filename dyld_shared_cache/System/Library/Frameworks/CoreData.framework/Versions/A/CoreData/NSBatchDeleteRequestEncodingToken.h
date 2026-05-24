@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface NSBatchDeleteRequestEncodingToken
 {
     NSData *_fetchData;
-    long long _resultType;
-    _Bool _secure;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)C~;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSData *fetchData; // @synthesize fetchData=_fetchData;
-@property(readonly, nonatomic) long long resultType; // @synthesize resultType=_resultType;
-@property(readonly, nonatomic) _Bool secure; // @synthesize secure=_secure;
 
 @end
 

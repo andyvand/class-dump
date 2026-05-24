@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FUFlightView;
+
 @protocol FUFlightViewDelegate
+- (void)rationStart:(FUFlightView *)arg1 %u is larger than the segmentSize:(long long)arg2 %zu in segment:(long long)arg3 %{public}@;
 @end
 

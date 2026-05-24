@@ -5,6 +5,7 @@
 //
 
 @protocol NSTextAttachmentImageContainer
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly) _Bool willProvideAdaptedImageForPresentation;

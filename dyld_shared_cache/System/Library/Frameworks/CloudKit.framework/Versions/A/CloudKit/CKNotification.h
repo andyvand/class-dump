@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKNotificationID, CKRecordID, NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface CKNotification
 {
     _Bool _isPruned;
-    long long _notificationType;
-    CKNotificationID *_notificationID;
-    CKRecordID *_subscriptionOwnerUserRecordID;
-    NSString *_subscriptionID;
-    NSString *_alertBody;
-    NSString *_alertLocalizationKey;
-    NSArray *_alertLocalizationArgs;
-    NSString *_title;
-    NSString *_titleLocalizationKey;
-    NSArray *_titleLocalizationArgs;
-    NSString *_subtitle;
-    NSString *_subtitleLocalizationKey;
-    NSArray *_subtitleLocalizationArgs;
-    NSString *_alertActionLocalizationKey;
-    NSString *_alertLaunchImage;
-    NSNumber *_badge;
-    NSString *_soundName;
-    NSString *_category;
-    CKContainerID *_containerID;
-    NSString *_testServerName;
-    NSURL *_testServerURL;
-    NSString *_testDeviceID;
 }
 
 + (id);
@@ -46,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@iK;
 - (long long);
 - (_Bool);
 - (id);
@@ -54,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -64,31 +42,31 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)encodeObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
 - (id)0@ù
 × ;
-- (_Bool)stValues;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (_Bool)stringListValues;
+- (id)nameFromState: /* Error: Ran out of types for this method. */;
 - (void)\;
 - (void);
 - (void)sync due to hasPendingUntrackedChanges;
 - (id)container ID = "%@";
 - (id)-url;
-- (id)ons;
+- (id)deletions;
 - (void);
 - (id)bý;
 - (void);
@@ -97,30 +75,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alertActionLocalizationKey; // @synthesize alertActionLocalizationKey=_alertActionLocalizationKey;
 @property(copy, nonatomic) NSString *alertBody; // @synthesize alertBody=_alertBody;
-@property(copy, nonatomic) NSString *alertLaunchImage; // @synthesize alertLaunchImage=_alertLaunchImage;
-@property(copy, nonatomic) NSArray *alertLocalizationArgs; // @synthesize alertLocalizationArgs=_alertLocalizationArgs;
-@property(copy, nonatomic) NSString *alertLocalizationKey; // @synthesize alertLocalizationKey=_alertLocalizationKey;
-@property(copy, nonatomic) NSNumber *badge; // @synthesize badge=_badge;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(copy, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, copy, nonatomic) NSString *containerIdentifier;
-@property(nonatomic) _Bool isPruned; // @synthesize isPruned=_isPruned;
-@property(copy, nonatomic) CKNotificationID *notificationID; // @synthesize notificationID=_notificationID;
-@property(nonatomic) long long notificationType; // @synthesize notificationType=_notificationType;
-@property(copy, nonatomic) NSString *soundName; // @synthesize soundName=_soundName;
-@property(readonly, copy, nonatomic) NSString *subscriptionID; // @synthesize subscriptionID=_subscriptionID;
-@property(copy, nonatomic) CKRecordID *subscriptionOwnerUserRecordID; // @synthesize subscriptionOwnerUserRecordID=_subscriptionOwnerUserRecordID;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSArray *subtitleLocalizationArgs; // @synthesize subtitleLocalizationArgs=_subtitleLocalizationArgs;
-@property(copy, nonatomic) NSString *subtitleLocalizationKey; // @synthesize subtitleLocalizationKey=_subtitleLocalizationKey;
-@property(copy, nonatomic) NSString *testDeviceID; // @synthesize testDeviceID=_testDeviceID;
-@property(copy, nonatomic) NSString *testServerName; // @synthesize testServerName=_testServerName;
-@property(copy, nonatomic) NSURL *testServerURL; // @synthesize testServerURL=_testServerURL;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *titleLocalizationArgs; // @synthesize titleLocalizationArgs=_titleLocalizationArgs;
-@property(copy, nonatomic) NSString *titleLocalizationKey; // @synthesize titleLocalizationKey=_titleLocalizationKey;
 
 @end
 

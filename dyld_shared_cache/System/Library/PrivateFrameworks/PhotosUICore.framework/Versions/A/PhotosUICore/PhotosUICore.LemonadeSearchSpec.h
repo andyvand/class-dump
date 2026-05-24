@@ -7,15 +7,6 @@
 @interface PhotosUICore.LemonadeSearchSpec
 {
     id containerInfo;
-    id cellSpecs;
-    id zoomLevel;
-    id verticalMargin;
-    id __containerSafeAreaInsets;
-    id __containerSize;
-    id __horizontalSizeClass;
-    id __verticalSizeClass;
-    id __orientation;
-    id _$observationRegistrar;
 }
 
 @end

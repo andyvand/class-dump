@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface HMIPersonsModelSummary
 {
     _Bool _externalLibrary;
-    NSUUID *_sourceUUID;
-    NSDictionary *_faceCountsByPerson;
 }
 
 - (_Bool);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isExternalLibrary) _Bool externalLibrary; // @synthesize externalLibrary=_externalLibrary;
-@property(readonly) NSDictionary *faceCountsByPerson; // @synthesize faceCountsByPerson=_faceCountsByPerson;
 @property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

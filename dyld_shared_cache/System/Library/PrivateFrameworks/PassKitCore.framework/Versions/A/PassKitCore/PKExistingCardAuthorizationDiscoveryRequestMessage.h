@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKProvisioningContinuityDiscoveryRequestMessage.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PKExistingCardAuthorizationDiscoveryRequestMessage : PKProvisioningContinuityDiscoveryRequestMessage
 {
@@ -17,13 +17,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void)restAmount;
+- (id)@;
+- (_Bool)isAudioInterrupted;
+- (void)totalInterestAmount;
 - (id)¼~ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *groups;
 @property(readonly, nonatomic) NSDictionary *groupsBySessionIdentifier; // @synthesize groupsBySessionIdentifier=_groupsBySessionIdentifier;
 
 @end

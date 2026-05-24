@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSCountedSet, NSObject;
-@protocol OS_dispatch_queue, _DKSimpleKeyValueStore;
+@class NSCountedSet;
 
 @interface _DKActivityThrottler
 {
     NSCountedSet *_minimumIntervalScheduledActions;
-    NSCountedSet *_delayScheduledActions;
-    NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_storeQueue;
-    id <_DKSimpleKeyValueStore> _store;
 }
 
-- (id);
+- (id)$;
 - (void)0@ù
 × ;
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSUICommonDynamicNamedColor
 {
     NSColor *_darkColor;
-    NSColor *_darkHighContrastColor;
-    NSColor *_lightColor;
-    NSColor *_lightHighContrastColor;
 }
 
 - (id);
@@ -23,14 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void)eIndex: /* Error: Ran out of types for this method. */;
+- (id)_removedMediaSystemTimerManager;
+- (void)setPreviousPageIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSColor *darkColor; // @synthesize darkColor=_darkColor;
-@property(readonly) NSColor *darkHighContrastColor; // @synthesize darkHighContrastColor=_darkHighContrastColor;
-@property(readonly) NSColor *lightColor; // @synthesize lightColor=_lightColor;
-@property(readonly) NSColor *lightHighContrastColor; // @synthesize lightHighContrastColor=_lightHighContrastColor;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIActionSheetiOSDismissActionView, UIColor;
+@class UIActionSheetiOSDismissActionView;
 
 __attribute__((visibility("hidden")))
 @interface _UIActionSheetPresentationControllerVisualStyleiOS
@@ -12,27 +12,17 @@ __attribute__((visibility("hidden")))
     UIActionSheetiOSDismissActionView *_dismissActionView;
 }
 
-- (void);
+- (void)evalToggleiCloudSettingsSwitch;
 - (double);
 - (id);
-- (id);
+- (id)indexingDelegate;
 - (struct UIEdgeInsets);
-- (id);
+- (id);
 - (double)Q16;
 - (void)_;
 
 // Remaining properties
-@property(readonly) double cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) UIColor *dimmingViewColor;
 @property(retain, nonatomic) UIActionSheetiOSDismissActionView *dismissActionView; // @synthesize dismissActionView=_dismissActionView;
-@property(readonly) double dismissToContentSpacing;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

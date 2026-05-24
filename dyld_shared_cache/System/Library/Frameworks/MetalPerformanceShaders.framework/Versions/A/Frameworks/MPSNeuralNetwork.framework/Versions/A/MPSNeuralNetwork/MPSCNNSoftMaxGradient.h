@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id)bine_2dArray_2d_2d_float;
+- (unsigned long long)PMatrixSoftMax._sourceRows;
+- (id)MPSRNNImageCombine_2dArray_2d_2d_float;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface SiriInference.TrialAppRankerSELFConfigProvider
 {
     id namespace;
-    id trialClient;
-    id protectedConfig;
 }
 
 @end

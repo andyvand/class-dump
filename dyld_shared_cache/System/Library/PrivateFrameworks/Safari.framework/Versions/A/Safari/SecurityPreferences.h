@@ -6,20 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class NSButton, NSTextField, NSTimer, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface SecurityPreferences : PreferencesModule
 {
     _Bool _handlingChangedDefaults;
-    NSTimer *_statusUpdateTimer;
-    NSTextField *_websiteConnectionsPreferenceLabel;
-    NSButton *_useHTTPSOnlyCheckbox;
-    NSView *_mainContentView;
-    NSButton *_javaScriptEnabledCheckbox;
-    NSButton *_antiPhishingCheckbox;
-    NSTextField *_safeBrowsingExplanationLabel;
-    NSView *_safeBrowsingExplanationView;
 }
 
 - (void);
@@ -42,18 +34,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *antiPhishingCheckbox; // @synthesize antiPhishingCheckbox=_antiPhishingCheckbox;
-@property(nonatomic) __weak NSButton *javaScriptEnabledCheckbox; // @synthesize javaScriptEnabledCheckbox=_javaScriptEnabledCheckbox;
 @property(nonatomic) __weak NSView *mainContentView; // @synthesize mainContentView=_mainContentView;
-@property(nonatomic) __weak NSTextField *safeBrowsingExplanationLabel; // @synthesize safeBrowsingExplanationLabel=_safeBrowsingExplanationLabel;
-@property(nonatomic) __weak NSView *safeBrowsingExplanationView; // @synthesize safeBrowsingExplanationView=_safeBrowsingExplanationView;
 
 @end
 

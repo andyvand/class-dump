@@ -4,97 +4,66 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NTPBUserOnboardingResult
 {
     NSMutableArray *_channelIds;
-    NSString *_onboardAbandonStage;
-    int _resultType;
-    NSMutableArray *_topicIds;
-    int _totalChannelSelections;
-    int _totalResets;
-    int _totalTopicSelections;
-    _Bool _icloudAccountMatch;
-    _Bool _sawEmailOptIn;
-    struct {
-        unsigned int resultType:1;
-        unsigned int totalChannelSelections:1;
-        unsigned int totalResets:1;
-        unsigned int totalTopicSelections:1;
-        unsigned int icloudAccountMatch:1;
-        unsigned int sawEmailOptIn:1;
-    } _has;
 }
 
-+ (Class);
-+ (Class);
-- (int);
-- (int);
-- (int);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
++ (Class)assetCollectionActionPerformerDelegate;
++ (Class)_ppt_delay;
+- (int)initWithUseWLAN:networkType:assetCount:deviceModel: /* Error: Ran out of types for this method. */;
+- (int)initWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (int)initWithUnsignedInteger: /* Error: Ran out of types for this method. */;
+- (unsigned long long):pixelWidth:pixelHeight:duration:hdrGain:focalLength:focalLengthIn35mm:photoIrisStillDisplayTime:photoIrisVideoDuration:localizedGeoDescription:creationDate: /* Error: Ran out of types for this method. */;
+- (void)initWithSearchTerm:(int)arg1;
+- (void)initWithScrollViewController:(int)arg1 photoLibrary:traitCollection:tilingControllerConfigurationBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithOids:(_Bool)arg1 photoLibrary:fetchType:fetchPropertySets:identifier:registerIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)geConfiguration:(id)arg1 inBundle: /* Error: Ran out of types for this method. */;
+- (void)initWithCuratedAssets:(_Bool)arg1 assetCollection: /* Error: Ran out of types for this method. */;
+- (void)initWithCompositionController:(_Bool)arg1;
+- (void)initWithComposition:(_Bool)arg1 startTime:pointToTrack: /* Error: Ran out of types for this method. */;
+- (void)initWithComposition:(_Bool)arg1;
+- (void)initWithAssetCollectionBySection:(_Bool)arg1 assetsBySection:curatedAssetsBySection:keyAssetsBySection:sectionContent: /* Error: Ran out of types for this method. */;
+- (void)imageRenderRequestWithComposition:(_Bool)arg1 fillInSize:wideGamut: /* Error: Ran out of types for this method. */;
+- (void)frameFor:(id)arg1 outMinPlayableSize: /* Error: Ran out of types for this method. */;
+- (_Bool)firstFeedEntryHeaderHeight;
+- (id)fetchMomentsForAssetsWithOIDs:options: /* Error: Ran out of types for this method. */;
+- (_Bool)featureWeightVectors;
+- (_Bool)exportCompositionController:forContentEditingOutput:settings:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)exportCPAnalyticsIntervalName;
+- (_Bool)exportAssetsInContainer:configuration:progress:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)enumerateAssetsSectionSublayoutsInRect:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)enableBatchedSearchResults;
+- (_Bool)dismissalTransition;
+- (void)currentExitingDataSourceManagerForPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (id)curatedLibraryActionPerformer:libraryFilterStateChanged: /* Error: Ran out of types for this method. */;
+- (id)curatedLibraryActionPerformer:(unsigned long long)arg1 contentFilterStateChanged: /* Error: Ran out of types for this method. */;
+- (void)createInitialDataSource;
+- (void)cplUIStatusProvider;
+- (void)countAfterChanges;
+- (id)contentSyndicationConfigurationProvider;
+- (void)constraintEqualToConstant: /* Error: Ran out of types for this method. */;
+- (unsigned long long)constraintEqualToAnchor:multiplier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void)|;
+- (_Bool)J;
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ect<OS_dispatch_queue>"32@?<v@?>40;
+- (_Bool)rrors:(id)arg1 %@;
 - (void);
-- (_Bool);
+- (_Bool)eneration failed with error:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)_accessibilityFindSubviewDescendantsPassingTest: /* Error: Ran out of types for this method. */;
 - (void)NTPBSearchBegin";
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *channelIds; // @synthesize channelIds=_channelIds;
-@property(nonatomic) _Bool hasIcloudAccountMatch;
-@property(readonly, nonatomic) _Bool hasOnboardAbandonStage;
 @property(nonatomic) _Bool hasResultType;
-@property(nonatomic) _Bool hasSawEmailOptIn;
-@property(nonatomic) _Bool hasTotalChannelSelections;
-@property(nonatomic) _Bool hasTotalResets;
-@property(nonatomic) _Bool hasTotalTopicSelections;
-@property(nonatomic) _Bool icloudAccountMatch; // @synthesize icloudAccountMatch=_icloudAccountMatch;
-@property(retain, nonatomic) NSString *onboardAbandonStage; // @synthesize onboardAbandonStage=_onboardAbandonStage;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
-@property(nonatomic) _Bool sawEmailOptIn; // @synthesize sawEmailOptIn=_sawEmailOptIn;
-@property(retain, nonatomic) NSMutableArray *topicIds; // @synthesize topicIds=_topicIds;
-@property(nonatomic) int totalChannelSelections; // @synthesize totalChannelSelections=_totalChannelSelections;
-@property(nonatomic) int totalResets; // @synthesize totalResets=_totalResets;
-@property(nonatomic) int totalTopicSelections; // @synthesize totalTopicSelections=_totalTopicSelections;
 
 @end
 

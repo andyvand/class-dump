@@ -11,12 +11,11 @@
 @interface ChatKit.TapbackPickerCancelButtonView : ChatKit.TapbackPickerButtonView
 {
     id delegate;
-    UIHoverGestureRecognizer *hoverRecognizer;
 }
 
-- (void);
+- (void)i;
 - (id);
-- (_Bool)endererViewDidBegin:(struct CGPoint)arg1;
+- (_Bool)popRendererViewDidBegin:(struct CGPoint)arg1;
 - (void);
 
 // Remaining properties

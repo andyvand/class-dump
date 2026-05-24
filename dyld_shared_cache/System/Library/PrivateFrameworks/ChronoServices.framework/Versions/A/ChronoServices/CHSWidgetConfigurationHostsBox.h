@@ -11,7 +11,7 @@
     NSDictionary *_configurationsByHost;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (id);
 - (id);

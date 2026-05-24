@@ -5,5 +5,10 @@
 //
 
 @protocol ILCConnectionDelegate
+- (void)	;
+
+@optional
+- (void);
+- (void);
 @end
 

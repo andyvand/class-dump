@@ -5,9 +5,10 @@
 //
 
 @protocol NSCollectionLayoutEnvironment_Private
+- (long long);
+- (_Bool)r the font could not be downloaded.;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _sectionIndex;
-@property(readonly, nonatomic) _Bool _wantsCollapsedTopSpacing;
 @end
 

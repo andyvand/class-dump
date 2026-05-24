@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UINSSceneSizeRestrictions;
+
 @protocol UINSSceneUtilities
+- (id <UINSSceneSizeRestrictions>);
+- (_Bool);
+- (unsigned long long);
+- (void)T;
+- (_Bool)6;
 @end
 

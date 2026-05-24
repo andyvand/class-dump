@@ -5,5 +5,6 @@
 //
 
 @protocol HIDPreferencesProtocol
+- (void);
 @end
 

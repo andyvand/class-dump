@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SAAnswerSocialComment : AceObject
 {
@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -25,15 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *author;
-@property(copy, nonatomic) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

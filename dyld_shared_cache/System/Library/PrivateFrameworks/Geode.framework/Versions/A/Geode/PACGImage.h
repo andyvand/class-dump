@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, PACGImageMetadata;
-
 @interface PACGImage
 {
     struct CGImage *_CGImageRef;
-    long long _orientation;
-    PACGImageMetadata *_metadata;
-    struct CGRect _logicalExtent;
 }
 
 + (id);
@@ -28,24 +23,15 @@
 - (struct CGColorSpace *);
 - (struct CGSize);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGRect);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly) struct CGImage *CGImageRef; // @synthesize CGImageRef=_CGImageRef;
-@property(readonly) struct CGRect bounds;
-@property(readonly) IPAColorProfile *colorProfile;
-@property(readonly) struct CGColorSpace *colorSpace;
-@property(readonly) unsigned long long height;
-@property(readonly) struct CGRect logicalExtent; // @synthesize logicalExtent=_logicalExtent;
-@property(retain) PACGImageMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly) struct CGSize size;
-@property(readonly) unsigned long long width;
 
 @end
 

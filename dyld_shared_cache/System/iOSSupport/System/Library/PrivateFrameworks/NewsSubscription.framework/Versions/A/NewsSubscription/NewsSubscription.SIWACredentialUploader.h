@@ -7,7 +7,6 @@
 @interface NewsSubscription.SIWACredentialUploader
 {
     id uploadService;
-    id database;
 }
 
 @end

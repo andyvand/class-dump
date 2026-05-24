@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNInboxNotificationMonitor, CALNNotificationServer, CALNNotificationSourceRefresher, CALNNotificationStorageWrapper, CALNSchedulingSnoozeUpdateTimer, CALNTriggeredEmailHandler, CALNTriggeredEventNotificationSource, CALNTriggeredURLHandler, CALNUNIconProvider, EKEphemeralCacheEventStoreProvider, EKEventStore, NSArray, NSString;
+@class CALNInboxNotificationMonitor, EKEphemeralCacheEventStoreProvider;
 
 @interface CALNNotificationServerModule
 {
     EKEphemeralCacheEventStoreProvider *_eventStoreProvider;
-    EKEventStore *_lastCreatedEventStore;
-    CALNInboxNotificationMonitor *_inboxNotificationMonitor;
-    CALNTriggeredEmailHandler *_triggeredEmailHandler;
-    CALNTriggeredURLHandler *_triggeredURLHandler;
-    CALNNotificationServer *_calendarNotificationServer;
-    CALNNotificationSourceRefresher *_notificationSourceRefresher;
-    CALNNotificationStorageWrapper *_calendarStorageWrapper;
-    CALNTriggeredEventNotificationSource *_triggeredEventNotificationSource;
-    CALNUNIconProvider *_iconProvider;
-    CALNSchedulingSnoozeUpdateTimer *_snoozeUpdateTimer;
-    NSArray *_modules;
 }
 
 + (id);
 + (void);
 + (id);
 + (id);
++ (id)T;
++ (id);
++ (id);
++ (void);
 + (id);
 + (id);
 + (id);
@@ -33,15 +26,11 @@
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)T?;
 - (id);
 - (id);
 - (void);
@@ -52,14 +41,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)AXLogColorizer;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)STKEventType::kSTK__MenuNotification /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -70,23 +59,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CALNNotificationServer *calendarNotificationServer; // @synthesize calendarNotificationServer=_calendarNotificationServer;
-@property(readonly, nonatomic) CALNNotificationStorageWrapper *calendarStorageWrapper; // @synthesize calendarStorageWrapper=_calendarStorageWrapper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CALNUNIconProvider *iconProvider; // @synthesize iconProvider=_iconProvider;
 @property(readonly, nonatomic) CALNInboxNotificationMonitor *inboxNotificationMonitor; // @synthesize inboxNotificationMonitor=_inboxNotificationMonitor;
-@property(readonly, nonatomic) NSArray *modules; // @synthesize modules=_modules;
-@property(readonly, nonatomic) CALNNotificationSourceRefresher *notificationSourceRefresher; // @synthesize notificationSourceRefresher=_notificationSourceRefresher;
-@property(readonly, nonatomic) CALNSchedulingSnoozeUpdateTimer *snoozeUpdateTimer; // @synthesize snoozeUpdateTimer=_snoozeUpdateTimer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CALNTriggeredEmailHandler *triggeredEmailHandler; // @synthesize triggeredEmailHandler=_triggeredEmailHandler;
-@property(readonly, nonatomic) CALNTriggeredEventNotificationSource *triggeredEventNotificationSource; // @synthesize triggeredEventNotificationSource=_triggeredEventNotificationSource;
-@property(readonly, nonatomic) CALNTriggeredURLHandler *triggeredURLHandler; // @synthesize triggeredURLHandler=_triggeredURLHandler;
 
 @end
 

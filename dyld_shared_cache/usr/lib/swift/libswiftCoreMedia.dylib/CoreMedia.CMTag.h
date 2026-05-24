@@ -7,7 +7,6 @@
 @interface CoreMedia.CMTag
 {
     id rawCategory;
-    id rawTagValue;
 }
 
 @end

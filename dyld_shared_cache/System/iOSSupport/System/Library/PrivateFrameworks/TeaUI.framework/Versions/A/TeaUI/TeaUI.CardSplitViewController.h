@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIViewController;
+@class NSArray;
 
 @interface TeaUI.CardSplitViewController
 {
     id primaryCardContainerController;
-    id commands;
-    id preservedItems;
-    id eventManager;
-    id splitViewFocus;
 }
 
 - (void);
@@ -28,8 +24,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)annelIds;
+- (void)_;
 - (void);
 - (id);
 - (void);
@@ -42,10 +38,7 @@
 - (void)¹½TlËÿÉ½¤FËÿÉ½ÀlËÿÉ½¬lËÿé½FËÿ½FËÿ½`lËÿi½lËÿ¹½FËÿI½lËÿI½(FËÿ½|lËÿÉ½TlËÿ½,lËÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 @property(nonatomic, readonly) NSArray *keyCommands;
-@property(nonatomic, copy) NSArray *viewControllers;
 
 @end
 

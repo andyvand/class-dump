@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDEventTrigger, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDEventTriggerSession
 {
     NSUUID *_sessionID;
-    NSString *_logString;
-    HMFMessageDispatcher *_msgDispatcher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDEventTrigger *_eventTrigger;
-    NSUUID *_eventTriggerUUID;
-    HMDDevice *_currentDevice;
 }
 
 + (id)ÂB;
@@ -26,42 +19,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)X-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/common/RSAKeyPair.m;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)ß°!Cùð1Â0@ù
 × ;
-- (id)eSiriHistoryRequestMessage: /* Error: Ran out of types for this method. */;
-- (id)on;
+- (id)handleSiriEndpointDeleteSiriHistoryRequestMessage: /* Error: Ran out of types for this method. */;
+- (id)_catDescription;
 - (id)cellular or wifi data connectivity;
 - (void)ow;
 - (void);
 - (id)ÄtÔ@;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDevice *currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak HMDEventTrigger *eventTrigger; // @synthesize eventTrigger=_eventTrigger;
-@property(readonly, nonatomic) NSUUID *eventTriggerUUID; // @synthesize eventTriggerUUID=_eventTriggerUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logString; // @synthesize logString=_logString;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
 @property(readonly, nonatomic) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

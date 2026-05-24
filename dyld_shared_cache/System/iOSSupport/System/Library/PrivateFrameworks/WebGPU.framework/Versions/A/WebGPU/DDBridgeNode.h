@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDBridgeBuiltin, DDBridgeConstantContainer;
+@class DDBridgeBuiltin;
 
 @interface DDBridgeNode
 {
     long long bridgeNodeType;
     DDBridgeBuiltin *builtin;
-    DDBridgeConstantContainer *constant;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)Parameter Summary);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long bridgeNodeType; // @synthesize bridgeNodeType;
 @property(nonatomic, readonly) DDBridgeBuiltin *builtin; // @synthesize builtin;
-@property(nonatomic, readonly) DDBridgeConstantContainer *constant; // @synthesize constant;
 
 @end
 

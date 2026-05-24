@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccountRepository, NSDistributedNotificationCenter, NSNotificationCenter;
-@protocol CNScheduler;
+@class ABAccountRepository;
 
 @interface ABDataSourceExternalNotificationObserver
 {
     ABAccountRepository *_repository;
-    NSDistributedNotificationCenter *_distributedNotificationCenter;
-    NSNotificationCenter *_localNotificationCenter;
-    id <CNScheduler> _preprocessingScheduler;
-    int _sessionChangedToken;
-    int _session;
-    int _user;
 }
 
 + (_Bool);
@@ -56,13 +49,7 @@
 - (void)0;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDistributedNotificationCenter *distributedNotificationCenter; // @synthesize distributedNotificationCenter=_distributedNotificationCenter;
-@property(readonly, nonatomic) NSNotificationCenter *localNotificationCenter; // @synthesize localNotificationCenter=_localNotificationCenter;
-@property(readonly, nonatomic) id <CNScheduler> preprocessingScheduler; // @synthesize preprocessingScheduler=_preprocessingScheduler;
 @property(readonly, nonatomic) ABAccountRepository *repository; // @synthesize repository=_repository;
-@property(nonatomic) int session; // @synthesize session=_session;
-@property(readonly, nonatomic) int sessionChangedToken; // @synthesize sessionChangedToken=_sessionChangedToken;
-@property(nonatomic) int user; // @synthesize user=_user;
 
 @end
 

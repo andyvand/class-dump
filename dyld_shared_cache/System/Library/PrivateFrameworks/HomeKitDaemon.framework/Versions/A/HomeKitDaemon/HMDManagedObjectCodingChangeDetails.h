@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDManagedObjectCodingChangeDetails
 {
     NSMutableSet *_changedAttributeKeys;
-    NSMutableSet *_changedRelationshipKeys;
 }
 
-- (void)onfiguration;
+- (void)mediaOnlyConfiguration;
 
 @end
 

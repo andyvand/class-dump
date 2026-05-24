@@ -9,35 +9,29 @@
 @interface GEODurationInNavigationMode
 {
     PBUnknownFields *_unknownFields;
-    double _duration;
-    int _type;
-    struct {
-        unsigned int has_duration:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool)ex:(id)arg1;
++ (_Bool)setHasProblematicDepartureSequenceIndex:(id)arg1;
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)shadowMicScoreThresholdForVAD;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
-- (int);
+- (int)attributedStringWithFormat:displayName:logo:isSnippetLogo: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id)ectedLocationTimestamp:(struct _NSZone *)arg1;
-- (_Bool);
-- (void):(int)arg1;
-- (id)gory;
+- (id)setHasLastDetectedLocationTimestamp:(struct _NSZone *)arg1;
+- (_Bool)_searchImplicitType;
+- (void)setAddressUnit:(int)arg1;
+- (id)GEOPDCategory;
 - (int)aTask;
-- (id)StateReason_NEED_LOCATION_PERMISSIONS;
+- (id)VLFARGeoTrackingStateReason_NEED_LOCATION_PERMISSIONS;
 - (id)°;
 - (void)Oèõ'ñÖP@;
 - (id);
@@ -46,11 +40,7 @@
 - (void)|í×þ2À­;
 
 // Remaining properties
-@property(nonatomic) double duration;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

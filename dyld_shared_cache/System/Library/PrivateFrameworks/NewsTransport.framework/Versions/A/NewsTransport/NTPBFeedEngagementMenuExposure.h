@@ -9,56 +9,39 @@
 @interface NTPBFeedEngagementMenuExposure
 {
     NSString *_articleId;
-    NSString *_feedId;
-    int _feedMenuType;
-    int _feedType;
-    NSString *_referencedArticleId;
-    struct {
-        unsigned int feedMenuType:1;
-        unsigned int feedType:1;
-    } _has;
 }
 
+- (void)curatedLibraryActionPerformer:(id)arg1 showFilterPopoverWithInsets: /* Error: Ran out of types for this method. */;
+- (void)changeDetailsForChildDataSectionManagersChangeDetails:(_Bool)arg1;
+- (void)blurredBackgroundInitialOpacityMac;
+- (id);
+- (_Bool)addItemWithTitle:systemImageName:state:options:handler: /* Error: Ran out of types for this method. */;
+- (_Bool)_videoHighlightCompositionTrackB;
+- (id)_updatePrimaryTitleOutput;
+- (int)_updatePresentationControllerState;
+- (void)_timeIntervalFirstEnteredCollection;
+- (_Bool)_textInsets;
+- (int)_targetCinematographyState;
 - (void);
-- (void);
-- (void);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (_Bool);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)NSt3__110__function6__baseIFbRN15InputTranscoder14KeyboardLayoutEEEE;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)es.;
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (int);
-- (void)PointExposureLocation;
+- (void)paidSubscriptionConversionPointExposureLocation;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSString *feedId; // @synthesize feedId=_feedId;
-@property(nonatomic) int feedMenuType; // @synthesize feedMenuType=_feedMenuType;
-@property(nonatomic) int feedType; // @synthesize feedType=_feedType;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(readonly, nonatomic) _Bool hasFeedId;
-@property(nonatomic) _Bool hasFeedMenuType;
 @property(nonatomic) _Bool hasFeedType;
-@property(readonly, nonatomic) _Bool hasReferencedArticleId;
-@property(retain, nonatomic) NSString *referencedArticleId; // @synthesize referencedArticleId=_referencedArticleId;
 
 @end
 

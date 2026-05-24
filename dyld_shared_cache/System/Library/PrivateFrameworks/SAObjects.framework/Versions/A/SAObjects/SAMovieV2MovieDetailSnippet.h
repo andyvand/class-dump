@@ -6,52 +6,47 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSDate, NSNumber, NSString, NSURL, SAMovieV2ReviewListSnippet, SAMovieV2ShowtimeSnippet, SAMovieV2TheaterShowtimeListSnippet, SAUIAppPunchOut;
+@class NSArray;
 
 @interface SAMovieV2MovieDetailSnippet : SAUISnippet
 {
 }
 
++ (id)$;
 + (id);
-+ (id);
+- (id);
+- (id)L;
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_;
+- (void)bb;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -61,6 +56,11 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -73,41 +73,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%llu
+;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actors;
-@property(copy, nonatomic) NSString *adamId;
-@property(copy, nonatomic) NSArray *alternateProviderPunchouts;
-@property(copy, nonatomic) NSNumber *availableOnItunesForPurchase;
-@property(copy, nonatomic) NSNumber *availableOnItunesForRent;
-@property(nonatomic) _Bool canBeFavorited;
-@property(copy, nonatomic) NSString *canonicalId;
-@property(copy, nonatomic) NSArray *directors;
-@property(copy, nonatomic) NSArray *genres;
-@property(copy, nonatomic) NSURL *hiresTrailerUri;
-@property(copy, nonatomic) NSURL *iTunesUri;
-@property(nonatomic) _Bool is3d;
-@property(nonatomic) _Bool isContainerItem;
-@property(copy, nonatomic) NSURL *lowresTrailerUri;
-@property(copy, nonatomic) NSURL *movieIdentifier;
-@property(retain, nonatomic) SAMovieV2ReviewListSnippet *movieReviewListSnippet;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SAUIAppPunchOut *playOnItunesPunchout;
-@property(copy, nonatomic) NSNumber *playTrailer;
-@property(copy, nonatomic) NSArray *posterImages;
-@property(copy, nonatomic) NSNumber *qualityRating;
-@property(copy, nonatomic) NSString *rating;
-@property(nonatomic) long long runtimeInMinutes;
-@property(retain, nonatomic) SAMovieV2ShowtimeSnippet *showtimeSnippet;
-@property(copy, nonatomic) NSArray *studios;
-@property(copy, nonatomic) NSString *synopsis;
-@property(retain, nonatomic) SAMovieV2TheaterShowtimeListSnippet *theaterShowtimeListSnippet;
-@property(copy, nonatomic) NSString *theaterShowtimeSearchRegionDescription;
-@property(copy, nonatomic) NSDate *theatricalReleaseDate;
-@property(retain, nonatomic) SAUIAppPunchOut *videosPunchout;
 
 @end
 

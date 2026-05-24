@@ -7,22 +7,10 @@
 @interface PFDatabaseHangDetector
 {
     id signpost;
-    id context;
-    id label;
-    id pingInterval;
-    id shortHangDuration;
-    id severeHangDuration;
-    id criticalHangDuration;
-    id criticalHangRepeatInterval;
-    id lock;
-    id status;
-    id multiTimer;
-    id pingTimer;
-    id loggedFault;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)OUy_H%USo17OS_dispatch_queueCGSdGGG;

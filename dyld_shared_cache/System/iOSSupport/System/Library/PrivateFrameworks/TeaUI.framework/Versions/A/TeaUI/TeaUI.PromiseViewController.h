@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class NSString;
 
 @interface TeaUI.PromiseViewController
 {
     id identifier;
-    id indicatorLoadingCoverStyler;
-    id parentingCompleteClosure;
-    id parentingErrorClosure;
-    id promise;
-    id contentViewController;
-    id coverViewManager;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)ySize;
 - (void);
 - (void);
 - (id);
@@ -29,10 +23,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long preferredStatusBarStyle;
 
 @end
 

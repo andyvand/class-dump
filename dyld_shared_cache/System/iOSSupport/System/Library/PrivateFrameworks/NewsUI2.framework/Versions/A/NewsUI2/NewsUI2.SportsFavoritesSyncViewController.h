@@ -7,12 +7,6 @@
 @interface NewsUI2.SportsFavoritesSyncViewController
 {
     id styler;
-    id eventHandler;
-    id app;
-    id imageView;
-    id confirmationButton;
-    id deferButton;
-    id conclusion;
 }
 
 - (void);

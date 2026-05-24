@@ -4,27 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSPredicate, NSUUID;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDNameValidator
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_namespaceList;
-    NSUUID *_homeManagerUUID;
-    NSPredicate *_nonZeroLengthPredicate;
 }
 
 + (id);
 + (id);
 + (id);
+- (id)eB;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)qa;
+- (id)ficient for the current session;
+- (id)smoothstep(0.0, 0.2, abs(CrRef-CrGuide));
+float chDiff = smoothstep(0.0,0.3,crDiff+cbDiff);
+float weight1 = (1.0-smoothstep(threshold.x,threshold.y,mask));
+weight *= weight1 * (1.0-chDiff);
+vec4 value = mix(ref, (0.9*(guide-guideBlur)+refBlur), weight);
+return value;
+}
+
+;
 - (id);
 - (void);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -32,12 +38,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)onds;
-- (id)onOfTypeBulletinRegistrationWithModelID:(id)arg1 createdNew: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)residentDeviceManagerBlockPrimaryTakeoverDurationSeconds;
+- (id)materializeOrCreateBulletinRegistrationsRelationOfTypeBulletinRegistrationWithModelID:(id)arg1 createdNew: /* Error: Ran out of types for this method. */;
 - (id)Td,R,N,V_durationForFirstUpdate;
-- (void)ject;
+- (void)subject;
 - (id)essage;
 - (id)e;
 - (id)g message, %@, client is missing the following entitlements:(id)arg1 %@;
@@ -48,9 +53,7 @@ __attribute__((visibility("hidden")))
 - (id)C­ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *homeManagerUUID; // @synthesize homeManagerUUID=_homeManagerUUID;
 @property(retain, nonatomic) NSMutableDictionary *namespaceList; // @synthesize namespaceList=_namespaceList;
-@property(retain, nonatomic) NSPredicate *nonZeroLengthPredicate; // @synthesize nonZeroLengthPredicate=_nonZeroLengthPredicate;
 
 @end
 

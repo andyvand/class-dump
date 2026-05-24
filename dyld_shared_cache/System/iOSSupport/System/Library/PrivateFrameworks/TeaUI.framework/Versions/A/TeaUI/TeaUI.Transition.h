@@ -7,14 +7,11 @@
 @interface TeaUI.Transition
 {
     id interactiveTransition;
-    id presentationTransitionFactory;
-    id dismissalTransitionFactory;
-    id presentationControllerFactory;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)2;
 - (id);
 - (id)Ð!Ü@ùz	Ð1Â0@ù
 × ;

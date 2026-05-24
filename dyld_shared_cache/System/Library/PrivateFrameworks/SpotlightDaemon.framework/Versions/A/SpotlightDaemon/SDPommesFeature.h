@@ -8,21 +8,21 @@
 {
 }
 
++ (_Bool)n:(id)arg1;
++ (_Bool)handleCHIPSendRemoteRequestMessage:(id)arg1 chipAccessoryServer:(id)arg2;
++ (_Bool)handleAssistantAccessControlUpdate:(id)arg1;
++ (_Bool):(id)arg1 completion: /* Error: Ran out of types for this method. */;
++ (_Bool)tionsEnabledForPersonalRequests:(id)arg1 completion: /* Error: Ran out of types for this method. */;
++ (_Bool)SecureRequests:(id)arg1 activityNotificationsEnabledForPersonalRequests:completion: /* Error: Ran out of types for this method. */;
++ (id)handleAccessorySupportsNaturalLightingDidChangeNotification: /* Error: Ran out of types for this method. */;
++ (id)handleAccessorySettingsUpdateRequestMessage: /* Error: Ran out of types for this method. */;
++ (id)handleAccessorySettingsFetchRequestMessage: /* Error: Ran out of types for this method. */;
++ (_Bool)handleAccessoryFirmwareVersionUpdated:(id)arg1;
++ (_Bool)handleAccessoryDisconnected:(id)arg1;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)Y;
 + (_Bool);
 + (_Bool);
 

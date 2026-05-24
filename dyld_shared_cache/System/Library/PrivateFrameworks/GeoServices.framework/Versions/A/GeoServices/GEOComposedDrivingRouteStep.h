@@ -14,11 +14,11 @@
 }
 
 + (_Bool)normally.;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_cn_whitespaceExceptAscii32CharacterSet;
+- (id)_cn_truncateAtLength:(id)arg1 addEllipsisIfTrunctated:(id)arg2;
+- (id)CNPostalAddressValues;
+- (id)";
+- (id);
 - (void);
 - (void)Øþ;
 

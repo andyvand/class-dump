@@ -7,8 +7,6 @@
 @interface NewsPersonalization.ComputeServiceRefreshBackgroundWorker
 {
     id appConfigManager;
-    id computeService;
-    id refreshDeduper;
 }
 
 @end

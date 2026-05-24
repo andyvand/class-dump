@@ -6,34 +6,26 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface WFFollowUpActionExecutionDialogRequest : WFDialogRequest
 {
     NSString *_actionIdentifier;
-    NSString *_bundleIdentifier;
-    NSDictionary *_parameterValues;
-    unsigned long long _showOutputActionOptions;
-    NSData *_encodedToolInvocation;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)G3|;
+- (id);
+- (id);p;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)aymentPass";
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSData *encodedToolInvocation; // @synthesize encodedToolInvocation=_encodedToolInvocation;
-@property(readonly, nonatomic) NSDictionary *parameterValues; // @synthesize parameterValues=_parameterValues;
-@property(readonly, nonatomic) unsigned long long showOutputActionOptions; // @synthesize showOutputActionOptions=_showOutputActionOptions;
 
 @end
 

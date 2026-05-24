@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)__Key_lemonadeShelvesDisplayState;
 - (void);
 - (id);
 - (void);

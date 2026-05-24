@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICAttachmentModel.h>
 
-@class ICAccount, NSURL;
+@class ICAccount;
 
 @interface ICAttachmentPaperBundleModel : ICAttachmentModel
 {
@@ -16,15 +16,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ICAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSURL *paperBundleAssetsSubdirectoryURL;
-@property(readonly, nonatomic) NSURL *paperBundleDatabaseSubdirectoryURL;
-@property(readonly, nonatomic) NSURL *paperBundleURL;
-@property(readonly, nonatomic) NSURL *paperCoherenceContextURL;
-@property(nonatomic) _Bool paperHasEnhancedCanvas;
-@property(nonatomic) _Bool paperHasMath;
-@property(nonatomic) _Bool paperHasNewInks2022;
-@property(nonatomic) _Bool paperHasNewInks2023;
-@property(nonatomic) _Bool paperHasNewInks2025;
-@property(nonatomic) _Bool paperHasNewInksSpring2024;
 @end
 

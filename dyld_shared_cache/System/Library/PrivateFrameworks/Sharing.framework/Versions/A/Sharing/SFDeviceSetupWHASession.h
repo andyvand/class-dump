@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SFDevice, SFDeviceOperationCDPSetup, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceSetupWHASession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    SFSession *_sfSession;
-    int _sfSessionState;
-    _Bool _sessionSecured;
-    int _pairVerifyState;
-    int _pairSetupState;
-    int _infoExchangeState;
-    unsigned long long _peerFeatureFlags;
-    unsigned long long _peerProblemsFlags;
-    _Bool _cdpEnabled;
-    SFDeviceOperationCDPSetup *_cdpSetupOperation;
-    double _cdpSetupSecs;
-    int _cdpState;
-    int _finishState;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    SFDevice *_peerDevice;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _promptForHomeHandler;
-    CDUnknownBlockType _promptForPINHandler;
-    CDUnknownBlockType _promptForRoomHandler;
 }
 
 - (void);
@@ -43,15 +23,15 @@
 - (int);
 - (int);
 - (void);
-- (int);
-- (int);
-- (void);
-- (void);
+- (int);
 - (int);
 - (void);
 - (void);
+- (int);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id)@�;
 - (id);
 - (void);
 - (void);
@@ -68,11 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForHomeHandler; // @synthesize promptForHomeHandler=_promptForHomeHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForRoomHandler; // @synthesize promptForRoomHandler=_promptForRoomHandler;
 
 @end
 

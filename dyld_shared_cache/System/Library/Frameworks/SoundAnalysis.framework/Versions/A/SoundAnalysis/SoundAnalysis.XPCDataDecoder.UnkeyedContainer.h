@@ -7,7 +7,6 @@
 @interface SoundAnalysis.XPCDataDecoder.UnkeyedContainer
 {
     id encoded;
-    id nextIndex;
 }
 
 @end

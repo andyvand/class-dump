@@ -12,7 +12,7 @@
 
 - (id);
 - (long long);
-- (id);
+- (id)removeEntriesForKeyStrings:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)PGInvariantPetMemoryNodeFeatureExtractor;
 
 @end

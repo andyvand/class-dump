@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)nning'";
 - (void)24@0:(id)arg1 8@"NSURL"16;
 - (id)[ºK0;
 

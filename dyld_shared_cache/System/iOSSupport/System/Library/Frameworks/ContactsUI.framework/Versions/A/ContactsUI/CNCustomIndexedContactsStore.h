@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)nsDisabled;
+- (void)_buttonsDisabled;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filterString; // @synthesize filterString=_filterString;

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol ECMessageBodyStringAccumulator;
+
 @protocol ECMessageBodyConsumableInnerTextNode
+- (NSArray *)cCatalyst. Calling client completion handler with playback state:(id <ECMessageBodyStringAccumulator>)arg1 %@;
 @end
 

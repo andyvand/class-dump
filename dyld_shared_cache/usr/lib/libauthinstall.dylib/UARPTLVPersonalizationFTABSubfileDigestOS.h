@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)stackLayoutNeedsUpdate;
 - (void);
-- (id);
+- (id)UpdaterName;
 
 // Remaining properties
 @property(readonly) NSData *digest; // @synthesize digest=_digest;

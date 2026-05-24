@@ -5,5 +5,9 @@
 //
 
 @protocol IDSGroupSessionDelegate
+
+@optional
+- (void)-;
+- (void);
 @end
 

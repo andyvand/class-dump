@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarListItem
 {
     _Bool _isPlaceholder;
-    UITab *_tabForSelection;
-    UITab *_contentTab;
 }
 
 + (id);
-- (void);
-- (id);
+- (void)tring"40@"NSString"48;
+- (id)sRecovered;
 - (id);
 - (unsigned long long);
-- (_Bool)raits;
-- (id)x;
+- (_Bool)symbolicTraits;
+- (id)subrangeIndex;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UITab *contentTab; // @synthesize contentTab=_contentTab;
-@property(readonly, nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
 @property(readonly, nonatomic) UITab *tabForSelection; // @synthesize tabForSelection=_tabForSelection;
 
 @end

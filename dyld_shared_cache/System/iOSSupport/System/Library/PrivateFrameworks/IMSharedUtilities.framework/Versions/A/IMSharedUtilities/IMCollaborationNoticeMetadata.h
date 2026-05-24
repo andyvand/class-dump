@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString, NSURL, UTType;
-
 @interface IMCollaborationNoticeMetadata
 {
     long long _type;
-    NSString *_bundleIdentifier;
-    NSURL *_contentURL;
-    NSString *_contentTitle;
-    UTType *_contentType;
-    NSString *_messageGUID;
-    NSSet *_targetChatGUIDs;
-    NSNumber *_typeNumber;
 }
 
 + (id);
@@ -34,27 +25,20 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void):(id)arg1;
-- (id)arizationModelsAvailable;
+- (void)unreadReport:(id)arg1 satisfiesFilterMode: /* Error: Ran out of types for this method. */;
+- (id)summarizationModelsAvailable;
 - (id)_resource;
 - (void);
-- (void)ContentConfigurationKey;
+- (void)kIMCNContactSensitiveContentConfigurationKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSString *contentTitle; // @synthesize contentTitle=_contentTitle;
-@property(retain, nonatomic) UTType *contentType; // @synthesize contentType=_contentType;
-@property(retain, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(retain, nonatomic) NSSet *targetChatGUIDs; // @synthesize targetChatGUIDs=_targetChatGUIDs;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSNumber *typeNumber; // @synthesize typeNumber=_typeNumber;
 
 @end
 

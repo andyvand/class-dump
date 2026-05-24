@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)FromValue: /* Error: Ran out of types for this method. */;
+- (id)CA_roundToIntegerFromValue: /* Error: Ran out of types for this method. */;
 - (void)ConstraintBasedLayoutInternal) nsli_lowerAttribute:(struct _NSRange)arg1 intoExpression:(id)arg2 withCoefficient:container:] /* Error: Ran out of types for this method. */;
 - (id)tecture is not an NSNumber:%@ /* Error: Ran out of types for this method. */;
 - (void)Ð6óþâÚjG;

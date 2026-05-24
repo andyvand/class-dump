@@ -5,6 +5,6 @@
 //
 
 @protocol CKXPCDiscardableContent
-- (void);
+- (void)setObject:atIndexedSubscript: /* Error: Ran out of types for this method. */;
 @end
 

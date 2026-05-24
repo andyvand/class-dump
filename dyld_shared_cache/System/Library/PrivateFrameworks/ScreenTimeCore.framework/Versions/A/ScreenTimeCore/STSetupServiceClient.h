@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface, NSXPCListener, NSXPCListenerEndpoint;
+@class NSXPCConnection;
 
 @interface STSetupServiceClient
 {
     NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_clientListenerEndpoint;
-    NSXPCListener *_activeListener;
-    id _providedService;
-    NSXPCInterface *_providedServiceInterface;
-    CDUnknownBlockType _pendingProvidePasscodeCompletionHandler;
 }
 
+- (void)ry_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params) SELECT item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
+- (void)chase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params) SELECT item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
+- (void)w (item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params) SELECT item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
+- (void)n TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)ER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (CDUnknownBlockType)name TEXT NOT NULL DEFAULT '', name_order INTEGER NOT NULL DEFAULT 0, is_owner INTEGER NOT NULL DEFAULT 1, is_editable INTEGER NOT NULL DEFAULT 0, parent_pid INTEGER NOT NULL DEFAULT 0, contained_media_type INTEGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)representative_item_artwork_token = '0';
+- (_Bool)RENAME TO album;
+- (id)ter=%llu;
+- (id)0060;;
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ion for state key "%@" failed:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -37,19 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCListener *activeListener; // @synthesize activeListener=_activeListener;
-@property(readonly) NSXPCListenerEndpoint *clientListenerEndpoint; // @synthesize clientListenerEndpoint=_clientListenerEndpoint;
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType pendingProvidePasscodeCompletionHandler; // @synthesize pendingProvidePasscodeCompletionHandler=_pendingProvidePasscodeCompletionHandler;
-@property(retain) id providedService; // @synthesize providedService=_providedService;
-@property(retain) NSXPCInterface *providedServiceInterface; // @synthesize providedServiceInterface=_providedServiceInterface;
-@property(readonly) Class superclass;
 
 @end
 

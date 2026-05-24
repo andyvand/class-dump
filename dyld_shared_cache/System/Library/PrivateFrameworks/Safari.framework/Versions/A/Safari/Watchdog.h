@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSLock, NSString, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface Watchdog
 {
     _Bool shouldStop;
-    double watchdogInterval;
-    NSTimer *watchdogTimer;
-    NSTimer *unresponsiveWebProcessTimer;
-    NSString *unresponsiveProcess;
-    NSCondition *watchdogCondition;
-    NSLock *samplingLock;
 }
 
 - (double);

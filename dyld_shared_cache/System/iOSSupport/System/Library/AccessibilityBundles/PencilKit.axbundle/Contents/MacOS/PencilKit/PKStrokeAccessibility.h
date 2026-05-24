@@ -17,7 +17,7 @@
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (id);
+- (id)_axRenameAlbumAction;
 
 @end
 

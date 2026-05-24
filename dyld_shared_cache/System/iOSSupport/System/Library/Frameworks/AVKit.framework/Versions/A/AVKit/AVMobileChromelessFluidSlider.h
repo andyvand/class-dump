@@ -4,56 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVView, NSArray, NSMutableArray, NSString, UIBlurEffect, UIPointerInteraction, UISelectionFeedbackGenerator, UIVisualEffect, _UISliderFluidTickConfiguration;
-@protocol AVContentIntersectingDelegate, AVMobileChromelessFluidSliderDelegate;
+@class AVView;
+@protocol AVMobileChromelessFluidSliderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessFluidSlider
 {
     AVView *_contentView;
-    float _trackingStartNormalizedValue;
-    float _trackingTouchStartNormalizedX;
-    NSMutableArray *_sliderMarkViews;
-    UIBlurEffect *_disabledFilledBarViewEffect;
-    UIBlurEffect *_disabledUnfilledBarViewEffect;
-    UIPointerInteraction *_sliderPointerInteraction;
-    UISelectionFeedbackGenerator *_speedChangeFeedbackGenerator;
-    _UISliderFluidTickConfiguration *_fluidSliderConfiguration;
-    _Bool _totalValueSet;
-    _Bool _hasSetFilledBarVisualEffect;
-    _Bool _hasSetUnFilledBarVisualEffect;
-    _Bool _isOverVideo;
-    _Bool _prefersSliderTrackHidden;
-    _Bool _usesVolumeStyle;
-    float _totalValue;
-    id <AVContentIntersectingDelegate> _contentIntersectingDelegate;
-    double _barHeight;
-    double _barWidth;
-    UIVisualEffect *_filledBarVisualEffect;
-    unsigned long long _fineScrubbingStyle;
-    NSArray *_snappingValues;
-    NSArray *_sliderMarks;
-    double _stretchLimit;
-    unsigned long long _tintState;
-    UIVisualEffect *_unfilledBarVisualEffect;
-    double _variableSpeedScrubbingOffsetMultiplier;
-    id <AVMobileChromelessFluidSliderDelegate> _delegate;
-    struct CGRect _contentIntersection;
-    struct NSDirectionalEdgeInsets _directionalHitRectInsets;
 }
 
-+ (double);
++ (double);
 - (double);
+- (id)M.mM.;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)TM.;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -65,32 +36,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)CKDModifyRecordHandlerStateNeedRecordPrepareForUpload;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (struct CGRect);
-- (id);
+- (id)B;
 - (float);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void)LPCaptionBarAccessoryView;
 - (id);
 - (struct CGRect);
 - (id);
-- (struct CGRect);
+- (struct CGRect)(;
 - (void);
 - (void)[°1Â0@ù
 × ;
@@ -101,35 +72,11 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (void)y"16;
-- (_Bool)ybackControlsHidden;
+- (_Bool)forcePlaybackControlsHidden;
 - (double)Point=dd}{CGSize=dd}},R,N,V_videoRectWhenPIPBegan;
 
 // Remaining properties
-@property(nonatomic) double barHeight; // @synthesize barHeight=_barHeight;
-@property(nonatomic) double barWidth; // @synthesize barWidth=_barWidth;
-@property(nonatomic) __weak id <AVContentIntersectingDelegate> contentIntersectingDelegate; // @synthesize contentIntersectingDelegate=_contentIntersectingDelegate;
-@property(nonatomic) struct CGRect contentIntersection; // @synthesize contentIntersection=_contentIntersection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVMobileChromelessFluidSliderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalHitRectInsets; // @synthesize directionalHitRectInsets=_directionalHitRectInsets;
-@property(retain, nonatomic) UIVisualEffect *filledBarVisualEffect; // @synthesize filledBarVisualEffect=_filledBarVisualEffect;
-@property(nonatomic) unsigned long long fineScrubbingStyle; // @synthesize fineScrubbingStyle=_fineScrubbingStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isOverVideo) _Bool isOverVideo; // @synthesize isOverVideo=_isOverVideo;
-@property(nonatomic) _Bool prefersSliderTrackHidden; // @synthesize prefersSliderTrackHidden=_prefersSliderTrackHidden;
-@property(retain, nonatomic) NSArray *sliderMarks; // @synthesize sliderMarks=_sliderMarks;
-@property(retain, nonatomic) NSArray *snappingValues; // @synthesize snappingValues=_snappingValues;
-@property(nonatomic) double stretchLimit; // @synthesize stretchLimit=_stretchLimit;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tintState; // @synthesize tintState=_tintState;
-@property(nonatomic) float totalValue; // @synthesize totalValue=_totalValue;
-@property(retain, nonatomic) UIVisualEffect *unfilledBarVisualEffect; // @synthesize unfilledBarVisualEffect=_unfilledBarVisualEffect;
-@property(nonatomic) _Bool usesVolumeStyle; // @synthesize usesVolumeStyle=_usesVolumeStyle;
-@property(nonatomic) double variableSpeedScrubbingOffsetMultiplier; // @synthesize variableSpeedScrubbingOffsetMultiplier=_variableSpeedScrubbingOffsetMultiplier;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData;
 
 @interface CXCall
 {
     _Bool _outgoing;
-    _Bool _onHold;
-    _Bool _hasConnected;
-    _Bool _hasEnded;
-    _Bool _endpointOnCurrentDevice;
-    _Bool _hostedOnCurrentDevice;
-    _Bool _video;
-    _Bool _screening;
-    NSUUID *_UUID;
-    NSData *_localMemberIdentity;
-    NSString *_providerIdentifier;
 }
 
 + (_Bool);
@@ -29,25 +19,25 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ing;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)or key metadata item - ignoring. value=%{public}@;
+- (unsigned long long)otification that setup has completed...;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)__MPModelRelationshipPlaylistEntrySocialContributor__MAPPING_MISSING__;
+- (void)roperties:(id)arg1 ofCollectionWithIdentifier:groupingType:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -58,24 +48,7 @@
 - (void)?);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEndpointOnCurrentDevice) _Bool endpointOnCurrentDevice; // @synthesize endpointOnCurrentDevice=_endpointOnCurrentDevice;
-@property(nonatomic) _Bool hasConnected; // @synthesize hasConnected=_hasConnected;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHostedOnCurrentDevice) _Bool hostedOnCurrentDevice; // @synthesize hostedOnCurrentDevice=_hostedOnCurrentDevice;
 @property(copy, nonatomic) NSData *localMemberIdentity; // @synthesize localMemberIdentity=_localMemberIdentity;
-@property(nonatomic, getter=isOnHold) _Bool onHold; // @synthesize onHold=_onHold;
-@property(nonatomic, getter=isOutgoing) _Bool outgoing; // @synthesize outgoing=_outgoing;
-@property(retain, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(nonatomic, getter=isScreening) _Bool screening; // @synthesize screening=_screening;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isVideo) _Bool video; // @synthesize video=_video;
 
 @end
 

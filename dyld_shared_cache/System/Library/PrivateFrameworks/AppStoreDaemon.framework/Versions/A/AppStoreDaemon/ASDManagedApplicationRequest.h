@@ -12,7 +12,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)ock_invoke;
 
 @end
 

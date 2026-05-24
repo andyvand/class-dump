@@ -4,15 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSNotification, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
-- (unsigned long long);
-- (void)tLiveRegionRelevant:(NSNotification *)arg1;
-- (void)ssage:(NSNotification *)arg1;
-- (void)hErrorCallback:(NSNotification *)arg1 successCallback:frameId: /* Error: Ran out of types for this method. */;
+- (NSUndoManager *);
+- (void);
+- (void);
+- (void)q ;
+- (void);
+- (void)setLiveRegionRelevant:(NSNotification *)arg1;
+- (void)dispatchRelayMessage:(NSNotification *)arg1;
+- (void)createStyleSheetWithErrorCallback:(NSNotification *)arg1 successCallback:frameId: /* Error: Ran out of types for this method. */;
 - (struct CGRect)er>",W,N,V_debugger;
 - (void)Ä;
 - (void)(`;

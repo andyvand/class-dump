@@ -11,7 +11,7 @@
 + (void);
 + (id);
 + (void)outgoing item since it is not pinned:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id)h;
 - (void);
 
 @end

@@ -9,8 +9,6 @@
 @interface ISDRecordIdMap
 {
     NSString *_localId;
-    NSString *_globalId;
-    int _entityNumber;
 }
 
 - (void);
@@ -26,7 +24,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (void);

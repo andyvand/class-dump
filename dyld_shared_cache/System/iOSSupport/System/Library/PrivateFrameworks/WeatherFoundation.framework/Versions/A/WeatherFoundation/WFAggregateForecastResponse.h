@@ -11,7 +11,6 @@
 @interface WFAggregateForecastResponse : WFResponse
 {
     _Bool _responseWasFromCache;
-    NSArray *_forecasts;
 }
 
 + (_Bool);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *forecasts; // @synthesize forecasts=_forecasts;
-@property(nonatomic) _Bool responseWasFromCache; // @synthesize responseWasFromCache=_responseWasFromCache;
 
 @end
 

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long totalPacketNumber;

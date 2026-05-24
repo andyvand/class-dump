@@ -7,9 +7,6 @@
 @interface IMDPersistence.SQLConnection
 {
     id handle;
-    id configuration;
-    id owned;
-    id cachedStatementsByStatementString;
 }
 
 @end

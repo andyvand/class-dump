@@ -6,33 +6,20 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSSet;
+@class NSArray;
 
 @interface CKDFetchRecordsURLRequest : CKDURLRequest
 {
     _Bool _shouldFetchAssetContent;
-    _Bool _shouldRequestEncryptedAssetOwnerIdentifier;
-    NSSet *_assetFieldNamesToPublishURLs;
-    unsigned long long _requestedTTL;
-    unsigned long long _URLOptions;
-    NSSet *_desiredAssetKeys;
-    NSArray *_desiredIndexedListKeys;
-    CDUnknownBlockType _recordFetchedBlock;
-    NSArray *_recordIDs;
-    NSDictionary *_recordIDsToETags;
-    NSDictionary *_recordIDsToVersionETags;
-    unsigned long long _recordCount;
-    NSMutableDictionary *_recordIDByRequestID;
-    NSSet *_desiredKeys;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Days:(_Bool)arg1 dispatchQueue:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -45,17 +32,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ed to query existing motononic time (%@/%@):(id)arg1 %d;
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (_Bool);
-- (id);
-- (unsigned long long)etMarkZonesAsUserPurged: /* Error: Ran out of types for this method. */;
-- (void)dOwnerPublicKey:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)cedDeltaIdentifiers;
+- (id)transcribeAudioForAudioTransferURL:withCompletion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setMarkZonesAsUserPurged: /* Error: Ran out of types for this method. */;
+- (void)_locked_createZonePCSWithSpecifiedOwnerPublicKey:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)replacedDeltaIdentifiers;
 - (void)rvice;
-- (void)ice;
+- (void)device;
 - (id)ectionSource text,
      unique (keyType, keyID) on conflict replace
 );
@@ -78,20 +65,7 @@ create table if not exists DSIDMap (
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long URLOptions; // @synthesize URLOptions=_URLOptions;
-@property(retain, nonatomic) NSSet *assetFieldNamesToPublishURLs; // @synthesize assetFieldNamesToPublishURLs=_assetFieldNamesToPublishURLs;
-@property(retain, nonatomic) NSSet *desiredAssetKeys; // @synthesize desiredAssetKeys=_desiredAssetKeys;
-@property(retain, nonatomic) NSArray *desiredIndexedListKeys; // @synthesize desiredIndexedListKeys=_desiredIndexedListKeys;
-@property(retain, nonatomic) NSSet *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(nonatomic) unsigned long long recordCount; // @synthesize recordCount=_recordCount;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
-@property(retain, nonatomic) NSMutableDictionary *recordIDByRequestID; // @synthesize recordIDByRequestID=_recordIDByRequestID;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(retain, nonatomic) NSDictionary *recordIDsToETags; // @synthesize recordIDsToETags=_recordIDsToETags;
-@property(retain, nonatomic) NSDictionary *recordIDsToVersionETags; // @synthesize recordIDsToVersionETags=_recordIDsToVersionETags;
-@property(nonatomic) unsigned long long requestedTTL; // @synthesize requestedTTL=_requestedTTL;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(nonatomic) _Bool shouldRequestEncryptedAssetOwnerIdentifier; // @synthesize shouldRequestEncryptedAssetOwnerIdentifier=_shouldRequestEncryptedAssetOwnerIdentifier;
 
 @end
 

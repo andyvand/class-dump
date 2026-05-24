@@ -9,11 +9,10 @@
 @interface IMActionComposeText
 {
     void phoneNumber;
-    void text;
 }
 
 - (id);
-- (id);
+- (id)ource.passbook;
 - (long long);
 - (id);
 - (_Bool);
@@ -23,9 +22,7 @@
 - (void)ä¸¸,ä;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
-@property(nonatomic, readonly) NSString *text;
 
 @end
 

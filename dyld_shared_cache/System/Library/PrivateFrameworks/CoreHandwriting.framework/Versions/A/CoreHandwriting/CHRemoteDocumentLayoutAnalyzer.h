@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface CHRemoteDocumentLayoutAnalyzer
 {
     NSXPCConnection *_connection;
-    long long _priority;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)e with resource recipeID %@;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (long long)0 at this point.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
 
 @end
 

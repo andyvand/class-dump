@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibraryResourcesManagerContext, NSString, _ML3BaseMusicLibraryResourcesManager;
+@class _ML3BaseMusicLibraryResourcesManager;
 
 @interface ML3MusicLibraryResourcesManager
 {
     _ML3BaseMusicLibraryResourcesManager *_implementation;
-    struct os_unfair_lock_s _lock;
-    ML3MusicLibraryResourcesManagerContext *_context;
 }
 
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id)%s to %s :(id)arg1 %s;
 - (id);
 - (id);
 - (id);
@@ -27,22 +25,14 @@
 - (id);
 - (id);
 - (void)WHERE item_extra.item_pid;
-- (id)eMovie;
+- (id)MLMediaTypeMovie;
 - (id)¸*;
 - (id);
-- (id)4ML3AlbumArtistImportItemNS_9allocatorIS1_EEEE;
-- (id)32ML3ProtoSyncLibraryPinImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
+- (id)NSt3__120__shared_ptr_emplaceI24ML3AlbumArtistImportItemNS_9allocatorIS1_EEEE;
+- (id)NSt3__120__shared_ptr_pointerIP32ML3ProtoSyncLibraryPinImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 
 // Remaining properties
-@property(retain, nonatomic) ML3MusicLibraryResourcesManagerContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _ML3BaseMusicLibraryResourcesManager *implementation; // @synthesize implementation=_implementation;
-@property(readonly) Class superclass;
 
 @end
 

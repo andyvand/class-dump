@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NPNameComponentsData;
-
 @interface NPHMMClassifier
 {
     unsigned long long _totalGivenNamesCount;
-    unsigned long long _totalFamilyNamesCount;
-    unsigned long long _uniqueGivenNamesCount;
-    unsigned long long _uniqueFamilyNamesCount;
-    NPNameComponentsData *_nameComponentsData;
-    CDStruct_a720a2d7 _stateProbabilities;
 }
 
 - (_Bool);
 - (double);
-- (CDStruct_a720a2d7);
+- (CDStruct_68406e8e);
 - (double);
 - (void);
 - (id);
 - (unsigned long long);
 - (struct _CFBurstTrie *);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)8;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -46,7 +39,7 @@
 - (void);
 
 // Remaining properties
-@property CDStruct_a720a2d7 stateProbabilities; // @synthesize stateProbabilities=_stateProbabilities;
+@property CDStruct_68406e8e stateProbabilities; // @synthesize stateProbabilities=_stateProbabilities;
 
 @end
 

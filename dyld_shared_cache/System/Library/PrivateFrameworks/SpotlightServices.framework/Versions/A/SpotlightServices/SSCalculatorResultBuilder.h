@@ -11,39 +11,33 @@
 @interface SSCalculatorResultBuilder : SSResultBuilder
 {
     _Bool _isCalculation;
-    _Bool _isCurrencyConversion;
-    NSString *_input;
-    NSString *_output;
 }
 
-+ (id);
++ (id)addAttribute:(struct CGSize)arg1 value:range: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)setRelatedURL: /* Error: Ran out of types for this method. */;
+- (id)rate;
+- (id)radioPlaybackInformationWithStoreIdentifier:storefrontIdentifier: /* Error: Ran out of types for this method. */;
+- (id)pulsingLoadIndicatorTimingFunction;
+- (id)preferredTransform;
+- (_Bool)populateMetadataForBackwardCompatibility: /* Error: Ran out of types for this method. */;
+- (id)podcastsTheme;
+- (id)podcastPlaybackInformationWithStoreIdentifier:storefrontIdentifier:offers: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)ledRowCardSectionForCardSection: /* Error: Ran out of types for this method. */;
+- (void)detailedRowCardSectionForCardSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *input; // @synthesize input=_input;
-@property(nonatomic) _Bool isCalculation; // @synthesize isCalculation=_isCalculation;
-@property(nonatomic) _Bool isCurrencyConversion; // @synthesize isCurrencyConversion=_isCurrencyConversion;
-@property(retain, nonatomic) NSString *output; // @synthesize output=_output;
 
 @end
 

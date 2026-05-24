@@ -7,7 +7,6 @@
 @interface NewsPersonalization.SportsTopicMappingService
 {
     id appConfigurationManager;
-    id tagService;
 }
 
 @end

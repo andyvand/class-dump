@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (void);
+- (void);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 
 @end
 

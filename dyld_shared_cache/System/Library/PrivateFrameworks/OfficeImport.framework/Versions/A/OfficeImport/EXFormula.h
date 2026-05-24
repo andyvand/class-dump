@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)Ҩ;
 + (id);
 + (Class);
 + (id);
 + (id);
-+ (id);
++ (id)~SH;
 + (id);
 + (void);
 + (void);

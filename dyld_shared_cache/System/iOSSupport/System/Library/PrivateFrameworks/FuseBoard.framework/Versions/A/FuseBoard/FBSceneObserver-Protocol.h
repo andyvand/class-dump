@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FBScene, FBSceneUpdateContext, NSError, NSSet;
+
 @protocol FBSceneObserver
+
+@optional
+- (NSSet *)	*;
+- (void)applySpriteChangeDetails:(FBScene *)arg1 countAfterChanges:(FBSceneUpdateContext *)arg2 initialState:(NSError *)arg3 modifyState: /* Error: Ran out of types for this method. */;
+- (void)nses;
 @end
 

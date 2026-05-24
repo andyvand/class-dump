@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDAccountStore, NSString;
+@class ACDAccountStore;
 
 __attribute__((visibility("hidden")))
 @interface ACDAccountStoreFilter
@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)st int, unsigned long>, std::less<int>>, std::allocator<std::pair<const int, unsigned long>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -37,21 +37,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)r	kH;
 - (void);
 - (void);
 - (void);
+- (void)brary/Frameworks/Carbon.framework/Versions/A/Carbon;
+- (void)__DATA_CONST;
+- (void);
+- (void)_CFSet}^{__CFDictionary}^vi{?=ii^q^{__CFSet}}}8;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void)0@ù
@@ -76,18 +76,18 @@ __attribute__((visibility("hidden")))
 - (void)40;
 - (void)Account"16@?<v@?B@"NSError">24;
 - (void)eConnection"16@"NSError"24;
-- (void)etCredentialForAccount:(id)arg1 error:(CDUnknownBlockType)arg2;
-- (void)mentBlock:(id)arg1;
-- (void)ObjectModel;
-- (void)ons:(id)arg1 usingBlock:(CDUnknownBlockType)arg2;
-- (void)ler:(id)arg1;
-- (void)sOfType:(id)arg1 justActive:(id)arg2 fetchBlock:(CDUnknownBlockType)arg3;
-- (void);
-- (void)xistingPassword:(id)arg1 forServiceName:(id)arg2 username:(id)arg3 accessGroup:(CDUnknownBlockType)arg4 accessibility:options:error: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)setCredentialForAccount:(id)arg1 error:(CDUnknownBlockType)arg2;
+- (void)service:(id)arg1 didSwitchActivePairedDevice:acknowledgementBlock: /* Error: Ran out of types for this method. */;
+- (void)managedObjectModel;
+- (void)enumerateObjectsWithOptions:(id)arg1 usingBlock:(CDUnknownBlockType)arg2;
+- (void)credentialForAccountWithIdentifier:(id)arg1 handler:(id)arg2;
+- (void)cachedAccountsOfType:(id)arg1 justActive:(id)arg2 fetchBlock:(CDUnknownBlockType)arg3;
+- (void)_removeCredentialsForAccount:(id)arg1 clientID:(CDUnknownBlockType)arg2 options:error: /* Error: Ran out of types for this method. */;
+- (void)_keychainLock_updateItem:(id)arg1 existingPassword:(id)arg2 forServiceName:(id)arg3 username:(CDUnknownBlockType)arg4 accessGroup:accessibility:options:error: /* Error: Ran out of types for this method. */;
+- (void)_addTwitterAccountType;
 - (void)tion",R,N,V_databaseConnection;
 - (void)ACDDataclassOwnersManagerInterface;
-- (void)Manager;
+- (void)ACDKeychainManager;
 - (void)àª<­;
 - (void)rs;
 - (void)õÿÿbôÿÿõÿÿ;
@@ -95,7 +95,7 @@ __attribute__((visibility("hidden")))
 - (void)´ä;
 - (void);
 - (void);
-- (void)MultipleAccounts;
+- (void)ACDAccountTypeSupportsMultipleAccounts;
 - (void)%@ && SELF != %@;
 - (void)with ID %@ is unknown to our DB, so it cannot have any children added. The parent has probably already been deleted.;
 - (void)terprise or guest persona(s). Running cleanup within those personas as well.";
@@ -112,13 +112,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) ACDAccountStore *backingAccountStore; // @synthesize backingAccountStore=_backingAccountStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

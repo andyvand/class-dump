@@ -15,12 +15,12 @@
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)pareNodeCached;
+- (void)wantsPrepareNodeCached;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelData *data; // @synthesize data=_data;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSString;
+@class NSString;
 
 @interface SGSymbolicMappingTransformer
 {
     NSString *_numericMapping;
-    NSString *_characterMapping;
-    NSCharacterSet *_characterSet;
 }
 
 + (id);
@@ -19,27 +17,18 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void)nContent: /* Error: Ran out of types for this method. */;
+- (void)_whitelistedVerbRangeInContent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *characterMapping; // @synthesize characterMapping=_characterMapping;
-@property(retain) NSCharacterSet *characterSet; // @synthesize characterSet=_characterSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *numericMapping; // @synthesize numericMapping=_numericMapping;
-@property(readonly) Class superclass;
 
 @end
 

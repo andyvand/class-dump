@@ -13,16 +13,16 @@
 + (id)OÿO;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (oneway void);
-- (id);
+- (id)(;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool)ôè;
-- (_Bool)ndedExistentialTypeShapeSymbolicReference;
+- (_Bool)NonUniqueExtendedExistentialTypeShapeSymbolicReference;
 
 @end
 

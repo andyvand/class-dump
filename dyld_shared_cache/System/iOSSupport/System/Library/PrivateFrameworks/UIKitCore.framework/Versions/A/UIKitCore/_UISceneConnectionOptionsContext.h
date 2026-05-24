@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSKeyedSettings, NSDictionary, NSSet, _UISceneConnectionOptionDefinitionPayloadStorage;
+@class NSDictionary, NSSet;
 
 @interface _UISceneConnectionOptionsContext
 {
     NSDictionary *_launchOptionsDictionary;
-    NSSet *_unprocessedActions;
-    NSSet *_requestedSceneConfigurations;
-    NSSet *_cleanupBlocks;
-    _UISceneConnectionOptionDefinitionPayloadStorage *_definitionPayloadStorage;
-    BSKeyedSettings *_connectionValues;
 }
 
 - (id);
+- (void);
+- (void)setPayloadVPNSubType:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)q;
 - (id);
-- (id);
-- (void)animated:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)terImplicitBounds;
-- (id)mLoupeView;
+- (void)swipeItemAtIndexPath:(id)arg1 configuration:direction:animated:completion: /* Error: Ran out of types for this method. */;
+- (void)_unregisterImplicitBounds;
+- (id)UIDebuggingZoomLoupeView;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *cleanupBlocks; // @synthesize cleanupBlocks=_cleanupBlocks;
-@property(retain, nonatomic) BSKeyedSettings *connectionValues; // @synthesize connectionValues=_connectionValues;
-@property(retain, nonatomic) _UISceneConnectionOptionDefinitionPayloadStorage *definitionPayloadStorage; // @synthesize definitionPayloadStorage=_definitionPayloadStorage;
-@property(retain, nonatomic) NSDictionary *launchOptionsDictionary; // @synthesize launchOptionsDictionary=_launchOptionsDictionary;
-@property(retain, nonatomic) NSSet *requestedSceneConfigurations; // @synthesize requestedSceneConfigurations=_requestedSceneConfigurations;
-@property(retain, nonatomic) NSSet *unprocessedActions; // @synthesize unprocessedActions=_unprocessedActions;
 
 @end
 

@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)AccountData;
 - (void);
 
 // Remaining properties

@@ -6,13 +6,11 @@
 
 #import <CallKit/CXAction.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface CXSendMMIOrUSSDCodeAction : CXAction
 {
     NSString *_code;
-    long long _ttyType;
-    NSUUID *_senderIdentityUUID;
 }
 
 + (_Bool);
@@ -22,8 +20,8 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (void);
+- (id)H;
+- (void)comparisonType;
 - (id);
 - (id);
 - (void);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *code; // @synthesize code=_code;
-@property(retain, nonatomic) NSUUID *senderIdentityUUID; // @synthesize senderIdentityUUID=_senderIdentityUUID;
-@property(nonatomic) long long ttyType; // @synthesize ttyType=_ttyType;
 
 @end
 

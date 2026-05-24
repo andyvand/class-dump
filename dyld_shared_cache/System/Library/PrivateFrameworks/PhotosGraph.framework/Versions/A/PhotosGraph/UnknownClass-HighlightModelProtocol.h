@@ -4,30 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface UnknownClass (HighlightModelProtocol)
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short enrichmentState;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastEnrichmentDate;
-@property(nonatomic) unsigned short mixedSharingCompositionKeyAssetRelationship;
-@property(nonatomic) unsigned long long mood;
-@property(nonatomic) double promotionScore;
 @property(retain, nonatomic) NSString *smartDescription;
-@property(retain, nonatomic) NSString *smartDescriptionMixed;
-@property(retain, nonatomic) NSString *smartDescriptionShared;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *verboseSmartDescription;
-@property(retain, nonatomic) NSString *verboseSmartDescriptionMixed;
-@property(retain, nonatomic) NSString *verboseSmartDescriptionShared;
 @end
 

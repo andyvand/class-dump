@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AVAssetCollectionFactory
 {
     NSObject<OS_dispatch_queue> *_collectionsQ;
-    NSMutableDictionary *_collectionsByURLString;
 }
 
 + (id);

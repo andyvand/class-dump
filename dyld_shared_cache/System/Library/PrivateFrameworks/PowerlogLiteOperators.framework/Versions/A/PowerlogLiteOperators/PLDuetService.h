@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLDuetServiceDAS, PLDuetServiceImpl, PLDuetServiceLpmSource;
+@class PLDuetServiceLpmSource;
 
 @interface PLDuetService
 {
     PLDuetServiceLpmSource *_lpmSource;
-    PLDuetServiceDAS *_dasEvent;
-    PLDuetServiceImpl *_impl;
 }
 
 + (id);
@@ -20,15 +18,15 @@
 + (id);
 + (id);
 + (id);
++ (id)тинки;
 + (id);
-+ (id);
-+ (void)htreportplaybackbacklightfactorsreport;
++ (void)backlightreportplaybackbacklightfactorsreport;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit;
 - (id);
 - (id);
 - (id);
@@ -37,8 +35,6 @@
 - (void)context;
 
 // Remaining properties
-@property(readonly) PLDuetServiceDAS *dasEvent; // @synthesize dasEvent=_dasEvent;
-@property(readonly) PLDuetServiceImpl *impl; // @synthesize impl=_impl;
 @property(readonly) PLDuetServiceLpmSource *lpmSource; // @synthesize lpmSource=_lpmSource;
 
 @end

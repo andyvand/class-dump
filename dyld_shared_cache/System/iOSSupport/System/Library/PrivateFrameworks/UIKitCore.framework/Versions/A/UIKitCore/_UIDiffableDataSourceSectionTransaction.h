@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDiffableDataSourceSectionSnapshot, NSOrderedCollectionDifference;
-
 @interface _UIDiffableDataSourceSectionTransaction
 {
     id _sectionIdentifier;
-    NSDiffableDataSourceSectionSnapshot *_initialSnapshot;
-    NSDiffableDataSourceSectionSnapshot *_finalSnapshot;
-    NSOrderedCollectionDifference *_difference;
 }
 
+- (id)broadcaster;
 - (id);
 - (id);
-- (id);
-- (_Bool)sePortal;
-- (id)eIdentifier:indexPath:applyDefaultAttributes: /* Error: Ran out of types for this method. */;
-- (id)rance_setTextColor: /* Error: Ran out of types for this method. */;
+- (_Bool)showcasePortal;
+- (id)_prepareViewForUse:withElementCategory:elementKind:reuseIdentifier:indexPath:applyDefaultAttributes: /* Error: Ran out of types for this method. */;
+- (id)_UIAppearance_setTextColor: /* Error: Ran out of types for this method. */;
 - (id)instead.;
 - (void)p\;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;
-@property(readonly, nonatomic) NSDiffableDataSourceSectionSnapshot *finalSnapshot; // @synthesize finalSnapshot=_finalSnapshot;
-@property(readonly, nonatomic) NSDiffableDataSourceSectionSnapshot *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
 @property(readonly, nonatomic) id sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end

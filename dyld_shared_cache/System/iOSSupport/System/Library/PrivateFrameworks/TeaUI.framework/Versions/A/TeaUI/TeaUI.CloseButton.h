@@ -7,15 +7,14 @@
 @interface TeaUI.CloseButton
 {
     id style;
-    id $__lazy_storage_$_backing;
 }
 
 - (_Bool);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)roviding>"16@0:8 /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (id);
+- (id)useSecureConnectionForAssets;
 - (void)8¸úÿL¹úÿp¹úÿ¹úÿ¸¹úÿô¹úÿºúÿ<ºúÿ»úÿ(»úÿL»úÿ»úÿ¼»úÿà»úÿ¼úÿP¼úÿt¼úÿ¼úÿ¼¼úÿð¼úÿ,½úÿP½úÿ½úÿÀ½úÿä½úÿ¾úÿ,¾úÿx¾úÿ¾úÿÀ¾úÿØ¿úÿ\ÀúÿÀúÿ\ÁúÿèÁúÿÂúÿHÂúÿÌÂúÿØÂúÿäÂúÿðÂúÿüÂúÿøÅúÿÆúÿLÆúÿpÆúÿÆúÿÐÆúÿôÆúÿLÇúÿØÇúÿüÇúÿ8ÈúÿlÈúÿÈúÿ4ÊúÿpÊúÿÊúÿ¸Êúÿ´ÌúÿÍúÿ4ÍúÿÏúÿ¨ÏúÿäÏúÿÐúÿTÐúÿlÐúÿÐúÿÌÐúÿ;
 
 // Remaining properties

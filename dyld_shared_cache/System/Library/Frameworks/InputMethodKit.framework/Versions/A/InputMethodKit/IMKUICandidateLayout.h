@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKUITriCandidateLayout, NSArray;
+@class IMKCandidate;
 
 @interface IMKUICandidateLayout
 {
     IMKCandidate *_left;
-    IMKCandidate *_middle;
-    IMKUITriCandidateLayout *_right;
-    _Bool _middleIsCorrection;
-    NSArray *_candidates;
 }
 
 + (id);
@@ -25,17 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)appendMomentsSettingsToMediaBlob: /* Error: Ran out of types for this method. */;
+- (unsigned long long)obSize:%d  dwLastGobNewSize:%d 
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *candidates; // @synthesize candidates=_candidates;
 @property(readonly) IMKCandidate *leftCandidate; // @synthesize leftCandidate=_left;
-@property(readonly) IMKCandidate *middleCandidate; // @synthesize middleCandidate=_middle;
-@property(readonly) _Bool middleIsCorrection; // @synthesize middleIsCorrection=_middleIsCorrection;
-@property(readonly) IMKUITriCandidateLayout *rightSet; // @synthesize rightSet=_right;
 
 @end
 

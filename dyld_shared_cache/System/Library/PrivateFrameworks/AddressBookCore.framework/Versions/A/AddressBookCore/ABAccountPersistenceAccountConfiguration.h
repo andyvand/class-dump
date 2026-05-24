@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)4;
 - (id);
 - (void);
 

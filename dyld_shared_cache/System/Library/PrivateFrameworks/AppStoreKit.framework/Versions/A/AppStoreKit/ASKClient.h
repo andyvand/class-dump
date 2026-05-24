@@ -4,49 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPromise, ASKRestrictions, NSArray, NSString;
+@class AMSPromise;
 
 @interface ASKClient
 {
     AMSPromise *_storefrontIdentifierPromise;
-    long long _currentNotificationAuthorizationStatus;
-    NSString *__hostBundleId;
-    NSArray *__remoteDownloadIdentifiers;
-    ASKRestrictions *_restrictions;
 }
 
-+ (id);
++ (id);
 - (void);
+- (id)jo;
 - (id);
-- (id);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)7o;
 - (id);
+- (_Bool)o;
 - (_Bool);
+- (_Bool)1o;
+- (_Bool)o;
 - (_Bool);
+- (_Bool)o;
+- (_Bool),o;
+- (void)o;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (long long)o;
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)o;
 - (_Bool);
-- (id);
+- (id)n;
 - (id);
 - (_Bool);
 - (id);
@@ -59,37 +55,13 @@
 - (struct CGSize);
 - (double);
 - (id);
-- (id)eleteItem;
+- (id)deleteItem;
 - (void)_p;
 - (id);
 - (id)È_9]Ú	TB;
 
 // Remaining properties
-@property(retain) NSString *_hostBundleId; // @synthesize _hostBundleId=__hostBundleId;
-@property(retain) NSArray *_remoteDownloadIdentifiers; // @synthesize _remoteDownloadIdentifiers=__remoteDownloadIdentifiers;
-@property(readonly, copy) NSString *activePairedWatchSystemVersion;
-@property(readonly) NSString *buildType;
-@property(readonly) NSString *buildVersion;
-@property long long currentNotificationAuthorizationStatus; // @synthesize currentNotificationAuthorizationStatus=_currentNotificationAuthorizationStatus;
-@property(readonly) NSString *deviceType;
-@property(readonly, copy) NSString *guid;
-@property(readonly) NSString *hostBundleId;
-@property(readonly) _Bool isActivityAvailable;
-@property(readonly) _Bool isCharonSupported;
-@property(readonly) _Bool isElectrocardiogramInstallationAllowed;
-@property(readonly) _Bool isIconArtworkCapable;
-@property(readonly) _Bool isMandrakeSupported;
-@property(readonly) _Bool isSidepackingEnabled;
-@property(readonly) _Bool isTinkerWatch;
-@property(readonly) long long maxAppContentRating;
-@property(readonly) NSArray *remoteDownloadIdentifiers;
-@property(retain, nonatomic) ASKRestrictions *restrictions; // @synthesize restrictions=_restrictions;
-@property(readonly) double screenCornerRadius;
-@property(readonly) struct CGSize screenSize;
-@property(readonly, copy) NSString *storefrontIdentifier;
 @property(retain) AMSPromise *storefrontIdentifierPromise; // @synthesize storefrontIdentifierPromise=_storefrontIdentifierPromise;
-@property(readonly) _Bool supportsHEIF;
-@property(readonly, copy) NSString *thinnedApplicationVariantIdentifier;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface UIKit.ShadowLayer__priv_85E9C0EF4CE083FCE5405A75E0676D6F
 {
     id elementColor;
-    id contour;
-    id radius;
 }
 
 - (id);
-- (id);
+- (id)`;
 - (id)! Eù1^ð1Â0@ù
 × ;
 - (void)l;

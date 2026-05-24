@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBSafariTableOfContentsItem
 {
     NSString *_text;
-    NSString *_elementPath;
-    NSString *_trailingText;
 }
 
 - (void);
@@ -23,25 +21,15 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)secureUnarchivedObjectWithData:(id)arg1 ofClasses: /* Error: Ran out of types for this method. */;
+- (id)CountOfUnclusteredFaces;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 - (id);
 - (void)rdSection";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *elementPath; // @synthesize elementPath=_elementPath;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSString *trailingText; // @synthesize trailingText=_trailingText;
 
 @end
 

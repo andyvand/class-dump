@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAction, UIImage;
+@class UIAction, UIImage;
 
 @interface QuickLookContentEditorBannerConfiguration
 {
     UIImage *_image;
-    NSString *_title;
-    NSString *_subtitle;
-    UIAction *_primaryAction;
-    UIAction *_dismissAction;
 }
 
 + (id);
+- (void)setLocalizedName:(id)arg1;
+- (id)didEndWritingInElement: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)iting start time;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIAction *dismissAction; // @synthesize dismissAction=_dismissAction;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) UIAction *primaryAction; // @synthesize primaryAction=_primaryAction;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

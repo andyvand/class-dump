@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
-
 @interface _ICProactiveTrigger
 {
     unsigned char _triggerSourceType;
-    NSSet *_availableApps;
-    NSDictionary *_attributedString;
-    NSString *_contentType;
 }
 
 + (_Bool);
@@ -26,16 +21,14 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ed
+;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributedString; // @synthesize attributedString=_attributedString;
-@property(retain, nonatomic) NSSet *availableApps; // @synthesize availableApps=_availableApps;
-@property(readonly, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
 @property(readonly, nonatomic) unsigned char triggerSourceType; // @synthesize triggerSourceType=_triggerSourceType;
 
 @end

@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrubberLayout;
+@class NSScrubberLayout, NSScrubberLayoutAttributes, NSSet;
 
 @protocol NSScrubberItemLayout
+- (_Bool)C;
+- (NSSet *)itlement is not an array;
+- (NSScrubberLayoutAttributes *)o;
+- (void)38C0kq9NiVaMsqjlUsCHcQ;
 
 // Remaining properties
 @property(retain) NSScrubberLayout *scrubberLayout;
-@property(readonly) _Bool wantsTrackingPosition;
 @end
 

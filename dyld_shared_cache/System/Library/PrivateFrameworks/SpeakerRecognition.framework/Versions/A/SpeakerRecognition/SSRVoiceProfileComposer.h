@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SSRVoiceProfileComposer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_speechId;
 }
 
 + (id);
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *speechId; // @synthesize speechId=_speechId;
 
 @end
 

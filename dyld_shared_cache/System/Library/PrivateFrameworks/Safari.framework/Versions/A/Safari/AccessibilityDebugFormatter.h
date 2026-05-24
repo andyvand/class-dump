@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface AccessibilityDebugFormatter
 {
     struct Page _pageWrapper;
-    NSWindow *_hostWindow;
 }
 
 + (id);

@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZone, NSCloudKitMirroringDelegateOptions, NSMutableArray, NSMutableDictionary, NSObject, NSString, PFCloudKitMetadataCache;
-@protocol PFCloudKitSerializerDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitSerializer
 {
     NSMutableDictionary *_manyToManyRecordNameToRecord;
-    NSString *_recordNamePrefix;
-    NSCloudKitMirroringDelegateOptions *_mirroringOptions;
-    NSObject<PFCloudKitSerializerDelegate> *_delegate;
-    NSMutableArray *_writtenAssetURLs;
-    PFCloudKitMetadataCache *_metadataCache;
-    CKRecordZone *_recordZone;
 }
 
 + (void);
 + (id);
-+ (void);
-- (id);
++ (void)ckAssetFiles;
+- (id);
 - (void);
 - (void);
 

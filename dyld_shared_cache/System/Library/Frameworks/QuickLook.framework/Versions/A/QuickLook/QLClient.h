@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface QLClient
 {
     _Bool _startedOnServer;
-    _Bool _cancelled;
-    int _lastError;
-    NSURL *_url;
-    NSString *_contentType;
-    NSDictionary *_options;
-    NSObject<OS_dispatch_queue> *_lockQueue;
-    id _representedObject;
-    id _associatedPreviewItem;
-    long long _triesCount;
 }
 
 + (id);
@@ -28,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)b;
 - (id);
 - (_Bool);
-- (id);
+- (id)_';
 - (void);
 - (id);
 - (void);
@@ -42,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (id);
 - (void);
@@ -50,15 +40,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) id associatedPreviewItem; // @synthesize associatedPreviewItem=_associatedPreviewItem;
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(copy) NSString *contentType; // @synthesize contentType=_contentType;
-@property int lastError; // @synthesize lastError=_lastError;
-@property(retain) NSObject<OS_dispatch_queue> *lockQueue; // @synthesize lockQueue=_lockQueue;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(retain) id representedObject; // @synthesize representedObject=_representedObject;
-@property _Bool startedOnServer; // @synthesize startedOnServer=_startedOnServer;
-@property long long triesCount; // @synthesize triesCount=_triesCount;
 @property(copy) NSURL *url; // @synthesize url=_url;
 
 @end

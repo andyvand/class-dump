@@ -13,7 +13,7 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)P@9@y;
 
 // Remaining properties
 @property(nonatomic) double duration;

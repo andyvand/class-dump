@@ -6,38 +6,30 @@
 
 #import <PassKitCore/PKPassAuxiliaryRegistrationRequirement.h>
 
-@class NSString;
-
 @interface PKPassAuxiliaryRegistrationDecryptionRequirement : PKPassAuxiliaryRegistrationRequirement
 {
     unsigned long long _type;
-    unsigned long long _usage;
-    unsigned long long _decryptionSchemeVersion;
-    NSString *_groupIdentifier;
 }
 
 + (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)OA9;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (_Bool)setHasAvgEncryptionDuration:(id)arg1;
+- (void)itemsPartiallyPresentCount;
+- (unsigned long long);
 - (id);
-- (id)icsSubject;
+- (id)analyticsSubject;
 - (unsigned long long)urning NO.;
 - (void)d object of class %@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long decryptionSchemeVersion; // @synthesize decryptionSchemeVersion=_decryptionSchemeVersion;
-@property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned long long usage; // @synthesize usage=_usage;
 
 @end
 

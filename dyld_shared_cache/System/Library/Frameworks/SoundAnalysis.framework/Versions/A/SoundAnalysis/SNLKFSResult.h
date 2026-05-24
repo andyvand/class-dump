@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNLKFSResult
 {
     id impl;
@@ -27,9 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) float decibelLevel;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

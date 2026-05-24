@@ -7,7 +7,7 @@
 @interface UnknownClass (PRLikenessView)
 + (id);
 + (id);
-+ (id);
-- (struct CGImage *);
++ (id)ra;
+- (struct CGImage *)";
 @end
 

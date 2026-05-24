@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaRankingScoreMatrix : SISchemaInstrumentationMessage
 {
@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)z;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,12 +30,11 @@
 - (id)
 × ;
 - (id);
-- (id)Metric;
+- (id)STSchemaAnswerSythesisHydrationMetric;
 - (void)k
 ";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *scoreTuples; // @synthesize scoreTuples=_scoreTuples;
 
 @end

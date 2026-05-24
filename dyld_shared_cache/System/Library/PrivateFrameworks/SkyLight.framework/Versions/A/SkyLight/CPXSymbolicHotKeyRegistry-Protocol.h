@@ -5,5 +5,11 @@
 //
 
 @protocol CPXSymbolicHotKeyRegistry
+- (int)NSCoreDataStringCompare;
+- (int)-[NSCloudKitMirroringDelegate _scheduleAutomatedImportWithLabel:(struct CGXConnection *)arg1 activity:(unsigned long long)arg2 voucher:(unsigned int)arg3 completionHandler:(unsigned int)arg4 ];
+- (int)dicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
 @end
 

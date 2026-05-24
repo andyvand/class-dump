@@ -7,8 +7,6 @@
 @interface WidgetKit._SimpleDelegate__priv_7CD9974EBF49E061C9CE4E55605646D3
 {
     id states;
-    id allowedImageTypes;
-    id defaultImageType;
 }
 
 @end

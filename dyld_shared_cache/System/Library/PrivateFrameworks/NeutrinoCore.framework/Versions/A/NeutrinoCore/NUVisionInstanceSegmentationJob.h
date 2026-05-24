@@ -6,12 +6,11 @@
 
 #import <NeutrinoCore/NUVisionBasedRenderJob.h>
 
-@class NSArray, VNGenerateImageSegmentationRequest, _NUVisionInstanceSegmentationResult;
+@class VNGenerateImageSegmentationRequest;
 
 @interface NUVisionInstanceSegmentationJob : NUVisionBasedRenderJob
 {
     VNGenerateImageSegmentationRequest *_visionRequest;
-    _NUVisionInstanceSegmentationResult *_visionResult;
 }
 
 - (_Bool);
@@ -25,18 +24,15 @@
 - (_Bool);
 - (CDStruct_912cb5d2);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)onary",C,N,V_colors;
+- (id)are SQL statement '%@':%@ /* Error: Ran out of types for this method. */;
+- (void)model_data          BLOB,                                             push_encoding       INTEGER NOT NULL,                                 push_data           BLOB,                                             push_block_id       INTEGER CONSTRAINT record_v2_block_v2_fkey REFERENCES block_v2 (id) ON DELETE RESTRICT             );;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *targetSamplePoints;
-@property(readonly, nonatomic, getter=isUsingTargetSamplePoints) _Bool usingTargetSamplePoints;
 @property(retain, nonatomic) VNGenerateImageSegmentationRequest *visionRequest; // @synthesize visionRequest=_visionRequest;
-@property(retain, nonatomic) _NUVisionInstanceSegmentationResult *visionResult; // @synthesize visionResult=_visionResult;
 
 @end
 

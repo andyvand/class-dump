@@ -5,5 +5,6 @@
 //
 
 @protocol AFExperimentMutating
+- (void)d_t, the user controller is not running;
 @end
 

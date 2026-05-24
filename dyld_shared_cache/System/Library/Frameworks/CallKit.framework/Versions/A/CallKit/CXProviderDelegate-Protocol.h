@@ -5,5 +5,10 @@
 //
 
 @protocol CXProviderDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUEIDictationVoiceCommandKeyboardAction : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_voiceCommandId;
-    unsigned int _insertions;
-    unsigned int _substituted;
-    unsigned int _deleted;
-    unsigned int _algorithmStatus;
-    struct {
-        unsigned int insertions:1;
-        unsigned int substituted:1;
-        unsigned int deleted:1;
-        unsigned int algorithmStatus:1;
-    } _has;
-    _Bool _hasVoiceCommandId;
 }
 
 - (id);
@@ -29,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,32 +35,22 @@
 - (unsigned int);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)4;
 - (id);
 - (unsigned int);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)decodeDoubleForKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ON m.ROWID = crmj.message_id  JOIN chat AS c ON c.ROWID = crmj.chat_id WHERE (   crmj.delete_date < ?  AND   NOT (m.group_action_type IN (1,3) AND (m.ROWID IN (SELECT message_id FROM message_attachment_join)))  ) GROUP BY    c.guid  ;
 - (id);
-- (id);
-- (id)ecutionPrepareContext;
-- (id)ndOfFirstWordReadyUpstream;
-- (void)RTRIGGEREDHEURISTICRULE_HALLUCINATIONRULE;
+- (id)/;
+- (id)deleteExecutionPrepareContext;
+- (id)_hasAudioPacketContainingEndOfFirstWordReadyUpstream;
+- (void)NLROUTERTRIGGEREDHEURISTICRULE_HALLUCINATIONRULE;
 - (void)tEvent.DODMLASRPersonalizationExperimentContext;
 
 // Remaining properties
-@property(nonatomic) unsigned int algorithmStatus; // @synthesize algorithmStatus=_algorithmStatus;
-@property(nonatomic) unsigned int deleted; // @synthesize deleted=_deleted;
-@property(nonatomic) _Bool hasAlgorithmStatus;
-@property(nonatomic) _Bool hasDeleted;
-@property(nonatomic) _Bool hasInsertions;
-@property(nonatomic) _Bool hasSubstituted;
-@property(nonatomic) _Bool hasVoiceCommandId; // @synthesize hasVoiceCommandId=_hasVoiceCommandId;
-@property(nonatomic) unsigned int insertions; // @synthesize insertions=_insertions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int substituted; // @synthesize substituted=_substituted;
 @property(retain, nonatomic) SISchemaUUID *voiceCommandId; // @synthesize voiceCommandId=_voiceCommandId;
 
 @end

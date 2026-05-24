@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAFloatVector, NSArray;
+@class MAFloatVector;
 
 @interface PGFingerprint
 {
     MAFloatVector *floatArray;
-    NSArray *featureNames;
 }
 
 + (id);
@@ -22,18 +21,17 @@
 + (id);
 + (id);
 + (id);
+- (void)indexValue;
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id)elegate;
+- (id)PGTitleSpecDelegate;
 - (void)veScenes:%d
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *featureNames; // @synthesize featureNames;
 @property(copy, nonatomic) MAFloatVector *floatArray; // @synthesize floatArray;
 
 @end

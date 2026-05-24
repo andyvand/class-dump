@@ -6,26 +6,15 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class NSArray, PGFeaturedTimePeriodMemoryConfiguration, PGGraphMomentNodeCollection, PGGraphSceneFeatureNodeCollection, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class NSArray, PGGraphSceneFeatureNodeCollection;
 
 @interface PGTrendsMemoryGenerator : PGOverTimeMemoryGenerator
 {
     PGGraphSceneFeatureNodeCollection *_allTrendsSceneFeatureNodesInGraph;
-    PGGraphMomentNodeCollection *_winterSportMomentNodes;
-    PGGraphMomentNodeCollection *_restaurantMomentNodes;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    NSArray *_configurations;
-    unsigned long long _minimumNumberOfDefaultMemories;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGOverTheYearsMemoryConfiguration *_fallbackOverTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_fallbackFeaturedYearConfiguration;
 }
 
-+ (id);
-+ (id);
++ (id)registerMouseEventListener:listenOnly: /* Error: Ran out of types for this method. */;
++ (id)W;
 - (id);
 - (id);
 - (id);
@@ -42,18 +31,18 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)moveMouseToElement:(id)arg1 andClickButton:(id)arg2 count:(id)arg3 withModifiers: /* Error: Ran out of types for this method. */;
+- (id)focusedUIElementDidChange: /* Error: Ran out of types for this method. */;
+- (id)editTracker:stringDeleted:differenceFromPreviousString:wasSelected: /* Error: Ran out of types for this method. */;
+- (id)editTracker:selectionChanged:selectionRange:isEditable: /* Error: Ran out of types for this method. */;
+- (void)accessibilityTitleUIElement;
+- (unsigned long long)_setFrontmostApplicationController: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setFocusedTextElementController: /* Error: Ran out of types for this method. */;
+- (id)_focusedApplicationDidChange:(id)arg1;
+- (id)t",&,N,V_window;
+- (id)t to an instance of %@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)ion;
+- (void)ageCategoryAlgorithmsVersion;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *configurations; // @synthesize configurations=_configurations;

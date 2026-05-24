@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMSStickerView, CAShapeLayer, NSUUID, UIImageView, UILabel;
-@protocol AVTStickerCollectionViewCellDelegate, AVTStickerDisclosureValidationDelegate;
+@class UIImageView;
 
 @interface AVTStickerCollectionViewCell
 {
     _Bool _showPrereleaseSticker;
-    _Bool _showSelectionLayer;
-    _Bool _stickerViewIsAnimating;
-    NSUUID *_displaySessionUUID;
-    id <AVTStickerCollectionViewCellDelegate> _delegate;
-    UIImageView *_imageView;
-    AVTMSStickerView *_stickerView;
-    UILabel *_prereleaseLabel;
-    CAShapeLayer *_selectionLayer;
-    struct CGSize _fullImageSize;
-    struct CGRect _clippingRect;
 }
 
 + (struct CGPath *);
@@ -30,7 +19,7 @@
 - (_Bool);
 - (struct CGRect);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -43,7 +32,7 @@
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGSize);
 - (id);
 - (id);
@@ -52,7 +41,7 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)raidFailedReadQCopyInternal;
 - (id);
 - (void);
 - (void);
@@ -62,19 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPeel;
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(nonatomic) __weak id <AVTStickerCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate;
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(nonatomic) struct CGSize fullImageSize; // @synthesize fullImageSize=_fullImageSize;
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) UILabel *prereleaseLabel; // @synthesize prereleaseLabel=_prereleaseLabel;
-@property(retain, nonatomic) CAShapeLayer *selectionLayer; // @synthesize selectionLayer=_selectionLayer;
-@property(nonatomic) _Bool showPrereleaseSticker; // @synthesize showPrereleaseSticker=_showPrereleaseSticker;
-@property(nonatomic) _Bool showSelectionLayer; // @synthesize showSelectionLayer=_showSelectionLayer;
-@property(readonly, nonatomic) AVTMSStickerView *stickerView; // @synthesize stickerView=_stickerView;
-@property(nonatomic) _Bool stickerViewIsAnimating; // @synthesize stickerViewIsAnimating=_stickerViewIsAnimating;
 
 @end
 

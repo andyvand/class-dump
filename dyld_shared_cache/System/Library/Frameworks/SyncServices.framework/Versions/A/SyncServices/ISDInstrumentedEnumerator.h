@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDCallHistory, NSEnumerator;
+@class ISDCallHistory;
 
 @interface ISDInstrumentedEnumerator
 {
     ISDCallHistory *_callHistory;
-    NSEnumerator *_enumerator;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)h;
 - (id);
 - (id);
 

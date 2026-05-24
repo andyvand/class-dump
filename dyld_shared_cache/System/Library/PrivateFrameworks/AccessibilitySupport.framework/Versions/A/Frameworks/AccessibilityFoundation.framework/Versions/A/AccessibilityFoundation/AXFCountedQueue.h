@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFDispatchGroup, AXFDispatchQueue, AXFDispatchSemaphore, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AXFDispatchQueue;
 
 @interface AXFCountedQueue
 {
     AXFDispatchQueue *__workQueue;
-    AXFDispatchQueue *__stagingQueue;
-    AXFDispatchSemaphore *__semaphore;
-    AXFDispatchGroup *__group;
 }
 
 - (void);
@@ -25,27 +21,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)e participants with %@ (%@);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AXFDispatchGroup *_group; // @synthesize _group=__group;
-@property(readonly, nonatomic) AXFDispatchSemaphore *_semaphore; // @synthesize _semaphore=__semaphore;
-@property(readonly, nonatomic) AXFDispatchQueue *_stagingQueue; // @synthesize _stagingQueue=__stagingQueue;
 @property(readonly, nonatomic) AXFDispatchQueue *_workQueue; // @synthesize _workQueue=__workQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *underlyingQueue;
 
 @end
 

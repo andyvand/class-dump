@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLLexicon, NLTokenizer, NSString;
+@class NSString;
 
 @interface NLLanguageModel
 {
     NSString *_localization;
-    void *_model;
-    NLLexicon *_lexicon;
-    NLTokenizer *_tokenizer;
 }
 
 + (id);
@@ -26,10 +23,10 @@
 - (double);
 - (_Bool);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
-- (id);
+- (id)ntentStringStepENS_9allocatorIS3_EEEE;
 - (id);
 - (id);
 - (long long);
@@ -37,7 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NLLexicon *lexicon;
 @property(readonly, copy) NSString *localization;
 
 @end

@@ -11,24 +11,13 @@
 @interface BWCinematicVideoMetadataNode : BWNode
 {
     struct opaqueCMFormatDescription *_metadataFormatDescription;
-    _Bool _previousGeneratedMetadataBufferWasEmpty;
-    struct OpaqueCMBlockBuffer *_emptyMetadataSampleData;
-    BWNodeOutput *_passthruOutput;
-    BWNodeOutput *_metadataOutput;
-    unsigned int _localIDForAperture_BE;
-    unsigned int _localIDForDisparity_BE;
-    unsigned int _localIDForCinematographyMetadata_BE;
-    unsigned int _localIDForRenderingMetadata_BE;
-    unsigned int _localIDForStabilizationMetadata_BE;
-    unsigned int _localIDForDialogueLevel_BE;
-    unsigned int _localIDForAmbienceLevel_BE;
 }
 
 + (void)dataFunnelNode error:&error] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)with date or time in line in signature.;
 - (id);
 - (void);
 - (id);
@@ -38,7 +27,6 @@
 - (void)©dÿ±`ÿ¹\ÿÁYÿÉTÿÒPÿØLÿÞIÿàHÿàGÿ$«jÿ$«jÿ$«jÿ$«jÿ$ªjÿ$ªjÿ$ªiÿ$ªiÿ$©iÿ*©hÿ5©hÿ?©hÿI©gÿS©gÿ]¨gÿf¨fÿo¨fÿx©fÿ©eÿ©eÿªdÿ ªcÿ«ªcÿ³§_ÿ»¥[ÿÃ¢WÿË SÿÓOÿÚKÿßIÿâGÿáFÿ!³gÿ!³gÿ!³gÿ!³gÿ!³gÿ!³gÿ!³fÿ!³fÿ!²fÿ"²eÿ-²eÿ9²dÿC²dÿM²cÿX²cÿb²cÿk²bÿt²bÿ²aÿ³`ÿ³`ÿ´_ÿ©´^ÿµµ]ÿ½²YÿÅ°UÿÍ®QÿÖ¬MÿÝªIÿâ©Gÿä©Eÿä¨Dÿ»eÿ»eÿ»eÿ»eÿ»dÿ»dÿ»dÿºcÿºcÿºcÿ&ºbÿ3ºaÿ>ºaÿHº`ÿTº`ÿ^º_ÿgº_ÿq»^ÿ|»]ÿ»]ÿ¼\ÿ¼Zÿ§½Yÿ³¾Xÿ¿¾WÿÇ¼RÿÏºNÿØ¸Jÿß·Gÿä¶Dÿç¶CÿçµBÿÂcÿÂbÿÂbÿÂbÿÂbÿÂbÿÂaÿÂaÿÂaÿÂ`ÿÂ`ÿ,Â_ÿ8Â^ÿDÂ^ÿOÂ]ÿZÂ\ÿdÃ[ÿnÃ[ÿyÃZÿÄYÿÅXÿÅVÿ¥ÆUÿ²ÇSÿ½ÇRÿÈÈQÿÑÆLÿÚÅHÿáÄEÿçÃBÿéÃAÿéÂ@ÿÉ`ÿÉ`ÿÉ`ÿÉ`ÿÉ`ÿÉ`ÿÉ_ÿÉ_ÿÉ^ÿÉ^ÿÉ]ÿ&É]ÿ3É\ÿ?Ê[ÿKÊZÿVÊYÿaËXÿkËWÿwÌVÿÌUÿÍTÿÎRÿ£ÏQÿ°ÐOÿ¼ÐMÿÇÑLÿÒÒKÿÜÑFÿãÐCÿéÐ@ÿëÏ?ÿëÏ>ÿÑ_ÿÑ_ÿÑ^ÿÑ^ÿÑ^ÿÑ^ÿÑ]ÿÑ]ÿÑ\ÿÑ\ÿÑ[ÿÑZÿ.ÑZÿ:(id)arg1 ÑYÿGÒXÿRÒWÿ]ÓVÿhÓTÿtÔSÿÕRÿÖPÿ×Oÿ¡ØMÿ¯ÙKÿ»ÚIÿÇÛHÿÒÜFÿÝÝDÿåÝAÿëÜ?ÿíÜ=ÿíÜ<ÿÖ^ÿÖ^ÿ×]ÿ×]ÿ×]ÿ×]ÿ×\ÿ×\ÿ×[ÿ×[ÿ×Zÿ×Yÿ*×Xÿ7×WÿEØVÿPØUÿ[ÙTÿfÚSÿrÛQÿ}ÛPÿÜNÿÞMÿ ßKÿ®àIÿºáGÿÆãEÿÒäCÿÝåBÿææ@ÿìæ>ÿïæ<ÿïæ<ÿÛ^ÿÛ]ÿÛ]ÿÛ]ÿÛ]ÿÛ\ÿÛ\ÿÛ\ÿÛ[ÿÛZÿÛZÿÜYÿ)ÜXÿ6ÜWÿCÝUÿOÝTÿZÞSÿeßRÿqàPÿ}áOÿâMÿãKÿ äJÿ­æGÿºçEÿÆéDÿÒêBÿÞë@ÿæì?ÿíí>ÿðí<ÿðí;ÿß^ÿß^ÿß^ÿß^ÿß^ÿß]ÿß]ÿß\ÿß\ÿß[ÿßZÿßYÿ*ßXÿ6àWÿDàVÿOáUÿZáSÿeâRÿqãPÿ|äOÿåMÿæKÿçJÿ­éGÿ¹êEÿÆìCÿÑíBÿÞï@ÿçð?ÿíñ>ÿññ=ÿññ<ÿá`ÿá`ÿá`ÿá`ÿá`ÿá_ÿá_ÿá^ÿá^ÿá]ÿá\ÿ á[ÿ.áZÿ:(id)arg2 áYÿFâXÿQâVÿ[ãUÿfãTÿräRÿ}åQÿæOÿçMÿ èKÿ­êIÿºëGÿÆíEÿÑîCÿÝïBÿæñ@ÿíñ?ÿñò?ÿñò>ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *metadataOutput; // @synthesize metadataOutput=_metadataOutput;
 @property(readonly, nonatomic) BWNodeOutput *passthruOutput; // @synthesize passthruOutput=_passthruOutput;
 
 @end

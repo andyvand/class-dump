@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (id)antHandlerMap;
+- (id)_instantHandlerMap;
 
 @end
 

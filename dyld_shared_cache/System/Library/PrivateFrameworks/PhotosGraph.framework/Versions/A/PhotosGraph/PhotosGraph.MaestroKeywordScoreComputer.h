@@ -7,7 +7,6 @@
 @interface PhotosGraph.MaestroKeywordScoreComputer
 {
     id features;
-    id regionalComputer;
 }
 
 @end

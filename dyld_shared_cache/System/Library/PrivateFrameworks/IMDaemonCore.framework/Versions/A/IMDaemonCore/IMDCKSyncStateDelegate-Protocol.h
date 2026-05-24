@@ -5,5 +5,8 @@
 //
 
 @protocol IMDCKSyncStateDelegate
+
+@optional
+- (void)hh8h;
 @end
 

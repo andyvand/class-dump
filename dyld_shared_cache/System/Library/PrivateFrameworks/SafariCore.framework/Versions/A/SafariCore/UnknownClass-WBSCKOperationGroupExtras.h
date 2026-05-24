@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (WBSCKOperationGroupExtras)
 + (id);
 + (id);
@@ -14,6 +12,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long safari_kind;
-@property(readonly, copy, nonatomic) NSString *safari_logDescription;
 @end
 

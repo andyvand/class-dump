@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)gParameters"b1"read_logEventParameters"b1"read_queryParameters"b1"read_submissionParameters"b1"read_tdmFraudNotificationParameters"b1"wrote_anyField"b1};
-- (id)arHeadunitConnectionType;
+- (id)_carHeadunitConnectionType;
 - (id)û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)!ÊÇ#ýï¿éH.ÿ!ý¿ñï3.¿1ÎßB|?G¬Å§;
 

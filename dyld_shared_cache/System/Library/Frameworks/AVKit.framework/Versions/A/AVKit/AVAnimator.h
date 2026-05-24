@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface AVAnimator
 {
     id _animationTarget;
-    id _defaultAnimator;
-    id _currentTarget;
-    NSSet *_passThroughSelectorStrings;
-    unsigned long long _animatingRefCount;
 }
 
 - (id);

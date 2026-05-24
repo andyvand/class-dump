@@ -7,14 +7,17 @@
 @class AKInheritanceAccessKey, NSString, NSUUID;
 
 @protocol AAInheritanceContact
+- (NSString *)the profile:%ld (%s) /* Error: Ran out of types for this method. */;
+- (unsigned long long)rofile id:'%s' /* Error: Ran out of types for this method. */;
+- (NSUUID *)= %d;
+- (id)ManagedClient.notification.PlugInKit.management;
+- (NSString *)oudConfig:DEPSimulator(APNS) still stalling (%0.2f more seconds) /* Error: Ran out of types for this method. */;
+- (void).;
+- (NSString *)10.bundle;
+- (NSUUID *)f range;
+- (AKInheritanceAccessKey *)st be FP32 or FP16.;
 
 // Remaining properties
-@property(retain, nonatomic) AKInheritanceAccessKey *accessKey;
-@property(readonly, nonatomic) NSString *benefactorAltDSID;
 @property(readonly, nonatomic) NSUUID *beneficiaryID;
-@property(readonly, nonatomic) NSUUID *otPeerID;
-@property(readonly, nonatomic) NSString *recordBuildVersion;
-@property(readonly, nonatomic) unsigned long long repairCount;
-@property(readonly, nonatomic) NSString *repairDate;
 @end
 

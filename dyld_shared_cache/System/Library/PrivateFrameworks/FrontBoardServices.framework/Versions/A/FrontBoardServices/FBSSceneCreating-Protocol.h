@@ -5,5 +5,8 @@
 //
 
 @protocol FBSSceneCreating
+
+@optional
+- (void)c;
 @end
 

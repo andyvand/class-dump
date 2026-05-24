@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)rogress",&,V_confirmProgress;
 - (void)0@ù
 × ;
 

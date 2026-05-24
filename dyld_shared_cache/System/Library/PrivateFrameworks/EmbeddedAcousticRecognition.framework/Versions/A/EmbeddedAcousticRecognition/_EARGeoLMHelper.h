@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _EARGeoLMHelper
 {
     struct unique_ptr<quasar::Geography, std::default_delete<quasar::Geography>> _geography;
-    NSString *_locale;
 }
 
 - (id);

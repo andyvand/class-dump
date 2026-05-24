@@ -6,18 +6,16 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AAWalrusPCSAuthRequest : AARequest
 {
     NSDictionary *_bodyParams;
-    ACAccount *_account;
-    NSString *_internalURLString;
 }
 
+- (id)configuration;
 - (id);
-- (id);
-- (void)tTelemetryTimeSeries: /* Error: Ran out of types for this method. */;
+- (void)setTelemetryTimeSeries: /* Error: Ran out of types for this method. */;
 - (id)rsionUpdate%ldToVersion%ld;
 
 @end

@@ -8,21 +8,21 @@
 {
 }
 
-+ (id);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGRect);
-- (struct CGPoint);
++ (id)NAME<CFNACOAuthSigner>::GET() [OBJTYPE = CFNACOAuthSigner] /* Error: Ran out of types for this method. */;
+- (struct CGRect)0C8^v12;
+- (struct CGRect)kCFStreamSSLAllowsExpiredRoots;
+- (struct CGRect)kCFStreamSSLAllowsExpiredCertificates;
+- (struct CGRect)ntity returned %d;
+- (struct CGRect)tPSKSharedSecret returned %d;
+- (struct CGRect)_kCFStreamSocketSecurityClosePrivateMode;
+- (struct CGPoint)e %s, port %d;
+- (struct CGPoint)opportunistic;
+- (struct CGPoint)ection;
+- (struct CGPoint)ing connection;
+- (struct CGPoint)oute detected;
+- (struct CGPoint)onnection viability changed;
+- (struct CGRect)6kb;
+- (struct CGPoint)6kA;
 - (struct CGRect);
 - (struct CGPoint);
 - (id);

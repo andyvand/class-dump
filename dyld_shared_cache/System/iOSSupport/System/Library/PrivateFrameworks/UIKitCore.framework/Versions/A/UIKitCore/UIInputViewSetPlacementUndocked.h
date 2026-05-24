@@ -13,24 +13,24 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _chromeBuffer;
 }
 
-+ (struct CGPoint);
++ (struct CGPoint)tType;
 + (id);
 + (id);
-+ (_Bool)eltaUnits;
++ (_Bool)imageBytesDeltaUnits;
 - (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (double);
-- (struct UIEdgeInsets);
+- (void)ID %@, found similar in-progress request with ID %@ - will piggyback off of existing request instead of starting a new one.;
+- (void)g (%@);
+- (struct CGPoint)le;
+- (double)nvoke;
+- (struct UIEdgeInsets);
 - (id);
 - (_Bool);
 - (id);
 - (struct CGRect)\ð1Â0@ù
 × ;
-- (_Bool)ifierForStringsFile;
-- (void)AutocorrectionToText:(id)arg1 fromRect: /* Error: Ran out of types for this method. */;
-- (Class)or;
+- (_Bool)identifierForStringsFile;
+- (void)animateAutocorrectionToText:(id)arg1 fromRect: /* Error: Ran out of types for this method. */;
+- (Class)coreLayoutInvalidator;
 - (id)ScreenEdgePanGestureRecognizer.edges;
 - (void)er/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
 - (_Bool);

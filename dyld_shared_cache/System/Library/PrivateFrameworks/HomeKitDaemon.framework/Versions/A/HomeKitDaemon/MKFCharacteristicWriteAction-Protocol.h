@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCharacteristicWriteActionDatabaseID, NSNumber, NSObject;
-@protocol MKFHAPAccessory, MKFHome, MKFService;
+@class NSNumber;
+@protocol MKFHome;
 
 @protocol MKFCharacteristicWriteAction
+- (NSNumber *)Maps is not authorised for Contacts;
 - (id <MKFHome>);
 - (void)Ó<1=;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFHAPAccessory> accessory;
 @property(copy, nonatomic) NSNumber *characteristicID;
-@property(readonly, copy, nonatomic) MKFCharacteristicWriteActionDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFService> service;
-@property(retain, nonatomic) NSObject *targetValue;
 @end
 

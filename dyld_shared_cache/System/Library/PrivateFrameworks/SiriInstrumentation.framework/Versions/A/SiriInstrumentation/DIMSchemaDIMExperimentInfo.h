@@ -6,23 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface DIMSchemaDIMExperimentInfo : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    SISchemaUUID *_treatmentId;
-    long long _deploymentId;
-    CDStruct_487889ba _has;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)tModalForWindow:(_Bool)arg1 completionHandler:helpHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -35,25 +30,19 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ÑÞÐ1Â0@ù
 × ;
 - (id)encySignals";
-- (void)ssDurationInNs;
-- (id)d;
-- (long long)SchemaGATGenerativeRequestEventFailed;
+- (void)_secondaryPassDurationInNs;
+- (id)NLXSchemaCDMAllServicesSetupFailed;
+- (long long)GATSchemaGATGenerativeRequestEventFailed;
 - (id)àP;
 - (void)´Åµÿ {²ôÍ%;
 
 // Remaining properties
-@property(nonatomic) long long deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

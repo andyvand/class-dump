@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, UIView, UIVisualEffectView, _UIPortalView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIInteractiveHighlightViewRecord
 {
     UIView *_view;
-    UIView *_superview;
-    UIVisualEffectView *_effectView;
-    _UIPortalView *_portalView;
-    NSHashTable *_interactiveHighlightEffects;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)0@48@56@64@72@80@88@96@104@112@120;
+- (id)respondToNotificationWithIdentifier:sessionIdentifier:actionIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)Incorrect Chat Participant;
 - (void);
 - (void);
 - (id)0@ù
@@ -30,10 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)a±43d+tþ;
 
 // Remaining properties
-@property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(retain, nonatomic) NSHashTable *interactiveHighlightEffects; // @synthesize interactiveHighlightEffects=_interactiveHighlightEffects;
-@property(retain, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(nonatomic) __weak UIView *superview; // @synthesize superview=_superview;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

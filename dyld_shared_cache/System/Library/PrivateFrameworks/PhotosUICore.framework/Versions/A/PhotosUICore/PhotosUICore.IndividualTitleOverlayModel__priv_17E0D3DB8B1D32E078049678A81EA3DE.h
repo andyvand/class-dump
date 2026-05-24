@@ -7,16 +7,6 @@
 @interface PhotosUICore.IndividualTitleOverlayModel__priv_17E0D3DB8B1D32E078049678A81EA3DE
 {
     id titleModel;
-    id _opacity;
-    id _style;
-    id _position;
-    id _bottomInset;
-    id _fractionFloating;
-    id _topChromeGeometry;
-    id _banner;
-    id presentationEnvironment;
-    id _action;
-    id _$observationRegistrar;
 }
 
 @end

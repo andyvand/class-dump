@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMediaToken, NSString;
-@protocol AMSMediaTokenServiceKeychainStoreProtocol;
-
 __attribute__((visibility("hidden")))
 @interface AMSMediaTokenServiceStore
 {
     _Bool _usingAccessControlIdentifier;
-    _Bool _patBasedToken;
-    struct os_unfair_lock_s _accessLock;
-    NSString *_keychainAccessGroup;
-    NSString *_clientIdentifier;
-    AMSMediaToken *_memoryMediaToken;
-    id <AMSMediaTokenServiceKeychainStoreProtocol> _keychainStore;
-    NSString *_notificationObject;
 }
 
 + (_Bool);
@@ -30,15 +20,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)turnOnSiriView;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)supportedQueueEndActionsCount;
+- (void)vantRouteDetector] %@:(id)arg1 DataSource says output device %@ is %@;
 - (void);
 - (void);
 - (id);
@@ -50,20 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessLock; // @synthesize accessLock=_accessLock;
-@property(readonly, copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *keychainAccessGroup; // @synthesize keychainAccessGroup=_keychainAccessGroup;
-@property(readonly, nonatomic) id <AMSMediaTokenServiceKeychainStoreProtocol> keychainStore; // @synthesize keychainStore=_keychainStore;
-@property(retain, nonatomic) AMSMediaToken *memoryMediaToken; // @synthesize memoryMediaToken=_memoryMediaToken;
-@property(readonly, nonatomic) NSString *notificationObject; // @synthesize notificationObject=_notificationObject;
-@property(nonatomic) _Bool patBasedToken; // @synthesize patBasedToken=_patBasedToken;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usingAccessControlIdentifier; // @synthesize usingAccessControlIdentifier=_usingAccessControlIdentifier;
 
 @end
 

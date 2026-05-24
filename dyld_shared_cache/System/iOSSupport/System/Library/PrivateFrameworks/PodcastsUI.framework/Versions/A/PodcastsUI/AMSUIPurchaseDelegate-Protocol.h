@@ -5,5 +5,8 @@
 //
 
 @protocol AMSUIPurchaseDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 @interface AMSEngagementMessageAction
 {
     _Bool _requiresDelegate;
-    NSDictionary *_clickstreamMetricsEvent;
-    NSURL *_deepLink;
-    NSString *_identifier;
-    NSURL *_iconURL;
-    NSString *_kind;
-    AMSMetricsEvent *_metricsEvent;
-    NSDictionary *_parameters;
-    long long _style;
-    NSString *_title;
 }
 
 - (void);
@@ -40,7 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Library/PrivateFrameworks/IOSurfaceAccelerator.framework/Versions/A/IOSurfaceAccelerator;
 - (id)4éüê;
 - (id)as deleted (expired/orphaned);
 - (void))MîA'M{A)M¨A+M1A)MöA/MwA)MA+MAM½A'MsAMAM>AMEAM\AMAMûAÀ7	ê±ti½úû/éåy³_P)K¢o^õk"íQ¿ýÄÒbTnçcü©Ë¼Þ×ÍøÐ3YÂµùXÊª¥§-{ð¶»ÁC1(v8­´Bâ=þw«ï$
@@ -48,15 +39,6 @@ gÓEÇLë>?:ñ df¾èöæ&9|J5qÕì]'ZR\¦NÛeò¡Oà*jÃ®ô
 
 // Remaining properties
 @property(copy) NSDictionary *clickstreamMetricsEvent; // @synthesize clickstreamMetricsEvent=_clickstreamMetricsEvent;
-@property(retain) NSURL *deepLink; // @synthesize deepLink=_deepLink;
-@property(retain) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *kind; // @synthesize kind=_kind;
-@property(copy) AMSMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(copy) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property _Bool requiresDelegate; // @synthesize requiresDelegate=_requiresDelegate;
-@property long long style; // @synthesize style=_style;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

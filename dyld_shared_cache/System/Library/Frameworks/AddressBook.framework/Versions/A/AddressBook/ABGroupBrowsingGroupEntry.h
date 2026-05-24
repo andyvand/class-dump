@@ -6,13 +6,11 @@
 
 #import <AddressBook/ABBrowsingGroupEntry.h>
 
-@class ABAccount, ABAddressBook, ABGroup;
+@class ABAccount;
 
 @interface ABGroupBrowsingGroupEntry : ABBrowsingGroupEntry
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABGroup *_group;
 }
 
 + (id);
@@ -41,17 +39,15 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ibressl-2.2/crypto/pkcs12/p12_init.c;
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, retain) ABAccount *account; // @synthesize account=_account;
-@property(readonly, retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly, retain) ABGroup *group; // @synthesize group=_group;
 
 @end
 

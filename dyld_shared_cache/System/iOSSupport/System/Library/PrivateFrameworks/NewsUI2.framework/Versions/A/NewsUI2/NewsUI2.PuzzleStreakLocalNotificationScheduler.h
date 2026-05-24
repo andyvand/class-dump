@@ -7,11 +7,6 @@
 @interface NewsUI2.PuzzleStreakLocalNotificationScheduler
 {
     id notificationService;
-    id calendar;
-    id secondsPastMidnightToDeliverNotification;
-    id puzzleHistoryService;
-    id configurationManager;
-    id puzzleStreakThreadIdentifier;
 }
 
 - (id);

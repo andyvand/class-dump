@@ -5,6 +5,8 @@
 //
 
 @protocol _UIWindowSceneMacComponent
+- (void)historyQuery:(double)arg1 chatID:services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(setter=_setUsesToolbarSemanticContext:) _Bool _usesToolbarSemanticContext;

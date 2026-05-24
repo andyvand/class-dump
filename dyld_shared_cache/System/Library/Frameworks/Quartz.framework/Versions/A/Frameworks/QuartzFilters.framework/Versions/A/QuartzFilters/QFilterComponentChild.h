@@ -11,7 +11,7 @@
     QFilterComponent *_parent;
 }
 
-- (id);
+- (id)setKeyData: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

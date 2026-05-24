@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ICURLBagMescalConfiguration
 {
     _Bool _shouldSignBody;
-    _Bool _shouldIncludePath;
-    NSArray *_fields;
-    NSArray *_headers;
 }
 
 - (_Bool);
@@ -19,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ngs >>>;
 - (void);
 - (void);
 - (void)r;
@@ -27,9 +22,6 @@
 AxþAxAx¹Axã]Ï½/qãëy'µÇUÁSí!³»)wå[Édö¨:HÚÒ@2 þl4¦øjÔFNÜbð®<"°î|ÂPXÊtæ¸*rà¾, /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *fields; // @synthesize fields=_fields;
-@property(copy, nonatomic) NSArray *headers; // @synthesize headers=_headers;
-@property(nonatomic) _Bool shouldIncludePath; // @synthesize shouldIncludePath=_shouldIncludePath;
 @property(nonatomic) _Bool shouldSignBody; // @synthesize shouldSignBody=_shouldSignBody;
 
 @end

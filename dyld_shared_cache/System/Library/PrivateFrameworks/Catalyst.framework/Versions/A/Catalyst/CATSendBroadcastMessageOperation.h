@@ -6,18 +6,17 @@
 
 #import <Catalyst/CATOperation.h>
 
-@protocol CATDictionaryCodable, CATSharingBroadcastPrimitives;
+@protocol CATSharingBroadcastPrimitives;
 
 __attribute__((visibility("hidden")))
 @interface CATSendBroadcastMessageOperation : CATOperation
 {
     id <CATSharingBroadcastPrimitives> mBroadcastPrimitives;
-    id <CATDictionaryCodable> mMessage;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)e;
 - (void);
 - (_Bool);
 

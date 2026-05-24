@@ -6,25 +6,15 @@
 
 #import <UIKitCore/UIStatusBarItemView.h>
 
-@class UIImage, UIView, _UILegibilityImageSet;
+@class _UILegibilityImageSet;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarBatteryItemView : UIStatusBarItemView
 {
     int _capacity;
-    int _state;
-    _Bool _batterySaverModeActive;
-    UIView *_accessoryView;
-    _Bool _cachedImageHasAccessoryImage;
-    int _cachedCapacity;
-    int _cachedAXHUDCapacity;
-    _UILegibilityImageSet *_cachedImageSet;
-    unsigned long long _cachedBatteryStyle;
-    unsigned long long _cachedAXHUDStyle;
-    UIImage *_cachedAXHUDImage;
 }
 
-- (_Bool);
+- (_Bool)_shouldPostParticipantChangeNoticesForChat:(id)arg1 withParticipants:(int)arg2 forNoticeType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,16 +23,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
-- (id);
-- (id);
-- (_Bool);
-- (int);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (int);
-- (void);
+- (double)d group photo among inconsistent merged chats. Leaving inconsistency as is.;
+- (id).;
+- (id)es for chatIdentifiers %@ onServices %@. %d messages will be deleted.;
+- (_Bool)chat:%@ /* Error: Ran out of types for this method. */;
+- (int)atRegistry for messageIdentifier:%lld /* Error: Ran out of types for this method. */;
+- (unsigned long long)uldn't find existing chat with guid:%@ in IMDChatRegistry for messageIdentifier:%lld /* Error: Ran out of types for this method. */;
+- (unsigned long long)ound Chats:%@ /* Error: Ran out of types for this method. */;
+- (id)stry for messageGUID:%@ /* Error: Ran out of types for this method. */;
+- (int)hat with guid:%@ in IMDChatRegistry for messageGUID:%@ /* Error: Ran out of types for this method. */;
+- (void)cipants from sender:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (struct CGSize);
@@ -51,12 +41,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) int cachedAXHUDCapacity; // @synthesize cachedAXHUDCapacity=_cachedAXHUDCapacity;
-@property(retain, nonatomic) UIImage *cachedAXHUDImage; // @synthesize cachedAXHUDImage=_cachedAXHUDImage;
-@property(nonatomic) unsigned long long cachedAXHUDStyle; // @synthesize cachedAXHUDStyle=_cachedAXHUDStyle;
-@property(nonatomic) unsigned long long cachedBatteryStyle; // @synthesize cachedBatteryStyle=_cachedBatteryStyle;
-@property(nonatomic) int cachedCapacity; // @synthesize cachedCapacity=_cachedCapacity;
-@property(nonatomic) _Bool cachedImageHasAccessoryImage; // @synthesize cachedImageHasAccessoryImage=_cachedImageHasAccessoryImage;
 @property(retain, nonatomic) _UILegibilityImageSet *cachedImageSet; // @synthesize cachedImageSet=_cachedImageSet;
 
 @end

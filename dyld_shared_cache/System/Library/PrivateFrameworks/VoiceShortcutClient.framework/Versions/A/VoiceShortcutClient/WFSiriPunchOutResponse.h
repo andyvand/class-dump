@@ -11,11 +11,11 @@
     _Bool _shouldPunchOut;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
 - (_Bool);
+- (id)3|;
 - (id);
-- (id);
-- (void);
+- (void)get an instance of CLSEndpointConnection. Cannot notify progressd about account change.;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldPunchOut; // @synthesize shouldPunchOut=_shouldPunchOut;

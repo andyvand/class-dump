@@ -4,46 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, UIColor;
+@class NSDictionary, NSString, NSURL;
 
 @protocol QLPreviewItemPrivateProtocol
 
+@optional
+- (NSDictionary *);
+
 // Remaining properties
-@property(readonly) NSString *MIMEType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSURL *alternateShareURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R
-
-@property(readonly) double autoPlaybackPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) UIColor *backgroundColorOverride;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R
-
-@property(readonly, nonatomic) _Bool isPromisedItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSString *previewItemContentType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
-@property(copy, nonatomic) NSDictionary *previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,C,N
-
 @property(readonly) NSURL *previewItemURLForDisplay;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSURL",?,R
-
-@property(copy, nonatomic) NSDictionary *previewOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,C,N
 
 @end
 

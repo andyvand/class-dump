@@ -4,44 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableDictionary, UICollectionView, UICollectionViewLayoutInvalidationContext, UIColor, UIDynamicAnimator, _UICollectionViewAnimationContext, _UICollectionViewCompositionLayout, _UICollectionViewLayoutSwipeActionsModule;
+@class UICollectionView;
 
 @interface UICollectionViewLayout
 {
     UICollectionView *_collectionView;
-    struct CGSize _collectionViewBoundsSize;
-    NSMutableDictionary *_initialAnimationLayoutAttributesDict;
-    NSMutableDictionary *_finalAnimationLayoutAttributesDict;
-    NSMutableDictionary *_deletedSupplementaryIndexPathsDict;
-    NSMutableDictionary *_insertedSupplementaryIndexPathsDict;
-    NSMutableDictionary *_deletedDecorationIndexPathsDict;
-    NSMutableDictionary *_insertedDecorationIndexPathsDict;
-    NSMutableDictionary *_decorationViewClassDict;
-    NSMutableDictionary *_decorationViewNibDict;
-    NSMutableDictionary *_decorationViewExternalObjectsTables;
-    UICollectionViewLayout *_transitioningFromLayout;
-    UICollectionViewLayout *_transitioningToLayout;
-    UIDynamicAnimator *_animator;
-    UICollectionViewLayoutInvalidationContext *_invalidationContext;
-    _UICollectionViewLayoutSwipeActionsModule *_swipeActionsModule;
-    struct CGRect _frame;
-    NSIndexSet *_sections;
-    NSIndexSet *_items;
-    NSArray *_elementKinds;
-    _UICollectionViewCompositionLayout *_compositionLayout;
-    UICollectionViewLayout *_siblingLayout;
-    struct CGPoint _layoutOffset;
-    unsigned long long _layoutOffsetEdges;
-    struct {
-        unsigned int inTransitionFromTransitionLayout:1;
-        unsigned int inTransitionToTransitionLayout:1;
-        unsigned int prepared:1;
-        unsigned int wantsRightToLeftHorizontalMirroringIfNeeded:1;
-        unsigned int isEditing:1;
-    } _layoutFlags;
-    UIColor *_preferredBackgroundColor;
-    long long _sublayoutType;
-    _UICollectionViewAnimationContext *_collectionViewAnimationContext;
 }
 
 @end

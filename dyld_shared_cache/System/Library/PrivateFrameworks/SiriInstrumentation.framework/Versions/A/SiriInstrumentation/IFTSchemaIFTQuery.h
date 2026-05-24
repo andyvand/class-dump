@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTQuery : SISchemaInstrumentationMessage
 {
     int _sortOrder;
-    struct {
-        unsigned int sortOrder:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,45 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)kup (identifier, domain, chat, priority)
+SELECT group_id, 'iMessageGroupID', rowid, 0
+FROM chat
+WHERE service_name = 'iMessage'
+AND style = 43
+AND group_id IS NOT NULL
+ON CONFLICT (identifier, domain) DO
+    UPDATE SET chat = excluded.chat
+    WHERE
+    ( (
+        SELECT COUNT(*) FROM chat_message_join cm
+        WHERE cm.chat_id = chat
+    ) == 0
+    AND
+    (
+        SELECT COUNT(*) FROM chat_message_join cm
+        WHERE cm.chat_id = excluded.chat
+    ) > 0 )
+    OR
+    (
+       SELECT cm.message_id FROM chat_message_join cm
+       WHERE cm.chat_id = chat
+       ORDER BY cm.message_date DESC, cm.message_id DESC
+       LIMIT 1
+    ) < (
+       SELECT cm.message_id
+       FROM chat_message_join cm where cm.chat_id = excluded.chat
+       ORDER BY cm.message_date DESC, cm.message_id DESC
+       LIMIT 1
+    );;
 - (_Bool);
-- (id);
+- (id)__objc_methtype;
 - (id)1Â0@ù
 × ;
 - (id)onPromptForValueEnded",&,N,V_ended;
 - (int)atementResult",&,N,V_statementEvaluated;
-- (id)eechProfileSchemaASRSpeechProfileUpdateEntityMetric;
+- (id)ASRSpeechProfileSchemaASRSpeechProfileUpdateEntityMetric;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSortOrder;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int sortOrder; // @synthesize sortOrder=_sortOrder;
 
 @end

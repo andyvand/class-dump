@@ -11,8 +11,8 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)deleteActionsWithIdentifiers:(id)arg1;
+- (id)p   float);;
 - (id);
 - (void);
 

@@ -6,20 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKDeviceCapabilityCheckOptions, NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDCheckSupportedDeviceCapabilitiesURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _supportedDeviceCapabilitiesCheckedForZoneBlock;
-    CDUnknownBlockType _continuationResponseBlock;
-    CDUnknownBlockType _errorFromServerBlock;
-    CDUnknownBlockType _errorFromClientValidationBlock;
-    NSArray *_continuations;
-    NSArray *_zoneIDs;
-    NSArray *_desiredCapabilitySets;
-    CKDeviceCapabilityCheckOptions *_options;
-    NSMutableDictionary *_zoneIDByRequestID;
-    NSMutableDictionary *_capabililitySetsByRequestID;
 }
 
 - (CDUnknownBlockType);
@@ -34,7 +25,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)h;
 - (id);
 - (void);
 - (void);
@@ -43,25 +34,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)CycleDetection;
+- (id)ForceNoQueuedFetchCycleDetection;
 - (void)the target zone must be saved;
 - (id)hecking manatee state;
 - (id)ache.;
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *capabililitySetsByRequestID; // @synthesize capabililitySetsByRequestID=_capabililitySetsByRequestID;
-@property(copy, nonatomic) CDUnknownBlockType continuationResponseBlock; // @synthesize continuationResponseBlock=_continuationResponseBlock;
 @property(retain, nonatomic) NSArray *continuations; // @synthesize continuations=_continuations;
-@property(retain, nonatomic) NSArray *desiredCapabilitySets; // @synthesize desiredCapabilitySets=_desiredCapabilitySets;
-@property(copy, nonatomic) CDUnknownBlockType errorFromClientValidationBlock; // @synthesize errorFromClientValidationBlock=_errorFromClientValidationBlock;
-@property(copy, nonatomic) CDUnknownBlockType errorFromServerBlock; // @synthesize errorFromServerBlock=_errorFromServerBlock;
-@property(retain, nonatomic) CKDeviceCapabilityCheckOptions *options; // @synthesize options=_options;
-@property(copy, nonatomic) CDUnknownBlockType supportedDeviceCapabilitiesCheckedForZoneBlock; // @synthesize supportedDeviceCapabilitiesCheckedForZoneBlock=_supportedDeviceCapabilitiesCheckedForZoneBlock;
-@property(retain, nonatomic) NSMutableDictionary *zoneIDByRequestID; // @synthesize zoneIDByRequestID=_zoneIDByRequestID;
-@property(retain, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end
 

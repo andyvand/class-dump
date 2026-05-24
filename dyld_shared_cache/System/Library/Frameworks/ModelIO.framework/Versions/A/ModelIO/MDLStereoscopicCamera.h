@@ -9,34 +9,24 @@
 @interface MDLStereoscopicCamera : MDLCamera
 {
     float _interPupillaryDistance;
-    float _leftVergence;
-    float _rightVergence;
-    float _overlap;
 }
 
 - (void);
 - (void);
 - (void);
 - (float);
-- (CDStruct_95fa7c00);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
+- (CDStruct_34f00414);
 - (float);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (float);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (void);
 - (float);
-- (id);
+- (id)event data:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float interPupillaryDistance; // @synthesize interPupillaryDistance=_interPupillaryDistance;
-@property(readonly, nonatomic) CDStruct_95fa7c00 leftProjectionMatrix;
-@property(nonatomic) float leftVergence; // @synthesize leftVergence=_leftVergence;
-@property(readonly, nonatomic) CDStruct_95fa7c00 leftViewMatrix;
-@property(nonatomic) float overlap; // @synthesize overlap=_overlap;
-@property(readonly, nonatomic) CDStruct_95fa7c00 rightProjectionMatrix;
-@property(nonatomic) float rightVergence; // @synthesize rightVergence=_rightVergence;
-@property(readonly, nonatomic) CDStruct_95fa7c00 rightViewMatrix;
 
 @end
 

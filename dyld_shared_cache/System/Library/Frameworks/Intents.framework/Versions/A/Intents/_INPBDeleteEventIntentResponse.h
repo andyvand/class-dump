@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBDeleteEventIntentResponse
 {
     CDStruct_efdd21f4 _has;
-    int _confirmationReason;
 }
 
 + (_Bool);
@@ -24,20 +21,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)rk=%{public}@);
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int confirmationReason; // @synthesize confirmationReason=_confirmationReason;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirmationReason;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

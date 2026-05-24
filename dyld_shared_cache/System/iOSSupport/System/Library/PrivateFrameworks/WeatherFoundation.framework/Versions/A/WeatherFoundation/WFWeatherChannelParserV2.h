@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSString;
+@class NSCalendar;
 
 __attribute__((visibility("hidden")))
 @interface WFWeatherChannelParserV2
@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
++ (id)r>";
++ (id)os_log>";
++ (id)nceler>"24;
 - (id);
 - (id);
 - (id);
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)ist button;
 - (void);
 - (void)ù
 × ;
@@ -33,13 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

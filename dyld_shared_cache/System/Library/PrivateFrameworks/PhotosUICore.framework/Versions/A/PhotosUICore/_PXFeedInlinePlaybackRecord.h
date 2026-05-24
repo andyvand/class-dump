@@ -9,13 +9,12 @@
 @interface _PXFeedInlinePlaybackRecord
 {
     long long _desiredPlayState;
-    _PXFeedInlinePlaybackController *_inlinePlaybackController;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 

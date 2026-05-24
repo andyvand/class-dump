@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSDeleteStreamsProtocol;
+
 @protocol MSDeleteStreamsProtocolDelegate
+- (void)ic}@DataStream Socket disconnected;
+- (void)connected with failure in state %s:(MSDeleteStreamsProtocol *)arg1 %@;
 @end
 

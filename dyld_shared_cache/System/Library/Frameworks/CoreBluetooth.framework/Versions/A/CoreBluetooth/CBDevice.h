@@ -4,97 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBControllerInfo, NSArray, NSData, NSMutableArray, NSMutableDictionary, NSString;
-
 @interface CBDevice
 {
     CDStruct_5b698f2c _changedTypesInternal;
-    CDStruct_5b698f2c _discoveryTypesInternal;
-    unsigned char _deviceType;
-    BOOL _hearingAidSupport;
-    BOOL _hearingTestSupport;
-    BOOL _microphoneMode;
-    unsigned char _muteControlCapability;
-    BOOL _placementMode;
-    unsigned char _selectiveSpeechListeningCapability;
-    BOOL _smartRoutingMode;
-    unsigned char _tipiConnectionStatus;
-    unsigned char _tipiState;
-    unsigned char _vendorIDSource;
-    unsigned char _transmitPowerOne;
-    unsigned char _transmitPowerTwo;
-    unsigned char _transmitPowerThree;
-    unsigned char _nearbyActivityLevel;
-    unsigned char _nearbyInfoV2InvitationCounter;
-    unsigned char _nearbyInfoV2InvitationTypes;
-    unsigned char _nearbyInfoV2InvitationRouteType;
-    unsigned char _objectDiscoveryBatteryState;
-    unsigned char _objectDiscoveryMode;
-    unsigned char _proximityPairingSubType;
-    unsigned char _safetyAlertsVersion;
-    unsigned char _softwareUpdateActionType;
-    unsigned char _nearbyActionNWPrecisionFindingStatus;
-    _Bool _enableEPAForLEAdvertisement;
-    unsigned char _safetyAlertsSegmentSegmentNumber;
-    unsigned char _safetyAlertsSegmentSegmentsTotal;
-    unsigned short _interval;
-    unsigned short _vendorID;
-    int _primaryPlacement;
-    int _secondaryPlacement;
-    unsigned int _productID;
-    unsigned int _supportedServices;
-    unsigned int _objectDiscoveryProductID;
-    unsigned int _proximityPairingOtherBudProductID;
-    unsigned int _proximityPairingProductID;
-    unsigned int _spatialInteractionUWBTokenFlags;
-    unsigned int _attributeInternalFlags;
-    unsigned int _internalFlags;
-    struct {
-        unsigned char version;
-        unsigned char endCallStatus;
-        unsigned char endCallConfig;
-        unsigned char muteControlStatus;
-        unsigned char muteControlConfig;
-    } _callMgmtMsg;
-    NSString *_accountID;
-    unsigned long long _changeFlags;
-    CBControllerInfo *_controllerInfo;
-    NSString *_contactID;
-    unsigned long long _deviceFlags;
-    unsigned long long _discoveryFlags;
-    NSString *_firmwareVersion;
-    NSString *_identifier;
-    NSString *_idsDeviceID;
-    NSString *_leAdvName;
-    NSString *_model;
-    NSString *_name;
-    NSString *_productName;
-    NSString *_remoteHostID;
-    NSString *_serialNumber;
-    NSString *_serialNumberLeft;
-    NSString *_serialNumberRight;
-    NSArray *_tipiDevices;
-    NSData *_txAddressData;
-    NSData *_nearbyInfoV2TempAuthTagData;
-    NSData *_nearbyInfoV2NearbyFaceTimeData;
-    NSData *_objectDiscoveryNearOwnerID;
-    NSData *_objectDiscoveryPublicKeyData;
-    NSData *_safetyAlertsAlertData;
-    NSData *_safetyAlertsAlertID;
-    NSData *_safetyAlertsSignature;
-    NSData *_softwareUpdateData;
-    NSData *_nearbyActionNoWakeAuthTagData;
-    NSData *_nearbyActionNoWakeConfigData;
-    NSMutableDictionary *_deviceInfo;
-    unsigned long long _lastSeenTicks;
-    unsigned char *_leaVersion;
-    unsigned long long _oldDiscoveryFlags;
-    NSData *_nearbyInfoV2NearbyFaceTimeEncryptedData;
-    NSData *_safetyAlertsSegmentAlertData;
-    NSData *_safetyAlertsSegmentServiceData;
-    NSData *_safetyAlertsSegmentSignature;
-    NSMutableArray *_spatialInteractionDeviceTimestampArrayClientIDs;
-    NSMutableDictionary *_spatialInteractionDeviceTimestampArrayDictionary;
 }
 
 @end

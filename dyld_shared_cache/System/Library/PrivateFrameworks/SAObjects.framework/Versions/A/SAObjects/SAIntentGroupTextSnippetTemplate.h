@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAIntentGroupSnippetTemplate.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAIntentGroupTextSnippetTemplate : SAIntentGroupSnippetTemplate
 {
@@ -21,15 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(copy, nonatomic) NSString *detailText;
-@property(copy, nonatomic) NSArray *labelComponents;
-@property(nonatomic) _Bool showsDisclosureIndicator;
 
 @end
 

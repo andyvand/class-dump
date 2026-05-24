@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSStorageDatabase, NSArray, NSDate, NSString;
+@class AMSStorageDatabase, NSDate;
 
 __attribute__((visibility("hidden")))
 @interface AMSFraudReportDatabaseStateStorage
@@ -15,23 +15,15 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)#;
+- (id)errorIndicatesDeviceConditionsDontAllowSync: /* Error: Ran out of types for this method. */;
+- (id)|�;
 - (id);
 - (void)÷P£Ù2¼.ðrïQøÒÊy OÇæ6_õì<Wäöè#ÿ"¹IÛX\s¨
 ÎòTÝÆC«'HúpóLDÅñmj+éÞ=$µ¤eJYß¯(Ó»:´º*¥w3çR	ÈZ5ÔÂNfÑíô9½àSVqâåE^ãx7ÁË±têû|%)1¡~×a& -g®ýhÏ·U`]þ¢ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDate *lastCleanupDate;
-@property(readonly) Class superclass;
 
 @end
 

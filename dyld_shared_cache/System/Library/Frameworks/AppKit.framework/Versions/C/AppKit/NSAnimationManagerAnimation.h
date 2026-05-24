@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATransactionCompletionItem, NSString;
-@protocol NSObject, NSRunningAnimation;
+@protocol NSRunningAnimation;
 
 __attribute__((visibility("hidden")))
 @interface NSAnimationManagerAnimation
 {
     _Bool _hasBeenRemoved;
-    id <NSRunningAnimation> _runningAnimation;
-    id _targetValue;
-    id _targetObject;
-    NSString *_targetKeyPath;
-    CATransactionCompletionItem *_completionItem;
-    double _startTime;
-    long long _options;
-    id <NSObject> _activityToken;
 }
 
 - (id);
@@ -26,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)se"24@"NSURLRequest"32@?<v@?@"NSURLRequest">40;
+- (void)set_systemClientOfPrivateAccessTokens:(id)arg1;
+- (void)removeCachedResponseForDataTask:(id)arg1;
+- (id)bytesPerSecondLimit;
+- (_Bool)n %d;
 - (id);
 - (void);
 - (double);
@@ -38,19 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void)egmentHighlightState;
-- (id)Area;
+- (void)leadingSegmentHighlightState;
+- (id)_updateRoundedCornersUnifiedTrackingArea;
 
 // Remaining properties
-@property(retain) id <NSObject> activityToken; // @synthesize activityToken=_activityToken;
-@property(retain) CATransactionCompletionItem *completionItem; // @synthesize completionItem=_completionItem;
-@property _Bool hasBeenRemoved; // @synthesize hasBeenRemoved=_hasBeenRemoved;
-@property long long options; // @synthesize options=_options;
 @property(retain) id <NSRunningAnimation> runningAnimation; // @synthesize runningAnimation=_runningAnimation;
-@property double startTime; // @synthesize startTime=_startTime;
-@property(copy) NSString *targetKeyPath; // @synthesize targetKeyPath=_targetKeyPath;
-@property(retain) id targetObject; // @synthesize targetObject=_targetObject;
-@property(retain) id targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

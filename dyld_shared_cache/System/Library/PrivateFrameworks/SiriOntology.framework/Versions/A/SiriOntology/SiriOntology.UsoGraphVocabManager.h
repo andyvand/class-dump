@@ -7,7 +7,6 @@
 @interface SiriOntology.UsoGraphVocabManager
 {
     id idToNameMap;
-    id nameToIdMap;
 }
 
 @end

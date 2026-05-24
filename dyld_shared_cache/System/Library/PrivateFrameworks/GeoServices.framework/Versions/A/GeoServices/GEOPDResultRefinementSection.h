@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDResultRefinementSection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_resultRefinements;
-    NSString *_sectionHeader;
-    NSString *_sectionIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_resultRefinements:1;
-        unsigned int read_sectionHeader:1;
-        unsigned int read_sectionIdentifier:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)SummaryForPredictedDestination:(id)arg1;
++ (Class){;
++ (_Bool)setIncludeSummaryForPredictedDestination:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -37,35 +23,30 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)<b<`;
+- (void)!;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id)_vtExtraAudioAtStartInMs;
+- (void)r due to Jarvis connection;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)";
 - (id)@24@32;
-- (id)ize;
+- (id)_numberOfVisitsBucketSize;
 - (id)`Ø;
-- (id)SCHOOL;
+- (id)RESOLVED_ITEM_TYPE_SCHOOL;
 - (void)Swap() (of type ";
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSectionHeader;
-@property(readonly, nonatomic) _Bool hasSectionIdentifier;
-@property(retain, nonatomic) NSMutableArray *resultRefinements;
-@property(retain, nonatomic) NSString *sectionHeader;
-@property(retain, nonatomic) NSString *sectionIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

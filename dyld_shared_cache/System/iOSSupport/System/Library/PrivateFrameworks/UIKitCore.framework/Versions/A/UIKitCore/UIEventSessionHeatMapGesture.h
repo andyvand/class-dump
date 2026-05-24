@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface UIEventSessionHeatMapGesture
 {
     NSMutableDictionary *_touches;
-    long long _touchType;
-    long long _uiInterfaceOrientation;
-    long long _hardwareKeyboardState;
-    long long _magicKeyboardState;
 }
 
 - (long long);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (void)d listeners for GUID %@;
+- (void)%@;
+- (void)now fetch archived records;
+- (void)there are not that many, so retrieving all chats, range (%ld,%ld).;
+- (long long)oud and iMessage accounts do not match up;
+- (id):(long long)arg1 ];
 - (long long);
 - (_Bool);
 - (void);
@@ -31,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)`Ì$Gh;
 
 // Remaining properties
-@property(nonatomic) long long hardwareKeyboardState; // @synthesize hardwareKeyboardState=_hardwareKeyboardState;
-@property(nonatomic) long long magicKeyboardState; // @synthesize magicKeyboardState=_magicKeyboardState;
-@property long long touchType; // @synthesize touchType=_touchType;
 @property(retain, nonatomic) NSMutableDictionary *touches; // @synthesize touches=_touches;
-@property(nonatomic) long long uiInterfaceOrientation; // @synthesize uiInterfaceOrientation=_uiInterfaceOrientation;
 
 @end
 

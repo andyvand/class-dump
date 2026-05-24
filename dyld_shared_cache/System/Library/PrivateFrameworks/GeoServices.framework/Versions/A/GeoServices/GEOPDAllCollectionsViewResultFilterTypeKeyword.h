@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRelatedSearchSuggestion, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAllCollectionsViewResultFilterTypeKeyword
 {
     PBUnknownFields *_unknownFields;
-    GEOPDRelatedSearchSuggestion *_relatedSearchSuggestion;
 }
 
 - (id);

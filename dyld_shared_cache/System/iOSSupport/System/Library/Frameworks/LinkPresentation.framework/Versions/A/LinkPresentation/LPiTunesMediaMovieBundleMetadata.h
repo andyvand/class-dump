@@ -6,29 +6,24 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaMovieBundleMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_genre;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startEditingPayload:dismiss:forPlugin:completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)transcriptTextVibrancyEffect;
+- (void)iew:(id)arg1 withItemIndex: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 contextMenuConfigurationForItemAtIndexPath:point:interaction: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 contextMenuConfigurationForItemAtIndexPath:point:interaction: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 chatItemForContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 balloonViewTitleTappedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)texture2DDescriptorWithPixelFormat:(id)arg1 width:height:mipmapped: /* Error: Ran out of types for this method. */;
+- (void)systemExtraLightGrayColor;
+- (id)supportsAllowsTextAnimationChanges;
 - (void);
 - (id);
 - (void);
@@ -41,25 +36,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)__objc_classlist__DATA_CONST;
+- (void)F1;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

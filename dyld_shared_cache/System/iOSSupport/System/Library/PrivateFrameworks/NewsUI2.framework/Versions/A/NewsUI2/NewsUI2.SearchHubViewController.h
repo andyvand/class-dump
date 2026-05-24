@@ -7,8 +7,6 @@
 @interface NewsUI2.SearchHubViewController
 {
     id searchHomeContainerController;
-    id mastheadViewController;
-    id eventManager;
 }
 
 - (id);
@@ -17,7 +15,7 @@
 - (void);
 - (void)	
 ;
-- (void)edConfig;
+- (void)SearchMoreFeedConfig;
 - (void)Ð)5;
 
 @end

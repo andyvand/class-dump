@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class MKFCKAppleMediaAccessory, MKFCKHome, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKResident : MKFCKHomeObject
@@ -14,19 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)groupSession:(id)arg1 participantDidLeave:(id)arg2;
+- (_Bool)Error starting to share with contact %{private}@:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) MKFCKAppleMediaAccessory *appleMediaAccessory; // @dynamic appleMediaAccessory;
 @property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

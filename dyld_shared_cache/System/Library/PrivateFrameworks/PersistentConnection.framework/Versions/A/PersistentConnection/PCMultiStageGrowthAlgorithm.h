@@ -4,77 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSObject, NSString;
-@protocol OS_os_log;
-
 @interface PCMultiStageGrowthAlgorithm
 {
     double _currentKeepAliveInterval;
-    double _minimumKeepAliveInterval;
-    double _maximumKeepAliveInterval;
-    double _previousMaximumKeepAliveInterval;
-    double _lastKeepAliveInterval;
-    double _lastSuccessfulKeepAliveInterval;
-    int _growthStage;
-    double _highWatermark;
-    double _initialGrowthStageHighWatermark;
-    double _initialGrowthStageLastAttempt;
-    NSDate *_leaveSteadyStateDate;
-    NSDate *_leaveMinimumIntervalFallbackStateDate;
-    NSString *_algorithmName;
-    unsigned long long _countOfGrowthActions;
-    NSObject<OS_os_log> *_logObject;
-    _Bool _isServerOriginatedKeepAlive;
-    _Bool _minimumIntervalFallbackEnabled;
-    int _lastKeepAliveAlgorithmMode;
-    int _currentKeepAliveAlgorithmMode;
-    double _serverStatsMinKeepAliveInterval;
-    double _serverStatsMaxKeepAliveInterval;
-    double _serverStatsExpectedKeepAliveInterval;
-    double _minimumIntervalFallbackStateTimeout;
-    _Bool _usingServerStatsAggressively;
-    int _previousAction;
-    struct _PCTimeRange _signalAvoidanceRange;
 }
 
 + (void);
 + (void);
 - (double);
-- (double);
+- (double);
+- (void)';
 - (void);
-- (void);
-- (int);
-- (void);
-- (_Bool);
-- (void);
-- (double);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (double);
+- (int)'FF/F;
 - (void);
 - (_Bool);
 - (void);
+- (double);
+- (double)<L;
+- (id);
+- (void);
+- (void);
+- (void);
+- (int)onSession %p [%p]>{%d x %d '%.4s', videoEncoder:%p, sourcePixelBufferAttributes:%p, encoderPixelBufferAttributes:%p, sourcePixelBufferPool:%p, pixelTransferBufferPool:%p, outputCallback:%p, outputCallbackRefCon:%p, pendingFrameCount:%d} /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
+- (_Bool);
 - (void);
+- (id);
+- (double);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)@9	*)@95	*;
+- (void)y (opct) box to the image header box of a baseline JP2 file.  This box type is defined by JPX, not JP2, and is required only if you are trying to record chroma-key information.  You might like to upgrade the application to write files using the `jpx_target' object, rather than `jp2_target'.;
 - (struct _PCTimeRange);
 - (double);
+- (void)H;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)restoreAnimation;
 - (void);
 - (unsigned long long);
 - (void);
@@ -91,29 +63,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *cacheInfo;
-@property(readonly, nonatomic) unsigned long long countOfGrowthActions; // @synthesize countOfGrowthActions=_countOfGrowthActions;
-@property(readonly, nonatomic) double currentKeepAliveInterval; // @synthesize currentKeepAliveInterval=_currentKeepAliveInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int growthStage; // @synthesize growthStage=_growthStage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isServerOriginatedKeepAlive; // @synthesize isServerOriginatedKeepAlive=_isServerOriginatedKeepAlive;
-@property(nonatomic) double lastSuccessfulKeepAliveInterval; // @synthesize lastSuccessfulKeepAliveInterval=_lastSuccessfulKeepAliveInterval;
-@property(nonatomic) double maximumKeepAliveInterval; // @synthesize maximumKeepAliveInterval=_maximumKeepAliveInterval;
-@property(nonatomic) _Bool minimumIntervalFallbackEnabled; // @synthesize minimumIntervalFallbackEnabled=_minimumIntervalFallbackEnabled;
-@property(nonatomic) double minimumIntervalFallbackStateTimeout; // @synthesize minimumIntervalFallbackStateTimeout=_minimumIntervalFallbackStateTimeout;
-@property(nonatomic) double minimumKeepAliveInterval; // @synthesize minimumKeepAliveInterval=_minimumKeepAliveInterval;
 @property(nonatomic) int previousAction; // @synthesize previousAction=_previousAction;
-@property(nonatomic) double serverStatsExpectedKeepAliveInterval; // @synthesize serverStatsExpectedKeepAliveInterval=_serverStatsExpectedKeepAliveInterval;
-@property(nonatomic) double serverStatsMaxKeepAliveInterval; // @synthesize serverStatsMaxKeepAliveInterval=_serverStatsMaxKeepAliveInterval;
-@property(nonatomic) double serverStatsMinKeepAliveInterval; // @synthesize serverStatsMinKeepAliveInterval=_serverStatsMinKeepAliveInterval;
-@property(nonatomic) struct _PCTimeRange signalAvoidanceRange; // @synthesize signalAvoidanceRange=_signalAvoidanceRange;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usingServerStatsAggressively; // @synthesize usingServerStatsAggressively=_usingServerStatsAggressively;
 
 @end
 

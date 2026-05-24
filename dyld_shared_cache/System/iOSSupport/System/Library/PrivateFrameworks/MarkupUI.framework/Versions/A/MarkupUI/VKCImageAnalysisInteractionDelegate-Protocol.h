@@ -4,6 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSAttributedString, NSDictionary, NSString, UIImage, UIView, UIViewController, VKCImageAnalysisInteraction;
+
 @protocol VKCImageAnalysisInteractionDelegate
+
+@optional
+- (void)siriui_userUtteranceFont;
+- (void)siriui_card_compact:(VKCImageAnalysisInteraction *)arg1;
+- (void)siriViewController:(VKCImageAnalysisInteraction *)arg1 performAceCommands: /* Error: Ran out of types for this method. */;
+- (void)setShadowOpacity:(VKCImageAnalysisInteraction *)arg1;
+- (NSArray *)setSession:(VKCImageAnalysisInteraction *)arg1;
+- (UIViewController *)setScale:(VKCImageAnalysisInteraction *)arg1;
+- (void)setBoundsOrigin:(VKCImageAnalysisInteraction *)arg1;
+- (_Bool)setBackNavButtonHidden:(VKCImageAnalysisInteraction *)arg1;
+- (void)serviceAcousticIDRequestDidFinishWithSuccess:(VKCImageAnalysisInteraction *)arg1;
+- (void)serverUtteranceUpdateBlock;
+- (void)sendKeyEventToResultsViewRemovingResponder:(VKCImageAnalysisInteraction *)arg1;
+- (void)sendGenericAceCommand:(VKCImageAnalysisInteraction *)arg1 turnIdentifier:conflictHandler: /* Error: Ran out of types for this method. */;
+- (NSString *)sendEvent:(VKCImageAnalysisInteraction *)arg1;
+- (NSAttributedString *)sendAction:(VKCImageAnalysisInteraction *)arg1 to:(NSAttributedString *)arg2 from: /* Error: Ran out of types for this method. */;
+- (_Bool)selectionLimit;
+- (_Bool)selectedLanguageItem;
+- (void)selected;
+- (void)selectText:(VKCImageAnalysisInteraction *)arg1;
+- (void)selectItemsAtIndexPaths:(VKCImageAnalysisInteraction *)arg1 scrollPosition:(_Bool)arg2;
+- (void)secondPartySetupComplete;
+- (void)secondButton;
+- (void)searchQuery;
+- (void)searchButtonCell;
+- (void)script;
+- (void)saeViewModelControllerShouldAlwaysShowRecognizedSpeech:(VKCImageAnalysisInteraction *)arg1;
+- (unsigned long long)replacementStringForResult:(VKCImageAnalysisInteraction *)arg1 inString:offset:template: /* Error: Ran out of types for this method. */;
+- (unsigned long long)replacedView;
+- (NSDictionary *)replaceCharactersInRange:(VKCImageAnalysisInteraction *)arg1 withString: /* Error: Ran out of types for this method. */;
+- (UIView *)points;
+- (UIImage *)performSelector:(VKCImageAnalysisInteraction *)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)gmAvailabilityDidUpdate:(VKCImageAnalysisInteraction *)arg1;
+- (void)gestureRecognizer:(VKCImageAnalysisInteraction *)arg1 shouldReceiveTouch:(_Bool)arg2;
 @end
 

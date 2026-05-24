@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPXNotificationCenter, NSArray, NSString;
-@protocol CPXCallbackScheduling, CPXFocusManaging, CPXProcessManaging, CPXSymbolicHotKeyRegistry;
+@protocol CPXProcessManaging;
 
 __attribute__((visibility("hidden")))
 @interface CPXSpecialKeyEventProcessor
 {
     id <CPXProcessManaging> _processManager;
-    id <CPXFocusManaging> _focusManager;
-    id <CPXSymbolicHotKeyRegistry> _symbolicHotKeyRegistry;
-    id <CPXCallbackScheduling> _callbackScheduler;
-    CPXNotificationCenter *_notificationCenter;
-    unsigned int _activeSpecialKey;
-    NSArray *_specialKeyStates;
 }
 
-- (int);
-- (int);
-- (long long);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (int)"NSError"16;
+- (int)ZCHANGETRACKHISTORY;
+- (long long)t:(const struct SLSEventRecord *)arg1 Checkpoint took %llu ms. Requested QoS:(unsigned long long)arg2 %d. Log size:(_Bool)arg3 %d checkpointed:(struct CPXEventProcessorContext *)arg4 %d;
+- (long long)checkpoint(TRUNCATE) ;
+- (id)rrupt.  (invalid primary key);
+- (void)database;
+- (void)defaults value "%@";
+- (void)%d, %@, %@, %ld;
+- (void)ported (unsupported expression type);
 - (void);
 - (id)Ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

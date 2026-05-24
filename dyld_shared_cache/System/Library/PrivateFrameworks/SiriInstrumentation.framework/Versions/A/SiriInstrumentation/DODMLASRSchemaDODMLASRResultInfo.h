@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASRResultInfo : SISchemaInstrumentationMessage
 {
     NSString *_stageName;
-    _Bool _isAligned;
-    NSArray *_choices;
-    struct {
-        unsigned int isAligned:1;
-    } _has;
-    _Bool _hasStageName;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -35,25 +29,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)C;
+- (id)IAPSimpleRemoteCarButtonPressTypeKey;
+- (id)tream %{public}@:(id)arg1 %s;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)SchemaINFERENCEResolutionRequestEnded";
-- (id)chemaORCHError;
+- (id)ORCHSchemaORCHError;
 - (id)Ü;
 - (void)ji1¡%;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *choices; // @synthesize choices=_choices;
-@property(nonatomic) _Bool hasIsAligned;
-@property(nonatomic) _Bool hasStageName; // @synthesize hasStageName=_hasStageName;
-@property(nonatomic) _Bool isAligned; // @synthesize isAligned=_isAligned;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *stageName; // @synthesize stageName=_stageName;
 
 @end

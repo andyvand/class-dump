@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
-
 @interface FTUserConfiguration
 {
 }
 
 + (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)tList";
+- (_Bool).drawing.allowPencilHookFilters;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,12 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _nonWifiFaceTimeEntitled;
-@property(nonatomic) _Bool allowAnyNetwork;
-@property(nonatomic) _Bool cellularFaceTimeEnabled;
-@property(nonatomic) _Bool isDeviceInDualPhoneIdentityMode;
-@property(nonatomic) _Bool isDeviceInManualPhoneSelectionMode;
-@property(copy, nonatomic) NSArray *selectedPhoneNumberRegistrationSubscriptionLabels;
-@property(readonly, copy, nonatomic) NSNumber *selectedPhoneNumberRegistrationSubscriptionNumber;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol AKAnisetteServiceProtocol
+- (void)memoriesWithUUIDs:(NSData *)arg1 inPhotoLibrary:(void (^)(_Bool, NSError *))arg2;
+- (void)localizedTitleForAlbumKind:(void (^)(_Bool, NSError *))arg1 cplEnabled: /* Error: Ran out of types for this method. */;
+- (void)isMergingCoalescedSaveNotification;
+- (void)ata"40@"NSString"48@"NSString"56@"NSDate"64;
+
+@optional
+- (void);
 @end
 

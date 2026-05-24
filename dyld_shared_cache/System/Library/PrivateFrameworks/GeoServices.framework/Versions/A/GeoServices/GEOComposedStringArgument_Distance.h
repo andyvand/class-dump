@@ -11,14 +11,11 @@
 @interface GEOComposedStringArgument_Distance : GEOComposedStringArgument
 {
     NSMeasurement *_defaultValue;
-    NSMeasurement *_overrideValue;
-    unsigned long long _formatOptions;
-    _Bool _allowUnitConversion;
 }
 
 + (_Bool)nable to remove old temporary path "%@" - %@;
 - (void);
-- (id);
+- (id)rvable"16;
 - (id);
 - (id);
 - (id);
@@ -27,11 +24,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)urTime:(struct _NSZone *)arg1;
+- (id)setDetourTime:(struct _NSZone *)arg1;
 - (void)¬fÿ8>¥5;
 
 // Remaining properties
-@property(nonatomic) unsigned long long formatOptions; // @synthesize formatOptions=_formatOptions;
 @property(retain, nonatomic) NSMeasurement *overrideValue; // @synthesize overrideValue=_overrideValue;
 
 @end

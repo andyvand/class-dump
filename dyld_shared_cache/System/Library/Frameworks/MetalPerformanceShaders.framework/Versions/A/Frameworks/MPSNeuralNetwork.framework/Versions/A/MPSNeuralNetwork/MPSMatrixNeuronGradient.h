@@ -9,13 +9,6 @@
 @interface MPSMatrixNeuronGradient
 {
     id <MTLBuffer> neuronAParamBuf;
-    int _neuronType;
-    float _neuronA;
-    float _neuronB;
-    float _neuronC;
-    unsigned long long _sourceNumberOfFeatureVectors;
-    unsigned long long _sourceInputFeatureChannels;
-    double _alpha;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -31,7 +24,7 @@
 - (float);
 - (float);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
@@ -40,19 +33,13 @@
 - (int);
 - (void);
 - (float);
-- (float);
-- (float)Weights: /* Error: Ran out of types for this method. */;
+- (float)H;
+- (float)setOutputGateInputGateWeights: /* Error: Ran out of types for this method. */;
 - (void)s:(id)arg1 forwardFilter:] Error:the filter <%p> is not a MPSCNNDilatedPoolingMaxNode /* Error: Ran out of types for this method. */;
 - (id)NLayer.SingleGate.recurrentXForm;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float neuronA; // @synthesize neuronA=_neuronA;
-@property(nonatomic) float neuronB; // @synthesize neuronB=_neuronB;
-@property(nonatomic) float neuronC; // @synthesize neuronC=_neuronC;
 @property(nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
-@property(nonatomic) unsigned long long sourceInputFeatureChannels; // @synthesize sourceInputFeatureChannels=_sourceInputFeatureChannels;
-@property(nonatomic) unsigned long long sourceNumberOfFeatureVectors; // @synthesize sourceNumberOfFeatureVectors=_sourceNumberOfFeatureVectors;
 
 @end
 

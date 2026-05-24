@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSSecurityScopedURLWrapper, NSString;
+@class NSString;
 
 @interface NSItemRepresentationLoadResult
 {
     _Bool _wasOpenedInPlace;
-    NSData *_data;
-    NSSecurityScopedURLWrapper *_urlWrapper;
-    CDUnknownBlockType _cleanupHandler;
-    NSError *_error;
-    Class _archivedObjectClass;
 }
 
 + (id);
@@ -37,13 +32,7 @@
 - (id)+;
 
 // Remaining properties
-@property(retain) Class archivedObjectClass; // @synthesize archivedObjectClass=_archivedObjectClass;
 @property(copy) NSString *archivedObjectClassName;
-@property(copy) CDUnknownBlockType cleanupHandler; // @synthesize cleanupHandler=_cleanupHandler;
-@property(copy) NSData *data; // @synthesize data=_data;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(retain) NSSecurityScopedURLWrapper *urlWrapper; // @synthesize urlWrapper=_urlWrapper;
-@property _Bool wasOpenedInPlace; // @synthesize wasOpenedInPlace=_wasOpenedInPlace;
 
 @end
 

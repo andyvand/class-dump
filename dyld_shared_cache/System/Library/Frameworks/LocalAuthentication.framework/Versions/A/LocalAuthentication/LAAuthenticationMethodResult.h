@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAAuthenticationMethod, NSString;
+@class LAAuthenticationMethod;
 
 @interface LAAuthenticationMethodResult
 {
     LAAuthenticationMethod *_authenticationMethod;
-    NSString *_authenticatedUser;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)r}^{__shared_weak_count}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authenticatedUser; // @synthesize authenticatedUser=_authenticatedUser;
 @property(readonly, nonatomic) LAAuthenticationMethod *authenticationMethod; // @synthesize authenticationMethod=_authenticationMethod;
 
 @end

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, OSLogEventDecomposedMessage;
+@class OSLogEventDecomposedMessage;
 
 @interface OSLogEventMessageArgument
 {
     OSLogEventDecomposedMessage *_decomposedMessage;
-    struct os_log_fmt_raw_placeholder *_rawArg;
-    unsigned long long _sizeofLong;
 }
 
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned short);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (const void *);
+- (const void *)Ւ;
 - (long long);
 - (double);
 - (unsigned long long);
@@ -29,17 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long availability;
-@property(readonly, nonatomic) unsigned long long category;
-@property(readonly, nonatomic) double doubleValue;
-@property(readonly, nonatomic) long long int64Value;
-@property(readonly, nonatomic) long double longDoubleValue;
-@property(readonly, nonatomic) NSObject *objectRepresentation;
-@property(readonly, nonatomic) unsigned long long privacy;
-@property(readonly, nonatomic) const void *rawBytes;
-@property(readonly, nonatomic) unsigned short rawBytesLength;
-@property(readonly, nonatomic) unsigned long long scalarCategory;
-@property(readonly, nonatomic) unsigned long long scalarType;
-@property(readonly, nonatomic) unsigned long long unsignedInt64Value;
 
 @end
 

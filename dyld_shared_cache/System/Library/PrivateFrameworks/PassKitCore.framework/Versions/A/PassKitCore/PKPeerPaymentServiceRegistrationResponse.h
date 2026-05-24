@@ -6,25 +6,21 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKPeerPaymentServiceRegistrationResponse : PKPeerPaymentWebServiceResponse
 {
     NSString *_deviceIdentifier;
-    NSString *_peerPaymentServicesPushTopic;
-    NSURL *_peerPaymentServiceURL;
 }
 
 - (id);
 - (id);
-- (id)tedDate;
-- (void)tinationType;
-- (id)icationMethodsKey;
+- (id)_updatedDate;
+- (void)destinationType;
+- (id)PKEnableGroupVerificationMethodsKey;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, copy, nonatomic) NSURL *peerPaymentServiceURL; // @synthesize peerPaymentServiceURL=_peerPaymentServiceURL;
-@property(readonly, copy, nonatomic) NSString *peerPaymentServicesPushTopic; // @synthesize peerPaymentServicesPushTopic=_peerPaymentServicesPushTopic;
 
 @end
 

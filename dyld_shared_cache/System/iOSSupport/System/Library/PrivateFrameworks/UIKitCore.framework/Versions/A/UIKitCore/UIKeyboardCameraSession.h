@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKeyboardCameraBasePresentationController, UIKeyboardCameraViewController, UIResponder, UITextInputSessionActionAnalytics;
-@protocol UIKeyInput, UIViewControllerAnimatedTransitioning;
+@class UIKeyboardCameraViewController, UITextInputSessionActionAnalytics;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardCameraSession
 {
     UIKeyboardCameraViewController *_keyboardCameraViewController;
-    UIKeyboardCameraBasePresentationController *_presentationController;
-    id <UIViewControllerAnimatedTransitioning> _animationController;
-    _Bool _didFindText;
-    NSString *_keyboardCameraCandidateString;
-    id _sender;
-    _Bool _presentingOverKeyboard;
-    _Bool _isTextInputResponder;
-    _Bool _isWebResponder;
-    _Bool _isTextFormattingResponder;
-    _Bool _respondsToKeyboardInputShouldInsertText;
-    _Bool _isSingleLineDocument;
-    _Bool _didCleanup;
-    _Bool _isSecureFieldEditor;
-    _Bool _shouldSuppressSoftwareKeyboard;
-    _Bool _shouldResignFirstResponderWhenDone;
-    UITextInputSessionActionAnalytics *_sessionAnalytics;
-    UIResponder<UIKeyInput> *_responder;
 }
 
 + (_Bool);
 + (_Bool)1Â0@ù
 × ;
-+ (_Bool)elsPerInch: /* Error: Ran out of types for this method. */;
-+ (id)n:(id)arg1;
++ (_Bool)setPixelsPerInch: /* Error: Ran out of types for this method. */;
++ (id)_animateAlongsideChanges:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 + (id)w;
 + (id)ated contextual action was called after another action was performed. This will be ignored. Set a symbolic breakpoint on UIContextualActionAlertForOutdatedCompletionHandlerExecution to catch this in the debugger.
 Outdated action:%@ /* Error: Ran out of types for this method. */;
@@ -42,13 +24,13 @@ Outdated action:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id)ment;
+- (id)g edit message command %@;
+- (void)f seconds, purged %@ files;
+- (void)ation - All done;
+- (void)files;
+- (_Bool)cleaning up:%@ /* Error: Ran out of types for this method. */;
+- (void)generate data for rich card of items:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -62,13 +44,13 @@ Outdated action:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)ProxyAutoDiscoveryEnable;
+- (id)anager:(id)arg1 %{public}@ didAddHome:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)State:(id)arg1;
-- (void)railingPinConstraint;
-- (void)bled;
-- (void)int: /* Error: Ran out of types for this method. */;
+- (void)newGroupBackgroundViewWithGroupViewState:(id)arg1;
+- (void)labelContainerTrailingPinConstraint;
+- (void)_radiosityEnabled;
+- (void)getSortedKeysForDisplayRowHint: /* Error: Ran out of types for this method. */;
 - (id)e undesired side effects;
 - (id)a;
 - (void);
@@ -76,19 +58,7 @@ Outdated action:%@ /* Error: Ran out of types for this method. */;
 - (id)§^ÿ!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDismissing;
-@property(readonly, nonatomic) _Bool isPresented;
-@property(readonly, nonatomic) _Bool isPresenting;
-@property(readonly, nonatomic) UIResponder<UIKeyInput> *responder; // @synthesize responder=_responder;
 @property(readonly) UITextInputSessionActionAnalytics *sessionAnalytics; // @synthesize sessionAnalytics=_sessionAnalytics;
-@property(nonatomic) _Bool shouldSuppressSoftwareKeyboard; // @synthesize shouldSuppressSoftwareKeyboard=_shouldSuppressSoftwareKeyboard;
-@property(readonly) Class superclass;
 
 @end
 

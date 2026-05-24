@@ -6,22 +6,19 @@
 
 #import <AXMediaUtilities/AXMEvaluationNode.h>
 
-@class AXMSemanticTextFactory, AXMTextLayoutManager, AXMTextSpecialCase, NSArray;
+@class AXMSemanticTextFactory;
 
 @interface AXMTextDetectorNode : AXMEvaluationNode
 {
     AXMSemanticTextFactory *_semanticTextFactory;
-    AXMTextLayoutManager *_textLayoutManager;
-    AXMTextSpecialCase *_specialCaseManager;
-    NSArray *_sceneLabelsForOCRDocumentTypeDetection;
 }
 
++ (id)|;
 + (id);
++ (long long)|;
++ (id);
 + (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)startDate;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -30,23 +27,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)m;
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)\|;
+- (id){;
 - (double);
 - (_Bool);
 - (void);
 - (void);
-- (id)hreshold;
+- (id)threshold;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *sceneLabelsForOCRDocumentTypeDetection; // @synthesize sceneLabelsForOCRDocumentTypeDetection=_sceneLabelsForOCRDocumentTypeDetection;
 @property(retain, nonatomic) AXMSemanticTextFactory *semanticTextFactory; // @synthesize semanticTextFactory=_semanticTextFactory;
-@property(retain, nonatomic) AXMTextSpecialCase *specialCaseManager; // @synthesize specialCaseManager=_specialCaseManager;
-@property(retain, nonatomic) AXMTextLayoutManager *textLayoutManager; // @synthesize textLayoutManager=_textLayoutManager;
 
 @end
 

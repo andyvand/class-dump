@@ -5,9 +5,10 @@
 //
 
 @protocol BSDescriptionFormatting
+- (id);
+- (id)(!;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasDebugStyle;
-@property(readonly, nonatomic) _Bool hasSuccinctStyle;
 @end
 

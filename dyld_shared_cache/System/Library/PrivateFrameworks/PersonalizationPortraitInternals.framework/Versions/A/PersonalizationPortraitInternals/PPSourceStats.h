@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
-
 @interface PPSourceStats
 {
     long long _minRefCount;
-    long long _maxRefCount;
-    double _avgRefCount;
-    double _medianRefCount;
-    NSDate *_earliestDate;
-    NSDate *_latestDate;
-    long long _uniqueBundleIdCount;
-    long long _uniqueDocIdCount;
-    unsigned long long _recordCount;
 }
 
 - (double);
@@ -36,16 +26,7 @@
 - (id)PMaintenance:(id)arg1 TTLBasedDonationCleanup:Performing Topic cleanup for rule:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double avgRefCount; // @synthesize avgRefCount=_avgRefCount;
-@property(readonly, nonatomic) NSDate *earliestDate; // @synthesize earliestDate=_earliestDate;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) NSDate *latestDate; // @synthesize latestDate=_latestDate;
-@property(readonly, nonatomic) long long maxRefCount; // @synthesize maxRefCount=_maxRefCount;
-@property(readonly, nonatomic) double medianRefCount; // @synthesize medianRefCount=_medianRefCount;
 @property(readonly, nonatomic) long long minRefCount; // @synthesize minRefCount=_minRefCount;
-@property(readonly, nonatomic) unsigned long long recordCount; // @synthesize recordCount=_recordCount;
-@property(readonly, nonatomic) long long uniqueBundleIdCount; // @synthesize uniqueBundleIdCount=_uniqueBundleIdCount;
-@property(readonly, nonatomic) long long uniqueDocIdCount; // @synthesize uniqueDocIdCount=_uniqueDocIdCount;
 
 @end
 

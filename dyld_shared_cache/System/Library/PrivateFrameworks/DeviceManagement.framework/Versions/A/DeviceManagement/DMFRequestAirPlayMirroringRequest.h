@@ -11,10 +11,6 @@
 @interface DMFRequestAirPlayMirroringRequest : DMFTaskRequest
 {
     _Bool _force;
-    NSString *_destinationName;
-    NSString *_destinationDeviceID;
-    NSString *_password;
-    double _scanWaitInterval;
 }
 
 + (Class);
@@ -34,14 +30,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)autocompleteFetch:shouldExpectSupplementalResultsForRequest:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationDeviceID; // @synthesize destinationDeviceID=_destinationDeviceID;
 @property(copy, nonatomic) NSString *destinationName; // @synthesize destinationName=_destinationName;
-@property(nonatomic) _Bool force; // @synthesize force=_force;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) double scanWaitInterval; // @synthesize scanWaitInterval=_scanWaitInterval;
 
 @end
 

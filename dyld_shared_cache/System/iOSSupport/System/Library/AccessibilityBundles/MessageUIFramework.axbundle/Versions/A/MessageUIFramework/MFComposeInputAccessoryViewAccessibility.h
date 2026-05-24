@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)UICollectionViewDiffableDataSourceAccessibility;
++ (void)SwiftUIActivityIndicatorViewAccessibility;
 - (id);
 
 @end

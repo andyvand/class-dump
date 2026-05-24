@@ -7,28 +7,24 @@
 @interface STMDirectoryObserver
 {
     _Bool _ignoreMetadataUpdates;
-    CDUnknownBlockType _callbackBlock;
-    struct __FSEventStream *_fsEventStream;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (struct __FSEventStream *);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)acanal has shut down!;
 - (void);
-- (void);
+- (void)_numFramesExtraLatency;
 - (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType callbackBlock; // @synthesize callbackBlock=_callbackBlock;
-@property struct __FSEventStream *fsEventStream; // @synthesize fsEventStream=_fsEventStream;
-@property _Bool ignoreMetadataUpdates; // @synthesize ignoreMetadataUpdates=_ignoreMetadataUpdates;
 
 @end
 

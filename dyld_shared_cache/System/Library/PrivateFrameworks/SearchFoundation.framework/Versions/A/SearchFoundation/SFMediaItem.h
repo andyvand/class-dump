@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFImage, SFPunchout, SFText;
+@class NSString;
 
 @interface SFMediaItem
 {
     NSString *_title;
-    SFText *_subtitleText;
-    SFImage *_thumbnail;
-    SFImage *_reviewGlyph;
-    SFImage *_overlayImage;
-    NSString *_reviewText;
-    SFPunchout *_punchout;
-    NSArray *_subtitleCustomLineBreaking;
-    NSArray *_buyOptions;
-    NSString *_contentAdvisory;
-    SFImage *_contentAdvisoryImage;
 }
 
 + (_Bool);
@@ -30,50 +20,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)importSubscriptionScreenshotForPersistentID:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)N,V_delegatedIdentity;
 - (id);
-- (id);
 - (void);
 - (void);
-- (id);
+- (id)setParticipantName:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)rmedPlayableAsset:(id)arg1 (%{public}@) hasAlreadyDetectedUserAttention:(%{BOOL}d). /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)thumbnail;
+- (id)q24@?0@"PHAssetResourceQualityClass"8@"PHAssetResourceQualityClass"16;
+- (id)preparationOutcome;
 - (id);
 - (id);
-- (void)tifier;
+- (id);
+- (id);
+- (void)_persistentIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buyOptions; // @synthesize buyOptions=_buyOptions;
-@property(copy, nonatomic) NSString *contentAdvisory; // @synthesize contentAdvisory=_contentAdvisory;
-@property(retain, nonatomic) SFImage *contentAdvisoryImage; // @synthesize contentAdvisoryImage=_contentAdvisoryImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFImage *overlayImage; // @synthesize overlayImage=_overlayImage;
-@property(retain, nonatomic) SFPunchout *punchout; // @synthesize punchout=_punchout;
-@property(retain, nonatomic) SFImage *reviewGlyph; // @synthesize reviewGlyph=_reviewGlyph;
-@property(copy, nonatomic) NSString *reviewText; // @synthesize reviewText=_reviewText;
-@property(copy, nonatomic) NSArray *subtitleCustomLineBreaking; // @synthesize subtitleCustomLineBreaking=_subtitleCustomLineBreaking;
-@property(retain, nonatomic) SFText *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFImage *thumbnail; // @synthesize thumbnail=_thumbnail;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

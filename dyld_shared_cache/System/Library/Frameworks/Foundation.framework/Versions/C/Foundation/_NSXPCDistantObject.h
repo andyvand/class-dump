@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSXPCConnection, NSXPCInterface;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface _NSXPCDistantObject
 {
     NSXPCConnection *_connection;
-    NSXPCInterface *_remoteInterface;
-    NSDictionary *_userInfo;
-    CDUnknownBlockType _errorBlock;
-    unsigned long long _proxyNumber;
-    unsigned long long _generationCount;
-    unsigned long long _flags;
-    double _timeout;
 }
 
 + (_Bool)p;
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)qA;
 - (id);
 - (id);
 - (_Bool);
@@ -42,7 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain) NSXPCConnection *_connection; // @synthesize _connection;
-@property(copy) NSDictionary *_userInfo; // @synthesize _userInfo;
 
 @end
 

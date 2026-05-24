@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDAssistantVoicesCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    unsigned int _neuralFallbackCount;
-    unsigned int _vocalizerFallbackCount;
-    struct {
-        unsigned int neuralFallbackCount:1;
-        unsigned int vocalizerFallbackCount:1;
-    } _has;
-    _Bool _hasTurnCounts;
 }
 
 - (unsigned int);
@@ -48,13 +41,7 @@
 - (void)phTier1.usoGraphTier1.linkedUsoGraphNodeDatas.linkedUsoEntitySpans.alternatives.alternative;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNeuralFallbackCount;
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(nonatomic) _Bool hasVocalizerFallbackCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int neuralFallbackCount; // @synthesize neuralFallbackCount=_neuralFallbackCount;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
-@property(nonatomic) unsigned int vocalizerFallbackCount; // @synthesize vocalizerFallbackCount=_vocalizerFallbackCount;
 
 @end
 

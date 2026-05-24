@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface TIMIconLabel
 {
     NSString *_text;
-    NSString *_language;
-    NSColor *_color;
-    NSString *_fontFamilyName;
-    double _fontWeight;
 }
 
 + (id);
@@ -30,11 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(readonly, copy, nonatomic) NSString *fontFamilyName; // @synthesize fontFamilyName=_fontFamilyName;
-@property(readonly, nonatomic) double fontWeight; // @synthesize fontWeight=_fontWeight;
-@property(readonly, nonatomic) _Bool isASCII;
-@property(readonly, copy, nonatomic) NSString *language; // @synthesize language=_language;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.StorefrontTerritorySource
 {
     id storefrontIDSource;
-    id converter;
 }
 
 @end

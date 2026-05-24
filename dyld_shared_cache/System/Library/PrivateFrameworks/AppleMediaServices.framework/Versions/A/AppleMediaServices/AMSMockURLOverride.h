@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMockURLResponse, AMSObservable, NSMutableArray;
+@class AMSObservable, NSMutableArray;
 
 @interface AMSMockURLOverride
 {
     AMSObservable *_executedObservable;
-    AMSMockURLResponse *_response;
-    NSMutableArray *_comparators;
 }
 
 + (id);
@@ -26,10 +24,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)j;
 - (id);
 - (void);
 - (id);
@@ -37,8 +35,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *comparators; // @synthesize comparators=_comparators;
-@property(retain) AMSObservable *executedObservable; // @synthesize executedObservable=_executedObservable;
-@property(retain) AMSMockURLResponse *response; // @synthesize response=_response;
 
 @end
 

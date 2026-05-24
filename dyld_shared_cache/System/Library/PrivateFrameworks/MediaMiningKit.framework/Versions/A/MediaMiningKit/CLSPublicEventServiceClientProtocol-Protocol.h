@@ -5,6 +5,7 @@
 //
 
 @protocol CLSPublicEventServiceClientProtocol
+- (unsigned long long)PGGraphLocationContinentNode;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maximumBatchSize;

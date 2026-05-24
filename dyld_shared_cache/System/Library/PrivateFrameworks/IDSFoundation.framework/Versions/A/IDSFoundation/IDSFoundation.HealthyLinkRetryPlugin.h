@@ -7,7 +7,6 @@
 @interface IDSFoundation.HealthyLinkRetryPlugin
 {
     id name;
-    id minimumConnectedDuration;
 }
 
 @end

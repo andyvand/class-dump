@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface NLXSchemaSSUBackgroundUpdateAppInfo : SISchemaInstrumentationMessage
 {
     NSString *_appBundleIdSaltedHash;
-    unsigned int _numCacheFilesRemoved;
-    NSArray *_categoryInfos;
-    struct {
-        unsigned int numCacheFilesRemoved:1;
-    } _has;
-    _Bool _hasAppBundleIdSaltedHash;
 }
 
 - (void);
@@ -47,15 +41,10 @@
 × ;
 - (id)tNeeded;
 - (id)t;
-- (void)_NOT_FOUND;
+- (void)CHUSERALIGNMENTISSUECATEGORY_ENTITY_NOT_FOUND;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleIdSaltedHash; // @synthesize appBundleIdSaltedHash=_appBundleIdSaltedHash;
-@property(copy, nonatomic) NSArray *categoryInfos; // @synthesize categoryInfos=_categoryInfos;
-@property(nonatomic) _Bool hasAppBundleIdSaltedHash; // @synthesize hasAppBundleIdSaltedHash=_hasAppBundleIdSaltedHash;
-@property(nonatomic) _Bool hasNumCacheFilesRemoved;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numCacheFilesRemoved; // @synthesize numCacheFilesRemoved=_numCacheFilesRemoved;
 
 @end
 

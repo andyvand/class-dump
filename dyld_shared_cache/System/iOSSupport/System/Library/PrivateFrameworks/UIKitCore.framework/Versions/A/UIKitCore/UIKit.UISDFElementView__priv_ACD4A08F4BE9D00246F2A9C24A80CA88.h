@@ -11,10 +11,10 @@
     id gradientOvalization;
 }
 
-+ (Class);
++ (Class)oupRoute;
 - (void);
-- (id);
-- (id)StatusBarSignalView;
+- (id)c;
+- (id)_UIStatusBarSignalView;
 
 @end
 

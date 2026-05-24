@@ -5,5 +5,7 @@
 //
 
 @protocol SHKSharingViewServiceProtocol
+- (void);
+- (void);
 @end
 

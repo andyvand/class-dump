@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSString *_stringToReplace;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)copyNextBatchWithSize:(id)arg1 iterationContext:(id)arg2;
+- (void)account:(id)arg1 conference:receivedCounterProposalFrom:properties: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void)t is after %@;
 - (id);
-- (void);
+- (void)IMTranscriptChatItemRules;
 - (id);
 - (id);
 - (void);

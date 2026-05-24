@@ -18,12 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id));
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *flowIdentifier;
-@property(copy, nonatomic) NSString *tipPrefix;
 
 @end
 

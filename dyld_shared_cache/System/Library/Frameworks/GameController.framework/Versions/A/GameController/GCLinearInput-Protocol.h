@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-@protocol GCPhysicalInputExtents;
-
 @protocol GCLinearInput
+- (void (^)(id <GCPhysicalInputElement>, id <GCLinearInput>, float));
+- (_Bool)b;
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly) id <GCPhysicalInputExtents> extents;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly) id <GCPhysicalInputExtents> physicalExtents;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) float value;
 @property(copy) CDUnknownBlockType valueDidChangeHandler;
 @end
 

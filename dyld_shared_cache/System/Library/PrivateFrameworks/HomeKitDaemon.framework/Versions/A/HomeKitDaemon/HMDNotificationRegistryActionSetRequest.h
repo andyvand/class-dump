@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSUUID *_actionSetUUID;
 }
 
-- (id);
+- (id)minimalStrategyIdentifier;
 - (id);
 - (id)etching settings value event for keypath %@, uuid:%@, homeUUID:%@ no setting returned in result:%@ /* Error: Ran out of types for this method. */;
 - (void)int;

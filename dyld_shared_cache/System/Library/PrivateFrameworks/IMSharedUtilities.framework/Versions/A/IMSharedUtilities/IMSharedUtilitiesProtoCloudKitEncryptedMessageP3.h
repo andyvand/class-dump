@@ -4,56 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageP3
 {
     unsigned int _cmmAssetOffset;
-    unsigned int _cmmState;
-    NSData *_padding;
-    unsigned int _version;
-    struct {
-        unsigned int cmmAssetOffset:1;
-        unsigned int cmmState:1;
-        unsigned int version:1;
-    } _has;
 }
 
+- (void)k@;
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
-- (unsigned int);
-- (void);
+- (unsigned int)R7;
+- (void);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)_amount;
+- (void)not be manually provisioned;
+- (void)ngmode;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)link:o:path:/System/Library/PrivateFrameworks/AvatarKit.framework/AvatarKit /* Error: Ran out of types for this method. */;
 - (id)ch;
-- (void)KitSyncErrorCodeAccountNeedsRepair;
+- (void)IMCloudKitSyncErrorCodeAccountNeedsRepair;
 
 // Remaining properties
-@property(nonatomic) unsigned int cmmAssetOffset; // @synthesize cmmAssetOffset=_cmmAssetOffset;
-@property(nonatomic) unsigned int cmmState; // @synthesize cmmState=_cmmState;
-@property(nonatomic) _Bool hasCmmAssetOffset;
-@property(nonatomic) _Bool hasCmmState;
-@property(readonly, nonatomic) _Bool hasPadding;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

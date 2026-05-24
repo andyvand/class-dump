@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface _PXIsAlteredValueTransformer
 {
     id _defaultValue;
-    NSDictionary *_defaultSettingsArchiveDictionary;
 }
 
 + (_Bool);
 - (id);
-- (id)ONLY_SWY_FILTER_SHORTCUT;
+- (id)DISABLE_SHOW_ONLY_SWY_FILTER_SHORTCUT;
 - (void);
 
 @end

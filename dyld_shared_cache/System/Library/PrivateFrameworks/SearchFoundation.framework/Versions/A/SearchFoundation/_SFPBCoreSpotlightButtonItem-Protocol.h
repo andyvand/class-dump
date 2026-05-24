@@ -7,12 +7,12 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBCoreSpotlightButtonItem
+- (unsigned long long);
+- (unsigned long long)VD;
+- (NSString *)executeWithLibraryServicesManager:libraryName:executionContext:reply: /* Error: Ran out of types for this method. */;
+- (NSData *));
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionItemTypes;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

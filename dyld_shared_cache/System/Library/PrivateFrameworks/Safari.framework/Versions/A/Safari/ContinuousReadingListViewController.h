@@ -6,15 +6,12 @@
 
 #import <Safari/ContinuousBrowserPageViewController.h>
 
-@class ContinuousReadingListDataSource, NSMutableDictionary, NSSet, NSString, WebViewController;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ContinuousReadingListViewController : ContinuousBrowserPageViewController
 {
     NSMutableDictionary *_continuousReadingListPageItemsToPageViewControllers;
-    _Bool _inReaderMode;
-    id _currentItemBeforeLoadingNewContinuousReadingListItem;
-    ContinuousReadingListDataSource *_readingListDataSource;
 }
 
 + (void);
@@ -27,25 +24,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)	;
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -54,16 +51,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,18 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)ì;
 
 // Remaining properties
-@property(readonly, nonatomic) WebViewController *activeWebViewController;
-@property(readonly, copy, nonatomic) NSSet *allBrowserViewControllers;
-@property(retain, nonatomic) id currentItemBeforeLoadingNewContinuousReadingListItem; // @synthesize currentItemBeforeLoadingNewContinuousReadingListItem=_currentItemBeforeLoadingNewContinuousReadingListItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isInReaderMode) _Bool inReaderMode; // @synthesize inReaderMode=_inReaderMode;
-@property(retain, nonatomic) ContinuousReadingListDataSource *readingListDataSource; // @synthesize readingListDataSource=_readingListDataSource;
-@property(readonly) Class superclass;
 
 @end
 

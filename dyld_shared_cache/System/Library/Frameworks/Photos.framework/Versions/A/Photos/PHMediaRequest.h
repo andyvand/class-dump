@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString, PHAsset, PHProgressContainerForRetryableRequest, PLProgressFollower;
+@class NSError;
 @protocol PHMediaRequestDelegate;
 
 @interface PHMediaRequest
 {
     NSError *_configurationError;
-    unsigned long long _requestIndex;
-    _Atomic _Bool _cancelled;
-    NSString *_identifierString;
-    NSMutableArray *_progresses;
-    struct os_unfair_lock_s _lock;
-    PHProgressContainerForRetryableRequest *_progressContainer;
-    PLProgressFollower *_progressFollower;
-    _Atomic unsigned int _retryAttemptCount;
-    double _retryInterval;
-    _Bool _wantsProgress;
-    int _requestID;
-    id <PHMediaRequestDelegate> _delegate;
-    unsigned long long _managerID;
-    PHAsset *_asset;
-    long long _contextType;
-    unsigned long long _signpostID;
 }
 
 - (void);
@@ -41,51 +25,31 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (int);
 - (_Bool);
 - (long long);
-- (long long);
-- (void);
+- (long long)RA;
+- (void)ITLibMediaItemPropertyAlbumTitle;
 - (void);
 - (id);
 - (long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)hted:(id)arg1 %ld);
 - (id)1Â0@ù
 × ;
-- (_Bool)escriptionForResourceType: /* Error: Ran out of types for this method. */;
+- (_Bool)shortDescriptionForResourceType: /* Error: Ran out of types for this method. */;
 - (void)eria",R,C;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <PHMediaRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long downloadIntent;
-@property(readonly, nonatomic) long long downloadPriority;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long managerID; // @synthesize managerID=_managerID;
-@property(readonly, nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed;
-@property(readonly, nonatomic) int requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) unsigned long long requestIndex; // @synthesize requestIndex=_requestIndex;
-@property(nonatomic) double retryInterval;
-@property(nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSynchronous) _Bool synchronous;
-@property(nonatomic) _Bool wantsProgress; // @synthesize wantsProgress=_wantsProgress;
 
 @end
 

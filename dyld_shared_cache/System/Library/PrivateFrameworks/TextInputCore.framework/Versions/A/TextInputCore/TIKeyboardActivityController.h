@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, NSTimer;
-@protocol OS_dispatch_source, OS_os_transaction;
-
 @interface TIKeyboardActivityController
 {
     _Bool _hadRecentActivity;
-    _Bool _hasBackgroundActivity;
-    unsigned long long _activityState;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    long long _inactiveMemoryPressureCount;
-    _Bool _isDirty;
-    NSObject<OS_os_transaction> *_isDirtyTransaction;
-    NSTimer *_inactivityTimer;
-    NSHashTable *_observers;
 }
 
-+ (double);
++ (double)R#;
 + (void);
 + (double);
 + (void);
@@ -34,43 +23,32 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)liteDatabase",R,N;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)kMDItemGenre_TermFrequencies_Mean_Prefix;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_setCatalogURL:(unsigned long long)arg1 options:(unsigned long long)arg2;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)ID;
 - (void);
 - (void)°!Dùqið1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activityState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSTimer *inactivityTimer; // @synthesize inactivityTimer=_inactivityTimer;
 @property(nonatomic) _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *isDirtyTransaction; // @synthesize isDirtyTransaction=_isDirtyTransaction;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,9 +11,9 @@
 }
 
 - (void);
+- (id)!@g#;
 - (id);
-- (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)initWithInteger: /* Error: Ran out of types for this method. */;
 - (void)ndLinkElement;e&&(e.style.display="none"),this.showLinkElement=!1},MUISimpleLinkAbbreviator.prototype.verticalFoldPosition=function(){return this.expandLinkElement.getBoundingClientRect().top+2},MUISimpleLinkAbbreviator.prototype.needsLayoutInformation=function(){return!this.senderName};;
 
 // Remaining properties

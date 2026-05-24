@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufPaymentRequest;
+@class NSString;
 
 @interface PKProtobufRemotePaymentRequest
 {
     NSString *_identifier;
-    NSString *_paymentApplicationIdentifier;
-    PKProtobufPaymentRequest *_paymentRequest;
-    unsigned int _paymentType;
-    struct {
-        unsigned int paymentType:1;
-    } _has;
 }
 
 - (void);
@@ -28,31 +22,24 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)7;
 - (unsigned int);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned int);
+- (id);
+- (unsigned int);
 - (id);
 - (id);
 - (_Bool)
 × ;
-- (_Bool)cate;
+- (_Bool)_certificate;
 - (Class)d to generate peer payment update user info request encryptedCardData. This is bad!;
 - (void)quired:%d, Secondary Properties Acquired:%d] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPaymentApplicationIdentifier;
 @property(readonly, nonatomic) _Bool hasPaymentRequest;
-@property(nonatomic) _Bool hasPaymentType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *paymentApplicationIdentifier; // @synthesize paymentApplicationIdentifier=_paymentApplicationIdentifier;
-@property(retain, nonatomic) PKProtobufPaymentRequest *paymentRequest; // @synthesize paymentRequest=_paymentRequest;
-@property(nonatomic) unsigned int paymentType; // @synthesize paymentType=_paymentType;
 
 @end
 

@@ -6,32 +6,12 @@
 
 #import <Contacts/CNContainer.h>
 
-@class CNProviderMetadata, NSData, NSDate, NSString;
-
 @interface CNMutableContainer : CNContainer
 {
 }
 
 
 // Remaining properties
-@property(copy) NSString *accountIdentifier; // @dynamic accountIdentifier;
-@property(copy) NSString *constraintsPath; // @dynamic constraintsPath;
-@property(getter=isEnabled) _Bool enabled; // @dynamic enabled;
-@property(copy) NSString *externalIdentifier; // @dynamic externalIdentifier;
-@property(copy) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(copy) NSData *externalSyncData; // @dynamic externalSyncData;
-@property(copy) NSString *externalSyncTag; // @dynamic externalSyncTag;
-@property(getter=isGuardianRestricted) _Bool guardianRestricted;
-@property(getter=isGuardianStateDirty) _Bool guardianStateDirty;
-@property int iOSLegacyIdentifier; // @dynamic iOSLegacyIdentifier;
-@property(copy) NSString *identifier; // @dynamic identifier;
-@property(copy) NSDate *lastSyncDate;
-@property(copy) NSString *meIdentifier; // @dynamic meIdentifier;
-@property(copy) NSString *name; // @dynamic name;
-@property(copy) NSString *providerIdentifier; // @dynamic providerIdentifier;
-@property(copy) CNProviderMetadata *providerMetadata; // @dynamic providerMetadata;
-@property unsigned long long restrictions; // @dynamic restrictions;
 @property(copy) CNContainer *snapshot; // @dynamic snapshot;
-@property long long type; // @dynamic type;
 @end
 

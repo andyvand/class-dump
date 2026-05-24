@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, GEOPlace, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOURLItem
 {
     PBDataReader *_reader;
-    GEOMapItemStorage *_mapItemStorage;
-    GEOPlace *_place;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _currentLocation;
-    struct {
-        unsigned int has_currentLocation:1;
-        unsigned int read_mapItemStorage:1;
-        unsigned int read_place:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)personNameCompomentsFromPrefix:suffix:givenNames:middleNames:familyNames: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,7 +23,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)priorities:signpostIDs:createTimes:additionalInfos:cacheInfos:auditToken:constraints:backgroundSessionIdentifier:shouldParticipateInBalancer:reason: /* Error: Ran out of types for this method. */;
 - (id)@"GEOMobileAssetResourceManager",R,N;
-- (id)DEX_BAR;
+- (id)SCROLL_DOWN_INDEX_BAR;
 - (void);
 - (void)¬Z{A;
 

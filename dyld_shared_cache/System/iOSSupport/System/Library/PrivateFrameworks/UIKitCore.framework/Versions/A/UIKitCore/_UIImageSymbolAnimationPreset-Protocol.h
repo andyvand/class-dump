@@ -5,7 +5,10 @@
 //
 
 @protocol _UIImageSymbolAnimationPreset
-- (void (^)(id <_UIImageSymbolAnimationPreset>))ewsCreateIfNecessary;
+- (void)deviceIsLockedDown;
+- (_Bool)_shouldConvergeChatParticipants:withHandleInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)_setMessageItemToStandaloneIfNeeded:chatIdentifier: /* Error: Ran out of types for this method. */;
+- (void (^)(id <_UIImageSymbolAnimationPreset>))turningPointViewsCreateIfNecessary;
 - (void)w:(void (^)(id <_UIImageSymbolAnimationPreset>))arg1 %@;
 
 // Remaining properties

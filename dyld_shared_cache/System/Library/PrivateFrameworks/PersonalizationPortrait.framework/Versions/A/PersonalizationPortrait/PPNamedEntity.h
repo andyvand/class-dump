@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PPNamedEntityRecord;
+@class NSString;
 
 @interface PPNamedEntity
 {
     NSString *_name;
-    unsigned long long _category;
-    NSString *_dynamicCategory;
-    NSString *_bestLanguage;
-    NSString *_clusterIdentifier;
 }
 
 + (id);
 + (unsigned long long);
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)blitShaderWithColorAttachmentIndex:(id)arg1 pipelineConfig:renderMask:alphaBlending: /* Error: Ran out of types for this method. */;
+- (id)PKIndexableContent;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (id)_baseWritingDirection;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)ispatch.dylib;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bestLanguage; // @synthesize bestLanguage=_bestLanguage;
-@property(readonly, nonatomic) unsigned long long category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *clusterIdentifier; // @synthesize clusterIdentifier=_clusterIdentifier;
-@property(readonly, nonatomic) NSString *dynamicCategory; // @synthesize dynamicCategory=_dynamicCategory;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) PPNamedEntityRecord *mostRelevantRecord;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) double sentimentScore;
 
 @end
 

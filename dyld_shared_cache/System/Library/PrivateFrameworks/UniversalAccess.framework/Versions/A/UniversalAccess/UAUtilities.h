@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)mojiUsed"b1"keyboardUsed"b1"isSenderShortCode"b1"isLongMessage"b1"isReply"b1"appendingActionReadMessagesCount"b1"userPersona"b1"isSummarized"b1"summarySourceType"b1};
++ (id)tStarted";
 + (id);
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSFilePresenterAsynchronousOperation : NSOperation
 {
     CDUnknownBlockType _block;
-    _Bool _isFinished;
-    _Bool _isExecuting;
 }
 
 + (id);

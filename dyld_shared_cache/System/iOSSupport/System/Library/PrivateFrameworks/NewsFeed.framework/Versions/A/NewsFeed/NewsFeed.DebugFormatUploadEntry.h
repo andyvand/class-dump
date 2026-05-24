@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatUploadEntry
 {
     id package;
-    id file;
-    id target;
-    id diff;
 }
 
 @end

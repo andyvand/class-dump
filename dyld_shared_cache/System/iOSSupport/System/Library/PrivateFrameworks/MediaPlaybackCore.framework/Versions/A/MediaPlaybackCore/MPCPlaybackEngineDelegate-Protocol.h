@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCPlaybackEngine, MPPropertySet;
+
 @protocol MPCPlaybackEngineDelegate
+
+@optional
+- (MPPropertySet *);
+- (void)Stop processing Apple Account change:(MPCPlaybackEngine *)arg1 No newly provisioned dataclasses;
+- (void)class;
+- (void)e:(MPCPlaybackEngine *)arg1 Cannot auto enable mail dataclass;
+- (void)il dataclass not provisioned;
+- (void)p processing IMAP Mail Account change:(MPCPlaybackEngine *)arg1 Parent account is not an Apple Account;
+- (void)IMAP Mail Account change:(MPCPlaybackEngine *)arg1 No parent account;
+- (void)Account change:(MPCPlaybackEngine *)arg1 Account wasn't added;
+- (void)l Account change for account:(MPCPlaybackEngine *)arg1 %@;
 @end
 

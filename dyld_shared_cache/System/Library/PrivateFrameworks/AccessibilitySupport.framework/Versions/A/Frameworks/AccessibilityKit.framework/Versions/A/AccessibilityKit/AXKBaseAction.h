@@ -14,23 +14,14 @@
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setAutomaticallyAdjustsContentInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <AXKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(readonly, nonatomic) NSString *actionDescription;
 @property(readonly, nonatomic) NSString *actionName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

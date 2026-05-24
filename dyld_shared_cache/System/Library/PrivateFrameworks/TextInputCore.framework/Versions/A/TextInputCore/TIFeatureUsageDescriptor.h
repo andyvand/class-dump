@@ -11,22 +11,18 @@
 @interface TIFeatureUsageDescriptor : TINumericValueDescriptor
 {
     NSString *_discoveryCounter;
-    long long _discoveryThreshold;
-    NSString *_configString;
 }
 
 + (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)F;
 - (void)i1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *configString; // @synthesize configString=_configString;
 @property(readonly, nonatomic) NSString *discoveryCounter; // @synthesize discoveryCounter=_discoveryCounter;
-@property(readonly, nonatomic) long long discoveryThreshold; // @synthesize discoveryThreshold=_discoveryThreshold;
 
 @end
 

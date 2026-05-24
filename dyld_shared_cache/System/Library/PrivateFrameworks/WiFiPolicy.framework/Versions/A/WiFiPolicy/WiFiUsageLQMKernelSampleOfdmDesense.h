@@ -6,15 +6,11 @@
 
 #import <WiFiPolicy/WiFiUsageLQMSample.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface WiFiUsageLQMKernelSampleOfdmDesense : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _ofdmDesense;
-    unsigned long long _bPhyDesense;
-    NSString *_desenseReason;
 }
 
 + (id);
@@ -23,22 +19,18 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
+- (void)C;
+- (double)lowerStickerPickerTaskPriority:avatarRecordIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bPhyDesense; // @synthesize bPhyDesense=_bPhyDesense;
-@property(retain, nonatomic) NSString *desenseReason; // @synthesize desenseReason=_desenseReason;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long ofdmDesense; // @synthesize ofdmDesense=_ofdmDesense;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

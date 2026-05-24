@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSDate;
 
 @interface MMCSOperationMetric
 {
     double _queueing;
-    double _executing;
-    unsigned long long _bytesUploaded;
-    unsigned long long _bytesDownloaded;
-    unsigned long long _connections;
-    unsigned long long _connectionsCreated;
-    unsigned long long _bytesFulfilledByPeers;
-    unsigned long long _bytesFulfilledLocally;
-    unsigned long long _bytesResumed;
-    NSMutableDictionary *_totalBytesByChunkProfile;
-    NSMutableDictionary *_chunkCountByChunkProfile;
-    NSMutableDictionary *_fileCountByChunkProfile;
-    NSMutableSet *_requestUUIDs;
-    NSDate *_startDate;
-    double _duration;
-    NSMutableArray *_ranges;
 }
 
 - (void);
@@ -31,20 +16,20 @@
 - (long long);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)handle ID:%s /* Error: Ran out of types for this method. */;
+- (void)setCachedAllowList:(double)arg1 ];
 - (double);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)om %@ (%lu) was interrupted.;
 - (double);
 - (void);
 - (unsigned long long);
 - (double);
-- (id);
+- (id)loadModelAtURL:withTimeout:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -52,16 +37,16 @@
 - (double);
 - (void);
 - (long long);
-- (double);
+- (double)SCertificateRequired:withProxyServer:withProxyServerPort:withProxyUsername:withProxyPassword:withProxyPACURL:withProxyPACFallbackAllowed: /* Error: Ran out of types for this method. */;
 - (double);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)countOfKeypointsPerRegion;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -69,30 +54,7 @@
 - (void)lient-info;
 
 // Remaining properties
-@property unsigned long long bytesDownloaded; // @synthesize bytesDownloaded=_bytesDownloaded;
-@property unsigned long long bytesFulfilledByPeers; // @synthesize bytesFulfilledByPeers=_bytesFulfilledByPeers;
-@property unsigned long long bytesFulfilledLocally; // @synthesize bytesFulfilledLocally=_bytesFulfilledLocally;
-@property unsigned long long bytesResumed; // @synthesize bytesResumed=_bytesResumed;
-@property unsigned long long bytesUploaded; // @synthesize bytesUploaded=_bytesUploaded;
-@property(readonly) NSMutableDictionary *chunkCountByChunkProfile; // @synthesize chunkCountByChunkProfile=_chunkCountByChunkProfile;
-@property unsigned long long connections; // @synthesize connections=_connections;
-@property unsigned long long connectionsCreated; // @synthesize connectionsCreated=_connectionsCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double duration; // @synthesize duration=_duration;
-@property double executing; // @synthesize executing=_executing;
-@property(readonly) NSMutableDictionary *fileCountByChunkProfile; // @synthesize fileCountByChunkProfile=_fileCountByChunkProfile;
-@property(readonly) unsigned long long hash;
-@property double queueing; // @synthesize queueing=_queueing;
-@property(retain, nonatomic) NSMutableArray *ranges; // @synthesize ranges=_ranges;
-@property(readonly) NSArray *rangesCopy;
-@property(readonly) NSMutableSet *requestUUIDs; // @synthesize requestUUIDs=_requestUUIDs;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *totalBytesByChunkProfile; // @synthesize totalBytesByChunkProfile=_totalBytesByChunkProfile;
 
 @end
 

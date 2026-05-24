@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 
 // Remaining properties
 @property(readonly) struct CGPoint point; // @synthesize point=_point;

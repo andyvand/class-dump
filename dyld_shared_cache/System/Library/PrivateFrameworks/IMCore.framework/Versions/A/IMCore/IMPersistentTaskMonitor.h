@@ -7,24 +7,19 @@
 @interface IMPersistentTaskMonitor
 {
     id id;
-    id state;
-    id derivedState;
-    id changeHandler;
-    id notificationObserver;
 }
 
-- (long long);
-- (long long);
+- (long long)age:message encryption is enabled but remote participant '%@' sends un-encrypted messages. Dropping un-encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!) /* Error: Ran out of types for this method. */;
+- (long long)!);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)Right;
+- (void)requestExpireStateForMessageGuid:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)bottomRight;
 
 // Remaining properties
 @property(nonatomic, readonly) long long remainingChats;
-@property(nonatomic, readonly) long long remainingMessages;
 
 @end
 

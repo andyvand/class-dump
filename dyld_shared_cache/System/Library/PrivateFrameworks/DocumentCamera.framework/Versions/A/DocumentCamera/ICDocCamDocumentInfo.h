@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDocCamImageQuad, NSData, NSDictionary, NSString;
-
 @interface ICDocCamDocumentInfo
 {
     _Bool _constantColor;
-    short _currentFilter;
-    NSDictionary *_metaData;
-    ICDocCamImageQuad *_imageQuad;
-    NSString *_croppedAndFilteredImageUUID;
-    NSString *_croppedButNotFilteredImageUUID;
-    NSString *_fullImageUUID;
-    NSString *_meshAnimImageUUID;
-    long long _currentOrientation;
-    NSString *_scanDataDelegateIdentifier;
-    NSData *_markupModelData;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,29 +30,18 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ification to GetMute for client[%p];
+- (void)%s:(short)arg1 %d Failed to retrieve the negotiation data for version=%d;
+- (id)prepare the middle fragement;
+- (id)s:size:] /* Error: Ran out of types for this method. */;
 - (short);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool constantColor; // @synthesize constantColor=_constantColor;
-@property(retain, nonatomic) NSString *croppedAndFilteredImageUUID; // @synthesize croppedAndFilteredImageUUID=_croppedAndFilteredImageUUID;
-@property(retain, nonatomic) NSString *croppedButNotFilteredImageUUID; // @synthesize croppedButNotFilteredImageUUID=_croppedButNotFilteredImageUUID;
-@property(nonatomic) short currentFilter; // @synthesize currentFilter=_currentFilter;
-@property(nonatomic) long long currentOrientation; // @synthesize currentOrientation=_currentOrientation;
-@property(retain, nonatomic) NSString *fullImageUUID; // @synthesize fullImageUUID=_fullImageUUID;
-@property(readonly, nonatomic) _Bool hasFilter;
-@property(retain, nonatomic) ICDocCamImageQuad *imageQuad; // @synthesize imageQuad=_imageQuad;
-@property(retain, nonatomic) NSData *markupModelData; // @synthesize markupModelData=_markupModelData;
-@property(retain, nonatomic) NSString *meshAnimImageUUID; // @synthesize meshAnimImageUUID=_meshAnimImageUUID;
-@property(retain, nonatomic) NSDictionary *metaData; // @synthesize metaData=_metaData;
-@property(retain, nonatomic) NSString *scanDataDelegateIdentifier; // @synthesize scanDataDelegateIdentifier=_scanDataDelegateIdentifier;
 
 @end
 

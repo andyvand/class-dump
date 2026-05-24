@@ -7,7 +7,6 @@
 @interface AppStoreKit.VideoPlaybackScrollObserver
 {
     id videoPlaybackCoordinator;
-    id scrollObserverTokens;
 }
 
 @end

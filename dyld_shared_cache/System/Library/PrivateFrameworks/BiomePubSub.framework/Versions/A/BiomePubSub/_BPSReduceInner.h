@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)reviewGenerator;
 - (void);
 
 // Remaining properties

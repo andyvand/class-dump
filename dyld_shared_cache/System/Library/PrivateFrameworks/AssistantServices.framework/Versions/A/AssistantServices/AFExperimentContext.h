@@ -5,7 +5,7 @@
 //
 
 @class AFExperiment, NSDictionary;
-@protocol AFExperimentForSiriVOXSounds, AFExperimentForSiriVOXTapToSiriBehavior, AFInvocationFeedbackExperiment;
+@protocol AFExperimentForSiriVOXSounds;
 
 @interface AFExperimentContext
 {
@@ -13,11 +13,11 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id)setHasDeepLink:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,7 +25,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,9 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AFExperiment<AFExperimentForSiriVOXSounds> *experimentForSiriVOXSounds;
-@property(readonly, nonatomic) AFExperiment<AFExperimentForSiriVOXTapToSiriBehavior> *experimentForSiriVOXTapToSiriBehavior;
-@property(readonly, copy, nonatomic) NSDictionary *experimentsByConfigurationIdentifier; // @synthesize experimentsByConfigurationIdentifier=_experimentsByConfigurationIdentifier;
-@property(readonly, nonatomic) AFExperiment<AFInvocationFeedbackExperiment> *invocationFeedbackExperiment;
 
 @end
 

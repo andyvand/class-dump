@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol SMNNetworkSessionDelegateProtocol
+- (_Bool);
+- (NSString *);
 
 // Remaining properties
 @property(retain) NSString *secretPassword;

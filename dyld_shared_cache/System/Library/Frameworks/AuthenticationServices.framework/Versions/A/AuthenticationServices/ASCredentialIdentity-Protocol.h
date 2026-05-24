@@ -7,12 +7,9 @@
 @class ASCredentialServiceIdentifier, NSString;
 
 @protocol ASCredentialIdentity
-- (NSString *);
+- (NSString *)selectedCredentialTypes;
 
 // Remaining properties
-@property(nonatomic) long long rank;
-@property(readonly, copy, nonatomic) NSString *recordIdentifier;
 @property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier;
-@property(readonly, copy, nonatomic) NSString *user;
 @end
 

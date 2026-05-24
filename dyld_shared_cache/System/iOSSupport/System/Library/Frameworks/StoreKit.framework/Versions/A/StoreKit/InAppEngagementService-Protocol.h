@@ -5,5 +5,7 @@
 //
 
 @protocol InAppEngagementService
+- (void);
+- (void);
 @end
 

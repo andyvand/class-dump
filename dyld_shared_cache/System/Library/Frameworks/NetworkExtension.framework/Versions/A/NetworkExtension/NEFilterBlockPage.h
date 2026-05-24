@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface NEFilterBlockPage
 {
     NSString *_organization;
-    NSURL *_pageTemplateURL;
-    NSString *_userURL;
-    NSString *_formActionURL;
-    NSString *_unblockStyle;
-    NSString *_remediationButtonText;
 }
 
 - (id);
-- (void)ationData: /* Error: Ran out of types for this method. */;
+- (void)setApplicationData: /* Error: Ran out of types for this method. */;
 
 @end
 

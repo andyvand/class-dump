@@ -9,9 +9,6 @@
 @interface UNNotificationTopic
 {
     NSString *_identifier;
-    NSString *_displayName;
-    unsigned long long _priority;
-    NSString *_sortIdentifier;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)H;
 - (void);
 - (id);
 - (id);
@@ -31,10 +28,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, copy) NSString *sortIdentifier; // @synthesize sortIdentifier=_sortIdentifier;
 
 @end
 

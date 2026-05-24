@@ -7,7 +7,6 @@
 @interface PodcastsUI.LazyJSStack
 {
     id bag;
-    id stack;
 }
 
 @end

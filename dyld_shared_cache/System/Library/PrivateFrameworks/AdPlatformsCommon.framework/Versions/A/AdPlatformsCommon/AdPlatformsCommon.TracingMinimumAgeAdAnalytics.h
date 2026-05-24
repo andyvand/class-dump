@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TracingMinimumAgeAdAnalytics
 {
     id tracedAnalytics;
-    id log;
 }
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol AFMyriadSessionMutating
+- (void);
 - (void)0@ù
 × ;
 @end

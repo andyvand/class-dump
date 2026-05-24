@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteSearchManager, CNAutocompleteSuggestionsViewControllerOptions, CNAvatarImageRenderer, NSArray, NSMutableArray, NSNumber, NSObject, NSString, UICollectionView, UICollectionViewDiffableDataSource, UICollectionViewLayout;
-@protocol CNAutocompleteSuggestionsViewControllerDelegate, NSObject, OS_dispatch_source;
+@class UICollectionViewDiffableDataSource;
 
 @interface CNAutocompleteSuggestionsViewController
 {
     _Bool _suggestionsAreUpdating;
-    id <CNAutocompleteSuggestionsViewControllerDelegate> _delegate;
-    NSArray *_recipients;
-    NSArray *_otherRecipientAddresses;
-    NSString *_suggestionsHeaderTitle;
-    UICollectionViewDiffableDataSource *_diffableDataSource;
-    NSNumber *_taskID;
-    NSArray *_selectedRecipients;
-    CNAutocompleteSearchManager *_searchManager;
-    UICollectionView *_collectionView;
-    UICollectionViewLayout *_layout;
-    NSMutableArray *_fetchedRecipients;
-    NSArray *_items;
-    CNAvatarImageRenderer *_avatarRenderer;
-    id <NSObject> _keyboardWillShowNotificationObserver;
-    id <NSObject> _keyboardWillHideNotificationObserver;
-    CDUnknownBlockType _suggestionPreWarmCompletionBlock;
-    NSObject<OS_dispatch_source> *_suggestionsFetchDebounceTimer;
-    CNAutocompleteSuggestionsViewControllerOptions *_options;
-    struct NSDirectionalEdgeInsets _additionalContentInsets;
-    struct CGRect _latestKeyboardFrame;
 }
 
 + (id);
@@ -43,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,7 +52,7 @@
 - (struct CGSize);
 - (void);
 - (struct NSDirectionalEdgeInsets);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -93,7 +72,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -103,42 +82,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithWeakTarget:(id)arg1 selector: /* Error: Ran out of types for this method. */;
+- (void)ㄓㄨㄛˊ;
+- (void)Q;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct NSDirectionalEdgeInsets additionalContentInsets; // @synthesize additionalContentInsets=_additionalContentInsets;
-@property(retain, nonatomic) CNAvatarImageRenderer *avatarRenderer; // @synthesize avatarRenderer=_avatarRenderer;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAutocompleteSuggestionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UICollectionViewDiffableDataSource *diffableDataSource; // @synthesize diffableDataSource=_diffableDataSource;
-@property(retain, nonatomic) NSMutableArray *fetchedRecipients; // @synthesize fetchedRecipients=_fetchedRecipients;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) id <NSObject> keyboardWillHideNotificationObserver; // @synthesize keyboardWillHideNotificationObserver=_keyboardWillHideNotificationObserver;
-@property(retain, nonatomic) id <NSObject> keyboardWillShowNotificationObserver; // @synthesize keyboardWillShowNotificationObserver=_keyboardWillShowNotificationObserver;
-@property(nonatomic) struct CGRect latestKeyboardFrame; // @synthesize latestKeyboardFrame=_latestKeyboardFrame;
-@property(retain, nonatomic) UICollectionViewLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) CNAutocompleteSuggestionsViewControllerOptions *options; // @synthesize options=_options;
-@property(retain, nonatomic) NSArray *otherRecipientAddresses; // @synthesize otherRecipientAddresses=_otherRecipientAddresses;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain, nonatomic) CNAutocompleteSearchManager *searchManager; // @synthesize searchManager=_searchManager;
-@property(retain, nonatomic) NSArray *selectedRecipients; // @synthesize selectedRecipients=_selectedRecipients;
-@property(copy, nonatomic) CDUnknownBlockType suggestionPreWarmCompletionBlock; // @synthesize suggestionPreWarmCompletionBlock=_suggestionPreWarmCompletionBlock;
-@property(nonatomic) _Bool suggestionsAreUpdating; // @synthesize suggestionsAreUpdating=_suggestionsAreUpdating;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *suggestionsFetchDebounceTimer; // @synthesize suggestionsFetchDebounceTimer=_suggestionsFetchDebounceTimer;
-@property(retain, nonatomic) NSString *suggestionsHeaderTitle; // @synthesize suggestionsHeaderTitle=_suggestionsHeaderTitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *taskID; // @synthesize taskID=_taskID;
 
 @end
 

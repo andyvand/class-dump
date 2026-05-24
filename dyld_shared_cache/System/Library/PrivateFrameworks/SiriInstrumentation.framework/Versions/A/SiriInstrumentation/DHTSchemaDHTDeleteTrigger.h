@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DHTSchemaDHTDeleteTrigger : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_id;
-    SISchemaUUID *_speechId;
-    SISchemaUUID *_siriDeviceId;
-    unsigned long long _deleteTimestampMs;
-    int _deletionTriggerEvent;
-    struct {
-        unsigned int deleteTimestampMs:1;
-        unsigned int deletionTriggerEvent:1;
-    } _has;
-    _Bool _hasId;
-    _Bool _hasSpeechId;
-    _Bool _hasSiriDeviceId;
 }
 
 - (id);
@@ -29,13 +18,13 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
 - (unsigned long long);
 - (void);
@@ -44,35 +33,25 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)˟;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id){7;
+- (void)ے;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)JS;
 - (id)irementProtectedAppRequest";
-- (id)text;
+- (id)MHSchemaMHUserEngagementFalseTriggerMitigationEvaluationContext;
 - (id)Ðí|î;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long deleteTimestampMs; // @synthesize deleteTimestampMs=_deleteTimestampMs;
-@property(nonatomic) int deletionTriggerEvent; // @synthesize deletionTriggerEvent=_deletionTriggerEvent;
-@property(nonatomic) _Bool hasDeleteTimestampMs;
-@property(nonatomic) _Bool hasDeletionTriggerEvent;
-@property(nonatomic) _Bool hasId; // @synthesize hasId=_hasId;
-@property(nonatomic) _Bool hasSiriDeviceId; // @synthesize hasSiriDeviceId=_hasSiriDeviceId;
-@property(nonatomic) _Bool hasSpeechId; // @synthesize hasSpeechId=_hasSpeechId;
 @property(retain, nonatomic) SISchemaUUID *id; // @synthesize id=_id;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *siriDeviceId; // @synthesize siriDeviceId=_siriDeviceId;
-@property(retain, nonatomic) SISchemaUUID *speechId; // @synthesize speechId=_speechId;
 
 @end
 

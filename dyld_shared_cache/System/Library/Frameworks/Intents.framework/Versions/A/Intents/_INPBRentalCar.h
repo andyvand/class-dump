@@ -9,14 +9,9 @@
 @interface _INPBRentalCar
 {
     struct _has;
-    NSString *_make;
-    NSString *_model;
-    NSString *_rentalCarDescription;
-    NSString *_rentalCompanyName;
-    NSString *_type;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,12 +19,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -38,28 +33,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool)xport;
+- (id);
+- (_Bool)INAnswerCallIntentExport;
 - (void)esolveIntentParameter:forIntent:completionBlock:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMake;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) _Bool hasRentalCarDescription;
-@property(readonly, nonatomic) _Bool hasRentalCompanyName;
-@property(readonly, nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *make; // @synthesize make=_make;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *rentalCarDescription; // @synthesize rentalCarDescription=_rentalCarDescription;
-@property(copy, nonatomic) NSString *rentalCompanyName; // @synthesize rentalCompanyName=_rentalCompanyName;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

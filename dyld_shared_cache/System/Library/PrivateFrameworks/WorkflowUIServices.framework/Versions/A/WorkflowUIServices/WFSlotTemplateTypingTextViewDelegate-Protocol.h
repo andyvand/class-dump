@@ -5,5 +5,10 @@
 //
 
 @protocol WFSlotTemplateTypingTextViewDelegate
+
+@optional
+- (void);
+- (void)P;
+- (void)0;
 @end
 

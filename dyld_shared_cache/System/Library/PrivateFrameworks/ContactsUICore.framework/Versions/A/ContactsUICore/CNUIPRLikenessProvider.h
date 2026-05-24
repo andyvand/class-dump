@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PRLikeness;
+@class PRLikeness;
 
 @interface CNUIPRLikenessProvider
 {
@@ -18,14 +18,7 @@
 - (void)40@0:8@"NSArray"16@"CNUILikenessRenderingScope"24@"<CNScheduler>"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PRLikeness *likeness; // @synthesize likeness=_likeness;
-@property(readonly) Class superclass;
 
 @end
 

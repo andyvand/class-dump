@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)$;
 - (_Bool);
 - (id);
 - (const struct MTLPipelineBufferDescriptorPrivate *)t a valid MTLPixelFormat.;

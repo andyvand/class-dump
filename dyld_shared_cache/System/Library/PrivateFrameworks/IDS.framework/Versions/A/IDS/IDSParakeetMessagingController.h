@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerMessagingController, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol IDSParakeetMessagingControllerDelegate, OS_dispatch_queue;
+@class IDSServerMessagingController;
+@protocol IDSParakeetMessagingControllerDelegate;
 
 @interface IDSParakeetMessagingController
 {
     id <IDSParakeetMessagingControllerDelegate> _delegate;
-    IDSServerMessagingController *_IPServerMessagingController;
-    IDSServerMessagingController *_offGridServerMessagingController;
-    NSMutableDictionary *_stopStateMachineByIdentifier;
-    unsigned long long _emptyStorageState;
-    NSMutableSet *_incomingMessagesWithoutAcks;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -31,35 +25,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)P;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)BluetoothHCIReadLocalVersionInformation:(id)arg1 outHCIRevision:outLMPVersion:outManufacturerName:outLMPSubversion: /* Error: Ran out of types for this method. */;
+- (id)q,N,V_totalUnlocks;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)Q;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) IDSServerMessagingController *IPServerMessagingController; // @synthesize IPServerMessagingController=_IPServerMessagingController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IDSParakeetMessagingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long emptyStorageState; // @synthesize emptyStorageState=_emptyStorageState;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *incomingMessagesWithoutAcks; // @synthesize incomingMessagesWithoutAcks=_incomingMessagesWithoutAcks;
-@property(readonly, nonatomic) IDSServerMessagingController *offGridServerMessagingController; // @synthesize offGridServerMessagingController=_offGridServerMessagingController;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *stopStateMachineByIdentifier; // @synthesize stopStateMachineByIdentifier=_stopStateMachineByIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

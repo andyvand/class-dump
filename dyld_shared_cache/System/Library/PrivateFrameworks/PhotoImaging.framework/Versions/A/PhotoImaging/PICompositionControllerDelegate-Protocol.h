@@ -5,5 +5,9 @@
 //
 
 @protocol PICompositionControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

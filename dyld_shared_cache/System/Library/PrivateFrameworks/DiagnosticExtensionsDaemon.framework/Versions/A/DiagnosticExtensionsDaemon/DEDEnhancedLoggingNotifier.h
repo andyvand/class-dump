@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ELBugSessionStatusProvider, NSString;
+@class ELBugSessionStatusProvider;
 
 @interface DEDEnhancedLoggingNotifier
 {
@@ -16,18 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)DecryptFailed after user key sync due to unit tests;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ELBugSessionStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
-@property(readonly) Class superclass;
 
 @end
 

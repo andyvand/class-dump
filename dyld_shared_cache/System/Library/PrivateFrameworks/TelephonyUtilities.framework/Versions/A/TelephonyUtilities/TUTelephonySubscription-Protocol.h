@@ -7,9 +7,9 @@
 @class NSString, NSUUID;
 
 @protocol TUTelephonySubscription
+- (NSString *)qA;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *labelID;
 @property(readonly, nonatomic) NSUUID *uuid;
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)updateLSTMLayersForVariableSequenceLengthInGraph:(id)arg1 withInputData:(id)arg2;
 - (id);
 - (id)h sourceGradients[%d].rows == %d;
 

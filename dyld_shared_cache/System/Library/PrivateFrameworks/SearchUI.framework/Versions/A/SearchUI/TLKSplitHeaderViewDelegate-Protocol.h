@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TLKSplitHeaderView;
+
 @protocol TLKSplitHeaderViewDelegate
+- (void)getNSDataForColumnAlias:(TLKSplitHeaderView *)arg1;
+- (void)getMergedPromptForMessage:(TLKSplitHeaderView *)arg1 conversationTurns:maxPromptLength:maxPromptWindowSeconds:promptJoiningString: /* Error: Ran out of types for this method. */;
 @end
 

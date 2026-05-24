@@ -9,8 +9,6 @@
 @interface AppStoreKit.ReportConcernAction : AppStoreKit.Action
 {
     id reasons;
-    id explanation;
-    id sendAction;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface LAVolumeOwnership
 {
     void volumePath;
-    _Bool confirmed;
 }
 
 + (id);
@@ -23,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool confirmed; // @synthesize confirmed;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *volumePath;
 
 @end

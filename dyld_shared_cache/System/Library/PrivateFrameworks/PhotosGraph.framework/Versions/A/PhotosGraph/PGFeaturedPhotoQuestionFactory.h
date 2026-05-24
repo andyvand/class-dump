@@ -13,10 +13,10 @@
     PGSuggestionSession *_suggestionSession;
 }
 
+- (id)_keyFocusTracker;
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (unsigned short);
 - (void)sitiveScenes:%@
  /* Error: Ran out of types for this method. */;

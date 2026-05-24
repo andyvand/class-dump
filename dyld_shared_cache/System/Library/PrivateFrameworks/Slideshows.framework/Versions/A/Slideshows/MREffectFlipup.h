@@ -6,54 +6,42 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImage, MRImageProvider, NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectFlipup : MREffect
 {
     NSMutableDictionary *mSprites;
-    NSMutableDictionary *mBreakInformation;
-    double mZPositions[6];
-    double mXPositions[6];
-    _Bool mIsLoaded;
-    double mTiming[6];
-    MRImageProvider *mGradientProvider;
-    MRImage *mTextImage;
-    NSArray *mSortDescriptors;
-    _Bool mIsFirst;
-    _Bool mIsText;
-    long long _currentIterationIndex;
-    _Bool _textWasUpdatedSinceLastRendering;
 }
 
 + (id);
 + (_Bool);
 + (void)\&;
-- (double);
-- (double);
+- (double)telemetryUploader;
+- (double)startTime;
+- (void)deliveryWindow;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (double);
-- (void);
-- (_Bool);
+- (_Bool)shed uploading telemetry envelopes, identifier=%{public}@;
+- (double)droppedEnvelopeReasonsToUpload;
+- (void)Infos:withEnvelopeStore:perPayloadCompletion:completion:] /* Error: Ran out of types for this method. */;
+- (_Bool)zDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
 - (double);
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (void);
 - (double);
 - (struct CGSize);
 - (long long);
-- (void);
-- (long long);
+- (void);
+- (long long)(!*=;
 - (_Bool);
 - (double);
 - (double);
@@ -62,12 +50,10 @@
 - (void);
 - (void);
 - (void);
-- (void)s: /* Error: Ran out of types for this method. */;
+- (void)createSecondarySlidesWithPaths: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @dynamic mainDuration;
 @property(readonly, nonatomic) double phaseInDuration; // @dynamic phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @dynamic phaseOutDuration;
 
 @end
 

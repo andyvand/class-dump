@@ -5,18 +5,18 @@
 //
 
 @interface UnknownClass (AccessibilityBridging_Sonification)
-- (void);
+- (void)nK|;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)yN|;
 - (id);
-- (_Bool);
-- (_Bool);
-- (double);
+- (_Bool)uN|;
+- (_Bool);
+- (double)|;
 - (id);
 - (id);
-- (id);
+- (id)N|;
 - (_Bool);
 - (id);
 - (void);

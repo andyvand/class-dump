@@ -6,39 +6,33 @@
 
 #import <UIKitCore/UICollectionReusableView.h>
 
-@class UIView, UIVisualEffectView, _UIContextMenuCellContentView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuSubmenuTitleView : UICollectionReusableView
 {
     _Bool _highlighted;
-    _Bool _allowsFocus;
-    _UIContextMenuCellContentView *_contentView;
-    UIVisualEffectView *_obscuringMaterialView;
-    UIView *_bgView;
-    UIView *_highlightedBgView;
-    struct UIEdgeInsets _backgroundShapeInsets;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ommunicationLimitManager"16;
+- (void)transcriptBackgroundUpdatedForChatIdentifier:(id)arg1 style:account:userInfo: /* Error: Ran out of types for this method. */;
+- (void)service:(id)arg1 sendMessage:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (void)service:(struct UIEdgeInsets)arg1 account:inviteReceivedForSession:fromID:withOptions: /* Error: Ran out of types for this method. */;
+- (id)fetchCollaborationNoticesForChatGUIDs:reply: /* Error: Ran out of types for this method. */;
+- (id)_data_connection_readyWithAccount: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct UIEdgeInsets);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id):%@  error:%d  total bytes:%d  created:%@ commSafety:%d update reason:%ld] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)24;
 - (_Bool)Ñbð1Â0@ù
 × ;
-- (id)ItemIndex;
+- (id)_centerItemIndex;
 - (void)moteInputViewHost will nil inputView:(_Bool)arg1 %@;
 - (void)modifiable for UIActivityIndicatorViewStyleCustom;
 - (void);
@@ -46,13 +40,7 @@ __attribute__((visibility("hidden")))
 - (id)°ãb;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsFocus; // @synthesize allowsFocus=_allowsFocus;
-@property(nonatomic) struct UIEdgeInsets backgroundShapeInsets; // @synthesize backgroundShapeInsets=_backgroundShapeInsets;
 @property(retain, nonatomic) UIView *bgView; // @synthesize bgView=_bgView;
-@property(readonly, nonatomic) _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIView *highlightedBgView; // @synthesize highlightedBgView=_highlightedBgView;
-@property(retain, nonatomic) UIVisualEffectView *obscuringMaterialView; // @synthesize obscuringMaterialView=_obscuringMaterialView;
 
 @end
 

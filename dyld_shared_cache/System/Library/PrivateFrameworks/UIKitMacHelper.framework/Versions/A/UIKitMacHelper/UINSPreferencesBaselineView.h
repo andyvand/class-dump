@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSView *_realBaselineView;
 }
 
-+ (id);
++ (id)setShouldPreventNotificationDismissalAfterDefaultAction:(id)arg1;
 - (void);
 - (id);
 - (id);

@@ -7,9 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CreateDomainStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _domainname;
-    id _typeName;
-    id _collClause;
-    id _constraints;
 }
 
 @end

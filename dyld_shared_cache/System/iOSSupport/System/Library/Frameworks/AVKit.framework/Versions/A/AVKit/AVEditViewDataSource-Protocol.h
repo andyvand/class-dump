@@ -5,5 +5,6 @@
 //
 
 @protocol AVEditViewDataSource
+- (double);
 @end
 

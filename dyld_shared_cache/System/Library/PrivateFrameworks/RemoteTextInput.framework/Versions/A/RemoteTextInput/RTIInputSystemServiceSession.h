@@ -6,22 +6,12 @@
 
 #import <RemoteTextInput/RTIInputSystemSession.h>
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString, NSXPCConnection, RTIDataPayload, RTIDocumentRequest;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTIInputSystemServiceSession : RTIInputSystemSession
 {
     NSObject<OS_dispatch_queue> *_externalOperationsQueue;
-    NSMutableSet *_supplementalLexicons;
-    NSMutableSet *_rtiSupplementalLexicons;
-    NSMutableDictionary *_pendingSupplementalLexicons;
-    NSMutableDictionary *_pendingRTISupplementalLexicons;
-    long long _lifecycleDispatchState;
-    _Bool _isPaused;
-    RTIDocumentRequest *_defaultRequest;
-    unsigned long long _payloadVersion;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 + (id);
@@ -49,7 +39,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_suggestionsProvider;
 - (void);
 - (oneway void);
 - (oneway void);
@@ -57,44 +47,30 @@
 - (void);
 - (oneway void);
 - (void);
-- (void);
+- (void)�x;
 - (id);
 - (oneway void);
 - (void);
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)y device was uninstalled. Will remove vehicle:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)A;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy, nonatomic) RTIDataPayload *currentDataPayload;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTIDocumentRequest *defaultRequest; // @synthesize defaultRequest=_defaultRequest;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
 @property(readonly, nonatomic) unsigned long long payloadVersion; // @synthesize payloadVersion=_payloadVersion;
-@property(readonly, nonatomic) NSSet *rtiSupplementalLexicons;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *supplementalLexicons;
 
 @end
 

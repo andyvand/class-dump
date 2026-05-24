@@ -6,46 +6,38 @@
 
 #import <ChatKit/CKInvisibleInkEffectView.h>
 
-@class CAEmitterLayer, CALayer, NSString, UITextView;
+@class UITextView;
 
 __attribute__((visibility("hidden")))
 @interface CKInvisibleInkEmojiEffectView : CKInvisibleInkEffectView
 {
     _Bool _blendingEnabled;
-    UITextView *_textView;
-    CALayer *_emojiContainerLayer;
-    CALayer *_emojiLayer;
-    CAEmitterLayer *_drawEmitterLayer;
-    CALayer *_dustContainerLayer;
-    CAEmitterLayer *_dustEmitterLayer;
-    CALayer *_blurredEmojiLayer;
-    CALayer *_maskLayer;
 }
 
+- (void)ICNumberLiteral;
+- (void);
+- (void)ICTagDetailItemIdentifier;
+- (void)%;
+- (void)ICCalculateGraphExpressionAttachmentView;
+- (void);
+- (void)GG_Qo_;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)t;
+- (void)n;
 - (void);
 - (void);
 - (id);
+- (id)u;
+- (id);
+- (id);
+- (id);
+- (void)@;
+- (void)Failed to convert buffer;
 - (void);
+- (id)ICDrawingPencilKitConvertedNotificationFinalAttachmentKey;
+- (void)didChooseToMigrate == NO;
 - (void);
 - (void);
 - (_Bool);
@@ -53,37 +45,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)p~;
 - (void);
 - (void);
+- (void)orefrontID;
+- (void)@"NSString",&,N,V_identifier;
+- (void);
+- (id)(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)ptBackground: /* Error: Ran out of types for this method. */;
+- (id)isHoldingPosterKeyboardFrameUpdatesForPosterRenderingTranscriptBackground: /* Error: Ran out of types for this method. */;
 - (void)super view;
 - (void)Ä;
 - (void)°ô;
 - (void)Âÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool blendingEnabled; // @synthesize blendingEnabled=_blendingEnabled;
-@property(retain, nonatomic) CALayer *blurredEmojiLayer; // @synthesize blurredEmojiLayer=_blurredEmojiLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CAEmitterLayer *drawEmitterLayer; // @synthesize drawEmitterLayer=_drawEmitterLayer;
-@property(retain, nonatomic) CALayer *dustContainerLayer; // @synthesize dustContainerLayer=_dustContainerLayer;
-@property(retain, nonatomic) CAEmitterLayer *dustEmitterLayer; // @synthesize dustEmitterLayer=_dustEmitterLayer;
-@property(retain, nonatomic) CALayer *emojiContainerLayer; // @synthesize emojiContainerLayer=_emojiContainerLayer;
-@property(retain, nonatomic) CALayer *emojiLayer; // @synthesize emojiLayer=_emojiLayer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CALayer *maskLayer; // @synthesize maskLayer=_maskLayer;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end

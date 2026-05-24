@@ -5,25 +5,21 @@
 //
 
 @class PKStroke;
-@protocol PKStrokeRenderCache;
 
 @interface PKStrokeRenderMask
 {
     struct vector<std::vector<ClipperLib::IntPoint>, std::allocator<std::vector<ClipperLib::IntPoint>>> _maskPaths;
-    PKStroke *_stroke;
-    id <PKStrokeRenderCache> _renderCache;
 }
 
-- (id);
+- (id)!8i5;
 - (const void *);
 - (id);
 - (id);
+- (id)elementPath;
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PKStrokeRenderCache> renderCache; // @synthesize renderCache=_renderCache;
 @property(readonly, nonatomic) PKStroke *stroke; // @synthesize stroke=_stroke;
 
 @end

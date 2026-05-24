@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAction, MRLayer, MRRenderer, NSInvocation, NSMutableDictionary, NSString;
+@class MCAction, NSInvocation;
 
 @interface MRAction
 {
     NSInvocation *_invocation;
-    CDUnknownBlockType _block;
-    MRRenderer *_renderer;
-    MCAction *_mcAction;
-    id _sender;
-    MRLayer *_resolvedTarget;
-    NSMutableDictionary *_states;
-    double _time;
-    id _specificObject;
-    NSString *_targetPath;
 }
 
+- (id)copyWithZone: /* Error: Ran out of types for this method. */;
+- (void)_TtC19NewsAnalyticsUpload17TelemetryAssembly;
+- (void),;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)SXViewLocationConditionValidator;
 - (double);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)t;
 - (double)erImage;
 
 // Remaining properties
 @property(readonly) MCAction *mcAction; // @synthesize mcAction=_mcAction;
-@property(retain, nonatomic) MRLayer *resolvedTarget; // @synthesize resolvedTarget=_resolvedTarget;
-@property(retain, nonatomic) id sender; // @synthesize sender=_sender;
-@property(retain) id specificObject; // @synthesize specificObject=_specificObject;
-@property(retain, nonatomic) NSMutableDictionary *states; // @synthesize states=_states;
-@property(copy, nonatomic) NSString *targetPath; // @synthesize targetPath=_targetPath;
-@property(nonatomic) double time; // @synthesize time=_time;
 
 @end
 

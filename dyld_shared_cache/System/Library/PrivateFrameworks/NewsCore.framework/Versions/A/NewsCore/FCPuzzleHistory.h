@@ -6,15 +6,9 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCCloudContext, FCMTWriterLock, NSDictionary, NSMutableDictionary;
-
 @interface FCPuzzleHistory : FCPrivateDataController
 {
     _Bool _allowLowerProgressOnCompletedPuzzles;
-    NSMutableDictionary *_itemsByPuzzleID;
-    FCCloudContext *_cloudContext;
-    NSDictionary *_puzzleTypeTraitsDict;
-    FCMTWriterLock *_itemsLock;
 }
 
 + (_Bool);
@@ -23,9 +17,9 @@
 + (id);
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)_recordDrawMultiImage:foregroundLevel:backgroundLevel:region: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)MSConversationDelegate;
 + (id);
 + (id)p
 0Dp;
@@ -40,7 +34,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -51,9 +45,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)handleFailureInMethod:(id)arg1 object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void)Ds;
 - (void)d:articleInterestToken:sourceChannel:parentIssue:storyStyleConfigs:storyTypeTimeout:rapidUpdatesTimeout:assetManager:experimentalTitleProvider:] /* Error: Ran out of types for this method. */;
 

@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOGloriaTimezoneInfo
 {
     NSMutableArray *_polygons;
-    unsigned int _nameId;
-    struct {
-        unsigned int has_nameId:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)roviding>"16@"NSDictionary"24;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)dents:(struct _NSZone *)arg1;
-- (id)ingVersionResponse;
+- (id)setIncludeTrafficIncidents:(struct _NSZone *)arg1;
+- (id)GEOLocationShiftingVersionResponse;
 - (id)vate}s;
 - (void)t©4;
 

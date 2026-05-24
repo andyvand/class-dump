@@ -9,15 +9,10 @@
 @interface DMFFetchDeclarationCapabilitiesResultObject
 {
     NSArray *_supportedCommands;
-    NSArray *_supportedAssets;
-    NSArray *_supportedConfigurations;
-    NSArray *_supportedEvents;
-    NSArray *_supportedActivations;
-    NSArray *_supportedPredicates;
-    NSArray *_supportedMessages;
 }
 
-+ (_Bool);
++ (_Bool)s@9
+;
 - (id);
 - (id);
 - (id);
@@ -26,24 +21,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id);
+- (id)WebProcessProxy::hasAssumedReadAccessToURL:URL is not a local file /* Error: Ran out of types for this method. */;
+- (void)tablishRemoteWorkerContextConnectionToNetworkProcess reusing an existing web process (process=%p, workerType=%{public}s, PID=%d);
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *supportedActivations; // @synthesize supportedActivations=_supportedActivations;
-@property(copy, nonatomic) NSArray *supportedAssets; // @synthesize supportedAssets=_supportedAssets;
 @property(copy, nonatomic) NSArray *supportedCommands; // @synthesize supportedCommands=_supportedCommands;
-@property(copy, nonatomic) NSArray *supportedConfigurations; // @synthesize supportedConfigurations=_supportedConfigurations;
-@property(copy, nonatomic) NSArray *supportedEvents; // @synthesize supportedEvents=_supportedEvents;
-@property(copy, nonatomic) NSArray *supportedMessages; // @synthesize supportedMessages=_supportedMessages;
-@property(copy, nonatomic) NSArray *supportedPredicates; // @synthesize supportedPredicates=_supportedPredicates;
 
 @end
 

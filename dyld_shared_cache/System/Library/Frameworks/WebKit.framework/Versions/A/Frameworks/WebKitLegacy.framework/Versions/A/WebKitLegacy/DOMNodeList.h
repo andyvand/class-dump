@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (void);
-- (unsigned int);
+- (void)lic}@:[%{public}@] Performing user reset for store:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned int);
 
 // Remaining properties
 @property(readonly) unsigned int length;

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, VNClusteringLogger, VNSuggestionsLogger;
+@class VNClusteringLogger;
 
 __attribute__((visibility("hidden")))
 @interface VNGreedyClusteringReadOnly
 {
     VNClusteringLogger *_clusteringLogger;
-    VNSuggestionsLogger *_suggestionsLogger;
-    NSString *_cacheFolderPath;
-    NSString *_algorithmType;
-    NSData *_state;
-    _Bool _vectorMapReadOnlyFlag;
-    unsigned long long _faceprintRevision;
-    unsigned long long _torsoprintRevision;
-    NSString *_ageClassifierFilePath;
-    float _ageClassifierBabyThreshold;
-    float _ageClassifierKidThreshold;
-    shared_ptr_8fc713d1 m_ClusteringImpl_const;
 }
 
 + (id);
@@ -29,24 +18,24 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-- (id);
+- (id)_ր;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)`b;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)v;
 - (void)pported image size for %@;
 
 @end

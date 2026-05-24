@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDaemonProtocol;
+@protocol IMDaemonListening, IMDaemonProtocol;
 
 @protocol IMDaemonConnectionManaging
-- (void)_REPAIR_ACCOUNT_BUTTON_TITLE;
+- (void)�;
+- (void);
+- (id)for reload:(id <IMDaemonListening>)arg1 %{public}@;
+- (id <IMDaemonProtocol>)h";
+- (void)SYNC_PROGRESS_REPAIR_ACCOUNT_BUTTON_TITLE;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isConnected;
-@property(nonatomic, copy) CDUnknownBlockType onSetupComplete;
-@property(nonatomic, readonly) id <IMDaemonProtocol> remoteObjectProxy;
-@property(nonatomic, readonly) id <IMDaemonProtocol> synchronousRemoteObjectProxy;
 @end
 

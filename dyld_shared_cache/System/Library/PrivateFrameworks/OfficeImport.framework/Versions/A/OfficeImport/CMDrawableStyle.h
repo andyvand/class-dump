@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     OADDrawable *mDrawable;
 }
 
-- (void);
+- (void)k-8;
 - (void);
 - (void);
 - (void);

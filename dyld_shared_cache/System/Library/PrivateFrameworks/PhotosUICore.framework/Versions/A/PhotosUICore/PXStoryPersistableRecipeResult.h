@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryMiroMemoryConverter;
 @protocol PFStoryRecipe;
 
 @interface PXStoryPersistableRecipeResult
 {
     id <PFStoryRecipe> _recipe;
-    PXStoryMiroMemoryConverter *_miroInfo;
 }
 
 - (id);
@@ -21,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryMiroMemoryConverter *miroInfo; // @synthesize miroInfo=_miroInfo;
 @property(readonly, nonatomic) id <PFStoryRecipe> recipe; // @synthesize recipe=_recipe;
 
 @end

@@ -4,53 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _CPCardSectionForFeedback
 {
     int _commandType;
-    int _cardSectionType;
-    NSString *_cardSectionId;
-    NSString *_actionTarget;
-    NSString *_actionDestination;
-    NSString *_resultId;
-    NSString *_commandDetail;
-    NSArray *_cardSections;
-    NSString *_cardSectionDetail;
-    NSArray *_buttons;
-    NSArray *_leadingSwipeButtonItems;
-    NSArray *_trailingSwipeButtonItems;
-    NSString *_applicationBundleIdentifier;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (void);
+- (unsigned long long)PI::UserStyleSheet>>>::KeyValuePairTraits, WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::WebExtensionMatchPattern>, Value = WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)xtensionMatchPattern>, WTF:(unsigned long long)arg1:Vector<WTF::Ref<API::UserStyleSheet>>>::KeyValuePairTraits, WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::WebExtensionMatchPattern>, Value = WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)>, WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>::KeyValuePairTraits, WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::WebExtensionMatchPattern>, Value = WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)gned long long>>, Malloc = WTF:(id)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)it:(id)arg1:WebExtensionContext::PermissionState>>, WTF::DefaultHash<URL>, WTF::HashMap<WTF::URL, WebKit::WebExtensionContext::PermissionState>::KeyValuePairTraits, WTF::HashTraits<URL>>::validateKey(const ValueType &) [Key = WTF::URL, Value = WTF::KeyValuePair<WTF::URL, WebKit::WebExtensionContext::PermissionState>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::URL, WebKit::WebExtensionContext::PermissionState>>, HashFunctions = WTF::DefaultHash<URL>, Traits = WTF::HashMap<WTF::URL, WebKit::WebExtensionContext::PermissionState>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<URL>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)nifest entry.;
+- (void)lid `icon_variants` manifest entry.;
+- (void)d `externally_connectable` manifest entry.;
+- (void)fault_locale` manifest entry.;
+- (void)as occurred.;
+- (void)ns;
+- (unsigned long long)le.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/API/C/WKNotification.cpp;
+- (id)yaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/API/C/WKNotification.cpp;
+- (id)uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
+- (void)fierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>::operator*() & [T = WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
+- (void)acOSX26.5.Internal.sdk/usr/local/include/wtf/Markable.h;
+- (void)rectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/API/APIDataTask.cpp;
+- (unsigned long long)aits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)irTraits, KeyTraits = WTF:(unsigned long long)arg1:HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)ng, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)ld>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ObjectIdentifierGeneric<WebKit:(id)arg1:ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)shTraits<WebCore:(id)arg1:ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF:(id)arg1:WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int)ned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)it:(unsigned long long)arg1:ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -73,27 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionDestination; // @synthesize actionDestination=_actionDestination;
-@property(copy, nonatomic) NSString *actionTarget; // @synthesize actionTarget=_actionTarget;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(copy, nonatomic) NSString *cardSectionDetail; // @synthesize cardSectionDetail=_cardSectionDetail;
 @property(copy, nonatomic) NSString *cardSectionId; // @synthesize cardSectionId=_cardSectionId;
-@property(nonatomic) int cardSectionType; // @synthesize cardSectionType=_cardSectionType;
-@property(copy, nonatomic) NSArray *cardSections; // @synthesize cardSections=_cardSections;
-@property(copy, nonatomic) NSString *commandDetail; // @synthesize commandDetail=_commandDetail;
-@property(nonatomic) int commandType; // @synthesize commandType=_commandType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems; // @synthesize leadingSwipeButtonItems=_leadingSwipeButtonItems;
-@property(copy, nonatomic) NSString *resultId; // @synthesize resultId=_resultId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems; // @synthesize trailingSwipeButtonItems=_trailingSwipeButtonItems;
 
 @end
 

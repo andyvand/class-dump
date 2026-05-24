@@ -6,14 +6,11 @@
 
 #import <AddressBookCore/ABVCardFileSerializer.h>
 
-@class NSFileHandle, NSMutableArray, NSURL;
+@class NSMutableArray, NSURL;
 
 @interface ABVCardSingleFileSerializer : ABVCardFileSerializer
 {
     NSMutableArray *_names;
-    _Bool _usePeopleNamesAsName;
-    NSFileHandle *_cardHandle;
-    NSURL *_cardURL;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)FloatLiteralType;
 - (void);
 - (id);
 

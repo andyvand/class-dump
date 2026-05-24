@@ -6,38 +6,29 @@
 
 #import <LoginUIKit/LUI2PopoverViewController.h>
 
-@class NSBox, NSButton, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface LUI2PasswordHintViewController : LUI2PopoverViewController
 {
     _Bool _canResetWithAppleID;
-    _Bool _canResetWithRecovery;
-    NSString *_hint;
-    CDUnknownBlockType _completionHandler;
-    NSView *_hintContainer;
-    NSTextField *_hintTextField;
-    NSBox *_line;
-    NSView *_resetContainer;
-    NSButton *_appleIDButton;
-    NSButton *_resetUsingRecoveryButton;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)H@y);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)RA;
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)H;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (id);
@@ -49,22 +40,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)MissingActivityClientInstance;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property NSButton *appleIDButton; // @synthesize appleIDButton=_appleIDButton;
-@property _Bool canResetWithAppleID; // @synthesize canResetWithAppleID=_canResetWithAppleID;
-@property _Bool canResetWithRecovery; // @synthesize canResetWithRecovery=_canResetWithRecovery;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) NSString *hint; // @synthesize hint=_hint;
 @property NSView *hintContainer; // @synthesize hintContainer=_hintContainer;
-@property NSTextField *hintTextField; // @synthesize hintTextField=_hintTextField;
-@property NSBox *line; // @synthesize line=_line;
-@property NSView *resetContainer; // @synthesize resetContainer=_resetContainer;
-@property NSButton *resetUsingRecoveryButton; // @synthesize resetUsingRecoveryButton=_resetUsingRecoveryButton;
 
 @end
 

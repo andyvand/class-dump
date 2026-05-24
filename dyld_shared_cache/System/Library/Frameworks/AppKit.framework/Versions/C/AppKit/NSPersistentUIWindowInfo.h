@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIWindowInfo
 {
     NSDictionary *_externalPublicProperties;
-    unsigned int _windowID;
-    int _currentStatus;
-    unsigned int _currentGeneration;
-    NSData *_recordEncryptionKey;
 }
 
 + (_Bool)\;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)alescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)hrough the web proxy server.;
 - (void);
 - (unsigned int);
-- (id);
-- (unsigned int);
+- (id)iation>";
+- (unsigned int)(#;
 - (void);
-- (_Bool)der;
-- (id)tionNotificationProcessing;
+- (_Bool)textFinder;
+- (id)_resumeObservationNotificationProcessing;
 - (void);
 - (int);
 - (void)Û¨|E;
 
 // Remaining properties
-@property unsigned int currentGeneration; // @synthesize currentGeneration=_currentGeneration;
-@property int currentStatus; // @synthesize currentStatus=_currentStatus;
-@property(readonly, getter=isGlobal) _Bool global;
-@property(readonly, copy) NSData *recordEncryptionKey; // @synthesize recordEncryptionKey=_recordEncryptionKey;
 @property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end

@@ -7,14 +7,12 @@
 @interface NTPBContentAndRelevanceInfo
 {
     int _contentRating;
-    int _relevanceRating;
-    CDStruct_e4d87e55 _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (int);
+- (void)contentReadinessStatus;
+- (void)rChanges:(_Bool)arg1 headerIndexesAfterChanges:anchorFan:anchorReload: /* Error: Ran out of types for this method. */;
+- (_Bool)_visualSearchCornerView;
+- (int)_styleSwitcherDistanceBetweenAlbumArtAndLabels;
 - (void);
 - (_Bool);
 - (void);
@@ -29,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int contentRating; // @synthesize contentRating=_contentRating;
 @property(nonatomic) _Bool hasContentRating;
-@property(nonatomic) _Bool hasRelevanceRating;
-@property(nonatomic) int relevanceRating; // @synthesize relevanceRating=_relevanceRating;
 
 @end
 

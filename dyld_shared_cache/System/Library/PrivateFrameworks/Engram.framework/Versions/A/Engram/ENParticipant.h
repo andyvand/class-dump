@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
 @protocol ENAccountPublicKey;
 
 @interface ENParticipant
 {
     id <ENAccountPublicKey> _accountPublicKey;
-    NSSet *_aliases;
-    NSArray *_devices;
 }
 
 - (_Bool);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <ENAccountPublicKey> accountPublicKey; // @synthesize accountPublicKey=_accountPublicKey;
-@property(retain, nonatomic) NSSet *aliases; // @synthesize aliases=_aliases;
-@property(retain, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly, nonatomic) _Bool supportsEngram;
 
 @end
 

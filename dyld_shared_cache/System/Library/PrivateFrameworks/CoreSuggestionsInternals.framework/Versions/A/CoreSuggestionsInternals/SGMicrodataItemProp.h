@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGMicrodataItem;
+@class NSString;
 
 @interface SGMicrodataItemProp
 {
     NSString *_propertyName;
-    NSString *_stringValue;
-    SGMicrodataItem *_itemValue;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (void)¤côgHhôv´w;
 
 // Remaining properties
-@property(readonly, nonatomic) SGMicrodataItem *itemValue; // @synthesize itemValue=_itemValue;
 @property(readonly, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(readonly, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

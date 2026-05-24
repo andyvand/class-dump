@@ -10,6 +10,7 @@
 - (UICollectionViewCell *);
 
 @optional
+- (_Bool)ailed on %d (%{errno}d).;
 - (NSArray *)
 × ;
 - (NSIndexPath *)ñtÐ1Â0@ù

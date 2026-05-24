@@ -9,8 +9,8 @@
 }
 
 - (id);
-- (Class);
-- (Class);
+- (Class)roup_id;
+- (Class)count(source_id) AS drop_count FROM (SELECT source_id FROM invalid_ne_records       UNION ALL       SELECT source_id FROM invalid_tp_records) GROUP BY source_id;
 - (Class);
 
 @end

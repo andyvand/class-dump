@@ -5,5 +5,8 @@
 //
 
 @protocol TUMomentsControllerDelegate
+
+@optional
+- (void);
 @end
 

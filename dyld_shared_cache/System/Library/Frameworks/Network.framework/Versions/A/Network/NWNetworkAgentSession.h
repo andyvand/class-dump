@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface NWNetworkAgentSession
 {
     int _sessionFD;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_readSource;
-    NSMutableArray *_registrations;
 }
 
 - (void);
@@ -26,7 +20,7 @@
 - (int);
 - (void);
 - (_Bool);
-- (void);
+- (void)h:%f height:%f /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -39,9 +33,6 @@
 - (void)oapCoarCoau*oa;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSObject<OS_dispatch_source> *readSource; // @synthesize readSource=_readSource;
-@property(retain) NSMutableArray *registrations; // @synthesize registrations=_registrations;
 @property int sessionFD; // @synthesize sessionFD=_sessionFD;
 
 @end

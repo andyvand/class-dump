@@ -7,8 +7,6 @@
 @interface IMDPersistence.StorageInspectionDatabaseContext
 {
     id chatBatchSize;
-    id messageBatchSize;
-    id otherTables;
 }
 
 @end

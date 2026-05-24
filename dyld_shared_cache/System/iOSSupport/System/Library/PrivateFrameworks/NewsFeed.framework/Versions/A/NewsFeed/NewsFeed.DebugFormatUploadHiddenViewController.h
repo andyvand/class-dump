@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatUploadHiddenViewController
 {
     id editor;
-    id reasonRole;
-    id tableView;
-    id sections;
 }
 
 - (id);

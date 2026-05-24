@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)ignature: /* Error: Ran out of types for this method. */;
+- (void)initWithNonStandardDigitalSignature: /* Error: Ran out of types for this method. */;
 
 @end
 

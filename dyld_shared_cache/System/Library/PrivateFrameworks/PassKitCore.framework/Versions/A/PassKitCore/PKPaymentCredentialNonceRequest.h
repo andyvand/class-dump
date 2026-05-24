@@ -6,22 +6,20 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKSecureElementPass;
+@class PKSecureElementPass;
 
 @interface PKPaymentCredentialNonceRequest : PKPaymentWebServiceRequest
 {
     PKSecureElementPass *_paymentPass;
-    NSString *_deviceIdentifier;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (id)ountBalance;
-- (void)SCRIPTION;
+- (id)_customPrecisionPeerPaymentAccountBalance;
+- (void)PEER_PAYMENT_EXCEEDS_CUMULATIVE_LIMIT_ERROR_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
 @property(readonly, nonatomic) PKSecureElementPass *paymentPass; // @synthesize paymentPass=_paymentPass;
 
 @end

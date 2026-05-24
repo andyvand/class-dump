@@ -11,9 +11,9 @@
     NSMutableArray *_sinks;
 }
 
-+ (id);
++ (id)mps) (ID2R);
 - (void);
-- (void);
+- (void)16@?20;
 - (id);
 - (void);
 

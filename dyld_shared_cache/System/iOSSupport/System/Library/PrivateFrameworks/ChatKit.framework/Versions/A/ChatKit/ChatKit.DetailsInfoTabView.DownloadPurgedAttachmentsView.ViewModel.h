@@ -7,8 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.DownloadPurgedAttachmentsView.ViewModel
 {
     id conversation;
-    id _downloadState;
-    id _$observationRegistrar;
 }
 
 @end

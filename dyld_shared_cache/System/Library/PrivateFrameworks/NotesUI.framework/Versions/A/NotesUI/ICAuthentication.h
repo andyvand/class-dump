@@ -19,17 +19,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)yH;
 - (_Bool);
 - (void)cludeCallNotes;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAuthenticating) _Bool authenticating;
 @property(retain, nonatomic) id currentAuthenticationController; // @synthesize currentAuthenticationController=_currentAuthenticationController;
 
 @end

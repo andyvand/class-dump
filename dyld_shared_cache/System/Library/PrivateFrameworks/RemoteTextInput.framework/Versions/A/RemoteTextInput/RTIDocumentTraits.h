@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFenceHandle, NSArray, NSData, NSDictionary, NSIndexSet, NSObject, NSString, RTIAssistantItem, RTIInputViewInfo, RTITextInputKeyboardActionButtonConfiguration, TIInputContextHistory, TITextInputTraits;
-@protocol NSCopying><NSSecureCoding;
-
 @interface RTIDocumentTraits
 {
     union {
@@ -26,42 +23,6 @@
             unsigned int supportsGenmojiCreation:1;
         } fields;
     } _textInputTraitsMask;
-    int _processId;
-    unsigned int _contextID;
-    NSString *_appId;
-    NSString *_bundleId;
-    NSString *_appName;
-    NSString *_localizedAppName;
-    NSArray *_associatedDomains;
-    NSObject<NSCopying><NSSecureCoding> *_responderId;
-    NSString *_sceneID;
-    unsigned long long _entityID;
-    unsigned long long _layerID;
-    NSString *_sceneExclusivityIdentifier;
-    unsigned long long _delegateConformanceType;
-    NSString *_title;
-    NSString *_prompt;
-    RTIInputViewInfo *_inputViewInfo;
-    RTIInputViewInfo *_assistantViewInfo;
-    RTIAssistantItem *_assistantItem;
-    TITextInputTraits *_textInputTraits;
-    NSString *_textInputContextIdentifier;
-    NSIndexSet *_PINEntrySeparatorIndexes;
-    unsigned long long _autofillMode;
-    unsigned long long _autofillSubMode;
-    NSDictionary *_autofillContext;
-    NSString *_passwordRules;
-    NSString *_recipientId;
-    NSString *_responseContext;
-    TIInputContextHistory *_inputContextHistory;
-    NSArray *_enabledSupplementalLexiconIdentifiers;
-    NSArray *_supportedPayloadIds;
-    NSDictionary *_userInfo;
-    CAFenceHandle *_fenceHandle;
-    NSData *_textInputModeData;
-    NSArray *_additionalLocaleIdentifiers;
-    RTITextInputKeyboardActionButtonConfiguration *_keyboardActionButtonConfiguration;
-    struct _NSRange _validTextRange;
 }
 
 @end

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (struct tagSRTPINFO *);
+- (struct tagSRTPINFO *)_defaultContrastRatioValue;
 
 // Remaining properties
 @property(readonly) struct tagSRTPINFO *state;

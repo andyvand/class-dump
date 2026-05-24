@@ -7,12 +7,10 @@
 @class NSArray;
 
 @protocol INShareETAIntentResponseExport
-- (long long)Teaspoons;
+- (long long)imperialTeaspoons;
 - (NSArray *)_bookName;
 
 // Remaining properties
 @property(readonly) long long code;
-@property unsigned long long mediums;
-@property(copy) NSArray *recipients;
 @end
 

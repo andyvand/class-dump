@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBWidgetEngagement;
+@class NSString;
 
 @interface TSAnalyticsReferral
 {
     void userActivityType;
-    void creativeID;
-    void campaignID;
-    void campaignType;
-    void referringApplication;
-    void referringURL;
-    void widgetModeGroupID;
-    NTPBWidgetEngagement *widgetEngagement;
-    _Bool appOpenedByUserActivity;
-    int appSessionStartMethod;
-    int appSessionStartNotificationType;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (int);
-- (_Bool);
-- (int);
+- (id)leBufferPointer:replacing the buffer is not allowed /* Error: Ran out of types for this method. */;
+- (int)e count;
+- (_Bool)blePointer.deinitialize with negative count;
+- (int)tablePointer.initialize with negative count;
 - (id);
 - (id);
 - (id);
@@ -37,17 +27,7 @@
 - (void)if_d;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool appOpenedByUserActivity; // @synthesize appOpenedByUserActivity;
-@property(nonatomic, readonly) int appSessionStartMethod; // @synthesize appSessionStartMethod;
-@property(nonatomic, readonly) int appSessionStartNotificationType; // @synthesize appSessionStartNotificationType;
-@property(nonatomic, readonly) NSString *campaignID;
-@property(nonatomic, readonly) NSString *campaignType;
-@property(nonatomic, readonly) NSString *creativeID;
-@property(nonatomic, readonly) NSString *referringApplication;
-@property(nonatomic, readonly) NSString *referringURL;
 @property(nonatomic, readonly) NSString *userActivityType;
-@property(nonatomic, readonly) NTPBWidgetEngagement *widgetEngagement; // @synthesize widgetEngagement;
-@property(nonatomic, readonly) NSString *widgetModeGroupID;
 
 @end
 

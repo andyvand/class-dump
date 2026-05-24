@@ -7,12 +7,6 @@
 @interface NewsFeed.BundleCampaignSessionManager
 {
     id session;
-    id configFetcher;
-    id paidAccessChecker;
-    id appConfigManager;
-    id modalAdService;
-    id tagService;
-    id observers;
 }
 
 - (void);

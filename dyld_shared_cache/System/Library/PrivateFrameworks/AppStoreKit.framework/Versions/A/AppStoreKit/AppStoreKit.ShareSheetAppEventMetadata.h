@@ -7,8 +7,6 @@
 @interface AppStoreKit.ShareSheetAppEventMetadata
 {
     id text;
-    id subtitle;
-    id artwork;
 }
 
 @end

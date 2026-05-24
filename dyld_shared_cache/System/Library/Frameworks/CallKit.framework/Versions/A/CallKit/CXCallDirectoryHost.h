@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CXCallDirectoryHostDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CXCallDirectoryHost
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <CXCallDirectoryHostDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (oneway void);
@@ -23,7 +21,7 @@
 - (void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void)H;
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -35,28 +33,19 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)keychain records from group %{public}@;
+- (id)G;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXCallDirectoryHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,11 +15,11 @@
 
 + (_Bool);
 + (unsigned char);
-- (id);
+- (id)3;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)nvalid walk step freq,%.3lf;
 - (id);
 - (id);
 - (void);

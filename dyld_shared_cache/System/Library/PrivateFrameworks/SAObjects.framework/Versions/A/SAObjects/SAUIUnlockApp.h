@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAUIUnlockApp : SABaseClientBoundCommand
 {
@@ -14,7 +14,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSArray *failureCommands;
-@property(copy, nonatomic) NSArray *successCommands;
 
 @end
 

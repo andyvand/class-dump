@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CKSyncEngineRecordZoneChangeBatch
 {
     _Bool _atomicByZone;
-    NSArray *_recordsToSave;
-    NSArray *_recordIDsToDelete;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)Y;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)ion;
+- (void)nection";
+- (void)CKFetchRecordsOperation;
 - (id);
-- (id)ngChangesAfterFailure;
+- (id)continueSendingChangesAfterFailure;
 
 // Remaining properties
-@property _Bool atomicByZone; // @synthesize atomicByZone=_atomicByZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
 @property(readonly, copy) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
-@property(readonly) Class superclass;
 
 @end
 

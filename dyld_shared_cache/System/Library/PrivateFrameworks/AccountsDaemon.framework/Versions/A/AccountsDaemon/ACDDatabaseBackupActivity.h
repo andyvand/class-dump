@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDDatabase, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class ACDDatabase;
 
 @interface ACDDatabaseBackupActivity
 {
     _Bool _xpcActivityPending;
-    NSObject<OS_xpc_object> *_activityExecutionCriteria;
-    NSObject<OS_dispatch_queue> *_queue;
-    ACDDatabase *_database;
 }
 
 + (id);

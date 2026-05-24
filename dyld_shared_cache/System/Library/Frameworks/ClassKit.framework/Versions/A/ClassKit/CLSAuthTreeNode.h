@@ -9,22 +9,18 @@
 @interface CLSAuthTreeNode
 {
     NSString *_statusID;
-    NSString *_identifier;
-    long long _status;
 }
 
-+ (_Bool);
++ (_Bool)_callCompletionBlockWithError: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long);
-- (id);
+- (long long)@	;
+- (id)CUSTODIAN_SPLASH_SCREEN_THIRD_BULLET_DESCRIPTION;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 @property(readonly, copy, nonatomic) NSString *statusID; // @synthesize statusID=_statusID;
 
 @end

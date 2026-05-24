@@ -11,18 +11,16 @@
 @interface MKLinkPreviewPublisherMetadata : MKLinkPreviewMetadata
 {
     unsigned int _numberOfPublishedCollections;
-    NSString *_name;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int).: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)eEnabled;
+- (void)hasQueryAcceleratorAffordanceEnabled;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfPublishedCollections; // @synthesize numberOfPublishedCollections=_numberOfPublishedCollections;
 
 @end
 

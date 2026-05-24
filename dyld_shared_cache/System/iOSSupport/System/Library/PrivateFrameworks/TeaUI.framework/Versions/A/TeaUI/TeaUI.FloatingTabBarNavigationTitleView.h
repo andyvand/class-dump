@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TeaUI.FloatingTabBarNavigationTitleView
 {
     id layout;
-    id contentInsets;
-    id contentView;
-    id showExpandedHeight;
-    id visibility;
-    id lastLeadingItemsRect;
-    id lastTrailingItemsRect;
 }
 
 - (void);
-- (double);
-- (double);
+- (double)locationManager:monitoringDidFailForRegion:withError: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)addFileGroupingPath: /* Error: Ran out of types for this method. */;
+- (void)g46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCAudioConfigurationOperation.m;
+- (id)Flags"b1"minimumNewsVersion"b1"isPublic"b1};
 - (void);
 - (void);
 - (void)pðüÿðüÿ ðüÿ$ñüÿ<ñüÿTñüÿñüÿ¬ñüÿÄñüÿlóüÿóüÿóüÿ;
 
 // Remaining properties
 @property(nonatomic) double contentAlpha;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) double verticalOffset;
 
 @end
 

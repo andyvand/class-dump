@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCANFContent, FCAsyncOnceOperation, FCFlintResourceManager, NSError, NUANFAssetLoader, SXContext;
-@protocol FCHeadlineProviding, FCNetworkReachabilityType, NUArticleResourceURLTranslator, SXHost;
+@class FCANFContent;
 
 @interface NUANFContextLoader
 {
     _Bool _hasLoaded;
-    long long _relativePriority;
-    SXContext *_context;
-    NSError *_contextError;
-    NUANFAssetLoader *_assetLoader;
-    FCANFContent *_anfContent;
-    FCFlintResourceManager *_flintResourceManager;
-    id <FCNetworkReachabilityType> _networkReachability;
-    id <SXHost> _host;
-    id <NUArticleResourceURLTranslator> _resourceURLTranslator;
-    FCAsyncOnceOperation *_asyncOnceOperation;
-    id <FCHeadlineProviding> _headline;
 }
 
 - (void);
@@ -34,7 +22,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)geOfWordAtCharacterIndex:range:includePreviousWord:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -43,21 +31,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)/AppleMediaServices;
 
 // Remaining properties
 @property(readonly, nonatomic) FCANFContent *anfContent; // @synthesize anfContent=_anfContent;
-@property(retain, nonatomic) NUANFAssetLoader *assetLoader; // @synthesize assetLoader=_assetLoader;
-@property(retain, nonatomic) FCAsyncOnceOperation *asyncOnceOperation; // @synthesize asyncOnceOperation=_asyncOnceOperation;
-@property(retain, nonatomic) SXContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSError *contextError; // @synthesize contextError=_contextError;
-@property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager; // @synthesize flintResourceManager=_flintResourceManager;
-@property(readonly, nonatomic) _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(readonly, nonatomic) id <NUArticleResourceURLTranslator> resourceURLTranslator; // @synthesize resourceURLTranslator=_resourceURLTranslator;
 
 @end
 

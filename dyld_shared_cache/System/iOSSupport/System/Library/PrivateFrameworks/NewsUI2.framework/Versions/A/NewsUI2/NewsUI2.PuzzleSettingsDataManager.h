@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleSettingsDataManager
 {
     id delegate;
-    id settingsConfig;
-    id currentSettings;
 }
 
 @end

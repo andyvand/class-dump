@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface AFHomeAnnouncement
 {
     NSString *_identifier;
-    unsigned long long _startedHostTime;
-    unsigned long long _finishedHostTime;
-    NSDate *_startedDate;
-    NSDate *_finishedDate;
 }
 
 + (id);
@@ -21,14 +17,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (id)String",&,N,V_paymentSheetMerchantRewardsText;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)3;
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -38,18 +34,7 @@
 - (void)ring",R,C,N,V_assistantID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDate *finishedDate; // @synthesize finishedDate=_finishedDate;
-@property(readonly, nonatomic) unsigned long long finishedHostTime; // @synthesize finishedHostTime=_finishedHostTime;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDate *startedDate; // @synthesize startedDate=_startedDate;
-@property(readonly, nonatomic) unsigned long long startedHostTime; // @synthesize startedHostTime=_startedHostTime;
-@property(readonly) Class superclass;
 
 @end
 

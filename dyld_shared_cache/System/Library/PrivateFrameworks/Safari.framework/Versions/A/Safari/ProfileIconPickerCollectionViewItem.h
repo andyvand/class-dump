@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     ProfileIconButton *_profileIconButton;
 }
 
-- (void);
+- (void)Th@�*;
 - (id);
 - (void);
 - (void)ring last session state;

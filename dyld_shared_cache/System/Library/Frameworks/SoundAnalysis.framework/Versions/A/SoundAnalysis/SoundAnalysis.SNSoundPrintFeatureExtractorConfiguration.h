@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SNSoundPrintFeatureExtractorConfiguration
 {
     id windowLengthFrames;
-    id stepSizeFrames;
-    id model;
 }
 
 - (id);

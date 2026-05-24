@@ -11,13 +11,11 @@ __attribute__((visibility("hidden")))
 @interface NWPHContext
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_xpc_object> *_request;
-    NSObject<OS_xpc_object> *_reply;
 }
 
 - (int);
 - (id);
-- (id);
+- (id)elDrawable;
 - (void);
 - (id);
 - (id);
@@ -27,9 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) int pid;
-@property(retain) NSObject<OS_xpc_object> *reply; // @synthesize reply=_reply;
-@property(retain) NSObject<OS_xpc_object> *request; // @synthesize request=_request;
 
 @end
 

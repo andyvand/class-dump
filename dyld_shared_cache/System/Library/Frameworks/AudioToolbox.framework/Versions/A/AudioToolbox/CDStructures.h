@@ -35,8 +35,6 @@ struct AudioBufferList {
     struct AudioBuffer _field2[1];
 };
 
-struct AudioSessionPropertyListeners;
-
 struct AudioStreamBasicDescription {
     double _field1;
     unsigned int _field2;
@@ -65,12 +63,8 @@ struct Impl;
 
 struct MixTapToUplinkHost;
 
-struct ObjectRef<__CFRunLoop *> {
-    struct __CFRunLoop *mCFObject;
-};
-
 struct ObjectRef<const __CFString *> {
-    struct __CFString *mCFObject;
+    struct __CFString *_field1;
 };
 
 struct OpaqueAudioComponentInstance;
@@ -87,17 +81,13 @@ struct SMPTETime {
     short _field9;
 };
 
-struct STSActiveIndices {
-    unsigned long long m_activeLabels;
-};
-
 struct STSGlobalState {
-    unsigned long long hostTime;
-    CDStruct_95fa7c00 listenerTransform;
+    unsigned long long _field1;
+    CDStruct_34f00414 _field2;
 };
 
 struct STSPerLabelState {
-    CDStruct_95fa7c00 _field1;
+    CDStruct_34f00414 _field1;
     unsigned int _field2;
     float _field3;
     float _field4;
@@ -105,25 +95,13 @@ struct STSPerLabelState {
 
 struct ScopedLookupOfMixTapToUplinkHost {
     struct scoped_lookup _field1;
-    shared_ptr_258f9881 _field2;
+    shared_ptr_25dc6757 _field2;
 };
 
 struct ServerManager;
 
-struct StreamDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
-};
-
 struct StringRef {
-    struct ObjectRef<const __CFString *> mObject;
+    struct ObjectRef<const __CFString *> _field1;
 };
 
 struct TranslatorClient;
@@ -135,12 +113,6 @@ struct __hash_map_iterator<std::__hash_iterator<std::__hash_node<std::__hash_val
 };
 
 struct __shared_weak_count;
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
 
 struct atomic<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl *> {
     struct __cxx_atomic_impl<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl *, std::__cxx_atomic_base_impl<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl *>> {
@@ -158,31 +130,18 @@ struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     struct {
         union __rep {
             struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
+                char _field1[23];
+                unsigned int :7;
+                unsigned int :1;
+            } _field1;
             struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
-};
-
-struct deque<unsigned long, std::allocator<unsigned long>> {
-    struct __split_buffer<unsigned long *, std::allocator<unsigned long *>> {
-        unsigned long long **__first_;
-        unsigned long long **__begin_;
-        unsigned long long **__end_;
-        struct {
-            unsigned long long **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
+                char *_field1;
+                unsigned long long _field2;
+                unsigned int :63;
+                unsigned int :1;
+            } _field2;
+        } _field1;
+    } _field1;
 };
 
 struct element_t;
@@ -193,22 +152,6 @@ struct guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>,
     struct atomic<int> mLookupCount;
     struct vector<std::unique_ptr<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl>, std::allocator<std::unique_ptr<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl>>> mReleasePool;
     struct mutex mMutationMutex;
-};
-
-struct map<std::string, std::shared_ptr<NewNotificationCenterObserver>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<NewNotificationCenterObserver>>>> {
-    struct __tree<std::__value_type<std::string, std::shared_ptr<NewNotificationCenterObserver>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<NewNotificationCenterObserver>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<NewNotificationCenterObserver>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::shared_ptr<OldNotificationCenterObserver>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<OldNotificationCenterObserver>>>> {
-    struct __tree<std::__value_type<std::string, std::shared_ptr<OldNotificationCenterObserver>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<OldNotificationCenterObserver>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<OldNotificationCenterObserver>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
 };
 
 struct mutex {
@@ -226,20 +169,11 @@ struct optional<std::weak_ptr<MixTapToUplinkHost>> {
     _Bool _field2;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct scoped_lookup {
     void *_field1;
     struct basic_string<char, std::char_traits<char>, std::allocator<char>> _field2;
     struct optional<std::weak_ptr<MixTapToUplinkHost>> _field3;
     struct element_t *_field4;
-};
-
-struct semaphore {
-    unsigned int mMachSem;
-    _Bool mOwned;
 };
 
 struct shared_ptr<AT::Translation::CallTranslator> {
@@ -248,8 +182,8 @@ struct shared_ptr<AT::Translation::CallTranslator> {
 };
 
 struct shared_ptr<MixTapToUplinkHost> {
-    struct MixTapToUplinkHost *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct MixTapToUplinkHost *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<caulk::reactor<DefaultDeviceAggregate>> {
@@ -267,26 +201,7 @@ struct shared_ptr<const AggregateState> {
     struct __shared_weak_count *_field2;
 };
 
-struct stack<unsigned long, std::deque<unsigned long>> {
-    struct deque<unsigned long, std::allocator<unsigned long>> c;
-};
-
-struct synchronized<std::vector<std::string>, caulk::mach::unfair_lock, caulk::empty_atomic_interface<std::vector<std::string>>> {
-    struct unfair_lock mMutex;
-    vector_64acebbd mObject;
-};
-
 struct table_impl;
-
-struct unfair_lock {
-    struct os_unfair_lock_s m_lock;
-};
-
-struct unique_ptr<AudioSessionPropertyListeners, std::default_delete<AudioSessionPropertyListeners>> {
-    struct {
-        struct AudioSessionPropertyListeners *__ptr_;
-    } ;
-};
 
 struct unique_ptr<OpaqueAudioComponentInstance, applesauce::raii::detail::opaque_deletion_functor<OpaqueAudioComponentInstance *, &AudioComponentInstanceDispose>> {
     struct {
@@ -306,34 +221,10 @@ struct unique_ptr<audit_token_t, std::default_delete<audit_token_t>> {
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<std::string, STSPerLabelControllerState, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, STSPerLabelControllerState>>> {
-    struct __hash_table<std::__hash_value_type<std::string, STSPerLabelControllerState>, std::__unordered_map_hasher<std::string, std::pair<const std::string, STSPerLabelControllerState>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, STSPerLabelControllerState>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, STSPerLabelControllerState>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
-};
-
 struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
 };
 
 struct vector<std::unique_ptr<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl>, std::allocator<std::unique_ptr<caulk::concurrent::guarded_lookup_hash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl>>> {
@@ -355,12 +246,8 @@ struct weak_ptr<MixTapToUplinkHost> {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    id _field1[4];
+} CDStruct_34f00414;
 
 typedef struct {
     unsigned int _field1[8];
@@ -369,12 +256,6 @@ typedef struct {
 typedef struct {
     void *__cap_;
 } CDStruct_63fd5f43;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 
 // Template types
 typedef struct __hash_map_iterator<std::__hash_iterator<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *>*>> {
@@ -389,9 +270,9 @@ typedef struct shared_ptr<AT::Translation::CallTranslator> {
 } shared_ptr_f20153c8;
 
 typedef struct shared_ptr<MixTapToUplinkHost> {
-    struct MixTapToUplinkHost *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_258f9881;
+    struct MixTapToUplinkHost *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_25dc6757;
 
 typedef struct shared_ptr<caulk::reactor<DefaultDeviceAggregate>> {
     void *__ptr_;
@@ -409,10 +290,10 @@ typedef struct shared_ptr<const AggregateState> {
 } shared_ptr_4c923a7b;
 
 typedef struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_64acebbd;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
+} vector_76d36e47;
 
 typedef struct weak_ptr<AT::Translation::TranslatorClient> {
     struct TranslatorClient *__ptr_;

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSMutableDictionary, NSPropertyDescription;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface _NSFaultingMutableOrderedSet
 {
     int _cd_rc;
-    struct _NSFaultingMutableOrderedSetFlags _flags;
-    id _realSet;
-    NSManagedObject *_source;
-    unsigned int *_orderKeys;
-    _NSFaultingMutableOrderedSet *_grottyHack;
-    NSMutableDictionary *_forcedKeys;
 }
 
 + (id)ons in the SQLite database.;
@@ -32,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)g;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -44,29 +38,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ndler for %c%c%c%c/%c%c%c%c - provider not in closure;
+- (id);
 - (void);
-- (void);
+- (void)RBSConditionAttribute;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)i
+;
+- (id)_enterprisePersonaUID;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -84,8 +79,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)tch includes sentinel value 'isDeleted' property:(CDStruct_70511ce9 *)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFault) _Bool fault;
-@property(readonly, nonatomic) NSPropertyDescription *relationship;
 @property(readonly, nonatomic) NSManagedObject *source;
 
 @end

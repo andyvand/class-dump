@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationWorkspace, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface IMSharedWithYouManager
 {
     NSMutableDictionary *_swyPinsPerBundleID;
-    NSSet *_enabledBundleIDs;
 }
 
 + (id);
@@ -26,7 +25,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)k`;
 + (_Bool);
 + (id);
 + (id);
@@ -52,36 +51,27 @@
 - (_Bool);
 - (void);
 - (long long);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)P;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)* ;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)ng date cannot be before its freeCancellationDate;
+- (void)= %tu bytes; certificates = %@;;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LSApplicationWorkspace *_applicationWorkspace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *enabledBundleIDs; // @synthesize enabledBundleIDs=_enabledBundleIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableDictionary *swyPinsPerBundleID; // @synthesize swyPinsPerBundleID=_swyPinsPerBundleID;
 
 @end

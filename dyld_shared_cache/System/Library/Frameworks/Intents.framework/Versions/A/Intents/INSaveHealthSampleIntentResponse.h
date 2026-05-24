@@ -6,27 +6,25 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INDateComponentsRange, NSArray, NSString;
-
 @interface INSaveHealthSampleIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)}16@0:(long long)arg1 8;
++ (int)r:(long long)arg1;
++ (long long)imageNameFor1024ThumbnailAtURL:(int)arg1 metadataDictionary:(int)arg2;
++ (_Bool)generatedProperties;
 + (_Bool);
-+ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (long long);
@@ -35,31 +33,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)setImagePosition: /* Error: Ran out of types for this method. */;
+- (id)__DATA;
+- (id)isEqualToProcess:(id)arg1;
+- (id))A;
+- (void)AC:(id)arg1 %{public}s private MAC (%{public}@) for network (%{public}@), returned error (%{public}@);
 - (id);
 - (id);
 - (long long)T@"NSArray",C,N,V_stoppedAnnouncementRecords;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) NSString *defaultUnit;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *punchoutUrl;
-@property(copy) INDateComponentsRange *recordDate;
-@property(copy) NSArray *sampleUuids;
-@property(readonly) Class superclass;
-@property(copy) NSString *userProvidedUnit;
-@property(copy) NSArray *valuesDefaultUnits;
-@property(copy) NSArray *valuesUserProvidedUnits;
 
 @end
 

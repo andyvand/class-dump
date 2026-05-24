@@ -7,12 +7,9 @@
 @interface TSMagazineFeedModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
-    id mastheadModelProvider;
 }
 
-- (id);
+- (id);
 - (void)¨;
 
 @end

@@ -6,45 +6,32 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSAttributedString, UIColor, _UIRefreshControlContentView;
-@protocol _UIRefreshControlHosting;
-
 @interface UIRefreshControl : UIControl
 {
     long long _style;
-    _UIRefreshControlContentView *_contentView;
-    double _refreshControlHeight;
-    double _visibleHeight;
-    double _snappingHeight;
-    double _additionalTopInset;
-    _Bool _insetsApplied;
-    _Bool _adjustingInsets;
-    struct UIEdgeInsets _appliedInsets;
-    id <_UIRefreshControlHosting> _host;
-    long long _refreshControlState;
 }
 
-+ (void)yControlKeyWithName:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
-+ (Class)orSuspension;
-+ (_Bool)setStateCaptureToken;
++ (void)_supplementaryControlKeyWithName:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
++ (Class)_isEligibleForSuspension;
++ (_Bool)_blockedResetStateCaptureToken;
 + (id)=dd},N,V_keyboardSizeBasis;
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)renegotiation;
 - (long long);
 - (id);
-- (void);
+- (void)ithFullSizeImageHashMD5: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (double);
-- (double);
+- (double)for item %lld;
 - (id);
 - (void);
-- (void);
+- (void)stop;
 - (void);
 - (_Bool);
 - (id);
@@ -58,22 +45,22 @@
 - (struct UIEdgeInsets)1Â0@ù
 × ;
 - (double)ates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (struct CGPoint)rencyString:(struct CGPoint)arg1;
-- (double)ant: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ingLoadedInteractionBehavior;
-- (void)etsToEdgeOfContent;
-- (void)wController: /* Error: Ran out of types for this method. */;
-- (double)rver;
-- (_Bool)tle;
-- (void)View:(double)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)stentIdentifiers:(struct CGRect)arg1;
+- (struct CGPoint)updateCurrencySymbolForKey:(struct CGPoint)arg1 withCurrencyString: /* Error: Ran out of types for this method. */;
+- (double)registerToolbarParticipant: /* Error: Ran out of types for this method. */;
+- (void)doneButton;
+- (void)buttonSpringLoadedInteractionBehavior;
+- (void)appliedInsetsToEdgeOfContent;
+- (void)_wrapperViewForViewController: /* Error: Ran out of types for this method. */;
+- (double)_navigationItemObserver;
+- (_Bool)_hasTitle;
+- (void)_flushView:(double)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void)_discardPreviouslyPersistedScenesExcludingPersistentIdentifiers:(struct CGRect)arg1;
 - (id)ctView;
 - (void)nBackgroundColor,S_setPlainButtonBackgroundColor:(double)arg1 ,V__plainButtonBackgroundColor;
 - (id)N,V_searchBar;
 - (void)³`´Èµ|¶ ·´¸@¹;
 - (void)¸K;
-- (double)ity;
+- (double)shadowOpacity;
 - (void)e at least 0.0, or UITableViewAutomaticDimension.;
 - (void)UserActivityManager _deleteSceneSessionsWithPersistentIdentifiers:(_Bool)arg1 ]_block_invoke;
 - (void)itleSpace)-[layoutView][rightSpacer(>=leftSpacer,==leftSpacer@200)]-(rightTitleInset)-|;
@@ -95,18 +82,7 @@
 - (void)LOk;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _areInsetsBeingApplied;
-@property(nonatomic, getter=_host, setter=_setHost:) __weak id <_UIRefreshControlHosting> _host;
-@property(readonly, nonatomic) _Bool _hostAdjustsContentOffset;
-@property(readonly, nonatomic) double _refreshControlHeight;
-@property(readonly, nonatomic) double _snappingHeight;
-@property(readonly, nonatomic) double _visibleHeight;
-@property(readonly, nonatomic, getter=_appliedInsets) struct UIEdgeInsets appliedInsets;
-@property(retain, nonatomic) NSAttributedString *attributedTitle;
 @property(readonly, nonatomic) long long refreshControlState; // @synthesize refreshControlState=_refreshControlState;
-@property(readonly, nonatomic, getter=isRefreshing) _Bool refreshing;
-@property(readonly, nonatomic) long long style;
-@property(retain, nonatomic) UIColor *tintColor;
 
 @end
 

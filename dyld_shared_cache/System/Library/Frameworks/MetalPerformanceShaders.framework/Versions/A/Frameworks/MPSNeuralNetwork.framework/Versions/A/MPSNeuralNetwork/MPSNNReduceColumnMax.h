@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id);
 - (id);
 - (id)nal error has occured;
 

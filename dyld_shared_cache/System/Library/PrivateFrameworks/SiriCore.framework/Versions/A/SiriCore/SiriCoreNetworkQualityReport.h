@@ -7,25 +7,19 @@
 @interface SiriCoreNetworkQualityReport
 {
     long long _cellularInstant;
-    long long _cellularHistorical;
-    long long _wifiInstant;
-    long long _wifiHistorical;
 }
 
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (long long);
+- (long long)ng a remote connection.;
+- (long long)can only be called when using a remote connection.;
+- (void)DisableAddLinkPreviews;
+- (void)session ID reset;
+- (void)ted;
+- (long long)completed;
+- (void)EMContentUnavailableError;
+- (long long)EMMessageSnippetHintZoneRecipientEmailAddresses;
 
 // Remaining properties
-@property(nonatomic) long long cellularHistorical; // @synthesize cellularHistorical=_cellularHistorical;
 @property(nonatomic) long long cellularInstant; // @synthesize cellularInstant=_cellularInstant;
-@property(nonatomic) long long wifiHistorical; // @synthesize wifiHistorical=_wifiHistorical;
-@property(nonatomic) long long wifiInstant; // @synthesize wifiInstant=_wifiInstant;
 
 @end
 

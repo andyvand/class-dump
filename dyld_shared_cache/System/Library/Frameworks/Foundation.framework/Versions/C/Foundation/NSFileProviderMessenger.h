@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderMessageInterface, NSLock, NSXPCConnection, Protocol;
+@class NSXPCConnection;
 
 @interface NSFileProviderMessenger
 {
     NSXPCConnection *_conn;
-    Protocol *_protocol;
-    NSFileProviderMessageInterface *_interface;
-    NSLock *_lock;
-    _Bool _triedConnection;
 }
 
 - (id);

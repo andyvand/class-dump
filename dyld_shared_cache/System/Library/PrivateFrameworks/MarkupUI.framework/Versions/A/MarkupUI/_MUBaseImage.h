@@ -8,17 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _MUBaseImage
 {
     _Bool _opaque;
-    struct CGImageSource *_imageSourceRef;
-    struct CGImageMetadata *_imageMetadata;
-    struct __CFDictionary *_imageOptions;
-    struct CGImage *_sdrImage;
-    struct CGImage *_hdrImage;
-    double _headroom;
 }
 
 - (struct CGImage *);
 - (id);
-- (struct CGImageMetadata *);
+- (struct CGImageMetadata *)R;
 - (struct CGImage *);
 - (struct CGImageSource *);
 - (void);
@@ -27,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *hdrImage; // @synthesize hdrImage=_hdrImage;
-@property(readonly, nonatomic) double headroom; // @synthesize headroom=_headroom;
-@property(readonly, nonatomic) struct CGImageMetadata *imageMetadata; // @synthesize imageMetadata=_imageMetadata;
-@property(readonly, nonatomic) struct __CFDictionary *imageOptions; // @synthesize imageOptions=_imageOptions;
 @property(readonly, nonatomic) struct CGImageSource *imageSourceRef; // @synthesize imageSourceRef=_imageSourceRef;
-@property(readonly, nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
-@property(readonly, nonatomic) struct CGImage *sdrImage; // @synthesize sdrImage=_sdrImage;
 
 @end
 

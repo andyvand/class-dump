@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDRemoteMessageLogEvent
 {
     _Bool _sending;
-    _Bool _secure;
-    int _transportType;
-    NSString *_msgIdentifier;
-    NSString *_transactionIdentifier;
-    NSString *_msgName;
-    long long _msgType;
-    NSString *_peerInformation;
-    long long _msgQoS;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)m;
 + (id);
 + (id);
 + (id);
@@ -32,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)l(a!@e;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -41,14 +31,6 @@ __attribute__((visibility("hidden")))
 - (int)cessory has null identifier;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *msgIdentifier; // @synthesize msgIdentifier=_msgIdentifier;
-@property(readonly, nonatomic) NSString *msgName; // @synthesize msgName=_msgName;
-@property(readonly, nonatomic) long long msgQoS; // @synthesize msgQoS=_msgQoS;
-@property(readonly, nonatomic) long long msgType; // @synthesize msgType=_msgType;
-@property(readonly, nonatomic) NSString *peerInformation; // @synthesize peerInformation=_peerInformation;
-@property(readonly, nonatomic) _Bool secure; // @synthesize secure=_secure;
-@property(readonly, nonatomic) _Bool sending; // @synthesize sending=_sending;
-@property(readonly, copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 @property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end

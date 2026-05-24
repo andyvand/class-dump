@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADBackdrop, OADCamera, OADLightRig;
+@class OADCamera;
 
 __attribute__((visibility("hidden")))
 @interface OADScene3D
 {
     OADCamera *mCamera;
-    OADLightRig *mLightRig;
-    OADBackdrop *mBackdrop;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)_SubscribeToAllFolders;
 - (id);
-- (void)phicPropertyDefaultBlock:(id)arg1;
+- (void)setPptChartGraphicPropertyDefaultBlock:(id)arg1;
 - (void)D;
 
 @end

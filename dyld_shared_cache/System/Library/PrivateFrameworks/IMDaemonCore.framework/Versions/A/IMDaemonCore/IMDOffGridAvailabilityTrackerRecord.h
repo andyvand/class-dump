@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDHandle, NSDate;
+@class IMDHandle;
 
 @interface IMDOffGridAvailabilityTrackerRecord
 {
     IMDHandle *_handle;
-    NSDate *_expirationDate;
 }
 
-- (void);
+- (void)ferLists[%u]->mNumberBuffers=%u, ASBD:(id)arg1:NumberChannelStreams(output.GetStreamFormat())=%u; kAudio_ParamError /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void)¤À
 ¸;
 - (void)n Security Prefs;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(retain, nonatomic) IMDHandle *handle; // @synthesize handle=_handle;
 
 @end

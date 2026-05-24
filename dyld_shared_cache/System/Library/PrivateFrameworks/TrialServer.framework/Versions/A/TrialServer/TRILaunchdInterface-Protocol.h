@@ -5,5 +5,6 @@
 //
 
 @protocol TRILaunchdInterface
+- (_Bool)videoCodecFourCharCodeNumberForAVAsset: /* Error: Ran out of types for this method. */;
 @end
 

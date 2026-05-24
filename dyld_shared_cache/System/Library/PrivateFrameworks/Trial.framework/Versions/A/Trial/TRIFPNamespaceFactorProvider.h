@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, NSString, TRIFBFastFactorLevels, TRIReferenceManagedDirReaderLock;
-@protocol TRIFactorLevelCaching, TRIFactorPackId;
+@class NSString;
+@protocol TRIFactorPackId;
 
 @interface TRIFPNamespaceFactorProvider
 {
     NSString *_parentId;
-    int _deploymentId;
-    NSString *_namespaceName;
-    NSSet *_namespaceCompatibilityVersions;
-    id <TRIFactorLevelCaching> _factorLevels;
-    NSString *_treatmentId;
-    TRIReferenceManagedDirReaderLock *_dirLock;
-    _Bool _isFlatbufferReadEnabled;
-    _Bool _isFlatbufferWriteEnabled;
-    NSMutableDictionary *_warmupPersistentFactorLevelCache;
-    TRIFBFastFactorLevels *_fastFactorLevels;
-    NSString *_referencePath;
-    NSString *_pbFactorPath;
-    NSString *_fbFactorPath;
-    _Bool _promotable;
-    NSString<TRIFactorPackId> *_factorPackId;
 }
 
 - (id);
@@ -32,15 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ibraryScope since iCPL is disabled;
+- (void)ce to be provided;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)",&,N;
 - (unsigned int);
 - (id);
 - (void);
@@ -49,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString<TRIFactorPackId> *factorPackId; // @synthesize factorPackId=_factorPackId;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool promotable; // @synthesize promotable=_promotable;
-@property(readonly) Class superclass;
 
 @end
 

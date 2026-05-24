@@ -7,8 +7,6 @@
 @interface AppStoreKit.ShelfBatch
 {
     id shelves;
-    id errors;
-    id requests;
 }
 
 @end

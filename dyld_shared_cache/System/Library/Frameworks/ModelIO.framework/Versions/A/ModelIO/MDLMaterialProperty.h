@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLBufferView, MDLMaterialPropertyNode, MDLTextureSampler, NSString, NSURL;
+@class NSString;
 
 @interface MDLMaterialProperty
 {
     NSString *_string;
-    NSString *_name;
-    NSURL *_url;
-    MDLTextureSampler *_textureSampler;
-    id _float;
-    CDStruct_95fa7c00 _matrix;
-    struct CGColor *_color;
-    MDLBufferView *_buffer;
-    unsigned long long _stride;
-    unsigned long long _semantic;
-    MDLMaterialPropertyNode *_node;
-    MDLMaterialProperty *_overrider;
-    MDLMaterialProperty *_overridee;
-    _Bool _isDefaultValue;
-    unsigned long long _type;
-    CDStruct_95fa7c00 _matrix4x4;
 }
 
 + (id);
 + (id);
-+ (CDStruct_95fa7c00);
++ (CDStruct_34f00414);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (_Bool);
 - (id);
@@ -40,30 +25,43 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)s ( id integer PRIMARY KEY AUTOINCREMENT NOT NULL, sessionDescriptorId integer NOT NULL, transformer blob, FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE );
+- (void)ovariatesIndices blob,                   covariatesValues blob,                   isAppleInternal integer(1) NOT NULL DEFAULT 0,                   source blob,                   FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE               );
+- (void)iptorId integer NOT NULL,                   label integer NOT NULL,                   covariatesLength integer NOT NULL,                   covariatesIndices blob,                   covariatesValues blob,                   isAppleInternal integer(1) NOT NULL DEFAULT 0,                   source blob,                   FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE               );
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (CDStruct_34f00414);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ent:) /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (id);
-- (CDStruct_95fa7c00);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)QYJKoZI
+hvcNAQEMBQADggIBABUQhTrdrp4mJpKEuPY826jaSJ1lLh8D7CHrINjNHdTAsCzA
+wHxHNon8G3uA0uqBuDGMc95sH3gtMKOBDtYVJkwIf8/VU+OYm4Nzyph5oPe0jjEt
+rXrGRJylyJMgRB6Rhq1Yyq50m/Ae817ccvPYang5UBqn0PJHWiapsOPAeGnWs3G/
+92CutUS7DFQ95xhNcL8zb+WegeL3OT5JJfY047JQJjWyLYMMuGmL+FgSCc0/namw
+/vwHcPFYS8N30GElSTudI8an0RJ9RjHcvJOYBkvm5YMLswghuaGeIfKoIXwefEfc
+5N8WebVx1GRpWGE87HfxNi18G8+UCTDXG5osItcmmzmi2a4krA08//APxNeFOBRf
+ltntKQ/4ahV7L1tg+UeJi+JmrYAhTLi8YWZ1xNrfFcpSt6kaUj0e9b4kTS+hoghU
+FiQnPK7G1l7Smnh1PkXuX7OJaeKrElPrcm6TU/OBkla3tPXwv7emCmcSbiO8xKkx
+Y3ekX4U5+EIp32l6WY109X+LBNZUn0It2J1F9AtfwK6uxNMCnhQF33MLJlrDWUuX
+02LTFwUvSDinwgG1j/IFcuUCV06DAp1AsFO1M1xJ7i/PttrYvc/4tHyjtVbggtb5
+NrlP1fqI+h/6b1RwSXIe8iLsvFov26R28mjOHPNdkhuLaAGMFYRe33yoe/Ds
+-----END CERTIFICATE-----
+;
 - (id);
 - (void);
 - (void);
@@ -75,30 +73,15 @@
 - (void);
 - (id);
 - (float);
-- (id);
+- (id)p;
 - (void);
 - (float);
-- (void);
-- (void);
-- (void);
+- (void)stringByReplacingOccurrencesOfString:(float)arg1 withString:options:range: /* Error: Ran out of types for this method. */;
+- (void)T;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URLValue;
-@property(readonly, nonatomic) MDLBufferView *bufferData;
-@property(nonatomic) struct CGColor *color;
-@property(nonatomic) id float2Value;
-@property(nonatomic) id float3Value;
-@property(nonatomic) id float4Value;
-@property(nonatomic) float floatValue;
 @property(nonatomic) _Bool isDefaultValue; // @synthesize isDefaultValue=_isDefaultValue;
-@property(nonatomic) float luminance;
-@property(nonatomic) CDStruct_95fa7c00 matrix4x4; // @synthesize matrix4x4=_matrix4x4;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) unsigned long long semantic;
-@property(readonly, nonatomic) unsigned long long stride;
-@property(copy, nonatomic) NSString *stringValue;
-@property(retain, nonatomic) MDLTextureSampler *textureSamplerValue;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface MUITokenAddressField
 {
     MUITokenAddressTextView *_addressTextView;
-    NSView *_parentAddressField;
 }
 
 + (Class);
@@ -24,15 +23,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (void)Attachment: /* Error: Ran out of types for this method. */;
-- (double)maryStatistics;
+- (void)setAttachmentControllersByAttachment: /* Error: Ran out of types for this method. */;
+- (double)primaryStatistics;
 
 // Remaining properties
-@property(readonly, nonatomic) double minimumHeight;
 @property(nonatomic) __weak NSView *parentAddressField; // @synthesize parentAddressField=_parentAddressField;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatBackgroundView
 {
     id editor;
-    id backgroundState;
 }
 
 - (id);

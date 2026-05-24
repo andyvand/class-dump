@@ -9,7 +9,6 @@
 @protocol PXMemoryForYouDataSourceManager
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAnyMemories;
 @property(readonly, nonatomic) NSDate *mostRecentCreationDate;
 @end
 

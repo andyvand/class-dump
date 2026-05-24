@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface TMPathTreeNode
 {
     NSString *_name;
-    NSMutableDictionary *_childMap;
-    TMPathTreeNode *_parentNode;
-    _Bool _isRootNode;
-    _Bool _isTerminalNode;
-    id _data;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -37,18 +32,18 @@
 - (id);
 - (_Bool);
 - (void);
+- (unsigned long long)];
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);;
 - (_Bool);
 - (id);
 - (id);
@@ -57,17 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long _totalSubtreeLeafNodeCount;
-@property(readonly) unsigned long long _totalSubtreeNodeCount;
-@property(readonly) NSArray *children;
-@property(retain) id data; // @synthesize data=_data;
-@property(readonly) NSString *extension;
-@property(readonly) _Bool isLeafNode;
-@property _Bool isRootNode; // @synthesize isRootNode=_isRootNode;
-@property _Bool isTerminalNode; // @synthesize isTerminalNode=_isTerminalNode;
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property __weak TMPathTreeNode *parentNode; // @synthesize parentNode=_parentNode;
-@property(readonly) NSString *path;
 
 @end
 

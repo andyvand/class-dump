@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface PODArtwork
 {
     NSURL *_imageUrl;
-    NSData *_imageData;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4&;
 - (id);
 - (void);
-- (void);
+- (void)g"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 @property(readonly, nonatomic) NSURL *imageUrl; // @synthesize imageUrl=_imageUrl;
-@property(readonly) Class superclass;
 
 @end
 

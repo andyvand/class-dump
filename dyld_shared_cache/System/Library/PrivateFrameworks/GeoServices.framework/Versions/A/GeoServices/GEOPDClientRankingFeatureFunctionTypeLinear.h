@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDClientRankingFeatureFunctionTypeLinear
 {
     PBUnknownFields *_unknownFields;
-    float _featureMaxRelativeValue;
-    float _featureMeanValue;
-    float _featureWeight;
-    struct {
-        unsigned int has_featureMaxRelativeValue:1;
-        unsigned int has_featureMeanValue:1;
-        unsigned int has_featureWeight:1;
-    } _flags;
 }
 
 - (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"b1"read_businessHours"b1"read_category"b1"read_containmentCorrections"b1"read_hoursText"b1"read_name"b1"read_originalName"b1"read_originalPhone"b1"read_originalUrl"b1"read_phone"b1"read_url"b1"wrote_anyField"b1};
-- (id)ddress:maxResults:traits: /* Error: Ran out of types for this method. */;
+- (id)_cl_ticketForForwardGeocodePostalAddress:maxResults:traits: /* Error: Ran out of types for this method. */;
 - (id)h7;
 - (void)õÿÿÿúÿÿÿóÿÿÿýÿÿÿõÿÿÿñÿÿÿûÿÿÿùÿÿÿóÿÿÿòÿÿÿöÿÿÿ÷ÿÿÿðÿÿÿøÿÿÿúÿÿÿôÿÿÿôÿÿÿùÿÿÿóÿÿÿúÿÿÿòÿÿÿñÿÿÿøÿÿÿ÷ÿÿÿðÿÿÿûÿÿÿïÿÿÿöÿÿÿéÿÿÿæÿÿÿíÿÿÿìÿÿÿòÿÿÿóÿÿÿïÿÿÿëÿÿÿçÿÿÿèÿÿÿðÿÿÿêÿÿÿïÿÿÿîÿÿÿòÿÿÿóÿÿÿôÿÿÿðÿÿÿòÿÿÿëÿÿÿçÿÿÿñÿÿÿéÿÿÿæÿÿÿãÿÿÿäÿÿÿìÿÿÿïÿÿÿåÿÿÿîÿÿÿèÿÿÿêÿÿÿöÿÿÿíÿÿÿõÿÿÿóÿÿÿìÿÿÿøÿÿÿ÷ÿÿÿðÿÿÿéÿÿÿëÿÿÿôÿÿÿóÿÿÿõÿÿÿïÿÿÿîÿÿÿöÿÿÿêÿÿÿíÿÿÿùÿÿÿòÿÿÿðÿÿÿïÿÿÿñÿÿÿ÷ÿÿÿüÿÿÿúÿÿÿõÿÿÿôÿÿÿöÿÿÿùÿÿÿòÿÿÿóÿÿÿ÷ÿÿÿùÿÿÿøÿÿÿûÿÿÿýÿÿÿöÿÿÿúÿÿÿòÿÿÿõÿÿÿóÿÿÿôÿÿÿñÿÿÿðÿÿÿòÿÿÿëÿÿÿïÿÿÿöÿÿÿñÿÿÿìÿÿÿôÿÿÿóÿÿÿîÿÿÿíÿÿÿêÿÿÿÕÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿìÿÿÿëÿÿÿäÿÿÿöÿÿÿßÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿãÿÿÿÙÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿàÿÿÿÿÿÿÿòÿÿÿâÿÿÿæÿÿÿñÿÿÿäÿÿÿôÿÿÿêÿÿÿìÿÿÿðÿÿÿîÿÿÿçÿÿÿåÿÿÿóÿÿÿïÿÿÿãÿÿÿèÿÿÿÜÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿïÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 

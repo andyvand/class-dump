@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface BWFrameStatisticsByPortType
 {
     NSArray *_portTypes;
-    NSDictionary *_portTypeToFrameStatistics;
-    CDStruct_441bd2e9 *_frameStatisticsStoragesForPortTypes;
-    unsigned long long _frameCount;
-    float _adrcExposureRealizedGain;
-    _Bool _autoFocusRecommendedPrimaryPortTypeEnabled;
 }
 
 + (_Bool)1Â0@ù
 × ;
 + (void)m.apple.bwgraph.quicktime-movie-file-sink-thumbnail-generator;
-- (void);
+- (void)48@0:(id)arg1 8q16@24@32@40;
 - (void);
 - (void);
 - (id);
@@ -31,7 +26,7 @@
 - (_Bool);
 - (float);
 - (void);
-- (void);
+- (void)_xpcListener;
 - (void);
 - (id),N,GisClientInitiatedPrepareSettings,V_clientInitiatedPrepareSettings;
 - (id)ÿ³wÿ¼vÿÄvÿÌvÿÔuÿÜuÿãuÿêuÿïuÿïuÿ;
@@ -39,8 +34,6 @@
 - (unsigned long long)ßÿubtÞ%;
 
 // Remaining properties
-@property(readonly, nonatomic) float adrcExposureRealizedGain;
-@property(readonly, nonatomic) unsigned long long frameCount;
 @property(readonly, nonatomic) NSArray *portTypes;
 
 @end

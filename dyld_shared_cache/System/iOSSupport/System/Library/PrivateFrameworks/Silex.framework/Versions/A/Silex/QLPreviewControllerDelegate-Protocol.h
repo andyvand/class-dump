@@ -5,5 +5,9 @@
 //
 
 @protocol QLPreviewControllerDelegate
+
+@optional
+- (void)tion type %ld.;
+- (void);
 @end
 

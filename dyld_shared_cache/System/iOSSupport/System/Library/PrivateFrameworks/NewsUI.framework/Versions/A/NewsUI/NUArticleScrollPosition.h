@@ -9,17 +9,15 @@
 @interface NUArticleScrollPosition
 {
     SXScrollPosition *_position;
-    long long _source;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long)p;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SXScrollPosition *position; // @synthesize position=_position;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

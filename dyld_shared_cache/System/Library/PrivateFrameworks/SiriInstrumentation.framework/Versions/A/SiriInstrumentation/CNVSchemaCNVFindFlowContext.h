@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVFindFlowEnded, CNVSchemaCNVFindFlowStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVFindFlowContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CNVSchemaCNVFindFlowStarted *_startedOrChanged;
-    CNVSchemaCNVFindFlowEnded *_ended;
-    SISchemaUUID *_hypothesisId;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasHypothesisId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -46,7 +38,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)];
 - (id)CollectorFetchFailed";
 - (id)essageSignals;
 - (id)¬;
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CNVSchemaCNVFindFlowEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasHypothesisId; // @synthesize hasHypothesisId=_hasHypothesisId;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *hypothesisId; // @synthesize hypothesisId=_hypothesisId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CNVSchemaCNVFindFlowStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

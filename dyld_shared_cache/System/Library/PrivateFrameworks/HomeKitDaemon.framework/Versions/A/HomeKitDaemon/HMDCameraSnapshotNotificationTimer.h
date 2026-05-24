@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSUUID;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotNotificationTimer
 {
     NSSet *_changedCharacteristics;
-    NSUUID *_sessionUUID;
-    NSArray *_postedBulletins;
 }
 
 - (id);
 - (id);
-- (id)ntrolOperation;
+- (id)HMDNetworkRouterControlOperation;
 - (void)ed wallet key color:(id)arg1 %@;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *changedCharacteristics; // @synthesize changedCharacteristics=_changedCharacteristics;
-@property(retain, nonatomic) NSArray *postedBulletins; // @synthesize postedBulletins=_postedBulletins;
-@property(readonly, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end
 

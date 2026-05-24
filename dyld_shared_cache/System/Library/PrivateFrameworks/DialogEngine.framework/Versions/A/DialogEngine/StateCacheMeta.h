@@ -9,9 +9,6 @@
 @interface StateCacheMeta
 {
     NSArray *_use_case_state_minutes;
-    NSArray *_use_case_state_counts;
-    NSArray *_family_state_minutes;
-    NSArray *_family_state_counts;
 }
 
 - (id);
@@ -28,9 +25,6 @@
 - (void)******Ñ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *family_state_counts; // @synthesize family_state_counts=_family_state_counts;
-@property(copy, nonatomic) NSArray *family_state_minutes; // @synthesize family_state_minutes=_family_state_minutes;
-@property(copy, nonatomic) NSArray *use_case_state_counts; // @synthesize use_case_state_counts=_use_case_state_counts;
 @property(copy, nonatomic) NSArray *use_case_state_minutes; // @synthesize use_case_state_minutes=_use_case_state_minutes;
 
 @end

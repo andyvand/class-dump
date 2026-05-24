@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface NSTextTab
 {
     struct {
@@ -14,13 +12,11 @@
         unsigned int unused:4;
         unsigned int :32;
     } _flags;
-    double _location;
-    id _reserved;
 }
 
 + (id);
-+ (_Bool);
-+ (void)textRange: /* Error: Ran out of types for this method. */;
++ (_Bool)`;
++ (void)beginEditTrackingForContextRange: /* Error: Ran out of types for this method. */;
 + (id)Ü'Øô'äØ'Ô'Ø$ (ð'¨ (Àô&Ðð& ì& 8à'Ì è&#à&à#ä&Ð$Ü&¨%ô'¼%(Ð'ä%ø&&ô' &'°& ô'Ð&L;
 - (void);
 - (id);
@@ -31,16 +27,14 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)p-protocol;
 - (void);
 - (id);
-- (id);
-- (double);
+- (id);
+- (double);
 
 // Remaining properties
 @property(readonly) long long alignment;
-@property(readonly) double location;
-@property(readonly) NSDictionary *options;
 
 @end
 

@@ -11,26 +11,24 @@
 @interface CNChangeHistoryRemoveSubgroupFromGroupEvent : CNChangeHistoryEvent
 {
     CNGroup *_subgroup;
-    CNGroup *_group;
 }
 
 + (unsigned long long);
 + (_Bool);
+- (id)T;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
-- (id);
+- (id)Min-SE = ;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)Z;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNGroup *group; // @synthesize group=_group;
 @property(readonly, nonatomic) CNGroup *subgroup; // @synthesize subgroup=_subgroup;
 
 @end

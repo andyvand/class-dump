@@ -6,19 +6,15 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSDate, NSString;
-
 @interface MPModelGenre : MPModelObject
 {
 }
 
-- (id);
-- (id);
+- (id)objectColumn;
+- (id)resizeWithFormat:newCapacityFrames:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSDate *libraryAddedDate; // @dynamic libraryAddedDate;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
 
 @end
 

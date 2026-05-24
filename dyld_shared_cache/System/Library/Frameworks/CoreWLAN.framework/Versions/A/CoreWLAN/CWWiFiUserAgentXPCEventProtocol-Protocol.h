@@ -5,5 +5,10 @@
 //
 
 @protocol CWWiFiUserAgentXPCEventProtocol
+- (void);
+- (void);
+- (void)&;
+- (void)P;
+- (void)libThaiTokenizer.dylib;
 @end
 

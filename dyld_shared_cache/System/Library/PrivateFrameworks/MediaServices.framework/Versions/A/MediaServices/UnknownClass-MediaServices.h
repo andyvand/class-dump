@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface UnknownClass (MediaServices)
 + (id);
 + (id);
 + (id);
++ (id)W;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -33,8 +33,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *msv_signature;
 @property(nonatomic, readonly) NSString *msv_treeDescription;
-@property(readonly, nonatomic) NSError *msv_underlyingError;
 @end
 

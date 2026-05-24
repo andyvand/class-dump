@@ -6,39 +6,29 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor;
-
 __attribute__((visibility("hidden")))
 @interface NSRoundedDashStrokeView : NSView
 {
     double _cornerRadius;
-    double _lineDash;
-    double _strokeThickness;
-    NSColor *_dashColor;
-    NSColor *_innerDashColor;
 }
 
-+ (id);
++ (id)%lu f=%lu);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)present;
 - (id);
 - (id);
 - (double);
 - (void);
 - (void);
-- (id)d;
-- (double)t;
-- (void)tingViewControllerFontAttributesItalicComponent;
+- (id)isVoiceOverEnabled;
+- (double)titleCutoutRect;
+- (void)_NSTextFormattingViewControllerFontAttributesItalicComponent;
 
 // Remaining properties
 @property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(copy) NSColor *dashColor; // @synthesize dashColor=_dashColor;
-@property(copy) NSColor *innerDashColor; // @synthesize innerDashColor=_innerDashColor;
-@property double lineDash; // @synthesize lineDash=_lineDash;
-@property double strokeThickness; // @synthesize strokeThickness=_strokeThickness;
 
 @end
 

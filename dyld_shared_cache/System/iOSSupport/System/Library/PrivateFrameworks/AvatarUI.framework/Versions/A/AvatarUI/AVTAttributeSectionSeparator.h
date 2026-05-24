@@ -9,7 +9,6 @@
 @interface AVTAttributeSectionSeparator
 {
     UIView *_separatorView;
-    struct UIEdgeInsets _edgeInsets;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
 @property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end

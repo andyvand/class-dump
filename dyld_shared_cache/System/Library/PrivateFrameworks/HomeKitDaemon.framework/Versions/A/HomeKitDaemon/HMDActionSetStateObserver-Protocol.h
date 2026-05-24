@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol HMDActionSetStateObserver
+- (void)dentifier:(NSArray *)arg1 %{public}@, context:(void (^)(NSArray *))arg2 %@ fromID %@};
 @end
 

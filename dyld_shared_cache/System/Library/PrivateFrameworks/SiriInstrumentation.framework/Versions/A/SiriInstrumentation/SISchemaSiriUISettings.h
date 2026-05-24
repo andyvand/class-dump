@@ -6,28 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaSiriUISettings : SISchemaInstrumentationMessage
 {
     _Bool _alwaysShowUserSpeechTranscript;
-    _Bool _alwaysBlurBackground;
-    _Bool _alwaysShowSiriDialog;
-    struct {
-        unsigned int alwaysShowUserSpeechTranscript:1;
-        unsigned int alwaysBlurBackground:1;
-        unsigned int alwaysShowSiriDialog:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (void);
 - (void);
@@ -37,22 +28,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_persistentID;
+- (_Bool)ntacts.framework/Contacts (%d);
+- (_Bool)s_system_message,  is_sent,  is_service_message,  is_forward,  is_archive,  order_date ) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ? );;
 - (id);
 - (id);
 - (id)deleteDeviceState;
-- (id)qAnyGroup7DayTo28Day;
+- (id)_freqAnyGroup7DayTo28Day;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysBlurBackground; // @synthesize alwaysBlurBackground=_alwaysBlurBackground;
-@property(nonatomic) _Bool alwaysShowSiriDialog; // @synthesize alwaysShowSiriDialog=_alwaysShowSiriDialog;
 @property(nonatomic) _Bool alwaysShowUserSpeechTranscript; // @synthesize alwaysShowUserSpeechTranscript=_alwaysShowUserSpeechTranscript;
-@property(nonatomic) _Bool hasAlwaysBlurBackground;
-@property(nonatomic) _Bool hasAlwaysShowSiriDialog;
-@property(nonatomic) _Bool hasAlwaysShowUserSpeechTranscript;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

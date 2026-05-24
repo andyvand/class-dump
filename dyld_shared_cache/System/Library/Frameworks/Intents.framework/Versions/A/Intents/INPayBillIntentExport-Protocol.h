@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INBillPayee, INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
+@class INBillPayee, INDateComponentsRange;
 
 @protocol INPayBillIntentExport
+- (void);
+- (void)localizedDayHourDate:(INDateComponentsRange *)arg1 includeTimeRemainingPhrase: /* Error: Ran out of types for this method. */;
+- (INDateComponentsRange *)_internalScopeString;
 
 // Remaining properties
 @property(copy) INBillPayee *billPayee;
-@property long long billType;
-@property(copy) INDateComponentsRange *dueDate;
-@property(copy) INPaymentAccount *fromAccount;
-@property(copy) INPaymentAmount *transactionAmount;
-@property(copy) NSString *transactionNote;
-@property(copy) INDateComponentsRange *transactionScheduledDate;
 @end
 

@@ -23,16 +23,7 @@
 - (unsigned int)to allocate MTLTexture from IOSurface 0x%x. Row bytes (%ld) not %ld aligned.;
 
 // Remaining properties
-@property(readonly) long long bt2020YCC;
 @property(readonly) long long dolbyVision;
-@property(readonly) long long hdrStaticMetadataType1;
-@property(readonly) _Bool legacyHDMIEDID;
-@property(readonly) unsigned int manufacturerID;
-@property(readonly) long long pqEOTF;
-@property(readonly) unsigned int productID;
-@property(readonly) unsigned int serialNumber;
-@property(readonly) unsigned int weekOfManufacture;
-@property(readonly) unsigned int yearOfManufacture;
 
 @end
 

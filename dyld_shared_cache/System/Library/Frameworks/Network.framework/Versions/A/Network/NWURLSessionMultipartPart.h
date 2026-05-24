@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHTTPURLResponse, NSMutableArray;
+@class NSHTTPURLResponse;
 
 __attribute__((visibility("hidden")))
 @interface NWURLSessionMultipartPart
 {
     NSHTTPURLResponse *_response;
-    NSMutableArray *_data;
 }
 
 - (void)@;

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgressIndicator, NSSwitch, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface BrowsingDataExportTypeToggleContainer
 {
     NSTextField *_numberOfItemsToExportLabel;
-    NSProgressIndicator *_numberOfItemsToExportSpinner;
-    NSSwitch *_toggle;
-    unsigned long long _exportDataType;
 }
 
 - (void);
@@ -23,14 +20,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)llView;
+- (id)BookmarksEditLocationTableCellView;
 - (void)¼;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long exportDataType; // @synthesize exportDataType=_exportDataType;
 @property(readonly, nonatomic) NSTextField *numberOfItemsToExportLabel; // @synthesize numberOfItemsToExportLabel=_numberOfItemsToExportLabel;
-@property(readonly, nonatomic) NSProgressIndicator *numberOfItemsToExportSpinner; // @synthesize numberOfItemsToExportSpinner=_numberOfItemsToExportSpinner;
-@property(readonly, nonatomic) NSSwitch *toggle; // @synthesize toggle=_toggle;
 
 @end
 

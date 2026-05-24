@@ -6,37 +6,30 @@
 
 #import <HomeKitDaemon/HMDAccessoryDiagnosticsManagerInternal.h>
 
-@class HMSupportedAccessoryDiagnostics, MTRDevice;
-@protocol HMDFileManager;
+@class HMSupportedAccessoryDiagnostics;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterAccessoryDiagnosticsManager : HMDAccessoryDiagnosticsManagerInternal
 {
     _Bool _started;
-    HMSupportedAccessoryDiagnostics *_supportedDiagnostics;
-    MTRDevice *_matterDevice;
-    id <HMDFileManager> _fileManager;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool)tworkSignatureV6;
-- (void)fication;
+- (_Bool)networkSignatureV6;
+- (void)MKFBulletinTimeSpecification;
 - (void)ng"8@"NSMutableArray"16;
 - (void)ÿ%	ôþ>;
 - (void)4y?;
 - (id)¨Á?;
 
 // Remaining properties
-@property(retain, nonatomic) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(nonatomic) __weak MTRDevice *matterDevice; // @synthesize matterDevice=_matterDevice;
-@property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
 @property(retain, nonatomic) HMSupportedAccessoryDiagnostics *supportedDiagnostics; // @synthesize supportedDiagnostics=_supportedDiagnostics;
 
 @end

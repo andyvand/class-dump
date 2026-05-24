@@ -11,11 +11,6 @@
 @interface FCNewsTabiNotificationScoringConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiNotificationScoringOutputConfiguration *_bundleOutputConfiguration;
-    long long _fullBodyEmbeddingDimension;
-    long long _maxNotabilityScores;
-    long long _maxTopicIds;
-    FCNewsTabiNotificationScoringOutputConfiguration *_nonBundleOutputConfiguration;
-    long long _titleEmbeddingDimension;
 }
 
 - (long long);
@@ -38,11 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiNotificationScoringOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(nonatomic) long long fullBodyEmbeddingDimension; // @synthesize fullBodyEmbeddingDimension=_fullBodyEmbeddingDimension;
-@property(nonatomic) long long maxNotabilityScores; // @synthesize maxNotabilityScores=_maxNotabilityScores;
-@property(nonatomic) long long maxTopicIds; // @synthesize maxTopicIds=_maxTopicIds;
-@property(retain, nonatomic) FCNewsTabiNotificationScoringOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
-@property(nonatomic) long long titleEmbeddingDimension; // @synthesize titleEmbeddingDimension=_titleEmbeddingDimension;
 
 @end
 

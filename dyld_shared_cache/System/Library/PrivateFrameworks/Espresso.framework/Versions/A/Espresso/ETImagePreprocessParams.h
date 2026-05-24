@@ -7,19 +7,12 @@
 @interface ETImagePreprocessParams
 {
     _Bool _network_wants_bgr;
-    float _bias_r;
-    float _bias_g;
-    float _bias_b;
-    float _scale;
-    unsigned long long _channels;
-    unsigned long long _height;
-    unsigned long long _width;
 }
 
-- (_Bool);
+- (_Bool)]m;
 - (id);
 - (float);
-- (float);
+- (float)d;
 - (float);
 - (float);
 - (unsigned long long);
@@ -27,14 +20,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) float bias_b; // @synthesize bias_b=_bias_b;
-@property(readonly, nonatomic) float bias_g; // @synthesize bias_g=_bias_g;
-@property(readonly, nonatomic) float bias_r; // @synthesize bias_r=_bias_r;
-@property(readonly, nonatomic) unsigned long long channels; // @synthesize channels=_channels;
-@property(readonly, nonatomic) unsigned long long height; // @synthesize height=_height;
 @property(readonly, nonatomic) _Bool network_wants_bgr; // @synthesize network_wants_bgr=_network_wants_bgr;
-@property(readonly, nonatomic) float scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end
 

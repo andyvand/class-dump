@@ -4,47 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerOptions, CKNotificationListener, CKOperationConfiguration, CKScheduler, NSArray, NSNumber, NSObject, NSString, PFCloudKitArchivingUtilities, PFCloudKitContainerProvider, PFCloudKitMetadataPurger, PFCloudKitStoreMonitorProvider, PFMetricsClient;
+@class NSObject;
 @protocol NSCloudKitMirroringDelegateProgressProvider;
 
 @interface NSCloudKitMirroringDelegateOptions
 {
     _Bool _initializeSchema;
-    _Bool _useDeviceToDeviceEncryption;
-    _Bool _automaticallyDownloadFileBackedFutures;
-    _Bool _automaticallyScheduleImportAndExportOperations;
-    _Bool _skipCloudKitSetup;
-    _Bool _useDaemon;
-    _Bool _useTestDaemon;
-    _Bool _preserveLegacyRecordMetadataBehavior;
-    _Bool _bypassSchedulerActivityForInitialImport;
-    _Bool _bypassDasdRateLimiting;
-    _Bool _test_useLegacySavePolicy;
-    NSString *_containerIdentifier;
-    NSNumber *_ckAssetThresholdBytes;
-    NSNumber *_operationMemoryThresholdBytes;
-    CKContainerOptions *_containerOptions;
-    CKScheduler *_scheduler;
-    CKNotificationListener *_notificationListener;
-    PFMetricsClient *_metricsClient;
-    PFCloudKitContainerProvider *_containerProvider;
-    PFCloudKitStoreMonitorProvider *_storeMonitorProvider;
-    PFCloudKitMetadataPurger *_metadataPurger;
-    NSString *_apsConnectionMachServiceName;
-    CKOperationConfiguration *_defaultOperationConfiguration;
-    long long _databaseScope;
-    NSObject<NSCloudKitMirroringDelegateProgressProvider> *_progressProvider;
-    PFCloudKitArchivingUtilities *_archivingUtilities;
-    NSArray *_activityVouchers;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)*;
 - (void);
 - (_Bool);
-- (id);
+- (id)b;
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
@@ -82,21 +56,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activityVouchers; // @synthesize activityVouchers=_activityVouchers;
-@property(retain, nonatomic) NSString *apsConnectionMachServiceName; // @synthesize apsConnectionMachServiceName=_apsConnectionMachServiceName;
-@property(nonatomic) _Bool automaticallyDownloadFileBackedFutures; // @synthesize automaticallyDownloadFileBackedFutures=_automaticallyDownloadFileBackedFutures;
-@property(nonatomic) _Bool automaticallyScheduleImportAndExportOperations; // @synthesize automaticallyScheduleImportAndExportOperations=_automaticallyScheduleImportAndExportOperations;
-@property(retain, nonatomic) NSNumber *ckAssetThresholdBytes; // @synthesize ckAssetThresholdBytes=_ckAssetThresholdBytes;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(retain, nonatomic) CKContainerOptions *containerOptions; // @synthesize containerOptions=_containerOptions;
-@property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(retain, nonatomic) CKOperationConfiguration *defaultOperationConfiguration; // @synthesize defaultOperationConfiguration=_defaultOperationConfiguration;
-@property(nonatomic) _Bool initializeSchema; // @synthesize initializeSchema=_initializeSchema;
-@property(retain, nonatomic) NSNumber *operationMemoryThresholdBytes; // @synthesize operationMemoryThresholdBytes=_operationMemoryThresholdBytes;
-@property(nonatomic) _Bool preserveLegacyRecordMetadataBehavior; // @synthesize preserveLegacyRecordMetadataBehavior=_preserveLegacyRecordMetadataBehavior;
 @property(nonatomic) __weak NSObject<NSCloudKitMirroringDelegateProgressProvider> *progressProvider; // @synthesize progressProvider=_progressProvider;
-@property(nonatomic) _Bool useDeviceToDeviceEncryption; // @synthesize useDeviceToDeviceEncryption=_useDeviceToDeviceEncryption;
-@property(nonatomic) _Bool useEncryptedStorage;
 
 @end
 

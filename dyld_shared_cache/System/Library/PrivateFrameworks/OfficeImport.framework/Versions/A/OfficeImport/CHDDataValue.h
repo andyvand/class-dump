@@ -16,8 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CHDDataPoint *);
-- (id);
+- (struct CHDDataPoint *);
+- (id)h
+;
 - (unsigned long long);
 - (void);
 - (id);

@@ -6,15 +6,11 @@
 
 #import <AccessibilitySharedSupport/AXSSDatabaseManager.h>
 
-@class AXSSPunctuationEntryCloudKitHelper, AXSSPunctuationGroupCloudKitHelper, NSArray;
+@class AXSSPunctuationEntryCloudKitHelper;
 
 @interface AXSSPunctuationManager : AXSSDatabaseManager
 {
     AXSSPunctuationEntryCloudKitHelper *_punctuationEntryCloudKitHelper;
-    AXSSPunctuationGroupCloudKitHelper *_punctuationGroupCloudKitHelper;
-    _Bool _finishedInitialization;
-    _Bool _cloudKitSync;
-    _Bool _cloudKitPushInSameProcess;
 }
 
 + (id);
@@ -27,13 +23,13 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)X;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,7 +48,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -66,14 +62,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)C;
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cloudKitPushInSameProcess; // @synthesize cloudKitPushInSameProcess=_cloudKitPushInSameProcess;
 @property(nonatomic) _Bool cloudKitSync; // @synthesize cloudKitSync=_cloudKitSync;
-@property(readonly, nonatomic) NSArray *punctuationGroups;
 
 @end
 

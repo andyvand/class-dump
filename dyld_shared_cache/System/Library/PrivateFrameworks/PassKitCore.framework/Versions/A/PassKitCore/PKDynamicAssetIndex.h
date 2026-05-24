@@ -9,14 +9,13 @@
 @interface PKDynamicAssetIndex
 {
     NSDictionary *_index;
-    NSDate *_dateCreated;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)trusted;
+- (void)untrusted;
 - (id)ÿ;
 
 // Remaining properties

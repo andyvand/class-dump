@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BU_TUserDefaults
 {
     struct TNotificationCenterObserver _prefsNeedToBeSyncedObserver;
-    struct TNotificationCenterObserver _showAllExtensionsObserver;
-    struct TNotificationCenterObserver _forwardingDistributedObserver;
 }
 
 + (void);
@@ -20,6 +18,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -31,8 +30,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)M;
 + (void);
 + (_Bool);
 + (struct CGRect);
@@ -54,7 +52,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 - (void);
@@ -66,11 +64,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)yE;
+- (void)?;
+- (id);
 - (id);
 - (void);
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (void);
 - (id);
-- (id);
+- (id)iUserStatus;
 - (id)ning:(id)arg1 C3DValueWriteToMTLData - Unsupported data type %@;
 - (void)light.color.rgb, intensity);
     }

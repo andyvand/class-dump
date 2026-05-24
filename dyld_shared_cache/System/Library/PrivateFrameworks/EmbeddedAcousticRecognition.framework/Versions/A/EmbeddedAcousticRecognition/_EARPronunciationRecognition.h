@@ -7,7 +7,6 @@
 @interface _EARPronunciationRecognition
 {
     struct unique_ptr<quasar::SystemConfig, std::default_delete<quasar::SystemConfig>> _sysConfig;
-    struct unique_ptr<quasar::ptt::PronunciationRecognizer, std::default_delete<quasar::ptt::PronunciationRecognizer>> _recognizer;
 }
 
 - (id);

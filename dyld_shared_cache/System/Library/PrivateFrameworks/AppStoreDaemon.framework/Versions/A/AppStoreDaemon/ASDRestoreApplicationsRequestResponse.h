@@ -11,10 +11,9 @@
 @interface ASDRestoreApplicationsRequestResponse : ASDRequestResponse
 {
     _Bool success;
-    NSArray *_results;
 }
 
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);

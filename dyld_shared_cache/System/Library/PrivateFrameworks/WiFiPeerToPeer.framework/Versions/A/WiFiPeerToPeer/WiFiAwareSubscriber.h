@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, WiFiAwareSubscribeConfiguration, WiFiP2PXPCConnection;
+@class WiFiP2PXPCConnection;
 @protocol WiFiAwareSubscriberDelegate;
 
 @interface WiFiAwareSubscriber
 {
     WiFiP2PXPCConnection *_xpcConnection;
-    NSNumber *_subscribeID;
-    id <WiFiAwareSubscriberDelegate> _delegate;
-    WiFiAwareSubscribeConfiguration *_configuration;
 }
 
 - (void);
@@ -32,24 +29,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)0:(id)arg1 8;
+- (void)B;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) WiFiAwareSubscribeConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WiFiAwareSubscriberDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

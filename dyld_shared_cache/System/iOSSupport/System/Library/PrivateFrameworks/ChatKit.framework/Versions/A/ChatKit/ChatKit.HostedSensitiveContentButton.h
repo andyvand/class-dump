@@ -7,9 +7,6 @@
 @interface ChatKit.HostedSensitiveContentButton
 {
     id didShowContentHandler;
-    id didAskForMoreHelp;
-    id didBlockHandler;
-    id style;
 }
 
 - (void);

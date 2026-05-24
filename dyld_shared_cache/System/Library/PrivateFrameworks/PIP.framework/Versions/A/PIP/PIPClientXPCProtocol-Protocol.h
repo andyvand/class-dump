@@ -5,5 +5,6 @@
 //
 
 @protocol PIPClientXPCProtocol
+- (void);
 @end
 

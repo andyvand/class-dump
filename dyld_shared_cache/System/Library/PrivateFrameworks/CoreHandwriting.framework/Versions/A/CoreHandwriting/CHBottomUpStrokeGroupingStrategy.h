@@ -6,41 +6,14 @@
 
 #import <CoreHandwriting/CHStrokeGroupingStrategy.h>
 
-@class NSArray, NSString;
-
 @interface CHBottomUpStrokeGroupingStrategy : CHStrokeGroupingStrategy
 {
     struct CGVector _defaultOrientationVector;
-    struct CGVector _defaultDeviationVector;
-    long long _textStrokeClassification;
-    NSString *_strategyIdentifier;
-    double _strokeDeviationCapCoeff;
-    double _groupingMergingCostThresh;
-    double _groupingMergingEndCostLowThresh;
-    double _groupingSimilarCostThresh;
-    long long _groupingContextSize;
-    double _mergeEndDxCostCoeff;
-    double _mergeEndDyCostCoeff;
-    double _mergeEndBelowModifier;
-    double _mergeEndLeftModifier;
-    double _mergeMiddleDxCostCoeff;
-    double _mergeMiddleDyCostCoeff;
-    double _mergeMiddleBelowModifier;
-    long long _splitMinimumStrokeCount;
-    long long _splitMaxNaturalIndexDiffThreshold;
-    _Bool _shouldLimitDefaultWritingOrientationDeviation;
-    _Bool _shouldAdjustDeviationOfSmallGroups;
-    _Bool _shouldCoalesceLastSubstrokes;
-    _Bool _containsCJKLocale;
-    _Bool _containsNonCJKLocale;
-    _Bool _containsVeryComplexCharacters;
-    _Bool _isInlineContinuousMode;
-    NSArray *_textInputTargets;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -60,14 +33,13 @@
 - (void);
 - (long long);
 - (struct CGVector);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInlineContinuousMode; // @synthesize isInlineContinuousMode=_isInlineContinuousMode;
-@property(readonly, nonatomic) NSArray *textInputTargets; // @synthesize textInputTargets=_textInputTargets;
 
 @end
 

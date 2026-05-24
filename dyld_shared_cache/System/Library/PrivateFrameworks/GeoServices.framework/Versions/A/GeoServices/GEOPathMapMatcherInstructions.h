@@ -9,37 +9,35 @@
 @interface GEOPathMapMatcherInstructions
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_noMatchs;
 }
 
-+ (Class);
-+ (_Bool)iateMuids:(id)arg1;
-- (void);
++ (Class)s now undefined.;
++ (_Bool)setIntermediateMuids:(id)arg1;
+- (void)dateWithYear:(id)arg1 month:day:hour:minute:second:timeZone: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)l	;
 - (void);
 - (void);
-- (void);
+- (void)model for %{public}@ (or default);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)onPayloadField";
-- (id)pHint: /* Error: Ran out of types for this method. */;
+- (id)_stepForRouteCoordinate:stepHint: /* Error: Ran out of types for this method. */;
 - (id)ðð;
-- (id);
+- (id)INFO_DIRECTIONS_WALK;
 - (void)|þìGöJ@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *noMatchs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

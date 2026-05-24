@@ -9,12 +9,6 @@
 @interface GEOEnrichmentInfo
 {
     GEOPDEnrichmentInfo *_enrichmentInfo;
-    NSString *_sourceName;
-    NSString *_sourceId;
-    NSString *_showcaseId;
-    NSString *_showcaseSharingTitle;
-    NSString *_showcaseSharingSubtitle;
-    NSString *_showcaseSharingImageUrl;
 }
 
 - (id);
@@ -25,17 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id)asSprLandmarkIcon:(struct _NSZone *)arg1;
+- (_Bool);
+- (id)setHasSprLandmarkIcon:(struct _NSZone *)arg1;
 - (id)9t,@;
 - (void)°Õþq;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *showcaseId; // @synthesize showcaseId=_showcaseId;
-@property(readonly, nonatomic) NSString *showcaseSharingImageUrl; // @synthesize showcaseSharingImageUrl=_showcaseSharingImageUrl;
-@property(readonly, nonatomic) NSString *showcaseSharingSubtitle; // @synthesize showcaseSharingSubtitle=_showcaseSharingSubtitle;
-@property(readonly, nonatomic) NSString *showcaseSharingTitle; // @synthesize showcaseSharingTitle=_showcaseSharingTitle;
-@property(readonly, nonatomic) NSString *sourceId; // @synthesize sourceId=_sourceId;
 @property(readonly, nonatomic) NSString *sourceName; // @synthesize sourceName=_sourceName;
 
 @end

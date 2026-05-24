@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUPixelFormat;
-
 @protocol NUBuffer
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly, nonatomic) long long rowBytes;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

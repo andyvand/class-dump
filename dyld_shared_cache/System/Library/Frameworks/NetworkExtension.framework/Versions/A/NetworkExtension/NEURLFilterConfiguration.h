@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface NEURLFilterConfiguration
 {
     _Bool _enabled;
-    _Bool _shouldFailClosed;
-    _Bool _pirPrivacyProxyFailOpen;
-    _Bool _pirSkipRegistration;
-    NSString *_appBundleIdentifier;
-    NSString *_controlProviderBundleIdentifier;
-    double _prefilterFetchInterval;
-    NSURL *_pirServerURL;
-    NSURL *_pirPrivacyPassIssuerURL;
-    NSString *_pirAuthenticationToken;
-    NSString *_controlProviderDesignatedRequirement;
-    NSString *_pirGroupName;
-    NSString *_pirUseCase;
 }
 
-+ (_Bool);
++ (_Bool)setTestableLink:forLinkWithUniqueID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -31,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,34 +34,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)SFSecurityScopedURL;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void)16;
-- (_Bool)fiers:(id)arg1;
+- (_Bool)setMatchAccountIdentifiers:(id)arg1;
 - (id)lPacket(Exchange) createDeleteIKE];
 
 // Remaining properties
-@property(copy) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(copy) NSString *controlProviderBundleIdentifier; // @synthesize controlProviderBundleIdentifier=_controlProviderBundleIdentifier;
-@property(copy) NSString *controlProviderDesignatedRequirement; // @synthesize controlProviderDesignatedRequirement=_controlProviderDesignatedRequirement;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NSString *pirAuthenticationToken; // @synthesize pirAuthenticationToken=_pirAuthenticationToken;
 @property(copy) NSString *pirGroupName; // @synthesize pirGroupName=_pirGroupName;
-@property(copy) NSURL *pirPrivacyPassIssuerURL; // @synthesize pirPrivacyPassIssuerURL=_pirPrivacyPassIssuerURL;
-@property _Bool pirPrivacyProxyFailOpen; // @synthesize pirPrivacyProxyFailOpen=_pirPrivacyProxyFailOpen;
-@property(copy) NSURL *pirServerURL; // @synthesize pirServerURL=_pirServerURL;
-@property _Bool pirSkipRegistration; // @synthesize pirSkipRegistration=_pirSkipRegistration;
-@property(copy) NSString *pirUseCase; // @synthesize pirUseCase=_pirUseCase;
-@property double prefilterFetchInterval; // @synthesize prefilterFetchInterval=_prefilterFetchInterval;
-@property(getter=shouldFailClosed) _Bool shouldFailClosed; // @synthesize shouldFailClosed=_shouldFailClosed;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData, NSString;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface PGSchemaPGModelInferenceFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    NSString *_modelIdentifier;
-    _Bool _hasCriticalError;
-    _Bool _hasModelIdentifier;
 }
 
 - (void);
@@ -23,28 +20,24 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e] ****** Result from select query:(id)arg1 %d;
 - (id);
 - (id)ÝÐ1Â0@ù
 × ;
-- (id)taReported;
+- (id)_hasPlusSuggesterSuggestionMetadataReported;
 - (id)ndidateIdentifier;
-- (void)nseGenerated;
+- (void)responseGenerated;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(nonatomic) _Bool hasModelIdentifier; // @synthesize hasModelIdentifier=_hasModelIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol AMSUIEngagementTaskHostInterface
+- (void)@);
+- (void)B24;
 @end
 

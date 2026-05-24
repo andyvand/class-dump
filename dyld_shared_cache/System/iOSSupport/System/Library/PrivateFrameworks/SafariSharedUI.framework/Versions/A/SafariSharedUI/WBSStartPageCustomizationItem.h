@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-
 @interface WBSStartPageCustomizationItem
 {
     _Bool _enabled;
-    id _identifier;
-    NSString *_title;
-    UIImage *_icon;
 }
 
 + (id);
@@ -21,14 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)ari_addObjectUnlessNil: /* Error: Ran out of types for this method. */;
+- (id)presentationControllerShouldDismiss: /* Error: Ran out of types for this method. */;
+- (void)safari_addObjectUnlessNil: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) UIImage *icon; // @synthesize icon=_icon;
 @property(readonly, nonatomic) id identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

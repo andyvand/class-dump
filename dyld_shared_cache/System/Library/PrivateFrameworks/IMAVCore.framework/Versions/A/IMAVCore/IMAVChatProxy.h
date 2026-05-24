@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSDictionary, NSString;
 
 @interface IMAVChatProxy
 {
@@ -32,14 +32,14 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)status-%@;
+- (void)pple.diagnosticextensionsd-get-status-%@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -49,42 +49,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)]:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)N13SERestoreInfo18P73BaseRestoreInfoE;
 - (_Bool);
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (id);
+- (id)w;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *GUID;
-@property(readonly, nonatomic) NSString *conferenceID;
-@property(nonatomic) double connectionTimeoutTime;
-@property(readonly, nonatomic) NSNumber *dataDownloaded;
-@property(readonly, nonatomic) NSNumber *dataUploaded;
-@property(readonly, nonatomic) NSDate *dateConnected;
-@property(readonly, nonatomic) NSDate *dateEnded;
-@property(readonly, nonatomic) int endedError;
-@property(readonly, nonatomic) unsigned int endedReason;
-@property(readonly, nonatomic) _Bool hasReceivedFirstFrame;
-@property(readonly, nonatomic) IMHandle *initiatorIMHandle;
-@property(nonatomic) double invitationTimeoutTime;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isCaller;
-@property(nonatomic, setter=setMute:) _Bool isMute;
-@property(nonatomic) _Bool isSendingAudio;
-@property(nonatomic) _Bool isSendingVideo;
-@property(readonly, nonatomic) _Bool isStateFinal;
-@property(readonly, nonatomic) _Bool isVideo;
-@property(readonly, nonatomic) IMHandle *otherIMHandle;
-@property(nonatomic, getter=isRelayed) _Bool relayed;
-@property(readonly, nonatomic) NSArray *remoteParticipants;
-@property(readonly, nonatomic) unsigned int sessionID;
-@property(readonly, nonatomic) unsigned int state;
 
 @end
 

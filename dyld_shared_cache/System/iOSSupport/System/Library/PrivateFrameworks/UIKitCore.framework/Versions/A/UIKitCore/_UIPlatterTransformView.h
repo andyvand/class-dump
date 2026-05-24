@@ -6,21 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UITargetedPreview, _UIMorphingPlatterBackgroundCaptureView, _UIPortalView;
+@class _UIPortalView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPlatterTransformView : UIView
 {
     _Bool _hidesSourceView;
-    _Bool _forwardsHitTestingToSourceView;
-    _Bool _matchesAlpha;
-    _Bool _appliesMinificationFilter;
-    _Bool _allowsUserInteraction;
-    _Bool _shouldTakeOwnershipOfSourceView;
-    UITargetedPreview *_sourcePreview;
-    _UIPortalView *_portalView;
-    _UIPortalView *_backgroundPortalView;
-    _UIMorphingPlatterBackgroundCaptureView *_backgroundCaptureView;
 }
 
 - (id);
@@ -33,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)shouldFilterIncomingMessages;
+- (void)requestExpireStateWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)fileURLWithPath: /* Error: Ran out of types for this method. */;
+- (id)fileTransfer:rejectedWithProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)enableAttachmentMetricCollection;
+- (_Bool)deleteAllPersonalNicknames:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_processAssetFetchOperationCompletionBlock:removeTombstones:operationID:error: /* Error: Ran out of types for this method. */;
+- (_Bool)ansfer Guid %@ for Message with %@ is not yet complete, no retries remain ;
 - (id);
 - (void);
 - (_Bool);
@@ -49,23 +40,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!Aùd°1Â0@ù
 × ;
-- (id)offData;
+- (id)_handoffData;
 - (void)PÔ ;
 - (_Bool)u, %lu) withLanguage:%@ /* Error: Ran out of types for this method. */;
 - (void)FormattingDescriptor;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsUserInteraction; // @synthesize allowsUserInteraction=_allowsUserInteraction;
-@property(nonatomic) _Bool appliesMinificationFilter; // @synthesize appliesMinificationFilter=_appliesMinificationFilter;
-@property(retain, nonatomic) _UIMorphingPlatterBackgroundCaptureView *backgroundCaptureView; // @synthesize backgroundCaptureView=_backgroundCaptureView;
-@property(retain, nonatomic) _UIPortalView *backgroundPortalView; // @synthesize backgroundPortalView=_backgroundPortalView;
-@property(nonatomic) _Bool forwardsHitTestingToSourceView; // @synthesize forwardsHitTestingToSourceView=_forwardsHitTestingToSourceView;
-@property(nonatomic) _Bool hidesSourceView; // @synthesize hidesSourceView=_hidesSourceView;
-@property(nonatomic) _Bool matchesAlpha; // @synthesize matchesAlpha=_matchesAlpha;
 @property(retain, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(nonatomic) _Bool shouldTakeOwnershipOfSourceView; // @synthesize shouldTakeOwnershipOfSourceView=_shouldTakeOwnershipOfSourceView;
-@property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
-@property(readonly, nonatomic) UIView *sourceView;
 
 @end
 

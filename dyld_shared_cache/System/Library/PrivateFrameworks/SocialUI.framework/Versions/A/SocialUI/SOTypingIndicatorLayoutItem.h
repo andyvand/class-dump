@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTranscriptChatItem, NSString;
+@class IMTranscriptChatItem;
 
 @interface SOTypingIndicatorLayoutItem
 {
@@ -19,19 +19,10 @@
 - (void);
 - (long long);
 - (void);
-- (long long)der;
+- (long long)placeholder;
 
 // Remaining properties
 @property(retain, nonatomic) IMTranscriptChatItem *chatTranscriptItem; // @synthesize chatTranscriptItem=_chatTranscriptItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long layoutClassification;
-@property(readonly, nonatomic) long long layoutOrientation;
-@property(readonly) Class superclass;
 
 @end
 

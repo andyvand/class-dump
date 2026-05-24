@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObjectAssetActionManager, PXCMMSession;
+@class CKMediaObjectAssetActionManager;
 
 __attribute__((visibility("hidden")))
 @interface CKCMMAssetActionManager
 {
     _Bool _presentedFromInlineReply;
-    CKMediaObjectAssetActionManager *_messagesAssetActionManager;
-    id _photosAssetActionManager;
-    PXCMMSession *_session;
 }
 
 + (id);
@@ -24,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id){;
+- (_Bool)I;
 - (unsigned long long);
 - (id);
+- (id)u;
+- (void)ple.notes.thumbnail-service-scheduler;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -45,9 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObjectAssetActionManager *messagesAssetActionManager; // @synthesize messagesAssetActionManager=_messagesAssetActionManager;
-@property(retain, nonatomic) id photosAssetActionManager; // @synthesize photosAssetActionManager=_photosAssetActionManager;
-@property(nonatomic) _Bool presentedFromInlineReply; // @synthesize presentedFromInlineReply=_presentedFromInlineReply;
-@property(retain, nonatomic) PXCMMSession *session; // @synthesize session=_session;
 
 @end
 

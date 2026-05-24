@@ -8,9 +8,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long arrayLength;
-@property(readonly, getter=isDepthTexture) _Bool depthTexture;
-@property(readonly) unsigned long long textureDataType;
 @property(readonly) unsigned long long textureType;
 @end
 

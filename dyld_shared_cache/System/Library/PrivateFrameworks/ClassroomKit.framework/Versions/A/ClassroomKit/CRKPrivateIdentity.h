@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData, NSDate;
 
 @interface CRKPrivateIdentity
 {
     NSData *_identityPersistentId;
-    NSData *_stagedIdentityPersistentId;
-    NSString *_commonNamePrefix;
-    NSDate *_identityExpirationDate;
-    NSDate *_stagedIdentityExpirationDate;
 }
 
 + (id);
@@ -35,17 +31,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)J;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *commonNamePrefix; // @synthesize commonNamePrefix=_commonNamePrefix;
 @property(retain, nonatomic) NSDate *identityExpirationDate; // @synthesize identityExpirationDate=_identityExpirationDate;
-@property(retain, nonatomic) NSData *identityPersistentId; // @synthesize identityPersistentId=_identityPersistentId;
-@property(retain, nonatomic) NSDate *stagedIdentityExpirationDate; // @synthesize stagedIdentityExpirationDate=_stagedIdentityExpirationDate;
-@property(retain, nonatomic) NSData *stagedIdentityPersistentId; // @synthesize stagedIdentityPersistentId=_stagedIdentityPersistentId;
 
 @end
 

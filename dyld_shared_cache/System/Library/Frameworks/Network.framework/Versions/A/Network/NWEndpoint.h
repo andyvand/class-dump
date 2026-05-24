@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, NWInterface;
+@class NSObject;
 @protocol OS_nw_endpoint;
 
 @interface NWEndpoint
@@ -12,8 +12,8 @@
     NSObject<OS_nw_endpoint> *_internalEndpoint;
 }
 
-+ (id);
-+ (_Bool);
++ (id)viewHostViewController _startLocalEventMonitor];
++ (_Bool);
 + (id);
 + (id);
 + (Class);
@@ -22,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (long long);
 - (id);
 - (id);
@@ -30,12 +30,12 @@
 - (id);
 - (unsigned short);
 - (id);
+- (id)II[0I]};
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id)URLWithString:(struct _NSZone *)arg1;
@@ -45,13 +45,7 @@
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) unsigned short alternatePort;
-@property(retain, nonatomic) NWInterface *interface;
 @property(retain, nonatomic) NSObject<OS_nw_endpoint> *internalEndpoint; // @synthesize internalEndpoint=_internalEndpoint;
-@property(readonly, nonatomic) NSString *parentEndpointDomain;
-@property(readonly, copy, nonatomic) NSString *privateDescription;
-@property(nonatomic) long long remoteInterfaceType;
-@property(retain, nonatomic) NSData *txtRecord;
 
 @end
 

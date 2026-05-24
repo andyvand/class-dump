@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDDocument, WDListLevel;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDListLevelOverride
 {
     WDDocument *mDocument;
-    WDListLevel *mListLevel;
-    unsigned char mLevel;
-    long long mStartNumber;
-    _Bool mStartNumberOverridden;
 }
 
 - (long long);

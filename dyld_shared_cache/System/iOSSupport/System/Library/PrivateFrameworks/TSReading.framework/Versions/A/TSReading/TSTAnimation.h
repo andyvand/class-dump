@@ -9,73 +9,42 @@
 @interface TSTAnimation
 {
     TSTLayout *mLayout;
-    int mKind;
-    CDStruct_5f1f7aa9 *mCellRanges;
-    unsigned long long mCellRangeCount;
-    unsigned long long mStageCount;
-    unsigned long long mStage;
-    _Bool mFinal;
-    _Bool mByColumn;
-    _Bool mByRow;
-    _Bool mByCell;
-    _Bool mByContent;
-    _Bool mByCellRange;
-    _Bool mByMissingCellRange;
-    _Bool mReverse;
-    _Bool mShowsTableChrome;
-    _Bool mShowsOverlayLayers;
-    _Bool mExpandBackgroundFill;
-    _Bool mDrawsBlackAndWhite;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)D;
 + (_Bool);
 + (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)previousItemAssetType;
+- (_Bool)r in first audio frame event can't be nil;
+- (_Bool)checkpointFirstAudioFrame;
+- (void)not valid;
+- (void)nt.;
+- (void)o establish remote control connection to the remote endpoint.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)AVMusicAppBehavior;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (CDStruct_5f1f7aa9);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (unsigned long long);
+- (CDStruct_f5d1269f)x;
 - (void);
+- (_Bool)~-;
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (void)#;
 - (id);
 - (_Bool)Ñð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) unsigned long long cellRangeCount;
-@property(readonly) _Bool clipStrokes;
-@property(readonly) _Bool drawCellBackground;
-@property(readonly) _Bool drawCellContent;
-@property(readonly) _Bool drawStrokes;
-@property(readonly) _Bool drawTableBackground;
-@property(readonly) _Bool drawTableName;
-@property _Bool drawsBlackAndWhite; // @synthesize drawsBlackAndWhite=mDrawsBlackAndWhite;
-@property(readonly) _Bool enabled;
-@property _Bool expandBackgroundFill; // @synthesize expandBackgroundFill=mExpandBackgroundFill;
-@property(readonly) _Bool final; // @synthesize final=mFinal;
-@property _Bool showsOverlayLayers; // @synthesize showsOverlayLayers=mShowsOverlayLayers;
-@property _Bool showsTableChrome; // @synthesize showsTableChrome=mShowsTableChrome;
-@property(readonly) unsigned long long stage; // @synthesize stage=mStage;
 @property(readonly) unsigned long long stageCount; // @synthesize stageCount=mStageCount;
 
 @end

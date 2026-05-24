@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineCategoriesPickerBlueprintViewCellProvider
 {
     id delegate;
-    id categoryViewRenderer;
-    id feedItemRenderer;
-    id selectedCategory;
 }
 
 @end

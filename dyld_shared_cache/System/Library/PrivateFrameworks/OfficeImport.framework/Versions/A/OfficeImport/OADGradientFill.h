@@ -6,37 +6,31 @@
 
 #import <OfficeImport/OADFill.h>
 
-@class NSArray, OADRelativeRect, OADShade;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface OADGradientFill : OADFill
 {
     NSArray *mStops;
-    OADRelativeRect *mTileRect;
-    int mFlipMode;
-    _Bool mIsFlipModeOverridden;
-    _Bool mRotateWithShape;
-    _Bool mIsRotateWithShapeOverridden;
-    OADShade *mShade;
 }
 
-+ (id);
++ (id)Y;
 + (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@y;
 - (int);
 - (void);
 - (id);

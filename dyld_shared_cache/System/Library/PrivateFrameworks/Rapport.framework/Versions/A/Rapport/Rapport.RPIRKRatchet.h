@@ -7,15 +7,11 @@
 @interface Rapport.RPIRKRatchet
 {
     id startDate;
-    id locallyPermanent;
-    id sameAccountDevices;
-    id managedAccounts;
-    id contacts;
 }
 
 + (id);
 - (id);
-- (id);
+- (id))2i*;
 - (void);
 
 @end

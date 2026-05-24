@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate;
-
 @interface STDowntimeConfiguration
 {
     long long _currentState;
-    NSDate *_currentDate;
-    long long _nextState;
-    NSDate *_nextStateChangeDate;
-    NSCalendar *_calendar;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)item_store.item_pid = item.item_pid);
+- (id)pending_genius_checksum, category_id, location_kind_id, version, display_version) SELECT item_pid, title, sort_title, disc_count, track_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,15 +19,11 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (id)shield_authentication;
+- (void)	;
+- (id)harden_shield_authentication;
 
 // Remaining properties
-@property(readonly, copy) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, copy) NSDate *currentDate; // @synthesize currentDate=_currentDate;
 @property(readonly) long long currentState; // @synthesize currentState=_currentState;
-@property(readonly) long long nextState; // @synthesize nextState=_nextState;
-@property(readonly, copy) NSDate *nextStateChangeDate; // @synthesize nextStateChangeDate=_nextStateChangeDate;
 
 @end
 

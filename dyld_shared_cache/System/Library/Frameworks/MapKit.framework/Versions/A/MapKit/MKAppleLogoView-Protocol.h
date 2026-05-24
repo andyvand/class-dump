@@ -5,6 +5,7 @@
 //
 
 @protocol MKAppleLogoView
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double bottomLayoutAdjustment;

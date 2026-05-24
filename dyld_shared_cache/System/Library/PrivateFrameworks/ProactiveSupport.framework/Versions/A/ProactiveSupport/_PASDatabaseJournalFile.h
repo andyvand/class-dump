@@ -9,32 +9,25 @@
 @interface _PASDatabaseJournalFile
 {
     NSString *_path;
-    unsigned long long _len;
-    unsigned long long _readCursor;
-    int _fd;
-    _Bool _written;
-    _Bool _dead;
 }
 
-- (_Bool);
+- (_Bool)ic iCloud;
+- (void)rsonalizationHelperTssResponse:updaterName:] /* Error: Ran out of types for this method. */;
+- (_Bool)ARPControllerXPC updateProperty:value:forAccessory:] /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)dating object IDs from daemon:%@ /* Error: Ran out of types for this method. */;
+- (void)rying to import. Aborting import.;
+- (id);
+- (unsigned long long)CalDAVScheduleResponseDetailsItem;
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)wasn't a string as expected:%@ /* Error: Ran out of types for this method. */;
+- (void)setLoctype: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAlive;
 @property(readonly, nonatomic) _Bool isFullyRead;
-@property(readonly, nonatomic) unsigned long long length;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSUUID;
+@class NSDate;
 
 @interface PCSMTT
 {
     _Bool _returnedExistingIdentity;
-    NSDate *_startTime;
-    NSMutableArray *_completedPoints;
-    NSUUID *_parentUUID;
-    NSUUID *_UUID;
-    double _time;
 }
 
 + (_Bool);
@@ -23,30 +18,25 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)j8;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)W;
 - (void);
 - (void);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)is not allowed.;
 
 // Remaining properties
-@property(readonly) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain) NSMutableArray *completedPoints; // @synthesize completedPoints=_completedPoints;
-@property(readonly) NSUUID *parentUUID; // @synthesize parentUUID=_parentUUID;
-@property _Bool returnedExistingIdentity; // @synthesize returnedExistingIdentity=_returnedExistingIdentity;
 @property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) double time; // @synthesize time=_time;
 
 @end
 

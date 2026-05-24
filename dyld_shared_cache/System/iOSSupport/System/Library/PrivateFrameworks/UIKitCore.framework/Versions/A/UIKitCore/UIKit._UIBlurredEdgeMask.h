@@ -9,16 +9,12 @@
 @interface UIKit._UIBlurredEdgeMask : UIView
 {
     id region;
-    id radius;
-    id sourceView;
-    id $__lazy_storage_$_blurredPortal;
-    id $__lazy_storage_$_punchPortal;
 }
 
 - (void);
 - (void);
-- (id);
-- (id)SceneRequestOptionsFactory;
+- (id)@ ae;
+- (id)_UIWorkspaceSceneRequestOptionsFactory;
 - (void);
 - (void)ÚÖÜ$ül;
 

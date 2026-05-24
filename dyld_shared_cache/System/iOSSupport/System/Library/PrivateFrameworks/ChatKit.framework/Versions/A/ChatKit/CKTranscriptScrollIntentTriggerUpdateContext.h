@@ -7,7 +7,6 @@
 @interface CKTranscriptScrollIntentTriggerUpdateContext
 {
     long long _contentOffsetScrollIntent;
-    long long _currentScrollIntent;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentOffsetScrollIntent; // @synthesize contentOffsetScrollIntent=_contentOffsetScrollIntent;
-@property(readonly, nonatomic) long long currentScrollIntent; // @synthesize currentScrollIntent=_currentScrollIntent;
 
 @end
 

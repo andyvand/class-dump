@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKProtobufPaymentMethod;
+@class NSString;
 
 @interface PKProtobufPaymentToken
 {
     NSString *_instrumentName;
-    NSString *_network;
-    NSData *_paymentData;
-    PKProtobufPaymentMethod *_paymentMethod;
-    NSString *_redeemURL;
-    NSString *_retryNonce;
-    NSString *_transactionIdentifier;
 }
 
 - (void);
@@ -27,8 +21,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)k!;
+- (_Bool)9J;
 - (void);
 - (id);
 - (void);
@@ -45,25 +39,12 @@
 - (void);
 - (id);
 - (id);
-- (id)ing;
+- (id)_requiresSimultaneousRequestRouting;
 - (void),V_archived;
-- (void)CAR_TRANSACTION_LIST_FARE_ADJUSTMENT;
+- (void)GREEN_CAR_TRANSACTION_LIST_FARE_ADJUSTMENT;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasInstrumentName;
-@property(readonly, nonatomic) _Bool hasNetwork;
-@property(readonly, nonatomic) _Bool hasPaymentData;
 @property(readonly, nonatomic) _Bool hasPaymentMethod;
-@property(readonly, nonatomic) _Bool hasRedeemURL;
-@property(readonly, nonatomic) _Bool hasRetryNonce;
-@property(readonly, nonatomic) _Bool hasTransactionIdentifier;
-@property(retain, nonatomic) NSString *instrumentName; // @synthesize instrumentName=_instrumentName;
-@property(retain, nonatomic) NSString *network; // @synthesize network=_network;
-@property(retain, nonatomic) NSData *paymentData; // @synthesize paymentData=_paymentData;
-@property(retain, nonatomic) PKProtobufPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(retain, nonatomic) NSString *redeemURL; // @synthesize redeemURL=_redeemURL;
-@property(retain, nonatomic) NSString *retryNonce; // @synthesize retryNonce=_retryNonce;
-@property(retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

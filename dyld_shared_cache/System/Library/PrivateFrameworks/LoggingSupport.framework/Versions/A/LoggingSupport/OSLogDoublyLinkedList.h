@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OSLogDoublyLinkedListNode;
-
 __attribute__((visibility("hidden")))
 @interface OSLogDoublyLinkedList
 {
     unsigned long long _count;
-    OSLogDoublyLinkedListNode *head;
-    OSLogDoublyLinkedListNode *tail;
 }
 
 - (void);
-- (id);
+- (id){;
 - (void);
 - (id);
 - (void);
@@ -28,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(retain, nonatomic) OSLogDoublyLinkedListNode *head; // @synthesize head;
-@property(retain, nonatomic) OSLogDoublyLinkedListNode *tail; // @synthesize tail;
 
 @end
 

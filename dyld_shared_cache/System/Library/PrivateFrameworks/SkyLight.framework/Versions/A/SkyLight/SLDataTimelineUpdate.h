@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SLDataTimelineConnection, SLDataTimelineSnapshotCollection;
-@protocol SLDataTimelineConnection;
+@class SLDataTimelineConnection;
 
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineUpdate
 {
     SLDataTimelineConnection *_connection;
-    _Bool _collectionClaimed;
-    unsigned int _action;
-    SLDataTimelineSnapshotCollection *_collection;
 }
 
-+ (id);
-- (unsigned long long);
-- (void);
++ (id)e = '%@';
+- (unsigned long long)statusNum;
+- (void)ecord:(_Bool)arg1 withMetadata:] /* Error: Ran out of types for this method. */;
 - (double);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (unsigned long long)SELECT Z_PK FROM %@ WHERE %@ = ?;
+- (double)ARCHAR;
+- (unsigned long long)me = 'ZTRANSACTION';
+- (id)te=0;
+- (_Bool)Synchronous;
+- (id)[31m[47mERROR:[0m[31m (%d) %@[0m /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned int);
@@ -33,15 +29,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int action; // @synthesize action=_action;
-@property(readonly, nonatomic) SLDataTimelineSnapshotCollection *collection; // @synthesize collection=_collection;
 @property(nonatomic) _Bool collectionClaimed; // @synthesize collectionClaimed=_collectionClaimed;
-@property(readonly, nonatomic) id <SLDataTimelineConnection> connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) unsigned long long newestSnapshotIndex;
-@property(readonly, nonatomic) double newestSnapshotTimestamp;
-@property(readonly, nonatomic) unsigned long long oldestSnapshotIndex;
-@property(readonly, nonatomic) double oldestSnapshotTimestamp;
-@property(readonly, nonatomic) unsigned long long snapshotCount;
 
 @end
 

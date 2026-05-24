@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     _UIVisualEffectViewEntry *_destinationEntry;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)±fÐ1Â0@ù
 × ;
-- (void)GroupedBackgroundColor;
+- (void)_tertiarySystemGroupedBackgroundColor;
 - (_Bool);
-- (void)imationImages;
+- (void)UIHighlightedAnimationImages;
 - (id)gLibrary(void);
 - (void)ScenePlacementP;
 

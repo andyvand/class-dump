@@ -16,9 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int exifOrientation;
 @property(readonly, nonatomic) struct CGImage *image;
-@property(readonly, nonatomic) struct CGSize physicalSizeInMeters;
 
 @end
 

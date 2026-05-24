@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MKCompassViewSizeParameter
 {
     NSString *_imageNamePart;
-    double _diameter;
-    UIFont *_font;
 }
 
 - (void);
@@ -20,11 +18,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (void)omArrowMask:speed: /* Error: Ran out of types for this method. */;
+- (void)handleZoomArrowMask:speed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double diameter; // @synthesize diameter=_diameter;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 @property(copy, nonatomic) NSString *imageNamePart; // @synthesize imageNamePart=_imageNamePart;
 
 @end

@@ -11,9 +11,6 @@ __attribute__((visibility("hidden")))
 @interface SOClassicDictationWindow
 {
     NSView<SOClassicDictationBackgroundProtocol> *_backgroundView;
-    double _orderInAnimationDuration;
-    double _orderOutAnimationDuration;
-    long long _orderInAnimationType;
 }
 
 + (struct CGPoint);
@@ -21,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (long long);
 - (double);
-- (unsigned long long);
+- (unsigned long long)N8cnmatrix8CNMatrixILj7ELj1EiEE;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -32,15 +29,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (float);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) double orderInAnimationDuration; // @synthesize orderInAnimationDuration=_orderInAnimationDuration;
-@property(nonatomic) long long orderInAnimationType; // @synthesize orderInAnimationType=_orderInAnimationType;
-@property(nonatomic) double orderOutAnimationDuration; // @synthesize orderOutAnimationDuration=_orderOutAnimationDuration;
 
 @end
 

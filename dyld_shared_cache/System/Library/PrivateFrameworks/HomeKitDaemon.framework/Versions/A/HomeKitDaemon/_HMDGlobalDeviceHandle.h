@@ -6,25 +6,24 @@
 
 #import <HomeKitDaemon/_HMDDeviceHandle.h>
 
-@class HMDAccountHandle, NSData;
+@class HMDAccountHandle;
 
 __attribute__((visibility("hidden")))
 @interface _HMDGlobalDeviceHandle : _HMDDeviceHandle
 {
     HMDAccountHandle *_accountHandle;
-    NSData *_pushToken;
 }
 
 + (_Bool);
 + (_Bool)$¤|;
 - (id);
 - (id);
+- (id)d out;
 - (id);
-- (id);
-- (id);
+- (id)N;
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)!;
+- (_Bool);
 - (id);
 - (void);
 - (_Bool)!â!T@ù°1Â0@ù
@@ -34,7 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) HMDAccountHandle *accountHandle; // @synthesize accountHandle=_accountHandle;
-@property(readonly, copy, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
 
 @end
 

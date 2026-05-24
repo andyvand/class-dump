@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface WBSAutoFillQuirksSnapshot
 {
     NSDictionary *_autoFillQuirks;
-    NSArray *_domainsWithAssociatedCredentials;
-    NSDictionary *_passwordRequirementsByDomain;
-    NSDictionary *_passwordRulesByDomain;
-    NSArray *_domainsIneligibleForPasswordAuditing;
-    NSArray *_domainsToConsiderIdentical;
-    NSDictionary *_changePasswordURLsByDomain;
-    NSDictionary *_appIDsToDomainsAssociations;
-    NSSet *_domainsIneligibleForAutomaticLogin;
-    NSSet *_domainsIneligibleForStreamlinedLogin;
-    NSSet *_domainsIneligibleForPasskeys;
-    NSSet *_domainsForPasskeyFallbackUI;
-    NSSet *_domainsThatWhenEmbeddedAsThirdPartyAskForPasswordsForOtherServices;
-    NSSet *_domainsKnownToDoSameDocumentNavigationInTextEditingCallback;
-    NSArray *_knownWebBrowsers;
-    NSArray *_knownExtensionStorefronts;
-    NSString *_importCommit;
 }
 
 - (id);
@@ -42,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@9	;
 - (id);
 - (id);
 - (id);
@@ -59,29 +43,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *appIDsToDomainsAssociations; // @synthesize appIDsToDomainsAssociations=_appIDsToDomainsAssociations;
-@property(readonly, copy, nonatomic) NSDictionary *changePasswordURLsByDomain; // @synthesize changePasswordURLsByDomain=_changePasswordURLsByDomain;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSSet *domainsForPasskeyFallbackUI; // @synthesize domainsForPasskeyFallbackUI=_domainsForPasskeyFallbackUI;
-@property(readonly, copy, nonatomic) NSSet *domainsIneligibleForAutomaticLogin; // @synthesize domainsIneligibleForAutomaticLogin=_domainsIneligibleForAutomaticLogin;
-@property(readonly, copy, nonatomic) NSSet *domainsIneligibleForPasskeys; // @synthesize domainsIneligibleForPasskeys=_domainsIneligibleForPasskeys;
-@property(readonly, copy, nonatomic) NSArray *domainsIneligibleForPasswordAuditing; // @synthesize domainsIneligibleForPasswordAuditing=_domainsIneligibleForPasswordAuditing;
-@property(readonly, copy, nonatomic) NSSet *domainsIneligibleForStreamlinedLogin; // @synthesize domainsIneligibleForStreamlinedLogin=_domainsIneligibleForStreamlinedLogin;
-@property(readonly, copy, nonatomic) NSSet *domainsKnownToDoSameDocumentNavigationInTextEditingCallback; // @synthesize domainsKnownToDoSameDocumentNavigationInTextEditingCallback=_domainsKnownToDoSameDocumentNavigationInTextEditingCallback;
-@property(readonly, copy, nonatomic) NSSet *domainsThatWhenEmbeddedAsThirdPartyAskForPasswordsForOtherServices; // @synthesize domainsThatWhenEmbeddedAsThirdPartyAskForPasswordsForOtherServices=_domainsThatWhenEmbeddedAsThirdPartyAskForPasswordsForOtherServices;
-@property(readonly, copy, nonatomic) NSArray *domainsToConsiderIdentical; // @synthesize domainsToConsiderIdentical=_domainsToConsiderIdentical;
-@property(readonly, copy, nonatomic) NSArray *domainsWithAssociatedCredentials; // @synthesize domainsWithAssociatedCredentials=_domainsWithAssociatedCredentials;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *importCommit; // @synthesize importCommit=_importCommit;
-@property(readonly, copy, nonatomic) NSArray *knownExtensionStorefronts; // @synthesize knownExtensionStorefronts=_knownExtensionStorefronts;
-@property(readonly, copy, nonatomic) NSArray *knownWebBrowsers; // @synthesize knownWebBrowsers=_knownWebBrowsers;
 @property(readonly, copy, nonatomic) NSDictionary *passwordRequirementsByDomain; // @synthesize passwordRequirementsByDomain=_passwordRequirementsByDomain;
-@property(readonly, copy, nonatomic) NSDictionary *passwordRulesByDomain; // @synthesize passwordRulesByDomain=_passwordRulesByDomain;
-@property(readonly) Class superclass;
 
 @end
 

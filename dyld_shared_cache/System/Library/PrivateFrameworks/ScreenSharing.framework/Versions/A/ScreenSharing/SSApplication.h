@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol SSInputEventConsumer;
-
 @interface SSApplication
 {
     unsigned long long mModifierFlags;
-    NSObject<SSInputEventConsumer> *mInputEventConsumer;
-    unsigned long long savedGestureEventMask;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

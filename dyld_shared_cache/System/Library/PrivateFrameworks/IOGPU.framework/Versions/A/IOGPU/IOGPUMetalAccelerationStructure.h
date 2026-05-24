@@ -6,19 +6,16 @@
 
 #import <IOGPU/IOGPUMetalResource.h>
 
-@class IOGPUMetalBuffer, MTLAccelerationStructureDescriptor, NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
+@class IOGPUMetalBuffer;
+@protocol MTLBuffer;
 
 @interface IOGPUMetalAccelerationStructure : IOGPUMetalResource
 {
     IOGPUMetalBuffer<MTLBuffer> *_buffer;
-    unsigned long long _bufferOffset;
-    MTLAccelerationStructureDescriptor *_descriptor;
-    unsigned long long _resourceIndex;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -27,41 +24,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (struct MTLResourceID);
+- (unsigned long long)E;
+- (struct MTLResourceID)VarFormatCurrency;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id)>_virtualAddress;
 - (void)ÿÍ°;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accelerationStructureUniqueIdentifier;
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly, nonatomic) IOGPUMetalBuffer<MTLBuffer> *buffer;
-@property(readonly, nonatomic) unsigned long long bufferOffset;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MTLAccelerationStructureDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long uniqueIdentifier;
 
 @end

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface STEyeReliefChangedCoreAnalyticsEvent
 {
     _Bool _eyeReliefEnabled;
 }
 
 + (id);
-- (id);
-- (_Bool);
+- (id)0, match_redownload_params TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (_Bool)representative_item_pid, artist_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, representative_item_pid, artist_artwork_cache_id, keep_local, keep_local_status FROM item_artist;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool eyeReliefEnabled; // @synthesize eyeReliefEnabled=_eyeReliefEnabled;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 
 @end
 

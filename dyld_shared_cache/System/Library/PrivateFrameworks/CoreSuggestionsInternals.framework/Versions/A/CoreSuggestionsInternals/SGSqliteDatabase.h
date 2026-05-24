@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGSqliteDatabaseImpl, SGSqliteDatabaseSharedLock;
+@class SGSqliteDatabaseImpl;
 
 @interface SGSqliteDatabase
 {
     SGSqliteDatabaseImpl *_impl;
-    unsigned long long _lastBusyWaitEnded;
-    SGSqliteDatabaseSharedLock *_sharedWriterLock;
-    _Bool _usesDataProtection;
 }
 
-+ (id);
-+ (int);
-+ (int);
-+ (int);
-+ (int);
-+ (int);
-+ (int);
++ (id)iatedByFrame:decisionHandler: /* Error: Ran out of types for this method. */;
++ (int)startSetupInWindow:(struct sqlite3_stmt *)arg1 completion:(const char *)arg2;
++ (int)startSetupInWindow:(struct sqlite3_stmt *)arg1 accountType:(const char *)arg2 username:(id)arg3 password:completion: /* Error: Ran out of types for this method. */;
++ (int)startAuthorization;
++ (int)standardizedEmail;
++ (int)squareIcon;
++ (int)sl_urlRequestWithToken:(struct sqlite3_stmt *)arg1 forURLString:(const char *)arg2;
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)/;
 + (id);
 + (void);
 + (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setCompanyName:(id)arg1;
+- (_Bool)eListener",R,N,V_changeHistoryListener;
+- (_Bool)rted key(s):(id)arg1 %@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -61,45 +58,45 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)guang;
+- (_Bool);
+- (_Bool);
+- (_Bool)m;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)routing team:(id)arg1 %@;
+- (long long)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool):(id)arg1 Y;
+- (_Bool)â;
+- (_Bool)_IsPermissionControlledSpecified;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (long long);
+- (void)setRequiresLegacyCompilerProcessesCount: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)vendorDefinedVersion;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)tsu_errorWithDomain:(id)arg1 code:(CDUnknownBlockType)arg2 description:underlyingError: /* Error: Ran out of types for this method. */;
+- (_Bool)tickLabelRotationAngle;
+- (_Bool)readStream:(id)arg1 streamState:(CDUnknownBlockType)arg2;
+- (_Bool)isCollapsable:(id)arg1;
+- (void)defaultShapeStyle;
+- (_Bool)Z;
+- (_Bool)"NSString"8@"NSError"16;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -139,7 +136,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)baseConnectionDelegate>";
 - (_Bool);
 - (void);
 - (_Bool);
@@ -153,18 +150,16 @@
 - (_Bool);
 - (_Bool)Â0@ù
 × ;
-- (_Bool)atIndex:(id)arg1;
-- (_Bool)icsDictionary:(id)arg1 andAdditiveStatisticsDictionary:(CDUnknownBlockType)arg2;
-- (void)TextMessageBirthdayCongratsModel;
+- (_Bool)setArgument:(id)arg1 atIndex:(CDUnknownBlockType)arg2;
+- (_Bool)persistStatisticsDictionary:(id)arg1 andAdditiveStatisticsDictionary:(CDUnknownBlockType)arg2;
+- (void)SGTextMessageBirthdayCongratsModel;
 - (void)ðø8È¨h;
-- (unsigned long long)ative;
-- (unsigned int)undleId;
+- (unsigned long long)coreAlternative;
+- (unsigned int)bundleId;
 - (void)§ª§ø§ÿ§;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *filename;
 @property(readonly, nonatomic) struct sqlite3 *handle;
-@property(readonly, nonatomic) _Bool isInMemory;
 
 @end
 

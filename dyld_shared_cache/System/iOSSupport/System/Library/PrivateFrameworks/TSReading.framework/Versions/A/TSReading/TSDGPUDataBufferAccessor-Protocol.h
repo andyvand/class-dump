@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSDGPUDataBufferAttribute;
+
 @protocol TSDGPUDataBufferAccessor
+- (void)];
+- (void)usicKitRequestContext"8;
+- (void)userIdentity;
+- (void)requestingBundleIdentifier;
+- (void)targetRate;
+- (CDStruct_818bb265)eted - item:(TSDGPUDataBufferAttribute *)arg1;
+- (CDStruct_869f9c67);
+- (CDStruct_b2fbf00d)ntroller - Item duration changed - item:(TSDGPUDataBufferAttribute *)arg1;
 @end
 

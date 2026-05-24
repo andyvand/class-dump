@@ -7,7 +7,6 @@
 #import <HomeKit/HMCharacteristicEvent.h>
 
 @class HMCharacteristic;
-@protocol NSCopying;
 
 @interface HMMutableCharacteristicEvent : HMCharacteristicEvent
 {
@@ -16,6 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) HMCharacteristic *characteristic; // @dynamic characteristic;
-@property(copy, nonatomic) id <NSCopying> triggerValue; // @dynamic triggerValue;
 @end
 

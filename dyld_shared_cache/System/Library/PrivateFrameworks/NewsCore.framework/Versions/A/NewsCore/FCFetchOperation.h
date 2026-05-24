@@ -6,23 +6,16 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCFetchOperationResult, NSObject;
-@protocol OS_dispatch_queue;
+@class FCFetchOperationResult;
 
 @interface FCFetchOperation : FCOperation
 {
     FCFetchOperationResult *_result;
-    _Bool _shouldFailOnMissingObjects;
-    _Bool _canSendFetchCompletionSynchronously;
-    unsigned long long _cachePolicy;
-    double _maximumCachedAge;
-    CDUnknownBlockType _fetchCompletionBlock;
-    NSObject<OS_dispatch_queue> *_fetchCompletionQueue;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (_Bool);
@@ -30,15 +23,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
+- (void)AheadPeriod;
+- (void);
+- (void)publicDictionaryMetadataRepresentation;
 - (void);
 - (void);
 - (id);
 - (id)tabilityScores;
-- (double);
+- (double)featurePromotion;
 - (void)d-source;
 - (void);
 - (void)jÜ¼¶ÿ;
@@ -46,12 +39,6 @@
 
 // Remaining properties
 @property unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property _Bool canSendFetchCompletionSynchronously; // @synthesize canSendFetchCompletionSynchronously=_canSendFetchCompletionSynchronously;
-@property(copy) CDUnknownBlockType fetchCompletionBlock; // @synthesize fetchCompletionBlock=_fetchCompletionBlock;
-@property(retain) NSObject<OS_dispatch_queue> *fetchCompletionQueue; // @synthesize fetchCompletionQueue=_fetchCompletionQueue;
-@property double maximumCachedAge; // @synthesize maximumCachedAge=_maximumCachedAge;
-@property(readonly) FCFetchOperationResult *result; // @synthesize result=_result;
-@property _Bool shouldFailOnMissingObjects; // @synthesize shouldFailOnMissingObjects=_shouldFailOnMissingObjects;
 
 @end
 

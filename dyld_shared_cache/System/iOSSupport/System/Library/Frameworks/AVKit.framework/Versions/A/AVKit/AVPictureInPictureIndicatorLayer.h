@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPictureInPictureIndicatorSublayer, NSString;
+@class AVPictureInPictureIndicatorSublayer;
 
 __attribute__((visibility("hidden")))
 @interface AVPictureInPictureIndicatorLayer
 {
     AVPictureInPictureIndicatorSublayer *_contentLayer;
-    struct CGRect _videoRectWhenPIPBegan;
 }
 
 - (struct CGRect);
@@ -25,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) AVPictureInPictureIndicatorSublayer *contentLayer; // @synthesize contentLayer=_contentLayer;
-@property(copy, nonatomic) NSString *customText;
-@property(readonly, nonatomic) struct CGRect videoRectWhenPIPBegan; // @synthesize videoRectWhenPIPBegan=_videoRectWhenPIPBegan;
 
 @end
 

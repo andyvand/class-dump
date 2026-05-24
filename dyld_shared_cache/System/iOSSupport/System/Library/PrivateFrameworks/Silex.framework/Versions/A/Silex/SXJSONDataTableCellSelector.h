@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONDataTableSelector.h>
 
-@class NSString;
-
 @interface SXJSONDataTableCellSelector : SXJSONDataTableSelector
 {
 }
@@ -15,20 +13,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columnIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *descriptor;
-@property(readonly, nonatomic) unsigned long long evenColumns; // @dynamic evenColumns;
 @property(readonly, nonatomic) unsigned long long evenRows; // @dynamic evenRows;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long oddColumns; // @dynamic oddColumns;
-@property(readonly, nonatomic) unsigned long long oddRows; // @dynamic oddRows;
-@property(readonly, nonatomic) unsigned long long rowIndex;
-@property(readonly) Class superclass;
 
 @end
 

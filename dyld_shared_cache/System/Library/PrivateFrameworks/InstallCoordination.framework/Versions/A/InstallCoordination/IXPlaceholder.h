@@ -6,7 +6,7 @@
 
 #import <InstallCoordination/IXOwnedDataPromise.h>
 
-@class IXPlaceholderSeed, MIStoreMetadata, NSString;
+@class IXPlaceholderSeed;
 
 @interface IXPlaceholder : IXOwnedDataPromise
 {
@@ -26,7 +26,7 @@
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool){;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,14 +44,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -78,17 +78,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleDirectoryName; // @dynamic bundleDirectoryName;
-@property(readonly, copy, nonatomic) NSString *bundleID; // @dynamic bundleID;
-@property(readonly, copy, nonatomic) NSString *bundleName; // @dynamic bundleName;
-@property(readonly, nonatomic) _Bool hasEntitlementsPromise;
-@property(readonly, nonatomic) _Bool hasIconPromise;
-@property(readonly, nonatomic) _Bool hasIconResourcesPromise;
-@property(readonly, nonatomic) _Bool hasInfoPlistLoctablePromise;
-@property(readonly, nonatomic) _Bool hasPlugInPlaceholderPromises;
-@property(readonly, nonatomic) unsigned long long installType; // @dynamic installType;
-@property(copy, nonatomic) MIStoreMetadata *metadata; // @dynamic metadata;
-@property(readonly, nonatomic) unsigned long long placeholderType; // @dynamic placeholderType;
 @property(retain, nonatomic) IXPlaceholderSeed *seed; // @dynamic seed;
 
 @end

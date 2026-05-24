@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDecimalNumber, NSString;
+@class NSData, NSDate;
 
 @interface PKCreditAccountIncomeDetails
 {
     NSData *_encryptedData;
-    NSData *_ephemeralPublicKey;
-    NSDate *_lastUpdatedDate;
-    NSDecimalNumber *_yearlyIncome;
-    NSString *_currencyCode;
 }
 
 + (_Bool)X"Ð! Eùî%Ð1Â0@ù
@@ -22,18 +18,16 @@
 - (void);
 - (void);
 - (id);
+- (void)E;
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)inatorFirstName: /* Error: Ran out of types for this method. */;
-- (id)er:(id)arg1 transactionSourceIdentifier:confirmPaymentOfferPlan: /* Error: Ran out of types for this method. */;
-- (void)inancialLearningLab;
+- (id)setOriginatorFirstName: /* Error: Ran out of types for this method. */;
+- (id)_presentTransactionDetailsForTransactionWithServiceIdentifier:(id)arg1 transactionSourceIdentifier:confirmPaymentOfferPlan: /* Error: Ran out of types for this method. */;
+- (void)AppleCardFinancialLearningLab;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(copy, nonatomic) NSDecimalNumber *yearlyIncome; // @synthesize yearlyIncome=_yearlyIncome;
 
 @end
 

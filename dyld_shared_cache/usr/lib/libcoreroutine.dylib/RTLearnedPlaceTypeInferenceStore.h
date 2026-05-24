@@ -6,40 +6,33 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString, RTLearnedLocationStore;
+@class RTLearnedLocationStore;
 
 @interface RTLearnedPlaceTypeInferenceStore : RTStore
 {
     RTLearnedLocationStore *_learnedLocationStore;
 }
 
-+ (id);
++ (id)y"24@"NSError"32;
 - (void);
 - (void);
-- (id);
+- (id)ox.framework/Versions/A/MediaToolbox;
+- (void)TrustEvaluator;
+- (void)PCSAnalyticsReporterRTC;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)cute;
+- (void)ngs walrus state to %d:(id)arg1 %@;
+- (id)CKKS on multiuser device;
+- (void)tPCSSPKey(se->identity, &share.tbs.shareList.val[n].key);
+- (void)to get wrapped key:(id)arg1 %@;
+- (void)addPublicNameService;
 - (id);
 - (id);
 - (void)uld not generate key, error, %@;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly) Class superclass;
 
 @end
 

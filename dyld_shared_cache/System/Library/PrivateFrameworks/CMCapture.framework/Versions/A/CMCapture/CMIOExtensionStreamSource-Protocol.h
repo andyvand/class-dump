@@ -4,13 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class CMIOExtensionStreamProperties, NSArray;
 
 @protocol CMIOExtensionStreamSource
+- (CMIOExtensionStreamProperties *)__objc_protolist__DATA_CONST;
+- (_Bool)__objc_stubs;
+- (_Bool)__objc_methname;
+- (_Bool);
 - (NSArray *)Pÿ;
 
 // Remaining properties
-@property(readonly, copy) NSSet *availableProperties;
 @property(readonly) NSArray *formats;
 @end
 

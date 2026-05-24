@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCompanionDeviceInfo, AFSharedUserInfo, NSString;
+@class AFSharedUserInfo;
 
 @interface _AFSharedUserInfoMutation
 {
     AFSharedUserInfo *_base;
-    NSString *_sharedUserId;
-    NSString *_loggableSharedUserId;
-    AFCompanionDeviceInfo *_companionDeviceInfo;
-    _Bool _personalRequestsEnabled;
-    _Bool _companionLinkReady;
-    NSString *_homeUserId;
-    NSString *_iCloudAltDSID;
-    _Bool _isDeviceOwner;
-    _Bool _isMediaFallbackUser;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSharedUserId:1;
-        unsigned int hasLoggableSharedUserId:1;
-        unsigned int hasCompanionDeviceInfo:1;
-        unsigned int hasPersonalRequestsEnabled:1;
-        unsigned int hasCompanionLinkReady:1;
-        unsigned int hasHomeUserId:1;
-        unsigned int hasICloudAltDSID:1;
-        unsigned int hasIsDeviceOwner:1;
-        unsigned int hasIsMediaFallbackUser:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -43,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -51,17 +30,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)gToIndex:(id)arg1;
-- (void)potentialCommandPrecedingUtterance;
+- (id)substringToIndex:(id)arg1;
+- (void)_potentialCommandPrecedingUtterance;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

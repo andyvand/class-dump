@@ -7,13 +7,20 @@
 __attribute__((visibility("hidden")))
 @interface CSITextureHelper
 {
-    struct _csibitmap *bmp;
-    struct CGColorSpace *colorspaceHint;
-    unsigned long long sourceRowbytes;
-    unsigned int width;
-    unsigned int height;
-    unsigned int imageBytes;
-    int pixelFormat;
+    struct _csibitmap {
+        unsigned int _field1;
+        union {
+            unsigned int _field1;
+            struct _csibitmapflags {
+                unsigned int :1;
+                unsigned int :1;
+                unsigned int :30;
+            } _field2;
+        } _field2;
+        unsigned int _field3;
+        unsigned int _field4;
+        unsigned char _field5[0];
+    } *bmp;
 }
 
 - (void);

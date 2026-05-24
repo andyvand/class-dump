@@ -11,7 +11,7 @@
     unsigned long long _nonceType;
 }
 
-- (void);
+- (void)";
 - (unsigned long long);
 - (id);
 - (id);

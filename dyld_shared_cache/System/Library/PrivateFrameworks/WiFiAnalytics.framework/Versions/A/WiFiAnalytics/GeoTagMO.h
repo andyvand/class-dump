@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSMO, NSDate;
+@class NSDate;
 
 @interface GeoTagMO
 {
@@ -15,15 +15,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)P;
 + (id)orSsid:withError:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) BSSMO *bss; // @dynamic bss;
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) int taggedCount; // @dynamic taggedCount;
 
 @end
 

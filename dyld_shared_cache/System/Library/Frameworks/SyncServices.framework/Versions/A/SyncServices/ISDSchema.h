@@ -6,21 +6,14 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class ISDFileReference, NSArray, NSString;
+@class NSString;
 
 @interface ISDSchema : ISDDataObject
 {
     NSString *_name;
-    ISDFileReference *_bundleRef;
-    ISDFileReference *_descriptionFile;
-    NSArray *_dataClasses;
-    NSArray *_entityComponents;
-    NSString *_validatorClassName;
-    NSString *_conflictResolverClassName;
-    NSString *_uiHelperClassName;
 }
 
-+ (void)EntityName: /* Error: Ran out of types for this method. */;
++ (void)attributeNamesOnEntityName: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -42,9 +35,9 @@
 - (id);
 - (void);
 - (void);
+- (id)@8*E;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 

@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAssetMaster, MRImage;
 @protocol MRAssetPlayerDelegate;
 
 @interface MRAssetPlayer
 {
     int _retainByUserCount;
-    struct CGSize _size;
-    double _time;
-    MRImage *_image;
-    MRAssetMaster *_master;
-    id <MRAssetPlayerDelegate> _delegate;
-    _Bool _thumbnailIsOK;
-    _Bool _isMonochromatic;
-    _Bool _generatesMipmap;
-    _Bool _usesPowerOfTwo;
-    _Bool _isStill;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)4@32;
+- (_Bool)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)submitEnvelopes:(_Bool)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (id)SaySSGSg;
+- (id)SbSg;
+- (id);
+- (void)terContentTypes:withEventName:] /* Error: Ran out of types for this method. */;
+- (_Bool)llRetry:hitEndpoint:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)F;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) id <MRAssetPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _Bool generatesMipmap; // @synthesize generatesMipmap=_generatesMipmap;
-@property(readonly) _Bool isMonochromatic; // @synthesize isMonochromatic=_isMonochromatic;
-@property(readonly) _Bool newImageIsAvailable;
-@property(nonatomic) _Bool thumbnailIsOK; // @synthesize thumbnailIsOK=_thumbnailIsOK;
-@property(readonly) _Bool usesPowerOfTwo; // @synthesize usesPowerOfTwo=_usesPowerOfTwo;
 
 @end
 

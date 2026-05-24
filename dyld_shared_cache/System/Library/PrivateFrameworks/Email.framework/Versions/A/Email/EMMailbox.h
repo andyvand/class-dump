@@ -6,24 +6,19 @@
 
 #import <Email/EMRepositoryObject.h>
 
-@class EMMailboxObjectID, EMObjectID, EMReceivingAccount, NSString;
+@class EMReceivingAccount;
 
 @interface EMMailbox : EMRepositoryObject
 {
     EMReceivingAccount *_account;
-    struct os_unfair_lock_s _accountLock;
-    _Bool _descriptionUsesRealName;
-    _Bool _canContainMessages;
-    _Bool _canArchive;
-    EMMailboxObjectID *_parentID;
-    EMObjectID *_accountIdentifier;
-    EMMailbox *_parent;
-    NSString *_name;
-    NSString *_redactedName;
-    long long _type;
 }
 
-+ (_Bool);
++ (_Bool)CharacteristicReadWriteLogEventObserver;
++ (id);
++ (id);
++ (id)PresencePayloadNetworkConnectionType;
++ (id)PresencePayloadPresencePayloadContainer;
++ (id)ken;
 + (id);
 + (id);
 + (id);
@@ -31,12 +26,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)<=;
 + (_Bool);
 + (id);
 + (_Bool);

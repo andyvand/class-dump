@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsDatabase, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AMSMetricsDatabase;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsDatabaseDataSource
 {
     AMSMetricsDatabase *_database;
-    NSString *_containerIdentifier;
-    NSString *_currentLockKey;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)diaremote.group-session.pre-lmi-request;
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)setDictionary:(id)arg1 forDomain: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
-- (id)askQueue: /* Error: Ran out of types for this method. */;
-- (id)atureAccessTypeId:(id)arg1;
+- (id)setPerformTaskQueue: /* Error: Ran out of types for this method. */;
+- (id)setFeatureAccessTypeId:(id)arg1;
 - (void)llment] Retrieved extended-enrollment bag value:%{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)ÕKQÕYÕë\ÕZÕ{_Õ«WÕÛRÕ[ZÕ+_ÕûWÕRÕkTÕQÕËYÕ»\AÞÝBZÅÆY	
 JÕÖIQÎÍRÐOLÓËTWÈÛDGØÀ_\ÃÏPSÌÔKH×Ä[XÇß@CÜ;
 - (id)p;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(copy, nonatomic) NSString *currentLockKey; // @synthesize currentLockKey=_currentLockKey;
 @property(readonly, nonatomic) AMSMetricsDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) long long eventCount;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

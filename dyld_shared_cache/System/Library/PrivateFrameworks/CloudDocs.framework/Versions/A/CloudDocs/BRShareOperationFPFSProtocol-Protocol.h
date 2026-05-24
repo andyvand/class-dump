@@ -5,5 +5,8 @@
 //
 
 @protocol BRShareOperationFPFSProtocol
+- (void);
+- (void);
+- (void)kM;
 @end
 

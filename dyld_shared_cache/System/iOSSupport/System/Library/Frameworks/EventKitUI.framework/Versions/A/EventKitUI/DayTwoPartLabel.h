@@ -4,57 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, UIFont, UILabel;
+@class UILabel;
 
 @interface DayTwoPartLabel
 {
     UILabel *_firstLabel;
-    UILabel *_secondLabel;
-    UILabel *_entireString;
-    UILabel *_overlayLabel;
-    NSDate *_date;
-    _Bool _dayNameOnLeft;
-    _Bool _showOverlayDate;
-    _Bool _useSeparateFormat;
-    _Bool _useEmDashFormat;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void),&s;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)s;
 - (id);
 - (double);
+- (double);
+- (void)s;
+- (void);
 - (double);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
+- (void)q)s;
+- (id)s;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)resetWithValidity:(id)arg1;
 - (id);
-- (id);
-- (void);
-- (void)sDeclined;
+- (id)PlatformDataActionsAppIntentsExtension;
+- (void);
+- (void)isDeclined;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineOffsetFromBoundsTop;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) UIFont *font;
-@property(nonatomic) _Bool showOverlayDate; // @synthesize showOverlayDate=_showOverlayDate;
-@property(nonatomic) _Bool useEmDashFormat; // @synthesize useEmDashFormat=_useEmDashFormat;
 @property(nonatomic) _Bool useSeparateFormat; // @synthesize useSeparateFormat=_useSeparateFormat;
 
 @end

@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, VNClassificationCustomHierarchy;
-
 @interface VNClassifyImageRequest : VNImageBasedRequest
 {
 }
@@ -24,7 +22,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)g:(unsigned long long)arg1 bundleIdentifier:(id)arg2 );
 - (void);
 - (void);
 - (_Bool)¸ÿ;
@@ -32,11 +30,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) VNClassificationCustomHierarchy *customHierarchy;
-@property(nonatomic) unsigned long long imageCropAndScaleOption;
-@property(nonatomic) unsigned long long maximumHierarchicalObservations;
 @property(nonatomic) unsigned long long maximumLeafObservations;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, NFUnfairLock, NSArray, NSString;
-@protocol FCBundleChannelProviderDelegate, FCContentContext, FCCoreConfigurationManager;
+@class NSArray;
+@protocol FCBundleChannelProviderDelegate;
 
 @interface FCBundleChannelProvider
 {
     id <FCBundleChannelProviderDelegate> delegate;
-    FCKeyValueStore *_localStore;
-    NFUnfairLock *_accessLock;
-    id <FCCoreConfigurationManager> _configurationManager;
-    id <FCContentContext> _contentContext;
-    NSArray *_bundleChannelIDs;
-    NSString *_bundleChannelIDsVersion;
 }
 
 - (id);
 - (void);
 - (id);
+- (void)_contentInsetsInPixels:(id)arg1 emptySizeFallback: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)moveItemAtURL:toURL:error: /* Error: Ran out of types for this method. */;
 - (id)_shadowMagazineFeedIssueOntologyLevelConfig;
-- (void)Config;
+- (void)pbVideoGroupsConfig;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bundleChannelIDs; // @synthesize bundleChannelIDs=_bundleChannelIDs;
-@property(copy, nonatomic) NSString *bundleChannelIDsVersion; // @synthesize bundleChannelIDsVersion=_bundleChannelIDsVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FCBundleChannelProviderDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

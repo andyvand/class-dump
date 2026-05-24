@@ -6,23 +6,10 @@
 
 #import <CoreFoundation/_CFPasteboardStore.h>
 
-@class BKSHIDEventAuthenticationOriginator, NSObject, NSString, _CFPasteboardClientInstanceID, _CFRemotePasteboardCache;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _CFGeneralPasteboardStore : _CFPasteboardStore
 {
     long long _localOnlyGeneration;
-    _CFRemotePasteboardCache *_remotePasteboardCache;
-    NSObject<OS_dispatch_queue> *_remotePasteboardNotificationQueue;
-    unsigned long long _lastAccessTimestamp;
-    unsigned long long _lastRemoteAvailableTimestamp;
-    unsigned long long _timeout;
-    BKSHIDEventAuthenticationOriginator *_authenticationOriginator;
-    NSObject<OS_dispatch_queue> *_authenticationQueue;
-    struct __CFDictionary *_appsToVerificationTokenRequesters;
-    NSObject<OS_dispatch_queue> *_approvalDialogQueue;
-    _CFPasteboardClientInstanceID *_coreServicesUIAgentClientInstance;
 }
 
 + (id);
@@ -32,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,19 +41,13 @@ __attribute__((visibility("hidden")))
 - (struct __CFData *);
 - (void);
 - (void);
-- (void);
+- (void)sB;
 - (void);
 - (_Bool)ring"36@?<v@?@"NSString">44;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

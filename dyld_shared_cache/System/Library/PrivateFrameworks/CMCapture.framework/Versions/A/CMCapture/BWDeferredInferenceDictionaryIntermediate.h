@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface BWDeferredInferenceDictionaryIntermediate : BWDeferredDictionaryIntermediate
 {
     NSString *_inferenceAttachmentKey;
-    NSString *_portType;
 }
 
 + (_Bool)±$1Â0@ù
@@ -27,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inferenceAttachmentKey; // @synthesize inferenceAttachmentKey=_inferenceAttachmentKey;
-@property(readonly, nonatomic) NSString *portType; // @synthesize portType=_portType;
 
 @end
 

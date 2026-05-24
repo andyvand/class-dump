@@ -10,33 +10,26 @@ __attribute__((visibility("hidden")))
 @interface NWStatsEntityMapCache
 {
     NSMutableDictionary *_uuidMap;
-    unsigned int _capacityLimit;
-    unsigned int _pruneSize;
-    double _hitRetainTime;
-    double _missRetainTime;
 }
 
 - (void);
+- (void)1;
 - (void);
-- (void);
-- (void);
+- (void)2;
 - (void);
 - (unsigned int);
 - (double);
-- (double);
+- (double);
 - (id);
 - (unsigned int);
-- (void);
+- (void)timeAndDateSignal;
+- (id)TRIRolloutTaskSupport;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property unsigned int capacityLimit; // @synthesize capacityLimit=_capacityLimit;
 @property double hitRetainTime; // @synthesize hitRetainTime=_hitRetainTime;
-@property double missRetainTime; // @synthesize missRetainTime=_missRetainTime;
-@property unsigned int pruneSize; // @synthesize pruneSize=_pruneSize;
 
 @end
 

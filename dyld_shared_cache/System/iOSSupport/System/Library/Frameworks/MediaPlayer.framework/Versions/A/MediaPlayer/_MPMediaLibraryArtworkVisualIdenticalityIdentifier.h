@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPMediaLibraryArtworkVisualIdenticalityIdentifier
 {
     long long _artworkType;
-    NSString *_availableArtworkToken;
-    NSString *_fetchableArtworkToken;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long):8d16@?24 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (void)eria: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_countOfItemsForQueryCriteria: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;
-@property(readonly, nonatomic) NSString *availableArtworkToken; // @synthesize availableArtworkToken=_availableArtworkToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *fetchableArtworkToken; // @synthesize fetchableArtworkToken=_fetchableArtworkToken;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PFPosterLayout, PFWallpaperCompoundDeviceConfiguration, PIParallaxColorAnalysis;
-@protocol PFParallaxAssetRegions, PISegmentationItem;
+@protocol PISegmentationItem;
 
 @interface PISegmentationData
 {
@@ -23,17 +22,10 @@
 - (id);
 - (id)©!CùQáÐ1Â0@ù
 × ;
-- (void)tringByAppendingString: /* Error: Ran out of types for this method. */;
+- (void)stringByAppendingString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long classification;
-@property(readonly, nonatomic) PIParallaxColorAnalysis *colorAnalysis;
 @property(readonly, nonatomic) id <PISegmentationItem> item; // @synthesize item=_item;
-@property(readonly, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration;
-@property(readonly, nonatomic) PFPosterLayout *originalLayout;
-@property(readonly, nonatomic) id <PFParallaxAssetRegions> regions;
-@property(readonly, copy, nonatomic) NSDictionary *scores;
-@property(readonly, nonatomic) struct __CVBuffer *segmentationBuffer;
 
 @end
 

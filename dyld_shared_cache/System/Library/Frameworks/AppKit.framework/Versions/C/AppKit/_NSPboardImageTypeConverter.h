@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSString *_sourceType;
 }
 
-+ (id);
-- (id);
++ (id)rchiver error:(id)arg1 %@;
+- (id)%llu stall recovery timer done (fb=%d sip=%d);
 - (void);
 - (id)too many times (counter %{public}s);
 

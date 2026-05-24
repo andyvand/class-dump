@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCSession, NSString;
-@protocol SPOwnerSessionXPCProtocol;
+@class FMXPCSession;
 
 __attribute__((visibility("hidden")))
 @interface SPOwnerSessionDelegatedLocation
 {
     FMXPCSession *_session;
-    id <SPOwnerSessionXPCProtocol> _proxy;
-    CDUnknownBlockType _locationUpdateBlock;
 }
 
 + (id);
@@ -23,24 +20,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)irmwareVersion;
+- (void)firmwareVersion;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType locationUpdateBlock; // @synthesize locationUpdateBlock=_locationUpdateBlock;
-@property(retain, nonatomic) id <SPOwnerSessionXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

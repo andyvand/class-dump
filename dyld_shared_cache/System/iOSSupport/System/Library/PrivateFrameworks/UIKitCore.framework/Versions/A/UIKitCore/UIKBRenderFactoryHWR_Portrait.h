@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (double);
-- (_Bool);
+- (double)d;
+- (_Bool),;
 - (void);
+- (struct CGPoint):%@, result:%@ /* Error: Ran out of types for this method. */;
+- (double)%{BOOL}d;
+- (struct UIEdgeInsets)Enabled %{BOOL}d Has valid Phone Number %{BOOL}d;
 - (struct CGPoint);
-- (double);
-- (struct UIEdgeInsets);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)upRelayValidation-MissingRequiredFields;
 - (double);
 - (id);
 - (double)tWindowController",W,N,V_owner;

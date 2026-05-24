@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, NSURL;
+@class NSDictionary, NSString, NSURL;
 
 @protocol RBBundleProperties
+- (_Bool)self to SPQUParse;
+- (int){;
+- (_Bool)respondsToSelector: /* Error: Ran out of types for this method. */;
+- (NSURL *)bundleLoadingFailed;
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *bundlePath;
-@property(readonly, nonatomic) NSString *containerOverrideIdentifier;
-@property(readonly, nonatomic) _Bool continuousBackgroundMode;
-@property(readonly, nonatomic) NSURL *dataContainerURL;
-@property(readonly, nonatomic) NSDictionary *environmentVariables;
-@property(readonly, copy, nonatomic) NSString *executablePath;
-@property(readonly, copy, nonatomic) NSString *extensionPointIdentifier;
-@property(readonly, nonatomic) NSSet *groupIdentifiers;
-@property(readonly, nonatomic) _Bool hasPreferredJetsamBand;
-@property(readonly, nonatomic) _Bool isExtension;
-@property(readonly, nonatomic) int platform;
-@property(readonly, nonatomic) int preferredJetsamBand;
-@property(readonly, nonatomic) _Bool supportsBackgroundAudio;
-@property(readonly, nonatomic) _Bool supportsBackgroundContentFetching;
-@property(readonly, nonatomic) _Bool supportsBackgroundNetworkAuthentication;
-@property(readonly, nonatomic) _Bool supportsUnboundedTaskCompletion;
-@property(readonly, nonatomic) _Bool usesSocketMonitoring;
 @end
 

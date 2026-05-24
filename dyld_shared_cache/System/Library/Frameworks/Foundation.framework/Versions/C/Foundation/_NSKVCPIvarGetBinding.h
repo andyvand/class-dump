@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSKVCPIvarGetBinding : NSKeyGetBinding
 {
     long long offset;
-    CDUnknownFunctionPointerType get;
 }
 
 - (id);
-- (id);
+- (id),;
 
 @end
 

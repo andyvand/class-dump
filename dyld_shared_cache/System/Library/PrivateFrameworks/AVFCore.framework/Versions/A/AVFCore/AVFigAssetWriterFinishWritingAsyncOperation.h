@@ -6,18 +6,15 @@
 
 #import <AVFCore/AVOperation.h>
 
-@class AVAssetWriterFigAssetWriterNotificationHandler, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVFigAssetWriterFinishWritingAsyncOperation : AVOperation
 {
     struct OpaqueFigAssetWriter *_figAssetWriter;
-    AVAssetWriterFigAssetWriterNotificationHandler *_notificationHandler;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (void);
@@ -25,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ñ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,23 +10,20 @@
 @interface MediaControlClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct MediaControlClientImp *_client;
-    NSObject<OS_dispatch_queue> *_eventHandlerQueue;
-    CDUnknownBlockType _eventHandlerBlock;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)urces/app_icons/icloud.png;
+- (void)ns/keynote@3x.png;
+- (void)es/app_icons/keynote@2x.png;
+- (void)cons/keynote.png;
+- (void)pp_icons/numbers@3x.png;
+- (void)cons/numbers@2x.png;
+- (void)sources/app_icons/numbers.png;
+- (void)loud.com/mail_resources/app_icons/notes@3x.png;
+- (void)www.icloud.com/mail_resources/app_icons/notes@2x.png;
+- (void)es/app_icons/notes.png;
+- (void)om/mail_resources/app_icons/pages@3x.png;
+- (void)@2x.png;
 - (void);
 - (id);
 - (void);

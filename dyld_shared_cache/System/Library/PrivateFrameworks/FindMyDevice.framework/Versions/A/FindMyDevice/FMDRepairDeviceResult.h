@@ -9,21 +9,19 @@
 @interface FMDRepairDeviceResult
 {
     NSArray *_eligibleDevices;
-    NSArray *_devicesInRepairMode;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)CGPoint=dd}32@0:(id)arg1 8Q16d24;
+- (void)Q16;
+- (id)ry"16;
+- (id)"estimatedActiveInputProperties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
+- (id)t>>="__begin_"^{PKMetalSDFPenStrokePoint}"__end_"^{PKMetalSDFPenStrokePoint}""{?="__cap_"^{PKMetalSDFPenStrokePoint}}};
+- (id)atch;
+- (void)alarmEngine;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *devicesInRepairMode; // @synthesize devicesInRepairMode=_devicesInRepairMode;
 @property(retain, nonatomic) NSArray *eligibleDevices; // @synthesize eligibleDevices=_eligibleDevices;
 
 @end

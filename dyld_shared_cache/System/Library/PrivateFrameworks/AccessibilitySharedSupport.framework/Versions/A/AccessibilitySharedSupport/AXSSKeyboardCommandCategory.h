@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AXSSKeyboardCommandCategory
 {
     NSArray *_commands;
-    NSString *_localizedName;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)R;
 + (id);
 + (id);
 + (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *commands; // @synthesize commands=_commands;
-@property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 
 @end
 

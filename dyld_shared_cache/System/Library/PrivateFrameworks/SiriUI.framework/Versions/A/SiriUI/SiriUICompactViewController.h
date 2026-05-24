@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, SRUIFSpeechRecognitionHypothesis, SiriSharedUICompactHostingInstrumentationSupplement, SiriSharedUICompactResultPlatterViewController, SiriSharedUICompactResultViewController, SiriSharedUIContentPlatterViewController, SiriUINavigationController;
-@protocol SiriUICompactViewControllerDelegate;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SiriUICompactViewController
 {
     NSMutableArray *_resultViewControllers;
-    NSArray *_conversationViewControllers;
-    SiriSharedUICompactHostingInstrumentationSupplement *_instrumentationSupplement;
-    _Bool _offerDismissal;
-    double _keyWindowAssertionCount;
-    id <SiriUICompactViewControllerDelegate> _delegate;
-    NSArray *_activeTranscriptItems;
-    NSArray *_activeConversationTranscriptItems;
-    NSArray *_serverUtterances;
-    SRUIFSpeechRecognitionHypothesis *_speechRecognitionHypothesis;
-    SiriUINavigationController *_navigationController;
-    SiriSharedUICompactResultViewController *_resultViewController;
-    SiriSharedUICompactResultPlatterViewController *_queuedNavigationContentViewController;
-    SiriSharedUIContentPlatterViewController *_topMostNavigationPlatterViewController;
 }
 
 - (int);
@@ -37,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
-- (void);
+- (double);
+- (id);
+- (void)q;
 - (struct NSEdgeInsets);
 - (void);
 - (void);
@@ -55,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -86,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -113,22 +99,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic, getter=_activeConversationTranscriptItems, setter=_setActiveConversationTranscriptItems:) NSArray *activeConversationTranscriptItems; // @synthesize activeConversationTranscriptItems=_activeConversationTranscriptItems;
 @property(copy, nonatomic, getter=_activeTranscriptItems, setter=_setActiveTranscriptItems:) NSArray *activeTranscriptItems; // @synthesize activeTranscriptItems=_activeTranscriptItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUICompactViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_navigationController) SiriUINavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(retain, nonatomic, getter=_queuedNavigationContentViewController, setter=_setQueuedNavigationContentViewController:) SiriSharedUICompactResultPlatterViewController *queuedNavigationContentViewController; // @synthesize queuedNavigationContentViewController=_queuedNavigationContentViewController;
-@property(readonly, nonatomic, getter=_resultViewController) SiriSharedUICompactResultViewController *resultViewController; // @synthesize resultViewController=_resultViewController;
-@property(copy, nonatomic, getter=_serverUtterances, setter=_setServerUtterances:) NSArray *serverUtterances; // @synthesize serverUtterances=_serverUtterances;
-@property(copy, nonatomic, getter=_speechRecognitionHypothesis, setter=_setSpeechRecognitionHypothesis:) SRUIFSpeechRecognitionHypothesis *speechRecognitionHypothesis; // @synthesize speechRecognitionHypothesis=_speechRecognitionHypothesis;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak SiriSharedUIContentPlatterViewController *topMostNavigationPlatterViewController; // @synthesize topMostNavigationPlatterViewController=_topMostNavigationPlatterViewController;
 
 @end
 

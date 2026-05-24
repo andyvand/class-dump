@@ -5,5 +5,11 @@
 //
 
 @protocol SKCloudServiceSetupExtensionClientInterface
+- (void)sh_subscription SET pending = 0, download_attempts = NULL, schedule_from = NULL, schedule_to = NULL, priority = NULL, server_timestamp = NULL, modified_at = ;
+- (void)iption WHERE pending = 1 AND schedule_from <= ;
+- (void)D schedule_to <= ;
+- (void)ror:(_Bool)arg1;
+- (void);
+- (void)producing the bundle:(_Bool)arg1;
 @end
 

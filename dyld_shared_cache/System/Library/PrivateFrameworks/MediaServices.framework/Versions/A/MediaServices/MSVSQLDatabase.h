@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, _MSVSQLConnection;
+@class NSURL;
 
 @interface MSVSQLDatabase
 {
     NSURL *_databaseURL;
-    _MSVSQLConnection *_connection;
 }
 
 - (void);
 - (_Bool);
+- (id)\#;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ng"24@"NSString"32;
 - (void);
 - (void);
 - (id);
@@ -26,8 +25,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)",&,V_changeLocalPassswordHeaderView;
+- (void);
 - (void);
 - (id);
 - (id) °!Eù!$1Â0@ù
@@ -35,13 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

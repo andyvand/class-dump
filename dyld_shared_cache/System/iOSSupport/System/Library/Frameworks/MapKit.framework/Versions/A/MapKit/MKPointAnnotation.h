@@ -6,19 +6,14 @@
 
 #import <MapKit/MKShape.h>
 
-@class CLLocation, NSString, VKCustomFeature;
-
 @interface MKPointAnnotation : MKShape
 {
     struct CLLocationCoordinate2D _coordinate;
-    long long _representation;
-    VKCustomFeature *_customFeature;
-    CLLocation *_location;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (void);
 - (void);
 - (id);
@@ -33,41 +28,16 @@
 - (id);
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)Server bag value found:return:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ognizer:(struct CLLocationCoordinate2D)arg1 shouldRecognizeSimultaneouslyWithGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (void): /* Error: Ran out of types for this method. */;
+- (id)gestureRecognizer:(struct CLLocationCoordinate2D)arg1 shouldRecognizeSimultaneouslyWithGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (void)completer:didFailWithError:forQueryFragment: /* Error: Ran out of types for this method. */;
 - (id)HÈ;
 - (_Bool)µ	;
 - (void)(;
 
 // Remaining properties
-@property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(nonatomic) double course;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CLLocation",?,&,N,V_location
-
-@property(nonatomic) long long representation; // @synthesize representation=_representation;
-@property(readonly, nonatomic) _Bool showsBalloonCallout;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFSymbol, ISIconManager, NSArray, NSMutableDictionary, NSString;
 @protocol ISIconIdentity;
 
 @interface ISIcon
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *prepareISIconDigestToSignpostIDs;
 }
 
 + (_Bool);
@@ -19,33 +17,18 @@
 + (id);
 + (id);
 + (id);
++ (id)remoteScannerEnabled;
++ (id)remoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
++ (int)offsetRangeBy:(unsigned long long)arg1;
++ (unsigned long long)encodeInteger:forKey: /* Error: Ran out of types for this method. */;
++ (const char *){_NSRange=QQ}16^B32;
++ (id)ions;
++ (id)delWithString(NLContextualEmbedding *__strong, DDMLTaggerModel *__strong, NSString *__strong)_block_invoke_3;
 + (id);
-+ (id);
-+ (int);
-+ (unsigned long long);
-+ (const char *);
-+ (id);
-+ (id);
-+ (id);
-+ (id)actorForSize:(struct _NSZone *)arg1;
++ (id)interpolationFactorForSize:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly) id <ISIconIdentity> _identity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *decorations;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) ISIconManager *manager;
-@property(retain) NSMutableDictionary *prepareISIconDigestToSignpostIDs; // @synthesize prepareISIconDigestToSignpostIDs;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IFSymbol *symbol; // @dynamic symbol;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

@@ -10,9 +10,6 @@
 {
     unsigned long long _chunkSize;
     unsigned char _typeNameFormat;
-    NSData *_type;
-    NSData *_identifier;
-    NSData *_payload;
 }
 
 + (id);
@@ -21,30 +18,28 @@
 + (id);
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ionTask"24@"NSError"32;
 - (unsigned char);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)1;
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_specularColor;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
 @property(copy, nonatomic) NSData *type; // @synthesize type=_type;
 @property(nonatomic) unsigned char typeNameFormat; // @synthesize typeNameFormat=_typeNameFormat;
 

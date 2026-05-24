@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, NUColorSpace, NUComposition, NURenderContext, NURenderJob, NURenderNode;
-@protocol NUMedia;
+@class NSMutableDictionary;
 
 @interface NUVideoCompositionInstruction
 {
     NSMutableDictionary *_sourceIdentifiersByTrackID;
-    NSMutableDictionary *_sourceIdentifiersByMetadataTrackID;
-    _Bool _isDolbyVision;
-    _Bool _requestedWindowOfSamples;
-    float _playbackRate;
-    NSArray *_requiredSourceTrackIDs;
-    NURenderJob *_renderJob;
-    NURenderNode *_videoRenderPrepareNode;
-    NSString *_name;
-    NURenderContext *_renderContext;
-    NUComposition *_adjustmentComposition;
-    id <NUMedia> _videoMedia;
-    NSArray *_pipelineFilters;
-    NUColorSpace *_colorSpace;
-    long long _sampleMode;
-    NSString *_mainTrackSourceIdentifier;
-    CDStruct_1e2b2e48 _renderScale;
-    CDStruct_e83c9415 _timeRange;
 }
 
 + (id);
@@ -57,8 +39,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)v;
 - (CDStruct_912cb5d2);
 - (int);
 - (_Bool);
@@ -67,15 +49,15 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)�;
 - (id);
 - (void);
-- (float);
+- (float)ȓ-;
 - (CDStruct_e83c9415);
 - (void);
 - (void)1Â0@ù
@@ -83,36 +65,7 @@
 - (void)x<%@>;
 
 // Remaining properties
-@property(retain, nonatomic) NUComposition *adjustmentComposition; // @synthesize adjustmentComposition=_adjustmentComposition;
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, nonatomic) _Bool containsTweening;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enablePostProcessing;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDolbyVision; // @synthesize isDolbyVision=_isDolbyVision;
-@property(copy, nonatomic) NSString *mainTrackSourceIdentifier; // @synthesize mainTrackSourceIdentifier=_mainTrackSourceIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) int passthroughTrackID;
-@property(retain, nonatomic) NSArray *pipelineFilters; // @synthesize pipelineFilters=_pipelineFilters;
-@property(nonatomic) float playbackRate; // @synthesize playbackRate=_playbackRate;
-@property(retain) NURenderContext *renderContext; // @synthesize renderContext=_renderContext;
-@property(nonatomic) __weak NURenderJob *renderJob; // @synthesize renderJob=_renderJob;
-@property(nonatomic) CDStruct_912cb5d2 renderScale; // @synthesize renderScale=_renderScale;
-@property(nonatomic) _Bool requestedWindowOfSamples; // @synthesize requestedWindowOfSamples=_requestedWindowOfSamples;
-@property(readonly, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) NSArray *requiredSourceTrackIDs; // @synthesize requiredSourceTrackIDs=_requiredSourceTrackIDs;
-@property(nonatomic) long long sampleMode; // @synthesize sampleMode=_sampleMode;
-@property(readonly) Class superclass;
 @property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
-@property(retain, nonatomic) id <NUMedia> videoMedia; // @synthesize videoMedia=_videoMedia;
-@property(retain) NURenderNode *videoRenderPrepareNode; // @synthesize videoRenderPrepareNode=_videoRenderPrepareNode;
 
 @end
 

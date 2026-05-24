@@ -8,6 +8,6 @@
 
 @optional
 - (void);
-- (void)Model;
+- (void)SportsManagementDetailModel;
 @end
 

@@ -5,19 +5,17 @@
 //
 
 @class NSString;
-@protocol NSURLAuthenticationChallengeSender;
 
 @interface ISAuthenticationChallenge
 {
     NSString *_localizedMessage;
-    NSString *_localizedTitle;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)hasTaskAbandonCountForEntityInUsingApp10Min;
+- (void)-;
 - (id);
 - (_Bool);
 - (void);
@@ -26,18 +24,10 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)=;
 
 // Remaining properties
-@property(readonly) long long failureCount;
-@property(readonly) _Bool hasPassword;
 @property(retain) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;
-@property(retain) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly) NSString *password;
-@property(readonly) __weak id <NSURLAuthenticationChallengeSender> sender;
-@property(readonly) NSString *user;
-@property(readonly) _Bool userNameIsEditable;
-@property(readonly) _Bool userNameIsEmail;
 
 @end
 

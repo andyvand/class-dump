@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFTextRange, NSString;
+@class NSString;
 
 @interface AXKSimpleStringTextProvider
 {
@@ -12,22 +12,14 @@
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)tialsByValue;
+- (id);
+- (void)setSmoothImages: /* Error: Ran out of types for this method. */;
+- (id)ACMContextRemoveCredentialsByValue;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_content; // @synthesize _content=__content;
-@property(readonly, nonatomic) AXFTextRange *contentRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

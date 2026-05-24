@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFText;
+@class NSString;
 
 @protocol SFMediaDetail
 
 // Remaining properties
-@property(retain, nonatomic) SFText *content;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *title;
 @end
 

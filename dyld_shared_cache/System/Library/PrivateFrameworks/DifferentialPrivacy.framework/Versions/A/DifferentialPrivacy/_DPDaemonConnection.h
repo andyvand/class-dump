@@ -11,9 +11,9 @@
     NSXPCConnection *_daemonConnection;
 }
 
-+ (id)ithKey:databaseDirectoryPath:readOnly: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
++ (id)initWithKey:databaseDirectoryPath:readOnly: /* Error: Ran out of types for this method. */;
+- (void)0\;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,10 +27,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id)edicateForKey:beginsWith:submitted:matchReportVersion: /* Error: Ran out of types for this method. */;
+- (void)SPExternalCredentialAuthenticationServiceProtocol;
+- (id)predicateForKey:beginsWith:submitted:matchReportVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;

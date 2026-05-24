@@ -9,12 +9,11 @@
 @interface TRIRolloutTaskSupport
 {
     _PASLock *_lock;
-    TRIRolloutDeployment *_rolloutDeployment;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)¦;
 - (void);
 - (id);
 - (id);

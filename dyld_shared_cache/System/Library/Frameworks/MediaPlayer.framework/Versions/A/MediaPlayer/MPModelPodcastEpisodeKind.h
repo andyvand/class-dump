@@ -9,24 +9,22 @@
 @interface MPModelPodcastEpisodeKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ize=dd},R,N;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

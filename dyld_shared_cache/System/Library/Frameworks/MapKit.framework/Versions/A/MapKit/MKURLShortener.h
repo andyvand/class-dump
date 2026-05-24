@@ -9,16 +9,15 @@
 @interface MKURLShortener
 {
     GEOMapsURLShortener *_serviceProvider;
-    unsigned int _options;
 }
 
+- (void)0x%llx returned %d (%s);
+- (void)Framework -- Failed to mark %@ purgeable - flags 0x%llx returned %d (%s);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_cropCIImage:(unsigned int)arg1 outBuffer:width:height:format:cropRect:performCrop:options:rotate90CCW:error: /* Error: Ran out of types for this method. */;
+- (id)chive 'print' object;
 - (unsigned int);
-- (void)State;
+- (void)saveGraphicsState;
 
 // Remaining properties
 @property(nonatomic) unsigned int options; // @synthesize options=_options;

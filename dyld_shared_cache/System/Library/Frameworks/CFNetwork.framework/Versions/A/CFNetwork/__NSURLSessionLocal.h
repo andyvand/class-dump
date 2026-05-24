@@ -6,36 +6,16 @@
 
 #import <CFNetwork/NSURLSession.h>
 
-@class NSHashTable, NSMutableArray, NSObject, NSString, NSURLSessionConfiguration;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface __NSURLSessionLocal : NSURLSession
 {
     unsigned long long _identSeed;
-    void *_tubeManager;
-    NSMutableArray *_outstandingTasks;
-    NSHashTable *_unownedUnresumedTasks;
-    NSObject<OS_dispatch_queue> *_invalidateQueue;
-    CDUnknownBlockType _invalidateCallback;
-    const struct XCookieStorage *_xCookies;
-    const struct XCredentialStorage *_xCreds;
-    _Bool _xCookiesInitComplete;
-    _Bool _xCredsInitComplete;
-    struct mutex _xCookieStorageInitLock;
-    struct mutex _xCredStorageInitLock;
-    _Bool _isInvalid;
-    NSURLSessionConfiguration *_proxyConfig;
-    NSURLSession *_proxySession;
-    _Bool _shouldRecreateProxySession;
-    NSURLSession *_sessionForCacheLookups;
-    struct os_unfair_lock_s _unownedUnresumedTasksLock;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)imacron;
+- (void)supportsNonZeroTextureWriteLOD;
+- (id)r.virtualDisplayResolution;
+- (id)B;
 - (unsigned long long);
 - (id);
 - (id)ess) %@
@@ -67,15 +47,7 @@ __attribute__((visibility("hidden")))
 - (id).2l;
 
 // Remaining properties
-@property(readonly) __weak NSURLSessionConfiguration *_groupConfiguration;
-@property(readonly) __weak NSURLSession *_groupSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

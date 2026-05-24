@@ -7,13 +7,6 @@
 @interface Mail.PersistenceAdaptor.CredentialsHelper
 {
     id account;
-    id logger;
-    id queue;
-    id workloop;
-    id persistenceAdaptor;
-    id notificationToken;
-    id stateCapture;
-    id state;
 }
 
 @end

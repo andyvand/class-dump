@@ -5,14 +5,14 @@
 //
 
 @interface UnknownClass (IMService_GetService)
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)e=%u version=%u;
++ (id)locate current payload value;
++ (id)eam token number;
++ (id)@'. Dropping message...;
++ (id)new redundancyPercentage=%d;
++ (id)[%@] already added to device[%@];
++ (id)nw endpoint at index=%d;
++ (id)reen width;
 + (id);
 + (id);
 @end

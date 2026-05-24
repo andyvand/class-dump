@@ -9,10 +9,6 @@
 @interface NSMorphologyCustomPronoun
 {
     NSString *_subjectForm;
-    NSString *_objectForm;
-    NSString *_possessiveForm;
-    NSString *_possessiveAdjectiveForm;
-    NSString *_reflexiveForm;
 }
 
 + (id);
@@ -34,8 +30,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)enumeratorAtURL:includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -43,11 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *_externalRepresentationDictionary;
-@property(copy, nonatomic) NSString *objectForm; // @synthesize objectForm=_objectForm;
-@property(copy, nonatomic) NSString *possessiveAdjectiveForm; // @synthesize possessiveAdjectiveForm=_possessiveAdjectiveForm;
-@property(copy, nonatomic) NSString *possessiveForm; // @synthesize possessiveForm=_possessiveForm;
-@property(copy, nonatomic) NSString *reflexiveForm; // @synthesize reflexiveForm=_reflexiveForm;
-@property(copy, nonatomic) NSString *subjectForm; // @synthesize subjectForm=_subjectForm;
 
 @end
 

@@ -5,9 +5,17 @@
 //
 
 @class AMSPromise;
-@protocol AMSAutoBugCaptureServiceInterface;
+@protocol AMSAutoBugCaptureServiceInterface, AMSSecurityClientInterface;
 
 @protocol AMSDServiceBrokerProtocol
+- (AMSPromise *)showSelectedAvatarDescriptor:(id <AMSSecurityClientInterface>)arg1 withStickerConfiguration:pose:andTransform:afterDelay: /* Error: Ran out of types for this method. */;
+- (AMSPromise *)DisplayServicesHasCommit;
+- (AMSPromise *)setIsForPendingConversation: /* Error: Ran out of types for this method. */;
+- (AMSPromise *);
+- (AMSPromise *);
+- (AMSPromise *));
+- (AMSPromise *)';
+- (AMSPromise *)`;
 - (AMSPromise *)#°!\CùÑ¦&°1Â0@ù
 × ;
 - (id <AMSAutoBugCaptureServiceInterface>)iþÿ;

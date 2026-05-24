@@ -9,10 +9,9 @@
 @interface AXFApplicationInfoProvider
 {
     struct os_unfair_lock_s _cacheLock;
-    NSMutableDictionary *__infoCache;
 }
 
-+ (id);
++ (id)for callID:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -22,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)%d;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_infoCache; // @synthesize _infoCache=__infoCache;

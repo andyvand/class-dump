@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)d=0x%x (%s);
 - (void);
 - (id);
 - (_Bool);

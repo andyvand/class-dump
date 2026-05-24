@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.PlaybackEngineSessionManager
 {
     id playbackEngine;
-    id $__lazy_storage_$_playbackSessionsURL;
 }
 
 @end

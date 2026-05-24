@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LocalizeNumberingSystem
 {
     _Bool _allowForOutput;
-    unsigned short _zero;
-    unsigned short _suggestedGroupingSeparator;
-    unsigned short _suggestedDecimalSeparator;
-    NSString *_id;
-    NSArray *_digits;
-    NSString *_digitsString;
 }
 
 - (_Bool);
-- (unsigned short);
+- (unsigned short)#;
 - (unsigned short);
 - (void);
 - (void);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned short);
 - (id);
 - (id);
@@ -35,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)ô?nÍ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowForOutput; // @synthesize allowForOutput=_allowForOutput;
-@property(retain, nonatomic) NSArray *digits; // @synthesize digits=_digits;
-@property(retain, nonatomic) NSString *digitsString; // @synthesize digitsString=_digitsString;
 @property(retain, nonatomic) NSString *id; // @synthesize id=_id;
-@property(readonly, nonatomic) unsigned short suggestedDecimalSeparator; // @synthesize suggestedDecimalSeparator=_suggestedDecimalSeparator;
-@property(readonly, nonatomic) unsigned short suggestedGroupingSeparator; // @synthesize suggestedGroupingSeparator=_suggestedGroupingSeparator;
-@property(readonly, nonatomic) _Bool usesEastArabicDigits;
-@property(readonly, nonatomic) unsigned short zero; // @synthesize zero=_zero;
 
 @end
 

@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWChannel, NSData, NSDate, NSString;
-
 @interface CWRoamStatistics
 {
     long long _active2GHzProfile;
-    long long _active5GHzProfile;
-    NSDate *_startedAt;
-    NSDate *_endedAt;
-    NSString *_fromBSSID;
-    NSString *_toBSSID;
-    CWChannel *_fromChannel;
-    CWChannel *_toChannel;
-    long long _fromRSSI;
-    long long _toRSSI;
-    NSData *_ssid;
-    long long _reason;
-    long long _status;
-    long long _active6GHzProfile;
 }
 
 + (_Bool);
@@ -32,51 +17,39 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (_Bool);
+- (long long);
+- (id);
+- (id),
+;
+- (long long);
+- (long long)m;
 - (long long);
 - (id);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (id);
+- (void)p;
+- (void)flightArrivalGate;
 - (void);
-- (void);
-- (void);
-- (long long);
+- (long long)d for account %@;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)encodeToCommandBuffer:(id)arg1 sourceImages:sourceStates:intermediateImages:destinationStates: /* Error: Ran out of types for this method. */;
+- (void)encodeToCommandBuffer:(long long)arg1 sourceGradient:sourceImage:gradientState:destinationGradient: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)info()->rsize == connector_->right_size();
 - (_Bool);
-- (id)riptorWithKey:ascending:comparator: /* Error: Ran out of types for this method. */;
+- (id)sortDescriptorWithKey:ascending:comparator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long active2GHzProfile; // @synthesize active2GHzProfile=_active2GHzProfile;
-@property long long active5GHzProfile; // @synthesize active5GHzProfile=_active5GHzProfile;
-@property long long active6GHzProfile; // @synthesize active6GHzProfile=_active6GHzProfile;
-@property(copy) NSDate *endedAt; // @synthesize endedAt=_endedAt;
-@property(copy) NSString *fromBSSID; // @synthesize fromBSSID=_fromBSSID;
-@property(copy) CWChannel *fromChannel; // @synthesize fromChannel=_fromChannel;
-@property long long fromRSSI; // @synthesize fromRSSI=_fromRSSI;
-@property long long reason; // @synthesize reason=_reason;
-@property(copy) NSData *ssid; // @synthesize ssid=_ssid;
-@property(copy) NSDate *startedAt; // @synthesize startedAt=_startedAt;
-@property long long status; // @synthesize status=_status;
-@property(copy) NSString *toBSSID; // @synthesize toBSSID=_toBSSID;
-@property(copy) CWChannel *toChannel; // @synthesize toChannel=_toChannel;
-@property long long toRSSI; // @synthesize toRSSI=_toRSSI;
 
 @end
 

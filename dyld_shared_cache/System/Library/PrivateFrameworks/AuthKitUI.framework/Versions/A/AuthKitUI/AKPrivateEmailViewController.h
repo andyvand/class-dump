@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationInAppContext, AKAuthorizationNavigationController, AKPrivateEmailContext, NSString;
-@protocol AKPrivateEmailViewControllerDelegate;
+@class AKAppleIDAuthenticationInAppContext, AKAuthorizationNavigationController;
 
 @interface AKPrivateEmailViewController
 {
     AKAppleIDAuthenticationInAppContext *_authenticationContext;
-    _Bool _resizePending;
-    AKPrivateEmailContext *_context;
-    id <AKPrivateEmailViewControllerDelegate> _delegate;
-    double _automaticResizeDelay;
-    AKAuthorizationNavigationController *_navigationController;
-    unsigned long long _automaticResizeDisableCount;
-    struct CGSize _lastResize;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)E;
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)];
 - (void);
 - (void);
 - (unsigned long long);
@@ -45,21 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double automaticResizeDelay; // @synthesize automaticResizeDelay=_automaticResizeDelay;
-@property(nonatomic) unsigned long long automaticResizeDisableCount; // @synthesize automaticResizeDisableCount=_automaticResizeDisableCount;
-@property(readonly, nonatomic, getter=isAutomaticResizeDisabled) _Bool automaticResizeDisabled;
-@property(retain, nonatomic) AKPrivateEmailContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKPrivateEmailViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize lastResize; // @synthesize lastResize=_lastResize;
 @property(readonly, nonatomic) AKAuthorizationNavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(nonatomic) _Bool resizePending; // @synthesize resizePending=_resizePending;
-@property(readonly) Class superclass;
 
 @end
 

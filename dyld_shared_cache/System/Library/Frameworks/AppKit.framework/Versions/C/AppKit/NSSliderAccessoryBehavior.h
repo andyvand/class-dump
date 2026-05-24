@@ -10,14 +10,14 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)itionalConnectionSIMSupport.cpp;
++ (id)ConditionalConnectionSIMScheduler;
++ (id)amp ASC LIMIT %d);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id)ridAnimation:(struct _NSZone *)arg1;
+- (id)_sidebarAnimationWithKeyPath:(struct _NSZone *)arg1 windowValue:thumbnailValue:forGridAnimation: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACRateLimiter, NSMutableDictionary;
+@class ACRateLimiter;
 
 @interface ACDAuthenticationPluginLoader
 {
     struct os_unfair_lock_s _pluginAccessLock;
-    NSMutableDictionary *_authenticationPluginsByType;
-    ACRateLimiter *_renewalRateLimiter;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Z;
 
 // Remaining properties
 @property(retain, nonatomic) ACRateLimiter *renewalRateLimiter; // @synthesize renewalRateLimiter=_renewalRateLimiter;

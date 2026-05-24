@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCDisplayLink : VCObject
 {
     struct __CVDisplayLink *_displayLinkRef;
-    unsigned long long _state;
-    CDUnknownBlockType _handler;
 }
 
 - (id);

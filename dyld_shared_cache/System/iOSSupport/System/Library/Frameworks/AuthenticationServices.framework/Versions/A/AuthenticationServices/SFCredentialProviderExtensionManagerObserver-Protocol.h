@@ -5,5 +5,6 @@
 //
 
 @protocol SFCredentialProviderExtensionManagerObserver
+- (void)A;
 @end
 

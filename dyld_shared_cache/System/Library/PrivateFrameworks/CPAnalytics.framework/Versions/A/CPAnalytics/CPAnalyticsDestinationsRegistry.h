@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)p];
 - (id);
 - (void);
-- (void);
+- (void)NSt3__123enable_shared_from_thisI22RegistrationAwareQueueEE;
 - (id);
 - (void);
 - (id);

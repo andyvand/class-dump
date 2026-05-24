@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CHHapticParameterAttributes;
+
 @protocol CHHapticDeviceCapability
+- (id <CHHapticParameterAttributes>);
 
 // Remaining properties
-@property(readonly) _Bool supportsAudio;
 @property(readonly) _Bool supportsHaptics;
 @end
 

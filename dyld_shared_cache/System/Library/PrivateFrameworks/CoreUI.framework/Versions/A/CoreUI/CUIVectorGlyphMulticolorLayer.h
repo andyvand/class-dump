@@ -11,10 +11,6 @@
 @interface CUIVectorGlyphMulticolorLayer : CUIVectorGlyphLayer
 {
     NSString *_fillColorName;
-    NSString *_strokeColorName;
-    id _fillColor;
-    id _strokeColor;
-    id _fillImage;
 }
 
 - (_Bool);
@@ -25,16 +21,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)overrideHostAppMinimal;
+- (id)te == self;
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id fillColor; // @synthesize fillColor=_fillColor;
 @property(readonly, retain, nonatomic) NSString *fillColorName; // @synthesize fillColorName=_fillColorName;
-@property(readonly, retain, nonatomic) id fillImage; // @synthesize fillImage=_fillImage;
-@property(readonly, retain, nonatomic) id strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(readonly, retain, nonatomic) NSString *strokeColorName; // @synthesize strokeColorName=_strokeColorName;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VNClustererContextBase
 {
     NSString *_type;
-    NSNumber *_threshold;
-    NSNumber *_torsoThreshold;
-    NSString *_cacheDirectoryPath;
-    _Bool _readOnly;
-    unsigned long long _faceprintRequestRevision;
-    unsigned long long _torsoprintRequestRevision;
 }
 
 - (id);

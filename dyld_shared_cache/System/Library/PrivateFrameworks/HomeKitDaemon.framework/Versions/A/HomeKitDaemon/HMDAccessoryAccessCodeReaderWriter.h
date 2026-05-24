@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessCodeManagerContext, NSString;
+@class HMDAccessCodeManagerContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryAccessCodeReaderWriter
@@ -39,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -52,28 +52,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)performRequest:(id)arg1 handler:(id)arg2;
+- (id)initWithMethodName:(id)arg1 channel:(id)arg2 serializeRequest:deserializeResponse:defaultRequestBuilder: /* Error: Ran out of types for this method. */;
+- (id)initWithChannel:(id)arg1 connectionPreferences:(id)arg2 allPreferences:(id)arg3;
+- (id)forceHTTPv2;
+- (id)domainLookupStartDate;
+- (id)GisCompressionEnabled,V_compressionEnabled;
 - (id);
 - (id);
 - (id)aà°!¸FùÑ°1Â0@ù
 × ;
-- (id)sing;
+- (id)processing;
 - (void)l;
 
 // Remaining properties
 @property(readonly) HMDAccessCodeManagerContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

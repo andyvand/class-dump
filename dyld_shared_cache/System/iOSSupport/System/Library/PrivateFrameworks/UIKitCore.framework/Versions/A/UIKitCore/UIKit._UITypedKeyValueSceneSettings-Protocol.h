@@ -7,6 +7,7 @@
 @class BSSettings;
 
 @protocol UIKit._UITypedKeyValueSceneSettings
+- (BSSettings *);
 
 // Remaining properties
 @property(nonatomic, retain) BSSettings *_uiTypedKeyStorage;

@@ -6,8 +6,8 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLDebugInstrumentationData, NSArray, NSObject, NSString;
-@protocol MTLDevice, OS_dispatch_data;
+@class NSArray, NSObject;
+@protocol OS_dispatch_data;
 
 @interface MTLToolsDynamicLibrary : MTLToolsObject
 {
@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (const CDStruct_41a22ec7 *);
+- (const CDStruct_5af0f983 *);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -31,39 +31,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)j ;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id)resume the suspended render pass from command buffer (at index:%lu). /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_data> *binaryData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *exportedFunctions;
-@property(readonly) NSArray *exportedVariables;
-@property unsigned long long globalConstantsBase;
-@property unsigned long long globalConstantsSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(readonly) NSString *installName;
-@property(copy) NSString *label;
-@property(readonly) NSString *libraryPath;
-@property(readonly) const CDStruct_41a22ec7 *libraryUUID;
-@property(readonly) NSObject<OS_dispatch_data> *reflectionData;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly, nonatomic) _Bool shaderValidationEnabled;
-@property(readonly) Class superclass;
 
 @end
 

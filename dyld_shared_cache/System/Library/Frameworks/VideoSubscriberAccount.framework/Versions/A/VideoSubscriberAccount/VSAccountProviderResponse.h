@@ -9,30 +9,26 @@
 @interface VSAccountProviderResponse
 {
     NSString *_authenticationScheme;
-    NSString *_status;
-    NSString *_body;
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)FString}}}{TRef<__CFFileSecurity *, TRetainReleasePolicy<CFFileSecurityRef>>=^{__CFFileSecurity}}BBB}})B}24@0:8r^{TFENode=^{OpaqueNodeRef}}16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)h;
 - (_Bool);
-- (void);
+- (void)_injectedBundleURL;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *authenticationScheme; // @synthesize authenticationScheme=_authenticationScheme;
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(copy, nonatomic) NSString *status; // @synthesize status=_status;
 
 @end
 

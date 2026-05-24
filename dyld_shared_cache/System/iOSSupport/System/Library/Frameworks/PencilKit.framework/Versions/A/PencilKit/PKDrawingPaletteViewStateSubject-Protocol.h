@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKTool;
+@class PKTool;
 
 @protocol PKDrawingPaletteViewStateSubject
+- (_Bool)q;
+- (_Bool)A;
+- (_Bool)";
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double _toolsContainerWidth;
-@property(readonly, nonatomic) _Bool canShowResetHandwritingEducationPane;
-@property(readonly, nonatomic) _Bool colorSwatchesVisible;
-@property(readonly, nonatomic) _Bool enableKeyboardButtons;
-@property(readonly, nonatomic) long long floatingKeyboardType;
-@property(readonly, nonatomic) _Bool hasHandwritingTool;
-@property(readonly, nonatomic) NSArray *inputAssistantItems;
-@property(readonly, nonatomic) double interItemToolsSpacingInCompactSize;
-@property(readonly, nonatomic) double interItemUndoRedoButtonsSpacing;
-@property(readonly, nonatomic) double interItemUndoRedoButtonsSpacingInCompactSize;
-@property(readonly, nonatomic) NSString *lassoToolEditingViewIdentifier;
-@property(readonly, nonatomic) _Bool prefersLargeContextualEditingUI;
 @property(readonly, nonatomic) PKTool *selectedTool;
-@property(readonly, nonatomic) _Bool shouldHideHoverPreviewToggle;
-@property(readonly, nonatomic) _Bool showsLassoToolEditingView;
-@property(readonly, nonatomic) _Bool showsPlusButton;
-@property(readonly, nonatomic) _Bool showsShapeButton;
-@property(readonly, nonatomic) _Bool showsTextButton;
-@property(readonly, nonatomic) _Bool useEqualSpacingLayoutInCompactSize;
-@property(readonly, nonatomic) _Bool wantsEllipsisButtonVisibleInCompactSize;
-@property(readonly, nonatomic) _Bool wantsMulticolorSwatchShadowInCompactSize;
-@property(readonly, nonatomic) _Bool wantsScrollableTools;
-@property(readonly, nonatomic) _Bool wantsUndoRedoButtonsShadowInCompactSize;
-@property(readonly, nonatomic) _Bool wantsUndoRedoButtonsVisibleInCompactSize;
 @end
 

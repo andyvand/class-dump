@@ -6,32 +6,24 @@
 
 #import <AVFCapture/AVMetadataObject.h>
 
-@class NSData;
-
 @interface AVMetadataSaliencyHeatMap : AVMetadataObject
 {
     long long _bytesPerRow;
-    long long _width;
-    long long _height;
-    NSData *_heatMap;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_bindCStringArray:(id)arg1 length:(long long)arg2 toParameterAtIndex:(long long)arg3;
+- (id)_alternateButtonTitle;
+- (id)CGColor=},R,N,V_quarnaryDropShadowColor;
+- (id)ow elements must match current table column count:%ld /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (long long);
-- (long long);
+- (long long)victimizedDeviceClients;
+- (long long)FigDepthValueMultiplier;
 - (id);
 
 // Remaining properties
 @property(readonly) long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(readonly) NSData *heatMap; // @synthesize heatMap=_heatMap;
-@property(readonly) long long height; // @synthesize height=_height;
-@property(readonly) long long width; // @synthesize width=_width;
 
 @end
 

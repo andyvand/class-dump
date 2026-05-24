@@ -6,13 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SearchUIButtonItemStackView, SearchUILabel, TLKStackView, TLKTextButton;
+@class SearchUILabel, TLKStackView;
 
 @interface SearchUILargeTitleDetailedRowCardSectionView : SearchUICardSectionView
 {
     SearchUILabel *_titleLabel;
-    TLKTextButton *_subtitleButton;
-    SearchUIButtonItemStackView *_buttonStackView;
 }
 
 + (_Bool);
@@ -20,9 +18,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)later;
 - (void);
-- (id);
+- (id)insertBlockToRemoveAllModelsWithType:modelTypes:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -30,10 +28,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) SearchUIButtonItemStackView *buttonStackView; // @synthesize buttonStackView=_buttonStackView;
 @property(retain, nonatomic) TLKStackView *contentView; // @dynamic contentView;
-@property(retain, nonatomic) TLKTextButton *subtitleButton; // @synthesize subtitleButton=_subtitleButton;
-@property(retain, nonatomic) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

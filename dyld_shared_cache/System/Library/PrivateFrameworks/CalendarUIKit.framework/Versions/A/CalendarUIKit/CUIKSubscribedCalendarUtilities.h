@@ -8,16 +8,15 @@
 {
 }
 
-+ (void) u°;
 + (void);
-+ (id);
-+ (void);
-+ (void)Ë©ø?;
-+ (void)©ôO©ý{©ýãà·üPÓ4üPÓè·Bà¶hì@;
-+ (id)8°¹°ÞDùqÝÒ0
-ÁÚãªL·ýô;
++ (void);
 + (id);
-+ (_Bool);
++ (void)@;
++ (void);
++ (void);
++ (id);
++ (id)completion called for %@ with no step currently running;
++ (_Bool)_photoSyncPhotoVideos;
 
 @end
 

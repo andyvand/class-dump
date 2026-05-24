@@ -6,19 +6,12 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSData, NSString;
 @protocol HAP2AccessoryServerTransportRequestEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerTransportRequest : HAP2LoggingObject
 {
     _Bool _forReading;
-    _Bool _encrypted;
-    id <HAP2AccessoryServerTransportRequestEndpoint> _endpoint;
-    NSString *_mimeType;
-    NSData *_data;
-    long long _dscpPriority;
-    unsigned long long _identifier;
 }
 
 + (id);
@@ -28,22 +21,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
+- (id)_playbackControlButtonType;
 - (id);
+- (_Bool)M;
 - (id);
-- (_Bool);
+- (id)le://"] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)hRequestObject:serializationType:timeout:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)sendPUTRequestToURL:withRequestObject:serializationType:timeout:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) long long dscpPriority; // @synthesize dscpPriority=_dscpPriority;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted; // @synthesize encrypted=_encrypted;
 @property(readonly, nonatomic) id <HAP2AccessoryServerTransportRequestEndpoint> endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, nonatomic, getter=isForReading) _Bool forReading; // @synthesize forReading=_forReading;
-@property(readonly, nonatomic, getter=isForWriting) _Bool forWriting;
-@property(readonly, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
 
 @end
 

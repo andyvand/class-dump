@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingConstraintModel
 {
 }
 
-+ (id);
++ (id)db;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *dataValue; // @dynamic dataValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *hmbModelID;
-@property(readonly, nonatomic) NSUUID *hmbParentModelID;
-@property(readonly, nonatomic) NSString *nameForKeyPath;
-@property(copy, nonatomic) NSNumber *numberValue; // @dynamic numberValue;
-@property(copy, nonatomic) NSString *stringValue; // @dynamic stringValue;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSNumber *type; // @dynamic type;
 
 @end

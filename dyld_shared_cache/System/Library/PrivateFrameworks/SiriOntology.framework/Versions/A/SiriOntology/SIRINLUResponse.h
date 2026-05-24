@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SIRINLURequestID, SIRINLUResponseStatus;
+@class SIRINLURequestID;
 
 @interface SIRINLUResponse
 {
     SIRINLURequestID *_requestId;
-    NSArray *_parses;
-    SIRINLUResponseStatus *_responseStatus;
-    NSArray *_repetitionResults;
 }
 
 + (_Bool);
@@ -31,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *parses; // @synthesize parses=_parses;
-@property(retain, nonatomic) NSArray *repetitionResults; // @synthesize repetitionResults=_repetitionResults;
 @property(retain, nonatomic) SIRINLURequestID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SIRINLUResponseStatus *responseStatus; // @synthesize responseStatus=_responseStatus;
 
 @end
 

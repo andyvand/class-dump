@@ -9,12 +9,11 @@
 @interface MTLRasterizationRateSampleArrayInternal : MTLRasterizationRateSampleArray
 {
     float *_data;
-    unsigned long long _count;
 }
 
-- (id);
+- (id);
 - (float *);
-- (void)intBuffers;
+- (void)_controlPointBuffers;
 - (id);
 
 @end

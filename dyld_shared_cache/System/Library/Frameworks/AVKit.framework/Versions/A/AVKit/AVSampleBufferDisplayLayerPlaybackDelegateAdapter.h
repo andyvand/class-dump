@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AVPictureInPictureSampleBufferPlaybackDelegate;
 
 __attribute__((visibility("hidden")))
@@ -15,22 +14,15 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (CDStruct_e83c9415);
-- (_Bool);
+- (CDStruct_3c1748cc);
+- (_Bool)P;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <AVPictureInPictureSampleBufferPlaybackDelegate> playbackDelegate; // @synthesize playbackDelegate=_playbackDelegate;
-@property(readonly) Class superclass;
 
 @end
 

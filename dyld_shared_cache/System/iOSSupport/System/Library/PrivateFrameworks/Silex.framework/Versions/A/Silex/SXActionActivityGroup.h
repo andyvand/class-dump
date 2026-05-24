@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIView;
+@class NSMutableArray, NSString;
 
 @interface SXActionActivityGroup
 {
     NSString *_title;
-    NSMutableArray *_activities;
-    UIView *_sourceView;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)8@"<SXAction>"16;
@@ -25,15 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activities; // @synthesize activities=_activities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

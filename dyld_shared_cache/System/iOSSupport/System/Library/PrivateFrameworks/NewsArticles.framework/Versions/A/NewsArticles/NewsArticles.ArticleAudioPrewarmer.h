@@ -7,13 +7,11 @@
 @interface NewsArticles.ArticleAudioPrewarmer
 {
     id bundleSubscriptionManager;
-    id avAssetPrewarmer;
-    id isBundleSubscribed;
 }
 
 - (void);
 - (id);
-- (void)ecirculationService;
+- (void)articleRecirculationService;
 
 @end
 

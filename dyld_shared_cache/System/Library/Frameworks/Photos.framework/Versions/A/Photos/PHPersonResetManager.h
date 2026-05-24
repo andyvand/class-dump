@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHPhotoLibrary, PLProgressFollower;
+@class PHPhotoLibrary;
 
 @interface PHPersonResetManager
 {
     PHPhotoLibrary *_library;
-    CDUnknownBlockType _progressHandler;
-    PLProgressFollower *_progressFollower;
 }
 
+- (id);
 - (id);
-- (id);
-- (id):(CDUnknownBlockType)arg1;
+- (id)setRole:(CDUnknownBlockType)arg1;
 - (void)abled;
 - (CDUnknownBlockType)= %d);
 - (void)Ý;

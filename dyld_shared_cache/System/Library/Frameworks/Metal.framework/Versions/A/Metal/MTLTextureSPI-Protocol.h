@@ -5,38 +5,32 @@
 //
 
 @protocol MTLTextureSPI
-- (unsigned long long)sPacked32TextureBufferWrites;
-- (_Bool)rated;
+- (unsigned long long).x)));
+  vec4 t2 = sample(src, samplerTransform(src, c + vec2(-offset.x, 0.0)));
+  vec4 t3 = sample(src, samplerTransform(src, c + vec2(offset.x, 0.0)));
+  vec4 t4 = sample(src, samplerTransform(src, c + vec2(offset.y, offset.y)));
+  vec4 t5 = sample(src, samplerTransform(src, c + vec2(offset.y, -offset.y)));
+  vec4 t6 = sample(src, samplerTransform(src, c + vec2(-offset.y, -offset.y)));
+  vec4 t7 = sample(src, samplerTransform(src, c + vec2(-offset.y, offset.y)));
+  t0 = (((((t0 + t1) + t2) + t3) * weight.x) + ((((t4 + t5) + t6) + t7) * weight.y)) + (cn * weight.z);
+  vec4 d = abs(t0 - cn);
+  float s = intensity.x + (intensity.y * ((d.r + d.g) + d.b));
+  s = clamp(s, intensity.z, 1.0);
+  return mix(cn, t0, s);
+}
+;
+- (unsigned long long)ns data;
+- (unsigned long long);
+- (unsigned long long)HIHiliteStyle;
+- (unsigned long long)familySupportsPacked32TextureBufferWrites;
+- (_Bool)SourceAlphaSaturated;
 - (unsigned int)lection:%llu /* Error: Ran out of types for this method. */;
 
+@optional
+- (long long)nation::addImage - %g ms
+ /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long colorSpaceConversionMatrix;
-@property(readonly) long long compressionFeedback;
-@property(readonly, nonatomic) unsigned long long compressionFootprint;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
 @property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isCompressed;
-@property(readonly) _Bool isDrawable;
-@property(readonly) unsigned long long numFaces;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long rotation;
-@property(readonly) unsigned long long sparseSurfaceDefaultValue;
-@property(readonly) unsigned int swizzleKey;
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) long long writeAccessPattern;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
 @end
 

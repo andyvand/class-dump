@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
-- (id)ingPreference:(struct CGRect)arg1;
+- (id)setFindingPreference:(struct CGRect)arg1;
 - (void);
 - (id)÷c;
 - (void)þl;
@@ -30,8 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *backgroundView;
-@property(nonatomic, readonly) double naturalHeight;
-@property(nonatomic, readonly) _Bool shouldExtendCaretHeight;
 
 @end
 

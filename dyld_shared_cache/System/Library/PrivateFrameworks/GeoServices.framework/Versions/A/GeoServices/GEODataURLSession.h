@@ -4,45 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODataURLSessionList, NSMutableDictionary, NSObject, NSOperationQueue, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class GEODataURLSessionList;
 
 @interface GEODataURLSession
 {
     GEODataURLSessionList *_urlSessions;
-    NSObject<OS_dispatch_queue> *_sessionIsolation;
-    NSOperationQueue *_sessionIsolationOperationQueue;
-    NSMutableDictionary *_sessionTasks;
-    NSObject<OS_dispatch_source> *_memoryNotificationEventSource;
-    unsigned int _nextSessionIdentifier;
-    int _symptomsAlternateAdviceToken;
 }
 
 + (id);
 + (id)gzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libaddr_obj/cpp/src/geo3-slim.pb.cc;
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id).MobileAsset.VoiceTriggerAssetsMac;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)%d %s] filtering %zu input bytes at offset %llu;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_separators;
 - (void);
 - (id);
 - (id)1Â0@ù
@@ -62,18 +55,7 @@
 - (void)X8¶ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int nextSessionIdentifier; // @synthesize nextSessionIdentifier=_nextSessionIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sessionIsolation; // @synthesize sessionIsolation=_sessionIsolation;
-@property(readonly, nonatomic) NSOperationQueue *sessionIsolationOperationQueue; // @synthesize sessionIsolationOperationQueue=_sessionIsolationOperationQueue;
-@property(readonly, nonatomic) NSMutableDictionary *sessionTasks; // @synthesize sessionTasks=_sessionTasks;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEODataURLSessionList *urlSessions; // @synthesize urlSessions=_urlSessions;
 
 @end
 

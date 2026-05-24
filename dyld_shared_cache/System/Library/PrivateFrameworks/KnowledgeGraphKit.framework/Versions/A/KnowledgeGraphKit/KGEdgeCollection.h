@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__objc_classname__TEXT;
 - (id);
 - (void);
 

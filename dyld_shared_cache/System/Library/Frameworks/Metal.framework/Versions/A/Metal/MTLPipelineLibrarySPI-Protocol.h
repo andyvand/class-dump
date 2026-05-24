@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol MTLDevice, MTLPipelineCache;
+@class MTLComputePipelineDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString;
+@protocol MTLComputePipelineState, MTLPipelineCache;
 
 @protocol MTLPipelineLibrarySPI
+- (_Bool)grayComponentReplacement;
+- (id <MTLComputePipelineState>);
+- (MTLRenderPipelineDescriptor *)StrainSourceRegistryCodeSequence;
+- (MTLComputePipelineDescriptor *)c;
+- (id <MTLPipelineCache>);
+- (NSArray *)I;
 - (void)eShmem""tqe_prev"^@}"time_added"Q};
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property _Bool disableRunTimeCompilation;
-@property(readonly, nonatomic) id <MTLPipelineCache> functionCache;
 @property(copy) NSString *label;
-@property(readonly) NSArray *metallibPaths;
-@property(readonly, nonatomic) id <MTLPipelineCache> pipelineCache;
-@property(readonly) NSArray *pipelineNames;
 @end
 

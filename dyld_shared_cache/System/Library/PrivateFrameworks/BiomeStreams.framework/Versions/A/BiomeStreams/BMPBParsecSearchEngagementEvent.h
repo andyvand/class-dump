@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBParsecSearchEngagementEvent
 {
     double _absoluteTimestamp;
-    NSString *_completedQuery;
-    NSString *_contentProtection;
-    NSString *_domainId;
-    NSMutableArray *_entities;
-    NSString *_personaId;
-    NSString *_resultId;
-    NSString *_uniqueId;
-    NSString *_userInput;
-    CDStruct_d3e759b0 _has;
 }
 
 + (Class);
@@ -27,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -38,11 +27,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ScheduleReleasedPkts;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)H.;
 - (void);
 - (double);
 - (unsigned long long);
@@ -51,7 +40,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (_Bool);
@@ -64,23 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *completedQuery; // @synthesize completedQuery=_completedQuery;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(retain, nonatomic) NSMutableArray *entities; // @synthesize entities=_entities;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasCompletedQuery;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(readonly, nonatomic) _Bool hasPersonaId;
 @property(readonly, nonatomic) _Bool hasResultId;
-@property(readonly, nonatomic) _Bool hasUniqueId;
-@property(readonly, nonatomic) _Bool hasUserInput;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *resultId; // @synthesize resultId=_resultId;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
-@property(retain, nonatomic) NSString *userInput; // @synthesize userInput=_userInput;
 
 @end
 

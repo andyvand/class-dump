@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ECHeaderAuthenticationResults
 {
     NSString *_authenticationServiceIdentifier;
-    long long _version;
-    NSArray *_statements;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)H;
++ (id)4h;
+- (id)c}@;
+- (id)ted subclass of UIMenuElement. Only UIAction and UIMenu types are supported. Skipping:(id)arg1 %@.;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)LL message;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *authenticationServiceIdentifier; // @synthesize authenticationServiceIdentifier=_authenticationServiceIdentifier;
-@property(readonly, copy, nonatomic) NSArray *statements; // @synthesize statements=_statements;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

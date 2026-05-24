@@ -8,26 +8,20 @@ __attribute__((visibility("hidden")))
 @interface ODIHNodeInfo
 {
     int mTreeDepth;
-    int mRow;
-    struct ODIHRange mXRange;
-    _Bool mConnectToVerticalSide;
-    int mExtraRowsBetweenParentAndSelf;
-    float mXOffsetRelativeToParent;
-    void *mXRanges;
 }
 
 - (struct ODIHRange);
-- (float);
+- (float);
 - (int);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (int);
 - (_Bool);
 - (void);
-- (void *);
+- (void *);
 - (void);
 - (void);
 - (id);

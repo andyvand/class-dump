@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSSecureTextField, NSString, NSTextField;
-@protocol PDFPasswordAlertDelegate;
+@class NSImageView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface PDFPasswordAlert
 {
     NSString *_alertText;
-    NSString *_informativeText;
-    NSString *_password;
-    id <PDFPasswordAlertDelegate> _delegate;
-    CDUnknownBlockType _validatePasswordBlock;
-    NSImageView *_imageView;
-    NSTextField *_alertTextField;
-    NSTextField *_informativeTextField;
-    NSSecureTextField *_passwordTextField;
 }
 
 - (CDUnknownBlockType);
@@ -31,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)isode_id TEXT NOT NULL DEFAULT '', network_name TEXT NOT NULL DEFAULT '', extended_content_rating TEXT NOT NULL DEFAULT '', movie_info TEXT NOT NULL DEFAULT '', bit_rate INTEGER NOT NULL DEFAULT 0, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, jalisco_token INTEGER NOT NULL DEFAULT 0, codec_type INTEGER NOT NULL DEFAULT 0, codec_subtype INTEGER NOT NULL DEFAULT 0, format TEXT, data_kind INTEGER NOT NULL DEFAULT 0, data_url TEXT, has_video INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, has_chapter_data INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0;
 - (void);
 - (id);
 - (void);
@@ -46,15 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alertText; // @synthesize alertText=_alertText;
-@property(retain) NSTextField *alertTextField; // @synthesize alertTextField=_alertTextField;
-@property(nonatomic) __weak id <PDFPasswordAlertDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(copy, nonatomic) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(retain) NSTextField *informativeTextField; // @synthesize informativeTextField=_informativeTextField;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(retain) NSSecureTextField *passwordTextField; // @synthesize passwordTextField=_passwordTextField;
-@property(copy) CDUnknownBlockType validatePasswordBlock; // @synthesize validatePasswordBlock=_validatePasswordBlock;
 
 @end
 

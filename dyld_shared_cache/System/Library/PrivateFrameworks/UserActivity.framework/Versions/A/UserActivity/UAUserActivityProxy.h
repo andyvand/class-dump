@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, NSUserActivity, UABestAppSuggestion;
+@class NSUUID;
 
 @interface UAUserActivityProxy
 {
     _Bool _isRemoteActivity;
-    NSString *_activityType;
-    NSString *_dynamicActivityType;
-    NSString *_bundleIdentifier;
-    NSUUID *_uuid;
-    NSUserActivity *_internalActivity;
-    UABestAppSuggestion *_suggestedActivity;
 }
 
-+ (_Bool);
++ (_Bool)m;
 - (id);
 - (void);
 - (void);
@@ -30,14 +24,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (id);
+- (unsigned long long)playerfig_prepareWorkingItem;
+- (void)h;
 - (id);
 - (id);
 - (void);
@@ -45,12 +39,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *dynamicActivityType; // @synthesize dynamicActivityType=_dynamicActivityType;
-@property(retain) NSUserActivity *internalActivity; // @synthesize internalActivity=_internalActivity;
-@property(readonly) _Bool isRemoteActivity; // @synthesize isRemoteActivity=_isRemoteActivity;
-@property(retain) UABestAppSuggestion *suggestedActivity; // @synthesize suggestedActivity=_suggestedActivity;
 @property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

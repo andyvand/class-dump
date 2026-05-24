@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXFormattedText;
+@class SXFormattedText;
 
 @protocol SXQuickLookComponent
 
 // Remaining properties
 @property(readonly, nonatomic) SXFormattedText *caption;
-@property(readonly, nonatomic) NSString *fileExtension;
-@property(readonly, nonatomic) NSString *resourceIdentifier;
 @end
 

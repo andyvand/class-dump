@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AFAssertionContextMutating
+- (void)!;
+- (void)setHfsFlags:(NSDictionary *)arg1;
 @end
 

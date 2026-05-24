@@ -6,41 +6,34 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class EKEventNotesInlineEditItem, EKEventURLInlineEditItem, NSString;
+@class EKEventURLInlineEditItem;
 
 @interface EKEventURLAndNotesInlineEditItem : EKEventEditItem
 {
     EKEventURLInlineEditItem *_urlEditItem;
-    EKEventNotesInlineEditItem *_notesEditItem;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)&s;
+- (void)Y%s;
+- (void);
+- (id)s;
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)&s;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ol ;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
-- (void)ectionOfProperty: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
+- (void)setPredicateForSelectionOfProperty: /* Error: Ran out of types for this method. */;
 - (double)b	_i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCustomToolTipDrawView, NSDate, NSMapTable, NSTimer, NSToolTip, NSToolTipPanel, NSWindow;
+@class NSMapTable;
 
 @interface NSToolTipManager
 {
     NSMapTable *_toolTipsByView;
-    double _toolTipDelay;
-    NSDate *_timeToolTipRemovedFromScreen;
-    struct __CFRunLoopTimer *_toolTipDisplayTimer;
-    double _currentFadeValue;
-    NSTimer *_fadeTimer;
-    NSWindow *_lastToolTipWindow;
-    NSToolTip *_currentDisplayedNormalToolTip;
-    NSToolTipPanel *_normalToolTipPanel;
-    NSCustomToolTipDrawView *_normalToolTipDrawView;
-    NSToolTip *_currentDisplayedExpansionToolTip;
-    NSToolTipPanel *_expansionToolTipPanel;
-    NSCustomToolTipDrawView *_expansionToolTipDrawView;
 }
 
 + (id);
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
++ (_Bool)extract signed message from request.;
++ (_Bool){public}@ invalid authentication state;
+- (_Bool):(id)arg1 %f };
+- (void)Captioning;
+- (double)BEF6Ar3jV7LrQ;
+- (id)ZEF0po63sTgpVrc9Ce7YNQ;
+- (id)1Rm/mWYEI5ttaC0dJ3sHBQ;
+- (id)juE6wCsjVG4bfAhgHcUVcQ;
+- (struct CGSize)uksZ8eaKeV5sUpLNBPafww;
+- (id)CK3I7fFGkgeqzKEhGew9rQ;
+- (id)JJo6pvnog;
 - (void);
 - (void);
 - (long long);
@@ -60,34 +48,34 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)s"i"fHTTPNumFastLanes"i"fHTTPMinimumFastLanePriority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (void)ns:(id)arg1 assetOptions:(_Bool)arg2 childDownloadSessionIdentifier:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (void)authenticationMethod;
+- (void)assetTitle;
+- (id)NSURLSessionStreamDelegate;
+- (void);
+- (_Bool)lic,xcode:(id)arg1 data}.*s;
+- (void)triggered;
+- (id)ection to existing session and state complete;
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (_Bool);
+- (void)20@?0^{_CFURLCredential=}8B16;
+- (long long)NSURLSessionDelegateImplementsWillPerformRedirectionKey;
+- (void)ApacheTrafficServer;
+- (void)kNetworkProxyCredentialKeyCredential;
 - (void);
+- (void)INVALID_PROOF;
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)ler:(id)arg1;
+- (void)beginCriticalSheet:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

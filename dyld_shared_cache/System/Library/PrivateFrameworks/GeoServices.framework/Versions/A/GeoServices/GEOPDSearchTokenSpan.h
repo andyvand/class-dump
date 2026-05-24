@@ -8,16 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchTokenSpan
 {
     int _beginIndex;
-    int _endIndex;
 }
 
 - (id);
-- (void);
+- (void)rowAtIndexPath:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)d"b1"has_ifChained"b1};
-- (id)t;
+- (id)_representativePoint;
 - (id)ÌÃ Ä$ÅøÅ@ÆÇÇÈ;
 
 @end

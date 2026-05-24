@@ -5,31 +5,17 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface DisplayALSManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct ALSStruct _als;
-    struct DisplayStruct _display;
-    struct __CFString *_IOPMDynamicStoreSettingsKey;
-    struct __SCDynamicStore *_SCDynamicStore;
-    CDStruct_e097db04 *_SCDynamicStoreContext;
-    int _currentReducedBrightnessSetting;
-    _Bool _ecoModeState;
-    int _ecoModeNotificationToken;
-    CDUnknownBlockType _ecoModeNotificationHandler;
-    unsigned int _powerNotifierRootIOKitPort;
-    struct IONotificationPort *_powerNotifierPortRef;
-    unsigned int _powerNotifierObject;
-    _Bool _removedMagSafeOnSleep;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

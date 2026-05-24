@@ -7,11 +7,6 @@
 @interface NewsUI2.TagFeedServiceContext
 {
     id identifier;
-    id feedDescriptor;
-    id purpose;
-    id log;
-    id kind;
-    id serviceOptions;
 }
 
 @end

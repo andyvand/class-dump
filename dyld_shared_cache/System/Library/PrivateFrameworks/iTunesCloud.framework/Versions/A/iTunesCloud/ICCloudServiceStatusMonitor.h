@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudServerListenerEndpointProvider, MSVDefaultDictionary, NSError, NSMutableSet, NSObject, NSString, NSUUID, NSXPCConnection;
-@protocol OS_dispatch_source;
+@class NSXPCConnection;
 
 @interface ICCloudServiceStatusMonitor
 {
     NSXPCConnection *_cloudServiceStatusMonitorConnection;
-    NSError *_cloudServiceStatusMonitorConnectionEstablishmentError;
-    NSMutableSet *_activeTransactionIdentifiersForCloudServiceStatusMonitorConnection;
-    ICCloudServerListenerEndpointProvider *_listenerEndpointProvider;
-    long long _privacyAcknowledgementPolicy;
-    unsigned long long _observingCloudServiceStatusRequestsCount;
-    NSUUID *_observationToken;
-    NSString *_transactionIdentifierForActiveObservationToken;
-    int _cloudServerLaunchedNotifyToken;
-    NSObject<OS_dispatch_source> *_cloudServerLaunchTimeoutTimer;
-    unsigned long long _capabilities;
-    _Bool _hasValidCapabilities;
-    NSString *_storefrontCountryCode;
-    NSString *_storefrontIdentifier;
-    MSVDefaultDictionary *_developerTokenCompletionHandlers;
-    MSVDefaultDictionary *_userTokenCompletionHandlers;
-    MSVDefaultDictionary *_tokensCompletionHandlers;
-    struct os_unfair_lock_s _lock;
 }
 
 + (_Bool);
@@ -38,12 +20,1229 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sphericalHarmonicsForEnvironmentTexture:(CDUnknownBlockType)arg1 order:commandBuffer: /* Error: Ran out of types for this method. */;
+- (void)ndVector3 - Type not supported;
+- (void)v = (g*F-f*G) * EGFF * dPu + (f*F-g*E) * EGFF * dPv;
+
+    float powrn = 1.0 / powr(dot(n,n), 1.5);
+
+    dNu = dNu * ln - n * (dot(dNu,n) * powrn);
+    dNv = dNv * ln - n * (dot(dNv,n) * powrn);
+#else //OSD_COMPUTE_NORMAL_DERIVATIVES
+    OsdUnivar4x4(UV.y, B, D);
+
+    P = B[0] * BUCP[0];
+    dPu = B[0] * DUCP[0];
+    dPv = D[0] * BUCP[0];
+
+    for (int k=1; k<4; ++k) {
+        P   += B[k] * BUCP[k];
+        dPu += B[k] * DUCP[k];
+        dPv += D[k] * BUCP[k];
+    }
+    int level = OsdGetPatchFaceLevel(patchParam);
+    dPu *= 3 * level;
+    dPv *= 3 * level;
+
+    N = normalize(cross(dPu, dPv));
+    dNu = float3(0,0,0);
+    dNv = float3(0,0,0);
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+}
+
+// compute single-crease patch matrix
+static float4x4 OsdComputeMs(float sharpness)
+{
+    float s = exp2(sharpness);
+    float s2 = s*s;
+    float s3 = s2*s;
+
+    float4x4 m(
+        float4(0, s + 1 + 3*s2 - s3, 7*s - 2 - 6*s2 + 2*s3, (1-s)*(s-1)*(s-1)),
+        float4(0,       (1+s)*(1+s),        6*s - 2 - 2*s2,       (s-1)*(s-1)),
+        float4(0,               1+s,               6*s - 2,               1-s),
+        float4(0,                 1,               6*s - 2,                 1));
+
+    m[0] /= (s*6.0);
+    m[1] /= (s*6.0);
+    m[2] /= (s*6.0);
+    m[3] /= (s*6.0);
+
+    m[0][0] = 1.0/6.0;
+
+    return m;
+}
+
+// flip matrix orientation
+static float4x4 OsdFlipMatrix(float4x4 m)
+{
+    return float4x4(float4(m[3][3], m[3][2], m[3][1], m[3][0]),
+                    float4(m[2][3], m[2][2], m[2][1], m[2][0]),
+                    float4(m[1][3], m[1][2], m[1][1], m[1][0]),
+                    float4(m[0][3], m[0][2], m[0][1], m[0][0]));
+}
+
+static void OsdFlipMatrix(threadgroup float * src, threadgroup float * dst)
+{
+    for (int i = 0; i < 16; i++) dst[i] = src[15-i];
+}
+
+
+// ----------------------------------------------------------------------------
+// Legacy Gregory
+// ----------------------------------------------------------------------------
+#if OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+#if OSD_MAX_VALENCE<=10
+constant float ef[7] = {
+    0.813008, 0.500000, 0.363636, 0.287505,
+    0.238692, 0.204549, 0.179211
+};
+#else
+constant float ef[27] = {
+    0.812816, 0.500000, 0.363644, 0.287514,
+    0.238688, 0.204544, 0.179229, 0.159657,
+    0.144042, 0.131276, 0.120632, 0.111614,
+    0.103872, 0.09715, 0.0912559, 0.0860444,
+    0.0814022, 0.0772401, 0.0734867, 0.0700842,
+    0.0669851, 0.0641504, 0.0615475, 0.0591488,
+    0.0569311, 0.0548745, 0.0529621
+};
+#endif
+
+static float cosfn(int n, int j) {
+    return cospi((2.0f * j)/float(n));
+}
+
+static float sinfn(int n, int j) {
+    return sinpi((2.0f * j)/float(n));
+}
+
+#ifndef OSD_MAX_VALENCE
+#define OSD_MAX_VALENCE 4
+#endif
+
+
+template<typename OsdVertexBuffer>
+static float3 OsdReadVertex(int vertexIndex, OsdVertexBuffer osdVertexBuffer)
+{
+    int index = (vertexIndex /*+ OsdBaseVertex()*/);
+    return osdVertexBuffer[index].position;
+}
+
+template<typename OsdValenceBuffer>
+static int OsdReadVertexValence(int vertexID, OsdValenceBuffer osdValenceBuffer)
+{
+    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1));
+    return osdValenceBuffer[index];
+}
+
+template<typename OsdValenceBuffer>
+static int OsdReadVertexIndex(int vertexID, int valenceVertex, OsdValenceBuffer osdValenceBuffer)
+{
+    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1) + 1 + valenceVertex);
+    return osdValenceBuffer[index];
+}
+
+template<typename OsdQuadOffsetBuffer>
+static int OsdReadQuadOffset(int primitiveID, int offsetVertex, OsdQuadOffsetBuffer osdQuadOffsetBuffer)
+{
+    int index = int(4*primitiveID + offsetVertex);
+    return osdQuadOffsetBuffer[index];
+}
+
+
+static void OsdComputePerVertexGregory(unsigned vID, float3 P, threadgroup OsdPerVertexGregory& v, OsdPatchParamBufferSet osdBuffers)
+{
+    v.clipFlag = short3(0,0,0);
+
+    int ivalence = OsdReadVertexValence(vID, osdBuffers.valenceBuffer);
+    v.valence = ivalence;
+    int valence = abs(ivalence);
+
+    float3 f[OSD_MAX_VALENCE];
+    float3 pos = P;
+    float3 opos = float3(0,0,0);
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.org = pos;
+    int boundaryEdgeNeighbors[2];
+    int currNeighbor = 0;
+    int ibefore = 0;
+    int zerothNeighbor = 0;
+#endif
+
+    for (int i=0; i<valence; ++i) {
+        int im = (i+valence-1)%valence;
+        int ip = (i+1)%valence;
+
+        int idx_neighbor = OsdReadVertexIndex(vID, 2*i, osdBuffers.valenceBuffer);
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+        bool isBoundaryNeighbor = false;
+        int valenceNeighbor = OsdReadVertexValence(idx_neighbor, osdBuffers.valenceBuffer);
+
+        if (valenceNeighbor < 0) {
+            isBoundaryNeighbor = true;
+            if (currNeighbor<2) {
+                boundaryEdgeNeighbors[currNeighbor] = idx_neighbor;
+            }
+            currNeighbor++;
+            if (currNeighbor == 1) {
+                ibefore = i;
+                zerothNeighbor = i;
+            } else {
+                if (i-ibefore == 1) {
+                    int tmp = boundaryEdgeNeighbors[0];
+                    boundaryEdgeNeighbors[0] = boundaryEdgeNeighbors[1];
+                    boundaryEdgeNeighbors[1] = tmp;
+                    zerothNeighbor = i;
+                }
+            }
+        }
+#endif
+
+        float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*i + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_p = OsdReadVertexIndex(vID, 2*ip, osdBuffers.valenceBuffer);
+        float3 neighbor_p = OsdReadVertex(idx_neighbor_p, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_m = OsdReadVertexIndex(vID, 2*im, osdBuffers.valenceBuffer);
+        float3 neighbor_m = OsdReadVertex(idx_neighbor_m, osdBuffers.vertexBuffer);
+
+        int idx_diagonal_m = OsdReadVertexIndex(vID, 2*im + 1, osdBuffers.valenceBuffer);
+        float3 diagonal_m = OsdReadVertex(idx_diagonal_m, osdBuffers.vertexBuffer);
+
+        f[i] = (pos * float(valence) + (neighbor_p + neighbor)*2.0f + diagonal) / (float(valence)+5.0f);
+
+        opos += f[i];
+        v.r[i] = (neighbor_p-neighbor_m)/3.0f + (diagonal - diagonal_m)/6.0f;
+    }
+
+    opos /= valence;
+    v.P = float4(opos, 1.0f).xyz;
+
+    float3 e;
+    v.e0 = float3(0,0,0);
+    v.e1 = float3(0,0,0);
+
+    for(int i=0; i<valence; ++i) {
+        int im = (i + valence -1) % valence;
+        e = 0.5f * (f[i] + f[im]);
+        v.e0 += cosfn(valence, i)*e;
+        v.e1 += sinfn(valence, i)*e;
+    }
+    v.e0 *= ef[valence - 3];
+    v.e1 *= ef[valence - 3];
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.zerothNeighbor = zerothNeighbor;
+    if (currNeighbor == 1) {
+        boundaryEdgeNeighbors[1] = boundaryEdgeNeighbors[0];
+    }
+
+    if (ivalence < 0) {
+        if (valence > 2) {
+            v.P = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+                   OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+                   4.0f * pos)/6.0f;
+        } else {
+            v.P = pos;
+        }
+
+        v.e0 = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) -
+                OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer))/6.0;
+
+        float k = float(float(valence) - 1.0f);    //k is the number of faces
+        float c = cospi(1.0/k);
+        float s = sinpi(1.0/k);
+        float gamma = -(4.0f*s)/(3.0f*k+c);
+        float alpha_0k = -((1.0f+2.0f*c)*sqrt(1.0f+c))/((3.0f*k+c)*sqrt(1.0f-c));
+        float beta_0 = s/(3.0f*k + c);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*zerothNeighbor + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        v.e1 = gamma * pos +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+            beta_0 * diagonal;
+
+        for (int x=1; x<valence - 1; ++x) {
+            int curri = ((x + zerothNeighbor)%valence);
+            float alpha = (4.0f*sinpi((float(x))/k))/(3.0f*k+c);
+            float beta = (sinpi((float(x))/k) + sinpi((float(x+1))/k))/(3.0f*k+c);
+
+            int idx_neighbor = OsdReadVertexIndex(vID, 2*curri, osdBuffers.valenceBuffer);
+            float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+            idx_diagonal = OsdReadVertexIndex(vID, 2*curri + 1, osdBuffers.valenceBuffer);
+            diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+            v.e1 += alpha * neighbor + beta * diagonal;
+        }
+
+        v.e1 /= 3.0f;
+    }
+#endif
+}
+
+static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsigned primitiveID,
+                                threadgroup OsdPerVertexGregory* v,
+                                device OsdPerPatchVertexGregory& result,
+                                OsdPatchParamBufferSet osdBuffers)
+{
+    result.P = v[ID].P;
+
+    int i = ID;
+    int ip = (i+1)%4;
+    int im = (i+3)%4;
+    int valence = abs(v[i].valence);
+    int n = valence;
+
+    int start = OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev = (OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int start_m = OsdReadQuadOffset(primitiveID, im, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev_p = (OsdReadQuadOffset(primitiveID, ip, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int np = abs(v[ip].valence);
+    int nm = abs(v[im].valence);
+
+    // Control Vertices based on :(CDUnknownBlockType)arg1 // "Approximating Subdivision Surfaces with Gregory Patches
+    //  for Hardware Tessellation"
+    // Loop, Schaefer, Ni, Castano (ACM ToG Siggraph Asia 2009)
+    //
+    //  P3         e3-      e2+         P2
+    //     O--------O--------O--------O
+    //     |        |        |        |
+    //     |        |        |        |
+    //     |        | f3-    | f2+    |
+    //     |        O        O        |
+    // e3+ O------O            O------O e2-
+    //     |     f3+          f2-     |
+    //     |                          |
+    //     |                          |
+    //     |      f0-         f1+     |
+    // e0- O------O            O------O e1+
+    //     |        O        O        |
+    //     |        | f0+    | f1-    |
+    //     |        |        |        |
+    //     |        |        |        |
+    //     O--------O--------O--------O
+    //  P0         e0+      e1-         P1
+    //
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    float3 Em_ip;
+    if (v[ip].valence < -2) {
+        int j = (np + prev_p - v[ip].zerothNeighbor) % np;
+        Em_ip = v[ip].P + cospi(j/float(np-1))*v[ip].e0 + sinpi(j/float(np-1))*v[ip].e1;
+    } else {
+        Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    }
+
+    float3 Ep_im;
+    if (v[im].valence < -2) {
+        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
+        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
+    } else {
+        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+    }
+
+    if (v[i].valence < 0) {
+        n = (n-1)*2;
+    }
+    if (v[im].valence < 0) {
+        nm = (nm-1)*2;
+    }
+    if (v[ip].valence < 0) {
+        np = (np-1)*2;
+    }
+
+    if (v[i].valence > 2) {
+        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
+        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+
+        float s1=3-2*cosfn(n,1)-cosfn(np,1);
+        float s2=2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+    } else if (v[i].valence < -2) {
+        int j = (valence + start - v[i].zerothNeighbor) % valence;
+
+        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+        j = (valence + prev - v[i].zerothNeighbor) % valence;
+        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+
+        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
+        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+
+        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+        float s2 = 2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+        if (v[im].valence < 0) {
+            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        } else if (v[ip].valence < 0) {
+            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
+            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+        }
+
+    } else if (v[i].valence == -2) {
+        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
+        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
+        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+    }
+
+#else // not OSD_PATCH_GREGORY_BOUNDARY
+
+    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+;
+- (void)er::linear);
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float NoV = saturate(dot(n, v));
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    
+    float3 irradiance = float3(0.0);
+    
+    ushort const sampleCountDiffuse = 1024;
+    for (ushort i = 0; i < sampleCountDiffuse; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCountDiffuse);
+        float3 l = scn_importanceSampleCosine_brdf(random, n); 
+        
+        float NoL = saturate(dot(n, l));
+        
+        if (NoL > 0) {
+            float3 Li = environment.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            irradiance += Li; 
+        }
+    }
+    
+    irradiance = irradiance / float(sampleCountDiffuse);
+    
+    
+    float3 specular = float3(0.0);
+    float specularWeight = 0.0;
+    
+    float correctedRoughness = mix(1.0f / 128.0f, 1.0f - 1.0f / 128.0f, roughness);
+    float alpha = correctedRoughness * correctedRoughness; 
+    
+    ushort const sampleCountSpecular = 128;
+    for (ushort i = 0; i < sampleCountSpecular; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCountSpecular);
+        float3 h = scn_importanceSampleGGX_brdf(random, correctedRoughness, n); 
+        float3 l = reflect(-v, h); 
+        
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        if (NoH * NoV > 0) {
+            float3 Li = environment.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            float3 F = scn_brdf_F(reflectance, LoH);
+            float G = scn_brdf_G(alpha, NoL, NoV);
+#if 0
+            float D = scn_brdf_D(alpha, NoH);
+            float pdf = (D * NoH) / (4.0f * LoH);
+            
+            if (pdf >= 0) {
+                float3 l = D * F * G / (4.0f * NoV); 
+                specular += Li * l / pdf;
+                specularWeight += 1.0f;
+            }
+#else
+            specular += Li * F * G * LoH / (NoH * NoV);
+            specularWeight += 1.0f;
+#endif
+        }
+    }
+    
+    specular /= specularWeight;
+    
+    
+    return ambientOcclusion * (effectiveAlbedo * irradiance + specular);
+}
+
+
+
+inline float3x3 scn_ltc_matrix_invert_transpose(float3x3 m)
+{
+    float a = m[0][0];
+    float b = m[1][0];
+    float c = m[0][1];
+    float d = m[1][1];
+    float det = a * d - b * c;
+    m[0][0] = +det * d;
+    m[1][0] = -det * b;
+    m[1][0] = -det * c;
+    m[1][1] = +det * a;
+    m[2][2] = 1.f / m[2][2];
+    return m;
+}
+
+inline float3x3 scn_sample_area_light_precomputed_data(float3                 v,
+                                                       float3                 n,
+                                                       float                  roughness,
+                                                       thread float*          brdfNorm,
+                                                       texture2d_array<float> bakedDataTexture)
+{
+    constexpr sampler linearSampler = sampler(address::clamp_to_edge, filter::linear);
+    
+    float theta = acos(fabs(dot(n, v)));
+    float2 uv = float2(roughness, theta * M_2_PI_F);
+    
+    float4 dataA = bakedDataTexture.sample(linearSampler, uv, 0);
+    float4 dataB = bakedDataTexture.sample(linearSampler, uv, 1);
+    
+    *brdfNorm = dataB.y;
+    
+    return float3x3(float3(dataA.x, dataA.y, 0.f),
+                    float3(dataA.z, dataA.w, 0.f),
+                    float3(0.f, 0.f, dataB.x));
+}
+
+inline float3 scn_area_light_polygon_edge_vector_form_factor(float3 cornerDirectionA,
+                                                             float3 cornerDirectionB)
+{
+    
+    
+    
+#if 0
+    float theta = acos(dot(cornerDirectionA, cornerDirectionB));
+    return (0.5f * M_1_PI_F) * cross(cornerDirectionA, cornerDirectionB) * ((theta > 0.001) ? theta/sin(theta) :1.0);
+#else
+    float x = dot(cornerDirectionA, cornerDirectionB);
+    float y = abs(x);
+    
+    float a = 5.42031f + (3.12829f + 0.0902326 * y) * y;
+    float b = 3.45068f + (4.18814f + y) * y;
+    float thetaOverSinTheta = a / b;
+    
+    if (x < 0.f)
+        thetaOverSinTheta = M_PI_F * rsqrt(1.f - x * x) - thetaOverSinTheta;
+    
+    float3 u = cross(cornerDirectionA, cornerDirectionB);
+    return (0.5f * M_1_PI_F) * thetaOverSinTheta * u;
+#endif
+}
+
+inline float scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(float3 vectorFormFactor)
+{
+#if 1
+    
+    float l = length(vectorFormFactor);
+    return max((l * l + vectorFormFactor.y) / (l + 1.f), 0.f);
+#else
+    
+    return max(vectorFormFactor.y, 0.f);
+#endif
+}
+
+inline float pbr_area_light_eval_rectangle(float4x3 corners)
+{
+    
+    
+    
+    float3 corner0 = normalize(corners[0]);
+    float3 corner1 = normalize(corners[1]);
+    float3 corner2 = normalize(corners[2]);
+    float3 corner3 = normalize(corners[3]);
+    
+    float3 vectorFormFactor = float3(0.f);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner1, corner2);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner2, corner3);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner3, corner0);
+    
+    return scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_eval_polygon(float3                position,
+                                         float3                lightCenter,
+                                         float3                lightRight,
+                                         float3                lightTop,
+                                         uint32_t              vertexCount,
+                                         device packed_float2 *vertexPositions)
+{
+    
+    
+    
+    float3 vectorFormFactor = float3(0.f);
+    for (uint32_t vertexIndex = 0; vertexIndex < vertexCount; ++vertexIndex) {
+        packed_float2 localCorner0 = vertexPositions[vertexIndex];
+        packed_float2 localCorner1 = vertexPositions[(vertexIndex + 1) % vertexCount];
+        
+        
+        
+        float3 cornerDirection0 = lightCenter - localCorner0[0] * lightRight + localCorner0[1] * lightTop;
+        float3 cornerDirection1 = lightCenter - localCorner1[0] * lightRight + localCorner1[1] * lightTop;
+        
+        float3 corner0 = normalize(cornerDirection0 - position);
+        float3 corner1 = normalize(cornerDirection1 - position);
+        
+        vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    }
+    
+    return scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_line_integral_position(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l / (d * (d_squared + l_squared)) + atan(l / d) / d_squared;
+}
+
+inline float pbr_area_light_line_integral_direction(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l_squared / (d * (d_squared + l_squared));
+}
+
+inline float pbr_area_light_eval_line(float2x3 cornerDirections)
+{
+    
+    
+    
+    float3 corner0 = normalize(cornerDirections[0]);
+    float3 corner1 = normalize(cornerDirections[1]);
+    
+    float3 direction = normalize(corner1 - corner0);
+    
+    if (corner0.y <= 0.f && corner1.y <= 0.f) return 0.f;
+    if (corner0.y < 0.f) corner0 = (+corner0 * corner1.y - corner1 * corner0.y) / (+corner1.y - corner0.y);
+    if (corner1.y < 0.f) corner1 = (-corner0 * corner1.y + corner1 * corner0.y) / (-corner1.y + corner0.y);
+    
+    float l1 = dot(corner0, direction);
+    float l2 = dot(corner1, direction);
+    
+    float3 position = corner0 - l1 * direction;
+    float d = length(position);
+    
+    float I = (pbr_area_light_line_integral_position(d, l2) - pbr_area_light_line_integral_position(d, l1)) * position.y
+            + (pbr_area_light_line_integral_direction(d, l2) - pbr_area_light_line_integral_direction(d, l1)) * direction.y;
+    
+    return M_1_PI_F * I;
+}
+ /* Error: Ran out of types for this method. */;
+- (void)[[ texture(9), function_constant(use_pbr) ]]
+                             , texture2d<float>   u_specularDFGTexture             [[ texture(10), function_constant(use_pbr) ]]
+                             , texture2d<float> u_ssaoTexture                      [[ texture(11), function_constant(use_ssao) ]]
+
+                             
+                             , depth2d<float> u_shadowTexture0                     [[ texture(12), function_constant(use_shadow0) ]]
+                             , depth2d<float> u_shadowTexture1                     [[ texture(13), function_constant(use_shadow1) ]]
+                             , depth2d<float> u_shadowTexture2                     [[ texture(14), function_constant(use_shadow2) ]]
+                             , depth2d<float> u_shadowTexture3                     [[ texture(15), function_constant(use_shadow3) ]]
+                             
+                             
+                             , texture2d<float> u_goboTexture0                     [[ texture(16), function_constant(use_gobo0) ]]
+                             , texture2d<float> u_goboTexture1                     [[ texture(17), function_constant(use_gobo1) ]]
+                             , texture2d<float> u_goboTexture2                     [[ texture(18), function_constant(use_gobo2) ]]
+                             , texture2d<float> u_goboTexture3                     [[ texture(19), function_constant(use_gobo3) ]]
+
+                             
+                             
+                             
+                             
+                             
+                             , texture2d<float> u_iesTexture0                      [[ texture(16), function_constant(use_ies0) ]]
+                             , texture2d<float> u_iesTexture1                      [[ texture(17), function_constant(use_ies1) ]]
+                             , texture2d<float> u_iesTexture2                      [[ texture(18), function_constant(use_ies2) ]]
+                             , texture2d<float> u_iesTexture3                      [[ texture(19), function_constant(use_ies3) ]]
+
+                             
+                             , texturecube<float> u_iesCubeTexture0                [[ texture(16), function_constant(use_iesCube0) ]]
+                             , texturecube<float> u_iesCubeTexture1                [[ texture(17), function_constant(use_iesCube1) ]]
+                             , texturecube<float> u_iesCubeTexture2                [[ texture(18), function_constant(use_iesCube2) ]]
+                             , texturecube<float> u_iesCubeTexture3                [[ texture(19), function_constant(use_iesCube3) ]]
+                             
+                             , bool isFrontFacing                                  [[ front_facing, function_constant(use_double_sided) ]]
+
+#ifdef USE_FRAGMENT_EXTRA_ARGUMENTS
+__FragmentExtraArguments__
+#endif
+                             )
+{
+    
+    
+    scn_std_node in_node;
+    if (use_instancing) {
+        
+        in_node = scn_nodes[0];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderSurface _surface;
+
+    float2 uv[kSCNTexcoordCount];
+    switch (io_texcoord_count - 1) {
+        case 7 :(id)arg1 uv[7] = in.texcoord7;
+        case 6 :(id)arg2 uv[6] = in.texcoord6;
+        case 5 :uv[5] = in.texcoord5;
+        case 4 :uv[4] = in.texcoord4;
+        case 3 :uv[3] = in.texcoord3;
+        case 2 :uv[2] = in.texcoord2;
+        case 1 :uv[1] = in.texcoord1;
+        case 0 :uv[0] = in.texcoord0;
+    }
+
+    if (is_function_constant_defined(diffuse_texcoord_io_index))
+        _surface.diffuseTexcoord = uv[diffuse_texcoord_io_index];
+    
+    if (is_function_constant_defined(normal_texcoord_io_index))
+        _surface.normalTexcoord = uv[normal_texcoord_io_index];
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index))
+        _surface.transparentTexcoord = uv[transparent_texcoord_io_index];
+    
+    if (is_function_constant_defined(emission_texcoord_io_index))
+        _surface.emissionTexcoord = uv[emission_texcoord_io_index];
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index))
+        _surface.ambientTexcoord = uv[ambient_texcoord_io_index];
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index))
+        _surface.multiplyTexcoord = uv[multiply_texcoord_io_index];
+    
+    if (is_function_constant_defined(specular_texcoord_io_index))
+        _surface.specularTexcoord = uv[specular_texcoord_io_index];
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index))
+        _surface.roughnessTexcoord = uv[roughness_texcoord_io_index];
+
+    if (is_function_constant_defined(metalness_texcoord_io_index))
+        _surface.metalnessTexcoord = uv[metalness_texcoord_io_index];
+
+    _surface.ambientOcclusion = 1.f; 
+    if (use_ambient_map) {
+        float4 c = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        if (is_function_constant_defined(ambient_texture_component)) {
+            c = c[ambient_texture_component];
+        }
+        
+        if (use_ambient_as_ambientOcclusion) {
+            _surface.ambientOcclusion = c.r;
+            if (use_ambient_intensity)
+                _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        } else {
+            _surface.ambient = c;
+            if (use_ambient_intensity)
+                _surface.ambient *= scn_commonprofile.ambientIntensity;
+        }
+    } else {
+        _surface.ambient = scn_commonprofile.ambientColor;
+    }
+    if (use_ambient && use_io_vertex_color)
+        _surface.ambient *= in.vertexColor;
+    if (use_ssao)
+        _surface.ambientOcclusion *= u_ssaoTexture.sample( linearSampler, in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+    
+    if (use_diffuse_map) {
+        _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+        if (is_function_constant_defined(diffuse_texture_component))
+            _surface.diffuse = _surface.diffuse[diffuse_texture_component];
+        if (use_diffuse_intensity)
+            _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+    } else {
+        _surface.diffuse = scn_commonprofile.diffuseColor;
+    }
+    if (use_diffuse && use_io_vertex_color) {
+        _surface.diffuse *= in.vertexColor;
+    }
+    
+    if (use_specular_map) {
+        _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+        if (is_function_constant_defined(specular_texture_component))
+            _surface.specular = _surface.specular[specular_texture_component];
+        if (use_specular_intensity)
+            _surface.specular *= scn_commonprofile.specularIntensity;
+    } else {
+        _surface.specular = scn_commonprofile.specularColor;
+    }
+
+    if (use_emission_map) {
+        _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+        if (is_function_constant_defined(emission_texture_component))
+            _surface.emission = float4(_surface.emission[emission_texture_component]);
+        if (use_emission_intensity)
+            _surface.emission *= scn_commonprofile.emissionIntensity;
+    } else {
+        _surface.emission = scn_commonprofile.emissionColor;
+    }
+
+    if (use_multiply_map) {
+        _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+        if (is_function_constant_defined(multiply_texture_component))
+            _surface.multiply = float4(_surface.multiply[multiply_texture_component]);
+        if (use_multiply_intensity)
+            _surface.multiply = mix(float4(1.f), _surface.multiply, scn_commonprofile.multiplyIntensity);
+    } else {
+        _surface.multiply = scn_commonprofile.multiplyColor;
+    }
+    
+    if (use_transparent_map) {
+        _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+        if (is_function_constant_defined(transparent_texture_component))
+            _surface.transparent = float4(_surface.transparent[transparent_texture_component]);
+        if (use_transparent_intensity)
+            _surface.transparent *= scn_commonprofile.transparentIntensity;
+    } else {
+        _surface.transparent = scn_commonprofile.transparentColor;
+    }
+
+    if (use_metalness_map) {
+        float4 c = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord);
+        if (is_function_constant_defined(metalness_texture_component))
+            _surface.metalness = c[metalness_texture_component];
+        else 
+            _surface.metalness = c.r;
+        if (use_metalness_intensity)
+            _surface.metalness *= scn_commonprofile.metalnessIntensity;
+    } else {
+        _surface.metalness = scn_commonprofile.metalness;
+    }
+    
+    if (use_roughness_map) {
+        float4 c = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+        if (is_function_constant_defined(roughness_texture_component))
+            _surface.roughness = c[roughness_texture_component];
+        else 
+            _surface.roughness = c.r;
+        if (use_roughness_intensity)
+            _surface.roughness *= scn_commonprofile.roughnessIntensity;
+    } else {
+        _surface.roughness = scn_commonprofile.roughness;
+    }
+    
+    
+    if (use_io_normal) {
+        if (use_double_sided)
+            _surface.geometryNormal = normalize(in.normal.xyz) * (in.normal.z >= 0.f ? 1.f :-1.f );
+        else
+            _surface.geometryNormal = normalize(in.normal.xyz);
+        _surface.normal = _surface.geometryNormal;
+    }
+    if (need_tangent) {
+        _surface.tangent = in.tangent;
+        _surface.bitangent = in.bitangent;
+    }
+    if (use_io_position)
+        _surface.position = in.position;
+    if (use_io_view)
+        _surface.view = normalize(-in.position);
+
+    if (use_normal_map) {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        if (is_function_constant_defined(normal_texture_component)) { 
+            _surface._normalTS.xy = _surface._normalTS.xy * 2.f - 1.f;
+            _surface._normalTS.z = sqrt(1 - length_squared(_surface._normalTS.xy));
+        } else {
+            _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+        }
+        if (use_normal_intensity)
+            _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+        
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+    } else {
+        _surface._normalTS = float3(0.f);
+    }
+    
+    if (use_reflective_map) {
+        
+        float3 refl = reflect( -_surface.view, _surface.normal );
+        float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + scn::sq(refl.z + 1.f));
+        _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else if (use_reflectivecube_map) {
+    
+        float3 refl = reflect( _surface.position, _surface.normal );
+        _surface.reflective = u_reflectiveCubeTexture.sample(u_reflectiveCubeTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else {
+        _surface.reflective = scn_commonprofile.reflectiveColor;
+    }
+    
+    if (use_fresnel) {
+        _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
+- (void)DECLARE_BOOL(a) constant bool a [[ function_constant( __COUNTER__ ) ]];
+#define DECLARE_INT(a) constant int a [[ function_constant( 1000 + __COUNTER__ ) ]];
+#define DECLARE_UINT(a) constant uint a [[ function_constant( 2000 + __COUNTER__ ) ]];
+#define DECLARE_OPT_INT(a) constant int a [[ function_constant( 3000 + __COUNTER__ ) ]];
+#define DECLARE_OPT_UINT(a) constant uint a [[ function_constant( 4000 + __COUNTER__ ) ]];
+#else
+#if !defined(DECLARE_BOOL) || !defined(DECLARE_INT) || !defined(DECLARE_UINT) || !defined(DECLARE_OPT_INT) || !defined(DECLARE_OPT_UINT)
+#error Need to declare DECLARE_BOOL and DECLARE_INT macros
+#endif
+#endif
+
+#define kSCNTexcoordCount 8
+
+
+
+DECLARE_BOOL(need_vertex_color)
+DECLARE_BOOL(need_position)
+DECLARE_BOOL(need_normal)
+DECLARE_BOOL(need_tangent)
+DECLARE_BOOL(need_texcoord0)
+DECLARE_BOOL(need_texcoord1)
+DECLARE_BOOL(need_texcoord2)
+DECLARE_BOOL(need_texcoord3)
+DECLARE_BOOL(need_texcoord4)
+DECLARE_BOOL(need_texcoord5)
+DECLARE_BOOL(need_texcoord6)
+DECLARE_BOOL(need_texcoord7)
+
+DECLARE_BOOL(use_io_vertex_color)
+DECLARE_BOOL(use_io_position)
+DECLARE_BOOL(use_io_normal)
+DECLARE_BOOL(use_io_view)
+
+
+
+DECLARE_BOOL(use_ambient)
+DECLARE_BOOL(use_diffuse)
+DECLARE_BOOL(use_specular)
+DECLARE_BOOL(use_emission)
+DECLARE_BOOL(use_multiply)
+DECLARE_BOOL(use_reflective)
+DECLARE_BOOL(use_transparent)
+
+
+DECLARE_BOOL(use_diffuse_map)
+DECLARE_BOOL(use_normal_map)
+DECLARE_BOOL(use_transparent_map)
+DECLARE_BOOL(use_emission_map)
+DECLARE_BOOL(use_ambient_map)
+
+
+DECLARE_BOOL(use_multiply_map)
+DECLARE_BOOL(use_specular_map)
+DECLARE_BOOL(use_reflective_map)
+DECLARE_BOOL(use_reflectivecube_map)
+
+
+DECLARE_BOOL(use_roughness_map)
+DECLARE_BOOL(use_metalness_map)
+
+
+DECLARE_OPT_INT(diffuse_texture_component)
+DECLARE_OPT_INT(normal_texture_component)
+DECLARE_OPT_INT(transparent_texture_component)
+DECLARE_OPT_INT(emission_texture_component)
+DECLARE_OPT_INT(ambient_texture_component)
+DECLARE_OPT_INT(multiply_texture_component)
+DECLARE_OPT_INT(specular_texture_component)
+DECLARE_OPT_INT(reflective_texture_component)
+DECLARE_OPT_INT(roughness_texture_component)
+DECLARE_OPT_INT(metalness_texture_component)
+
+
+DECLARE_BOOL(use_diffuse_intensity)
+DECLARE_BOOL(use_normal_intensity)
+DECLARE_BOOL(use_transparent_intensity)
+DECLARE_BOOL(use_emission_intensity)
+DECLARE_BOOL(use_ambient_intensity)
+DECLARE_BOOL(use_multiply_intensity)
+DECLARE_BOOL(use_specular_intensity)
+DECLARE_BOOL(use_reflective_intensity)
+DECLARE_BOOL(use_roughness_intensity)
+DECLARE_BOOL(use_metalness_intensity)
+
+DECLARE_BOOL(use_fresnel)
+DECLARE_BOOL(use_transparency)
+DECLARE_BOOL(use_transparency_rgbzero)
+
+
+DECLARE_INT(diffuse_channel)
+DECLARE_INT(normal_channel)
+DECLARE_INT(transparent_channel)
+DECLARE_INT(emission_channel)
+DECLARE_INT(ambient_channel)
+DECLARE_INT(multiply_channel)
+DECLARE_INT(specular_channel)
+DECLARE_INT(roughness_channel)
+DECLARE_INT(metalness_channel)
+
+
+DECLARE_OPT_INT(diffuse_texcoord_io_index)
+DECLARE_OPT_INT(normal_texcoord_io_index)
+DECLARE_OPT_INT(transparent_texcoord_io_index)
+DECLARE_OPT_INT(emission_texcoord_io_index)
+DECLARE_OPT_INT(ambient_texcoord_io_index)
+DECLARE_OPT_INT(multiply_texcoord_io_index)
+DECLARE_OPT_INT(specular_texcoord_io_index)
+DECLARE_OPT_INT(roughness_texcoord_io_index)
+DECLARE_OPT_INT(metalness_texcoord_io_index)
+
+
+DECLARE_OPT_INT(diffuse_transform_index)
+DECLARE_OPT_INT(normal_transform_index)
+DECLARE_OPT_INT(transparent_transform_index)
+DECLARE_OPT_INT(emission_transform_index)
+DECLARE_OPT_INT(ambient_transform_index)
+DECLARE_OPT_INT(multiply_transform_index)
+DECLARE_OPT_INT(specular_transform_index)
+DECLARE_OPT_INT(roughness_transform_index)
+DECLARE_OPT_INT(metalness_transform_index)
+
+DECLARE_BOOL(use_emission_as_selfIllumination)
+DECLARE_BOOL(use_ambient_as_ambientOcclusion)
+DECLARE_BOOL(use_texture_transforms)
+DECLARE_BOOL(use_point_rendering)
+DECLARE_BOOL(diffuse_premultiplied)
+DECLARE_BOOL(use_discard)
+
+
+
+DECLARE_BOOL(use_instancing)
+
+
+
+DECLARE_INT(lighting_model)
+DECLARE_BOOL(use_lighting) 
+DECLARE_BOOL(use_ambient_lighting)
+DECLARE_BOOL(use_modulate_lighting)
+DECLARE_BOOL(use_per_vertex_lighting)
+DECLARE_BOOL(avoid_overlighting) 
+DECLARE_BOOL(use_double_sided)
+DECLARE_BOOL(use_probes_lighting)
+
+
+DECLARE_OPT_UINT(use_light0);
+DECLARE_OPT_UINT(use_light1);
+DECLARE_OPT_UINT(use_light2);
+DECLARE_OPT_UINT(use_light3);
+
+
+
+DECLARE_BOOL(use_node_opacity)
+
+
+
+DECLARE_BOOL(use_fog)
+DECLARE_BOOL(use_ssao)
+
+
+
+DECLARE_INT(io_texcoord_count)
+
+#undef DECLARE_BOOL
+#undef DECLARE_INT
+#undef DECLARE_UINT
+#undef DECLARE_OPT_INT
+#undef DECLARE_OPT_UINT
+;
 - (void);
 - (void);
 - (void);
@@ -60,14 +1259,15 @@
 - (void);
 - (void);
 - (void);
+- (void)%;
+- (void)Rect={CGPoint=dd}{CGSize=dd}}28Q60@"AKController"68;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)IContextRec}{__GLIFunctionDispatchRec=^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24;
+- (void)_isPortKeyInUse: /* Error: Ran out of types for this method. */;
+- (void)mal),zLinear * u_invZRange);
+} ;
 - (void);
 - (void);
 - (void);
@@ -76,24 +1276,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setInitiallyDraggedArea:(CDUnknownBlockType)arg1;
 - (long long);
 - (void);
-- (void)gnalInfo;
-- (void)pe:options:completion: /* Error: Ran out of types for this method. */;
+- (void)signalInfo;
+- (void)accountsWithAccountType:options:completion: /* Error: Ran out of types for this method. */;
 - (void)file;
 - (void)Ä£4¤¬|¬;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isObservingCloudServiceStatus) _Bool observingCloudServiceStatus;
 @property long long privacyAcknowledgementPolicy;
-@property(readonly) Class superclass;
 
 @end
 

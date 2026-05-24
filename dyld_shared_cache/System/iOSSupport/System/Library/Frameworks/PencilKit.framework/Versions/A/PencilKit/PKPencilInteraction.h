@@ -7,7 +7,6 @@
 @interface PKPencilInteraction
 {
     unsigned long long _dispatchBehavior;
-    _Bool _wantsDoubleTap;
 }
 
 + (id);

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, ICStoreRequestContext, ICURLBag, NSDate, NSError, NSMutableArray, NSString;
+@class ICStoreRequestContext;
 
 @interface ICAMSBagAdapter
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_pendingBagValuePromises;
-    ICURLBag *_urlBag;
-    NSError *_urlBagLoadingError;
-    ICStoreRequestContext *_requestContext;
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)B;
++ (id)bezierPathWithCGPath:(id)arg1;
++ (id)@ ;
 - (id);
-- (id);
+- (id)w;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -37,22 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *expirationDate;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
 @property(readonly, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,34 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMNetworkVPNDeclaration_SecurityAssociationParameters, NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkVPNDeclaration_IKEv2 : CEMPayloadBase
 {
     NSString *_payloadRemoteAddress;
-    NSString *_payloadLocalIdentifier;
-    NSString *_payloadRemoteIdentifier;
-    NSString *_payloadAuthenticationMethod;
-    NSString *_payloadPayloadCertificateUUID;
-    NSString *_payloadSharedSecret;
-    NSNumber *_payloadExtendedAuthEnabled;
-    NSString *_payloadAuthName;
-    NSNumber *_payloadDisableRedirect;
-    NSNumber *_payloadDisableMOBIKE;
-    NSNumber *_payloadUseConfigurationAttributeInternalIPSubnet;
-    NSNumber *_payloadEnablePFS;
-    NSNumber *_payloadEnableCertificateRevocationCheck;
-    NSString *_payloadAuthPassword;
-    NSString *_payloadDeadPeerDetectionRate;
-    NSString *_payloadCertificateType;
-    NSString *_payloadServerCertificateIssuerCommonName;
-    NSString *_payloadServerCertificateCommonName;
-    CEMNetworkVPNDeclaration_SecurityAssociationParameters *_payloadIKESecurityAssociationParameters;
-    CEMNetworkVPNDeclaration_SecurityAssociationParameters *_payloadChildSecurityAssociationParameters;
-    NSString *_payloadTLSMinimumVersion;
-    NSString *_payloadTLSMaximumVersion;
-    NSNumber *_payloadNATKeepAliveOffloadEnable;
-    NSNumber *_payloadNATKeepAliveInterval;
 }
 
 + (id);
@@ -45,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,67 +34,43 @@
 - (void);
 - (void);
 - (void);
+- (void)i M`;
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)*;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Anna;
+- (id)g;
+- (void)SSL3_NEW_SESSION_TICKET;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadAuthName; // @synthesize payloadAuthName=_payloadAuthName;
-@property(copy, nonatomic) NSString *payloadAuthPassword; // @synthesize payloadAuthPassword=_payloadAuthPassword;
-@property(copy, nonatomic) NSString *payloadAuthenticationMethod; // @synthesize payloadAuthenticationMethod=_payloadAuthenticationMethod;
-@property(copy, nonatomic) NSString *payloadCertificateType; // @synthesize payloadCertificateType=_payloadCertificateType;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_SecurityAssociationParameters *payloadChildSecurityAssociationParameters; // @synthesize payloadChildSecurityAssociationParameters=_payloadChildSecurityAssociationParameters;
-@property(copy, nonatomic) NSString *payloadDeadPeerDetectionRate; // @synthesize payloadDeadPeerDetectionRate=_payloadDeadPeerDetectionRate;
-@property(copy, nonatomic) NSNumber *payloadDisableMOBIKE; // @synthesize payloadDisableMOBIKE=_payloadDisableMOBIKE;
-@property(copy, nonatomic) NSNumber *payloadDisableRedirect; // @synthesize payloadDisableRedirect=_payloadDisableRedirect;
-@property(copy, nonatomic) NSNumber *payloadEnableCertificateRevocationCheck; // @synthesize payloadEnableCertificateRevocationCheck=_payloadEnableCertificateRevocationCheck;
-@property(copy, nonatomic) NSNumber *payloadEnablePFS; // @synthesize payloadEnablePFS=_payloadEnablePFS;
-@property(copy, nonatomic) NSNumber *payloadExtendedAuthEnabled; // @synthesize payloadExtendedAuthEnabled=_payloadExtendedAuthEnabled;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_SecurityAssociationParameters *payloadIKESecurityAssociationParameters; // @synthesize payloadIKESecurityAssociationParameters=_payloadIKESecurityAssociationParameters;
-@property(copy, nonatomic) NSString *payloadLocalIdentifier; // @synthesize payloadLocalIdentifier=_payloadLocalIdentifier;
-@property(copy, nonatomic) NSNumber *payloadNATKeepAliveInterval; // @synthesize payloadNATKeepAliveInterval=_payloadNATKeepAliveInterval;
-@property(copy, nonatomic) NSNumber *payloadNATKeepAliveOffloadEnable; // @synthesize payloadNATKeepAliveOffloadEnable=_payloadNATKeepAliveOffloadEnable;
-@property(copy, nonatomic) NSString *payloadPayloadCertificateUUID; // @synthesize payloadPayloadCertificateUUID=_payloadPayloadCertificateUUID;
 @property(copy, nonatomic) NSString *payloadRemoteAddress; // @synthesize payloadRemoteAddress=_payloadRemoteAddress;
-@property(copy, nonatomic) NSString *payloadRemoteIdentifier; // @synthesize payloadRemoteIdentifier=_payloadRemoteIdentifier;
-@property(copy, nonatomic) NSString *payloadServerCertificateCommonName; // @synthesize payloadServerCertificateCommonName=_payloadServerCertificateCommonName;
-@property(copy, nonatomic) NSString *payloadServerCertificateIssuerCommonName; // @synthesize payloadServerCertificateIssuerCommonName=_payloadServerCertificateIssuerCommonName;
-@property(copy, nonatomic) NSString *payloadSharedSecret; // @synthesize payloadSharedSecret=_payloadSharedSecret;
-@property(copy, nonatomic) NSString *payloadTLSMaximumVersion; // @synthesize payloadTLSMaximumVersion=_payloadTLSMaximumVersion;
-@property(copy, nonatomic) NSString *payloadTLSMinimumVersion; // @synthesize payloadTLSMinimumVersion=_payloadTLSMinimumVersion;
-@property(copy, nonatomic) NSNumber *payloadUseConfigurationAttributeInternalIPSubnet; // @synthesize payloadUseConfigurationAttributeInternalIPSubnet=_payloadUseConfigurationAttributeInternalIPSubnet;
 
 @end
 

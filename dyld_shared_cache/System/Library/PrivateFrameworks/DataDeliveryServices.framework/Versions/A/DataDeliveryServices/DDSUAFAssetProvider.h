@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UAFAssetSetManager;
+@class UAFAssetSetManager;
 
 @interface DDSUAFAssetProvider
 {
     UAFAssetSetManager *_assetSetManager;
 }
 
-+ (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
++ (id),R,N,V_flavor;
+- (void)setHasDefaultParameters:(id)arg1;
+- (id)setHasDebugNetworkConnectionStateReadySnapshotCaptured:(id)arg1;
+- (void)setHasDaysWithTwoAssistantSpeechRequestsPerWeek:(id)arg1;
+- (id)setHasCounterfactualTriggeredNonTier1:(id)arg1;
+- (id)setHasConversationContextBytesLength: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UAFAssetSetManager *assetSetManager; // @synthesize assetSetManager=_assetSetManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

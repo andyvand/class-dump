@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOAPFaultDetail;
+@class SOAPFaultDetail;
 
 @interface SOAPFault
 {
     SOAPFaultDetail *_detail;
-    NSString *_faultactor;
-    NSString *_faultcode;
-    NSString *_faultstring;
 }
 
 + (id);
@@ -28,21 +25,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SOAPFaultDetail *detail; // @synthesize detail=_detail;
-@property(copy, nonatomic) NSString *faultactor; // @synthesize faultactor=_faultactor;
-@property(copy, nonatomic) NSString *faultcode; // @synthesize faultcode=_faultcode;
-@property(copy, nonatomic) NSString *faultstring; // @synthesize faultstring=_faultstring;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

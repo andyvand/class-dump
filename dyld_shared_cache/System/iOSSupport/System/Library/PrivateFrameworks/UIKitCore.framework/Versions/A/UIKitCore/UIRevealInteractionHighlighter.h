@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIResponder, UIView;
+@class UIResponder;
 @protocol UITextInput><_UITextInputRevealSupport;
 
 __attribute__((visibility("hidden")))
 @interface UIRevealInteractionHighlighter
 {
     int _previousSelectionMode;
-    _Bool _highlighting;
-    UIResponder<UITextInput><_UITextInputRevealSupport> *_textInput;
-    UIView *_view;
-    NSArray *_highlightRects;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (id)d to handle mapping packet %@ with error %@;
+- (id)%@ when validating attachment;
 - (void);
 - (void);
 - (_Bool);
@@ -34,17 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)Èd;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *highlightRects; // @synthesize highlightRects=_highlightRects;
-@property(nonatomic) _Bool highlighting; // @synthesize highlighting=_highlighting;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak UIResponder<UITextInput><_UITextInputRevealSupport> *textInput; // @synthesize textInput=_textInput;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

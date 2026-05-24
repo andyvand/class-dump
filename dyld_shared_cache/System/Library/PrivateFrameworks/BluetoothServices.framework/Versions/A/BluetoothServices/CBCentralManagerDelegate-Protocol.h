@@ -5,5 +5,9 @@
 //
 
 @protocol CBCentralManagerDelegate
+- (void)try later, user did not tap to downloaded.;
+
+@optional
+- (void);
 @end
 

@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, _NSCollectionLayoutGroup;
+@class _NSCollectionLayoutGroup;
 
 @interface _NSCollectionLayoutSection
 {
     _NSCollectionLayoutGroup *_layoutGroup;
-    struct NSDirectionalEdgeInsets _contentInsets;
-    double _interGroupSpacing;
-    long long _orthogonalScrollingBehavior;
-    NSArray *_boundarySupplementaryItems;
-    _Bool _supplementariesFollowContentInsets;
-    CDUnknownBlockType _visibleItemsTransformer;
-    NSArray *_decorationItems;
-    NSArray *_supplementaryItems;
-    NSIndexSet *_pinnedSupplementaryItemIndexes;
 }
 
 + (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (id)<%{public}@> Already invalidating %@;
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)forwardingTargetForSelector: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
@@ -35,27 +26,19 @@
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (void);
-- (id);
+- (id)ation-date;
 - (id)
 × ;
 - (void)GRect={CGPoint=dd}{CGSize=dd}}16Q48@56@64@72@80@88;
 - (void)selectionShouldUsePrimaryColor;
-- (_Bool)uiredWhenMovingFromURL:toURL: /* Error: Ran out of types for this method. */;
-- (id)tleDidChange;
-- (void)ateUserSpaceSavedFrameIfNeeded;
+- (_Bool)isAlternateContentsMergeRequiredWhenMovingFromURL:toURL: /* Error: Ran out of types for this method. */;
+- (id)displayedAlternateTitleDidChange;
+- (void)_fullScreenUpdateUserSpaceSavedFrameIfNeeded;
 - (void)Ð	;
-- (void)erDidTrackMouse;
+- (void)_NSScrollerDidTrackMouse;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *boundarySupplementaryItems; // @synthesize boundarySupplementaryItems=_boundarySupplementaryItems;
 @property(nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(copy, nonatomic) NSArray *decorationItems; // @synthesize decorationItems=_decorationItems;
-@property(nonatomic) double interGroupSpacing; // @synthesize interGroupSpacing=_interGroupSpacing;
-@property(nonatomic) long long orthogonalScrollingBehavior; // @synthesize orthogonalScrollingBehavior=_orthogonalScrollingBehavior;
-@property(copy, nonatomic) NSIndexSet *pinnedSupplementaryItemIndexes; // @synthesize pinnedSupplementaryItemIndexes=_pinnedSupplementaryItemIndexes;
-@property(nonatomic) _Bool supplementariesFollowContentInsets; // @synthesize supplementariesFollowContentInsets=_supplementariesFollowContentInsets;
-@property(copy, nonatomic) NSArray *supplementaryItems; // @synthesize supplementaryItems=_supplementaryItems;
-@property(copy, nonatomic) CDUnknownBlockType visibleItemsTransformer; // @synthesize visibleItemsTransformer=_visibleItemsTransformer;
 
 @end
 

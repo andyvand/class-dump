@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSServerBag, HMDPreferredResidentsList, HMDResidentSelectionInfo, NSBackgroundActivityScheduler, NSObject, NSString, NSUUID;
-@protocol HMDResidentDeviceManagerContext, HMDResidentSelectionManagerDataSource, HMDResidentSelectionManagerDelegate, HMDResidentSelectionMode, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDResidentSelectionManagerDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSelectionManager
 {
     id <HMDResidentSelectionManagerDelegate> _delegate;
-    id <HMDResidentSelectionMode> _currentResidentSelectionMode;
-    unsigned long long _currentModeType;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDResidentSelectionManagerDataSource> _dataSource;
-    id <HMDResidentDeviceManagerContext> _context;
-    HMDResidentSelectionInfo *_residentSelectionInfoFromWorkingStore;
-    NSBackgroundActivityScheduler *_backgroundScheduler;
 }
 
 + (id)B;
@@ -47,12 +40,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)4@0:(unsigned long long)arg1 8@"Protocol"16;
+- (id)supportsWGS84ElevationModel;
+- (id)stopSharingWithContact:reason:completion: /* Error: Ran out of types for this method. */;
+- (id)or starting to share with contact %{private}@:(id)arg1 %{public}@;
+- (void)Object>"8Q16^B24;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)|;
 - (void);
 - (void);
 - (id);
@@ -73,10 +66,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)u6;
 - (void);
 - (id);
 - (id);
@@ -91,28 +84,7 @@ __attribute__((visibility("hidden")))
 - (id)°ÿz¨?;
 
 // Remaining properties
-@property(retain) NSBackgroundActivityScheduler *backgroundScheduler; // @synthesize backgroundScheduler=_backgroundScheduler;
-@property(readonly) __weak id <HMDResidentDeviceManagerContext> context; // @synthesize context=_context;
-@property unsigned long long currentModeType; // @synthesize currentModeType=_currentModeType;
-@property(retain) id <HMDResidentSelectionMode> currentResidentSelectionMode; // @synthesize currentResidentSelectionMode=_currentResidentSelectionMode;
-@property(readonly, nonatomic) id <HMDResidentSelectionManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDResidentSelectionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDIDSServerBag *idsServerBag;
-@property(readonly) HMDPreferredResidentsList *localPreferredResidentsList;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) HMDResidentSelectionInfo *residentSelectionInfoFromWorkingStore; // @synthesize residentSelectionInfoFromWorkingStore=_residentSelectionInfoFromWorkingStore;
-@property(readonly) Class superclass;
 
 @end
 

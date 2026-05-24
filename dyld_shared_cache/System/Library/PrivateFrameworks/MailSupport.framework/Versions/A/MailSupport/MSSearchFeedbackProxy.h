@@ -7,16 +7,11 @@
 @interface MSSearchFeedbackProxy
 {
     id feedbackListener;
-    id feedbackQueue;
-    id feedbackDebouncer;
-    id queryProvider;
-    id snapshotProvider;
-    id sectionBuilder;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)internEntriesDict_block_invoke;
 
 @end
 

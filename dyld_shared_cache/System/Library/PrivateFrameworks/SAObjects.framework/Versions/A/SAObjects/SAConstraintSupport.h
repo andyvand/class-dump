@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
 @protocol SASupportCondition;
 
 @interface SAConstraintSupport : AceObject
@@ -17,21 +16,13 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void)diaItemProperty:(id)arg1;
+- (void)setMediaItemProperty:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) id <SASupportCondition> condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *property;
-@property(readonly) Class superclass;
 
 @end
 

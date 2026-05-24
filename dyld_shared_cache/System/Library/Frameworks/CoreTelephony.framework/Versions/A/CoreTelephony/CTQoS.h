@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CTQoS
 {
     NSNumber *_qci;
-    NSNumber *_bitRateMax;
-    NSNumber *_bitRateMin;
-    NSArray *_filters;
 }
 
-+ (_Bool);
++ (_Bool)me movie;
 - (void);
 - (void);
 - (id);
@@ -25,16 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)fetchRecoveryKeysInTargetDisk:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)ix;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *bitRateMax; // @synthesize bitRateMax=_bitRateMax;
-@property(retain, nonatomic) NSNumber *bitRateMin; // @synthesize bitRateMin=_bitRateMin;
-@property(retain, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly, nonatomic) NSNumber *gbr;
 @property(retain, nonatomic) NSNumber *qci; // @synthesize qci=_qci;
 
 @end

@@ -9,18 +9,15 @@
 @interface NewsArticles.TagSubscriptionStatusProvider
 {
     id subscriptionController;
-    id headline;
-    id observers;
-    SXTagSubscriptionStatus *tagSubscriptionStatus;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)el;
+- (void)5;
+- (void)c;
+- (void)Model;
 
 // Remaining properties
 @property(nonatomic, retain) SXTagSubscriptionStatus *tagSubscriptionStatus; // @synthesize tagSubscriptionStatus;

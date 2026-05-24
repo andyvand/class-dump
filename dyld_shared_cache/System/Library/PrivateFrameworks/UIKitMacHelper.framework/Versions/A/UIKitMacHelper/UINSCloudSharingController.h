@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKShare, NSArray, NSSharingService, NSString;
-@protocol UINSCloudSharingControllerDelegate, UINSWindow;
+@protocol UINSCloudSharingControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UINSCloudSharingController
 {
     id <UINSCloudSharingControllerDelegate> _delegate;
-    id <UINSWindow> _window;
-    unsigned long long _availablePermissions;
-    CDUnknownBlockType _preparationHandler;
-    CKShare *_share;
-    CKContainer *_container;
-    NSSharingService *_sharingService;
-    NSArray *_items;
 }
 
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (void);
+- (void)J-J;
 - (id);
 - (void);
 - (void);
@@ -36,33 +28,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+- (void);
+- (id)a;
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)HostModalSession;
+- (void)beginHostModalSession;
 - (void)Unexpected activation policy encountered. (%ld);
 - (id)kÌ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long availablePermissions; // @synthesize availablePermissions=_availablePermissions;
-@property(retain, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UINSCloudSharingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(copy, nonatomic) CDUnknownBlockType preparationHandler; // @synthesize preparationHandler=_preparationHandler;
-@property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(retain, nonatomic) NSSharingService *sharingService; // @synthesize sharingService=_sharingService;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <UINSWindow> window; // @synthesize window=_window;
 
 @end
 

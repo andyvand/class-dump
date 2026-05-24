@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNetworkReachability, NFStateMachine, NSHashTable, NSString;
-@protocol FCNetworkTransitionMonitor, FCOperationCanceling;
+@class NFStateMachine;
 
 @interface FCOfflineModeMonitor
 {
     _Bool _isCloudKitReachable;
-    _Bool _isNetworkReachable;
-    long long _offlineReason;
-    NFStateMachine *_stateMachine;
-    NSHashTable *_observers;
-    FCNetworkReachability *_networkReachability;
-    id <FCNetworkTransitionMonitor> _onlineTransitionMonitor;
-    id <FCNetworkTransitionMonitor> _offlineTransitionMonitor;
-    id <FCOperationCanceling> _offlineTransitionOperation;
-    id <FCOperationCanceling> _onlineTransitionOperation;
 }
 
 - (void);
@@ -30,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (_Bool);
@@ -39,10 +29,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)perties:(id)arg1;
+- (void)updateTagWithID:(id)arg1 properties: /* Error: Ran out of types for this method. */;
 - (void)",&,N,V_articleReadAggregateModificationConfiguration;
 - (void)ildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/People Also Read/FCPeopleAlsoReadInventoryManager.m;
 - (long long)ithEntryID:tagID:purchaseID:lastRetryAttemptTime:email:purchaseReceipt:] /* Error: Ran out of types for this method. */;
@@ -51,27 +41,7 @@
 - (id)=;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cellularRadioAccessTechnology;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCloudKitReachable; // @synthesize isCloudKitReachable=_isCloudKitReachable;
-@property(readonly, nonatomic) _Bool isLowDataModeEnabled;
-@property(readonly, nonatomic) _Bool isNetworkReachable; // @synthesize isNetworkReachable=_isNetworkReachable;
-@property(readonly, nonatomic) _Bool isNetworkReachableViaWiFi;
-@property(readonly, nonatomic) _Bool isNetworkUsageInexpensive;
-@property(readonly, nonatomic) FCNetworkReachability *networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(nonatomic) long long offlineReason; // @synthesize offlineReason=_offlineReason;
-@property(readonly, nonatomic) id <FCNetworkTransitionMonitor> offlineTransitionMonitor; // @synthesize offlineTransitionMonitor=_offlineTransitionMonitor;
-@property(retain, nonatomic) id <FCOperationCanceling> offlineTransitionOperation; // @synthesize offlineTransitionOperation=_offlineTransitionOperation;
-@property(readonly, nonatomic) id <FCNetworkTransitionMonitor> onlineTransitionMonitor; // @synthesize onlineTransitionMonitor=_onlineTransitionMonitor;
-@property(retain, nonatomic) id <FCOperationCanceling> onlineTransitionOperation; // @synthesize onlineTransitionOperation=_onlineTransitionOperation;
 @property(retain, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 
 @end
 

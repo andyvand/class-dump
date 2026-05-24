@@ -9,8 +9,6 @@
 @interface IDSTransactionLogSyncTask : IDSTransactionLogTask
 {
     CDUnknownBlockType _batchProcessingBlock;
-    CDUnknownBlockType _knownRecordIDsFromList;
-    _Bool _shouldContinueFromLastSyncPoint;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType batchProcessingBlock; // @synthesize batchProcessingBlock=_batchProcessingBlock;
-@property(copy, nonatomic) CDUnknownBlockType knownRecordIDsFromList; // @synthesize knownRecordIDsFromList=_knownRecordIDsFromList;
-@property(nonatomic) _Bool shouldContinueFromLastSyncPoint; // @synthesize shouldContinueFromLastSyncPoint=_shouldContinueFromLastSyncPoint;
 
 @end
 

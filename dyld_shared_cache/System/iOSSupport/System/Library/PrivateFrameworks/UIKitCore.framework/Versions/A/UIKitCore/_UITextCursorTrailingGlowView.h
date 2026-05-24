@@ -6,43 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CABasicAnimation, NSString, UIDictationGlowEffect, _UIShapeView;
+@class _UIShapeView;
 
 @interface _UITextCursorTrailingGlowView : UIView
 {
     _UIShapeView *_shapeView;
-    UIDictationGlowEffect *_dictationGlowEffect;
-    CABasicAnimation *_animation;
-    double _animationStartTime;
-    _Bool _needsToUpdateAnimation;
-    _Bool _trailingAnimationEnabled;
-    CDUnknownBlockType _transitionBlock;
 }
 
 - (void);
 - (_Bool);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)service:didSendOpportunisticDataWithIdentifier:toIDs: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGPath *);
 - (void);
 - (CDUnknownBlockType);
-- (id)ngRangeWithLocation:(struct CGRect)arg1 length: /* Error: Ran out of types for this method. */;
+- (id)_matchingRangeWithLocation:(struct CGRect)arg1 length: /* Error: Ran out of types for this method. */;
 - (void)¿7_G;
-- (void);
+- (void)_UIUpdateRequest;
 - (void);
 - (void)>·Ée];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTrailingAnimationEnabled) _Bool trailingAnimationEnabled; // @synthesize trailingAnimationEnabled=_trailingAnimationEnabled;
 @property(copy, nonatomic) CDUnknownBlockType transitionBlock; // @synthesize transitionBlock=_transitionBlock;
 
 @end

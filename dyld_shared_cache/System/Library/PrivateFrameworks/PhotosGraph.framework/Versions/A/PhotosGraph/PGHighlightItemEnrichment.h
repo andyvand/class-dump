@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGNeighborScoreComputer;
 @protocol PGHighlightItemEnrichmentRule, PGHighlightItemListModelWriter;
 
 @interface PGHighlightItemEnrichment
 {
     id <PGHighlightItemEnrichmentRule> _rule;
-    id <PGHighlightItemListModelWriter> _modelWriter;
-    PGNeighborScoreComputer *_neighborScoreComputer;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)setIsPreFetchInfo: /* Error: Ran out of types for this method. */;
+- (id)keyboardFocusTracker:selectedTextChanged: /* Error: Ran out of types for this method. */;
+- (id)_addElement:(id)arg1 atRowIndex:(id)arg2 inRows:atColumnIndex:inColumns:withRowCount: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void)pple.PhotosGraph.PGFingerprint;
-- (id)us;
+- (id)radius;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PGHighlightItemListModelWriter> modelWriter; // @synthesize modelWriter=_modelWriter;
-@property(retain, nonatomic) PGNeighborScoreComputer *neighborScoreComputer; // @synthesize neighborScoreComputer=_neighborScoreComputer;
-@property(readonly, nonatomic) id <PGHighlightItemEnrichmentRule> rule; // @synthesize rule=_rule;
 
 @end
 

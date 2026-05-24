@@ -6,18 +6,16 @@
 
 #import <CMCapture/FigCaptureSinkPipeline.h>
 
-@class BWAudioConverterNode, BWAudioFileSinkNode, BWFileCoordinatorNode;
+@class BWFileCoordinatorNode;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureAudioFileSinkPipeline : FigCaptureSinkPipeline
 {
     BWFileCoordinatorNode *_fileCoordinatorNode;
-    BWAudioConverterNode *_audioConverterNode;
-    BWAudioFileSinkNode *_audioFileSinkNode;
 }
 
 + (void)tion.avcapturedevice.built-in_video:3 /* Error: Ran out of types for this method. */;
-- (void);
+- (void)",R,V_hourLongSingularString;
 
 @end
 

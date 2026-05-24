@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFFairPlayAsset, PFFairPlayKeyResponseData;
+@class NSString;
 
 @interface PodcastsFoundation.FairPlayKeySessionMock
 {
     void id;
-    id adamIDHandler;
-    id assetHandler;
-    id bypassCacheHandler;
-    id keyStoreFilePathHandler;
-    id keyResponseDataHandler;
-    id pauseHandler;
-    id resumeHandler;
-    id registerHandler;
-    id deregisterHandler;
-    id processHandler;
-    id renewHandler;
-    id stopAndInvalidateHandler;
 }
 
 - (void);
@@ -35,16 +23,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, readonly) PFFairPlayAsset *asset;
-@property(nonatomic) _Bool bypassCache;
 @property(nonatomic, readonly) NSString *id;
-@property(nonatomic, retain) PFFairPlayKeyResponseData *keyResponseData;
-@property(nonatomic, readonly) NSString *keyStoreFilePath;
 
 @end
 

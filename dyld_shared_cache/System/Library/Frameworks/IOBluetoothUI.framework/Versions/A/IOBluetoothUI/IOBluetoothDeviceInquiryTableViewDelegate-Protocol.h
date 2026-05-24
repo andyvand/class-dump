@@ -5,5 +5,8 @@
 //
 
 @protocol IOBluetoothDeviceInquiryTableViewDelegate
+
+@optional
+- (void);
 @end
 

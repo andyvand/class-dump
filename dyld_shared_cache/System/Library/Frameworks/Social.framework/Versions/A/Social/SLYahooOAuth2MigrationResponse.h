@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSError, NSString;
-
 @interface SLYahooOAuth2MigrationResponse
 {
     long long _statusCode;
-    NSError *_error;
-    NSDictionary *_responseBody;
-    NSString *_accessToken;
-    NSString *_refreshToken;
-    NSDate *_expiryDate;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)_setAccountIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -26,11 +19,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly) NSString *accessToken; // @synthesize accessToken=_accessToken;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly) NSString *refreshToken; // @synthesize refreshToken=_refreshToken;
-@property(readonly) NSDictionary *responseBody; // @synthesize responseBody=_responseBody;
 @property(readonly) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end

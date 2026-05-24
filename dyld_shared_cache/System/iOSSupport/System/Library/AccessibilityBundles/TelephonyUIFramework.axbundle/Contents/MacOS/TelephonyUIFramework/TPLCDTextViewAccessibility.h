@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-- (_Bool);
-- (struct CGRect);
+- (_Bool);
+- (struct CGRect)_useNoContentDashFormatting;
 - (unsigned long long);
 - (id);
 

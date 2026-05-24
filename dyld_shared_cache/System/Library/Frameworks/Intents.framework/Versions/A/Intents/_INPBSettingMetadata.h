@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAppIdentifier, _INPBDevice;
+@class NSString;
 
 @interface _INPBSettingMetadata
 {
     struct _has;
-    NSString *_settingId;
-    _INPBAppIdentifier *_targetApp;
-    _INPBDevice *_targetDevice;
 }
 
 + (_Bool);
@@ -22,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)__objc_imageinfo__DATA_CONST;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,24 +27,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)eCodeFailure;
+- (id);
+- (void)INStartCallIntentResponseCodeFailure;
 - (id)³¥;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasSettingId;
-@property(readonly, nonatomic) _Bool hasTargetApp;
-@property(readonly, nonatomic) _Bool hasTargetDevice;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *settingId; // @synthesize settingId=_settingId;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBAppIdentifier *targetApp; // @synthesize targetApp=_targetApp;
-@property(retain, nonatomic) _INPBDevice *targetDevice; // @synthesize targetDevice=_targetDevice;
 
 @end
 

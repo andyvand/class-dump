@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScore
 {
     NSMutableArray *_scores;
-    NSString *_tagId;
 }
 
-+ (Class);
-- (_Bool);
++ (Class)_stateQueue_loadingSegments;
+- (_Bool)_spriteColor;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)R,N,V_promiseInstances;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)efficient;
-- (void)cePlatform;
-- (void)seds;
+- (id)hasTopicFeedPersonalizationCoefficient;
+- (void)devicePlatform;
+- (void)clearWidgetSectionIdsExposeds;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(retain, nonatomic) NSMutableArray *scores; // @synthesize scores=_scores;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

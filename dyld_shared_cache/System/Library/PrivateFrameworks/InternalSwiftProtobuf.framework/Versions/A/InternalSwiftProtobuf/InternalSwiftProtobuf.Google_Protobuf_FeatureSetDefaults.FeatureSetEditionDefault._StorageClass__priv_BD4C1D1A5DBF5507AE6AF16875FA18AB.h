@@ -7,8 +7,6 @@
 @interface InternalSwiftProtobuf.Google_Protobuf_FeatureSetDefaults.FeatureSetEditionDefault._StorageClass__priv_BD4C1D1A5DBF5507AE6AF16875FA18AB
 {
     id _edition;
-    id _overridableFeatures;
-    id _fixedFeatures;
 }
 
 @end

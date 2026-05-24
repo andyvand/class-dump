@@ -7,7 +7,6 @@
 @interface NewsUI2.RemoveIssuesFromMyMagazinesCommandHandler
 {
     id issueReadingHistory;
-    id store;
 }
 
 @end

@@ -8,10 +8,10 @@
 {
 }
 
++ (id)read messages because sysdiagnosed is not running.;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

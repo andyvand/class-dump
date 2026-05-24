@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSView;
+@class NSView;
 
 @interface LUIShakeAnimator
 {
     NSView *_originalView;
-    struct CGRect _startViewFrame;
-    double _amplitude;
-    NSLayoutConstraint *_centerXConstraint;
-    double _centerXConstraintConstant;
 }
 
-+ (void);
++ (void)qA;
 - (void);
 - (void);
 - (void);

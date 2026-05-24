@@ -6,12 +6,11 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEODirectionsError, GEODirectionsResponse, NSString;
+@class GEODirectionsResponse;
 
 @interface GEOXPCDirectionsReply : GEOXPCReply
 {
     GEODirectionsResponse *_directionsResponse;
-    GEODirectionsError *_directionsError;
 }
 
 - (void);
@@ -19,20 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)X;
 - (void)transitRouteUpdate;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEODirectionsError *directionsError; // @synthesize directionsError=_directionsError;
 @property(retain, nonatomic) GEODirectionsResponse *directionsResponse; // @synthesize directionsResponse=_directionsResponse;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

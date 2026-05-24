@@ -6,42 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSValue, _DUIPreview, _UIDragPreviewShadowProperties, _UIPortalView, _UIShapeView;
-
 @interface _UIPlatterView : UIView
 {
     _Bool _lifted;
-    _Bool _backgroundVisible;
-    _Bool _shadowVisible;
-    _Bool _transformAppliedExternally;
-    _Bool _constrainSize;
-    _Bool _constrainSizeWhenNotLifted;
-    _Bool _appliesOriginalRotation;
-    _Bool _flipped;
-    _Bool _precisionMode;
-    _Bool _hasAppliedMasking;
-    _DUIPreview *_preview;
-    UIView *_componentView;
-    _UIDragPreviewShadowProperties *_shadowProperties;
-    double _orientationRotation;
-    double _stackRotation;
-    NSValue *_anchorPointValueToAdjustToOnMoveToWindow;
-    UIView *_backgroundView;
-    _UIShapeView *_platterMaskView;
-    _UIShapeView *_portalMaskView;
-    _UIPortalView *_portalView;
-    UIView *_portalWrapperView;
-    UIView *_shadowView;
-    struct CGSize _overrideSize;
-    struct CGPoint _offset;
-    struct UIEdgeInsets _contentInsets;
-    struct CGAffineTransform _appliedTransform;
-    struct CGAffineTransform _additionalTransform;
-    struct CGAffineTransform _containerCounterScaleTransform;
-    struct CGAffineTransform _containerCounterRotationTransform;
 }
 
-- (_Bool);
+- (_Bool)
+;
 - (struct CATransform3D);
 - (void);
 - (double);
@@ -68,28 +39,28 @@
 - (id);
 - (double);
 - (_Bool);
-- (struct CGPoint);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (struct CGPoint)est"24@"NSData"32@"NSString"40@"NSString"48@"NSString"56;
+- (id)omponentContext";
+- (id)56@64B72;
+- (id)0@0:(id)arg1 8B16;
+- (_Bool)yModeEnabled: /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)languages;
+- (struct CGAffineTransform)kickoffStorageTimerIfNeeded;
+- (_Bool)itemsWithRoomNames:onServices:messageGUID:threadIdentifier:limit: /* Error: Ran out of types for this method. */;
+- (_Bool)itemsWithRoomNames:onServices:messageGUID:threadIdentifier:limit: /* Error: Ran out of types for this method. */;
+- (id)isDeviceLowOnDiskSpace;
+- (struct CGPoint)forceAutoBugCaptureWithSubType:errorPayload:type:context:metadata: /* Error: Ran out of types for this method. */;
+- (_Bool)ensureSaltIsAvailable: /* Error: Ran out of types for this method. */;
+- (id)deleteNoticeWithGUIDString: /* Error: Ran out of types for this method. */;
 - (struct CGAffineTransform);
-- (struct CGAffineTransform);
+- (void)_setCKRecordData:forKey: /* Error: Ran out of types for this method. */;
+- (void)on: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
-- (struct CGPoint);
-- (_Bool);
-- (id);
-- (struct CGAffineTransform);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)t in attachment store!;
+- (void)elay, However we already have this device in our allowed list ;
+- (id)@;
+- (_Bool)ckups;
+- (id)nding batch set complete for %p:account %@ batchID %@ /* Error: Ran out of types for this method. */;
 - (struct CGAffineTransform);
 - (void);
 - (struct CATransform3D);
@@ -98,60 +69,29 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)setCallback: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (struct UIEdgeInsets);
-- (_Bool)w;
-- (void)s;
-- (void)rchIconBackgroundView;
-- (struct CGPoint)iew;
-- (id)allowsInteractivePopWhenBackButtonHidden;
-- (void)cquireWaitingOnPerformAutocorrect;
+- (_Bool)updatedTargetedDropPreview;
+- (void)rectViews;
+- (void)floatingSearchIconBackgroundView;
+- (struct CGPoint)_multilingualKeyboardIntroductionView;
+- (id)_allowsInteractivePopWhenBackButtonHidden;
+- (void)_acquireWaitingOnPerformAutocorrect;
 - (id)contentConfig;
-- (_Bool)IViewServiceHostSceneComponent;
+- (_Bool)_UIViewServiceHostSceneComponent;
 - (void)4p`p;
 - (struct CGSize)Ðr|s;
 - (double);
 - (void);
-- (void)ate;
+- (void)delegate;
 - (id)f.initialSnapshot.sectionIdentifiers.count;
 - (struct CATransform3D);
 - (void);
 - (struct CGPoint)÷\;
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform additionalTransform; // @synthesize additionalTransform=_additionalTransform;
-@property(retain, nonatomic) NSValue *anchorPointValueToAdjustToOnMoveToWindow; // @synthesize anchorPointValueToAdjustToOnMoveToWindow=_anchorPointValueToAdjustToOnMoveToWindow;
-@property(nonatomic) struct CGAffineTransform appliedTransform; // @synthesize appliedTransform=_appliedTransform;
-@property(nonatomic) _Bool appliesOriginalRotation; // @synthesize appliesOriginalRotation=_appliesOriginalRotation;
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic, getter=isBackgroundVisible) _Bool backgroundVisible; // @synthesize backgroundVisible=_backgroundVisible;
-@property(readonly, nonatomic) struct CGPoint badgeLocation;
-@property(retain, nonatomic) UIView *componentView; // @synthesize componentView=_componentView;
-@property(nonatomic) _Bool constrainSize; // @synthesize constrainSize=_constrainSize;
-@property(nonatomic) _Bool constrainSizeWhenNotLifted; // @synthesize constrainSizeWhenNotLifted=_constrainSizeWhenNotLifted;
-@property(nonatomic) struct CGAffineTransform containerCounterRotationTransform; // @synthesize containerCounterRotationTransform=_containerCounterRotationTransform;
-@property(nonatomic) struct CGAffineTransform containerCounterScaleTransform; // @synthesize containerCounterScaleTransform=_containerCounterScaleTransform;
-@property(readonly, nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, nonatomic) struct CGPoint contentOffset;
-@property(nonatomic, getter=isFlipped) _Bool flipped; // @synthesize flipped=_flipped;
-@property(nonatomic) _Bool hasAppliedMasking; // @synthesize hasAppliedMasking=_hasAppliedMasking;
-@property(nonatomic, getter=isLifted) _Bool lifted; // @synthesize lifted=_lifted;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(nonatomic) double orientationRotation; // @synthesize orientationRotation=_orientationRotation;
-@property(nonatomic) struct CGSize overrideSize; // @synthesize overrideSize=_overrideSize;
-@property(readonly, nonatomic) _UIShapeView *platterMaskView; // @synthesize platterMaskView=_platterMaskView;
-@property(readonly, nonatomic) _UIShapeView *portalMaskView; // @synthesize portalMaskView=_portalMaskView;
-@property(retain, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(readonly, nonatomic) UIView *portalWrapperView; // @synthesize portalWrapperView=_portalWrapperView;
-@property(nonatomic) _Bool precisionMode; // @synthesize precisionMode=_precisionMode;
-@property(readonly, copy, nonatomic) _DUIPreview *preview; // @synthesize preview=_preview;
-@property(retain, nonatomic) _UIDragPreviewShadowProperties *shadowProperties; // @synthesize shadowProperties=_shadowProperties;
-@property(readonly, nonatomic) UIView *shadowView; // @synthesize shadowView=_shadowView;
-@property(nonatomic, getter=isShadowVisible) _Bool shadowVisible; // @synthesize shadowVisible=_shadowVisible;
-@property(nonatomic) __weak UIView *sourceView;
-@property(nonatomic) double stackRotation; // @synthesize stackRotation=_stackRotation;
-@property(nonatomic) _Bool transformAppliedExternally; // @synthesize transformAppliedExternally=_transformAppliedExternally;
 
 @end
 

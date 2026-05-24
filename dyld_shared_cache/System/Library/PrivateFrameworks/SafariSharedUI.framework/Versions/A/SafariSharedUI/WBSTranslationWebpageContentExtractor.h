@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WKWebView;
-@protocol WBSTranslationContentExtractionDelegate, WBSTranslationContentFillingDelegate;
-
 @interface WBSTranslationWebpageContentExtractor
 {
     _Bool _currentlyExtractingContent;
-    _Bool _needsHTMLLangAttributeUpdate;
-    WKWebView *_webView;
-    struct os_unfair_lock_s _replaceItemsLock;
-    NSMutableArray *_replaceItemsQueue;
-    id <WBSTranslationContentExtractionDelegate> _extractionDelegate;
-    id <WBSTranslationContentFillingDelegate> _fillingDelegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,20 +21,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void),V_status;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <WBSTranslationContentExtractionDelegate> extractionDelegate; // @synthesize extractionDelegate=_extractionDelegate;
-@property(nonatomic) __weak id <WBSTranslationContentFillingDelegate> fillingDelegate; // @synthesize fillingDelegate=_fillingDelegate;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

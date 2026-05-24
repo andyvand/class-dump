@@ -9,13 +9,6 @@
 @interface PhotosUICore.PhotosDynamicHeaderLayoutDebugOverlayView__priv_D2105462B28C8B244908FEC7DAEF9E29
 {
     id boundsIndicator;
-    id mainContentIndicator;
-    id safeAreaIndicator;
-    id floatingAreaIndicator;
-    id insets;
-    id insetsObservation;
-    id <NSCopying> userData;
-    struct CGRect clippingRect;
 }
 
 - (void);
@@ -25,12 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)ureProvider:(struct CGRect)arg1 didProvideFailureWithError:forRequestID: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)textureProvider:(struct CGRect)arg1 didProvideFailureWithError:forRequestID: /* Error: Ran out of types for this method. */;
 - (void)Ù;
 
 // Remaining properties
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;
 @property(nonatomic, retain) id <NSCopying> userData; // @synthesize userData;
 
 @end

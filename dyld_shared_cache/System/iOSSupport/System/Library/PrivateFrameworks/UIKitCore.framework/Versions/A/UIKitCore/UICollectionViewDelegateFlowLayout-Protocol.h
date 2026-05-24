@@ -11,7 +11,7 @@
 @optional
 - (struct CGSize)
 × ;
-- (double)ghtAttributes;
+- (double)_customActionHighlightAttributes;
 - (struct UIEdgeInsets)R,C,N,V_previewProvider;
 - (double)ntationTransactionToken:(UICollectionView *)arg1 ,V__orientationTransactionToken;
 - (struct CGSize)mageView",&,N,V_decorationImageView;

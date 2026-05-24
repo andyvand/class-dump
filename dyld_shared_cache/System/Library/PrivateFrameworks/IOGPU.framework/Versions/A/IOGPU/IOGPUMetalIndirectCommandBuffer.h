@@ -6,21 +6,14 @@
 
 #import <IOGPU/IOGPUMetalResource.h>
 
-@class IOGPUMetalBuffer, MTLIndirectCommandBufferDescriptor;
-@protocol MTLIndirectComputeCommandEncoder, MTLIndirectRenderCommandEncoder;
+@class IOGPUMetalBuffer;
 
 @interface IOGPUMetalIndirectCommandBuffer : IOGPUMetalResource
 {
     IOGPUMetalBuffer *_privateICBuffer;
-    unsigned long long _maxCommandCount;
-    unsigned long long _commandBufferType;
-    id <MTLIndirectComputeCommandEncoder> _privateIndirectComputeEncoder;
-    id <MTLIndirectRenderCommandEncoder> _privateIndirectRenderEncoder;
-    MTLIndirectCommandBufferDescriptor *_descriptor;
-    struct MTLIndirectCommandBufferHeader _internalHeader;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -30,28 +23,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)*=;
 - (void);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (struct MTLResourceID);
+- (struct MTLResourceID)BwxmI/Library/Caches/com.apple.xbs/TemporaryDirectory.wuCyqo/Sources/YARA/libyara/modules/math/math.c;
 - (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long commandBufferType;
-@property(readonly) MTLIndirectCommandBufferDescriptor *descriptor;
-@property(readonly, nonatomic) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) IOGPUMetalBuffer *privateICBuffer;
-@property(readonly) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
 
 @end
 

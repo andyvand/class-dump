@@ -7,12 +7,6 @@
 @interface JetEngine.MediaActivityPipelineHandler
 {
     id pipeline;
-    id topic;
-    id didUpdateStopFields;
-    id lastStartEvent;
-    id lastStopEvent;
-    id preprocessedStartEvent;
-    id preprocessedStopEvent;
 }
 
 @end

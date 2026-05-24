@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id)cumentBackgroundColorChange;
+- (id)allowsDocumentBackgroundColorChange;
 - (double);
-- (void)FormattingViewControllerTextListDecimal;
+- (void)_NSTextFormattingViewControllerTextListDecimal;
 
 // Remaining properties
 @property double scaleFactor; // @synthesize scaleFactor=_scaleFactor;

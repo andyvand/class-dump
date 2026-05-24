@@ -6,21 +6,19 @@
 
 #import <AppKit/NSTitlebarRenamingSessionBase.h>
 
-@class NSPopover, NSTitlebarPopoverViewController;
+@class NSPopover;
 
 __attribute__((visibility("hidden")))
 @interface NSTitlebarRenamingSession : NSTitlebarRenamingSessionBase
 {
     NSPopover *_popover;
-    NSTitlebarPopoverViewController *_titlebarPopoverViewController;
-    int _validity;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)led to fstat %s:(unsigned long long)arg1 [%d] %s;
 - (id);
-- (void)tioningOptions;
+- (void)positioningOptions;
 - (void)³Yõ¹Úî?O¯eê?ã¥Ä °ø¿V-²	@ëQ¸å¿ªñÒMbþ?ã¥Ä °î¿yé&1¬¬?ClçûÉ¿A`åÐ"«?¼tVö?rÇqÇá?;
 
 @end

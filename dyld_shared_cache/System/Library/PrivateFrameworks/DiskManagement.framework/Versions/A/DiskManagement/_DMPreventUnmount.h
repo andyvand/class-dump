@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _DMPreventUnmount
 {
     struct DMUDSPrivRec _givenDisk;
-    int _openDirFD;
 }
 
 - (void);
 - (int);
-- (void);
+- (void)KeyData;
 - (id);
 
 @end

@@ -9,7 +9,7 @@
 }
 
 + (unsigned long long);
-+ (unsigned int);
++ (unsigned int)F?;
 + (id);
 - (id);
 - (_Bool);
@@ -21,8 +21,8 @@
 - (unsigned int);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)%@;
+- (void)MNArrivalState_Unknown;
 - (_Bool);
 - (unsigned int);
 - (id);

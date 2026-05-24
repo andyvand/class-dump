@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, TISupplementalLexiconController;
-@protocol _ICLexiconManaging;
+@class NSXPCConnection;
 
 @interface TITransientLexiconManager
 {
     struct _LXLexicon *_namedEntityLexiconRef;
-    struct _LXLexicon *_namedEntityPhraseLexiconRef;
-    void *_namedEntityLexicons;
-    void *_namedEntityPhraseLexicons;
-    void *_addressBookLexicons;
-    void *_appNameLexicons;
-    NSObject<_ICLexiconManaging> *_inputContextLexiconManager;
-    TISupplementalLexiconController *_supplementalLexicons;
-    _Bool _lexiconsLoaded;
-    _Bool _supplementalLexiconSearchEnabled;
 }
 
 + (id);
-+ (void);
++ (void)q;
 + (id);
 + (id)0@ù
 × ;
@@ -35,20 +25,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)stackshotsOnlyIncludeSpecificProcesses;
 - (void);
 - (struct _LXLexicon *);
-- (struct _LXLexicon *);
+- (struct _LXLexicon *)-;
 - (_Bool);
-- (id);
+- (id);
 - (struct _LXLexicon *);
 - (void);
 - (struct _LXLexicon *);
-- (void);
+- (void)aceName:(CDUnknownBlockType)arg1 %{public}@ completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)invalidateHandler;
 - (_Bool);
 - (id);
 - (void);
@@ -62,18 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setOverridingCurrentConnectionForTesting:) NSXPCConnection *_overridingCurrentConnectionForTesting;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TISupplementalLexiconController *ensureSupplementalLexicons;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct _LXLexicon *namedEntityLexicon;
-@property(readonly, nonatomic) struct _LXLexicon *namedEntityPhraseLexicon;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSupplementalLexiconSearchEnabled) _Bool supplementalLexiconSearchEnabled; // @synthesize supplementalLexiconSearchEnabled=_supplementalLexiconSearchEnabled;
-@property(readonly, nonatomic) TISupplementalLexiconController *supplementalLexicons;
 
 @end
 

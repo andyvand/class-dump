@@ -6,27 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHStatisticDistributionInfo, MHSchemaMHTrailingPacketLatencyInfo, NSData;
-
 @interface MHSchemaMHEndpointLatencyInfoReported : SISchemaInstrumentationMessage
 {
     unsigned long long _firstPacketLatencyInNs;
-    MHSchemaMHTrailingPacketLatencyInfo *_trailingPacketLatencyInfo;
-    MHSchemaMHTrailingPacketLatencyInfo *_coreSpeechTrailingPacketLatencyInfo;
-    MHSchemaMHStatisticDistributionInfo *_trailingPacketLatency;
-    MHSchemaMHStatisticDistributionInfo *_coreSpeechTrailingPacketLatency;
-    struct {
-        unsigned int firstPacketLatencyInNs:1;
-    } _has;
-    _Bool _hasTrailingPacketLatencyInfo;
-    _Bool _hasCoreSpeechTrailingPacketLatencyInfo;
-    _Bool _hasTrailingPacketLatency;
-    _Bool _hasCoreSpeechTrailingPacketLatency;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
@@ -51,28 +38,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)CONF_parse_list;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)topReasonMajor;
-- (id)sMsg;
+- (id)stopReasonMajor;
+- (id)_hasMsg;
 - (void)p;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHStatisticDistributionInfo *coreSpeechTrailingPacketLatency; // @synthesize coreSpeechTrailingPacketLatency=_coreSpeechTrailingPacketLatency;
-@property(retain, nonatomic) MHSchemaMHTrailingPacketLatencyInfo *coreSpeechTrailingPacketLatencyInfo; // @synthesize coreSpeechTrailingPacketLatencyInfo=_coreSpeechTrailingPacketLatencyInfo;
 @property(nonatomic) unsigned long long firstPacketLatencyInNs; // @synthesize firstPacketLatencyInNs=_firstPacketLatencyInNs;
-@property(nonatomic) _Bool hasCoreSpeechTrailingPacketLatency; // @synthesize hasCoreSpeechTrailingPacketLatency=_hasCoreSpeechTrailingPacketLatency;
-@property(nonatomic) _Bool hasCoreSpeechTrailingPacketLatencyInfo; // @synthesize hasCoreSpeechTrailingPacketLatencyInfo=_hasCoreSpeechTrailingPacketLatencyInfo;
-@property(nonatomic) _Bool hasFirstPacketLatencyInNs;
-@property(nonatomic) _Bool hasTrailingPacketLatency; // @synthesize hasTrailingPacketLatency=_hasTrailingPacketLatency;
-@property(nonatomic) _Bool hasTrailingPacketLatencyInfo; // @synthesize hasTrailingPacketLatencyInfo=_hasTrailingPacketLatencyInfo;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MHSchemaMHStatisticDistributionInfo *trailingPacketLatency; // @synthesize trailingPacketLatency=_trailingPacketLatency;
-@property(retain, nonatomic) MHSchemaMHTrailingPacketLatencyInfo *trailingPacketLatencyInfo; // @synthesize trailingPacketLatencyInfo=_trailingPacketLatencyInfo;
 
 @end
 

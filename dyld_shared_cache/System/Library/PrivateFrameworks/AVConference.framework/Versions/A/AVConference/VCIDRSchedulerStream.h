@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCIDRSchedulerStream
 {
     unsigned int _keyFrameInterval;
-    unsigned int _framerate;
-    unsigned int _weightFactor;
-    unsigned int _framePosition;
-    unsigned int _framesPerIdrPeriod;
 }
 
 + (id);
@@ -23,18 +19,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
+- (void)$x;
+- (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)(;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int framePosition; // @synthesize framePosition=_framePosition;
-@property(nonatomic) unsigned int framerate; // @synthesize framerate=_framerate;
-@property(nonatomic) unsigned int framesPerIdrPeriod; // @synthesize framesPerIdrPeriod=_framesPerIdrPeriod;
 @property(nonatomic) unsigned int keyFrameInterval; // @synthesize keyFrameInterval=_keyFrameInterval;
-@property(nonatomic) unsigned int weightFactor; // @synthesize weightFactor=_weightFactor;
 
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, MLModelDescription;
+@class MLModelDescription;
 
 __attribute__((visibility("hidden")))
 @interface _MLVNScenePrintCustomModel
 {
     MLModelDescription *_modelDescription;
-    unsigned long long _scenePrintRequestRevision;
-    MLModelConfiguration *_configuration;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)extractMTLGenericBVHLeafNodesKernel_1_1;
+- (id)/Versions/32024/MTLCompiler;
 - (id);
 - (id);
 - (id);
@@ -23,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)have class labels.;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(readonly, nonatomic) unsigned long long scenePrintRequestRevision; // @synthesize scenePrintRequestRevision=_scenePrintRequestRevision;
 
 @end
 

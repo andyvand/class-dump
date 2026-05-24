@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, RBSAssertion, RBSTarget;
+@class NSString, RBSAssertion;
 
 @interface BKSAssertion
 {
     RBSAssertion *_internalAssertion;
-    CDUnknownBlockType _acquisitionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    RBSTarget *_target;
-    NSMutableArray *_attributes;
-    NSString *_name;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
+- (_Bool)encodeToCommandBuffer:sourceImage:inState:destinationImage:subBatchIndex:batchSize: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)2;
 - (_Bool);
-- (CDUnknownBlockType);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -33,33 +27,24 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
-- (CDUnknownBlockType);
+- (void);
+- (id);
+- (CDUnknownBlockType)#;
 - (void);
 - (unsigned long long);
-- (id)cate;
+- (id)legacyPredicate;
 - (id)hack assertion;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler;
 @property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool valid;
 
 @end
 

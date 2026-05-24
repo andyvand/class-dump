@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSControlTextEditingDelegate
+
+@optional
+- (void)tomation failed to encode provided object, view=%@, object=%@;
+- (NSArray *)exclusiveMinimum;
+- (_Bool)ich is not present in the specified enumerated values ;
+- (_Bool)ecified default ;
+- (void);
 @end
 

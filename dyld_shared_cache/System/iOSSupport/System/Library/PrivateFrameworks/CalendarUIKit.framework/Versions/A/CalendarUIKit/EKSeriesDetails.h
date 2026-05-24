@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSArray, NSSet;
+@class EKEvent;
 
 @interface EKSeriesDetails
 {
     EKEvent *_masterEvent;
-    NSArray *_detachedEvents;
-    NSSet *_exceptionDates;
 }
 
 - (void);
@@ -21,12 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)Color;
+- (id)setState:(struct _NSZone *)arg1;
+- (void)systemGreenColor;
 
 // Remaining properties
-@property(retain) NSArray *detachedEvents; // @synthesize detachedEvents=_detachedEvents;
-@property(retain) NSSet *exceptionDates; // @synthesize exceptionDates=_exceptionDates;
 @property(retain) EKEvent *masterEvent; // @synthesize masterEvent=_masterEvent;
 
 @end

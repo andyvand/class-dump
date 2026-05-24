@@ -7,10 +7,6 @@
 @interface AppStoreKit.TitledButtonStack
 {
     id buttons;
-    id compactLineBreaks;
-    id regularLineBreaks;
-    id id;
-    id automationMetadata;
 }
 
 @end

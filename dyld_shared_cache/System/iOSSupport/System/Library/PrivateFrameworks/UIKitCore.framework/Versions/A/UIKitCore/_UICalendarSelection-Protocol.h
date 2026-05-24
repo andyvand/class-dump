@@ -7,7 +7,9 @@
 @class UICalendarView;
 
 @protocol _UICalendarSelection
-- (UICalendarView *)aleFactor;
+- (void);
+- (void);
+- (UICalendarView *)_batteryBoltLargeScaleFactor;
 
 // Remaining properties
 @property(nonatomic) __weak UICalendarView *view;

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, IMDChatRegistry, IMDMessageStore, IMDRecentsController;
+@class IMDMessageStore;
 
 @interface IMMarkUnreadRequestProcessingPipelineComponent
 {
     IMDMessageStore *_messageStore;
-    IMDChatRegistry *_chatRegistry;
-    IMDRecentsController *_recents;
-    IDSService *_service;
 }
 
 - (id);

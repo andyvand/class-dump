@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreKDL, LADFROwnerToken, LASecureIO, NSData, NSMutableDictionary, NSNumber;
+@class LADFROwnerToken, LASecureIO;
 
 @interface LASecureIOHelper
 {
     LASecureIO *_secureIO;
-    long long _lastError;
-    NSMutableDictionary *_inputHandlers;
-    _Bool _sceneDirty;
-    _Bool _lastInstructionsWithoutDFR;
-    long long _scene;
-    NSData *_externalizedContext;
-    LADFROwnerToken *_currentDFROwner;
-    CoreKDL *_coreKDL;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -42,12 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CoreKDL *coreKDL; // @synthesize coreKDL=_coreKDL;
 @property __weak LADFROwnerToken *currentDFROwner; // @synthesize currentDFROwner=_currentDFROwner;
-@property(readonly, nonatomic) NSNumber *currentKDLVersion;
-@property(readonly) NSData *externalizedContext; // @synthesize externalizedContext=_externalizedContext;
-@property(readonly) _Bool lastInstructionsWithoutDFR; // @synthesize lastInstructionsWithoutDFR=_lastInstructionsWithoutDFR;
-@property(readonly) long long scene; // @synthesize scene=_scene;
 
 @end
 

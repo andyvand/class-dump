@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)eSelectionHighlightColor;
-+ (id)me:object: /* Error: Ran out of types for this method. */;
++ (id)darkOpaqueSelectionHighlightColor;
++ (id)appendName:object: /* Error: Ran out of types for this method. */;
 + (Class)þ;
 
 @end

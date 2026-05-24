@@ -7,17 +7,14 @@
 @interface SwiftUITextStorage
 {
     double _baselineDelta;
-    _Bool _forceWordWrapping;
-    _Bool _wrappedByCluster;
-    double _defaultTighteningFactor;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)qk;
 - (double);
 - (void);
-- (double);
+- (double)	?֘;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setBaselineDelta:) double _baselineDelta; // @synthesize _baselineDelta;
-@property(nonatomic, setter=_setForceWordWrapping:) _Bool _forceWordWrapping; // @synthesize _forceWordWrapping;
-@property(nonatomic, setter=_setWrappedByCluster:) _Bool _wrappedByCluster; // @synthesize _wrappedByCluster;
-@property(nonatomic) double defaultTighteningFactor; // @synthesize defaultTighteningFactor=_defaultTighteningFactor;
 
 @end
 

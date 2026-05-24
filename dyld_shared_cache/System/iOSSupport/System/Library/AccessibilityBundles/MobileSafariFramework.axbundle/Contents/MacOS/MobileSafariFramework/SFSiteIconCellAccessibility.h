@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class));
++ (id)isInHardwareKeyboardMode;
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)__PKPaymentButtonAccessibility_super;
 
 @end
 

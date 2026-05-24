@@ -5,5 +5,9 @@
 //
 
 @protocol CNContactPosterDataChangeRequestVisitor
+- (void)4;
+
+@optional
+- (void)u;
 @end
 

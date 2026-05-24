@@ -6,18 +6,11 @@
 
 #import <NearField/NFSession.h>
 
-@class NSString;
 @protocol NFFieldDetectSessionDelegate;
 
 @interface NFFieldDetectSession : NFSession
 {
     id <NFFieldDetectSessionDelegate> _delegate;
-    _Bool _fieldNotificationSent;
-    _Bool _fieldPresent;
-    _Bool _detectFieldCallback;
-    _Bool _exitFieldCallback;
-    _Bool _enterFieldCallback;
-    _Bool _detectTechnologyCallback;
 }
 
 - (_Bool);
@@ -30,14 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <NFFieldDetectSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

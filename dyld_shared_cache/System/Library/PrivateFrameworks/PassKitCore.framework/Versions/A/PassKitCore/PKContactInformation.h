@@ -9,14 +9,12 @@
 @interface PKContactInformation
 {
     NSArray *_postalAddresses;
-    NSArray *_emailAddresses;
-    NSArray *_phoneNumbers;
 }
 
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id)H;
 + (_Bool)X"Ð!´Dùî%Ð1Â0@ù
 × ;
 - (id);
@@ -25,16 +23,14 @@
 - (id);
 - (id);
 - (void);
-- (id)ndingRequests;
-- (id)d: /* Error: Ran out of types for this method. */;
+- (id)_pendingRequests;
+- (id)setSecondaryPropertiesRequired: /* Error: Ran out of types for this method. */;
 - (id)ÿ¤Ê÷ÿÈÊ÷ÿìÊ÷ÿ(Ë÷ÿLË÷ÿË÷ÿ¼Ë÷ÿøË÷ÿÌÌ÷ÿÍ÷ÿ´Í÷ÿØÍ÷ÿüÍ÷ÿ¨Î÷ÿÏ÷ÿ Ï÷ÿ¤Ð÷ÿÈÐ÷ÿÑ÷ÿ8Ñ÷ÿ\Ñ÷ÿhÓ÷ÿtÔ÷ÿÀÔ÷ÿlÚ÷ÿ¨Û÷ÿÌÛ÷ÿÜ÷ÿ,Ü÷ÿhÜ÷ÿÜ÷ÿÈÜ÷ÿìÜ÷ÿ(Ý÷ÿôÞ÷ÿ;
 - (id)nce:'%@';  /* Error: Ran out of types for this method. */;
-- (void)ValidityStartDate;
+- (void)shinkansenValidityStartDate;
 - (id))%j<;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
 @property(readonly, nonatomic) NSArray *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
 
 @end

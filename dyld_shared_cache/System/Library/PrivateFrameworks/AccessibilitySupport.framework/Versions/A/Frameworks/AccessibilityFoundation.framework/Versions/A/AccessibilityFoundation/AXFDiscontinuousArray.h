@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableIndexSet;
+@class NSMutableArray;
 
 @interface AXFDiscontinuousArray
 {
     NSMutableArray *__objects;
-    NSMutableIndexSet *__indexes;
-    struct _NSRange _domain;
 }
 
 - (void);
@@ -31,7 +29,7 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
@@ -43,13 +41,11 @@
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
-- (void);
+- (void)excludingPushTokens;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableIndexSet *_indexes; // @synthesize _indexes=__indexes;
 @property(retain, nonatomic) NSMutableArray *_objects; // @synthesize _objects=__objects;
-@property(readonly, nonatomic) struct _NSRange domain; // @synthesize domain=_domain;
 
 @end
 

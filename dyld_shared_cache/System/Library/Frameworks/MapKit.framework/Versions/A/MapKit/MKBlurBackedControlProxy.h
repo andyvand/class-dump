@@ -8,22 +8,20 @@ __attribute__((visibility("hidden")))
 @interface MKBlurBackedControlProxy
 {
     id _control;
-    id _maskControl;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)tweightFeedback;
+- (void)enableRAPLightweightFeedback;
 
 // Remaining properties
 @property(retain, nonatomic) id control; // @synthesize control=_control;
-@property(retain, nonatomic) id maskControl; // @synthesize maskControl=_maskControl;
 
 @end
 

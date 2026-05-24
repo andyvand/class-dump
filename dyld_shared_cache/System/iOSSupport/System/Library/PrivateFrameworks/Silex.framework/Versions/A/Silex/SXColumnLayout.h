@@ -9,33 +9,14 @@
 @interface SXColumnLayout
 {
     id <SXDocumentLayout> _documentLayout;
-    long long _layoutWidth;
-    double _leftMargin;
-    double _rightMargin;
-    long long _gutter;
-    unsigned long long _numberOfColumns;
-    double _columnWidth;
-    long long _leftColumnOffset;
-    long long _rightColumnOffset;
-    double _leftInset;
-    double _rightInset;
-    double _minimumHeight;
-    double _minimumViewportWidthForLooseLayout;
-    double _leftScreenMargin;
-    double _rightScreenMargin;
-    double _contentScaleFactor;
-    unsigned long long _layoutColumns;
-    struct CGSize _constrainedViewportSize;
-    struct CGSize _viewportSize;
-    struct UIEdgeInsets _safeAreaInsets;
 }
 
 - (struct CGSize);
 - (double);
-- (double);
+- (double)@;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (double);
 - (double);
@@ -54,10 +35,10 @@
 - (id);
 - (id);
 - (double);
-- (long long);
+- (long long);
 - (double);
 - (double);
-- (id);
+- (id);
 - (void);
 - (struct UIEdgeInsets);
 - (long long);
@@ -66,26 +47,7 @@
 - (unsigned long long)ÿfjVOç;
 
 // Remaining properties
-@property(readonly, nonatomic) double columnWidth; // @synthesize columnWidth=_columnWidth;
-@property(readonly, nonatomic) struct CGSize constrainedViewportSize; // @synthesize constrainedViewportSize=_constrainedViewportSize;
-@property(readonly, nonatomic) double contentScaleFactor; // @synthesize contentScaleFactor=_contentScaleFactor;
-@property(readonly, nonatomic) id <SXDocumentLayout> documentLayout; // @synthesize documentLayout=_documentLayout;
-@property(readonly, nonatomic) long long gutter; // @synthesize gutter=_gutter;
 @property(readonly, nonatomic) unsigned long long layoutColumns; // @synthesize layoutColumns=_layoutColumns;
-@property(readonly, nonatomic) long long layoutWidth; // @synthesize layoutWidth=_layoutWidth;
-@property(readonly, nonatomic) long long leftColumnOffset; // @synthesize leftColumnOffset=_leftColumnOffset;
-@property(nonatomic) double leftInset; // @synthesize leftInset=_leftInset;
-@property(readonly, nonatomic) double leftMargin; // @synthesize leftMargin=_leftMargin;
-@property(readonly, nonatomic) double leftScreenMargin; // @synthesize leftScreenMargin=_leftScreenMargin;
-@property(nonatomic) double minimumHeight; // @synthesize minimumHeight=_minimumHeight;
-@property(nonatomic) double minimumViewportWidthForLooseLayout; // @synthesize minimumViewportWidthForLooseLayout=_minimumViewportWidthForLooseLayout;
-@property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) long long rightColumnOffset; // @synthesize rightColumnOffset=_rightColumnOffset;
-@property(nonatomic) double rightInset; // @synthesize rightInset=_rightInset;
-@property(readonly, nonatomic) double rightMargin; // @synthesize rightMargin=_rightMargin;
-@property(readonly, nonatomic) double rightScreenMargin; // @synthesize rightScreenMargin=_rightScreenMargin;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
-@property(readonly, nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
 
 @end
 

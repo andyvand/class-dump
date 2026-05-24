@@ -6,53 +6,35 @@
 
 #import <coreroutine/RTDaemonClientRegistrar.h>
 
-@class NSObject, NSString, RTInvocationDispatcher, RTTripSegmentManager;
-@protocol OS_dispatch_queue, RTDaemonClientRegistrarGeneratedTripSegmentProtocol;
-
 @interface RTDaemonClientRegistrarGeneratedTripSegments : RTDaemonClientRegistrar
 {
     _Bool _isMonitoring;
-    id <RTDaemonClientRegistrarGeneratedTripSegmentProtocol> _delegate;
-    RTTripSegmentManager *_tripSegmentManager;
-    RTInvocationDispatcher *_dispatcher;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
+- (void)t;
+- (id);
+- (void)er/bit mismatch detected;
+- (void)ata"8@"NSData"16@"NSData"24@"NSData"32@"NSData"40@"NSError"48;
+- (void)FlagFederationMigrationNeeded;
+- (void)X1FY8fOO7gDb5S/dE76KJKPA5ZXghQA9IZ6IlCi5OlRm54v/t+ifHvk6ARdSgb2ZEzcZ4=;
+- (void)BluetoothHIDDeviceActive;
+- (long long)], ignore %@ response.;
+- (_Bool)5;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)connection:nearbyDevicesChanged: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void):(id)arg1 startDate:interval:forDate: /* Error: Ran out of types for this method. */;
+- (void)rangeOfUnit:(id)arg1 startDate:interval:forDate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)entTransitionPreprocessor:cannot find plausible start date (candidate %@) for startLoiLocation %{sensitive}@ that satisfies reasonable speed, not adding LOI /* Error: Ran out of types for this method. */;
 - (_Bool)xM¦ÿÝ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RTDaemonClientRegistrarGeneratedTripSegmentProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTTripSegmentManager *tripSegmentManager; // @synthesize tripSegmentManager=_tripSegmentManager;
 
 @end
 

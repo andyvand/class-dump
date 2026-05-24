@@ -7,19 +7,17 @@
 @interface RTMapItemProviderUserCurationParameters
 {
     double _distanceThreshold;
-    double _recentCurationOverrideWindow;
 }
 
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)encrypt with message protection {data:%{private}@, fullKey:%{private}@, publicKey:%{public}@, error:%{public}@} /* Error: Ran out of types for this method. */;
+- (id)";
 - (double);
 - (id)ter not satisfying:(id)arg1 self.queue (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;
-@property(readonly, nonatomic) double recentCurationOverrideWindow; // @synthesize recentCurationOverrideWindow=_recentCurationOverrideWindow;
 
 @end
 

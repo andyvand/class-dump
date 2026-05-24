@@ -7,8 +7,6 @@
 @interface CUIPlaceholderCUINamedRenditionInfo
 {
     void *_bitmap;
-    const struct _renditionkeyfmt *_keyFormat;
-    long long _platform;
 }
 
 + (int);
@@ -24,19 +22,19 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned short);
-- (_Bool);
-- (_Bool);
-- (unsigned short);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (int);
-- (_Bool);
+- (_Bool);
+- (_Bool)sub-box of a contiguous codestream box (may be a stream equivalent contiguous codestream for a real original box, which might have had sub-boxes), but you should have checked.;
+- (unsigned short)endency transform block which operates on reversible codestream sample data.  While we allow such transforms to be processed during decompression, it is unreasonable to generate reversibly compressed component samples using an irreversible inverse multi-component transform during compression.  Kakadu will not invert this transform during compression.  This can prevent the compression process from proceeding if there are no other paths back from the MCT output components to the codestream components.;
+- (void)I;
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (int)(/;
+- (_Bool)DisplayServicesExternalAmbientLightCompensation;
+- (void);
 - (id);
+- (id)ɀ;
 
 @end
 

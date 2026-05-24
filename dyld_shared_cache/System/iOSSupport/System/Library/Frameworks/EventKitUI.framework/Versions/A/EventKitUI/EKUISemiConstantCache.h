@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFont, UIImage;
+@class UIFont;
 
 @interface EKUISemiConstantCache
 {
     UIFont *_weekAllDayLabelFontCompact;
-    UIFont *_weekAllDayLabelFontRegular;
-    UIFont *_weekAllDayTodayLabelFontCompact;
-    UIImage *_inboxDisclosureImage;
-    double _weekAllDayBaselineForLargeFormatWeekView;
-    double _weekAllDayBaselineForSmallFormatWeekView;
-    double _weekAllDayOccurrenceHeight;
-    double _weekAllDayOccurrenceHeightSmallText;
-    double _minYearMonthHeaderFontSizeUsed;
 }
 
-+ (id)gnizer: /* Error: Ran out of types for this method. */;
++ (id)gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
+- (double)e;
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
@@ -38,22 +30,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)B24@?0r*8@"<OS_xpc_object>"16;
 - (double);
 - (id);
 - (void);
-- (void)llChangeValueForKey: /* Error: Ran out of types for this method. */;
+- (void)willChangeValueForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double minYearMonthHeaderFontSizeUsed; // @synthesize minYearMonthHeaderFontSizeUsed=_minYearMonthHeaderFontSizeUsed;
 @property double weekAllDayBaselineForLargeFormatWeekView; // @synthesize weekAllDayBaselineForLargeFormatWeekView=_weekAllDayBaselineForLargeFormatWeekView;
-@property double weekAllDayBaselineForSmallFormatWeekView; // @synthesize weekAllDayBaselineForSmallFormatWeekView=_weekAllDayBaselineForSmallFormatWeekView;
-@property(readonly) UIFont *weekAllDayLabelFontCompact;
-@property(readonly) UIFont *weekAllDayLabelFontRegular;
-@property double weekAllDayOccurrenceHeight; // @synthesize weekAllDayOccurrenceHeight=_weekAllDayOccurrenceHeight;
-@property double weekAllDayOccurrenceHeightSmallText; // @synthesize weekAllDayOccurrenceHeightSmallText=_weekAllDayOccurrenceHeightSmallText;
-@property(readonly) UIFont *weekAllDayTodayLabelFontCompact;
-@property(readonly) UIFont *weekAllDayTodayLabelFontRegular;
 
 @end
 

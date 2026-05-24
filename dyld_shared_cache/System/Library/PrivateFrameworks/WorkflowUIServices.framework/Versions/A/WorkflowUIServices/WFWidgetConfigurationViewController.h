@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString, WFWidgetConfigurationCardView, WFWidgetConfigurationRemoteViewController, WFWidgetConfigurationRequest, WFWidgetConfigurationView;
-@protocol NSCopying, WFWidgetConfigurationViewControllerDelegate;
+@class WFWidgetConfigurationCardView;
 
 @interface WFWidgetConfigurationViewController
 {
     _Bool _didMakeFirstResponder;
-    id <WFWidgetConfigurationViewControllerDelegate> _delegate;
-    WFWidgetConfigurationCardView *_cardView;
-    WFWidgetConfigurationRequest *_request;
-    WFWidgetConfigurationRemoteViewController *_remoteViewController;
-    NSExtension *_extension;
-    id <NSCopying> _extensionRequest;
-    struct CGSize _preferredCardSize;
 }
 
 + (_Bool);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)*T;
+- (void)g;
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)8*T;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)xLdz;
+- (id){|z;
+- (void)̋8{;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)8Ϣf;
 - (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -57,22 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WFWidgetConfigurationCardView *cardView; // @synthesize cardView=_cardView;
-@property(readonly, nonatomic) WFWidgetConfigurationView *configurationView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WFWidgetConfigurationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didMakeFirstResponder; // @synthesize didMakeFirstResponder=_didMakeFirstResponder;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(retain, nonatomic) id <NSCopying> extensionRequest; // @synthesize extensionRequest=_extensionRequest;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize preferredCardSize; // @synthesize preferredCardSize=_preferredCardSize;
-@property struct CGSize preferredContentSize; // @dynamic preferredContentSize;
-@property(readonly, nonatomic) WFWidgetConfigurationRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly, nonatomic) WFWidgetConfigurationRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

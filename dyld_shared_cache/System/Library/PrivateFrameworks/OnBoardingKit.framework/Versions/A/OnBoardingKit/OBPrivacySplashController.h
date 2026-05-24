@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString, OBPrivacyFlow, OBPrivacySplashView, OBTemplateContainerViewController;
+@class OBPrivacyFlow, OBPrivacySplashView;
 
 @interface OBPrivacySplashController
 {
     OBPrivacySplashView *splashView;
-    _Bool _suppressPerPageAnalyticsLogging;
-    _Bool _allowsOpeningSafari;
-    _Bool _showLinkToPrivacyGateway;
-    _Bool _showsLinkToUnifiedAbout;
-    _Bool _forceLargeMargins;
-    _Bool _useModalStyle;
-    _Bool _isCombined;
-    _Bool _showPIIIcon;
-    NSColor *_customTintColor;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
-    OBPrivacyFlow *_flow;
-    OBTemplateContainerViewController *_containerViewController;
 }
 
 + (id);
@@ -32,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +36,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -60,38 +47,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)er, hashed_person_id, flavor, url, mini_sinf, sinfs FROM assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND flavor = @flavor;
+- (id)MPModelRelationshipGenericComposer;
+- (void)hasSubtitles;
+- (id)+;
+- (id);
 - (void);
 
 // Remaining properties
-@property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;
-@property(retain) OBTemplateContainerViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(retain, nonatomic) NSColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
 @property(retain, nonatomic) OBPrivacyFlow *flow; // @synthesize flow=_flow;
-@property _Bool forceLargeMargins; // @synthesize forceLargeMargins=_forceLargeMargins;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCombined; // @synthesize isCombined=_isCombined;
-@property(nonatomic) _Bool showLinkToPrivacyGateway; // @synthesize showLinkToPrivacyGateway=_showLinkToPrivacyGateway;
-@property _Bool showPIIIcon; // @synthesize showPIIIcon=_showPIIIcon;
-@property _Bool showsLinkToUnifiedAbout; // @synthesize showsLinkToUnifiedAbout=_showsLinkToUnifiedAbout;
-@property(readonly) Class superclass;
-@property _Bool suppressPerPageAnalyticsLogging; // @synthesize suppressPerPageAnalyticsLogging=_suppressPerPageAnalyticsLogging;
-@property _Bool useModalStyle; // @synthesize useModalStyle=_useModalStyle;
 
 @end
 

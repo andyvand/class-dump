@@ -5,5 +5,6 @@
 //
 
 @protocol HomeKitDaemon.HMDACXPCEventSubscriber
+- (void)setCollidableSuggestions:(void (^)(ACAccount *, int))arg1;
 @end
 

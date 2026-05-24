@@ -7,12 +7,6 @@
 @interface CloudKit.CKSessionAcquirer
 {
     id acquisitionStreamContinuation;
-    id sessionID;
-    id sessionConfiguration;
-    id previousInvalidationContext;
-    id testDeviceReferenceProtocol;
-    id daemonErrorBackoff;
-    id stateMutex;
 }
 
 @end

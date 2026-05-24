@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (id);
-- (_Bool);
+- (id)ictionary",&,V_chatGUIDToSpamCheckTimerMap;
+- (id)posting notification:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ng safe render succeeded, but still using the original path since we cannot transcode the entire asset:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)j;
 
 @end

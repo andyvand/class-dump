@@ -5,11 +5,9 @@
 //
 
 @protocol VisionCoreQuadrilateral
+- (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint bottomLeft;
-@property(readonly, nonatomic) struct CGPoint bottomRight;
 @property(readonly, nonatomic) struct CGPoint topLeft;
-@property(readonly, nonatomic) struct CGPoint topRight;
 @end
 

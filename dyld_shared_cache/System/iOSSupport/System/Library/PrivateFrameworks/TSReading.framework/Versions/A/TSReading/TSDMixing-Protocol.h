@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol TSDMixing
+- (long long)d overlappedPlaybackWillBegin;
+
+@optional
++ (NSArray *)- fadeOut: /* Error: Ran out of types for this method. */;
+- (id);
 @end
 

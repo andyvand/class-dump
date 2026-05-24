@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSScriptClassDescription, NSScriptTypeDescription;
+@class NSScriptClassDescription;
 
 __attribute__((visibility("hidden")))
 @interface NSScriptExecutionContextMoreIVars
 {
     NSScriptClassDescription *rangeContainerClassDescription;
-    NSScriptTypeDescription *testedObjectTypeDescription;
-    int errorNumber;
-    NSAppleEventDescriptor *errorOffendingObjectDescriptor;
-    NSAppleEventDescriptor *errorExpectedTypeDescriptor;
 }
 
 @end

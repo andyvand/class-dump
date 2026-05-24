@@ -11,7 +11,6 @@
 @interface SearchUIPlayAudioButtonItem : SearchUIToggleButtonItem
 {
     _Bool _gotNowPlayingChangedNotificationAfterPlaying;
-    _Bool _needsUpdate;
 }
 
 + (_Bool);
@@ -28,18 +27,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)emission;
+- (id)ackSuit.aa;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)otWorks;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property _Bool gotNowPlayingChangedNotificationAfterPlaying; // @synthesize gotNowPlayingChangedNotificationAfterPlaying=_gotNowPlayingChangedNotificationAfterPlaying;
-@property _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
 @property(retain) SFPlayAudioButtonItem *sfButtonItem; // @dynamic sfButtonItem;
 
 @end

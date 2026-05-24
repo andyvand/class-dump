@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage;
-@protocol GEOMapItem, NSObject;
+@protocol GEOMapItem;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapItemStorageNotificationTrampoline
 {
     id <GEOMapItem> _mapItem;
-    GEOMapItemStorage *_storage;
-    id <NSObject> _notificationToken;
 }
 
 - (void);

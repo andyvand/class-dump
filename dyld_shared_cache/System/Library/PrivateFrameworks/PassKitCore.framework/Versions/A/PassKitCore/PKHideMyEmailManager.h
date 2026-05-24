@@ -9,7 +9,6 @@
 @interface PKHideMyEmailManager
 {
     AKPrivateEmailController *_controller;
-    unsigned long long _isAvailable;
 }
 
 - (void);

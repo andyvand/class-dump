@@ -16,23 +16,8 @@ struct CGPoint {
 };
 
 struct CGSize {
-    double width;
-    double height;
-};
-
-struct GlyphStack {
-    long long _field1;
-    long long _field2;
-    struct GlyphStackEntry _field3[1];
-};
-
-struct GlyphStackEntry {
-    unsigned short _field1;
-    struct CGSize _field2;
-    unsigned int _field3;
-    long long _field4;
-    long long _field5;
-    struct CGPoint _field6;
+    double _field1;
+    double _field2;
 };
 
 struct IndicClassTableCache {
@@ -41,17 +26,6 @@ struct IndicClassTableCache {
 
 struct TCFRef<const __CFArray *> {
     struct atomic<const __CFArray *> fRef;
-};
-
-struct TCFRef<const __CFSet *> {
-    struct atomic<const __CFSet *> fRef;
-};
-
-struct TTraitsValues {
-    unsigned int _field1;
-    double _field2;
-    double _field3;
-    double _field4;
 };
 
 struct TUnfairLock {
@@ -66,12 +40,6 @@ struct _NSRange {
 struct atomic<const __CFArray *> {
     struct __cxx_atomic_impl<const __CFArray *, std::__cxx_atomic_base_impl<const __CFArray *>> {
         _Atomic struct __CFArray *__a_value;
-    } __a_;
-};
-
-struct atomic<const __CFSet *> {
-    struct __cxx_atomic_impl<const __CFSet *, std::__cxx_atomic_base_impl<const __CFSet *>> {
-        _Atomic struct __CFSet *__a_value;
     } __a_;
 };
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NFReaderSessionCallbacks
+- (void)Street;
+- (void)ABAddressFieldBuilder;
+- (void)ACTION_MULTIPLE_BEGIN_CHAT;
+- (void)g a conversation:(NSArray *)arg1 %@;
+
+@optional
+- (void)kABMembersListChangedNotification;
 @end
 

@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PDAnimateTimeBehavior : PDAnimateBehavior
 {
     NSString *mTo;
-    NSString *mFrom;
-    NSString *mBy;
-    _Bool mHasCalcMode;
-    int mCalcMode;
-    _Bool mHasValueType;
-    int mValueType;
 }
 
 - (void);
@@ -25,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
+- (void)O;
 - (void);
-- (void);
+- (id)rocess.load.invert.bundles;
 - (id);
-- (id);
-- (void);
+- (void)8;
 - (_Bool);
 - (id);
 - (int);

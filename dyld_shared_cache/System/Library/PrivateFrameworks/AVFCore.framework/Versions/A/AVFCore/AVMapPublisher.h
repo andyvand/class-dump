@@ -9,7 +9,6 @@
 @interface AVMapPublisher : AVPublisher
 {
     AVPublisher *_upstream;
-    CDUnknownBlockType _transform;
 }
 
 + (id);

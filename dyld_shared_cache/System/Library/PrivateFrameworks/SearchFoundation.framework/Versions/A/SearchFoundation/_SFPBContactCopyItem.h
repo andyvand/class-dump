@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPerson, _SFPBURL;
+@class _SFPBPerson;
 
 @interface _SFPBContactCopyItem
 {
     _SFPBPerson *_person;
-    _SFPBURL *_contactFileLocation;
 }
 
 - (void);
@@ -19,26 +18,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isPhotoIrisPlaceholderWithPhotoIris:(id)arg1 videoCpDuration:isCloudShared:videoCpFilePath: /* Error: Ran out of types for this method. */;
+- (id)@, error codes:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)Â0@ù
 × ;
-- (void)lts: /* Error: Ran out of types for this method. */;
+- (void)setHasResults: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *contactFileLocation; // @synthesize contactFileLocation=_contactFileLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

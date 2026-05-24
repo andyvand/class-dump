@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int allowsMultipleSessions:1;
     } _flags;
-    id <_UINavigationBarTitleRenamerDelegate> _delegate;
-    NSMutableSet *_trackedSessions;
 }
 
 + (id);
@@ -24,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)tell feature is on.;
+- (id)s-upload-timeout, using the default 10 seconds;
+- (void)eedback_type));
 - (void);
+- (id)O;
+- (id)RouteConnection.connectWithOptions;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)plySettingsAfterLayout;
+- (id)_applySettingsAfterLayout;
 - (void);
 - (void);
 

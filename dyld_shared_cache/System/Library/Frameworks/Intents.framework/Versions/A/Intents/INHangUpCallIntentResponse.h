@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INHangUpCallIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)associateThumbnailImagesDictionary:(long long)arg1 serializedQuickLookMetadata:withDocumentAtURL:error: /* Error: Ran out of types for this method. */;
++ (int)nedFileIdentifier",R,D;
++ (long long)"NSMutableDictionary",&,V_queuedURLs;
++ (_Bool)Wrapper;
 + (_Bool);
-+ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)ors;
+- (id);
+- (void)primaryIPv4InterfaceDuration;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)antReservationBookingDefaultsIntentResponseExport;
+- (long long)INGetAvailableRestaurantReservationBookingDefaultsIntentResponseExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long hungUpCallType;
-@property(readonly) Class superclass;
 
 @end
 

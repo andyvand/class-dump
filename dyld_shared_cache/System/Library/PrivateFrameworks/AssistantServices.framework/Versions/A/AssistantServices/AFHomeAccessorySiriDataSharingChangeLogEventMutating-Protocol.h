@@ -5,8 +5,9 @@
 //
 
 @protocol AFHomeAccessorySiriDataSharingChangeLogEventMutating
+- (void)ystemuiserver;
 - (void)!¨Cùn&°1Â0@ù
 × ;
-- (void)Mutation;
+- (void)_AFVoiceIdScoreCardMutation;
 @end
 

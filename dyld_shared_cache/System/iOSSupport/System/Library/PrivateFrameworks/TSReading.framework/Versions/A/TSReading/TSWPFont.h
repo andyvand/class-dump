@@ -9,33 +9,26 @@
 @interface TSWPFont
 {
     NSString *_fontName;
-    NSString *_compatibilityName;
-    NSString *_displayName;
-    NSString *_familyName;
-    unsigned long long _hash;
 }
 
 + (_Bool);
 + (id);
 + (id);
-- (void);
+- (void)backCore.MPCPlaybackEngineEventStream/consumerWorkloop;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)#;
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)nd a visible window in the scene for ;
+- (id)userEventHistory;
 - (id);
 - (id)leValue:forProperty:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *compatibilityName; // @synthesize compatibilityName=_compatibilityName;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *familyName;
 @property(copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
 
 @end

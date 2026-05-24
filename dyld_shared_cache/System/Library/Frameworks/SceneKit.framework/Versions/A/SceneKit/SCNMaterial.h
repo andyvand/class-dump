@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSNumber, NSString, SCNMaterialProperty, SCNOrderedDictionary, SCNProgram, SCNShadableHelper;
+@class NSString;
 
 @interface SCNMaterial
 {
     struct __C3DMaterial *_material;
-    SCNMaterialProperty *_ambient;
-    SCNMaterialProperty *_diffuse;
-    SCNMaterialProperty *_specular;
-    SCNMaterialProperty *_emission;
-    SCNMaterialProperty *_reflective;
-    SCNMaterialProperty *_transparent;
-    SCNMaterialProperty *_multiply;
-    SCNMaterialProperty *_normal;
-    SCNMaterialProperty *_ambientOcclusion;
-    SCNMaterialProperty *_selfIllumination;
-    SCNMaterialProperty *_metalness;
-    SCNMaterialProperty *_roughness;
-    SCNMaterialProperty *_displacement;
-    SCNMaterialProperty *_clearCoat;
-    SCNMaterialProperty *_clearCoatRoughness;
-    SCNMaterialProperty *_clearCoatNormal;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    NSString *_name;
-    NSMutableDictionary *_valuesForUndefinedKeys;
-    struct os_unfair_lock_s _valuesForUndefinedKeysLock;
-    float _shininess;
-    float _transparency;
-    float _indexOfRefraction;
-    float _fresnelExponent;
-    float _selfIlluminationOcclusion;
-    long long _transparencyMode;
-    NSString *_lightingModelName;
-    long long _cullMode;
-    SCNShadableHelper *_shadableHelper;
-    _Bool _isPresentationInstance;
-    _Bool _litPerPixel;
-    _Bool _doubleSided;
-    _Bool _locksAmbientWithDiffuse;
-    _Bool _avoidsOverLighting;
-    _Bool _writesToDepthBuffer;
-    _Bool _readsFromDepthBuffer;
-    unsigned long long _fillMode;
-    long long _blendMode;
-    long long _colorBufferWriteMask;
 }
 
 + (id);
@@ -63,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -73,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -81,7 +40,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -114,7 +73,7 @@
 - (id);
 - (id);
 - (void);
-- (Class);
+- (Class);
 - (id);
 - (void);
 - (void);
@@ -139,7 +98,7 @@
 - (void);
 - (struct __C3DMaterial *);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -160,21 +119,21 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)gracious;
+- (_Bool)fifty;
+- (void)disgruntled;
+- (void)P;
 - (id);
-- (id);
-- (id);
+- (id)40@44@52@60;
+- (id)q"__opaque"[40c]};
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)B;
 - (void);
 - (id);
 - (id);
@@ -888,60 +847,10 @@ __DoFragmentModifier__
     gl_FragColor = _output.color;
 }
 ;
-- (id)sContentGetVertexIndicesForTrianglePrimitiveAtIndex;
+- (id)C3DIndicesContentGetVertexIndicesForTrianglePrimitiveAtIndex;
 
 // Remaining properties
-@property(readonly, nonatomic) SCNMaterialProperty *ambient;
-@property(readonly, nonatomic) SCNMaterialProperty *ambientOcclusion;
-@property(readonly) NSArray *animationKeys;
-@property(nonatomic) long long blendMode;
-@property(readonly, nonatomic) SCNMaterialProperty *clearCoat;
-@property(readonly, nonatomic) SCNMaterialProperty *clearCoatNormal;
-@property(readonly, nonatomic) SCNMaterialProperty *clearCoatRoughness;
-@property(nonatomic) long long colorBufferWriteMask;
-@property(nonatomic) long long cullMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SCNMaterialProperty *diffuse;
-@property(readonly, nonatomic) SCNMaterialProperty *displacement;
-@property(nonatomic, getter=isDoubleSided) _Bool doubleSided;
-@property(readonly, nonatomic) SCNMaterialProperty *emission;
-@property(nonatomic) unsigned long long fillMode;
-@property(nonatomic) double fresnelExponent;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *lightingModelName;
-@property(nonatomic, getter=isLitPerPixel) _Bool litPerPixel;
-@property(nonatomic) _Bool locksAmbientWithDiffuse;
-@property(readonly, nonatomic) SCNMaterialProperty *metalness;
-@property(retain, nonatomic) NSNumber *minimumLanguageVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,&,N
-
-@property(readonly, nonatomic) SCNMaterialProperty *multiply;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) SCNMaterialProperty *normal;
-@property(retain, nonatomic) SCNProgram *program;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SCNProgram",?,&,N
-
-@property(nonatomic) _Bool readsFromDepthBuffer;
-@property(readonly, nonatomic) SCNMaterialProperty *reflective;
-@property(readonly, nonatomic) SCNMaterialProperty *roughness;
-@property(readonly, nonatomic) SCNMaterialProperty *selfIllumination;
-@property(copy, nonatomic) NSDictionary *shaderModifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,C,N
-
-@property(nonatomic) double shininess;
-@property(readonly, nonatomic) SCNMaterialProperty *specular;
-@property(readonly) Class superclass;
-@property(nonatomic) double transparency;
-@property(nonatomic) long long transparencyMode;
-@property(readonly, nonatomic) SCNMaterialProperty *transparent;
-@property(nonatomic) _Bool writesToDepthBuffer;
 
 @end
 

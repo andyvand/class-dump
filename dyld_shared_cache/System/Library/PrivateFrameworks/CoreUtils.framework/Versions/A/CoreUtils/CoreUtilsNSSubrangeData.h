@@ -10,20 +10,19 @@ __attribute__((visibility("hidden")))
 @interface CoreUtilsNSSubrangeData
 {
     NSData *_data;
-    struct _NSRange _range;
 }
 
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ustodian service to initiate custodian for context %@;
+- (id);
 - (const void *);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)ags;
-- (void)essoryDelegate;
-- (void)ar;
+- (_Bool)selfAccessoryMediaAccessFlags;
+- (void)HMAccessoryDelegate;
+- (void)OffEar;
 
 @end
 

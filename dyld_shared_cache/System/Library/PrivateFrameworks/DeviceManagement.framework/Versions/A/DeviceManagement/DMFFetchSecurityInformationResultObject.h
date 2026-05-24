@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFSecurityInformation, NSDictionary;
+@class DMFSecurityInformation;
 
 @interface DMFFetchSecurityInformationResultObject
 {
     DMFSecurityInformation *_securityInformation;
-    NSDictionary *_valuesByPropertyKey;
-    NSDictionary *_errorsByPropertyKey;
 }
 
 + (_Bool);
@@ -22,12 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)AutocompleteStore",&,N,V_autocompleteStore;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *errorsByPropertyKey; // @synthesize errorsByPropertyKey=_errorsByPropertyKey;
 @property(readonly, copy, nonatomic) DMFSecurityInformation *securityInformation; // @synthesize securityInformation=_securityInformation;
-@property(readonly, copy, nonatomic) NSDictionary *valuesByPropertyKey; // @synthesize valuesByPropertyKey=_valuesByPropertyKey;
 
 @end
 

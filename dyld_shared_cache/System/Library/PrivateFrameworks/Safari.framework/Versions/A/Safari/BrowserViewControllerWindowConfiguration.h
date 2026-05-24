@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKNavigationAction, WKWebViewConfiguration, WKWindowFeatures;
+@class WKWebViewConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface BrowserViewControllerWindowConfiguration
 {
     _Bool _omitParentTabRelationship;
-    WKWebViewConfiguration *_webViewConfiguration;
-    WKNavigationAction *_navigationAction;
-    WKWindowFeatures *_windowFeatures;
 }
 
 - (id);
@@ -24,10 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)<Lè;
 
 // Remaining properties
-@property(readonly, nonatomic) WKNavigationAction *navigationAction; // @synthesize navigationAction=_navigationAction;
-@property(nonatomic) _Bool omitParentTabRelationship; // @synthesize omitParentTabRelationship=_omitParentTabRelationship;
 @property(readonly, nonatomic) WKWebViewConfiguration *webViewConfiguration; // @synthesize webViewConfiguration=_webViewConfiguration;
-@property(readonly, nonatomic) WKWindowFeatures *windowFeatures; // @synthesize windowFeatures=_windowFeatures;
 
 @end
 

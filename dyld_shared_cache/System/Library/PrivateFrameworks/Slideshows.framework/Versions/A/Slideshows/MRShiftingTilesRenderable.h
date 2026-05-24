@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRCroppingSprite, MRImage;
+@class MRImage;
 
 @interface MRShiftingTilesRenderable
 {
     MRImage *slide;
-    MRCroppingSprite *sprite;
-    struct CGPoint position;
-    struct CGSize size;
-    _Bool isBreak;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) MRImage *slide; // @synthesize slide;
-@property(retain, nonatomic) MRCroppingSprite *sprite; // @synthesize sprite;
 
 @end
 

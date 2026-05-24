@@ -6,16 +6,11 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class AVAsset, AVVideoComposition, NSString, NUImageGeometry;
-@protocol NURenderStatistics;
+@class AVAsset;
 
 @interface _NULivePhotoRenderResult : _NURenderResult
 {
     AVAsset *_video;
-    AVVideoComposition *_videoComposition;
-    struct CGImage *_photo;
-    NUImageGeometry *_videoGeometry;
-    CDStruct_1b6d18a9 _photoTime;
 }
 
 - (id);
@@ -24,28 +19,16 @@
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);
-- (id);
+- (id)iningLog (planId, creationTimestamp);
+- (void)ModelRegressor(PMLPlistAndChunksSerialization) initWithPlist:(id)arg1 chunks:context:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (struct CGImage *);
-- (void);
+- (struct CGImage *);
+- (void);
 - (void)!Gùñá1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) struct CGImage *photo; // @synthesize photo=_photo;
-@property(nonatomic) CDStruct_1b6d18a9 photoTime; // @synthesize photoTime=_photoTime;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) AVAsset *video; // @synthesize video=_video;
-@property(retain, nonatomic) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
-@property(retain, nonatomic) NUImageGeometry *videoGeometry; // @synthesize videoGeometry=_videoGeometry;
 
 @end
 

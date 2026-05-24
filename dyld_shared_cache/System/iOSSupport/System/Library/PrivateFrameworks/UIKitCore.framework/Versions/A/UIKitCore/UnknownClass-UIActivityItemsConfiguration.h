@@ -7,8 +7,8 @@
 @protocol UIActivityItemsConfigurationReading;
 
 @interface UnknownClass (UIActivityItemsConfiguration)
-- (void);
-- (id);
+- (void)t:(id)arg1 MSCollectionPlaceItemRequest item missing map item;
+- (id)ver:registerFeedback /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIActivityItemsConfigurationReading> activityItemsConfiguration;

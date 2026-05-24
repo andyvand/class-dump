@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRPreheatEnded : SISchemaInstrumentationMessage
 {
     int _status;
-    CDStruct_47fe53f2 _has;
 }
 
 - (void);
@@ -24,15 +21,13 @@
 - (id);
 - (int)1Â0@ù
 × ;
-- (id)e1970;
+- (id)timestampInSecondsSince1970;
 - (id)L"0#$X$|%Ä%è&À'(ä(* *Ä+T,4-|-\.¤.È/041|1\2|3 4056 6|7809x9è:(id)arg1 0;=L=¼>?ä?,@´AüA ChCHDDlEüEØF G;
 - (id)p¨ÿÿîöÿ×2ÿ;
-- (_Bool)ueString;
-- (void)kerDismissalType;
+- (_Bool)valueString;
+- (void)MHSchemaMHAdBlockerDismissalType;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

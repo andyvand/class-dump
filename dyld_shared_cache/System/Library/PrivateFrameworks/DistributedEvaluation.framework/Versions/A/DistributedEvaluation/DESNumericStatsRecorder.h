@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)ExperimentDigestsReported.digests.turnIds;
+- (_Bool)esponseGenerationRequest.statementResults.payload.outcome.parameterDisambiguation.items.value.primitive.app.bundleId;
+- (_Bool)collection.values.query.typeIdentifier.custom.bundleId;
+- (_Bool)value.collection.values.primitive.app.bundleId;
 
 @end
 

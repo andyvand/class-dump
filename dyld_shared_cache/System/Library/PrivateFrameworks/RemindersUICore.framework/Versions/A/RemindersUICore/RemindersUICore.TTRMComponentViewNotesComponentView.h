@@ -9,11 +9,10 @@
 @interface RemindersUICore.TTRMComponentViewNotesComponentView
 {
     id delegate;
-    void textView;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);

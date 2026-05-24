@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)GpCPQ;
 - (id);
 
 @end

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)SaySo27ECTransferMessageActionItemCGIgo_;
 
 @end
 

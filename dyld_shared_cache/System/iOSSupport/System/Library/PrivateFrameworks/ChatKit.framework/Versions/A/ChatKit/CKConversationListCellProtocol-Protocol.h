@@ -5,5 +5,6 @@
 //
 
 @protocol CKConversationListCellProtocol
+- (_Bool)rnoteNote">32;
 @end
 

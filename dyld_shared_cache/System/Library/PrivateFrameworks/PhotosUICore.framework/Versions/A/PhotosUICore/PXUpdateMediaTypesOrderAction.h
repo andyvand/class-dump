@@ -11,14 +11,12 @@
 @interface PXUpdateMediaTypesOrderAction : PXPhotosAction
 {
     id <PXFastEnumeration> orderedCollections;
-    id undoOrderedMediaTypes;
-    id redoOrderedMediaTypes;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

@@ -13,10 +13,10 @@
 }
 
 + (id);
-- (id);
+- (id)der.;
 - (void);
 - (id);
-- (void)ContentsForCIImageBackedImage: /* Error: Ran out of types for this method. */;
+- (void)_setImageViewContentsForCIImageBackedImage: /* Error: Ran out of types for this method. */;
 - (id)|i\;
 - (id)ÿl%Ê¸õk;
 - (void)Tdíþ;

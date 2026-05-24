@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSSticker, NSString, UIImage;
+@class NSString;
 
 @interface AVTUIStickerItem
 {
     _Bool _hasBeenRendered;
-    CDUnknownBlockType discardableContentHandler;
-    NSString *_identifier;
-    NSString *_localizedName;
-    MSSticker *_cachedMSSticker;
-    UIImage *_cachedImage;
-    CDUnknownBlockType _resourceProvider;
-    struct CGRect _clippingRect;
 }
 
 - (void);
@@ -38,21 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(retain, nonatomic) MSSticker *cachedMSSticker; // @synthesize cachedMSSticker=_cachedMSSticker;
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discardableContentHandler; // @synthesize discardableContentHandler;
-@property(nonatomic) _Bool hasBeenRendered; // @synthesize hasBeenRendered=_hasBeenRendered;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) CDUnknownBlockType resourceProvider; // @synthesize resourceProvider=_resourceProvider;
-@property(readonly) Class superclass;
 
 @end
 

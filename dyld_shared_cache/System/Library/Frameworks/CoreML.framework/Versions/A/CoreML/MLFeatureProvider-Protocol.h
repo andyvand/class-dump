@@ -7,7 +7,7 @@
 @class MLFeatureValue, NSSet, NSString;
 
 @protocol MLFeatureProvider
-- (NSSet *)rams:layers:mlcTensorByName:outputNameToLayerMap:error: /* Error: Ran out of types for this method. */;
+- (NSSet *)buildInferenceGraph:updateParams:layers:mlcTensorByName:outputNameToLayerMap:error: /* Error: Ran out of types for this method. */;
 - (MLFeatureValue *)Wùè<\Î­ôÞÙq?KJØ:(NSString *)arg1 åÉªqòÉ^ï_Ê;
 
 // Remaining properties

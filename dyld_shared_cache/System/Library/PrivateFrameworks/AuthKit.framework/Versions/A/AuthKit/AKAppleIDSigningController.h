@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationController, NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
+@class AKAppleIDAuthenticationController;
 
 @interface AKAppleIDSigningController
 {
     struct os_unfair_lock_s _signerLock;
-    NSObject<OS_dispatch_queue> *_signingQueue;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    NSXPCConnection *_connection;
-    _Bool _isProxy;
-    _Bool _shouldSendAbsintheHeader;
-    NSString *_initialURLKey;
-    AKAppleIDAuthenticationController *_authenticationController;
 }
 
+- (void)k;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (id);
@@ -36,18 +28,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (_Bool);
 - (void)¸UÿA2<ð;
-- (void)uthenticatorData;
+- (void)_authenticatorData;
 - (id)qYðÖVÅ_;
 
 // Remaining properties
 @property(retain, nonatomic) AKAppleIDAuthenticationController *authenticationController; // @synthesize authenticationController=_authenticationController;
-@property(retain, nonatomic) NSString *initialURLKey; // @synthesize initialURLKey=_initialURLKey;
-@property(nonatomic) _Bool isProxy; // @synthesize isProxy=_isProxy;
-@property(nonatomic) _Bool shouldSendAbsintheHeader; // @synthesize shouldSendAbsintheHeader=_shouldSendAbsintheHeader;
 
 @end
 

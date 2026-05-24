@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPARAssetMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
+- (id),V_appContainerTuple;
+- (unsigned int)publicKeyRequested;
+- (id)KDFetchZoneChangesRequestOperationResult"16^B24;
 - (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)emonConnection>";
 - (void)ð!¤Eù1H°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PKFilesystemProvider, PKLaunchProvider, PKLaunchServicesProvider, PKRunningBoardProvider, PKSandboxProvider, PKSystemProvider;
+@protocol PKLaunchServicesProvider;
 
 @interface PKExternalProviders
 {
     id <PKLaunchServicesProvider> _ls;
-    id <PKFilesystemProvider> _filesystem;
-    id <PKLaunchProvider> _launch;
-    id <PKSandboxProvider> _sandbox;
-    id <PKRunningBoardProvider> _runningboard;
-    id <PKSystemProvider> _sys;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)9*;
 - (id);
 - (id);
 - (id);
@@ -28,19 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PKFilesystemProvider> filesystem; // @synthesize filesystem=_filesystem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PKLaunchProvider> launch; // @synthesize launch=_launch;
 @property(readonly, nonatomic) id <PKLaunchServicesProvider> ls; // @synthesize ls=_ls;
-@property(readonly, nonatomic) id <PKRunningBoardProvider> runningboard; // @synthesize runningboard=_runningboard;
-@property(readonly, nonatomic) id <PKSandboxProvider> sandbox; // @synthesize sandbox=_sandbox;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PKSystemProvider> sys; // @synthesize sys=_sys;
 
 @end
 

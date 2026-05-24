@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWLINKSchemaFLOWLINKAppShortcutGeneralizedExecutionUsed : SISchemaInstrumentationMessage
 {
     NSString *_appShortcutId;
-    _Bool _hasAppShortcutId;
 }
 
 - (void);
@@ -32,8 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appShortcutId; // @synthesize appShortcutId=_appShortcutId;
-@property(nonatomic) _Bool hasAppShortcutId; // @synthesize hasAppShortcutId=_hasAppShortcutId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

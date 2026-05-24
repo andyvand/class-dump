@@ -9,31 +9,23 @@
 @interface PLQLDuetInMemoryCache
 {
     int _refCount;
-    NSDictionary *_startArgs;
-    NSDictionary *_stopArgs;
-    double _startTime;
-    double _stopTime;
-    double _cellIn;
-    double _cellOut;
-    double _wifiIn;
-    double _wifiOut;
 }
 
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)7;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)RT8;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -43,21 +35,13 @@
 - (double);
 - (double);
 - (void);
-- (id);
+- (id)lly stopped sharing location;
 - (int);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property double cellIn; // @synthesize cellIn=_cellIn;
-@property double cellOut; // @synthesize cellOut=_cellOut;
-@property int refCount; // @synthesize refCount=_refCount;
 @property(retain) NSDictionary *startArgs; // @synthesize startArgs=_startArgs;
-@property double startTime; // @synthesize startTime=_startTime;
-@property(retain) NSDictionary *stopArgs; // @synthesize stopArgs=_stopArgs;
-@property double stopTime; // @synthesize stopTime=_stopTime;
-@property double wifiIn; // @synthesize wifiIn=_wifiIn;
-@property double wifiOut; // @synthesize wifiOut=_wifiOut;
 
 @end
 

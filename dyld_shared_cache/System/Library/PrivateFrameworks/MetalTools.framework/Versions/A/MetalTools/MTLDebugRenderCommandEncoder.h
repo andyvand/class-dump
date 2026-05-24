@@ -6,83 +6,9 @@
 
 #import <MetalTools/MTLToolsRenderCommandEncoder.h>
 
-@class MTLDebugCommandBuffer, MTLDepthStencilDescriptor, MTLLogicalToPhysicalColorAttachmentMap, MTLRenderPassDescriptor, NSMutableSet;
-@protocol MTLDepthStencilState, MTLRenderPipelineState;
-
 @interface MTLDebugRenderCommandEncoder : MTLToolsRenderCommandEncoder
 {
     unsigned int _dirtyBits;
-    _Bool _openGLModeEnabled;
-    CDStruct_4bcfbbae *_vertexBuiltinArguments;
-    struct {
-        unsigned long long pixelFormat;
-        unsigned long long sampleCount;
-    } _attachmentInfo[10];
-    id <MTLRenderPipelineState> _previousRenderPipelineStateWithWritesToImageBlock;
-    unsigned long long _resolvedRasterSampleCount;
-    struct MTLDebugFunctionArgument _vertexBuffers[36];
-    struct MTLDebugFunctionArgument _vertexTextures[128];
-    struct MTLDebugFunctionArgument _vertexSamplers[16];
-    struct MTLDebugFunctionArgument _fragmentBuffers[31];
-    struct MTLDebugFunctionArgument _fragmentTextures[128];
-    struct MTLDebugFunctionArgument _fragmentSamplers[16];
-    struct MTLDebugFunctionArgument _tileBuffers[31];
-    struct MTLDebugFunctionArgument _tileTextures[128];
-    struct MTLDebugFunctionArgument _tileSamplers[16];
-    struct MTLDebugFunctionArgument _threadgroupMemoryArguments[31];
-    struct MTLDebugFunctionArgument _objectBuffers[31];
-    struct MTLDebugFunctionArgument _objectTextures[128];
-    struct MTLDebugFunctionArgument _objectSamplers[16];
-    struct MTLDebugFunctionArgument _objectThreadgroupMemoryLengths[31];
-    struct MTLDebugFunctionArgument _meshBuffers[31];
-    struct MTLDebugFunctionArgument _meshTextures[128];
-    struct MTLDebugFunctionArgument _meshSamplers[16];
-    unsigned int _encoderState;
-    unsigned int _unknownStoreActions;
-    void *_visibilityOffsets;
-    struct vector<MTLViewport, std::allocator<MTLViewport>> _viewports;
-    struct vector<MTLScissorRect, std::allocator<MTLScissorRect>> _scissorRects;
-    unsigned long long _amplificationMode;
-    unsigned long long _amplificationValue;
-    unsigned long long _vertexAmplificationCount;
-    struct deque<id, std::allocator<id>> _updatedFences;
-    NSMutableSet *_storingRenderTargets;
-    MTLDebugCommandBuffer *_commandBuffer;
-    unsigned long long _maxVertexBuffers;
-    unsigned long long _attachmentWriteMask;
-    CDStruct_da2e99ad _objectThreadsPerTG;
-    CDStruct_da2e99ad _meshThreadsPerTG;
-    _Bool _allowsNullBufferBinds;
-    MTLLogicalToPhysicalColorAttachmentMap *_colorAttachmentMap;
-    float _minBound;
-    float _maxBound;
-    float _lineWidth;
-    float _depthBias;
-    float _depthBiasSlopeScale;
-    float _depthBiasClamp;
-    unsigned int _frontStencilRef;
-    unsigned int _backStencilRef;
-    float _blendColorRed;
-    float _blendColorGreen;
-    float _blendColorBlue;
-    float _blendColorAlpha;
-    float _tessellationFactorScale;
-    MTLRenderPassDescriptor *_descriptor;
-    unsigned long long _frontFacingWinding;
-    unsigned long long _cullMode;
-    unsigned long long _depthClipMode;
-    unsigned long long _triangleFillMode;
-    id <MTLRenderPipelineState> _renderPipelineState;
-    unsigned long long _peakPerSampleStorage;
-    unsigned long long _resolvedSampleCount;
-    id <MTLDepthStencilState> _depthStencilState;
-    MTLDepthStencilDescriptor *_defaultDepthStencilDescriptor;
-    unsigned long long _visibilityResultMode;
-    unsigned long long _visibilityResultOffset;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _tessellationFactorBufferInstanceStride;
-    struct MTLDebugFunctionArgument _tessellationFactorBufferArgument;
 }
 
 - (unsigned long long);
@@ -99,12 +25,15 @@
 - (float);
 - (unsigned long long);
 - (struct MTLDebugFunctionArgument);
+- (void);
 - (void);
 - (void);
+- (void)�B;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -112,6 +41,7 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -123,12 +53,14 @@
 - (void);
 - (void);
 - (void);
+- (void)8ԛf9 ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -146,6 +78,7 @@
 - (void);
 - (void);
 - (void);
+- (void)9(!*;
 - (void);
 - (void);
 - (void);
@@ -158,6 +91,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -179,19 +113,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (void *);
 - (CDStruct_33dcf794);
-- (unsigned long long);
-- (void);
+- (unsigned long long)	;
+- (void)q;
 - (id);
 - (unsigned long long);
 - (float);
@@ -222,7 +148,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -233,7 +159,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)AV;
 - (float);
 - (float);
 - (float);
@@ -255,7 +181,7 @@
 - (unsigned int);
 - (float);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -263,8 +189,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!1;
+- (void)EE;
 - (void);
 - (void);
 - (CDStruct_8727d297);
@@ -275,6 +201,8 @@
 - (void);
 - (void);
 - (void);
+- (void)`
+;
 - (void);
 - (void);
 - (void);
@@ -286,8 +214,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
@@ -303,10 +230,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)( ;
 - (void);
 - (void);
 - (void);
@@ -324,39 +251,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long attachmentWriteMask; // @synthesize attachmentWriteMask=_attachmentWriteMask;
-@property(readonly, nonatomic) unsigned int backStencilRef; // @synthesize backStencilRef=_backStencilRef;
-@property(readonly, nonatomic) float blendColorAlpha; // @synthesize blendColorAlpha=_blendColorAlpha;
-@property(readonly, nonatomic) float blendColorBlue; // @synthesize blendColorBlue=_blendColorBlue;
-@property(readonly, nonatomic) float blendColorGreen; // @synthesize blendColorGreen=_blendColorGreen;
-@property(readonly, nonatomic) float blendColorRed; // @synthesize blendColorRed=_blendColorRed;
-@property(readonly, nonatomic) unsigned long long cullMode; // @synthesize cullMode=_cullMode;
-@property(readonly, nonatomic) MTLDepthStencilDescriptor *defaultDepthStencilDescriptor; // @synthesize defaultDepthStencilDescriptor=_defaultDepthStencilDescriptor;
-@property(readonly, nonatomic) float depthBias; // @synthesize depthBias=_depthBias;
-@property(readonly, nonatomic) float depthBiasClamp; // @synthesize depthBiasClamp=_depthBiasClamp;
-@property(readonly, nonatomic) float depthBiasSlopeScale; // @synthesize depthBiasSlopeScale=_depthBiasSlopeScale;
-@property(readonly, nonatomic) unsigned long long depthClipMode; // @synthesize depthClipMode=_depthClipMode;
-@property(readonly, nonatomic) id <MTLDepthStencilState> depthStencilState; // @synthesize depthStencilState=_depthStencilState;
-@property(readonly, copy, nonatomic) MTLRenderPassDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) unsigned long long frontFacingWinding; // @synthesize frontFacingWinding=_frontFacingWinding;
-@property(readonly, nonatomic) unsigned int frontStencilRef; // @synthesize frontStencilRef=_frontStencilRef;
-@property(readonly) unsigned long long height; // @synthesize height=_height;
-@property(readonly, nonatomic) float lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(readonly, nonatomic) float maxBound; // @synthesize maxBound=_maxBound;
-@property(readonly, nonatomic) float minBound; // @synthesize minBound=_minBound;
-@property(readonly, nonatomic) unsigned long long peakPerSampleStorage; // @synthesize peakPerSampleStorage=_peakPerSampleStorage;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> renderPipelineState; // @synthesize renderPipelineState=_renderPipelineState;
-@property(readonly, nonatomic) unsigned long long resolvedSampleCount; // @synthesize resolvedSampleCount=_resolvedSampleCount;
-@property(readonly, nonatomic) CDStruct_33dcf794 scissorRect;
-@property(readonly, nonatomic) void *scissorRects;
-@property(readonly, nonatomic) struct MTLDebugFunctionArgument tessellationFactorBufferArgument; // @synthesize tessellationFactorBufferArgument=_tessellationFactorBufferArgument;
-@property(readonly, nonatomic) unsigned long long tessellationFactorBufferInstanceStride; // @synthesize tessellationFactorBufferInstanceStride=_tessellationFactorBufferInstanceStride;
-@property(readonly, nonatomic) float tessellationFactorScale; // @synthesize tessellationFactorScale=_tessellationFactorScale;
-@property(readonly, nonatomic) unsigned long long triangleFillMode; // @synthesize triangleFillMode=_triangleFillMode;
-@property(readonly, nonatomic) CDStruct_8727d297 viewport;
-@property(readonly, nonatomic) void *viewports;
-@property(readonly, nonatomic) unsigned long long visibilityResultMode; // @synthesize visibilityResultMode=_visibilityResultMode;
-@property(readonly, nonatomic) unsigned long long visibilityResultOffset; // @synthesize visibilityResultOffset=_visibilityResultOffset;
-@property(readonly) unsigned long long width; // @synthesize width=_width;
 
 @end
 

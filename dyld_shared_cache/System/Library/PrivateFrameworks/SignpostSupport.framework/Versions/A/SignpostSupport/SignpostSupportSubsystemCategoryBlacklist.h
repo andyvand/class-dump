@@ -12,10 +12,10 @@
 
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ffset=0x%x;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 @end
 

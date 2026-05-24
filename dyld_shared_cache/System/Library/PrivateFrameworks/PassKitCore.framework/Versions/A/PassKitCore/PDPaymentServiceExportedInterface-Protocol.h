@@ -4,31 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray, NSString, PKApplyWebServiceApplyRequest, PKEncryptedDataObject;
 
 @protocol PDPaymentServiceExportedInterface
-- (void)Ô ;
+- (void)H;
 - (void);
+- (void)C;
+- (void)T)M;
+- (void)	;
+- (void);
+- (void)(K;
+- (void);
+- (void);
+- (void)TI;
+- (void)?;
+- (void)7e4;
+- (void));
+- (void)A;
+- (void)	;
+- (void)A;
+- (void)(;
+- (void);
+- (void)�;
+- (void);
+- (void)J=;
+- (void));
+- (void)6;
+- (void)F;
+- (void)nse"b1"qbssCCA"b1"qbssSTACount"b1"role"b1"rssiValue"b1"snrValue"b1};
+- (void)setPageLoadTime:(PKEncryptedDataObject *)arg1;
+- (void)setHasLatteDejitterBufferUnderflow:(PKApplyWebServiceApplyRequest *)arg1;
+- (void)_receiveDuration;
+- (void)h8);
+- (void)Ô ;
 - (void)entOrderDetails";
 - (void)vice";
 - (void)ervice"16;
-- (void)orksOrder;
-- (void)eIdentifierForPaymentAuthorizationCoordinator:(NSArray *)arg1;
-- (void)e;
-- (void)ier;
-- (void)rentStepIdentifier;
-- (void)insCardPassingTest: /* Error: Ran out of types for this method. */;
-- (void)items;
+- (void)respectSupportedNetworksOrder;
+- (void)presentationSceneIdentifierForPaymentAuthorizationCoordinator:(NSArray *)arg1;
+- (void)nonZeroUnsignedLongLongNSNumberValue;
+- (void)hasCredentialIdentifier;
+- (void)currentStepIdentifier;
+- (void)containsCardPassingTest: /* Error: Ran out of types for this method. */;
+- (void)_items;
 - (void)V_action;
 - (void)_fieldSubmissionEncryptionScheme;
-- (void)KBillPaymentSuggestedAmount;
+- (void)PKBillPaymentSuggestedAmount;
 - (void)èÎ;
 - (void)k match;
 - (void)etrieved location;
 - (void)torage:(NSString *)arg1 SE Full;
 - (void)data;
 - (void)@, Merchant Identifiers:(NSString *)arg1 %@, TCIs:(NSString *)arg2 %@, Credential Identifier:(void (^)(PKPendingProvisioning *))arg3 %@, AID:%@, Reader Identifier:%@, Secondary Properties Required:%d, Secondary Properties Acquired:%d] /* Error: Ran out of types for this method. */;
-- (void)G_SOURCE_BANK_ACCOUNT_DESCRIPTION_GENERIC;
+- (void)TRANSACTION_SECONDARY_FUNDING_SOURCE_BANK_ACCOUNT_DESCRIPTION_GENERIC;
 - (void)r"8@"PKAutoFillCardCredential"16@"NSError"24;
 @end
 

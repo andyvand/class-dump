@@ -7,7 +7,6 @@
 @interface WBSCyclerIterationCounter
 {
     unsigned long long _iterationCount;
-    unsigned long long _maximumIterationCount;
 }
 
 - (unsigned long long);
@@ -18,9 +17,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasReachedMaximumIterationCount;
 @property(readonly, nonatomic) unsigned long long iterationCount; // @synthesize iterationCount=_iterationCount;
-@property(readonly, nonatomic) unsigned long long maximumIterationCount; // @synthesize maximumIterationCount=_maximumIterationCount;
 
 @end
 

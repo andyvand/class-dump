@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber;
+@class NSDate;
 
 @interface UARPDeploymentRuleConfig
 {
     NSDate *_goLiveDate;
-    NSArray *_countryList;
-    NSNumber *_rampPeriod;
-    NSNumber *_deploymentLimit;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib;
 
 // Remaining properties
-@property(copy) NSArray *countryList; // @synthesize countryList=_countryList;
-@property(copy) NSNumber *deploymentLimit; // @synthesize deploymentLimit=_deploymentLimit;
 @property(copy) NSDate *goLiveDate; // @synthesize goLiveDate=_goLiveDate;
-@property(copy) NSNumber *rampPeriod; // @synthesize rampPeriod=_rampPeriod;
 
 @end
 

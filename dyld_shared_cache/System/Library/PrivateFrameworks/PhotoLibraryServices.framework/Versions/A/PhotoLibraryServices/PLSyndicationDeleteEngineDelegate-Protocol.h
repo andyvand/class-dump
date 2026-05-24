@@ -5,5 +5,7 @@
 //
 
 @protocol PLSyndicationDeleteEngineDelegate
+- (id);
+- (id)⿟	;
 @end
 

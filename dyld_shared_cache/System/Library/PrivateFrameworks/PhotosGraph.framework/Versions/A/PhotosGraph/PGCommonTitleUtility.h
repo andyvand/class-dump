@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (id)__menuBounds;
++ (id)__lastApplicationController;
++ (id)__keyboardFocusedElementController;
++ (void)setIsSpotlight:(id)arg1;
 + (id);
 + (_Bool);
 + (id);

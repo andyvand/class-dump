@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessage, NSUUID;
-@protocol HMFTimerManagerTimerContext;
+@class HMFMessage;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePrimaryResidentMessagingHandlerPendingMessageContext
 {
     _Bool _messageInFlight;
-    HMFMessage *_message;
-    id <HMFTimerManagerTimerContext> _messageTimerContext;
-    id <HMFTimerManagerTimerContext> _queueTimerContext;
-    NSUUID *_lastPrimaryResidentDestinationUUID;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)_handleCommand:fromID: /* Error: Ran out of types for this method. */;
+- (id)spatch group, self deallocated;
+- (id)subscribing from trip %@, no more connections;
+- (_Bool)MSPContainerErrorUnkownStorageIdentifierKey;
 - (id);
 - (CDUnknownBlockType);
 - (id)@ÒÓäÕ(Úà¤âè0èÀè;
@@ -32,12 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)nator;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSUUID *lastPrimaryResidentDestinationUUID; // @synthesize lastPrimaryResidentDestinationUUID=_lastPrimaryResidentDestinationUUID;
 @property(readonly, nonatomic) HMFMessage *message; // @synthesize message=_message;
-@property(nonatomic, getter=isMessageInFlight) _Bool messageInFlight; // @synthesize messageInFlight=_messageInFlight;
-@property(readonly, nonatomic) id <HMFTimerManagerTimerContext> messageTimerContext; // @synthesize messageTimerContext=_messageTimerContext;
-@property(retain, nonatomic) id <HMFTimerManagerTimerContext> queueTimerContext; // @synthesize queueTimerContext=_queueTimerContext;
 
 @end
 

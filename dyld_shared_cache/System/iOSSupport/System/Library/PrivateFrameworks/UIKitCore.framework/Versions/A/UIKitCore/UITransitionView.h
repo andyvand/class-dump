@@ -6,50 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, UIResponder, UIWindow;
-
 @interface UITransitionView : UIView
 {
     UIView *_fromView;
-    UIView *_toView;
-    NSMutableArray *_frozenSubviews;
-    UIResponder *_firstResponderToRemember;
-    id _delegate;
-    UIWindow *_originalWindow;
-    struct {
-        unsigned int animationInProgress:1;
-        unsigned int ignoresInteractionEvents:1;
-        unsigned int shouldNotifyDidCompleteImmediately:1;
-        unsigned int useViewControllerAppearanceCallbacks:1;
-        unsigned int shouldRestoreFromViewAlpha:1;
-        unsigned int shouldRestoreGroupOpacity:1;
-        unsigned int groupOpacityToRestoreForFromView:1;
-        unsigned int groupOpacityToRestoreForToView:1;
-        unsigned int shouldRasterize:1;
-        unsigned int enableRotationAfterTransition:1;
-        unsigned int removeFromView:1;
-    } _transitionViewFlags;
-    double _curlUpRevealedHeight;
-    int _textEffectsVisibilityLevel;
-    unsigned long long _transitionID;
-    _Bool _ignoreDirectTouchEvents;
-    long long _animationTimingCurve;
 }
 
-+ (double);
++ (double)CEMCredentialSecretDeclaration;
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)buildRequiredOnlyWithDataURL:(int)arg1 withContentType:(double)arg2 withSize:withHashSHA256: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)simulateMoreButtonPress;
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (double);
+- (void)<;
+- (id)ng [unknown state];
+- (_Bool)}@;
+- (void)te MPModeliTunesLibraryRequestOperation;
+- (void)Translator was missing mapping for MPModelPropertyArtistEditorialArtwork;
+- (double);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -67,19 +42,19 @@
 - (id)!@ùQb°1Â0@ù
 × ;
 - (void);
-- (void)kgroundHeightWhenLarge;
-- (void)neByNavigationBar;
-- (void)sorMovementCount;
-- (void)gStyle;
-- (void)tionsChildViewControllers;
-- (void)lSize;
-- (int)labelContainerCenterXConstraint;
-- (void)omeWhenCollapsed;
+- (void)useInlineBackgroundHeightWhenLarge;
+- (void)isHostedInlineByNavigationBar;
+- (void)incrementAllowCursorMovementCount;
+- (void)clippingStyle;
+- (void)_transitionsChildViewControllers;
+- (void)_labelSize;
+- (int)_labelContainerCenterXConstraint;
+- (void)_hideChromeWhenCollapsed;
 - (id)acIdiomStyle;
 - (void)¤r;
 - (void)X¹¹;
-- (void)ver;
-- (_Bool)IActivityViewController;
+- (void)observer;
+- (_Bool)UIActivityViewController;
 - (void)apsed;
 - (void);
 - (void)Ø`;
@@ -88,9 +63,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double _curlUpRevealedHeight;
-@property(nonatomic) long long animationTimingCurve; // @synthesize animationTimingCurve=_animationTimingCurve;
-@property(nonatomic) _Bool ignoreDirectTouchEvents; // @synthesize ignoreDirectTouchEvents=_ignoreDirectTouchEvents;
-@property(nonatomic) _Bool shouldNotifyDidCompleteImmediately;
 
 @end
 

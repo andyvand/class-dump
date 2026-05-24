@@ -7,8 +7,6 @@
 @interface MediaPlaybackCore.BackgroundTask
 {
     id identifier;
-    id category;
-    id references;
 }
 
 @end

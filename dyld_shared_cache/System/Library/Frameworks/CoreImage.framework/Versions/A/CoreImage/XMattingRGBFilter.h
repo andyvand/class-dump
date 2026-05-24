@@ -4,40 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, XMattingBoxTensorFilter;
-@protocol MTLComputePipelineState, MTLDevice, MTLLibrary, MTLTexture;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface XMattingRGBFilter
 {
     id <MTLDevice> _device;
-    id <MTLLibrary> _library;
-    id <MTLTexture> _guideStack;
-    id <MTLTexture> _guideStackTexture2DView;
-    id <MTLTexture> _alphaStack;
-    id <MTLTexture> _alphaStackTexture2DView;
-    id <MTLTexture> _mean_I;
-    id <MTLTexture> _mean_alpha;
-    NSArray *_var_I;
-    id <MTLTexture> _coefficients;
-    id <MTLTexture> _coefficientsTexture2DView;
-    id <MTLTexture> _constraints;
-    id <MTLTexture> _constraintsTexture2DView;
-    id <MTLComputePipelineState> _nearestNeighborDownsamplingKernel;
-    id <MTLComputePipelineState> _computeInverted3DGuideCovarianceMatrixKernel;
-    id <MTLComputePipelineState> _compute3DCoefficientsKernel;
-    id <MTLComputePipelineState> _applyCoefficientsKernel;
-    id <MTLComputePipelineState> _applyCoefficientsSamplingKernel;
-    _Bool stateComputed;
-    _Bool coefficientsComputed;
-    XMattingBoxTensorFilter *boxTensorFilter;
-    CDStruct_79af1cb6 config;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int)C;
 - (int);
 - (int);
 - (int);
@@ -49,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (CDStruct_79af1cb6)3S,9&C+>/GTTOTZZWZ@RI\ee_essssNni}v}zVtoZldvutou^oosppppwwww||||wxxzsmhsSbYjO]RgSe]pv}z1P>lAWGi||||q|x    z £yk|vkwr|Wd[hCO@X4L<\ZokuF_UosssspkbpS`Uhae^oyzzz{{{{dsssllllhhhhhidlxxxx{{{{rvrvyytyjxs~wwwwssssuuuussssmmmmTg^my|z~ptn{uutuvvvvftqvtvuvxxxxzzzz~~~~qwt{zyv|z©©©©§­­¢§§§[h`wuyvQh`vbpjwZlftlldlwwqw©¥©©«´´±±±±££££jzyJe\w5VGlqslx`zuz{w~lzz}zzzz{{{{||||}}}}zzzzgniqFYLhiaUkvxsz|e}rwrymj`mF`Uqlupeokohkgksuuu}}}}7VKjUfanyyyypppp_]U_O[S]mmmmxupx`haonnnn`igi^bYfusnu¥§§ªªªª££££Ye]g?RD]Sd]huuuu{{{{rZe^md_Vdqqqq||||dqovdhbnqqoq~~~~tq|zcywzo~tzzzooootttt¡¡jjhjMPJPHHHHQQQQVc_ezzzz_zv©©©©i~n}}}}}c|z    x{fvp{;
+- (void)MRLNeuralNetworkOptionInputNamesKey;
+- (CDStruct_21828f50)3S,9&C+>/GTTOTZZWZ@RI\ee_essssNni}v}zVtoZldvutou^oosppppwwww||||wxxzsmhsSbYjO]RgSe]pv}z1P>lAWGi||||q|x    z £yk|vkwr|Wd[hCO@X4L<\ZokuF_UosssspkbpS`Uhae^oyzzz{{{{dsssllllhhhhhidlxxxx{{{{rvrvyytyjxs~wwwwssssuuuussssmmmmTg^my|z~ptn{uutuvvvvftqvtvuvxxxxzzzz~~~~qwt{zyv|z©©©©§­­¢§§§[h`wuyvQh`vbpjwZlftlldlwwqw©¥©©«´´±±±±££££jzyJe\w5VGlqslx`zuz{w~lzz}zzzz{{{{||||}}}}zzzzgniqFYLhiaUkvxsz|e}rwrymj`mF`Uqlupeokohkgksuuu}}}}7VKjUfanyyyypppp_]U_O[S]mmmmxupx`haonnnn`igi^bYfusnu¥§§ªªªª££££Ye]g?RD]Sd]huuuu{{{{rZe^md_Vdqqqq||||dqovdhbnqqoq~~~~tq|zcywzo~tzzzooootttt¡¡jjhjMPJPHHHHQQQQVc_ezzzz_zv©©©©i~n}}}}}c|z    x{fvp{;
 - (void)vec2(i, j);
       vec4 p = sample(image, samplerTransform(image, location));
       vec2 v = (pass < 9.000000e-01) ? p.rr :p.rg;
@@ -62,10 +40,7 @@ __attribute__((visibility("hidden")))
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) XMattingBoxTensorFilter *boxTensorFilter; // @synthesize boxTensorFilter;
-@property(readonly) _Bool coefficientsComputed; // @synthesize coefficientsComputed;
-@property CDStruct_79af1cb6 config; // @synthesize config;
-@property(readonly) _Bool stateComputed; // @synthesize stateComputed;
+@property CDStruct_21828f50 config; // @synthesize config;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraSignificantEventPersonFamiliarityNotificationCondition, HMCameraSignificantEventReasonNotificationCondition, NSArray, NSPredicate, NSString;
+@class HMCameraSignificantEventReasonNotificationCondition;
 
 @interface HMCameraBulletinBoardNotificationCondition
 {
     HMCameraSignificantEventReasonNotificationCondition *_significantEventReasonCondition;
-    HMCameraSignificantEventPersonFamiliarityNotificationCondition *_significantEventPersonFamiliarityCondition;
-    NSPredicate *_dateComponentsPredicate;
-    NSPredicate *_presencePredicate;
 }
 
 + (id);
@@ -29,34 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)inputManagerState;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(copy) NSPredicate *dateComponentsPredicate; // @synthesize dateComponentsPredicate=_dateComponentsPredicate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSPredicate *predicate;
-@property(copy) NSPredicate *presencePredicate; // @synthesize presencePredicate=_presencePredicate;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(copy) HMCameraSignificantEventPersonFamiliarityNotificationCondition *significantEventPersonFamiliarityCondition; // @synthesize significantEventPersonFamiliarityCondition=_significantEventPersonFamiliarityCondition;
 @property(copy) HMCameraSignificantEventReasonNotificationCondition *significantEventReasonCondition; // @synthesize significantEventReasonCondition=_significantEventReasonCondition;
-@property(readonly) Class superclass;
 
 @end
 

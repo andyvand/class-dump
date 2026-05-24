@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CWFXPCConnection, CWFXPCRequestProxy;
+
 @protocol CWFXPCRequestProxyDelegate
+- (void)_initForServiceNamed:(CWFXPCRequestProxy *)arg1 legacyConnection:(CWFXPCConnection *)arg2;
 @end
 

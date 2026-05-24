@@ -7,8 +7,6 @@
 @interface NSAppleEventDescriptor
 {
     struct AEDesc _desc;
-    _Bool _hasValidDesc;
-    char _padding[3];
 }
 
 @end

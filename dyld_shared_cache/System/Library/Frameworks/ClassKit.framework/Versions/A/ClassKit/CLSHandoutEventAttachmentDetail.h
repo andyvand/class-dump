@@ -11,29 +11,26 @@
 @interface CLSHandoutEventAttachmentDetail : CLSObject
 {
     int _handoutAttachmentType;
-    NSString *_attachmentID;
-    long long _contextType;
 }
 
-+ (_Bool);
-- (void);
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (id);
++ (_Bool)_customHeaders;
+- (void)NULL error = 0x%x
+;
+- (id)uld not determine TD partition of operation;
+- (int)ment id;
+- (id)dma_src1_read_conflict_cycle;
+- (_Bool);
+- (id)`G;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(readonly, nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(readonly, nonatomic) int handoutAttachmentType; // @synthesize handoutAttachmentType=_handoutAttachmentType;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface CKDPAssetsToDownload
 {
     CKDPRequestedFields *_assetFields;
-    _Bool _allAssets;
-    struct {
-        unsigned int allAssets:1;
-    } _has;
 }
 
 - (void);
@@ -21,12 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)interruptingStreamWrapper_suspendInternal;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)eeding/attempting to take a transaction;
 - (void);
 - (id);
 - (id);
@@ -34,10 +30,7 @@
 - (void)xpression:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allAssets; // @synthesize allAssets=_allAssets;
-@property(retain, nonatomic) CKDPRequestedFields *assetFields; // @synthesize assetFields=_assetFields;
 @property(nonatomic) _Bool hasAllAssets;
-@property(readonly, nonatomic) _Bool hasAssetFields;
 
 @end
 

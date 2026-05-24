@@ -10,13 +10,13 @@
 }
 
 + (id);
-+ (id);
-- (CDStruct_f92c8eab);
++ (id);
+- (CDStruct_5450d214);
 - (void);
-- (id);
+- (id)%H;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_f92c8eab rawArray; // @synthesize rawArray=_rawArray;
+@property(readonly, nonatomic) CDStruct_5450d214 rawArray; // @synthesize rawArray=_rawArray;
 
 @end
 

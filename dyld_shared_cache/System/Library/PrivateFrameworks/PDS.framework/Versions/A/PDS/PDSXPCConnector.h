@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-@protocol PDSRemote, PDSRemote><NSXPCProxyCreating, PDSRemoteInternal, PDSRemoteInternal><NSXPCProxyCreating, PDSXPCConnection, PDSXPCConnectionVendor, PDSXPCHandshake><NSXPCProxyCreating, PDSXPCInterfaceVendor;
+@class NSString;
 
 @interface PDSXPCConnector
 {
     struct os_unfair_lock_s _lock;
-    NSString *_clientID;
-    id <PDSXPCConnection> _XPCConnection;
-    id <PDSXPCHandshake><NSXPCProxyCreating> _handshakeProxy;
-    id <PDSRemote><NSXPCProxyCreating> _remoteObject;
-    id <PDSRemote> _syncRemoteObject;
-    id <PDSRemoteInternal><NSXPCProxyCreating> _internalRemoteObject;
-    id <PDSRemoteInternal> _syncInternalRemoteObject;
-    NSError *_connectionError;
-    id <PDSXPCInterfaceVendor> _interfaceVendor;
-    id <PDSXPCConnectionVendor> _connectionVendor;
 }
 
-- (void);
+- (void)(:(id)arg1 account, 18, 0, 0, 0, :started_at, NULL),
+       (:account, 19, 0, 0, 0, :started_at, NULL),
+       (:account, 20, 0, 0, 0, :started_at, NULL),
+       (:account, 21, 0, 0, 0, :started_at, NULL),
+       (:account, 22, 0, 0, 0, :started_at, NULL),
+       (:account, 23, 0, 0, 0, :started_at, NULL),
+       (:account, 24, 0, 0, 0, :started_at, NULL) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -30,8 +25,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)setMutableServicesNeedingDBRReauthentication: /* Error: Ran out of types for this method. */;
+- (id)IMyKIpsYw_srFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/Operations/Database/Records/CKDModifyRecordHandler.m;
 - (id);
 - (id);
 - (id);
@@ -40,13 +35,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -60,24 +55,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <PDSXPCConnection> XPCConnection; // @synthesize XPCConnection=_XPCConnection;
 @property(retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSError *connectionError; // @synthesize connectionError=_connectionError;
-@property(retain, nonatomic) id <PDSXPCConnectionVendor> connectionVendor; // @synthesize connectionVendor=_connectionVendor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <PDSXPCHandshake><NSXPCProxyCreating> handshakeProxy; // @synthesize handshakeProxy=_handshakeProxy;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <PDSXPCInterfaceVendor> interfaceVendor; // @synthesize interfaceVendor=_interfaceVendor;
-@property(retain, nonatomic) id <PDSRemoteInternal><NSXPCProxyCreating> internalRemoteObject; // @synthesize internalRemoteObject=_internalRemoteObject;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) id <PDSRemote><NSXPCProxyCreating> remoteObject; // @synthesize remoteObject=_remoteObject;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <PDSRemoteInternal> syncInternalRemoteObject; // @synthesize syncInternalRemoteObject=_syncInternalRemoteObject;
-@property(retain, nonatomic) id <PDSRemote> syncRemoteObject; // @synthesize syncRemoteObject=_syncRemoteObject;
 
 @end
 

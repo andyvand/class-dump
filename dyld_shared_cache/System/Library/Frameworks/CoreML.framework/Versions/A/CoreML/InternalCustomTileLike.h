@@ -8,27 +8,21 @@ __attribute__((visibility("hidden")))
 @interface InternalCustomTileLike
 {
     unsigned long long _inputRank;
-    vector_85d7f63b _multiples;
-    vector_85d7f63b _inputShape;
-    vector_85d7f63b _outputShape;
 }
 
 - (_Bool);
-- (id);
-- (vector_85d7f63b);
-- (vector_85d7f63b);
-- (vector_85d7f63b);
+- (id);
+- (vector_aa56f780);
+- (vector_aa56f780);
+- (vector_aa56f780);
 - (unsigned long long);
-- (id);
+- (id),T;
 - (_Bool);
 - (id);
 - (void)fied.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long inputRank; // @synthesize inputRank=_inputRank;
-@property(readonly, nonatomic) vector_85d7f63b inputShape; // @synthesize inputShape=_inputShape;
-@property(readonly, nonatomic) vector_85d7f63b multiples; // @synthesize multiples=_multiples;
-@property(readonly, nonatomic) vector_85d7f63b outputShape; // @synthesize outputShape=_outputShape;
 
 @end
 

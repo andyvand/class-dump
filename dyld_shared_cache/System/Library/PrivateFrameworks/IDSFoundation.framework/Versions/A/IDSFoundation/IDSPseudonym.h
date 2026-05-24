@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSPseudonymProperties, IDSURI, NSDictionary, NSString;
+@class IDSURI, NSDictionary;
 
 @interface IDSPseudonym
 {
     IDSURI *_URI;
-    IDSURI *_maskedURI;
-    IDSPseudonymProperties *_properties;
 }
 
 + (_Bool);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setExpectedSize:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -32,17 +30,7 @@
 - (id)Y;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSURI *URI; // @synthesize URI=_URI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IDSURI *maskedURI; // @synthesize maskedURI=_maskedURI;
-@property(readonly, nonatomic) IDSPseudonymProperties *properties; // @synthesize properties=_properties;
-@property(readonly) Class superclass;
 
 @end
 

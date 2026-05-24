@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
+- (id)to nil);
+- (id)while processing GUID (%@);
+- (struct CGPoint)RCSEncryptionDowngradeHandler;
+- (struct CGPoint)PeriodicChatSyncStarted;
 - (double);
 - (struct UIEdgeInsets);
 

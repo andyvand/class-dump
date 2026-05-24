@@ -6,18 +6,12 @@
 
 #import <AVKit/AVTouchBarControlsViewController.h>
 
-@class AVPlayerController, AVPlayerLayer, AVTrackViewController, AVTrimControlsViewController, AVTrimView, NSMutableArray;
+@class AVPlayerController, AVTrimView;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarTrimControlsViewController : AVTouchBarControlsViewController
 {
     AVPlayerController *_playerController;
-    NSMutableArray *_bindings;
-    AVTrimControlsViewController *_weakParentTrimViewController;
-    AVTrimView *_trimView;
-    AVTrackViewController *_trackViewController;
-    AVTrimControlsViewController *_strongParentTrimViewControllerForBinding;
-    AVPlayerLayer *_touchBarThumbnailPlayerLayer;
 }
 
 - (id);
@@ -33,25 +27,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ibswift_Concurrency.dylib;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)eProtectedConfigurationForUser:%u (_cid:%lu)
+ /* Error: Ran out of types for this method. */;
+- (id)_developerIdentifierForContentBlocker: /* Error: Ran out of types for this method. */;
+- (id)ePath_isHTMLIFrameElement(n)&&o?.type===Node.DOCUMENT_NODE?(++e,void(n=HTMLIFrameElement.nodePath_contentWindowDocument(n))):n&&o?.type===Node.DOCUMENT_FRAGMENT_NODE?(++e,void(n=Element.nodePath_shadowRoot(n))):void 0};if(Element.nodePath_isElement(n)){let o=[],a=e;for(;a<t.length;++a){let e=t[a];if(e.type!==Node.ELEMENT_NODE)break;o.push(e.toElementCSSSelector())}if(o.length){const t=e=>o.slice(0,o.length-e).join(" > ");let d=null;for(let r=0;r<o.length;++r)if(d=Element.nodePath_querySelectorAll(n,t(r)),1===d.length){i=d.item(0),e=a-r-1,s();continue e}}}let d=0;for(let e=Node.nodePath_firstChild(n);e;e=Node.nodePath_nextSibling(e)){if(!Node.nodePath_includeWhenComputingSiblingIndex(e))continue;let t=Number.MIN_VALUE,n=!0;const s=(e,o)=>{e?t+=o:n=!1},r=(e,o)=>{1!==e&&(n=!1),t+=e*o},h=e=>{e&&(n=!1,t-=e)};if(s(Node.nodePath_nodeType(e)===o.type,WAS.NodePath.#h),Element.nodePath_isElement(e)){s(Element.nodePath_tagName(e)==o.tag,WAS.NodePath.#l),s(Element.nodePath_id(e)==o.id,WAS.NodePath.#c);let t=Element.nodePath_className(e)?.split(" ")??[],n=t.length,a=o.classes?.split(" ")??[],i=a.length;for(let e=0;e<a.length;++e){let n=a[e],o=t.indexOf(n);-1!==o&&(t.splice(o,1),a.splice(e,1),--e)}r((n?(n-t.length)/n:1)*(i?(i-a.length)/i:1),WAS.NodePath.#N),r(Node.nodePath_immediateInnerTextOfNode(e).nodePath_similarityTo(o.text),WAS.NodePath.#m)}else if(Text.nodePath_isText(e)){let t=CharacterData.nodePath_data(e)?.nodePath_similarityTo(o.text);r(t,WAS.NodePath.#m)}if(h(Math.abs(d-o.index)*WAS.NodePath.#p),n){a=Number.NaN,i=e;break}t>a&&(a=t,i=e),++d}s()}return n}};
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak AVTrimControlsViewController *parentTrimViewController;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(retain) AVTrimControlsViewController *strongParentTrimViewControllerForBinding; // @synthesize strongParentTrimViewControllerForBinding=_strongParentTrimViewControllerForBinding;
-@property(retain, nonatomic) AVPlayerLayer *touchBarThumbnailPlayerLayer; // @synthesize touchBarThumbnailPlayerLayer=_touchBarThumbnailPlayerLayer;
-@property(retain) AVTrackViewController *trackViewController; // @synthesize trackViewController=_trackViewController;
 @property(retain) AVTrimView *trimView; // @synthesize trimView=_trimView;
 
 @end

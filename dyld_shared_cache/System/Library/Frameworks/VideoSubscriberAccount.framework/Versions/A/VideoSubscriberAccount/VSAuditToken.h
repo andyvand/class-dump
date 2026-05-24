@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface VSAuditToken
 {
     NSString *_bundleIdentifier;
-    NSData *_tokenBytes;
 }
 
 + (_Bool);
@@ -21,14 +20,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_knownTrackersSortDescriptors;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSData *tokenBytes; // @synthesize tokenBytes=_tokenBytes;
 
 @end
 

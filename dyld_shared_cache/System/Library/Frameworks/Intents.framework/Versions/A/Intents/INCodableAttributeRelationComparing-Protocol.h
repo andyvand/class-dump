@@ -5,6 +5,6 @@
 //
 
 @protocol INCodableAttributeRelationComparing
-- (_Bool)irectory;
+- (_Bool)_customVocabularyDirectory;
 @end
 

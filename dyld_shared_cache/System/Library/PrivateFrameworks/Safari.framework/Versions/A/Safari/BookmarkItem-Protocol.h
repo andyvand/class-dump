@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol BookmarkItem
 - (NSString *)not update app badge because template bundle does not exist;
@@ -14,17 +14,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UUID;
-@property(readonly, nonatomic) _Bool isList;
-@property(readonly, nonatomic) NSArray *leafChildren;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) long long preferredIconType;
 @property(readonly, copy) NSString *title;
-@property(readonly, nonatomic) NSURL *url;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
-
 @end
 

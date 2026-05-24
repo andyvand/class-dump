@@ -9,9 +9,6 @@
 @interface MPSNDArrayRandomUniform : MPSNDArrayRandom
 {
     float _minimum;
-    float _maximum;
-    long long _minimumInteger;
-    long long _maximumInteger;
 }
 
 - (void);
@@ -30,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float maximum; // @synthesize maximum=_maximum;
-@property(nonatomic) long long maximumInteger; // @synthesize maximumInteger=_maximumInteger;
 @property(nonatomic) float minimum; // @synthesize minimum=_minimum;
-@property(nonatomic) long long minimumInteger; // @synthesize minimumInteger=_minimumInteger;
 
 @end
 

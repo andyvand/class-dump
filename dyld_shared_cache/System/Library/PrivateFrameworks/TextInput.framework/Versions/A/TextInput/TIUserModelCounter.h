@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface TIUserModelCounter
 {
     unsigned long long _persisted;
-    unsigned long long _current;
-    _Bool _wasReset;
-    NSString *_name;
-    NSDate *_creationDate;
-    NSDate *_lastUpdateDate;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)PLTimedDispatchGroup;
+- (id)A;
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (void)
 ¡
@@ -31,9 +26,6 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *count;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

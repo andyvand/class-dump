@@ -6,35 +6,33 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class CKRecord, CKRecordID, ICAccount, ICAssetGenerationManager, ICAttachment, NSData, NSManagedObjectID, NSSet, NSString;
-@protocol ICMediaCryptoStrategy;
+@class CKRecordID, ICAccount;
 
 @interface ICMedia : ICCloudSyncingObject
 {
     ICAccount *placeholderAccount;
-    ICAssetGenerationManager *_generationManager;
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (void);
 + (void);
 + (void);
 + (id);
 + (id);
 + (id);
++ (id)s;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (id);
++ (id);
++ (id);
 + (id);
 - (_Bool);
 - (void);
@@ -44,7 +42,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -54,23 +52,23 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)createInterfaceLocales;
+- (_Bool)unknown;
+- (id)e '%@';
+- (id)nable to remove server;
+- (id)upplied - unable to remove server;
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
+- (_Bool)__objc_imageinfo__DATA_CONST;
+- (id)__objc_classname__TEXT;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)invalidate;
+- (void)interfaceTypes;
 - (id);
 - (id);
 - (id);
@@ -78,64 +76,28 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (id)Library/PrivateFrameworks/MiniSoftwareUpdate.framework/Versions/A/MiniSoftwareUpdate;
+- (id)works/PackageKit.framework/Versions/A/PackageKit;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void);
+- (_Bool);
+- (id)A;
+- (_Bool)A;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void)ÈB;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(retain, nonatomic) NSData *assetCryptoInitializationVector; // @dynamic assetCryptoInitializationVector;
-@property(retain, nonatomic) NSData *assetCryptoTag; // @dynamic assetCryptoTag;
-@property(retain, nonatomic) ICAttachment *attachment; // @dynamic attachment;
-@property(readonly, nonatomic) ICAccount *containerAccount;
-@property(readonly, nonatomic) id <ICMediaCryptoStrategy> cryptoStrategy; // @dynamic cryptoStrategy;
-@property(readonly, nonatomic) long long databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *filename; // @dynamic filename;
-@property(copy, nonatomic) NSString *generation; // @dynamic generation;
-@property(readonly, nonatomic) ICAssetGenerationManager *generationManager; // @synthesize generationManager=_generationManager;
-@property(readonly, nonatomic) _Bool hasPresentableContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInICloudAccount;
-@property(readonly, nonatomic) _Bool isValidObject;
-@property(readonly, copy, nonatomic) NSString *loggingDescription;
-@property(readonly, nonatomic) _Bool needsToBeDeletedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBeFetchedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBePushedToCloud;
-@property(readonly, nonatomic) _Bool needsToSaveUserSpecificRecord;
-@property(readonly, nonatomic) unsigned long long numberOfCommonRecordAssets;
-@property(readonly, nonatomic) unsigned long long numberOfUserSpecificRecordAssets;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(nonatomic) __weak ICAccount *placeholderAccount; // @synthesize placeholderAccount;
 @property(readonly, copy, nonatomic) CKRecordID *recordID;
-@property(readonly, copy, nonatomic) NSString *recordType;
-@property(readonly, nonatomic) _Bool shouldAlwaysDownloadAssets;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *urlsToConsiderForCloudBackup;
-@property(readonly, copy, nonatomic) CKRecordID *userSpecificRecordID;
-@property(readonly, copy, nonatomic) NSString *userSpecificRecordType;
-@property(readonly, retain, nonatomic) CKRecord *userSpecificServerRecord;
-@property(readonly, nonatomic) _Bool wantsUserSpecificRecord;
 
 @end
 

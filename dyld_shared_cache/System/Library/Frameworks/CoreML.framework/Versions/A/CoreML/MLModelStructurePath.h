@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface MLModelStructurePath
 {
@@ -18,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct Path);
-- (id);
+- (id)webrtc/Source/webrtc/modules/audio_coding/neteq/comfort_noise.cc;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -27,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)reML framework.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *components;
 @property(readonly, nonatomic) struct Path cppPath; // @synthesize cppPath=_cppPath;
-@property(readonly, nonatomic) _Bool isMLProgramOperationPath;
-@property(readonly, nonatomic) _Bool isNeuralNetworkLayerPath;
 
 @end
 

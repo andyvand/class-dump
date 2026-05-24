@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TLPreviewTimelineError
 {
     long long _errorType;
-    NSString *_errorDescription;
-    NSString *_path;
 }
 
 + (_Bool);
@@ -27,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
 @property(readonly, nonatomic) long long errorType; // @synthesize errorType=_errorType;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

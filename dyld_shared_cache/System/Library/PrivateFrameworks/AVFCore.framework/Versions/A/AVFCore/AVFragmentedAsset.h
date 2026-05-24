@@ -13,20 +13,19 @@
     AVFragmentedAssetInternal *_fragmentedAsset;
 }
 
-+ (_Bool);
++ (_Bool)h*;
 + (id);
 - (Class);
-- (_Bool);
+- (_Bool)Ш;
 - (id);
 - (void);
 - (_Bool);
+- (id)ConnectionClass];
 - (id);
-- (id);
-- (id)ItemSink;
+- (id)playerCurrentItemSink;
 - (id)<;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAssociatedWithFragmentMinder) _Bool associatedWithFragmentMinder;
 @property(readonly, nonatomic) NSArray *tracks;
 
 @end

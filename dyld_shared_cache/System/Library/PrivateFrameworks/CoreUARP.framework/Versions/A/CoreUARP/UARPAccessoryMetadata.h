@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface UARPAccessoryMetadata
 {
     unsigned long long _accessoryCategoryNumber;
-    NSString *_productGroup;
-    NSString *_productNumber;
-    NSString *_manufacturerAppBundleID;
-    NSString *_manufacturerAppStoreID;
-    NSString *_manufacturerName;
-    NSString *_accessoryModel;
-    NSString *_vendorName;
-    NSString *_companyLegalName;
-    NSString *_companyPreferredName;
-    NSString *_accessoryMarketingName;
-    NSString *_accessoryProductLabel;
-    NSURL *_accessoryInstallationGuideURL;
-    unsigned long long _accessoryCapability;
 }
 
 + (_Bool);
@@ -33,21 +18,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
+- (void)H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)ibility string %s to an enum value;
+- (id)ription, defaulting to whether iMessage is available;
+- (id)ID %s no longer a valid subscription, defaulting to whether iMessage is available;
+- (id)dcast notification immediately.;
+- (id)g.;
+- (id)Observer changed to:%{bool}d /* Error: Ran out of types for this method. */;
+- (id)ate.;
+- (unsigned long long)r have an observer, resetting all state.;
+- (unsigned long long)notifications.;
+- (id)_MRUpdateContentItemMessageProtobuf;
 - (id);
 - (id);
 - (id);
@@ -62,20 +47,7 @@
 - (id)iled;
 
 // Remaining properties
-@property unsigned long long accessoryCapability; // @synthesize accessoryCapability=_accessoryCapability;
 @property unsigned long long accessoryCategoryNumber; // @synthesize accessoryCategoryNumber=_accessoryCategoryNumber;
-@property(copy) NSURL *accessoryInstallationGuideURL; // @synthesize accessoryInstallationGuideURL=_accessoryInstallationGuideURL;
-@property(copy) NSString *accessoryMarketingName; // @synthesize accessoryMarketingName=_accessoryMarketingName;
-@property(copy) NSString *accessoryModel; // @synthesize accessoryModel=_accessoryModel;
-@property(copy) NSString *accessoryProductLabel; // @synthesize accessoryProductLabel=_accessoryProductLabel;
-@property(copy) NSString *companyLegalName; // @synthesize companyLegalName=_companyLegalName;
-@property(copy) NSString *companyPreferredName; // @synthesize companyPreferredName=_companyPreferredName;
-@property(copy) NSString *manufacturerAppBundleID; // @synthesize manufacturerAppBundleID=_manufacturerAppBundleID;
-@property(copy) NSString *manufacturerAppStoreID; // @synthesize manufacturerAppStoreID=_manufacturerAppStoreID;
-@property(copy) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(readonly) NSString *productGroup; // @synthesize productGroup=_productGroup;
-@property(readonly) NSString *productNumber; // @synthesize productNumber=_productNumber;
-@property(copy) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

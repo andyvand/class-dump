@@ -7,9 +7,6 @@
 @interface Combine.ObservableObjectPublisher
 {
     id _registrar;
-    id lock;
-    id connections;
-    id identifier;
 }
 
 @end

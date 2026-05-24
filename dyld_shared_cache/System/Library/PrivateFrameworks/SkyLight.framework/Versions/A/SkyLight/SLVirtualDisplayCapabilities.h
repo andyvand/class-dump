@@ -7,25 +7,19 @@
 @interface SLVirtualDisplayCapabilities
 {
     CDStruct_3e356df7 _maximumSizeInPixels;
-    CDStruct_643d22a7 _maximumPixelsPerPoint;
-    CDStruct_643d22a7 _minimumPixelsPerPoint;
-    float _minimumRefreshRate;
 }
 
-- (CDStruct_b2fbf00d);
-- (CDStruct_3e356df7);
-- (CDStruct_b2fbf00d);
+- (CDStruct_b2fbf00d)ateWorkBlockContext"8;
+- (CDStruct_3e356df7)gDelegate.m;
+- (CDStruct_b2fbf00d)ces/Persistence/NSCloudKitMirroringDelegate.m;
 - (void);
-- (id);
-- (float);
-- (id);
+- (id)`R;
+- (float)#;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_b2fbf00d maximumPixelsPerPoint; // @synthesize maximumPixelsPerPoint=_maximumPixelsPerPoint;
 @property(readonly, nonatomic) CDStruct_3e356df7 maximumSizeInPixels; // @synthesize maximumSizeInPixels=_maximumSizeInPixels;
-@property(readonly, nonatomic) CDStruct_b2fbf00d minimumPixelsPerPoint; // @synthesize minimumPixelsPerPoint=_minimumPixelsPerPoint;
-@property(readonly, nonatomic) float minimumRefreshRate; // @synthesize minimumRefreshRate=_minimumRefreshRate;
 
 @end
 

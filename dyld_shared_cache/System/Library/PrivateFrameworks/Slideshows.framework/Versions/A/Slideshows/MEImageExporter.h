@@ -9,10 +9,6 @@
 @interface MEImageExporter
 {
     NSString *mOriginalPath;
-    struct CGImage *mOriginalImage;
-    struct CGSize mSize;
-    NSString *mDestinationPath;
-    _Bool mBlackWhite;
 }
 
 + (id);
@@ -23,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void)roppingMode;
+- (void)kMPAuthoringCroppingMode;
 
 @end
 

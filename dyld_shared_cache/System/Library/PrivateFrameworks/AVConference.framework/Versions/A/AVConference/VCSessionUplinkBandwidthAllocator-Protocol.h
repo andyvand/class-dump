@@ -5,10 +5,9 @@
 //
 
 @protocol VCSessionUplinkBandwidthAllocator
+- (void);
 
 // Remaining properties
-@property(nonatomic, getter=isCamera1080pAvailable) _Bool camera1080pAvailable;
 @property(nonatomic, getter=isRedundancyEnabled) _Bool redundancyEnabled;
-@property(nonatomic, getter=isRedundancyEnabledFor720Stream) _Bool redundancyEnabledFor720Stream;
 @end
 

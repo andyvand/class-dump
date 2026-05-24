@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSTouchBar;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationControlStripState
 {
     struct CGRect _escapeKeyRect;
-    struct CGRect _applicationRect;
-    struct CGRect _miniControlStripRect;
-    struct CGRect _expandedControlStripRect;
-    struct CGRect _systemTrayRect;
-    NSTouchBar *_miniTouchBar;
-    NSTouchBar *_expandedTouchBar;
-    long long _primaryMode;
-    long long _functionVariant;
-    _Bool _cachedConfigurationIsValid;
-    _Bool _cachedSiriIconIsValid;
-    NSDictionary *_cachedConfiguration;
-    long long _currentStateSeed;
-    id _intelligenceAvailabilityListener;
 }
 
 + (id);
-- (struct CGRect);
+- (struct CGRect)bSMNaIuUT58N/BN1nYUjw;
 - (long long);
 - (id);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -40,36 +25,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (struct CGRect);
+- (long long)_offqueue_canRead;
+- (struct CGRect)_onqueue_getTransactionItr;
 - (void);
 - (id);
 - (void)not supported on the destination volume.;
 
 // Remaining properties
-@property(readonly) long long applicationCustomizableState;
-@property(readonly) struct CGRect applicationRect;
 @property(readonly) long long controlStripCustomizableState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect escapeKeyRect;
-@property(readonly) struct CGRect expandedControlStripRect;
-@property(readonly) NSTouchBar *expandedTouchBar;
-@property(readonly) long long functionVariant;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool miniControlStripCustomizationIsAccessible;
-@property(readonly) _Bool miniControlStripIsEmpty;
-@property(readonly) struct CGRect miniControlStripRect;
-@property(readonly) NSTouchBar *miniTouchBar;
-@property(readonly) long long primaryMode;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect systemTrayRect;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATPnRMetrics, NSData;
+@class GATSchemaGATPnRMetrics;
 
 @interface GATSchemaGATRequestEnded : SISchemaInstrumentationMessage
 {
     GATSchemaGATPnRMetrics *_perfMetrics;
-    struct _has;
-    _Bool _hasPerfMetrics;
 }
 
 - (void);
@@ -23,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)localizedCaseInsensitiveCompare: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id)PHSEnrollmentUtteranceDetected";
 - (id)dgeHandleStarted",&,N,V_startedOrChanged;
 - (id)dÅ;
 - (void)Òz~òc$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPerfMetrics; // @synthesize hasPerfMetrics=_hasPerfMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATPnRMetrics *perfMetrics; // @synthesize perfMetrics=_perfMetrics;
 
 @end

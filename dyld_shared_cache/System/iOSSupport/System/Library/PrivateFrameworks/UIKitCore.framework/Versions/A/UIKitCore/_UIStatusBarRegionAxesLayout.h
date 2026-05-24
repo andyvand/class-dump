@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _UIStatusBarRegion;
-@protocol _UIStatusBarRegionAxisLayout;
+@class NSArray, _UIStatusBarRegion;
 
 @interface _UIStatusBarRegionAxesLayout
 {
     _UIStatusBarRegion *_region;
-    NSArray *_displayItems;
-    id <_UIStatusBarRegionAxisLayout> _horizontalLayout;
-    id <_UIStatusBarRegionAxisLayout> _verticalLayout;
-    NSArray *_horizontalConstraints;
-    NSArray *_verticalConstraints;
-    NSArray *_layoutGuides;
 }
 
 - (void);
@@ -30,11 +23,11 @@
 - (void)Ô ;
 - (id)0@ù
 × ;
-- (void)ant;
-- (void)tingSceneTraitCollection;
-- (_Bool)atedRange:(id)arg1;
-- (id)VerticalLayoutMargins:traitCollection: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)symbolicConstant;
+- (void)_windowHostingSceneTraitCollection;
+- (_Bool)_setEvaluatedRange:(id)arg1;
+- (id)_initWithTextLabel:isHeader:resetsVerticalLayoutMargins:traitCollection: /* Error: Ran out of types for this method. */;
+- (void)__unsafeInsets;
 - (void)CALayer",R,D,N;
 - (id)xt;
 - (void)ë?×£p=
@@ -43,22 +36,7 @@
 - (id)y\;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canOverflowItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *displayItems; // @synthesize displayItems=_displayItems;
-@property(readonly, nonatomic) _Bool fitsAllItems;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *horizontalConstraints; // @synthesize horizontalConstraints=_horizontalConstraints;
-@property(retain, nonatomic) id <_UIStatusBarRegionAxisLayout> horizontalLayout; // @synthesize horizontalLayout=_horizontalLayout;
-@property(copy, nonatomic) NSArray *layoutGuides; // @synthesize layoutGuides=_layoutGuides;
-@property(nonatomic) __weak _UIStatusBarRegion *region; // @synthesize region=_region;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *verticalConstraints; // @synthesize verticalConstraints=_verticalConstraints;
-@property(retain, nonatomic) id <_UIStatusBarRegionAxisLayout> verticalLayout; // @synthesize verticalLayout=_verticalLayout;
 
 @end
 

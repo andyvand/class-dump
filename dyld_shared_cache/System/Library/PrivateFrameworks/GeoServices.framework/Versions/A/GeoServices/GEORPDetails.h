@@ -4,78 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, GEORPButton, GEORPUpdatedLabel, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPDetails
 {
     PBDataReader *_reader;
-    GEORPButton *_button;
-    GEOMapRegion *_displayRegion;
-    GEORPUpdatedLabel *_label;
-    NSString *_localizedDescription;
-    NSString *_localizedTitle;
-    NSMutableArray *_places;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _directionsType;
-    int _displayStyle;
-    int _mapType;
-    struct {
-        unsigned int has_directionsType:1;
-        unsigned int has_displayStyle:1;
-        unsigned int has_mapType:1;
-        unsigned int read_button:1;
-        unsigned int read_displayRegion:1;
-        unsigned int read_label:1;
-        unsigned int read_localizedDescription:1;
-        unsigned int read_localizedTitle:1;
-        unsigned int read_places:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)rd:(id)arg1;
++ (_Bool)setIsPersonPlacecard:(id)arg1;
 + (Class)þ;
+- (void)_updateCacheEntry:(_Bool)arg1 forKey:withResult:accountCollection:storeDescriptionKey: /* Error: Ran out of types for this method. */;
+- (void)arrayWithArray:(int)arg1;
+- (unsigned long long)<WorkFAX>!$_;
+- (id)changeKey;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)e;
+- (int);
 - (void);
 - (void);
+- (int);
+- (void);
+- (id)VNHumanBodyPoseObservation;
+- (_Bool);
+- (id);
+- (void)`;
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id)setDeltaTimeFromActivation: /* Error: Ran out of types for this method. */;
+- (void)PromptUUID = %@, _fakeTwoShotPromptUUID = %@).;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (void);
-- (int);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (int);
+- (int)0";
 - (void);
 - (_Bool);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (id)ion";
-- (id): /* Error: Ran out of types for this method. */;
+- (id)addIncidentsOffReRoutes: /* Error: Ran out of types for this method. */;
 - (id)tl
 Øl
 <m
@@ -89,9 +65,9 @@ Lo
 xp
 Üp
 Lq¬qxrLt;
-- (int)lityTileHandleCookies;
-- (id)iConnectionQualityProbeURLLegacy;
-- (void)N_TYPE_PLACE;
+- (int)WiFiQualityTileHandleCookies;
+- (id)wifiConnectionQualityProbeURLLegacy;
+- (void)SEARCH_SECTION_TYPE_PLACE;
 - (_Bool)re equal.;
 - (id)¨ ;
 - (void)¸;
@@ -107,23 +83,7 @@ Lq¬qxrLt;
 - (void)Ö98*p3;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPButton *button;
-@property(nonatomic) int directionsType;
-@property(retain, nonatomic) GEOMapRegion *displayRegion;
-@property(nonatomic) int displayStyle;
-@property(readonly, nonatomic) _Bool hasButton;
-@property(nonatomic) _Bool hasDirectionsType;
-@property(readonly, nonatomic) _Bool hasDisplayRegion;
 @property(nonatomic) _Bool hasDisplayStyle;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasLocalizedDescription;
-@property(readonly, nonatomic) _Bool hasLocalizedTitle;
-@property(nonatomic) _Bool hasMapType;
-@property(retain, nonatomic) GEORPUpdatedLabel *label;
-@property(retain, nonatomic) NSString *localizedDescription;
-@property(retain, nonatomic) NSString *localizedTitle;
-@property(nonatomic) int mapType;
-@property(retain, nonatomic) NSMutableArray *places;
 
 @end
 

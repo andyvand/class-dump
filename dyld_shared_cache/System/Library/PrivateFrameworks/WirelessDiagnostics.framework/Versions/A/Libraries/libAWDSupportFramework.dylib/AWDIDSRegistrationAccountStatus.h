@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationAccountStatus
 {
     unsigned long long _timestamp;
-    int _accountType;
-    unsigned int _doesExist;
-    unsigned int _isEnabled;
-    unsigned int _isUserDisabled;
-    unsigned int _isiCloudSignedIn;
-    unsigned int _isiTunesSignedIn;
-    int _registrationError;
-    int _registrationErrorReason;
-    int _registrationStatus;
-    NSString *_serviceIdentifier;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int accountType:1;
-        unsigned int doesExist:1;
-        unsigned int isEnabled:1;
-        unsigned int isUserDisabled:1;
-        unsigned int isiCloudSignedIn:1;
-        unsigned int isiTunesSignedIn:1;
-        unsigned int registrationError:1;
-        unsigned int registrationErrorReason:1;
-        unsigned int registrationStatus:1;
-    } _has;
 }
 
 - (void);
@@ -47,8 +23,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -80,36 +56,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)BD;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_blacklistedSubreason;
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int accountType; // @synthesize accountType=_accountType;
-@property(nonatomic) unsigned int doesExist; // @synthesize doesExist=_doesExist;
-@property(nonatomic) _Bool hasAccountType;
-@property(nonatomic) _Bool hasDoesExist;
-@property(nonatomic) _Bool hasIsEnabled;
-@property(nonatomic) _Bool hasIsUserDisabled;
-@property(nonatomic) _Bool hasIsiCloudSignedIn;
-@property(nonatomic) _Bool hasIsiTunesSignedIn;
-@property(nonatomic) _Bool hasRegistrationError;
-@property(nonatomic) _Bool hasRegistrationErrorReason;
-@property(nonatomic) _Bool hasRegistrationStatus;
-@property(readonly, nonatomic) _Bool hasServiceIdentifier;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(nonatomic) unsigned int isUserDisabled; // @synthesize isUserDisabled=_isUserDisabled;
-@property(nonatomic) unsigned int isiCloudSignedIn; // @synthesize isiCloudSignedIn=_isiCloudSignedIn;
-@property(nonatomic) unsigned int isiTunesSignedIn; // @synthesize isiTunesSignedIn=_isiTunesSignedIn;
-@property(nonatomic) int registrationError; // @synthesize registrationError=_registrationError;
-@property(nonatomic) int registrationErrorReason; // @synthesize registrationErrorReason=_registrationErrorReason;
-@property(nonatomic) int registrationStatus; // @synthesize registrationStatus=_registrationStatus;
-@property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

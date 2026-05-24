@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISKVOProxy, NSObject;
-@protocol OS_dispatch_queue;
+@class ISKVOProxy;
 
 __attribute__((visibility("hidden")))
 @interface ISKVOProxyRecord
 {
     ISKVOProxy *_proxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
-- (id);
+- (id)UIEdgeInsets=dddd},N,V_borderInsets;
+- (id)setBackingScaleFactor: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ISKVOProxy *proxy; // @synthesize proxy=_proxy;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

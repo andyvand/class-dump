@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol SGConversationTurnProtocol
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *senderID;
 @property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) NSDate *timestamp;
 @end
 

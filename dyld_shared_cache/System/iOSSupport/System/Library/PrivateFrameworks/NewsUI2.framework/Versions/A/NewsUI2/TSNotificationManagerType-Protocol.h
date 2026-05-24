@@ -5,5 +5,6 @@
 //
 
 @protocol TSNotificationManagerType
+- (long long)ler;
 @end
 

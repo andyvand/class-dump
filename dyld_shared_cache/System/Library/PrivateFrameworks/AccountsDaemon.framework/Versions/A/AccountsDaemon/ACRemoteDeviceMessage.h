@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSData, NSDictionary, NSError, NSMutableDictionary, NSObject, NSString;
-@protocol NSSecureCoding;
+@class NSMutableDictionary, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ACRemoteDeviceMessage
 {
     NSMutableDictionary *_payload;
-    NSData *_data;
-    _Bool _needsReply;
-    _Bool _isReply;
-    NSString *_identifier;
 }
 
 + (id);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ContactsUICore.ContactCardActionsViewModel;
 - (id);
 - (void);
 - (id);
@@ -33,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)n;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -43,17 +38,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)>32;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccount *account;
 @property(readonly, nonatomic) NSString *command;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isReply; // @synthesize isReply=_isReply;
-@property(nonatomic) _Bool needsReply; // @synthesize needsReply=_needsReply;
-@property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) NSObject<NSSecureCoding> *result;
-@property(readonly, nonatomic) NSString *sentMessageIdentifier;
-@property(readonly, nonatomic) _Bool success;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSScribbleElement, _WKTargetedElementInfo;
+@class WBSScribbleElement;
 
 @interface WBSScribbleElementAndTarget
 {
     WBSScribbleElement *_element;
-    _WKTargetedElementInfo *_target;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)dailyVisitCountScoresCountOnSynchronizationQueue;
 - (void)ons;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSScribbleElement *element; // @synthesize element=_element;
-@property(readonly, nonatomic) _WKTargetedElementInfo *target; // @synthesize target=_target;
 
 @end
 

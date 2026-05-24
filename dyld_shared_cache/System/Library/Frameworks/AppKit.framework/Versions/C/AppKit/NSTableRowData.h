@@ -4,91 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSControl, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSMutableSet, NSString, NSTableBannerRowData, NSTableRowView, NSTableSwipeData, NSTableUpdateData, NSTableView, NSTableViewDropFeedbackData, NSTableViewRecycledViews, NSView;
+@class NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface NSTableRowData
 {
     NSTableView *_tableView;
-    id *_rowViews;
-    struct _NSRange _visibleRows;
-    NSTableRowView *_firstResponderRowView;
-    long long _firstResponderRow;
-    NSControl *_firstResponder;
-    NSView *_delayedFirstResponder;
-    long long _delayedFirstResponderRow;
-    NSTableViewRecycledViews *_recycledViews;
-    NSBundle *_nibBundle;
-    NSString *_nibPath;
-    NSTableViewDropFeedbackData *_dropFeedbackData;
-    NSMutableIndexSet *_hiddenRowIndexes;
-    NSTableBannerRowData *_groupRowData;
-    NSTableBannerRowData *_footerRowData;
-    NSMutableDictionary *_rowViewsBeingAnimatedOff;
-    NSMutableArray *_viewsBeingAnimatedAway;
-    long long _lastColumnChanged;
-    NSTableUpdateData *_updateData;
-    double _animationCompletionTime;
-    CDUnknownBlockType _delayEditBlock;
-    struct CGSize _targetTableFrameSize;
-    struct CGRect _suggestedContentRect;
-    NSTableSwipeData *_swipeData;
-    NSView *_preferredReuseView;
-    CDUnknownBlockType _animationCompletionHandler;
-    NSMutableIndexSet *_changedAutomaticRowHeights;
-    NSMapTable *_cachedAutomaticRowHeights;
-    NSMutableSet *_rowViewPurgatory;
-    unsigned int _animateFrames:1;
-    unsigned int _animateSelection:1;
-    unsigned int _animateViewWidths:1;
-    unsigned int _animatingHeaderView:1;
-    unsigned int _animationGroupBegan:1;
-    unsigned int _attemptingDrag:1;
-    unsigned int _callingHeightOfRow:1;
-    unsigned int _doingMemoryPressureCleanup:1;
-    unsigned int _hasAnimatingBackground:1;
-    unsigned int _hasExistingViews:1;
-    unsigned int _ignoreTrackingAreas:1;
-    unsigned int _implicitAnimationsWereEnabled:1;
-    unsigned int _isPurgingRowViewData:1;
-    unsigned int _keyViewLoopIsDirty:1;
-    unsigned int _registeredForTextDidEndEditing:1;
-    unsigned int _purgeHappenedWhileUpdating:1;
-    unsigned int _reorderingColumns:1;
-    unsigned int _rowFrameUpdateNeeded:1;
-    unsigned int _rowViewPurgatoryEnabled:1;
-    unsigned int _rowViewsBeingAnimatedOffCleanupScheduled:1;
-    unsigned int _rowViewsBeingAnimatedOffPurgeInProgress:1;
-    unsigned int _rowViewsDereferenceImminent:1;
-    unsigned int _scheduledCullOfViews:1;
-    unsigned int _showFloatingHeaderView:1;
-    unsigned int _sizeModeUpdateNeeded:1;
-    unsigned int _updatingColumnWidths:1;
-    unsigned int _updatingVisibleRows:1;
-    unsigned int _trackingGestureForSwipe:1;
 }
 
 - (void);
+- (void)set_preventsIdleSystemSleep:(id)arg1;
 - (void);
 - (void);
+- (void)se:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
+- (void)out;
+- (void)FFF)F8FGG
+GGGG)G8GHH
+HHHH)H8HI	II(IJ	JJ(JK	KK(KL	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)OperationSizerUpdate;
 - (id)»ò;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

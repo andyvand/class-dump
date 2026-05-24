@@ -5,5 +5,11 @@
 //
 
 @protocol CWEventDelegate
+
+@optional
+- (void);
+- (void)
+;
+- (void)ʑ;
 @end
 

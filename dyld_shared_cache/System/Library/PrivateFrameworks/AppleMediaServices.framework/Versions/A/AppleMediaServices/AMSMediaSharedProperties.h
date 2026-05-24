@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSURLSession, NSDate, NSString, NSTimer;
-@protocol AMSMediaTokenServiceProtocol;
+@class AMSURLSession, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSMediaSharedProperties
 {
     AMSURLSession *_session;
-    id <AMSMediaTokenServiceProtocol> _tokenService;
-    NSString *_clientIdentifier;
-    long long _activeTaskCount;
-    NSTimer *_cleanupTimer;
-    NSDate *_lastAccessTime;
-    double _timeout;
 }
 
 + (id);
@@ -45,7 +38,7 @@ qÒå9OuæÊ3o8_«s}àè·«MÙÔ1.ÇÍÅ@úbñ¬>7|	�
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -53,13 +46,7 @@ qÒå9OuæÊ3o8_«s}àè·«MÙÔ1.ÇÍÅ@úbñ¬>7|	�
 - (void)2kç¬sM>N?üòNq'uõ¨·}ï}ÇÆ·ÂübhÙ$½©í×âî`U´»ÏÐÄ;
 
 // Remaining properties
-@property long long activeTaskCount; // @synthesize activeTaskCount=_activeTaskCount;
-@property(retain) NSTimer *cleanupTimer; // @synthesize cleanupTimer=_cleanupTimer;
 @property(readonly, copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) NSDate *lastAccessTime; // @synthesize lastAccessTime=_lastAccessTime;
-@property(readonly) AMSURLSession *session; // @synthesize session=_session;
-@property double timeout; // @synthesize timeout=_timeout;
-@property(readonly) id <AMSMediaTokenServiceProtocol> tokenService; // @synthesize tokenService=_tokenService;
 
 @end
 

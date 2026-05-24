@@ -7,18 +7,15 @@
 @interface PKProximitySetupLiaison
 {
     CDUnknownBlockType _startTransferAuthorization;
-    CDUnknownBlockType _endTransferAuthorization;
-    CDUnknownBlockType _fetchMessageSession;
-    _Bool _hasFetchedMessageSession;
 }
 
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)s";
 - (void);
 - (void);
-- (void)nsactionError;
+- (void)expressTransactionError;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasFetchedMessageSession; // @synthesize hasFetchedMessageSession=_hasFetchedMessageSession;

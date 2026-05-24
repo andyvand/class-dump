@@ -6,12 +6,11 @@
 
 #import <VoiceShortcutClient/WFSiriActionRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface WFSiriOpenURLRequest : WFSiriActionRequest
 {
     NSURL *_URL;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
@@ -19,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e.ClassKit.ClassKitAccountNotificationPlugin;
 - (void)Ñ^1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 
 @end
 

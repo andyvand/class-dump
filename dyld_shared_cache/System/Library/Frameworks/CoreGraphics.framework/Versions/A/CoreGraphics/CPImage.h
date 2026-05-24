@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface CPImage : CPGraphicObject
 {
     struct CPPDFImage *imageData;
-    _Bool renderedBoundsComputed;
 }
 
 - (long long);
-- (struct CGRect);
+- (struct CGRect)V@;
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)*;
 - (struct CPPDFImage *);
 - (id);
 - (_Bool);

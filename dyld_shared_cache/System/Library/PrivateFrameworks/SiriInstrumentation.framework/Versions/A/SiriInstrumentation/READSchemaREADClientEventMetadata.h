@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface READSchemaREADClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_readId;
-    _Bool _hasReadId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)gDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDSoftwareUpdateMetrics_macOS.m:44 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)sql_statement;
 - (id);
 - (id);
-- (id)s;
+- (id)_voiceIdScores;
 - (id)on;
-- (void)NCE_DATASOURCEERROR;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_TOKENGENERATIONINFERENCE_DATASOURCEERROR;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReadId; // @synthesize hasReadId=_hasReadId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *readId; // @synthesize readId=_readId;
 
 @end

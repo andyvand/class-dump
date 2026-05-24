@@ -7,6 +7,6 @@
 @protocol NSValidatedUserInterfaceItem;
 
 @protocol NSUserInterfaceValidations
-- (_Bool)indow:(id <NSValidatedUserInterfaceItem>)arg1;
+- (_Bool)_updateTitlebarSeparatorStyleForWindow:(id <NSValidatedUserInterfaceItem>)arg1;
 @end
 

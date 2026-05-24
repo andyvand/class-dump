@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIDefinitionFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputBlurImage;
-    NSNumber *_inputIntensity;
 }
 
 + (id);
@@ -21,12 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (void)Space;
+- (void)resamplingColorSpace;
 
 // Remaining properties
-@property(retain) CIImage *inputBlurImage; // @synthesize inputBlurImage=_inputBlurImage;
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
 
 @end
 

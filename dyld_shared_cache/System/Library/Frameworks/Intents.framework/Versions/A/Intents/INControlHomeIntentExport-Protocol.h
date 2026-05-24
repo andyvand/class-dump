@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INHomeUserTask, NSArray;
+@class INDateComponentsRange, INHomeUserTask;
 
 @protocol INControlHomeIntentExport
-- (void)roupedByExtensionPoints;
+- (id)67;
+- (void)l-2.8/crypto/dh/dh_lib.c;
+- (INDateComponentsRange *)(!;
+- (void);
+- (void)_supportedIntentsGroupedByExtensionPoints;
 
 // Remaining properties
-@property(copy) NSArray *contents;
-@property(copy) NSArray *filters;
-@property(copy) INDateComponentsRange *time;
 @property(copy) INHomeUserTask *userTask;
 @end
 

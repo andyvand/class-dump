@@ -6,52 +6,38 @@
 
 #import <HomeKitDaemon/HMDHomeInvitation.h>
 
-@class HMDAccount, HMFPairingIdentity, HMRestrictedGuestHomeAccessSchedule, NSDictionary, NSString, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDIncomingHomeInvitation : HMDHomeInvitation
 {
     _Bool _homeHasCameras;
-    HMDAccount *_inviterAccount;
-    HMFPairingIdentity *_inviterIdentity;
-    NSString *_inviterMergeID;
-    unsigned long long _inviteePrivilege;
-    HMRestrictedGuestHomeAccessSchedule *_restrictedGuestSchedule;
 }
 
 + (_Bool)øÝÜÞÏdàÐèàáèç;
 - (void);
 - (void);
 - (void);
+- (_Bool)eraseWithCompletion: /* Error: Ran out of types for this method. */;
+- (id):%p, muid:%llu, timezone:%@, location:%@, name:%@, navDisplayName:%@, navDisplayAddress:%@, directionsListAddress:%@, waypointCategory:%@, waypointType:%@, isCurrentLocation:%d, isServerProvidedWaypoint:%d> /* Error: Ran out of types for this method. */;
+- (unsigned long long)smsStrategyIdentifier;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (id)ssSessionPaused:(id)arg1 ];
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)dingEventTriggers;
+- (void);
+- (void)cameraRecordingEventTriggers;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *bulletinContext;
-@property(nonatomic) _Bool homeHasCameras; // @synthesize homeHasCameras=_homeHasCameras;
-@property(readonly, copy, nonatomic) NSString *homeName;
-@property(readonly, copy, nonatomic) NSUUID *homeUUID;
-@property(nonatomic) unsigned long long inviteePrivilege; // @synthesize inviteePrivilege=_inviteePrivilege;
-@property(readonly) HMDAccount *inviterAccount; // @synthesize inviterAccount=_inviterAccount;
-@property(readonly, copy) HMFPairingIdentity *inviterIdentity; // @synthesize inviterIdentity=_inviterIdentity;
-@property(readonly, copy, nonatomic) NSString *inviterMergeID; // @synthesize inviterMergeID=_inviterMergeID;
-@property(readonly, copy, nonatomic) NSString *inviterUserID;
-@property(retain, nonatomic) HMRestrictedGuestHomeAccessSchedule *restrictedGuestSchedule; // @synthesize restrictedGuestSchedule=_restrictedGuestSchedule;
 
 @end
 

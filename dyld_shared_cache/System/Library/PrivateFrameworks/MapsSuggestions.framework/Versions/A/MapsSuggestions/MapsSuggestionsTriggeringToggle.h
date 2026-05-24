@@ -6,13 +6,9 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseTrigger.h>
 
-@class NSString;
-
 @interface MapsSuggestionsTriggeringToggle : MapsSuggestionsBaseTrigger
 {
     unsigned long long _behavior;
-    struct atomic<bool> _state;
-    struct atomic<unsigned int> _timesUpdated;
 }
 
 - (unsigned long long);
@@ -20,23 +16,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)(=;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long timesUpdated;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

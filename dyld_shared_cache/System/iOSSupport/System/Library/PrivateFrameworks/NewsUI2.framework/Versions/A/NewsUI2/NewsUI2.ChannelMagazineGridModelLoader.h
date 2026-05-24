@@ -7,11 +7,6 @@
 @interface NewsUI2.ChannelMagazineGridModelLoader
 {
     id delegate;
-    id channel;
-    id contentContext;
-    id tagService;
-    id issueModelFactory;
-    id magazineGridKind;
 }
 
 @end

@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTCellIndex;
-
 @interface RTCostMatrixCell
 {
     double _distance;
-    RTCellIndex *_cellIndex;
 }
 
 - (void);
-- (id);
-- (id);
+- (id),&,V_manager;
+- (id)covery mechanism;
 - (double);
 - (void)nsitionsAreInvalid_ForTransitionAtIndex, tripSegmentTransitionStatus[%ld], Passthrough;
 - (void)(in %s:(double)arg1 %d);
 
 // Remaining properties
-@property(retain, nonatomic) RTCellIndex *cellIndex; // @synthesize cellIndex=_cellIndex;
 @property(nonatomic) double distance; // @synthesize distance=_distance;
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFGraph, GFGraphEditorView, GFNode, NSBrowser, NSView;
+@class NSView;
 
 @interface GFGraphBrowserView
 {
     NSView *_insideView;
-    GFGraph *_rootGraph;
-    GFGraphEditorView *_graphEditor;
-    NSBrowser *_browser;
-    GFNode *_currentNode;
-    _Bool _displayNodes;
-    void *_unused[4];
 }
 
 + (_Bool);
@@ -33,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
 - (void);
 - (void);
@@ -44,11 +38,11 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)m -> AlbumArtist repair:Found %lu albums with invalid album artists %{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (_Bool)or_InputsTitle;
+- (_Bool)Inspector_InputsTitle;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray;
 
 @interface MDLMaterialPropertyNode
 {
     NSArray *_inputs;
-    NSArray *_outputs;
-    NSMutableArray *_inputNodes;
-    CDUnknownBlockType _evaluationFunction;
-    NSString *_name;
 }
 
 - (void);
@@ -21,14 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType evaluationFunction; // @synthesize evaluationFunction=_evaluationFunction;
-@property(readonly, nonatomic) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *outputs; // @synthesize outputs=_outputs;
 
 @end
 

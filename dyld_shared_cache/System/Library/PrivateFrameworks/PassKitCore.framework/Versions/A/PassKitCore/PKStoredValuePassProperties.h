@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSString, PKCurrencyAmount;
-
 @interface PKStoredValuePassProperties
 {
     _Bool _blocked;
-    _Bool _inStation;
-    NSDate *_expirationDate;
-    NSArray *_balances;
-    NSString *_appletFormat;
-    PKCurrencyAmount *_balanceAmount;
-    NSDecimalNumber *_decimalTransitBalance;
-    NSArray *_enrouteTransitTypes;
 }
 
 + (id);

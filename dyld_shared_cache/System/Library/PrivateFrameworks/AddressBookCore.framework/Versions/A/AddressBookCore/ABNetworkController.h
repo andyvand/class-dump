@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer;
-
 @interface ABNetworkController
 {
     struct __SCDynamicStore *_store;
-    NSString *_domainName;
-    unsigned int _waitingForDialToFinish:1;
-    unsigned int _checkedNetwork:1;
-    unsigned int _isNetworkUp:1;
-    NSTimer *_notificationTimer;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (_Bool);

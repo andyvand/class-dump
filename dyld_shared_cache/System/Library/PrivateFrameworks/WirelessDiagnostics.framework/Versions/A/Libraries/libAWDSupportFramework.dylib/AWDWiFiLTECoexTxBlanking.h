@@ -7,30 +7,15 @@
 @interface AWDWiFiLTECoexTxBlanking
 {
     unsigned long long _timestamp;
-    unsigned long long _type4BlankingCount;
-    unsigned long long _type4BlankingTimeInMS;
-    unsigned long long _type4ResumeCount;
-    unsigned long long _type7BlankingCount;
-    unsigned long long _type7BlankingTimeInMS;
-    unsigned long long _type7ResumeCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int type4BlankingCount:1;
-        unsigned int type4BlankingTimeInMS:1;
-        unsigned int type4ResumeCount:1;
-        unsigned int type7BlankingCount:1;
-        unsigned int type7BlankingTimeInMS:1;
-        unsigned int type7ResumeCount:1;
-    } _has;
 }
 
 - (unsigned long long);
+- (unsigned long long)A;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)<ޗ@;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -58,25 +43,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType4BlankingCount;
-@property(nonatomic) _Bool hasType4BlankingTimeInMS;
-@property(nonatomic) _Bool hasType4ResumeCount;
-@property(nonatomic) _Bool hasType7BlankingCount;
-@property(nonatomic) _Bool hasType7BlankingTimeInMS;
-@property(nonatomic) _Bool hasType7ResumeCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long type4BlankingCount; // @synthesize type4BlankingCount=_type4BlankingCount;
-@property(nonatomic) unsigned long long type4BlankingTimeInMS; // @synthesize type4BlankingTimeInMS=_type4BlankingTimeInMS;
-@property(nonatomic) unsigned long long type4ResumeCount; // @synthesize type4ResumeCount=_type4ResumeCount;
-@property(nonatomic) unsigned long long type7BlankingCount; // @synthesize type7BlankingCount=_type7BlankingCount;
-@property(nonatomic) unsigned long long type7BlankingTimeInMS; // @synthesize type7BlankingTimeInMS=_type7BlankingTimeInMS;
-@property(nonatomic) unsigned long long type7ResumeCount; // @synthesize type7ResumeCount=_type7ResumeCount;
 
 @end
 

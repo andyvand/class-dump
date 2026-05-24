@@ -7,20 +7,13 @@
 @interface NewsFeed.DebugFormatCanvasViewController
 {
     id contentView;
-    id columnSystem;
-    id $__lazy_storage_$_columnView;
-    id viewportMonitor;
-    id editor;
-    id scrollView;
-    id generator;
-    id renderedDevice;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)today;
 - (void)M%:À·ôþM%:¸ôþM%:ØwþM%:¤½$ÿ /* Error: Ran out of types for this method. */;
 - (void);
 

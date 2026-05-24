@@ -9,11 +9,6 @@
 @interface SLFacebookAlbum
 {
     _Bool _canUpload;
-    _Bool _isDefaultAlbum;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_coverPhotoIdentifier;
-    long long _count;
 }
 
 + (id);
@@ -22,27 +17,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
+- (id)r fetching changes:(id)arg1 %{public}@;
 - (id);
-- (id);
-- (id);
+- (id)4`;
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool canUpload; // @synthesize canUpload=_canUpload;
-@property long long count; // @synthesize count=_count;
-@property(retain) NSString *coverPhotoIdentifier; // @synthesize coverPhotoIdentifier=_coverPhotoIdentifier;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isDefaultAlbum; // @synthesize isDefaultAlbum=_isDefaultAlbum;
-@property(retain) NSString *name; // @synthesize name=_name;
 
 @end
 

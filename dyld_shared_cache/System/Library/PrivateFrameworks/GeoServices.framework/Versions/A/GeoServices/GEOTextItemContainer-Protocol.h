@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol GEOTextItemDisplayConfig;
 
 @protocol GEOTextItemContainer
 
 // Remaining properties
 @property(readonly, nonatomic) id <GEOTextItemDisplayConfig> displayConfig;
-@property(readonly, nonatomic) NSArray *textItems;
 @end
 

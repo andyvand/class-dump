@@ -5,5 +5,10 @@
 //
 
 @protocol NSCustomTextRenderingDelegate
+
+@optional
+- (void)initialSyncAllowed;
+- (void)initWithiMessageService:bizChatService:incomingMessageHandler:messageStore:chatRegistry:accountController:storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
+- (void)addItem:toChat: /* Error: Ran out of types for this method. */;
 @end
 

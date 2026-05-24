@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSSNewsAnalyticsSessionManager, NSSNewsAnalyticsUserIDProvider;
+@protocol NSSNewsAnalyticsSessionManager;
 
 @interface NSSNewsAnalyticsEventAnnotator
 {
     id <NSSNewsAnalyticsSessionManager> _sessionManager;
-    id <NSSNewsAnalyticsUserIDProvider> _userIDProvider;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NSSNewsAnalyticsSessionManager> sessionManager; // @synthesize sessionManager=_sessionManager;
-@property(readonly, nonatomic) id <NSSNewsAnalyticsUserIDProvider> userIDProvider; // @synthesize userIDProvider=_userIDProvider;
 
 @end
 

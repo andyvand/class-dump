@@ -23,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tableView:shouldReorderColumn:toColumn: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

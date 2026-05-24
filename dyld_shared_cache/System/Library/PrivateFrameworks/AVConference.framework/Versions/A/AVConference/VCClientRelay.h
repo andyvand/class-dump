@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface VCClientRelay
 {
     int _vtpSocket;
-    int _idsSocket;
-    NSObject<OS_dispatch_source> *_idsReadSource;
-    NSObject<OS_dispatch_queue> *_idsReadQueue;
-    _Bool _isConnectionResultSet;
-    struct tagCONNRESULT _connectionResult;
-    struct sockaddr_storage _vtpDestination;
-    unsigned int _vtpDestinationLength;
-    struct OpaqueFigThread *_vtpReceiveTID;
-    _Bool _stopVTPReceiveThread;
 }
 
 - (_Bool);
@@ -30,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (int);
-- (int);
+- (int)7;
 
 // Remaining properties
 @property(readonly) _Bool stopVTPReceiveThread; // @synthesize stopVTPReceiveThread=_stopVTPReceiveThread;

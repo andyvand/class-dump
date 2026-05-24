@@ -11,13 +11,11 @@
 @interface GEOComposedWalkingUncertainArrivalRouteStep : GEOComposedWalkingRouteStep
 {
     NSArray *_aggregatedGEOSteps;
-    double _aggregatedStepsDistance;
-    unsigned int _aggregatedStepsDuration;
 }
 
 + (_Bool)es not exist;
-- (_Bool);
-- (id);
+- (_Bool)storageKeyForKey:table:inBundleForClass: /* Error: Ran out of types for this method. */;
+- (id)fileURLWithPathComponents:(id)arg1;
 - (unsigned int);
 - (double);
 - (id);

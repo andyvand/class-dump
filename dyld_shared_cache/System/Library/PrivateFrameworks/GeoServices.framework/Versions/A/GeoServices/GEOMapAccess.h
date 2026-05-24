@@ -7,14 +7,11 @@
 #import <GeoServices/GEOMapRequestManager.h>
 
 @class NSObject;
-@protocol GEOMapAccessRestrictions, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface GEOMapAccess : GEOMapRequestManager
 {
     NSObject<OS_dispatch_queue> *_callbackQueue;
-    id <GEOMapAccessRestrictions> _restrictions;
-    CDUnknownBlockType _tileErrorHandler;
-    _Bool _useMapMatchingTilesetForRoads;
 }
 
 + (id);
@@ -23,12 +20,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id);
++ (id)Scheme, %@;
++ (id)initWithOwner:service:callback: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -59,34 +56,24 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)"<CNObserver>"32;
+- (id)icationProxy"@"NSError">24;
+- (_Bool)sion"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32;
+- (_Bool)isKeychainEnabledImpl;
+- (id)initWithObservable:(double)arg1 transform:(CDStruct_c3b9c2ee)arg2 decoratorGenerator:(unsigned long long)arg3 schedulerProvider:(CDUnknownBlockType)arg4;
+- (id)initWithObservable:(unsigned long long)arg1 sampler:(CDStruct_c3b9c2ee)arg2;
+- (id)pointerAtIndex:(unsigned long long)arg1;
+- (id)Token;
+- (id):Asserting that VoiceTrigger should be %{public}@ with reason:%{public}@. Existing assertions (%{public}lu):%{public}@; times:%{public}@ vs %{public}f /* Error: Ran out of types for this method. */;
 - (id)izeof(uint32_t) == offsetsData.length;
-- (id)TACT_WITH_LIVE_LOCATION;
+- (id)CONTACT_WITH_LIVE_LOCATION;
 - (void)Ü;
 - (void)F!3;
 - (void),|þò ;;
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsNetworkTileLoad;
-@property(readonly, nonatomic) unsigned long long buildingsZoomLevel;
-@property(readonly, nonatomic) unsigned int maxTransitZoomLevel;
-@property(readonly, nonatomic) unsigned int maxZoomLevel;
-@property(readonly, nonatomic) unsigned int minZoomLevel;
-@property(nonatomic) __weak id <GEOMapAccessRestrictions> restrictions; // @synthesize restrictions=_restrictions;
 @property(readonly, nonatomic) unsigned long long roadsZoomLevel;
-@property(copy, nonatomic) CDUnknownBlockType tileErrorHandler; // @synthesize tileErrorHandler=_tileErrorHandler;
-@property(readonly, nonatomic) unsigned long long transitZoomLevel;
-@property(nonatomic) _Bool useMapMatchingTilesetForRoads; // @synthesize useMapMatchingTilesetForRoads=_useMapMatchingTilesetForRoads;
-@property(nonatomic) unsigned int zoomLevel;
 
 @end
 

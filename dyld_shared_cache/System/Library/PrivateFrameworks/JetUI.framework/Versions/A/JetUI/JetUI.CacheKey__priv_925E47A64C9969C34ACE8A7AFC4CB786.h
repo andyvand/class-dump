@@ -7,10 +7,9 @@
 @interface JetUI.CacheKey__priv_925E47A64C9969C34ACE8A7AFC4CB786
 {
     id useCase;
-    id traitCollection;
 }
 
-- (id);
+- (id)tconnect;
 - (long long);
 - (_Bool);
 - (void);

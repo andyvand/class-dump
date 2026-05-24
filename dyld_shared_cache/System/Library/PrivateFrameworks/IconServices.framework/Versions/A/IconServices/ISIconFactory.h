@@ -11,11 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_privacyUserReadEntitled;
++ (id)_memoryWarningSource;
++ (id)_memoryWarningInProgress;
++ (id)_languageHighConfidence;
++ (id)H';
+- (id)13y'F;
 - (id);
 - (id);
 - (id);
@@ -28,11 +29,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_finderSetObject:(struct _LSBinding *)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

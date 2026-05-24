@@ -7,11 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBCoreSpotlightShareItem
+- (NSString *)expungeAssetCollections: /* Error: Ran out of types for this method. */;
+- (NSData *)PHImportAssetMetadataRequest;
+- (id);
+- (void)C;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *shareProviderTypeIdentifier;
 @end
 

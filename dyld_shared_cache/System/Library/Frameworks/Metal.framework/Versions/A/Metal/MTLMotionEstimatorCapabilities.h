@@ -13,16 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long macroBlockHeight; // @dynamic macroBlockHeight;
-@property(readonly, nonatomic) unsigned long long macroBlockWidth; // @dynamic macroBlockWidth;
-@property(readonly, nonatomic) unsigned long long maxTextureHeight; // @dynamic maxTextureHeight;
-@property(readonly, nonatomic) unsigned long long maxTextureWidth; // @dynamic maxTextureWidth;
-@property(readonly, nonatomic) unsigned long long minTextureHeight; // @dynamic minTextureHeight;
 @property(readonly, nonatomic) unsigned long long minTextureWidth; // @dynamic minTextureWidth;
-@property(readonly, nonatomic) unsigned long long precisionDenominator; // @dynamic precisionDenominator;
-@property(readonly, nonatomic) unsigned long long precisionNumerator; // @dynamic precisionNumerator;
-@property(readonly, nonatomic) unsigned long long regionHeight; // @dynamic regionHeight;
-@property(readonly, nonatomic) unsigned long long regionWidth; // @dynamic regionWidth;
 
 @end
 

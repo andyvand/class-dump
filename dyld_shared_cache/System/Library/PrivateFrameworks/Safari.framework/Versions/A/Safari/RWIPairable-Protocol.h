@@ -7,10 +7,10 @@
 @protocol RWIPairableDelegate;
 
 @protocol RWIPairable
+- (void)_initWithType:connection:queue: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
 @property(nonatomic) __weak id <RWIPairableDelegate> pairingDelegate;
-@property(readonly, nonatomic) long long pairingState;
 @end
 

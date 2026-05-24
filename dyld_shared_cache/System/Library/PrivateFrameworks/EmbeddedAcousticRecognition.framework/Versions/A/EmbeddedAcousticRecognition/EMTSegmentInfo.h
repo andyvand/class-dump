@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface EMTSegmentInfo
 {
     _Bool _isStable;
-    _Bool _isSourceSideBoundary;
-    NSArray *_sourceTokenIDs;
-    NSArray *_targetTokenIDs;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -33,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isSourceSideBoundary; // @synthesize isSourceSideBoundary=_isSourceSideBoundary;
-@property(nonatomic) _Bool isStable; // @synthesize isStable=_isStable;
 @property(retain, nonatomic) NSArray *sourceTokenIDs; // @synthesize sourceTokenIDs=_sourceTokenIDs;
-@property(retain, nonatomic) NSArray *targetTokenIDs; // @synthesize targetTokenIDs=_targetTokenIDs;
 
 @end
 

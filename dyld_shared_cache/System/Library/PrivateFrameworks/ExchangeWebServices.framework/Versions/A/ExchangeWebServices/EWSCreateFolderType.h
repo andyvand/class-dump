@@ -6,15 +6,14 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSTargetFolderIdType, NSArray;
+@class EWSTargetFolderIdType;
 
 @interface EWSCreateFolderType : EWSBaseRequestType
 {
     EWSTargetFolderIdType *_ParentFolderId;
-    NSArray *_Folders;
 }
 
-+ (id);
++ (id)yA2FGAFGGA4_GGtGQo_;
 - (void);
 - (void);
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *Folders; // @synthesize Folders=_Folders;
 @property(retain, nonatomic) EWSTargetFolderIdType *ParentFolderId; // @synthesize ParentFolderId=_ParentFolderId;
 
 @end

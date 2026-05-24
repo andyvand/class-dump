@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL, SFMessageAttachment;
+@class NSString;
 
 @protocol SFMessageCardSection
+- (void);
+- (NSString *)sessionWithIdentifier:creationBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *audioMessageURL;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFMessageAttachment *messageAttachment;
-@property(nonatomic) int messageServiceType;
-@property(nonatomic) int messageStatus;
-@property(copy, nonatomic) NSString *messageText;
 @property(copy, nonatomic) NSString *type;
 @end
 

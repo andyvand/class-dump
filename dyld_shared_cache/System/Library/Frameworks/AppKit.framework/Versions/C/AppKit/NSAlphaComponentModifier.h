@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSAlphaComponentModifier
 {
     double _alphaComponent;
 }
 
-- (void);
+- (void)rusWithResumeData:(double)arg1 originalRequest: /* Error: Ran out of types for this method. */;
+- (id)t set property on data task with identifier %lu because there is no such task;
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
 - (void)0@ù
 × ;
-- (id);
+- (id)_didFindMatchInRange:(struct _NSZone *)arg1 wrapped:forward: /* Error: Ran out of types for this method. */;
 - (double)ÀTAI;
 
 // Remaining properties
 @property double alphaComponent; // @synthesize alphaComponent=_alphaComponent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

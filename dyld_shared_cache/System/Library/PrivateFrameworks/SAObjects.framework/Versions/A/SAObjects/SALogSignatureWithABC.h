@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SALogSignatureWithABC : SABaseClientBoundCommand
 {
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *subType;
-@property(copy, nonatomic) NSDictionary *subTypeContext;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFECommercePaymentRequest, NFPeerPaymentTransferRequest;
+@class NFECommercePaymentRequest;
 
 @interface NFPeerPaymentRequest
 {
     NFECommercePaymentRequest *_topUpRequest;
-    NFPeerPaymentTransferRequest *_transferRequest;
 }
 
 + (_Bool);
-- (id);
+- (id)IMPORT_CARDS;
 - (id);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NFECommercePaymentRequest *topUpRequest; // @synthesize topUpRequest=_topUpRequest;
-@property(retain, nonatomic) NFPeerPaymentTransferRequest *transferRequest; // @synthesize transferRequest=_transferRequest;
 
 @end
 

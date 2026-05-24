@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GATSchemaGATRequestStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clientTraceId;
-    int _appIntentName;
-    _Bool _isConfirmationPromptSettingEnabled;
-    struct {
-        unsigned int appIntentName:1;
-        unsigned int isConfirmationPromptSettingEnabled:1;
-    } _has;
-    _Bool _hasClientTraceId;
 }
 
 - (void);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)outlineView:isItemExpandable: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,13 +41,7 @@
 - (void)þ`$;
 
 // Remaining properties
-@property(nonatomic) int appIntentName; // @synthesize appIntentName=_appIntentName;
 @property(retain, nonatomic) SISchemaUUID *clientTraceId; // @synthesize clientTraceId=_clientTraceId;
-@property(nonatomic) _Bool hasAppIntentName;
-@property(nonatomic) _Bool hasClientTraceId; // @synthesize hasClientTraceId=_hasClientTraceId;
-@property(nonatomic) _Bool hasIsConfirmationPromptSettingEnabled;
-@property(nonatomic) _Bool isConfirmationPromptSettingEnabled; // @synthesize isConfirmationPromptSettingEnabled=_isConfirmationPromptSettingEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

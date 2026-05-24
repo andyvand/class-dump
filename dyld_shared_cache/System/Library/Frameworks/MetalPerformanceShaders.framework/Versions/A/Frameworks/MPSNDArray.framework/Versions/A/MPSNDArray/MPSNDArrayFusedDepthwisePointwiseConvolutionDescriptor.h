@@ -7,19 +7,6 @@
 @interface MPSNDArrayFusedDepthwisePointwiseConvolutionDescriptor
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _groups;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _channelMultiplier;
-    unsigned int _inputDataFormat;
-    unsigned int _outputDataFormat;
-    unsigned int _depthwiseWeightsFormat;
-    unsigned int _pointwiseWeightsFormat;
 }
 
 - (void);
@@ -52,19 +39,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned int depthwiseWeightsFormat; // @synthesize depthwiseWeightsFormat=_depthwiseWeightsFormat;
-@property(nonatomic) unsigned long long dilationRateInX; // @synthesize dilationRateInX=_dilationRateInX;
-@property(nonatomic) unsigned long long dilationRateInY; // @synthesize dilationRateInY=_dilationRateInY;
-@property(nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(nonatomic) unsigned int inputDataFormat; // @synthesize inputDataFormat=_inputDataFormat;
-@property(nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(nonatomic) unsigned int outputDataFormat; // @synthesize outputDataFormat=_outputDataFormat;
-@property(nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(nonatomic) unsigned int pointwiseWeightsFormat; // @synthesize pointwiseWeightsFormat=_pointwiseWeightsFormat;
-@property(nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
 
 @end
 

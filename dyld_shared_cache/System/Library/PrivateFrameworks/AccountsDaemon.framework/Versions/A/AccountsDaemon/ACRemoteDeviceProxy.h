@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACRemoteCommandHandler, IDSService, NSLock, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class IDSService;
 
 @interface ACRemoteDeviceProxy
 {
     IDSService *_messageSendingService;
-    NSObject<OS_dispatch_queue> *_messageSendingQueue;
-    NSObject<OS_dispatch_queue> *_commandProcessingQueue;
-    ACRemoteCommandHandler *_remoteCommandHandler;
-    NSMutableDictionary *_completionHandlersByInternalMessageID;
-    NSMutableDictionary *_internalMessageIDsByTransportID;
-    NSLock *_completionHandlersLock;
 }
 
 - (void);
@@ -23,23 +16,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

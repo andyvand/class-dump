@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CIVector, NSArray, VNFaceLandmarks2D, VNFaceObservation;
-
 __attribute__((visibility("hidden")))
 @interface RedEyeFace
 {
     int _imageOrientation;
-    float _faceOrientation;
-    float _junkiness;
-    float _areaMax;
-    VNFaceObservation *_observation;
-    VNFaceLandmarks2D *_landmarks;
-    CIImage *_segmentationSkin;
-    CIImage *_segmentationSclera;
-    CIImage *_segmentationIris;
-    NSArray *_uvLeft;
-    NSArray *_uvRight;
-    CIVector *_faceRect;
-    CIVector *_roiRenderOriginLeft;
-    CIVector *_roiRenderOriginRight;
-    CIVector *_roiRenderSize;
-    CIVector *_pupilLeft;
-    CIVector *_pupilRight;
 }
 
 - (id);
@@ -33,6 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,15 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -58,31 +40,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (float);
+- (id)5;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (int)h;
 
 // Remaining properties
-@property(nonatomic) float areaMax; // @synthesize areaMax=_areaMax;
-@property(nonatomic) float faceOrientation; // @synthesize faceOrientation=_faceOrientation;
-@property(retain, nonatomic) CIVector *faceRect; // @synthesize faceRect=_faceRect;
 @property(nonatomic) int imageOrientation; // @synthesize imageOrientation=_imageOrientation;
-@property(nonatomic) float junkiness; // @synthesize junkiness=_junkiness;
-@property(retain, nonatomic) VNFaceLandmarks2D *landmarks; // @synthesize landmarks=_landmarks;
-@property(retain, nonatomic) VNFaceObservation *observation; // @synthesize observation=_observation;
-@property(retain, nonatomic) CIVector *pupilLeft; // @synthesize pupilLeft=_pupilLeft;
-@property(retain, nonatomic) CIVector *pupilRight; // @synthesize pupilRight=_pupilRight;
-@property(retain, nonatomic) CIVector *roiRenderOriginLeft; // @synthesize roiRenderOriginLeft=_roiRenderOriginLeft;
-@property(retain, nonatomic) CIVector *roiRenderOriginRight; // @synthesize roiRenderOriginRight=_roiRenderOriginRight;
-@property(retain, nonatomic) CIVector *roiRenderSize; // @synthesize roiRenderSize=_roiRenderSize;
-@property(retain, nonatomic) CIImage *segmentationIris; // @synthesize segmentationIris=_segmentationIris;
-@property(retain, nonatomic) CIImage *segmentationSclera; // @synthesize segmentationSclera=_segmentationSclera;
-@property(retain, nonatomic) CIImage *segmentationSkin; // @synthesize segmentationSkin=_segmentationSkin;
-@property(retain, nonatomic) NSArray *uvLeft; // @synthesize uvLeft=_uvLeft;
-@property(retain, nonatomic) NSArray *uvRight; // @synthesize uvRight=_uvRight;
 
 @end
 

@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface HAPSupportedCharacteristicValueTransitionConfiguration
 {
     NSMutableArray *_transitions;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)maxAllowedAudioSamples;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void)uest"24@"<HAP2AccessoryServerPairingDriverDelegate>"32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *transitions; // @synthesize transitions=_transitions;
 
 @end

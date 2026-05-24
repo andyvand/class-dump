@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ASAccountAuthenticationModificationControllerDelegate, ASAccountAuthenticationModificationControllerPresentationContextProviding;
+@protocol ASAccountAuthenticationModificationControllerDelegate;
 
 @interface ASAccountAuthenticationModificationController
 {
     id <ASAccountAuthenticationModificationControllerDelegate> _delegate;
-    id <ASAccountAuthenticationModificationControllerPresentationContextProviding> _presentationContextProvider;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ASAccountAuthenticationModificationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak id <ASAccountAuthenticationModificationControllerPresentationContextProviding> presentationContextProvider; // @synthesize presentationContextProvider=_presentationContextProvider;
 
 @end
 

@@ -6,39 +6,27 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSString;
+@class NSString;
 
 @interface IMAutomaticTranslationIndicatorChatItem : IMTranscriptChatItem
 {
     _Bool _isShowingTranslationText;
-    NSString *_translationLanguageCode;
-    NSString *_userTranslationLanguageCode;
-    NSString *_incomingLanguageCode;
-    IMHandle *_senderHandle;
-    long long _translationLanguageStatus;
-    long long _userTranslationLanguageStatus;
 }
 
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (long long)imestamp=%d dtx=%{bool}d sequenceNumber=%hu decodedCount=%d samples=%d decodedSamples=%d;
+- (id)%s] %s:%d requiredTimestamp=%d selectedTimestamp=%d dtx=%{bool}d sequenceNumber=%hu decodedCount=%d samples=%d decodedSamples=%d /* Error: Ran out of types for this method. */;
+- (long long)packets during 5 seconds = %f, missing = %d, total = %d, average = %f [max interarrival = %f, average jitter size = %f, average interarrival = %f];
+- (id)layer [%s] %s:%d Fraction of missing packets during 5 seconds = %f, missing = %d, total = %d, average = %f [max interarrival = %f, average jitter size = %f, average interarrival = %f] /* Error: Ran out of types for this method. */;
+- (void)te=%d;
+- (void)d internal bundle factor;
+- (_Bool)essage. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (id)NULL for socket %d with getpeername errno %d;
+- (id)e key frame. RTT:(id)arg1 %.3f timeDelta:(id)arg2 %.3f timeToNextKeyFrame:(id)arg3 %.3f;
+- (id);
 - (void)8PÿÿÈÿÿì]ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *incomingLanguageCode; // @synthesize incomingLanguageCode=_incomingLanguageCode;
-@property(readonly, nonatomic) _Bool isShowingTranslationText; // @synthesize isShowingTranslationText=_isShowingTranslationText;
-@property(readonly, nonatomic) IMHandle *senderHandle; // @synthesize senderHandle=_senderHandle;
 @property(readonly, nonatomic) NSString *translationLanguageCode; // @synthesize translationLanguageCode=_translationLanguageCode;
-@property(nonatomic) long long translationLanguageStatus; // @synthesize translationLanguageStatus=_translationLanguageStatus;
-@property(readonly, nonatomic) NSString *userTranslationLanguageCode; // @synthesize userTranslationLanguageCode=_userTranslationLanguageCode;
-@property(nonatomic) long long userTranslationLanguageStatus; // @synthesize userTranslationLanguageStatus=_userTranslationLanguageStatus;
 
 @end
 

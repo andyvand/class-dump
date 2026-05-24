@@ -7,31 +7,25 @@
 @interface AXEHIDEvent
 {
     unsigned long long _type;
-    unsigned long long _buttonNumber;
-    double _deltaX;
-    double _deltaY;
-    struct CGPoint _location;
 }
 
 - (void);
+- (void)3;
 - (void);
-- (void);
-- (double);
-- (double);
+- (double)J;
+- (double),
+
+*;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (struct CGPoint);
+- (void)_passDescriptions;
+- (struct CGPoint)qj;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long buttonNumber; // @synthesize buttonNumber=_buttonNumber;
-@property(nonatomic) double deltaX; // @synthesize deltaX=_deltaX;
-@property(nonatomic) double deltaY; // @synthesize deltaY=_deltaY;
-@property(nonatomic) struct CGPoint location; // @synthesize location=_location;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

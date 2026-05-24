@@ -74,29 +74,14 @@ struct cfil_crypto_state {
     unsigned char _field2[32];
 };
 
-struct interpose_frame {
-    unsigned char ring_id;
-    char *buffer;
-    unsigned int bufferLength;
-    unsigned long long packet;
-    struct __user_buflet *buflet;
-};
-
-struct nw_frame;
-
-struct nw_frame_array_s {
-    struct nw_frame *tqh_first;
-    struct nw_frame **tqh_last;
-};
-
 struct nw_protocol {
-    unsigned char flow_id[16];
-    struct nw_protocol_identifier *identifier;
-    struct nw_protocol_callbacks *callbacks;
-    struct nw_protocol *output_handler;
-    void *handle;
-    struct nw_protocol *default_input_handler;
-    void *output_handler_context;
+    unsigned char _field1[16];
+    struct nw_protocol_identifier *_field2;
+    struct nw_protocol_callbacks *_field3;
+    struct nw_protocol *_field4;
+    void *_field5;
+    struct nw_protocol *_field6;
+    void *_field7;
 };
 
 struct nw_protocol_callbacks;
@@ -112,38 +97,4 @@ struct os_unfair_lock_s {
 typedef struct {
     unsigned int _field1[8];
 } CDStruct_6ad76789;
-
-typedef struct {
-    unsigned int ctx[96];
-} CDStruct_43cfb2c2;
-
-typedef struct {
-    struct {
-        unsigned int state[16];
-        unsigned char buffer[64];
-        unsigned long long leftover;
-    } chacha20_ctx;
-    struct {
-        unsigned int r0;
-        unsigned int r1;
-        unsigned int r2;
-        unsigned int r3;
-        unsigned int r4;
-        unsigned int s1;
-        unsigned int s2;
-        unsigned int s3;
-        unsigned int s4;
-        unsigned int h0;
-        unsigned int h1;
-        unsigned int h2;
-        unsigned int h3;
-        unsigned int h4;
-        unsigned char buf[16];
-        unsigned long long buf_used;
-        unsigned char key[16];
-    } poly1305_ctx;
-    unsigned long long aad_nbytes;
-    unsigned long long text_nbytes;
-    unsigned char state;
-} CDStruct_8d151e63;
 

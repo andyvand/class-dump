@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover, NSString;
-@protocol NSPopoverDelegate;
+@class NSString;
 
 @interface PXTipsHelper_Swift
 {
     void presentedTipID;
-    void tipPopover;
-    void tipPopoverDelegate;
 }
 
 + (void);
@@ -29,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -37,8 +34,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *presentedTipID;
-@property(nonatomic) __weak NSPopover *tipPopover; // @synthesize tipPopover;
-@property(nonatomic) __weak id <NSPopoverDelegate> tipPopoverDelegate; // @synthesize tipPopoverDelegate;
 
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString, NSURL;
+@class NSString;
 
 @interface WBSTemplateIconCacheRecord
 {
     _Bool _canSaveToDisk;
-    NSString *_host;
-    NSURL *_templateIconURL;
-    NSColor *_themeColor;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)BSWebExtensionNewTabOverridePreferencesManager",R,N,V_tabOverridePreferencesManager;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canSaveToDisk; // @synthesize canSaveToDisk=_canSaveToDisk;
 @property(readonly, copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(readonly, copy, nonatomic) NSURL *templateIconURL; // @synthesize templateIconURL=_templateIconURL;
-@property(readonly, nonatomic) NSColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end
 

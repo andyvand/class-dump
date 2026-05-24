@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAsset, CKConcretePackage, CKDCancelTokenGroup, CKDMMCSRequestOptions, CKDProgressTracker, NSArray, NSError, NSIndexSet, NSObject;
-@protocol OS_dispatch_group;
+@class NSError;
 
 @interface CKPackageDownloadTask
 {
     NSError *_error;
-    CKConcretePackage *_package;
-    CKAsset *_manifestAsset;
-    NSArray *_sectionAssets;
-    NSIndexSet *_sectionIndices;
-    CKDProgressTracker *_progressTracker;
-    CKDMMCSRequestOptions *_MMCSRequestOptions;
-    NSObject<OS_dispatch_group> *_group;
-    CKDCancelTokenGroup *_cancelTokens;
 }
 
 - (void);
@@ -25,32 +16,24 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
+- (id)completionStatus;
+- (void);
+- (void);
+- (void)nrDisableStatusChanged:(id)arg1 status: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)tHasSemantics: /* Error: Ran out of types for this method. */;
+- (id)setHasSemantics: /* Error: Ran out of types for this method. */;
 - (void)¼:p;Ì<ä= /* Error: Ran out of types for this method. */;
 - (void)ping;
 - (id)%@:%@ /* Error: Ran out of types for this method. */;
 - (id)mpleted fetch record with error %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCSRequestOptions *MMCSRequestOptions; // @synthesize MMCSRequestOptions=_MMCSRequestOptions;
-@property(retain, nonatomic) CKDCancelTokenGroup *cancelTokens; // @synthesize cancelTokens=_cancelTokens;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(retain, nonatomic) CKAsset *manifestAsset; // @synthesize manifestAsset=_manifestAsset;
-@property(readonly, nonatomic) CKConcretePackage *package; // @synthesize package=_package;
-@property(retain, nonatomic) CKDProgressTracker *progressTracker; // @synthesize progressTracker=_progressTracker;
-@property(retain, nonatomic) NSArray *sectionAssets; // @synthesize sectionAssets=_sectionAssets;
-@property(retain, nonatomic) NSIndexSet *sectionIndices; // @synthesize sectionIndices=_sectionIndices;
 
 @end
 

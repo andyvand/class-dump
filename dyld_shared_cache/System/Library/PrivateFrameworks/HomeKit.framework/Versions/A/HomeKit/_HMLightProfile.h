@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(readonly) HMLightProfile *lightProfile;
-@property(retain) HMLightProfileSettings *settings; // @synthesize settings=_settings;
 
 @end
 

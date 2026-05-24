@@ -11,7 +11,6 @@
 @interface ABCollectionFaceTimeRowView : ABCardCollectionRowView
 {
     ABCommunicationButtonsController *_buttonsController;
-    NSArray *_facetimeRowViewConstraints;
 }
 
 - (void);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ABCommunicationButtonsController *buttonsController; // @synthesize buttonsController=_buttonsController;
 @property(retain, nonatomic) NSArray *facetimeRowViewConstraints; // @synthesize facetimeRowViewConstraints=_facetimeRowViewConstraints;
 
 @end

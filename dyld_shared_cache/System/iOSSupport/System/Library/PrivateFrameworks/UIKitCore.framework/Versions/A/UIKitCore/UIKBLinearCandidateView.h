@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
+- (void)urrent service is %@;
+- (void)domain %@ on chat with guid %@. The current service is %@;
 
 @end
 

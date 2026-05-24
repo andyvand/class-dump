@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _NSTextFormattingViewControllerConfiguration
 {
     void groups;
-    void __formattingStyles;
-    unsigned long long _controlSize;
-    _Bool _useVerticalLayout;
-    _Bool _useCenterAlignment;
-    _Bool _useAdditionalSpacingBetweenGroups;
-    _Bool isInspectorBarView;
 }
 
 + (_Bool);
@@ -22,38 +14,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�b;
+- (void)^{__CFBoolean=}40@0:(_Bool)arg1 8@16c24@28c36;
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)Rp;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned long long)_responseEndTime;
+- (void)_negotiatedTLSCipherSuite;
+- (id)ext;
+- (id);
+- (id);
 - (_Bool);
-- (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id)utedValueText:(void *)arg1;
+- (id)initWithAttributedValueText:(void *)arg1;
 - (void)Export\U2026;
 - (id)a deprecated private method -[%@ %@] detected.;
 
 // Remaining properties
-@property(nonatomic) unsigned long long _controlSize; // @synthesize _controlSize;
-@property(nonatomic, readonly) _Bool _hasAvailableComponents;
 @property(nonatomic) _Bool _isInspectorBarView;
-@property(nonatomic) _Bool _useAdditionalSpacingBetweenGroups; // @synthesize _useAdditionalSpacingBetweenGroups;
-@property(nonatomic) _Bool _useCenterAlignment; // @synthesize _useCenterAlignment;
-@property(nonatomic) _Bool _useVerticalLayout; // @synthesize _useVerticalLayout;
-@property(nonatomic, copy) NSArray *formattingStyles;
-@property(nonatomic, readonly) NSArray *groups;
-@property(nonatomic) _Bool isInspectorBarView; // @synthesize isInspectorBarView;
 
 @end
 

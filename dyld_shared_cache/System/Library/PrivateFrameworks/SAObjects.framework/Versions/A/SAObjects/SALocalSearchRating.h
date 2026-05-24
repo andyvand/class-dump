@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SALocalSearchRating : AceObject
 {
 }
@@ -16,7 +14,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)cost-map;
 - (double);
 - (void);
 - (id);
@@ -27,16 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxValue;
-@property(copy, nonatomic) NSString *providerId;
-@property(readonly) Class superclass;
-@property(nonatomic) double value;
 
 @end
 

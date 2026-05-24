@@ -9,8 +9,6 @@
 @interface IKNStatusView
 {
     IKStatusLayer *_status;
-    _Bool _updateStatusTextAfterMovingToWindow;
-    id _delegate;
 }
 
 - (void);
@@ -19,20 +17,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)v32@0:(struct CGSize)arg1 8@"NSNumber"16@?<v@?@"NSArray"@"NSError">24;
 - (void);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void)Size=dd}}16@0:(id)arg1 8;
 - (void)ÿrhÝ;
 
 // Remaining properties
-@property _Bool canCancel;
-@property id delegate; // @synthesize delegate=_delegate;
-@property double progress;
 @property(copy) NSString *statusText;
 
 @end

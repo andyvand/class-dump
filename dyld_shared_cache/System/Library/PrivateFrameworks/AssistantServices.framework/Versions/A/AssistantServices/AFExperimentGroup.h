@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AFExperimentGroup
 {
     NSString *_identifier;
-    unsigned long long _allocation;
-    NSDictionary *_properties;
 }
 
 + (id);
 + (_Bool);
+- (id)setInsetsSeparatorByTextOffset:(CDUnknownBlockType)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)Session %{public}hd:Processing shippingContactSelected /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)y;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)0	;
 - (id);
 - (void)re;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allocation; // @synthesize allocation=_allocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly) Class superclass;
 
 @end
 

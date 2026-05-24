@@ -6,24 +6,22 @@
 
 #import <UIKitCore/UITableViewCell.h>
 
-@class UIImageView, UILabel, UIView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiSplitCategoryCell : UITableViewCell
 {
     UIImageView *_symbol;
-    UILabel *_title;
-    UIView *_selectedCircle;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
+- (void)Q;
 - (void)V_providedEdges;
 - (id)W,N,V_delegate;
 - (id)er an item in a UITabBarController sidebar while editing, but without an active transaction. Tab model:(long long)arg1 %@;
@@ -31,9 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)¶";
 
 // Remaining properties
-@property(retain, nonatomic) UIView *selectedCircle; // @synthesize selectedCircle=_selectedCircle;
 @property(retain, nonatomic) UIImageView *symbol; // @synthesize symbol=_symbol;
-@property(retain, nonatomic) UILabel *title; // @synthesize title=_title;
 
 @end
 

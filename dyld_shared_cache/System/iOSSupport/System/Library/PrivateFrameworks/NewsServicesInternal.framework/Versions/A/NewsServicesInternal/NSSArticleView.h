@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSArticleInternal, UIImageView, UILabel, UIView;
+@class NSSArticleInternal, UILabel;
 
 @interface NSSArticleView
 {
     NSSArticleInternal *_article;
-    UILabel *_titleLabel;
-    UILabel *_excerptLabel;
-    UIImageView *_thumbnailImageView;
-    UIView *_thumbnailContainerView;
-    UILabel *_publisherLabel;
-    UILabel *_dateLabel;
-    UIImageView *_publisherLogoImageView;
-    struct CGSize _preferredSize;
 }
 
+- (id)RecipeBoxFeedConfigManager;
+- (void)onfigManagerType;
+- (void)OnboardingLandingPageCloseActionHandler;
+- (void)OnboardingLandingPageCloseActionHandler;
 - (id);
-- (void);
-- (void);
-- (void);
+- (double)䛱	FeaturedIssueMagazineFeedGroupEmitter;
 - (id);
-- (double);
-- (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
@@ -37,7 +29,7 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)g";
 - (void);
 - (void);
 - (void);
@@ -49,14 +41,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSArticleInternal *article; // @synthesize article=_article;
-@property(nonatomic) __weak UILabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(nonatomic) __weak UILabel *excerptLabel; // @synthesize excerptLabel=_excerptLabel;
-@property(nonatomic) struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;
-@property(nonatomic) __weak UILabel *publisherLabel; // @synthesize publisherLabel=_publisherLabel;
-@property(nonatomic) __weak UIImageView *publisherLogoImageView; // @synthesize publisherLogoImageView=_publisherLogoImageView;
-@property(nonatomic) __weak UIView *thumbnailContainerView; // @synthesize thumbnailContainerView=_thumbnailContainerView;
-@property(nonatomic) __weak UIImageView *thumbnailImageView; // @synthesize thumbnailImageView=_thumbnailImageView;
 @property(nonatomic) __weak UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

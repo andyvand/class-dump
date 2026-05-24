@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSSet, NSString, TDNamedElement, TDRenditionKeySpec, TDRenditionType, TDSchemaPartDefinition, TDThemeConstant;
+@class TDRenditionKeySpec;
 
 @interface TDElementProduction
 {
@@ -17,18 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TDRenditionKeySpec *baseKeySpec; // @dynamic baseKeySpec;
-@property(retain, nonatomic) NSString *comment; // @dynamic comment;
-@property(retain, nonatomic) NSDate *dateOfLastChange; // @dynamic dateOfLastChange;
-@property(retain, nonatomic) NSNumber *isExcludedFromFilter; // @dynamic isExcludedFromFilter;
-@property(nonatomic) _Bool makeOpaqueIfPossible; // @dynamic makeOpaqueIfPossible;
-@property(retain, nonatomic) TDNamedElement *name; // @dynamic name;
-@property(retain, nonatomic) TDSchemaPartDefinition *partDefinition; // @dynamic partDefinition;
-@property(retain, nonatomic) TDThemeConstant *renditionSubtype; // @dynamic renditionSubtype;
-@property(retain, nonatomic) TDRenditionType *renditionType; // @dynamic renditionType;
-@property(retain, nonatomic) NSSet *renditions; // @dynamic renditions;
-@property(retain, nonatomic) NSSet *tags; // @dynamic tags;
-@property(retain, nonatomic) NSString *universalTypeIdentifier; // @dynamic universalTypeIdentifier;
-@property(retain, nonatomic) TDThemeConstant *zeroCodeArtworkInfo; // @dynamic zeroCodeArtworkInfo;
 
 @end
 

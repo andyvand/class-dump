@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface _NURenderResource
 {
     _Bool _inUse;
-    id _object;
-    NSString *_key;
-    unsigned long long _sid;
-    NSDate *_lastUseTime;
-    unsigned long long _useCount;
 }
 
 - (id);
@@ -32,12 +25,7 @@
 - (unsigned long long)bp;
 
 // Remaining properties
-@property(nonatomic) _Bool inUse; // @synthesize inUse=_inUse;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSDate *lastUseTime; // @synthesize lastUseTime=_lastUseTime;
 @property(readonly, nonatomic) id object; // @synthesize object=_object;
-@property(readonly, nonatomic) unsigned long long sid; // @synthesize sid=_sid;
-@property(nonatomic) unsigned long long useCount; // @synthesize useCount=_useCount;
 
 @end
 

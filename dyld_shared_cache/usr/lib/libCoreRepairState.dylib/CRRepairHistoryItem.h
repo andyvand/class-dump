@@ -10,31 +10,25 @@
 {
     _Bool _isRepaired;
     _Bool _isUsed;
-    int _componentType;
-    NSString *_componentName;
-    NSString *_repairDate;
 }
 
-- (void);
-- (void);
+- (void)q+;
+- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)[$];
 - (void);
-- (void);
-- (id);
-- (int);
+- (id);
+- (int)hashed_msg;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)8;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
 @property(nonatomic) int componentType; // @synthesize componentType=_componentType;
-@property(nonatomic) _Bool isRepaired; // @synthesize isRepaired=_isRepaired;
-@property(nonatomic) _Bool isUsed; // @synthesize isUsed=_isUsed;
-@property(retain, nonatomic) NSString *repairDate; // @synthesize repairDate=_repairDate;
 
 @end
 

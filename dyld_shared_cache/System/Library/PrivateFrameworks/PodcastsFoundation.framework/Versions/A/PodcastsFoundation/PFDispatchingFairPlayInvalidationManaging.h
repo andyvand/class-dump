@@ -7,11 +7,10 @@
 @interface PFDispatchingFairPlayInvalidationManaging
 {
     id responseQueue;
-    id wrappedInstance;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

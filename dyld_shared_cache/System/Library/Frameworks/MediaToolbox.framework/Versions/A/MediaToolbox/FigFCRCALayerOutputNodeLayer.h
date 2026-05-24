@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)$p;
 - (void);
 - (void);
 - (void);
@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id)eClosedCaptionLocation_XKey;
+- (id)QuickTimeClosedCaptionLocation_XKey;
 
 @end
 

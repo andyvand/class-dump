@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSString, NSTimeZone;
+@class NSDate;
 
 @interface PFMetadataBuilder
 {
     NSDate *_creationDate;
-    NSTimeZone *_creationTimeZone;
-    NSString *_caption;
-    NSString *_title;
-    NSArray *_keywords;
-    NSString *_accessibilityDescription;
-    NSArray *_peopleNames;
-    CLLocation *_location;
 }
 
 - (void);
@@ -24,12 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (id);
 - (void);
@@ -41,21 +34,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(copy, nonatomic) NSString *caption; // @synthesize caption=_caption;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSTimeZone *creationTimeZone; // @synthesize creationTimeZone=_creationTimeZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *keywords; // @synthesize keywords=_keywords;
-@property(copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSArray *peopleNames; // @synthesize peopleNames=_peopleNames;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

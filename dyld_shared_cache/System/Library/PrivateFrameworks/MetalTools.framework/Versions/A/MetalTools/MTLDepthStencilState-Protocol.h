@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
 
 @protocol MTLDepthStencilState
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
 @end
 

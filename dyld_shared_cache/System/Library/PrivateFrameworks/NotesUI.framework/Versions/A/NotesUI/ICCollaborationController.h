@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCollaborationAnalyticsTracker, ICSelectorDelayer, NSMutableDictionary;
-@protocol ICCollaborationAnalyticsDelegate, ICCollaborationControllerDelegate;
+@class ICCollaborationAnalyticsTracker;
 
 @interface ICCollaborationController
 {
     _Bool _isDaemonProcess;
-    id <ICCollaborationControllerDelegate> _collaborationControllerDelegate;
-    id <ICCollaborationAnalyticsDelegate> _collaborationAnalyticsDelegate;
-    ICCollaborationAnalyticsTracker *_collaborationAnalyticsTracker;
-    ICSelectorDelayer *_updateSharesDelayer;
-    NSMutableDictionary *_ckShareIDToRootRecordID;
 }
 
-+ (id);
-+ (void);
++ (id);
++ (void);
 + (void);
 + (_Bool);
 + (long long);
@@ -28,8 +22,8 @@
 + (id);
 + (void);
 + (id);
-+ (void);
-+ (void);
++ (void)B;
++ (void);
 + (id);
 + (id);
 + (void);
@@ -39,6 +33,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,18 +43,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -67,23 +61,18 @@
 - (id);
 - (void);
 - (id);
+- (void)RECOMMENDATION_TEXT_MULTIPLE;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
-- (void)Ls;
+- (void)_delayLoadingURLs;
 - (id)´½àÿ%Þ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *ckShareIDToRootRecordID; // @synthesize ckShareIDToRootRecordID=_ckShareIDToRootRecordID;
-@property(nonatomic) __weak id <ICCollaborationAnalyticsDelegate> collaborationAnalyticsDelegate; // @synthesize collaborationAnalyticsDelegate=_collaborationAnalyticsDelegate;
 @property(retain, nonatomic) ICCollaborationAnalyticsTracker *collaborationAnalyticsTracker; // @synthesize collaborationAnalyticsTracker=_collaborationAnalyticsTracker;
-@property(nonatomic) __weak id <ICCollaborationControllerDelegate> collaborationControllerDelegate; // @synthesize collaborationControllerDelegate=_collaborationControllerDelegate;
-@property(nonatomic) _Bool isDaemonProcess; // @synthesize isDaemonProcess=_isDaemonProcess;
-@property(readonly, nonatomic) ICSelectorDelayer *updateSharesDelayer; // @synthesize updateSharesDelayer=_updateSharesDelayer;
 
 @end
 

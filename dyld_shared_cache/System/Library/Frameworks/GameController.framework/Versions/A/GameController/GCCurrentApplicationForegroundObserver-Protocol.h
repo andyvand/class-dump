@@ -5,5 +5,6 @@
 //
 
 @protocol GCCurrentApplicationForegroundObserver
+- (void);
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)C;
 + (void);
 + (void);
 + (void);

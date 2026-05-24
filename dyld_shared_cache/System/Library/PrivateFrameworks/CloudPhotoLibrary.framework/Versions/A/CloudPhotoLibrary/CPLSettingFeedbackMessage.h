@@ -11,10 +11,9 @@
 @interface CPLSettingFeedbackMessage : CPLFeedbackMessage
 {
     NSString *_settingName;
-    NSString *_value;
 }
 
-+ (id)es;
++ (id)_ignoreNewBatches;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *settingName; // @synthesize settingName=_settingName;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

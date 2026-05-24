@@ -6,27 +6,23 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSArray, NSColor, NSString;
-
 @interface AKHighlightAnnotation : AKAnnotation
 {
     unsigned long long _style;
-    NSColor *_color;
-    NSArray *_quadPoints;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (struct CGRect);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)ove back [by] one character;
+- (void)nnot update announce, user not present;
+- (void)events;
+- (id)due to nil object after decoding start:%@, end:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ATE TABLE album_new (album_pid INTEGER PRIMARY KEY, album TEXT NOT NULL DEFAULT '', sort_album TEXT, album_artist_pid INTEGER NOT NULL DEFAULT 0, representative_item_pid INTEGER NOT NULL DEFAULT 0, grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, user_rating INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, all_compilations INTEGER NOT NULL DEFAULT 0, feed_url TEXT, season_number INTEGER NOT NULL DEFAULT 0, album_year INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0, app_data BLOB, contains_classical_work INTEGER NOT NULL DEFAULT 0);
 - (id);
 - (id);
 - (void);
@@ -36,17 +32,7 @@
 - (void);
 
 // Remaining properties
-@property __weak AKAnnotation *childAnnotation;
-@property(retain) NSColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *quadPoints; // @synthesize quadPoints=_quadPoints;
 @property unsigned long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

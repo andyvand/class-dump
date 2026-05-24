@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @protocol MTLProgramAddressTable
+- (NSArray *);
 
 // Remaining properties
 @property(readonly) NSArray *binaryMappingsEncoderInternal;
-@property(readonly) NSArray *binaryMappingsPerInvocation;
-@property(readonly) NSDictionary *encoderInternalBinaries;
 @end
 

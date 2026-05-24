@@ -12,7 +12,7 @@
     NSObject<FLTelemetryController> *_telemetryController;
 }
 
-- (void);
+- (void)edicateContainsSubstitutionVariables;
 - (void);
 - (void);
 - (id);

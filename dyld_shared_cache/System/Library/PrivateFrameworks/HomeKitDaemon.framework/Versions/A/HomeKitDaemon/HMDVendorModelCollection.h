@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDVendorModelEntry, NSMutableSet;
+@class HMDVendorModelEntry;
 
 __attribute__((visibility("hidden")))
 @interface HMDVendorModelCollection
 {
     HMDVendorModelEntry *_defaultEntry;
-    NSMutableSet *_entries;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
+- (id)[MSPSharedTripCapabilityFetchingServer cleanConnections];
 - (id);
-- (id);
-- (id);
+- (id)PHALocalNotificationInterface;
 - (id);
 - (void);
 - (_Bool);

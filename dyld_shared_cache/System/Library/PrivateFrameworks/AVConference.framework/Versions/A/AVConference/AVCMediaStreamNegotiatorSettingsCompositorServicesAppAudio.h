@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (id)e:bufferOffsetInFrames:outStatus: /* Error: Ran out of types for this method. */;
+- (id)audioUnit:setParameter:scope:element:value:bufferOffsetInFrames:outStatus: /* Error: Ran out of types for this method. */;
 
 @end
 

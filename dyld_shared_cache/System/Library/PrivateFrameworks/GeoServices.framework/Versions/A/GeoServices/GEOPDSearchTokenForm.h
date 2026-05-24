@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchTokenForm
 {
     NSString *_value;
-    int _type;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)owAction",&,N,V_action;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)gBatteryPercentage"b1"has_chargingTime"b1"has_gainedBatteryCharge"b1"has_gainedTravelRange"b1"has_zilchPathIndex"b1};
-- (id)dex;
+- (id)_repeatableSectionIndex;
 - (id)\H;
 - (void)ÿÌ >°gI@;
 

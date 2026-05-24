@@ -5,5 +5,8 @@
 //
 
 @protocol _UIBarButtonItemSearchFieldOwner
+
+@optional
+- (void)v24@0:8@"IMMessageItem"16 /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol IDSInvitationContext
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long contextType;
 @property(readonly, copy, nonatomic) NSString *schemaIdentifier;
 @end
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
-
 @interface SSGameSessionInterval
 {
     _Bool _includeTimelines;
-    _Bool _supportsSEM;
-    NSArray *_triggeringSEMIntervals;
-    NSArray *_triggeringGameModeIntervals;
-    unsigned long long _earliestMCT;
-    unsigned long long _latestMCT;
-    NSDate *_earliestDate;
-    NSDate *_latestDate;
-    double _timebaseRatio;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _startMachContinuousTime;
-    unsigned long long _endMachContinuousTime;
 }
 
 - (id);
@@ -45,7 +31,7 @@
 - (double);
 - (void);
 - (id);
-- (double);
+- (double)*;
 - (float);
 - (unsigned long long);
 - (unsigned long long);
@@ -54,33 +40,14 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *earliestDate; // @synthesize earliestDate=_earliestDate;
 @property(nonatomic) unsigned long long earliestMCT; // @synthesize earliestMCT=_earliestMCT;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) unsigned long long endMachContinuousTime; // @synthesize endMachContinuousTime=_endMachContinuousTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeTimelines; // @synthesize includeTimelines=_includeTimelines;
-@property(retain, nonatomic) NSDate *latestDate; // @synthesize latestDate=_latestDate;
-@property(nonatomic) unsigned long long latestMCT; // @synthesize latestMCT=_latestMCT;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long startMachContinuousTime; // @synthesize startMachContinuousTime=_startMachContinuousTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsSEM; // @synthesize supportsSEM=_supportsSEM;
-@property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
-@property(readonly, nonatomic) NSArray *triggeringGameModeIntervals; // @synthesize triggeringGameModeIntervals=_triggeringGameModeIntervals;
-@property(readonly, nonatomic) NSArray *triggeringSEMIntervals; // @synthesize triggeringSEMIntervals=_triggeringSEMIntervals;
 
 @end
 

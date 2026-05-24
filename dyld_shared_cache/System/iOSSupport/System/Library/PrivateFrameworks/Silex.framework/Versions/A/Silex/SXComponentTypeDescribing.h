@@ -9,26 +9,17 @@
 @interface SXComponentTypeDescribing
 {
     int _role;
-    NSString *_type;
 }
 
 + (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)?;
 - (int);
 - (void)InsertionConditionEngine>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int role; // @synthesize role=_role;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

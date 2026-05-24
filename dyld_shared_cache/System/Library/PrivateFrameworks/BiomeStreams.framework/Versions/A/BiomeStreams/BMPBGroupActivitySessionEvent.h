@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface BMPBGroupActivitySessionEvent
 {
     NSString *_activityId;
-    NSString *_activitySessionId;
-    NSString *_experienceType;
-    NSMutableArray *_memberHandles;
-    NSString *_messagesChatGuid;
-    NSMutableArray *_participantHandles;
-    NSString *_sourceBundleId;
-    _Bool _isActive;
-    struct {
-        unsigned int isActive:1;
-    } _has;
 }
 
 + (Class);
@@ -36,9 +26,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool))!;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -50,36 +40,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)rH;
+- (id)_calendarsExcludingLockedReminder: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (void)initWithAttachment:(id)arg1;
 - (id);
 - (id);
 - (void)\];
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activityId; // @synthesize activityId=_activityId;
-@property(retain, nonatomic) NSString *activitySessionId; // @synthesize activitySessionId=_activitySessionId;
-@property(retain, nonatomic) NSString *experienceType; // @synthesize experienceType=_experienceType;
-@property(readonly, nonatomic) _Bool hasActivityId;
-@property(readonly, nonatomic) _Bool hasActivitySessionId;
-@property(readonly, nonatomic) _Bool hasExperienceType;
 @property(nonatomic) _Bool hasIsActive;
-@property(readonly, nonatomic) _Bool hasMessagesChatGuid;
-@property(readonly, nonatomic) _Bool hasSourceBundleId;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(retain, nonatomic) NSMutableArray *memberHandles; // @synthesize memberHandles=_memberHandles;
-@property(retain, nonatomic) NSString *messagesChatGuid; // @synthesize messagesChatGuid=_messagesChatGuid;
-@property(retain, nonatomic) NSMutableArray *participantHandles; // @synthesize participantHandles=_participantHandles;
-@property(retain, nonatomic) NSString *sourceBundleId; // @synthesize sourceBundleId=_sourceBundleId;
 
 @end
 

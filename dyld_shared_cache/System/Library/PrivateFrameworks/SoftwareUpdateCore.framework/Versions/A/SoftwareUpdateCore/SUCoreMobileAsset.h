@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, MADownloadConfig, MADownloadOptions, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_transaction;
-
 @interface SUCoreMobileAsset
 {
     _Bool _downloadingAsset;
-    _Bool _checkedDownloadState;
-    _Bool _assetDownloaded;
-    _Bool _removingAsset;
-    _Bool _assetRemoved;
-    id _maDelegate;
-    NSString *_updateUUID;
-    MAAsset *_asset;
-    NSString *_documentationStashBuild;
-    MADownloadOptions *_downloadOptions;
-    MADownloadConfig *_currentDownloadConfig;
-    MADownloadConfig *_requestedDownloadConfig;
-    MADownloadConfig *_desiredDownloadConfig;
-    NSObject<OS_dispatch_queue> *_clientDelegateCallbackQueue;
-    NSObject<OS_dispatch_queue> *_clientCompletionQueue;
-    NSObject<OS_dispatch_queue> *_maControlQueue;
-    NSString *_operationName;
-    CDUnknownBlockType _downloadCompletion;
-    CDUnknownBlockType _alterDownloadCompletion;
-    CDUnknownBlockType _removeCompletion;
-    NSObject<OS_os_transaction> *_downloadAssetTransaction;
-    NSObject<OS_os_transaction> *_alterDownloadTransaction;
-    NSObject<OS_os_transaction> *_removeAssetTransaction;
 }
 
 + (void);
@@ -43,7 +18,7 @@
 + (id);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (void);
 - (void);
 - (void);
@@ -76,15 +51,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)A;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
+- (void)Ԇ8F;
 - (void);
 - (void);
 - (void);
@@ -92,8 +68,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -111,7 +86,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_lastSelectedRowInSidebar;
 - (id);
 - (void);
 - (id);
@@ -122,29 +97,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType alterDownloadCompletion; // @synthesize alterDownloadCompletion=_alterDownloadCompletion;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *alterDownloadTransaction; // @synthesize alterDownloadTransaction=_alterDownloadTransaction;
-@property(retain, nonatomic) MAAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool assetDownloaded; // @synthesize assetDownloaded=_assetDownloaded;
-@property(nonatomic) _Bool assetRemoved; // @synthesize assetRemoved=_assetRemoved;
-@property(nonatomic) _Bool checkedDownloadState; // @synthesize checkedDownloadState=_checkedDownloadState;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientCompletionQueue; // @synthesize clientCompletionQueue=_clientCompletionQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientDelegateCallbackQueue; // @synthesize clientDelegateCallbackQueue=_clientDelegateCallbackQueue;
-@property(retain, nonatomic) MADownloadConfig *currentDownloadConfig; // @synthesize currentDownloadConfig=_currentDownloadConfig;
-@property(retain, nonatomic) MADownloadConfig *desiredDownloadConfig; // @synthesize desiredDownloadConfig=_desiredDownloadConfig;
-@property(retain, nonatomic) NSString *documentationStashBuild; // @synthesize documentationStashBuild=_documentationStashBuild;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *downloadAssetTransaction; // @synthesize downloadAssetTransaction=_downloadAssetTransaction;
-@property(copy, nonatomic) CDUnknownBlockType downloadCompletion; // @synthesize downloadCompletion=_downloadCompletion;
-@property(retain, nonatomic) MADownloadOptions *downloadOptions; // @synthesize downloadOptions=_downloadOptions;
-@property(nonatomic) _Bool downloadingAsset; // @synthesize downloadingAsset=_downloadingAsset;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *maControlQueue; // @synthesize maControlQueue=_maControlQueue;
 @property(readonly, nonatomic) __weak id maDelegate; // @synthesize maDelegate=_maDelegate;
-@property(retain, nonatomic) NSString *operationName; // @synthesize operationName=_operationName;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *removeAssetTransaction; // @synthesize removeAssetTransaction=_removeAssetTransaction;
-@property(copy, nonatomic) CDUnknownBlockType removeCompletion; // @synthesize removeCompletion=_removeCompletion;
-@property(nonatomic) _Bool removingAsset; // @synthesize removingAsset=_removingAsset;
-@property(retain, nonatomic) MADownloadConfig *requestedDownloadConfig; // @synthesize requestedDownloadConfig=_requestedDownloadConfig;
-@property(retain, nonatomic) NSString *updateUUID; // @synthesize updateUUID=_updateUUID;
 
 @end
 

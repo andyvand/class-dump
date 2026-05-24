@@ -7,7 +7,6 @@
 @interface WidgetKit._MapStates__priv_7CD9974EBF49E061C9CE4E55605646D3
 {
     id _states;
-    id _host;
 }
 
 @end

@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ABCardViewDelegate;
+
 @protocol ABCardCollectionViewDelegate
 
 @optional
+- (void);
+- (_Bool)c;
+- (_Bool)#;
+- (id <ABCardViewDelegate>)setBezierPath: /* Error: Ran out of types for this method. */;
 - (_Bool)ñª1Â0@ù
 × ;
 @end

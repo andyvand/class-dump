@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id);
+- (void)(;
+- (id)e %@:Original transfer %@ not found for asset %@ /* Error: Ran out of types for this method. */;
+- (double)%@ accepted success %@ error %@ for message %@;
+- (double)erred;
+- (id)CacheDelete with time:%@ and accountValidForCD %@ /* Error: Ran out of types for this method. */;
+- (double)URI__@__local__URI.com;
+- (double)IntentFileSafeRenderArchiveProvider;
 - (double);
 - (double);
-- (id);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (_Bool);

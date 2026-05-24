@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _ICLLAutoPlaySource, _ICLLAvailability, _ICLLNoGenerationSource, _ICLLRadioSource;
+@class _ICLLAutoPlaySource;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLPlaybackControlSettings
 {
     _ICLLAutoPlaySource *_autoPlay;
-    _ICLLAvailability *_availability;
-    _ICLLNoGenerationSource *_noGeneration;
-    _ICLLRadioSource *_radio;
-    int _repeatMode;
-    int _shuffleMode;
-    int _trackGenerationSource;
-    struct {
-        unsigned int repeatMode:1;
-        unsigned int shuffleMode:1;
-        unsigned int trackGenerationSource:1;
-    } _has;
 }
 
 - (id);
@@ -29,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)ateURL;
 
 @end

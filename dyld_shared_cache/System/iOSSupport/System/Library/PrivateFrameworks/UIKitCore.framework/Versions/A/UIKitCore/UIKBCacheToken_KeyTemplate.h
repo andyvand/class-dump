@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)** Timed out creating attachment zone *******;
 - (id);
 
 @end

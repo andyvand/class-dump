@@ -5,33 +5,42 @@
 //
 
 @class NSObject;
-@protocol AnalyticsConfigurationObserverDelegate, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface AnalyticsConfigurationObserver
 {
     struct shared_ptr<(anonymous namespace)::ConfigurationObserverImpl> observer;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <AnalyticsConfigurationObserverDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)esult.g - avg) * saturation);
+       result.b -= ((result.b - avg) * saturation);
+   }
+   return result;
+};
+- (id)rix;
+uniform highp vec2 axis;
+attribute highp vec4 vertex_position;
+attribute lowp vec4 vertex_color;
+attribute highp vec2 vertex_texcoord0, vertex_texcoord1, vertex_texcoord2;
+varying highp vec2 texcoord0;
+void main () {
+  gl_Position = vertex_matrix * vertex_position;
+  texcoord0 = vertex_texcoord0 - 0.5 * axis;
+}
+;
 - (void);
-- (id);
+- (id)K츫;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AnalyticsConfigurationObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

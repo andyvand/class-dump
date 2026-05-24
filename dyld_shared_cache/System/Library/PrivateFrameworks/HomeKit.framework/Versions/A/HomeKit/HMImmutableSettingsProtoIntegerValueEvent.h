@@ -7,7 +7,6 @@
 @interface HMImmutableSettingsProtoIntegerValueEvent
 {
     long long _value;
-    CDStruct_01ef6375 _has;
 }
 
 - (void);
@@ -17,8 +16,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)lacuna;
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) long long value; // @synthesize value=_value;
 
 @end
 

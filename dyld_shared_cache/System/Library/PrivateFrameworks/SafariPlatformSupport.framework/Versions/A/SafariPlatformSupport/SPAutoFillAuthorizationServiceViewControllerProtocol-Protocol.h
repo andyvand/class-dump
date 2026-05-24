@@ -5,5 +5,6 @@
 //
 
 @protocol SPAutoFillAuthorizationServiceViewControllerProtocol
+- (void);
 @end
 

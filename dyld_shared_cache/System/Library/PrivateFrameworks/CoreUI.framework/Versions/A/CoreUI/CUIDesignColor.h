@@ -7,20 +7,16 @@
 @interface CUIDesignColor
 {
     struct CGColor *_cgColor;
-    int _blendMode;
-    long long _displayGamut;
 }
 
-- (void);
+- (void)_;
 - (id);
-- (long long);
-- (int);
-- (struct CGColor *);
+- (long long)preferred push environment synchronously;
+- (int)Created=%lu, totalBytesByChunkProfile=%@, chunkCountByChunkProfile=%@, fileCountByChunkProfile=%@;
+- (struct CGColor *)__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
 @property(readonly, nonatomic) struct CGColor *cgColor; // @synthesize cgColor=_cgColor;
-@property(readonly, nonatomic) long long displayGamut; // @synthesize displayGamut=_displayGamut;
 
 @end
 

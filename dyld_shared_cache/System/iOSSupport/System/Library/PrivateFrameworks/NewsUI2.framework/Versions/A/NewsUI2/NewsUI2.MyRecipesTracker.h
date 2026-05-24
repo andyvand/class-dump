@@ -7,12 +7,6 @@
 @interface NewsUI2.MyRecipesTracker
 {
     id tracker;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id contentAvailabilityValidator;
-    id sectionPositionProvider;
-    id trackerObserver;
-    id dataSource;
 }
 
 @end

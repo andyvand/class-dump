@@ -7,13 +7,6 @@
 @interface NotesShared.SiriSpeechRecognitionManager
 {
     id audioTaskContinuation;
-    id inputSequence;
-    id inputBuilder;
-    id transcriber;
-    id analyzer;
-    id recognizerTask;
-    id converter;
-    id analyzerFormat;
 }
 
 - (id);

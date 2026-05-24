@@ -13,13 +13,13 @@
     NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool)_systemPrefs;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)S;
 
 // Remaining properties
 @property(copy, nonatomic) NSError *error; // @synthesize error=_error;

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DPPrivacyBudget;
-
 @interface _DPDataTypeParameters
 {
     float _localPrivacyBudget;
-    _DPPrivacyBudget *_budget;
 }
 
 + (id);
@@ -21,10 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ng",?,R,C;
 
 // Remaining properties
-@property(readonly, nonatomic) _DPPrivacyBudget *budget; // @synthesize budget=_budget;
 @property(readonly, nonatomic) float localPrivacyBudget; // @synthesize localPrivacyBudget=_localPrivacyBudget;
 
 @end

@@ -9,8 +9,6 @@
 @interface FCObservable
 {
     id _value;
-    NSMutableArray *_observers;
-    unsigned long long _token;
 }
 
 - (void);
@@ -23,14 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (void)tedConditions;
+- (void)trackVisitedConditions;
 - (id)g",R,N,V_articleRecirculationQuaternaryOntologyLevelConfig;
 - (void)ng, FCHeldRecords<NTPBIssueRecord *> *__strong, NSDictionary<NSString *,id<FCChannelProviding>> *__strong);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *observers; // @synthesize observers=_observers;
-@property(nonatomic) unsigned long long token; // @synthesize token=_token;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

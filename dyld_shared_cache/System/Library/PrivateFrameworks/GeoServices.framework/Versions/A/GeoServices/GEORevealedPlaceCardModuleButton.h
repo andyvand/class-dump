@@ -4,40 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORevealedPlaceCardModuleButton
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_classification;
-    NSString *_metadata;
-    NSString *_vendor;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _linkType;
-    int _type;
-    _Bool _isGroup;
-    struct {
-        unsigned int has_linkType:1;
-        unsigned int has_type:1;
-        unsigned int has_isGroup:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_classification:1;
-        unsigned int read_metadata:1;
-        unsigned int read_vendor:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (id);
-+ (_Bool);
++ (id)response;
++ (_Bool)setManeuverNames:(id)arg1;
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)primitivePhoneticLastName;
+- (_Bool)created with no stores;
+- (_Bool)ile detected, will attempt reimporting;
+- (_Bool);
 - (int);
 - (void);
 - (void);
@@ -45,16 +25,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)1;
 - (id);
-- (void);
+- (void)_cleanUpMobileAssetV1Directory;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)orkspace of size %ld.
+;
+- (_Bool)M;
+- (int);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -62,13 +43,13 @@
 - (void);
 - (void);
 - (id)LayerDataServiceLayer";
-- (void)Name:(int)arg1 openNow:openAt: /* Error: Ran out of types for this method. */;
-- (id)ftFunctionResponseForLocation:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
-- (int)etMapRegionTileKeyEnumerator;
-- (id)stanceStringFormatting;
+- (void)initWithDisplayName:(int)arg1 openNow:openAt: /* Error: Ran out of types for this method. */;
+- (id)fetchCachedShiftFunctionResponseForLocation:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (int)_GEOSingleTileSetMapRegionTileKeyEnumerator;
+- (id)_TtC11GeoServices27GEODistanceStringFormatting;
 - (void)only be called once per object;
 - (id)ickLinkActionDataParamsReadAllFrom can only be called once per object;
-- (id)ionArtwork;
+- (id)trafficDescriptionArtwork;
 - (id);
 - (void);
 - (_Bool)¯ ´¸¯´È¯$;
@@ -151,19 +132,7 @@ deprecated (:false
 - (int)Àþì\8ì|3;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *classification;
-@property(readonly, nonatomic) _Bool hasClassification;
-@property(nonatomic) _Bool hasIsGroup;
-@property(nonatomic) _Bool hasLinkType;
-@property(readonly, nonatomic) _Bool hasMetadata;
 @property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasVendor;
-@property(nonatomic) _Bool isGroup;
-@property(nonatomic) int linkType;
-@property(retain, nonatomic) NSString *metadata;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *vendor;
 
 @end
 

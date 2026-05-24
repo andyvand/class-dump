@@ -11,29 +11,14 @@
 @interface BiometricKitCoreAnalyticsLockState : BiometricKitCoreAnalyticsEvent
 {
     NSNumber *_unlockTotal;
-    NSNumber *_biometryUnlockTotal;
-    NSNumber *_remoteUnlockTotal;
-    NSNumber *_remoteUnlockBiometryAvailable;
-    NSNumber *_remoteUnlockBiometryUnavailable;
-    NSNumber *_remoteUnlockBiometryDisabled;
-    NSNumber *_passcodeUnlockTotal;
-    NSNumber *_passcodeUnlockBiometryAvailable;
-    NSNumber *_passcodeUnlockBiometryUnavailable;
-    NSNumber *_passcodeUnlockBiometryDisabled;
-    NSNumber *_passcodeValidatedTotal;
-    NSNumber *_passcodeValidatedBiometryAvailable;
-    NSNumber *_passcodeValidatedBiometryUnavailable;
-    NSNumber *_passcodeAuthenticatedTotal;
-    NSNumber *_passcodeAuthenticatedBiometryAvailable;
-    NSNumber *_passcodeAuthenticatedBiometryUnavailable;
 }
 
 - (_Bool);
 - (id);
+- (void)R/;
+- (void)R.;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -68,26 +53,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *biometryUnlockTotal; // @synthesize biometryUnlockTotal=_biometryUnlockTotal;
-@property(retain, nonatomic) NSNumber *passcodeAuthenticatedBiometryAvailable; // @synthesize passcodeAuthenticatedBiometryAvailable=_passcodeAuthenticatedBiometryAvailable;
-@property(retain, nonatomic) NSNumber *passcodeAuthenticatedBiometryUnavailable; // @synthesize passcodeAuthenticatedBiometryUnavailable=_passcodeAuthenticatedBiometryUnavailable;
-@property(retain, nonatomic) NSNumber *passcodeAuthenticatedTotal; // @synthesize passcodeAuthenticatedTotal=_passcodeAuthenticatedTotal;
-@property(retain, nonatomic) NSNumber *passcodeUnlockBiometryAvailable; // @synthesize passcodeUnlockBiometryAvailable=_passcodeUnlockBiometryAvailable;
-@property(retain, nonatomic) NSNumber *passcodeUnlockBiometryDisabled; // @synthesize passcodeUnlockBiometryDisabled=_passcodeUnlockBiometryDisabled;
-@property(retain, nonatomic) NSNumber *passcodeUnlockBiometryUnavailable; // @synthesize passcodeUnlockBiometryUnavailable=_passcodeUnlockBiometryUnavailable;
-@property(retain, nonatomic) NSNumber *passcodeUnlockTotal; // @synthesize passcodeUnlockTotal=_passcodeUnlockTotal;
-@property(retain, nonatomic) NSNumber *passcodeValidatedBiometryAvailable; // @synthesize passcodeValidatedBiometryAvailable=_passcodeValidatedBiometryAvailable;
-@property(retain, nonatomic) NSNumber *passcodeValidatedBiometryUnavailable; // @synthesize passcodeValidatedBiometryUnavailable=_passcodeValidatedBiometryUnavailable;
-@property(retain, nonatomic) NSNumber *passcodeValidatedTotal; // @synthesize passcodeValidatedTotal=_passcodeValidatedTotal;
-@property(retain, nonatomic) NSNumber *remoteUnlockBiometryAvailable; // @synthesize remoteUnlockBiometryAvailable=_remoteUnlockBiometryAvailable;
-@property(retain, nonatomic) NSNumber *remoteUnlockBiometryDisabled; // @synthesize remoteUnlockBiometryDisabled=_remoteUnlockBiometryDisabled;
-@property(retain, nonatomic) NSNumber *remoteUnlockBiometryUnavailable; // @synthesize remoteUnlockBiometryUnavailable=_remoteUnlockBiometryUnavailable;
-@property(retain, nonatomic) NSNumber *remoteUnlockTotal; // @synthesize remoteUnlockTotal=_remoteUnlockTotal;
 @property(retain, nonatomic) NSNumber *unlockTotal; // @synthesize unlockTotal=_unlockTotal;
 
 @end

@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDefaultDictionary, CalUIDividerView, CalUILabel, EKUIGadget, EKUIGadgetContainerView, EKUIVibrantView, EKViewController, NSArray, NSColor, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSString;
-@protocol EKUILayoutItem;
+@class EKViewController;
 
 @interface EKUIGadgetContainer
 {
     _Bool _doNotPassdownExpandedState;
-    _Bool _ignoresMouseEvents;
-    _Bool _canBecomeKey;
-    _Bool _selectsFirstKeyViewOnClick;
-    _Bool _isTopLevelContainer;
-    _Bool _isExpanded;
-    _Bool _isHovered;
-    _Bool _activeKeyboardHover;
-    _Bool _needsDivider;
-    double _maximumHeightBeforeScrolling;
-    NSString *_accessibilityDescription;
-    EKUIGadgetContainer *_nextContainer;
-    EKUIGadgetContainer *_previousContainer;
-    EKUIGadget *_firstGadget;
-    CDUnknownBlockType _shouldDisplayDividerAboveBlock;
-    CDUnknownBlockType _shouldDisplayDividerBelowBlock;
-    CDUnknownBlockType _shouldDisplayDividerExpandedAboveBlock;
-    NSString *_containerTitle;
-    EKViewController *_viewController;
-    id <EKUILayoutItem> _parentItem;
-    NSString *_uuid;
-    NSMutableOrderedSet *_mutableSubitems;
-    NSMutableOrderedSet *_currentlyDisplayedItems;
-    EKUIGadgetContainerView *_containerView;
-    EKUIVibrantView *_backgroundView;
-    CalUIDividerView *_topDivider;
-    CalUIDividerView *_bottomDivider;
-    NSMutableArray *_dividerViews;
-    NSDictionary *_metrics;
-    NSMutableDictionary *_conditionalMetrics;
-    NSArray *_topConstraints;
-    NSArray *_bottomConstraints;
-    NSArray *_subitemLabelConstraints;
-    CalDefaultDictionary *_spacingOverrides;
-    NSColor *_backgroundColor;
-    CalUILabel *_titleLabel;
 }
 
 + (id);
@@ -56,15 +20,15 @@
 - (void);
 - (void);
 - (void);
+- (id)(;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -74,6 +38,15 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -85,16 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Ƴrf;
 - (void);
 - (void);
 - (void);
@@ -103,14 +67,14 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)q@;
+- (id)*;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -118,33 +82,33 @@
 - (double);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Q?	;
 - (id);
 - (void);
 - (id);
@@ -172,7 +136,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -195,81 +159,37 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (double);
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (double);
 - (id);
+- (_Bool);
+- (void);
 - (id);
+- (id)2DBrailleTextMode;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)q_removeWriteObserver:(id)arg1 andComputeObservedTypes: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__init_offsets;
 - (void);
 - (id)@ù
 × ;
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (id)ouldSuppressAllDay;
-- (void)ventSuggestionGenerator:(id)arg1;
-- (id)dActionOn: /* Error: Ran out of types for this method. */;
+- (id)shouldSuppressAllDay;
+- (void)setEventSuggestionGenerator:(id)arg1;
+- (id)sendActionOn: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(nonatomic) _Bool activeKeyboardHover; // @synthesize activeKeyboardHover=_activeKeyboardHover;
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) EKUIVibrantView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain) NSArray *bottomConstraints; // @synthesize bottomConstraints=_bottomConstraints;
-@property(retain) CalUIDividerView *bottomDivider; // @synthesize bottomDivider=_bottomDivider;
-@property _Bool canBecomeKey; // @synthesize canBecomeKey=_canBecomeKey;
-@property(retain) NSMutableDictionary *conditionalMetrics; // @synthesize conditionalMetrics=_conditionalMetrics;
-@property(retain, nonatomic) NSString *containerTitle; // @synthesize containerTitle=_containerTitle;
-@property(retain) EKUIGadgetContainerView *containerView; // @synthesize containerView=_containerView;
-@property(retain) NSMutableOrderedSet *currentlyDisplayedItems; // @synthesize currentlyDisplayedItems=_currentlyDisplayedItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableArray *dividerViews; // @synthesize dividerViews=_dividerViews;
-@property _Bool doNotPassdownExpandedState; // @synthesize doNotPassdownExpandedState=_doNotPassdownExpandedState;
-@property __weak EKUIGadget *firstGadget; // @synthesize firstGadget=_firstGadget;
-@property(readonly) _Bool hasKeyboardFocus;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoresMouseEvents; // @synthesize ignoresMouseEvents=_ignoresMouseEvents;
-@property(readonly) _Bool isAnimating;
-@property _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property _Bool isTopLevelContainer; // @synthesize isTopLevelContainer=_isTopLevelContainer;
-@property double maximumHeightBeforeScrolling; // @synthesize maximumHeightBeforeScrolling=_maximumHeightBeforeScrolling;
-@property(retain) NSDictionary *metrics; // @synthesize metrics=_metrics;
-@property(retain) NSMutableOrderedSet *mutableSubitems; // @synthesize mutableSubitems=_mutableSubitems;
-@property _Bool needsDivider; // @synthesize needsDivider=_needsDivider;
-@property __weak EKUIGadgetContainer *nextContainer; // @synthesize nextContainer=_nextContainer;
-@property __weak id <EKUILayoutItem> parentItem; // @synthesize parentItem=_parentItem;
-@property __weak EKUIGadgetContainer *previousContainer; // @synthesize previousContainer=_previousContainer;
-@property _Bool selectsFirstKeyViewOnClick; // @synthesize selectsFirstKeyViewOnClick=_selectsFirstKeyViewOnClick;
-@property(copy) CDUnknownBlockType shouldDisplayDividerAboveBlock; // @synthesize shouldDisplayDividerAboveBlock=_shouldDisplayDividerAboveBlock;
-@property(copy) CDUnknownBlockType shouldDisplayDividerBelowBlock; // @synthesize shouldDisplayDividerBelowBlock=_shouldDisplayDividerBelowBlock;
-@property(copy) CDUnknownBlockType shouldDisplayDividerExpandedAboveBlock; // @synthesize shouldDisplayDividerExpandedAboveBlock=_shouldDisplayDividerExpandedAboveBlock;
-@property(retain) CalDefaultDictionary *spacingOverrides; // @synthesize spacingOverrides=_spacingOverrides;
-@property(retain) NSArray *subitemLabelConstraints; // @synthesize subitemLabelConstraints=_subitemLabelConstraints;
-@property(readonly) Class superclass;
-@property(retain) CalUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain) NSArray *topConstraints; // @synthesize topConstraints=_topConstraints;
-@property(retain) CalUIDividerView *topDivider; // @synthesize topDivider=_topDivider;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
 @property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

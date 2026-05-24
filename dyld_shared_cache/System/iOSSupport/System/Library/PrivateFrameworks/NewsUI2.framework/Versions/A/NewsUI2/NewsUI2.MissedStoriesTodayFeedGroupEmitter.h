@@ -7,15 +7,6 @@
 @interface NewsUI2.MissedStoriesTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id paidAccessChecker;
-    id personalizationService;
-    id headlineService;
-    id feedPersonalizer;
-    id cloudContext;
-    id sportsGraphManager;
-    id name;
 }
 
 @end

@@ -11,11 +11,11 @@
     UIColor *_circleColor;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (void)VisibleSecond: /* Error: Ran out of types for this method. */;
+- (id)beginSyncWithAnchor:(struct CGRect)arg1 validity:count:forKey:beginInfo: /* Error: Ran out of types for this method. */;
+- (void)setStartingFirstVisibleSecond: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *circleColor; // @synthesize circleColor=_circleColor;

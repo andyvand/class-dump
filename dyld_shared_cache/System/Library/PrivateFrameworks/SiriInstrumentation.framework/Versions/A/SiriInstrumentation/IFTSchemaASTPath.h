@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaASTPath : SISchemaInstrumentationMessage
 {
     NSString *_parameterName;
-    long long _collectionIndex;
-    CDStruct_451675ec _has;
-    _Bool _hasParameterName;
 }
 
 - (void);
@@ -31,17 +28,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)showShareMyLocationSystemServiceOffAlert;
 - (id);
 - (id)chemaPLUSClientEvent",&,N,V_plusClientEvent;
 - (id)¥;
 - (void)l	Ìÿ;
 
 // Remaining properties
-@property(nonatomic) long long collectionIndex; // @synthesize collectionIndex=_collectionIndex;
-@property(nonatomic) _Bool hasCollectionIndex;
-@property(nonatomic) _Bool hasParameterName; // @synthesize hasParameterName=_hasParameterName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *parameterName; // @synthesize parameterName=_parameterName;
 
 @end

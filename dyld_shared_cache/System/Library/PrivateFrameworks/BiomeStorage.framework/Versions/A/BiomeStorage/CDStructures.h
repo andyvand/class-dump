@@ -17,29 +17,28 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    CDUnion_8e3af0ea ;
+    unsigned int _field1;
+    unsigned int _field2;
+} CDStruct_c0454aff;
+
+typedef struct {
+    CDUnion_698d0922 _field1;
     struct {
-        double creationTimestamp;
-        double modifiedTimestamp;
-        unsigned int checksum;
-        unsigned int dataVersion;
-    } otherInfo;
-} CDStruct_73a58082;
+        double _field1;
+        double _field2;
+        unsigned int _field3;
+        unsigned int _field4;
+    } _field2;
+} CDStruct_b3659498;
 
 typedef struct {
     union {
         struct {
-            CDUnion_8e3af0ea _field1;
+            CDUnion_698d0922 _field1;
             double _field2;
         } _field1;
     } _field1;
-} CDStruct_4b6ff52f;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int _field1;
-    unsigned int _field2;
-} CDStruct_c0454aff;
+} CDStruct_155a8949;
 
 #pragma mark Typedef'd Unions
 
@@ -49,12 +48,9 @@ typedef union {
 } CDUnion_6ffe0e54;
 
 typedef union {
-    struct {
-        unsigned int size;
-        unsigned int state;
-    } frameStatus;
-    unsigned long long frameStatusData;
-} CDUnion_8e3af0ea;
+    CDStruct_c0454aff _field1;
+    unsigned long long _field2;
+} CDUnion_698d0922;
 
 typedef union {
     struct {
@@ -80,10 +76,7 @@ typedef union {
 } CDUnion_7db08c32;
 
 typedef union {
-    CDStruct_73a58082 frameHeaderV1;
-    struct {
-        unsigned int checksum;
-        unsigned int dataVersion;
-    } frameHeaderV2;
-} CDUnion_50e7a005;
+    CDStruct_b3659498 _field1;
+    CDStruct_c0454aff _field2;
+} CDUnion_9b9c2c82;
 

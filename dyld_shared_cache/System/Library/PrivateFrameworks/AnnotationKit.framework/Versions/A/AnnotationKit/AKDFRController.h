@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKDFRHighlightsController, AKDFRShapeController, AKDFRTextController, NSGroupTouchBarItem, NSString, NSTouchBarItem;
+@class AKController;
 
 @interface AKDFRController
 {
     _Bool _isInDFRAction;
-    _Bool _centersWithPrincipleItems;
-    CDUnknownBlockType _updateDFRBlock;
-    NSGroupTouchBarItem *_mainTouchBar;
-    AKController *_controller;
-    AKDFRTextController *_textController;
-    AKDFRShapeController *_shapeController;
-    AKDFRHighlightsController *_dfrHighlightsController;
-    NSTouchBarItem *_sketchItem;
-    NSTouchBarItem *_textItem;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -48,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -65,24 +56,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool centersWithPrincipleItems; // @synthesize centersWithPrincipleItems=_centersWithPrincipleItems;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) AKDFRHighlightsController *dfrHighlightsController; // @synthesize dfrHighlightsController=_dfrHighlightsController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSGroupTouchBarItem *highlightsTouchBar;
-@property _Bool isInDFRAction; // @synthesize isInDFRAction=_isInDFRAction;
-@property(retain, nonatomic) NSGroupTouchBarItem *mainTouchBar; // @synthesize mainTouchBar=_mainTouchBar;
-@property(retain) AKDFRShapeController *shapeController; // @synthesize shapeController=_shapeController;
-@property(retain) NSTouchBarItem *sketchItem; // @synthesize sketchItem=_sketchItem;
-@property(readonly) Class superclass;
-@property(retain) AKDFRTextController *textController; // @synthesize textController=_textController;
-@property(retain) NSTouchBarItem *textItem; // @synthesize textItem=_textItem;
-@property(copy) CDUnknownBlockType updateDFRBlock; // @synthesize updateDFRBlock=_updateDFRBlock;
 
 @end
 

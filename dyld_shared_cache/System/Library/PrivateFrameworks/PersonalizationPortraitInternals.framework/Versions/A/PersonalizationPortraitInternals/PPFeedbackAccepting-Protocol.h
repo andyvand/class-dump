@@ -5,6 +5,6 @@
 //
 
 @protocol PPFeedbackAccepting
-- (void)RoutineImport;
+- (void)CoreRoutineImport;
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFStagedValue;
-
 __attribute__((visibility("hidden")))
 @interface HMDManagedStagedValue
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _commitBlock;
-    HMFStagedValue *_stagedValue;
-    id _initialValue;
-    long long _state;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)startWaypoint;
+- (id)up:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -27,17 +21,13 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (id)IfCameraReachabilityBulletinRegistration;
-- (void)merasRecordingEnabledInHome;
+- (id)castIfCameraReachabilityBulletinRegistration;
+- (void)numCamerasRecordingEnabledInHome;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType commitBlock; // @synthesize commitBlock=_commitBlock;
-@property(readonly, copy, nonatomic) id initialValue; // @synthesize initialValue=_initialValue;
-@property(retain) HMFStagedValue *stagedValue; // @synthesize stagedValue=_stagedValue;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) id value;
 
 @end
 

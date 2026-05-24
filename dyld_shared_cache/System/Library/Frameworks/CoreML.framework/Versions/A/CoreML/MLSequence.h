@@ -9,30 +9,25 @@
 @interface MLSequence
 {
     long long _type;
-    NSArray *_values;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
+- (id)copyMTLBVHPrimitivesKernel;
+- (id)PipelineDescriptor setObjectFunction:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id)+;
+- (long long)ec;
 - (void);
 - (id);
 - (void)+\]D\[\d-\d+\]C\[\d-\d+\]H\[\d-\d+\]W\[\d-\d+\]);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *featureValues;
-@property(readonly, nonatomic) NSArray *int64Values;
-@property(readonly, nonatomic) NSArray *stringValues;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

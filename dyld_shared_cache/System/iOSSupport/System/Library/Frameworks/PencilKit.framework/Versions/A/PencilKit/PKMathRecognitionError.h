@@ -8,18 +8,16 @@
 
 @interface PKMathRecognitionError
 {
-    id _errorString;
-    NSString *_errorReasonString;
+    NSString *_errorString;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)È;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *errorReasonString; // @synthesize errorReasonString=_errorReasonString;
 @property(copy, nonatomic) NSString *errorString; // @synthesize errorString=_errorString;
 
 @end

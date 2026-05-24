@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIWindowSceneTraitProvider;
+@class _UIWindowSceneTraitProvider;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneRenderingEnvironmentClientComponent
@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)_updatePendingTransferMapForContext:(id)arg1 completedTransfer: /* Error: Ran out of types for this method. */;
+- (id)_strictlyUnarchivedObjectOfClasses:fromData:error: /* Error: Ran out of types for this method. */;
+- (id)but participant count is %llu;
+- (void)lly synced;
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -33,16 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak _UIWindowSceneTraitProvider *_traitProvider; // @synthesize _traitProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCapturingContentForAdditionalRenderingDestination;
-@property(nonatomic) _Bool prefersContentProtection;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *systemDisplayIdentifier;
 
 @end
 

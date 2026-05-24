@@ -12,14 +12,11 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarActivityItemView : UIStatusBarItemView
 {
     UIActivityIndicatorView *_activityIndicator;
-    UIActivityIndicatorView *_accessibilityHUDIndicator;
-    _Bool _slowActivity;
-    _Bool _syncActivity;
 }
 
-- (_Bool);
-- (double);
-- (double);
+- (_Bool)_shouldDropSendingMessage;
+- (double)_setFetchOptions: /* Error: Ran out of types for this method. */;
+- (double)_showingFailure;
 - (long long);
 - (void);
 - (void);

@@ -9,7 +9,6 @@
 @interface PXFanningVisualPositionsChangeDetails : PXVisualPositionsChangeDetails
 {
     long long _anchorFan;
-    long long _anchorReload;
 }
 
 - (id);

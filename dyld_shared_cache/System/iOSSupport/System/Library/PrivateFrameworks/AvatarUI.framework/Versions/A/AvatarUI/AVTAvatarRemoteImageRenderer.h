@@ -5,31 +5,28 @@
 //
 
 @class NSXPCConnection;
-@protocol AVTUILogger;
 
 @interface AVTAvatarRemoteImageRenderer
 {
     NSXPCConnection *_connection;
-    id <AVTUILogger> _logger;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)¸U;
 - (id)Ôä;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
 
 @end
 

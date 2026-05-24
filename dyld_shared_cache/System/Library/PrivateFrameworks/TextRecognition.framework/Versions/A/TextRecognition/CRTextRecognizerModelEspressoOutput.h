@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CRTextRecognizerModelEspressoOutput
 {
     NSArray *_textFeatureInfo;
-    unsigned long long _batchSize;
-    CDStruct_0a65202a _output_label_prob_map;
 }
 
 - (CDStruct_0a65202a);
 - (id);
 - (id);
-- (void);
+- (void)p;
 - (unsigned long long);
 - (void)v16@24;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CDStruct_0a65202a output_label_prob_map; // @synthesize output_label_prob_map=_output_label_prob_map;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *textFeatureInfo; // @synthesize textFeatureInfo=_textFeatureInfo;
 
 @end
 

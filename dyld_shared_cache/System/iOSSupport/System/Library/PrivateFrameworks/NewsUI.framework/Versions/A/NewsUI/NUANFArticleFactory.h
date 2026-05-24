@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleController, NSString;
+@class FCArticleController;
 
 @interface NUANFArticleFactory
 {
     long long _qualityOfService;
-    long long _relativePriority;
-    FCArticleController *_articleController;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -25,15 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticleController *articleController; // @synthesize articleController=_articleController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(readonly) Class superclass;
 
 @end
 

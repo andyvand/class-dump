@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPDeletionRangeMap, TSWPRangeArray;
+@class NSString;
 
 @interface TSWPFilteredString
 {
     unsigned long long _length;
-    NSString *_sourceString;
-    TSWPDeletionRangeMap *_rangeMap;
-    TSWPRangeArray *_sourceRanges;
 }
 
-- (void);
+- (void)hum;
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
@@ -30,9 +27,6 @@
 - (unsigned short);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(retain, nonatomic) TSWPDeletionRangeMap *rangeMap; // @synthesize rangeMap=_rangeMap;
-@property(readonly, retain, nonatomic) TSWPRangeArray *sourceRanges; // @synthesize sourceRanges=_sourceRanges;
 @property(retain, nonatomic) NSString *sourceString; // @synthesize sourceString=_sourceString;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSString;
+@class AKController;
 
 @interface AKActionController
 {
@@ -15,23 +15,16 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)ediaDestination"8;
+- (_Bool)B765291;
+- (void)n;
 - (id);
-- (id);
+- (id)";
 - (void);
-- (_Bool)otation:(id)arg1 inPageModelController: /* Error: Ran out of types for this method. */;
+- (_Bool)_replaceAnnotation:(id)arg1 inPageModelController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

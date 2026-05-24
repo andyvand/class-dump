@@ -7,15 +7,6 @@
 @interface RemindersUICore.TTRRemindersListPresenterCapabilityCore
 {
     id delegate;
-    id viewModelSource;
-    id attachmentThumbnailsManager;
-    id urlMetadataInteractor;
-    id contactsProvider;
-    id userActivityMetadataInterator;
-    id editingPresenter;
-    id avatarProvider;
-    id geoService;
-    id observerForShouldShowAsUnauthorizedForPreciseLocation;
 }
 
 @end

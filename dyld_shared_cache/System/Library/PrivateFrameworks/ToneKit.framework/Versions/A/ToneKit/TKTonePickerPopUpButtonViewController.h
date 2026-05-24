@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSString, NSView, TKPickerPopUpButton, TKTonePickerController;
-@protocol TKTonePickerContentViewControllerDelegate;
+@class TKPickerPopUpButton;
 
 @interface TKTonePickerPopUpButtonViewController
 {
     TKPickerPopUpButton *_popUpButton;
-    TKTonePickerController *_tonePickerController;
-    id <TKTonePickerContentViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -29,19 +26,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TKTonePickerContentViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView *tonePickerContentView;
-@property(readonly, nonatomic) NSResponder *tonePickerResponder;
 
 @end
 

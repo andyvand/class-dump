@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, _DPPrio3SumVectorParameter;
+@class _DPPrio3SumVectorParameter;
 
 @interface _DPPrio3SumVectorRandomizer
 {
     double _defaultLocalEpsilon;
-    NSDictionary *_plistParameters;
-    _DPPrio3SumVectorParameter *_parameters;
 }
 
 + (id);
@@ -27,19 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)removeChildWindow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultLocalEpsilon; // @synthesize defaultLocalEpsilon=_defaultLocalEpsilon;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _DPPrio3SumVectorParameter *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSDictionary *plistParameters; // @synthesize plistParameters=_plistParameters;
-@property(readonly) Class superclass;
 
 @end
 

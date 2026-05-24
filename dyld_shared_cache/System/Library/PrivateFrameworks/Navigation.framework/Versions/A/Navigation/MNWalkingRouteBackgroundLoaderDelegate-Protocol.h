@@ -5,5 +5,6 @@
 //
 
 @protocol MNWalkingRouteBackgroundLoaderDelegate
+- (void);
 @end
 

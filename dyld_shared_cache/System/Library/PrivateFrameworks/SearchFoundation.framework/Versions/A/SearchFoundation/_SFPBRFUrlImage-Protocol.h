@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFAspectRatio, _SFPBRFColor, _SFPBRFSymbolImage;
+@class NSData, NSString, _SFPBRFColor;
 
 @protocol _SFPBRFUrlImage
+- (int);
+- (_SFPBRFColor *)Rh";
+- (NSData *)longDescription;
+- (NSString *);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFAspectRatio *aspect_ratio;
-@property(retain, nonatomic) _SFPBRFColor *background_color;
-@property(nonatomic) int corner_rounding_mode;
-@property(copy, nonatomic) NSString *dark_mode_url;
-@property(nonatomic) int image_rendering_mode;
-@property(nonatomic) int image_style;
-@property(nonatomic) float inset_padding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int sizing_mode;
-@property(retain, nonatomic) _SFPBRFSymbolImage *symbol_placeholder_image;
 @property(copy, nonatomic) NSString *url;
-@property(readonly, nonatomic) unsigned long long whichPlaceholder_Image;
 @end
 

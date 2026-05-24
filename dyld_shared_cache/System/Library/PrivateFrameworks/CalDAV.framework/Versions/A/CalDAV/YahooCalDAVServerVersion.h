@@ -12,7 +12,7 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id)_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, TLKDescriptionView;
+@class TLKDescriptionView;
 
 @interface SearchUIDescriptionCardSectionView : SearchUICardSectionView
 {
@@ -16,24 +16,16 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)r;
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)t is not likely to have come from QuickResponses.;
+- (void)uickResponsesReplyModel semanticClassesForArray:array] /* Error: Ran out of types for this method. */;
+- (void)s:NSString.class] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) TLKDescriptionView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

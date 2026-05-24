@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
-
 @protocol AVPictureInPictureContentSource
+- (void),;
+
+@optional
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool avkit_isVisible;
-@property(readonly, nonatomic) struct CGRect avkit_playerLayerRectInWindow;
 @property(readonly, nonatomic) struct CGRect avkit_videoRectInWindow;
-@property(readonly, nonatomic) UIWindow *avkit_window;
 @end
 

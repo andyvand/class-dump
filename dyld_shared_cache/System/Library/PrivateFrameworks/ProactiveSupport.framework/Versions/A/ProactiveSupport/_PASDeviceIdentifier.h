@@ -13,9 +13,9 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)is_people:(id)arg1 %d.;
+- (id)';
+- (void)setPropertyValue:forName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSUUID *UUID;

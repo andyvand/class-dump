@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSPanel, NSTextField, NSURLAuthenticationChallenge;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface WebAuthenticationPanel
 {
     NSTextField *mainLabel;
-    NSPanel *panel;
-    NSTextField *password;
-    NSTextField *smallLabel;
-    NSTextField *username;
-    NSImageView *imageView;
-    NSButton *remember;
-    NSTextField *separateRealmLabel;
-    _Bool nibLoaded;
-    _Bool usingSheet;
-    id callback;
-    SEL selector;
-    NSURLAuthenticationChallenge *challenge;
 }
 
 - (void);
@@ -31,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)er-host sampling percentage values from performance metrics dictionary, falling back to global sampling percentage value of %{public}@;
 - (void):(id)arg1 RetainPtr<NSURL>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::RetainPtr<NSURL>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RetainPtr<NSURL>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RetainPtr<NSURL>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @end

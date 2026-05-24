@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface GRRSchemaGRRSystemErrorOccurred : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    NSString *_errorMessage;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorMessage;
 }
 
 - (void);
@@ -27,7 +22,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)created_date INTEGER DEFAULT 0, start_date INTEGER DEFAULT 0, filename TEXT, uti TEXT, mime_type TEXT, transfer_state INTEGER DEFAULT 0, is_outgoing INTEGER DEFAULT 0, user_info BLOB, transfer_name TEXT, total_bytes INTEGER DEFAULT -1);;
 - (_Bool);
 - (id);
 - (id)maSUGRankingStepStarted";
@@ -39,10 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorMessage; // @synthesize hasErrorMessage=_hasErrorMessage;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

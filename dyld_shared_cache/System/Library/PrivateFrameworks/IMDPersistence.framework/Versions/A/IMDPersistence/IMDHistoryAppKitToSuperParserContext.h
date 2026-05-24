@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSMutableArray, NSMutableAttributedString;
+@class NSMutableArray, NSMutableAttributedString;
 
 @interface IMDHistoryAppKitToSuperParserContext
 {
     NSMutableAttributedString *_superFormat;
-    NSColor *_bodyBackgroundColor;
-    NSColor *_bodyForegroundColor;
-    long long _baseWritingDirection;
-    _Bool _didAddBodyAttributes;
-    NSMutableArray *_mutableFileTransferGUIDs;
-    NSMutableArray *_attachmentDicts;
 }
 
-- (id);
+- (id)R";
 - (void);
 - (id);
 - (id);
@@ -27,11 +21,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)numberOfSectionedCharacters;
 
 // Remaining properties
-@property(retain) NSMutableArray *attachmentDicts; // @synthesize attachmentDicts=_attachmentDicts;
-@property(readonly) NSArray *fileTransferGUIDs; // @dynamic fileTransferGUIDs;
 @property(readonly) NSMutableArray *mutableFileTransferGUIDs; // @synthesize mutableFileTransferGUIDs=_mutableFileTransferGUIDs;
 
 @end

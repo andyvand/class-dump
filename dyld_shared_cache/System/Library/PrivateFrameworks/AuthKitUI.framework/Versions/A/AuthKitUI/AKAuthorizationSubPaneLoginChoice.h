@@ -6,28 +6,18 @@
 
 #import <AuthKitUI/AKAuthorizationSubPane.h>
 
-@class AKAuthorizationPaneContext, NSArray, NSImage, NSMutableArray, NSNumber, NSScrollView, NSStackView;
-@protocol AKAuthorizationSubPaneLoginChoiceDelegate;
+@class NSArray, NSImage;
 
 @interface AKAuthorizationSubPaneLoginChoice : AKAuthorizationSubPane
 {
     NSImage *_applicationImage;
-    NSImage *_profileImage;
-    unsigned long long _indexOfChosenLogin;
-    id <AKAuthorizationSubPaneLoginChoiceDelegate> _delegate;
-    NSArray *_contextChoices;
-    NSMutableArray *_cellChoices;
-    NSScrollView *_scrollView;
-    NSStackView *_stackView;
-    AKAuthorizationPaneContext *_context;
-    NSNumber *_selectedChoice;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -42,27 +32,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)__objc_stubs;
 - (id);
 - (void);
 - (id);
+- (void)`D9;
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)\h;
 - (void);
 - (void)performAuthorizationWithContext:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cellChoices; // @synthesize cellChoices=_cellChoices;
-@property(retain, nonatomic) AKAuthorizationPaneContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSArray *contextChoices; // @synthesize contextChoices=_contextChoices;
-@property(nonatomic) __weak id <AKAuthorizationSubPaneLoginChoiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long indexOfChosenLogin; // @synthesize indexOfChosenLogin=_indexOfChosenLogin;
-@property(retain, nonatomic) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) NSNumber *selectedChoice; // @synthesize selectedChoice=_selectedChoice;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

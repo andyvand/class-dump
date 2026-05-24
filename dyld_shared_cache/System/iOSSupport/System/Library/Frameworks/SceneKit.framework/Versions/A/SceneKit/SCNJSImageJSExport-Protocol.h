@@ -5,6 +5,8 @@
 //
 
 @protocol SCNJSImageJSExport
+- (struct CGSize)estimatedDimension: /* Error: Ran out of types for this method. */;
+- (void)drawBulletAtPoint:(struct CGSize)arg1 shape:inContext:withBorder: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property struct CGSize size;

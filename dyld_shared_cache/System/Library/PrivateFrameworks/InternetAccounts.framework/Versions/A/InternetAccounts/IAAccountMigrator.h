@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSArray, NSMutableDictionary, NSMutableSet;
+@class ACAccountStore;
 
 @interface IAAccountMigrator
 {
     ACAccountStore *_accountStore;
-    NSMutableSet *_parentAccounts;
-    NSMutableSet *_childAccounts;
-    NSMutableDictionary *_migratedAccountUIDs;
-    NSArray *_plugins;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)?k";
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void) ;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)u;
 - (id);
 - (void);
 

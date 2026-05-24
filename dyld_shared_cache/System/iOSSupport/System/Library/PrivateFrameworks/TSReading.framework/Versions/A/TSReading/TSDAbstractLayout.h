@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, TSDLayoutGeometry;
+@class TSDLayoutGeometry;
 
 @interface TSDAbstractLayout
 {
     TSDAbstractLayout *mParent;
-    NSMutableArray *mChildren;
-    TSDLayoutGeometry *mGeometry;
-    struct CGPoint mInterimPosition;
-    _Bool mInterimPositionXSet;
-    _Bool mInterimPositionYSet;
-    struct CGPoint mLastInterimPosition;
-    _Bool mLastInterimPositionXSet;
-    _Bool mLastInterimPositionYSet;
 }
 
-- (id);
+- (id)State;
 - (struct CGAffineTransform);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)PodcastAssetFactory;
 - (struct CGRect);
-- (_Bool);
+- (_Bool)MediaPlaybackCore;
 - (struct CGPoint);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -46,7 +38,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (_Bool);
 - (struct CGPoint);
 - (struct CGRect);
@@ -75,18 +67,13 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
-- (void)r:(id)arg1 endColor: /* Error: Ran out of types for this method. */;
-- (id)lEditorOnTextResponder;
-- (id)Height: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (void)radialGradientWithStartColor:(id)arg1 endColor: /* Error: Ran out of types for this method. */;
+- (id)mPreventSettingNilEditorOnTextResponder;
+- (id)initWithHeight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *children;
 @property(copy, nonatomic) TSDLayoutGeometry *geometry; // @synthesize geometry=mGeometry;
-@property(nonatomic) double interimPositionX;
-@property(nonatomic) double interimPositionY;
-@property(nonatomic) TSDAbstractLayout *parent; // @synthesize parent=mParent;
-@property(readonly, nonatomic) TSDAbstractLayout *root;
 
 @end
 

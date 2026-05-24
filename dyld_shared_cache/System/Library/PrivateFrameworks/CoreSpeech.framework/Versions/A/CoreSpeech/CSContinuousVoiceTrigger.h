@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioRecordContext, CSAudioTimeConverter, CSContinuousVoiceTriggerConfig, CSKeywordAnalyzerNDAPI, NSMutableDictionary, NSObject;
-@protocol CSContinuousVoiceTriggerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSContinuousVoiceTrigger
 {
     _Bool _hasResetShotAnalyzerBestScore;
-    _Bool _pendingTwoShotDetection;
-    float _keywordThreshold;
-    float _twoShotThreshold;
-    id <CSContinuousVoiceTriggerDelegate> _delegate;
-    CSAudioTimeConverter *_audioTimeConverter;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAsset *_currentAsset;
-    CSKeywordAnalyzerNDAPI *_keywordAnalyzer;
-    long long _mode;
-    unsigned long long _analyzedSampleCount;
-    unsigned long long _triggerEndSampleCount;
-    unsigned long long _twoShotDecisionWaitSamples;
-    unsigned long long _activeChannel;
-    CSAudioRecordContext *_audioRecordContext;
-    CSContinuousVoiceTriggerConfig *_cvtConfig;
-    NSMutableDictionary *_lastVoiceTriggerScores;
-    unsigned long long _heartbeatFactor;
 }
 
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)setNearbyInfoStatusProgress:(id)arg1;
+- (id)setCharacteristic: /* Error: Ran out of types for this method. */;
+- (_Bool)_peer;
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)yFetchActivityScheduler;
 - (float);
 - (long long);
-- (void);
+- (void)(	?׀;
 - (id);
-- (_Bool);
+- (_Bool)initWithIdentifier:name:type:persistentStoreURL:persistentStoreIdentifier:permissions:guardianRestricted:lastSyncDate:iOSLegacyIdentifier:externalIdentifier:providerIdentifier:providerMetadata: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)vision:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void)q2;
+- (id)*;
 - (void);
 - (unsigned long long);
 - (id);
@@ -74,32 +57,15 @@
 × ;
 - (void)!(Gùñ*°1Â0@ù
 × ;
-- (void)pProviders;
-- (void)dSiriDebugVTDataDirectory;
+- (void)audioTapProviders;
+- (void)_spIdSiriDebugVTDataDirectory;
 - (void)echRequestOptions:(id)arg1 currentActivationInfo:] /* Error: Ran out of types for this method. */;
 - (void)ID:(unsigned long long)arg1 turnIdentifier:] /* Error: Ran out of types for this method. */;
 - (unsigned long long)>I};
 - (void)ö;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeChannel; // @synthesize activeChannel=_activeChannel;
-@property(nonatomic) unsigned long long analyzedSampleCount; // @synthesize analyzedSampleCount=_analyzedSampleCount;
-@property(retain, nonatomic) CSAudioRecordContext *audioRecordContext; // @synthesize audioRecordContext=_audioRecordContext;
-@property(retain, nonatomic) CSAudioTimeConverter *audioTimeConverter; // @synthesize audioTimeConverter=_audioTimeConverter;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(retain, nonatomic) CSContinuousVoiceTriggerConfig *cvtConfig; // @synthesize cvtConfig=_cvtConfig;
-@property(nonatomic) __weak id <CSContinuousVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasResetShotAnalyzerBestScore; // @synthesize hasResetShotAnalyzerBestScore=_hasResetShotAnalyzerBestScore;
-@property(nonatomic) unsigned long long heartbeatFactor; // @synthesize heartbeatFactor=_heartbeatFactor;
-@property(retain, nonatomic) CSKeywordAnalyzerNDAPI *keywordAnalyzer; // @synthesize keywordAnalyzer=_keywordAnalyzer;
-@property(nonatomic) float keywordThreshold; // @synthesize keywordThreshold=_keywordThreshold;
-@property(retain, nonatomic) NSMutableDictionary *lastVoiceTriggerScores; // @synthesize lastVoiceTriggerScores=_lastVoiceTriggerScores;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) _Bool pendingTwoShotDetection; // @synthesize pendingTwoShotDetection=_pendingTwoShotDetection;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long triggerEndSampleCount; // @synthesize triggerEndSampleCount=_triggerEndSampleCount;
-@property(nonatomic) unsigned long long twoShotDecisionWaitSamples; // @synthesize twoShotDecisionWaitSamples=_twoShotDecisionWaitSamples;
-@property(nonatomic) float twoShotThreshold; // @synthesize twoShotThreshold=_twoShotThreshold;
 
 @end
 

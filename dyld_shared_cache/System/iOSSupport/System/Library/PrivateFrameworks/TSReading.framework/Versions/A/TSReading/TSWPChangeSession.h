@@ -6,13 +6,9 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSDate, TSKAnnotationAuthor;
-
 @interface TSWPChangeSession : TSPObject
 {
     unsigned int _sessionUID;
-    TSKAnnotationAuthor *_author;
-    NSDate *_date;
 }
 
 - (_Bool);
@@ -25,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TSKAnnotationAuthor *author;
-@property(retain, nonatomic) NSDate *date;
 @property(nonatomic) unsigned int sessionUID;
 
 @end

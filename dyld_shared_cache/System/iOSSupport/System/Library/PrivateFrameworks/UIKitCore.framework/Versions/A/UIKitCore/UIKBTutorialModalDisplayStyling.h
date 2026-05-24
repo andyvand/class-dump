@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIKBTutorialModalDisplayStyling
 {
     NSArray *_backgroundEffects;
-    UIColor *_backgroundColor;
-    UIColor *_mainTextColor;
-    UIColor *_buttonTextColor;
 }
 
-- (void);
+- (void)adata. Using a different method instead;
+- (id)ur local nickname %@ %@;
+- (id)e tracking for messages, is tracking compromised?;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)ition;
+- (void)_updateEffectBackgroundColor;
+- (id)_resetScopeBarFlagsAfterCompleteOrCancelTransition;
 - (void)d,N,VdimmingLevel;
 - (id).apple.documents.backaction;
 - (id)UICompositingModeSourceIn;
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)èf;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;
-@property(retain, nonatomic) UIColor *buttonTextColor; // @synthesize buttonTextColor=_buttonTextColor;
-@property(retain, nonatomic) UIColor *mainTextColor; // @synthesize mainTextColor=_mainTextColor;
 
 @end
 

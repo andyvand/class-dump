@@ -7,12 +7,12 @@
 @class _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBGetCarLockStatusIntent
-- (_Bool)pplicationState;
+- (_INPBDataString *);
+- (_INPBIntentMetadata *);
+- (void)+;
+- (_Bool)applicationState;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

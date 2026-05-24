@@ -6,29 +6,12 @@
 
 #import <PAImaging/PAItemViewController.h>
 
-@class NSObject, NSString, PAImageItemViewMode, PATimer, PFTimeIntervalCoalescer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PAImageItemViewController : PAItemViewController
 {
     NSObject<OS_dispatch_queue> *_loadStatusQueue;
-    PATimer *_loadTimer;
-    PATimer *_startTimer;
-    int _loadState;
-    PATimer *_renderTimer;
-    PATimer *_shutdownTimer;
-    PFTimeIntervalCoalescer *_viewportUpdateCoalescer;
-    _Bool _viewportUpdatesEnabled;
-    _Bool _isOutOfDate;
-    unsigned long long _pendingUpdates;
-    NSObject<OS_dispatch_queue> *_modeQueue;
-    PAImageItemViewMode *_currentMode;
-    _Bool _isSwitchingMode;
-    _Bool _isLoadingMode;
-    _Bool _isLoadingMasterImage;
-    _Bool _isRenderingImage;
-    NSString *_name;
-    NSString *_contextualVideoThumbnailID;
 }
 
 - (void);
@@ -52,35 +35,35 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)@;
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -89,18 +72,7 @@
 - (id)type for white balance operation:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contextualVideoThumbnailID; // @synthesize contextualVideoThumbnailID=_contextualVideoThumbnailID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool isLoadingMasterImage; // @synthesize isLoadingMasterImage=_isLoadingMasterImage;
-@property(readonly) _Bool isRenderingImage; // @synthesize isRenderingImage=_isRenderingImage;
-@property(retain) PAImageItemViewMode *mode;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

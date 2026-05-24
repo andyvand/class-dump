@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWAutoFocusROIAnalyticsPayload
 {
     int _focusRegionType;
-    int _luxLevel;
-    float _subjectDistance;
-    NSString *_portType;
-    NSDictionary *_focusRegion;
-    NSString *_clientApplicationID;
 }
 
 - (void);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)Logging:(id)arg1 ];
 - (id);
 - (id);
 - (int);
@@ -36,19 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)k;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *focusRegion; // @synthesize focusRegion=_focusRegion;
-@property(nonatomic) int focusRegionType; // @synthesize focusRegionType=_focusRegionType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int luxLevel; // @synthesize luxLevel=_luxLevel;
 @property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) float subjectDistance; // @synthesize subjectDistance=_subjectDistance;
-@property(readonly) Class superclass;
 
 @end
 

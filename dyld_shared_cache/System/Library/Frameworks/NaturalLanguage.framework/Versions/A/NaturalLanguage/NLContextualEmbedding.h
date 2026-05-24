@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLE5Embedding, NLSentenceEmbeddingHead, NLTagger, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface NLContextualEmbedding
 {
     _Bool _useANE;
-    NSString *_identifier;
-    NSString *_modelIdentifier;
-    NSString *_adapterIdentifier;
-    NSDictionary *_catalogEntry;
-    NLTagger *_tagger;
-    NLE5Embedding *_embeddingE5;
-    NLSentenceEmbeddingHead *_sentenceEmbeddingHead;
-    NSString *_cachePath;
 }
 
 + (unsigned long long);
@@ -30,17 +22,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (void);
+- (unsigned long long)q;
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -69,7 +61,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)jP;
 - (void);
 - (id);
 - (_Bool);
@@ -85,15 +77,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)reply;
+- (id)LO;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -101,23 +93,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long)tifier;
+- (unsigned long long)assetLocaleIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long dimension;
-@property(readonly) _Bool hasAvailableAssets;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *languages;
-@property(readonly) unsigned long long maximumSequenceLength;
 @property(readonly, copy) NSString *modelIdentifier;
-@property(readonly) unsigned long long revision;
-@property(readonly, copy) NSArray *scripts;
-@property(readonly) Class superclass;
 
 @end
 

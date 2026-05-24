@@ -4,35 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface IMDTelephonyIncomingMessageContext
 {
     _Bool _isSendEnabled;
-    unsigned char _style;
-    _Bool _wasRelayed;
-    _Bool _isMergedBusinessThread;
-    long long _category;
-    long long _subCategory;
-    NSString *_spamExtensionName;
-    long long _capability;
-    NSString *_chatIdentifier;
-    NSString *_mySIMIDString;
-    NSString *_myNumberString;
-    NSString *_sender;
-    NSString *_senderUnformatted;
-    NSString *_countryCode;
-    NSMutableArray *_participants;
-    NSMutableArray *_unformattedIDs;
-    NSMutableArray *_countryCodes;
-    NSString *_groupID;
-    NSString *_originalGroupID;
-    NSString *_displayName;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)! 	!;
 - (void);
 - (void);
 - (void);
@@ -43,13 +22,13 @@
 - (void);
 - (id);
 - (void);
+- (void)K;
 - (void);
-- (void);
-- (id);
+- (id)ci;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_֟;
 - (void);
 - (_Bool);
 - (long long);
@@ -59,18 +38,18 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (unsigned char);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id)y;
 - (void);
 - (id);
 - (id);
@@ -83,29 +62,7 @@
 - (void)Ð;
 
 // Remaining properties
-@property(nonatomic) long long capability; // @synthesize capability=_capability;
 @property(nonatomic) long long category; // @synthesize category=_category;
-@property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSMutableArray *countryCodes; // @synthesize countryCodes=_countryCodes;
-@property(readonly, nonatomic) NSString *destinationCallerID;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) _Bool isGroupChat;
-@property(readonly, nonatomic) _Bool isGroupMessagingEnabled;
-@property(nonatomic) _Bool isMergedBusinessThread; // @synthesize isMergedBusinessThread=_isMergedBusinessThread;
-@property(nonatomic) _Bool isSendEnabled; // @synthesize isSendEnabled=_isSendEnabled;
-@property(retain, nonatomic) NSString *myNumberString; // @synthesize myNumberString=_myNumberString;
-@property(retain, nonatomic) NSString *mySIMIDString; // @synthesize mySIMIDString=_mySIMIDString;
-@property(retain, nonatomic) NSString *originalGroupID; // @synthesize originalGroupID=_originalGroupID;
-@property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(retain, nonatomic) NSString *senderUnformatted; // @synthesize senderUnformatted=_senderUnformatted;
-@property(retain, nonatomic) NSString *spamExtensionName; // @synthesize spamExtensionName=_spamExtensionName;
-@property(nonatomic) unsigned char style; // @synthesize style=_style;
-@property(nonatomic) long long subCategory; // @synthesize subCategory=_subCategory;
-@property(retain, nonatomic) NSMutableArray *unformattedIDs; // @synthesize unformattedIDs=_unformattedIDs;
-@property(nonatomic) _Bool wasRelayed; // @synthesize wasRelayed=_wasRelayed;
 
 @end
 

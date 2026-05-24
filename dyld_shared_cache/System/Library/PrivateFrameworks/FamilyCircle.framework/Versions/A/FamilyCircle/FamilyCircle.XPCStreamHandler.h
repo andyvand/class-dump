@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)confidenceScore;
 - (id);
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBNowPlayingCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_title;
-    NSString *_subtitle;
-    NSArray *_movies;
 }
 
 - (void);
@@ -32,7 +21,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -43,21 +32,21 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)layingContentReference;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)!;
 - (id);
-- (id);
-- (void);
+- (void)ending action could be found with UUID %@. All pending transactions:(id)arg1 %@;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)pl_fetchResultContainingAssetContainer:(id)arg1 photoLibrary:includeTrash: /* Error: Ran out of types for this method. */;
+- (id)fetch primary object for property set %@ data for %@:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -66,26 +55,7 @@
 - (int)±üÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *movies; // @synthesize movies=_movies;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

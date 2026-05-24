@@ -6,18 +6,16 @@
 
 #import <AppKit/_NSScrollingConcurrentVBLPreprocessFilter.h>
 
-@class _NSScrollingConcurrentEventMonitor, _NSScrollingRubberbandFilter;
+@class _NSScrollingConcurrentEventMonitor;
 
 __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentEventVBLPreprocessFilter : _NSScrollingConcurrentVBLPreprocessFilter
 {
     _NSScrollingConcurrentEventMonitor *_eventMonitor;
-    _NSScrollingRubberbandFilter *_rubberbandFilter;
-    _Bool _isStretched;
 }
 
-- (void);
-- (void);
+- (void)YAPS;
+- (void)R Trust Object Revoked, invalid trusted tag length;
 - (id);
 - (id);
 - (void);

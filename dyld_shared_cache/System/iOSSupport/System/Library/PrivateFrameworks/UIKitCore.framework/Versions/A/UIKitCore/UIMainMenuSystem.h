@@ -6,44 +6,29 @@
 
 #import <UIKitCore/UIMenuSystem.h>
 
-@class NSArray, NSSet, NSString, UIMainMenuSystemConfiguration, UIMenu, UIResponder, _UIMenuBuilder;
+@class NSArray, UIMenu, _UIMenuBuilder;
 
 @interface UIMainMenuSystem : UIMenuSystem
 {
     _UIMenuBuilder *_automaticallyRebuildingBuilder;
-    UIMainMenuSystemConfiguration *_configuration;
-    CDUnknownBlockType _buildHandler;
-    UIMainMenuSystemConfiguration *_overrideConfiguration;
-    CDUnknownBlockType _overrideBuildHandler;
-    UIResponder *_initialBuildingResponderOverride;
-    NSString *_overrideApplicationName;
-    NSSet *_currentKeyCommandOverlays;
-    _Bool _shouldShowFormatMenu;
-    _Bool _shouldShowToggleSidebarCommand;
-    id _keyWindowObserver;
-    id _firstResponderObserver;
-    id _textFieldObserver;
-    id _textViewObserver;
-    id _splitViewSidebarObserver;
-    id _titleMenuProviderObserver;
 }
 
-+ (id);
++ (id)transfer for guid %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A�h;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)a;
+- (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -56,8 +41,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)T@"NSNumber",C,N,V_payloadADTrustChangePassIntervalDaysFlag;
+- (id)annot use kMMCSRequestOptionPreauthorization and kMMCSRequestOptionReturnPreauthorizationRequestObject together;
 - (id);
 - (void)Ë;
 

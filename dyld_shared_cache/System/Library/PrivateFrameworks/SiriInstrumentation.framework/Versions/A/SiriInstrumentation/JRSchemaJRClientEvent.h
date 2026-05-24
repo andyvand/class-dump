@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class JRSchemaJRClientEventMetadata, JRSchemaJRExperimentTriggered, JRSchemaJRInferenceContext, NSData, SISchemaInstrumentationMessage;
+@class JRSchemaJRClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface JRSchemaJRClientEvent : SISchemaTopLevelUnionType
 {
     JRSchemaJRClientEventMetadata *_eventMetadata;
-    JRSchemaJRInferenceContext *_jrInferenceContext;
-    JRSchemaJRExperimentTriggered *_jrExperimentTriggered;
-    _Bool _hasEventMetadata;
-    _Bool _hasJrInferenceContext;
-    _Bool _hasJrExperimentTriggered;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -35,37 +29,29 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)s nil, should be a valid string.;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)*;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)±ßð1Â0@ù
 × ;
-- (id)asDomainProtectionLevel: /* Error: Ran out of types for this method. */;
+- (id)setHasDomainProtectionLevel: /* Error: Ran out of types for this method. */;
 - (unsigned long long),V_headGesturesEnabled;
 - (id)",C,N,V_grammar;
-- (id);
-- (int)rsonalizationEligible;
+- (id)SISchemaABClientEvent;
+- (int)isPersonalizationEligible;
 - (void)LÄÝÿø;
 
 // Remaining properties
-@property(retain, nonatomic) JRSchemaJRClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasJrExperimentTriggered; // @synthesize hasJrExperimentTriggered=_hasJrExperimentTriggered;
-@property(nonatomic) _Bool hasJrInferenceContext; // @synthesize hasJrInferenceContext=_hasJrInferenceContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) JRSchemaJRExperimentTriggered *jrExperimentTriggered; // @synthesize jrExperimentTriggered=_jrExperimentTriggered;
-@property(retain, nonatomic) JRSchemaJRInferenceContext *jrInferenceContext; // @synthesize jrInferenceContext=_jrInferenceContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

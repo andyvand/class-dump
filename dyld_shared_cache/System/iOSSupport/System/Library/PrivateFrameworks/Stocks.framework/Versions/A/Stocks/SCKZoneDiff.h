@@ -9,13 +9,12 @@
 @interface SCKZoneDiff
 {
     NSArray *_modifiedRecords;
-    NSArray *_deletedRecordIDs;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
 @property(readonly, copy, nonatomic) NSArray *modifiedRecords; // @synthesize modifiedRecords=_modifiedRecords;
 
 @end

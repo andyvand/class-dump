@@ -9,8 +9,6 @@
 @interface _BlastDoorLPSharingMetadataWrapper
 {
     _Bool _hasFetchedSubresources;
-    _Bool _hasCompletedFetch;
-    _BlastDoorLPLinkMetadata *_metadata;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasCompletedFetch; // @synthesize hasCompletedFetch=_hasCompletedFetch;
-@property(nonatomic) _Bool hasFetchedSubresources; // @synthesize hasFetchedSubresources=_hasFetchedSubresources;
 @property(retain, nonatomic) _BlastDoorLPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

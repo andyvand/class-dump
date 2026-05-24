@@ -19,9 +19,9 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)?;
 + (id);
 + (_Bool);
 + (id);
@@ -29,7 +29,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)q@;
 + (void);
 + (id);
 - (id);
@@ -38,8 +38,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSFont *mui_emphasizedFontVariant;
 @property(readonly) NSFont *mui_italicFontVariant;
-@property(readonly) NSFont *mui_unemphasizedFontVariant;
 @end
 

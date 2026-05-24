@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _CUIPSDSublayerInfo;
-
 @interface CUIPSDImageRef
 {
     void *_psd;
-    NSString *_path;
-    int _file;
-    _Bool _parsedForLayers;
-    _CUIPSDSublayerInfo *_rootLayers;
 }
 
-+ (_Bool);
++ (_Bool)];
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -25,7 +19,7 @@
 - (id);
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)T;
 - (unsigned int);
 - (CDStruct_1ba92a5e);
 - (CDStruct_1ba92a5e);
@@ -48,16 +42,16 @@
 - (struct CGImage *);
 - (struct CGColorSpace *);
 - (id);
-- (id);
+- (id);
 - (int);
 - (struct CGRect);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void *);
 - (id);
 - (double);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -71,14 +65,14 @@
 - (id);
 - (id);
 - (double);
+- (id);
 - (id);
-- (id);
-- (id);
-- (struct CGImage *);
+- (id)?;
+- (struct CGImage *);
 - (id);
 - (struct CGRect);
-- (int);
-- (id);
+- (int);
+- (id)@9(;
 - (unsigned int);
 - (void);
 - (void *);
@@ -99,8 +93,6 @@
 
 // Remaining properties
 @property(nonatomic) int file; // @synthesize file=_file;
-@property(copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(nonatomic) void *psd; // @synthesize psd=_psd;
 
 @end
 

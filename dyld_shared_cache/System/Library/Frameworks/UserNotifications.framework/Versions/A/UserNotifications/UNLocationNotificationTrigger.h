@@ -13,7 +13,7 @@
     CLRegion *_region;
 }
 
-+ (id);
++ (id)!;
 + (_Bool);
 - (_Bool);
 - (id);

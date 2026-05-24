@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerAPModeSuspendPolicyIOS
 {
     NSObject<OS_dispatch_queue> *_recordStateQueue;
-    _Bool _isAssistantClientConsideredAsRecord;
-    _Bool _hasNonVoiceTriggerStreamsOrStreamHoldersActive;
-    NSString *_pendingRecordingStopUUID;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)V;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,23 +33,14 @@
 - (void);
 - (void);
 - (id);
+- (void)VNDetectorInternalProcessOption_TorsoBBox_Y;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void)etion: /* Error: Ran out of types for this method. */;
 - (void)block_invoke;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasNonVoiceTriggerStreamsOrStreamHoldersActive; // @synthesize hasNonVoiceTriggerStreamsOrStreamHoldersActive=_hasNonVoiceTriggerStreamsOrStreamHoldersActive;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isAssistantClientConsideredAsRecord; // @synthesize isAssistantClientConsideredAsRecord=_isAssistantClientConsideredAsRecord;
-@property(retain, nonatomic) NSString *pendingRecordingStopUUID; // @synthesize pendingRecordingStopUUID=_pendingRecordingStopUUID;
-@property(readonly) Class superclass;
 
 @end
 

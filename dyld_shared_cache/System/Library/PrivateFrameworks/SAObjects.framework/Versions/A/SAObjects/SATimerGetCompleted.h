@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, SATimerObject;
+@class SATimerObject;
 
 @interface SATimerGetCompleted : SABaseCommand
 {
@@ -15,21 +15,12 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)\;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) SATimerObject *timer;
 
 @end

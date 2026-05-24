@@ -6,36 +6,28 @@
 
 #import <AXMediaUtilities/AXMVisionEngine.h>
 
-@class AXMBrailleEdgesDetectorNode, AXMIconClassDetectorNode, AXMImageNode, AXMScreenCaptureNode, AXMTextDetectorNode;
+@class AXMScreenCaptureNode;
 
 @interface AXMAXElementVisionEngine : AXMVisionEngine
 {
     AXMScreenCaptureNode *_captureNode;
-    AXMImageNode *_imageNode;
-    AXMTextDetectorNode *_textDetector;
-    AXMIconClassDetectorNode *_iconClassDetector;
-    AXMBrailleEdgesDetectorNode *_brailleEdgeDetector;
 }
 
 - (id);
+- (void)|;
+- (void)|;
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)@@"AMSEngagementSyncResult";
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak AXMBrailleEdgesDetectorNode *brailleEdgeDetector; // @synthesize brailleEdgeDetector=_brailleEdgeDetector;
 @property(nonatomic) __weak AXMScreenCaptureNode *captureNode; // @synthesize captureNode=_captureNode;
-@property(nonatomic) __weak AXMIconClassDetectorNode *iconClassDetector; // @synthesize iconClassDetector=_iconClassDetector;
-@property(nonatomic) __weak AXMImageNode *imageNode; // @synthesize imageNode=_imageNode;
-@property(nonatomic) __weak AXMTextDetectorNode *textDetector; // @synthesize textDetector=_textDetector;
 
 @end
 

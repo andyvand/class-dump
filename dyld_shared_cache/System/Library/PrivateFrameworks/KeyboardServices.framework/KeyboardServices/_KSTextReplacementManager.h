@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _KSTextReplacementCKStore;
-@protocol _KSTextReplacementSyncProtocol;
+@class _KSTextReplacementCKStore;
 
 @interface _KSTextReplacementManager
 {
     _KSTextReplacementCKStore *_ckStore;
-    NSObject<_KSTextReplacementSyncProtocol> *_textReplacementStore;
-    NSString *_directoryPath;
 }
 
 + (id);
-- (void);
+- (void)tactAvatarViewController",R,N,V_avatarViewController;
 - (id);
 - (id);
 - (void);
@@ -36,15 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _KSTextReplacementCKStore *ckStore; // @synthesize ckStore=_ckStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *directoryPath; // @synthesize directoryPath=_directoryPath;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<_KSTextReplacementSyncProtocol> *textReplacementStore; // @synthesize textReplacementStore=_textReplacementStore;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface AIDAServiceOperationResult
 {
     _Bool _success;
-    NSError *_error;
-    NSString *_type;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -25,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

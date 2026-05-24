@@ -5,5 +5,10 @@
 //
 
 @protocol CKSyncEngineDataSource
+- (void);
+
+@optional
+- (void)q-;
+- (void);
 @end
 

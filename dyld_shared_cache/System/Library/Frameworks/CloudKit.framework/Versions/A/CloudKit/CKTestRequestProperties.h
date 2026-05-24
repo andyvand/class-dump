@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRoughlyEquivalentProperties, NSArray;
+@class CKRoughlyEquivalentProperties;
 
 @interface CKTestRequestProperties
 {
     CKRoughlyEquivalentProperties *_equivalencyProperties;
-    NSArray *_modifyRecordIDs;
-    NSArray *_deleteRecordIDs;
-    NSArray *_fetchRecordIDs;
-    NSArray *_modifyRecordZoneIDs;
-    NSArray *_deleteRecordZoneIDs;
-    NSArray *_fetchRecordZoneIDs;
-    NSArray *_modifyMergeableValueIDs;
-    NSArray *_deleteMergeableValueIDs;
-    NSArray *_fetchMergeableValueIDs;
-    NSArray *_modifySubscriptionRecordZoneIDs;
-    long long _databaseScope;
 }
 
 + (_Bool);
+- (void);
+- (void)ifx;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)l;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id))@y(*	;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)9iw8I;
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -50,24 +39,11 @@
 - (id);
 - (void);
 - (long long);
-- (void)SMetadata;
-- (void)esOperationInfo;
+- (void)_returnPCSMetadata;
+- (void)CKDiscoverUserIdentitiesOperationInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allRecordIDs;
-@property(readonly, nonatomic) NSArray *allRecordZoneIDs;
-@property long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(copy) NSArray *deleteMergeableValueIDs; // @synthesize deleteMergeableValueIDs=_deleteMergeableValueIDs;
-@property(copy) NSArray *deleteRecordIDs; // @synthesize deleteRecordIDs=_deleteRecordIDs;
-@property(copy) NSArray *deleteRecordZoneIDs; // @synthesize deleteRecordZoneIDs=_deleteRecordZoneIDs;
 @property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties; // @synthesize equivalencyProperties=_equivalencyProperties;
-@property(copy) NSArray *fetchMergeableValueIDs; // @synthesize fetchMergeableValueIDs=_fetchMergeableValueIDs;
-@property(copy) NSArray *fetchRecordIDs; // @synthesize fetchRecordIDs=_fetchRecordIDs;
-@property(copy) NSArray *fetchRecordZoneIDs; // @synthesize fetchRecordZoneIDs=_fetchRecordZoneIDs;
-@property(copy) NSArray *modifyMergeableValueIDs; // @synthesize modifyMergeableValueIDs=_modifyMergeableValueIDs;
-@property(copy) NSArray *modifyRecordIDs; // @synthesize modifyRecordIDs=_modifyRecordIDs;
-@property(copy) NSArray *modifyRecordZoneIDs; // @synthesize modifyRecordZoneIDs=_modifyRecordZoneIDs;
-@property(copy) NSArray *modifySubscriptionRecordZoneIDs; // @synthesize modifySubscriptionRecordZoneIDs=_modifySubscriptionRecordZoneIDs;
 
 @end
 

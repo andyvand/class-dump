@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @interface _MTLSamplerState
 {
     id <MTLDevice> _device;
-    NSString *_label;
-    unsigned long long _pixelFormat;
-    unsigned long long _resourceIndex;
-    unsigned long long _gpuAddress;
 }
 
 - (void);
@@ -22,38 +17,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
+- (unsigned long long)0;
 - (unsigned long long);
-- (unsigned long long);
-- (struct MTLResourceID);
+- (struct MTLResourceID);
 - (unsigned long long);
 - (unsigned long long)Îåÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) unsigned long long gpuAddress; // @synthesize gpuAddress=_gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N,V_gpuAddress
-
-@property(readonly) unsigned long long gpuHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly, nonatomic) unsigned long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N,V_resourceIndex
-
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long uniqueIdentifier;
 
 @end
 

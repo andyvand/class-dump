@@ -9,16 +9,20 @@
 @interface _MTLHeap : _MTLAllocation
 {
     unsigned long long _heapResourceOptions;
-    long long _heapType;
-    unsigned long long _gpuAddress;
 }
 
 - (id);
+- (id)((s3 + s5) * 2.707120e-01)) - ((s2 + s6) * 5.897760e-02)) - ((s1 + s7) * 2.085710e-02)) + ((s0 + s8) * 9.036420e-03);
+  vec4 index1pix = ((((((s0 * 9.080800e-03) - (s1 * 4.864830e-02)) + (s3 * 4.322910e-01)) + (s4 * 5.545950e-01)) + (s5 * 1.148430e-01)) - (s6 * 6.859490e-02)) + (s8 * 5.208630e-03);
+  vec4 index2pix = ((((((s0 * 5.208630e-03) - (s2 * 6.859490e-02)) + (s3 * 1.148430e-01)) + (s4 * 5.545950e-01)) + (s5 * 4.322910e-01)) - (s7 * 4.864830e-02)) + (s8 * 9.080800e-03);
+  vec4 pix = mix(index0pix, index1pix, min(residue, 1.0));
+  return mix(pix, index2pix, max(residue - 1.0, 0.0));
+}
+;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -27,30 +31,22 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool)40Q48@56Q64Q72Q80@88Q96Q104;
 - (id)>"32@0:(id)arg1 8@"MTL4CommandQueueDescriptor"16^@24;
 - (unsigned long long)4;
-- (unsigned long long)es;
-- (id)ernelTelemetryID;
-- (id)dCommandBufferGeneration;
+- (unsigned long long)normalizedCoordinates;
+- (id)getComputeKernelTelemetryID;
+- (id)_lastCommittedCommandBufferGeneration;
 - (unsigned long long)r;
 - (id)sample_mask;
-- (unsigned long long)raitsIcEEEE;
+- (unsigned long long)NSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE;
 - (id)s;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, nonatomic) unsigned long long gpuAddress; // @synthesize gpuAddress=_gpuAddress;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) unsigned long long memoryPoolId;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @property(readonly) long long type;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

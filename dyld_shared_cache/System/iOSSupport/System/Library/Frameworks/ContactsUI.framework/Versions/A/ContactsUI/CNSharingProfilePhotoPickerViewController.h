@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNPhotoPickerColorVariant, CNPhotoPickerVariantsManager, CNSharingProfileAvatarItemProvider, CNSharingProfileAvatarItemProviderConfiguration, CNSharingProfileLogger, CNSharingProfilePhotoPickerItem, NSArray, NSData, NSString, PRMonogramColor, UIButton, UICollectionView, UICollectionViewFlowLayout, UIImageView;
-@protocol AVTAvatarRecord, CNSharingProfilePhotoPickerViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CNSharingProfilePhotoPickerViewController
 {
     _Bool _isSmallScreenDevice;
-    id <CNSharingProfilePhotoPickerViewControllerDelegate> _delegate;
-    CNSharingProfilePhotoPickerItem *_selectedItem;
-    CNContact *_contact;
-    id <AVTAvatarRecord> _avatarRecord;
-    CNSharingProfileLogger *_logger;
-    UICollectionViewFlowLayout *_selectorLayout;
-    UIImageView *_previewView;
-    UICollectionView *_selectorView;
-    CNSharingProfileAvatarItemProviderConfiguration *_avatarItemProviderConfiguration;
-    CNSharingProfileAvatarItemProvider *_itemProvider;
-    NSArray *_items;
-    UIButton *_customizeButton;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    CNPhotoPickerColorVariant *_animojiBackgroundColor;
-    PRMonogramColor *_monogramBackgroundColor;
 }
 
 - (void);
@@ -40,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (double);
 - (id);
 - (_Bool);
@@ -48,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)qa;
 - (id);
 - (double);
 - (id);
@@ -61,55 +43,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)hB;
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)har*)(&newStringRegion[encoded]), (const char*)bytes) == 0;
 - (long long);
-- (void);
+- (void)Q`;
 - (void);
 - (void)
 × ;
-- (void)le: /* Error: Ran out of types for this method. */;
-- (id)ipDismissedByUser;
+- (void)addAction:withTitle: /* Error: Ran out of types for this method. */;
+- (id)kPrivateAccessEntryPrivateAccessTipDismissedByUser;
 - (id)EõøÐÿ;
 - (void)ðÿ|"<;
 - (void)òÿq;
 
 // Remaining properties
-@property(retain, nonatomic) CNPhotoPickerColorVariant *animojiBackgroundColor; // @synthesize animojiBackgroundColor=_animojiBackgroundColor;
-@property(retain, nonatomic) CNSharingProfileAvatarItemProviderConfiguration *avatarItemProviderConfiguration; // @synthesize avatarItemProviderConfiguration=_avatarItemProviderConfiguration;
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) UIButton *customizeButton; // @synthesize customizeButton=_customizeButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNSharingProfilePhotoPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isSmallScreenDevice; // @synthesize isSmallScreenDevice=_isSmallScreenDevice;
-@property(retain, nonatomic) CNSharingProfileAvatarItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) CNSharingProfileLogger *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) NSData *memojiMetadata;
-@property(retain, nonatomic) PRMonogramColor *monogramBackgroundColor; // @synthesize monogramBackgroundColor=_monogramBackgroundColor;
-@property(retain, nonatomic) PRMonogramColor *monogramColor;
-@property(retain, nonatomic) UIImageView *previewView; // @synthesize previewView=_previewView;
-@property(retain, nonatomic) CNSharingProfilePhotoPickerItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(retain, nonatomic) UICollectionViewFlowLayout *selectorLayout; // @synthesize selectorLayout=_selectorLayout;
-@property(retain, nonatomic) UICollectionView *selectorView; // @synthesize selectorView=_selectorView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end
 

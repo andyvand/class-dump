@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationProxy, LSApplicationRecord, NSDictionary, NSURL;
+@class NSDictionary, NSURL;
 
 @interface LSAppLink
 {
     NSURL *_URL;
-    LSApplicationProxy *_targetApplicationProxy;
-    LSApplicationRecord *_targetApplicationRecord;
 }
 
-+ (long long);
++ (long long)aE;
 + (_Bool);
-+ (_Bool);
++ (_Bool)_;
 + (void);
 + (void);
 + (void);
 + (void);
 + (_Bool);
 + (id);
-+ (id);
++ (id)4;
 + (void);
 + (void);
 + (void);
@@ -36,7 +34,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)TLResourceID=Q}16;
 - (id);
 - (id);
 - (void);
@@ -50,14 +48,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)"@  e;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -67,12 +65,7 @@
 - (void)itWithContext:(CDUnknownBlockType)arg1 binding:coreTypesBundleRecord:typeRecord:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSURL *URL; // @synthesize URL=_URL;
 @property(retain, nonatomic) NSDictionary *browserSettings;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @dynamic enabled;
-@property long long openStrategy; // @dynamic openStrategy;
-@property(readonly) LSApplicationProxy *targetApplicationProxy; // @synthesize targetApplicationProxy=_targetApplicationProxy;
-@property(retain) LSApplicationRecord *targetApplicationRecord; // @synthesize targetApplicationRecord=_targetApplicationRecord;
 
 @end
 

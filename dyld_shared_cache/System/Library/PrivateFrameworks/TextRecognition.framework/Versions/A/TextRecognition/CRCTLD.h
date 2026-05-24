@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRCTLDDelegate;
-
 @interface CRCTLD
 {
     double _angleThresholdForRotationCorrection;
-    id <CRCTLDDelegate> _delegate;
 }
 
 - (id);
@@ -17,20 +14,19 @@
 - (double);
 - (float);
 - (double);
-- (void);
+- (void);
 - (double);
-- (unsigned long long);
-- (struct CTLDRegion);
+- (unsigned long long);
+- (struct CTLDRegion);
 - (id);
-- (void);
+- (void)_toolbarItemForTabPicker:(double)arg1;
+- (id)_test_k1KeyFromEntrySalt:(id)arg1 combinedHashedPassword:(id)arg2;
 - (id);
 - (id);
-- (id);
-- (void)ad:imageSize: /* Error: Ran out of types for this method. */;
+- (void)shouldEdgeIntersectionFilterQuad:originalQuad:imageSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property double angleThresholdForRotationCorrection; // @synthesize angleThresholdForRotationCorrection=_angleThresholdForRotationCorrection;
-@property(readonly) __weak id <CRCTLDDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

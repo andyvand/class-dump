@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSEntityDescription, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface NSPropertyDescription
 {
     NSString *_versionHashModifier;
-    NSData *_versionHash;
-    NSEntityDescription *_entity;
-    NSString *_name;
-    NSArray *_validationPredicates;
-    NSArray *_validationWarnings;
-    _Atomic struct _NSExtraPropertyIVars *_extraIvars;
-    NSMutableDictionary *_userInfo;
-    struct __propertyDescriptionFlags {
-        unsigned int _isReadOnly:1;
-        unsigned int _isTransient:1;
-        unsigned int _isOptional:1;
-        unsigned int _isIndexed:1;
-        unsigned int _skipValidation:1;
-        unsigned int _isIndexedBySpotlight:1;
-        unsigned int _isStoredInExternalRecord:1;
-        unsigned int _extraIvarsAreInDataBlob:1;
-        unsigned int _isOrdered:1;
-        unsigned int _hasMaxValueInExtraIvars:1;
-        unsigned int _hasMinValueInExtraIvars:1;
-        unsigned int _storeBinaryDataExternally:1;
-        unsigned int _preserveValueOnDelete:1;
-        unsigned int _isTriggerBacked:1;
-        unsigned int _isFileBackedFuture:1;
-        unsigned int _allowsCloudEncryption:1;
-    } _propertyDescriptionFlags;
-    short _entitysReferenceIDForProperty;
 }
 
 + (_Bool);
-+ (void)nt;
++ (void)current;
 
 @end
 

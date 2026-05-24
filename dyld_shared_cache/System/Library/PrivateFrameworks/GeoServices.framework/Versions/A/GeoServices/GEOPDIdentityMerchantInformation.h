@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDIdentityMerchantInformation
 {
     PBUnknownFields *_unknownFields;
-    NSString *_rpIdentifier;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)gAttribution"b1"read_unknownFields"b1"read_analyticMetadata"b1"read_auxiliaryTierRequestedComponents"b1"read_clientMetadata"b1"read_displayLanguages"b1"read_displayRegion"b1"read_handleData"b1"read_partiallyComposedSearchResultRequestedComponents"b1"read_placeRequestParameters"b1"read_privacyMetadata"b1"read_requestedComponents"b1"read_spokenLanguages"b1"wrote_anyField"b1};
-- (id)teResponseId;
+- (id)_etaTrafficUpdateResponseId;
 - (id)°Ì;
 - (void);
 

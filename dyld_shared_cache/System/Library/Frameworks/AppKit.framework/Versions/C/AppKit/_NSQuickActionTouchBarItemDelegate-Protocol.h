@@ -5,5 +5,6 @@
 //
 
 @protocol _NSQuickActionTouchBarItemDelegate
+- (void)orrect type (should be %@, is %@);
 @end
 

@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPXRemoteViewEventServerDefaultConfig
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)nternal/Library/BuildRoots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (_Bool)oreData:(struct __CGEvent *)arg1 CloudKit Metadata Model Migration;
+- (id)Record:(id)arg1 withMetadata:] /* Error: Ran out of types for this method. */;
+- (void)udKitImportZoneContext registerObject:(struct __CGEvent *)arg1 forInsertedRecord:(struct __SLSSigningKey *)arg2 withMetadata:] /* Error: Ran out of types for this method. */;
+- (id)ONTEXTNAME VARCHAR;
+- (id)metadata;
+- (id)RAINT %@ UNIQUE (;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

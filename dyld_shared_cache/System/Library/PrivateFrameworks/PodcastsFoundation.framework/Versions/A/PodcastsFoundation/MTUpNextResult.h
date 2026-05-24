@@ -9,8 +9,6 @@
 @interface MTUpNextResult
 {
     _Bool _needsUpdate;
-    NSString *_episodeUuid;
-    double _modifiedDate;
 }
 
 - (void);
@@ -20,12 +18,10 @@
 - (void);
 - (double);
 - (_Bool)àÿÿÿ(üøÿlÖÿ;
-- (void)DXMT;
+- (void)XDXMT;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *episodeUuid; // @synthesize episodeUuid=_episodeUuid;
-@property(nonatomic) double modifiedDate; // @synthesize modifiedDate=_modifiedDate;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
 
 @end
 

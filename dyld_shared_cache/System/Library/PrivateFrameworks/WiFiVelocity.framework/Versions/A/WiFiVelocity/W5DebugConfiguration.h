@@ -9,31 +9,25 @@
 @interface W5DebugConfiguration
 {
     long long _wifi;
-    long long _megaWiFiProfile;
-    long long _noLoggingWiFiProfile;
-    long long _eapol;
-    long long _bluetooth;
-    long long _stbc;
-    W5DiagnosticsMode *_diagnosticsMode;
 }
 
 + (_Bool);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)__auth_stubs;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)__cstring;
+- (unsigned long long)bdued;
 - (void);
 - (_Bool);
 - (void);
@@ -44,13 +38,7 @@
 - (long long)tring",C,N,V_primaryIPv4ServiceName;
 
 // Remaining properties
-@property(nonatomic) long long bluetooth; // @synthesize bluetooth=_bluetooth;
 @property(retain, nonatomic) W5DiagnosticsMode *diagnosticsMode; // @synthesize diagnosticsMode=_diagnosticsMode;
-@property(nonatomic) long long eapol; // @synthesize eapol=_eapol;
-@property(nonatomic) long long megaWiFiProfile; // @synthesize megaWiFiProfile=_megaWiFiProfile;
-@property(nonatomic) long long noLoggingWiFiProfile; // @synthesize noLoggingWiFiProfile=_noLoggingWiFiProfile;
-@property(nonatomic) long long stbc; // @synthesize stbc=_stbc;
-@property(nonatomic) long long wifi; // @synthesize wifi=_wifi;
 
 @end
 

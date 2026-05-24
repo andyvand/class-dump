@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTokenizerResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_queryLines;
-    NSMutableArray *_tokenSets;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_queryLines:1;
-        unsigned int read_tokenSets:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)preferred;
+- (id)ScoreHS:recognizerScoreJS:triggerScoreHS:triggerScoreJS:mitigationScore:invocationTypeID:repetitionSimilarityScore:tdSpeakerRecognizerCombinedScore:hwSampleRate:configVersion:keywordThresholdHS:keywordThresholdJS:tdSpeakerRecognizerCombinedThresholdHS:tdSpeakerRecognizerCombinedThresholdJS: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)ylineCoordinate=If}{PolylineCoordinate=If}}16;
-- (id)icitType;
+- (id)_searchImplicitType;
 - (id)öÜöìý¬þX¼´	!ì;
 - (void);
 

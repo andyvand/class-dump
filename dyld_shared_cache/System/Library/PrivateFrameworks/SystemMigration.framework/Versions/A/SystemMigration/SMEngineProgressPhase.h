@@ -9,16 +9,6 @@
 @interface SMEngineProgressPhase
 {
     NSString *_identifier;
-    unsigned long long _phaseTimeType;
-    unsigned long long _totalItems;
-    unsigned long long _totalSize;
-    double _expectedTime;
-    NSString *_phaseDescription;
-    NSString *_phaseSubDescription;
-    unsigned long long _completedItems;
-    unsigned long long _completedItemsSinceLastUpdate;
-    unsigned long long _completedSize;
-    unsigned long long _completedSizeSinceLastUpdate;
 }
 
 - (void);
@@ -35,30 +25,20 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ontentLayout _invalidateContent];
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)MSg_RESUME_MULTIPOINT_ROUTE_WITH_STOPS;
 - (id);
 - (unsigned long long);
 - (void)áÐ!Gùñ	°1Â0@ù
 × ;
 
 // Remaining properties
-@property unsigned long long completedItems; // @synthesize completedItems=_completedItems;
-@property unsigned long long completedItemsSinceLastUpdate; // @synthesize completedItemsSinceLastUpdate=_completedItemsSinceLastUpdate;
-@property unsigned long long completedSize; // @synthesize completedSize=_completedSize;
-@property unsigned long long completedSizeSinceLastUpdate; // @synthesize completedSizeSinceLastUpdate=_completedSizeSinceLastUpdate;
-@property double expectedTime; // @synthesize expectedTime=_expectedTime;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *phaseDescription; // @synthesize phaseDescription=_phaseDescription;
-@property(retain) NSString *phaseSubDescription; // @synthesize phaseSubDescription=_phaseSubDescription;
-@property unsigned long long phaseTimeType; // @synthesize phaseTimeType=_phaseTimeType;
-@property unsigned long long totalItems; // @synthesize totalItems=_totalItems;
-@property unsigned long long totalSize; // @synthesize totalSize=_totalSize;
 
 @end
 

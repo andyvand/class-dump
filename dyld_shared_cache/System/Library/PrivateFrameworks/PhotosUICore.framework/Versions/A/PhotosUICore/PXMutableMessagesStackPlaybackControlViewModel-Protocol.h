@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGDisplayAssetVideoPresentationController;
-
 @protocol PXMutableMessagesStackPlaybackControlViewModel
 - (void)%lu	%6.2f	%7.2f	%6.2f	%@	%6.2f	%5.2f	%5.2f	%6.2f	%7.2f	%@	%@	%@	%8.2f	%@	%@	%@
 ;
 
 // Remaining properties
-@property(nonatomic) long long currentItem;
 @property(nonatomic, getter=isSettled) _Bool settled;
-@property(retain, nonatomic) PXGDisplayAssetVideoPresentationController *videoController;
 @end
 

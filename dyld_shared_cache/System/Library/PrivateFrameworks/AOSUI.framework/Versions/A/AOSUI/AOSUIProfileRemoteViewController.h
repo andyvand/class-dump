@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)et:storageAvailable:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)showMayExceedMaxTierQuotaSheet:storageAvailable:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AOSUIProfileRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

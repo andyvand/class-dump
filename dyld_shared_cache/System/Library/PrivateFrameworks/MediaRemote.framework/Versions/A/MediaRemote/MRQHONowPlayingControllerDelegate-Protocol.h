@@ -5,5 +5,8 @@
 //
 
 @protocol MRQHONowPlayingControllerDelegate
+
+@optional
+- (void);
 @end
 

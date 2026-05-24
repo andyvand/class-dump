@@ -7,24 +7,18 @@
 @interface CKLinkCustomizationTransitionContext
 {
     double _sourceViewDownscaleMultiplier;
-    double _maxWidthForSourceView;
-    double _maxHeightForSourceView;
-    struct CGPoint _preferredSourceRectAnchorPoint;
 }
 
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)allowsAnimations;
+- (void)yLoadingURLs;
+- (void)ributedString",R,N,V_marker;
+- (void)ect;
+- (void)Change;
 - (struct CGPoint);
 - (double);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double maxHeightForSourceView; // @synthesize maxHeightForSourceView=_maxHeightForSourceView;
-@property(nonatomic) double maxWidthForSourceView; // @synthesize maxWidthForSourceView=_maxWidthForSourceView;
-@property(nonatomic) struct CGPoint preferredSourceRectAnchorPoint; // @synthesize preferredSourceRectAnchorPoint=_preferredSourceRectAnchorPoint;
 @property(nonatomic) double sourceViewDownscaleMultiplier; // @synthesize sourceViewDownscaleMultiplier=_sourceViewDownscaleMultiplier;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol ISyncConflictPropertyType
+- (_Bool);
 @end
 

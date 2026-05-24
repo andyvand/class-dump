@@ -7,17 +7,6 @@
 @interface NewsFeed.FeedGroupRegion
 {
     id feedGroupIdentifier;
-    id identifier;
-    id namespace;
-    id feedItems;
-    id feedGroupItems;
-    id feedGroupKind;
-    id feedGroupContextIdentifier;
-    id feedSlots;
-    id layoutOrder;
-    id feedGroupDebug;
-    id feedGroupBindingOptions;
-    id feedSelectors;
 }
 
 @end

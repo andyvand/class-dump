@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned int);
-- (id);
-- (id);
+- (id)attributedChipList;
+- (id)_commandReadyForBlastdoor: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)U¸];

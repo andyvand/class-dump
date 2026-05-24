@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol _MSMessageComposeHostProtocol
+- (void);
+- (void)`;
+- (void)";
+- (void)k;
+- (void);
+- (void)V__changeHistory;
+
+@optional
+- (void);
+- (void)scaledFontForFont:(NSData *)arg1 maximumPointSize:(_Bool)arg2;
+- (void);
 @end
 

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)aryForInvisiblePropertyChangeWithNotificationInfo: /* Error: Ran out of types for this method. */;
+- (void)_reloadLibraryForInvisiblePropertyChangeWithNotificationInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *preloadedSessions; // @synthesize preloadedSessions=_preloadedSessions;

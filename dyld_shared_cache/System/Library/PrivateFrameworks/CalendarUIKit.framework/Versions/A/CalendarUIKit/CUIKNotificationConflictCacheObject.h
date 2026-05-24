@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKConflictDetails;
-
 @interface CUIKNotificationConflictCacheObject
 {
     unsigned long long _state;
-    EKConflictDetails *_conflictInfo;
 }
 
-+ (id)ûk©ùc©÷[©ôO©ý{©ýCÿÑ W:(id)arg1 ©÷ªüª¢øôª;
-- (void)ùh;
-- (id)ô;
++ (id);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
 - (void)6@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) EKConflictDetails *conflictInfo; // @synthesize conflictInfo=_conflictInfo;
 @property unsigned long long state; // @synthesize state=_state;
 
 @end

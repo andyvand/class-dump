@@ -6,13 +6,12 @@
 
 #import <Navigation/MNLocationTracker.h>
 
-@class GEORouteMatcher, MNArrivalUpdater, NSString;
+@class GEORouteMatcher;
 
 __attribute__((visibility("hidden")))
 @interface MNSteppingLocationTracker : MNLocationTracker
 {
     GEORouteMatcher *_routeMatcher;
-    MNArrivalUpdater *_arrivalUpdater;
 }
 
 - (void);
@@ -22,20 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)__DictionaryReferencingEncoder;
 - (void);
 - (void)
 × ;
-- (int)Kilometers;
+- (int)distanceAndAHalfKilometers;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

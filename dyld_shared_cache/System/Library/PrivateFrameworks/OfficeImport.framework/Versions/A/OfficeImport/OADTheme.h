@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OADBaseStyles, OADDrawableDefaults;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADTheme
 {
     NSString *mName;
-    OADBaseStyles *mBaseStyles;
-    OADDrawableDefaults *mDrawableDefaults;
 }
 
 - (void);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) OADBaseStyles *baseStyles; // @synthesize baseStyles=mBaseStyles;
-@property(readonly, nonatomic) OADDrawableDefaults *drawableDefaults; // @synthesize drawableDefaults=mDrawableDefaults;
 @property(copy, nonatomic) NSString *name; // @synthesize name=mName;
 
 @end

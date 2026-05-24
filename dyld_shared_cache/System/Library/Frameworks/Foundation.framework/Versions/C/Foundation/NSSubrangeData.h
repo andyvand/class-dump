@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface NSSubrangeData
 {
     struct _NSRange _range;
-    NSData *_data;
 }
 
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (const void *);

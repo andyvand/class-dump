@@ -6,29 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, RSSSchemaRSSClientEventMetadata, RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncObjectAcquisitionStarted, RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncRequested, RSSSchemaRSSSiriVocabSyncCompanionSyncUploadStarted, RSSSchemaRSSSiriVocabSyncDataDonationFailed, RSSSchemaRSSSiriVocabSyncDataDownloadContext, RSSSchemaRSSSiriVocabSyncDataUpdatedNotificationReceived, RSSSchemaRSSSiriVocabSyncTokenFetchRequestReceived, RSSSchemaRSSSiriVocabSyncTokenReceived, SISchemaInstrumentationMessage;
+@class RSSSchemaRSSClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface RSSSchemaRSSClientEvent : SISchemaTopLevelUnionType
 {
     RSSSchemaRSSClientEventMetadata *_eventMetadata;
-    RSSSchemaRSSSiriVocabSyncDataDownloadContext *_syncDataDownloadContext;
-    RSSSchemaRSSSiriVocabSyncTokenReceived *_syncTokenReceived;
-    RSSSchemaRSSSiriVocabSyncTokenFetchRequestReceived *_syncTokenFetchRequestReceived;
-    RSSSchemaRSSSiriVocabSyncDataUpdatedNotificationReceived *_syncDataUpdatedNotificationReceived;
-    RSSSchemaRSSSiriVocabSyncDataDonationFailed *_syncDataDonationFailed;
-    RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncRequested *_companionSyncPluginSyncRequested;
-    RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncObjectAcquisitionStarted *_companionSyncPluginSyncObjectAcquisitionStarted;
-    RSSSchemaRSSSiriVocabSyncCompanionSyncUploadStarted *_companionSyncUploadStarted;
-    _Bool _hasEventMetadata;
-    _Bool _hasSyncDataDownloadContext;
-    _Bool _hasSyncTokenReceived;
-    _Bool _hasSyncTokenFetchRequestReceived;
-    _Bool _hasSyncDataUpdatedNotificationReceived;
-    _Bool _hasSyncDataDonationFailed;
-    _Bool _hasCompanionSyncPluginSyncRequested;
-    _Bool _hasCompanionSyncPluginSyncObjectAcquisitionStarted;
-    _Bool _hasCompanionSyncUploadStarted;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -47,26 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)�	A;
 - (void);
 - (void);
 - (void);
@@ -76,49 +39,48 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)enabled;
+- (void);
+- (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)quest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)handle = h1.ROWID LIMIT 1) IS NULL));;
+- (id);
+- (id)v;
 - (id)ùàð1Â0@ù
 × ;
-- (unsigned long long)ognizedTextStartIndex;
-- (id);
+- (unsigned long long)deleteRecognizedTextStartIndex;
+- (id)applicationsInForeground;
 - (id)coreHSThreshold;
-- (void)pressionName;
+- (void)expressionName;
 
 // Remaining properties
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncObjectAcquisitionStarted *companionSyncPluginSyncObjectAcquisitionStarted; // @synthesize companionSyncPluginSyncObjectAcquisitionStarted=_companionSyncPluginSyncObjectAcquisitionStarted;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncRequested *companionSyncPluginSyncRequested; // @synthesize companionSyncPluginSyncRequested=_companionSyncPluginSyncRequested;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncCompanionSyncUploadStarted *companionSyncUploadStarted; // @synthesize companionSyncUploadStarted=_companionSyncUploadStarted;
-@property(retain, nonatomic) RSSSchemaRSSClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCompanionSyncPluginSyncObjectAcquisitionStarted; // @synthesize hasCompanionSyncPluginSyncObjectAcquisitionStarted=_hasCompanionSyncPluginSyncObjectAcquisitionStarted;
-@property(nonatomic) _Bool hasCompanionSyncPluginSyncRequested; // @synthesize hasCompanionSyncPluginSyncRequested=_hasCompanionSyncPluginSyncRequested;
-@property(nonatomic) _Bool hasCompanionSyncUploadStarted; // @synthesize hasCompanionSyncUploadStarted=_hasCompanionSyncUploadStarted;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasSyncDataDonationFailed; // @synthesize hasSyncDataDonationFailed=_hasSyncDataDonationFailed;
-@property(nonatomic) _Bool hasSyncDataDownloadContext; // @synthesize hasSyncDataDownloadContext=_hasSyncDataDownloadContext;
-@property(nonatomic) _Bool hasSyncDataUpdatedNotificationReceived; // @synthesize hasSyncDataUpdatedNotificationReceived=_hasSyncDataUpdatedNotificationReceived;
-@property(nonatomic) _Bool hasSyncTokenFetchRequestReceived; // @synthesize hasSyncTokenFetchRequestReceived=_hasSyncTokenFetchRequestReceived;
-@property(nonatomic) _Bool hasSyncTokenReceived; // @synthesize hasSyncTokenReceived=_hasSyncTokenReceived;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncDataDonationFailed *syncDataDonationFailed; // @synthesize syncDataDonationFailed=_syncDataDonationFailed;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncDataDownloadContext *syncDataDownloadContext; // @synthesize syncDataDownloadContext=_syncDataDownloadContext;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncDataUpdatedNotificationReceived *syncDataUpdatedNotificationReceived; // @synthesize syncDataUpdatedNotificationReceived=_syncDataUpdatedNotificationReceived;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncTokenFetchRequestReceived *syncTokenFetchRequestReceived; // @synthesize syncTokenFetchRequestReceived=_syncTokenFetchRequestReceived;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncTokenReceived *syncTokenReceived; // @synthesize syncTokenReceived=_syncTokenReceived;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

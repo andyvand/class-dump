@@ -11,7 +11,7 @@
 }
 
 + (void)à_;
-- (id);
+- (id)initWithName:(double)arg1 directory:(id)arg2 version:(id)arg3 options:classRegistry: /* Error: Ran out of types for this method. */;
 
 @end
 

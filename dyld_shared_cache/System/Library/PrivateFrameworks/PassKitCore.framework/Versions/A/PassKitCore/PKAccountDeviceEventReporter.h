@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id)¬B;
-- (void)tCSg;
+- (void)So27PKPaymentDeprovisionRequestCSg;
 
 // Remaining properties
 @property(readonly, nonatomic) PKAccount *account;

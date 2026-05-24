@@ -4,63 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface SSCAMetalLayerClientResourceUsageSummary
 {
     double _peakPhysicalFootprintMiB;
-    double _averagePhysicalFootprintMiB;
-    NSNumber *_averageMemoryLimitHeadroomMiB;
-    double _diskReadsMiB;
-    double _diskWritesMiB;
-    double _diskLogicalWritesMiB;
-    unsigned long long _instructionCount;
-    unsigned long long _pCoreInstructionCount;
-    double _totalDurationSeconds;
 }
 
 - (double);
+- (double)TY;
+- (double);
+- (unsigned long long)`";
+- (double);
+- (id):(id)arg1;
 - (double);
 - (double);
-- (unsigned long long);
+- (double);
+- (double);
+- (double);
+- (double);
 - (double);
 - (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *averageMemoryLimitHeadroomMiB; // @synthesize averageMemoryLimitHeadroomMiB=_averageMemoryLimitHeadroomMiB;
-@property(readonly, nonatomic) double averagePhysicalFootprintMiB; // @synthesize averagePhysicalFootprintMiB=_averagePhysicalFootprintMiB;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double diskLogicalWritesMiB; // @synthesize diskLogicalWritesMiB=_diskLogicalWritesMiB;
-@property(readonly, nonatomic) double diskLogicalWritesMiBPerSec;
-@property(readonly, nonatomic) double diskReadsMiB; // @synthesize diskReadsMiB=_diskReadsMiB;
-@property(readonly, nonatomic) double diskReadsMiBPerSec;
-@property(readonly, nonatomic) double diskWritesMiB; // @synthesize diskWritesMiB=_diskWritesMiB;
-@property(readonly, nonatomic) double diskWritesMiBPerSec;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long instructionCount; // @synthesize instructionCount=_instructionCount;
-@property(readonly, nonatomic) double instructionCountPerSec;
-@property(readonly, nonatomic) unsigned long long pCoreInstructionCount; // @synthesize pCoreInstructionCount=_pCoreInstructionCount;
-@property(readonly, nonatomic) double pCoreInstructionCountPerSec;
 @property(readonly, nonatomic) double peakPhysicalFootprintMiB; // @synthesize peakPhysicalFootprintMiB=_peakPhysicalFootprintMiB;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double totalDurationSeconds; // @synthesize totalDurationSeconds=_totalDurationSeconds;
 
 @end
 

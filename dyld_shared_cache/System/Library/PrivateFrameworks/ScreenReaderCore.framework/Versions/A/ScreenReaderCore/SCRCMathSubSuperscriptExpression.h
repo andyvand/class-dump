@@ -10,26 +10,24 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathSubSuperscriptExpression : SCRCMathExpression
 {
     SCRCMathExpression *_base;
-    SCRCMathExpression *_subscript;
-    SCRCMathExpression *_superscript;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)["{;
+- (id)u{;
+- (id)z;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)>,m;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)T!;
 - (void);
 - (id);
 - (void);
@@ -37,8 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) SCRCMathExpression *base; // @synthesize base=_base;
-@property(retain, nonatomic) SCRCMathExpression *subscript; // @synthesize subscript=_subscript;
-@property(retain, nonatomic) SCRCMathExpression *superscript; // @synthesize superscript=_superscript;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, GCDeviceHaptics, GCHapticCapabilityGraph, NSArray, NSString;
-@protocol NSObject><NSCopying><NSSecureCoding;
+@class GCHapticCapabilityGraph, NSArray;
 
 @interface GCHapticCapabilities
 {
     NSArray *_hapticEnginesInfo;
-    GCController *_controller;
-    _Bool _initialized;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCHapticCapabilityGraph *_capabilityGraph;
-    GCDeviceHaptics *_deviceHaptics;
-    NSArray *_hapticEngines;
 }
 
 + (_Bool);
@@ -25,9 +18,9 @@
 - (id);
 - (id);
 - (id);
+- (id)l;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -36,17 +29,6 @@
 
 // Remaining properties
 @property(readonly) GCHapticCapabilityGraph *capabilityGraph; // @synthesize capabilityGraph=_capabilityGraph;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) GCDeviceHaptics *deviceHaptics; // @synthesize deviceHaptics=_deviceHaptics;
-@property(copy) NSArray *hapticEngines; // @synthesize hapticEngines=_hapticEngines;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(readonly) Class superclass;
 
 @end
 

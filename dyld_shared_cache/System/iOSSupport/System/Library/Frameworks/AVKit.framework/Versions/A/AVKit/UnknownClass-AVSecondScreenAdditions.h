@@ -8,9 +8,9 @@
 + (id);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)qQN.;
 - (id);
 - (void);
 @end

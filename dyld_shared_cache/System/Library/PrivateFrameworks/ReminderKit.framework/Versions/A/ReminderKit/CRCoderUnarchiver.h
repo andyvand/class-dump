@@ -6,24 +6,16 @@
 
 #import <ReminderKit/CRCoder.h>
 
-@class CRDocument, NSMutableArray, NSMutableOrderedSet, NSUUID;
+@class NSUUID;
 
 @interface CRCoderUnarchiver : CRCoder
 {
     NSUUID *_replica;
-    CRDocument *_document;
-    void *_currentDocument;
-    NSMutableArray *_allocedDocObjects;
-    const void *_currentDocObjectForDecodingPtr;
-    NSMutableOrderedSet *_typeSetForDecoding;
-    NSMutableOrderedSet *_keySet;
-    NSMutableArray *_uuidArray;
-    NSMutableArray *_completionHandlers;
 }
 
 + (id);
 + (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -49,7 +41,7 @@
 - (id);
 - (void *);
 - (id);
-- (id);
+- (id)_shouldSaveStyleSample;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -57,22 +49,14 @@
 - (void)!ëÐ!;
 - (long long)
 × ;
-- (double)ainsListWithCustomBadgeForTipKitWithError:(id)arg1;
+- (double)containsListWithCustomBadgeForTipKitWithError:(id)arg1;
 - (id)t",R,N,V_parentList;
 - (void);
 - (id)year in %@;
 - (int)to this NSMutableAttributedString {self:(id)arg1 %p, paragraphStyle:%@, range:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *allocedDocObjects; // @synthesize allocedDocObjects=_allocedDocObjects;
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(nonatomic) const void *currentDocObjectForDecodingPtr; // @synthesize currentDocObjectForDecodingPtr=_currentDocObjectForDecodingPtr;
-@property(nonatomic) void *currentDocument; // @synthesize currentDocument=_currentDocument;
-@property(retain, nonatomic) CRDocument *document; // @synthesize document=_document;
-@property(retain, nonatomic) NSMutableOrderedSet *keySet; // @synthesize keySet=_keySet;
 @property(copy, nonatomic) NSUUID *replica; // @synthesize replica=_replica;
-@property(retain, nonatomic) NSMutableOrderedSet *typeSetForDecoding; // @synthesize typeSetForDecoding=_typeSetForDecoding;
-@property(retain, nonatomic) NSMutableArray *uuidArray; // @synthesize uuidArray=_uuidArray;
 
 @end
 

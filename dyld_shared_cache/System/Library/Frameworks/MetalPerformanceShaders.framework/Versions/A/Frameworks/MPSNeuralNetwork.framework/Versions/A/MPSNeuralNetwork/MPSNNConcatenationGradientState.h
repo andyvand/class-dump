@@ -9,7 +9,6 @@
 @interface MPSNNConcatenationGradientState : MPSNNGradientState
 {
     unsigned int _sliceCount;
-    struct MPSSliceInfo *_info;
 }
 
 + (id);

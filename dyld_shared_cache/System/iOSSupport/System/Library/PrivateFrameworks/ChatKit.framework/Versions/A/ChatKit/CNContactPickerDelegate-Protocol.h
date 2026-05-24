@@ -5,5 +5,10 @@
 //
 
 @protocol CNContactPickerDelegate
+
+@optional
+- (void);
+- (void);
+- (void)lib/swift/libswiftDispatch.dylib;
 @end
 

@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessageCategorizationResultMetadata, EMCategory;
+@class EMCategory;
 
 @interface EDMessageCategorizationResult
 {
     EMCategory *_category;
-    EDMessageCategorizationResultMetadata *_metadata;
 }
 
-- (id);
-- (id);
+- (id)(;
+- (id)P;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)NFGreenCarFare;
 - (id);
-- (id);
+- (id)r}] Flush within range response err = %d (time to complete = %lu ms)
+;
 - (void);
 - (void);
 - (void)op index searchable_messages_message_id_reindex_type_index index to searchable_messages;
 
 // Remaining properties
 @property(retain, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(copy, nonatomic) EDMessageCategorizationResultMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

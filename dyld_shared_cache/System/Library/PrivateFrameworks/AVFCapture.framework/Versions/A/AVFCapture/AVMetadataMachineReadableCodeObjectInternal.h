@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIBarcodeDescriptor, NSArray, NSDictionary, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVMetadataMachineReadableCodeObjectInternal
 {
     NSArray *corners;
-    NSString *stringValue;
-    NSDictionary *basicDescriptor;
-    _Bool decoded;
-    CIBarcodeDescriptor *descriptor;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)initWithInputStream:(_Bool)arg1 queue: /* Error: Ran out of types for this method. */;
+- (void)initWithImageAnalyzer:(id)arg1;
+- (void)initForReadingFromData:(id)arg1 userInfo:error: /* Error: Ran out of types for this method. */;
+- (_Bool)*getkSymptomDiagnosticReplySuccess(void);
+- (id)Object<OS_nw_framer>"8;
 - (void);
 - (void);
 - (id);
@@ -29,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *basicDescriptor; // @synthesize basicDescriptor;
 @property(retain) NSArray *corners; // @synthesize corners;
-@property _Bool decoded; // @synthesize decoded;
-@property(retain) CIBarcodeDescriptor *descriptor; // @synthesize descriptor;
-@property(retain) NSString *stringValue; // @synthesize stringValue;
 
 @end
 

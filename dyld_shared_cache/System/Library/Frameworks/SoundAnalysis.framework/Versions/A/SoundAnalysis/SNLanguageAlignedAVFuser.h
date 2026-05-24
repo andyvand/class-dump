@@ -7,7 +7,6 @@
 @interface SNLanguageAlignedAVFuser
 {
     id fuserVersion;
-    id model;
 }
 
 + (_Bool);

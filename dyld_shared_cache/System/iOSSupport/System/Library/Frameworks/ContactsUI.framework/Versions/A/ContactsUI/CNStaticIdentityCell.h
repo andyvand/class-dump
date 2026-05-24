@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
 @interface CNStaticIdentityCell : CNLabeledCell
 {
     id <CNPropertyCellDelegate> _delegate;
-    UILabel *_labelLabel;
-    UILabel *_valueLabel;
 }
 
 + (_Bool);
@@ -30,12 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)straint: /* Error: Ran out of types for this method. */;
+- (void)addConstraint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) UILabel *labelLabel; // @synthesize labelLabel=_labelLabel;
-@property(readonly, nonatomic) UILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

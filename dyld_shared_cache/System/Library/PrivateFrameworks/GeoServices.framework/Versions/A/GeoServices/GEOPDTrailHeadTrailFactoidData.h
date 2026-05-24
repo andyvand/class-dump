@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTrailHeadTrailFactoidData
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_factoids;
 }
 
 - (id);
-- (void);
+- (void)removeObserver:(id)arg1 forKeyPath:context: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)sportType"b1"has_shouldSuppressCellularDataAlerts"b1};
-- (id)ywordCategorySuggestionParameters;
+- (id)_searchZeroKeywordCategorySuggestionParameters;
 - (id)DQ;
 - (void)ß¯+J@;
 

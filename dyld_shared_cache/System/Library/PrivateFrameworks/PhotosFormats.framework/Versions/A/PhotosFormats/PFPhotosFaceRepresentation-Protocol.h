@@ -5,5 +5,6 @@
 //
 
 @protocol PFPhotosFaceRepresentation
+- (double);
 @end
 

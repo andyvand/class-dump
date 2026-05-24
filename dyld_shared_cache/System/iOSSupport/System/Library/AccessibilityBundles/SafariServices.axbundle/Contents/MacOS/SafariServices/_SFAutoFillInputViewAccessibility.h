@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)8;
 + (void);
 - (id);
 - (void);

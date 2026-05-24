@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EFSQLAggregateFunction
 {
     NSString *_name;
-    NSArray *_arguments;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)ying_face;
 + (id);
++ (id)SRVoiceProfileRetrainerSATExclave needsRetrainingWithAudioFiles:(id)arg1 ];
 + (id);
++ (id)dy been deleted:(id)arg1 %@ %@;
 + (id);
++ (id)o retrieve 'https:(id)arg1 //captive.apple.com' via HTTPS;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)keEscapedExpression;
++ (id)EFSQLLikeEscapedExpression;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)r;
+- (void)_coalescer;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *arguments; // @synthesize arguments=_arguments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

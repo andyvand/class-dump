@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface EXPSchemaEXPTrialRolloutNamespace : SISchemaInstrumentationMessage
 {
     NSString *_name;
-    unsigned int _compatibilityVersion;
-    NSString *_factorPackId;
-    struct {
-        unsigned int compatibilityVersion:1;
-    } _has;
-    _Bool _hasName;
-    _Bool _hasFactorPackId;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)te code alert for message:(_Bool)arg1 %@;
+- (id)igationGuidanceInfo:(id)arg1 forAccessory:withComponent:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)bind attachmentID[%lld] to messageID[%lld]:%d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,18 +35,12 @@
 - (unsigned int)!À@ùÞ1Â0@ù
 × ;
 - (id)InNs"b1"speakingEndInNs"b1"endpointDelayInNs"b1"endpointModelDelayInNs"b1"endpointDelayInNsV2"b1};
-- (id)aPOMMESClientEventMetadata;
+- (id)POMMESSchemaPOMMESClientEventMetadata;
 - (id)t<;
-- (void);
+- (void)ODDMAOPERATION_GRAFTING;
 - (void)Ôh¹ÿ@³;
 
 // Remaining properties
-@property(nonatomic) unsigned int compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(copy, nonatomic) NSString *factorPackId; // @synthesize factorPackId=_factorPackId;
-@property(nonatomic) _Bool hasCompatibilityVersion;
-@property(nonatomic) _Bool hasFactorPackId; // @synthesize hasFactorPackId=_hasFactorPackId;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

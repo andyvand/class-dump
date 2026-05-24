@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (id);
-- (void)figurationModifier_Content;
+- (void)ControlWidgetConfigurationModifier_Content;
 
 @end
 

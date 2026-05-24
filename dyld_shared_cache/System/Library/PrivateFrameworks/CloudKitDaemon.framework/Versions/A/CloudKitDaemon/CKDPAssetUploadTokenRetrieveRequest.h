@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordFieldIdentifier, CKDPRecordType, NSData, NSMutableArray;
-
 @interface CKDPAssetUploadTokenRetrieveRequest
 {
     unsigned long long _options;
-    NSMutableArray *_assets;
-    NSData *_authPutRequest;
-    int _authPutType;
-    NSMutableArray *_contentRequestHeaders;
-    CKDPRecordFieldIdentifier *_field;
-    CKDPRecordType *_type;
-    NSMutableArray *_uploads;
-    struct {
-        unsigned int options:1;
-        unsigned int authPutType:1;
-    } _has;
 }
 
 + (Class);
@@ -40,18 +27,22 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long); interruptibleStream:%{ptr}; routingContextUUID:[%@]
+ /* Error: Ran out of types for this method. */;
+- (_Bool)6;
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id)ubmitCacheAvailabilityMetric]_block_invoke;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)ave_body_locally, mail_status, spotlight_status, mail_local_status, mail_remote_status, needs_reindex )
+VALUES ( :(int)arg1 remote_id, :mailbox,                 0,       'BODY',               '',                '',             'BODY',             0 )
+    ON CONFLICT(mailbox, remote_id)
+    DO UPDATE SET mail_status = 'BODY', mail_remote_status = 'BODY' /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (int);
@@ -65,33 +56,21 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)isKindOfClass:(unsigned long long)arg1;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void)°1Â0@ù
 × ;
-- (Class)lClouddThrottles;
+- (Class)clearAllClouddThrottles;
 - (_Bool)",W,V_identityDelegate;
 - (void)%@ IN %K;
 - (id)pedClient>"8;
 - (unsigned long long)count for email %s / dsid %s lacked a cloudKit auth token;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assets; // @synthesize assets=_assets;
-@property(retain, nonatomic) NSData *authPutRequest; // @synthesize authPutRequest=_authPutRequest;
-@property(nonatomic) int authPutType; // @synthesize authPutType=_authPutType;
-@property(retain, nonatomic) NSMutableArray *contentRequestHeaders; // @synthesize contentRequestHeaders=_contentRequestHeaders;
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *field; // @synthesize field=_field;
-@property(readonly, nonatomic) _Bool hasAuthPutRequest;
-@property(nonatomic) _Bool hasAuthPutType;
-@property(readonly, nonatomic) _Bool hasField;
-@property(nonatomic) _Bool hasOptions;
 @property(readonly, nonatomic) _Bool hasType;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) CKDPRecordType *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSMutableArray *uploads; // @synthesize uploads=_uploads;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)serverReferenceProtocol;
 - (id);
 
 @end

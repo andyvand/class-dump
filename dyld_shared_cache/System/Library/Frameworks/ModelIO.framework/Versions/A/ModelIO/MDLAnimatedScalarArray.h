@@ -13,15 +13,15 @@
 
 - (void);
 - (void);
+- (void)1;
 - (void);
-- (void);
-- (void);
+- (void));
 - (id);
 - (unsigned long long);
 - (struct VtValue);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void)ionsItemIds.timesAccessed < :(const float *)arg1 timesUsedMax AND sessions.label IN _pas_nsarray(:(unsigned long long)arg2 labels) ORDER BY RANDOM() limit :(double)arg3 limit;
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (unsigned long long);

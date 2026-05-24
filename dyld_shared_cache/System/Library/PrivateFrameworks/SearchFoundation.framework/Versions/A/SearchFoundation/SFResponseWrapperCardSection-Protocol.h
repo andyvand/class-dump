@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, SFCATModel, SFPatternModel;
+@class SFCATModel;
 
 @protocol SFResponseWrapperCardSection
+- (void);
+- (SFCATModel *);
 
 // Remaining properties
 @property(retain, nonatomic) SFCATModel *catModel;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFPatternModel *pattern_model;
-@property(copy, nonatomic) NSArray *pattern_models;
-@property(copy, nonatomic) NSData *visualCATOutput;
 @end
 

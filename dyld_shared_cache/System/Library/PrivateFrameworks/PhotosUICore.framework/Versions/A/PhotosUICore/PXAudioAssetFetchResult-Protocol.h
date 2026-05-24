@@ -8,13 +8,13 @@
 @protocol PXAudioAsset;
 
 @protocol PXAudioAssetFetchResult
-- (id <PXAudioAsset>)ialPanoHeaders;
+- (void)`;
+- (id <PXAudioAsset>)_allowSpecialPanoHeaders;
 - (id <PXAudioAsset>)°2øÿláúÿ;
 - (id <PXAudioAsset>)=	´|üñþ	´üñþe	´üñþõ´ üñþõ´¬üñþ=	´¸üñþu	´ÀüñþE	´Ðüñþ;
 - (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAsset> firstObject;
-@property(readonly, nonatomic) id <PXAudioAsset> lastObject;
 @end
 

@@ -9,14 +9,11 @@
 @interface UIKit._IntelligenceLightSourceFillProvider__priv_1224E733E1875C87E73DF2A91211E8CE.TransitionView : UIKit._UIMaterialDefinitionView
 {
     id lightSource;
-    id handle;
-    id visibilityKeyPath;
-    id lightSourceView;
 }
 
 - (id);
 - (void);
-- (id)ngCell;
+- (id)_UIContextMenuLoadingCell;
 - (void)Hël;
 
 @end

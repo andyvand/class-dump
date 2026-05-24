@@ -6,23 +6,15 @@
 
 #import <OfficeImport/CMStylingArchiveManager.h>
 
-@class NSDate, NSMutableDictionary, NSMutableString;
-
 __attribute__((visibility("hidden")))
 @interface CMProgressiveArchiveManager : CMStylingArchiveManager
 {
     const void *mClient;
-    CDStruct_4e53fc95 *mCallBacks;
-    NSMutableDictionary *mDataCache;
-    _Bool mMainDataInited;
-    NSDate *mStartDate;
-    NSDate *mLastCommitDate;
-    NSMutableString *mHtmlLogString;
 }
 
 - (void);
 - (void);
-- (void);
+- (void))(;
 - (_Bool);
 - (id);
 - (id);

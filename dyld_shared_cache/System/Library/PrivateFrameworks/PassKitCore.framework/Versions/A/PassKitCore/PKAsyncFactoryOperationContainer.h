@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (void);
-- (void)tionServiceRegistrationURL;
+- (void)deviceKey;
+- (void)transactionServiceRegistrationURL;
 
 // Remaining properties
 @property(retain, nonatomic) id object; // @synthesize object=_object;

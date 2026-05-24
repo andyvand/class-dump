@@ -6,14 +6,9 @@
 
 #import <AVFCore/AVPublisher.h>
 
-@class AVNotificationSubscription;
-
 @interface AVSwitchToLatestPublisher : AVPublisher
 {
     struct OpaqueFigReentrantMutex *_callbackMutex;
-    AVPublisher *_upstream;
-    AVNotificationSubscription *_outputPublisherSubscription;
-    int _publisherIndex;
 }
 
 + (id);

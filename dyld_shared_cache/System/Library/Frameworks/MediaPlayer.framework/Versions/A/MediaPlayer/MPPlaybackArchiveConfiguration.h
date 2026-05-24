@@ -14,7 +14,7 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGSize preferredArtworkSize; // @synthesize preferredArtworkSize=_preferredArtworkSize;

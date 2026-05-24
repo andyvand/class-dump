@@ -7,8 +7,6 @@
 @interface AWDIDSExternalIPDetectionTime
 {
     long long _timeToSucceed;
-    unsigned long long _timestamp;
-    CDStruct_88bb938d _has;
 }
 
 - (long long);
@@ -20,20 +18,17 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)aQ?	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimeToSucceed;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) long long timeToSucceed; // @synthesize timeToSucceed=_timeToSucceed;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

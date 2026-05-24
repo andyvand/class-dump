@@ -6,30 +6,10 @@
 
 #import <AVConference/VCMediaStreamRateAdaptation.h>
 
-@class VCMediaStreamStats, VCVideoStreamRateController;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamRateAdaptation : VCMediaStreamRateAdaptation
 {
     struct tagHANDLE *_rtpHandle;
-    unsigned int _sendTmmbrBitrate;
-    unsigned int _receivedTmmbnBitrate;
-    unsigned int _operatingBitrate;
-    _Bool _rateAdaptationEnabled;
-    _Bool _downlinkQualityDidChange;
-    _Bool _isOperatingAtMaxBitrate;
-    _Bool _isOperatingAtMinBitrate;
-    double _tmmbrSendTime;
-    double _tmmbnReceiveTime;
-    double _tmmbRTT;
-    double _packetLossPercentage;
-    double _adaptationTime;
-    double _maxOWRD;
-    double _averageBitrateWindowDuration;
-    struct opaqueRTCReporting *_reportingAgent;
-    int _reportingModuleID;
-    VCVideoStreamRateController *_rateController;
-    VCMediaStreamStats *_stats;
 }
 
 - (void);
@@ -39,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct tagHANDLE *);
 - (void);
 - (void);
 - (double);
 - (unsigned int);
 - (double);
-- (double);
-- (double);
+- (double);
+- (double)�{;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -55,25 +35,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (double);
+- (double)S;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isOperatingAtMaxBitrate; // @synthesize isOperatingAtMaxBitrate=_isOperatingAtMaxBitrate;
-@property(readonly, nonatomic) _Bool isOperatingAtMinBitrate; // @synthesize isOperatingAtMinBitrate=_isOperatingAtMinBitrate;
-@property(nonatomic) double maxOWRD; // @synthesize maxOWRD=_maxOWRD;
-@property(readonly, nonatomic) double nowrd;
-@property(readonly, nonatomic) double nowrdAcc;
-@property(readonly, nonatomic) double nowrdShort;
-@property(readonly, nonatomic) unsigned int operatingBitrate; // @synthesize operatingBitrate=_operatingBitrate;
-@property(readonly, nonatomic) double owrd;
-@property(readonly, nonatomic) double packetLossPercentage; // @synthesize packetLossPercentage=_packetLossPercentage;
-@property(readonly, nonatomic) double roundTripTime; // @synthesize roundTripTime=_tmmbRTT;
 @property(readonly, nonatomic) struct tagHANDLE *rtpHandle; // @synthesize rtpHandle=_rtpHandle;
-@property(readonly, nonatomic) unsigned int sendTmmbrBitrate; // @synthesize sendTmmbrBitrate=_sendTmmbrBitrate;
-@property(retain, nonatomic) VCMediaStreamStats *stats; // @synthesize stats=_stats;
 
 @end
 

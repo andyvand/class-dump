@@ -7,25 +7,22 @@
 @interface IDSFeatureToggleRetrievalResult
 {
     unsigned long long _state;
-    unsigned long long _error;
 }
 
 + (id);
 + (_Bool);
 + (id)icate request -- calling completion block with timeout error {completionBlock:(unsigned long long)arg1 %@};
-- (unsigned long long);
+- (unsigned long long)p!;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)certifiedDeliveryRts;
+- (void)e pair. Drop incoming packet %zuB on channel %@, local address [%s], remote address [%s];
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(readonly, nonatomic) _Bool success;
 
 @end

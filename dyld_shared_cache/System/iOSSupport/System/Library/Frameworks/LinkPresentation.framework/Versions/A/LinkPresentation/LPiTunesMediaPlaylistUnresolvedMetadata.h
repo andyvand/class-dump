@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaPlaylistUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_curator;
-    NSString *_curatorHandle;
-    NSString *_curatorID;
-    LPiTunesMediaAsset *_artwork;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)transcriptCollectionViewControllerReportSpamButtonTapped:(id)arg1;
+- (void)transcriptCollectionViewControllerPlayingAudioDidChange:(id)arg1;
+- (id)throwAnimationManagerPrepareForThrowAnimation:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)MBDActionDialVideo;
 - (void);
 - (id);
 - (void);
@@ -37,20 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)ìé;
 
 // Remaining properties
-@property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) NSString *curator; // @synthesize curator=_curator;
-@property(copy, nonatomic) NSString *curatorHandle; // @synthesize curatorHandle=_curatorHandle;
-@property(copy, nonatomic) NSString *curatorID; // @synthesize curatorID=_curatorID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

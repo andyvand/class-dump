@@ -11,16 +11,16 @@
     NSDictionary *_providers;
 }
 
-+ (_Bool);
++ (_Bool)isablesMultithreadedAndAsyncVideoDecompression for non video media type;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)initWithExternalizedContext:(id)arg1 userSession: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)tä;
-- (void)tionEventSourceTypeCellular;
+- (void)CTSimDeactivationEventSourceTypeCellular;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *providers; // @synthesize providers=_providers;

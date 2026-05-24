@@ -7,8 +7,6 @@
 @interface AppStoreKit.TitledButton
 {
     id title;
-    id action;
-    id id;
 }
 
 @end

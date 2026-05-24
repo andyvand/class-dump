@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIUIRenderingEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getFairPlayServiceWithError: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)rnal_mode = wal;;
 - (id);
 - (id);
-- (id)teFreqAnyGroup10MinTo1Hr;
-- (id)ontactDependentMessageSignals;
-- (_Bool)Error;
-- (_Bool)DE_GM;
+- (id)deleteFreqAnyGroup10MinTo1Hr;
+- (id)_hasContactDependentMessageSignals;
+- (_Bool)fatalError;
+- (_Bool)COUNTRYCODE_GM;
 - (void).;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

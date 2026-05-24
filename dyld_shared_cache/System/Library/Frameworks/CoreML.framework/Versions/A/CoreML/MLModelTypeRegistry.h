@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (Class);
+- (Class)24;
 - (id);
 - (id);
 - (id);

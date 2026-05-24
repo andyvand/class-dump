@@ -9,15 +9,12 @@
 @interface NeighborItem
 {
     NSString *_neighbor;
-    long long _type;
-    double _distance;
-    unsigned long long _position;
 }
 
-- (void);
-- (id);
-- (id);
-- (long long);
+- (void)yedUnarchiver"16@"NSString"24@"NSArray"32;
+- (id)setContentInset: /* Error: Ran out of types for this method. */;
+- (id)initWithStyle:(id)arg1 themePath:(long long)arg2 generator:(double)arg3;
+- (long long);
 - (unsigned long long);
 - (double);
 - (void);
@@ -26,10 +23,7 @@
 - (void)13|3ø4;
 
 // Remaining properties
-@property(nonatomic) double distance; // @synthesize distance=_distance;
 @property(retain, nonatomic) NSString *neighbor; // @synthesize neighbor=_neighbor;
-@property(nonatomic) unsigned long long position; // @synthesize position=_position;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

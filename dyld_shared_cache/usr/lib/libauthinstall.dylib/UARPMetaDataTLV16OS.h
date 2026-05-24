@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id)h;
 - (id);
-- (id);
-- (id);
+- (id)shouldShowMediaAvailablePresentationLanguagesForMediaSelectionMenuController: /* Error: Ran out of types for this method. */;
 
 @end
 

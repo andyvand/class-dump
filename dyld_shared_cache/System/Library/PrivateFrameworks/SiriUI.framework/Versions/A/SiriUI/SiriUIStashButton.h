@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSView *_backgroundView;
 }
 
-- (void);
+- (void)"8Q16^B24;
 - (id);
 - (void);
-- (void)tentView;
+- (void)contentView;
 
 // Remaining properties
 @property(retain) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;

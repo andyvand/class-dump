@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSButton, NSMutableArray, NSString, NSTableView, NSTextField, NSTouchBar, NSWindow, iCloudTouchBarController;
+@class ACAccountStore, NSWindow;
 
 @interface MMSignoutSheetController
 {
     ACAccountStore *_accountStore;
-    ACAccount *_account;
-    NSString *_telemetryFlowID;
-    NSWindow *_signoutSheet;
-    NSTableView *_serviceTable;
-    NSTextField *_messageText;
-    NSButton *_continueButton;
-    NSButton *_cancelButton;
-    NSMutableArray *_serviceInfoList;
-    NSWindow *_parentWindow;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (id);
@@ -27,11 +17,11 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)3;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)l;
 - (void);
 - (id);
 - (id);
@@ -44,35 +34,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(K;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (void)1Â0@ù
 × ;
 - (id)odianshipInfo"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property __weak NSButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSTextField *messageText; // @synthesize messageText=_messageText;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(retain) NSMutableArray *serviceInfoList; // @synthesize serviceInfoList=_serviceInfoList;
-@property __weak NSTableView *serviceTable; // @synthesize serviceTable=_serviceTable;
 @property __weak NSWindow *signoutSheet; // @synthesize signoutSheet=_signoutSheet;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol EKEventAutocompleteResultsEditItemDelegate
+
+@optional
+- (void)+s;
+- (void)&s;
 @end
 

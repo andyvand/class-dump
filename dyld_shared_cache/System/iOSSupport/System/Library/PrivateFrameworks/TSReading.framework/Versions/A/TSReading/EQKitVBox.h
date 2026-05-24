@@ -11,7 +11,7 @@
     unsigned long long mPivotIndex;
 }
 
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (struct CGRect);

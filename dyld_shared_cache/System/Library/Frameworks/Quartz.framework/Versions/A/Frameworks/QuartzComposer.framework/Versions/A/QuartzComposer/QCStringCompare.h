@@ -6,16 +6,14 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCIndexPort, QCStringPort;
+@class QCStringPort;
 
 @interface QCStringCompare : QCPatch
 {
     QCStringPort *inputString1;
-    QCStringPort *inputString2;
-    QCIndexPort *outputResult;
 }
 
-+ (_Bool);
++ (_Bool)CVA.framework/Versions/A/AppleCVA;
 + (_Bool);
 - (_Bool);
 

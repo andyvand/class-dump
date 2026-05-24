@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _PASLPReaderV1
 {
     NSData *_backingData;
-    CDStruct_601793be _mappedRegion;
-    struct __CFAllocator *_releaseReaderDeallocator;
 }
 
 - (id);
-- (void);
+- (void)or existence of event in eventForUID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)setExportedObject:(id)arg1;
+- (id)highlighting;
+- (void)setX_apple_suggestionInfoChangesAcknowledged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

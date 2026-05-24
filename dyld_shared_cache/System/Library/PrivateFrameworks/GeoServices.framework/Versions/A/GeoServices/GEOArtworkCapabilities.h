@@ -9,28 +9,22 @@
 @interface GEOArtworkCapabilities
 {
     PBUnknownFields *_unknownFields;
-    _Bool _supportAppleAccountAvatar;
-    _Bool _supportSfSymbol;
-    struct {
-        unsigned int has_supportAppleAccountAvatar:1;
-        unsigned int has_supportSfSymbol:1;
-    } _flags;
 }
 
-+ (_Bool)HasMessageTrigger:(id)arg1;
++ (_Bool)setHasMessageTrigger:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)typeCode:%s, %p /* Error: Ran out of types for this method. */;
+- (_Bool)n.bootsessionuuid;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)attSiriDidStartAttending;
 - (void);
 - (id);
 - (unsigned long long);
@@ -38,18 +32,14 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)e;
+- (id)pickupCharType;
 - (id)H½;
 - (id)ed;
 - (id);
 - (void)r6;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSupportAppleAccountAvatar;
 @property(nonatomic) _Bool hasSupportSfSymbol;
-@property(nonatomic) _Bool supportAppleAccountAvatar;
-@property(nonatomic) _Bool supportSfSymbol;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

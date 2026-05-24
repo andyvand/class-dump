@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRGroupSessionHostInfo, NSData, NSString;
+@class NSData, NSString;
 
 @interface MRDiscoveredGroupSession
 {
     NSString *_identifier;
-    MRGroupSessionHostInfo *_hostInfo;
-    long long _source;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)7	;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,15 +23,12 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)luetoothHeadGestureConfiguration";
 - (id);
-- (void)kSessionResponseMessage;
+- (void)_playbackSessionResponseMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) MRGroupSessionHostInfo *hostInfo; // @synthesize hostInfo=_hostInfo;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

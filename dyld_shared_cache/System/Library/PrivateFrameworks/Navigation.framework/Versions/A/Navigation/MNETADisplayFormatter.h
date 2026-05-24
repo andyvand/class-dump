@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNWeakTimer, NSDate, NSTimeZone;
 @protocol MNETADisplayFormatterDelegate;
 
 @interface MNETADisplayFormatter
 {
     id <MNETADisplayFormatterDelegate> _delegate;
-    double _remainingTimeToEndOfLeg;
-    double _remainingTimeToEndOfRoute;
-    NSTimeZone *_timeZone;
-    MNWeakTimer *_updateTimer;
-    double _displayRemainingTimeToEndOfLeg;
-    double _displayRemainingTimeToEndOfRoute;
-    NSDate *_displayETAToEndOfLeg;
-    NSDate *_displayETAToEndOfRoute;
 }
 
 - (void);
 - (void);
-- (double);
-- (double);
-- (id);
-- (double);
+- (double)FileImportExportBridge;
 - (double);
 - (id);
-- (id);
-- (void);
-- (void);
 - (double);
+- (double);
+- (id);
 - (id);
 - (void);
 - (void);
+- (double);
 - (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void)24q32@40Q48Q56;
 
 // Remaining properties
 @property(nonatomic) __weak id <MNETADisplayFormatterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSDate *displayETAToEndOfLeg; // @synthesize displayETAToEndOfLeg=_displayETAToEndOfLeg;
-@property(readonly, nonatomic) NSDate *displayETAToEndOfRoute; // @synthesize displayETAToEndOfRoute=_displayETAToEndOfRoute;
-@property(readonly, nonatomic) double displayRemainingTimeToEndOfLeg; // @synthesize displayRemainingTimeToEndOfLeg=_displayRemainingTimeToEndOfLeg;
-@property(readonly, nonatomic) double displayRemainingTimeToEndOfRoute; // @synthesize displayRemainingTimeToEndOfRoute=_displayRemainingTimeToEndOfRoute;
-@property(nonatomic) double remainingTimeToEndOfLeg; // @synthesize remainingTimeToEndOfLeg=_remainingTimeToEndOfLeg;
-@property(nonatomic) double remainingTimeToEndOfRoute; // @synthesize remainingTimeToEndOfRoute=_remainingTimeToEndOfRoute;
 
 @end
 

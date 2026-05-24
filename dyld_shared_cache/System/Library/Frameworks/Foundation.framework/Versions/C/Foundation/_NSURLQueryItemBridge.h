@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)IOReturn complete_connect_change(MPPriv *const);
 
 @end
 

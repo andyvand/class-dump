@@ -5,10 +5,13 @@
 //
 
 @protocol PLResource
+- (id)7a;
+- (id)suggestionFromText:priorScoreThreshold:bundleID:reason: /* Error: Ran out of types for this method. */;
+- (id)suggestionFromContactPriors:priorScoreThreshold:bundleID:reason: /* Error: Ran out of types for this method. */;
 - (id)t"24@?<v@?B@"NSError">32;
-- (id)dVisualUnderstandingClusterIndexStatusToProcessingSnapshot:photoLibrary:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)orCloudResourceType:hasAdjustments:requiresUnadjustedVersion: /* Error: Ran out of types for this method. */;
-- (id)Context:withBlock: /* Error: Ran out of types for this method. */;
+- (id)_onDemand_addVisualUnderstandingClusterIndexStatusToProcessingSnapshot:photoLibrary:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_fileResourceTypeForCloudResourceType:hasAdjustments:requiresUnadjustedVersion: /* Error: Ran out of types for this method. */;
+- (id)_enumerateGraphNodesForAssetObjectIDs:inContext:withBlock: /* Error: Ran out of types for this method. */;
 - (id)AttributedString",R,N,V_formattedSearchText;
 - (id)%@;
 - (id)%@, ignoring asset;

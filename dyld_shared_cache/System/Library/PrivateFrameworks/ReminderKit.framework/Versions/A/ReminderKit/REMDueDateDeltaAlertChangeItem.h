@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class REMDueDateDeltaAlert, REMReminderDueDateDeltaAlertContextChangeItem;
+@class REMReminderDueDateDeltaAlertContextChangeItem;
 
 @interface REMDueDateDeltaAlertChangeItem
 {
     REMReminderDueDateDeltaAlertContextChangeItem *_reminderDueDateDeltaAlertContextChangeItem;
-    REMDueDateDeltaAlert *_dueDateDeltaAlert;
 }
 
 - (void);
@@ -17,14 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)ë°!Cùs 1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) REMDueDateDeltaAlert *dueDateDeltaAlert; // @synthesize dueDateDeltaAlert=_dueDateDeltaAlert;
 @property(retain, nonatomic) REMReminderDueDateDeltaAlertContextChangeItem *reminderDueDateDeltaAlertContextChangeItem; // @synthesize reminderDueDateDeltaAlertContextChangeItem=_reminderDueDateDeltaAlertContextChangeItem;
 
 @end

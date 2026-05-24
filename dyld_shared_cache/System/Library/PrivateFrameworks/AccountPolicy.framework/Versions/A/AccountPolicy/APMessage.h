@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_os_log;
-
 @interface APMessage
 {
     int _messageType;
-    NSDictionary *_messageData;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -34,11 +29,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(readonly) NSDictionary *messageData; // @synthesize messageData=_messageData;
 @property(readonly) int messageType; // @synthesize messageType=_messageType;
-@property(readonly) NSString *messageTypeString;
-@property(readonly) int resultCode;
 
 @end
 

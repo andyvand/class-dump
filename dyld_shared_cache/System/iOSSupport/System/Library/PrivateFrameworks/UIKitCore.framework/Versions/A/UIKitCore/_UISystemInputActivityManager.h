@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSimpleAssertion, NSString, UIScene;
+@class BSSimpleAssertion, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISystemInputActivityManager
@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)updateTimeSensitiveExpirationDateWithMessageTime:hasOneTimeCode: /* Error: Ran out of types for this method. */;
+- (void)isRecoverablyDeletedMessageGUID:(_Bool)arg1;
+- (id)to, reflecting this!;
 - (id);
 - (void)É?333333ã?;
 - (id)wþ	643;
@@ -25,14 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak BSSimpleAssertion *_activeSystemInputInteraction; // @synthesize _activeSystemInputInteraction=__activeSystemInputInteraction;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

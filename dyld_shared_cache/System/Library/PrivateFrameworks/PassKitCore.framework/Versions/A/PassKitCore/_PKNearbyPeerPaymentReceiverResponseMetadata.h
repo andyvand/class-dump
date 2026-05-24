@@ -9,13 +9,6 @@
 @interface _PKNearbyPeerPaymentReceiverResponseMetadata
 {
     id encryptedData;
-    id encryptionVersion;
-    id publicKeyHash;
-    id ephemeralPublicKey;
-    id senderAddress;
-    id receiverAddress;
-    id receiverImageData;
-    id contactAddressType;
 }
 
 + (void);

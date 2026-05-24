@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, W5LogItemRequest;
+@class W5LogItemRequest;
 
 @interface W5LogItemReceipt
 {
     W5LogItemRequest *_request;
-    NSArray *_relativeURLs;
-    NSDictionary *_info;
-    double _startedAt;
-    double _completedAt;
 }
 
 + (_Bool);
@@ -22,12 +18,12 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)dControls;
 - (_Bool);
 - (void);
 - (id);
@@ -37,11 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double completedAt; // @synthesize completedAt=_completedAt;
-@property(copy, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(copy, nonatomic) NSArray *relativeURLs; // @synthesize relativeURLs=_relativeURLs;
 @property(copy, nonatomic) W5LogItemRequest *request; // @synthesize request=_request;
-@property(nonatomic) double startedAt; // @synthesize startedAt=_startedAt;
 
 @end
 

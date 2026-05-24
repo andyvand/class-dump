@@ -8,7 +8,6 @@
 {
     id _cPlacementProvider;
     id _cPlacementConfiguration;
-    id raycastLock;
 }
 
 @end

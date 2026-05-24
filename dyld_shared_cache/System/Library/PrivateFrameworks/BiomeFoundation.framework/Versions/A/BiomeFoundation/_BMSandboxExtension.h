@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessDescriptor, BMResourceContainer, NSString;
+@class BMAccessDescriptor;
 
 @interface _BMSandboxExtension
 {
     long long _handle;
-    BMAccessDescriptor *_descriptor;
-    NSString *_path;
-    BMResourceContainer *_container;
 }
 
 - (id);
 - (void);
+- (id);
+- (id)review:completion /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)B;
 
 // Remaining properties
-@property(readonly, nonatomic) BMResourceContainer *container; // @synthesize container=_container;
 @property(readonly, nonatomic) BMAccessDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

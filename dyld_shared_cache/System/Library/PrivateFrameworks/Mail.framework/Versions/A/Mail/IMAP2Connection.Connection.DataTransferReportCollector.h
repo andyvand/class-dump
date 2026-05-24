@@ -7,11 +7,6 @@
 @interface IMAP2Connection.Connection.DataTransferReportCollector
 {
     id connection;
-    id id;
-    id queue;
-    id reportDataTransfer;
-    id didStart;
-    id pendingReport;
 }
 
 @end

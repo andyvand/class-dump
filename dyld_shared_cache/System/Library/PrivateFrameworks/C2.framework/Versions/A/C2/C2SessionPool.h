@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2RoutingTable, C2SessionTLSCache, NSMapTable, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface C2SessionPool
 {
     _Bool _cleanUp_running;
-    _Bool _testBehavior_disableAutomaticCleanup;
-    NSObject<OS_dispatch_queue> *_underlyingDelegateQueue;
-    NSObject<OS_dispatch_queue> *_sessionCreation_queue;
-    NSObject<OS_dispatch_queue> *_cleanUp_queue;
-    C2RoutingTable *_routingTable;
-    C2SessionTLSCache *_sessionTLSCache;
-    NSMapTable *_useCountByObject;
-    NSMutableDictionary *_sessionGroupForSessionConfigurationName;
 }
 
 - (_Bool);
@@ -26,9 +18,9 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)izeOpAttrsI10BarrierOpTEEjRKT_RKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEE3$_0;
 - (id);
 - (void);
 - (void);
@@ -40,9 +32,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -59,22 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *cleanUp_queue; // @synthesize cleanUp_queue=_cleanUp_queue;
-@property(nonatomic) _Bool cleanUp_running; // @synthesize cleanUp_running=_cleanUp_running;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) C2RoutingTable *routingTable; // @synthesize routingTable=_routingTable;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *sessionCreation_queue; // @synthesize sessionCreation_queue=_sessionCreation_queue;
-@property(retain, nonatomic) NSMutableDictionary *sessionGroupForSessionConfigurationName; // @synthesize sessionGroupForSessionConfigurationName=_sessionGroupForSessionConfigurationName;
-@property(retain, nonatomic) C2SessionTLSCache *sessionTLSCache; // @synthesize sessionTLSCache=_sessionTLSCache;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool testBehavior_disableAutomaticCleanup; // @synthesize testBehavior_disableAutomaticCleanup=_testBehavior_disableAutomaticCleanup;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *underlyingDelegateQueue; // @synthesize underlyingDelegateQueue=_underlyingDelegateQueue;
-@property(retain, nonatomic) NSMapTable *useCountByObject; // @synthesize useCountByObject=_useCountByObject;
 
 @end
 

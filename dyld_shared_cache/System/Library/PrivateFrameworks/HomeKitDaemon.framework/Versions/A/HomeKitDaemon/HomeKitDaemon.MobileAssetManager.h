@@ -7,19 +7,14 @@
 @interface HomeKitDaemon.MobileAssetManager
 {
     id $defaultActor;
-    id dataSource;
-    id notificationCenter;
-    id scheduler;
-    id context;
-    id updating;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)tableView:typeSelectStringForTableColumn:row: /* Error: Ran out of types for this method. */;
 
 @end
 

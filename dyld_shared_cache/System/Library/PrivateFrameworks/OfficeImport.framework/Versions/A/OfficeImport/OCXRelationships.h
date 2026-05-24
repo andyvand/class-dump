@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OCXRelationships
 {
     NSString *mPath;
-    NSMutableArray *mRelationships;
-    NSMutableDictionary *mRelationshipMap;
-    unsigned long long mNextId;
 }
 
 - (void);

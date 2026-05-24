@@ -6,20 +6,11 @@
 
 #import <AuthKitUI/AKBaseSignInViewController.h>
 
-@class NSButton, NSSecureTextField, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface AKModalSignInViewController : AKBaseSignInViewController
 {
     _Bool _hideTitle;
-    NSString *_customBodyText;
-    NSString *_customButtonTitle;
-    NSView *_containerView;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
-    NSSecureTextField *_passwordField;
-    NSTextField *_errorLabel;
-    NSButton *_signInButton;
-    NSButton *_iForgotButton;
 }
 
 - (void);
@@ -27,11 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (void)5;
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)X`i;
 - (id);
 - (void);
 - (id);
@@ -61,23 +52,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
 @property(retain, nonatomic) NSView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSString *customBodyText; // @synthesize customBodyText=_customBodyText;
-@property(retain, nonatomic) NSString *customButtonTitle; // @synthesize customButtonTitle=_customButtonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideTitle; // @synthesize hideTitle=_hideTitle;
-@property(nonatomic) __weak NSButton *iForgotButton; // @synthesize iForgotButton=_iForgotButton;
-@property(nonatomic) __weak NSSecureTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(nonatomic) __weak NSButton *signInButton; // @synthesize signInButton=_signInButton;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

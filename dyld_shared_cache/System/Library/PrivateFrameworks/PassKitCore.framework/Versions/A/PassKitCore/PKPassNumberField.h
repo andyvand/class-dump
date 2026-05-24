@@ -11,7 +11,6 @@
 @interface PKPassNumberField : PKPassField
 {
     NSString *_currencyCode;
-    long long _numberStyle;
 }
 
 + (_Bool)0@ù
@@ -19,17 +18,16 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
+- (id);
+- (void)wepundec;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id):accountIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)updateImpressionCount:promotionProgramIdentifier:accountIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (void)lePayTrustSignatureRequest"16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(nonatomic) long long numberStyle; // @synthesize numberStyle=_numberStyle;
 
 @end

@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioPayload
 {
     struct SoundDec_t *_encoder;
-    VCAudioPayloadConfig *_config;
-    unsigned int _bitrate;
-    int _bandwidth;
-    _Bool _shouldReset;
-    _Bool _ramStadSRCEnabled;
-    _Bool _shortREDEnabled;
-    unsigned int _shortREDBitrate;
-    unsigned int _shortREDBytesPerFrame;
 }
 
 - (void);
@@ -31,27 +23,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (struct AudioStreamBasicDescription);
-- (id);
-- (int);
+- (id);
+- (int);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned int);
-- (id)hEstimation;
+- (id)bandwidthEstimation;
 - (id)onnectionWithBlob:(id)arg1 useRelay:isInitialRelay:error:] /* Error: Ran out of types for this method. */;
 - (int)deoStreamGroupStreamConfigWithPList:streamIDGenerator:ssrc:groupID:shouldSkip:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int bandwidth; // @synthesize bandwidth=_bandwidth;
-@property(readonly, nonatomic) unsigned int bitrate; // @synthesize bitrate=_bitrate;
 @property(readonly, nonatomic) VCAudioPayloadConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) unsigned int shortREDBitrate; // @synthesize shortREDBitrate=_shortREDBitrate;
-@property(nonatomic) _Bool shortREDEnabled; // @synthesize shortREDEnabled=_shortREDEnabled;
 
 @end
 

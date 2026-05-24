@@ -5,9 +5,10 @@
 //
 
 @protocol LPCodable
+- (unsigned long long)targetWithScreenCoordinate:initialSize:scale:meshScaleFactor:rotation:associatedLayoutIntent: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _canEncodeWithoutComputation;
 @property(readonly, nonatomic) unsigned long long _encodedSize;
 @end
 

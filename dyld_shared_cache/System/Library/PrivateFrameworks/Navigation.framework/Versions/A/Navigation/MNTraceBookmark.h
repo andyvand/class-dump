@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MNTraceBookmark
 {
     double _timestamp;
-    NSData *_imageData;
 }
 
 + (_Bool);
@@ -17,12 +14,11 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ew",&,V_viewHolderTopLevel;
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

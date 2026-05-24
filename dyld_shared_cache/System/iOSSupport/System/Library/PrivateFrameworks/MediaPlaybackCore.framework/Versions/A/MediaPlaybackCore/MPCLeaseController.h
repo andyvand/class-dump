@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MPCLeaseManager;
 @protocol MFPlaybackStackController, MFQueueItemTranslator;
 
 __attribute__((visibility("hidden")))
 @interface MPCLeaseController
 {
     id <MFPlaybackStackController> _stackController;
-    id <MFQueueItemTranslator> _translator;
-    _MPCLeaseManager *_leaseManager;
 }
 
 - (void);
-- (id);
+- (id):16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)&m;
 - (void)%p:_generateAggregateNoncatalogEndEventForCursor:- could not find queueItemIdentifier - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _MPCLeaseManager *leaseManager; // @synthesize leaseManager=_leaseManager;
-@property(nonatomic) __weak id <MFPlaybackStackController> stackController; // @synthesize stackController=_stackController;
 @property(readonly, nonatomic) id <MFQueueItemTranslator> translator; // @synthesize translator=_translator;
 
 @end

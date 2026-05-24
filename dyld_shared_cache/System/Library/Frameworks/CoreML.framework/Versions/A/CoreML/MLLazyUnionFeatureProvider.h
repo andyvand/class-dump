@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol MLFeatureProvider;
 
 __attribute__((visibility("hidden")))
 @interface MLLazyUnionFeatureProvider
 {
     id <MLFeatureProvider> _first;
-    id <MLFeatureProvider> _second;
 }
 
-- (id);
+- (id)kedFunctions:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id)ss;
+- (id)getTrialClientClass;
 - (id)^?,R,N,V_NLPSequenceModelGetRevisionImpl;
 - (void)e path is not a writable directory;
 - (id)§yo¼§ùoø§yh¤ùh@¤yi¤ùiÈ¤yj¥ùjP¥yk¥ùkØ¥yä¹ù ¹yl¹ù(¹yô¸ù°¸y|¸ù8¸yÄ»ù»yL»ù»yÔºùºy\ºùºy¤½ùà½y,½ùh½y´¼ùð¼y<¼ùx¼y¿ùÀ¿y¿ùH¿y¾ùÐ¾y¾ùX¾yd±ù ±yì±ù¨±yt°ù0°yü°ù¸°y;
@@ -27,9 +25,7 @@ __attribute__((visibility("hidden")))
 b©ù¤`©ùb©ù¹d©ùðj©ùéh©ù;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) id <MLFeatureProvider> first; // @synthesize first=_first;
-@property(retain, nonatomic) id <MLFeatureProvider> second; // @synthesize second=_second;
 
 @end
 

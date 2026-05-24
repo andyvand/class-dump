@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSThread;
-
 @interface AOSContext
 {
     struct AOSAccount *_account;
-    struct AOSTransactionC *_transaction;
-    CDUnknownFunctionPointerType _callback;
-    NSThread *_callbackThread;
-    id _info;
 }
 
 + (id);
@@ -20,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (struct AOSTransactionC *);
+- (struct AOSTransactionC *)";
 - (struct AOSAccount *);
 - (id);
 - (void);
@@ -30,13 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

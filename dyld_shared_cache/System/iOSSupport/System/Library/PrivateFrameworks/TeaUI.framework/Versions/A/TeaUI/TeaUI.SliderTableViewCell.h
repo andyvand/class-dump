@@ -7,10 +7,6 @@
 @interface TeaUI.SliderTableViewCell
 {
     id onChange;
-    id label;
-    id valueLabel;
-    id precision;
-    id slider;
 }
 
 - (void);

@@ -4,56 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSURLSession;
 
 @interface AAURLSession
 {
     _Bool _requiresSigning;
-    _Bool _requiresICSSPinning;
-    _Bool _requiresUrlCache;
-    NSURLSession *_session;
-    NSObject<OS_dispatch_queue> *_sessionQueue;
-    NSMutableDictionary *_pendingSessionOperations;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id)h;
+- (void)@;
+- (id)q;
+- (id)?;
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)extensionIdentifier;
 - (id);
 - (void);
 - (id);
-- (void)dleID: /* Error: Ran out of types for this method. */;
+- (void)setProxiedBundleID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSURLSession *urlSession;
 
 @end

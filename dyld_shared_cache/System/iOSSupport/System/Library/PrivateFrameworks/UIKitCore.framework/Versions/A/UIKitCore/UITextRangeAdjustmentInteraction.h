@@ -6,29 +6,12 @@
 
 #import <UIKitCore/UITextInteraction.h>
 
-@class NSString, UITextGestureTuning, UITextLoupeSession, UITextRangeAdjustmentGestureRecognizer, UITouch, UIView;
-@protocol UITextRangeAdjustmentInteractionDelegate;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UITextRangeAdjustmentInteraction : UITextInteraction
 {
     UIView *_gestureHostView;
-    UITextGestureTuning *_gestureTuning;
-    UITextLoupeSession *_loupeSession;
-    _Bool _baseIsStart;
-    _Bool _clientFlipsBaseIsStart;
-    id <UITextRangeAdjustmentInteractionDelegate> _adjustmentDelegate;
-    UITextRangeAdjustmentGestureRecognizer *_adjustmentGestureRecognizer;
-    double _initialDistance;
-    double _firstMovedTime;
-    UITouch *_activeTouch;
-    struct CGPoint _initialExtentPoint;
-    struct CGPoint _extentPoint;
-    struct CGPoint _initialPoint;
-    struct CGPoint _basePoint;
-    struct CGPoint _initialBasePoint;
-    struct CGRect _initialStartCaretRect;
-    struct CGRect _initialEndCaretRect;
 }
 
 - (_Bool);
@@ -42,16 +25,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void)";
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)dateFromComponents:(id)arg1;
 - (double);
 - (id);
 - (struct CGPoint);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -72,13 +55,13 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)1Â0@ù
 × ;
 - (void);
-- (_Bool)bView:showCustomImageSheetForElement:fromLocation: /* Error: Ran out of types for this method. */;
-- (void)rd: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ght;
-- (_Bool)ControllerForStackChange;
-- (void)s:(double)arg1 forEditing: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)eViewController:(struct CGPoint)arg1 replyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)webView:showCustomImageSheetForElement:fromLocation: /* Error: Ran out of types for this method. */;
+- (void)setShouldSuppressSoftwareKeyboard: /* Error: Ran out of types for this method. */;
+- (struct CGRect)configurationWithoutWeight;
+- (_Bool)_updateEnclosingTabBarControllerForStackChange;
+- (void)_availableTextRectForBounds:(double)arg1 forEditing: /* Error: Ran out of types for this method. */;
+- (_Bool)__editingControlTintColors;
+- (void)__connectToViewControllerOperatorFromRemoteViewController:(struct CGPoint)arg1 replyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool)Dirty:(id)arg1;
 - (_Bool)é;
 - (id)<;
@@ -94,27 +77,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) UITouch *activeTouch; // @synthesize activeTouch=_activeTouch;
-@property(nonatomic) __weak id <UITextRangeAdjustmentInteractionDelegate> adjustmentDelegate; // @synthesize adjustmentDelegate=_adjustmentDelegate;
-@property(readonly, nonatomic) UITextRangeAdjustmentGestureRecognizer *adjustmentGestureRecognizer; // @synthesize adjustmentGestureRecognizer=_adjustmentGestureRecognizer;
-@property(nonatomic) _Bool baseIsStart; // @synthesize baseIsStart=_baseIsStart;
-@property(nonatomic) struct CGPoint basePoint; // @synthesize basePoint=_basePoint;
-@property(nonatomic) _Bool clientFlipsBaseIsStart; // @synthesize clientFlipsBaseIsStart=_clientFlipsBaseIsStart;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGPoint extentPoint; // @synthesize extentPoint=_extentPoint;
-@property(nonatomic) double firstMovedTime; // @synthesize firstMovedTime=_firstMovedTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint initialBasePoint; // @synthesize initialBasePoint=_initialBasePoint;
-@property(nonatomic) double initialDistance; // @synthesize initialDistance=_initialDistance;
-@property(nonatomic) struct CGRect initialEndCaretRect; // @synthesize initialEndCaretRect=_initialEndCaretRect;
-@property(readonly, nonatomic) struct CGPoint initialExtentPoint; // @synthesize initialExtentPoint=_initialExtentPoint;
 @property(nonatomic) struct CGPoint initialPoint; // @synthesize initialPoint=_initialPoint;
-@property(nonatomic) struct CGRect initialStartCaretRect; // @synthesize initialStartCaretRect=_initialStartCaretRect;
-@property(readonly) Class superclass;
 
 @end
 

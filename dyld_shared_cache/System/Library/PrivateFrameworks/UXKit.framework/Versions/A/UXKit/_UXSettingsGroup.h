@@ -6,14 +6,11 @@
 
 #import <UXKit/_UXSettings.h>
 
-@class NSHashTable, NSMutableArray, NSObject;
-@protocol OS_os_log;
+@class NSMutableArray;
 
 @interface _UXSettingsGroup : _UXSettings
 {
     NSMutableArray *_internal_group;
-    NSHashTable *_internal_groupObservers;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);
@@ -34,9 +31,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ourceSection";
 - (void);
 - (id);
 - (_Bool);
@@ -44,7 +41,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long)nForSelectingCurrentTabBarItemSegment;
+- (unsigned long long)performActionForSelectingCurrentTabBarItemSegment;
 
 @end
 

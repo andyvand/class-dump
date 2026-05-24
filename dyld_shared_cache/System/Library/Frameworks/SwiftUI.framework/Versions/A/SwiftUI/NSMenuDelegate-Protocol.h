@@ -7,6 +7,7 @@
 @protocol NSMenuDelegate
 
 @optional
-- (_Bool)agePreferenceTransform;
+- (_Bool)n&;
+- (_Bool)PagePreferenceTransform;
 @end
 

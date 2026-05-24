@@ -7,9 +7,6 @@
 @interface SystemPowerNotifier
 {
     id _delegate;
-    unsigned int _rootConnection;
-    unsigned int _notifier;
-    struct IONotificationPort *_notificationPort;
 }
 
 + (id);
@@ -19,7 +16,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)_held;
 - (void);
 
 // Remaining properties

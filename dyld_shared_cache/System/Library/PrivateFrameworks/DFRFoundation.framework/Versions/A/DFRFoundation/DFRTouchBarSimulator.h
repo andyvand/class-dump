@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DFRTouchBar;
-
 __attribute__((visibility("hidden")))
 @interface DFRTouchBarSimulator
 {
     struct os_unfair_lock_s _lock;
-    long long _style;
-    DFRTouchBar *_touchBar;
 }
 
 - (id);

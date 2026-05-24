@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompleteOriginationRoutePlanningParameters, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteOriginationInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOPDAutocompleteOriginationRoutePlanningParameters *_routePlanningParameters;
-    int _autocompleteOriginationType;
-    int _clientSoftwarePlatform;
-    struct {
-        unsigned int has_autocompleteOriginationType:1;
-        unsigned int has_clientSoftwarePlatform:1;
-    } _flags;
 }
 
-+ (_Bool)sWaypointType:(id)arg1;
++ (_Bool)setHasWaypointType:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -33,18 +26,18 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)!;
 - (void);
 - (void);
-- (void);
+- (void)[CSVoiceTriggerXPCServiceProxy enableVoiceTrigger:(id)arg1 withAssertion:timestamp:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)cher_s}i^{__CFString}^?I}8^{__CFDictionary=}16i24;
 - (int);
 - (id)ails";
 - (id)entifier: /* Error: Ran out of types for this method. */;
@@ -136,13 +129,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int autocompleteOriginationType;
-@property(nonatomic) int clientSoftwarePlatform;
 @property(nonatomic) _Bool hasAutocompleteOriginationType;
-@property(nonatomic) _Bool hasClientSoftwarePlatform;
-@property(readonly, nonatomic) _Bool hasRoutePlanningParameters;
-@property(retain, nonatomic) GEOPDAutocompleteOriginationRoutePlanningParameters *routePlanningParameters;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

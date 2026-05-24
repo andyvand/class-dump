@@ -9,17 +9,14 @@
 @interface SiriUIContentButton
 {
     _Bool _isRenderingImageTemplate;
-    NSColor *_defaultColorForTemplate;
-    NSColor *_highlightColorForTemplate;
-    NSColor *_textColor;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (Class);
-+ (id)ributedStrings: /* Error: Ran out of types for this method. */;
++ (id)_fontsOfAttributedStrings: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -29,7 +26,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)l messages involving conversation %@ and removing group:(struct CGSize)arg1 %d;
 - (id);
 - (_Bool);
 - (void);
@@ -37,11 +34,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_height;
 - (void);
 - (void)!|DùqÐ1Â0@ù
 × ;
-- (void)erativeAssistantOnboardingCommandAceID;
+- (void)generativeAssistantOnboardingCommandAceID;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;

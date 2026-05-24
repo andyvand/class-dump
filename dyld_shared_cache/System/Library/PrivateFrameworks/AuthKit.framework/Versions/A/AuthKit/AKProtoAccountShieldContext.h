@@ -6,7 +6,7 @@
 
 #import <AuthKit/AKAppleIDAuthenticationContext.h>
 
-@class ACAccount, NSDate;
+@class ACAccount;
 
 @interface AKProtoAccountShieldContext : AKAppleIDAuthenticationContext
 {
@@ -20,11 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setAnnouncementSetting:(id)arg1;
 - (void)Þ ÞÈÞäÞß$ßHßdß;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *pendingDOB;
 @property(retain, nonatomic) ACAccount *protoAccount; // @synthesize protoAccount=_protoAccount;
 
 @end

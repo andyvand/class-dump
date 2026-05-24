@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioSeekCommandHandler
 {
     id playbackController;
-    id audioPlaybackTracker;
 }
 
 @end

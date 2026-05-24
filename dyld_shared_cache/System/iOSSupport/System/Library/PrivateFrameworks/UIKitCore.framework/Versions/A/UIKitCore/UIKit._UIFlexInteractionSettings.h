@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKit._UIFlexInteractionSpec, UIKit._UILiquidLensViewSpec;
-
 @interface UIKit._UIFlexInteractionSettings
 {
     _Bool liftEnabled;
-    _Bool flexEnabled;
-    UIKit._UIFlexInteractionSpec *interactionSpec;
-    UIKit._UILiquidLensViewSpec *liquidLensSpec;
 }
 
-+ (id);
++ (id)7!;
 - (void);
 - (void);
 - (id);
@@ -22,16 +17,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)ues: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_setHeight:forRowAtIndexPath:usingPresentationValues: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)©l;
 
 // Remaining properties
-@property(nonatomic) _Bool flexEnabled; // @synthesize flexEnabled;
-@property(nonatomic, retain) UIKit._UIFlexInteractionSpec *interactionSpec; // @synthesize interactionSpec;
 @property(nonatomic) _Bool liftEnabled; // @synthesize liftEnabled;
-@property(nonatomic, retain) UIKit._UILiquidLensViewSpec *liquidLensSpec; // @synthesize liquidLensSpec;
 
 @end
 

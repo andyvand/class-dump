@@ -5,5 +5,6 @@
 //
 
 @protocol SGDSuggestManagerIpsosProtocol
+- (void);
 @end
 

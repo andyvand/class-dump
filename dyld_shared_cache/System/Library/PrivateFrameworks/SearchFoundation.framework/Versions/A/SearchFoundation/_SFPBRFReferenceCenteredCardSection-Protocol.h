@@ -7,13 +7,11 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFReferenceCenteredCardSection
+- (_SFPBRFTextProperty *)8;
+- (id)`;
+- (NSData *)_unvisitedNonHintResourcesInfos;
 
 // Remaining properties
-@property(nonatomic) _Bool add_tint;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
 @end
 

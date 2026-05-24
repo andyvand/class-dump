@@ -6,15 +6,12 @@
 
 #import <PhotosUICore/PXPeopleDataSource.h>
 
-@class NSArray, NSObject, NSString, PHPhotoLibrary;
+@class NSObject, PHPhotoLibrary;
 @protocol OS_dispatch_queue;
 
 @interface PXPeopleWidgetDataSource : PXPeopleDataSource
 {
     NSObject<OS_dispatch_queue> *_fetchQueue;
-    _Bool _isForOneUp;
-    _Bool _prefetchingStarted;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
@@ -28,24 +25,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)DefaultSubscribedTopicScoreConfiguration;
 - (void);
 - (void);
 - (void)4¶ÿ«;
 - (id)HÁ÷ÿÖï¬f;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForOneUp; // @synthesize isForOneUp=_isForOneUp;
-@property(readonly, nonatomic) NSArray *members; // @dynamic members;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(nonatomic) _Bool prefetchingStarted; // @synthesize prefetchingStarted=_prefetchingStarted;
-@property(readonly) Class superclass;
 
 @end
 

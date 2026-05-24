@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLCredential, NSURLProtectionSpace;
+@class NSURLCredential;
 
 __attribute__((visibility("hidden")))
 @interface CredentialAndProtectionSpace
 {
     NSURLCredential *_credential;
-    NSURLProtectionSpace *_protectionSpace;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSURLCredential *credential; // @synthesize credential=_credential;
-@property(readonly, nonatomic) NSURLProtectionSpace *protectionSpace; // @synthesize protectionSpace=_protectionSpace;
 
 @end
 

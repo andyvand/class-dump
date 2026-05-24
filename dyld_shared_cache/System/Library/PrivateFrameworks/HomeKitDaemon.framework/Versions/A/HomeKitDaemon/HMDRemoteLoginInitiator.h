@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDRemoteLoginBase.h>
 
-@class HMDRemoteLoginAnisetteDataProviderBridge, HMDRemoteLoginInitiatorSession, HMDRemoteLoginMessageSender, NSString;
+@class HMDRemoteLoginInitiatorSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginInitiator : HMDRemoteLoginBase
 {
     HMDRemoteLoginInitiatorSession *_loginSession;
-    HMDRemoteLoginAnisetteDataProviderBridge *_anisetteProviderBridge;
-    HMDRemoteLoginMessageSender *_remoteMessageSender;
 }
 
 + (id)ã=C;
@@ -21,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)removeSharingWith: /* Error: Ran out of types for this method. */;
+- (id)_messagesStatusFetchQueue;
 - (void);
 - (void);
 - (id);
@@ -30,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,16 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)Bedroom;
 
 // Remaining properties
-@property(retain, nonatomic) HMDRemoteLoginAnisetteDataProviderBridge *anisetteProviderBridge; // @synthesize anisetteProviderBridge=_anisetteProviderBridge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMDRemoteLoginInitiatorSession *loginSession; // @synthesize loginSession=_loginSession;
-@property(retain, nonatomic) HMDRemoteLoginMessageSender *remoteMessageSender; // @synthesize remoteMessageSender=_remoteMessageSender;
-@property(readonly) Class superclass;
 
 @end
 

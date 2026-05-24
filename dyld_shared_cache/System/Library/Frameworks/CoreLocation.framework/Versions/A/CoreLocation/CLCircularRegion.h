@@ -9,11 +9,6 @@
 @interface CLCircularRegion : CLRegion
 {
     _Bool _isLowPower;
-    _Bool _allowMonitoringWhileNearby;
-    int _geoReferenceFrame;
-    double _geoRadius;
-    double _desiredAccuracy;
-    struct CLLocationCoordinate2D _geoCenter;
 }
 
 @end

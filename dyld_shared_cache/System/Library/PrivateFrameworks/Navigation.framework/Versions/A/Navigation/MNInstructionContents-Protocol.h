@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol MNInstructionContents
+- (_Bool);
+- (NSString *)"G4Element;
+- (void)T);
 
 // Remaining properties
 @property(readonly, nonatomic) long long context;
-@property(readonly, nonatomic) _Bool hasServerContent;
-@property(retain, nonatomic) NSString *roadName;
-@property(nonatomic) _Bool suppressFallback;
-@property(nonatomic) _Bool suppressNames;
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, SafariWebBookmark, WBSSiriIntelligenceHistorySearch;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksSearcher
 {
     NSMutableArray *_allMatches;
-    struct __CFDictionary *_collectionsForMatches;
-    WBSSiriIntelligenceHistorySearch *_siriHistorySearch;
-    NSArray *_entitiesFilter;
-    _Bool _canMatchContainers;
-    _Bool _hasPerformedSearch;
-    int _searchDomain;
-    unsigned long long _searchCriteria;
-    SafariWebBookmark *_targetCollection;
-    NSString *_searchString;
 }
 
 - (id);
@@ -47,12 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)H.;
 
 // Remaining properties
-@property(nonatomic) _Bool canMatchContainers; // @synthesize canMatchContainers=_canMatchContainers;
-@property(readonly, nonatomic) _Bool hasPerformedSearch; // @synthesize hasPerformedSearch=_hasPerformedSearch;
 @property(nonatomic) unsigned long long searchCriteria; // @synthesize searchCriteria=_searchCriteria;
-@property(nonatomic) int searchDomain; // @synthesize searchDomain=_searchDomain;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain, nonatomic) SafariWebBookmark *targetCollection; // @synthesize targetCollection=_targetCollection;
 
 @end
 

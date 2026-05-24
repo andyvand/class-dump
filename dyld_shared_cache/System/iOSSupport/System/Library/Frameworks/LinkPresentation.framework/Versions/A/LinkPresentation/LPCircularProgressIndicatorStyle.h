@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface LPCircularProgressIndicatorStyle
 {
     double _borderWidth;
-    UIColor *_borderColor;
-    UIColor *_fillColor;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)X;
 - (void);
 - (double);
 - (void)!Fùqð1Â0@ù
@@ -26,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)LPApplePhotosSharedLibraryInvitationMetadataProviderSpecialization.m;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;
 @property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
 
 @end
 

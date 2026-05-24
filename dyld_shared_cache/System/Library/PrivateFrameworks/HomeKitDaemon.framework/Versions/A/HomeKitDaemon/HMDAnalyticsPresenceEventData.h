@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface HMDAnalyticsPresenceEventData
 {
     int _presenceEventGranularity;
-    int _presenceEventType;
 }
 
 - (void);
 - (int);
-- (void);
-- (int);
+- (void)titleTupleForDayHighlightGroupNode:(int)arg1 locationHelper:error: /* Error: Ran out of types for this method. */;
+- (int)setPersonAgeDifferentThanMeNode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int presenceEventGranularity; // @synthesize presenceEventGranularity=_presenceEventGranularity;
-@property(nonatomic) int presenceEventType; // @synthesize presenceEventType=_presenceEventType;
 
 @end
 

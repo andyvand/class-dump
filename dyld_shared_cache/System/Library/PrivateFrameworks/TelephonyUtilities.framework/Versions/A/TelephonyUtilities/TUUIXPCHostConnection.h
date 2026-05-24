@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, TUUIXPCHostConnectionDelegate, TUUIXPCHostDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TUUIXPCHostConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    id <TUUIXPCHostConnectionDelegate> _connectionDelegate;
-    id <TUUIXPCHostDelegate> _hostDelegate;
 }
 
 - (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)PlatformXRSystem_RequestPermissionOnSessionFeaturesReply;
 - (void);
 - (id);
 - (void);
@@ -30,25 +27,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)_createAndHandleUncaughtSystemExceptionWithSignal:(id)arg1 pc:sp: /* Error: Ran out of types for this method. */;
 - (void)
 × ;
 - (void)nLinkDescriptorDataSourceDelegate>"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id <TUUIXPCHostConnectionDelegate> connectionDelegate; // @synthesize connectionDelegate=_connectionDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <TUUIXPCHostDelegate> hostDelegate; // @synthesize hostDelegate=_hostDelegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

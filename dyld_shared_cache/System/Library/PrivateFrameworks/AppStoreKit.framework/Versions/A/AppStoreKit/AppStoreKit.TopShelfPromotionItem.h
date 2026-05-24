@@ -9,13 +9,6 @@
 @interface AppStoreKit.TopShelfPromotionItem : AppStoreKit.TopShelfItem
 {
     id promotionText;
-    id contextTitle;
-    id promotionImageName;
-    id contextImageName;
-    id previewVideoUrl;
-    id cinemagraphUrl;
-    id termsAndConditionsText;
-    id promotionHeadingTintStyle;
 }
 
 @end

@@ -7,15 +7,9 @@
 @interface PassKitCore.ProvisioningStepLostMode
 {
     id context;
-    id credential;
-    id sharedState;
-    id secureElement;
-    id completion;
-    id timeout;
-    id hasRequestUserExitLostMode;
 }
 
-- (id);
+- (id)	;
 - (void)Lä;;
 
 @end

@@ -11,7 +11,7 @@
 }
 
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (struct CGPoint);
 - (_Bool);

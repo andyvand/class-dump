@@ -13,14 +13,14 @@
     NSString *_protocolVersion;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void)tC__GfÒ$G;
-- (void)oShowTracksDefault;
+- (void)episodesToShowTracksDefault;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *protocolVersion; // @synthesize protocolVersion=_protocolVersion;

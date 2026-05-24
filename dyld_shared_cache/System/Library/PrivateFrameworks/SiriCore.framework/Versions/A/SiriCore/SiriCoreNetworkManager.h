@@ -4,66 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSNumber, NSObject, NSString, SiriCoreWiFiManagerClient;
-@protocol OS_dispatch_queue, OS_nw_path_evaluator;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SiriCoreNetworkManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    NSObject<OS_nw_path_evaluator> *_pathEvaluator;
-    int _pathStatus;
-    _Bool _pathUsesCellular;
-    SiriCoreWiFiManagerClient *_wiFiManagerClient;
-    _Bool _hasSymptomsBasedInstantCellQuality;
-    _Bool _symptomsBasedInstantCellQualityIsGood;
-    _Bool _hasSymptomsBasedInstantWiFiQuality;
-    _Bool _symptomsBasedInstantWiFiQualityIsGood;
-    _Bool _hasSymptomsBasedHistoricalCellQuality;
-    _Bool _symptomsBasedHistoricalCellQualityIsGood;
-    _Bool _hasSymptomsBasedHistoricalWiFiQuality;
-    _Bool _symptomsBasedHistoricalWiFiQualityIsGood;
-    _Bool _lastFetchInProgress;
-    double _lastSuccessfulSymptomsFetch;
-    NSNumber *_lastSignalStrength;
-    unsigned long long _subscriptionCount;
-    NSString *_carrierName;
 }
 
-+ (void);
-+ (void);
-+ (id);
-+ (long long);
-+ (long long);
-+ (void);
-+ (void);
-+ (id);
-- (long long);
++ (void)EFPropertyKey_hasEncryptedDescendantPart;
++ (void)MailDirectoryNameSuffix;
++ (id)sender:(id)arg1 %@
+	to:(_Bool)arg2 %@
+	cc:%@
+	flags:%@
+	date:%@ /* Error: Ran out of types for this method. */;
++ (long long)bleMessageID:(id)arg1 %@
+	bodyText:%@
+	subject:%@
+	sender:%@
+	to:%@
+	cc:%@
+	flags:%@
+	date:%@ /* Error: Ran out of types for this method. */;
++ (long long)CodeQueue;
++ (void)EMMessageSnippetHintZoneRecipientEmailAddresses;
++ (void)cate"8;
++ (id)P;
+- (long long)VIPsUpdated;
+- (void)AllowFilterBySender;
+- (void)HideSearchIndexerResults;
+- (void)nt:displayStarted reason:%ld sections:%lu /* Error: Ran out of types for this method. */;
+- (void):(id *)arg1 159px; font-family:(unsigned long long *)arg2 'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)x; height:(CDUnknownBlockType)arg1 134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void):1px solid #CACACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)EMServerConfiguration;
+- (long long)[EMRepository refreshQueryWithObserver:] /* Error: Ran out of types for this method. */;
+- (long long)8@"NSError"16;
+- (void)32@?0@"NSURLSessionTaskTransactionMetrics"8Q16^B24;
+- (id)metrics_countOfResponseBodyBytesAfterDecoding;
+- (void)SData"8@"NSURLResponse"16@"NSError"24;
+- (long long)EFPropertyKey_sourceIsManaged;
+- (long long)EFPropertyKey_deliveryAccount;
+- (long long)m;
+- (long long)EMQueryingCollection;
+- (void)t descriptors:(id)arg1 %@ 
+	suggestion:%@ 
+	queryOptions:%lu
+	limit:%ld /* Error: Ran out of types for this method. */;
+- (void)delayed;
+- (long long)arrivalActualTime;
+- (_Bool)carrierWebsite;
+- (void)objectID;
+- (_Bool)EFPropertyKey_shouldEncrypt;
+- (_Bool)EFPropertyKey_action;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)40;
 - (void);
 - (void);
 - (void);

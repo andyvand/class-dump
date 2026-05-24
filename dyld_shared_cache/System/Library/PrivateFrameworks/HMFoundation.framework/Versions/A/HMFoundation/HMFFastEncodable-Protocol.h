@@ -7,6 +7,6 @@
 @class NSData;
 
 @protocol HMFFastEncodable
-- (NSData *)State;
+- (NSData *)rootState;
 @end
 

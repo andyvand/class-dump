@@ -6,8 +6,6 @@
 
 #import <AppKit/NSControl.h>
 
-@class _NSImageBezelView;
-
 @interface NSImageView : NSControl
 {
     struct {
@@ -24,10 +22,6 @@
         unsigned int _editable:1;
         unsigned int _placeholderPropertyPrecedence:1;
     } _ivFlags;
-    id _target;
-    SEL _action;
-    long long _preferredImageDynamicRange;
-    _NSImageBezelView *__bezelView;
 }
 
 @end

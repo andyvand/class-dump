@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, NSView;
+@class NSMutableArray;
 
 @interface CalUIRowView
 {
     double _spacing;
-    double _padding;
-    NSMutableArray *_iViews;
-    NSMutableArray *_sortValues;
-    NSMutableArray *_spacingConstraints;
-    NSMutableArray *_baselineConstraints;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    NSView *_baselineView;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)|;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -43,23 +35,14 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (double);
+- (double)B;
 - (void);
-- (double)ateYearlyDateScrubber;
+- (double)createYearlyDateScrubber;
 - (void)calculateKeyViewLoop;
 - (void)tionResult",&,V_suggestion;
 
 // Remaining properties
-@property(retain) NSMutableArray *baselineConstraints; // @synthesize baselineConstraints=_baselineConstraints;
-@property(retain) NSView *baselineView; // @synthesize baselineView=_baselineView;
 @property(retain) NSMutableArray *iViews; // @synthesize iViews=_iViews;
-@property(retain) NSLayoutConstraint *leadingConstraint; // @synthesize leadingConstraint=_leadingConstraint;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(retain) NSMutableArray *sortValues; // @synthesize sortValues=_sortValues;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
-@property(retain) NSMutableArray *spacingConstraints; // @synthesize spacingConstraints=_spacingConstraints;
-@property(retain) NSLayoutConstraint *trailingConstraint; // @synthesize trailingConstraint=_trailingConstraint;
-@property(readonly) NSArray *views;
 
 @end
 

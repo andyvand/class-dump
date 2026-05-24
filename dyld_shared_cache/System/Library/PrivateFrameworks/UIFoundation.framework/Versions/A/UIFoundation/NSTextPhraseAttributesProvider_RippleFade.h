@@ -4,56 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTextPhraseAnimationController;
+@class NSTextPhraseAnimationController;
 
 __attribute__((visibility("hidden")))
 @interface NSTextPhraseAttributesProvider_RippleFade
 {
     NSTextPhraseAnimationController *_controller;
-    double _startTime;
-    double _currentTime;
-    double _totalElapsedTime;
-    long long _phraseCount;
-    long long _primaryPhraseIndex;
-    long long _secondaryPhraseIndex;
-    long long _animationElapsedTimeIndex;
-    long long _totalElapsedTimeIndex;
-    long long _cycleTimeIndex;
-    long long _cycleCount;
-    double _scaleFactorArray[255];
-    double _opacityFactorArray[255];
-    NSArray *_delayArrays;
-    NSArray *_animatingAttributedStringPhrases;
 }
 
 - (long long);
-- (void);
+- (void)C;
 - (long long);
 - (double);
 - (void);
 - (long long);
 - (long long);
-- (double);
-- (_Bool);
+- (double)";
+- (_Bool)T;
 - (void);
-- (void);
+- (void)$ˉ;
 - (long long);
 - (long long);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (double);
-- (void);
+- (double)hh8;
+- (void)$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

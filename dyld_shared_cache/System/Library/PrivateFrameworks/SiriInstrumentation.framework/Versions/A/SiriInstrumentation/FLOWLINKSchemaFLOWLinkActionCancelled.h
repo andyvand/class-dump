@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLinkActionCancelled : SISchemaInstrumentationMessage
 {
     int _cancellationInitiator;
-    struct {
-        unsigned int cancellationInitiator:1;
-    } _has;
 }
 
 - (void);
@@ -33,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) int cancellationInitiator; // @synthesize cancellationInitiator=_cancellationInitiator;
-@property(nonatomic) _Bool hasCancellationInitiator;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,9 +9,9 @@
     id gradientDescriptor;
 }
 
-+ (Class);
-- (id);
-- (id);
++ (Class)|;
+- (id)A;
+- (id)setTopStoryMandatoryArticleCount:(struct CGRect)arg1;
 - (void)xÿÿ&9þÿýÿ;
 
 @end

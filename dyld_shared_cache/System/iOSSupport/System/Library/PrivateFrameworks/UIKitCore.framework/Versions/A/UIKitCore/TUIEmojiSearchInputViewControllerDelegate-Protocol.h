@@ -9,9 +9,9 @@
 @protocol TUIEmojiSearchInputViewControllerDelegate
 - (void)
 × ;
-- (void)sentationView:(UITextField *)arg1 action: /* Error: Ran out of types for this method. */;
+- (void)viewStateForActionRepresentationView:(UITextField *)arg1 action: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)w9DebugView;
+- (void)_TtCC5UIKit20ScrollEdgeEffectView9DebugView;
 
 @optional
 - (void);

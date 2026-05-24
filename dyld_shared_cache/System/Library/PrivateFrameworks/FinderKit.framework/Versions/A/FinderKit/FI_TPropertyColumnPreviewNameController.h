@@ -6,16 +6,10 @@
 
 #import <FinderKit/FI_TPropertyTitleBubbleViewController.h>
 
-@class FI_TBrowserImmediateActionGestureRecognizerDelegate, NSImmediateActionGestureRecognizer;
-
 __attribute__((visibility("hidden")))
 @interface FI_TPropertyColumnPreviewNameController : FI_TPropertyTitleBubbleViewController
 {
     struct TFENodeVector _nodes;
-    FI_TBrowserImmediateActionGestureRecognizerDelegate *_immediateActionGestureRecognizerDelegate;
-    NSImmediateActionGestureRecognizer *_renameImmediateActionGestureRecognizer;
-    struct TNotificationCenterObserver _clipViewBoundsChangedObserver;
-    struct TNotificationCenterObserver _columnViewClipViewBoundsChangedObserver;
 }
 
 - (id);

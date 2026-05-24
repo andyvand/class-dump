@@ -10,10 +10,10 @@
 {
 }
 
-+ (struct CGSize);
++ (struct CGSize)AAyAAyAbLGAPGGG;
 - (BOOL);
-- (id);
-- (struct CGSize);
+- (id)determine label for attachment size:%hd /* Error: Ran out of types for this method. */;
+- (struct CGSize)licit mention at %@, not allowed to auto convert;
 - (Class);
 
 @end

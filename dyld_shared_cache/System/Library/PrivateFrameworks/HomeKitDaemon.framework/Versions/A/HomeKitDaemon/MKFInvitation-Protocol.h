@@ -4,19 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFInvitationDatabaseID, NSArray, NSDate, NSNumber, NSUUID;
+@class NSArray, NSDate, NSUUID;
+@protocol MKFWeekDayScheduleRule, MKFYearDayScheduleRule;
 
 @protocol MKFInvitation
+- (NSArray *);
+- (id <MKFYearDayScheduleRule>)CConnection"24;
+- (id <MKFWeekDayScheduleRule>)y"16@"NSDictionary"24;
+- (void)handles;
+- (void)queue updated but still backing off, %#.1lfs to go;
+- (void)_TtC11PhotosGraph50PhotosChallengeEvaluableAlgorithmRevivalLeadersDay;
 - (NSUUID *)áàð!@ù1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFInvitationDatabaseID *databaseID;
 @property(copy, nonatomic) NSDate *expiryDate;
-@property(copy, nonatomic) NSUUID *idsIdentifier;
-@property(copy, nonatomic) NSNumber *invitationState;
-@property(readonly, retain, nonatomic) NSArray *weekDayScheduleRules;
-@property(copy, nonatomic) NSDate *writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *yearDayScheduleRules;
 @end
 

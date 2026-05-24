@@ -20,19 +20,17 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)9J;
 - (struct CGPoint);
 - (void);
 - (long long);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PDFPage *page;
-@property(readonly, nonatomic) struct CGPoint point;
-@property(nonatomic) double zoom;
 
 @end
 

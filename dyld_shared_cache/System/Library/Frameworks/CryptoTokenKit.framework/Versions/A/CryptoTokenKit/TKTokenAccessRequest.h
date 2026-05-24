@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, NSXPCConnection, TKTokenID;
+@class NSString;
 
 @interface TKTokenAccessRequest
 {
     _Bool _clientHasAccessTokenEntitlement;
-    NSString *_clientBundleID;
-    NSString *_clientName;
-    TKTokenID *_tokenID;
-    NSString *_providerBundleID;
-    NSString *_providerName;
-    NSUUID *_correlationID;
-    NSXPCConnection *_clientConnection;
 }
 
 - (id);
@@ -23,23 +16,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)8;
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)edential;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property(readonly, nonatomic) NSXPCConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(readonly, nonatomic) _Bool clientHasAccessTokenEntitlement; // @synthesize clientHasAccessTokenEntitlement=_clientHasAccessTokenEntitlement;
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, nonatomic) NSUUID *correlationID; // @synthesize correlationID=_correlationID;
-@property(readonly, nonatomic) NSString *providerBundleID; // @synthesize providerBundleID=_providerBundleID;
-@property(readonly, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
-@property(readonly, nonatomic) TKTokenID *tokenID; // @synthesize tokenID=_tokenID;
 
 @end
 

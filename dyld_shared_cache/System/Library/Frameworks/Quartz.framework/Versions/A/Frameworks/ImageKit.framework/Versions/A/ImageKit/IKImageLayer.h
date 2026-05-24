@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAKeyframeAnimation, CALayer, IKComposer, IKImageView, IKKnobLayer, NSClipView, NSDictionary, NSScrollView, NSString, NSURL;
+@class NSURL;
 
 @interface IKImageLayer
 {
     NSURL *_url;
-    struct CGImage *_cgImageRef;
-    struct CGImage *_cachedImage;
-    struct CGSize _cachedImageSize;
-    struct CGAffineTransform _cachedCTM;
-    struct CGImageSource *_isr;
-    NSDictionary *_imageProperties;
-    _Bool _animateTransition;
-    CALayer *_backgroundLayer;
-    IKComposer *_composer;
-    int _orientationTag;
-    unsigned long long _imageIndex;
-    struct CGSize _dpi;
-    double _userSpaceScaleFactor;
-    CAKeyframeAnimation *_gifAnimation;
-    NSScrollView *_ikScrollView;
-    NSClipView *_ikClipView;
-    IKImageView *_ikImageView;
-    IKKnobLayer *_ikKnobLayer;
-    struct CGPoint _eventMouseDownLocation;
-    double _imageScalingX;
-    double _imageScalingY;
-    struct CGPoint _imageScalingUserScaled;
-    double _imageRotation;
-    _Bool _nonSquarePixels;
-    double _nonSquareWidthFactor;
-    double _nonSquareHeightFactor;
-    _Bool _canAnimateImage;
-    _Bool _isAnimatingImage;
-    _Bool _closingDown;
-    _Bool _supportsSubsampling;
-    _Bool _badImage;
-    _Bool _handlingBoundsChanged;
-    _Bool _waitingForResetAnchorPoint;
-    struct CGSize _originalImageSize;
-    struct CGRect _startBoundsRect;
-    struct CGAffineTransform _imageTransform;
-    struct _opaque_pthread_mutex_t _imageLayerLock;
-    _Bool _userDefaultsOverwriteMagnificationFilter;
-    _Bool _userDefaultsOverwriteMinificationFilter;
-    NSString *_magnificationFilterName;
-    NSString *_minificationFilterName;
 }
 
 + (_Bool);
@@ -57,7 +16,7 @@
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -66,7 +25,7 @@
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (_Bool);
 - (void);
 - (void);
@@ -94,7 +53,7 @@
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (id);
@@ -130,7 +89,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (struct CGSize);
@@ -149,19 +108,19 @@
 - (void);
 - (double);
 - (double);
-- (void);
-- (void);
-- (void);
+- (void)edResultsController"16;
+- (void)keyPathsForValuesAffectingScheduleRepresentation;
+- (void)downtime;
 - (struct CGImage *);
 - (_Bool);
 - (struct CGImage *);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)I};
+- (void)initWithProjectId:(struct CGRect)arg1 paths: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
@@ -206,24 +165,7 @@ kernel vec4 moreMagenta (sampler src, float param)
 ;
 
 // Remaining properties
-@property(readonly) struct CGImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property _Bool canAnimateImage; // @synthesize canAnimateImage=_canAnimateImage;
-@property double imageRotation; // @synthesize imageRotation=_imageRotation;
-@property struct CGPoint imageScalingUserScaled; // @synthesize imageScalingUserScaled=_imageScalingUserScaled;
 @property(nonatomic) double imageScalingX; // @synthesize imageScalingX=_imageScalingX;
-@property(nonatomic) double imageScalingY; // @synthesize imageScalingY=_imageScalingY;
-@property _Bool isAnimatingImage; // @synthesize isAnimatingImage=_isAnimatingImage;
-@property _Bool isBadImage; // @synthesize isBadImage=_badImage;
-@property(copy) NSString *magnificationFilterName; // @synthesize magnificationFilterName=_magnificationFilterName;
-@property(copy) NSString *minificationFilterName; // @synthesize minificationFilterName=_minificationFilterName;
-@property double nonSquareHeightFactor; // @synthesize nonSquareHeightFactor=_nonSquareHeightFactor;
-@property _Bool nonSquarePixels; // @synthesize nonSquarePixels=_nonSquarePixels;
-@property double nonSquareWidthFactor; // @synthesize nonSquareWidthFactor=_nonSquareWidthFactor;
-@property int orientationTag; // @synthesize orientationTag=_orientationTag;
-@property struct CGSize originalImageSize; // @synthesize originalImageSize=_originalImageSize;
-@property _Bool userDefaultsOverwriteMagnificationFilter; // @synthesize userDefaultsOverwriteMagnificationFilter=_userDefaultsOverwriteMagnificationFilter;
-@property _Bool userDefaultsOverwriteMinificationFilter; // @synthesize userDefaultsOverwriteMinificationFilter=_userDefaultsOverwriteMinificationFilter;
-@property(readonly, nonatomic) double userSpaceScaleFactor; // @synthesize userSpaceScaleFactor=_userSpaceScaleFactor;
 
 @end
 

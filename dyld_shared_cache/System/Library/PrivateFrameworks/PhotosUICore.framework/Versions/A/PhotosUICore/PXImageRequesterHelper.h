@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, PXImageRequester;
-@protocol PXDisplayAsset, PXUIImageProvider;
+@class PXImageRequester;
+@protocol PXDisplayAsset;
 
 @interface PXImageRequesterHelper
 {
     id <PXDisplayAsset> _asset;
-    id <PXUIImageProvider> _mediaProvider;
-    double _scale;
-    NSImage *_image;
-    PXImageRequester *_imageRequester;
-    struct CGSize _contentSize;
-    struct CGRect _contentsRect;
 }
 
 - (void);
-- (id);
+- (id)=C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tagChannelPickerConfigurations;
 - (double);
-- (struct CGRect);
+- (struct CGRect)
+;
 - (id);
 - (void);
 - (id);
@@ -44,20 +39,7 @@ Then reboot.;
 - (struct CGSize)òâMÊ>;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) PXImageRequester *imageRequester; // @synthesize imageRequester=_imageRequester;
-@property(readonly, nonatomic) id <PXUIImageProvider> mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
 
 @end
 

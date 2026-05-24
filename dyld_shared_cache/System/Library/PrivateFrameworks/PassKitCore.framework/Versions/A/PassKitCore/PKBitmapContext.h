@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKBitmapContext
 {
     unsigned char _vImageAccessCounter;
-    struct vImage_CGImageFormat _format;
-    struct vImage_Buffer _buffer;
-    NSData *_wrappedBuffer;
-    struct CGContext *_context;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
+- (void)m;
+- (void)J;
+- (void);
 - (id);
-- (void)ionFieldName;
+- (void)PKPassPersonalizationFieldName;
 
 @end
 

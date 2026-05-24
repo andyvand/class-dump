@@ -11,16 +11,14 @@ __attribute__((visibility("hidden")))
 @interface BRProgressProxy
 {
     NSURL *_url;
-    id _globalProgressSubscriber;
-    id <BRProgressProxyDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)qq;
 - (id);
 - (void);
 

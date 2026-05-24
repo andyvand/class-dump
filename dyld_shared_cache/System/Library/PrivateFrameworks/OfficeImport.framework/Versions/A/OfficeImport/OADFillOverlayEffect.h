@@ -6,20 +6,17 @@
 
 #import <OfficeImport/OADEffect.h>
 
-@class OADFill;
-
 __attribute__((visibility("hidden")))
 @interface OADFillOverlayEffect : OADEffect
 {
     int mBlendMode;
-    OADFill *mFill;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (_Bool);
 - (id);

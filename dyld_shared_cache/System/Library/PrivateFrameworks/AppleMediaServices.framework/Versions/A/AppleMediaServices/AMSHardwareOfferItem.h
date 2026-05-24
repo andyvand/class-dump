@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSHardwareOfferItem
 {
     _Bool _omitBadge;
-    _Bool _omitAppBadge;
-    NSString *_backingIdentifier;
-    NSDate *_expiration;
 }
 
 + (_Bool);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)3;
 - (void);
 - (id);
 - (void);
@@ -38,9 +35,6 @@ AsAs4AsAs1As@lAs¶nAsÝhAsjAstAs¥vAs¡pAsrAs;lAsnAsýhAs9jAsJtAs�
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backingIdentifier; // @synthesize backingIdentifier=_backingIdentifier;
-@property(retain, nonatomic) NSDate *expiration; // @synthesize expiration=_expiration;
-@property(nonatomic) _Bool omitAppBadge; // @synthesize omitAppBadge=_omitAppBadge;
-@property(nonatomic) _Bool omitBadge; // @synthesize omitBadge=_omitBadge;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSMutableArray;
+@class NSFileHandle;
 
 __attribute__((visibility("hidden")))
 @interface Espresso_mxnetTools_ImageBinaryRecordReader
 {
     NSFileHandle *_recFileHandle;
-    struct _mxnetTools_recordHeader_t_ _recordHeader;
-    unsigned long long _currentOffset;
-    NSMutableArray *_labelsPrivate;
-    struct _mxnetTools_imageHeader_t_ _imageHeader;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct _mxnetTools_recordHeader_t_);
 - (id);
 - (_Bool);
@@ -35,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)ü;
 
 // Remaining properties
-@property unsigned long long currentOffset; // @synthesize currentOffset=_currentOffset;
-@property struct _mxnetTools_imageHeader_t_ imageHeader; // @synthesize imageHeader=_imageHeader;
-@property(retain) NSMutableArray *labelsPrivate; // @synthesize labelsPrivate=_labelsPrivate;
 @property(retain) NSFileHandle *recFileHandle; // @synthesize recFileHandle=_recFileHandle;
-@property struct _mxnetTools_recordHeader_t_ recordHeader; // @synthesize recordHeader=_recordHeader;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol UISwitchMVEGestureTrackingSessionElement
+- (void)_;
 - (void)s;
 - (_Bool)Âº);
 @end

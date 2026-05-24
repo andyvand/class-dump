@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id feedConfigManager;
 }
 
 @end

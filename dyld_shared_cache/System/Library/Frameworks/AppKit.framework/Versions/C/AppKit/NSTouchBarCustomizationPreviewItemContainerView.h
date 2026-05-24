@@ -6,19 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSRoundedDashStrokeView, NSString, NSTouchBarCustomizationPreviewDeletionLabel;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewItemContainerView : NSView
 {
     NSView *_contentView;
-    NSView *_redOverlayView;
-    NSView *_blueOverlayView;
-    NSView *_greyOverlayView;
-    NSRoundedDashStrokeView *_dashedOverlayView;
-    long long _state;
-    NSTouchBarCustomizationPreviewDeletionLabel *_deletionLabel;
-    struct CGAffineTransform _itemTransform;
 }
 
 - (void);
@@ -26,21 +17,18 @@ __attribute__((visibility("hidden")))
 - (struct CGAffineTransform);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ing crash. Reason:(id)arg1 %@;
 - (void);
 - (long long);
-- (id)izing:(struct CGRect)arg1;
-- (void)r;
-- (void)xBox;
+- (id)setPrefersAllColumnUserResizing:(struct CGRect)arg1;
+- (void)_presentedItemTemporaryVersionStorageIdentifier;
+- (void)_NSTouchBarCustomizationPaletteCheckboxBox;
 - (id)²à};
 
 // Remaining properties
 @property(retain) NSView *contentView;
-@property(copy) NSString *deletionLabelString;
-@property struct CGAffineTransform itemTransform;
-@property long long state;
 
 @end
 

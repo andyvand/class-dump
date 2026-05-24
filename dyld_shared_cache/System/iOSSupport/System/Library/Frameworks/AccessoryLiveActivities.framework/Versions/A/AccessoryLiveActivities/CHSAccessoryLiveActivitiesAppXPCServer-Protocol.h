@@ -5,5 +5,7 @@
 //
 
 @protocol CHSAccessoryLiveActivitiesAppXPCServer
+- (oneway void);
+- (oneway void);
 @end
 

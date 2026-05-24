@@ -5,5 +5,9 @@
 //
 
 @protocol CNAutocompleteFetchDelegate
+- (void)8;
+
+@optional
+- (void);
 @end
 

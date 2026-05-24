@@ -11,28 +11,24 @@
 @interface PHMediaFormatChainedConversionRequest : PHMediaFormatConversionCompositeRequest
 {
     PHMediaFormatConversionRequest *_independentRequest;
-    PHMediaFormatConversionRequest *_dependentRequest;
-    CDUnknownBlockType _successUpdateHandler;
 }
 
 + (id);
 + (id);
-+ (id);
-- (CDUnknownBlockType);
++ (id)ble to update server change token for zone %@:(id)arg1 %@;
+- (CDUnknownBlockType)cT;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)commute15MinWarningEntityRelevanceMicroLocationAndTimeOfDayFeatures;
 
 // Remaining properties
-@property(retain) PHMediaFormatConversionRequest *dependentRequest; // @synthesize dependentRequest=_dependentRequest;
 @property(retain) PHMediaFormatConversionRequest *independentRequest; // @synthesize independentRequest=_independentRequest;
-@property(copy) CDUnknownBlockType successUpdateHandler; // @synthesize successUpdateHandler=_successUpdateHandler;
 
 @end
 

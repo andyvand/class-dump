@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol VCSessionDownlinkBandwidthAllocatorClient
-- (NSString *)outStartTime;
-- (_Bool)rEnabled;
+- (NSString *)_probingLockoutStartTime;
+- (_Bool)streamGroupRedundancyControllerEnabled;
 
 // Remaining properties
-@property(readonly) _Bool isVisible;
-@property(readonly) NSArray *mediaEntries;
-@property(readonly) unsigned int prominenceIndex;
-@property(nonatomic, getter=isRemoteScreenEnabled) _Bool remoteScreenEnabled;
 @property(readonly) NSString *uuid;
-@property(readonly) unsigned char videoQuality;
-@property(readonly) unsigned int visibilityIndex;
 @end
 

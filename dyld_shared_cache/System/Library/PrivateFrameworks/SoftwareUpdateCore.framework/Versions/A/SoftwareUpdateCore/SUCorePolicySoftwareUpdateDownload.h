@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicySoftwareUpdateDownload
 {
     _Bool _allowsCellular;
-    _Bool _discretionary;
-    _Bool _disableUI;
-    _Bool _skipPhase;
-    _Bool _requiresPowerPluggedIn;
-    _Bool _requiresInexpensiveAccess;
-    int _downloadTimeoutSecs;
-    long long _specifiedFields;
-    long long _maxPreSUStagingOptionalSize;
-    NSDictionary *_basePreflightOptions;
-    NSDictionary *_additionalOptions;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (int);
@@ -42,29 +30,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id):(id)arg1 8B16@20;
+- (void)loadImageWithUniqueIdentifier:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)dictionaryRepresentationOfCurrentDeviceInCloudKit;
+- (id)_mainContentContainerRightConstraint;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (void);
-- (id);
+- (_Bool);
+- (void);
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(nonatomic) _Bool allowsCellular; // @synthesize allowsCellular=_allowsCellular;
-@property(retain, nonatomic) NSDictionary *basePreflightOptions; // @synthesize basePreflightOptions=_basePreflightOptions;
-@property(nonatomic) _Bool disableUI; // @synthesize disableUI=_disableUI;
-@property(nonatomic) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(nonatomic) int downloadTimeoutSecs; // @synthesize downloadTimeoutSecs=_downloadTimeoutSecs;
-@property(nonatomic) long long maxPreSUStagingOptionalSize; // @synthesize maxPreSUStagingOptionalSize=_maxPreSUStagingOptionalSize;
-@property(nonatomic) _Bool requiresInexpensiveAccess; // @synthesize requiresInexpensiveAccess=_requiresInexpensiveAccess;
-@property(nonatomic) _Bool requiresPowerPluggedIn; // @synthesize requiresPowerPluggedIn=_requiresPowerPluggedIn;
-@property(nonatomic) _Bool skipPhase; // @synthesize skipPhase=_skipPhase;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

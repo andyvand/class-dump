@@ -14,16 +14,16 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void));
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -49,12 +49,11 @@
   return img;
 }
 ;
-- (void)RModuleSamples;
+- (void)ACBSConfigSetMaxQRModuleSamples;
 - (id)¬;
 - (_Bool)=²`_?;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classAttributes;
 @property(readonly, nonatomic) NSDictionary *exportedKeys;
 
 @end

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
-
 @interface PKPaymentInstallmentItem
 {
     long long _installmentItemType;
-    NSDecimalNumber *_amount;
-    NSString *_currencyCode;
-    NSString *_programIdentifier;
-    NSDecimalNumber *_apr;
-    NSString *_programTerms;
 }
 
 + (_Bool);
@@ -21,28 +14,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (long long);
+- (void);
+- (id)A;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)T;
+- (id)!;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setHeColormissCnt:(id)arg1;
 - (void);
 - (id)6@"CLHeading"24;
 - (void)SString"8@"PKExistingCardAuthorizationResponseGroup"16^B24;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSDecimalNumber *apr; // @synthesize apr=_apr;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(nonatomic) long long installmentItemType; // @synthesize installmentItemType=_installmentItemType;
-@property(copy, nonatomic) NSString *programIdentifier; // @synthesize programIdentifier=_programIdentifier;
-@property(copy, nonatomic) NSString *programTerms; // @synthesize programTerms=_programTerms;
 
 @end
 

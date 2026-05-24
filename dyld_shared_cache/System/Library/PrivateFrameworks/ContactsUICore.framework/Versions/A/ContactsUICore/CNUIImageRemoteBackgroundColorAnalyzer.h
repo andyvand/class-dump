@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ilters;
+- (void)`;
+- (void)t>"8;
+- (void)valueFilters;
 - (id);
 
 // Remaining properties

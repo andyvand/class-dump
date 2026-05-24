@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IANewAccountChooserRadioCollection, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSTableRowView, NSTableView, NSView;
-@protocol IANewAccountChooserControllerDelegateProtocol;
+@class NSMutableArray, NSString;
 
 @interface IANewAccountChooserController
 {
     NSMutableArray *_items;
-    NSMutableDictionary *_visiblePlugins;
-    NSArray *_services;
-    _Bool _showOther;
-    _Bool _variableHeight;
-    NSString *_otherRowLabel;
-    unsigned long long _style;
-    IANewAccountChooserRadioCollection *_radioCollection;
-    NSArray *_topLevelObjects;
-    NSView *_tableStyleView;
-    NSTableView *_table;
-    NSTableRowView *_otherTableRowView;
-    _Bool _showHelp;
-    id <IANewAccountChooserControllerDelegateProtocol> _delegate;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)9	;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -53,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property __weak id <IANewAccountChooserControllerDelegateProtocol> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSString *otherRowLabel; // @synthesize otherRowLabel=_otherRowLabel;
-@property(readonly) IANewAccountChooserRadioCollection *radioCollection; // @synthesize radioCollection=_radioCollection;
-@property _Bool showHelp; // @synthesize showHelp=_showHelp;
-@property _Bool showOther; // @synthesize showOther=_showOther;
-@property unsigned long long style; // @synthesize style=_style;
-@property(readonly) NSTableView *table; // @synthesize table=_table;
-@property _Bool variableHeight; // @synthesize variableHeight=_variableHeight;
-@property(readonly) NSView *view;
 
 @end
 

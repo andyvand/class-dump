@@ -7,22 +7,20 @@
 @interface GEORPFeedbackIntField
 {
     int _edited;
-    int _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)es:(id)arg1;
++ (_Bool)setIsoCountryCodes:(id)arg1;
 - (void);
-- (void);
+- (void)mergeLocalDataIntoParentAccountWithID:(_Bool)arg1 reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void)VNDetectBarcodesLocateModeCenterThreeHorizontalCrossed;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)>^;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,15 +28,12 @@
 - (void);
 - (id)irectionsFeedbackLogMessage";
 - (int)ter";
-- (id)ex: /* Error: Ran out of types for this method. */;
+- (id)arrivalParametersAtIndex: /* Error: Ran out of types for this method. */;
 - (id)¨t;
-- (id)_range;
+- (id)name_range;
 
 // Remaining properties
-@property(nonatomic) int edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) int original;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CKDaemonInterface
+- (void);
+- (void)C;
+- (void);
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NSCopying><NSObject><NSSecureCoding;
-
 __attribute__((visibility("hidden")))
 @interface _GCSyntheticDevice
 {
     unsigned int _serviceIdentity;
-    NSString *_identifier;
-    id <NSCopying><NSObject><NSSecureCoding> _controllerIdentifier;
-    NSString *_persistentIdentifier;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)T3;
 - (id);
 - (unsigned long long);
 - (_Bool);

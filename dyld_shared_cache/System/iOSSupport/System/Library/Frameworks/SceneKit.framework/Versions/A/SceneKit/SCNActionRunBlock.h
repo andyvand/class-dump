@@ -6,18 +6,14 @@
 
 #import <SceneKit/SCNAction.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface SCNActionRunBlock : SCNAction
 {
     CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)safari_stringByRemovingWwwDotPrefix;
 - (void);
 - (id);
 - (_Bool);

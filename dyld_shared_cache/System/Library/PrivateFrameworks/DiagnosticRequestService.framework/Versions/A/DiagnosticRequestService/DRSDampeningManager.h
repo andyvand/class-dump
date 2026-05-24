@@ -4,44 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSDampeningConfiguration, DRSDampeningEnforcementSettings, NSDictionary, NSMutableDictionary, NSObject, NSPersistentContainer;
+@class DRSDampeningConfiguration, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface DRSDampeningManager
 {
     DRSDampeningConfiguration *_defaultSignatureConfiguration;
-    DRSDampeningEnforcementSettings *_enforcementSettings;
-    unsigned long long _totalCap;
-    NSMutableDictionary *_teamDampeningConfigDict;
-    NSDictionary *_resourceDampeningConfigDict;
-    NSPersistentContainer *_persistentContainer;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
++ (_Bool)I";
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)a;
++ (id)setPictureIsIcon:(_Bool)arg1;
++ (id);
++ (id);
++ (unsigned long long)subtaskCountButtonAction:(_Bool)arg1;
++ (id)esenterCapability;
++ (id)P;
++ (id)roup is from a different ccount  {group.objectID:(_Bool)arg1 %@};
++ (id);
++ (id);
++ (id)U;
++ (id);
++ (id);
++ (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (unsigned long long);
++ (unsigned long long)T;
 + (id);
 + (id);
 + (id);
@@ -61,7 +55,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)alDownsamplingConfiguration;
++ (id)hangTracerNonWatchOSInternalDownsamplingConfiguration;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -90,7 +84,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -102,12 +96,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) DRSDampeningConfiguration *defaultSignatureConfiguration; // @synthesize defaultSignatureConfiguration=_defaultSignatureConfiguration;
-@property(readonly, nonatomic) DRSDampeningEnforcementSettings *enforcementSettings; // @synthesize enforcementSettings=_enforcementSettings;
-@property(retain, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(readonly, nonatomic) NSDictionary *resourceDampeningConfigDict; // @synthesize resourceDampeningConfigDict=_resourceDampeningConfigDict;
-@property(readonly, nonatomic) NSMutableDictionary *teamDampeningConfigDict; // @synthesize teamDampeningConfigDict=_teamDampeningConfigDict;
-@property(nonatomic) unsigned long long totalCap; // @synthesize totalCap=_totalCap;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

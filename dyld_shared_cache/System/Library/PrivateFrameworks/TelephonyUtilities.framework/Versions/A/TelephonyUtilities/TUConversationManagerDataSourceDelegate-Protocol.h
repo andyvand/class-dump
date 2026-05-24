@@ -5,6 +5,9 @@
 //
 
 @protocol TUConversationManagerDataSourceDelegate
-- (void)t;
+- (void);
+- (void)p~;
+- (void)9);
+- (void)shouldHideFaceTimeNotificationsByDefault;
 @end
 

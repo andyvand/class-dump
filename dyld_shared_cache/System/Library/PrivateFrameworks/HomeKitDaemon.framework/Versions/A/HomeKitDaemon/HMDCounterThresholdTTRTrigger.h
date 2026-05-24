@@ -5,59 +5,32 @@
 //
 
 @class NSString;
-@protocol HMDTTRTriggerDataSource, HMMRadarInitiating;
 
 __attribute__((visibility("hidden")))
 @interface HMDCounterThresholdTTRTrigger
 {
     struct os_unfair_lock_s _lock;
-    _Bool _primaryOnly;
-    long long _activeThreshold;
-    long long _targetThreshold;
-    NSString *_displayReason;
-    NSString *_radarTitle;
-    NSString *_componentName;
-    NSString *_componentVersion;
-    long long _componentID;
-    id <HMDTTRTriggerDataSource> _dataSource;
-    id <HMMRadarInitiating> _radarInitiator;
 }
 
-- (void);
+- (void)addParticipants:(long long)arg1;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)onThisDayHighlightKeyAssetRotationIsEnabled;
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)vices;
+- (void)=;
+- (id)PIParallaxStyleUserURLProvider;
+- (id)(!;
+- (id)allowedDevices;
 - (void)saveIsAllowedToEnableAdaptiveTemperatureAutomations(_:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeThreshold; // @synthesize activeThreshold=_activeThreshold;
-@property(readonly, nonatomic) long long componentID; // @synthesize componentID=_componentID;
-@property(readonly, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(readonly, nonatomic) NSString *componentVersion; // @synthesize componentVersion=_componentVersion;
-@property(readonly) __weak id <HMDTTRTriggerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *displayReason; // @synthesize displayReason=_displayReason;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool primaryOnly; // @synthesize primaryOnly=_primaryOnly;
-@property(readonly, nonatomic) __weak id <HMMRadarInitiating> radarInitiator; // @synthesize radarInitiator=_radarInitiator;
-@property(readonly, nonatomic) NSString *radarTitle; // @synthesize radarTitle=_radarTitle;
-@property(readonly) Class superclass;
-@property(nonatomic) long long targetThreshold; // @synthesize targetThreshold=_targetThreshold;
 
 @end
 

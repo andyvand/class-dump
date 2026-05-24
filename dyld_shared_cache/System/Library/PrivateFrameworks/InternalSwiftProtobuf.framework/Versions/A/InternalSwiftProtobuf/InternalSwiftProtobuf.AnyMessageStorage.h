@@ -7,7 +7,6 @@
 @interface InternalSwiftProtobuf.AnyMessageStorage
 {
     id _typeURL;
-    id state;
 }
 
 @end

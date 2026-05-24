@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NSObject><NSCopying;
-
 @interface PKPaymentSetupFieldRequirement
 {
     unsigned long long _type;
-    NSString *_fieldIdentifier;
-    id <NSObject><NSCopying> _value;
 }
 
 - (void);
@@ -20,13 +15,11 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id)ateDemoFilesForPasses:(id)arg1 accountUsers:peerPaymentPassSerialNumber: /* Error: Ran out of types for this method. */;
+- (id)generateDemoFilesForPasses:(id)arg1 accountUsers:peerPaymentPassSerialNumber: /* Error: Ran out of types for this method. */;
 - (void)rror;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fieldIdentifier; // @synthesize fieldIdentifier=_fieldIdentifier;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) id <NSObject><NSCopying> value; // @synthesize value=_value;
 
 @end
 

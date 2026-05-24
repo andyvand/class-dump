@@ -9,19 +9,17 @@
 @interface PXComposeRecipientDataSource
 {
     NSArray *_composeRecipients;
-    NSSet *_recipients;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ndFinishTask:(id)arg1;
+- (void)updateToContentFilterStateAndFinishTask:(id)arg1;
 - (id);
 - (void)Q~¸;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *composeRecipients; // @synthesize composeRecipients=_composeRecipients;
 @property(copy, nonatomic) NSSet *recipients; // @synthesize recipients=_recipients;
 
 @end

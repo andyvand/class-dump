@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUbiquitousKeyValueStore;
-@protocol OS_dispatch_queue;
-
 @interface PXUbiquitousKeyValueStoreValueAccessor
 {
     CDUnknownBlockType _defaultValueFuture;
-    CDUnknownBlockType _valueFilter;
-    CDUnknownBlockType _changeHandler;
-    id _cachedValue;
-    NSUbiquitousKeyValueStore *_ubiquitousKeyValueStore;
-    NSString *_key;
-    NSObject<OS_dispatch_queue> *_storeQueue;
 }
 
 + (id);
@@ -34,16 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (void)ovementAnimationDelay;
+- (void)_allShelvesCollapsingMovementAnimationDelay;
 - (void)ñJ²°;
 
 // Remaining properties
 @property(retain) id cachedValue; // @synthesize cachedValue=_cachedValue;
-@property(retain) id currentValue;
-@property(readonly) id currentValueIfLoaded;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storeQueue; // @synthesize storeQueue=_storeQueue;
-@property(readonly, nonatomic) NSUbiquitousKeyValueStore *ubiquitousKeyValueStore; // @synthesize ubiquitousKeyValueStore=_ubiquitousKeyValueStore;
 
 @end
 

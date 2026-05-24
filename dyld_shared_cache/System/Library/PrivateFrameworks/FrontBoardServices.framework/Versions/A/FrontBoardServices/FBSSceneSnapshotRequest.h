@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneSettings, NSString;
-@protocol FBSSceneSnapshotRequestDelegate;
+@class NSString;
 
 @interface FBSSceneSnapshotRequest
 {
     _Bool _handled;
-    _Bool _allowsProtectedContent;
-    id <FBSSceneSnapshotRequestDelegate> _delegate;
-    NSString *_sceneID;
-    FBSSceneSettings *_settings;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B;
+- (id)h;
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)A;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)days;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsProtectedContent; // @synthesize allowsProtectedContent=_allowsProtectedContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FBSSceneSnapshotRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
-@property(readonly, copy, nonatomic) FBSSceneSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UICollectionReusableView.h>
 
-@class UIView, _UIBackgroundViewConfiguration, _UISystemBackgroundView;
-@protocol UITableConstants, _UIContentViewConfiguration;
+@class UIView;
 
 @interface _UICollectionViewListHeaderFooter : UICollectionReusableView
 {
@@ -20,13 +19,6 @@
         unsigned int automaticallyUpdatesBackgroundViewConfiguration:1;
         unsigned int automaticallyUpdatesContentViewConfiguration:1;
     } _headerFooterFlags;
-    Class _contentViewConfigurationClass;
-    CDUnknownBlockType _contentViewConfigurationProvider;
-    _UISystemBackgroundView *_systemBackgroundView;
-    CDUnknownBlockType _backgroundViewConfigurationProvider;
-    UIView *_contentView;
-    id <UITableConstants> _constants;
-    struct UIEdgeInsets _contentViewInsets;
 }
 
 + (Class)3}^;
@@ -35,27 +27,27 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (struct CGSize);
+- (void)mSender:completion: /* Error: Ran out of types for this method. */;
+- (void)on for service %@;
+- (void)ent;
+- (void)holed by TrustKit:(CDUnknownBlockType)arg1 %@;
+- (void)ad;
+- (void)atedMessagePipelineComponent> Started processing;
+- (void)n and moving on.;
+- (void)is off;
+- (void)dKit message deletes as CK syncing is off;
+- (void)are already in our allow list, no need to do anything. Handles:%@ /* Error: Ran out of types for this method. */;
+- (void)ervices for task;
+- (void)hmentRecordRef rowid:%lld, marking as failed to sync *** /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)d-keys;
 - (CDUnknownBlockType);
 - (id);
+- (struct CGSize)TrackerMetricFields;
+- (CDUnknownBlockType);
+- (id);
+- (_Bool)p;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
@@ -65,9 +57,9 @@
 - (void);
 - (void)!8Bù]1Â0@ù
 × ;
-- (void)eractionModel;
-- (void)TextWithInputString:(id)arg1 displayString: /* Error: Ran out of types for this method. */;
-- (id)ustomClientInsets:(struct CGRect)arg1 accessorySize:additionalInsetFromEdge: /* Error: Ran out of types for this method. */;
+- (void)primaryInteractionModel;
+- (void)intermediateTextWithInputString:(id)arg1 displayString: /* Error: Ran out of types for this method. */;
+- (id)_baseInsetsForAccessoryOnEdge:(struct CGRect)arg1 hasCustomClientInsets:accessorySize:additionalInsetFromEdge: /* Error: Ran out of types for this method. */;
 - (void)T@"UIInputWindowController",W,N,V_inputWindowController;
 - (void)ÿÿÿÿ|;
 - (struct CGSize)it:(struct CGSize)arg1 %d isApplicationWithin:(float)arg2 %d isDragEnd:(float)arg3 %d isPolicyDriven:%d> /* Error: Ran out of types for this method. */;
@@ -81,16 +73,7 @@
 - (void)$@ý;
 
 // Remaining properties
-@property(nonatomic, getter=_automaticallyUpdatesBackgroundViewConfiguration, setter=_setAutomaticallyUpdatesBackgroundViewConfiguration:) _Bool _automaticallyUpdatesBackgroundViewConfiguration;
-@property(nonatomic, getter=_automaticallyUpdatesContentViewConfiguration, setter=_setAutomaticallyUpdatesContentViewConfiguration:) _Bool _automaticallyUpdatesContentViewConfiguration;
-@property(copy, nonatomic, getter=_backgroundViewConfiguration, setter=_setBackgroundViewConfiguration:) _UIBackgroundViewConfiguration *_backgroundViewConfiguration;
-@property(copy, nonatomic, getter=_backgroundViewConfigurationProvider, setter=_setBackgroundViewConfigurationProvider:) CDUnknownBlockType _backgroundViewConfigurationProvider;
-@property(copy, nonatomic, getter=_contentViewConfiguration, setter=_setContentViewConfiguration:) id <_UIContentViewConfiguration> _contentViewConfiguration;
-@property(copy, nonatomic, getter=_contentViewConfigurationProvider, setter=_setContentViewConfigurationProvider:) CDUnknownBlockType _contentViewConfigurationProvider;
-@property(readonly, nonatomic) unsigned long long _viewConfigurationState;
-@property(readonly, nonatomic, getter=_constants) id <UITableConstants> constants; // @synthesize constants=_constants;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic, getter=_contentViewInsets) struct UIEdgeInsets contentViewInsets; // @synthesize contentViewInsets=_contentViewInsets;
 
 @end
 

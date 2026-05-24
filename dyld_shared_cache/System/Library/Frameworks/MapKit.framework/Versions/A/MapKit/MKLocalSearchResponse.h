@@ -9,18 +9,16 @@
 @interface MKLocalSearchResponse
 {
     NSArray *_mapItems;
-    CDStruct_b7cb895d _boundingRegion;
 }
 
+- (id)at:(id)arg1 Unknown;
+- (id)(;
+- (CDStruct_4760c753);
 - (id);
 - (id);
-- (CDStruct_b7cb895d);
-- (id);
-- (id);
-- (void)notationStyle:size:forScale: /* Error: Ran out of types for this method. */;
+- (void)imageForRouteAnnotationStyle:size:forScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_b7cb895d boundingRegion; // @synthesize boundingRegion=_boundingRegion;
 @property(readonly, nonatomic) NSArray *mapItems; // @synthesize mapItems=_mapItems;
 
 @end

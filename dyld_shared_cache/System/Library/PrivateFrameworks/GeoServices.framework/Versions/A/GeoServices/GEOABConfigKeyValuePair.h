@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABConfigValue, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABConfigKeyValuePair
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_abConfigKey;
-    GEOABConfigValue *_abConfigValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _abConfigValueType;
-    struct {
-        unsigned int has_abConfigValueType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_abConfigKey:1;
-        unsigned int read_abConfigValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ingsFindMyCarEnabled:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setHasMapSettingsFindMyCarEnabled:(id)arg1;
+- (void)defaultCenter;
+- (void)URLSession:(int)arg1 task:needNewBodyStreamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 task:needNewBodyStream: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,30 +28,24 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_handleSessionProvidingDelegateWillSetAudioSession:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)own property name after \P or \p;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)?;
 - (void)!@ùQ·*ð1Â0@ù
 × ;
-- (id)urceAtPath:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)loadResourceAtPath:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (id)àÎ	üÒ	×	¬Ú8ÛÔÜpÞà¨á4âüãè¨ê;
-- (id)lTime;
+- (id)_estimatedTravelTime;
 - (id);
 - (void)ê'7;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abConfigKey;
-@property(retain, nonatomic) GEOABConfigValue *abConfigValue;
-@property(nonatomic) int abConfigValueType;
 @property(readonly, nonatomic) _Bool hasAbConfigKey;
-@property(readonly, nonatomic) _Bool hasAbConfigValue;
-@property(nonatomic) _Bool hasAbConfigValueType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

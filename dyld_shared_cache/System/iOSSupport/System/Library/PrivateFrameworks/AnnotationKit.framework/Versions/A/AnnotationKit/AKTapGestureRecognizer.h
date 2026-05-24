@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKTapGestureRecognizer
 {
     _Bool _penGestureDetected;
 }
 
 - (void);
-- (void);
+- (void)application;
 - (_Bool);
+- (void)Q}32;
 - (void);
+- (void)_;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)shouldEmbedContentTrayIfNeeded;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool penGestureDetected; // @synthesize penGestureDetected=_penGestureDetected;
-@property(readonly) Class superclass;
 
 @end
 

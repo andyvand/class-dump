@@ -11,8 +11,6 @@
 @interface EWSGetStreamingEventsResponseMessageType : EWSResponseMessageType
 {
     _Bool _ConnectionStatus;
-    NSArray *_Notifications;
-    NSArray *_ErrorSubscriptionIds;
 }
 
 + (id);
@@ -22,11 +20,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool ConnectionStatus; // @synthesize ConnectionStatus=_ConnectionStatus;
-@property(copy, nonatomic) NSArray *ErrorSubscriptionIds; // @synthesize ErrorSubscriptionIds=_ErrorSubscriptionIds;
 @property(copy, nonatomic) NSArray *Notifications; // @synthesize Notifications=_Notifications;
 
 @end

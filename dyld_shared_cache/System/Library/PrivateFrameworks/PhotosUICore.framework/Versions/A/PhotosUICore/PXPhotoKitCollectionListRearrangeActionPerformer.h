@@ -6,17 +6,15 @@
 
 #import <PhotosUICore/PXPhotoKitCollectionListActionPerformer.h>
 
-@class PHCollection;
 @protocol PXFastEnumeration;
 
 @interface PXPhotoKitCollectionListRearrangeActionPerformer : PXPhotoKitCollectionListActionPerformer
 {
     id <PXFastEnumeration> _sourceCollections;
-    PHCollection *_targetCollection;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 

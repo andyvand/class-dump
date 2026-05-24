@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol DownloadAlertsManagerDataSource, DownloadAlertsManagerDelegate;
+@protocol DownloadAlertsManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface DownloadAlertsManager
 {
     _Bool _waitingToShowTerminationPrompt;
-    NSMutableArray *_queuedAlerts;
-    id <DownloadAlertsManagerDataSource> _dataSource;
-    id <DownloadAlertsManagerDelegate> _delegate;
 }
 
-+ (id);
++ (id)ڰ;�;
 + (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)d to guess the ITU country code;
 - (void);
-- (void);
+- (void)?;
 - (void)@è;
 
 // Remaining properties
 @property(nonatomic) __weak id <DownloadAlertsManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <DownloadAlertsManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface HMAccessoryNetworkAccessViolation
 {
     NSDate *_lastViolationDate;
-    NSDate *_lastResetDate;
 }
 
 + (_Bool);
@@ -18,15 +17,13 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)econometrics;
 - (void);
 - (id);
 - (void)xisting assets at that path.;
 
 // Remaining properties
 @property(readonly, getter=hasCurrentViolation) _Bool currentViolation;
-@property(readonly) NSDate *lastResetDate; // @synthesize lastResetDate=_lastResetDate;
-@property(readonly) NSDate *lastViolationDate; // @synthesize lastViolationDate=_lastViolationDate;
 
 @end
 

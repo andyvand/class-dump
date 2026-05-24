@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface IMTranslationPipelineParameter
 {
     long long _type;
-    NSString *_sourceLocaleIdentifier;
-    NSString *_destinationLocaleIdentifier;
-    NSArray *_messages;
-    NSString *_requestID;
 }
 
 - (void);
@@ -24,15 +18,11 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)x%016llx) _getInitialSyncInfo:(id)arg1 response;
 - (id);
 - (void)øì(¤;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationLocaleIdentifier; // @synthesize destinationLocaleIdentifier=_destinationLocaleIdentifier;
-@property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) NSString *sourceLocaleIdentifier; // @synthesize sourceLocaleIdentifier=_sourceLocaleIdentifier;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

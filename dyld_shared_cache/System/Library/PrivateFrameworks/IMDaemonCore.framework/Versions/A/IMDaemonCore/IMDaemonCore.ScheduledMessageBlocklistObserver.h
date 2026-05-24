@@ -7,9 +7,6 @@
 @interface IMDaemonCore.ScheduledMessageBlocklistObserver
 {
     id coordinator;
-    id chatRegistry;
-    id blockListController;
-    id cancellables;
 }
 
 @end

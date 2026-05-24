@@ -6,36 +6,27 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSEnumerator, NSString, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGRecentSyndicatedAssetSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    NSArray *_suggestedAssets;
-    NSEnumerator *_suggestedAssetEnumerator;
 }
 
-+ (id);
++ (id)firstAncestorWithinDistance:matchingBlock: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (id);
 - (id);
+- (id)nt;
+- (id)window;
+- (_Bool)icationController:(id)arg1 Long     running block on application queue %f;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void)viewRecents;
+- (void);
+- (void)InReviewRecents;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

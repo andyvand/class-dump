@@ -9,7 +9,6 @@
 @interface ICSDigestPair
 {
     NSData *_unprocessedDigest;
-    NSData *_processedDigest;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *processedDigest; // @synthesize processedDigest=_processedDigest;
 @property(retain, nonatomic) NSData *unprocessedDigest; // @synthesize unprocessedDigest=_unprocessedDigest;
 
 @end

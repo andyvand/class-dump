@@ -17,11 +17,11 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)webView:didReceiveServerRedirectForProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (id)webView:didReceiveServerRedirectForProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (id)webView:didFailProvisionalNavigation:withError: /* Error: Ran out of types for this method. */;
+- (id)useFullWidthDuringSizing;
+- (id)setPlaying:(id)arg1;
 - (id);
 - (id);
 - (void)ARG_LOCATION:kMDItemSubject_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL:kMDItemAppEntityTitle_QUPP_ARG_LOCATION:kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT:kMDItemAuthors_QUPP_ARG_PERSON_SENDER:kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL:kMDItemAuthors_QUPP_ARG_PERSON:kMDItemSubject_QUPP_ARG_TIME:kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER:kMDItemAuthors_QUPP_ARG_LOCATION: /* Error: Ran out of types for this method. */;

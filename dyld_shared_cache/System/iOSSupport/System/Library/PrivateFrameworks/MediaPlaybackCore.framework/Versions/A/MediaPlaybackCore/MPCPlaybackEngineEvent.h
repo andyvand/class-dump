@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSUUID;
-
 @interface MPCPlaybackEngineEvent
 {
     int _threadPriority;
-    NSUUID *_identifier;
-    NSString *_type;
-    NSDictionary *_payload;
-    unsigned long long _machAbsoluteTime;
-    CDStruct_aeb9a598 _monotonicTime;
 }
 
-- (double);
+- (double)ssing Apple Account change for account:(id)arg1 %@;
 - (id);
 - (unsigned long long);
-- (CDStruct_aeb9a598);
+- (CDStruct_aee2c4da);
 - (id);
 - (id);
 - (double);
@@ -38,15 +31,7 @@
 - (void)%{public}@ %2i %{public}@  â userTransitionPreference:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long machAbsoluteTime; // @synthesize machAbsoluteTime=_machAbsoluteTime;
-@property(readonly, nonatomic) NSDate *monotonicDate;
-@property(readonly, nonatomic) CDStruct_aeb9a598 monotonicTime; // @synthesize monotonicTime=_monotonicTime;
-@property(readonly, nonatomic) unsigned long long monotonicTimeNanoSeconds;
-@property(readonly, copy, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) int threadPriority; // @synthesize threadPriority=_threadPriority;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
+@property(readonly, nonatomic) CDStruct_aee2c4da monotonicTime; // @synthesize monotonicTime=_monotonicTime;
 
 @end
 

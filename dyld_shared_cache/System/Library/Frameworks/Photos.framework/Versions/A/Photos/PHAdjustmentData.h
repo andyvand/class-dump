@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
-
 @interface PHAdjustmentData
 {
     unsigned int _adjustmentRenderTypes;
-    NSString *_formatIdentifier;
-    NSString *_formatVersion;
-    NSData *_data;
-    NSDate *_adjustmentTimestamp;
-    NSString *_editorBundleID;
-    long long _baseVersion;
 }
 
 + (long long);
 + (id);
++ (long long)%;
 + (long long);
-+ (long long);
-+ (long long);
++ (long long);
 + (_Bool);
 - (void);
 - (void);
@@ -44,20 +36,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
-- (long long);
-- (void)RequestValidator;
+- (long long)icddConnectionSuspend: /* Error: Ran out of types for this method. */;
+- (void)_PHAssetCreationRequestValidator;
 
 // Remaining properties
-@property(nonatomic) unsigned int adjustmentRenderTypes; // @synthesize adjustmentRenderTypes=_adjustmentRenderTypes;
-@property(copy, nonatomic) NSDate *adjustmentTimestamp; // @synthesize adjustmentTimestamp=_adjustmentTimestamp;
-@property(nonatomic) long long baseVersion; // @synthesize baseVersion=_baseVersion;
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) NSString *editorBundleID; // @synthesize editorBundleID=_editorBundleID;
-@property(copy, nonatomic) NSString *formatIdentifier; // @synthesize formatIdentifier=_formatIdentifier;
-@property(copy, nonatomic) NSString *formatVersion; // @synthesize formatVersion=_formatVersion;
 @property(readonly, getter=isOpaque) _Bool opaque;
 
 @end

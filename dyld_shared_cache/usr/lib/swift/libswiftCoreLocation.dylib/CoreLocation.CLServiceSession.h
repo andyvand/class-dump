@@ -7,10 +7,6 @@
 @interface CoreLocation.CLServiceSession
 {
     id serviceSession;
-    id currentDiagnostics;
-    id _sessionType;
-    id _sessionMode;
-    id _connectionSequence;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SALaunchProtocol
+- (_Bool)$;
 @end
 

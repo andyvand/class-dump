@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMentionsTextContainerOverlayView, CKMessageEntryTextView, NSAttributedString, NSMutableDictionary, NSMutableSet, NSSet, NSTimer;
+@class NSAttributedString;
 @protocol CKMentionsAnimationControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKMentionsAnimationController
 {
     id <CKMentionsAnimationControllerDelegate> _delegate;
-    NSSet *_finishedAnimationIdentifiersDuringMarkedText;
-    NSAttributedString *_mentionAttributes;
-    CKMessageEntryTextView *_textView;
-    NSMutableDictionary *_animationsByIdentifier;
-    NSMutableDictionary *_rippleAnimatorsByIdentifier;
-    NSMutableSet *_finishedAnimationsDuringMarkedTextByIdentifier;
-    NSTimer *_mentionTimer;
-    CKMentionsTextContainerOverlayView *_overlayView;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)initWithNotes:toFolder:legacyContext:didCopyBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithNoteSectionType:(id)arg1;
+- (void)initWithContentsOfURL:(_Bool)arg1 encoding:error: /* Error: Ran out of types for this method. */;
+- (void)copyAttribute:(_Bool)arg1 fromAttributes:toAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)_webViewDidLosePointerLock:(id)arg1;
+- (void)&,N,V_completionBlocks;
+- (void)release;
+- (void)",&,N,V_managedObjectContexts;
+- (void)ICProgressIndicatorTrackerDelegate;
+- (id);
+- (id)tGG;
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)a;
+- (id)r;
+- (id)n;
+- (void)e;
+- (id)HighlightedString == ((void*)0) || string == ((void*)0) || string.length == attributedHighlightedString.length;
+- (void)px 1.0px 1.0px 1.0px; border-color:(id)arg1 #ccc; padding:3.0px 5.0px 3.0px 5.0px; min-width:70px"> /* Error: Ran out of types for this method. */;
+- (void)style="border-style:(id)arg1 solid; border-width:1.0px 1.0px 1.0px 1.0px; border-color:#ccc; padding:3.0px 5.0px 3.0px 5.0px; min-width:70px"> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -51,21 +43,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)belMarginGuide;
+- (void)mh^;
+- (id)labelMarginGuide;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *animationsByIdentifier; // @synthesize animationsByIdentifier=_animationsByIdentifier;
-@property(readonly, nonatomic, getter=isAnyMentionAnimationActive) _Bool anyMentionAnimationActive;
-@property(nonatomic) __weak id <CKMentionsAnimationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSSet *finishedAnimationIdentifiersDuringMarkedText; // @synthesize finishedAnimationIdentifiersDuringMarkedText=_finishedAnimationIdentifiersDuringMarkedText;
-@property(retain, nonatomic) NSMutableSet *finishedAnimationsDuringMarkedTextByIdentifier; // @synthesize finishedAnimationsDuringMarkedTextByIdentifier=_finishedAnimationsDuringMarkedTextByIdentifier;
 @property(copy, nonatomic) NSAttributedString *mentionAttributes; // @synthesize mentionAttributes=_mentionAttributes;
-@property(retain, nonatomic) NSTimer *mentionTimer; // @synthesize mentionTimer=_mentionTimer;
-@property(retain, nonatomic) CKMentionsTextContainerOverlayView *overlayView; // @synthesize overlayView=_overlayView;
-@property(retain, nonatomic) NSMutableDictionary *rippleAnimatorsByIdentifier; // @synthesize rippleAnimatorsByIdentifier=_rippleAnimatorsByIdentifier;
-@property(retain, nonatomic) CKMessageEntryTextView *textView; // @synthesize textView=_textView;
 
 @end
 

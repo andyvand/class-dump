@@ -9,7 +9,6 @@
 @interface CLSTemporalClusterEvent
 {
     unsigned char _category;
-    NSString *_name;
 }
 
 + (unsigned char);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

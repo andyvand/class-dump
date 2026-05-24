@@ -7,6 +7,7 @@
 @interface _RealityKit_SwiftUI.RealityViewCameraContent.ContentStorage
 {
     id storedSubscriptions;
+    id;
 }
 
 @end

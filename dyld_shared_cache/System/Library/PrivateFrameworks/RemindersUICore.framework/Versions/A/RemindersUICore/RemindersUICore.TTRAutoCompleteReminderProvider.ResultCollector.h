@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRAutoCompleteReminderProvider.ResultCollector
 {
     id maximumResultCountBeforeTooGeneric;
-    id objectIDToREMReminder;
-    id searchableItemByTitle;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCInvocationQueue, NSString;
+@class MCInvocationQueue;
 
 @interface MFParentalControlManager
 {
@@ -18,24 +18,13 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)C;
 - (void)X;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) MCInvocationQueue *tasks; // @synthesize tasks=_tasks;
 
 @end

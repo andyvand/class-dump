@@ -4,47 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSWindow, QCCGLContext, QCCLContext, QCCache, QCImageManager, QCSourceCodeView;
+@class QCCLContext;
 
 @interface QCStreamManager
 {
     id *_rootCache;
-    QCCache *_representationCache;
-    QCCache *_providerCache;
-    id *_rootPool;
-    QCCLContext *_clContext;
-    QCCGLContext *_glContext;
-    QCImageManager *_imageManager;
-    unsigned long long _deviceCount;
-    unsigned long long *_deviceSizes;
-    struct _cl_context *_context;
-    struct _cl_device_id **_devices;
-    struct _cl_device_id **_virtualScreenCache;
-    unsigned long long *_deviceTypes;
-    _Bool _disableGPUDevice;
-    NSMutableDictionary *_exporterClassCache;
-    NSMutableDictionary *_exporterTypeCache;
-    NSMutableDictionary *_exportersList;
-    struct _opaque_pthread_mutex_t _exporterCacheMutex;
-    struct _opaque_pthread_mutex_t _exportersListMutex;
-    struct _opaque_pthread_cond_t _exportersListCondition;
-    unsigned long long _exporterCacheTimestamp;
-    NSWindow *_sourceWindow;
-    QCSourceCodeView *_sourceView;
-    unsigned long long _flags;
-    void *unused[4];
 }
 
-+ (_Bool);
++ (_Bool)ka;
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (void)imationsForObject;
-- (void);
++ (void)C3DAnimationManagerRemoveAnimationsForObject;
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -53,31 +29,27 @@
 - (id);
 - (struct _cl_device_id *);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)+;
 - (void);
 - (_Bool);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id)a^;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)*;
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
+- (id)1610000;;
 - (struct _cl_context *);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) struct _cl_device_id *bestDevice;
-@property(readonly) struct _cl_context *context; // @synthesize context=_context;
-@property _Bool disableGPUDevice; // @synthesize disableGPUDevice=_disableGPUDevice;
 @property(readonly) QCCLContext *openCLContext; // @synthesize openCLContext=_clContext;
-@property(readonly) QCCGLContext *openGLContext; // @synthesize openGLContext=_glContext;
 
 @end
 

@@ -9,12 +9,12 @@
 }
 
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)error occurred:(long long)arg1;
++ (void)put data;
++ (void)amsGrandSlamTokenID;
++ (void)e to get fields key;
++ (void)ContentUnavailable;
++ (void)sv;
 
 @end
 

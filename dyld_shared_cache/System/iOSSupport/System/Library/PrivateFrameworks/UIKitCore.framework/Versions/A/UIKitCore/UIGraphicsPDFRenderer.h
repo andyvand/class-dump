@@ -11,14 +11,14 @@
 }
 
 + (void);
-+ (Class)FooterHeight;
++ (Class)sectionFooterHeight;
 + (struct CGContext *)tKêÿÀKêÿìKêÿLêÿdLêÿLêÿ¼LêÿøLêÿDMêÿpMêÿMêÿØMêÿ$NêÿPNêÿ|NêÿÈNêÿôNêÿ OêÿlOêÿOêÿÄOêÿPêÿ<PêÿhPêÿ´PêÿàPêÿQêÿXQêÿQêÿ°QêÿüQêÿ(RêÿTRêÿ RêÿÌRêÿøRêÿDSêÿpSêÿSêÿèSêÿTêÿ@TêÿTêÿ¸TêÿäTêÿ0Uêÿ\UêÿUêÿÄUêÿôXêÿtYêÿÔYêÿ8ZêÿdZêÿ|Zêÿ¨Zêÿðiêÿ,jêÿhjêÿ¤jêÿàjêÿkêÿXkêÿkêÿÐkêÿlêÿHlêÿlêÿÀlêÿülêÿ8mêÿtmêÿ°mêÿìmêÿ(nêÿdnêÿ nêÿÜnêÿoêÿToêÿoêÿÌoêÿpêÿDpêÿpêÿ¼pêÿøpêÿ4qêÿpqêÿ¬qêÿèqêÿ$rêÿ`rêÿrêÿØrêÿsêÿPsêÿsêÿÈsêÿtêÿ@têÿ|têÿ¸têÿôtêÿ0uêÿluêÿ¨uêÿäuêÿ vêÿ\vêÿvêÿÔvêÿwêÿLwêÿwêÿÄwêÿ;
 - (id);
-- (void);
+- (void)nericTVEpisode;
 - (id);
 - (id)dÐ1Â0@ù
 × ;
-- (id)buttonBarStackViewDidLayoutSubviews:(struct CGRect)arg1;
+- (id)_buttonBarStackViewDidLayoutSubviews:(struct CGRect)arg1;
 - (void)Xå;
 - (_Bool);
 

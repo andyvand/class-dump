@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UISSecureControlCategory
 {
     union {
@@ -18,26 +16,22 @@
     } _fields;
 }
 
-+ (_Bool);
++ (_Bool)s/CMCapture.framework/Versions/A/CMCapture;
 - (unsigned int);
 - (id);
 - (id);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)lsControllerLayoutDelegate>";
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *iconGlyph;
-@property(readonly, nonatomic) unsigned int secureName;
-@property(readonly, nonatomic) unsigned int secureNameForDrawing;
 @property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

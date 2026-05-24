@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKValidXPCConnectionProvider, NSString;
+@class CRKValidXPCConnectionProvider;
 
 @interface CRKInternetDateServiceProxy
 {
@@ -14,18 +14,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)file URL '%@';
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CRKValidXPCConnectionProvider *connectionProvider; // @synthesize connectionProvider=_connectionProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

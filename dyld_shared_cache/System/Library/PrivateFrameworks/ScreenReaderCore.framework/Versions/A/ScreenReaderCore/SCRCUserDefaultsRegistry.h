@@ -15,16 +15,16 @@
 + (id);
 + (void);
 + (void);
-+ (id);
++ (id)ׯq;
 + (void);
+- (id)r|;
+- (id){;
+- (id)i{;
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)createHTTPErrorWithStatusCode:reason: /* Error: Ran out of types for this method. */;
+- (id)ACDAccountNotificationPlugin;
 
 @end
 

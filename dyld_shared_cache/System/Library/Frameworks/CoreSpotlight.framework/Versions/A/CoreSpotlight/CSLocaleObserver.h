@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSObject;
-@protocol OS_dispatch_queue;
+@class NSLocale;
 
 @interface CSLocaleObserver
 {
     NSLocale *_currentLocale;
-    NSArray *_preferredLanguages;
-    _Bool _isCJK;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

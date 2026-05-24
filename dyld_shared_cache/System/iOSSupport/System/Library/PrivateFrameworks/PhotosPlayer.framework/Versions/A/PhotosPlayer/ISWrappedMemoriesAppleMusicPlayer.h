@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaSelectionGroup, AVMediaSelectionOption, NSError, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSString;
 
 @interface ISWrappedMemoriesAppleMusicPlayer
 {
     _Bool _isLoadingAsset;
-    NSString *_adamID;
-    AVMediaSelectionGroup *_cachedAVMediaSelectionGroup;
-    AVMediaSelectionOption *_withoutMusicMediaOption;
-    NSError *_appleMusicPlayerError;
-    NSObject<OS_dispatch_queue> *_appleMusicPlayerQueue;
-    NSObject<OS_dispatch_semaphore> *_isLoadingAssetSemaphore;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_removeComponent: /* Error: Ran out of types for this method. */;
+- (void)_pinchGestureRecognizer;
+- (void)_multiScrollDelegate;
+- (void)_motionContentView;
+- (void)_maximumVisibleY;
+- (void)_mappedComponentViews;
+- (id)_ignoreMargins;
+- (_Bool)_ignoreDocumentGutter;
+- (id)_hasReroutedInitiatedPlaybackEvent;
+- (id)_enableViewportDebugging;
+- (id)_didAppearBlocks;
+- (id)_developerSettingsProvider;
+- (id)_descriptors;
+- (void)_animationsAndBehaviorsEnabled;
+- (void)=BBBBB},R,N,V_contentInset;
 - (void);
 - (void);
 - (void);
@@ -45,12 +38,6 @@
 
 // Remaining properties
 @property(retain) NSString *adamID; // @synthesize adamID=_adamID;
-@property(retain) NSError *appleMusicPlayerError; // @synthesize appleMusicPlayerError=_appleMusicPlayerError;
-@property(retain) NSObject<OS_dispatch_queue> *appleMusicPlayerQueue; // @synthesize appleMusicPlayerQueue=_appleMusicPlayerQueue;
-@property(readonly) AVMediaSelectionGroup *cachedAVMediaSelectionGroup; // @synthesize cachedAVMediaSelectionGroup=_cachedAVMediaSelectionGroup;
-@property _Bool isLoadingAsset; // @synthesize isLoadingAsset=_isLoadingAsset;
-@property(retain) NSObject<OS_dispatch_semaphore> *isLoadingAssetSemaphore; // @synthesize isLoadingAssetSemaphore=_isLoadingAssetSemaphore;
-@property(retain) AVMediaSelectionOption *withoutMusicMediaOption; // @synthesize withoutMusicMediaOption=_withoutMusicMediaOption;
 
 @end
 

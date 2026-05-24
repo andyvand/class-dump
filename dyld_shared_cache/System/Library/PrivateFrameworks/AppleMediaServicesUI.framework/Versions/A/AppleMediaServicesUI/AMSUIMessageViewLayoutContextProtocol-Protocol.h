@@ -7,19 +7,19 @@
 @class NSArray, NSMutableArray;
 
 @protocol AMSUIMessageViewLayoutContextProtocol
+- (struct CGRect)_assertionUpdateStatus;
+- (_Bool)ueIdentifier;
+- (NSMutableArray *)<2;
+- (struct CGRect){public}@ for asset type:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)experiment;
+- (id)download for %lu assertions;
+- (NSArray *)ictionary.class];
+- (struct CGRect)equest for an asset as update is already in progress;
+- (double)annot accept the new update request for an asset as update is already in progress;
+- (struct CGRect)pdate is failed;
 - (struct CGSize)assets at Priority %li;
 
 // Remaining properties
-@property(readonly) struct CGRect accessorySecondaryViewFrame;
-@property(readonly) double accessorySpacing;
-@property(readonly) struct CGRect accessoryViewFrame;
-@property(readonly) NSArray *buttonFrames;
 @property(readonly) struct NSDirectionalEdgeInsets contentLayoutMargins;
-@property(readonly) struct CGSize contentSize;
-@property(readonly) struct CGRect imageViewFrame;
-@property(readonly) struct CGRect maskViewFrame;
-@property(readonly) NSMutableArray *separatorViewFrames;
-@property(readonly) _Bool shouldUseStackedLayout;
-@property(readonly) struct CGRect textViewFrame;
 @end
 

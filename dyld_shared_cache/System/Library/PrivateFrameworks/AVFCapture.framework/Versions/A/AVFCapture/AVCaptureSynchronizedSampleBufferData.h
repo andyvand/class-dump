@@ -14,19 +14,18 @@
 }
 
 + (void)bolg;
-- (_Bool);
+- (_Bool)_destinationFormat;
 - (_Bool);
 - (_Bool);
 - (long long);
-- (int);
-- (id);
-- (void);
+- (int)er %p is stopped;
+- (id)data>
+;
+- (void)@?<v@?@"ACCredentialItem"@"NSError">24;
 - (struct opaqueCMSampleBuffer *);
 
 // Remaining properties
-@property(readonly) long long droppedReason;
 @property(readonly) struct opaqueCMSampleBuffer *sampleBuffer;
-@property(readonly) _Bool sampleBufferWasDropped;
 
 @end
 

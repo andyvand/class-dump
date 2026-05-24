@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKInstallScriptMutation
 {
     _Bool _dropSIP;
-    _Bool _skip;
-    NSString *_scriptPath;
-    NSString *_mutationToPerform;
 }
 
-- (void);
+- (void)_;
 
 @end
 

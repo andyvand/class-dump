@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FACommunicationLimits
 {
     _Bool enabled;
-    _Bool strictPolicy;
-    void limitType;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool)SCENE_INCLUDES_UNSECURING_ACTIONS;
+- (void)headsetAddress;
+- (void)EventSearchCompleted;
+- (id);
 - (id);
 - (void);
+- (id);
+- (id)@d;
+- (void);;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled;
-@property(nonatomic, copy) NSString *limitType;
-@property(nonatomic) _Bool strictPolicy; // @synthesize strictPolicy;
 
 @end
 

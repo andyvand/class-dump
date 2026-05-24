@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKDDeviceCapabilityLastSentCapabilitiesAndUsageTable, CKDDeviceCapabilityUsageSQLTable;
+@class CKContainerID, CKDDeviceCapabilityUsageSQLTable;
 
 @interface CKDDeviceCapabilityUsageSQLCache
 {
     CKDDeviceCapabilityUsageSQLTable *_usageTable;
-    CKDDeviceCapabilityLastSentCapabilitiesAndUsageTable *_lastSentTable;
-    CKContainerID *_containerID;
 }
 
 + (id);
@@ -37,15 +35,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)m;
 - (void);
 - (void);
-- (void)fierOverrideForNetworkAttribution;
+- (void)applicationBundleIdentifierOverrideForNetworkAttribution;
 
 // Remaining properties
 @property(retain, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, nonatomic) CKDDeviceCapabilityLastSentCapabilitiesAndUsageTable *lastSentTable; // @synthesize lastSentTable=_lastSentTable;
-@property(readonly, nonatomic) CKDDeviceCapabilityUsageSQLTable *usageTable; // @synthesize usageTable=_usageTable;
 
 @end
 

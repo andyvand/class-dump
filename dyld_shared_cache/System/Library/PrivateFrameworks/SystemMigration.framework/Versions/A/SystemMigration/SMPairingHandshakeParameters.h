@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SMPairingHandshakeParameters
 {
     NSData *_localCertificate;
-    NSString *_accessPointSSID;
-    NSString *_accessPointPassword;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 × ;
 
 // Remaining properties
-@property(copy) NSString *accessPointPassword; // @synthesize accessPointPassword=_accessPointPassword;
-@property(copy) NSString *accessPointSSID; // @synthesize accessPointSSID=_accessPointSSID;
 @property(retain) NSData *localCertificate; // @synthesize localCertificate=_localCertificate;
 
 @end

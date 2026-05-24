@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIRolloutDatabase, TRIServerContext;
 @protocol TRIRolloutTargeting;
 
 @interface TRIRolloutTargetingOperation
 {
     id <TRIRolloutTargeting> _targeter;
-    TRIRolloutDatabase *_rolloutDatabase;
-    TRIServerContext *_context;
 }
 
-- (_Bool);
+- (_Bool)ransport state changed to %lu;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void)!ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) TRIServerContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) TRIRolloutDatabase *rolloutDatabase; // @synthesize rolloutDatabase=_rolloutDatabase;
 @property(readonly, nonatomic) id <TRIRolloutTargeting> targeter; // @synthesize targeter=_targeter;
 
 @end

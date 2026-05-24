@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFAppIconImage, _SFPBRFAvatarImage, _SFPBRFBadgedImage, _SFPBRFDefaultBrowserAppIconImage, _SFPBRFMonogramImage, _SFPBRFSymbolImage, _SFPBRFUrlImage;
+@class _SFPBRFUrlImage;
 
 @interface _SFPBRFImageSource
 {
     _Bool _do_not_show_loading_placeholder;
-    _SFPBRFUrlImage *_url;
-    _SFPBRFSymbolImage *_symbol;
-    _SFPBRFAppIconImage *_app_icon;
-    _SFPBRFAvatarImage *_avatar;
-    _SFPBRFMonogramImage *_monogram;
-    _SFPBRFBadgedImage *_badged_image;
-    _SFPBRFDefaultBrowserAppIconImage *_default_browser_app_icon;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
@@ -26,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (void);
@@ -39,32 +31,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)queryForLikesForAsset:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id).adpExportVideoTimeRange;
+- (id)y asset:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void)hCardSection";
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFAppIconImage *app_icon; // @synthesize app_icon=_app_icon;
-@property(retain, nonatomic) _SFPBRFAvatarImage *avatar; // @synthesize avatar=_avatar;
-@property(retain, nonatomic) _SFPBRFBadgedImage *badged_image; // @synthesize badged_image=_badged_image;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _SFPBRFDefaultBrowserAppIconImage *default_browser_app_icon; // @synthesize default_browser_app_icon=_default_browser_app_icon;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool do_not_show_loading_placeholder; // @synthesize do_not_show_loading_placeholder=_do_not_show_loading_placeholder;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFMonogramImage *monogram; // @synthesize monogram=_monogram;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFSymbolImage *symbol; // @synthesize symbol=_symbol;
 @property(retain, nonatomic) _SFPBRFUrlImage *url; // @synthesize url=_url;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

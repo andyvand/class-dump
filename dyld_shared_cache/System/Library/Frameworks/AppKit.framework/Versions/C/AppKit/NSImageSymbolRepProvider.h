@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, NSString, _NSSimpleLRUCache;
+@class CUICatalog, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSImageSymbolRepProvider
 {
     NSString *_symbolName;
-    CUICatalog *_catalog;
-    double _variableValue;
-    _Bool _createdWithCompatibilityImageName;
-    _NSSimpleLRUCache *_repCache;
 }
 
 - (_Bool);
 - (_Bool);
+- (_Bool)__NSCFURLSessionDelegateWrapper;
+- (id);
+- (id)z;
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)@;
+- (id)@;
+- (void)�;
 - (id);
 - (id);
 - (id);
@@ -32,29 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool _isIconAppearanceSensitive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool _isSymbolImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) CUICatalog *catalog;
-@property(readonly, getter=wasCreatedWithCompatibilityImageName) _Bool createdWithCompatibilityImageName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) struct CGSize defaultSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) _Bool symbolIsFromPrivateCatalog;
-@property(readonly) NSString *symbolName;
 
 @end
 

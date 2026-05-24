@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
+- (void);
+- (void)odelP;
+- (NSArray *)$s22NewsLiveActivitiesCore18ActivityAssetStoreP;
+- (NSDate *)NewsLiveActivityContentState;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
 @property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
 @end
 

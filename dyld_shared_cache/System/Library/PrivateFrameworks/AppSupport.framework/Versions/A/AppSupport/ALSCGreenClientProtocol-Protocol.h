@@ -7,9 +7,6 @@
 @protocol ALSCGreenClientProtocol
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool key1Value;
-@property(readonly, nonatomic) _Bool key2Value;
-@property(readonly, nonatomic) _Bool key3Value;
 @property(readonly, nonatomic) _Bool valuesFinalized;
 @end
 

@@ -9,12 +9,9 @@
 @interface PXStoryChapterSettings : PXSettings
 {
     _Bool _dummyChaptersIncludeSubtitles;
-    long long _chapterCollectionProducerKind;
-    long long _dummyChaptersDayInterval;
-    long long _dummyChaptersCountInterval;
 }
 
-+ (id);
++ (id)ler;
 + (id);
 - (void);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) long long chapterCollectionProducerKind; // @synthesize chapterCollectionProducerKind=_chapterCollectionProducerKind;
-@property(nonatomic) long long dummyChaptersCountInterval; // @synthesize dummyChaptersCountInterval=_dummyChaptersCountInterval;
-@property(nonatomic) long long dummyChaptersDayInterval; // @synthesize dummyChaptersDayInterval=_dummyChaptersDayInterval;
-@property(nonatomic) _Bool dummyChaptersIncludeSubtitles; // @synthesize dummyChaptersIncludeSubtitles=_dummyChaptersIncludeSubtitles;
 
 @end
 

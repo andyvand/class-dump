@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIExperimentDatabase, TRIRolloutDatabase;
 @protocol TRIPaths;
 
 @interface TRIPurgeableExperimentAndRolloutProvider
 {
     id <TRIPaths> _paths;
-    TRIExperimentDatabase *_experimentDatabase;
-    TRIRolloutDatabase *_rolloutDatabase;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)removeObjectsForKeys:(id)arg1;
+- (id)removeObject:(id)arg1;
+- (id)removeIndexes:(id)arg1;
+- (id)photosFaceRepresentationSize;
+- (void)initWithPattern:(id)arg1 options:(id)arg2 error:(id)arg3;
+- (void)aSubtypes:(id)arg1 playbackStyle:(id)arg2 playbackVariation:(id)arg3;
+- (_Bool)xClockShift:(id)arg1 debugLayouts:(id)arg2;
+- (void)initWithConfigurationType:(id)arg1;
+- (_Bool)initWithCGImage:(id)arg1;
+- (id)inflatePersonFaceRect:(id)arg1;
 - (void)a×ð!TAù1!1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

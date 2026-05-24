@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectID, NSPersistentHistoryToken, NSUUID;
+@class NSManagedObjectID;
 
 __attribute__((visibility("hidden")))
 @interface RTPersistenceResetSyncContext
 {
     NSManagedObjectID *_currentDeviceObjectID;
-    NSUUID *_currentDeviceIdentifier;
-    NSManagedObjectContext *_managedObjectContext;
-    NSPersistentHistoryToken *_historyToken;
 }
 
 - (void);
 - (void);
+- (id)dictionaryWithDictionary: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id)EqualityEpsilon, %.3f, confidenceThreshold, %.3f, contextCandidateAmountThreshold, %lu,             contextDistanceThreshold, %.3f, minimumConfidenceRatio, %.3f, minimumNumberPOIs, %lu, passthroughThreshold, %.3f, placeholderWeight, %.3f, revGeoConfidence, %.3f,             sigma, %.3f, weekThreshold, %lu;
 - (void)@;
 - (id)ÿÅ9;
 - (void);
 
 // Remaining properties
-@property(retain) NSUUID *currentDeviceIdentifier; // @synthesize currentDeviceIdentifier=_currentDeviceIdentifier;
 @property(retain) NSManagedObjectID *currentDeviceObjectID; // @synthesize currentDeviceObjectID=_currentDeviceObjectID;
-@property(retain) NSPersistentHistoryToken *historyToken; // @synthesize historyToken=_historyToken;
-@property(retain) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 
 @end
 

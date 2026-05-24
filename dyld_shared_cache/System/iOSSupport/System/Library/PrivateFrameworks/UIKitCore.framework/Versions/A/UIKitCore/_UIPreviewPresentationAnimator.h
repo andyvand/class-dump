@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, CAMediaTimingFunction;
-
 __attribute__((visibility("hidden")))
 @interface _UIPreviewPresentationAnimator
 {
     double _duration;
-    CAMediaTimingFunction *_mediaTimingFunction;
-    double _startMediaTime;
-    CDUnknownBlockType _advanceBlock;
-    CADisplayLink *_displayLink;
 }
 
 - (double);
 - (void);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
+- (id)@0:(double)arg1 8@16@24@32@40@?48;
+- (CDUnknownBlockType)etionHandler: /* Error: Ran out of types for this method. */;
+- (void)oad dirty messages. Bailing for now;
 - (void);
 - (id);
 - (double);
-- (void);
-- (id);
-- (void);
+- (void)secondaryTextColorHex;
+- (id)sing mapping for MPModelPropertySongTitle;
+- (void)@;
 - (void);
 - (void)];
 - (id)Êb;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType advanceBlock; // @synthesize advanceBlock=_advanceBlock;
-@property(nonatomic) __weak CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) CAMediaTimingFunction *mediaTimingFunction; // @synthesize mediaTimingFunction=_mediaTimingFunction;
-@property(nonatomic) double startMediaTime; // @synthesize startMediaTime=_startMediaTime;
 
 @end
 

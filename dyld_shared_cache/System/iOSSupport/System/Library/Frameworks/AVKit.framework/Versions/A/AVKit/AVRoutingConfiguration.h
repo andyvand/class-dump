@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface AVRoutingConfiguration
 {
     _Bool _isDefault;
-    NSString *_outputContextID;
-    unsigned long long _sharingPolicy;
 }
 
 + (id);
 + (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)^;
+- (_Bool)tor"b1};
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *outputContextID; // @synthesize outputContextID=_outputContextID;
-@property(readonly, nonatomic) unsigned long long sharingPolicy; // @synthesize sharingPolicy=_sharingPolicy;
 
 @end
 

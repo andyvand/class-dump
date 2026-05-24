@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilityBoundsForRange: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

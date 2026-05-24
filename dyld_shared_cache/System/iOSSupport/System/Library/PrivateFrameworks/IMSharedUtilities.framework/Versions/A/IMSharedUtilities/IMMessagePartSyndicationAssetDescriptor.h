@@ -9,7 +9,6 @@
 @interface IMMessagePartSyndicationAssetDescriptor
 {
     NSString *_serializedString;
-    NSDictionary *_assetSyndications;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)E;
 - (id);
 - (id);
 - (void);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *assetSyndications; // @synthesize assetSyndications=_assetSyndications;
-@property(readonly, nonatomic) NSString *serializedString; // @synthesize serializedString=_serializedString;
 
 @end
 

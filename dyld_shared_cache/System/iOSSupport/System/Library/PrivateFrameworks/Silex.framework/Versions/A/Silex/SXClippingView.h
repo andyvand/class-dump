@@ -9,26 +9,19 @@
 @interface SXClippingView
 {
     UIView *_contentView;
-    unsigned long long _clippingMode;
-    struct CGSize _contentSize;
-    struct CGRect _contentFrame;
 }
 
 + (Class);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)4;
 - (void)le";
 - (struct CGRect)"SXSanFranciscoFontFamilyProvider"16@?0@"<TFResolver>"8;
 - (id)"16@?0@"<TFResolver>"8;
 - (struct CGSize);
 
 // Remaining properties
-@property(nonatomic) unsigned long long clippingMode; // @synthesize clippingMode=_clippingMode;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
 @property(readonly, nonatomic) SXClippingLayer *layer; // @dynamic layer;
 
 @end

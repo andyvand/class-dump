@@ -7,19 +7,16 @@
 @interface AFBluetoothHeadphoneInEarDetectionState
 {
     _Bool _isEnabled;
-    long long _primaryEarbudSide;
-    long long _primaryInEarStatus;
-    long long _secondaryInEarStatus;
 }
 
 + (unsigned long long);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (long long);
 - (id);
-- (id);
-- (long long);
+- (id)didReceiveShippingMethodCompleteWithStatus:(CDUnknownBlockType)arg1 paymentSummaryItems: /* Error: Ran out of types for this method. */;
+- (long long)0@"PKMerchantLookupResponse"8@"NSError"16;
 - (id);
 - (id);
 - (id);
@@ -27,16 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
-- (long long);
+- (long long)initWithService:error:handleResults:isFinal:allAreReachable:allSupportEncryption:didCheckServer: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) long long primaryEarbudSide; // @synthesize primaryEarbudSide=_primaryEarbudSide;
-@property(readonly, nonatomic) long long primaryInEarStatus; // @synthesize primaryInEarStatus=_primaryInEarStatus;
-@property(readonly, nonatomic) long long secondaryInEarStatus; // @synthesize secondaryInEarStatus=_secondaryInEarStatus;
 
 @end
 

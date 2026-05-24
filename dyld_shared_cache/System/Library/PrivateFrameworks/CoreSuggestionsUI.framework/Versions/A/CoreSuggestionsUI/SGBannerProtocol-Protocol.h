@@ -4,75 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSColor, NSString, NSVisualEffectView, SGBannerDividerParameter, SGSuggestionAction, SGSuggestionStore;
-@protocol SGSuggestion, SGSuggestionDelegate;
+@class NSAttributedString, NSString, SGSuggestionAction;
 
 @protocol SGBannerProtocol
+- (long long)R_=;
+- (NSString *)arrayByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
+- (void)numberWithBool:(NSString *)arg1;
+- (void)_isCurrentlyClosed;
+- (NSAttributedString *);
+
+@optional
+- (void);
+- (void)`;
+- (double)h;
+- (void);
+- (void)ThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>>, WTF:(long long)arg1:DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (SGSuggestionAction *);
+- (void)_filterStatusMessage;
 
 // Remaining properties
-@property(nonatomic) long long accessoryType;
-@property(nonatomic) long long actionButtonType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) NSString *actionTitle;
-@property(copy, nonatomic) NSAttributedString *attributedSubtitle;
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
-@property(copy, nonatomic) NSColor *backgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSColor",?,C,N
-
-@property(copy, nonatomic) NSVisualEffectView *backgroundVisualEffectView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSVisualEffectView",?,C,N
-
-@property(copy, nonatomic) SGBannerDividerParameter *bannerDivider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SGBannerDividerParameter",?,C,N
-
-@property(nonatomic) __weak id <SGSuggestionDelegate> delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SGSuggestionDelegate>",?,W,N
-
-@property(nonatomic) _Bool disableGlassPlatter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) SGSuggestionAction *dismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SGSuggestionAction",?,C,N
-
-@property(copy, nonatomic) SGSuggestionAction *feedbackAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SGSuggestionAction",?,C,N
-
-@property(copy, nonatomic) NSArray *iconSFSymbols;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C,N
-
-@property(nonatomic) _Bool ignoreSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSArray *images;
-@property(copy, nonatomic) SGSuggestionAction *primaryAction;
-@property(nonatomic) _Bool prominentActionButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) id <SGSuggestion> suggestion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SGSuggestion>",?,C,N
-
-@property(nonatomic) _Bool suggestionCategorySupportsBatchDismissal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) SGSuggestionStore *suggestionStore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SGSuggestionStore",?,C,N
-
 @property(copy, nonatomic) NSString *title;
 @end
 

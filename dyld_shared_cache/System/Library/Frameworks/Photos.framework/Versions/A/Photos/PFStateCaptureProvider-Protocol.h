@@ -7,6 +7,6 @@
 @class NSDictionary;
 
 @protocol PFStateCaptureProvider
-- (NSDictionary *)ns: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)setEnableNextTokenSuggestions: /* Error: Ran out of types for this method. */;
 @end
 

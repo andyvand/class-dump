@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2VideoPayload
 {
     unsigned int _decodeFormats;
-    NSData *_encodeDecodeFeatures;
-    unsigned int _encodeFormats;
-    unsigned int _parameterSet;
-    unsigned int _preferredDecodeFormat;
-    unsigned int _videoPayload;
-    struct {
-        unsigned int decodeFormats:1;
-        unsigned int encodeFormats:1;
-        unsigned int parameterSet:1;
-        unsigned int preferredDecodeFormat:1;
-        unsigned int videoPayload:1;
-    } _has;
 }
 
++ (int);
 + (int);
-+ (int);
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -39,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
+- (void)R_;
 - (void);
 - (void);
 - (unsigned int);
@@ -52,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id);
+- (id)4);
 - (id);
 - (unsigned int);
 - (_Bool);
@@ -64,28 +52,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)i;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int decodeFormats; // @synthesize decodeFormats=_decodeFormats;
-@property(readonly, nonatomic) NSArray *decodeVideoRules;
-@property(retain, nonatomic) NSData *encodeDecodeFeatures; // @synthesize encodeDecodeFeatures=_encodeDecodeFeatures;
-@property(nonatomic) unsigned int encodeFormats; // @synthesize encodeFormats=_encodeFormats;
 @property(readonly, nonatomic) NSArray *encodeVideoRules;
-@property(nonatomic) _Bool hasDecodeFormats;
-@property(readonly, nonatomic) _Bool hasEncodeDecodeFeatures;
-@property(nonatomic) _Bool hasEncodeFormats;
-@property(nonatomic) _Bool hasParameterSet;
-@property(nonatomic) _Bool hasPreferredDecodeFormat;
-@property(nonatomic) _Bool hasVideoPayload;
-@property(nonatomic) unsigned int parameterSet; // @synthesize parameterSet=_parameterSet;
-@property(readonly, nonatomic) int payload;
-@property(nonatomic) unsigned int preferredDecodeFormat; // @synthesize preferredDecodeFormat=_preferredDecodeFormat;
-@property(readonly, nonatomic) unsigned int videoParameterSupport;
-@property(nonatomic) unsigned int videoPayload; // @synthesize videoPayload=_videoPayload;
 
 @end
 

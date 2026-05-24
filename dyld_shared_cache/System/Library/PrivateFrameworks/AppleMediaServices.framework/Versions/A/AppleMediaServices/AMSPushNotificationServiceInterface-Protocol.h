@@ -5,5 +5,6 @@
 //
 
 @protocol AMSPushNotificationServiceInterface
+- (void)};
 @end
 

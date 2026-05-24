@@ -4,17 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
+@class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCTagBanner, FCTextInfo, NSString;
 
 @protocol FCFeedTheming
+- (NSString *)(;
+- (FCColorGradient *)removeAssetsForArtworkID: /* Error: Ran out of types for this method. */;
+- (unsigned long long)moveItemFromIndexPath:toIndexPath: /* Error: Ran out of types for this method. */;
+- (FCAssetHandle *)MediaRemoteCommandStageCondition - error:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ref changed] keepCurrentItem=YES;
+- (FCAssetHandle *)SSSg9queueType_Si05assetB0Si18subscriptionStatusSiSg19networkReachabilityt;
+- (unsigned long long)nedRange=qq};
+- (FCColor *)P;
+- (_Bool);
 - (FCContentColorMap *)Ð1Â0@ù
 × ;
-- (FCColorGradient *)orialItems;
+- (FCColorGradient *)cachedEditorialItems;
 - (FCColor *)_TtC7NewsUI255MagazineCatalogSectionHeaderViewLayoutAttributesFactory;
 - (FCAssetHandle *);
 - (struct CGSize)(11è102;
 - (FCAssetHandle *)`÷ÿ;
-- (FCColor *)ind;
+- (FCColor *)kind;
 - (FCAssetHandle *)peP;
 - (FCAssetHandle *);
 - (FCColorGradient *)×<OÿR;
@@ -26,68 +35,10 @@
 };
 - (struct FCEdgeInsets)ÿ;
 - (FCColor *);
-- (FCTextInfo *)ions;
+- (FCTextInfo *)UNNotificationPresentationOptions;
 - (double)X;
 
 // Remaining properties
-@property(readonly, nonatomic) FCColor *adBackgroundColor;
-@property(readonly, nonatomic) FCColorGradient *adBackgroundGradient;
-@property(readonly, nonatomic) _Bool allowCustomBottomStyle;
-@property(readonly, nonatomic) FCColor *backgroundColor;
-@property(readonly, nonatomic) double bannerImageBaselineOffsetPercentage;
-@property(readonly, nonatomic) FCTagBanner *bannerImageForMask;
-@property(readonly, nonatomic) FCTagBanner *bannerImageForThemeBackground;
-@property(readonly, nonatomic) FCTagBanner *bannerImageForWhiteBackground;
-@property(readonly, nonatomic) double bannerImageScale;
-@property(readonly, nonatomic) FCTagBanner *compactBannerImage;
-@property(readonly, nonatomic) FCContentColorMap *contentColorMap;
-@property(readonly, nonatomic) FCColor *darkStyleAdBackgroundColor;
-@property(readonly, nonatomic) FCColorGradient *darkStyleAdBackgroundGradient;
-@property(readonly, nonatomic) FCColor *darkStyleBackgroundColor;
-@property(readonly, nonatomic) FCColor *darkStyleFeedBackgroundColor;
-@property(readonly, nonatomic) FCColorGradient *darkStyleFeedBackgroundGradient;
-@property(readonly, nonatomic) FCColor *darkStyleFeedControlColor;
-@property(readonly, nonatomic) FCColor *darkStyleForegroundColor;
-@property(readonly, nonatomic) FCColor *darkStyleNavigationChromeBackgroundColor;
-@property(readonly, nonatomic) FCColorGradient *darkStyleNavigationChromeBackgroundGradient;
-@property(readonly, nonatomic) FCAssetHandle *darkStyleNavigationChromeBackgroundImage;
-@property(readonly, nonatomic) FCAssetHandle *darkStyleNavigationChromeBackgroundImageCompact;
-@property(readonly, nonatomic) FCAssetHandle *darkStyleNavigationChromeBackgroundImageLarge;
-@property(readonly, nonatomic) FCColor *darkStyleNavigationChromeSeparatorColor;
-@property(readonly, nonatomic) FCTagBanner *defaultBannerImage;
-@property(readonly, nonatomic) FCHeadlineTemplate *defaultHeadlineTemplate;
-@property(readonly, nonatomic) FCColor *feedBackgroundColor;
-@property(readonly, nonatomic) FCColorGradient *feedBackgroundGradient;
-@property(readonly, nonatomic) FCColor *feedControlColor;
-@property(readonly, nonatomic) NSString *feedMastheadType;
 @property(readonly, nonatomic) long long feedType;
-@property(readonly, nonatomic) FCColor *foregroundColor;
-@property(readonly, copy, nonatomic) FCTextInfo *headlineBylineTextInfo;
-@property(readonly, copy, nonatomic) FCTextInfo *headlineExcerptTextInfo;
-@property(readonly, copy, nonatomic) FCTextInfo *headlineTitleTextInfo;
-@property(readonly, nonatomic) _Bool isDark;
-@property(readonly, nonatomic) _Bool isWhite;
-@property(readonly, nonatomic) NSArray *loadableFonts;
-@property(readonly, nonatomic) FCAssetHandle *logoImageAssetHandle;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) FCAssetHandle *nameImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageCompactAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageForDarkBackgroundAssetHandle;
-@property(readonly, nonatomic) struct FCEdgeInsets nameImageForDarkBackgroundInsets;
-@property(readonly, nonatomic) struct CGSize nameImageForDarkBackgroundSize;
-@property(readonly, nonatomic) struct FCEdgeInsets nameImageInsets;
-@property(readonly, nonatomic) FCAssetHandle *nameImageMaskAssetHandle;
-@property(readonly, nonatomic) struct FCEdgeInsets nameImageMaskInsets;
-@property(readonly, nonatomic) struct CGSize nameImageMaskSize;
-@property(readonly, nonatomic) struct CGSize nameImageSize;
-@property(readonly, nonatomic) FCColor *navigationChromeBackgroundColor;
-@property(readonly, nonatomic) FCColorGradient *navigationChromeBackgroundGradient;
-@property(readonly, nonatomic) FCAssetHandle *navigationChromeBackgroundImage;
-@property(readonly, nonatomic) FCAssetHandle *navigationChromeBackgroundImageCompact;
-@property(readonly, nonatomic) unsigned long long navigationChromeBackgroundImageContentMode;
-@property(readonly, nonatomic) unsigned long long navigationChromeBackgroundImageContentModeCompact;
-@property(readonly, nonatomic) unsigned long long navigationChromeBackgroundImageContentModeLarge;
-@property(readonly, nonatomic) FCAssetHandle *navigationChromeBackgroundImageLarge;
-@property(readonly, nonatomic) FCColor *navigationChromeSeparatorColor;
 @end
 

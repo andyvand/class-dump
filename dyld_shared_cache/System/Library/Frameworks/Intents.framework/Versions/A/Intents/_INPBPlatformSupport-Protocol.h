@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol _INPBPlatformSupport
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMinimumOsVersion;
-@property(nonatomic) _Bool hasSupportedPlatform;
 @property(copy, nonatomic) NSString *minimumOsVersion;
-@property(nonatomic) int supportedPlatform;
 @end
 

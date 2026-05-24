@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNMutableContact, CNPolicy, NSArray, NSDictionary;
+@class CNMutableContact, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyGroupsDataSource
 {
     NSDictionary *_propertyGroups;
-    CNMutableContact *_mutableContact;
-    CNContactStore *_contactStore;
-    CNPolicy *_policy;
-    NSDictionary *_linkedPoliciesByContactIdentifier;
-    NSArray *_prohibitedPropertyKeys;
 }
 
-- (void);
+- (void)kb;
 - (void);
 - (void);
 - (id);
@@ -31,19 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (void);
-- (void)eWidth: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)_setOverrideInlineInactiveWidth: /* Error: Ran out of types for this method. */;
+- (void)propertyValueFont;
 - (id)ðfÂùF;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSDictionary *linkedPoliciesByContactIdentifier; // @synthesize linkedPoliciesByContactIdentifier=_linkedPoliciesByContactIdentifier;
 @property(retain, nonatomic) CNMutableContact *mutableContact; // @synthesize mutableContact=_mutableContact;
-@property(retain, nonatomic) CNPolicy *policy; // @synthesize policy=_policy;
-@property(retain, nonatomic) NSArray *prohibitedPropertyKeys; // @synthesize prohibitedPropertyKeys=_prohibitedPropertyKeys;
-@property(retain, nonatomic) NSDictionary *propertyGroups; // @synthesize propertyGroups=_propertyGroups;
 
 @end
 

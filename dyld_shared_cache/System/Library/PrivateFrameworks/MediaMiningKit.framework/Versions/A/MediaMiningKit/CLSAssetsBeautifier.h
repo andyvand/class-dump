@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSimilarStacker, NSObject, NSSet;
-@protocol OS_os_log;
-
 @interface CLSAssetsBeautifier
 {
     _Bool _enableStatisticalSampling;
-    _Bool _enableNetworkAccess;
-    _Bool _enableIntermediateNaturalClustering;
-    _Bool _enableFinalNaturalClustering;
-    _Bool _enableFinalTimeClustering;
-    CLSSimilarStacker *_similarStacker;
-    _Bool _usesKMeans;
-    _Bool _discardNonEligibleClustersInSampling;
-    NSSet *_identifiersOfRequiredItems;
-    NSSet *_identifiersOfEligibleItems;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)O;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -48,9 +35,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)_ְ;
+- (_Bool)	;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -58,20 +45,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)ue;
+- (void)";
+- (id)unsignedIntegerValue;
 
 // Remaining properties
-@property(nonatomic) _Bool discardNonEligibleClustersInSampling; // @synthesize discardNonEligibleClustersInSampling=_discardNonEligibleClustersInSampling;
-@property(nonatomic) _Bool enableFinalNaturalClustering; // @synthesize enableFinalNaturalClustering=_enableFinalNaturalClustering;
-@property(nonatomic) _Bool enableFinalTimeClustering; // @synthesize enableFinalTimeClustering=_enableFinalTimeClustering;
-@property(nonatomic) _Bool enableIntermediateNaturalClustering; // @synthesize enableIntermediateNaturalClustering=_enableIntermediateNaturalClustering;
-@property(nonatomic) _Bool enableNetworkAccess; // @synthesize enableNetworkAccess=_enableNetworkAccess;
 @property(nonatomic) _Bool enableStatisticalSampling; // @synthesize enableStatisticalSampling=_enableStatisticalSampling;
-@property(copy, nonatomic) NSSet *identifiersOfEligibleItems; // @synthesize identifiersOfEligibleItems=_identifiersOfEligibleItems;
-@property(copy, nonatomic) NSSet *identifiersOfRequiredItems; // @synthesize identifiersOfRequiredItems=_identifiersOfRequiredItems;
-@property(retain, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(nonatomic) _Bool usesKMeans; // @synthesize usesKMeans=_usesKMeans;
 
 @end
 

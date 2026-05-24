@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)reamWrapper";
 - (void);
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFPHueSaturationLightnessEffect : MFPEffect
 {
     int mHueChange;
-    int mSaturationChange;
-    int mLightnessChange;
 }
 
 + (id);

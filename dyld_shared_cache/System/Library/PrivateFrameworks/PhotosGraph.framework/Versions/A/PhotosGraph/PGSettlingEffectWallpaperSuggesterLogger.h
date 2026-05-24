@@ -17,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)fOnlyJunk;
+- (id)workspaceManager:(id)arg1 didUpdateRunningApplications: /* Error: Ran out of types for this method. */;
+- (void)returnDedupedJunkIfOnlyJunk;
 
 @end
 

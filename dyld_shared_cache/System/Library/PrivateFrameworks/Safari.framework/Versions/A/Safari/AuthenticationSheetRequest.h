@@ -6,17 +6,12 @@
 
 #import <Safari/SheetRequest.h>
 
-@class AuthenticationDialog, NSURLAuthenticationChallenge;
-@protocol AuthenticationSheetRequestDelegate;
+@class NSURLAuthenticationChallenge;
 
 __attribute__((visibility("hidden")))
 @interface AuthenticationSheetRequest : SheetRequest
 {
     CDUnknownBlockType _completionHandler;
-    AuthenticationDialog *_dialog;
-    _Bool _rememberThisPasswordCheckboxVisible;
-    NSURLAuthenticationChallenge *_challenge;
-    id <AuthenticationSheetRequestDelegate> _delegate;
 }
 
 - (_Bool);
@@ -27,14 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)Not attempting to share availability, recipient is not eligible (e.g. not a contact);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURLAuthenticationChallenge *challenge; // @synthesize challenge=_challenge;
-@property(nonatomic) __weak id <AuthenticationSheetRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isRememberThisPasswordCheckboxVisible) _Bool rememberThisPasswordCheckboxVisible; // @synthesize rememberThisPasswordCheckboxVisible=_rememberThisPasswordCheckboxVisible;
 
 @end
 

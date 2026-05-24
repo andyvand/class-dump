@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VSViewServiceRequestCenter
 {
     NSOperationQueue *_requestQueue;
-    NSOperationQueue *_completionQueue;
 }
 
 + (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *completionQueue; // @synthesize completionQueue=_completionQueue;
 @property(retain, nonatomic) NSOperationQueue *requestQueue; // @synthesize requestQueue=_requestQueue;
 
 @end

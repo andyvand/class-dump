@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MSVCallback
 {
     id _block;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -24,7 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) id block; // @synthesize block=_block;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

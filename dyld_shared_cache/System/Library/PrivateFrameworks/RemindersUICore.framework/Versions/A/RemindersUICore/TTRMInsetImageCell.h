@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)__AUTH_CONST;
 
 @end
 

@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 + (id)å;
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)noGeometryFilter;
 - (id)to pending requests:(id)arg1 %@;
 - (void)239-0000-1000-8000-0026BB765291;
 

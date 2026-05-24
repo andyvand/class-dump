@@ -6,13 +6,14 @@
 
 #import <UserNotifications/UNNotificationSound.h>
 
-@class NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface UNMutableNotificationSound : UNNotificationSound
 {
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,27 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (id);
-- (void)ensionXPCInterface;
+- (void)_UNNotificationServiceExtensionXPCInterface;
 
 // Remaining properties
 @property(copy) NSString *alertTopic; // @dynamic alertTopic;
-@property(copy) NSString *audioCategory; // @dynamic audioCategory;
-@property(copy) NSNumber *audioVolume; // @dynamic audioVolume;
-@property(getter=isCritical) _Bool critical; // @dynamic critical;
-@property double maximumDuration; // @dynamic maximumDuration;
-@property _Bool shouldIgnoreAccessibilityDisabledVibrationSetting; // @dynamic shouldIgnoreAccessibilityDisabledVibrationSetting;
-@property _Bool shouldIgnoreRingerSwitch; // @dynamic shouldIgnoreRingerSwitch;
-@property _Bool shouldRepeat; // @dynamic shouldRepeat;
-@property(copy) NSString *toneFileName; // @dynamic toneFileName;
-@property(copy) NSURL *toneFileURL; // @dynamic toneFileURL;
-@property(copy) NSString *toneIdentifier; // @dynamic toneIdentifier;
-@property unsigned long long toneMediaLibraryItemIdentifier; // @dynamic toneMediaLibraryItemIdentifier;
-@property(copy) NSString *vibrationIdentifier; // @dynamic vibrationIdentifier;
-@property(copy) NSURL *vibrationPatternFileURL; // @dynamic vibrationPatternFileURL;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface ChronoServices.IconStore
 {
     id _iconUpdatePublisher;
-    id iconFetchQueue;
-    id fileManagerFactory;
-    id imageIOPrimitives;
-    id iconsFolderURL;
 }
 
 @end

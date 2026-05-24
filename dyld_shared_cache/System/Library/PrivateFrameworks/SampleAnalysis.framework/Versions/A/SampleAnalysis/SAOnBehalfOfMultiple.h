@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface SAOnBehalfOfMultiple
 {
     unsigned int _count;
-    NSMutableDictionary *_proximateProcesses;
 }
 
 - (id);

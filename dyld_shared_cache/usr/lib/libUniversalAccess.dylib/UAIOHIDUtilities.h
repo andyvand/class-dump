@@ -8,17 +8,17 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (struct __IOHIDEventSystemClient *);
-+ (void *);
-+ (_Bool);
++ (_Bool)removeObserver:(id)arg1 name:(id)arg2 object:(id *)arg3;
++ (id)removeObjectsInRange:(id)arg1;
++ (_Bool)removeObjectsForKeys:(id)arg1;
++ (void)removeObjectForKey:andWait: /* Error: Ran out of types for this method. */;
++ (void)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
++ (_Bool)removeLeadingNewlines;
++ (_Bool)removeLastCharacter:(void *)arg1;
++ (_Bool)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
++ (struct __IOHIDEventSystemClient *)removeIndexes:(id *)arg1;
++ (void *)removeExtraExtendedAttributesAtPath:(id)arg1 forIntent:(id *)arg2 options:error: /* Error: Ran out of types for this method. */;
++ (_Bool)removeExtraExtendedAttributesAtPath:(_Bool)arg1 forIntent:(id)arg2 options:(id *)arg3 error: /* Error: Ran out of types for this method. */;
 
 @end
 

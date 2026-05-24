@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Core_Audio_Driver_Host_Proxy, NSObject, NSString, NSXPCListener, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
+@class Core_Audio_Driver_Host_Proxy;
 
 __attribute__((visibility("hidden")))
 @interface Core_Audio_Driver
 {
     Core_Audio_Driver_Host_Proxy *_driver_host_proxy;
-    NSXPCListener *_listener;
-    NSXPCListenerEndpoint *_endpoint;
-    struct AudioServerPlugInDriverInterface **_asp_interface;
-    struct AudioServerPlugInHostInterface *_host_interface;
-    NSObject<OS_dispatch_queue> *_concurrent_queue;
-    CDUnknownBlockType _process_boost_reply;
-    shared_ptr_53c12af5 _config_change_info_lock;
-    shared_ptr_e6fe39fb _config_change_info_map;
-    shared_ptr_2969c241 _m_custom_property_type_cache;
-    shared_ptr_53c12af5 _io_receiver_lock;
-    shared_ptr_981505df _io_receivers;
-    shared_ptr_cae1ecd9 _io_buffer_list;
-    function_e88ba8d7 _m_invalidation_handler;
 }
 
 - (void);
@@ -47,15 +33,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)C;
+- (void);
 - (void);
+- (shared_ptr_113af87f);
+- (function_62e87cf2);
 - (void);
-- (shared_ptr_2969c241);
-- (function_e88ba8d7);
-- (void);
-- (shared_ptr_981505df);
-- (shared_ptr_53c12af5);
-- (shared_ptr_cae1ecd9);
+- (shared_ptr_6030c3cf);
+- (shared_ptr_b1e8babf)P;
+- (shared_ptr_a82571c4);
 - (id);
 - (struct AudioServerPlugInHostInterface *);
 - (void);
@@ -67,16 +53,16 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (int);
-- (shared_ptr_e6fe39fb);
-- (shared_ptr_53c12af5);
+- (shared_ptr_8cdc1e41);
+- (shared_ptr_b1e8babf);
 - (id);
 - (struct AudioServerPlugInDriverInterface **);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -88,27 +74,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct AudioServerPlugInDriverInterface **asp_interface; // @synthesize asp_interface=_asp_interface;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *concurrent_queue; // @synthesize concurrent_queue=_concurrent_queue;
-@property(readonly, nonatomic) shared_ptr_53c12af5 config_change_info_lock; // @synthesize config_change_info_lock=_config_change_info_lock;
-@property(nonatomic) shared_ptr_e6fe39fb config_change_info_map; // @synthesize config_change_info_map=_config_change_info_map;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) Core_Audio_Driver_Host_Proxy *driver_host_proxy; // @synthesize driver_host_proxy=_driver_host_proxy;
-@property(retain, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct AudioServerPlugInHostInterface *host_interface; // @synthesize host_interface=_host_interface;
-@property(nonatomic) shared_ptr_cae1ecd9 io_buffer_list; // @synthesize io_buffer_list=_io_buffer_list;
-@property(nonatomic) shared_ptr_53c12af5 io_receiver_lock; // @synthesize io_receiver_lock=_io_receiver_lock;
-@property(nonatomic) shared_ptr_981505df io_receivers; // @synthesize io_receivers=_io_receivers;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(nonatomic) function_e88ba8d7 m_invalidation_handler; // @synthesize m_invalidation_handler=_m_invalidation_handler;
-@property(nonatomic) shared_ptr_2969c241 m_property_type_info; // @synthesize m_property_type_info=_m_custom_property_type_cache;
-@property(copy, nonatomic) CDUnknownBlockType process_boost_reply; // @synthesize process_boost_reply=_process_boost_reply;
-@property(readonly) Class superclass;
 
 @end
 

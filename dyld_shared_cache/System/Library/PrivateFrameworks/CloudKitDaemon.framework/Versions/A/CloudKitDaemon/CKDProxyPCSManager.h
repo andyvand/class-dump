@@ -10,11 +10,11 @@
 }
 
 - (void);
-- (void);
-- (Class);
+- (void);
+- (Class);;
 - (id);
 - (_Bool);
-- (void);
+- (void)generation;
 - (id);
 - (void)	;
 

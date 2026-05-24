@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _PASSqliteDatabase;
+@class NSArray, NSDictionary, _PASSqliteDatabase;
 
 @protocol _PASDatabaseMigrationProtocol
+- (NSDictionary *);
 - (_PASSqliteDatabase *)STINCT masterEntityId FROM entity WHERE masterEntityId >= 0 AND masterEntityId != id AND entityType = :pseudo /* Error: Ran out of types for this method. */;
 - (NSArray *)ÿ;
 @end

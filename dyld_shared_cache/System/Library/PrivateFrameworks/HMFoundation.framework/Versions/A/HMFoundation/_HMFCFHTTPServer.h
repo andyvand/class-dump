@@ -6,17 +6,13 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, _HMFCFHTTPServerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _HMFCFHTTPServer : HMFObject
 {
     id <_HMFCFHTTPServerDelegate> _delegate;
-    unsigned long long _port;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    struct _CFHTTPServer *_internal;
-    NSMutableArray *_connections;
 }
 
 + (id)ý!XFù{°1Â0@ù
@@ -27,33 +23,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (struct _CFHTTPServer *);
+- (struct _CFHTTPServer *)#;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)initWithUniqueIdentifier:reason:dateOfOccurrence:confidenceLevel:cameraProfileUUID:faceClassification:timeOffsetWithinClip:clipUUID: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property double connectionIdleTimeout;
-@property(readonly, nonatomic) NSMutableArray *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMFCFHTTPServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct _CFHTTPServer *internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) unsigned long long port; // @synthesize port=_port;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

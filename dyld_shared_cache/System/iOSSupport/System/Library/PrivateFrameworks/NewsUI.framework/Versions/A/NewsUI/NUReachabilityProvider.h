@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNetworkReachability, NSHashTable, NSString;
+@class FCNetworkReachability;
 
 @interface NUReachabilityProvider
 {
     FCNetworkReachability *_networkReachability;
-    NSHashTable *_observers;
 }
 
 - (void);
@@ -18,19 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) FCNetworkReachability *networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 
 @end
 

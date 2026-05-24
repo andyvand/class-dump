@@ -6,22 +6,18 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceBalanceHistoryRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSDate *_beginDate;
-    NSDate *_endDate;
-    unsigned long long _type;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)H;
 - (void);
 - (void);
 - (id)yment offers for %s post payment sheet provisioning;
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

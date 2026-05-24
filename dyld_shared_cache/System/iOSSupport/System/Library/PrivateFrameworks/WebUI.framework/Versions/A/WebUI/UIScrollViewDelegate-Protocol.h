@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView, UIView;
+
 @protocol UIScrollViewDelegate
+
+@optional
+- (void);
+- (void)_hasResponderRegisteredForWindow:(UIScrollView *)arg1;
+- (UIView *);
 @end
 

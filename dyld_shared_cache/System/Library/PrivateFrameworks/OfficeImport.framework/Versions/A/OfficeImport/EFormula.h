@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDFormula, EFTableData, NSString;
 @protocol EFHelper;
 
 __attribute__((visibility("hidden")))
 @interface EFormula
 {
     id <EFHelper> mHelper;
-    void *mYylex;
-    Class mFormulaClass;
-    EDFormula *mFormula;
-    EFTableData *mTableData;
-    NSString *mErrMsg;
 }
 
 + (id);
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)֟;
 - (unsigned long long);
 - (id);
 - (Class);

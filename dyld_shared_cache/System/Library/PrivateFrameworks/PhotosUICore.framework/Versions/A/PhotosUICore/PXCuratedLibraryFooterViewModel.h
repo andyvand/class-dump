@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXAssetsDataSourceCountsController, PXCPLPhotoLibrarySource, PXCPLUIStatusProvider, PXCuratedLibraryAnalysisStatus, PXCuratedLibraryViewModel, PXFilterFooterController, PXFooterSettings, PXLemonadeFeatureAvailabilityMonitor, PXLibraryFilterState, PXSharedLibraryStatusProvider;
-@protocol PXCuratedLibraryFooterViewModelPresentationDelegate;
+@class PXAssetsDataSourceCountsController, PXCPLPhotoLibrarySource;
 
 @interface PXCuratedLibraryFooterViewModel
 {
     PXCPLPhotoLibrarySource *_photoLibrarySource;
-    PXCPLUIStatusProvider *_cplUIStatusProvider;
-    PXCuratedLibraryViewModel *_curatedLibraryViewModel;
-    PXFilterFooterController *_filterFooterController;
-    long long _animatedGridCycleIndex;
-    _Bool _isFooterShown;
-    id <PXCuratedLibraryFooterViewModelPresentationDelegate> _presentingDelegate;
-    long long _mode;
-    PXCuratedLibraryAnalysisStatus *_analysisStatus;
-    PXAssetsDataSourceCountsController *_itemCountsController;
-    PXFooterSettings *_settings;
-    PHPhotoLibrary *_photoLibrary;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    PXLemonadeFeatureAvailabilityMonitor *_featureAvailabilityMonitor;
 }
 
 + (_Bool);
@@ -41,11 +26,11 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)G}V;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)convertPoint:fromView: /* Error: Ran out of types for this method. */;
+- (void)UUUUU.@;
 - (id);
 - (id)nDataSource.m;
 - (void)Å³¸­öþµ³9
@@ -55,24 +40,7 @@
 - (id)¸<õÿ!RM=;
 
 // Remaining properties
-@property(readonly, nonatomic) PXCuratedLibraryAnalysisStatus *analysisStatus; // @synthesize analysisStatus=_analysisStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXLemonadeFeatureAvailabilityMonitor *featureAvailabilityMonitor; // @synthesize featureAvailabilityMonitor=_featureAvailabilityMonitor;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFooterShown; // @synthesize isFooterShown=_isFooterShown;
 @property(readonly, nonatomic) PXAssetsDataSourceCountsController *itemCountsController; // @synthesize itemCountsController=_itemCountsController;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(nonatomic) __weak id <PXCuratedLibraryFooterViewModelPresentationDelegate> presentingDelegate; // @synthesize presentingDelegate=_presentingDelegate;
-@property(readonly, nonatomic) PXFooterSettings *settings; // @synthesize settings=_settings;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
-@property(readonly, nonatomic) _Bool shouldAlternateTitleWithAnimatedGridCycle;
-@property(readonly) Class superclass;
 
 @end
 

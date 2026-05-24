@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)%s:%d AVCAudioStream:notified client %p RTCP packet timeout /* Error: Ran out of types for this method. */;
 
 @end
 

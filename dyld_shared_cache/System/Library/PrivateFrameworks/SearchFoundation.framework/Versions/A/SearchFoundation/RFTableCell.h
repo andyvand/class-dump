@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, RFTextProperty, RFVisualProperty;
+@class RFTextProperty;
 
 @interface RFTableCell
 {
@@ -14,32 +14,27 @@
         unsigned int horizontal_alignment:1;
         unsigned int applySmallCaps:1;
     } _has;
-    _Bool _applySmallCaps;
-    int _horizontal_alignment;
-    RFTextProperty *_text;
-    RFVisualProperty *_visual;
-    NSNumber *_column_span;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)@C;
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)!,;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)movePinnedArtistWithPersistentID:(id)arg1 cloudArtistID:toPosition:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)_resultsNeedFiltering;
+- (_Bool)@;
 - (void);
-- (id);
-- (id);
+- (id)transientCollectionListWithCollectionsFetchResult:(id)arg1 title:identifier: /* Error: Ran out of types for this method. */;
+- (id)quests;
 - (id);
 - (id);
 - (void);
@@ -48,20 +43,7 @@
 - (void)PBRFRGBValue",&,N;
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps; // @synthesize applySmallCaps=_applySmallCaps;
-@property(copy, nonatomic) NSNumber *column_span; // @synthesize column_span=_column_span;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int horizontal_alignment; // @synthesize horizontal_alignment=_horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) RFTextProperty *text; // @synthesize text=_text;
-@property(retain, nonatomic) RFVisualProperty *visual; // @synthesize visual=_visual;
 
 @end
 

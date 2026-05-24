@@ -6,24 +6,21 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKDAssetTokenRequest, NSDictionary, NSMapTable;
+@class CKDAssetTokenRequest;
 
 @interface CKDFetchContentAuthTokensForPutURLRequest : CKDURLRequest
 {
     _Bool _useEncryption;
-    CKDAssetTokenRequest *_assetTokenRequest;
-    NSMapTable *_transactionStateByRequestIDs;
-    NSDictionary *_headers;
 }
 
 - (id);
-- (void);
+- (void)dateByAddingDays:(id)arg1;
 - (id);
-- (_Bool);
+- (_Bool)URLString;
 - (void);
-- (id);
+- (id)P;
 - (void)ferenceProtocol>"16@?<v@?@"<CKXPCLogicalDeviceScopedDaemon>">24;
-- (void)entityKeyIDsCount;
+- (void)serviceIdentityKeyIDsCount;
 - (id).security.view-change.PCS;
 - (void)r record %@ by this point;
 - (id)Attribution="%@";
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKDAssetTokenRequest *assetTokenRequest; // @synthesize assetTokenRequest=_assetTokenRequest;
-@property(retain, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
-@property(retain, nonatomic) NSMapTable *transactionStateByRequestIDs; // @synthesize transactionStateByRequestIDs=_transactionStateByRequestIDs;
-@property(nonatomic) _Bool useEncryption; // @synthesize useEncryption=_useEncryption;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <iCalendar/VCSEntity.h>
 
-@class NSString, VCSDate;
-
 @interface VCSAlarm : VCSEntity
 {
     unsigned long long _alarmType;
-    NSString *_summary;
-    NSString *_body;
-    unsigned long long _triggerType;
-    VCSDate *_triggerDate;
-    double _triggerDuration;
 }
 
 + (id);
@@ -24,20 +17,15 @@
 - (unsigned long long);
 - (double);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)rtPredictedLocationOfInterest;
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
+- (unsigned long long);
+- (void)%;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long alarmType; // @synthesize alarmType=_alarmType;
-@property(readonly, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly, nonatomic) VCSDate *triggerDate; // @synthesize triggerDate=_triggerDate;
-@property(readonly, nonatomic) double triggerDuration; // @synthesize triggerDuration=_triggerDuration;
-@property(readonly, nonatomic) unsigned long long triggerType; // @synthesize triggerType=_triggerType;
 
 @end
 

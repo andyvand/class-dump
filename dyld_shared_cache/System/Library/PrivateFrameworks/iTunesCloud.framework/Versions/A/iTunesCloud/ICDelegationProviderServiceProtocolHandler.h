@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRequestContext, ICUserIdentityStore, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationProviderServiceProtocolHandler
 {
     NSObject<OS_dispatch_queue> *_calloutQueue;
-    ICUserIdentityStore *_identityStore;
-    NSOperationQueue *_operationQueue;
-    unsigned long long _nextSessionUniqueID;
-    ICRequestContext *_requestContext;
 }
 
 - (id);

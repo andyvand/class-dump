@@ -9,28 +9,26 @@
 @interface BMStoreBookmark
 {
     NSString *_streamId;
-    NSString *_segmentName;
-    double _iterationStartTime;
-    unsigned long long _offset;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)b
+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)A;
 - (_Bool);
-- (void);
+- (void)ration should be created before a scrub starts.;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)dataWithJSONObject:(double)arg1 options:(id)arg2 error:(id)arg3;
+- (id)sfully:(id)arg1 ];
+- (id);
 - (void);
 - (id);
 - (unsigned long long);

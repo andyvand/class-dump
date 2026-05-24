@@ -7,7 +7,7 @@
 @class CKSignificantIssue;
 
 @protocol CKXPCProcessScopedClient
-- (void)uestCompletionBlockIVar:(CKSignificantIssue *)arg1;
+- (void)setShareAccessRequestCompletionBlockIVar:(CKSignificantIssue *)arg1;
 - (void)moved %llu entries;
 @end
 

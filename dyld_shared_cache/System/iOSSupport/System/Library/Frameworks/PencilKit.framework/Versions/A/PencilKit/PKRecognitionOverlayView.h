@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHVisualizationManager, NSString;
+@class CHVisualizationManager;
 
 @interface PKRecognitionOverlayView
 {
     CHVisualizationManager *_visualizationManager;
-    struct CGAffineTransform _drawingTransform;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (struct CGAffineTransform);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)receptionistSession;
+- (id);
 - (void)keSpatialCacheDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform=_drawingTransform;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CHVisualizationManager *visualizationManager; // @synthesize visualizationManager=_visualizationManager;
 
 @end
 

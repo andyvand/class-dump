@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBShowContactCardCommand
 {
     _Bool _isSuggestedContact;
-    NSString *_contactIdentifier;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
@@ -21,23 +20,14 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)setAssetOrientation:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)<;
 - (id);
 - (void)heetCommand"16;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSuggestedContact; // @synthesize isSuggestedContact=_isSuggestedContact;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

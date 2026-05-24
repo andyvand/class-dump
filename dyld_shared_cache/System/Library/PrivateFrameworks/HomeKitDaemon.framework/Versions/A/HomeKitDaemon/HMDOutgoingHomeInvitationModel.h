@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDOutgoingHomeInvitationModel : HMDBackingStoreModelObject
 {
@@ -20,31 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)ID;
+- (id)MKFActionSetDatabaseID;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessCode; // @dynamic accessCode;
-@property(retain, nonatomic) NSNumber *announceAccessLevel; // @dynamic announceAccessLevel;
-@property(retain, nonatomic) NSDate *dateSent; // @dynamic dateSent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *expiryDate; // @dynamic expiryDate;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *idsInvitationUUID; // @dynamic idsInvitationUUID;
-@property(retain, nonatomic) NSNumber *invitationState; // @dynamic invitationState;
-@property(retain, nonatomic) NSString *inviteeDestinationAddress; // @dynamic inviteeDestinationAddress;
-@property(retain, nonatomic) NSString *messageIdentifier; // @dynamic messageIdentifier;
-@property(retain, nonatomic) NSArray *operationIdentifiers; // @dynamic operationIdentifiers;
-@property(retain, nonatomic) NSArray *operations; // @dynamic operations;
-@property(retain, nonatomic) NSUUID *pendingUserUUID; // @dynamic pendingUserUUID;
-@property(retain, nonatomic) NSNumber *responseReceived; // @dynamic responseReceived;
-@property(retain, nonatomic) NSData *shareToken; // @dynamic shareToken;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *user; // @dynamic user;
-@property(retain, nonatomic) NSArray *uuidsOfAllowedAccessories; // @dynamic uuidsOfAllowedAccessories;
 
 @end
 

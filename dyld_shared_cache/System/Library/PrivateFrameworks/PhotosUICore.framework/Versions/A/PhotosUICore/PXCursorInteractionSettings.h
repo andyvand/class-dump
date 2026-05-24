@@ -9,21 +9,6 @@
 @interface PXCursorInteractionSettings : PXSettings
 {
     _Bool _enableGridShadows;
-    _Bool _enableGridLift;
-    _Bool _enableCardShadows;
-    _Bool _enableCardLift;
-    _Bool _enableDetailsEffect;
-    _Bool _enableCuratedLibraryEffects;
-    _Bool _enableDaysEffect;
-    double _animationDuration;
-    double _dampingRatio;
-    double _yearsPadding;
-    double _monthsPadding;
-    double _daysPadding;
-    double _allPhotosAspectFitPadding;
-    double _allPhotosAspectFillPadding;
-    long long _aspectFitAnimationStyle;
-    long long _aspectFillAnimationStyle;
 }
 
 + (id);
@@ -36,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
@@ -59,30 +44,15 @@
 - (double);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (double);
 - (void);
 - (void)tAssetsByCreationDate;
 - (double)ersistable recipe:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double allPhotosAspectFillPadding; // @synthesize allPhotosAspectFillPadding=_allPhotosAspectFillPadding;
-@property(nonatomic) double allPhotosAspectFitPadding; // @synthesize allPhotosAspectFitPadding=_allPhotosAspectFitPadding;
 @property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(nonatomic) long long aspectFillAnimationStyle; // @synthesize aspectFillAnimationStyle=_aspectFillAnimationStyle;
-@property(nonatomic) long long aspectFitAnimationStyle; // @synthesize aspectFitAnimationStyle=_aspectFitAnimationStyle;
-@property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;
-@property(nonatomic) double daysPadding; // @synthesize daysPadding=_daysPadding;
-@property(nonatomic) _Bool enableCardLift; // @synthesize enableCardLift=_enableCardLift;
-@property(nonatomic) _Bool enableCardShadows; // @synthesize enableCardShadows=_enableCardShadows;
-@property(nonatomic) _Bool enableCuratedLibraryEffects; // @synthesize enableCuratedLibraryEffects=_enableCuratedLibraryEffects;
-@property(nonatomic) _Bool enableDaysEffect; // @synthesize enableDaysEffect=_enableDaysEffect;
-@property(nonatomic) _Bool enableDetailsEffect; // @synthesize enableDetailsEffect=_enableDetailsEffect;
-@property(nonatomic) _Bool enableGridLift; // @synthesize enableGridLift=_enableGridLift;
-@property(nonatomic) _Bool enableGridShadows; // @synthesize enableGridShadows=_enableGridShadows;
-@property(nonatomic) double monthsPadding; // @synthesize monthsPadding=_monthsPadding;
-@property(nonatomic) double yearsPadding; // @synthesize yearsPadding=_yearsPadding;
 
 @end
 

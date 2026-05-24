@@ -5,9 +5,10 @@
 //
 
 @protocol _OSLogCache
+- (void);
+- (id)pair<const CHModelCatalogModelVariant, std:(id)arg1:pair<CHPersonalizedSynthesisModelState, NSString *>>>>="__tree_"{__tree<std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::__map_value_compare<CHModelCatalogModelVariant, std::pair<const CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::less<CHModelCatalogModelVariant>>, std::allocator<std::pair<const CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(copy, nonatomic) CDUnknownBlockType evictionHandler;
 @end
 

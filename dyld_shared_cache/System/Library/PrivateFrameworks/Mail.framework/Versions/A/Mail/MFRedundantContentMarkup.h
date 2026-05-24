@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessage, MCMessageBody, NSString;
+@class MCMessage;
 
 @interface MFRedundantContentMarkup
 {
     _Bool _matchedEntireAncestorContiguously;
-    _Bool _messageContainsRedundantText;
-    MCMessage *_message;
-    MCMessageBody *_messageBody;
-    MCMessage *_ancestorUsedForComparison;
-    NSString *_messageBodyWithRedundantTextMarkers;
-    NSString *_redundantContentSenderName;
 }
 
 - (id);
@@ -23,34 +17,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)DOMCSSImportRule;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MCMessage *ancestorUsedForComparison; // @synthesize ancestorUsedForComparison=_ancestorUsedForComparison;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool matchedEntireAncestorContiguously; // @synthesize matchedEntireAncestorContiguously=_matchedEntireAncestorContiguously;
 @property(readonly, nonatomic) MCMessage *message; // @synthesize message=_message;
-@property(readonly, nonatomic) MCMessageBody *messageBody; // @synthesize messageBody=_messageBody;
-@property(readonly, copy, nonatomic) NSString *messageBodyWithRedundantTextMarkers; // @synthesize messageBodyWithRedundantTextMarkers=_messageBodyWithRedundantTextMarkers;
-@property(readonly, nonatomic) _Bool messageContainsRedundantText; // @synthesize messageContainsRedundantText=_messageContainsRedundantText;
-@property(readonly, copy, nonatomic) NSString *redundantContentSenderName; // @synthesize redundantContentSenderName=_redundantContentSenderName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FilterElementDefinition
 {
     NSString *_rootName;
-    unsigned long long _rule;
-    unsigned long long _mask;
-    unsigned long long _subRule;
-    unsigned long long _subMask;
-    int _subAuxValueCount;
-    _Bool _hasAuxValue;
-    unsigned long long _auxValue;
-    NSMutableDictionary *_setOfMatches;
-    NSMutableDictionary *_setOfPrefixedWildCards;
-    NSString *_namedLink;
-    FilterElementDefinition *_wildCard;
-    FilterElementDefinition *_superWildCard;
 }
 
 - (_Bool);
-- (id);
-- (CDStruct_aeabb2c7);
+- (id)=;
+- (CDStruct_51293ebd);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 
 @end

@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUserPresenceFeeder, NSArray, NSString;
-@protocol HMDHomeActivityStateManagerDataSource, HMDHomeActivityStateManagerStorage, HMDUserActivityReportCoordinator;
+@protocol HMDHomeActivityStateManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityStateDetectorManager
 {
     struct os_unfair_lock_s _lock;
-    HMDUserPresenceFeeder *_presenceFeeder;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    id <HMDUserActivityReportCoordinator> _userActivityReportCoordinator;
-    NSArray *_detectors;
-    id <HMDHomeActivityStateManagerStorage> _storage;
 }
 
 + (_Bool);
 + (id)¤KÿÔDð@B;
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)xX;
 - (void);
+- (id)Found file not excluded from backup, excluding now:(id)arg1 %@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id)Y	;
+- (id);
 - (id);
 - (void)use cached home configuration homeCounterMatch %@  metadataVersionMatch %@;
 - (id)fetch working store user resulted into error:(id)arg1 %{public}@;
@@ -46,17 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *detectors; // @synthesize detectors=_detectors;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDUserPresenceFeeder *presenceFeeder; // @synthesize presenceFeeder=_presenceFeeder;
-@property(readonly, nonatomic) id <HMDHomeActivityStateManagerStorage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMDUserActivityReportCoordinator> userActivityReportCoordinator; // @synthesize userActivityReportCoordinator=_userActivityReportCoordinator;
 
 @end
 

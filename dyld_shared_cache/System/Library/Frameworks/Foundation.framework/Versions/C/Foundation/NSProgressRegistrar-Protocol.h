@@ -5,7 +5,8 @@
 //
 
 @protocol NSProgressRegistrar
-- (oneway void)÷÷øøùùùùùúûüýýýýþþþþÿÿÿÿÿÿ;
+- (oneway void)A;
 - (oneway void);
+- (oneway void)÷÷øøùùùùùúûüýýýýþþþþÿÿÿÿÿÿ;
 @end
 

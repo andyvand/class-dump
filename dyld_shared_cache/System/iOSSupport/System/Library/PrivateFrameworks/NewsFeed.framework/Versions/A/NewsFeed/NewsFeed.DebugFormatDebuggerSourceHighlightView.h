@@ -7,16 +7,10 @@
 @interface NewsFeed.DebugFormatDebuggerSourceHighlightView
 {
     id sourceFile;
-    id didTapOnHighlight;
-    id editor;
-    id messageLabel;
-    id messageFont;
-    id messageTextColor;
-    id highlight;
 }
 
 - (id);
-- (void);
+- (void);;
 - (id)1Â0@ù
 × ;
 - (void)¹0:F /* Error: Ran out of types for this method. */;

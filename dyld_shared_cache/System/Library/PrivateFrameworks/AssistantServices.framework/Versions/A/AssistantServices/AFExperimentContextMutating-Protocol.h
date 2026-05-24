@@ -5,5 +5,6 @@
 //
 
 @protocol AFExperimentContextMutating
+- (void);
 @end
 

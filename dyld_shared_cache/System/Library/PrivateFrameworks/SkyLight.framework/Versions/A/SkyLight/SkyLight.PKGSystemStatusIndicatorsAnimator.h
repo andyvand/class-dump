@@ -7,9 +7,6 @@
 @interface SkyLight.PKGSystemStatusIndicatorsAnimator
 {
     id duration;
-    id animateBlock;
-    id progress;
-    id state;
 }
 
 @end

@@ -7,31 +7,26 @@
 @interface GEOLPRTargetChar
 {
     int _charIndex;
-    int _type;
-    struct {
-        unsigned int has_charIndex:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool)reConnectEnd:(id)arg1;
++ (_Bool)setHasSecureConnectEnd:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)secTask:hasArrayWithStringValue:forAnyEntitlement:error: /* Error: Ran out of types for this method. */;
 - (int);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)initWithExtensionIdentifier:extensionProvider: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id)onth:(struct _NSZone *)arg1;
+- (void)~;;
+- (id)setMonth:(struct _NSZone *)arg1;
 - (void)arameters",&,N;
-- (id)ngState: /* Error: Ran out of types for this method. */;
+- (id)StringAsChargingState: /* Error: Ran out of types for this method. */;
 - (int)OKit battery percentage notifications;
 - (id)ons.;
 - (id);
@@ -40,10 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int charIndex;
-@property(nonatomic) _Bool hasCharIndex;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
 
 @end
 

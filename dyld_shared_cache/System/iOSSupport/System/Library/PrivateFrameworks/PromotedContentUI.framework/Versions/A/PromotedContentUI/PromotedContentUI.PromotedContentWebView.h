@@ -7,19 +7,13 @@
 @interface PromotedContentUI.PromotedContentWebView
 {
     id _processDelegate;
-    id webProcessProxy;
-    id remoteObjectInterface;
-    id browserContextControllerDidLoad;
-    id adIdentifier;
-    id maxRequestCount;
-    id unfairLock;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,22 +22,22 @@
 - (void);
 - (void);
 - (void);
+- (void)_TtP9JetEngineP33_24D55C9622911635E8CEB28E68A6A01F23JSPlatformObjectExports_;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
+- (void)rror"24q32;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)inator [] playbackCoordinator=%{public}@;
+- (void)ontext-<%@:(float)arg1 %p>;
+- (void)\2;
 - (void);
 - (void);
 - (void);

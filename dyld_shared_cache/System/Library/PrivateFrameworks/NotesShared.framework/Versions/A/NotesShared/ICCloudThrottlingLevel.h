@@ -7,11 +7,9 @@
 @interface ICCloudThrottlingLevel
 {
     double _batchInterval;
-    double _maximumBatchIntervalFactor;
-    unsigned long long _numberOfBatches;
 }
 
-- (unsigned long long);
+- (unsigned long long)q ;
 - (double);
 - (id);
 - (double);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double batchInterval; // @synthesize batchInterval=_batchInterval;
-@property(readonly, nonatomic) double maximumBatchIntervalFactor; // @synthesize maximumBatchIntervalFactor=_maximumBatchIntervalFactor;
-@property(readonly, nonatomic) unsigned long long numberOfBatches; // @synthesize numberOfBatches=_numberOfBatches;
 
 @end
 

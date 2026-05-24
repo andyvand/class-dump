@@ -7,7 +7,6 @@
 @interface MRNowPlayingAnimatedArtwork
 {
     CDUnknownBlockType _previewFrameDataRequestHandler;
-    CDUnknownBlockType _artworkAssetFileURLRequestHandler;
 }
 
 - (void);

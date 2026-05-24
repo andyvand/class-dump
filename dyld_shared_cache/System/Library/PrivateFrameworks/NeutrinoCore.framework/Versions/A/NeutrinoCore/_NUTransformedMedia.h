@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NUComposedMedia.h>
 
-@class NSArray, NUChannelMediaFormat, NUGeometryTransform;
-@protocol NUMediaGeometry, NUMediaMetadata;
+@class NUGeometryTransform;
 
 @interface _NUTransformedMedia : _NUComposedMedia
 {
@@ -21,10 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
-@property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
 @property(readonly, nonatomic) NUGeometryTransform *transform; // @synthesize transform=_transform;
 
 @end

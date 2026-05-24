@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResourceManifestConfiguration, NSMutableArray, NSString, geo_isolater;
+@class GEOResourceManifestConfiguration;
 
 @interface GEOSearchAttributionManifestVersionMigrator
 {
     GEOResourceManifestConfiguration *_manifestConfiguration;
-    geo_isolater *_isolater;
-    NSMutableArray *_runningTasks;
 }
 
 - (_Bool);
@@ -22,13 +20,7 @@
 - (void)¨«;Û£P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

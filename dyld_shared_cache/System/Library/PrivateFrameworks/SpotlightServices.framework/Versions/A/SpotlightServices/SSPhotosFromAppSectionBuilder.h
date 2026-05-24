@@ -14,15 +14,15 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setShowSeparator: /* Error: Ran out of types for this method. */;
+- (id)setShouldFetchSubresources: /* Error: Ran out of types for this method. */;
+- (id)setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (id)predicateWithBlock: /* Error: Ran out of types for this method. */;
+- (id)/;
 - (void);
 - (void);
 - (id);
-- (void)Indices: /* Error: Ran out of types for this method. */;
+- (void)getValidStringFromArray:withMatchedIndices: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;

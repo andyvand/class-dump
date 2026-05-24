@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, NSArray;
+@class NSArray;
 
 @interface GEOPlacePhotoLookupResult
 {
     struct _NSRange _originalRange;
-    NSArray *_photos;
-    GEOMapItemIdentifier *_mapItemIdentifier;
-    unsigned long long _totalPhotoCount;
 }
 
 + (void);
 + (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void)'¡ô{K@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapItemIdentifier *mapItemIdentifier; // @synthesize mapItemIdentifier=_mapItemIdentifier;
 @property(readonly, nonatomic) NSArray *photos; // @synthesize photos=_photos;
-@property(readonly, nonatomic) unsigned long long totalPhotoCount; // @synthesize totalPhotoCount=_totalPhotoCount;
 
 @end
 

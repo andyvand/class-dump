@@ -7,21 +7,6 @@
 @interface TextToSpeech.TTSAURenderer
 {
     id $__lazy_storage_$_auCache;
-    id executor;
-    id renderDispatchQueue;
-    id audioUnit;
-    id lastVoice;
-    id audioFormat;
-    id chunkSize;
-    id renderedFrames;
-    id renderTask;
-    id chainInitialized;
-    id _markerBlock;
-    id _markerBlockLock;
-    id currentVoiceParameters;
-    id trapAssertion;
-    id $__lazy_storage_$_effectChain;
-    id $__lazy_storage_$_baseRenderer;
 }
 
 + (void);

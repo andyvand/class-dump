@@ -5,5 +5,6 @@
 //
 
 @protocol _DASExtensionRunner
+- (unsigned char)A;
 @end
 

@@ -7,7 +7,6 @@
 @interface _MTLIndirectDispatchThreadsArguments
 {
     CDStruct_da2e99ad _threadsPerGrid;
-    CDStruct_da2e99ad _threadsPerThreadgroup;
 }
 
 - (CDStruct_da2e99ad);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_da2e99ad threadsPerGrid; // @synthesize threadsPerGrid=_threadsPerGrid;
-@property(nonatomic) CDStruct_da2e99ad threadsPerThreadgroup; // @synthesize threadsPerThreadgroup=_threadsPerThreadgroup;
 
 @end
 

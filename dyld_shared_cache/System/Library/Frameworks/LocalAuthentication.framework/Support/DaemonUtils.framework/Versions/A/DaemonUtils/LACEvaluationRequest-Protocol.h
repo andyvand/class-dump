@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACAnalyticsData, NSData, NSDictionary, NSError;
-@protocol LACXPCClient;
+@class NSData, NSError;
 
 @protocol LACEvaluationRequest
+- (_Bool)Right, _brightness_BW_Label, _brightness_BW_Left, _brightness_BW_Slider, _brightness_BW_Right, _dither_BW_Checkbox, _brightness_Gray_Label, _brightness_Gray_Left, _brightness_Gray_Slider, _brightness_Gray_Right, _contrast_Gray_Label, _contrast_Gray_Left, _contrast_Gray_Slider, _contrast_Gray_Right, _brightness_Color_Label, _brightness_Color_Left, _brightness_Color_Slider, _brightness_Color_Right, _tint_Color_Label, _tint_Color_Left, _tint_Color_Slider, _tint_Color_Right, _temperature_Color_Label, _temperature_Color_Left, _temperature_Color_Slider, _temperature_Color_Right, _saturation_Color_Label, _saturation_Color_Left, _saturation_Color_Slider, _saturation_Color_Right, _resetImageCorrectionLabel, _resetImageCorrection, _selfTestLabel, _selfTestButton, _line1a,_line1b,_line2a,_line2b,_line3a,_line3b,_line4a,_line4b;
+- (_Bool);
+- (NSError *)forceRecognitionStrokeGroupIdentifiers;
+- (_Bool)ore;
+- (NSData *),=;
+- (NSData *)queryIntervalInNanoseconds;
+- (_Bool)S;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *acl;
-@property(readonly, nonatomic) id aclOperation;
-@property(retain, nonatomic) LACAnalyticsData *analyticsData;
-@property(readonly, nonatomic) id <LACXPCClient> client;
-@property(readonly, nonatomic) _Bool customUI;
-@property(readonly, nonatomic) unsigned int evaluationUserId;
-@property(retain, nonatomic) NSData *externalizedContext;
-@property(nonatomic, getter=isImmediateSuccess) _Bool immediateSuccess;
-@property(readonly, nonatomic) _Bool isInteractive;
-@property(readonly, nonatomic) _Bool isPurposeApplePay;
-@property(readonly, nonatomic) _Bool isPurposeInAppPayment;
-@property(readonly, nonatomic) _Bool isPurposeUnlock;
-@property(readonly, nonatomic) _Bool isRecoveringFromBiolockout;
-@property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) NSDictionary *payload;
 @property(readonly, nonatomic) long long policy;
-@property(readonly, nonatomic) long long purpose;
-@property(retain, nonatomic) NSError *retryingForError;
 @end
 

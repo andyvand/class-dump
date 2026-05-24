@@ -7,13 +7,6 @@
 @interface WFVariablePillLayoutMetrics
 {
     id leadingPadding;
-    id iconSize;
-    id iconDisplaySize;
-    id spacing;
-    id textSize;
-    id textFont;
-    id trailingPadding;
-    id cornerRadius;
 }
 
 - (id);

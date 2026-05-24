@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSImageView, NSLayoutConstraint, NSString, NSTextField, SAEVoiceTrainingController, SAEVoiceTrainingIntroController, SAEVoiceTrainingReadyController, VTUITrainingViewController;
+@class SAEVoiceTrainingIntroController;
 
 @interface SiriUIVoiceTriggerController
 {
     CDUnknownBlockType _completionBlock;
-    NSImageView *_orbView;
-    NSTextField *_titleLabel;
-    NSTextField *_subtitleLabel;
-    NSButton *_continueButton;
-    NSButton *_skipButton;
-    long long _state;
-    VTUITrainingViewController *_trainingViewController;
-    _Bool _bottomButtonConstraintEnabled;
-    NSLayoutConstraint *_singleSkipButtonConstraint;
-    NSLayoutConstraint *_multipleSkipButtonConstraint;
-    NSArray *_remoteDarwinDeviceIdentifiersForTraining;
-    _Bool _trainingForRemoteDarwinVoiceTrigger;
-    _Bool _saeEnabled;
-    SAEVoiceTrainingIntroController *_saeVoiceTrainingIntroController;
-    SAEVoiceTrainingController *_saeVoiceTrainingController;
-    SAEVoiceTrainingReadyController *_saeVoiceTrainingReadyController;
 }
 
 - (id);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)*;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,42 +32,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (void);
-- (void);
+- (void)_doPulseAnimationWithHaptic:(id)arg1;
 - (void);
 - (void);
 - (void)
 × ;
-- (void)tWithNSUUID:(id)arg1;
+- (void)initWithNSUUID:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool saeEnabled; // @synthesize saeEnabled=_saeEnabled;
-@property(retain, nonatomic) SAEVoiceTrainingController *saeVoiceTrainingController; // @synthesize saeVoiceTrainingController=_saeVoiceTrainingController;
 @property(retain, nonatomic) SAEVoiceTrainingIntroController *saeVoiceTrainingIntroController; // @synthesize saeVoiceTrainingIntroController=_saeVoiceTrainingIntroController;
-@property(retain, nonatomic) SAEVoiceTrainingReadyController *saeVoiceTrainingReadyController; // @synthesize saeVoiceTrainingReadyController=_saeVoiceTrainingReadyController;
-@property(readonly) Class superclass;
 
 @end
 

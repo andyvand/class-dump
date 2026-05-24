@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVAirMessageParts
 {
     NSDictionary *_uniqueHeaders;
-    NSArray *_repeatedHeaders;
-    _Bool _isIncomplete;
-    NSString *_version;
-    NSArray *_headers;
-    long long _expectedBodyLength;
-    NSData *_rawBodyData;
-    NSData *_extraData;
-    NSData *_uncompressedBodyData;
 }
 
 + (void);
 + (id);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
 - (void);
@@ -32,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)2;
+- (id)J;
 - (id);
 - (void);
 - (Class);
-- (void);
+- (void)L,;
 - (id);
-- (_Bool);
+- (_Bool)_initializeProtectedRowCount;
 - (id);
 - (id);
 - (id);
@@ -47,25 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id airMessage;
-@property(readonly, nonatomic) id bodyAsJSON;
-@property(readonly, nonatomic) NSDictionary *bodyAsJSONDictionary;
-@property(readonly, nonatomic) NSString *bodyAsUTF8Text;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long expectedBodyLength; // @synthesize expectedBodyLength=_expectedBodyLength;
-@property(readonly, nonatomic) NSData *extraData; // @synthesize extraData=_extraData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *headers; // @synthesize headers=_headers;
-@property(readonly, nonatomic) _Bool isIncomplete; // @synthesize isIncomplete=_isIncomplete;
-@property(readonly, nonatomic) NSData *rawBodyData; // @synthesize rawBodyData=_rawBodyData;
-@property(readonly, nonatomic) NSArray *repeatedHeaders;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *uncompressedBodyData; // @synthesize uncompressedBodyData=_uncompressedBodyData;
-@property(readonly, nonatomic) NSDictionary *uniqueHeaders;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

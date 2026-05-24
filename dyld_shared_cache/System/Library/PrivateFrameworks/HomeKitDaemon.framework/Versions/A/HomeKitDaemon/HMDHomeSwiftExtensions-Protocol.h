@@ -5,5 +5,6 @@
 //
 
 @protocol HMDHomeSwiftExtensions
+- (void)%@ with MSPSharedTripCapabilityType_Invalid. Exiting Early.;
 @end
 

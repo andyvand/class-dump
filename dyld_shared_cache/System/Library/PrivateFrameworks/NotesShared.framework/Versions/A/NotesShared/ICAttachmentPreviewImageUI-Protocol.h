@@ -5,5 +5,9 @@
 //
 
 @protocol ICAttachmentPreviewImageUI
+
+@optional
+- (_Bool)defaultSession;
+- (void)J;
 @end
 

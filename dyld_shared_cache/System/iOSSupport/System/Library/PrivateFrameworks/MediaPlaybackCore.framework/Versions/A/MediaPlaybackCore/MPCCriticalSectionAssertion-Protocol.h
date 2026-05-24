@@ -9,7 +9,6 @@
 @protocol MPCCriticalSectionAssertion
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
 @property(readonly, nonatomic) NSString *name;
 @end
 

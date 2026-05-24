@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSOffGridStateManager, NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class IDSOffGridStateManager;
 
 @interface IMOffGridModeInvitationManager
 {
     IDSOffGridStateManager *_offGridStateManager;
-    NSCache *_dateAttemptedInvitationByHandleCache;
-    NSObject<OS_dispatch_queue> *_offGridBackgroundQueue;
 }
 
 + (id)¤;
@@ -30,13 +27,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)evidenceDocumentTypes;
 - (void);
 - (void)dbModificationStamp;
 
 // Remaining properties
-@property(retain, nonatomic) NSCache *dateAttemptedInvitationByHandleCache; // @synthesize dateAttemptedInvitationByHandleCache=_dateAttemptedInvitationByHandleCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *offGridBackgroundQueue; // @synthesize offGridBackgroundQueue=_offGridBackgroundQueue;
 @property(retain, nonatomic) IDSOffGridStateManager *offGridStateManager; // @synthesize offGridStateManager=_offGridStateManager;
 
 @end

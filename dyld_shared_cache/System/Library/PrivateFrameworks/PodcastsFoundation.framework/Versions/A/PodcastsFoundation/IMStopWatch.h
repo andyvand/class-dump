@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMStopWatch
 {
     unsigned long long _startTime;
-    NSString *_descriptionString;
 }
 
 + (id);
 + (id);
-+ (void)ultsStore;
++ (void)SyncKeysUserDefaultsStore;
 - (void);
+- (void);
 - (void);
-- (void);
+- (id)(C;
 - (id);
-- (id);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void)GSg;

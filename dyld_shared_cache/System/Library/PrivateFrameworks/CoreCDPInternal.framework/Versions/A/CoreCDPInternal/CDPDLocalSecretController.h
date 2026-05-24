@@ -4,45 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFKeychainManager, CDPContext, CDPDCircleController, CDPDSecureBackupController;
-@protocol CDPLocalSecretFollowUpProvider, CDPStateUIProviderInternal;
+@class CDPContext;
 
 @interface CDPDLocalSecretController
 {
     CDPContext *_context;
-    CDPDCircleController *_circleController;
-    CDPDSecureBackupController *_secureBackupController;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPLocalSecretFollowUpProvider> _followUpProvider;
-    AAFKeychainManager *_keychainManager;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)_TabGroupPickerToolbarButtonCell;
+- (void)TabCreationPolicyDecider;
+- (void)StartPageSeparatorSectionProvider;
+- (id)StartPagePrivateBrowsingSectionProvider;
+- (id)StartPagePrivacyReportRedesignViewItemDelegate;
+- (void)StartPageCollectionViewLayoutSectionProvider;
+- (void)StartPageSuggestionsSectionProviderDelegate;
+- (id);
+- (id)WBSCloudExtensionStateProvider;
+- (void)SafariCNAvatarCacheExtras;
+- (id)SafariExtras;
+- (void)ResponsiveDesignCenteringClipView;
+- (void)ReadingListTableViewContentProvider;
+- (void)ReaderAppearanceViewControllerDelegate;
+- (void)ReaderViewControllerMessageReceiver;
+- (void)ProfilesPreferences;
+- (id)OpenPageWithSimulatorMenuController;
+- (void)NotificationPreferencesController;
+- (void)InlineAuthorizationViewController;
+- (void)_ASCredentialAuthenticationViewControllerDelegate;
+- (void)FirefoxCredentialDecrypter;
+- (id)FavoritesPickerViewController;
+- (void)FavoriteButtonCell;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)imageByCompositingOverImage: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -56,12 +50,7 @@
 - (id)ry_start;
 
 // Remaining properties
-@property(retain, nonatomic) CDPDCircleController *circleController; // @synthesize circleController=_circleController;
 @property(retain, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) id <CDPLocalSecretFollowUpProvider> followUpProvider; // @synthesize followUpProvider=_followUpProvider;
-@property(retain, nonatomic) AAFKeychainManager *keychainManager; // @synthesize keychainManager=_keychainManager;
-@property(retain, nonatomic) CDPDSecureBackupController *secureBackupController; // @synthesize secureBackupController=_secureBackupController;
-@property(retain, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end
 

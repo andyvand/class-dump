@@ -4,53 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMoveOplockFailure, CKDPOplockFailure, CKDPUniqueFieldFailure;
+@class CKDPMoveOplockFailure;
 
 @interface CKDPResponseOperationResultErrorClient
 {
     CKDPMoveOplockFailure *_moveOplockFailure;
-    CKDPOplockFailure *_oplockFailure;
-    int _type;
-    CKDPUniqueFieldFailure *_uniqueFieldFailure;
-    CDStruct_f953fb60 _has;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)core_ListRecurrencePattern_Weekdays;
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (unsigned long long)bufferedAudioEngine_flushWithinSampleRangeInternal(void *);
 - (_Bool);
 - (int);
-- (id)ror:(int)arg1 withErrorCode:description: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (int);
+- (id)noMatchingIdentityErrorForPCSError:(int)arg1 withErrorCode:description: /* Error: Ran out of types for this method. */;
 - (_Bool)ature;
 - (void),V_functionName;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMoveOplockFailure;
 @property(readonly, nonatomic) _Bool hasOplockFailure;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUniqueFieldFailure;
-@property(retain, nonatomic) CKDPMoveOplockFailure *moveOplockFailure;
-@property(retain, nonatomic) CKDPOplockFailure *oplockFailure;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) CKDPUniqueFieldFailure *uniqueFieldFailure;
 
 @end
 

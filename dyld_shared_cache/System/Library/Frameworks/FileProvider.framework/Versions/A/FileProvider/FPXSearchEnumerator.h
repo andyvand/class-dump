@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPXDomainContext, NSObject, NSString;
-@protocol NSFileProviderSearchEnumerator, OS_dispatch_queue;
+@class FPXDomainContext;
 
 @interface FPXSearchEnumerator
 {
     FPXDomainContext *_domainContext;
-    id <NSFileProviderSearchEnumerator> _vendorEnumerator;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _maximumNumberOfResultsPerPage;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)startObservingObject:weakObserver:forTwoPartKeyPath:options:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (_Bool)±d1Â0@ù

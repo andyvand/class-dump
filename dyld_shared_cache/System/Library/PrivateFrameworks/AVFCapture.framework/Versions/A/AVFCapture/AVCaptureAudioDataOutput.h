@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureAudioDataOutputInternal, NSDictionary, NSObject, NSString;
-@protocol AVCaptureAudioDataOutputSampleBufferDelegate, OS_dispatch_queue;
+@class AVCaptureAudioDataOutputInternal;
+@protocol AVCaptureAudioDataOutputSampleBufferDelegate;
 
 @interface AVCaptureAudioDataOutput : AVCaptureOutput
 {
@@ -16,9 +16,9 @@
 
 + (id);
 + (void)tureSmartFramingMonitor startMonitoring:] /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void);
+- (id)<%@:%p /* Error: Ran out of types for this method. */;
+- (void)e:(id)arg1 %@, identifier:(id)arg2 %@;
+- (void)GContext.;
 - (id);
 - (id);
 - (id);
@@ -30,30 +30,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ailPipelineStage];
 - (void);
 - (id);
 - (id);
-- (void)erationDescriptorQueue;
-- (id)rlay;
+- (void)AVCaptureOperationDescriptorQueue;
+- (id)AVCaptureControlsOverlay;
 - (void)<<<< AVCaptureFigVideoDevice >>>> %s:(struct OpaqueFigCaptureSession *)arg1 unsupported position %d;
 - (void)dataoutput.queue;
 - (_Bool)ataItem objects;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *audioSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sampleBufferCallbackQueue;
 @property(readonly, nonatomic) id <AVCaptureAudioDataOutputSampleBufferDelegate> sampleBufferDelegate;
-@property(nonatomic) unsigned int spatialAudioChannelLayoutTag;
-@property(readonly) Class superclass;
 
 @end
 

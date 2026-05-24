@@ -4,24 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSURL;
+@class NSFileVersion, NSSet, NSURL;
 
 @protocol NSFilePresenter
 - (NSURL *)ByScreenLayoutWithCoder:] /* Error: Ran out of types for this method. */;
 
 @optional
+- (NSURL *)timeout event;
+- (void)ting to connect, reason %d;
+- (void)%llu:(NSURL *)arg1 write-side closed;
+- (void)done;
+- (void)iled to connect %ld:(NSURL *)arg1 %d, reason %d;
+- (void)nerating errSSLClosedNoNotify;
+- (void)ection %llu:(NSFileVersion *)arg1 received ECONNRESET with incomplete TLS handshake - generating errSSLClosedNoNotify;
+- (void)heuristics synthesized error(%ld:(NSFileVersion *)arg1 %d);
+- (void)n error state with no error and no connection;
+- (void)lu:generating ENOTCONN, since in an error state with no error and no connection /* Error: Ran out of types for this method. */;
+- (NSSet *)session %d;
+- (void);
+- (void)eam;
+- (void)ier;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
 @end
 

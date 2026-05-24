@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)C,N,V_bootSessionUUID;
 - (id);
 - (void);
 

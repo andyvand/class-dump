@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTKMesh, MTKMeshBuffer, NSString;
-
 @interface MTKSubmesh
 {
     unsigned long long _primitiveType;
-    unsigned long long _indexType;
-    MTKMeshBuffer *_indexBuffer;
-    unsigned long long _indexCount;
-    MTKMesh *_mesh;
-    NSString *_name;
 }
 
 - (id);
@@ -24,14 +17,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)insertText:alternatives:style: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MTKMeshBuffer *indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(readonly, nonatomic) unsigned long long indexCount; // @synthesize indexCount=_indexCount;
-@property(readonly, nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(readonly, nonatomic) __weak MTKMesh *mesh; // @synthesize mesh=_mesh;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) unsigned long long primitiveType; // @synthesize primitiveType=_primitiveType;
 
 @end

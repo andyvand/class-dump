@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, PFStateCaptureProvider;
+@protocol PFStateCaptureProvider;
 
 @interface PFStateCaptureHandler
 {
     id <PFStateCaptureProvider> _provider;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _stateHandle;
-    unsigned long long _callCount;
-    unsigned long long _ignoreCount;
-    NSString *_logPrefix;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (id);
 - (struct os_state_data_s *);
 - (id);
-- (void);
+- (void),R,N,V_provisionWatchPassState;
 - (id);
 - (void);
 

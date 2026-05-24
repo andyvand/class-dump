@@ -6,27 +6,20 @@
 
 #import <TSReading/EQKitMathMLNode.h>
 
-@class EQKitMathMLTokenContent, NSString;
-
 @interface EQKitMathMLMToken : EQKitMathMLNode
 {
     struct {
         unsigned int mType:2;
     } mFlags;
-    union {
-        unsigned int mChar;
-        NSString *mString;
-        EQKitMathMLTokenContent *mContent;
-    } mContent;
 }
 
+- (int);
 - (int);
-- (int);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
-- (const void *);
-- (id);
+- (const void *)(0;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,13 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

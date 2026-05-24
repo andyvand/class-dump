@@ -6,8 +6,6 @@
 
 #import <HomeKit/HMActionSet.h>
 
-@class HMApplicationData, HMHome, NSSet, NSString, NSUUID;
-
 @interface HMActionSetBuilder : HMActionSet
 {
 }
@@ -15,20 +13,7 @@
 + (id)¨ãïÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionSetType;
-@property(copy, nonatomic) NSSet *actions;
-@property(readonly, nonatomic) HMApplicationData *applicationData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMHome *home;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

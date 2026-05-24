@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCornerRadiusConfiguration, FBSDisplayConfiguration, NSString;
+@class FBSDisplayConfiguration;
 
 @interface _UISceneClassicModeExternalSettingsModifier
 {
     FBSDisplayConfiguration *_mainDisplayConfiguration;
-    struct CGSize _maximumPortraitSize;
-    BSCornerRadiusConfiguration *_cornerRadiusConfiguration;
 }
 
 + (_Bool);
@@ -20,19 +18,13 @@
 - (id)!Aùñ`°1Â0@ù
 × ;
 - (id);
-- (void)nt;
-- (void)ForAxis:(id)arg1;
+- (void)_maximumSecondaryMovement;
+- (void)_defaultNeighborSpacingForAxis:(id)arg1;
 - (id)learAsCancelButtonVisibilityWhenEmpty:HIDES /* Error: Ran out of types for this method. */;
-- (void)tionsDomain;
+- (void)_UIFluidNavigationTransitionsDomain;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

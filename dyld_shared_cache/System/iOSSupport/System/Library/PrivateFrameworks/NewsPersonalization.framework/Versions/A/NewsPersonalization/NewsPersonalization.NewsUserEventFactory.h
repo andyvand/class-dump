@@ -7,9 +7,6 @@
 @interface NewsPersonalization.NewsUserEventFactory
 {
     id configManager;
-    id exposedHeadlines;
-    id visitedHeadlines;
-    id scrollData;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <LaunchServices/_LSQueryResult.h>
 
-@class LSExtensionPointRecord, NSDictionary, NSNumber, NSString;
+@class LSExtensionPointRecord, NSString;
 
 @interface LSExtensionPoint : _LSQueryResult
 {
@@ -17,24 +17,20 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)ionStructure>"16r^v24@"NSArray"32@"MTLAccelerationStructureDescriptor"40;
+- (id)B;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)* ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) NSNumber *platform;
-@property(readonly, nonatomic) NSDictionary *sdkEntry;
-@property(readonly, nonatomic) NSString *version; // @dynamic version;
 
 @end
 

@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PREResponsesExperimentMessage
 {
     _Bool _tapBack;
-    _Bool _emote;
-    _Bool _read;
-    NSString *_title;
-    NSString *_senderIdentifier;
-    NSString *_summaryString;
-    NSDate *_dateSent;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)webProcessPlugInBrowserContextController:(_Bool)arg1 didSameDocumentNavigation:forFrame: /* Error: Ran out of types for this method. */;
+- (void)webExtensionController:(id)arg1 openOptionsPageForExtensionContext:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)textView:(_Bool)arg1 shouldSelectCandidateAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_webViewDidEndNavigationGesture:withNavigationToBackForwardListItem: /* Error: Ran out of types for this method. */;
+- (void), WTF:(id)arg1:ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ByteRangeRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::ByteRangeRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::ObjectIdentifierGeneric<WebKit::ByteRangeRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::ByteRangeRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ByteRangeRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ByteRangeRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)};
+- (id)	;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)afebrowsing.googleapis.com/v5alpha1/hashLists:batchGet /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;
-@property(nonatomic, getter=isEmote) _Bool emote; // @synthesize emote=_emote;
-@property(nonatomic, getter=isRead) _Bool read; // @synthesize read=_read;
-@property(copy, nonatomic) NSString *senderIdentifier; // @synthesize senderIdentifier=_senderIdentifier;
-@property(copy, nonatomic) NSString *summaryString; // @synthesize summaryString=_summaryString;
-@property(nonatomic, getter=isTapBack) _Bool tapBack; // @synthesize tapBack=_tapBack;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

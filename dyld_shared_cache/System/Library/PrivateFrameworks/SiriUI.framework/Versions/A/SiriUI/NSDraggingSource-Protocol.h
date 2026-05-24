@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDraggingSession;
+
 @protocol NSDraggingSource
+- (unsigned long long)setDirectionalLayoutMargins:(NSDraggingSession *)arg1;
+
+@optional
+- (void)setLayout:(NSDraggingSession *)arg1;
+- (void)setKeyboardWillShowNotificationObserver:(NSDraggingSession *)arg1;
+- (void)setKeyboardWillHideNotificationObserver:(NSDraggingSession *)arg1;
 @end
 

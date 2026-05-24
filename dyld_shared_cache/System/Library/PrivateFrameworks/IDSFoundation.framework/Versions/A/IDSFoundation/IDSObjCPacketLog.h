@@ -7,7 +7,6 @@
 @interface IDSObjCPacketLog
 {
     id packetLog;
-    id sessionID;
 }
 
 - (id);
@@ -15,7 +14,7 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)" ;
 - (void);
 - (void)ds.trafficclass.nanoregistry.configure;
 

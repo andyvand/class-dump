@@ -7,11 +7,6 @@
 @interface NewsUI2.SubscriptionsRouter
 {
     id resolver;
-    id navigator;
-    id contextBuilder;
-    id continueReadingEligibilityProcessor;
-    id continueReadingPromptPresenter;
-    id activityManager;
 }
 
 @end

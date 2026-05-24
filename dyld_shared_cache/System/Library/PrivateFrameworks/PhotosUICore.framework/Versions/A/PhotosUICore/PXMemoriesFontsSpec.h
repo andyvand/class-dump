@@ -9,10 +9,6 @@
 @interface PXMemoriesFontsSpec
 {
     NSDictionary *_titleTextAttributes;
-    NSDictionary *_fallbackTitleTextAttributes;
-    NSDictionary *_subtitleTextAttributes;
-    double _baselineDistance;
-    struct NSEdgeInsets _padding;
 }
 
 + (id);
@@ -29,20 +25,16 @@
 + (long long);
 + (void);
 + (id);
-+ (id);
++ (id)";
 - (id);
 - (double);
 - (id);
-- (id)umsHeader;
-- (id)irmationAlertButtonTitle;
+- (id)_simulateUnavailableSharedAlbumsHeader;
+- (id)_pauseResolutionActionConfirmationAlertButtonTitle;
 - (void)Ç=ÿ;
 - (struct NSEdgeInsets)ê©=;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineDistance; // @synthesize baselineDistance=_baselineDistance;
-@property(readonly, nonatomic) NSDictionary *fallbackTitleTextAttributes; // @synthesize fallbackTitleTextAttributes=_fallbackTitleTextAttributes;
-@property(readonly, nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(readonly, nonatomic) NSDictionary *subtitleTextAttributes; // @synthesize subtitleTextAttributes=_subtitleTextAttributes;
 @property(readonly, nonatomic) NSDictionary *titleTextAttributes; // @synthesize titleTextAttributes=_titleTextAttributes;
 
 @end

@@ -7,9 +7,6 @@
 @interface IDSFoundation.GroupEncryptionDebugLog.SimpleBatch__priv_54C78CFE5A6170FDE38840836B2C298F
 {
     id kind;
-    id context;
-    id contextID;
-    id state;
 }
 
 @end

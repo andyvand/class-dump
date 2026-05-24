@@ -9,7 +9,6 @@
 @interface MPSNNOptimizerStochasticGradientDescent : MPSNNOptimizer
 {
     float _momentumScale;
-    _Bool _useNesterovMomentum;
 }
 
 + (const struct MPSLibraryInfo *);

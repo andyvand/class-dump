@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCExtensionRequest, INCExtensionTransactionState, INIntent, INIntentResponse, NSMutableDictionary, NSObject, NSString, NSUserActivity;
-@protocol OS_dispatch_queue;
+@class INIntent, NSMutableDictionary;
 
 @interface INCExtensionTransaction
 {
     NSMutableDictionary *_userActivitiesByIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _donateInteraction;
-    _Bool _shouldResetRequestAfterHandle;
-    NSUserActivity *_currentUserActivity;
-    INCExtensionRequest *_request;
-    INIntent *_currentIntent;
-    INIntentResponse *_currentIntentResponse;
-    NSString *_groupIdentifier;
-    INCExtensionTransactionState *_state;
 }
 
 + (void);
-- (_Bool);
+- (_Bool)6;
 - (void);
 - (void);
 - (id);
@@ -35,21 +25,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)difyBTMMConfigInfo:missing required info (dsid=%@, hasConfigData=%d, label=%@).
+ /* Error: Ran out of types for this method. */;
+- (void)bp;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCurrentIntent:) INIntent *currentIntent; // @synthesize currentIntent=_currentIntent;
-@property(retain, nonatomic, setter=_setCurrentIntentResponse:) INIntentResponse *currentIntentResponse; // @synthesize currentIntentResponse=_currentIntentResponse;
-@property(readonly, copy, nonatomic) NSUserActivity *currentUserActivity; // @synthesize currentUserActivity=_currentUserActivity;
-@property(readonly, nonatomic) _Bool donateInteraction; // @synthesize donateInteraction=_donateInteraction;
-@property(readonly, copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly, nonatomic) INCExtensionRequest *request; // @synthesize request=_request;
-@property(nonatomic) _Bool shouldResetRequestAfterHandle; // @synthesize shouldResetRequestAfterHandle=_shouldResetRequestAfterHandle;
-@property(retain, nonatomic) INCExtensionTransactionState *state; // @synthesize state=_state;
 
 @end
 

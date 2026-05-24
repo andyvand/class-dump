@@ -14,14 +14,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)HMDCoreDataContextTransactionAuthor;
 - (id){public}@Updating sendPolicyParameters to %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAppleTV;
-@property(readonly, nonatomic) _Bool isDesignatedFMFDevice;
-@property(readonly, nonatomic) _Bool isHH2KeyRollingEnabled;
-@property(readonly, nonatomic) _Bool isHomePod;
 @property(readonly, nonatomic) _Bool isiOSDevice;
 
 @end

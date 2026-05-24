@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface OSALog
 {
     _Bool _preserveFiles;
-    struct __sFILE {
-        char *_field1;
-        int _field2;
-        int _field3;
-        short _field4;
-        short _field5;
-        struct __sbuf _field6;
-        int _field7;
-        void *_field8;
-        CDUnknownFunctionPointerType _field9;
-        CDUnknownFunctionPointerType _field10;
-        CDUnknownFunctionPointerType _field11;
-        CDUnknownFunctionPointerType _field12;
-        struct __sbuf _field13;
-        struct __sFILEX *_field14;
-        int _field15;
-        unsigned char _field16[3];
-        unsigned char _field17[1];
-        struct __sbuf _field18;
-        int _field19;
-        long long _field20;
-    } *_stream;
-    NSDictionary *_metaData;
-    NSString *_filepath;
-    _Bool _deleteOnRetire;
-    NSString *_bugType;
-    NSString *_oldFilePath;
 }
 
 + (void);
@@ -43,12 +16,12 @@
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void));
 + (_Bool);
 + (void);
 + (unsigned int);
-+ (id);
-+ (id);
++ (id)NumberOfFeatures;
++ (id);
 + (void);
 + (void);
 + (id);
@@ -60,12 +33,7 @@
 + (void);
 
 // Remaining properties
-@property(readonly) NSString *bugType; // @synthesize bugType=_bugType;
-@property _Bool deleteOnRetire; // @synthesize deleteOnRetire=_deleteOnRetire;
-@property(readonly) NSString *filepath; // @synthesize filepath=_filepath;
-@property(readonly) NSDictionary *metaData; // @synthesize metaData=_metaData;
 @property(copy) NSString *oldFilePath; // @synthesize oldFilePath=_oldFilePath;
-@property(readonly) struct __sFILE *stream; // @synthesize stream=_stream;
 
 @end
 

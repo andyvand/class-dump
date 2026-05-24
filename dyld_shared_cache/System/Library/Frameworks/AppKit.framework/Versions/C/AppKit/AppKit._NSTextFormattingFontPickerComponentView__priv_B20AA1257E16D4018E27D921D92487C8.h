@@ -9,17 +9,12 @@
 @interface AppKit._NSTextFormattingFontPickerComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : NSView
 {
     id componentKey;
-    id componentSize;
-    id $__lazy_storage_$_stackView;
-    id $__lazy_storage_$_familiesPopUp;
-    id $__lazy_storage_$_facesPopUp;
-    id controlSize;
 }
 
 - (id);
 - (id);
 - (struct CGSize);
-- (id)tionClicked:(struct CGRect)arg1;
+- (id)_standardCommonSubitemMenuFormRepresentationClicked:(struct CGRect)arg1;
 - (void)OE;
 
 // Remaining properties

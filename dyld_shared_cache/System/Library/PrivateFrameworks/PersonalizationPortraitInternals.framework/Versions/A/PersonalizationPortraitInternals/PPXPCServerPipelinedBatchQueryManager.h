@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface PPXPCServerPipelinedBatchQueryManager
 {
     long long _pipelineDepth;
-    unsigned long long _pipelinedCallTimeoutNsec;
-    NSObject<OS_dispatch_semaphore> *_concurrentRequestSem;
-    NSMutableDictionary *_queryReplyThrottleSemaphores;
-    _Atomic _Bool _isInterrupted;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)vedNicknames;
+- (void)essage:(CDUnknownBlockType)arg1 %@ similar to:%@   (Skip Services:%@   Skip GUIDs:%@   Within Time Interval:%f) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void)A¡!Cù÷1Â0@ù
 × ;
 

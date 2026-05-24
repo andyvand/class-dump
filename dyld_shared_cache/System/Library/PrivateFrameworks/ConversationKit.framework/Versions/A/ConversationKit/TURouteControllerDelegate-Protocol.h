@@ -5,5 +5,8 @@
 //
 
 @protocol TURouteControllerDelegate
+
+@optional
+- (void);
 @end
 

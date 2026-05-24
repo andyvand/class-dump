@@ -21,17 +21,17 @@
 + (struct _NSRange);
 + (id);
 + (_Bool);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@9$@94;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)unsignedIntegerFromEncodingData:offset: /* Error: Ran out of types for this method. */;
 
 @end
 

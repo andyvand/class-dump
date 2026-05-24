@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)izedStringForCharacter_Soft(UTF32Char, NSString *__strong);
+- (id)G;
+- (void)READ_N;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadBundleIdentifier; // @synthesize payloadBundleIdentifier=_payloadBundleIdentifier;

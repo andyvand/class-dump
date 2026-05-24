@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface KnowledgeGraphKit.MAFloatMatrixWrapper
 {
     id _floatMatrix;
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -31,7 +29,7 @@
 - (float);
 - (id);
 - (float);
-- (id);
+- (id)X�P�L�;
 - (id);
 - (long long);
 - (id);
@@ -39,17 +37,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long):8 /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) long long columns;
 @property(nonatomic, readonly) long long count;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) long long rows;
 
 @end
 

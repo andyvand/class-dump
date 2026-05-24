@@ -6,20 +6,12 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSArray, NSString;
-
 @interface BMMediaRendered : BMEventBase
 {
     _Bool _hasAbsoluteTimestamp;
-    _Bool _hasIsOnScreen;
-    _Bool _isOnScreen;
-    _Bool _hasIsFirstView;
-    _Bool _isFirstView;
-    double _absoluteTimestamp;
-    NSArray *_mediaAttributes;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (_Bool);
@@ -36,25 +28,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)_free_unpacked;
+- (_Bool)pg_query__alter_role_stmt__free_unpacked;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasAbsoluteTimestamp; // @synthesize hasAbsoluteTimestamp=_hasAbsoluteTimestamp;
-@property(nonatomic) _Bool hasIsFirstView; // @synthesize hasIsFirstView=_hasIsFirstView;
-@property(nonatomic) _Bool hasIsOnScreen; // @synthesize hasIsOnScreen=_hasIsOnScreen;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFirstView; // @synthesize isFirstView=_isFirstView;
-@property(readonly, nonatomic) _Bool isOnScreen; // @synthesize isOnScreen=_isOnScreen;
-@property(readonly, nonatomic) NSArray *mediaAttributes; // @synthesize mediaAttributes=_mediaAttributes;
-@property(readonly) Class superclass;
 
 @end
 

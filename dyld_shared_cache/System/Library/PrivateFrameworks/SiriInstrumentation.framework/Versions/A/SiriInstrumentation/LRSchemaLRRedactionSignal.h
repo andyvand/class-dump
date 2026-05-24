@@ -6,23 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LRSchemaLRComponentIdentifierRedactionSignal, LRSchemaLRTimespanRedactionSignal, NSData;
-
 @interface LRSchemaLRRedactionSignal : SISchemaInstrumentationMessage
 {
     int _sensitivityState;
-    unsigned long long _signalTimeNanosecondsSinceBoot;
-    _Bool _isEntireClockAffected;
-    LRSchemaLRTimespanRedactionSignal *_timeSpan;
-    LRSchemaLRComponentIdentifierRedactionSignal *_componentId;
-    struct {
-        unsigned int sensitivityState:1;
-        unsigned int signalTimeNanosecondsSinceBoot:1;
-    } _has;
-    _Bool _hasIsEntireClockAffected;
-    _Bool _hasTimeSpan;
-    _Bool _hasComponentId;
-    unsigned long long _whichSignal;
 }
 
 - (unsigned long long);
@@ -33,23 +19,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)F;
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (id);
 - (id);
@@ -64,18 +50,7 @@
 - (void)´ÝßÿñR´Qñ!;
 
 // Remaining properties
-@property(retain, nonatomic) LRSchemaLRComponentIdentifierRedactionSignal *componentId; // @synthesize componentId=_componentId;
-@property(nonatomic) _Bool hasComponentId; // @synthesize hasComponentId=_hasComponentId;
-@property(nonatomic) _Bool hasIsEntireClockAffected; // @synthesize hasIsEntireClockAffected=_hasIsEntireClockAffected;
-@property(nonatomic) _Bool hasSensitivityState;
-@property(nonatomic) _Bool hasSignalTimeNanosecondsSinceBoot;
-@property(nonatomic) _Bool hasTimeSpan; // @synthesize hasTimeSpan=_hasTimeSpan;
-@property(nonatomic) _Bool isEntireClockAffected; // @synthesize isEntireClockAffected=_isEntireClockAffected;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int sensitivityState; // @synthesize sensitivityState=_sensitivityState;
-@property(nonatomic) unsigned long long signalTimeNanosecondsSinceBoot; // @synthesize signalTimeNanosecondsSinceBoot=_signalTimeNanosecondsSinceBoot;
-@property(retain, nonatomic) LRSchemaLRTimespanRedactionSignal *timeSpan; // @synthesize timeSpan=_timeSpan;
-@property(readonly, nonatomic) unsigned long long whichSignal; // @synthesize whichSignal=_whichSignal;
 
 @end
 

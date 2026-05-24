@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPSandboxingURLWrapper, NSData, NSDictionary, NSURL, UTType;
+@class NSData;
 
 @interface QLThumbnailItem
 {
     _Bool _needStopAccessing;
-    _Bool _needStopAccessingParent;
-    UTType *_contentType;
-    NSData *_data;
-    NSDictionary *_attachments;
-    FPSandboxingURLWrapper *_urlWrapper;
-    FPSandboxingURLWrapper *_parentDirectoryWrapper;
-    NSURL *_temporaryURL;
 }
 
 + (_Bool);
@@ -32,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)egacy metal engine Deprecated. It will removed soon;
 - (id);
-- (void);
+- (void)ீ=@;
 - (id);
 - (void);
 - (id);
@@ -48,14 +41,7 @@
 - (void)nails.cache.memory;
 
 // Remaining properties
-@property(copy) NSDictionary *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) UTType *contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool needStopAccessing; // @synthesize needStopAccessing=_needStopAccessing;
-@property(nonatomic) _Bool needStopAccessingParent; // @synthesize needStopAccessingParent=_needStopAccessingParent;
-@property(retain, nonatomic) FPSandboxingURLWrapper *parentDirectoryWrapper; // @synthesize parentDirectoryWrapper=_parentDirectoryWrapper;
-@property(retain, nonatomic) NSURL *temporaryURL; // @synthesize temporaryURL=_temporaryURL;
-@property(retain, nonatomic) FPSandboxingURLWrapper *urlWrapper; // @synthesize urlWrapper=_urlWrapper;
 
 @end
 

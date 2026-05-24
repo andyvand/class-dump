@@ -7,15 +7,6 @@
 @interface FCPersonalizationTagScoringConfig
 {
     double _channelTopicMappingWeight;
-    double _democratizationFactor;
-    double _locationScoreDecayFactor;
-    double _locationWeight;
-    double _maxDistanceThreshold;
-    long long _maxLocationsToConsider;
-    double _popularityMultiplierBoost;
-    double _popularityMultiplierExponent;
-    double _topicTopicMappingWeight;
-    double _userMembershipWeight;
 }
 
 + (_Bool);
@@ -25,39 +16,30 @@
 - (double);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
-- (id);
-- (double);
+- (id);
+- (double)yE;
+- (void);
+- (double)syncBOOLReturningBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
-- (double);
-- (void);
-- (void);
+- (void)tyConfiguration",&,N,V_securityConfiguration;
 - (void);
 - (long long);
 - (double);
 - (id);
+- (void)cookie:(double)arg1 %@;
 - (void);
 - (void);
-- (void);
-- (double)romFeatures:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)predictionFromFeatures:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)video_url;
 - (double)e != nil;
 - (id);
 
 // Remaining properties
 @property(nonatomic) double channelTopicMappingWeight; // @synthesize channelTopicMappingWeight=_channelTopicMappingWeight;
-@property(nonatomic) double democratizationFactor; // @synthesize democratizationFactor=_democratizationFactor;
-@property(nonatomic) double locationScoreDecayFactor; // @synthesize locationScoreDecayFactor=_locationScoreDecayFactor;
-@property(nonatomic) double locationWeight; // @synthesize locationWeight=_locationWeight;
-@property(nonatomic) double maxDistanceThreshold; // @synthesize maxDistanceThreshold=_maxDistanceThreshold;
-@property(nonatomic) long long maxLocationsToConsider; // @synthesize maxLocationsToConsider=_maxLocationsToConsider;
-@property(nonatomic) double popularityMultiplierBoost; // @synthesize popularityMultiplierBoost=_popularityMultiplierBoost;
-@property(nonatomic) double popularityMultiplierExponent; // @synthesize popularityMultiplierExponent=_popularityMultiplierExponent;
-@property(nonatomic) double topicTopicMappingWeight; // @synthesize topicTopicMappingWeight=_topicTopicMappingWeight;
-@property(nonatomic) double userMembershipWeight; // @synthesize userMembershipWeight=_userMembershipWeight;
 
 @end
 

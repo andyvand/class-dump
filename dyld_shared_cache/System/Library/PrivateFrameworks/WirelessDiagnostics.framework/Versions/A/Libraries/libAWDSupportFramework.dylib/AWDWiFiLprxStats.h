@@ -7,21 +7,6 @@
 @interface AWDWiFiLprxStats
 {
     unsigned long long _phyActiveDuration;
-    unsigned long long _phySearchDuration;
-    unsigned long long _timestamp;
-    unsigned int _lprxEnterCnt;
-    unsigned int _lprxExitCnt;
-    unsigned int _phyActiveCount;
-    unsigned int _phySearchCount;
-    struct {
-        unsigned int phyActiveDuration:1;
-        unsigned int phySearchDuration:1;
-        unsigned int timestamp:1;
-        unsigned int lprxEnterCnt:1;
-        unsigned int lprxExitCnt:1;
-        unsigned int phyActiveCount:1;
-        unsigned int phySearchCount:1;
-    } _has;
 }
 
 - (void);
@@ -32,51 +17,38 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
+- (unsigned int);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)b;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (void)i;
+- (unsigned long long)!@9?);
+- (unsigned long long)Ja;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)5;
+- (void)�;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLprxEnterCnt;
-@property(nonatomic) _Bool hasLprxExitCnt;
-@property(nonatomic) _Bool hasPhyActiveCount;
-@property(nonatomic) _Bool hasPhyActiveDuration;
-@property(nonatomic) _Bool hasPhySearchCount;
-@property(nonatomic) _Bool hasPhySearchDuration;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int lprxEnterCnt; // @synthesize lprxEnterCnt=_lprxEnterCnt;
-@property(nonatomic) unsigned int lprxExitCnt; // @synthesize lprxExitCnt=_lprxExitCnt;
-@property(nonatomic) unsigned int phyActiveCount; // @synthesize phyActiveCount=_phyActiveCount;
-@property(nonatomic) unsigned long long phyActiveDuration; // @synthesize phyActiveDuration=_phyActiveDuration;
-@property(nonatomic) unsigned int phySearchCount; // @synthesize phySearchCount=_phySearchCount;
-@property(nonatomic) unsigned long long phySearchDuration; // @synthesize phySearchDuration=_phySearchDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

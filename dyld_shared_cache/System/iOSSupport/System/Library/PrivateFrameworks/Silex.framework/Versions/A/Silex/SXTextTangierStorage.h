@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSLocale, NSMutableArray, NSSet;
+@class NSMutableArray;
 
 @interface SXTextTangierStorage
 {
     _Bool _isSelectable;
-    _Bool _shouldHyphenate;
-    struct os_unfair_lock_s _unfairLock;
-    NSLocale *_locale;
-    NSSet *_rangedExclusionPaths;
-    NSMutableArray *_attachments;
-    NSCache *_tokenizersCache;
 }
 
 - (struct _NSRange);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct _NSRange);
-- (id);
+- (id)R;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct os_unfair_lock_s);
 - (void);
@@ -38,12 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *attachments; // @synthesize attachments=_attachments;
-@property(nonatomic) _Bool isSelectable; // @synthesize isSelectable=_isSelectable;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSSet *rangedExclusionPaths; // @synthesize rangedExclusionPaths=_rangedExclusionPaths;
-@property(nonatomic) _Bool shouldHyphenate; // @synthesize shouldHyphenate=_shouldHyphenate;
-@property(retain, nonatomic) NSCache *tokenizersCache; // @synthesize tokenizersCache=_tokenizersCache;
-@property(readonly, nonatomic) struct os_unfair_lock_s unfairLock; // @synthesize unfairLock=_unfairLock;
 
 @end
 

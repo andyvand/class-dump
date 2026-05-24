@@ -4,51 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSArray, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSMutableSet, PKExtendedPhysicsWorld, UIDynamicAnimatorTicker, UIView;
-@protocol UIDynamicAnimatorDelegate, _UIDynamicReferenceSystem;
+@class PKExtendedPhysicsWorld, UIDynamicAnimatorTicker;
 
 @interface UIDynamicAnimator
 {
     PKExtendedPhysicsWorld *_world;
-    CADisplayLink *_displaylink;
-    struct _UIUpdateSequenceItemInternal *_uiUpdateSequenceItem;
-    double _elapsedTime;
-    double _realElapsedTime;
-    double _lastUpdateTime;
-    double _lastInterval;
-    long long _ticks;
-    NSMutableDictionary *_bodies;
-    NSMutableArray *_topLevelBehaviors;
-    NSMutableSet *_registeredBehaviors;
-    NSMutableSet *_behaviorsToRemove;
-    NSMutableSet *_behaviorsToAdd;
-    NSMutableIndexSet *_availableFieldCategories;
-    NSMutableArray *_postSolverActions;
-    NSMutableArray *_beginContacts;
-    NSMutableArray *_endContacts;
-    _Bool _isInWorldStepMethod;
-    _Bool _needsLocalBehaviorReevaluation;
-    _Bool _stopping;
-    struct _UIUpdateRequest _updateRequest;
-    unsigned long long _referenceSystemType;
-    unsigned long long _integralization;
-    struct {
-        unsigned int delegateImplementsDynamicAnimatorDidPause:1;
-        unsigned int delegateImplementsDynamicAnimatorWillResume:1;
-        unsigned int physicsKitImplements109159385:1;
-    } _stateFlags;
-    double _accuracy;
-    int _registeredCollisionGroups;
-    int _registeredImplicitBounds;
-    struct CGRect _referenceSystemBounds;
-    id <_UIDynamicReferenceSystem> _referenceSystem;
-    int _debugInterval;
-    _Bool _debugEnabled;
-    CDUnknownBlockType _action;
-    id <UIDynamicAnimatorDelegate> _delegate;
-    _Bool _disableDisplayLink;
-    double _speed;
-    UIDynamicAnimatorTicker *_ticker;
 }
 
 + (void);
@@ -57,22 +17,22 @@
 + (void);
 + (id);
 + (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)%s;
+- (double)/*-------calling into retryTranscriptBackgroundUpload from legacy service session, please file a radar-------*/;
+- (void)IMDBackgroundMessagingAPIListener missing entitlement;
+- (void)essage time for GUID %@ is within grace period (%@). Not marking it as read.;
+- (void)ng message %@ as read;
+- (void)message time is in the future. Not marking incoming message %@ as read;
+- (void)keeping, currently under unit testing;
+- (void)nitial database housekeeping;
+- (id)round indexing has finished throttling;
+- (id)IMDUpdateV1RecordStore;
+- (_Bool)SError"24B32B36;
+- (id)IMDCKMessageSyncCKOperationFactory;
+- (id)g"20@"NSString"28@"NSString"36@"NSString"44;
+- (void);
 - (void);
 - (unsigned long long);
 - (double);
@@ -98,12 +58,12 @@
 - (void);
 - (void);
 - (void);
-- (int);
-- (id);
+- (int);
+- (id)F;
 - (void);
 - (unsigned long long);
 - (struct CGRect);
-- (id);
+- (id)�;
 - (void);
 - (double);
 - (double);
@@ -117,7 +77,7 @@
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -135,7 +95,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)sis15LogMelProvidingP;
 - (double);
 - (void);
 - (id);
@@ -148,7 +108,7 @@
 × ;
 - (void);
 - (void)us"b1"focusedItemHighlightShouldBeVisible"b1"hasVibrantLabels"b1"disableBlurTinting"b1"pendingFocusAction"b1"springLoaded"b1"delegateRespondsToInterfaceOrientationWindowSelector"b1"blockBackgroundUpdates"b1};
-- (void)tle;
+- (void)selectedSectionTitle;
 - (void)3M&>!;
 - (_Bool)newSectionMap != NULL;
 - (id)~_;
@@ -161,11 +121,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *behaviors;
-@property(nonatomic) __weak id <UIDynamicAnimatorDelegate> delegate;
-@property(readonly, nonatomic) double elapsedTime;
-@property(readonly, nonatomic) UIView *referenceView;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
 @property(retain, nonatomic) UIDynamicAnimatorTicker *ticker; // @synthesize ticker=_ticker;
 
 @end

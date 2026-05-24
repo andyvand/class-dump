@@ -10,18 +10,16 @@
 {
     DDBridgeImageAsset *imageAsset;
     void identifier;
-    void hashString;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)sociate;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *hashString;
 @property(nonatomic, readonly) NSString *identifier;
 @property(nonatomic, readonly) DDBridgeImageAsset *imageAsset; // @synthesize imageAsset;
 

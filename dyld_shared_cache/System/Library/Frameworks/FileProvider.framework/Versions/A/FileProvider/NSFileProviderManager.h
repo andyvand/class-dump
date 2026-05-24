@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPProgressUpdater, NSArray, NSFileProviderDomain, NSMutableDictionary, NSObject, NSString, NSURL, NSXPCConnection, _FPFilePresenterObserver;
-@protocol FPDDaemon, FPDDomainServicing><FPXPCAutomaticErrorProxy, OS_dispatch_group, OS_dispatch_queue, OS_dispatch_semaphore, OS_dispatch_source;
+@class NSArray, NSObject;
+@protocol OS_dispatch_semaphore;
 
 @interface NSFileProviderManager
 {
     NSObject<OS_dispatch_semaphore> *_sem;
-    id <FPDDomainServicing><FPXPCAutomaticErrorProxy> _remoteFileProvider;
-    _Bool _isIncomingConnection;
-    NSXPCConnection<FPDDaemon> *_connection;
-    _FPFilePresenterObserver *_presentedFileObserver;
-    NSURL *_documentStorageURL;
-    NSString *_providerIdentifier;
-    NSString *_groupName;
-    NSFileProviderDomain *_domain;
-    NSObject<OS_dispatch_queue> *_signalUpdateQueue;
-    NSObject<OS_dispatch_source> *_signalUpdateSource;
-    NSObject<OS_dispatch_group> *_signalUpdateGroup;
-    NSMutableDictionary *_completionHandlersByItemID;
-    FPProgressUpdater *_downloadProxy;
-    FPProgressUpdater *_uploadProxy;
-    NSArray *_presentedFiles;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *documentStorageURL;
 @property(copy) NSArray *presentedFiles; // @synthesize presentedFiles=_presentedFiles;
-@property(readonly, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
 @end
 

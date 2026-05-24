@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDistributedTimestampStateVector, NSData, NSUUID;
+@class NSUUID;
 
 @interface CKMultiValueMergeableDeltaRegisterState
 {
     NSUUID *_identifier;
-    CKDistributedTimestampStateVector *_vector;
-    NSData *_salt;
 }
 
 + (id);
@@ -18,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id);
+- (id)escriptor"16@?<v@?@"<MTLLibrary>"@"NSError">24;
+- (unsigned long long)QQQ}}32Q80;
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *salt; // @synthesize salt=_salt;
-@property(readonly, nonatomic) CKDistributedTimestampStateVector *vector; // @synthesize vector=_vector;
 
 @end
 

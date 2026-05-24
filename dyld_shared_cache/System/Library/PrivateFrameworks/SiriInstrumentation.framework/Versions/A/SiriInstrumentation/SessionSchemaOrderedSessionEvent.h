@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaAnyEvent, SISchemaCommonEventMetadata;
-
 @interface SessionSchemaOrderedSessionEvent : SISchemaInstrumentationMessage
 {
     long long _logicalEventTimestampInNs;
-    SISchemaAnyEvent *_event;
-    SISchemaCommonEventMetadata *_metadata;
-    CDStruct_6df75016 _has;
-    _Bool _hasEvent;
-    _Bool _hasMetadata;
 }
 
 - (void);
@@ -23,36 +16,30 @@
 - (long long);
 - (_Bool);
 - (void);
+- (void)i;
 - (void);
-- (void);
-- (void);
+- (void)_cachedImage;
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)G;
+- (void)llu;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)er;
+- (id)collaborationIdentifier;
+- (_Bool)ype = 0 AND m.is_system_message = 0 AND m.is_read == 1 AND is_from_me == 0 AND is_finished == 1 ORDER BY m.date DESC LIMIT 1;
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)ypesCount;
-- (id)lusClientEvent;
-- (id);
+- (void)productTypesCount;
+- (id)deletePlusClientEvent;
+- (id)_isAppFocused;
 - (_Bool)ö;
 - (void)om.apple.aiml.siri.orch.ORCHClientEvent.ORCHIdentityBridgeRequestContext;
 - (void)äÿ;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaAnyEvent *event; // @synthesize event=_event;
-@property(nonatomic) _Bool hasEvent; // @synthesize hasEvent=_hasEvent;
-@property(nonatomic) _Bool hasLogicalEventTimestampInNs;
-@property(nonatomic) _Bool hasMetadata; // @synthesize hasMetadata=_hasMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) long long logicalEventTimestampInNs; // @synthesize logicalEventTimestampInNs=_logicalEventTimestampInNs;
-@property(retain, nonatomic) SISchemaCommonEventMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

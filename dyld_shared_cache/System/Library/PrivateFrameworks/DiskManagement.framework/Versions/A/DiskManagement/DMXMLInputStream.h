@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface DMXMLInputStream
 {
     NSMutableString *_toolTextOutputAccumulator;
-    NSMutableString *_xmlDocAccumulator;
 }
 
 - (int);
+- (int);
 - (int);
 - (int);
-- (int);
-- (void);
+- (void)ntext;
 - (id);
 
 @end

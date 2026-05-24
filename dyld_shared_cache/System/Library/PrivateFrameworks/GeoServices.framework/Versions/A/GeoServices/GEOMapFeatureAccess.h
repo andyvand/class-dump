@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOTileLoader, GEOTilePool, GEOVectorTileDecoder, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface GEOMapFeatureAccess
 {
     NSObject<OS_dispatch_queue> *_callbackQueue;
-    GEOTileLoader *_tileLoader;
-    GEOApplicationAuditToken *_auditToken;
-    double _syncTimeout;
-    _Bool _hasCustomTileLoader;
-    unsigned long long _memoryCacheCountLimit;
-    unsigned long long _memoryCacheCostLimit;
-    GEOTilePool *_tileCache;
-    GEOVectorTileDecoder *_tileDecoder;
-    _Bool _allowNetworkTileLoad;
-    _Bool _flipNegativeTravelDirectionRoads;
-    _Bool _visitDoubleTravelDirectionRoadsTwice;
-    _Bool _allowStaleData;
-    _Bool _preferStaleData;
-    _Bool _joinAllRoadsByMuid;
-    _Bool _cachedTilesCallbackImmediately;
-    _Bool _allowOfflineData;
 }
 
 + (CDStruct_f1d50d6b);
@@ -36,13 +20,13 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)I;
 - (id);
 - (id);
 - (void);
@@ -57,9 +41,9 @@
 - (id);
 - (double);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)nfoProviding>"16@"NSDictionary"24;
+- (_Bool)ationWithUserInfo: /* Error: Ran out of types for this method. */;
+- (id)oiceProfileTransferCmd:Writing to file failed!!! /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -68,10 +52,10 @@
 - (id);
 - (id);
 - (id);
+- (id)#;
+- (id)atrix3={?=fffffffff}[9f]),N,V_matrix;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)MKPOICategoryGolf;
 - (id);
 - (void);
 - (void);
@@ -85,14 +69,14 @@
 × ;
 - (void)"read_addedMuids"b1"read_originalMuids"b1"read_removedMuids"b1"wrote_anyField"b1};
 - (_Bool)y=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id)berOfResults;
-- (id)roundTripTimeAvg;
-- (id)mpletionHandler:(CDStruct_c3b9c2ee)arg1;
+- (id)hasNumberOfResults;
+- (id)_roundTripTimeAvg;
+- (id)URLSession:(CDStruct_c3b9c2ee)arg1 didReceiveChallenge:(double)arg2 completionHandler:(CDUnknownBlockType)arg3;
 - (id)¸;
 - (id)L±¬À.;
 - (id)G;
 - (id)ved:(unsigned long long)arg1 %{private}@;
-- (_Bool)TREME_ETA_UNDERESTIMATE_DRIVING;
+- (_Bool)EXTREME_ETA_UNDERESTIMATE_DRIVING;
 - (id)e, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id IN (            SELECT region                FROM region_name_mapping                WHERE name IN (SELECT rowid FROM region_names WHERE icu_match(region_names.name, @name) != 0)    )    ORDER BY name COLLATE region_collater, sort_order, iso_code, time_zone_name;;
 - (id)ed;
 - (void);
@@ -112,16 +96,7 @@
 - (void)þro5Ê9;
 
 // Remaining properties
-@property(nonatomic) _Bool allowNetworkTileLoad; // @synthesize allowNetworkTileLoad=_allowNetworkTileLoad;
-@property(nonatomic) _Bool allowOfflineData; // @synthesize allowOfflineData=_allowOfflineData;
-@property(nonatomic) _Bool allowStaleData; // @synthesize allowStaleData=_allowStaleData;
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(nonatomic) _Bool cachedTilesCallbackImmediately; // @synthesize cachedTilesCallbackImmediately=_cachedTilesCallbackImmediately;
-@property(nonatomic) _Bool flipNegativeTravelDirectionRoads; // @synthesize flipNegativeTravelDirectionRoads=_flipNegativeTravelDirectionRoads;
-@property(nonatomic) _Bool joinAllRoadsByMuid; // @synthesize joinAllRoadsByMuid=_joinAllRoadsByMuid;
-@property(nonatomic) _Bool preferStaleData; // @synthesize preferStaleData=_preferStaleData;
 @property(nonatomic) double syncTimeout;
-@property(nonatomic) _Bool visitDoubleTravelDirectionRoadsTwice; // @synthesize visitDoubleTravelDirectionRoadsTwice=_visitDoubleTravelDirectionRoadsTwice;
 
 @end
 

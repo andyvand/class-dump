@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface TUConversationParticipantPresentationContext
 {
     _Bool _isInCanvas;
-    unsigned long long _participantIdentifier;
-    unsigned long long _videoQuality;
-    NSNumber *_visibility;
-    NSNumber *_prominence;
-    struct CGRect _spatialPosition;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)4;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)B;
 - (id);
 - (id)emoteAudioMode=%d;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInCanvas; // @synthesize isInCanvas=_isInCanvas;
 @property(readonly, nonatomic) unsigned long long participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
-@property(readonly, nonatomic) NSNumber *prominence; // @synthesize prominence=_prominence;
-@property(readonly, nonatomic) struct CGRect spatialPosition; // @synthesize spatialPosition=_spatialPosition;
-@property(readonly, nonatomic) unsigned long long videoQuality; // @synthesize videoQuality=_videoQuality;
-@property(readonly, nonatomic) NSNumber *visibility; // @synthesize visibility=_visibility;
 
 @end
 

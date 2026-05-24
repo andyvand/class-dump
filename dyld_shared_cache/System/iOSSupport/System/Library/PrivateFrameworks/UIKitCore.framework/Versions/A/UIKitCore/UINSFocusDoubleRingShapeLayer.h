@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)respondToSettingsUpdate;
 - (void)ð0e;
 
 // Remaining properties

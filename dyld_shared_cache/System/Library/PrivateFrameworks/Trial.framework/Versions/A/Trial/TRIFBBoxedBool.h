@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (const struct BoxedBool *);
+- (const struct BoxedBool *);
 - (_Bool);
 - (id);
 - (id);
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) const struct BoxedBool *cppPointer;
-@property(readonly, nonatomic) _Bool val;
 
 @end
 

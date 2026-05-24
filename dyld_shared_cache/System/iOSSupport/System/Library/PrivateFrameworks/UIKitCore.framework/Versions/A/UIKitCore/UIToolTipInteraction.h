@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIToolTipInteractionStyle;
 @protocol UIToolTipInteractionDelegate;
 
 @interface UIToolTipInteraction
 {
     _Bool _delegateImplementsToolTipAtPoint;
-    _Bool _isDefaultInteraction;
-    NSString *_defaultToolTip;
-    _UIToolTipInteractionStyle *_style;
-    _Bool _enabled;
-    UIView *_view;
-    id <UIToolTipInteractionDelegate> _delegate;
 }
 
 + (id);
 + (id);
 + (id);
+- (id)metadataWithType:(struct CGPoint)arg1 bundleIdentifier:(struct CGRect *)arg2 contentURL:contentTitle:contentType:messageGUID: /* Error: Ran out of types for this method. */;
+- (void)tyVerificationRecipientEncryptionValidationToken:(id)arg1 availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)XH;
+- (void)lize chat identifier;
+- (void)y/SMS/CloudKitMockStore/;
 - (void);
 - (id);
 - (id)Y°1Â0@ù
@@ -34,23 +27,13 @@
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)StringIfNeeded;
+- (id)_updateAttributedStringIfNeeded;
 - (void)d this.;
-- (void)imatedTextSpacer;
+- (void)_UIAnimatedTextSpacer;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultToolTip;
 @property(nonatomic) __weak id <UIToolTipInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

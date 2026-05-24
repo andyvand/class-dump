@@ -5,5 +5,8 @@
 //
 
 @protocol CKFullScreenEffectDelegate
+
+@optional
+- (void)StringToLoad;
 @end
 

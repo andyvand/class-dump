@@ -26,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)requestAccountSyncWithDefaultOptions;
 - (id);
 
 @end

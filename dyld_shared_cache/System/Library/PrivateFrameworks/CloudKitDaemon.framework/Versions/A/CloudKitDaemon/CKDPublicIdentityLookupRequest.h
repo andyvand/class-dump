@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDOperation, NSArray, NSMutableArray;
+@class CKDOperation;
 
 @interface CKDPublicIdentityLookupRequest
 {
     CKDOperation *_operation;
-    NSArray *_lookupInfosToFetch;
-    NSMutableArray *_missingLookupInfos;
-    _Bool _isCancelled;
-    _Bool _hasPerformed;
-    unsigned long long _fetchBatchSize;
-    CDUnknownBlockType _perLookupInfoProgressBlock;
-    CDUnknownBlockType _lookupCompletionBlock;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -31,22 +24,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setCount_of_core1Samples: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)s %@;
 - (id);
 - (unsigned long long);
 - (void)SError">24;
-- (_Bool);
+- (_Bool)hasOBSOLETEPcsServiceType;
 - (void);
 - (void)%@:(_Bool)arg1 %@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long fetchBatchSize; // @synthesize fetchBatchSize=_fetchBatchSize;
 @property _Bool hasPerformed; // @synthesize hasPerformed=_hasPerformed;
-@property _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(copy, nonatomic) CDUnknownBlockType lookupCompletionBlock; // @synthesize lookupCompletionBlock=_lookupCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perLookupInfoProgressBlock; // @synthesize perLookupInfoProgressBlock=_perLookupInfoProgressBlock;
 
 @end
 

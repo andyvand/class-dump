@@ -9,7 +9,6 @@
 @interface WBSLazyString
 {
     CDUnknownBlockType _provider;
-    NSString *_string;
 }
 
 - (id);

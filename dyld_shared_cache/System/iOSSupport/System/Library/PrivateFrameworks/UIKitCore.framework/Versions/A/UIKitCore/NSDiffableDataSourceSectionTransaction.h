@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDiffableDataSourceSectionSnapshot, NSOrderedCollectionDifference;
-
 @interface NSDiffableDataSourceSectionTransaction
 {
     id _sectionIdentifier;
-    NSDiffableDataSourceSectionSnapshot *_initialSnapshot;
-    NSDiffableDataSourceSectionSnapshot *_finalSnapshot;
-    NSOrderedCollectionDifference *_difference;
 }
 
 - (id);
+- (id)sparseTileSizeInBytesForSparsePageSize: /* Error: Ran out of types for this method. */;
+- (id)seBookBackup;
 - (id);
-- (id);
-- (id);
-- (_Bool)ntrolKeyBackgroundColorName;
+- (_Bool)controlKeyBackgroundColorName;
 - (id)ustsFontForContentSizeCategory;
-- (id)meFormat;
+- (id)_UIDatePickerCalendarTimeFormat;
 - (id)-3;
 - (void)@Âj;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;
-@property(readonly, nonatomic) NSDiffableDataSourceSectionSnapshot *finalSnapshot; // @synthesize finalSnapshot=_finalSnapshot;
-@property(readonly, nonatomic) NSDiffableDataSourceSectionSnapshot *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
 @property(readonly, nonatomic) id sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end

@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFCommandButtonItem;
+@class NSData;
 
 @interface SFResultSection
 {
     _Bool _isInitiallyHidden;
-    NSArray *_results;
-    unsigned long long _maxInitiallyVisibleResults;
-    NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSString *_title;
-    SFCommandButtonItem *_titleButtonItem;
-    NSString *_subtitle;
-    NSString *_moreText;
-    SFCommandButtonItem *_button;
-    double _rankingScore;
-    unsigned long long _totalAvailableResults;
 }
 
-+ (_Bool);
++ (_Bool)�;
+- (id);
+- (id)spatialAudioPreference;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)t;
 - (void);
 - (void);
+- (void)_abbreviatedDescriptionOfMediaPlaybackArchive:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)brary"16@"NSError"24;
+- (id)faceIdentifier;
+- (id)@
+;
 - (id);
 - (id);
 - (void);
@@ -46,8 +36,8 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void)nt;
-- (void)hInSubject;
+- (void)cardSectionsCount;
+- (void)_countBigramMatchInSubject;
 - (id)edCardSection;
 - (id)ìê;
 - (double);
@@ -56,27 +46,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) SFCommandButtonItem *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isInitiallyHidden; // @synthesize isInitiallyHidden=_isInitiallyHidden;
 @property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxInitiallyVisibleResults; // @synthesize maxInitiallyVisibleResults=_maxInitiallyVisibleResults;
-@property(copy, nonatomic) NSString *moreText; // @synthesize moreText=_moreText;
-@property(nonatomic) double rankingScore; // @synthesize rankingScore=_rankingScore;
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) SFCommandButtonItem *titleButtonItem; // @synthesize titleButtonItem=_titleButtonItem;
-@property(nonatomic) unsigned long long totalAvailableResults; // @synthesize totalAvailableResults=_totalAvailableResults;
 
 @end
 

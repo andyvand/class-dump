@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSData, NSMutableOrderedSet, NSObject, NSSet, NSString, _CDInteractionStore;
-@protocol OS_dispatch_queue;
+@class NSSet;
 
 @interface _PSInteractionAndContactMonitor
 {
     struct os_unfair_lock_s _lock;
-    NSMutableOrderedSet *_contactStoreEnumerationCache;
-    struct __CFSet *_contactIdsInContactStore;
-    NSData *_changeHistoryToken;
-    struct __CFSet *_historyChangesQueuedToAdd;
-    NSMutableOrderedSet *_historyChangesQueuedToAddToEnumerationCache;
-    struct __CFSet *_historyChangesQueuedToDelete;
-    CDUnknownBlockType _processContactChanges;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    _Bool _contactsChangedFlag;
-    NSSet *_contactIdsSeen;
-    _CDInteractionStore *_interactionStore;
-    CNContactStore *_contactStore;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)SHARING_WITH_ALL_FAMILY;
+- (id)_eckaCert;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)(1DE'F
+;
 - (void);
 - (_Bool);
 - (void);
@@ -40,20 +28,11 @@
 - (void);
 - (id);
 - (void);
-- (id)e;
+- (id)_PSZKWFaceTimeTransformersTotalTime;
 - (id)encyPredictions %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *contactIdsSeen; // @synthesize contactIdsSeen=_contactIdsSeen;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(readonly) Class superclass;
 
 @end
 

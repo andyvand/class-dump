@@ -7,19 +7,6 @@
 @interface WidgetKit.ActivityViewStates
 {
     id count;
-    id accessoryActivityActions;
-    id metadataID;
-    id _startViewIndexForRight;
-    id _listItem;
-    id _dynamicIsland;
-    id _viewMetadataByViewIndex;
-    id _isProcessingLeft;
-    id _payloadMetadata;
-    id _viewTags;
-    id _archiveVersion;
-    id _isPublic;
-    id _activityID;
-    id _archiveID;
 }
 
 @end

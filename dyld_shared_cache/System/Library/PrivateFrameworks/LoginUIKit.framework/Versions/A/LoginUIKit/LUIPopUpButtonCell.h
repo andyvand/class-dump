@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (struct CGSize);
+- (struct CGSize)ifier"8;
 
 @end
 

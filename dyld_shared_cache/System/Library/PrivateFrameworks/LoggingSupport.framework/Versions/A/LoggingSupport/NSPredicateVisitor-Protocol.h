@@ -7,8 +7,11 @@
 @class NSExpression;
 
 @protocol NSPredicateVisitor
-- (void)hunkSetStartAddr:(NSExpression *)arg1 timestamp:subchunk: /* Error: Ran out of types for this method. */;
+- (void)insertChunk:(NSExpression *)arg1 chunkOffset:chunkSetStartAddr:timestamp:subchunk: /* Error: Ran out of types for this method. */;
 - (void)tracev3_subchunk_continuous_s=Q}{tracev3_subchunk_preamble_s=II}{tracev3_subchunk_systeminfo_s=ii[16c][32c]}{tracev3_subchunk_preamble_s=II}{tracev3_subchunk_generation_s=[16C]ii}{tracev3_subchunk_preamble_s=II}{tracev3_subchunk_timezone_s=[48c]}}{tracev3_chunk_catalog_s=SSSS[0C]}{tracev3_chunk_catalog_v2_s=SSSSSSS[1S]Q[0C]}{tracev3_chunk_log_preamble_s=QIC[3C]}{tracev3_chunk_firehose_s=QICC[2C][0C]}{tracev3_chunk_firehose_old_s=QiCC[0C]}{tracev3_chunk_oversize_s=QIC[3C]QISS[0C]}{tracev3_chunk_oversize_old_s=QISS[0C]}{tracev3_chunk_statedump_s=QIC[3C]QQ[16C][0C]}{tracev3_chunk_simple_s=QICC[2C]QQQ[16C][16C][0C]}[0C])}8{_NSRange=QQ}16;
 - (void);
+
+@optional
+- (void)e;
 @end
 

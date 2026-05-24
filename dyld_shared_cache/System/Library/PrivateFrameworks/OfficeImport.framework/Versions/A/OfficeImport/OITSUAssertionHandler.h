@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
 + (int);
 + (id);
-+ (void);
++ (void)h;
 
 @end
 

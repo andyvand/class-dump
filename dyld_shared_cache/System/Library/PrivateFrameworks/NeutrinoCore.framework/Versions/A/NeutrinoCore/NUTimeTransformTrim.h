@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 
 // Remaining properties

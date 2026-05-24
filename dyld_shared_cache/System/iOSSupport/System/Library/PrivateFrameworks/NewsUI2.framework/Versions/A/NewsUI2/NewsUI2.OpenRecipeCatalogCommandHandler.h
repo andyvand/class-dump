@@ -7,7 +7,6 @@
 @interface NewsUI2.OpenRecipeCatalogCommandHandler
 {
     id navigator;
-    id tracker;
 }
 
 @end

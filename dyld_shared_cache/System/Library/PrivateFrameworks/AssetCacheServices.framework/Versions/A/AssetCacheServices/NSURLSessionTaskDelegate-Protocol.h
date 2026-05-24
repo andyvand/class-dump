@@ -9,6 +9,10 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)RLSession:(NSURLSession *)arg1 readClosedForStreamTask:(NSURLSessionTask *)arg2;
+- (void)G;
+- (void)_;
+- (void);
+- (void);
+- (void)URLSession:(NSURLSession *)arg1 readClosedForStreamTask:(NSURLSessionTask *)arg2;
 @end
 

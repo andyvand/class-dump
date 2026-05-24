@@ -8,22 +8,6 @@
 {
     id ageRangeController;
     id _result;
-    id _ageRangeList;
-    id _showShareAgeRangeAgain;
-    id _state;
-    id _updateTask;
-    id ageRangeAccountProtocol;
-    id _accountInfo;
-    id _isTeenUser;
-    id _ageCategory;
-    id _dismissToken;
-    id _shouldOpenPersonalInfoOnMac;
-    id _onDismiss;
-    id _shouldShowOnboarding;
-    id _privacyVersion;
-    id _appBundleInfoCache;
-    id appBundleInfoResolver;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStore, HMDResidentSyncManager, HMFTimer, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDAppleMediaDeviceAssociationControllerDataSource, HMFTimerProvider, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaDeviceAssociationController
 {
     struct os_unfair_lock_s _lock;
-    _Bool _busy;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUUID *_homeUUID;
-    NSUUID *_accessoryUUID;
-    HMDResidentSyncManager *_residentSyncManager;
-    HMDBackingStore *_backingStore;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDAppleMediaDeviceAssociationControllerDataSource> _dataSource;
-    id <HMFTimerProvider> _timerProvider;
-    HMFTimer *_backoffTimer;
-    long long _timerIntervalIndex;
-    CDUnknownBlockType _mkfAppleMediaModelFinder;
 }
 
 + (id)þB;
-- (long long);
-- (void);
-- (void);
+- (long long)g remote subscribe, already %lu subscription tokens for trip:%@ /* Error: Ran out of types for this method. */;
+- (void)ate"8@?0;
+- (void)ts:(long long)arg1 %@, lacks:%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)?];
 - (id);
 - (id);
 - (void);
@@ -50,52 +38,85 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)tcpConnectTime;
 - (double);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)mCFMachPort;
+- (id)oat satChange = (sample(hueSatLumTable, samplerTransform(hueSatLumTable, vec2(hueIdx,0.5))).g);
+float lumChange = (sample(hueSatLumTable, samplerTransform(hueSatLumTable, vec2(hueIdx,0.5))).b);
+float chroma = sqrt(im.g*im.g+im.b*im.b) ;
+chroma *= satChange ;
+hue += hueChange ;
+vec3 adjustIm = im.rgb;
+float hueAngle = hue  ;
+lumChange = mix(1.0, lumChange, clamp(chroma,-0.7,0.7));
+adjustIm.r *= lumChange;
+adjustIm.g = chroma * cos(hueAngle) ;
+adjustIm.b = chroma * sin(hueAngle) ;
+result.rgb = adjustIm.rgb;
+result.a = im.a ;
+return result ;
+}
+kernel vec4 srgbToIPT(sampler image){
+vec4 im = sample(image, samplerCoord(image));
+vec3 lms, ipt;
+lms = im.r * vec3(0.3139902162, 0.155372406, 0.017752387) +
+im.g * vec3(0.6395129383, 0.7578944616, 0.109442094) +
+im.b * vec3(0.0464975462, 0.0867014186, 0.8725692246);
+lms = sign(lms)*pow(abs(lms), vec3(0.43, 0.43, 0.43));
+ipt = lms.r * vec3(0.4, 4.455, 0.8056) +
+lms.g * vec3(0.4, -4.851, 0.3572) +
+lms.b * vec3(0.2, 0.3960, -1.1628);
+return vec4(ipt, im.a);
+}
+kernel vec4 iptToSRGB(sampler image){
+vec4 im = sample(image, samplerCoord(image));
+vec3 lms, rgb;
+lms = im.rrr +
+im.g * vec3(0.09756893,-0.11387649,0.03261511) +
+im.b * vec3(0.20522644, 0.13321716,  -0.67688718);
+lms = sign(lms)*pow(abs(lms), vec3(1.0/.43));
+rgb = lms.r * vec3( 5.472212058380287,  -1.125241895533569,   0.029801651173470) +
+lms.g * vec3(-4.641960098354470, 2.293170938060623, -0.193180728257140) +
+lms.b * vec3(0.169637076827974,  -0.167895202223709, 1.163647892783812);
+return vec4(rgb, im.a);
+}
+kernel vec4 add_gaussian(sampler srcTable, float tableSize, float hueAmplitude, float satAmplitude, float lumAmplitude, float gaussX, float gaussSigmaSquared) {
+vec2 d = destCoord();
+vec4 src = sample(srcTable, samplerCoord(srcTable));
+float x = d.x / (tableSize - 1.0);
+float dist = min(min(abs(x - gaussX), abs(x - 1.0 - gaussX)), abs(x + 1.0 - gaussX));
+float p = -((dist * dist) / (2.0 * gaussSigmaSquared));
+float ep = exp(p);
+float hue = hueAmplitude * ep;
+float sat = satAmplitude * ep;
+float lum = lumAmplitude * ep;
+float h = clamp(src.r + hue, -1.0, 1.0);
+float s = clamp(src.g + sat, -1.0, 1.0);
+float l = clamp(src.b + lum, -1.0, 1.0);
+return vec4(h,s,l,1.0);
+}
+
+;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)Â0@ù
 × ;
-- (id)teRelaySenderDelegate;
+- (id)HMDCameraSnapshotRemoteRelaySenderDelegate;
 - (void)à;
 - (id)fy of triggered timer due to no delegate;
 - (void);
 - (id)cording.importer;
-- (void);
+- (void)Observer;
 - (id)?®ÿÙeA;
 - (id)ìA;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly) HMDBackingStore *backingStore; // @synthesize backingStore=_backingStore;
-@property(retain) HMFTimer *backoffTimer; // @synthesize backoffTimer=_backoffTimer;
-@property(readonly) id <HMDAppleMediaDeviceAssociationControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy) CDUnknownBlockType mkfAppleMediaModelFinder; // @synthesize mkfAppleMediaModelFinder=_mkfAppleMediaModelFinder;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) HMDResidentSyncManager *residentSyncManager; // @synthesize residentSyncManager=_residentSyncManager;
-@property(readonly) Class superclass;
-@property long long timerIntervalIndex; // @synthesize timerIntervalIndex=_timerIntervalIndex;
-@property __weak id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
 
 @end
 

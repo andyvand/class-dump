@@ -6,15 +6,11 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiRecipeDiversificationInputConfiguration, FCNewsTabiRecipeDiversificationOutputConfiguration, FCNewsTabiRecipeEventAggregationConfiguration;
+@class FCNewsTabiRecipeDiversificationOutputConfiguration;
 
 @interface FCNewsTabiRecipeDiversificationConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiRecipeDiversificationOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiRecipeDiversificationOutputConfiguration *_nonBundleOutputConfiguration;
-    FCNewsTabiRecipeEventAggregationConfiguration *_eventAggregationConfiguration;
-    FCNewsTabiRecipeDiversificationInputConfiguration *_bundleInputConfiguration;
-    FCNewsTabiRecipeDiversificationInputConfiguration *_nonBundleInputConfiguration;
 }
 
 - (id);
@@ -25,14 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void)rsion;
+- (void)bundleChannelIDsVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiRecipeDiversificationInputConfiguration *bundleInputConfiguration; // @synthesize bundleInputConfiguration=_bundleInputConfiguration;
 @property(readonly, nonatomic) FCNewsTabiRecipeDiversificationOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeEventAggregationConfiguration *eventAggregationConfiguration; // @synthesize eventAggregationConfiguration=_eventAggregationConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeDiversificationInputConfiguration *nonBundleInputConfiguration; // @synthesize nonBundleInputConfiguration=_nonBundleInputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeDiversificationOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

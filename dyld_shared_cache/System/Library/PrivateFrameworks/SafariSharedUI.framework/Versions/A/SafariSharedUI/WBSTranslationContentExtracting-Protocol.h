@@ -7,6 +7,7 @@
 @protocol WBSTranslationContentExtractionDelegate;
 
 @protocol WBSTranslationContentExtracting
+- (id <WBSTranslationContentExtractionDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSTranslationContentExtractionDelegate> extractionDelegate;

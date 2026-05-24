@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITargetedPreview;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneActivationEffectDescriptor
@@ -15,18 +15,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)e %ld reparentable messages; nil pTaskQueryProvider.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *compatibleDescriptors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UITargetedPreview *targetedPreview; // @synthesize targetedPreview=_targetedPreview;
 
 @end

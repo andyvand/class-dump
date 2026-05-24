@@ -6,24 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSString, NSURL, PKPaymentOfferRewardsRedemptionIntent, PKPaymentOffersSessionTransactionDetails, PKSelectedPaymentOffer;
+@class NSURL;
 
 @interface PKPaymentOfferWebServiceConfirmOffer : PKPaymentOfferWebServiceRequest
 {
     NSURL *_baseURL;
-    unsigned long long _selectionType;
-    NSString *_criteriaIdentifier;
-    NSString *_selectedOfferIdentifier;
-    NSString *_sessionIdentifier;
-    unsigned long long _eventType;
-    unsigned long long _context;
-    PKPaymentOfferRewardsRedemptionIntent *_rewardsRedemptionIntent;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_dpanIdentifier;
-    NSString *_fpanIdentifier;
-    PKPaymentOffersSessionTransactionDetails *_transactionDetails;
-    PKSelectedPaymentOffer *_selectedOffer;
 }
 
 - (id);
@@ -37,41 +24,28 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)TX;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)׵";
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)!;
+- (void)ateOpenTime"b1"rapidLqmDuration"b1"roamWaitTime"b1"tdEvalDuration"b1"trafficWatchDuration"b1"trafficWatchTime"b1"arpFailureCount"b1"bcnPerSign"b1"bcnRcvs"b1"bcnSched"b1"dnsServersImpacted"b1"dnsServersTotal"b1"fwTxFail"b1"fwTxFrames"b1"fwTxPerSign"b1"fwTxRetrans"b1"gwArpExpiry"b1"metricReason"b1"netScore"b1"rssi"b1"rxFrames"b1"sympAwdCode"b1"sympSign"b1"trafficWatchRx"b1"trgDisc"b1"txFail"b1"txFrames"b1"txPerSign"b1"txRetrans"b1"usrImpact"b1"usrInput"b1"validState"b1};
+- (void)dpsCounterSampleType;
 - (void);
 - (void);
 - (void)sfer;
-- (void)teTime;
-- (id);
+- (void)currentGateTime;
+- (id)jsblSequenceCounter;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain, nonatomic) PKPaymentOfferRewardsRedemptionIntent *rewardsRedemptionIntent; // @synthesize rewardsRedemptionIntent=_rewardsRedemptionIntent;
-@property(retain, nonatomic) PKSelectedPaymentOffer *selectedOffer; // @synthesize selectedOffer=_selectedOffer;
-@property(copy, nonatomic) NSString *selectedOfferIdentifier; // @synthesize selectedOfferIdentifier=_selectedOfferIdentifier;
-@property(nonatomic) unsigned long long selectionType; // @synthesize selectionType=_selectionType;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) PKPaymentOffersSessionTransactionDetails *transactionDetails; // @synthesize transactionDetails=_transactionDetails;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 @protocol CRKTransportProviding;
 
 @interface CRKCurrentPlatformInstructordTransportProvider
 {
     id <CRKTransportProviding> mBaseProvider;
-    NSURL *_classroomAppBundleURL;
-    NSString *_instructordBundleIdentifier;
 }
 
 - (void);
@@ -23,19 +21,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)D;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *classroomAppBundleURL; // @synthesize classroomAppBundleURL=_classroomAppBundleURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *instructordBundleIdentifier; // @synthesize instructordBundleIdentifier=_instructordBundleIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

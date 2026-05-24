@@ -9,21 +9,14 @@
 @interface CalUILayerBackedView
 {
     _Bool _acceptsFirstResponderStatus;
-    _Bool _settableIsOpaque;
-    _Bool _overrideAllowsVibrancy;
-    _Bool _overrideAllowsVibrancyValue;
-    CDUnknownBlockType _updateLayerBlock;
-    NSImage *_image;
-    struct CGSize _contentSize;
-    struct CGRect _contentsCenter;
 }
 
++ (id)#;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
++ (id);
++ (void)(;
 + (void);
 + (void);
 + (void);
@@ -62,7 +55,7 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);
@@ -71,14 +64,7 @@
 - (struct CGSize)iginal;
 
 // Remaining properties
-@property _Bool acceptsFirstResponderStatus; // @synthesize acceptsFirstResponderStatus=_acceptsFirstResponderStatus;
-@property struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property struct CGRect contentsCenter; // @synthesize contentsCenter=_contentsCenter;
 @property(retain) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool overrideAllowsVibrancy; // @synthesize overrideAllowsVibrancy=_overrideAllowsVibrancy;
-@property(nonatomic) _Bool overrideAllowsVibrancyValue; // @synthesize overrideAllowsVibrancyValue=_overrideAllowsVibrancyValue;
-@property _Bool settableIsOpaque; // @synthesize settableIsOpaque=_settableIsOpaque;
-@property(copy) CDUnknownBlockType updateLayerBlock; // @synthesize updateLayerBlock=_updateLayerBlock;
 
 @end
 

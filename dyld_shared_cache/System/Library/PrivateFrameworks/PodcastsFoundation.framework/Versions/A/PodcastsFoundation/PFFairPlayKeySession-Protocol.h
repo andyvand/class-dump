@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFFairPlayAsset, PFFairPlayKeyResponseData;
+@class NSString, PFFairPlayAsset;
 
 @protocol PFFairPlayKeySession
+- (NSString *);
 - (PFFairPlayAsset *)ñ$ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, readonly) PFFairPlayAsset *asset;
-@property(nonatomic) _Bool bypassCache;
 @property(nonatomic, readonly) NSString *id;
-@property(nonatomic, retain) PFFairPlayKeyResponseData *keyResponseData;
-@property(nonatomic, readonly) NSString *keyStoreFilePath;
 @end
 

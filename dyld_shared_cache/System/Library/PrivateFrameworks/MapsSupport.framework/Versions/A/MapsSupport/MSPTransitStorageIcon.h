@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageIcon
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _cartoID;
-    unsigned int _defaultTransitType;
-    unsigned int _iconAttributeKey;
-    unsigned int _iconAttributeValue;
-    int _iconType;
-    struct {
-        unsigned int cartoID:1;
-        unsigned int defaultTransitType:1;
-        unsigned int iconAttributeKey:1;
-        unsigned int iconAttributeValue:1;
-        unsigned int iconType:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)l;
+- (void);
+- (void)l;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)$;
+- (int);
+- (void);
 - (_Bool);
-- (int);
 - (void);
-- (_Bool);
-- (void);
-- (int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (int), unread_count_adjusted_for_duplicates FROM mailboxes WHERE %@;
+- (unsigned int)ages:] /* Error: Ran out of types for this method. */;
+- (unsigned int)[MFLibrary setSnippetsForMessages:] /* Error: Ran out of types for this method. */;
+- (unsigned int)ox, remote_mailbox, flags, read, flagged, size, color, type, conversation_id, snippet, fuzzy_ancestor, automated_conversation, root_status, conversation_position, deleted, list_id_hash, searchable_message FROM messages_old JOIN message_global_data ON messages_old.message_id = message_global_data.message_id;
 - (unsigned int);
 - (id);
 - (void);
@@ -56,31 +44,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)�;
 
 // Remaining properties
-@property(nonatomic) unsigned int cartoID; // @synthesize cartoID=_cartoID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned int defaultTransitType; // @synthesize defaultTransitType=_defaultTransitType;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCartoID;
-@property(nonatomic) _Bool hasDefaultTransitType;
-@property(nonatomic) _Bool hasIconAttributeKey;
-@property(nonatomic) _Bool hasIconAttributeValue;
-@property(nonatomic) _Bool hasIconType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int iconAttributeKey; // @synthesize iconAttributeKey=_iconAttributeKey;
-@property(nonatomic) unsigned int iconAttributeValue; // @synthesize iconAttributeValue=_iconAttributeValue;
-@property(nonatomic) int iconType; // @synthesize iconType=_iconType;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"GEOStyleAttributes",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) int iconType;
 
 @end
 

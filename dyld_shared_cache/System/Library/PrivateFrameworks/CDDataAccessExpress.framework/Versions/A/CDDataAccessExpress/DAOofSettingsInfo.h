@@ -7,22 +7,19 @@
 #import <CDDataAccessExpress/DAOofParams.h>
 
 @class NSString;
-@protocol DAOofResponseDelegate;
 
 @interface DAOofSettingsInfo : DAOofParams
 {
     NSString *_requestID;
-    id <DAOofResponseDelegate> _consumer;
 }
 
-- (id);
+- (id)s;
 - (void);
-- (void);
+- (void)46) cannot add 1 element to context;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <DAOofResponseDelegate> consumer; // @synthesize consumer=_consumer;
 @property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID, SOClockAlarmObserver;
+
 @protocol SOClockAlarmListening
+- (void)ABInsertedRecords;
+- (void)faceObservationWithRequestRevision:(SOClockAlarmObserver *)arg1 boundingBox:(NSUUID *)arg2 faceprint: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol SXFontAttributes;
+@class NSString;
 
 @protocol SXFontFace
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXFontAttributes> fontAttributes;
-@property(readonly, nonatomic) NSDictionary *fontDescriptorAttributes;
 @property(readonly, nonatomic) NSString *fontName;
 @end
 

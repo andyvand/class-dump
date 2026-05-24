@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol CRKSettingsUIVisibilityProvider
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *paneStatus;
 @property(readonly) _Bool settingsUIVisible;
 @end
 

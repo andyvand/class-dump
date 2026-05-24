@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)us:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 

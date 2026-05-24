@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKDeviceToDeviceShareInvitationToken, CKRecord, CKRecordID, CKRecordZone, CKRequiredFeatureSet, CKShare, CKShareParticipant, CKUserIdentity, NSArray, NSData, NSString;
-
 @interface CKShareMetadata
 {
     _Bool _acceptedInProcess;
-    _Bool _accessRequestsEnabled;
-    CKShare *_share;
-    CKRecordID *_hierarchicalRootRecordID;
-    long long _participantRole;
-    long long _participantStatus;
-    long long _participantPermission;
-    CKUserIdentity *_ownerIdentity;
-    CKRecord *_rootRecord;
-    CKContainerID *_containerID;
-    CKShareParticipant *_callingParticipant;
-    NSArray *_sharedItemHierarchyIDs;
-    NSString *_rootRecordType;
-    CKDeviceToDeviceShareInvitationToken *_invitationToken;
-    NSString *_selectedAccountID;
-    CKRequiredFeatureSet *_requiredFeatures;
-    NSData *_protectedFullToken;
-    NSData *_publicToken;
-    NSData *_privateToken;
-    CKRecordZone *_sharedZone;
-    NSArray *_outOfNetworkMatches;
-    NSData *_encryptedData;
 }
 
 + (_Bool);

@@ -7,7 +7,6 @@
 @interface ktrace.Recording.Diagnostics
 {
     id outFile;
-    id errFile;
 }
 
 @end

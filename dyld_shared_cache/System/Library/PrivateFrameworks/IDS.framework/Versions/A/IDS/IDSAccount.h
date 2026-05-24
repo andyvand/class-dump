@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _IDSAccount;
+@class _IDSAccount;
 
 @interface IDSAccount
 {
     _IDSAccount *_internal;
-    NSString *_loginID;
 }
 
 @end

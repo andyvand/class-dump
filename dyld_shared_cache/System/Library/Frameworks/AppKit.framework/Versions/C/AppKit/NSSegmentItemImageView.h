@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (int);
+- (int)downloadFile;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

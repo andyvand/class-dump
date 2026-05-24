@@ -10,7 +10,7 @@
 {
 }
 
-- (double);
+- (double);
 - (id);
 
 @end

@@ -7,22 +7,14 @@
 @interface NSDecimalNumberHandler
 {
     unsigned int _scale:16;
-    unsigned int _roundingMode:3;
-    unsigned int _raiseOnExactness:1;
-    unsigned int _raiseOnOverflow:1;
-    unsigned int _raiseOnUnderflow:1;
-    unsigned int _raiseOnDivideByZero:1;
-    unsigned int _unused:9;
-    void *_reserved2;
-    void *_reserved;
 }
 
 + (id);
 + (id);
 - (id);
 - (unsigned long long);
-- (short);
-- (id);
+- (short)bolggwsobolg;
+- (id)H;
 - (void);
 - (id);
 

@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UINSActivityItemsConfigurationReading;
+@class NSString, UIPasteboard;
+@protocol UINSActivityItemsConfigurationReading, _UIServicesMenuDataProviding;
 
 @protocol _UIServicesMenuDataProviding
+- (id <_UIServicesMenuDataProviding>)onseCode:(NSString *)arg1 error:lastCall: /* Error: Ran out of types for this method. */;
+- (_Bool)lastPublisherOfOffGridStatusWithBlastDoorMessage:(UIPasteboard *)arg1;
+- (id <UINSActivityItemsConfigurationReading>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UINSActivityItemsConfigurationReading> _activityItemsConfigurationForServicesMenu;

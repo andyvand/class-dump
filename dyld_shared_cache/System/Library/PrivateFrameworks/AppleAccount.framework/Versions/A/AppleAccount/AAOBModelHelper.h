@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)urned NULL item at index %ld count %ld;
++ (id)asswordForProxyServer create of keychain item returned %d;
 
 @end
 

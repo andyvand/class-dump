@@ -6,12 +6,9 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NSData;
-
 @interface NEIKEv2CertificatePayload : NEIKEv2Payload
 {
     unsigned long long _encoding;
-    NSData *_certificateData;
 }
 
 - (_Bool);
@@ -19,8 +16,8 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)serOverrideDisabled: /* Error: Ran out of types for this method. */;
-- (id)tication;
+- (void)setOnDemandUserOverrideDisabled: /* Error: Ran out of types for this method. */;
+- (id)Authentication;
 
 @end
 

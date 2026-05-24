@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBStopAnnouncementIntentResponse
 {
     struct _has;
-    NSArray *_stoppedAnnouncementRecords;
 }
 
 + (Class);
@@ -19,27 +18,19 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long)`;
+- (id);
+- (void)";
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)`A;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)entResponseCodeSuccess;
+- (void)INSetRelationshipIntentResponseCodeSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *stoppedAnnouncementRecords; // @synthesize stoppedAnnouncementRecords=_stoppedAnnouncementRecords;
-@property(readonly, nonatomic) unsigned long long stoppedAnnouncementRecordsCount;
-@property(readonly) Class superclass;
 
 @end
 

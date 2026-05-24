@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFCommandButtonItem, SearchUICommandHandler;
+@class SearchUICommandHandler;
 
 @interface SearchUIMenuItem
 {
     SearchUICommandHandler *_commandHandler;
-    SFCommandButtonItem *_commandButtonItem;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)outfit_zipupHoodie_right_string;
+- (id)hair_microBraid_short_up_halfFadeSwoop;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandButtonItem *commandButtonItem; // @synthesize commandButtonItem=_commandButtonItem;
 @property(retain, nonatomic) SearchUICommandHandler *commandHandler; // @synthesize commandHandler=_commandHandler;
 
 @end

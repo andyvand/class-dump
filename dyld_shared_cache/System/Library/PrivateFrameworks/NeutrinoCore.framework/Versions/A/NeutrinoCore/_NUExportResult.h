@@ -6,33 +6,22 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString, NSURL, NUImageGeometry;
-@protocol NURenderStatistics;
+@class NSURL;
 
 @interface _NUExportResult : _NURenderResult
 {
     NSURL *_destinationURL;
-    NUImageGeometry *_geometry;
 }
 
-- (id);
+- (id)M%;
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(retain) NUImageGeometry *geometry; // @synthesize geometry=_geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

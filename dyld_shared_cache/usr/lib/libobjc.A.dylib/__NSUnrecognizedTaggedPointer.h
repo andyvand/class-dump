@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (oneway void);
-- (id);
+- (oneway void)_iconURLWithContext:tableID:unitID:unitBytes: /* Error: Ran out of types for this method. */;
+- (id).microsoft.powerpoint.pot;
 - (id);
 
 @end

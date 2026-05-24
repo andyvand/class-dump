@@ -6,14 +6,11 @@
 
 #import <HomeKit/HMHomeInvitationData.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface HMOutgoingHomeInvitationData : HMHomeInvitationData
 {
     struct os_unfair_lock_s _lock;
-    NSString *_inviteeName;
-    NSString *_inviteeUserID;
-    NSUUID *_inviteeUUID;
 }
 
 + (_Bool);
@@ -22,15 +19,13 @@
 - (id);
 - (id);
 - (void);
+- (id)#!;
 - (id);
-- (id);
-- (void);
+- (void)pu;
 - (void)°ÿìL° ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *inviteeName; // @synthesize inviteeName=_inviteeName;
-@property(readonly, copy, nonatomic) NSUUID *inviteeUUID; // @synthesize inviteeUUID=_inviteeUUID;
-@property(readonly, copy, nonatomic) NSString *inviteeUserID; // @synthesize inviteeUserID=_inviteeUserID;
 
 @end
 

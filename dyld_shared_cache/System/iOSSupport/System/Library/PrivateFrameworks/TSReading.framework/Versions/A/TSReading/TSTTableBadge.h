@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSUColor;
-
 @interface TSTTableBadge
 {
     int _badgeType;
-    TSUColor *_color;
-    double _viewScale;
-    struct CGRect _frame;
 }
 
 + (id);
@@ -21,16 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (struct CGRect);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) int badgeType; // @synthesize badgeType=_badgeType;
-@property(retain, nonatomic) TSUColor *color; // @synthesize color=_color;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) double viewScale; // @synthesize viewScale=_viewScale;
 
 @end
 

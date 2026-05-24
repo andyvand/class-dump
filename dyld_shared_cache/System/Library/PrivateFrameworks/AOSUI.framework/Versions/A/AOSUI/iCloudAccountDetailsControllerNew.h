@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CastlePlugin, MMWebViewButtonBar, MM_Account, NSAccountDetailsWebTabViewItem, NSMutableDictionary, NSString, NSTouchBar, NSView, NSWindow, iCloudAccountDetailsTabView, iCloudAccountsDetailsGeneral;
+@class MM_Account, NSView;
 
 @interface iCloudAccountDetailsControllerNew
 {
     NSView *_accountDetailsView;
-    iCloudAccountDetailsTabView *_accountDetailsTabView;
-    NSAccountDetailsWebTabViewItem *_generalTabViewItem;
-    NSAccountDetailsWebTabViewItem *_contactTabViewItem;
-    NSAccountDetailsWebTabViewItem *_securityTabViewItem;
-    NSAccountDetailsWebTabViewItem *_paymentTabViewItem;
-    NSMutableDictionary *_buttonBarDictionaries;
-    NSAccountDetailsWebTabViewItem *_devicesTabViewItem;
-    MM_Account *_account;
-    CastlePlugin *_plugin;
-    NSWindow *_sheet;
-    MMWebViewButtonBar *buttonBar;
-    NSView *_buttonBarView;
-    iCloudAccountsDetailsGeneral *_generalController;
-    NSWindow *_parentWindow;
-    NSString *_sectionToOpen;
 }
 
 + (id);
@@ -36,11 +21,11 @@
 - (void);
 - (void);
 - (id);
+- (void)q;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	k3;
 - (void);
 - (void);
 - (void);
@@ -53,11 +38,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (void);
@@ -68,18 +53,6 @@
 
 // Remaining properties
 @property(retain) MM_Account *account; // @synthesize account=_account;
-@property(retain) NSMutableDictionary *buttonBarDictionaries; // @synthesize buttonBarDictionaries=_buttonBarDictionaries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(retain) CastlePlugin *plugin; // @synthesize plugin=_plugin;
-@property NSString *sectionToOpen; // @synthesize sectionToOpen=_sectionToOpen;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 
 @end
 

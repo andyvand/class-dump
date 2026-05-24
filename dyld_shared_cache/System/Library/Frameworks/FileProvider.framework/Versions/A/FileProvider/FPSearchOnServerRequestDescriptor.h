@@ -9,8 +9,6 @@
 @interface FPSearchOnServerRequestDescriptor
 {
     NSString *_query;
-    long long _desiredNumberOfResults;
-    long long _maximumNumberOfResultsPerPage;
 }
 
 + (_Bool);
@@ -18,14 +16,12 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)onnection.;
 - (void);
 - (void)Ñç)1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long desiredNumberOfResults; // @synthesize desiredNumberOfResults=_desiredNumberOfResults;
-@property(readonly, nonatomic) long long maximumNumberOfResultsPerPage; // @synthesize maximumNumberOfResultsPerPage=_maximumNumberOfResultsPerPage;
 @property(readonly, nonatomic) NSString *query; // @synthesize query=_query;
 
 @end

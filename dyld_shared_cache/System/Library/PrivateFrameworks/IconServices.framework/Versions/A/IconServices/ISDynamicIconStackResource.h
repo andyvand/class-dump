@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISCompositingDescriptor, ISGenerationReport, ISICRCompositor, NSArray, NSString;
+@class ISCompositingDescriptor, ISICRCompositor;
 
 __attribute__((visibility("hidden")))
 @interface ISDynamicIconStackResource
 {
     ISCompositingDescriptor *compositingDescriptor;
-    ISGenerationReport *generationReport;
-    unsigned long long platform;
-    NSString *_typeIdentifier;
-    NSArray *_layerGroups;
-    ISICRCompositor *_icrCompositor;
 }
 
 - (void);
@@ -25,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)SDate";
+- (id)yOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf};
+- (id)setCurrentTaggerModel:(struct CGSize)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -35,23 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(copy) ISCompositingDescriptor *compositingDescriptor; // @synthesize compositingDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) ISGenerationReport *generationReport; // @synthesize generationReport;
-@property(readonly) unsigned long long hash;
 @property(copy) ISICRCompositor *icrCompositor; // @synthesize icrCompositor=_icrCompositor;
-@property(readonly) NSArray *layerGroups; // @synthesize layerGroups=_layerGroups;
-@property(readonly) unsigned long long platform; // @synthesize platform;
-@property(readonly) Class superclass;
-@property(readonly) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

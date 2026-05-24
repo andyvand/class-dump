@@ -7,16 +7,13 @@
 @class NSArray, NSString;
 
 @protocol _GCIPCProcess
+- (NSString *);
+- (int)E;
+- (unsigned int)׈;
 - (NSArray *);
 - (unsigned int)ntrollerd.app;
 
 // Remaining properties
-@property(readonly) int auditSessionIdentifier;
-@property(readonly) CDStruct_4c969caf auditToken;
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSArray *connections;
-@property(readonly) unsigned int effectiveGroupIdentifier;
-@property(readonly) unsigned int effectiveUserIdentifier;
-@property(readonly) int processIdentifier;
+@property(readonly) CDStruct_6ad76789 auditToken;
 @end
 

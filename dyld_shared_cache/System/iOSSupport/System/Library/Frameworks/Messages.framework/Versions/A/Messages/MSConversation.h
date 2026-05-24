@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMessage, NSArray, NSData, NSString, NSUUID, _MSMessageAppContext;
-@protocol MSConversationDelegate;
+@class MSMessage;
 
 @interface MSConversation
 {
     _Bool _isiMessage;
-    _Bool _isBusiness;
-    _Bool _isUltraConstrainedNetwork;
-    NSUUID *_identifier;
-    NSString *_conversationIdentifier;
-    NSData *_engramID;
-    NSString *_groupID;
-    MSMessage *_selectedMessage;
-    NSUUID *_localParticipantIdentifier;
-    NSArray *_remoteParticipantIdentifiers;
-    _MSMessageAppContext *_context;
-    NSArray *_draftAssetArchives;
-    NSString *_senderAddress;
-    NSString *_iMessageLoginID;
-    NSArray *_recipientAddresses;
-    NSString *_generatedSummary;
-    NSArray *_contextItems;
-    id <MSConversationDelegate> _delegate;
 }
 
 + (id);
@@ -59,10 +41,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,46 +56,29 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)invalidateComponent:(id)arg1 state:(CDUnknownBlockType)arg2 priority: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)dMemories.goodKeyPhotosRepresentingMemories;
+- (id)MERGE_DUPLICATES_ACTION_CONFIRMATION_MESSAGE_PERCEPTUAL_WARNING_SINGLE;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)seViewControllerHelperDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MSMessageAppContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSArray *contextItems; // @synthesize contextItems=_contextItems;
-@property(readonly, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(nonatomic) __weak id <MSConversationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *draftAssetArchives; // @synthesize draftAssetArchives=_draftAssetArchives;
-@property(readonly, nonatomic) NSData *engramID; // @synthesize engramID=_engramID;
-@property(readonly, nonatomic) NSString *generatedSummary; // @synthesize generatedSummary=_generatedSummary;
-@property(readonly, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) NSString *iMessageLoginID; // @synthesize iMessageLoginID=_iMessageLoginID;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBusiness; // @synthesize isBusiness=_isBusiness;
-@property(readonly, nonatomic) _Bool isUltraConstrainedNetwork; // @synthesize isUltraConstrainedNetwork=_isUltraConstrainedNetwork;
-@property(readonly, nonatomic) _Bool isiMessage; // @synthesize isiMessage=_isiMessage;
-@property(readonly, nonatomic) NSUUID *localParticipantIdentifier; // @synthesize localParticipantIdentifier=_localParticipantIdentifier;
-@property(readonly, nonatomic) NSArray *recipientAddresses; // @synthesize recipientAddresses=_recipientAddresses;
-@property(retain, nonatomic) NSArray *remoteParticipantIdentifiers; // @synthesize remoteParticipantIdentifiers=_remoteParticipantIdentifiers;
 @property(retain, nonatomic) MSMessage *selectedMessage; // @synthesize selectedMessage=_selectedMessage;
-@property(readonly, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
 
 @end
 

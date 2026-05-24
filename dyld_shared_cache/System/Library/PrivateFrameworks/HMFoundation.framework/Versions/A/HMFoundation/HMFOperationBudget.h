@@ -6,15 +6,9 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFTimer, NSString;
-
 @interface HMFOperationBudget : HMFObject
 {
     struct os_unfair_recursive_lock_s _lock;
-    HMFTimer *_timer;
-    unsigned long long _value;
-    unsigned long long _limit;
-    struct _HMFRate _rate;
 }
 
 + (_Bool);
@@ -22,8 +16,8 @@
 × ;
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)g;
+- (unsigned long long)i;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,18 +28,7 @@
 - (struct _HMFRate);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly, getter=isFull) _Bool full;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) struct _HMFRate rate; // @synthesize rate=_rate;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long value; // @synthesize value=_value;
 
 @end
 

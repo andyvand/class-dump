@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSSet, NSString, _ICLexiconView, _ICTransientLexicon;
+@class NSMutableOrderedSet, _ICTransientLexicon;
 
 @interface _ICNamedEntityStore
 {
     NSMutableOrderedSet *_leastRecentlyAddedEntities;
-    unsigned long long _maximumRecentlyAddedEntities;
-    _Bool _treatHyphenatedWordAsPhrase;
-    _ICLexiconView *_wordLexiconView;
-    _ICLexiconView *_phraseLexiconView;
-    NSString *_name;
-    unsigned long long _durableEntitiesAdded;
-    unsigned long long _recentEntitiesAdded;
-    unsigned long long _minimumWordLength;
-    NSSet *_acceptedLanguages;
-    _ICTransientLexicon *_wordLexiconImpl;
-    _ICTransientLexicon *_phraseLexiconImpl;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (struct USet *);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
@@ -42,26 +31,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
 - (struct USet *);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *acceptedLanguages; // @synthesize acceptedLanguages=_acceptedLanguages;
-@property(readonly, nonatomic) unsigned long long durableEntitiesAdded; // @synthesize durableEntitiesAdded=_durableEntitiesAdded;
-@property(nonatomic) unsigned long long minimumWordLength; // @synthesize minimumWordLength=_minimumWordLength;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _ICLexiconView *phraseLexicon; // @synthesize phraseLexicon=_phraseLexiconView;
-@property(retain, nonatomic) _ICTransientLexicon *phraseLexiconImpl; // @synthesize phraseLexiconImpl=_phraseLexiconImpl;
-@property(readonly, nonatomic) unsigned long long recentEntitiesAdded; // @synthesize recentEntitiesAdded=_recentEntitiesAdded;
-@property(nonatomic) _Bool treatHyphenatedWordAsPhrase; // @synthesize treatHyphenatedWordAsPhrase=_treatHyphenatedWordAsPhrase;
-@property(readonly, nonatomic) _ICLexiconView *wordLexicon; // @synthesize wordLexicon=_wordLexiconView;
 @property(retain, nonatomic) _ICTransientLexicon *wordLexiconImpl; // @synthesize wordLexiconImpl=_wordLexiconImpl;
 
 @end

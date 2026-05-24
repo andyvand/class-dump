@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, RFAspectRatio, RFColor, RFSymbolImage;
+@class NSString;
 
 @interface RFUrlImage
 {
@@ -15,21 +15,11 @@
         unsigned int image_rendering_mode:1;
         unsigned int corner_rounding_mode:1;
     } _has;
-    int _image_style;
-    int _sizing_mode;
-    int _image_rendering_mode;
-    int _corner_rounding_mode;
-    NSString *_url;
-    NSString *_dark_mode_url;
-    RFSymbolImage *_symbol_placeholder_image;
-    RFAspectRatio *_aspect_ratio;
-    RFColor *_background_color;
-    NSNumber *_inset_padding;
 }
 
 + (_Bool);
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -51,37 +41,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)newCommandEventWithPreservesShuffleMode:(id)arg1;
 - (unsigned long long);
+- (void)isVoiceTriggerAvailable;
+- (_Bool)p;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)unnamedFaceCount;
+- (id)ifier.conformsToRawImage;
 - (id);
 - (id);
 - (id);
 - (void)temRichSearchResultCardSection;
 
 // Remaining properties
-@property(retain, nonatomic) RFAspectRatio *aspect_ratio; // @synthesize aspect_ratio=_aspect_ratio;
-@property(retain, nonatomic) RFColor *background_color; // @synthesize background_color=_background_color;
-@property(nonatomic) int corner_rounding_mode; // @synthesize corner_rounding_mode=_corner_rounding_mode;
-@property(copy, nonatomic) NSString *dark_mode_url; // @synthesize dark_mode_url=_dark_mode_url;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_rendering_mode; // @synthesize image_rendering_mode=_image_rendering_mode;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(copy, nonatomic) NSNumber *inset_padding; // @synthesize inset_padding=_inset_padding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int sizing_mode; // @synthesize sizing_mode=_sizing_mode;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RFSymbolImage *symbol_placeholder_image; // @synthesize symbol_placeholder_image=_symbol_placeholder_image;
 @property(copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end

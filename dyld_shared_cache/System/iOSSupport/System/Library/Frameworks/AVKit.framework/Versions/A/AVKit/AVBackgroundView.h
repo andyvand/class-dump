@@ -9,34 +9,28 @@
 @interface AVBackgroundView
 {
     _Bool _automaticallyDrawsRoundedCorners;
-    _Bool _prefersLowQualityEffects;
-    _Bool _circular;
-    AVLayoutView *_layoutView;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (_Bool)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)";
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)Arial, sans-serif;
 - (id);
 - (void);
 - (void)alPlaybackIndicatorView";
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyDrawsRoundedCorners; // @synthesize automaticallyDrawsRoundedCorners=_automaticallyDrawsRoundedCorners;
-@property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;
 @property(retain, nonatomic) AVLayoutView *layoutView; // @synthesize layoutView=_layoutView;
-@property(nonatomic) _Bool prefersLowQualityEffects; // @synthesize prefersLowQualityEffects=_prefersLowQualityEffects;
 
 @end
 

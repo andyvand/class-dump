@@ -4,21 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, MLModelDescription, MLModelExecutionSchedule, MLModelMetadata;
+@class MLModelDescription, MLModelExecutionSchedule, MLModelMetadata;
+@protocol MLBatchProvider, MLFeatureProvider, MLPredictionRequest;
 
 @protocol MLModeling
+- (void)can only be set the first constant in a constant block;
+- (id <MLPredictionRequest>)d---
+ 
+%@;
+- (id <MLFeatureProvider>),;
+- (id <MLBatchProvider>);
+- (MLModelMetadata *);
+- (id);
 - (MLModelExecutionSchedule *)0@ù
 × ;
 - (unsigned long long)Ô;
 - (void)#¸ßC¸¿áÕ| è¯»ÌN0@sòÉP¿¤¼;õn$2I+ÊCt¯Òö}ï´1aÊ!\éæbúv°ÇUÚ\ªf"Eåq1Ú£ùÙOýmíÀNPfÑ«Ó[òl?6ÁþâS­}¨À^o,÷Ff×Êe¡;lúZéQÙ<êeÄÉ¢(§VYúukáÐ´VÂXð]ìÍ~+f MÓ§nK;ñïÒ(u¬8jµÿT.3Ã¸C;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly) MLModelMetadata *metadata;
 @property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 @end
 

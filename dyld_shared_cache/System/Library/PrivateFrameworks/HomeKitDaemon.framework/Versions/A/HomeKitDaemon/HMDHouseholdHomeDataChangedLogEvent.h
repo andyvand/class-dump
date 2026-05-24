@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdHomeDataChangedLogEvent
 {
     long long _changeType;
-    NSString *_modelName;
-    NSString *_propertyName;
-    unsigned long long _count;
 }
 
+- (id)SourceType"b1"artworkUseType"b1"hasRoutingIncidentBadge"b1};
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -32,36 +27,11 @@ __attribute__((visibility("hidden")))
 - (id)int settings siri enable is not available;
 - (void)%{public}@PRFT box size invalid, minimum 24 required;
 - (unsigned long long)Not executing dark poll request, accessory does not support dark poll;
-- (id);
-- (void)file;
+- (id)supportsKeychainSync;
+- (void)FirmwareUpdateProfile;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(readonly) Class superclass;
 
 @end
 

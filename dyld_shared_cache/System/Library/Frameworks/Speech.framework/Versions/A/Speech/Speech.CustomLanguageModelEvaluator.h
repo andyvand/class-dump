@@ -7,10 +7,6 @@
 @interface Speech.CustomLanguageModelEvaluator
 {
     id languageModel;
-    id locale;
-    id queue;
-    id skipDownload;
-    id clientIdentifier;
 }
 
 @end

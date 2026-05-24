@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString;
+@class NSString;
 
 @interface CNDuplicateCohort
 {
 }
 
-- (id);
+- (id)kSmsCellBroadcastSelfTestRequest;
 - (void);
-- (void)dGroupEvents;
+- (void)sendDeletedGroupEvents;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *cropRectString; // @dynamic cropRectString;
-@property(nonatomic, retain) NSSet *duplicates; // @dynamic duplicates;
 @property(nonatomic, copy) NSString *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSData *imageData; // @dynamic imageData;
-@property(nonatomic, copy) NSData *posterData; // @dynamic posterData;
 
 @end
 

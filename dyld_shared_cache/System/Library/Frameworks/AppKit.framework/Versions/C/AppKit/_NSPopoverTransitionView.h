@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSPopoverTransitionView : NSView
 {
     CALayer *_oldContentLayer;
-    CALayer *_newContentLayer;
-    struct CGSize _newContentSize;
-    double _delta;
 }
 
 - (void);

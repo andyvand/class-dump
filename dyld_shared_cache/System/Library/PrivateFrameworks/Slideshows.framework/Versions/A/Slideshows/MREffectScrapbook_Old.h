@@ -6,38 +6,31 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, NSMutableDictionary;
+@class MRImageProvider;
 
 @interface MREffectScrapbook_Old : MREffect
 {
     MRImageProvider *mImageProviders[7];
-    NSMutableDictionary *mSprites;
-    unsigned long long mNumberOfVertices;
-    float *mMeshVertices;
-    float *mMeshTextureVertices;
-    float mLocalTranslationX;
-    float mLocalTranslationY;
-    float mZoomScale;
-    double mPhaseTime;
 }
 
 + (void);
 + (void);
 + (void)P;
+- (void),N,V_uploadScheduler;
+- (void)Uploader;
+- (void)tore;
+- (void)handleLaunchEventForBackgroundSessionWithIdentifier:(double)arg1 completion:(_Bool)arg2;
+- (void)DateRange",C,N,V_deliveryWindow;
+- (void)currentCalendar;
+- (void)te>",W,N,V_delegate;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)<FCNewsAppConfiguration>",R,N;
+- (void)sionLaunchEventCounter;
+- (void)NAUAnalyticsEnvelopeTracker;
+- (_Bool);
+- (id)ope"8;
+- (_Bool)	
+;
 - (id);
 - (_Bool);
 - (void);

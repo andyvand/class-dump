@@ -9,22 +9,6 @@
 @interface AppStoreKit.SearchResultsPage : AppStoreKit.BasePage
 {
     id shelfOrdering;
-    id shelfMapping;
-    id isIncomplete;
-    id unavailableReason;
-    id message;
-    id facets;
-    id selectedFacetOptions;
-    id nextPage;
-    id isAutoPlayEnabled;
-    id isCondensedSearchLockupsEnabled;
-    id transparencyLink;
-    id guidedSearchTokens;
-    id guidedSearchQueries;
-    id resultsParentImpressionMetrics;
-    id guidedSearchTokensParentImpressionMetrics;
-    id searchCancelAction;
-    id searchClearAction;
 }
 
 @end

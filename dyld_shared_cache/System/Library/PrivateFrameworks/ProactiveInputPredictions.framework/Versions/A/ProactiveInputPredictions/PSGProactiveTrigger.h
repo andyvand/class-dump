@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface PSGProactiveTrigger
 {
     unsigned long long _triggerSourceType;
-    NSString *_triggerCategory;
-    NSDictionary *_triggerAttributes;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setOtherContentsItems: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *triggerAttributes; // @synthesize triggerAttributes=_triggerAttributes;
-@property(readonly, nonatomic) NSString *triggerCategory; // @synthesize triggerCategory=_triggerCategory;
 @property(readonly, nonatomic) unsigned long long triggerSourceType; // @synthesize triggerSourceType=_triggerSourceType;
 
 @end

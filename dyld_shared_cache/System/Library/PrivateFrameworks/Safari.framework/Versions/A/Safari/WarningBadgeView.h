@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface WarningBadgeView
 {
     NSArray *_activeConstraints;
-    NSView *_anchorView;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

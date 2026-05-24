@@ -5,5 +5,8 @@
 //
 
 @protocol MPServerObjectDatabaseObserver
+
+@optional
+- (void);
 @end
 

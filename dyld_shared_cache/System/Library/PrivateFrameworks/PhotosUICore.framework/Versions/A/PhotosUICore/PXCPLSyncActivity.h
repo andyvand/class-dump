@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSProgress;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXCPLSyncActivity
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _syncProgressState;
-    id _syncProgressSubscriber;
-    NSProgress *_syncProgress;
-    _Bool _isSyncing;
 }
 
 + (id): /* Error: Ran out of types for this method. */;

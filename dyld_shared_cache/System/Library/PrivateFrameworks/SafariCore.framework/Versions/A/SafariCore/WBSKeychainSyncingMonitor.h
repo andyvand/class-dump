@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSObject, NSString, OTClique;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSKeychainSyncingMonitor
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_keychainStatusFetchingQueue;
-    NSObject<OS_dispatch_queue> *_synchronousGetterQueue;
-    OTClique *_keychainClique;
-    unsigned long long _cachedKeychainSyncSettingValue;
-    ACAccount *_primaryAppleAccount;
-    NSString *_primaryAppleAccountAltDSID;
 }
 
-+ (id);
++ (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)n;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canKeychainSyncBeEnabled;
-@property(readonly, nonatomic) _Bool isKeychainSyncEnabled;
 @property(readonly, nonatomic) unsigned long long keychainSyncSettingValue;
 
 @end

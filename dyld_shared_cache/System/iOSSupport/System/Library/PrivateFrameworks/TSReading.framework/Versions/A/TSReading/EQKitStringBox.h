@@ -11,13 +11,6 @@
 @interface EQKitStringBox : EQKitBox
 {
     NSAttributedString *mAttributedString;
-    struct __CTLine *mLine;
-    double mHeight;
-    double mDepth;
-    double mWidth;
-    struct CGRect mErasableBounds;
-    _Bool mDimensionsValid;
-    struct CGColor *mCGColor;
 }
 
 - (void);
@@ -32,19 +25,14 @@
 - (id);
 - (double);
 - (double);
-- (struct CGColor *);
+- (struct CGColor *)es not implement %{public}@, discarding incoming content;
 - (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (double)¥;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=mAttributedString;
-@property(readonly, nonatomic) struct CGColor *color; // @synthesize color=mCGColor;
-@property(readonly, nonatomic) double depth;
 @property(readonly, nonatomic) double height;
-@property(readonly, nonatomic) struct __CTLine *line;
-@property(readonly, nonatomic) double width;
 
 @end
 

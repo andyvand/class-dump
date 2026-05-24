@@ -5,5 +5,6 @@
 //
 
 @protocol CKAccountObserver
+- (void);
 @end
 

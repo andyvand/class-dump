@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFNaturalLightingActionDatabaseID, NSNumber, NSSet, NSUUID;
-@protocol MKFHAPAccessory, MKFHome;
+@class MKFNaturalLightingActionDatabaseID, NSUUID;
+@protocol MKFHome;
 
 @protocol MKFNaturalLightingAction
+- (MKFNaturalLightingActionDatabaseID *)RP;
 - (id <MKFHome>)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFHAPAccessory> accessory;
-@property(readonly, copy, nonatomic) MKFNaturalLightingActionDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSUUID *lightProfileUUID;
-@property(copy, nonatomic) NSNumber *naturalLightingEnabledField;
-@property(retain, nonatomic) NSSet *serviceUUIDs;
 @end
 

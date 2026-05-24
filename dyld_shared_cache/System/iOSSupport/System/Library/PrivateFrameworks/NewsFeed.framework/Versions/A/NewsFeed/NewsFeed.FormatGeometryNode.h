@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatGeometryNode
 {
     id _identifier;
-    id scope;
-    id _references;
-    id _children;
-    id flex;
 }
 
 @end

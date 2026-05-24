@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentSlotValue;
+@class NSString;
 
 @protocol _INPBPayloadSuccess
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasResolvedKeyPath;
-@property(readonly, nonatomic) _Bool hasResolvedValue;
 @property(copy, nonatomic) NSString *resolvedKeyPath;
-@property(retain, nonatomic) _INPBIntentSlotValue *resolvedValue;
 @end
 

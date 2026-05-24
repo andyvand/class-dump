@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUCall;
+@protocol CNKScreenSharingStateObserving;
 
 @protocol CNKScreenSharingStateMonitorProtocol
+- (_Bool)Rr;
+- (struct CGSize);
+- (void)HZQr;
+- (void)initWithSurface:(id <CNKScreenSharingStateObserving>)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) TUCall *call;
-@property(readonly, nonatomic) struct CGSize currentlySharingParticipantContentsSize;
 @property(nonatomic) _Bool isBroadcastingScreenSharing;
 @end
 

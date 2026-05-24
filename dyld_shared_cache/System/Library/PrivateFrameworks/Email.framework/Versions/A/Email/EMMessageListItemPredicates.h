@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EMMessageListItemPredicates
 {
 }
@@ -16,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)klotenkussers;
++ (_Bool)kutneuker;
++ (id)kecut;
++ (id)ikit.DeviceState.isDisplayDriven;
++ (_Bool)D1IC/Sources/DialogEngine/protobuf/src/google/protobuf/map_field.h;
++ (id)nationListE;
++ (id)ar_traitsIcEENS_9allocatorIcEEEEdSE_EUldE0_FddEEE;
 + (id);
 + (id);
 + (_Bool);
@@ -38,40 +36,13 @@
 + (id);
 + (id);
 + (long long);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 + (id);
@@ -80,29 +51,56 @@
 + (_Bool);
 + (id);
 + (id);
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (id);
++ (id)"NSValue",&,V_coalStruct;
++ (id)NUB_SRAM_RUNMAX;
++ (id)-SGX_CLKOFF;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)DASRPingNewDataWaitingToBeSynced;
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (id);
++ (_Bool)deleteUserActivitiesWithPersistentIdentifiers:(id)arg1 bundleID:(id *)arg2 retainedData: /* Error: Ran out of types for this method. */;
++ (id);
++ (CDUnknownBlockType)O;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (CDUnknownBlockType);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)halfPrecision;
 + (id);
 + (id);
 + (id);
@@ -118,13 +116,7 @@
 + (id)topLine;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

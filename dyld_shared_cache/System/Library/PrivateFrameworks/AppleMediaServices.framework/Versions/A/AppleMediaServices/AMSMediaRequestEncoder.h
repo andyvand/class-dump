@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSMetricsLoadURLOverlay, AMSProcessInfo, AMSURLRequestEncoder, NSString;
-@protocol AMSBagProtocol, AMSMediaTokenServiceProtocol, AMSResponseDecoding;
+@class AMSURLRequestEncoder;
 
 @interface AMSMediaRequestEncoder
 {
     AMSURLRequestEncoder *_requestEncoder;
-    id <AMSMediaTokenServiceProtocol> _tokenService;
 }
 
 + (id)§Xàî·CöK ÷ê'Nr_­9Èõ¤ì¥"kU¯uaâ"T,+¡×g»	Àq5Sµiø[¨ëmGÉv ·AqO>¤hihö-¹ÙÉCC2´Ü-ãL[CToóÝ­¥¼E÷ NÒ­F!hÎjxÛ¶Kqk&§bÊ*D®£úiYq'²]<ÊÇ$,%Ä=£°¨fîTN^­6ÔN¦ìCá$°89	Úª+ÏÙQz®×ÁõFewQøI×è÷®·"±` Îe%B)$$«6l©\3u¡Dwú!ÆÒYhÚtb¾t¡fBÁnBoK»§f/ØpôíÉ\@ )ù¹EÓxv¢È?RrõªN­Geº7OåµW©âÞº*¥ª(Ã-ìQ#7ÅÎÇÏJû¢Wä¹Îÿ¤aJn8U\¢»JÞÞ¨ã.z¿*9÷Ü¥<à¬¿uõ®áBéf7°;
@@ -19,7 +17,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 + (id)8;
 - (void);
 - (void);
-- (id);
+- (id)d were newly downloaded, and %ld were already present on disk. All requested guids:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -27,8 +25,8 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void)batches;
+- (id);
+- (void)_batches;
 - (void);
 - (id)å[zÉÒ×»&Â-7)pÔþXÃ¾IwnÿO÷£Á/Wæ¨#ðÞ`~KâÝ+,î³¸0"Pt}±$ãQµU;
 - (void)ïXºgãý½I(À½F;òP%FëbT á ÙR¤ç`¦ ºôÔ\Ç;
@@ -57,7 +55,7 @@ sDî$)z¬( o\¡¨ÛßtËàÉÊlbÆæ-»ùaÞ*«O Ñ0#^
 7¶¹
 K¢W)r;
 - (_Bool)ê ÇM.·(t;
-- (void);
+- (void)ConsumerIDRotationRequest;
 - (void)ÉølMü¤;
 - (_Bool)UImMøÜ;
 - (id)\ìùÿ±È;
@@ -66,27 +64,6 @@ sDî$)z¬( o\¡¨ÛßtËàÉÊlbÆæ-»ùaÞ*«O Ñ0#^
 
 // Remaining properties
 @property _Bool URLKnownToBeTrusted;
-@property(retain) ACAccount *account;
-@property _Bool alwaysIncludeAuthKitHeaders;
-@property _Bool alwaysIncludeMMeClientInfoAndDeviceHeaders;
-@property(readonly) id <AMSBagProtocol> bag;
-@property(retain) AMSProcessInfo *clientInfo;
-@property _Bool compressRequestBody;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableResponseDecoding;
-@property _Bool excludeIdentifierHeadersForAccount;
-@property(retain) NSString *gsTokenIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSMetricsLoadURLOverlay *loadURLOverlay;
-@property(retain) NSString *logKey;
-@property long long requestEncoding;
-@property(retain) id <AMSResponseDecoding> responseDecoder;
-@property(readonly) Class superclass;
-@property(readonly) id <AMSMediaTokenServiceProtocol> tokenService; // @synthesize tokenService=_tokenService;
 
 @end
 

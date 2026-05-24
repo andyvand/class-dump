@@ -8,17 +8,13 @@
 {
     id viewModel;
     id cancellables;
-    id animateUpdatesPassthrough;
-    id $__lazy_storage_$_backdropLayer;
-    id $__lazy_storage_$_localAudioView;
-    id $__lazy_storage_$_remoteAudioView;
 }
 
 - (struct CGSize);
-- (id);
+- (id)E;
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

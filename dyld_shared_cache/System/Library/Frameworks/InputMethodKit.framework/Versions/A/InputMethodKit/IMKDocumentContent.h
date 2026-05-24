@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMKDocumentContent
 {
     long long _baseElement;
-    unsigned long long _direction;
-    unsigned long long _offset;
-    NSString *_text;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)T_;
++ (id);
 - (long long);
 - (id);
-- (id);
+- (id)_translatorIdentifier;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long)out: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setResetCandidatesOnRelayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long baseElement; // @synthesize baseElement=_baseElement;
-@property(readonly, nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

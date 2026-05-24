@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)characterSetWithCharactersInString:(const char *)arg1;
 - (id);
 - (id);
 - (void)1T1;

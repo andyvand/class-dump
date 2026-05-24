@@ -5,5 +5,10 @@
 //
 
 @protocol LFLogindListenerInterface
+- (void)>;
+- (void)=;
+- (void);
+- (void);
+- (void)T;
 @end
 

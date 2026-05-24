@@ -6,16 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMAssetBaseDescriptor, CEMAssetBaseReference, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMBookEnterpriseDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    CEMAssetBaseReference *_payloadReference;
-    NSString *_payloadKind;
-    NSString *_payloadVersion;
-    NSString *_payloadAuthor;
-    NSString *_payloadTitle;
 }
 
 + (id);
@@ -32,28 +27,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadAuthor; // @synthesize payloadAuthor=_payloadAuthor;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(copy, nonatomic) NSString *payloadKind; // @synthesize payloadKind=_payloadKind;
-@property(copy, nonatomic) CEMAssetBaseReference *payloadReference; // @synthesize payloadReference=_payloadReference;
-@property(copy, nonatomic) NSString *payloadTitle; // @synthesize payloadTitle=_payloadTitle;
-@property(copy, nonatomic) NSString *payloadVersion; // @synthesize payloadVersion=_payloadVersion;
-@property(readonly) Class superclass;
 
 @end
 

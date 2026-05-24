@@ -9,8 +9,6 @@
 @interface AppStoreKit.UnhideAppAction : AppStoreKit.Action
 {
     id appAdamId;
-    id offerAction;
-    id isHidden;
 }
 
 @end

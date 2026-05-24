@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSSet;
+@class NSArray, NSDictionary, NSSet;
 
 @protocol TBFetchResponse
+- (NSArray *);
 - (NSSet *)for %.2f seconds;
 
-// Remaining properties
-@property(readonly, copy, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSArray *results;
-@property(readonly, nonatomic) NSDictionary *resultsByBSSID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
+@optional
+- (NSDictionary *);
 
-@property(readonly, nonatomic) NSSet *tiles;
+// Remaining properties
+@property(readonly, nonatomic) NSArray *results;
 @end
 

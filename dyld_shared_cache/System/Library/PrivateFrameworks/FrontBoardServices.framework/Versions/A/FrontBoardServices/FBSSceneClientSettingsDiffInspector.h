@@ -12,12 +12,12 @@
 
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)J(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)#;
 
 @end
 

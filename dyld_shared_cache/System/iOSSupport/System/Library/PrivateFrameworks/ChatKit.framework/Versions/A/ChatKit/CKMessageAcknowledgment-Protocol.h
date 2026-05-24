@@ -7,12 +7,12 @@
 @class NSString, UIColor;
 
 @protocol CKMessageAcknowledgment
+- (UIColor *)primaryICloudACAccount;
+- (UIColor *)previouslyHadMarkedText;
+- (long long)column;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *acknowledgmentImageColor;
-@property(readonly, nonatomic) NSString *acknowledgmentImageName;
 @property(readonly, nonatomic) long long messageAcknowledgmentType;
-@property(readonly, nonatomic) UIColor *selectedAcknowledgmentImageColor;
-@property(readonly, nonatomic) UIColor *selectedBalloonColor;
 @end
 

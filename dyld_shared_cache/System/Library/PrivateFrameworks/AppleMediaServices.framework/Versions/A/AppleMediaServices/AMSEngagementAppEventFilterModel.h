@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool):(id)arg1 messageSummaryInfo:(id)arg2 threadIdentifier:(id)arg3;
++ (id)_isApprovedForRelayWithAllAccounts:(id)arg1 account:(id)arg2;
 + (id);
 + (_Bool);
 + (id);
@@ -27,15 +27,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)$;
+- (_Bool)possible conversation push.;
 - (unsigned long long);
 - (id)l¸;
 - (void)ZÕûBÑ&@£ÍvZ+CP×­­éWs§ K8p:í>hqÀÀÉïÑdÊå¢'HÈñ­m~A²-`jó.4r¯ã7@Ì¯öÀí'éh5ÝC÷B0tºw²À.gÑkÂó#øG~£Õc<ÄÌpÈD¦ÖÍ¯¿ì¶cÏÄ\Êuç¨B+ôzº­ÌoF­læáL< /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool allowsResponse;
-@property(readonly) unsigned long long components;
 @property(readonly) NSDictionary *definition; // @synthesize definition=_definition;
 
 @end

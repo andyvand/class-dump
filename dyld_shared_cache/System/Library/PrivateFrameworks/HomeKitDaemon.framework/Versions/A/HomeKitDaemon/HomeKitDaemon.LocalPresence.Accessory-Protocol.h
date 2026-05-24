@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol HomeKitDaemon.LocalPresence.Room;
+@class NSUUID;
 
 @protocol HomeKitDaemon.LocalPresence.Accessory
 - (NSUUID *);
 
 // Remaining properties
-@property(nonatomic, readonly) id <HomeKitDaemon.LocalPresence.Room> lpRoom;
-@property(nonatomic, readonly) NSString *shortDescription;
 @property(nonatomic, readonly) NSUUID *uuid;
 @end
 

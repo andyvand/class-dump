@@ -9,16 +9,12 @@
 @interface UIWKDocumentRequest
 {
     id <NSCopying> _inputElementIdentifier;
-    long long _flags;
-    long long _surroundingGranularity;
-    long long _granularityCount;
-    struct CGRect _documentRect;
 }
 
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)saveAttachmentsCKOperationUsingRecordsToSave:operationGroupName:activity: /* Error: Ran out of types for this method. */;
+- (void)onCallerID:(long long)arg1 messageTime:messageID:silently: /* Error: Ran out of types for this method. */;
+- (void)chatsDeletedWithGUIDs:(id)arg1;
+- (void)availabilityVerificationRecipientEncryptionValidationToken;
 - (void);
 - (id);
 - (long long);
@@ -28,11 +24,7 @@
 - (void)so it cannot be used to start a drag;
 
 // Remaining properties
-@property(nonatomic) struct CGRect documentRect; // @synthesize documentRect=_documentRect;
 @property(nonatomic) long long flags; // @synthesize flags=_flags;
-@property(nonatomic) long long granularityCount; // @synthesize granularityCount=_granularityCount;
-@property(retain, nonatomic) id <NSCopying> inputElementIdentifier; // @synthesize inputElementIdentifier=_inputElementIdentifier;
-@property(nonatomic) long long surroundingGranularity; // @synthesize surroundingGranularity=_surroundingGranularity;
 
 @end
 

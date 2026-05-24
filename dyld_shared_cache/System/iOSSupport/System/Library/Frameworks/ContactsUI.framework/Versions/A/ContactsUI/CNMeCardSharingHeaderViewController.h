@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMeCardSharingAvatarViewController, CNMeCardSharingPickerLayoutAttributes, NSString, UILabel;
+@class CNMeCardSharingAvatarViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingHeaderViewController
 {
     CNMeCardSharingAvatarViewController *_avatarViewController;
-    NSString *_name;
-    unsigned long long _mode;
-    CNMeCardSharingPickerLayoutAttributes *_layoutAttributes;
-    UILabel *_nameLabel;
 }
 
-- (id);
-- (void);
+- (id);
+- (void);
 - (double);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)X&;
 - (void);
 - (id);
-- (void);
+- (void)(=;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)leForActivityViewController: /* Error: Ran out of types for this method. */;
+- (void)_customizationAvailableForActivityViewController: /* Error: Ran out of types for this method. */;
 - (void)°féÿ$0ù;
 
 // Remaining properties
 @property(retain, nonatomic) CNMeCardSharingAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) CNMeCardSharingPickerLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 
 @end
 

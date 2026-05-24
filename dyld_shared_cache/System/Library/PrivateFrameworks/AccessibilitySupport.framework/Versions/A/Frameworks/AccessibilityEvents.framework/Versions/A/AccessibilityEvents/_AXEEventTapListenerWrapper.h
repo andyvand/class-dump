@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _AXEEventTapListenerWrapper
 {
     id <AXEEventTapListener> _listener;
-    unsigned long long _eventMask;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)9s;
+- (void)B;
+- (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property unsigned long long eventMask; // @synthesize eventMask=_eventMask;
 @property(nonatomic) __weak id <AXEEventTapListener> listener; // @synthesize listener=_listener;
 
 @end

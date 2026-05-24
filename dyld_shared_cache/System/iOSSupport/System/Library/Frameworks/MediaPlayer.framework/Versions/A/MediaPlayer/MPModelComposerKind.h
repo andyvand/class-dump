@@ -16,10 +16,10 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)oncommitDeleteRows;
+- (id)sPreauthorizedTransferDictionarySaveToPathKey;
+- (unsigned long long)letterCharacterSet;
+- (id)recognizeHallucinatorModel:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)le;

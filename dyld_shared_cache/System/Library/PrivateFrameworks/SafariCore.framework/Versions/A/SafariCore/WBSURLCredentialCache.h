@@ -10,8 +10,6 @@
 @interface WBSURLCredentialCache
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSDictionary *_credentialCache;
-    CDUnknownBlockType _credentialFetchBlock;
 }
 
 - (id);

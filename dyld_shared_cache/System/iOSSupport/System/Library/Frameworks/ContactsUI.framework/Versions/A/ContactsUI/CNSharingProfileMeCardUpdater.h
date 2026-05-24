@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, CNMutableContact, CNSharingProfileLogger;
+@class CNContactStore;
 @protocol CNSharingProfileMeCardUpdaterDelegate;
 
 @interface CNSharingProfileMeCardUpdater
 {
     id <CNSharingProfileMeCardUpdaterDelegate> _delegate;
-    CNMutableContact *_meContact;
-    CNContactStore *_contactStore;
-    CNContact *_imageContact;
-    CNSharingProfileLogger *_logger;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ifier: /* Error: Ran out of types for this method. */;
+- (void)accountForContainerIdentifier: /* Error: Ran out of types for this method. */;
 - (void)âÿÿ;
 - (id);
 - (id)/Library/PrivateFrameworks/ContactsAssistantServices.framework/ContactsAssistantServices;
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(nonatomic) __weak id <CNSharingProfileMeCardUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) CNContact *imageContact; // @synthesize imageContact=_imageContact;
-@property(retain, nonatomic) CNSharingProfileLogger *logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) CNMutableContact *meContact; // @synthesize meContact=_meContact;
 
 @end
 

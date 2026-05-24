@@ -9,15 +9,9 @@
 @interface GEOSpokenGuidanceFeedback
 {
     GEOTrafficCameraInformation *_trafficCameraGuidanceFeedback;
-    int _spokenGuidanceIndex;
-    _Bool _shortPrompt;
-    struct {
-        unsigned int has_spokenGuidanceIndex:1;
-        unsigned int has_shortPrompt:1;
-    } _flags;
 }
 
-+ (_Bool)dplateGeneratorValidatorVersion:(id)arg1;
++ (_Bool)setMaskedplateGeneratorValidatorVersion:(id)arg1;
 - (id);
 - (int);
 - (_Bool);
@@ -25,32 +19,27 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nts_firstPersistentStoreForUrls:inCoordinator: /* Error: Ran out of types for this method. */;
+- (_Bool)initialize;
+- (_Bool)initWithObjectID:propertyName:recordType:valueType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)h;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)addNumSamples:(id)arg1 hostTime: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (void);
 - (id)eatableSection";
-- (id)nchActionInternal;
-- (id)GuidanceFeedback;
+- (id)hasLaunchActionInternal;
+- (id)GEOJunctionViewGuidanceFeedback;
 - (id)ct;
 - (void)GµRãP@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasShortPrompt;
 @property(nonatomic) _Bool hasSpokenGuidanceIndex;
-@property(readonly, nonatomic) _Bool hasTrafficCameraGuidanceFeedback;
-@property(nonatomic) _Bool shortPrompt;
-@property(nonatomic) int spokenGuidanceIndex;
-@property(retain, nonatomic) GEOTrafficCameraInformation *trafficCameraGuidanceFeedback;
 
 @end
 

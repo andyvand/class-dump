@@ -9,8 +9,6 @@
 @interface NFPendingPromise
 {
     NFPromise *_promise;
-    CDUnknownBlockType _resolve;
-    CDUnknownBlockType _reject;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NFPromise *promise; // @synthesize promise=_promise;
-@property(copy, nonatomic) CDUnknownBlockType reject; // @synthesize reject=_reject;
-@property(copy, nonatomic) CDUnknownBlockType resolve; // @synthesize resolve=_resolve;
 
 @end
 

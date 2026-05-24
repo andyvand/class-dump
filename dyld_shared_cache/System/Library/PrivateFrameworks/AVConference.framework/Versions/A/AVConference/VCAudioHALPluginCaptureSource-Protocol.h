@@ -5,6 +5,7 @@
 //
 
 @protocol VCAudioHALPluginCaptureSource
+- (_Bool)AV;
 - (id)block_invoke;
 @end
 

@@ -13,7 +13,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)canAssignInputPort:(id)arg1 toExpression:error: /* Error: Ran out of types for this method. */;
 
 @end
 

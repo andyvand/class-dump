@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CTXPCServiceSubscriptionContext;
+
 @protocol CoreTelephonyClientCarrierBundleDelegate
+
+@optional
+- (void)copyFromFramebuffer:(CTXPCServiceSubscriptionContext *)arg1 toFramebuffer:clipRect:renderEncoder:paintIndex:alphaBlendFactor: /* Error: Ran out of types for this method. */;
 @end
 

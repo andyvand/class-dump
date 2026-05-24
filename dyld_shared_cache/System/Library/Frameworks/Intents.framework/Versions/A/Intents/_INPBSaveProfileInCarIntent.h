@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBInteger, _INPBIntentMetadata, _INPBString;
+@class _INPBIntentMetadata;
 
 @interface _INPBSaveProfileInCarIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBString *_profileName;
-    _INPBInteger *_profileNumber;
 }
 
 + (_Bool);
@@ -24,7 +21,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -35,19 +32,7 @@
 - (void)show;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasProfileName;
-@property(readonly, nonatomic) _Bool hasProfileNumber;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBString *profileName; // @synthesize profileName=_profileName;
-@property(retain, nonatomic) _INPBInteger *profileNumber; // @synthesize profileNumber=_profileNumber;
-@property(readonly) Class superclass;
 
 @end
 

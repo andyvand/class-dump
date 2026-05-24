@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_asrId;
-    SISchemaUUID *_requestId;
-    _Bool _hasAsrId;
-    _Bool _hasRequestId;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -24,15 +21,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)currentVehicleInformation:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
-- (id)ed: /* Error: Ran out of types for this method. */;
+- (id)setUtteranceDetectionEnabled: /* Error: Ran out of types for this method. */;
 - (id)ÜPÈQ;
 - (id);
 - (void)ìy§ÿø;
@@ -40,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *asrId; // @synthesize asrId=_asrId;
-@property(nonatomic) _Bool hasAsrId; // @synthesize hasAsrId=_hasAsrId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end
 

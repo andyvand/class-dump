@@ -5,18 +5,11 @@
 //
 
 @class PXStoryView;
-@protocol PXStoryExportActivityHelper, PXStoryViewControllerDismissalDelegate, PXStoryViewControllerNavigationItemHelper, PXStoryViewControllerShareActionDelegate, PXStoryViewEnvironmentActionDelegate;
 
 @protocol PXStoryViewController
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PXStoryViewControllerDismissalDelegate> dismissalDelegate;
-@property(readonly, nonatomic) id <PXStoryExportActivityHelper> exportActivityHelper;
-@property(retain, nonatomic) Class gridDecorationViewClass;
-@property(retain, nonatomic) id <PXStoryViewControllerNavigationItemHelper> navigationItemHelper;
-@property(nonatomic) _Bool remainsActiveWhileApplicationIsHidden;
-@property(nonatomic) __weak id <PXStoryViewControllerShareActionDelegate> shareActionDelegate;
 @property(readonly, nonatomic) PXStoryView *storyView;
-@property(nonatomic) __weak id <PXStoryViewEnvironmentActionDelegate> viewEnvironmentActionDelegate;
 @end
 

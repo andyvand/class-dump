@@ -6,47 +6,42 @@
 
 #import <NearField/NFSession.h>
 
-@class NFApplet, NSString;
-@protocol NFDigitalCarKeySessionDelegate, NFDigitalCarKeySessionPassthroughDelegate;
+@protocol NFDigitalCarKeySessionPassthroughDelegate;
 
 @interface NFDigitalCarKeySession : NFSession
 {
     id <NFDigitalCarKeySessionPassthroughDelegate> _passthroughDelegate;
-    id <NFDigitalCarKeySessionDelegate> _delegate;
-    NFApplet *_activeApplet;
-    NSString *_activeKey;
-    NFApplet *_defaultApplet;
 }
 
 + (id);
++ (id)o;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)addressBook;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)|;
 - (void);
 - (id);
-- (id);
 - (void);
-- (_Bool);
+- (void);
+- (void)=},z;
+- (void)ژ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)x;
+- (void)|*x;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)j;
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -57,20 +52,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ftwareUpdateController _handleEvent:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NFApplet *activeApplet; // @synthesize activeApplet=_activeApplet;
-@property(readonly) NSString *activeKey; // @synthesize activeKey=_activeKey;
-@property(readonly) NFApplet *defaultApplet; // @synthesize defaultApplet=_defaultApplet;
-@property __weak id <NFDigitalCarKeySessionDelegate> delegate; // @synthesize delegate=_delegate;
 @property __weak id <NFDigitalCarKeySessionPassthroughDelegate> passthroughDelegate; // @synthesize passthroughDelegate=_passthroughDelegate;
-@property(readonly, nonatomic) _Bool supportsSecureRanging;
 
 @end
 

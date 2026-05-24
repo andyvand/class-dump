@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString;
+@class NSCache;
 
 __attribute__((visibility("hidden")))
 @interface _MPArtworkCatalogPlaceholderDataSource
@@ -18,17 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void)serRemoved;
+- (_Bool)annotationShouldAvoidRedrawDuringLiveResize:(id)arg1;
+- (void)_userRemoved;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,6 +8,7 @@
 @protocol OS_os_log;
 
 @protocol CNImageUtilitiesLogger
+- (NSObject<OS_os_log> *)P;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *log;

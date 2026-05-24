@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRTextSequenceRecognizerModel, NSOrderedSet, NSString;
+@class CRTextSequenceRecognizerModel;
 
 @interface CRCTCCVNLPOrientationDecoder
 {
     vector_85d7f63b _spaceLabels;
-    CRTextSequenceRecognizerModel *_model;
-    NSOrderedSet *_characterObservations;
 }
 
 - (_Bool);
@@ -20,24 +18,15 @@
 - (_Bool);
 - (void);
 - (vector_2d578fff);
+- (id)";
+- (id);
+- (void)0;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)ithError: /* Error: Ran out of types for this method. */;
+- (void)sharedExecutionContextWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *characterObservations; // @synthesize characterObservations=_characterObservations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) CRTextSequenceRecognizerModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) _Bool shouldUseModernizedDecoder;
-@property(readonly) Class superclass;
 
 @end
 

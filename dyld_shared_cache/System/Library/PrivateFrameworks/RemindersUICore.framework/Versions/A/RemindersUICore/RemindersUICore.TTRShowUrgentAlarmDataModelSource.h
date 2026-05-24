@@ -9,12 +9,6 @@
 @interface RemindersUICore.TTRShowUrgentAlarmDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id store;
-    id countCompleted;
-    id fetchSubtasks;
-    id showCompletedContextInstance;
-    id tipKitContextInstance;
-    id dataViewMonitor;
 }
 
 @end

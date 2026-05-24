@@ -14,19 +14,19 @@
 + (_Bool);
 + (void);
 + (void);
++ (void)8;
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
++ (void)0;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)#;
 + (void);
 + (_Bool);
 + (id);
@@ -36,7 +36,7 @@
 + (id);
 + (void);
 + (_Bool);
-+ (void);
++ (void);
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -50,7 +50,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)qc;
 + (id);
 + (void);
 + (id);
@@ -63,7 +63,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)seconds ago, which is greater than timeout of %ld seconds. Sent:(id)arg1 %@ Now:(CDUnknownBlockType)arg2 %@;
 
 @end
 

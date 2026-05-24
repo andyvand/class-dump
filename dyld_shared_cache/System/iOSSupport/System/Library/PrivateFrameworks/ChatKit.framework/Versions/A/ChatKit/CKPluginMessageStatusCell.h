@@ -6,41 +6,35 @@
 
 #import <ChatKit/CKTranscriptMultilineLabelCell.h>
 
-@class IMBalloonPluginDataSource, NSString, UIImageView, UIView;
+@class NSString, UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface CKPluginMessageStatusCell : CKTranscriptMultilineLabelCell
 {
     NSString *_balloonBundleID;
-    IMBalloonPluginDataSource *_dataSource;
-    UIView *_previousPluginSnapshot;
-    UIImageView *_imageView;
 }
 
+- (void)collapseItemIdentifier:(id)arg1 itemType:context: /* Error: Ran out of types for this method. */;
+- (id)oller",N,W,VattachmentInsertionController;
+- (void);
+- (void);
+- (_Bool)GAKtGGA6_G_G;
+- (void);
+- (void)rd for your “%@” locked notes—just use your login password.;
+- (_Bool).;
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
-- (void)t:(id)arg1 fitsInRect: /* Error: Ran out of types for this method. */;
+- (void)attributedText:(id)arg1 fitsInRect: /* Error: Ran out of types for this method. */;
 - (void)¤´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *balloonBundleID; // @synthesize balloonBundleID=_balloonBundleID;
-@property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIView *previousPluginSnapshot; // @synthesize previousPluginSnapshot=_previousPluginSnapshot;
 
 @end
 

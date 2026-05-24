@@ -10,22 +10,20 @@
 {
     unsigned char _flags;
     unsigned long long _chunkSize;
-    struct _NSRange _range;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (struct _NSRange);
-- (void);
+- (void)*;
 - (id);
 - (unsigned char);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long chunkSize; // @synthesize chunkSize=_chunkSize;
 @property(nonatomic) unsigned char flags; // @synthesize flags=_flags;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 

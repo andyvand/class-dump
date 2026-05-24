@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface ADAMServerDelegate
 {
     NSXPCConnection *_connection;
-    NSString *_clientName;
-    NSMutableDictionary *_dataTypeStatus;
-    NSMutableDictionary *_configs;
-    long long _error_code;
-    struct os_unfair_lock_s _lock;
 }
 
 - (_Bool);
@@ -41,13 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

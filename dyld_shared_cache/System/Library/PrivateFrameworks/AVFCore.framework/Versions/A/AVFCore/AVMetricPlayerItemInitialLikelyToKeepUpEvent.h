@@ -11,11 +11,9 @@
 @interface AVMetricPlayerItemInitialLikelyToKeepUpEvent : AVMetricPlayerItemLikelyToKeepUpEvent
 {
     NSArray *_playlistRequestEvents;
-    NSArray *_mediaSegmentRequestEvents;
-    NSArray *_contentKeyRequestEvents;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *contentKeyRequestEvents;
-@property(readonly) NSArray *mediaSegmentRequestEvents;
 @property(readonly) NSArray *playlistRequestEvents;
 
 @end

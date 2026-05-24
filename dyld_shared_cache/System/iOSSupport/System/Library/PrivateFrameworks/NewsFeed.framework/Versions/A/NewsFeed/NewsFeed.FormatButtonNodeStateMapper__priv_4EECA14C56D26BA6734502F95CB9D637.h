@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatButtonNodeStateMapper__priv_4EECA14C56D26BA6734502F95CB9D637
 {
     id rootLayoutAttributes;
-    id stateMaskLayoutAttributes;
 }
 
 @end

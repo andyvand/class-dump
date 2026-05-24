@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseJournal, NSArray, NSMapTable, NSMutableIndexSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface EDPersistenceDatabaseJournalManager
 {
     struct os_unfair_lock_s _journalLock;
-    EDPersistenceDatabaseJournal *_currentJournal;
-    _Bool _shouldDeleteCurrentJournal;
-    NSMutableIndexSet *_journalNumbers;
-    NSMutableIndexSet *_pendingDeleteJournalNumbers;
-    NSMapTable *_journalsByIndexes;
-    NSString *_journalDirectoryPath;
-    NSObject<OS_dispatch_queue> *_checkExistingQueue;
-    NSObject<OS_dispatch_queue> *_deleteQueue;
 }
 
 + (id)³Ð1Â0@ù
@@ -29,28 +20,17 @@
 - (void);
 - (void);
 - (id);
+- (id)trafficRegistration;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)esIndexer;
+- (id);
+- (id)startUploadWithCompletion:(CDUnknownBlockType)arg1;
+- (void)_serverMessagesIndexer;
 - (id)_combinedMailboxes;
 - (void)orObjectID:originatingQuery:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allJournals;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *checkExistingQueue; // @synthesize checkExistingQueue=_checkExistingQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *deleteQueue; // @synthesize deleteQueue=_deleteQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *journalDirectoryPath; // @synthesize journalDirectoryPath=_journalDirectoryPath;
-@property(readonly, nonatomic) EDPersistenceDatabaseJournal *oldestJournal;
-@property(readonly) Class superclass;
 
 @end
 

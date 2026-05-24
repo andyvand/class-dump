@@ -10,20 +10,19 @@
 @interface VOSCommandProfile
 {
     NSMutableSet *_modes;
-    id <VOSCommandProfileDelegate> _delegate;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (void);
 + (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)));
 - (id);
 - (id);
 - (id);
@@ -32,16 +31,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
+- (id):(id)arg1:(id)arg2;
+- (id);
+- (id);
+- (id);
+- (id)@@?;
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)8;
 - (id);
 - (id);
 - (id);
@@ -51,9 +51,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setShouldCallCompletionHandlersForEngineBusyError:(id)arg1;
+- (id)a;
 - (void);
 
 // Remaining properties

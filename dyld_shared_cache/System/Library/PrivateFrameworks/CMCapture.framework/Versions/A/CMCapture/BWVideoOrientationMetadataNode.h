@@ -6,38 +6,22 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWVideoOrientationTimeMachine, NSObject;
-@protocol OS_dispatch_queue;
+@class BWVideoOrientationTimeMachine;
 
 @interface BWVideoOrientationMetadataNode : BWNode
 {
     struct OpaqueCMClock *_clock;
-    struct OpaqueCMClock *_masterClock;
-    int _rotationDegrees;
-    _Bool _videoMirrored;
-    int _sourcePosition;
-    int _sourceDeviceType;
-    struct opaqueCMFormatDescription *_boxedMetadataFormatDescription;
-    unsigned int _localIDOfOrientationMetadata;
-    _Bool _recordVideoOrientationAndMirroringChanges;
-    _Bool _physicalMirroringForMovieRecordingEnabled;
-    _Bool _flipMetadataHorizontally;
-    _Bool _recording;
-    int _exifOrientation;
-    struct OpaqueCMBlockBuffer *_bbufCache[8];
-    BWVideoOrientationTimeMachine *_videoOrientationTimeMachine;
-    NSObject<OS_dispatch_queue> *_emitSamplesDispatchQueue;
 }
 
 + (void)daptiveCorrectionPreviewRegistrationProvider.m;
-- (void);
+- (void)R,V_mapper;
 - (int);
-- (id);
+- (id)h*@9;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)logMLInteractions:(int)arg1 context:mlDefaultExtraction: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (void);

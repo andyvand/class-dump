@@ -7,6 +7,7 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
+- (void);
 - (void)econdScreen;
 @end
 

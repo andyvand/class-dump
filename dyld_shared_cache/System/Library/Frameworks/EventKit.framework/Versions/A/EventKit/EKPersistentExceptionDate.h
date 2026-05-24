@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id),N,V_std_dur_2;
 - (void);
 - (id);
 

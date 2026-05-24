@@ -7,11 +7,11 @@
 @interface UnknownClass (NSValueUIGeometryExtensions)
 + (id);
 + (id);
-+ (id);
++ (id)C;
 + (id);
 - (struct CGSize);
-- (struct CGPoint);
-- (struct CGRect);
+- (struct CGPoint)sendFailedAssertionWithErrorMessage:overrideProcessName: /* Error: Ran out of types for this method. */;
+- (struct CGRect)recomputedCodeItemsForLoadedAccessibilityBundles;
 - (struct CGAffineTransform);
 @end
 

@@ -13,8 +13,8 @@
 + (_Bool)î%Ð1Â0@ù
 × ;
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)shouldPlaceFormElementAtPoint:onOverlayAtPageIndex:forAnnotationController: /* Error: Ran out of types for this method. */;
+- (void)ȳ;
 - (id);
 - (id);
 - (id)stItems;

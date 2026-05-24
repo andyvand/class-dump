@@ -6,13 +6,10 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreFetchArchiveOperation : HMDBackingStoreOperation
 {
     CDUnknownBlockType _fetchResult;
-    NSString *_identifier;
 }
 
 - (id);
@@ -26,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

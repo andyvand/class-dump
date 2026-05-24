@@ -6,90 +6,19 @@
 
 #import <SignpostSupport/SignpostObject.h>
 
-@class NSArray, NSString, NSUUID, SignpostMetrics;
-
 @interface SignpostEvent : SignpostObject
 {
     _Bool __hasTotalSkyLightCompositeCount;
-    _Bool _isAnimationStart;
-    _Bool _isGenerated;
-    int _tv_usec;
-    int _tz_minuteswest;
-    int _tz_dsttime;
-    int _processID;
-    long long _tv_sec;
-    unsigned long long _processUniqueID;
-    unsigned long long _threadID;
-    unsigned long long _eventType;
-    unsigned long long _overridingBeginMachContinuousTime;
-    unsigned long long _overridingEndMachContinuousTime;
-    unsigned long long _overridingEmitMachContinuousTime;
-    NSUUID *_processImageUUID;
-    NSString *_processImagePath;
-    NSString *_processName;
-    NSUUID *_senderImageUUID;
-    NSString *_senderImagePath;
-    NSString *_metadata;
-    NSArray *_metadataSegments;
-    NSArray *_stackFrames;
-    SignpostMetrics *_metrics;
-    unsigned long long __totalSkyLightCompositeCount;
-    unsigned long long __machContinuousTimestamp;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) _Bool _hasTotalSkyLightCompositeCount; // @synthesize _hasTotalSkyLightCompositeCount=__hasTotalSkyLightCompositeCount;
-@property(readonly, nonatomic) NSString *_key;
-@property(nonatomic) unsigned long long _machContinuousTimestamp; // @synthesize _machContinuousTimestamp=__machContinuousTimestamp;
-@property(readonly, nonatomic) _Bool _overridesOwnTime;
-@property(readonly, nonatomic) unsigned long long _resolvedEventType;
-@property(nonatomic) unsigned long long _totalSkyLightCompositeCount; // @synthesize _totalSkyLightCompositeCount=__totalSkyLightCompositeCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAnimationStart; // @synthesize isAnimationStart=_isAnimationStart;
-@property(nonatomic) _Bool isGenerated; // @synthesize isGenerated=_isGenerated;
-@property(readonly, nonatomic) _Bool isGenerator;
-@property(readonly, nonatomic) _Bool isSyntheticIntervalEvent;
-@property(retain, nonatomic) NSString *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSArray *metadataSegments; // @synthesize metadataSegments=_metadataSegments;
-@property(readonly, nonatomic) SignpostMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) _Bool overridesBeginTime;
-@property(readonly, nonatomic) _Bool overridesEmitTime;
-@property(readonly, nonatomic) _Bool overridesEndTime;
-@property(readonly, nonatomic) _Bool overridesTime;
-@property(nonatomic) unsigned long long overridingBeginMachContinuousTime; // @synthesize overridingBeginMachContinuousTime=_overridingBeginMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long overridingBeginNanoseconds;
-@property(nonatomic) unsigned long long overridingEmitMachContinuousTime; // @synthesize overridingEmitMachContinuousTime=_overridingEmitMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long overridingEmitNanoseconds;
-@property(nonatomic) unsigned long long overridingEndMachContinuousTime; // @synthesize overridingEndMachContinuousTime=_overridingEndMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long overridingEndNanoseconds;
-@property(nonatomic) int processID; // @synthesize processID=_processID;
-@property(retain, nonatomic) NSString *processImagePath; // @synthesize processImagePath=_processImagePath;
-@property(retain, nonatomic) NSUUID *processImageUUID; // @synthesize processImageUUID=_processImageUUID;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(nonatomic) unsigned long long processUniqueID; // @synthesize processUniqueID=_processUniqueID;
-@property(retain, nonatomic) NSString *senderImagePath; // @synthesize senderImagePath=_senderImagePath;
-@property(retain, nonatomic) NSUUID *senderImageUUID; // @synthesize senderImageUUID=_senderImageUUID;
-@property(retain, nonatomic) NSArray *stackFrames; // @synthesize stackFrames=_stackFrames;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long threadID; // @synthesize threadID=_threadID;
-@property(readonly, nonatomic) unsigned long long timeRecordedMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long timeRecordedNanoseconds;
-@property(nonatomic) long long tv_sec; // @synthesize tv_sec=_tv_sec;
-@property(nonatomic) int tv_usec; // @synthesize tv_usec=_tv_usec;
-@property(nonatomic) int tz_dsttime; // @synthesize tz_dsttime=_tz_dsttime;
-@property(nonatomic) int tz_minuteswest; // @synthesize tz_minuteswest=_tz_minuteswest;
 
 @end
 

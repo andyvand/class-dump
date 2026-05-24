@@ -11,10 +11,6 @@
 @interface PXEditSessionAction : PXEditBatchAction
 {
     NSString *_undoMenuItemTitle;
-    NSString *_redoMenuItemTitle;
-    id _sourcePreset;
-    id _targetPreset;
-    NSString *_localizedActionName;
 }
 
 - (id);
@@ -30,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedActionName; // @synthesize localizedActionName=_localizedActionName;
 @property(readonly, nonatomic) id sourcePreset; // @synthesize sourcePreset=_sourcePreset;
-@property(readonly, nonatomic) id targetPreset; // @synthesize targetPreset=_targetPreset;
 
 @end
 

@@ -5,18 +5,14 @@
 //
 
 @class NSXPCConnection;
-@protocol AUPBServing;
 
 __attribute__((visibility("hidden")))
 @interface RemoteAUPBServer
 {
     NSXPCConnection *xpcConnection;
-    id <AUPBServing> proxyInterface;
-    struct OpaqueAUPBServer *ref;
-    struct vector<NSObject<OS_dispatch_semaphore>*, std::allocator<NSObject<OS_dispatch_semaphore>*>> replySemas;
 }
 
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (id);
@@ -25,14 +21,12 @@ __attribute__((visibility("hidden")))
 - (struct OpaqueAUPBServer *);
 - (void);
 - (id);
-- (id);
+- (id)(Kh;
 - (id);
 - (void);
 - (void)}	;
 
 // Remaining properties
-@property(retain, nonatomic) id <AUPBServing> proxyInterface; // @synthesize proxyInterface;
-@property(nonatomic) struct OpaqueAUPBServer *ref; // @synthesize ref;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection;
 
 @end

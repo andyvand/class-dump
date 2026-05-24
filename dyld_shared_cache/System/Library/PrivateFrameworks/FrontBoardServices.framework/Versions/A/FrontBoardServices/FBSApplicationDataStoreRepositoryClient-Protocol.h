@@ -5,5 +5,10 @@
 //
 
 @protocol FBSApplicationDataStoreRepositoryClient
+- (void)G;
+- (void)_serverUDPSocketStartRequest:(void (^)(NSError *))arg1 options:responseHandler:] /* Error: Ran out of types for this method. */;
+- (void)P;
+- (void);
+- (id)B;
 @end
 

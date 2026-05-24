@@ -6,23 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIKeyCommand, UISearchController, UITapGestureRecognizer, UITextInputTraits, _UISearchBarVisualProviderBase;
-@protocol UISearchBarDelegate><UISearchBarDelegate_Private, _UISearchBarSearchContainerLayoutCustomizationDelegate;
+@protocol UISearchBarDelegate><UISearchBarDelegate_Private;
 
 @interface UISearchBar : UIView
 {
     id <UISearchBarDelegate><UISearchBarDelegate_Private> _delegate;
-    UITapGestureRecognizer *_tapToActivateGestureRecognizer;
-    UITextInputTraits *_textInputTraits;
-    _Bool _forceLegacyVisual;
-    UIKeyCommand *_cancelKeyCommand;
-    _Bool __forceCenteredPlaceholderLayout;
-    _Bool __transplanting;
-    UIView *_inputAccessoryView;
-    _UISearchBarVisualProviderBase *_visualProvider;
-    id <_UISearchBarSearchContainerLayoutCustomizationDelegate> _searchFieldContainerLayoutCustomizationDelegate;
-    Class _classForSearchTextField;
-    UISearchController *__searchController;
 }
 
 + (void)¸Ñl|øÑØ|Ñ~0Ñ¨~PÑÐÔÑ@ÑÄ(Ñ$´Ñ¬ðÑ;

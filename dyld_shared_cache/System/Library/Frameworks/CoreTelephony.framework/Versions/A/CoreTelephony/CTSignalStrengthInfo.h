@@ -9,32 +9,26 @@
 @interface CTSignalStrengthInfo
 {
     NSNumber *_bars;
-    NSNumber *_displayBars;
-    NSNumber *_maxDisplayBars;
 }
 
-+ (_Bool);
++ (_Bool)addOutput:) and calling -startReading on that asset reader /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)interfaceWithProtocol:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)_sublayersForPIP;
+- (void)(;
 - (id);
 - (void)!D@ùqª)°1Â0@ù
 × ;
 - (id)tFé;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *bars; // @synthesize bars=_bars;
-@property(readonly, nonatomic) NSString *ct_shortDescription;
 @property(readonly, nonatomic) NSString *ct_shortName;
-@property(retain, nonatomic) NSNumber *displayBars; // @synthesize displayBars=_displayBars;
-@property(retain, nonatomic) NSNumber *maxDisplayBars; // @synthesize maxDisplayBars=_maxDisplayBars;
 
 @end
 

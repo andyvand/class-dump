@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface PKRemoteAssetManifestItem
 {
     NSURL *_localURL;
-    NSURL *_remoteURL;
-    NSURL *_passURL;
-    NSString *_sha1Hex;
-    NSNumber *_size;
-    _Bool _required;
-    NSDictionary *_manifest;
-    NSURL *_encryptedContentsLocalURL;
-    NSString *_ephemeralPublicKey;
-    NSString *_publicKeyHash;
-    NSString *_seid;
-    NSString *_encryptionScheme;
-    long long _encryptionSource;
 }
 
 + (id);
@@ -29,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -58,29 +46,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_invalidDecisionsCounterVIBE;
+- (void)j
+;
 - (id);
-- (void)esultAvailable;
+- (void)searchResultAvailable;
 - (unsigned long long)xÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *encryptedContentsLocalURL; // @synthesize encryptedContentsLocalURL=_encryptedContentsLocalURL;
-@property(copy, nonatomic) NSString *encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(nonatomic) long long encryptionSource; // @synthesize encryptionSource=_encryptionSource;
-@property(copy, nonatomic) NSString *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(readonly, nonatomic) unsigned long long itemType;
 @property(copy, nonatomic) NSURL *localURL; // @synthesize localURL=_localURL;
-@property(copy, nonatomic) NSDictionary *manifest; // @synthesize manifest=_manifest;
-@property(copy, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(copy, nonatomic) NSString *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(readonly, nonatomic) __weak NSString *relativeEncryptedContentsLocalPath;
-@property(readonly, nonatomic) __weak NSString *relativeLocalPath;
-@property(copy, nonatomic) NSURL *remoteURL; // @synthesize remoteURL=_remoteURL;
-@property(nonatomic, getter=isRequired) _Bool required; // @synthesize required=_required;
-@property(copy, nonatomic) NSString *seid; // @synthesize seid=_seid;
-@property(copy, nonatomic) NSString *sha1Hex; // @synthesize sha1Hex=_sha1Hex;
-@property(copy, nonatomic) NSNumber *size; // @synthesize size=_size;
 
 @end
 

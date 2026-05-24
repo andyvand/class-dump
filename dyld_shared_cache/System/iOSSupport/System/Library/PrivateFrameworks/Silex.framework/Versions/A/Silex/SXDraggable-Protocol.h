@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class NSString;
 @protocol NSItemProviderWriting;
 
 @protocol SXDraggable
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dragIdentifier;
 @property(readonly, nonatomic) id <NSItemProviderWriting> dragObject;
-@property(readonly, nonatomic) UIView *dragPreviewView;
 @end
 

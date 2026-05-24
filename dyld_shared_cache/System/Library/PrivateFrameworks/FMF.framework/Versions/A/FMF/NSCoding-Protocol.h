@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (void)initWithRow:(NSCoder *)arg1 ofTableView: /* Error: Ran out of types for this method. */;
 @end
 

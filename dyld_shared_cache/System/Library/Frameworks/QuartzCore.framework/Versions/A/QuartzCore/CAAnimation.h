@@ -7,7 +7,6 @@
 @interface CAAnimation
 {
     void *_attr;
-    unsigned int _flags;
 }
 
 @end

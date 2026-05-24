@@ -9,12 +9,6 @@
 @interface PHAssetReference : PHObjectReference
 {
     _Bool _needsSensitivityProtection;
-    _Bool _hidden;
-    _Bool _trashed;
-    _Bool _recovered;
-    long long _mediaType;
-    unsigned long long _mediaSubtypes;
-    unsigned long long _sourceType;
 }
 
 + (id);
@@ -22,8 +16,8 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)!	;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -31,13 +25,7 @@
 - (unsigned long long)%p>;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) unsigned long long mediaSubtypes; // @synthesize mediaSubtypes=_mediaSubtypes;
-@property(readonly, nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) _Bool needsSensitivityProtection; // @synthesize needsSensitivityProtection=_needsSensitivityProtection;
 @property(readonly, nonatomic, getter=isRecovered) _Bool recovered; // @synthesize recovered=_recovered;
-@property(readonly, nonatomic) unsigned long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic, getter=isTrashed) _Bool trashed; // @synthesize trashed=_trashed;
 
 @end
 

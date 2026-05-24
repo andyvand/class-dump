@@ -7,8 +7,6 @@
 @interface PhotosUICore.ShareParticipantImageConfigurationsFetcher
 {
     id _imageConfigurations;
-    id album;
-    id _$observationRegistrar;
 }
 
 @end

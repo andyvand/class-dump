@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIMix : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBackgroundImage;
-    NSNumber *inputAmount;
 }
 
 + (id);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 - (id)e{}}}}}ppppU`Xd]hbly£ªºººº²²²²ri\s`aSktrkvmmjm?NBYYYQYiiiidy{{cggg?H;NBG9GONAOcccczzzzf{x®®®®­­­­NeZvuupugz}}:YSeGVOYXXXXR[X\DZUbajhqCTHd,@/MED5F8I;OeeeerrrrkidkF\Sfppppyyyy||||{{{{ttttlmjossssvvvvjjjj@UK^`d^fxxxxwyu~Umd}otn{roispngpbkesu|{||ªªªª¥¥¥¥N`Wh4F5UETG^`pluvmwwwwdkgmZd]hmlgmp~~~nyx|bbYljnis}etqt||||O^Ve/J;]ehbn_wv~_pl|>b[teolqssssavux}yyxy_ibqif\pPg^r^kcv[xtªªªª¥¥¥¥npnqW`Yh^kiqavs|eaViF\PdkkckgtpzxXpmytttt]d\mtzy|qyyyyV]Sf+H7[baVdyyyynyw~Ykfqoooowwww~~~~x¡¡¡¡}}}}]{x¢¢¢¢[xt\njvqqqqqqqqad]e7N@\ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAmount; // @synthesize inputAmount;
-@property(retain, nonatomic) CIImage *inputBackgroundImage; // @synthesize inputBackgroundImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

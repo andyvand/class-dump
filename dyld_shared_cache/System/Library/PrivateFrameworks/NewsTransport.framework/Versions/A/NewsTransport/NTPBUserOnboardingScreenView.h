@@ -4,93 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBUserOnboardingScreenView
 {
     int _channelPickerPresentationReason;
-    int _countOfNotificationsSelected;
-    int _onboardingScreenType;
-    int _previouslyCompletedOnboardingOsVersion;
-    NSString *_referringSourceApplication;
-    NSString *_referringUrl;
-    int _userAction;
-    NSString *_userActivityType;
-    _Bool _fromPersonalizeNews;
-    struct {
-        unsigned int channelPickerPresentationReason:1;
-        unsigned int countOfNotificationsSelected:1;
-        unsigned int onboardingScreenType:1;
-        unsigned int previouslyCompletedOnboardingOsVersion:1;
-        unsigned int userAction:1;
-        unsigned int fromPersonalizeNews:1;
-    } _has;
 }
 
+- (void)initWithNumberOfColumns:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (void)initWithNumberOfClips:(id)arg1 primaryEdge:splitRatio:secondaryEdge:splitRatio:label: /* Error: Ran out of types for this method. */;
+- (void)initWithMapViewController:(int)arg1 libraryFilterState:photoLibrary: /* Error: Ran out of types for this method. */;
+- (void)ionCache:(int)arg1 originatingPhotoLibraryChange:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithAsset:(_Bool)arg1 sharedAlbum:presentingWindow: /* Error: Ran out of types for this method. */;
+- (void)initWithActivityType:(_Bool)arg1;
+- (void)imageDataForPassthroughConversionForSourceURL:(_Bool)arg1 metadataPolicy:outResultImageSize: /* Error: Ran out of types for this method. */;
+- (void)highlightedContentColor;
+- (void)hideFooterInSelectMode;
+- (void)handleNewDataSource:(_Bool)arg1;
+- (void)generateCGImageAsynchronouslyForTime:(int)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)fullVideoPipelineFilters;
+- (id)firstCuratedLibraryHitTestResultsAtPoint:withControl: /* Error: Ran out of types for this method. */;
+- (id)firstCueFollowingTime: /* Error: Ran out of types for this method. */;
+- (int)fileRadarWithTitle:description:classification:componentID:componentName:componentVersion:keyword:attachmentURLs:includeSysDiagnose:completionHandler: /* Error: Ran out of types for this method. */;
+- (int)fetchPersonForShareParticipant:options: /* Error: Ran out of types for this method. */;
+- (_Bool)extraResultsDictionaryRepresentation;
+- (_Bool)rtTime:durationInfo:buffer:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)endDisablingIdleTimer: /* Error: Ran out of types for this method. */;
+- (_Bool)enableEmbeddingSearch;
+- (_Bool)disableShowInAllPhotosAction;
+- (_Bool)descriptionForTimelineContentType: /* Error: Ran out of types for this method. */;
+- (_Bool)debug_ignoreMockingHasSubstantialProcessingRemainingForThreshold: /* Error: Ran out of types for this method. */;
+- (int)currentViewPortWithThumbnailOverscan;
+- (id)curatedLibraryExpansionToggleSpringStiffness;
+- (_Bool)convertSizeToBacking: /* Error: Ran out of types for this method. */;
+- (int)controlTextDidEndEditing: /* Error: Ran out of types for this method. */;
+- (int)contextHierarchyDepth;
+- (_Bool)containerTitle;
 - (void);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)addChildViewController: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (int);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (_Bool);
-- (int);
-- (int);
-- (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@16{?=qiIq}24{?=qiIq}48f72d76B84Q88;
+- (_Bool)orkSourceProxy systemProfile];
+- (_Bool)Date=%@, localDate=%@;
 - (id);
 - (int);
 - (id);
 - (void)View";
 
 // Remaining properties
-@property(nonatomic) int channelPickerPresentationReason; // @synthesize channelPickerPresentationReason=_channelPickerPresentationReason;
-@property(nonatomic) int countOfNotificationsSelected; // @synthesize countOfNotificationsSelected=_countOfNotificationsSelected;
-@property(nonatomic) _Bool fromPersonalizeNews; // @synthesize fromPersonalizeNews=_fromPersonalizeNews;
-@property(nonatomic) _Bool hasChannelPickerPresentationReason;
-@property(nonatomic) _Bool hasCountOfNotificationsSelected;
-@property(nonatomic) _Bool hasFromPersonalizeNews;
 @property(nonatomic) _Bool hasOnboardingScreenType;
-@property(nonatomic) _Bool hasPreviouslyCompletedOnboardingOsVersion;
-@property(readonly, nonatomic) _Bool hasReferringSourceApplication;
-@property(readonly, nonatomic) _Bool hasReferringUrl;
-@property(nonatomic) _Bool hasUserAction;
-@property(readonly, nonatomic) _Bool hasUserActivityType;
-@property(nonatomic) int onboardingScreenType; // @synthesize onboardingScreenType=_onboardingScreenType;
-@property(nonatomic) int previouslyCompletedOnboardingOsVersion; // @synthesize previouslyCompletedOnboardingOsVersion=_previouslyCompletedOnboardingOsVersion;
-@property(retain, nonatomic) NSString *referringSourceApplication; // @synthesize referringSourceApplication=_referringSourceApplication;
-@property(retain, nonatomic) NSString *referringUrl; // @synthesize referringUrl=_referringUrl;
-@property(nonatomic) int userAction; // @synthesize userAction=_userAction;
-@property(retain, nonatomic) NSString *userActivityType; // @synthesize userActivityType=_userActivityType;
 
 @end
 

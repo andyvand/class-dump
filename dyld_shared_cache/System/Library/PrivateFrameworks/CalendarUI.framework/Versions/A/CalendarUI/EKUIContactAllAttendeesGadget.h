@@ -6,28 +6,26 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class NSButton, NSStackView, NSString;
+@class NSStackView;
 
 @interface EKUIContactAllAttendeesGadget : EKUISingleViewGadget
 {
     NSStackView *_buttonContainer;
-    NSButton *_emailAllButton;
-    NSButton *_messageAllButton;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)6;
+- (void)qc;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)5;
+- (void);
+- (void);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -38,15 +36,6 @@
 
 // Remaining properties
 @property(retain) NSStackView *buttonContainer; // @synthesize buttonContainer=_buttonContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSButton *emailAllButton; // @synthesize emailAllButton=_emailAllButton;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *messageAllButton; // @synthesize messageAllButton=_messageAllButton;
-@property(readonly) Class superclass;
 
 @end
 

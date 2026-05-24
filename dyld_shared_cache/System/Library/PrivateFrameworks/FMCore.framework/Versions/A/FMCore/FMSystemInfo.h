@@ -8,7 +8,8 @@
 {
 }
 
-+ (id);
++ (id)5;
+- (id)_tagConnectionTimer;
 - (id);
 - (id);
 - (id);
@@ -16,18 +17,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)Go to [the] beginning [of [the] document];
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)h;
+- (_Bool)+;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)connection:didReceiveIncomingMessage: /* Error: Ran out of types for this method. */;
 
 @end
 

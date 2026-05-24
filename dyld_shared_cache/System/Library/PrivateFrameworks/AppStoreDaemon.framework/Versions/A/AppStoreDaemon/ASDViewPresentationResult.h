@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString;
+@class NSError;
 
 @interface ASDViewPresentationResult
 {
     NSError *_error;
-    NSNumber *_numberResult;
-    NSString *_stringResult;
 }
 
 + (_Bool);
@@ -21,13 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)DecoderRefreshCount %@, notsync %@;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSNumber *numberResult; // @synthesize numberResult=_numberResult;
-@property(readonly, nonatomic) NSString *stringResult; // @synthesize stringResult=_stringResult;
 
 @end
 

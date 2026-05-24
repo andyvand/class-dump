@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIViewController;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuAnimator
 {
     long long _preferredCommitStyle;
-    UIViewController *_previewViewController;
-    NSMutableArray *_animations;
-    NSMutableArray *_completions;
 }
 
 + (id);
+- (void)MTimer";
+- (long long)fileURLsForSearchableIndex:itemIdentifiers:typeIdentifier:options:error: /* Error: Ran out of types for this method. */;
+- (void)downloadHighQualityVariantOfFileTransferWithGUID: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)Chat;
+- (id)`;
 - (id);
 - (id)ä;
 - (void)tedWindowHostingHandle"8@"_UIHostedWindowHostingHandle"16@"_UIHostedWindowHostingHandle"24;
@@ -29,18 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)¶÷þlìÛ`b;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;
-@property(readonly, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasAnyActions;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long preferredCommitStyle; // @synthesize preferredCommitStyle=_preferredCommitStyle;
-@property(readonly, nonatomic) UIViewController *previewViewController; // @synthesize previewViewController=_previewViewController;
-@property(readonly) Class superclass;
 
 @end
 

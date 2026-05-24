@@ -4,63 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, UITextMagnifierTimeWeightedPoint;
+@class NSObject;
 @protocol UICoordinateSpace;
 
 __attribute__((visibility("hidden")))
 @interface UITextGestureTuning
 {
     _Bool _didBreakLineThreshold;
-    struct CGPoint _caretDistance;
-    double _initialOffsetFromTopOfCaret;
-    UITextMagnifierTimeWeightedPoint *_weightedPoint;
-    long long _lastTouchType;
-    _Bool _shouldUseLineThreshold;
-    _Bool _shouldIncludeConstantOffset;
-    _Bool _includeTipProjection;
-    _Bool _strongerBiasAgainstUp;
-    NSObject<UICoordinateSpace> *_containerCoordinateSpace;
-    NSObject<UICoordinateSpace> *_gestureCoordinateSpace;
-    double _initialPosition;
-    double _lineBreakProgress;
 }
 
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)logHandleIDs:(long long)arg1 checkAdditionalLoggingEnabled:(struct CGPoint)arg2;
+- (void)Sync:(long long)arg1 syncAttemptCount:(long long)arg2;
+- (struct CGPoint)handler:(struct CGPoint)arg1 receivedJunkChatCommand:(struct CGPoint)arg2 fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)chat:originalGroupIDUpdated: /* Error: Ran out of types for this method. */;
+- (_Bool)cachedUnreadReports;
+- (void)_removeDeviceFromIgnoredSMSRelay:(_Bool)arg1;
+- (void)_potentialGUIDsForIdentifier:(_Bool)arg1;
+- (void)"NSString",R,C,N,V_messageID;
+- (void)inPayload;
+- (void)groundUpdateInfo",&,N,V_refresh;
 - (struct CGPoint);
 - (struct CGPoint);
-- (double);
+- (double)Ղ;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)ached value from Sync State %{bool}d;
+- (id)ile info:%@ /* Error: Ran out of types for this method. */;
+- (void)n;
 - (void);
 - (void);
-- (void);
-- (double);
+- (double),R,N,V_isBot;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<UICoordinateSpace> *containerCoordinateSpace; // @synthesize containerCoordinateSpace=_containerCoordinateSpace;
-@property(readonly, nonatomic) _Bool didBreakLineThreshold; // @synthesize didBreakLineThreshold=_didBreakLineThreshold;
-@property(nonatomic) __weak NSObject<UICoordinateSpace> *gestureCoordinateSpace; // @synthesize gestureCoordinateSpace=_gestureCoordinateSpace;
-@property(nonatomic) _Bool includeTipProjection; // @synthesize includeTipProjection=_includeTipProjection;
-@property(readonly, nonatomic) double initialPosition; // @synthesize initialPosition=_initialPosition;
-@property(readonly, nonatomic) double lineBreakProgress; // @synthesize lineBreakProgress=_lineBreakProgress;
-@property(nonatomic) _Bool shouldIncludeConstantOffset; // @synthesize shouldIncludeConstantOffset=_shouldIncludeConstantOffset;
-@property(nonatomic) _Bool shouldUseLineThreshold; // @synthesize shouldUseLineThreshold=_shouldUseLineThreshold;
-@property(nonatomic) _Bool strongerBiasAgainstUp; // @synthesize strongerBiasAgainstUp=_strongerBiasAgainstUp;
 
 @end
 

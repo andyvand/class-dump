@@ -9,39 +9,33 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleConversionStats
 {
     COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *_channelConversionStats;
-    COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *_globalConversionStats;
-    NSMutableArray *_topicConversionStats;
 }
 
-+ (Class);
++ (Class)animateGainMapAppearance;
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)notifySourceConnectionChanged;
 - (_Bool);
+- (id)8q216@224@232@240@248@256@264@272@280@288@296@304@312@320@328B336;
+- (void);
+- (_Bool)FP;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
-- (void)arLinkedArticleIDs;
-- (id)ion;
+- (_Bool)indexOfAccessibilityElement: /* Error: Ran out of types for this method. */;
+- (void)clearLinkedArticleIDs;
+- (id)hasSubscribeUnsubscribeLocation;
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *channelConversionStats; // @synthesize channelConversionStats=_channelConversionStats;
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *globalConversionStats; // @synthesize globalConversionStats=_globalConversionStats;
-@property(readonly, nonatomic) _Bool hasChannelConversionStats;
-@property(readonly, nonatomic) _Bool hasGlobalConversionStats;
 @property(retain, nonatomic) NSMutableArray *topicConversionStats; // @synthesize topicConversionStats=_topicConversionStats;
 
 @end

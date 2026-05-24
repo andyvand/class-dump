@@ -9,9 +9,6 @@
 @interface SwiftUI.UserActivityTrackingInfo
 {
     id userActivity;
-    id handlers;
-    id sceneBridge;
-    id activityType;
 }
 
 - (id);

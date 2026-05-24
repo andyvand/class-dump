@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSSet, NSString, VMUTask, VMUVMRegionTracker;
+@class VMUTask;
 
 @interface VMUStackLogReaderBase
 {
     VMUTask *_vmuTask;
-    unsigned int _task;
-    VMUVMRegionTracker *_regionTracker;
-    NSMapTable *_addressToSymbolicationMap;
-    NSSet *_excludedFrames;
-    NSMutableDictionary *_binaryImagePathToIdentifierMap;
-    _Bool _usesLiteMode;
-    _Bool _usesCoreFile;
-    _Bool _coldestFrameIsNotThreadId;
-    struct _CSTypeRef _symbolicator;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)c;
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
@@ -48,32 +39,12 @@
 - (id);
 - (struct _VMURange);
 - (id);
-- (long long);
-- (void);
-- (struct _CSTypeRef)data: /* Error: Ran out of types for this method. */;
+- (long long)_groupRemovingImpossibleGroups:(unsigned int)arg1 isRootLevel:(_Bool)arg2;
+- (void)_changePolicyToCurrentWithCategoryIdentifier: /* Error: Ran out of types for this method. */;
+- (struct _CSTypeRef)setDominators_data: /* Error: Ran out of types for this method. */;
 - (_Bool)marking malloc allocations in VM regions;
 
 // Remaining properties
-@property(readonly) _Bool coldestFrameIsNotThreadId; // @synthesize coldestFrameIsNotThreadId=_coldestFrameIsNotThreadId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *excludedFrames; // @synthesize excludedFrames=_excludedFrames;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool inspectingLiveProcess;
-@property(readonly) _Bool is64bit;
-@property(readonly) unsigned long long nodesInUniquingTable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) VMUVMRegionTracker *regionTracker; // @synthesize regionTracker=_regionTracker;
-@property(readonly) Class superclass;
-@property(readonly) struct _CSTypeRef symbolicator; // @synthesize symbolicator=_symbolicator;
-@property(readonly) unsigned int task; // @synthesize task=_task;
-@property(readonly) _Bool usesCoreFile; // @synthesize usesCoreFile=_usesCoreFile;
-@property(readonly) _Bool usesLiteMode; // @synthesize usesLiteMode=_usesLiteMode;
 @property(readonly) VMUTask *vmuTask; // @synthesize vmuTask=_vmuTask;
 
 @end

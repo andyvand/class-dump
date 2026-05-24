@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInlineSignInViewController, NSError, NSImage, NSString;
+@class AKInlineSignInViewController, NSImage;
 
 @interface FMDUIFMMController
 {
     NSImage *_displayImage;
-    AKInlineSignInViewController *_inlineSignInViewController;
-    unsigned long long _disableContext;
-    NSError *_disableFMMError;
 }
 
 - (void);
@@ -33,22 +30,12 @@
 - (id);
 - (void);
 - (void);
+- (void)tailspin_dump_option_collect_trials;
 - (void);
-- (void);
-- (id);
+- (id)/libz.1.dylib;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long disableContext; // @synthesize disableContext=_disableContext;
-@property(retain, nonatomic) NSError *disableFMMError; // @synthesize disableFMMError=_disableFMMError;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(readonly) unsigned long long hash;
 @property(retain) AKInlineSignInViewController *inlineSignInViewController; // @synthesize inlineSignInViewController=_inlineSignInViewController;
-@property(readonly) Class superclass;
 
 @end
 

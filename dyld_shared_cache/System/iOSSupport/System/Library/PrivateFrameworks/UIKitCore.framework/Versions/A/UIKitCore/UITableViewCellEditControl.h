@@ -6,49 +6,39 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class UIColor, UIImageView, UITableViewCell;
+@class UITableViewCell;
 
 @interface UITableViewCellEditControl : UIControl
 {
     UITableViewCell *_cell;
-    UIImageView *_imageView;
-    UIImageView *_shadowView;
-    double _focalY;
-    double _focalHeight;
-    unsigned int _style:2;
-    unsigned int _rotated:1;
-    unsigned int _rotating:1;
-    unsigned int _reserved:27;
-    UIColor *_accessoryTintColor;
-    UIColor *_accessoryBackgroundColor;
 }
 
+- (_Bool)initWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (void)__registerNewServiceSession:(_Bool)arg1;
+- (void)merge id due to override;
+- (void)info for transfer %@;
+- (void)al.;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (struct CGSize);
-- (id);
-- (void);
-- (_Bool)rsInAutofillGroup: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ryID;
-- (id)mingWithTitle: /* Error: Ran out of types for this method. */;
+- (_Bool)containsUsernamePasswordPairsInAutofillGroup: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_inFlightDeliveryID;
+- (id)_didEndRenamingWithTitle: /* Error: Ran out of types for this method. */;
 - (void)meOffsets;
 - (id);
 - (void)$n;
 - (id)}´ìà(;
-- (void)on;
+- (void)minLensingDimension;
 - (void)display:(_Bool)arg1 %@ bundle:%@} hostBundle:%@ posWithIAV:%@ %s%s%s%s%s%@> /* Error: Ran out of types for this method. */;
 - (id)be at least 0.0, or UITableViewAutomaticDimension.;
 - (_Bool)r -TripleColumn;
@@ -62,11 +52,7 @@
 i;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryBackgroundColor; // @synthesize accessoryBackgroundColor=_accessoryBackgroundColor;
-@property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;
 @property(nonatomic, getter=isRotated) _Bool rotated;
-@property(readonly, nonatomic) _Bool wantsImageShadow;
-@property(readonly, nonatomic) _Bool wantsMaskingWhileAnimatingDisabled;
 
 @end
 

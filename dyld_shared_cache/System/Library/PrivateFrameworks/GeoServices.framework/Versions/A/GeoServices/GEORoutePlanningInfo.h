@@ -4,52 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdvisoriesInfo, GEOFormattedString, GEOLabelAction, GEOPBTransitArtwork, GEORouteInformation, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORoutePlanningInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOAdvisoriesInfo *_advisoriesInfo;
-    GEOFormattedString *_calendarNavPlanningInfo;
-    GEOFormattedString *_infrastructureDescription;
-    GEOLabelAction *_labelAction;
-    GEOPBTransitArtwork *_labelArtwork;
-    GEOFormattedString *_labelDetailText;
-    NSMutableArray *_routeGeniusDescriptions;
-    GEOFormattedString *_routeGeniusTitle;
-    GEORouteInformation *_routePlanningDescription;
-    GEOPBTransitArtwork *_trafficDescriptionArtwork;
-    GEOFormattedString *_trafficDescriptionText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_advisoriesInfo:1;
-        unsigned int read_calendarNavPlanningInfo:1;
-        unsigned int read_infrastructureDescription:1;
-        unsigned int read_labelAction:1;
-        unsigned int read_labelArtwork:1;
-        unsigned int read_labelDetailText:1;
-        unsigned int read_routeGeniusDescriptions:1;
-        unsigned int read_routeGeniusTitle:1;
-        unsigned int read_routePlanningDescription:1;
-        unsigned int read_trafficDescriptionArtwork:1;
-        unsigned int read_trafficDescriptionText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)bled:(id)arg1;
++ (Class)CNXPCBidirectionalCommunicationExportedObject;
++ (_Bool)setMapSettingsNotificationsEnabled:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)I;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,19 +29,19 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)dataWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (_Bool)_cncd_externalGroupBehaviorValue;
+- (_Bool)_cn_take: /* Error: Ran out of types for this method. */;
+- (_Bool)setSubLocality: /* Error: Ran out of types for this method. */;
+- (_Bool)setAllAccounts: /* Error: Ran out of types for this method. */;
+- (_Bool)8;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ozTSg_ABt;
+- (_Bool)e permissions.;
+- (_Bool)ed, and a fetch of containers sharing the same target store succeeded but yielded no results. At least some container is expected to already exist (migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
 - (void);
 - (id);
 - (id);
@@ -86,42 +56,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_name;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)Type"b1"has_serverItemIndexInSection"b1"has_serverSectionIndex"b1"has_suggestionType"b1"has_tapBehavior"b1"has_discreteFeatureValuesAvailable"b1"has_isContactWithHomeLocation"b1"has_isContactWithLiveLocation"b1"has_isContactWithNoLocation"b1"has_isContactWithOtherLocation"b1"has_isContactWithSchoolLocation"b1"has_isContactWithWorkLocation"b1"has_isContainedInViewport"b1"has_isFavorite"b1"has_isProminentResult"b1"has_matchedUsingAddress"b1"has_matchedUsingEventName"b1"has_matchedUsingLabel"b1"has_matchedUsingName"b1"has_matchedUsingOrganization"b1"has_prefixTokenIsNumberFirstQueryToken"b1"has_prefixTokenIsNumberSecondQueryToken"b1"has_shownToUser"b1"read_hyperlinkMetadata"b1"read_subactionMetaData"b1"read_suggestionSectionType"b1"wrote_anyField"b1};
-- (id)chCount;
-- (id)Ticket;
+- (id)hasBatchCount;
+- (id)GEOMapServiceBatchSpatialLookupTicket;
 - (id)AllFrom can only be called once per object;
 - (void)BÏfÕçP@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAdvisoriesInfo *advisoriesInfo;
-@property(retain, nonatomic) GEOFormattedString *calendarNavPlanningInfo;
-@property(readonly, nonatomic) _Bool hasAdvisoriesInfo;
-@property(readonly, nonatomic) _Bool hasCalendarNavPlanningInfo;
-@property(readonly, nonatomic) _Bool hasInfrastructureDescription;
-@property(readonly, nonatomic) _Bool hasLabelAction;
-@property(readonly, nonatomic) _Bool hasLabelArtwork;
-@property(readonly, nonatomic) _Bool hasLabelDetailText;
-@property(readonly, nonatomic) _Bool hasRouteGeniusTitle;
 @property(readonly, nonatomic) _Bool hasRoutePlanningDescription;
-@property(readonly, nonatomic) _Bool hasTrafficDescriptionArtwork;
-@property(readonly, nonatomic) _Bool hasTrafficDescriptionText;
-@property(retain, nonatomic) GEOFormattedString *infrastructureDescription;
-@property(retain, nonatomic) GEOLabelAction *labelAction;
-@property(retain, nonatomic) GEOPBTransitArtwork *labelArtwork;
-@property(retain, nonatomic) GEOFormattedString *labelDetailText;
-@property(retain, nonatomic) NSMutableArray *routeGeniusDescriptions;
-@property(retain, nonatomic) GEOFormattedString *routeGeniusTitle;
-@property(retain, nonatomic) GEORouteInformation *routePlanningDescription;
-@property(retain, nonatomic) GEOPBTransitArtwork *trafficDescriptionArtwork;
-@property(retain, nonatomic) GEOFormattedString *trafficDescriptionText;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

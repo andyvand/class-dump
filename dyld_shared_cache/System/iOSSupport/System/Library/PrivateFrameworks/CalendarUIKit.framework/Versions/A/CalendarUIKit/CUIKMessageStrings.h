@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarEventInvitationNotificationAttendee, NSArray;
+@class NSArray;
 
 @interface CUIKMessageStrings
 {
     _Bool _timeProposals;
-    NSArray *_titleStrings;
-    NSArray *_bodyStrings;
-    long long _comments;
-    EKCalendarEventInvitationNotificationAttendee *_importantAttendee;
 }
 
 - (_Bool);
@@ -21,13 +17,9 @@
 - (id);
 - (id);
 - (long long);
-- (void)LastName: /* Error: Ran out of types for this method. */;
+- (void)setLastName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bodyStrings; // @synthesize bodyStrings=_bodyStrings;
-@property(readonly, nonatomic) long long comments; // @synthesize comments=_comments;
-@property(readonly, nonatomic) EKCalendarEventInvitationNotificationAttendee *importantAttendee; // @synthesize importantAttendee=_importantAttendee;
-@property(readonly, nonatomic) _Bool timeProposals; // @synthesize timeProposals=_timeProposals;
 @property(readonly, nonatomic) NSArray *titleStrings; // @synthesize titleStrings=_titleStrings;
 
 @end

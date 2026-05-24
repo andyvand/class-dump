@@ -7,7 +7,6 @@
 @interface PAEnhanceAutoSettings
 {
     _Bool _isNoOp;
-    double _vibrance;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool isNoOp; // @synthesize isNoOp=_isNoOp;
 @property(nonatomic) double vibrance; // @synthesize vibrance=_vibrance;
 
 @end

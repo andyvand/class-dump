@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class VNDetector, VNDetectorCache;
+
 @protocol VNDetectorCacheDelegate
+
+@optional
+- (void)g:(VNDetectorCache *)arg1 domain doesn't have a context:(VNDetector *)arg2 %@;
+- (void);
 @end
 

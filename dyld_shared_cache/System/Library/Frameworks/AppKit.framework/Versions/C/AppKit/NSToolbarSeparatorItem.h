@@ -14,10 +14,10 @@
 + (id)ÿ¥
 DlJ;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)racker-signing-identifier;
+- (void)DownloadTask"56@0:8@"AVURLAsset"16@"NSString"24@"NSData"32@"NSDictionary"40@"AVAssetDownloadConfiguration"48 /* Error: Ran out of types for this method. */;
 - (id);
-- (id)enuAction: /* Error: Ran out of types for this method. */;
+- (id)_sizeToFitColumnMenuAction: /* Error: Ran out of types for this method. */;
 
 @end
 

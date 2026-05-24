@@ -7,29 +7,23 @@
 @class NSArray, NSString;
 
 @protocol PXMutableMockAudioAsset
+- (void);
+- (void);
+- (void)T(;
+- (NSArray *)@;
+- (CDStruct_1b6d18a9)tabiScoringInNotificationExtensionEnabled;
+- (void);
 - (void)%Ð!4Bù±81Â0@ù
 × ;
 - (NSString *)
 × ;
 - (unsigned long long)Offset:,V__lastContentAdjustmentOffset /* Error: Ran out of types for this method. */;
 - (void)izedActionName;
-- (NSString *)on;
+- (NSString *)_shouldCreateUniqueVideoSession;
 - (NSString *)<¥;
 - (void)ffectFactory getParameters:(NSString *)arg1 forParallelPansWithDistance:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumTitle;
-@property(copy, nonatomic) NSString *artistName;
-@property(copy, nonatomic) NSString *artworkURLFormat;
-@property(retain, nonatomic) Class audioSessionClass;
-@property(copy, nonatomic) NSString *colorGradeCategory;
-@property(nonatomic) CDStruct_1b6d18a9 duration;
-@property(copy, nonatomic) NSArray *entryPoints;
-@property(nonatomic) CDStruct_1b6d18a9 exportableDuration;
-@property(nonatomic) unsigned long long flags;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) long long pace;
-@property(copy, nonatomic) NSString *subtitle;
 @property(copy, nonatomic) NSString *title;
 @end
 

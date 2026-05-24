@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVLyricsSongInfo, MSVLyricsTextElement, NSData, NSError, NSInputStream, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSData;
 
 @interface MSVLyricsTTMLParser
 {
     _Bool _linesAreSortedByStartTime;
-    NSData *_ttmlData;
-    NSInputStream *_inputStream;
-    NSObject<OS_dispatch_queue> *_parseQueue;
-    MSVLyricsSongInfo *_lyricsInfo;
-    NSError *_parserError;
-    NSMutableArray *_elementStack;
-    NSMutableArray *_lyricLines;
-    MSVLyricsTextElement *_currentTextElement;
-    NSMutableArray *_translations;
-    NSMutableArray *_transliterations;
-    double _currentStartTime;
-    NSMutableArray *_agents;
 }
 
 - (id);
@@ -38,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (id);
@@ -46,44 +33,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (double);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)T;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *agents; // @synthesize agents=_agents;
-@property(nonatomic) double currentStartTime; // @synthesize currentStartTime=_currentStartTime;
-@property(retain, nonatomic) MSVLyricsTextElement *currentTextElement; // @synthesize currentTextElement=_currentTextElement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *elementStack; // @synthesize elementStack=_elementStack;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(nonatomic) _Bool linesAreSortedByStartTime; // @synthesize linesAreSortedByStartTime=_linesAreSortedByStartTime;
-@property(retain, nonatomic) NSMutableArray *lyricLines; // @synthesize lyricLines=_lyricLines;
-@property(retain, nonatomic) MSVLyricsSongInfo *lyricsInfo; // @synthesize lyricsInfo=_lyricsInfo;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *parseQueue; // @synthesize parseQueue=_parseQueue;
-@property(retain, nonatomic) NSError *parserError; // @synthesize parserError=_parserError;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *translations; // @synthesize translations=_translations;
-@property(retain, nonatomic) NSMutableArray *transliterations; // @synthesize transliterations=_transliterations;
 @property(retain, nonatomic) NSData *ttmlData; // @synthesize ttmlData=_ttmlData;
 
 @end

@@ -11,7 +11,6 @@
 @interface CEMSystemDashboardDeclaration_WhiteListItem : CEMPayloadBase
 {
     NSString *_payloadType;
-    NSString *_payloadID;
 }
 
 + (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadID; // @synthesize payloadID=_payloadID;
 @property(copy, nonatomic) NSString *payloadType; // @synthesize payloadType=_payloadType;
 
 @end

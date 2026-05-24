@@ -11,7 +11,6 @@
 @interface CHTransliterateExponentsStep : CHMathPostprocessingStep
 {
     NSDictionary *_exponentTransliterations;
-    struct SymbolTokenPropertiesHelper _tokenPropertiesHelper;
 }
 
 - (id);

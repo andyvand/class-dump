@@ -9,7 +9,6 @@
 @interface EQKitOverlayBox : EQKitBox
 {
     EQKitBox *mBox;
-    EQKitBox *mOverlayBox;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);;
 - (id);
 - (void);
 - (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;
-@property(readonly, nonatomic) EQKitBox *overlayBox; // @synthesize overlayBox=mOverlayBox;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOGenericSubstitutes
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_substitute;
-    int _waypointCategory;
-    struct {
-        unsigned int has_waypointCategory:1;
-    } _flags;
 }
 
-+ (_Bool)nDays:(id)arg1;
++ (_Bool)setHasRetryScheduleInDays:(id)arg1;
 - (id);
 - (int);
 - (id);
@@ -24,31 +19,27 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)i16;
+- (int)b;
 - (void);
+- (id)J;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)60@0:(id)arg1 8Q16@24@32@40B48@?52;
+- (void)P;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)Event:(struct _NSZone *)arg1;
-- (id)ionTileKeyEnumerator;
+- (id)setImpressEvent:(struct _NSZone *)arg1;
+- (id)_GEOSingleTileSetMapRegionTileKeyEnumerator;
 - (id)%@;
 - (id)88;
 - (void)µ4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSubstitute;
-@property(nonatomic) _Bool hasWaypointCategory;
-@property(retain, nonatomic) GEOFormattedString *substitute;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int waypointCategory;
 
 @end
 

@@ -6,22 +6,11 @@
 
 #import <Vision/VNRectangleObservation.h>
 
-@class CIBarcodeDescriptor, NSData, NSDictionary, NSNumber, NSString;
+@class NSDictionary, NSString;
 
 @interface VNBarcodeObservation : VNRectangleObservation
 {
     NSString *_cachedPayloadStringValue;
-    NSData *_cachedPayloadData;
-    NSNumber *_cachedAppClipCodeMetadataValue;
-    NSNumber *_cachedIsColorInverted;
-    NSNumber *_cachedIsGS1DataCarrier;
-    NSString *_cachedSupplementalPayload;
-    NSNumber *_cachedSupplementalCompositeType;
-    NSData *_cachedSupplementalPayloadRawData;
-    NSString *_symbology;
-    CIBarcodeDescriptor *_barcodeDescriptor;
-    NSDictionary *_acbsBarcodeInfo;
-    struct __MRCDescriptor *_mrcDescriptor;
 }
 
 + (id);
@@ -48,30 +37,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)pp.sms;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)_fetchItemForURL:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)5;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)ptor;
+- (void)originatingRequestDescriptor;
 
 // Remaining properties
 @property(copy, nonatomic, setter=setACBSBarcodeInfo:) NSDictionary *acbsBarcodeInfo; // @synthesize acbsBarcodeInfo=_acbsBarcodeInfo;
-@property(readonly, copy, nonatomic) NSNumber *appClipCodeMetadataValue;
-@property(readonly, nonatomic) CIBarcodeDescriptor *barcodeDescriptor; // @synthesize barcodeDescriptor=_barcodeDescriptor;
-@property(readonly, nonatomic) _Bool isColorInverted;
-@property(readonly, nonatomic) _Bool isGS1DataCarrier;
-@property(nonatomic, setter=setMRCDescriptor:) struct __MRCDescriptor *mrcDescriptor; // @synthesize mrcDescriptor=_mrcDescriptor;
-@property(readonly, copy, nonatomic) NSData *payloadData;
-@property(readonly, copy, nonatomic) NSData *payloadDataValue;
-@property(readonly, copy, nonatomic) NSString *payloadStringValue;
-@property(readonly, nonatomic) long long supplementalCompositeType;
-@property(readonly, copy, nonatomic) NSData *supplementalPayloadData;
-@property(readonly, copy, nonatomic) NSString *supplementalPayloadString;
-@property(readonly, copy, nonatomic) NSString *symbology; // @synthesize symbology=_symbology;
 
 @end
 

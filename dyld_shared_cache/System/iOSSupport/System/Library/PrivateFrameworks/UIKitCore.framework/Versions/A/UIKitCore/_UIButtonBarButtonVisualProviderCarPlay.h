@@ -6,22 +6,12 @@
 
 #import <UIKitCore/_UIButtonBarButtonVisualProvider.h>
 
-@class NSArray, NSLayoutConstraint, NSMutableDictionary, UIImageView, UILabel, UIView;
 @protocol _UIButtonBarAppearanceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarButtonVisualProviderCarPlay : _UIButtonBarButtonVisualProvider
 {
     id <_UIButtonBarAppearanceDelegate> _appearanceDelegate;
-    UIView *_focusedView;
-    UIImageView *_backView;
-    UIImageView *_imageView;
-    UILabel *_titleView;
-    NSArray *_titleAlternatives;
-    NSMutableDictionary *_titleAlterntativeLookup;
-    NSArray *_buttonConstraints;
-    NSLayoutConstraint *_maxTitleViewWidthConstraint;
-    NSLayoutConstraint *_backViewToContentConstraint;
 }
 
 - (id);
@@ -42,17 +32,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)6c][256c]}16i24r*28i36;
 - (id)issingKeyboard"b1};
-- (void)ockImageName;
-- (id)n: /* Error: Ran out of types for this method. */;
-- (id)ap;
+- (void)shiftLockImageName;
+- (id)_shouldSkipObservingBoundingPathChangesForScreen: /* Error: Ran out of types for this method. */;
+- (id)_publishedObjectMap;
 - (void);
-- (id)anguagesEnabled;
-- (id);
+- (id)getDictationSLSLanguagesEnabled;
+- (id)_addBoundingPathChangeObserver: /* Error: Ran out of types for this method. */;
 - (void)µ;
 - (void)reference with a threshold of %ld. Use -%s <threshold> as a launch argument if you want a different threshold. The threshold will be clamped between %ld and %ld.;
 - (void)ing _responderWithoutAutomaticAppearanceEnabled:(id)arg1 %@ (_automaticAppearEnabled:%d) /* Error: Ran out of types for this method. */;
 - (void);
-- (void)iginal;
+- (void)ShowOriginal;
 - (void);
 - (void)% 
 ;
@@ -64,15 +54,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIButtonBarAppearanceDelegate> appearanceDelegate; // @synthesize appearanceDelegate=_appearanceDelegate;
-@property(retain, nonatomic) UIImageView *backView; // @synthesize backView=_backView;
-@property(retain, nonatomic) NSLayoutConstraint *backViewToContentConstraint; // @synthesize backViewToContentConstraint=_backViewToContentConstraint;
-@property(retain, nonatomic) NSArray *buttonConstraints; // @synthesize buttonConstraints=_buttonConstraints;
-@property(retain, nonatomic) UIView *focusedView; // @synthesize focusedView=_focusedView;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSLayoutConstraint *maxTitleViewWidthConstraint; // @synthesize maxTitleViewWidthConstraint=_maxTitleViewWidthConstraint;
-@property(retain, nonatomic) NSArray *titleAlternatives; // @synthesize titleAlternatives=_titleAlternatives;
-@property(retain, nonatomic) NSMutableDictionary *titleAlterntativeLookup; // @synthesize titleAlterntativeLookup=_titleAlterntativeLookup;
-@property(retain, nonatomic) UILabel *titleView; // @synthesize titleView=_titleView;
 
 @end
 

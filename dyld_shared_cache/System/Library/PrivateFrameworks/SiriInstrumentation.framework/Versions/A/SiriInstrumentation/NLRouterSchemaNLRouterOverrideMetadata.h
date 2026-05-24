@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaNLRouterOverrideMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_overrideId;
-    _Bool _hasOverrideId;
 }
 
 - (void);
@@ -21,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)ions;
+- (unsigned long long)з;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOverrideId; // @synthesize hasOverrideId=_hasOverrideId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *overrideId; // @synthesize overrideId=_overrideId;
 
 @end

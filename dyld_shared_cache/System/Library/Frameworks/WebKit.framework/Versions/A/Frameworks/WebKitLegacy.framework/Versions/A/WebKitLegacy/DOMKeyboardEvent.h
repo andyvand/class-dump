@@ -17,28 +17,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*L;
 - (_Bool);
+- (_Bool)g;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (int);
-- (unsigned int);
+- (unsigned int)_descriptor;
 
 // Remaining properties
-@property(readonly) _Bool altGraphKey;
-@property(readonly) _Bool altKey;
-@property(readonly) int charCode;
-@property(readonly) _Bool ctrlKey;
-@property(readonly) int keyCode;
 @property(readonly, copy) NSString *keyIdentifier;
-@property(readonly) unsigned int keyLocation;
-@property(readonly) unsigned int location;
-@property(readonly) _Bool metaKey;
-@property(readonly) _Bool shiftKey;
 
 @end
 

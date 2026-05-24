@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMutableArray, NSObject, NSSet, NSString, NSUUID, _HMContext;
-@protocol HMSymptomsHandlerDelegate, OS_dispatch_queue;
+@class NSString;
 
 @interface HMSymptomsHandler
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_sfDeviceIdentifier;
-    id <HMSymptomsHandlerDelegate> _delegate;
-    NSString *_logIdentifier;
-    HMMutableArray *_currentSymptoms;
-    _HMContext *_context;
-    NSUUID *_uuid;
 }
 
 + (id);
@@ -24,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)6<;
 - (id);
 - (id);
 - (void);
@@ -32,38 +25,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)dAppearance"b3"returnKeyType"b5"textScriptType"b4"enablesReturnKeyAutomatically"b1"secureTextEntry"b1"disablePrediction"b1"smartInsertDeleteType"b2"smartQuotesType"b2"smartDashesType"b2});
+- (id).
+@
+
+9
+;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)ssertionInfo;
+- (void)PowerAssertionInfo;
 
 // Remaining properties
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly) HMMutableArray *currentSymptoms; // @synthesize currentSymptoms=_currentSymptoms;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMSymptomsHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, setter=setSFDeviceIdentifier:) NSUUID *sfDeviceIdentifier; // @synthesize sfDeviceIdentifier=_sfDeviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSSet *symptoms;
-@property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

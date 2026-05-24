@@ -6,7 +6,7 @@
 
 #import <AddressBookCore/ABCNContact.h>
 
-@class NSArray, NSDate, NSDateComponents, NSDictionary, NSString;
+@class NSString;
 
 @interface ABCNMutableContact : ABCNContact
 {
@@ -16,35 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,58 +29,43 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)u;
+- (void);
+- (void);
+- (void)];
+- (void)werlog output:(id)arg1 %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)setDeviceName:(id)arg1;
+- (void)CNLDAPServices;
 - (void);
 - (void)á&Ð!0Aùq1*1Â0@ù
 × ;
-- (void);
-- (id)olicy;
+- (void)setLinkedContacts:(id)arg1;
+- (id)ABDefaultAccountHidingPolicy;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @dynamic accountIdentifier;
-@property(copy, nonatomic) NSDictionary *alertTones; // @dynamic alertTones;
-@property(copy, nonatomic) NSDateComponents *alternateBirthdayComponents; // @dynamic alternateBirthdayComponents;
-@property(copy, nonatomic) NSDateComponents *birthdayComponents; // @dynamic birthdayComponents;
-@property(copy, nonatomic) NSArray *calendarURIs; // @dynamic calendarURIs;
-@property(copy, nonatomic) NSString *cardDAVUID; // @dynamic cardDAVUID;
-@property(copy, nonatomic) NSString *companyName; // @dynamic companyName;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(copy, nonatomic) NSString *departmentName; // @dynamic departmentName;
-@property(nonatomic) long long displayStyle; // @dynamic displayStyle;
-@property(copy, nonatomic) NSArray *emailAddresses; // @dynamic emailAddresses;
-@property(copy, nonatomic) NSString *firstName; // @dynamic firstName;
-@property(copy, nonatomic) NSArray *instantMessageAddresses; // @dynamic instantMessageAddresses;
-@property(copy, nonatomic) NSString *jobTitle; // @dynamic jobTitle;
-@property(copy, nonatomic) NSString *lastName; // @dynamic lastName;
-@property(copy, nonatomic) NSString *linkIdentifier; // @dynamic linkIdentifier;
-@property(copy, nonatomic) NSArray *linkedContacts; // @dynamic linkedContacts;
-@property(copy, nonatomic) NSString *maidenName; // @dynamic maidenName;
-@property(copy, nonatomic) NSString *middleName; // @dynamic middleName;
-@property(nonatomic) long long nameOrder; // @dynamic nameOrder;
-@property(copy, nonatomic) NSString *nameSuffix; // @dynamic nameSuffix;
-@property(copy, nonatomic) NSString *nameTitle; // @dynamic nameTitle;
-@property(copy, nonatomic) NSString *nickname; // @dynamic nickname;
-@property(copy, nonatomic) NSString *note; // @dynamic note;
-@property(copy, nonatomic) NSArray *otherDateComponents; // @dynamic otherDateComponents;
-@property(copy, nonatomic) NSArray *phoneNumbers; // @dynamic phoneNumbers;
-@property(copy, nonatomic) NSString *phonemeData; // @dynamic phonemeData;
-@property(copy, nonatomic) NSString *phoneticCompanyName; // @dynamic phoneticCompanyName;
-@property(copy, nonatomic) NSString *phoneticFirstName; // @dynamic phoneticFirstName;
-@property(copy, nonatomic) NSString *phoneticLastName; // @dynamic phoneticLastName;
-@property(copy, nonatomic) NSString *phoneticMiddleName; // @dynamic phoneticMiddleName;
-@property(copy, nonatomic) NSArray *postalAddresses; // @dynamic postalAddresses;
-@property(copy, nonatomic) NSString *preferredApplePersonaIdentifier; // @dynamic preferredApplePersonaIdentifier;
-@property(nonatomic, getter=isPreferredForName) _Bool preferredForName; // @dynamic preferredForName;
-@property(nonatomic, getter=isPreferredForPhoto) _Bool preferredForPhoto; // @dynamic preferredForPhoto;
-@property(copy, nonatomic) NSString *preferredLikenessSource; // @dynamic preferredLikenessSource;
-@property(copy, nonatomic) NSArray *relatedNames; // @dynamic relatedNames;
-@property(copy, nonatomic) ABCNContact *snapshot; // @dynamic snapshot;
-@property(copy, nonatomic) NSArray *socialProfiles; // @dynamic socialProfiles;
 @property(copy, nonatomic) NSString *sortingFirstName; // @dynamic sortingFirstName;
-@property(copy, nonatomic) NSString *sortingLastName; // @dynamic sortingLastName;
-@property(copy, nonatomic) NSArray *urlAddresses; // @dynamic urlAddresses;
 
 @end
 

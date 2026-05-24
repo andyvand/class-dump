@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)@;
++ (id)(;
 
 @end
 

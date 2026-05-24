@@ -8,16 +8,11 @@
 
 @protocol TSPPassphraseConsumer
 
+@optional
+- (NSData *)oTime - identifier: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(readonly, nonatomic) NSData *keychainGenericItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
 @property(readonly, nonatomic) NSString *passphraseHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *service;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 

@@ -9,21 +9,25 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void);
+- (void)R;
+- (NSArray *);
 - (void)0@?<v@?@"NSMenu">48;
 - (void)llection>"16@"NSArray"24@"NSArray"32@"NSArray"40;
-- (void)rchResult:(NSWindow *)arg1;
-- (void)neSummary:(NSNotification *)arg1;
-- (void)calMessageBodiesIndexed:(NSNotification *)arg1 totalLocalMessages:remoteMessageBodiesIndexed:totalRemoteMessages:messagesInLargestRemoteAccount: /* Error: Ran out of types for this method. */;
-- (id)ViewWithImage:(NSWindow *)arg1;
-- (void);
-- (void)tantAnswer;
+- (void)setSearchResult:(NSWindow *)arg1;
+- (void)setIsInlineSummary:(NSNotification *)arg1;
+- (void)initWithLocalMessageBodiesIndexed:(NSNotification *)arg1 totalLocalMessages:remoteMessageBodiesIndexed:totalRemoteMessages:messagesInLargestRemoteAccount: /* Error: Ran out of types for this method. */;
+- (id)imageViewWithImage:(NSWindow *)arg1;
+- (void)accessibilityDisclosureLevel;
+- (void)_instantAnswer;
 - (NSArray *)N,V_pinnedIndex;
-- (void)nalContentMessageGenerator;
+- (void)originalContentMessageGenerator;
 - (void)SImage",&,N,V_cachedSnapshot;
 - (void)î;
 - (void)È!ø"¨#;
 - (void);
-- (void)opShadowColor;
+- (void)primaryDropShadowColor;
 - (void)for %{public}@;
 - (void)-;
 - (void)c Iù"|Q;

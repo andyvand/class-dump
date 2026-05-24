@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedCuratedCollection
@@ -16,11 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic) long long curatedCollectionIdentifier; // @dynamic curatedCollectionIdentifier;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
-@property(nonatomic) int resultProviderIdentifier; // @dynamic resultProviderIdentifier;
 
 @end
 

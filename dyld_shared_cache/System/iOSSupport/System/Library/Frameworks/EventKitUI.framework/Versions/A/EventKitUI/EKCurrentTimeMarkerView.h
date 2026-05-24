@@ -9,11 +9,6 @@
 @interface EKCurrentTimeMarkerView
 {
     UIView *_timeLabelPill;
-    _Bool _showsThumb;
-    _Bool _showsLine;
-    double _todayStart;
-    double _todayWidth;
-    UILabel *_currentTimeLabel;
 }
 
 + (double);
@@ -23,35 +18,27 @@
 - (double);
 - (void);
 - (void);
-- (double);
+- (double)String";
 - (double);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)__swift5_types;
 - (void);
 - (void);
 - (double);
 - (void);
 - (_Bool);
-- (id);
+- (id)setInternalGUID:(struct CGRect)arg1;
 - (void);
 - (double);
 - (void);
+- (id)FSpringBoardWorkflowRunnerClient.m;
 - (id);
-- (id);
-- (void)erlayAttributes;
+- (void)overlayAttributes;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect currentTimeFrame;
 @property(retain, nonatomic) UILabel *currentTimeLabel; // @synthesize currentTimeLabel=_currentTimeLabel;
-@property(readonly, nonatomic) double extensionLineHeight;
-@property(readonly, nonatomic) double markerInset;
-@property(readonly, nonatomic) double markerWidth;
-@property(nonatomic) _Bool showsLine; // @synthesize showsLine=_showsLine;
-@property(nonatomic) _Bool showsThumb; // @synthesize showsThumb=_showsThumb;
-@property(nonatomic) double todayStart; // @synthesize todayStart=_todayStart;
-@property(nonatomic) double todayWidth; // @synthesize todayWidth=_todayWidth;
 
 @end
 

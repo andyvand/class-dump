@@ -9,7 +9,6 @@
 @interface PXComposeRecipientSelectionSnapshot
 {
     NSArray *_selectedComposeRecipients;
-    NSArray *_selectedRecipients;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *selectedComposeRecipients; // @synthesize selectedComposeRecipients=_selectedComposeRecipients;
-@property(readonly, copy, nonatomic) NSArray *selectedRecipients; // @synthesize selectedRecipients=_selectedRecipients;
 
 @end
 

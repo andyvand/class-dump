@@ -6,62 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESPegasusSearchQueryAmpUserState : SISchemaInstrumentationMessage
 {
     _Bool _hasAmpSubscriptionStatus;
-    _Bool _hasItunesSubscriptionStatus;
-    _Bool _hasUserToken;
-    _Bool _hasSharedUserId;
-    struct {
-        unsigned int hasAmpSubscriptionStatus:1;
-        unsigned int hasItunesSubscriptionStatus:1;
-        unsigned int hasUserToken:1;
-        unsigned int hasSharedUserId:1;
-    } _has;
 }
 
+- (void)BA9;
+- (void);
+- (void);
 - (void);
 - (void);
+- (void);
+- (_Bool)C;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)a?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (unsigned long long)on/Libraries/AppStoreDaemon/Stubs/ASDJobManager_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)MDAttachmentCopyRecordIDsToDeleteAfterRowWithLimit is in IMDP with afterRow %@ limit %lld;
 - (id);
-- (id);
+- (id)qh;
+- (id)_removedSuggestion;
 - (id)led;
 - (_Bool)áÿ}Æ¯ß!;
 
 // Remaining properties
 @property(nonatomic) _Bool hasAmpSubscriptionStatus; // @synthesize hasAmpSubscriptionStatus=_hasAmpSubscriptionStatus;
-@property(nonatomic) _Bool hasHasAmpSubscriptionStatus;
-@property(nonatomic) _Bool hasHasItunesSubscriptionStatus;
-@property(nonatomic) _Bool hasHasSharedUserId;
-@property(nonatomic) _Bool hasHasUserToken;
-@property(nonatomic) _Bool hasItunesSubscriptionStatus; // @synthesize hasItunesSubscriptionStatus=_hasItunesSubscriptionStatus;
-@property(nonatomic) _Bool hasSharedUserId; // @synthesize hasSharedUserId=_hasSharedUserId;
-@property(nonatomic) _Bool hasUserToken; // @synthesize hasUserToken=_hasUserToken;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,6 +9,7 @@
 @protocol AFNotifyObserverDelegate
 
 @optional
-- (void)oiceTriggeredTokenWithCompletion:(AFNotifyObserver *)arg1;
+- (void)DetectFaceGazeRequestCodingKeys;
+- (void)readVoiceTriggeredTokenWithCompletion:(AFNotifyObserver *)arg1;
 @end
 

@@ -11,11 +11,11 @@
     GEOLocationShifter *_geoLocationShifter;
 }
 
-+ (_Bool);
++ (_Bool)link:(struct CLLocationCoordinate2D)arg1 didReceiveReportEvent: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (void)erForPolygonalRegionEvents;
+- (void)RE;
+- (void)_registerForPolygonalRegionEvents;
 - (void)not satisfying:assertionIdentifier /* Error: Ran out of types for this method. */;
 
 @end

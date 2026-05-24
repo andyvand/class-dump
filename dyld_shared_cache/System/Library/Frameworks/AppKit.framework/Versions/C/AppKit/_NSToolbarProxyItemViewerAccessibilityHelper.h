@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
+- (id)ExternalPowerSourceConnected;
 - (id);
 - (id);
 - (void);
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)failed to unpack error from xpc message;
 - (void);
 
 @end

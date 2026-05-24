@@ -9,11 +9,11 @@
 }
 
 + (void);
-+ (void);
-+ (unsigned long long);
++ (void);
++ (unsigned long long)_string;
 + (void);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)VOTEventCommandSearchRotorEcho;
 + (_Bool);
 
 @end

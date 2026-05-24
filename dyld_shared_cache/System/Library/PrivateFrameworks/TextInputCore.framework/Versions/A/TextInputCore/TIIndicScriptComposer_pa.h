@@ -13,7 +13,7 @@
     NSDictionary *_modifiersToAllowedPrefixes;
 }
 
-- (id);
+- (id)status %d;
 - (id);
 - (id);
 - (id);

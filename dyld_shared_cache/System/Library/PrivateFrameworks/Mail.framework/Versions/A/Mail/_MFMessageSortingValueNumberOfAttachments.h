@@ -13,7 +13,7 @@
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)selectionImageForcingBlackText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfAttachments; // @synthesize numberOfAttachments=_numberOfAttachments;

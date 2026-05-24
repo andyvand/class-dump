@@ -9,8 +9,6 @@
 @interface CLMapsXPCServiceManager
 {
     NSTimer *fInactivityTimer;
-    double fTimerUpdateMachContTime;
-    NSXPCConnection *_connection;
 }
 
 + (id)Ä;
@@ -22,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)createStructPropertyValue;
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)setDepthStoreAction:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

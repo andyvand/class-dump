@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
 @protocol MSBackoffManagerDelegate;
 
 @interface MSBackoffManager
 {
     id <MSBackoffManagerDelegate> _delegate;
-    double _initialInterval;
-    double _backoffFactor;
-    double _randomizeFactor;
-    double _maxBackoffInterval;
-    double _currentInterval;
-    NSDate *_nextExpiryDate;
-    NSDate *_retryAfterDate;
 }
 
 + (_Bool);
@@ -25,37 +17,30 @@
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)aitsIcEENS_9allocatorIcEEEERK8CategoryE3$_0;
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id) ;
+- (id)entryEventBackwardDefinitionWifiChipConnectionActivity;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
-- (id);
+- (id)ID.  That's bad.  account:%@ /* Error: Ran out of types for this method. */;
+- (double)_keepGraphInitialized;
+- (id)tream;
 - (double);
 - (void);
-- (double)thGUID:personID:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)setMultipleContributorsEnabled:forAlbumWithGUID:personID:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double backoffFactor; // @synthesize backoffFactor=_backoffFactor;
-@property(nonatomic) double currentInterval; // @synthesize currentInterval=_currentInterval;
 @property(nonatomic) id <MSBackoffManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double initialInterval; // @synthesize initialInterval=_initialInterval;
-@property(nonatomic) double maxBackoffInterval; // @synthesize maxBackoffInterval=_maxBackoffInterval;
-@property(retain) NSDate *nextExpiryDate;
-@property(nonatomic) double randomizeFactor; // @synthesize randomizeFactor=_randomizeFactor;
-@property(retain) NSDate *retryAfterDate; // @synthesize retryAfterDate=_retryAfterDate;
 
 @end
 

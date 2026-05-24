@@ -6,19 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CITextImageGenerator : CIFilter
 {
     NSString *inputText;
-    NSString *inputFontName;
-    NSNumber *inputFontSize;
-    NSNumber *inputScaleFactor;
-    NSNumber *inputPadding;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -26,16 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id)Vgcl@RF\QVJ^Ye_knpmuGc\tPaZnL_XiF]U`TTTT9H7LJO@X^spwvf    dttzKc^j^d_dF\Vfcigpkz}~fwxyEWNe[a[guuuussssPYQ_0G:W````]gggffffddddffffmpppzzzzZppp5KAW'=.IBK@NR\T_colz    uUjaywriwj~|¡¡¡¡««««¯¯¯¯¤¥¥u©©©©´´´´¯°³³¨¨¨¨nuozppmpnnnngggg[d[fvvvv ¡¡¡££££w~grluFf]s\rm~y}~{xxxx]olvr{£¡¥¥¨¨¨¨   }]vo~\ldvXkewjxv|~~~~{zy{~~}}{}zpn|yz¥¥¥¥¥¥¥¥{}zgkcy_tpp}}}Za[cTTMTKUJZanjq||||`mjmaa[a\\\\PYO^fe]ivwtzg{yv{{{{nnnncc_cddadjmkm\qou{{{{~~~~sª¯¯¹¹¹¹µµµµ¢§««¤¥¥¥¥¥¤¤¤¤i~{k|{rrrr=UHade^i¤¤¤¤    ezw|zus}xourvJaXmZkeqzzzzm|{{~}|wc~|²²²²³³³³©©©©¤¤¤¤¢¢¢¢m|Mpe¡¡¡¡l~{~~~~~{~~~~Xmgy¤¤¤¤¤¤¤¤e{uvzbvo}muoz{yv|[tr~syyykkkk=SH_W_Wg{{{{`yyjpkxttpt /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *inputFontName; // @synthesize inputFontName;
-@property(retain, nonatomic) NSNumber *inputFontSize; // @synthesize inputFontSize;
-@property(retain, nonatomic) NSNumber *inputPadding; // @synthesize inputPadding;
-@property(retain, nonatomic) NSNumber *inputScaleFactor; // @synthesize inputScaleFactor;
 @property(retain, nonatomic) NSString *inputText; // @synthesize inputText;
 
 @end

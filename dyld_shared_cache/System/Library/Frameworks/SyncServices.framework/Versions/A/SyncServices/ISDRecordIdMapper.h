@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDIdMapDatabase, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface ISDRecordIdMapper
 {
     NSMutableSet *_entityNames;
-    NSMutableDictionary *_globalIdMap;
-    NSMutableDictionary *_localIdMap;
-    NSMutableDictionary *_unresolvedLocalIdMap;
-    NSMutableDictionary *_phantomUnresolvedIdMap;
-    NSString *_path;
-    unsigned long long _flushCount;
-    _Bool _dirty;
-    ISDIdMapDatabase *_constructedIdMapper;
-    NSMutableSet *_newLocalIdMappings;
-    _Bool _useLocalsAsGlobals;
-    NSMutableDictionary *_unknownRecordTypes;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)B;
 - (_Bool);
 - (id);
 - (id);
@@ -40,7 +29,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -62,47 +51,47 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)*;
+- (id);
+- (id)a|;
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)teChangesWithReferencesToId:function:context: /* Error: Ran out of types for this method. */;
+- (void)_enumerateChangesWithReferencesToId:function:context: /* Error: Ran out of types for this method. */;
 - (void)P;
 
 @end

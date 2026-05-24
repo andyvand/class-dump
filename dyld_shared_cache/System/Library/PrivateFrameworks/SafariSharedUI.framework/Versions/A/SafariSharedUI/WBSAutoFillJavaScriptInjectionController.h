@@ -6,21 +6,19 @@
 
 #import <SafariSharedUI/WBSJavaScriptInjectionController.h>
 
-@class NSMapTable, NSMutableDictionary, NSString;
+@class NSMapTable;
 
 @interface WBSAutoFillJavaScriptInjectionController : WBSJavaScriptInjectionController
 {
     NSMapTable *_observers;
-    _Bool _isCurrentlyFilling;
-    NSMutableDictionary *_documentsInjectionStatus;
 }
 
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool)B99;
 + (id);
 + (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -29,22 +27,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)7;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -56,6 +54,7 @@
 - (void);
 - (void);
 - (void);
+- (void)R,;
 - (void);
 - (void);
 - (void);
@@ -65,25 +64,18 @@
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
+- (void)`;
+- (void);
+- (void)#)(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)Delegate;
+- (void)WBSSiteMetadataImageCacheDelegate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

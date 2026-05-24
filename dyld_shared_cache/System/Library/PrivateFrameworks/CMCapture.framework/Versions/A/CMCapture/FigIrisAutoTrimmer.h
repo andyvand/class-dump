@@ -4,49 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray;
-
 @interface FigIrisAutoTrimmer
 {
     _Bool _motionAvailable;
-    CDStruct_bf7dff04 _captureMotionDelta;
-    double _captureMotionDeltaPeriod;
-    _Bool _haveCaptureMotionDelta;
-    CDStruct_bf7dff04 _lastAttitude;
-    CDStruct_bf7dff04 _lastDelta;
-    double _lastCheckedTimestamp;
-    int _lastStatus;
-    int _svmKernelType;
-    int _svmVectorCount;
-    int _svmParamCount;
-    float _svmRBFRho;
-    float _svmRBFGamma;
-    NSArray *_svmKeys;
-    NSData *_svmNormalization;
-    NSData *_svmVectors;
-    NSMutableArray *_motionSamples;
-    unsigned long long _estimatedIntermediatesCount;
-    _Bool _intermediateLoggingEnabled;
-    CDStruct_1b6d18a9 _maxHoldDuration;
-    long long _maxHoldFrames;
-    double _bufferHistorySeconds;
-    double _motionSampleRate;
-    unsigned long long _nominalHistorySize;
-    _Bool _vitalityScoringEnabled;
-    float _vitalityDocumentThreshold;
-    unsigned int _vitalityScoringVersion;
-    CDStruct_08002bce _vitalityScoringSmartCameraPipelineVersion;
 }
 
 + (void)aGroup-MRC;
-- (unsigned int);
-- (id);
+- (unsigned int)4;
+- (id)initWithUserActivityLabel: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)getModificationTime;
+- (void)NSString",R,V_minuteLongSingularString;
 - (void);
 - (double);
-- (CDStruct_08002bce);
+- (CDStruct_b99bf284);
 - (int);
 - (void);
 - (float);
@@ -54,9 +25,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_lock_nonCopyOfAccountWithIdentifier:(double)arg1;
 - (double);
-- (void);
+- (void)pseudo-contact entity with name length:(double)arg1 %tu;
 - (CDStruct_1b6d18a9);
 - (void);
 - (void);
@@ -68,7 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool trimmingActive;
-@property(readonly, nonatomic) unsigned int vitalityScoringVersion;
 
 @end
 

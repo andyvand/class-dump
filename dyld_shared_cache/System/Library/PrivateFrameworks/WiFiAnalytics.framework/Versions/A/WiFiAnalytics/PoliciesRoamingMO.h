@@ -6,19 +6,18 @@
 
 #import <WiFiAnalytics/PoliciesMO.h>
 
-@class BSSMO, RoamMO;
+@class BSSMO;
 
 @interface PoliciesRoamingMO : PoliciesMO
 {
 }
 
-+ (id);
++ (id)A;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) BSSMO *bss; // @dynamic bss;
-@property(retain, nonatomic) RoamMO *roam; // @dynamic roam;
 
 @end
 

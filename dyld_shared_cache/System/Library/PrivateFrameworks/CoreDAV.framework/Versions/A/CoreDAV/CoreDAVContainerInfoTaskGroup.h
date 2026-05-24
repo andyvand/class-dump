@@ -6,17 +6,9 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSMutableSet, NSSet, NSString;
-@protocol CoreDAVContainerInfoTaskGroupDelegate;
-
 @interface CoreDAVContainerInfoTaskGroup : CoreDAVTaskGroup
 {
     int _phase;
-    NSMutableSet *_containerURLs;
-    NSMutableSet *_containers;
-    int _containerInfoDepth;
-    NSString *_appSpecificHomeSetPropNameSpace;
-    NSString *_appSpecificHomeSetPropName;
 }
 
 - (void);
@@ -25,26 +17,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ccessibility.guidedaccess.springBoardStopBlockingEvents;
+- (id)_shareButton;
 - (int);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)in progress.;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int containerInfoDepth; // @synthesize containerInfoDepth=_containerInfoDepth;
-@property(readonly, nonatomic) NSSet *containerURLs; // @synthesize containerURLs=_containerURLs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CoreDAVContainerInfoTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

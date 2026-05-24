@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SCNAction;
+
 @protocol SCNActionJSExport
++ (SCNAction *);
++ (SCNAction *)4;
++ (SCNAction *);
+- (long long);
+- (double)bleUARPPacketCapture:capturePath:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id)_as_ambientOcclusion)
 DECLARE_BOOL(use_texture_transforms)
 DECLARE_BOOL(use_point_rendering)
@@ -54,8 +61,5 @@ DECLARE_INT(io_texcoord_count)
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) double speed;
-@property(nonatomic) CDUnknownBlockType timingFunction;
-@property(nonatomic) long long timingMode;
 @end
 

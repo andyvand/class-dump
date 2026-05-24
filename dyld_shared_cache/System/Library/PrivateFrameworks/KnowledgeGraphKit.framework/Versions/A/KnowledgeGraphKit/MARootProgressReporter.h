@@ -9,9 +9,6 @@
 @interface MARootProgressReporter : MAProgressReporter
 {
     double _lastProgressCallTime;
-    _Bool _isCancelled;
-    CDUnknownBlockType _progressBlock;
-    double _progress;
 }
 
 - (void);
@@ -21,13 +18,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)ruct;
 - (void);
 - (void)`0ièihoTqHspwøw;
 
 // Remaining properties
-@property _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly) double progress; // @synthesize progress=_progress;
 @property(readonly, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
 
 @end

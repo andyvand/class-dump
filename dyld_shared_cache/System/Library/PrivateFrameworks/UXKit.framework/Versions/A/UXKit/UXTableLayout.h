@@ -6,8 +6,7 @@
 
 #import <UXKit/UXCollectionViewFlowLayout.h>
 
-@class NSMutableArray, NSMutableDictionary;
-@protocol UXCollectionViewDelegateFlowLayout;
+@class NSMutableArray;
 
 @interface UXTableLayout : UXCollectionViewFlowLayout
 {
@@ -22,21 +21,19 @@
         unsigned int showsSectionHeaderForSingleSection:1;
         unsigned int showsSectionFooterForSingleSection:1;
     } _tableLayoutFlags;
-    NSMutableArray *_layoutAttributesArray;
-    NSMutableDictionary *_headerAttributesByIndexPath;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (struct NSEdgeInsets);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -48,12 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <UXCollectionViewDelegateFlowLayout> delegateFlowLayout;
-@property(nonatomic) _Bool floatingHeadersDisabled;
-@property(readonly, nonatomic) NSMutableDictionary *headerAttributesByIndexPath; // @synthesize headerAttributesByIndexPath=_headerAttributesByIndexPath;
 @property(readonly, nonatomic) NSMutableArray *layoutAttributesArray; // @synthesize layoutAttributesArray=_layoutAttributesArray;
-@property(nonatomic) _Bool showsSectionFooterForSingleSection;
-@property(nonatomic) _Bool showsSectionHeaderForSingleSection;
 
 @end
 

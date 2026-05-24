@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXHandle, NSDictionary, NSString;
+@class NSString;
 
 @interface CXHandoffContext
 {
     _Bool _outgoing;
-    NSString *_handoffIdentifier;
-    CXHandle *_remoteHandle;
-    NSDictionary *_context;
 }
 
 + (_Bool);
@@ -25,21 +22,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)eason=%{public}@ currentItemID=%{public}@;
 - (id);
-- (_Bool);
+- (_Bool)_contentItemBloomFilter;
+- (void)EQ_SMALL_SPEAKERS;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, copy, nonatomic) NSString *handoffIdentifier; // @synthesize handoffIdentifier=_handoffIdentifier;
-@property(nonatomic, getter=isOutgoing) _Bool outgoing; // @synthesize outgoing=_outgoing;
-@property(copy, nonatomic) CXHandle *remoteHandle; // @synthesize remoteHandle=_remoteHandle;
 
 @end
 

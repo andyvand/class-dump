@@ -6,24 +6,16 @@
 
 #import <CMCapture/FigCapturePipeline.h>
 
-@class BWFanOutNode, BWRealtimeCinematographyNode, BWSmartStyleLearningNode, BWVideoDepthNode, FigCaptureCinematographyPipelineConfiguration, NSString;
+@class FigCaptureCinematographyPipelineConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureCinematographyPipeline : FigCapturePipeline
 {
     FigCaptureCinematographyPipelineConfiguration *_configuration;
-    BWVideoDepthNode *_videoDepthNode;
-    BWRealtimeCinematographyNode *_cinematographyNode;
-    BWSmartStyleLearningNode *_smartStyleLearningNode;
-    NSString *_sourceID;
-    BWFanOutNode *_videoCaptureSplitterNode;
-    unsigned int _videoCaptureOutputIndex;
-    BWFanOutNode *_previewSplitterNode;
-    unsigned int _previewOutputIndex;
 }
 
 + (void)avfoundation.avcapturedevice.built-in_video:99 /* Error: Ran out of types for this method. */;
-- (void);
+- (void)et",&,VmTarget;
 
 @end
 

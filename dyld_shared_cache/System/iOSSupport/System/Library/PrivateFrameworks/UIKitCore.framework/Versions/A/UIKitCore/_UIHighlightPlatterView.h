@@ -6,29 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UITargetedPreview, _UIPlatterSoftShadowView, _UIPortalView;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIHighlightPlatterView : UIView
 {
     double _shadowAlpha;
-    double _backgroundAlpha;
-    UITargetedPreview *_targetedPreview;
-    _UIPortalView *_portalView;
-    UIView *_backgroundView;
-    _UIPlatterSoftShadowView *_shadowView;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
+- (id)thumbnailModeAfterDownloadSuccess: /* Error: Ran out of types for this method. */;
+- (id)ableMessageSync:(id)arg1 syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (id)PUT chat = %@; reviewedChatGUIDs = %@;
+- (_Bool)@;
+- (double)etItemReaderWriterForItem missing local error;
 - (void)!dDùQað1Â0@ù
 × ;
-- (void)mator:(id)arg1 animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)_applySnapshot:(id)arg1 toSection:animatingDifferences:viewPropertyAnimator:animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
 - (id),&,N,V_nextInputModeToUse;
 - (double);
 - (id)ing a UIBarButtonItemGroup (representativeItem=%@, barButtonItems=%@);
@@ -37,11 +32,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double backgroundAlpha; // @synthesize backgroundAlpha=_backgroundAlpha;
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(nonatomic) double shadowAlpha; // @synthesize shadowAlpha=_shadowAlpha;
-@property(retain, nonatomic) _UIPlatterSoftShadowView *shadowView; // @synthesize shadowView=_shadowView;
 @property(retain, nonatomic) UITargetedPreview *targetedPreview; // @synthesize targetedPreview=_targetedPreview;
 
 @end

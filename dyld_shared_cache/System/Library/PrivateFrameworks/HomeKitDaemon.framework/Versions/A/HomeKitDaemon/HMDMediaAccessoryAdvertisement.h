@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDMediaAccessoryAdvertisement : HMDAccessoryAdvertisement
 {
     struct os_unfair_lock_s _lock;
-    _Bool _associated;
-    HMDMediaOutputDevice *_outputDevice;
 }
 
 + (_Bool);
@@ -28,7 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)rate above threshold;
 
 // Remaining properties
-@property(getter=isAssociated) _Bool associated; // @synthesize associated=_associated;
 @property(retain) HMDMediaOutputDevice *outputDevice; // @synthesize outputDevice=_outputDevice;
 
 @end

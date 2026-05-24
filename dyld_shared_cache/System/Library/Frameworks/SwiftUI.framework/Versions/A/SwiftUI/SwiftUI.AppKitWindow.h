@@ -7,8 +7,6 @@
 @interface SwiftUI.AppKitWindow
 {
     id info;
-    id update;
-    id backgroundHost;
 }
 
 - (id);
@@ -23,7 +21,7 @@
 - (long long);
 - (id);
 - (const struct CGPath *);
-- (struct CGRect);
+- (struct CGRect)Ѵk:(struct CGRect)arg1 �;
 - (struct CGRect);
 - (void)|Y7¬ÿõ{Y7ÐÿÕ{Y7ôÿ;
 - (_Bool)z;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSXPCListenerEndpoint *_endpoint;
 }
 
-+ (_Bool);
++ (_Bool)^vQ>48;
 - (id);
 - (id);
 - (void);

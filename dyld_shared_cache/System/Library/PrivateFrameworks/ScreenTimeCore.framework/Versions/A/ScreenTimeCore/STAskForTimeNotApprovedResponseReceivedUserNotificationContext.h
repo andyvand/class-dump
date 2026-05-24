@@ -11,23 +11,21 @@
 @interface STAskForTimeNotApprovedResponseReceivedUserNotificationContext : STUserNotificationContext
 {
     NSString *_parentName;
-    NSString *_requestedResourceName;
 }
 
 + (_Bool);
+- (void)e_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (void)T NOT NULL DEFAULT '');
+- (id)(item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (id)otal_time_ms REAL NOT NULL DEFAULT 0, year INTEGER DEFAULT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, category_id INTEGER DEFAULT 0, location_kind_id INTEGER NOT NULL DEFAULT 0, version TEXT NOT NULL DEFAULT '', display_version TEXT NOT NULL DEFAULT '');
+- (id)M item_extra JOIN item_store USING (item_pid) WHERE artwork_cache_id IS NOT NULL AND artwork_cache_id != 0 AND store_saga_id != 0;
+- (void)RT INTO item_upp (item_pid, bookkeeper_identifier, metadata_timestamp, metadata_entity_revision) SELECT item_pid, storebookmark_identifier, store_bookmark_timestamp, store_bookmark_entity_revision FROM item JOIN item_storebookmark_identifier USING(item_pid) JOIN item_stats USING(item_pid);;
+- (id)`;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)Library/PrivateFrameworks/CBORLibrary.framework/Versions/A/CBORLibrary;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *parentName; // @synthesize parentName=_parentName;
-@property(copy, nonatomic) NSString *requestedResourceName; // @synthesize requestedResourceName=_requestedResourceName;
 
 @end
 

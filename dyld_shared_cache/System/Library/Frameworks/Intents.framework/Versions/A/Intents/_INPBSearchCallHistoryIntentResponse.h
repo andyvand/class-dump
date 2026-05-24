@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchCallHistoryIntentResponse
 {
     struct _has;
-    NSArray *_callRecords;
-    NSString *_dateCreated;
-    NSString *_status;
-    NSString *_targetContact;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -24,7 +20,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,25 +35,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)nseCodeFailureLabelExists;
+- (_Bool);
+- (void)INCreateTimerIntentResponseCodeFailureLabelExists;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *callRecords; // @synthesize callRecords=_callRecords;
-@property(readonly, nonatomic) unsigned long long callRecordsCount;
-@property(copy, nonatomic) NSString *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasTargetContact;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *targetContact; // @synthesize targetContact=_targetContact;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface TSgPTPTime
 {
     _Bool _ptpTimescale;
-    _Bool _timeTraceable;
-    _Bool _frequencyTraceable;
-    unsigned short _localPortNumber;
-    unsigned long long _nanosecondsSinceEpoch;
-    unsigned long long _grandmasterIdentity;
 }
 
 - (unsigned long long);
@@ -20,25 +15,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned short);
-- (_Bool);
+- (unsigned short));
+- (_Bool)I;
 - (unsigned int);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFrequencyTraceable) _Bool frequencyTraceable; // @synthesize frequencyTraceable=_frequencyTraceable;
-@property(readonly, nonatomic) unsigned long long grandmasterIdentity; // @synthesize grandmasterIdentity=_grandmasterIdentity;
-@property(readonly, nonatomic) unsigned short localPortNumber; // @synthesize localPortNumber=_localPortNumber;
-@property(readonly, nonatomic) unsigned int nanoseconds; // @dynamic nanoseconds;
 @property(readonly, nonatomic) unsigned long long nanosecondsSinceEpoch; // @synthesize nanosecondsSinceEpoch=_nanosecondsSinceEpoch;
-@property(readonly, nonatomic, getter=isPTPTimescale) _Bool ptpTimescale; // @synthesize ptpTimescale=_ptpTimescale;
-@property(readonly, nonatomic) unsigned long long seconds; // @dynamic seconds;
-@property(readonly, nonatomic, getter=isTimeTraceable) _Bool timeTraceable; // @synthesize timeTraceable=_timeTraceable;
 
 @end
 

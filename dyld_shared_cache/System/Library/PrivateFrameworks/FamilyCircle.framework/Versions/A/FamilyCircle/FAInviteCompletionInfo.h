@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface FAInviteCompletionInfo
 {
     _Bool _isNewFamily;
-    unsigned long long _transportType;
-    NSArray *_recipients;
-    unsigned long long _status;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)primaryButtonEnabled;
+- (id)rankerConfidence;
+- (_Bool)RIGHT;
+- (unsigned long long)Review;
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
 - (void);
+- (unsigned long long)erty=%p;
+- (void)o;
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) _Bool isNewFamily; // @synthesize isNewFamily=_isNewFamily;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
 @property(nonatomic) unsigned long long transportType; // @synthesize transportType=_transportType;
 
 @end

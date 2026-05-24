@@ -13,8 +13,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double akMaximumValue;
-@property(nonatomic) double akMinimumValue;
 @property(nonatomic) double akValue;
 @end
 

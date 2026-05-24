@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKClassKitAccountStateProvider, NSString;
+@class CRKClassKitAccountStateProvider;
 
 @interface CRKConcreteClassKitFacade
 {
@@ -22,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,22 +50,14 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountState;
 @property(readonly, nonatomic) CRKClassKitAccountStateProvider *accountStateProvider; // @synthesize accountStateProvider=_accountStateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

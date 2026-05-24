@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     MKLookAroundView *_lookAroundView;
 }
 
-- (id);
+- (id)addressingGrammarToEncryptedStringTransform;
 - (void);
-- (id);
-- (void)tercellSpacing: /* Error: Ran out of types for this method. */;
+- (id)ounts - no principal path for delegateInfo:%{public}@ %@ /* Error: Ran out of types for this method. */;
+- (void)setIntercellSpacing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak MKLookAroundView *lookAroundView; // @synthesize lookAroundView=_lookAroundView;

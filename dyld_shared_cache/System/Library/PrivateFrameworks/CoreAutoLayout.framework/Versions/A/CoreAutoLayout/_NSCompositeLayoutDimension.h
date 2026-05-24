@@ -11,20 +11,18 @@
 @interface _NSCompositeLayoutDimension : NSLayoutDimension
 {
     NSLayoutDimension *_firstLayoutDimension;
-    double _secondLayoutDimensionMultiplier;
-    NSLayoutDimension *_secondLayoutDimension;
 }
 
 - (id);
+- (id)8`;
 - (id);
 - (id);
 - (id);
+- (id)C;
+- (double);
+- (void)MLNeuralEngineComputeDevice;
 - (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
+- (void)_initWithEmail:(id)arg1 password:recoveryKey:secondEmail:accountID:altDSID:accountPropertyOverrides:overridesByDataclass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSArray *_childAnchors;

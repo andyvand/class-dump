@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackgroundTaskManager, HMDHAPMetadata, NSDate, NSNotificationCenter;
-@protocol HMDHAPAccessorySwiftDataSource, HMDPreferences;
+@protocol HMDHAPAccessorySwiftDataSource;
 
 @interface HMDHAPAccessoryDefaultDataSource
 {
@@ -16,19 +15,13 @@
 - (id);
 - (id);
 - (id);
-- (id)ppleMediaAccessoryWithModelIdentifier: /* Error: Ran out of types for this method. */;
+- (id)mkfAppleMediaAccessoryWithModelIdentifier: /* Error: Ran out of types for this method. */;
 - (id)ersion:%d /* Error: Ran out of types for this method. */;
 - (void)O ÿq;
 - (id)gC;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) HMDBackgroundTaskManager *backgroundTaskManager;
-@property(nonatomic, readonly) NSDate *currentDate;
-@property(nonatomic, readonly) HMDHAPMetadata *hapMetadata;
-@property(nonatomic, readonly) _Bool isResidentCapable;
-@property(nonatomic, readonly) NSNotificationCenter *notificationCenter;
-@property(nonatomic, readonly) id <HMDPreferences> preferences;
 @property(nonatomic, readonly) id <HMDHAPAccessorySwiftDataSource> swiftDataSource; // @synthesize swiftDataSource;
 
 @end

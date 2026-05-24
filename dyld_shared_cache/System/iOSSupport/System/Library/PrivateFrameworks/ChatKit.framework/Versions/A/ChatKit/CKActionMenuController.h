@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKActionMenuView, NSArray;
-@protocol CKActionMenuControllerDelegate;
+@class CKActionMenuView;
 
 @interface CKActionMenuController
 {
     _Bool _shouldDismissOnTap;
-    unsigned long long _defaultActionIndex;
-    id <CKActionMenuControllerDelegate> _delegate;
-    CKActionMenuView *_actionMenuView;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)l;
+- (void)u;
+- (_Bool)myNodeStruct=*IQQBBddddddddd}16;
+- (id)NoteLockManager addLockWithCompletionHandler:(id)arg1 ];
 - (void);
 - (unsigned long long);
 - (struct CGRect);
@@ -33,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actionMenuItems;
 @property(retain, nonatomic) CKActionMenuView *actionMenuView; // @synthesize actionMenuView=_actionMenuView;
-@property(readonly, nonatomic, getter=isActionMenuVisible) _Bool actionMenuVisible;
-@property(readonly, nonatomic) unsigned long long defaultActionIndex; // @synthesize defaultActionIndex=_defaultActionIndex;
-@property(nonatomic) __weak id <CKActionMenuControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool shouldDismissOnTap; // @synthesize shouldDismissOnTap=_shouldDismissOnTap;
 
 @end
 

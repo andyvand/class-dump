@@ -6,15 +6,12 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@class NSArray, NSMutableDictionary, NSString;
-@protocol BPSPublisher, BPSWindowAssigner;
+@class NSMutableDictionary;
+@protocol BPSPublisher;
 
 @interface BPSWindower : BMBookmarkablePublisher
 {
     id <BPSPublisher> _upstream;
-    CDUnknownBlockType _key;
-    id <BPSWindowAssigner> _assigner;
-    NSMutableDictionary *_windows;
 }
 
 + (id);
@@ -25,12 +22,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)N14CoreNavigation3CLP8LogEntry11PrivateData11NatalimetryE;
 - (void);
-- (id);
+- (id)sharingOutboundForBugSessionIdentifier:device:fromInbound: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool)H;
 - (void);
 - (id);
 - (_Bool);
@@ -40,21 +37,10 @@
 - (id);
 - (id);
 - (id)× ;
-- (_Bool)tream:key:assigner: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithDownstream:key:assigner: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <BPSWindowAssigner> assigner; // @synthesize assigner=_assigner;
-@property(readonly, nonatomic) NSArray *bookmarkableUpstreams;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType key; // @synthesize key=_key;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 @property(retain, nonatomic) NSMutableDictionary *windows; // @synthesize windows=_windows;
 
 @end

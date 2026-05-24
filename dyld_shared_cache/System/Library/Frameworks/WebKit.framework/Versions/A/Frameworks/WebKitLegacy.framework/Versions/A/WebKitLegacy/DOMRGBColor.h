@@ -6,25 +6,21 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class DOMCSSPrimitiveValue, NSColor;
+@class DOMCSSPrimitiveValue;
 
 @interface DOMRGBColor : DOMObject
 {
 }
 
-- (void);
+- (void)blic}@:[%{public}@] Metrics Identifier Store not updated for namespace "%{public}@" because we can't find the account /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id)max_property_requests;
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (id)ue: /* Error: Ran out of types for this method. */;
+- (id)setNameFieldStringValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) DOMCSSPrimitiveValue *alpha;
-@property(readonly) DOMCSSPrimitiveValue *blue;
-@property(readonly, copy) NSColor *color;
-@property(readonly) DOMCSSPrimitiveValue *green;
 @property(readonly) DOMCSSPrimitiveValue *red;
 
 @end

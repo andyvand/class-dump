@@ -6,20 +6,12 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWStillImageNodeConfiguration, NSMutableDictionary, NSString;
+@class BWStillImageNodeConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface BWStillImageStandardResolutionAttachmentTransferNode : BWNode
 {
     BWStillImageNodeConfiguration *_nodeConfiguration;
-    NSMutableDictionary *_inferencesFromStandardResBuffer;
-    NSMutableDictionary *_attachedMediasFromStandardResBuffer;
-    NSMutableDictionary *_attachmentsFromStandardResBuffer;
-    _Bool _hasAttachmentsFromStandardResBuffer;
-    struct opaqueCMSampleBuffer *_enhancedResolutionBuffer;
-    NSString *_lastCaptureRequestIdentifier;
-    long long _lastSettingsID;
-    CDStruct_79c71658 _standardResBufferDimensions;
 }
 
 + (void)locatorRef, DASessionRef, CFURLRef);

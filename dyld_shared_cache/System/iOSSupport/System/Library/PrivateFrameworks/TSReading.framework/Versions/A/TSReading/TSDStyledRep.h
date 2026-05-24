@@ -6,47 +6,38 @@
 
 #import <TSReading/TSDRep.h>
 
-@class CALayer, NSString, TSDMutableReflection, TSDReflection, TSDShadow;
+@class CALayer;
 
 @interface TSDStyledRep : TSDRep
 {
     CALayer *mShadowLayer;
-    CALayer *mReflectionLayer;
-    struct CGPoint mOriginalReflectionLayerPositionInScaledCanvas;
-    _Bool mIsUpdatingReflectionOpacity;
-    TSDMutableReflection *mDynamicReflection;
-    _Bool mIsUpdatingShadow;
-    TSDShadow *mDynamicShadow;
-    struct {
-        unsigned int shadowInvalid:1;
-    } mFlags;
 }
 
-- (void);
+- (void)ckAccount"8@"MPCPlaybackAccount"16;
 - (id);
+- (id)preroll done: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)mps;
+- (_Bool)oes not support speedRamps.;
+- (struct CGRect)InternalPlayerControllerDelegate;
+- (struct CGRect);
+- (struct CGRect);
+- (void)TransitionState;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (id);
-- (struct CGRect);
+- (struct CGRect)0;
 - (struct CGImage *);
 - (void);
 - (void);
 - (struct CGRect);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,8 +53,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ay will be ignored;
+- (id)letter signup screen;
 - (struct CGRect);
 - (void);
 - (_Bool);
@@ -78,18 +69,7 @@
 - (void)Øêÿø[4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double opacity;
-@property(readonly, nonatomic) TSDReflection *reflection;
-@property(readonly, nonatomic) CALayer *reflectionLayer; // @synthesize reflectionLayer=mReflectionLayer;
-@property(readonly, nonatomic) TSDShadow *shadow;
 @property(readonly, nonatomic) CALayer *shadowLayer; // @synthesize shadowLayer=mShadowLayer;
-@property(readonly) Class superclass;
 
 @end
 

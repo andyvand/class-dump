@@ -7,9 +7,11 @@
 @class NSData;
 
 @protocol NFCMiFareTag
+- (void);
+- (void);
+- (unsigned long long)=K;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *historicalBytes;
 @property(readonly, copy, nonatomic) NSData *identifier;
 @property(readonly, nonatomic) unsigned long long mifareFamily;
 @end

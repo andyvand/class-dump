@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASettingSetBool.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SASettingSetSpokenNotificationsEnabled : SASettingSetBool
 {
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSDate *timeToReEnable;
 
 @end
 

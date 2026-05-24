@@ -9,16 +9,11 @@
 @interface (extension in UIKit):__C.UIView.InProcessAnimationState : UIViewAnimationState
 {
     id updateType;
-    id animationAndComposerGetter;
-    id isInteractive;
-    id retargeted;
-    id flushPresentationModifiersOverride;
-    id startingVelocity;
 }
 
 - (_Bool);
 - (id);
-- (id)pdateMaskViewUsingAttributes:(id)arg1;
+- (id)_updateMaskViewUsingAttributes:(id)arg1;
 - (_Bool)qáÿ Û$Ñl;
 - (void)§ÿüMÒHÚl;
 

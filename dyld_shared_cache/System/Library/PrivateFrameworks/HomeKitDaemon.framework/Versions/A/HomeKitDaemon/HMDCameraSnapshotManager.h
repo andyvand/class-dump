@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraResidentMessageHandler, HMDCameraSnapshotCache, HMDCameraSnapshotFileManager, HMDCameraSnapshotLocalSession, HMDCameraSnapshotMonitorEvents, HMDCameraSnapshotRequestHandler, HMDCameraStreamSnapshotHandler, HMDHAPAccessory, HMFMessageDispatcher, HMFNetMonitor, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol HMDCameraSnapshotManagerDataSource, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotManager
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_uniqueIdentifier;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDCameraSnapshotLocalSession *_currentLocalSession;
-    NSMutableDictionary *_currentRemoteSessions;
-    HMDHAPAccessory *_accessory;
-    NSString *_imageCacheDirectory;
-    HMDCameraSnapshotMonitorEvents *_monitorServicesManager;
-    HMDCameraSnapshotRequestHandler *_snapshotRequestHandler;
-    HMDCameraSnapshotCache *_snapshotCache;
-    HMDCameraSnapshotFileManager *_snapshotFileManager;
-    HMDCameraStreamSnapshotHandler *_streamSnapshotHandler;
-    NSMutableArray *_pendingSnapshotRequestDuringStreamSetup;
-    NSMutableArray *_pendingRemoteSnapshotRequestDuringStreamSetup;
-    HMFNetMonitor *_networkMonitor;
-    HMDCameraResidentMessageHandler *_residentMessageHandler;
-    id <HMDCameraSnapshotManagerDataSource> _dataSource;
-    NSString *_logIdentifier;
 }
 
 + (void);
-+ (id);
++ (id)clsHasPoorResolution;
 + (id)q;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)dataWithContentsOfURL:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (void)_subscribedConnectionsForTripID:(id)arg1 createIfNeeded:(id)arg2;
+- (void)_subscribeToSharedTripUpdatesWithIdentifier:(id)arg1 completion:(id)arg2;
+- (void)_stringValue;
+- (void)_fetchSyncedIdentifiers;
+- (void)_fetchSharedTripsWithCompletion:(id)arg1;
+- (void)_fetchQueuesDidUpdate;
+- (void)_fetchDisplayName;
+- (void)_failedDirectionsSettingsPath;
+- (void)_enqueuedCoalescingEditBarrierBlocks;
+- (void)_endWaypoint;
+- (void)_enableVirtualReceivers;
+- (void)_editDetectorDidDetectUpdateForObject:(id)arg1;
+- (void)_droppedPinCoordinate;
+- (void)_directionsSearch;
+- (void)_didStartSharingWithContact:(id)arg1 withCapabilityType:(id)arg2 serviceName:(id)arg3 error:(id)arg4 queue:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -73,22 +56,7 @@ __attribute__((visibility("hidden")))
 - (id)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDictionary *encodedMostRecentSnapshot;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

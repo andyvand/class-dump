@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMList, REMListBadge;
+@class REMList;
 
 @interface REMListAppearanceContext
 {
     REMList *_list;
 }
 
-- (id);
-- (id);
+- (id)ntent-Length;
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)fication. Error:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (void)!PEùñr ð1Â0@ù
 × ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) REMListBadge *badge;
-@property(readonly, nonatomic) NSString *badgeEmblem;
 @property(retain, nonatomic) REMList *list; // @synthesize list=_list;
 
 @end

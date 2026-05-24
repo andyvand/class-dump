@@ -11,7 +11,7 @@
 
 + (id);
 - (struct CGImage *);
-- (void);
+- (void)g;
 - (id);
 - (struct CGImage *);
 - (struct CGSize);
@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *image;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

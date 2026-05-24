@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSNumber;
+@class CIImage;
 
 @interface DGBWBilateralConvolution
 {
     CIImage *inputImage;
-    NSArray *inputPoints;
-    NSArray *inputWeights;
-    NSNumber *inputEdgeDetail;
-    NSNumber *inputBorder;
 }
 
 + (id);

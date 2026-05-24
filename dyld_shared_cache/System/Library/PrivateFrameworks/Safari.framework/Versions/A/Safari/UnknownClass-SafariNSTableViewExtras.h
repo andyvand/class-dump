@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)R;
 - (long long);
 - (long long);
 - (_Bool);
@@ -35,14 +35,13 @@
 - (id);
 - (id);
 - (void);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)C;
 - (struct CGPoint);
 - (id);
-- (double);
+- (double);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double safari_styleContentInsetsHeight;
 @property(readonly, nonatomic) double safari_styleContentInsetsWidth;
 @end
 

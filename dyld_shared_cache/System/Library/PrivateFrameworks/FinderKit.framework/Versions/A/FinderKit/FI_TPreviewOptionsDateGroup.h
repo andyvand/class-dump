@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (struct TString);
-- (id);
+- (id)potentiallyMissingParts;
 
 @end
 

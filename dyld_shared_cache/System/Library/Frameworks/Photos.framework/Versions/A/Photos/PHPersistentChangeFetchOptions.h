@@ -7,7 +7,6 @@
 @interface PHPersistentChangeFetchOptions
 {
     _Bool _excludesPrivateChanges;
-    unsigned long long _maximumChangeThreshold;
 }
 
 - (void);
@@ -16,7 +15,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool excludesPrivateChanges; // @synthesize excludesPrivateChanges=_excludesPrivateChanges;
 @property(nonatomic) unsigned long long maximumChangeThreshold; // @synthesize maximumChangeThreshold=_maximumChangeThreshold;
 
 @end

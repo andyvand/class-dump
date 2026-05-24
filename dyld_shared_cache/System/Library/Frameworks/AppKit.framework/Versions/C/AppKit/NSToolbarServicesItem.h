@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)R!;
 - (id);
 - (void);
 - (void)trong _Nonnull, _NSDataSourceSnapshotter *__strong _Nonnull, BOOL);

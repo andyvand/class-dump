@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUserActivity, UISceneActivationRequestOptions, UISceneConfiguration, UISceneSession, _UISceneConnectionOptionDefinitionPayloadStorage;
+@class UISceneConfiguration;
 
 @interface UISceneSessionActivationRequest
 {
     UISceneConfiguration *_configuration;
-    _UISceneConnectionOptionDefinitionPayloadStorage *_definitionPayloadStorage;
-    NSString *_role;
-    UISceneSession *_session;
-    NSUserActivity *_userActivity;
-    UISceneActivationRequestOptions *_options;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ver];
+- (id)PlaylistEditing_Oversize;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -44,18 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UISceneConfiguration *_configuration; // @synthesize _configuration;
-@property(readonly, nonatomic) _UISceneConnectionOptionDefinitionPayloadStorage *_definitionPayloadStorage; // @synthesize _definitionPayloadStorage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UISceneActivationRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSString *role; // @synthesize role=_role;
-@property(readonly, nonatomic) UISceneSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
 
 @end
 

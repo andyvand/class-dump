@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface URLTarget
 {
     NSString *_bundleID;
-    long long _defaultIndex;
-    NSString *_normalScheme;
-    NSString *_secureScheme;
 }
 
 + (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)/swift/libswiftos.dylib;
 - (void);
 - (id);
 - (void);
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property long long defaultIndex; // @synthesize defaultIndex=_defaultIndex;
-@property(retain) NSString *normalScheme; // @synthesize normalScheme=_normalScheme;
-@property(retain) NSString *secureScheme; // @synthesize secureScheme=_secureScheme;
 
 @end
 

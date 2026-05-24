@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSArray, NSArrayController, NSButton, NSLayoutConstraint, NSScrollView, NSStackView, NSString, TableViewPlus;
+@class NSArray, NSArrayController;
 
 __attribute__((visibility("hidden")))
 @interface CSVCredentialImportAlertAccessoryViewController
 {
     NSArray *_credentialsWithConflicts;
-    NSArray *_credentialsWithErrors;
-    NSAlert *_parentAlert;
-    NSArrayController *_alertCredentialsNotImportedArrayController;
-    NSStackView *_alertVerticalStackView;
-    NSScrollView *_alertScrollView;
-    TableViewPlus *_alertTableView;
-    NSButton *_alertDisclosureTriangle;
-    NSLayoutConstraint *_alertTableViewHeightConstraint;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -56,21 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArrayController *alertCredentialsNotImportedArrayController; // @synthesize alertCredentialsNotImportedArrayController=_alertCredentialsNotImportedArrayController;
-@property(retain, nonatomic) NSButton *alertDisclosureTriangle; // @synthesize alertDisclosureTriangle=_alertDisclosureTriangle;
-@property(retain, nonatomic) NSScrollView *alertScrollView; // @synthesize alertScrollView=_alertScrollView;
-@property(retain, nonatomic) TableViewPlus *alertTableView; // @synthesize alertTableView=_alertTableView;
-@property(retain, nonatomic) NSLayoutConstraint *alertTableViewHeightConstraint; // @synthesize alertTableViewHeightConstraint=_alertTableViewHeightConstraint;
-@property(retain, nonatomic) NSStackView *alertVerticalStackView; // @synthesize alertVerticalStackView=_alertVerticalStackView;
-@property(copy, nonatomic) NSArray *credentialsWithConflicts; // @synthesize credentialsWithConflicts=_credentialsWithConflicts;
-@property(copy, nonatomic) NSArray *credentialsWithErrors; // @synthesize credentialsWithErrors=_credentialsWithErrors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSAlert *parentAlert; // @synthesize parentAlert=_parentAlert;
-@property(readonly) Class superclass;
 
 @end
 

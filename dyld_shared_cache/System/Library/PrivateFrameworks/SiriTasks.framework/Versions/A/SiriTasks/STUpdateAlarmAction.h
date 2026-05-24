@@ -13,7 +13,7 @@
     NSArray *_modifications;
 }
 
-+ (_Bool);
++ (_Bool)xlg;
 - (id);
 - (id);
 - (id);

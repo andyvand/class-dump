@@ -9,24 +9,19 @@
 @interface KeyboardViewerController
 {
     NSImage *_icon;
-    NSString *_showKeyboardViewerString;
-    NSString *_hideKeyboardViewerString;
 }
 
-+ (void);
++ (void)muninJunctionDidChange:currentRoad:localize: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *displayName;
-@property(readonly, copy) NSString *hideKeyboardViwerString; // @synthesize hideKeyboardViwerString=_hideKeyboardViewerString;
-@property(readonly, retain) NSImage *icon; // @synthesize icon=_icon;
 @property(readonly, copy) NSString *showKeyboardViewerString; // @synthesize showKeyboardViewerString=_showKeyboardViewerString;
 
 @end

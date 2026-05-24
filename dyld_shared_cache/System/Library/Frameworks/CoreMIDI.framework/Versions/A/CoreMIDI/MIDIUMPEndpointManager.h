@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MIDIUMPEndpointManager
 {
     NSMutableArray *_functionBlocks;
-    NSMutableArray *_endpoints;
-    struct unfair_lock mMutex;
 }
 
 + (id);
@@ -32,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *UMPEndpoints;
 @property(retain, nonatomic) NSMutableArray *functionBlocks; // @synthesize functionBlocks=_functionBlocks;
 
 @end

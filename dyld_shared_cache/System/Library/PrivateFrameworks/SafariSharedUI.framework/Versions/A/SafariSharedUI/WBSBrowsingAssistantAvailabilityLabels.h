@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WBSBrowsingAssistantAvailabilityLabels
 {
     unsigned long long _previouslyConsumedOptions;
-    NSArray *_representedOptions;
-    NSArray *_representedOptionsGroups;
-    NSArray *_labels;
-    NSArray *_icons;
 }
 
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool),,;
 - (id);
 - (unsigned long long);
-- (void)utoFillJavaScriptInjectionController;
+- (void)WBSAutoFillJavaScriptInjectionController;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

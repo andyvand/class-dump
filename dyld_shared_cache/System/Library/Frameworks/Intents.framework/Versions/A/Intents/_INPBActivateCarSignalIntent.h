@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBActivateCarSignalIntent
 {
     CDStruct_95bda58d _signals;
-    struct _has;
-    _INPBDataString *_carName;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -24,36 +21,24 @@
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id)ass %s;
 - (void);
-- (id);
+- (id)24@0:(id)arg1 8@?<v@?@"<GCPhysicalInputElement>"@"<GCLinearInput>"f>16;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int *);
-- (_Bool);
-- (void);
+- (_Bool)sharedDevice;
+- (void)public}@) after %d retries;
 - (id);
-- (id);
+- (id));
 - (void);
-- (_Bool)IntentResponse;
-- (void)PrimaryDisplayDisabled;
+- (_Bool)INSearchForAccountsIntentResponse;
+- (void)isPrimaryDisplayDisabled;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly, nonatomic) int *signals;
-@property(readonly, nonatomic) unsigned long long signalsCount;
-@property(readonly) Class superclass;
 
 @end
 

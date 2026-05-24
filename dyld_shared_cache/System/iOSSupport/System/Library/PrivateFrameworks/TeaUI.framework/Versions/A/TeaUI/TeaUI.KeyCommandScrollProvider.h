@@ -7,8 +7,6 @@
 @interface TeaUI.KeyCommandScrollProvider
 {
     id invalidator;
-    id scrollView;
-    id delegate;
 }
 
 @end

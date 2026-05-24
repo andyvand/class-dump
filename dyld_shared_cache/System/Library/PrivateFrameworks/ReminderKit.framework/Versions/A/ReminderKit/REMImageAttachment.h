@@ -9,23 +9,22 @@
 @interface REMImageAttachment : REMFileAttachment
 {
     unsigned long long _width;
-    unsigned long long _height;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)nst READER_UNIQUE_ID_ATTRIBUTE_KEY="data-reader-unique-id",READER_UNIQUE_ID_TITLE="titleElement",READER_UNIQUE_ID_SUBHEAD="subheadElement";
+0;;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long height; // @synthesize height=_height;
 @property(nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end

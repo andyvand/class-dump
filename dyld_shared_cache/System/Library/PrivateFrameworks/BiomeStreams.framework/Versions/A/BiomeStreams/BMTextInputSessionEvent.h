@@ -6,21 +6,16 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSDate, NSDateInterval, NSString;
+@class NSDate, NSDateInterval;
 
 @interface BMTextInputSessionEvent : BMEventBase
 {
     NSDateInterval *_dateInterval;
-    NSString *_bundleID;
-    NSString *_sessionID;
-    unsigned long long _sessionType;
-    NSDate *_startDate;
-    double _duration;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (unsigned int);
@@ -29,35 +24,22 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void)bstring;
+- (void)substring;
 - (id)ptor == &pg_query__create_foreign_table_stmt__descriptor;
 - (void)®¯°±;
 - (unsigned long long)ÐÑÒÓÔÕÖ×ÿÿÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) unsigned long long sessionType; // @synthesize sessionType=_sessionType;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContact, _INPBDateTimeRange, _INPBLong, _INPBString;
+@class _INPBContact, _INPBDateTimeRange;
 
 @protocol _INPBFilePropertyValue
+- (_Bool);
+- (_Bool);
+- (void)`;
+- (int)ing to do, returning.;
+- (void)81ADBA-95BE-4D1C-A52B-2DDD3C9F9CD1;
+- (_INPBContact *);
 - (void)iceRangeValue",&,N,V_priceRange;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRange *dateTime;
-@property(nonatomic) int fileType;
-@property(readonly, nonatomic) _Bool hasDateTime;
-@property(nonatomic) _Bool hasFileType;
-@property(readonly, nonatomic) _Bool hasPerson;
-@property(readonly, nonatomic) _Bool hasQuantity;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) _INPBContact *person;
-@property(retain, nonatomic) _INPBLong *quantity;
-@property(retain, nonatomic) _INPBString *value;
 @end
 

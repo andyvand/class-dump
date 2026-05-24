@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDBackgroundMessagingAPIMessageRegistry, NSMutableDictionary, NSObject, NSString, NSXPCConnection, RBSProcessMonitor, UNUserNotificationCenter;
-@protocol IMDBackgroundMessagingAPITargetHandlerDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol IMDBackgroundMessagingAPITargetHandlerDelegate;
 
 @interface IMDBackgroundMessagingAPITargetHandler
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _clientPid;
-    NSString *_clientBundleID;
-    NSString *_clientAppName;
-    NSString *_appDescription;
-    UNUserNotificationCenter *_notificationCenter;
-    RBSProcessMonitor *_processMonitor;
-    _Bool _processMonitorDeliveredFirstUpdate;
-    NSObject<OS_dispatch_group> *_processMonitorWaitingForInitialStateGroup;
-    _Bool _canSend;
-    IMDBackgroundMessagingAPIMessageRegistry *_messageRegistry;
-    NSMutableDictionary *_trackedMessages;
-    NSMutableDictionary *_trackedRecipientHandles;
-    id <IMDBackgroundMessagingAPITargetHandlerDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol HMDIDSService, OS_dispatch_queue;
+@protocol HMDIDSService;
 
 __attribute__((visibility("hidden")))
 @interface HMDWatchManager
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _pairedWithWatch;
-    NSArray *_connectedWatches;
-    id <HMDIDSService> _service;
 }
 
 + (id);
@@ -26,25 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)DResident;
-- (_Bool)AccessoryCommunicator;
+- (void)_highestVersionLowestUUIDResident;
+- (_Bool)HMDCameraLocalStreamAccessoryCommunicator;
 - (void)¨G;
 - (id);
 - (id)ce UUIDs:%@ camera profile UUIDs:%@ was successful:%@ error:%@ /* Error: Ran out of types for this method. */;
-- (void)SessionControlCommandSuspend;
+- (void)HMDSessionControlCommandSuspend;
 
 // Remaining properties
-@property(readonly, copy) NSArray *connectedWatches; // @synthesize connectedWatches=_connectedWatches;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isPairedWithWatch) _Bool pairedWithWatch; // @synthesize pairedWithWatch=_pairedWithWatch;
 @property(readonly, nonatomic) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *watches;
 
 @end
 

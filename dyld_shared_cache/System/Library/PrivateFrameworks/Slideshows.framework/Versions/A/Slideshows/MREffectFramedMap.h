@@ -6,32 +6,26 @@
 
 #import <Slideshows/MREffectFramedSlide.h>
 
-@class MRImage, NSMutableSet, NSOperationQueue;
+@class NSMutableSet;
 
 @interface MREffectFramedMap : MREffectFramedSlide
 {
     NSMutableSet *mTiles;
-    double mZoomLevel;
-    struct CGPoint mCenter;
-    _Bool mIsPanning;
-    struct CGPoint mStartCenter;
-    NSOperationQueue *mTileQueue;
-    MRImage *mMapImage;
 }
 
 - (void);
+- (double)Q;
 - (double);
 - (double);
-- (double);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)load with delivery window end date of %@;
+- (void)configProvider;
+- (_Bool)nvelope"8Q16^B24;
+- (_Bool)icsEnvelopeManager submitEnvelopes:(double)arg1 withCompletion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (int);
+- (void);
+- (int));
 - (void);
 - (struct CGRect);
 - (double);

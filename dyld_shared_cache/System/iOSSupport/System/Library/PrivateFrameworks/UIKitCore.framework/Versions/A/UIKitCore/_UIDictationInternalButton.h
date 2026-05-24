@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)_markAllUnsuccessFullSyncMessagesAsNeedingSync;
 - (_Bool);
-- (id);
+- (id);
 - (void)øÄ\;
 
 // Remaining properties

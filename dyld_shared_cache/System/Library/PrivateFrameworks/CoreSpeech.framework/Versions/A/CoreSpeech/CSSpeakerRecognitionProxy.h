@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSSRXPCClient, NSString;
-@protocol CSSpeakerRecognitionProxyProtocol;
+@class CSSSRXPCClient;
 
 @interface CSSpeakerRecognitionProxy
 {
     CSSSRXPCClient *_ssrXPCClient;
-    id <CSSpeakerRecognitionProxyProtocol> _delegate;
 }
 
 - (void);
@@ -22,18 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (void)rediction:droppedPrediction:timestamp: /* Error: Ran out of types for this method. */;
+- (void)initWithDroppingPrediction:droppedPrediction:timestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CSSpeakerRecognitionProxyProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CSSSRXPCClient *ssrXPCClient; // @synthesize ssrXPCClient=_ssrXPCClient;
-@property(readonly) Class superclass;
 
 @end
 

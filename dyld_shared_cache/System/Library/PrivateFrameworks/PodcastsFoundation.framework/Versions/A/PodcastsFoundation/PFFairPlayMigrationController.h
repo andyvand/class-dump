@@ -7,10 +7,6 @@
 @interface PFFairPlayMigrationController
 {
     id secureKeyRequestStorage;
-    id invalidationManager;
-    id fairPlayEpisodeDataFetcher;
-    id secureKeyLoader;
-    id internalQueue;
 }
 
 + (id)logCGACy_AOüP$GGU^$G;

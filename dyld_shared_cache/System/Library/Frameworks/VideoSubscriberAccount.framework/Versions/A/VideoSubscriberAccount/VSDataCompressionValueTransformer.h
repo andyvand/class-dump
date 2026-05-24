@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (Class);
 - (id);
-- (id);
+- (id)ta=iiis}16r^{TFENode=^{OpaqueNodeRef}}24;
 - (id);
 
 @end

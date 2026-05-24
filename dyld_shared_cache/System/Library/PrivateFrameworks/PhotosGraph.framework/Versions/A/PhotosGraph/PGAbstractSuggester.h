@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneConfidenceThresholdHelper, NSSet, NSString, PGSuggestionSession;
+@class CLSSceneConfidenceThresholdHelper, PGSuggestionSession;
 
 @interface PGAbstractSuggester
 {
     CLSSceneConfidenceThresholdHelper *_suggestableScenesHelper;
-    _Bool _prefetchedSharedLibraryState;
-    _Bool _isSharedLibraryEnabled;
-    NSSet *_sharedLibraryPersonIdentifiers;
-    _Bool _lastSuggestionWasColliding;
-    PGSuggestionSession *_session;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)sibilityActionName;
++ (id)"NSPointerArray",&,N,V__observers;
++ (id)DelegateQueue:(id)arg1 ,V__delegateQueue;
++ (void)LibCall_ACMGlobalContextVerifyPolicy_Block;
++ (id)`;
 + (_Bool);
 + (id);
 + (id);
 + (id);
-- (double);
-- (id);
-- (void);
-- (id);
+- (double)set_lastTrackedElement:(id)arg1;
+- (id)colorWithCIColor:(id)arg1;
+- (void)_convertAXFTextRange:(_Bool)arg1 toParagraphRange:rangeLimit: /* Error: Ran out of types for this method. */;
+- (id)AXKSearchManager;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,15 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool lastSuggestionWasColliding; // @synthesize lastSuggestionWasColliding=_lastSuggestionWasColliding;
 @property(nonatomic) __weak PGSuggestionSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

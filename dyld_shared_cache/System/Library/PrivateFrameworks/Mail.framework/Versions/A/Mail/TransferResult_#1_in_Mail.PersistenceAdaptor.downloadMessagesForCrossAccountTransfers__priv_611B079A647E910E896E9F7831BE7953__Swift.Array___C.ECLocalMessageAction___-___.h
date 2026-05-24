@@ -7,7 +7,6 @@
 @interface TransferResult #1 in Mail.PersistenceAdaptor.downloadMessagesForCrossAccountTransfers__priv_611B079A647E910E896E9F7831BE7953)(Swift.Array<__C.ECLocalMessageAction>) -> (
 {
     id item;
-    id result;
 }
 
 - (id);

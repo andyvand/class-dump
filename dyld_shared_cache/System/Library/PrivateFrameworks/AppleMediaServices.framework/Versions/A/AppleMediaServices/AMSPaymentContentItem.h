@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppleMediaServices.AMSPaymentExpandableInfo, NSAttributedString, NSString;
-
 @interface AMSPaymentContentItem
 {
     struct CGImage *_image;
-    NSAttributedString *_title;
-    NSAttributedString *_label;
-    NSString *_accessibilityIdentifier;
-    NSString *_padding;
-    AppleMediaServices.AMSPaymentExpandableInfo *_expandableInfo;
 }
 
 + (_Bool);
@@ -21,9 +14,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (struct CGImage *);
+- (void)ceived junk message. Filter unknown senders OFF;
+- (id)A;
+- (struct CGImage *)ModifiedDate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -45,12 +38,7 @@ X:a!4xï¯ZÚo~ _zæTq§] Ìæ´×°4RÌ@?Î¹Ám`�
 IÊ²Ù¸~3!äµôPvññÙ°"V]$¦G5isÆö×vévÖå(ìEoèýL] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(retain, nonatomic) AppleMediaServices.AMSPaymentExpandableInfo *expandableInfo; // @synthesize expandableInfo=_expandableInfo;
 @property(retain, nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSAttributedString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *padding; // @synthesize padding=_padding;
-@property(copy, nonatomic) NSAttributedString *title; // @synthesize title=_title;
 
 @end
 

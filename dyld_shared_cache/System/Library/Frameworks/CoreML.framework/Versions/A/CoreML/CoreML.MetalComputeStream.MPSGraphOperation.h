@@ -7,10 +7,6 @@
 @interface CoreML.MetalComputeStream.MPSGraphOperation
 {
     id mpsGraph;
-    id inputTensors;
-    id outputTensors;
-    id label;
-    id executionDescriptor;
 }
 
 @end

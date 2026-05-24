@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLVertexDescriptor, NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface GLKMesh
 {
     NSMutableArray *_submeshes;
-    NSMutableArray *_vertexBuffers;
-    unsigned long long _vertexCount;
-    MDLVertexDescriptor *_vertexDescriptor;
-    NSString *_name;
 }
 
 + (id);
 + (void);
+- (id);
+- (id)specify a number greater than 0. (%f)
+;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)o;
 - (unsigned long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *submeshes; // @synthesize submeshes=_submeshes;
-@property(readonly, nonatomic) NSArray *vertexBuffers; // @synthesize vertexBuffers=_vertexBuffers;
 @property(readonly, nonatomic) unsigned long long vertexCount; // @synthesize vertexCount=_vertexCount;
-@property(readonly, nonatomic) MDLVertexDescriptor *vertexDescriptor; // @synthesize vertexDescriptor=_vertexDescriptor;
 
 @end
 

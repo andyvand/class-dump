@@ -6,14 +6,11 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class NSMutableArray;
-@protocol CNObservable, _CNBufferingStrategy;
+@protocol _CNBufferingStrategy;
 
 @interface _CNBufferingObservable : CNObservable
 {
     id <_CNBufferingStrategy> _strategy;
-    id <CNObservable> _observable;
-    NSMutableArray *_results;
 }
 
 - (void);
@@ -31,8 +28,6 @@
 - (id)ú;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNObservable> observable; // @synthesize observable=_observable;
-@property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
 @property(retain, nonatomic) id <_CNBufferingStrategy> strategy; // @synthesize strategy=_strategy;
 
 @end

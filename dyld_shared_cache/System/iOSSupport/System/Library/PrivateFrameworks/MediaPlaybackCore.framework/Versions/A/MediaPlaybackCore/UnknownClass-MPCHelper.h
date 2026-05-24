@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MPCHelper)
-- (void);
+- (void)l;
 - (id);
 @end
 

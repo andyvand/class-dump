@@ -16,20 +16,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void))o;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (float);
+- (float)i)8 ;
 - (id);
 - (double);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)_primitiveAssertions;
+- (void)5;
 - (void)nimationNonZero(void);
 - (void)BSSqlitePreparedSimpleStatement executeWithBindings:(double)arg1 resultRowHandler:(id)arg2 error:]_block_invoke /* Error: Ran out of types for this method. */;
 

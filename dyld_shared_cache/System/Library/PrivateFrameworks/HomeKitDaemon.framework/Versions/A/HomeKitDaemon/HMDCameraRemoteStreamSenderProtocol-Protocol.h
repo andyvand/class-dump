@@ -9,6 +9,9 @@
 @protocol HMDCameraRemoteStreamSenderProtocol
 - (NSNumber *)=;
 
+@optional
+- (void);
+
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *mtu;
 @end

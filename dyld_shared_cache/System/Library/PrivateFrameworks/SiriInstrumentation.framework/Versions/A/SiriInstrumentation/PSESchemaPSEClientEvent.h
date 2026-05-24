@@ -6,29 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, PSESchemaPSEAlarmSignalGenerated, PSESchemaPSEAppIntentSignalGenerated, PSESchemaPSECallSignalGenerated, PSESchemaPSEClientEventMetadata, PSESchemaPSEGenericSignalGenerated, PSESchemaPSEHomeFollowupSignalGenerated, PSESchemaPSEMapsSignalGenerated, PSESchemaPSEMediaSignalGenerated, PSESchemaPSEMessageSignalGenerated, SISchemaInstrumentationMessage;
+@class PSESchemaPSEClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface PSESchemaPSEClientEvent : SISchemaTopLevelUnionType
 {
     PSESchemaPSEClientEventMetadata *_eventMetadata;
-    PSESchemaPSEGenericSignalGenerated *_genericSignalGenerated;
-    PSESchemaPSECallSignalGenerated *_callSignalGenerated;
-    PSESchemaPSEMessageSignalGenerated *_messageSignalGenerated;
-    PSESchemaPSEMediaSignalGenerated *_mediaSignalGenerated;
-    PSESchemaPSEHomeFollowupSignalGenerated *_homeFollowupSignalGenerated;
-    PSESchemaPSEMapsSignalGenerated *_mapsSignalGenerated;
-    PSESchemaPSEAlarmSignalGenerated *_alarmSignalGenerated;
-    PSESchemaPSEAppIntentSignalGenerated *_appIntentSignalGenerated;
-    _Bool _hasEventMetadata;
-    _Bool _hasGenericSignalGenerated;
-    _Bool _hasCallSignalGenerated;
-    _Bool _hasMessageSignalGenerated;
-    _Bool _hasMediaSignalGenerated;
-    _Bool _hasHomeFollowupSignalGenerated;
-    _Bool _hasMapsSignalGenerated;
-    _Bool _hasAlarmSignalGenerated;
-    _Bool _hasAppIntentSignalGenerated;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -79,47 +61,27 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)installOrder:%@ } /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)erged;
 - (id);
 - (id);
 - (id)AssetSet"b1"totalSizeOfOTAAssetsInAssetSet"b1"countOfPSUSAssetsInAssetSet"b1"totalSizeOfPSUSAssetsInAssetSet"b1};
-- (unsigned long long);
-- (id)pInDaysSince1970;
+- (unsigned long long)deleteIsRawLastNowPlayingBoolean;
+- (id)_startDatestampInDaysSince1970;
 - (id)ation;
 - (int)¨X¨;
-- (void)YPE_APPLE_MUSIC_VOICE_PREVIEW_ACCEPTED;
+- (void)FLOWSTATETYPE_APPLE_MUSIC_VOICE_PREVIEW_ACCEPTED;
 
 // Remaining properties
-@property(retain, nonatomic) PSESchemaPSEAlarmSignalGenerated *alarmSignalGenerated; // @synthesize alarmSignalGenerated=_alarmSignalGenerated;
-@property(retain, nonatomic) PSESchemaPSEAppIntentSignalGenerated *appIntentSignalGenerated; // @synthesize appIntentSignalGenerated=_appIntentSignalGenerated;
-@property(retain, nonatomic) PSESchemaPSECallSignalGenerated *callSignalGenerated; // @synthesize callSignalGenerated=_callSignalGenerated;
-@property(retain, nonatomic) PSESchemaPSEClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) PSESchemaPSEGenericSignalGenerated *genericSignalGenerated; // @synthesize genericSignalGenerated=_genericSignalGenerated;
-@property(nonatomic) _Bool hasAlarmSignalGenerated; // @synthesize hasAlarmSignalGenerated=_hasAlarmSignalGenerated;
-@property(nonatomic) _Bool hasAppIntentSignalGenerated; // @synthesize hasAppIntentSignalGenerated=_hasAppIntentSignalGenerated;
-@property(nonatomic) _Bool hasCallSignalGenerated; // @synthesize hasCallSignalGenerated=_hasCallSignalGenerated;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasGenericSignalGenerated; // @synthesize hasGenericSignalGenerated=_hasGenericSignalGenerated;
-@property(nonatomic) _Bool hasHomeFollowupSignalGenerated; // @synthesize hasHomeFollowupSignalGenerated=_hasHomeFollowupSignalGenerated;
-@property(nonatomic) _Bool hasMapsSignalGenerated; // @synthesize hasMapsSignalGenerated=_hasMapsSignalGenerated;
-@property(nonatomic) _Bool hasMediaSignalGenerated; // @synthesize hasMediaSignalGenerated=_hasMediaSignalGenerated;
-@property(nonatomic) _Bool hasMessageSignalGenerated; // @synthesize hasMessageSignalGenerated=_hasMessageSignalGenerated;
-@property(retain, nonatomic) PSESchemaPSEHomeFollowupSignalGenerated *homeFollowupSignalGenerated; // @synthesize homeFollowupSignalGenerated=_homeFollowupSignalGenerated;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PSESchemaPSEMapsSignalGenerated *mapsSignalGenerated; // @synthesize mapsSignalGenerated=_mapsSignalGenerated;
-@property(retain, nonatomic) PSESchemaPSEMediaSignalGenerated *mediaSignalGenerated; // @synthesize mediaSignalGenerated=_mediaSignalGenerated;
-@property(retain, nonatomic) PSESchemaPSEMessageSignalGenerated *messageSignalGenerated; // @synthesize messageSignalGenerated=_messageSignalGenerated;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

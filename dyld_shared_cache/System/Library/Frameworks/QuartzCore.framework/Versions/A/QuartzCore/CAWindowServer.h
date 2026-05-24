@@ -9,11 +9,10 @@
 @interface CAWindowServer
 {
     struct CAWindowServerImpl *_impl;
-    _Bool _mirroringEnabled;
 }
 
-+ (id);
-+ (id);
++ (id)2;
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -21,10 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *displays;
-@property(getter=isMirroringEnabled) _Bool mirroringEnabled; // @synthesize mirroringEnabled=_mirroringEnabled;
-@property unsigned int rendererFlags;
-@property(getter=isSecure) _Bool secure;
-@property CDUnknownBlockType slotDeletionCallback;
 
 @end
 

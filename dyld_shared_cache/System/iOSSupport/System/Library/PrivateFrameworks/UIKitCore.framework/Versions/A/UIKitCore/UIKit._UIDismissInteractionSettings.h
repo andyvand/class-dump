@@ -9,33 +9,25 @@
 @interface UIKit._UIDismissInteractionSettings
 {
     UIKit._UIDismissInteractionSubInteractionSettings *edgePan;
-    UIKit._UIDismissInteractionSubInteractionSettings *scroll;
-    UIKit._UIDismissInteractionSubInteractionSettings *swipeDown;
-    UIKit._UIDismissInteractionSubInteractionSettings *pinch;
-    _Bool showDebugUI;
 }
 
 + (id);
-- (id);
+- (id)DAccountController:No source session on service %@ for replicating account %@ /* Error: Ran out of types for this method. */;
+- (void)PlaySoundsKey;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (void);
+- (id)(;
 - (void);
 - (id);
-- (void)setIgnoresKeyboardNotifications: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:screenSharingAvailableChanged: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)_setIgnoresKeyboardNotifications: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *edgePan; // @synthesize edgePan;
-@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *pinch; // @synthesize pinch;
-@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *scroll; // @synthesize scroll;
-@property(nonatomic) _Bool showDebugUI; // @synthesize showDebugUI;
-@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *swipeDown; // @synthesize swipeDown;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol XCTMessagingRole_UIProcessRegistration
+- (void);
 @end
 

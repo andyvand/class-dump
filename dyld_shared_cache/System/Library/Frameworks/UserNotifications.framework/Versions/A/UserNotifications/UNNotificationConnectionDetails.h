@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, NSString;
+@class BSAuditToken;
 
 @interface UNNotificationConnectionDetails
 {
     _Bool _internalTool;
-    BSAuditToken *_auditToken;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy) BSAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, getter=isInternalTool) _Bool internalTool; // @synthesize internalTool=_internalTool;
 
 @end
 

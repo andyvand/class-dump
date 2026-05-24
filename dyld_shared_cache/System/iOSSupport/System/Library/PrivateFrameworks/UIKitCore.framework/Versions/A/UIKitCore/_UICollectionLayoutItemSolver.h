@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionLayoutItem, NSString, UITraitCollection, _UICollectionLayoutContainer, _UICollectionLayoutItemSolverState, _UICollectionLayoutSupplementaryEnroller, _UICollectionPreferredSizes;
-@protocol _UICollectionLayoutAuxillaryOffsets;
+@class _UICollectionLayoutItemSolverState;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutItemSolver
 {
     _Bool _layoutRTL;
-    _Bool _solvingConsumedDirtyPreferredSizes;
-    NSCollectionLayoutItem *_item;
-    _UICollectionLayoutContainer *_container;
-    UITraitCollection *_traitCollection;
-    unsigned long long _containerSizeDependentLayoutAxes;
-    _UICollectionLayoutItemSolverState *_solveResult;
-    _UICollectionPreferredSizes *_preferredSizes;
-    _UICollectionLayoutSupplementaryEnroller *_supplementaryEnroller;
-    long long _solutionRecursionDepth;
-    long long _maxFrameCount;
-    unsigned long long _layoutAxis;
-    struct CGSize _largestKnownItemSize;
-    struct CGRect _uncommittedSolvedItemFrame;
 }
 
 - (id);
@@ -32,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (double);
-- (void);
+- (void)buddhist;
 - (id);
 - (id);
 - (_Bool);
@@ -41,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)N,V_color;
 - (void);
 - (id);
 - (void);
@@ -54,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (struct CGPoint);
-- (long long);
+- (long long);
 - (id);
 - (void)× ;
 - (void)0@ù
@@ -69,29 +55,29 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGPoint)
 × ;
-- (struct CGPoint)antView;
+- (struct CGPoint)updateAssistantView;
 - (_Bool)pendingSymbolContentTransitionForSettingSymbolImage: /* Error: Ran out of types for this method. */;
 - (void)isHandleValid;
-- (id)inputType: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)DRSuppressionToView:(struct CGPoint)arg1;
-- (unsigned long long)ForChangedLayoutMargins;
-- (id)settingPortraitPixelRect:(struct CGRect)arg1 onPortraitEdges:(struct CGPoint)arg2 performCompleteTest:(long long)arg3;
-- (struct CGSize)ionTickForTimestamp:(id)arg1;
-- (id)ientation;
-- (id);
-- (void)ntPlatterView;
-- (void)orDropPreviews;
-- (id)inerList:(long long)arg1;
-- (unsigned long long)ginVertically;
-- (id):(struct _NSZone *)arg1;
+- (id)emojiInsertedByMethod:inputType: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)applyHDRSuppressionToView:(struct CGPoint)arg1;
+- (unsigned long long)_setNeedsUpdateForChangedLayoutMargins;
+- (id)_rectByHorizontallyInsettingPortraitPixelRect:(struct CGRect)arg1 onPortraitEdges:(struct CGPoint)arg2 performCompleteTest:(long long)arg3;
+- (struct CGSize)_performAnimationTickForTimestamp:(id)arg1;
+- (id)_fromWindowOrientation;
+- (id)_dragAndDropUsedForReordering;
+- (void)_contentPlatterView;
+- (void)_containerViewForDropPreviews;
+- (id)_appearanceForTraitCollection:(long long)arg1 forClass:(struct CGPoint)arg2 withContainerList:(double)arg3;
+- (unsigned long long)_allowsParentToBeginVertically;
+- (id)sizeWithFont:(struct _NSZone *)arg1 minFontSize:actualFontSize:forWidth:lineBreakMode: /* Error: Ran out of types for this method. */;
 - (void)",&,N,G_systemProvidedGestureRecognizer,S_setSystemProvidedGestureRecognizer:(id)arg1 ,V_systemProvidedGestureRecognizer;
-- (void)Content;
+- (void)_UILabelContent;
 - (void)Hl@;
 - (id);
 - (id)Ñ×.XÑÄé.¸XÑLí.ÈXÑÿ.àXÑp/øXÑÔ/`YÑ¨	/xYÑ|/pZÑÜ/ZÑ'/ÈZÑ 2/èZÑ\/;
 - (struct CGRect)þÿ;
-- (id)cornerRadiusForPresentationAndDismissal;
-- (id)lette;
+- (id)_cornerRadiusForPresentationAndDismissal;
+- (id)BottomPalette;
 - (id)tionBar"16@?0@"UIViewController"8;
 - (id)Àtþ¥¨434tþõ¨43tþ¨43tþ¨43ttþÍ¨43Ätþ©43tþÕ¨43¼tþ;
 - (id)¨G#;
@@ -114,38 +100,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long auxillaryFrameCount;
-@property(readonly, nonatomic) NSArray *auxillaryFrames;
-@property(readonly, nonatomic) _UICollectionLayoutContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) unsigned long long containerSizeDependentLayoutAxes; // @synthesize containerSizeDependentLayoutAxes=_containerSizeDependentLayoutAxes;
-@property(readonly, nonatomic) struct CGRect contentFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *errorDescription;
-@property(readonly, nonatomic) long long frameCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSCollectionLayoutItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) long long itemFrameCount;
-@property(readonly, nonatomic) NSArray *itemFrames;
-@property(readonly, nonatomic) struct CGSize largestKnownItemSize; // @synthesize largestKnownItemSize=_largestKnownItemSize;
-@property(readonly, nonatomic) unsigned long long layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(readonly, nonatomic) struct CGRect layoutFrame;
-@property(readonly, nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(readonly, nonatomic) long long maxFrameCount; // @synthesize maxFrameCount=_maxFrameCount;
-@property(readonly, nonatomic) struct CGPoint offsetForEdgeSpacing;
-@property(readonly, nonatomic) NSArray *preferredSizeGroupingRanges;
-@property(retain, nonatomic) _UICollectionPreferredSizes *preferredSizes; // @synthesize preferredSizes=_preferredSizes;
-@property(readonly, nonatomic) long long solutionRecursionDepth; // @synthesize solutionRecursionDepth=_solutionRecursionDepth;
 @property(retain, nonatomic) _UICollectionLayoutItemSolverState *solveResult; // @synthesize solveResult=_solveResult;
-@property(readonly, nonatomic) _Bool solvingConsumedDirtyPreferredSizes; // @synthesize solvingConsumedDirtyPreferredSizes=_solvingConsumedDirtyPreferredSizes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UICollectionLayoutSupplementaryEnroller *supplementaryEnroller; // @synthesize supplementaryEnroller=_supplementaryEnroller;
-@property(readonly, nonatomic) id <_UICollectionLayoutAuxillaryOffsets> supplementaryOffsets;
-@property(readonly, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
-@property(readonly, nonatomic) struct CGRect uncommittedSolvedItemFrame; // @synthesize uncommittedSolvedItemFrame=_uncommittedSolvedItemFrame;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImportDatabaseContext
 {
     NSMutableSet *_changedRecordZoneIDs;
-    NSMutableSet *_deletedRecordZoneIDs;
-    NSMutableSet *_purgedRecordZoneIDs;
-    NSMutableSet *_userResetEncryptedDataZoneIDs;
-    CKServerChangeToken *_updatedChangeToken;
 }
 
 - (void);

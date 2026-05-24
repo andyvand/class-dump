@@ -7,40 +7,27 @@
 @interface GEOPDOrientedPosition
 {
     double _pitch;
-    double _roll;
-    double _x;
-    double _yaw;
-    double _y;
-    double _z;
-    struct {
-        unsigned int has_pitch:1;
-        unsigned int has_roll:1;
-        unsigned int has_x:1;
-        unsigned int has_yaw:1;
-        unsigned int has_y:1;
-        unsigned int has_z:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setIdentifier:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)2D",R,V_leftEyebrow;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)_hasValueChangedFromDefault:(_Bool)arg1 forKeypath:settingsClassName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)V_voiceTriggerJarvisAPEnabledPolicy;
+- (void)= %lu];
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (_Bool);
@@ -49,12 +36,12 @@
 - (void);
 - (void);
 - (id)OContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@"NSError"32Q40;
-- (_Bool)lTimes;
-- (void)wOfflineData:(double)arg1;
-- (id)asTableBookingAppEnabled;
+- (_Bool)transportTypeForTravelTimes;
+- (void)setAllowOfflineData:(double)arg1;
+- (id)_hasTableBookingAppEnabled;
 - (double)sVectorTileLaneInfo=CS}]}},R,N;
 - (id)8¡¢L¢è£¥t¥Ø¦¨§¬¨Ä©ª«ì«,¬È­¬¯°¸°;
-- (id)ARCH_ADDRESS_INCORRECT_FORM;
+- (id)RAP_SEARCH_ADDRESS_INCORRECT_FORM;
 - (double)(ì;
 - (double);
 - (double)à;
@@ -62,18 +49,7 @@
 - (double)Øä	ÿìê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPitch;
-@property(nonatomic) _Bool hasRoll;
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasYaw;
-@property(nonatomic) _Bool hasZ;
-@property(nonatomic) double pitch;
-@property(nonatomic) double roll;
-@property(nonatomic) double x;
-@property(nonatomic) double y;
-@property(nonatomic) double yaw;
-@property(nonatomic) double z;
 
 @end
 

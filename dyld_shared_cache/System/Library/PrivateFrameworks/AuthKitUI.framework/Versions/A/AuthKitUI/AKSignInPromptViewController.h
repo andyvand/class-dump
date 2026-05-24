@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKTouchBarController, NSButton, NSImage, NSProgressIndicator, NSString, NSTextField, NSTouchBar, NSView, OBPrivacyLinkController;
+@class AKTouchBarController, NSTextField;
 
 @interface AKSignInPromptViewController
 {
     AKTouchBarController *_touchBarController;
-    _Bool _createAppleIDAllowed;
-    _Bool _userInteractionEnabled;
-    _Bool _isUsernameEditable;
-    _Bool _isPasswordEditable;
-    _Bool _alwaysShowUsernameField;
-    _Bool _hideCreateButton;
-    _Bool _hideReasonString;
-    _Bool _showRememberPasswordCheckbox;
-    _Bool _rememberPassswordCheckedByDefault;
-    _Bool _preventSignIn;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
-    NSTextField *_usernameField;
-    NSTextField *_passwordField;
-    NSButton *_forgotButton;
-    NSTextField *_errorLabel;
-    NSProgressIndicator *_progressIndicator;
-    NSView *_privacyViewContainer;
-    NSButton *_signInButton;
-    NSButton *_cancelButton;
-    NSButton *_createNewAppleIDButton;
-    NSImage *_displayImage;
-    NSString *_titleText;
-    NSString *_bodyText;
-    NSString *_initialUsername;
-    NSString *_initialPassword;
-    long long _serviceType;
-    NSString *_initialError;
-    NSString *_helpAnchor;
-    NSString *_helpBook;
-    NSString *_rememberPasswordCheckboxString;
-    NSView *_privacyView;
-    NSString *_signInButtonText;
-    NSString *_cancelButtonText;
-    NSString *_createButtonText;
-    CDUnknownBlockType _signInButtonAction;
-    CDUnknownBlockType _cancelButtonAction;
-    CDUnknownBlockType _createButtonAction;
-    CDUnknownBlockType _forgotButtonAction;
-    long long _selectedButton;
-    OBPrivacyLinkController *_privacyController;
 }
 
 - (void);
@@ -59,7 +18,9 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool));
+- (void);
+- (void)8D;
 - (void);
 - (void);
 - (void);
@@ -74,10 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SPParameterizedTool;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,10 +51,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -115,35 +74,35 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_scheduleTimerWithDelay:(_Bool)arg1;
+- (void)_notificationReceived;
+- (void)_calendarGroupContainer;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CalPreferencesStore;
+- (_Bool)attempting to save a non-dirty account %@. %@;
+- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)0f;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)H1;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)icSandboxWrapper;
 - (id);
 - (void);
 - (id);
@@ -151,59 +110,12 @@
 - (void);
 - (void)!(@ù4(°1Â0@ù
 × ;
-- (void)nChoiceBottomSpacing;
+- (void)loginChoiceBottomSpacing;
 - (id)N,V_customButtonTitle;
 - (id)ervices;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysShowUsernameField; // @synthesize alwaysShowUsernameField=_alwaysShowUsernameField;
-@property(retain, nonatomic) NSTextField *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(copy, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType cancelButtonAction; // @synthesize cancelButtonAction=_cancelButtonAction;
-@property(copy, nonatomic) NSString *cancelButtonText; // @synthesize cancelButtonText=_cancelButtonText;
-@property(copy, nonatomic) CDUnknownBlockType createButtonAction; // @synthesize createButtonAction=_createButtonAction;
-@property(copy, nonatomic) NSString *createButtonText; // @synthesize createButtonText=_createButtonText;
-@property(retain, nonatomic) NSButton *createNewAppleIDButton; // @synthesize createNewAppleIDButton=_createNewAppleIDButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(retain, nonatomic) NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(retain, nonatomic) NSButton *forgotButton; // @synthesize forgotButton=_forgotButton;
-@property(copy, nonatomic) CDUnknownBlockType forgotButtonAction; // @synthesize forgotButtonAction=_forgotButtonAction;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(copy, nonatomic) NSString *helpBook; // @synthesize helpBook=_helpBook;
-@property(nonatomic) _Bool hideCreateButton; // @synthesize hideCreateButton=_hideCreateButton;
-@property(nonatomic) _Bool hideReasonString; // @synthesize hideReasonString=_hideReasonString;
-@property(copy, nonatomic) NSString *initialError; // @synthesize initialError=_initialError;
-@property(copy, nonatomic) NSString *initialPassword; // @synthesize initialPassword=_initialPassword;
-@property(copy, nonatomic) NSString *initialUsername; // @synthesize initialUsername=_initialUsername;
-@property(nonatomic) _Bool isPasswordEditable; // @synthesize isPasswordEditable=_isPasswordEditable;
-@property(nonatomic) _Bool isUsernameEditable; // @synthesize isUsernameEditable=_isUsernameEditable;
-@property(retain, nonatomic) NSTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(nonatomic) _Bool preventSignIn; // @synthesize preventSignIn=_preventSignIn;
-@property(retain, nonatomic) OBPrivacyLinkController *privacyController; // @synthesize privacyController=_privacyController;
-@property(retain, nonatomic) NSView *privacyView; // @synthesize privacyView=_privacyView;
-@property(retain, nonatomic) NSView *privacyViewContainer; // @synthesize privacyViewContainer=_privacyViewContainer;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(nonatomic) _Bool rememberPassswordCheckedByDefault; // @synthesize rememberPassswordCheckedByDefault=_rememberPassswordCheckedByDefault;
-@property(copy, nonatomic) NSString *rememberPasswordCheckboxString; // @synthesize rememberPasswordCheckboxString=_rememberPasswordCheckboxString;
-@property(nonatomic) long long selectedButton; // @synthesize selectedButton=_selectedButton;
-@property(nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) _Bool showRememberPasswordCheckbox; // @synthesize showRememberPasswordCheckbox=_showRememberPasswordCheckbox;
-@property(retain, nonatomic) NSButton *signInButton; // @synthesize signInButton=_signInButton;
-@property(copy, nonatomic) CDUnknownBlockType signInButtonAction; // @synthesize signInButtonAction=_signInButtonAction;
-@property(copy, nonatomic) NSString *signInButtonText; // @synthesize signInButtonText=_signInButtonText;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
-@property(readonly) NSTouchBar *touchBar;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
-@property(retain, nonatomic) NSTextField *usernameField; // @synthesize usernameField=_usernameField;
 
 @end
 

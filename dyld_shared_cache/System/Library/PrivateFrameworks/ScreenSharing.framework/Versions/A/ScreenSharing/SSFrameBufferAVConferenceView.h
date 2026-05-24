@@ -9,8 +9,6 @@
 @interface SSFrameBufferAVConferenceView : SSFrameBufferView
 {
     unsigned int _layerRotation;
-    struct CGPoint _scrollPoint;
-    struct CGRect _conferenceDimensions;
 }
 
 - (_Bool);
@@ -25,21 +23,18 @@
 - (_Bool);
 - (struct SSPoint);
 - (struct SSPoint);
-- (struct CGRect);
+- (struct CGRect)(;
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
+- (void)etadataProvider>"40@"WBSCreditCardData"48@?<v@?@"NSArray"@"NSDictionary"@"WBSAutoFillControlHandle">56;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property struct CGRect conferenceDimensions; // @synthesize conferenceDimensions=_conferenceDimensions;
-@property unsigned int layerRotation; // @synthesize layerRotation=_layerRotation;
-@property struct CGPoint scrollPoint; // @synthesize scrollPoint=_scrollPoint;
-@property(readonly, getter=isUsingAVCMediaStream) _Bool usingAVCMediaStream;
 
 @end
 

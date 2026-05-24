@@ -9,15 +9,13 @@
 @interface IPAPhotoEffectOperation : IPAOperation
 {
     long long _effectNumber;
-    long long _effectVersion;
-    double _effectIntensity;
 }
 
 + (long long);
 + (id);
 + (id);
 + (id);
-+ (void)otoFadeEffect;
++ (void)DGiPhotoFadeEffect;
 - (void);
 - (void);
 - (void);
@@ -32,9 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double effectIntensity; // @synthesize effectIntensity=_effectIntensity;
 @property(nonatomic) long long effectNumber; // @synthesize effectNumber=_effectNumber;
-@property(nonatomic) long long effectVersion; // @synthesize effectVersion=_effectVersion;
 
 @end
 

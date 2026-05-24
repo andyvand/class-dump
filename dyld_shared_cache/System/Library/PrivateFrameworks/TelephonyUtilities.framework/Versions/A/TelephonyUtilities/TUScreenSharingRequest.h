@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TUHandle, TUScreenSharingRequestMetadata;
+@class NSUUID;
 
 @interface TUScreenSharingRequest
 {
     _Bool _shouldSendLegacyInvite;
-    TUHandle *_handle;
-    unsigned long long _participantIdentifier;
-    long long _type;
-    long long _originType;
-    NSUUID *_UUID;
-    TUScreenSharingRequestMetadata *_metadata;
 }
 
 + (_Bool);
@@ -26,7 +20,7 @@
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (unsigned long long);
 - (long long);
 - (_Bool);
@@ -36,18 +30,11 @@
 - (id);
 - (id);
 - (void);
-- (void)seNetworkCountryCode;
-- (_Bool)uteControllerXPCServer;
+- (void)useNetworkCountryCode;
+- (_Bool)TURouteControllerXPCServer;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isLocallyOriginated;
-@property(readonly, copy, nonatomic) TUScreenSharingRequestMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) long long originType; // @synthesize originType=_originType;
-@property(readonly, nonatomic) unsigned long long participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
-@property(readonly, nonatomic) _Bool shouldSendLegacyInvite; // @synthesize shouldSendLegacyInvite=_shouldSendLegacyInvite;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

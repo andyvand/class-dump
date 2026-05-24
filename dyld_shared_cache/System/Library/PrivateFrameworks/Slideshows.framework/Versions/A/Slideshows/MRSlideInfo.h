@@ -9,18 +9,10 @@
 @interface MRSlideInfo
 {
     _Bool _isMain;
-    NSString *_assetPath;
-    unsigned long long _index;
-    double _aspectRatio;
-    double _time;
-    double _scale;
-    double _rotation;
-    id _player;
-    struct CGPoint _center;
 }
 
-- (void);
-- (_Bool);
+- (void)A/AVFoundation;
+- (_Bool)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -30,7 +22,7 @@
 - (double);
 - (struct CGPoint);
 - (void);
-- (id);
+- (id)rH;
 - (void);
 - (void);
 - (double);
@@ -41,15 +33,7 @@
 - (double)«­Ø?;
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
 @property(copy, nonatomic) NSString *assetPath; // @synthesize assetPath=_assetPath;
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isMain; // @synthesize isMain=_isMain;
-@property(nonatomic) id player; // @synthesize player=_player;
-@property(nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) double time; // @synthesize time=_time;
 
 @end
 

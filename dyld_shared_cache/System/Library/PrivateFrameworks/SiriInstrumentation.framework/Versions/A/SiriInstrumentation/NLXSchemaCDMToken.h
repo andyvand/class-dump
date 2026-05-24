@@ -6,29 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface NLXSchemaCDMToken : SISchemaInstrumentationMessage
 {
     NSString *_value;
-    unsigned int _begin;
-    unsigned int _end;
-    _Bool _isSignificant;
-    _Bool _isWhitespace;
-    unsigned int _tokenIndex;
-    unsigned int _nonWhitespaceTokenIndex;
-    NSString *_cleanValue;
-    NSArray *_normalizedValues;
-    struct {
-        unsigned int begin:1;
-        unsigned int end:1;
-        unsigned int isSignificant:1;
-        unsigned int isWhitespace:1;
-        unsigned int tokenIndex:1;
-        unsigned int nonWhitespaceTokenIndex:1;
-    } _has;
-    _Bool _hasValue;
-    _Bool _hasCleanValue;
 }
 
 - (void);
@@ -37,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*		;
+- (void)I;
 - (void);
 - (void);
 - (void);
@@ -51,8 +33,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,46 +50,29 @@
 - (id);
 - (unsigned int);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)viewDidAppear;
+- (_Bool)fetchMyBenefactors: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)gner;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
 - (id)sVehicleManufacturer;
 - (id)ventTier1;
-- (void)USERINTENTTYPE_DEFAULT;
+- (void)ASVUSERINTENTTYPE_DEFAULT;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int begin; // @synthesize begin=_begin;
-@property(copy, nonatomic) NSString *cleanValue; // @synthesize cleanValue=_cleanValue;
-@property(nonatomic) unsigned int end; // @synthesize end=_end;
-@property(nonatomic) _Bool hasBegin;
-@property(nonatomic) _Bool hasCleanValue; // @synthesize hasCleanValue=_hasCleanValue;
-@property(nonatomic) _Bool hasEnd;
-@property(nonatomic) _Bool hasIsSignificant;
-@property(nonatomic) _Bool hasIsWhitespace;
-@property(nonatomic) _Bool hasNonWhitespaceTokenIndex;
-@property(nonatomic) _Bool hasTokenIndex;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(nonatomic) _Bool isSignificant; // @synthesize isSignificant=_isSignificant;
-@property(nonatomic) _Bool isWhitespace; // @synthesize isWhitespace=_isWhitespace;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int nonWhitespaceTokenIndex; // @synthesize nonWhitespaceTokenIndex=_nonWhitespaceTokenIndex;
-@property(copy, nonatomic) NSArray *normalizedValues; // @synthesize normalizedValues=_normalizedValues;
-@property(nonatomic) unsigned int tokenIndex; // @synthesize tokenIndex=_tokenIndex;
 @property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

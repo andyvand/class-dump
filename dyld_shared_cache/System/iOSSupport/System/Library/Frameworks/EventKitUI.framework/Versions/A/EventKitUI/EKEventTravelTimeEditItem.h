@@ -11,12 +11,12 @@
     _Bool _isHidden;
 }
 
-- (unsigned long long);
+- (unsigned long long)&s;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)wf_colorNamed:(struct CGRect)arg1 inBundle:(unsigned long long)arg2;
 - (_Bool)8;
 
 @end

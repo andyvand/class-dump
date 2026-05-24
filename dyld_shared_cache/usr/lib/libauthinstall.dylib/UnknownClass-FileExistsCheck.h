@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (FileExistsCheck)
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nessCloudStorage;
+- (_Bool)",&,N,V_businessCloudStorage;
+- (_Bool)CloudStorage",&,N,V_businessCloudStorage;
 
 // Remaining properties
 @property(readonly) _Bool isFileExistsError;

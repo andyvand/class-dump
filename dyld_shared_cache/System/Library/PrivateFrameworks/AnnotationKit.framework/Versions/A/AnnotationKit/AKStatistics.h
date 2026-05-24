@@ -9,8 +9,6 @@
 @interface AKStatistics
 {
     NSString *_documentType;
-    NSString *_clientPrefix;
-    NSCountedSet *_annotationsCounts;
 }
 
 + (id);
@@ -22,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSCountedSet *annotationsCounts; // @synthesize annotationsCounts=_annotationsCounts;
-@property(retain, nonatomic) NSString *clientPrefix; // @synthesize clientPrefix=_clientPrefix;
-@property(retain, nonatomic) NSString *documentType; // @synthesize documentType=_documentType;
 
 @end
 

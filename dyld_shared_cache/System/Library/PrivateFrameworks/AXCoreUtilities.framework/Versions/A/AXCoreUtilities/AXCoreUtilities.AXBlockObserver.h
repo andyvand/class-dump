@@ -7,7 +7,6 @@
 @interface AXCoreUtilities.AXBlockObserver
 {
     id $defaultActor;
-    id observations;
 }
 
 @end

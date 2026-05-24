@@ -8,11 +8,11 @@
 @protocol MTLDevice;
 
 @protocol MTLDynamicLibrary
+- (NSString *)P;
+- (id <MTLDevice>)ideographicspace;
 - (void)e"B"inheritFrontFacingWinding"B"inheritTriangleFillMode"B"inheritDepthTestBounds"B"inheritScissorRects"B"inheritViewports"B"inheritBlendColor"B"allowOverrideRenderStates"q"size"Q};
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *installName;
 @property(copy) NSString *label;
 @end
 

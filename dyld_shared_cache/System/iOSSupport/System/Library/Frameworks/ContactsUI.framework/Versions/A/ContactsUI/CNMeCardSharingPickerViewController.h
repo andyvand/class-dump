@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactImage, CNContactStore, CNMeCardSharingAudienceDataSource, CNMeCardSharingAvatarViewController, CNMeCardSharingEnabledDataSource, CNMeCardSharingHeaderViewController, CNMeCardSharingPickerLayoutAttributes, CNMutableContact, CNPhotoPickerViewController, NSArray, NSString, OBBoldTrayButton, OBLinkTrayButton, UISwitch, UITableView, UIView;
-@protocol CNMeCardSharingAvatarProvider, CNMeCardSharingPickerViewControllerDelegate;
-
 @interface CNMeCardSharingPickerViewController
 {
     _Bool _sharingEnabled;
-    _Bool _shouldSetMeContact;
-    unsigned long long _mode;
-    id <CNMeCardSharingPickerViewControllerDelegate> _delegate;
-    CNContactStore *_contactStore;
-    CNContact *_contact;
-    CNMutableContact *_draftContact;
-    CNContactImage *_draftContactImage;
-    CNMeCardSharingHeaderViewController *_headerViewController;
-    id <CNMeCardSharingAvatarProvider> _avatarProvider;
-    CNMeCardSharingAvatarViewController *_avatarViewController;
-    CNMeCardSharingEnabledDataSource *_enabledDataSource;
-    CNMeCardSharingAudienceDataSource *_sharingAudienceDataSource;
-    CNMeCardSharingPickerLayoutAttributes *_layoutAttributes;
-    CNPhotoPickerViewController *_photoPicker;
-    NSArray *_sectionDataSources;
-    UIView *_buttonTray;
-    OBBoldTrayButton *_confirmButton;
-    OBLinkTrayButton *_laterButton;
-    UISwitch *_shareSwitch;
-    UITableView *_tableView;
 }
 
 + (id)setupTableHeaderView;
@@ -44,31 +21,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
+- (void);
+- (void)T?5;
+- (void);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)pnL;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (id);
@@ -78,14 +55,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (long long);
-- (void);
+- (id);
+- (long long)isApprovedToPushTruthForEntityName:(id)arg1;
+- (void)with pid %@, modifications to conflicts may be lost;
 - (void);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);
@@ -93,7 +70,7 @@
 - (id);
 - (void);
 - (id);
-- (void)TraitCollection: /* Error: Ran out of types for this method. */;
+- (void)_dynamicColorWithColorsByTraitCollection: /* Error: Ran out of types for this method. */;
 - (void)¬;
 - (id)oreLinkedContactSaveExecutor] %{public}p will execute saveâ¦;
 - (void)yAGyfïøyXTøG_AHyÆîøyAHyÍXøOøybXøSgGGG0*øGSgtGGÅ!øG_A_AHyAIyAGyAK_¸YøAHyAKî/øGtGGAZGÚíøyAHyAMyAKGAZG_ûÏÿÿQo_tGAFGGG;
@@ -101,38 +78,7 @@
 - (void)0zçÿÁÙ"`ø;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNMeCardSharingAvatarProvider> avatarProvider; // @synthesize avatarProvider=_avatarProvider;
-@property(retain, nonatomic) CNMeCardSharingAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) UIView *buttonTray; // @synthesize buttonTray=_buttonTray;
-@property(retain, nonatomic) OBBoldTrayButton *confirmButton; // @synthesize confirmButton=_confirmButton;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMeCardSharingPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNMutableContact *draftContact; // @synthesize draftContact=_draftContact;
-@property(retain, nonatomic) CNContactImage *draftContactImage; // @synthesize draftContactImage=_draftContactImage;
-@property(retain, nonatomic) CNMeCardSharingEnabledDataSource *enabledDataSource; // @synthesize enabledDataSource=_enabledDataSource;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNMeCardSharingHeaderViewController *headerViewController; // @synthesize headerViewController=_headerViewController;
-@property(retain, nonatomic) OBLinkTrayButton *laterButton; // @synthesize laterButton=_laterButton;
-@property(retain, nonatomic) CNMeCardSharingPickerLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
 @property(nonatomic) unsigned long long meCardSharingStatus;
-@property(readonly, nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) CNPhotoPickerViewController *photoPicker; // @synthesize photoPicker=_photoPicker;
-@property(retain, nonatomic) NSArray *sectionDataSources; // @synthesize sectionDataSources=_sectionDataSources;
-@property(readonly, nonatomic) unsigned long long selectedNameFormat;
-@property(readonly, nonatomic) unsigned long long selectedSharingAudience;
-@property(retain, nonatomic) UISwitch *shareSwitch; // @synthesize shareSwitch=_shareSwitch;
-@property(readonly, nonatomic) NSString *sharedName;
-@property(retain, nonatomic) CNMeCardSharingAudienceDataSource *sharingAudienceDataSource; // @synthesize sharingAudienceDataSource=_sharingAudienceDataSource;
-@property(nonatomic) _Bool sharingEnabled; // @synthesize sharingEnabled=_sharingEnabled;
-@property(nonatomic) _Bool shouldSetMeContact; // @synthesize shouldSetMeContact=_shouldSetMeContact;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

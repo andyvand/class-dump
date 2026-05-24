@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSString;
+@class NSString;
 
 @protocol SUOSUClientProtocol
+- (NSString *);
+- (void)#;
+- (void);
+- (_Bool)(;
+- (_Bool);
 - (unsigned long long)version to set;
 
 // Remaining properties
-@property(readonly) NSString *buildVersionString;
-@property(readonly) NSString *catalogURL;
 @property(readonly) unsigned long long clientType;
-@property(readonly) NSImage *currentSystemImage;
-@property(readonly) _Bool deferralEnabled;
-@property(readonly) _Bool deferredUpdatesExist;
-@property(readonly) _Bool isAutomaticallyCheckForUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyCheckForUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyDownloadUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyDownloadUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceManaged;
-@property _Bool isAutomaticallyInstallMacOSUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallMacOSUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyInstallSecurityAndConfigUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallSecurityAndConfigUpdatesPreferenceManaged;
-@property(readonly) NSDate *latestSuccessfulScanDate;
-@property(readonly) NSString *marketingNameString;
-@property(readonly) NSString *pallasAudience;
-@property(copy) CDUnknownBlockType progressCompletion;
-@property(readonly) _Bool shouldShowCatalogSelector;
-@property(readonly) NSString *systemVersionString;
 @end
 

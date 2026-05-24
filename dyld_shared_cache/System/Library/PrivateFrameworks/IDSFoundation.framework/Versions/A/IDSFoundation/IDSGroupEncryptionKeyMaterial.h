@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSMutableSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface IDSGroupEncryptionKeyMaterial
 {
     NSUUID *_keyIndex;
-    NSData *_keySalt;
-    NSData *_keyMaterial;
-    NSDate *_createdAt;
-    _Bool _isSentToClient;
-    _Bool _isGeneratedLocally;
-    NSMutableSet *_devicesToBeSent;
-    NSString *_groupID;
-    unsigned char _shortKeyIndexLength;
-    unsigned int _generationCounter;
-    int _ratchetIndex;
-    unsigned long long _participantID;
 }
 
 + (unsigned int);
@@ -42,13 +31,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)869;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)lastPathComponent;
 - (id);
 - (unsigned long long);
 - (id);
@@ -56,24 +45,14 @@
 - (long long);
 - (id);
 - (id);
-- (id)gth;
+- (id)_currentCapsuleHeaderLength;
 - (void)cket called with bad socket %d;
 - (void);
 - (unsigned int)´ÿ4Ì1C·;
 - (id)_1(;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(nonatomic) unsigned int generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(readonly, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) _Bool isGeneratedLocally; // @synthesize isGeneratedLocally=_isGeneratedLocally;
-@property(nonatomic) _Bool isSentToClient; // @synthesize isSentToClient=_isSentToClient;
 @property(readonly, nonatomic) NSUUID *keyIndex; // @synthesize keyIndex=_keyIndex;
-@property(readonly, nonatomic) NSData *keyMaterial; // @synthesize keyMaterial=_keyMaterial;
-@property(readonly, nonatomic) NSData *keySalt; // @synthesize keySalt=_keySalt;
-@property(nonatomic) unsigned long long participantID; // @synthesize participantID=_participantID;
-@property(nonatomic) int ratchetIndex; // @synthesize ratchetIndex=_ratchetIndex;
-@property(nonatomic) unsigned char shortKeyIndexLength; // @synthesize shortKeyIndexLength=_shortKeyIndexLength;
 
 @end
 

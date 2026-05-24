@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentRequest.h>
 
-@class NSDictionary, PKPeerPaymentQuote;
+@class PKPeerPaymentQuote;
 
 @interface PKPeerPaymentRequest : PKPaymentRequest
 {
     PKPeerPaymentQuote *_peerPaymentQuote;
-    unsigned long long _peerPaymentType;
-    NSDictionary *_analyticsMessagesContext;
 }
 
 + (_Bool);
@@ -27,14 +25,12 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)witchDuringHostSleep"b1"channelSwitchDuringHostWake"b1"channelWidth"b1"enhancedSecurityType"b1"flags"b1"gatewayARPHistory"b1"htASel"b1"htAmpduParams"b1"htExtended"b1"htInfo"b1"htTxBf"b1"mcastCipher"b1"phyMode"b1"reason"b1"rxCSAFrames"b1"securityType"b1"subreason"b1"ucastCipher"b1"vhtInfo"b1"wpaProtocol"b1"isInVol"b1"isLinkUp"b1};
+- (void)uardTimeMicroseconds;
 - (void)-%lu;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *analyticsMessagesContext; // @synthesize analyticsMessagesContext=_analyticsMessagesContext;
 @property(readonly, nonatomic) PKPeerPaymentQuote *peerPaymentQuote; // @synthesize peerPaymentQuote=_peerPaymentQuote;
-@property(nonatomic) unsigned long long peerPaymentType; // @synthesize peerPaymentType=_peerPaymentType;
 
 @end
 

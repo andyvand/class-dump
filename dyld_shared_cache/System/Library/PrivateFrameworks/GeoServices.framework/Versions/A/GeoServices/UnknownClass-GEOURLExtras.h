@@ -7,8 +7,8 @@
 @interface UnknownClass (GEOURLExtras)
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)affectedStoresInMembershipPredicate;
+- (id)XPCServerModel;
+- (id)dentifierCount;
 @end
 

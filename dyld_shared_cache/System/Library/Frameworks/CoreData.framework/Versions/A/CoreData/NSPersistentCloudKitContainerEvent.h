@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSManagedObjectID, NSString, NSUUID;
+@class NSUUID;
 
 @interface NSPersistentCloudKitContainerEvent
 {
     _Bool _succeeded;
-    NSManagedObjectID *_ckEventObjectID;
-    NSUUID *_identifier;
-    NSString *_storeIdentifier;
-    long long _type;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSError *_error;
 }
 
 + (id);
-- (id);
+- (id)+;
 - (void);
 - (id);
 - (id);
@@ -33,13 +26,7 @@
 - (id)on for current failed.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly, nonatomic) _Bool succeeded; // @synthesize succeeded=_succeeded;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

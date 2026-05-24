@@ -8,9 +8,9 @@
 @protocol NSCopying><NSSecureCoding;
 
 @protocol GSAdditionStoring
+- (id <NSCopying><NSSecureCoding>);
 
 // Remaining properties
 @property(retain) NSURL *documentURL;
-@property(readonly, nonatomic) id <NSCopying><NSSecureCoding> persistentIdentifier;
 @end
 

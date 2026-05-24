@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EDFormula
 {
@@ -18,35 +16,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (int);
 - (struct EDToken *);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)�";
 - (void);
 - (void);
 - (char *);
+- (char *)h;
+- (void);
+- (id)@;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (char *);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (char *);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)TJ;
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -72,18 +70,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)perties %tu is not equal to the defined number %tu;
 - (unsigned int);
 - (_Bool)bí;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

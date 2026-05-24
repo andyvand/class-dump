@@ -4,44 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, SCNNode;
-@protocol SCNCameraControllerDelegate;
-
 @interface SCNCameraController
 {
     struct {
         CDStruct_95fa7c00 angles__initialAbsoluteAngles__initialTransformWorld;
-        CDStruct_da14d750 initialOrientationWorld;
+        struct {
+            id vector;
+        } initialOrientationWorld;
     } _orientationState;
-    struct {
-        id start__current__last;
-    } _inputLocation;
-    struct {
-        id localArcballAdjustement__sphereLocationStart__sphereLocationCurrent;
-    } _arcball;
-    struct {
-        _Bool inertiaEnabled;
-        _Bool inertiaRunning;
-        double lastSimulationTime;
-        float friction;
-        float rotationSensitivity;
-        float translationSensitivity;
-        NSTimer *velocity__timer;
-    } _inertia;
-    id _up;
-    id _target;
-    id _minimumAngles;
-    id _maximumAngles;
-    _Bool _handlingInteraction;
-    _Bool _drivenBydefaultNavigationCameraController;
-    _Bool _automaticTarget;
-    id <SCNCameraControllerDelegate> _delegate;
-    SCNNode *_pointOfView;
-    long long _interactionMode;
 }
 
 - (float);
-- (_Bool);
+- (_Bool)a";
 - (void);
 - (CDStruct_183601bc);
 - (void);
@@ -89,8 +63,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (CDStruct_183601bc);
+- (id);
+- (CDStruct_183601bc)<˟;
 - (id);
 - (_Bool);
 - (void);
@@ -105,7 +79,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct SCNVector3);
 - (struct SCNVector3);
@@ -116,25 +90,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool automaticTarget; // @synthesize automaticTarget=_automaticTarget;
-@property(nonatomic) id <SCNCameraControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool drivenByDefaultNavigationCameraController;
-@property(nonatomic) float horizontalMaximumAngle;
-@property(nonatomic) _Bool inertiaEnabled;
-@property(nonatomic) float inertiaFriction;
-@property(readonly, nonatomic, getter=isInertiaRunning) _Bool inertiaRunning;
-@property(nonatomic) long long interactionMode; // @synthesize interactionMode=_interactionMode;
-@property(nonatomic) float maximumHorizontalAngle;
-@property(nonatomic) float maximumVerticalAngle;
-@property(nonatomic) float minimumHorizontalAngle;
-@property(nonatomic) float minimumVerticalAngle;
-@property(retain, nonatomic) SCNNode *pointOfView; // @synthesize pointOfView=_pointOfView;
-@property(nonatomic) id simdTarget;
-@property(nonatomic) id simdUp;
-@property(nonatomic) struct SCNVector3 target;
-@property(nonatomic) struct SCNVector3 up;
-@property(nonatomic) float verticalMaximumAngle;
-@property(nonatomic) struct SCNVector3 worldUp;
 
 @end
 

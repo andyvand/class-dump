@@ -11,17 +11,16 @@
     AVCaptureSystemPressureStateInternal_Tundra *_internal;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ssage;
+- (void)?<v@?@@"NSError">40;
+- (id);
+- (id)3;
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id)ssage=i(?={?=^{opaqueCMSampleBuffer}}{?=q^{opaqueCMFormatDescription}})}8;
 
 // Remaining properties
-@property(readonly) unsigned long long factors;
 @property(readonly) NSString *level;
 
 @end

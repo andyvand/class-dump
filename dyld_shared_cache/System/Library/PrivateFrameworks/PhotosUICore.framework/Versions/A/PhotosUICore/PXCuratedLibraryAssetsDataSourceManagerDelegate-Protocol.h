@@ -5,5 +5,9 @@
 //
 
 @protocol PXCuratedLibraryAssetsDataSourceManagerDelegate
+
+@optional
+- (_Bool);
+- (long long);
 @end
 

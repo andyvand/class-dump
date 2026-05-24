@@ -7,11 +7,6 @@
 @interface EDMessagePersistenceStatistics
 {
     double _start;
-    double _duration;
-    unsigned long long _messages;
-    unsigned long long _messageData;
-    unsigned long long _messagesDeleted;
-    unsigned long long _messageDataDeleted;
 }
 
 - (void);
@@ -28,11 +23,6 @@
 - (void)istence brandIndicatorForURL:(double)arg1 ];
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long messageData; // @synthesize messageData=_messageData;
-@property(nonatomic) unsigned long long messageDataDeleted; // @synthesize messageDataDeleted=_messageDataDeleted;
-@property(nonatomic) unsigned long long messages; // @synthesize messages=_messages;
-@property(nonatomic) unsigned long long messagesDeleted; // @synthesize messagesDeleted=_messagesDeleted;
 @property(nonatomic) double start; // @synthesize start=_start;
 
 @end

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (struct _NSRange);
 - (void);
-- (id);
-- (id);
+- (id)simulatorSharedPathFor: /* Error: Ran out of types for this method. */;
+- (id)";
 - (id);
 
 @end

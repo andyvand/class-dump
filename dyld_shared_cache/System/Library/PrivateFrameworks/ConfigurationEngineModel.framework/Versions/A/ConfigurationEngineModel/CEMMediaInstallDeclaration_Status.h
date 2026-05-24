@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)__TEXT;
++ (id)$;
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)_searchPathURL;
 
 @end
 

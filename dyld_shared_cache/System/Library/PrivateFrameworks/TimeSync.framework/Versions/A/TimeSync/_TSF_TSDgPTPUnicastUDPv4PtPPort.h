@@ -13,7 +13,7 @@
     NSNumber *_destinationIPv4Address;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

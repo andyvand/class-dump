@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, UIWindowScene;
 @protocol BSInvalidatable;
 
 __attribute__((visibility("hidden")))
 @interface _UISystemInputActivityInteraction
 {
     id <BSInvalidatable> __systemInputActivityToken;
-    UIView *_view;
-    UIWindowScene *__windowScene;
 }
 
 - (void);
 - (void);
+- (void)processMessageForSending:toChat:style:allowWatchdog:account:didReplaceMessageBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)existingChatForIDs:account:style: /* Error: Ran out of types for this method. */;
+- (void)`;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void){;
 - (void);
 - (id)°!ÜFùcÐ1Â0@ù
 × ;
@@ -32,15 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <BSInvalidatable> _systemInputActivityToken; // @synthesize _systemInputActivityToken=__systemInputActivityToken;
-@property(nonatomic) __weak UIWindowScene *_windowScene; // @synthesize _windowScene=__windowScene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

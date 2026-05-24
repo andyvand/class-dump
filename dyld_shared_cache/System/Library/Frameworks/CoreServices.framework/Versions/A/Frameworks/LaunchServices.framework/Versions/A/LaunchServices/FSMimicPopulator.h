@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FSMimicPopulator
 {
     FSNode *_node;
-    FSMimic *_mimic;
 }
 
 - (_Bool);

@@ -6,8 +6,6 @@
 
 #import <MapKit/MKCalloutView.h>
 
-@class MKCalloutLayer, MKCalloutShadowView, MKSmallCalloutView, NSColor, NSLayoutConstraint, NSString, NSView, NSVisualEffectView;
-
 @interface MKStandardCalloutView : MKCalloutView
 {
     struct {
@@ -17,60 +15,36 @@
         struct CGPoint desiredPoint;
         struct CGRect desiredBounds;
     } _anchor;
-    struct CGRect _frame;
-    struct {
-        unsigned int animated:1;
-        unsigned int didMoveCalled:1;
-        unsigned int hasPendingAnimatedLayout:1;
-        unsigned int needsCalloutUpdate:1;
-        unsigned int isObserving:1;
-        unsigned int reserved:26;
-    } _flags;
-    _Bool _animatingMapToShow;
-    _Bool _dismissed;
-    NSColor *_leftViewColor;
-    NSView *_leftViewBackground;
-    NSView *_contentView;
-    MKSmallCalloutView *_calloutView;
-    NSVisualEffectView *_backdropView;
-    MKCalloutLayer *_maskLayer;
-    MKCalloutShadowView *_shadowView;
-    NSLayoutConstraint *_calloutViewTopInsetConstraint;
-    NSLayoutConstraint *_calloutViewLeftInsetConstraint;
-    NSLayoutConstraint *_calloutViewRightInsetConstraint;
-    NSLayoutConstraint *_calloutViewBottomInsetConstraint;
-    long long _style;
-    CDStruct_8c1c1341 _metrics;
-    _Bool _hideTitle;
 }
 
 + (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(%d, %@ at %@) - %@
+;
+- (void)hot;
+- (void)a new open interval for identifier=%@;
+- (void)%@;
+- (void)AUTOLOCK_INFO_TEXT;
+- (void)ingdebug.lastReportedTotalEnergy;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5-;
 - (void);
 - (long long);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)G;
+- (void)3;
 - (void);
 - (struct CGPoint);
 - (void);
@@ -78,9 +52,9 @@
 - (long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)includeLabeledValueChanges;
+- (id)ter ‘group’ must be nonnull and of type %{public}@;
+- (id)be nonnull and of type %{public}@;
 - (void);
 - (void);
 - (_Bool);
@@ -89,22 +63,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)pickTopScoringProfileIdFromScores:(id)arg1;
 - (void);
 - (void);
 - (struct CGPoint);
-- (void)at:error: /* Error: Ran out of types for this method. */;
+- (void)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
 - (struct CGPoint)olor",R,N,G_balloonStrokeColor;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool hideTitle; // @synthesize hideTitle=_hideTitle;
-@property(readonly) Class superclass;
 
 @end
 

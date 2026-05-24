@@ -4,43 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUISmoothEmbossFilterLocal
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputAngle;
-    NSNumber *inputAltitude;
-    CIColor *inputHighlightColor;
-    CIColor *inputShadowColor;
 }
 
 + (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id)^@9(;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)hasIdentity;
+- (void)y;
+MUL weightTB.y, side.y, weightsCb.y;
+MAD weightLR, side.z, weightsCr.z, weightLR;
+MAD weightTB.z, side.w, weightsCr.w, weightTB;
+MAD weightTB.y, side.w, weightsCb.w, weightTB;
+TEX sample00, texCoord1, texture[0], RECT;
+TEX sample10, texCoord2, texture[0], RECT;
+TEX sampleY0, texCoord0, texture[0], RECT;
+TEX sample01, texCoord3, texture[0], RECT;
+TEX sample11, texCoord4, texture[0], RECT;
+LRP sampleY0, side.xxxx, sampleY0.xxxx, sampleY0.zzzz;
+LRP midSampleT, weightLR, sample10.yyww, sample00.yyww;
+LRP midSampleB, weightLR, sample11.yyww, sample01.yyww;
+LRP sampleY0.yz, weightTB, midSampleB, midSampleT;
+MOV sampleY0.x, 0.25;
+DPH result.color.r, sampleY0, program.local[0];
+DPH result.color.g, sampleY0, program.local[1];
+DPH result.color.b, sampleY0, program.local[2];
+MOV result.color.a, 1.0;
+END;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAltitude; // @synthesize inputAltitude;
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIColor *inputHighlightColor; // @synthesize inputHighlightColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) CIColor *inputShadowColor; // @synthesize inputShadowColor;
 
 @end
 

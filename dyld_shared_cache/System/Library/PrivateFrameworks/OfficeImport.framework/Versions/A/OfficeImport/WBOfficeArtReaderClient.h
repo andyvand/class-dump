@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 + (double);
 + (double);
 + (_Bool);
-+ (int);
++ (int)92;
 + (int);
 + (void);
-+ (id);
++ (id)H;
 + (void);
 + (void);
 + (void);

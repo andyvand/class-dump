@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)zI;
+- (void);
 @end
 

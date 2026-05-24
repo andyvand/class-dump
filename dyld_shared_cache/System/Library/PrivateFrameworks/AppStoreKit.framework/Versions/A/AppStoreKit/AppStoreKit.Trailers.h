@@ -7,8 +7,6 @@
 @interface AppStoreKit.Trailers
 {
     id videos;
-    id mediaPlatform;
-    id id;
 }
 
 @end

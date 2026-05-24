@@ -6,18 +6,15 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHAssetCollection, PXAddAssetsToAssetCollectionAction, PXDeleteCollectionsAction;
+@class PXAddAssetsToAssetCollectionAction;
 @protocol PXFastEnumeration;
 
 @interface PXMergeAssetCollectionsAction : PXPhotosAction
 {
     id <PXFastEnumeration> _sourceAssetCollections;
-    PHAssetCollection *_targetAssetCollection;
-    PXAddAssetsToAssetCollectionAction *_addAssetsToCollectionAction;
-    PXDeleteCollectionsAction *_deleteCollectionsAction;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (void);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXAddAssetsToAssetCollectionAction *addAssetsToCollectionAction; // @synthesize addAssetsToCollectionAction=_addAssetsToCollectionAction;
-@property(retain, nonatomic) PXDeleteCollectionsAction *deleteCollectionsAction; // @synthesize deleteCollectionsAction=_deleteCollectionsAction;
-@property(readonly, nonatomic) id <PXFastEnumeration> sourceAssetCollections; // @synthesize sourceAssetCollections=_sourceAssetCollections;
-@property(readonly, nonatomic) PHAssetCollection *targetAssetCollection; // @synthesize targetAssetCollection=_targetAssetCollection;
 
 @end
 

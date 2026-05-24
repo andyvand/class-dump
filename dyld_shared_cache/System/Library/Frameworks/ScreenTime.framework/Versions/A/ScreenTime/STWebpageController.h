@@ -4,62 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, STWebRemoteViewController, STWebpageView, USVideoUsage;
-@protocol STWebService;
+@class STWebRemoteViewController;
 
 @interface STWebpageController
 {
     long long _currentUsageState;
-    _Bool _suppressUsageRecording;
-    _Bool _URLIsPlayingVideo;
-    _Bool _URLIsPictureInPicture;
-    _Bool _URLIsBlocked;
-    NSURL *_URL;
-    NSString *_profileIdentifier;
-    STWebRemoteViewController *_remoteViewController;
-    USVideoUsage *_videoUsage;
-    NSString *_bundleIdentifier;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)DefaultChannelClusteringKnobsTopicDiversity;
+- (void)DefaultMoreForYouClusteringKnobsPaidBundleArticleQuotas;
+- (void)DefaultMoreForYouClusteringKnobsTopicDiversity;
+- (void)QuotaConditionProvider;
+- (_Bool)DefaultHardPaywallBundleArticleLimit;
+- (long long)DefaultRelatedTopicRatioFilter;
+- (long long)DefaultThumbnailMinHammingDistance;
+- (void)DefaultTopicGroupableMultiplier;
+- (void)DefaultTopicScoreWeight;
+- (void)DefaultTopicSpecificityMultiplier;
+- (void)DefaultDampenerCoefficient;
+- (void)DefaultTagWeightExponent;
+- (void)DefaultBundlePaidMultiplier;
+- (void)DefaultEvergreenMultiplier;
+- (void)DefaultMembershipDampener;
+- (void);
+- (void)DefaultAutofavoritedScoreCoefficient;
+- (_Bool)DefaultAutofavoritedScoreConfiguration;
+- (_Bool)DefaultConversionScoreDemocratizationFactor;
+- (_Bool)DefaultClientSideEngagementBoostANFMutiplier;
 - (void);
 - (void);
+- (void)"NSTimer",&,N,V_slideshowTimer;
+- (void)lBatchOfAssetsTimer;
 - (void);
-- (_Bool);
-- (long long);
-- (long long);
+- (_Bool)PXStoryDummyDailyChapterCollectionProducer;
+- (void);;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -68,22 +48,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)error-code;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property _Bool URLIsBlocked; // @synthesize URLIsBlocked=_URLIsBlocked;
-@property(nonatomic) _Bool URLIsPictureInPicture; // @synthesize URLIsPictureInPicture=_URLIsPictureInPicture;
-@property(nonatomic) _Bool URLIsPlayingVideo; // @synthesize URLIsPlayingVideo=_URLIsPlayingVideo;
-@property(readonly) _Bool URLIsPlayingVideoPictureInPicture;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) long long currentUsageState;
-@property(readonly) long long defaultUsageState;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
 @property(retain) STWebRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) id <STWebService> serviceProxy;
-@property(nonatomic) _Bool suppressUsageRecording; // @synthesize suppressUsageRecording=_suppressUsageRecording;
-@property(retain) USVideoUsage *videoUsage; // @synthesize videoUsage=_videoUsage;
-@property(retain) STWebpageView *view;
 
 @end
 

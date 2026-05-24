@@ -8,9 +8,6 @@
 {
     id _cAppClipCodeTrackingProvider;
     id _cAppClipCodeTrackingConfiguration;
-    id anchorUpdateIterators;
-    id anchorQueue;
-    id powerMode;
 }
 
 @end

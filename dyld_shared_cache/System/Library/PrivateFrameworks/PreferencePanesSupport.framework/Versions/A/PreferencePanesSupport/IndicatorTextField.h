@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IndicatorImageView, NSTextField;
+@class NSTextField;
 
 @interface IndicatorTextField
 {
     _Bool mShowIndicator;
-    IndicatorImageView *mIdicatorImageView;
-    NSTextField *mNoteField;
 }
 
 + (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);

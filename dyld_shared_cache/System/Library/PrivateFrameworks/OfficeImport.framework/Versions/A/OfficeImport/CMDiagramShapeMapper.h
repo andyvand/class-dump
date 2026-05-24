@@ -6,17 +6,10 @@
 
 #import <OfficeImport/CMDiagramMapper.h>
 
-@class NSString, OADOrientedBounds;
-
 __attribute__((visibility("hidden")))
 @interface CMDiagramShapeMapper : CMDiagramMapper
 {
     unsigned long long mChildCount;
-    OADOrientedBounds *mDiagramShapeBounds;
-    NSString *mIdentifier;
-    float mDefaultFontSize;
-    int mMaxMappableTreeDepth;
-    float mDefaultScale;
 }
 
 - (struct CGSize);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (float);

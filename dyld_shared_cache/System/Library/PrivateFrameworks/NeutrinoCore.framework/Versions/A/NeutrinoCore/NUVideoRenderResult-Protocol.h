@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAudioMix, AVComposition, AVVideoComposition, NUImageGeometry;
+@class AVAsset, AVComposition, AVVideoComposition;
 
 @protocol NUVideoRenderResult
+- (AVAsset *);
+- (AVVideoComposition *)abel%tu;
+- (AVComposition *)e address from string:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AVAudioMix *audioMix;
-@property(readonly) AVComposition *avAsset;
-@property(readonly) AVVideoComposition *avVideoComposition;
-@property(readonly) NUImageGeometry *geometry;
 @property(readonly) AVAsset *video;
-@property(readonly) AVVideoComposition *videoComposition;
 @end
 

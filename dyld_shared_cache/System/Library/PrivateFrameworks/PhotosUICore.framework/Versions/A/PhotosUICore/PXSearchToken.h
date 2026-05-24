@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSString, NSTokenAttachment, PXSearchTokenRepresentedObject;
+@class NSTokenAttachment;
 
 @interface PXSearchToken
 {
     NSTokenAttachment *_searchObject;
-    PXSearchTokenRepresentedObject *_representedObject;
-    NSImage *_image;
-    NSString *_text;
-    NSAttributedString *_attributedText;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -32,11 +28,7 @@
 - (void)¼øþ;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) PXSearchTokenRepresentedObject *representedObject; // @synthesize representedObject=_representedObject;
 @property(retain, nonatomic) NSTokenAttachment *searchObject; // @synthesize searchObject=_searchObject;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

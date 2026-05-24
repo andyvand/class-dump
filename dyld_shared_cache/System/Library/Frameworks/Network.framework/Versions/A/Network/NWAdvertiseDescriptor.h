@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
+@class NSObject;
 @protocol OS_nw_advertise_descriptor;
 
 @interface NWAdvertiseDescriptor
@@ -15,6 +15,7 @@
 - (id);
 - (void);
 - (void);
+- (id)	;
 - (id);
 - (id);
 - (id);
@@ -22,18 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ser;
+- (id)browser;
 - (id)
 ;
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bonjourServiceDomain;
-@property(readonly, nonatomic) NSString *bonjourServiceName;
-@property(readonly, nonatomic) NSString *bonjourServiceType;
 @property(retain, nonatomic) NSObject<OS_nw_advertise_descriptor> *internalDescriptor; // @synthesize internalDescriptor=_internalDescriptor;
-@property(retain, nonatomic) NSData *txtRecord;
 
 @end
 

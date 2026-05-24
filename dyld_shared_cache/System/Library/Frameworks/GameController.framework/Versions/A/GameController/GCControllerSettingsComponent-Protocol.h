@@ -7,9 +7,9 @@
 @class GCSProfile;
 
 @protocol GCControllerSettingsComponent
+- (GCSProfile *);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType changedHandler;
-@property(readonly) GCSProfile *settingsProfile;
 @end
 

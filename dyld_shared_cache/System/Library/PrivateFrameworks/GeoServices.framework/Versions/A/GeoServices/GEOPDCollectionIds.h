@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCollectionIds
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_collectionIds;
 }
 
 + (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a*;
 - (_Bool);
 - (id)1"has_userShownNotification"b1"read_unknownFields"b1"read_originalRapId"b1"read_responseId"b1"wrote_anyField"b1};
-- (id)onURLs;
+- (id)_clientActionURLs;
 - (id)x2Ø5\89Ì;ÐO;
 - (void)ÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 

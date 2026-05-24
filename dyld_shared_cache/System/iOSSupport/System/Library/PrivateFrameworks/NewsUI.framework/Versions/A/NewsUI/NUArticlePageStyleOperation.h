@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticle, NUPageStyle;
+@class FCArticle;
 
 @interface NUArticlePageStyleOperation
 {
     FCArticle *_article;
-    unsigned long long _pageNextAction;
-    CDUnknownBlockType _completion;
-    NUPageStyle *_pageStyle;
 }
 
 - (unsigned long long);
@@ -19,17 +16,14 @@
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)privacyMarkerType;
 - (id);
 - (void);
 - (void);
-- (_Bool)y;
+- (_Bool)NUApplicationAssembly;
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticle *article; // @synthesize article=_article;
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) unsigned long long pageNextAction; // @synthesize pageNextAction=_pageNextAction;
-@property(retain, nonatomic) NUPageStyle *pageStyle; // @synthesize pageStyle=_pageStyle;
 
 @end
 

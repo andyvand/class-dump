@@ -7,9 +7,6 @@
 @interface SwiftUI.AppKitMainMenuItem
 {
     id id;
-    id dynamicSubmenu;
-    id menuHost;
-    id menuContentsAreInvalid;
 }
 
 - (void);

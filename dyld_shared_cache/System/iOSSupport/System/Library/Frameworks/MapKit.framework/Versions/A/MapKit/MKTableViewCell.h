@@ -7,8 +7,6 @@
 @interface MKTableViewCell
 {
     _Bool __mapkit_separatorStyleOverrideEnabled;
-    _Bool __mapkit_forceSeparatorFrameToCGRectZero;
-    long long __mapkit_separatorStyleOverride;
 }
 
 - (void);
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _mapkit_forceSeparatorFrameToCGRectZero; // @synthesize _mapkit_forceSeparatorFrameToCGRectZero=__mapkit_forceSeparatorFrameToCGRectZero;
-@property(nonatomic) long long _mapkit_separatorStyleOverride; // @synthesize _mapkit_separatorStyleOverride=__mapkit_separatorStyleOverride;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellTitlePresenter
 {
     id delegate;
-    id hostCell;
-    id moduleDelegate;
-    id viewModel;
-    id item;
-    id interactor;
-    id router;
-    id editingPresenter;
-    id temporarilySuppressAutoCompleteReminder;
 }
 
 @end

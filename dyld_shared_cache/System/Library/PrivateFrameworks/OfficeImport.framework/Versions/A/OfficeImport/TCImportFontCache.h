@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface TCImportFontCache
 {
     OITSUNoCopyDictionary *mFontCache;
-    NSMutableDictionary *mFontNameCache;
 }
 
-+ (struct CGSize);
++ (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
 - (struct __CTFont *);
 - (id);
-- (struct __CTFont *);
+- (struct __CTFont *)@9;
 - (void);
 - (id);
 - (void)ATS;

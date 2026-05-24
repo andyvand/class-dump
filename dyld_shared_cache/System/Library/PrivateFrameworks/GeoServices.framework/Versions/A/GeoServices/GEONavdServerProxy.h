@@ -8,6 +8,7 @@
 {
 }
 
+- (void)I;
 - (void);
 - (void);
 - (void);
@@ -17,8 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)fers recorded at %llu (%f seconds) due to audio recording restriction (accumulatedBufferDuration = %f seconds).;
 - (void);
 
 @end

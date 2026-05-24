@@ -29,9 +29,9 @@
 + (void);
 + (void);
 + (_Bool);
-+ (int);
++ (int)C;
 + (void);
-+ (void);
++ (void)C;
 + (void);
 + (_Bool);
 + (void);
@@ -45,7 +45,7 @@
 + (void);
 + (void);
 + (void);
-+ (unsigned long long);
++ (unsigned long long)8ԁl;
 + (_Bool);
 
 @end

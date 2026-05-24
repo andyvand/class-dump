@@ -5,5 +5,8 @@
 //
 
 @protocol SiriUIObjectPickerViewControllerDelegate
+
+@optional
+- (void);
 @end
 

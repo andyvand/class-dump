@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAReminderSmsPayload : AceObject
 {
@@ -22,15 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *message;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly) Class superclass;
 
 @end
 

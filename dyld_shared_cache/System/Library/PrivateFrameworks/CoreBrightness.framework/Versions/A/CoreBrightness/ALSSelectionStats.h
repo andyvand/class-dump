@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBHistogramBuilder, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface ALSSelectionStats
 {
     int currentALSOrientation;
-    int currentALSPlacement;
-    double deltas[12];
-    double time[18];
-    CBHistogramBuilder *luxTimeHistograms[18];
-    float startTime;
-    float lastEvalTime;
-    unsigned int nSwaps;
-    NSMutableDictionary *samples;
-    float currentLux;
 }
 
 - (int);
@@ -29,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9h;
 - (int);
 - (void);
-- (id);
+- (id)?;
 - (void);
 
 @end

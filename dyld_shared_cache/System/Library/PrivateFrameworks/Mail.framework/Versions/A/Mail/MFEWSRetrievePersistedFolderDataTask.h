@@ -6,14 +6,12 @@
 
 #import <Mail/MFEWSTask.h>
 
-@class MFEWSRetrievePersistedFolderDataOperation, NSMutableSet, NSString;
+@class MFEWSRetrievePersistedFolderDataOperation;
 @protocol MFEWSMailboxDataCache;
 
 @interface MFEWSRetrievePersistedFolderDataTask : MFEWSTask
 {
     MFEWSRetrievePersistedFolderDataOperation *_retrievePersistedFolderDataOperation;
-    NSMutableSet *_urlsNeedingData;
-    id <MFEWSMailboxDataCache> _cache;
 }
 
 - (void);
@@ -31,14 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <MFEWSMailboxDataCache> cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MFEWSRetrievePersistedFolderDataOperation *retrievePersistedFolderDataOperation;
-@property(readonly) Class superclass;
 
 @end
 

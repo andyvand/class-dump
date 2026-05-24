@@ -15,7 +15,7 @@
 
 + (id);
 - (void);
-- (void)tureSamplerGetWrapModeT;
+- (void)C3DTextureSamplerGetWrapModeT;
 
 @end
 

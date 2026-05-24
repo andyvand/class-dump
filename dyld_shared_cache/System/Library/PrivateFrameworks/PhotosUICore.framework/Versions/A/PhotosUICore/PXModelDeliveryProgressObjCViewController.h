@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, PhotosUICore.PXModelDeliveryProgressViewController;
+@class PhotosUICore.PXModelDeliveryProgressViewController;
 
 @interface PXModelDeliveryProgressObjCViewController
 {
     _Bool _isiPadConfiguration;
-    PhotosUICore.PXModelDeliveryProgressViewController *_mdpvc;
-    double _progress;
-    unsigned long long _stage;
-    NSError *_errorToReport;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)6aM;
 - (void);
 - (id);
 - (_Bool);
@@ -24,20 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)=;
+- (void);
 - (unsigned long long);
-- (void)rKey: /* Error: Ran out of types for this method. */;
+- (void)setNumber:forKey: /* Error: Ran out of types for this method. */;
 - (double)argetOverallDuration=%{signpost.description:attribute,public}@ /* Error: Ran out of types for this method. */;
 - (void)eController.m;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *errorToReport; // @synthesize errorToReport=_errorToReport;
-@property(nonatomic) _Bool isiPadConfiguration; // @synthesize isiPadConfiguration=_isiPadConfiguration;
 @property(retain, nonatomic) PhotosUICore.PXModelDeliveryProgressViewController *mdpvc; // @synthesize mdpvc=_mdpvc;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(nonatomic) unsigned long long stage; // @synthesize stage=_stage;
 
 @end
 

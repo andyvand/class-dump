@@ -9,24 +9,16 @@
 @interface PLStorageCache
 {
     NSDate *_lastCacheFlushDate;
-    long long _lastEntryCacheSize;
-    long long _stagingEntryCacheSize;
-    NSMutableDictionary *_cacheContent;
-    NSMutableDictionary *_lastEntryCache;
-    NSMutableDictionary *_stagingEntryCache;
-    NSMutableDictionary *_stagingAggregateEntryCache;
-    NSMutableDictionary *_countWarnings;
-    NSMutableDictionary *_countSafetyDrop;
 }
 
 + (void);
-+ (id)hdApplicationMacOS: /* Error: Ran out of types for this method. */;
++ (id)cleanLaunchdApplicationMacOS: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (long long);
 - (void);
@@ -36,59 +28,52 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)event;
+- (void)ailed to fetch age with error:%@, setting showShareAgeRangeAgain to:%{bool}d /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (long long);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (int).);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)transceiveMultiple:(id)arg1 forSEID:toOS:error: /* Error: Ran out of types for this method. */;
+- (long long)_initWithInfo:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (id)TargetProcess;
+- (id)2x;
+- (id)T;
+- (id);
+- (void)B'DJ*J
+;
+- (id)i;
+- (void)g;
+- (void)y;
+- (void)e;
+- (void);
+- (id);
+- (void)';
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *cacheContent; // @synthesize cacheContent=_cacheContent;
-@property(retain) NSMutableDictionary *countSafetyDrop; // @synthesize countSafetyDrop=_countSafetyDrop;
-@property(retain) NSMutableDictionary *countWarnings; // @synthesize countWarnings=_countWarnings;
-@property(retain, nonatomic) NSDate *lastCacheFlushDate; // @synthesize lastCacheFlushDate=_lastCacheFlushDate;
 @property(retain) NSMutableDictionary *lastEntryCache; // @synthesize lastEntryCache=_lastEntryCache;
-@property long long lastEntryCacheSize; // @synthesize lastEntryCacheSize=_lastEntryCacheSize;
-@property(retain) NSMutableDictionary *stagingAggregateEntryCache; // @synthesize stagingAggregateEntryCache=_stagingAggregateEntryCache;
-@property(retain) NSMutableDictionary *stagingEntryCache; // @synthesize stagingEntryCache=_stagingEntryCache;
-@property long long stagingEntryCacheSize; // @synthesize stagingEntryCacheSize=_stagingEntryCacheSize;
 
 @end
 

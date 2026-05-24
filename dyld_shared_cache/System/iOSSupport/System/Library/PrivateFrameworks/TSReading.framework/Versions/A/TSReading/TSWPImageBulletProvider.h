@@ -9,14 +9,13 @@
 @interface TSWPImageBulletProvider
 {
     NSMutableArray *_images;
-    NSMutableArray *_filenames;
 }
 
 + (id)che sharedCache];
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ot object;
+- (id)timebase time: /* Error: Ran out of types for this method. */;
+- (id)ing: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 
 // Remaining properties

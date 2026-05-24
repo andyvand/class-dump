@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface CHTokenizedStrokeResult
 {
     long long _resultLevel;
-    NSSet *_strokeIdentifiers;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long resultLevel; // @synthesize resultLevel=_resultLevel;
-@property(readonly, copy, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end
 

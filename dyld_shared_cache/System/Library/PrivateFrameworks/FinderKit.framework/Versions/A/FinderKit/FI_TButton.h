@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TTargetActionFunctor, NSColor;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface FI_TButton
 {
     NSColor *_titleColor;
-    NSColor *_alternateTitleColor;
-    struct CGSize _maxSize;
-    struct CGSize _minSize;
-    _Bool _acceptsFirstMouse;
-    struct TriStateBool _isEnabledCacheWhenNotKey;
-    _Bool _isInsideWindowChangedKeyState;
-    FI_TTargetActionFunctor *_glue;
-    unique_ptr_85e9c8c7 _bestFitTitleSelector;
-    unique_ptr_85e9c8c7 _bestFitAlternateTitleSelector;
 }
 
 + (Class);
@@ -28,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unique_ptr_85e9c8c7);
+- (unique_ptr_9855ea70);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)16q24q32;
+- (void)eView.UnreadVIPFlagged;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)subjectLeadingToIndicatorConstraint;
+- (_Bool)lineFragmentPadding;
+- (void)initWithMessages:sourceViewController:isInlineSummary:donationManager: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)setupLibraryMessage:(id)arg1 fromMessage: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (id);
 - (id);
@@ -62,10 +53,6 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)YÇÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptsFirstMouse;
-@property(retain, nonatomic) NSColor *alternateTitleColor;
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(nonatomic) struct CGSize minSize; // @synthesize minSize=_minSize;
 @property(retain, nonatomic) NSColor *titleColor;
 
 @end

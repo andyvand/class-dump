@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMARRSRepetitionDetectionStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void),&,N,V_completionQueue;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)X509V3_parse_list;
+- (unsigned long long))A;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (id)!Fù±Þ°1Â0@ù
 × ;
 - (id),V_isQuestionNeedingAnswer;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

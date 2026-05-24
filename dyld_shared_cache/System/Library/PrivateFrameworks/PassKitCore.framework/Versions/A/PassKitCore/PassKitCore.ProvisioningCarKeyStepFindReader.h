@@ -7,13 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepFindReader
 {
     id context;
-    id credential;
-    id sharedState;
-    id carConfiguration;
-    id commonCompletion;
-    id session;
-    id bindingAttestation;
-    id onDidStartPairing;
 }
 
 - (void);
@@ -24,7 +17,7 @@
 - (void);
 - (void);
 - (void)skipping setting express pass.;
-- (void)ING_SHARE_GUEST_DESCRIPTION;
+- (void)PREDEFINED_EXISTING_SHARE_GUEST_DESCRIPTION;
 
 @end
 

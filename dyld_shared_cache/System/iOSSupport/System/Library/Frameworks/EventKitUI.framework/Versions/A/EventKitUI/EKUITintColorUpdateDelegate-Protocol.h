@@ -5,5 +5,6 @@
 //
 
 @protocol EKUITintColorUpdateDelegate
+- (void);
 @end
 

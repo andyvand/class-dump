@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INAddCallParticipantIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -24,19 +24,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)lookup;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *participants;
-@property(readonly) Class superclass;
 
 @end
 

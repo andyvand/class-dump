@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDate, NSError, NSObject, NSString, NSURL, NSXPCConnection, SUMajorProduct, SUUpdateProduct;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection, SUUpdateProduct;
 
 @interface SUAppStoreUpdate
 {
     SUUpdateProduct *_product;
-    NSError *_updateError;
-    long long _lastState;
-    NSObject<OS_dispatch_queue> *_q;
-    NSXPCConnection *_connection;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (_Bool);
 - (id);
@@ -30,14 +25,14 @@
 - (_Bool);
 - (id);
 - (id);
+- (id).{T;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (long long)ʬ;
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -50,13 +45,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)'t decode NSData %@ (error:(id)arg1 %@);
+- (id)i;
+- (void)om %@;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (void);
 - (_Bool);
@@ -69,42 +64,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly) long long action;
-@property(readonly) NSDate *adminDeferredToDate;
-@property(readonly) _Bool allowedToUseInstallLater;
-@property(readonly, retain) NSArray *applicationIdentifiersToClose;
-@property(readonly) long long autoInstallWithDelayInHours;
-@property(readonly, retain) id auxInfo;
-@property(readonly) _Bool canRetry;
 @property(nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, retain) NSString *currentLocalization;
-@property(readonly, retain) NSString *customTextForPostInstallNotification;
-@property(readonly, retain) NSString *customTextForUpdateAvailableNotification;
-@property(readonly, retain) NSString *customTitleForPostInstallNotification;
-@property(readonly, retain) NSString *customTitleForUpdateAvailableNotification;
-@property(readonly, retain) NSURL *customURLForPostInstallNotification;
-@property(readonly, retain) NSDate *deferredUntilDate;
-@property(readonly) long long downloadSize;
-@property(readonly, retain) NSAttributedString *firmwareWarning;
-@property(readonly) _Bool isAdminDeferred;
-@property(readonly) _Bool isAutoUpdateEligible;
-@property(readonly) _Bool isConfigData;
-@property(readonly) _Bool isCritical;
-@property(readonly) _Bool isMajorOSUpdate;
-@property(readonly) _Bool isMajorOSUpdateInternal;
-@property(readonly) _Bool isRamped;
-@property(readonly) _Bool isRecommended;
-@property(readonly, retain) NSAttributedString *licenseAgreement;
-@property(readonly, retain) NSAttributedString *longAttributedDescription;
-@property(readonly, retain) NSString *longDescription;
-@property(readonly, retain) SUMajorProduct *majorProduct;
-@property(readonly, retain) NSDate *postDate;
-@property(readonly, retain) NSString *productKey;
-@property(readonly) _Bool showPostInstallNotification;
-@property(readonly, retain) NSArray *tags;
-@property(readonly, retain) NSString *title;
-@property(readonly, retain) NSError *updateError;
-@property(readonly, retain) NSString *versionString;
 
 @end
 

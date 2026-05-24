@@ -8,10 +8,6 @@
 {
     id _session;
     id _calloutQueue;
-    id _queue;
-    id _queue_initializationPayload;
-    id _logger;
-    id _logIdentifier;
 }
 
 - (void);

@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _HMDAppleAccountIdentifier : _HMDAccountIdentifier
 {
     struct os_unfair_lock_s _lock;
-    NSString *_identifierString;
 }
 
 + (id);
 + (_Bool)ñ;
 - (_Bool);
 - (id);
-- (id);
+- (id)close session;
 - (id);
 - (_Bool);
 - (void);

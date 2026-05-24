@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, HMBLocalZone, HMCContext, HMCPartition, HMDBackingStoreLocal, HMDCoreData, HMDHome, HMDHomeManager, HMDObjectLookup, NSString, NSUUID;
-@protocol HMDBackingStoreDataSource, HMDBackingStoreObjectProtocol;
+@class HMCPartition;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStore
 {
     _Bool _removedLegacyArchive;
-    CKRecordID *_root;
-    HMDBackingStoreLocal *_local;
-    HMDHomeManager *_homeManager;
-    HMDHome *_home;
-    NSUUID *_uuid;
-    HMDObjectLookup *_lookup;
-    HMCContext *_context;
-    id <HMDBackingStoreObjectProtocol> _delegate;
-    id <HMDBackingStoreDataSource> _dataSource;
-    HMBLocalZone *_localZone;
-    NSString *_contextName;
-    NSString *_contextTransactionAuthor;
 }
 
 + (id);
@@ -30,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)¼;
@@ -38,32 +25,72 @@ __attribute__((visibility("hidden")))
 + (id)dent device to send the message %@ for session %{public}@;
 + (id)blic}@Fetching records from zone %@;
 + (id)state number:(id *)arg1 %s;
-+ (id)tion;
++ (id)supportsCleanEnergyAutomation;
 + (id)D;
 - (id);
+- (id)";
+- (id);
+- (void);
+- (void)conversationManager:(id)arg1 resolvedAudioVideoModeChangedForConversation: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)iptFromLinearInto:(id)arg1 fromRed:(unsigned long long)arg2 green:blue: /* Error: Ran out of types for this method. */;
+- (id)g * vec3(0.956296, -0.272122, -1.10699) +
+pix.b * vec3(0.621024, -0.647381, 1.70461);
+color.rgb = sign(color.rgb)*pow(abs(color.rgb), vec3(gamma, gamma, gamma) );
+color.a = pix.a;
+return color;
+}
+kernel vec4 whiteBalance(sampler image, float grayY, float grayI, float grayQ, float strength)
+{
+vec4 im = sample(image, samplerCoord(image)) ;
+vec2 grayOffset = vec2(grayI, grayQ) ;
+vec4 result ;
+float newStrength = 1.0 + (strength-1.0)*(1.0-im.r) ;
+result.r = im.r ;
+result.gb = im.gb + newStrength*grayOffset ;
+float damp = max(min(1.0, im.r/(grayY+0.00001)),0.0) ;
+result.rgb = mix(im.rgb, result.rgb, damp) ;
+result.a = im.a ;
+return result ;
+}
+kernel vec4 gHDRtoPP(sampler image)
+{
+vec4 pix ;
+vec3 pix2;
+pix = sample(image, samplerCoord(image));
+pix2 = pix.r * vec3(0.615429622407401,   0.114831839141528,   0.011544126697221) +
+pix.g * vec3(0.367479646665836,   0.797943554457996,   0.064077744191180) +
+pix.b * vec3(  0.016956659608091,   0.087783443422360,   0.924405601458102);
+return vec4(pix2, pix.a);
+}
+kernel vec4 PPtogHDR(sampler image)
+{
+vec4 pix ;
+vec3 pix2;
+pix = sample(image, samplerCoord(image));
+pix2 = pix.r * vec3(1.777445503202045,  -0.255296595099306,  -0.004500433755654) +
+pix.g * vec3( -0.822224875430495,   1.380948853784730,  -0.085456231694984) +
+pix.b * vec3(0.045475917061484,  -0.126454737973025,   1.089973874037625);
+return vec4(pix2, pix.a);
+}
+
+;
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)Q%;
 - (void)1Â0@ù
 × ;
 - (id)!¸DùQÐ1Â0@ù
@@ -73,10 +100,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)ä!dEùÐ1Â0@ù
 × ;
-- (void);
+- (void)initWithReserved:(id)arg1 custom1:custom2: /* Error: Ran out of types for this method. */;
 - (id)nationIdentifiers: /* Error: Ran out of types for this method. */;
-- (id)leModeChangeWithPreviousMode: /* Error: Ran out of types for this method. */;
-- (void)inQueue:(id)arg1 queue:(id)arg2;
+- (id)_handleModeChangeWithPreviousMode: /* Error: Ran out of types for this method. */;
+- (void)_inQueue:(id)arg1 queue:(id)arg2;
 - (void)ÿÿÿÿà;
 - (id)ady exist;
 - (id)with %@:%@ /* Error: Ran out of types for this method. */;
@@ -87,7 +114,7 @@ __attribute__((visibility("hidden")))
 - (id)Preferred resident is removed while in Manual mode. Will force switch to Auto mode.;
 - (_Bool)Updating resident selection version from %{public}@ to %{public}@;
 - (void);
-- (void)lityStatus;
+- (void)currentUserAutoMigrationByOwnerAutoEligibilityStatus;
 - (id)1000-8000-0026BB765291;
 - (void);
 - (void);
@@ -95,28 +122,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *activeControllerKeyUsername;
-@property(retain, nonatomic) HMCContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSString *contextName; // @synthesize contextName=_contextName;
-@property(readonly, nonatomic) NSString *contextTransactionAuthor; // @synthesize contextTransactionAuthor=_contextTransactionAuthor;
-@property(readonly, nonatomic) HMDCoreData *coreData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDBackingStoreObjectProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) _Bool isAtomicSaveFeatureEnabled;
-@property(retain, nonatomic) HMDBackingStoreLocal *local; // @synthesize local=_local;
-@property(retain, nonatomic) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(retain, nonatomic) HMDObjectLookup *lookup; // @synthesize lookup=_lookup;
 @property(readonly, nonatomic) HMCPartition *partition; // @dynamic partition;
-@property(readonly, nonatomic) CKRecordID *root; // @synthesize root=_root;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

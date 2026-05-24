@@ -7,12 +7,6 @@
 @interface NewsUI2.MagazineCatalogRouter
 {
     id controller;
-    id delegate;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
-    id magazineMoreActionsFactory;
 }
 
 @end

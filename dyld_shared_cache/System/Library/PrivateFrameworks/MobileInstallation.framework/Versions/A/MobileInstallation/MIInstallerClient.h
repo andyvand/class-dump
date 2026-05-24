@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface MIInstallerClient
@@ -14,17 +13,6 @@ __attribute__((visibility("hidden")))
         long long __sig;
         char __opaque[56];
     } _delegatesCompleteCondMutex;
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } _delegatesCompleteCond;
-    _Bool _delegatesComplete;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _appDictionaryEnumBlock;
-    CDUnknownBlockType _releaseTerminationAssertBlock;
-    NSError *_delegatesCompleteError;
 }
 
 + (id);
@@ -39,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void)3;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -50,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -83,13 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType appDictionaryEnumBlock; // @synthesize appDictionaryEnumBlock=_appDictionaryEnumBlock;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool delegatesComplete; // @synthesize delegatesComplete=_delegatesComplete;
-@property(retain, nonatomic) NSError *delegatesCompleteError; // @synthesize delegatesCompleteError=_delegatesCompleteError;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) CDUnknownBlockType releaseTerminationAssertBlock; // @synthesize releaseTerminationAssertBlock=_releaseTerminationAssertBlock;
 
 @end
 

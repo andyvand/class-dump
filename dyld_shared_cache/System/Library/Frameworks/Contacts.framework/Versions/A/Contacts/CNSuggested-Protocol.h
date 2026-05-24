@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGRecordId;
+@class SGRecordId;
 
 @protocol CNSuggested
+- (SGRecordId *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isSuggested) _Bool suggested;
-@property(readonly, nonatomic) NSString *suggestionFoundInBundleId;
-@property(readonly, nonatomic) SGRecordId *suggestionRecordId;
 @end
 

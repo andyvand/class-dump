@@ -7,55 +7,18 @@
 @interface EncryptedBuffer
 {
     unsigned int _magic;
-    unsigned char _key[16];
-    unsigned long long _size;
-    unsigned long long _pageSize;
-    unsigned int _pageCount;
-    unsigned int _firstPageInBuffer;
-    char *_pageEncryptBits;
-    char *_pageTempBuffer;
-    long long _logicalSize;
-    char *_baseAddress;
-    CDUnknownFunctionPointerType _ivProc;
-    void *_ivProcRefcon;
-    struct __sFILE {
-        char *_field1;
-        int _field2;
-        int _field3;
-        short _field4;
-        short _field5;
-        struct __sbuf _field6;
-        int _field7;
-        void *_field8;
-        CDUnknownFunctionPointerType _field9;
-        CDUnknownFunctionPointerType _field10;
-        CDUnknownFunctionPointerType _field11;
-        CDUnknownFunctionPointerType _field12;
-        struct __sbuf _field13;
-        struct __sFILEX *_field14;
-        int _field15;
-        unsigned char _field16[3];
-        unsigned char _field17[1];
-        struct __sbuf _field18;
-        int _field19;
-        long long _field20;
-    } *_file;
-    unsigned long long _fileSize;
-    _Bool _cacheDirty;
-    unsigned int _cachedPageCount;
-    unsigned short _options;
 }
 
+- (void)performInstallmentAuthorizationWithRequest:(CDUnknownFunctionPointerType)arg1 completion:(void *)arg2;
+- (id)performBlockSyncOnInternalSession:(unsigned long long)arg1;
+- (id)performBlockAsyncOnInternalSession:(id)arg1;
+- (unsigned long long)performAfterEligibilityFinishes: /* Error: Ran out of types for this method. */;
+- (unsigned long long)pendingUserNotificationsWithIdentifier:(struct _NSRange)arg1 completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)e:(unsigned int)arg1 endDate:limit:completion: /* Error: Ran out of types for this method. */;
+- (void)pendingTransactionsForTransactionSourceIdentifiers:withTransactionSource:withBackingData:startDate:endDate:limit:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (unsigned short);
+- (unsigned short)A;
 
 // Remaining properties
 @property unsigned short options; // @synthesize options=_options;

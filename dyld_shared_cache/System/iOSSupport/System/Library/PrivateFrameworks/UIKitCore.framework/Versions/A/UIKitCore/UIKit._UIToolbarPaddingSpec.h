@@ -7,23 +7,14 @@
 @interface UIKit._UIToolbarPaddingSpec
 {
     double top;
-    double phoneKeyboard;
-    double phoneBottom;
-    double phoneSides;
-    double phoneCompactHeightBottom;
-    double phoneCompactHeightSides;
-    double padBottom;
-    double padSides;
-    double macBottom;
-    double macSides;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,25 +24,16 @@
 - (double);
 - (double);
 - (double);
+- (double);
 - (double);
 - (double);
-- (double);
-- (void);
-- (void)erInterfaceLayoutDirection: /* Error: Ran out of types for this method. */;
-- (double)umItemTopToFirstBaseline;
-- (void)olCSg;
-- (id);
+- (void)�#;
+- (void)_setForcedUserInterfaceLayoutDirection: /* Error: Ran out of types for this method. */;
+- (double)_mediumItemTopToFirstBaseline;
+- (void)So28_UINavigationBarTitleControlCSg;
+- (id)s6n;
 
 // Remaining properties
-@property(nonatomic) double macBottom; // @synthesize macBottom;
-@property(nonatomic) double macSides; // @synthesize macSides;
-@property(nonatomic) double padBottom; // @synthesize padBottom;
-@property(nonatomic) double padSides; // @synthesize padSides;
-@property(nonatomic) double phoneBottom; // @synthesize phoneBottom;
-@property(nonatomic) double phoneCompactHeightBottom; // @synthesize phoneCompactHeightBottom;
-@property(nonatomic) double phoneCompactHeightSides; // @synthesize phoneCompactHeightSides;
-@property(nonatomic) double phoneKeyboard; // @synthesize phoneKeyboard;
-@property(nonatomic) double phoneSides; // @synthesize phoneSides;
 @property(nonatomic) double top; // @synthesize top;
 
 @end

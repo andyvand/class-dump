@@ -13,22 +13,6 @@
 - (void)ð²;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _Bool wantsCrossfade;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N

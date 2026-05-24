@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 
 @interface AppletEntity
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject *applets; // @dynamic applets;
 @property(nonatomic) long long crsUpdateCounter; // @dynamic crsUpdateCounter;
-@property(copy, nonatomic) NSString *seid; // @dynamic seid;
-@property(nonatomic) long long version; // @dynamic version;
 
 @end
 

@@ -7,24 +7,18 @@
 @interface GEOSearchAutoRedoThreshold
 {
     unsigned long long _numberOfVisiblePoisThreshold;
-    double _zoomInPercentThreshold;
-    double _zoomOutPercentThreshold;
-    double _panDeltaThresholdInMeters;
 }
 
 - (double);
 - (double);
 - (double);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)@0:(id)arg1 8@16@24@32@40;
+- (id)setWillSaveToken:(unsigned long long)arg1;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfVisiblePoisThreshold; // @synthesize numberOfVisiblePoisThreshold=_numberOfVisiblePoisThreshold;
-@property(readonly, nonatomic) double panDeltaThresholdInMeters; // @synthesize panDeltaThresholdInMeters=_panDeltaThresholdInMeters;
-@property(readonly, nonatomic) double zoomInPercentThreshold; // @synthesize zoomInPercentThreshold=_zoomInPercentThreshold;
-@property(readonly, nonatomic) double zoomOutPercentThreshold; // @synthesize zoomOutPercentThreshold=_zoomOutPercentThreshold;
 
 @end
 

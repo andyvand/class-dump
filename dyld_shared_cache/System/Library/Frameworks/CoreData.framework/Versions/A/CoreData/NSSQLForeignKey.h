@@ -6,13 +6,12 @@
 
 #import <CoreData/NSSQLColumn.h>
 
-@class NSSQLToOne, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLForeignKey : NSSQLColumn
 {
     NSString *_name;
-    NSSQLToOne *_toOne;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

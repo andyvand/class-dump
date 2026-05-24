@@ -4,89 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCommonOptions, GEOComposedETARoute, GEOComposedRoute, GEOComposedWaypoint, GEODirectionsRequestFeedback, GEODirectionsServiceRequest, GEOETAUpdater, GEOLocation, GEOMapRegion, GEOMapServiceTraits, GEONavdClientInfo, GEORouteAttributes, GEORouteHypothesis, GEORouteHypothesizerAnalyticsStore, GEORouteMatch, NSData, NSDate, NSMutableArray, NSObject, NSString, geo_isolater;
-@protocol GEODirectionsServiceFamiliarRouteProvider, OS_dispatch_group;
+@class NSString;
 
 @interface GEORouteHypothesisMonitor
 {
     CDUnknownBlockType _handler;
-    GEODirectionsRequestFeedback *_feedback;
-    GEOComposedWaypoint *_source;
-    GEOComposedWaypoint *_destination;
-    GEOLocation *_originLocation;
-    int _transportType;
-    NSDate *_arrivalDate;
-    GEORouteHypothesis *_hypothesis;
-    GEOLocation *_lastLocation;
-    NSObject<OS_dispatch_group> *_etaUpdaterDispatchGroup;
-    GEOETAUpdater *_liveETAUpdater;
-    GEOComposedETARoute *_liveETARoute;
-    GEORouteAttributes *_routeAttributes;
-    GEOCommonOptions *_commonOptions;
-    GEOMapServiceTraits *_traits;
-    GEORouteHypothesizerAnalyticsStore *_analyticsStore;
-    GEONavdClientInfo *_clientInfo;
-    GEOComposedRoute *_route;
-    geo_isolater *_requestIsolater;
-    _Bool _needReroute;
-    NSMutableArray *_rerouteEntries;
-    GEORouteMatch *_routeMatch;
-    GEOLocation *_lastMatchedLocation;
-    _Bool _hasArrived;
-    _Bool _isTraveling;
-    double _travelScore;
-    GEOMapRegion *_arrivalMapRegion;
-    NSString *_traceName;
-    GEODirectionsServiceRequest *_currentRequest;
-    id <GEODirectionsServiceFamiliarRouteProvider> _familiarRouteProvider;
-    NSData *_sessionState;
 }
 
 + (id);
 + (void);
-+ (void);
-+ (id);
-+ (id);
++ (void)@"NSString"16;
++ (id)ent",R,N,V_enforcement;
++ (id)_CNLazyArrayEnumeratorSource;
 + (id);
 + (_Bool)mRouteCoordinate:called with route coordinate [%{private}@], which is the last coordinate on a route path. Changing coordinate to first coordinate of next path. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)resultsWithCoordinator:(id)arg1 pristineDatabase:(id)arg2;
+- (id)SLegacyIdentifier;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)-5;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_setResolvedRevision: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -99,23 +68,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *arrivalDate; // @synthesize arrivalDate=_arrivalDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEOComposedWaypoint *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) GEODirectionsRequestFeedback *feedback; // @synthesize feedback=_feedback;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEORouteHypothesis *hypothesis; // @synthesize hypothesis=_hypothesis;
-@property(readonly, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
 @property(readonly, nonatomic) NSString *routeName;
-@property(readonly, nonatomic) GEOComposedWaypoint *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsDirections;
-@property(readonly, nonatomic) _Bool supportsLiveTraffic;
-@property(readonly, nonatomic) int transportType;
 
 @end
 

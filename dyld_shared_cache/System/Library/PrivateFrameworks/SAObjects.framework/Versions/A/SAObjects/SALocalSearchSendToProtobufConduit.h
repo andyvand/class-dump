@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSData, NSURL;
+@class NSArray;
 
 @interface SALocalSearchSendToProtobufConduit : SADomainCommand
 {
@@ -16,21 +16,18 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attributes;
-@property(copy, nonatomic) NSURL *endpoint;
-@property(copy, nonatomic) NSData *rawRequest;
-@property(nonatomic) long long timeoutInSeconds;
 
 @end
 

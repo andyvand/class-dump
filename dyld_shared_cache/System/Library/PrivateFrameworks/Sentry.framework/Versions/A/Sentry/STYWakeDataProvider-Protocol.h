@@ -7,6 +7,8 @@
 @protocol STYWakeDataConsumer;
 
 @protocol STYWakeDataProvider
+- (unsigned long long);
+- (id <STYWakeDataConsumer>)removability while demoting %@;
 
 // Remaining properties
 @property __weak id <STYWakeDataConsumer> consumer;

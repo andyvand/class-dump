@@ -11,13 +11,13 @@
 + (int);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
+- (double)LogContext=}16@0:(id)arg1 8;
+- (id)rray=},V_removeFromRegistry;
+- (id)y=},V_limitLocalStoring;
+- (id)userDBBackupRecordIDsWithReply:(id)arg1;
+- (id)entities;
 
 @end
 

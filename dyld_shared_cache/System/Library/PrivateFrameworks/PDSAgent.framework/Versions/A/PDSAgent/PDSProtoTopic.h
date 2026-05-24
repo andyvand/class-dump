@@ -9,36 +9,32 @@
 @interface PDSProtoTopic
 {
     NSMutableArray *_appInfos;
-    NSString *_name;
-    NSString *_qualifier;
 }
 
-+ (Class);
++ (Class)ntext:error: /* Error: Ran out of types for this method. */;
+- (void)tent album.;
+- (unsigned long long)public}@:Rejecting asset collection destined for non-existent album. /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (void);
+- (id)_TtC12SiriOntology34UsoTask_deny_common_SiriPossession;
+- (void)_TtC12SiriOntology52UsoTask_checkExistence_common_RecurringDateTimeRange;
+- (id);
+- (void)packageIdentifier;
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)nCallbackProxy>",&,D,N;
+- (id)rgeable delta timestamps;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)4E;
 - (id);
-- (id);
-- (void);
+- (void)associatedAssetCloudIdentifier;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *appInfos; // @synthesize appInfos=_appInfos;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *qualifier; // @synthesize qualifier=_qualifier;
 
 @end
 

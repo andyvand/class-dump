@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MANodeFilter, NSString;
+@class MANodeFilter;
 
 @interface PGGraphNode
 {
 }
 
 + (id)0B44;
-- (id);
-- (id);
+- (id)xtrasGen:,V__menuExtrasGen /* Error: Ran out of types for this method. */;
+- (id)PasscodeValidated;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)stopExtractingContent;
 - (id);
 - (float);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) MANodeFilter *entityFilter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

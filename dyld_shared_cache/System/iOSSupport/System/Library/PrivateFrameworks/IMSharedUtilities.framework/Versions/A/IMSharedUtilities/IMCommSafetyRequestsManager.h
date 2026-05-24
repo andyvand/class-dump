@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MADService, NSMutableDictionary, NSOperationQueue;
+@class NSOperationQueue;
 
 @interface IMCommSafetyRequestsManager
 {
     NSOperationQueue *operationQueue;
-    id _userSafetyClient;
-    MADService *_service;
-    NSMutableDictionary *_cachedResults;
 }
 
 + (id);
-+ (void)URGEABLE_DOCUMENT_TYPE;
-- (id);
++ (void)APFS_PURGEABLE_DOCUMENT_TYPE;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -36,8 +33,6 @@
 - (void)fdí;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cachedResults; // @synthesize cachedResults=_cachedResults;
-@property(retain, nonatomic) MADService *service; // @synthesize service=_service;
 @property(retain, nonatomic) id userSafetyClient; // @synthesize userSafetyClient=_userSafetyClient;
 
 @end

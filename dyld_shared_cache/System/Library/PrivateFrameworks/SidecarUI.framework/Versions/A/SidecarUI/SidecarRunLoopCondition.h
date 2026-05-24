@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface SidecarRunLoopCondition : SidecarRunLoopSource
 {
     _Atomic _Bool _flag;
-    _Atomic _Bool _modal;
-    CDUnknownBlockType _handler;
 }
 
-- (void);
+- (void)alignmentGuidePositionX;
 - (long long);
 - (void);
-- (void);
+- (void)negativeAutonamingUserFeedbackForPerson:rejectedContactIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (CDUnknownBlockType);

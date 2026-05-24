@@ -10,11 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
 struct internal_state;
 
 struct z_stream_s {

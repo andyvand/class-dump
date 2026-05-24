@@ -11,7 +11,6 @@
 @interface BSServiceCompoundQueue : BSServiceQueue
 {
     BSServiceDispatchQueue *_dispatchQueue;
-    BSServiceQueue *_targetQueue;
 }
 
 + (id);
@@ -24,13 +23,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)qE;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BSServiceDispatchQueue *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, nonatomic) BSServiceQueue *targetQueue; // @synthesize targetQueue=_targetQueue;
 
 @end
 

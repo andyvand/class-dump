@@ -7,12 +7,10 @@
 @interface NewsUI2.SubscriberStatusConditionProvider
 {
     id statusConditions;
-    id appConfigurationManager;
-    id bundleSubscriptionManager;
 }
 
 - (void);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (void);

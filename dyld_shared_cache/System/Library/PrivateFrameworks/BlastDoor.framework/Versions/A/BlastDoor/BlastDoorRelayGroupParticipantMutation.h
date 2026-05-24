@@ -11,7 +11,7 @@
     id relayGroupParticipantMutation;
 }
 
-- (id);
+- (id)ts=dddd}BqqBBBBB}16;
 - (id);
 - (id);
 - (id);
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *handleID;
-@property(nonatomic, readonly) NSString *itemID;
 
 @end
 

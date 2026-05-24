@@ -11,7 +11,7 @@
     NSData *_salt;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

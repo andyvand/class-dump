@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface AAAccountServiceDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)rimentalModeEnabled: /* Error: Ran out of types for this method. */;
-- (void)tedObject;
+- (id)(;
+- (id)setExperimentalModeEnabled: /* Error: Ran out of types for this method. */;
+- (void)exportedObject;
 - (id)=:¨t. /* Error: Ran out of types for this method. */;
 - (id)ó;
 

@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAPackage, NSDictionary;
+@class CAPackage, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleEducationView
 {
     CAPackage *_onboardingAssetsPackage;
-    CALayer *_keyboardLayer;
-    CALayer *_mouseLayer;
-    CALayer *_trackpadLayer;
-    _Bool _enabled;
-    NSDictionary *_featureLayers;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)
+B;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain) NSDictionary *featureLayers; // @synthesize featureLayers=_featureLayers;
 
 @end

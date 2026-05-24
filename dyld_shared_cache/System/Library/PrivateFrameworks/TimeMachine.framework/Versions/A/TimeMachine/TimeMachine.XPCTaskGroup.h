@@ -7,13 +7,9 @@
 @interface TimeMachine.XPCTaskGroup
 {
     id lock;
-    id taskCounter;
-    id tasks;
-    id cancellationDates;
-    id connectionID;
 }
 
-- (id);
+- (id)5;
 - (void);
 
 @end

@@ -6,18 +6,16 @@
 
 #import <GameController/_GCDevicePhysicalInputDirectionPadElement.h>
 
-@class NSSet, NSString;
-@protocol GCLinearInput, GCPressedStateInput><GCLinearInput, GCTouchedStateInput;
+@protocol GCPressedStateInput><GCLinearInput;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputClickableDirectionPadElement : _GCDevicePhysicalInputDirectionPadElement
 {
     unsigned long long _pressedValueFieldSlot;
-    unsigned long long _pressedInputSlot;
 }
 
 + (unsigned short);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -30,19 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *aliases;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <GCLinearInput> forceInput;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedName;
 @property(readonly) id <GCPressedStateInput><GCLinearInput> pressedInput;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly) Class superclass;
-@property(readonly) id <GCTouchedStateInput> touchedInput;
 
 @end
 

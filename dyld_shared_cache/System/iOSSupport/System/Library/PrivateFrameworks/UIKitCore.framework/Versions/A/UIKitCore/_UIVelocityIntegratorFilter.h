@@ -9,8 +9,8 @@
     struct Filter *_filter;
 }
 
-+ (id);
-+ (id);
++ (id)g incoming transcript background command, subclass for iMessage should handle.;
++ (id)MSFilteringSettings dictionary;
 + (id);
 + (id);
 + (id);

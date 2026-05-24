@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableIndexSet;
-
 @interface MPWeighter
 {
     long long _totalWeight;
-    NSMutableArray *_weights;
-    NSMutableArray *_items;
-    NSMutableArray *_constraints;
-    NSMutableArray *_usageCount;
-    NSMutableIndexSet *_ignoreIndices;
-    _Bool _evenlyPickByID;
-    _Bool _ignorePanoramas;
 }
 
 - (void);
-- (void);
-- (long long);
+- (void)userStorefrontID;
+- (long long)NSArray"16;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -28,21 +19,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)_ր;
+- (void);
 - (id);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)Rs;
 - (long long);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)( ;
+- (void);
 - (void);
 - (id);
 - (id);

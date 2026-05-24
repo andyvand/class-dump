@@ -10,15 +10,14 @@
 }
 
 - (_Bool);
-- (id);
+- (id)ate>";
 - (struct CGImage *);
 - (id);
-- (struct __CVBuffer *)mTranscriptBackgroundCommandTypeWrapper;
+- (struct __CVBuffer *)_ObjCEnumTranscriptBackgroundCommandTypeWrapper;
 - (void)Ða;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGImage *cgImage;
-@property(nonatomic, readonly) struct __CVBuffer *pixelBuffer;
 
 @end
 

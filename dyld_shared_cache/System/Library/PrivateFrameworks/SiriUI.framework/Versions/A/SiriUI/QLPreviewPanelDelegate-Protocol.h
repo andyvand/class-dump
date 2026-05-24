@@ -5,5 +5,9 @@
 //
 
 @protocol QLPreviewPanelDelegate
+
+@optional
+- (_Bool)undColorView;
+- (struct CGRect);
 @end
 

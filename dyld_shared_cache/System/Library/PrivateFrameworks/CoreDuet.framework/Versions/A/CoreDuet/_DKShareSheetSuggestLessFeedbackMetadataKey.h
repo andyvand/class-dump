@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)qa;
++ (id);
 + (id);
 + (id)pTokenInfo"32;
 

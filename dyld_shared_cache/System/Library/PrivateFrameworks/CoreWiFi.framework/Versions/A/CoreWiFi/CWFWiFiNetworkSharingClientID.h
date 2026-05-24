@@ -9,7 +9,6 @@
 @interface CWFWiFiNetworkSharingClientID
 {
     NSString *_bundleID;
-    NSString *_accessoryID;
 }
 
 + (id);
@@ -21,15 +20,14 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)|B|S8;
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)keepalive;
 - (void)Only;
 
 // Remaining properties
-@property(copy) NSString *accessoryID; // @synthesize accessoryID=_accessoryID;
 @property(copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
 
 @end

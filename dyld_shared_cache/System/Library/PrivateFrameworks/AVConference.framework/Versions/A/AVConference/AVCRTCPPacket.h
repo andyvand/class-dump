@@ -7,11 +7,10 @@
 @interface AVCRTCPPacket
 {
     unsigned char _packetType;
-    unsigned int _SSRC;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned char);
@@ -19,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int SSRC; // @synthesize SSRC=_SSRC;
 @property(nonatomic) unsigned char packetType; // @synthesize packetType=_packetType;
 
 @end

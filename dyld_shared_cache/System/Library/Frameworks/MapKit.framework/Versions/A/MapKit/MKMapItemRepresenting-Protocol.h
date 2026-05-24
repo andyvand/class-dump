@@ -7,6 +7,7 @@
 @class MKMapItem;
 
 @protocol MKMapItemRepresenting
+- (MKMapItem *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_representedMapItem) MKMapItem *representedMapItem;

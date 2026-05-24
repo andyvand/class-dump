@@ -13,7 +13,7 @@
     id <NUImageProperties> _imageProperties;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);

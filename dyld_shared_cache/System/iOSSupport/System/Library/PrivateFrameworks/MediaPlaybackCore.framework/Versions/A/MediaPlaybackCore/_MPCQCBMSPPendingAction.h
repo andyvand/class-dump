@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPCQCBMSPPendingAction
 {
     NSString *_label;
-    NSString *_itemIdentifier;
-    NSDate *_expirationDate;
-    CDUnknownBlockType _block;
 }
 
 - (id);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)ngKeys;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

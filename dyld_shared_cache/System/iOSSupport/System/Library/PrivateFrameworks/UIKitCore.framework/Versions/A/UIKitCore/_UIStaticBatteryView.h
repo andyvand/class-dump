@@ -21,11 +21,11 @@
 + (id)1Â0@ù
 × ;
 + (id)_animationDurationDown;
-+ (id)undsAnimation;
++ (id)TouchKnobBoundsAnimation;
 + (id)%@;
-+ (id)lar;
++ (id)Regular;
 + (id)@h;
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (void);
@@ -33,15 +33,15 @@
 - (struct CGRect);
 - (double);
 - (double);
-- (void);
+- (void);
 - (double)ÌGùq\°1Â0@ù
 × ;
-- (void)UniformAcrossSiblings;
+- (void)_axesUniformAcrossSiblings;
 - (void)_setSmallestUndimmedDetentIdentifierWhenEdgeAttachedInCompactHeight:(_Bool)arg1;
 - (void)",W,N;
 - (_Bool)gacy alert presentation:%@ /* Error: Ran out of types for this method. */;
 - (void)ñþÿ;
-- (void)lectionDidTranslateForReachability;
+- (void)UITextSelectionDidTranslateForReachability;
 - (void);
 
 @end

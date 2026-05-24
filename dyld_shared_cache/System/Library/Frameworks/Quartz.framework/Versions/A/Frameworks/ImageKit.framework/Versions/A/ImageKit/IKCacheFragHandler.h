@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface IKCacheFragHandler
 {
     unsigned long long _totalLen;
-    unsigned long long _holesLen;
-    id *_sizeRanks;
-    NSMutableArray *_orderedByStart;
-    NSString *_path;
-    _Bool _isDirty;
 }
 
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -31,7 +24,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)__objc_protolist__DATA_CONST;
 - (_Bool);
 - (id);
 - (id);

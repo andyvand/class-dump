@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SCTGRL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SCTGRLTree
 {
     NSString *mKey;
-    SCTGRL *mGRL;
-    NSMutableArray *mChildren;
-    SCTGRLTree *mParent;
 }
 
 - (id);
+- (id)qA+;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

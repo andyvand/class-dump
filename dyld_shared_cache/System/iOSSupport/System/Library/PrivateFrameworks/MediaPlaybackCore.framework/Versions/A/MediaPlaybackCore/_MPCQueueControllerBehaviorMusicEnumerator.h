@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _MPCQueueControllerBehaviorMusicEnumerator
 {
     MPCQueueControllerBehaviorMusicIdentifierComponents *_startingComponents;
-    MPCQueueControllerBehaviorMusicIdentifierComponents *_repeatOneComponents;
-    long long _repeatIteration;
-    _MPCQueueControllerEnumerator *_queueEnumerator;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)j;
 - (void){public}@;
 
 // Remaining properties

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETImageDescriptorExtractor;
 @protocol ETDataSource;
 
 __attribute__((visibility("hidden")))
 @interface ETDataSourceWithExtractor
 {
     id <ETDataSource> _source;
-    ETImageDescriptorExtractor *_extractor;
 }
 
 - (id);

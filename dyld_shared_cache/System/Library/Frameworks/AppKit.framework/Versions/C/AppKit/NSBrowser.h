@@ -6,96 +6,13 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSColor, NSIndexPath, NSMutableArray, NSScroller, NSString, _NSBlockKeyValueObservation;
-@protocol NSBrowserDelegate;
-
 @interface NSBrowser : NSControl
 {
     id _delegate;
-    SEL _doubleAction;
-    id _cellPrototype;
-    struct CGSize _columnSize;
-    short _numberOfVisibleColumns;
-    short _minColumnWidth;
-    short _firstVisibleColumn;
-    short _maxVisibleColumns;
-    NSMutableArray *_titles;
-    NSString *_pathSeparator;
-    id _brAuxiliaryStorage;
-    NSString *_firstColumnTitle;
-    NSScroller *_scroller;
-    struct __Brflags {
-        unsigned int firstVisibleCalculationDisabled:1;
-        unsigned int prefersAllColumnUserResizing:1;
-        unsigned int usesSmallScrollers:1;
-        unsigned int usesSmallSizeTitleFont:1;
-        unsigned int actionNeedsToBeSent:1;
-        unsigned int acceptsFirstMouse:1;
-        unsigned int refusesFirstResponder:1;
-        unsigned int disableCompositing:6;
-        unsigned int delegateSelectsCellsByRow:1;
-        unsigned int allowsIncrementalSearching:1;
-        unsigned int time:1;
-        unsigned int hasHorizontalScroller:1;
-        unsigned int prohibitEmptySel:1;
-        unsigned int sendActionOnArrowKeys:1;
-        unsigned int dontDrawTitles:1;
-        unsigned int acceptArrowKeys:1;
-        unsigned int delegateValidatesColumns:1;
-        unsigned int delegateDoesNotCreateRowsInMatrix:1;
-        unsigned int delegateSelectsCellsByString:1;
-        unsigned int delegateSetsTitles:1;
-        unsigned int delegateImplementsWillDisplayCell:1;
-        unsigned int separateColumns:1;
-        unsigned int titleFromPrevious:1;
-        unsigned int isTitled:1;
-        unsigned int reuseColumns:1;
-        unsigned int allowsBranchSelection:1;
-        unsigned int allowsMultipleSelection:1;
-    } _brflags;
-    Class _matrixClass;
-    NSMutableArray *_columns;
-    struct NSEdgeInsets _contentInsets;
-    unsigned int _automaticallyAdjustsContentInsets:1;
-    _NSBlockKeyValueObservation *_titlebarOverhangObservation;
 }
 
 
 // Remaining properties
-@property _Bool allowsBranchSelection;
-@property _Bool allowsEmptySelection;
-@property _Bool allowsMultipleSelection;
-@property _Bool allowsTypeSelect;
-@property _Bool autohidesScroller;
-@property(retain) NSColor *backgroundColor;
-@property(retain) id cellPrototype;
-@property(readonly) long long clickedColumn;
-@property(readonly) long long clickedRow;
-@property unsigned long long columnResizingType;
-@property(copy) NSString *columnsAutosaveName;
-@property __weak id <NSBrowserDelegate> delegate;
-@property SEL doubleAction;
-@property(readonly) long long firstVisibleColumn;
-@property _Bool hasHorizontalScroller;
-@property long long lastColumn;
-@property(readonly) long long lastVisibleColumn;
 @property(readonly, getter=isLoaded) _Bool loaded;
-@property long long maxVisibleColumns;
-@property double minColumnWidth;
-@property(readonly) long long numberOfVisibleColumns;
-@property(copy) NSString *pathSeparator;
-@property _Bool prefersAllColumnUserResizing;
-@property _Bool reusesColumns;
-@property double rowHeight;
-@property(readonly) id selectedCell;
-@property(readonly, copy) NSArray *selectedCells;
-@property(readonly) long long selectedColumn;
-@property(copy) NSIndexPath *selectionIndexPath;
-@property(copy) NSArray *selectionIndexPaths;
-@property _Bool sendsActionOnArrowKeys;
-@property _Bool separatesColumns;
-@property _Bool takesTitleFromPreviousColumn;
-@property(readonly) double titleHeight;
-@property(getter=isTitled) _Bool titled;
 @end
 

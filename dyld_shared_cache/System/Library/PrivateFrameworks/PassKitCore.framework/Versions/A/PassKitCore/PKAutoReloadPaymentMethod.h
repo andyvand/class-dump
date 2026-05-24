@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAutoReloadPaymentMethod
 {
     NSString *_name;
-    NSString *_suffix;
-    NSString *_fpanIdentifier;
-    NSString *_merchantTokenIdentifier;
-    NSString *_imageName;
-    NSURL *_managementURL;
-    unsigned long long _type;
 }
 
 + (_Bool);
@@ -29,24 +23,18 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)touchBar:makeItemForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)Z;
 - (id);
 - (void);
 - (void)
 × ;
-- (id)ItemForMarket:(id)arg1 eligibleMarkets:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_loadMoreInfoItemForMarket:(id)arg1 eligibleMarkets:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)lÈ<É¨ÉËHÎÏÀÐTÑ¸ÑÒ×;
-- (void)holderInfoSectionTitle;
+- (void)cardholderInfoSectionTitle;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(retain, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(retain, nonatomic) NSURL *managementURL; // @synthesize managementURL=_managementURL;
-@property(retain, nonatomic) NSString *merchantTokenIdentifier; // @synthesize merchantTokenIdentifier=_merchantTokenIdentifier;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

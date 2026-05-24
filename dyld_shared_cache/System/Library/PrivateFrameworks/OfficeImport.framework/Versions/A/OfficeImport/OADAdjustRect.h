@@ -8,14 +8,11 @@ __attribute__((visibility("hidden")))
 @interface OADAdjustRect
 {
     struct OADAdjustCoord mLeft;
-    struct OADAdjustCoord mTop;
-    struct OADAdjustCoord mRight;
-    struct OADAdjustCoord mBottom;
 }
 
+- (id)T;
 - (id);
-- (id);
-- (struct OADAdjustCoord);
+- (struct OADAdjustCoord)@;
 - (struct OADAdjustCoord);
 - (struct OADAdjustCoord);
 - (struct OADAdjustCoord);

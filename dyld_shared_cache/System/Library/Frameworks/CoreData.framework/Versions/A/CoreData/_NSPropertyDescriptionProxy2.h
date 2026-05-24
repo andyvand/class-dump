@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (Class);
 - (Class);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 
 @end
 

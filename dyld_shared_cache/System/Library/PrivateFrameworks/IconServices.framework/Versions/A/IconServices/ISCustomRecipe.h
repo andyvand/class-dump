@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFBundle, NSDictionary, NSString;
+@class IFBundle;
 @protocol ISCompositorRecipe;
 
 __attribute__((visibility("hidden")))
 @interface ISCustomRecipe
 {
     id <ISCompositorRecipe> _recipe;
-    IFBundle *_bundle;
-    NSDictionary *_bitmapResources;
-    NSDictionary *_symbolResources;
 }
 
-+ (id);
++ (id)floatValue;
 - (id);
-- (id);
-- (id);
+- (id)appendAttributedString: /* Error: Ran out of types for this method. */;
+- (id)_date;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *bitmapResources; // @synthesize bitmapResources=_bitmapResources;
 @property(readonly) IFBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <ISCompositorRecipe> recipe; // @synthesize recipe=_recipe;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *symbolResources; // @synthesize symbolResources=_symbolResources;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AMSAccountCachedServerDataCore
 {
     id observations;
-    id dataAccessor;
 }
 
 + (id)ûð~ðð;
@@ -17,11 +16,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void)î¤°qÍëòá¿¬Õ\lªaÙðbëòçGÒ.Úq®QUÚÕ¶	ÄÐF>±Ú7¥âb¢¥NÂó_ÖTá7´¬e¤FÔéA´÷@¹d§ÏQ Ñ­IæsÇüýéÂo¼È-wIQrûá`ÔzCýB·Iì»ú¾æ+ÅÜJ*NSV ©-Ê%Ls;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol PKContinuityPaymentCoordinatorDelegate
+- (void)R;
+- (void);
 @end
 

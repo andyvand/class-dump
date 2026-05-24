@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PLEntryNotificationOperatorComposition, PLNSNotificationOperatorComposition;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLPerformanceAgent
 {
     int _randomSample;
-    int _sampleCounter;
-    PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLEntryNotificationOperatorComposition *_batteryEntryLogged;
-    PLNSNotificationOperatorComposition *_dailyTaskNotification;
-    NSSet *_systemMemoryProcessNames;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)";
 + (id);
 + (id);
 + (id);
@@ -27,8 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)entryEventBackwardDefinitionDRMaxRate;
 + (void)ms-510.0ms;
 - (void);
 - (int);
@@ -47,10 +42,10 @@
 - (int);
 - (int);
 - (void);
-- (id);
+- (id)er] Holiday type:(int)arg1 [%s];
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -59,17 +54,12 @@
 - (void);
 - (void);
 - (void);
-- (void)AZLStats;
+- (void)PLDisplayAZLStats;
 - (id)dding 64 elements to context;
 - (void)xt:slcFifoDepth(456):(#10) cfg elements != (%d) buffer elements /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLEntryNotificationOperatorComposition *batteryEntryLogged; // @synthesize batteryEntryLogged=_batteryEntryLogged;
 @property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
-@property(retain) PLNSNotificationOperatorComposition *dailyTaskNotification; // @synthesize dailyTaskNotification=_dailyTaskNotification;
-@property int randomSample; // @synthesize randomSample=_randomSample;
-@property int sampleCounter; // @synthesize sampleCounter=_sampleCounter;
-@property(readonly) NSSet *systemMemoryProcessNames; // @synthesize systemMemoryProcessNames=_systemMemoryProcessNames;
 
 @end
 

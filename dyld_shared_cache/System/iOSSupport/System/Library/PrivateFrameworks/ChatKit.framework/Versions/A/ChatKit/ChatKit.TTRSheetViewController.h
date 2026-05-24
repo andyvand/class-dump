@@ -9,8 +9,8 @@
     id hostingController;
 }
 
-+ (id);
-+ (id);
++ (id)U;
++ (id)t… {account:%@, hasDivergedKey:%@, hasHint:%@}%s:%d /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);

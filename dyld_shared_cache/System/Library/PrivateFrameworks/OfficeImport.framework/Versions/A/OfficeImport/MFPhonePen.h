@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     float m_PixelSize;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);

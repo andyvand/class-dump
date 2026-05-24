@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGColor *);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)_;
 - (id);
 - (float);
 - (struct CGColor *);

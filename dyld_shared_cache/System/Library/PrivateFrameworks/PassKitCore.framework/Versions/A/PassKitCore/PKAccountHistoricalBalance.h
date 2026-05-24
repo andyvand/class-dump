@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber;
+@class NSDecimalNumber;
 
 @interface PKAccountHistoricalBalance
 {
     NSDecimalNumber *_balance;
-    NSDate *_date;
-    unsigned long long _type;
 }
 
 + (_Bool)±î%1Â0@ù
 × ;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)A;
+- (id)	;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)lityRegistrationStateRequest;
-- (void)tResponse;
+- (void);
+- (void)PKAuxiliaryCapabilityRegistrationStateRequest;
+- (void)getPaymentRequestResponse;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *balance; // @synthesize balance=_balance;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

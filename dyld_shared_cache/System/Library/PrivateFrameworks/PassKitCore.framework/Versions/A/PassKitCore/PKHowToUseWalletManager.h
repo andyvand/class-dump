@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PKHowToUseWalletModel, PKMobileAssetManager;
+@class PKMobileAssetManager;
 
 @interface PKHowToUseWalletManager
 {
     PKMobileAssetManager *_mobileAssetManager;
-    PKHowToUseWalletModel *_cachedBaseModel;
-    PKHowToUseWalletModel *_cachedMobileAssetModel;
-    NSDictionary *_cachedHiddenCards;
 }
 
 + (id);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (id);
@@ -26,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (_Bool)tifier:passSerialNumber:completion: /* Error: Ran out of types for this method. */;
 - (void);
 

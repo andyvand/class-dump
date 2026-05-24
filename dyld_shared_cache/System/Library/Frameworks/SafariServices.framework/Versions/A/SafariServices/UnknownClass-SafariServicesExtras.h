@@ -14,7 +14,6 @@
 - (struct __SecCode *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool sf_containingAppIsValidAppBundle;
 @property(readonly, nonatomic) struct __SecCode *sf_createUntrustedCodeRef;
 @end
 

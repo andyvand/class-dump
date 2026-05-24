@@ -7,12 +7,10 @@
 @interface NewsFeed.FormatMicaSectionDecorationView
 {
     id micaView;
-    id token;
-    id model;
 }
 
 - (id);
-- (void);
+- (void)ory.AbPtYx/Sources/AlderShared/utility/TSUReadChannelInputStreamAdapter.m;
 - (id)
 × ;
 - (void)à±(³üµp·PºÄ»¨¾Â<Å8ÆàÈÑ¼Ù\âôê¨íhñ´õ´öôìÐ	d

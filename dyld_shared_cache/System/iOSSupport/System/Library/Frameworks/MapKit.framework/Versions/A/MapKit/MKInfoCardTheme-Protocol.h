@@ -7,35 +7,11 @@
 @class NSString, UIColor;
 
 @protocol MKInfoCardTheme
+- (UIColor *);
+- (UIColor *)G;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *buttonHighlightedColor;
-@property(readonly, nonatomic) UIColor *buttonNormalColor;
-@property(readonly, nonatomic) UIColor *cardBackgroundColor;
-@property(readonly, nonatomic) UIColor *disabledActionRowBackgroundColor;
-@property(readonly, nonatomic) UIColor *disabledActionRowTextColor;
-@property(readonly, nonatomic) UIColor *headerPrimaryButtonHighlightedColor;
-@property(readonly, nonatomic) UIColor *headerPrimaryButtonNormalColor;
-@property(readonly, nonatomic) UIColor *highlightedTintColor;
-@property(readonly, nonatomic) _Bool isDarkTheme;
-@property(readonly, nonatomic) NSString *javaScriptName;
-@property(readonly, nonatomic) UIColor *lightTextColor;
-@property(readonly, nonatomic) UIColor *normalActionRowBackgroundColor;
-@property(readonly, nonatomic) UIColor *normalActionRowBackgroundPressedColor;
-@property(readonly, nonatomic) UIColor *normalBackgroundColor;
-@property(readonly, nonatomic) UIColor *ratingBarBackgroundColor;
-@property(readonly, nonatomic) UIColor *ratingBarEndColor;
-@property(readonly, nonatomic) UIColor *ratingBarStartColor;
-@property(readonly, nonatomic) UIColor *rowColor;
-@property(readonly, nonatomic) UIColor *selectedRowColor;
-@property(readonly, nonatomic) UIColor *separatorLineColor;
-@property(readonly, nonatomic) UIColor *tertiaryTextColor;
-@property(readonly, nonatomic) UIColor *textColor;
 @property(readonly, nonatomic) unsigned long long themeType;
-@property(readonly, nonatomic) UIColor *tintColor;
-@property(readonly, nonatomic) UIColor *transitChevronBackgroundColor;
-@property(readonly, nonatomic) UIColor *transitDelayedTextColor;
-@property(readonly, nonatomic) UIColor *transitIncidentBackgroundColor;
-@property(readonly, nonatomic) UIColor *transitOntimeTextColor;
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSArray, RFTextProperty;
 
 @protocol RFSummaryItemShortNumberCardSection
+- (RFTextProperty *);
+- (NSArray *)B;
+- (void);
+- (RFTextProperty *)_newCGImageWithBox:bitmapSize:scale:offset:colorSpace:backgroundColor:withRotation:withAntialiasing:withAnnotations:withBookmark:withOptions:withDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *number;
-@property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(copy, nonatomic) NSArray *text_4;
-@property(retain, nonatomic) RFTextProperty *text_5;
-@property(retain, nonatomic) RFTextProperty *text_6;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

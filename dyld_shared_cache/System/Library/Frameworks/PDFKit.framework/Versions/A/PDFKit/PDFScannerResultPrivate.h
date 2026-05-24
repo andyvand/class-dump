@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDScannerResult, NSArray, PDFPage;
+@class DDScannerResult;
 
 __attribute__((visibility("hidden")))
 @interface PDFScannerResultPrivate
 {
     DDScannerResult *ddResult;
-    PDFPage *page;
-    struct CGRect bounds;
-    NSArray *rects;
-    _Bool resultIsPastDate;
-    _Bool hasRunActionsForResult;
-    _Bool hasActionsForResult;
-    struct __DDHighlight *highlightRef;
 }
 
-- (void);
+- (void)p;
 
 @end
 

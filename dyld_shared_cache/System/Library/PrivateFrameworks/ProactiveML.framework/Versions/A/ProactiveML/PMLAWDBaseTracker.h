@@ -14,8 +14,8 @@
 + (id);
 + (id);
 - (void);
-- (id);
-- (id);
+- (id)R;
+- (id)descriptorTypeStringWithType:(id)arg1;
 - (void);
 
 // Remaining properties

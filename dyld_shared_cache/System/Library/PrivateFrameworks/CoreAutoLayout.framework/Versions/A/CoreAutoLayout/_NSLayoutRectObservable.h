@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutRect;
-@protocol NSLayoutItem;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSLayoutRectObservable
 {
     NSArray *_anchorObservations;
-    NSLayoutRect *_rectangle;
-    id <NSLayoutItem> _layoutItem;
 }
 
 + (id);
-- (void);
+- (void)MLFeatureProviderUtils;
 
 @end
 

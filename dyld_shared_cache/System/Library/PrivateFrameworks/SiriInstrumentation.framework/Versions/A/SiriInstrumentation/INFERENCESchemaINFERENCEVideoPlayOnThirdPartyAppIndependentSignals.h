@@ -6,39 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppIndependentSignals : SISchemaInstrumentationMessage
 {
     _Bool _isDeviceLockStatus;
-    int _deviceMotionState;
-    int _intentType;
-    int _nowPlayingState;
-    int _deviceClass;
-    int _clientHourOfDay;
-    long long _clientLocale;
-    long long _clientLanguage;
-    long long _clientRegion;
-    int _bucketedDeviceMotionState;
-    struct {
-        unsigned int isDeviceLockStatus:1;
-        unsigned int deviceMotionState:1;
-        unsigned int intentType:1;
-        unsigned int nowPlayingState:1;
-        unsigned int deviceClass:1;
-        unsigned int clientHourOfDay:1;
-        unsigned int clientLocale:1;
-        unsigned int clientLanguage:1;
-        unsigned int clientRegion:1;
-        unsigned int bucketedDeviceMotionState:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,62 +37,42 @@
 - (int);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (long long)w2;
 - (long long);
-- (long long);
-- (long long);
+- (long long)C;
 - (int);
 - (int);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void));
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@�0;
 - (void);
 - (int);
 - (id);
 - (id);
 - (int);
 - (id)T@"NSString",C,N,V_accessoryCategory;
-- (id)SchemaPSEMapsSignalGenerated;
+- (id)PSESchemaPSEMapsSignalGenerated;
 - (_Bool);
 - (void)à5);
 
 // Remaining properties
-@property(nonatomic) int bucketedDeviceMotionState; // @synthesize bucketedDeviceMotionState=_bucketedDeviceMotionState;
-@property(nonatomic) int clientHourOfDay; // @synthesize clientHourOfDay=_clientHourOfDay;
-@property(nonatomic) long long clientLanguage; // @synthesize clientLanguage=_clientLanguage;
-@property(nonatomic) long long clientLocale; // @synthesize clientLocale=_clientLocale;
-@property(nonatomic) long long clientRegion; // @synthesize clientRegion=_clientRegion;
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) int deviceMotionState; // @synthesize deviceMotionState=_deviceMotionState;
-@property(nonatomic) _Bool hasBucketedDeviceMotionState;
-@property(nonatomic) _Bool hasClientHourOfDay;
-@property(nonatomic) _Bool hasClientLanguage;
-@property(nonatomic) _Bool hasClientLocale;
-@property(nonatomic) _Bool hasClientRegion;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasDeviceMotionState;
-@property(nonatomic) _Bool hasIntentType;
-@property(nonatomic) _Bool hasIsDeviceLockStatus;
-@property(nonatomic) _Bool hasNowPlayingState;
-@property(nonatomic) int intentType; // @synthesize intentType=_intentType;
 @property(nonatomic) _Bool isDeviceLockStatus; // @synthesize isDeviceLockStatus=_isDeviceLockStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int nowPlayingState; // @synthesize nowPlayingState=_nowPlayingState;
 
 @end
 

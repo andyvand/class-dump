@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioErrorHandler
 {
     id currentError;
-    id commandCenter;
-    id sceneProvider;
 }
 
 @end

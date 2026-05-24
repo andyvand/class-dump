@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface OADLightRig
 {
     OADRotation3D *mRotation;
-    int mType;
-    int mDirection;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)(;
 - (_Bool);
 - (id);
 - (void);

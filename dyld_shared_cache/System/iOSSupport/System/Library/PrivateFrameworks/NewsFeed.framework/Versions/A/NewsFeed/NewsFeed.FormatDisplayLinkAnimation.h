@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatDisplayLinkAnimation
 {
     id identifier;
-    id layer;
-    id supplementaryLayers;
-    id model;
-    id animation;
-    id completion;
-    id $__lazy_storage_$_displayLink;
 }
 
 @end

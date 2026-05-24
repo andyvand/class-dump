@@ -4,75 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol NSXPCProxyCreating, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IDSXPCConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    NSMutableDictionary *_pendingTransactions;
-    IDSXPCConnection *_rootConnection;
-    id <NSXPCProxyCreating> _remoteObject;
-    CDUnknownBlockType _invalidationHandler;
-    _Bool _syncOntoMain;
-    _Bool _forSyncMessaging;
-    CDUnknownBlockType _clientInvalidationHandler;
 }
 
-+ (id);
++ (id)MTT"@"NSError">64;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)R$;
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
 - (id);
+- (id)browser_ensureAWDLAvailableListeningStopped;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)mediaRouteID;
 - (_Bool);
-- (id);
+- (id);
 - (void);
+- (id);
+- (CDUnknownBlockType)fileHandleForWritingToURL:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id)TB;
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (void)1Â0@ù
 × ;
 - (void)tweightStatus:(id)arg1 %@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType clientInvalidationHandler; // @synthesize clientInvalidationHandler=_clientInvalidationHandler;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forSyncMessaging; // @synthesize forSyncMessaging=_forSyncMessaging;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) NSMutableDictionary *pendingTransactions; // @synthesize pendingTransactions=_pendingTransactions;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id <NSXPCProxyCreating> remoteObject; // @synthesize remoteObject=_remoteObject;
-@property(retain, nonatomic) IDSXPCConnection *rootConnection; // @synthesize rootConnection=_rootConnection;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool syncOntoMain; // @synthesize syncOntoMain=_syncOntoMain;
 
 @end
 

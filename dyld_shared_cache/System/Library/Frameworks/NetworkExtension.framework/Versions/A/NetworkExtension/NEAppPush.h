@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface NEAppPush
 {
     _Bool _enabled;
-    _Bool _matchEthernet;
-    NSDictionary *_providerConfiguration;
-    NSArray *_matchSSIDs;
-    NSArray *_matchPrivateLTENetworks;
-    NSString *_pluginType;
-    NSString *_providerBundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)setInvitationTimeOut: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -30,26 +22,20 @@
 - (void);
 - (void);
 - (id);
+- (id)sfully(;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)otocolType;
-- (_Bool)DNSUUIDs;
+- (void)payloadProtocolType;
+- (_Bool)copyDNSUUIDs;
 - (id)changesyncd" and anchor apple;
 
 // Remaining properties
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property _Bool matchEthernet; // @synthesize matchEthernet=_matchEthernet;
-@property(copy) NSArray *matchPrivateLTENetworks; // @synthesize matchPrivateLTENetworks=_matchPrivateLTENetworks;
-@property(copy) NSArray *matchSSIDs; // @synthesize matchSSIDs=_matchSSIDs;
-@property(copy) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property(copy) NSString *providerBundleIdentifier; // @synthesize providerBundleIdentifier=_providerBundleIdentifier;
-@property(copy) NSDictionary *providerConfiguration; // @synthesize providerConfiguration=_providerConfiguration;
 
 @end
 

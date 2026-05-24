@@ -4,48 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCategorySearchResultSection, GEODirectionIntent, GEOGuideSummaryLayoutMetadata, GEOMapRegion, GEOMapServiceTraits, GEOPDPlaceSummaryLayoutMetadata, GEORelatedSearchSuggestion, GEOResolvedItem, GEOResultRefinementGroup, GEOSearchAutoRedoThreshold, GEOSearchRedoButtonThreshold, GEOSearchSectionList, GEOSearchSessionData, MKMapItemIdentifier, NSArray, NSError, NSString;
+@class GEOMapServiceTraits, GEORelatedSearchSuggestion, GEOResolvedItem, NSArray, NSString;
 
 @protocol MKMapServiceTicket
+- (_Bool);
+- (NSString *)@;
+- (unsigned int)(;
+- (GEORelatedSearchSuggestion *)k;
+- (NSArray *);
+- (GEOResolvedItem *)�;
+- (void);
+- (void)_chat:(void (^)(NSArray *, NSError *))arg1 updateIsBlackholed:(void (^)(_Bool))arg2;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapRegion *boundingRegion;
-@property(readonly, nonatomic) NSArray *browseCategories;
-@property(readonly, nonatomic) GEOCategorySearchResultSection *categorySearchResultSection;
-@property(readonly, nonatomic, getter=isChainResultSet) _Bool chainResultSet;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolvedResult;
-@property(readonly, nonatomic) NSArray *collectionResults;
-@property(readonly, nonatomic) GEORelatedSearchSuggestion *defaultRelatedSuggestion;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent;
-@property(readonly, nonatomic) _Bool disableAdditionalViewportPadding;
-@property(readonly, nonatomic) NSArray *displayHeaderSubstitutes;
-@property(readonly, nonatomic) NSArray *dotPlaces;
-@property(readonly, nonatomic) unsigned int dymSuggestionVisibleTime;
-@property(readonly, nonatomic) _Bool enableStructuredRAPAffordance;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSArray *exactMapItems;
-@property(readonly, nonatomic) GEOGuideSummaryLayoutMetadata *guideSummaryLayoutMetadata;
-@property(readonly, nonatomic) int mapDisplayType;
-@property(readonly, nonatomic) MKMapItemIdentifier *mapItemIdentifierForSpotlight;
-@property(readonly, nonatomic) GEOPDPlaceSummaryLayoutMetadata *placeSummaryLayoutMetadata;
-@property(readonly, nonatomic) NSArray *publisherResults;
-@property(readonly, nonatomic) NSArray *refinedMapItems;
-@property(readonly, nonatomic) NSArray *relatedEntitySections;
-@property(readonly, nonatomic) NSArray *relatedSearchSuggestions;
-@property(readonly, nonatomic) NSString *resultDisplayHeader;
-@property(readonly, nonatomic) GEOResultRefinementGroup *resultRefinementGroup;
-@property(readonly, nonatomic) NSArray *retainedSearchMetadata;
-@property(readonly, nonatomic) GEOSearchAutoRedoThreshold *searchAutoRedoThreshold;
-@property(readonly, nonatomic) GEOSearchRedoButtonThreshold *searchRedoButtonThreshold;
-@property(readonly, nonatomic) NSArray *searchResultSections;
-@property(readonly, nonatomic) int searchResultType;
-@property(readonly, nonatomic) int searchResultViewType;
-@property(readonly, nonatomic) GEOSearchSectionList *searchSectionList;
-@property(readonly, nonatomic) GEOSearchSessionData *searchSessionData;
-@property(readonly, nonatomic) NSString *sectionHeader;
-@property(readonly, nonatomic) _Bool shouldAllowManualRedoButton;
-@property(readonly, nonatomic) _Bool shouldEnableRedoSearch;
-@property(readonly, nonatomic) _Bool showDymSuggestionCloseButton;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 @end
 

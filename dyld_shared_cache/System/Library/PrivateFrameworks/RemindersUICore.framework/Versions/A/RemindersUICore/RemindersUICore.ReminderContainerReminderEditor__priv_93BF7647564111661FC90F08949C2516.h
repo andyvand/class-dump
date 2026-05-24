@@ -7,7 +7,6 @@
 @interface RemindersUICore.ReminderContainerReminderEditor__priv_93BF7647564111661FC90F08949C2516
 {
     id parentReminderEditor;
-    id listChangeItem;
 }
 
 @end

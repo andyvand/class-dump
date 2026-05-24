@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCRObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface NotesShared.ICTTTranscriptSegment : ICCRObject
 {
@@ -17,10 +17,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) NSNumber *duration; // @dynamic duration;
-@property(nonatomic, retain) NSString *speaker; // @dynamic speaker;
 @property(nonatomic, retain) NSString *text; // @dynamic text;
-@property(nonatomic, retain) NSNumber *timestamp; // @dynamic timestamp;
 
 @end
 

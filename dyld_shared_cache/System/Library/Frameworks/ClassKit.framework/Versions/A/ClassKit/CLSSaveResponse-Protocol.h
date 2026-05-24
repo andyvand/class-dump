@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError;
+
 @protocol CLSSaveResponse
+- (oneway void),  programRequest->numSignalEvents:(NSError *)arg1 %u
+;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface _NSHSTSStorage
 {
     struct _CFHSTSPolicy *_policy;
@@ -13,20 +11,19 @@
 
 + (id);
 - (void);
-- (void);
+- (void)commareversedabovecmb;
 - (struct _CFHSTSPolicy *);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) struct _CFHSTSPolicy *_policyRef;
-@property(readonly, nonatomic) NSURL *path;
 
 @end
 

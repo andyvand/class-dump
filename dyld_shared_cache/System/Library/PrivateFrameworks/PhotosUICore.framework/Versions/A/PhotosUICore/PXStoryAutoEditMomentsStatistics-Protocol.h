@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFStoryClusteringProperties;
-@protocol PXStoryMemoryMomentClusteringDistanceCalculator;
-
 @protocol PXStoryAutoEditMomentsStatistics
+- (unsigned long long);
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double averageAssetCount;
-@property(readonly, nonatomic) id <PXStoryMemoryMomentClusteringDistanceCalculator> clusteringDistanceCalculator;
-@property(readonly, nonatomic) double clusteringDuration;
-@property(readonly, nonatomic) PFStoryClusteringProperties *clusteringProperties;
-@property(readonly, nonatomic) unsigned long long maximumAssetCount;
-@property(readonly, copy, nonatomic) NSString *memoryCategoryName;
 @property(readonly, nonatomic) unsigned long long minimumAssetCount;
 @end
 

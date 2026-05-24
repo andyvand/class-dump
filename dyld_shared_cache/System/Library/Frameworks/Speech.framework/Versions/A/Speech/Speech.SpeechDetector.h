@@ -7,10 +7,6 @@
 @interface Speech.SpeechDetector
 {
     id _results;
-    id detectionOptions;
-    id reportResults;
-    id _workerWithLocked;
-    id resultsBuilder;
 }
 
 @end

@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_invalidatedAuxillaryIndexesDict;
 }
 
-- (id);
+- (id)criptor"16^@24;
 - (void);
 - (id);
 - (id);
 - (void)!@Aù1f°1Â0@ù
 × ;
-- (void)ne;
-- (id);
-- (void):(long long)arg1;
-- (void)floatingEffectEnabled;
+- (void)_shouldConvertToScene;
+- (id)_isDownstreamForDirection:atPosition: /* Error: Ran out of types for this method. */;
+- (void)_fromValue:(long long)arg1 toValue:fromState:forAnimationWithKeyPath: /* Error: Ran out of types for this method. */;
+- (void)_floatingEffectEnabled;
 - (void)·ì·x¹L¿ ¿;
 - (id)viders:must be overridden if pasteConfiguration is not nil. /* Error: Ran out of types for this method. */;
 - (void);

@@ -7,10 +7,10 @@
 @class NSData, _SFPBLatLng;
 
 @protocol _SFPBWeatherDetails
+- (NSData *)eStagingDirectory:,V_useRecoverableStagingDirectory /* Error: Ran out of types for this method. */;
 - (void)_safariAttributes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBLatLng *location;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, _CDContextualLocationRegistrationMonitor, _CDDevice, _CDSystemTimeCallbackScheduler;
-@protocol OS_dispatch_queue, OS_dispatch_workloop;
+@class NSString;
 
 @interface _CDInMemoryContext
 {
     NSString *_deviceID;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    NSObject<OS_dispatch_workloop> *_callbackWorkloop;
-    NSMutableDictionary *_context;
-    _CDContextualLocationRegistrationMonitor *_locationRegistrationMonitor;
-    NSMutableDictionary *_registrations;
-    _CDSystemTimeCallbackScheduler *_systemTimeCallbackScheduler;
-    _CDDevice *_device;
 }
 
 + (id);
@@ -27,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)ping UI scan sequence for interface:(id)arg1 %@;
+- (id)NetworkOfInterestWorkStateUpdatedAt;
 - (id);
 - (void);
 - (void);
@@ -41,21 +33,21 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (void)jecting into %@;
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (id);
@@ -75,14 +67,7 @@
 - (void)istering with up to %d devices (%d named) multi-device registration callback:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_workloop> *callbackWorkloop; // @synthesize callbackWorkloop=_callbackWorkloop;
-@property(retain, nonatomic) NSMutableDictionary *context; // @synthesize context=_context;
-@property(retain, nonatomic) _CDDevice *device; // @synthesize device=_device;
 @property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain, nonatomic) _CDContextualLocationRegistrationMonitor *locationRegistrationMonitor; // @synthesize locationRegistrationMonitor=_locationRegistrationMonitor;
-@property(retain, nonatomic) NSMutableDictionary *registrations; // @synthesize registrations=_registrations;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(retain, nonatomic) _CDSystemTimeCallbackScheduler *systemTimeCallbackScheduler; // @synthesize systemTimeCallbackScheduler=_systemTimeCallbackScheduler;
 
 @end
 

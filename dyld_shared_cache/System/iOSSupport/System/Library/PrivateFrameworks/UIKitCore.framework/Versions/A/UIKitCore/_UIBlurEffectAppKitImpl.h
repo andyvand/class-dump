@@ -6,33 +6,22 @@
 
 #import <UIKitCore/_UIBlurEffectImpl.h>
 
-@class CALayer, NSAppearance;
-
 __attribute__((visibility("hidden")))
 @interface _UIBlurEffectAppKitImpl : _UIBlurEffectImpl
 {
     long long _material;
-    long long _blendingMode;
-    _Bool _emphasized;
-    long long _blurStyle;
-    CALayer *_activeMaterialLayer;
-    CALayer *_inactiveMaterialLayer;
-    NSAppearance *_cachedAppearance;
-    long long _cachedSemanticContext;
-    _Bool _cachedReducedTransparency;
-    _Bool _cachedWindowFullScreen;
 }
 
-- (id);
+- (id)tBatchByAccountID;
 - (long long);
 - (unsigned long long);
 - (_Bool)!¸EùQ\ð1Â0@ù
 × ;
-- (_Bool)ht:(id)arg1;
-- (void)t:(id)arg1 afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (_Bool)setResizeKeyboardHeight:(id)arg1;
+- (void)performSelector:(id)arg1 withObject:afterDelay:inModes: /* Error: Ran out of types for this method. */;
 - (id)T@"UISplitViewControllerSeparatorTrackingAdapter",&,N,V_separatorTrackingAdapter;
 - (void)Coding>",R,N;
-- (_Bool)oraryLayoutTop;
+- (_Bool)_UITemporaryLayoutTop;
 - (_Bool)cusSystem *__strong _Nonnull, _UIFocusSearchInfo *__strong _Nonnull);
 - (void);
 - (void);

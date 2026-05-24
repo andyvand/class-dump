@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSObject, NSRunLoop, NSURLSessionStreamTask;
-@protocol NSStreamDelegate, OS_dispatch_data, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface NWURLSessionOutputStream
 {
     struct os_unfair_lock_s lock;
-    _Bool _opened;
-    _Bool _writing;
-    _Bool _pendingClose;
-    unsigned short _writeWaiters;
-    NSURLSessionStreamTask *_streamTask;
-    id <NSStreamDelegate> _streamDelegate;
-    NSRunLoop *_runLoop;
-    NSMutableArray *_runLoopModes;
-    NSObject<OS_dispatch_semaphore> *_writeSemaphore;
-    NSObject<OS_dispatch_data> *_pendingData;
-    NSError *_error;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.UserInformationSource
 {
     id storeFront;
-    id storeFrontLocale;
-    id idProvider;
 }
 
 @end

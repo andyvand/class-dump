@@ -9,19 +9,18 @@
 @interface CTLazuliSuggestedActionComposeText
 {
     NSString *_phoneNumber;
-    NSString *_text;
 }
 
-+ (_Bool);
++ (_Bool)timeSpentRecoveringFromStall;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)_willRetryOnInterruptedConnection;
 - (id);
 - (void);
 - (void)0@ù
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

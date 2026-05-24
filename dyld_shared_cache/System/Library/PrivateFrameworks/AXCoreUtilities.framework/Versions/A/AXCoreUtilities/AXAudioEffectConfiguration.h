@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface AXAudioEffectConfiguration
 {
     NSUUID *_identifier;
-    void effectName;
-    _Bool enabled;
-    void properties;
-    void parameters;
 }
 
 - (void);
@@ -31,11 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NSUUID *_identifier; // @synthesize _identifier;
-@property(nonatomic, copy) NSString *effectName;
-@property(nonatomic) _Bool enabled; // @synthesize enabled;
-@property(nonatomic, copy) NSUUID *identifier;
-@property(nonatomic, copy) NSDictionary *parameters;
-@property(nonatomic, copy) NSDictionary *properties;
 
 @end
 

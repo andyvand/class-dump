@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOMotionContextDelegate, GEOMotionContextProvider;
 
 @interface GEOMotionContext
 {
     id <GEOMotionContextProvider> _provider;
-    unsigned long long _motionType;
-    unsigned long long _exitType;
-    unsigned long long _confidence;
-    id <GEOMotionContextDelegate> _delegate;
 }
 
 - (void);
@@ -22,34 +17,19 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)removeObjectsForKeys:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)lastProviderLocation;
 - (unsigned long long)\¬();
-- (_Bool)wcaseTitle;
+- (_Bool)showcaseTitle;
 - (void)Sö72;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <GEOMotionContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long exitType; // @synthesize exitType=_exitType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCycling;
-@property(readonly, nonatomic) _Bool isDriving;
-@property(readonly, nonatomic) _Bool isMoving;
-@property(readonly, nonatomic) _Bool isRunning;
-@property(readonly, nonatomic) _Bool isWalking;
-@property(readonly, nonatomic) unsigned long long motionType; // @synthesize motionType=_motionType;
-@property(readonly) Class superclass;
 
 @end
 

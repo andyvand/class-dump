@@ -6,25 +6,21 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSData, NSNumber, NSString;
-@protocol NSObject;
+@class NSString;
 
 @interface HMFPreference : HMFObject
 {
     NSString *_key;
-    unsigned long long _options;
-    id <NSObject> _value;
-    HMFPreference *_parent;
 }
 
-+ (id);
++ (id)`;
 - (void);
+- (id)A;
 - (id);
 - (id);
+- (id)countercheck;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -34,14 +30,7 @@
 - (id)HMF.patchVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool boolValue;
-@property(readonly, copy, nonatomic) NSData *dataValue;
 @property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly, copy, nonatomic) NSNumber *numberValue;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) __weak HMFPreference *parent; // @synthesize parent=_parent;
-@property(readonly, copy, nonatomic) NSString *stringValue;
-@property(copy) id <NSObject> value; // @synthesize value=_value;
 
 @end
 

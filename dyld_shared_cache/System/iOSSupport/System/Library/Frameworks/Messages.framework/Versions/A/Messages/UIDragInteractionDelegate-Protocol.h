@@ -5,10 +5,15 @@
 //
 
 @class UIDragInteraction;
+@protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
 
 @optional
-- (_Bool):(UIDragInteraction *)arg1;
+- (id <UIDragSession>);
+- (void)v;
+- (_Bool);
+- (void);
+- (_Bool)setMediaFilename:(UIDragInteraction *)arg1;
 @end
 

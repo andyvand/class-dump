@@ -11,12 +11,12 @@
     NSUUID *_attachedToDevice;
 }
 
-+ (_Bool);
++ (_Bool)hB;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)B;
+- (id)etricsCollectorEventTranslationShowHideOriginal;
 - (void);
 
 // Remaining properties

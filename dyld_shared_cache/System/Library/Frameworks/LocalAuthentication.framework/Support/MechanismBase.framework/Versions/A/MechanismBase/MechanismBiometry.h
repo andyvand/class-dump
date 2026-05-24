@@ -6,57 +6,41 @@
 
 #import <MechanismBase/MechanismACM.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface MechanismBiometry : MechanismACM
 {
     _Bool _biolockout;
-    _Bool _hasFallback;
-    _Bool _hasUI;
-    NSNumber *_failureLimit;
-    unsigned long long _failures;
-    NSArray *_identityUUIDs;
-    NSNumber *_userId;
 }
 
-- (_Bool);
+- (_Bool)riorWeightedMean() - not supported for this distribution type;
+- (void)t read enough data from image:(id)arg1;
+- (void)ayers (too many);
+- (void)DNN image %s implies %u layers (too many);
+- (void)tribution:(id)arg1:mapFromMemory() - DNN image %s implies %u layers (too many) /* Error: Ran out of types for this method. */;
+- (void)feature (required set = 0x%.6X%.8X, available = 0x%.6X%.8X);
+- (_Bool)MIXBLOCKSIZE;
+- (_Bool)er::readAscii()  - only LOG type supported for weights (file %s) /* Error: Ran out of types for this method. */;
+- (id)nfigure() - minframes %d cannot exceed total buffer size %d;
+- (id)NovDetect Object Signature;
+- (_Bool)be called;
+- (_Bool)!;
+- (void)vDetect:(id)arg1 sat_getspeakervector() can only be called after sat_initialize();
+- (id)config;
+- (id)e();
+- (unsigned long long)alled after initialize();
+- (_Bool)tect:sat_initialize() can only be called after initialize() /* Error: Ran out of types for this method. */;
+- (id)be called with NULL;
+- (_Bool)can only be called after initialize();
+- (_Bool)tialize();
+- (_Bool)called after initialize();
+- (void)not be called with rootpath = NULL;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)tring"24;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool biolockout; // @synthesize biolockout=_biolockout;
-@property(retain, nonatomic) NSNumber *failureLimit; // @synthesize failureLimit=_failureLimit;
-@property(readonly, nonatomic) _Bool failureLimitWasExceeded;
-@property(nonatomic) unsigned long long failures; // @synthesize failures=_failures;
-@property(nonatomic) _Bool hasFallback; // @synthesize hasFallback=_hasFallback;
-@property(nonatomic) _Bool hasUI; // @synthesize hasUI=_hasUI;
-@property(retain, nonatomic) NSArray *identityUUIDs; // @synthesize identityUUIDs=_identityUUIDs;
-@property(readonly, nonatomic) _Bool isBiometryRequiredForPolicy;
-@property(readonly, nonatomic) _Bool isFallbackVisible;
 @property(retain, nonatomic) NSNumber *userId; // @synthesize userId=_userId;
-@property(readonly, nonatomic) _Bool willTryToRecover;
 
 @end
 

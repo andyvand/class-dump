@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol SKDiskImageFormatDescriptorProtocol
+- (NSString *)payload:encodingType:videoSettings:localVideoRuleCollection:remoteVideoRuleCollection:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *defaultExtension;
 @property(readonly, nonatomic) long long format;
-@property(readonly, nonatomic) _Bool isSupportedForBlankInitialization;
-@property(readonly, nonatomic) NSString *name;
 @end
 

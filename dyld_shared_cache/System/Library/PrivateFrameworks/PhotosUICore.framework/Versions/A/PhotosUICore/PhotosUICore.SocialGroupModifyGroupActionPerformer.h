@@ -9,11 +9,6 @@
 @interface PhotosUICore.SocialGroupModifyGroupActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     id mutationActionDelegate;
-    id newKeyAsset;
-    id newCustomTitle;
-    id customTitleWasDeleted;
-    id peopleToBeAdded;
-    id peopleToBeRemoved;
 }
 
 - (id);

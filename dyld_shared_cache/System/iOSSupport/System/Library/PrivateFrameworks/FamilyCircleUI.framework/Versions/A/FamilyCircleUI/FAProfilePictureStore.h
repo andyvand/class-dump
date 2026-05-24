@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, FAFamilyCircle, NSArray, NSDictionary, NSMutableDictionary, NSObject;
+@class CNContactStore, FAFamilyCircle, NSDictionary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FAProfilePictureStore
 {
     FAFamilyCircle *_familyCircle;
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_profileImages;
-    NSMutableDictionary *_recommendedMembersImages;
-    NSArray *_keysToFetch;
-    CNContactStore *_contactStore;
 }
 
 + (id);
-+ (id);
++ (id);
 + (double);
 - (id);
 - (id);
@@ -33,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,9 +41,7 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) FAFamilyCircle *familyCircle;
 @property(readonly, copy, nonatomic) NSDictionary *profileImages;
-@property(readonly, copy, nonatomic) NSDictionary *recommendedMembersImages; // @synthesize recommendedMembersImages=_recommendedMembersImages;
 
 @end
 

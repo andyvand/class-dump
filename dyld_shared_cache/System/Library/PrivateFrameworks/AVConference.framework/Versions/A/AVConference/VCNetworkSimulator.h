@@ -10,17 +10,10 @@ __attribute__((visibility("hidden")))
 @interface VCNetworkSimulator
 {
     NSDictionary *_policies;
-    VCEmulatedNetwork *_network;
-    _Bool _isStarted;
-    struct tagVCRealTimeThread *_thread;
-    struct _opaque_pthread_mutex_t _mutex;
-    struct _opaque_pthread_cond_t _packetPushedCondition;
-    struct _opaque_pthread_cond_t _queueEmptyCondition;
-    _Bool _isQueueEmpty;
 }
 
-+ (id)Connection_IsLocalOnWiFi;
-- (int);
++ (id)VCConnection_IsLocalOnWiFi;
+- (int);
 - (void);
 - (int);
 - (id);

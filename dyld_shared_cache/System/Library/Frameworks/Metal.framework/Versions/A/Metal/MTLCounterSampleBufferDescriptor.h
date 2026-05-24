@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLCounterSet;
 
 @interface MTLCounterSampleBufferDescriptor
@@ -17,9 +16,6 @@
 
 // Remaining properties
 @property(retain) id <MTLCounterSet> counterSet; // @dynamic counterSet;
-@property(copy) NSString *label; // @dynamic label;
-@property unsigned long long sampleCount; // @dynamic sampleCount;
-@property unsigned long long storageMode; // @dynamic storageMode;
 
 @end
 

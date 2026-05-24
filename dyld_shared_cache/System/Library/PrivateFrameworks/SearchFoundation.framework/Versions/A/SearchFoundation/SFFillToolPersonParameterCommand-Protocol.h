@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFPerson;
+@class NSData;
 
 @protocol SFFillToolPersonParameterCommand
+- (void);
+- (NSData *)PV3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFPerson *person;
 @end
 

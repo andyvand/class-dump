@@ -6,17 +6,11 @@
 
 #import <Safari/SafariExtensionsController.h>
 
-@class NSArray, NSMapTable, NSMutableDictionary, NSMutableSet, NSPointerArray, NSURL;
+@class NSArray, NSMutableDictionary;
 
 @interface SafariAppExtensionsController : SafariExtensionsController
 {
     NSMutableDictionary *_contentBlockerToAssociatedAppExtensionMap;
-    NSPointerArray *_extensionContexts;
-    NSMapTable *_extensionToReusableContextMap;
-    NSMutableDictionary *_extensionToReusableContextTimeout;
-    NSMutableDictionary *_extensionToQueuedConnectionBlocks;
-    NSMutableSet *_migratedPermissionExtensionIdentifiers;
-    NSURL *_settingsFileURL;
 }
 
 + (id);
@@ -48,22 +42,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)P;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -72,33 +66,33 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)@;
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
@@ -109,7 +103,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTNetwork;
-
 @interface CTNetworkSelectionInfo
 {
     unsigned long long _selectionState;
-    unsigned long long _selectionMode;
-    CTNetwork *_selection;
 }
 
-+ (_Bool);
++ (_Bool)ia type of sample buffer must match receiver's media type ("%@");
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)error:(id)arg1 hasCode: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,8 +23,6 @@
 - (id)Location;
 
 // Remaining properties
-@property(retain, nonatomic) CTNetwork *selection; // @synthesize selection=_selection;
-@property(nonatomic) unsigned long long selectionMode; // @synthesize selectionMode=_selectionMode;
 @property(nonatomic) unsigned long long selectionState; // @synthesize selectionState=_selectionState;
 
 @end

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionPresentation
 {
     NSString *_mode;
-    NSDictionary *_matchingExtensionAttributes;
-    NSString *_titleExtensionAttributeKey;
-    NSString *_iconNameExtensionAttributeKey;
-    NSString *_colorNameExtensionAttributeKey;
-    NSString *_legacyServicePresentationMode;
 }
 
-+ (id);
++ (id)@"NSURL",C,N,V_siteForCookies;
 - (id);
-- (id);
-- (id);
+- (id)PJJo6pvnog;
+- (id)t;
 - (id);
 - (id);
 - (id);
@@ -33,16 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)fication:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *activePreferencesKey;
-@property(readonly, copy) NSString *colorNameExtensionAttributeKey; // @synthesize colorNameExtensionAttributeKey=_colorNameExtensionAttributeKey;
-@property(readonly, copy) NSString *iconNameExtensionAttributeKey; // @synthesize iconNameExtensionAttributeKey=_iconNameExtensionAttributeKey;
-@property(readonly, copy) NSString *legacyServicePresentationMode; // @synthesize legacyServicePresentationMode=_legacyServicePresentationMode;
-@property(readonly, copy) NSDictionary *matchingExtensionAttributes; // @synthesize matchingExtensionAttributes=_matchingExtensionAttributes;
 @property(readonly, copy) NSString *mode; // @synthesize mode=_mode;
-@property(readonly, copy) NSString *orderingPreferencesKey;
-@property(readonly, copy) NSString *preferencesDomain;
-@property(readonly, copy) NSString *preferencesNotificationName;
-@property(readonly, copy) NSString *titleExtensionAttributeKey; // @synthesize titleExtensionAttributeKey=_titleExtensionAttributeKey;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface ChatKit.AppCardRemoteViewTracker__priv_8A4A7F2520585D04B4143D0BC937F1D7
 {
     id notify;
-    id state;
 }
 
 @end

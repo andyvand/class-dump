@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneIdentityToken, FBScene, NSHashTable, NSString, _UIScenePresenter;
+@class FBScene, NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneKeyboardProxyLayerForwardingPresentationScene
 {
     NSHashTable *_observers;
-    _UIScenePresenter *_prioritizedPresenter;
-    FBSSceneIdentityToken *_keyboardOwnerIdentityToken;
-    FBScene *_scene;
 }
 
 - (void);
@@ -21,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ating syndication ranges for message item with guid %@. newRange:(id)arg1 %@;
 - (void);
 - (id);
-- (void)tyleClassForStylableClass:(id)arg1;
-- (void)fect;
+- (void)visualStyleClassForStylableClass:(id)arg1;
+- (void)_UIPopoverBackgroundVisualEffect;
 - (id)ðgh;
 - (void)°¢;
 - (void)maxFrameCount:(id)arg1 %@>;
@@ -33,15 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)SubviewContainerView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FBSSceneIdentityToken *keyboardOwnerIdentityToken; // @synthesize keyboardOwnerIdentityToken=_keyboardOwnerIdentityToken;
 @property(readonly, nonatomic) __weak FBScene *scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACProtobufURL, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ACProtobufAccountType
 {
     NSString *_accountTypeDescription;
-    NSString *_credentialProtectionPolicy;
-    NSString *_credentialType;
-    NSString *_identifier;
-    ACProtobufURL *_objectID;
-    NSString *_owningBundleID;
-    NSMutableArray *_supportedEnumDataclasses;
-    int _supportsAuthentication;
-    NSMutableArray *_syncableEnumDataclasses;
-    int _visibility;
-    _Bool _obsolete;
-    _Bool _supportsMultipleAccounts;
-    struct {
-        unsigned int supportsAuthentication:1;
-        unsigned int visibility:1;
-        unsigned int obsolete:1;
-        unsigned int supportsMultipleAccounts:1;
-    } _has;
 }
 
 + (Class);
@@ -42,17 +25,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C8;
+- (_Bool)9;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
@@ -66,20 +49,20 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)7(;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
-- (int);
+- (id);
+- (void);
+- (id);
+- (int)originatingAttributePath;
 - (id);
 - (void);
 - (void);
@@ -88,25 +71,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountTypeDescription; // @synthesize accountTypeDescription=_accountTypeDescription;
-@property(retain, nonatomic) NSString *credentialProtectionPolicy; // @synthesize credentialProtectionPolicy=_credentialProtectionPolicy;
-@property(retain, nonatomic) NSString *credentialType; // @synthesize credentialType=_credentialType;
-@property(readonly, nonatomic) _Bool hasCredentialProtectionPolicy;
-@property(readonly, nonatomic) _Bool hasCredentialType;
-@property(readonly, nonatomic) _Bool hasObjectID;
-@property(nonatomic) _Bool hasObsolete;
-@property(readonly, nonatomic) _Bool hasOwningBundleID;
-@property(nonatomic) _Bool hasSupportsAuthentication;
-@property(nonatomic) _Bool hasSupportsMultipleAccounts;
-@property(nonatomic) _Bool hasVisibility;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) ACProtobufURL *objectID; // @synthesize objectID=_objectID;
-@property(nonatomic) _Bool obsolete; // @synthesize obsolete=_obsolete;
-@property(retain, nonatomic) NSString *owningBundleID; // @synthesize owningBundleID=_owningBundleID;
-@property(retain, nonatomic) NSMutableArray *supportedEnumDataclasses; // @synthesize supportedEnumDataclasses=_supportedEnumDataclasses;
-@property(nonatomic) int supportsAuthentication; // @synthesize supportsAuthentication=_supportsAuthentication;
-@property(nonatomic) _Bool supportsMultipleAccounts; // @synthesize supportsMultipleAccounts=_supportsMultipleAccounts;
-@property(retain, nonatomic) NSMutableArray *syncableEnumDataclasses; // @synthesize syncableEnumDataclasses=_syncableEnumDataclasses;
-@property(nonatomic) int visibility; // @synthesize visibility=_visibility;
 
 @end
 

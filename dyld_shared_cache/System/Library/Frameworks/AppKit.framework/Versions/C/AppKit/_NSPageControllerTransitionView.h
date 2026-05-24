@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSPageController *_pageController;
 }
 
-- (void);
+- (void);
 - (id);
 
 @end

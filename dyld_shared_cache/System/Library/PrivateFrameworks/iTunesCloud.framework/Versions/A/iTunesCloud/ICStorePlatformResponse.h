@@ -4,55 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface ICStorePlatformResponse
 {
     NSNumber *_accountIdentifier;
-    NSNumber *_enqueuerAccountIdentifier;
-    NSDate *_expirationDate;
-    NSArray *_requestedItemIdentifiers;
-    NSDictionary *_responseDictionary;
-    NSString *_storefrontIdentifier;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
 }
 
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id){/;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)gi;
+- (id)n;
 - (id);
-- (id);
-- (id);
-- (void)kerAccount;
+- (void)autoupdatingActiveLockerAccount;
 - (id),
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, copy, nonatomic) NSArray *allItems;
 @property(readonly, nonatomic, getter=isAuthenticated) _Bool authenticated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *enqueuerAccountIdentifier; // @synthesize enqueuerAccountIdentifier=_enqueuerAccountIdentifier;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
-@property(readonly, copy, nonatomic) id rawResponse;
-@property(readonly, copy, nonatomic) NSDictionary *resultsDictionary;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

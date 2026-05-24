@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface SFHashDetail
 {
     struct {
         unsigned int has_summary:1;
         unsigned int has_table_of_contents:1;
     } _has;
-    _Bool _has_summary;
-    _Bool _has_table_of_contents;
-    NSString *_full_hash;
-    NSArray *_sba_entity_types;
-    NSString *_matched_url_variant;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R%;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)M;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,32 +26,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setConfigurationBlock:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void):(id)arg1 (%{public}@). Pre-heating failed with sound:%{public}@ and soundID:%lu. /* Error: Ran out of types for this method. */;
+- (id)t";
+- (id)renderedVideoPosterURL;
+- (id)CloudIdentifierC!?_pGG;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)lectionStyleScrolling;
+- (void)_collectionStyleScrolling;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *full_hash; // @synthesize full_hash=_full_hash;
 @property(nonatomic) _Bool has_ee;
-@property(nonatomic) _Bool has_summary; // @synthesize has_summary=_has_summary;
-@property(nonatomic) _Bool has_table_of_contents; // @synthesize has_table_of_contents=_has_table_of_contents;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *matched_url_variant; // @synthesize matched_url_variant=_matched_url_variant;
-@property(copy, nonatomic) NSArray *sba_entity_types; // @synthesize sba_entity_types=_sba_entity_types;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PreflightCache;
+@class NSString;
 
 @interface PreflightCacheAssertion
 {
     NSString *_reason;
-    PreflightCache *_cache;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)CKDataVault;
 - (void);
 - (id);
 - (void);
 - (void)¬¬;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak PreflightCache *cache; // @synthesize cache=_cache;
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

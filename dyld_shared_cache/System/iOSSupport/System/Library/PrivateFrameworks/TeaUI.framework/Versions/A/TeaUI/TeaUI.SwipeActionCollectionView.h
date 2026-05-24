@@ -9,12 +9,6 @@
 @interface TeaUI.SwipeActionCollectionView
 {
     id swipeActionManager;
-    id dependencyCleanupBlocks;
-    id coordinatingResetBlocks;
-    id coordinatingCancelBlocks;
-    id updateGroup;
-    id swipeActionRestoreState;
-    id isBottomRubberBanding;
 }
 
 - (void);
@@ -22,19 +16,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)MapsSuggestionsSnoozeSuppressionTimeIntervalForHotelKey;
+- (void)nsUser meCardForProminentPlacesAroundCoordinate:(long long)arg1 maxDistance:(long long)arg2 maxAge:minVisits:handler:] /* Error: Ran out of types for this method. */;
+- (void)SuggestionsIsTomorrow(NSDate *__strong _Nonnull);
+- (void)apsSuggestionsCompositeTriggeringCondition addConditions:(id)arg1 ];
+- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)peProviding>",R,N;
+- (void)r"20;
 - (void);
 - (struct CGPoint);
 - (_Bool);
@@ -44,10 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsSelection;
-@property(nonatomic) struct CGPoint contentOffset;
 @property(nonatomic, readonly) UIPanGestureRecognizer *coordinatingSwipeActionPanGestureRecognizer;
-@property(nonatomic, readonly) _Bool coordinatingSwipeActionShouldCancel;
 
 @end
 

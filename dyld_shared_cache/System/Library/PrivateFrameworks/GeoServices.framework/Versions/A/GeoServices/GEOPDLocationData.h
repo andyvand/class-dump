@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDLocationData
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_locationNames;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)rameters"b1"read_featureIdGeocodingParameters"b1"read_geocodingParameters"b1"read_groundViewLabelParameters"b1"read_guidesHomeParameters"b1"read_ipGeoLookupParameters"b1"read_locationDirectedSearchParameters"b1"read_mapsHomeParameters"b1"read_mapsIdentifierPlaceLookupParameters"b1"read_mapsSearchHomeParameters"b1"read_merchantLookupParameters"b1"read_nearbySearchParameters"b1"read_offlineRegionNameParameters"b1"read_placeCollectionLookupParameter"b1"read_placeDescriptorResolutionParameters"b1"read_placeLookupParameters"b1"read_placeQuestionnaireLookupParameters"b1"read_placeRefinementParameters"b1"read_placecardEnrichmentParameters"b1"read_poiAtAddressLookupParameters"b1"read_popularNearbySearchParameters"b1"read_publisherViewParameters"b1"read_queryUnderstandingParameters"b1"read_refreshIdLookUpParameters"b1"read_reverseGeocodingParameters"b1"read_searchCapabilitiesParameters"b1"read_searchFieldPlaceholderParameters"b1"read_searchParameters"b1"read_searchZeroKeywordCategorySuggestionParameters"b1"read_searchZeroKeywordWithSearchResultsSuggestionParameters"b1"read_siriSearchParameters"b1"read_territoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)asValidGeometry: /* Error: Ran out of types for this method. */;
+- (id)_featureHasValidGeometry: /* Error: Ran out of types for this method. */;
 - (id)á$ã;
 - (void)\Âõè(°@;
 

@@ -6,20 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CITemperatureAndTint : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputNeutral;
-    CIVector *inputTargetNeutral;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (void);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputNeutral; // @dynamic inputNeutral;
-@property(retain, nonatomic) CIVector *inputTargetNeutral; // @synthesize inputTargetNeutral;
 
 @end
 

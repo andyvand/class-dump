@@ -5,5 +5,8 @@
 //
 
 @protocol _WKDataTaskDelegate
+
+@optional
+- (void)8;
 @end
 

@@ -6,17 +6,11 @@
 
 #import <CoreHandwriting/CHGroupingPostprocessingStep.h>
 
-@class CHBottomUpStrokeGroupingStrategy, CHMathPostProcessingManager;
-@protocol CHStrokeProvider;
+@class CHMathPostProcessingManager;
 
 @interface CHGroupOversegmentationMergingStep : CHGroupingPostprocessingStep
 {
     CHMathPostProcessingManager *_unitConversionPostProcessor;
-    CHMathPostProcessingManager *_variableAssignmentPostProcessor;
-    CDUnknownBlockType _additionalRecognitionBlock;
-    id <CHStrokeProvider> _strokeProvider;
-    CHBottomUpStrokeGroupingStrategy *_leftToRightBottomUpStrategy;
-    CHBottomUpStrokeGroupingStrategy *_rightToLeftBottomUpStrategy;
 }
 
 - (id);

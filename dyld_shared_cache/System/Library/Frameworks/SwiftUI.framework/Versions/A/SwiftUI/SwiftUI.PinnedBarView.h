@@ -7,9 +7,6 @@
 @interface SwiftUI.PinnedBarView
 {
     id edge;
-    id isPinned;
-    id pocketContainerRegistered;
-    id hostingScrollView;
 }
 
 - (_Bool);

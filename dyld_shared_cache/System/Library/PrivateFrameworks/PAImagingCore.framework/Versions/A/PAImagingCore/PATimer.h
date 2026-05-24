@@ -11,9 +11,9 @@
 
 + (void);
 + (id);
-+ (id);
++ (id)gItem;
 + (void);
-+ (void);
++ (void)8;
 - (void);
 - (void);
 - (void);
@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)?;
 - (void);
 
 @end

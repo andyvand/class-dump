@@ -4,48 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, ABGroupEntriesList, ABPeoplePickerExternalNotificationWatcher, ABPeoplePickerGroupEntriesFactory, ABPeoplePickerGroupHelperFactory, ABPeoplePickerGroupListController, ABPeoplePickerLocalNotificationWatcher, ABPeoplePickerScope, ABPeoplePickerTableView, ABPersonEntriesList, ABPersonListController, ABPersonListSearchController, NSArray, NSArrayController, NSDictionary, NSMenu, NSMutableDictionary, NSSearchField, NSSegmentedControl, NSSplitView, NSString, NSTextField, NSView, NSWindow;
-@protocol ABPersonListHeadlining;
+@class ABPeoplePickerGroupListController;
 
 @interface ABPeoplePickerController
 {
     ABPeoplePickerGroupListController *_groupListController;
-    NSSegmentedControl *mNavigationControl;
-    NSSearchField *mSearchField;
-    ABPersonListController *_personListController;
-    ABPersonListSearchController *_searchController;
-    NSString *targetedPath;
-    NSArray *_allSections;
-    NSMutableDictionary *_entryForRecordReverseMap;
-    NSMenu *newSourceOrGroupMenu;
-    _Bool _optionKeyWasDownAtStartOfDraggingSession;
-    _Bool _shouldAutomaticallyEditInsertedGroupNames;
-    _Bool _inDistributionListEditor;
-    NSView *pickerView;
-    NSWindow *testWindow;
-    NSView *accessoryViewContainer;
-    NSArrayController *propertyController;
-    NSSplitView *peoplePickerSplitView;
-    ABPeoplePickerTableView *mPickerTableView;
-    NSTextField *mStatusTextField;
-    ABGroupEntriesList *_groupEntriesList;
-    ABPeoplePickerGroupEntriesFactory *_groupEntriesFactory;
-    ABPeoplePickerGroupHelperFactory *_helperFactory;
-    ABPeoplePickerScope *_pickerScope;
-    ABPeoplePickerExternalNotificationWatcher *_externalNotificationWatcher;
-    ABPeoplePickerLocalNotificationWatcher *_localNotificationWatcher;
-    NSArray *peopleSortDescriptors;
-    NSDictionary *_savedSelection;
-    NSMutableDictionary *_columnFilters;
-    ABPersonEntriesList *_personEntriesList;
-    NSArray *propertyDescriptions;
-    NSArray *availableProperties;
-    _Bool allowsGroupSelection;
-    NSString *autosaveName;
-    ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABGroup *_displayedGroup;
-    _Bool _shouldUnifyPeople;
 }
 
 + (_Bool);
@@ -101,19 +64,19 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)#;
 - (SEL);
 - (void);
-- (_Bool);
+- (_Bool)(";
 - (id);
 - (_Bool);
 - (SEL);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)=;
 - (id);
 - (_Bool);
 - (void);
@@ -122,7 +85,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
@@ -148,13 +111,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -164,12 +124,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool)a;
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -189,12 +152,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)prevExecName;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)
 × ;
@@ -207,42 +170,7 @@
 - (void)ion-name;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *accessoryView;
-@property(retain) ABAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(nonatomic) _Bool allowsGroupSelection; // @synthesize allowsGroupSelection;
-@property(nonatomic) _Bool allowsMultipleSelection;
-@property(retain, nonatomic) NSString *autosaveName; // @synthesize autosaveName;
-@property(readonly) NSArray *availableProperties; // @synthesize availableProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) ABGroup *displayedGroup; // @synthesize displayedGroup=_displayedGroup;
-@property(retain, nonatomic) NSString *displayedProperty;
-@property(readonly) NSArray *entries;
-@property(copy) NSString *filterTerms;
-@property(nonatomic) SEL groupDoubleAction;
-@property(readonly) unsigned long long hash;
-@property(retain) id <ABPersonListHeadlining> headliner;
-@property _Bool inDistributionListEditor; // @synthesize inDistributionListEditor=_inDistributionListEditor;
-@property(nonatomic) SEL nameDoubleAction;
-@property(retain, nonatomic) NSArray *peopleSortDescriptors; // @synthesize peopleSortDescriptors;
-@property(readonly) NSArray *personEntries;
-@property(retain) ABPersonEntriesList *personEntriesList; // @synthesize personEntriesList=_personEntriesList;
-@property(readonly, nonatomic) NSView *pickerView; // @synthesize pickerView;
-@property(readonly) NSArray *properties;
-@property(retain, nonatomic) NSArray *propertyDescriptions; // @synthesize propertyDescriptions;
-@property __weak ABPersonListSearchController *searchController; // @synthesize searchController=_searchController;
-@property(copy) NSArray *selectedEntries;
-@property(readonly) _Bool shouldIncludeGroups;
-@property _Bool shouldUnifyPeople; // @synthesize shouldUnifyPeople=_shouldUnifyPeople;
 @property _Bool showsDirectories;
-@property(readonly) Class superclass;
-@property(nonatomic) id target;
-@property(readonly, nonatomic) NSWindow *testWindow; // @synthesize testWindow;
-@property(nonatomic) int valueSelectionBehavior;
 
 @end
 

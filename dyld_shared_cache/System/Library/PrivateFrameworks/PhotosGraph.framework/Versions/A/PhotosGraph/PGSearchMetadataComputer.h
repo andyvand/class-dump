@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)i|xP;
 - (id);
 - (id);
 - (void)-[PGGraphCalendarUnitNode initWithLabel:domain:properties:] /* Error: Ran out of types for this method. */;

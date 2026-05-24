@@ -9,7 +9,6 @@
 @interface MPSNNPermuteGradientState : MPSNNGradientState
 {
     struct MPSNNDimensionOrder _fwdPermuteOrder;
-    struct MPSNNDimensionOrder _revPermuteOrder;
 }
 
 + (id);

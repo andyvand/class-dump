@@ -5,6 +5,7 @@
 //
 
 @protocol CKDOperationCallbackProxy
+- (void);
 - (void)%@ connection with processBinaryName %@ is waiting resume its container available queue. We have %ld existing connection%@ tearing down;
 @end
 

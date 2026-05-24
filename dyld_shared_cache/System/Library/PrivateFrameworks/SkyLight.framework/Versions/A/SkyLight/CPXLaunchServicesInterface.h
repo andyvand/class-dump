@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface CPXLaunchServicesInterface
 {
     int _sessionID;
 }
 
-- (int);
-- (int);
+- (int)deletes;
+- (int)ed:(struct __LSASN *)arg1 %s;
 - (id);
-- (unsigned int);
+- (unsigned int)'%@' errno:%d /* Error: Ran out of types for this method. */;
+- (id)at %@.  SQLite error code:%d, '%@' errno:%d /* Error: Ran out of types for this method. */;
+- (unsigned char)Z_OPT = (Z_OPT + 1) WHERE %@ = OLD.Z_PK;
+- (int)TE OR FAIL %@ SET %@ = NULL , %@ = NULL, Z_OPT = (Z_OPT + 1) WHERE %@ = OLD.Z_PK;
+- (int)X((SELECT %@ FROM %@ WHERE %@ = '%@'),;
 - (id);
-- (unsigned char);
-- (int);
-- (int);
-- (id);
-- (int);
+- (int)|SN;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id frontApplication;
-@property(readonly, nonatomic) unsigned int frontApplicationSeed;
-@property(readonly, nonatomic) NSArray *permittedFrontApplications;
-@property(readonly, nonatomic) NSArray *runningApplications;
 @property(readonly, nonatomic) int sessionID;
 
 @end

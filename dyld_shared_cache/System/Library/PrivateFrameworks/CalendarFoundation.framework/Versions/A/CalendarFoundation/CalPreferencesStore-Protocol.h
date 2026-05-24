@@ -5,5 +5,6 @@
 //
 
 @protocol CalPreferencesStore
+- (void);
 @end
 

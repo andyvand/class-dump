@@ -7,15 +7,12 @@
 @interface TRIFBFactorMetadataKeyValueChanges
 {
     unsigned char _changeTypeKey;
-    unsigned int _replacementKey;
-    unsigned char _changeTypeVal;
-    unsigned int _replacementVal;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

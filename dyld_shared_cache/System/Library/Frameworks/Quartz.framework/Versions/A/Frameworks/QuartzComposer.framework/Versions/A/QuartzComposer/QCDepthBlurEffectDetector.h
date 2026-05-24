@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCImagePort, QCStructurePort;
+@class QCImagePort;
 
 @interface QCDepthBlurEffectDetector : QCPatch
 {
     QCImagePort *inputImage;
-    QCStructurePort *outputFeatures;
 }
 
 + (_Bool);

@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface EspressoANEIOSurface
 {
     NSDictionary *params_dict;
-    struct vector<Espresso::ANERuntimeEngine::surface_and_buffer, std::allocator<Espresso::ANERuntimeEngine::surface_and_buffer>> multiple_buffer_io_surfaces;
-    _Bool created_with_lazy_iosurface;
-    _Bool ane_surface_use_cvpixelbuffer;
-    unsigned long long width;
-    unsigned long long height;
-    unsigned long long rowBytes;
-    NSSet *valid_pixel_formats;
-    unsigned int _pixelFormat;
-    shared_ptr_163bc247 _external_storage_blob_for_aliasing_mem;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (id);
 - (void);
 - (struct __IOSurface *);
 - (struct __IOSurface *);
 - (id);
-- (shared_ptr_163bc247);
+- (shared_ptr_34d09657);
 - (void);
 - (struct __IOSurface *);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void)ÿÿß;
 - (unsigned int)BlockEEERNS_6vectorINS5_INS6_16IRNamedValueTypeEEENS_9allocatorISB_EEEEE3$_0FNS_12basic_stringIcNS_11char_traitsIcEENSC_IcEEEESL_EEE;
 - (void)EXGETEE3$_0;
 
 // Remaining properties
-@property(nonatomic) shared_ptr_163bc247 external_storage_blob_for_aliasing_mem; // @synthesize external_storage_blob_for_aliasing_mem=_external_storage_blob_for_aliasing_mem;
-@property(readonly, nonatomic) unsigned int pixelFormat; // @synthesize pixelFormat=_pixelFormat;
+@property(nonatomic) shared_ptr_34d09657 external_storage_blob_for_aliasing_mem; // @synthesize external_storage_blob_for_aliasing_mem=_external_storage_blob_for_aliasing_mem;
 
 @end
 

@@ -7,43 +7,31 @@
 #import <HomeKitDaemon/HMDCameraSnapshotIDSStream.h>
 
 @class NSString;
-@protocol HMDCameraSnapshotIDSStreamInitiatorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotIDSStreamInitiator : HMDCameraSnapshotIDSStream
 {
     NSString *_destinationID;
-    id <HMDCameraSnapshotIDSStreamInitiatorDelegate> _delegate;
-    NSString *_sendFileIdentifier;
 }
 
 + (id)ÂÿN  ÞB;
-- (void);
+- (void)MSPSenderETAControllerDelegate;
+- (id)message body, generic;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id)0@ù
 × ;
 - (void)manager.;
 - (void)÷ÿP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraSnapshotIDSStreamInitiatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSString *destinationID; // @synthesize destinationID=_destinationID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *sendFileIdentifier; // @synthesize sendFileIdentifier=_sendFileIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

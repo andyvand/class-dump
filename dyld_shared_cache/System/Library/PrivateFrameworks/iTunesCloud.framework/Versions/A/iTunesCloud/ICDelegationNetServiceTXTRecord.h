@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationNetServiceTXTRecord
 {
     NSArray *_delegationAccountUUIDs;
-    NSString *_deviceName;
-    long long _securityMode;
-    long long _serviceVersion;
 }
 
 - (void);
@@ -20,23 +17,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (void);
-- (long long);
-- (id);
+- (void)selectSQLWithColumns:(long long)arg1 orderingTerms:distinct: /* Error: Ran out of types for this method. */;
+- (long long)rentalStartedDateTime;
+- (id)data=%{public}s;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)amework/Versions/A/SidecarCore;
 - (void)Lähä;
 - (void)ed type for bag key '%@' in profile '%@':(id)arg1 '%@' (expected String);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *TXTRecordData;
 @property(copy, nonatomic) NSArray *delegationAccountUUIDs; // @synthesize delegationAccountUUIDs=_delegationAccountUUIDs;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) long long securityMode; // @synthesize securityMode=_securityMode;
-@property(nonatomic) long long serviceVersion; // @synthesize serviceVersion=_serviceVersion;
 
 @end
 

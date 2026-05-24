@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWStillImageProcessorControllerConfiguration, BWStillImageProcessorControllerRequest, CMIExternalMemoryDescriptor, CMIExternalMemoryResource, FigStateMachine, NSMutableArray, NSString;
-@protocol MetalImageBufferProcessor;
+@class BWStillImageProcessorControllerRequest, NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWStillImageProcessorController
 {
     NSString *_name;
-    unsigned long long _type;
-    BWStillImageProcessorControllerConfiguration *_configuration;
-    FigStateMachine *_stateMachine;
-    NSMutableArray *_requestQueue;
-    BWStillImageProcessorControllerRequest *_currentRequest;
-    _Bool _hasPendingRequests;
 }
 
 + (_Bool);
@@ -30,42 +23,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)HH;
 - (void);
-- (void);
-- (int);
-- (void);
+- (int)?iIII**B}16i24;
+- (void)CHXDrawingState;
 - (id);
-- (id);
+- (id).;
 - (unsigned long long);
 - (int);
 - (void);
 - (id)eTemporalNoiseReductionWhenStopping;
-- (id)ge;
+- (id)BWNodeStillImagePrewarmMessage;
 - (void)ð;ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) BWStillImageProcessorControllerConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) BWStillImageProcessorControllerRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CMIExternalMemoryDescriptor *externalMemoryDescriptor;
-@property(retain, nonatomic) CMIExternalMemoryResource *externalMemoryResource;
-@property(readonly, nonatomic) _Bool hasPendingRequests; // @synthesize hasPendingRequests=_hasPendingRequests;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <MetalImageBufferProcessor> metalImageBufferProcessor;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsExternalMemoryResource;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

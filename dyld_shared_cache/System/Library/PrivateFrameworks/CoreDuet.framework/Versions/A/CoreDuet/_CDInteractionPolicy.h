@@ -9,28 +9,22 @@
 @interface _CDInteractionPolicy
 {
     _CDRateLimiter *_rateLimiter;
-    unsigned long long _lifespanInSeconds;
-    unsigned long long _maxNumberStored;
-    unsigned long long _timeResolutionInSeconds;
-    unsigned long long _maxNumberOfRecipients;
-    unsigned long long _maxNumberOfKeywords;
-    unsigned long long _maxNumberOfAttachments;
 }
 
++ (id);
++ (id);
++ (unsigned long long);
++ (id)kNe;
++ (id);
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)6;
 + (id);
-+ (id);
++ (id)X;
 - (unsigned long long);
 - (void);
 - (void);
@@ -40,24 +34,18 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)X~;
+- (unsigned long long)%;
 - (id);
-- (unsigned long long);
+- (unsigned long long)H;
 - (id);
 - (id);
 - (void)
 × ;
-- (void)y__fullURL;
+- (void)_DKAppClipUsageMetadataKey__fullURL;
 
 // Remaining properties
-@property unsigned long long lifespanInSeconds; // @synthesize lifespanInSeconds=_lifespanInSeconds;
-@property unsigned long long maxNumberOfAttachments; // @synthesize maxNumberOfAttachments=_maxNumberOfAttachments;
-@property unsigned long long maxNumberOfKeywords; // @synthesize maxNumberOfKeywords=_maxNumberOfKeywords;
-@property unsigned long long maxNumberOfRecipients; // @synthesize maxNumberOfRecipients=_maxNumberOfRecipients;
-@property unsigned long long maxNumberStored; // @synthesize maxNumberStored=_maxNumberStored;
 @property(retain) _CDRateLimiter *rateLimiter; // @synthesize rateLimiter=_rateLimiter;
-@property unsigned long long timeResolutionInSeconds; // @synthesize timeResolutionInSeconds=_timeResolutionInSeconds;
 
 @end
 

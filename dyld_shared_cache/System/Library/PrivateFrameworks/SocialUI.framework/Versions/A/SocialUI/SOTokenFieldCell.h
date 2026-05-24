@@ -5,14 +5,10 @@
 //
 
 @class SOTokenFieldController;
-@protocol SOTokenFieldCellDragDelegate;
 
 @interface SOTokenFieldCell
 {
     unsigned int _dragDelegateRespondsToTokenFieldCellDidBeginDragOperation;
-    unsigned int _dragDelegateRespondsToTokenFieldCellDidEndDragOperation;
-    id <SOTokenFieldCellDragDelegate> _dragDelegate;
-    SOTokenFieldController *_tokenFieldController;
 }
 
 - (id);
@@ -20,13 +16,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)eue;
+- (id)9;
+- (void)__gcc_except_tab__TEXT;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SOTokenFieldCellDragDelegate> dragDelegate; // @synthesize dragDelegate=_dragDelegate;
 @property __weak SOTokenFieldController *tokenFieldController; // @synthesize tokenFieldController=_tokenFieldController;
 
 @end

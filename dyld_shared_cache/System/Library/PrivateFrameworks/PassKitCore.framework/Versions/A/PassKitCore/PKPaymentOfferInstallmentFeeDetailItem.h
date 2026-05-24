@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PKCurrencyAmount;
-
 @interface PKPaymentOfferInstallmentFeeDetailItem
 {
     unsigned long long _type;
-    PKCurrencyAmount *_feeAmount;
-    PKCurrencyAmount *_totalFees;
-    unsigned long long _feesPeriod;
-    long long _feesInterval;
-    NSDate *_feeDate;
 }
 
 + (_Bool);
@@ -31,20 +24,15 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setMovingAvgHighBandwidth:(id)arg1;
+- (void)AWDIDSRealTimeEncryptionFirstReceivedPacketMKMTimeDelta;
+- (id)c;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)faultShippingAddress;
-- (void)T_TRANSFER_FEE;
+- (id)deleteDefaultShippingAddress;
+- (void)PEER_PAYMENT_TRANSFER_FEE;
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *feeAmount; // @synthesize feeAmount=_feeAmount;
-@property(copy, nonatomic) NSDate *feeDate; // @synthesize feeDate=_feeDate;
-@property(nonatomic) long long feesInterval; // @synthesize feesInterval=_feesInterval;
-@property(nonatomic) unsigned long long feesPeriod; // @synthesize feesPeriod=_feesPeriod;
-@property(retain, nonatomic) PKCurrencyAmount *totalFees; // @synthesize totalFees=_totalFees;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGCatalogEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_macOS.m:25 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)Һ;
+- (_Bool)ib1}}16;
 - (id);
 - (id);
-- (id)ppedComponents:(id)arg1;
+- (id)addDroppedComponents:(id)arg1;
 - (id),V_triggerStartTimeOffsetInNs;
-- (_Bool)uest;
+- (_Bool)expensiveNetworkAccessRequest;
 - (_Bool)nIds;
 - (void))²á";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,73 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, GEOPDFlyover, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAnnouncement
 {
     PBDataReader *_reader;
-    NSString *_buttonOneAppURI;
-    NSString *_buttonOneMessage;
-    NSString *_buttonTwoAppURI;
-    NSString *_buttonTwoMessage;
-    GEOPDFlyover *_flyoverInfo;
-    GEOMapRegion *_mapRegion;
-    NSString *_title;
-    NSString *_userMessage;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _announcementID;
-    int _announcementType;
-    unsigned int _displayDestinations;
-    int _releasePhase;
-    struct {
-        unsigned int has_announcementID:1;
-        unsigned int has_announcementType:1;
-        unsigned int has_displayDestinations:1;
-        unsigned int has_releasePhase:1;
-        unsigned int read_buttonOneAppURI:1;
-        unsigned int read_buttonOneMessage:1;
-        unsigned int read_buttonTwoAppURI:1;
-        unsigned int read_buttonTwoMessage:1;
-        unsigned int read_flyoverInfo:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_title:1;
-        unsigned int read_userMessage:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)dTransitFareVersion:(id)arg1;
++ (_Bool)setHasMaxSupportedTransitFareVersion:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (void)S_dispatch_queue>";
+- (void)sortedArrayUsingDescriptors:(_Bool)arg1;
+- (void)sortedArrayUsingComparator:(_Bool)arg1;
+- (void)resourceLock_validateKey:(unsigned int)arg1;
+- (void)objectAtIndex:(id)arg1;
+- (void)numberWithUnsignedLongLong:(id)arg1;
+- (void)numberWithUnsignedInt:(id)arg1;
+- (void)numberWithUnsignedChar:(id)arg1;
+- (void)localizedForLanguageIdentifier:(unsigned int)arg1 withPronouns: /* Error: Ran out of types for this method. */;
+- (id)consumeAllObjects;
+- (int)conformsToProtocol: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (_Bool)L;
+- (_Bool);
+- (_Bool);
+- (_Bool)v;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
+- (_Bool)};
 - (id);
 - (unsigned int);
+- (id);
+- (id);
+- (id);
+- (unsigned int);
 - (void);
 - (id);
 - (int);
@@ -84,13 +54,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)addObjectsFromArray:(id)arg1;
+- (id)\a;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)eeedddr;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -99,38 +69,15 @@
 × ;
 - (void)±¹*1Â0@ù
 × ;
-- (id)ForResourceWithName:(struct _NSZone *)arg1;
+- (id)pathForResourceWithName:(struct _NSZone *)arg1;
 - (id)lå;
-- (id)s;
+- (id)common_options;
 - (id)ôÔ;
 - (id)þÿÿÿ;
 - (void)B¯6;
 
 // Remaining properties
-@property(nonatomic) unsigned int announcementID;
-@property(nonatomic) int announcementType;
-@property(retain, nonatomic) NSString *buttonOneAppURI;
-@property(retain, nonatomic) NSString *buttonOneMessage;
-@property(retain, nonatomic) NSString *buttonTwoAppURI;
-@property(retain, nonatomic) NSString *buttonTwoMessage;
-@property(nonatomic) unsigned int displayDestinations;
-@property(retain, nonatomic) GEOPDFlyover *flyoverInfo;
 @property(nonatomic) _Bool hasAnnouncementID;
-@property(nonatomic) _Bool hasAnnouncementType;
-@property(readonly, nonatomic) _Bool hasButtonOneAppURI;
-@property(readonly, nonatomic) _Bool hasButtonOneMessage;
-@property(readonly, nonatomic) _Bool hasButtonTwoAppURI;
-@property(readonly, nonatomic) _Bool hasButtonTwoMessage;
-@property(nonatomic) _Bool hasDisplayDestinations;
-@property(readonly, nonatomic) _Bool hasFlyoverInfo;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(nonatomic) _Bool hasReleasePhase;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasUserMessage;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) int releasePhase;
-@property(retain, nonatomic) NSString *title;
-@property(retain, nonatomic) NSString *userMessage;
 
 @end
 

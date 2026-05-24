@@ -17,7 +17,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)40CoreUtilsMessageSessionDelegateInterface;
 - (_Bool)0@ù
 × ;
 

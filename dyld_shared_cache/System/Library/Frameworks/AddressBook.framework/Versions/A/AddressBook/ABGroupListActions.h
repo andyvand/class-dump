@@ -9,7 +9,6 @@
 @interface ABGroupListActions
 {
     id <ABUserInterfaceAction> _createGroupAction;
-    id <ABUserInterfaceAction> _createSmartGroupAction;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly) id <ABUserInterfaceAction> createGroupAction; // @synthesize createGroupAction=_createGroupAction;
-@property(readonly) id <ABUserInterfaceAction> createSmartGroupAction; // @synthesize createSmartGroupAction=_createSmartGroupAction;
 
 @end
 

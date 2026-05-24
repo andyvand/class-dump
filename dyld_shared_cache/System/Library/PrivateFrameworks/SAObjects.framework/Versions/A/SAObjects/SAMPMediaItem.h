@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAMPMediaEntity.h>
 
-@class NSNumber, NSString, SACalendar, SAMPReleaseInfo;
+@class NSString;
 
 @interface SAMPMediaItem : SAMPMediaEntity
 {
@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)N5kaldi24OnlineDecodableNnet1LazyE;
 - (id);
 - (id);
 - (id);
@@ -33,13 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *album;
-@property(copy, nonatomic) NSString *artist;
-@property(retain, nonatomic) SACalendar *datePurchased;
-@property(copy, nonatomic) NSString *genre;
-@property(copy, nonatomic) NSNumber *perceivableStartTimeInSeconds;
-@property(retain, nonatomic) SAMPReleaseInfo *releaseInfo;
-@property(copy, nonatomic) NSString *sortAlbum;
-@property(copy, nonatomic) NSString *sortArtist;
 
 @end
 

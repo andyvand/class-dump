@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface DEDAttachmentItem
 {
     NSString *_deviceID;
-    NSString *_displayName;
-    NSDate *_modificationDate;
-    NSNumber *_fileSize;
-    NSURL *_attachedPath;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)Y;
 
 // Remaining properties
-@property(retain) NSURL *attachedPath; // @synthesize attachedPath=_attachedPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(readonly) Class superclass;
 
 @end
 

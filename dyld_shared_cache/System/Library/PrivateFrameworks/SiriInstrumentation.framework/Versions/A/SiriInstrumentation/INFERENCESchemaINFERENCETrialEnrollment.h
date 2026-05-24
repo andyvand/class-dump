@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface INFERENCESchemaINFERENCETrialEnrollment : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    NSString *_treatmentId;
-    long long _deploymentId;
-    NSString *_rolloutId;
-    CDStruct_487889ba _has;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
-    _Bool _hasRolloutId;
 }
 
 - (void);
@@ -26,42 +19,34 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tableView:(id)arg1 shouldEditTableColumn:row: /* Error: Ran out of types for this method. */;
+- (void)isCachingEnabledByDefault;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)t Location not inside %s;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)at GUID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)I;
 - (id);
 - (id);
 - (id)
 × ;
-- (void)ctedInMs;
+- (void)hasAmountOfSpeechDetectedInMs;
 - (id)"NSArray",C,N,V_rescoringEvents;
 - (long long)nThirdPartyAppGroundTruthGenerated",&,N,V_videoPlayOnThirdPartyAppGroundTruthGenerated;
-- (id)chemaPOMMESCacheInvalidationStarted;
+- (id)POMMESSchemaPOMMESCacheInvalidationStarted;
 - (void)eÜÿO5¯G";
 
 // Remaining properties
-@property(nonatomic) long long deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasRolloutId; // @synthesize hasRolloutId=_hasRolloutId;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
-@property(copy, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, AVQueuePlayer, AVWeakReference, NSError, NSMutableArray, NSObject;
-@protocol AVCallbackCancellation, OS_dispatch_queue;
+@class AVQueuePlayer;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerLooperInternal
 {
     AVQueuePlayer *loopingPlayer;
-    AVPlayerItem *loopingItem;
-    NSMutableArray *loopingItemCopies;
-    CDStruct_e83c9415 loopRange;
-    long long loopCount;
-    NSObject<OS_dispatch_queue> *ivarAccessQueue;
-    long long playerOriginalActionAtItemEnd;
-    CDStruct_1b6d18a9 forwardPlaybackStartTime;
-    AVPlayerItem *lastEnqueuedLoopingItem;
-    _Bool waitingForLastLoopingCopyToFinish;
-    long long status;
-    NSError *error;
-    id <AVCallbackCancellation> playerCurrentItemKVOInvoker;
-    NSMutableArray *loopingItemStatusKVOInvokers;
-    AVWeakReference *weakReference;
-    _Bool existingItemsPrecede;
-    _Bool listeningForItemFailedToPlayToEndTime;
 }
 
 @end

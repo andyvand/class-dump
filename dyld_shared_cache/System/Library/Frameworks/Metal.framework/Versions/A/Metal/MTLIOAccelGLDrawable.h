@@ -7,7 +7,6 @@
 @interface MTLIOAccelGLDrawable
 {
     struct __IOAccelGLDrawable *_drawableRef;
-    struct IOAccelDrawableSurfaceConfig _surfaceConfig;
 }
 
 - (unsigned long long);
@@ -19,9 +18,9 @@
 - (id);
 - (int);
 - (void);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (id)2P_PACKED_HLG;
+- (id)MTLPixelFormatYCBCR10_422_2P_PACKED_HLG;
 
 @end
 

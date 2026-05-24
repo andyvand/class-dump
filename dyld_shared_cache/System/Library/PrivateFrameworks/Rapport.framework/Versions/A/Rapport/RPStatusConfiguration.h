@@ -9,22 +9,16 @@
 @interface RPStatusConfiguration
 {
     NSString *_statusID;
-    double _leeway;
-    unsigned long long _flags;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (id);
 - (double);
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long)h;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) double leeway; // @synthesize leeway=_leeway;
 @property(readonly, copy, nonatomic) NSString *statusID; // @synthesize statusID=_statusID;
 
 @end

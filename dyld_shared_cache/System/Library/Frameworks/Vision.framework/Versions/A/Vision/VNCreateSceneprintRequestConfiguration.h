@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNCreateSceneprintRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _returnAllResults;
-    _Bool _useCenterTileOnly;
-    unsigned long long _imageCropAndScaleOption;
 }
 
 - (_Bool);
@@ -24,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)°t4;
 
 // Remaining properties
-@property(nonatomic) unsigned long long imageCropAndScaleOption; // @synthesize imageCropAndScaleOption=_imageCropAndScaleOption;
 @property(nonatomic) _Bool returnAllResults; // @synthesize returnAllResults=_returnAllResults;
-@property(nonatomic) _Bool useCenterTileOnly; // @synthesize useCenterTileOnly=_useCenterTileOnly;
 
 @end
 

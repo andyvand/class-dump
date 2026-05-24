@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, HMAccessory, HMAccessoryInfoDataProvider, HMRemoteLoginAnisetteDataProvider, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMRemoteLoginHandler
 {
     struct os_unfair_lock_s _lock;
-    _Bool _didReceiveAccountInfo;
-    ACAccount *_loggedInAccount;
-    NSString *_currentSessionID;
-    NSUUID *_uniqueIdentifier;
-    HMRemoteLoginAnisetteDataProvider *_anisetteDataProvider;
-    _HMContext *_context;
-    ACAccount *_stagedLoggedInAccount;
-    HMAccessoryInfoDataProvider *_accessoryInfoDataProvider;
-    NSUUID *_uuid;
-    HMAccessory *_accessory;
 }
 
 + (_Bool);
 + (id)0@"NSUUID"8;
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (void);
@@ -48,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,17 +46,22 @@
 - (void);
 - (id);
 - (id);
+- (void)_remoteAvailability;
+- (id)A;
+- (id);
+- (id);
+- (id).
+&
+0
+&
+@
+;
+- (id)M	6		;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id) ;
 - (id);
 - (void);
 - (void)
@@ -75,30 +69,7 @@
 - (id)ePairingForAccessoryWithUUID:setupCode:onboardingSetupPayloadString:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) HMAccessoryInfoDataProvider *accessoryInfoDataProvider; // @synthesize accessoryInfoDataProvider=_accessoryInfoDataProvider;
-@property(readonly, nonatomic) HMRemoteLoginAnisetteDataProvider *anisetteDataProvider; // @synthesize anisetteDataProvider=_anisetteDataProvider;
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, getter=isControllable) _Bool controllable;
-@property(retain) NSString *currentSessionID; // @synthesize currentSessionID=_currentSessionID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didReceiveAccountInfo; // @synthesize didReceiveAccountInfo=_didReceiveAccountInfo;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ACAccount *loggedInAccount; // @synthesize loggedInAccount=_loggedInAccount;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic, getter=isSessionInProgress) _Bool sessionInProgress;
-@property(retain) ACAccount *stagedLoggedInAccount; // @synthesize stagedLoggedInAccount=_stagedLoggedInAccount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

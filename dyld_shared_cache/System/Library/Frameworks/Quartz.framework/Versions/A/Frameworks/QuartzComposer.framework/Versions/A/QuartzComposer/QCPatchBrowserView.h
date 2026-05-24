@@ -11,14 +11,14 @@
     void *_unused2[4];
 }
 
-+ (_Bool);
-+ (void)Radius;
++ (_Bool)ystem/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/Versions/A/RemoteServiceDiscovery;
++ (void)topRadius;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (Class);
 
 @end

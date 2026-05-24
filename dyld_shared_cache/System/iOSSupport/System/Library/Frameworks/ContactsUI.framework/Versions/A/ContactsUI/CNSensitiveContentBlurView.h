@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNSensitiveContentAnalysisManager, UIButton, UILabel, UIVisualEffectView;
-@protocol CNSensitiveContentBlurViewDelegate;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNSensitiveContentBlurView
 {
     _Bool _canRevealContent;
-    id <CNSensitiveContentBlurViewDelegate> _delegate;
-    CNContact *_contact;
-    UIVisualEffectView *_vibrancyView;
-    UIVisualEffectView *_blurView;
-    UILabel *_descriptionLabel;
-    UIButton *_revealButton;
-    CNSensitiveContentAnalysisManager *_sensitiveContentAnalysisManager;
 }
 
 - (void);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -34,27 +26,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)_CFXNotificationRegistrationContainer;
 - (id);
-- (id);
-- (void)dActionsForContact:(id)arg1 relationshipResults: /* Error: Ran out of types for this method. */;
-- (void)aitCollectionChangeToken;
+- (void)updateGameCenterGroupAndActionsForContact:(id)arg1 relationshipResults: /* Error: Ran out of types for this method. */;
+- (void)_traitCollectionChangeToken;
 
 // Remaining properties
-@property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(nonatomic) _Bool canRevealContent; // @synthesize canRevealContent=_canRevealContent;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) __weak id <CNSensitiveContentBlurViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) UIButton *revealButton; // @synthesize revealButton=_revealButton;
-@property(retain, nonatomic) CNSensitiveContentAnalysisManager *sensitiveContentAnalysisManager; // @synthesize sensitiveContentAnalysisManager=_sensitiveContentAnalysisManager;
-@property(retain, nonatomic) UIVisualEffectView *vibrancyView; // @synthesize vibrancyView=_vibrancyView;
 
 @end
 

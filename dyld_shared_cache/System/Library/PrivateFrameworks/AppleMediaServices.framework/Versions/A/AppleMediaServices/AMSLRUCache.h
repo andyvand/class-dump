@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDoubleLinkedList, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AMSLRUCache
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _maxSize;
-    NSMutableDictionary *_backingDictionary;
-    AMSDoubleLinkedList *_backingList;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)apple.imagent;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)<:(id)arg1;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)$;
 - (unsigned long long)error %{public}@;
 - (void)iate PKPaymentMerchantSession object;
 - (id)[%@] Blinded signature of unexpected data type;
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *backingDictionary; // @synthesize backingDictionary=_backingDictionary;
-@property(readonly, nonatomic) AMSDoubleLinkedList *backingList; // @synthesize backingList=_backingList;
-@property(readonly) unsigned long long count;
-@property(readonly) unsigned long long maxSize; // @synthesize maxSize=_maxSize;
 
 @end
 

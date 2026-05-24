@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     MKAnnotationView *_annotationView;
 }
 
-- (void);
-- (double);
-- (struct CGPoint);
+- (void)quickEnergyDiff=%f since this timestamp.;
+- (double)@?0;
+- (struct CGPoint)PLClientPermissionToken;
 - (id);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_2c43369c)initWithMachService:withServiceInterface:withServiceObject:withDelegateInterface:queue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) MKAnnotationView *annotationView; // @synthesize annotationView=_annotationView;

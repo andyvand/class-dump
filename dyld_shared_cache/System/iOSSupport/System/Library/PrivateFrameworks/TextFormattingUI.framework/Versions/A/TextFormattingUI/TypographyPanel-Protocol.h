@@ -7,8 +7,12 @@
 @protocol TypographyPanelDelegate;
 
 @protocol TypographyPanel
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <TypographyPanelDelegate> delegate;
+// Error: Property attributes should begin with the type ('T') attribute, property name: v24@0:8@"<TypographyPanelDelegate>"16
+// Property attributes: @"<TypographyPanelDelegate>"16@0:8
+
 @end
 

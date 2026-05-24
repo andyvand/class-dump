@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ITUCountryCodeForISOCountryCode:(id)arg1;
 + (id);
 
 @end

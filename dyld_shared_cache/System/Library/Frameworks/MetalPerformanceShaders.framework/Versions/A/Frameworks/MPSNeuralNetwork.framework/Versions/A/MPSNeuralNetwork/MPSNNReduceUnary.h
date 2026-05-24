@@ -9,11 +9,9 @@
 @interface MPSNNReduceUnary : MPSCNNKernel
 {
     CDStruct_1e3be3a8 _clipRectSource;
-    int _reduceOp;
-    float _weightValue;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (CDStruct_1e3be3a8);
 - (void);
 - (id);
@@ -22,11 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (id)ype;
+- (id)kMPSCNNConvolutionGradientWeightsDataType;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1e3be3a8 clipRectSource; // @synthesize clipRectSource=_clipRectSource;
-@property(nonatomic) CDStruct_d6af7fc0 offset;
 
 @end
 

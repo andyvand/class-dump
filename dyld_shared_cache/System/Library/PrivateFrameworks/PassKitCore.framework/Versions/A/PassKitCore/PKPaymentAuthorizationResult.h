@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaymentOrderDetails, PKPeerPaymentTransactionMetadata;
+@class PKPeerPaymentTransactionMetadata;
 
 @interface PKPaymentAuthorizationResult
 {
     long long _status;
-    NSArray *_errors;
-    PKPaymentOrderDetails *_orderDetails;
-    PKPeerPaymentTransactionMetadata *_peerPaymentTransactionMetadata;
-    NSString *_localizedErrorMessageOverride;
-    long long _resultSource;
 }
 
 + (id);
 + (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (long long);
 - (id);
 - (id);
@@ -29,20 +24,15 @@
 - (id);
 - (void);
 - (id);
+- (id)f;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)WRMRecommendationReason;
 - (long long);
-- (void)5;
+- (void)12345678912345678912345678912345;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(copy, nonatomic) NSString *localizedErrorMessageOverride; // @synthesize localizedErrorMessageOverride=_localizedErrorMessageOverride;
-@property(retain, nonatomic) PKPaymentOrderDetails *orderDetails; // @synthesize orderDetails=_orderDetails;
 @property(retain, nonatomic) PKPeerPaymentTransactionMetadata *peerPaymentTransactionMetadata; // @synthesize peerPaymentTransactionMetadata=_peerPaymentTransactionMetadata;
-@property(nonatomic) long long resultSource; // @synthesize resultSource=_resultSource;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

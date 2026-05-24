@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRListSectionEditor
 {
     id changeItem;
-    id undoContext;
-    id unitTest_oneShotSyncSaveForUndo;
 }
 
 @end

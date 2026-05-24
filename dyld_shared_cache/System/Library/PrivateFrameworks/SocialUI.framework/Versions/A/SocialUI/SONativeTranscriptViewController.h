@@ -6,18 +6,11 @@
 
 #import <SocialUI/SOTranscriptViewController.h>
 
-@class IMChatTranscriptLayoutEngine, IMChatTranscriptLayoutSpecification, NSCollectionView, NSString;
-@protocol IMChatTranscriptItemVending, SONativeTranscriptViewControllerDelegate;
+@protocol IMChatTranscriptItemVending;
 
 @interface SONativeTranscriptViewController : SOTranscriptViewController
 {
     _Bool _geometryDirty;
-    struct NSEdgeInsets _scrollViewInsets;
-    id <SONativeTranscriptViewControllerDelegate> _delegate;
-    id <IMChatTranscriptItemVending> _chatTranscriptItemProvider;
-    NSCollectionView *_collectionView;
-    IMChatTranscriptLayoutEngine *_layoutEngine;
-    IMChatTranscriptLayoutSpecification *_layoutSpecification;
 }
 
 + (void);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (void);
@@ -40,7 +33,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -53,9 +46,9 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)copiesHomeDirectories;
+- (void)shortExcerpt;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -68,20 +61,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <IMChatTranscriptItemVending> chatTranscriptItemProvider; // @synthesize chatTranscriptItemProvider=_chatTranscriptItemProvider;
-@property __weak NSCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SONativeTranscriptViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMChatTranscriptLayoutEngine *layoutEngine; // @synthesize layoutEngine=_layoutEngine;
-@property(retain, nonatomic) IMChatTranscriptLayoutSpecification *layoutSpecification; // @synthesize layoutSpecification=_layoutSpecification;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, setter=test_setChatTranscriptItemProvider:) id <IMChatTranscriptItemVending> test_chatTranscriptItemProvider;
-@property(readonly, nonatomic) NSCollectionView *test_collectionView;
-@property(readonly, nonatomic) IMChatTranscriptLayoutSpecification *test_layoutSpecification;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface SwiftTLSLibrary.PAKELimiter
 {
     id PAKECredentials;
+    id;
 }
 
 @end

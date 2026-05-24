@@ -9,11 +9,6 @@
 @interface SUMacControllerProgress
 {
     _Bool _isStalled;
-    float _portionComplete;
-    NSString *_phase;
-    long long _totalWrittenBytes;
-    long long _totalExpectedBytes;
-    double _estimatedTimeRemaining;
 }
 
 + (int);
@@ -47,12 +42,7 @@
 - (_Bool)se value for ForceEmptyPatches; resetting release type to '%{public}@' and not allowing same build version;
 
 // Remaining properties
-@property(readonly, nonatomic) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(readonly, nonatomic) _Bool isStalled; // @synthesize isStalled=_isStalled;
 @property(readonly, nonatomic) NSString *phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) float portionComplete; // @synthesize portionComplete=_portionComplete;
-@property(readonly, nonatomic) long long totalExpectedBytes; // @synthesize totalExpectedBytes=_totalExpectedBytes;
-@property(readonly, nonatomic) long long totalWrittenBytes; // @synthesize totalWrittenBytes=_totalWrittenBytes;
 
 @end
 

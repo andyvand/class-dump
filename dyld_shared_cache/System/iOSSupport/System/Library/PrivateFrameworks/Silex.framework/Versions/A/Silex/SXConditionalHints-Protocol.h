@@ -8,11 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long autoplacement;
-@property(readonly, nonatomic) long long componentLayouts;
-@property(readonly, nonatomic) long long componentStyles;
-@property(readonly, nonatomic) long long componentTextStyles;
-@property(readonly, nonatomic) long long components;
-@property(readonly, nonatomic) long long documentStyle;
-@property(readonly, nonatomic) long long textStyles;
 @end
 

@@ -7,12 +7,6 @@
 @interface PhotosUICore.LemonadeSegmentedControlModel
 {
     id _opacity;
-    id _isHidden;
-    id _isInBackground;
-    id _isMoviesDisabled;
-    id _selectedIndex;
-    id _requestedIndex;
-    id _$observationRegistrar;
 }
 
 @end

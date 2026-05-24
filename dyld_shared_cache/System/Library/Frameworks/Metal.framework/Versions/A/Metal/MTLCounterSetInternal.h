@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MTLCounterSetInternal
 {
     NSString *_name;
-    NSString *_description;
-    NSArray *_counters;
 }
 
-- (id);
+- (id)*
+;
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)3;
 
 // Remaining properties
-@property(readonly, copy) NSArray *counters; // @synthesize counters=_counters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

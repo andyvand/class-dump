@@ -11,7 +11,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)nslate;
 - (void)FastMalloc, shouldValidateKey = WTF:(double)arg1:ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @end

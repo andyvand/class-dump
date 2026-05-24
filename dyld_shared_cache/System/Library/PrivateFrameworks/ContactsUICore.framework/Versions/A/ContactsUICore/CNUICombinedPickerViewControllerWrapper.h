@@ -13,9 +13,9 @@
 
 - (id);
 - (id);
-- (id);
+- (id)_observer;
 - (void);
-- (void)eHandle;
+- (void)stateHandle;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNUICombinedPickerViewControllerWrapperDelegate> delegate; // @synthesize delegate=_delegate;

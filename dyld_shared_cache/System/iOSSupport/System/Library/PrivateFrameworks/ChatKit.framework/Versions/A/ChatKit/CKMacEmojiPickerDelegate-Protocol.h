@@ -5,5 +5,9 @@
 //
 
 @protocol CKMacEmojiPickerDelegate
+- (void)ICLongRunningTaskController;
+- (void)ICBackgroundTask;
+- (void)NoteAttachmentPresentationOccurence;
+- (void)NotesCIDDataProvider;
 @end
 

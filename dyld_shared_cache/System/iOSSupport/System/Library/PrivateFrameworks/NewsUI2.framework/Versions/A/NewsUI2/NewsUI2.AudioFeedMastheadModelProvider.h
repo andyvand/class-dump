@@ -7,10 +7,6 @@
 @interface NewsUI2.AudioFeedMastheadModelProvider
 {
     id bundleSubscriptionManager;
-    id featureAvailability;
-    id offlineProvider;
-    id offlineArticleManager;
-    id dataManager;
 }
 
 @end

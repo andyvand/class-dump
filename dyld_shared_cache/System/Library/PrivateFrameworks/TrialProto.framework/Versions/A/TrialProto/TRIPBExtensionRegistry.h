@@ -11,7 +11,7 @@
     NSMutableDictionary *mutableClassMap_;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);

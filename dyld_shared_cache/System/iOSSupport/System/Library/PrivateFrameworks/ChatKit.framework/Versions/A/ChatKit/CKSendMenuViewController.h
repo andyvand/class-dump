@@ -4,72 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CKSendMenuViewControllerDelegate;
 
 @interface CKSendMenuViewController
 {
     id contentProvider;
-    id presentationContext;
-    id hasPerformedInitialContentAppearance;
-    id activeDismissAnimationIdentifier;
-    void sendMenuViewControllerDelegate;
-    id sendMenuListItems;
-    id sendMenuCellReuseIdentifier;
-    id $__lazy_storage_$_sendMenuCollectionView;
-    id $__lazy_storage_$_collectionViewLayout;
-    id collectionViewDismissingLayout;
-    id $__lazy_storage_$_sendMenuDataSource;
-    id $__lazy_storage_$_backdropView;
-    id $__lazy_storage_$_sendMenuParentView;
-    id plusButtonPortalView;
-    id reorderGestureDragPointOffsetFromCellCenter;
-    _Bool isPresentingAudioRecordingQuickSend;
-    id collapsedMenuOrigin;
-    id collectionViewTopConstraint;
-    id collectionViewBottomConstraint;
-    id $__lazy_storage_$_plusButtonIdealPositionAvoidanceHeight;
-    id plusButtonPortalViewShouldUserIdealFrame;
-    id plusButtonPortalViewShouldUsePlusLFilter;
-    id sendMenuAutoScrollInsets;
-    id isAppearanceAnimationActive;
-    id isInitialAppearanceAnimationActive;
-    id indexPathsToCollapseIntoPlusButton;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)supportsMultipleThumbnailsOnSameLine;
+- (void)ic_hashtagAllowedCharacterSet;
+- (void)displayUnsupportedAttachmentPreview;
+- (id)accentColorDidChange;
+- (void)itorView",W,N,V_noteHTMLEditorView;
+- (void)_converterQueue;
+- (void)dObjectContext",R,N,V_workerManagedObjectContext;
+- (_Bool)$Q;
+- (void)o;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ForResult:(id)arg1;
+- (void)_configureAvatarForResult:(id)arg1;
 - (void)Reason;
-- (_Bool)tKit38TapbackPickerSuggestionsScrolledLayout;
+- (_Bool)_TtC7ChatKit38TapbackPickerSuggestionsScrolledLayout;
 - (void)to determine legacy screen sharing status.;
 - (_Bool)%@;
 - (_Bool)r %@, allowing retry;
 - (void)ü,¤;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic) _Bool isPresentingAudioRecordingQuickSend; // @synthesize isPresentingAudioRecordingQuickSend;
-@property(nonatomic, readonly) _Bool prefersStatusBarHidden;
 @property(nonatomic) __weak id <CKSendMenuViewControllerDelegate> sendMenuViewControllerDelegate; // @synthesize sendMenuViewControllerDelegate;
 
 @end

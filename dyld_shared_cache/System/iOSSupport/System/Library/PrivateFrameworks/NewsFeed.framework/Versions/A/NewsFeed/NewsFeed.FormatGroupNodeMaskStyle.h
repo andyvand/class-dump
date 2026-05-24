@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatGroupNodeMaskStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id path;
-    id borders;
-    id shadow;
 }
 
 @end

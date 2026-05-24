@@ -16,17 +16,16 @@
 + (double);
 - (struct UIEdgeInsets);
 - (BOOL);
-- (void);
-- (id);
-- (struct CGSize);
-- (long long);
-- (_Bool);
+- (void)setSelectedSizeAction:(id)arg1;
+- (id)ic_componentsForSearchHighlighting;
+- (struct CGSize)_internetReachable;
+- (long long)ICLockedNotesWelcomeViewController;
+- (_Bool)RPS;
 - (struct UIEdgeInsets);
 - (Class);
-- (void)aultsKey;
+- (void)kPluginSummaryTextDefaultsKey;
 
 // Remaining properties
-@property(readonly, nonatomic) long long groupRowIndex;
 @property(retain, nonatomic) ChatKit.QuickReplyContent *quickReplyContent; // @synthesize quickReplyContent=_quickReplyContent;
 
 @end

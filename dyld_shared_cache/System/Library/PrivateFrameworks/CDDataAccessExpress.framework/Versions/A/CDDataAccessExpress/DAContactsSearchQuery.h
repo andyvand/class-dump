@@ -11,30 +11,24 @@
 @interface DAContactsSearchQuery : DASearchQuery
 {
     _Bool _includePhotos;
-    _Bool _calendarInitiated;
-    NSString *_searchBase;
-    NSString *_searchScope;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)F;
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)1;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool calendarInitiated; // @synthesize calendarInitiated=_calendarInitiated;
-@property(nonatomic) _Bool includePhotos; // @synthesize includePhotos=_includePhotos;
 @property(copy, nonatomic) NSString *searchBase; // @synthesize searchBase=_searchBase;
-@property(copy, nonatomic) NSString *searchScope; // @synthesize searchScope=_searchScope;
 
 @end
 

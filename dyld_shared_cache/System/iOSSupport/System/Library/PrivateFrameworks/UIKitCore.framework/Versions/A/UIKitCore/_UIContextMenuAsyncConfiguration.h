@@ -14,8 +14,8 @@
 }
 
 + (id);
-- (_Bool);
-- (void);
+- (_Bool),N;
+- (void)a guid, returning nil.;
 - (id);
 - (void)|Ê´y];
 

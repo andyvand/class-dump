@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)HitSize;
-- (_Bool)DirectionalChange;
-- (id)ion;
+- (id)setGradientColorEndPosition: /* Error: Ran out of types for this method. */;
+- (void)minimumThumbHitSize;
+- (_Bool)_timeForLastDirectionalChange;
+- (id)_UIBackgroundViewConfiguration;
 - (void)È8ÓäÙl;
 
 // Remaining properties

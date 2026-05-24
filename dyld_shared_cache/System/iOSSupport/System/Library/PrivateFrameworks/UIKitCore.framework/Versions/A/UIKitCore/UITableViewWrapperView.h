@@ -14,23 +14,23 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_stuckToBackViews;
 }
 
-- (void);
-- (id);
+- (void);
+- (id),C,N,V_payloadMonitors;
 - (unsigned long long);
-- (void);
+- (void)setItem:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
-- (void)Underline;
+- (void)removeTextChoicePromptWithUnderline;
 - (void)text:(id)arg1;
-- (void)re;
-- (void)ed:(struct CGRect)arg1 fillColor:symbolColor: /* Error: Ran out of types for this method. */;
+- (void)_isSecure;
+- (void)_initWithFilledSystemImageNamed:(struct CGRect)arg1 fillColor:symbolColor: /* Error: Ran out of types for this method. */;
 - (id)hanted;
 - (void)_setPrefersSideBySideButtonAndSecondaryButton:(id)arg1 ,V_prefersSideBySideButtonAndSecondaryButton;
 - (void)ðø	d;
 - (_Bool)Lä;
 - (void)section and row. Please use the category on NSIndexPath in NSIndexPath+UIKitAdditions.h if possible.;
-- (void)per;
+- (void)ImplWrapper;
 - (void)|[;
 - (void)¨³Dÿ±&;
 

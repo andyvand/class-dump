@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BlastDoorLPPlatformColor;
+@class NSString;
 
 @interface _BlastDoorLPImageProperties
 {
     NSString *_accessibilityText;
-    long long _type;
-    _BlastDoorLPPlatformColor *_overlaidTextColor;
-    _BlastDoorLPPlatformColor *_dominantColor;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)rameworks/MessagesKit.framework/Versions/A/MessagesKit;
 - (_Bool);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(retain, nonatomic) _BlastDoorLPPlatformColor *dominantColor; // @synthesize dominantColor=_dominantColor;
-@property(retain, nonatomic) _BlastDoorLPPlatformColor *overlaidTextColor; // @synthesize overlaidTextColor=_overlaidTextColor;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

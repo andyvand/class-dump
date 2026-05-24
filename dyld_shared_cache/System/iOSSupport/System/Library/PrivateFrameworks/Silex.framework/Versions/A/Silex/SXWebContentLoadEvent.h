@@ -6,15 +6,14 @@
 
 #import <Silex/SXAnalyticsEvent.h>
 
-@class NSError, NSURL;
+@class NSURL;
 
 @interface SXWebContentLoadEvent : SXAnalyticsEvent
 {
     NSURL *_URL;
-    NSError *_error;
 }
 
-- (id);
+- (id)m	;
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

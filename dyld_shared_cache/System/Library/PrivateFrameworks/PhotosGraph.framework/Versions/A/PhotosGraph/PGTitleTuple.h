@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGTitle;
+@class PGTitle;
 
 @interface PGTitleTuple
 {
     PGTitle *_title;
-    PGTitle *_subtitle;
-    NSArray *_locationNames;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (id)rtDate:universalEndDate: /* Error: Ran out of types for this method. */;
-- (void)lgorithmsVersion;
+- (void)meaningAlgorithmsVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *locationNames; // @synthesize locationNames=_locationNames;
-@property(readonly, nonatomic) PGTitle *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) PGTitle *title; // @synthesize title=_title;
 
 @end

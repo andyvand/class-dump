@@ -10,13 +10,13 @@
 {
 }
 
-+ (void);
++ (void)resetNoticeboardCatalogCheckTimestamp;
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)r.%@;
+- (void)emanager.log;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);

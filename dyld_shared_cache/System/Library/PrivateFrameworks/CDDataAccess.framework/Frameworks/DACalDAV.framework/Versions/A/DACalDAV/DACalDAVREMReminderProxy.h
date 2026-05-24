@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMObjectID;
+@class REMObjectID;
 
 @interface DACalDAVREMReminderProxy
 {
     REMObjectID *objectID;
-    NSString *daCalendarItemUniqueIdentifier;
-    NSString *externalModificationTag;
 }
 
 - (void);
@@ -23,19 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *daCalendarItemUniqueIdentifier; // @synthesize daCalendarItemUniqueIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *externalModificationTag; // @synthesize externalModificationTag;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) REMObjectID *objectID; // @synthesize objectID;
-@property(readonly) Class superclass;
 
 @end
 

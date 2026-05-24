@@ -7,15 +7,6 @@
 @interface NSLayoutConstraint
 {
     id _container;
-    id _firstAnchor;
-    id _secondAnchor;
-    double _constant;
-    double _loweredConstant;
-    id _markerAndPositiveExtraVar;
-    id _negativeExtraVar;
-    unsigned long long _layoutConstraintFlags;
-    float _coefficient;
-    float _priority;
 }
 
 @end

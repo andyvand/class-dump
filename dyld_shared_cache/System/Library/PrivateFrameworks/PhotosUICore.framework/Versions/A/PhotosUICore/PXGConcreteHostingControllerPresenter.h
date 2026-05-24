@@ -9,14 +9,10 @@
 @interface PXGConcreteHostingControllerPresenter
 {
     _Bool _isPerformingChanges;
-    _Bool _didChange;
-    double _displayScale;
-    PXGHostingController *_hostingController;
-    struct CGSize _size;
 }
 
 - (void);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (id);
@@ -26,13 +22,11 @@
 - (_Bool);
 - (double)0@ù
 × ;
-- (id);
+- (id)nameComponents;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double displayScale;
 @property(nonatomic) __weak PXGHostingController *hostingController; // @synthesize hostingController=_hostingController;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

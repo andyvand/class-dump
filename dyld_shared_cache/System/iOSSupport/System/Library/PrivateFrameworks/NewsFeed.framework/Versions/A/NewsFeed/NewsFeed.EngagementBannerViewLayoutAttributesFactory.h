@@ -7,7 +7,6 @@
 @interface NewsFeed.EngagementBannerViewLayoutAttributesFactory
 {
     id styler;
-    id layoutStore;
 }
 
 @end

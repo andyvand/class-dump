@@ -7,16 +7,6 @@
 @interface NewsFeed.PuzzleStatsService
 {
     id $defaultActor;
-    id puzzleHistoryService;
-    id configurationManager;
-    id puzzleService;
-    id puzzleStatsProcessor;
-    id puzzleGameCenterService;
-    id store;
-    id userInfo;
-    id updatingStatsState;
-    id discardAccumulatedStats;
-    id $__lazy_storage_$_contentEnvironment;
 }
 
 - (void);

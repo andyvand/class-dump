@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDHomeSettingsBaseModel.h>
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeMediaSettingsModel : HMDHomeSettingsBaseModel
 {
@@ -22,16 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *mediaPassword; // @dynamic mediaPassword;
-@property(copy, nonatomic) NSNumber *mediaPeerToPeerEnabled; // @dynamic mediaPeerToPeerEnabled;
-@property(copy, nonatomic) NSNumber *minimumMediaUserPrivilege; // @dynamic minimumMediaUserPrivilege;
-@property(readonly) Class superclass;
 
 @end
 

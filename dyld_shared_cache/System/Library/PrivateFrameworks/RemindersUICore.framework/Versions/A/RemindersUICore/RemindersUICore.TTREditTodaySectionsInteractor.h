@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTREditTodaySectionsInteractor
 {
     id delegate;
-    id store;
-    id undoManager;
-    id undoObservationToken;
-    id lastFetchResult;
-    id dataViewMonitor;
 }
 
 @end

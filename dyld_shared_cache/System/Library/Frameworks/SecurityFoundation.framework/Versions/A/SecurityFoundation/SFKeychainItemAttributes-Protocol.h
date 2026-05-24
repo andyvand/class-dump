@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol SFKeychainItemAttributes
+- (void);
+- (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedDescription;
 @property(copy, nonatomic) NSString *localizedLabel;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier;
 @end
 

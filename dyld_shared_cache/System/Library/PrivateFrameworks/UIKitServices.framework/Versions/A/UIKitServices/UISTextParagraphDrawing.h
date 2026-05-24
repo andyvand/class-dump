@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISTextParagraphDrawing
 {
     struct __CFAttributedString *_textString;
-    struct __CTFrame *_frame;
-    struct CGSize _frameSize;
-    double _drawingHeight;
-    double _scale;
-    unsigned char _lineCount;
 }
 
 - (id);
@@ -24,19 +17,7 @@
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGSize drawingSize;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned char lineCount; // @synthesize lineCount=_lineCount;
-@property(readonly) Class superclass;
 
 @end
 

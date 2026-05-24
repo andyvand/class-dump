@@ -6,7 +6,7 @@
 
 #import <ContentKit/WFContentLocation.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface WFUnsupportedContentLocation : WFContentLocation
 {
@@ -19,13 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *backingSerializedRepresentation; // @synthesize backingSerializedRepresentation=_backingSerializedRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

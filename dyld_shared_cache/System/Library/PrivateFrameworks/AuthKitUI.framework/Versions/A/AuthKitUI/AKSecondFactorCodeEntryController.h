@@ -4,58 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKNoCodeReceivedController, AKPinFieldView, AKTouchBarController, NSButton, NSImage, NSImageCell, NSLayoutConstraint, NSNumber, NSObject, NSProgressIndicator, NSString, NSTextField, NSTouchBar, NSView;
-@protocol AKSecondFactorCodeEntryDelegate;
+@class AKTouchBarController;
 
 @interface AKSecondFactorCodeEntryController
 {
     _Bool _isCodeEditable;
-    NSView *_mainView;
-    NSObject<AKSecondFactorCodeEntryDelegate> *_delegate;
-    NSView *_pinContainerView;
-    NSTextField *_titleLabel;
-    NSTextField *_instructionLabel;
-    NSTextField *_errorLabel;
-    NSImageCell *_imageView;
-    NSProgressIndicator *_progressIndicator;
-    NSButton *_noCodeButton;
-    NSButton *_cancelButton;
-    NSButton *_doneButton;
-    NSLayoutConstraint *_widthOfPinViewConstraint;
-    NSLayoutConstraint *_dontShowErrorConstraint;
-    NSLayoutConstraint *_showErrorConstraint;
-    CDUnknownBlockType _noCodeButtonAction;
-    CDUnknownBlockType _cancelButtonAction;
-    CDUnknownBlockType _doneButtonAction;
-    NSImage *_displayImage;
-    AKTouchBarController *_touchBarController;
-    AKPinFieldView *_pinView;
-    NSString *_code;
-    NSNumber *_pinCodeLength;
-    NSString *_message;
-    AKNoCodeReceivedController *_noCodeRecievedController;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)';
+- (id)X;
+- (void);
+- (void)G;
+- (void);
+- (void);
+- (void);
+- (void)SPPreferenceStaticApplications;
+- (void)SPPreferenceFileDomain;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)X$7;
 - (void);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -84,59 +59,26 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)sions/A/MobileKeyBag;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ent:(id)arg1 withParentURL: /* Error: Ran out of types for this method. */;
+- (id)h;
+- (void)tor;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)loadHTMLContent:(id)arg1 withParentURL: /* Error: Ran out of types for this method. */;
 - (id)rTag;
-- (id)ew;
+- (id)VPPresenterView;
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType cancelButtonAction; // @synthesize cancelButtonAction=_cancelButtonAction;
-@property(retain, nonatomic) NSString *code; // @synthesize code=_code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSObject<AKSecondFactorCodeEntryDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic, setter=setDisplayImage:) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(retain, nonatomic) NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(copy, nonatomic) CDUnknownBlockType doneButtonAction; // @synthesize doneButtonAction=_doneButtonAction;
-@property(retain, nonatomic) NSLayoutConstraint *dontShowErrorConstraint; // @synthesize dontShowErrorConstraint=_dontShowErrorConstraint;
-@property(readonly, nonatomic) NSNumber *enteredPin;
-@property(retain, nonatomic) NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImageCell *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSTextField *instructionLabel; // @synthesize instructionLabel=_instructionLabel;
-@property(nonatomic, setter=setCodeEditable:) _Bool isCodeEditable; // @synthesize isCodeEditable=_isCodeEditable;
-@property(readonly, nonatomic) NSView *mainView; // @synthesize mainView=_mainView;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSButton *noCodeButton; // @synthesize noCodeButton=_noCodeButton;
-@property(copy, nonatomic) CDUnknownBlockType noCodeButtonAction; // @synthesize noCodeButtonAction=_noCodeButtonAction;
-@property(retain, nonatomic) AKNoCodeReceivedController *noCodeRecievedController; // @synthesize noCodeRecievedController=_noCodeRecievedController;
-@property(retain, nonatomic) NSNumber *pinCodeLength; // @synthesize pinCodeLength=_pinCodeLength;
-@property(retain, nonatomic) NSView *pinContainerView; // @synthesize pinContainerView=_pinContainerView;
-@property(retain, nonatomic) AKPinFieldView *pinView; // @synthesize pinView=_pinView;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(retain, nonatomic) NSLayoutConstraint *showErrorConstraint; // @synthesize showErrorConstraint=_showErrorConstraint;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(readonly) NSTouchBar *touchBar;
 @property(retain, nonatomic) AKTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
-@property(retain, nonatomic) NSLayoutConstraint *widthOfPinViewConstraint; // @synthesize widthOfPinViewConstraint=_widthOfPinViewConstraint;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CRKFTSEnumeration
 {
     NSString *mDirectoryPath;
-    int mOptions;
 }
 
 + (int);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)PLUserActiveStateLastUserInactiveTimestamp;
 - (id);
 - (void);
 

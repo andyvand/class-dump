@@ -9,9 +9,6 @@
 @interface TUDebugWindow
 {
     id debugDelegate;
-    id isAllowed;
-    id isPresenting;
-    id _observableRootViewController;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)token;
 - (void);
 - (id);
 - (void)¤ùÿlùÿ¨ùÿäùÿ ùÿ\ùÿÄùÿìùÿhùÿôùÿ`ùÿtùÿ¸ùÿÜùÿ ùÿ,ùÿPùÿTùÿ`ùÿlùÿùÿ,ùÿùÿ¼ùÿøùÿd"ùÿp"ùÿ¼"ùÿ$ùÿ<$ùÿx$ùÿ$ùÿØ$ùÿä$ùÿ%ùÿ)ùÿ$+ùÿÄ+ùÿè+ùÿÜ,ùÿô,ùÿ;

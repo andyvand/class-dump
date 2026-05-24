@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStream, HMDDataStreamSetupOperation, HMDHAPAccessory, HMDService, HMFTimer, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamController
 {
     _Bool _supportsDataStreamOverTCP;
-    _Bool _supportsDataStreamOverHAP;
-    HMDService *_transferManagementService;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    HMDDataStream *_defaultDataStream;
-    NSMutableArray *_pendingSocketRequests;
-    HMDDataStreamSetupOperation *_setupInProgress;
-    CDUnknownBlockType _dataStreamFactory;
-    NSString *_logIdentifier;
-    unsigned long long _maxControllerTransportMTU;
-    HMFTimer *_idleTimer;
 }
 
 + (id)´B;
+- (id)kDataSource>"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)showParkedCarReplacementBulletinForEvent:replacingEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)showParkedCarBulletinForEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)ifRidesharingInformationSource;
+- (void)editContentsUsingBarrierBlock:(id)arg1 context:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)clearDiscardableDataFromAllContainers;
+- (void)clearCurrentAnnouncement;
+- (void)_virtualSenderStrategiesByServiceName;
+- (void)Ti,N,V_artworkSourceType;
+- (void)tableDictionary",&,N,V_participantsByCapabilities;
+- (void);
+- (void)turning cached service name %{public}@;
+- (void)MSPDefaultMinimumNotificationIntervalKey;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)4h;
 - (id);
 - (id);
 - (void);
@@ -61,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -70,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,24 +81,6 @@ __attribute__((visibility("hidden")))
 - (void)e.HomeKit.daemon.coreDataStoreActivity.distribution;
 
 // Remaining properties
-@property(nonatomic) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) CDUnknownBlockType dataStreamFactory; // @synthesize dataStreamFactory=_dataStreamFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) HMDDataStream *defaultDataStream; // @synthesize defaultDataStream=_defaultDataStream;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMFTimer *idleTimer; // @synthesize idleTimer=_idleTimer;
-@property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(nonatomic) unsigned long long maxControllerTransportMTU; // @synthesize maxControllerTransportMTU=_maxControllerTransportMTU;
-@property(retain, nonatomic) NSMutableArray *pendingSocketRequests; // @synthesize pendingSocketRequests=_pendingSocketRequests;
-@property(retain, nonatomic) HMDDataStreamSetupOperation *setupInProgress; // @synthesize setupInProgress=_setupInProgress;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsDataStreamOverHAP; // @synthesize supportsDataStreamOverHAP=_supportsDataStreamOverHAP;
-@property(nonatomic) _Bool supportsDataStreamOverTCP; // @synthesize supportsDataStreamOverTCP=_supportsDataStreamOverTCP;
-@property(nonatomic) __weak HMDService *transferManagementService; // @synthesize transferManagementService=_transferManagementService;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -6,46 +6,29 @@
 
 #import <HomeKitDaemon/_MKFBulletinRegistration.h>
 
-@class MKFMatterBulletinRegistrationDatabaseID, NSArray, NSDate, NSSet, NSString, NSUUID;
-@protocol MKFGuest, MKFHome, MKFUser;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _MKFMatterBulletinRegistration : _MKFBulletinRegistration
 {
 }
 
-+ (id);
++ (id)C
+;
 + (id);
 + (id);
 - (void);
 - (id);
 - (id);
+- (id)ointInfo",R,N;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id)ñð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *conditions;
-@property(readonly, copy, nonatomic) MKFMatterBulletinRegistrationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSUUID *deviceIdsIdentifier;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) NSArray *matterPaths;
 @property(retain, nonatomic) NSSet *matterPaths_; // @dynamic matterPaths_;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TUEmergencyCoreTelephonyClient
+- (_Bool);
 @end
 

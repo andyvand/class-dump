@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBCurrencyAmountValue, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBPaymentAmountValue;
+@class _INPBFinancialAccountValue;
 
 @protocol _INPBTransferMoneyIntentResponse
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasToAccount;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(readonly, nonatomic) _Bool hasTransferFee;
-@property(retain, nonatomic) _INPBFinancialAccountValue *toAccount;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount;
-@property(copy, nonatomic) NSString *transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *transferFee;
 @end
 

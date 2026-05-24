@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolDOMAudioMediaStats, RWIProtocolDOMVideoMediaStats, RWIProtocolDOMVideoPlaybackQuality, RWIProtocolDOMViewportSize;
+@class RWIProtocolDOMAudioMediaStats;
 
 @interface RWIProtocolDOMMediaStats : RWIProtocolJSONObject
 {
@@ -27,11 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RWIProtocolDOMAudioMediaStats *audio;
-@property(nonatomic) double devicePixelRatio;
-@property(retain, nonatomic) RWIProtocolDOMVideoPlaybackQuality *quality;
-@property(copy, nonatomic) NSString *source;
-@property(retain, nonatomic) RWIProtocolDOMVideoMediaStats *video;
-@property(retain, nonatomic) RWIProtocolDOMViewportSize *viewport;
 
 @end
 

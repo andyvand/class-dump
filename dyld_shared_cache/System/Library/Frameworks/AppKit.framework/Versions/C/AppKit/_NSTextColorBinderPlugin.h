@@ -6,8 +6,6 @@
 
 #import <AppKit/_NSBinderPlugin.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSTextColorBinderPlugin : _NSBinderPlugin
 {
@@ -17,18 +15,12 @@ __attribute__((visibility("hidden")))
     } _textColorBinderPluginFlags;
 }
 
-+ (_Bool);
++ (_Bool)suming, timeouts(%.1f, %.1f) qos(0x%x) voucher(%@) activity(%{public,uuid_t}.16P);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

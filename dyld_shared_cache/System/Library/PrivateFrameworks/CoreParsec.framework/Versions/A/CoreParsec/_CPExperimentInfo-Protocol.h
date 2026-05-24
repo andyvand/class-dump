@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPExperimentInfo
+- (void)ccessTraits<uint64_t>, unsigned long long>, WTF:(NSString *)arg1:WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *)@;
+- (void);
+- (NSString *)yk;
+- (void)isibility;
 
 // Remaining properties
-@property(nonatomic) int deploymentId;
-@property(copy, nonatomic) NSString *experimentId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *namespaceId;
-@property(copy, nonatomic) NSString *treatmentId;
-@property(nonatomic) int version;
 @end
 

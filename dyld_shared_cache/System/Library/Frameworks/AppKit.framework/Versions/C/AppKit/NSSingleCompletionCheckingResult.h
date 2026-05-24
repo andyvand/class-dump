@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface NSSingleCompletionCheckingResult
 {
     _Bool _isPromoted;
-    _Bool _forceDisplay;
-    NSIndexSet *_completeWordIndexes;
 }
 
 + (_Bool)¼	Ø;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)attributes - domain <%{private}s>, owner <%{private}s>, tracker domain <%{private}s>;
+- (id)not set SO_MARK_KNOWN_TRACKER. Received error:(struct _NSRange)arg1 %s (%lu);
+- (id)racker;
+- (id)et - invalid socket or no domain provided;
 - (_Bool);
 - (id);
 - (id);
@@ -30,12 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (unsigned long long)apBytesDelta;
+- (unsigned long long)heapBytesDelta;
 
 // Remaining properties
-@property(readonly, copy) NSIndexSet *completeWordIndexes; // @synthesize completeWordIndexes=_completeWordIndexes;
-@property(readonly) _Bool forceDisplay; // @synthesize forceDisplay=_forceDisplay;
-@property(readonly) _Bool isPromoted; // @synthesize isPromoted=_isPromoted;
 @property(readonly) unsigned long long stopCompletingIndex;
 
 @end

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface SISchemaLogicalTimestamp : SISchemaInstrumentationMessage
 {
     long long _timestampInNanoseconds;
-    SISchemaUUID *_clockIdentifier;
-    struct {
-        unsigned int timestampInNanoseconds:1;
-    } _has;
-    _Bool _hasClockIdentifier;
 }
 
 - (long long);
@@ -31,20 +24,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ntComplete;
+- (_Bool)8;
+- (_Bool)KEY AUTOINCREMENT, guid TEXT UNIQUE NOT NULL, style INTEGER, state INTEGER, account_id TEXT, properties BLOB, chat_identifier TEXT, service_name TEXT, room_name TEXT, account_login TEXT, is_archived INTEGER DEFAULT 0, last_addressed_handle TEXT, display_name TEXT, group_id TEXT, is_filtered INTEGER DEFAULT 0, successful_query INTEGER DEFAULT 1);;
 - (id);
 - (id);
-- (id)iguration;
-- (id)nNs;
-- (void)kConnectionType;
+- (id)deleteConfiguration;
+- (id)_endpointerDecisionLagInNs;
+- (void)networkConnectionType;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(nonatomic) _Bool hasTimestampInNanoseconds;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) long long timestampInNanoseconds; // @synthesize timestampInNanoseconds=_timestampInNanoseconds;
 
 @end

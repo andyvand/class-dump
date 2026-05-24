@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _PFResultObject
 {
     _PFResultArray *_parent_buffer;
-    int _cd_rc;
-    unsigned int _count;
-    unsigned long long _sql_entity_id;
-    unsigned long long _primary_key;
 }
 
 + (Class)to statfs file; errno %d / %s.;

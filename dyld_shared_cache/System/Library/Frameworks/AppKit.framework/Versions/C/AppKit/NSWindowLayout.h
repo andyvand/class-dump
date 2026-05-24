@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSWindowLayout
 {
     struct CGRect _windowFrame;
-    struct CGRect _screenLayoutFrame;
-    unsigned long long _moveGeneration;
-    unsigned long long _resizeGeneration;
 }
 
 + (_Bool);
@@ -20,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id)olStripGrabberStateInCollectionView:(struct _NSZone *)arg1 layout: /* Error: Ran out of types for this method. */;
+- (id)controlStripGrabberStateInCollectionView:(struct _NSZone *)arg1 layout: /* Error: Ran out of types for this method. */;
 
 @end
 

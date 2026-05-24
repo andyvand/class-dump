@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACExternalizedContextProvider, LAContext, NSData, NSError, NSMutableArray, NSNumber, NSObject, NSString, NSUUID, NSXPCConnection;
-@protocol LAContextXPC, LAUIDelegate;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface LAClient
 {
     _Bool _shouldRecoverConnection;
-    _Bool _willRetryOnInterruptedConnection;
-    id <LAUIDelegate> _uiDelegate;
-    NSUUID *_uuid;
-    NSString *_proxyId;
-    NSError *_permanentError;
-    NSXPCConnection *_serverConnection;
-    NSObject<LAContextXPC> *_remoteContext;
-    NSObject<LAContextXPC> *_synchronousRemoteContext;
-    NSMutableArray *_invalidations;
-    LACExternalizedContextProvider *_externalizedContextProvider;
-    NSNumber *_userSession;
-    NSData *_existingContext;
-    LAContext *_context;
 }
 
-+ (id);
++ (id)]@9K;
 + (void);
 + (id);
+- (void)stISB_EEEESH_EENS_24GenericComposeStateTableISB_NS_18IntegerFilterStateIaEENS_24DefaultComposeStateTupleIiSL_EENS_21CompactHashStateTableISN_NS_11ComposeHashISN_EEEEEEEE;
+- (void)NSt3__120__shared_ptr_emplaceIN6quasar29NgramSrilmInterpolationConfigENS_9allocatorIS2_EEEE;
 - (void);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -52,21 +38,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)3;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)H;
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)!;
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -75,7 +61,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -83,58 +69,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ector;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)i;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)GP;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)updateViews;
+- (void)setCommandTimeout:(int)arg1;
+- (void)Ԏ;
+- (id)imageInverted;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak LAContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *existingContext; // @synthesize existingContext=_existingContext;
-@property(readonly, nonatomic) NSData *externalizedContext;
-@property(retain) LACExternalizedContextProvider *externalizedContextProvider; // @synthesize externalizedContextProvider=_externalizedContextProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *invalidations; // @synthesize invalidations=_invalidations;
-@property(retain) NSError *permanentError; // @synthesize permanentError=_permanentError;
-@property(retain, nonatomic) NSString *proxyId; // @synthesize proxyId=_proxyId;
-@property(retain, nonatomic) NSObject<LAContextXPC> *remoteContext; // @synthesize remoteContext=_remoteContext;
 @property(readonly, nonatomic) NSXPCConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
-@property _Bool shouldRecoverConnection; // @synthesize shouldRecoverConnection=_shouldRecoverConnection;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<LAContextXPC> *synchronousRemoteContext; // @synthesize synchronousRemoteContext=_synchronousRemoteContext;
-@property(nonatomic) __weak id <LAUIDelegate> uiDelegate; // @synthesize uiDelegate=_uiDelegate;
-@property(readonly, nonatomic) NSNumber *userSession; // @synthesize userSession=_userSession;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property _Bool willRetryOnInterruptedConnection; // @synthesize willRetryOnInterruptedConnection=_willRetryOnInterruptedConnection;
 
 @end
 

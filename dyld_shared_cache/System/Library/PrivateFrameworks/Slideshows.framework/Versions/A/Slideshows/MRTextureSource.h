@@ -9,55 +9,30 @@
 @interface MRTextureSource
 {
     MRTexture *_texture;
-    CDStruct_e7c9fc71 _textureOptions;
-    unsigned int _pixelFormat;
-    float _color[4];
-    struct __IOSurface *_ioSurface;
-    struct __CVBuffer *_cvPixelBuffer;
-    struct CGContext *_cgContext;
-    struct CGColorSpace *_colorspace;
-    struct CGImage *_cgImage;
-    void *_datas[3];
-    unsigned long long _dataSize;
-    unsigned int _dataRowBytes;
-    unsigned int _dataWidth;
-    unsigned int _dataHeight;
-    _Bool _ownsData;
-    unsigned char _orientation;
-    struct __CVBuffer *_cvTexture;
-    _Bool _isPremultiplied;
-    _Bool _isOpaque;
-    _Bool _wantsSharedTexture;
-    MRImageManager *_imageManager;
-    CDStruct_3e356df7 _size;
 }
 
 - (_Bool);
-- (CDStruct_e7c9fc71 *);
+- (CDStruct_ad85aa33 *);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)_observer;
+- (id)ackgroundSession;
+- (id)initWithFormat:(struct __CVBuffer *)arg1;
+- (id)fc_dictionaryOfTransformedSortedObjectsWithKeyBlock:(struct __CVBuffer *)arg1 valueBlock:(CDStruct_c0454aff)arg2;
+- (id)lQueue",&,N,V_submissionQueue;
+- (id)ndpointConnection;
+- (void);
+- (void)ytics.upload;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (CDStruct_3e356df7);
+- (CDStruct_c0454aff)originalCohorts;
 - (void)-small;
 - (id)= Keyframe1D ====================================
 ;
 
 // Remaining properties
 @property(readonly) MRImageManager *imageManager; // @synthesize imageManager=_imageManager;
-@property(readonly, nonatomic) CDStruct_3e356df7 size; // @synthesize size=_size;
-@property(readonly) MRTexture *texture;
-@property(readonly) CDStruct_e7c9fc71 *textureOptions;
-@property(nonatomic) _Bool wantsSharedTexture; // @synthesize wantsSharedTexture=_wantsSharedTexture;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol CoreTelephonyClientSubscriberDelegateInternal
+
+@optional
+- (void);
+- (void);
 @end
 

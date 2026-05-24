@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSMapTable, NSMutableDictionary, NSSet, NSString;
+@class NSSet;
 @protocol UISSlotDrawer;
 
 @interface UISSlotMachine
 {
     id <UISSlotDrawer> _slotDrawer;
-    unsigned long long _slotDrawerMethod;
-    unsigned long long _options;
-    struct os_unfair_lock_s _cachedContentsLock;
-    struct os_unfair_lock_s _layerContextLock;
-    struct os_unfair_lock_s _LRUTagsByClassLock;
-    NSMutableDictionary *_cachedContents;
-    CAContext *_layerContext;
-    NSMapTable *_LRUTagsByClass;
 }
 
 + (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)isEqualToChannel:(id)arg1;
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)M;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allTags;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

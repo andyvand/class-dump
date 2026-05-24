@@ -13,7 +13,7 @@
 + (Class);
 + (long long)rray",C,N,V_payloadNotes;
 - (id);
-- (id)lter;
+- (id)_INPBCallRecordFilter;
 
 @end
 

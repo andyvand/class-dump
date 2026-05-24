@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatUploadDiffHunk
 {
     id lines;
-    id range;
 }
 
 @end

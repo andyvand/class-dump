@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NSPPrivacyProxyTokenActivationResponse
 {
     unsigned long long _tokenExpiryTimestamp;
-    NSMutableArray *_activatedTokenLists;
-    NSMutableArray *_auxiliaryAuthArrays;
-    struct {
-        unsigned int tokenExpiryTimestamp:1;
-    } _has;
 }
 
 + (Class);
@@ -25,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -38,18 +31,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)b;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activatedTokenLists; // @synthesize activatedTokenLists=_activatedTokenLists;
-@property(retain, nonatomic) NSMutableArray *auxiliaryAuthArrays; // @synthesize auxiliaryAuthArrays=_auxiliaryAuthArrays;
 @property(nonatomic) _Bool hasTokenExpiryTimestamp;
-@property(nonatomic) unsigned long long tokenExpiryTimestamp; // @synthesize tokenExpiryTimestamp=_tokenExpiryTimestamp;
 
 @end
 

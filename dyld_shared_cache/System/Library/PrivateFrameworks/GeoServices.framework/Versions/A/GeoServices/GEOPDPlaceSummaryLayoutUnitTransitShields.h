@@ -10,18 +10,18 @@
 
 + (_Bool)setIncludeDistance:(id)arg1;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)`;
+- (void)iggerSecondPass remora since asset is nil :(id)arg1 %@;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)as_wrmIsPCDetected"b1"has_wrmIsStallDetected"b1"read_callID"b1"read_cellGCI"b1"read_cellHomePLMN2"b1"read_cellHomePLMN"b1"read_cellRatType"b1"read_cellServiceProvider2"b1"read_cellServiceProvider"b1"read_ftIRATRecommendationReason"b1"read_ftIRATRecommendation"b1"read_location"b1"wrote_anyField"b1};
-- (id)undEntryIconShown;
+- (id)_lookAroundEntryIconShown;
 - (id)¨§©Hª;
-- (id)essObjectGeocodingResult;
+- (id)addressObjectGeocodingResult;
 
 @end
 

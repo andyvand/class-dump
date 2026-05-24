@@ -9,36 +9,24 @@
 @interface GEOElementDetails
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _businessId;
-    unsigned int _elementIndex;
-    int _elementType;
-    unsigned int _localSearchProviderId;
-    _Bool _isEnrichedResult;
-    struct {
-        unsigned int has_businessId:1;
-        unsigned int has_elementIndex:1;
-        unsigned int has_elementType:1;
-        unsigned int has_localSearchProviderId:1;
-        unsigned int has_isEnrichedResult:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasRemainingDistance:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)isDouble:equalToOther:withAccuracy: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithLength:timeInterval:scheduler:observable: /* Error: Ran out of types for this method. */;
+- (_Bool)dictionaryWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (_Bool)backgroundSchedulerWithQualityOfService: /* Error: Ran out of types for this method. */;
+- (id)CNObservableSkipUntilSignalObserverDelegate>",R,W,V_delegate;
 - (void);
 - (_Bool);
 - (int);
@@ -48,33 +36,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)voiceTriggerInfo;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)verSearchCompletionSectionIndex:(struct _NSZone *)arg1;
-- (unsigned long long)st:client: /* Error: Ran out of types for this method. */;
-- (id)OWaypointTyped;
+- (id)setHasServerSearchCompletionSectionIndex:(struct _NSZone *)arg1;
+- (unsigned long long)isValidForRequest:client: /* Error: Ran out of types for this method. */;
+- (id)GEOWaypointTyped;
 - (id)xëÿÿ ëÿÿìëÿÿìÿÿ8ìÿÿ\ìÿÿtìÿÿìÿÿíÿÿ$íÿÿ\íÿÿtíÿÿíÿÿ¤íÿÿ¼íÿÿÔíÿÿìíÿÿîÿÿlîÿÿ°`þ°`þø`þ¥`þ¦`þ·`þp¸`þì¼`þaþØaþ aþaþ`aþ<aþaþôaþÐaþ¬aþLaþ ãaþéaþ´õaþ´bþ bþbþtbþ´bþbþbþ("bþ¼`þ;
 - (id);
 - (int);
 - (void)®ø;
 
 // Remaining properties
-@property(nonatomic) unsigned long long businessId;
-@property(nonatomic) unsigned int elementIndex;
-@property(nonatomic) int elementType;
-@property(nonatomic) _Bool hasBusinessId;
-@property(nonatomic) _Bool hasElementIndex;
 @property(nonatomic) _Bool hasElementType;
-@property(nonatomic) _Bool hasIsEnrichedResult;
-@property(nonatomic) _Bool hasLocalSearchProviderId;
-@property(nonatomic) _Bool isEnrichedResult;
-@property(nonatomic) unsigned int localSearchProviderId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

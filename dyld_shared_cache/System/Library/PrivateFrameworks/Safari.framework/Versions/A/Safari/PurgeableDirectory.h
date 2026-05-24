@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PurgeableDirectory
 {
     unsigned long long purgeOrder;
-    NSURL *_itemURL;
 }
 
 - (void);
@@ -22,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURL *itemURL; // @synthesize itemURL=_itemURL;
-@property(nonatomic) unsigned long long purgeOrder; // @synthesize purgeOrder;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CNCDUnifiedContactInfo
 {
@@ -15,18 +15,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long changeType;
-@property(retain, nonatomic) NSNumber *changeTypeNumber; // @dynamic changeTypeNumber;
-@property(nonatomic) _Bool inhibitsIndividualContact;
-@property(retain, nonatomic) NSNumber *inhibitsIndividualContactNumber; // @dynamic inhibitsIndividualContactNumber;
-@property(retain, nonatomic) NSArray *linkedRecordIdentifiers;
 @property(retain, nonatomic) NSString *linkedRecordIdentifiersString; // @dynamic linkedRecordIdentifiersString;
-@property(retain, nonatomic) NSString *unifiedRecordIdentifier; // @dynamic unifiedRecordIdentifier;
 
 @end
 

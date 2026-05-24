@@ -6,33 +6,19 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface RTDeviceMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
++ (id)complete:(id)arg1 time:(id)arg2;
++ (id)channelconfig_request;
 - (id);
-- (void);
+- (void)L;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *addresses; // @dynamic addresses;
-@property(retain, nonatomic) NSSet *deletionRequests; // @dynamic deletionRequests;
-@property(readonly, nonatomic) RTDeviceMO *device;
-@property(copy, nonatomic) NSString *deviceClass; // @dynamic deviceClass;
-@property(copy, nonatomic) NSString *deviceModel; // @dynamic deviceModel;
 @property(copy, nonatomic) NSString *deviceName; // @dynamic deviceName;
-@property(retain, nonatomic) NSSet *mapItems; // @dynamic mapItems;
-@property(retain, nonatomic) NSSet *places; // @dynamic places;
-@property(retain, nonatomic) NSSet *transitions; // @dynamic transitions;
-@property(retain, nonatomic) NSSet *tripClusterRecency; // @dynamic tripClusterRecency;
-@property(retain, nonatomic) NSSet *tripClusterSchedule; // @dynamic tripClusterSchedule;
-@property(retain, nonatomic) NSSet *tripClusterWaypointData; // @dynamic tripClusterWaypointData;
-@property(retain, nonatomic) NSSet *tripClusters; // @dynamic tripClusters;
-@property(retain, nonatomic) NSSet *userCurations; // @dynamic userCurations;
-@property(retain, nonatomic) NSSet *visits; // @dynamic visits;
 
 @end
 

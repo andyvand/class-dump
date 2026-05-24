@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKSEConsistencyCheckDeviceCredential, PKSECredentialAddress;
-
 @interface PKSEConsistencyCheckRequestedAction
 {
     long long _actions;
-    PKSEConsistencyCheckDeviceCredential *_deviceCredential;
-    PKSECredentialAddress *_address;
 }
 
 - (id);
@@ -23,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) PKSECredentialAddress *address; // @synthesize address=_address;
-@property(readonly, nonatomic) PKSEConsistencyCheckDeviceCredential *deviceCredential; // @synthesize deviceCredential=_deviceCredential;
 
 @end
 

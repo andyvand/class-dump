@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSArticleInternal, NSSArticleView, UIActivityIndicatorView;
+@class NSSArticleView;
 
 @interface NSSArticleViewControllerInternal
 {
     _Bool _articleLoading;
-    NSSArticleInternal *_article;
-    NSSArticleView *_articleView;
-    UIActivityIndicatorView *_spinner;
 }
 
-- (void);
-- (void);
+- (void)Cx;
+- (void)onfigManagerType;
 - (id);
 - (id);
 - (id);
@@ -30,15 +27,12 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void)rKey: /* Error: Ran out of types for this method. */;
+- (void)decodeInt32ForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSArticleInternal *article; // @synthesize article=_article;
-@property(nonatomic) _Bool articleLoading; // @synthesize articleLoading=_articleLoading;
 @property(retain, nonatomic) NSSArticleView *articleView; // @synthesize articleView=_articleView;
-@property(retain, nonatomic) UIActivityIndicatorView *spinner; // @synthesize spinner=_spinner;
 
 @end
 

@@ -7,9 +7,9 @@
 @protocol UIFeedbackGeneratorUserInteractionDriven
 - (void)Ô;
 - (void)xForce;
-- (void)IKBRTICustomInfoTypeTypologyLogOperations;
-- (void)ultitapComplete;
-- (void)d;
+- (void)UIKBRTICustomInfoTypeTypologyLogOperations;
+- (void)UIKBKeyInteractionTypeMultitapComplete;
+- (void)UIPageViewControllerSpineLocationMid;
 - (void)Z;
 @end
 

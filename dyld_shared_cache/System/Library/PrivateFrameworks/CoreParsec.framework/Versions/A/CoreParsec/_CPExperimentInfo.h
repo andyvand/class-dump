@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _CPExperimentInfo
 {
     int _deploymentId;
-    int _version;
-    NSString *_namespaceId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
-- (void);
+- (void)ameTreeNodeData>];
 - (void);
 - (void);
 - (int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Q;
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)(;
 - (void);
 - (id);
-- (id);
+- (id)_imageForBarColor:backgroundColor:stripeColor:stripedImageAlpha:scaleFactor:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
 @property(copy, nonatomic) NSString *namespaceId; // @synthesize namespaceId=_namespaceId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

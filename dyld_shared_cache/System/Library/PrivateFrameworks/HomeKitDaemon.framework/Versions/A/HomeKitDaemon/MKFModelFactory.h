@@ -26,6 +26,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -42,6 +43,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -57,6 +61,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)H;
 + (id);
 + (id);
 + (id);
@@ -66,12 +71,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 + (id);

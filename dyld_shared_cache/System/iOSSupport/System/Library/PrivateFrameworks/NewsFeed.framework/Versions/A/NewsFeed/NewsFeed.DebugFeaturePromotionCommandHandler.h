@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFeaturePromotionCommandHandler
 {
     id resolver;
-    id sceneProvider;
 }
 
 @end

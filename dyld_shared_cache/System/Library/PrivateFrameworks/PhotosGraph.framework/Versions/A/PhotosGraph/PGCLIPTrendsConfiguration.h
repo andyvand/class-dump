@@ -6,24 +6,17 @@
 
 #import <PhotosGraph/PGConfiguration.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface PGCLIPTrendsConfiguration : PGConfiguration
 {
     NSString *_featureLabel;
-    NSNumber *_useAveragedEmbeddingAsNumber;
-    NSNumber *_useHighPrecisionRetrievalThresholdForEmbeddingSearch;
-    NSDictionary *_cosineSimilarityThresholdByVersion;
-    NSArray *_validTrendTypes;
-    NSArray *_positiveQueries;
-    NSArray *_positiveScenes;
-    NSArray *_negativeScenes;
 }
 
+- (id)valueWithRect: /* Error: Ran out of types for this method. */;
+- (id)trimNewlineFromAttriubtedString: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,21 +24,7 @@
 - (void).m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *cosineSimilarityThresholdByVersion; // @synthesize cosineSimilarityThresholdByVersion=_cosineSimilarityThresholdByVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *featureLabel; // @synthesize featureLabel=_featureLabel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *negativeScenes; // @synthesize negativeScenes=_negativeScenes;
-@property(readonly, nonatomic) NSArray *positiveQueries; // @synthesize positiveQueries=_positiveQueries;
-@property(readonly, nonatomic) NSArray *positiveScenes; // @synthesize positiveScenes=_positiveScenes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *useAveragedEmbeddingAsNumber; // @synthesize useAveragedEmbeddingAsNumber=_useAveragedEmbeddingAsNumber;
-@property(readonly, nonatomic) NSNumber *useHighPrecisionRetrievalThresholdForEmbeddingSearch; // @synthesize useHighPrecisionRetrievalThresholdForEmbeddingSearch=_useHighPrecisionRetrievalThresholdForEmbeddingSearch;
-@property(readonly, nonatomic) NSArray *validTrendTypes; // @synthesize validTrendTypes=_validTrendTypes;
 
 @end
 

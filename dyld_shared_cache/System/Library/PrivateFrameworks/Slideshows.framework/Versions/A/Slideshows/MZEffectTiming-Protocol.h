@@ -4,11 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol MZEffectTiming
+- (double)C;
+- (double);
+- (double)URLSession:(unsigned long long)arg1 didBecomeInvalidWithError: /* Error: Ran out of types for this method. */;
+- (double)URLByAppendingPathComponent:(unsigned long long)arg1;
+
+@optional
+- (struct _NSRange);
+- (unsigned long long)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)count;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration;
 @property(readonly, nonatomic) double phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration;
 @end
 

@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDParsecQueryRankingFeatures
 {
     PBUnknownFields *_unknownFields;
-    double _geoScore;
-    double _poiScore;
-    struct {
-        unsigned int has_geoScore:1;
-        unsigned int has_poiScore:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)72@?80;
-- (id)Providers;
+- (id)_hotspotHelperProviders;
 - (id)43;
 - (void)>"¦D½õ?#G@;
 

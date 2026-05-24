@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CNUICoreFamilyMemberContactItem
 {
     _Bool _isUnreachable;
-    _Bool _isProposed;
-    _Bool _hasBeenPersisted;
-    NSString *_contactIdentifier;
-    NSString *_formattedName;
-    NSData *_imageData;
-    long long _contactType;
-    long long _whitelistStatus;
 }
 
 + (_Bool);
@@ -24,11 +17,11 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)R[;
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)f;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -36,17 +29,10 @@
 - (void);
 - (id);
 - (id);
-- (void)raggedCell:inRect:event: /* Error: Ran out of types for this method. */;
+- (void)textView:draggedCell:inRect:event: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) long long contactType; // @synthesize contactType=_contactType;
-@property(readonly, nonatomic) NSString *formattedName; // @synthesize formattedName=_formattedName;
-@property(readonly, nonatomic) _Bool hasBeenPersisted; // @synthesize hasBeenPersisted=_hasBeenPersisted;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, nonatomic) _Bool isProposed; // @synthesize isProposed=_isProposed;
-@property(readonly, nonatomic) _Bool isUnreachable; // @synthesize isUnreachable=_isUnreachable;
-@property(readonly, nonatomic) long long whitelistStatus; // @synthesize whitelistStatus=_whitelistStatus;
 
 @end
 

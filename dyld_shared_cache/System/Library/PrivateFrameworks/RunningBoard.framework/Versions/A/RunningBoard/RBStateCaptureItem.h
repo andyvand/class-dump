@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol RBSInvalidatable;
 
 __attribute__((visibility("hidden")))
 @interface RBStateCaptureItem
 {
     id <RBSInvalidatable> _invalidatable;
-    CDUnknownBlockType _block;
-    NSString *_title;
-    NSString *_identifier;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)adaptationContextReadingForReanalysisString:fromRecentlyCommittedCandidates: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

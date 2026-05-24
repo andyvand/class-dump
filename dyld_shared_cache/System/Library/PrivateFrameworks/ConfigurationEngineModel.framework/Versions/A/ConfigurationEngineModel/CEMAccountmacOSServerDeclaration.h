@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMAccountmacOSServerDeclaration : CEMConfigurationBase
 {
     NSString *_payloadHostName;
-    NSString *_payloadAccountDescription;
-    NSArray *_payloadConfiguredAccounts;
-    NSString *_payloadCredentials;
 }
 
 + (id);
@@ -41,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadAccountDescription; // @synthesize payloadAccountDescription=_payloadAccountDescription;
-@property(copy, nonatomic) NSArray *payloadConfiguredAccounts; // @synthesize payloadConfiguredAccounts=_payloadConfiguredAccounts;
-@property(copy, nonatomic) NSString *payloadCredentials; // @synthesize payloadCredentials=_payloadCredentials;
 @property(copy, nonatomic) NSString *payloadHostName; // @synthesize payloadHostName=_payloadHostName;
-@property(readonly) Class superclass;
 
 @end
 

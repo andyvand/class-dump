@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSTextField;
+@class NSTextField;
 
 @interface QCImageDownloaderUI : QCInspector
 {
     NSTextField *cacheSize;
-    NSButton *syncButton;
 }
 
 + (id);

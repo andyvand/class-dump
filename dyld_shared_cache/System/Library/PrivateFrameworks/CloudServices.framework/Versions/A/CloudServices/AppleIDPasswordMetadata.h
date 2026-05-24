@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AppleIDPasswordMetadata
 {
     int _iterations;
-    NSString *_proto;
-    NSData *_salt;
 }
 
 + (_Bool);
@@ -18,14 +16,12 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)= %{public}@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int iterations; // @synthesize iterations=_iterations;
 @property(readonly, nonatomic) NSString *proto; // @synthesize proto=_proto;
-@property(readonly, nonatomic) NSData *salt; // @synthesize salt=_salt;
 
 @end
 

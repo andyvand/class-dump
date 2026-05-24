@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, NSArray;
+@class AXFUIElement;
 
 @interface AXFRotorManager
 {
     _Bool _shouldGoUpHierarchy;
-    AXFUIElement *_rotorProviderElement;
 }
 
 - (_Bool);
@@ -27,13 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tem Unsupported;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *customRotorNames;
-@property(readonly, copy, nonatomic) NSArray *customRotors;
 @property(nonatomic) __weak AXFUIElement *rotorProviderElement; // @synthesize rotorProviderElement=_rotorProviderElement;
-@property(nonatomic) _Bool shouldGoUpHierarchy; // @synthesize shouldGoUpHierarchy=_shouldGoUpHierarchy;
 
 @end
 

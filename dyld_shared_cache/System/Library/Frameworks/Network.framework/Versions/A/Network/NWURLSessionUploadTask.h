@@ -13,11 +13,11 @@
     NSURL *_resumeURLInternal;
 }
 
-+ (_Bool);
++ (_Bool)intainFirstResponderInProgress:(Class)arg1 ];
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool)èA;

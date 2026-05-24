@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _CHCSVAggregator
 {
     NSMutableArray *_lines;
-    NSError *_error;
-    NSMutableArray *_currentLine;
 }
 
 - (void);
@@ -19,24 +17,50 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)IMInstant;
+- (void);
+- (id)b,vec3(0.))) );
+    
+    
+    a = vec3(texels[0],texels[1],texels[2]);
+    b = vec3(texels[6],texels[7],texels[8]);
+    tmp = equal(a,b);
+    vec3 retCol = mix( vec3(tmp), vec3(not(tmp)), vec3(equal(b,vec3(0.))) );
+    
+    
+
+
+    vec4 last = step(vec4(0.002), vec4(texels[5],texels[7],texels[8], min(retLin.x, retCol.x)) );
+    
+    
+    float x = last.w + 2.*retLin.y + retLin.z - retCol.z - 2.*last.x - last.z;
+    float y = last.w + 2.*retCol.y + retCol.z - retLin.z- 2.*last.y - last.z;
+    float magnitude = sqrt( x*x + y*y );
+    
+    
+    
+    
+    float depth = 1.;
+    for(int i=-1; i<2; i++)
+    for(int j=-1; j<2; j++)
+        depth = min(depth, texture2D(pickedDepthBuffer, uv + u_inverseResolution*vec2(i,j)).r);
+    
+    
+    
+    if( texture2D(depthBuffer, uv).x < depth-0.0000001 &&  texture2D(pickedColorBuffer, uv).r > 0.  )
+        gl_FragColor = vec4(.25);
+    else
+        gl_FragColor = vec4( min(magnitude/4.,1.) );
+    
+}
+
+;
+- (void)AIMInstant;
 
 // Remaining properties
-@property(retain) NSMutableArray *currentLine; // @synthesize currentLine=_currentLine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableArray *lines; // @synthesize lines=_lines;
-@property(readonly) Class superclass;
 
 @end
 

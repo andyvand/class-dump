@@ -7,7 +7,6 @@
 @interface NewsArticles.ReportConcernModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

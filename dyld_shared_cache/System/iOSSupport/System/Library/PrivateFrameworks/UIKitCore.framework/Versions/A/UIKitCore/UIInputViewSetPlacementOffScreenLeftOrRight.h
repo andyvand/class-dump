@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     UIInputViewSetPlacement *_otherPlacement;
 }
 
-- (void);
-- (id)mationDurationDown;
+- (void)ge;
+- (id)animationDurationDown;
 - (void)8~g;
 
 @end

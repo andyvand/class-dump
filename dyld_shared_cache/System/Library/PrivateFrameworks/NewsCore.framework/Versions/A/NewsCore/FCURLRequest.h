@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURLRequest;
+@class NSURLRequest;
 
 @interface FCURLRequest
 {
     NSURLRequest *_URLRequest;
-    long long _destination;
-    long long _priority;
-    NSDate *_dateInitiated;
-    NSString *_loggingKey;
-    CDUnknownBlockType _completion;
-    long long _remainingRetries;
 }
 
 - (id);
-- (void)e;
+- (void)minIdealClusterSizeIPhoneAutoFavorite;
 
 @end
 

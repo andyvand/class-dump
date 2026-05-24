@@ -6,31 +6,12 @@
 
 #import <WiFiPolicy/WFLoggerBase.h>
 
-@class NSNumber, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface WFLoggerFile : WFLoggerBase
 {
     NSObject<OS_dispatch_source> *_loggingTimer;
-    unsigned char _loggingTimerStarted;
-    struct __CFRunLoop *_runLoopRef;
-    struct __CFString *_runLoopMode;
-    unsigned char _classC;
-    NSNumber *_logLifespanInDays;
-    unsigned long long _privacy;
-    unsigned long long _level;
-    struct __CFString *_logFilePath;
-    NSObject<OS_dispatch_source> *_eventSource;
-    unsigned char _isFileLoggingEnabled;
-    struct __sFILE *_filePtr;
-    struct __CFDate *_fileCreationDate;
-    struct __CFDateFormatter *_dateFormatter;
-    struct __CFString *_presetFilePath;
-    struct __CFString *_directoryPath;
-    struct __CFString *_fileNamePrefix;
-    unsigned long long _maxFileSizeInBytes;
-    unsigned long long _timerInterval;
-    unsigned long long _fileAgeOutInterval;
 }
 
 - (void);
@@ -38,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -52,25 +33,23 @@
 - (void);
 - (unsigned char);
 - (struct __CFString *);
-- (void);
+- (void)Si_S6i_S5it6stridet;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (unsigned long long)ontroller;
+- (void);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)vateFrameworks/SiriOntology.framework/Versions/A/SiriOntology;
+- (void)M;
+- (void)7;
+- (unsigned long long)!;
 
 // Remaining properties
-@property(readonly, getter=getLogDirPath) struct __CFString *logDirPath;
-@property(readonly, getter=getLogFileNamePrefix) struct __CFString *logFileNamePrefix;
 @property(readonly, getter=getLogFilePath) struct __CFString *logFilePath;
 
 @end

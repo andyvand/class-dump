@@ -6,16 +6,9 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSArray;
-
 @interface ASDRestoreApplicationsRequestOptions : ASDRequestOptions
 {
     _Bool _completeDataPromise;
-    _Bool _createsPlaceholders;
-    _Bool _createAsMobileBackup;
-    _Bool _skipCoordinatorCompletion;
-    _Bool _restoreApplicationData;
-    NSArray *_items;
 }
 
 - (_Bool);
@@ -27,19 +20,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ectDAWToken;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool completeDataPromise; // @synthesize completeDataPromise=_completeDataPromise;
-@property(nonatomic) _Bool createAsMobileBackup; // @synthesize createAsMobileBackup=_createAsMobileBackup;
-@property(nonatomic) _Bool createsPlaceholders; // @synthesize createsPlaceholders=_createsPlaceholders;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) _Bool restoreApplicationData; // @synthesize restoreApplicationData=_restoreApplicationData;
-@property(nonatomic) _Bool skipCoordinatorCompletion; // @synthesize skipCoordinatorCompletion=_skipCoordinatorCompletion;
 
 @end
 

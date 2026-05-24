@@ -11,11 +11,9 @@
 @interface STMExtensionOperation : STMOperation
 {
     STMOpaqueExtension *_extension;
-    NSArray *_inputItems;
-    NSArray *_returnedItems;
 }
 
-+ (id);
++ (id)ject"b1"countBigramPrefixMatchInSubject"b1"countNgramPrefixMatchInSubject"b1"countUnigramMatchInTextContent"b1"countBigramMatchInTextContent"b1"countNgramMatchInTextContent"b1"countUnigramPrefixMatchInTextContent"b1"countBigramPrefixMatchInTextContent"b1"countNgramPrefixMatchInTextContent"b1"countUnigramMatchInRecipients"b1"countBigramMatchInRecipients"b1"countNgramMatchInRecipients"b1"countUnigramPrefixMatchInRecipients"b1"countBigramPrefixMatchInRecipients"b1"countNgramPrefixMatchInRecipients"b1"countUnigramMatchInRecipientEmailAddresses"b1"countBigramMatchInRecipientEmailAddresses"b1"countNgramMatchInRecipientEmailAddresses"b1"countUnigramPrefixMatchInRecipientEmailAddresses"b1"countBigramPrefixMatchInRecipientEmailAddresses"b1"countNgramPrefixMatchInRecipientEmailAddresses"b1"countUnigramMatchInEmailAddresses"b1"countBigramMatchInEmailAddresses"b1"countNgramMatchInEmailAddresses"b1"countUnigramPrefixMatchInEmailAddresses"b1"countBigramPrefixMatchInEmailAddresses"b1"countNgramPrefixMatchInEmailAddresses"b1"countUnigramMatchInAttachmentTypes"b1"countBigramMatchInAttachmentTypes"b1"countNgramMatchInAttachmentTypes"b1"countUnigramPrefixMatchInAttachmentTypes"b1"countBigramPrefixMatchInAttachmentTypes"b1"countNgramPrefixMatchInAttachmentTypes"b1"countUnigramMatchInAttachmentNames"b1"countBigramMatchInAttachmentNames"b1"countNgramMatchInAttachmentNames"b1"countUnigramPrefixMatchInAttachmentNames"b1"countBigramPrefixMatchInAttachmentNames"b1"countNgramPrefixMatchInAttachmentNames"b1};
 - (void);
 - (id);
 - (void);
@@ -23,15 +21,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ssification from document layout analysis result.;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allInputItems;
-@property(retain) STMOpaqueExtension *extension; // @synthesize extension=_extension;
-@property(copy) NSArray *inputItems; // @synthesize inputItems=_inputItems;
 @property(copy) NSArray *returnedItems; // @synthesize returnedItems=_returnedItems;
 
 @end

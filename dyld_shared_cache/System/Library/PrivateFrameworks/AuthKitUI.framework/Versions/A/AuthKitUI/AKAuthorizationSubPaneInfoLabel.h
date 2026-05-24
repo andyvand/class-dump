@@ -6,13 +6,11 @@
 
 #import <AuthKitUI/AKAuthorizationSubPane.h>
 
-@class NSString, NSTextField;
+@class NSTextField;
 
 @interface AKAuthorizationSubPaneInfoLabel : AKAuthorizationSubPane
 {
     double _marginInset;
-    NSTextField *_infoLabel;
-    unsigned long long _internalInfoLabelType;
 }
 
 - (void);
@@ -23,22 +21,18 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSTextField *infoLabel; // @synthesize infoLabel=_infoLabel;
-@property(nonatomic) unsigned long long infoLabelType;
-@property(nonatomic) unsigned long long internalInfoLabelType; // @synthesize internalInfoLabelType=_internalInfoLabelType;
-@property(nonatomic) double marginInset; // @synthesize marginInset=_marginInset;
-@property(copy, nonatomic) NSString *string;
 
 @end
 

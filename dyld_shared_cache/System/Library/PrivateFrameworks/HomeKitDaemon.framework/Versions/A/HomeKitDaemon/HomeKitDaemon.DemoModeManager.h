@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessoryServerBrowser, NSUUID, OS_dispatch_queue;
-@protocol HMDDemoModeManagerDataSource;
+@class NSUUID;
 
 @interface HomeKitDaemon.DemoModeManager
 {
     id homeManager;
-    id messageDispatcher;
-    id notificationCenter;
-    id <HMDDemoModeManagerDataSource> demoModeDataSource;
 }
 
+- (id)hasGroupIdentifier;
+- (void)directionsSettingsPath;
+- (id)t creating state, no delegate;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void)g:(id)arg1;
+- (void)_createLocalRTPSocketWithRemoteSender:(id)arg1 localNetworkConfig: /* Error: Ran out of types for this method. */;
 - (id)pdating on receiving different resident capabilities %@.;
 - (void);
 - (void)E id=?1;;
-- (id)rProtocol;
+- (id)BiomeEventManagerProtocol;
 
 // Remaining properties
-@property(nonatomic, readonly) HAPAccessoryServerBrowser *demoAccessoryBrowser;
-@property(nonatomic, readonly) id <HMDDemoModeManagerDataSource> demoModeDataSource; // @synthesize demoModeDataSource;
-@property(nonatomic, readonly) OS_dispatch_queue *messageReceiveQueue;
 @property(nonatomic, readonly) NSUUID *messageTargetUUID;
 
 @end

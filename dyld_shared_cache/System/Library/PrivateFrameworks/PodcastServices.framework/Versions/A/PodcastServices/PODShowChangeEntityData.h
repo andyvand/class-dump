@@ -6,12 +6,11 @@
 
 #import <PodcastServices/PODContentChangeEntityData.h>
 
-@class NSString, PODShow, PODShowArtworkChangeEntityData;
+@class PODShow;
 
 @interface PODShowChangeEntityData : PODContentChangeEntityData
 {
     PODShow *_show;
-    PODShowArtworkChangeEntityData *_showArtworkData;
 }
 
 + (_Bool);
@@ -20,18 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)timeUntilContentExpiration;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PODShow *show; // @synthesize show=_show;
-@property(readonly, nonatomic) PODShowArtworkChangeEntityData *showArtworkData; // @synthesize showArtworkData=_showArtworkData;
-@property(readonly) Class superclass;
 
 @end
 

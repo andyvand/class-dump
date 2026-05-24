@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, TKClientTokenSession;
+@class TKClientTokenSession;
 
 @interface TKClientTokenObject
 {
     id _accessControlRef;
-    TKClientTokenSession *_session;
-    NSData *_objectID;
-    NSData *_accessControl;
-    NSData *_value;
-    NSData *_publicKey;
-    NSDictionary *_keychainAttributes;
 }
 
 - (id);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
@@ -28,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (struct __SecAccessControl *);
+- (struct __SecAccessControl *)h;
 - (id);
-- (id);
+- (id)setRecipientsCc:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -39,13 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *accessControl; // @synthesize accessControl=_accessControl;
-@property(readonly, nonatomic) struct __SecAccessControl *accessControlRef;
-@property(readonly, nonatomic) NSDictionary *keychainAttributes; // @synthesize keychainAttributes=_keychainAttributes;
-@property(readonly, nonatomic) NSData *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 @property(readonly, nonatomic) TKClientTokenSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) NSData *value; // @synthesize value=_value;
 
 @end
 

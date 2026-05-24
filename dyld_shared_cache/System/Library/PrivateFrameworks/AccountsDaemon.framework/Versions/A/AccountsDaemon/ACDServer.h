@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDAccessPluginManager, ACDAccountNotifier, ACDAuthenticationDialogManager, ACDAuthenticationPluginLoader, ACDAuthenticationPluginManager, ACDDatabaseBackupActivity, ACDDataclassOwnersManager, ACRemoteDeviceProxy, AccountsDaemon.ACDAsyncAuthenticationPluginManager, NSMutableArray, NSMutableDictionary, NSString, NSXPCListener;
-@protocol ACDClientProviderProtocol, ACDDatabaseProtocol;
+@class ACDAuthenticationPluginLoader;
 
 @interface ACDServer
 {
     struct os_unfair_lock_s _propertyLock;
-    NSMutableArray *_accountStoreClients;
-    NSMutableArray *_oauthSignerClients;
-    NSMutableArray *_authenticationDialogManagerClients;
-    NSMutableDictionary *_clientsByConnection;
-    unsigned int _clientCountMaximum;
-    NSXPCListener *_accountStoreListener;
-    NSXPCListener *_oauthSignerListener;
-    NSXPCListener *_authenticationDialogListener;
-    ACDAuthenticationPluginLoader *_authPluginLoader;
-    ACDAuthenticationPluginManager *_authenticationPluginManager;
-    AccountsDaemon.ACDAsyncAuthenticationPluginManager *_asyncAuthenticationPluginManager;
-    ACDAccessPluginManager *_accessPluginManager;
-    ACDDataclassOwnersManager *_dataclassOwnersManager;
-    ACDAuthenticationDialogManager *_authenticationDialogManager;
-    ACDAccountNotifier *_accountNotifier;
-    ACRemoteDeviceProxy *_remoteDeviceProxy;
-    id <ACDClientProviderProtocol> _clientProvider;
-    id <ACDDatabaseProtocol> _database;
-    ACDDatabaseBackupActivity *_databaseBackupActivity;
 }
 
 - (void);
@@ -37,14 +17,14 @@
 - (void);
 - (void);
 - (void);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)x;
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)tsu_containsObjectIdenticalTo: /* Error: Ran out of types for this method. */;
+- (void)mapFillStyle:(id)arg1 xlPictureFormat:state: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -58,11 +38,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)1d$°1Â0@ù
@@ -73,9 +53,9 @@
 × ;
 - (id){__CFData=}16@24;
 - (id)ountStoreSession";
-- (void)ureCoding;
-- (void)terForKey:(id)arg1;
-- (id)ntChanges;
+- (void)supportsSecureCoding;
+- (void)_lock_writerForKey:(id)arg1;
+- (id)_accountChanges;
 - (id);
 - (void)ted to access %@ accounts;
 - (id)able to remove credential due to error %@;
@@ -83,27 +63,7 @@
 - (void)Incoming account identifier is nil.";
 
 // Remaining properties
-@property(retain, nonatomic) ACDAccessPluginManager *accessPluginManager; // @synthesize accessPluginManager=_accessPluginManager;
-@property(retain, nonatomic) ACDAccountNotifier *accountNotifier; // @synthesize accountNotifier=_accountNotifier;
-@property(readonly, nonatomic) NSXPCListener *accountStoreListener; // @synthesize accountStoreListener=_accountStoreListener;
-@property(retain, nonatomic) AccountsDaemon.ACDAsyncAuthenticationPluginManager *asyncAuthenticationPluginManager; // @synthesize asyncAuthenticationPluginManager=_asyncAuthenticationPluginManager;
 @property(retain, nonatomic) ACDAuthenticationPluginLoader *authPluginLoader; // @synthesize authPluginLoader=_authPluginLoader;
-@property(readonly, nonatomic) NSXPCListener *authenticationDialogListener; // @synthesize authenticationDialogListener=_authenticationDialogListener;
-@property(retain, nonatomic) ACDAuthenticationDialogManager *authenticationDialogManager; // @synthesize authenticationDialogManager=_authenticationDialogManager;
-@property(retain, nonatomic) ACDAuthenticationPluginManager *authenticationPluginManager; // @synthesize authenticationPluginManager=_authenticationPluginManager;
-@property(retain, nonatomic) id <ACDClientProviderProtocol> clientProvider; // @synthesize clientProvider=_clientProvider;
-@property(retain, nonatomic) id <ACDDatabaseProtocol> database; // @synthesize database=_database;
-@property(retain, nonatomic) ACDDatabaseBackupActivity *databaseBackupActivity; // @synthesize databaseBackupActivity=_databaseBackupActivity;
-@property(retain, nonatomic) ACDDataclassOwnersManager *dataclassOwnersManager; // @synthesize dataclassOwnersManager=_dataclassOwnersManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCListener *oauthSignerListener; // @synthesize oauthSignerListener=_oauthSignerListener;
-@property(retain, nonatomic) ACRemoteDeviceProxy *remoteDeviceProxy; // @synthesize remoteDeviceProxy=_remoteDeviceProxy;
-@property(readonly) Class superclass;
 
 @end
 

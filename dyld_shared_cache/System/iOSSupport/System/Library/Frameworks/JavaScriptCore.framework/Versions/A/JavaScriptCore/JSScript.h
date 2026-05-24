@@ -7,23 +7,17 @@
 @interface JSScript
 {
     struct WeakObjCPtr<JSVirtualMachine> m_virtualMachine;
-    long long m_type;
-    struct MappedFileData m_mappedSource;
-    struct String m_source;
-    struct RetainPtr<NSURL> m_sourceURL;
-    struct RetainPtr<NSURL> m_cachePath;
-    RefPtr_ba104a63 m_cachedBytecode;
 }
 
-+ (id);
++ (id)B;
 + (id);
 - (_Bool);
 - (struct SourceCode);
 - (void);
 - (void *);
-- (_Bool);
-- (RefPtr_ba104a63);
-- (_Bool);
+- (_Bool)9a;
+- (RefPtr_d5602f98);
+- (_Bool)ހR;
 - (id);
 - (unsigned int);
 - (id);

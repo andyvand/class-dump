@@ -7,8 +7,6 @@
 @interface SOConfigurationVersion
 {
     long long _mode;
-    int _token;
-    unsigned long long _version;
 }
 
 + (void);

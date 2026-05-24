@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)P;
 + (void);
 + (_Bool);
 + (_Bool);

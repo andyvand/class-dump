@@ -5,5 +5,6 @@
 //
 
 @protocol SidecarCore_Interface
+- (void);
 @end
 

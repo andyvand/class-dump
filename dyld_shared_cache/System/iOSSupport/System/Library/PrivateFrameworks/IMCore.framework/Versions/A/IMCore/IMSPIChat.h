@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMSPIChat
 {
     _Bool _isGroup;
-    _Bool _isBlackholed;
-    NSString *_guid;
-    NSString *_chatIdentifier;
-    NSString *_serviceName;
-    NSString *_displayName;
-    NSArray *_handles;
 }
 
-+ (void);
++ (void){;
 - (id);
-- (void);
+- (void)8_;
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
+- (id)WorkerObjectConnection::resumeForBackForwardCache:sharedWorkerObjectIdentifier=%{public}s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
+- (void)h";
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)ngChatForPersonID: /* Error: Ran out of types for this method. */;
+- (id)existingChatForPersonID: /* Error: Ran out of types for this method. */;
 - (void)àÁÈÈàÝÌÞÐäæLçè;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
 @property(retain) NSString *guid; // @synthesize guid=_guid;
-@property(retain) NSArray *handles; // @synthesize handles=_handles;
-@property(readonly) _Bool isBlackholed; // @synthesize isBlackholed=_isBlackholed;
-@property _Bool isGroup; // @synthesize isGroup=_isGroup;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

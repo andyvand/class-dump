@@ -6,24 +6,16 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface RAWHueMagnet : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
-    NSNumber *inputHueMagMR;
-    NSNumber *inputHueMagRY;
-    NSNumber *inputHueMagYG;
-    NSNumber *inputHueMagGC;
-    NSNumber *inputHueMagCB;
-    NSNumber *inputHueMagBM;
-    NSNumber *inputVersion;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)_ւ;
 - (void);
 
 @end

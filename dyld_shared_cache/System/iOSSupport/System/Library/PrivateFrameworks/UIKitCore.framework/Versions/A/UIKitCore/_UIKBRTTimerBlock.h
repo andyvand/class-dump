@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBRTTimerBlock
 {
     NSObject<OS_dispatch_queue> *_selfQueue;
-    NSTimer *_timer;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _onTimer;
-    id _owner;
 }
 
 - (id);
+- (id)requestQOSClassWhileServicingRequestsWithID:(double)arg1;
+- (void)ize;
+- (CDUnknownBlockType)FTCommandIDNotifyRecipient;
+- (void);
+- (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (id)antsGrabber: /* Error: Ran out of types for this method. */;
-- (id)e;
+- (id)_setWantsGrabber: /* Error: Ran out of types for this method. */;
+- (id)_UIKeyCommandMatchingCache;
 - (void)rn(void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType onTimer; // @synthesize onTimer=_onTimer;
-@property(readonly, nonatomic) id owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *selfQueue; // @synthesize selfQueue=_selfQueue;
-@property(readonly, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

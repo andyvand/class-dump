@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface SUOSUPowerEventObserver
 {
     struct IONotificationPort *_pmPortRef;
-    unsigned int _pmNotifier;
-    unsigned int _pmConnect;
-    NSObject<OS_dispatch_queue> *_powerEventQueue;
 }
 
 - (void);

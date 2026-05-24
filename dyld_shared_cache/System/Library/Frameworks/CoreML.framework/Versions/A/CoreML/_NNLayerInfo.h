@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NNLayerInfo
 {
     _Bool _bidirectional;
-    NSString *_type;
-    NSString *_concatenatedInputNames;
 }
 
 - (id);
-- (id);
+- (id)A
+;
 - (_Bool);
 - (id);
 - (void)ties must be Float64 or Float32.;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool bidirectional; // @synthesize bidirectional=_bidirectional;
-@property(readonly, copy, nonatomic) NSString *concatenatedInputNames; // @synthesize concatenatedInputNames=_concatenatedInputNames;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

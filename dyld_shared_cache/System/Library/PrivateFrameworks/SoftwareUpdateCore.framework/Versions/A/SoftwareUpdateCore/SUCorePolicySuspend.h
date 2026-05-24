@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicySuspend
 {
     _Bool _skipPhase;
-    long long _specifiedFields;
-    NSDictionary *_additionalOptions;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -23,16 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)wnloadsManager";
+- (id)_makeFunctionBarItemForIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(nonatomic) _Bool skipPhase; // @synthesize skipPhase=_skipPhase;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

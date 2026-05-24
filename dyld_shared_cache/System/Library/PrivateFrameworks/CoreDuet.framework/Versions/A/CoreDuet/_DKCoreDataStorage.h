@@ -4,48 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringDelegate, NSFileManager, NSManagedObjectModel, NSMapTable, NSMutableDictionary, NSString, NSURL, _DKDataProtectionStateMonitor;
-@protocol _DKCoreDataStorageDelegate;
+@class NSManagedObjectModel, NSString;
 
 @interface _DKCoreDataStorage
 {
     NSManagedObjectModel *_managedObjectModel;
-    NSMutableDictionary *_paths;
-    NSMapTable *_managedObjectContexts;
-    NSMutableDictionary *_persistentStoreCoordinators;
-    _DKDataProtectionStateMonitor *_dataProtectionMonitor;
-    NSFileManager *_fm;
-    NSCloudKitMirroringDelegate *_mirroringDelegate;
-    _Bool _isManagedDatabase;
-    _Bool _isDatabaseManager;
-    _Bool _maintenanceRunning;
-    _Bool _readOnly;
-    _Bool _localOnly;
-    _Bool _sync;
-    _Bool _requiresManualMigration;
-    NSString *_directory;
-    NSURL *_modelURL;
-    NSString *_databaseName;
-    id <_DKCoreDataStorageDelegate> _delegate;
-    NSString *_containerIdentifier;
 }
 
 + (unsigned long long);
++ (unsigned long long)%d/%d);
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)WRONG_FINAL_BLOCK_LENGTH;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)CARenderUpdateGetAllBackdropLayerInfo;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -53,8 +34,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id)t;
+- (_Bool)serverIPAddress;
 - (_Bool);
 - (id);
 - (long long);
@@ -74,16 +55,7 @@
 - (void)nagedobjectcontext;
 
 // Remaining properties
-@property(readonly) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly) NSString *databaseName; // @synthesize databaseName=_databaseName;
-@property __weak id <_DKCoreDataStorageDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) NSString *directory; // @synthesize directory=_directory;
-@property(readonly) _Bool localOnly; // @synthesize localOnly=_localOnly;
-@property(readonly) NSCloudKitMirroringDelegate *mirroringDelegate; // @synthesize mirroringDelegate=_mirroringDelegate;
-@property(readonly) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(readonly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(nonatomic) _Bool requiresManualMigration; // @synthesize requiresManualMigration=_requiresManualMigration;
-@property(readonly) _Bool sync; // @synthesize sync=_sync;
 
 @end
 

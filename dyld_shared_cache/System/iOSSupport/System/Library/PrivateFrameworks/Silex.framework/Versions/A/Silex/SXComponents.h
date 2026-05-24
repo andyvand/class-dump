@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface SXComponents
 {
     NSMutableArray *_components;
-    NSMutableDictionary *_componentsByIdentifier;
-    NSMutableDictionary *_childComponentsByParentIdentifier;
 }
 
 - (void);
@@ -25,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -46,13 +44,7 @@
 - (unsigned long long)16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allComponents;
-@property(readonly, nonatomic) NSMutableDictionary *childComponentsByParentIdentifier; // @synthesize childComponentsByParentIdentifier=_childComponentsByParentIdentifier;
-@property(readonly, nonatomic) NSArray *componentIdentifiers;
-@property(readonly, nonatomic) NSArray *componentIdentifiersIncludingChildComponents;
 @property(readonly, nonatomic) NSMutableArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) NSMutableDictionary *componentsByIdentifier; // @synthesize componentsByIdentifier=_componentsByIdentifier;
-@property(readonly, nonatomic) unsigned long long count;
 
 @end
 

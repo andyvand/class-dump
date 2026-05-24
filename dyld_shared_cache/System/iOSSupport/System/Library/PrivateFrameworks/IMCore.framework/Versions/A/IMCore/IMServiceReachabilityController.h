@@ -7,7 +7,6 @@
 @interface IMServiceReachabilityController
 {
     id delegate;
-    id taskIDToTask;
 }
 
 + (id);

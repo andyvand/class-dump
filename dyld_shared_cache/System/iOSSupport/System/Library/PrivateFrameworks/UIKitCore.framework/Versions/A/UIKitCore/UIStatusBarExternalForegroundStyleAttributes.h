@@ -11,19 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)activeNicknameRecords;
+- (double)der:(long long)arg1;
+- (id)_isFetchingExitForEnablement;
 - (double);
-- (id);
 - (double);
-- (double);
-- (id);
+- (id);
+- (struct UIEdgeInsets)that we have exceeded quota in chat sync -- failing to continue writes;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (long long);
+- (long long)FAILED, caught exception:(_Bool)arg1 %@;
 - (double);
 - (double);
 - (double);
-- (id)der;
+- (id)_allowsCreationOfFileURLFromItemProvider;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface CNUICoreApplicationAuthorizationItem
 {
     NSData *_icon;
-    NSString *_name;
-    NSString *_bundleIdentifier;
-    long long _deviceType;
-    long long _authorization;
-    CNUICoreApplicationAuthorizationItem *_snapshot;
 }
 
 + (_Bool);
@@ -23,28 +18,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)setSharedContainerIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void)boardingViewController;
+- (long long)becomeCurrentWithPendingUnitCount: /* Error: Ran out of types for this method. */;
+- (void)allContactsOnboardingViewController;
 - (_Bool)ibrary/Caches/com.apple.xbs/TemporaryDirectory.jVpasm/Sources/ContactsUI_iosmac/Framework/CNContactViewController.m;
 - (id)@"PRMonogramColor"8;
 - (long long)cemark %@!;
 
 // Remaining properties
-@property(nonatomic) long long authorization; // @synthesize authorization=_authorization;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) NSData *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) CNUICoreApplicationAuthorizationItem *snapshot; // @synthesize snapshot=_snapshot;
 
 @end

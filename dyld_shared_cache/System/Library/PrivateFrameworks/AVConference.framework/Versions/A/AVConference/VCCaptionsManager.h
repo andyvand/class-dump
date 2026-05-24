@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCCaptionsManager
 {
     NSMutableDictionary *_streamTokenList;
-    NSMutableSet *_translatorIdentifiers;
-    NSMutableSet *_translationContexts;
-    NSMutableSet *_transcriptionContexts;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
 }
 
 + (id);
@@ -23,18 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
+- (void);
+- (void)8h;
+- (void);
+- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -45,16 +39,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)TransmitDTMFWithTimestamp: /* Error: Ran out of types for this method. */;
+- (void)shouldTransmitDTMFWithTimestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PFSceneTaxonomy;
+@class PFSceneTaxonomy;
 
 @interface PFSceneTaxonomyNode
 {
     void *_nodeRef;
-    PFSceneTaxonomy *_taxonomy;
 }
 
 - (void);
 - (id);
-- (unsigned int);
-- (double);
+- (unsigned int)mework/Versions/A/SpotlightDaemon;
+- (double);
 - (id);
 - (id);
 - (double);
@@ -28,40 +27,21 @@
 - (unsigned long long);
 - (unsigned long long);
 - (double);
-- (_Bool);
+- (_Bool)riOntology15NLIntentWrapperP;
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)needsUserKeySyncToPopulateCurrentIdentityForServiceType: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)ditionalTitleLabelHeight: /* Error: Ran out of types for this method. */;
+- (_Bool)setAdditionalTitleLabelHeight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSSet *children;
-@property(readonly, copy) NSSet *detectors;
-@property(readonly) unsigned long long extendedSceneClassId;
-@property(readonly) double f0point5Threshold;
-@property(readonly) double f1Threshold;
-@property(readonly) double f2Threshold;
-@property(readonly) double graphHighPrecisionThreshold;
-@property(readonly) double graphHighRecallThreshold;
-@property(readonly) double highPrecisionThreshold;
-@property(readonly) double highRecallThreshold;
-@property(readonly, getter=isIndexed) _Bool indexed;
-@property(readonly, copy) NSString *name;
-@property(readonly) unsigned long long networkId;
-@property(readonly, copy) NSSet *parents;
-@property(readonly) double precision0point6Threshold;
-@property(readonly, getter=isRoot) _Bool root;
-@property(readonly) unsigned int sceneClassId;
-@property(readonly) double searchThreshold;
 @property(readonly) PFSceneTaxonomy *taxonomy; // @synthesize taxonomy=_taxonomy;
-@property(readonly, getter=searchThreshold) double threshold;
 
 @end
 

@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id);
 + (void);
-- (_Bool);
+- (_Bool)i$;
 - (id);
 
 @end

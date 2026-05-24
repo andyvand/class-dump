@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugFormatUploadDiffView
 {
     id isLoading;
-    id delegate;
-    id activityIndicatorView;
-    id source;
-    id titleLabel;
-    id tableView;
-    id changeSet;
 }
 
 - (id);
@@ -20,7 +14,7 @@
 - (id);
 - (long long);
 - (void);
-- (long long);
+- (long long)T;
 - (id)!@Eùñþ°1Â0@ù
 × ;
 - (void);

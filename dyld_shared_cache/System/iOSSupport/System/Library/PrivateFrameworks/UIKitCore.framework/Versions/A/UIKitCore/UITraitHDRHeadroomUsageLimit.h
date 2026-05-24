@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)ion;
++ (id)AutoRotation;
 + (long long)4õ^þnË0g;
 
 @end

@@ -7,28 +7,26 @@
 @interface CKCBCorecryptoECScalar
 {
     struct ccec_cp *_group;
-    const unsigned long long *_corecryptoScalar;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)T5;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (const unsigned long long *);
+- (id)G;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (struct ccec_cp *);
 
 // Remaining properties
-@property(readonly, nonatomic) const unsigned long long *corecryptoScalar; // @synthesize corecryptoScalar=_corecryptoScalar;
 @property(readonly, nonatomic) struct ccec_cp *group; // @synthesize group=_group;
 
 @end

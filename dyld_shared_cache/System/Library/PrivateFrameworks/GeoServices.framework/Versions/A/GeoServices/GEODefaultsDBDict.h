@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)thData:(id)arg1;
++ (id)validateResource:(id)arg1 withData: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)tart monitoring :(id)arg1 AdBlocker Asset Download;
 - (void);
 - (unsigned long long);
 

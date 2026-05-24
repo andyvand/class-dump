@@ -17,14 +17,14 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)	$	?	9	@	(	$	>	;
 - (_Bool);
+- (id)ayLabel} to {BuiltInLM.OverlayLabel.2};
+- (void)a;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;

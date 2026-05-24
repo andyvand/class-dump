@@ -7,16 +7,11 @@
 @interface AWDWifiAwdlStateInfo
 {
     unsigned long long _duration;
-    unsigned int _count;
-    struct {
-        unsigned int duration:1;
-        unsigned int count:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -25,18 +20,16 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)?;
 - (id);
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int)nded to use CSS to specify the font and
+;
+- (void)suggestersForFiles;
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
 @property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasDuration;
 
 @end
 

@@ -7,26 +7,22 @@
 #import <UIKitCore/UIInputViewAnimationStyle.h>
 
 @class _UIKeyboardAnimator;
-@protocol UIInputViewAnimationHost;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardAnimatorAnimationStyle : UIInputViewAnimationStyle
 {
     _UIKeyboardAnimator *_animator;
-    id <UIInputViewAnimationHost> _currentHost;
-    _Bool _currentFromPosition;
-    long long _keyboardAnimationType;
 }
 
-+ (id);
-- (id);
-- (long long);
++ (id)mmcs_get_file_notify_locally_fulfilled_chunk_reference;
+- (id)/lib/libobjc.A.dylib;
+- (long long)H;
 - (void);
 - (void)ù
 × ;
 - (void);
-- (void)WithMessage:(long long)arg1 initiatedByFrame: /* Error: Ran out of types for this method. */;
-- (long long)olor;
+- (void)webView:(long long)arg1 runBeforeUnloadConfirmPanelWithMessage:initiatedByFrame: /* Error: Ran out of types for this method. */;
+- (long long)CoreListMetricsColor;
 - (void)_UIListSectionSpacingStyle;
 
 // Remaining properties

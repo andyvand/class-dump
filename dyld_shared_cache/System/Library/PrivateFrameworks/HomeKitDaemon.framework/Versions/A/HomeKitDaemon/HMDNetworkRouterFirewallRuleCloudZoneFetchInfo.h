@@ -6,22 +6,19 @@
 
 #import <HomeKitDaemon/HMDNetworkRouterFirewallRuleManagerBackingStoreFetchHelper.h>
 
-@class CKServerChangeToken, HMBLocalZoneMirrorInput, NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleCloudZoneFetchInfo : HMDNetworkRouterFirewallRuleManagerBackingStoreFetchHelper
 {
     NSSet *_interestedRecordIDs;
-    CKServerChangeToken *_changeToken;
-    CKServerChangeToken *_originalChangeToken;
-    HMBLocalZoneMirrorInput *_mirrorInput;
 }
 
 + (id)AÏÿ[QÅ;
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setStoreSubscriptionTypes: /* Error: Ran out of types for this method. */;
+- (id)initWithCapacity: /* Error: Ran out of types for this method. */;
+- (id)MSPSharedTripCapabilityFetchingQueueDelegate;
+- (id)ed:(id)arg1 dataToSign != ((void*)0);
 - (void);
 - (void);
 - (void)HMDNetworkRouterFirewallRuleManagerClientState"8Q16^B24;
@@ -29,17 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)tEventPushMSHH2;
 
 // Remaining properties
-@property(retain, nonatomic) CKServerChangeToken *changeToken; // @synthesize changeToken=_changeToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *interestedRecordIDs; // @synthesize interestedRecordIDs=_interestedRecordIDs;
-@property(retain, nonatomic) HMBLocalZoneMirrorInput *mirrorInput; // @synthesize mirrorInput=_mirrorInput;
-@property(readonly, nonatomic) CKServerChangeToken *originalChangeToken; // @synthesize originalChangeToken=_originalChangeToken;
-@property(readonly) Class superclass;
 
 @end
 

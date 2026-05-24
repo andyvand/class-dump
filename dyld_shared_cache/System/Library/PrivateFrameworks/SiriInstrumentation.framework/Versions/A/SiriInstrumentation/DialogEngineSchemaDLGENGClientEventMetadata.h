@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DialogEngineSchemaDLGENGClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_dialogEngineId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasDialogEngineId;
-    _Bool _hasRequestId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -31,8 +26,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)IsConnected;
+- (id)Failed to register for PM notifications;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -40,19 +35,13 @@
 - (_Bool);
 - (id);
 - (id)eSuppressionEvaluationContext";
-- (id)ontactSuggestionUsageSummary;
+- (id)PLUSSchemaPLUSContactSuggestionUsageSummary;
 - (id),V`XYY¼[\8^_;
 - (void)`ê¸ÿ¤µ%;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *dialogEngineId; // @synthesize dialogEngineId=_dialogEngineId;
-@property(nonatomic) _Bool hasDialogEngineId; // @synthesize hasDialogEngineId=_hasDialogEngineId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

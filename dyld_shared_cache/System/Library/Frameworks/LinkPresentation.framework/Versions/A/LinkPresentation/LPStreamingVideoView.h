@@ -6,44 +6,36 @@
 
 #import <LinkPresentation/LPVisualMediaView.h>
 
-@class AVPlayerLayer, AVPlayerLooper, AVQueuePlayer, LPVideo;
+@class AVQueuePlayer, LPVideo;
 
 __attribute__((visibility("hidden")))
 @interface LPStreamingVideoView : LPVisualMediaView
 {
     AVQueuePlayer *_player;
-    AVPlayerLooper *_looper;
-    AVPlayerLayer *_playerLayer;
-    CDUnknownBlockType _readyForDisplayCallback;
-    _Bool _hasCreatedVideoPlayerView;
-    _Bool _isWaitingToRetryAfterFailingToPlay;
-    unsigned int _playbackRetryCountWithoutSuccess;
-    _Bool _desiredPlayingState;
-    float _desiredVolume;
 }
 
+- (_Bool)zP;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)\;
+- (_Bool)\;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)nsformer.m;
 - (void);
-- (void)DidChangeNotification;
+- (void)SKCloudServiceCapabilitiesDidChangeNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) LPVideo *media; // @dynamic media;

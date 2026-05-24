@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBDouble, _INPBIntentMetadata, _INPBWorkoutCustomization;
+@class NSArray;
 
 @interface _INPBStartWorkoutIntent
 {
@@ -16,24 +16,14 @@
         unsigned int workoutGoalUnitType:1;
         unsigned int workoutLocationType:1;
     } _has;
-    _Bool _isBuiltInWorkoutType;
-    _Bool _isOpenEnded;
-    _Bool _isVoiceOnly;
-    int _sequenceLabel;
-    int _workoutGoalUnitType;
-    int _workoutLocationType;
-    NSArray *_associatedItems;
-    _INPBWorkoutCustomization *_customization;
-    _INPBDouble *_goalValue;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_workoutName;
 }
 
-+ (Class);
++ (Class)/Foundation;
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,13 +33,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)6;
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_};
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,52 +62,24 @@
 - (int);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id)B;
+- (int);
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)@;
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)rameworks/SoftLinking.framework/Versions/A/SoftLinking;
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)N,V_auditToken;
-- (void)lureMeCardNotSet;
+- (void)INSearchForMeCardIntentResponseCodeFailureMeCardNotSet;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *associatedItems; // @synthesize associatedItems=_associatedItems;
-@property(readonly, nonatomic) unsigned long long associatedItemsCount;
-@property(retain, nonatomic) _INPBWorkoutCustomization *customization; // @synthesize customization=_customization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDouble *goalValue; // @synthesize goalValue=_goalValue;
-@property(readonly, nonatomic) _Bool hasCustomization;
-@property(readonly, nonatomic) _Bool hasGoalValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsBuiltInWorkoutType;
-@property(nonatomic) _Bool hasIsOpenEnded;
-@property(nonatomic) _Bool hasIsVoiceOnly;
-@property(nonatomic) _Bool hasSequenceLabel;
-@property(nonatomic) _Bool hasWorkoutGoalUnitType;
-@property(nonatomic) _Bool hasWorkoutLocationType;
-@property(readonly, nonatomic) _Bool hasWorkoutName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool isBuiltInWorkoutType; // @synthesize isBuiltInWorkoutType=_isBuiltInWorkoutType;
-@property(nonatomic) _Bool isOpenEnded; // @synthesize isOpenEnded=_isOpenEnded;
-@property(nonatomic) _Bool isVoiceOnly; // @synthesize isVoiceOnly=_isVoiceOnly;
-@property(nonatomic) int sequenceLabel; // @synthesize sequenceLabel=_sequenceLabel;
-@property(readonly) Class superclass;
-@property(nonatomic) int workoutGoalUnitType; // @synthesize workoutGoalUnitType=_workoutGoalUnitType;
-@property(nonatomic) int workoutLocationType; // @synthesize workoutLocationType=_workoutLocationType;
-@property(retain, nonatomic) _INPBDataString *workoutName; // @synthesize workoutName=_workoutName;
 
 @end
 

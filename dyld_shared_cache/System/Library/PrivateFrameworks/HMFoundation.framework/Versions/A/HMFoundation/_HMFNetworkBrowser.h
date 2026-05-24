@@ -6,24 +6,19 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_browser;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _HMFNetworkBrowser : HMFObject
 {
     NSString *_domain;
-    NSString *_serviceType;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_nw_browser> *_nw_browser;
-    CDUnknownBlockType _updateBlock;
 }
 
 + (id){°1Â0@ù
 × ;
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -31,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (id)'D;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)ist;
+- (id)added notification, store count:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -42,10 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSObject<OS_nw_browser> *nw_browser; // @synthesize nw_browser=_nw_browser;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

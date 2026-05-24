@@ -6,16 +6,12 @@
 
 #import <Foundation/NSDistantObjectRequest.h>
 
-@class NSArray, NSConnection, NSInvocation;
+@class NSInvocation;
 
 __attribute__((visibility("hidden")))
 @interface NSConcreteDistantObjectRequest : NSDistantObjectRequest
 {
     NSInvocation *invocation;
-    NSArray *importedObjects;
-    id conversation;
-    unsigned int sequence;
-    NSConnection *connection;
 }
 
 - (void);

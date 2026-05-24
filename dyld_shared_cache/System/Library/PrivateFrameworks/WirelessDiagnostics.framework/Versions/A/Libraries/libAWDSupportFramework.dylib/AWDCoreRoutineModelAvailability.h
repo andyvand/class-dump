@@ -7,13 +7,6 @@
 @interface AWDCoreRoutineModelAvailability
 {
     unsigned long long _timestamp;
-    int _availability;
-    unsigned int _precisionRecall;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int availability:1;
-        unsigned int precisionRecall:1;
-    } _has;
 }
 
 - (void);
@@ -25,11 +18,11 @@
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)h;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (void);
 - (void);
@@ -39,12 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int availability; // @synthesize availability=_availability;
-@property(nonatomic) _Bool hasAvailability;
-@property(nonatomic) _Bool hasPrecisionRecall;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int precisionRecall; // @synthesize precisionRecall=_precisionRecall;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

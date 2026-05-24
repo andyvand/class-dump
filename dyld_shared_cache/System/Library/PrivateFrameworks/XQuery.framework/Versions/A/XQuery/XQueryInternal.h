@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, XQueryProlog;
+@class XQueryProlog;
 
 __attribute__((visibility("hidden")))
 @interface XQueryInternal
 {
     XQueryProlog *_prolog;
-    id _body;
-    NSArray *_errors;
 }
 
 - (id);

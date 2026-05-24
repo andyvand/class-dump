@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVCompositionTrack.h>
 
-@class AVMutableCompositionTrackInternal, NSArray, NSString;
+@class AVMutableCompositionTrackInternal;
 
 @interface AVMutableCompositionTrack : AVCompositionTrack
 {
@@ -14,15 +14,15 @@
 }
 
 + (_Bool);
+- (_Bool)_personalEntityRetrievalOptions;
+- (void)";
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,35 +31,29 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)#;
 - (_Bool);
+- (void)SAPong;
+- (void)M";
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
 - (struct CGAffineTransform)
 × ;
 - (id)ñ)°1Â0@ù
 × ;
-- (float)idateAudioOutputSettings:reason: /* Error: Ran out of types for this method. */;
-- (void)ityMetrics;
+- (float)validateAudioOutputSettings:reason: /* Error: Ran out of types for this method. */;
+- (void)playabilityMetrics;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSString *extendedLanguageTag;
-@property(copy, nonatomic) NSString *languageCode;
-@property(nonatomic) int naturalTimeScale;
-@property(nonatomic) struct CGAffineTransform preferredTransform;
-@property(nonatomic) float preferredVolume;
-@property(copy, nonatomic) NSArray *segments;
 
 @end
 

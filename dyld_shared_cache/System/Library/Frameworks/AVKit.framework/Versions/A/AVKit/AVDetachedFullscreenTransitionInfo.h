@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface AVDetachedFullscreenTransitionInfo
 {
     unsigned long long _transitionType;
-    NSWindow *_originalWindow;
-    struct CGRect _originalViewFrame;
-    struct CGRect _originalViewVisibleFrame;
 }
 
 + (id);
@@ -21,13 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)detectControllerContent:context: /* Error: Ran out of types for this method. */;
+- (void)*
+K_	;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect originalViewFrame; // @synthesize originalViewFrame=_originalViewFrame;
-@property(readonly, nonatomic) struct CGRect originalViewVisibleFrame; // @synthesize originalViewVisibleFrame=_originalViewVisibleFrame;
-@property(readonly, nonatomic) NSWindow *originalWindow; // @synthesize originalWindow=_originalWindow;
 @property(readonly, nonatomic) unsigned long long transitionType; // @synthesize transitionType=_transitionType;
 
 @end

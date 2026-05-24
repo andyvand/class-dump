@@ -6,42 +6,21 @@
 
 #import <QuickLookThumbnailingDaemon/QLDiskCacheEnumerator.h>
 
-@class NSData, NSDictionary, NSMutableArray, NSMutableDictionary, QLCacheBlobInfo, QLCacheFileIdentifier, QLCacheIndexDatabaseQueryEnumerator, QLCacheThumbnailData, QLTBitmapFormat, QLTGeneratorThumbnailRequest;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface QLDiskCacheQueryEnumerator : QLDiskCacheEnumerator
 {
     NSDictionary *_generatorRequests;
-    NSMutableDictionary *_generatorRequestBeingProcessed;
-    QLCacheIndexDatabaseQueryEnumerator *_cacheIndexDatabaseEnumerator;
-    NSMutableArray *_sameGeneratorRequests;
-    QLCacheThumbnailData *_thumbnailData;
-    QLTGeneratorThumbnailRequest *_generatorRequest;
-    _Bool _valueFound;
-    _Bool _iconMode;
-    long long _iconVariant;
-    int _interpolationQuality;
-    unsigned long long _badgeType;
-    unsigned long long _cacheId;
-    QLCacheFileIdentifier *_fileIdentifier;
-    float _size;
-    QLTBitmapFormat *_bitmapFormat;
-    NSData *_bitmapData;
-    QLCacheBlobInfo *_bitmapDataBlobInfo;
-    NSData *_metadata;
-    QLCacheBlobInfo *_metadataBlobInfo;
-    int _flavor;
-    struct CGRect _contentRect;
-    unsigned long long _externalGeneratorDataHash;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)SYMPTOM_RNF_EXCEEDED_STAY;
+- (void)UnsatisfiedSystemPrerequisites;
+- (void)PriorityAllowed;
+- (void)domain;
+- (id)Undetermined;
+- (id)DatabaseIntegrityCheckFailed;
+- (void)iaison;
 - (id);
 - (id);
 - (unsigned long long);
@@ -49,29 +28,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)setHasTrailingSilenceDurationInNs:(int)arg1;
+- (int)setHasTimeSinceAppLastLaunchedInSec: /* Error: Ran out of types for this method. */;
+- (long long)setHasTaskAbandonCountInUsingApp7Days: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasTaskAbandonCountInUsingApp7Days: /* Error: Ran out of types for this method. */;
+- (void)setHasSportsExecutionTier1:(long long)arg1;
+- (void)setDialogScorer:(unsigned long long)arg1;
+- (unsigned long long)";
 - (void);
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)=;
 
 // Remaining properties
-@property unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property(retain) QLCacheBlobInfo *bitmapDataBlobInfo; // @synthesize bitmapDataBlobInfo=_bitmapDataBlobInfo;
-@property unsigned long long externalGeneratorDataHash; // @synthesize externalGeneratorDataHash=_externalGeneratorDataHash;
 @property(retain) NSMutableDictionary *generatorRequestBeingProcessed; // @synthesize generatorRequestBeingProcessed=_generatorRequestBeingProcessed;
-@property _Bool iconMode; // @synthesize iconMode=_iconMode;
-@property long long iconVariant; // @synthesize iconVariant=_iconVariant;
-@property int interpolationQuality; // @synthesize interpolationQuality=_interpolationQuality;
-@property(retain) NSMutableArray *sameGeneratorRequests; // @synthesize sameGeneratorRequests=_sameGeneratorRequests;
-@property float size; // @synthesize size=_size;
 
 @end
 

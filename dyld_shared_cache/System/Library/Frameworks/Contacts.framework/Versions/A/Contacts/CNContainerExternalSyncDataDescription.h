@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)bucketNameForDouble:bucketLimits:numberFormatter: /* Error: Ran out of types for this method. */;
+- (_Bool)se rate timer cancel;
 - (Class)0@ù
 × ;
 

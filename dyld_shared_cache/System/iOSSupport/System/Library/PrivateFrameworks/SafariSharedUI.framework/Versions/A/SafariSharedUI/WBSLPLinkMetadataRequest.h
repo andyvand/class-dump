@@ -11,9 +11,9 @@
     _Bool _allowFetching;
 }
 
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)updateAttendeesHandler;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowFetching; // @synthesize allowFetching=_allowFetching;

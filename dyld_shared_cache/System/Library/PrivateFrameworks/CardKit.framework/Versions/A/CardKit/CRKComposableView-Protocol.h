@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CRKComposableView
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSEdgeInsets cardSectionContentMargins;
-@property(readonly, nonatomic) NSArray *cardSectionSubviews;
 @end
 

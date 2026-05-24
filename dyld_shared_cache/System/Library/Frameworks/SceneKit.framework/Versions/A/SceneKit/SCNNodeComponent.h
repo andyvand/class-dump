@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNNodeComponent
 {
     long long type;
-    id component;
-    SCNNodeComponent *next;
 }
 
 - (id);
@@ -129,12 +127,10 @@ inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, floa
     return shadow;
 }
  /* Error: Ran out of types for this method. */;
-- (void)1;
+- (void)c1;
 - (id)>òw?;8?Ó¾Ô(t>Ñw?O?C¾.c>sx?×O?´¾âYR>shy?ÃE?AÓ¾ôB>Ø)z??¶¿ó½ãà2>åz?w÷?Æá½9µ#>${?¥?È^Ï½Õ>[@|?ü|?â?½½>äÚ|?¢y?Ìª½óñ=j}?u?>y½E¼Õ=í}?WCr?§v½Fx»=È_~?jo?çh½{¤¡=~Å~?ÓÚl?->E½[=ë?j?±"½â±_=e?L¨h?C;
 
 // Remaining properties
-@property(retain, nonatomic) id component; // @synthesize component;
-@property(retain, nonatomic) SCNNodeComponent *next; // @synthesize next;
 @property(nonatomic) long long type; // @synthesize type;
 
 @end

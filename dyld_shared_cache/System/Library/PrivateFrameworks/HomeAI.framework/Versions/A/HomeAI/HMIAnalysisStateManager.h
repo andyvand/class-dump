@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
 @protocol HMIAnalysisStateManagerDelegate;
 
 @interface HMIAnalysisStateManager
 {
     id <HMIAnalysisStateManagerDelegate> _delegate;
-    NSUUID *_homeUUID;
 }
 
 + (id)dle resource;
@@ -19,21 +17,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMIAnalysisStateManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) Class superclass;
 
 @end
 

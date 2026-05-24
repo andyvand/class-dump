@@ -4,64 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAccount, NSArray, NSDictionary, NSString;
-
 @interface IMServiceImpl
 {
     _Bool _isPersistent;
-    _Bool _ignoresNetworkConnectivity;
-    _Bool _handleIDInsensitivityIsCarrierBased;
-    _Bool _shouldDisableDeactivation;
-    _Bool _supportsCrossAccountIDSMessaging;
-    _Bool _isPlugInService;
-    _Bool _shouldReuseTypingIndicatorGUID;
-    _Bool _discontinued;
-    _Bool _allowsMultipleConnections;
-    _Bool _hasLoadedServiceProperties;
-    _Bool _supportsSMS;
-    _Bool _shouldInternationalizeNumbers;
-    _Bool _isDiscontinued;
-    _Bool _handlesChatInvites;
-    unsigned int _IDSensitivity;
-    unsigned int _screenNameSensitivity;
-    NSString *_name;
-    NSString *_shortName;
-    NSDictionary *_defaultAccountSettings;
-    unsigned long long _caseInsensitivityByHandleType;
-    NSArray *_emailDomains;
-    NSArray *_addressBookProperties;
-    NSString *_addressBookProperty;
-    NSString *_localizedName;
-    NSString *_localizedShortName;
-    IMAccount *_bestAccount;
-    NSDictionary *_defaultSettings;
-    NSArray *_siblingServiceNames;
-    NSArray *_abProperties;
-    NSDictionary *_serviceProps;
-    NSDictionary *_serviceDefaults;
-    NSString *_countryCode;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)didStop;
++ (_Bool)started[%d];
++ (id)ewOwrd=%f,newBWE=%d,ssrc=0x%x], worstLinkIndex=%d, arrivalTime=%f;
++ (_Bool)act bundled packets from CDRx audio packet bundler for index=%d;
++ (id)Total size:(id)arg1 %llu;
++ (id)e=%@, date=%@;
++ (id)bytes, dumpID %u) - %llu bytes remaining;
++ (id)enabled but message payload is empty for participant '%@';
++ (_Bool)led. Dropping the message...;
++ (_Bool)ediaRecorderRequest-startWithError;
++ (_Bool)antId=%@ participantUUID=%@ mediaType=%@ mediaState=%@;
++ (_Bool)ceived State Update:(id)arg1 transportSessionID=%u participantId=%@ participantUUID=%@ mediaType=%@ mediaState=%@;
++ (_Bool)ntrolConfigMessage is nil;
++ (id)anager:(unsigned long long)arg1 ImprovedPacketLossConcealmentAACELD=%d (feature flag=%d);
++ (id)e connection yet;
++ (id)mode;
++ (_Bool)mplemented yet;
++ (_Bool)remoteEndpoint with port=%u;
++ (_Bool)fying timestamp delta to timeStampDelta=%d because mic also jumped latestMicTimeStamp=%d to latestMicTimeStamp=%d, hostTime jumped latestMicHostTime=%f to inHostTime=%f;
++ (_Bool)leInternal/Library/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AUIO/AUIO.mm:(id)arg1 %d:(id)arg2 AUIO=%p Failed to start the packet thread result=%x;
 + (id);
 + (id);
 + (id);

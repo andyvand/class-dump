@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDTrailHeadFilter
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _factCount;
-    struct {
-        unsigned int has_factCount:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)removeItemAtPath:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)_guidanceLevelIgnoringTimeCriterion"b1"has_guidanceLevel"b1"has_navigationState"b1"has_navigationType"b1"has_trackedTransportType"b1"has_shouldSuppressCellularDataAlerts"b1};
-- (id)rchSubstringDescriptors;
+- (id)_searchSubstringDescriptors;
 - (id)P2;
 - (void);
 

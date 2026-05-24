@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDHistoryHandle, NSAttributedString, NSDate, NSError, NSMutableArray, NSString;
+@class IMDHistoryHandle, NSAttributedString;
 
 @interface IMDHistoryMessage
 {
     IMDHistoryHandle *_sender;
-    IMDHistoryHandle *_recipient;
-    NSDate *_time;
-    NSAttributedString *_text;
-    long long _flags;
-    NSString *_guid;
-    id _color;
-    NSError *_error;
-    NSAttributedString *_messageSubject;
-    NSAttributedString *_appKitText;
-    NSAttributedString *_superText;
-    long long _baseWritingDirection;
-    NSMutableArray *_attachments;
 }
 
 - (id);
@@ -29,7 +17,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -41,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ngEnabledByDefault:(id)arg1 ,V__cachingEnabledByDefault;
 - (id);
 - (_Bool);
 - (id);
@@ -55,27 +43,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void)ortedArrayUsingSelector:(id)arg1;
-- (id)ut;
+- (void)9;
+- (void)sortedArrayUsingSelector:(id)arg1;
+- (id)timeout;
 - (id)onating item ID %@ domain %@ to Suggestions with %ld pseudo-contacts %ld pseudo-events;
 - (void)ÇI;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *appKitText; // @synthesize appKitText=_appKitText;
-@property(retain) NSMutableArray *attachments; // @synthesize attachments=_attachments;
-@property long long baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(retain) id color; // @synthesize color=_color;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property long long flags; // @synthesize flags=_flags;
-@property(retain) NSString *guid; // @synthesize guid=_guid;
-@property(retain) NSAttributedString *messageSubject; // @synthesize messageSubject=_messageSubject;
-@property(retain) IMDHistoryHandle *recipient; // @synthesize recipient=_recipient;
-@property(retain) IMDHistoryHandle *sender; // @synthesize sender=_sender;
-@property(retain, nonatomic) NSAttributedString *superText; // @synthesize superText=_superText;
-@property(retain) NSAttributedString *text; // @dynamic text;
-@property(retain) NSDate *time; // @synthesize time=_time;
 
 @end
 

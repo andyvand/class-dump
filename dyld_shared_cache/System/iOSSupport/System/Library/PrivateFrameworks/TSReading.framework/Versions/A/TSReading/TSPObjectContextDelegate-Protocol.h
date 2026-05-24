@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSSet;
 @protocol NSFilePresenter;
 
 @protocol TSPObjectContextDelegate
 
-// Remaining properties
-@property(readonly, nonatomic) _Bool areNewExternalReferencesToDataAllowed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
+@optional
+- (void)n must always be from the same source;
+- (NSSet *)tempt to encode BehaviorMusic without _dataSources;
+- (NSDictionary *)ics;
+- (void)- forwarding to cancel stall timer;
+- (_Bool)cific action];
+- (void)(;
+- (void);
+- (_Bool);
 
+// Remaining properties
 @property(readonly, nonatomic) id <NSFilePresenter> filePresenter;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<NSFilePresenter>",?,R,N
-
-@property(readonly, nonatomic) _Bool ignoreDocumentSupport;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isDocumentSupportTemporary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
 
 @end
 

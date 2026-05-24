@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSWPColumn, TSWPShapeLayout;
+@class TSWPColumn;
 
 @interface TSWPInteriorCookie
 {
     TSWPColumn *_column;
-    TSWPShapeLayout *_shapeLayout;
 }
 
 - (void);
 - (id);
 - (void);
-- (id)LayoutSpaceType;
+- (id)mLayoutSpaceType;
 
 // Remaining properties
 @property(nonatomic) TSWPColumn *column; // @synthesize column=_column;
-@property(nonatomic) TSWPShapeLayout *layout; // @synthesize layout=_shapeLayout;
 
 @end
 

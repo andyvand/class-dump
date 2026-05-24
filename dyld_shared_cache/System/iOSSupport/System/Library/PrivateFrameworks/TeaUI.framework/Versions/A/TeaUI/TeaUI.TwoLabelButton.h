@@ -7,27 +7,13 @@
 @interface TeaUI.TwoLabelButton
 {
     id highlightMask;
-    id animationState;
-    id buttonState;
-    id animationTrigger;
-    id titleLabelNormal;
-    id titleLabelHighlighted;
-    id labelNormal;
-    id labelHighlighted;
-    id borderColor;
-    id backgroundColorNormal;
-    id backgroundColorHighlighted;
-    id onTap;
-    id currentBorderColor;
-    id currentBackgroundColorNormal;
-    id currentBackgroundColorHighlighted;
 }
 
 - (id);
+- (void)MutedTopics;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_accessibilityUnitTestingOrientation;
+- (id)userSegmentationSegmentSetIdsCount;
 - (void);
 - (void)<ëúÿHëúÿÌëúÿíúÿíúÿüíúÿ îúÿ\îúÿîúÿîúÿïúÿ¸ïúÿÜïúÿ;
 - (void)`Ðá;

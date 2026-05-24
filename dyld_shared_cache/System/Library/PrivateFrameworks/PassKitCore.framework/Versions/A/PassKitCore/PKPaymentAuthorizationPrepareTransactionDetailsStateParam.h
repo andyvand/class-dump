@@ -6,33 +6,27 @@
 
 #import <PassKitCore/PKPaymentAuthorizationStateParam.h>
 
-@class NSDecimalNumber, NSString, PKPaymentMerchantSession;
+@class PKPaymentMerchantSession;
 
 @interface PKPaymentAuthorizationPrepareTransactionDetailsStateParam : PKPaymentAuthorizationStateParam
 {
     PKPaymentMerchantSession *_merchantSession;
-    NSString *_secureElementIdentifier;
-    NSDecimalNumber *_transactionAmount;
-    NSString *_currencyCode;
 }
 
 + (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id)ror">32;
-- (void)Invitation;
+- (void)watchInvitation;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(retain, nonatomic) PKPaymentMerchantSession *merchantSession; // @synthesize merchantSession=_merchantSession;
-@property(copy, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
-@property(copy, nonatomic) NSDecimalNumber *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
 
 @end
 

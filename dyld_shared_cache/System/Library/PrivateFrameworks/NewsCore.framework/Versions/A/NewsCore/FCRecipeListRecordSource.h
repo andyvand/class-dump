@@ -15,7 +15,7 @@
 - (unsigned long long);
 - (id)!¤@ù)	Ð1Â0@ù
 × ;
-- (unsigned long long)Queue:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchTagsForTagIDs:qualityOfService:callbackQueue:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)letterEndpointConnection",R,N,V_newsletterEndpointConnection;
 - (unsigned long long)}±ÿÿÿÿÿh;
 - (id);

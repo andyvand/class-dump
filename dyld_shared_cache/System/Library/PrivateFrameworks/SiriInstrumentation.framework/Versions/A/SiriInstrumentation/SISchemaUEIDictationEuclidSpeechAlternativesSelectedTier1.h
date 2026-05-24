@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaEuclidConfusionPair;
+@class SISchemaEuclidConfusionPair;
 
 @interface SISchemaUEIDictationEuclidSpeechAlternativesSelectedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaEuclidConfusionPair *_confusionPair;
-    _Bool _hasConfusionPair;
 }
 
 - (void);
@@ -22,19 +21,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)bundleDirectoryName;
 - (_Bool);
-- (_Bool);
+- (_Bool)andles:(id)arg1 allowSubsetMatching:serviceNames:displayName:groupID:style:useOriginalGroupID:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)leteEntityFeedbackType;
-- (id)d;
-- (void)t;
+- (id);
+- (id)deleteEntityFeedbackType;
+- (id)_hasAsrId;
+- (void)aceHost;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaEuclidConfusionPair *confusionPair; // @synthesize confusionPair=_confusionPair;
-@property(nonatomic) _Bool hasConfusionPair; // @synthesize hasConfusionPair=_hasConfusionPair;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

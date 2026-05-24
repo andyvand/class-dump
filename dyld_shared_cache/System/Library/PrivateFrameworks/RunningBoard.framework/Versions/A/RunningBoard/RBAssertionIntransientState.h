@@ -4,58 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
-
 @interface RBAssertionIntransientState
 {
     _Bool _invalidatesSynchronously;
-    _Bool _preventsSuspension;
-    _Bool _isPersistent;
-    _Bool _hasHereditaryGrant;
-    _Bool _hasDomainAttribute;
-    _Bool _definesRelativeStartTime;
-    _Bool _terminateTargetOnOriginatorExit;
-    _Bool _suspendsOnOriginatorSuspension;
-    NSMutableSet *_sourceEnvironments;
-    unsigned long long _runningReason;
-    unsigned long long _legacyReason;
-    NSString *_domainAttributes;
-    NSMutableDictionary *_invalidatesOnConditions;
-    unsigned long long _startPolicy;
-    unsigned long long _endPolicy;
-    double _invalidationDuration;
-    double _warningDuration;
 }
 
-- (_Bool);
+- (_Bool)ailed;
+- (void)H;
+- (void);
+- (void),R;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_serialNumber;
+- (id)SSCAMetalLayerClientSession;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (double);
+- (void)ork/Versions/A/ScreenContinuityServices;
+- (double)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)recentPredictiveInputSelections;
 - (unsigned long long);
 - (double);
 - (void);
@@ -66,23 +48,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool definesRelativeStartTime; // @synthesize definesRelativeStartTime=_definesRelativeStartTime;
-@property(retain, nonatomic) NSString *domainAttributes; // @synthesize domainAttributes=_domainAttributes;
-@property(nonatomic) unsigned long long endPolicy; // @synthesize endPolicy=_endPolicy;
-@property(nonatomic) _Bool hasDomainAttribute; // @synthesize hasDomainAttribute=_hasDomainAttribute;
-@property(nonatomic) _Bool hasHereditaryGrant; // @synthesize hasHereditaryGrant=_hasHereditaryGrant;
-@property(retain, nonatomic) NSMutableDictionary *invalidatesOnConditions; // @synthesize invalidatesOnConditions=_invalidatesOnConditions;
-@property(nonatomic) _Bool invalidatesSynchronously; // @synthesize invalidatesSynchronously=_invalidatesSynchronously;
-@property(nonatomic) double invalidationDuration; // @synthesize invalidationDuration=_invalidationDuration;
 @property(nonatomic) _Bool isPersistent; // @synthesize isPersistent=_isPersistent;
-@property(nonatomic) unsigned long long legacyReason; // @synthesize legacyReason=_legacyReason;
-@property(nonatomic) _Bool preventsSuspension; // @synthesize preventsSuspension=_preventsSuspension;
-@property(nonatomic) unsigned long long runningReason; // @synthesize runningReason=_runningReason;
-@property(readonly, nonatomic) NSMutableSet *sourceEnvironments; // @synthesize sourceEnvironments=_sourceEnvironments;
-@property(nonatomic) unsigned long long startPolicy; // @synthesize startPolicy=_startPolicy;
-@property(nonatomic) _Bool suspendsOnOriginatorSuspension; // @synthesize suspendsOnOriginatorSuspension=_suspendsOnOriginatorSuspension;
-@property(nonatomic) _Bool terminateTargetOnOriginatorExit; // @synthesize terminateTargetOnOriginatorExit=_terminateTargetOnOriginatorExit;
-@property(nonatomic) double warningDuration; // @synthesize warningDuration=_warningDuration;
 
 @end
 

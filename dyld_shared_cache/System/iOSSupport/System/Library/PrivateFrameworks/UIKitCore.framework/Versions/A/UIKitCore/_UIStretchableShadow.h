@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (struct CGImage *);
-+ (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *)Message %@:(double)arg1 Original transfer %@ not found for asset %@;
++ (struct CGImage *)questing asset for %@, not in transfer map. %lu left for processing;
++ (struct CGImage *)e file URLs for asset %@;
 + (id);
 
 @end

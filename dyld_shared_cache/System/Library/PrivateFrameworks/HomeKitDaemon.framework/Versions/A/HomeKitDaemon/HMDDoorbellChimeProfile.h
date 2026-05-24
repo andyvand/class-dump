@@ -6,46 +6,30 @@
 
 #import <HomeKitDaemon/HMDAccessoryProfile.h>
 
-@class NSDate, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDDoorbellChimeProfile : HMDAccessoryProfile
 {
     struct os_unfair_lock_s _lock;
-    long long _lastChimeMode;
-    NSDate *_lastChimeDate;
-    NSString *_lastPersonIdentificationText;
-    NSUUID *_lastAccessoryUUID;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)contentScoreSortDescriptors;
+- (void)cident;
+- (void)_name;
+- (void)psDirectory;
+- (void)tring",R,N,V_initiatorIdentifier;
+- (void)_fetchRequiresUserConfirmationOfSharingIdentityWithCompletion;
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)urifierState;
+- (void)airPurifierState;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSUUID *lastAccessoryUUID; // @synthesize lastAccessoryUUID=_lastAccessoryUUID;
-@property(copy, nonatomic) NSDate *lastChimeDate; // @synthesize lastChimeDate=_lastChimeDate;
 @property(nonatomic) long long lastChimeMode; // @synthesize lastChimeMode=_lastChimeMode;
-@property(copy, nonatomic) NSString *lastPersonIdentificationText; // @synthesize lastPersonIdentificationText=_lastPersonIdentificationText;
-@property(readonly) Class superclass;
 
 @end
 

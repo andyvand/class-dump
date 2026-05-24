@@ -9,19 +9,17 @@
 @interface CHChatBubbleRecognitionResult : CHEllipseRecognitionResult
 {
     double _stemWidth;
-    struct CGPoint _stemLocation;
 }
 
-+ (_Bool);
-- (double);
++ (_Bool)_effect5;
+- (double)P	;
 - (struct CGPoint);
 - (id);
 - (id);
-- (void);
+- (void)to get asset path for locale:(id)arg1 %@ after download. error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) struct CGPoint stemLocation; // @synthesize stemLocation=_stemLocation;
-@property(readonly) double stemWidth; // @synthesize stemWidth=_stemWidth;
 
 @end
 

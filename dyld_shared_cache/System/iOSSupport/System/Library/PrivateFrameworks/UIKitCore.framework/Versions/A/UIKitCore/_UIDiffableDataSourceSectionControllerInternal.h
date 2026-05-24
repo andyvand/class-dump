@@ -12,12 +12,12 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)accountsLoadedFromIdentityServices;
+- (id)accountsForService:(id)arg1;
+- (id)Dispatch;
 - (void);
 - (void);
-- (void)frameLayoutGuide;
+- (void)_frameLayoutGuide;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *associatedSectionIdentifiers; // @dynamic associatedSectionIdentifiers;

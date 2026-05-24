@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface NSTextEncapsulation
 {
     unsigned long long scale;
-    unsigned long long platterSize;
-    unsigned long long shape;
-    unsigned long long style;
-    double lineWeight;
-    double minimumWidth;
-    NSColor *color;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSColor *color; // @synthesize color;
-@property double lineWeight; // @synthesize lineWeight;
-@property double minimumWidth; // @synthesize minimumWidth;
-@property unsigned long long platterSize; // @synthesize platterSize;
 @property unsigned long long scale; // @synthesize scale;
-@property unsigned long long shape; // @synthesize shape;
-@property unsigned long long style; // @synthesize style;
 
 @end
 

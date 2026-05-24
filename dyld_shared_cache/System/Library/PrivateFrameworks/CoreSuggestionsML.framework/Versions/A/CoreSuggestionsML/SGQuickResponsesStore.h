@@ -12,30 +12,30 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
-+ (void);
++ (void)scaleAndAddNoiseToDenseVector:usingNorm:scaleFactor: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (id);
+- (id);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (unsigned long long);
 - (_Bool);
 - (void);

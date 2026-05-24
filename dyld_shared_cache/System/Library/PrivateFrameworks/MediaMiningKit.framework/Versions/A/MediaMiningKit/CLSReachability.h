@@ -7,19 +7,18 @@
 @interface CLSReachability
 {
     struct __SCNetworkReachability *_reachabilityRef;
-    _Bool _localWiFiRef;
 }
 
 + (id);
-+ (id);
++ (id)evenlySelectQuestionsByType:limit: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 - (long long);
-- (long long);
+- (long long)z;
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)anyNode;
 - (_Bool);
 - (id);
 

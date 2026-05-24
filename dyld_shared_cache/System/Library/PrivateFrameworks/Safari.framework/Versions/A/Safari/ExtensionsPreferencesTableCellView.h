@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface ExtensionsPreferencesTableCellView
 {
     NSButton *_checkbox;
-    NSTextField *_subtitleTextField;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSButton *checkbox; // @synthesize checkbox=_checkbox;
-@property(nonatomic) __weak NSTextField *subtitleTextField; // @synthesize subtitleTextField=_subtitleTextField;
 
 @end
 

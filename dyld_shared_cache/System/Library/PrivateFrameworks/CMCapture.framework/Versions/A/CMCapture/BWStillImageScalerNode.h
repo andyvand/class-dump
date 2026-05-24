@@ -6,36 +6,23 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPixelBufferPool, BWStillImageNodeConfiguration, NSDictionary, NSMutableDictionary;
+@class BWStillImageNodeConfiguration;
 
 @interface BWStillImageScalerNode : BWNode
 {
     BWStillImageNodeConfiguration *_nodeConfiguration;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    int _poolBaseCapacity;
-    BWPixelBufferPool *_pool;
-    struct OpaqueVTPixelTransferSession *_scalingSession;
-    _Bool _blackFillingRequired;
-    _Bool _enforcesZoomingForPortraitCaptures;
-    NSDictionary *_mainImageDownscalingFactorByAttachedMediaKey;
-    NSDictionary *_outputSizeByAttachedMediaKey;
-    NSMutableDictionary *_pixelBufferPoolByAttachedMediaKey;
-    struct OpaqueVTPixelTransferSession *_attachedMediaScalingSession;
-    _Bool _backPressureDrivenPipelining;
-    CDStruct_79c71658 _resizedOutputDimensions;
-    _Bool _preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer;
 }
 
 + (void)Arbitration.framework/Contents/MacOS/DiskArbitration;
 - (_Bool);
-- (void);
+- (void)EDMergedCellCollection;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_messageSendingService;
 - (id);
-- (id);
+- (id)A#;
 - (void);
 - (void);
 - (void);

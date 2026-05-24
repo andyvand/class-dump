@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRImageReaderTrackingResult, NSObject, VisionCoreSparseOpticalFlowResult, VisionCoreSparseOpticalFlowSession;
-@protocol OS_dispatch_queue;
-
 @interface CRImageReaderTrackingSession
 {
     _Bool _usesGroupedRegions;
-    _Bool _wasLatestFrameUnstableForFirstAcquisition;
-    _Bool _debuggingSession;
-    _Bool _ocrInProgress;
-    _Bool _useLumaInput;
-    _Bool _shouldIncludeLinesInTrackingResult;
-    _Bool _didDispatchOCROnFrame;
-    _Bool _didRunAssociationOnFrame;
-    _Bool _wasLastFrameUnstableForFirstAcquisition;
-    float _downscaleRate;
-    CRImageReaderTrackingResult *_latestResult;
-    unsigned long long _trackingLevel;
-    NSObject<OS_dispatch_queue> *_ocrQueue;
-    unsigned long long _frameCount;
-    unsigned long long _frameCountSinceLastAssociationEnded;
-    unsigned long long _ocrFrameInterval;
-    double _lastApplyOpticalFlowTrackingStartTime;
-    double _replacedQuadArea;
-    double _totalQuadArea;
-    VisionCoreSparseOpticalFlowSession *_optFlowSession;
-    VisionCoreSparseOpticalFlowResult *_debuggingResult;
-    VisionCoreSparseOpticalFlowResult *_debuggingMemoryResult;
-    double _lastOCRDispatchTime;
-    double _lastFrameTime;
-    unsigned long long _ocrUpdateMode;
-    double _lowFrequencyOCRElapsedTimeAboveMinimumStability;
-    struct queue<double, std::deque<double>> _ocrDispatchTimestamps;
-    CDStruct_1fe29af2 _sceneHomography;
-    CDStruct_1fe29af2 _accumulatedSceneHomography;
 }
 
 + (unsigned long long);
@@ -63,14 +32,7 @@
 - (void)16;
 
 // Remaining properties
-@property _Bool didDispatchOCROnFrame; // @synthesize didDispatchOCROnFrame=_didDispatchOCROnFrame;
-@property _Bool didRunAssociationOnFrame; // @synthesize didRunAssociationOnFrame=_didRunAssociationOnFrame;
-@property(retain) CRImageReaderTrackingResult *latestResult; // @synthesize latestResult=_latestResult;
-@property double lowFrequencyOCRElapsedTimeAboveMinimumStability; // @synthesize lowFrequencyOCRElapsedTimeAboveMinimumStability=_lowFrequencyOCRElapsedTimeAboveMinimumStability;
-@property unsigned long long ocrUpdateMode; // @synthesize ocrUpdateMode=_ocrUpdateMode;
 @property _Bool shouldIncludeLinesInTrackingResult; // @synthesize shouldIncludeLinesInTrackingResult=_shouldIncludeLinesInTrackingResult;
-@property(readonly) _Bool usesGroupedRegions;
-@property(readonly) _Bool wasLatestFrameUnstableForFirstAcquisition; // @synthesize wasLatestFrameUnstableForFirstAcquisition=_wasLatestFrameUnstableForFirstAcquisition;
 
 @end
 

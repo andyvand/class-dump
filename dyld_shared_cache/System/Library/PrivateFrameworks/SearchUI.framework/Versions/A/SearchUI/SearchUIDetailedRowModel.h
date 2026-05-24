@@ -6,37 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionRowModel.h>
 
-@class MKSearchFoundationResult, NSArray, NSString, SFActionItem, SFButton, SFFormattedText, SFImage, SFRichText;
+@class SFImage;
 
 @interface SearchUIDetailedRowModel : SearchUICardSectionRowModel
 {
     _Bool _preventThumbnailImageScaling;
-    _Bool _isLocalApplicationResult;
-    _Bool _truncateTitleMiddle;
-    _Bool _secondaryTitleIsDetached;
-    _Bool _buttonItemsAreTrailing;
-    _Bool _useAlternateDetails;
-    SFImage *_leadingImage;
-    SFImage *_fallbackImage;
-    SFButton *_leadingButton;
-    NSString *_nearbyBusinessesString;
-    SFRichText *_topText;
-    SFRichText *_title;
-    SFFormattedText *_secondaryTitle;
-    SFImage *_secondaryTitleImage;
-    NSArray *_details;
-    SFRichText *_footnote;
-    NSString *_footnoteButtonText;
-    SFActionItem *_action;
-    SFRichText *_trailingTopText;
-    SFRichText *_trailingMiddleText;
-    SFRichText *_trailingBottomText;
-    NSArray *_buttonItems;
-    SFImage *_trailingThumbnail;
-    NSString *_pinText;
-    MKSearchFoundationResult *_mapsResult;
-    NSArray *_alternateDetails;
-    SFImage *_alternateLeadingImage;
 }
 
 + (id);
@@ -46,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
@@ -64,42 +38,42 @@
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)d lexicon, %@;
+- (_Bool)redict on;
+- (void)onsesStore:(_Bool)arg1 Unexpected null value for custom_responses.recipient;
+- (void)QuickResponses.;
+- (void)@ not supported?);
+- (_Bool)r %@;
+- (id)];
+- (void);
+- (void)s;
+- (id)responseForFetcher:withImage: /* Error: Ran out of types for this method. */;
+- (id).aa;
+- (id)beard_basic.aa;
+- (id)tar_rimless.aa;
+- (void)doubleCurve_angled_thin.aa;
+- (void)outfit_leatherJacket_right_collatZipper;
+- (void).heic;
+- (id)_down_centerPart_HIGHLIGHTS.heic;
+- (_Bool)headwear_firefighter;
+- (id)ad_hair_wavy_long_mid_upDo_AO.heic;
+- (_Bool)eyewear_semirimless_wire;
+- (id)s_even_rounded_thin.heic;
+- (id)earrings_left_roundStud;
+- (id)ed.heic;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void)-;
+- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ector.swift;
+- (void)Speech10SomeResult33_94CB77BB9A0C7D73CCFFEC4A056F3C07LLP;
 - (id);
 - (id);
 - (_Bool);
@@ -108,7 +82,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(%@) without FPS (%@):The fetch seems to have failed. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -116,40 +90,12 @@
 - (void);
 - (id)ÔAè!pGùQ2°1Â0@ù
 × ;
-- (void)WatchListState:(id)arg1;
-- (void)sController;
+- (void)setWatchListState:(id)arg1;
+- (void)_quickActionsController;
 - (int)|øÿê²ó@h;
 
 // Remaining properties
-@property(retain) SFActionItem *action; // @synthesize action=_action;
-@property(retain, nonatomic) NSArray *alternateDetails; // @synthesize alternateDetails=_alternateDetails;
-@property(retain, nonatomic) SFImage *alternateLeadingImage; // @synthesize alternateLeadingImage=_alternateLeadingImage;
-@property(retain) NSArray *buttonItems; // @synthesize buttonItems=_buttonItems;
-@property _Bool buttonItemsAreTrailing; // @synthesize buttonItemsAreTrailing=_buttonItemsAreTrailing;
-@property(retain, nonatomic) NSArray *details; // @synthesize details=_details;
-@property(retain) SFImage *fallbackImage; // @synthesize fallbackImage=_fallbackImage;
-@property(retain) SFRichText *footnote; // @synthesize footnote=_footnote;
-@property(retain) NSString *footnoteButtonText; // @synthesize footnoteButtonText=_footnoteButtonText;
-@property _Bool isLocalApplicationResult; // @synthesize isLocalApplicationResult=_isLocalApplicationResult;
-@property(retain) SFButton *leadingButton; // @synthesize leadingButton=_leadingButton;
 @property(retain, nonatomic) SFImage *leadingImage; // @synthesize leadingImage=_leadingImage;
-@property(retain) MKSearchFoundationResult *mapsResult; // @synthesize mapsResult=_mapsResult;
-@property(retain) NSString *nearbyBusinessesString; // @synthesize nearbyBusinessesString=_nearbyBusinessesString;
-@property(retain) NSString *pinText; // @synthesize pinText=_pinText;
-@property _Bool preventThumbnailImageScaling; // @synthesize preventThumbnailImageScaling=_preventThumbnailImageScaling;
-@property(retain) SFFormattedText *secondaryTitle; // @synthesize secondaryTitle=_secondaryTitle;
-@property(retain) SFImage *secondaryTitleImage; // @synthesize secondaryTitleImage=_secondaryTitleImage;
-@property _Bool secondaryTitleIsDetached; // @synthesize secondaryTitleIsDetached=_secondaryTitleIsDetached;
-@property(retain) SFRichText *title; // @synthesize title=_title;
-@property(retain) SFRichText *topText; // @synthesize topText=_topText;
-@property(retain) SFRichText *trailingBottomText; // @synthesize trailingBottomText=_trailingBottomText;
-@property(retain) SFRichText *trailingMiddleText; // @synthesize trailingMiddleText=_trailingMiddleText;
-@property(retain) SFImage *trailingThumbnail; // @synthesize trailingThumbnail=_trailingThumbnail;
-@property(retain) SFRichText *trailingTopText; // @synthesize trailingTopText=_trailingTopText;
-@property(readonly) _Bool truncateDetailsMiddle;
-@property _Bool truncateTitleMiddle; // @synthesize truncateTitleMiddle=_truncateTitleMiddle;
-@property(nonatomic) _Bool useAlternateDetails; // @synthesize useAlternateDetails=_useAlternateDetails;
-@property(readonly) _Bool useCompactVersionOfUI;
 
 @end
 

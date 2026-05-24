@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFNotificationRegistration.h>
 
-@class MKFNotificationRegistrationCharacteristicDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFCharacteristic, MKFGuest, MKFHome, MKFUser;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFNotificationRegistrationCharacteristic : _MKFNotificationRegistration
@@ -23,25 +22,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFCharacteristic> characteristic; // @dynamic characteristic;
-@property(readonly, copy, nonatomic) MKFNotificationRegistrationCharacteristicDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSNumber *enabled;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(copy, nonatomic) NSDate *lastModified;
 @property(copy, nonatomic) NSNumber *lastNotifiedValue; // @dynamic lastNotifiedValue;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSNumber *notificationThreshold; // @dynamic notificationThreshold;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

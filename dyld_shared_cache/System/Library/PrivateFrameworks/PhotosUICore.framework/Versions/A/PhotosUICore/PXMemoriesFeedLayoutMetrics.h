@@ -9,18 +9,16 @@
 @interface PXMemoriesFeedLayoutMetrics
 {
     PXMemoriesSpec *_spec;
-    struct NSEdgeInsets _contentInsets;
 }
 
 - (void);
 - (id);
 - (void);
 - (struct NSEdgeInsets);
-- (id)ansitionFallbacks;
+- (id)possibleTransitionFallbacks;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
 @property(retain, nonatomic) PXMemoriesSpec *spec; // @synthesize spec=_spec;
 
 @end

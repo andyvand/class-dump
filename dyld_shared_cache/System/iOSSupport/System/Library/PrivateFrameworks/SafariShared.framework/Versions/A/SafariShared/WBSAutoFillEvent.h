@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID;
+@class NSString;
 
 @interface WBSAutoFillEvent
 {
     _Bool _isPrivateTab;
-    _Bool _passwordWasFilled;
-    NSString *_username;
-    NSUUID *_tabID;
-    NSString *_domain;
-    NSURL *_url;
-    unsigned long long _machTimestamp;
-    NSString *_providerBundleIdentifier;
 }
 
 - (unsigned long long);
@@ -39,15 +32,6 @@
 - (void)ÌÔ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool isExternalCredentialProviderEvent;
-@property(nonatomic) _Bool isPrivateTab; // @synthesize isPrivateTab=_isPrivateTab;
-@property(nonatomic) unsigned long long machTimestamp; // @synthesize machTimestamp=_machTimestamp;
-@property(readonly, nonatomic) _Bool passwordWasFilled; // @synthesize passwordWasFilled=_passwordWasFilled;
-@property(copy, nonatomic) NSString *providerBundleIdentifier; // @synthesize providerBundleIdentifier=_providerBundleIdentifier;
-@property(retain, nonatomic) NSUUID *tabID; // @synthesize tabID=_tabID;
-@property(readonly, nonatomic) unsigned long long timeIntervalSinceTimestamp;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol IMSyncedSettingsManaging
+
+@optional
+- (_Bool);
+- (void)o];
 @end
 

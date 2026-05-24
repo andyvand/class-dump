@@ -7,9 +7,12 @@
 @class NSData, NSURL;
 
 @protocol SCNSceneSourceJSExport
+- (id);
+- (NSData *)T;
+- (NSURL *)_fileProviderItem;
+- (id)er"16@"WKWebProcessPlugInFrame"24@"NSError"32;
 
 // Remaining properties
-@property(readonly) NSData *data;
 @property(readonly) NSURL *url;
 @end
 

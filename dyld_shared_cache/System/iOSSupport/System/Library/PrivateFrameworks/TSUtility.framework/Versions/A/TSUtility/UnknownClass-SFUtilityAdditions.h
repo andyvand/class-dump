@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface UnknownClass (SFUtilityAdditions)
++ (id)nnelPickerInteractorTypeP;
 + (id);
++ (id)7NewsUI234ShortcutsOnboardingManagerObserverP;
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (void)DelegateP;
++ (void)pInteractorTypeP;
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (id);
-- (id);
+- (id)agerTypeP;
+- (id)s7NewsUI240ContentShortcutsEventHandlerTypeDelegateP;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *downloadTaskDescription;
-@property(readonly, nonatomic) NSURL *downloadURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool needsDownload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long totalBytesExpectedToBeDownloaded;
 @property(readonly, nonatomic) NSString *tsu_UTI;
 @end
 

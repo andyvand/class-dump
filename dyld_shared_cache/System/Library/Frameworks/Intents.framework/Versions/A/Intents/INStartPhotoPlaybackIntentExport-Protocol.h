@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class INDateComponentsRange, NSArray;
 
 @protocol INStartPhotoPlaybackIntentExport
+- (void);
+- (NSArray *)buttonB;
 
 // Remaining properties
-@property(copy) NSString *albumName;
 @property(copy) INDateComponentsRange *dateCreated;
-@property unsigned long long excludedAttributes;
-@property unsigned long long includedAttributes;
-@property(copy) CLPlacemark *locationCreated;
-@property(copy) NSArray *peopleInPhoto;
-@property(copy) NSArray *searchTerms;
 @end
 

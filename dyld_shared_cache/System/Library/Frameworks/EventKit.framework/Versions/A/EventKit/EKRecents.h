@@ -8,24 +8,24 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (Class);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (void)evice %{public}@ for context:(id)arg1 %{public}@;
++ (_Bool)ntext] NotifyChanges took %lf seconds;
++ (_Bool)ices took %lf seconds;
++ (_Bool)%f seconds;
++ (id)SendCommandWithResult;
++ (id)ding %@ Command with Timestamp:(id)arg1 %@;
++ (id)Clearing nowPlayingInfo;
++ (id)entical nowPlayingInfo, skipping update.;
++ (_Bool)rk (id:(id)arg1 %{public}@):(id)arg2 %@;
++ (id)nvalidation to %@;
++ (id)ybackStateDidChangeNotification with new PlaybackState %@.;
++ (id)uest:(id)arg1 %{public}@;
++ (id)GetDisplayName(MROriginRef);
++ (Class)ginRef, MROriginRef);
++ (id)ginRef);
++ (id)nRef MROriginCreateSkeletonFrom(MROriginRef);
++ (id)lDeviceRequestOutputContextModification(MRExternalDeviceRef, MRAVOutputContextType, CFArrayRef, CFArrayRef, CFArrayRef, __strong dispatch_queue_t, void (^__strong)(CFErrorRef));
++ (id)fully connected but could not fetch the origin for %@;
 + (id);
 
 @end

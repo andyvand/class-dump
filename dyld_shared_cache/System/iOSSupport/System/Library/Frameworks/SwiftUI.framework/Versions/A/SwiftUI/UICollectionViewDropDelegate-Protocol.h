@@ -8,7 +8,7 @@
 
 @optional
 - (_Bool);
-- (void)mumDate;
+- (void)minimumDate;
 - (void);
 @end
 

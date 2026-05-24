@@ -6,35 +6,33 @@
 
 #import <CoreHandwriting/CHQuery.h>
 
-@class NSArray, NSCharacterSet, NSSet, NSString;
+@class NSArray, NSString;
 
 @interface CHPrefixQuery : CHQuery
 {
     NSArray *_foundItems;
-    NSSet *_validSuffixes;
-    NSCharacterSet *_queryDelimiters;
-    NSString *_prefix;
 }
 
 + (id);
-+ (id);
++ (id)JB
+Q;
 + (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)
+(;
 - (_Bool);
 - (id);
+- (id)	
+;
+- (_Bool);
 - (id);
+- (id)numAzimuthBuckets;
 - (void)è;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *foundItems;
 @property(readonly, copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(copy, nonatomic) NSSet *validSuffixes;
 
 @end
 

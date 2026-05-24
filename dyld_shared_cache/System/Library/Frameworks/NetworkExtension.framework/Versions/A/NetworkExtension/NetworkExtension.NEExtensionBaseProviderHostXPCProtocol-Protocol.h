@@ -5,5 +5,6 @@
 //
 
 @protocol NetworkExtension.NEExtensionBaseProviderHostXPCProtocol
+- (void);
 @end
 

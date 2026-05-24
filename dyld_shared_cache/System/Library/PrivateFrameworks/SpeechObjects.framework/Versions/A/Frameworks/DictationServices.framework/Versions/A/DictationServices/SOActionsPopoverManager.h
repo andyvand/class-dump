@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover, NSString, SOActionsListViewController, SOElementProxyWindow;
-@protocol NSObject;
+@class SOActionsListViewController;
 
 @interface SOActionsPopoverManager
 {
     _Bool _isAnimatingShow;
-    _Bool _isAnimatingClose;
-    SOActionsListViewController *_actionsListViewController;
-    SOElementProxyWindow *_elementProxyWindow;
-    NSPopover *_actionsPopover;
-    double _startAnimatingPopoverCloseTimestamp;
-    id <NSObject> _observerPopoverWillShow;
-    id <NSObject> _observerPopoverDidShow;
-    id <NSObject> _observerPopoverWillClose;
-    id <NSObject> _observerPopoverDidClose;
-    CDUnknownBlockType _didShowBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (id);
-- (double);
+- (double)h;
 - (void);
 - (void);
 - (void);
@@ -42,7 +30,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -58,25 +46,6 @@
 
 // Remaining properties
 @property(retain) SOActionsListViewController *actionsListViewController; // @synthesize actionsListViewController=_actionsListViewController;
-@property NSPopover *actionsPopover; // @synthesize actionsPopover=_actionsPopover;
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType didShowBlock; // @synthesize didShowBlock=_didShowBlock;
-@property SOElementProxyWindow *elementProxyWindow; // @synthesize elementProxyWindow=_elementProxyWindow;
-@property(readonly) unsigned long long hash;
-@property _Bool isAnimatingClose; // @synthesize isAnimatingClose=_isAnimatingClose;
-@property _Bool isAnimatingShow; // @synthesize isAnimatingShow=_isAnimatingShow;
-@property(readonly) _Bool isVisible;
-@property(retain) id <NSObject> observerPopoverDidClose; // @synthesize observerPopoverDidClose=_observerPopoverDidClose;
-@property(retain) id <NSObject> observerPopoverDidShow; // @synthesize observerPopoverDidShow=_observerPopoverDidShow;
-@property(retain) id <NSObject> observerPopoverWillClose; // @synthesize observerPopoverWillClose=_observerPopoverWillClose;
-@property(retain) id <NSObject> observerPopoverWillShow; // @synthesize observerPopoverWillShow=_observerPopoverWillShow;
-@property double startAnimatingPopoverCloseTimestamp; // @synthesize startAnimatingPopoverCloseTimestamp=_startAnimatingPopoverCloseTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

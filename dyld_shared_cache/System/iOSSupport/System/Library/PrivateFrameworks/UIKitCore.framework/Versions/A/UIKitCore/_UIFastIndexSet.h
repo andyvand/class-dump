@@ -31,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (id)ñbð1Â0@ù
 × ;
 - (id)Size=dd}32;
-- (_Bool)toredAccessibilityFrame;
+- (_Bool)storedAccessibilityFrame;
 - (id)sInvertColors,S_setAncestorIgnoresInvertColors:(struct _NSZone *)arg1;
-- (id)Configuration;
+- (id)_tintedGlassButtonConfiguration;
 - (void)\ûÿÿ@Çêÿh¥þ¨þÿ;
 - (struct _NSRange)_UIKeyboardBackdropTransition;
 - (unsigned long long)-%p;

@@ -10,30 +10,27 @@ __attribute__((visibility("hidden")))
 @interface _NSFullScreenTransitionController
 {
     unsigned long long _signpostID;
-    _NSFullScreenSpace *_space;
-    _Bool _sawActiveSpaceChange;
 }
 
-+ (_Bool);
++ (_Bool)T;
 + (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (void)FDRSealingMapCopyInstanceForClass_fn %p;
+- (void)rameters using %s proxy configuration;
+- (void)ata %zu complete %{bool}d;
+- (unsigned int)th identifier %lu because there is no such task;
 - (void);
+- (id)(C;
+- (void)ework/CloudDocs;
 - (void);
-- (void);
-- (unsigned int);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id));
 - (void)iew of kind:%@ with identifier %@ - must register a nib or a class for the identifier, or name a nib or class to match the identifier /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _NSFullScreenSpace *space; // @synthesize space=_space;
-@property(readonly, nonatomic) _Bool wantsExtendedDynamicRange;
 
 @end
 

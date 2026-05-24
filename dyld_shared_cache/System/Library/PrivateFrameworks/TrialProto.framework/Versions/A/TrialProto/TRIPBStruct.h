@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *fields; // @dynamic fields;
-@property(readonly, nonatomic) unsigned long long fields_Count; // @dynamic fields_Count;
 
 @end
 

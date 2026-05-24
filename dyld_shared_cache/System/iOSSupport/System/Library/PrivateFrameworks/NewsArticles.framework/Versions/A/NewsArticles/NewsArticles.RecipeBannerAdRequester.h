@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeBannerAdRequester
 {
     id bannerAdFactory;
-    id bannerAdJournal;
-    id requestManager;
 }
 
 @end

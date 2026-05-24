@@ -5,5 +5,6 @@
 //
 
 @protocol AXMAVCaptureSessionNodeFrameDelegate
+- (void);
 @end
 

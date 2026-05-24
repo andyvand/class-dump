@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCurrentTimeMarkerView, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, UIColor, UIImage, UIView, UIVisualEffect;
-@protocol EKDayTimeViewDelegate;
+@class NSMutableArray;
 
 @interface EKDayTimeView
 {
     NSMutableArray *_contentViews;
-    NSMutableDictionary *_visualEffectViews;
-    unsigned int _leftBorder:1;
-    unsigned int _rightBorder:1;
-    double _highlightedHour;
-    long long _orientation;
-    long long _targetSizeClass;
-    EKCurrentTimeMarkerView *_timeMarker;
-    UIView *_timeMarkerExtension;
-    double _timeWidth;
-    _Bool _cachedHoursAreDark;
-    UIImage *_cachedHours[25];
-    double _curtainHeight;
-    UIView *_curtain;
-    NSLayoutConstraint *_curtainHeightConstraint;
-    _Bool _showsTimeMarker;
-    _Bool _showsTimeMarkerExtension;
-    UIColor *_timeColor;
-    UIColor *_timeMarkerExtensionColor;
-    double _hoursToPad;
-    UIVisualEffect *_visualEffect;
-    double _hourHeightScale;
-    double _hourHeight;
-    id <EKDayTimeViewDelegate> _delegate;
-    struct _NSRange _hoursToRender;
 }
 
 + (double);
@@ -41,25 +16,25 @@
 + (double);
 + (id);
 + (double);
-+ (id);
++ (id)ror">;
 + (void);
-+ (id);
-+ (id);
++ (id)@@"CKRecordID";
++ (id)<v@?@"FBSSceneMessage"@"NSError">;
 + (double);
 + (id);
-+ (double);
-+ (void);
++ (double);
++ (void)(f;
 + (void);
 + (struct CGRect);
-+ (double);
++ (double)Rk;
 + (void);
 + (double);
-+ (id);
++ (id)(;
 + (double);
 + (double);
 + (double);
 + (id);
-+ (double);
++ (double)initWithPrompt:message:okButton:cancelButton:attribution: /* Error: Ran out of types for this method. */;
 + (id);
 + (struct CGRect);
 + (double);
@@ -71,25 +46,25 @@
 - (void);
 - (long long);
 - (void);
-- (double);
-- (void);
+- (double)@@;
+- (void)@@"MTTimerDuration";
 - (struct CGSize);
-- (double);
+- (double);
 - (void);
-- (void);
-- (void);
+- (void)"XCUIElementSnapshotRequestResult";
+- (void)or">;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|�|;
 - (struct _NSRange);
 - (void);
 - (void);
-- (id);
+- (id)FetchablePredicateConversionError;
 - (double);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
@@ -104,9 +79,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)/CoreText;
+- (id)_iconImage;
+- (void)ymbol;
 - (void);
 - (void);
 - (id);
@@ -118,35 +93,14 @@
 - (void);
 - (void);
 - (_Bool)e>";
-- (void)barButtonItem:forEvent:stringForDeleteButton:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)presentDeleteAlertWithOptions:viewController:barButtonItem:forEvent:stringForDeleteButton:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void)ôÿÆð_;
 - (void)8!	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultHeight;
-@property(nonatomic) __weak id <EKDayTimeViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double highlightedHour;
-@property(readonly, nonatomic) double hourHeight; // @synthesize hourHeight=_hourHeight;
-@property(nonatomic) double hourHeightScale; // @synthesize hourHeightScale=_hourHeightScale;
-@property(nonatomic) double hoursToPad; // @synthesize hoursToPad=_hoursToPad;
-@property(nonatomic) struct _NSRange hoursToRender; // @synthesize hoursToRender=_hoursToRender;
 @property(nonatomic) _Bool showsLeftBorder;
-@property(nonatomic) _Bool showsRightBorder;
-@property(nonatomic) _Bool showsTimeMarker; // @synthesize showsTimeMarker=_showsTimeMarker;
-@property(nonatomic) _Bool showsTimeMarkerExtension; // @synthesize showsTimeMarkerExtension=_showsTimeMarkerExtension;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIColor *timeColor; // @synthesize timeColor=_timeColor;
-@property(readonly, nonatomic) EKCurrentTimeMarkerView *timeMarker;
-@property(retain, nonatomic) UIColor *timeMarkerExtensionColor; // @synthesize timeMarkerExtensionColor=_timeMarkerExtensionColor;
-@property(retain, nonatomic) UIVisualEffect *visualEffect; // @synthesize visualEffect=_visualEffect;
 
 @end
 

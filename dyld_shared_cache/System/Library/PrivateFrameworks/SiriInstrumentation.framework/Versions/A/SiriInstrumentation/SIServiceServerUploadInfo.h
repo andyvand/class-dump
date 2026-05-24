@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SIServiceServerUploadInfo : SISchemaInstrumentationMessage
 {
     long long _ns_server_upload_ts;
-    struct {
-        unsigned int ns_server_upload_ts:1;
-    } _has;
 }
 
 - (void);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)notifyDialogCompleteForPurchaseID:result:selectedButton:withResultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)on.framework/Contents/MacOS/LinkPresentation;
 - (id);
 - (id);
-- (id);
-- (id)stInvoked;
+- (id)deleteIsAppleIntelligenceHardwareCapable;
+- (id)_hasIfPlatformRequestInvoked;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNs_server_upload_ts;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) long long ns_server_upload_ts; // @synthesize ns_server_upload_ts=_ns_server_upload_ts;
 
 @end

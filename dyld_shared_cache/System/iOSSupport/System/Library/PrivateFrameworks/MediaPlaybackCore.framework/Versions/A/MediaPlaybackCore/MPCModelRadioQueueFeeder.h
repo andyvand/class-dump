@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, ICUserIdentityStore, MPAVItem, MPCModelRadioPersonalizationResponse, MPCModelRadioPlaybackContext, MPCModelRadioPlaybackQueue, MPCPlaybackRequestEnvironment, NSString;
-@protocol MPCQueueControllerBehaviorMusicDataSourceDelegate, MPMutableIdentifierListSection;
+@class NSString;
+@protocol MPMutableIdentifierListSection;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelRadioQueueFeeder
 {
     id <MPMutableIdentifierListSection> _section;
-    MPCModelRadioPlaybackQueue *_playbackQueue;
-    MPCModelRadioPlaybackContext *_playbackContext;
-    _Bool _needsSectionUpdate;
-    unsigned long long _backgroundTaskIdentifier;
-    unsigned long long _backgroundTasks;
-    MPAVItem *_currentItem;
-    _Bool _hasReachedTracklistEnd;
-    _Bool _supportsLoadingAdditionalItems;
-    MPCModelRadioPersonalizationResponse *_lastResponse;
-    MPCPlaybackRequestEnvironment *_playbackRequestEnvironment;
-    long long _queueGeneration;
-    NSString *_siriAssetInfo;
-    ICUserIdentityStore *_observedIdentityStore;
-    ICStoreRequestContext *_storeRequestContext;
-    _Bool _hasSignedOut;
-    id <MPCQueueControllerBehaviorMusicDataSourceDelegate> _delegate;
 }
 
 + (_Bool);
@@ -38,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
+- (id)__DATA_DIRTY;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)performSelector:(long long)arg1;
 - (id);
 - (void);
 - (unsigned long long);
@@ -52,16 +36,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)?;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)k/Versions/A/CoreFoundation;
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -71,42 +55,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setupDelegateAccountsWithParameters:(id)arg1 handler:(CDUnknownBlockType)arg2;
+- (void)copy;
+- (void)addDeviceLocatorChildAccountToAppleAccount:(id)arg1;
+- (void)accountsWithAccountTypeIdentifiers:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long)nTitle: /* Error: Ran out of types for this method. */;
+- (long long)setMainTitle: /* Error: Ran out of types for this method. */;
 - (void):%0.2f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsLiveStream;
-@property(readonly, nonatomic) _Bool containsRadioContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPCQueueControllerBehaviorMusicDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MPCQueueControllerBehaviorMusicDataSourceDelegate>",?,W,N,V_delegate
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *playbackEngineID;
 @property(readonly, copy, nonatomic) NSString *rtcReportingPlayQueueSourceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

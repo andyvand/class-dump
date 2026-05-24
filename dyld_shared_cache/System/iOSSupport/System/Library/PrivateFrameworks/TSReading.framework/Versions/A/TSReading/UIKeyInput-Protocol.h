@@ -5,7 +5,7 @@
 //
 
 @protocol UIKeyInput
-- (_Bool)CapFragmentAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)isDropCapFragmentAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

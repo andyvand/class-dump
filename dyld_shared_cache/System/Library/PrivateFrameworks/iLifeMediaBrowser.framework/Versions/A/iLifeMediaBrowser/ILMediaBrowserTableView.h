@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSMutableArray;
+@class NSMutableArray;
 
 @interface ILMediaBrowserTableView
 {
     NSMutableArray *_ILMBAlternatingRowBackgroundColorsArray;
-    NSColor *_ILMBCellHighlightColor;
-    Class _tableHeaderCellClass;
 }
 
 - (void);
@@ -19,10 +17,10 @@
 - (void);
 - (long long);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (unsigned long long)HeaderView.swift;
+- (id)or ;
+- (id).1PXt;
+- (_Bool)PresentationHandlerType;
 - (id);
 - (id);
 - (void);

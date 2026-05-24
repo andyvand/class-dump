@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void)setRTTLiveTranscriptionsEnabled:(id)arg1 forContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void)lingChars:prefixChars: /* Error: Ran out of types for this method. */;
+- (void)loaderWithSentenceDelimiters:trailingChars:prefixChars: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -10,9 +10,9 @@
 }
 
 - (void);
-- (int);
+- (int)s;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s;
 
 // Remaining properties
 @property(nonatomic) _Bool useAllDayAlarms; // @synthesize useAllDayAlarms=_useAllDayAlarms;

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SSScreenInfo;
-
 @interface SSScreenConfiguration
 {
     _Bool _globalIsMixedMode;
-    _Bool _isDisplayInfo2;
-    _Bool _isVNC;
-    SSScreenInfo *_globalScreen;
-    NSArray *_screens;
-    struct SSRect _scaledSelectedScreenRect;
 }
 
 - (void);
@@ -29,19 +22,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)_namingInferenceResultsForContactIdentifierByPersonUUIDs: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)BùqÒÐ1Â0@ù
 × ;
 - (id)nable to get keychain status:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool globalIsMixedMode; // @synthesize globalIsMixedMode=_globalIsMixedMode;
-@property(retain) SSScreenInfo *globalScreen; // @synthesize globalScreen=_globalScreen;
-@property _Bool isDisplayInfo2; // @synthesize isDisplayInfo2=_isDisplayInfo2;
-@property _Bool isVNC; // @synthesize isVNC=_isVNC;
 @property struct SSRect scaledSelectedScreenRect; // @synthesize scaledSelectedScreenRect=_scaledSelectedScreenRect;
-@property(copy) NSArray *screens; // @synthesize screens=_screens;
 
 @end
 

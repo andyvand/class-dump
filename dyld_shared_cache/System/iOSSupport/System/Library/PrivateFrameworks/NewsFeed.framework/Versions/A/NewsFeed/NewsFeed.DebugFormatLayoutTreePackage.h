@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatLayoutTreePackage
 {
     id id;
-    id layoutResult;
-    id _children;
-    id _isExpanded;
 }
 
 @end

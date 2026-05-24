@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCollectionViewTransitionLayout;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (unsigned long long);
+- (NSCollectionViewTransitionLayout *);
+- (void)V_descriptorsByExtensionIdentifier;
 @end
 

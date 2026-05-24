@@ -5,5 +5,8 @@
 //
 
 @protocol SSRVoiceActivityDetectorDelegate
+
+@optional
+- (void)G;
 @end
 

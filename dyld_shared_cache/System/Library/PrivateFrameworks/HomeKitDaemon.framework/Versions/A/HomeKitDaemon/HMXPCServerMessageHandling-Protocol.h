@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol HMXPCServerMessageHandling
-- (void)dHandle:(NSDictionary *)arg1 storeWriteHandle:logCategory: /* Error: Ran out of types for this method. */;
+- (void)pvt;
+- (void)routerClientWithQueue:(NSDictionary *)arg1 storeReadHandle:storeWriteHandle:logCategory: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKiCDPDeviceValidationFlowViewController, AKiCDPValidationDevice, AKiCSCEntryView, NSImageView, NSLayoutConstraint, NSString, NSTextField, NSView, OBTemplateView;
+@class AKiCDPDeviceValidationFlowViewController;
 
 @interface AKiCDPEnrollmentDevicePasscodeViewController
 {
     _Bool _usesClientSpecifiedDevice;
-    _Bool _showSpinner;
-    _Bool _forgotAllPasswordsEnabled;
-    NSView *_passcodePlaceholderView;
-    AKiCDPValidationDevice *_selectedDevice;
-    NSString *_errorString;
-    AKiCDPDeviceValidationFlowViewController *_flowController;
-    AKiCSCEntryView *_icscEntryView;
-    OBTemplateView *_templateView;
-    NSLayoutConstraint *_viewWidthConstraint;
-    NSLayoutConstraint *_viewHeightConstraint;
-    NSTextField *_messageTextField;
-    NSLayoutConstraint *_messageTextFieldCenterXConstraint;
-    NSLayoutConstraint *_messageTextFieldDefaultTrailingConstraint;
-    NSLayoutConstraint *_messageTextFieldDefaultLeadingConstraint;
-    NSLayoutConstraint *_messageTextFieldTopConstraint;
-    NSLayoutConstraint *_pinViewDefaultLeadingConstraint;
-    NSLayoutConstraint *_pinViewDefaultTrailingConstraint;
-    NSLayoutConstraint *_pinViewCenterXConstraint;
-    NSLayoutConstraint *_pinViewTopConstraint;
-    NSLayoutConstraint *_errorLabelDefaultLeadingConstraint;
-    NSLayoutConstraint *_errorLabelDefaultTrailingConstraint;
-    NSLayoutConstraint *_errorLabelCenterXConstraint;
-    NSTextField *_errorLabel;
-    NSLayoutConstraint *_errorLabelBottomConstraint;
-    NSLayoutConstraint *_deviceImageViewCenterXConstraint;
-    NSImageView *_deviceImageView;
-    NSTextField *_deviceTypeTextField;
-    NSLayoutConstraint *_deviceTypeTextFieldCenterXConstraint;
-    NSLayoutConstraint *_deviceTypeTextFieldTrailingConstraint;
-    NSLayoutConstraint *_deviceTypeTextFieldLeadingConstraint;
-    NSTextField *_deviceNameTextField;
-    NSLayoutConstraint *_deviceNameTextFieldCenterXConstraint;
-    NSLayoutConstraint *_deviceNameTextFieldTrailingConstraint;
-    NSLayoutConstraint *_deviceNameTextFieldLeadingConstraint;
 }
 
 - (id);
@@ -51,6 +17,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -67,8 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,37 +53,38 @@
 - (id);
 - (id);
 - (id);
+- (id)<;
+- (id);
+- (id)M;
+- (id);
+- (id);
+- (id);
+- (id)|b;
+- (id)h;
+- (_Bool)`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)n;
+- (id)X{^;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)j@;
+- (id)j@;
+- (id)X
+v;
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -126,55 +93,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)4;
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSImageView *deviceImageView; // @synthesize deviceImageView=_deviceImageView;
-@property(nonatomic) __weak NSLayoutConstraint *deviceImageViewCenterXConstraint; // @synthesize deviceImageViewCenterXConstraint=_deviceImageViewCenterXConstraint;
-@property(nonatomic) __weak NSTextField *deviceNameTextField; // @synthesize deviceNameTextField=_deviceNameTextField;
-@property(nonatomic) __weak NSLayoutConstraint *deviceNameTextFieldCenterXConstraint; // @synthesize deviceNameTextFieldCenterXConstraint=_deviceNameTextFieldCenterXConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *deviceNameTextFieldLeadingConstraint; // @synthesize deviceNameTextFieldLeadingConstraint=_deviceNameTextFieldLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *deviceNameTextFieldTrailingConstraint; // @synthesize deviceNameTextFieldTrailingConstraint=_deviceNameTextFieldTrailingConstraint;
-@property(nonatomic) __weak NSTextField *deviceTypeTextField; // @synthesize deviceTypeTextField=_deviceTypeTextField;
-@property(nonatomic) __weak NSLayoutConstraint *deviceTypeTextFieldCenterXConstraint; // @synthesize deviceTypeTextFieldCenterXConstraint=_deviceTypeTextFieldCenterXConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *deviceTypeTextFieldLeadingConstraint; // @synthesize deviceTypeTextFieldLeadingConstraint=_deviceTypeTextFieldLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *deviceTypeTextFieldTrailingConstraint; // @synthesize deviceTypeTextFieldTrailingConstraint=_deviceTypeTextFieldTrailingConstraint;
-@property(readonly, nonatomic) NSString *enterSecretString;
-@property(nonatomic) __weak NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(nonatomic) __weak NSLayoutConstraint *errorLabelBottomConstraint; // @synthesize errorLabelBottomConstraint=_errorLabelBottomConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *errorLabelCenterXConstraint; // @synthesize errorLabelCenterXConstraint=_errorLabelCenterXConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *errorLabelDefaultLeadingConstraint; // @synthesize errorLabelDefaultLeadingConstraint=_errorLabelDefaultLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *errorLabelDefaultTrailingConstraint; // @synthesize errorLabelDefaultTrailingConstraint=_errorLabelDefaultTrailingConstraint;
-@property(retain, nonatomic) NSString *errorString; // @synthesize errorString=_errorString;
 @property(nonatomic) AKiCDPDeviceValidationFlowViewController *flowController; // @synthesize flowController=_flowController;
-@property(nonatomic) _Bool forgotAllPasswordsEnabled; // @synthesize forgotAllPasswordsEnabled=_forgotAllPasswordsEnabled;
-@property(readonly, nonatomic) NSString *forgotPasscodeTitle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKiCSCEntryView *icscEntryView; // @synthesize icscEntryView=_icscEntryView;
-@property(nonatomic) __weak NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
-@property(nonatomic) __weak NSLayoutConstraint *messageTextFieldCenterXConstraint; // @synthesize messageTextFieldCenterXConstraint=_messageTextFieldCenterXConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *messageTextFieldDefaultLeadingConstraint; // @synthesize messageTextFieldDefaultLeadingConstraint=_messageTextFieldDefaultLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *messageTextFieldDefaultTrailingConstraint; // @synthesize messageTextFieldDefaultTrailingConstraint=_messageTextFieldDefaultTrailingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *messageTextFieldTopConstraint; // @synthesize messageTextFieldTopConstraint=_messageTextFieldTopConstraint;
-@property(nonatomic) NSView *passcodePlaceholderView; // @synthesize passcodePlaceholderView=_passcodePlaceholderView;
-@property(nonatomic) __weak NSLayoutConstraint *pinViewCenterXConstraint; // @synthesize pinViewCenterXConstraint=_pinViewCenterXConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *pinViewDefaultLeadingConstraint; // @synthesize pinViewDefaultLeadingConstraint=_pinViewDefaultLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *pinViewDefaultTrailingConstraint; // @synthesize pinViewDefaultTrailingConstraint=_pinViewDefaultTrailingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *pinViewTopConstraint; // @synthesize pinViewTopConstraint=_pinViewTopConstraint;
-@property(retain, nonatomic) AKiCDPValidationDevice *selectedDevice; // @synthesize selectedDevice=_selectedDevice;
-@property(nonatomic) _Bool showSpinner; // @synthesize showSpinner=_showSpinner;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
-@property(nonatomic) _Bool usesClientSpecifiedDevice; // @synthesize usesClientSpecifiedDevice=_usesClientSpecifiedDevice;
-@property(nonatomic) __weak NSLayoutConstraint *viewHeightConstraint; // @synthesize viewHeightConstraint=_viewHeightConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *viewWidthConstraint; // @synthesize viewWidthConstraint=_viewWidthConstraint;
 
 @end
 

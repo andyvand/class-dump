@@ -6,33 +6,26 @@
 
 #import <AVFCore/AVSearchMatchDescription.h>
 
-@class NSString;
 @protocol NSCopying><NSObject;
 
 @interface AVLegibleMediaSearchMatchDescription : AVSearchMatchDescription
 {
     id <NSCopying><NSObject> _cueIdentifier;
-    NSString *_cueString;
-    struct _NSRange _cueStringMatchRange;
-    unsigned long long _cueMatchIndex;
 }
 
-- (id);
+- (id);
 - (struct _NSRange);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)h;
+- (_Bool)j2@y_	j;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCopying><NSObject> cueIdentifier; // @synthesize cueIdentifier=_cueIdentifier;
-@property(readonly, nonatomic) unsigned long long cueMatchIndex; // @synthesize cueMatchIndex=_cueMatchIndex;
-@property(readonly, nonatomic) NSString *cueString; // @synthesize cueString=_cueString;
-@property(readonly, nonatomic) struct _NSRange cueStringMatchRange; // @synthesize cueStringMatchRange=_cueStringMatchRange;
 
 @end
 

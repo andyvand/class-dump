@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBReservation, _INPBSeat, _INPBTicketedEvent;
+@class _INPBTicketedEvent;
 
 @interface _INPBTicketedEventReservation
 {
     struct _has;
-    _INPBTicketedEvent *_event;
-    _INPBReservation *_reservation;
-    _INPBSeat *_reservedSeat;
 }
 
 + (_Bool);
@@ -21,33 +18,21 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)cls_assignError:code:errorObject:description: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)R);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)SignalsMaxItemsToDisambiguate;
+- (void)entityConfidenceSignalsMaxItemsToDisambiguate;
 - (void)ª;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBTicketedEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) _Bool hasEvent;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservedSeat;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(retain, nonatomic) _INPBSeat *reservedSeat; // @synthesize reservedSeat=_reservedSeat;
-@property(readonly) Class superclass;
 
 @end
 

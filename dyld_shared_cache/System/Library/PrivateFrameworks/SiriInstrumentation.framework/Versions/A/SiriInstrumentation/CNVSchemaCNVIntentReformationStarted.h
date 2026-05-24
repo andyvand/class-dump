@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentReformationStarted : SISchemaInstrumentationMessage
 {
     int _transformer;
-    int _targetPlugin;
-    struct {
-        unsigned int transformer:1;
-        unsigned int targetPlugin:1;
-    } _has;
 }
 
 - (int);
@@ -33,16 +26,12 @@
 - (_Bool);
 - (id);
 - (id)";
-- (int)sultsMediaType;
-- (id)onAudioRecordingFirstBufferStart;
+- (int)hasServerSearchResultsMediaType;
+- (id)MHSchemaMHAssistantDaemonAudioRecordingFirstBufferStart;
 - (id)0ÿt;
 - (void)Ç;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTargetPlugin;
-@property(nonatomic) _Bool hasTransformer;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int targetPlugin; // @synthesize targetPlugin=_targetPlugin;
 @property(nonatomic) int transformer; // @synthesize transformer=_transformer;
 
 @end

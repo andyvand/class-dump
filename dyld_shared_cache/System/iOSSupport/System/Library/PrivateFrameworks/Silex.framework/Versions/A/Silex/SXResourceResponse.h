@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSURL;
+@class NSString;
 
 @interface SXResourceResponse
 {
     NSString *_resourceIdentifier;
-    NSURL *_fileURL;
-    NSError *_error;
 }
 
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id)sification;
+- (id)_replacementClassification;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 @property(retain, nonatomic) NSString *resourceIdentifier; // @synthesize resourceIdentifier=_resourceIdentifier;
 
 @end

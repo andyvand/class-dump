@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
 @protocol OSDUIHelperProtocol;
 
 __attribute__((visibility("hidden")))
 @interface OSDConnectionInfo
 {
     id <OSDUIHelperProtocol> _proxyObject;
-    NSXPCConnection *_connection;
-    NSString *_serviceName;
 }
 
 - (void);
@@ -24,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain) id <OSDUIHelperProtocol> proxyObject; // @synthesize proxyObject=_proxyObject;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

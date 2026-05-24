@@ -7,8 +7,6 @@
 @interface PKPaymentSetupProductPaymentOption
 {
     unsigned long long _priority;
-    long long _cardType;
-    long long _supportedProtocols;
 }
 
 + (_Bool)0@ù
@@ -16,14 +14,12 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)yFromCount;
 - (long long);
 - (unsigned long long)ä;£ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cardType; // @synthesize cardType=_cardType;
 @property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) long long supportedProtocols; // @synthesize supportedProtocols=_supportedProtocols;
 
 @end
 

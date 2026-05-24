@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSDelegatePermissionsType, EWSUserIdType, NSString;
+@class EWSUserIdType;
 
 @interface EWSDelegateUserType
 {
     _Bool _ReceiveCopiesOfMeetingMessages;
-    _Bool _ViewPrivateItems;
-    EWSUserIdType *_UserId;
-    EWSDelegatePermissionsType *_DelegatePermissions;
 }
 
-+ (id);
++ (id)ADGSg;
 - (void);
 - (void);
 - (void);
@@ -26,17 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EWSDelegatePermissionsType *DelegatePermissions; // @synthesize DelegatePermissions=_DelegatePermissions;
-@property(nonatomic) _Bool ReceiveCopiesOfMeetingMessages; // @synthesize ReceiveCopiesOfMeetingMessages=_ReceiveCopiesOfMeetingMessages;
 @property(retain, nonatomic) EWSUserIdType *UserId; // @synthesize UserId=_UserId;
-@property(nonatomic) _Bool ViewPrivateItems; // @synthesize ViewPrivateItems=_ViewPrivateItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

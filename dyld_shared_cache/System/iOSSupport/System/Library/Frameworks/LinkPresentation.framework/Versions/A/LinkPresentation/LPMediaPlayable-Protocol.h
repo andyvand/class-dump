@@ -5,10 +5,11 @@
 //
 
 @protocol LPMediaPlayable
+- (void)transcriptSenderFont;
+- (_Bool)transcriptCollectionViewController:chatItemForContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
 - (void)earchable.swift;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMuteControl;
 @property(nonatomic, getter=isPlaying) _Bool playing;
 @end
 

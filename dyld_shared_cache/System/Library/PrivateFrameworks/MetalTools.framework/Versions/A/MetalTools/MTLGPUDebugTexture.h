@@ -6,14 +6,11 @@
 
 #import <MetalTools/MTLToolsTexture.h>
 
-@class NSString;
-@protocol MTLDevice, MTLGPUDebugViewable, MTLHeap, MTLTextureSPI;
+@protocol MTLTextureSPI;
 
 @interface MTLGPUDebugTexture : MTLToolsTexture
 {
     unsigned long long _identifier;
-    unordered_set_c419ef69 _activeViews;
-    id <MTLGPUDebugViewable> _parentViewable;
 }
 
 - (void);
@@ -35,41 +32,16 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unordered_set_c419ef69);
+- (unordered_set_a92c6a78)`;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id) ;
 - (void):8@?<B@?^{?=[32C]}@"NSObject<OS_dispatch_data>">16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
 @property(retain, nonatomic) id <MTLTextureSPI> baseObject; // @dynamic baseObject;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly, nonatomic) unsigned long long gpuIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long length;
-@property(retain, nonatomic) id <MTLGPUDebugViewable> parentViewable; // @synthesize parentViewable=_parentViewable;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long underlyingGPUAddress;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

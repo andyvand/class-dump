@@ -6,21 +6,15 @@
 
 #import <AppKit/_NSTrackingAreaViewHelper.h>
 
-@class NSArray, NSMutableOrderedSet, NSView;
+@class NSArray, NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTrackingAreaAKViewHelper : _NSTrackingAreaViewHelper
 {
     NSView *_view;
-    long long _trackingAreasDirty;
-    NSMutableOrderedSet *_publicTrackingAreas;
-    NSMutableOrderedSet *_privateCursorAreas;
-    unsigned int _invalidCursorRects:1;
-    unsigned int _cursorUpdateReentrancyFlag:1;
-    unsigned int _invalidTrackingAreaManager:1;
 }
 
-- (void);
+- (void)qa;
 - (long long);
 - (id);
 - (void);
@@ -29,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)d;
+- (void)t mcmb;
+- (void)ulti combined payload type is not mcmb;
+- (void)d to get payload type from multi combined data;
+- (void)no uniqueID is specified, but this is allowed, skip comparing kFDRTag_inst object property;
+- (id)DeviceSupportsLockdown;
 - (void);
 - (void);
 - (void);
@@ -50,12 +44,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)T;
+- (id)ns;
 - (void);
 - (void);
 - (void);
-- (void)ndidateMultiplexer;
+- (void)TUIKeyboardCandidateMultiplexer;
 - (id);
 
 // Remaining properties

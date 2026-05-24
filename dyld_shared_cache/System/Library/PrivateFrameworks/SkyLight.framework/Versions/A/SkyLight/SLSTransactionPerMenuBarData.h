@@ -4,31 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SLSTransactionPerMenuBarData
 {
     _Bool _revealInterrupted;
-    _Bool _reduceTransparency;
-    _Bool _increasedContrast;
-    _Bool _differentiateWithoutColor;
-    _Bool _fsMenuBarAppearance;
-    int _displayID;
-    int _representedSpaceType;
-    unsigned int _flags;
-    unsigned int _activeWidLight;
-    unsigned int _activeWidDark;
-    unsigned int _inactiveWidLight;
-    unsigned int _inactiveWidDark;
-    unsigned int _availableSpace;
-    unsigned int _appleLogoWidth;
-    unsigned long long _spaceID;
-    double _reveal;
-    double _revealDuration;
-    NSArray *_titleBreakOffsets;
-    struct CGRect _selectedTitleBounds;
-    struct CGRect _auxiliarySelectedTitleBounds;
 }
 
 - (void);

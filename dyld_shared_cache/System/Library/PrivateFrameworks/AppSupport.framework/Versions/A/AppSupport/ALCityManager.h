@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPSearchMatcher, NSRecursiveLock;
+@class CPSearchMatcher;
 
 @interface ALCityManager
 {
     struct sqlite3 *_db;
-    struct sqlite3 *_localizedDb;
-    CPSearchMatcher *_citySearchMatcher;
-    NSRecursiveLock *_databaseAccessRecursiveLock;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIInteractionProgress;
+@class UIInteractionProgress;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerTransitioningDelegate
@@ -12,24 +12,17 @@ __attribute__((visibility("hidden")))
     UIInteractionProgress *interactionProgressForPresentation;
 }
 
-- (void);
-- (id);
+- (void)t:(id)arg1 dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (id)NSArray",C,N,V_participantIdentifiers;
 - (_Bool);
-- (id);
-- (id);
+- (id)mpletionBlock:(long long)arg1 ];
+- (id)48@0:(id)arg1 8@"NSString"16@"NSString"24@"MPMediaQueryCriteria"32@?<v@?@>40;
 - (id);
 - (id);
 - (void)Ú·;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIInteractionProgress *interactionProgressForPresentation; // @synthesize interactionProgressForPresentation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, WBSFormMetadata;
-@protocol OS_dispatch_queue;
-
 @interface WBSFormMetadataController
 {
     struct HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>, WTF::DefaultHash<OpaqueFormAutoFillFrame *>, WTF::HashTraits<OpaqueFormAutoFillFrame *>, WTF::HashTraits<std::unique_ptr<SafariShared::FrameMetadata>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes, WTF::FastMalloc> _framesToMetadataMap;
-    WBSFormMetadata *_cachedFormMetadata;
-    NSObject<OS_dispatch_queue> *_serialFillingQueue;
-    _Bool _isCurrentlyFilling;
 }
 
 + (id);
@@ -37,14 +31,14 @@
 - (void);
 - (void);
 - (struct _NSRange);
+- (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)";
+- (void)";
 - (_Bool);
 - (void *);
 - (id);
@@ -56,20 +50,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)>;
 - (void);
 - (void);
 - (void);

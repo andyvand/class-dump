@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)allyAnimatingStateRequest: /* Error: Ran out of types for this method. */;
-- (void)omAction: /* Error: Ran out of types for this method. */;
+- (void)setExternallyAnimatingStateRequest: /* Error: Ran out of types for this method. */;
+- (void)_collectStateFromAction: /* Error: Ran out of types for this method. */;
 - (void)lTransitionStylePartialCurl to or from non-fullscreen view controller %@.;
 
 @end

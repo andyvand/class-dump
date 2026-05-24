@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable, NSMutableDictionary;
-
 @interface PKAsyncCache
 {
     struct os_unfair_lock_s _lock;
-    NSCache *_itemByKey;
-    NSMapTable *_weakItemByKey;
-    NSMutableDictionary *_outstandingRetrievals;
 }
 
 - (void);
 - (void);
+- (id)]9;
 - (id);
-- (id);
-- (void)cePrimaryContactlessPaymentApplication;
+- (void)devicePrimaryContactlessPaymentApplication;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSecurityScopedURLWrapper, NSURL;
+@class NSSecurityScopedURLWrapper, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AVURLAssetItemProviderData
 {
     NSSecurityScopedURLWrapper *_securityScopedURLWrapper;
-    NSDictionary *_assetInitializationOptions;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)_correctedUtterances;
+- (id)parser:(id)arg1 validationErrorOccurred:(id)arg2;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *assetInitializationOptions; // @synthesize assetInitializationOptions=_assetInitializationOptions;
 @property(readonly, nonatomic) NSURL *securityScopedURL;
 
 @end

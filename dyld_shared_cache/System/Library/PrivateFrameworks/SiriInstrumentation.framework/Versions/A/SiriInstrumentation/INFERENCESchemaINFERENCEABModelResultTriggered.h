@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEABModelResultTriggered : SISchemaInstrumentationMessage
 {
     int _triggerReason;
-    int _projectIntent;
-    struct {
-        unsigned int triggerReason:1;
-        unsigned int projectIntent:1;
-    } _has;
 }
 
 - (void);
@@ -36,13 +29,9 @@
 - (id);
 - (id);
 - (id)i,N,V_entityAbsoluteCount28Day;
-- (id)ctionConfirmationSystemStyleGenerativeAIEnablement;
+- (id)IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablement;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProjectIntent;
-@property(nonatomic) _Bool hasTriggerReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int projectIntent; // @synthesize projectIntent=_projectIntent;
 @property(nonatomic) int triggerReason; // @synthesize triggerReason=_triggerReason;
 
 @end

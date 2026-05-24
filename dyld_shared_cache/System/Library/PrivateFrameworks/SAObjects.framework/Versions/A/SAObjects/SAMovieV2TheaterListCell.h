@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, SADistance, SAMovieV2MovieListSnippet;
+@class SADistance;
 
 @interface SAMovieV2TheaterListCell : SADomainObject
 {
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)f;
 - (id);
 - (void);
 - (id);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SADistance *relativeDistance;
-@property(copy, nonatomic) NSString *theaterAddress;
-@property(copy, nonatomic) NSString *theaterName;
-@property(retain, nonatomic) SAMovieV2MovieListSnippet *theaterShowtimeListSnippet;
 
 @end
 

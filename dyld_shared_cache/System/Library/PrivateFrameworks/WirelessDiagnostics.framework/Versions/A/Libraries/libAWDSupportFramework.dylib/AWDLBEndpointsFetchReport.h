@@ -7,19 +7,6 @@
 @interface AWDLBEndpointsFetchReport
 {
     unsigned long long _timestamp;
-    int _connectionCellularFallbackCount;
-    int _endpointsFetchTaskBadReplyCount;
-    int _endpointsFetchTaskCount;
-    int _endpointsFetchTaskFailureCount;
-    int _endpointsFetchTaskSuccessCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionCellularFallbackCount:1;
-        unsigned int endpointsFetchTaskBadReplyCount:1;
-        unsigned int endpointsFetchTaskCount:1;
-        unsigned int endpointsFetchTaskFailureCount:1;
-        unsigned int endpointsFetchTaskSuccessCount:1;
-    } _has;
 }
 
 - (void);
@@ -28,10 +15,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,25 +37,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int connectionCellularFallbackCount; // @synthesize connectionCellularFallbackCount=_connectionCellularFallbackCount;
-@property(nonatomic) int endpointsFetchTaskBadReplyCount; // @synthesize endpointsFetchTaskBadReplyCount=_endpointsFetchTaskBadReplyCount;
-@property(nonatomic) int endpointsFetchTaskCount; // @synthesize endpointsFetchTaskCount=_endpointsFetchTaskCount;
-@property(nonatomic) int endpointsFetchTaskFailureCount; // @synthesize endpointsFetchTaskFailureCount=_endpointsFetchTaskFailureCount;
-@property(nonatomic) int endpointsFetchTaskSuccessCount; // @synthesize endpointsFetchTaskSuccessCount=_endpointsFetchTaskSuccessCount;
-@property(nonatomic) _Bool hasConnectionCellularFallbackCount;
-@property(nonatomic) _Bool hasEndpointsFetchTaskBadReplyCount;
-@property(nonatomic) _Bool hasEndpointsFetchTaskCount;
-@property(nonatomic) _Bool hasEndpointsFetchTaskFailureCount;
-@property(nonatomic) _Bool hasEndpointsFetchTaskSuccessCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

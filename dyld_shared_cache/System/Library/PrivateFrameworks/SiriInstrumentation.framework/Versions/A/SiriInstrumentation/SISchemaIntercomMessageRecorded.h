@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaIntercomMessageRecorded : SISchemaInstrumentationMessage
 {
     long long _durationInMs;
-    _Bool _isReply;
-    _Bool _disambiguationRequired;
-    int _intercomTarget;
-    struct {
-        unsigned int durationInMs:1;
-        unsigned int isReply:1;
-        unsigned int disambiguationRequired:1;
-        unsigned int intercomTarget:1;
-    } _has;
 }
 
 - (void);
@@ -43,25 +32,17 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)N,V_isGameCenterEnabled;
+- (_Bool)oneNumberWithOptions(NSString *__strong, NSString *__strong, BOOL);
+- (_Bool)ryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/IMDCFChatRecord.m;
 - (id);
 - (id);
-- (id)tadata;
-- (id)tationModelVersion;
+- (id)deleteClientConversationMetadata;
+- (id)_dictationModelVersion;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool disambiguationRequired; // @synthesize disambiguationRequired=_disambiguationRequired;
 @property(nonatomic) long long durationInMs; // @synthesize durationInMs=_durationInMs;
-@property(nonatomic) _Bool hasDisambiguationRequired;
-@property(nonatomic) _Bool hasDurationInMs;
-@property(nonatomic) _Bool hasIntercomTarget;
-@property(nonatomic) _Bool hasIsReply;
-@property(nonatomic) int intercomTarget; // @synthesize intercomTarget=_intercomTarget;
-@property(nonatomic) _Bool isReply; // @synthesize isReply=_isReply;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface PPPBContactRelatedName
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
@@ -17,24 +16,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)Y;
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

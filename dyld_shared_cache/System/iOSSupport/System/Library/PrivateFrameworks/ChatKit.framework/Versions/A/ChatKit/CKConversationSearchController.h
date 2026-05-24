@@ -6,42 +6,34 @@
 
 #import <ChatKit/CKSearchController.h>
 
-@class NSString;
-
 @interface CKConversationSearchController : CKSearchController
 {
 }
 
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id);
++ (id);
++ (id)e;
 + (Class);
 + (_Bool);
 + (id);
 + (id);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct NSDirectionalEdgeInsets);
+- (double)classificationsForImage: /* Error: Ran out of types for this method. */;
+- (_Bool)canAddToTagsInTextView:forRange: /* Error: Ran out of types for this method. */;
+- (id)l;
+- (id)t;
+- (id)Attachment"8^B16;
+- (id)T;
+- (struct NSDirectionalEdgeInsets)c;
 - (id);
 - (void);
 - (_Bool);
 - (double);
 - (id);
-- (long long)tion;
+- (long long)HighlightsSearchSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

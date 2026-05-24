@@ -8,6 +8,10 @@
 {
 }
 
++ (id)AXKScreenDescriber;
++ (id);
++ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
@@ -21,11 +25,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)P;
 + (id);
 + (id);
 + (id);

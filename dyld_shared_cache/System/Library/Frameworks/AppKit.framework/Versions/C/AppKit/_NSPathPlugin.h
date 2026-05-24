@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)ction (existing Connection %lld);
 - (void);
 - (_Bool);
 - (Class);

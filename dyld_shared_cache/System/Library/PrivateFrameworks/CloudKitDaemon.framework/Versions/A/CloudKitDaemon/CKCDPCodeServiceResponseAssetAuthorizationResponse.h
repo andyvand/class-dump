@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSData;
 
 @interface CKCDPCodeServiceResponseAssetAuthorizationResponse
 {
     NSData *_authGetResponseBody;
-    NSMutableArray *_responseHeaders;
-    NSString *_responseUUID;
 }
 
 + (Class);
@@ -26,11 +24,11 @@
 - (id);
 - (id);
 - (id);
+- (void)EventDataInterchangesPassengerCounter;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ing input buffer;
 - (_Bool);
-- (_Bool);
+- (_Bool)webView:(id)arg1 decidePolicyForNavigationAction:decisionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -38,11 +36,7 @@
 - (void)tch PCS for zone %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authGetResponseBody; // @synthesize authGetResponseBody=_authGetResponseBody;
-@property(readonly, nonatomic) _Bool hasAuthGetResponseBody;
 @property(readonly, nonatomic) _Bool hasResponseUUID;
-@property(retain, nonatomic) NSMutableArray *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
-@property(retain, nonatomic) NSString *responseUUID; // @synthesize responseUUID=_responseUUID;
 
 @end
 

@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputStateTable
 {
     struct os_unfair_lock_s _stateLock;
-    unsigned short _magic;
-    unsigned long long _primitiveStateGeneration;
-    unsigned long long _objectStateGeneration;
-    unsigned int _primitiveSlotCount;
-    unsigned int _objectSlotCount;
-    struct PrimitiveStateEntry *_primitiveState;
-    struct ObjectStateEntry *_objectState;
 }
 
 - (_Bool);
@@ -28,13 +21,11 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setQuery:(struct _NSZone *)arg1;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned short magic; // @synthesize magic=_magic;
-@property(readonly) unsigned int objectSlotCount; // @synthesize objectSlotCount=_objectSlotCount;
-@property(readonly) unsigned int primitiveSlotCount; // @synthesize primitiveSlotCount=_primitiveSlotCount;
 
 @end
 

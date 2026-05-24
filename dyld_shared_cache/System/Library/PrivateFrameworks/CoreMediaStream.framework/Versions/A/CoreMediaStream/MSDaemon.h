@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSTimer;
-@protocol OS_dispatch_queue;
-
 @interface MSDaemon
 {
     _Bool _stabilizedIsBusy;
-    int _busyCount;
-    int _UIBusyCount;
-    NSObject<OS_dispatch_queue> *_idleCountQueue;
-    NSTimer *_hysteresisTimer;
 }
 
-- (_Bool);
+- (_Bool)primary resident;
+- (void)device for home %{public}@:no primary resident /* Error: Ran out of types for this method. */;
+- (void)uld not set metric for current device for home %{public}@:no primary resident /* Error: Ran out of types for this method. */;
+- (void)sponding to mesh update request message:(_Bool)arg1 %@;
+- (void)primary resident;
+- (void)blic}@Could not create resident storage for home %{public}@:(id)arg1 no primary resident;
+- (id)erDelegate callback that the image capture has started;
+- (void)request %@:(id)arg1 %@;
+- (void)migration were expired, doing nothing.;
+- (id)gion;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)allow list:(int)arg1 [%s];
 - (id);
 - (int);
 - (int);
 - (void);
-- (void);
+- (void)yload:(int)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -43,11 +36,7 @@
 - (_Bool)È;
 
 // Remaining properties
-@property(nonatomic) int UIBusyCount; // @synthesize UIBusyCount=_UIBusyCount;
 @property(nonatomic) int busyCount; // @synthesize busyCount=_busyCount;
-@property(retain, nonatomic) NSTimer *hysteresisTimer; // @synthesize hysteresisTimer=_hysteresisTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *idleCountQueue; // @synthesize idleCountQueue=_idleCountQueue;
-@property(nonatomic) _Bool stabilizedIsBusy; // @synthesize stabilizedIsBusy=_stabilizedIsBusy;
 
 @end
 

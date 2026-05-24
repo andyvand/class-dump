@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)userInfo:(id)arg1;
-+ (Class)thMessageName: /* Error: Ran out of types for this method. */;
++ (id)initWithName:(id)arg1 object:(id *)arg2 userInfo: /* Error: Ran out of types for this method. */;
++ (Class)activityNameWithMessageName: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

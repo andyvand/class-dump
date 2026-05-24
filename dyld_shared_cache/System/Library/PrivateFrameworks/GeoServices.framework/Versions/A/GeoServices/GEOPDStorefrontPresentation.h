@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDStorefrontView, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDStorefrontPresentation
 {
     PBDataReader *_reader;
-    GEOPDStorefrontView *_closeUpView;
-    NSString *_overlayImageUrl;
-    GEOPDStorefrontView *_standOffView;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_closeUpView:1;
-        unsigned int read_overlayImageUrl:1;
-        unsigned int read_standOffView:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etInfrastructureDescription:(id)arg1;
++ (_Bool)setInfrastructureDescription:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)conformsToProtocol:(id)arg1;
+- (id)getSerialQueueWithQOS:name:fixedPriority: /* Error: Ran out of types for this method. */;
+- (void)(%f);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -44,19 +32,14 @@
 - (void);
 - (id)ion"b1"wrote_anyField"b1};
 - (_Bool)ad_language"b1"wrote_anyField"b1};
-- (id)tionIntentSearch: /* Error: Ran out of types for this method. */;
-- (id)teRange;
+- (id)setSupportDirectionIntentSearch: /* Error: Ran out of types for this method. */;
+- (id)_routeCoordinateRange;
 - (id)$#¼#	');
-- (id)LUSTERED;
+- (id)TAP_POI_CLUSTERED;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDStorefrontView *closeUpView;
 @property(readonly, nonatomic) _Bool hasCloseUpView;
-@property(readonly, nonatomic) _Bool hasOverlayImageUrl;
-@property(readonly, nonatomic) _Bool hasStandOffView;
-@property(retain, nonatomic) NSString *overlayImageUrl;
-@property(retain, nonatomic) GEOPDStorefrontView *standOffView;
 
 @end
 

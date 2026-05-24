@@ -7,15 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)dentifier:accountKeyIdentifier:idType: /* Error: Ran out of types for this method. */;
+- (id)initWithState:country:target:credentialIdentifier:status:productIdentifier:accountKeyIdentifier:idType: /* Error: Ran out of types for this method. */;
+- (id)initWithStartTransferAuthorization:(SEL)arg1 endTransferAuthorization:(id)arg2 fetchMessageSession:(id)arg3;
+- (id)initWithStartTransferAuthorization:(SEL)arg1 endTransferAuthorization: /* Error: Ran out of types for this method. */;
+- (Class)initWithStartDate:endDate:currencyCode:onePercentTotal:twoPercentTotal:threePercentTotal:specialTotal: /* Error: Ran out of types for this method. */;
+- (unsigned long long)TRANSACTION_MULTIPLE_AMOUNTS_JOIN_STRING;
+- (_Bool);
 - (struct _NSZone *)ript.used-deferred-cached-js-context;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

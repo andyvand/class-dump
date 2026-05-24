@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMutableArray, NSString;
+@class NSError;
 
 @interface PHImageCacheEntry
 {
     NSError *_error;
-    struct CGImage *_imageRef;
-    NSDictionary *_additionalInfo;
-    struct os_unfair_lock_s _lock;
-    _Bool _isCancelled;
-    NSMutableArray *_handlersWaitingOnResult;
-    int _imageRequestIDForPopulatingCache;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)(J;
 - (struct CGImage *);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)inAlbum: /* Error: Ran out of types for this method. */;
-- (void)ions;
+- (_Bool)setIncludeTrashBinAlbum: /* Error: Ran out of types for this method. */;
+- (void)creationOptions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int imageRequestIDForPopulatingCache; // @synthesize imageRequestIDForPopulatingCache=_imageRequestIDForPopulatingCache;
-@property(readonly) Class superclass;
 
 @end
 

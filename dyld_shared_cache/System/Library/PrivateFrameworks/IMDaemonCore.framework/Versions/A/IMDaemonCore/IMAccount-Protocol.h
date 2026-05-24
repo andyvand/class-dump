@@ -5,15 +5,11 @@
 //
 
 @protocol IMAccount
-- (_Bool)ARD_COMPATIBILITY_EDITED;
+- (long long)88q92^q100;
+- (_Bool)6;
+- (_Bool)EDITED_MESSAGE_BACKWARD_COMPATIBILITY_EDITED;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountType;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isRegistered;
-@property(readonly, nonatomic) _Bool isSMSRelayCapable;
 @property(readonly, nonatomic) unsigned long long loginStatus;
-@property(readonly, nonatomic) long long profileValidationStatus;
-@property(readonly, nonatomic) long long registrationStatus;
 @end
 

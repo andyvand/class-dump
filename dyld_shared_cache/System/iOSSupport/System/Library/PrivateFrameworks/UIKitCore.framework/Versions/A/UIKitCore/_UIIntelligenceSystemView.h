@@ -6,45 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _UISceneHostingController;
-
 @interface _UIIntelligenceSystemView : UIView
 {
     _Bool __isVisibilityExternallyManaged;
-    _UISceneHostingController *_sceneHostingController;
-    CDUnknownBlockType __connectionActionProvider;
 }
 
-+ (Class);
++ (Class)_secondaryTextColorLight;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)markReadForIDs:(struct CGRect)arg1 style:(id)arg2 onServices:(id)arg3 messages:clientUnreadCount:setUnreadCountToZero: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void)t;
+- (void)t. File a radar-------*/;
+- (void)from service that doesn't support it. File a radar-------*/;
+- (void)rityMessageToPeerDevicesForMessageGUIDs:(id)arg1 from service that doesn't support it. File a radar-------*/;
+- (_Bool)llocing Push Handler %p;
+- (void)nicknames to deny list;
+- (CDUnknownBlockType)TATE_DEFER;
+- (void)@;
 - (void)ÔâÜæç¼è;
 - (void)ng, CGRect);
 - (void)__UIListContentTextAlignment;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _connectionActionProvider; // @synthesize _connectionActionProvider=__connectionActionProvider;
-@property(nonatomic, setter=_setVisibilityExternallyManaged:) _Bool _isVisibilityExternallyManaged; // @synthesize _isVisibilityExternallyManaged=__isVisibilityExternallyManaged;
-@property(readonly, nonatomic) _UISceneHostingController *_sceneHostingController; // @synthesize _sceneHostingController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

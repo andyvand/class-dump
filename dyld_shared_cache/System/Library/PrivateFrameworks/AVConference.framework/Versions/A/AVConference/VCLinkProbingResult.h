@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface VCLinkProbingResult
 {
     unsigned int _reorderedPacketsCount;
-    unsigned int _sentRequestCount;
-    unsigned int _receivedResponseCount;
-    NSMutableArray *_requestTimestampAndRTTList;
-    NSNumber *_expMovMeanRTT;
-    NSNumber *_plrEnvelopeValue;
-    NSNumber *_plrTier;
-    CDStruct_7421bd8e _linkProbingResultConfig;
 }
 
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -29,19 +20,13 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (void);
-- (id);
+- (id)Q;
 - (unsigned int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSNumber *expMovMeanRTT; // @synthesize expMovMeanRTT=_expMovMeanRTT;
-@property(readonly) NSNumber *plrEnvelopeValue; // @synthesize plrEnvelopeValue=_plrEnvelopeValue;
-@property(readonly) NSNumber *plrTier; // @synthesize plrTier=_plrTier;
-@property(readonly) unsigned int receivedResponseCount; // @synthesize receivedResponseCount=_receivedResponseCount;
 @property(readonly) unsigned int reorderedPacketsCount; // @synthesize reorderedPacketsCount=_reorderedPacketsCount;
-@property(readonly) NSMutableArray *requestTimestampAndRTTList; // @synthesize requestTimestampAndRTTList=_requestTimestampAndRTTList;
-@property(readonly) unsigned int sentRequestCount; // @synthesize sentRequestCount=_sentRequestCount;
 
 @end
 

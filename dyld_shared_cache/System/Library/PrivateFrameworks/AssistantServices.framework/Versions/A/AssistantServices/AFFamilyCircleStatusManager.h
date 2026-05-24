@@ -11,17 +11,18 @@
 
 + (_Bool);
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)tcpECNIntFallbackSynLoss;
 + (id);
 + (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (void)q;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)##
+;
 - (id);
 
 // Remaining properties

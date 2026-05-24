@@ -7,8 +7,6 @@
 @interface AppStoreKit.BasePageLayoutSectionProvider
 {
     id componentTypeMappingProvider;
-    id visibleItemsObserverProviders;
-    id componentHeightCache;
 }
 
 @end

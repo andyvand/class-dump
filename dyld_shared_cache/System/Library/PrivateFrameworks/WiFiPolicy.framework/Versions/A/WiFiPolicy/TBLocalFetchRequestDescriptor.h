@@ -9,18 +9,16 @@
 @interface TBLocalFetchRequestDescriptor
 {
     NSFetchRequest *_fetchRequest;
-    NSFetchRequest *_localFetchRequest;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)[;
+- (id)7;
 - (id);
 - (void)afð!üAù1¥°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
 @property(retain, nonatomic) NSFetchRequest *localFetchRequest; // @synthesize localFetchRequest=_localFetchRequest;
 
 @end

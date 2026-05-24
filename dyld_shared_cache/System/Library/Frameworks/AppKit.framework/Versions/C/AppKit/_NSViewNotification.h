@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSViewNotification
 {
     id _object;
-    NSString *_name;
 }
 
+- (id);
+- (void)J;
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)Point;
+- (void)centerPoint;
 
 // Remaining properties
 @property(retain) id object; // @dynamic object;

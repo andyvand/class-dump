@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField, NSView, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface iCloudHandleFLUI
 {
     NSWindow *_followUpUISheet;
-    NSButton *_verifyButton;
-    NSButton *_cancelButton;
-    NSView *_followUpUIViewContainer;
-    NSTextField *_titleText;
-    CDUnknownBlockType _completionHandler;
-    NSWindow *_parentWindow;
-    NSView *_followupView;
 }
 
 - (id);
@@ -36,23 +29,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (void)ñX°1Â0@ù
 × ;
 
 // Remaining properties
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain) NSWindow *followUpUISheet; // @synthesize followUpUISheet=_followUpUISheet;
-@property __weak NSView *followUpUIViewContainer; // @synthesize followUpUIViewContainer=_followUpUIViewContainer;
-@property NSView *followupView; // @synthesize followupView=_followupView;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property __weak NSTextField *titleText; // @synthesize titleText=_titleText;
-@property __weak NSButton *verifyButton; // @synthesize verifyButton=_verifyButton;
 
 @end
 

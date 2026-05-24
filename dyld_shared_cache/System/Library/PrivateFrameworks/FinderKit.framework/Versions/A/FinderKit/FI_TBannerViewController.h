@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FINode, FI_TImageView, FI_TPopover, ICQInAppMessage, NSButton, NSLayoutConstraint, NSString, NSTextField, _SWCollaborationDetailViewController;
+@class _SWCollaborationDetailViewController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBannerViewController
 {
     struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct TFENode _observedNode;
-    struct TNotificationCenterObserver _finderPrefsChangedObserver;
-    NSButton *_secondButton;
-    FI_TImageView *_symbolView;
-    NSTextField *_textField;
-    NSButton *_primaryButton;
-    ICQInAppMessage *_icqMessage;
-    NSLayoutConstraint *_textToSecondaryButtonConstraint;
-    NSLayoutConstraint *_textToPrimaryButtonConstraint;
-    NSString *_secondButtonTitle;
-    _Bool _isButtonEnabled;
-    _Bool _isSecondaryButtonEnabled;
-    _Bool _isTornDown;
-    int _type;
-    NSString *_text;
-    NSString *_buttonTitle;
-    FI_TPopover *_popover;
-    _SWCollaborationDetailViewController *_collaborationDetailController;
-    FINode *_collaborationNode;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T
+
+;
 - (void);
 - (void);
 - (void);
@@ -52,32 +35,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct TString);
 - (struct TFENode);
 - (_Bool);
-- (id);
-- (id);
+- (id)`;
+- (id)setting a referenceTarget on shadow roots;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)showRelativeToRect:(_Bool)arg1 ofView:preferredEdge: /* Error: Ran out of types for this method. */;
+- (id)set_defaultSearchIconImageViewAlpha:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)setVerticallyResizable:(id)arg1;
+- (_Bool)compositedDarkImageWithImage: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id) ;
 - (void);
 - (id);
 - (id);
@@ -87,23 +70,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isButtonEnabled) _Bool buttonEnabled; // @synthesize buttonEnabled=_isButtonEnabled;
-@property(copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
 @property(retain, nonatomic) _SWCollaborationDetailViewController *collaborationDetailController; // @synthesize collaborationDetailController=_collaborationDetailController;
-@property(retain, nonatomic) FINode *collaborationNode; // @synthesize collaborationNode=_collaborationNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FI_TPopover *popover; // @synthesize popover=_popover;
-@property(copy, nonatomic) NSString *secondButtonTitle;
-@property(nonatomic, getter=isSecondaryButtonEnabled) _Bool secondaryButtonEnabled; // @synthesize secondaryButtonEnabled=_isSecondaryButtonEnabled;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

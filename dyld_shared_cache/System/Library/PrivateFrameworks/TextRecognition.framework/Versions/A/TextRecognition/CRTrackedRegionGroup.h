@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRImageSpaceQuad, CRNormalizedQuad, CRVCQuad, NSArray, NSMutableArray, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface CRTrackedRegionGroup
 {
     _Bool _isInlineGroup;
-    _Bool _trackNeedsReplacement;
-    _Bool _isTextLeftJustified;
-    _Bool _isTextRightJustified;
-    CRImageSpaceQuad *_boundingQuadAfterOCR;
-    CRNormalizedQuad *boundingQuad;
-    CRNormalizedQuad *_originalBoundingQuad;
-    CRNormalizedQuad *_boundingQuadAtOCRDispatch;
-    NSUUID *_trackingID;
-    NSMutableArray *_regionTrackingIDs;
-    NSMutableArray *_children;
-    unsigned long long _numberOfLines;
-    CRVCQuad *_vcQuad;
-    double _lastOriginalBoundingQuadUpdateTime;
-    NSNumber *_homographyGroupID;
-    double _initialOrthogonalityScore;
-    unsigned long long _textAlignment;
-    unsigned long long _layoutDirection;
-    NSNumber *_averageLineHeight;
-    NSUUID *_uuid;
-    unsigned long long _groupChildrenAlignment;
-    CDStruct_1fe29af2 _boundingQuadHomographySinceOCRDispatch;
-    CDStruct_1fe29af2 _boundingQuadHomography;
 }
 
 + (id);
@@ -48,25 +26,27 @@
 - (id);
 - (id);
 - (double);
-- (_Bool);
-- (double);
+- (_Bool);
+- (double)9?;
 - (id);
 - (id);
-- (CDStruct_1fe29af2);
-- (CDStruct_1fe29af2);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (CDStruct_c27faaab);
+- (CDStruct_c27faaab);
 - (id);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (_Bool);
+- (void)_updateStandaloneReloadButtonSubtype;
+- (id)_updateContentViewTopContentInset;
+- (id)ess can be used by websites and trackers to identify you and determine personal information, like your location. Safari hides your IP address from known trackers, which helps prevent them from following you across websites.
+
+With iCloud Private Relay, you can also hide your IP address from websites you visit. {learn-more-link};
+- (id);
+- (id);
+- (id);
+- (void)t=dd}{CGSize=dd}}24@0:(id)arg1 8@"NSItemProvider"16;
 - (void)CRTableStructureMerge}^{CRTableStructureMerge}{?=^{CRTableStructureMerge}}}16@0:8 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long)evisions;
@@ -74,32 +54,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) NSNumber *averageLineHeight;
-@property(retain) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad;
-@property(retain) CRImageSpaceQuad *boundingQuadAfterOCR; // @synthesize boundingQuadAfterOCR=_boundingQuadAfterOCR;
-@property(retain) CRNormalizedQuad *boundingQuadAtOCRDispatch; // @synthesize boundingQuadAtOCRDispatch=_boundingQuadAtOCRDispatch;
-@property CDStruct_1fe29af2 boundingQuadHomography; // @synthesize boundingQuadHomography=_boundingQuadHomography;
-@property(readonly) CDStruct_1fe29af2 boundingQuadHomographySinceOCRDispatch; // @synthesize boundingQuadHomographySinceOCRDispatch=_boundingQuadHomographySinceOCRDispatch;
-@property(readonly) NSArray *children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSNumber *homographyGroupID; // @synthesize homographyGroupID=_homographyGroupID;
-@property double initialOrthogonalityScore; // @synthesize initialOrthogonalityScore=_initialOrthogonalityScore;
-@property(readonly) _Bool isInlineGroup;
-@property(readonly) double lastOriginalBoundingQuadUpdateTime;
-@property(readonly) unsigned long long layoutDirection;
-@property(readonly) unsigned long long numberOfLines;
-@property(retain) CRNormalizedQuad *originalBoundingQuad; // @synthesize originalBoundingQuad=_originalBoundingQuad;
-@property(readonly) NSArray *regionTrackingIDs;
-@property(readonly) Class superclass;
-@property unsigned long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property _Bool trackNeedsReplacement; // @synthesize trackNeedsReplacement=_trackNeedsReplacement;
 @property(retain) NSUUID *trackingID; // @synthesize trackingID=_trackingID;
-@property(readonly) CRVCQuad *vcQuad;
 
 @end
 

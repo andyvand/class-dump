@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchStringStringPair
 {
     PBDataReader *_reader;
-    NSString *_key;
-    NSString *_val;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_key:1;
-        unsigned int read_val:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)",C,N,V_condition;
+- (id)endpointBufferHostTime;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)};
-- (id)dPlaceCollections;
+- (id)_relatedPlaceCollections;
 - (id)ÔQ;
 - (void)rjgÚPI@;
 

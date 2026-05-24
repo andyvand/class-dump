@@ -6,37 +6,23 @@
 
 #import <CoreUARP/UARPHeySiriModelBase.h>
 
-@class NSObject, NSString, NSURL, UARPSuperBinaryAsset, UARPSuperBinaryAssetPayload;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface UARPHeySiriModelVoiceAssist : UARPHeySiriModelBase
 {
     NSObject<OS_os_log> *_log;
-    NSURL *_superBinaryMetaDataURL;
-    NSURL *_modelMetaDataURL;
-    NSURL *_modelDataURL;
-    NSURL *_fallbackModelMetaDataURL;
-    NSURL *_fallbackModelDataURL;
-    UARPSuperBinaryAsset *_asset;
-    UARPSuperBinaryAssetPayload *_payloadModel;
-    UARPSuperBinaryAssetPayload *_payloadFallbackModel;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)AMSFraudReportServiceInterface;
+- (void)w,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

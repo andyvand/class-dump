@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _CPSearchResultForFeedback;
-
 @interface _CPResultRankingFeedback
 {
     unsigned int _localResultPosition;
-    unsigned long long _timestamp;
-    _CPSearchResultForFeedback *_result;
-    NSArray *_hiddenResults;
-    NSArray *_duplicateResults;
-    double _personalizationScore;
 }
 
 - (id);
@@ -30,13 +23,13 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (double);
+- (void)_maximumCallsPerCallGroup;
+- (double)ationManager.m;
 - (id);
 - (id);
 - (id);
@@ -45,19 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *duplicateResults; // @synthesize duplicateResults=_duplicateResults;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *hiddenResults; // @synthesize hiddenResults=_hiddenResults;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) unsigned int localResultPosition; // @synthesize localResultPosition=_localResultPosition;
-@property(nonatomic) double personalizationScore; // @synthesize personalizationScore=_personalizationScore;
-@property(retain, nonatomic) _CPSearchResultForFeedback *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

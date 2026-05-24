@@ -7,16 +7,6 @@
 @interface RemindersUICore.TTRReminderCellHashtagEditingPresenter
 {
     id delegate;
-    id presenterManager;
-    id item;
-    id augmentation;
-    id interactor;
-    id hashtagsEditingSession;
-    id shouldSkipSavingEditingSession;
-    id newlyCreatedHashtags;
-    id fetchedHashtagLabels;
-    id hashtagLabelsCancellable;
-    id textSelectionPassthroughSubject;
 }
 
 @end

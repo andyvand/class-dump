@@ -6,16 +6,12 @@
 
 #import <MediaPlayer/MPMediaItemCollection.h>
 
-@class MPConcreteMediaEntityPropertiesCache, MPMediaItem, MPMediaQuery;
+@class MPConcreteMediaEntityPropertiesCache;
 
 __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItemCollection : MPMediaItemCollection
 {
     long long _identifier;
-    MPMediaQuery *_itemsQuery;
-    long long _grouping;
-    MPMediaItem *_representativeItem;
-    MPConcreteMediaEntityPropertiesCache *_propertiesCache;
 }
 
 + (id);
@@ -37,16 +33,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)%;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ColorSDR;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)MAPPING_MISSING__;
+- (void)__MPModelPropertyRadioStationType__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPConcreteMediaEntityPropertiesCache *cachedPropertyValues;

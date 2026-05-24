@@ -7,24 +7,15 @@
 @interface SwiftUI.ListTableViewCell
 {
     id delegate;
-    id cellConfiguration;
-    id disclosureIndent;
-    id separatorConfiguration;
-    id host;
-    id selectionBehavior;
-    id viewListID;
-    id outlineRootSeed;
-    id hasDragItemsPreference;
-    id hasItemProviderTrait;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (struct CGSize);
 - (id);
 - (void);
-- (id)V7SwiftUI17AnyNavigationPathP33_9DF1331F7AC5F2344ADB74E74311CCBE7BoxBase;
+- (id)_TtCV7SwiftUI17AnyNavigationPathP33_9DF1331F7AC5F2344ADB74E74311CCBE7BoxBase;
 - (void);
 - (void)S§;
 - (void);

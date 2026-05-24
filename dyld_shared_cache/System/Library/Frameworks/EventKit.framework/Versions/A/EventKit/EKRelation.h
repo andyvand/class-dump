@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface EKRelation
 {
     NSString *_entityName;
-    _Bool _toMany;
-    _Bool _ownsRelated;
-    NSSet *_inversePropertyNames;
-    CDUnknownBlockType _inversePropertyIsApplicable;
 }
 
 + (id);
@@ -22,15 +18,12 @@
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)_vendorVersionString;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType inversePropertyIsApplicable; // @synthesize inversePropertyIsApplicable=_inversePropertyIsApplicable;
-@property(readonly, nonatomic) NSSet *inversePropertyNames;
-@property(readonly, nonatomic) _Bool ownsRelatedObject;
 @property(readonly, nonatomic) _Bool toMany;
 
 @end

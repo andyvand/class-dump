@@ -7,17 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellHashtagViewController
 {
     id delegate;
-    id hashtagsAttributedText;
-    id hashtagsOverrideFont;
-    id presenter;
-    id suggestionMenuUtils;
-    id hashtagsFallbackColor;
-    id hashtagsTextField;
-    id hashtagsStaticLabel;
-    id firstResponderChangeFilter;
-    id lastTextChangeDetail;
-    id programmaticTextUpdateCounter;
-    id baseTextStyleOverrides;
 }
 
 - (id);

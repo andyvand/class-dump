@@ -23,8 +23,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct NSDirectionalEdgeInsets {
@@ -35,27 +35,15 @@ struct NSDirectionalEdgeInsets {
 };
 
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
     unsigned long long _field1;
     unsigned long long _field2;
-};
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
-struct atomic<long long> {
-    struct __cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>> {
-        _Atomic long long __a_value;
-    } __a_;
 };
 
 struct os_unfair_lock_s {

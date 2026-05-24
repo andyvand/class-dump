@@ -9,20 +9,18 @@
 @interface PXModelSettings : PXSettings
 {
     double _photoAnalysisGraphInitialGraceDelay;
-    double _photoAnalysisGraphProgressUpdateInterval;
 }
 
 + (id)0xNô: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double photoAnalysisGraphInitialGraceDelay; // @synthesize photoAnalysisGraphInitialGraceDelay=_photoAnalysisGraphInitialGraceDelay;
-@property(nonatomic) double photoAnalysisGraphProgressUpdateInterval; // @synthesize photoAnalysisGraphProgressUpdateInterval=_photoAnalysisGraphProgressUpdateInterval;
 
 @end
 

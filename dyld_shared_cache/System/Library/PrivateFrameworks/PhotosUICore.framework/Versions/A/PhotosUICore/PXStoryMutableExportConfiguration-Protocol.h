@@ -5,14 +5,12 @@
 //
 
 @class NSString;
-@protocol PXStoryErrorReporter;
 
 @protocol PXStoryMutableExportConfiguration
-- (NSString *)re38SocialGroupReorderGroupActionPerformer;
+- (void);
+- (NSString *)_TtC12PhotosUICore38SocialGroupReorderGroupActionPerformer;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activityCategory;
 @property(retain, nonatomic) NSString *activityType;
-@property(nonatomic) __weak id <PXStoryErrorReporter> errorReporter;
 @end
 

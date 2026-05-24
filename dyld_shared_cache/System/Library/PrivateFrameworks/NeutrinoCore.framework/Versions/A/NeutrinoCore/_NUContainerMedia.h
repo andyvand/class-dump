@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NUMedia.h>
 
-@class NSArray, NSDictionary, NUChannelContainerMediaFormat, NUChannelMediaFormat;
-@protocol NUMediaGeometry, NUMediaMetadata;
+@class NSDictionary, NUChannelContainerMediaFormat;
 
 @interface _NUContainerMedia : _NUMedia
 {
@@ -29,12 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *components;
 @property(readonly, nonatomic) NUChannelContainerMediaFormat *containerFormat;
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
-@property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
 
 @end
 

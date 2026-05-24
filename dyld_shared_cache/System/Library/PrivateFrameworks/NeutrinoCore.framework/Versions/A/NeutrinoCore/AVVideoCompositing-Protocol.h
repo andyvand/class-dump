@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class AVVideoCompositionRenderHint, NSDictionary;
 
 @protocol AVVideoCompositing
+- (void)ource                 FROM sessions_old AS s JOIN modelHandles AS mh                 WHERE s.modelHandleId = mh.id AND mh.sd_id IS NOT NULL;
+- (NSDictionary *)OIN sessionsItemIds ON sessions.id = sessionsItemIds.sessionId AND sessions.sessionDescriptorId = (SELECT id FROM sessionsDescriptors WHERE name = :name AND version = :version AND locale = :locale) AND sessionsItemIds.lastUsed <= :lastUsedMax AND sessionsItemIds.timesAccessed < :timesUsedMax AND sessions.id > :rowId %@ ORDER BY sessions.id limit :limit /* Error: Ran out of types for this method. */;
+- (void)useOnlyAppleInternalSessions;
+
+@optional
+- (_Bool)type is SNORM;
+- (_Bool)a type is FLOAT;
+- (_Bool)ion for %s;
+- (void)id IN (   SELECT id FROM sessions   WHERE %@   UNLIKELY(sessionDescriptorId = (SELECT id FROM sessionsDescriptors WHERE name = :(AVVideoCompositionRenderHint *)arg1 name AND version = :version AND locale = :locale))   ORDER BY RANDOM() LIMIT :limit ) /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canConformColorOfSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *requiredPixelBufferAttributesForRenderContext;
 @property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly, nonatomic) _Bool supportsHDRSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsSourceTaggedBuffers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsWideColorSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

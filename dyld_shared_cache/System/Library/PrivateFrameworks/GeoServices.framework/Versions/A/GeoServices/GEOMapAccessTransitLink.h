@@ -6,21 +6,15 @@
 
 #import <GeoServices/GEOMapAccessLine.h>
 
-@class NSString;
-@protocol GEOMapTransitStop;
-
 __attribute__((visibility("hidden")))
 @interface GEOMapAccessTransitLink : GEOMapAccessLine
 {
     shared_ptr_24ebf3c0 _transitEdge;
-    struct vector<GEOLocationCoordinate2D, std::allocator<GEOLocationCoordinate2D>> _coords;
-    id <GEOMapTransitStop> _stopFrom;
-    id <GEOMapTransitStop> _stopTo;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id)h;
 - (unsigned int);
 - (id);
 - (id);
@@ -30,20 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)ì;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coordinateCount;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *coordinates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *internalLineName;
-@property(readonly, nonatomic) double length;
-@property(readonly, nonatomic) unsigned int minimumTravelTime;
-@property(readonly, nonatomic) id <GEOMapTransitStop> stopFrom; // @synthesize stopFrom=_stopFrom;
-@property(readonly, nonatomic) id <GEOMapTransitStop> stopTo; // @synthesize stopTo=_stopTo;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long transitLineID;
 
 @end

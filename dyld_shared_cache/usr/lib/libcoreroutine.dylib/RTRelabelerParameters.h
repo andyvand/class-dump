@@ -7,52 +7,28 @@
 @interface RTRelabelerParameters
 {
     double _baseCount;
-    double _clippingRadius;
-    double _confidenceEqualityEpsilon;
-    double _confidenceThreshold;
-    unsigned long long _contextCandidateAmountThreshold;
-    double _contextDistanceThreshold;
-    double _minimumConfidenceRatio;
-    unsigned long long _minimumNumberPOIs;
-    double _passthroughThreshold;
-    double _placeholderWeight;
-    double _revGeoConfidence;
-    double _sigma;
-    unsigned long long _weekThreshold;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (double);
 - (unsigned long long);
 - (double);
 - (id);
+- (double)triggerWatchSyncing: /* Error: Ran out of types for this method. */;
+- (double)successDependencies;
+- (double)resume;
+- (double)_removeFromRegistry;
+- (unsigned long long)AnonymousSharing;
+- (double)Ӆ32;
 - (double);
-- (double);
-- (double);
-- (double);
-- (unsigned long long);
-- (double);
-- (double);
-- (id);
+- (id)d errno=%d;
 - (id);
 - (double)l;
 - (id)ifier, %@, from, %@, for loi, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) double baseCount; // @synthesize baseCount=_baseCount;
-@property(readonly, nonatomic) double clippingRadius; // @synthesize clippingRadius=_clippingRadius;
-@property(readonly, nonatomic) double confidenceEqualityEpsilon; // @synthesize confidenceEqualityEpsilon=_confidenceEqualityEpsilon;
-@property(readonly, nonatomic) double confidenceThreshold; // @synthesize confidenceThreshold=_confidenceThreshold;
-@property(readonly, nonatomic) unsigned long long contextCandidateAmountThreshold; // @synthesize contextCandidateAmountThreshold=_contextCandidateAmountThreshold;
-@property(readonly, nonatomic) double contextDistanceThreshold; // @synthesize contextDistanceThreshold=_contextDistanceThreshold;
-@property(readonly, nonatomic) double minimumConfidenceRatio; // @synthesize minimumConfidenceRatio=_minimumConfidenceRatio;
-@property(readonly, nonatomic) unsigned long long minimumNumberPOIs; // @synthesize minimumNumberPOIs=_minimumNumberPOIs;
-@property(readonly, nonatomic) double passthroughThreshold; // @synthesize passthroughThreshold=_passthroughThreshold;
-@property(readonly, nonatomic) double placeholderWeight; // @synthesize placeholderWeight=_placeholderWeight;
-@property(readonly, nonatomic) double revGeoConfidence; // @synthesize revGeoConfidence=_revGeoConfidence;
-@property(readonly, nonatomic) double sigma; // @synthesize sigma=_sigma;
-@property(readonly, nonatomic) unsigned long long weekThreshold; // @synthesize weekThreshold=_weekThreshold;
 
 @end
 

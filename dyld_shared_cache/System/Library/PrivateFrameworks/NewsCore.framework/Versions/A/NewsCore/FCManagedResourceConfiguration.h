@@ -9,19 +9,17 @@
 @interface FCManagedResourceConfiguration
 {
     NSString *_resourceID;
-    long long _refreshRate;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long)initWithFileURL:identifier:localizedDescription: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)
 × ;
-- (void)letedDate;
+- (void)completedDate;
 
 // Remaining properties
-@property(readonly, nonatomic) long long refreshRate; // @synthesize refreshRate=_refreshRate;
 @property(readonly, copy, nonatomic) NSString *resourceID; // @synthesize resourceID=_resourceID;
 
 @end

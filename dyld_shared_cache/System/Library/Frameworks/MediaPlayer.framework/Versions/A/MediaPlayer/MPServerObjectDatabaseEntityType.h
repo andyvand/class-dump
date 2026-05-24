@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface MPServerObjectDatabaseEntityType
 {
     NSString *_serverEntityType;
-    NSString *_genericObjectRelationshipKey;
 }
 
 + (id);
 - (id);
 - (id);
-- (void)Context;
+- (void)_publishedContext;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *genericObjectRelationshipKey; // @synthesize genericObjectRelationshipKey=_genericObjectRelationshipKey;
 @property(readonly, copy, nonatomic) NSString *serverEntityType; // @synthesize serverEntityType=_serverEntityType;
 
 @end

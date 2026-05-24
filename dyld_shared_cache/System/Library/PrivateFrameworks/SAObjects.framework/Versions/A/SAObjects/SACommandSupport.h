@@ -6,14 +6,14 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, NSURL, SAObjectSupport;
+@class NSString;
 
 @interface SACommandSupport : AceObject
 {
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -26,23 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)I;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceVersion;
-@property(copy, nonatomic) NSString *commandId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAObjectSupport *resultSupport;
-@property(copy, nonatomic) NSURL *serverEndpoint;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedConstraints;
-@property(nonatomic) long long weight;
 
 @end
 

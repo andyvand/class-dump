@@ -9,19 +9,20 @@
 @interface PXSharedLibraryButtonBox
 {
     NSButton *_addImageButton;
-    NSButton *_addTextButton;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
-- (id);
+- (id)oordinates2 = (uTextureMatrix2 * aTextureCoordinates2).st 
+		#define ComputeInSpriteCoordinates		vInSpriteCoordinates = aInSpriteCoordinates 
+		#define ComputeForeColor				vColor = aColor 
+		;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buttonTitle;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 
 @end
 

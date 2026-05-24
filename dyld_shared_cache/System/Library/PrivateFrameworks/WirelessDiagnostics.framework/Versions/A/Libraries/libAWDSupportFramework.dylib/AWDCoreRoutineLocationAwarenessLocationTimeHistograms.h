@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineLocationAwarenessBasicHistogram;
-
 @interface AWDCoreRoutineLocationAwarenessLocationTimeHistograms
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_anyPositiveHistogram;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_lessThan10mHistogram;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_lessThan200mHistogram;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_lessThan20mHistogram;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_lessThan55mHistogram;
-    CDStruct_9b5766a4 _has;
 }
 
 @end

@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraClipImportVideoSegmentMetadata
 {
     _Bool _header;
-    NSString *_resourcePath;
-    double _duration;
 }
 
 - (id);
-- (double);
+- (double)ma];
 - (id);
 - (_Bool).HomeKit.daemon.statuskit.channel.residentStatus.migration;
 - (void);
 
 // Remaining properties
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly, getter=isHeader) _Bool header; // @synthesize header=_header;
 @property(readonly, copy) NSString *resourcePath; // @synthesize resourcePath=_resourcePath;
 
 @end

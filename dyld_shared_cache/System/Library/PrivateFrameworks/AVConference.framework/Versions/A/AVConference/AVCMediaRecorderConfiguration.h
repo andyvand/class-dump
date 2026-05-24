@@ -10,10 +10,10 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (unsigned int);
-- (id);
-- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int mediaAvailability; // @synthesize mediaAvailability=_mediaAvailability;

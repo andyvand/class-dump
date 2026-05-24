@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double x;
-@property(nonatomic, readonly) double y;
 
 @end
 

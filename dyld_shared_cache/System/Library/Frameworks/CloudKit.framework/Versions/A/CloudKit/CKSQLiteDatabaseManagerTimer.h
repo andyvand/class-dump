@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteDatabase, NSDate, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CKSQLiteDatabase;
 
 @interface CKSQLiteDatabaseManagerTimer
 {
     CKSQLiteDatabase *_db;
-    struct os_unfair_lock_s _timerLock;
-    NSObject<OS_dispatch_source> *_activityTimer;
-    NSDate *_nextActivityDate;
-    NSObject<OS_dispatch_queue> *_activityQueue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void)	
 ;

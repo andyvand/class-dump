@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)iCLOUDDRIVE_DISABLE_FILE_UPLOAD_FAILED_BUT_WILL_BE_SAVED_LOCALLY_TITLE;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface MediaPlaybackCore.ErrorControllerImplementation
 {
     id externalImplementation;
-    id playerController;
-    id reporter;
 }
 
 - (void);

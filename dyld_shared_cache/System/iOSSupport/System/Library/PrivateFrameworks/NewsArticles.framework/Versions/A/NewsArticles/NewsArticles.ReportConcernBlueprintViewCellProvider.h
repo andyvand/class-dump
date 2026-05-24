@@ -7,7 +7,6 @@
 @interface NewsArticles.ReportConcernBlueprintViewCellProvider
 {
     id delegate;
-    id imageHeadlineViewRenderer;
 }
 
 @end

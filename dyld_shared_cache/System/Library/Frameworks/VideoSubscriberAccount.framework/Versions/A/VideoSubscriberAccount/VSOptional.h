@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_readExtensionsStateFromStorageFromURL:(id)arg1;
 - (id);
 - (void);
 

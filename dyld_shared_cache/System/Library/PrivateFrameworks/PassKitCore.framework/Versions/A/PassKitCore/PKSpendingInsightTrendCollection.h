@@ -9,7 +9,6 @@
 @interface PKSpendingInsightTrendCollection
 {
     NSDictionary *_categoryTrends;
-    PKSpendingInsightTrend *_overallSpendingTrend;
 }
 
 + (_Bool);
@@ -20,8 +19,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void)nsferFailed;
+- (void)_uncertainty;
+- (void)transferFailed;
 
 // Remaining properties
 @property(readonly, nonatomic) PKSpendingInsightTrend *overallSpendingTrend; // @synthesize overallSpendingTrend=_overallSpendingTrend;

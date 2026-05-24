@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)computeCommandEncoder;
+- (id)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (id)componentsJoinedByString:(SEL)arg1;
+- (id)completionSharedEventBoundToESOP;
+- (Class)compilerPropagatesThreadPriority: /* Error: Ran out of types for this method. */;
+- (id)	;
+- (_Bool)taskUUID;
+- (_Bool)(E9;
+- (_Bool)a@9h;
 - (struct _NSZone *)odingProxy proxyDecodingAnimationsForTarget:withServiceMarshal:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

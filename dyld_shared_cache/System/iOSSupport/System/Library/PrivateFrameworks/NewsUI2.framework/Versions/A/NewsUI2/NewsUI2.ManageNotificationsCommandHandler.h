@@ -7,8 +7,6 @@
 @interface NewsUI2.ManageNotificationsCommandHandler
 {
     id navigator;
-    id tracker;
-    id followingDataManager;
 }
 
 @end

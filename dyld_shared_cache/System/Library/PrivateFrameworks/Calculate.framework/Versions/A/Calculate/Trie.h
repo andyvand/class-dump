@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TrieNode;
+@class TrieNode;
 
 __attribute__((visibility("hidden")))
 @interface Trie
 {
     _Bool _autocompress;
-    _Bool _compressed;
-    int _characterCount;
-    int _characterSize;
-    int _nodeCount;
-    int _nodeSize;
-    TrieNode *_root;
-    char *_characters;
-    CDStruct_ef06dbdc *_nodes;
-    NSMutableArray *_objects;
-    int *_firstByteCache;
 }
 
 - (void);
+- (void)4;
 - (void);
 - (void);
-- (void);
-- (void);
-- (int *);
+- (void)a;
+- (int *);
 - (int);
 - (void);
 - (int);
@@ -41,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)beginTrackingLoadedCodeItemsWithMode:(id)arg1 completion:targetQueue: /* Error: Ran out of types for this method. */;
 - (char *);
 - (void);
 - (void)óm;
@@ -49,15 +39,6 @@ __attribute__((visibility("hidden")))
 ;3$3c<8Fa¸V9þjËÛTJLÝw±Ê¤«;Xw?u?mÖþÊÈ/g,O /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int characterCount; // @synthesize characterCount=_characterCount;
-@property(nonatomic) int characterSize; // @synthesize characterSize=_characterSize;
-@property(nonatomic) char *characters; // @synthesize characters=_characters;
-@property(nonatomic) _Bool compressed; // @synthesize compressed=_compressed;
-@property(nonatomic) int *firstByteCache; // @synthesize firstByteCache=_firstByteCache;
-@property(nonatomic) int nodeCount; // @synthesize nodeCount=_nodeCount;
-@property(nonatomic) int nodeSize; // @synthesize nodeSize=_nodeSize;
-@property(nonatomic) CDStruct_ef06dbdc *nodes; // @synthesize nodes=_nodes;
-@property(retain, nonatomic) NSMutableArray *objects; // @synthesize objects=_objects;
 @property(copy, nonatomic) TrieNode *root; // @synthesize root=_root;
 
 @end

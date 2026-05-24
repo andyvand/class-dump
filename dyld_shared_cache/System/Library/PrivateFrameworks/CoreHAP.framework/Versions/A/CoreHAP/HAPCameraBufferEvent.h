@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraBufferEventCMAFSessionStart, HAPCameraBufferEventCMAFSessionStop, HAPCameraBufferEventMotion, HAPCameraBufferEventTypeWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferEvent
 {
     HAPTLVUnsignedNumberValue *_sequenceNumber;
-    HAPCameraBufferEventTypeWrapper *_type;
-    HAPCameraBufferEventCMAFSessionStart *_CMAFSessionStart;
-    HAPCameraBufferEventCMAFSessionStop *_CMAFSessionStop;
-    HAPCameraBufferEventMotion *_motion;
 }
 
 + (id);
@@ -28,26 +24,15 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)debugDescription;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void)v48@0:8@16@24Q32@?40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HAPCameraBufferEventCMAFSessionStart *CMAFSessionStart; // @synthesize CMAFSessionStart=_CMAFSessionStart;
-@property(retain, nonatomic) HAPCameraBufferEventCMAFSessionStop *CMAFSessionStop; // @synthesize CMAFSessionStop=_CMAFSessionStop;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPCameraBufferEventMotion *motion; // @synthesize motion=_motion;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPCameraBufferEventTypeWrapper *type; // @synthesize type=_type;
 
 @end
 

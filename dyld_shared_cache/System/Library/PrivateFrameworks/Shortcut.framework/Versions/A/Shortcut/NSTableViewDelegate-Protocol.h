@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (NSString *)qa;
+- (NSString *)(Sh+;
+- (_Bool)@yk);
+- (_Bool)*;
+- (long long);
 @end
 

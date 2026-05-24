@@ -8,11 +8,11 @@
 {
 }
 
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)9h;
++ (_Bool)H;
++ (_Bool)R;
 + (_Bool);
 + (_Bool);
 + (_Bool);

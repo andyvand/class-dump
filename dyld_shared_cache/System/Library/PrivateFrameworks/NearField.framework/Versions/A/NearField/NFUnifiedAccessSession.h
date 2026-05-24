@@ -6,32 +6,24 @@
 
 #import <NearField/NFSession.h>
 
-@class NFApplet, NSDictionary, NSSet;
 @protocol NFUnifiedAccessSessionDelegate;
 
 @interface NFUnifiedAccessSession : NFSession
 {
     id <NFUnifiedAccessSessionDelegate> _delegate;
-    _Bool _emulationActive;
-    NSDictionary *_appletsById;
-    unsigned long long _numActiveSEs;
-    _Bool _fieldNotificationSent;
-    _Bool _cardEmulationStarted;
-    NFApplet *_activeApplet;
-    NSSet *_activeKeys;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)sheet displayed for HTTPS can't connect/continue anyway dialog.;
+- (_Bool)CNContactStoreConfiguration;
+- (_Bool)AB_COLLECTION_SEPARATOR_INSET_TRAILING;
+- (_Bool)CTION_ROW_STACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (void)em/Library/PrivateFrameworks/CoreSuggestions.framework/CoreSuggestions;
+- (_Bool)ks/ContactsUI.framework/ContactsUI;
+- (void)ved %@;
+- (unsigned long long)reetKey(void);
+- (_Bool)ramework/AddressBookUI/ABAllSmartGroup.m;
+- (_Bool)temActivityIdentifier(void);
+- (void)L;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -45,16 +37,13 @@
 - (void);
 - (id);
 - (id);
+- (void)iju8S)S	k!;
 - (void);
-- (void);
-- (void);
+- (void)er returned status %ld;
 - (id);
 
 // Remaining properties
-@property(readonly, retain) NFApplet *activeApplet; // @synthesize activeApplet=_activeApplet;
-@property(readonly, retain) NSSet *activeKeys; // @synthesize activeKeys=_activeKeys;
 @property(nonatomic) _Bool cardEmulationStarted; // @synthesize cardEmulationStarted=_cardEmulationStarted;
-@property id <NFUnifiedAccessSessionDelegate> delegate;
 
 @end
 

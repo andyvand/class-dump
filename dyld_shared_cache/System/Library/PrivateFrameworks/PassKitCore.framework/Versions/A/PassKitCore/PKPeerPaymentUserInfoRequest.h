@@ -6,17 +6,16 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPeerPaymentUserInfoRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSDate *_lastUpdated;
 }
 
 - (id);
 - (id);
-- (void)mentMetadata;
+- (void)supportsStatementMetadata;
 
 @end
 

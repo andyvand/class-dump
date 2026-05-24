@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)music.on.film;
 + (void);
 - (_Bool);
 - (unsigned long long);

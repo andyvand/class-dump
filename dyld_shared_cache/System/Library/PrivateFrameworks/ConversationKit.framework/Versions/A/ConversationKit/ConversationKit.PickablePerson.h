@@ -7,8 +7,6 @@
 @interface ConversationKit.PickablePerson
 {
     id contact;
-    id handle;
-    id address;
 }
 
 - (id);

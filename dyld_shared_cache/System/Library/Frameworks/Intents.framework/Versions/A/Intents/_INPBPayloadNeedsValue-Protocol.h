@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *promptItems;
-@property(readonly, nonatomic) unsigned long long promptItemsCount;
 @end
 

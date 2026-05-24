@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSString, NSView, PDFDestination, PDFDetectedFormField, PDFDocument, PDFOverlayViewsController, PDFPage, PDFPageBackgroundManager, PDFSelection, PDFViewPrivate;
-@protocol PDFPageOverlayViewProvider, PDFViewDelegate;
+@class PDFDocument, PDFViewPrivate;
 
 @interface PDFView
 {
     PDFViewPrivate *_private;
-    unsigned long long _currentPageIndex;
-    PDFPageBackgroundManager *_pageBackgroundManager;
-    PDFDetectedFormField *_detectedFormField;
-    PDFPage *_detectedFormFieldPage;
-    PDFOverlayViewsController *_overlayViewController;
-    _Bool _annotationEditingAllowed;
-    _Bool _formDetectionEnabled;
-    _Bool _inMarkupMode;
-    id <PDFPageOverlayViewProvider> _pageOverlayViewProvider;
 }
 
 + (_Bool);
@@ -27,7 +17,7 @@
 + (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)y;
 - (id);
 - (id);
 - (id);
@@ -45,6 +35,14 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,15 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,7 +81,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -110,11 +100,11 @@
 - (struct NSEdgeInsets);
 - (void);
 - (struct CGRect);
-- (id);
+- (id);
 - (struct CGRect);
 - (struct CGRect);
 - (long long);
-- (double);
+- (double)(;
 - (double);
 - (double);
 - (void);
@@ -154,7 +144,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -171,7 +161,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -207,7 +197,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)9;
 - (void);
 - (_Bool);
 - (double);
@@ -219,7 +209,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (_Bool);
 - (void);
@@ -251,11 +241,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (double);
 - (void);
@@ -282,8 +272,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)newBufferWithBytesNoCopy:(_Bool)arg1 length:options:deallocator: /* Error: Ran out of types for this method. */;
+- (_Bool)%d) is greater than the number of LTR allowed (%d)
+;
 - (void);
 - (void);
 - (void);
@@ -299,7 +290,7 @@
 - (struct CGSize);
 - (double);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -316,78 +307,239 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void):(id)arg1 8@"NSString"16^@24;
+- (void)@36@0:(id)arg1 8@16@24B32;
+- (void)aseLocationProviderProtocol>";
+- (void)Zone=}16@0:(id)arg1 8;
+- (void)B24@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
+- (void)numberOfUnseenMissedCalls;
+- (void)modifyCallRecordForDBAtLocation:(id)arg1 dbVersion:(id)arg2 isEncrypted:modifyCallRecord: /* Error: Ran out of types for this method. */;
+- (void)initWithAssetId:(id)arg1;
+- (void)inferredMappingModelForSourceModel:(id)arg1 destinationModel:error: /* Error: Ran out of types for this method. */;
+- (double)handleTypeForValue:(id)arg1;
 - (void);
 - (long long);
 - (id);
+- (_Bool)_callProgressHandler:(id)arg1 updatingAccessoryDescription:(id)arg2 fromMessage: /* Error: Ran out of types for this method. */;
+- (id)ry,V_vendorAccessory;
+- (void)sorySettings;
+- (void)iaProfileDelegate>",W,V_delegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ate the home configuration cache folder -- turning off the caching support;
+- (void)object from dictionary %@;
+- (id)edia session:(id)arg1 %@ context:(id)arg2 %@;
+- (void)h identifier:(id)arg1 %@;
+- (void)c}@[%{public}@] Canceling staged CHIP accessory pairing with identifier:(id)arg1 %@;
+- (_Bool)response payload:(id)arg1 %@;
+- (_Bool)supportsMessagedHomePodSettings:(id)arg1 %@;
+- (void)ifying clients settings:(id)arg1 %@ didUpdateForIdentifier:%@ keyPath:%@ /* Error: Ran out of types for this method. */;
+- (void)@;
+- (unsigned long long)metadataUnits;
+- (id)kAccessoryInfoFirmwareVersionKey;
+- (void)r significant event;
+- (void)und;
+- (_Bool)areUpdateManager updateAvailableUpdate:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)ACCESSORY_NOT_REACHABLE;
+- (_Bool)rYou;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)URLSession;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (id)', extended_content_rating TEXT NOT NULL DEFAULT '', movie_info TEXT NOT NULL DEFAULT '', has_alternate_audio INTEGER NOT NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
+- (void)E item_extra ADD COLUMN store_flavor TEXT;
+- (void);
+- (void);
+- (id);
+- (void)(filter:(id)arg1:linear);
+float4 floorColor = u_floorReflectionColor.sampleLayer(linear_sampler, normalizedFragCoord);
+float reflectionFactor = scn_floorSurf.u_floorReflectivity;
+#ifdef USE_FALLOFF
+float floorDepth = u_floorReflectionDepth.sample(linear_sampler, normalizedFragCoord);
+float3  floorPW = floorUnprojectPoint(float3(normalizedFragCoord.x, 1. - normalizedFragCoord.y, floorDepth), scn_floorSurf.u_floorMVP_i);
+float floorDist = -dot(floorPW.xyz, scn_floorSurf.u_floorPlane.xyz) - scn_floorSurf.u_floorPlane.w;;
+#ifdef USE_FALLOFF_START
+floorDist -= scn_floorSurf.u_floorFalloffStart; 
+#endif 
+reflectionFactor *= 1.0 - clamp(floorDist / scn_floorSurf.u_floorFalloff, 0.0, 1.0);
+#endif 
+
+floorColor *= reflectionFactor; 
+_output.color.rgb *= (1. - floorColor.a); 
+_output.color.rgba += floorColor.rgba; 
+ /* Error: Ran out of types for this method. */;
+- (void)scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :(id)arg1 1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+;
+- (void)float4 u_floorTangent = scn_fg.u_floorTangent;
+    float3 u_floorCenter = scn_fg.u_floorCenter;
+    float2 u_floorExtent = scn_fg.u_floorExtent;
+
+    float3 floorBitangent =  normalize(cross(u_floorTangent.xyz, u_floorNormal));
+    _geometry.position.xyz = u_floorCenter.xyz + u_floorExtent.x * (_geometry.position.x * u_floorTangent.xyz) + u_floorExtent.y * (_geometry.position.y * floorBitangent);
+
+    _geometry.normal = u_floorNormal;
+    _geometry.tangent = u_floorTangent;
+
+    
+    float2 tc;
+    if (u_floorNormal.y != 0.)
+        tc = _geometry.position.xz * 0.01;
+    else if (u_floorNormal.z != 0.)
+        tc = _geometry.position.xy * 0.01;
+    else
+        tc = _geometry.position.yz * 0.01;
+
+    for (int i = 0; i < kSCNTexcoordCount; ++i)
+        _geometry.texcoords[i] = tc;
+;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
+- (double)@;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -398,7 +550,7 @@
 - (void);
 - (double);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void)!DùQä1Â0@ù
 × ;
@@ -406,55 +558,14 @@
 - (void)CFString=}48^{__CFDictionary=}56;
 - (void)@32;
 - (_Bool)unsignedIntegerValue;
-- (void)ingString:(id)arg1;
-- (_Bool)hInitialPageIndex:(id)arg1;
-- (void)erEffectsForScannerResult:(id)arg1 withLayer: /* Error: Ran out of types for this method. */;
+- (void)stringByAppendingString:(id)arg1;
+- (_Bool)setDocument:(id)arg1 withInitialPageIndex: /* Error: Ran out of types for this method. */;
+- (void)createPDFScannerResultLayerEffectsForScannerResult:(id)arg1 withLayer: /* Error: Ran out of types for this method. */;
 - (void)location;
 - (void)§;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptsDraggedFiles;
-@property(nonatomic) _Bool autoScales;
-@property(retain, nonatomic) NSColor *backgroundColor;
-@property(readonly, nonatomic) _Bool canGoBack;
-@property(readonly, nonatomic) _Bool canGoForward;
-@property(readonly, nonatomic) _Bool canGoToFirstPage;
-@property(readonly, nonatomic) _Bool canGoToLastPage;
-@property(readonly, nonatomic) _Bool canGoToNextPage;
-@property(readonly, nonatomic) _Bool canGoToPreviousPage;
-@property(readonly, nonatomic) _Bool canZoomIn;
-@property(readonly, nonatomic) _Bool canZoomOut;
-@property(readonly, nonatomic) PDFDestination *currentDestination;
-@property(readonly, nonatomic) PDFPage *currentPage;
-@property(retain, nonatomic) PDFSelection *currentSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PDFViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayBox;
-@property(nonatomic) long long displayDirection;
-@property(nonatomic) long long displayMode;
-@property(nonatomic) _Bool displaysAsBook;
-@property(nonatomic) _Bool displaysPageBreaks;
-@property(nonatomic) _Bool displaysRTL;
 @property(retain, nonatomic) PDFDocument *document;
-@property(readonly, nonatomic) NSView *documentView;
-@property(nonatomic) _Bool enableDataDetectors;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *highlightedSelections;
-@property(nonatomic, getter=isInMarkupMode) _Bool inMarkupMode; // @synthesize inMarkupMode=_inMarkupMode;
-@property(nonatomic) long long interpolationQuality;
-@property(nonatomic) double maxScaleFactor;
-@property(nonatomic) double minScaleFactor;
-@property(nonatomic) struct NSEdgeInsets pageBreakMargins;
-@property(nonatomic) __weak id <PDFPageOverlayViewProvider> pageOverlayViewProvider; // @synthesize pageOverlayViewProvider=_pageOverlayViewProvider;
-@property(nonatomic, setter=enablePageShadows:) _Bool pageShadowsEnabled;
-@property(nonatomic) double scaleFactor;
-@property(readonly, nonatomic) double scaleFactorForSizeToFit;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *visiblePages;
 
 @end
 

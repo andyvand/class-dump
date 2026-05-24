@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, BSServiceConnectionListener, BSServiceQueue, NSString;
+@class BSServiceQueue;
 @protocol UISSceneHostingExternalSettingsModifierServiceDelegate;
 
 @interface UISSceneHostingExternalSettingsModifierService
 {
     BSServiceQueue *_calloutQueue;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_invalidated;
-    BSServiceConnectionListener *_lock_listener;
-    id <UISSceneHostingExternalSettingsModifierServiceDelegate> _lock_delegate;
-    struct {
-        unsigned int delegateSupportsSettingsModifiersForClientProcessIdentityHostedByAuditToken:1;
-    } _lock_delegateFlags;
 }
 
-- (oneway void);
+- (oneway void)@`;
 - (void);
 - (id);
 - (id);
@@ -31,15 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UISSceneHostingExternalSettingsModifierServiceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BSServiceConnectionEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

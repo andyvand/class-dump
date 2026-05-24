@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaPNRFatalErrorInfo : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    NSString *_errorCode;
-    _Bool _hasErrorDomain;
-    _Bool _hasErrorCode;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_CHSRelevanceCacheBufBuilder;
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)";
+- (unsigned long long)_appUptime;
+- (_Bool));
+- (_Bool)ntifier ON chat(chat_identifier);;
+- (id)gesForAssociatedGUID [%@];
+- (id);
 - (id);
-- (id);
-- (id);
-- (id)rce;
-- (id)orNumber;
+- (id)deleteContentSource;
+- (id)_errorNumber;
 - (void)MWTFORMATLAYOUT_PENTAGONAL;
-- (void)d;
+- (void)tapbackWasChanged;
 - (id)Í½´-ñ!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode; // @synthesize hasErrorCode=_hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

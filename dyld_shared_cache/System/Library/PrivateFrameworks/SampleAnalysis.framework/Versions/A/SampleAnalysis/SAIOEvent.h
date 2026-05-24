@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
-
 @interface SAIOEvent
 {
     unsigned int _tier;
-    unsigned int _rawType;
-    SATimestamp *_startTimestamp;
-    SATimestamp *_endTimestamp;
-    unsigned long long _size;
-    unsigned long long _threadID;
-    unsigned long long _blockNumber;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)accessibilityDisclosedByRow;
 - (unsigned int);
 - (id);
 - (unsigned long long);
@@ -33,25 +25,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)o;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) SATimestamp *endTimestamp; // @synthesize endTimestamp=_endTimestamp;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isRead;
-@property(readonly) unsigned long long size; // @synthesize size=_size;
-@property(readonly) SATimestamp *startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long threadID; // @synthesize threadID=_threadID;
-@property(readonly) unsigned int tier; // @synthesize tier=_tier;
-@property(readonly) NSString *type;
 
 @end
 

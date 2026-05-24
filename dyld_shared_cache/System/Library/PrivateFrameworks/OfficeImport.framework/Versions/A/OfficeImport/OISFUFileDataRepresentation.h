@@ -6,25 +6,16 @@
 
 #import <OfficeImport/OISFUDataRepresentation.h>
 
-@class NSString, OISFUCryptoKey;
-@protocol SFUInputStream;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OISFUFileDataRepresentation : OISFUDataRepresentation
 {
     NSString *mPath;
-    int mSharedFd;
-    long long mFileLength;
-    unsigned int mFileType;
-    _Bool mHasFileAttributes;
-    long long mPlaintextDataLength;
-    OISFUCryptoKey *mCryptoKey;
-    id <SFUInputStream> mInputStream;
-    _Bool mDeleteFileWhenDone;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (id);
 - (id);
@@ -35,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)1;
 - (_Bool);
-- (_Bool);
+- (_Bool)GQo__A15_Qo_AIGGGGe;
 - (id);
 - (unsigned int);
 - (void);
-- (long long);
+- (long long)P;
 - (id);
 - (id);
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface AXSS_PunctuationEntry
 {
@@ -14,15 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ckChangeTag; // @dynamic ckChangeTag;
-@property(copy, nonatomic) NSDate *ckRecordProcessDate; // @dynamic ckRecordProcessDate;
-@property(copy, nonatomic) NSUUID *groupUUID; // @dynamic groupUUID;
-@property(nonatomic) _Bool inCloud; // @dynamic inCloud;
-@property(copy, nonatomic) NSDate *lastModifiedDate; // @dynamic lastModifiedDate;
-@property(copy, nonatomic) NSString *punctuation; // @dynamic punctuation;
-@property(copy, nonatomic) NSString *replacement; // @dynamic replacement;
-@property(copy, nonatomic) NSString *rule; // @dynamic rule;
-@property(copy, nonatomic) NSUUID *uuid; // @dynamic uuid;
-@property(nonatomic) short version; // @dynamic version;
 
 @end
 

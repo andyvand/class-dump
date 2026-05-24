@@ -11,10 +11,6 @@
 @interface NSWhoseSpecifier : NSScriptObjectSpecifier
 {
     NSScriptWhoseTest *_test;
-    unsigned long long _startSubelementIdentifier;
-    long long _startSubelementIndex;
-    unsigned long long _endSubelementIdentifier;
-    long long _endSubelementIndex;
 }
 
 + (_Bool);
@@ -34,27 +30,23 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned long long endSubelementIdentifier;
-@property long long endSubelementIndex;
-@property unsigned long long startSubelementIdentifier;
-@property long long startSubelementIndex;
 @property(retain) NSScriptWhoseTest *test;
 
 @end

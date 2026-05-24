@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 @protocol SoftwareUpdateExtensibleSSOAuthenticatorDelegate;
 
 @interface SoftwareUpdateExtensibleSSOAuthenticator
 {
     id <SoftwareUpdateExtensibleSSOAuthenticatorDelegate> _delegate;
     NSString *_appIdentifier;
-    NSString *_envIdentifier;
-    NSString *_username;
-    NSString *_interactivity;
-    NSDictionary *_otherParameters;
 }
 
 - (void);
@@ -27,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -38,18 +34,7 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SoftwareUpdateExtensibleSSOAuthenticatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *envIdentifier; // @synthesize envIdentifier=_envIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *interactivity; // @synthesize interactivity=_interactivity;
-@property(retain, nonatomic) NSDictionary *otherParameters; // @synthesize otherParameters=_otherParameters;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

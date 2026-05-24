@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIEnhancementHistogram;
-
 __attribute__((visibility("hidden")))
 @interface CIEnhancementCalculation
 {
     CDStruct_bfe67ca5 originalFaceColor;
-    CIEnhancementHistogram *lumHist;
-    CIEnhancementHistogram *rgbSumHist;
-    CIEnhancementHistogram *satHist;
-    CIEnhancementHistogram *borderHist;
-    double exposureValue;
-    double maxShadow;
-    double minShadow;
-    double exposureValueAtZeroShadow;
-    double curvePercent;
-    _Bool faceInputSet;
-    double percentFaceChange;
 }
 
-+ (double);
++ (double)�?;
 - (id);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
@@ -36,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
+- (void)L�H;
 - (void);
 - (void);
-- (void);
-- (CDStruct_bfe67ca5);
+- (CDStruct_bfe67ca5);
 - (id);
 - (id);
 - (struct CGPoint);
@@ -51,14 +38,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)4;
 
 // Remaining properties
-@property(readonly) CIEnhancementHistogram *borderHist; // @synthesize borderHist;
-@property(readonly) CIEnhancementHistogram *lumHist; // @synthesize lumHist;
 @property(readonly) CDStruct_bfe67ca5 originalFaceColor; // @synthesize originalFaceColor;
-@property(readonly) CIEnhancementHistogram *rgbSumHist; // @synthesize rgbSumHist;
-@property(readonly) CIEnhancementHistogram *satHist; // @synthesize satHist;
 
 @end
 

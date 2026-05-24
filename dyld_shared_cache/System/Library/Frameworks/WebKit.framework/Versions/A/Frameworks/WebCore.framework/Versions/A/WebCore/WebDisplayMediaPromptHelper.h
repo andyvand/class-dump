@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebDisplayMediaPromptHelper
 {
     struct WeakPtr<WebCore::ScreenCaptureKitSharingSessionManager, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> _callback;
-    struct Vector<WTF::RetainPtr<SCContentSharingSession>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _sessions;
-    _Bool _observingPicker;
 }
 
 - (void);
@@ -22,24 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)/;
 - (void)ê¬Åwïðà¥íðÛsáð%&ssaçê|Üìutz®ldHÅÉ¢iâo¥Já%¹åðusöìRéðÕndiaîcìkÍÒà9^èindélàwb´áåpËËà#°äï!øsåãêoçð\ujáêêames®pà ²æìÊØråìÞiìj<OäÇäåm¬¥âµ#óî­épÑÞáëµã	k<Ôå¥kõðåÁìéÚïíðÞékÓäoTlleãì¥â`(Ûpà5ïðálkepjepançïj¾lo÷ðí4ævideïðÔ6®o¿;á0 áp\&àm¸ðç.88porîpè)1¸ï+>®
 
 pî¨À}pornïzaluðï¼·­émydesi²ðÐujaöi3åá,hïë´ÁdojëìÐd10°ç*ª­fÊÒcfÁ3àAvidåðóðºqèéÕ7eøé0porn­oýñ`ÑNÁ{videoóðès®pOàÏpèïifim®j¿;aË"ãÍºîðë[øp¤à4gøk'á®Í®pé1ÅI®jéeVé`¨`&_}×Bìoa^}ÃeéæäíÊPâï£kréëõ®Ê÷à("åí²ö@Ù
 mâ xøo;
-- (void);
+- (void)i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

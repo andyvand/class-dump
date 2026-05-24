@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BluetoothFileReference, IOBluetoothOBEXSession, IOBluetoothTransferProgress, NSData, NSString, NSTimer;
+@class BluetoothFileReference;
 
 @interface OBEXFileAction
 {
     BluetoothFileReference *mFileRef;
-    IOBluetoothTransferProgress *mTransferProgress;
-    unsigned int mOptions;
-    _Bool mTargetIsAMac;
-    NSString *mActionArgument;
-    NSString *mCurrentRemoteDirectory;
-    _Bool mActionInProgress;
-    _Bool mWeOpenedTheOBEXConnection;
-    NSData *mUserDefinedHeaderData;
-    SEL mEventSelector;
-    id mSelectorTarget;
-    _Bool mAbortedByOwner;
-    _Bool mWeAreAborting;
-    int mInactivityThreshold;
-    NSTimer *mInactivityTimer;
-    IOBluetoothOBEXSession *mOBEXSession;
-    unsigned short mMaxPacketLength;
-    struct __CFData *mHeadersDataRef;
-    unsigned int mConnectionID;
-    _Bool mUseConnectionID;
-    unsigned int mArchiveOptions;
-    unsigned long long mDataSentSoFar;
-    NSData *mTempDataBuffer;
-    int mError;
-    _Bool mSubclassIsGet;
-    int mCountHeader;
 }
 
 - (void);
@@ -41,12 +16,12 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)E;
 - (void);
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (int);
@@ -64,7 +39,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
 - (int)¿+ð1Â0@ù

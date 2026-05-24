@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelIssuesBlueprintViewSupplementaryViewProvider
 {
     id groupTitleViewRenderer;
-    id transition;
 }
 
 @end

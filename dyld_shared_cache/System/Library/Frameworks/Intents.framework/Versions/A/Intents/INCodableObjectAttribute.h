@@ -6,22 +6,18 @@
 
 #import <Intents/INCodableAttribute.h>
 
-@class NSString, NSValueTransformer;
+@class NSString;
 
 @interface INCodableObjectAttribute : INCodableAttribute
 {
     NSString *_originalTypeName;
-    NSString *_typeName;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id)ectType:(id)arg1 referencedMessage:(id *)arg2;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setOriginalTypeName:) NSString *_originalTypeName; // @synthesize _originalTypeName;
-@property(readonly, copy, nonatomic) NSString *className;
-@property(copy, nonatomic) NSString *typeName; // @synthesize typeName=_typeName;
-@property(readonly, nonatomic) NSValueTransformer *valueTransformer;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedGroupDebugFormat
 {
     id subgroup;
-    id themes;
-    id content;
 }
 
 @end

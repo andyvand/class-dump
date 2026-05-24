@@ -11,9 +11,6 @@
 @interface MIDIUMPMutableEndpoint : MIDIUMPEndpoint
 {
     struct CallbackData _callbackData;
-    struct mutex _callbackMutex;
-    _Bool _isEnabled;
-    NSArray *_mutableFunctionBlocks;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)kMRMediaRemotePickedRouteVolumeUserInfoKey;
 - (void);
 - (_Bool);
 - (id);
@@ -35,7 +32,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEnabled;
 @property(copy, nonatomic) NSArray *mutableFunctionBlocks; // @synthesize mutableFunctionBlocks=_mutableFunctionBlocks;
 
 @end

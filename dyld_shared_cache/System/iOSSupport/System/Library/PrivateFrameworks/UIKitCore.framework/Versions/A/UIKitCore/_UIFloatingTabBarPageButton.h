@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     long long _direction;
 }
 
-- (void);
-- (double);
+- (void)@"NSString"16@"NSString"24B32B36q40q48;
+- (double)B,R,N,GisActive;
 - (void);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)new value:%lld  /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (id);
@@ -33,8 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) double contentOpacity;
-@property(readonly, nonatomic) long long direction; // @synthesize direction=_direction;
 
 @end
 

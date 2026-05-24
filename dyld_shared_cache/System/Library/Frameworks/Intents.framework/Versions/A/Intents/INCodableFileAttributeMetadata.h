@@ -6,20 +6,17 @@
 
 #import <Intents/INCodableAttributeMetadata.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INCodableFileAttributeMetadata : INCodableAttributeMetadata
 {
     NSString *_type;
-    NSArray *_customUTIs;
 }
 
 + (_Bool);
-+ (id)rsationIdentifier:(id)arg1 content:(id *)arg2 dateSent:sender:recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage: /* Error: Ran out of types for this method. */;
++ (id)initWithIdentifier:(id)arg1 conversationIdentifier:(id *)arg2 content:dateSent:sender:recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *UTIs;
-@property(readonly, nonatomic) NSArray *customUTIs; // @synthesize customUTIs=_customUTIs;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

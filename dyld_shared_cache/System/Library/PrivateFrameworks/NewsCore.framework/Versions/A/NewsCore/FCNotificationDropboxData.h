@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FCNotificationDropboxData
 {
@@ -24,19 +24,7 @@
 - (void)prepareOperation];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *baseURLString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int deviceDigestMode;
-@property(readonly, copy, nonatomic) NSString *deviceToken;
 @property(readonly, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *notificationUserID;
-@property(readonly, copy, nonatomic) NSString *storefrontID;
-@property(readonly) Class superclass;
 
 @end
 

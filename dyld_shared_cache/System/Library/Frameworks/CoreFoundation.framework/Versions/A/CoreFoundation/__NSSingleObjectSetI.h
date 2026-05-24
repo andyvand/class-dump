@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     id element;
 }
 
-+ (_Bool)ager;
++ (_Bool)AAUSBSupportedDeviceManager;
 + (id)o;
 - (void);
-- (void);
-- (_Bool);
+- (void)tanceStride(%lu) must be a multiple of %lu bytes.;
+- (_Bool)CHOOSE_APP_TITLE;
 - (id);
 - (id);
 - (void);

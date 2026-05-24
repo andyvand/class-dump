@@ -11,10 +11,10 @@
     EspressoBrickTensorShape *_shape;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)CalCrashReporter;
 - (void);
-- (void)rnel_with_uniforms_INS_15cf_end_params_tENS_11base_kernelEEE;
+- (void)N8Espresso21kernel_with_uniforms_INS_15cf_end_params_tENS_11base_kernelEEE;
 
 // Remaining properties
 @property(retain) EspressoBrickTensorShape *shape; // @synthesize shape=_shape;

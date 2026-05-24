@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MAProgressNotification
 {
     _Bool _isStalled;
-    long long _totalExpected;
-    long long _totalWritten;
-    double _expectedTimeRemaining;
-    NSString *_taskDescription;
 }
 
 - (void);
@@ -21,18 +15,15 @@
 - (void);
 - (long long);
 - (long long);
-- (double);
+- (double);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)T
+;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double expectedTimeRemaining; // @synthesize expectedTimeRemaining=_expectedTimeRemaining;
-@property(nonatomic) _Bool isStalled; // @synthesize isStalled=_isStalled;
-@property(retain, nonatomic) NSString *taskDescription; // @synthesize taskDescription=_taskDescription;
 @property(nonatomic) long long totalExpected; // @synthesize totalExpected=_totalExpected;
-@property(nonatomic) long long totalWritten; // @synthesize totalWritten=_totalWritten;
 
 @end
 

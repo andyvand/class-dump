@@ -6,29 +6,26 @@
 
 #import <TextToSpeech/TTSAssetBase.h>
 
-@class NSArray, NSDictionary, NSURL;
+@class NSArray, NSDictionary;
 
 @interface TTSVoiceResourceAsset : TTSAssetBase
 {
     NSArray *_languages;
-    NSArray *_resourceList;
-    NSURL *_searchPathURL;
-    NSDictionary *_voiceConfig;
 }
 
-+ (id);
++ (id)-[VCSession handleMembershipChangeInfoEvent:] /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)ication.;
+- (void)[%s] %s:(id)arg1 %d Failed to create the spatial metadata. status=%08x;
+- (id)vcSessionParameterReactionType;
 - (id);
+- (id)q;
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -37,9 +34,6 @@
 - (id)ð;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *languages; // @synthesize languages=_languages;
-@property(copy, nonatomic) NSArray *resourceList; // @synthesize resourceList=_resourceList;
-@property(copy, nonatomic) NSURL *searchPathURL; // @synthesize searchPathURL=_searchPathURL;
 @property(copy, nonatomic) NSDictionary *voiceConfig; // @synthesize voiceConfig=_voiceConfig;
 
 @end

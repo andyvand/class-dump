@@ -6,48 +6,16 @@
 
 #import <AudioServerDriver/ASDObject.h>
 
-@class NSArray, NSMutableArray, NSObject, NSString;
-@protocol ASDDeviceConfigurationChangeDelegate, OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSMutableArray;
 
 @interface ASDClockDevice : ASDObject
 {
     NSMutableArray *_controls;
-    NSObject<OS_dispatch_queue> *_controlQueue;
-    double _samplingRate;
-    NSArray *_samplingRateRanges;
-    NSObject<OS_dispatch_queue> *_sampleRateQueue;
-    long long _ioReferenceCount;
-    NSObject<OS_dispatch_queue> *_ioReferenceQueue;
-    NSString *_deviceName;
-    unsigned int _timestampPeriod;
-    unsigned int _transportType;
-    unsigned int _clockDomain;
-    unsigned int _clockAlgorithm;
-    _Bool _clockIsStable;
-    NSObject<OS_dispatch_semaphore> *_wakeSemaphore;
-    _Bool _isAlive;
-    _Bool _isRunning;
-    unsigned int _inputLatency;
-    unsigned int _outputLatency;
-    CDUnknownBlockType _getZeroTimestampBlockUnretained;
-    CDUnknownBlockType _beginIOOperationBlockUnretained;
-    CDUnknownBlockType _endIOOperationBlockUnretained;
-    _Bool _hidden;
-    _Bool _canChangeDeviceName;
-    NSString *_deviceUID;
-    NSString *_modelUID;
-    NSString *_manufacturerName;
-    NSString *_modelName;
-    NSString *_serialNumber;
-    CDUnknownBlockType _getZeroTimestampBlock;
-    CDUnknownBlockType _beginIOOperationBlock;
-    CDUnknownBlockType _endIOOperationBlock;
-    id <ASDDeviceConfigurationChangeDelegate> _configurationChangeDelegate;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (_Bool);
 - (void);
@@ -55,12 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)lb;
 - (_Bool);
+- (CDUnknownBlockType)_currentTruePCStyleForDelegate: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType *)AccountCount;
+- (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType *);
-- (id);
-- (CDUnknownBlockType);
 - (void);
 - (unsigned int);
 - (void);
@@ -69,21 +37,27 @@
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
+- (void)callbackQueue;
+- (unsigned int),N,V_status;
+- (int)Modal-held independent tasks:(unsigned int)arg1 %@
+Active queued task:%@
+Queued tasks:%@
+Active modal task:%@
+Queued modal tasks:%@
+Associated with account:%@
+ /* Error: Ran out of types for this method. */;
+- (int);
+- (id);
+- (CDUnknownBlockType *)�Q;
+- (id)a@9;
+- (void);
+- (void);
 - (void);
 - (unsigned int);
-- (int);
-- (int);
-- (id);
-- (CDUnknownBlockType *);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -91,14 +65,16 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType *);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (void)performIsXARTAvailableCommand:(void *)arg1;
+- (void)V_accessories;
+- (CDUnknownBlockType *)ause keybag UUID has changed
+;
+- (void)tiveOperationNotification:(CDUnknownBlockType)arg1 %d
+;
+- (_Bool)ibrary/BackBoard;
+- (id)ck:] /* Error: Ran out of types for this method. */;
+- (_Bool)AndReturnError(file:(const struct AudioObjectPropertyAddress *)arg1 '%@'):(unsigned int)arg2 -> %@;
+- (id)8;
 - (void);
 - (void);
 - (unsigned int);
@@ -119,7 +95,7 @@
 - (int);
 - (id);
 - (void);
-- (void)riverRef;
+- (void)_driverRef;
 - (int);
 - (id)Ô»;
 - (int)irection:(const struct AudioServerPlugInClientInfo *)arg1 %@
@@ -130,32 +106,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType beginIOOperationBlock; // @synthesize beginIOOperationBlock=_beginIOOperationBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *beginIOOperationBlockUnretainedPtr;
-@property(nonatomic) _Bool canChangeDeviceName; // @synthesize canChangeDeviceName=_canChangeDeviceName;
-@property(nonatomic) unsigned int clockAlgorithm; // @dynamic clockAlgorithm;
-@property(nonatomic) unsigned int clockDomain; // @dynamic clockDomain;
-@property(nonatomic) _Bool clockIsStable; // @dynamic clockIsStable;
-@property(nonatomic) __weak id <ASDDeviceConfigurationChangeDelegate> configurationChangeDelegate; // @synthesize configurationChangeDelegate=_configurationChangeDelegate;
-@property(copy, nonatomic) NSString *deviceName; // @dynamic deviceName;
-@property(readonly, copy, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(copy, nonatomic) CDUnknownBlockType endIOOperationBlock; // @synthesize endIOOperationBlock=_endIOOperationBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *endIOOperationBlockUnretainedPtr;
-@property(copy, nonatomic) CDUnknownBlockType getZeroTimestampBlock; // @synthesize getZeroTimestampBlock=_getZeroTimestampBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *getZeroTimestampBlockUnretainedPtr;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(nonatomic) unsigned int inputLatency;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *ioReferenceQueue; // @dynamic ioReferenceQueue;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSString *modelUID; // @synthesize modelUID=_modelUID;
-@property(nonatomic) unsigned int outputLatency;
-@property(readonly, nonatomic, getter=isRunning) _Bool running; // @dynamic running;
-@property(nonatomic) double samplingRate; // @dynamic samplingRate;
-@property(copy, nonatomic) NSArray *samplingRateRanges;
-@property(copy, nonatomic) NSArray *samplingRates; // @dynamic samplingRates;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(nonatomic) unsigned int timestampPeriod; // @dynamic timestampPeriod;
-@property(nonatomic) unsigned int transportType; // @dynamic transportType;
 
 @end
 

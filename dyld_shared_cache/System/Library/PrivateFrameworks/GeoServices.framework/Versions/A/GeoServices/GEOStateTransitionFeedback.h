@@ -7,55 +7,43 @@
 @interface GEOStateTransitionFeedback
 {
     int _newValue;
-    int _oldValue;
-    int _stateType;
-    struct {
-        unsigned int has_newValue:1;
-        unsigned int has_oldValue:1;
-        unsigned int has_stateType:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setMatchQuality:(id)arg1;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)copyGuardianWhitelistedPropertyValuesToContacts: /* Error: Ran out of types for this method. */;
+- (_Bool)consolidateContainersIfNeeded;
 - (void);
 - (void);
-- (int);
+- (int)87;
 - (int);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)X;
 - (void);
 - (int);
-- (void);
-- (void);
+- (void)airpodWearerConfig;
+- (void)dStopRecording:(int)arg1 audioDeviceInfo:forReason:estimatedSpeechEndHostTime:errorCodeOverride:underlyingError:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
 - (int);
-- (void);
+- (void)P;
 - (id)b1};
 - (_Bool)@0:8@16@24@?32@40 /* Error: Ran out of types for this method. */;
-- (id)own;
-- (id)e;
+- (id)hasLinesShown;
+- (id)GEOMapQueryCollectionResponse;
 - (id)includeAllDirectionNames;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNewValue;
-@property(nonatomic) _Bool hasOldValue;
 @property(nonatomic) _Bool hasStateType;
-@property(nonatomic) int newValue;
-@property(nonatomic) int oldValue;
-@property(nonatomic) int stateType;
 
 @end
 

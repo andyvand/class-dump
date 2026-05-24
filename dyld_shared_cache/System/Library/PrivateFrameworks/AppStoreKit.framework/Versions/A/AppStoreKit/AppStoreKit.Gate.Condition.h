@@ -7,8 +7,6 @@
 @interface AppStoreKit.Gate.Condition
 {
     id gate;
-    id name;
-    id isSatisfied;
 }
 
 @end

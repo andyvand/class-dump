@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDWifiFingerprint
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _confidence;
-    int _labelType;
-    int _status;
-    struct {
-        unsigned int has_confidence:1;
-        unsigned int has_labelType:1;
-        unsigned int has_status:1;
-    } _flags;
 }
 
 - (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)k;
+- (id)_spokenGuidanceFeedback;
 - (id)(çìí;
 - (void);
 

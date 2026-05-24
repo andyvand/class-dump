@@ -8,19 +8,12 @@ __attribute__((visibility("hidden")))
 @interface NSDocInfo
 {
     long long time;
-    unsigned short mode;
-    struct {
-        unsigned int isDir:1;
-        unsigned int isSingleFile:1;
-        unsigned int isSoftLink:1;
-        unsigned int _pad:13;
-    } flags;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
-- (id)LinkPath:(struct _NSZone *)arg1;
+- (id);
+- (id)writePath:(struct _NSZone *)arg1 docInfo:errorHandler:remapContents:hardLinkPath: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

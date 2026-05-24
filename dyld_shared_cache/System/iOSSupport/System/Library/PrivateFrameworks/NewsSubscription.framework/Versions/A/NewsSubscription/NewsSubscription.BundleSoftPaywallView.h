@@ -9,13 +9,6 @@
 @interface NewsSubscription.BundleSoftPaywallView : NewsSubscription.BundlePaywallPlayerView
 {
     id contentView;
-    id headerImageView;
-    id badgeImageView;
-    id titleTextView;
-    id descriptionTextView;
-    id subscribeButton;
-    id offersButton;
-    id webAuthButton;
 }
 
 - (id);

@@ -7,8 +7,6 @@
 @interface NewsArticles.NowPlayingURLHandler
 {
     id headlineProviderFactory;
-    id nowPlayingPresenting;
-    id base;
 }
 
 @end

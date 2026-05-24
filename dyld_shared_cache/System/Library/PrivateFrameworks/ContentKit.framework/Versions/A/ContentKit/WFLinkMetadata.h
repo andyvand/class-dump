@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFile, NSString, NSURL;
+@class NSURL;
 
 @interface WFLinkMetadata
 {
     NSURL *_originalURL;
-    NSURL *_URL;
-    NSString *_title;
-    INFile *_image;
-    INFile *_icon;
-    INFile *_video;
-    NSURL *_remoteVideo;
 }
 
 + (_Bool);
@@ -22,15 +16,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)"24;
 - (void);
 - (id);
 - (void);
+- (void)aximumExposure:(id)arg1 ];
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)|;
 - (void);
 - (id);
 - (void);
@@ -38,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) INFile *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) INFile *image; // @synthesize image=_image;
 @property(retain, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(copy, nonatomic) NSURL *remoteVideo; // @synthesize remoteVideo=_remoteVideo;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) INFile *video; // @synthesize video=_video;
 
 @end
 

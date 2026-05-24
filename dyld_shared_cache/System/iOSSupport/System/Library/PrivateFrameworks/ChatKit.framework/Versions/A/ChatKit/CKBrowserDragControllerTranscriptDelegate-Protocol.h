@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol CKBrowserDragControllerTranscriptDelegate
+- (void);
+- (int);
+
+@optional
+- (UIView *)ctionary",R,N;
+- (void)receivedSince;
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSViewAnimationContext
 {
     NSArray *_viewAnimations;
-    long long _animationCount;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -21,11 +19,9 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void)p;L<¬=>ÄC
 F;
-- (void)aArtworkProvider;
+- (void)_alphaArtworkProvider;
 
 // Remaining properties
-@property(nonatomic) long long animationCount; // @synthesize animationCount=_animationCount;
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) NSArray *viewAnimations; // @synthesize viewAnimations=_viewAnimations;
 
 @end

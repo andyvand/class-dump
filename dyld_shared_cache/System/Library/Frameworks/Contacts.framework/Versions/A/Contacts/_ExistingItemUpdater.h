@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSManagedObjectContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ExistingItemUpdater
 {
     NSString *_contactIdentifier;
-    NSArray *_existingPosters;
-    NSArray *_existingImages;
-    NSManagedObjectContext *_context;
-    long long _countOfAddedPosters;
-    long long _countOfAddedImages;
-    _Bool _updateIsCurrent;
-    NSError *_error;
 }
 
 - (void);
@@ -34,18 +27,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)ñ*Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

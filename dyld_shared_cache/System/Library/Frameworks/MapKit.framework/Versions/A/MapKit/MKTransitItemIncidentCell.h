@@ -6,33 +6,27 @@
 
 #import <MapKit/MKCustomSeparatorCell.h>
 
-@class MKTransitItemIncidentView, NSString;
+@class MKTransitItemIncidentView;
 
 @interface MKTransitItemIncidentCell : MKCustomSeparatorCell
 {
     MKTransitItemIncidentView *_incidentView;
 }
 
+- (void)n %@ registration failed :(double)arg1 %d;
+- (void)s from isCharging=%@ to isCharging=%@;
+- (void)ifier=%@;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)solvedAppearance;
+- (void)resolvedAppearance;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

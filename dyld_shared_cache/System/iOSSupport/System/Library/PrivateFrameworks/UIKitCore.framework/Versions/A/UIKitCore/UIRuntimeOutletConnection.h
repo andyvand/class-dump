@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void)cept the share at url:%@, error:%@ for message %@ /* Error: Ran out of types for this method. */;
+- (id)@	;
 - (void)ÿÌ#;
 
 @end

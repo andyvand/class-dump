@@ -6,33 +6,11 @@
 
 #import <AudioServerDriver/ASDObject.h>
 
-@class NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSString;
 
 @interface ASDBox : ASDObject
 {
     NSMutableArray *_audioDevices;
-    NSMutableArray *_clockDevices;
-    NSObject<OS_dispatch_queue> *_deviceQueue;
-    NSString *_boxName;
-    _Bool _acquired;
-    int _acquisitionFailure;
-    _Bool _identify;
-    NSObject<OS_dispatch_queue> *_acquireQueue;
-    _Bool _hasVideo;
-    _Bool _hasAudio;
-    _Bool _hasMIDI;
-    _Bool _requiresAuthentication;
-    _Bool _supportsIdentify;
-    _Bool _canSetIdentify;
-    _Bool _acquirable;
-    _Bool _canChangeBoxName;
-    NSString *_boxUID;
-    NSString *_modelUID;
-    NSString *_manufacturerName;
-    NSString *_modelName;
-    NSString *_serialNumber;
-    NSString *_firmwareVersion;
 }
 
 + (id);
@@ -49,10 +27,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (void);
@@ -85,23 +63,23 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)`F;
+- (id)`;
+- (_Bool)\<;
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (_Bool);
+- (void)accountHasSignificantPropertyChangesFromOldAccountInfo:(id)arg1;
+- (unsigned int)resumeMonitoringFoldersWithIDs:(const struct AudioObjectPropertyAddress *)arg1;
+- (id)K;
+- (id);
+- (_Bool);
+- (id)(;
 - (void);
-- (unsigned int);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)ldRoots/4~CNqBugCyv9YMTIqsUYMnm7-zmLRYkLPQOXJR3C4/Library/Caches/com.apple.xbs/TemporaryDirectory.9AiAP5/Sources/AppleKeyStore_libs/aeskeywrap.c;
+- (id)sionOS|1;
 - (_Bool);
 - (void);
 - (id);
@@ -113,30 +91,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isAcquirable) _Bool acquirable; // @synthesize acquirable=_acquirable;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *acquireQueue; // @dynamic acquireQueue;
-@property(nonatomic, getter=isAcquireable) _Bool acquireable; // @dynamic acquireable;
-@property(nonatomic) _Bool acquired;
-@property(nonatomic) int acquisitionFailure;
-@property(readonly, retain, nonatomic) NSArray *audioDevices;
 @property(copy, nonatomic) NSString *boxName; // @dynamic boxName;
-@property(readonly, copy, nonatomic) NSString *boxUID; // @synthesize boxUID=_boxUID;
-@property(nonatomic) _Bool canChangeBoxName; // @synthesize canChangeBoxName=_canChangeBoxName;
-@property(nonatomic) _Bool canSetIdentify; // @synthesize canSetIdentify=_canSetIdentify;
-@property(readonly, retain, nonatomic) NSArray *clockDevices; // @synthesize clockDevices=_clockDevices;
-@property(readonly, retain, nonatomic) NSArray *devices; // @dynamic devices;
-@property(copy, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
-@property(nonatomic) _Bool hasMIDI; // @synthesize hasMIDI=_hasMIDI;
-@property(nonatomic) _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
-@property(nonatomic) _Bool identify;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSString *modelUID; // @synthesize modelUID=_modelUID;
-@property(nonatomic) _Bool requiresAuthentication; // @synthesize requiresAuthentication=_requiresAuthentication;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(nonatomic) _Bool supportsIdentify; // @synthesize supportsIdentify=_supportsIdentify;
-@property(readonly, nonatomic) unsigned int transportType; // @dynamic transportType;
 
 @end
 

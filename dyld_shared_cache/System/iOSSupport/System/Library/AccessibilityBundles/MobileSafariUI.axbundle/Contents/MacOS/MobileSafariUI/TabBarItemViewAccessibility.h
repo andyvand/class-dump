@@ -10,18 +10,18 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemElementAccessibilityLabelKey;
 + (id);
 + (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)@"_UISlotView"16B24@"UISSlotStyle"28@"UISSlotTag"36;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_accessibilityScrollPageInDirection:(struct CGRect)arg1;
 - (id);
 
 @end

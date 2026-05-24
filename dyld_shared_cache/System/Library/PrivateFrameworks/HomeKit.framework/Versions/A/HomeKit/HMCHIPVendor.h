@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
-
 @interface HMCHIPVendor
 {
     _Bool _appleVendor;
-    _Bool _systemCommissionerVendor;
-    NSUUID *_UUID;
-    NSNumber *_identifier;
-    NSString *_name;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -29,38 +23,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)inexcusable;
+- (id)AutofillExternalProviderExtensionBundleID;
 - (void);
+- (id)CHRecentCallOriginatingUITypeApp;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id))a;
+- (id)@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(getter=isAppleVendor) _Bool appleVendor; // @synthesize appleVendor=_appleVendor;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(getter=isSystemCommissionerVendor) _Bool systemCommissionerVendor; // @synthesize systemCommissionerVendor=_systemCommissionerVendor;
 
 @end
 

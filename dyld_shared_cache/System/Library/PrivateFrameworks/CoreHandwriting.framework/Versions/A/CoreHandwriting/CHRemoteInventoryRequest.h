@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, CHTokenizedResult, NSArray, NSSet;
+@class CHDrawing;
 
 @interface CHRemoteInventoryRequest
 {
     _Bool _shouldResetInventory;
-    CHDrawing *_drawing;
-    CHTokenizedResult *_tokenizedResult;
-    NSArray *_strokeIdentifiers;
-    NSSet *_removedStrokeIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)_hideDeleteButton;
 - (id);
 - (_Bool);
 - (id);
@@ -23,17 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Jc;
 - (id);
 - (void);
 - (void) ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, copy, nonatomic) NSSet *removedStrokeIdentifiers; // @synthesize removedStrokeIdentifiers=_removedStrokeIdentifiers;
-@property(readonly, nonatomic) _Bool shouldResetInventory; // @synthesize shouldResetInventory=_shouldResetInventory;
-@property(readonly, copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(readonly, copy, nonatomic) CHTokenizedResult *tokenizedResult; // @synthesize tokenizedResult=_tokenizedResult;
 
 @end
 

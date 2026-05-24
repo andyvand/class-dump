@@ -9,10 +9,6 @@
 @interface SGQuickResponsesEngagementDeltas
 {
     int _displayed;
-    int _selected;
-    int _matched;
-    NSString *_response;
-    NSString *_lang;
 }
 
 + (_Bool);
@@ -27,14 +23,10 @@
 - (void);
 - (int)ÄAùqEÐ1Â0@ù
 × ;
-- (int)Length:withMaxTags:withMinimumCount:withMinimumAgreement: /* Error: Ran out of types for this method. */;
+- (int)detectLanguageFromText:withMaxLength:withMaxTags:withMinimumCount:withMinimumAgreement: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int displayed; // @synthesize displayed=_displayed;
-@property(readonly, nonatomic) NSString *lang; // @synthesize lang=_lang;
-@property(readonly, nonatomic) int matched; // @synthesize matched=_matched;
 @property(readonly, nonatomic) NSString *response; // @synthesize response=_response;
-@property(readonly, nonatomic) int selected; // @synthesize selected=_selected;
 
 @end
 

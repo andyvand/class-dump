@@ -6,30 +6,11 @@
 
 #import <PreferencePanesSupport/InputDeviceController.h>
 
-@class IOBluetoothDevice, IOBluetoothDeviceInquiry, IOBluetoothDevicePair, NSArrayController, NSButton, NSImage, NSProgressIndicator, NSString, NSTableView, NSTextField, NSView;
+@class NSTextField;
 
 @interface BTPointingDevicePairController : InputDeviceController
 {
     NSTextField *mTopLabel;
-    NSTextField *mTopLabelDescription;
-    NSTableView *mDeviceTable;
-    NSArrayController *mBTKeyboardList;
-    NSButton *mPairButton;
-    NSButton *mBackButton;
-    NSProgressIndicator *mProgressIndicator;
-    NSTextField *mProgressIndicatorLabel;
-    NSTextField *mNoDevicesTableLabel;
-    NSImage *mBTAlertIconImage;
-    NSView *mBTWarningView;
-    NSTextField *mBTWarningViewLabel;
-    _Bool mBTPowerIsOn;
-    _Bool mBTIsAvailable;
-    IOBluetoothDevice *mSelectedDevice;
-    IOBluetoothDeviceInquiry *mDeviceInquiry;
-    IOBluetoothDevicePair *mDevicePair;
-    _Bool mIsPairing;
-    long long mDevicePairAttemptsCount;
-    _Bool agressiveDeviceValidation;
 }
 
 - (void);
@@ -56,13 +37,13 @@
 - (void);
 - (void);
 - (void);
+- (void)+);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,13 +51,6 @@
 
 // Remaining properties
 @property _Bool agressiveDeviceValidation; // @synthesize agressiveDeviceValidation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

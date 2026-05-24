@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCPeopleAlsoReadConfiguration
 {
     long long _seedMaxCount;
-    long long _seedMaxAgeSeconds;
-    long long _seedMaxIntervalSinceLastReadSeconds;
-    NSString *_candidateArticleListSuffix;
-    long long _candidateArticleListMaxCachedAgeSeconds;
-    long long _candidateMaxAgeSeconds;
 }
 
 - (long long);
@@ -22,18 +15,13 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)ncrease an unknown bin;
 
 // Remaining properties
-@property(readonly, nonatomic) long long candidateArticleListMaxCachedAgeSeconds; // @synthesize candidateArticleListMaxCachedAgeSeconds=_candidateArticleListMaxCachedAgeSeconds;
-@property(readonly, copy, nonatomic) NSString *candidateArticleListSuffix; // @synthesize candidateArticleListSuffix=_candidateArticleListSuffix;
-@property(readonly, nonatomic) long long candidateMaxAgeSeconds; // @synthesize candidateMaxAgeSeconds=_candidateMaxAgeSeconds;
-@property(readonly, nonatomic) long long seedMaxAgeSeconds; // @synthesize seedMaxAgeSeconds=_seedMaxAgeSeconds;
 @property(readonly, nonatomic) long long seedMaxCount; // @synthesize seedMaxCount=_seedMaxCount;
-@property(readonly, nonatomic) long long seedMaxIntervalSinceLastReadSeconds; // @synthesize seedMaxIntervalSinceLastReadSeconds=_seedMaxIntervalSinceLastReadSeconds;
 
 @end
 

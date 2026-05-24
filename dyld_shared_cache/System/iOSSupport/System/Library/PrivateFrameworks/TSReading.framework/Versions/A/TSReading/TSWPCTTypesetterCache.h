@@ -9,8 +9,8 @@
     struct map<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>>> _typesetters;
 }
 
-- (void);
-- (void);
+- (void)presentation(for:(unsigned long long)arg1 );
+- (void)- Restored Item:(unsigned long long)arg1;
 - (shared_ptr_b124cf66);
 - (void);
 - (void);

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, NSData, NSString, SFExternalCredentialIdentityStoreIdentifier;
+@class NSString, SFExternalCredentialIdentityStoreIdentifier;
 
 @interface ASPasskeyCredentialIdentity
 {
     SFExternalCredentialIdentityStoreIdentifier *_credentialIdentityStoreIdentifier;
-    NSString *_relyingPartyIdentifier;
-    NSString *_userName;
-    NSData *_credentialID;
-    NSData *_userHandle;
-    NSString *_recordIdentifier;
-    long long _rank;
 }
 
 + (id);
@@ -27,34 +21,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
-- (id);
+- (id)gPredicate:(struct _NSZone *)arg1 limit:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, nonatomic) SFExternalCredentialIdentityStoreIdentifier *credentialIdentityStoreIdentifier; // @synthesize credentialIdentityStoreIdentifier=_credentialIdentityStoreIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(readonly, copy, nonatomic) NSString *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 @property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *user;
-@property(readonly, copy, nonatomic) NSData *userHandle; // @synthesize userHandle=_userHandle;
-@property(readonly, copy, nonatomic) NSString *userName; // @synthesize userName=_userName;
 
 @end
 

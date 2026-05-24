@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, MRNowPlayingController, NSDate, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SOMediaNowPlayingObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_playbackStateGroup;
-    long long _playbackStateGroupDepth;
-    long long _playbackState;
-    NSDate *_lastPlayingDate;
-    NSHashTable *_listeners;
-    AFInstanceContext *_instanceContext;
-    MRNowPlayingController *_nowPlayingController;
-    _Bool _isProxyGroupPlayer;
-    _Bool _isObserving;
 }
 
 + (id);
@@ -26,7 +17,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)o;
 - (id);
 - (void);
 - (void);
@@ -41,12 +32,12 @@
 - (void);
 - (id);
 - (void);
+- (void)arbySessions19NearbyAdvertisement";
 - (void);
+- (_Bool)emoteViewControllerSceneContext";
+- (_Bool)e;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)readCountReportDelta">;
 - (void);
 - (void);
 - (void);
@@ -56,14 +47,7 @@
 - (void)-[SOClockAlarmManager alarmsIncludingSleepAlarm:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long playbackState;
-@property(readonly) Class superclass;
 
 @end
 

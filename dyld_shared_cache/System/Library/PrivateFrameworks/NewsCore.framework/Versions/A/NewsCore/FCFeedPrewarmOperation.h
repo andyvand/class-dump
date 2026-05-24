@@ -6,16 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCFeedPrewarmRequest, NFLazy, NSMutableDictionary;
-@protocol FCContentContext;
+@class FCFeedPrewarmRequest;
 
 @interface FCFeedPrewarmOperation : FCOperation
 {
     FCFeedPrewarmRequest *_prewarmRequest;
-    id <FCContentContext> _contentContext;
-    NSMutableDictionary *_feedIDsByCKFeedID;
-    NSMutableDictionary *_requestRangeByFeedID;
-    NFLazy *_lazyResultPromise;
 }
 
 - (void);
@@ -31,11 +26,7 @@
 - (id)ø\;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) NSMutableDictionary *feedIDsByCKFeedID; // @synthesize feedIDsByCKFeedID=_feedIDsByCKFeedID;
-@property(retain, nonatomic) NFLazy *lazyResultPromise; // @synthesize lazyResultPromise=_lazyResultPromise;
 @property(readonly, nonatomic) FCFeedPrewarmRequest *prewarmRequest; // @synthesize prewarmRequest=_prewarmRequest;
-@property(readonly, nonatomic) NSMutableDictionary *requestRangeByFeedID; // @synthesize requestRangeByFeedID=_requestRangeByFeedID;
 
 @end
 

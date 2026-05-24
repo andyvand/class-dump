@@ -5,5 +5,10 @@
 //
 
 @protocol STPersistentStoreChangeHandler
+- (void)exCoord);
+	
+	gl_FragColor = (a*0.7) + (c*0.3);
+};
+- (void)s;
 @end
 

@@ -6,24 +6,21 @@
 
 #import <CoreData/NSTemporaryObjectID.h>
 
-@class _NS128bitWrapper;
-
 __attribute__((visibility("hidden")))
 @interface _NSTemporaryObjectID2 : NSTemporaryObjectID
 {
     id _store;
-    _NS128bitWrapper *_uuid128;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)ysMappingStrategy2;
+- (id)NSKnownKeysMappingStrategy2;
 
 @end
 

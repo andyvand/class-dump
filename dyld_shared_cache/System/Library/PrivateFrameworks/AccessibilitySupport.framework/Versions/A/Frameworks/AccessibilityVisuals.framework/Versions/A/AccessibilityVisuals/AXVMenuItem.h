@@ -9,9 +9,6 @@
 @interface AXVMenuItem
 {
     _Bool _hasSubmenu;
-    NSString *_label;
-    NSString *_keyboardShortcut;
-    long long _tag;
 }
 
 + (_Bool);
@@ -21,24 +18,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)faceCropFromTorsoModelForHomeUUID:(id)arg1 personUUID:sourceUUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)_delegate;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSubmenu; // @synthesize hasSubmenu=_hasSubmenu;
-@property(copy, nonatomic) NSString *keyboardShortcut; // @synthesize keyboardShortcut=_keyboardShortcut;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) long long tag; // @synthesize tag=_tag;
 
 @end
 

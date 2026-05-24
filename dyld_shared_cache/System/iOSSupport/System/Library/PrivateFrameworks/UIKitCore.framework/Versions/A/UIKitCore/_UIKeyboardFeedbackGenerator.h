@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIFeedbackGenerator.h>
 
-@class NSString, _UIKeyboardFeedbackGeneratorConfiguration;
+@class _UIKeyboardFeedbackGeneratorConfiguration;
 
 @interface _UIKeyboardFeedbackGenerator : UIFeedbackGenerator
 {
@@ -18,25 +18,17 @@
 - (float);
 - (void);
 - (void);
-- (double);
-- (id);
-- (id);
-- (double);
+- (double)e could not create zip file for QuickSwitch;
+- (id)ID:%@ on account:%@, accountDefaults:%@ /* Error: Ran out of types for this method. */;
+- (id)k from fetch archived records;
+- (double)ed message %@;
 - (void);
-- (void):(long long)arg1 documentTraits:initialDocumentState: /* Error: Ran out of types for this method. */;
+- (void)beginRemoteTextInputSessionWithID:(long long)arg1 documentTraits:initialDocumentState: /* Error: Ran out of types for this method. */;
 - (void)@;
 - (id)´§ÿæÕûc;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_keyboardConfiguration) _UIKeyboardFeedbackGeneratorConfiguration *keyboardConfiguration;
-@property(nonatomic, getter=_lastTypedKeyTimestamp, setter=_setLastTypedKeyTimestamp:) double lastTypedKeyTimestamp; // @synthesize lastTypedKeyTimestamp=_lastTypedKeyTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

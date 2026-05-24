@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface EDAttachmentMetadata
 {
     NSNumber *_attachmentID;
-    NSString *_attachmentHash;
-    NSString *_nameOnDisk;
-    NSNumber *_size;
-    NSDate *_downloadDate;
-    NSNumber *_viewCount;
-    NSDate *_lastViewed;
-    NSNumber *_viewCountByTapped;
 }
 
 + (id);
+- (id)S1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,14 +28,7 @@
 - (void)NTEGER,date_last_viewed INTEGER,mailbox INTEGER,remote_mailbox INTEGER,flags INTEGER,read,flagged,size INTEGER,color,type INTEGER,conversation_id INTEGER DEFAULT -1,snippet TEXT DEFAULT NULL,fuzzy_ancestor INTEGER DEFAULT NULL,automated_conversation INTEGER DEFAULT 0,root_status INTEGER DEFAULT -1,conversation_position INTEGER DEFAULT -1,deleted INTEGER DEFAULT 0,list_id_hash INTEGER NOT NULL DEFAULT 0);;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *attachmentHash; // @synthesize attachmentHash=_attachmentHash;
 @property(retain, nonatomic) NSNumber *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(readonly, nonatomic) NSDate *downloadDate; // @synthesize downloadDate=_downloadDate;
-@property(readonly, nonatomic) NSDate *lastViewed; // @synthesize lastViewed=_lastViewed;
-@property(readonly, nonatomic) NSString *nameOnDisk; // @synthesize nameOnDisk=_nameOnDisk;
-@property(readonly, nonatomic) NSNumber *size; // @synthesize size=_size;
-@property(readonly, nonatomic) NSNumber *viewCount; // @synthesize viewCount=_viewCount;
-@property(readonly, nonatomic) NSNumber *viewCountByTapped; // @synthesize viewCountByTapped=_viewCountByTapped;
 
 @end
 

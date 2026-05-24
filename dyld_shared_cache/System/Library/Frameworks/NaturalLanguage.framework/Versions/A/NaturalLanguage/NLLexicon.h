@@ -9,7 +9,6 @@
 @interface NLLexicon
 {
     NSString *_localization;
-    const void *_lexicon;
 }
 
 + (id);
@@ -25,8 +24,8 @@
 - (void);
 - (id);
 - (struct _LXLexicon *);
-- (id);
-- (id);
+- (id)N15CoreHandwriting9synthesis35CHDiffusionX0InkToInputFeaturesStepE;
+- (id)z;
 - (void);
 - (id);
 

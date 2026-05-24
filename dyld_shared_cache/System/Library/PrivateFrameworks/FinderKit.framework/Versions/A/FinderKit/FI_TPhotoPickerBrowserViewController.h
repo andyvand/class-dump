@@ -6,20 +6,12 @@
 
 #import <FinderKit/FI_TBrowserViewController.h>
 
-@class NSArray, NSLayoutConstraint, NSString, PHPickerViewController;
+@class NSString, PHPickerViewController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPhotoPickerBrowserViewController : FI_TBrowserViewController
 {
     NSString *_searchString;
-    NSLayoutConstraint *_bottomConstraint;
-    NSLayoutConstraint *_topConstraint;
-    struct mutex _lock;
-    struct condition_variable_any _loadingConditional;
-    struct unordered_map<PHPickerResult *, NSURL *, std::hash<PHPickerResult *>, std::equal_to<PHPickerResult *>, std::allocator<std::pair<PHPickerResult *const, NSURL *>>> _itemToURLMap;
-    struct unordered_map<PHPickerResult *, NSProgress *, std::hash<PHPickerResult *>, std::equal_to<PHPickerResult *>, std::allocator<std::pair<PHPickerResult *const, NSProgress *>>> _pendingItemToProgressMap;
-    NSArray *_pickedItems;
-    PHPickerViewController *_photoPicker;
 }
 
 - (void);
@@ -27,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)H;
 - (void);
 - (unsigned long long);
 - (void);
@@ -35,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void *);
@@ -44,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (struct CGRect);
 - (id);
@@ -59,24 +51,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)st.cell.view.notify;
 - (id);
 - (void);
-- (unsigned long long)owsBinder;
+- (unsigned long long)_criteriaRuleEditorRowsBinder;
 - (void);
 - (struct TString)TFENode13TFENodeVectorNS_6vectorI19TFENodePropertyListNS_9allocatorIS6_EEEENS_10shared_ptrI32IOperationCompletionNotificationEEbjbbP6NSData16VerifyAuditTokenbPU36objcproto25TNodeTaskDelegateProtocol8NSObjectbb20TAppManagedFilesInfoP8NSWindowRK6AEDescE3$_1FNSA_I15TUndoableActionEEvEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PHPickerViewController *photoPicker; // @synthesize photoPicker=_photoPicker;
-@property(retain, nonatomic) NSArray *pickedItems; // @synthesize pickedItems=_pickedItems;
-@property(copy, nonatomic) NSString *searchNSString; // @dynamic searchNSString;
-@property(readonly) Class superclass;
 
 @end
 

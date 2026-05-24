@@ -9,7 +9,6 @@
 @interface Foundation.__JSONReferencingEncoder__priv_12768CA107A31EF2DCE034FD75B541C9 : Foundation.__JSONEncoder__priv_12768CA107A31EF2DCE034FD75B541C9
 {
     id encoder;
-    id reference;
 }
 
 @end

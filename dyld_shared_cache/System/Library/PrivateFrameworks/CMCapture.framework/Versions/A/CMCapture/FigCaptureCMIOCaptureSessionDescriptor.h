@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray, NSDictionary;
 
 @interface FigCaptureCMIOCaptureSessionDescriptor
 {
     NSDictionary *_plistDictionary;
-    NSString *_modelID;
-    NSMutableArray *_supportedDeviceTypes;
-    NSMutableDictionary *_supportedStreamTypesByDeviceType;
-    _Bool _metadataCamerasSupported;
 }
 
 + (id)eDevice.isBravoVariant && [outputsBySourceDeviceType objectForKey:@(BWCaptureDeviceTypeWideCamera)] && [outputsBySourceDeviceType objectForKey:@(BWCaptureDeviceTypeSuperWideCamera)] && outputsBySourceDeviceType.count == 2 /* Error: Ran out of types for this method. */;
 + (void)vice.built-in_video:4 /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -26,10 +22,7 @@
 - (void)¼ÏªÿÈÐ­ÿÑÑ¯ÿÙÐ®ÿàÏ¬ÿéÎ«ÿòÎªÿúÎªÿÿÎªÿÿÎªÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool metadataCamerasSupported; // @synthesize metadataCamerasSupported=_metadataCamerasSupported;
-@property(readonly, nonatomic) NSArray *streamFormats;
 @property(readonly, nonatomic) NSArray *supportedDeviceTypes;
-@property(readonly, nonatomic) NSDictionary *supportedStreamTypesByDeviceType;
 
 @end
 

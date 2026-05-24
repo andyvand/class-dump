@@ -7,10 +7,6 @@
 @interface TeaUI.PersonalizedAdsViewController
 {
     id adPrivacyHeaderIconView;
-    id buttonStyle;
-    id turnOnCallback;
-    id turnOffCallback;
-    id onboardingFlowDelegate;
 }
 
 - (void);

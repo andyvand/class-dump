@@ -6,19 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSingleServiceSetupAttemptFailed : SISchemaInstrumentationMessage
 {
     int _serviceType;
-    unsigned int _retryNumber;
-    int _reason;
-    unsigned int _errorCode;
-    CDStruct_cd410d97 _has;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int)y;
 - (_Bool);
 - (void);
 - (void);
@@ -32,16 +26,16 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)MoIAiI/Sources/libressl/libressl-2.2/crypto/ts/ts_rsp_sign.c;
 - (unsigned long long);
-- (void);
+- (void)ingInfo>"24;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (id)ÑÞ°1Â0@ù
 × ;
-- (_Bool)ationTimeDiffInNsAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)checkerHSRejectBeforeActivationTimeDiffInNsAtIndex: /* Error: Ran out of types for this method. */;
 - (id)oolResolution;
 - (id)setLhs: /* Error: Ran out of types for this method. */;
 - (void);
@@ -49,14 +43,6 @@
 - (unsigned int)¬é&;
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasRetryNumber;
-@property(nonatomic) _Bool hasServiceType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned int retryNumber; // @synthesize retryNumber=_retryNumber;
 @property(nonatomic) int serviceType; // @synthesize serviceType=_serviceType;
 
 @end

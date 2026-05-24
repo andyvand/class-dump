@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
-
 @interface SASServerEndpointFeatures : SABaseClientBoundCommand
 {
 }
@@ -19,7 +17,7 @@
 - (long long);
 - (long long);
 - (id);
-- (double);
+- (double)9;
 - (void);
 - (void);
 - (void);
@@ -34,12 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) double eosLikelihood;
-@property(nonatomic) long long numOfWords;
-@property(copy, nonatomic) NSArray *pauseCounts;
-@property(nonatomic) long long processedAudioDurationMs;
-@property(nonatomic) double silenceProbability;
-@property(copy, nonatomic) NSString *taskName;
-@property(nonatomic) long long trailingSilenceDuration;
 
 @end
 

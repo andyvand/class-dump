@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _LSDServiceDomain
 {
     struct optional<unsigned int> _resolvedDomainUID;
-    unsigned short _specifierType;
 }
 
 + (id);

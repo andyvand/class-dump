@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatContentSizeCategoryCell
 {
     id contentSizeCategory;
-    id slider;
-    id label;
-    id onChangeBlock;
 }
 
 - (void);

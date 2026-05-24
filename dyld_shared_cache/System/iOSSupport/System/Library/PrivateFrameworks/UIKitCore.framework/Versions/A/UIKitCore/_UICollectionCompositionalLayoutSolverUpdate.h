@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIDataSourceSnapshotter;
-@protocol _UICollectionViewUpdateTranslating;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionCompositionalLayoutSolverUpdate
 {
     NSArray *_updateItems;
-    id <_UICollectionViewUpdateTranslating> _updateTranslator;
-    _UIDataSourceSnapshotter *_finalDataSourceSnapshot;
-    struct CGRect _visibleBounds;
 }
 
-+ (id);
-- (id);
-- (id)ciatedWindowSceneForKeyboardWindow;
++ (id)achedSalt is not present.;
+- (id)E;
+- (id)wantsUnassociatedWindowSceneForKeyboardWindow;
 - (struct CGRect)nalEdgeInsets=dddd},N,V_sectionInsets;
 - (id)m;
-- (id)pearState;
+- (id)lastAppearState;
 - (void)ú];
 
 // Remaining properties
-@property(readonly, nonatomic) _UIDataSourceSnapshotter *finalDataSourceSnapshot; // @synthesize finalDataSourceSnapshot=_finalDataSourceSnapshot;
-@property(readonly, nonatomic) NSArray *updateItems; // @synthesize updateItems=_updateItems;
-@property(readonly, nonatomic) id <_UICollectionViewUpdateTranslating> updateTranslator; // @synthesize updateTranslator=_updateTranslator;
 @property(readonly, nonatomic) struct CGRect visibleBounds; // @synthesize visibleBounds=_visibleBounds;
 
 @end

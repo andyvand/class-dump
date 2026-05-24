@@ -4,61 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBBinningConfig, NTPBPersonalizationTreatment;
-
 @interface NTPBPersonalizationConfig
 {
     long long _moduloForHashing;
-    NTPBBinningConfig *_binningConfig;
-    NTPBPersonalizationTreatment *_defaultPersonalizationTreatment;
-    NSMutableArray *_personalizationBuckets;
-    NSMutableArray *_personalizationTreatments;
-    CDStruct_3f5c4e18 _has;
 }
 
-+ (Class);
-+ (Class);
-- (void);
-- (void);
-- (void);
-- (void);
++ (Class)_spriteReferencesProviderRespondsTo;
++ (Class)_spacingBetweenYears;
+- (void)estimatedAssetCountForSectionIndexPath:(id)arg1;
+- (void)enumerateVisibleAssetsSectionSublayoutsUsingBlock:(id)arg1;
+- (void)entryAlbumGUID;
+- (void)deleteBackwardByDecomposingPreviousCharacter:(_Bool)arg1;
+- (void)createAlbumWithName:(id)arg1 assets:photoLibrary:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)convertRect:(id)arg1 fromCoordinateSpaceIdentifier:toCoordinateSpaceIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)confidentialityCheckRequired;
+- (id)confidentialWarningRequiredForShareableSelection:(unsigned long long)arg1;
+- (id)confidentialWarningRequiredForAssets: /* Error: Ran out of types for this method. */;
+- (unsigned long long)concreteTimelineSettings;
+- (id)conciseTitle;
+- (id)computedEffectiveContentSize;
+- (long long)colorGradeSmoothingPasses;
+- (_Bool)bucketNameForDouble:bucketLimits:numberFormatter: /* Error: Ran out of types for this method. */;
+- (_Bool)audioPeakForTimeRange: /* Error: Ran out of types for this method. */;
+- (_Bool)assistantViewController:presentViewController:animated: /* Error: Ran out of types for this method. */;
+- (void)alwaysConfirmMoveToSharedLibrary;
+- (void)alwaysConfirmMoveToPersonalLibrary;
+- (id)allowFlickAcrossMultiplePages;
+- (void)additionalAccessoryTileKinds;
+- (void)addedDate;
+- (id)_zoomLevelTransitionOccurred:isPreparation:isBegin: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)ine Permissions Cleanup:(id)arg1 Checking %@;
 - (_Bool);
 - (id);
 - (id);
-- (void)vePersonalizePlacardInFollowing: /* Error: Ran out of types for this method. */;
+- (void)setHasMinimumFollowCountToRemovePersonalizePlacardInFollowing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBBinningConfig *binningConfig; // @synthesize binningConfig=_binningConfig;
-@property(retain, nonatomic) NTPBPersonalizationTreatment *defaultPersonalizationTreatment; // @synthesize defaultPersonalizationTreatment=_defaultPersonalizationTreatment;
 @property(readonly, nonatomic) _Bool hasBinningConfig;
-@property(readonly, nonatomic) _Bool hasDefaultPersonalizationTreatment;
-@property(nonatomic) _Bool hasModuloForHashing;
-@property(nonatomic) long long moduloForHashing; // @synthesize moduloForHashing=_moduloForHashing;
-@property(retain, nonatomic) NSMutableArray *personalizationBuckets; // @synthesize personalizationBuckets=_personalizationBuckets;
-@property(retain, nonatomic) NSMutableArray *personalizationTreatments; // @synthesize personalizationTreatments=_personalizationTreatments;
 
 @end
 

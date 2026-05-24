@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
-
 @interface TUCTCapabilityInfo
 {
     _Bool _canEnable;
-    _Bool _enabled;
-    _Bool _canEnableRoaming;
-    _Bool _roamingEnabled;
-    int _provisioningStatus;
-    NSURL *_provisioningURL;
-    NSData *_provisioningPostData;
 }
 
 + (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -26,38 +18,24 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
+- (void)WebPage_OpenPDFWithPreviewReply;
+- (int)RemoteMediaPlayerProxy_SetPreferredDynamicRangeMode;
 - (void);
-- (int);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 - (id);
-- (void)ivityConduit:suggestionUpdated: /* Error: Ran out of types for this method. */;
+- (void)neighborhoodActivityConduit:suggestionUpdated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool canEnable; // @synthesize canEnable=_canEnable;
-@property(nonatomic) _Bool canEnableRoaming; // @synthesize canEnableRoaming=_canEnableRoaming;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *provisioningPostData; // @synthesize provisioningPostData=_provisioningPostData;
 @property(nonatomic) int provisioningStatus; // @synthesize provisioningStatus=_provisioningStatus;
-@property(copy, nonatomic) NSURL *provisioningURL; // @synthesize provisioningURL=_provisioningURL;
-@property(readonly, nonatomic, getter=isProvisioningURLInvalid) _Bool provisioningURLInvalid;
-@property(nonatomic, getter=isRoamingEnabled) _Bool roamingEnabled; // @synthesize roamingEnabled=_roamingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

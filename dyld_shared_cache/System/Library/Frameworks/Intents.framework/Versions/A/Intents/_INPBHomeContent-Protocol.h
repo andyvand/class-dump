@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBHomeFilter;
+@class NSArray;
 
 @protocol _INPBHomeContent
-- (void)aceTypes;
+- (void)_payloadPersonalPlaceTypes;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions;
-@property(readonly, nonatomic) unsigned long long actionsCount;
-@property(retain, nonatomic) _INPBHomeFilter *filter;
-@property(readonly, nonatomic) _Bool hasFilter;
 @end
 

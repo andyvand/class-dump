@@ -5,5 +5,6 @@
 //
 
 @protocol CHSAccessoryLiveActivitiesDeviceXPCClient
+- (oneway void);
 @end
 

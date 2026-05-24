@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface UNOneTimeCode
 {
     NSString *_code;
-    NSString *_displayCode;
-    NSString *_applicationIdentifier;
-    NSString *_notificationIdentifier;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
@@ -26,18 +22,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
 @property(readonly, copy) NSString *code; // @synthesize code=_code;
-@property(readonly, copy) NSString *displayCode; // @synthesize displayCode=_displayCode;
-@property(readonly, copy) NSString *notificationIdentifier; // @synthesize notificationIdentifier=_notificationIdentifier;
-@property(readonly, copy) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

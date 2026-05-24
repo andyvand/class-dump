@@ -14,20 +14,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)LL or AAC_ELD Spatial Mirroring);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (_Bool);
 - (void)T;
-- (id)yTraffic;
+- (id)LogFacilityTraffic;
 - (void)%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUser;
-@property(retain, nonatomic) CKDPUser *user; // @synthesize user=_user;
 
 @end
 

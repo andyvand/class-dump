@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphNamedLocationNode;
+@class PGGraphNamedLocationNode;
 
 @interface PGTripLocationScore
 {
     PGGraphNamedLocationNode *locationNode;
-    id momentNodes;
-    id _score;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)!`;
+- (double)@;
 - (void)t time: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) PGGraphNamedLocationNode *locationNode; // @synthesize locationNode;
-@property(nonatomic, readonly) double score;
 
 @end
 

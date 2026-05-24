@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABDebugPanelExperimentBranch, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABClientDebugPanelExperimentBranch
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_configKeyValues;
-    GEOABDebugPanelExperimentBranch *_debugExperimentBranch;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_configKeyValues:1;
-        unsigned int read_debugExperimentBranch:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ngsFamiliarRoutes:(id)arg1;
-- (void);
++ (_Bool)setHasMapSettingsFamiliarRoutes:(id)arg1;
+- (void)accountIsManagedForIdentifier:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_handleSessionProvidingDelegateDidChangeContext:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)xpected;
 - (_Bool);
 - (id);
 - (void)0@ù
 × ;
 - (id)ey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16Q24;
-- (void);
-- (id)ey:(struct _NSZone *)arg1 priority:forClient:options:reason:qos:signpostID:callbackQ:beginNetwork:callback: /* Error: Ran out of types for this method. */;
+- (void)setOriginalExpectedTime:(id)arg1;
+- (id)loadKey:(struct _NSZone *)arg1 priority:forClient:options:reason:qos:signpostID:callbackQ:beginNetwork:callback: /* Error: Ran out of types for this method. */;
 - (id)\°]Ì^;
 - (unsigned long long)tCourseUnc,%.3lf,Timestamp,%f;
 - (id)on item;
@@ -56,10 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *configKeyValues;
-@property(retain, nonatomic) GEOABDebugPanelExperimentBranch *debugExperimentBranch;
 @property(readonly, nonatomic) _Bool hasDebugExperimentBranch;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

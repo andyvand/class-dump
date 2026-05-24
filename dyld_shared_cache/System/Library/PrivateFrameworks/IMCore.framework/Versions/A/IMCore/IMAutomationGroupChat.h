@@ -10,13 +10,13 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Length:(id)arg1 %zu;
+- (id)modulated timestamp rolled backward – dropping frame. modulatedTimestamp=%u, frameTimeInSec=%f, rtpTimestampRate=%u;
+- (id)%u, frameTimeInSec=%f, rtpTimestampRate=%u;
+- (id)orithmAudio with mode=%d;
+- (id)d Session is already running;
+- (id)] %s:(id)arg1 %d parameter memory pool is NULL!;
+- (id)opicKey=%@, topic=%@;
 
 @end
 

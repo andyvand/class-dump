@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)canSetValueForProperty:(NSURLSession *)arg1;
+- (void)trategy>",&,N,V_strategy;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CRRequestUserConfirmationCommand
 {
     NSDictionary *userInfo;
-    unsigned long long commandDirection;
 }
 
 - (void);
@@ -20,14 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long commandDirection; // @synthesize commandDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo;
 
 @end

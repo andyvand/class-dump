@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInheritanceAccessKey, NSString, NSUUID;
+@class NSUUID;
 
 @interface AABeneficiary
 {
     NSUUID *_beneficiaryID;
-    NSString *_benefactorAltDSID;
-    AKInheritanceAccessKey *_accessKey;
 }
 
 + (_Bool);
+- (id)and '%@' keys. %@;
+- (id)itlements:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ts are not supported by MLC op yet.;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)pItemForIdentifier: /* Error: Ran out of types for this method. */;
+- (id)seMetadata;
+- (void)followUpItemForIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AKInheritanceAccessKey *accessKey; // @synthesize accessKey=_accessKey;
-@property(readonly, nonatomic) NSString *benefactorAltDSID; // @synthesize benefactorAltDSID=_benefactorAltDSID;
 @property(readonly, nonatomic) NSUUID *beneficiaryID; // @synthesize beneficiaryID=_beneficiaryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *otPeerID;
-@property(readonly, nonatomic) NSString *recordBuildVersion;
-@property(readonly, nonatomic) unsigned long long repairCount;
-@property(readonly, nonatomic) NSString *repairDate;
-@property(readonly) Class superclass;
 
 @end
 

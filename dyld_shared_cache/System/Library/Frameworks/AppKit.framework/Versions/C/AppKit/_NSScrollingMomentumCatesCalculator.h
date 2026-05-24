@@ -10,18 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSScrollingMomentumCatesCalculator : _NSScrollingMomentumCalculator
 {
     double _durationUntilStop;
-    double _durationUntilStopIgnoringRubberbanding;
-    struct CGSize _absDisplacementVectorIgnoringRubberbanding;
-    double _linearDisplacementIgnoringRubberbanding;
-    struct CGPoint _destinationIgnoringRubberbanding;
-    double _durationUntilRubberband;
-    struct CGPoint _initialRubberbandingOrigin;
-    struct CGPoint _initialRubberbandingVelocity;
-    long long _rubberBandingAxis;
 }
 
-- (double);
-- (struct CGPoint);
+- (double)__objc_protolist__DATA_CONST;
+- (struct CGPoint)mL1lk3ZVGDFUQhxU9YLW6Q;
 - (double);
 - (void);
 - (void);

@@ -6,30 +6,27 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSHashTable, NSTextView;
+@class NSTextView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextSelectionView : NSView
 {
     NSTextView *_textView;
-    NSHashTable *_tiles;
-    _Bool _placeholderRendered;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)d to format log message;
+- (void)MetalPerfLevelCapability;
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)c:[%d] %s /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)PSK_IDENTITY_BINDER_COUNT_MISMATCH;
 - (_Bool);
-- (id)IPlatterView;
+- (id)_NSIntelligenceUIPlatterView;
 
 // Remaining properties
-@property(readonly) NSColor *_selectionBackgroundColor;
 @property(readonly, getter=isPlaceholderRendered) _Bool placeholderRendered; // @synthesize placeholderRendered=_placeholderRendered;
 
 @end

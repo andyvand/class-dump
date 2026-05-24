@@ -6,15 +6,12 @@
 
 #import <ExchangeWebServices/EWSResponseMessageType.h>
 
-@class NSArray;
-
 @interface EWSGetInboxRulesResponseType : EWSResponseMessageType
 {
     _Bool _OutlookRuleBlobExists;
-    NSArray *_InboxRules;
 }
 
-+ (id);
++ (id)8;
 - (void);
 - (void);
 - (_Bool);
@@ -22,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *InboxRules; // @synthesize InboxRules=_InboxRules;
 @property(nonatomic) _Bool OutlookRuleBlobExists; // @synthesize OutlookRuleBlobExists=_OutlookRuleBlobExists;
 
 @end

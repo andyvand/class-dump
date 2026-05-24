@@ -9,7 +9,11 @@
 + (id);
 + (_Bool);
 + (unsigned long long);
-+ (long long);
++ (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -20,25 +24,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)h
+;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)J;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)߾;
 - (_Bool);
 - (_Bool);
 - (unsigned short);
@@ -49,6 +50,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long safari_indexFor0Through9KeyEvent;
-@property(readonly, nonatomic) _Bool safari_isSyntheticReturnKeyEvent;
 @end
 

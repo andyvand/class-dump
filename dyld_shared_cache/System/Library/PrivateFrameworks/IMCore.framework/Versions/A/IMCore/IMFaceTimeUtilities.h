@@ -8,20 +8,20 @@
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)to allocate stream token number;
++ (_Bool)ror='%@';
++ (void)d = %d;
++ (void)@(%p) toneInjectionEnabled = %d;
++ (void)aredInstance:(id)arg1 failed to create dispatch queue for shared instance;
++ (_Bool)d VCNAT64ResolverRegisterForPrefixUpdate:(id)arg1 context %08X has already been registered for interface %s;
++ (void)] %s:(id)arg1 %d New remote subscriptions. Enable capture.;
++ (void)%p) StreamGroup:(id)arg1 %s VideoStreamIDs:(id)arg2 %@ videoMediaBitrates:(_Bool)arg3 %@ for targetBitrate:(id)arg4 %d;
++ (id)d, storeBagValue=%{BOOL}d, defaultsValue=%{BOOL}d;
++ (_Bool)ecoding=%d set by GKSConnectivitySettings;
++ (_Bool)VCFeatureFlagManager:(id)arg1 UseOutOfProcessVideoDecoding=%d set by GKSConnectivitySettings;
++ (id)s:(id)arg1 %d %@(%p) Unable to negotiate oneToOne data with participant=%p;
++ (id)tiate oneToOne data with participant=%p;
++ (_Bool)e2.0;
 
 @end
 

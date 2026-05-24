@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageSentMessage
 {
     unsigned long long _timestamp;
-    unsigned int _connectionType;
-    int _fzError;
-    NSString *_guid;
-    unsigned int _hasAttachments;
-    unsigned int _isGroupMessage;
-    unsigned int _isToEmail;
-    unsigned int _isToPhoneNumber;
-    unsigned int _isTypingIndicator;
-    unsigned int _messageError;
-    unsigned int _sendDuration;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int fzError:1;
-        unsigned int hasAttachments:1;
-        unsigned int isGroupMessage:1;
-        unsigned int isToEmail:1;
-        unsigned int isToPhoneNumber:1;
-        unsigned int isTypingIndicator:1;
-        unsigned int messageError:1;
-        unsigned int sendDuration:1;
-    } _has;
 }
 
 - (void);
@@ -41,13 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)@9;
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,51 +42,30 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void));
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (id)
 × ;
 - (void)Ì©áÿC ·;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int fzError; // @synthesize fzError=_fzError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) unsigned int hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasFzError;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasHasAttachments;
-@property(nonatomic) _Bool hasIsGroupMessage;
-@property(nonatomic) _Bool hasIsToEmail;
-@property(nonatomic) _Bool hasIsToPhoneNumber;
-@property(nonatomic) _Bool hasIsTypingIndicator;
-@property(nonatomic) _Bool hasMessageError;
-@property(nonatomic) _Bool hasSendDuration;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
-@property(nonatomic) unsigned int isToEmail; // @synthesize isToEmail=_isToEmail;
-@property(nonatomic) unsigned int isToPhoneNumber; // @synthesize isToPhoneNumber=_isToPhoneNumber;
-@property(nonatomic) unsigned int isTypingIndicator; // @synthesize isTypingIndicator=_isTypingIndicator;
-@property(nonatomic) unsigned int messageError; // @synthesize messageError=_messageError;
-@property(nonatomic) unsigned int sendDuration; // @synthesize sendDuration=_sendDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

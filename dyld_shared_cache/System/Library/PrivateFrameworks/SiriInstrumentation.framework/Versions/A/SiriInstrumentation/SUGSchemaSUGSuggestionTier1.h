@@ -6,44 +6,37 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SUGSchemaSUGSuggestionTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_suggestionId;
-    _Bool _hasLinkId;
-    _Bool _hasSuggestionId;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)validateLocalPasswordWithTitle:(id)arg1 shouldForceReprompt:completion: /* Error: Ran out of types for this method. */;
+- (void)updateName:(_Bool)arg1 lastName:middleName:firstNamePronounce:lastNamePronounce:__JS_EXPORT_AS__updateName: /* Error: Ran out of types for this method. */;
+- (id)setSmsTargetTextField: /* Error: Ran out of types for this method. */;
+- (_Bool)reconcileEnableStatus;
+- (id)I!;
 - (id);
+- (id);
+- (void);
+- (unsigned long long)rchaseResponse"@"NSError">24;
+- (void)tonePickerController:(id)arg1 requestsPerformingBatchUpdates:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (_Bool), schedule_type = 2 WHERE schedule_type = 10;;
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)tionResult;
+- (id)deleteOperationResult;
 - (id)_hasValidationContext;
-- (void)ASKAPPBUNDLEID_UNKNOWN;
+- (void)ODMSIRITASKAPPBUNDLEID_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end
 

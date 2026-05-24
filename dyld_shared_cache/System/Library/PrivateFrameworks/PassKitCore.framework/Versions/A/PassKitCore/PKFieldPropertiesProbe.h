@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFSession, NSObject, NSString, PKFieldProperties;
-@protocol NFSession, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PKFieldPropertiesProbe
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    PKFieldProperties *_properties;
-    CDUnknownBlockType _completion;
-    long long _type;
-    NSObject<OS_dispatch_source> *_timeout;
-    NSObject<NFSession> *_startHandle;
-    NFSession *_session;
-    _Bool _started;
-    _Bool _resolved;
-    _Bool _invalidated;
 }
 
 + (id);
@@ -27,24 +17,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)qb;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)$;
 - (void)MinimumPaymentExcludedFromInterestCalculation:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

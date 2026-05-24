@@ -7,14 +7,6 @@
 @interface AppStoreKit.LegacyAppStateMachine
 {
     id adamId;
-    id state;
-    id betaState;
-    id observers;
-    id rules;
-    id appStateController;
-    id stateLock;
-    id _startDownloadTime;
-    id redownloadBuyParams;
 }
 
 @end

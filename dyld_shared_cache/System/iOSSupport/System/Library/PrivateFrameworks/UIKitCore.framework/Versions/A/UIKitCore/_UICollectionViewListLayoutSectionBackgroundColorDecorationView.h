@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ineView;
+- (id)_baselineView;
 - (void)X°;
 
 @end

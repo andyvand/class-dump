@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SGTSpotlightSuggesterReserved
 {
     NSArray *attributeNames;
-    NSString *baseQuery;
-    NSObject<OS_dispatch_queue> *queryQueue;
-    unsigned long long queryID;
-    struct __MDQuery *query;
-    struct __MDQuery *warmingQuery;
-    NSObject<OS_dispatch_source> *warmingQueryTimer;
-    NSArray *searchScope;
-    NSArray *additionalAttributeNames;
-    NSArray *sortingAttributeNames;
-    NSMutableDictionary *shortNameToAttributes;
-    NSObject<OS_dispatch_source> *fallbackTimer;
-    _Bool matchesFinderFilesOnly;
-    _Bool matchesSupportFiles;
-    _Bool runWarmingQuery;
-    _Bool canGenerateTopHits;
 }
 
 - (void);
-- (void);
+- (void)conformsToProtocol: /* Error: Ran out of types for this method. */;
 
 @end
 

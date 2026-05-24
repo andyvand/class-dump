@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface FAFamilyMember
 {
     NSArray *_remoteGuardians;
-    NSArray *_remoteChildren;
-    NSDictionary *_dictionary;
-    NSDictionary *_idsCache;
 }
 
 + (id);

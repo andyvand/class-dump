@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SALocalSearchMapItem *mapItem;
-@property(nonatomic) _Bool useNavigationDestination;
 
 @end
 

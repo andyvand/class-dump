@@ -6,15 +6,11 @@
 
 #import <SyncServices/ISyncClient.h>
 
-@class ISDClient, ISyncManager, ISyncSession, NSString;
+@class ISDClient;
 
 @interface ISyncConcreteClient : ISyncClient
 {
     ISDClient *_client;
-    ISyncManager *_syncManager;
-    ISyncSession *_syncSession;
-    _Bool _isInvalid;
-    _Bool _closureComputationIsDisabled;
 }
 
 - (_Bool);
@@ -54,7 +50,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -68,14 +64,14 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)9i;
 - (Class);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -85,18 +81,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)h;
+- (id)_numberOfSeparators;
 - (id)for entity %@, skipping;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

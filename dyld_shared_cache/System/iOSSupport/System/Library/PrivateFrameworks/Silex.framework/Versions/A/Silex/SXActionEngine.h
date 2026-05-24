@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SXActionEngine
 {
     NSMutableDictionary *_additionFactories;
-    NSMutableDictionary *_hostNameFactories;
 }
 
 - (void);
@@ -23,14 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *additionFactories; // @synthesize additionFactories=_additionFactories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *hostNameFactories; // @synthesize hostNameFactories=_hostNameFactories;
-@property(readonly) Class superclass;
 
 @end
 

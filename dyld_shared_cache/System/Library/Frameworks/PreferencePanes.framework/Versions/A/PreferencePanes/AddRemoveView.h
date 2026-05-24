@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButtonCell, NSSegmentedControl;
+@class NSSegmentedControl;
 
 @interface AddRemoveView
 {
     NSSegmentedControl *mAddRemoveControl;
-    id mTarget;
-    SEL mAddAction;
-    SEL mDeleteAction;
-    _Bool mShowsActionButton;
-    _Bool mShowsArrow;
-    NSPopUpButtonCell *mActionPopupCell;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)kA;
 - (_Bool);
 - (void);
 - (void);
@@ -40,23 +34,16 @@
 - (void);
 - (void);
 - (SEL);
-- (void);
+- (void)v32@0:(id)arg1 8@16q24;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)firstFrameGlitches;
 - (SEL);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActionButtonEnabled) _Bool actionButtonEnabled; // @dynamic actionButtonEnabled;
-@property(nonatomic) SEL addAction; // @synthesize addAction=mAddAction;
-@property(nonatomic, getter=isAddButtonEnabled) _Bool addButtonEnabled; // @dynamic addButtonEnabled;
-@property(nonatomic) SEL deleteAction; // @synthesize deleteAction=mDeleteAction;
-@property(nonatomic, getter=isDeleteButtonEnabled) _Bool deleteButtonEnabled; // @dynamic deleteButtonEnabled;
-@property(nonatomic) _Bool popupButtonShowsArrow; // @synthesize popupButtonShowsArrow=mShowsArrow;
-@property(nonatomic) _Bool showsActionButton; // @synthesize showsActionButton=mShowsActionButton;
 @property(retain, nonatomic) id target; // @synthesize target=mTarget;
 
 @end

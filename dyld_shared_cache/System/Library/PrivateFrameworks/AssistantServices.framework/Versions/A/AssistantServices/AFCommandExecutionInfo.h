@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFEndpointInfo, AFHomeInfo, AFInstanceInfo, AFPeerInfo, AFRequestHandlingContext, AFSpeechInfo, NSArray, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 @interface AFCommandExecutionInfo
 {
     NSString *_executionID;
-    NSString *_requestID;
-    NSUUID *_turnId;
-    AFPeerInfo *_originPeerInfo;
-    AFHomeInfo *_currentHomeInfo;
-    AFEndpointInfo *_endpointInfo;
-    AFInstanceInfo *_instanceInfo;
-    AFSpeechInfo *_speechInfo;
-    AFRequestHandlingContext *_requestHandlingContextSnapshot;
-    NSArray *_deviceRestrictions;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -33,41 +23,24 @@
 - (id);
 - (id);
 - (id);
+- (id)entifier;
+- (id)"NSDecimalNumber",R,C,N,V_receiveAmount;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)air_lock_opaque"I};
 - (void);
+- (id)t;
 - (id);
 - (id);
-- (id);
-- (void)iriAnnouncementRequestCapabilityManager;
+- (void)AFSiriAnnouncementRequestCapabilityManager;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AFHomeInfo *currentHomeInfo; // @synthesize currentHomeInfo=_currentHomeInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *deviceRestrictions; // @synthesize deviceRestrictions=_deviceRestrictions;
-@property(readonly, copy, nonatomic) AFEndpointInfo *endpointInfo; // @synthesize endpointInfo=_endpointInfo;
 @property(readonly, copy, nonatomic) NSString *executionID; // @synthesize executionID=_executionID;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) AFInstanceInfo *instanceInfo; // @synthesize instanceInfo=_instanceInfo;
-@property(readonly, copy, nonatomic) AFPeerInfo *originPeerInfo; // @synthesize originPeerInfo=_originPeerInfo;
-@property(readonly, copy, nonatomic) AFRequestHandlingContext *requestHandlingContextSnapshot; // @synthesize requestHandlingContextSnapshot=_requestHandlingContextSnapshot;
-@property(readonly, copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly, copy, nonatomic) AFSpeechInfo *speechInfo; // @synthesize speechInfo=_speechInfo;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *turnId; // @synthesize turnId=_turnId;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

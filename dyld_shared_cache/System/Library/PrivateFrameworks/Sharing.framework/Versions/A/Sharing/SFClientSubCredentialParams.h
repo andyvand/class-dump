@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SFClientSubCredentialParams
 {
     NSString *_adamID;
-    NSArray *_adamIDs;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_issuerID;
 }
 
 + (_Bool);
@@ -24,18 +20,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)";
 - (id);
-- (void)tIdentifier;
-- (id)onProviding;
+- (void)remoteContactIdentifier;
+- (id)SFUserDefaultDescriptionProviding;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *adamID; // @synthesize adamID=_adamID;
-@property(copy, nonatomic) NSArray *adamIDs; // @synthesize adamIDs=_adamIDs;
-@property(copy, nonatomic) NSString *issuerID; // @synthesize issuerID=_issuerID;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

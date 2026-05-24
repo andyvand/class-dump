@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, NSArray, NSString;
-@protocol GEOTransitArtworkDataSource, GEOTransitSystem;
+@class NSArray;
+@protocol GEOTransitArtworkDataSource;
 
 @protocol GEOTransitLine
+- (_Bool)e,mask.mailbox}s] Using cached body structure for message(s) %{public}s;
+- (NSArray *);
+- (id <GEOTransitArtworkDataSource>)me:%@ ext:%@ size:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)unneeded code if mailboxURLStrings.count is never greater than 0);
+- (id <GEOTransitArtworkDataSource>)ld not fetch SQL resource at URL %@ in bundle %@:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ete a nil item ID;
+- (_Bool)INTEGER PRIMARY KEY AUTOINCREMENT,
+address TEXT COLLATE NOCASE NOT NULL,
+comment TEXT COLLATE BINARY NOT NULL,
+UNIQUE(address, comment) ON CONFLICT ABORT);;
+- (unsigned long long)CONFLICT ABORT);;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> alternateArtwork;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork;
-@property(readonly, nonatomic) unsigned long long departureTimeDisplayStyle;
-@property(readonly, nonatomic) _Bool departuresAreVehicleSpecific;
-@property(readonly, nonatomic) _Bool hasLineColorString;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> headerArtwork;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(readonly, nonatomic) _Bool isBus;
-@property(readonly, nonatomic) NSString *lineColorString;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> modeArtwork;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSArray *operatingHours;
-@property(readonly, nonatomic) _Bool showVehicleNumber;
-@property(readonly, nonatomic) id <GEOTransitSystem> system;
 @end
 

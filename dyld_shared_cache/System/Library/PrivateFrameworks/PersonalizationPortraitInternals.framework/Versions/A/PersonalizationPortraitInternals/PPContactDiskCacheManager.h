@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (void)Name:tableName: /* Error: Ran out of types for this method. */;
+- (void)uuidForStatement:columnName:tableName: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface TeaUI.CommandContainer
 {
     id commandCenter;
-    id tracker;
-    id name;
-    id identifier;
-    id disposables;
 }
 
 @end

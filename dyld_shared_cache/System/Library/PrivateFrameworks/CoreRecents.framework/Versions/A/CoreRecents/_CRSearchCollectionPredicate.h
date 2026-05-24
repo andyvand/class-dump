@@ -6,27 +6,25 @@
 
 #import <CoreRecents/CRSearchPredicate.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _CRSearchCollectionPredicate : CRSearchPredicate
 {
     NSString *_key;
-    NSArray *_collection;
 }
 
-+ (_Bool);
++ (_Bool),C,N,V_handler;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)middleName has type CFStringGetTypeID;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)every %ld years on the %@ %@.;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *collection; // @synthesize collection=_collection;
 @property(readonly, copy) NSString *key; // @synthesize key=_key;
 
 @end

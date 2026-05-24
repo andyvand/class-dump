@@ -7,9 +7,10 @@
 @protocol PXDisplayAsset;
 
 @protocol PXStoryVideoPresentationController
+- (id <PXDisplayAsset>);
+- (void)_maxSizeForTextElement:(void (^)(id <PXStoryMutableVideoPresentationController>))arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> displayAsset;
-@property(readonly, nonatomic) _Bool shouldRewindOnBackAction;
 @end
 

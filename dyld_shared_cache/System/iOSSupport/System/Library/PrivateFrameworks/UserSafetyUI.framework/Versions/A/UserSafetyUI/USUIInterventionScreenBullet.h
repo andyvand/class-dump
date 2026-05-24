@@ -10,11 +10,10 @@
 {
     NSString *_text;
     NSString *_imageName;
-    NSString *_emoji;
 }
 
-+ (id);
-- (id);
++ (id)@?@>24;
+- (id)_;
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *emoji; // @synthesize emoji=_emoji;
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 

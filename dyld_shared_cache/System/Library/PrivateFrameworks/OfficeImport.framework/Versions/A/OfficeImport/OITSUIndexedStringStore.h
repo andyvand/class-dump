@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface OITSUIndexedStringStore
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_indexByString;
-    NSMutableArray *_stringByIndex;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)"16@"NSString"24@?<v@?@"NSError">32;
 - (unsigned long long)!¤ °!èBù5$Ð1Â0@ù
 × ;
 

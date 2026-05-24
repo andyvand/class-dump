@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (unsigned long long)JSONObjectWith_CLStreamingAwareLocationProviderNoLocalGPSStateMachine__LocationSourceState:info: /* Error: Ran out of types for this method. */;
+- (oneway void)setupForParameters:withHandler: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (id)D;
+- (_Bool)_stickerConfiguration;
 - (struct _NSZone *)ÿÿ½ÿÿ4lÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

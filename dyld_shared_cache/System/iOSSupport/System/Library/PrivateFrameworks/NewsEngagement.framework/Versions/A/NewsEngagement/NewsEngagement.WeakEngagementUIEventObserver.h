@@ -7,6 +7,7 @@
 @interface NewsEngagement.WeakEngagementUIEventObserver
 {
     id value;
+    id;
 }
 
 @end

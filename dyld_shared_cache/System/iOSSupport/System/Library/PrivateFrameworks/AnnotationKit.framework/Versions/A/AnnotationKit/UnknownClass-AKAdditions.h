@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AKAdditions)
-+ (double);
++ (double);
 + (id);
 + (id);
 + (id);

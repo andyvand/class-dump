@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface MediaIOGraphNodeList
 {
     int *_nodes;
-    unsigned long long _count;
 }
 
 + (id);
-- (int);
-- (id);
-- (id);
+- (int)dictionaryOpeningTagData;
+- (id)_registerAggregateFunctionDescriptor:(int *)arg1;
+- (id)ion cannot be NULL;
 - (void);
 - (unsigned long long);
 

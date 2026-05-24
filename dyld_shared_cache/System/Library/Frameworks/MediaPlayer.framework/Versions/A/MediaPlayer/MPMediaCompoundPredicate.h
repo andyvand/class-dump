@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MPMediaCompoundPredicate : MPMediaPredicate
 {
@@ -14,27 +14,20 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_arrowHeadStyle;
 - (void);
-- (id);
-- (id);
-- (void)G_MISSING__;
+- (id)(%u);
+- (id)!;
+- (void)__MPModelRelationshipGenericGenre__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *predicates; // @synthesize predicates=_predicates;
-@property(readonly) Class superclass;
 
 @end
 

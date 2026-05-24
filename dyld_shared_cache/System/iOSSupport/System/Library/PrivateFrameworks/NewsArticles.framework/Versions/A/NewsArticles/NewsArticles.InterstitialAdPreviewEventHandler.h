@@ -7,9 +7,6 @@
 @interface NewsArticles.InterstitialAdPreviewEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

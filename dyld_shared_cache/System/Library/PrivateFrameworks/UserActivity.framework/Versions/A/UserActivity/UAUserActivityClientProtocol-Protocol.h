@@ -5,5 +5,7 @@
 //
 
 @protocol UAUserActivityClientProtocol
+- (void);
+- (void)4;
 @end
 

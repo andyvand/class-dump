@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFEmojiPreferences, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class EMFEmojiPreferences, NSXPCListener;
 
 @interface EMFEmojiPreferencesService
 {
     NSXPCListener *_listener;
-    EMFEmojiPreferences *_preferences;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 + (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)identifier;
+- (id)ew menu);
+- (_Bool)trying to show you a Wallet order. Do you want to allow this?;
+- (void)selected below.;
 - (void);
 - (id);
 - (id);
@@ -28,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) EMFEmojiPreferences *preferences; // @synthesize preferences=_preferences;
-@property(readonly) Class superclass;
 
 @end
 

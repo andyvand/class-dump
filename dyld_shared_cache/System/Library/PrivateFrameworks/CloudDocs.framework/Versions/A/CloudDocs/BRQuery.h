@@ -4,56 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRItemCollectionGatherer, NSArray, NSMetadataQuery, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSPredicate, NSString, br_pacer;
-@protocol OS_dispatch_queue;
+@class NSMetadataQuery, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface BRQuery
 {
     NSMutableArray *_results;
-    NSMutableDictionary *_resultsByRowID;
-    NSMutableDictionary *_fpItemIDToResultItem;
-    NSMetadataQuery *_query;
-    NSPredicate *_predicate;
-    NSString *_bundleIdentifier;
-    NSMutableDictionary *_toBeRemovedByFileObjectID;
-    NSMutableDictionary *_toBeReplacedByFileObjectID;
-    NSMutableDictionary *_toBeInsertedByFileObjectID;
-    int _queryState;
-    _Bool _ubiquitousGatherComplete;
-    _Bool _sendHasUpdateNotification;
-    NSArray *_values;
-    NSArray *_sortingAttributes;
-    CDStruct_37e85dac _batchingParameters;
-    CDUnknownFunctionPointerType _create_result_fn;
-    void *_create_result_context;
-    CDUnknownFunctionPointerType _create_result_callbacks_equal;
-    CDUnknownFunctionPointerType _create_result_callbacks_release;
-    CDUnknownFunctionPointerType _create_value_fn;
-    void *_create_value_context;
-    CDUnknownFunctionPointerType _create_value_callbacks_equal;
-    CDUnknownFunctionPointerType _create_value_callbacks_release;
-    NSArray *_searchScopes;
-    unsigned int _scopeOptions;
-    CDUnknownFunctionPointerType _sort_fn;
-    void *_sort_context;
-    struct __CFRunLoop *_runLoop;
-    NSOperationQueue *_queryQueue;
-    _Atomic int _disableCount;
-    int _handlerDisableCount;
-    BRItemCollectionGatherer *_collectionGatherer;
-    NSMutableDictionary *_progressObserverByFPItemID;
-    NSMutableSet *_fpItemIDsInTransfer;
-    _Bool _isNetworkOffline;
-    id _networkReachabilityToken;
-    NSMutableSet *_fpItemIDsWithProgressUpdates;
-    br_pacer *_progressUpdatePacer;
-    NSObject<OS_dispatch_queue> *_progressQueue;
 }
 
 + (void)q@1°1Â0@ù
 × ;
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,32 +23,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)ij;
 - (void);
 - (void);
 - (void);
+- (void)T;
+- (void);
+- (void)l;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
-- (void);
-- (const void *);
+- (const void *)I;
 - (void);
 - (id);
 - (unsigned char);
@@ -97,22 +58,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
+- (id)H;;
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long)cription;
+- (unsigned long long)BRZombieDescription;
 - (void):(_Bool)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSMetadataQuery *query; // @synthesize query=_query;
-@property(readonly) Class superclass;
 
 @end
 

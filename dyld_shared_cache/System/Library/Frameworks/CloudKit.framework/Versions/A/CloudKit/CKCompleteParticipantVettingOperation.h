@@ -6,21 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKCompleteParticipantVettingOperationInfo, CKShareMetadata, NSData, NSString, NSURL;
-@protocol CKCompleteParticipantVettingOperationCallbacks;
+@class NSString;
 
 @interface CKCompleteParticipantVettingOperation : CKOperation
 {
     CDUnknownBlockType _completeParticipantVettingCompletionBlock;
-    NSString *_vettingToken;
-    NSString *_vettingEmail;
-    NSString *_vettingPhone;
-    NSString *_routingKey;
-    NSData *_encryptedKey;
-    NSString *_baseToken;
-    NSString *_displayedHostname;
-    NSURL *_reconstructedShareURL;
-    CKShareMetadata *_shareMetadata;
 }
 
 + (SEL);
@@ -28,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)kl;
 - (void);
 - (void);
 - (void);
@@ -39,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)G� ;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -54,28 +44,10 @@
 - (id)× ;
 - (void);
 - (void)portedDeviceCapabilitiesResultBlock` directly.  We'll invoke the underlying completion block as asked, but without any `results` value;
-- (id)ngeTag;
+- (id)recordChangeTag;
 - (void)pc;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *baseToken; // @synthesize baseToken=_baseToken;
-@property(readonly, nonatomic) id <CKCompleteParticipantVettingOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType completeParticipantVettingCompletionBlock; // @synthesize completeParticipantVettingCompletionBlock=_completeParticipantVettingCompletionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayedHostname; // @synthesize displayedHostname=_displayedHostname;
-@property(copy, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKCompleteParticipantVettingOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) NSURL *reconstructedShareURL; // @synthesize reconstructedShareURL=_reconstructedShareURL;
-@property(copy, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) CKShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *vettingEmail; // @synthesize vettingEmail=_vettingEmail;
-@property(copy, nonatomic) NSString *vettingPhone; // @synthesize vettingPhone=_vettingPhone;
 @property(copy, nonatomic) NSString *vettingToken; // @synthesize vettingToken=_vettingToken;
 
 @end

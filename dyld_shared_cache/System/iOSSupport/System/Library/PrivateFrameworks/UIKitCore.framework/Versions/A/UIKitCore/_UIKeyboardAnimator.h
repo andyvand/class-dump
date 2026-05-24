@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@"NSArray"28@?<v@?@"NSDate">36;
+- (void)B112@?116;
+- (void)_smsSpamCheck:(id)arg1 withMessageBody:withGuid:sender:receiverISOCountryCode:receivedViaRelay:containsOneTimeCode: /* Error: Ran out of types for this method. */;
+- (void)_findTransferGUIDMatchingSpotlightDonatedSpeculativeTransferGUID:(CDUnknownBlockType)arg1;
 - (id);
 - (void)Region;
 

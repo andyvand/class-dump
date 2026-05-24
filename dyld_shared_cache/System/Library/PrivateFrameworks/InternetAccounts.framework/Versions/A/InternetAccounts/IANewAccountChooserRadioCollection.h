@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IANewAccountChooserRadioRowItem, NSMutableArray, NSView;
+@class IANewAccountChooserRadioRowItem, NSMutableArray;
 
 @interface IANewAccountChooserRadioCollection
 {
     NSMutableArray *_items;
-    NSView *_view;
-    IANewAccountChooserRadioRowItem *_selectedItem;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (double);
 - (id);
 - (void);

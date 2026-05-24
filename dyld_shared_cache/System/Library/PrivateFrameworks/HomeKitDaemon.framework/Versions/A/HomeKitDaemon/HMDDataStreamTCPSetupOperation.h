@@ -6,25 +6,21 @@
 
 #import <HomeKitDaemon/HMDDataStreamSetupOperation.h>
 
-@class HAPSecuritySessionEncryption, HMFNetAddress, NSData;
+@class HMFNetAddress;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamTCPSetupOperation : HMDDataStreamSetupOperation
 {
     HMFNetAddress *_remoteNetAddress;
-    NSData *_controllerKeySalt;
-    NSData *_accessoryKeySalt;
-    long long _remoteTcpPort;
-    HAPSecuritySessionEncryption *_sessionEncryption;
 }
 
 + (id)¼ËB;
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (void)attribution;
+- (void)_performBlockOnAllQueues:(long long)arg1;
+- (void)_participantsByCapabilities;
+- (id)rivate}@ to %{public}@;
+- (long long)MSPShareETACapabilityFetchingServerPurgeIntervalKey;
+- (id)MSPUGCLogDiscardCertificateDurationInMinutesKey;
 - (void);
 - (id);
 - (void);
@@ -39,11 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *accessoryKeySalt; // @synthesize accessoryKeySalt=_accessoryKeySalt;
-@property(readonly, nonatomic) NSData *controllerKeySalt; // @synthesize controllerKeySalt=_controllerKeySalt;
 @property(retain, nonatomic) HMFNetAddress *remoteNetAddress; // @synthesize remoteNetAddress=_remoteNetAddress;
-@property(nonatomic) long long remoteTcpPort; // @synthesize remoteTcpPort=_remoteTcpPort;
-@property(retain, nonatomic) HAPSecuritySessionEncryption *sessionEncryption; // @synthesize sessionEncryption=_sessionEncryption;
 
 @end
 

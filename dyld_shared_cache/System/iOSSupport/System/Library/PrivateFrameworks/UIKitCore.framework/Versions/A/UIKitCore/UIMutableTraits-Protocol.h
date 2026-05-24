@@ -5,44 +5,38 @@
 //
 
 @class NSString;
+@protocol NSObject;
 
 @protocol UIMutableTraits
-- (void);
+- (long long)r;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long)R;
+- (long long){__CVBuffer=}16;
+- (long long);
+- (id <NSObject>)8;
+- (void)qL;
+- (void)ateAndTime;
+- (void)8@0:(long long)arg1 8#16I24;
+- (long long){public}@ fromSection:%{public}@ afterHeadOfSection:%{public}@ | moving [user moved] /* Error: Ran out of types for this method. */;
 - (long long)ùq[°1Â0@ù
 × ;
 - (_Bool)!`@ùQ_°1Â0@ù
 × ;
-- (double)nerInsets:updateSubviewsDuringNextLayoutPass: /* Error: Ran out of types for this method. */;
-- (NSString *)gedPresentation;
+- (double)_setClippedSafeAreaCornerInsets:updateSubviewsDuringNextLayoutPass: /* Error: Ran out of types for this method. */;
+- (NSString *)_endBridgedPresentation;
 - (void);
 - (void)UIIVCResponseDelegate>",&,N,V_responseDelegate;
-- (long long): /* Error: Ran out of types for this method. */;
+- (long long)objectForTrait: /* Error: Ran out of types for this method. */;
 - (void)ingPlayerIfPossible %@;
 - (long long)UIPhasedTransitionModifierComponentImpl;
 - (void)D33%.;
 - (long long)H7\;
 
 // Remaining properties
-@property(nonatomic) long long accessibilityContrast;
-@property(nonatomic) long long activeAppearance;
-@property(nonatomic) long long displayGamut;
-@property(nonatomic) double displayScale;
-@property(nonatomic) long long forceTouchCapability;
-@property(nonatomic) long long horizontalSizeClass;
-@property(nonatomic) long long imageDynamicRange;
-@property(nonatomic) long long layoutDirection;
-@property(nonatomic) long long legibilityWeight;
-@property(nonatomic) long long listEnvironment;
-@property(copy, nonatomic) NSString *preferredContentSizeCategory;
-@property(nonatomic) _Bool resolvesNaturalAlignmentWithBaseWritingDirection;
-@property(nonatomic) long long sceneCaptureState;
-@property(nonatomic) long long splitViewControllerLayoutEnvironment;
-@property(nonatomic) long long tabAccessoryEnvironment;
-@property(nonatomic) long long toolbarItemPresentationSize;
-@property(copy, nonatomic) NSString *typesettingLanguage;
 @property(nonatomic) long long userInterfaceIdiom;
-@property(nonatomic) long long userInterfaceLevel;
-@property(nonatomic) long long userInterfaceStyle;
-@property(nonatomic) long long verticalSizeClass;
 @end
 

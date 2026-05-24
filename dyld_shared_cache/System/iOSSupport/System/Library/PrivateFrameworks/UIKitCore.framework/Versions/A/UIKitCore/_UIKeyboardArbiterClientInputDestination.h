@@ -6,36 +6,22 @@
 
 #import <UIKitCore/_UIKeyboardArbiterClient.h>
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, UIScreen, UIWindowScene;
-@protocol OS_os_transaction;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardArbiterClientInputDestination : _UIKeyboardArbiterClient
 {
     _Bool _deactivatedBySystemAnimation;
-    _Bool _resignActiveByControlCenter;
-    _Bool _hadFocusBeforeOverlay;
-    UIWindowScene *_suppressedScene;
-    int _hostedCount;
-    UIScreen *_lastScreen;
-    NSObject<OS_os_transaction> *_clientChangeResponseTransaction;
-    struct os_unfair_lock_s _clientChangeResponseLock;
-    NSString *_keyboardSceneIdentifierEnteringForeground;
-    _Bool _updatingKeyWindow;
-    NSString *_focusedSceneIdentityStringOrIdentifier;
-    NSMutableSet *_pendingKeyboardGrabs;
-    NSMutableSet *_activePIDs;
-    NSMutableDictionary *_callerIDs;
 }
 
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool)Q);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)9);
+- (void)_controlBar;
 - (void);
 - (_Bool);
 - (void);
@@ -44,47 +30,47 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)C24@28@36@44B52B56;
+- (_Bool)ngeToken"16@"NSString"24;
+- (_Bool)NSString"16;
+- (_Bool)setOscarFilteredChat: /* Error: Ran out of types for this method. */;
+- (_Bool)service:(_Bool)arg1 account:(double)arg2 inviteReceivedForSession:(_Bool)arg3 fromID:(_Bool)arg4 withContext:(id)arg5;
+- (_Bool)lastUsedBIAReferenceID;
+- (void)isOlderThan:(id)arg1;
+- (void)deleteConversation;
+- (void);
+- (void)_updateHandleDenyAllowListIfNeeded:(id)arg1;
+- (void)_threadIdentifierGUID;
+- (id)_processReceivedDictionary:storageContext:receivedViaRelay:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)_chatForSendingMessageItem:(int)arg1 chatIdentifier:(id)arg2 chatStyle: /* Error: Ran out of types for this method. */;
+- (id)_analyticRecordZoneID;
+- (void);
+- (void)llback over quick switch service %ld;
+- (_Bool)%@;
+- (void)apple.MobileSMS.SyncedSettings.changed;
+- (void)iceRateLimiter.plist;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_translatedMCXPayloadsForPayload:outUUIDs: /* Error: Ran out of types for this method. */;
+- (void)umber",C,N,V_payloadAllowShowingUndownloadedTV;
+- (void)J;
+- (void)͟;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)lastClassifierScore;
+- (void);
+- (void)lloc || contentsDeallocator == kCFAllocatorNull;
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)deviceType;
+- (id)appendItems:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -96,14 +82,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (unsigned long long)@"_UINavigationParallaxTransition"16;
-- (void)derForEmptyReplacements: /* Error: Ran out of types for this method. */;
-- (id)ivateDelegate;
+- (void)addPlaceholderForEmptyReplacements: /* Error: Ran out of types for this method. */;
+- (id)_privateDelegate;
 - (void)_originalBorderWidth;
-- (void)eText:(_Bool)arg1 modifierFlags:(CDUnknownBlockType)arg2;
-- (void)ldCanEndAppearanceTransition:(_Bool)arg1;
+- (void)_oneFingerTapInUneditableActionAtLocation:(_Bool)arg1 textInput:(CDUnknownBlockType)arg2 canReplaceText:modifierFlags: /* Error: Ran out of types for this method. */;
+- (void)_childCanEndAppearanceTransition:(_Bool)arg1;
 - (void)mFillColor:(id)arg1;
 - (_Bool)G_allowsZeroCountDownDuration,S_setAllowsZeroCountDownDuration: /* Error: Ran out of types for this method. */;
-- (struct CGRect)f: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_setDidHandoff: /* Error: Ran out of types for this method. */;
 - (void)nWhenIdle",&,N,V_idleAction;
 - (id))ÄÔ ;
 - (_Bool);
@@ -121,11 +107,7 @@ __attribute__((visibility("hidden")))
 - (void)xa;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activePIDs; // @synthesize activePIDs=_activePIDs;
-@property(retain, nonatomic) NSMutableDictionary *callerIDs; // @synthesize callerIDs=_callerIDs;
-@property(copy, nonatomic) NSString *focusedSceneIdentityStringOrIdentifier; // @synthesize focusedSceneIdentityStringOrIdentifier=_focusedSceneIdentityStringOrIdentifier;
 @property(retain, nonatomic) NSMutableSet *pendingKeyboardGrabs; // @synthesize pendingKeyboardGrabs=_pendingKeyboardGrabs;
-@property(nonatomic) _Bool updatingKeyWindow; // @synthesize updatingKeyWindow=_updatingKeyWindow;
 
 @end
 

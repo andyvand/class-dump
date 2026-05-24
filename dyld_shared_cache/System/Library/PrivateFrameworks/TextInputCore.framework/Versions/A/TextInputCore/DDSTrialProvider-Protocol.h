@@ -5,6 +5,7 @@
 //
 
 @protocol DDSTrialProvider
+- (void);
 - (void)jÐ1Â0@ù
 × ;
 @end

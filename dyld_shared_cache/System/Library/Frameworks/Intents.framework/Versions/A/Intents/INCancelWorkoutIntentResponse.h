@@ -6,40 +6,31 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INCancelWorkoutIntentResponse : INIntentResponse
 {
 }
 
++ (int)lStartBlock;
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (long long);
++ (_Bool)Q;
++ (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ptedEAPTypes=%@;
 - (id);
 - (id);
-- (long long)rchForAccountsIntent;
+- (long long)_INPBSearchForAccountsIntent;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

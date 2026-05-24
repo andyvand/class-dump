@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HMMediaGroupStageRequestPayload
 {
     NSArray *_destinations;
-    NSArray *_destinationControllersData;
-    NSArray *_groups;
 }
 
 + (id);
@@ -21,26 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)&;
+- (_Bool)aborigine;
+- (id)impossible;
 - (id);
-- (id);
-- (id);
+- (id)";
 - (id);
 - (void)ÅtÅÈÅ;
 - (id)ansform to client identifiers due to no home with uuid:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *destinationControllersData; // @synthesize destinationControllersData=_destinationControllersData;
 @property(readonly, copy) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(readonly, copy) NSArray *groups; // @synthesize groups=_groups;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

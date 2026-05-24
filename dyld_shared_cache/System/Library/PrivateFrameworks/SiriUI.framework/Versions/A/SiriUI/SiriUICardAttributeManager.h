@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SiriUICardAttributeManager
 {
     NSMutableDictionary *_groupMap;
-    NSMutableDictionary *_iconMap;
-    NSDictionary *_appPluginMap;
-    NSDictionary *_socialIconMap;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)7C;
 - (id);
 - (id);
 - (id);
@@ -32,10 +29,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSDictionary *appPluginMap; // @synthesize appPluginMap=_appPluginMap;
 @property(readonly) NSMutableDictionary *groupMap; // @synthesize groupMap=_groupMap;
-@property(readonly) NSMutableDictionary *iconMap; // @synthesize iconMap=_iconMap;
-@property(readonly) NSDictionary *socialIconMap; // @synthesize socialIconMap=_socialIconMap;
 
 @end
 

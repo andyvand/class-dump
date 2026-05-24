@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIButton, UIListContentView;
-@protocol EKUIFocusBannerTableViewCellDelegate;
+@class UIButton;
 
 @interface EKUIFocusBannerTableViewCell
 {
     UIButton *_focusFilterToggleButton;
-    UIListContentView *_listContentView;
-    NSArray *_constraints;
-    _Bool _on;
-    id <EKUIFocusBannerTableViewCellDelegate> _delegate;
-    struct NSDirectionalEdgeInsets _customEdgeInsets;
 }
 
 - (id);
 - (void);
-- (struct NSDirectionalEdgeInsets);
-- (void);
+- (struct NSDirectionalEdgeInsets);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)nown change type %ld:%@ /* Error: Ran out of types for this method. */;
+- (void)__const;
 - (void);
-- (void);
-- (void)e:traitCollection: /* Error: Ran out of types for this method. */;
-- (id)Block: /* Error: Ran out of types for this method. */;
+- (void)tableViewCellCappedSymbolImageScaleWithScale:traitCollection: /* Error: Ran out of types for this method. */;
+- (id)completeAndSaveWithContinueBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct NSDirectionalEdgeInsets customEdgeInsets; // @synthesize customEdgeInsets=_customEdgeInsets;
-@property(nonatomic) __weak id <EKUIFocusBannerTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool on; // @synthesize on=_on;
 
 @end

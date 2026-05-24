@@ -7,8 +7,6 @@
 @interface QCResource
 {
     int _retainCount;
-    void *_pool;
-    void *_unused[4];
 }
 
 + (id)lor];
@@ -16,10 +14,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)";
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id);
 - (id);
 
 @end

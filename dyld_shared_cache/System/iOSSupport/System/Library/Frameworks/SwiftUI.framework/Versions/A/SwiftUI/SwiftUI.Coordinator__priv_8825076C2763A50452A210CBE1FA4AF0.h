@@ -9,13 +9,6 @@
 @interface SwiftUI.Coordinator__priv_8825076C2763A50452A210CBE1FA4AF0 : SwiftUI.PlatformViewCoordinator
 {
     id collectionView;
-    id selectedIndex;
-    id children;
-    id lastIDs;
-    id layoutDirection;
-    id pendingSeenIndex;
-    id lastSeenIndex;
-    id pendingSelectedIndex;
 }
 
 - (id);

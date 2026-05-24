@@ -9,23 +9,21 @@
 @interface GEOPOICategoryFilter
 {
     NSArray *_categoriesToInclude;
-    NSArray *_categoriesToExclude;
 }
 
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)createAudioInjectionDeviceWithType:(id)arg1 bundlePath:(id *)arg2 deviceName:deviceID:productID:handlingDaemon:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)!;
 - (id)*°1Â0@ù
 × ;
-- (_Bool)teRequest;
+- (_Bool)timeSinceLastRerouteRequest;
 - (_Bool)´UQ@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categoriesToExclude; // @synthesize categoriesToExclude=_categoriesToExclude;
 @property(readonly, nonatomic) NSArray *categoriesToInclude; // @synthesize categoriesToInclude=_categoriesToInclude;
 
 @end

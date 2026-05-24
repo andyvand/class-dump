@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKApplicationMessageNode.h>
 
-@class NSArray, PKApplicationMessage;
+@class PKApplicationMessage;
 
 @interface PKApplicationMessageNodeTerminal : PKApplicationMessageNode
 {
@@ -14,10 +14,9 @@
 }
 
 - (id);
-- (void)E_REGION_MESSAGE;
+- (void)INELIGIBLE_REGION_MESSAGE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *children; // @dynamic children;
 @property(readonly, nonatomic) PKApplicationMessage *message; // @synthesize message=_message;
 
 @end

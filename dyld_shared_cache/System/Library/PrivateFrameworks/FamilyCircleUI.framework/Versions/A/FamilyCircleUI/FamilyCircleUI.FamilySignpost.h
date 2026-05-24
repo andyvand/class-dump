@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.FamilySignpost
 {
     id name;
-    id log;
-    id signpostID;
-    id method;
 }
 
 @end

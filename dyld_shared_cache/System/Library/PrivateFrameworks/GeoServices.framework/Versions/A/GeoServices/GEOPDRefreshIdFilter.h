@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)`;
+- (unsigned long long);
+- (_Bool)@;
 - (_Bool);
 - (id)OEVStepInfo";
-- (id)CategoryId;
+- (id)_modernMapsCategoryId;
 - (id)ô°4³X´;
 - (void):ZÕÎF@ /* Error: Ran out of types for this method. */;
 

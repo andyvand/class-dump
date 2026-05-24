@@ -4,52 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAirline, INAirportGate, INDateComponentsRange, NSString;
+@class INAirline;
 
 @interface INFlight
 {
     INAirline *_airline;
-    NSString *_flightNumber;
-    INDateComponentsRange *_boardingTime;
-    INDateComponentsRange *_flightDuration;
-    INAirportGate *_departureAirportGate;
-    INAirportGate *_arrivalAirportGate;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)W,N,V_delegate;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__startMonitoringCloudKeychainSyncStateEvents;
+- (void)om.apple.wifi.managed.5B16F881-8215-4DE3-BD6E-4FFC2419462D;
 - (id);
 - (id);
-- (id)ent:(unsigned long long)arg1;
-- (void)hCompletion: /* Error: Ran out of types for this method. */;
+- (id)_setIntent:(unsigned long long)arg1;
+- (void)provideCarNameOptionsCollectionForActivateCarSignal:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ìIèÿ;
 
 // Remaining properties
 @property(readonly, copy) INAirline *airline; // @synthesize airline=_airline;
-@property(readonly, copy) INAirportGate *arrivalAirportGate; // @synthesize arrivalAirportGate=_arrivalAirportGate;
-@property(readonly, copy) INDateComponentsRange *boardingTime; // @synthesize boardingTime=_boardingTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) INAirportGate *departureAirportGate; // @synthesize departureAirportGate=_departureAirportGate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INDateComponentsRange *flightDuration; // @synthesize flightDuration=_flightDuration;
-@property(readonly, copy) NSString *flightNumber; // @synthesize flightNumber=_flightNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

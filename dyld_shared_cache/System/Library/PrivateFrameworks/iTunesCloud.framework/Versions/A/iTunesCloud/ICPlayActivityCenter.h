@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface ICPlayActivityCenter
 {
     NSXPCConnection *_daemonPlayActivityControllerConnection;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id)xt for identifier - error=%{public}@;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (void)onalQueryItems;
 

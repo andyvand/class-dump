@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PPDKStorage, PPRecordStorageHelper, PPSQLDatabase, PPSourceStorage, PPTrialWrapper;
-@protocol OS_dispatch_queue;
+@class PPSQLDatabase;
 
 @interface PPNamedEntityStorage
 {
     PPSQLDatabase *_db;
-    PPDKStorage *_dkStorage;
-    id _deletionObserver;
-    PPRecordStorageHelper *_storageHelper;
-    PPSourceStorage *_sourceStorage;
-    PPTrialWrapper *_trialWrapper;
-    NSObject<OS_dispatch_queue> *_populateDatabaseQueue;
 }
 
-- (void);
+- (void)_alternative_sub_plan__descriptor;
 - (void);
 - (void);
 - (_Bool);
@@ -26,14 +19,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)̇;
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (id);
@@ -44,19 +37,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)};
+- (_Bool);
 - (unsigned int);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void)a¡!tAù1÷°1Â0@ù
 × ;
-- (id);
+- (id)initWithSettings:(id)arg1 database:trialClient: /* Error: Ran out of types for this method. */;
 - (_Bool)B16@?0@"SGContact"8;
 - (id)32@?0@"PPScoredItem"8@"NSNumber"16Q24;
 - (_Bool)ÿP;

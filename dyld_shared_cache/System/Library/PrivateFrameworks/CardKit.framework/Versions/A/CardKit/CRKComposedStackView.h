@@ -11,7 +11,6 @@
 @interface CRKComposedStackView : CRKComposedView
 {
     NSMutableArray *_keylines;
-    unsigned long long _direction;
 }
 
 - (void);
@@ -24,7 +23,7 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (void);
 - (void);

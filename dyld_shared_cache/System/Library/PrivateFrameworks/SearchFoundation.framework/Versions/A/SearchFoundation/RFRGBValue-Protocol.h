@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 @protocol RFRGBValue
+- (void));
+- (NSNumber *)lockedState;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *blue;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *green;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSNumber *red;
 @end
 

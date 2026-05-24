@@ -6,25 +6,11 @@
 
 #import <AppKit/NSTextFieldCell.h>
 
-@class NSImage, NSURL;
+@class NSImage;
 
 @interface NSPathComponentCell : NSTextFieldCell
 {
     NSImage *_image;
-    double _minWidth;
-    double _fullWidth;
-    struct {
-        unsigned int shouldDrawArrow:1;
-        unsigned int drawsAsNavigationBar:1;
-        unsigned int isFirstItem:1;
-        unsigned int isLastItem:1;
-        unsigned int isDropTarget:1;
-        unsigned int reserved:27;
-    } _flags;
-    NSImage *_originalImage;
-    NSURL *_url;
-    double _resizedWidth;
-    double _currentWidth;
 }
 
 + (struct CGSize);
@@ -36,42 +22,43 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)selectEntriesWithRegistrableDomainStmt;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)or session %@ with identifier %@ outstanding auth tasks %@;
+- (_Bool)VAssetDownloadTask, as remote session is unavailable;
+- (_Bool)SURLSessionDownloadTask, as remote session is unavailable;
+- (_Bool)ic}@> failed to create a background NSURLSessionDownloadTask, as remote session is unavailable;
+- (_Bool)ownloadTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
+- (void)tatement. r = %d;
+- (void)to bind host (%@) to the delete statement. r = %d;
+- (void)ive HTTP response;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
+- (id)_kCFNTimingDataNStatRXBytes;
+- (id)forCache;
+- (double)GZipDecoder isFinishedDecoding];
+- (double)uniqueIdentifier;
+- (_Bool)disableRetry;
+- (_Bool)uldOpenNewConnection();
+- (_Bool)NULL or empty trust returned;
+- (long long)plist;
+- (long long)CFN_USE_NW_LOADER;
+- (struct CGSize)requestBeginTime;
+- (double)####)#8#>>
+>>>>)>8>;
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (double);
+- (void)@;
 - (id);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (long long)@;
 - (long long);
-- (long long);
-- (struct CGSize);
-- (double);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (double);
-- (void);
-- (id);
-- (long long);
-- (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -83,14 +70,11 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)setFirstResponder;
+- (id)_resetFirstResponder;
 - (void)^´SsB;
 
 // Remaining properties
-@property(copy) NSURL *URL; // @synthesize URL=_url;
-@property(setter=_setCurrentWidth:) double _currentWidth; // @synthesize _currentWidth;
 @property(setter=_setResizedWidth:) double _resizedWidth; // @synthesize _resizedWidth;
-@property(retain) NSImage *image;
 
 @end
 

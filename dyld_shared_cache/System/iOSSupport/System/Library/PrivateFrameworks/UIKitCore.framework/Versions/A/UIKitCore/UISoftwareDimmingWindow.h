@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     float _overlayLevel;
 }
 
-- (void);
-- (void);
+- (void)_processAssetFetchOperationCompletionBlock:removeTombstones:operationID:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (float);
 - (_Bool);
 - (id);

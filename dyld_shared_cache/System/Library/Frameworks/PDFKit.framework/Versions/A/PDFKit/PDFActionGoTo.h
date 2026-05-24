@@ -19,12 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)enqueueDisplayEvent;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PDFDestination *destination;

@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (unsigned int);
-+ (id);
++ (id);
 + (id)¨-!@ùñ1°1Â0@ù
 × ;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)h&D� ;
 - (_Bool);
 - (id);
 - (id);

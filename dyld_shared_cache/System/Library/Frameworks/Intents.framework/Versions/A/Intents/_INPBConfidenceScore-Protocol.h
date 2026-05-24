@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _INPBConfidenceScore
-- (unsigned long long)rm:withCompletion: /* Error: Ran out of types for this method. */;
++ (Class);
+- (void);
+- (unsigned long long)provideSampleMetadatasOptionsForSaveHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float aggregateScore;
-@property(copy, nonatomic) NSArray *components;
-@property(readonly, nonatomic) unsigned long long componentsCount;
-@property(nonatomic) _Bool hasAggregateScore;
 @end
 

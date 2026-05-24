@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSString, PKSwatchColor, UIColor, UIPointerInteraction, UIView;
+@class UIView;
 
 @interface PKPaletteColorSwatch
 {
     _Bool _selected;
-    _Bool _showsSelectionHighlight;
-    PKSwatchColor *_swatchColor;
-    long long _colorUserInterfaceStyle;
-    UIPointerInteraction *_pointerInteraction;
-    double _selectionInset;
-    double _bulletInset;
-    UIView *_colorBackgroundView;
-    CAShapeLayer *_selectionRingMaskLayer;
-    UIView *_colorBulletView;
 }
 
 - (_Bool);
@@ -48,35 +39,18 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)tŗU;
 - (id);
 - (void)0@ù
 × ;
-- (id)g:(id)arg1 alternateContainerView:(id)arg2 alternateDrawingTransform:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)Locating;
+- (id)setupStrokeInAnimationTo:(id)arg1 inDrawing:(id)arg2 alternateContainerView:alternateDrawingTransform:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)PKPaletteEdgeLocating;
 - (_Bool)ð0;
 - (void)er with the full drawing %@ with %lu strokes with manager %@;
 
 // Remaining properties
-@property(readonly, nonatomic) double bulletInset; // @synthesize bulletInset=_bulletInset;
 @property(retain, nonatomic) UIView *colorBackgroundView; // @synthesize colorBackgroundView=_colorBackgroundView;
-@property(retain, nonatomic) UIView *colorBulletView; // @synthesize colorBulletView=_colorBulletView;
-@property(nonatomic) long long colorUserInterfaceStyle; // @synthesize colorUserInterfaceStyle=_colorUserInterfaceStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(readonly, nonatomic) UIColor *presentationColor;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) double selectionInset; // @synthesize selectionInset=_selectionInset;
-@property(retain, nonatomic) CAShapeLayer *selectionRingMaskLayer; // @synthesize selectionRingMaskLayer=_selectionRingMaskLayer;
-@property(nonatomic) _Bool showsSelectionHighlight; // @synthesize showsSelectionHighlight=_showsSelectionHighlight;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PKSwatchColor *swatchColor; // @synthesize swatchColor=_swatchColor;
 
 @end
 

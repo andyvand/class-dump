@@ -6,23 +6,13 @@
 
 #import <NaturalLanguage/NLDataProvider.h>
 
-@class NSArray, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NLConstrainedDataProvider : NLDataProvider
 {
     NLDataProvider *_dataProvider;
-    struct _NLConstraintParameters _parameters;
-    NSArray *_locators;
-    NSDictionary *_labelMap;
-    NSDictionary *_inverseLabelMap;
-    NSDictionary *_vocabularyMap;
-    NSDictionary *_documentFrequencyMap;
-    unsigned long long _numberOfLabels;
-    unsigned long long _numberOfVocabularyEntries;
 }
 
-- (id);
+- (id)l;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -31,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Request.m;
 - (id);
 - (void);
 - (struct __CFStringTokenizer *);

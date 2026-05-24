@@ -7,8 +7,6 @@
 @interface NewsSubscription.InAppMessageCoordinator
 {
     id $__lazy_storage_$_messageCoordinator;
-    id applicationContextProvider;
-    id applicationDidBecomeActiveEventName;
 }
 
 @end

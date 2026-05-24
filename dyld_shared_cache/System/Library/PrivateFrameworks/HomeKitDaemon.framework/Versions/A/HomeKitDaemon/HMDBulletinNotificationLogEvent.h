@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSString *_topic;
 }
 
-- (id);
+- (id)) using the same asset (%@);
 - (id);
 - (void)ÿ ;
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MCPowerLog
 {
     NSString *_eventName;
-    NSObject<OS_dispatch_queue> *_logQueue;
 }
 
 - (void);
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *logQueue; // @synthesize logQueue=_logQueue;
 
 @end
 

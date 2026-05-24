@@ -17,9 +17,9 @@
 × ;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)streamName;
 - (void)iment.viewed;
 
 // Remaining properties

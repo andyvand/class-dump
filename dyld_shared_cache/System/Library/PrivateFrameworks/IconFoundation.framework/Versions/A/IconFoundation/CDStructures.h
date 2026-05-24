@@ -20,13 +20,13 @@ struct CGAffineTransform {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
@@ -131,10 +131,10 @@ struct _csitextstyle {
 };
 
 struct _renditionkeyattributeindex {
-    unsigned long long keymask;
-    unsigned char keyindices[65];
-    unsigned int nkeys;
-    unsigned int keylist[29];
+    unsigned long long _field1;
+    unsigned char _field2[65];
+    unsigned int _field3;
+    unsigned int _field4[29];
 };
 
 struct _renditionkeyfmt {
@@ -157,15 +157,15 @@ struct _rgbquad {
 };
 
 struct cuithemerenditionrenditionflags {
-    unsigned int isVectorBased:1;
-    unsigned int isOpaque:1;
-    unsigned int bitmapEncoding:4;
-    unsigned int optOutOfThinning:1;
-    unsigned int isFlippable:1;
-    unsigned int isTintable:1;
-    unsigned int preservedVectorRepresentation:1;
-    unsigned int preserveForArchiveOnly:1;
-    unsigned int reserved:21;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :4;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :21;
 };
 
 struct os_unfair_lock_s {

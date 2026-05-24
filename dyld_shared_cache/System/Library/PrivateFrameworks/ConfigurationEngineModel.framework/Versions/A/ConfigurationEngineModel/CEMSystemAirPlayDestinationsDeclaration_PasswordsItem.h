@@ -11,28 +11,25 @@
 @interface CEMSystemAirPlayDestinationsDeclaration_PasswordsItem : CEMPayloadBase
 {
     NSString *_payloadDeviceName;
-    NSString *_payloadPassword;
-    NSString *_payloadDeviceID;
 }
 
 + (id);
 + (id);
 + (id);
+- (void)T
+;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)amingZipReader:(id)arg1 Cant read:(id *)arg2 %s;
 - (id);
-- (void);
+- (void)erver_finished_len;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadDeviceID; // @synthesize payloadDeviceID=_payloadDeviceID;
 @property(copy, nonatomic) NSString *payloadDeviceName; // @synthesize payloadDeviceName=_payloadDeviceName;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
 
 @end
 

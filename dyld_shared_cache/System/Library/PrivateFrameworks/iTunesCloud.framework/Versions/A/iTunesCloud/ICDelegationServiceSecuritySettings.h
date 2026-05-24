@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ICDelegationServiceSecuritySettings
 {
     long long _securityMode;
-    NSString *_password;
 }
 
 + (void);
-+ (void);
-- (long long);
++ (void)HMSiriEndpointProfile"16@"NSUUID"24;
+- (long long)ryCounts: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)´]^0_ `he8h;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
 @property(readonly, nonatomic) long long securityMode; // @synthesize securityMode=_securityMode;
 
 @end

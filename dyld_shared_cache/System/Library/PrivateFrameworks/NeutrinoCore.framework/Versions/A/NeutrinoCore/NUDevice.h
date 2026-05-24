@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol MTLCommandQueue, MTLDevice, NURenderer, OS_dispatch_queue;
+@class NSMutableDictionary, NSString;
 
 @interface NUDevice
 {
     NSMutableDictionary *_renderers;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <MTLCommandQueue> _commandQueue;
-    NSString *_name;
-    NSString *_model;
-    id <NURenderer> _renderer;
-    id <NURenderer> _lowPriorityRenderer;
-    id <MTLDevice> _metalDevice;
 }
 
 + (id);
@@ -38,9 +30,9 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id));
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -54,23 +46,7 @@
 - (void)ü_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long defaultSampleMode;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long family;
-@property(readonly, nonatomic) _Bool hasMetalSupport;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NURenderer> lowPriorityRenderer; // @synthesize lowPriorityRenderer=_lowPriorityRenderer;
-@property(readonly, nonatomic) id <MTLDevice> metalDevice; // @synthesize metalDevice=_metalDevice;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) id <NURenderer> renderer; // @synthesize renderer=_renderer;
-@property(readonly, nonatomic) NSMutableDictionary *renderers; // @synthesize renderers=_renderers;
-@property(readonly, nonatomic) _Bool shouldRenderUsingMetal;
-@property(readonly) Class superclass;
 
 @end
 

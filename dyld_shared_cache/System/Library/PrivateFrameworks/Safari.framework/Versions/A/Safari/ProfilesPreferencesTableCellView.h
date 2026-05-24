@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface ProfilesPreferencesTableCellView
 {
     NSTextField *_profileNameField;
-    NSImageView *_iconImageView;
 }
 
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)Ì;
 
 // Remaining properties
-@property(nonatomic) __weak NSImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
 @property(nonatomic) __weak NSTextField *profileNameField; // @synthesize profileNameField=_profileNameField;
 
 @end

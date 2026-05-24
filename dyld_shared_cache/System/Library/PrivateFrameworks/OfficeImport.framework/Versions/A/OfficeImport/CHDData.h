@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDDataValuesCollection, CHDFormula, EDResources;
+@class CHDDataValuesCollection;
 
 __attribute__((visibility("hidden")))
 @interface CHDData
 {
     CHDDataValuesCollection *mDataValues;
-    CHDFormula *mFormula;
-    unsigned long long mContentFormatId;
-    unsigned long long mDataValueIndexCount;
-    EDResources *mResources;
 }
 
 + (id);

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString;
-
 @interface UnknownClass (PGSuggestion)
 - (unsigned long long);
 - (unsigned char);
@@ -14,49 +12,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)C;
+- (id)PGMemoryTriggerTypeRecentTrendsMoment;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long availableFeatures;
-@property(readonly, nonatomic) _Bool containsUnverifiedPersons;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *features;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInvalid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *keyAssets;
-@property(readonly, nonatomic) unsigned char notificationQuality;
-@property(readonly, nonatomic) unsigned short notificationState;
-@property(readonly, copy, nonatomic) NSArray *reasons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) id recipe;
-@property(readonly, nonatomic) unsigned long long relevanceDurationInDays;
-@property(readonly, nonatomic) NSArray *representativeAssets;
-@property(readonly, nonatomic) double score;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) unsigned short state;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) unsigned short subtype;
-@property(readonly, copy, nonatomic) NSArray *suggestedPersonLocalIdentifiers;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @dynamic title;
 @property(readonly, nonatomic) unsigned short type;
-@property(readonly, nonatomic) NSDate *universalEndDate;
-@property(readonly, nonatomic) NSDate *universalStartDate;
-@property(readonly, nonatomic) long long version;
 @end
 

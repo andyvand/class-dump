@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPNetworkTimingData;
-
 @interface _CPEndNetworkSearchFeedback
 {
     int _statusCode;
-    int _endpointType;
-    unsigned long long _timestamp;
-    long long _responseSize;
-    NSString *_uuid;
-    NSString *_parsecStatus;
-    NSString *_fbq;
-    double _duration;
-    NSString *_partialClientIp;
-    _CPNetworkTimingData *_timingData;
-    unsigned long long _rawResponseSize;
-    unsigned long long _decompressedResponseSize;
-    NSString *_edge;
 }
 
+- (void):(unsigned long long)arg1:Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>>, WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>::KeyValuePairTraits, WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::WebExtensionMatchPattern>, Value = WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)tNode<WTF:(id)arg1:URL>>, WTF::IdentityExtractor, WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<URL>>, WTF::ListHashSet<WTF::URL>::NodeTraits, WTF::ListHashSet<WTF::URL>::NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<WTF::URL>>, Value = std::unique_ptr<WTF::ListHashSetNode<WTF::URL>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<URL>>, Traits = WTF::ListHashSet<WTF::URL>::NodeTraits, KeyTraits = WTF::ListHashSet<WTF::URL>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void):(id)arg1:Yes] /* Error: Ran out of types for this method. */;
+- (void)ildRoots/4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h;
+- (id)pty or invalid `default_locale` manifest entry.;
+- (id)tness_t<Source, Target> *WTF:(id)arg1:(long long)arg2 downcast(Source *) [Target = API:(long long)arg3:(id)arg4 ScriptMessage, Source = API:(double)arg5:(id)arg6 Object];
+- (unsigned long long)on a suspended page, this is a client bug.;
+- (unsigned long long)etNode<unsigned long>>, std::unique_ptr<WTF::ListHashSetNode<unsigned long>>, WTF::IdentityExtractor, WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<unsigned long>>, WTF::ListHashSet<unsigned long>::NodeTraits, WTF::ListHashSet<unsigned long>::NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<unsigned long>>, Value = std::unique_ptr<WTF::ListHashSetNode<unsigned long>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<unsigned long>>, Traits = WTF::ListHashSet<unsigned long>::NodeTraits, KeyTraits = WTF::ListHashSet<unsigned long>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)es];
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long) ;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -60,27 +46,7 @@
 - (void)>.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long decompressedResponseSize; // @synthesize decompressedResponseSize=_decompressedResponseSize;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSString *edge; // @synthesize edge=_edge;
-@property(nonatomic) int endpointType; // @synthesize endpointType=_endpointType;
-@property(copy, nonatomic) NSString *fbq; // @synthesize fbq=_fbq;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *parsecStatus; // @synthesize parsecStatus=_parsecStatus;
-@property(copy, nonatomic) NSString *partialClientIp; // @synthesize partialClientIp=_partialClientIp;
-@property(nonatomic) unsigned long long rawResponseSize; // @synthesize rawResponseSize=_rawResponseSize;
-@property(nonatomic) long long responseSize; // @synthesize responseSize=_responseSize;
-@property(nonatomic) int statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(retain, nonatomic) _CPNetworkTimingData *timingData; // @synthesize timingData=_timingData;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

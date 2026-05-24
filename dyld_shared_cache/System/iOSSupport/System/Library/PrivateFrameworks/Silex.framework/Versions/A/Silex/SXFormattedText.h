@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXJSONArray;
+@class NSString;
 
 @interface SXFormattedText : SXJSONObject
 {
@@ -21,11 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONArray *additions; // @dynamic additions;
-@property(readonly, nonatomic) SXJSONArray *inlineTextStyles; // @dynamic inlineTextStyles;
-@property(nonatomic) _Bool shouldWrapText; // @synthesize shouldWrapText;
 @property(readonly, nonatomic) NSString *text; // @dynamic text;
-@property(readonly, nonatomic) NSString *textStyle; // @dynamic textStyle;
 
 @end
 

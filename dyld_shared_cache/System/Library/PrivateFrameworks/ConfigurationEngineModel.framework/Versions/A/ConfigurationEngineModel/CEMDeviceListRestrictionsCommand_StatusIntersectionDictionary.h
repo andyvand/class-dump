@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool).voice.cellos;
 - (id);
 - (void);
 

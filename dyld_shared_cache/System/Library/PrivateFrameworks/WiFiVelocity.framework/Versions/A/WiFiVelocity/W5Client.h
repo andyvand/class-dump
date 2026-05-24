@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface W5Client
 {
     NSXPCConnection *_conn;
-    NSObject<OS_dispatch_queue> *_queue;
-    double _lastRecoveryTimestamp;
-    NSMutableArray *_mutableEventIDs;
-    NSMutableArray *_mutableUUIDs;
-    NSMutableDictionary *_mutableEventCallbackMap;
-    NSMutableDictionary *_mutablePeerEventCallbackMap;
-    NSMutableSet *_mutableFaultEventMonitoringPeers;
-    CDUnknownBlockType _eventCallback;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
+- (id)setQueuedRequest: /* Error: Ran out of types for this method. */;
+- (void)t;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)filename:(id)arg1 . Will drop [%{public}@];
+- (void)"DEDRadarAttachment"8^B16;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -52,7 +43,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)oint=dd}{CGSize=dd}}44B76B80@?84;
 - (id);
 - (id);
 - (id);
@@ -67,22 +58,22 @@
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)fakeSpeakerRecognitionAssetPath;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)setTarget_Max_Dimension_800:(CDUnknownBlockType)arg1;
+- (id);
+- (id)|p;
+- (void)ad, final state:(id)arg1 %@;
+- (id);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool) ;
 - (void);
 - (void);
 - (void);

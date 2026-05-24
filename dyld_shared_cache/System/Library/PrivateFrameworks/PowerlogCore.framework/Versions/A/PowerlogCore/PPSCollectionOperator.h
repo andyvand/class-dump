@@ -6,22 +6,16 @@
 
 #import <PowerlogCore/PLOperator.h>
 
-@class NSString, PLCFNotificationOperatorComposition, PLXPCListenerOperatorComposition, PLXPCResponderOperatorComposition;
+@class PLXPCListenerOperatorComposition;
 
 @interface PPSCollectionOperator : PLOperator
 {
     _Bool _monitor;
-    PLXPCListenerOperatorComposition *_metricListener;
-    PLXPCResponderOperatorComposition *_allowlistResponder;
-    PLCFNotificationOperatorComposition *_startMonitor;
-    PLCFNotificationOperatorComposition *_stopMonitor;
-    NSString *_monitoredSubsystem;
-    NSString *_monitoredCategory;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,24 +23,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)z: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)appAndWebActivity missing;
 - (void);
-- (void)_EventForward_CleanEnergyCharging;
+- (void)PLBatteryAgent_EventForward_CleanEnergyCharging;
 - (_Bool)hFormatter = %hd;
 
 // Remaining properties
-@property(retain) PLXPCResponderOperatorComposition *allowlistResponder; // @synthesize allowlistResponder=_allowlistResponder;
 @property(retain) PLXPCListenerOperatorComposition *metricListener; // @synthesize metricListener=_metricListener;
-@property _Bool monitor; // @synthesize monitor=_monitor;
-@property(retain) NSString *monitoredCategory; // @synthesize monitoredCategory=_monitoredCategory;
-@property(retain) NSString *monitoredSubsystem; // @synthesize monitoredSubsystem=_monitoredSubsystem;
-@property(retain) PLCFNotificationOperatorComposition *startMonitor; // @synthesize startMonitor=_startMonitor;
-@property(retain) PLCFNotificationOperatorComposition *stopMonitor; // @synthesize stopMonitor=_stopMonitor;
 
 @end
 

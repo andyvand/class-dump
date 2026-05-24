@@ -4,43 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITransitionView, UIViewController, UIWindow;
-@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
+@class UITransitionView, UIWindow;
 
 @interface UIWindowController
 {
     UITransitionView *_transitionView;
-    UIWindow *_window;
-    int _currentTransition;
-    id _target;
-    long long _didFinish;
-    UIViewController *_fromViewController;
-    UIViewController *_toViewController;
-    struct CGPoint _beginOriginForToView;
-    struct CGPoint _endOriginForToView;
-    _Bool _presenting;
-    long long _toModalStyle;
-    _Bool _needsDidAppear;
-    _Bool _needsDidDisappear;
-    _Bool __interactiveTransition;
-    id <UIViewControllerAnimatedTransitioning> _transitionController;
-    id <UIViewControllerInteractiveTransitioning> _interactionController;
 }
 
 + (id);
 + (void)(¯öþSÈ;
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (_Bool);
-- (id);
+- (void):(id)arg1 8@"NSData"16@"NSString"24@"NSString"32;
+- (id)tring"32@"NSNumber"40;
+- (void)nsfer %@ with low quality image mode on. Forcing size limit to be %@;
+- (id)T1 operation %@;
+- (void)changes from update zone with no error;
+- (void)to create update zone;
+- (void)edelete, last component is Attachments;
+- (void)nd %d filenames with room names:(_Bool)arg1 %@ on services:%@  /* Error: Ran out of types for this method. */;
+- (void)message:(id)arg1 %@ with room names:%@ on services:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)zone;
+- (_Bool)BlastDoorRecoverJunkCommand;
+- (id)LastCompleteDBCKSyncWasNotWithin3Days;
 - (struct CGSize);
 - (struct CGRect);
 - (void);
@@ -58,17 +42,12 @@
 - (void)ñfð1Â0@ù
 × ;
 - (struct CGPoint)setPreventPaddle:(id)arg1;
-- (void)n;
+- (void)section;
 - (struct CGPoint)ccessing invalid yOrigin on %@;
 - (void)13L¼uþÍ13´°þ;
 - (void)7Bv;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setInteractionController:) id <UIViewControllerInteractiveTransitioning> _interactionController; // @synthesize _interactionController;
-@property(nonatomic, getter=_isInteractiveTransition, setter=_setInteractiveTransition:) _Bool _interactiveTransition; // @synthesize _interactiveTransition=__interactiveTransition;
-@property(retain, nonatomic, setter=_setTransitionController:) id <UIViewControllerAnimatedTransitioning> _transitionController; // @synthesize _transitionController;
-@property(nonatomic) _Bool presenting; // @synthesize presenting=_presenting;
-@property(readonly, nonatomic) UITransitionView *transitionView; // @synthesize transitionView=_transitionView;
 @property(nonatomic) __weak UIWindow *window; // @synthesize window=_window;
 
 @end

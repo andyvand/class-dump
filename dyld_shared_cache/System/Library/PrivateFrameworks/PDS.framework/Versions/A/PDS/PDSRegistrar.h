@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol PDSRemoteVendor;
 
 @interface PDSRegistrar
 {
     NSString *_clientID;
-    id <PDSRemoteVendor> _remoteVendor;
 }
 
 - (id);
@@ -22,21 +20,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)nAttempt;
 - (_Bool);
+- (_Bool)data is %{public}@;
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)estimator_attitude_determination_minimum_gnss_delta_speed;
+- (id)N12cnnavigation21PolynomialEphemeridesILm4EEE;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (id);
@@ -45,7 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) id <PDSRemoteVendor> remoteVendor; // @synthesize remoteVendor=_remoteVendor;
 
 @end
 

@@ -6,23 +6,18 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class AOSUIBeneficiaryRadioListView, NSImage, NSView;
+@class AOSUIBeneficiaryRadioListView;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIInheritanceShareAccessKeyOptionsViewModel : AOSUIAccountContactBaseViewModel
 {
     _Bool _shouldEnableFirstButtonOnLoad;
-    _Bool _shouldShowHelpLinkAsTemplateButton;
-    NSImage *_image;
-    NSView *_contentView;
-    long long _templateContentViewLayout;
-    AOSUIBeneficiaryRadioListView *_radioView;
 }
 
-- (long long);
+- (long long)c;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)b;
+- (void)aB;
 - (void);
 - (id);
 - (void);

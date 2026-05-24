@@ -4,33 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMIFAutocompleteRequestParameters, GEOPDPlaceResponse, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMIFAutocompleteRequest
 {
     PBDataReader *_reader;
-    NSMutableArray *_clientResultItems;
-    GEOPDMIFAutocompleteRequestParameters *_requestParameters;
-    GEOPDPlaceResponse *_serverResponse;
-    NSMutableArray *_serverResultItems;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_clientResultItems:1;
-        unsigned int read_requestParameters:1;
-        unsigned int read_serverResponse:1;
-        unsigned int read_serverResultItems:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class);
 + (Class);
-+ (Class);
-+ (_Bool)pStatus:(id)arg1;
++ (_Bool)setHttpStatus:(id)arg1;
 - (void);
-- (void);
+- (void)Ⱥ;
 - (void);
 - (unsigned long long);
 - (id);
@@ -49,30 +35,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)_activationAlertStartTimestamp;
+- (id)@, returning fallback model :%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ithAsset:(id)arg1 ];
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long));
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)ad_displayLanguages"b1"read_displayRegion"b1"read_dotPlaces"b1"read_globalResult"b1"read_mapsResults"b1"read_legacyPlaceResults"b1"read_spokenLanguages"b1"wrote_anyField"b1};
-- (id);
+- (id)_fetchTimezones: /* Error: Ran out of types for this method. */;
 - (id)È¨;
-- (id)CATION;
+- (id)FEEDBACK_REQUEST_TYPE_TDM_FRAUD_NOTIFICATION;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clientResultItems;
 @property(readonly, nonatomic) _Bool hasRequestParameters;
-@property(readonly, nonatomic) _Bool hasServerResponse;
-@property(retain, nonatomic) GEOPDMIFAutocompleteRequestParameters *requestParameters;
-@property(retain, nonatomic) GEOPDPlaceResponse *serverResponse;
-@property(retain, nonatomic) NSMutableArray *serverResultItems;
 
 @end
 

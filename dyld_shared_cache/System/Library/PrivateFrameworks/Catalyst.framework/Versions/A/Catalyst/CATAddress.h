@@ -9,7 +9,6 @@
 @interface CATAddress
 {
     NSString *_address;
-    NSData *_data;
 }
 
 + (id);
@@ -19,19 +18,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)_scrollTo:animate: /* Error: Ran out of types for this method. */;
+- (_Bool)+;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)BKMatchEventResult;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic, getter=isAny) _Bool any;
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic, getter=isLocalWiFi) _Bool localWiFi;
 
 @end
 

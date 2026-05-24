@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHierarchicalStateMachine, NSString;
+@class HMDHierarchicalStateMachine;
 
 __attribute__((visibility("hidden")))
 @interface HMDHierarchicalStateMachineState
@@ -13,26 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ø;
+- (void)invoke;
+- (void){;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
 - (long long);
 - (id)d assertion object;
-- (void)nce;
+- (void)kCameraSessionPreference;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHierarchicalStateMachine *hsm; // @synthesize hsm=_hsm;
-@property(readonly) Class superclass;
 
 @end
 

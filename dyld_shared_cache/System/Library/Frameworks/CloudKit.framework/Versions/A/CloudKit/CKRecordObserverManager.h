@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKRecordObserverManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_recordObservers;
 }
 
-+ (id);
++ (id)_accountWillChange];
 - (void);
 - (id);
 - (void)ùG1ð1Â0@ù
@@ -23,13 +22,7 @@
 - (void)ÿÿÿÿ$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

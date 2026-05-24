@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionAvailableDimensionalLayoutSpace
 {
     int _axis;
-    struct CGSize _size;
 }
 
 - (id);
 - (struct CGSize);
-- (int);
+- (int);
 
 // Remaining properties
-@property(readonly, nonatomic) int axis; // @synthesize axis=_axis;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

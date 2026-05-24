@@ -7,7 +7,6 @@
 @interface PhotosGraph.PGSharedLibrarySimulationContext
 {
     id currentSharedLibraryMode;
-    id lastEvent;
 }
 
 @end

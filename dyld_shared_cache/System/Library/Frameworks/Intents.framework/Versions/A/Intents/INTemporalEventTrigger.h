@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSString;
+@class INDateComponentsRange;
 
 @interface INTemporalEventTrigger
 {
@@ -15,28 +15,21 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)unarchivedObjectOfClasses:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (unsigned long long)0;
+- (_Bool)setMrcQueue:(id)arg1;
+- (void)matching disallowed known network (network=%{public}@, disallowed=%{public}@);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id)tartPlayback:(unsigned long long)arg1 isAmbiguousPlay:isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier:ampPAFDataSetID: /* Error: Ran out of types for this method. */;
-- (void)ample:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideSampleMetadatasOptionsForSaveHealthSample:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ç;
 - (id)dÞ¾ÿÕ	;
 
 // Remaining properties
 @property(readonly, copy) INDateComponentsRange *dateComponentsRange; // @synthesize dateComponentsRange=_dateComponentsRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

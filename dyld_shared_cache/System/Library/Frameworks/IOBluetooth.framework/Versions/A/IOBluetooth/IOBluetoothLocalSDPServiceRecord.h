@@ -6,37 +6,33 @@
 
 #import <IOBluetooth/IOBluetoothSDPServiceRecord.h>
 
-@class IOBluetoothUserNotification, NSDictionary, NSMutableSet;
+@class NSDictionary;
 
 @interface IOBluetoothLocalSDPServiceRecord : IOBluetoothSDPServiceRecord
 {
     NSDictionary *mServerAttributeDictionary;
-    NSDictionary *mLocalAttributeDictionary;
-    NSMutableSet *mAllowedDevices;
-    NSMutableSet *mRestrictedDevices;
-    IOBluetoothUserNotification *mIncomingChannelNotification;
 }
 
 + (id);
 + (_Bool);
 + (void);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)(;
 - (_Bool)t] Could not setFeatureReport
 ;
 

@@ -6,12 +6,11 @@
 
 #import <HomeKit/HMRequestBase.h>
 
-@class HMAccessoryProfile, NSString;
+@class HMAccessoryProfile;
 
 @interface HMAttributeRequest : HMRequestBase
 {
     HMAccessoryProfile *_accessoryProfile;
-    NSString *_attribute;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessoryProfile *accessoryProfile; // @synthesize accessoryProfile=_accessoryProfile;
-@property(readonly, nonatomic) NSString *attribute; // @synthesize attribute=_attribute;
 
 @end
 

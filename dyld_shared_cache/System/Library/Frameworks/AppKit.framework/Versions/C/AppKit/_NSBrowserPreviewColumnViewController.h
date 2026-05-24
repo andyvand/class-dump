@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (id);
+- (void)T) failed.;
+- (void)kSimultaneousCallAndDataSupported;
+- (void)DeviceSupportsGenerativeModelSystems;
+- (void)IBqcPacFMPIX8HMWob444A;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)7VTj7i4H15Huh52uDWc4Zw;
 - (void);
 - (id);
 - (id);
@@ -32,12 +32,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void).en;
 - (void);
 - (_Bool);
 - (double);
 - (void);
-- (void)umentMenu;
+- (void)isShowingDocumentMenu;
 - (void)È;
 - (void)roller system status notification checks;
 - (void)rolMinimumLeading;

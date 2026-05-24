@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionView, _UITypeSelectInteraction, _UITypeSelectResult;
-
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewTypeSelectController
 {
     CDStruct_c2cb4a46 _currentTypeSelectMetadata;
-    _UITypeSelectInteraction *_typeSelectInteraction;
-    _UITypeSelectResult *_typeSelectResult;
-    _Bool _shouldApplyTypeSelectResultToCell;
-    _Bool _enabled;
-    UICollectionView *_collectionView;
 }
 
 - (void);
 - (void);
+- (void)public}ld itemIdentifiers:(id)arg1 %s;
+- (CDStruct_c2cb4a46)ived fromID:(id)arg1 %@, ;
+- (id)ordRef rowid:(id)arg1 %lld, marking as clean ***;
+- (void)sion %d server client version %ld;
 - (void);
-- (CDStruct_c2cb4a46);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)(#;
 - (long long);
 - (void);
 - (void);
@@ -34,23 +27,14 @@ __attribute__((visibility("hidden")))
 - (id)QfÐ1Â0@ù
 × ;
 - (id);
-- (void)egroundColor;
+- (void)UIPasteControlConfigurationBaseForegroundColor;
 - (void)eground;
 - (void)ÿ;
 - (void)$];
 - (void)d;
 
 // Remaining properties
-@property(nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled, setter=setEnabled:) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long inputMethod;
-@property(readonly) Class superclass;
 
 @end
 

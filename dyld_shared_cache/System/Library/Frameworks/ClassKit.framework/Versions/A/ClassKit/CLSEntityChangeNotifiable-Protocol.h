@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol CLSEntityChangeNotifiable
+- (oneway void)ll present
+;
+- (oneway void):(NSSet *)arg1 ANE_ProgramUnprepare failed status=0x%x
+;
+- (oneway void)dle=%llx blocking=%d forceStop=%d;
 @end
 

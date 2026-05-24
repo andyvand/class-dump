@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CNContactListCountViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CNContactListCountFooterView
 {
     _Bool _shouldHideCountFooter;
-    long long _contactCount;
-    long long _duplicateCount;
-    long long _selectedCount;
-    NSObject<CNContactListCountViewDelegate> *_delegate;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)istering schema %@;
 - (void);
 - (void);
 - (id);
@@ -32,18 +25,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (long long);
-- (void);
-- (id);
-- (long long)ilable;
+- (void)unsignedLongLongValue;
+- (id)easePoolPageLayout;
+- (long long)_isFaceTimeAudioAvailable;
 - (void)_tableViewController;
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long contactCount; // @synthesize contactCount=_contactCount;
-@property(nonatomic) __weak NSObject<CNContactListCountViewDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long duplicateCount; // @synthesize duplicateCount=_duplicateCount;
-@property(nonatomic) long long selectedCount; // @synthesize selectedCount=_selectedCount;
-@property(nonatomic) _Bool shouldHideCountFooter; // @synthesize shouldHideCountFooter=_shouldHideCountFooter;
 
 @end
 

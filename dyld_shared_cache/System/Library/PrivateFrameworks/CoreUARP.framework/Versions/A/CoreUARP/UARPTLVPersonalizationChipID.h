@@ -14,12 +14,12 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)achment transfer guids to download for message guids:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)U;
+- (id)`;
+- (id)AMSStorageDatabaseSchema;
 - (unsigned int);
 
 // Remaining properties

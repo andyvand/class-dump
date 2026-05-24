@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCObserver
 {
     unsigned long long _token;
-    id _keepAliveObject;
-    CDUnknownBlockType _observerBlock;
 }
 
 - (void);
@@ -20,23 +16,14 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)gistrationConfiguration.uniqueIdentifierKey;
 - (unsigned long long);
 - (void);
 - (CDUnknownBlockType);
-- (id)portsSyncState;
+- (id)sportsSyncState;
 - (void)ry/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPaywallVisualSpecConfiguration.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id keepAliveObject; // @synthesize keepAliveObject=_keepAliveObject;
-@property(copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long token; // @synthesize token=_token;
 
 @end

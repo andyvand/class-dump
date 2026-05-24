@@ -7,7 +7,6 @@
 @interface StoreKit.TransactionReceiver
 {
     id continuation;
-    id logKey;
 }
 
 - (void);

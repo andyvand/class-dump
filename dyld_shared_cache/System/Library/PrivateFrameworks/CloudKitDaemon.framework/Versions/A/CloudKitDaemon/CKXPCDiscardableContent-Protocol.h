@@ -5,6 +5,7 @@
 //
 
 @protocol CKXPCDiscardableContent
-- (void)rror:forRecordWithID:withCode:format: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_possiblyWrapError:forRecordWithID:withCode:format: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSData, NSDate, NSString;
+@class NSString;
 
 @interface PPLocationNamedEntities
 {
     NSString *_locationName;
-    NSString *_streetAddress;
-    NSString *_city;
-    NSString *_stateOrProvince;
-    NSString *_postalCode;
-    NSString *_country;
-    NSString *_unstructuredLocationString;
-    double _score;
-    NSString *_documentId;
-    NSData *_mapItem;
-    CLLocation *_location;
-    NSDate *_date;
 }
 
 + (_Bool);
@@ -31,40 +20,29 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
+- (id)adjustEndCapParticleAlpha;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)setOperationQueue:(id)arg1;
 - (id);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void)¤;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *city; // @synthesize city=_city;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSString *documentId; // @synthesize documentId=_documentId;
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
 @property(retain, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
-@property(retain, nonatomic) NSData *mapItem; // @synthesize mapItem=_mapItem;
-@property(retain, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSString *stateOrProvince; // @synthesize stateOrProvince=_stateOrProvince;
-@property(retain, nonatomic) NSString *streetAddress; // @synthesize streetAddress=_streetAddress;
-@property(retain, nonatomic) NSString *unstructuredLocationString; // @synthesize unstructuredLocationString=_unstructuredLocationString;
 
 @end
 

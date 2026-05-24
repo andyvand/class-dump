@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface XCTAccessibilityFramework
 {
     _Bool _allowsRemoteAccess;
-    int _processID;
-    struct __AXUIElement *_systemWideElement;
 }
 
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -31,15 +27,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly) _Bool allowsRemoteAccess; // @synthesize allowsRemoteAccess=_allowsRemoteAccess;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) int processID; // @synthesize processID=_processID;
-@property(readonly) Class superclass;
 @property struct __AXUIElement *systemWideElement; // @synthesize systemWideElement=_systemWideElement;
 
 @end

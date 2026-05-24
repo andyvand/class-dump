@@ -11,18 +11,16 @@
 @interface IMFromSuperParserContext : IMAttributedStringParserContext
 {
     NSMutableArray *_inlinedFileTransferGUIDs;
-    NSMutableArray *_standaloneFileTransferGUIDs;
-    _Bool _foundBreadcrumbText;
 }
 
+- (id)J	;
 - (id);
-- (id);
+- (void)';
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)˚B;
 - (_Bool);
 - (void);
 - (void);
@@ -31,9 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool foundBreadcrumbText; // @synthesize foundBreadcrumbText=_foundBreadcrumbText;
 @property(readonly, retain, nonatomic) NSArray *inlinedFileTransferGUIDs; // @synthesize inlinedFileTransferGUIDs=_inlinedFileTransferGUIDs;
-@property(readonly, retain, nonatomic) NSArray *standaloneFileTransferGUIDs; // @synthesize standaloneFileTransferGUIDs=_standaloneFileTransferGUIDs;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSAsrCorrectionInfo : SISchemaInstrumentationMessage
 {
@@ -25,17 +25,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1 %lld, but no message found;
 - (id);
 - (id)!Ô@ùñÝ1Â0@ù
 × ;
-- (id)WakeWithSpeechNoMatchCount;
+- (id)_falseWakeWithSpeechNoMatchCount;
 - (id)@"RGSiriSchemaRGInferenceContext",&,N,V_inferenceContext;
 - (void)ion.items.value.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *asrHypothesesInfos; // @synthesize asrHypothesesInfos=_asrHypothesesInfos;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

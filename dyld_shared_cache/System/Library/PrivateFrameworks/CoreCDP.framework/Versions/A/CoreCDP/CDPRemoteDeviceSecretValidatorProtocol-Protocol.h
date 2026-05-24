@@ -5,6 +5,7 @@
 //
 
 @protocol CDPRemoteDeviceSecretValidatorProtocol
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long supportedEscapeOfferMask;

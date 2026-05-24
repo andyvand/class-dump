@@ -6,7 +6,7 @@
 
 #import <AppKit/NSCell.h>
 
-@class NSString, NSTextAttachment;
+@class NSTextAttachment;
 
 @interface NSTextAttachmentCell : NSCell
 {
@@ -25,32 +25,25 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)__auth_got;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)^B24;
+- (void)P4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (Class);
 - (id);
 
 // Remaining properties
 @property NSTextAttachment *attachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

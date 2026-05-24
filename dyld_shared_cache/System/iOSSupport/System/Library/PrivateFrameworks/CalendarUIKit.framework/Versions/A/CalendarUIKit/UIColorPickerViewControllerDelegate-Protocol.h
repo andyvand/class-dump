@@ -5,5 +5,10 @@
 //
 
 @protocol UIColorPickerViewControllerDelegate
+
+@optional
+- (void)BluetoothAccessorySettingsChanged;
+- (void)BluetoothAccessorySealValueStatusNotification;
+- (void)BluetoothHighPowerDisabled;
 @end
 

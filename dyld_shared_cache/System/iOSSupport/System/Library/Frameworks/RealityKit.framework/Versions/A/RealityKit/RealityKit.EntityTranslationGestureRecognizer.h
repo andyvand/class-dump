@@ -8,22 +8,15 @@
 {
     id entity;
     id startingWorldLocation;
-    id lastWorldLocation;
-    id touchHeight;
-    id velocity;
-    id lastTranslation;
-    id lastFrameTime;
-    id startingScreenLocation;
-    id lastScreenLocation;
-    id hasBegun;
 }
 
-- (void);
+- (void)
+;
 - (_Bool);
-- (id);
+- (id)@;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)pV;
 - (void);
 - (void);
 

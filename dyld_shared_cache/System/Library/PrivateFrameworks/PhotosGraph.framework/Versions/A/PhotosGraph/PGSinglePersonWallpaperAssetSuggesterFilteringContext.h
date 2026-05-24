@@ -7,22 +7,6 @@
 @interface PGSinglePersonWallpaperAssetSuggesterFilteringContext
 {
     _Bool _requiresSmile;
-    _Bool _requiresNoBlink;
-    _Bool _bypassCropScoreCheck;
-    _Bool _styleableFilter;
-    long long _orientation;
-    double _deviceAspectRatio;
-    double _timeIntervalForCandidateDeduping;
-    double _minimumFaceQuality;
-    double _faceQualityPenaltyCutOff;
-    double _minimumFaceSize;
-    double _maximumFaceSize;
-    double _maximumFaceRoll;
-    double _minimumWallpaperScore;
-    double _absoluteMinimumWallpaperScore;
-    double _minimumCropScore;
-    double _maximumLowLightScore;
-    double _maximumCropZoomRatio;
 }
 
 - (void);
@@ -30,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,47 +32,31 @@
 - (double);
 - (double);
 - (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (_Bool);
-- (double);
+- (id)setCurrentLineContent:(long long)arg1;
+- (id)setConfirmButtonVisible:(long long)arg1;
+- (id)setConfiguration:(_Bool)arg1;
+- (id)setAccessibilityActionName:(long long)arg1;
+- (id)self;
+- (id)screenManager:screensChanged: /* Error: Ran out of types for this method. */;
+- (id)screenManager:screensChanged: /* Error: Ran out of types for this method. */;
+- (double)_subtitleText;
+- (double)_applicationControllerForElement: /* Error: Ran out of types for this method. */;
+- (_Bool)"AXFTextRange",&,N,V_inputMarkingSessionRange;
+- (double)ACMContextCreateWithFlags;
+- (void)`;
 - (void);
-- (void);
 - (_Bool);
 - (double);
 - (_Bool);
 - (double);
-- (double);
+- (double)H;
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double absoluteMinimumWallpaperScore; // @synthesize absoluteMinimumWallpaperScore=_absoluteMinimumWallpaperScore;
-@property(nonatomic) _Bool bypassCropScoreCheck; // @synthesize bypassCropScoreCheck=_bypassCropScoreCheck;
-@property(readonly, nonatomic) double deviceAspectRatio; // @synthesize deviceAspectRatio=_deviceAspectRatio;
-@property(nonatomic) double faceQualityPenaltyCutOff; // @synthesize faceQualityPenaltyCutOff=_faceQualityPenaltyCutOff;
-@property(nonatomic) double maximumCropZoomRatio; // @synthesize maximumCropZoomRatio=_maximumCropZoomRatio;
-@property(nonatomic) double maximumFaceRoll; // @synthesize maximumFaceRoll=_maximumFaceRoll;
-@property(nonatomic) double maximumFaceSize; // @synthesize maximumFaceSize=_maximumFaceSize;
-@property(nonatomic) double maximumLowLightScore; // @synthesize maximumLowLightScore=_maximumLowLightScore;
-@property(nonatomic) double minimumCropScore; // @synthesize minimumCropScore=_minimumCropScore;
-@property(nonatomic) double minimumFaceQuality; // @synthesize minimumFaceQuality=_minimumFaceQuality;
-@property(nonatomic) double minimumFaceSize; // @synthesize minimumFaceSize=_minimumFaceSize;
-@property(nonatomic) double minimumWallpaperScore; // @synthesize minimumWallpaperScore=_minimumWallpaperScore;
 @property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) _Bool requiresNoBlink; // @synthesize requiresNoBlink=_requiresNoBlink;
-@property(nonatomic) _Bool requiresSmile; // @synthesize requiresSmile=_requiresSmile;
-@property(nonatomic) _Bool styleableFilter; // @synthesize styleableFilter=_styleableFilter;
-@property(nonatomic) double timeIntervalForCandidateDeduping; // @synthesize timeIntervalForCandidateDeduping=_timeIntervalForCandidateDeduping;
 
 @end
 

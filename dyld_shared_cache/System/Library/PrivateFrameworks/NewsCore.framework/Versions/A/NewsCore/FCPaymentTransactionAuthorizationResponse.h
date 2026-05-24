@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAuthKitAuthorizationCredential, NSError;
+@class FCAuthKitAuthorizationCredential;
 
 @interface FCPaymentTransactionAuthorizationResponse
 {
     FCAuthKitAuthorizationCredential *_credential;
-    NSError *_accountSignupError;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)d array with two number arguments on right hand side:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *accountSignupError; // @synthesize accountSignupError=_accountSignupError;
 @property(readonly, nonatomic) FCAuthKitAuthorizationCredential *credential; // @synthesize credential=_credential;
 
 @end

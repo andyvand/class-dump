@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSScriptClassDescription, NSString;
-
 @interface NSScriptObjectSpecifier
 {
     NSScriptObjectSpecifier *_container;
-    NSScriptObjectSpecifier *_child;
-    NSString *_key;
-    NSScriptClassDescription *_containerClassDescription;
-    _Bool _containerIsObjectBeingTested;
-    _Bool _containerIsRangeContainerObject;
-    char _padding[2];
-    NSAppleEventDescriptor *_descriptor;
-    long long _error;
 }
 
 + (id);
@@ -27,7 +17,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +32,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -57,7 +47,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)x;
 - (_Bool);
 - (id);
 - (id);
@@ -70,26 +60,16 @@
 - (id);
 - (void);
 - (id);
+- (id)__AUTH_CONST;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id)4@$) ;
 - (void);
 
 // Remaining properties
 @property NSScriptObjectSpecifier *childSpecifier;
-@property(retain) NSScriptClassDescription *containerClassDescription;
-@property _Bool containerIsObjectBeingTested;
-@property _Bool containerIsRangeContainerObject;
-@property(retain) NSScriptObjectSpecifier *containerSpecifier;
-@property(readonly, copy) NSAppleEventDescriptor *descriptor;
-@property long long evaluationErrorNumber;
-@property(readonly, retain) NSScriptObjectSpecifier *evaluationErrorSpecifier;
-@property(copy) NSString *key;
-@property(readonly, retain) NSScriptClassDescription *keyClassDescription;
-@property(readonly, retain) id objectsByEvaluatingSpecifier;
 
 @end
 

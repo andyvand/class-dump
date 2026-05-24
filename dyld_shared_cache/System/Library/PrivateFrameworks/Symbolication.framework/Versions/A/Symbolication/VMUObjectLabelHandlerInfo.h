@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface VMUObjectLabelHandlerInfo
 {
     NSString *_className;
-    Class _localClass;
-    SEL _handlerSelector;
 }
 
-- (void);
+- (void)setCommunicationLimitsDelegate: /* Error: Ran out of types for this method. */;
 
 @end
 

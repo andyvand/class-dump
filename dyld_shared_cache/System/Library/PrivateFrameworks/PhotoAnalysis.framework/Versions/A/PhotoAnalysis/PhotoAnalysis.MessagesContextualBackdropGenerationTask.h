@@ -7,22 +7,6 @@
 @interface PhotoAnalysis.MessagesContextualBackdropGenerationTask
 {
     id worker;
-    id periodicity;
-    id name;
-    id identifier;
-    id version;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id taskProductivityReporter;
-    id syndicationLibrary;
-    id wallpaperSuggestionPreparationSession;
-    id numberOfSuggestionsCreated;
-    id numberOfPreviouslyCachedDescriptors;
-    id numberOfNewlyPreparedDescriptors;
-    id numberOfDescriptorsProcessed;
-    id numberOfInvalidDescriptorsDeleted;
-    id suggestionOptionsDict;
 }
 
 @end

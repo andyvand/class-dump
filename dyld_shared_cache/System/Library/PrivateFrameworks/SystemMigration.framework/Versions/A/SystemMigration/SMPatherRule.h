@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface SMPatherRule
 {
     long long _ruleID;
-    long long _context;
-    long long _type;
-    NSURL *_path;
 }
 
 + (id);
@@ -20,17 +15,14 @@
 - (long long);
 - (id);
 - (long long);
-- (long long);
+- (long long)resetAllAutoSettingsToPending;
 - (long long);
 - (id);
 - (void)Ñ	°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSURL *path; // @synthesize path=_path;
 @property(readonly, nonatomic) long long ruleID; // @synthesize ruleID=_ruleID;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

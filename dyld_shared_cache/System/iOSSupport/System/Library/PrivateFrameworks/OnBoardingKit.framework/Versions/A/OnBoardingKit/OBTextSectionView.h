@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface OBTextSectionView
 {
     UILabel *_headerLabel;
-    UILabel *_contentLabel;
 }
 
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *contentLabel; // @synthesize contentLabel=_contentLabel;
 @property(retain, nonatomic) UILabel *headerLabel; // @synthesize headerLabel=_headerLabel;
 
 @end

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGraphicsRendererFormat;
-
 @interface UIGraphicsRendererContext
 {
     struct CGContext *_backingContext;
-    UIGraphicsRendererFormat *_format;
-    _Bool ___createsImages;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)experimentIdentifiersWithNamespaceName:(_Bool)arg1;
+- (void)initWithDictionary:(struct CGRect)arg1;
 - (struct CGContext *);
 - (void)@ù
 × ;
-- (id)ent;
-- (void);
+- (id)wantsExtendedDynamicRangeContent;
+- (void)_UIClickPresentation;
 - (void)tateNone;
 - (id)-[UIPopoverController initWithContentViewController:] called when not running under UIUserInterfaceIdiomPad. /* Error: Ran out of types for this method. */;
 - (void)-,;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGContext *CGContext;
 @property(nonatomic) _Bool __createsImages; // @synthesize __createsImages=___createsImages;
-@property(readonly, nonatomic) UIGraphicsRendererFormat *format; // @synthesize format=_format;
 
 @end
 

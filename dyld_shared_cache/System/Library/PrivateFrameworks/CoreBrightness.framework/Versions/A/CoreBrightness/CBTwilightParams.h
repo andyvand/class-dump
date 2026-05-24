@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CBTwilightNightShiftAdaptationParams *_nightShiftAdaptation;
 }
 
-- (id);
+- (id)z;
 - (id);
 
 // Remaining properties

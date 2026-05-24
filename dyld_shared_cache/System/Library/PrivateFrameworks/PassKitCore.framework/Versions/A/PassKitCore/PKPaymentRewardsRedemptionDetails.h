@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaymentRewardsRedemptionTransactionDetails, PKPaymentRewardsRedemptionUnit;
+@class PKPaymentRewardsRedemptionUnit;
 
 @interface PKPaymentRewardsRedemptionDetails
 {
     PKPaymentRewardsRedemptionUnit *_intended;
-    PKPaymentRewardsRedemptionUnit *_redeemed;
-    PKPaymentRewardsRedemptionTransactionDetails *_originalTransaction;
 }
 
 + (_Bool)qî%Ð1Â0@ù
 × ;
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -25,17 +23,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setWepNetsCount:(id)arg1;
+- (void)ageSendCount;
 - (id);
 - (id);
-- (id)pressPassesInformation;
+- (id)expressPassesInformation;
 - (void)h;
 
 // Remaining properties
 @property(copy, nonatomic) PKPaymentRewardsRedemptionUnit *intended; // @synthesize intended=_intended;
-@property(copy, nonatomic) PKPaymentRewardsRedemptionTransactionDetails *originalTransaction; // @synthesize originalTransaction=_originalTransaction;
-@property(copy, nonatomic) PKPaymentRewardsRedemptionUnit *redeemed; // @synthesize redeemed=_redeemed;
 
 @end
 

@@ -4,72 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSArray, NSMutableArray, NSRunLoop;
-@protocol NSAnimationDelegate;
-
 @interface NSAnimation
 {
     double _duration;
-    float _currentProgress;
-    float _framesPerSecond;
-    id <NSAnimationDelegate> _delegate;
-    CADisplayLink *_displayLink;
-    double _startTime;
-    NSMutableArray *_progressMarks;
-    NSAnimation *_startAnimation;
-    float _startProgressTrigger;
-    NSAnimation *_stopAnimation;
-    float _stopProgressTrigger;
-    NSRunLoop *_scheduledRunLoop;
-    CDUnknownBlockType _progressHandler;
-    int _nextProgressMark;
-    struct {
-        unsigned int delegateAnimationShouldStart:1;
-        unsigned int delegateAnimationDidStop:1;
-        unsigned int delegateAnimationDidEnd:1;
-        unsigned int delegateAnimationValueForProgress:1;
-        unsigned int delegateAnimationDidReachProgressMark:1;
-        unsigned int animating:1;
-        unsigned int blocking:1;
-        unsigned int sendProgressAllTheTime:1;
-        unsigned int animationCurve:8;
-        unsigned int animationBlockingMode:2;
-        unsigned int :14;
-    } _aFlags;
 }
 
 + (void)\øÿ TXüH;
 - (void);
 - (void);
 - (void);
+- (void)cTrust=}16;
+- (void)setCompletionBlock:(unsigned long long)arg1;
+- (void)setClasses:(unsigned long long)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (id)backgroundAVAssetDownloadTask:willDownloadVariants:reply: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_markConnectionsReusedAfterAPSleepWake;
+- (id)_URLSession:downloadTask:didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (void);
+- (void);
+- (unsigned long long)lable;
+- (void)ct<OS_dispatch_data>"24B32{?=qi}36;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)1;
 - (double);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -79,13 +50,13 @@
 - (double);
 - (void);
 - (id);
-- (float);
+- (float)ildrenList}}}"fCustomNode"^v"fNotifierList"{unique_ptr<TNotifierList, std::default_delete<TNotifierList>>=""{?="__ptr_"^{TNotifierList}}}"fOpenSyncSignpost"{unique_ptr<AutoSignpostInterval_General_OpenSync, std::default_delete<AutoSignpostInterval_General_OpenSync>>=""{?="__ptr_"^{AutoSignpostInterval_General_OpenSync}}}"fFlags"{atomic<unsigned short>="__a_"{__cxx_atomic_impl<unsigned short, std::__cxx_atomic_base_impl<unsigned short>>="__a_value"AS}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void)tedString"16;
 - (float)6@"CKShareMetadata"24;
-- (id)TrackingStarted;
+- (id)_didLeaveOriginalItemSinceTrackingStarted;
 - (_Bool)¬;
 - (unsigned long long)¼;
 - (void)ellchecker.input-context-history;
@@ -95,16 +66,6 @@
 
 // Remaining properties
 @property(getter=_progressHandler, setter=_setProgressHandler:) CDUnknownBlockType _progressHandler;
-@property(readonly, getter=isAnimating) _Bool animating;
-@property unsigned long long animationBlockingMode;
-@property unsigned long long animationCurve;
-@property float currentProgress;
-@property(readonly) float currentValue;
-@property __weak id <NSAnimationDelegate> delegate;
-@property double duration;
-@property float frameRate;
-@property(copy) NSArray *progressMarks;
-@property(readonly, copy) NSArray *runLoopModesForAnimating;
 
 @end
 

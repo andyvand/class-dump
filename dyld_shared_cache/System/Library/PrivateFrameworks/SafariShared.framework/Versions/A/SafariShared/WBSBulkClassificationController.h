@@ -11,7 +11,6 @@
 @interface WBSBulkClassificationController : WBSAutoFillTestController
 {
     NSURL *_inputFileURL;
-    NSURL *_scratchFileURL;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *inputFileURL; // @synthesize inputFileURL=_inputFileURL;
-@property(readonly, nonatomic) NSURL *scratchFileURL; // @synthesize scratchFileURL=_scratchFileURL;
 
 @end
 

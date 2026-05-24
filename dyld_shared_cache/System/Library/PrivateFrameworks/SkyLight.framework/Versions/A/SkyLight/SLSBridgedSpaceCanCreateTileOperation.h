@@ -9,20 +9,20 @@
 @interface SLSBridgedSpaceCanCreateTileOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    struct CGSize _minSize;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
++ (_Bool)';
+- (id)more columns to query record metadata for missing rows;
+- (id)nection %p adopting snapshot:ss value:%@
+	pointer value:%@
+	pointer:%p /* Error: Ran out of types for this method. */;
+- (id)(%@) is not supported with NSBatchInsertRequest;
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly) struct CGSize minSize; // @synthesize minSize=_minSize;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

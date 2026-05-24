@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCoreDataCoreSpotlightDelegate, NSDictionary, NSPersistentStoreCoordinator, NSString, NSURL, _PFModelMap;
+@class NSPersistentStoreCoordinator;
 
 @interface NSPersistentStore
 {
     _Atomic id _coordinator;
-    NSString *_configurationName;
-    NSURL *_url;
-    NSDictionary *_options;
-    _Atomic id *_oidFactories;
-    id _defaultFaultHandler;
-    struct _objectStoreFlags {
-        unsigned int _isReadOnly:1;
-        unsigned int _RESERVED:7;
-    } _flags;
-    _Atomic _Bool _isMetadataDirty;
-    _Atomic _Bool _cleanOnRemove;
-    void *_temporaryIDClass;
-    id _coreSpotlightDelegate;
-    id _managedObjectModel;
-    _Atomic struct __CFSet *_entitiesInConfiguration;
-    _PFModelMap *_modelMap;
 }
 
 + (_Bool);
@@ -36,21 +20,13 @@
 ;
 + (void)waiting_for_cloudkit_activity_to_finish];
 + (Class)anges to Spotlight import tracking, %@;
-+ (_Bool)ding;
++ (_Bool)ascending;
 + (id));
 + (Class);
 + (_Bool)©;
 
 // Remaining properties
-@property(retain) NSURL *URL;
-@property(readonly, copy) NSString *configurationName;
-@property(readonly, nonatomic) NSCoreDataCoreSpotlightDelegate *coreSpotlightExporter;
-@property(copy) NSString *identifier;
-@property(retain, nonatomic) NSDictionary *metadata;
-@property(readonly) NSDictionary *options;
 @property(readonly, nonatomic) __weak NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property(getter=isReadOnly) _Bool readOnly;
-@property(readonly, copy) NSString *type;
 
 @end
 

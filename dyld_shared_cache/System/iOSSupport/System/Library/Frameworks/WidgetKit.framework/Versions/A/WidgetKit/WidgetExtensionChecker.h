@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)accessibilityElementsWithPlugin: /* Error: Ran out of types for this method. */;
 
 @end
 

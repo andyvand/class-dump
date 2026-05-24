@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSString;
+@class NSArray;
 
 @interface CRTableStructureRecognizerResultProgram
 {
     NSArray *_programTokens;
-    NSString *_programString;
-    CRNormalizedQuad *_tableQuad;
-    vector_daac2569 _programTokenIdxs;
 }
 
 - (id);
@@ -20,16 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (vector_daac2569);
+- (vector_5ed94be2);
 - (id);
-- (id);
+- (id)bilityManagerClass(void)_block_invoke;
 - (void)CVBuffer=}16i24;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *programString; // @synthesize programString=_programString;
-@property(nonatomic) vector_daac2569 programTokenIdxs; // @synthesize programTokenIdxs=_programTokenIdxs;
-@property(retain, nonatomic) NSArray *programTokens; // @synthesize programTokens=_programTokens;
-@property(retain, nonatomic) CRNormalizedQuad *tableQuad; // @synthesize tableQuad=_tableQuad;
+@property(nonatomic) vector_5ed94be2 programTokenIdxs; // @synthesize programTokenIdxs=_programTokenIdxs;
 
 @end
 

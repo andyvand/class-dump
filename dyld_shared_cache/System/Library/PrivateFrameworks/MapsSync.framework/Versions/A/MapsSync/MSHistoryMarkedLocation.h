@@ -6,16 +6,11 @@
 
 #import <MapsSync/MSHistoryItem.h>
 
-@class GEOMapItemStorage, NSNumber, NSString;
+@class NSString;
 
 @interface MSHistoryMarkedLocation : MSHistoryItem
 {
     id _customName;
-    id _floorOrdinal;
-    id _latitude;
-    id _longitude;
-    id _mapItemStorage;
-    id _muid;
 }
 
 + (Class);
@@ -27,11 +22,11 @@
 - (int);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tingVC.m:(id)arg1 %d:reportingModeRoleTransportLog:error code %d. /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -39,11 +34,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *customName;
-@property(nonatomic) int floorOrdinal;
-@property(nonatomic, retain) NSNumber *latitude;
-@property(nonatomic, retain) NSNumber *longitude;
-@property(nonatomic, retain) GEOMapItemStorage *mapItemStorage;
-@property(nonatomic, retain) NSNumber *muid;
 
 @end
 

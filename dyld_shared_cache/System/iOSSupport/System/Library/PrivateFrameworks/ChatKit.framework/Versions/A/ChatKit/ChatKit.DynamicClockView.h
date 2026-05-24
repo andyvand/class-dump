@@ -7,17 +7,13 @@
 @interface ChatKit.DynamicClockView
 {
     id originalSize;
-    id package;
-    id currentDate;
-    id behavior;
-    id packageLayer;
 }
 
-- (struct CGSize);
+- (struct CGSize)@;
 - (id);
 - (void);
 - (id);
-- (void)ndHoldingChatItemsUpdatesForReason: /* Error: Ran out of types for this method. */;
+- (void)endHoldingChatItemsUpdatesForReason: /* Error: Ran out of types for this method. */;
 - (void)ÖÚ;
 
 @end

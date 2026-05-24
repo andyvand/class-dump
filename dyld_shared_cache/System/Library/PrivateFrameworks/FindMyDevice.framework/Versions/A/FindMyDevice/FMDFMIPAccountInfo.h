@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface FMDFMIPAccountInfo
 {
     NSString *_username;
-    NSString *_dsid;
-    NSString *_oneTimeRemoveAuthToken;
-    NSURL *_serverURL;
 }
 
-+ (_Bool);
++ (_Bool)P;
+- (void)16@20;
+- (id)=d{CGPoint=dd}ddddddddd}16;
+- (id)gin_"^{_PKStrokePoint}"__end_"^{_PKStrokePoint}""{?="__cap_"^{_PKStrokePoint}}};
 - (void);
+- (id)onDelegate>",W,D,N;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)ReplicaManager that is marked non-persistable;
 - (id);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(copy, nonatomic) NSString *oneTimeRemoveAuthToken; // @synthesize oneTimeRemoveAuthToken=_oneTimeRemoveAuthToken;
-@property(copy) NSURL *serverURL; // @synthesize serverURL=_serverURL;
 @property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

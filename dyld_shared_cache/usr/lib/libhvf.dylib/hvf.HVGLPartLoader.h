@@ -7,6 +7,7 @@
 @interface hvf.HVGLPartLoader
 {
     id loader;
+    id;
 }
 
 @end

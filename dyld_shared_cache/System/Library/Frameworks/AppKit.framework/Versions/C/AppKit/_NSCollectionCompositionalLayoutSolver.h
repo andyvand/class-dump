@@ -4,56 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableDictionary, NSObject, NSString, _NSCollectionCompositionalLayoutSolverOptions, _NSCollectionLayoutAuxiliaryItemSolver, _NSCollectionLayoutSectionGeometryTranslator, _NSCollectionPreferredSizes, _NSDataSourceSnapshotter, _NSRTree;
-@protocol NSCollectionLayoutContainer;
+@class _NSCollectionCompositionalLayoutSolverOptions;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionCompositionalLayoutSolver
 {
     _Bool _estimatesSizes;
-    _Bool _hasOrthogonalScrollingSections;
-    _Bool _roundsToScreenScale;
-    _Bool _layoutRTL;
-    int _layoutAxis;
-    NSMutableDictionary *_preparedContentRectsBySectionIndex;
-    id <NSCollectionLayoutContainer> _container;
-    NSObject *_traitCollection;
-    _NSDataSourceSnapshotter *_dataSourceSnapshot;
-    double _interSectionSpacing;
-    NSIndexSet *_orthogonalScrollingSectionIndexes;
-    _NSCollectionCompositionalLayoutSolverOptions *_options;
-    Class _layoutAttributeClass;
-    Class _invalidationContextClass;
-    CDUnknownBlockType _invalidationHandler;
-    double _memoizedScreenScale;
-    CDUnknownBlockType _sectionProvider;
-    NSIndexSet *_solutionBookmarkIndexesWithPinnedSupplementaryItems;
-    NSArray *_solutionBookmarks;
-    _NSRTree *_sectionIndexer;
-    _NSCollectionLayoutSectionGeometryTranslator *_sectionGeometryTranslator;
-    NSMutableDictionary *_cachedItemAttributes;
-    NSMutableDictionary *_cachedSupplementaryAttributes;
-    NSMutableDictionary *_cachedDecorationAttributes;
-    NSArray *_globalSupplementaryItems;
-    _NSCollectionLayoutAuxiliaryItemSolver *_globalSupplementarySolver;
-    _NSCollectionPreferredSizes *_globalSupplementaryPreferredSizes;
-    long long _numberOfSectionsWithTransformVisibleItemsHandler;
-    struct CGSize _actualContentSize;
 }
 
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (struct CGVector);
+- (void)iled to parse certificate property;
+- (void)ary;
+- (struct CGVector)DUFPWHbX/Ie9RSI0yDQ;
 - (id);
 - (id);
 - (id);
 - (double);
 - (_Bool);
-- (double);
+- (double)6;
 - (long long);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (struct NSDirectionalEdgeInsets);
 - (struct CGRect);
@@ -64,37 +35,37 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (void);
+- (void)ocator}i};
+- (struct CGRect)_undeterminedUploadProgressState;
+- (void)URLSession:(id)arg1 task:(id)arg2 _willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (struct CGPoint);
 - (struct CGRect);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ServerConnection::responseCompleted /* Error: Ran out of types for this method. */;
+- (id).CT(%{public}@);
+- (struct CGRect)T(%p) W.C(%p) W.CT(%{public}@), fW(%p) fW.C(%p) fW.CT(%{public}@);
+- (struct CGPoint)T.K(%p) T.T(%d), W(%p [%ld/%ld]) W.K(%p) W.T(%p) W.C(%p) W.CT(%{public}@), fW(%p) fW.C(%p) fW.CT(%{public}@);
+- (struct CGSize)groundSession <%{public}@> attempting to reconnect to background transfer daemon;
+- (double)forcing strict auth scheme matching;
 - (struct CGRect);
-- (struct CGPoint);
-- (struct CGSize);
-- (double);
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)sk %@;
 - (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize).;
+- (struct CGSize)<`;
+- (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (long long);
 - (id);
 - (void);
@@ -102,13 +73,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)#;
 - (void);
 - (id);
+- (void);
 - (id);
-- (_Bool);
+- (id);
+- (_Bool)Internal/Library/BuildRoots/4~COGNugA8ulxosmbraYpVmwHes1fpZRq7AfjNN1Q/Library/Caches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/ssl/ssl_transcript.cc;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -117,7 +88,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (struct CGPoint);
-- (struct CGSize);
+- (struct CGSize)c:%@
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -126,17 +98,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (Class);
-- (id);
+- (_Bool)�;
+- (Class)a;
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -145,13 +117,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (void);
-- (id);
+- (void)_preferredFontForTextStyle:(_Bool)arg1 design:weight:symbolicTraits:maximumContentSizeCategory:compatibleWithTraitCollection:pointSize:pointSizeForScaling: /* Error: Ran out of types for this method. */;
+- (_Bool)_consistencyCheck: /* Error: Ran out of types for this method. */;
+- (struct CGRect)e;
+- (void)e in inconsistent state, there might be layout issues such as garbled text or incorrect glyph spacings;
+- (id)ConvertGlyphsToPackedGlyphs detected a request for glyph packing %d other than NSNativeShortGlyphPacking.  These non-native glyph packings are now deprecated.  Ignoring...;
 - (void);
 - (void);
 - (void);
@@ -172,14 +144,14 @@ __attribute__((visibility("hidden")))
 - (void)40^Q48;
 - (void)"b1"tabKeyTraversesCellsExplicitlySet"b1"tabKeyTraversesCells"b1"drawingAncestor"b1"autosizeCells"b1"drawsBackground"b1"drawsCellBackground"b1"selectionByRect"b1"autoscroll"b1"allowEmptySel"b1"listMode"b1"radioMode"b1"highlightMode"b1};
 - (id)utton";
-- (_Bool)eTypes;
-- (double)ctor: /* Error: Ran out of types for this method. */;
-- (void)tes: /* Error: Ran out of types for this method. */;
-- (id)ToHomeMonthButtonCell;
-- (void)onForPicker:(id)arg1;
-- (void)dth;
-- (void)bonNotification;
-- (double)ty;
+- (_Bool)writableTypes;
+- (double)setHorizontalScrollDecelerationFactor: /* Error: Ran out of types for this method. */;
+- (void)_setCachedDecorationAttributesForElementKind:indexPath:attributes: /* Error: Ran out of types for this method. */;
+- (id)_returnToHomeMonthButtonCell;
+- (void)_performActionForPicker:(id)arg1;
+- (void)_minPanelWidth;
+- (void)_carbonNotification;
+- (double)tripletCapacity;
 - (id);
 - (id)rvedA;
 - (id)(££4¤¤¥|¥Ü¥T¦è¦;
@@ -195,11 +167,11 @@ __attribute__((visibility("hidden")))
 - (void)pecify any openable types. Specify at least one UTI in the application's Info.plist.;
 - (_Bool)n failed with error:(long long)arg1 %{private}@;
 - (struct CGPoint)(ýÿº(ýÿt&ýÿ;
-- (void)rStyleDidChangeNotification;
-- (void)Object;
+- (void)NSPreferredScrollerStyleDidChangeNotification;
+- (void)sectionObject;
 - (id)is already a submenu of some menu.;
 - (void)xtension:] not implemented /* Error: Ran out of types for this method. */;
-- (void)ghtToLeftWritingDirection;
+- (void)NSForceRightToLeftWritingDirection;
 - (id)ÔYdQ8h°
 ;
 - (void)P$ÿhÄ$ÿ5hÀ$ÿ5h¼$ÿh¸$ÿh$ÿ%h$ÿ%h;
@@ -211,46 +183,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(nonatomic) struct CGSize actualContentSize; // @synthesize actualContentSize=_actualContentSize;
-@property(retain, nonatomic) NSMutableDictionary *cachedDecorationAttributes; // @synthesize cachedDecorationAttributes=_cachedDecorationAttributes;
-@property(retain, nonatomic) NSMutableDictionary *cachedItemAttributes; // @synthesize cachedItemAttributes=_cachedItemAttributes;
-@property(retain, nonatomic) NSMutableDictionary *cachedSupplementaryAttributes; // @synthesize cachedSupplementaryAttributes=_cachedSupplementaryAttributes;
-@property(retain, nonatomic) id <NSCollectionLayoutContainer> container; // @synthesize container=_container;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(retain, nonatomic) _NSDataSourceSnapshotter *dataSourceSnapshot; // @synthesize dataSourceSnapshot=_dataSourceSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool estimatesSizes; // @synthesize estimatesSizes=_estimatesSizes;
-@property(retain, nonatomic) NSArray *globalSupplementaryItems; // @synthesize globalSupplementaryItems=_globalSupplementaryItems;
-@property(retain, nonatomic) _NSCollectionPreferredSizes *globalSupplementaryPreferredSizes; // @synthesize globalSupplementaryPreferredSizes=_globalSupplementaryPreferredSizes;
-@property(retain, nonatomic) _NSCollectionLayoutAuxiliaryItemSolver *globalSupplementarySolver; // @synthesize globalSupplementarySolver=_globalSupplementarySolver;
-@property(nonatomic) _Bool hasOrthogonalScrollingSections; // @synthesize hasOrthogonalScrollingSections=_hasOrthogonalScrollingSections;
-@property(readonly, nonatomic) _Bool hasPinnedSupplementaryItems;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double interSectionSpacing; // @synthesize interSectionSpacing=_interSectionSpacing;
-@property(retain, nonatomic) Class invalidationContextClass; // @synthesize invalidationContextClass=_invalidationContextClass;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) Class layoutAttributeClass; // @synthesize layoutAttributeClass=_layoutAttributeClass;
-@property(readonly, nonatomic) NSArray *layoutAttributesForPinnedSupplementaryItems;
-@property(nonatomic) int layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(nonatomic) double memoizedScreenScale; // @synthesize memoizedScreenScale=_memoizedScreenScale;
-@property(nonatomic) long long numberOfSectionsWithTransformVisibleItemsHandler; // @synthesize numberOfSectionsWithTransformVisibleItemsHandler=_numberOfSectionsWithTransformVisibleItemsHandler;
 @property(retain, nonatomic) _NSCollectionCompositionalLayoutSolverOptions *options; // @synthesize options=_options;
-@property(retain, nonatomic) NSIndexSet *orthogonalScrollingSectionIndexes; // @synthesize orthogonalScrollingSectionIndexes=_orthogonalScrollingSectionIndexes;
-@property(retain, nonatomic) NSMutableDictionary *preparedContentRectsBySectionIndex; // @synthesize preparedContentRectsBySectionIndex=_preparedContentRectsBySectionIndex;
-@property(nonatomic) _Bool roundsToScreenScale; // @synthesize roundsToScreenScale=_roundsToScreenScale;
-@property(retain, nonatomic) _NSCollectionLayoutSectionGeometryTranslator *sectionGeometryTranslator; // @synthesize sectionGeometryTranslator=_sectionGeometryTranslator;
-@property(retain, nonatomic) _NSRTree *sectionIndexer; // @synthesize sectionIndexer=_sectionIndexer;
-@property(copy, nonatomic) CDUnknownBlockType sectionProvider; // @synthesize sectionProvider=_sectionProvider;
-@property(readonly, nonatomic) _Bool shouldTransformVisibleItemsDuringContentOffsetChanges;
-@property(retain, nonatomic) NSIndexSet *solutionBookmarkIndexesWithPinnedSupplementaryItems; // @synthesize solutionBookmarkIndexesWithPinnedSupplementaryItems=_solutionBookmarkIndexesWithPinnedSupplementaryItems;
-@property(retain, nonatomic) NSArray *solutionBookmarks; // @synthesize solutionBookmarks=_solutionBookmarks;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

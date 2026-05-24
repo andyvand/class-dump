@@ -6,17 +6,11 @@
 
 #import <HomeKit/HMTrigger.h>
 
-@class HMTriggerPolicy, NSArray, NSCalendar, NSDate, NSDateComponents, NSString, NSTimeZone;
+@class NSArray, NSDate;
 
 @interface HMTimerTrigger : HMTrigger
 {
     NSArray *_recurrences;
-    NSString *_significantEvent;
-    NSDateComponents *_significantEventOffset;
-    NSDate *_fireDate;
-    NSTimeZone *_timeZone;
-    NSDateComponents *_recurrence;
-    NSCalendar *_recurrenceCalendar;
 }
 
 + (_Bool);
@@ -35,52 +29,34 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)};
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)s;
+- (void)HMProtoAccessoryCapabilities;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actionSets;
-@property(readonly, copy, nonatomic) NSString *configuredName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
 @property(copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) HMTriggerPolicy *policy;
-@property(copy, nonatomic) NSDateComponents *recurrence; // @synthesize recurrence=_recurrence;
-@property(readonly, copy, nonatomic) NSCalendar *recurrenceCalendar; // @synthesize recurrenceCalendar=_recurrenceCalendar;
-@property(readonly, copy, nonatomic) NSArray *recurrences; // @synthesize recurrences=_recurrences;
-@property(readonly, copy, nonatomic) NSString *significantEvent; // @synthesize significantEvent=_significantEvent;
-@property(readonly, copy, nonatomic) NSDateComponents *significantEventOffset; // @synthesize significantEventOffset=_significantEventOffset;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

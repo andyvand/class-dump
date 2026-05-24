@@ -7,9 +7,6 @@
 @interface CoreML.MetalBufferStorage
 {
     id buffer;
-    id asyncEvent;
-    id descriptor;
-    id deallocator;
 }
 
 @end

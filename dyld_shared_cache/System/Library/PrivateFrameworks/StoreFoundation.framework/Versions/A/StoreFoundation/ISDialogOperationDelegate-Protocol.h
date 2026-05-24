@@ -5,5 +5,8 @@
 //
 
 @protocol ISDialogOperationDelegate
+
+@optional
+- (_Bool)!;
 @end
 

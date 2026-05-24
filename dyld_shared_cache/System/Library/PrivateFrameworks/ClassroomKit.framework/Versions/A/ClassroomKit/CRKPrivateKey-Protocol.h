@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol CRKPrivateKey
+- (struct __SecKey *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *dataRepresentation;
-@property(readonly, nonatomic) struct __SecKey *underlyingPrivateKey;
 @end
 

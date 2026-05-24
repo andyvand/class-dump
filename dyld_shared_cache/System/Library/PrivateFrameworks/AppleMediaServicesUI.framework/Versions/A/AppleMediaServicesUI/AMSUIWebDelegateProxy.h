@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)/;
+- (void)initWithHome:(id)arg1 setupSessionIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)on"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32;

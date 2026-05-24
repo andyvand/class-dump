@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)aForShare:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)LABLE_TRANSIT;
+- (void)batteryChargeLevel;
+- (id)carKeyGetPretrackShareDataForShare:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)PASS_ACTION_UNAVAILABLE_REASON_NO_SPECIFIC_PAYMENT_CARD_AVAILABLE_TRANSIT;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *technologyTypes; // @synthesize technologyTypes=_technologyTypes;

@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray, NSString;
+@class NSString;
 @protocol MTVisualStyleSetProviding;
 
 @interface MTCoreMaterialVisualStylingProvider
 {
     id <MTVisualStyleSetProviding> _visualStyleSet;
-    NSPointerArray *_observers;
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (_Bool)4ub;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)cdpiCloudPrefRecoveryKeyController;
+- (void);
+- (void)T;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, getter=_observers) NSPointerArray *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic, getter=_visualStyleSet, setter=_setVisualStyleSet:) id <MTVisualStyleSetProviding> visualStyleSet; // @synthesize visualStyleSet=_visualStyleSet;
 @property(readonly, copy, nonatomic) NSString *visualStyleSetName;
 
 @end

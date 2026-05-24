@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMDeviceLostModeDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadEnable;
-    NSString *_payloadMessage;
-    NSString *_payloadPhoneNumber;
-    NSString *_payloadFootnote;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,25 +30,15 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_;
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)ch;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadEnable; // @synthesize payloadEnable=_payloadEnable;
-@property(copy, nonatomic) NSString *payloadFootnote; // @synthesize payloadFootnote=_payloadFootnote;
-@property(copy, nonatomic) NSString *payloadMessage; // @synthesize payloadMessage=_payloadMessage;
-@property(copy, nonatomic) NSString *payloadPhoneNumber; // @synthesize payloadPhoneNumber=_payloadPhoneNumber;
-@property(readonly) Class superclass;
 
 @end
 

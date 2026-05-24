@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.TracingFeatureAbilitySource
 {
     id label;
-    id tracedSource;
-    id log;
 }
 
 @end

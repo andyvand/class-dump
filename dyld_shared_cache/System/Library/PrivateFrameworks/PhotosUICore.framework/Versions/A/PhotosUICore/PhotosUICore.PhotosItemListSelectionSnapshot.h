@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotosItemListSelectionSnapshot
 {
     id itemList;
-    id selectedIndexes;
 }
 
 @end

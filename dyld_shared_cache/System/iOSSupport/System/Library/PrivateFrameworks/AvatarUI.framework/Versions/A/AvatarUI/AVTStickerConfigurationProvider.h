@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, NSArray, NSCache;
-@protocol AVTStickerPack;
+@class NSCache;
 
 @interface AVTStickerConfigurationProvider
 {
     NSCache *_stickerConfigurationCache;
-    AVTUIEnvironment *_environment;
-    NSArray<AVTStickerPack> *_stickerPacks;
-    NSArray *_stickerConfigurationNames;
 }
 
 - (id);
@@ -31,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
 @property(retain, nonatomic) NSCache *stickerConfigurationCache; // @synthesize stickerConfigurationCache=_stickerConfigurationCache;
-@property(retain, nonatomic) NSArray *stickerConfigurationNames; // @synthesize stickerConfigurationNames=_stickerConfigurationNames;
-@property(retain, nonatomic) NSArray<AVTStickerPack> *stickerPacks; // @synthesize stickerPacks=_stickerPacks;
 
 @end
 

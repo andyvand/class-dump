@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, PEGASUSSchemaPEGASUSAudioQueueStateInfoTier1, PEGASUSSchemaPEGASUSAudioUnderstandingTier1;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSAudioExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSString *_audioLaunchId;
-    NSString *_audioType;
-    NSArray *_audioInternalSignals;
-    PEGASUSSchemaPEGASUSAudioUnderstandingTier1 *_audioUnderstandingTier1;
-    PEGASUSSchemaPEGASUSAudioQueueStateInfoTier1 *_audioQueueStateInfoTier1;
-    _Bool _hasAudioLaunchId;
-    _Bool _hasAudioType;
-    _Bool _hasAudioUnderstandingTier1;
-    _Bool _hasAudioQueueStateInfoTier1;
 }
 
 - (void);
@@ -53,25 +45,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ClientEvent;
+- (id)_flowClientEvent;
 - (id)SchemaRSSSiriVocabSyncDataDownloadEnded",&,N,V_ended;
 - (void)on.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *audioInternalSignals; // @synthesize audioInternalSignals=_audioInternalSignals;
 @property(copy, nonatomic) NSString *audioLaunchId; // @synthesize audioLaunchId=_audioLaunchId;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioQueueStateInfoTier1 *audioQueueStateInfoTier1; // @synthesize audioQueueStateInfoTier1=_audioQueueStateInfoTier1;
-@property(copy, nonatomic) NSString *audioType; // @synthesize audioType=_audioType;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioUnderstandingTier1 *audioUnderstandingTier1; // @synthesize audioUnderstandingTier1=_audioUnderstandingTier1;
-@property(nonatomic) _Bool hasAudioLaunchId; // @synthesize hasAudioLaunchId=_hasAudioLaunchId;
-@property(nonatomic) _Bool hasAudioQueueStateInfoTier1; // @synthesize hasAudioQueueStateInfoTier1=_hasAudioQueueStateInfoTier1;
-@property(nonatomic) _Bool hasAudioType; // @synthesize hasAudioType=_hasAudioType;
-@property(nonatomic) _Bool hasAudioUnderstandingTier1; // @synthesize hasAudioUnderstandingTier1=_hasAudioUnderstandingTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPassUpcomingPassInformationEntryContent, PKPassUpcomingPassInformationEntryMetadata;
+@class PKPassUpcomingPassInformationEntryMetadata;
 
 @interface PKPassUpcomingPassInformationEntry
 {
     _Bool _active;
-    PKPassUpcomingPassInformationEntryMetadata *_metadata;
-    PKPassUpcomingPassInformationEntryContent *_content;
 }
 
 + (id);
 + (_Bool)0@ù
 × ;
 - (_Bool);
+- (_Bool)E;
+- (id)h;
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)setHasMethod:(id)arg1;
+- (id)maxTxPacketLoss;
+- (void)avgCCA_875pct;
 - (id);
-- (void)chants;
+- (void)viewAll3PercentMerchants;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) PKPassUpcomingPassInformationEntryContent *content; // @synthesize content=_content;
 @property(readonly, nonatomic) PKPassUpcomingPassInformationEntryMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

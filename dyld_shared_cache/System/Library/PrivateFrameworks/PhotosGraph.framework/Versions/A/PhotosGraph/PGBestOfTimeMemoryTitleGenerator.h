@@ -11,8 +11,6 @@
 @interface PGBestOfTimeMemoryTitleGenerator : PGTitleGenerator
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    long long _year;
 }
 
 - (id);
@@ -20,16 +18,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
-- (void)esterFilteringContextMaximumFaceSize;
+- (id)!;
+- (void)PGSinglePersonWallpaperAssetSuggesterFilteringContextMaximumFaceSize;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) long long year; // @synthesize year=_year;
 
 @end
 

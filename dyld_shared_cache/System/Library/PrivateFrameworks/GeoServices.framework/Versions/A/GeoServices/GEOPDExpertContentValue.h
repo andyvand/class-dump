@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExpertContentValue
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_contentTexts;
-    NSString *_expertPartnerUrl;
-    GEOPDMapsIdentifier *_publisherId;
-    NSString *_vendorId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _accoladeIndex;
-    int _expertContentType;
-    struct {
-        unsigned int has_accoladeIndex:1;
-        unsigned int has_expertContentType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_contentTexts:1;
-        unsigned int read_expertPartnerUrl:1;
-        unsigned int read_publisherId:1;
-        unsigned int read_vendorId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)ken;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"read_unknownFields"b1"read_supportedPunchoutTypes"b1"read_airportCode"b1"read_cityMapsId"b1"read_city"b1"read_referenceLocation"b1"wrote_anyField"b1};
-- (id)partureFrequency;
+- (id)_departureFrequency;
 - (id);
 - (void)/Ý$@z6«þW@;
 

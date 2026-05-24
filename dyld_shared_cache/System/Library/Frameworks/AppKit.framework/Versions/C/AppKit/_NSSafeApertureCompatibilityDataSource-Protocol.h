@@ -5,5 +5,8 @@
 //
 
 @protocol _NSSafeApertureCompatibilityDataSource
+
+@optional
+- (unsigned int)+;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SWMessageHandler
+- (void)mVersion.plist;
 @end
 

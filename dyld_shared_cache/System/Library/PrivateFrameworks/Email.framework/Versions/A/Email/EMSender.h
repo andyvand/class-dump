@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, NSArray, NSString;
-
 @interface EMSender
 {
     struct EFAtomicObject _displayName;
-    EFLocked *_addresses;
-    NSString *_contactIdentifier;
-    long long _bucket;
-    long long _databaseID;
 }
 
 + (_Bool);
-- (id);
+- (id)Observer;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)A;
 - (void);
 - (_Bool);
 - (id);
@@ -33,15 +27,11 @@
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)E;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *addresses;
-@property long long bucket; // @synthesize bucket=_bucket;
-@property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property long long databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, copy, nonatomic) NSString *displayName;
 
 @end
 

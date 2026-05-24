@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface ListenerDelegate
@@ -12,19 +12,12 @@ __attribute__((visibility("hidden")))
     NSXPCListener *_listener;
 }
 
-- (void);
+- (void)metadata:(id)arg1 %@;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

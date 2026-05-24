@@ -9,7 +9,6 @@
 @interface CHParseTreeNode
 {
     NSString *_name;
-    struct _NSRange _inputRange;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void) ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange inputRange; // @synthesize inputRange=_inputRange;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

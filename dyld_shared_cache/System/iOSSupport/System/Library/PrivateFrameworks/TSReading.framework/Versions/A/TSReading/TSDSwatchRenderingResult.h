@@ -7,7 +7,6 @@
 @interface TSDSwatchRenderingResult
 {
     struct CGImage *foreground;
-    struct CGImage *background;
 }
 
 + (id);
@@ -16,7 +15,6 @@
 - (struct CGImage *)onst EQKit::Layout::Schemata &) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *background; // @synthesize background;
 @property(readonly, nonatomic) struct CGImage *foreground; // @synthesize foreground;
 
 @end

@@ -13,7 +13,7 @@
 
 - (void);
 - (double);
-- (id);
+- (id)_canResetZoom: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double displayDateAsTimeIntervalSince1970; // @synthesize displayDateAsTimeIntervalSince1970=_displayDateAsTimeIntervalSince1970;

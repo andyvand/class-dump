@@ -9,8 +9,6 @@
 @interface CRKInterfaceOrientationMonitor
 {
     NSMutableArray *mCompletionBlocks;
-    _Bool mIsWaitingForFirstUpdate;
-    unsigned long long _interfaceOrientation;
 }
 
 - (void);

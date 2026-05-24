@@ -6,17 +6,16 @@
 
 #import <ContentKit/WFContentItemChangeTransaction.h>
 
-@class CNMutableContact, NSArray;
+@class CNMutableContact;
 
 __attribute__((visibility("hidden")))
 @interface WFContactContentItemChangeTransaction : WFContentItemChangeTransaction
 {
     CNMutableContact *_mutableContact;
-    NSArray *_groupChangeRequest;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,7 +27,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *groupChangeRequest; // @synthesize groupChangeRequest=_groupChangeRequest;
 @property(readonly, nonatomic) CNMutableContact *mutableContact; // @synthesize mutableContact=_mutableContact;
 
 @end

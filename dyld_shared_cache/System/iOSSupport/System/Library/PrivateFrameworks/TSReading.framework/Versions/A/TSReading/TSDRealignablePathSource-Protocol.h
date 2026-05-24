@@ -5,5 +5,8 @@
 //
 
 @protocol TSDRealignablePathSource
+- (struct CGPath *)aSourceState %p> playbackContext:%@ - originalContext:%@ - supplementalContext:%@ /* Error: Ran out of types for this method. */;
+- (void)PodcastsQueueItem;
+- (void);
 @end
 

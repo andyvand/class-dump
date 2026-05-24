@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPSearchViewAppearFeedback
 {
     _Bool _isOnLockScreen;
-    _Bool _isOverApp;
-    _Bool _readerTextAvailable;
-    _Bool _isUsingLoweredSearchBar;
-    int _viewAppearEvent;
-    unsigned long long _timestamp;
-    NSString *_preexistingInput;
-    NSString *_originatingApp;
 }
 
 - (void);
@@ -29,36 +20,21 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)h;
+- (void);
+- (void);
+- (id)P;
+- (void)b-;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)UsingHandoffActivityUserInfo through CSD with completion block (%@);
+- (id)`;
 - (_Bool);
 - (int);
 - (void);
-- (void)moteControlCardSection;
+- (void)SFMediaRemoteControlCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOnLockScreen; // @synthesize isOnLockScreen=_isOnLockScreen;
-@property(nonatomic) _Bool isOverApp; // @synthesize isOverApp=_isOverApp;
-@property(nonatomic) _Bool isUsingLoweredSearchBar; // @synthesize isUsingLoweredSearchBar=_isUsingLoweredSearchBar;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *originatingApp; // @synthesize originatingApp=_originatingApp;
-@property(copy, nonatomic) NSString *preexistingInput; // @synthesize preexistingInput=_preexistingInput;
-@property(nonatomic) _Bool readerTextAvailable; // @synthesize readerTextAvailable=_readerTextAvailable;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int viewAppearEvent; // @synthesize viewAppearEvent=_viewAppearEvent;
 
 @end
 

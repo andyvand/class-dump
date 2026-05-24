@@ -11,13 +11,13 @@
     NSArray *_policies;
 }
 
-+ (id);
++ (id)itemClipRect;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)undle;
+- (id)!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling},Node.prototype._mail_traverseNextSiblingStayingWithin=function(t){let e=null;if(this.isSameNode(t))return e;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling};const nodeIsSignificantContent=function(t){let e=t.nodeName;return"SPAN"===e||"DIV"===e||"FONT"===e||"STYLE"===e||"P"===e||"PRE"===e?{nodeIsSignificantContent:(id)arg1 !1,mayContainSignificantContent:!0}:"BR"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:t instanceof Text&&(0===t.length||t.data.containsOnlyWhitespace)?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:{nodeIsSignificantContent:!0,mayContainSignificantContent:!1}}; /* Error: Ran out of types for this method. */;
+- (void)maxNativeAdCountIPadBestOfBundle;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *policies; // @synthesize policies=_policies;

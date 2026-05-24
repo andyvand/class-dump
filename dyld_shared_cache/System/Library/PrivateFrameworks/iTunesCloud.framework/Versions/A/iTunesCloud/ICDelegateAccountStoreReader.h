@@ -9,18 +9,17 @@
 @interface ICDelegateAccountStoreReader
 {
     ICSQLiteConnection *_connection;
-    _Bool _isValid;
 }
 
 - (id);
+- (void)ID();
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)canUndo;
 - (long long);
 - (id);
-- (void);
-- (id);
+- (void)nativeTextureTarget;
+- (id)deindexGeometry;
 - (void);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *lastExpirationPruningDate;
-@property(readonly, nonatomic) long long overestimatedNumberOfTokens;
 
 @end
 

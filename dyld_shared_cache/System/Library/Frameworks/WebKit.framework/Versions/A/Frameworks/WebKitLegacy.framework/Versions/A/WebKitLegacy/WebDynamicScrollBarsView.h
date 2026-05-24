@@ -13,10 +13,10 @@
 + (Class);
 + (Class);
 - (_Bool);
-- (unsigned char);
+- (unsigned char);
 - (_Bool);
 - (void);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
@@ -31,8 +31,8 @@
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
-- (unsigned char);
+- (_Bool)A*;
+- (unsigned char)e*;
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -42,11 +42,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`";
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)o send a result from a completed AMSObservable.;
+- (id)c;
 - (void);
 - (id);
 - (void);

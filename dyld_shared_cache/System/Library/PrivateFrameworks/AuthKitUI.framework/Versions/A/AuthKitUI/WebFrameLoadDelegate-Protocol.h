@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, WebFrame, WebView;
+
 @protocol WebFrameLoadDelegate
+
+@optional
+- (void)tionQuery settings direct;
+- (void)_kMDItemIsTemplateApp;
+- (void)emProfiler;
+- (void)le.StorageManagementLauncher;
+- (void)pple.ScriptEditor2;
+- (void)iptEditor.id.image-file-processing-droplet-template;
+- (void)r.id.file-processing-droplet-template;
+- (void)t-with-settable-properties-template;
+- (void)ocoa-applet-template;
+- (void)_handle_SQLITE_INTERNAL:(WebView *)arg1 onError:(WebFrame *)arg2 db: /* Error: Ran out of types for this method. */;
+- (void)_handle_SQLITE_ERROR:(WebView *)arg1 onError:(WebFrame *)arg2 db: /* Error: Ran out of types for this method. */;
+- (void)_handle_SQLITE_EMPTY:(WebView *)arg1 onError:(NSError *)arg2 db:(WebFrame *)arg3;
+- (void)_handle_SQLITE_CORRUPT:(WebView *)arg1 onError:(NSError *)arg2 db:(WebFrame *)arg3;
+- (void)_handle_SQLITE_CONSTRAINT_VTAB:(WebView *)arg1 onError:(WebFrame *)arg2 db: /* Error: Ran out of types for this method. */;
 @end
 

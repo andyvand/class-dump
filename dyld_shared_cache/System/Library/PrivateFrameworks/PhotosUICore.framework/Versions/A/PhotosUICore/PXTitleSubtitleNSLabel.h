@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, PXTitleSubtitleCALayerPromise, PXTitleSubtitleLabelSpec;
+@class PXTitleSubtitleCALayerPromise;
 
 @interface PXTitleSubtitleNSLabel
 {
     _Bool _needsUpdateLayerPromise;
-    _Bool _rendersTextAsynchronously;
-    NSString *_titleText;
-    NSString *_subtitleText;
-    PXTitleSubtitleLabelSpec *_spec;
-    long long _typesettingMode;
-    PXTitleSubtitleCALayerPromise *__layerPromise;
-    CALayer *__contentLayer;
 }
 
 - (void);
@@ -46,27 +39,14 @@
 - (id);
 - (void);
 - (id);
-- (void)icImage:(struct CGRect)arg1;
+- (void)_setOpportunisticImage:(struct CGRect)arg1;
 - (id);
-- (void);
-- (void)UD_FEED_INBOX_INVITATION_PHRASE_FORMAT;
-- (void)ionError;
+- (void)areaLocation;
+- (void)CLOUD_FEED_INBOX_INVITATION_PHRASE_FORMAT;
+- (void)PXSharedAlbumsSettingsLemonadeSimulatedSubscriptionError;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setContentLayer:) CALayer *_contentLayer; // @synthesize _contentLayer=__contentLayer;
 @property(retain, nonatomic, setter=_setLayerPromise:) PXTitleSubtitleCALayerPromise *_layerPromise; // @synthesize _layerPromise=__layerPromise;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool rendersTextAsynchronously; // @synthesize rendersTextAsynchronously=_rendersTextAsynchronously;
-@property(retain, nonatomic) PXTitleSubtitleLabelSpec *spec; // @synthesize spec=_spec;
-@property(copy, nonatomic) NSString *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
-@property(nonatomic) long long typesettingMode; // @synthesize typesettingMode=_typesettingMode;
 
 @end
 

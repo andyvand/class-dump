@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (long long);
-- (id);
-- (id);
+- (long long)"NSString"16@"NSDictionary"24@"NSString"32@"NSNumber"40@"NSString"48;
+- (id)incrementPendingReadReceiptFromStorageCount;
+- (id);
 - (id);
 - (unsigned long long);
-- (void)estamp:(id)arg1;
+- (void)setLastTimestamp:(id)arg1;
 - (id);
 
 // Remaining properties

@@ -12,19 +12,17 @@
 @interface IMAPGetMessagesOperation : IMAPPersistenceTaskOperation
 {
     NSIndexSet *_uids;
-    id <IMAPGetMessagesOperationDelegate> _delegate;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)#D)	kA;
 - (id);
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPGetMessagesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSIndexSet *uids; // @synthesize uids=_uids;
 
 @end
 

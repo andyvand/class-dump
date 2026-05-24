@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KCAESGCMDuplexSession, KCSRPServerContext, NSData, NSMutableDictionary, NSString, OTControl, OTControlArguments, OTJoiningConfiguration;
-@protocol KCJoiningAcceptCircleDelegate, KCJoiningAcceptSecretDelegate;
-
 @interface KCJoiningAcceptSession
 {
     _Bool _failSOSForTests;
-    int _state;
-    int _piggy_version;
-    unsigned long long _dsid;
-    id <KCJoiningAcceptSecretDelegate> _secretDelegate;
-    id <KCJoiningAcceptCircleDelegate> _circleDelegate;
-    KCSRPServerContext *_context;
-    KCAESGCMDuplexSession *_session;
-    NSData *_startMessage;
-    NSString *_piggy_uuid;
-    NSData *_octagon;
-    OTJoiningConfiguration *_joiningConfiguration;
-    OTControlArguments *_controlArguments;
-    OTControl *_otControl;
-    NSMutableDictionary *_defaults;
-    NSString *_altDSID;
-    NSString *_flowID;
-    NSString *_deviceSessionID;
-    unsigned long long _piggybacking_version_for_tests;
 }
 
 + (id);
@@ -73,10 +52,10 @@
 - (id);
 - (id);
 - (id);
+- (id)SError"24;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)dentifiers:filteredToSessionIds:filteredToLearnedPlaceIdentifiers: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);
@@ -90,25 +69,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property __weak id <KCJoiningAcceptCircleDelegate> circleDelegate; // @synthesize circleDelegate=_circleDelegate;
-@property(readonly) KCSRPServerContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) OTControlArguments *controlArguments; // @synthesize controlArguments=_controlArguments;
-@property(retain, nonatomic) NSMutableDictionary *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) NSString *deviceSessionID; // @synthesize deviceSessionID=_deviceSessionID;
 @property(readonly) unsigned long long dsid; // @synthesize dsid=_dsid;
-@property(nonatomic) _Bool failSOSForTests; // @synthesize failSOSForTests=_failSOSForTests;
-@property(retain, nonatomic) NSString *flowID; // @synthesize flowID=_flowID;
-@property(retain, nonatomic) OTJoiningConfiguration *joiningConfiguration; // @synthesize joiningConfiguration=_joiningConfiguration;
-@property(retain) NSData *octagon; // @synthesize octagon=_octagon;
-@property(retain, nonatomic) OTControl *otControl; // @synthesize otControl=_otControl;
-@property(retain) NSString *piggy_uuid; // @synthesize piggy_uuid=_piggy_uuid;
-@property int piggy_version; // @synthesize piggy_version=_piggy_version;
-@property(nonatomic) unsigned long long piggybacking_version_for_tests; // @synthesize piggybacking_version_for_tests=_piggybacking_version_for_tests;
-@property __weak id <KCJoiningAcceptSecretDelegate> secretDelegate; // @synthesize secretDelegate=_secretDelegate;
-@property(readonly) KCAESGCMDuplexSession *session; // @synthesize session=_session;
-@property(retain) NSData *startMessage; // @synthesize startMessage=_startMessage;
-@property(readonly) int state; // @synthesize state=_state;
 
 @end
 

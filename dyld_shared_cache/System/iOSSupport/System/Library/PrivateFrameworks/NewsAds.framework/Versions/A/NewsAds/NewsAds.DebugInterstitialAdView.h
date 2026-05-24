@@ -7,10 +7,6 @@
 @interface NewsAds.DebugInterstitialAdView
 {
     id contentIdentifier;
-    id onLongPress;
-    id onCollapse;
-    id label;
-    id moreButton;
 }
 
 - (id);

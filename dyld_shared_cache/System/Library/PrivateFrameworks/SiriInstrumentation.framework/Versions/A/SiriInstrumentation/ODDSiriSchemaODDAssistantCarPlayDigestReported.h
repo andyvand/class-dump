@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAssistantCarPlayDigestReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -35,16 +33,13 @@
 - (id);
 - (id)0@ù
 × ;
-- (id)orrectedToken;
+- (id)correctedToken;
 - (id)ectedActionDisambiguationsLastTenMinutes;
 - (id)tMetadata",&,N,V_smsTextContentMetadata;
-- (void)QUERY_ALIAS_FILE;
+- (void)JRPARAMETERSUBTYPE_QUERY_ALIAS_FILE;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

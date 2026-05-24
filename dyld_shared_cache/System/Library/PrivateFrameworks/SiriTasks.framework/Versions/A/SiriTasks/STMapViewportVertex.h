@@ -7,20 +7,18 @@
 @interface STMapViewportVertex
 {
     double _latitude;
-    double _longitude;
 }
 
-+ (_Bool);
++ (_Bool)ذg;
 - (id);
 - (void);
 - (void);
 - (double);
 - (void);
-- (double);
+- (double)	;
 
 // Remaining properties
 @property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
 
 @end
 

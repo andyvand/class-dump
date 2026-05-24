@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSExchangeServiceBinding, EWSExchangeServiceBindingTask, NSArray, NSString;
-@protocol EWSSubscriptionDelegate;
+@class EWSExchangeServiceBinding;
 
 @interface EWSSubscription
 {
     id _currentTaskLock;
-    EWSExchangeServiceBindingTask *_currentTask;
-    _Bool _isValid;
-    _Bool _shouldSubscribe;
-    id <EWSSubscriptionDelegate> _delegate;
-    NSArray *_folderIds;
-    NSArray *_eventTypes;
-    EWSExchangeServiceBinding *_binding;
-    EWSExchangeServiceBindingTask *_subscribeTask;
-    EWSExchangeServiceBindingTask *_unsubscribeTask;
-    NSString *_subscriptionId;
-    NSString *_watermark;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -40,35 +28,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)Th;
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ot no certs;
+- (void)initWithCache:(id)arg1 searchString:serverSearchObservable:cacheMissAuditor:schedulerProvider: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak EWSExchangeServiceBinding *binding; // @synthesize binding=_binding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EWSSubscriptionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *eventTypes; // @synthesize eventTypes=_eventTypes;
-@property(copy) NSArray *folderIds; // @synthesize folderIds=_folderIds;
-@property(readonly) unsigned long long hash;
-@property _Bool shouldSubscribe; // @synthesize shouldSubscribe=_shouldSubscribe;
-@property(retain, nonatomic) EWSExchangeServiceBindingTask *subscribeTask; // @synthesize subscribeTask=_subscribeTask;
-@property(copy) NSString *subscriptionId; // @synthesize subscriptionId=_subscriptionId;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) EWSExchangeServiceBindingTask *unsubscribeTask; // @synthesize unsubscribeTask=_unsubscribeTask;
-@property(copy) NSString *watermark; // @synthesize watermark=_watermark;
 
 @end
 

@@ -5,27 +5,24 @@
 //
 
 @class WFWorkflowDescriptor;
-@protocol WFPropertyListObject;
 
 @interface WFContextualWorkflowDescriptor
 {
     WFWorkflowDescriptor *_descriptor;
-    id <WFPropertyListObject> _serializedRepresentation;
 }
 
 + (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`B;
 - (void)!|@ùñ^°1Â0@ù
 × ;
 - (id)PÿÿT^*;
 
 // Remaining properties
 @property(readonly, nonatomic) WFWorkflowDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation; // @synthesize serializedRepresentation=_serializedRepresentation;
 
 @end
 

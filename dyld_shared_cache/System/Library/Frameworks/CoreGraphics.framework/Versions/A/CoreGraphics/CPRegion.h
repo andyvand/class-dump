@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPRegion : CPChunk
 {
     _Bool isTextRegion;
-    _Bool isImageRegion;
-    _Bool isCompoundShape;
-    CPRegion *nextRegion;
-    int order;
-    id link;
 }
 
 - (void);
@@ -40,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)J1;
 - (int)T{T{hT|T|mT}T}vT~T~&TTTTgTT TT"TTjTTFÙTTlTTTT#TTuTTqTT+TTwTT@¡TTnTT!TTkTTE§TT>TTfTTdTT>TT/TTrTT?fTTGíT T T¡T¡xT¢T¢T£T£E¨T¤T¤@¢T¥T¥zT¦T¦ÖT§T§äT¨T¨ÒT©T©ãTªTªÛT«T«àT¬T¬ÐT­T­yT®T®T¯T¯ßT°T°T±T±áT²T²7DT³T³×T´T´E©T¶T¶T·T·~T¸T¸ÕT¹T¹EªTºTºwT»T»âT¼T¼T½T½ÚT¾T¾T¿T¿åTÀTÀÑTÁTÁÜTÂTÂÙTÃTÃ|TÄTÄÝTÅTÆTÇTÇØTÈTÈÞTÉTÉÔTËTË9£TÌTÌEâTÍTÍ: /* Error: Ran out of types for this method. */;
 - (void);
 

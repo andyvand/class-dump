@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
-
 @interface BTAudioRoutingRequest
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    int _audioScore;
-    unsigned int _flags;
-    unsigned int _clientID;
-    NSString *_appBundleID;
-    NSString *_deviceAddress;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSDictionary *_options;
-    NSString *_reason;
-    CDUnknownBlockType _responseHandler;
-    NSXPCListenerEndpoint *_testListenerEndpoint;
 }
 
 + (_Bool);
 + (_Bool);
+- (void)transactionDescription;
+- (id)transaction;
+- (_Bool)topLevelTemporaryDirectoryURL;
+- (int)ned long long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (_Bool);
-- (int);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (id);
@@ -50,8 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)rowViews;
+- (void)_revGeoTicket;
 - (id);
 - (void);
 - (unsigned int);
@@ -62,19 +47,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)release;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(nonatomic) int audioScore; // @synthesize audioScore=_audioScore;
 @property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(copy, nonatomic) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(retain, nonatomic) NSXPCListenerEndpoint *testListenerEndpoint; // @synthesize testListenerEndpoint=_testListenerEndpoint;
 
 @end
 

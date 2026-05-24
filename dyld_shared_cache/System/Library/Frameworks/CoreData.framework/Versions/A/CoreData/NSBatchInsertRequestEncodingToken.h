@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSInputStream, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSBatchInsertRequestEncodingToken
 {
     NSString *_entityName;
-    NSArray *_objectsToInsert;
-    NSInputStream *_inputStream;
-    unsigned long long _resultType;
-    _Bool _secure;
 }
 
 + (_Bool);
@@ -29,10 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *entityName; // @synthesize entityName=_entityName;
-@property(readonly, retain, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, retain, nonatomic) NSArray *objectsToInsert; // @synthesize objectsToInsert=_objectsToInsert;
-@property(readonly, nonatomic) unsigned long long resultType; // @synthesize resultType=_resultType;
-@property(readonly, nonatomic) _Bool secure; // @synthesize secure=_secure;
 
 @end
 

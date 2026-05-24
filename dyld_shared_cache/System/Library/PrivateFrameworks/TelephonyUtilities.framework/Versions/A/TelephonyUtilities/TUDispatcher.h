@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)qA;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)etSystemActivity: /* Error: Ran out of types for this method. */;
+- (void)setSystemActivity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;

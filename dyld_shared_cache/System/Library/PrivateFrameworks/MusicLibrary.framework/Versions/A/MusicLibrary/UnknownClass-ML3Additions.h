@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ML3Additions)
-- (void);
-- (void);
+- (void)ggestionChanges;
+- (void)cameraProcessingAdjustmentState;
 @end
 

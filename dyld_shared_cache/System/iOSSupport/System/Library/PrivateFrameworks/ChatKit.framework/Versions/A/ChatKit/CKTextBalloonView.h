@@ -6,69 +6,58 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class NSAttributedString, NSString, UITapGestureRecognizer, UITextView, UIView;
-@protocol CKBalloonTextViewProtocol, CKTextBalloonViewTextEffectsDelegate;
+@class UITextView;
+@protocol CKBalloonTextViewProtocol;
 
 @interface CKTextBalloonView : CKColoredBalloonView
 {
     _Bool _dimsContentOverTranscriptBackground;
-    _Bool _containsExcessiveLineHeightCharacters;
-    _Bool _shouldShowTranslationSecondaryText;
-    _Bool _ignoreSelectionEvent;
-    id <CKTextBalloonViewTextEffectsDelegate> _textEffectsDelegate;
-    UITextView<CKBalloonTextViewProtocol> *_textView;
-    UITextView<CKBalloonTextViewProtocol> *_translationSecondaryTextView;
-    NSAttributedString *_attributedText;
-    NSAttributedString *_alternateAttributedText;
-    UIView *_dividerLine;
-    UITapGestureRecognizer *_tripleTapGestureRecognizer;
-    struct CGSize _translationSecondaryTextSize;
 }
 
 + (_Bool);
 + (void);
 + (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGSize);
-- (double);
-- (id);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)viewForTextAttachmentNoCreate:(id)arg1;
+- (void)updateTrackedToDoParagraphsAfterIndex:byDelta:excludingSeenParagraphs: /* Error: Ran out of types for this method. */;
+- (void)textAttachmentClassForAttachment: /* Error: Ran out of types for this method. */;
+- (id)text;
+- (void)temporaryTextStorageWithAttributedString:(id)arg1 replicaID:styler: /* Error: Ran out of types for this method. */;
+- (id)tableCellIntentWithIdentity:column:nestedInsideIntent: /* Error: Ran out of types for this method. */;
+- (struct CGSize)tableCellIntentWithIdentity:column:nestedInsideIntent: /* Error: Ran out of types for this method. */;
+- (double)setIsDroppingChecklistItemInsideChecklist:(double)arg1;
+- (id)setImageClassificationSummary: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)setForceFullSizeImage: /* Error: Ran out of types for this method. */;
+- (double)selectedInkIdentifier;
+- (struct CGSize)rangeInOriginalStringCorrespondingToRange:(struct CGSize)arg1;
+- (struct CGSize)rangeHasOrNeedsHighlights:(struct CGSize)arg1 inTextStorage:(struct UIEdgeInsets *)arg2;
+- (struct CGSize)rangeForTitleInContent:(struct CGSize)arg1 truncated:(struct UIEdgeInsets *)arg2;
+- (struct CGSize)rangeForLocation:(struct CGSize)arg1 allowsTrailingEdge:(struct UIEdgeInsets *)arg2;
+- (_Bool)objectsPassingTest: /* Error: Ran out of types for this method. */;
+- (_Bool)noteDidApplyAttachmentViewTypeToAllAttachments;
+- (void)isPreviewingResult;
+- (void)isPausingUndoActions;
+- (void)isPasswordProtectedAndLocked;
+- (void)invalidateLayoutForCharacterRange:(id)arg1 actualCharacterRange: /* Error: Ran out of types for this method. */;
+- (void)initWithModernNoteContext:(_Bool)arg1 htmlNoteContext:options: /* Error: Ran out of types for this method. */;
+- (void)fixAttributesInRange:(_Bool)arg1;
+- (void)didChooseToMigrate;
+- (void)currentScanRequest;
+- (void)characterSetWithCharactersInString:(id)arg1;
+- (void)_usesTemporaryFile;
+- (id)setShadowColor: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (Class);
+- (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -77,67 +66,48 @@
 - (_Bool);
 - (void);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)a;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t;
+- (void)s;
+- (void)0;
+- (void)e %ld because of an error getting the CGImageRef or PDFPage ready.;
+- (void)@;
+- (struct CGSize)hare %@;
+- (_Bool);
+- (void)porary one.;
 - (struct CGSize);
-- (_Bool);
-- (void);
-- (struct CGSize);
-- (void);
-- (struct CGRect);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (void)@;
+- (struct CGRect)achments:(struct CGSize)arg1 displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)valid row range %@ %lu %@;
+- (void)nverter;
+- (_Bool)on point changed by remote edit;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=!;
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)WithError: /* Error: Ran out of types for this method. */;
-- (id)kShouldUpdateobscuredBalloonMinimumSizeForAdult;
+- (id)_dropInteraction:(struct CGRect)arg1 delayedPreviewProviderForDroppingItem:previewProvider: /* Error: Ran out of types for this method. */;
+- (id)pr_loadTitleStyleConfigurationWithError: /* Error: Ran out of types for this method. */;
+- (id)ckShouldUpdateobscuredBalloonMinimumSizeForAdult;
 - (void)yAQG_}d]Qo_AJGtGGo¯\GADGvÁ\yh]GG±GSg_AByxA3_GSgtG;
 - (void)Øð;
 - (_Bool)-;
 - (void)AæiðÌ«ÿIæiàÌ«ÿaæi4ÆÊÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *alternateAttributedText; // @synthesize alternateAttributedText=_alternateAttributedText;
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(readonly, nonatomic, getter=isCandidateForTextEffectPlayback) _Bool candidateForTextEffectPlayback;
-@property(nonatomic) _Bool containsExcessiveLineHeightCharacters; // @synthesize containsExcessiveLineHeightCharacters=_containsExcessiveLineHeightCharacters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dimsContentOverTranscriptBackground; // @synthesize dimsContentOverTranscriptBackground=_dimsContentOverTranscriptBackground;
-@property(retain, nonatomic) UIView *dividerLine; // @synthesize dividerLine=_dividerLine;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreSelectionEvent;
-@property(nonatomic) _Bool shouldShowTranslationSecondaryText; // @synthesize shouldShowTranslationSecondaryText=_shouldShowTranslationSecondaryText;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <CKTextBalloonViewTextEffectsDelegate> textEffectsDelegate; // @synthesize textEffectsDelegate=_textEffectsDelegate;
 @property(retain, nonatomic) UITextView<CKBalloonTextViewProtocol> *textView; // @synthesize textView=_textView;
-@property(nonatomic) struct CGSize translationSecondaryTextSize; // @synthesize translationSecondaryTextSize=_translationSecondaryTextSize;
-@property(retain, nonatomic) UITextView<CKBalloonTextViewProtocol> *translationSecondaryTextView; // @synthesize translationSecondaryTextView=_translationSecondaryTextView;
-@property(retain, nonatomic) UITapGestureRecognizer *tripleTapGestureRecognizer; // @synthesize tripleTapGestureRecognizer=_tripleTapGestureRecognizer;
 
 @end
 

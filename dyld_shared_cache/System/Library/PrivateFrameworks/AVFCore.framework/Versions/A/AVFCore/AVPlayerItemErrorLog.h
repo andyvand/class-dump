@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItemErrorLogInternal, NSArray;
+@class AVPlayerItemErrorLogInternal;
 
 @interface AVPlayerItemErrorLog
 {
@@ -18,13 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *events;
 @property(readonly, nonatomic) unsigned long long extendedLogDataStringEncoding;
 
 @end

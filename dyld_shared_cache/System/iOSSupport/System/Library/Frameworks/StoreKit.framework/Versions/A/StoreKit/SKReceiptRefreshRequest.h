@@ -13,14 +13,14 @@
     NSDictionary *_properties;
 }
 
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *receiptProperties; // @synthesize receiptProperties=_properties;

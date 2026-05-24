@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _IMKServerInvocationSentinelLegacy, _IPMDServerClientWrapperLegacy;
-
 @interface _IMKServerXPCInvocationLegacy
 {
     _Bool _request_reply_done;
-    _Bool _timedOut;
-    SEL _callerSelector;
-    struct __CFRunLoopTimer *_replyTimer;
-    _IMKServerInvocationSentinelLegacy *_sentinel;
-    _IPMDServerClientWrapperLegacy *_clientWrapper;
-    _Bool _invocationInterruptAttempted;
-    _Bool _otherInnerRunLoopDetected;
-    unsigned long long _innerRunLoopCount;
-    struct __CFRunLoopObserver *_replyObserver;
 }
 
 + (id);
@@ -26,7 +15,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)	r;
 - (id);
 - (_Bool);
 

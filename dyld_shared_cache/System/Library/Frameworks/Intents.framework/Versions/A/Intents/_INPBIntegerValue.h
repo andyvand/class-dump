@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBIntegerValue
 {
     CDStruct_01ef6375 _has;
-    int _value;
-    _INPBValueMetadata *_valueMetadata;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)4;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)loadIdentifier is nil but addReason is CarrierBundle;
 - (void);
 - (id);
 - (int);
-- (id);
+- (id);
 - (_Bool)#;
 - (void)NNoteContentTypeUnknown is not supported.;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) int value; // @synthesize value=_value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void)nLookup;
+- (void)SGPSInteractionLookup;
 - (id)ndle_id), bundle_id FROM urls GROUP BY bundle_id;
 
 // Remaining properties

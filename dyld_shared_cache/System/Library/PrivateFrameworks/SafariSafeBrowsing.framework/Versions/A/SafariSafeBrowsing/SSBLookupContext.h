@@ -7,30 +7,29 @@
 @interface SSBLookupContext
 {
     struct shared_ptr<SafeBrowsing::LookupContext> _lookupContext;
-    unsigned int _observerToken;
 }
 
-+ (id);
++ (id)ding;
+- (void)on did not match; LaunchServices DB may need to be rebuilt;
+- (void)dle could not be looked up;
+- (void)isLinkedOnOrAfterDominoCorrectionRelease=;
 - (void);
+- (void)arWidgetExtension;
+- (void)otosReliveWidget;
 - (void);
+- (void)rldClockWidget;
+- (void)ple.mobileslideshow.PhotosReliveWidget;
 - (void);
+- (void)tension;
+- (void)sWidget;
 - (void);
+- (void)dMyWidgetItems;
+- (void)ion;
+- (void)pple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)m.apple.Home.HomeWidget;
+- (void)oWidgetExtension;
+- (void)(;
 - (id);
 - (id);
 - (void);

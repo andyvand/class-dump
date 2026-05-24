@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarAccessoryView, CNAvatarViewController, CNBadgingAvatarBadgeStyleSettings, UIImage, UIImageView;
-@protocol CNCancelable;
+@class CNAvatarViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNBadgingAvatarView
 {
     _Bool _isMarkedForSyndication;
-    _Bool _isDoNotDisturb;
-    CNAvatarViewController *_avatarViewController;
-    CNBadgingAvatarBadgeStyleSettings *_badgeStyleSettings;
-    UIImageView *_badgeImageView;
-    id <CNCancelable> _likenessBadgeRendererToken;
-    CNAvatarAccessoryView *_mediaContextBadge;
-    UIImageView *_mediaContextBadgeView;
 }
 
 - (void);
@@ -36,35 +28,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (id);
+- (id)(;
+- (id)Th;
 - (id);
-- (id);
-- (id);
+- (void)qA;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (void);
+- (id)K;
+- (void);
 - (void);
 - (id);
 - (void)ptDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) UIImage *badgeImage;
-@property(retain, nonatomic) UIImageView *badgeImageView; // @synthesize badgeImageView=_badgeImageView;
-@property(retain, nonatomic) CNBadgingAvatarBadgeStyleSettings *badgeStyleSettings; // @synthesize badgeStyleSettings=_badgeStyleSettings;
-@property(nonatomic) _Bool isDoNotDisturb; // @synthesize isDoNotDisturb=_isDoNotDisturb;
-@property(nonatomic) _Bool isMarkedForSyndication; // @synthesize isMarkedForSyndication=_isMarkedForSyndication;
-@property(retain, nonatomic) id <CNCancelable> likenessBadgeRendererToken; // @synthesize likenessBadgeRendererToken=_likenessBadgeRendererToken;
-@property(retain, nonatomic) CNAvatarAccessoryView *mediaContextBadge; // @synthesize mediaContextBadge=_mediaContextBadge;
-@property(retain, nonatomic) UIImageView *mediaContextBadgeView; // @synthesize mediaContextBadgeView=_mediaContextBadgeView;
 
 @end
 

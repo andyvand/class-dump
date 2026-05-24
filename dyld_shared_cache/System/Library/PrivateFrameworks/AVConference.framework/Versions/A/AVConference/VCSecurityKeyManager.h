@@ -4,47 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, VCMediaKeyIndex;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface VCSecurityKeyManager
 {
     id _delegate;
-    id _reportingAgentWeak;
-    NSMutableArray *_unknownKeyIndexList;
-    _Bool _shortMKIForOneToOneEnabled;
-    _Bool _shortMKIForGFTEnabled;
-    NSMutableDictionary *_sendKeys;
-    NSMutableDictionary *_receiveKeys;
-    NSMutableDictionary *_prunePendingReceiveKeys;
-    VCMediaKeyIndex *_latestSendKeyIndex;
-    VCMediaKeyIndex *_latestReceiveKeyIndex;
-    VCMediaKeyIndex *_keyIndexNotReceived;
-    _Bool _isSendKeysCleanUpPending;
-    _Bool _isReceiveKeysCleanUpPending;
-    _Bool _forceRemoteMKMMissing;
-    double _keyMaterialNotUsedTimeout;
-    NSObject<OS_dispatch_queue> *_keyManagerQueue;
-    double _lastKeyIndexNotReceived;
-    NSObject<OS_dispatch_source> *_pruneTimer;
-    NSObject<OS_dispatch_source> *_encryptionKeyRollTimer;
-    _Bool _isRunning;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct opaqueRTCReporting *);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)q!;
+- (void)q;
 - (double);
 - (void);
-- (id);
+- (id)il8J;
 - (void);
 - (id);
 - (id);
@@ -58,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)BERLIN_DB_Regio_AG_Neustrelitz_Hauptbahnhof_Altentreptow_Bahnhof;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)StadSRC;
+- (id)enableRamStadSRC;
 
 // Remaining properties
 @property(nonatomic) struct opaqueRTCReporting *reportingAgent;

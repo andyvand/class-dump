@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRDeviceInfoMessageProtobuf;
+@class _MRDeviceInfoMessageProtobuf;
 
 @interface _MROriginProtobuf
 {
     _MRDeviceInfoMessageProtobuf *_deviceInfoDeprecated;
-    NSString *_displayName;
-    int _identifier;
-    int _type;
-    _Bool _isLocallyHosted;
-    struct {
-        unsigned int identifier:1;
-        unsigned int type:1;
-        unsigned int isLocallyHosted:1;
-    } _has;
 }
 
 - (id);
@@ -31,16 +22,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (int);
-- (_Bool);
+- (int)ied Fetch failed for ID:%@. Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)setRegionToUK;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)AFVoiceIdScoreCard:(int)arg1:confidentScoreThreshold /* Error: Ran out of types for this method. */;
+- (id)AFTurnIdentifierCreateFromBytes;
 - (int);
 - (int);
 - (_Bool);
@@ -48,20 +39,11 @@
 - (void);
 - (id);
 - (_Bool)InputDeviceMessageProtobuf";
-- (void):(_Bool)arg1;
-- (void);
+- (void)setHasProcessUserIdentifier:(_Bool)arg1;
+- (void)_reloadForPlayerPathInvalidation;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDeviceInfoMessageProtobuf *deviceInfoDeprecated; // @synthesize deviceInfoDeprecated=_deviceInfoDeprecated;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasDeviceInfoDeprecated;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsLocallyHosted;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isLocallyHosted; // @synthesize isLocallyHosted=_isLocallyHosted;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

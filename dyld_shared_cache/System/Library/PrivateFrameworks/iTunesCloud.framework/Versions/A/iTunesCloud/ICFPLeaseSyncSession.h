@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ICFPLeaseSyncSession
 {
     unsigned int _mediaKind;
-    unsigned long long _accountID;
-    id _leaseID;
 }
 
 + (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) id leaseID; // @synthesize leaseID=_leaseID;
-@property(readonly, nonatomic) unsigned int mediaKind; // @synthesize mediaKind=_mediaKind;
 
 @end
 

@@ -6,39 +6,28 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSSet, SignpostFrameLifetimeInterval;
+@class SignpostFrameLifetimeInterval;
 
 @interface SignpostFrameLatencyInterval : SignpostAnimationSubInterval
 {
     unsigned int _frameSeed;
-    unsigned int _swapId;
-    unsigned long long _totalFrameCount;
-    unsigned long long _lateFrameCount;
-    NSSet *_contributingPids;
-    SignpostFrameLifetimeInterval *_frameLifetime;
 }
 
 - (unsigned int);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)#;
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *contributingPids; // @synthesize contributingPids=_contributingPids;
 @property(nonatomic) __weak SignpostFrameLifetimeInterval *frameLifetime; // @synthesize frameLifetime=_frameLifetime;
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(readonly, nonatomic) unsigned long long lateFrameCount; // @synthesize lateFrameCount=_lateFrameCount;
-@property(readonly, nonatomic, getter=isPotentiallyLong) _Bool potentiallyLong;
-@property(readonly, nonatomic) unsigned int swapId; // @synthesize swapId=_swapId;
-@property(readonly, nonatomic) unsigned long long totalFrameCount; // @synthesize totalFrameCount=_totalFrameCount;
 
 @end
 

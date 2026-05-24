@@ -11,9 +11,10 @@
     double _quantity;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)_delegate_disableFindMyDeviceForAccount:completion: /* Error: Ran out of types for this method. */;
+- (void)0x%x
+;
+- (id)riority2 0x%08X;
 - (void);
 - (double);
 - (id);

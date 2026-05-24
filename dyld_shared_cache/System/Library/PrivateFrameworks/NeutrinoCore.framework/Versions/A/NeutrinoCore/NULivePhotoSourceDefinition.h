@@ -9,7 +9,6 @@
 @interface NULivePhotoSourceDefinition : NUSourceDefinition
 {
     NUSourceDefinition *_image;
-    NUSourceDefinition *_video;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly) NUSourceDefinition *image; // @synthesize image=_image;
-@property(readonly) NUSourceDefinition *video; // @synthesize video=_video;
 
 @end
 

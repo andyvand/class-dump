@@ -5,5 +5,6 @@
 //
 
 @protocol OBProvidesLanguageConfiguration
+- (_Bool)kLoadChecker;
 @end
 

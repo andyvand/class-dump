@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMVisionEngine, NSMapTable, NSObject;
+@class AXMVisionEngine, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AXAVFoundationMediaDescriptionManager
 {
     AXMVisionEngine *_engine;
     NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_queue_nodeToPlayerMap;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (id);
 - (_Bool);
 - (id);

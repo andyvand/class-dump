@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol FCStreaming;
-
 @interface FCTransformedStream
 {
     CDUnknownBlockType _transformBlock;
-    id <FCStreaming> _stream;
 }
 
 - (CDUnknownBlockType);
@@ -21,19 +17,10 @@
 - (_Bool);
 - (id)Á!@ùQ(	Ð1Â0@ù
 × ;
-- (void)rackListenedBaselineClickValue;
+- (void)trackListenedBaselineClickValue;
 - (void)C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <FCStreaming> stream; // @synthesize stream=_stream;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) CDUnknownBlockType transformBlock; // @synthesize transformBlock=_transformBlock;
 
 @end

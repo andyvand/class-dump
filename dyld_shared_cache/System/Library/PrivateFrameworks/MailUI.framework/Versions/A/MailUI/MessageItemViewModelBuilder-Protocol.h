@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFollowUp, NSDate;
+@class EMFollowUp;
 
 @protocol MessageItemViewModelBuilder
+- (_Bool)=;
+- (void);
+- (EMFollowUp *);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isBlockedSender) _Bool blockedSender;
-@property(copy, nonatomic) NSDate *date;
-@property(copy, nonatomic) NSDate *displayDate;
-@property(copy, nonatomic) EMFollowUp *followUp;
-@property(nonatomic) _Bool hasAttachments;
-@property(copy, nonatomic) NSDate *readLaterDate;
-@property(copy, nonatomic) NSDate *sendLaterDate;
-@property(nonatomic) long long unsubscribeType;
 @end
 

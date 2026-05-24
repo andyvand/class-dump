@@ -11,22 +11,22 @@
 }
 
 + (id).Õÿ;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Failed to copy APTicket properties. Falling back to default policy.;
+- (_Bool)-erly-kbgs-allow-load' (%d) was not a multiple of (%d);
+- (_Bool)y-kbgs-allow-load' was 0;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void)set_privacyProxyFailClosedForUnreachableNonMainHosts: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ceived no bytes, no error, and no EOF from connection;
+- (_Bool)=%@ Select for FS data failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)s;
-- (struct CGSize);
+- (id)_shouldShowIndicators;
+- (struct CGSize)WindowPortal;
 - (struct CGSize)T¬¸C;
 
 @end

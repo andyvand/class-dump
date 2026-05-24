@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, RCUnfairLock;
+@class NSString;
 
 @interface RCBackgroundFetchConfiguration
 {
     NSString *_taskIdentifier;
-    NSString *_sessionIdentifier;
-    NSString *_sharedContainerIdentifier;
-    NSDate *_earliestBeginDate;
-    RCUnfairLock *_accessLock;
-    double _internalTimeout;
 }
 
 - (id);
@@ -27,20 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) RCUnfairLock *accessLock; // @synthesize accessLock=_accessLock;
-@property(retain, nonatomic) NSDate *earliestBeginDate; // @synthesize earliestBeginDate=_earliestBeginDate;
-@property(nonatomic) double internalTimeout; // @synthesize internalTimeout=_internalTimeout;
-@property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) NSString *sharedContainerIdentifier; // @synthesize sharedContainerIdentifier=_sharedContainerIdentifier;
 @property(retain, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
-@property(nonatomic) double timeout;
 
 @end
 

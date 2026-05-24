@@ -4,9 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UITargetedDragPreview, _UIClickPresentationInteraction;
+
 @protocol _UIClickPresentationInteractionDelegateInternal
 
 @optional
+- (NSArray *)handleMessageUpdateWithCKRecord:(_UIClickPresentationInteraction *)arg1;
+- (_Bool)So26IMDFilePurgeabilityMonitorC;
+- (_Bool)2IdentifiableP;
+- (_Bool)SbIeAgHr_;
+- (void)1Sg;
+- (_Bool)So8NSStringCSg;
+- (void)So29IMDTrustKitDecisioningManagerC;
+- (UITargetedDragPreview *);
+- (void)!;
 - (_Bool);
 @end
 

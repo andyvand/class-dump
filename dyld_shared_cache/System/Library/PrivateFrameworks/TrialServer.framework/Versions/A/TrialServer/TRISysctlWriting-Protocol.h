@@ -5,5 +5,6 @@
 //
 
 @protocol TRISysctlWriting
+- (_Bool)CGPoint=dd}{CGSize=dd}}88^d120;
 @end
 

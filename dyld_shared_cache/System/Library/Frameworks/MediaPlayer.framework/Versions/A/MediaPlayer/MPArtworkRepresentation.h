@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSImage, NSString;
-
 @interface MPArtworkRepresentation
 {
     _Bool _imagePrepared;
-    long long _kind;
-    NSImage *_image;
-    AVAsset *_video;
-    NSString *_visualIdenticalityStringRepresentation;
-    id _representationToken;
-    struct CGSize _representationSize;
 }
 
 + (id);
@@ -28,23 +20,17 @@
 - (id);
 - (struct CGSize);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void)PropertyPlaylistKeepLocalEnableState__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistKeepLocalEnableState__MAPPING_MISSING__;
 - (id)onBeats1;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic, getter=isImagePrepared) _Bool imagePrepared; // @synthesize imagePrepared=_imagePrepared;
 @property(nonatomic) long long kind; // @synthesize kind=_kind;
-@property(nonatomic) struct CGSize representationSize; // @synthesize representationSize=_representationSize;
-@property(retain, nonatomic) id representationToken; // @synthesize representationToken=_representationToken;
-@property(retain, nonatomic) AVAsset *video; // @synthesize video=_video;
-@property(readonly, copy, nonatomic) NSString *visualIdenticalityStringRepresentation; // @synthesize visualIdenticalityStringRepresentation=_visualIdenticalityStringRepresentation;
 
 @end
 

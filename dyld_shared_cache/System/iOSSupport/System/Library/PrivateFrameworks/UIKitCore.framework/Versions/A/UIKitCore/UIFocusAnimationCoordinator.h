@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIFocusUpdateContext, _UIFocusAnimationConfiguration;
+@class _UIFocusAnimationConfiguration;
 
 @interface UIFocusAnimationCoordinator
 {
     _Bool _locked;
-    _UIFocusAnimationConfiguration *_focusingConfiguration;
-    _UIFocusAnimationConfiguration *_unfocusingConfiguration;
-    NSMutableArray *_focusingAnimations;
-    NSMutableArray *_legacyFocusingAnimations;
-    NSMutableArray *_unfocusingAnimations;
-    NSMutableArray *_legacyUnfocusingAnimations;
-    NSMutableArray *_focusingCompletions;
-    NSMutableArray *_unfocusingCompletions;
-    UIFocusUpdateContext *_focusUpdateContext;
-    long long _activeFocusAnimation;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)=;
+- (id);
+- (id);
+- (id);
+- (void)ing handle for the mentioned identity, and it is a valid alias:(id)arg1 %@;
+- (void)sages that would have been cutoff by a count of %ld of out %ld total cutoff chat groups;
+- (id)with cloudkit api;
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (double);
 - (double);
 - (void);
@@ -58,28 +48,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long)dateDescription;
+- (unsigned long long)_selectedCandidateDescription;
 - (void)8¨ÿ&¬;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_activeAnimationDuration) double activeAnimationDuration;
-@property(readonly, copy, nonatomic, getter=_activeConfiguration) _UIFocusAnimationConfiguration *activeConfiguration;
-@property(readonly, nonatomic) long long activeFocusAnimation; // @synthesize activeFocusAnimation=_activeFocusAnimation;
-@property(readonly, nonatomic, getter=_animationDelay) double animationDelay;
-@property(readonly, nonatomic, getter=_animationOptions) unsigned long long animationOptions;
-@property(readonly, nonatomic, getter=_focusUpdateContext) UIFocusUpdateContext *focusUpdateContext; // @synthesize focusUpdateContext=_focusUpdateContext;
-@property(readonly, nonatomic, getter=_focusingAnimationDuration) double focusingAnimationDuration;
-@property(readonly, nonatomic) NSMutableArray *focusingAnimations; // @synthesize focusingAnimations=_focusingAnimations;
-@property(readonly, nonatomic) NSMutableArray *focusingCompletions; // @synthesize focusingCompletions=_focusingCompletions;
 @property(retain, nonatomic) _UIFocusAnimationConfiguration *focusingConfiguration; // @synthesize focusingConfiguration=_focusingConfiguration;
-@property(readonly, nonatomic) NSMutableArray *legacyFocusingAnimations; // @synthesize legacyFocusingAnimations=_legacyFocusingAnimations;
-@property(readonly, nonatomic) NSMutableArray *legacyUnfocusingAnimations; // @synthesize legacyUnfocusingAnimations=_legacyUnfocusingAnimations;
-@property(readonly, nonatomic, getter=_isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(readonly, nonatomic, getter=_unfocusingAnimationDuration) double unfocusingAnimationDuration;
-@property(readonly, nonatomic) NSMutableArray *unfocusingAnimations; // @synthesize unfocusingAnimations=_unfocusingAnimations;
-@property(readonly, nonatomic) NSMutableArray *unfocusingCompletions; // @synthesize unfocusingCompletions=_unfocusingCompletions;
-@property(retain, nonatomic) _UIFocusAnimationConfiguration *unfocusingConfiguration; // @synthesize unfocusingConfiguration=_unfocusingConfiguration;
-@property(readonly, nonatomic, getter=_unfocusingRepositionAnimationDuration) double unfocusingRepositionAnimationDuration;
 
 @end
 

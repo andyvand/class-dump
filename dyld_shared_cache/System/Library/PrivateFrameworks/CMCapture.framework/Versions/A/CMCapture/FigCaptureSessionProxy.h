@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FigCaptureSessionPreviewTapDelegate;
-
 @interface FigCaptureSessionProxy
 {
     struct OpaqueFigCaptureSession *_session;
-    long long _identifier;
-    CDStruct_4c969caf _clientAuditToken;
-    _Bool _containsVideoSource;
-    _Bool _containsStillImageSink;
-    _Bool _containsMovieFileSink;
-    _Bool _previewTapOpened;
-    id <FigCaptureSessionPreviewTapDelegate> _previewTapDelegate;
 }
 
-+ (void)tructuredLightAssistedAutoFocusSupported;
++ (void)StructuredLightAssistedAutoFocusSupported;
 - (_Bool);
-- (void);
+- (void)_callstack;
 - (int);
 - (_Bool);
 - (id);
@@ -30,10 +21,6 @@
 - (CDStruct_4c969caf)ÿøB;
 
 // Remaining properties
-@property(readonly) CDStruct_4c969caf clientAuditToken;
-@property(readonly) _Bool containsMovieFileSink;
-@property(readonly) _Bool containsStillImageSink;
-@property(readonly) _Bool containsVideoSource;
 @property(readonly) long long identifier;
 
 @end

@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, PXExtendedImageConfiguration;
-
 @interface PXCuratedLibraryChapterHeaderLayoutSpec
 {
     _Bool _wantsChevron;
-    _Bool _shouldFloat;
-    _Bool _shouldAbbreviateMonth;
-    _Bool _shouldAlwaysShowFloatingVersion;
-    NSFont *_titleFont;
-    double _titleHeight;
-    NSColor *_titleEmphasizedColor;
-    NSColor *_floatingTitleEmphasizedColor;
-    NSColor *_titleDeemphasizedColor;
-    NSColor *_floatingTitleDeemphasizedColor;
-    PXExtendedImageConfiguration *_chevronImageConfiguration;
-    double _spacingBetweenTitleAndChevron;
-    double _spacingBetweenTitleTopAndPreviousCardBottom;
-    double _spacingBetweenTitleBottomAndNextCardTop;
-    double _floatingDistanceFromSafeAreaTop;
-    double _floatingAppearanceCrossfadeStartDistance;
-    double _floatingAppearanceCrossfadeDistance;
-    double _floatingAppearanceCrossfadeDuration;
-    double _floatingFadeOutDistance;
-    struct CGSize _contentInset;
 }
 
 - (id);
@@ -35,7 +14,7 @@
 - (double);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -44,36 +23,17 @@
 - (double);
 - (double);
 - (double);
-- (id);
+- (id);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)>;
 - (double);
 - (id);
 - (struct CGSize);
-- (void)ionTitleAccessibilityModifier;
+- (void)LemonadeNavigtationTitleAccessibilityModifier;
 
 // Remaining properties
-@property(readonly, nonatomic) PXExtendedImageConfiguration *chevronImageConfiguration; // @synthesize chevronImageConfiguration=_chevronImageConfiguration;
 @property(readonly, nonatomic) struct CGSize contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, nonatomic) double floatingAppearanceCrossfadeDistance; // @synthesize floatingAppearanceCrossfadeDistance=_floatingAppearanceCrossfadeDistance;
-@property(readonly, nonatomic) double floatingAppearanceCrossfadeDuration; // @synthesize floatingAppearanceCrossfadeDuration=_floatingAppearanceCrossfadeDuration;
-@property(readonly, nonatomic) double floatingAppearanceCrossfadeStartDistance; // @synthesize floatingAppearanceCrossfadeStartDistance=_floatingAppearanceCrossfadeStartDistance;
-@property(readonly, nonatomic) double floatingDistanceFromSafeAreaTop; // @synthesize floatingDistanceFromSafeAreaTop=_floatingDistanceFromSafeAreaTop;
-@property(readonly, nonatomic) double floatingFadeOutDistance; // @synthesize floatingFadeOutDistance=_floatingFadeOutDistance;
-@property(readonly, nonatomic) NSColor *floatingTitleDeemphasizedColor; // @synthesize floatingTitleDeemphasizedColor=_floatingTitleDeemphasizedColor;
-@property(readonly, nonatomic) NSColor *floatingTitleEmphasizedColor; // @synthesize floatingTitleEmphasizedColor=_floatingTitleEmphasizedColor;
-@property(readonly, nonatomic) _Bool shouldAbbreviateMonth; // @synthesize shouldAbbreviateMonth=_shouldAbbreviateMonth;
-@property(readonly, nonatomic) _Bool shouldAlwaysShowFloatingVersion; // @synthesize shouldAlwaysShowFloatingVersion=_shouldAlwaysShowFloatingVersion;
-@property(readonly, nonatomic) _Bool shouldFloat; // @synthesize shouldFloat=_shouldFloat;
-@property(readonly, nonatomic) double spacingBetweenTitleAndChevron; // @synthesize spacingBetweenTitleAndChevron=_spacingBetweenTitleAndChevron;
-@property(readonly, nonatomic) double spacingBetweenTitleBottomAndNextCardTop; // @synthesize spacingBetweenTitleBottomAndNextCardTop=_spacingBetweenTitleBottomAndNextCardTop;
-@property(readonly, nonatomic) double spacingBetweenTitleTopAndPreviousCardBottom; // @synthesize spacingBetweenTitleTopAndPreviousCardBottom=_spacingBetweenTitleTopAndPreviousCardBottom;
-@property(readonly, nonatomic) NSColor *titleDeemphasizedColor; // @synthesize titleDeemphasizedColor=_titleDeemphasizedColor;
-@property(readonly, nonatomic) NSColor *titleEmphasizedColor; // @synthesize titleEmphasizedColor=_titleEmphasizedColor;
-@property(readonly, nonatomic) NSFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(readonly, nonatomic) double titleHeight; // @synthesize titleHeight=_titleHeight;
-@property(readonly, nonatomic) _Bool wantsChevron; // @synthesize wantsChevron=_wantsChevron;
 
 @end
 

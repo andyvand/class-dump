@@ -6,23 +6,11 @@
 
 #import <LoginUIKit/LUIController.h>
 
-@class LUIButtonViewController, LUIFMMViewController, LUILogoViewController, LUIMessageViewController, LUIStatusViewController, LUIWindow, NSLock, NSMutableArray, NSTimer;
+@class LUIWindow;
 
 @interface LUIWindowController : LUIController
 {
     LUIWindow *_mainWindow;
-    NSMutableArray *_windows;
-    CDUnknownBlockType _windowDidShowBlock;
-    _Bool _usesDesktopPicture;
-    _Bool _desktopPicturesUpdated;
-    NSLock *_tearDownLock;
-    _Bool _tearDownDone;
-    NSTimer *_displayChangeTimer;
-    LUIButtonViewController *_buttonViewController;
-    LUIFMMViewController *_fmmViewController;
-    LUILogoViewController *_logoViewController;
-    LUIStatusViewController *_statusViewController;
-    LUIMessageViewController *_messageViewController;
 }
 
 + (id);
@@ -60,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -73,18 +61,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) LUIButtonViewController *buttonController;
-@property(readonly) LUIButtonViewController *buttonViewController; // @synthesize buttonViewController=_buttonViewController;
-@property(readonly) LUIFMMViewController *fmmController;
-@property(readonly) LUIFMMViewController *fmmViewController; // @synthesize fmmViewController=_fmmViewController;
-@property(readonly) LUILogoViewController *logoController;
-@property(readonly) LUILogoViewController *logoViewController; // @synthesize logoViewController=_logoViewController;
 @property(readonly) LUIWindow *mainWindow; // @synthesize mainWindow=_mainWindow;
-@property(readonly) LUIMessageViewController *messageController;
-@property(readonly) LUIMessageViewController *messageViewController; // @synthesize messageViewController=_messageViewController;
-@property(readonly) LUIStatusViewController *statusController;
-@property(readonly) LUIStatusViewController *statusViewController; // @synthesize statusViewController=_statusViewController;
-@property(copy) CDUnknownBlockType windowDidShowBlock; // @synthesize windowDidShowBlock=_windowDidShowBlock;
 
 @end
 

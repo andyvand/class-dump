@@ -7,29 +7,15 @@
 #import <CFNetwork/__CFNCoreLoggable.h>
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_nw_connection;
+@protocol OS_nw_connection;
 
 __attribute__((visibility("hidden")))
 @interface NWStreamPair : __CFNCoreLoggable
 {
     NSObject<OS_nw_connection> *_connection;
-    void *_rs;
-    void *_ws;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned char _doneInitialRead;
-    struct __CFError *_readError;
-    struct __CFError *_writeError;
-    struct ReadBuffer *_readData;
-    unsigned char _atEOF;
-    unsigned char _wsClosing;
-    unsigned char _rsClosing;
-    struct __CFData *_cachedPeerName;
-    struct __SecTrust *_cachedTrust;
-    struct __CFArray *_cachedPeerCerts;
-    long long _outstandingWrites;
 }
 
-- (void);
+- (void)chochingthai;
 
 @end
 

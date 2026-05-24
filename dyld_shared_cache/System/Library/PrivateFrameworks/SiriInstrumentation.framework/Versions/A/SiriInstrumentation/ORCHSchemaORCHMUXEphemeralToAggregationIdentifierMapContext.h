@@ -6,18 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMap;
+@class ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMap;
 
 @interface ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMapContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMap *_selectedUser;
-    _Bool _hasSelectedUser;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -32,8 +31,6 @@
 - (void)lection.values.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSelectedUser; // @synthesize hasSelectedUser=_hasSelectedUser;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMap *selectedUser; // @synthesize selectedUser=_selectedUser;
 
 @end

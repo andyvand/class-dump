@@ -5,5 +5,8 @@
 //
 
 @protocol UIEditMenuInteractionDelegate
+
+@optional
+- (void);
 @end
 

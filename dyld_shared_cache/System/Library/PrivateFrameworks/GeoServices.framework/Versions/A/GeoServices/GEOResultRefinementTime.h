@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, NSString;
+@class NSString;
 
 @interface GEOResultRefinementTime
 {
     _Bool _isSelected;
-    _Bool _isNextDay;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    double _timeStamp;
 }
 
 - (_Bool);
-- (id);
-- (id);
+- (id)containerWithManagedObjectContext:(id)arg1 store: /* Error: Ran out of types for this method. */;
+- (id)V_coordinator;
 - (id);
 - (double);
 - (id);
@@ -27,10 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool isNextDay; // @synthesize isNextDay=_isNextDay;
-@property(readonly, nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(readonly, nonatomic) GEOPDResultRefinementMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) double timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

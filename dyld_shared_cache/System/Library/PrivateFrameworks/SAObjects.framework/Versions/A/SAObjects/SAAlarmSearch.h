@@ -6,18 +6,18 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface SAAlarmSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)Default means using the default in the graph;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)/;
 - (id);
 - (id);
 - (id);
@@ -26,21 +26,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)V;
 - (id)3;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *enabled;
-@property(copy, nonatomic) NSArray *frequency;
-@property(copy, nonatomic) NSNumber *hour;
-@property(copy, nonatomic) NSURL *identifier;
-@property(copy, nonatomic) NSNumber *includesSleepAlarms;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *minute;
 
 @end
 

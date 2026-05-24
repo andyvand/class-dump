@@ -6,15 +6,11 @@
 
 #import <SearchUI/SearchUICommandHandler.h>
 
-@class INIntent, NSString, SFMediaMetadata, WFSpotlightResultWorkflowRunnerClient;
+@class WFSpotlightResultWorkflowRunnerClient;
 
 @interface SearchUIMediaHandler : SearchUICommandHandler
 {
     _Bool _supportsIntentPath;
-    NSString *_clientSelectedBundleIdentifier;
-    INIntent *_intent;
-    SFMediaMetadata *_mediaMetadata;
-    WFSpotlightResultWorkflowRunnerClient *_workflowClient;
 }
 
 - (id);
@@ -24,24 +20,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ic;
+- (id)variant_microBraid_medium_mid;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *clientSelectedBundleIdentifier; // @synthesize clientSelectedBundleIdentifier=_clientSelectedBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly) SFMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsIntentPath; // @synthesize supportsIntentPath=_supportsIntentPath;
 @property(retain) WFSpotlightResultWorkflowRunnerClient *workflowClient; // @synthesize workflowClient=_workflowClient;
 
 @end

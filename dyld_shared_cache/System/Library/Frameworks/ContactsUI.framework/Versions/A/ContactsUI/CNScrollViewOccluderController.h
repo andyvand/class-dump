@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIViewRevealer, NSScrollView, NSView;
-@protocol CNCancelable;
+@class NSScrollView;
 
 @interface CNScrollViewOccluderController
 {
     _Bool _animateOccluderVisibility;
-    NSScrollView *_scrollView;
-    NSView *_topOccluder;
-    NSView *_bottomOccluder;
-    CNUIViewRevealer *_viewRevealer;
-    id <CNCancelable> _occlusionDidChangeToken;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (id);
 - (_Bool);
@@ -37,12 +31,7 @@
 - (void)er",W,N,V_contactDetailsViewController;
 
 // Remaining properties
-@property(nonatomic) _Bool animateOccluderVisibility; // @synthesize animateOccluderVisibility=_animateOccluderVisibility;
-@property(nonatomic) __weak NSView *bottomOccluder; // @synthesize bottomOccluder=_bottomOccluder;
-@property(retain, nonatomic) id <CNCancelable> occlusionDidChangeToken; // @synthesize occlusionDidChangeToken=_occlusionDidChangeToken;
 @property(nonatomic) __weak NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) __weak NSView *topOccluder; // @synthesize topOccluder=_topOccluder;
-@property(retain, nonatomic) CNUIViewRevealer *viewRevealer; // @synthesize viewRevealer=_viewRevealer;
 
 @end
 

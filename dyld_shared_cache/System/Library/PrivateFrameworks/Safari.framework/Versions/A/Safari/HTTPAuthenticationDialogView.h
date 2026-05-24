@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ButtonPlus, NSButton, NSString, NSTextField;
+@class ButtonPlus;
 @protocol HTTPAuthenticationDialogViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HTTPAuthenticationDialogView
 {
     id <HTTPAuthenticationDialogViewDelegate> _delegate;
-    NSTextField *_userNameTextField;
-    NSTextField *_passwordTextField;
-    NSButton *_rememberThisPasswordCheckbox;
-    ButtonPlus *_logInButton;
-    ButtonPlus *_cancelButton;
-    NSTextField *_title;
-    NSTextField *_securityLabel;
 }
 
 - (void);
@@ -33,15 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)G;
 - (void);
-- (void);
+- (void)ldn't find client %@ associated with this characteristic %@ (unsubscribing);
 - (void)!AÐ!ÄBùÑ¡Ð1Â0@ù
 × ;
 - (id));
@@ -50,21 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)D4;
 
 // Remaining properties
-@property(nonatomic) __weak ButtonPlus *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HTTPAuthenticationDialogViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak ButtonPlus *logInButton; // @synthesize logInButton=_logInButton;
-@property(nonatomic) __weak NSTextField *passwordTextField; // @synthesize passwordTextField=_passwordTextField;
-@property(nonatomic) __weak NSButton *rememberThisPasswordCheckbox; // @synthesize rememberThisPasswordCheckbox=_rememberThisPasswordCheckbox;
-@property(nonatomic) __weak NSTextField *securityLabel; // @synthesize securityLabel=_securityLabel;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextField *title; // @synthesize title=_title;
-@property(nonatomic) __weak NSTextField *userNameTextField; // @synthesize userNameTextField=_userNameTextField;
 
 @end
 

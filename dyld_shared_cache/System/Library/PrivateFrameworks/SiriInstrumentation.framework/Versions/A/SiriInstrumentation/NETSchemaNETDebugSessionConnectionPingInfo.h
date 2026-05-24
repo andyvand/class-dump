@@ -6,23 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETDebugSessionConnectionPingInfo : SISchemaInstrumentationMessage
 {
     unsigned int _pingCount;
-    double _meanPingInMs;
-    unsigned int _unacknowledgedPingCount;
-    struct {
-        unsigned int pingCount:1;
-        unsigned int meanPingInMs:1;
-        unsigned int unacknowledgedPingCount:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,7 +25,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)-PANOnly;
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
@@ -45,16 +36,10 @@
 - (void)1Â0@ù
 × ;
 - (id)tionTrainingAppIndependentSignals;
-- (id)oUndo;
+- (id)hasUnableToUndo;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMeanPingInMs;
-@property(nonatomic) _Bool hasPingCount;
-@property(nonatomic) _Bool hasUnacknowledgedPingCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double meanPingInMs; // @synthesize meanPingInMs=_meanPingInMs;
 @property(nonatomic) unsigned int pingCount; // @synthesize pingCount=_pingCount;
-@property(nonatomic) unsigned int unacknowledgedPingCount; // @synthesize unacknowledgedPingCount=_unacknowledgedPingCount;
 
 @end
 

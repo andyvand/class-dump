@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CBUseCaseable
+- (void)__FILEPROVIDER_V2_EXTENSION_WITHOUT_IMPL;
 
 // Remaining properties
 @property(nonatomic) unsigned int useCase;
-@property(copy, nonatomic) NSArray *useCaseClientIDs;
 @end
 

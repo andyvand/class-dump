@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)GraphSynonymSupport;
+- (id)removeObserver:forKeyPath:context: /* Error: Ran out of types for this method. */;
+- (id)PGGraphSynonymSupport;
 
 @end
 

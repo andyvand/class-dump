@@ -19,8 +19,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)icsEnabled:%d
+ isEyeReliefEnabled:%d
+)} /* Error: Ran out of types for this method. */;
+- (void)P;
 - (id);
 
 @end

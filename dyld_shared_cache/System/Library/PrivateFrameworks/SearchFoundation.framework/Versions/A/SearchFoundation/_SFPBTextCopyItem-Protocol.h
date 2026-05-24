@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBTextCopyItem
+- (NSData *)mageURLSandboxExtensionWrapper;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *copyableString;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

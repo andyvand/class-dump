@@ -6,7 +6,7 @@
 
 @interface UnknownClass (TeaUI)
 - (void);
-- (void);
+- (void)\I;
 - (void);
 - (void);
 @end

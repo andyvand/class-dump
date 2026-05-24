@@ -5,5 +5,9 @@
 //
 
 @protocol CTXPCServiceProvisioningInterface
+- (void);
+- (void);
+- (void);
+- (void)p;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNObservable, NSArray, NSPredicate, NSString, NSURL;
-@protocol CNAccountCollection, CNAccountDescription;
+@class NSPredicate;
 
 @interface CNDelegateAccessAccountCollection
 {
     NSPredicate *_predicate;
-    id <CNAccountCollection> _accountCollection;
-    NSArray *_allAccountsImpl;
 }
 
 - (id);
@@ -35,25 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(readonly, copy) NSArray *allAccounts;
-@property(readonly, copy, nonatomic) NSArray *allAccountsImpl; // @synthesize allAccountsImpl=_allAccountsImpl;
-@property(readonly, copy) NSURL *baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <CNAccountDescription> defaultAccount;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) CNObservable *enabledAccountsObservable;
-@property(readonly) CNObservable *enabledPersistentAccountsObservable;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool includeLocalAccount;
-@property(readonly, copy) NSArray *persistentEnabledAccounts;
 @property(readonly, copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
-@property(copy) NSString *tag;
 
 @end
 

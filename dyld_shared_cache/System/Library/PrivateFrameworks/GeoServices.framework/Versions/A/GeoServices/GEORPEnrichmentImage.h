@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPEnrichmentImage
 {
     PBDataReader *_reader;
-    NSString *_imageId;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_imageId:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ngInGeoAPd:(id)arg1;
-- (_Bool);
++ (_Bool)setIsRunningInGeoAPd:(id)arg1;
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setIsAPHearstFirstPassEnabled: /* Error: Ran out of types for this method. */;
+- (void)receive audio here, heartbeat = %{public}lld;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)kAroundScene",&,N,V_scene;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id)};
-- (id)thesizedStepManeuverTypeAsString: /* Error: Ran out of types for this method. */;
-- (id)ute: /* Error: Ran out of types for this method. */;
+- (id)synthesizedStepManeuverTypeAsString: /* Error: Ran out of types for this method. */;
+- (id)addReroutedRoute: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)bug;
+- (id)includeSnapScoreMetadataDebug;
 - (void)\;
 - (void)*WxÜL@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasImageId;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) NSString *imageId;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

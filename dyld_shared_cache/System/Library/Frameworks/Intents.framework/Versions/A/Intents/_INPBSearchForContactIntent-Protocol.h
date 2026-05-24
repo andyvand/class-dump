@@ -7,12 +7,10 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBSearchForContactIntent
+- (_INPBIntentMetadata *);
 - (_Bool)hasSharedUserIdFromPlayableMusicAccount;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contactIdentifiers;
-@property(readonly, nonatomic) unsigned long long contactIdentifiersCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

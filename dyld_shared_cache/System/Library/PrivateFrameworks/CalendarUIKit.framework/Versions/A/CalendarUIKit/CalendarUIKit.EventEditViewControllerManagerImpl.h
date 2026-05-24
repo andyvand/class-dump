@@ -9,50 +9,40 @@
 @interface CalendarUIKit.EventEditViewControllerManagerImpl
 {
     id delegate;
-    id isEditing;
-    id allowsEditing;
-    id needsInlineEditButton;
-    id eventCreationMethod;
-    id hasViewModel;
-    id $__lazy_storage_$_viewModel;
-    id $__lazy_storage_$_viewController;
 }
 
-- (void)ªrùýèª	Jøô;
-- (void)â;
-- (void)ñ.;
-- (void)ôæA©àªáªÆùýâ;
-- (void)àªáªôª@3;
-- (void)Eøô;
-- (void)ªàªáª+;
 - (void);
-- (void)T?ëB÷ÿT_ëúª ÷ÿTàªáª";
-- (void)àª6ÿàª6ÿô;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)ð10@ù
-?×é;
-- (_Bool)c`d`;
-- (void)@ù
-?×è;
-- (_Bool)¡Z°! 0;
+- (id);
+- (_Bool);
 - (void);
-- (void)ÀøÿµÆÿÿ³¼°sÊEùa
-@ù`;
-- (void)ªjÑàª`Ñ¿ë ;
-- (void);
-- (void)RáªâªãªbÓö;
-- (void)_Ö;
-- (void)ªáªâªãªûüÿàª=éàªáªëþàªáªâªãªñüÿ;
-- (id)ZðcÀ' ÃÑ¡Ñâªôªõªëäôª y©¢z©_ýÿÈ@øàªáªñªàò	?×õª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©üFøÿ_Ö#Õý{¿©ý;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)ViewMode: /* Error: Ran out of types for this method. */;
+- (id)BuildChromaXInfo:TrimSetAct:Luma:Idxa:IdxMax:X2Interp:DmMetaData: /* Error: Ran out of types for this method. */;
+- (void)setLastViewMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NSViewController *viewController;

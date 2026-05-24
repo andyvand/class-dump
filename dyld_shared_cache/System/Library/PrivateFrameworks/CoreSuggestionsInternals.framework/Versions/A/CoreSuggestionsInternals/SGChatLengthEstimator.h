@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
+@class NSString;
 
 @interface SGChatLengthEstimator
 {
     int _fd;
-    NSMutableData *_backingData;
-    unsigned short *_countPtr;
-    char *_sketch;
-    struct _opaque_pthread_mutex_t _lock;
-    NSString *_path;
 }
 
 + (void);
 + (id)È;
-- (void);
+- (void)h;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
+- (id)nts before its offset;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)initWithData:encoding: /* Error: Ran out of types for this method. */;
 - (void)¤;
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(readonly) NSString *path; // @synthesize path=_path;
 
 @end

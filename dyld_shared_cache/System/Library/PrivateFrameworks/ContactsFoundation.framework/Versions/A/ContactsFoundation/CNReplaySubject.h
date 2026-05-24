@@ -6,16 +6,11 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class CNObservableContractEnforcement, NSMutableArray, NSString, _CNObservableEventBufferingStrategy;
-@protocol CNSchedulerProvider, NSLocking;
+@class NSMutableArray;
 
 @interface CNReplaySubject : CNObservable
 {
     NSMutableArray *_observers;
-    _CNObservableEventBufferingStrategy *_recentEventStrategy;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <NSLocking> _resourceLock;
-    CNObservableContractEnforcement *_enforcement;
 }
 
 - (void);
@@ -27,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -40,21 +35,10 @@
 - (id)Â0@ù
 × ;
 - (id)Ô ;
-- (void)tPhotosKey;
+- (void)CNDefaultsShowContactPhotosKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNObservableContractEnforcement *enforcement; // @synthesize enforcement=_enforcement;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableArray *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) _CNObservableEventBufferingStrategy *recentEventStrategy; // @synthesize recentEventStrategy=_recentEventStrategy;
-@property(readonly, nonatomic) id <NSLocking> resourceLock; // @synthesize resourceLock=_resourceLock;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

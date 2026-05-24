@@ -5,5 +5,6 @@
 //
 
 @protocol ICCRCoding
+- (id);
 @end
 

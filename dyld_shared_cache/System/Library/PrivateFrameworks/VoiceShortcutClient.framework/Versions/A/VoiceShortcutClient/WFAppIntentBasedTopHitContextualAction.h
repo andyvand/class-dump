@@ -6,25 +6,17 @@
 
 #import <VoiceShortcutClient/WFTopHitItemContextualAction.h>
 
-@class LNAction, LNProperty, NSString;
+@class LNAction;
 
 @interface WFAppIntentBasedTopHitContextualAction : WFTopHitItemContextualAction
 {
     LNAction *_linkAction;
-    LNProperty *_parameterValue;
-    NSString *_appBundleIdentifier;
-    NSString *_extensionBundleIdentifier;
-    long long _authenticationPolicy;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(readonly, nonatomic) long long authenticationPolicy; // @synthesize authenticationPolicy=_authenticationPolicy;
-@property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
 @property(readonly, nonatomic) LNAction *linkAction; // @synthesize linkAction=_linkAction;
-@property(readonly, nonatomic) LNProperty *parameterValue; // @synthesize parameterValue=_parameterValue;
 
 @end
 

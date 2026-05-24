@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedAppConfigManager
 {
     id appConfigManager;
-    id formatConfigManager;
 }
 
 @end

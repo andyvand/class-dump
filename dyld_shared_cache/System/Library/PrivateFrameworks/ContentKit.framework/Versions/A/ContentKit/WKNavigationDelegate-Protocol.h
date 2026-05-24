@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKWebView;
+
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void);
+- (void)DSourceAccessor}(?=^{__CFData}^v^v)qb1b1b1}SCC};
+- (void)shouldRecordHistoryVisitAtTime:(WKWebView *)arg1;
+- (void);
 @end
 

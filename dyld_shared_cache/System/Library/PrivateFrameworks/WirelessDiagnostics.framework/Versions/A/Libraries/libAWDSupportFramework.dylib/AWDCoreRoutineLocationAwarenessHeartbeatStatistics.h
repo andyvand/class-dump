@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineLocationAwarenessBasicHistogram;
-
 @interface AWDCoreRoutineLocationAwarenessHeartbeatStatistics
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_heartbeatActiveRequestCount;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_heartbeatTimerFiringCount;
-    AWDCoreRoutineLocationAwarenessBasicHistogram *_heartbeatValidLocationCount;
-    CDStruct_9b5766a4 _has;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -37,24 +30,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasHeartbeatActiveRequestCount;
-@property(readonly, nonatomic) _Bool hasHeartbeatTimerFiringCount;
-@property(readonly, nonatomic) _Bool hasHeartbeatValidLocationCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDCoreRoutineLocationAwarenessBasicHistogram *heartbeatActiveRequestCount; // @synthesize heartbeatActiveRequestCount=_heartbeatActiveRequestCount;
-@property(retain, nonatomic) AWDCoreRoutineLocationAwarenessBasicHistogram *heartbeatTimerFiringCount; // @synthesize heartbeatTimerFiringCount=_heartbeatTimerFiringCount;
-@property(retain, nonatomic) AWDCoreRoutineLocationAwarenessBasicHistogram *heartbeatValidLocationCount; // @synthesize heartbeatValidLocationCount=_heartbeatValidLocationCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BlastDoorASCodableActivityDataPreview, _BlastDoorASCodableShareLocations;
+@class _BlastDoorASCodableActivityDataPreview;
 
 @interface _BlastDoorASCodableFinalizeHandshake
 {
     _BlastDoorASCodableActivityDataPreview *_activityDataPreview;
-    NSString *_handshakeToken;
-    _BlastDoorASCodableShareLocations *_inviterShareLocations;
 }
 
 - (void);
@@ -24,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,12 +32,7 @@
 - (void)HËÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorASCodableActivityDataPreview *activityDataPreview; // @synthesize activityDataPreview=_activityDataPreview;
-@property(retain, nonatomic) NSString *handshakeToken; // @synthesize handshakeToken=_handshakeToken;
-@property(readonly, nonatomic) _Bool hasActivityDataPreview;
 @property(readonly, nonatomic) _Bool hasHandshakeToken;
-@property(readonly, nonatomic) _Bool hasInviterShareLocations;
-@property(retain, nonatomic) _BlastDoorASCodableShareLocations *inviterShareLocations; // @synthesize inviterShareLocations=_inviterShareLocations;
 
 @end
 

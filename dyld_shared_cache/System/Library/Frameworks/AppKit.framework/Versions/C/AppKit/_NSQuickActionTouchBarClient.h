@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSRunningApplication, NSSet, NSString, NSXPCConnection, _NSQuickActionProvider, _NSQuickActionTouchBarClientItemSourceMonitor, _NSQuickActionValidator;
+@class _NSQuickActionProvider;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarClient
 {
     _NSQuickActionProvider *_provider;
-    _NSQuickActionValidator *_validator;
-    _NSQuickActionTouchBarClientItemSourceMonitor *_itemSourceMonitor;
-    NSDictionary *_quickActionsByIdentifier;
-    NSSet *_enabledQuickActionIdentifiers;
-    NSXPCConnection *_connectionToService;
-    NSRunningApplication *_currentApplication;
-    int _touchBarRegistrationToken;
-    _Bool _needsRegistration;
-    _Bool _isRegistrationOpen;
-    _Bool _scheduledUpdate;
-    _Bool _isUpdating;
-    _Bool _isActive;
-    _Bool _isObservingItemSource;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)gnment-2048;
+- (void)t8140;
+- (void)ion;
 - (void);
 - (void);
 - (id);
@@ -39,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)tentUIStorageServiceListener _addActiveConnection:forURL:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

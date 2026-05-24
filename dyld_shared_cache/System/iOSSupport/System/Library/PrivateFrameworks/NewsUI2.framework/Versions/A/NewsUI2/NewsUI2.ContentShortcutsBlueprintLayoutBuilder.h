@@ -7,7 +7,6 @@
 @interface NewsUI2.ContentShortcutsBlueprintLayoutBuilder
 {
     id layoutAttributesFactory;
-    id tagImageApplier;
 }
 
 @end

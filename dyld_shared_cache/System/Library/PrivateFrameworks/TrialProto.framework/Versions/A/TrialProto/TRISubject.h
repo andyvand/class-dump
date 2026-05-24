@@ -12,11 +12,11 @@
 }
 
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)for asset %{public}@;
 - (_Bool);
 - (void);
 - (id);
@@ -26,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
 @property(readonly, nonatomic) _Bool hasDeviceId;
 
 @end

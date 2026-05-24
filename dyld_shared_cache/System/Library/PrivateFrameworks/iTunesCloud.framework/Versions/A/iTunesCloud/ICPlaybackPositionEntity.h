@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ICPlaybackPositionEntity
 {
     NSString *_playbackPositionDomain;
-    NSString *_playbackPositionKey;
-    NSString *_libraryIdentifier;
-    NSNumber *_itemPersistentIdentifier;
-    NSNumber *_bookmarkTimestamp;
-    NSNumber *_bookmarkTime;
-    NSNumber *_userPlayCount;
-    NSNumber *_hasBeenPlayed;
 }
 
 + (id);
@@ -37,27 +30,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)PHome";
+- (id)OfTimesPrimaryResidentChangedHH2"b1};
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void)T@"NSDate",R,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *bookmarkTime; // @synthesize bookmarkTime=_bookmarkTime;
-@property(copy, nonatomic) NSNumber *bookmarkTimestamp; // @synthesize bookmarkTimestamp=_bookmarkTimestamp;
-@property(copy, nonatomic) NSNumber *hasBeenPlayed; // @synthesize hasBeenPlayed=_hasBeenPlayed;
-@property(copy, nonatomic) NSNumber *itemPersistentIdentifier; // @synthesize itemPersistentIdentifier=_itemPersistentIdentifier;
-@property(copy, nonatomic) NSString *libraryIdentifier; // @synthesize libraryIdentifier=_libraryIdentifier;
 @property(readonly, copy, nonatomic) NSString *playbackPositionDomain; // @synthesize playbackPositionDomain=_playbackPositionDomain;
-@property(copy, nonatomic) NSString *playbackPositionKey; // @synthesize playbackPositionKey=_playbackPositionKey;
-@property(copy, nonatomic) NSNumber *userPlayCount; // @synthesize userPlayCount=_userPlayCount;
 
 @end
 

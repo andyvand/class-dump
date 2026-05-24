@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLRequest, NSUUID, WKSecurityOrigin, WKWebView, _WKFrameHandle;
+@class _WKFrameHandle;
 
 @interface WKFrameInfo
 {
@@ -13,11 +13,11 @@
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_։=;
 - (struct CGSize);
 - (struct CGSize);
-- (struct __SecTrust *);
-- (id);
+- (struct __SecTrust *);
+- (id)_ր;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,31 +36,7 @@
 - (id)ÿÆúÚ¹0;
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
-@property(readonly, nonatomic) struct CGSize _contentSize;
-@property(readonly, copy, nonatomic) NSUUID *_documentIdentifier;
-@property(readonly, nonatomic) _Bool _errorOccurred;
 @property(readonly, copy, nonatomic) _WKFrameHandle *_handle;
-@property(readonly, nonatomic) _Bool _isFocused;
-@property(readonly, nonatomic) _Bool _isLocalFrame;
-@property(readonly, nonatomic) _Bool _isScrollable;
-@property(readonly, copy, nonatomic) _WKFrameHandle *_parentFrameHandle;
-@property(readonly, nonatomic) int _processIdentifier;
-@property(readonly, nonatomic) struct __SecTrust *_serverTrust;
-@property(readonly, copy, nonatomic) NSString *_title;
-@property(readonly, nonatomic) struct CGSize _visibleContentSize;
-@property(readonly, nonatomic) struct CGSize _visibleContentSizeExcludingScrollbars;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isMainFrame) _Bool mainFrame;
-@property(readonly, copy, nonatomic) NSURLRequest *request;
-@property(readonly, nonatomic) WKSecurityOrigin *securityOrigin;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak WKWebView *webView;
 
 @end
 

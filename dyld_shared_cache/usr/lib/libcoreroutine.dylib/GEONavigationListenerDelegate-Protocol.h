@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEONavigationListener;
+
 @protocol GEONavigationListenerDelegate
+
+@optional
+- (void);
+- (void)4;
+- (void);
+- (void)setStorageGuid:(GEONavigationListener *)arg1;
 @end
 

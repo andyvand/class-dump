@@ -13,7 +13,7 @@
 
 - (void);
 - (double);
-- (id);
+- (id)removeObserver: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double dateSentAsTimeIntervalSince1970; // @synthesize dateSentAsTimeIntervalSince1970=_dateSentAsTimeIntervalSince1970;

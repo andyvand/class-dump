@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, USOSchemaUSOGraph;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMTask : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    USOSchemaUSOGraph *_task;
-    double _score;
-    CDStruct_4b1634df _has;
-    _Bool _hasTaskId;
-    _Bool _hasTask;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -28,31 +23,25 @@
 - (void);
 - (void);
 - (id);
+- (id)i;
+- (_Bool)nal/Library/BuildRoots/4~CNqZugCSb0I5z409lbGlNTiCYB0uPioBY9TDbg0/Library/Caches/com.apple.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Session/MNNavigationDetails.m;
+- (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)P33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509/x509_req.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)ù
 × ;
 - (id)!;
-- (double)core: /* Error: Ran out of types for this method. */;
+- (double)setPommesL1Score: /* Error: Ran out of types for this method. */;
 - (id)asUufrSaidDialogIdentifier;
 - (id);
 - (void);
-- (void)chemaEXPSiriClientEvent;
+- (void)EXPSiriSchemaEXPSiriClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasTask; // @synthesize hasTask=_hasTask;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) USOSchemaUSOGraph *task; // @synthesize task=_task;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)C;
 + (_Bool);
 + (_Bool);
 

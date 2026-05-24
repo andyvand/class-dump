@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, PKCreditInstallmentPlan;
-@protocol PKBusinessChatContext;
+@class PKCreditInstallmentPlan;
 
 @interface PKAccountServiceAccountResolutionConfiguration
 {
     PKCreditInstallmentPlan *_earlyInstallmentPlan;
-    id <PKBusinessChatContext> _businessChatContext;
-    long long _billPayAmountType;
-    NSDecimalNumber *_billPayAmount;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (long long);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (void)r];
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *billPayAmount; // @synthesize billPayAmount=_billPayAmount;
-@property(nonatomic) long long billPayAmountType; // @synthesize billPayAmountType=_billPayAmountType;
-@property(retain, nonatomic) id <PKBusinessChatContext> businessChatContext; // @synthesize businessChatContext=_businessChatContext;
 @property(retain, nonatomic) PKCreditInstallmentPlan *earlyInstallmentPlan; // @synthesize earlyInstallmentPlan=_earlyInstallmentPlan;
 
 @end

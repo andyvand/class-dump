@@ -7,7 +7,6 @@
 @interface NewsUI2.MyMagazinesSharingActivityItemFactoryWithTracker
 {
     id tracker;
-    id factory;
 }
 
 @end

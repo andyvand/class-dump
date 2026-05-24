@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingDislikedModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

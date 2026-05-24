@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABLazyGroup, NSMutableDictionary, NSSet;
+@class ABAddressBook, NSSet;
 
 @interface ABBookGroupAddMembersCommand
 {
     ABAddressBook *_addressBook;
-    ABLazyGroup *_lazyGroup;
-    NSSet *_newMemberUids;
-    NSMutableDictionary *_memberUidToLazyParentGroupUids;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (void);
@@ -24,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)7P;
+- (void)A;
 - (_Bool);
 - (void);
 - (void)1ªð1Â0@ù

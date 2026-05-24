@@ -11,7 +11,7 @@
 }
 
 + (void);
-- (void);
+- (void)N`;
 
 @end
 

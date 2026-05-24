@@ -6,24 +6,19 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSDebugTDInspectorResultsData, NSDebugTDInspectorResultsView, NSDebugTDViewHierarchyItem, NSString, NSTimer;
+@class NSDebugTDInspectorResultsView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDInspectorResultsViewController : NSViewController
 {
     NSString *_liveToggleOnTitle;
-    NSString *_liveToggleOffTitle;
-    NSTimer *_scrollingDebouncingTimer;
-    NSDebugTDInspectorResultsView *_inspectorView;
-    NSDebugTDInspectorResultsData *_resultsData;
-    NSDebugTDViewHierarchyItem *_selectedItem;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (double);
@@ -36,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)setRequiresInexpensiveNetworking: /* Error: Ran out of types for this method. */;
+- (id)localizedName;
+- (void)ing to convert JSON activity data to CFNetworkTaskMetrics:(id)arg1 %@ (error %@);
 - (void);
 - (void);
 - (void);
@@ -46,16 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)èÿnc\MI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDebugTDInspectorResultsView *inspectorView; // @synthesize inspectorView=_inspectorView;
-@property(retain, nonatomic) NSDebugTDInspectorResultsData *resultsData; // @synthesize resultsData=_resultsData;
-@property(retain, nonatomic) NSDebugTDViewHierarchyItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(readonly) Class superclass;
 
 @end
 

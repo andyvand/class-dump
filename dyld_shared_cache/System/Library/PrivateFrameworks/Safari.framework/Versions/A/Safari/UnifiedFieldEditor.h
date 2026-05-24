@@ -6,17 +6,13 @@
 
 #import <Safari/TextFieldEditor.h>
 
-@class NSString, UnifiedFieldPasteboardEngine;
+@class NSString;
 @protocol UnifiedFieldEditorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldEditor : TextFieldEditor
 {
     NSString *_previousMarkedText;
-    _Bool _selectionWasAutocompleted;
-    _Bool _isAdjustingAutocompleteSelection;
-    UnifiedFieldPasteboardEngine *_pasteboardEngine;
-    id <UnifiedFieldEditorDelegate> _unifiedFieldEditorDelegate;
 }
 
 - (id);
@@ -43,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (_Bool);
 - (void);
@@ -51,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -71,15 +67,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAdjustingAutocompleteSelection) _Bool adjustingAutocompleteSelection; // @synthesize adjustingAutocompleteSelection=_isAdjustingAutocompleteSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool selectionWasAutocompleted; // @synthesize selectionWasAutocompleted=_selectionWasAutocompleted;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <UnifiedFieldEditorDelegate> unifiedFieldEditorDelegate; // @synthesize unifiedFieldEditorDelegate=_unifiedFieldEditorDelegate;
 
 @end

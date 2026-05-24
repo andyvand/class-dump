@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEORPDebugSettings, GEORPUserCredentials, NSData, NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPProblemCollectionRequest
 {
     PBDataReader *_reader;
-    NSString *_countryCode;
-    GEORPDebugSettings *_debugSettings;
-    NSData *_devicePushToken;
-    NSString *_hwMachine;
-    NSString *_inputLanguage;
-    NSString *_osRelease;
-    NSMutableArray *_requestElements;
-    GEORPUserCredentials *_userCredentials;
-    NSString *_userEmail;
-    GEOLocation *_userLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_countryCode:1;
-        unsigned int read_debugSettings:1;
-        unsigned int read_devicePushToken:1;
-        unsigned int read_hwMachine:1;
-        unsigned int read_inputLanguage:1;
-        unsigned int read_osRelease:1;
-        unsigned int read_requestElements:1;
-        unsigned int read_userCredentials:1;
-        unsigned int read_userEmail:1;
-        unsigned int read_userLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
@@ -48,71 +22,53 @@
 - (void);
 - (void);
 - (void);
+- (void)updateDictionary:(id)arg1 shouldMigrateIfNecessary: /* Error: Ran out of types for this method. */;
+- (void)syncWithRequests:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchOrCreateDefaultContainer;
+- (id)fetchObjectForClass:(unsigned long long)arg1 withUniqueId:managedObjectContext:affectedStores: /* Error: Ran out of types for this method. */;
+- (id)sortedFetchOfValuesForProperty: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)!;
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id)6d24;
+- (void)keywordAnalyzer;
+- (void)itor:(unsigned long long)arg1 didReceiveEnabled:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
+- (unsigned int)AXNumericDataAxisDescriptor;
+- (_Bool)_mapkit_countOfSet:minusSubset: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
 - (id)rchResponse"b1"read_preferredSearchDisplayLocation"b1"wrote_anyField"b1};
-- (id)CameraInfos;
+- (id)clearTrafficCameraInfos;
 - (id)j;
-- (id)E;
-- (id)e;
+- (id)NAV_STARTED_EBIKE;
+- (id)canonicalName;
 - (void)Ô;
 - (Class);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *countryCode;
-@property(retain, nonatomic) GEORPDebugSettings *debugSettings;
-@property(retain, nonatomic) NSData *devicePushToken;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasDebugSettings;
-@property(readonly, nonatomic) _Bool hasDevicePushToken;
-@property(readonly, nonatomic) _Bool hasHwMachine;
-@property(readonly, nonatomic) _Bool hasInputLanguage;
-@property(readonly, nonatomic) _Bool hasOsRelease;
-@property(readonly, nonatomic) _Bool hasUserCredentials;
-@property(readonly, nonatomic) _Bool hasUserEmail;
-@property(readonly, nonatomic) _Bool hasUserLocation;
-@property(retain, nonatomic) NSString *hwMachine;
-@property(retain, nonatomic) NSString *inputLanguage;
-@property(retain, nonatomic) NSString *osRelease;
 @property(retain, nonatomic) NSMutableArray *requestElements;
-@property(retain, nonatomic) GEORPUserCredentials *userCredentials;
-@property(retain, nonatomic) NSString *userEmail;
-@property(retain, nonatomic) GEOLocation *userLocation;
 
 @end
 

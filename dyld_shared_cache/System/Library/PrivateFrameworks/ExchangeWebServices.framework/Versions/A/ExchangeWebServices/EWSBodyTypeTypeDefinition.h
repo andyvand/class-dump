@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)VQRConnection] <%p> Parsed proto - len:(id)arg1 %d;
 
 @end
 

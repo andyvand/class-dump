@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)_mediaLibraryWithUniqueIdentifier:userDSID: /* Error: Ran out of types for this method. */;
 + (_Bool)!;
+- (id);
 - (id);
-- (id);
-- (_Bool)ibar: /* Error: Ran out of types for this method. */;
+- (_Bool)_frameOrBoundsChangedWithVisibleSizeChange:wasMinibar: /* Error: Ran out of types for this method. */;
 - (_Bool)^þÿ»îÿ;
 - (void)rows out of bounds:(_Bool)arg1 numRowsBeforeSection=%ld, numRowsInSection=%ld, oldRowRange=%@;
 - (_Bool)q;

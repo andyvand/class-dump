@@ -10,15 +10,15 @@ __attribute__((visibility("hidden")))
     shared_ptr_829ddb95 _data;
 }
 
-+ (id);
-- (float);
-- (float);
-- (float);
-- (float);
++ (id)neration failed %@);
+- (float)unable to generate primary keys;
+- (float)property not set;
+- (float)insert;
+- (float)ked;
 - (const float *);
 - (id);
 - (shared_ptr_829ddb95);
-- (id)eassociatedWindows;
+- (id)_spaceIDToBatchReassociatedWindows;
 - (void)@;
 
 // Remaining properties

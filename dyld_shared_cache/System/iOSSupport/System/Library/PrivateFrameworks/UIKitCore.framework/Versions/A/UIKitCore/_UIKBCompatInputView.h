@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (void)sToRecord:(struct CGRect)arg1;
-- (void)dWindowPointerWithInteractionsWantingFocus;
-- (void)ConfigurationHistory;
-- (_Bool)utSwipeActions;
+- (void)_setSuperclassToRecord:(struct CGRect)arg1;
+- (void)_countedWindowPointerWithInteractionsWantingFocus;
+- (void)_UIOLAConfigurationHistory;
+- (_Bool)_UICollectionViewLayoutSwipeActions;
 - (void);
-- (id)or;
+- (id)minimumScaleFactor;
 - (void)om padding:(id)arg1 %g; reordered index path:%@; dragged index path:%@; gap row height:%g; dragged row height:%g; section data:%@ /* Error: Ran out of types for this method. */;
 - (void)athElementAddQuadCurveToPoint;
 - (struct CGRect)¸þÿÿÿÿ;

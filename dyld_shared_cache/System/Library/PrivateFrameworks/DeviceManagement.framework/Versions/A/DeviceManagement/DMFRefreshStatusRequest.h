@@ -13,7 +13,7 @@
     NSString *_organizationIdentifier;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)addNormalResults: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

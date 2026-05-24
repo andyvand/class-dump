@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSURLRequest, UIScrollView, UIWebViewInternal;
+@class UIWebViewInternal;
 @protocol UIWebViewDelegate;
 
 @interface UIWebView : UIView
@@ -20,34 +20,7 @@
 + (void)­Ðì¹n;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsInlineMediaPlayback;
-@property(nonatomic) _Bool allowsLinkPreview;
-@property(nonatomic) _Bool allowsPictureInPictureMediaPlayback;
-@property(readonly, nonatomic, getter=canGoBack) _Bool canGoBack;
-@property(readonly, nonatomic, getter=canGoForward) _Bool canGoForward;
-@property(nonatomic) unsigned long long dataDetectorTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <UIWebViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool detectsPhoneNumbers;
-@property(nonatomic) double gapBetweenPages;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keyboardDisplayRequiresUserAction;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(nonatomic) _Bool mediaPlaybackAllowsAirPlay;
-@property(nonatomic) _Bool mediaPlaybackRequiresUserAction;
-@property(readonly, nonatomic) unsigned long long pageCount;
-@property(nonatomic) double pageLength;
-@property(nonatomic) long long paginationBreakingMode;
-@property(nonatomic) long long paginationMode;
-@property(readonly, nonatomic) NSURLRequest *request;
-@property(nonatomic) _Bool scalesPageToFit;
-@property(readonly, nonatomic) UIScrollView *scrollView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressesIncrementalRendering;
 
 @end
 

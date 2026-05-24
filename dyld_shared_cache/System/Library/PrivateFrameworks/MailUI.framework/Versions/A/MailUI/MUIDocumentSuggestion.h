@@ -6,31 +6,25 @@
 
 #import <MailUI/MUIResultSuggestion.h>
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface MUIDocumentSuggestion : MUIResultSuggestion
 {
     NSURL *_fileURL;
-    NSString *_name;
-    NSDate *_date;
-    NSString *_subject;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)rs: /* Error: Ran out of types for this method. */;
+- (void)predicateForGroupsWithIdentifiers: /* Error: Ran out of types for this method. */;
 - (id)So8NSStringCSg;
 - (id)*ø"yY;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *subject; // @synthesize subject=_subject;
 
 @end
 

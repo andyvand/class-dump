@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
     long long _underlyingValue;
 }
 
-- (id);
+- (id)downgradeRequestedForHandleID:(long long)arg1 expirationDate:(long long)arg2 preferredService: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long)Count;
 

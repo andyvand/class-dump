@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, HMDAppleAccountManager, HMDRemoteAccountManager;
-@protocol HMDIDSServiceManager;
+@class HMDAccountRegistry;
 
 @interface HMDRegistry
 {
@@ -16,15 +15,12 @@
 - (id);
 - (id);
 - (id)ÿ;
-- (id)DHomeLockNotificationContextResolutionResultLabelCodingKey;
-- (id)yMatterEventMessageHomeEnergyIsCurrentlyExpensiveKey;
+- (id)HMDHomeLockNotificationContextResolutionResultLabelCodingKey;
+- (id)HMDAccessoryMatterEventMessageHomeEnergyIsCurrentlyExpensiveKey;
 - (void)À>;
 
 // Remaining properties
 @property(nonatomic, readonly) HMDAccountRegistry *accountRegistry;
-@property(nonatomic, readonly) HMDAppleAccountManager *appleAccountManager;
-@property(nonatomic, readonly) id <HMDIDSServiceManager> idsServiceManager;
-@property(nonatomic, readonly) HMDRemoteAccountManager *remoteAccountManager;
 
 @end
 

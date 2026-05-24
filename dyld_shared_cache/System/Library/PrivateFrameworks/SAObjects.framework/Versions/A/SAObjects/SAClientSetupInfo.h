@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool delay;
-@property(nonatomic) double threshold;
 
 @end
 

@@ -9,26 +9,10 @@
 @interface MPCModelRadioStationTrackGenericObjectBuilder
 {
     MPModelStorePlatformMetadataGenericObjectBuilder *_storePlatformBuilder;
-    struct {
-        unsigned int initialized:1;
-        unsigned int trackNumber:1;
-        unsigned int trackCount:1;
-        struct {
-            unsigned int identifiers:1;
-            unsigned int bookmarkTime:1;
-            unsigned int shouldRememberBookmarkTime:1;
-            unsigned int hasBeenPlayed:1;
-            unsigned int startTime:1;
-            unsigned int stopTime:1;
-            unsigned int storeUbiquitousIdentifier:1;
-            unsigned int userPlayCount:1;
-        } playbackPosition;
-    } _requestedSongProperties;
-    MPPropertySet *_requestedProperties;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)cal control supported:%{BOOL}u configured:%{BOOL}u available:%{BOOL}u enabled:%{BOOL}u delay:%.0fms /* Error: Ran out of types for this method. */;
 

@@ -15,11 +15,11 @@
 - (id);
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
-- (id);
-- (void)llapseSecondaryViewController:(id)arg1 ontoPrimaryViewController: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ry;
+- (void)splitViewController:(id)arg1 collapseSecondaryViewController:ontoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (unsigned long long)backgroundActivityEntry;
 - (id)s=%@;
 
 // Remaining properties

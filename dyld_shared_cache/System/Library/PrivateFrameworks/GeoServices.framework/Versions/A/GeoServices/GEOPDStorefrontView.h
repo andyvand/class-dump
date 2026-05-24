@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGeographicCoordinate, GEOPDOrientedPosition, GEOPDPhotoPosition, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDStorefrontView
 {
     PBDataReader *_reader;
-    unsigned long long _imdataId;
-    GEOPDGeographicCoordinate *_lookAtGeo;
-    GEOPDOrientedPosition *_lookAt;
-    GEOPDPhotoPosition *_photoPosition;
-    GEOPDGeographicCoordinate *_viewpointGeo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_imdataId:1;
-        unsigned int read_lookAtGeo:1;
-        unsigned int read_lookAt:1;
-        unsigned int read_photoPosition:1;
-        unsigned int read_viewpointGeo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ion:(id)arg1;
++ (_Bool)setInfrastructureDescription:(id)arg1;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)membersIncludingMembersOfSubgroups:(id)arg1;
+- (void)V_requestedMultivalueIdentifierCount;
+- (void)pl;
+- (void)",R,C,N,V_allAccountsImpl;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)k;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,31 +31,22 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)dataWithPropertyList:(id)arg1 format:options:error: /* Error: Ran out of types for this method. */;
+- (id)getTrialIdsForAssetType:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)k Volume Threshold);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)ion"b1"read_viewpointGeo"b1"wrote_anyField"b1};
-- (id)routeHandoff;
+- (id)_routeHandoff;
 - (id)];
-- (id)RA;
+- (id)TAP_TRAFFIC_CAMERA;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasImdataId;
-@property(readonly, nonatomic) _Bool hasLookAt;
-@property(readonly, nonatomic) _Bool hasLookAtGeo;
 @property(readonly, nonatomic) _Bool hasPhotoPosition;
-@property(readonly, nonatomic) _Bool hasViewpointGeo;
-@property(nonatomic) unsigned long long imdataId;
-@property(retain, nonatomic) GEOPDOrientedPosition *lookAt;
-@property(retain, nonatomic) GEOPDGeographicCoordinate *lookAtGeo;
-@property(retain, nonatomic) GEOPDPhotoPosition *photoPosition;
-@property(retain, nonatomic) GEOPDGeographicCoordinate *viewpointGeo;
 
 @end
 

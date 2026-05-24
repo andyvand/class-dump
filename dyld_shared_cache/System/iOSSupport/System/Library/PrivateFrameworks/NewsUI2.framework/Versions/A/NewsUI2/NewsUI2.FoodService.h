@@ -7,17 +7,6 @@
 @interface NewsUI2.FoodService
 {
     id appConfigurationManager;
-    id headlineService;
-    id localNewsChannelService;
-    id recipeService;
-    id tagService;
-    id subscriptionController;
-    id bundleSubscriptionManager;
-    id recipeItemInventory;
-    id recentRecipeListProvider;
-    id trendingRecipeListProvider;
-    id personalizationService;
-    id recipeForYouAvailability;
 }
 
 @end

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PHAServiceCancelableOperation;
+
 @protocol PHAServiceOperationHandling
+- (void)[FeatureExtraction] (MomentNodeCollectionMusicCurationFeatureExtractor) Extracted mostFrequentMeaningLabel:(PHAServiceCancelableOperation *)arg1 %s;
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMPhotosKnowledgeGraphEnrichmentEvent
 {
     NSString *_uniqueId;
-    NSString *_personaId;
-    double _absoluteTimestamp;
-    NSArray *_topics;
-    NSArray *_entities;
-    NSArray *_locations;
-    NSString *_contentProtection;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,7 +27,7 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Required disk space check failed;
 - (id);
 - (_Bool);
 - (void);
@@ -47,28 +41,6 @@
 - (id)(;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *topics; // @synthesize topics=_topics;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

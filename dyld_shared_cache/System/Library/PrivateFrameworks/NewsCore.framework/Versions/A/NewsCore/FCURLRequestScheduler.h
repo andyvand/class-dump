@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSDate, NSMapTable, NSMutableOrderedSet, NSURLSession;
+@class NSURLSession;
 
 @interface FCURLRequestScheduler
 {
     NSURLSession *_URLSession;
-    NSMutableOrderedSet *_requests;
-    NSMapTable *_inFlightURLTasks;
-    unsigned long long _maxInFlightURLTasks;
-    unsigned long long _maxInFlightLowPriorityURLTasks;
-    NFUnfairLock *_lock;
-    NSDate *_dateOfLastProgress;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
-- (void)avorite;
+- (void)maxIdealClusterSizeIPhoneAutoFavorite;
 
 @end
 

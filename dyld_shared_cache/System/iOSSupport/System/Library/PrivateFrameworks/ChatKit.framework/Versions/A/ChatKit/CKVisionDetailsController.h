@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     long long _context;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)webView:decidePolicyForNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithImage:(unsigned long long)arg1 imageScaling:showAsFileIcon:isMovie: /* Error: Ran out of types for this method. */;
+- (id)removeObservers;
 - (double);
 - (long long);
 - (long long);

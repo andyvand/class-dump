@@ -4,46 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADInMemoryChangeTimestamp, EKEventStore, EKTimedEventStorePurger, NSArray, NSDate, NSMutableArray, NSObject, NSTimer, PCPersistentTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _EKNotificationMonitor
 {
     CDUnknownBlockType _eventStoreGetter;
-    _Bool _running;
-    PCPersistentTimer *_timer;
-    NSDate *_nextFireTime;
-    NSTimer *_syncTimer;
-    _Bool _pendingChanges;
-    NSObject<OS_dispatch_queue> *_queue;
-    CADInMemoryChangeTimestamp *_lastChangedTimestamp;
-    _Bool _changedIDsValid;
-    NSMutableArray *_changedIDs;
-    int _ignoreSyncTimer;
-    _Bool _initialCheck;
-    _Bool _shouldInstallPersistentTimer;
-    _Bool _useSyncIdleTimer;
-    _Bool _registerForDarwinNotifications;
-    _Bool _filteredByShowsNotificationsFlag;
-    _Bool _computeChangedNotificationSet;
-    _Bool _automaticallyFaultNotifications;
-    _Bool _lastExpirationTimerFireDateWasInThePast;
-    _Bool _isExpandedCount;
-    _Bool _excludeUncheckedCalendars;
-    _Bool _isMonitoringOnlyNotificationCount;
-    unsigned long long _notificationCount;
-    NSArray *_notificationReferences;
-    NSObject<OS_dispatch_queue> *_callbackNotificationQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    EKTimedEventStorePurger *_eventStorePurger;
-    EKEventStore *_eventStore;
 }
 
++ (id)8c;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void)updateRequiresPowerAssertion;
 - (void);
 - (id);
 - (id);
@@ -51,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
@@ -70,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -81,19 +54,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)So28RTCReportingAVCLegacySupportCSg;
+- (void)D;
 - (void)12'Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackNotificationQueue; // @synthesize callbackNotificationQueue=_callbackNotificationQueue;
-@property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly, nonatomic) EKTimedEventStorePurger *eventStorePurger; // @synthesize eventStorePurger=_eventStorePurger;
-@property(readonly, nonatomic) _Bool isMonitoringOnlyNotificationCount; // @synthesize isMonitoringOnlyNotificationCount=_isMonitoringOnlyNotificationCount;
-@property(readonly, nonatomic) unsigned long long notificationCount; // @synthesize notificationCount=_notificationCount;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly, nonatomic) NSArray *notificationReferences; // @synthesize notificationReferences=_notificationReferences;
 
 @end
 

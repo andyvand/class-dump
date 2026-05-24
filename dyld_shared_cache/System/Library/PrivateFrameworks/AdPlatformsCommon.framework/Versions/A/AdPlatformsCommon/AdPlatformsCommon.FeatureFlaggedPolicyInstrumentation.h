@@ -7,9 +7,6 @@
 @interface AdPlatformsCommon.FeatureFlaggedPolicyInstrumentation
 {
     id featureFlag;
-    id featureFlagDefinition;
-    id cancellable;
-    id implementationBacking;
 }
 
 - (_Bool);
@@ -17,7 +14,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)r4;
 
 @end
 

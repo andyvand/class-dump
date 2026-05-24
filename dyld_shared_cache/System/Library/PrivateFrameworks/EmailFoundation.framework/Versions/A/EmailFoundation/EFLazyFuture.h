@@ -6,22 +6,18 @@
 
 #import <EmailFoundation/EFFuture.h>
 
-@class EFPromise, NSConditionLock;
-@protocol EFScheduler;
+@class NSConditionLock;
 
 @interface EFLazyFuture : EFFuture
 {
     NSConditionLock *_stateLock;
-    id <EFScheduler> _scheduler;
-    CDUnknownBlockType _block;
-    EFPromise *_promise;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -29,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void)ITE_IOERR_FSYNC;
+- (_Bool)ervalid=0x%02x;
+- (void)SQLITE_IOERR_FSYNC;
 
 @end
 

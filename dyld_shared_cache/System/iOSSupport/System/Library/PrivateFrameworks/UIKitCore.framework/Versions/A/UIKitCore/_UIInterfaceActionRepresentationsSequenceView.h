@@ -6,20 +6,12 @@
 
 #import <UIKitCore/UIScrollView.h>
 
-@class NSArray, NSLayoutConstraint, UIInterfaceActionVisualStyle, UIView, _UIInterfaceActionSeparatableSequenceView;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionRepresentationsSequenceView : UIScrollView
 {
     long long _sizingSeparatedContentSequenceViewToFitDisabledCount;
-    _Bool _visualCornerForcedOverride;
-    UIInterfaceActionVisualStyle *_visualStyle;
-    NSArray *_arrangedActionRepresentationViews;
-    long long _actionLayoutAxis;
-    unsigned long long _visualCornerPosition;
-    NSLayoutConstraint *_minimumHeightConstraint;
-    _UIInterfaceActionSeparatableSequenceView *_separatedContentSequenceView;
-    UIView *_backgroundView;
 }
 
 - (unsigned long long);
@@ -29,29 +21,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)0:8@16@24B32 /* Error: Ran out of types for this method. */;
+- (id)stopTrackingHandle: /* Error: Ran out of types for this method. */;
+- (id)removePersistentTaskExecutorMonitorWithID:(id)arg1;
+- (double)filteredChatsExistForServices:(long long)arg1;
+- (id)_clearSMSRelayMapForMessageWithGUID: /* Error: Ran out of types for this method. */;
+- (id)y",&,N,V_noticeEventHistory;
+- (long long)ransferGUIDs;
+- (void)V_transcriptBackgroundCommand;
+- (void)IMDaemonListenerFileTransfersProtocol;
 - (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (struct CGSize)?;
+- (double)d from %ld. Downgrade failed with error:%@ /* Error: Ran out of types for this method. */;
+- (void)onationDate;
+- (_Bool)unexpected push token %@;
+- (void)Updating expected off grid capable deliveries (has %llu);
+- (void)unarching pending nickname upload %@;
+- (double)sage %@. moment share UUID %@;
+- (void)ux image transfer with name (%@) because the list of guids was nil or empty:%@ /* Error: Ran out of types for this method. */;
+- (void)fier for chat %@;
 - (struct CGSize);
-- (double);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
+- (void)_;
+- (void)A;
 - (struct CGSize);
 - (id);
 - (void)
@@ -65,14 +57,7 @@ __attribute__((visibility("hidden")))
 - (void)X²ÿ¤;
 
 // Remaining properties
-@property(nonatomic) long long actionLayoutAxis; // @synthesize actionLayoutAxis=_actionLayoutAxis;
-@property(retain, nonatomic) NSArray *arrangedActionRepresentationViews; // @synthesize arrangedActionRepresentationViews=_arrangedActionRepresentationViews;
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
 @property(readonly, nonatomic) NSLayoutConstraint *minimumHeightConstraint; // @synthesize minimumHeightConstraint=_minimumHeightConstraint;
-@property(readonly, nonatomic) _UIInterfaceActionSeparatableSequenceView *separatedContentSequenceView; // @synthesize separatedContentSequenceView=_separatedContentSequenceView;
-@property(nonatomic) _Bool visualCornerForcedOverride; // @synthesize visualCornerForcedOverride=_visualCornerForcedOverride;
-@property(nonatomic) unsigned long long visualCornerPosition; // @synthesize visualCornerPosition=_visualCornerPosition;
-@property(retain, nonatomic) UIInterfaceActionVisualStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end
 

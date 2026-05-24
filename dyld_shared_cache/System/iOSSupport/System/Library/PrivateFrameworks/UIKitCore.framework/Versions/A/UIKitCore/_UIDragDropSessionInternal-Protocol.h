@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol _UIDraggingInfo;
+
 @protocol _UIDragDropSessionInternal
+- (void)exAndRowID:(NSArray *)arg1 activity: /* Error: Ran out of types for this method. */;
+- (id <_UIDraggingInfo>)_isAutoPlay: /* Error: Ran out of types for this method. */;
+- (_Bool)So31BGNonRepeatingSystemTaskRequestCSgIegr_;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_allowsItemsToUpdate) _Bool _allowsItemsToUpdate;

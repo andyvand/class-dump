@@ -6,26 +6,22 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebWalletPassAction : AMSUIWebAction
 {
     _Bool _attemptLynxProvisioning;
-    NSNumber *_lookupFeature;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)DDSAssertion;
+- (void);
+- (id)eated for asset selector:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)(%{public}@) for query:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)}@, attempts:(id)arg1 %{public}lu, status:(id)arg2 %{public}lu);
+- (_Bool)path:%@> /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property _Bool attemptLynxProvisioning; // @synthesize attemptLynxProvisioning=_attemptLynxProvisioning;
-@property(retain) NSNumber *lookupFeature; // @synthesize lookupFeature=_lookupFeature;
 
 @end
 

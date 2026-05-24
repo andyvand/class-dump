@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEONavigationMatchInfo, GEORoadMatch, GEORouteMatch, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface MNLocation
 {
     NSUUID *_uuid;
-    unsigned long long _state;
-    NSUUID *_routeID;
-    GEORouteMatch *_routeMatch;
-    GEORoadMatch *_roadMatch;
-    CLLocation *_rawLocation;
-    struct CLLocationCoordinate2D _rawShiftedCoordinate;
-    GEONavigationMatchInfo *_detailedMatchInfo;
-    NSString *_roadName;
-    NSString *_shieldText;
-    long long _shieldType;
-    unsigned int _roadLineType;
-    int _rampType;
-    unsigned long long _speedLimit;
-    _Bool _speedLimitIsMPH;
-    long long _speedLimitShieldType;
-    _Bool _isDirectional;
-    _Bool _locationUnreliable;
-    NSDate *_expirationDate;
-    NSDate *_originalDate;
-    unsigned long long _traceIndex;
-    double _traceTimestamp;
-    _Bool _isLeeched;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool):s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -52,7 +30,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id){;
 - (unsigned long long);
 - (void);
 - (id);
@@ -75,18 +53,18 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void)troller",&,V_cscSMSTargetVC;
+- (_Bool):]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_defaultIntentReference;
 - (long long);
-- (unsigned int);
+- (unsigned int)ĉ;
 - (_Bool);
 - (id);
-- (id);
+- (id)?	;
 - (long long);
 - (id);
 - (id);
@@ -95,45 +73,21 @@
 - (void);
 - (id);
 - (void);
+- (id)@;
+- (void)_descriptor;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)IAPAppCloseSessionToAccessory;
 - (void)!FùÐ1Â0@ù
 × ;
 - (void)VehicleMonitorDelegate>";
 - (_Bool)directionsResponse;
 
 // Remaining properties
-@property(retain, nonatomic) GEONavigationMatchInfo *detailedMatchInfo; // @synthesize detailedMatchInfo=_detailedMatchInfo;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) _Bool isDirectional; // @synthesize isDirectional=_isDirectional;
-@property(nonatomic) _Bool isLeeched; // @synthesize isLeeched=_isLeeched;
-@property(readonly, nonatomic) _Bool isProjected;
-@property(nonatomic) _Bool locationUnreliable; // @synthesize locationUnreliable=_locationUnreliable;
-@property(retain, nonatomic) NSDate *originalDate; // @synthesize originalDate=_originalDate;
-@property(nonatomic) int rampType; // @synthesize rampType=_rampType;
-@property(retain, nonatomic) CLLocation *rawLocation; // @synthesize rawLocation=_rawLocation;
-@property(nonatomic) struct CLLocationCoordinate2D rawShiftedCoordinate; // @synthesize rawShiftedCoordinate=_rawShiftedCoordinate;
-@property(nonatomic) unsigned int roadLineType; // @synthesize roadLineType=_roadLineType;
-@property(retain, nonatomic) GEORoadMatch *roadMatch; // @synthesize roadMatch=_roadMatch;
-@property(copy, nonatomic) NSString *roadName; // @synthesize roadName=_roadName;
-@property(readonly, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
-@property(retain, nonatomic) GEORouteMatch *routeMatch; // @synthesize routeMatch=_routeMatch;
-@property(copy, nonatomic) NSString *shieldText; // @synthesize shieldText=_shieldText;
-@property(nonatomic) long long shieldType; // @synthesize shieldType=_shieldType;
-@property(nonatomic) unsigned long long speedLimit; // @synthesize speedLimit=_speedLimit;
-@property(nonatomic) _Bool speedLimitIsMPH; // @synthesize speedLimitIsMPH=_speedLimitIsMPH;
-@property(nonatomic) long long speedLimitShieldType; // @synthesize speedLimitShieldType=_speedLimitShieldType;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) unsigned long long stepIndex;
 @property(nonatomic) unsigned long long traceIndex;
-@property(nonatomic) double traceTimestamp;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CADisplayPersistedLatency
 {
     NSString *_uuid;
-    NSDictionary *_mode;
-    double _latency;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double latency; // @synthesize latency=_latency;
-@property(copy, nonatomic) NSDictionary *mode; // @synthesize mode=_mode;
 @property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -6,42 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface TTSSchemaTTSAudioInterface : SISchemaInstrumentationMessage
 {
     NSString *_vendorId;
-    NSString *_productId;
-    _Bool _hasVendorId;
-    _Bool _hasProductId;
 }
 
 - (void);
 - (_Bool);
+- (void)=;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)	?ו;
+- (_Bool)4;
+- (void)canKeepAlive;
+- (void)backgroundViewPolicy;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ng",&,V_nameViewTaglineFontName;
+- (id)rride is %s (%d);
+- (_Bool)ge_id FROM chat_message_join WHERE message_id < ?) AND item_type = 0 ORDER BY ROWID DESC LIMIT ?;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)ng7Days;
-- (id)ignal;
-- (void)GESUBCOMPONENT_SIRIX_NL_RESPONSE;
+- (id)deleteRawNowPlaying7Days;
+- (id)_isRawMediaCategoryMusicSignal;
+- (void)ORCHNLROUTERBRIDGESUBCOMPONENT_SIRIX_NL_RESPONSE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProductId; // @synthesize hasProductId=_hasProductId;
-@property(nonatomic) _Bool hasVendorId; // @synthesize hasVendorId=_hasVendorId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productId; // @synthesize productId=_productId;
 @property(copy, nonatomic) NSString *vendorId; // @synthesize vendorId=_vendorId;
 
 @end

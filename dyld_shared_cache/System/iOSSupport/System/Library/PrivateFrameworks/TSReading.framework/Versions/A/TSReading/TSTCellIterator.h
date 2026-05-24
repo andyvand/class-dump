@@ -4,49 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TSTCell, TSTCellRegion, TSTTableDataStore, TSTTableModel, TSTTableTile, TSTTableTileRowInfo;
-@protocol TSTCellRegionIterating;
+@class TSTTableModel;
 
 @interface TSTCellIterator
 {
     TSTTableModel *mTableModel;
-    TSTCellRegion *mModelRegion;
-    NSObject<TSTCellRegionIterating> *mModelRegionIterator;
-    TSTTableDataStore *mTableDataStore;
-    CDStruct_0441cfb5 mPreviousCellID;
-    TSTTableTileRowInfo *mCurRow;
-    TSTTableTile *mCurTile;
-    unsigned short mCurRowID;
-    struct _NSRange mCurTileRange;
-    TSTCell *mCell;
-    _Bool mSkipStyleOnlyCells;
-    _Bool mSkipCommentStorageOnlyCells;
-    _Bool mDontExpandCellRefs;
-    int mRowWalkDirection;
-    _Bool mDontCheckSize;
-    _Bool mDontReturnMergeRegions;
-    _Bool mReturnHiddenCells;
-    _Bool mDontInflateFormulas;
-    _Bool mReturnEmptyCells;
 }
 
-- (int);
+- (int)LoadedTimeRanges;
 - (void);
 - (_Bool);
 - (id);
+- (id)QueueControllerBehaviorPodcastsIdentifierComponents;
 - (id);
-- (id);
-- (id);
+- (id)QueueControllerBehaviorPodcastsTransportableExtension;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void)et:argument: /* Error: Ran out of types for this method. */;
+- (void)performWrite:withTarget:argument: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool dontExpandCellRefs; // @synthesize dontExpandCellRefs=mDontExpandCellRefs;
-@property(readonly) int rowWalkDirection; // @synthesize rowWalkDirection=mRowWalkDirection;
 
 @end
 

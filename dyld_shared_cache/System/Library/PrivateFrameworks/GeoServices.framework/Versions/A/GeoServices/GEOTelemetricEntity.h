@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTelemetricEntity
 {
     PBUnknownFields *_unknownFields;
-    NSString *_eventDetail;
-    unsigned long long _eventValue;
-    int _eventKey;
-    struct {
-        unsigned int has_eventValue:1;
-        unsigned int has_eventKey:1;
-    } _flags;
 }
 
-+ (_Bool)etMaxResults:(id)arg1;
++ (_Bool)setMaxResults:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)clearCachedPropertyValue: /* Error: Ran out of types for this method. */;
+- (_Bool)class;
+- (_Bool)checkIfMainDatabaseInResultsIsPristine:forCacheKey: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
-- (id);
+- (id)^;
+- (id)O;
 - (void);
 - (int);
 - (void);
@@ -35,28 +28,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tion:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)i;
 - (_Bool);
 - (void);
 - (id)6^I24;
-- (id);
-- (id)n;
+- (id)hasPlaceDataRequest;
+- (id)GEOPDOrientedPosition;
 - (id)FEEDBACK_FIELD_OPTION_TRANSIT_LINE_SHAPE;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *eventDetail;
-@property(nonatomic) int eventKey;
-@property(nonatomic) unsigned long long eventValue;
-@property(readonly, nonatomic) _Bool hasEventDetail;
 @property(nonatomic) _Bool hasEventKey;
-@property(nonatomic) _Bool hasEventValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

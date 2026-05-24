@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXDocument;
+@class SXDocument;
 
 @interface SXDocumentProvider
 {
@@ -12,18 +12,11 @@
 }
 
 - (void)@"SXDataTableBorderSides"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)entIdentifierUsingThumbnailInComponents: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)componentIdentifierUsingThumbnailInComponents: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 didPerformClientRedirectFromURL:toURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SXDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

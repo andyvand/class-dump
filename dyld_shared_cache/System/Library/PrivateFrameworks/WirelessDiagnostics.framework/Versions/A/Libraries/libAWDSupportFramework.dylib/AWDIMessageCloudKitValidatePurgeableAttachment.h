@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageCloudKitValidatePurgeableAttachment
 {
     unsigned long long _timestamp;
-    unsigned int _attachmentSize;
-    unsigned int _connectionType;
-    int _linkQuality;
-    unsigned int _operationalErrorCode;
-    NSString *_operationalErrorDomain;
-    unsigned int _validatedAttachment;
-    unsigned int _validationErrorCode;
-    NSString *_validationErrorDomain;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int attachmentSize:1;
-        unsigned int connectionType:1;
-        unsigned int linkQuality:1;
-        unsigned int operationalErrorCode:1;
-        unsigned int validatedAttachment:1;
-        unsigned int validationErrorCode:1;
-    } _has;
 }
 
 - (id);
@@ -33,7 +14,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)T?;
 - (void);
 - (void);
 - (void);
@@ -52,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -65,33 +46,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)\;
 - (id);
 - (id);
 - (void);
-- (int);
+- (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int attachmentSize; // @synthesize attachmentSize=_attachmentSize;
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) _Bool hasAttachmentSize;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasLinkQuality;
-@property(nonatomic) _Bool hasOperationalErrorCode;
-@property(readonly, nonatomic) _Bool hasOperationalErrorDomain;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasValidatedAttachment;
-@property(nonatomic) _Bool hasValidationErrorCode;
-@property(readonly, nonatomic) _Bool hasValidationErrorDomain;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(nonatomic) unsigned int operationalErrorCode; // @synthesize operationalErrorCode=_operationalErrorCode;
-@property(retain, nonatomic) NSString *operationalErrorDomain; // @synthesize operationalErrorDomain=_operationalErrorDomain;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int validatedAttachment; // @synthesize validatedAttachment=_validatedAttachment;
-@property(nonatomic) unsigned int validationErrorCode; // @synthesize validationErrorCode=_validationErrorCode;
-@property(retain, nonatomic) NSString *validationErrorDomain; // @synthesize validationErrorDomain=_validationErrorDomain;
 
 @end
 

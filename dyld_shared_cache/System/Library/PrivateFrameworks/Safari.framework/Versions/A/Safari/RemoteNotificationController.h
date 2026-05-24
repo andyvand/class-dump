@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationController
 {
     NSMutableDictionary *_requestMap;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_permissions;
-    NSMutableSet *_originsDisabledInSystemSettings;
-    _Bool _checkingSystemPreferencesPermissions;
 }
 
 + (id);
-+ (id);
++ (id)requestBiomeEndpointForAppScopedService:user:reply: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_;
+- (void)5;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)0;
 - (id);
 - (_Bool);
 - (void);
@@ -43,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);

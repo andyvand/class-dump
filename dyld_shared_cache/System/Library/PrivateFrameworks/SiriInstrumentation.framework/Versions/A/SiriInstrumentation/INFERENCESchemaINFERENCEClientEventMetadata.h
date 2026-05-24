@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface INFERENCESchemaINFERENCEClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_inferenceId;
-    _Bool _hasInferenceId;
 }
 
 - (void);
@@ -29,13 +28,11 @@
 - (id)
 × ;
 - (id)a",&,N,V_eventMetadata;
-- (id)hemaIFTSystemPromptResolutionRequirementResolution;
+- (id)IFTSchemaIFTSystemPromptResolutionRequirementResolution;
 - (void)LFÖÿ!¶Þ";
 
 // Remaining properties
-@property(nonatomic) _Bool hasInferenceId; // @synthesize hasInferenceId=_hasInferenceId;
 @property(retain, nonatomic) SISchemaUUID *inferenceId; // @synthesize inferenceId=_inferenceId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

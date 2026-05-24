@@ -17,17 +17,17 @@
 + (id);
 + (id);
 + (id);
++ (id)ent;
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)EventToSyncInDays;
-+ (id)ssion:task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
-+ (id);
++ (id)_oldestEventToSyncInDays;
++ (id)URLSession:task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
++ (id)L;
 + (id)er:Using cached results /* Error: Ran out of types for this method. */;
-+ (id)MetadataKey__mediaType;
++ (id)_DKNowPlayingMetadataKey__mediaType;
 + (id)¨l;
 
 @end

@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSSportsExecution : SISchemaInstrumentationMessage
 {
     int _sportsUsecase;
-    _Bool _isSportsWatchFaceRequest;
-    _Bool _isSnippetNextCardRequest;
-    _Bool _isMachineUtterance;
-    _Bool _isDisambiguation;
-    _Bool _isLiveScoreRequest;
-    CDStruct_13363357 _has;
 }
 
 - (int);
@@ -51,28 +43,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
-- (_Bool);
+- (_Bool)cation generation for silenced message %@.;
 - (id);
 - (id)0@ù
 × ;
-- (id)tionDecisionMade;
+- (id)_hasElectionDecisionMade;
 - (id)ghtContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDisambiguation;
-@property(nonatomic) _Bool hasIsLiveScoreRequest;
-@property(nonatomic) _Bool hasIsMachineUtterance;
-@property(nonatomic) _Bool hasIsSnippetNextCardRequest;
-@property(nonatomic) _Bool hasIsSportsWatchFaceRequest;
-@property(nonatomic) _Bool hasSportsUsecase;
-@property(nonatomic) _Bool isDisambiguation; // @synthesize isDisambiguation=_isDisambiguation;
-@property(nonatomic) _Bool isLiveScoreRequest; // @synthesize isLiveScoreRequest=_isLiveScoreRequest;
-@property(nonatomic) _Bool isMachineUtterance; // @synthesize isMachineUtterance=_isMachineUtterance;
-@property(nonatomic) _Bool isSnippetNextCardRequest; // @synthesize isSnippetNextCardRequest=_isSnippetNextCardRequest;
-@property(nonatomic) _Bool isSportsWatchFaceRequest; // @synthesize isSportsWatchFaceRequest=_isSportsWatchFaceRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int sportsUsecase; // @synthesize sportsUsecase=_sportsUsecase;
 
 @end

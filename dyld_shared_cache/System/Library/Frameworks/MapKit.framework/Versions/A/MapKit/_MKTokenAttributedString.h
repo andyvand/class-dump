@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface _MKTokenAttributedString
 {
     NSAttributedString *_attributedString;
-    NSString *_string;
 }
 
-- (id);
+- (id)CNTestableObserver;
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void)nForUserInterfaceStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)/;
+- (void);
+- (void)setUseWindowTraitCollectionForUserInterfaceStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

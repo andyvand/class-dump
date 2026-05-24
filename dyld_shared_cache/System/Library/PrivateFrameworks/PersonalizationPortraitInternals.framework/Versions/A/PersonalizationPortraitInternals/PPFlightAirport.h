@@ -9,8 +9,6 @@
 @interface PPFlightAirport
 {
     unsigned char _role;
-    NSString *_name;
-    NSString *_iataCode;
 }
 
 - (_Bool);
@@ -21,9 +19,7 @@
 - (void)"isTopKResult"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *iataCode; // @synthesize iataCode=_iataCode;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned char role; // @synthesize role=_role;
 
 @end
 

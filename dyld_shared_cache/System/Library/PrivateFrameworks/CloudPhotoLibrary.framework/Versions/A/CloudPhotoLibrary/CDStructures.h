@@ -23,8 +23,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct os_unfair_lock_s {
@@ -41,24 +41,14 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int feature:1;
-    unsigned int type:1;
-} CDStruct_35f57793;
-
-typedef struct {
-    unsigned int version:1;
-} CDStruct_f20694ce;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+} CDStruct_3c1748cc;
 

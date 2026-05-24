@@ -7,29 +7,6 @@
 @interface AppKit.MenuContext
 {
     id ownerWindowFrame;
-    id event;
-    id _savedFont;
-    id _appearance;
-    id _flags;
-    id _privateFlags;
-    id frameAlignmentPoint;
-    id minWidth;
-    id checkedItemIndex;
-    id _positioningOptions;
-    id popupButtonBounds;
-    id popupButtonLabelOffset;
-    id _popupButtonSize;
-    id positioningRectInWindowCoordinates;
-    id _preferredEdge;
-    id exclusionRect;
-    id confinementRect;
-    id directDisplayID;
-    id reenableCursorRects;
-    id useConfinementRect;
-    id clearStartingRequestor;
-    id menuCanceled;
-    id menuOpened;
-    id displayingMenu;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOperationQueue;
+@class NSArray;
 
 @interface iCloudAccountMgr
 {
     NSArray *_accountCache;
-    NSOperationQueue *_operationQueue;
-    long long _queuedRefreshCount;
 }
 
 + (id);
@@ -26,12 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSArray *accountCache; // @synthesize accountCache=_accountCache;
-@property(retain) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property long long queuedRefreshCount; // @synthesize queuedRefreshCount=_queuedRefreshCount;
 
 @end
 

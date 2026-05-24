@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WBSOneShotTimer
 {
     CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_fireDate;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)^;
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

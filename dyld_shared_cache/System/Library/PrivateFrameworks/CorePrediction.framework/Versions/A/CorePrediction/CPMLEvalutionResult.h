@@ -9,16 +9,15 @@
 @interface CPMLEvalutionResult
 {
     NSObject *object;
-    unsigned long long count;
 }
 
+- (id)SSlider";
 - (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (double);
-- (id);
+- (id)ognizer"16@"NSEvent"24;
+- (id)temProvider"16@0:8 /* Error: Ran out of types for this method. */;
+- (int)I16;
+- (double)"NSData"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)}}32;
 - (void);
 
 @end

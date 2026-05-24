@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFComposeRecipientTextView, NSArray;
+@class NSArray;
 
 @interface _MFAtomTextView
 {
     unsigned long long _textStorageEditingDepth;
-    MFComposeRecipientTextView *_hostRecipientView;
 }
 
 - (void);
@@ -29,20 +28,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)changeSavedAccountsWithRequests:(id)arg1;
+- (_Bool)_authenticatorData;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSArray *atoms;
-@property __weak MFComposeRecipientTextView *hostRecipientView; // @synthesize hostRecipientView=_hostRecipientView;
 
 @end
 

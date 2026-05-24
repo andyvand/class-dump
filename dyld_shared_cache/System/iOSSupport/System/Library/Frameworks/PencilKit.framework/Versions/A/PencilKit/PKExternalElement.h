@@ -7,12 +7,10 @@
 @interface PKExternalElement
 {
     struct CGRect _boundingBox;
-    id _identifier;
-    struct CGPath *_path;
 }
 
 - (id);
-- (void);
+- (void)Z;
 - (unsigned long long);
 - (struct CGRect);
 - (_Bool);
@@ -21,9 +19,7 @@
 - (void)òôÀõ $÷ ÷I0ø)Äù)Xû;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingBox;
 @property(readonly, nonatomic) id identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) struct CGPath *path; // @synthesize path=_path;
 
 @end
 

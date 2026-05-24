@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSLayoutConstraint, NSNumber, NSPopUpButton, NSProgressIndicator, NSString, NSTextField, NSTextView, NSView, SHKShareImageView, SLXShareLocationController, SLXShareWindowBackgroundView;
+@class NSButton, SLXShareWindowBackgroundView;
 
 @interface SLComposeServiceViewController
 {
     SLXShareWindowBackgroundView *_backgroundView;
-    NSTextView *_messageTextView;
-    NSTextField *_characterCountTextField;
-    NSView *_locationContainerView;
-    NSButton *_cancelButton;
-    NSButton *_sendButton;
-    NSProgressIndicator *_progressIndicator;
-    NSTextField *_titleTextField;
-    NSTextField *_errorTextField;
-    NSTextField *_accountsFromTextField;
-    NSPopUpButton *_accountsPopUpButton;
-    NSTextField *_audienceTextField;
-    NSPopUpButton *_audiencePopUpButton;
-    SHKShareImageView *_imageView;
-    NSLayoutConstraint *_constraintBetweenImageAndPopUp;
-    NSLayoutConstraint *_constraintForAccountsPopUpWidth;
-    NSLayoutConstraint *_constraintForAudiencePopUpWidth;
-    NSLayoutConstraint *_constraintForImagePreviewWidth;
-    double _minWindowHeight;
-    double _baseWindowHeight;
-    _Bool _timedOutComputingThumbnail;
-    unsigned long long _mainItemIndex;
-    _Bool _showsCompletionPopUpInMessage;
-    NSNumber *_charactersRemaining;
-    NSString *_placeholder;
-    SLXShareLocationController *_locationController;
-    id _selectedAccount;
 }
 
 + (id);
@@ -53,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -80,11 +54,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -102,13 +76,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)lld] %fs:FetchAgeRanges  ErrorCode=%{public,signpost.telemetry:number2,name=ErrorCode}d  /* Error: Ran out of types for this method. */;
+- (void)%@ - %@;
+- (void)SharingCenter;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
@@ -127,44 +101,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSPopUpButton *accountsPopUpButton; // @synthesize accountsPopUpButton=_accountsPopUpButton;
-@property(readonly) NSPopUpButton *audiencePopUpButton; // @synthesize audiencePopUpButton=_audiencePopUpButton;
 @property(readonly) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain) NSNumber *charactersRemaining; // @synthesize charactersRemaining=_charactersRemaining;
-@property(readonly) NSString *contentText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSImage *decoratedImage;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSImage *image;
-@property(readonly) struct CGRect imageContentFrame;
-@property(readonly) struct CGRect imageFrame;
-@property(readonly) SLXShareLocationController *locationController; // @synthesize locationController=_locationController;
-@property unsigned long long mainItemIndex; // @synthesize mainItemIndex=_mainItemIndex;
-@property(retain) NSString *message;
-@property(readonly) NSTextView *messageTextView; // @synthesize messageTextView=_messageTextView;
-@property(copy) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property(readonly, retain) id selectedAccount; // @synthesize selectedAccount=_selectedAccount;
-@property(readonly) NSButton *sendButton; // @synthesize sendButton=_sendButton;
-@property _Bool showsAccountsPopUp;
-@property _Bool showsAudiencePopUp;
-@property _Bool showsCompletionPopUpInMessage; // @synthesize showsCompletionPopUpInMessage=_showsCompletionPopUpInMessage;
-@property _Bool showsLocationPin;
-@property _Bool showsProgressIndicator;
-@property _Bool showsRemainingCharactersCounter;
-@property(readonly) Class superclass;
-@property(readonly) NSTextView *textView;
-@property int textureStyle;
-@property _Bool timedOutComputingThumbnail; // @synthesize timedOutComputingThumbnail=_timedOutComputingThumbnail;
 
 @end
 

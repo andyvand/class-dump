@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalCommandQueue, IOGPUMetalDevice, NSMutableArray, NSObject;
-@protocol MTLCommandQueue, MTLDevice, OS_dispatch_queue, OS_dispatch_source;
+@class IOGPUMetalDevice;
+@protocol MTLDevice;
 
 @interface IOGPUMetalIOCommandQueue
 {
     IOGPUMetalDevice<MTLDevice> *_device;
-    struct __IOGPUIOCommandQueue *_ioCommandQueueRef;
-    IOGPUMetalCommandQueue<MTLCommandQueue> *_gpuQueue;
-    NSMutableArray *_pendingQueue;
-    NSMutableArray *_submittedQueue;
-    struct _opaque_pthread_mutex_t _pendingQueueLock;
-    struct _opaque_pthread_mutex_t _submittedQueueLock;
-    NSObject<OS_dispatch_queue> *_submissionQueueDispatch;
-    NSObject<OS_dispatch_queue> *_completionQueueDispatch;
-    NSObject<OS_dispatch_source> *_commandQueueEventSource;
-    NSObject<OS_dispatch_queue> *_ioThreadDispatch;
-    NSObject<OS_dispatch_queue> *_decompressionQueue;
-    unsigned long long _globalTraceObjectID;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +27,7 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)Required;
 - (unsigned long long);
 - (void);
 

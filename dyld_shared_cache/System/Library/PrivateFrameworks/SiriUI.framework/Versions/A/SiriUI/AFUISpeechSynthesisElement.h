@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SAUIAudioData;
-@protocol AFUISpeechSynthesisElementDelegate;
+@class NSString;
 
 @interface AFUISpeechSynthesisElement
 {
     NSString *_text;
-    _Bool _isPhonetic;
-    _Bool _isSilent;
-    _Bool _synthesizesWhileRecording;
-    _Bool _eligibleForSynthesis;
-    _Bool _provisional;
-    _Bool _preprationBlockCompleted;
-    _Bool _durationHasElapsed;
-    SAUIAudioData *_audioData;
-    NSString *_identifier;
-    long long _synthesisResult;
-    id <AFUISpeechSynthesisElementDelegate> _delegate;
-    NSString *_animationIdentifier;
-    CDUnknownBlockType _completion;
 }
 
 - (_Bool);
@@ -39,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)2	;
 - (long long);
 - (void);
 - (id);
@@ -57,20 +43,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *animationIdentifier; // @synthesize animationIdentifier=_animationIdentifier;
-@property(readonly, nonatomic) SAUIAudioData *audioData; // @synthesize audioData=_audioData;
-@property(readonly, nonatomic, getter=_completion) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) __weak id <AFUISpeechSynthesisElementDelegate> delegate; // @synthesize delegate=_delegate;
-@property(setter=_setDurationHasElapsed:) _Bool durationHasElapsed; // @synthesize durationHasElapsed=_durationHasElapsed;
 @property(nonatomic, getter=isEligibleForSynthesis, setter=_setEligibleForSynthesis:) _Bool eligibleForSynthesis; // @synthesize eligibleForSynthesis=_eligibleForSynthesis;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isPhonetic; // @synthesize isPhonetic=_isPhonetic;
-@property(nonatomic) _Bool isSilent; // @synthesize isSilent=_isSilent;
-@property(setter=_setPreparationBlockCompleted:) _Bool preprationBlockCompleted; // @synthesize preprationBlockCompleted=_preprationBlockCompleted;
-@property(readonly, nonatomic, getter=isProvisional) _Bool provisional; // @synthesize provisional=_provisional;
-@property(nonatomic) long long synthesisResult; // @synthesize synthesisResult=_synthesisResult;
-@property(nonatomic) _Bool synthesizesWhileRecording; // @synthesize synthesizesWhileRecording=_synthesizesWhileRecording;
-@property(copy, nonatomic, setter=_setText:) NSString *text; // @synthesize text=_text;
 
 @end
 

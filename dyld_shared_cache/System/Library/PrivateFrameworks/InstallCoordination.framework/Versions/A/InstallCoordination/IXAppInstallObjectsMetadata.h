@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable;
-
 __attribute__((visibility("hidden")))
 @interface IXAppInstallObjectsMetadata
 {
     unsigned long long _count;
-    NSHashTable *_instances;
 }
 
-- (void);
+- (void)PXCollectionListActionTypeSortByCustom;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(retain, nonatomic) NSHashTable *instances; // @synthesize instances=_instances;
 
 @end
 

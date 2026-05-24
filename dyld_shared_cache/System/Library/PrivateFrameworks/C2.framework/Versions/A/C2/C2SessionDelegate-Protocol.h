@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_dispatch_queue;
+
 @protocol C2SessionDelegate
+- (NSObject<OS_dispatch_queue> *);
 @end
 

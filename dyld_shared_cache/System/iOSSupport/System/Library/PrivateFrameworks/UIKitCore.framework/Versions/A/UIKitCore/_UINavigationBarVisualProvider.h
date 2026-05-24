@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UINavigationBar, UINavigationItem, _UINavigationBarItemStack, _UINavigationControllerRefreshControlHost, _UITabContainerView;
-@protocol _UIBarAppearanceChangeObserver;
+@class UINavigationBar;
 
 @interface _UINavigationBarVisualProvider
 {
     UINavigationBar *_navigationBar;
-    _UINavigationBarItemStack *_stack;
-    UINavigationItem *_itemForMeasuring;
-    _Bool _activeTabBarHost;
 }
 
-+ (_Bool);
++ (_Bool)back a change token has expired for processing the record zone for attachments going to try and fetch again;
 - (struct CGSize);
 - (id);
 - (void);
@@ -83,53 +79,53 @@
 - (_Bool)e=dd}}32{CGSize=dd}64{CGPoint=dd}80B96;
 - (void)dable>"16;
 - (_Bool)ng"16@0:(double)arg1 8;
-- (void)pdateTransitionWithFlags:(_Bool)arg1;
-- (void)xPath:(id)arg1;
-- (void)gLayerAnimations;
-- (_Bool)rnEvent;
-- (void)SessionReordering:(_Bool)arg1;
-- (void):(id)arg1 enabled: /* Error: Ran out of types for this method. */;
-- (void)fset: /* Error: Ran out of types for this method. */;
-- (void)owsDeferral: /* Error: Ran out of types for this method. */;
-- (_Bool)DidInvalidate: /* Error: Ran out of types for this method. */;
-- (void)bleScrollPositionForStateRestoration:(id)arg1;
-- (_Bool)y: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)Extension;
-- (double);
-- (void)on:(id)arg1;
-- (_Bool)illDisappear;
-- (double)ckAssertions;
-- (void)te: /* Error: Ran out of types for this method. */;
-- (id)ndow:withWindowBounds:withTrackpadFingerDownCount: /* Error: Ran out of types for this method. */;
-- (void)presentationForTypeIdentifier:toURL:options:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)endSignal:toChannel:withNullableUniqueStringID:withPayload: /* Error: Ran out of types for this method. */;
-- (_Bool)ard;
-- (id)leForMetrics:(struct CGPoint)arg1;
-- (_Bool)tes: /* Error: Ran out of types for this method. */;
-- (void)reOriginalFontAttributes;
-- (id)le: /* Error: Ran out of types for this method. */;
-- (void)ntationController;
-- (void)retchingEnabled;
-- (CDStruct_39925896)owPinnedViewForTraitCollection:(double)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
-- (void)ectionBorderWidth:(id)arg1;
-- (long long)Action: /* Error: Ran out of types for this method. */;
-- (void)resetBaseDateComponentsIfNecessaryFromDate:(id)arg1;
-- (void)acter:(id)arg1 withCharacter: /* Error: Ran out of types for this method. */;
-- (void)tUsingWords:forHUD:isSingleCharacterOrKeySymbol: /* Error: Ran out of types for this method. */;
-- (long long)t:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
-- (void)tems:(_Bool)arg1 dataSourceSnapshot:updateHandler:completion:viewPropertyAnimator:customAnimationsProvider:animated: /* Error: Ran out of types for this method. */;
-- (void)ByTabBarHeight;
-- (void)dFocusGuideMargins;
+- (void)updateTransitionWithFlags:(_Bool)arg1;
+- (void)tableView:(id)arg1 willBeginReorderingRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)stoppingLayerAnimations;
+- (_Bool)shouldProduceReturnEvent;
+- (void)setSupportsLocalSessionReordering:(_Bool)arg1;
+- (void)setItem:(id)arg1 enabled: /* Error: Ran out of types for this method. */;
+- (void)setDefaultSelectedShadowVerticalOffset: /* Error: Ran out of types for this method. */;
+- (void)setAllowsDeferral: /* Error: Ran out of types for this method. */;
+- (_Bool)sceneDidInvalidate: /* Error: Ran out of types for this method. */;
+- (void)restorableScrollPositionForStateRestoration:(id)arg1;
+- (_Bool)queueDelayedTask:forKey:delay: /* Error: Ran out of types for this method. */;
+- (id)minimumContentOffset;
+- (void)killIncomingExtension;
+- (double)jointWithBodyA:bodyB:anchorA:anchorB: /* Error: Ran out of types for this method. */;
+- (void)initWithOperation:(id)arg1;
+- (_Bool)hostViewWillDisappear;
+- (double)fullscreenPlaybackAssertions;
+- (void)finalUpdateForInitialUpdate: /* Error: Ran out of types for this method. */;
+- (id)didTouchWithID:withPhase:withType:withLocationInWindow:withWindowBounds:withTrackpadFingerDownCount: /* Error: Ran out of types for this method. */;
+- (void)copyFileRepresentationForTypeIdentifier:toURL:options:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)asyncSendSignal:toChannel:withNullableUniqueStringID:withPayload: /* Error: Ran out of types for this method. */;
+- (_Bool)additionalTopPaddingForRoundedKeyboard;
+- (id)_visualStyleForMetrics:(struct CGPoint)arg1;
+- (_Bool)_updateMaskingUsingAttributes: /* Error: Ran out of types for this method. */;
+- (void)_ui_restoreOriginalFontAttributes;
+- (id)_titleRectForContentRect:calculatePositionForEmptyTitle: /* Error: Ran out of types for this method. */;
+- (void)_temporaryPresentationController;
+- (void)_stretchingEnabled;
+- (CDStruct_bd34ff7f)_shortTopArrowPinnedViewForTraitCollection:(double)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)_setSelectionBorderWidth:(id)arg1;
+- (long long)_searchButtonAction: /* Error: Ran out of types for this method. */;
+- (void)_resetBaseDateComponentsIfNecessaryFromDate:(id)arg1;
+- (void)_replaceOccurrencesOfCharacter:(id)arg1 withCharacter: /* Error: Ran out of types for this method. */;
+- (void)_readableStringForKeyEquivalentUsingWords:forHUD:isSingleCharacterOrKeySymbol: /* Error: Ran out of types for this method. */;
+- (long long)_preferredFontDescriptorWithTextStyle:design:weight:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)_performUpdateWithCollectionViewUpdateItems:(_Bool)arg1 dataSourceSnapshot:updateHandler:completion:viewPropertyAnimator:customAnimationsProvider:animated: /* Error: Ran out of types for this method. */;
+- (void)_navigationBarHeightShouldBeIncreasedByTabBarHeight;
+- (void)_keyboardFocusGuideMargins;
 - (_Bool)_isActiveDictationInputInMultilingualKeyboard;
-- (void)tionWithCompletionHandler:(id)arg1;
-- (void)orTouch:(double)arg1;
+- (void)_imageByCreatingBitmapRepresentationWithCompletionHandler:(id)arg1;
+- (void)_hasTextAlternativesForTouch:(double)arg1;
 - (void)_feedbackTimer;
 - (id)_documentDidChange;
-- (void)ourceImplementsNumberOfSectionsInTableView;
-- (void)vedScrollView: /* Error: Ran out of types for this method. */;
-- (void)backgroundMaterialGroupName;
-- (void)occurrence:actionsView: /* Error: Ran out of types for this method. */;
+- (void)_dataSourceImplementsNumberOfSectionsInTableView;
+- (void)_compatibility_updateViewController:forTabBarObservedScrollView: /* Error: Ran out of types for this method. */;
+- (void)_backgroundMaterialGroupName;
+- (void)_animateScanlineViewForCell:occurrence:actionsView: /* Error: Ran out of types for this method. */;
 - (void)e=dd}},R,N,V_visibleBounds;
 - (void)int=dd},R,N,V_currentOffset;
 - (void)strokeWidth;
@@ -137,18 +133,18 @@
 - (_Bool)OnImageAndTitle;
 - (long long)V_creator;
 - (unsigned long long)lor",&,N,V_dimmingColor;
-- (void)ingBeforePublic;
+- (void)_keyCommandHandlingBeforePublic;
 - (void)V_resizingDelegate;
 - (void)lor;
-- (_Bool)on;
+- (_Bool)headerDimension;
 - (double)fillmentCell,S_setCurrentPromiseFulfillmentCell:,V_currentPromiseFulfillmentCell /* Error: Ran out of types for this method. */;
 - (id)traint",&,N,V_inCallLabelSpacingConstraint;
 - (void)N,V_searchHints;
 - (void)nsets=dddd},R,N,V_defaultTableLayoutMargins;
-- (void)CacheKey;
-- (void)uScrollObservationInteraction;
-- (id)nternal;
-- (id)sentationViewObserver;
+- (void)_UITextFieldClearButtonCacheKey;
+- (void)_UIContextMenuScrollObservationInteraction;
+- (id)_UITraitEnvironmentInternal;
+- (id)_UIScenePresentationViewObserver;
 - (void)Ø;
 - (_Bool)X;
 - (struct NSDirectionalEdgeInsets)øV;
@@ -170,16 +166,16 @@ lìhídîÄð\òó¤ôÄõ|úÜû;
 %@;
 - (_Bool)ÿÿÿ¶¦ÿ@ÿÿÿÿÿÿ¢þ4ÿÿÿ¤ÿÿÿ@§þ(ÿÿÿÿÿÿp¢þÿÿÿLÿÿÿ;
 - (void);
-- (void)ion;
+- (void)_requiresOwnSection;
 - (_Bool);
 - (id)IDelayedAction init];
 - (CDUnknownBlockType)ars;
 - (void)w controller.;
 - (void)Footer;
-- (id)ractionEventsForCarPlayApp;
+- (id)ForceEndIngnoringInteractionEventsForCarPlayApp;
 - (void)ne = YES;
 - (_Bool)tionInteraction"8Q16Q24;
-- (void)ng;
+- (void)_long;
 - (void);
 - (void);
 - (id)UIResponderChainFinishCollectingDebugInfo for wrong action. (%@ instead of %@);
@@ -205,36 +201,7 @@ lìhídîÄð\òó¤ôÄõ|úÜû;
 - (void)°Ä`;
 
 // Remaining properties
-@property(nonatomic, getter=isActiveTabBarHost) _Bool activeTabBarHost; // @synthesize activeTabBarHost=_activeTabBarHost;
-@property(readonly, nonatomic) _Bool allowsLayoutWhileTransitioning;
-@property(readonly, nonatomic) _Bool allowsUserInteractionDuringTransitions;
-@property(readonly, nonatomic, getter=isAnimatingNavItemContentLayoutGuideForStaticButtonVisibilityChange) _Bool animatingNavItemContentLayoutGuideForStaticButtonVisibilityChange;
-@property(nonatomic) long long appearanceAPIVersion;
-@property(readonly, nonatomic) id <_UIBarAppearanceChangeObserver> appearanceObserver;
-@property(nonatomic) double backgroundAlpha;
-@property(readonly, nonatomic) unsigned long long behavioralStyle;
-@property(readonly, nonatomic, getter=isContentViewHidden) _Bool contentViewHidden;
-@property(readonly, nonatomic) long long currentContentSize;
-@property(readonly, nonatomic) long long currentNSToolbarSection;
-@property(nonatomic) _Bool forceScrollEdgeAppearance;
-@property(readonly, nonatomic) _Bool isInCustomization;
-@property(readonly, nonatomic) UINavigationItem *itemForMeasuring; // @synthesize itemForMeasuring=_itemForMeasuring;
-@property(readonly, nonatomic) double navItemContentLayoutGuideAnimationDistance;
 @property(readonly, nonatomic) UINavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(retain, nonatomic) UIBarButtonItem *nullableStaticNavBarButtonItem;
-@property(readonly, nonatomic) _Bool permitsSearchBarPlacementIntegratedCentered;
-@property(nonatomic) unsigned long long preferredBehavioralStyle;
-@property(retain, nonatomic) _UINavigationControllerRefreshControlHost *refreshControlHost;
-@property(readonly, nonatomic) _Bool scrollEdgeAppearanceHasChromelessBehavior;
-@property(nonatomic) _Bool shouldFadeStaticNavBarButton;
-@property(retain, nonatomic) _UINavigationBarItemStack *stack; // @synthesize stack=_stack;
-@property(retain, nonatomic) UIBarButtonItem *staticNavBarButtonItem;
-@property(nonatomic) _Bool staticNavBarButtonLingers;
-@property(nonatomic) __weak _UITabContainerView *tabBarHostedView;
-@property(nonatomic) double titleAlpha;
-@property(nonatomic) _Bool useInlineBackgroundHeightWhenLarge;
-@property(nonatomic) _Bool wantsHostedTabBarMetrics;
-@property(readonly, nonatomic) _Bool wantsLargeTitleDisplayed;
 
 @end
 

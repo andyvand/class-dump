@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSValue;
+@class NSString;
 
 @interface CKSoftwareProduct
 {
     _Bool _installed;
-    _Bool _isVPPLicensed;
-    _Bool _vppLicenseRevoked;
-    _Bool _isMachineLicensed;
-    _Bool _isLegacyApp;
-    _Bool _metadataChangeIsExpected;
-    _Bool _metadataChangeHasAlreadyOccurred;
-    NSString *_accountOpaqueDSID;
-    NSString *_accountIdentifier;
-    NSString *_appName;
-    NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    NSString *_bundlePath;
-    NSString *_receiptType;
-    NSNumber *_itemIdentifier;
-    NSNumber *_storeFrontIdentifier;
-    NSNumber *_versionIdentifier;
-    NSDate *_purchaseDate;
-    NSValue *_mdItemRef;
-    NSString *_vppLicenseOrganizationName;
-    NSDate *_vppLicenseExpirationDate;
-    NSDate *_vppLicenseRenewalDate;
-    NSString *_vppLicenseCancellationReason;
-    long long _source;
-    NSString *_expectedBundleVersion;
-    NSNumber *_expectedStoreVersion;
 }
 
 + (id);
@@ -42,15 +17,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,19 +36,19 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -86,46 +61,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (id);
-- (id);
+- (id)addThumbnailForURL:(struct _NSZone *)arg1 lastHitDate:size: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)eueSelectorName;
+- (id)requestQueueSelectorName;
 
 // Remaining properties
-@property(retain) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(retain) NSString *accountOpaqueDSID; // @synthesize accountOpaqueDSID=_accountOpaqueDSID;
-@property(retain) NSString *appName; // @synthesize appName=_appName;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property(retain) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(copy) NSString *expectedBundleVersion; // @synthesize expectedBundleVersion=_expectedBundleVersion;
-@property(copy) NSNumber *expectedStoreVersion; // @synthesize expectedStoreVersion=_expectedStoreVersion;
-@property _Bool installed; // @synthesize installed=_installed;
-@property _Bool isLegacyApp; // @synthesize isLegacyApp=_isLegacyApp;
-@property _Bool isMachineLicensed; // @synthesize isMachineLicensed=_isMachineLicensed;
-@property _Bool isVPPLicensed; // @synthesize isVPPLicensed=_isVPPLicensed;
-@property(retain) NSNumber *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain) NSValue *mdItemRef; // @synthesize mdItemRef=_mdItemRef;
-@property _Bool metadataChangeHasAlreadyOccurred; // @synthesize metadataChangeHasAlreadyOccurred=_metadataChangeHasAlreadyOccurred;
-@property _Bool metadataChangeIsExpected; // @synthesize metadataChangeIsExpected=_metadataChangeIsExpected;
-@property(retain) NSDate *purchaseDate; // @synthesize purchaseDate=_purchaseDate;
-@property(retain) NSString *receiptType; // @synthesize receiptType=_receiptType;
-@property long long source; // @synthesize source=_source;
-@property(readonly) NSString *sourceString;
-@property(retain) NSNumber *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(retain) NSNumber *versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
-@property(retain) NSString *vppLicenseCancellationReason; // @synthesize vppLicenseCancellationReason=_vppLicenseCancellationReason;
-@property(retain) NSDate *vppLicenseExpirationDate; // @synthesize vppLicenseExpirationDate=_vppLicenseExpirationDate;
-@property(retain) NSString *vppLicenseOrganizationName; // @synthesize vppLicenseOrganizationName=_vppLicenseOrganizationName;
-@property(retain) NSDate *vppLicenseRenewalDate; // @synthesize vppLicenseRenewalDate=_vppLicenseRenewalDate;
-@property _Bool vppLicenseRevoked; // @synthesize vppLicenseRevoked=_vppLicenseRevoked;
 
 @end
 

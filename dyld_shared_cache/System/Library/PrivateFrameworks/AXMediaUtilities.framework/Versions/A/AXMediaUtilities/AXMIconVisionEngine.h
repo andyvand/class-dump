@@ -6,29 +6,25 @@
 
 #import <AXMediaUtilities/AXMVisionEngine.h>
 
-@class AXMBrailleEdgesDetectorNode, AXMIconClassDetectorNode, AXMImageNode;
+@class AXMImageNode;
 
 @interface AXMIconVisionEngine : AXMVisionEngine
 {
     AXMImageNode *_imageNode;
-    AXMIconClassDetectorNode *_iconClassDetector;
-    AXMBrailleEdgesDetectorNode *_brailleEdgeDetector;
 }
 
-+ (id);
++ (id)!;
 - (void);
 - (void);
 - (void);
+- (id)\|;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)[|;
+- (id):(id)arg1: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak AXMBrailleEdgesDetectorNode *brailleEdgeDetector; // @synthesize brailleEdgeDetector=_brailleEdgeDetector;
-@property(nonatomic) __weak AXMIconClassDetectorNode *iconClassDetector; // @synthesize iconClassDetector=_iconClassDetector;
 @property(nonatomic) __weak AXMImageNode *imageNode; // @synthesize imageNode=_imageNode;
 
 @end

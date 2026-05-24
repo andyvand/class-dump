@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol IPNamePreferenceInfoProvider
++ (NSDictionary *)decodeIntegerForKey:(NSString *)arg1;
++ (NSDictionary *)decodeFloatForKey:(NSString *)arg1;
++ (NSDictionary *)boolValue;
++ (NSDictionary *)bloomIterationSpread;
++ (NSDictionary *)attenuationStartDistance;
++ (NSString *)STAskToManageContactsRequestReceivedUserNotificationContext;
 @end
 

@@ -6,18 +6,11 @@
 
 #import <InputMethodKit/IMKUIAbstractCandidateLayout.h>
 
-@class IMKUICandidateLayoutTraits, NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface IMKUIFastTrackVerticalLayout : IMKUIAbstractCandidateLayout
 {
     _Bool _adjustSizeForAnnotationMargins;
-    NSMutableDictionary *_candidateToIndexMap;
-    NSArray *_flatCandidateArray;
-    NSMutableDictionary *_indexToCandidateMapping;
-    NSMutableDictionary *_indexToGroupMap;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    _Bool _showsGroups;
-    double _length;
 }
 
 - (struct CGSize);
@@ -27,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (unsigned long long);
 - (id);
 - (id);
@@ -42,24 +35,14 @@
 - (id);
 - (double);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)_releaseProtocolDescription;
 - (void);
 - (struct CGSize)(%@);
 
 // Remaining properties
-@property(nonatomic) _Bool adjustSizeForAnnotationMargins; // @synthesize adjustSizeForAnnotationMargins=_adjustSizeForAnnotationMargins;
-@property(readonly, nonatomic) NSArray *allCandidates;
-@property(retain, nonatomic) NSMutableDictionary *candidateToIndexMap; // @synthesize candidateToIndexMap=_candidateToIndexMap;
-@property(readonly, nonatomic) unsigned long long count;
 @property(retain, nonatomic) NSArray *flatCandidateArray; // @synthesize flatCandidateArray=_flatCandidateArray;
-@property(readonly, nonatomic) _Bool hasAnnotations;
-@property(retain, nonatomic) NSMutableDictionary *indexToCandidateMapping; // @synthesize indexToCandidateMapping=_indexToCandidateMapping;
-@property(retain, nonatomic) NSMutableDictionary *indexToGroupMap; // @synthesize indexToGroupMap=_indexToGroupMap;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(nonatomic) double length; // @synthesize length=_length;
-@property(nonatomic) _Bool showsGroups; // @synthesize showsGroups=_showsGroups;
 
 @end
 

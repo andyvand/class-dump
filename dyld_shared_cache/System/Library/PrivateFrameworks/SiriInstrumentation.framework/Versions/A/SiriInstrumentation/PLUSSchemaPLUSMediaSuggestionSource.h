@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSMediaSuggestionSource : SISchemaInstrumentationMessage
 {
     int _sourceType;
-    CDStruct_98cb7231 _has;
 }
 
-- (void);
+- (void)/;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)migrated:(id)arg1 %@;
 - (id);
 - (id)qÝÐ1Â0@ù
 × ;
-- (id)tURL;
+- (id)_hasUploadEndpointURL;
 - (id)eKit;
 - (void);
 - (int)ê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSourceType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int sourceType; // @synthesize sourceType=_sourceType;
 
 @end

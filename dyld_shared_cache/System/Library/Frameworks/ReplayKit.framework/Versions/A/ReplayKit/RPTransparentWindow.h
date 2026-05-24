@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)tPosition;
 - (id);
 - (_Bool);
 

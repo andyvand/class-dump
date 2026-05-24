@@ -23,19 +23,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)modelDescription;
+- (id)8;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)16;
+- (id)start donation service;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDocumentShared;
 @property(retain, nonatomic) NSArray *timestamps; // @synthesize timestamps=_timestamps;
 
 @end

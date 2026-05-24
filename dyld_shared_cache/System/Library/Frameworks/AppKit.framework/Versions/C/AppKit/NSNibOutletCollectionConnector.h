@@ -11,23 +11,21 @@
 @interface NSNibOutletCollectionConnector : NSNibConnector
 {
     NSString *_runtimeCollectionClassName;
-    _Bool _addsContentToExistingCollection;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)%{public}s[%p] Asyncing for session update block;
 - (void)Qß3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool addsContentToExistingCollection; // @synthesize addsContentToExistingCollection=_addsContentToExistingCollection;
 @property(copy) NSString *runtimeCollectionClassName; // @synthesize runtimeCollectionClassName=_runtimeCollectionClassName;
 
 @end

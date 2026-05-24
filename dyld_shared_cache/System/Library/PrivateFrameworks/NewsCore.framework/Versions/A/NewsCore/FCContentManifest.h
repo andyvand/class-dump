@@ -9,15 +9,14 @@
 @interface FCContentManifest
 {
     NSArray *_assetURLs;
-    NSArray *_assetWrappingKeyIDs;
-    NSArray *_recordIDs;
-    NSArray *_avAssetIDs;
-    NSArray *_avAssetKeyIDs;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)v;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,25 +29,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)geoMapItemsFromMapsSuggestionsEntry:(id)arg1 handle:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)|;
+- (id);
 - (id)EmbeddingsEventCount:headlinesWithInvalidBodyEmbeddingsEventCount:eventCounts:aggregateStoreData: /* Error: Ran out of types for this method. */;
 - (id)ested AV asset key could not be retrieved because the user isn't authorized.;
 - (void)NquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCSubscriptionController.m;
-- (id)Item;
+- (id)recipeItem;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assetURLs; // @synthesize assetURLs=_assetURLs;
-@property(readonly, copy, nonatomic) NSArray *assetWrappingKeyIDs; // @synthesize assetWrappingKeyIDs=_assetWrappingKeyIDs;
-@property(readonly, copy, nonatomic) NSArray *avAssetIDs; // @synthesize avAssetIDs=_avAssetIDs;
-@property(readonly, copy, nonatomic) NSArray *avAssetKeyIDs; // @synthesize avAssetKeyIDs=_avAssetKeyIDs;
-@property(readonly, copy, nonatomic) NSArray *avAssetKeyURIs;
-@property(readonly, copy, nonatomic) FCContentManifest *copyWithAssetsOnly;
-@property(readonly, copy, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
 
 @end
 

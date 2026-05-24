@@ -18,10 +18,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)W$;
+- (void)$;
 - (id);
 - (id);
 - (_Bool);
@@ -34,16 +34,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)rate limited:%@.%@.%@.%@ - %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fmtype;
-@property(retain, nonatomic) NSString *managed_filename;
-@property(retain, nonatomic) NSString *managed_id;
-@property(nonatomic) int size;
-@property(nonatomic) _Bool x_apple_autoarchived;
-@property(retain, nonatomic) NSString *x_apple_ews_attachmentid;
-@property(retain, nonatomic) NSString *x_apple_filename;
 
 @end
 

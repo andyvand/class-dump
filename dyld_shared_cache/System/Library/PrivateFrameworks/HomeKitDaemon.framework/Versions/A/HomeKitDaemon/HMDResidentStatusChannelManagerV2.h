@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, HMDIDSServerBag, HMDResidentStatus, HMDResidentStatusChannel, HMDResidentStatusChannelPriorityUpdateLogEvent, HMDResidentStatusChannelV2, HMDStatusChannelPayloadManager, HMFFuture, HMFMessageDispatcher, HMFTimer, NSBackgroundActivityScheduler, NSData, NSHashTable, NSMutableSet, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDResidentStatusChannelManagerDataSource, HMMLogEventSubmitting, HMMUptimeProvider, OS_dispatch_queue;
+@class HMFMessageDispatcher;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusChannelManagerV2
 {
     _Bool _didMakeInitialPublishOnDedicatedChannel;
-    NSMutableSet *_clientIdentifiers;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSData *_metadataForDedicatedChannel;
-    NSHashTable *_delegates;
-    id <HMDResidentStatusChannelManagerDataSource> _dataSource;
-    NSBackgroundActivityScheduler *_commonToDedicatedTopicMigrationScheduler;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMFTimer *_channelUpdateDebounceTimer;
-    HMDIDSServerBag *_idsServerBag;
-    id <HMMUptimeProvider> _uptimeProvider;
-    HMDResidentStatusChannelPriorityUpdateLogEvent *_lastPriorityUpdateEvent;
-    double _priorityUpdateStartTime;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMDResidentStatusChannel *_channelOnCommonTopic;
-    HMDResidentStatusChannelV2 *_channelOnDedicatedTopic;
 }
 
 + (id)QB;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -51,64 +35,64 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)trafficColorsCount;
+- (_Bool)setRemainingTime: /* Error: Ran out of types for this method. */;
+- (id)navigationListener:didUpdateNavigationVoiceVolume: /* Error: Ran out of types for this method. */;
+- (id)MSPBaseFeedbackReportTicket;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)ver error %@;
+- (_Bool)[STORAGE] rulesWriteError %@;
+- (_Bool)%@;
+- (_Bool)ate;
+- (void)dentifiers;
+- (void)MSPContainerErrorUnkownStorageIdentifierKey;
+- (void)TRANSIT_LINE_ITEM;
+- (void)MSPMinimumETADifferenceIncrementKey;
+- (void)MSPUGCLogDiscardShouldReuseExistingKeyKey;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)5;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool).{;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (double);
 - (void);
+- (void)Ǩ;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id).;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -118,64 +102,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id)dReasonLogEvent: /* Error: Ran out of types for this method. */;
+- (id)handleUploadReasonLogEvent: /* Error: Ran out of types for this method. */;
 - (id)e;
-- (void)eConfigurationLogEvent;
-- (void)derLogEvent;
+- (void)HMDHomeConfigurationLogEvent;
+- (void)HMDCameraSettingProactiveReaderLogEvent;
 - (_Bool)÷óþÿÿÿÿ;
 - (id)emoved locally;
 - (void)lue change;
-- (void)fiedAccessories;
-- (id)RequestGroup;
+- (void)numNotCertifiedAccessories;
+- (id)HMDLogEventMessageAnalyzerTxSecureMessagesCountPeriodicRequestGroup;
 - (id);
 - (id);
 - (void)ôaéÿq;
 - (id)[ÿ;
 
 // Remaining properties
-@property(retain) HMDResidentStatusChannel *channelOnCommonTopic; // @synthesize channelOnCommonTopic=_channelOnCommonTopic;
-@property(retain, nonatomic) HMDResidentStatusChannelV2 *channelOnDedicatedTopic; // @synthesize channelOnDedicatedTopic=_channelOnDedicatedTopic;
-@property(retain) HMFTimer *channelUpdateDebounceTimer; // @synthesize channelUpdateDebounceTimer=_channelUpdateDebounceTimer;
-@property(readonly, nonatomic) NSMutableSet *clientIdentifiers; // @synthesize clientIdentifiers=_clientIdentifiers;
-@property(retain) NSBackgroundActivityScheduler *commonToDedicatedTopicMigrationScheduler; // @synthesize commonToDedicatedTopicMigrationScheduler=_commonToDedicatedTopicMigrationScheduler;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic) HMDResidentStatus *currentPrimaryResident;
-@property(readonly, nonatomic) id <HMDResidentStatusChannelManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didMakeInitialPublishOnDedicatedChannel; // @synthesize didMakeInitialPublishOnDedicatedChannel=_didMakeInitialPublishOnDedicatedChannel;
-@property(readonly, nonatomic) NSSet *domainDataStatuses;
-@property(readonly, nonatomic) _Bool domainPublishAllowed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool homeMigratedToDedicatedChannel;
-@property(readonly, nonatomic) _Bool homeSupportsStatusChannel;
-@property(readonly) __weak HMDIDSServerBag *idsServerBag; // @synthesize idsServerBag=_idsServerBag;
-@property(readonly, nonatomic) HMFFuture *initialConnectedToStatusKitFuture;
-@property(retain, nonatomic) HMDResidentStatusChannelPriorityUpdateLogEvent *lastPriorityUpdateEvent; // @synthesize lastPriorityUpdateEvent=_lastPriorityUpdateEvent;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 @property(retain, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) NSData *metadataForDedicatedChannel; // @synthesize metadataForDedicatedChannel=_metadataForDedicatedChannel;
-@property(readonly, nonatomic) HMDHomeKitVersion *minimumHomeKitVersionForChannelMigration;
-@property(readonly, nonatomic) _Bool needCommonChannelAfterMigration;
-@property(readonly, nonatomic) HMDStatusChannelPayloadManager *payloadManager;
-@property(readonly, nonatomic) NSSet *presentResidentStatuses;
-@property(readonly, nonatomic, getter=isPrimaryResidentAsserting) _Bool primaryResidentAsserting;
-@property(nonatomic) double priorityUpdateStartTime; // @synthesize priorityUpdateStartTime=_priorityUpdateStartTime;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMMUptimeProvider> uptimeProvider; // @synthesize uptimeProvider=_uptimeProvider;
 
 @end
 

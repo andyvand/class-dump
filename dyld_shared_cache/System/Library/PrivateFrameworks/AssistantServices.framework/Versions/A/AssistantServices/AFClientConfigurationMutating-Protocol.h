@@ -5,5 +5,9 @@
 //
 
 @protocol AFClientConfigurationMutating
+- (void);
+- (void)C9;
+- (void);
+- (void)*;
 @end
 

@@ -5,5 +5,12 @@
 //
 
 @protocol FCSubscriptionObserving
+
+@optional
+- (void)t;
+- (void);
+- (void)%@;
+- (void)update;
+- (void)efreshed suggestionsURLs;
 @end
 

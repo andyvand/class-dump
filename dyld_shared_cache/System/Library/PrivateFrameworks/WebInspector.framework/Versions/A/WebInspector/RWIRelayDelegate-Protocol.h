@@ -5,5 +5,6 @@
 //
 
 @protocol RWIRelayDelegate
+- (void);
 @end
 

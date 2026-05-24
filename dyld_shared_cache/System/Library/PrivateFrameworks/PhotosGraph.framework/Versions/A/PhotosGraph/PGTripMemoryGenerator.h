@@ -13,15 +13,15 @@
     MABinaryAdjacency *_featuredLocationOrAreaNodesByTripNode;
 }
 
-+ (id);
++ (id)removePointerAtIndex:(id)arg1;
 + (unsigned long long);
 + (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setApplicationIdentifier:(id)arg1;
+- (id)initWithConfiguration:(id)arg1;
+- (id)_isCurrentIndexAtEndOfWord;
 - (void)gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerUpcomingCalendarEvent.m;
 
 @end

@@ -9,7 +9,6 @@
 @interface COMAPPLEFELDSPARPROTOCOLScoredTagID
 {
     float _score;
-    NSString *_tagId;
 }
 
 - (id);
@@ -23,12 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (float);
+- (float)=;
 - (void);
-- (void)ifiersType;
+- (void)contentKeyIdentifiersType;
 
 // Remaining properties
-@property(nonatomic) float score; // @synthesize score=_score;
 @property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end

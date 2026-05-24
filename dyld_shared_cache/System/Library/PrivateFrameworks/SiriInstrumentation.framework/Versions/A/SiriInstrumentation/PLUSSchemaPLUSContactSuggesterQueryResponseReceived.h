@@ -6,25 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PLUSSchemaPLUSContactSuggesterQueryResponseReceived : SISchemaInstrumentationMessage
 {
     NSArray *_results;
-    _Bool _hasMatchingResults;
-    struct {
-        unsigned int hasMatchingResults:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -35,16 +31,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)iptionDownloadStatus;
-- (id)niqueId;
+- (void)subscriptionDownloadStatus;
+- (id)_hasSessionScopedUniqueId;
 - (id)onVoiceCommandLinkId;
-- (void)econd;
-- (void)_GEO;
+- (void)tokensPerSecond;
+- (void)CNVPLUGIN_GEO;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasMatchingResults;
-@property(nonatomic) _Bool hasMatchingResults; // @synthesize hasMatchingResults=_hasMatchingResults;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

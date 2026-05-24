@@ -6,32 +6,25 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface PKRetrieveMerchantTokensResponse : PKPaymentWebServiceResponse
 {
     NSArray *_merchantTokens;
-    NSNumber *_totalMerchantTokens;
-    NSNumber *_pageSize;
-    NSNumber *_totalPages;
-    NSNumber *_pageNumber;
 }
 
 - (id);
 - (id);
+- (id)	k 
+;
 - (id);
-- (id);
-- (id);
+- (id)kh6;
 - (id);
 - (id);
 - (void)tems:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *merchantTokens; // @synthesize merchantTokens=_merchantTokens;
-@property(readonly, copy, nonatomic) NSNumber *pageNumber; // @synthesize pageNumber=_pageNumber;
-@property(readonly, copy, nonatomic) NSNumber *pageSize; // @synthesize pageSize=_pageSize;
-@property(readonly, copy, nonatomic) NSNumber *totalMerchantTokens; // @synthesize totalMerchantTokens=_totalMerchantTokens;
-@property(readonly, copy, nonatomic) NSNumber *totalPages; // @synthesize totalPages=_totalPages;
 
 @end
 

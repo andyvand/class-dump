@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSQLiteStatement, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ICSQLiteRow
 {
     NSDictionary *_columnIndexByName;
-    struct sqlite3_stmt *_statement;
-    ICSQLiteStatement *_statementWrapper;
 }
 
 - (double);
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)hfE9;
 - (id);
-- (void)idChangeState: /* Error: Ran out of types for this method. */;
+- (void)ICURLRequest:didChangeState: /* Error: Ran out of types for this method. */;
 - (long long)·¡£ÝßïíÉËûù^\lnJHxz64" õ÷ÇÅáãÓÑ¯­»¹,.
 8:(int)arg1 vtDFb`PR(*<>@BrpTVfdÃÁñó×Õåç«©¿½%'13MO}Y[kiÎÌüþÚØèê¦¤²°øúÊÈìîÞÜ¢ ¶´!#57{yIKom]_ CéUþsÀøõyØXMdÑQW)Yÿ/£¹;uö,â­wr4°·ÓqNÊ&\ÈIñ=7Û$ÙZA¥|}>?DæË3ë¿¨+:Î"Fúxk@BpÐ.mäóûùÄn(1´tÍ /* Error: Ran out of types for this method. */;
 - (id)9þ9þ9Kþ9Äþ9Õþ9Zþ9þ9þ9þ9þ9>þ9Éþ9Øþ9Oþ9Bþ9Íþ9Üþ9Sþ9þ9þ9ÿþ9þ9Gþ9Àþ9Ñþ9Vþ9þ9þ9

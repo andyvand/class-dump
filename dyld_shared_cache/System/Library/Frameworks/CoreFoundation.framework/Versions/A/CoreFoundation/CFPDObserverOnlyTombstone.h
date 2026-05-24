@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface CFPDObserverOnlyTombstone
 {
     struct __CFString *_domain;
-    struct __CFString *_userOrContainer;
-    union {
-        NSObject<OS_xpc_object> *_single;
-        struct __CFSet *_multiple;
-    } _observers;
-    struct os_unfair_lock_s _lock;
-    unsigned short _shmemIndex;
-    unsigned int _isManaged:1;
-    unsigned int _notificationInProgress:1;
-    unsigned int _needToNotify:1;
 }
 
 - (void);

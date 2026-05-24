@@ -11,28 +11,27 @@
 @interface NSComboBoxWindow : NSWindow
 {
     NSComboBoxCell *_comboBoxCell;
-    NSWindow *_attachedToParent;
 }
 
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)8@"NSURLProtectionSpace"16@?<v@?@"NSDictionary">24;
+- (void)8Q16@"NSValue"24@"NSArray"32@"NSValue"40@"NSDictionary"48;
+- (void)v40@0:(id)arg1 8Q16@"NSURLRequest"24@?<v@?q@"NSURLRequest">32;
+- (void)setNewerThanCreationDate:(id)arg1;
+- (_Bool)countOfBytesExpectedToReceive;
+- (id)URLSession:(struct CGRect)arg1 task:(id)arg2 needNewBodyStreamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)setExternallyVisibleNwActivity: /* Error: Ran out of types for this method. */;
+- (_Bool)sk in a session that has been invalidated;
+- (id);
+- (_Bool)X;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (_Bool);

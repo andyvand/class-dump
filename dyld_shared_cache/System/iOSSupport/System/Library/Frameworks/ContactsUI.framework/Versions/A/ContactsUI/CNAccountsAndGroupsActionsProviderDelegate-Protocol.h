@@ -5,5 +5,7 @@
 //
 
 @protocol CNAccountsAndGroupsActionsProviderDelegate
+- (void);
+- (void)HD&Qo__Qo_;
 @end
 

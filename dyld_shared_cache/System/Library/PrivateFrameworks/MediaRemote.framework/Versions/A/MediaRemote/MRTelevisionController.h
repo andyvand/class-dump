@@ -6,13 +6,12 @@
 
 #import <MediaRemote/MRExternalDeviceController.h>
 
-@class NSString, _MRTelevisionControllerBlockCallback;
+@class _MRTelevisionControllerBlockCallback;
 
 __attribute__((visibility("hidden")))
 @interface MRTelevisionController : MRExternalDeviceController
 {
     _MRTelevisionControllerBlockCallback *_discoveryCallback;
-    _MRTelevisionControllerBlockCallback *_removalCallback;
 }
 
 + (Class);
@@ -26,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)acyNowPlayingInfoRequest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _MRTelevisionControllerBlockCallback *discoveryCallback; // @synthesize discoveryCallback=_discoveryCallback;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _MRTelevisionControllerBlockCallback *removalCallback; // @synthesize removalCallback=_removalCallback;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncCompanionSyncUploadStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tubs/ASDPurchaseRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)chmentRecordRef);
 - (id);
 - (id);
-- (id)setSetStatusCount;
+- (id)assetSetStatusCount;
 - (id)_appContactFreqForMessages;
 - (_Bool);
 - (_Bool)Evaluated.payload.outcome.actionConfirmation.systemStyle.generativeAIEnablement.bundleId;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

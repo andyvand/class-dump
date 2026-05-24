@@ -6,49 +6,33 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class CNObservableContractEnforcement, CNObservableEvent, NSMutableArray, NSString;
-@protocol CNSchedulerProvider, NSLocking;
+@class NSMutableArray;
 
 @interface CNBehaviorSubject : CNObservable
 {
     NSMutableArray *_observers;
-    CNObservableEvent *_mostRecentEvent;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <NSLocking> _resourceLock;
-    CNObservableContractEnforcement *_enforcement;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)w;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)Tn;
 - (void);
 - (id)2@0:8Q16@24 /* Error: Ran out of types for this method. */;
 - (id)uthorizationStatus;
 - (void)ityJP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNObservableContractEnforcement *enforcement; // @synthesize enforcement=_enforcement;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNObservableEvent *mostRecentEvent; // @synthesize mostRecentEvent=_mostRecentEvent;
 @property(retain, nonatomic) NSMutableArray *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) id <NSLocking> resourceLock; // @synthesize resourceLock=_resourceLock;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

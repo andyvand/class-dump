@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSInferencePluginStartedOrChanged : SISchemaInstrumentationMessage
 {
     int _triggerReason;
-    struct {
-        unsigned int triggerReason:1;
-    } _has;
 }
 
 - (void);
@@ -25,15 +20,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)s:(id)arg1 %lu;
 - (id);
 - (id);
-- (id)AssociatedSchemaIdentifier;
+- (id)_hasTestAssociatedSchemaIdentifier;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTriggerReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int triggerReason; // @synthesize triggerReason=_triggerReason;
 
 @end

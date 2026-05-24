@@ -4,55 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBUserIgnoreFavoritesSuggestion
 {
     int _ignoreLocation;
-    NSString *_ignoredFeedId;
-    int _ignoredFeedType;
-    int _suggestionPositionWhenIgnored;
-    struct {
-        unsigned int ignoreLocation:1;
-        unsigned int ignoredFeedType:1;
-        unsigned int suggestionPositionWhenIgnored:1;
-    } _has;
 }
 
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
+- (int)initWithStatus:assetCount:photosCount:videosCount:uploadedPhotosCount:uploadedVideosCount:shareURL:expiryDate:localizedTitle:startDate:endDate: /* Error: Ran out of types for this method. */;
+- (void)initWithParticipant:(int)arg1;
+- (void)initWithContext:(int)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (void)initWithContentsRect:(id)arg1 confidence:type:sourceRegionOfInterest: /* Error: Ran out of types for this method. */;
+- (void)initWithContentsRect:(int)arg1 confidence:type:sourceRegionOfInterest: /* Error: Ran out of types for this method. */;
+- (void)initWithAssets:(_Bool)arg1 activityType:sourceType: /* Error: Ran out of types for this method. */;
+- (void)imageContentsRect;
+- (void)imageConfigurationAtIndex:(_Bool)arg1 inLayout: /* Error: Ran out of types for this method. */;
+- (id)failureScore;
+- (int)failedTest:withFailureFormat: /* Error: Ran out of types for this method. */;
+- (_Bool)enumerateLayoutsUsingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)disableUnsupportedTransitionsAtChapterBoundary;
+- (_Bool)disableTopAssetCuration;
+- (_Bool)disableShowcaseBadge;
+- (int)contextualVideoThumbnailIdentifier;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ath;
+- (_Bool)ds to refresh lastModificationDate:(id)arg1 %{public}@ refreshRate:%lld /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)eEventSend";
 
 // Remaining properties
-@property(nonatomic) _Bool hasIgnoreLocation;
-@property(readonly, nonatomic) _Bool hasIgnoredFeedId;
 @property(nonatomic) _Bool hasIgnoredFeedType;
-@property(nonatomic) _Bool hasSuggestionPositionWhenIgnored;
-@property(nonatomic) int ignoreLocation; // @synthesize ignoreLocation=_ignoreLocation;
-@property(retain, nonatomic) NSString *ignoredFeedId; // @synthesize ignoredFeedId=_ignoredFeedId;
-@property(nonatomic) int ignoredFeedType; // @synthesize ignoredFeedType=_ignoredFeedType;
-@property(nonatomic) int suggestionPositionWhenIgnored; // @synthesize suggestionPositionWhenIgnored=_suggestionPositionWhenIgnored;
 
 @end
 

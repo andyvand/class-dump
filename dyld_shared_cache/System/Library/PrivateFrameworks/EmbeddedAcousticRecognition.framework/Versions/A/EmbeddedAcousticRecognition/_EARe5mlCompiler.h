@@ -8,7 +8,7 @@
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long)__objc_protorefs__DATA_CONST;
 + (void);
 + (void);
 + (void);

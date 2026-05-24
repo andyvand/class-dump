@@ -5,8 +5,10 @@
 //
 
 @protocol PPTopicReadOnlyServerProtocol
+- (void);
+- (void)uling telemetry answer in %.0lf s;
 - (void)1Â0@ù
 × ;
-- (void)ery:(void (^)(NSString *, NSError *))arg1 error:handleBatch: /* Error: Ran out of types for this method. */;
+- (void)rankedLocationsWithQuery:(void (^)(NSString *, NSError *))arg1 error:handleBatch: /* Error: Ran out of types for this method. */;
 @end
 

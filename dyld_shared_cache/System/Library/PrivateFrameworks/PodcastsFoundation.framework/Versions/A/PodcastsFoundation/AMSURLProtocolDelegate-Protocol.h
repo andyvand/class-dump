@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AMSURLProtocolDelegate
+
+@optional
+- (NSString *);
+- (NSString *);
+- (_Bool)*@9_;
+- (_Bool);
+- (void)F;
+- (id);
 @end
 

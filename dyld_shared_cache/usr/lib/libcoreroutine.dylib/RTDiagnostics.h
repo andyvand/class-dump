@@ -6,31 +6,29 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, RTDefaultsManager, RTPlatform;
+@class RTDefaultsManager;
 
 @interface RTDiagnostics : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    RTPlatform *_platform;
-    NSMutableArray *_diagnosticProviders;
 }
 
 + (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)2I16@"NSError"20;
++ (id)ACAccountTypeIdentifierAppleAccount;
++ (_Bool)works/Accounts.framework/Contents/MacOS/Accounts;
+- (void)__AUTH;
+- (id)deleteMirrorKeys;
 - (void);
+- (void)h LRC AES Key;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)home;
+- (void)v;
+- (void)SD_daily_total_charging_duration_home;
 - (void)reshold > 0;
 
 @end

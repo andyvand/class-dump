@@ -11,27 +11,25 @@
 @interface NSCatalogColor : NSColor
 {
     NSString *catalogNameComponent;
-    NSString *colorNameComponent;
-    NSColor *genericColor;
 }
 
 + (id);
+- (id)_cf_internalImpl;
+- (id)_cfCache;
+- (_Bool)econnect;
+- (id);
+- (void)currentRequest property;
+- (void)at %@ to %@;
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (struct CGColor *);
 - (void);
-- (id);
+- (id)6@0:8@16@24Q32q40^@48 /* Error: Ran out of types for this method. */;
 - (Class);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (_Bool);
 - (_Bool);

@@ -7,9 +7,11 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)informRemoteViewOfNewSizes;
+- (void).` ;
 - (void)ûôÿ?;
 - (void);
-- (void)ation;
+- (void)PairingConfiguration;
 - (void);
 @end
 

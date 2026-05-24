@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSURL;
+@class NSURL;
 
 @interface SFSpeechLanguageModelConfiguration
 {
     NSURL *_languageModel;
-    NSURL *_vocabulary;
-    NSNumber *_weight;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),%zu;
 - (id);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *languageModel; // @synthesize languageModel=_languageModel;
-@property(readonly, copy, nonatomic) NSURL *vocabulary; // @synthesize vocabulary=_vocabulary;
-@property(readonly, copy, nonatomic) NSNumber *weight; // @synthesize weight=_weight;
 
 @end
 

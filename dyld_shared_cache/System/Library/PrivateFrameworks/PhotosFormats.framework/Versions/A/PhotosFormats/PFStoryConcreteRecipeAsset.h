@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PFStoryConcreteRecipeAsset
 {
     NSString *_identifier;
-    long long _kind;
-    NSURL *_url;
 }
 
-- (id);
+- (id)_TtCO10Accelerate4BNNS15RandomGenerator;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)animateDismissalOfViewController:fromViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

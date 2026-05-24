@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)';
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableData *mutableData;

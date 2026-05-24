@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSSet;
+@class NSSet;
 
 @interface USDeviceActivityEvent
 {
     _Bool _includesPastActivity;
-    _Bool _isUntokenized;
-    NSSet *_applicationTokens;
-    NSSet *_categoryTokens;
-    NSSet *_webDomainTokens;
-    NSSet *_bundleIdentifiers;
-    NSSet *_categoryIdentifiers;
-    NSSet *_webDomains;
-    NSSet *_exemptApplicationTokens;
-    NSSet *_exemptBundleIdentifiers;
-    NSDateComponents *_threshold;
 }
 
 + (_Bool);
@@ -35,29 +25,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)gradientInfo.hasNonOpaqueColorStops;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)!*;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, copy) NSSet *applicationTokens; // @synthesize applicationTokens=_applicationTokens;
-@property(readonly, copy) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, copy) NSSet *categoryIdentifiers; // @synthesize categoryIdentifiers=_categoryIdentifiers;
-@property(readonly, copy) NSSet *categoryTokens; // @synthesize categoryTokens=_categoryTokens;
-@property(readonly, copy) NSSet *exemptApplicationTokens; // @synthesize exemptApplicationTokens=_exemptApplicationTokens;
-@property(readonly, copy) NSSet *exemptBundleIdentifiers; // @synthesize exemptBundleIdentifiers=_exemptBundleIdentifiers;
-@property(readonly) _Bool includesAllActivity;
-@property(readonly) _Bool includesPastActivity; // @synthesize includesPastActivity=_includesPastActivity;
-@property(readonly) _Bool isUntokenized; // @synthesize isUntokenized=_isUntokenized;
-@property(readonly, copy) NSDateComponents *threshold; // @synthesize threshold=_threshold;
-@property(readonly, copy) NSSet *webDomainTokens; // @synthesize webDomainTokens=_webDomainTokens;
-@property(readonly, copy) NSSet *webDomains; // @synthesize webDomains=_webDomains;
 
 @end
 

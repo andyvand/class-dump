@@ -10,7 +10,6 @@
 @interface SOHotKeyTextFieldCell
 {
     ConfigKeyEditor *_ConfigKeyEditor;
-    id <ConfigEditorDelegate> _hotKeyController;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id <ConfigEditorDelegate> hotKeyController; // @synthesize hotKeyController=_hotKeyController;

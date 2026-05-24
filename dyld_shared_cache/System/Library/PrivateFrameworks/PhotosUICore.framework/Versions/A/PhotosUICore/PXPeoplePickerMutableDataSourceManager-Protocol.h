@@ -5,5 +5,6 @@
 //
 
 @protocol PXPeoplePickerMutableDataSourceManager
+- (void);
 @end
 

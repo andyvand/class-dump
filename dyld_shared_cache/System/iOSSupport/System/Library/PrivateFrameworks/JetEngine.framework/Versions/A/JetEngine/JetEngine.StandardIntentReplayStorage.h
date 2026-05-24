@@ -7,9 +7,6 @@
 @interface JetEngine.StandardIntentReplayStorage
 {
     id $defaultActor;
-    id memoryOnlyCaching;
-    id task;
-    id storage;
 }
 
 @end

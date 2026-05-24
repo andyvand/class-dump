@@ -6,16 +6,11 @@
 
 #import <LoginUIKit/LUI2PasswordViewController.h>
 
-@class LUI2View, NSLayoutConstraint, NSView, SFAuthorizationPluginView;
+@class LUI2View;
 
 @interface LUI2AuthorizationPluginViewController : LUI2PasswordViewController
 {
     int _viewTypeInternal;
-    SFAuthorizationPluginView *_authorizationPluginView;
-    LUI2View *_containerView;
-    NSLayoutConstraint *_containerViewWidthConstraint;
-    NSLayoutConstraint *_containerViewHeightConstraint;
-    NSView *_authPluginView;
 }
 
 - (int);
@@ -26,29 +21,23 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)H@y);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)eric-Semibold;
 
 // Remaining properties
-@property(retain) NSView *authPluginView; // @synthesize authPluginView=_authPluginView;
-@property(readonly) SFAuthorizationPluginView *authorizationPluginView; // @synthesize authorizationPluginView=_authorizationPluginView;
 @property(retain) LUI2View *containerView; // @synthesize containerView=_containerView;
-@property(retain) NSLayoutConstraint *containerViewHeightConstraint; // @synthesize containerViewHeightConstraint=_containerViewHeightConstraint;
-@property(retain) NSLayoutConstraint *containerViewWidthConstraint; // @synthesize containerViewWidthConstraint=_containerViewWidthConstraint;
-@property int viewType;
-@property int viewTypeInternal; // @synthesize viewTypeInternal=_viewTypeInternal;
 
 @end
 

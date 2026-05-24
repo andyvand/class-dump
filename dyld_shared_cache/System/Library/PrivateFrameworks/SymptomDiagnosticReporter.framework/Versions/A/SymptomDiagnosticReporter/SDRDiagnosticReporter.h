@@ -5,32 +5,30 @@
 //
 
 @class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue, SDRDiagnosticReporterDelegate;
+@protocol OS_dispatch_queue;
 
 @interface SDRDiagnosticReporter
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <SDRDiagnosticReporterDelegate> _delegate;
 }
 
 + (_Bool);
-+ (void);
++ (void)kAppleIDAuthSupportAdditionalHeaders;
 + (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (int);
+- (_Bool)ggingIdentifier>";
+- (int)he DisplayLayer cannot be added to a Synchronizer when it has already been added to a Synchronizer.;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)_isEmergencySetup;
+- (void)ablished connection;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -39,31 +37,31 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)status;
+- (void)OnlyUpdatePreconditionsIfConfPresent;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)thout a spotlight domain set. Dropping item.;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (_Bool);
+- (void)k is an APFS Volume;
 - (_Bool);
 - (id);
 - (void);
+- (_Bool)3;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,7 +71,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SDRDiagnosticReporterDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

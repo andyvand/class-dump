@@ -6,21 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSNNFilterNode.h>
 
-@class MPSCNNLossDescriptor;
-@protocol MPSNNLossCallback;
-
 @interface MPSNNForwardLossNode : MPSNNFilterNode
 {
     unsigned int _lossType;
-    int _reductionType;
-    float _weight;
-    float _labelSmoothing;
-    unsigned long long _numberOfClasses;
-    float _epsilon;
-    float _delta;
-    MPSCNNLossDescriptor *_descriptor;
-    id <MPSNNLossCallback> _propertyCallBack;
-    _Bool _reduceAcrossBatch;
 }
 
 + (id);
@@ -28,16 +16,16 @@
 + (id);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)l	kM;
 - (id);
 - (void *);
 - (float);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
 - (Class);
 - (id);
 - (unsigned int);
@@ -48,15 +36,7 @@
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) float delta; // @synthesize delta=_delta;
-@property(readonly, nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) float labelSmoothing; // @synthesize labelSmoothing=_labelSmoothing;
 @property(readonly, nonatomic) unsigned int lossType; // @synthesize lossType=_lossType;
-@property(readonly, nonatomic) unsigned long long numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(retain, nonatomic) id <MPSNNLossCallback> propertyCallBack; // @synthesize propertyCallBack=_propertyCallBack;
-@property(readonly, nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(readonly, nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

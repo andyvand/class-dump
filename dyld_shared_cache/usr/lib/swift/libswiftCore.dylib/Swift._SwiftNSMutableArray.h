@@ -12,12 +12,13 @@
 }
 
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)d
+;
 - (void);
 - (id);
 - (void);

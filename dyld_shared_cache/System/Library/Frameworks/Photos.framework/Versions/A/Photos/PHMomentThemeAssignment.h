@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PHMomentThemeAssignment
 {
     NSString *_themeName;
-    NSNumber *_confidence;
-    long long _adapterVersion;
-    long long _uemVersion;
 }
 
 - (long long);
@@ -22,10 +19,7 @@
 - (void)N,V_shouldForceOriginalChoice;
 
 // Remaining properties
-@property(readonly, nonatomic) long long adapterVersion; // @synthesize adapterVersion=_adapterVersion;
-@property(readonly, copy, nonatomic) NSNumber *confidence; // @synthesize confidence=_confidence;
 @property(readonly, copy, nonatomic) NSString *themeName; // @synthesize themeName=_themeName;
-@property(readonly, nonatomic) long long uemVersion; // @synthesize uemVersion=_uemVersion;
 
 @end
 

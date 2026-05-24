@@ -7,17 +7,6 @@
 @interface AppKit.NSHostingViewBase
 {
     id nsView;
-    id safeAreaRegions;
-    id viewGraph;
-    id initialInheritedEnvironment;
-    id inheritedEnvironment;
-    id environmentOverride;
-    id canAdvanceTimeAutomatically;
-    id lastRenderTime;
-    id pendingPreferencesUpdate;
-    id isUpdating;
-    id needsDeferredUpdate;
-    id isHiddenForReuse;
 }
 
 - (void);

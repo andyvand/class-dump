@@ -11,7 +11,7 @@
     id impl;
 }
 
-+ (id);
++ (id)or chatGUID:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -26,11 +26,11 @@
 + (id);
 + (_Bool)etObject(const _UIRenderingSlotRef _Nonnull);
 - (id);
+- (id)requiresLoadedAssetForAirPlayProperties;
 - (id);
-- (id);
-- (long long);
-- (_Bool)ContentOffsetForScrollableContainer:(id)arg1 byDelta: /* Error: Ran out of types for this method. */;
-- (void);
+- (long long);
+- (_Bool)adjustTargetContentOffsetForScrollableContainer:(id)arg1 byDelta: /* Error: Ran out of types for this method. */;
+- (void)_setParentTextView:(id)arg1;
 - (id)½l¾;
 - (void)dßþ±È;
 

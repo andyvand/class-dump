@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)<˟;
 
 // Remaining properties
 @property(retain) CAGradientLayer *layer; // @dynamic layer;

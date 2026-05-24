@@ -5,5 +5,8 @@
 //
 
 @protocol LADaemonXPC
+- (void);
+- (void)<N;
+- (void)kAPMessageDataKeyPolicyParameters;
 @end
 

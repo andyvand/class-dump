@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, PBRequest;
-@protocol DRSDecisionServerBatchRequest;
+@class NSUUID;
 
 @protocol DRSDSRequestObject
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *functionName;
-@property(readonly, nonatomic) id <DRSDecisionServerBatchRequest> pbBatchInstance;
-@property(readonly, nonatomic) Class pbBatchResponseClass;
-@property(readonly, nonatomic) PBRequest *pbRequest;
 @property(readonly, nonatomic) NSUUID *uniqueID;
 @end
 

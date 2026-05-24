@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLLoggingContext, FLSQLiteDatabaseConnection, NSDate, NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface FLSQLitePersistence
 {
     _Atomic _Bool _configured;
-    int _user;
-    NSString *_databasePath;
-    NSObject<OS_os_log> *_log;
-    FLLoggingContext *_context;
-    struct sqlite3_stmt *_insertRecordsStatement;
-    struct sqlite3_stmt *_iteratePayloadStatement;
-    NSString *_storeIdentifier;
-    unsigned long long _maxBatchPayloadInBytes;
-    unsigned long long _maxAllowedDatabaseSizeInBytes;
-    NSString *_currentBatchIdentifier;
-    NSDate *_currentBatchCreationDate;
-    unsigned long long _currentBatchPayloadSize;
-    unsigned long long _currentBatchEventCount;
-    double _batchMaximumDuration;
-    struct sqlite3_stmt *_maxRowIdStatement;
-    struct sqlite3 *_db;
-    FLSQLiteDatabaseConnection *_dbConnection;
 }
 
 + (id);
@@ -122,15 +104,15 @@
 - (struct sqlite3 *);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (int);
 - (id);
@@ -139,24 +121,7 @@
 - (_Bool)er statement, failing;
 
 // Remaining properties
-@property(nonatomic) double batchMaximumDuration; // @synthesize batchMaximumDuration=_batchMaximumDuration;
-@property(nonatomic) _Atomic _Bool configured; // @synthesize configured=_configured;
-@property(retain, nonatomic) FLLoggingContext *context; // @synthesize context=_context;
-@property(copy, nonatomic) NSDate *currentBatchCreationDate; // @synthesize currentBatchCreationDate=_currentBatchCreationDate;
-@property(nonatomic) unsigned long long currentBatchEventCount; // @synthesize currentBatchEventCount=_currentBatchEventCount;
-@property(copy, nonatomic) NSString *currentBatchIdentifier; // @synthesize currentBatchIdentifier=_currentBatchIdentifier;
-@property(nonatomic) unsigned long long currentBatchPayloadSize; // @synthesize currentBatchPayloadSize=_currentBatchPayloadSize;
 @property(readonly, copy, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(nonatomic) struct sqlite3 *db; // @synthesize db=_db;
-@property(retain, nonatomic) FLSQLiteDatabaseConnection *dbConnection; // @synthesize dbConnection=_dbConnection;
-@property(nonatomic) struct sqlite3_stmt *insertRecordsStatement; // @synthesize insertRecordsStatement=_insertRecordsStatement;
-@property(nonatomic) struct sqlite3_stmt *iteratePayloadStatement; // @synthesize iteratePayloadStatement=_iteratePayloadStatement;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) unsigned long long maxAllowedDatabaseSizeInBytes; // @synthesize maxAllowedDatabaseSizeInBytes=_maxAllowedDatabaseSizeInBytes;
-@property(nonatomic) unsigned long long maxBatchPayloadInBytes; // @synthesize maxBatchPayloadInBytes=_maxBatchPayloadInBytes;
-@property(nonatomic) struct sqlite3_stmt *maxRowIdStatement; // @synthesize maxRowIdStatement=_maxRowIdStatement;
-@property(readonly, copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(nonatomic) int user; // @synthesize user=_user;
 
 @end
 

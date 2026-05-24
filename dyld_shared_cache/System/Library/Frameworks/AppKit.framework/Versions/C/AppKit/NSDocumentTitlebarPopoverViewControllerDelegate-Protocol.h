@@ -7,10 +7,13 @@
 @class NSDictionary, NSObject, NSString;
 
 @protocol NSDocumentTitlebarPopoverViewControllerDelegate
+- (NSObject *)BasebandStatus;
+- (void)Button info %d - %d - %d - %d - %d;
+- (NSDictionary *)Tr9qG122eEQiKGfr6EGRdQ;
+- (NSString *)OPzhvROZUqCZhgYMyve5BA;
+- (void);
 
 // Remaining properties
-@property(readonly) NSString *keyPathToObserveForLockStatus;
-@property(readonly) NSDictionary *latestViewBridgeInfo;
 @property(readonly) NSObject *objectToObserveForLockStatus;
 @end
 

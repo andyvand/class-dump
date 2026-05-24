@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, NSDictionary, NSMutableDictionary, NSURL;
+@class MAAutoAssetSelector;
 
 @interface MAAutoAssetSetLock
 {
     _Bool _inhibitedFromEmergencyRemoval;
-    MAAutoAssetSelector *_fullAssetSelector;
-    NSURL *_localContentURL;
-    NSDictionary *_assetAttributes;
-    NSMutableDictionary *_lockReasons;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)loadMyFiltersFromPreferencesWithCompletionHandler:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -27,15 +23,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *assetAttributes; // @synthesize assetAttributes=_assetAttributes;
 @property(readonly, retain, nonatomic) MAAutoAssetSelector *fullAssetSelector; // @synthesize fullAssetSelector=_fullAssetSelector;
-@property(nonatomic) _Bool inhibitedFromEmergencyRemoval; // @synthesize inhibitedFromEmergencyRemoval=_inhibitedFromEmergencyRemoval;
-@property(readonly, retain, nonatomic) NSURL *localContentURL; // @synthesize localContentURL=_localContentURL;
-@property(retain, nonatomic) NSMutableDictionary *lockReasons; // @synthesize lockReasons=_lockReasons;
 
 @end
 

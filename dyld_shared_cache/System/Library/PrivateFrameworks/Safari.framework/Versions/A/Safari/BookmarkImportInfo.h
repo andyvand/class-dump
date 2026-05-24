@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BookmarkImportInfo
 {
     unsigned long long _importOrigin;
-    NSString *_importOriginUUID;
 }
 
 - (id);
@@ -20,14 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)eDate: /* Error: Ran out of types for this method. */;
+- (id)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
 - (void)4;
 - (id)dq4/;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) unsigned long long importOrigin; // @synthesize importOrigin=_importOrigin;
-@property(readonly, copy, nonatomic) NSString *importOriginUUID; // @synthesize importOriginUUID=_importOriginUUID;
 
 @end
 

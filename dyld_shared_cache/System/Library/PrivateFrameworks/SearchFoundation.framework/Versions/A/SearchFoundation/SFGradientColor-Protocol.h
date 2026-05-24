@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @protocol SFGradientColor
+- (int)_schedulePeriodicUpdate;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *colors;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int gradientType;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

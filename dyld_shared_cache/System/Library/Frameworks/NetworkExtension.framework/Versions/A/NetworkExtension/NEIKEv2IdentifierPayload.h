@@ -6,20 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NEIKEv2IKESA, NEIKEv2Identifier, NSData;
+@class NEIKEv2Identifier;
 
 @interface NEIKEv2IdentifierPayload : NEIKEv2Payload
 {
     NEIKEv2Identifier *_identifier;
-    NEIKEv2IKESA *_ikeSA;
-    NSData *_payloadData;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (id);
-- (void)onHandler: /* Error: Ran out of types for this method. */;
+- (void)setTunnelNetworkSettings:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ldSA:(int)arg1 ];
 
 @end

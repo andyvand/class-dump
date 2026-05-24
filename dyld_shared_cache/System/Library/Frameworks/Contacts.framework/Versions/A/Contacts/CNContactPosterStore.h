@@ -14,12 +14,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)cs"."Product Name" got="%@";
+- (unsigned long long)muteControlConfig;
 - (void):8d16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties

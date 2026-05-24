@@ -6,21 +6,18 @@
 
 #import <MailSupport/MSTriageAction.h>
 
-@class ECMessageFlagChange, EMMailbox;
+@class EMMailbox;
 
 @interface MSMoveTriageAction : MSTriageAction
 {
     EMMailbox *_destinationMailbox;
-    long long _destinationMailboxType;
-    ECMessageFlagChange *_flagChange;
-    _Bool _copyMessages;
 }
 
+- (id)';
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)*>*;
 
 @end
 

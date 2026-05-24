@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TRenameOperationDelegate : FI_TFileSystemOperationDelegate
 {
     struct TString _newName;
-    struct optional_bool _extensionHiddenState;
-    struct optional_bool _changeExtensionResponse;
-    _Bool _isBulkRename;
-    _Bool _forceKeepExtension;
 }
 
 + (int);

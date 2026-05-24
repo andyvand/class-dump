@@ -8,9 +8,10 @@
 @protocol PKPersona;
 
 @protocol PKLaunchRequest
+- (id <PKPersona>)aabParamsUpdateOnly;
+- (NSUUID *)ISScalableCompositorResource>",R;
 
 // Remaining properties
-@property(readonly) id <PKPersona> launchPersona;
 @property(readonly, copy) NSUUID *uuid;
 @end
 

@@ -9,17 +9,9 @@
 @interface GEOSuggestionItem
 {
     NSString *_suggestionString;
-    int _tappingCount;
-    _Bool _eventuallyVisible;
-    _Bool _initiallyVisible;
-    struct {
-        unsigned int has_tappingCount:1;
-        unsigned int has_eventuallyVisible:1;
-        unsigned int has_initiallyVisible:1;
-    } _flags;
 }
 
-+ (_Bool)ed:(id)arg1;
++ (_Bool)setMaxFormatterSupported:(id)arg1;
 - (int);
 - (id);
 - (void);
@@ -30,35 +22,28 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)setInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)customPropertyValues;
+- (_Bool)addInProcessStoreWithURL:options: /* Error: Ran out of types for this method. */;
+- (_Bool)<>;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)N;
+- (void)commandControlBehaviorMonitor:(id)arg1 willStartStreamWithContext:option: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id)e_anyField"b1};
-- (id)entifier;
-- (id)esponse;
-- (id)loat_field;
+- (id)hasOriginatingBundleIdentifier;
+- (id)GEOBatchRevGeocodeResponse;
+- (id)float_field;
 - (void)Ø}ÇðØQ@;
 
 // Remaining properties
-@property(nonatomic) _Bool eventuallyVisible;
-@property(nonatomic) _Bool hasEventuallyVisible;
-@property(nonatomic) _Bool hasInitiallyVisible;
 @property(readonly, nonatomic) _Bool hasSuggestionString;
-@property(nonatomic) _Bool hasTappingCount;
-@property(nonatomic) _Bool initiallyVisible;
-@property(retain, nonatomic) NSString *suggestionString;
-@property(nonatomic) int tappingCount;
 
 @end
 

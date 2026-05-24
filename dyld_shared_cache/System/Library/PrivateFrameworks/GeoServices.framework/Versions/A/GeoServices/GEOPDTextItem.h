@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTextItem
 {
     PBUnknownFields *_unknownFields;
-    NSString *_primaryText;
 }
 
 - (id);
-- (void);
+- (void)isKindOfClass:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"read_timePoint"b1"wrote_anyField"b1};
-- (id)caleFactor;
+- (id)_scaleFactor;
 - (id)´wh{;
 - (void)Ôð-¬J@;
 

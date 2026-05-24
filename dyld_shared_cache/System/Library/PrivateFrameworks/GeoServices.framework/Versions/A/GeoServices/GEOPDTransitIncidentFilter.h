@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)scheduledTimerWithTimeInterval:(id)arg1 repeats:block: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

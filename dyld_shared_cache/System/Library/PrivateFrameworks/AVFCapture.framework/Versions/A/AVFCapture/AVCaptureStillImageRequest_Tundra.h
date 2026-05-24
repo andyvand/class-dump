@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureStillImageRequest_Tundra
 {
     CDUnknownBlockType _completionBlock;
-    NSDictionary *_outputSettings;
-    long long _imageOrientation;
-    _Bool _imageMirrored;
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)_request;
+- (_Bool)B;
+- (void)@16Q24@?32;
+- (void)hasBackgroundAggregatedAccuracyLogSinceModelInitialization;
 - (long long);
-- (void);
+- (void)_appliedTranslation;
 - (CDUnknownBlockType);
 - (id);
 - (void)¦à¦h§è§\¨
@@ -29,9 +24,6 @@ T©©ð«;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(nonatomic) _Bool imageMirrored; // @synthesize imageMirrored=_imageMirrored;
-@property(nonatomic) long long imageOrientation; // @synthesize imageOrientation=_imageOrientation;
-@property(retain, nonatomic) NSDictionary *outputSettings; // @synthesize outputSettings=_outputSettings;
 
 @end
 

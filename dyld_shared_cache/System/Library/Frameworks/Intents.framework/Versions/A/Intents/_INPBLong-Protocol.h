@@ -7,11 +7,14 @@
 @class NSArray, _INPBLongValue;
 
 @protocol _INPBLong
++ (Class)ore->readDataFork (stub header) returned %d
+;
+- (void);
+- (NSArray *);
 - (void)chCallHistoryIntent;
 - (_INPBLongValue *)ed iteration;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

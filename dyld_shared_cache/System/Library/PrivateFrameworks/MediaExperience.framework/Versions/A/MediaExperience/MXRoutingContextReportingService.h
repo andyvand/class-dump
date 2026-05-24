@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 @interface MXRoutingContextReportingService
 {
     id <MXRoutingContextReportingServiceImpl> mReportingServiceImpl;
-    MXRoutingContextModificationMetrics *_modificationMetrics;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)�;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MXRoutingContextModificationMetrics *modificationMetrics; // @synthesize modificationMetrics=_modificationMetrics;

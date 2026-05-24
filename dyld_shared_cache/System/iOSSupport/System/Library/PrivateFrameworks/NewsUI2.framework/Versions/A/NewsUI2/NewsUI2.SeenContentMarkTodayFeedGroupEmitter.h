@@ -7,8 +7,6 @@
 @interface NewsUI2.SeenContentMarkTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

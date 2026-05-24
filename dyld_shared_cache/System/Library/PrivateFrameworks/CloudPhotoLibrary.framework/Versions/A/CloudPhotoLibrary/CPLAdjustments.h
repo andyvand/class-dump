@@ -4,67 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLResource, NSData, NSDate, NSString;
+@class NSString;
 
 @interface CPLAdjustments
 {
     NSString *_adjustmentType;
-    NSString *_adjustmentCompoundVersion;
-    NSString *_adjustmentCreatorCode;
-    NSDate *_adjustmentTimestamp;
-    unsigned long long _adjustmentSourceType;
-    NSData *_simpleAdjustmentData;
-    NSString *_similarToOriginalAdjustmentsFingerprint;
-    NSString *_otherAdjustmentsFingerprint;
-    unsigned long long _adjustmentRenderTypes;
-    CPLResource *_adjustmentData;
-    NSString *_creatorCode;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)_fromSuggestion;
+- (id)ctIdentifiers;
+- (void)SSAskSiriResultBuilder;
+- (void)SSApplicationResultBuilder;
+- (void)$B;
+- (void);
+- (void);
+- (id)king][Topicality adjustment][Messages] Changing %.04f -> %.04f due to freshness %.04f;
+- (unsigned long long)loggingDumpFile = %@;
+- (id)nResultLimit = %lu, redactLogging = %d, loggingDumpFile = %@;
+- (id)me] %@;
+- (id)computeScoreText;
+- (void)kMDItemPhotosBusinessCategories_ordered_prefix_min_pair_distance;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
 - (id);
 - (unsigned long long);
-- (_Bool)@ùh&C©@ù@ù(@ù;
-- (void);
 - (id);
+- (void);
+- (id)/;
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *adjustmentCompoundVersion; // @synthesize adjustmentCompoundVersion=_adjustmentCompoundVersion;
-@property(copy, nonatomic) NSString *adjustmentCreatorCode; // @synthesize adjustmentCreatorCode=_adjustmentCreatorCode;
-@property(retain, nonatomic) CPLResource *adjustmentData; // @synthesize adjustmentData=_adjustmentData;
-@property(nonatomic) unsigned long long adjustmentRenderTypes; // @synthesize adjustmentRenderTypes=_adjustmentRenderTypes;
-@property(nonatomic) unsigned long long adjustmentSourceType; // @synthesize adjustmentSourceType=_adjustmentSourceType;
-@property(copy, nonatomic) NSDate *adjustmentTimestamp; // @synthesize adjustmentTimestamp=_adjustmentTimestamp;
-@property(copy, nonatomic) NSString *adjustmentType; // @synthesize adjustmentType=_adjustmentType;
 @property(copy, nonatomic) NSString *creatorCode; // @synthesize creatorCode=_creatorCode;
-@property(copy, nonatomic) NSString *otherAdjustmentsFingerprint; // @synthesize otherAdjustmentsFingerprint=_otherAdjustmentsFingerprint;
-@property(copy, nonatomic) NSString *similarToOriginalAdjustmentsFingerprint; // @synthesize similarToOriginalAdjustmentsFingerprint=_similarToOriginalAdjustmentsFingerprint;
-@property(retain, nonatomic) NSData *simpleAdjustmentData; // @synthesize simpleAdjustmentData=_simpleAdjustmentData;
 
 @end
 

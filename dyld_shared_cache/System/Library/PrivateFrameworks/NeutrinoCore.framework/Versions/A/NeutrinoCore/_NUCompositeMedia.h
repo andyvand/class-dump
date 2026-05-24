@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NUMedia.h>
 
-@class NSArray, NSDictionary, NUChannelMediaFormat;
-@protocol NUMediaGeometry, NUMediaMetadata;
+@class NSDictionary;
 
 @interface _NUCompositeMedia : _NUMedia
 {
@@ -20,11 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
-@property(readonly, nonatomic) id <NUMediaGeometry> geometry;
 @property(readonly, nonatomic) NSDictionary *inputMedias; // @synthesize inputMedias=_inputMedias;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
 
 @end
 

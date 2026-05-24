@@ -7,9 +7,9 @@
 @class CAContext;
 
 @protocol NSVBXPCConnectionClient
+- (_Bool)_redirectStderrToFileAtPath;
 
 // Remaining properties
 @property(readonly) CAContext *fenceContext;
-@property(readonly) _Bool isValid;
 @end
 

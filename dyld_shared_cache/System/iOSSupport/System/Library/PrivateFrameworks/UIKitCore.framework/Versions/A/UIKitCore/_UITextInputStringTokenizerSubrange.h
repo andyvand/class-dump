@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextPosition;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITextInputStringTokenizerSubrange
 {
     NSString *_substring;
-    UITextPosition *_basePosition;
-    long long _indexOfBase;
-    struct _NSRange _relevantRange;
 }
 
 + (id);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)þ;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *basePosition; // @synthesize basePosition=_basePosition;
-@property(nonatomic) long long indexOfBase; // @synthesize indexOfBase=_indexOfBase;
-@property(nonatomic) struct _NSRange relevantRange; // @synthesize relevantRange=_relevantRange;
 @property(readonly, nonatomic) NSString *substring; // @synthesize substring=_substring;
 
 @end

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRestaurantReservationLink, NSArray, NSMapTable;
+@class GEOPDRestaurantReservationLink;
 
 @interface GEORestaurantFeaturesLink
 {
     GEOPDRestaurantReservationLink *_restaurantReservationLink;
-    NSMapTable *_attributionMap;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)addSubgroups:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
@@ -24,9 +23,6 @@
 - (void)ü6Ä6P@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *featureProviders;
-@property(readonly, nonatomic) NSArray *featureTypes;
-@property(readonly, nonatomic) _Bool hasFeatures;
 @property(retain, nonatomic) GEOPDRestaurantReservationLink *restaurantReservationLink; // @synthesize restaurantReservationLink=_restaurantReservationLink;
 
 @end

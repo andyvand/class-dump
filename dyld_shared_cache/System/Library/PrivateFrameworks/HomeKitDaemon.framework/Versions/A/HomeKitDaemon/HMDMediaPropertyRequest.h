@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaProfile, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaPropertyRequest
 {
     NSString *_property;
-    HMDMediaProfile *_mediaProfile;
-    id _previousValue;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)ngIdentity"8@"NSArray"16@"NSDictionary"24@"NSArray"32Q40;
 - (id);
 - (id);
 - (id);
 - (id)er with sequence number:%@ type:%@ /* Error: Ran out of types for this method. */;
-- (void)NGUAGE_TITLE;
+- (void)BULLETIN_NEW_RMV_LANGUAGE_TITLE;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDMediaProfile *mediaProfile; // @synthesize mediaProfile=_mediaProfile;
-@property(readonly, nonatomic) id previousValue; // @synthesize previousValue=_previousValue;
 @property(readonly, nonatomic) NSString *property; // @synthesize property=_property;
 
 @end

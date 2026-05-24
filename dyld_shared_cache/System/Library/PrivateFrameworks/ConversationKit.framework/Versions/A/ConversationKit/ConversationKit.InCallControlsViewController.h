@@ -9,29 +9,12 @@
 @interface ConversationKit.InCallControlsViewController : PlatformViewController
 {
     id viewContent;
-    id delegate;
-    id participantsViewControllerDelegate;
-    id participantDelegate;
-    id mode;
-    id gridLayoutStyle;
-    id localParticipant;
-    id participants;
-    id isLocalMemberAuthorizedToChangeGroupMembership;
-    id capabilitiesChecker;
-    id addPersonTappedCallBack;
-    _Bool isExpanded;
-    _Bool isScreenSharing;
-    id groupName;
-    id isLinkSharingSupported;
-    id dataSource;
-    id footerCellView;
-    id updateDataSourceSubject;
-    id updateDataSourceDebouncer;
 }
 
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id)9
+xz;
 - (_Bool);
 - (void);
 - (void);
@@ -40,8 +23,8 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (_Bool);
-- (void);
+- (_Bool)isEqualToClass: /* Error: Ran out of types for this method. */;
+- (void)_scrollViewWillBeginDragging: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets);
 - (double);
 - (struct CGSize);
@@ -49,7 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isExpanded; // @synthesize isExpanded;
-@property(nonatomic) _Bool isScreenSharing; // @synthesize isScreenSharing;
 
 @end
 

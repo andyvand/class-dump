@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatNodeState
 {
     id key;
-    id data;
-    id cache;
-    id logger;
-    id debugger;
 }
 
 @end

@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface FMDSharedConfigurationFollowUpEntry
 {
     NSString *_informativeText;
-    NSNumber *_reminderInMins;
-    NSNumber *_idNumber;
-    NSString *_message;
-    NSString *_category;
-    NSString *_title;
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (void)=(?={CGPoint=dd}{CGPoint=dd})dddddddBqddBdqq}64@200;
+- (void)^{CGPath=}16{CGAffineTransform=dddddd}24;
+- (id)ufUnknownFields}^{__shared_weak_count}}96;
+- (id)@24@32;
+- (id)ity;
+- (void)cat_localizedStringsForKey:(id)arg1 value:table: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)stagedLightweightCoreDataMigration;
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (id)(a;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(copy, nonatomic) NSNumber *idNumber; // @synthesize idNumber=_idNumber;
 @property(copy, nonatomic) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSNumber *reminderInMins; // @synthesize reminderInMins=_reminderInMins;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

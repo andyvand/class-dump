@@ -7,14 +7,6 @@
 @interface AppStoreKit.GameCenterPlayer
 {
     id playerId;
-    id size;
-    id displayName;
-    id alias;
-    id artwork;
-    id action;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

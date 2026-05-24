@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSBookmarkFolderTouchIconProvider
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_bookmarkFolderIdentifiersToRequestSets;
-    NSMutableDictionary *_requestsToRequestInfos;
-    NSMutableDictionary *_folderUUIDsToTouchIconInfo;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 + (_Bool);
@@ -22,45 +18,32 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)qA;
+- (void)qA;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (id);
+- (void)T);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%;
 - (id);
 - (id);
 - (id);
-- (void)ouchIconProvider;
+- (void)WBSTabGroupTouchIconProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allFolderUUIDs;
-@property(readonly) NSColor *backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

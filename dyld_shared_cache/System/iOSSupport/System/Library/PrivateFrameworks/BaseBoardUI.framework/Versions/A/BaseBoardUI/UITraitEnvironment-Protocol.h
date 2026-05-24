@@ -7,6 +7,7 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

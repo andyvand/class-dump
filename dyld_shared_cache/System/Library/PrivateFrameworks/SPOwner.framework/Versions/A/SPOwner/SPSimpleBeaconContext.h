@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SPSimpleBeaconContext
 {
     _Bool _sendInitialBeacons;
-    NSArray *_matchingBeaconUUIDs;
-    NSArray *_matchingProductUUIDs;
-    NSString *_bundleIdentifier;
-    unsigned long long _fetchProperties;
-    NSArray *_matchingSerialNumbers;
-    NSArray *_matchingFindMyIds;
-    NSString *_repairContextType;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);;
++ (id);
 + (_Bool);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -48,20 +41,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)lastAddressedLocalHandle;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) unsigned long long fetchProperties; // @synthesize fetchProperties=_fetchProperties;
-@property(copy, nonatomic) NSArray *filterBeaconUUIDs;
-@property(copy, nonatomic) NSArray *matchingBeaconUUIDs; // @synthesize matchingBeaconUUIDs=_matchingBeaconUUIDs;
-@property(copy, nonatomic) NSArray *matchingFindMyIds; // @synthesize matchingFindMyIds=_matchingFindMyIds;
-@property(copy, nonatomic) NSArray *matchingProductUUIDs; // @synthesize matchingProductUUIDs=_matchingProductUUIDs;
-@property(copy, nonatomic) NSArray *matchingSerialNumbers; // @synthesize matchingSerialNumbers=_matchingSerialNumbers;
-@property(copy, nonatomic) NSString *repairContextType; // @synthesize repairContextType=_repairContextType;
-@property(nonatomic) _Bool sendInitialBeacons; // @synthesize sendInitialBeacons=_sendInitialBeacons;
 
 @end
 

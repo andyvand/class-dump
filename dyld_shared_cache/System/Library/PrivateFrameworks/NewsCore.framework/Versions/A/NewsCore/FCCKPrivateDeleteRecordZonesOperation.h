@@ -11,15 +11,12 @@
 @interface FCCKPrivateDeleteRecordZonesOperation : FCCKPrivateDatabaseOperation
 {
     _Bool _secureDatabaseOnly;
-    NSArray *_recordZoneIDsToDelete;
-    CDUnknownBlockType _deleteRecordZonesCompletionBlock;
-    NSArray *_resultDeletedRecordZoneIDs;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -30,10 +27,7 @@
 - (_Bool)Dó;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deleteRecordZonesCompletionBlock; // @synthesize deleteRecordZonesCompletionBlock=_deleteRecordZonesCompletionBlock;
-@property(copy, nonatomic) NSArray *recordZoneIDsToDelete; // @synthesize recordZoneIDsToDelete=_recordZoneIDsToDelete;
 @property(retain, nonatomic) NSArray *resultDeletedRecordZoneIDs; // @synthesize resultDeletedRecordZoneIDs=_resultDeletedRecordZoneIDs;
-@property(nonatomic) _Bool secureDatabaseOnly; // @synthesize secureDatabaseOnly=_secureDatabaseOnly;
 
 @end
 

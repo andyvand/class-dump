@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAllCollectionsViewResultFilterTypeAddress
 {
     PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_geoId;
 }
 
 - (id);

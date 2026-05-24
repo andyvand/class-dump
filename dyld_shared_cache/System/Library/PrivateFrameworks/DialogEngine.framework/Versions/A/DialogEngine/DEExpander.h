@@ -9,8 +9,6 @@
 @interface DEExpander
 {
     _Bool _shouldEvaluateConditions;
-    _Bool _shouldExpandOpts;
-    NSDictionary *_parameters;
 }
 
 - (_Bool);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property _Bool shouldEvaluateConditions; // @synthesize shouldEvaluateConditions=_shouldEvaluateConditions;
-@property _Bool shouldExpandOpts; // @synthesize shouldExpandOpts=_shouldExpandOpts;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSUUID;
-
 @interface HMSettingValue
 {
     long long _type;
-    NSNumber *_numberValue;
-    NSString *_stringValue;
-    NSData *_dataValue;
-    NSUUID *_selectionIdentifier;
-    NSString *_selectionValue;
 }
 
 + (_Bool);
@@ -27,19 +20,14 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)news;
 - (void);
 - (id);
 - (id);
-- (void)lableLanguageListEvent;
+- (void)HMImmutableSettingsProtoAvailableLanguageListEvent;
 - (id)Õ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(readonly, copy, nonatomic) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(readonly, copy, nonatomic) NSUUID *selectionIdentifier; // @synthesize selectionIdentifier=_selectionIdentifier;
-@property(readonly, copy, nonatomic) NSString *selectionValue; // @synthesize selectionValue=_selectionValue;
-@property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

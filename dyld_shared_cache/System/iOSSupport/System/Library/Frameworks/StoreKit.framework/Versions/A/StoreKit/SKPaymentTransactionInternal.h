@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSError, NSString, SKPayment, SKPaymentTransaction, SKPaymentTransactionAuthorizationResponse;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SKPaymentTransactionInternal
 {
     NSString *_uuid;
-    NSArray *_downloads;
-    NSError *_error;
-    SKPaymentTransaction *_originalTransaction;
-    SKPayment *_payment;
-    NSString *_temporaryIdentifier;
-    NSDate *_transactionDate;
-    NSString *_transactionIdentifier;
-    NSData *_transactionReceipt;
-    long long _transactionState;
-    SKPaymentTransactionAuthorizationResponse *_authorizationResponse;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

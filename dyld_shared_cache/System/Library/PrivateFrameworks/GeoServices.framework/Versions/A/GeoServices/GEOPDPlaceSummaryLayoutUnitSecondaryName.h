@@ -11,28 +11,27 @@
     NSString *_symbolName;
 }
 
-+ (_Bool)Center:(id)arg1;
++ (_Bool)setIncludeCenter:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)&F;
+- (void)lish XPC connection!;
+- (void)ClientIfNeeded];
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)as_cellNrRSRQ"b1"has_cellNrSNR"b1"has_cellNsaFR1"b1"has_cellNsaFR2"b1"has_cellPMax"b1"has_cellRrcState"b1"has_cellTotalDlBW"b1"has_cellTotalUlBW"b1"has_cellVoiceLQM"b1"has_connectionDuration"b1"has_connectionType"b1"has_dlMedThroughput"b1"has_dlPeakThroughput"b1"has_environment"b1"has_ftCounter"b1"has_ftFacetimeAction"b1"has_ftFacetimePacketLoss"b1"has_ftFacetimeTimeDelay"b1"has_latency"b1"has_messageTrigger"b1"has_messageType"b1"has_motionState"b1"has_ulMedThroughput"b1"has_ulPeakThroughput"b1"has_wifiBand"b1"has_wifiCca"b1"has_wifiChannelWidth"b1"has_wifiChannel"b1"has_wifiEstimatedBW"b1"has_wifiPhyMode"b1"has_wifiQbssLoad"b1"has_wifiRxPhyRate"b1"has_wifiRxRetry"b1"has_wifiStationCount"b1"has_wifiTxPER"b1"has_wifiTxPhyRate"b1"has_wrmAudioErasure"b1"has_wrmVideoErasure"b1"has_cellIsLimitedService"b1"has_cellIsNoService"b1"has_cellIsRoaming"b1"has_cellNpnStatus"b1"has_isCallFailed"b1"has_isEmergency"b1"has_lowInternetDL"b1"has_lowInternetUL"b1"has_wifiCaptiveNetworks"b1"has_wrmAlertedMode"b1"has_wrmIsPCDetected"b1"has_wrmIsStallDetected"b1"read_callID"b1"read_cellGCI"b1"read_cellHomePLMN2"b1"read_cellHomePLMN"b1"read_cellRatType"b1"read_cellServiceProvider2"b1"read_cellServiceProvider"b1"read_ftIRATRecommendationReason"b1"read_ftIRATRecommendation"b1"read_location"b1"wrote_anyField"b1};
-- (id)ames;
+- (id)_locationNames;
 - (id)8JPKhLdO;
-- (id)her_shown;
+- (id)map_ui_shown_weather_shown;
 - (id)nParametersReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSymbolName;
-@property(retain, nonatomic) NSString *symbolName;
 
 @end
 

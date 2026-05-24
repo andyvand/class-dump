@@ -7,11 +7,6 @@
 @interface MediaPlaybackCore.MPCMigrationData
 {
     id queueController;
-    id playbackPosition;
-    id playbackRate;
-    id currentItemDuration;
-    id referenceTime;
-    id delegateInfo;
 }
 
 + (void);

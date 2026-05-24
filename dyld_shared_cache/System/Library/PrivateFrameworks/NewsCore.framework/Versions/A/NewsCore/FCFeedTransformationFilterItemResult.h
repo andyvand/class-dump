@@ -7,21 +7,17 @@
 @interface FCFeedTransformationFilterItemResult
 {
     _Bool _filtered;
-    id _item;
-    unsigned long long _filteredReasons;
 }
 
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)url;
 - (_Bool);
 - (void)ChangeToken;
 - (void)core/Classes/FCPrivateDataContext.m;
 
 // Remaining properties
-@property(nonatomic, getter=isFiltered) _Bool filtered; // @synthesize filtered=_filtered;
-@property(nonatomic) unsigned long long filteredReasons; // @synthesize filteredReasons=_filteredReasons;
 @property(readonly, nonatomic) id item; // @synthesize item=_item;
 
 @end

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoColorCorrection
 {
     CIImage *inputImage;
-    NSNumber *inputPower;
 }
 
-+ (void)orrection;
++ (void)DGiPhotoColorCorrection;
 - (id);
 - (id);
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTDistanceCalculator, RTLocationManager, RTVisitHyperParameter;
+@class RTVisitHyperParameter;
 
 @interface RTVisitPipelineModuleVisitCentroidUpdater
 {
     unsigned int _invalidBinIndex;
-    RTVisitHyperParameter *_hyperParameter;
-    RTLocationManager *_locationManager;
-    unsigned int *_binCounts;
-    unsigned long long _binCountsSize;
-    RTDistanceCalculator *_distanceCalculator;
 }
 
 - (void);
@@ -25,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)eleting previous icloud keychain stash:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -33,22 +28,10 @@
 - (id);
 - (void);
 - (id);
-- (void)doffSessionCriteriaFetchActiveSessionDetailsCkLatency;
+- (void)SMHandoffSessionCriteriaFetchActiveSessionDetailsCkLatency;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *binCounts; // @synthesize binCounts=_binCounts;
-@property(readonly, nonatomic) unsigned long long binCountsSize; // @synthesize binCountsSize=_binCountsSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) RTVisitHyperParameter *hyperParameter; // @synthesize hyperParameter=_hyperParameter;
-@property(readonly, nonatomic) unsigned int invalidBinIndex; // @synthesize invalidBinIndex=_invalidBinIndex;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly) Class superclass;
 
 @end
 

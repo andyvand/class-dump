@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (id);
++ (id);
++ (void);
++ (void)T_;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)9m;
++ (void) ;
 + (void);
 + (void);
 + (void);
@@ -41,10 +41,10 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)%�;
 + (struct CGAffineTransform);
 + (id);
-+ (id);
++ (id);
 + (double);
 
 @end

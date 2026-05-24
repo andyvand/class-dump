@@ -9,7 +9,6 @@
 @interface SSMouseEvent : SSInputEvent
 {
     struct SSPoint _coordinates;
-    struct CGPoint _mV2Coordinates;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property struct SSPoint coordinates; // @synthesize coordinates=_coordinates;
-@property struct CGPoint mV2Coordinates; // @synthesize mV2Coordinates=_mV2Coordinates;
 
 @end
 

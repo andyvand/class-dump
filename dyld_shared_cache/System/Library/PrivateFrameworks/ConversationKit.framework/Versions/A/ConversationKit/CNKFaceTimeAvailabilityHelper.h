@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI;
 @protocol TUIDSIDQueryController;
 
 @interface CNKFaceTimeAvailabilityHelper
 {
     id <TUIDSIDQueryController> queryController;
-    IDSURI *preferredFromID;
 }
 
+- (void)දl;
 - (void);
-- (void);
-- (void);
+- (void)r;
 - (void);
 - (void);
 - (id);
@@ -24,7 +22,6 @@
 - (void)Ì}üÿ4ÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) IDSURI *preferredFromID; // @synthesize preferredFromID;
 @property(nonatomic, readonly) id <TUIDSIDQueryController> queryController; // @synthesize queryController;
 
 @end

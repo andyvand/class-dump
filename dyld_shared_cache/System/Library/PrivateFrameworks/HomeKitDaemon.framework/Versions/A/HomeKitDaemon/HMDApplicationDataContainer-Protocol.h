@@ -11,7 +11,6 @@
 - (HMDApplicationData *);
 
 // Remaining properties
-@property(readonly) HMDApplicationData *appData;
 @property(readonly) NSUUID *uuid;
 @end
 

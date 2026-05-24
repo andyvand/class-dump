@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)yNode;
+- (id)responseWithURL:touchIcon:generated:extractedBackgroundColor: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationCityNode;
 
 @end
 

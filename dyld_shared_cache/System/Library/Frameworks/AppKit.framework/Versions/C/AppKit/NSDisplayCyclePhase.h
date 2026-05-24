@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSDisplayCyclePhase
 {
     NSString *_name;
-    NSHashTable *_earlierPhases;
-    NSHashTable *_laterPhases;
 }
 
-- (id);
-- (void);
+- (id)connection:(id)arg1 willSendRequest:(id)arg2 redirectResponse:(id)arg3;
+- (void)(C;
 - (id);
 - (id);
 - (id);

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, NSXPCListener, SUCoreConnectServerPolicy, SUCoreLog;
-@protocol OS_dispatch_queue;
+@class SUCoreConnectServerPolicy;
 
 @interface SUCoreConnectServer
 {
     SUCoreConnectServerPolicy *_connectionPolicy;
-    SUCoreLog *_logger;
-    NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_connectionsAccessQueue;
-    NSMutableDictionary *_connections;
-    NSMutableSet *_observerConnections;
-    NSObject<OS_dispatch_queue> *_connectionSendMessageQueue;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)mergeProbingResults: /* Error: Ran out of types for this method. */;
+- (id)iaStreamDelegate>",N,Vdelegate;
+- (id)d one to one groupID=%s stream configuration to media stream info;
+- (id)_VideoTransmitter_EncryptFrame;
 - (void);
 - (void);
 - (id);
@@ -36,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)t process audio stream switch when participantID is nil;
 - (void);
 - (void);
 - (void);
@@ -45,19 +38,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) SUCoreConnectServerPolicy *connectionPolicy; // @synthesize connectionPolicy=_connectionPolicy;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *connectionSendMessageQueue; // @synthesize connectionSendMessageQueue=_connectionSendMessageQueue;
-@property(readonly, retain, nonatomic) NSMutableDictionary *connections; // @synthesize connections=_connections;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *connectionsAccessQueue; // @synthesize connectionsAccessQueue=_connectionsAccessQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(readonly, retain, nonatomic) NSMutableSet *observerConnections; // @synthesize observerConnections=_observerConnections;
-@property(readonly) Class superclass;
 
 @end
 

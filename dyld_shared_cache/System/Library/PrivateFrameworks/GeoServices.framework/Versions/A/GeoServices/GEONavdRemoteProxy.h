@@ -6,16 +6,13 @@
 
 #import <GeoServices/GEONavdServerProxy.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol GEONavdXPCInterface, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol GEONavdXPCInterface;
 
 __attribute__((visibility("hidden")))
 @interface GEONavdRemoteProxy : GEONavdServerProxy
 {
     NSXPCConnection *_connection;
-    NSMutableArray *_observers;
-    NSMutableDictionary *_handlers;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -33,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)odeOverride = %ld, underlyingError = %@;
 - (void);
 - (void);
 - (void)ï ;

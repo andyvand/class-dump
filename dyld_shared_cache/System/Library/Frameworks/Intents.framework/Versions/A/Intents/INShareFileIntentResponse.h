@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSNumber, NSString;
-
 @interface INShareFileIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int):(long long)arg1 8@16{CGSize=dd}24d40d48B56^@60;
++ (int)removeThumbnailsStoredInExtendedAttributesOnURL:(long long)arg1 error: /* Error: Ran out of types for this method. */;
++ (long long)prepareImageForDescriptor:(int)arg1;
++ (_Bool)numberWithInteger:(long long)arg1;
 + (_Bool);
 - (void);
 - (void);
@@ -23,13 +21,13 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (void);
+- (id);
+- (id)setForceMaxExtent:(id)arg1;
+- (id);
+- (void)mer;
 - (id);
 - (void);
 - (id);
@@ -40,17 +38,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *confirm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *recipients;
-@property(copy) NSString *shareMode;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

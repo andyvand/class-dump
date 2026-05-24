@@ -6,23 +6,16 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, SXJSONArray;
+@class SXJSONArray;
 
 @interface SXConditionalComponent : SXComponent
 {
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)<;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *conditions; // @dynamic conditions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachedURLResponse, NSURLRequest;
 @protocol NSURLProtocolClient;
 
 __attribute__((visibility("hidden")))
 @interface NSURLProtocolInternal
 {
     id <NSURLProtocolClient> client;
-    NSURLRequest *request;
-    NSCachedURLResponse *cachedResponse;
 }
 
-- (void);
+- (void)Ereversedcyrillic;
 
 @end
 

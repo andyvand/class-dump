@@ -6,49 +6,31 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVMetricErrorEvent, NSDate, NSString, NSURL, NSURLSessionTaskMetrics;
+@class NSURL;
 
 @interface AVMetricMediaResourceRequestEvent : AVMetricEvent
 {
     NSURL *_url;
-    NSString *_serverAddress;
-    NSDate *_requestStartTime;
-    NSDate *_requestEndTime;
-    NSDate *_responseStartTime;
-    NSDate *_responseEndTime;
-    struct _NSRange _byteRange;
-    _Bool _readFromCache;
-    AVMetricErrorEvent *_errorEvent;
-    NSURLSessionTaskMetrics *_networkTransactionMetrics;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)ilingualKeyboardLanguages;
+- (id)J;
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct _NSRange);
-- (id);
-- (void);
+- (struct _NSRange)Y@YT[d;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)qid;
 - (id);
 - (id);
 - (id)ü;
 - (id);
 
 // Remaining properties
-@property(readonly) struct _NSRange byteRange;
-@property(readonly) AVMetricErrorEvent *errorEvent;
-@property(readonly) NSURLSessionTaskMetrics *networkTransactionMetrics;
-@property(readonly, getter=wasReadFromCache) _Bool readFromCache;
-@property(readonly) NSDate *requestEndTime;
-@property(readonly) NSDate *requestStartTime;
-@property(readonly) NSDate *responseEndTime;
-@property(readonly) NSDate *responseStartTime;
-@property(readonly) NSString *serverAddress;
 @property(readonly) NSURL *url;
 
 @end

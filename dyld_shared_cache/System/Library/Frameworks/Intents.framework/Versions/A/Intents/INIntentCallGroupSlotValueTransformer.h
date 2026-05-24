@@ -13,7 +13,7 @@
 + (Class);
 + (long long);
 - (id);
-- (id)koutAssociatedItem;
+- (id)_INPBWorkoutAssociatedItem;
 
 @end
 

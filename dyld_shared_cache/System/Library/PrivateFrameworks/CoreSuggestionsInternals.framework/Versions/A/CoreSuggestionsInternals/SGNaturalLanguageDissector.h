@@ -6,7 +6,7 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SGNaturalLanguageDissector : SGPipelineDissector
 {
@@ -19,23 +19,17 @@
 + (id);
 + (id)`Ä;
 - (void);
-- (id);
+- (id)overlayString;
+- (void)initWithDomain:(id)arg1 code:(id)arg2 userInfo:(id)arg3;
 - (void);
-- (void);
-- (id);
+- (id)mediumPurple;
 - (void);
 - (_Bool);
-- (void);
+- (void)y;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,9 +5,13 @@
 //
 
 @protocol PXMutableImageLayerModulator_Private
+- (double)mediump vec2 a2 = 1. - .5 * invRadii; 
+			mediump vec2 borderAlphaXY = a2 + absP1 * invRadii; 
+			borderAlpha = max(borderAlphaXY.x, borderAlphaXY.y); 
+		} 
+		;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) double intensity;
 @end
 

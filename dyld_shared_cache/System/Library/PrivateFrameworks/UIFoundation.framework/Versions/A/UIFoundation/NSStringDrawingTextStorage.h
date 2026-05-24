@@ -6,36 +6,20 @@
 
 #import <UIFoundation/NSTextStorage.h>
 
-@class CUICatalog, CUIStyleEffectConfiguration, NSConcreteNotifyingMutableAttributedString, NSLayoutManager, NSString, NSTextContainer;
+@class CUICatalog, NSConcreteNotifyingMutableAttributedString;
 
 @interface NSStringDrawingTextStorage : NSTextStorage
 {
     NSConcreteNotifyingMutableAttributedString *_contents;
-    NSLayoutManager *_layoutManager;
-    NSTextContainer *_textContainer;
-    double _baselineDelta;
-    struct {
-        unsigned int _typesetterBehavior:4;
-        unsigned int _needToFlushCache:1;
-        unsigned int _baselineMode:1;
-        unsigned int _forceWordWrapping:1;
-        unsigned int _usesSimpleTextEffects:1;
-        unsigned int _applicationFrameworkContext:3;
-        unsigned int _wrappedByCluster:1;
-        unsigned int _reserved:20;
-    } _sdflags;
-    CUICatalog *_catalog;
-    CUIStyleEffectConfiguration *_styleEffects;
-    double _defaultTighteningFactor;
 }
 
 + (_Bool);
 + (id);
 + (void);
-+ (void);
-+ (void)ingString: /* Error: Ran out of types for this method. */;
++ (void);
++ (void)attributedStringByResolvingString: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)/;
 - (void);
 - (_Bool);
 - (void);
@@ -48,48 +32,38 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)_CGXSetWindowOriginRelativeToWindow;
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)b;
+- (_Bool)";
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)a;
+- (void)not a multiple of (%d);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)setUnderlyingService: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)i";
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_CDAutoSuCache;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)amma22GrayColorSpace;
+- (id)genericGamma22GrayColorSpace;
 - (long long)System/Library/Frameworks/UIKit.framework/UIKit;
 
 // Remaining properties
 @property(retain) CUICatalog *cuiCatalog; // @synthesize cuiCatalog=_catalog;
-@property(retain) CUIStyleEffectConfiguration *cuiStyleEffects; // @synthesize cuiStyleEffects=_styleEffects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property double defaultTighteningFactor; // @synthesize defaultTighteningFactor=_defaultTighteningFactor;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(getter=_usesSimpleTextEffects, setter=_setUsesSimpleTextEffects:) _Bool usesSimpleTextEffects;
 
 @end
 

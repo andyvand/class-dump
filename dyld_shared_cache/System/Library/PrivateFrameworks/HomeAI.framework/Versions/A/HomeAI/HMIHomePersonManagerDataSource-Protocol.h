@@ -5,5 +5,6 @@
 //
 
 @protocol HMIHomePersonManagerDataSource
+- (void);
 @end
 

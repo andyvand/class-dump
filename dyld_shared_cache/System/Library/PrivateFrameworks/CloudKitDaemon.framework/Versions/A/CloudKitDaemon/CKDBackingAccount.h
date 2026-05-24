@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, CKPersona, NSPersonNameComponents, NSString, NSURL;
+@class ACAccount;
 
 @interface CKDBackingAccount
 {
@@ -19,7 +19,7 @@
 + (id)restart an executing or finished CKOperation:(id)arg1 %@;
 - (void);
 - (id);
-- (id);
+- (id)9	;
 - (id);
 - (void);
 - (id);
@@ -31,61 +31,45 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)apsession_tryAccountOwnerPairVerifyIfApplicable;
+- (id)L;
 - (id);
+- (id)setAwdlActiveTime: /* Error: Ran out of types for this method. */;
+- (id)initWithTileItems:maxCacheAge: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)addCustodianRecoveryKeys: /* Error: Ran out of types for this method. */;
+- (_Bool)elyExcludeds;
+- (id);
+- (_Bool)"<EDLocalSearchDelegate>"24;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id)cm5pYTB2MBAGByqGSM49AgEGBSuBBAAiA2IABEBGXhKwc7q3iFvkUoGDP6j2
+drpxSCxsSCODaDQIqGwd53wZJ0xIJIv0RTf2TS7+/u4KzhrANzb19r+TQzwqFJMp
+hp3mI3yY4pukIFc/kWS7DLQAx/ftWBXX6vl4ig3wEqNCMEAwHQYDVR0OBBYEFFjv
+1r7FgrBUzRimhK2i9nt7On/PMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQD
+AgEGMAoGCCqGSM49BAMDA2cAMGQCMCWRVB9DxwYdXsJ8KVZwbU5y0rfNEWJwpH5B
+bH3HoiOT/k7TIzlcXWiWAZVVBsDf/gIwC5wq3OepHwBMMCa3Q4ZvpT4Qs0dmc4oa
+GYxqUZYACJiGD7vRVavVMFnf0s4xG0JG
+-----END CERTIFICATE-----;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id)rivateShareServiceURL;
-- (id)emAtPath:toPath:error: /* Error: Ran out of types for this method. */;
-- (id)CSOfType: /* Error: Ran out of types for this method. */;
+- (id)privateShareServiceURL;
+- (id)moveItemAtPath:toPath:error: /* Error: Ran out of types for this method. */;
+- (id)keyrollingErrorCodeForPCSOfType: /* Error: Ran out of types for this method. */;
 - (void)create public PCS blob using metadata %@ (private token was:%@, share's public PCS blob was %@) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountType;
-@property(readonly, nonatomic) NSString *altDSID;
 @property(readonly, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly, nonatomic) _Bool canSuspendedAccountRenewCredentials;
-@property(readonly, nonatomic) ACAccount *ckAccount;
-@property(readonly, nonatomic) NSString *displayedHostname;
-@property(readonly, nonatomic) NSString *dsid;
-@property(readonly, nonatomic) NSPersonNameComponents *fullName;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isAccountSuspended;
-@property(readonly, nonatomic) _Bool isPrimaryAccount;
-@property(readonly, nonatomic) _Bool isPrimaryEmailVerified;
-@property(readonly, nonatomic) _Bool isWarmingUp;
-@property(readonly, copy) CKPersona *persona;
-@property(readonly, nonatomic) NSString *primaryEmail;
-@property(readonly, nonatomic) NSURL *privateCloudDBURL;
-@property(readonly, nonatomic) NSURL *privateCodeServiceURL;
-@property(readonly, nonatomic) NSURL *privateDeviceServiceURL;
-@property(readonly, nonatomic) NSURL *privateMetricsServiceURL;
-@property(readonly, nonatomic) NSURL *privateShareServiceURL;
-@property(readonly, nonatomic) NSString *serverPreferredPushEnvironment;
-@property(readonly, nonatomic) NSString *sharingURLHostname;
-@property(readonly, nonatomic) NSString *suspendedAccountIdentifier;
-@property(readonly, nonatomic) NSString *username;
 
 @end
 

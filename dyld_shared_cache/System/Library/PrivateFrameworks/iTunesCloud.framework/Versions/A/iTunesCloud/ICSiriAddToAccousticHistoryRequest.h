@@ -6,13 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, NSString;
+@class ICStoreRequestContext;
 
 @interface ICSiriAddToAccousticHistoryRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    long long _storeItemID;
-    NSString *_affiliateIdentifier;
 }
 
 - (id);

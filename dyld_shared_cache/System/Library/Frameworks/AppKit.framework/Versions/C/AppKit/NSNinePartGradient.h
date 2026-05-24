@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CALayer;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface NSNinePartGradient
 {
     CALayer *_centerLayer;
-    CAGradientLayer *_gradientLayers[8];
-    struct NSEdgeInsets _insets;
 }
 
 - (id);

@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)9;
 - (id);
 - (id);
 

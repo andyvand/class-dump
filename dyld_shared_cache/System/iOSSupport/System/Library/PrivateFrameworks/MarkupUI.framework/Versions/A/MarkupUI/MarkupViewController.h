@@ -4,62 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKToolbarView, NSData, NSLayoutConstraint, NSString, NSUndoManager, PDFDocument, PDFView, UIBarButtonItem, UIColor, UIImage, UIImageView, UINavigationBar, UINavigationItem, UIScrollView, UIView, UIViewController, UTType;
-@protocol MUContentViewControllerProtocol, MarkupViewControllerDelegate;
+@class UIColor, UIViewController;
+@protocol MUContentViewControllerProtocol;
 
 @interface MarkupViewController
 {
     UIColor *_backgroundColor;
-    UIColor *_toolbarItemTintColor;
-    UIColor *_toolbarTintColor;
-    UIColor *_navBarTitleColor;
-    _Bool _showingSignaturesUI;
-    _Bool _allowShakeToUndo;
-    _Bool _centersIgnoringContentInsets;
-    _Bool _encryptPrivateMetadata;
-    _Bool _forcesPDFViewTopAlignment;
-    _Bool _navigationModeHorizontal;
-    _Bool _pencilAlwaysDraws;
-    _Bool _shapeDetectionEnabled;
-    _Bool _showShareButtonInToolbar;
-    _Bool _showThumbnailViewForMultipage;
-    _Bool _thumbnailViewHidden;
-    _Bool _toolbarHidden;
-    _Bool _needToPerformFullTeardown;
-    _Bool _needToPerformDocumentClosedTeardown;
-    _Bool _observingAKCurrentPageIndex;
-    id _alreadyLoggedSavingForThisDocument;
-    _Bool _useFancyTransition;
-    _Bool _isAnimatingMarkupExtensionTransition;
-    _Bool _userDidCancel;
-    _Bool _showAsFormSheet;
-    NSUndoManager *_akUndoManager;
-    id <MarkupViewControllerDelegate> _delegate;
-    NSString *_hostProcessBundleIdentifier;
-    unsigned long long _inkStyle;
-    UINavigationBar *_navBar;
-    UIImageView *_placeholderImageView;
-    long long _toolbarPosition;
-    UIViewController<MUContentViewControllerProtocol> *_contentViewController;
-    NSString *_sourceContentType;
-    id _sourceContent;
-    id _digestedSourceContent;
-    NSData *_archivedModelData;
-    double _initialContentScale;
-    UIView *_toolbar;
-    AKToolbarView *_modernToolbar;
-    NSLayoutConstraint *_toolbarTopConstraint;
-    NSLayoutConstraint *_toolbarTopAttachedConstraint;
-    NSLayoutConstraint *_toolbarBottomConstraint;
-    UINavigationItem *_navItem;
-    UIBarButtonItem *_cancelButton;
-    UIBarButtonItem *_doneButton;
-    UIImage *_placeholderImage;
-    NSString *_preferredFileDisplayName;
-    UIView *_contentContainerView;
-    UIView *_transitionDimmingView;
-    UIView *_whiteView;
-    NSString *_originalImageDescription;
 }
 
 + (double);
@@ -81,7 +31,20 @@
 - (id);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)M;
 - (void);
 - (void);
 - (void);
@@ -96,20 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -144,7 +94,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -158,7 +108,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -196,13 +146,13 @@
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ublic}s (over the blastdoor limit of %{public}s).;
 - (id);
 - (_Bool);
 - (void);
@@ -214,12 +164,12 @@
 - (void);
 - (void);
 - (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -230,11 +180,11 @@
 - (_Bool);
 - (double);
 - (double);
-- (id);
+- (id)!N9;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (void);
 - (void);
@@ -242,7 +192,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -269,7 +219,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -295,91 +245,18 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (long long)dInDocument: /* Error: Ran out of types for this method. */;
+- (long long)setFormDetectedInDocument: /* Error: Ran out of types for this method. */;
 - (void)ller teardown];
 
 // Remaining properties
-@property(readonly) struct CGSize adjustedSourceImageSize;
-@property(retain, nonatomic) NSUndoManager *akUndoManager; // @synthesize akUndoManager=_akUndoManager;
-@property(nonatomic) _Bool allEditingDisabled;
-@property(nonatomic) _Bool allowShakeToUndo; // @synthesize allowShakeToUndo=_allowShakeToUndo;
-@property(nonatomic) _Bool allowsThumbnailViewPageReordering;
-@property(nonatomic) _Bool alreadyLoggedSavingForThisDocument; // @synthesize alreadyLoggedSavingForThisDocument=_alreadyLoggedSavingForThisDocument;
-@property(readonly, nonatomic) AKController *annotationController;
-@property(nonatomic) _Bool annotationEditingEnabled;
-@property(retain) NSData *archivedModelData; // @synthesize archivedModelData=_archivedModelData;
-@property(copy) UIColor *backgroundColor;
-@property(retain) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) _Bool centersIgnoringContentInsets; // @synthesize centersIgnoringContentInsets=_centersIgnoringContentInsets;
-@property(retain) UIView *contentContainerView; // @synthesize contentContainerView=_contentContainerView;
 @property(retain) UIViewController<MUContentViewControllerProtocol> *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(readonly, nonatomic) UIScrollView *contentViewScrollView;
-@property(nonatomic) unsigned long long currentPDFPageIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MarkupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) id digestedSourceContent; // @synthesize digestedSourceContent=_digestedSourceContent;
-@property(retain) UIBarButtonItem *doneButton; // @synthesize doneButton=_doneButton;
-@property _Bool encryptPrivateMetadata; // @synthesize encryptPrivateMetadata=_encryptPrivateMetadata;
-@property(nonatomic) _Bool fixedThumbnailView;
-@property(nonatomic) _Bool forcesPDFViewTopAlignment; // @synthesize forcesPDFViewTopAlignment=_forcesPDFViewTopAlignment;
-@property(nonatomic) _Bool formFillingEnabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hostProcessBundleIdentifier; // @synthesize hostProcessBundleIdentifier=_hostProcessBundleIdentifier;
-@property(readonly, nonatomic) UIView *imageViewCombinedContentView;
-@property double initialContentScale; // @synthesize initialContentScale=_initialContentScale;
-@property unsigned long long inkStyle; // @synthesize inkStyle=_inkStyle;
-@property _Bool isAnimatingMarkupExtensionTransition; // @synthesize isAnimatingMarkupExtensionTransition=_isAnimatingMarkupExtensionTransition;
-@property(readonly) _Bool isUsedOnDarkBackground;
-@property(retain) AKToolbarView *modernToolbar; // @synthesize modernToolbar=_modernToolbar;
-@property(retain, nonatomic) UINavigationBar *navBar; // @synthesize navBar=_navBar;
-@property(copy) UIColor *navBarTitleColor;
-@property(retain, nonatomic) UINavigationItem *navItem; // @synthesize navItem=_navItem;
-@property(nonatomic, getter=isNavigationModeHorizontal) _Bool navigationModeHorizontal; // @synthesize navigationModeHorizontal=_navigationModeHorizontal;
-@property _Bool needToPerformDocumentClosedTeardown; // @synthesize needToPerformDocumentClosedTeardown=_needToPerformDocumentClosedTeardown;
-@property _Bool needToPerformFullTeardown; // @synthesize needToPerformFullTeardown=_needToPerformFullTeardown;
-@property(getter=isObservingAKCurrentPageIndex) _Bool observingAKCurrentPageIndex; // @synthesize observingAKCurrentPageIndex=_observingAKCurrentPageIndex;
-@property(copy, nonatomic) NSString *originalImageDescription; // @synthesize originalImageDescription=_originalImageDescription;
-@property(readonly, nonatomic) UTType *outputContentType;
-@property(readonly, nonatomic) NSString *outputType;
-@property(readonly) __weak UIView *pageLabelView;
-@property(readonly) PDFDocument *pdfDocument;
-@property(readonly) PDFView *pdfView;
-@property(nonatomic) _Bool pencilAlwaysDraws; // @synthesize pencilAlwaysDraws=_pencilAlwaysDraws;
-@property(retain) UIImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(retain) UIImageView *placeholderImageView; // @synthesize placeholderImageView=_placeholderImageView;
-@property(copy, nonatomic) NSString *preferredFileDisplayName; // @synthesize preferredFileDisplayName=_preferredFileDisplayName;
-@property(nonatomic, getter=isShapeDetectionEnabled) _Bool shapeDetectionEnabled; // @synthesize shapeDetectionEnabled=_shapeDetectionEnabled;
-@property _Bool showAsFormSheet; // @synthesize showAsFormSheet=_showAsFormSheet;
-@property(nonatomic) _Bool showShareButtonInToolbar; // @synthesize showShareButtonInToolbar=_showShareButtonInToolbar;
-@property(nonatomic) _Bool showThumbnailViewForMultipage; // @synthesize showThumbnailViewForMultipage=_showThumbnailViewForMultipage;
-@property(retain, nonatomic) id sourceContent; // @synthesize sourceContent=_sourceContent;
-@property(retain) NSString *sourceContentType; // @synthesize sourceContentType=_sourceContentType;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isThumbnailViewHidden) _Bool thumbnailViewHidden; // @synthesize thumbnailViewHidden=_thumbnailViewHidden;
-@property(nonatomic) long long thumbnailViewStyle;
-@property(retain, nonatomic) UIView *toolbar; // @synthesize toolbar=_toolbar;
-@property(retain) NSLayoutConstraint *toolbarBottomConstraint; // @synthesize toolbarBottomConstraint=_toolbarBottomConstraint;
-@property(nonatomic, getter=isToolbarHidden) _Bool toolbarHidden; // @synthesize toolbarHidden=_toolbarHidden;
-@property(copy) UIColor *toolbarItemTintColor;
-@property(nonatomic) long long toolbarPosition; // @synthesize toolbarPosition=_toolbarPosition;
-@property(copy) UIColor *toolbarTintColor;
-@property(retain) NSLayoutConstraint *toolbarTopAttachedConstraint; // @synthesize toolbarTopAttachedConstraint=_toolbarTopAttachedConstraint;
-@property(retain) NSLayoutConstraint *toolbarTopConstraint; // @synthesize toolbarTopConstraint=_toolbarTopConstraint;
-@property(retain) UIView *transitionDimmingView; // @synthesize transitionDimmingView=_transitionDimmingView;
-@property _Bool useFancyTransition; // @synthesize useFancyTransition=_useFancyTransition;
-@property _Bool userDidCancel; // @synthesize userDidCancel=_userDidCancel;
-@property(retain) UIView *whiteView; // @synthesize whiteView=_whiteView;
 
 @end
 

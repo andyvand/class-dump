@@ -7,14 +7,9 @@
 @interface CTDataStatusBasic
 {
     _Bool _attached;
-    _Bool _hasIndicator;
-    _Bool _inHomeCountry;
-    _Bool _roamAllowed;
-    _Bool _cellularDataPossible;
-    _Bool _newRadioCoverage;
 }
 
-+ (_Bool);
++ (_Bool)on.authkeychain.callback;
 - (id);
 - (_Bool);
 - (id);
@@ -22,9 +17,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)setReconnectNow:(_Bool)arg1;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,11 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool attached; // @synthesize attached=_attached;
-@property(nonatomic) _Bool cellularDataPossible; // @synthesize cellularDataPossible=_cellularDataPossible;
-@property(nonatomic) _Bool hasIndicator; // @synthesize hasIndicator=_hasIndicator;
-@property(nonatomic) _Bool inHomeCountry; // @synthesize inHomeCountry=_inHomeCountry;
-@property(nonatomic) _Bool newRadioCoverage; // @synthesize newRadioCoverage=_newRadioCoverage;
-@property(nonatomic) _Bool roamAllowed; // @synthesize roamAllowed=_roamAllowed;
 
 @end
 

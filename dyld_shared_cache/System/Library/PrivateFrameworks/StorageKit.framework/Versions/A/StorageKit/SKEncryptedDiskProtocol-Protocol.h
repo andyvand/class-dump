@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSError;
+
 @protocol SKEncryptedDiskProtocol
+- (NSError *);
+- (NSError *)qA;
+- (_Bool);
+- (_Bool)!;
+- (NSArray *);
 @end
 

@@ -7,9 +7,10 @@
 @class NSUUID;
 
 @protocol TAirDropTransfer
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *endpointIdentifier;
 @property(readonly, nonatomic) NSUUID *transferIdentifier;
 @end
 

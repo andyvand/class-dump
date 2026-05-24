@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNDetectScreenGazeRequestConfiguration : VNStatefulRequestConfiguration
 {
     long long _temporalSmoothingFrameCount;
-    unsigned long long _screenSize;
 }
 
 - (long long);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)x¢:(Class)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long screenSize; // @synthesize screenSize=_screenSize;
 @property(nonatomic) long long temporalSmoothingFrameCount;
 
 @end

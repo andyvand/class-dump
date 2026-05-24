@@ -6,21 +6,12 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2TextField, NSLayoutConstraint, NSObject, NSProgressIndicator, NSStackView, NSTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface LUI2AuthHintViewController : LUI2ViewController
 {
     _Bool _subHintTextFieldInMultiLineMode;
-    LUI2TextField *_mainHintTextField;
-    LUI2TextField *_subHintTextField;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSStackView *_stackView;
-    NSProgressIndicator *_progressIndicator;
-    NSTimer *_delayedProgressStartTimer;
-    NSLayoutConstraint *_mainToSubHintTextFieldMinGapConstraint;
-    NSLayoutConstraint *_subHintTextFieldWidthConstraint;
-    NSLayoutConstraint *_stackViewBottomConstraint;
 }
 
 - (void);
@@ -30,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,7 +34,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(@9;
 - (void);
 - (void);
 - (void);
@@ -52,16 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSTimer *delayedProgressStartTimer; // @synthesize delayedProgressStartTimer=_delayedProgressStartTimer;
-@property(readonly) LUI2TextField *mainHintTextField; // @synthesize mainHintTextField=_mainHintTextField;
-@property(retain) NSLayoutConstraint *mainToSubHintTextFieldMinGapConstraint; // @synthesize mainToSubHintTextFieldMinGapConstraint=_mainToSubHintTextFieldMinGapConstraint;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain) NSLayoutConstraint *stackViewBottomConstraint; // @synthesize stackViewBottomConstraint=_stackViewBottomConstraint;
-@property(readonly) LUI2TextField *subHintTextField; // @synthesize subHintTextField=_subHintTextField;
-@property(readonly) _Bool subHintTextFieldInMultiLineMode; // @synthesize subHintTextFieldInMultiLineMode=_subHintTextFieldInMultiLineMode;
-@property(retain) NSLayoutConstraint *subHintTextFieldWidthConstraint; // @synthesize subHintTextFieldWidthConstraint=_subHintTextFieldWidthConstraint;
 
 @end
 

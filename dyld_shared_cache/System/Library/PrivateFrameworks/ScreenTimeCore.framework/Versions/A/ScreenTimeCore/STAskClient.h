@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)a;
 - (id);
-- (id);
-- (void);
+- (void).framework/Versions/A/CoreSpotlight;
 
 // Remaining properties
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;

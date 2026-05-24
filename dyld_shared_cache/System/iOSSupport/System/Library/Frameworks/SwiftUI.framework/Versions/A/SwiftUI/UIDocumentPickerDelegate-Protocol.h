@@ -5,5 +5,9 @@
 //
 
 @protocol UIDocumentPickerDelegate
+
+@optional
+- (void);
+- (void)ColorSectionDecorationItem;
 @end
 

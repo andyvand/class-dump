@@ -4,62 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTAccountPublicID, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface KTIDSData
 {
     NSString *_uri;
-    NSString *_application;
-    NSArray *_identities;
-    NSData *_ktAccountKey;
-    NSNumber *_ktOptChangeReason;
-    NSNumber *_ktOptIn;
-    NSDictionary *_ktOpts;
-    NSString *_traceUUID;
-    NSString *_idsServerHint;
-    NSDate *_idsResponseTime;
-    KTAccountPublicID *_publicID;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)rt=};
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *application; // @synthesize application=_application;
-@property(retain) NSArray *identities; // @synthesize identities=_identities;
-@property(retain) NSDate *idsResponseTime; // @synthesize idsResponseTime=_idsResponseTime;
-@property(retain) NSString *idsServerHint; // @synthesize idsServerHint=_idsServerHint;
-@property(retain) NSData *ktAccountKey; // @synthesize ktAccountKey=_ktAccountKey;
-@property(retain) NSNumber *ktOptChangeReason; // @synthesize ktOptChangeReason=_ktOptChangeReason;
-@property(retain) NSNumber *ktOptIn; // @synthesize ktOptIn=_ktOptIn;
-@property(retain) NSDictionary *ktOpts; // @synthesize ktOpts=_ktOpts;
-@property(readonly) KTAccountPublicID *publicID; // @synthesize publicID=_publicID;
-@property(retain) NSString *traceUUID; // @synthesize traceUUID=_traceUUID;
 @property(retain) NSString *uri; // @synthesize uri=_uri;
 
 @end

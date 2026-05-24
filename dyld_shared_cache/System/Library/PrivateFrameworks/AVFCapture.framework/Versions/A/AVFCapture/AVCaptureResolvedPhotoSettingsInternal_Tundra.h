@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureResolvedPhotoSettingsInternal_Tundra
 {
     long long uniqueID;
-    CDStruct_79c71658 photoDimensions;
 }
 
-- (void);
+- (void)service:account:inviteReceivedForSession:fromID:withOptions: /* Error: Ran out of types for this method. */;
 
 @end
 

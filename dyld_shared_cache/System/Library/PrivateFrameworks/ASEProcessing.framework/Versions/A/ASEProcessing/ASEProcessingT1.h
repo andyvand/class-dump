@@ -9,26 +9,20 @@
 @interface ASEProcessingT1 : ASEProcessingT0
 {
     unsigned int _enabledHcus;
-    unsigned long long _msrBaseAddr;
-    struct aseConfigurationUnitsV3_t *_aseControlUnitV3;
-    struct {
-        CDStruct_3450fab9 _field1;
-        CDStruct_3450fab9 _field2;
-        CDStruct_3450fab9 _field3;
-    } *_aseControlUnitV3Cache;
 }
 
 - (void);
+- (void)R;
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)
+1;
 - (void);
 - (id);
-- (id);
+- (id)/;
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (void);
 - (void);
 - (void);

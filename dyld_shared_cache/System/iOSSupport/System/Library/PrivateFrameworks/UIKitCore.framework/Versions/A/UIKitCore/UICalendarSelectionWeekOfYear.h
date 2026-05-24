@@ -6,23 +6,20 @@
 
 #import <UIKitCore/UICalendarSelection.h>
 
-@class NSArray, NSDateComponents;
+@class NSDateComponents;
 @protocol UICalendarSelectionWeekOfYearDelegate;
 
 @interface UICalendarSelectionWeekOfYear : UICalendarSelection
 {
     CDStruct_e5c9d39b _delegateImplements;
-    NSArray *_dateComponentsForWeekOfYear;
-    NSDateComponents *_selectedWeekOfYear;
-    id <UICalendarSelectionWeekOfYearDelegate> _delegate;
 }
 
-- (void);
+- (void)essage Zone is nil in IMDRecordZoneManager;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)t photo or poster found, nothing to archive for handle %@. isPhotoOrPosterUpdate:(id)arg1 %{BOOL}d Current nickname dict:%@. /* Error: Ran out of types for this method. */;
+- (id)essage to, since we are sending SMSFilteringSettingMessage and this device type (%ld) is not capable of receiving it;
+- (void)ssage with ID %@ Sent Success %@;
+- (unsigned long long)that isn't IMDIDS (%@), can't determien region -- falling through.;
 - (_Bool);
 - (void);
 - (void);

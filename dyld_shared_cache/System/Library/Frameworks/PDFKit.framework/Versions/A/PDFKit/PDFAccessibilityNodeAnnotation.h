@@ -6,13 +6,12 @@
 
 #import <PDFKit/PDFAccessibilityNode.h>
 
-@class NSString, PDFAnnotation;
+@class PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeAnnotation : PDFAccessibilityNode
 {
     PDFAnnotation *_annotation;
-    NSString *_labelText;
 }
 
 + (id);
@@ -37,54 +36,53 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct _NSRange);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct _NSRange);
-- (void);
-- (struct _NSRange);
-- (id);
-- (id);
-- (id);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (_Bool);
-- (_Bool);
+- (void)ll update;
+- (void){public}@Failed to fetch sleep wake state due to no accessory on media profile;
+- (void)%{public}@Zero entries in mediaSourceDisplayOrder;
+- (_Bool)estKey received a response:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)received a response:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (struct _NSRange)sory updatePreferredMediaUserSelectionType:user:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)kAccessoryNotificationsUpdatedNotificationKey;
+- (id)kAccessorySetupRetryKey;
+- (id)upportsAdaptiveTemperatureAutomations;
+- (id)HMCommandExpectedValuesKey;
+- (struct _NSRange).identifier;
+- (void)HMAccessoryRemoveManagedConfigurationProfileMessage;
+- (struct _NSRange)HMAccessoryMFiCertifiedACWGCodingKey;
+- (id)HMAccessoryReaderGroupSubIdentifierACWGCodingKey;
+- (id)AccessViolation;
+- (id)MAccessorySupportsNetworkDiagnosticsCodingKey;
+- (struct _NSRange)MA.SupportsUserMediaSetting;
+- (struct _NSRange)SupportsMediaActions;
+- (struct _NSRange)HMA.supportsCompanionInitiatedObliterate;
+- (_Bool)onStatus;
+- (_Bool)HMAccessoryUUIDPayloadKey;
+- (long long)HMSymptomTypeNetworkMisconfigurationPeerToPeer;
+- (_Bool)Value = %@>;
+- (long long)HMScheduleEntryStartCodingKey;
+- (id)numberOfTimesPrimaryClientConnectMessageFailed_HH2;
+- (struct CGRect)IDSAvailable_INT;
+- (id)r of keys found, expected one.;
+- (id)n(_:(struct _NSRange)arg1 );
 - (long long);
-- (_Bool);
-- (long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)B$;
 - (void);
 - (id);
 - (void)72;
 
 // Remaining properties
 @property(nonatomic) __weak PDFAnnotation *annotation; // @synthesize annotation=_annotation;
-@property(retain, nonatomic) NSString *labelText; // @synthesize labelText=_labelText;
 
 @end
 

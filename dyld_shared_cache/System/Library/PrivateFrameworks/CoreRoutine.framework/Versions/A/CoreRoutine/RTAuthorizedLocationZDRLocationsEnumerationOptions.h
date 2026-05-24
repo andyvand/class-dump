@@ -6,19 +6,14 @@
 
 #import <CoreRoutine/RTEnumerationOptions.h>
 
-@class NSDate, NSNumber;
-
 @interface RTAuthorizedLocationZDRLocationsEnumerationOptions : RTEnumerationOptions
 {
     unsigned long long _batchSize;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSNumber *_maximumNumberOfItems;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)troke index set is empty, and current token %@ stroke index set is also empty;
 - (id);
 - (id);
 - (void);
@@ -32,9 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSNumber *maximumNumberOfItems; // @synthesize maximumNumberOfItems=_maximumNumberOfItems;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

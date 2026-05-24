@@ -6,30 +6,16 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVCustomStackLayout, AVLayoutItemAttributes, NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVGlassLayoutView : AVGlassBackedView
 {
     _Bool _removed;
-    _Bool _hasAlternateAppearance;
-    _Bool _collapsedOrExcluded;
-    _Bool _collapsed;
-    _Bool _included;
-    _Bool _hasFullScreenAppearance;
-    _Bool _layoutDirty;
-    _Bool _stackLayoutNeedsUpdate;
-    AVLayoutItemAttributes *_layoutAttributes;
-    NSArray *_arrangedSubviews;
-    unsigned long long _shapeStyle;
-    NSString *_debugIdentifier;
-    NSMutableArray *_flattenedArrangedSubviewsInLayoutOrder;
-    AVCustomStackLayout *_currentStackLayout;
-    struct CGSize _extrinsicContentSize;
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)CKDWalrusCheckResult;
 - (void);
 - (_Bool);
 - (void);
@@ -39,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (struct NSDirectionalEdgeInsets);
+- (id);
+- (struct NSDirectionalEdgeInsets)erForActiveObjectINS4_13PositionEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (_Bool);
 - (id);
 - (void);
@@ -59,49 +45,27 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_privateDatabase;
+- (id)Tables;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void)ñZÐ1Â0@ù
 × ;
 - (void);
-- (void)PlaybackSuspension;
+- (void)beginPlaybackSuspension;
 - (void)_automaticallyUpdatesSubviewContentIntersections;
 - (void)ens;
 - (void) àÈ;
 - (_Bool)riority:%ld} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *arrangedSubviews; // @synthesize arrangedSubviews=_arrangedSubviews;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded; // @synthesize collapsedOrExcluded=_collapsedOrExcluded;
-@property(nonatomic) struct NSDirectionalEdgeInsets contentLayoutMargins;
-@property(retain, nonatomic) AVCustomStackLayout *currentStackLayout; // @synthesize currentStackLayout=_currentStackLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
 @property(retain, nonatomic) NSMutableArray *flattenedArrangedSubviewsInLayoutOrder; // @synthesize flattenedArrangedSubviewsInLayoutOrder=_flattenedArrangedSubviewsInLayoutOrder;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic, getter=isLayoutDirty) _Bool layoutDirty; // @synthesize layoutDirty=_layoutDirty;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(nonatomic) unsigned long long shapeStyle; // @synthesize shapeStyle=_shapeStyle;
-@property(nonatomic) _Bool stackLayoutNeedsUpdate; // @synthesize stackLayoutNeedsUpdate=_stackLayoutNeedsUpdate;
-@property(readonly) Class superclass;
 
 @end
 

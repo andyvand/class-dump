@@ -12,7 +12,7 @@
 + (id);
 + (_Bool);
 + (id);
-- (id);
+- (id)ith error:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
@@ -22,8 +22,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void).;
+- (_Bool)on:(id)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long duplicateTaskResolution; // @synthesize duplicateTaskResolution=_duplicateTaskResolution;

@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)ayFeatureExtractor;
+- (long long)@;
+- (id)requestTokens;
+- (id)PGWeekdayFeatureExtractor;
 
 @end
 

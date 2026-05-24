@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, UINSDragItem;
-@protocol UINSDragSessionHandler;
+@class UINSDragItem;
 
 __attribute__((visibility("hidden")))
 @interface UINSDragPasteboardDataProvider
 {
     UINSDragItem *_item;
-    long long _index;
-    id <UINSDragSessionHandler> _handler;
-    NSDictionary *_mappedTypes;
-    NSMutableDictionary *_additionalData;
 }
 
 + (id);
@@ -35,21 +30,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void)ata;
+- (void)_fieldElementData;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *additionalData; // @synthesize additionalData=_additionalData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id <UINSDragSessionHandler> handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property long long index; // @synthesize index=_index;
 @property(retain) UINSDragItem *item; // @synthesize item=_item;
-@property(retain) NSDictionary *mappedTypes; // @synthesize mappedTypes=_mappedTypes;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (float);
-- (float);
+- (float)Sharing Preferences Changed;
 
 // Remaining properties
 @property(nonatomic) float restConfidence; // @synthesize restConfidence=_restConfidence;

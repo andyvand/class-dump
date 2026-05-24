@@ -9,13 +9,13 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)G;
 + (id);
-+ (id);
-+ (id);
++ (id)b;
++ (id)a;
 + (long long);
-+ (id);
-+ (id);
++ (id)to recover access to these locked notes.;
++ (id)yue;
 + (id);
 + (id);
 

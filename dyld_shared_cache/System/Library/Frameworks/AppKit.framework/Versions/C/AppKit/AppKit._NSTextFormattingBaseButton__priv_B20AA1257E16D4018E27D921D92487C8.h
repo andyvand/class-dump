@@ -9,14 +9,13 @@
 @interface AppKit._NSTextFormattingBaseButton__priv_B20AA1257E16D4018E27D921D92487C8 : NSButton
 {
     id componentKey;
-    id componentSize;
 }
 
-- (void);
+- (void){shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}8{?=qi}24;
 - (id);
 - (id);
 - (struct CGSize);
-- (id)ringLoadingHighlight;
+- (id)_springLoadingHighlight;
 - (id)8Q16^B24;
 - (void)ð]E;
 

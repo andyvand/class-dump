@@ -7,28 +7,6 @@
 @interface TSDBezierPath
 {
     long long sfr_elementCount;
-    long long sfr_elementMax;
-    struct PATHSEGMENT *sfr_head;
-    double *sfr_elementLength;
-    double sfr_totalLength;
-    long long sfr_lastSubpathIndex;
-    void *sfr_extraSegments;
-    double sfr_lineWidth;
-    struct CGRect sfr_controlPointBounds;
-    double sfr_miterLimit;
-    double sfr_flatness;
-    double *sfr_dashedLinePattern;
-    unsigned long long sfr_dashedLineCount;
-    double sfr_dashedLinePhase;
-    void *sfr_path;
-    long long sfr_extraSegmentCount;
-    long long sfr_extraSegmentMax;
-    struct {
-        unsigned int sfr_flags:8;
-        unsigned int sfr_pathState:2;
-        unsigned int sfr_calculatedLengths:1;
-        unsigned int sfr_unused:21;
-    } sfr_bpFlags;
 }
 
 + (id);
@@ -36,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -62,7 +40,7 @@
 + (void);
 + (void);
 + (void);
-+ (double);
++ (double)T;
 + (unsigned long long);
 + (unsigned long long);
 + (double);
@@ -76,34 +54,34 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)(j;
 + (double);
 + (void);
 + (_Bool);
 + (void);
-+ (double);
-+ (void)kTextToFit;
++ (double)TSDTilingTileLayer;
++ (void)shrinkTextToFit;
 + (void)ô;
 - (double);
-- (double);
+- (double);
 - (void);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)d;
 - (struct CGPoint);
 - (id);
+- (id) ;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)&;
 - (long long);
 - (double);
 - (id);
@@ -115,7 +93,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)~2;
 - (id);
 - (void);
 - (struct CGRect);
@@ -145,7 +123,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
@@ -171,11 +149,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -193,9 +171,9 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void)˟;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -224,23 +202,18 @@
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)|	;
 - (double)rootWindow;
-- (void)nd;
-- (id)arMap;
+- (void)TSWPFieldEditorPresetKind;
+- (id)charMap;
 - (_Bool);
 - (const char *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsClosePathElement;
 @property(readonly, nonatomic) _Bool isCompound;
-@property(readonly, nonatomic) _Bool isEffectivelyClosed;
-@property(readonly, nonatomic) _Bool isLineSegment;
-@property(readonly, nonatomic) _Bool isOpen;
-@property(readonly, nonatomic) _Bool isSelfIntersecting;
 
 @end
 

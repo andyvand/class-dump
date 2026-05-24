@@ -7,8 +7,6 @@
 @interface _CNAtomTextSelectionRect
 {
     _Bool containsStart;
-    _Bool containsEnd;
-    struct CGRect rect;
 }
 
 - (void);
@@ -19,8 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;
-@property(nonatomic) _Bool containsStart; // @synthesize containsStart;
 @property(nonatomic) struct CGRect rect; // @synthesize rect;
 
 @end

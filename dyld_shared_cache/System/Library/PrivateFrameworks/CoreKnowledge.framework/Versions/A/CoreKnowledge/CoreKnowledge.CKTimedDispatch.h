@@ -7,10 +7,6 @@
 @interface CoreKnowledge.CKTimedDispatch
 {
     id queue;
-    id semaphore;
-    id _interruptError;
-    id _timeout;
-    id _group;
 }
 
 @end

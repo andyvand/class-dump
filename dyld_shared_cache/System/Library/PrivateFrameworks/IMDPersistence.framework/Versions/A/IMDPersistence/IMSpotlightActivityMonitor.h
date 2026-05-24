@@ -12,10 +12,10 @@
 + (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)`;
 - (void)nt a INNER JOIN message_attachment_join ma ON a.ROWID = ma.attachment_id INNER JOIN message m ON m.rowid = ma.message_id WHERE (m.service == 'iMessage' OR m.service == 'SMS') AND a.ck_sync_state == 0 AND m.balloon_bundle_id == 'com.apple.messages.chatbot' ORDER BY a.ROWID LIMIT ? ;
 
 @end

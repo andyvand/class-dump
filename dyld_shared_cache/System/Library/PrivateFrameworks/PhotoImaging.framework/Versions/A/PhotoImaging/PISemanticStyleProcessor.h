@@ -9,14 +9,14 @@
 }
 
 + (id);
++ (_Bool)c;
++ (_Bool);
++ (int)_photoLibraryFeatureExtractor;
 + (_Bool);
 + (_Bool);
 + (int);
 + (_Bool);
-+ (_Bool);
-+ (int);
-+ (_Bool);
-+ (struct CGRect);
++ (struct CGRect)isLocal:(int)arg1 withPort:(id)arg2;
 
 @end
 

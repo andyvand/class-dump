@@ -5,9 +5,10 @@
 //
 
 @protocol MTLDrawable
+- (unsigned long long)_pluginPayloadAttachmentPathsForMessage: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long drawableID;
 @property(readonly, nonatomic) double presentedTime;
 @end
 

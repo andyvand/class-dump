@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSProgressIndicator;
+@class NSProgressIndicator;
 
 @interface ABBookSearchField
 {
     NSProgressIndicator *_progressIndicator;
-    _Bool _animatingProgress;
-    _Bool _hidesProgress;
-    NSNumber *_trackingTag;
 }
 
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
 - (void)AÐ!@ùQªð1Â0@ù
@@ -41,7 +38,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isAnimatingProgress) _Bool animatingProgress; // @synthesize animatingProgress=_animatingProgress;
-@property(nonatomic) _Bool hidesProgress; // @synthesize hidesProgress=_hidesProgress;
 
 @end
 

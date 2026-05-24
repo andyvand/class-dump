@@ -5,36 +5,29 @@
 //
 
 @class NSString;
-@protocol NSObject;
 
 @interface NSAccessibilityCustomAction
 {
     NSString *_name;
-    id <NSObject> _target;
-    CDUnknownBlockType _handler;
-    SEL _selector;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)fallback triggered;
+- (id)lled, attempting fallback;
 - (id);
 - (id);
 - (void);
+- (id)foreignPeersCount;
+- (id)+;
 - (void);
-- (CDUnknownBlockType)ResolutionQueue;
+- (void);
+- (CDUnknownBlockType)_filePromiseResolutionQueue;
 - (void)B8@"NSArray"12;
 - (SEL)¸ÀkÿY­z,B;
 - (void)LD;
 - (void)«ÿØ<³K;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property SEL selector; // @synthesize selector=_selector;
-@property __weak id <NSObject> target;
 
 @end
 

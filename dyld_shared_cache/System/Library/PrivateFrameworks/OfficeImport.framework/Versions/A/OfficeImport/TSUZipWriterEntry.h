@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TSUZipWriterEntry
 {
     unsigned int _CRC;
-    NSString *_name;
-    NSDate *_lastModificationDate;
-    unsigned long long _size;
-    unsigned long long _offset;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void)erties}^{WrdTableProperties}^{WrdTableProperties}}24@32;
@@ -29,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;
-@property(retain, nonatomic) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

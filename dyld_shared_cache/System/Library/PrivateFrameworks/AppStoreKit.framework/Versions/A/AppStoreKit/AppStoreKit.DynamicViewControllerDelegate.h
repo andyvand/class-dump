@@ -7,12 +7,6 @@
 @interface AppStoreKit.DynamicViewControllerDelegate
 {
     id subscriptionManager;
-    id purchaseSuccessHandler;
-    id purchaseFailureHandler;
-    id carrierLinkSuccessHandler;
-    id carrierLinkFailureHandler;
-    id didDismissHandler;
-    id contentViewConstructor;
 }
 
 - (void);

@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NUIFlowRowContainer
 {
     struct _NUIGridArrangement _gridArrangement;
-    struct _NSRange _range;
-    const void *_flowArrangement;
 }
 
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (double);
 - (double);
-- (struct CGSize);
+- (struct CGSize);
 - (float);
 - (float);
 - (void);
@@ -28,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

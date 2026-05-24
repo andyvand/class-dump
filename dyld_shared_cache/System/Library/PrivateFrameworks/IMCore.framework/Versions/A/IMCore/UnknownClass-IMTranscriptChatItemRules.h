@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (IMTranscriptChatItemRules)
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)payload=%d currentPayload=%d;
+- (id)Latency=%f;
+- (id)%@(%p) externalOutputVideoLatency=%f;
 @end
 

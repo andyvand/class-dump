@@ -6,7 +6,6 @@
 
 #import <Silex/SXContainerLayout.h>
 
-@class TSWPPadding;
 @protocol SXStandaloneTextLayoutDelegate;
 
 @interface SXStandaloneTextLayout : SXContainerLayout
@@ -38,20 +37,10 @@
 - (void);
 - (void)
 × ;
-- (id)torLabels;
+- (id)showDescriptorLabels;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
 @property(nonatomic) __weak id <SXStandaloneTextLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 
 @end
 

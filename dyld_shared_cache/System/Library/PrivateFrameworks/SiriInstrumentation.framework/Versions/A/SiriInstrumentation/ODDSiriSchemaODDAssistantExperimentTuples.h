@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODDSiriSchemaODDAssistantExperimentTuples : SISchemaInstrumentationMessage
 {
     NSArray *_launchTimeInMs;
-    NSArray *_endpointDelayInMs;
-    NSArray *_siriResponseTimeInMs;
-    NSArray *_timeToUufrInMs;
-    NSArray *_timeToFirstWordInMs;
 }
 
 - (unsigned long long);
@@ -30,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void).qS?;
 - (unsigned long long);
 - (float);
 - (id);
@@ -65,12 +61,7 @@
 - (void)SIRIUISIZE_UNKNOWN_SIRI_UI_SIZE;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *endpointDelayInMs; // @synthesize endpointDelayInMs=_endpointDelayInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *launchTimeInMs; // @synthesize launchTimeInMs=_launchTimeInMs;
-@property(copy, nonatomic) NSArray *siriResponseTimeInMs; // @synthesize siriResponseTimeInMs=_siriResponseTimeInMs;
-@property(copy, nonatomic) NSArray *timeToFirstWordInMs; // @synthesize timeToFirstWordInMs=_timeToFirstWordInMs;
-@property(copy, nonatomic) NSArray *timeToUufrInMs; // @synthesize timeToUufrInMs=_timeToUufrInMs;
 
 @end
 

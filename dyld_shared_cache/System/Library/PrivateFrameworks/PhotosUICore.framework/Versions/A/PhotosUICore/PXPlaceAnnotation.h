@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface PXPlaceAnnotation
 {
     NSNumber *_placeLevel;
-    NSString *_placeName;
 }
 
 - (id);
@@ -24,16 +23,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)�;
+- (id)scrollPositionComparedToEnd;
 - (void)¡<;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSDictionary *dictionary;
 @property(retain, nonatomic) NSNumber *placeLevel; // @synthesize placeLevel=_placeLevel;
-@property(readonly, nonatomic) NSString *placeLevelAsString;
-@property(retain, nonatomic) NSString *placeName; // @synthesize placeName=_placeName;
 
 @end
 

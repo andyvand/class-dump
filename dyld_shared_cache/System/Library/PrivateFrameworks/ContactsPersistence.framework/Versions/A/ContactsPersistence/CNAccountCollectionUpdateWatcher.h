@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACMonitoredAccountStore, CNCoalescingSchedulerDecorator, CNUnfairLock, NSString;
+@class ACMonitoredAccountStore;
 
 __attribute__((visibility("hidden")))
 @interface CNAccountCollectionUpdateWatcher
 {
     id _target;
-    SEL _action;
-    ACMonitoredAccountStore *_accountStore;
-    unsigned long long _state;
-    CNUnfairLock *_lock;
-    CNCoalescingSchedulerDecorator *_clientScheduler;
 }
 
 + (id);
@@ -23,39 +18,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)!;
+- (unsigned long long);
+- (id)elIdentifier;
 - (void);
 - (void);
-- (SEL);
-- (id);
+- (void);
+- (void);
+- (SEL)@"NSError">24;
+- (id)16@?0@"ABCNGroup"8;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) ACMonitoredAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly) SEL action; // @synthesize action=_action;
-@property(readonly) CNCoalescingSchedulerDecorator *clientScheduler; // @synthesize clientScheduler=_clientScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CNUnfairLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) __weak id target; // @synthesize target=_target;
 
 @end
 

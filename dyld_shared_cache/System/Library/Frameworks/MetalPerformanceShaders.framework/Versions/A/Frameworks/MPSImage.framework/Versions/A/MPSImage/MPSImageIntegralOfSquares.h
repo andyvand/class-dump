@@ -12,7 +12,7 @@
 
 + (const struct MPSLibraryInfo *);
 - (id);
-- (void);
+- (void)initWithDisplayName:(id)arg1 handle:handleIdentifier: /* Error: Ran out of types for this method. */;
 - (id)x1 Å?HJèk¨?;
 
 @end

@@ -12,26 +12,22 @@ __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerMultiDetectorRecognizeObjectsConfiguration : VNImageAnalyzerMultiDetectorAnalysisConfiguration
 {
     float _minimumDetectionConfidence;
-    float _nonMaximumSuppressionThreshold;
-    VNDisallowedList *_disallowedList;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (float);
-- (float);
+- (float);
 - (unsigned int);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
-- (void)malsRequestPrivateRevisionANODv5;
+- (void)VNRecognizeAnimalsRequestPrivateRevisionANODv5;
 
 // Remaining properties
 @property(copy, nonatomic) VNDisallowedList *disallowedList; // @synthesize disallowedList=_disallowedList;
-@property(nonatomic) float minimumDetectionConfidence; // @synthesize minimumDetectionConfidence=_minimumDetectionConfidence;
-@property(nonatomic) float nonMaximumSuppressionThreshold; // @synthesize nonMaximumSuppressionThreshold=_nonMaximumSuppressionThreshold;
 
 @end
 

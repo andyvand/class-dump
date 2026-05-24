@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNRequestSpecifier, _VNImageAnalyzerMultiDetectorSceneOperationPointsCache;
+@class _VNImageAnalyzerMultiDetectorSceneOperationPointsCache;
 
 __attribute__((visibility("hidden")))
 @interface _VNImageAnalyzerMultiDetectorSceneOperationPointsProvider
 {
     _VNImageAnalyzerMultiDetectorSceneOperationPointsCache *_operationPointsCache;
-    VNRequestSpecifier *_originatingRequestSpecifier;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)cessing %lu anod tiles. currentDetector:%@ group:%@ /* Error: Ran out of types for this method. */;
 

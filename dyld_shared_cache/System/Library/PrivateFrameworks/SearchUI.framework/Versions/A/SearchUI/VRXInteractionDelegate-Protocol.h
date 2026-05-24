@@ -5,5 +5,10 @@
 //
 
 @protocol VRXInteractionDelegate
+
+@optional
+- (void)$@9;
+- (void);
+- (void)`;
 @end
 

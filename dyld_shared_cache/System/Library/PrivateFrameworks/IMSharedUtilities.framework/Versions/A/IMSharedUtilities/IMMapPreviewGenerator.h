@@ -10,13 +10,13 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)鸖^;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *) ;
 + (struct CGSize);
 + (id);
 + (struct CLLocationCoordinate2D);

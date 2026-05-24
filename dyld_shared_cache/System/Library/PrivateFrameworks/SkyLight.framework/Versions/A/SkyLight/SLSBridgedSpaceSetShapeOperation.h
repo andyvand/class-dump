@@ -9,13 +9,12 @@
 @interface SLSBridgedSpaceSetShapeOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     struct CGSRegionObject *_shape;
-    unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (void);
-- (id);
-- (struct CGSRegionObject *);
++ (_Bool)`;
+- (void)erty;
+- (id)ObjectContext:(unsigned long long)arg1 andObservedStore:(struct CGSRegionObject *)arg2 error:] /* Error: Ran out of types for this method. */;
+- (struct CGSRegionObject *); version = %@ ; UUID = %@;
 - (unsigned long long);
 - (void);
 - (id);

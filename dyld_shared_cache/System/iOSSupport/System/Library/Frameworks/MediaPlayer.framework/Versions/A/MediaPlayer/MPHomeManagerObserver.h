@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMHome, HMHomeManager, HMUser, MPHomeUserMonitor, NSMutableDictionary, NSObject, NSSet, NSString;
+@class NSObject;
 @protocol MPHomeManagerObserverDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPHomeManagerObserver
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    HMHomeManager *_homeManager;
-    HMHome *_currentHome;
-    HMUser *_currentUser;
-    NSSet *_homeUsers;
-    NSMutableDictionary *_userMonitorMap;
-    _Bool _soundCheckCachedValue;
-    _Bool _setupDidComplete;
-    unsigned long long _homekitInitSignpostId;
-    id <MPHomeManagerObserverDelegate> _delegate;
 }
 
 + (id);
@@ -29,56 +19,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)qsrcInsteadRule;
+- (_Bool)vacuumRelation;
+- (_Bool)partitionRangeDatum;
+- (_Bool)partitionBoundSpec;
+- (id)t;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Sg;
 - (void);
 - (id);
 - (void);
-- (id);
+- (void)nd old message for read receipt:(id)arg1 %@;
+- (void)find a chat for message:(id)arg1 %@;
+- (void)dHandle %@ lastAddressedSIMID %@;
+- (void);
+- (void);
+- (id)setSimulatedAccounts:forServiceNamed: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void)sentimentScoreForText:(id)arg1;
+- (id);
+- (void)@8;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_payloadOverridePrimary;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)predicatesCount;
 - (id)ÿLî;
 
 // Remaining properties
-@property(readonly, nonatomic) HMAccessory *currentAccessory;
-@property(readonly, nonatomic) HMHome *currentHome;
-@property(readonly, nonatomic) HMUser *currentUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MPHomeManagerObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCurrentAccessory;
-@property(readonly, nonatomic) _Bool hasCurrentHome;
-@property(readonly, nonatomic) _Bool hasCurrentUser;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MPHomeUserMonitor *monitorForCurrentUser;
-@property(readonly, nonatomic) _Bool setupDidComplete;
-@property(nonatomic, getter=isSoundCheckEnabled) _Bool soundCheckEnabled;
-@property(readonly) Class superclass;
 
 @end
 

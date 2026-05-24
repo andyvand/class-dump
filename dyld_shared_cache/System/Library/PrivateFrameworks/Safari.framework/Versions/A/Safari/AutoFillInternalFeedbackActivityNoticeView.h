@@ -6,14 +6,10 @@
 
 #import <Safari/ActivityNoticeView.h>
 
-@class WBSAutoFillInternalFeedbackDiagnosticsData;
-
 __attribute__((visibility("hidden")))
 @interface AutoFillInternalFeedbackActivityNoticeView : ActivityNoticeView
 {
     id _reportTarget;
-    SEL _reportAction;
-    WBSAutoFillInternalFeedbackDiagnosticsData *_diagnosticsData;
 }
 
 - (void);
@@ -28,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WBSAutoFillInternalFeedbackDiagnosticsData *diagnosticsData; // @synthesize diagnosticsData=_diagnosticsData;
-@property(nonatomic) SEL reportAction; // @synthesize reportAction=_reportAction;
 @property(nonatomic) __weak id reportTarget; // @synthesize reportTarget=_reportTarget;
 
 @end

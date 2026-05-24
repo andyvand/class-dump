@@ -6,14 +6,14 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAUIStreamChunk : SABaseClientBoundCommand
 {
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -22,13 +22,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)1.dylib;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSString *streamFailureMessage;
-@property(copy, nonatomic) NSString *streamId;
-@property(copy, nonatomic) NSString *streamStage;
 
 @end
 

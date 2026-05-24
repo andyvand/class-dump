@@ -7,22 +7,18 @@
 @interface CTRunMetricsDelegate
 {
     CDUnknownBlockType beginClusterModificationHandler;
-    CDUnknownBlockType clusterModificationHandler;
-    CDUnknownBlockType endClusterModificationHandler;
 }
 
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void)Simple_Case_Folding;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType beginClusterModificationHandler; // @synthesize beginClusterModificationHandler;
-@property(copy) CDUnknownBlockType clusterModificationHandler; // @synthesize clusterModificationHandler;
-@property(copy) CDUnknownBlockType endClusterModificationHandler; // @synthesize endClusterModificationHandler;
 
 @end
 

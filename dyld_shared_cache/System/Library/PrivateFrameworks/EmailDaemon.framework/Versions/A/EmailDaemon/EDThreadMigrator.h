@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDInMemoryThreadQueryHandler, EDThreadPersistence, EFLocked, EMThreadScope, NSHashTable, NSString;
-@protocol EFScheduler;
+@class EFLocked, NSHashTable;
 
 @interface EDThreadMigrator
 {
     NSHashTable *_observers;
-    struct os_unfair_lock_s _observerLock;
-    EMThreadScope *_threadScope;
-    EFLocked *_state;
-    id <EFScheduler> _workScheduler;
-    EDThreadPersistence *_threadPersistence;
-    EDInMemoryThreadQueryHandler *_queryHandler;
-    double _threadFinalizationInterval;
 }
 
 + (id);
@@ -41,25 +33,13 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)not supported for %@;
 - (void);
-- (void)rationReader;
+- (void)CHSWidgetConfigurationReader;
 - (id)Ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDInMemoryThreadQueryHandler *queryHandler; // @synthesize queryHandler=_queryHandler;
 @property(readonly, nonatomic) EFLocked *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) double threadFinalizationInterval; // @synthesize threadFinalizationInterval=_threadFinalizationInterval;
-@property(readonly, nonatomic) EDThreadPersistence *threadPersistence; // @synthesize threadPersistence=_threadPersistence;
-@property(readonly, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
-@property(readonly, nonatomic) id <EFScheduler> workScheduler; // @synthesize workScheduler=_workScheduler;
 
 @end
 

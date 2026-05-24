@@ -5,5 +5,6 @@
 //
 
 @protocol ICAttachmentPreviewGenerating
+- (void)#;
 @end
 

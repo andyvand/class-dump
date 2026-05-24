@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString, NSURL, SKPaymentTransaction;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface SKDownloadInternal
 {
     NSNumber *_downloadID;
-    NSString *_productID;
-    long long _state;
-    float _progress;
-    NSError *_error;
-    NSURL *_contentURL;
-    double _timeRemaining;
-    NSNumber *_contentLength;
-    NSString *_contentVersion;
-    SKPaymentTransaction *_transaction;
 }
 
 - (void);

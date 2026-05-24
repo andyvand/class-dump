@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 __attribute__((visibility("hidden")))
 @interface LPImageRemoteURLRepresentation
 {
     unsigned long long _scale;
-    NSURL *_URL;
 }
 
-- (id);
+- (id)supportsAttachments;
 - (id);
 - (unsigned long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) unsigned long long scale; // @synthesize scale=_scale;
 
 @end

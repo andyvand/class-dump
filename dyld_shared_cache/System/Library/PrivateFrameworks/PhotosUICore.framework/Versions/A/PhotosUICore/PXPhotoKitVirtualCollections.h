@@ -4,51 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAssetCollection, PHCollectionList, PHPhotoLibrary, PLLazyObject;
+@class PHPhotoLibrary, PLLazyObject;
 
 @interface PXPhotoKitVirtualCollections
 {
     PLLazyObject *_importHistoryCollection;
-    PLLazyObject *_recentlyViewedCollection;
-    PLLazyObject *_recentlyEditedCollection;
-    PLLazyObject *_recentlySharedCollection;
-    PLLazyObject *_contentSyndicationCollection;
-    PLLazyObject *_sharedAlbumsCollectionList;
-    PLLazyObject *_mediaTypesCollectionList;
-    PHAssetCollection *_collectionsCollection;
-    PHAssetCollection *_momentsCollection;
-    PHAssetCollection *_photosCollection;
-    PHAssetCollection *_memoriesCollection;
-    PHAssetCollection *_searchCollection;
-    PHAssetCollection *_bookmarksCollection;
-    PHAssetCollection *_completeMyMomentCollection;
-    PHAssetCollection *_allProjectsCollection;
-    PHAssetCollection *_allAlbumsCollection;
-    PHAssetCollection *_sharedAlbumsCollection;
-    PHAssetCollection *_sharedActivityCollection;
-    PHAssetCollection *_eventsCollection;
-    PHAssetCollection *_tripsCollection;
-    PHAssetCollection *_featuredPhotosCollection;
-    PHAssetCollection *_mapCollection;
-    PHAssetCollection *_wallpaperSuggestionsCollection;
-    PHCollectionList *_sharedAlbumsAndActivityCollectionList;
-    PHCollectionList *_utilitiesCollectionList;
-    PHCollectionList *_macSyncedAlbumsCollectionList;
-    PHCollectionList *_bookmarksCollectionList;
-    PHPhotoLibrary *_photoLibrary;
 }
 
++ (id)=;
 + (id);
-+ (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)2
+
+Jy;
 - (id);
 - (id);
 - (id);
@@ -78,36 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *allAlbumsCollection; // @synthesize allAlbumsCollection=_allAlbumsCollection;
-@property(readonly, nonatomic) PHAssetCollection *allProjectsCollection; // @synthesize allProjectsCollection=_allProjectsCollection;
-@property(readonly, nonatomic) PHAssetCollection *bookmarksCollection; // @synthesize bookmarksCollection=_bookmarksCollection;
-@property(readonly, nonatomic) PHCollectionList *bookmarksCollectionList; // @synthesize bookmarksCollectionList=_bookmarksCollectionList;
-@property(readonly, nonatomic) PHAssetCollection *collectionsCollection; // @synthesize collectionsCollection=_collectionsCollection;
-@property(readonly, nonatomic) PHAssetCollection *completeMyMomentCollection; // @synthesize completeMyMomentCollection=_completeMyMomentCollection;
-@property(readonly, nonatomic) PHAssetCollection *contentSyndicationCollection;
-@property(readonly, nonatomic) PHAssetCollection *eventsCollection; // @synthesize eventsCollection=_eventsCollection;
-@property(readonly, nonatomic) PHAssetCollection *featuredPhotosCollection; // @synthesize featuredPhotosCollection=_featuredPhotosCollection;
-@property(readonly, nonatomic) PHAssetCollection *importHistoryCollection;
-@property(readonly, nonatomic) PHCollectionList *macSyncedAlbumsCollectionList; // @synthesize macSyncedAlbumsCollectionList=_macSyncedAlbumsCollectionList;
-@property(readonly, nonatomic) PHAssetCollection *mapCollection; // @synthesize mapCollection=_mapCollection;
-@property(readonly, nonatomic) PHCollectionList *mediaTypesCollectionList;
-@property(readonly, nonatomic) PHAssetCollection *memoriesCollection; // @synthesize memoriesCollection=_memoriesCollection;
-@property(readonly, nonatomic) PHAssetCollection *momentsCollection; // @synthesize momentsCollection=_momentsCollection;
-@property(readonly, nonatomic) PHAssetCollection *peopleCollection;
 @property(readonly, nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PHAssetCollection *photosCollection; // @synthesize photosCollection=_photosCollection;
-@property(readonly, nonatomic) PHAssetCollection *prototypeCollection;
-@property(readonly, nonatomic) PHAssetCollection *recentlyEditedCollection;
-@property(readonly, nonatomic) PHAssetCollection *recentlySharedCollection;
-@property(readonly, nonatomic) PHAssetCollection *recentlyViewedCollection;
-@property(readonly, nonatomic) PHAssetCollection *searchCollection; // @synthesize searchCollection=_searchCollection;
-@property(readonly, nonatomic) PHAssetCollection *sharedActivityCollection; // @synthesize sharedActivityCollection=_sharedActivityCollection;
-@property(readonly, nonatomic) PHCollectionList *sharedAlbumsAndActivityCollectionList; // @synthesize sharedAlbumsAndActivityCollectionList=_sharedAlbumsAndActivityCollectionList;
-@property(readonly, nonatomic) PHAssetCollection *sharedAlbumsCollection; // @synthesize sharedAlbumsCollection=_sharedAlbumsCollection;
-@property(readonly, nonatomic) PHCollectionList *sharedAlbumsCollectionList;
-@property(readonly, nonatomic) PHAssetCollection *tripsCollection; // @synthesize tripsCollection=_tripsCollection;
-@property(readonly, nonatomic) PHCollectionList *utilitiesCollectionList; // @synthesize utilitiesCollectionList=_utilitiesCollectionList;
-@property(readonly, nonatomic) PHAssetCollection *wallpaperSuggestionsCollection; // @synthesize wallpaperSuggestionsCollection=_wallpaperSuggestionsCollection;
 
 @end
 

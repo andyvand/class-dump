@@ -7,9 +7,9 @@
 @class ECEmailAddress, NSString;
 
 @protocol ECEmailAddressConvertible
+- (NSString *)publiclyIndexable;
 
 // Remaining properties
 @property(readonly, nonatomic) ECEmailAddress *emailAddressValue;
-@property(readonly, nonatomic) NSString *stringValue;
 @end
 

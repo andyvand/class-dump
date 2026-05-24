@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol UIPressesEventTerminalRegistration
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allowedPressTypes;

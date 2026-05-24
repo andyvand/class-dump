@@ -11,7 +11,6 @@
 @interface SXParallaxScaleSceneAnimationHandler : SXSceneComponentAnimationHandler
 {
     SXContainerComponentView *_headerComponent;
-    unsigned long long _attachmentType;
 }
 
 - (void);
@@ -21,14 +20,13 @@
 - (struct CGRect);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long attachmentType; // @synthesize attachmentType=_attachmentType;
 @property(nonatomic) __weak SXContainerComponentView *headerComponent; // @synthesize headerComponent=_headerComponent;
 
 @end

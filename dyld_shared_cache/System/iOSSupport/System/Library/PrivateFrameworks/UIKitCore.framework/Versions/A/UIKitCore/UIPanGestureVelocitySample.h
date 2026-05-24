@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface UIPanGestureVelocitySample
 {
     struct CGPoint start;
-    struct CGPoint end;
-    double dt;
 }
 
 @end

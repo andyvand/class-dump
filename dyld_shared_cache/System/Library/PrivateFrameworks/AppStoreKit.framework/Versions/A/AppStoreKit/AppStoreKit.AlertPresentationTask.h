@@ -7,7 +7,6 @@
 @interface AppStoreKit.AlertPresentationTask
 {
     id request;
-    id window;
 }
 
 - (id);

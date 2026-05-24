@@ -6,21 +6,16 @@
 
 #import <PhotosGraph/PGConfiguration.h>
 
-@class NSArray;
-
 @interface PGSensitiveLocationBlocklistConfiguration : PGConfiguration
 {
     double _latitude;
-    double _longitude;
-    double _radius;
-    NSArray *_sensitiveDateIntervals;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)performActionWithElementController:(id)arg1;
++ (id)anager",&,N,S_setApplicationManager:,V__applicationManager /* Error: Ran out of types for this method. */;
++ (id)anagerDelegate>",W;
++ (id),N,V_listener;
++ (id)dowButton.minimize;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -29,17 +24,14 @@
 + (id);
 - (id);
 - (id);
-- (double);
+- (double)superclass;
 - (double)¡8°!ìCùQo1Â0@ù
 × ;
-- (void)FaceprintsForIdenticalDeduping;
+- (void)useFaceprintsForIdenticalDeduping;
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly, nonatomic) NSArray *sensitiveDateIntervals; // @synthesize sensitiveDateIntervals=_sensitiveDateIntervals;
 
 @end
 

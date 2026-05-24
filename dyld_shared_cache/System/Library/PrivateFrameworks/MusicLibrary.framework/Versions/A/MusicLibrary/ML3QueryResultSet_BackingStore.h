@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface ML3QueryResultSet_BackingStore
 {
     vector_ef673ceb _persistentIDs;
-    struct vector<unsigned char, std::allocator<unsigned char>> _sections;
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (long long);
+- (void)_allowRebuild;
+- (_Bool)meraAutoAdjustment;
+- (id)unpauseLaunchEventNotifications;
+- (long long)rror reading replay log:(unsigned long long)arg1 %@;
 - (void);
 - (id);
 - (unsigned long long);

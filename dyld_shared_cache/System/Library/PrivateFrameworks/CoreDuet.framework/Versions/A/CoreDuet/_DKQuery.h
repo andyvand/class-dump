@@ -9,10 +9,9 @@
 @interface _DKQuery
 {
     _Bool _executeConcurrently;
-    NSString *_clientName;
-    CDUnknownBlockType _tracker;
 }
 
++ (id)u3;
 + (id);
 + (id);
 + (id);
@@ -33,6 +32,15 @@
 + (id);
 + (id);
 + (id);
++ (id)W;
++ (id)O;
++ (id);
++ (id)s@;
++ (id)9;
++ (id)3;
++ (id);
++ (id);
++ (id)s ;
 + (id);
 + (id);
 + (id);
@@ -49,30 +57,20 @@
 + (id);
 + (id);
 + (id);
++ (id)�;
 + (id);
 + (id);
 + (id);
++ (id)knk;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Ne;
++ (id)?;
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)*oe;
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -83,8 +81,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(nonatomic) _Bool executeConcurrently; // @synthesize executeConcurrently=_executeConcurrently;
-@property(copy) CDUnknownBlockType tracker; // @synthesize tracker=_tracker;
 
 @end
 

@@ -13,11 +13,11 @@
     CATTaskProgress *_progress;
 }
 
-+ (_Bool);
++ (_Bool)_unixTimeZone;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 

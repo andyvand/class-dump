@@ -10,12 +10,10 @@
 @interface PXMovingCollectionsUndoContext
 {
     NSMutableDictionary *_storedParentCollectionFetchResults;
-    NSMutableDictionary *_parentCollectionChildInfos;
-    id <PXFastEnumeration> _collections;
 }
 
 + (id);
-+ (id);
++ (id)s;
 - (void);
 - (void);
 - (id);

@@ -9,7 +9,6 @@
 @interface AVMediaTimelineControlConfiguration
 {
     AVMediaTimelineControlLabelsConfiguration *_labelsConfiguration;
-    double _extendedDynamicRangeGain;
 }
 
 + (id);
@@ -17,12 +16,11 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)ad exceeded flow control limits;
 - (void);
 
 // Remaining properties
 @property(nonatomic) double extendedDynamicRangeGain; // @synthesize extendedDynamicRangeGain=_extendedDynamicRangeGain;
-@property(retain, nonatomic) AVMediaTimelineControlLabelsConfiguration *labelsConfiguration; // @synthesize labelsConfiguration=_labelsConfiguration;
 
 @end
 

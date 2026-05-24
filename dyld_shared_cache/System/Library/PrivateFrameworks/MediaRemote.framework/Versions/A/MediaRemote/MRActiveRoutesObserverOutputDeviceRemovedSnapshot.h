@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVDistantEndpoint, NSDate;
+@class MRAVDistantEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface MRActiveRoutesObserverOutputDeviceRemovedSnapshot
 {
     MRAVDistantEndpoint *_endpoint;
-    NSDate *_date;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)raints:(id)arg1 targetPxSize:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)T@"NSData",&,N,V_report;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(retain, nonatomic) MRAVDistantEndpoint *endpoint; // @synthesize endpoint=_endpoint;
 
 @end

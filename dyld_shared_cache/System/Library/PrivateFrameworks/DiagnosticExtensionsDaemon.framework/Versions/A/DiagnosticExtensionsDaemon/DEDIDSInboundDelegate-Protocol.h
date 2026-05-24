@@ -5,5 +5,7 @@
 //
 
 @protocol DEDIDSInboundDelegate
+- (void);
+- (void)@;
 @end
 

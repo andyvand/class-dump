@@ -5,5 +5,9 @@
 //
 
 @protocol WFAutomationDaemonXPCInterface
+- (void);
+- (void);
+- (void);
+- (void)=;
 @end
 

@@ -12,23 +12,23 @@
 }
 
 + (Class);
-+ (_Bool)mentClusterEnabled:(id)arg1;
-- (void);
++ (_Bool)setIsInstrumentClusterEnabled:(id)arg1;
+- (void):(id)arg1 8B16;
 - (id);
-- (unsigned long long);
+- (unsigned long long)ABCDAddressingGrammar;
+- (id)ABCDCountry;
+- (void)C;
+- (void);
+- (void);
+- (void)5;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)send message while connection does not exist;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id)"read_transitTripStopTimeFilter"b1"read_transitVehiclePositionFilter"b1"read_vendorAmenitiesFilter"b1"read_venueInfoFilter"b1"read_visitedPlacesMetaDataFilter"b1"read_visualEvidenceFilter"b1"read_walletCategoryInformationFilter"b1"read_wifiFingerprintFilter"b1"wrote_anyField"b1};
 - (id)_wakeForDelay;
 - (id)¤c;

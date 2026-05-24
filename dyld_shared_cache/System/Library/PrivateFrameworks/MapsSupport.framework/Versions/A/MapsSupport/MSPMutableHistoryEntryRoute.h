@@ -6,7 +6,6 @@
 
 #import <MapsSupport/MSPMutableHistoryEntry.h>
 
-@class GEOAutomobileOptions, GEOComposedWaypoint, GEOCyclingOptions, GEOTransitOptions, GEOURLRouteHandle, GEOWalkingOptions, NSArray, NSData, NSDate, NSString;
 @protocol MSPRouteInformationSource;
 
 @interface MSPMutableHistoryEntryRoute : MSPMutableHistoryEntry
@@ -23,11 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)*X] [%{sensitive,mask.mailbox}s] Completing user-initiated MIME part download request %{public}u for UID %u, part '[%{public}s]', QoS '%{public}s'.;
+- (id)UUID;
+- (id)RIMARY KEY, action INTEGER REFERENCES local_message_actions(ROWID) ON DELETE CASCADE, source_ews_item_id TEXT, source_message INTEGER REFERENCES messages(ROWID) ON DELETE SET NULL, destination_message INTEGER REFERENCES messages(ROWID) ON DELETE CASCADE);;
 - (_Bool);
 - (id);
 - (id);
@@ -36,33 +35,11 @@
 - (id);
 - (void);
 - (long long);
-- (id)IssueClientCertificateWithCompletion;
+- (id)DeviceIdentityIssueClientCertificateWithCompletion;
 - (id)À&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *archivedSharedTripData;
-@property(readonly, nonatomic) GEOAutomobileOptions *automobileOptions;
-@property(readonly, nonatomic) GEOCyclingOptions *cyclingOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEOComposedWaypoint *endWaypoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(nonatomic, getter=navigationWasInterrupted) _Bool navigationInterrupted;
-@property(readonly, nonatomic) _Bool navigationWasInterrupted;
-@property(readonly, nonatomic) GEOURLRouteHandle *routeHandle;
 @property(copy, nonatomic) id <MSPRouteInformationSource> routeInformationSource; // @synthesize routeInformationSource=_routeInformationSource;
-@property(readonly, nonatomic) GEOComposedWaypoint *startWaypoint;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool tracksRAPReportingOnly;
-@property(readonly, nonatomic) GEOTransitOptions *transitOptions;
-@property(readonly, nonatomic) long long transportType;
-@property(readonly, copy, nonatomic) NSDate *usageDate;
-@property(readonly, nonatomic) GEOWalkingOptions *walkingOptions;
-@property(readonly, nonatomic) NSArray *waypoints;
 
 @end
 

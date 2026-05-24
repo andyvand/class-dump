@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebBagKey
 {
     NSString *_key;
-    unsigned long long _valueType;
 }
 
 - (void);
-- (id);
+- (id)`;
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void)namicViewController"16;
 
 // Remaining properties
 @property(retain) NSString *key; // @synthesize key=_key;
-@property unsigned long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

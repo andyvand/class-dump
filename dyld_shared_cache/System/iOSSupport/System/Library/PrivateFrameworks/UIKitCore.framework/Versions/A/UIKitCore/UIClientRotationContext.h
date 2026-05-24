@@ -4,62 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISnapshotView, UIView, UIWindow;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIClientRotationContext
 {
     UIView *_headerView;
-    UIView *_footerView;
-    UIView *_contentView;
-    UIView *_snapshotTargetView;
-    UIView *_rotatingSnapshotView;
-    UIView *_footerStartSnapshotView;
-    UIView *_footerEndSnapshotView;
-    _Bool _headerWasHidden;
-    _Bool _footerWasHidden;
-    _Bool _contentWasHidden;
-    _Bool _snapshotTargetWasHidden;
-    _Bool _orderKeyboardInAfterRotating;
-    long long _fromOrientation;
-    long long _toOrientation;
-    double _duration;
-    UISnapshotView *_headerSnapshotViewStart;
-    UISnapshotView *_footerSnapshotViewStart;
-    UISnapshotView *_contentSnapshotViewStart;
-    id _rotatingClient;
-    CDStruct_8bdd0ba6 _rotationSettings;
-    double contentBottomInset;
-    UIWindow *_window;
-    _Bool _skipClientRotationCallbacks;
 }
 
+- (long long)sync device conditions ignoring feature enabled:always TRUE /* Error: Ran out of types for this method. */;
+- (void)g %@ over %@;
+- (_Bool)@ local size %@;
+- (void)etSyncStateForRecord transfer %@ toNewState:(_Bool)arg1 %ld;
+- (id)to always auto send logs;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (long long);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (double);
+- (void)];
+- (double)orQueryCriteria:ordered:cancelBlock:usingBlock:] /* Error: Ran out of types for this method. */;
 - (id)\pÎ4)o;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) long long fromOrientation; // @synthesize fromOrientation=_fromOrientation;
 @property(readonly, nonatomic) id rotatingClient; // @synthesize rotatingClient=_rotatingClient;
-@property(nonatomic) _Bool skipClientRotationCallbacks; // @synthesize skipClientRotationCallbacks=_skipClientRotationCallbacks;
-@property(readonly, nonatomic) long long toOrientation; // @synthesize toOrientation=_toOrientation;
 
 @end
 

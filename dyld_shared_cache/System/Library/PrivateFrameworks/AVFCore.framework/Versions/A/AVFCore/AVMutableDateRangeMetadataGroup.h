@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVDateRangeMetadataGroup.h>
 
-@class AVDateRangeMetadataGroupInternal, NSArray, NSDate;
+@class AVDateRangeMetadataGroupInternal, NSDate;
 
 @interface AVMutableDateRangeMetadataGroup : AVDateRangeMetadataGroup
 {
@@ -16,16 +16,14 @@
 - (id);
 - (id);
 - (id);
+- (id)developerMode;
 - (id);
+- (void)setDetached:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)setActivationHandler:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) NSArray *items;
 @property(copy, nonatomic) NSDate *startDate;
 
 @end

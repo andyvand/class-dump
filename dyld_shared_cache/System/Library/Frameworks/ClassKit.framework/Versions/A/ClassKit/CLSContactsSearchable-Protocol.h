@@ -8,19 +8,10 @@
 
 @protocol CLSContactsSearchable
 
+@optional
+- (NSPersonNameComponents *);
+
 // Remaining properties
 @property(readonly) NSString *displayName;
-@property(readonly) NSString *emailAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *groupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSPersonNameComponents *nameComponents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSPersonNameComponents",?,R
-
 @end
 

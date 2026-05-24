@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSPersonalizedItemInfo : SISchemaInstrumentationMessage
 {
     _Bool _isPersonalized;
-    float _score;
-    float _personalizationRankingScore;
-    unsigned int _positionWithoutPersonalization;
-    float _personalizationCosineSimilarity;
-    float _personalizationArtistAffinity;
-    float _personalizationPafFrequency;
-    struct {
-        unsigned int isPersonalized:1;
-        unsigned int score:1;
-        unsigned int personalizationRankingScore:1;
-        unsigned int positionWithoutPersonalization:1;
-        unsigned int personalizationCosineSimilarity:1;
-        unsigned int personalizationArtistAffinity:1;
-        unsigned int personalizationPafFrequency:1;
-    } _has;
 }
 
 - (void);
@@ -34,10 +17,10 @@
 - (void);
 - (void);
 - (void);
+- (void)�v�	;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@m;
 - (unsigned int);
 - (float);
 - (float);
@@ -59,37 +42,23 @@
 - (float);
 - (void);
 - (_Bool);
-- (void);
+- (void)W;
 - (id);
-- (_Bool);
+- (_Bool)MNNavigationServiceCallbackParameters;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)for edited message, message may have been retracted. Retracting outstanding notifications for messageGUID:(id)arg1 %@;
 - (id);
 - (id)0@ù
 × ;
 - (float)NFERENCESpeechAlternativeRanks";
-- (id)asCheckCorrectionResponse;
+- (id)_hasCheckCorrectionResponse;
 - (id),V_qssSessionId;
 - (void)+°+d,;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPersonalized;
-@property(nonatomic) _Bool hasPersonalizationArtistAffinity;
-@property(nonatomic) _Bool hasPersonalizationCosineSimilarity;
-@property(nonatomic) _Bool hasPersonalizationPafFrequency;
-@property(nonatomic) _Bool hasPersonalizationRankingScore;
-@property(nonatomic) _Bool hasPositionWithoutPersonalization;
-@property(nonatomic) _Bool hasScore;
 @property(nonatomic) _Bool isPersonalized; // @synthesize isPersonalized=_isPersonalized;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float personalizationArtistAffinity; // @synthesize personalizationArtistAffinity=_personalizationArtistAffinity;
-@property(nonatomic) float personalizationCosineSimilarity; // @synthesize personalizationCosineSimilarity=_personalizationCosineSimilarity;
-@property(nonatomic) float personalizationPafFrequency; // @synthesize personalizationPafFrequency=_personalizationPafFrequency;
-@property(nonatomic) float personalizationRankingScore; // @synthesize personalizationRankingScore=_personalizationRankingScore;
-@property(nonatomic) unsigned int positionWithoutPersonalization; // @synthesize positionWithoutPersonalization=_positionWithoutPersonalization;
-@property(nonatomic) float score; // @synthesize score=_score;
 
 @end
 

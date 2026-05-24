@@ -11,7 +11,6 @@
 @interface PKAccountWebServiceCertificatesRequest : PKAccountWebServiceRequest
 {
     NSURL *_baseURL;
-    unsigned long long _destination;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) unsigned long long destination; // @synthesize destination=_destination;
 
 @end
 

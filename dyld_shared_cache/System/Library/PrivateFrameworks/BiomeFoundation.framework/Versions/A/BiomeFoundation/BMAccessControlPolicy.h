@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMProcess, NSDictionary, NSString;
-
 @interface BMAccessControlPolicy
 {
     BMAccessControlPolicy *_onBehalfOf;
-    unsigned long long _connectionFlags;
-    struct os_unfair_lock_s _lock;
-    NSDictionary *_authorizedResources;
-    BMProcess *_process;
-    NSString *_useCase;
 }
 
 + (id);
 + (void);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)!;
++ (_Bool);
 + (_Bool);
 + (void);
 + (void);
@@ -51,7 +44,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Da	h;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -61,23 +54,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)_proximityPairingCompletedCallback;
+- (_Bool);
+- (_Bool)M:(id)arg1 output stream:using old protocol /* Error: Ran out of types for this method. */;
+- (void)D;
 
 // Remaining properties
-@property(readonly) _Bool allowsAccessToContextSync;
-@property(readonly) _Bool allowsAccessToProxyBiomeAgentEndpoint;
-@property(readonly) _Bool allowsAccessToSync;
-@property(readonly) _Bool allowsConnectionToComputePublisherService;
 @property(readonly) _Bool allowsConnectionToSetStoreUpdateService;
-@property(readonly) _Bool allowsConnectionToWriteService;
-@property(readonly) _Bool allowsProxyingBiomeEndpoint;
-@property(readonly, nonatomic) NSString *descriptionOfProcessAndUseCase;
-@property(readonly, nonatomic) BMAccessControlPolicy *onBehalfOfPolicy;
-@property(readonly, nonatomic) BMProcess *process; // @synthesize process=_process;
-@property(readonly, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
 
 @end
 

@@ -7,10 +7,18 @@
 @class NSString;
 
 @protocol ABNameViewDataSource
-- (NSString *)uardianRestrictions: /* Error: Ran out of types for this method. */;
-- (NSString *)s;
-- (NSString *)ccessibilityAttributedStringForRange: /* Error: Ran out of types for this method. */;
-- (NSString *)Transformer;
+- (NSString *);
+- (void)˿;
+- (void)H;
+- (NSString *)KD;
+- (void);
+- (NSString *)isNavigatingOrPredictingDestination;
+- (void)ing",R,N,V_formattedTitle;
+- (void);
+- (NSString *)initWithContact:containerIdentifier:contactStore:ignoresGuardianRestrictions: /* Error: Ran out of types for this method. */;
+- (NSString *)highlightStrings;
+- (NSString *)accessibilityAttributedStringForRange: /* Error: Ran out of types for this method. */;
+- (NSString *)CNUIContactRelationsValueTransformer;
 - (NSString *)32@?0@"<ABUndoableCommand>"8Q16^B24;
 - (NSString *);
 @end

@@ -7,21 +7,9 @@
 @interface _MRTranscriptAlignmentProtobuf
 {
     double _playerEndTime;
-    double _playerStartTime;
-    double _referenceEndTime;
-    double _referenceStartTime;
-    _Bool _matchedBeginning;
-    _Bool _matchedEnd;
-    struct {
-        unsigned int playerEndTime:1;
-        unsigned int playerStartTime:1;
-        unsigned int referenceEndTime:1;
-        unsigned int referenceStartTime:1;
-        unsigned int matchedBeginning:1;
-        unsigned int matchedEnd:1;
-    } _has;
 }
 
+- (void)';
 - (void);
 - (void);
 - (void);
@@ -32,18 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (_Bool);
 - (_Bool);
+- (_Bool)q`!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@a ` L`l(a!@e;
 - (_Bool);
 - (double);
 - (id);
@@ -53,22 +40,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)L	;
+- (id)g.begin;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMatchedBeginning;
-@property(nonatomic) _Bool hasMatchedEnd;
-@property(nonatomic) _Bool hasPlayerEndTime;
 @property(nonatomic) _Bool hasPlayerStartTime;
-@property(nonatomic) _Bool hasReferenceEndTime;
-@property(nonatomic) _Bool hasReferenceStartTime;
-@property(nonatomic) _Bool matchedBeginning; // @synthesize matchedBeginning=_matchedBeginning;
-@property(nonatomic) _Bool matchedEnd; // @synthesize matchedEnd=_matchedEnd;
-@property(nonatomic) double playerEndTime; // @synthesize playerEndTime=_playerEndTime;
-@property(nonatomic) double playerStartTime; // @synthesize playerStartTime=_playerStartTime;
-@property(nonatomic) double referenceEndTime; // @synthesize referenceEndTime=_referenceEndTime;
-@property(nonatomic) double referenceStartTime; // @synthesize referenceStartTime=_referenceStartTime;
 
 @end
 

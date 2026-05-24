@@ -4,40 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSShadow, NSString, PXGExposureBlurEffect, PXGHostingControllerProposedSize, PXGItemPlacement, PXGLayout, PXStoryFadeOverlayLayout, PXStoryFullsizeLayout, PXStoryModel, PXStoryScrollLayout, PXStoryStyleSwitchingFullsizeLayout, PXStoryThumbnailChromeLayout;
+@class PXStoryStyleSwitchingFullsizeLayout;
 
 @interface PXStoryLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    _Bool _isPerformingUpdate;
-    struct CGRect _presentedContentFrame;
-    struct CGRect _presentedContentFrameVelocity;
-    unsigned int _shadowSpriteIndex;
-    unsigned int _contentCaptureSpriteIndex;
-    PXStoryModel *_model;
-    PXStoryStyleSwitchingFullsizeLayout *_styleSwitchingFullsizeLayout;
-    PXStoryFullsizeLayout *_thumbnailFullsizeLayout;
-    PXGLayout *_fullsizeLayout;
-    PXStoryFadeOverlayLayout *_fadeOverlayLayout;
-    PXStoryScrollLayout *_scrollLayout;
-    PXStoryThumbnailChromeLayout *_thumbnailChromeLayout;
-    long long _fullsizeLayoutIndex;
-    long long _scrollLayoutIndex;
-    long long _thumbnailChromeLayoutIndex;
-    long long _fadeOverlayLayoutIndex;
-    long long _diagnosticOverlayLayoutIndex;
-    NSShadow *_shadow;
-    PXGExposureBlurEffect *_overlayBlurEffect;
-    PXGHostingControllerProposedSize *_pendingSizeChange;
-    PXGItemPlacement *_fullsizeContentPlacementOverride;
-    PXGLayout *_accessoryItemPlacementLayout;
-    double _relativeZPositionAboveLegibilityGradients;
-    PXGLayout *_diagnosticOverlayLayout;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)$;
 - (long long);
 - (id);
 - (id);
@@ -65,7 +41,7 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -83,7 +59,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -100,43 +76,13 @@
 - (id);
 - (id);
 - (void);
-- (id)micHeaderDisabled;
+- (id)px_wantsDynamicHeaderDisabled;
 - (id)es;
-- (void)AST_TITLE;
+- (void)MERGE_DUPLICATES_ACTION_SUCCESS_TOAST_TITLE;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak PXGLayout *accessoryItemPlacementLayout; // @synthesize accessoryItemPlacementLayout=_accessoryItemPlacementLayout;
-@property(readonly, nonatomic) unsigned int contentCaptureSpriteIndex; // @synthesize contentCaptureSpriteIndex=_contentCaptureSpriteIndex;
-@property(readonly, nonatomic) PXStoryFullsizeLayout *currentFullsizePlayerLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PXGLayout *diagnosticOverlayLayout; // @synthesize diagnosticOverlayLayout=_diagnosticOverlayLayout;
-@property(readonly, nonatomic) long long diagnosticOverlayLayoutIndex; // @synthesize diagnosticOverlayLayoutIndex=_diagnosticOverlayLayoutIndex;
-@property(readonly, nonatomic) PXStoryFadeOverlayLayout *fadeOverlayLayout; // @synthesize fadeOverlayLayout=_fadeOverlayLayout;
-@property(readonly, nonatomic) long long fadeOverlayLayoutIndex; // @synthesize fadeOverlayLayoutIndex=_fadeOverlayLayoutIndex;
-@property(retain, nonatomic) PXGItemPlacement *fullsizeContentPlacementOverride; // @synthesize fullsizeContentPlacementOverride=_fullsizeContentPlacementOverride;
-@property(readonly, nonatomic) PXGLayout *fullsizeLayout; // @synthesize fullsizeLayout=_fullsizeLayout;
-@property(readonly, nonatomic) long long fullsizeLayoutIndex; // @synthesize fullsizeLayoutIndex=_fullsizeLayoutIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id itemReference;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) PXGExposureBlurEffect *overlayBlurEffect; // @synthesize overlayBlurEffect=_overlayBlurEffect;
-@property(retain, nonatomic) PXGHostingControllerProposedSize *pendingSizeChange; // @synthesize pendingSizeChange=_pendingSizeChange;
-@property(nonatomic) double relativeZPositionAboveLegibilityGradients; // @synthesize relativeZPositionAboveLegibilityGradients=_relativeZPositionAboveLegibilityGradients;
-@property(readonly, nonatomic) unsigned int representingSpriteIndex;
-@property(readonly, nonatomic) PXStoryScrollLayout *scrollLayout; // @synthesize scrollLayout=_scrollLayout;
-@property(readonly, nonatomic) long long scrollLayoutIndex; // @synthesize scrollLayoutIndex=_scrollLayoutIndex;
-@property(retain, nonatomic) NSShadow *shadow; // @synthesize shadow=_shadow;
-@property(readonly, nonatomic) unsigned int shadowSpriteIndex; // @synthesize shadowSpriteIndex=_shadowSpriteIndex;
 @property(readonly, nonatomic) PXStoryStyleSwitchingFullsizeLayout *styleSwitchingFullsizeLayout; // @synthesize styleSwitchingFullsizeLayout=_styleSwitchingFullsizeLayout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXStoryThumbnailChromeLayout *thumbnailChromeLayout; // @synthesize thumbnailChromeLayout=_thumbnailChromeLayout;
-@property(readonly, nonatomic) long long thumbnailChromeLayoutIndex; // @synthesize thumbnailChromeLayoutIndex=_thumbnailChromeLayoutIndex;
-@property(readonly, nonatomic) PXStoryFullsizeLayout *thumbnailFullsizeLayout; // @synthesize thumbnailFullsizeLayout=_thumbnailFullsizeLayout;
 
 @end
 

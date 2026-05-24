@@ -7,8 +7,6 @@
 @interface UIKit._UIIntelligenceCommandManager.IntelligenceCommandCache__priv_027C523F92F121A6DBA25987CE370D9F
 {
     id _options;
-    id _lastFetchedCommands;
-    id _commandIdentifierToMenuLeafMap;
 }
 
 @end

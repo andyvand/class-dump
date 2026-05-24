@@ -6,28 +6,24 @@
 
 #import <CoreData/NSPersistentStoreMap.h>
 
-@class NSDictionary, NSMutableDictionary, NSXMLDocument, NSXMLElement;
+@class NSDictionary, NSXMLDocument;
 
 __attribute__((visibility("hidden")))
 @interface NSXMLDocumentMap : NSPersistentStoreMap
 {
     NSXMLDocument *_document;
-    NSXMLElement *_oidnode;
-    NSMutableDictionary *_theMap;
-    NSMutableDictionary *_byEntityName;
-    NSDictionary *_mappingsForValidation;
 }
 
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)b;
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id)ª
 P°µ¶;

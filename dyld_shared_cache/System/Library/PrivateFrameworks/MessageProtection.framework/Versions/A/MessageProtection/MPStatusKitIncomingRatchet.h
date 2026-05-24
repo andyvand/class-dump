@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)F@9;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 

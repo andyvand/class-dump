@@ -6,7 +6,6 @@
 
 #import <Sharing/SFXPCClient.h>
 
-@class NSString;
 @protocol SFAirDropClassroomTransferDelegate;
 
 @interface SFAirDropClassroomTransferManager : SFXPCClient
@@ -19,24 +18,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)!o;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_operationQueue;
 - (void)TÿÿÿR;
 - (id)$VöÿmW$VöÿmWPeÛÿmW<Vöÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SFAirDropClassroomTransferDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

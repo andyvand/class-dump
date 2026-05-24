@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFUserActivityData
 {
     NSString *_activityType;
-    NSArray *_userInfo;
 }
 
-+ (_Bool);
++ (_Bool)#;
 - (id);
-- (id);
+- (id)24q32@40@?48;
 - (unsigned long long);
-- (void);
+- (void)passcodeProviderService;
 - (_Bool);
-- (void);
-- (void);
+- (void)setTargetAttenuatedCutoffFrequency:(id)arg1;
+- (void)̨;
+- (id);
+- (id)urce, but video is not locally available:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)PHResourceLocalAvailabilityRequestAdjustmentBaseFullSizePhotoURLKey;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)tal_alignment;
+- (void)horizontal_alignment;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -4,54 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPStateController, NSData, NSObject, NSString, SFDevice, SFDeviceDiscovery, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceSetupSessioniOS
 {
     _Bool _activateCalled;
-    unsigned int _appNextID;
-    _Bool _buddyComplete;
-    _Bool _configRequestSent;
-    _Bool _configResponseReceived;
-    _Bool _invalidateCalled;
-    _Bool _pairSetupDone;
-    _Bool _pairSetupReset;
-    _Bool _pairSetupRunning;
-    int _preAuthPairSetupState;
-    _Bool _preAuthRequestSent;
-    _Bool _preAuthResponseReceived;
-    NSData *_resumeAuthTag;
-    SFDeviceDiscovery *_resumeDiscovery;
-    NSString *_resumePassword;
-    int _resumeState;
-    SFSession *_sfSession;
-    _Bool _sfSessionActivated;
-    int _cdpState;
-    CDPContext *_cdpContext;
-    CDPStateController *_cdpController;
-    int _dependentSetupState;
-    _Bool _supportsDependentSetup;
-    unsigned int _pairFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    SFDevice *_peerDevice;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _promptForPINHandler;
-    CDUnknownBlockType _receivedObjectHandler;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (int);
@@ -75,7 +45,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)ڍ;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -88,14 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) unsigned int pairFlags; // @synthesize pairFlags=_pairFlags;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType receivedObjectHandler; // @synthesize receivedObjectHandler=_receivedObjectHandler;
-@property(nonatomic) _Bool supportsDependentSetup; // @synthesize supportsDependentSetup=_supportsDependentSetup;
 
 @end
 

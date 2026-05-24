@@ -12,10 +12,10 @@
 + (id);
 + (Class);
 + (_Bool)X"°!;
-- (id);
+- (id)@;
 - (id);
 - (long long);
-- (void);
+- (void)si;
 - (id);
 
 // Remaining properties

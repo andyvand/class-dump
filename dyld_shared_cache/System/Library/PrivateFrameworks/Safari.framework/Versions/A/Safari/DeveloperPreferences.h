@@ -6,21 +6,12 @@
 
 #import <Safari/SecurePreferencesModule.h>
 
-@class NSButton, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface DeveloperPreferences : SecurePreferencesModule
 {
     NSView *_mainContentView;
-    NSButton *_allowRemoteAutomationCheckbox;
-    NSButton *_allowJavaScriptFromSmartSearchFieldCheckbox;
-    NSButton *_allowJavaScriptFromAppleEventsCheckbox;
-    NSButton *_disableSiteSpecificHacksCheckbox;
-    NSButton *_disableLocalFileRestrictionsCheckbox;
-    NSButton *_disableCrossOriginRestrictionsCheckbox;
-    NSButton *_enableIntelligentTrackingPreventionDebugModeCheckbox;
-    NSButton *_enablePrivateClickMeasurementDebugModeCheckbox;
-    NSButton *_allowUnsignedExtensionsCheckbox;
 }
 
 - (void);
@@ -38,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,15 +68,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *allowJavaScriptFromAppleEventsCheckbox; // @synthesize allowJavaScriptFromAppleEventsCheckbox=_allowJavaScriptFromAppleEventsCheckbox;
-@property(nonatomic) __weak NSButton *allowJavaScriptFromSmartSearchFieldCheckbox; // @synthesize allowJavaScriptFromSmartSearchFieldCheckbox=_allowJavaScriptFromSmartSearchFieldCheckbox;
-@property(nonatomic) __weak NSButton *allowRemoteAutomationCheckbox; // @synthesize allowRemoteAutomationCheckbox=_allowRemoteAutomationCheckbox;
-@property(nonatomic) __weak NSButton *allowUnsignedExtensionsCheckbox; // @synthesize allowUnsignedExtensionsCheckbox=_allowUnsignedExtensionsCheckbox;
-@property(nonatomic) __weak NSButton *disableCrossOriginRestrictionsCheckbox; // @synthesize disableCrossOriginRestrictionsCheckbox=_disableCrossOriginRestrictionsCheckbox;
-@property(nonatomic) __weak NSButton *disableLocalFileRestrictionsCheckbox; // @synthesize disableLocalFileRestrictionsCheckbox=_disableLocalFileRestrictionsCheckbox;
-@property(nonatomic) __weak NSButton *disableSiteSpecificHacksCheckbox; // @synthesize disableSiteSpecificHacksCheckbox=_disableSiteSpecificHacksCheckbox;
-@property(nonatomic) __weak NSButton *enableIntelligentTrackingPreventionDebugModeCheckbox; // @synthesize enableIntelligentTrackingPreventionDebugModeCheckbox=_enableIntelligentTrackingPreventionDebugModeCheckbox;
-@property(nonatomic) __weak NSButton *enablePrivateClickMeasurementDebugModeCheckbox; // @synthesize enablePrivateClickMeasurementDebugModeCheckbox=_enablePrivateClickMeasurementDebugModeCheckbox;
 @property(nonatomic) __weak NSView *mainContentView; // @synthesize mainContentView=_mainContentView;
 
 @end

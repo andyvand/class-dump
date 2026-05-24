@@ -9,7 +9,6 @@
 @interface AppStoreKit.GuidedSearchResult : AppStoreKit.SearchResult
 {
     id title;
-    id tokens;
 }
 
 @end

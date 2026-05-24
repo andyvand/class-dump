@@ -7,13 +7,11 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFReferenceFootnoteCardSection
+- (_SFPBRFTextProperty *)nary=}56;
+- (id)A;
+- (NSData *)labilityReason;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
 @end
 

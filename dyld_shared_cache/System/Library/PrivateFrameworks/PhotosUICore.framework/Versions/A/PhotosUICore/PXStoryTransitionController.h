@@ -6,28 +6,19 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSArray, NSError, NSMutableArray, NSString, PXGEntityManager, PXStoryModel, PXStoryTransitionModel, PXStoryTransitionProducer;
+@class NSMutableArray;
 @protocol PXStoryTransitionSource;
 
 @interface PXStoryTransitionController : PXStoryController
 {
     NSMutableArray *_activeClipTransitions;
-    PXStoryTransitionProducer *_transitionProducer;
-    PXGEntityManager *_entityManager;
-    PXStoryModel *_model;
-    id <PXStoryTransitionSource> _transitionSource;
-    long long _currentSegmentIdentifier;
-    PXStoryTransitionModel *_pendingTransitionModel;
-    NSError *_currentError;
-    NSArray *_interruptedTransitionErrorDescriptions;
-    CDStruct_b1a1f14e _activeTransition;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,27 +42,13 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_b1a1f14e);
+- (CDStruct_912cb5d2);
 - (void);
 - (id)setAspectFitAnimationStyle: /* Error: Ran out of types for this method. */;
 - (void):(id)arg1 %0.1f);
 - (void)List;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_b1a1f14e activeTransition; // @synthesize activeTransition=_activeTransition;
-@property(retain, nonatomic) NSError *currentError; // @synthesize currentError=_currentError;
-@property(nonatomic) long long currentSegmentIdentifier; // @synthesize currentSegmentIdentifier=_currentSegmentIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak PXGEntityManager *entityManager; // @synthesize entityManager=_entityManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *interruptedTransitionErrorDescriptions; // @synthesize interruptedTransitionErrorDescriptions=_interruptedTransitionErrorDescriptions;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) PXStoryTransitionModel *pendingTransitionModel; // @synthesize pendingTransitionModel=_pendingTransitionModel;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak id <PXStoryTransitionSource> transitionSource; // @synthesize transitionSource=_transitionSource;
 
 @end

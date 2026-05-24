@@ -6,15 +6,14 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRProtocolMessageOptions, NSArray, NSMutableArray;
+@class NSArray, NSMutableArray;
 
 @interface MRCompositeMessage : MRProtocolMessage
 {
     NSMutableArray *_messages;
-    MRProtocolMessageOptions *_transportOptions;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

@@ -6,18 +6,11 @@
 
 #import <AuthKit/AKDictionaryBackedModel.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface AKSimpleProfileModel : AKDictionaryBackedModel
 {
     NSNumber *_DSID;
-    NSString *_altDSID;
-    NSString *_profileName;
-    NSString *_sponsorAltDSID;
-    long long _ageCategory;
-    NSString *_imageURL;
-    NSString *_imageID;
-    NSNumber *_imageId;
 }
 
 - (id);
@@ -45,13 +38,6 @@ Këyn+è"ZàÄ¦ºt<lÚï¡x!Æ^¿M(Û².;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(nonatomic) long long ageCategory; // @synthesize ageCategory=_ageCategory;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *imageID; // @synthesize imageID=_imageID;
-@property(copy, nonatomic) NSNumber *imageId; // @synthesize imageId=_imageId;
-@property(copy, nonatomic) NSString *imageURL; // @synthesize imageURL=_imageURL;
-@property(copy, nonatomic) NSString *profileName; // @synthesize profileName=_profileName;
-@property(copy, nonatomic) NSString *sponsorAltDSID; // @synthesize sponsorAltDSID=_sponsorAltDSID;
 
 @end
 

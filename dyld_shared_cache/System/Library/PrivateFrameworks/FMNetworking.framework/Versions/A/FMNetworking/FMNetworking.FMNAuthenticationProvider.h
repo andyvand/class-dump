@@ -7,10 +7,6 @@
 @interface FMNetworking.FMNAuthenticationProvider
 {
     id autoRenewalLimit;
-    id serialQueue;
-    id bundleId;
-    id $__lazy_storage_$_accountStore;
-    id credential;
 }
 
 @end

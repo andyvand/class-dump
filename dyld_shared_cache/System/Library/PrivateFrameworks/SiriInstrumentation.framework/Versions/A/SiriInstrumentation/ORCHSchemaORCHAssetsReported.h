@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ORCHSchemaORCHAssetsReported : SISchemaInstrumentationMessage
 {
@@ -16,9 +16,10 @@
 - (void);
 - (id);
 - (id);
+- (void)iverReceiverAPAT_signalRTPDataAvailable
+;
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -28,15 +29,14 @@
 × ;
 - (id)
 × ;
-- (id)dTruthGenerated;
-- (id)nMs;
+- (id)_contactGroundTruthGenerated;
+- (id)_answerSynthesisTotalHydrationTimeInMs;
 - (id),V_subText;
 - (void)GraphTier1.linkedUsoGraphNodeDatas.linkedUsoNodeData.stringPayload;
 - (unsigned long long)¿;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSString;
+@class NSString;
 
 @protocol FCRecipeMetadataType
 - (NSString *);
 - (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail;
-@property(readonly, nonatomic) NSString *shortExcerpt;
 @property(readonly, nonatomic) NSString *title;
 @end
 

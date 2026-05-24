@@ -4,41 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWConcrete_nw_endpoint_handler;
-@protocol OS_nw_interface;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_endpoint_fallback
 {
     unsigned long long fallback_usage_cap;
-    unsigned long long fallback_cap_interval;
-    unsigned long long fallback_timeout_nanos;
-    NWConcrete_nw_endpoint_handler *primary_child;
-    NWConcrete_nw_endpoint_handler *fallback_child;
-    int result;
-    NSObject<OS_nw_interface> *primary_interface;
-    NSObject<OS_nw_interface> *fallback_interface;
-    void *fallback_timer;
-    void *post_transport_timer;
-    void *usage_cap_timer;
-    unsigned long long fallback_timer_start;
-    unsigned int fallback_disposition;
-    unsigned int received_primary_cancelled_error:1;
-    unsigned int weak_fallback:1;
-    unsigned int no_fallback_timer:1;
-    unsigned int fallback_is_forced:1;
-    unsigned int fallback_is_preferred:1;
-    unsigned int fallback_based_on_interface_type:1;
-    unsigned int started_fallback:1;
-    unsigned int primary_child_in_progress:1;
-    unsigned int fallback_child_in_progress:1;
-    unsigned int primary_child_indefinite_failed:1;
-    unsigned int fallback_child_indefinite_failed:1;
-    unsigned int fallback_is_cellular:1;
 }
 
 - (_Bool);
-- (void);
+- (void)nderPage Background-Opaque;
 - (void);
 - (id);
 - (void);
@@ -46,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

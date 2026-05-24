@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSInvocation *_invocation;
 }
 
-- (id);
+- (id)d;
 - (void);
 - (id);
 - (void);

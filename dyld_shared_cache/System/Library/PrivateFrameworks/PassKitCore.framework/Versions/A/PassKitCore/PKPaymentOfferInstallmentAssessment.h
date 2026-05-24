@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaymentOfferAction, PKPaymentOfferDynamicContent;
+@class NSString;
 
 @interface PKPaymentOfferInstallmentAssessment
 {
     NSString *_sessionIdentifier;
-    NSString *_identifier;
-    unsigned long long _offerEligibility;
-    NSArray *_offers;
-    PKPaymentOfferAction *_action;
-    NSString *_selectedOfferIdentifier;
-    PKPaymentOfferDynamicContent *_dynamicContent;
 }
 
 + (_Bool);
@@ -26,36 +20,30 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)ackoffStuck"b1"ccCaptureDriverLogs"b1"channel"b1"channelBandwidth"b1"channelsVisited0"b1"channelsVisited1"b1"commanderHalted"b1"controllerResets"b1"iorSuccess"b1"iorWA"b1};
+- (_Bool)setLowAvailWLANDurTrue:(id)arg1;
+- (void)AWDCoreRoutinePersistenceMirroringDelegate;
+- (void)V;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)tPartnerAccountIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ptorAndCredentialUsingFPAN:completion: /* Error: Ran out of types for this method. */;
-- (id)rorOverrideForUnderlyingError: /* Error: Ran out of types for this method. */;
+- (_Bool)setPartnerAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (id)fpanDescriptorAndCredentialUsingFPAN:completion: /* Error: Ran out of types for this method. */;
+- (id)_displayableErrorOverrideForUnderlyingError: /* Error: Ran out of types for this method. */;
 - (void),N,V_allocation;
 - (void)val-gate;
-- (id);
+- (id)ProvisioningOperationResult;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferAction *action; // @synthesize action=_action;
-@property(retain, nonatomic) PKPaymentOfferDynamicContent *dynamicContent; // @synthesize dynamicContent=_dynamicContent;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long offerEligibility; // @synthesize offerEligibility=_offerEligibility;
-@property(retain, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *selectedOfferIdentifier; // @synthesize selectedOfferIdentifier=_selectedOfferIdentifier;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

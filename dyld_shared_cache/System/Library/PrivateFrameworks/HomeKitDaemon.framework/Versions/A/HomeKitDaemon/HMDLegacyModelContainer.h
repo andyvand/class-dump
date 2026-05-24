@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     HMFPairingIdentity *_pairingIdentity;
 }
 
+- (id)enumerateTimeOfDayClues:(id)arg1;
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (Class);
-- (id)pdatePredicate:(id)arg1 currentCharacteristicInPredicate:(id)arg2 conditionModified:(id)arg3 removedCharacteristic:(unsigned long long)arg4 underService:(id *)arg5 underAccessory: /* Error: Ran out of types for this method. */;
-- (id)ServiceUUID:(struct _NSZone *)arg1 targetGroupUUID:targetGroupType:predictionType:predictionScore: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)INT;
+- (id)updatePredicate:(id)arg1 currentCharacteristicInPredicate:(id)arg2 conditionModified:(id)arg3 removedCharacteristic:(unsigned long long)arg4 underService:(id *)arg5 underAccessory: /* Error: Ran out of types for this method. */;
+- (id)initWithPredictionTargetUUID:(struct _NSZone *)arg1 targetServiceUUID:targetGroupUUID:targetGroupType:predictionType:predictionScore: /* Error: Ran out of types for this method. */;
+- (id)_shouldFallbackLocallyForRemoteMatterRequest: /* Error: Ran out of types for this method. */;
+- (void)didCreateEventModel_INT;
 
 // Remaining properties
 @property(readonly, nonatomic) HMFPairingIdentity *pairingIdentity; // @synthesize pairingIdentity=_pairingIdentity;

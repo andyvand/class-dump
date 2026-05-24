@@ -11,7 +11,7 @@
 @optional
 - (UIPointerRegion *)s;
 - (UIPointerStyle *)Çe]SgGG²6;
-- (void)TextStyle:(UIPointerInteraction *)arg1;
+- (void)keyCommandApplyTextStyle:(UIPointerInteraction *)arg1;
 - (void);
 @end
 

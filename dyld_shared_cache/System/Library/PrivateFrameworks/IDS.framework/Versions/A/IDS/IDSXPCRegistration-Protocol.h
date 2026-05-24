@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol IDSXPCRegistration
+- (void)C;
+- (void);
+- (void)prependQualityBytesToPacketIfNeeded:(NSArray *)arg1 packetHeadroomStart:(void (^)(NSArray *, NSError *))arg2 deduplicationID: /* Error: Ran out of types for this method. */;
 @end
 

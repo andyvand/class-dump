@@ -5,5 +5,6 @@
 //
 
 @protocol ILMessageFilterHostProtocol
+- (oneway void);
 @end
 

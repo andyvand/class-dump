@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString, PHPhotoLibrary;
+@class NSString;
 
 @interface PHObject
 {
     NSString *_uuid;
-    struct os_unfair_lock_s _propertyHintLock;
-    unsigned long long _propertyHintLock_propertyHint;
-    _Bool _deleted;
-    NSManagedObjectID *_objectID;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 @end

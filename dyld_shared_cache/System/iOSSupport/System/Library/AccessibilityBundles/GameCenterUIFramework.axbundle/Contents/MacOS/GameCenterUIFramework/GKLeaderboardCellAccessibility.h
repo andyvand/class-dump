@@ -15,7 +15,7 @@
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)owNumberOfReviews:ratingStyle:theme: /* Error: Ran out of types for this method. */;
 
 @end
 

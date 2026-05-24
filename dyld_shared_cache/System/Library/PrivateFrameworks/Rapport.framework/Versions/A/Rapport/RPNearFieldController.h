@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, RPNearFieldContext;
-@protocol OS_dispatch_queue, RPNearFieldControllerDelegate, RPNearFieldTransaction;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPNearFieldController
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    _Bool _didStart;
-    id <RPNearFieldControllerDelegate> _delegate;
-    long long _currentPreferredPollingType;
-    RPNearFieldContext *_currentContext;
-    id <RPNearFieldTransaction> _currentTransaction;
-    NSXPCConnection *_xpcConnection;
 }
 
 - (void);
@@ -34,12 +26,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)INBookRestaurantReservationIntent;
+- (void)es or lexicon with empty words.;
+- (void)EEEEbE3$_2FdRKS7_EEE;
+- (id)r_traitsIcEENS4_9allocatorIcEEEENS2_22basic_oaltstringstreamIcS6_S8_E5No_OpEEE;
 - (id);
 - (void);
 - (id);
@@ -47,18 +37,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id)#;
+- (id);
+- (void)`Z;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currentApplicationLabel;
-@property(retain, nonatomic) RPNearFieldContext *currentContext; // @synthesize currentContext=_currentContext;
 @property(nonatomic) long long currentPreferredPollingType; // @synthesize currentPreferredPollingType=_currentPreferredPollingType;
-@property(retain, nonatomic) id <RPNearFieldTransaction> currentTransaction; // @synthesize currentTransaction=_currentTransaction;
-@property(readonly, nonatomic) __weak id <RPNearFieldControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

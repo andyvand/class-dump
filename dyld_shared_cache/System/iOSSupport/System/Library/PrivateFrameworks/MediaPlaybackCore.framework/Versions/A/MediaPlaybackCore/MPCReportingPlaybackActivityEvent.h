@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICPlayActivityEvent, NSString;
+@class ICPlayActivityEvent;
 
 __attribute__((visibility("hidden")))
 @interface MPCReportingPlaybackActivityEvent
 {
     _Bool _shouldReportToStore;
-    ICPlayActivityEvent *_playActivityEvent;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (_Bool)removeLastObject;
+- (void)DL;
+- (void)dataclass with error:(id)arg1 %@;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void)ages | skipped [unmatched prefix] url=%{private}@ prefix=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) ICPlayActivityEvent *playActivityEvent; // @synthesize playActivityEvent=_playActivityEvent;
-@property(nonatomic) _Bool shouldReportToStore; // @synthesize shouldReportToStore=_shouldReportToStore;
-@property(readonly) Class superclass;
 
 @end
 

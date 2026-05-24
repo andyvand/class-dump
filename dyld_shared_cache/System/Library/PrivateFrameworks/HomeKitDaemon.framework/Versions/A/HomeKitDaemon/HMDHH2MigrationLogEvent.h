@@ -4,69 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHH2MigrationLogEvent
 {
     _Bool _autoMigration;
-    _Bool _dryRun;
-    _Bool _migrationSuccessful;
-    double _totalTimeTakenForMigration;
-    long long _migrationAttempt;
-    NSString *_failureReason;
-    NSString *_coreDataValidationEntityClassName;
-    NSString *_coreDataValidationAttributeName;
-    NSString *_localizedErrorDescription;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id)c;
 - (_Bool);
 - (double);
 - (id);
 - (long long);
 - (_Bool)MDHomeNaturalLightingCurveWriter";
-- (id)aveAccepted;
-- (void)StatusUpdateReasonKey;
+- (id)percentageOfParticipantsHaveAccepted;
+- (void)kUserPresenceStatusUpdateReasonKey;
 - (_Bool)A;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic, getter=isAutoMigration) _Bool autoMigration; // @synthesize autoMigration=_autoMigration;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) NSString *coreDataValidationAttributeName; // @synthesize coreDataValidationAttributeName=_coreDataValidationAttributeName;
-@property(readonly, nonatomic) NSString *coreDataValidationEntityClassName; // @synthesize coreDataValidationEntityClassName=_coreDataValidationEntityClassName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDryRun) _Bool dryRun; // @synthesize dryRun=_dryRun;
-@property(readonly, nonatomic) NSString *failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSString *localizedErrorDescription; // @synthesize localizedErrorDescription=_localizedErrorDescription;
-@property(readonly, nonatomic) long long migrationAttempt; // @synthesize migrationAttempt=_migrationAttempt;
-@property(readonly, nonatomic, getter=isMigrationSuccessful) _Bool migrationSuccessful; // @synthesize migrationSuccessful=_migrationSuccessful;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double totalTimeTakenForMigration; // @synthesize totalTimeTakenForMigration=_totalTimeTakenForMigration;
 
 @end
 

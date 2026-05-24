@@ -6,15 +6,11 @@
 
 #import <CloudDocs/BROperation.h>
 
-@class BRGlobalProgressProxy, BRUploadAllFilesForLogOutOperation, NSMutableArray, NSOperationQueue, NSString;
+@class BRGlobalProgressProxy;
 
 @interface BRDownloadAndUploadAllFilesForLogOutOperation : BROperation
 {
     BRGlobalProgressProxy *_progress;
-    NSMutableArray *_fileCoordinators;
-    CDUnknownBlockType _downloadAllFilesCompletionBlock;
-    NSOperationQueue *_internalQueue;
-    BRUploadAllFilesForLogOutOperation *_uploadOp;
 }
 
 - (void);
@@ -28,15 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType downloadAllFilesCompletionBlock; // @synthesize downloadAllFilesCompletionBlock=_downloadAllFilesCompletionBlock;
-@property(readonly) unsigned long long hash;
 @property(retain) BRGlobalProgressProxy *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

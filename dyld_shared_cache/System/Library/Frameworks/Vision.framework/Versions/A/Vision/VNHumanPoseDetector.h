@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
++ (id)hysicalizedPose",R,C,N,V_pose;
 + (id);
-+ (id);
-- (id);
+- (id)R;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)human_attribute_facial_hair;
 
 @end
 

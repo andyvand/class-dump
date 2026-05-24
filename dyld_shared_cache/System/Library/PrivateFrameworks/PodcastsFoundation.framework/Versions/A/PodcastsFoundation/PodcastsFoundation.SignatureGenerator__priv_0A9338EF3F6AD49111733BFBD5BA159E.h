@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.SignatureGenerator__priv_0A9338EF3F6AD49111733BFBD5BA159E
 {
     id signatureGenerator;
-    id timeRange;
 }
 
 @end

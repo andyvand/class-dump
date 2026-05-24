@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXSharedAlbumsActivityEntryItem;
+@class PXSharedAlbumsActivityEntryItem;
 
 @interface PXSharedAlbumsActivityEntryLayout
 {
     PXSharedAlbumsActivityEntryItem *_item;
-    unsigned int _assetSpriteIndex;
-    unsigned int _backgroundSpriteIndex;
-    unsigned int _countsBackgroundSpriteIndex;
-    unsigned int _countsSpriteIndex;
-    unsigned int _contributorSpriteIndex;
-    unsigned int _messageSpriteIndex;
 }
 
 - (long long);
 - (long long);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,13 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

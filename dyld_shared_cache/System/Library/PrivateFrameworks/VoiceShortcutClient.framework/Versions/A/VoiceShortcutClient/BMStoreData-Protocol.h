@@ -5,6 +5,10 @@
 //
 
 @protocol BMStoreData
+- (unsigned int);
+
+@optional
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int dataVersion;

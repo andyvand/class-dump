@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedSponsorshipAdReferenceService
 {
     id feedSponsorshipAdService;
-    id tagService;
 }
 
 @end

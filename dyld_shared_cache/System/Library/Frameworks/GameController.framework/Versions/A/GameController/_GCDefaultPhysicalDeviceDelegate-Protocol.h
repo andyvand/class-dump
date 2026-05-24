@@ -5,5 +5,9 @@
 //
 
 @protocol _GCDefaultPhysicalDeviceDelegate
+
+@optional
+- (_Bool);
+- (void)";
 @end
 

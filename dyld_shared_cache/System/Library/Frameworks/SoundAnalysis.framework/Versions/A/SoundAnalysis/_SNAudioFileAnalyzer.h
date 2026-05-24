@@ -9,9 +9,6 @@
 @interface _SNAudioFileAnalyzer
 {
     id audioFile;
-    id streamAnalyzer;
-    id queue;
-    id wasCancelled;
 }
 
 - (void);

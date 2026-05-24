@@ -6,15 +6,11 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSMutableArray, NSObject, NSString, RTTimer, RTTimerManager;
-@protocol OS_os_transaction;
+@class NSMutableArray, RTTimerManager;
 
 @interface SMSafetyCacheStore : RTStore
 {
     RTTimerManager *_timerManager;
-    NSObject<OS_os_transaction> *_flushTransaction;
-    NSMutableArray *_locations;
-    RTTimer *_flushTimer;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)successDependencies;
 - (void);
 - (void);
 - (void);
@@ -32,7 +28,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -51,15 +47,7 @@
 - (id)%lu, inferredMapItem %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) RTTimer *flushTimer; // @synthesize flushTimer=_flushTimer;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface _DKDataProtectionMonitor
 {
     NSMutableDictionary *_handlers;
-    _Bool _deviceFormatedForContentProtection;
-    NSMutableDictionary *_availableState;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    int _notifyToken;
-    _Bool _notifyEnabled;
 }
 
 - (void);
-- (id);
+- (id)CARenderOGLSetTuningParameters;
 - (void)á¶/Ð!Fùñ©3Ð1Â0@ù
 × ;
 

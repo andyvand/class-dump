@@ -7,6 +7,7 @@
 @protocol UICollectionViewDragDelegate
 
 @optional
-- (_Bool)iantListControllerDelegate;
+- (_Bool)GSg_SiSpySvSgGSgAAtXCSg;
+- (_Bool)CNPhotoPickerVariantListControllerDelegate;
 @end
 

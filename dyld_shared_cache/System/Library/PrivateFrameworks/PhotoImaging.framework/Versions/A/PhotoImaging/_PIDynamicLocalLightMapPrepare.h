@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSData, NSNumber;
+@class NSData;
 
 @interface _PIDynamicLocalLightMapPrepare
 {
     NSData *inputLightMap;
-    NSNumber *inputLightMapWidth;
-    NSNumber *inputLightMapHeight;
-    CIImage *inputGuideImage;
-    NSNumber *inputGuidedFilterEpsilon;
 }
 
 + (id);

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIActiveEnvVarNamespacesProviding, TRINamespaceFactorLevelsRetrieving;
+@protocol TRIActiveEnvVarNamespacesProviding;
 
 @interface TRIActiveLaunchdDeliveredExperimentsReader
 {
     id <TRIActiveEnvVarNamespacesProviding> _namespacesProvider;
-    id <TRINamespaceFactorLevelsRetrieving> _factorLevelsRetriever;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)imageByApplyingTransform:(id)arg1;
+- (id)dateWithTimeIntervalSinceReferenceDate: /* Error: Ran out of types for this method. */;
+- (id)ed:(id)arg1;
 - (void)@"NSString"24^{__SecKey=}32^@40;
 
 @end

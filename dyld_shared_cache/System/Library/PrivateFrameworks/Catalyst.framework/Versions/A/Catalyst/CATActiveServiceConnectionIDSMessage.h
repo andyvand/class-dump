@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSUUID;
-@protocol CATActiveIDSServiceConnectionMessageContent;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CATActiveServiceConnectionIDSMessage
 {
     NSUUID *_connectionIdentifier;
-    NSNumber *_receivedSequenceNumber;
-    id <CATActiveIDSServiceConnectionMessageContent> _content;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)embeddedMessageCount;
 - (long long);
 - (id);
-- (void);
-- (id)Object: /* Error: Ran out of types for this method. */;
+- (void)S;
+- (id)containsObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(readonly, nonatomic) id <CATActiveIDSServiceConnectionMessageContent> content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) long long messageType;
-@property(readonly, nonatomic) NSNumber *receivedSequenceNumber; // @synthesize receivedSequenceNumber=_receivedSequenceNumber;
 
 @end
 

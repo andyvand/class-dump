@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWPBSendData
 {
     NSString *_clientUUID;
-    NSData *_messageData;
-    unsigned int _receiveWindow;
-    struct {
-        unsigned int receiveWindow:1;
-    } _has;
 }
 
-- (id);
+- (id)(ŉڊ;
 - (void);
 - (unsigned long long);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (id)tlySetAllowsUCA;
+- (id)_explicitlySetAllowsUCA;
 - (id);
 - (void)@;
 

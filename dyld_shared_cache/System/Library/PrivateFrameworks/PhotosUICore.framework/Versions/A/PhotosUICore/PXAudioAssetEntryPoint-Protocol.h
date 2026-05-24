@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PXAudioAssetEntryPoint
 - (double)ration;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fadeInKeyGainValues;
-@property(readonly, copy, nonatomic) NSArray *fadeInKeyTimeOffsets;
 @property(readonly, nonatomic) double time;
 @end
 

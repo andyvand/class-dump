@@ -6,23 +6,17 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class NSEnumerator;
 @protocol BPSSubscriber;
 
 @interface _BPSSequenceInner : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    _Bool _recursion;
-    id <BPSSubscriber> _downstream;
-    long long _pendingDemand;
-    id _next;
-    NSEnumerator *_enumerator;
 }
 
-- (id);
+- (id)(;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,16 +25,12 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(retain, nonatomic) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(retain, nonatomic) id next; // @synthesize next=_next;
-@property(nonatomic) long long pendingDemand; // @synthesize pendingDemand=_pendingDemand;
-@property(nonatomic) _Bool recursion; // @synthesize recursion=_recursion;
 
 @end
 

@@ -9,31 +9,27 @@
 @interface CKSyncEngineSendChangesScope
 {
     NSSet *_zoneIDs;
-    NSSet *_excludedZoneIDs;
-    NSSet *_recordIDs;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (void)ssOperationCallbacks;
+- (id);
+- (void)CKModifyRecordAccessOperationCallbacks;
 - (id)g asset %@;
 
 // Remaining properties
-@property(readonly, copy) NSSet *excludedZoneIDs; // @synthesize excludedZoneIDs=_excludedZoneIDs;
-@property(readonly, copy) NSSet *recordIDs; // @synthesize recordIDs=_recordIDs;
 @property(readonly, copy) NSSet *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end

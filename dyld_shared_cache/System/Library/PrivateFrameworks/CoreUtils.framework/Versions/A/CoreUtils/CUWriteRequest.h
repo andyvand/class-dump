@@ -4,52 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSError;
 
 @interface CUWriteRequest
 {
     NSError *_error;
-    struct iovec _iov[16];
-    struct iovec *_iop;
-    int _ion;
-    unsigned long long _offset;
-    unsigned char _messageUUID[16];
-    _Bool _endOfData;
-    _Bool _hasMessageUUID;
-    struct iovec *_bytesIOArray;
-    unsigned long long _bytesIOCount;
-    unsigned long long _bytesIOMaxCount;
-    CDUnknownBlockType _completion;
-    NSArray *_dataArray;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (struct iovec *);
+- (struct iovec *)__AUTH_CONST;
 - (unsigned long long);
-- (id);
+- (id)/;
 - (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (char *);
+- (char *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct iovec *bytesIOArray; // @synthesize bytesIOArray=_bytesIOArray;
-@property(nonatomic) unsigned long long bytesIOCount; // @synthesize bytesIOCount=_bytesIOCount;
-@property(readonly, nonatomic) unsigned long long bytesIOMaxCount; // @synthesize bytesIOMaxCount=_bytesIOMaxCount;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSArray *dataArray; // @synthesize dataArray=_dataArray;
-@property(nonatomic) _Bool endOfData; // @synthesize endOfData=_endOfData;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasMessageUUID; // @synthesize hasMessageUUID=_hasMessageUUID;
-@property(readonly, nonatomic) char *messageUUID;
 
 @end
 

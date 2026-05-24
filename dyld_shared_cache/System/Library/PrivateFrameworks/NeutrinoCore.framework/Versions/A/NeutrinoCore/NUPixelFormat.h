@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUPixelFormat
 {
     _Bool _supportsExtendedRange;
-    _Bool _isYCC;
-    int _CIFormat;
-    unsigned int _CVPixelFormat;
-    long long _numberOfComponents;
-    long long _bytesPerPixel;
-    long long _bitsPerComponent;
-    unsigned long long _metalFormat;
-    NSString *_name;
-    long long _bytesPerLuma;
-    long long _bytesPerChroma;
-    CDStruct_d58201db _chromaSubsampling;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)(;
 + (id);
 + (id);
 + (id);
@@ -47,7 +34,7 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (CDStruct_912cb5d2);
 - (long long);
@@ -57,26 +44,15 @@
 - (int);
 - (long long);
 - (long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);;
+- (id)c;
+- (unsigned long long)A;
 - (_Bool);
 - (long long);
 - (void)StyleEngine";
 
 // Remaining properties
-@property(readonly, nonatomic) int CIFormat; // @synthesize CIFormat=_CIFormat;
-@property(readonly, nonatomic) unsigned int CVPixelFormat; // @synthesize CVPixelFormat=_CVPixelFormat;
-@property(readonly, nonatomic) long long bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
-@property(readonly, nonatomic) long long bytesPerChroma; // @synthesize bytesPerChroma=_bytesPerChroma;
-@property(readonly, nonatomic) long long bytesPerLuma; // @synthesize bytesPerLuma=_bytesPerLuma;
-@property(readonly, nonatomic) long long bytesPerPixel; // @synthesize bytesPerPixel=_bytesPerPixel;
-@property(readonly, nonatomic) CDStruct_912cb5d2 chromaSubsampling; // @synthesize chromaSubsampling=_chromaSubsampling;
 @property(readonly, nonatomic) _Bool isYCC; // @synthesize isYCC=_isYCC;
-@property(readonly, nonatomic) unsigned long long metalFormat; // @synthesize metalFormat=_metalFormat;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long numberOfComponents; // @synthesize numberOfComponents=_numberOfComponents;
-@property(readonly, nonatomic) _Bool supportsExtendedRange; // @synthesize supportsExtendedRange=_supportsExtendedRange;
 
 @end
 

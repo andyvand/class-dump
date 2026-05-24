@@ -5,15 +5,10 @@
 //
 
 @class NSUUID;
-@protocol HMIPersonManagerDataSource;
 
 @interface HMIPersonManager
 {
     _Bool _supportsFaceClassification;
-    _Bool _personDataAvailableViaHomeKit;
-    NSUUID *_UUID;
-    NSUUID *_homeUUID;
-    id <HMIPersonManagerDataSource> _dataSource;
 }
 
 - (void);
@@ -21,13 +16,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)y	?%@qA;
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -37,10 +32,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic) __weak id <HMIPersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(getter=isPersonDataAvailableViaHomeKit) _Bool personDataAvailableViaHomeKit; // @synthesize personDataAvailableViaHomeKit=_personDataAvailableViaHomeKit;
-@property _Bool supportsFaceClassification; // @synthesize supportsFaceClassification=_supportsFaceClassification;
 
 @end
 

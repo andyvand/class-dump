@@ -6,31 +6,18 @@
 
 #import <Slideshows/MRTransition.h>
 
-@class MRImage, NSMutableArray;
-
 @interface MRTransitionRevolutionsFlip : MRTransition
 {
     unsigned int _numberOfTilesX;
-    unsigned int _numberOfTilesY;
-    NSMutableArray *_cubes;
-    NSMutableArray *_cubeColumns;
-    NSMutableArray *_cubeRows;
-    int _flipDirection;
-    long long _horizontalCubeCount;
-    long long _verticalCubeCount;
-    MRImage *_sourceImage;
-    MRImage *_destinationImage;
-    double _viewBaseWidth;
-    double _viewBaseHeight;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)fc_arraysByPartitioningWithBudget:(id)arg1 indicesOfOverBudgetObjects:appraiser:accumulator:comparator: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void)d;
+- (void)FramedTextSelected;
 
 @end
 

@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
     MLModel *_model;
 }
 
++ (void)o;
++ (id)z;
 + (void);
-+ (id);
-+ (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)ҍ2{;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

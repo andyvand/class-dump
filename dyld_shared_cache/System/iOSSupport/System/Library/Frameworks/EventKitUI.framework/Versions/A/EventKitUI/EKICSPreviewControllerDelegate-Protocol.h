@@ -5,5 +5,8 @@
 //
 
 @protocol EKICSPreviewControllerDelegate
+
+@optional
+- (void);
 @end
 

@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)=;
++ (id)i;
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void):(id)arg1 consentRequiredFeatures:(id)arg2 consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)NoteAttachmentPresentation;
+- (_Bool)ICTagDetailItemIdentifier;
+- (_Bool)ICTodoButtonNonVibrantImageView;
 - (unsigned long long);
 
 @end

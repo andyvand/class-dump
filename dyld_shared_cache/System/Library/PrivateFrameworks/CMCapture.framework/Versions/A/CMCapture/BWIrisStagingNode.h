@@ -6,94 +6,18 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWInferenceScheduler, BWIntermediateJPEGCompressor, BWIrisSequenceAdjuster, BWLimitedGMErrorLogger, BWMotionDataPreserver, BWMotionDataTimeMachine, BWStats, FigIrisAutoTrimmer, NSDictionary, NSMutableArray, NSObject, NSString, NSURL;
-@protocol BWIrisStagingNodeIrisRequestDelegate, OS_dispatch_group;
+@class NSURL;
 
 @interface BWIrisStagingNode : BWNode
 {
     CDStruct_1b6d18a9 _bufferingTime;
-    CDStruct_1b6d18a9 _targetFrameDuration;
-    CDStruct_1b6d18a9 _beginIrisMovieCaptureTime;
-    CDStruct_1b6d18a9 _endIrisMovieCaptureTime;
-    _Bool _stagingSuspended;
-    _Bool _flushAndSuspendPending;
-    CDStruct_1b6d18a9 _stagingResumedTime;
-    _Bool _compressSynchronizedSlaveAttachedMedia;
-    CDStruct_1b6d18a9 _frameGovernorNextFrameThreshold;
-    CDStruct_1b6d18a9 _frameGovernorReferenceTime;
-    CDStruct_1b6d18a9 _readyToEmitPTS;
-    CDStruct_1b6d18a9 _lastProcessedVideoPTS;
-    CDStruct_1b6d18a9 _masterMovieStartPTS;
-    NSURL *_temporaryMovieDirectoryURL;
-    NSURL *_masterMovieURL;
-    NSURL *_spatialOverCaptureMasterMovieURL;
-    NSMutableArray *_stagingQueues;
-    NSMutableArray *_lastEmittedBuffers;
-    NSMutableArray *_droppedFramePTSs;
-    _Bool _valveOpen;
-    _Bool _finishingAllEnqueuedRequests;
-    _Bool _valveDraining;
-    _Bool _emittedFirstAudio;
-    _Bool _valveOpenForMomentCaptureMovieRecording;
-    CDStruct_1b6d18a9 _valveDiscontinuitySearchLimit;
-    long long _valveOpenerSettingsID;
-    NSMutableArray *_irisRequestsInFlight;
-    NSMutableArray *_irisRequestsSoonToBeEmitted;
-    int _emittedIrisRequestCount;
-    struct OpaqueFigSimpleMutex *_stateMutex;
-    CDStruct_1b6d18a9 *_firstEmittedPTSArray;
-    struct OpaqueCMClock *_masterClock;
-    int _trimMethod;
-    _Bool _vitalityScoringEnabled;
-    CDStruct_08002bce _vitalityScoringSmartCameraPipelineVersion;
-    FigIrisAutoTrimmer *_trimmer;
-    CDStruct_1b6d18a9 _firstTrimStartPTS;
-    _Bool _trimLivePhotoMovieAtWideAndSuperWideAutoSwitching;
-    unsigned long long _inferencesInputIndex;
-    BWInferenceScheduler *_inferenceScheduler;
-    BWMotionDataPreserver *_motionDataPreserver;
-    BWIrisSequenceAdjuster *_sequenceAdjusterBackingStore;
-    BWIrisSequenceAdjuster *_sequenceAdjuster;
-    BWMotionDataTimeMachine *_motionDataTimeMachine;
-    int _visMotionMetadataPreloadingMode;
-    id <BWIrisStagingNodeIrisRequestDelegate> _delegate;
-    unsigned long long _compressedBufferPoolAllocationTimeoutMS;
-    float _intermediateJPEGCompressionQuality;
-    float _intermediateJPEGCompressionRate;
-    int _intermediateJPEGDownstreamRetainedBufferCount;
-    int _intermediateJPEGSurfaceLocalRetainedBufferCount;
-    int _additionalCompressedBufferCount;
-    BWIntermediateJPEGCompressor *_intermediateJPEGCompressor;
-    BWIntermediateJPEGCompressor *_synchronizedSlaveJPEGCompressor;
-    _Bool _doingJPEGCompression;
-    NSDictionary *_cameraInfoByPortType;
-    unsigned long long *_emissionMap;
-    _Bool _haveSeenFirstAudioSampleBuffer;
-    _Bool _haveSeenFirstVideoSampleBuffer;
-    _Bool _readyToReceiveRequests;
-    NSObject<OS_dispatch_group> *_readyToReceiveRequestsGroup;
-    unsigned long long _minimumPrerollFrames;
-    float _videoStabilizationOverscanOverride;
-    _Bool _captureDeviceHasOverCaptureEnabled;
-    float _spatialOverCapturePercentageToApply;
-    NSString *_recommendedMasterPortType;
-    int _lastRecommendedMasterSelectionReason;
-    CDStruct_1b6d18a9 _lastReceivedVideoTime;
-    BWStats *_overallVideoFrameReceptionStats;
-    BWStats *_valveActiveVideoFrameReceptionStats;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    _Bool _applyPreviewShift;
-    _Bool _reachedEndOfData;
-    _Bool _smartStyleRenderingEnabled;
-    _Bool _smartStyleReversibilityEnabled;
-    _Bool _smartFramingEnabled;
 }
 
 + (void)nerator;
 - (_Bool);
-- (void);
-- (void);
-- (CDStruct_08002bce);
+- (void);
+- (void)X-;
+- (CDStruct_b99bf284).;
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (void);
@@ -105,14 +29,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_1b6d18a9)B;
+- (void)@;
 - (int);
 - (int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)@ù
@@ -134,9 +58,6 @@
 - (void)etadataOutputCapabilities[semanticMaskType];
 
 // Remaining properties
-@property CDStruct_1b6d18a9 beginIrisMovieCaptureTime;
-@property CDStruct_1b6d18a9 endIrisMovieCaptureTime;
-@property(readonly) BWMotionDataTimeMachine *motionDataTimeMachine;
 @property(readonly) NSURL *temporaryMovieDirectoryURL;
 
 @end

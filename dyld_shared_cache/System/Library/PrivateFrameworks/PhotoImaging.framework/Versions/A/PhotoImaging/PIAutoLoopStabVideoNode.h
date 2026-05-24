@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ltersForAdjustedThumbnailRenderWithSource: /* Error: Ran out of types for this method. */;
+- (void)pipelineFiltersForAdjustedThumbnailRenderWithSource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *bakedRecipe; // @synthesize bakedRecipe=_bakedRecipe;

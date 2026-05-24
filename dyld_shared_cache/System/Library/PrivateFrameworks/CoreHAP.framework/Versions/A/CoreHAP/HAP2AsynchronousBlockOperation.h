@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_systemImageNamed:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)sAdditionalAuthentication:authenticationData:error: /* Error: Ran out of types for this method. */;
+- (void)serializeCharacteristicWriteValue:characteristicFormat:supportsAdditionalAuthentication:authenticationData:error: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioIntentHandler
 {
     id headlineService;
-    id audioDataManager;
-    id commandCenter;
-    id bundleSubscriptionManager;
 }
 
 @end

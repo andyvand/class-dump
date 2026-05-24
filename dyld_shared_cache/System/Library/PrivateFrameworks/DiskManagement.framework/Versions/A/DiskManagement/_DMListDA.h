@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMTool, NSPointerArray;
-
 __attribute__((visibility("hidden")))
 @interface _DMListDA
 {
     double _givenTimeout;
-    struct __DASession *_givenDASession;
-    _Bool _currentDAIdle;
-    NSPointerArray *_currentList;
-    _Bool _once;
-    DMTool *_dmToolOrNil;
-    _Bool _stopOnDAIdle;
-    _Bool _stopOn1ItemFound;
 }
 
 + (_Bool);
 + (int);
 + (struct __DADisk *);
 - (_Bool);
-- (_Bool);
+- (_Bool)8Ժw);
 - (void);
-- (void);
+- (void)Ԇ;
 - (id);
 - (void);
-- (void);
+- (void)];
 - (struct __DADisk *);
 - (_Bool);
-- (void);
+- (void)_securePINVerificationSupported;
 
 // Remaining properties
-@property _Bool stopOn1ItemFound; // @synthesize stopOn1ItemFound=_stopOn1ItemFound;
 @property _Bool stopOnDAIdle; // @synthesize stopOnDAIdle=_stopOnDAIdle;
 
 @end

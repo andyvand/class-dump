@@ -11,21 +11,19 @@
 @interface PGGraphSocialGroupsInsertion : PGGraphChange
 {
     NSSet *_socialGroupUUIDs;
-    NSSet *_socialGroups;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ersions/A/ApplicationServices;
+- (id),&,N,V__delegateQueue;
+- (id)trmManagerForReason:(id)arg1 hostWindow: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void)workspaces/photoanalysis/PhotosGraph/Framework/Metrics/MetricEvents/PGGuessWhoRelationshipMetricEvent.m;
-- (unsigned long long)ngeCG;
+- (unsigned long long)SaySo8PHChangeCG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *socialGroupUUIDs; // @synthesize socialGroupUUIDs=_socialGroupUUIDs;
-@property(readonly, nonatomic) NSSet *socialGroups; // @synthesize socialGroups=_socialGroups;
 
 @end
 

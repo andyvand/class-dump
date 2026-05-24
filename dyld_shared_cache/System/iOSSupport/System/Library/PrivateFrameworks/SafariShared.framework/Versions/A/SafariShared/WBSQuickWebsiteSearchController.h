@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSURL, WBSCoalescedAsynchronousWriter;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSQuickWebsiteSearchController
 {
     NSURL *_searchDescriptionsURL;
-    _Bool _hasBegunLoadingFromDisk;
-    NSObject<OS_dispatch_queue> *_quickWebsiteSearchProvidersBySourcePageURLStringAccessQueue;
-    NSMutableDictionary *_quickWebsiteSearchProvidersByHost;
-    NSMutableDictionary *_openSearchDescriptionsByDescriptionDocumentURLString;
-    NSMutableDictionary *_hostSetsByOpenSearchDescriptionDocumentURLString;
-    WBSCoalescedAsynchronousWriter *_writer;
-    _Bool _quickWebsiteSearchProvidersLoadedFromDisk;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,15 +48,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *quickWebsiteSearchHosts;
 @property _Bool quickWebsiteSearchProvidersLoadedFromDisk; // @synthesize quickWebsiteSearchProvidersLoadedFromDisk=_quickWebsiteSearchProvidersLoadedFromDisk;
-@property(readonly) Class superclass;
 
 @end
 

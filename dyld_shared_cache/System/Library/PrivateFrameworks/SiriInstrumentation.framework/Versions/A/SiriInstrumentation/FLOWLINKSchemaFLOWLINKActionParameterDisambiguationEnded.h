@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKActionParameterDisambiguationEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)nternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_eay.c;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)&;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)pContext";
-- (id)OSchemaUSOEdgeLabel;
+- (id)USOSchemaUSOEdgeLabel;
 - (id)H;
 - (_Bool)qJ#;
 - (_Bool)»;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

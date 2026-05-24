@@ -24,30 +24,29 @@ __attribute__((visibility("hidden")))
         unsigned int _explicitHiddenState:1;
         unsigned int _reservedEditorBinder:20;
     } _editorBinderFlags;
-    id _editableBinder;
 }
 
-+ (id);
++ (id):yF /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)4A;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)~;
+- (void)kCFHTTPServerRequireClientCertificate;
+- (void)en=%@;
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)@;
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (void);
-- (id);
-- (void);
+- (id)TLS_RSA_WITH_AES_256_GCM_SHA384;
+- (void)ic}@%{public}@ on %{public}@;
 - (void);
 
 @end

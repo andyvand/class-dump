@@ -4,72 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, NSArray;
-@protocol GEOServerFormattedString;
+@class NSArray;
 
 @interface MNTransitInstruction
 {
     _Bool _hideTimeInstructionsWhenCollapsed;
-    int _departureBarFormatStyle;
-    long long _context;
-    NSArray *_majorInstructionStrings;
-    NSArray *_minorInstructionStrings;
-    NSArray *_tertiaryInstructionStrings;
-    long long _departureBarStyle;
-    GEOComposedString *_departureBarInstructionString;
-    GEOComposedString *_countStopsString;
-    GEOComposedString *_expandableListString;
-    GEOComposedString *_primaryTimeInstructionString;
-    GEOComposedString *_secondaryTimeInstructionString;
-    NSArray *_majorFormattedInstruction;
-    NSArray *_minorFormattedInstruction;
-    NSArray *_tertiaryFormattedInstruction;
-    id <GEOServerFormattedString> _departureBarInstruction;
-    id <GEOServerFormattedString> _countStopsFormattedString;
-    id <GEOServerFormattedString> _expandableListFormattedString;
-    id <GEOServerFormattedString> _primaryTimeInstruction;
-    id <GEOServerFormattedString> _secondaryTimeinstruction;
 }
 
 + (id);
+- (id)NavigationHostingControllerCache_Mac;
+- (id);
+- (void)PresentedSceneValueKey;
+- (void)WindowContentProvider;
+- (void);
+- (void);
+- (void);
+- (void)Æ;
+- (void);
+- (void)8
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@
+;
+- (id)C
+;
+- (id)Z7|C
+;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)CoordinateSpaceNameModifier;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)AnyNavigationLinkPresentedView;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)Generator;
 - (void);
 - (void);
 - (id);
@@ -83,26 +67,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long context; // @synthesize context=_context;
-@property(retain, nonatomic) id <GEOServerFormattedString> countStopsFormattedString; // @synthesize countStopsFormattedString=_countStopsFormattedString;
-@property(retain, nonatomic) GEOComposedString *countStopsString; // @synthesize countStopsString=_countStopsString;
-@property(nonatomic) int departureBarFormatStyle; // @synthesize departureBarFormatStyle=_departureBarFormatStyle;
-@property(retain, nonatomic) id <GEOServerFormattedString> departureBarInstruction; // @synthesize departureBarInstruction=_departureBarInstruction;
-@property(retain, nonatomic) GEOComposedString *departureBarInstructionString; // @synthesize departureBarInstructionString=_departureBarInstructionString;
-@property(nonatomic) long long departureBarStyle; // @synthesize departureBarStyle=_departureBarStyle;
-@property(retain, nonatomic) id <GEOServerFormattedString> expandableListFormattedString; // @synthesize expandableListFormattedString=_expandableListFormattedString;
-@property(retain, nonatomic) GEOComposedString *expandableListString; // @synthesize expandableListString=_expandableListString;
-@property(nonatomic) _Bool hideTimeInstructionsWhenCollapsed; // @synthesize hideTimeInstructionsWhenCollapsed=_hideTimeInstructionsWhenCollapsed;
 @property(copy, nonatomic) NSArray *majorFormattedInstruction; // @synthesize majorFormattedInstruction=_majorFormattedInstruction;
-@property(retain, nonatomic) NSArray *majorInstructionStrings; // @synthesize majorInstructionStrings=_majorInstructionStrings;
-@property(copy, nonatomic) NSArray *minorFormattedInstruction; // @synthesize minorFormattedInstruction=_minorFormattedInstruction;
-@property(retain, nonatomic) NSArray *minorInstructionStrings; // @synthesize minorInstructionStrings=_minorInstructionStrings;
-@property(retain, nonatomic) id <GEOServerFormattedString> primaryTimeInstruction; // @synthesize primaryTimeInstruction=_primaryTimeInstruction;
-@property(retain, nonatomic) GEOComposedString *primaryTimeInstructionString; // @synthesize primaryTimeInstructionString=_primaryTimeInstructionString;
-@property(retain, nonatomic) GEOComposedString *secondaryTimeInstructionString; // @synthesize secondaryTimeInstructionString=_secondaryTimeInstructionString;
-@property(retain, nonatomic) id <GEOServerFormattedString> secondaryTimeinstruction; // @synthesize secondaryTimeinstruction=_secondaryTimeinstruction;
-@property(copy, nonatomic) NSArray *tertiaryFormattedInstruction; // @synthesize tertiaryFormattedInstruction=_tertiaryFormattedInstruction;
-@property(retain, nonatomic) NSArray *tertiaryInstructionStrings; // @synthesize tertiaryInstructionStrings=_tertiaryInstructionStrings;
 
 @end
 

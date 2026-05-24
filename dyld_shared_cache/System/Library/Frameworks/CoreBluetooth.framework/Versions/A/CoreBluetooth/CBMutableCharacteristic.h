@@ -6,37 +6,30 @@
 
 #import <CoreBluetooth/CBCharacteristic.h>
 
-@class NSArray, NSData, NSMutableArray, NSNumber;
+@class NSMutableArray, NSNumber;
 
 @interface CBMutableCharacteristic : CBCharacteristic
 {
     NSMutableArray *_subscribedCentrals;
-    unsigned long long _permissions;
-    NSNumber *_ID;
 }
 
 - (void);
+- (id)r"^{OpaqueFigVideoReceiver}"lastSeenTaggedBufferGroup"^{OpaqueCMTaggedBufferGroup}"activeConfiguration"@"AVPlayerVideoOutputConfiguration"};
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(retain) NSNumber *ID; // @synthesize ID=_ID;
-@property(retain) NSArray *descriptors; // @dynamic descriptors;
-@property(nonatomic) unsigned long long permissions; // @synthesize permissions=_permissions;
-@property(nonatomic) unsigned long long properties; // @dynamic properties;
-@property(readonly, retain) NSArray *subscribedCentrals; // @synthesize subscribedCentrals=_subscribedCentrals;
-@property(retain) NSData *value; // @dynamic value;
 
 @end
 

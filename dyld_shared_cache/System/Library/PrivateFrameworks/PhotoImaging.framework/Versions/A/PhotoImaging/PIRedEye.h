@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSString;
+@class CIImage;
 
 @interface PIRedEye
 {
     CIImage *_inputImage;
-    CIImage *_inputDestinationImage;
-    NSArray *_inputCorrectionInfo;
-    NSString *_inputCameraModel;
 }
 
 - (void);
@@ -23,12 +20,9 @@
 - (id);
 - (void);
 - (id);
-- (void)t:operation: /* Error: Ran out of types for this method. */;
+- (void)sourceExtentForMaskExtent:exclusionMaskExtent:imageExtent:operation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *inputCameraModel; // @synthesize inputCameraModel=_inputCameraModel;
-@property(retain, nonatomic) NSArray *inputCorrectionInfo; // @synthesize inputCorrectionInfo=_inputCorrectionInfo;
-@property(retain, nonatomic) CIImage *inputDestinationImage; // @synthesize inputDestinationImage=_inputDestinationImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end

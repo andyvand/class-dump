@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)5;
 - (id);
 
 // Remaining properties

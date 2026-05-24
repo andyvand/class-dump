@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITouch;
-@protocol PKDrawingGestureRecognizerDelegate, PKDrawingGestureTarget;
+@class UITouch;
 
 @interface PKDrawingGestureRecognizer
 {
     double _thresholdDistance;
-    double _squaredThreshold;
-    struct CGPoint _drawTouchStartPoint;
-    _Bool _drawingTargetIsDrawing;
-    _Bool _gestureDetected;
-    _Bool _ignoreFingerTouchesUntilReset;
-    id <PKDrawingGestureTarget> drawingTarget;
-    unsigned long long _activeInputProperties;
-    double _startTimeInterval;
-    UITouch *_drawingTouch;
-    struct CGRect _currentBoundingBoxInWindow;
 }
 
 + (unsigned long long);
@@ -49,27 +38,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)reInitialDetectionItemsForStatistics:(id)arg1;
-- (void)ing;
+- (void);
+- (void)setIgnoreInitialDetectionItemsForStatistics:(id)arg1;
+- (void)isReplaying;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeInputProperties; // @synthesize activeInputProperties=_activeInputProperties;
-@property(readonly, nonatomic) struct CGRect currentBoundingBoxInWindow; // @synthesize currentBoundingBoxInWindow=_currentBoundingBoxInWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKDrawingGestureRecognizerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PKDrawingGestureTarget> drawingTarget; // @synthesize drawingTarget;
 @property(retain, nonatomic) UITouch *drawingTouch; // @synthesize drawingTouch=_drawingTouch;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isReplaying;
-@property(readonly, nonatomic) double startTimeInterval; // @synthesize startTimeInterval=_startTimeInterval;
-@property(readonly) Class superclass;
-@property(nonatomic) double thresholdDistance; // @synthesize thresholdDistance=_thresholdDistance;
 
 @end
 

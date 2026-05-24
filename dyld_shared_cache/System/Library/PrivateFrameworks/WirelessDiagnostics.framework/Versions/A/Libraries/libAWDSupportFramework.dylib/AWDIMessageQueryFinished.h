@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageQueryFinished
 {
     unsigned long long _timestamp;
-    unsigned int _connectionType;
-    int _genericError;
-    NSString *_guid;
-    unsigned int _isEmail;
-    unsigned int _isPhoneNumber;
-    int _pOSIXError;
-    unsigned int _queryDuration;
-    int _resultCode;
-    unsigned int _success;
-    int _uRLError;
-    unsigned int _wasReversePushAttempted;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int genericError:1;
-        unsigned int isEmail:1;
-        unsigned int isPhoneNumber:1;
-        unsigned int pOSIXError:1;
-        unsigned int queryDuration:1;
-        unsigned int resultCode:1;
-        unsigned int success:1;
-        unsigned int uRLError:1;
-        unsigned int wasReversePushAttempted:1;
-    } _has;
 }
 
 - (void);
@@ -41,10 +15,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)q ;
 - (_Bool);
-- (id);
-- (int);
+- (id)q;
+- (int): /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -67,15 +41,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
-- (id);
-- (id);
+- (void)7;
+- (id)`;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -85,39 +59,16 @@
 - (void);
 - (void);
 - (id)"b1"cellRrcState"b1"cellTotalMimoLayers"b1"cellUlBw"b1"cellularRecommendationConfidence"b1"cellularRecommendationScore"b1"locationDBFR1Count"b1"locationDBFR2Count"b1"radioCoverage"b1"radioFrequency"b1"recommendedlink"b1"totalNrBandwidth"b1"triggerReason"b1"wRMRecommendationReason"b1"wiFiPredictedThroughput"b1"wiFiThroughput"b1"wifPoi"b1"wifiCca"b1"wifiEstThoughtput"b1"wifiQbssLoad"b1"wifiRecommendationConfidence"b1"wifiRecommendationScore"b1"wifiRssi"b1"wifiRxRetry"b1"wifiSnr"b1"wifiStationCount"b1"wifiTxPER"b1"wifiWghtAVGRXPHYRATE"b1"wifiWghtAVGSNR"b1"wifiWghtAVGTXPHYRATE"b1"wifiWgtAVGRSSI"b1"wifiWifiEstThoughtputConfidence"b1"fr2DBRecommendation"b1"highThermalTemperatureNotification"b1};
-- (_Bool)etIsWfiCaptive: /* Error: Ran out of types for this method. */;
-- (void)CFpoll:(_Bool)arg1;
-- (int)lBytesWritten;
-- (unsigned int)mDynSdbEntrySuccess;
+- (_Bool)setIsWfiCaptive: /* Error: Ran out of types for this method. */;
+- (void)setHasQoSnodataCFpoll:(_Bool)arg1;
+- (int)_totalBytesWritten;
+- (unsigned int)_numDynSdbEntrySuccess;
 - (void)ultServerInterruptCount;
 - (int)ø³Ô´;
 - (void)Páÿø;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int genericError; // @synthesize genericError=_genericError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasGenericError;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsEmail;
-@property(nonatomic) _Bool hasIsPhoneNumber;
-@property(nonatomic) _Bool hasPOSIXError;
-@property(nonatomic) _Bool hasQueryDuration;
-@property(nonatomic) _Bool hasResultCode;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasURLError;
-@property(nonatomic) _Bool hasWasReversePushAttempted;
-@property(nonatomic) unsigned int isEmail; // @synthesize isEmail=_isEmail;
-@property(nonatomic) unsigned int isPhoneNumber; // @synthesize isPhoneNumber=_isPhoneNumber;
-@property(nonatomic) int pOSIXError; // @synthesize pOSIXError=_pOSIXError;
-@property(nonatomic) unsigned int queryDuration; // @synthesize queryDuration=_queryDuration;
-@property(nonatomic) int resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uRLError; // @synthesize uRLError=_uRLError;
-@property(nonatomic) unsigned int wasReversePushAttempted; // @synthesize wasReversePushAttempted=_wasReversePushAttempted;
 
 @end
 

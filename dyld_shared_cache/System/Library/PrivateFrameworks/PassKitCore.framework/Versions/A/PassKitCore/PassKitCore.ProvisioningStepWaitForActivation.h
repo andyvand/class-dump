@@ -7,11 +7,6 @@
 @interface PassKitCore.ProvisioningStepWaitForActivation
 {
     id context;
-    id credential;
-    id sharedState;
-    id pass;
-    id completion;
-    id timeout;
 }
 
 - (void);

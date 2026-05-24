@@ -7,8 +7,6 @@
 @interface SwiftUI.DragSourceContext
 {
     id responder;
-    id payload;
-    id dragItemGroupID;
 }
 
 @end

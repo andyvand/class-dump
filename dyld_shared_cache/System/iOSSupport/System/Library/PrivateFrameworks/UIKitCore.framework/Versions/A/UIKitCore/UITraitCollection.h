@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, UIColor;
-
 @interface UITraitCollection
 {
     struct {
@@ -36,16 +34,6 @@
         long long selectionIsKey;
         long long toolbarItemPresentationSize;
     } _builtinTraits;
-    NSDictionary *_clientDefinedTraits;
-    NSObject *_environmentWrapper;
-    UIColor *_tintColor;
-    CDStruct_c35235bd _specifiedTraitTokens;
-    struct {
-        unsigned int specifiedTraitTokensValid:1;
-        unsigned int isMutable:1;
-        unsigned int isFallback:1;
-        unsigned int hasCachedTraitCollectionRelevantForImageConfiguration:1;
-    } _flags;
 }
 
 @end

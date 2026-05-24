@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringDelegate, NSCloudKitMirroringDelegateOptions, NSMutableDictionary, NSPersistentStoreDescription, NSURL, RTPersistenceMigrator;
+@class NSCloudKitMirroringDelegate, NSPersistentStoreDescription;
 
 @interface RTPersistenceStore
 {
     NSPersistentStoreDescription *_storeDescription;
-    _Bool _mirroringDelegateIntialized;
-    RTPersistenceMigrator *_migrator;
-    NSMutableDictionary *_userInfo;
-    NSCloudKitMirroringDelegate *_mirroringDelegate;
-    NSCloudKitMirroringDelegateOptions *_mirroringDelegateOptions;
-    unsigned long long _state;
-    long long _mirroringDelegateState;
 }
 
 + (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -50,24 +43,17 @@
 × ;
 - (id)A(Ð!ØAùC,Ð1Â0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)setLocationOfTrigger: /* Error: Ran out of types for this method. */;
 - (id)Longitude;
 - (id)omeManager",R,N,V_biomeManager;
-- (_Bool)NT;
+- (_Bool)ACCOUNT;
 - (void)%@;
 - (id)aveBlock with error %@;
 - (void)XëÐÿÈ+Í;
 - (_Bool)X;½ÿ¯Þ*ñ;
 
 // Remaining properties
-@property(readonly) NSURL *URL;
-@property(retain, nonatomic) RTPersistenceMigrator *migrator; // @synthesize migrator=_migrator;
 @property(retain, nonatomic) NSCloudKitMirroringDelegate *mirroringDelegate; // @synthesize mirroringDelegate=_mirroringDelegate;
-@property(retain, nonatomic) NSCloudKitMirroringDelegateOptions *mirroringDelegateOptions; // @synthesize mirroringDelegateOptions=_mirroringDelegateOptions;
-@property(nonatomic) long long mirroringDelegateState; // @synthesize mirroringDelegateState=_mirroringDelegateState;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) NSPersistentStoreDescription *storeDescription; // @synthesize storeDescription=_storeDescription;
-@property(readonly) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

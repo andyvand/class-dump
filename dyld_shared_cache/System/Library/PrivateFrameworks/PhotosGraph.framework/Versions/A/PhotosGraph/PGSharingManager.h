@@ -12,15 +12,15 @@
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)ationController;
+- (_Bool)AXKElementTraversalStrategy;
+- (id)OpenContextualMenu;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)%@:Highlight) /* Error: Ran out of types for this method. */;
 

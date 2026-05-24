@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNActionMetadata, LNFullyQualifiedActionIdentifier;
+@class LNFullyQualifiedActionIdentifier;
 
 @interface WFAppIntentArchiver
 {
     LNFullyQualifiedActionIdentifier *_actionIdentifier;
-    LNActionMetadata *_actionMetadata;
 }
 
+- (id);
+- (void);
+- (id);
+- (id)y2|;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)i{;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LNFullyQualifiedActionIdentifier *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(copy, nonatomic) LNActionMetadata *actionMetadata; // @synthesize actionMetadata=_actionMetadata;
 
 @end
 

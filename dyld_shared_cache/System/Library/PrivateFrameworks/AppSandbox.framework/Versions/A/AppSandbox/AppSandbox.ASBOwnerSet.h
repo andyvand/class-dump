@@ -18,14 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ConstantCropRectangle;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long count;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isEmpty;
 
 @end
 

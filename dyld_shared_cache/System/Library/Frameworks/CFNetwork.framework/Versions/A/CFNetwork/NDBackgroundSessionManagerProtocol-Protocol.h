@@ -5,5 +5,7 @@
 //
 
 @protocol NDBackgroundSessionManagerProtocol
+- (void);
+- (void);
 @end
 

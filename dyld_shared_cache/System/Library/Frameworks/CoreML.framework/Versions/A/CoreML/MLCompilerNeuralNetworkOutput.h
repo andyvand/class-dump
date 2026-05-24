@@ -7,21 +7,19 @@
 @interface MLCompilerNeuralNetworkOutput
 {
     shared_ptr_d082c67d _network;
-    shared_ptr_71e6e433 _program;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)$\;
 - (id);
 - (shared_ptr_d082c67d);
-- (shared_ptr_71e6e433);
+- (shared_ptr_a2d22a3e);
 - (void)lity of plan submit.;
 
 // Remaining properties
 @property(readonly, nonatomic) shared_ptr_d082c67d network; // @synthesize network=_network;
-@property(readonly, nonatomic) shared_ptr_71e6e433 program; // @synthesize program=_program;
 
 @end
 

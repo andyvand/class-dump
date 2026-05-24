@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBoostableOperationThrottler, FCFetchedValueDescriptor, FCFetchedValueObservable, NSString;
-@protocol NFCopying;
+@class FCFetchedValueDescriptor;
 
 @interface FCFetchedValueManager
 {
     FCFetchedValueDescriptor *_descriptor;
-    FCBoostableOperationThrottler *_operationThrottler;
-    FCFetchedValueObservable *_observable;
 }
 
 - (void);
@@ -20,31 +17,21 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)he Desert Night;
 - (void);
-- (id)rvice;
-- (void)tmentState;
+- (id)lastFetchQualityOfService;
+- (void)_treatmentState;
 - (void)/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPersonalizationFeature.m;
 - (id)¡/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) FCFetchedValueDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FCFetchedValueObservable *observable; // @synthesize observable=_observable;
-@property(readonly, nonatomic) FCBoostableOperationThrottler *operationThrottler; // @synthesize operationThrottler=_operationThrottler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <NFCopying> value;
 
 @end
 

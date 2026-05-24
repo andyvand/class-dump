@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMeasurement;
-
 @interface GEOComposedRouteEVChargerPlugInfo
 {
     int _type;
-    NSMeasurement *_maximumPower;
-    NSMeasurement *_maximumVoltage;
 }
 
 + (_Bool)read temp resource file at "%@":%@ /* Error: Ran out of types for this method. */;
+- (id)stringWithCapacity: /* Error: Ran out of types for this method. */;
+- (id)stringWithCString:encoding: /* Error: Ran out of types for this method. */;
+- (id)deviceFirstUnlockFuture;
 - (id);
-- (id);
-- (id);
-- (id);
-- (int);
+- (int)_restaurantLink_firstProviderPlaceIdentifier;
 - (void);
 - (void)Û%;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMeasurement *maximumPower; // @synthesize maximumPower=_maximumPower;
-@property(readonly, nonatomic) NSMeasurement *maximumVoltage; // @synthesize maximumVoltage=_maximumVoltage;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end

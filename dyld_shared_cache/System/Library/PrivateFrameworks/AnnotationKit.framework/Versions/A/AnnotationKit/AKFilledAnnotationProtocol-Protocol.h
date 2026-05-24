@@ -7,10 +7,11 @@
 @class NSColor;
 
 @protocol AKFilledAnnotationProtocol
+- (void);
+- (NSColor *);
+- (NSColor *);
 
 // Remaining properties
 @property(copy) NSColor *fillColor;
-@property(retain) NSColor *fillColorHDR;
-@property(retain) NSColor *fillColorSDR;
 @end
 

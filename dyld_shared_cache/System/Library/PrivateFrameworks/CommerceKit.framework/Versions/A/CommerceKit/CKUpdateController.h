@@ -6,16 +6,9 @@
 
 #import <CommerceKit/CKServiceInterface.h>
 
-@class CKUpdateControllerClient, NSMutableDictionary;
-
 @interface CKUpdateController : CKServiceInterface
 {
     _Bool _shouldNotAttemptInstallationAfterFailureDialog;
-    CDUnknownBlockType _dialogHandler;
-    NSMutableDictionary *_availableUpdatesObservers;
-    NSMutableDictionary *_updateScanObservers;
-    NSMutableDictionary *_updateProgressObservers;
-    CKUpdateControllerClient *_sharedObserver;
 }
 
 + (id);
@@ -27,13 +20,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)G;
+- (void)�H;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -47,21 +40,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)3;
 - (id);
-- (void);
+- (void)e for overwrite at path %@ error %@;
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *availableUpdatesObservers; // @synthesize availableUpdatesObservers=_availableUpdatesObservers;
-@property(copy) CDUnknownBlockType dialogHandler; // @synthesize dialogHandler=_dialogHandler;
-@property(retain, nonatomic) CKUpdateControllerClient *sharedObserver; // @synthesize sharedObserver=_sharedObserver;
 @property _Bool shouldNotAttemptInstallationAfterFailureDialog; // @synthesize shouldNotAttemptInstallationAfterFailureDialog=_shouldNotAttemptInstallationAfterFailureDialog;
-@property(retain, nonatomic) NSMutableDictionary *updateProgressObservers; // @synthesize updateProgressObservers=_updateProgressObservers;
-@property(retain, nonatomic) NSMutableDictionary *updateScanObservers; // @synthesize updateScanObservers=_updateScanObservers;
 
 @end
 

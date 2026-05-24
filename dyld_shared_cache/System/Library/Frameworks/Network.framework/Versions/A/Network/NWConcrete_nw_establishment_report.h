@@ -4,40 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_nw_array;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_establishment_report
 {
     unsigned long long attempt_started_after_milliseconds;
-    unsigned long long duration_milliseconds;
-    unsigned long long resolution_started_after_milliseconds;
-    unsigned long long flow_started_after_milliseconds;
-    NSObject<OS_nw_array> *proxy_endpoints;
-    NSObject<OS_nw_array> *proxied_next_hop_endpoints;
-    int privacy_stance;
-    NSObject<OS_nw_array> *protocol_reports;
-    NSObject<OS_nw_array> *resolution_reports;
-    unsigned int previous_attempt_count;
-    unsigned int proxy_configured:1;
-    unsigned int used_proxy:1;
-    unsigned int __pad_bits:7;
 }
 
-- (void);
+- (void)d partDefinition for Name:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

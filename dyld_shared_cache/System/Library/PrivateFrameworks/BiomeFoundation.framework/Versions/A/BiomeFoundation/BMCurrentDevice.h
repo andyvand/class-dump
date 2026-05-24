@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)NumChatsMarkedReadWithV1NoQOI;
 
 @end
 

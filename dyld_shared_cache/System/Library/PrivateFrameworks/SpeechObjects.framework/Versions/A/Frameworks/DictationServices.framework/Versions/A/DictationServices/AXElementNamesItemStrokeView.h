@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSColor;
+@class NSBezierPath;
 
 __attribute__((visibility("hidden")))
 @interface AXElementNamesItemStrokeView
 {
     NSBezierPath *_path;
-    NSColor *_color;
-    double _width;
 }
 
 - (void);
 - (double);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)renderToTexture:(double)arg1 computeCommandHandler:blitCommandHandler:completionHandler:helper: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(retain, nonatomic) NSBezierPath *path; // @synthesize path=_path;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

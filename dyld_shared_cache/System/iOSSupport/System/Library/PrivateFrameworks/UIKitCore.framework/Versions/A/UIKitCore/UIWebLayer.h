@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     _Bool _layoutsSuspended;
 }
 
-- (void);
+- (void)didPerformAdditionalStorageRequiredCheckWithSuccess:(_Bool)arg1 additionalStorageRequired:forAccountId:error: /* Error: Ran out of types for this method. */;
 - (void)¡WÍÁÿc;
 
 @end

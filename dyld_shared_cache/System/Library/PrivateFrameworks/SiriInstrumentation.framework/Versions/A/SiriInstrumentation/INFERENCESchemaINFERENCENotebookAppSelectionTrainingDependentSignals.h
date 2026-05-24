@@ -11,7 +11,6 @@
 @interface INFERENCESchemaINFERENCENotebookAppSelectionTrainingDependentSignals : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCECommonAppDependentSignals *_commonDependent;
-    _Bool _hasCommonDependent;
 }
 
 @end

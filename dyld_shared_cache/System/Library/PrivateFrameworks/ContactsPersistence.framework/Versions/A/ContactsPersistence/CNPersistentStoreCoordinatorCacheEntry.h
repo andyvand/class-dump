@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-@protocol CNAccountCollection, CNCancelable;
+@protocol CNAccountCollection;
 
 @interface CNPersistentStoreCoordinatorCacheEntry
 {
     id <CNAccountCollection> _accountCollection;
-    NSMutableDictionary *_persistentStoreCoordinators;
-    id <CNCancelable> _accountMonitoringCancelable;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)URLForDirectory:inDomain:appropriateForURL:create:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) id <CNAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(retain) id <CNCancelable> accountMonitoringCancelable; // @synthesize accountMonitoringCancelable=_accountMonitoringCancelable;
-@property(retain) NSMutableDictionary *persistentStoreCoordinators; // @synthesize persistentStoreCoordinators=_persistentStoreCoordinators;
 
 @end
 

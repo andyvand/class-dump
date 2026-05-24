@@ -7,10 +7,6 @@
 @interface NewsArticles.SaveArticleViewerFeatureProvider
 {
     id visibilityProvider;
-    id styler;
-    id commandCenter;
-    id featureAvailability;
-    id tipSourceManager;
 }
 
 @end

@@ -6,48 +6,34 @@
 
 #import <ChatKit/CKEditableSearchResultCell.h>
 
-@class LPLinkMetadata, LPLinkView, NSString;
+@class NSString;
 
 @interface CKLinkSearchResultCell : CKEditableSearchResultCell
 {
     NSString *_resultIdentifier;
-    LPLinkView *_linkView;
-    LPLinkMetadata *_linkMetadata;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)azy_storage_$_reloadPublisher;
+- (void)T@"NSString",N,C;
 - (void);
 - (struct UIEdgeInsets);
+- (void)ly invalid media size:(id)arg1 %@;
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)Font;
+- (void)pinningOnboardingSubtitleLabelFont;
 - (void)¬Ì;
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
 @property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

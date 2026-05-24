@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBHeroCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    int _imageAlign;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBRichText *_title;
-    _SFPBRichText *_subtitle;
-    NSArray *_buttonItems;
-    _SFPBImage *_image;
 }
 
 - (void);
@@ -40,60 +27,40 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (_Bool)ICStorePlatformMetadata;
+- (_Bool)ICLibraryAuthServiceClientTokenResponse;
+- (id);
+- (void)@G
+;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)xtension.priority LIMIT 1;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)maskForUserLibrary;
+- (id)PLSearchBackendQueryCollectionRanking;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ersionProvider: /* Error: Ran out of types for this method. */;
+- (void)setShouldOpenCurrencyConversionProvider: /* Error: Ran out of types for this method. */;
 - (int)æðÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSArray *buttonItems; // @synthesize buttonItems=_buttonItems;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) int imageAlign; // @synthesize imageAlign=_imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

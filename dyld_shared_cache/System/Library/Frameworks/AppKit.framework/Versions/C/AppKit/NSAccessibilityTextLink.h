@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     struct _NSRange _characterRange;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
++ (id)connect, reason %d;
+- (id)ssion <%{public}@> failed to retry background data task with identifier %lu;
+- (id)re_metrics;
+- (id)NSThirdPartyExceptionRequiresForwardSecrecy;
+- (void)AND d.entry_ID=r.entry_ID;
+- (_Bool)sponse;;
+- (_Bool)DROP table IF EXISTS cfurl_cache_schema_version;;
+- (id)fSSLTrustCompletion;
+- (id)__CFNetworkCopyProxiesForAutoConfigurationScript_privatemode__;
+- (id)@;
 - (id);
 - (unsigned long long);
 - (_Bool);

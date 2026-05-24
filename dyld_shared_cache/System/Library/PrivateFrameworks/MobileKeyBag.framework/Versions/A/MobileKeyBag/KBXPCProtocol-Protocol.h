@@ -5,5 +5,9 @@
 //
 
 @protocol KBXPCProtocol
+- (void);
+- (void);
+- (void) ;
+- (void)� ;
 @end
 

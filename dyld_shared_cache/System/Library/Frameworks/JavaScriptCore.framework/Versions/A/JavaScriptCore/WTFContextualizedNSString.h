@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WTFContextualizedNSString
 {
     struct StringView context;
-    struct StringView contents;
 }
 
 - (id);

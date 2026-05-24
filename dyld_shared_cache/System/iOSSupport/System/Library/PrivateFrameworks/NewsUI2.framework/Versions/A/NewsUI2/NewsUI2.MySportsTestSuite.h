@@ -7,10 +7,6 @@
 @interface NewsUI2.MySportsTestSuite
 {
     id sportsSyncManager;
-    id sportsOnboardingManager;
-    id tagService;
-    id subscriptionController;
-    id sportTagIDs;
 }
 
 - (id);

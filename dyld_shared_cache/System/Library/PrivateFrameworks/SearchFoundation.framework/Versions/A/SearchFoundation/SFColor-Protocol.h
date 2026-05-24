@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFColor;
+@class NSData, SFColor;
 
 @protocol SFColor
+- (SFColor *)A;
+- (double)ection";
+- (double)_playbackPositionKey;
+- (double)ICStoreRequestContext;
+- (NSData *)$;
 - (double);
 
 // Remaining properties
-@property(nonatomic) double alphaComponent;
-@property(nonatomic) double blueComponent;
-@property(nonatomic) int colorTintStyle;
-@property(retain, nonatomic) SFColor *darkModeColor;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) double greenComponent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double redComponent;
 @end
 

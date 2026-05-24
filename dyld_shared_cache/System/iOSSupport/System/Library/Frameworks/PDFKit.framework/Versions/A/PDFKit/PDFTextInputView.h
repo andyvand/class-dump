@@ -4,77 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString, PDFTextSearchAggregator, UIConversationContext, UITextHighlightView, UITextInputPasswordRules, UITextInteraction, UITextPosition, UITextRange, UITextSearchingDimmingView, UIView;
-@protocol NSObject><NSCopying, PDFTextInputDelegate, UITextInputDelegate, UITextInputTokenizer;
+@class UITextRange;
+@protocol PDFTextInputDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PDFTextInputView
 {
     id <PDFTextInputDelegate> _delegate;
-    UITextRange *_textSelectionRange;
-    UITextInteraction *_textInteraction;
-    id <UITextInputDelegate> _textInputDelegate;
-    id <UITextInputTokenizer> _textInputTokenizer;
-    _Bool _dimmingViewVisible;
-    UITextHighlightView *_searchHighlightView;
-    UITextSearchingDimmingView *_searchDimmingView;
-    UITextRange *_highlightedTextRange;
-    NSMutableArray *_foundTextRanges;
-    PDFTextSearchAggregator *_activeSearch;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)%;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)tableView:(id)arg1 dataCellForTableColumn:(struct CGPoint)arg2 row: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)nonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 trailingSwipeActionsConfigurationForRowAtIndexPath:(struct _NSRange)arg2;
 - (void);
 - (void);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ECTION_INTERRUPTED;
+- (void)eds_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) ;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@9`;
 - (long long);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (long long);
-- (id);
+- (long long)autorelease;
+- (id)erRow:bytesPerImage:region:slice:level:flipVertically:] /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (void);
+- (void)/TextureIO;
 - (id)1v°1Â0@ù
 × ;
 - (id);
 - (id)0@ù
 × ;
-- (id)ateSelectionLayersWithFocusState: /* Error: Ran out of types for this method. */;
-- (id)ge: /* Error: Ran out of types for this method. */;
-- (void)Responder;
-- (struct CGRect)o:(id)arg1;
-- (id)vationForPageAtIndex: /* Error: Ran out of types for this method. */;
-- (void)andler: /* Error: Ran out of types for this method. */;
-- (id)etionBlocks;
+- (id)updateSelectionLayersWithFocusState: /* Error: Ran out of types for this method. */;
+- (id)convertRect:toPage: /* Error: Ran out of types for this method. */;
+- (void)becomeFirstResponder;
+- (struct CGRect)addAnnotation:(id)arg1 withUndo: /* Error: Ran out of types for this method. */;
+- (id)_setupRotationNotificationObservationForPageAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_insertPDFDocumentWithURL:atIndex:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_createDisplayListCompletionBlocks;
 - (id)t=dd}{CGSize=dd}},R,N;
 - (id)ÜLôN8RSÈT¼VWDX;
 - (id);
@@ -82,129 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long autocapitalizationType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(nonatomic) _Bool enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(nonatomic) long long keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSecureTextEntry
-
 @property(copy) UITextRange *selectedTextRange;
-@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSObject><NSCopying>",?,R
-
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool supportsTextReplacement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) NSString *textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

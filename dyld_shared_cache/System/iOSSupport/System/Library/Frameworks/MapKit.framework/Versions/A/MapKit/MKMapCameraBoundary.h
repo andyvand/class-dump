@@ -9,35 +9,31 @@
 @interface MKMapCameraBoundary
 {
     VKCameraRegionRestriction *_vkRestriction;
-    CDStruct_02837cd9 _mapRect;
-    CDStruct_b7cb895d _region;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (CDStruct_02837cd9);
-- (CDStruct_b7cb895d);
+- (CDStruct_90e2a262);
+- (CDStruct_26e8d939);
 - (struct CLLocationCoordinate2D);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void)ding;
-- (CDStruct_b7cb895d)ver %{private}@ for %@;
+- (void)_startHeading;
+- (CDStruct_26e8d939)ver %{private}@ for %@;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isEmpty) _Bool _empty;
-@property(readonly, nonatomic) CDStruct_02837cd9 mapRect; // @synthesize mapRect=_mapRect;
-@property(readonly, nonatomic) CDStruct_b7cb895d region; // @synthesize region=_region;
 
 @end
 

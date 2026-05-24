@@ -7,8 +7,6 @@
 @interface AppStoreKit.PageTabs
 {
     id selectedTabId;
-    id tabs;
-    id id;
 }
 
 @end

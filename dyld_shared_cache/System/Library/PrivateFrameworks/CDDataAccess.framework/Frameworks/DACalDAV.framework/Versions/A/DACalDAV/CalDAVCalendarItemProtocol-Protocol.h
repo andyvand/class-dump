@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerScheduleChangesItem, CalDAVUpdateOwnerItem, NSString;
+@class CalDAVUpdateOwnerItem, NSString;
 
 @protocol CalDAVCalendarItemProtocol
+- (CalDAVUpdateOwnerItem *);
+- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *createdBy;
-@property(retain, nonatomic) CalDAVCalendarServerScheduleChangesItem *scheduleChanges;
 @property(retain, nonatomic) NSString *scheduleTag;
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *updatedBy;
 @end
 

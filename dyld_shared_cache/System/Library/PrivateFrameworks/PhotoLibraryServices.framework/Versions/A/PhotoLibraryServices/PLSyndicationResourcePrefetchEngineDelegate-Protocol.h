@@ -5,6 +5,7 @@
 //
 
 @protocol PLSyndicationResourcePrefetchEngineDelegate
+- (id);
 - (id)iled-no-resources;
 @end
 

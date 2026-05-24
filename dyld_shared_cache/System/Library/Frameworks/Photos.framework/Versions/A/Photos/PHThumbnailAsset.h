@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKnownKeysDictionary, NSManagedObjectID, PHPhotoLibrary;
+@class NSKnownKeysDictionary;
 
 @interface PHThumbnailAsset
 {
     NSKnownKeysDictionary *_dictionary;
-    NSManagedObjectID *_objectID;
-    PHPhotoLibrary *_photoLibrary;
 }
 
-+ (_Bool);
++ (_Bool)performing;
 + (id);
-+ (long long);
++ (long long)ICAConnectionIDKey;
 + (_Bool)ù
 × ;
 + (long long)å¨å0æ;
 + (id)ld-%ld image request %@ finished, removing from map table;
 + (id)tDirectory(NSURL *__strong, NSError *__autoreleasing *);
 + (id);
-- (unsigned long long);
+- (unsigned long long)9t~;
 - (short);
-- (id);
+- (id)u
+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,12 +31,12 @@
 - (long long);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)pleMediaServices.framework/Versions/A/AppleMediaServices;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool)geWithFilter:withCSAttributedEntityKey:stringValues:filterOperator: /* Error: Ran out of types for this method. */;
-- (void)ec:requiredScale:bagVendor:assetIDContainerVendor: /* Error: Ran out of types for this method. */;
+- (id)setOverlayBufferSize: /* Error: Ran out of types for this method. */;
+- (_Bool)tagRangeWithFilter:withCSAttributedEntityKey:stringValues:filterOperator: /* Error: Ran out of types for this method. */;
+- (void)_bagFromInfo:asset:behaviorSpec:requiredScale:bagVendor:assetIDContainerVendor: /* Error: Ran out of types for this method. */;
 - (id)from PhotoKit triggered by %@ (%d);
 - (unsigned long long)ttributes.montage;
 

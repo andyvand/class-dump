@@ -6,12 +6,11 @@
 
 #import <Navigation/MNTransitInstruction.h>
 
-@class GEOComposedRouteStep, NSDictionary;
+@class GEOComposedRouteStep;
 
 @interface MNTransitStepInstruction : MNTransitInstruction
 {
     GEOComposedRouteStep *_step;
-    NSDictionary *_overridenInstructionsMapping;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (id)d{Ü{(~$;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *overridenInstructionsMapping; // @synthesize overridenInstructionsMapping=_overridenInstructionsMapping;
 @property(readonly, nonatomic) GEOComposedRouteStep *step; // @synthesize step=_step;
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCUserEventHistoryMetadata, NSArray, NSDate;
+@class NSArray;
 
 @protocol FCUserEventHistoryStorageType
+- (unsigned long long)gradientContentBottomConstraint;
+- (void)newsFeedService;
+- (void);
 - (NSArray *)dä?Ôä@øæADé;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *earliestSessionDate;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) FCUserEventHistoryMetadata *metadata;
-@property(readonly, nonatomic) NSArray *prunedSessionIDs;
-@property(readonly, nonatomic) unsigned long long prunedSessionSize;
 @property(readonly, nonatomic) NSArray *sessionIDs;
 @property(readonly, nonatomic) NSArray *sessions;
-@property(readonly, nonatomic) unsigned long long size;
 @end
 

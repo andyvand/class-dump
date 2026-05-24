@@ -6,12 +6,9 @@
 
 #import <Email/EMMessageChangeAction.h>
 
-@class NSArray;
-
 @interface EMMessageConversationFlagChangeAction : EMMessageChangeAction
 {
     long long _conversationNotificationLevel;
-    NSArray *_conversationIDs;
 }
 
 + (_Bool);
@@ -25,7 +22,6 @@
 - (void)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *conversationIDs; // @synthesize conversationIDs=_conversationIDs;
 @property(readonly, nonatomic) long long conversationNotificationLevel; // @synthesize conversationNotificationLevel=_conversationNotificationLevel;
 
 @end

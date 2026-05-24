@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDateRange, NSArray;
+@class NSArray;
 
 @interface EKConflictDetails
 {
     NSArray *_conflictingDates;
-    NSArray *_conflictingEvents;
-    NSArray *_needsActionEvents;
-    unsigned long long _totalOccurrencesInSeries;
-    unsigned long long _totalConflictsInSeries;
-    unsigned long long _totalConflictingEvents;
-    unsigned long long _totalNeedsActionEvents;
-    CalDateRange *_conflictPeriodForSeries;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)pSessionRequestManager] Updating group session info:(long long)arg1 %@;
++ (id)%p> Changed to shared session:(long long)arg1 %{public}@;
++ (id)isUsingSystemPairing;
 + (double);
-+ (id);
++ (id)_queue_t, __strong MRExternalDeviceSetVolumeCallback);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -30,29 +23,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ical section for requestID:(id)arg1 %@. error:(id)arg2 %@;
+- (id)fectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
+- (id)umeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
+- (id)supportsVolumeControl=%{BOOL}u, canSetVolume=%{BOOL}u, volumeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)±2'1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) CalDateRange *conflictPeriodForSeries; // @synthesize conflictPeriodForSeries=_conflictPeriodForSeries;
 @property(retain) NSArray *conflictingDates; // @synthesize conflictingDates=_conflictingDates;
-@property(retain) NSArray *conflictingEvents; // @synthesize conflictingEvents=_conflictingEvents;
-@property(retain) NSArray *needsActionEvents; // @synthesize needsActionEvents=_needsActionEvents;
-@property unsigned long long totalConflictingEvents; // @synthesize totalConflictingEvents=_totalConflictingEvents;
-@property unsigned long long totalConflictsInSeries; // @synthesize totalConflictsInSeries=_totalConflictsInSeries;
-@property unsigned long long totalNeedsActionEvents; // @synthesize totalNeedsActionEvents=_totalNeedsActionEvents;
-@property unsigned long long totalOccurrencesInSeries; // @synthesize totalOccurrencesInSeries=_totalOccurrencesInSeries;
 
 @end
 

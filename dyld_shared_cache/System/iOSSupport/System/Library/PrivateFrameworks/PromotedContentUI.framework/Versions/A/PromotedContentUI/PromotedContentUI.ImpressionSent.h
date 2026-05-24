@@ -7,7 +7,6 @@
 @interface PromotedContentUI.ImpressionSent
 {
     id alreadySent;
-    id alreadyRecorded;
 }
 
 - (id);

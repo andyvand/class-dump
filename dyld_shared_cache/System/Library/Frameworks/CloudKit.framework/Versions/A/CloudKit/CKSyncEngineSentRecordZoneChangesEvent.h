@@ -6,14 +6,11 @@
 
 #import <CloudKit/CKSyncEngineEvent.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKSyncEngineSentRecordZoneChangesEvent : CKSyncEngineEvent
 {
     NSArray *_savedRecords;
-    NSArray *_failedRecordSaves;
-    NSArray *_deletedRecordIDs;
-    NSDictionary *_failedRecordDeletes;
 }
 
 - (id);
@@ -23,12 +20,9 @@
 - (long long);
 - (id);
 - (void);
-- (void)ePhotosOperationInfo;
+- (void)CKMovePhotosOperationInfo;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;
-@property(readonly, copy, nonatomic) NSDictionary *failedRecordDeletes; // @synthesize failedRecordDeletes=_failedRecordDeletes;
-@property(readonly, copy, nonatomic) NSArray *failedRecordSaves; // @synthesize failedRecordSaves=_failedRecordSaves;
 @property(readonly, copy, nonatomic) NSArray *savedRecords; // @synthesize savedRecords=_savedRecords;
 
 @end

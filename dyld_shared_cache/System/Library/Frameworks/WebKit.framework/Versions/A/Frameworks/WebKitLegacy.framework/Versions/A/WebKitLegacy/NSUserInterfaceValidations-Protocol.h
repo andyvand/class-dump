@@ -5,6 +5,6 @@
 //
 
 @protocol NSUserInterfaceValidations
-- (_Bool)eDataExecutionContextsSupportEnabled;
+- (_Bool)ClearSiteDataExecutionContextsSupportEnabled;
 @end
 

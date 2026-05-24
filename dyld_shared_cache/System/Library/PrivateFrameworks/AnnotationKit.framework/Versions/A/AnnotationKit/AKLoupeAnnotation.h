@@ -6,13 +6,9 @@
 
 #import <AnnotationKit/AKStrokedAnnotation.h>
 
-@class NSData, NSString;
-
 @interface AKLoupeAnnotation : AKStrokedAnnotation
 {
     double _magnification;
-    NSData *_imageData;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -22,16 +18,16 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)ded home for access code:(struct CGPoint)arg1 %@;
 - (void);
 - (struct CGRect);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (void);
@@ -39,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property double magnification; // @synthesize magnification=_magnification;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property(readonly) Class superclass;
 
 @end
 

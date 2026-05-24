@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRemoteViewController, NSViewController;
+@class NSRemoteViewController;
 
 @interface AKAuthenticationRVSBootstrapper
 {
     NSRemoteViewController *_remoteViewController;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)p;
 - (void);
-- (void)ameField;
+- (void)usernameField;
 
 // Remaining properties
 @property(retain, nonatomic) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly, nonatomic) NSViewController *viewController;
 
 @end
 

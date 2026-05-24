@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCelestialRiseTransitSet, GEOEquatorialCelestialBodyData, GEOHorizontalCelestialBodyData, GEOSolarEclipticCelestialBodyData, NSDate, NSNumber;
+@class GEOCelestialRiseTransitSet, NSDate;
 
 @interface GEOCelestialEphemeris
 {
     GEOCelestialRiseTransitSet *_riseTransitSet;
-    double _julianDay;
-    CDStruct_2c43369c _coordinate;
-    long long _body;
-    GEOSolarEclipticCelestialBodyData *_eclipticCoord;
-    GEOEquatorialCelestialBodyData *_equatorialCoord;
-    GEOHorizontalCelestialBodyData *_horizontalCoord;
-    double _phaseAngle;
-    double _illuminatedFraction;
-    double _elongation;
-    double _parallacticAngle;
-    NSNumber *_topocentricParallacticAngle;
-    NSNumber *_librationPositionAngle;
-    NSNumber *_radiusVector;
-    NSNumber *_topocentricRadiusVector;
-    _Bool _highPrecision;
 }
 
 - (double);
 - (double);
+- (double)localizedStringForStatusCode: /* Error: Ran out of types for this method. */;
+- (double)implWithSchedulerProvider:block: /* Error: Ran out of types for this method. */;
+- (double)formatIntegerByRoundingForPrivacy: /* Error: Ran out of types for this method. */;
+- (double)_isClientFirstOrSecondParty;
+- (_Bool)_cn_padDataToLength: /* Error: Ran out of types for this method. */;
+- (id)_delayScheduler;
 - (double);
 - (double);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)@]:(CDStruct_c3b9c2ee)arg1 deallocated;
 - (id);
 - (id);
 - (void)ÊZ6;
@@ -48,21 +33,7 @@
 - (id)­ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOSolarEclipticCelestialBodyData *eclipticCoord;
-@property(readonly, nonatomic) double elongation; // @synthesize elongation=_elongation;
-@property(readonly, nonatomic) GEOEquatorialCelestialBodyData *equatorialCoord;
-@property(readonly, nonatomic) GEOHorizontalCelestialBodyData *horizontalCoord;
-@property(readonly, nonatomic) double illuminatedFraction; // @synthesize illuminatedFraction=_illuminatedFraction;
-@property(readonly, nonatomic) _Bool isTransitAboveHorizon;
-@property(readonly, nonatomic) double librationPositionAngle;
-@property(readonly, nonatomic) double parallacticAngle; // @synthesize parallacticAngle=_parallacticAngle;
-@property(readonly, nonatomic) double phaseAngle; // @synthesize phaseAngle=_phaseAngle;
-@property(readonly, nonatomic) double radiusVector;
 @property(readonly, nonatomic) NSDate *rise;
-@property(readonly, nonatomic) NSDate *set;
-@property(readonly, nonatomic) double topocentricParallacticAngle;
-@property(readonly, nonatomic) double topocentricRadiusVector;
-@property(readonly, nonatomic) NSDate *transit;
 
 @end
 

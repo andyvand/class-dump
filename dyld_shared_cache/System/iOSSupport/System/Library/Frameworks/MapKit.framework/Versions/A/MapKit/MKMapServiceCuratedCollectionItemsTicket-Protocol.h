@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceCuratedCollectionItemsTicket
+- (void);
+- (void)_chat:(void (^)(GEOPlaceCollection *, NSArray *, NSError *))arg1 retryTranscriptBackgroundUpload:(void (^)(_Bool))arg2 transferID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

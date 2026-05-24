@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNContactViewController;
 @protocol EKEditItemViewControllerDelegate, EKIdentityProtocol;
 
 @interface EKIdentityViewController
 {
     id <EKIdentityProtocol> _identity;
-    CNContactViewController *_personViewController;
-    CNContactStore *_store;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (Class);
-+ (Class);
-+ (id);
-+ (Class);
-+ (Class);
++ (id)X)s;
++ (id))s;
++ (Class)s;
++ (Class)%s;
 + (id);
 + (Class);
++ (Class)s;
++ (id);
++ (Class);
+- (void)s;
 - (void);
-- (void);
-- (Class);
+- (Class)s;
 - (id);
+- (id)&s;
+- (id)s;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)Container: /* Error: Ran out of types for this method. */;
+- (void)ES;
+- (void)setTopLabelsContainer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
 
 
 @end

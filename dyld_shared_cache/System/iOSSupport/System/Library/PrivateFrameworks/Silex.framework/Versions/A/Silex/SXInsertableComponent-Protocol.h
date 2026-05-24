@@ -8,12 +8,12 @@
 @protocol SXComponentAnchor;
 
 @protocol SXInsertableComponent
+- (void);
+- (NSString *)(;
 - (id <SXComponentAnchor>)8@"WKWebView"16@"WKPreviewElementInfo"24@"NSArray"32;
 - (void)tring"8@16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) id <SXComponentAnchor> anchor;
 @property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) NSString *layout;
 @end
 

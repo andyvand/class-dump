@@ -6,33 +6,29 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPStocksMetadata : LPSpecializationMetadata
 {
     NSString *_combinedTitle;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_footnote;
-    LPImage *_icon;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)];
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)updated PCS data to the server for zone %@;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -41,18 +37,7 @@
 - (void)r",R,W,N,V_generator;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *combinedTitle; // @synthesize combinedTitle=_combinedTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *footnote; // @synthesize footnote=_footnote;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

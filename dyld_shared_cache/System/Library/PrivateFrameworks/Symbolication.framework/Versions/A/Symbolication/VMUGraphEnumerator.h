@@ -18,7 +18,7 @@
 - (void *);
 - (void *);
 - (unsigned int *);
-- (void);
+- (void)S?;
 - (void);
 - (id)Ð1Â0@ù
 × ;

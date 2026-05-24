@@ -6,44 +6,34 @@
 
 #import <MetalTools/MTLToolsLibrary.h>
 
-@class MTLCompileOptions, NSArray;
-
 @interface MTLDebugLibrary : MTLToolsLibrary
 {
     unsigned long long _debugType;
-    id _code;
-    MTLCompileOptions *_compileOptions;
-    NSArray *_imageFilterFunctions;
-    CDStruct_dbc1e4aa *_imageFilterFunctionInfo;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (CDStruct_dbc1e4aa *);
-- (unsigned long long);
+- (unsigned long long)˿;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (void)J;
+- (void)!;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)veSlice;
-- (id)eCache;
+- (void)parentRelativeSlice;
+- (id)_checkerboardRTPipelineCache;
 
 // Remaining properties
-@property(copy, nonatomic) id code; // @synthesize code=_code;
-@property(copy, nonatomic) MTLCompileOptions *compileOptions; // @synthesize compileOptions=_compileOptions;
 @property(nonatomic) unsigned long long debugType; // @synthesize debugType=_debugType;
-@property(readonly, nonatomic) CDStruct_dbc1e4aa *imageFilterFunctionInfo; // @synthesize imageFilterFunctionInfo=_imageFilterFunctionInfo;
-@property(readonly, nonatomic) NSArray *imageFilterFunctions; // @synthesize imageFilterFunctions=_imageFilterFunctions;
 
 @end
 

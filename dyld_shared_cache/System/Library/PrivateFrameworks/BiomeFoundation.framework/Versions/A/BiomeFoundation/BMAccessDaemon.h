@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessServiceListener, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BMAccessDaemon
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BMAccessServiceListener *_legacyAccessService;
-    BMAccessServiceListener *_userAccessService;
-    BMAccessServiceListener *_systemAccessService;
 }
 
 + (_Bool);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BMAccessServiceListener *legacyAccessService; // @synthesize legacyAccessService=_legacyAccessService;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) BMAccessServiceListener *systemAccessService; // @synthesize systemAccessService=_systemAccessService;
-@property(readonly, nonatomic) BMAccessServiceListener *userAccessService; // @synthesize userAccessService=_userAccessService;
 
 @end
 

@@ -7,11 +7,10 @@
 @class _INPBDictionary;
 
 @protocol _INPBPlayMediaIntentResponse
-- (_INPBDictionary *)ngDescription;
-- (void)ithCompletion:(_INPBDictionary *)arg1;
+- (_INPBDictionary *)bookingDescription;
+- (void)provideMediaItemsOptionsCollectionForSearchForMedia:(_INPBDictionary *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNowPlayingInfo;
 @property(retain, nonatomic) _INPBDictionary *nowPlayingInfo;
 @end
 

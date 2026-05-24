@@ -6,15 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class NSString, QCStringPort, QCStructurePort;
+@class QCStringPort;
 
 @interface QCPatchInfo : QCPatch
 {
     QCStringPort *inputPath;
-    QCStructurePort *outputMetadata;
-    QCStructurePort *outputInputList;
-    QCStructurePort *outputOutputList;
-    NSString *_compositionLocation;
 }
 
 + (_Bool);
@@ -22,7 +18,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)0	;
 
 @end
 

@@ -4,47 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface HMIExternalPersonManagerSettings
 {
     _Bool _importingFromPhotoLibraryEnabled;
-    _Bool _sharingFaceClassificationsEnabled;
 }
 
-+ (_Bool);
++ (_Bool)l@y)	;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)i;
+- (id)V;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id):(struct _NSZone *)arg1:unique_ptr<ViewportConstrainedLayerData>>>, WTF::DefaultHash<WTF::RetainPtr<CALayer>>, WTF::HashMap<WTF::RetainPtr<CALayer>, std::unique_ptr<ViewportConstrainedLayerData>>::KeyValuePairTraits, WTF::HashTraits<WTF::RetainPtr<CALayer>>>::validateKey(const ValueType &) [Key = WTF::RetainPtr<CALayer>, Value = WTF::KeyValuePair<WTF::RetainPtr<CALayer>, std::unique_ptr<ViewportConstrainedLayerData>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::RetainPtr<CALayer>, std::unique_ptr<ViewportConstrainedLayerData>>>, HashFunctions = WTF::DefaultHash<WTF::RetainPtr<CALayer>>, Traits = WTF::HashMap<WTF::RetainPtr<CALayer>, std::unique_ptr<ViewportConstrainedLayerData>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::RetainPtr<CALayer>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(getter=isImportingFromPhotoLibraryEnabled) _Bool importingFromPhotoLibraryEnabled; // @synthesize importingFromPhotoLibraryEnabled=_importingFromPhotoLibraryEnabled;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(getter=isSharingFaceClassificationsEnabled) _Bool sharingFaceClassificationsEnabled; // @synthesize sharingFaceClassificationsEnabled=_sharingFaceClassificationsEnabled;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

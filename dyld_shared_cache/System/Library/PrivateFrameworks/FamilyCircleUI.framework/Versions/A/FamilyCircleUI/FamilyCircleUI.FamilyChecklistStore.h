@@ -7,10 +7,6 @@
 @interface FamilyCircleUI.FamilyChecklistStore
 {
     id signPost;
-    id itemProviders;
-    id familyCircleStore;
-    id familyPictureStore;
-    id cancellables;
 }
 
 @end

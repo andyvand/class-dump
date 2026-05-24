@@ -4,54 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarAccessoryView, CNBadgingAvatarBadgeStyleSettings, CNContactFormatter, CNGroupAvatarViewController, CNGroupIdentity, CNGroupIdentityInlineActionsViewConfiguration, CNGroupIdentityInlineActionsViewController, CNSharedProfileBannerStyle, CNSharedProfileBannerView, CNSharedProfileStateOracle, NSArray, NSLayoutConstraint, NSString, UIButton, UIFont, UIImage, UIImageView, UILabel, UIStackView, UIView;
-@protocol CNGroupIdentityHeaderViewControllerDelegate;
+@class UIStackView;
 
 @interface CNGroupIdentityHeaderViewController
 {
     _Bool _isMarkedForSyndication;
-    _Bool _shouldShowContactBusy;
-    _Bool _hasPerformedSharedProfileBannerAnimation;
-    NSString *_actionButtonTitle;
-    id <CNGroupIdentityHeaderViewControllerDelegate> _delegate;
-    CNGroupIdentity *_group;
-    CNGroupIdentityInlineActionsViewConfiguration *_actionsViewConfiguration;
-    UIImage *_avatarBadgeImage;
-    CNBadgingAvatarBadgeStyleSettings *_avatarBadgeStyleSettings;
-    CNAvatarAccessoryView *_mediaContextBadge;
-    UILabel *_customSubtitleLabel;
-    CNSharedProfileStateOracle *_sharedProfileStateOracle;
-    CNSharedProfileBannerStyle *_sharedProfileBannerStyle;
-    UIStackView *_titleLabelStackView;
-    UILabel *_titleLabel;
-    UIFont *_titleLabelFont;
-    UIFont *_titleLabelWrappedFont;
-    UIStackView *_titleBadgeStackView;
-    NSArray *_horizontalTitleLabelConstraints;
-    UIImageView *_staticIdentityBadge;
-    UIButton *_actionButton;
-    NSLayoutConstraint *_actionButtonZeroHeightConstraint;
-    double _actionsViewTopMargin;
-    CNGroupAvatarViewController *_groupAvatarViewController;
-    CNGroupIdentityInlineActionsViewController *_actionsViewController;
-    CNContactFormatter *_contactFormatter;
-    UIView *_sharedProfileBannerContainerView;
-    NSLayoutConstraint *_actionsViewBottomConstraint;
-    NSLayoutConstraint *_sharedProfileBannerContainerLeadingConstraint;
-    NSLayoutConstraint *_sharedProfileBannerContainerTrailingConstraint;
-    CNSharedProfileBannerView *_sharedProfileBannerView;
-    unsigned long long _tappedSharedProfileBannerAction;
-    struct CGSize _previousSize;
 }
 
 + (id);
-+ (id)etupContainerContextIfNeededForContact: /* Error: Ran out of types for this method. */;
++ (id)setupContainerContextIfNeededForContact: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -72,6 +39,8 @@
 - (id);
 - (id);
 - (id);
+- (void)b;
+- (void)?	;
 - (void);
 - (void);
 - (void);
@@ -81,6 +50,7 @@
 - (void);
 - (void);
 - (void);
+- (void)貗H;
 - (void);
 - (void);
 - (void);
@@ -88,20 +58,17 @@
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q"g;
 - (void);
 - (_Bool);
 - (void);
@@ -110,32 +77,33 @@
 - (id);
 - (id);
 - (id);
+- (void)Q%;
+- (_Bool)	ka;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)	jA;
+- (void)A;
+- (_Bool);
 - (id);
 - (struct CGSize);
 - (id);
 - (void);
+- (id)4;
 - (id);
-- (id);
-- (id);
+- (id)ja;
 - (double);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)rJ;
+- (void)7
+;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)q;
 - (void);
 - (id);
 - (void);
@@ -144,61 +112,22 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)`b;
 - (id);
 - (void);
 - (id);
-- (void)Configuration:layoutAnchor: /* Error: Ran out of types for this method. */;
+- (void)_collectionView:accessoriesForContextMenuWithConfiguration:layoutAnchor: /* Error: Ran out of types for this method. */;
 - (id)Property;
 - (id)I.framework/AvatarUI;
 - (void)åQ;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(retain, nonatomic) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property(retain, nonatomic) NSLayoutConstraint *actionButtonZeroHeightConstraint; // @synthesize actionButtonZeroHeightConstraint=_actionButtonZeroHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *actionsViewBottomConstraint; // @synthesize actionsViewBottomConstraint=_actionsViewBottomConstraint;
-@property(readonly, nonatomic) CNGroupIdentityInlineActionsViewConfiguration *actionsViewConfiguration; // @synthesize actionsViewConfiguration=_actionsViewConfiguration;
-@property(retain, nonatomic) CNGroupIdentityInlineActionsViewController *actionsViewController; // @synthesize actionsViewController=_actionsViewController;
-@property(nonatomic) double actionsViewTopMargin; // @synthesize actionsViewTopMargin=_actionsViewTopMargin;
-@property(retain, nonatomic) UIImage *avatarBadgeImage; // @synthesize avatarBadgeImage=_avatarBadgeImage;
-@property(retain, nonatomic) CNBadgingAvatarBadgeStyleSettings *avatarBadgeStyleSettings; // @synthesize avatarBadgeStyleSettings=_avatarBadgeStyleSettings;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(retain, nonatomic) UILabel *customSubtitleLabel; // @synthesize customSubtitleLabel=_customSubtitleLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNGroupIdentityHeaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNGroupIdentity *group; // @synthesize group=_group;
-@property(retain, nonatomic) CNGroupAvatarViewController *groupAvatarViewController; // @synthesize groupAvatarViewController=_groupAvatarViewController;
-@property(nonatomic) _Bool hasPerformedSharedProfileBannerAnimation; // @synthesize hasPerformedSharedProfileBannerAnimation=_hasPerformedSharedProfileBannerAnimation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *horizontalTitleLabelConstraints; // @synthesize horizontalTitleLabelConstraints=_horizontalTitleLabelConstraints;
-@property(nonatomic) _Bool isMarkedForSyndication; // @synthesize isMarkedForSyndication=_isMarkedForSyndication;
-@property(retain, nonatomic) CNAvatarAccessoryView *mediaContextBadge; // @synthesize mediaContextBadge=_mediaContextBadge;
-@property(nonatomic) struct CGSize previousSize; // @synthesize previousSize=_previousSize;
-@property(retain, nonatomic) NSLayoutConstraint *sharedProfileBannerContainerLeadingConstraint; // @synthesize sharedProfileBannerContainerLeadingConstraint=_sharedProfileBannerContainerLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *sharedProfileBannerContainerTrailingConstraint; // @synthesize sharedProfileBannerContainerTrailingConstraint=_sharedProfileBannerContainerTrailingConstraint;
-@property(retain, nonatomic) UIView *sharedProfileBannerContainerView; // @synthesize sharedProfileBannerContainerView=_sharedProfileBannerContainerView;
-@property(retain, nonatomic) CNSharedProfileBannerStyle *sharedProfileBannerStyle; // @synthesize sharedProfileBannerStyle=_sharedProfileBannerStyle;
-@property(retain, nonatomic) CNSharedProfileBannerView *sharedProfileBannerView; // @synthesize sharedProfileBannerView=_sharedProfileBannerView;
-@property(retain, nonatomic) CNSharedProfileStateOracle *sharedProfileStateOracle; // @synthesize sharedProfileStateOracle=_sharedProfileStateOracle;
-@property(nonatomic) _Bool shouldShowContactBusy; // @synthesize shouldShowContactBusy=_shouldShowContactBusy;
-@property(retain, nonatomic) UIImageView *staticIdentityBadge; // @synthesize staticIdentityBadge=_staticIdentityBadge;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tappedSharedProfileBannerAction; // @synthesize tappedSharedProfileBannerAction=_tappedSharedProfileBannerAction;
-@property(retain, nonatomic) UIStackView *titleBadgeStackView; // @synthesize titleBadgeStackView=_titleBadgeStackView;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UIFont *titleLabelFont; // @synthesize titleLabelFont=_titleLabelFont;
 @property(retain, nonatomic) UIStackView *titleLabelStackView; // @synthesize titleLabelStackView=_titleLabelStackView;
-@property(retain, nonatomic) UIFont *titleLabelWrappedFont; // @synthesize titleLabelWrappedFont=_titleLabelWrappedFont;
 
 @end
 

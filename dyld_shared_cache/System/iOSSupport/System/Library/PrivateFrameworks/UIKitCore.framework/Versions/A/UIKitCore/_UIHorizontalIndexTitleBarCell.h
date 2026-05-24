@@ -6,40 +6,36 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class UILabel, UIView, UIVisualEffectView, _UIFocusFastScrollingIndexBarEntry;
+@class _UIFocusFastScrollingIndexBarEntry;
 
 __attribute__((visibility("hidden")))
 @interface _UIHorizontalIndexTitleBarCell : UICollectionViewCell
 {
     _UIFocusFastScrollingIndexBarEntry *_entry;
-    UILabel *_titleLabel;
-    UILabel *_sizingLabel;
-    UIView *_roundedCornersBackground;
-    UIVisualEffectView *_roundedCornersVisualEffectView;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
+- (id)"NSDate"16@"NSPredicate"24q32@?<v@?@"NSArray">40;
+- (id)ate"24q32@?<v@?@"NSArray">40;
+- (void);
+- (void);
+- (void);
+- (double)ability results=%@;
+- (id)ount based on phone number IDS account based on parameters shouldFilter %@ requestProxy %@;
+- (void)UpdateInfoIncluded;
+- (_Bool)ension-data;
+- (void);
+- (void);
 - (id);
 - (id);
+- (void)lil8,%;
 - (void);
 - (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)gateWantsToDismissOnTouchDownForGestureRecognizer:(struct CGRect)arg1;
-- (void)onWindow;
+- (id)_delegateWantsToDismissOnTouchDownForGestureRecognizer:(struct CGRect)arg1;
+- (void)_UIPreviewInteractionTransitionWindow;
 - (void)6^B24;
 - (void)ied;
 - (void)ÒÜ [;
@@ -48,10 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) _UIFocusFastScrollingIndexBarEntry *entry; // @synthesize entry=_entry;
-@property(retain, nonatomic) UIView *roundedCornersBackground; // @synthesize roundedCornersBackground=_roundedCornersBackground;
-@property(retain, nonatomic) UIVisualEffectView *roundedCornersVisualEffectView; // @synthesize roundedCornersVisualEffectView=_roundedCornersVisualEffectView;
-@property(retain, nonatomic) UILabel *sizingLabel; // @synthesize sizingLabel=_sizingLabel;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

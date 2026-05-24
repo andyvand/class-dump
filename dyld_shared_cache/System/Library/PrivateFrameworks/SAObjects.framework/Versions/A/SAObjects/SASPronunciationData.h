@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SASPronunciationData : AceObject
 {
@@ -16,33 +16,21 @@
 + (id);
 - (id);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
+- (long long);
+- (void)P;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id)¢;
 - (id);
 - (id);
-- (id);
-- (void)plate:(id)arg1;
+- (void)setClientTemplate:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *apgId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSString *orthography;
-@property(readonly) Class superclass;
-@property(nonatomic) long long tokenOffset;
-@property(copy, nonatomic) NSArray *ttsPronunciations;
-@property(copy, nonatomic) NSString *ttsVersion;
 
 @end
 

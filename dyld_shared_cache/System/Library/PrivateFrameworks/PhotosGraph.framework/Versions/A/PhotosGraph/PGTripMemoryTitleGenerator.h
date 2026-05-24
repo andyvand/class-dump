@@ -6,14 +6,11 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class PGGraphAreaNodeCollection, PGGraphHighlightGroupNodeCollection, PGGraphLocationNodeCollection;
+@class PGGraphLocationNodeCollection;
 
 @interface PGTripMemoryTitleGenerator : PGTitleGenerator
 {
     PGGraphLocationNodeCollection *_locationNodes;
-    PGGraphAreaNodeCollection *_areaNodes;
-    PGGraphHighlightGroupNodeCollection *_highlightGroupNodeAsCollection;
-    unsigned long long _type;
 }
 
 - (id);
@@ -21,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)16@"AXFScreen"24;
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);

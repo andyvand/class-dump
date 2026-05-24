@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)escriptor == &pg_query__cluster_stmt__descriptor;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)non-BMPBGameControllerEventDataVersion proto;
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)eFaceTimeCallAcceptSentHotShip is %@ on this config;
 - (id);
 - (id);
 - (void)°ûÿøûÿ(ûÿpûÿ ûÿèûÿûÿ0ûÿ|ûÿØûÿ´ûÿûÿ0ûÿHûÿ;

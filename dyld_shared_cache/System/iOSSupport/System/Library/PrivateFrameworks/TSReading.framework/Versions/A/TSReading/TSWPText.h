@@ -4,66 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, TSDCanvas, TSDLayout, TSPObject, TSUColor, TSWPColumnStyle, TSWPListStyle, TSWPPadding, TSWPParagraphStyle, TSWPStorage;
-@protocol TSDHint, TSWPFootnoteHeightMeasurer, TSWPFootnoteMarkProvider, TSWPOffscreenColumn, TSWPStyleProvider, TSWPTextDelegate;
+@class NSObject, TSWPParagraphStyle;
+@protocol TSWPTextDelegate;
 
 @interface TSWPText
 {
     TSWPParagraphStyle *_paragraphStyle;
-    TSWPListStyle *_listStyle;
-    TSWPColumnStyle *_columnStyle;
-    TSUColor *_textColorOverride;
-    TSWPStorage *_storage;
-    NSMutableArray *_columns;
-    struct CGSize _minSize;
-    struct CGSize _maxSize;
-    unsigned long long _pageNumber;
-    unsigned long long _pageCount;
-    int _flags;
-    struct CGPoint _anchor;
-    unsigned int _naturalAlignment;
-    int _naturalDirection;
-    NSObject<TSWPTextDelegate> *_delegate;
-    _Bool _allowsLastLineTruncation;
-    unsigned int _maxLineCount;
-    id <TSWPStyleProvider> _styleProvider;
-    double _reservedWidthWhenTruncating;
 }
 
++ (void);
 + (void);
-+ (void);
+- (id)INE) == YES;
+- (void)rom registry:(id)arg1 %ld indexPath=%@;
+- (void)nown playlist entry:(unsigned int)arg1 %@;
+- (void)Restore;
+- (struct CGSize)ue;
+- (id)n;
+- (id)eate queue from queue:(id)arg1;
+- (id)alog;
 - (id);
+- (id)queue;
+- (id);
+- (void)dn't recognize track identifier. ;
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)Item.status;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)]P;
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
-- (void);
+- (void)O;
 - (double);
 - (const void *);
 - (id);
@@ -92,14 +74,14 @@
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (struct CGSize);
@@ -115,93 +97,7 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool allowsDescendersToClip;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool allowsLastLineTruncation; // @synthesize allowsLastLineTruncation=_allowsLastLineTruncation;
-@property(readonly, nonatomic) _Bool alwaysAllowWordSplit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) struct CGPoint anchorPoint;
-@property(retain, nonatomic) NSMutableArray *anchoredDrawablesForRelayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSMutableArray",?,&,N
-
-@property(readonly, nonatomic) unsigned int autosizeFlags;
-@property(readonly, nonatomic) TSDCanvas *canvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDCanvas",?,R,N
-
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, retain, nonatomic) NSMutableArray *columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
-@property(readonly, nonatomic) struct CGSize currentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) NSObject<TSWPTextDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <TSWPFootnoteHeightMeasurer> footnoteHeightMeasurer;
-@property(readonly, nonatomic) id <TSWPFootnoteMarkProvider> footnoteMarkProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct __CFLocale *hyphenationLocale;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFLocale=},?,R,N
-
-@property(readonly, nonatomic) _Bool ignoresEquationAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool layoutIsValid;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(readonly, nonatomic) struct CGRect maskRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, nonatomic) double maxAnchorY;
-@property(nonatomic) unsigned int maxLineCount; // @synthesize maxLineCount=_maxLineCount;
-@property(readonly, nonatomic) struct CGSize maxSize;
-@property(readonly, nonatomic) struct CGSize minSize;
-@property(readonly, nonatomic) unsigned int naturalAlignment; // @synthesize naturalAlignment=_naturalAlignment;
-@property(readonly, nonatomic) int naturalDirection; // @synthesize naturalDirection=_naturalDirection;
-@property(readonly, nonatomic) TSPObject<TSDHint> *nextTargetFirstChildHint;
-@property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> nextTargetFirstColumn;
-@property(readonly, nonatomic) const void *nextTargetTopicNumbers;
-@property(readonly, nonatomic) unsigned long long pageCount;
-@property(readonly, nonatomic) unsigned long long pageNumber;
-@property(readonly, nonatomic) TSWPParagraphStyle *paragraphStyle; // @synthesize paragraphStyle=_paragraphStyle;
-@property(readonly, nonatomic) TSDLayout *parentLayoutForInlineAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDLayout",?,R,N
-
-@property(readonly, nonatomic) struct CGPoint position;
-@property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-@property(readonly, nonatomic) const void *previousTargetTopicNumbers;
-@property(readonly, nonatomic) _Bool pushAscendersIntoColumn;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) double reservedWidthWhenTruncating; // @synthesize reservedWidthWhenTruncating=_reservedWidthWhenTruncating;
-@property(readonly, nonatomic) _Bool shouldHyphenate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(retain, nonatomic) id <TSWPStyleProvider> styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSUColor *textColorOverride; // @synthesize textColorOverride=_textColorOverride;
-@property(readonly, nonatomic) _Bool textIsVertical;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) unsigned int verticalAlignment;
-@property(readonly, nonatomic) _Bool wantsLineFragments;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol PKScribbleInteractionDelegate
+
+@optional
+- (_Bool);
+- (void)<;
+- (_Bool);
 @end
 

@@ -10,12 +10,12 @@
 
 + (id);
 + (id);
++ (void)@J;
++ (void);
++ (void)B;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (id);
 + (void)(;
 
 @end

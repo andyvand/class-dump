@@ -5,5 +5,9 @@
 //
 
 @protocol AuthWebViewDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

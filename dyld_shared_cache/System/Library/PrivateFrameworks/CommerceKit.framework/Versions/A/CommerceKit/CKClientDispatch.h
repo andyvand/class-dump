@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface CKClientDispatch
 {
     NSObject<OS_xpc_object> *serviceXPCConnection;
-    NSLock *serviceConnectionLock;
-    NSObject<OS_xpc_object> *agentXPCConnection;
-    NSLock *agentConnectionLock;
-    NSObject<OS_dispatch_queue> *mQueue;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -27,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)+;
 - (void);
 
 @end

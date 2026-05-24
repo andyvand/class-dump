@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSTextAttachment;
+@class NSTextAttachment;
 
 @interface UITextAttachmentView : UIView
 {
@@ -27,13 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSTextAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

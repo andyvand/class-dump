@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSDate, NSString, TSDInteractiveCanvasController, TSUNoCopyDictionary;
+@class NSString;
 
 @interface TSDCanvasAnimation
 {
     NSString *_animationID;
-    void *_context;
-    id _delegate;
-    SEL _willStartSelector;
-    SEL _didStopSelector;
-    double _duration;
-    double _delay;
-    NSDate *_startDate;
-    CAMediaTimingFunction *_timingFunction;
-    float _repeatCount;
-    _Bool _repeatAutoreverses;
-    TSUNoCopyDictionary *_animationDictionariesForLayers;
-    CDUnknownBlockType _completionBlock;
-    unsigned int _outstandingAnimationCount;
-    _Bool _firstAnimationDidStart;
-    _Bool _allAnimationsFinishedBeforeStopping;
-    CDUnknownBlockType _filterBlock;
-    _Bool _useRepFiltering;
-    TSDInteractiveCanvasController *_interactiveCanvasController;
 }
 
-- (SEL);
+- (SEL);
 - (void);
 - (void);
 - (void);
@@ -46,7 +28,7 @@
 - (void);
 - (double);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)`;
 - (double);
 - (void);
 - (id);
@@ -57,8 +39,8 @@
 - (id);
 - (id);
 - (void);
-- (void)n:(id)arg1 columnBounds: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ties: /* Error: Ran out of types for this method. */;
+- (void)unobstructedSpanForPath:(id)arg1 startingSpan:columnBounds: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)removeValuesForProperties: /* Error: Ran out of types for this method. */;
 - (void)oot dataFromDocumentCachePath:(CDUnknownBlockType)arg1 ];
 - (void)Ä.;
 - (void)±Îÿ¿M\q;
@@ -67,29 +49,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *animationID; // @synthesize animationID=_animationID;
-@property(readonly, nonatomic) double beginTime;
-@property(readonly, nonatomic) NSString *beginTimeMode;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, nonatomic) void *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double delay; // @synthesize delay=_delay;
-@property(nonatomic) id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) SEL didStopSelector; // @synthesize didStopSelector=_didStopSelector;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=_interactiveCanvasController;
-@property(nonatomic) _Bool repeatAutoreverses; // @synthesize repeatAutoreverses=_repeatAutoreverses;
-@property(nonatomic) float repeatCount; // @synthesize repeatCount=_repeatCount;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
-@property(nonatomic) _Bool useRepFiltering; // @synthesize useRepFiltering=_useRepFiltering;
-@property(nonatomic) SEL willStartSelector; // @synthesize willStartSelector=_willStartSelector;
 
 @end
 

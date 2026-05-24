@@ -6,48 +6,33 @@
 
 #import <TSReading/TSDFill.h>
 
-@class NSObject, NSString, TSPData, TSUColor, TSUFlushableCachedImage;
-@protocol OS_dispatch_queue;
+@class TSPData;
 
 @interface TSDImageFill : TSDFill
 {
     TSPData *mImageData;
-    TSPData *mOriginalImageData;
-    _Bool mInterpretsUntaggedImageDataAsGeneric;
-    int mTechnique;
-    TSUColor *mTintColor;
-    TSUFlushableCachedImage *mStandardSizeTintedImage;
-    TSUFlushableCachedImage *mHalfSizeTintedImage;
-    TSUFlushableCachedImage *mQuarterSizeTintedImage;
-    TSUColor *mReferenceColor;
-    struct CGSize mFillSize;
-    _Bool mHasIndicatedInterestInProvider;
-    NSObject<OS_dispatch_queue> *mTempRenderLock;
-    struct CGImage *mTempRenderCopy;
-    struct CGImage *mSourceOfTempRenderCopy;
-    long long mTempRenderCount;
 }
 
 + (id);
 + (void);
-- (_Bool);
+- (_Bool)SmartTransitionParameters;
 - (id);
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)__C_Synthesized;
 - (void);
 - (struct CGImage *);
 - (struct CGImage *);
 - (struct CGImage *);
 - (struct CGImage *);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (SEL);
@@ -55,8 +40,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (struct CGSize);
+- (void);
+- (struct CGSize);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -66,7 +51,7 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (id);
+- (id)to Apple News' label on the welcome screen;
 - (int);
 - (void);
 - (void);
@@ -82,14 +67,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize fillSize; // @synthesize fillSize=mFillSize;
-@property(readonly, retain, nonatomic) TSPData *imageData; // @synthesize imageData=mImageData;
-@property(readonly, nonatomic) _Bool interpretsUntaggedImageDataAsGeneric; // @synthesize interpretsUntaggedImageDataAsGeneric=mInterpretsUntaggedImageDataAsGeneric;
-@property(readonly, retain, nonatomic) TSPData *originalImageData; // @synthesize originalImageData=mOriginalImageData;
-@property(readonly, nonatomic) NSString *presetKind;
-@property(readonly, nonatomic) double scale;
 @property(nonatomic) int technique; // @synthesize technique=mTechnique;
-@property(readonly, copy, nonatomic) TSUColor *tintColor; // @synthesize tintColor=mTintColor;
 
 @end
 

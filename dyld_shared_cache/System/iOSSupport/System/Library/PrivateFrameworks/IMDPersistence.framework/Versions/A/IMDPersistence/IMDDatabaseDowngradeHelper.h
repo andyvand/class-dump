@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMDDatabaseDowngradeHelper
 {
     _Bool _inTransaction;
-    struct sqlite3 *_database;
-    NSString *_path;
-    long long _downgradesToVersion;
-    NSArray *_tableNames;
-    NSArray *_createIndexesSQL;
-    NSArray *_createTablesSQL;
-    NSArray *_createTriggersSQL;
 }
 
 - (_Bool);
@@ -26,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -35,32 +28,25 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (struct sqlite3 *);
 - (_Bool)(t;
-- (_Bool)n;
+- (_Bool)SQLStatementInterpolation;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *createIndexesSQL; // @synthesize createIndexesSQL=_createIndexesSQL;
-@property(retain, nonatomic) NSArray *createTablesSQL; // @synthesize createTablesSQL=_createTablesSQL;
-@property(retain, nonatomic) NSArray *createTriggersSQL; // @synthesize createTriggersSQL=_createTriggersSQL;
-@property(readonly, nonatomic) struct sqlite3 *database; // @synthesize database=_database;
-@property(readonly, nonatomic) long long downgradesToVersion; // @synthesize downgradesToVersion=_downgradesToVersion;
-@property(readonly, nonatomic) _Bool isOpen;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSArray *tableNames; // @synthesize tableNames=_tableNames;
 
 @end
 

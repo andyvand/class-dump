@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface ASDIAPInfo
 {
     _Bool _autoRenewStatus;
-    _Bool _hasUsedFreeOffer;
-    _Bool _hasUsedIntroPricingOffer;
-    unsigned char _type;
-    NSNumber *_adamId;
-    NSNumber *_appAdamId;
-    NSDate *_expirationDate;
-    NSDate *_lastModifiedDate;
-    NSDate *_purchaseDate;
-    NSString *_subscriptionFamilyId;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -41,31 +32,19 @@
 - (id);
 - (unsigned char);
 - (_Bool);
-- (void);
+- (void)i;
+- (id)GEODirectionsService"16@"NSArray"24@?<v@?@"GEODirectionsServiceFamiliarRoute">32;
+- (id)isplayingNavigationTray:(struct _NSZone *)arg1 ];
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *adamId; // @synthesize adamId=_adamId;
-@property(retain, nonatomic) NSNumber *appAdamId; // @synthesize appAdamId=_appAdamId;
-@property(nonatomic) _Bool autoRenewStatus; // @synthesize autoRenewStatus=_autoRenewStatus;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) NSNumber *expirationTimestamp;
-@property(nonatomic) _Bool hasUsedFreeOffer; // @synthesize hasUsedFreeOffer=_hasUsedFreeOffer;
-@property(nonatomic) _Bool hasUsedIntroPricingOffer; // @synthesize hasUsedIntroPricingOffer=_hasUsedIntroPricingOffer;
-@property(retain, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(readonly, nonatomic) NSNumber *lastModifiedTimestamp;
-@property(retain, nonatomic) NSDate *purchaseDate; // @synthesize purchaseDate=_purchaseDate;
-@property(readonly, nonatomic) NSNumber *purchaseTimestamp;
-@property(retain, nonatomic) NSString *subscriptionFamilyId; // @synthesize subscriptionFamilyId=_subscriptionFamilyId;
-@property(nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end
 

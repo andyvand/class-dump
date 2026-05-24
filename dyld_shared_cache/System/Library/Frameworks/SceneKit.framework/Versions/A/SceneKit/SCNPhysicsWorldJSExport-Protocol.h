@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol SCNPhysicsContactDelegate;
-
 @protocol SCNPhysicsWorldJSExport
+- (double)/>~;
+- (void)MM;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allBehaviors;
-@property id <SCNPhysicsContactDelegate> contactDelegate;
 @property(nonatomic) struct SCNVector3 gravity;
-@property(nonatomic) double speed;
-@property(nonatomic) double timeStep;
 @end
 

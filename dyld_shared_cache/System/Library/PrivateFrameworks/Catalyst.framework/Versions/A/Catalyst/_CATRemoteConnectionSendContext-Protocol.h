@@ -7,9 +7,6 @@
 @protocol _CATRemoteConnectionSendContext
 
 // Remaining properties
-@property(nonatomic) unsigned long long bytesWritten;
-@property(readonly, nonatomic) unsigned long long clientBytesWritten;
-@property(readonly, nonatomic) _Bool hasBytesRemaining;
 @property(readonly, nonatomic) id userInfo;
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol _OSSystemExtensionServerToClientInterface
+- (void)%@ destination %@;
+- (void)ervices/files/;
+- (void)rceTransferSender:failed to create data message from %@ /* Error: Ran out of types for this method. */;
+- (void)eceiver:(long long)arg1 finished writing all %llu  bytes to file %@;
 @end
 

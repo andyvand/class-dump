@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMeasurement, NSString, WFTimeInterval;
+@class NSString;
 
 @interface WFTripInfo
 {
     NSString *_routeName;
-    NSMeasurement *_distance;
-    WFTimeInterval *_expectedTravelTime;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMeasurement *distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) WFTimeInterval *expectedTravelTime; // @synthesize expectedTravelTime=_expectedTravelTime;
 @property(readonly, nonatomic) NSString *routeName; // @synthesize routeName=_routeName;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

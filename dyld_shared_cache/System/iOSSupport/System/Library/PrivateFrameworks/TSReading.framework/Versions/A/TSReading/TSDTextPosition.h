@@ -7,29 +7,23 @@
 @interface TSDTextPosition
 {
     unsigned long long _charIndex;
-    _Bool _eolAffinity;
-    float _preferredPosition;
-    _Bool _isPreferredStart;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)Z;
 - (id);
 - (_Bool);
-- (int);
+- (int);
 - (float);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)BM;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long charIndex; // @synthesize charIndex=_charIndex;
-@property(readonly, nonatomic) _Bool endOfLineAffinity; // @synthesize endOfLineAffinity=_eolAffinity;
-@property(readonly, nonatomic) _Bool isPreferredStart; // @synthesize isPreferredStart=_isPreferredStart;
-@property(readonly, nonatomic) float preferredPosition; // @synthesize preferredPosition=_preferredPosition;
 
 @end
 

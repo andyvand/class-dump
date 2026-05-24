@@ -7,6 +7,6 @@
 @interface UnknownClass (NSValueDDRangeExtensions)
 + (id);
 - (struct _DDRange);
-- (long long);
+- (long long);
 @end
 

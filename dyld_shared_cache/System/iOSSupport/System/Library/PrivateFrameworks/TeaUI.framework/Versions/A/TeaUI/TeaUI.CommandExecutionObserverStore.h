@@ -9,7 +9,7 @@
     id observers;
 }
 
-- (void);
+- (void)_customPathsSystemToSystemSizeFinal;
 
 @end
 

@@ -4,55 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUMessageSession, NSMutableSet, NSObject, NSString, NSXPCListener, NSXPCListenerEndpoint;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUMessageSessionServer
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _registerRequestHandler;
-    CDUnknownBlockType _deregisterRequestHandler;
-    CDUnknownBlockType _sendRequestHandler;
-    NSMutableSet *_xpcConnections;
-    NSXPCListenerEndpoint *_xpcEndpoint;
-    NSXPCListener *_xpcListener;
-    CDUnknownBlockType _invalidationHandler;
-    CUMessageSession *_templateSession;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)an;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) CDUnknownBlockType deregisterRequestHandler; // @synthesize deregisterRequestHandler=_deregisterRequestHandler;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType registerRequestHandler; // @synthesize registerRequestHandler=_registerRequestHandler;
-@property(copy, nonatomic) CDUnknownBlockType sendRequestHandler; // @synthesize sendRequestHandler=_sendRequestHandler;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CUMessageSession *templateSession; // @synthesize templateSession=_templateSession;
 
 @end
 

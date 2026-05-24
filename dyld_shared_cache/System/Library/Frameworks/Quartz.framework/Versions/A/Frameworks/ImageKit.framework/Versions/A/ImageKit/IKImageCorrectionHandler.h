@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKScanUIControllerAdvanced, NSArray, NSMutableArray;
+@class IKScanUIControllerAdvanced;
 
 @interface IKImageCorrectionHandler
 {
     IKScanUIControllerAdvanced *_scanUIController;
-    NSMutableArray *_imageCorrections;
-    long long _currentOverviewImageMode;
-    int _imageCorrectionMode;
-    _Bool _manualCorrectionEnabled;
-    _Bool _textModeDitheringEnabled;
 }
 
 - (_Bool);
@@ -21,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (void);
@@ -40,10 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *imageCorrections; // @synthesize imageCorrections=_imageCorrections;
-@property _Bool manualCorrectionEnabled; // @synthesize manualCorrectionEnabled=_manualCorrectionEnabled;
 @property IKScanUIControllerAdvanced *scanUIController; // @synthesize scanUIController=_scanUIController;
-@property(nonatomic) _Bool textModeDitheringEnabled; // @synthesize textModeDitheringEnabled=_textModeDitheringEnabled;
 
 @end
 

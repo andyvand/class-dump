@@ -7,8 +7,6 @@
 @interface SIComponentIdentifier
 {
     id componentName;
-    id _uuid;
-    id $__lazy_storage_$_uuid;
 }
 
 @end

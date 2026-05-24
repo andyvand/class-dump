@@ -7,8 +7,6 @@
 @interface UIKit._IntelligenceLightSourceFillProvider__priv_1224E733E1875C87E73DF2A91211E8CE
 {
     id lightSource;
-    id handle;
-    id visibilityKeyPath;
 }
 
 @end

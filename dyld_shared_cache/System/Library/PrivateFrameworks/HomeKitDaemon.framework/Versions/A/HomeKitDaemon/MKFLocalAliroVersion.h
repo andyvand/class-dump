@@ -17,8 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bleAdvertisingVersions; // @dynamic bleAdvertisingVersions;
-@property(retain, nonatomic) NSData *bleUWBSupportedVersions; // @dynamic bleUWBSupportedVersions;
-@property(retain, nonatomic) NSData *expeditedTransactionSupportedVersions; // @dynamic expeditedTransactionSupportedVersions;
 
 @end
 

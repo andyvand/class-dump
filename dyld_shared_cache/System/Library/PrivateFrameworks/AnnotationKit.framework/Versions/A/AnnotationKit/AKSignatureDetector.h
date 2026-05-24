@@ -4,60 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AKSignatureDetector
 {
     double _baselinePosition;
-    double _borderWidth;
-    struct vImage_Buffer _fullARGB;
-    struct vImage_Buffer _smallARGB;
-    struct vImage_Buffer _smallPlanar;
-    struct vImage_Buffer _tmpSmallPlanar1;
-    struct vImage_Buffer _tmpSmallPlanar2;
-    struct vImage_Buffer _tmpSmallPlanar3;
-    struct vImage_Buffer _tmpSmallPlanar4;
-    int *_blackLengths;
-    int *_blackLengthsScaled;
-    int *_blackOrigins;
-    int _prevTop;
-    int _prevBottom;
-    int _prevLeft;
-    int _prevRight;
-    int _stableFrames;
-    unsigned long long _lastFrameWidth;
-    unsigned long long _lastFrameHeight;
-    _Bool _running;
-    NSObject<OS_dispatch_queue> *_processingQueue;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (double);
-- (id);
-- (void);
+- (id);
+- (double);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%@ to is not supported;
+- (void)mat == MTLPixelFormatRGBA16Float;
 - (id);
 - (_Bool);
-- (id);
+- (id)!a;
 - (double);
 - (void);
 
 // Remaining properties
-@property double baselinePosition; // @synthesize baselinePosition=_baselinePosition;
-@property double borderWidth; // @synthesize borderWidth=_borderWidth;
 @property(retain) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property _Bool running; // @synthesize running=_running;
-@property(readonly) NSImage *testImage;
 
 @end
 

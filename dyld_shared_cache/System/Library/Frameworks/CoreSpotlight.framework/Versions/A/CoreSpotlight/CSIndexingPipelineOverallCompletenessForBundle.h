@@ -6,16 +6,11 @@
 
 #import <CoreSpotlight/CSIndexingPipelineOverallCompleteness.h>
 
-@class NSNumber, NSString;
-@protocol DonationProgressReporting;
+@class NSString;
 
 @interface CSIndexingPipelineOverallCompletenessForBundle : CSIndexingPipelineOverallCompleteness
 {
     NSString *_bundleID;
-    id <DonationProgressReporting> _donationProgress;
-    NSNumber *_pipelineCompletenessFirstTimeBucket;
-    NSNumber *_pipelineCompletenessSecondBucket;
-    NSNumber *_pipelineCompletenessThirdBucket;
 }
 
 + (_Bool);
@@ -28,14 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) id <DonationProgressReporting> donationProgress; // @synthesize donationProgress=_donationProgress;
-@property(readonly) NSNumber *pipelineCompletenessFirstTimeBucket; // @synthesize pipelineCompletenessFirstTimeBucket=_pipelineCompletenessFirstTimeBucket;
-@property(readonly) NSNumber *pipelineCompletenessSecondBucket; // @synthesize pipelineCompletenessSecondBucket=_pipelineCompletenessSecondBucket;
-@property(readonly) NSNumber *pipelineCompletenessThirdBucket; // @synthesize pipelineCompletenessThirdBucket=_pipelineCompletenessThirdBucket;
 
 @end
 

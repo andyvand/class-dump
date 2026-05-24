@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 @interface ACUICertificatePanelManager
 {
     _Bool _userAccepted;
-    struct __SecTrust *_trust;
-    NSError *_error;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
 - (_Bool);
@@ -30,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSError *error; // @synthesize error=_error;
 @property(retain) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property(readonly) struct __SecTrust *trust; // @synthesize trust=_trust;
-@property _Bool userAccepted; // @synthesize userAccepted=_userAccepted;
 
 @end
 

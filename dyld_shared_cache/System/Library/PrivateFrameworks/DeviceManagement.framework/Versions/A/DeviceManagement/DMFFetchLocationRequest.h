@@ -16,13 +16,13 @@
 + (Class);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)(;
 + (id);
 - (id);
 - (void);
-- (void);
-- (id)ringValue;
-- (void)Key;
+- (void)CNAutocompleteResultFormatter;
+- (id)stringValue;
+- (void)DMFDeviceActiveManagedUsersKey;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *originator; // @synthesize originator=_originator;

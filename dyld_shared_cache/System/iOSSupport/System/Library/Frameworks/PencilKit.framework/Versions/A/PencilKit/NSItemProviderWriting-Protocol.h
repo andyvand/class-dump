@@ -7,6 +7,10 @@
 @class NSArray;
 
 @protocol NSItemProviderWriting
++ (NSArray *)_overlappingControlsColor;
+
+@optional
+- (NSArray *)_setOverrideActionButtonColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

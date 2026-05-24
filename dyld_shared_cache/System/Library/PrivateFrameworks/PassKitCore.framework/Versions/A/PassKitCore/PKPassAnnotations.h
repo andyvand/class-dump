@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PKPassAnnotations
 {
     long long _sortingState;
-    NSDate *_archivedTimestamp;
 }
 
 + (_Bool)î%1Â0@ù
@@ -24,14 +21,13 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasAction:(id)arg1;
+- (void)cellular_radio_technology;
 - (id);
-- (id)leVisibility;
+- (id)allPossibleVisibility;
 - (void)g options. Choose one.;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *archivedTimestamp; // @synthesize archivedTimestamp=_archivedTimestamp;
 @property(nonatomic) long long sortingState; // @synthesize sortingState=_sortingState;
 
 @end

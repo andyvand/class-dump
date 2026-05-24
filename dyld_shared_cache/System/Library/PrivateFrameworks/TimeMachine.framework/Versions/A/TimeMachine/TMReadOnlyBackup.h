@@ -6,13 +6,11 @@
 
 #import <TimeMachine/TMStructure.h>
 
-@class NSDate, NSString, NSURL, TMAPFSBackup, TMSnapshot;
+@class TMSnapshot;
 
 @interface TMReadOnlyBackup : TMStructure
 {
     _Bool _isInWorkingSet;
-    TMAPFSBackup *_nestedBackup;
-    NSDate *_dateCompleted;
 }
 
 + (_Bool);
@@ -20,10 +18,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)J;
++ (id)*;
 + (void);
-+ (id);
++ (id)h;
 + (id);
 + (id);
 + (id);
@@ -50,34 +48,14 @@
 - (id);
 - (unsigned long long);
 - (int);
-- (long long);
+- (long long)view:(id)arg1 makeReferenceToView: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
-- (id)rd: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)handleMessage:forRecord: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSDate *dateCompleted; // @synthesize dateCompleted=_dateCompleted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSURL *expectedBackupURL;
-@property(readonly) unsigned long long fileID;
-@property(readonly) int flags;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isComplete;
-@property _Bool isInWorkingSet; // @synthesize isInWorkingSet=_isInWorkingSet;
-@property(readonly, copy) NSURL *liveVolumeMountPoint;
-@property(readonly) unsigned long long maximumFileID;
-@property(readonly) NSString *name;
-@property(readonly) TMAPFSBackup *nestedBackup; // @synthesize nestedBackup=_nestedBackup;
-@property(readonly) NSURL *rootURL;
 @property(readonly) TMSnapshot *snapshot;
-@property(readonly, copy) NSString *snapshotName;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long xid;
 
 @end
 

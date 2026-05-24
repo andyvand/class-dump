@@ -6,42 +6,15 @@
 
 #import <AppKit/NSView.h>
 
-@class NSImage, NSString, NSTableHeaderData, NSTableView;
+@class NSTableHeaderData, NSTableView;
 
 @interface NSTableHeaderView : NSView
 {
     NSTableHeaderData *_viewData;
-    long long _pressedColumn;
-    NSView *_backgroundView;
-    unsigned int _drawsBackground:1;
-    unsigned int _isColumnResizing:1;
-    unsigned int _alignTitleWithDataCell:1;
-    unsigned int _nextColumnAfterDrawnOneIsSelected:1;
-    unsigned int _wantsTranslucency:1;
-    unsigned int _addedBlurToClipView:1;
-    unsigned int _usedNewHeight:1;
-    long long _resizedColumn;
-    NSTableView *_tableView;
-    long long _draggedColumn;
-    NSImage *_headerDragImage;
-    double _draggedDistance;
-    unsigned int _showHandCursorFired:1;
-    unsigned int _toolTipRectsDirty:1;
-    _Bool _skipDrawingSeparator;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long draggedColumn;
-@property(readonly) double draggedDistance;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long resizedColumn;
-@property(readonly) Class superclass;
 @property __weak NSTableView *tableView;
 @end
 

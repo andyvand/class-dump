@@ -9,26 +9,17 @@
 @interface EWSImAddressDictionaryEntryType
 {
     NSString *_Key;
-    NSString *_contentString;
 }
 
-+ (id);
++ (id):H_ADSgtGG_,7 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *Key; // @synthesize Key=_Key;
-@property(copy, nonatomic) NSString *contentString; // @synthesize contentString=_contentString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

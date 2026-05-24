@@ -11,7 +11,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)ipeStatePerformingAction;
++ (id)UISwipeStatePerformingAction;
 + (long long)ÏÊg;
 
 @end

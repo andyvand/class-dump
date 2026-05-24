@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface EKUITextAndHeaderItem
 {
     NSString *_text;
-    NSString *_header;
-    long long _lines;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id):: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)CalendarEventAutocomplete;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSString *header; // @synthesize header=_header;
-@property(nonatomic) long long lines; // @synthesize lines=_lines;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

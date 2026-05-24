@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationConsumerServiceProtocolHandler
 {
     NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSOperationQueue *_operationQueue;
 }
 
 - (void);

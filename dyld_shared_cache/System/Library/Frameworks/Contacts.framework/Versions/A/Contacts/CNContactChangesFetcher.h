@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface CNContactChangesFetcher
 {
     _Bool _unify;
-    NSSet *_identifiers;
-    NSSet *_keysToFetch;
 }
 
 - (void)NSDictionary"16@?<v@?@"NSNumber"@"NSError">24;

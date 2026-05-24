@@ -13,8 +13,9 @@
     RTMotionActivity *_dominantMotionActivity;
 }
 
-- (id);
-- (id);
+- (id)blob;
+- (id)tity:(id)arg1 %@
+;
 - (void)received forced exit signal;
 
 // Remaining properties

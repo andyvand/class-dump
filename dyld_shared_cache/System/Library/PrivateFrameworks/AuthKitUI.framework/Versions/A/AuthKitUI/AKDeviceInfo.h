@@ -9,25 +9,18 @@
 @interface AKDeviceInfo
 {
     NSString *_udid;
-    NSString *_deviceName;
-    NSString *_osVersion;
-    NSString *_buildVersion;
 }
 
 + (id);
 - (long long);
-- (id);
-- (id);
+- (id)H87;
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (id)ound HME email bundle (%{private}@) in HTTP response;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) long long osTheme;
-@property(readonly, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
 @property(readonly, nonatomic) NSString *udid; // @synthesize udid=_udid;
 
 @end

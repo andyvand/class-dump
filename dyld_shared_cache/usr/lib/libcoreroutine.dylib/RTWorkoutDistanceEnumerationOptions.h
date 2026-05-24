@@ -7,12 +7,11 @@
 @interface RTWorkoutDistanceEnumerationOptions
 {
     unsigned long long _batchSize;
-    _Bool _ascending;
 }
 
-+ (_Bool);
++ (_Bool));
 - (id);
-- (id);
+- (id)Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation;
 - (id);
 - (_Bool);
 - (void);

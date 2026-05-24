@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTPlanGenerationError, NSData;
+@class IFTSchemaIFTPlanGenerationError;
 
 @interface IFTSchemaIFTRecoverableError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTPlanGenerationError *_planGenerationError;
-    _Bool _hasPlanGenerationError;
-    unsigned long long _whichOneof_Recoverableerror;
 }
 
 - (unsigned long long);
@@ -22,23 +20,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)�C;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)
 × ;
 - (id)ext;
-- (id)pant;
+- (id)CDASchemaCDAUserFeedbackParticipant;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlanGenerationError; // @synthesize hasPlanGenerationError=_hasPlanGenerationError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTPlanGenerationError *planGenerationError; // @synthesize planGenerationError=_planGenerationError;
-@property(readonly, nonatomic) unsigned long long whichOneof_Recoverableerror; // @synthesize whichOneof_Recoverableerror=_whichOneof_Recoverableerror;
 
 @end
 

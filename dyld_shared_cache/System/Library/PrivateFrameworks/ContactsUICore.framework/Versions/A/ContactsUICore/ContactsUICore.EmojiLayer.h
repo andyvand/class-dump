@@ -9,12 +9,12 @@
     id spec;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)!;
+- (id);
+- (id)#;
 - (void)!´Aùqý#ð1Â0@ù
 × ;
-- (void)der:usingAvailabilityProviderCall: /* Error: Ran out of types for this method. */;
+- (void)resolveIDSPropertiesForContact:schedulerProvider:usingAvailabilityProviderCall: /* Error: Ran out of types for this method. */;
 
 @end
 

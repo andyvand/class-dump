@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
 @protocol SWSession;
 
 @interface SWSessionScript
@@ -13,25 +12,14 @@
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)ing;
+- (id)CFBundleShortVersionString;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *executableScript;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool queueable;
 @property(readonly, nonatomic) id <SWSession> session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKUserScript *userScript;
 
 @end
 

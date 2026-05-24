@@ -11,17 +11,38 @@
 @interface MPPostEventNoticeCommandEvent : MPRemoteCommandEvent
 {
     NSString *_eventIdentifier;
-    NSString *_eventType;
 }
 
 - (id);
-- (id);
-- (id);
-- (void)ryPrivateListening;
+- (id)ets</key>
+	<dict>
+		<key>VELOCITY</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba16f</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+		</dict>
+		<key>blur-target</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+			<key>scaleFactor</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
+- (id)(;
+- (void)_loadCurrentAccessoryPrivateListening;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(readonly, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
 
 @end
 

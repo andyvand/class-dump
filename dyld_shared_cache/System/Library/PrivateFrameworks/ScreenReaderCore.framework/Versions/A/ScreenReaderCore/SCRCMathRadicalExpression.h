@@ -10,29 +10,27 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathRadicalExpression : SCRCMathExpression
 {
     SCRCMathExpression *_radicand;
-    SCRCMathExpression *_rootIndex;
 }
 
+- (id)z;
 - (id);
 - (id);
+- (void);
+- (void)m;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id),m;
 - (id);
 - (unsigned long long);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)F;
 - (id);
-- (id);
-- (void);
+- (void)4^@32;
 
 // Remaining properties
 @property(retain, nonatomic) SCRCMathExpression *radicand; // @synthesize radicand=_radicand;
-@property(retain, nonatomic) SCRCMathExpression *rootIndex; // @synthesize rootIndex=_rootIndex;
 
 @end
 

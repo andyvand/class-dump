@@ -7,6 +7,7 @@
 @interface CoreNFC.NFCTagReaderSessionDelegateSwiftWrapper
 {
     id swiftDelegate;
+    id hash;
 }
 
 - (void);

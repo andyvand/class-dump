@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface DDScanServerDispatcher
 {
     NSObject<OS_dispatch_queue> *_scannerQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_reportQueue;
-    NSObject<OS_dispatch_source> *_memoryWarningSource;
-    _Bool _memoryWarningInProgress;
-    NSMutableDictionary *_scanners;
-    _Bool _tearDownRequested;
-    unsigned long long _jobIdentifier;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)ublic}s failed to become ready for inspection while in play queue;
+- (void)fetchTypeURL: /* Error: Ran out of types for this method. */;
 
 @end
 

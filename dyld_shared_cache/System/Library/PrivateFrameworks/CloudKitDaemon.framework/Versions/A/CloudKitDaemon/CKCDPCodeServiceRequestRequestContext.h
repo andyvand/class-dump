@@ -4,32 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCDPCodeServiceRequestDatabaseOwner, CKCDPCodeServiceRequestOperationGroup, NSString;
-
 @interface CKCDPCodeServiceRequestRequestContext
 {
     unsigned long long _dsid;
-    NSString *_applicationBundleId;
-    NSString *_clientInfo;
-    NSString *_containerName;
-    int _databaseEnvironment;
-    CKCDPCodeServiceRequestDatabaseOwner *_databaseOwnerId;
-    int _databaseType;
-    NSString *_deviceId;
-    CKCDPCodeServiceRequestOperationGroup *_operationGroup;
-    NSString *_userAgent;
-    NSString *_userId;
-    _Bool _internalBuild;
-    struct {
-        unsigned int dsid:1;
-        unsigned int databaseEnvironment:1;
-        unsigned int databaseType:1;
-        unsigned int internalBuild:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,54 +41,32 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)ContractDataJourneyLine2;
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)alitySetting error. Unknown type. %@;
+- (id)ContextRouting has gone away
+;
 - (_Bool);
-- (_Bool);
+- (_Bool)userContentController:(id)arg1 didReceiveScriptMessage: /* Error: Ran out of types for this method. */;
+- (void)d;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void):(id)arg1 where:bindings:orderBy:limit:block: /* Error: Ran out of types for this method. */;
-- (id)atchingIdentityErrorForPCSError:withErrorCode:description: /* Error: Ran out of types for this method. */;
-- (unsigned long long)stSentCapabilitiesAndUsageEntry: /* Error: Ran out of types for this method. */;
-- (void)codePublicKey;
+- (void)selectFrom:(id)arg1 where:bindings:orderBy:limit:block: /* Error: Ran out of types for this method. */;
+- (id)noMatchingIdentityErrorForPCSError:withErrorCode:description: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithLastSentCapabilitiesAndUsageEntry: /* Error: Ran out of types for this method. */;
+- (void)fetchCachedTranscodePublicKey;
 - (id)è;
 - (id);
 - (void)idn't have chain PCS data on it for record %@;
-- (void)etedDataForZone;
+- (void)userDeletedDataForZone;
 - (void)Æ;
 - (_Bool)opedItemID=%{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *applicationBundleId; // @synthesize applicationBundleId=_applicationBundleId;
-@property(retain, nonatomic) NSString *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(retain, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(nonatomic) int databaseEnvironment; // @synthesize databaseEnvironment=_databaseEnvironment;
-@property(retain, nonatomic) CKCDPCodeServiceRequestDatabaseOwner *databaseOwnerId; // @synthesize databaseOwnerId=_databaseOwnerId;
-@property(nonatomic) int databaseType; // @synthesize databaseType=_databaseType;
-@property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(nonatomic) unsigned long long dsid; // @synthesize dsid=_dsid;
-@property(readonly, nonatomic) _Bool hasApplicationBundleId;
-@property(readonly, nonatomic) _Bool hasClientInfo;
-@property(readonly, nonatomic) _Bool hasContainerName;
-@property(nonatomic) _Bool hasDatabaseEnvironment;
-@property(readonly, nonatomic) _Bool hasDatabaseOwnerId;
-@property(nonatomic) _Bool hasDatabaseType;
-@property(readonly, nonatomic) _Bool hasDeviceId;
-@property(nonatomic) _Bool hasDsid;
-@property(nonatomic) _Bool hasInternalBuild;
-@property(readonly, nonatomic) _Bool hasOperationGroup;
-@property(readonly, nonatomic) _Bool hasUserAgent;
 @property(readonly, nonatomic) _Bool hasUserId;
-@property(nonatomic) _Bool internalBuild; // @synthesize internalBuild=_internalBuild;
-@property(retain, nonatomic) CKCDPCodeServiceRequestOperationGroup *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(retain, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
-@property(retain, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end
 

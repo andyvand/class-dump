@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIApplicationSceneSettings.h>
 
-@class NSString;
-
 @interface UICarPlayApplicationSceneSettings : UIApplicationSceneSettings
 {
 }
@@ -17,18 +15,10 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)eatingFrameUpdate;
+- (id)_scheduleRepeatingFrameUpdate;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool blackWallpaperModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool disableFiveRowKeyboards;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

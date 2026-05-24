@@ -5,5 +5,6 @@
 //
 
 @protocol PDSRequestQueueDelegate
+- (long long)readScope"16B24@"NSDate"28;
 @end
 

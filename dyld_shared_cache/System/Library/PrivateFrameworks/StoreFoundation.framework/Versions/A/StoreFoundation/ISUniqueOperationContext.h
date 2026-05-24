@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface ISUniqueOperationContext
 {
     NSMutableSet *_operations;
-    NSMutableDictionary *_uniqueOperations;
 }
 
 - (void);
 - (void);
-- (id);
+- (id));
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)0;
 - (void);
 - (void);
 - (id);

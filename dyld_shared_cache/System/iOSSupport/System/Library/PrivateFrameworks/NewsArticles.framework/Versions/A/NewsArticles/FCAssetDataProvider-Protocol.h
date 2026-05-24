@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol FCAssetDataProvider
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *filePath;
-@property(readonly, nonatomic) _Bool isRawFileConsumable;
 @end
 

@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)AXUIElementsForSearchPredicate;
 
 @end
 

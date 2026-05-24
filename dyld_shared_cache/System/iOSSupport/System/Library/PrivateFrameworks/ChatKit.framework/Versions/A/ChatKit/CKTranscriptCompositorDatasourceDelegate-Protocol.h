@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKTranscriptLayoutMessageEditingContext, NSCollectionLayoutGroup;
+
 @protocol CKTranscriptCompositorDatasourceDelegate
+- (NSCollectionLayoutGroup *)autoupdatingCurrentLocale;
+- (_Bool);
+- (struct UIEdgeInsets)ti;
+- (CKTranscriptLayoutMessageEditingContext *)storage;
 @end
 

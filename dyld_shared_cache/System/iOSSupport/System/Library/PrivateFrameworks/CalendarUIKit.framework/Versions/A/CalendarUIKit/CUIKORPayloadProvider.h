@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKORStringGenerator, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUIKORPayloadProvider
 {
     NSObject<OS_dispatch_queue> *_lookupQueue;
-    NSObject<OS_dispatch_queue> *_drawingQueue;
-    NSMutableDictionary *_pendingRequests;
-    CUIKORStringGenerator *_stringGenerator;
 }
 
 + (id);
@@ -26,23 +23,20 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)N,V_colorSwatchesVisible;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)ions;
+- (void)setPositions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *drawingQueue; // @synthesize drawingQueue=_drawingQueue;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *lookupQueue; // @synthesize lookupQueue=_lookupQueue;
-@property(readonly, nonatomic) NSMutableDictionary *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(readonly, nonatomic) CUIKORStringGenerator *stringGenerator; // @synthesize stringGenerator=_stringGenerator;
 
 @end
 

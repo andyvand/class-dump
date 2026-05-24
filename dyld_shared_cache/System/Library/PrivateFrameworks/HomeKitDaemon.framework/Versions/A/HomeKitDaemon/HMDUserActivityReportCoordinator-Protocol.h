@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol HMDUserActivityReportCoordinator
+- (void)allKnownReceiverCapabilities;
+- (void)already %lu subscription tokens for trip:(NSArray *)arg1 %@;
+- (void)participants are currently reachable for route;
 @end
 

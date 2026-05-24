@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString, RTVisit;
+@class NSDate;
 
 @interface RTVisitPipelineModuleSmoother
 {
     NSDate *_previousProcessedDate;
-    NSDate *_nextDateToProcess;
-    NSDate *_firstDateToProcessForVisit;
-    double _timeIntervalBetweenSmoothedPoints;
-    double _kernelWidth;
-    double _smallestSignificantWeightExponent;
-    double _maxGapInVisit;
-    unsigned long long _leftWindowIncludedIndex;
-    unsigned long long _rightWindowExcludedIndex;
-    unsigned long long _outputLocationsCount;
-    NSMutableArray *_rawLocations;
-    RTVisit *_workingVisit;
-    NSDate *_entryBeforeAnyGaps;
 }
 
-+ (_Bool);
-+ (double);
-+ (double);
-+ (id);
-+ (double);
-+ (id);
-+ (unsigned long long);
-+ (void);
-+ (id);
-+ (id);
++ (_Bool)%s;
++ (double)virtual;
++ (double)task;
++ (id)sauce;
++ (double)rifle;
++ (id)popular;
++ (unsigned long long)forest;
++ (void)FlagFailedToFetchWStatus;
++ (id)l iCDP status is %d;
++ (id)FlagLRCRecordExistsWithWalrusOn;
 - (id);
 - (void);
-- (double);
+- (double)A;
 - (double);
 - (unsigned long long);
 - (id);
@@ -43,7 +31,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (double);
+- (double)C;
 - (unsigned long long);
 - (id);
 - (id);
@@ -51,34 +39,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)g;
 - (id);
-- (id);
-- (id);
-- (double)on_weekend_work;
+- (double)SD_daily_longest_visit_duration_weekend_work;
 - (void)dState:%{Bool}d /* Error: Ran out of types for this method. */;
 - (void)ts with new device MOID %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *entryBeforeAnyGaps; // @synthesize entryBeforeAnyGaps=_entryBeforeAnyGaps;
-@property(readonly, nonatomic) NSDate *firstDateToProcessForVisit; // @synthesize firstDateToProcessForVisit=_firstDateToProcessForVisit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) unsigned long long leftWindowIncludedIndex; // @synthesize leftWindowIncludedIndex=_leftWindowIncludedIndex;
-@property(readonly, nonatomic) double maxGapInVisit; // @synthesize maxGapInVisit=_maxGapInVisit;
-@property(readonly, nonatomic) NSDate *nextDateToProcess; // @synthesize nextDateToProcess=_nextDateToProcess;
-@property(readonly, nonatomic) unsigned long long outputLocationsCount; // @synthesize outputLocationsCount=_outputLocationsCount;
 @property(readonly, nonatomic) NSDate *previousProcessedDate; // @synthesize previousProcessedDate=_previousProcessedDate;
-@property(readonly, nonatomic) NSMutableArray *rawLocations; // @synthesize rawLocations=_rawLocations;
-@property(readonly, nonatomic) unsigned long long rightWindowExcludedIndex; // @synthesize rightWindowExcludedIndex=_rightWindowExcludedIndex;
-@property(readonly, nonatomic) double smallestSignificantWeightExponent; // @synthesize smallestSignificantWeightExponent=_smallestSignificantWeightExponent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeIntervalBetweenSmoothedPoints; // @synthesize timeIntervalBetweenSmoothedPoints=_timeIntervalBetweenSmoothedPoints;
-@property(readonly, nonatomic) RTVisit *workingVisit; // @synthesize workingVisit=_workingVisit;
 
 @end
 

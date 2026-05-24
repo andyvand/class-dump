@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVDistantEndpoint, MRAVEndpoint, MRActiveRoutesObserverOutputDeviceRemovedSnapshot, MSVTimer, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class MRAVEndpoint;
 
 @interface MRActiveRoutesObserver
 {
     MRAVEndpoint *_activeEndpoint;
-    _Bool _localDeviceAirPlayActive;
-    _Bool _supportNonLocalDevices;
-    NSArray *_activeRouteIDs;
-    CDUnknownBlockType _activeRouteIDsChangedCallback;
-    CDUnknownBlockType _isLocalDeviceAirPlayActiveCallback;
-    MRAVDistantEndpoint *_activeEndpointSnapshot;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    id _lastFetchAttemptToken;
-    MRActiveRoutesObserverOutputDeviceRemovedSnapshot *_deviceRemovedSnapshot;
-    double _deviceRemovedWaitInterval;
-    MSVTimer *_deviceRemovedWaitIntervalTimer;
 }
 
 + (void);
-+ (void);
-+ (id);
++ (void)Ti;
++ (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,17 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ka;
 - (id);
+- (CDUnknownBlockType)ᏹhhx;
+- (_Bool)ᏹ	hhx
+;
+- (id);
+- (id);
+- (id);
+- (double);
+- (id);
 - (CDUnknownBlockType);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
@@ -61,22 +50,11 @@
 - (void);
 - (void);
 - (id);
-- (void)ContextEmpty;
-- (void)ReturnStatusDataAtIndex: /* Error: Ran out of types for this method. */;
+- (void)outputContextEmpty;
+- (void)handlerReturnStatusDataAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MRAVEndpoint *activeEndpoint;
-@property(retain, nonatomic) MRAVDistantEndpoint *activeEndpointSnapshot; // @synthesize activeEndpointSnapshot=_activeEndpointSnapshot;
-@property(retain, nonatomic) NSArray *activeRouteIDs; // @synthesize activeRouteIDs=_activeRouteIDs;
 @property(copy, nonatomic) CDUnknownBlockType activeRouteIDsChangedCallback; // @synthesize activeRouteIDsChangedCallback=_activeRouteIDsChangedCallback;
-@property(retain, nonatomic) MRActiveRoutesObserverOutputDeviceRemovedSnapshot *deviceRemovedSnapshot; // @synthesize deviceRemovedSnapshot=_deviceRemovedSnapshot;
-@property(nonatomic) double deviceRemovedWaitInterval; // @synthesize deviceRemovedWaitInterval=_deviceRemovedWaitInterval;
-@property(retain, nonatomic) MSVTimer *deviceRemovedWaitIntervalTimer; // @synthesize deviceRemovedWaitIntervalTimer=_deviceRemovedWaitIntervalTimer;
-@property(nonatomic) _Bool isLocalDeviceAirPlayActive;
-@property(copy, nonatomic) CDUnknownBlockType isLocalDeviceAirPlayActiveCallback; // @synthesize isLocalDeviceAirPlayActiveCallback=_isLocalDeviceAirPlayActiveCallback;
-@property(retain, nonatomic) id lastFetchAttemptToken; // @synthesize lastFetchAttemptToken=_lastFetchAttemptToken;
-@property(nonatomic) _Bool supportNonLocalDevices; // @synthesize supportNonLocalDevices=_supportNonLocalDevices;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workerQueue; // @synthesize workerQueue=_workerQueue;
 
 @end
 

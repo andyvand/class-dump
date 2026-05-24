@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)stringByAppendingPathComponent:(id)arg1;
 
 @end
 

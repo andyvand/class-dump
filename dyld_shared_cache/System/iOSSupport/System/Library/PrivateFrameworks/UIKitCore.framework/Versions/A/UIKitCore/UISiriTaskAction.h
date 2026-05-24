@@ -10,11 +10,11 @@
 {
 }
 
-- (id);
+- (id)lastModifiedDate;
 - (id)
 × ;
-- (id)tivityItemsConfiguration;
-- (id)eter;
+- (id)_activityItemsConfiguration;
+- (id)RotaryFocusRingDiameter;
 - (long long);
 
 // Remaining properties

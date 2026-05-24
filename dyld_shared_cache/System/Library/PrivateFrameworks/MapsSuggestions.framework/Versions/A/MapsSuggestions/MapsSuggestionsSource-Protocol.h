@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEOMapItemStorage;
 @protocol MapsSuggestionsSourceDelegate;
 
 @protocol MapsSuggestionsSource
++ (_Bool);
+- (void);
+- (void)setRightBarButtonItems:(GEOMapItemStorage *)arg1 animated:(long long)arg2;
+- (id)a;
 
 // Remaining properties
 @property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;

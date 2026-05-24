@@ -6,31 +6,27 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class NSString, WFDialogButton;
+@class NSString;
 
 @interface WFShowAlertDialogRequest : WFDialogRequest
 {
     NSString *_message;
-    WFDialogButton *_okButton;
-    WFDialogButton *_cancelButton;
 }
 
 + (_Bool);
+- (id),3|;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)t;
 - (id);
 - (id);
 - (void)!UÐ!@ùÑ^°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WFDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) WFDialogButton *okButton; // @synthesize okButton=_okButton;
 
 @end
 

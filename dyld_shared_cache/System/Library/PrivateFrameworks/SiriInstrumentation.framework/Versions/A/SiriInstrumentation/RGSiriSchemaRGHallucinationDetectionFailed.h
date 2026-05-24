@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGHallucinationDetectionFailed : SISchemaInstrumentationMessage
 {
     int _fatalError;
-    RGSiriSchemaRGError *_error;
-    CDStruct_bed9e062 _has;
-    _Bool _hasError;
 }
 
 - (void);
@@ -25,25 +20,21 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDClaimApplicationsRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)server_change_token;
+- (_Bool)irmTablesCreatedAsExpected(NSError **);
 - (void);
 - (id);
 - (id);
-- (id):(id)arg1;
+- (id)addPreferredLanguages:(id)arg1;
 - (id)tSeconds;
-- (void)figVersion;
+- (void)voiceTriggerConfigVersion;
 - (void)ionReported.userFeedbackParticipants.halTargetSiriSpeechId;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
 @property(nonatomic) int fatalError; // @synthesize fatalError=_fatalError;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFatalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

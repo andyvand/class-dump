@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCCCMessage, VCCCMessageAcknowledgment;
+@class VCCCMessageAcknowledgment;
 
 __attribute__((visibility("hidden")))
 @interface VCCCMessageWrapper
 {
     VCCCMessageAcknowledgment *_acknowledgement;
-    int _content;
-    VCCCMessage *_message;
-    struct {
-        unsigned int content:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)m;
 - (int);
 - (void);
 - (_Bool);
@@ -37,18 +32,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)1ä1Â0@ù
 × ;
-- (id)etSegments: /* Error: Ran out of types for this method. */;
-- (void)dePixelFormats;
+- (id)setSegments: /* Error: Ran out of types for this method. */;
+- (void)_hdrModePixelFormats;
 - (_Bool)tream [%s] %s:%d AVCVideoStream:didStartConnectionBlock strongSelf started(%d) /* Error: Ran out of types for this method. */;
 - (int)blob (v2) microphone U+1 settings;
 
 // Remaining properties
-@property(retain, nonatomic) VCCCMessageAcknowledgment *acknowledgement; // @synthesize acknowledgement=_acknowledgement;
-@property(nonatomic) int content; // @synthesize content=_content;
-@property(readonly, nonatomic) _Bool hasAcknowledgement;
-@property(nonatomic) _Bool hasContent;
 @property(readonly, nonatomic) _Bool hasMessage;
-@property(retain, nonatomic) VCCCMessage *message; // @synthesize message=_message;
 
 @end
 

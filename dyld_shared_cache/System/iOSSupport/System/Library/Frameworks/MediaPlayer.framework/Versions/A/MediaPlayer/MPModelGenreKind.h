@@ -16,10 +16,10 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)atCookedColumnDefault;
+- (id)unsuccessful.;
+- (unsigned long long)locality;
+- (id)resourceURL;
 - (_Bool);
 - (void);
 - (void)itialization,V_requestingPlaybackInitialization;

@@ -11,7 +11,7 @@
     NSError *_error;
 }
 
-- (id);
+- (id)K;
 - (void);
 - (void);
 

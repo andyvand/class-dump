@@ -4,30 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBAppLaunchEvent
 {
     double _absoluteTimestamp;
-    double _duration;
-    NSString *_bundleID;
-    NSString *_exactVersionString;
-    NSString *_extensionHostID;
-    NSString *_launchReason;
-    int _launchType;
-    NSString *_parentBundleID;
-    NSString *_shortVersionString;
-    _Bool _starting;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int duration:1;
-        unsigned int launchType:1;
-        unsigned int starting:1;
-    } _has;
 }
 
 - (void);
-- (id);
+- (id)/;
 - (id);
 - (_Bool);
 - (int);
@@ -43,18 +26,18 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)K;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)rom a state that is not IMKUIExpandedMultiLineState;
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)_positionIndex;
+- (_Bool);
+- (int)setImage:(id)arg1 metaData:addToMemoryCache:completion: /* Error: Ran out of types for this method. */;
+- (void)applyWithExtent:(id)arg1 roiCallback:arguments: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -75,26 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSString *exactVersionString; // @synthesize exactVersionString=_exactVersionString;
-@property(retain, nonatomic) NSString *extensionHostID; // @synthesize extensionHostID=_extensionHostID;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasExactVersionString;
-@property(readonly, nonatomic) _Bool hasExtensionHostID;
 @property(readonly, nonatomic) _Bool hasLaunchReason;
-@property(nonatomic) _Bool hasLaunchType;
-@property(readonly, nonatomic) _Bool hasParentBundleID;
-@property(readonly, nonatomic) _Bool hasShortVersionString;
-@property(nonatomic) _Bool hasStarting;
-@property(retain, nonatomic) NSString *launchReason; // @synthesize launchReason=_launchReason;
-@property(nonatomic) int launchType; // @synthesize launchType=_launchType;
-@property(retain, nonatomic) NSString *parentBundleID; // @synthesize parentBundleID=_parentBundleID;
-@property(retain, nonatomic) NSString *shortVersionString; // @synthesize shortVersionString=_shortVersionString;
-@property(nonatomic) _Bool starting; // @synthesize starting=_starting;
 
 @end
 

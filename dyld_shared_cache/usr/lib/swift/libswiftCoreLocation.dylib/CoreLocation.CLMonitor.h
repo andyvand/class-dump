@@ -7,9 +7,6 @@
 @interface CoreLocation.CLMonitor
 {
     id $defaultActor;
-    id _monitoringRecords;
-    id monitor;
-    id events;
 }
 
 @end

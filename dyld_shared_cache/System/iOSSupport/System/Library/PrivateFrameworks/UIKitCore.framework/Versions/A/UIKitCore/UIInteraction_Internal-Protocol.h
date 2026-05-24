@@ -11,7 +11,7 @@
 @optional
 - (UITargetedPreview *)0@ù
 × ;
-- (void)idResumeFromUnderLock;
+- (void)applicationDidResumeFromUnderLock;
 - (void)©23Øoþ23Ôoþ;
 @end
 

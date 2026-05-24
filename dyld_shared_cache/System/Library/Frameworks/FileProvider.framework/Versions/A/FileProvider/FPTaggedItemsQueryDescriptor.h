@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)mdta/com.apple.proresraw.whitebalance.bycct.whitebalancefactors;
 
 @end
 

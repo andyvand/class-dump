@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSSet;
 
 @interface AMSEngagementPlacementInfo
 {
     _Bool _supportsMultipleMessages;
-    NSSet *_anchorIdentifiers;
-    NSDictionary *_context;
-    NSString *_placement;
 }
 
 - (_Bool);
@@ -19,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tamp;
 - (void);
 - (id);
 - (void)Mí¥Ú§+ÂÚ§+âÚÀ"wÚLÚ8ÖÚÿOÚ÷¼ÚÉÚÿoÚÉWÔÚÒÈÚìÚìùÚ¯8ÚDæÚ1{µÚ8vÚaLËÚµÁÄÚaL+Ú0ÚÚûÚÿÏÚ1{õÚìyÚÛ½Ú`ªÚ¼´çÚÚ»Ú#SÚìÚ®^AÚÚ[ÚÌÚåöºÚ¯Ú1{UÚEÞÚÿ/Úh9hÚs¦ÚìÙÚÉWtÚ*äÚÚ{ÚVr Ú®^ÁÚ`*ÚåöÚ÷\Ú8VÚÛ½òÚ¯Ú¯XÚ¼´§Úh9(ÚìÚzÓNÚ1{ÚåözÚÒÈÑÚEÚ÷ÚþiÚÚ;Ú_£ÚÒÈQÚ¯øÚ¬Ú#ÚµÁdÚ_CÚÿÚþi?Ú_#ÚMí%Úh9HÚs¦íÚ	ÚVràÚ_ÃÚzÓ®ÚMíÚÒÈñÚ)ÚÀ"·Ú¯xÚVrÚ¼´ÇÚ§+BÚÛ½RÚ÷|ÚDÆÚ#3Ú0=ÚÿïÚÉW4Ú1{ÕÚÚs¦ÚµÁDÚÉW´Ú§+¢Ú¼´GÚVr@ÚE¾Ú¯¸ÚÉWôÚ®^aÚD¦Ú÷Ús¦mÚþißÚþiÚs¦MÚÿÚ`JÚzÓÚ_Ú*ä0Ú`jÚÛ½2Ú`êÚE~Ú#óÚ0½ÚåöÚÚaLkÚE>Ú*äðÚ2#2);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(retain) NSSet *anchorIdentifiers; // @synthesize anchorIdentifiers=_anchorIdentifiers;
-@property(readonly) NSDictionary *context; // @synthesize context=_context;
-@property(readonly) NSString *placement; // @synthesize placement=_placement;
-@property _Bool supportsMultipleMessages; // @synthesize supportsMultipleMessages=_supportsMultipleMessages;
 
 @end
 

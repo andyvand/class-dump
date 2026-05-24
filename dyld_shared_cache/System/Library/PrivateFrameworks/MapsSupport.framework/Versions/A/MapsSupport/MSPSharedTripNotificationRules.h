@@ -4,70 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripNotificationRules
 {
     _Bool _hasMadeFinalPush;
-    unsigned long long _maxPostedNotifications;
-    unsigned long long _postedNotifications;
-    double _minimumETADifference;
-    double _minimumNotificationInterval;
-    NSDate *_lastPostedETADate;
-    NSDate *_lastPostedNotificationDate;
-    NSDate *_lastUpdatedDate;
-    NSDate *_currentETADate;
-    NSMapTable *_intermediateArrivalWaypointPostedNotifications;
 }
 
-+ (id);
++ (id);
 + (_Bool);
+- (void);
 - (void);
 - (void);
+- (void)l;
 - (void);
+- (void)l;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (double);
-- (double);
+- (double);
+- (double)T;
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)T;
+- (unsigned long long)T;
+- (id);
 - (double);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)dragImage:at:offset:event:pasteboard:source:slideBack: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *currentETADate; // @synthesize currentETADate=_currentETADate;
-@property(nonatomic) _Bool hasMadeFinalPush; // @synthesize hasMadeFinalPush=_hasMadeFinalPush;
-@property(retain, nonatomic) NSMapTable *intermediateArrivalWaypointPostedNotifications; // @synthesize intermediateArrivalWaypointPostedNotifications=_intermediateArrivalWaypointPostedNotifications;
-@property(retain, nonatomic) NSDate *lastPostedETADate; // @synthesize lastPostedETADate=_lastPostedETADate;
-@property(retain, nonatomic) NSDate *lastPostedNotificationDate; // @synthesize lastPostedNotificationDate=_lastPostedNotificationDate;
-@property(retain, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
 @property(nonatomic) unsigned long long maxPostedNotifications; // @synthesize maxPostedNotifications=_maxPostedNotifications;
-@property(nonatomic) double minimumETADifference; // @synthesize minimumETADifference=_minimumETADifference;
-@property(nonatomic) double minimumNotificationInterval; // @synthesize minimumNotificationInterval=_minimumNotificationInterval;
-@property(nonatomic) unsigned long long postedNotifications; // @synthesize postedNotifications=_postedNotifications;
 
 @end
 

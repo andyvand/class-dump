@@ -14,7 +14,7 @@
 + (void);
 + (_Bool);
 - (id);
-- (id);
+- (id)nstallCoordinationPromiseStagingDirectoryForUUID:(id)arg1 keepStagingDirectory:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

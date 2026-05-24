@@ -4,54 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSMutableDictionary, NSString, UIFlickingAssistantViewSupport, UIInputViewSet, UIInputViewSetPlacement, UIInputWindowController, UIInputWindowControllerHosting, UIKBInputBackdropView, UIScrollToDismissSupport, UISplitKeyboardSupport, UISystemKeyboardDockController, UIView, UIViewController, _UIKBLightEffectsBackground;
-@protocol UIInputViewSetPlacementApplicator, _UIRemoteKeyboardControllerDelegate;
+@class UISplitKeyboardSupport, UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIInputWindowControllerHostingItem
 {
     UISplitKeyboardSupport *_cachedSplitKeyboardController;
-    UIScrollToDismissSupport *_cachedScrollDismissController;
-    UIFlickingAssistantViewSupport *_cachedFlickingAssistantViewController;
-    CDUnknownBlockType _interactiveTransitionCleanupBlock;
-    double _backdropHeightDelta;
-    NSLayoutConstraint *_inputViewHeightConstraint;
-    NSLayoutConstraint *_assistantViewHeightConstraint;
-    NSLayoutConstraint *_accessoryViewHeightConstraint;
-    NSLayoutConstraint *_emptyHeightConstraint;
-    NSMutableDictionary *_inputViewEdgeConstraints;
-    NSMutableDictionary *_assistantViewEdgeConstraints;
-    NSMutableDictionary *_accessoryViewEdgeConstraints;
-    NSMutableDictionary *_inputCombinedBackdropViewEdgeConstraints;
-    NSMutableDictionary *_backdropInnerGuideConstraints;
-    NSMutableDictionary *_inputBackdropViewEdgeConstraints;
-    NSMutableDictionary *_inputBackdropBackgroundViewEdgeConstraints;
-    NSMutableDictionary *_inputDockViewEdgeConstraints;
-    NSMutableDictionary *_accessoryBackdropViewEdgeConstraints;
-    NSMutableDictionary *_inputSwitcherViewConstraints;
-    UIView *_inputBackdropBackgroundView;
-    UISystemKeyboardDockController *_dockViewController;
-    double _verticalTranslationForSplitKeyboard;
-    _Bool _scrolling;
-    UIInputViewSetPlacement *_cachedPlacement;
-    _Bool _supportsDockViewController;
-    _Bool _animatingBackdrops;
-    _Bool _assistantHostCanAnimate;
-    UIInputWindowControllerHosting *_container;
-    _UIKBLightEffectsBackground *_inputCombinedBackdropView;
-    UIKBInputBackdropView *_inputBackdropView;
-    UIKBInputBackdropView *_inputAccessoryBackdropView;
-    id <_UIRemoteKeyboardControllerDelegate> _controllerDelegate;
-    UIView *_hostView;
-    id <UIInputViewSetPlacementApplicator> _applicator;
-    UIView *_floatingKeyboardMaskView;
 }
 
 - (void);
-- (id)tyle:toTextRange: /* Error: Ran out of types for this method. */;
+- (id)_applyHighlightStyle:toTextRange: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)<X|X;
-- (id)nk;
+- (id)_UIWTCTextChunk;
 - (id);
 - (void)ÐÙ^;
 - (void);
@@ -203,48 +168,7 @@ __attribute__((visibility("hidden")))
 - (void)x¨Ýþ;
 
 // Remaining properties
-@property(retain, nonatomic, setter=setInputAccessoryBackdropView:) UIKBInputBackdropView *_inputAccessoryBackdropView; // @synthesize _inputAccessoryBackdropView;
-@property(retain, nonatomic, setter=setInputBackdropView:) UIKBInputBackdropView *_inputBackdropView; // @synthesize _inputBackdropView;
-@property(retain, nonatomic, setter=setCombinedBackdropView:) _UIKBLightEffectsBackground *_inputCombinedBackdropView; // @synthesize _inputCombinedBackdropView;
-@property(readonly, nonatomic) UIViewController *_inputViewController;
-@property(nonatomic) _Bool animatingBackdrops; // @synthesize animatingBackdrops=_animatingBackdrops;
-@property(retain, nonatomic) id <UIInputViewSetPlacementApplicator> applicator; // @synthesize applicator=_applicator;
-@property(nonatomic) _Bool assistantHostCanAnimate; // @synthesize assistantHostCanAnimate=_assistantHostCanAnimate;
-@property(readonly, nonatomic) __weak UIInputWindowControllerHosting *container; // @synthesize container=_container;
-@property(readonly) UIView *containerView;
-@property(retain, nonatomic) id <_UIRemoteKeyboardControllerDelegate> controllerDelegate; // @synthesize controllerDelegate=_controllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIView *dockView;
-@property(nonatomic) _Bool dontDismissReachability;
-@property(readonly, retain, nonatomic) UIFlickingAssistantViewSupport *flickingAssistantViewSupport; // @synthesize flickingAssistantViewSupport=_cachedFlickingAssistantViewController;
-@property(retain, nonatomic) UIView *floatingKeyboardMaskView; // @synthesize floatingKeyboardMaskView=_floatingKeyboardMaskView;
-@property(readonly) unsigned long long hash;
-@property _Bool hideInputView;
-@property _Bool hideInputViewBackdrops;
 @property(retain, nonatomic) UIView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) UIView *inputAccessoryView;
-@property(nonatomic) UIView *inputAssistantView;
-@property(nonatomic) UIView *inputSwitcherView;
-@property(nonatomic) UIView *inputView;
-@property(readonly) long long inputViewBackdropStyle;
-@property(readonly) struct UIEdgeInsets inputViewPadding;
-@property(readonly) UIInputViewSet *inputViewSet;
-@property(readonly, nonatomic) _Bool isChangingPlacement;
-@property(readonly, nonatomic) _Bool isOnScreenRotating;
-@property(readonly) _Bool keyboardController;
-@property(readonly, nonatomic) __weak UIInputWindowController *owner;
-@property(readonly, nonatomic) UIInputViewSetPlacement *placement;
-@property(readonly, nonatomic) struct CGPoint positionConstraintConstant;
-@property(readonly, nonatomic) _Bool scrollKeyboardActive; // @synthesize scrollKeyboardActive=_scrolling;
-@property(readonly, nonatomic) UIView *scrollTrackingView;
-@property(readonly, retain, nonatomic) UISplitKeyboardSupport *splitKeyboardController; // @synthesize splitKeyboardController=_cachedSplitKeyboardController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesKeyboardState;
-@property(readonly, nonatomic) UIView *view;
 
 @end
 

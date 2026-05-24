@@ -6,16 +6,11 @@
 
 #import <MapsSync/MSHistoryItem.h>
 
-@class GEOMapItemStorage, NSDate, NSNumber, NSUUID;
+@class NSNumber;
 
 @interface MSHistoryPlaceItem : MSHistoryItem
 {
     id _latitude;
-    id _longitude;
-    id _mapItemLastRefreshed;
-    id _muid;
-    id _supersededSearchId;
-    id _mapItemStorage;
 }
 
 + (id);
@@ -32,19 +27,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)eID provided. Ignoring reportingRegisterPeriodicTask;
 - (id);
+- (void);
 - (void);
-- (void);
-- (id)tories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NSNumber *latitude;
-@property(nonatomic, retain) NSNumber *longitude;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed;
-@property(nonatomic, retain) GEOMapItemStorage *mapItemStorage;
-@property(nonatomic, retain) NSNumber *muid;
-@property(nonatomic, copy) NSUUID *supersededSearchId;
 
 @end
 

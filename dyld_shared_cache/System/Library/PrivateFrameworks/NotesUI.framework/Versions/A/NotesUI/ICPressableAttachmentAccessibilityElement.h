@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMClickableTextView, NSString;
+@class ICMClickableTextView;
 
 @interface ICPressableAttachmentAccessibilityElement
 {
@@ -16,17 +16,11 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void)sourceFrameInfo:userObject:submissionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:willSubmitFormValues:frameInfo:sourceFrameInfo:userObject:submissionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

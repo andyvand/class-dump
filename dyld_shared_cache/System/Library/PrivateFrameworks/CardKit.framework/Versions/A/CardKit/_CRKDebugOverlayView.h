@@ -6,15 +6,14 @@
 
 #import <CardKit/_CRKHitTestPassThroughView.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface _CRKDebugOverlayView : _CRKHitTestPassThroughView
 {
     NSColor *_color;
-    NSString *_debugText;
 }
 
-- (void);
+- (void)o_;
 - (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(copy, nonatomic) NSString *debugText; // @synthesize debugText=_debugText;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface JetEngine.PersistentPipelineBackoff
 {
     id id;
-    id factory;
 }
 
 @end

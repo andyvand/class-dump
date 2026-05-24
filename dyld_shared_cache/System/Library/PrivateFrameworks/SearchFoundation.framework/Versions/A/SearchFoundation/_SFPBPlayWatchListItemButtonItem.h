@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage, _SFPBWatchListItem;
+@class _SFPBWatchListItem;
 
 @interface _SFPBPlayWatchListItemButtonItem
 {
     _SFPBWatchListItem *_watchListItem;
-    NSString *_title;
-    _SFPBImage *_image;
-    unsigned long long _uniqueId;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)preheatSearchWithCompletionBlock:(id)arg1;
+- (id)veral matching suggestions matching NLP Date Range - returning the most recent one %@;
 - (id);
 - (id);
 - (id);
@@ -35,17 +32,6 @@
 - (void)"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 @property(retain, nonatomic) _SFPBWatchListItem *watchListItem; // @synthesize watchListItem=_watchListItem;
 
 @end

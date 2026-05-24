@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (Class);
+- (Class);
 - (void);
 - (id);
 

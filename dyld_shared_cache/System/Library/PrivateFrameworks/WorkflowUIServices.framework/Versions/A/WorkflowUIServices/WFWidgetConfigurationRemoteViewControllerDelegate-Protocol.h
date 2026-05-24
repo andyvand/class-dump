@@ -5,5 +5,9 @@
 //
 
 @protocol WFWidgetConfigurationRemoteViewControllerDelegate
+- (void)P;
+
+@optional
+- (void);
 @end
 

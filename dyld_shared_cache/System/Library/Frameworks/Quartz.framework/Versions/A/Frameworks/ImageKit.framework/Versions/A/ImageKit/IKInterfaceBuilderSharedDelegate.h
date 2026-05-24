@@ -9,10 +9,9 @@
 @interface IKInterfaceBuilderSharedDelegate
 {
     NSMutableArray *_clients;
-    int _selectionCount;
 }
 
-+ (id);
++ (id)setImageEditPanel: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (int);

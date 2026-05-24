@@ -6,41 +6,34 @@
 
 #import <AppKit/NSDictionaryControllerKeyValuePair.h>
 
-@class NSDictionaryController, NSString;
+@class NSDictionaryController;
 
 __attribute__((visibility("hidden")))
 @interface _NSDictionaryControllerKeyValuePair : NSDictionaryControllerKeyValuePair
 {
     NSDictionaryController *_dictionaryController;
-    NSString *_localizedKey;
-    NSString *_key;
-    id _value;
-    struct __controllerKeyValuePairFlags {
-        unsigned int _isExplicitlyIncluded:1;
-        unsigned int _reservedControllerKeyValuePair:31;
-    } _controllerKeyValuePairFlags;
 }
 
 - (_Bool);
-- (void);
+- (void)RearCameraOffsetFromDisplayCenter;
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)paration took to long;
+- (void)rences/com.apple.networkextension.necp.plist;
+- (void)53;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)biquityConflictPanel;
+- (id);
+- (id)_shouldShowUbiquityConflictPanel;
 - (_Bool);
-- (void)ewShouldSetAutoresizingMask;
+- (void)NSSplitViewShouldSetAutoresizingMask;
 
 // Remaining properties
 @property NSDictionaryController *dictionaryController; // @dynamic dictionaryController;

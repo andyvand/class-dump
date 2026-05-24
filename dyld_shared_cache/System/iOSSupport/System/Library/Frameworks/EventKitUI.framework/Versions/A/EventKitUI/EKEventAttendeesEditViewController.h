@@ -6,55 +6,42 @@
 
 #import <EventKitUI/EKEditItemViewController.h>
 
-@class EKEvent, EKEventAttendeePicker, NSArray, NSString;
+@class EKEventAttendeePicker;
 
 @interface EKEventAttendeesEditViewController : EKEditItemViewController
 {
     EKEventAttendeePicker *_picker;
-    EKEvent *_event;
-    _Bool _cancelTapped;
-    _Bool _disableShowingButtons;
-    _Bool _appendOnly;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)s;
+- (void)&s;
+- (_Bool)&s;
+- (_Bool)&s;
+- (id)s;
 - (_Bool);
-- (_Bool);
+- (_Bool)&s;
+- (_Bool)&s;
+- (_Bool);
+- (id)*s;
+- (id)%s;
+- (void)d%s;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
+- (void);
+- (id);
+- (_Bool)l%s;
+- (void);
+- (_Bool)z;
+- (void)@@"<GCConfigurationAssetManagementServiceXPCInterface>";
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void)idScroll: /* Error: Ran out of types for this method. */;
+- (void)scrollViewDidScroll: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool appendOnly; // @synthesize appendOnly=_appendOnly;
-@property(copy, nonatomic) NSArray *attendees;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool disableShowingButtons; // @synthesize disableShowingButtons=_disableShowingButtons;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

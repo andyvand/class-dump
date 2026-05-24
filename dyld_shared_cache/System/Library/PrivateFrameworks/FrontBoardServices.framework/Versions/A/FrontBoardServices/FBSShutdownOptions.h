@@ -5,15 +5,10 @@
 //
 
 @class NSString;
-@protocol NSCopying;
 
 @interface FBSShutdownOptions
 {
     NSString *_reason;
-    long long _rebootType;
-    long long _source;
-    long long _LPEMOption;
-    id <NSCopying> _localContext;
 }
 
 - (void);
@@ -25,16 +20,16 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (id);
+- (id)  $;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)directAnswerWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
@@ -42,20 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) long long LPEMOption; // @synthesize LPEMOption=_LPEMOption;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isReboot;
-@property(readonly, nonatomic) _Bool isShutdown;
-@property(readonly, nonatomic) _Bool isUserInitiated;
-@property(nonatomic) __weak id <NSCopying> localContext; // @synthesize localContext=_localContext;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) long long rebootType; // @synthesize rebootType=_rebootType;
-@property(nonatomic) long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

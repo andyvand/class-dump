@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETLossDefinition, ETOptimizerDefinition, NSString;
+@class NSString;
 
 @interface PHACurareShadowEvaluationEvaluator
 {
     NSString *_modelInputName;
-    NSString *_modelOutputName;
-    NSString *_lossName;
-    NSString *_labelName;
-    ETLossDefinition *_lossDefinition;
-    ETOptimizerDefinition *_optimizerDefinition;
 }
 
 + (id);
 - (void);
 - (void);
+- (void)X;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,19 +26,14 @@
 - (vector_aa56f780);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
-- (void)ions;
+- (void)_questionOptions;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *labelName; // @synthesize labelName=_labelName;
-@property(retain, nonatomic) ETLossDefinition *lossDefinition; // @synthesize lossDefinition=_lossDefinition;
-@property(retain, nonatomic) NSString *lossName; // @synthesize lossName=_lossName;
 @property(retain, nonatomic) NSString *modelInputName; // @synthesize modelInputName=_modelInputName;
-@property(retain, nonatomic) NSString *modelOutputName; // @synthesize modelOutputName=_modelOutputName;
-@property(retain, nonatomic) ETOptimizerDefinition *optimizerDefinition; // @synthesize optimizerDefinition=_optimizerDefinition;
 
 @end
 

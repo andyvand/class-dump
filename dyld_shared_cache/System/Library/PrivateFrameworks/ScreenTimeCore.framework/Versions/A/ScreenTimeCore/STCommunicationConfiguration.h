@@ -7,9 +7,6 @@
 @interface STCommunicationConfiguration
 {
     _Bool _isCommunicationSafetySendingRestricted;
-    _Bool _isCommunicationSafetyReceivingRestricted;
-    _Bool _isCommunicationSafetyNotificationEnabled;
-    _Bool _isCommunicationSafetyAnalyticsEnabled;
 }
 
 + (_Bool);
@@ -22,13 +19,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool isCommunicationSafetyAnalyticsEnabled; // @synthesize isCommunicationSafetyAnalyticsEnabled=_isCommunicationSafetyAnalyticsEnabled;
-@property(readonly) _Bool isCommunicationSafetyNotificationEnabled; // @synthesize isCommunicationSafetyNotificationEnabled=_isCommunicationSafetyNotificationEnabled;
-@property(readonly) _Bool isCommunicationSafetyReceivingRestricted; // @synthesize isCommunicationSafetyReceivingRestricted=_isCommunicationSafetyReceivingRestricted;
 @property(readonly) _Bool isCommunicationSafetySendingRestricted; // @synthesize isCommunicationSafetySendingRestricted=_isCommunicationSafetySendingRestricted;
 
 @end

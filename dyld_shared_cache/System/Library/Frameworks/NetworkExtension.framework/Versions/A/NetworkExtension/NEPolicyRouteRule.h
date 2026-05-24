@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface NEPolicyRouteRule
 {
     unsigned int _controlUnit;
-    unsigned int _effectiveType;
-    NSUUID *_networkAgentUUID;
-    long long _action;
-    NSString *_interfaceName;
-    NSUUID *_matchNetworkAgent;
-    long long _type;
 }
 
 + (id);
++ (id)y;
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)r manager:(long long)arg1 receiverDidAcceptInvitation:(id)arg2;
+- (id),+;
 - (id);
 - (void);
-- (void);
+- (void)dateType is invalid:(id)arg1 %lu.;
 - (id);
 - (unsigned int);
 - (void);
@@ -33,8 +27,6 @@
 - (id)A packet (initiate rekey);
 
 // Remaining properties
-@property unsigned int controlUnit; // @synthesize controlUnit=_controlUnit;
-@property unsigned int effectiveType; // @synthesize effectiveType=_effectiveType;
 @property(retain) NSUUID *networkAgentUUID; // @synthesize networkAgentUUID=_networkAgentUUID;
 
 @end

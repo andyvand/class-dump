@@ -9,10 +9,10 @@
 }
 
 + (id);
-+ (id);
++ (id)A;
 + (_Bool);
-+ (void);
-+ (long long);
++ (void)ss feature, ignoring;
++ (long long):N /* Error: Ran out of types for this method. */;
 
 @end
 

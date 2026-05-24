@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAKeyframeAnimation, CATextLayer, NSString, QCSCN_LoadingProgressIndicatorLayer;
+@class CATextLayer, NSString;
 
 @interface QCSCN_LoadingLayer
 {
     CATextLayer *_textLayer;
-    CAKeyframeAnimation *_rotation;
-    QCSCN_LoadingProgressIndicatorLayer *_progressIndicatorLayer;
-    _Bool _showText;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)?		>	
+	*	(	;
 - (id);
 - (void);
-- (id);
+- (id)Type;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy) NSString *loadingString;
-@property _Bool whiteProgressIndicator;
 
 @end
 

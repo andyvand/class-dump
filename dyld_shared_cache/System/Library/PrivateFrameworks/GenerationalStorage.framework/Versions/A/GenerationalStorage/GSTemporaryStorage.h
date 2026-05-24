@@ -4,50 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol NSCopying><NSSecureCoding, OS_dispatch_queue;
+@class NSURL;
 
 @interface GSTemporaryStorage
 {
     NSURL *_libraryURL;
-    NSURL *_documentURL;
-    NSURL *_stagingURL;
-    int _lockFd;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)h;
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)Collection",&,N;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_optionalFigCollection;
 - (_Bool);
 - (void);
 - (id);
@@ -56,9 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *documentURL; // @synthesize documentURL=_documentURL;
 @property(readonly, nonatomic) NSURL *libraryURL; // @synthesize libraryURL=_libraryURL;
-@property(readonly, nonatomic) id <NSCopying><NSSecureCoding> persistentIdentifier;
 
 @end
 

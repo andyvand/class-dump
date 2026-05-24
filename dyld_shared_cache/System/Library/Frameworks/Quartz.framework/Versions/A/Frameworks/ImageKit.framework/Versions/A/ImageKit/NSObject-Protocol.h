@@ -7,15 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)setParticipantCluster: /* Error: Ran out of types for this method. */;
+- (id)setOtherInvitedHandles:(SEL)arg1;
+- (id)setOriginalResolution:(SEL)arg1;
+- (id)setOnlyExtensionInContainingApp:(SEL)arg1;
+- (Class)setName: /* Error: Ran out of types for this method. */;
+- (_Bool)_unfilteredAssetSearchResults;
+- (oneway void)esource meeting size criteria, turning around and removing size criteria...;
+- (NSString *)uery evaluateWithObject:] /* Error: Ran out of types for this method. */;
+- (id);
 - (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

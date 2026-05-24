@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChat, NSArray, NSSet;
+@class NSArray;
 @protocol CKAttachmentCollectionManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKAttachmentCollectionManager
 {
     id <CKAttachmentCollectionManagerDelegate> _delegate;
-    NSArray *_photosVideosItems;
-    NSArray *_webLinksItems;
-    NSArray *_otherContentsItems;
-    IMChat *_chat;
-    NSSet *_photoTransferGUIDs;
 }
 
-- (id);
+- (id)ActivityEventResolver;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)o6ICNoteCGGSo0aB2IDCG;
+- (id)s;
+- (id)@;
+- (id)w;
+- (id)n read and edit all notes within it.;
+- (id)/tr>
+;
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void)`&\;
 
 // Remaining properties
-@property(retain, nonatomic) IMChat *chat; // @synthesize chat=_chat;
-@property(nonatomic) __weak id <CKAttachmentCollectionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *otherContentsItems; // @synthesize otherContentsItems=_otherContentsItems;
-@property(retain, nonatomic) NSSet *photoTransferGUIDs; // @synthesize photoTransferGUIDs=_photoTransferGUIDs;
 @property(retain, nonatomic) NSArray *photosVideosItems; // @synthesize photosVideosItems=_photosVideosItems;
-@property(retain, nonatomic) NSArray *webLinksItems; // @synthesize webLinksItems=_webLinksItems;
 
 @end
 

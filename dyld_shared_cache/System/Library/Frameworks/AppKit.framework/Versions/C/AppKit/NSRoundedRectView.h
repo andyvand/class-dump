@@ -12,32 +12,26 @@ __attribute__((visibility("hidden")))
 @interface NSRoundedRectView : NSView
 {
     NSColor *_strokeColor;
-    NSColor *_fillColor;
-    double _strokeWidth;
-    double _cornerRadius;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)buffer;
 + (id);
 - (id);
 - (void);
 - (void);
-- (id)iveEDRHeadroom;
+- (id)allowedRelativeEDRHeadroom;
 - (double)omise type:%ld /* Error: Ran out of types for this method. */;
 - (id)!= NULL;
 - (void)ttributes:(id)arg1 is unsupported in MacOS 14 and later.;
 - (void)ormanceTesting.framework/Contents/MacOS/RecapPerformanceTesting;
-- (void)lloutUsePreferredEdgeOnly;
+- (void)NSMenuCalloutUsePreferredEdgeOnly;
 - (void)_NSTextFormattingViewControllerTextStylesComponent;
 - (double)MenuItem"16;
 
 // Remaining properties
-@property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(copy) NSColor *fillColor; // @synthesize fillColor=_fillColor;
 @property(copy) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
 
 @end
 

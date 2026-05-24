@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDrawing, PKHandwritingSynthesisLogEntry, UIImage;
+@class PKDrawing;
 
 @interface PKHandwritingSynthesisDebugTableDataEntry
 {
     PKDrawing *_synthesizedDrawing;
-    PKDrawing *_originalDrawing;
-    UIImage *_image;
-    PKHandwritingSynthesisLogEntry *_logEntry;
 }
 
 - (id);
@@ -19,15 +16,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)CircleTrustAckEnvelopeV1;
 - (id);
 - (id);
 - (void)T¡;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) PKHandwritingSynthesisLogEntry *logEntry; // @synthesize logEntry=_logEntry;
-@property(retain, nonatomic) PKDrawing *originalDrawing; // @synthesize originalDrawing=_originalDrawing;
 @property(retain, nonatomic) PKDrawing *synthesizedDrawing; // @synthesize synthesizedDrawing=_synthesizedDrawing;
 
 @end

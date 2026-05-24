@@ -9,13 +9,9 @@
 @interface NEFilterAbsoluteVerdict : NEFilterVerdict
 {
     unsigned long long _inboundPassOffset;
-    unsigned long long _inboundPeekOffset;
-    unsigned long long _outboundPassOffset;
-    unsigned long long _outboundPeekOffset;
-    long long _statisticsReportFrequency;
 }
 
-+ (_Bool);
++ (_Bool)setMonitor: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (void);
@@ -29,16 +25,12 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (void);
+- (void)Tb;
 - (id);
-- (id)atchEthernet;
+- (id)MatchEthernet;
 
 // Remaining properties
 @property unsigned long long inboundPassOffset; // @synthesize inboundPassOffset=_inboundPassOffset;
-@property unsigned long long inboundPeekOffset; // @synthesize inboundPeekOffset=_inboundPeekOffset;
-@property unsigned long long outboundPassOffset; // @synthesize outboundPassOffset=_outboundPassOffset;
-@property unsigned long long outboundPeekOffset; // @synthesize outboundPeekOffset=_outboundPeekOffset;
-@property long long statisticsReportFrequency; // @synthesize statisticsReportFrequency=_statisticsReportFrequency;
 
 @end
 

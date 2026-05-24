@@ -11,7 +11,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)B;
 + (unsigned long long);
 + (const struct DFAData *);
 + (id);

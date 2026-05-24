@@ -12,15 +12,14 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)REDReceivedCount;
 - (double);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double imageQuality;
 @property(retain) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

@@ -7,8 +7,6 @@
 @interface TSBridgedNewsActivityNavigator
 {
     id featureAvailability;
-    id navigator;
-    id tracker;
 }
 
 - (void);

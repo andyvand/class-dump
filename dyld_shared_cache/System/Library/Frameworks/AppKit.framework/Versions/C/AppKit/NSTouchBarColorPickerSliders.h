@@ -6,39 +6,40 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSColor, NSString, NSTouchBarColorPickerSlider;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSliders : NSControl
 {
     NSArray *_componentSliders;
-    NSTouchBarColorPickerSlider *_alphaSlider;
-    unsigned long long _unminimizedComponents;
-    NSArray *_allowedColorSpaces;
-    NSColor *_currentColor;
-    id _autounbinder;
-    _Bool _allowsAlpha;
 }
 
 + (id);
 + (long long);
 + (void);
 + (long long);
-+ (id);
-+ (id);
++ (id)doesn't allow the cookie to be set. AcceptPolicy = %lu. Cookie = %@;
++ (id)tching bundle identifier (%{public}@) and application identifier entitlement (%{public}@) value.;
 + (void);
++ (id)_kCFNTimingDataDomainLookupEnd;
++ (id)_kCFNTimingDataResponseBodyBytesDecoded;
++ (unsigned long long)nstrained) %s
+(Multipath) %s
+;
++ (unsigned long long)her Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
++ (_Bool)r<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{?=qi}>8;
++ (id)SDictionary"16;
 + (id);
 + (id);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)a;
 + (id);
 + (id)mation count;
-- (id);
+- (id)kkSkHTEei96N1ZehicOgoA;
 - (void);
 - (void);
 - (void);
@@ -47,36 +48,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ult code [%lld] for Wi-Fi information request;
+- (id)ting the cache failed:%d /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)"16@"NSArray"24@"NSString"32@"NSData"40@"NSDictionary"48;
 - (long long);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)preventHSTSStorage;
+- (id)AVAssetDownloadSessionMediaSelectionPrefersMultichannelKey;
 - (void);
 - (_Bool);
-- (oneway void);
-- (id)date;
+- (oneway void)*;
+- (id)setNeedsFocusUpdate;
 
 // Remaining properties
 @property unsigned long long _unminimizedComponents; // @synthesize _unminimizedComponents;
-@property SEL action;
-@property(copy) NSArray *allowedColorSpaces;
-@property _Bool allowsAlpha; // @synthesize allowsAlpha=_allowsAlpha;
-@property(readonly, copy) NSColor *colorSpaceColor;
-@property(copy) NSColor *currentColor; // @synthesize currentColor=_currentColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property __weak id target;
 
 @end
 

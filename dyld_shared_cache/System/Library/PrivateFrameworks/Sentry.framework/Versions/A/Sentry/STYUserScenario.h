@@ -9,19 +9,13 @@
 @interface STYUserScenario
 {
     int _appProcessID;
-    NSString *_scenarioGroup;
-    NSString *_scenarioID;
-    long long _kpi;
-    NSString *_titleText;
-    NSString *_appBundleId;
-    NSString *_appName;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id):(id)arg1 %@;
 - (int);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -32,13 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(readonly) NSString *appName; // @synthesize appName=_appName;
-@property(readonly) int appProcessID; // @synthesize appProcessID=_appProcessID;
-@property(readonly) long long kpi; // @synthesize kpi=_kpi;
 @property(readonly) NSString *scenarioGroup; // @synthesize scenarioGroup=_scenarioGroup;
-@property(readonly) NSString *scenarioID; // @synthesize scenarioID=_scenarioID;
-@property(readonly) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

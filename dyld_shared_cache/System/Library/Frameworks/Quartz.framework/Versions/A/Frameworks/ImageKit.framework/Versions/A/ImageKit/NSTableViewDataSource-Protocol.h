@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSTableView;
+
 @protocol NSTableViewDataSource
+
+@optional
+- (_Bool)'J;
+- (unsigned long long)*;
+- (long long)contactsEditableWithReplyHandler:(NSTableView *)arg1;
 @end
 

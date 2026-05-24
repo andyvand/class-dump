@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSString, PBDataReader;
 
 @interface GEOAttributionApp
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_appBundleIdentifier;
-    NSMutableArray *_handledSchemes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _restaurantReservationExtensionSupport;
-    _Bool _supportsRestaurantQueueing;
-    _Bool _supportsRestaurantReservations;
-    struct {
-        unsigned int has_restaurantReservationExtensionSupport:1;
-        unsigned int has_supportsRestaurantQueueing:1;
-        unsigned int has_supportsRestaurantReservations:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_appBundleIdentifier:1;
-        unsigned int read_handledSchemes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)rtOfRoute:(id)arg1;
++ (_Bool)setHasMetersFromStartOfRoute:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)willUpdateCacheBy:(id)arg1 forKey:keysToEvict: /* Error: Ran out of types for this method. */;
+- (id)indexSectionsFromPropertyList:(int)arg1;
+- (int)indexOfObjectPassingTest: /* Error: Ran out of types for this method. */;
+- (_Bool)stack:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)as appleID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)_CNQueueScheduler;
 - (unsigned long long);
 - (id);
 - (id);
@@ -56,17 +38,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)audioRecorder:(id)arg1 didSetAudioSessionActive: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)kRXRecognitionSystemProperty_SourceAudio;
 - (void);
-- (id)ElementsCount;
+- (id)placeCardUnactionableUiElementsCount;
 - (id)^`Ta$b;
 - (id)rbids %s to be nil;
 - (id);
@@ -74,14 +56,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appBundleIdentifier;
-@property(retain, nonatomic) NSMutableArray *handledSchemes;
-@property(nonatomic) _Bool hasRestaurantReservationExtensionSupport;
-@property(nonatomic) _Bool hasSupportsRestaurantQueueing;
-@property(nonatomic) _Bool hasSupportsRestaurantReservations;
-@property(nonatomic) int restaurantReservationExtensionSupport;
-@property(nonatomic) _Bool supportsRestaurantQueueing;
-@property(nonatomic) _Bool supportsRestaurantReservations;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

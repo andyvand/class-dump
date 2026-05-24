@@ -14,10 +14,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)B9;
 - (id);
 - (void);
-- (void)dget;
+- (void)nextGadget;
 
 // Remaining properties
 @property __weak MapDragRadiusView *radView; // @synthesize radView=_radView;

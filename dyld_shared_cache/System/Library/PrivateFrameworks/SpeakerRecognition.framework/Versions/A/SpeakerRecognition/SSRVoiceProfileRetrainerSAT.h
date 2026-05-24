@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSObject, NSString, NSURL, SSRSpeakerRecognitionScorer, SSRVoiceProfile;
-@protocol OS_dispatch_queue;
+@class SSRSpeakerRecognitionScorer;
 
 @interface SSRVoiceProfileRetrainerSAT
 {
     unsigned long long _maximumSpeakerVectors;
-    float _bestTriggerScore;
-    SSRSpeakerRecognitionScorer *_satScorer;
-    SSRVoiceProfile *_voiceProfile;
-    NSURL *_configFilePath;
-    NSURL *_resourceFilePath;
-    NSURL *_satModelFilePath;
-    unsigned long long _spIdType;
-    NSDictionary *_comparativeModels;
-    NSData *_superVector;
-    unsigned long long _superVectorSize;
-    unsigned long long _processedAudioDurationMs;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (id);
+- (id)wl;
 - (unsigned long long);
 - (void);
 - (void);
@@ -38,7 +25,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)($;
 - (_Bool);
 - (void);
 - (id);
@@ -47,7 +34,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -58,30 +45,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)kocl tpo  pu tponwod tpokocllrtc  pulrtcnwodlrtckocltfhs  putfhsnwodtfhs;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *comparativeModels; // @synthesize comparativeModels=_comparativeModels;
-@property(retain, nonatomic) NSURL *configFilePath; // @synthesize configFilePath=_configFilePath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool implicitTrainingRequired;
-@property(readonly, nonatomic) NSURL *modelFilePath;
-@property(nonatomic) unsigned long long processedAudioDurationMs; // @synthesize processedAudioDurationMs=_processedAudioDurationMs;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSURL *resourceFilePath; // @synthesize resourceFilePath=_resourceFilePath;
-@property(readonly, nonatomic) unsigned long long retrainerType;
-@property(retain, nonatomic) NSURL *satModelFilePath; // @synthesize satModelFilePath=_satModelFilePath;
 @property(retain, nonatomic) SSRSpeakerRecognitionScorer *satScorer; // @synthesize satScorer=_satScorer;
-@property(nonatomic) unsigned long long spIdType; // @synthesize spIdType=_spIdType;
-@property(retain, nonatomic) NSData *superVector; // @synthesize superVector=_superVector;
-@property(nonatomic) unsigned long long superVectorSize; // @synthesize superVectorSize=_superVectorSize;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SSRVoiceProfile *voiceProfile; // @synthesize voiceProfile=_voiceProfile;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatVersioningModeViewController
 {
     id editor;
-    id tableView;
-    id _currentMode;
-    id sections;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void)hp@;

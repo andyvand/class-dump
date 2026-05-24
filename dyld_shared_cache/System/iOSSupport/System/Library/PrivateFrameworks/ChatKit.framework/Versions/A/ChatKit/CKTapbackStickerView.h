@@ -6,51 +6,33 @@
 
 #import <ChatKit/ChatKit.TapbackView.h>
 
-@protocol CKTapbackViewDelegate;
-
 @interface CKTapbackStickerView : ChatKit.TapbackView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    void delegate;
-    id contentView;
-    id fallbackView;
-    id expectsAnimatedImage;
-    id animatedImage;
-    id initialFrameIndex;
-    id hasCommittedFirstFrame;
-    id isAnimationPaused;
-    _Bool isSelected;
-    id isPlaceholderImage;
-    id frameSize;
-    id displayScale;
 }
 
 + (double);
-- (struct UIEdgeInsets);
-- (void);
+- (struct UIEdgeInsets)cks;
+- (void)perThumbnailService;
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)r;
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)teraction: /* Error: Ran out of types for this method. */;
+- (void)@;
+- (id)_dragInteractionAllowsDragOverridingMasterSwitch:(struct CGRect)arg1;
+- (void)setContextMenuInteraction: /* Error: Ran out of types for this method. */;
 - (void)À°Pð;
 - (_Bool)IüiH{æÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

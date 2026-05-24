@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.ActionSetState.SubscriptionManager
 {
     id delegate;
-    id monitoredActionSets;
 }
 
 - (void);

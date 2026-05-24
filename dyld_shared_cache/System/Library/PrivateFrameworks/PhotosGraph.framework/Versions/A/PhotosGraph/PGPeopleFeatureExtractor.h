@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id)set_didRegisterWindowDidResizeNotification:(unsigned long long)arg1;
 - (id);
 
 @end

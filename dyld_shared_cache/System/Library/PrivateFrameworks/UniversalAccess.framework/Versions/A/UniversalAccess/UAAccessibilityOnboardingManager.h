@@ -11,13 +11,13 @@
     UAOnboardingMainViewController *__mainViewController;
 }
 
-+ (void);
-- (void);
++ (void)aGATCreateSessionEventStarted";
+- (void)sterMediaContext";
+- (id)esCompleted"b1"numServicesFailed"b1};
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)%;
 
 // Remaining properties
 @property(retain, nonatomic) UAOnboardingMainViewController *_mainViewController; // @synthesize _mainViewController=__mainViewController;

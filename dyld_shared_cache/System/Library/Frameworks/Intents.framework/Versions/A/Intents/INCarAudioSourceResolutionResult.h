@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)SUUID"24;
 - (void);
 - (id);
 - (id);

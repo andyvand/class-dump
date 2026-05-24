@@ -7,11 +7,6 @@
 @interface NewsUI2.TodayBlueprintViewCellProvider
 {
     id delegate;
-    id baseStyler;
-    id feedItemRenderer;
-    id offlineIssueManager;
-    id commandCenter;
-    id tracker;
 }
 
 @end

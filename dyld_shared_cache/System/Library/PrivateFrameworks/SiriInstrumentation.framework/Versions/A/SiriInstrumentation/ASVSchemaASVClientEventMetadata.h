@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASVSchemaASVClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_asvId;
-    _Bool _hasAsvId;
 }
 
 - (void);
@@ -26,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)medetails;
+- (id)whichOutcomedetails;
 - (id)	
 ;
 - (id);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *asvId; // @synthesize asvId=_asvId;
-@property(nonatomic) _Bool hasAsvId; // @synthesize hasAsvId=_hasAsvId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

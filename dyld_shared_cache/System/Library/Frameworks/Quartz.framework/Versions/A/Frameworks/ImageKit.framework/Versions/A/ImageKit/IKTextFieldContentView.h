@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)PHImportDuplicateCheckerItem;
 - (_Bool);
 
 @end

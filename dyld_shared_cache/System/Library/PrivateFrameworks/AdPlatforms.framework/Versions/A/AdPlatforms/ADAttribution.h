@@ -7,7 +7,6 @@
 @interface ADAttribution
 {
     _Bool _hasCompletedResponse;
-    unsigned char _numRetries;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasCompletedResponse; // @synthesize hasCompletedResponse=_hasCompletedResponse;
-@property(nonatomic) unsigned char numRetries; // @synthesize numRetries=_numRetries;
 
 @end
 

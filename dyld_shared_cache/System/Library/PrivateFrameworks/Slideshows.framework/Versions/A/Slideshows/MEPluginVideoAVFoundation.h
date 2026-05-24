@@ -6,28 +6,9 @@
 
 #import <Slideshows/MEPlugin.h>
 
-@class MERenderer, NSDictionary, NSString;
-
 @interface MEPluginVideoAVFoundation : MEPlugin
 {
     double _currentTime;
-    double _frameRate;
-    double _frameDuration;
-    double _adjustedEndTime;
-    double _endTime;
-    double _timescale;
-    struct {
-        long long value;
-        int timescale;
-        unsigned int flags;
-        long long epoch;
-    } _currentPresentationTime;
-    MERenderer *_renderer;
-    struct CGColorSpace *_sourceColorSpace;
-    unsigned int *_renderBuffer;
-    NSString *_outputFileType;
-    NSDictionary *_videoSettings;
-    NSDictionary *_audioSettings;
 }
 
 + (void);

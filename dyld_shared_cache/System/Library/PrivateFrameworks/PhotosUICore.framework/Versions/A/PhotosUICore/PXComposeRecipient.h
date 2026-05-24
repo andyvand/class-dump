@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDictionary, NSString, PXRecipient;
-@protocol PXPersonSuggestion;
+@class PXRecipient;
 
 @interface PXComposeRecipient
 {
     PXRecipient *_recipient;
-    id <PXPersonSuggestion> _personSuggestion;
 }
 
 - (id);
@@ -23,23 +21,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)Description: /* Error: Ran out of types for this method. */;
-- (id)redLibraryStatusProvider:(struct _NSZone *)arg1 invitation:padding: /* Error: Ran out of types for this method. */;
+- (id)setShowsDebugDescription: /* Error: Ran out of types for this method. */;
+- (id)initWithSharedLibraryStatusProvider:(struct _NSZone *)arg1 invitation:padding: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *diagnosticDictionary;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) id <PXPersonSuggestion> personSuggestion; // @synthesize personSuggestion=_personSuggestion;
 @property(readonly, nonatomic) PXRecipient *recipient; // @synthesize recipient=_recipient;
-@property(readonly) Class superclass;
 
 @end
 

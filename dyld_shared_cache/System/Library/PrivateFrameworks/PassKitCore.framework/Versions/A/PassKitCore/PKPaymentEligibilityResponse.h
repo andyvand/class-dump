@@ -6,39 +6,15 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSData, NSDictionary, NSSet, NSString, NSURL, PKPaymentEligibilityFIDOProfile, PKPaymentEligibilitySupplementaryData;
+@class NSSet, NSString;
 
 @interface PKPaymentEligibilityResponse : PKPaymentWebServiceResponse
 {
     NSSet *_enableRequirements;
-    _Bool _supportsVirtualCardNumber;
-    NSString *_identifier;
-    long long _eligibilityStatus;
-    long long _cardType;
-    unsigned long long _deviceProvisioningDataExpected;
-    NSURL *_termsURL;
-    NSString *_termsID;
-    NSString *_applicationIdentifier;
-    NSString *_region;
-    NSString *_nonce;
-    NSURL *_learnMoreURL;
-    PKPaymentEligibilitySupplementaryData *_supplementaryData;
-    NSArray *_requiredPaymentSetupFields;
-    PKPaymentEligibilityFIDOProfile *_fidoProfile;
-    NSData *_fidoChallenge;
-    NSDictionary *_transactionKeyInformation;
-    NSArray *_auxiliaryCapabilityDecryptions;
-    NSArray *_auxiliaryCapabilitySignatures;
-    NSString *_credentialAuthorityIdentifier;
-    NSArray *_fpanIdentifiers;
-    NSString *_sanitizedPrimaryAccountNumber;
-    long long _supersededBy;
-    NSString *_dpanIdentifier;
-    NSArray *_paymentApplications;
 }
 
 + (_Bool);
-- (id);
+- (id)hN;
 - (id);
 - (_Bool);
 - (id);
@@ -67,43 +43,13 @@
 - (long long);
 - (id);
 - (id);
-- (id)ier;
+- (id)hasSharingInstanceIdentifier;
 - (void);
-- (id);
+- (id)zoneID;
 - (id)²ÿdi0`;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly, nonatomic) NSArray *auxiliaryCapabilityDecryptions; // @synthesize auxiliaryCapabilityDecryptions=_auxiliaryCapabilityDecryptions;
-@property(readonly, nonatomic) NSArray *auxiliaryCapabilitySignatures; // @synthesize auxiliaryCapabilitySignatures=_auxiliaryCapabilitySignatures;
-@property(readonly, nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(readonly, copy, nonatomic) NSString *credentialAuthorityIdentifier; // @synthesize credentialAuthorityIdentifier=_credentialAuthorityIdentifier;
-@property(readonly, nonatomic) unsigned long long deviceProvisioningDataExpected; // @synthesize deviceProvisioningDataExpected=_deviceProvisioningDataExpected;
-@property(readonly, copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(readonly, nonatomic) long long eligibilityStatus; // @synthesize eligibilityStatus=_eligibilityStatus;
-@property(readonly, copy, nonatomic) NSData *fidoChallenge; // @synthesize fidoChallenge=_fidoChallenge;
-@property(readonly, copy, nonatomic) PKPaymentEligibilityFIDOProfile *fidoProfile; // @synthesize fidoProfile=_fidoProfile;
-@property(readonly, copy, nonatomic) NSArray *fpanIdentifiers; // @synthesize fpanIdentifiers=_fpanIdentifiers;
-@property(readonly, nonatomic) _Bool hasEnableRequirements;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSURL *learnMoreURL; // @synthesize learnMoreURL=_learnMoreURL;
-@property(readonly, copy, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(readonly, nonatomic) NSArray *paymentApplications; // @synthesize paymentApplications=_paymentApplications;
-@property(readonly, copy, nonatomic) NSString *region; // @synthesize region=_region;
-@property(readonly, copy, nonatomic) NSArray *requiredPaymentSetupFields; // @synthesize requiredPaymentSetupFields=_requiredPaymentSetupFields;
-@property(readonly, copy, nonatomic) NSString *sanitizedPrimaryAccountNumber; // @synthesize sanitizedPrimaryAccountNumber=_sanitizedPrimaryAccountNumber;
-@property(readonly, nonatomic) _Bool shouldGenerateAuxiliaryCapabilities;
-@property(readonly, nonatomic) _Bool shouldGenerateFidoKey;
-@property(readonly, nonatomic) _Bool shouldGenerateISO18013EncryptionKey;
-@property(readonly, nonatomic) _Bool shouldGenerateLongTermPrivacyKey;
-@property(readonly, nonatomic) _Bool shouldGenerateTransactionKey;
-@property(readonly, nonatomic) _Bool shouldSignFidoChallenge;
-@property(readonly, nonatomic) long long supersededBy; // @synthesize supersededBy=_supersededBy;
-@property(readonly, copy, nonatomic) PKPaymentEligibilitySupplementaryData *supplementaryData; // @synthesize supplementaryData=_supplementaryData;
-@property(readonly, nonatomic) _Bool supportsVirtualCardNumber; // @synthesize supportsVirtualCardNumber=_supportsVirtualCardNumber;
-@property(readonly, copy, nonatomic) NSString *termsID; // @synthesize termsID=_termsID;
-@property(readonly, copy, nonatomic) NSURL *termsURL; // @synthesize termsURL=_termsURL;
-@property(readonly, copy, nonatomic) NSDictionary *transactionKeyInformation; // @synthesize transactionKeyInformation=_transactionKeyInformation;
 
 @end
 

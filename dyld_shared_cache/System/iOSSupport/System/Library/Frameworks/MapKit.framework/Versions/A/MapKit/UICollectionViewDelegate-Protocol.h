@@ -4,11 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (void)ons/A/FrontBoardServices;
+- (void)SArray"16@"NSArray"24@"NSString"32C40@"NSString"44;
+- (void);
+- (UICollectionViewTransitionLayout *)c;
+- (void)`;
+- (NSIndexPath *)D;
+- (_Bool);
 - (UIContextMenuConfiguration *)
 × ;
 - (struct CGPoint)ð1Â0@ù
@@ -18,9 +25,9 @@
 × ;
 - (NSIndexPath *)0:(UICollectionView *)arg1 8;
 - (_Bool)v24@0:(UICollectionView *)arg1 8d16;
-- (_Bool)e:(UICollectionView *)arg1;
-- (void)eDidChange:(UICollectionView *)arg1;
-- (_Bool)Controller:(UICollectionView *)arg1 animated:(NSIndexPath *)arg2;
+- (_Bool)setApplicationState:(UICollectionView *)arg1;
+- (void)mapView:(UICollectionView *)arg1 flyoverModeDidChange:(UIContextMenuConfiguration *)arg2;
+- (_Bool)_presentSelectionAccessorySheetFromViewController:(UICollectionView *)arg1 animated:(NSIndexPath *)arg2;
 - (_Bool)yname failed with err :(UICollectionView *)arg1 %s;
 @end
 

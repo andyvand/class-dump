@@ -9,29 +9,22 @@
 @interface PhotosUICore.PhotosDynamicHeaderView
 {
     id configuration;
-    id contentView;
-    id <NSCopying> userData;
-    struct CGRect clippingRect;
-    _Bool isFloating;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)8>*;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)View:(struct CGRect)arg1 setObjectValue:forTableColumn:row: /* Error: Ran out of types for this method. */;
+- (id)tableView:(struct CGRect)arg1 setObjectValue:forTableColumn:row: /* Error: Ran out of types for this method. */;
 - (_Bool)´ ÿÿ;
 - (void)´WY,: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canUnloadWhenInvisible;
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;
-@property(nonatomic, readonly) _Bool isFloating; // @synthesize isFloating;
 @property(nonatomic, retain) id <NSCopying> userData; // @synthesize userData;
 
 @end

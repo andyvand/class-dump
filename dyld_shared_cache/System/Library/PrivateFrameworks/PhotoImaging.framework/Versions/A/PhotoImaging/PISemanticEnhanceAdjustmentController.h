@@ -6,8 +6,6 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSArray;
-
 @interface PISemanticEnhanceAdjustmentController : PIAdjustmentController
 {
 }
@@ -21,7 +19,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)?נ;
 - (void);
 - (_Bool);
 - (double);
@@ -31,10 +29,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *boundingBoxes;
 @property(nonatomic) double intensity;
-@property(readonly, nonatomic) long long scene;
-@property(readonly, nonatomic) double sceneConfidence;
 
 @end
 

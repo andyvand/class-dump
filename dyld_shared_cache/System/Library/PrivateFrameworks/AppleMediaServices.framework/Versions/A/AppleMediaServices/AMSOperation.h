@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMutableBinaryPromise, NSError, NSLock, NSMutableSet;
+@class AMSMutableBinaryPromise, NSLock;
 
 @interface AMSOperation
 {
     NSLock *_lock;
-    NSMutableSet *_subOperations;
-    _Bool _cancelled;
-    _Bool _success;
-    AMSOperation *_parentOperation;
-    AMSMutableBinaryPromise *_promise;
-    NSError *_error;
 }
 
 - (void);
@@ -24,10 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)0.0 and 1.0, where 1.0 is the loudest).;
+- (void)P;
 - (id);
-- (_Bool)tting;
+- (_Bool)timeSensitiveSetting;
 - (_Bool)for media type;
 - (void)ü³­ÇT:²}Lç¥Ðú°#»ýÔZrÆç¸ÜmýeØù zqÐÂ¿¬;õoèÎ?Z"8¹N$Ë'vÇÖjûuÁ.¾òOlGâúD¦x¶E~Prì±¥2Ä½ÝyÊië& /* Error: Ran out of types for this method. */;
 - (void)7VîÛÖùíì÷ÁÇÎmÊõÚÅvið&EÓe2jFyÉ(£	@Û±«¼%ëOÑu¿]¹Xå|fÍ×´O¼·ºoPPÿ\*1ÌÉ¢Y­]ÜÏ6dË°ÍÙè3PãÔPÃÈ5tJL|`³YÃ`mÝ÷8·A »Æ!®©b÷T.uíÝ»º®
@@ -40,10 +34,7 @@ PKY5y?wü@>²úÀôã©Ýå©ï§ÐÎÇÕ	ÎÜ8üBúÅÃv¾¸_§m
 - (void)²ÿP;
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
-@property __weak AMSOperation *parentOperation; // @synthesize parentOperation=_parentOperation;
 @property(retain) AMSMutableBinaryPromise *promise; // @synthesize promise=_promise;
-@property _Bool success; // @synthesize success=_success;
 
 @end
 

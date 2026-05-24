@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAccessibilityState, AFAudioPlaybackRequest, NSDate;
+@class AFAccessibilityState;
 
 @interface AFClientConfiguration
 {
     _Bool _isDeviceInCarDNDMode;
-    _Bool _isDeviceInStarkMode;
-    _Bool _supportsCarPlayVehicleData;
-    _Bool _isDeviceWatchAuthenticated;
-    _Bool _areAnnouncementRequestsPermittedByPresentationWhileActive;
-    _Bool _carOwnsMainAudio;
-    _Bool _isEyesFreeDevice;
-    float _outputVolume;
-    AFAccessibilityState *_accessibilityState;
-    long long _deviceRingerSwitchState;
-    AFAudioPlaybackRequest *_tapToSiriAudioPlaybackRequest;
-    AFAudioPlaybackRequest *_twoShotAudioPlaybackRequest;
-    NSDate *_deviceSetupFlowBeginDate;
-    NSDate *_deviceSetupFlowEndDate;
 }
 
 + (id);
@@ -31,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)q);
 - (id);
 - (long long);
 - (_Bool);
@@ -39,35 +26,22 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)Number",C,N,V_currentBalance;
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (unsigned long long);
+- (id)c;
+- (_Bool)ctionView"16@"NSURL"24@"NSIndexSet"32;
+- (void)Q{;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (float)n:audioSessionWillBecomeActive: /* Error: Ran out of types for this method. */;
-- (_Bool)tValue:forKey:context: /* Error: Ran out of types for this method. */;
-- (void)odesConfiguration;
+- (float)assistantConnection:audioSessionWillBecomeActive: /* Error: Ran out of types for this method. */;
+- (_Bool)_setContextValue:forKey:context: /* Error: Ran out of types for this method. */;
+- (void)AFModesConfiguration;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AFAccessibilityState *accessibilityState; // @synthesize accessibilityState=_accessibilityState;
-@property(readonly, nonatomic) _Bool areAnnouncementRequestsPermittedByPresentationWhileActive; // @synthesize areAnnouncementRequestsPermittedByPresentationWhileActive=_areAnnouncementRequestsPermittedByPresentationWhileActive;
-@property(readonly, nonatomic) _Bool carOwnsMainAudio; // @synthesize carOwnsMainAudio=_carOwnsMainAudio;
-@property(readonly, nonatomic) long long deviceRingerSwitchState; // @synthesize deviceRingerSwitchState=_deviceRingerSwitchState;
-@property(readonly, copy, nonatomic) NSDate *deviceSetupFlowBeginDate; // @synthesize deviceSetupFlowBeginDate=_deviceSetupFlowBeginDate;
-@property(readonly, copy, nonatomic) NSDate *deviceSetupFlowEndDate; // @synthesize deviceSetupFlowEndDate=_deviceSetupFlowEndDate;
-@property(readonly, nonatomic) _Bool isDeviceInCarDNDMode; // @synthesize isDeviceInCarDNDMode=_isDeviceInCarDNDMode;
-@property(readonly, nonatomic) _Bool isDeviceInStarkMode; // @synthesize isDeviceInStarkMode=_isDeviceInStarkMode;
-@property(readonly, nonatomic) _Bool isDeviceWatchAuthenticated; // @synthesize isDeviceWatchAuthenticated=_isDeviceWatchAuthenticated;
-@property(readonly, nonatomic) _Bool isEyesFreeDevice; // @synthesize isEyesFreeDevice=_isEyesFreeDevice;
-@property(readonly, nonatomic) float outputVolume; // @synthesize outputVolume=_outputVolume;
-@property(readonly, nonatomic) _Bool supportsCarPlayVehicleData; // @synthesize supportsCarPlayVehicleData=_supportsCarPlayVehicleData;
-@property(readonly, copy, nonatomic) AFAudioPlaybackRequest *tapToSiriAudioPlaybackRequest; // @synthesize tapToSiriAudioPlaybackRequest=_tapToSiriAudioPlaybackRequest;
-@property(readonly, copy, nonatomic) AFAudioPlaybackRequest *twoShotAudioPlaybackRequest; // @synthesize twoShotAudioPlaybackRequest=_twoShotAudioPlaybackRequest;
 
 @end
 

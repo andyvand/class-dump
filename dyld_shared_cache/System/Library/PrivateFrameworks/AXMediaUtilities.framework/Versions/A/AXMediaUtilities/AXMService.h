@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol AXMServiceDelegate, OS_dispatch_queue;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface AXMService
 {
     NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    id <AXMServiceDelegate> _delegate;
-    NSXPCConnection *_xpcConnection;
 }
 
 - (void);
@@ -19,22 +17,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)spaceDestroySceneResponse"@"NSError">;
+- (void)v@?@"VGVehicle"@"NSError">;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXMServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorMorphology
 {
@@ -20,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *customPronouns;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long grammaticalGender;
-@property(nonatomic, readonly) long long number;
-@property(nonatomic, readonly) long long partOfSpeech;
 
 @end
 

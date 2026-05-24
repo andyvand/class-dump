@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailDisplayUpdater
 {
     id updatesSubject;
-    id $__lazy_storage_$_batchProcessor;
 }
 
 @end

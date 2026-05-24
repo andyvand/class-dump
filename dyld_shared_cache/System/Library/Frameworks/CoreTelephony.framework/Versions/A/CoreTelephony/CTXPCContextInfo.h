@@ -9,27 +9,22 @@
 @interface CTXPCContextInfo
 {
     NSUUID *_uuid;
-    NSString *_accountID;
-    long long _slotID;
-    NSString *_labelID;
-    NSString *_label;
-    NSString *_phoneNumber;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)e with media type %@;
 - (id);
-- (id);
+- (id)";
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)@0:8@?<v@?@"<LACAgentProxyXPC>"@"NSError">16 /* Error: Ran out of types for this method. */;
+- (void)resetProcessedEvent:(id)arg1 reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -38,12 +33,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) NSString *labelID; // @synthesize labelID=_labelID;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly, nonatomic) long long slotID; // @synthesize slotID=_slotID;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

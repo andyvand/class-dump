@@ -9,26 +9,24 @@
 @interface ML3BitMaskPredicate : ML3PropertyPredicate
 {
     long long _mask;
-    long long _value;
 }
 
-+ (id);
-+ (_Bool);
-- (id);
-- (void);
++ (id)V_progress;
++ (_Bool)w;
+- (id);
+- (void)_inputTextTraits;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)ignoreTopSafeArea;
 - (long long);
 - (id);
-- (void)s:(id)arg1 error:(Class)arg2;
+- (void)dataWithPropertyList:(id)arg1 format:(Class)arg2 options:error: /* Error: Ran out of types for this method. */;
 - (void)°;
 
 // Remaining properties
 @property(nonatomic) long long mask; // @synthesize mask=_mask;
-@property(nonatomic) long long value; // @synthesize value=_value;
 
 @end
 

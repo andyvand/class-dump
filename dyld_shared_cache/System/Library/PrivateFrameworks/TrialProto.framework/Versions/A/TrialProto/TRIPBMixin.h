@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *root; // @dynamic root;
 
 @end
 

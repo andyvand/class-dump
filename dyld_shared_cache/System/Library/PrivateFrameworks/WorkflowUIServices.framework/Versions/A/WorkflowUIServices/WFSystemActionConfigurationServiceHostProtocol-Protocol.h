@@ -5,5 +5,7 @@
 //
 
 @protocol WFSystemActionConfigurationServiceHostProtocol
+- (void);
+- (void);
 @end
 

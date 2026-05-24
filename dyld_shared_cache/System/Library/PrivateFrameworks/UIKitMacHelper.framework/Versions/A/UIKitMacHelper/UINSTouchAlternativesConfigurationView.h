@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, UINSSceneView;
+@class UINSSceneView;
 
 __attribute__((visibility("hidden")))
 @interface UINSTouchAlternativesConfigurationView
 {
     UINSSceneView *_sceneView;
-    NSMutableArray *_modules;
-    CDUnknownBlockType _configCompletionHandler;
 }
 
 - (void);
@@ -21,14 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)JK;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSData *modulesConfiguration;
 @property __weak UINSSceneView *sceneView; // @synthesize sceneView=_sceneView;
 
 @end

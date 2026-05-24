@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSSet, NSString, NSURL, NSUUID, TUHandle;
+@class NSDate;
 
 @interface TUConversationLink
 {
     _Bool _locallyCreated;
-    NSString *_pseudonym;
-    NSData *_publicKey;
-    NSDate *_creationDate;
-    NSDate *_deletionDate;
-    NSUUID *_groupUUID;
-    TUHandle *_originatorHandle;
-    long long _linkLifetimeScope;
-    long long _deleteReason;
-    NSString *_URLFragment;
-    NSString *_linkName;
-    NSDate *_expirationDate;
-    NSSet *_invitedMemberHandles;
 }
 
 + (id);
@@ -32,15 +20,15 @@
 + (id);
 + (id);
 + (_Bool);
++ (id) ;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)chUpcomingNoticeWithCompletionHandler: /* Error: Ran out of types for this method. */;
++ (id)fetchUpcomingNoticeWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (void)o;
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -48,19 +36,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -74,34 +62,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)hB;
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)lientError: /* Error: Ran out of types for this method. */;
+- (void)setHasBeganRetryingAfterUninitializedClientError: /* Error: Ran out of types for this method. */;
 - (id)al request:%@ error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(retain, nonatomic) NSString *URLFragment;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) long long deleteReason; // @synthesize deleteReason=_deleteReason;
-@property(retain, nonatomic) NSDate *deletionDate; // @synthesize deletionDate=_deletionDate;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(retain, nonatomic) NSDate *expirationDate;
-@property(retain, nonatomic) NSUUID *groupUUID; // @synthesize groupUUID=_groupUUID;
-@property(copy, nonatomic) NSSet *invitedMemberHandles;
-@property(nonatomic) long long linkLifetimeScope; // @synthesize linkLifetimeScope=_linkLifetimeScope;
-@property(copy, nonatomic) NSString *linkName;
-@property(nonatomic, getter=isLocallyCreated) _Bool locallyCreated; // @synthesize locallyCreated=_locallyCreated;
-@property(retain, nonatomic) TUHandle *originatorHandle; // @synthesize originatorHandle=_originatorHandle;
-@property(copy, nonatomic) NSString *pseudonym; // @synthesize pseudonym=_pseudonym;
-@property(copy, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 
 @end
 

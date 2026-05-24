@@ -7,14 +7,12 @@
 @class NSData;
 
 @protocol _SFPBPhotosAttributes
+- (void);
+- (int);
+- (_Bool)(;
+- (NSData *)frontSwappingImageRenderURL;
 
 // Remaining properties
-@property(nonatomic) _Bool isEmbeddingMatched;
-@property(nonatomic) _Bool isFavorite;
-@property(nonatomic) _Bool isMetadataMatched;
-@property(nonatomic) _Bool isVideo;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int photosSuggestionType;
 @property(nonatomic) unsigned long long positionIndex;
 @end
 

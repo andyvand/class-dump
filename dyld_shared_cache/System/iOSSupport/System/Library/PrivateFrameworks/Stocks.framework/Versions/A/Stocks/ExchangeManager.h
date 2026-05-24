@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);

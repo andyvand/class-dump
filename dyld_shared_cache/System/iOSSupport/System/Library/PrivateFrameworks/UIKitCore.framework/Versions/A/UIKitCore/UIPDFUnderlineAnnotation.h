@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (Class);
+- (_Bool)e bloom filter was too large. Increasing filter size to %d bytes.;
+- (void)ipelineComponent> Failed to find any message items;
+- (void)tarted processing for Message:(id)arg1 %@;
+- (Class)Identifier:rank:score:isConversationAutoDonating:originatingDeviceId:rankingDate:resolvedUrl:clientVariant: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (void);

@@ -9,38 +9,32 @@
 @interface GEOPDQuickLinkParams
 {
     PBUnknownFields *_unknownFields;
-    int _quickLinkItemIndex;
-    struct {
-        unsigned int has_quickLinkItemIndex:1;
-    } _flags;
 }
 
-+ (_Bool)ncludeQuads:(id)arg1;
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (void);
++ (_Bool)setIncludeQuads:(id)arg1;
+- (void)for custom property “%@”.;
+- (void);
+- (int);
+- (_Bool);
+- (void);
+- (id)B#\;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)audioEngineDidStartRecord with streamId:(id)arg1 %ld;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)@"<GEOFactoid>"20@0:(struct _NSZone *)arg1 8i16;
-- (id)tweenStart:end: /* Error: Ran out of types for this method. */;
+- (id)_meetsMinimumPathLengthBetweenStart:end: /* Error: Ran out of types for this method. */;
 - (id)¤E;
 - (id)herViewResultFilterReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasQuickLinkItemIndex;
-@property(nonatomic) int quickLinkItemIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

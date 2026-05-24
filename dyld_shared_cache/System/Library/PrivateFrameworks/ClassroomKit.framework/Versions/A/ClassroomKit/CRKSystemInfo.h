@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CRKSystemInfo
 {
     NSString *_buildVersion;
-    NSString *_systemVersion;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)public}@:Download progress:%.2f, state:%{public}@, on asset:%p /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id)Ô ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *bootDate;
 @property(copy, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, nonatomic) _Bool cloudConfigEnablesEphemeralMultiUser;
-@property(readonly, nonatomic, getter=isEphemeralMultiUser) _Bool ephemeralMultiUser;
-@property(readonly, nonatomic) unsigned long long platform;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
 
 @end
 

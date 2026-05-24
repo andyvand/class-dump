@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageAction
 {
     long long _messageActionType;
-    NSString *_originalMessageGuid;
-    NSString *_otherHandle;
-    NSData *_padding;
-    unsigned int _version;
-    struct {
-        unsigned int messageActionType:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (void);
@@ -29,13 +19,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)h;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)d,R,N,V_scale;
+- (void)ot supported due to current user being a child account and the product requiring an age >= 13.;
+- (void)ple.passkit.expresspassesinformation.changed;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -43,21 +33,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)PrivateFrameworks/IMFoundation.framework/Contents/MacOS/IMFoundation;
 - (void)Celebration;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMessageActionType;
-@property(readonly, nonatomic) _Bool hasOriginalMessageGuid;
-@property(readonly, nonatomic) _Bool hasOtherHandle;
-@property(readonly, nonatomic) _Bool hasPadding;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) long long messageActionType; // @synthesize messageActionType=_messageActionType;
-@property(retain, nonatomic) NSString *originalMessageGuid; // @synthesize originalMessageGuid=_originalMessageGuid;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol EXExtensionContextHostConfigurationProviding
+
+@optional
++ (_Bool)addAKAnnotation:toAnnotationDictionary: /* Error: Ran out of types for this method. */;
 @end
 

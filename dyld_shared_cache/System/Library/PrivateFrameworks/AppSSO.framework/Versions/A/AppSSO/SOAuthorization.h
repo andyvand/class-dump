@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, SOAuthorizationCore, SOExtension, SORemoteExtensionViewController, SOUIAuthorizationViewController;
-@protocol OS_dispatch_queue, SOAuthorizationDelegate;
+@class SOAuthorizationCore;
 
 @interface SOAuthorization
 {
     SOAuthorizationCore *_authorizationCore;
-    SOExtension *_extension;
-    SORemoteExtensionViewController *_extensionViewController;
-    SOUIAuthorizationViewController *_authorizationViewController;
-    _Bool _enableEmbeddedAuthorizationViewController;
-    _Bool _cancelled;
-    id <SOAuthorizationDelegate> _delegate;
-    NSObject *_cancelLock;
 }
 
-+ (void);
++ (void)8h;
 + (id);
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (void);
@@ -44,7 +36,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)with request %{public}@ in session %{public}@;
 - (id);
 - (id);
 - (void);
@@ -52,27 +44,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)calculatePrivateSizeOfSnapshotsFromXID:(id)arg1 toXID:(id)arg2 forLiveVolumeMountPoint:(id)arg3 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id)ofile];
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *authorizationOptions;
-@property(retain, nonatomic) NSObject *cancelLock; // @synthesize cancelLock=_cancelLock;
 @property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SOAuthorizationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateDispatchQueue;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableEmbeddedAuthorizationViewController; // @synthesize enableEmbeddedAuthorizationViewController=_enableEmbeddedAuthorizationViewController;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool enableUserInteraction;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

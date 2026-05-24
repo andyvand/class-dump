@@ -7,14 +7,11 @@
 #import <Safari/FirefoxImporter.h>
 
 @class NSString;
-@protocol BrowserCredentialImporterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FirefoxCredentialImportEngine : FirefoxImporter
 {
     NSString *_masterPassword;
-    _Bool _shouldSendImporterRequiresMasterPassword;
-    id <BrowserCredentialImporterDelegate> _delegate;
 }
 
 - (void);
@@ -23,19 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Tg;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

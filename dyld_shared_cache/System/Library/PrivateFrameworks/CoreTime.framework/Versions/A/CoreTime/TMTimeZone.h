@@ -9,12 +9,11 @@
 @interface TMTimeZone
 {
     NSString *_source;
-    NSString *_olsonName;
 }
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)ero-pad;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSString *olsonName; // @synthesize olsonName=_olsonName;
 @property(copy) NSString *source; // @synthesize source=_source;
 
 @end

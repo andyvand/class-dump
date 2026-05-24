@@ -9,19 +9,17 @@
 @interface LAAuthenticationMethod
 {
     NSHashTable *_observers;
-    _Bool _running;
-    LAAuthenticationMethodConfiguration *_configuration;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)h;
+- (_Bool)?	;
 - (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) LAAuthenticationMethodConfiguration *configuration; // @synthesize configuration=_configuration;

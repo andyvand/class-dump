@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext;
-@protocol MTLDevice;
-
 __attribute__((visibility("hidden")))
 @interface CIImageProcessorInOut
 {
     struct CGRect _region;
-    struct __IOSurface *_surface;
-    _Bool _usesSRGB;
-    void *_context;
-    void *_mtlTexture;
-    _Bool _surfaceLocked;
-    _Bool _onlyMetal;
-    CIContext *_metalContext;
-    unsigned long long _digest;
 }
 
 - (_Bool);
@@ -28,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct __IOSurface *);
 - (id);
-- (int)d: /* Error: Ran out of types for this method. */;
+- (int)setFaceBalanceEnabled: /* Error: Ran out of types for this method. */;
 - (id)nxwv|xxxxyyyyssssnnnnttttbxux~i}}}De]sKdZtViat<XLhjjjjhlkl\dZpexu]slo|vsu}{xvrxcoiw~zv~xz¤©©©©l{wxxxx¬¬¬¬¢¢¢¢^ojs;WJkSkfyevs|YjbxLmh;
 - (struct __CVBuffer *)ernel vec4 _ci_writeSIMD_420(vec4 color) { return vec4(0); }
 ;
@@ -55,14 +44,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)À;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bytesPerRow;
-@property(readonly, nonatomic) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long digest;
-@property(readonly, nonatomic) int format;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
 @property(readonly, nonatomic) struct CGRect region; // @synthesize region=_region;
-@property(readonly, nonatomic) struct __IOSurface *surface;
-@property(readonly, nonatomic) _Bool usesSRGBTransferFunction;
 
 @end
 

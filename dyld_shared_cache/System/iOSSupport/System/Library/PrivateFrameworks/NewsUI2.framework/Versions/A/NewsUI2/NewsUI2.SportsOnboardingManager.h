@@ -7,20 +7,11 @@
 @interface NewsUI2.SportsOnboardingManager
 {
     id tagService;
-    id subscriptionService;
-    id observers;
-    id userInfo;
-    id featureAvailability;
-    id sportsSyncManager;
-    id pushNotificationDataManager;
-    id lastOnboardingState;
-    id sportsSubscriptionChangeToken;
-    id sportsFollowsCommandToken;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ScreenSharingInteractionController;
+- (void)ScreenSharingInteractionActivity;
+- (void);
 - (id);
 - (void);
 - (void)è;

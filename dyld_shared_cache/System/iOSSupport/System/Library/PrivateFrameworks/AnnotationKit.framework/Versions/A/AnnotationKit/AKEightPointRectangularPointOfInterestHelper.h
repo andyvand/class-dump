@@ -11,7 +11,7 @@
 }
 
 + (struct CGPoint);
-+ (void);
++ (void)B;
 + (unsigned long long);
 
 @end

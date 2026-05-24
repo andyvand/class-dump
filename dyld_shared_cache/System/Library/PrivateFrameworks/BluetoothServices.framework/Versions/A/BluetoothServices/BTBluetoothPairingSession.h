@@ -4,45 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, WPClient;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
-
 @interface BTBluetoothPairingSession
 {
     _Bool _invalidateCalled;
-    unsigned int _retryCount;
-    _Bool _retryOnDetach;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    double _startTime;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    NSObject<OS_os_transaction> *_transaction;
-    struct LogCategory *_ucat;
-    WPClient *_wpClient;
-    _Bool _aggregate;
-    _Bool _connectOnly;
-    _Bool _disconnectOnly;
-    _Bool _guestMode;
-    _Bool _guestPermanent;
-    _Bool _softwareVolume;
-    _Bool _userNotInContacts;
-    unsigned int _deviceVersion;
-    CDUnknownBlockType _completionHandler;
-    NSString *_deviceAddress;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_guestAddress;
-    NSData *_guestKey;
-    NSString *_name;
 }
 
-- (void);
+- (void)wf_filenameTruncatedToMaximumLengthWithFormat:(_Bool)arg1;
+- (_Bool)webView:shouldGoToBackForwardListItem:willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
+- (void)O9?;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -58,31 +33,18 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)inlineAttachmentAttributesArray;
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)searchResultsHoursWithConciseStyle:openAt: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)E;
 
 // Remaining properties
 @property(nonatomic) _Bool aggregate; // @synthesize aggregate=_aggregate;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) _Bool connectOnly; // @synthesize connectOnly=_connectOnly;
-@property(copy, nonatomic) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(readonly, nonatomic) unsigned int deviceVersion; // @synthesize deviceVersion=_deviceVersion;
-@property(nonatomic) _Bool disconnectOnly; // @synthesize disconnectOnly=_disconnectOnly;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) NSString *guestAddress; // @synthesize guestAddress=_guestAddress;
-@property(copy, nonatomic) NSData *guestKey; // @synthesize guestKey=_guestKey;
-@property(nonatomic) _Bool guestMode; // @synthesize guestMode=_guestMode;
-@property(nonatomic) _Bool guestPermanent; // @synthesize guestPermanent=_guestPermanent;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool softwareVolume; // @synthesize softwareVolume=_softwareVolume;
-@property(nonatomic) _Bool userNotInContacts; // @synthesize userNotInContacts=_userNotInContacts;
 
 @end
 

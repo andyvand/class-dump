@@ -6,15 +6,10 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class VNRecognizeDocumentElementsRequestElementConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface VNRecognizeDocumentElementsRequestConfiguration : VNImageBasedRequestConfiguration
 {
     unsigned long long _imageCropAndScaleOption;
-    VNRecognizeDocumentElementsRequestElementConfiguration *_documentElements;
-    VNRecognizeDocumentElementsRequestElementConfiguration *_textElements;
-    VNRecognizeDocumentElementsRequestElementConfiguration *_machineReadableCodeElements;
 }
 
 - (id);
@@ -24,13 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)ü¾;
-- (void)servations;
+- (void)VNDetectorProcessOption_InputFaceObservations;
 
 // Remaining properties
-@property(readonly) VNRecognizeDocumentElementsRequestElementConfiguration *documentElements; // @synthesize documentElements=_documentElements;
 @property unsigned long long imageCropAndScaleOption; // @synthesize imageCropAndScaleOption=_imageCropAndScaleOption;
-@property(readonly) VNRecognizeDocumentElementsRequestElementConfiguration *machineReadableCodeElements; // @synthesize machineReadableCodeElements=_machineReadableCodeElements;
-@property(readonly) VNRecognizeDocumentElementsRequestElementConfiguration *textElements; // @synthesize textElements=_textElements;
 
 @end
 

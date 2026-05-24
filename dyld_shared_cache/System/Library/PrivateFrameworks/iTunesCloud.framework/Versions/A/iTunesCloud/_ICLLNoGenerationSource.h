@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)|�<;
 - (void);
-- (unsigned long long);
+- (unsigned long long){;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)47;
 
 @end
 

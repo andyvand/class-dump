@@ -5,5 +5,6 @@
 //
 
 @protocol FCCKDatabaseStartUpMiddleware
+- (void)};
 @end
 

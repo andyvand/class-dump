@@ -6,47 +6,41 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIGuidedFilter : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputGuideImage;
-    NSNumber *inputRadius;
-    NSNumber *inputEpsilon;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)8h;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (void)I;
 - (id)N^TeAQDY>YOdiuuzy|||AWMe)A0RUUOU]_]_HZPfE_UnbkcvYvqqqqq[e`emmmmpzupytx~{~~}~vvvvqqqqqqqqvvvvq~}{}p~~t{{{_e^e4E5R<M?Vggggwwwwk~|l|yJia}Qd\tXf`moooouuuuyyyy]vu|tH[Qc<J;RDPDWSaZfssssr{y~_mfx¡¡¡¡©©©©nngn;L<WNVK[iihivvvvxxxxhhhhJNIN"6%C8LCVyyyyWrqj¡¡¡¡¨¦¨¨²²²²³³³³£££ZhapLaXk{{{{n||ssosnnnnYmfud|}}y|cvu~hlip_kkkC[Uc;MAaipnvfxtmh_mG[QcJc\jbtstttttJ^TkL`Wn~~~~~~~~ttttwvuwyzw}yvr|~`mg{Wsoo~}Zh_rXaVmdlet}}}}]uoZlevNd\nttttttttjhcjGWN^LUMVQQGQKSJS[[U[4SHfRke{Lkb{arkyppppDXO_SYQ\bb`bllgltvsy¢¡¢¢­­­­©ªªªdh_nNaVmv§§§§r}zsmfs]icossssyyyyuuuueeeeQTQTPPOPMVRVCXP_N_VlJf_|l}yr}¡ukup]oi{{zx{x~~~}}}}jsssP`XjJc]pp~;
 
 // Remaining properties
-@property(copy) NSNumber *inputEpsilon; // @synthesize inputEpsilon;
-@property(retain) CIImage *inputGuideImage; // @synthesize inputGuideImage;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

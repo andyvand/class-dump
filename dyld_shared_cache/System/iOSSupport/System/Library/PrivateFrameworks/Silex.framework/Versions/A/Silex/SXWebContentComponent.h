@@ -6,50 +6,19 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, NSURL, SXComponentAnimation, SXComponentClassification, SXComponentConditions, SXJSONArray, SXJSONDictionary;
-@protocol SXComponentAnchor;
+@class NSURL;
 
 @interface SXWebContentComponent : SXComponent
 {
 }
 
-+ (id);
++ (id);
 + (CDUnknownBlockType);
 + (id)ary",R,N,V_imageResourcesGroupedByImageIdentifier;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) NSString *accessibilityLabel;
-@property(readonly, nonatomic) SXJSONArray *additions;
-@property(readonly, nonatomic) SXJSONDictionary *analytics;
-@property(readonly, nonatomic) id <SXComponentAnchor> anchor;
-@property(readonly, nonatomic) SXComponentAnimation *animation;
-@property(readonly, nonatomic) SXJSONArray *behaviors;
-@property(readonly, nonatomic) SXComponentClassification *classification;
-@property(readonly, nonatomic) SXJSONArray *conditional;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SXJSONArray",?,R,N
-
-@property(readonly, nonatomic) SXComponentConditions *conditions;
-@property(readonly, nonatomic) unsigned long long contentRelevance;
-@property(readonly, nonatomic) SXJSONDictionary *dataSourceReferences; // @dynamic dataSourceReferences;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidden;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *layout;
-@property(readonly, nonatomic) _Bool requiresLinkedContent;
-@property(readonly, nonatomic) NSString *resourceIdentifier; // @dynamic resourceIdentifier;
-@property(readonly, nonatomic) int role;
-@property(readonly, nonatomic) NSString *style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long traits;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

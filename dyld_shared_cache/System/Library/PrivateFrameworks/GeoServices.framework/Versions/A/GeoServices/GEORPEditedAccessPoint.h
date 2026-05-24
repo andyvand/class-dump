@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPCorrectedString, GEORoadAccessPoint, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPEditedAccessPoint
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORoadAccessPoint *_corrected;
-    GEORPCorrectedString *_name;
-    GEORoadAccessPoint *_original;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_corrected:1;
-        unsigned int read_name:1;
-        unsigned int read_original:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)outeToPerson:(id)arg1;
++ (_Bool)setIsRouteToPerson:(id)arg1;
 - (void);
-- (void);
+- (void)@"NSArray",R,V_emailAddresses;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (id)setHybridClassifierQueue: /* Error: Ran out of types for this method. */;
+- (void)connect device timed-out!!;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)3l;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,20 +35,14 @@
 - (void);
 - (id)ad_version"b1"wrote_anyField"b1};
 - (id)0@0:8i16 /* Error: Ran out of types for this method. */;
-- (id)stination: /* Error: Ran out of types for this method. */;
+- (id)addRelativeDistanceToDestination: /* Error: Ran out of types for this method. */;
 - (id)`~P;
 - (id)displayed_banner_event_info;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORoadAccessPoint *corrected;
-@property(readonly, nonatomic) _Bool hasCorrected;
-@property(readonly, nonatomic) _Bool hasName;
 @property(readonly, nonatomic) _Bool hasOriginal;
-@property(retain, nonatomic) GEORPCorrectedString *name;
-@property(retain, nonatomic) GEORoadAccessPoint *original;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

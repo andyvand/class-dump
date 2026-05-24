@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL, TSAnalyticsReferral;
+@class NSNumber;
 
 @interface TSFeedViewContext
 {
     id feedTagType;
-    id openedFromNews;
-    NSNumber *presentationReason;
-    NSNumber *feedPickerSection;
-    NSNumber *feedPickerType;
-    NSNumber *displayRank;
-    NSNumber *externalAnalyticsFeedReferrer;
-    void previousArticleID;
-    NSNumber *previousArticleVersion;
-    _Bool showSubscribedAlert;
-    TSAnalyticsReferral *referral;
-    void sourceURL;
-    void title;
-    void tagName;
-    void sourceApplication;
-    void userActivityType;
-    void sourceSearchText;
-    void adPreviewID;
-    void adPreviewSessionID;
-    void adQToken;
-    NSNumber *maximumAdRequestsForCurrentAdPreviewID;
 }
 
 - (id);
@@ -62,11 +42,18 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)};
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)lower upper ;
+- (void)tialize with negative count;
+- (void);
+- (void);
+- (id)S;
 - (id);
 - (id);
 - (void);
@@ -75,14 +62,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -91,25 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *adPreviewID;
-@property(nonatomic, copy) NSString *adPreviewSessionID;
-@property(nonatomic, copy) NSString *adQToken;
-@property(nonatomic, retain) NSNumber *displayRank; // @synthesize displayRank;
-@property(nonatomic, retain) NSNumber *externalAnalyticsFeedReferrer; // @synthesize externalAnalyticsFeedReferrer;
-@property(nonatomic, retain) NSNumber *feedPickerSection; // @synthesize feedPickerSection;
-@property(nonatomic, retain) NSNumber *feedPickerType; // @synthesize feedPickerType;
-@property(nonatomic, retain) NSNumber *maximumAdRequestsForCurrentAdPreviewID; // @synthesize maximumAdRequestsForCurrentAdPreviewID;
 @property(nonatomic, retain) NSNumber *presentationReason; // @synthesize presentationReason;
-@property(nonatomic, copy) NSString *previousArticleID;
-@property(nonatomic, retain) NSNumber *previousArticleVersion; // @synthesize previousArticleVersion;
-@property(nonatomic, retain) TSAnalyticsReferral *referral; // @synthesize referral;
-@property(nonatomic) _Bool showSubscribedAlert; // @synthesize showSubscribedAlert;
-@property(nonatomic, copy) NSString *sourceApplication;
-@property(nonatomic, copy) NSString *sourceSearchText;
-@property(nonatomic, copy) NSURL *sourceURL;
-@property(nonatomic, copy) NSString *tagName;
-@property(nonatomic, copy) NSString *title;
-@property(nonatomic, copy) NSString *userActivityType;
 
 @end
 

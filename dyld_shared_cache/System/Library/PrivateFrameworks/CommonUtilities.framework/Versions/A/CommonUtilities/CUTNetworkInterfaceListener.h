@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSSet;
-@protocol OS_dispatch_queue;
-
 @interface CUTNetworkInterfaceListener
 {
     void *_dynamicStore;
-    NSHashTable *_delegateMap;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    int _wifiState;
-    int _cellState;
-    NSSet *_IPv6Addresses;
-    NSSet *_IPv4Addresses;
 }
 
-+ (id);
++ (id)ȪA9;
 - (int);
 - (void);
 - (void);
@@ -29,16 +20,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (int);
+- (int)s;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *IPv4Addresses; // @synthesize IPv4Addresses=_IPv4Addresses;
-@property(readonly, nonatomic) NSSet *IPv6Addresses; // @synthesize IPv6Addresses=_IPv6Addresses;
-@property(readonly, nonatomic) int cellState; // @synthesize cellState=_cellState;
 @property(readonly, nonatomic) int wifiState; // @synthesize wifiState=_wifiState;
 
 @end

@@ -12,16 +12,16 @@
 }
 
 + (void);
-- (void);
+- (void)!	;
 - (id);
-- (id);
-- (id);
+- (id)_durationAfterWhenSeeking;
+- (id)leEquipmentInfoList",R,N;
 - (_Bool);
 - (void);
+- (id)ecoveryStatus;
 - (id);
 - (id);
-- (id);
-- (void)entObject;
+- (void)17DRFSContentObject;
 
 @end
 

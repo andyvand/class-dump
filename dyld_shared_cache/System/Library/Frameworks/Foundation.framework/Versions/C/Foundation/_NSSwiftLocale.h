@@ -6,19 +6,22 @@
 
 #import <Foundation/_NSLocaleBridge.h>
 
-@class NSCharacterSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSwiftLocale : _NSLocaleBridge
 {
     id locale;
 }
 
-+ (_Bool)dStandardCompare: /* Error: Ran out of types for this method. */;
++ (_Bool)localizedStandardCompare: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,23 +38,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9h;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)H;
 - (id);
 - (id);
 - (Class);
-- (id);
-- (void);
+- (id)d %#llx;
+- (void);
 - (id);
 - (id)NQYØ_àVdkteSOQ0RßoÔZ>k8ÔY§~ZQfo©¾|ÞRå]9e2vQæ[àzôf[x
 OÉbé[[ûyl`NYeÍbeætnfe/S;`r;
@@ -60,27 +58,7 @@ OÉbé[[ûyl`NYeÍbeætnfe/S;`r;
 - (id)ó	9;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *alternateQuotationBeginDelimiter;
-@property(nonatomic, readonly) NSString *alternateQuotationEndDelimiter;
-@property(nonatomic, readonly) NSString *calendarIdentifier;
 @property(nonatomic, readonly) Class classForCoder;
-@property(nonatomic, readonly) NSString *collationIdentifier;
-@property(nonatomic, readonly) NSString *collatorIdentifier;
-@property(nonatomic, readonly) NSString *countryCode;
-@property(nonatomic, readonly) NSString *currencyCode;
-@property(nonatomic, readonly) NSString *currencySymbol;
-@property(nonatomic, readonly) NSString *decimalSeparator;
-@property(nonatomic, readonly) NSCharacterSet *exemplarCharacterSet;
-@property(nonatomic, readonly) NSString *groupingSeparator;
-@property(nonatomic, readonly) NSString *languageCode;
-@property(nonatomic, readonly) NSString *languageIdentifier;
-@property(nonatomic, readonly) NSString *localeIdentifier;
-@property(nonatomic, readonly) NSString *quotationBeginDelimiter;
-@property(nonatomic, readonly) NSString *quotationEndDelimiter;
-@property(nonatomic, readonly) NSString *regionCode;
-@property(nonatomic, readonly) NSString *scriptCode;
-@property(nonatomic, readonly) _Bool usesMetricSystem;
-@property(nonatomic, readonly) NSString *variantCode;
 
 @end
 

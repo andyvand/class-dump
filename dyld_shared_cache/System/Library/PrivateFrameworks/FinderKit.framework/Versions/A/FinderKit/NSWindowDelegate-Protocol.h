@@ -7,13 +7,14 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void)ICollectionCellView"8Q16^B24;
 - (void);
 - (void)0`;
 - (void)@$;
 - (void));
 - (void)È;
 - (id);
-- (void);
 - (void)à;
 - (void)Ä;
 - (void)ôÀ
@@ -25,11 +26,11 @@
 - (void)EEE;
 - (void)Counted]E4$_19vJEEE;
 - (struct CGRect)w _setUpImmediateActionGestureRecognizers]E4$_11;
-- (void)lumeI18TInfoExtractorData27TInfoExtractorInternalCacheEC1ERNS_6vectorINS_8functionIFvvEEENS_9allocatorIS9_EEEERK7TStringENKUlvE_clEvEUlvE_S8_EE;
+- (void)NSt3__110__function6__funcIZZN22TNodeKeyCachePerVolumeI18TInfoExtractorData27TInfoExtractorInternalCacheEC1ERNS_6vectorINS_8functionIFvvEEENS_9allocatorIS9_EEEERK7TStringENKUlvE_clEvEUlvE_S8_EE;
 - (void)oller configureView]E3$_1FvP12NSDictionaryIP8NSStringP8NSObjectEEEE;
 - (_Bool)EEEEE;
 - (void)tionsEENK3$_0clEvEUlvE_S5_EE;
-- (void)20__shared_ptr_emplaceIZL10MakeSharedI11TFindFolderJEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorIS9_EEEE;
+- (void)NSt3__120__shared_ptr_emplaceIZL10MakeSharedI11TFindFolderJEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorIS9_EEEE;
 - (struct CGSize)eVectorEEE;
 @end
 

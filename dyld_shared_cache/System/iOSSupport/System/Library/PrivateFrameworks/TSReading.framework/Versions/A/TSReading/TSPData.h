@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSPDataManager, TSPObjectContext;
-@protocol OS_dispatch_queue, TSPDataStorage;
-
 @interface TSPData
 {
     int _didCull;
-    long long _identifier;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    id <TSPDataStorage> _storage;
-    NSString *_filename;
-    TSPDataManager *_manager;
-    struct array<unsigned char, 20UL> _digest;
-    _Bool _isDeallocating;
 }
 
 + (_Bool);
 + (id);
++ (void)C;
++ (id);
++ (id);
++ (id);
++ (id)Hg;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id).;
++ (id);
++ (id);
++ (id);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
+- (void)cTracklist contains URLs;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGImageSource *);
+- (void)res a valid AdamID for playback.;
+- (void)of content restrictions.;
+- (id)xp_amp_podcasts_paf;
+- (struct CGImageSource *)PlayerPeriodicObservationConfiguration;
 - (struct CGDataProvider *);
-- (_Bool);
+- (_Bool)SystemActions;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)q;
 - (void);
 - (id);
 - (id);
@@ -77,20 +67,7 @@
 - (const void *);
 
 // Remaining properties
-@property(readonly, nonatomic) TSPObjectContext *context;
-@property(readonly, nonatomic) NSString *documentResourceLocator;
-@property(readonly, nonatomic) unsigned long long encodedLength;
-@property(readonly, nonatomic) NSString *filename;
 @property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isApplicationData;
-@property(readonly, nonatomic) _Bool isExternalData;
-@property(readonly, nonatomic) _Bool isReadable;
-@property(readonly, nonatomic) _Bool needsDownload;
-@property(readonly, nonatomic) unsigned char packageIdentifier;
-@property(readonly, nonatomic) NSString *packageLocator;
-@property(retain, nonatomic) id <TSPDataStorage> storage;
-@property(readonly, nonatomic) NSString *type;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

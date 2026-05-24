@@ -9,23 +9,22 @@
 @interface PREResponsesExperimentSuggestion
 {
     _Bool _dynamicReply;
-    NSString *_title;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)
+;
+- (id)A;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isDynamicReply) _Bool dynamicReply; // @synthesize dynamicReply=_dynamicReply;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

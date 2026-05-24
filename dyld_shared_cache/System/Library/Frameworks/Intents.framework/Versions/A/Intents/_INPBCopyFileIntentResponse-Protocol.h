@@ -7,20 +7,15 @@
 @class _INPBString;
 
 @protocol _INPBCopyFileIntentResponse
-- (_Bool)asBinaryValue: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
+- (int);
+- (_Bool);
+- (void);
+- (_Bool)setHasBinaryValue: /* Error: Ran out of types for this method. */;
+- (void)INPauseWorkoutIntent;
 - (_INPBString *)NSMeasurement;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *destinationName;
-@property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(nonatomic) _Bool hasOverwrite;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool overwrite;
-@property(nonatomic) _Bool success;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSImage, NSString;
+@class NSImage;
 
 @interface PXComposeRecipientTableCellModel
 {
     _Bool _isValidAddress;
-    _Bool _checked;
-    _Bool _showsCheckbox;
-    NSImage *_image;
-    long long _imageRequestID;
-    NSString *_name;
-    NSString *_address;
-    CNContact *_contact;
 }
 
 + (double);
@@ -34,22 +27,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id)SimulateCloudState: /* Error: Ran out of types for this method. */;
+- (id)setSimulateCloudState: /* Error: Ran out of types for this method. */;
 - (void)HFetchResult"12@?0S8;
 - (id);
-- (void);
+- (void)LemonadeBookmark;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) _Bool checked; // @synthesize checked=_checked;
-@property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(readonly, copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) long long imageRequestID; // @synthesize imageRequestID=_imageRequestID;
-@property(readonly, nonatomic) _Bool isValidAddress; // @synthesize isValidAddress=_isValidAddress;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool showsCheckbox; // @synthesize showsCheckbox=_showsCheckbox;
 
 @end
 

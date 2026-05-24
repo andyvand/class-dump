@@ -5,9 +5,9 @@
 //
 
 @protocol TSDTextSelection
+- (_Bool)T PROCESSED   〔;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAtEndOfLine;
 @property(readonly, nonatomic) struct _NSRange range;
 @end
 

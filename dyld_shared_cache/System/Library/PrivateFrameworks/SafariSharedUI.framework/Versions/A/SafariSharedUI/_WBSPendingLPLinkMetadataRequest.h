@@ -9,16 +9,14 @@
 @interface _WBSPendingLPLinkMetadataRequest
 {
     _Bool _allowDelayedResponse;
-    WBSSiteMetadataRequest *_request;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (id);
-- (void)ggestionsToProviders;
+- (void)_cachedSuggestionsToProviders;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowDelayedResponse; // @synthesize allowDelayedResponse=_allowDelayedResponse;
 @property(readonly, nonatomic) WBSSiteMetadataRequest *request; // @synthesize request=_request;
 
 @end

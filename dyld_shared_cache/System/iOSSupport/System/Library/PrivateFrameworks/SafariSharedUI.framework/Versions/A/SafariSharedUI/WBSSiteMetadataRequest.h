@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL;
+@class NSObject, NSURL;
 @protocol OS_os_activity;
 
 @interface WBSSiteMetadataRequest
 {
     NSObject<OS_os_activity> *_activity;
-    NSString *_cachedDescription;
-    NSURL *_url;
-    NSDictionary *_extraInfo;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)y:Copy and mark as read matching chat guids prior to guid /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void)thURL: /* Error: Ran out of types for this method. */;
+- (void)responseWithURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(readonly, copy, nonatomic) NSDictionary *extraInfo; // @synthesize extraInfo=_extraInfo;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

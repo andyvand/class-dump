@@ -13,10 +13,6 @@ __attribute__((visibility("hidden")))
 
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *timer_all; // @dynamic timer_all;
-@property(retain, nonatomic) NSNumber *timer_incoming; // @dynamic timer_incoming;
-@property(retain, nonatomic) NSNumber *timer_last; // @dynamic timer_last;
-@property(retain, nonatomic) NSNumber *timer_lifetime; // @dynamic timer_lifetime;
 @property(retain, nonatomic) NSNumber *timer_outgoing; // @dynamic timer_outgoing;
 @end
 

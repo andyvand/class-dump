@@ -7,7 +7,6 @@
 @interface ConversationKit.SymbolImageCacheKey__priv_CDF3BE073B9107D3098D6A1BACD63676
 {
     id systemSymbolName;
-    id accessibilityDescription;
 }
 
 @end

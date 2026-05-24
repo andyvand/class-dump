@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSUUID;
+@class NSUUID;
 
 @interface RTCurrentWorkoutSnapshot
 {
     _Bool _isFirstPartyWorkout;
-    NSUUID *_sessionIdentifier;
-    unsigned long long _activityType;
-    long long _locationType;
-    long long _swimmingLocationType;
-    long long _sessionType;
-    unsigned long long _sessionState;
-    NSDate *_workoutStartDate;
-    NSDate *_snapshotDate;
-    NSError *_sessionError;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)SMutableSet";
+- (id)re.;
+- (_Bool)&	;
 - (id);
 - (id);
 - (unsigned long long);
@@ -36,16 +27,7 @@
 - (id)deletion requests after import, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activityType; // @synthesize activityType=_activityType;
-@property(readonly, nonatomic) _Bool isFirstPartyWorkout; // @synthesize isFirstPartyWorkout=_isFirstPartyWorkout;
-@property(readonly, nonatomic) long long locationType; // @synthesize locationType=_locationType;
-@property(readonly, nonatomic) NSError *sessionError; // @synthesize sessionError=_sessionError;
 @property(readonly, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) unsigned long long sessionState; // @synthesize sessionState=_sessionState;
-@property(readonly, nonatomic) long long sessionType; // @synthesize sessionType=_sessionType;
-@property(readonly, nonatomic) NSDate *snapshotDate; // @synthesize snapshotDate=_snapshotDate;
-@property(readonly, nonatomic) long long swimmingLocationType; // @synthesize swimmingLocationType=_swimmingLocationType;
-@property(readonly, copy, nonatomic) NSDate *workoutStartDate; // @synthesize workoutStartDate=_workoutStartDate;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 @protocol BUFileCopierDelegate;
 
 @interface BUSimpleFileCopier
 {
     id <BUFileCopierDelegate> _delegate;
-    NSURL *_fromURL;
-    NSURL *_currentCopyItemURL;
 }
 
 + (_Bool);
@@ -29,16 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *currentCopyItemURL; // @synthesize currentCopyItemURL=_currentCopyItemURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BUFileCopierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSURL *fromURL; // @synthesize fromURL=_fromURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

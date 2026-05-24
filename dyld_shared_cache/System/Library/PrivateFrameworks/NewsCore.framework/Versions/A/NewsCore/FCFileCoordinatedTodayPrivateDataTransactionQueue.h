@@ -13,8 +13,8 @@
 
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)P;
 - (void);
 - (void);
 - (id)"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32;

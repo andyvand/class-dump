@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSDatePickerRange
 {
     NSDate *_date;
-    double _timeInterval;
-    _Bool _anchorOnLeft;
 }
 
-- (void);
-- (void);
+- (void)dRoots/4~CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGBasebandSupport.c;
+- (void)AppleInternal/Library/BuildRoots/4~CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGBasebandSupport.c;
 - (_Bool);
 - (id);
 - (id);
@@ -23,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id).cm;
 - (void);
 - (void);
 - (id);

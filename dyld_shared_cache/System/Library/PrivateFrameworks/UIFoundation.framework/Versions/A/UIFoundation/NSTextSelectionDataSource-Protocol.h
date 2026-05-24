@@ -7,6 +7,12 @@
 @class NSTextRange;
 
 @protocol NSTextSelectionDataSource
+- (NSTextRange *);
+- (void)Sj;
+- (void)C1t9C1t=C1tAC1t_C1tbC1tdC1tfC1tgC1thC1tlC1tmC1tnC1tpC1trC1tu*1t;
+
+@optional
+- (void)@9k;
 
 // Remaining properties
 @property(readonly) NSTextRange *documentRange;

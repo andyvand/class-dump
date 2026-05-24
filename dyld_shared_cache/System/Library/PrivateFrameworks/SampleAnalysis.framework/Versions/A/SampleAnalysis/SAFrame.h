@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SABinaryLoadInfo, SAExclave, SAInstruction;
-
 @interface SAFrame
 {
     union {
@@ -18,28 +16,24 @@
             unsigned int isLeafyCallstackIsInAnotherCallTreeFrame:1;
         } ;
     } _bools;
-    unsigned long long _address;
-    SABinaryLoadInfo *_binaryLoadInfo;
-    SAFrame *_parentFrame;
-    id _childFrameOrFrames;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id)accessibilityCustomRotorNames;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,29 +41,12 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)AXFRotorItemResult;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long address;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) SAExclave *exclave;
 @property(readonly) unsigned long long hash;
-@property(readonly) SAInstruction *instruction;
-@property(readonly) _Bool isExclave;
-@property(readonly) _Bool isFakeFrame;
-@property(readonly) _Bool isKernel;
-@property(readonly) _Bool isLeafyCallstackIsInAnotherCallTreeFrame;
-@property(readonly) _Bool isRootFrame;
-@property(readonly) _Bool isSwiftAsync;
-@property(readonly) _Bool isSymbolicationOffByOne;
-@property(readonly) _Bool isTruncatedBacktraceFrame;
-@property(readonly) Class superclass;
 
 @end
 

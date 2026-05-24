@@ -9,7 +9,7 @@
     _Bool _needsInProcessHandling;
 }
 
-- (void);
+- (void)_TtCO10Accelerate4BNNS9GramLayer;
 - (_Bool);
 
 // Remaining properties

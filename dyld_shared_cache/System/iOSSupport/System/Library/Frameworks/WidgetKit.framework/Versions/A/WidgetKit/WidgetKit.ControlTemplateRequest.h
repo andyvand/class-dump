@@ -7,10 +7,6 @@
 @interface WidgetKit.ControlTemplateRequest
 {
     id fileHandle;
-    id control;
-    id environment;
-    id hostDeviceID;
-    id isPreview;
 }
 
 + (void);

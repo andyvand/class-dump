@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBCardSearchMetadata
+- (_Bool);
+- (_Bool)?;
+- (NSData *)PLInsertChangeRequestServiceHandling;
+- (id)P;
 
 // Remaining properties
-@property(nonatomic) _Bool isFederatedDomainSearch;
 @property(nonatomic) _Bool isServerEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *searchQuery;
-@property(copy, nonatomic) NSString *viewConfigName;
 @end
 

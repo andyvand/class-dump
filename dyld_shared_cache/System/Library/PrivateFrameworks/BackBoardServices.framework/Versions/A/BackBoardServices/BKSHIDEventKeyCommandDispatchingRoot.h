@@ -6,7 +6,7 @@
 
 #import <BackBoardServices/BKSHIDEventDeliveryRuleWrapper.h>
 
-@class BKSHIDEventKeyCommandsDispatchingRule, NSString;
+@class NSString;
 
 @interface BKSHIDEventKeyCommandDispatchingRoot : BKSHIDEventDeliveryRuleWrapper
 {
@@ -14,13 +14,11 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *reason; // @dynamic reason;
-@property(readonly, copy, nonatomic) BKSHIDEventKeyCommandsDispatchingRule *rule;
-@property(readonly, nonatomic) unsigned int seed; // @dynamic seed;
 
 @end
 

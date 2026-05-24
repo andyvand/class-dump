@@ -6,30 +6,12 @@
 
 #import <CoreBrightness/CBContainer.h>
 
-@class CBRingLight, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
-@protocol CBBrightnessProxy, CBContainerModuleProtocol, CBContainerModuleProtocol><CBHIDServiceProtocol, CBContainerModuleProtocol><CBHIDServiceProtocol><NightShiftSupportProtocol, CBSystemContext;
+@protocol CBBrightnessProxy;
 
 __attribute__((visibility("hidden")))
 @interface CBDisplayContainerSKL : CBContainer
 {
     id <CBBrightnessProxy> _brightnessControlProxy;
-    NSMutableArray *_relevantServices;
-    NSMutableArray<CBContainerModuleProtocol> *_modules;
-    id <CBContainerModuleProtocol> _displayControlModule;
-    id <CBContainerModuleProtocol><CBHIDServiceProtocol> _autoBrightnessModule;
-    id <CBContainerModuleProtocol><CBHIDServiceProtocol><NightShiftSupportProtocol> _harmonyModule;
-    id <CBContainerModuleProtocol> _sliderCommitTelemetryModule;
-    _Bool _isDFR;
-    _Bool _isLegacyHID;
-    _Bool _builtIn;
-    _Bool _brightnessAvailable;
-    _Bool _brightnessDisabled;
-    _Bool _autoBrightnessDisabled;
-    NSMutableDictionary *_systemState;
-    NSDictionary *_capabilitiesCache;
-    id <CBSystemContext> _systemContext;
-    CBRingLight *_ringLight;
-    int _displayID;
 }
 
 - (void);
@@ -39,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -51,24 +33,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)Metadata_ObjectDetectionEnabled;
+- (_Bool)c;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id))k;
 - (_Bool);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) int displayID; // @synthesize displayID=_displayID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

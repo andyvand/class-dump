@@ -7,11 +7,10 @@
 @interface TeaUI.MastheadViewNavigationTitleView
 {
     id maxHeight;
-    id allowsFullCompression;
 }
 
 - (id);
-- (id);
+- (id)setWidgetEventImmediateUploadModuloForHashing:(struct CGRect)arg1;
 
 @end
 

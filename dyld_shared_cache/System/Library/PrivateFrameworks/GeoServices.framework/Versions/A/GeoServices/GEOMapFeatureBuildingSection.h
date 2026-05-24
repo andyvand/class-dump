@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOBuildingFootprintFeature, GEOVectorTile;
+@class GEOVectorTile;
 
 @interface GEOMapFeatureBuildingSection
 {
     GEOVectorTile *_tile;
-    CDStruct_c3b9c2ee *_coordinates;
-    unsigned long long _coordinateCount;
-    double _baseHeight;
-    double _height;
-    GEOBuildingFootprintFeature *_feature;
-    unsigned long long _sectionIndex;
-    double _terrainElevation;
-    double _topHeight;
-    double _minBaseHeight;
-    double _maxBaseHeight;
 }
 
 - (id);
@@ -31,18 +21,11 @@
 - (void);
 - (double);
 - (double)× ;
-- (CDStruct_c3b9c2ee *)Locations;
+- (CDStruct_c3b9c2ee *)historicalLocations;
 - (void),8(3;
 
 // Remaining properties
-@property(readonly, nonatomic) double baseHeight; // @synthesize baseHeight=_baseHeight;
-@property(readonly, nonatomic) unsigned long long coordinateCount;
 @property(readonly, nonatomic) CDStruct_c3b9c2ee *coordinates;
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
-@property(readonly, nonatomic) double maxBaseHeight; // @synthesize maxBaseHeight=_maxBaseHeight;
-@property(readonly, nonatomic) double minBaseHeight; // @synthesize minBaseHeight=_minBaseHeight;
-@property(readonly, nonatomic) double terrainElevation; // @synthesize terrainElevation=_terrainElevation;
-@property(readonly, nonatomic) double topHeight; // @synthesize topHeight=_topHeight;
 
 @end
 

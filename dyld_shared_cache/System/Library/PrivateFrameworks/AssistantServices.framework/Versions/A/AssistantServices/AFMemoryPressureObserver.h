@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFMemoryPressureObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    unsigned long long _memoryPressureFlags;
-    NSHashTable *_listeners;
 }
 
-+ (id);
-- (void);
-- (void);
++ (id);
+- (void)passUnavailable;
+- (void)IN_APP_PAYMENT_COUPON_CODE_EXPIRED;
 - (void);
 - (id);
 - (void);
@@ -33,13 +30,7 @@
 - (void)wm;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

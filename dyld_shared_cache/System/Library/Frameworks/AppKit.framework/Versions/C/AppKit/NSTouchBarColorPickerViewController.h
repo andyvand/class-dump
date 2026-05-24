@@ -6,76 +6,51 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSColor, NSColorList, NSString, NSView, _NSTouchBarColorPickerContainerView;
-@protocol NSTouchBarColorPickerView, NSTouchBarColorPickerViewControllerDelegate;
+@class _NSTouchBarColorPickerContainerView;
 
 @interface NSTouchBarColorPickerViewController : NSViewController
 {
     long long _currentMode;
-    NSColor *_currentColor;
-    id <NSTouchBarColorPickerViewControllerDelegate> _delegate;
-    NSColorList *_colorList;
-    NSArray *_allowedColorSpaces;
-    _Bool _allowsAlpha;
-    _Bool _supportsPressAndHoldVariants;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)cookie. Cookie = %@;
++ (id)Ignoring cookie and deleting from store if exists. Cookie = %@;
++ (id)xclusivelyFromMainDocumentDomain and the inURL and mainDocumentURL are in different domains;
++ (id)ng work;
+- (id):No SCDG in manifest, subCC digest missing /* Error: Ran out of types for this method. */;
+- (void)yf309VokHnvuZ4SyOixR5A;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (_Bool)h;
 - (id);
+- (_Bool)alphanumeric or hyphen;
+- (id)x label size %d;
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)_onqueue_didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_didReceiveDispatchData:completion: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_didReceiveChallenge:request:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)ropertyList:(id)arg1;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)Decode error;
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
+- (void)defaultTextHighlightStyles;
 - (void);
-- (void);
-- (void)erView:configureForGotoWithFilename: /* Error: Ran out of types for this method. */;
-- (void)ycle;
+- (void)finderView:configureForGotoWithFilename: /* Error: Ran out of types for this method. */;
+- (void)NSRulerHashSizeCycle;
 
 // Remaining properties
-@property(readonly) NSView<NSTouchBarColorPickerView> *_currentPreferredPickerView;
-@property(readonly) _Bool _shouldSwatchBeHidden;
-@property(readonly) _Bool _swatchIsPrearmed;
-@property(copy) NSArray *allowedColorSpaces; // @synthesize allowedColorSpaces=_allowedColorSpaces;
-@property _Bool allowsAlpha; // @synthesize allowsAlpha=_allowsAlpha;
-@property(retain) NSColorList *colorList; // @synthesize colorList=_colorList;
-@property _Bool colorListSupportsPressAndHoldVariants; // @synthesize colorListSupportsPressAndHoldVariants=_supportsPressAndHoldVariants;
-@property(copy) NSColor *currentColor; // @synthesize currentColor=_currentColor;
-@property long long currentMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSTouchBarColorPickerViewControllerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) _NSTouchBarColorPickerContainerView *view; // @dynamic view;
-@property(readonly, copy) NSColor *workingColor;
 
 @end
 

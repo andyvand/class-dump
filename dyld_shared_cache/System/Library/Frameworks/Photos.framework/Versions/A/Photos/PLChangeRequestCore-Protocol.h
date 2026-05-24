@@ -5,6 +5,7 @@
 //
 
 @protocol PLChangeRequestCore
+- (long long)P;
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessScopeOptionsRequirement;

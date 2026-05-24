@@ -11,14 +11,9 @@
 @interface PHAssetCreationRequestPlaceholderSupport : PHAssetCreationRequest
 {
     PLClientServerTransaction *_serverTransaction;
-    NSXPCConnection *_clientConnection;
-    long long _placeholderCreationMode;
-    _Bool _downloadSourceMode_shouldBakeInAdjustments;
-    _Bool _downloadSourceMode_shouldFlattenLivePhoto;
-    _Bool _downloadSourceMode_shouldCopyLocationData;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -30,7 +25,7 @@
 - (id);
 - (id);
 - (unsigned short);
-- (id)nOptionsMappedToSourceAssets:withBatchCommentText: /* Error: Ran out of types for this method. */;
+- (id)addAssetsToCollectionShareByCopyingSourceAssets:creationOptionsMappedToSourceAssets:withBatchCommentText: /* Error: Ran out of types for this method. */;
 - (void)estHints;
 
 // Remaining properties

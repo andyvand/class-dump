@@ -6,22 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface USPSchemaUSPMetric : SISchemaInstrumentationMessage
 {
     NSString *_name;
-    NSString *_unit;
-    double _value;
-    NSArray *_iterationValues;
-    struct {
-        unsigned int value:1;
-    } _has;
-    _Bool _hasName;
-    _Bool _hasUnit;
 }
 
-- (void);
+- (void)R*;
 - (unsigned long long);
 - (double);
 - (void);
@@ -34,35 +26,28 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)x;
+- (id)C;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)_shouldShowSuggestedButton;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.date DESC, m.ROWID DESC LIMIT ?;;
+- (id);
 - (void);
 - (double);
 - (id);
-- (id)leteTaskAbandonCountInUsingApp1Hr;
-- (id)ainStage;
+- (id)deleteTaskAbandonCountInUsingApp1Hr;
+- (id)_plannerGrainStage;
 - (void)ext;
-- (void)erQueried;
+- (void)plusSuggesterQueried;
 - (id)AppName;
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasUnit; // @synthesize hasUnit=_hasUnit;
-@property(nonatomic) _Bool hasValue;
-@property(copy, nonatomic) NSArray *iterationValues; // @synthesize iterationValues=_iterationValues;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *unit; // @synthesize unit=_unit;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

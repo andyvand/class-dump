@@ -9,19 +9,18 @@
 @interface GEOLogMsgStateActionButtonDetails
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_actionButtonDetails;
 }
 
 + (Class);
-+ (_Bool)onsSearchFieldType:(id)arg1;
++ (_Bool)setHasSuggestionsSearchFieldType:(id)arg1;
+- (void)setCurrentProcessHasError:forEntitlement: /* Error: Ran out of types for this method. */;
+- (void)descriptionBuilderWithObject:(id)arg1;
+- (unsigned long long)declareWinner;
+- (id)debugPipelineDescription;
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -30,8 +29,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ate;
-- (id)ions;
+- (id)startLocationCoordinate;
+- (id)possibleActions;
 - (id)rmattedString>",R,N,V_planningDescriptionFormatString;
 - (id):%d max:%d /* Error: Ran out of types for this method. */;
 - (id)Ä;
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *actionButtonDetails;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

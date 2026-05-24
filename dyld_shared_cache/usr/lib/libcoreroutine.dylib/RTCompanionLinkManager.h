@@ -6,18 +6,9 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableDictionary, RPCompanionLinkClient, RTBlueSkyDailyMetrics, RTDefaultsManager;
-
 @interface RTCompanionLinkManager : RTService
 {
     _Bool _companionAwake;
-    RTBlueSkyDailyMetrics *_dailyBlueSkyMetrics;
-    RTDefaultsManager *_defaultsManager;
-    NSDate *_lastPlaceInferenceSyncAttemptDate;
-    NSDate *_lastVisitSyncAttemptDate;
-    RPCompanionLinkClient *_client;
-    NSMutableDictionary *_companionLinkEventHandlerDictionary;
-    NSMutableDictionary *_sleepCacheDictionary;
 }
 
 - (id);
@@ -27,28 +18,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id)ystem/Library/Frameworks/CloudKit.framework/CloudKit;
+- (id)sugar;
+- (id)gap;
+- (id)evolve;
+- (id)allocate the encrypted seed;
+- (_Bool)ot allocate the seed;
+- (_Bool)ment not CFData;
+- (void)elemetryArray is missing a flag definition;
+- (void)FlagFallbackRecordExistsWithWalrusOn;
+- (void)FlagLRCFedRecordExistsWithWalrusOn;
+- (void)ing keychain item:(id)arg1 %d;
+- (void)NING:(id)arg1 public keys are of different compact-ness
+;
+- (void)GnQbaJTiAoN46rCGpoHmy+F0ZFGsD2wVhal94Q6uhY1DrHpRPqQtAMnoA=;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)Type:%ld} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)le.SafetyMonitor.SafetyCache.InitiatorSession;
@@ -58,14 +50,7 @@
 - (id)ng, attempt %{public}d.;
 
 // Remaining properties
-@property(retain, nonatomic) RPCompanionLinkClient *client; // @synthesize client=_client;
 @property _Bool companionAwake; // @synthesize companionAwake=_companionAwake;
-@property(retain, nonatomic) NSMutableDictionary *companionLinkEventHandlerDictionary; // @synthesize companionLinkEventHandlerDictionary=_companionLinkEventHandlerDictionary;
-@property(retain, nonatomic) RTBlueSkyDailyMetrics *dailyBlueSkyMetrics; // @synthesize dailyBlueSkyMetrics=_dailyBlueSkyMetrics;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(copy, nonatomic) NSDate *lastPlaceInferenceSyncAttemptDate; // @synthesize lastPlaceInferenceSyncAttemptDate=_lastPlaceInferenceSyncAttemptDate;
-@property(copy, nonatomic) NSDate *lastVisitSyncAttemptDate; // @synthesize lastVisitSyncAttemptDate=_lastVisitSyncAttemptDate;
-@property(retain, nonatomic) NSMutableDictionary *sleepCacheDictionary; // @synthesize sleepCacheDictionary=_sleepCacheDictionary;
 
 @end
 

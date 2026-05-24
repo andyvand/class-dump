@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLRegion, GEOMapItemStorage, NSArray, NSData, NSDictionary, NSString, NSTimeZone;
+@class CLLocation;
 
 @interface CLPlacemarkInternal
 {
     CLLocation *location;
-    NSDictionary *addressDictionary;
-    CLRegion *region;
-    NSArray *areasOfInterest;
-    GEOMapItemStorage *geoMapItemStorage;
-    NSTimeZone *timeZone;
-    unsigned long long _cLMapItemSource;
-    NSData *_geoMapItemHandle;
-    NSString *category;
-    NSString *mecardAddress;
-    unsigned long long _muid;
 }
 
 - (id);

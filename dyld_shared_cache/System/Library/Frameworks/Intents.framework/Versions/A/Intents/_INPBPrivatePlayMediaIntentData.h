@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _INPBPrivateMediaIntentData, _INPBString;
+@class _INPBString;
 
 @interface _INPBPrivatePlayMediaIntentData
 {
@@ -22,51 +22,33 @@
         unsigned int isPersonalizedRequest:1;
         unsigned int shouldSuppressCommonWholeHouseAudioRoutes:1;
     } _has;
-    _Bool _appInferred;
-    _Bool _appSelectionEnabled;
-    _Bool _appSelectionSignalsEnabled;
-    _Bool _entityConfidenceSignalsEnabled;
-    _Bool _immediatelyStartPlayback;
-    _Bool _isAmbiguousPlay;
-    _Bool _isPersonalizedRequest;
-    _Bool _shouldSuppressCommonWholeHouseAudioRoutes;
-    int _appSelectionSignalsFrequencyDenominator;
-    int _entityConfidenceSignalsFrequencyDenominatorInternal;
-    int _entityConfidenceSignalsFrequencyDenominatorProd;
-    int _entityConfidenceSignalsMaxItemsToDisambiguate;
-    _INPBString *_alternativeProviderBundleIdentifier;
-    _INPBString *_ampPAFDataSetID;
-    NSArray *_audioSearchResults;
-    NSArray *_internalSignals;
-    NSData *_pegasusMetaData;
-    _INPBPrivateMediaIntentData *_privateMediaIntentData;
 }
 
-+ (Class);
++ (Class)__auth_got;
 + (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)/;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)3;
+- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,6 +59,7 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,15 +72,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (int)_ցk;
 - (int);
 - (int);
-- (int);
-- (_Bool);
+- (_Bool)R#;
 - (void);
 - (void);
 - (unsigned long long);
@@ -115,61 +97,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)ath;
+- (void)_INImageFilePersistenceUpdateModifiedDateAtFilePath;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *alternativeProviderBundleIdentifier; // @synthesize alternativeProviderBundleIdentifier=_alternativeProviderBundleIdentifier;
-@property(retain, nonatomic) _INPBString *ampPAFDataSetID; // @synthesize ampPAFDataSetID=_ampPAFDataSetID;
-@property(nonatomic) _Bool appInferred; // @synthesize appInferred=_appInferred;
-@property(nonatomic) _Bool appSelectionEnabled; // @synthesize appSelectionEnabled=_appSelectionEnabled;
-@property(nonatomic) _Bool appSelectionSignalsEnabled; // @synthesize appSelectionSignalsEnabled=_appSelectionSignalsEnabled;
-@property(nonatomic) int appSelectionSignalsFrequencyDenominator; // @synthesize appSelectionSignalsFrequencyDenominator=_appSelectionSignalsFrequencyDenominator;
-@property(copy, nonatomic) NSArray *audioSearchResults; // @synthesize audioSearchResults=_audioSearchResults;
-@property(readonly, nonatomic) unsigned long long audioSearchResultsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool entityConfidenceSignalsEnabled; // @synthesize entityConfidenceSignalsEnabled=_entityConfidenceSignalsEnabled;
-@property(nonatomic) int entityConfidenceSignalsFrequencyDenominatorInternal; // @synthesize entityConfidenceSignalsFrequencyDenominatorInternal=_entityConfidenceSignalsFrequencyDenominatorInternal;
-@property(nonatomic) int entityConfidenceSignalsFrequencyDenominatorProd; // @synthesize entityConfidenceSignalsFrequencyDenominatorProd=_entityConfidenceSignalsFrequencyDenominatorProd;
-@property(nonatomic) int entityConfidenceSignalsMaxItemsToDisambiguate; // @synthesize entityConfidenceSignalsMaxItemsToDisambiguate=_entityConfidenceSignalsMaxItemsToDisambiguate;
-@property(readonly, nonatomic) _Bool hasAlternativeProviderBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasAmpPAFDataSetID;
-@property(nonatomic) _Bool hasAppInferred;
-@property(nonatomic) _Bool hasAppSelectionEnabled;
-@property(nonatomic) _Bool hasAppSelectionSignalsEnabled;
-@property(nonatomic) _Bool hasAppSelectionSignalsFrequencyDenominator;
-@property(nonatomic) _Bool hasEntityConfidenceSignalsEnabled;
-@property(nonatomic) _Bool hasEntityConfidenceSignalsFrequencyDenominatorInternal;
-@property(nonatomic) _Bool hasEntityConfidenceSignalsFrequencyDenominatorProd;
-@property(nonatomic) _Bool hasEntityConfidenceSignalsMaxItemsToDisambiguate;
-@property(nonatomic) _Bool hasImmediatelyStartPlayback;
-@property(nonatomic) _Bool hasIsAmbiguousPlay;
-@property(nonatomic) _Bool hasIsPersonalizedRequest;
-@property(readonly, nonatomic) _Bool hasPegasusMetaData;
-@property(readonly, nonatomic) _Bool hasPrivateMediaIntentData;
-@property(nonatomic) _Bool hasShouldSuppressCommonWholeHouseAudioRoutes;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool immediatelyStartPlayback; // @synthesize immediatelyStartPlayback=_immediatelyStartPlayback;
-@property(copy, nonatomic) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, nonatomic) unsigned long long internalSignalsCount;
-@property(nonatomic) _Bool isAmbiguousPlay; // @synthesize isAmbiguousPlay=_isAmbiguousPlay;
-@property(nonatomic) _Bool isPersonalizedRequest; // @synthesize isPersonalizedRequest=_isPersonalizedRequest;
-@property(copy, nonatomic) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(retain, nonatomic) _INPBPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(nonatomic) _Bool shouldSuppressCommonWholeHouseAudioRoutes; // @synthesize shouldSuppressCommonWholeHouseAudioRoutes=_shouldSuppressCommonWholeHouseAudioRoutes;
-@property(readonly) Class superclass;
 
 @end
 

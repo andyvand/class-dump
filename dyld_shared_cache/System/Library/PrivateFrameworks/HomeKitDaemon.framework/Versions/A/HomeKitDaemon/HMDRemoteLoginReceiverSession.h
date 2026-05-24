@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteLoginAuthentication, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginReceiverSession
 {
     NSString *_sessionID;
-    HMDRemoteLoginAuthentication *_remoteAuthentication;
-    CDUnknownBlockType _completion;
 }
 
-- (id);
+- (id)redSet",R,C,N;
 - (id);
 - (void);
 - (id);
-- (id)rationCharacteristicsAuthorizationDataFromDiskWithHomeUUID: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)h;
-- (void)UIDKey;
+- (id)loadMigrationCharacteristicsAuthorizationDataFromDiskWithHomeUUID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)hmd_attributesBySettingsPath;
+- (void)HMDTargetAccessoriesUUIDKey;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) HMDRemoteLoginAuthentication *remoteAuthentication; // @synthesize remoteAuthentication=_remoteAuthentication;
 @property(readonly, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 
 @end

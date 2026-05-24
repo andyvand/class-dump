@@ -5,5 +5,6 @@
 //
 
 @protocol AFSiriCapabilitiesServiceClientInterface
+- (void)K;
 @end
 

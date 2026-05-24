@@ -6,19 +6,14 @@
 
 #import <NotesUI/ICInlineCanvasTextAttachment.h>
 
-@class ICDrawingHashtagsAndMentionsController, ICSelectorDelayer, NSHashTable, NSString, NSURL, NSView;
+@class NSHashTable, NSString;
 
 @interface ICSystemPaperTextAttachment : ICInlineCanvasTextAttachment
 {
     NSHashTable *_systemPaperViews;
-    NSString *_paperIdentifierBeforeAttachmentIsSet;
-    ICDrawingHashtagsAndMentionsController *_hashtagsAndMentionsController;
-    NSView *_cachedDrawingViewForPlaceView;
-    NSView *_cachedControlViewForPlaceView;
-    ICSelectorDelayer *_paperChangeSelectorDelayer;
 }
 
-+ (_Bool);
++ (_Bool)j;
 - (void);
 - (id);
 - (void);
@@ -28,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)3;
 - (void);
 - (id);
 - (id);
@@ -39,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (struct CGRect);
 - (id);
@@ -54,28 +49,16 @@
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)e;
 - (struct CGRect);
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)lock: /* Error: Ran out of types for this method. */;
+- (void)addCompletionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *_encryptionDelegateCRContextURL;
-@property(readonly, nonatomic) NSURL *_nonEncryptedContentCRContextURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
-
-@property(readonly, nonatomic) NSURL *_paperBundleURL;
 @property(readonly, nonatomic) NSString *_paperIdentifier;
-@property(nonatomic) __weak NSView *cachedControlViewForPlaceView; // @synthesize cachedControlViewForPlaceView=_cachedControlViewForPlaceView;
-@property(nonatomic) __weak NSView *cachedDrawingViewForPlaceView; // @synthesize cachedDrawingViewForPlaceView=_cachedDrawingViewForPlaceView;
-@property(retain, nonatomic) ICDrawingHashtagsAndMentionsController *hashtagsAndMentionsController; // @synthesize hashtagsAndMentionsController=_hashtagsAndMentionsController;
-@property(retain, nonatomic) ICSelectorDelayer *paperChangeSelectorDelayer; // @synthesize paperChangeSelectorDelayer=_paperChangeSelectorDelayer;
-@property(copy, nonatomic) NSString *paperIdentifierBeforeAttachmentIsSet; // @synthesize paperIdentifierBeforeAttachmentIsSet=_paperIdentifierBeforeAttachmentIsSet;
-@property(retain, nonatomic) NSHashTable *systemPaperViews; // @synthesize systemPaperViews=_systemPaperViews;
 
 @end
 

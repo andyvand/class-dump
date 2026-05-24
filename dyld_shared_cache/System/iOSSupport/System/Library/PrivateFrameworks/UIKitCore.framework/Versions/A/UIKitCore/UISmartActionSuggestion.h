@@ -13,8 +13,8 @@
     NSDictionary *_smartActionResponse;
 }
 
-- (id);
-- (id);
+- (id)cknamesKVStore;
+- (id)ipt for chat %s to message %s readDate %s rcptVer %ld hadQOI %{bool}d;
 - (void);
 
 // Remaining properties

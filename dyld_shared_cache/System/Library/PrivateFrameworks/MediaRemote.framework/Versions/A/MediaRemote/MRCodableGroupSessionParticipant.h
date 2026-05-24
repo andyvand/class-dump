@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRUserIdentity, NSString;
+@class NSString;
 
 @interface MRCodableGroupSessionParticipant
 {
     _Bool _pending;
-    _Bool _connected;
-    _Bool _guest;
-    _Bool _hidden;
-    _Bool _local;
-    _Bool _host;
-    NSString *_identifier;
-    MRUserIdentity *_identity;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -29,8 +22,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -40,26 +33,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)rtworksAtIndex: /* Error: Ran out of types for this method. */;
-- (void)on;
+- (_Bool)animatedArtworksAtIndex: /* Error: Ran out of types for this method. */;
+- (void)playbackSession;
 - (void)!¸;
 
 // Remaining properties
-@property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isGuest) _Bool guest; // @synthesize guest=_guest;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(nonatomic, getter=isHost) _Bool host; // @synthesize host=_host;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) MRUserIdentity *identity; // @synthesize identity=_identity;
-@property(nonatomic, getter=isLocal) _Bool local; // @synthesize local=_local;
-@property(nonatomic, getter=isPending) _Bool pending; // @synthesize pending=_pending;
-@property(readonly) Class superclass;
 
 @end
 

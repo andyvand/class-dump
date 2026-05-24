@@ -9,7 +9,6 @@
 @interface TIAutoshiftController
 {
     _Bool _enabled;
-    TITextInputTraits *_textInputTraits;
 }
 
 - (_Bool);
@@ -25,7 +24,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly, nonatomic) TITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
 
 @end

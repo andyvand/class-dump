@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface LUI2TintView
 {
     _Bool _enabled;
-    _Bool _usesDarkAppearance;
-    NSColor *_enabledColor;
-    NSColor *_disabledColor;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)?;
+- (id)N;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)itation request;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSColor *disabledColor; // @synthesize disabledColor=_disabledColor;
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain) NSColor *enabledColor; // @synthesize enabledColor=_enabledColor;
-@property(nonatomic) _Bool usesDarkAppearance; // @synthesize usesDarkAppearance=_usesDarkAppearance;
 
 @end
 

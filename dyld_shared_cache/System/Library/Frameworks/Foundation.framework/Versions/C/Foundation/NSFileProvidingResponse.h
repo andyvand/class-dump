@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface NSFileProvidingResponse
 {
     unsigned long long providedItemRecursiveGenerationCount;
-    NSError *error;
-    NSString *sandboxToken;
 }
 
 + (id);
 + (_Bool)tate:%lu /* Error: Ran out of types for this method. */;
 - (id);
+- (void)@9	@9	;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (unsigned long long);
 - (void);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error;
-@property unsigned long long providedItemRecursiveGenerationCount; // @synthesize providedItemRecursiveGenerationCount;
 @property(copy) NSString *sandboxToken; // @synthesize sandboxToken;
 
 @end

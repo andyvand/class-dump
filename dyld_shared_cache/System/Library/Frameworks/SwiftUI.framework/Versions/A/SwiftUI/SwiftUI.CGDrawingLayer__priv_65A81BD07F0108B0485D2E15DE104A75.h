@@ -12,7 +12,7 @@
     id state;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

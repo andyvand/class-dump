@@ -6,15 +6,11 @@
 
 #import <CoreDAV/CoreDAVTask.h>
 
-@class NSArray, NSObject, NSString, NSTimer;
-@protocol OS_nw_resolver;
+@class NSString;
 
 @interface CoreDAVSRVLookupTask : CoreDAVTask
 {
     NSString *_serviceString;
-    NSArray *_fetchedRecords;
-    NSObject<OS_nw_resolver> *_resolver;
-    NSTimer *_timeoutTimer;
 }
 
 - (void);
@@ -24,13 +20,12 @@
 - (id);
 - (void);
 - (id);
+- (void)?;
+- (id)alarmTime;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)EWSBaseNotificationEventType;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *fetchedRecords; // @synthesize fetchedRecords=_fetchedRecords;
 @property(retain, nonatomic) NSString *serviceString; // @synthesize serviceString=_serviceString;
 
 @end

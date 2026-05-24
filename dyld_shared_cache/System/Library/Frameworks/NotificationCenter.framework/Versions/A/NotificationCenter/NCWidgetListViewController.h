@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
 @protocol NCWidgetListViewDelegate;
 
 @interface NCWidgetListViewController
 {
     _Bool _editing;
-    NSMutableArray *_contents;
-    _Bool _hasDividerLines;
-    _Bool _showsAddButtonWhenEditing;
-    id <NCWidgetListViewDelegate> _delegate;
-    unsigned long long _minimumVisibleRowCount;
 }
 
 - (id);
@@ -22,25 +16,20 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long));
 - (unsigned long long);
-- (unsigned long long);
 - (id);
+- (_Bool)dd;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)allHIDLatencies;
 
 // Remaining properties
-@property(copy) NSArray *contents;
 @property __weak id <NCWidgetListViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool editing;
-@property _Bool hasDividerLines; // @synthesize hasDividerLines=_hasDividerLines;
-@property unsigned long long minimumVisibleRowCount; // @synthesize minimumVisibleRowCount=_minimumVisibleRowCount;
-@property _Bool showsAddButtonWhenEditing; // @synthesize showsAddButtonWhenEditing=_showsAddButtonWhenEditing;
 
 @end
 

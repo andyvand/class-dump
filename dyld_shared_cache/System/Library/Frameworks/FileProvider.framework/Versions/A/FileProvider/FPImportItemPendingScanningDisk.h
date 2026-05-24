@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderDiagnosticAttributesDescriptor, NSString;
+@class NSString;
 
 @interface FPImportItemPendingScanningDisk
 {
     _Bool _itemPendingScanningDiskHasMultiplePagesEnumeration;
-    NSString *_itemIdentifier;
-    NSFileProviderDiagnosticAttributesDescriptor *_diagnosticAttributes;
-    long long _itemPendingScanningDiskEnumerationStatus;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingReconciliation;
-    long long _itemPendingScanningDiskNumberOfChildrenNotPendingReconciliation;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingSyncUpDeletion;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingSyncUpReparent;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingSyncUp;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingSyncDownReparent;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingSyncDown;
-    long long _itemPendingScanningDiskNumberOfChildrenPendingRejection;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void)M;
 - (void);
-- (void);
-- (void);
+- (void)TQ;
 - (void);
 - (void);
 - (void);
@@ -53,22 +41,10 @@
 - (void);
 - (id);
 - (void);
-- (id)Date;
+- (id)_lastUsedDate;
 
 // Remaining properties
-@property(copy, nonatomic) NSFileProviderDiagnosticAttributesDescriptor *diagnosticAttributes; // @synthesize diagnosticAttributes=_diagnosticAttributes;
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(nonatomic) long long itemPendingScanningDiskEnumerationStatus; // @synthesize itemPendingScanningDiskEnumerationStatus=_itemPendingScanningDiskEnumerationStatus;
-@property(nonatomic) _Bool itemPendingScanningDiskHasMultiplePagesEnumeration; // @synthesize itemPendingScanningDiskHasMultiplePagesEnumeration=_itemPendingScanningDiskHasMultiplePagesEnumeration;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenNotPendingReconciliation; // @synthesize itemPendingScanningDiskNumberOfChildrenNotPendingReconciliation=_itemPendingScanningDiskNumberOfChildrenNotPendingReconciliation;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingReconciliation; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingReconciliation=_itemPendingScanningDiskNumberOfChildrenPendingReconciliation;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingRejection; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingRejection=_itemPendingScanningDiskNumberOfChildrenPendingRejection;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingSyncDown; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingSyncDown=_itemPendingScanningDiskNumberOfChildrenPendingSyncDown;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion=_itemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingSyncDownReparent; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingSyncDownReparent=_itemPendingScanningDiskNumberOfChildrenPendingSyncDownReparent;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingSyncUp; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingSyncUp=_itemPendingScanningDiskNumberOfChildrenPendingSyncUp;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingSyncUpDeletion; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingSyncUpDeletion=_itemPendingScanningDiskNumberOfChildrenPendingSyncUpDeletion;
-@property(nonatomic) long long itemPendingScanningDiskNumberOfChildrenPendingSyncUpReparent; // @synthesize itemPendingScanningDiskNumberOfChildrenPendingSyncUpReparent=_itemPendingScanningDiskNumberOfChildrenPendingSyncUpReparent;
 
 @end
 

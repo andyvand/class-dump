@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface SCNPhysicsNoiseField : SCNPhysicsField
 {
     double _smoothness;
-    double _animationSpeed;
 }
 
-+ (_Bool);
++ (_Bool)mpletionHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -23,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (void);
 - (void)}
     }
@@ -248,7 +247,6 @@ void OsdGetGregoryPatchWeights(
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double animationSpeed;
 @property(nonatomic) double smoothness;
 
 @end

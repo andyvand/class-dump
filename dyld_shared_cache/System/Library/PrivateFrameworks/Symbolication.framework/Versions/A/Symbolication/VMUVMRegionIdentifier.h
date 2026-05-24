@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSMutableArray, VMUTask, VMUTaskThreadStates;
+@class VMUTask;
 
 @interface VMUVMRegionIdentifier
 {
     VMUTask *_task;
-    VMUTaskThreadStates *_threadStates;
-    NSMutableArray *_regions;
-    NSDictionary *_ledger;
-    NSMapTable *_mallocZoneStatisticsMap;
-    _Bool _hasFractionalPageSizes;
-    _Bool _recordedPhysFootprint;
-    _Bool _didPhysFootprintDirtyAccounting;
 }
 
 + (id);
@@ -23,37 +16,33 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id),;
+- (id)TN;
+- (id);
+- (CDStruct_dd9362d3);
+- (id);
+- (_Bool)�;
 - (id);
 - (id);
 - (id);
+- (id)_refreshMovieForGestureNotification:(id)arg1;
+- (id);
+- (_Bool)So21AFMultiUserConnectionC;
 - (id);
 - (id);
+- (_Bool);
 - (CDStruct_dd9362d3);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (CDStruct_dd9362d3);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id)eFileNameForPCaddress: /* Error: Ran out of types for this method. */;
+- (void)actionWithTitle:style:handler: /* Error: Ran out of types for this method. */;
+- (id)sourceFileNameForPCaddress: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didPhysFootprintDirtyAccounting; // @synthesize didPhysFootprintDirtyAccounting=_didPhysFootprintDirtyAccounting;
-@property(readonly, nonatomic) NSDictionary *ledger; // @synthesize ledger=_ledger;
 @property(readonly, nonatomic) _Bool recordedPhysFootprint; // @synthesize recordedPhysFootprint=_recordedPhysFootprint;
-@property(readonly, nonatomic) CDStruct_dd9362d3 summaryStatisticsOfAllZones;
-@property(readonly, nonatomic) NSArray *zoneNames;
 
 @end
 

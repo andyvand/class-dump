@@ -9,17 +9,12 @@
 @interface SLSBridgedSpaceSetEdgeReservationOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    unsigned long long _edgeMask;
-    double _left;
-    double _right;
-    double _top;
-    double _bottom;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)UnresolvedIDsInStore:withManagedObjectContext:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)6^B24;
+- (unsigned long long)forceWalCheckpoint;
 - (unsigned long long);
 - (id);
 - (double);
@@ -29,12 +24,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly) double bottom; // @synthesize bottom=_bottom;
-@property(readonly) unsigned long long edgeMask; // @synthesize edgeMask=_edgeMask;
-@property(readonly) double left; // @synthesize left=_left;
-@property(readonly) double right; // @synthesize right=_right;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly) double top; // @synthesize top=_top;
 
 @end
 

@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *inputFaceObservations; // @synthesize inputFaceObservations=_inputFaceObservations;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

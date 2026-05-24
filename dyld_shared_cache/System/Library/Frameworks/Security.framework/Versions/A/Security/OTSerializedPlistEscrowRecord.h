@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface OTSerializedPlistEscrowRecord
 {
     NSString *_label;
-    NSData *_blob;
-    NSData *_metadata;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)tityQueryResult;
+- (void)qm;
+- (void)CKKSPCSIdentityQueryResult;
 - (void)ô/ðÀ6(¨6Èü4ìØ7¨ð/ô2;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *blob; // @synthesize blob=_blob;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
 
 @end
 

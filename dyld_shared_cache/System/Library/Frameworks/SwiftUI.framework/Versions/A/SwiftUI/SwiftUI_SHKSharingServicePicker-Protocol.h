@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSMenuItem;
 
 @protocol SwiftUI_SHKSharingServicePicker
+- (NSMenuItem *);
 - (void)¦ÿ;
 
 // Remaining properties

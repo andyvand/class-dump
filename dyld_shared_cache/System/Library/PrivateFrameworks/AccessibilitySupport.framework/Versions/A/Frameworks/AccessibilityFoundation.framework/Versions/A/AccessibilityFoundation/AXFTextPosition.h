@@ -25,7 +25,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isValid; // @dynamic isValid;
 @property(readonly, nonatomic) long long type; // @dynamic type;
 
 @end

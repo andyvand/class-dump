@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerLooper, AVQueuePlayer, NSColor, NSLayoutConstraint, NSMutableArray, NSPressGestureRecognizer, NSString, SRFLockStateNotifier, SiriSharedUINotificationCenterPlatterView, SiriSharedUISpinningActivityIndicator, SiriUI.SiriUICloseButtonView, SiriUI.SiriUIReportConcernButtonView, SiriUI.SiriUISiriIconToggleButtonView, SiriUI.SiriUISystemAssistantExperienceAnimationExecutor, SiriUI.SiriUITalkToSiriButtonView, SiriUIEdgeLightWindow, SiriUIOrbView, SiriUIRequestHandlingStatusView, SiriUITalkGestureTarget, SiriUITextInputField;
-@protocol SiriUISiriStatusViewAnimationDelegate, SiriUISiriStatusViewDelegate;
+@class SiriUITalkGestureTarget;
 
 @interface SiriUISiriStatusView
 {
     SiriUITalkGestureTarget *_gestureTarget;
-    NSPressGestureRecognizer *_pressRecognizer;
-    double _lastStateChangeTime;
-    double _orbViewTargetAlpha;
-    AVPlayerLooper *_orbPlayerLooper;
-    AVQueuePlayer *_orbQueuePlayer;
-    SRFLockStateNotifier *_lockStateNotifier;
-    SiriUIRequestHandlingStatusView *_requestStatusView;
-    SiriUI.SiriUISystemAssistantExperienceAnimationExecutor *_animationExecutor;
-    SiriUI.SiriUITalkToSiriButtonView *_talkToSiriButton;
-    SiriSharedUISpinningActivityIndicator *_spinningActivityIndicator;
-    SiriUI.SiriUIReportConcernButtonView *_reportConcernButton;
-    SiriUI.SiriUISiriIconToggleButtonView *_siriIconToggleButton;
-    _Bool _isInTypingMode;
-    _Bool _eligibleToOfferDismissal;
-    NSMutableArray *_constraintsForTextFieldTrailingAreaToUpdate;
-    _Bool _showingTalkModeUI;
-    _Bool _isAudioInputAvailable;
-    _Bool _reduceMotionEnabled;
-    _Bool _gestureTargetConstraintsSet;
-    _Bool _sessionIsAttending;
-    SiriUITextInputField *_textInputField;
-    SiriUIOrbView *_orbView;
-    SiriUI.SiriUICloseButtonView *_closeButtonView;
-    SiriUIEdgeLightWindow *_edgeLightWindow;
-    double _disabledMicOpacity;
-    id <SiriUISiriStatusViewDelegate> _delegate;
-    id <SiriUISiriStatusViewAnimationDelegate> _animationDelegate;
-    long long _mode;
-    long long _orbLocation;
-    NSMutableArray *_orbViewConstraints;
-    SiriSharedUINotificationCenterPlatterView *_platterView;
-    NSLayoutConstraint *_orbViewCenterConstraint;
-    NSColor *_initialInsertionColor;
 }
 
 + (_Bool);
@@ -52,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5˿;
 - (void);
 - (void);
 - (void);
@@ -94,7 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
@@ -105,10 +71,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)4h38;
 - (void);
 - (void);
 - (void);
@@ -140,12 +106,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (long long);
+- (_Bool)transcriptionButtonColorWithIsFromMe:(id)arg1 idiom: /* Error: Ran out of types for this method. */;
+- (void)nChatItems;
+- (long long)roller _updatePluginPlaybackManagerForInsertedChatItems:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (void);
@@ -156,32 +122,7 @@
 - (void)wController:(_Bool)arg1 addUtterance:toProfile:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <SiriUISiriStatusViewAnimationDelegate> animationDelegate; // @synthesize animationDelegate=_animationDelegate;
-@property(retain) SiriUI.SiriUICloseButtonView *closeButtonView; // @synthesize closeButtonView=_closeButtonView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUISiriStatusViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double disabledMicOpacity; // @synthesize disabledMicOpacity=_disabledMicOpacity;
-@property(nonatomic) SiriUIEdgeLightWindow *edgeLightWindow; // @synthesize edgeLightWindow=_edgeLightWindow;
-@property(nonatomic, getter=isGestureTargetConstraintsSet) _Bool gestureTargetConstraintsSet; // @synthesize gestureTargetConstraintsSet=_gestureTargetConstraintsSet;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSColor *initialInsertionColor; // @synthesize initialInsertionColor=_initialInsertionColor;
-@property(readonly) _Bool isAudioInputAvailable; // @synthesize isAudioInputAvailable=_isAudioInputAvailable;
 @property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) long long orbLocation; // @synthesize orbLocation=_orbLocation;
-@property(retain) SiriUIOrbView *orbView; // @synthesize orbView=_orbView;
-@property(retain, nonatomic) NSLayoutConstraint *orbViewCenterConstraint; // @synthesize orbViewCenterConstraint=_orbViewCenterConstraint;
-@property(retain) NSMutableArray *orbViewConstraints; // @synthesize orbViewConstraints=_orbViewConstraints;
-@property(retain, nonatomic) SiriSharedUINotificationCenterPlatterView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic, getter=isReduceMotionEnabled) _Bool reduceMotionEnabled; // @synthesize reduceMotionEnabled=_reduceMotionEnabled;
-@property(nonatomic) _Bool sessionIsAttending; // @synthesize sessionIsAttending=_sessionIsAttending;
-@property(nonatomic, getter=isShowingTalkModeUI) _Bool showingTalkModeUI; // @synthesize showingTalkModeUI=_showingTalkModeUI;
-@property(readonly) Class superclass;
-@property(retain) SiriUITextInputField *textInputField; // @synthesize textInputField=_textInputField;
-@property(readonly, nonatomic) id voiceOverJumpTarget;
 
 @end
 

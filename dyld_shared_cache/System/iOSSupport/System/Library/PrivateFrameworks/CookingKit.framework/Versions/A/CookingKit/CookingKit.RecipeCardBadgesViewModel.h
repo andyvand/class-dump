@@ -8,9 +8,6 @@
 {
     id _$scope;
     id _recipeID;
-    id _showCookedBadge;
-    id _showNotesBadge;
-    id _$observationRegistrar;
 }
 
 @end

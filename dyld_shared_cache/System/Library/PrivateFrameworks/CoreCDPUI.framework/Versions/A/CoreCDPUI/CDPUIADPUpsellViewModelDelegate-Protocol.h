@@ -5,5 +5,7 @@
 //
 
 @protocol CDPUIADPUpsellViewModelDelegate
+- (void)=;
+- (void);
 @end
 

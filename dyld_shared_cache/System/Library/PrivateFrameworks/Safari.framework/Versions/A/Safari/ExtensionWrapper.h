@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSExtension, NSImage, NSSet, NSString, NSURL, SafariWebExtension;
+@class NSExtension, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ExtensionWrapper
 {
     NSExtension *_appExtension;
-    NSExtension *_contentBlockerAppExtension;
-    SafariWebExtension *_webExtension;
-    NSString *_iconDataURLString;
-    NSString *_composedIdentifier;
-    _Bool _initializedWithComposedIdentifier;
-    NSString *_profileServerID;
 }
 
-+ (id);
++ (id)P;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)%)`!(cF9a;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)6;
 - (id);
 - (id);
 - (void);
@@ -59,55 +53,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)isNicknamesDisabledInCertainRegionsEnabled;
 - (id);
 - (_Bool);
-- (id)sertChild:atIndex: /* Error: Ran out of types for this method. */;
+- (id)insertChild:atIndex: /* Error: Ran out of types for this method. */;
 - (id) ;
 - (void);
 - (void)Øìÿ-È°-;
 
 // Remaining properties
-@property(nonatomic) _Bool allowedInPrivateBrowsing;
-@property(readonly, copy, nonatomic) NSSet *apiNamesPendingApproval;
-@property(readonly, nonatomic) NSExtension *appExtension;
-@property(readonly, nonatomic) _Bool canEnable;
-@property(readonly, copy, nonatomic) NSString *composedIdentifier;
-@property(readonly, copy, nonatomic) NSString *containingAppDisplayName;
-@property(readonly, nonatomic) NSURL *containingAppURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *descriptionText;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *displayVersion;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic, getter=isEnabledInAllNamedProfiles) _Bool enabledInAllNamedProfiles;
-@property(readonly, nonatomic, getter=isEnabledInAnyNamedProfile) _Bool enabledInAnyNamedProfile;
-@property(readonly, nonatomic, getter=isEnabledInAnyProfile) _Bool enabledInAnyProfile;
-@property(readonly, nonatomic) NSArray *enabledNamedProfiles;
-@property(readonly, nonatomic) NSArray *enabledProfileDisplayTitles;
-@property(readonly, nonatomic) NSArray *enabledProfiles;
-@property(readonly, copy, nonatomic) NSArray *errorStrings;
-@property(readonly, nonatomic) _Bool hasInjectedContent;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isContentBlocker;
-@property(readonly, nonatomic) _Bool isUnpackedExtension;
-@property(readonly, nonatomic) NSImage *preferencesIcon;
-@property(readonly, nonatomic) _Bool requestsAccessToAllHosts;
-@property(readonly, nonatomic) _Bool requestsTracking;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSSet *urlsPendingApproval;
-@property(readonly, nonatomic) SafariWebExtension *webExtension;
-@property(readonly, copy, nonatomic) NSDictionary *websiteAccess;
 
 @end
 

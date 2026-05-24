@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWStateReason, NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWState : SISchemaInstrumentationMessage
 {
     NSString *_currentTaskName;
-    NSString *_currentTaskType;
-    int _flowStateType;
-    FLOWSchemaFLOWStateReason *_flowStateReason;
-    NSString *_resolvedSlotName;
-    NSString *_flowStateReasonDescription;
-    struct {
-        unsigned int flowStateType:1;
-    } _has;
-    _Bool _hasCurrentTaskName;
-    _Bool _hasCurrentTaskType;
-    _Bool _hasFlowStateReason;
-    _Bool _hasResolvedSlotName;
-    _Bool _hasFlowStateReasonDescription;
 }
 
 - (void);
@@ -38,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,8 +45,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)F;
+- (unsigned long long)RINGTONE_PICKER_CHECKING_FOR_DOWNLOADS;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -70,18 +57,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentTaskName; // @synthesize currentTaskName=_currentTaskName;
-@property(copy, nonatomic) NSString *currentTaskType; // @synthesize currentTaskType=_currentTaskType;
-@property(retain, nonatomic) FLOWSchemaFLOWStateReason *flowStateReason; // @synthesize flowStateReason=_flowStateReason;
-@property(copy, nonatomic) NSString *flowStateReasonDescription; // @synthesize flowStateReasonDescription=_flowStateReasonDescription;
-@property(nonatomic) int flowStateType; // @synthesize flowStateType=_flowStateType;
-@property(nonatomic) _Bool hasCurrentTaskName; // @synthesize hasCurrentTaskName=_hasCurrentTaskName;
-@property(nonatomic) _Bool hasCurrentTaskType; // @synthesize hasCurrentTaskType=_hasCurrentTaskType;
-@property(nonatomic) _Bool hasFlowStateReason; // @synthesize hasFlowStateReason=_hasFlowStateReason;
-@property(nonatomic) _Bool hasFlowStateReasonDescription; // @synthesize hasFlowStateReasonDescription=_hasFlowStateReasonDescription;
-@property(nonatomic) _Bool hasFlowStateType;
-@property(nonatomic) _Bool hasResolvedSlotName; // @synthesize hasResolvedSlotName=_hasResolvedSlotName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *resolvedSlotName; // @synthesize resolvedSlotName=_resolvedSlotName;
 
 @end
 

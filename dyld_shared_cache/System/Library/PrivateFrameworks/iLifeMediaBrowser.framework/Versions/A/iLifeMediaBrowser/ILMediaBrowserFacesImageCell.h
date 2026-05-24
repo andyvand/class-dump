@@ -6,17 +6,11 @@
 
 #import <iLifeMediaBrowser/ILMediaBrowserImageCell.h>
 
-@class NSDictionary, NSImage, NSMutableDictionary;
+@class NSImage;
 
 @interface ILMediaBrowserFacesImageCell : ILMediaBrowserImageCell
 {
     NSImage *faceFrameImage;
-    NSImage *faceFrameImageSelected;
-    NSImage *faceFrameImageSelectedInactive;
-    NSDictionary *textAttributes;
-    NSMutableDictionary *thumbnailCache;
-    _Bool showsAlternateImage;
-    float _fontSize;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ted. Use init(dimensions:(struct CGRect)arg1 swipeAction:(id)arg2 ) instead.;
 - (void);
 - (id);
 

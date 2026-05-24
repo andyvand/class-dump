@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, CLSLocationOfInterestVisit, NSDate, NSMutableDictionary, NSMutableSet;
+@class CLSLocationCache, NSMutableDictionary;
 
 @interface CLSLocationOfInterestCache
 {
     CLSLocationCache *_locationCache;
-    NSMutableDictionary *_visitsCache;
-    NSMutableDictionary *_transitionsCache;
-    NSMutableSet *_allLocationsOfInterest;
-    NSMutableSet *_allLocationsOfInterestTransitionIdentifiers;
-    NSMutableSet *_homeLocations;
-    NSMutableSet *_workLocations;
-    unsigned long long _numberOfLocationsOfInterestVisits;
-    NSDate *_earliestVisitStartDate;
-    CLSLocationOfInterestVisit *_lastLocationOfInterestVisit;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (void);
+- (void)cmdToggleSearchSlices:(id)arg1;
+- (void)backwardCompatibleSettings:(id)arg1;
+- (void)acceptsPreviewPanelControl:(id)arg1;
+- (unsigned long long){__CFString}}},N,V_addOrRemoveLabelText;
+- (unsigned long long)__CFString *, TRetainReleasePolicy<CFStringRef>>=^{__CFString}}},N,V_addOrRemoveLabelText;
+- (id)d;
+- (id)initICQMessage:(id)arg1;
+- (id)TInfoExtractorDelegate;
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)es;
+- (id)ibrarySpecific-MultiModal-V1.0-PersonaVectorMultiModal-V1.0_DEPRECATED;
 - (id);
 - (id);
 - (id);
@@ -50,17 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *allLocationsOfInterest; // @synthesize allLocationsOfInterest=_allLocationsOfInterest;
-@property(retain, nonatomic) NSMutableSet *allLocationsOfInterestTransitionIdentifiers; // @synthesize allLocationsOfInterestTransitionIdentifiers=_allLocationsOfInterestTransitionIdentifiers;
-@property(readonly) NSDate *earliestVisitStartDate; // @synthesize earliestVisitStartDate=_earliestVisitStartDate;
-@property(retain, nonatomic) NSMutableSet *homeLocations; // @synthesize homeLocations=_homeLocations;
-@property(readonly) CLSLocationOfInterestVisit *lastLocationOfInterestVisit; // @synthesize lastLocationOfInterestVisit=_lastLocationOfInterestVisit;
-@property(readonly) unsigned long long numberOfLocationsOfInterest;
-@property(readonly) unsigned long long numberOfLocationsOfInterestTransitions;
-@property(readonly) unsigned long long numberOfLocationsOfInterestVisits; // @synthesize numberOfLocationsOfInterestVisits=_numberOfLocationsOfInterestVisits;
-@property(retain, nonatomic) NSMutableDictionary *transitionsCache; // @synthesize transitionsCache=_transitionsCache;
 @property(retain, nonatomic) NSMutableDictionary *visitsCache; // @synthesize visitsCache=_visitsCache;
-@property(retain, nonatomic) NSMutableSet *workLocations; // @synthesize workLocations=_workLocations;
 
 @end
 

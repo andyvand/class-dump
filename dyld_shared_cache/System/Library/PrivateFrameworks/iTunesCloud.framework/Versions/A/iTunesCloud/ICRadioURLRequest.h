@@ -6,16 +6,10 @@
 
 #import <iTunesCloud/ICStoreURLRequest.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface ICRadioURLRequest : ICStoreURLRequest
 {
     _Bool _backgroundRadioRequest;
-    NSNumber *_privateListeningEnabled;
-    NSNumber *_delegatedPrivateListeningEnabled;
-    long long _protocolVersion;
-    CDUnknownBlockType _radioContentDictionaryCreationBlock;
 }
 
 - (void);
@@ -27,18 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)sePath:(long long)arg1;
+- (void)`;
+- (id)h";
+- (void)setDatabasePath:(long long)arg1;
 - (long long)_edgeNodeCacheStatus;
 - (void)delegateQueue;
 
 // Remaining properties
 @property(nonatomic, getter=isBackgroundRadioRequest) _Bool backgroundRadioRequest; // @synthesize backgroundRadioRequest=_backgroundRadioRequest;
-@property(copy, nonatomic, getter=isDelegatedPrivateListeningEnabled) NSNumber *delegatedPrivateListeningEnabled; // @synthesize delegatedPrivateListeningEnabled=_delegatedPrivateListeningEnabled;
-@property(copy, nonatomic, getter=isPrivateListeningEnabled) NSNumber *privateListeningEnabled; // @synthesize privateListeningEnabled=_privateListeningEnabled;
-@property(nonatomic) long long protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(copy, nonatomic) CDUnknownBlockType radioContentDictionaryCreationBlock; // @synthesize radioContentDictionaryCreationBlock=_radioContentDictionaryCreationBlock;
 
 @end
 

@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SFFileVaultRecoveryKey
 {
     void volumeID;
-    void serialNumber;
-    void recoveryKey;
-    void displayName;
-    void deviceModel;
-    void deviceVariant;
-    _Bool isSharedInGroup;
-    _Bool isSavedInPasswordsApp;
-    id objc_creationDate;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -31,20 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)FillRemoteViewController"8;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *creationDate;
-@property(nonatomic, copy) NSString *deviceModel;
-@property(nonatomic, copy) NSString *deviceVariant;
-@property(nonatomic, readonly) NSString *displayName;
-@property(nonatomic) _Bool isSavedInPasswordsApp; // @synthesize isSavedInPasswordsApp;
-@property(nonatomic) _Bool isSharedInGroup; // @synthesize isSharedInGroup;
-@property(nonatomic, readonly) NSString *recoveryKey;
-@property(nonatomic, readonly) NSString *serialNumber;
 @property(nonatomic, readonly) NSString *volumeID;
 
 @end

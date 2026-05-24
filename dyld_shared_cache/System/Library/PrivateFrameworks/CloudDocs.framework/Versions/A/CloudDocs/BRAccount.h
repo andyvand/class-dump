@@ -9,12 +9,10 @@
 @interface BRAccount
 {
     NSString *_accountID;
-    NSString *_personaID;
-    NSData *_perAppAccountIdentifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 + (_Bool);
@@ -22,12 +20,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ith error %i.;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)JA
+!;
 - (void);
 - (id);
 

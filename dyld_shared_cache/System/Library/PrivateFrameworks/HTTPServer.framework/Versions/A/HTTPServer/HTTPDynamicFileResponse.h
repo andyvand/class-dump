@@ -6,12 +6,11 @@
 
 #import <HTTPServer/HTTPAsyncFileResponse.h>
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface HTTPDynamicFileResponse : HTTPAsyncFileResponse
 {
     NSData *separator;
-    NSDictionary *replacementDict;
 }
 
 + (void);

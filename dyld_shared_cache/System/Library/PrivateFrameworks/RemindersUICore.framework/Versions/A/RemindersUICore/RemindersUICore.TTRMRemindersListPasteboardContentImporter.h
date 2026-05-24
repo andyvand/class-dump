@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListPasteboardContentImporter
 {
     id $__lazy_storage_$_filePromiseDestinationURL;
-    id $__lazy_storage_$_filePromiseWorkQueue;
 }
 
 @end

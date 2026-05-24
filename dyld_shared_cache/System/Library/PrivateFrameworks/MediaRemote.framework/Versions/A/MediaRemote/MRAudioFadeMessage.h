@@ -14,11 +14,10 @@
 
 - (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)all;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long fadeType;
 @property(readonly, nonatomic) MRPlayerPath *playerPath;
 
 @end

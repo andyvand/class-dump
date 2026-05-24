@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSString, SFRichText;
 
 @protocol SFCommandRowCardSection
+- (void)dentifiersForItemAtIndexPath returning MPIdentifierSet.emptyIdentifierSet [effectiveOriginalObject has no identifiers] indexPath=%{public}@ effectiveOriginalObject=%{public}@;
+- (NSString *);
+- (void)reportAudioFinishedForCallWithUUID:(SFRichText *)arg1;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFRichText *title;
-@property(retain, nonatomic) SFImage *toggledImage;
-@property(retain, nonatomic) SFRichText *toggledTitle;
 @property(copy, nonatomic) NSString *type;
 @end
 

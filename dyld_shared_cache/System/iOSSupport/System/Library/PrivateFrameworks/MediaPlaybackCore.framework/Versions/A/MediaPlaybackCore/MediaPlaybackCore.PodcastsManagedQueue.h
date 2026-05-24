@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.PodcastsManagedQueue
 {
     id queue;
-    id currentEpisodeContentItemID;
 }
 
 @end

@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
-
 @interface CTDeviceDataUsage
 {
     unsigned long long _periods;
-    NSMutableDictionary *_apps;
-    NSMutableDictionary *_uninstalledApps;
-    NSMutableDictionary *_proxiedOnlyApps;
-    NSMutableDictionary *_systemServices;
-    NSMutableDictionary *_hiddenApps;
-    NSArray *_wifiAssist;
 }
 
-+ (_Bool);
++ (_Bool)[%.3f,+%.3f] ;
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)`";
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -54,13 +46,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *apps; // @synthesize apps=_apps;
-@property(retain) NSMutableDictionary *hiddenApps; // @synthesize hiddenApps=_hiddenApps;
 @property unsigned long long periods; // @synthesize periods=_periods;
-@property(retain) NSMutableDictionary *proxiedOnlyApps; // @synthesize proxiedOnlyApps=_proxiedOnlyApps;
-@property(retain) NSMutableDictionary *systemServices; // @synthesize systemServices=_systemServices;
-@property(retain) NSMutableDictionary *uninstalledApps; // @synthesize uninstalledApps=_uninstalledApps;
-@property(retain) NSArray *wifiAssist; // @synthesize wifiAssist=_wifiAssist;
 
 @end
 

@@ -9,14 +9,11 @@
 @interface CATState
 {
     NSMutableDictionary *mTransitionByTriggeringEvent;
-    NSString *_name;
-    SEL _enterAction;
-    SEL _exitAction;
 }
 
-+ (id);
++ (id)setControlsContainer: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)ddddd}64@0:(id)arg1 8{CGAffineTransform=dddddd}16;
 - (id);
 - (id);
 - (void);
@@ -29,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL enterAction; // @synthesize enterAction=_enterAction;
-@property(nonatomic) SEL exitAction; // @synthesize exitAction=_exitAction;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

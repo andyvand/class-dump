@@ -6,14 +6,9 @@
 
 #import <GeoServices/GEOTileServerProxy.h>
 
-@class GEOXPCConnection, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface GEOTileServerRemoteProxy : GEOTileServerProxy
 {
     int _diskCacheDeletedExternalDataNotifyToken;
-    NSObject<OS_dispatch_queue> *_connectionIncomingQueue;
-    GEOXPCConnection *_connection;
 }
 
 - (void);
@@ -25,16 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)monitoring :(id)arg1 Software update checking state;
+- (void)lumeManager CSVolumeMonitor:(unsigned long long)arg1 didReceiveMusicVolumeChanged:(id)arg2 ];
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)\;
 - (void)¶*1Â0@ù
 × ;
 - (void)<^ _p`taØa<cdeteøfÈgihiÌjk lmhn8o<p prÔrØs<t upvtwØwXy(z`{À{;

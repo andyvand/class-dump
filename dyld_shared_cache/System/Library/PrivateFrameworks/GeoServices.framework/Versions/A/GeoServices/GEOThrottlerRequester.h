@@ -10,7 +10,7 @@
 
 + (id);
 - (_Bool);
-- (id)paceURI:(CDStruct_d1a7ebee)arg1 qualifiedName:(double *)arg2;
+- (id)parser:(CDStruct_026435ec)arg1 didEndElement:(double *)arg2 namespaceURI:(unsigned int *)arg3 qualifiedName:(id *)arg4;
 - (_Bool);
 - (_Bool);
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterICMPTypeList
@@ -13,26 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)momentNodesWithMeaning:(id)arg1;
 - (id);
 - (id);
-- (void);
+- (void)@"NSDictionary",R,C,N;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ady;
-- (void)ARTIAL_SUCCESS;
+- (id)isIdsReady;
+- (void)TRIGGER_EXECUTION_ERROR_TITLE_PARTIAL_SUCCESS;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *types; // @synthesize types=_types;
 
 @end

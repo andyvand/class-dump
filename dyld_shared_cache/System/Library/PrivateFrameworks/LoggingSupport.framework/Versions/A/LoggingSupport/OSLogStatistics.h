@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, OSLogEventSource;
+@class OSLogEventSource;
 
 @interface OSLogStatistics
 {
     OSLogEventSource *_eventSource;
-    NSError *_processingError;
-    NSString *_archivePath;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)initSyncWithSize:scale: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -33,12 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *archivePath; // @synthesize archivePath=_archivePath;
-@property(readonly, nonatomic) NSDate *end;
 @property(retain, nonatomic) OSLogEventSource *eventSource; // @synthesize eventSource=_eventSource;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) NSError *processingError; // @synthesize processingError=_processingError;
-@property(readonly, nonatomic) NSDate *start;
 
 @end
 

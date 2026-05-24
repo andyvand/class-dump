@@ -9,10 +9,6 @@
 @interface PCTDFA
 {
     TinyCDB *_edgeTable;
-    TinyCDB *_dataTable;
-    TinyCDB *_finalTable;
-    NSString *_startState;
-    NSString *_path;
 }
 
 - (void);
@@ -29,11 +25,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)initWithFrame:collectionView:collectionViewLayout: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
 @property(retain, nonatomic) NSString *startState; // @synthesize startState=_startState;
 
 @end

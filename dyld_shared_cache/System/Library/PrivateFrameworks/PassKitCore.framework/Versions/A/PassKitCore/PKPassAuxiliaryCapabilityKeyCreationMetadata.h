@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -25,10 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)NW_L2_RADIO_TECHNOLOGY_TYPE_CELLCDMAHYBRID;
 - (id);
 - (id);
-- (id)ctsInUnsupportedRegion;
+- (id)allowProductsInUnsupportedRegion;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, UISwitch;
+@class UISwitch;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsChatOptionsCell : CKDetailsCell
@@ -19,21 +19,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (double)Failed to load syndication ID for asset delete;
 - (void);
-- (id);
+- (id)columnID;
 - (void);
 - (void);
-- (id)ithStyle:(long long)arg1;
+- (id)appCardPresentationLimitationWithStyle:(long long)arg1;
 - (void)è;
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
+
+@optional
+- (_Bool)MapsSuggestionsFlightUpdaterEnabledKeyKey;
+- (_Bool);
+- (_Bool)arrayWithObjects:(UIGestureRecognizer *)arg1 count:(UIGestureRecognizer *)arg2;
 @end
 

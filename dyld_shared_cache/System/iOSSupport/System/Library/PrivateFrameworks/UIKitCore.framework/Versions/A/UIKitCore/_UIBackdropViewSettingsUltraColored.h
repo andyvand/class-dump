@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)frequentRepliesQuery:(id)arg1 chatID:services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
+- (void)navigationBar:shouldPopItem: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,18 +5,13 @@
 //
 
 @class NSString;
-@protocol DESMetadataEncoder;
 
 @interface DESMetadataSchema
 {
     int _outputType;
-    NSString *_key;
-    long long _buckets;
-    NSString *_desc;
-    id <DESMetadataEncoder> _encoder;
 }
 
-- (id);
+- (id)stom.bundleId;
 - (long long);
 - (int);
 - (id);
@@ -25,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long buckets; // @synthesize buckets=_buckets;
-@property(readonly, nonatomic) NSString *desc; // @synthesize desc=_desc;
-@property(readonly, nonatomic) id <DESMetadataEncoder> encoder; // @synthesize encoder=_encoder;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) int outputType; // @synthesize outputType=_outputType;
 
 @end
 

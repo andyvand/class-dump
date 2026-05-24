@@ -6,7 +6,7 @@
 
 #import <Intents/INNoteContent.h>
 
-@class INImage, NSString;
+@class INImage;
 
 @interface INImageNoteContent : INNoteContent
 {
@@ -14,31 +14,24 @@
 }
 
 + (_Bool);
+- (id)sMuted;
+- (unsigned long long),rc,zh,es;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool)_followup6GHzFILSDMap;
+- (void)ccessoryID=%@, hasNetworkEventPredicateData=%d, hasConnectedAPEventPredicateData=%d];
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)SettingsInCar: /* Error: Ran out of types for this method. */;
+- (void)INSetRelationshipIntentResponseCodeReady;
+- (void)defaultEnableMassageForSetSeatSettingsInCar: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, setter=_setImage:) INImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

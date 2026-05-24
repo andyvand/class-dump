@@ -7,7 +7,6 @@
 @interface ContentKit.WFGeneratedResponseCache
 {
     id cache;
-    id cacheURL;
 }
 
 @end

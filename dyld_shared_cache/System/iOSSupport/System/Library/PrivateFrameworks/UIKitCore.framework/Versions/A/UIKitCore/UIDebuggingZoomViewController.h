@@ -6,53 +6,39 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSObject, UIDebuggingZoomLineView, UIDebuggingZoomLoupeView, UILabel, UIPanGestureRecognizer, UISegmentedControl, UIView;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface UIDebuggingZoomViewController : UIViewController
 {
     _Bool _useViewForEdges;
-    unsigned long long _currentDirection;
-    UIDebuggingZoomLoupeView *_loupe;
-    UIDebuggingZoomLineView *_lineView;
-    UIPanGestureRecognizer *_pan;
-    NSObject<OS_dispatch_group> *_group;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct CGImage *_image;
-    UILabel *_label;
-    UILabel *_distanceLabel;
-    UISegmentedControl *_directionSegmentedControl;
-    UIView *_lastViewSeen;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)itemIdentifiers:(id)arg1 %s;
+- (void)%{public}ld mask:(id)arg1 %{public}ld itemIdentifiers:%s /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %s options:%ld /* Error: Ran out of types for this method. */;
+- (void)ring %@ participant change item  %@ => %@;
+- (void)vice for messages:(id)arg1 %@;
+- (void)ceipt For Message GUID:(id)arg1 %@;
+- (void)to Spotlight as it was moved out of Junk. Chat with guid:(id)arg1 %@;
+- (void)etch with nickname:(id)arg1 %@, updating key store;
+- (void)devices;
+- (void)cking for spam using spamExtensionID:(unsigned long long)arg1 %@, isUsingFirstPartyFilter:%{BOOL}d, containsOneTimeCode:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (struct CGImage *);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)message types are not the same. input message has type %@. output message has type %@;
+- (id)archivedMessagesChangeToken;
+- (id)__kIMDChatRegistryChatKey;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id)CEMPasscodeLockscreenSettingsDeclaration;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)"NSError"16;
+- (id)h;
 - (void)!FùñZÐ1Â0@ù
 × ;
 - (struct CGImage *)Ô!ð!ÔGù±^°1Â0@ù
@@ -69,17 +55,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentDirection; // @synthesize currentDirection=_currentDirection;
-@property(retain, nonatomic) UISegmentedControl *directionSegmentedControl; // @synthesize directionSegmentedControl=_directionSegmentedControl;
-@property(retain, nonatomic) UILabel *distanceLabel; // @synthesize distanceLabel=_distanceLabel;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) UIView *lastViewSeen; // @synthesize lastViewSeen=_lastViewSeen;
-@property(retain, nonatomic) UIDebuggingZoomLineView *lineView; // @synthesize lineView=_lineView;
-@property(retain, nonatomic) UIDebuggingZoomLoupeView *loupe; // @synthesize loupe=_loupe;
-@property(retain, nonatomic) UIPanGestureRecognizer *pan; // @synthesize pan=_pan;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool useViewForEdges; // @synthesize useViewForEdges=_useViewForEdges;
 
 @end
 

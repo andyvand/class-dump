@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSAssetPolicy, NSString;
+@class NSString;
 
 @interface DDSAssertDescriptor
 {
     NSString *_clientIdentifier;
-    NSString *_assertionIdentifier;
-    DDSAssetPolicy *_policy;
 }
 
-+ (_Bool);
++ (_Bool)a;
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,16 +23,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)'B*JF
+;
+- (id)n;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assertionIdentifier; // @synthesize assertionIdentifier=_assertionIdentifier;
 @property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) DDSAssetPolicy *policy; // @synthesize policy=_policy;
 
 @end
 

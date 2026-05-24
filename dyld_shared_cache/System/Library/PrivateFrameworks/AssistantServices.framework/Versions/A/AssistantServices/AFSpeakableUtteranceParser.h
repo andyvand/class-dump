@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AFSpeakableUtteranceParser
 {
     NSMutableDictionary *_providers;
-    id _functionHandler;
-    NSLocale *_locale;
 }
 
 
 // Remaining properties
 @property(nonatomic) _Bool handleTTSCodes;
-@property(nonatomic) _Bool handlesFunctions;
 @end
 

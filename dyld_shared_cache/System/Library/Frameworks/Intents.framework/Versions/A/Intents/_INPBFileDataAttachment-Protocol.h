@@ -12,8 +12,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data;
-@property(copy, nonatomic) NSString *fileName;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasFileName;
 @end
 

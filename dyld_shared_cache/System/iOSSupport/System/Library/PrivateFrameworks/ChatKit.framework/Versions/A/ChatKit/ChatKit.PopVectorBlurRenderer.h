@@ -7,8 +7,6 @@
 @interface ChatKit.PopVectorBlurRenderer
 {
     id device;
-    id pixelFormat;
-    id pipelineState;
 }
 
 @end

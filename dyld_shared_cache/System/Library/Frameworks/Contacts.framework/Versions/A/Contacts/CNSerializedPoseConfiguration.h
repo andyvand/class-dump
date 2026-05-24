@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPhysicalizedPose, NSString;
+@class NSString;
 
 @interface CNSerializedPoseConfiguration
 {
     NSString *_poseName;
-    AVTAvatarPhysicalizedPose *_pose;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)"%{public}@" because that class does not exist.;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -27,7 +26,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AVTAvatarPhysicalizedPose *pose; // @synthesize pose=_pose;
 @property(readonly, copy, nonatomic) NSString *poseName; // @synthesize poseName=_poseName;
 
 @end

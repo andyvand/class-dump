@@ -12,11 +12,10 @@
 @interface IMAPPersistBodiesOperation : IMAPPersistenceTaskOperation
 {
     NSOrderedSet *_downloads;
-    id <IMAPPersistBodiesOperationDelegate> _delegate;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPPersistBodiesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSOrderedSet *downloads; // @synthesize downloads=_downloads;
 
 @end
 

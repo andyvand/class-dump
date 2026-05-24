@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface EnergyDataConfig
 {
@@ -13,9 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *appID; // @dynamic appID;
-@property(nonatomic, copy) NSData *config; // @dynamic config;
-@property(nonatomic, copy) NSDate *dateLastModified; // @dynamic dateLastModified;
 @property(nonatomic, copy) NSUUID *homeID; // @dynamic homeID;
 @property(nonatomic, copy) NSString *siteID; // @dynamic siteID;
 

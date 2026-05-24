@@ -9,6 +9,7 @@
 @interface AKAlarmAuthorization
 {
     AlarmKit.AlarmAuthorization *_alarmAuthorization;
+    id;
 }
 
 - (_Bool);

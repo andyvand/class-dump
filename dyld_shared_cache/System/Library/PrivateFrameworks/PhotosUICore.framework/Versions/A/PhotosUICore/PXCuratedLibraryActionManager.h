@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PXCuratedLibraryViewModel;
+@class PXCuratedLibraryViewModel;
 
 @interface PXCuratedLibraryActionManager
 {
     PXCuratedLibraryViewModel *_viewModel;
-    NSDictionary *_actionPerformersByType;
-    NSDictionary *_assetCollectionActionPerformersByType;
-    NSDictionary *_constructorSpecificActionPerformersByType;
 }
 
 + (id);
@@ -29,15 +26,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id)endedDynamicRangeColorComponentValue;
+- (id)2;
+- (id)maximumExtendedDynamicRangeColorComponentValue;
 - (void);
 - (id),-÷þ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *actionPerformersByType; // @synthesize actionPerformersByType=_actionPerformersByType;
-@property(readonly, nonatomic) NSDictionary *assetCollectionActionPerformersByType; // @synthesize assetCollectionActionPerformersByType=_assetCollectionActionPerformersByType;
-@property(readonly, nonatomic) NSDictionary *constructorSpecificActionPerformersByType; // @synthesize constructorSpecificActionPerformersByType=_constructorSpecificActionPerformersByType;
 @property(readonly, nonatomic) __weak PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

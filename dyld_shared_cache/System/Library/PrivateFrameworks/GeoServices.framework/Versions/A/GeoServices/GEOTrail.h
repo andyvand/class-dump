@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, GEOMapItemIdentifier, NSArray, NSString;
-@protocol GEOMapItemPhoto;
-
 @interface GEOTrail
 {
     _Bool _shouldHighlight;
-    NSArray *_factoids;
-    unsigned long long _trailId;
-    NSString *_name;
-    id <GEOMapItemPhoto> _photo;
-    GEOMapItemIdentifier *_trailIdentifier;
-    NSString *_categoryName;
-    GEOFeatureStyleAttributes *_styleAttributes;
 }
 
 + (id);

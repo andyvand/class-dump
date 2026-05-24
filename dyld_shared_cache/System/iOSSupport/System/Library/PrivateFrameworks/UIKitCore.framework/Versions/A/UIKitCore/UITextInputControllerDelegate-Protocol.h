@@ -4,19 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
+@class NSArray, NSAttributedString, NSDictionary, UIColor, UITextInputController, UITextRange;
 
 @protocol UITextInputControllerDelegate
 
 @optional
+- (NSDictionary *);
+- (void)trackEvent:(UITextInputController *)arg1 withDictionary:(NSAttributedString *)arg2;
+- (void)trackAction:(UITextInputController *)arg1 extensionBundleID:(NSAttributedString *)arg2 isNotification:(UITextRange *)arg3;
+- (void)the buffer isn't full.;
+- (void)initWithCollection:(UITextInputController *)arg1 query:pickerResponder:showArtists: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 - (_Bool)!¸Bùñ]1Â0@ù
 × ;
 - (void)ayoutWidth"b1"drawsDebugBaselines"b1"drawsDebugGlyphPathBoundsClipping"b1"explicitBaselineOffset"b1"usesSimpleTextEffects"b1"wantsUnderlineForAccessibilityButtonShapesEnabled"b1"disableUpdateTextColorOnTraitCollectionChange"b1"textAlignmentFollowsWritingDirection"b1"textAlignmentMirrored"b1"shortcutIntrinsicContentSize"b1"multilineLabelRequiresCarefulMeasurement"b1"noNeedsDisplayCheckForBaselineCalculationNeeded"b1"overallWritingDirectionFollowsLayoutDirection"b1"hyphenationFactorIgnoredIfURLsDetected"b1"extendedAccessibilityAdjustments"b1"canUseUILabelLayer"b1"implementsDefaultAttributes"b1"textColorFollowsTintColor"b1"materialTextColorFollowsTintColor"b1"showsExpansionTextWhenTruncated"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
-- (UIColor *)inateSpaceForcingDelegateCallback:withAction: /* Error: Ran out of types for this method. */;
+- (UIColor *)_computeTraitCollectionAndCoordinateSpaceForcingDelegateCallback:withAction: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (NSArray *)rrored;
+- (NSArray *)UILabelConfiguration_textAlignmentMirrored;
 - (void);
 
 // Remaining properties

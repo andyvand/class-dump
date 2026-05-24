@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNRecognizeDocumentsRequestConfiguration : VNRecognizeTextRequestConfiguration
 {
     _Bool _detectionOnly;
-    _Bool _usesAlternateLineGrouping;
-    _Bool _usesFormFieldDetection;
-    unsigned long long _maximumCandidateCount;
 }
 
 - (_Bool);
@@ -28,9 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool detectionOnly; // @synthesize detectionOnly=_detectionOnly;
-@property(nonatomic) unsigned long long maximumCandidateCount; // @synthesize maximumCandidateCount=_maximumCandidateCount;
-@property(nonatomic) _Bool usesAlternateLineGrouping; // @synthesize usesAlternateLineGrouping=_usesAlternateLineGrouping;
-@property(nonatomic) _Bool usesFormFieldDetection; // @synthesize usesFormFieldDetection=_usesFormFieldDetection;
 
 @end
 

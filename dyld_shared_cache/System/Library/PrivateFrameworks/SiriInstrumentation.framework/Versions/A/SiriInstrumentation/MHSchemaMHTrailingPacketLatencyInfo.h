@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHTrailingPacketLatencyInfo : SISchemaInstrumentationMessage
 {
     unsigned int _num;
-    unsigned long long _max;
-    unsigned long long _min;
-    unsigned long long _avg;
-    unsigned long long _median;
-    unsigned long long _p95;
-    unsigned long long _std;
-    struct {
-        unsigned int num:1;
-        unsigned int max:1;
-        unsigned int min:1;
-        unsigned int avg:1;
-        unsigned int median:1;
-        unsigned int p95:1;
-        unsigned int std:1;
-    } _has;
 }
 
 - (void);
@@ -50,17 +33,19 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)e=dd}24;
+- (void)16Q24Q32;
+- (_Bool)ller",&,N,V_tableViewController;
+- (_Bool)W,V_followUpUIViewContainer;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ry field.
+	Not suitable for ECDSA.
+	Questionable extension field!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -70,26 +55,12 @@
 - (id)ed",&,N,V_ended;
 - (id)monAudioStopRecordingContext",&,N,V_assistantDaemonAudioStopRecordingContext;
 - (unsigned long long)i.rg.RGClientEvent.RGOverrideContext;
-- (unsigned long long)ext;
+- (unsigned long long)nlRouterBridgeContext;
 - (unsigned long long)deDatas.linkedUsoEntitySpans.originAppId;
-- (void)maMHVoiceTriggerSecondPassRejectReason;
+- (void)MHSchemaMHVoiceTriggerSecondPassRejectReason;
 
 // Remaining properties
-@property(nonatomic) unsigned long long avg; // @synthesize avg=_avg;
-@property(nonatomic) _Bool hasAvg;
-@property(nonatomic) _Bool hasMax;
-@property(nonatomic) _Bool hasMedian;
-@property(nonatomic) _Bool hasMin;
-@property(nonatomic) _Bool hasNum;
-@property(nonatomic) _Bool hasP95;
-@property(nonatomic) _Bool hasStd;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long max; // @synthesize max=_max;
-@property(nonatomic) unsigned long long median; // @synthesize median=_median;
-@property(nonatomic) unsigned long long min; // @synthesize min=_min;
 @property(nonatomic) unsigned int num; // @synthesize num=_num;
-@property(nonatomic) unsigned long long p95; // @synthesize p95=_p95;
-@property(nonatomic) unsigned long long std; // @synthesize std=_std;
 
 @end
 

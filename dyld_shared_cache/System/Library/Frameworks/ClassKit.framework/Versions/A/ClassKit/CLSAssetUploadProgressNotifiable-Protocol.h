@@ -5,5 +5,8 @@
 //
 
 @protocol CLSAssetUploadProgressNotifiable
+- (oneway void)rogramPriority2 0x%08X;
+- (oneway void)king usage not supported yet!
+;
 @end
 

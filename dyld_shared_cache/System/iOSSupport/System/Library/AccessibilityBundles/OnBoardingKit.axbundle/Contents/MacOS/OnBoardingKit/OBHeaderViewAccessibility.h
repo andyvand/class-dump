@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)2;
++ (id)ˏ;
 + (void);
 - (id);
 - (void);

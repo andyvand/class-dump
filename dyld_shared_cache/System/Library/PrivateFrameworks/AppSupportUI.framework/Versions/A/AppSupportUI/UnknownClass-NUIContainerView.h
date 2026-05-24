@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NUIContainerView)
-- (_Bool);
+- (_Bool);
 @end
 

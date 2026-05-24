@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint);
+- (struct CGPoint);
 - (double);
-- (id);
-- (_Bool);
-- (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (double);
-- (id);
+- (id);
+- (_Bool)with ID %@ Sent Success %@;
+- (struct CGPoint)ts of service %@ changed to %@;
+- (struct CGPoint)= %@; priorityMessageGUIDs = %@;
+- (double)orage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
+- (struct CGPoint)ignoreDeliveryReceipts;
+- (double)IMDCKMockRecordZone;
+- (id)pendingNicknameUpdatesStore;
 - (double);
 - (id);
 - (_Bool);

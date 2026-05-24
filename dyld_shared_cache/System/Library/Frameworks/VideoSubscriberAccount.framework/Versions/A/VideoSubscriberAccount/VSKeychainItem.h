@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, VSKeychainEditingContext, VSKeychainItemKind;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VSKeychainItem
 {
     _Bool _inserted;
-    _Bool _updated;
-    _Bool _deleted;
-    _Bool _hasFaultForData;
-    VSKeychainEditingContext *_editingContext;
-    VSKeychainItemKind *_itemKind;
-    NSMutableDictionary *_committedValues;
-    NSMutableDictionary *_primitiveValues;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (_Bool);
 - (id);
 - (id);
@@ -37,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (void)3;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)f);
 - (_Bool);
 - (void);
 - (void);
@@ -54,16 +47,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *committedValues; // @synthesize committedValues=_committedValues;
-@property(copy, nonatomic) NSData *data;
-@property(nonatomic, getter=isDeleted) _Bool deleted; // @synthesize deleted=_deleted;
-@property(nonatomic) __weak VSKeychainEditingContext *editingContext; // @synthesize editingContext=_editingContext;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(nonatomic) _Bool hasFaultForData; // @synthesize hasFaultForData=_hasFaultForData;
-@property(readonly, nonatomic) _Bool hasPersistentChangedValues;
-@property(nonatomic, getter=isInserted) _Bool inserted; // @synthesize inserted=_inserted;
-@property(readonly, copy, nonatomic) VSKeychainItemKind *itemKind; // @synthesize itemKind=_itemKind;
-@property(retain, nonatomic) NSMutableDictionary *primitiveValues; // @synthesize primitiveValues=_primitiveValues;
-@property(nonatomic, getter=isUpdated) _Bool updated; // @synthesize updated=_updated;
 
 @end
 

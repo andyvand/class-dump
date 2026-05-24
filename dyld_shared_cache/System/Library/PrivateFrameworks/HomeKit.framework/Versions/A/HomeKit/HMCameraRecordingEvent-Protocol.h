@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @protocol HMCameraRecordingEvent
 
 // Remaining properties
-@property(readonly, copy) NSDate *dateOfOccurrence;
 @property(readonly, copy) NSUUID *uniqueIdentifier;
 @end
 

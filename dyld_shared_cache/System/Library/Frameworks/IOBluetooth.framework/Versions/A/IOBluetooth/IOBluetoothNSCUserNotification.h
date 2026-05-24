@@ -9,11 +9,10 @@
 @interface IOBluetoothNSCUserNotification : IOBluetoothNSUserNotification
 {
     CDUnknownFunctionPointerType mCallback;
-    void *mRefCon;
 }
 
 + (id);
-- (id);
+- (id){;
 - (void);
 
 @end

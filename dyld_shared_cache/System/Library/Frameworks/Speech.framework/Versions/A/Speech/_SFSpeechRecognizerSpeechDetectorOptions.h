@@ -10,12 +10,12 @@
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_shouldCompositeAgainDueToGPUError;
 - (void);
 - (id);
 

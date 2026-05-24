@@ -6,14 +6,12 @@
 
 #import <CoreData/PFCloudKitImportRecordsWorkItem.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImporterZoneChangedWorkItem : PFCloudKitImportRecordsWorkItem
 {
     NSArray *_changedRecordZoneIDs;
-    NSMutableDictionary *_fetchedZoneIDToChangeToken;
-    NSMutableDictionary *_fetchedZoneIDToMoreComing;
 }
 
 - (void);

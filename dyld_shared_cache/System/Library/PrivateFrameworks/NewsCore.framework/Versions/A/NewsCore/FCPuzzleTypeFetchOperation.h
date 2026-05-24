@@ -6,20 +6,11 @@
 
 #import <NewsCore/FCMultiStepFetchOperation.h>
 
-@class FCAssetManager, FCHeldRecords, FCPuzzleTypeRecordSource, NSArray;
-@protocol FCContentContext, FCPuzzleTypeFetchOperationDelegate;
+@class NSArray;
 
 @interface FCPuzzleTypeFetchOperation : FCMultiStepFetchOperation
 {
     _Bool _overrideTargetsCachePolicy;
-    unsigned long long _targetsCachePolicy;
-    double _targetsMaximumCachedAge;
-    NSArray *_puzzleTypeIDs;
-    FCHeldRecords *_heldPuzzleTypeRecords;
-    FCPuzzleTypeRecordSource *_puzzleTypeRecordSource;
-    FCAssetManager *_assetManager;
-    id <FCContentContext> _context;
-    id <FCPuzzleTypeFetchOperationDelegate> _delegate;
 }
 
 - (void);
@@ -31,32 +22,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (double);
-- (id);
+- (double)setContentCompressionResistancePriority:forOrientation: /* Error: Ran out of types for this method. */;
+- (id)MapsSuggestionsTooFarFilterEnabledKey;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (id);
 - (id),R,N,V_sportLeagueHighlightsTagID;
 - (void)ywall;
 
 // Remaining properties
-@property(retain, nonatomic) FCAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(nonatomic) __weak id <FCPuzzleTypeFetchOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) FCHeldRecords *heldPuzzleTypeRecords; // @synthesize heldPuzzleTypeRecords=_heldPuzzleTypeRecords;
-@property _Bool overrideTargetsCachePolicy; // @synthesize overrideTargetsCachePolicy=_overrideTargetsCachePolicy;
 @property(retain, nonatomic) NSArray *puzzleTypeIDs; // @synthesize puzzleTypeIDs=_puzzleTypeIDs;
-@property(retain, nonatomic) FCPuzzleTypeRecordSource *puzzleTypeRecordSource; // @synthesize puzzleTypeRecordSource=_puzzleTypeRecordSource;
-@property unsigned long long targetsCachePolicy; // @synthesize targetsCachePolicy=_targetsCachePolicy;
-@property double targetsMaximumCachedAge; // @synthesize targetsMaximumCachedAge=_targetsMaximumCachedAge;
 
 @end
 

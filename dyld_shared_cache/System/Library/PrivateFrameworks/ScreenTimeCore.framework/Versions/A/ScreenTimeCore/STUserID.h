@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)T NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_handleDelegationAccountUUIDsForSession:(id)arg1;
 - (_Bool);
 - (void);
 - (id);

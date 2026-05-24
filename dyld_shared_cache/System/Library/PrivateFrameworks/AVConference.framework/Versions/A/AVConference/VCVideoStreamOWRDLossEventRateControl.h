@@ -4,42 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamOWRDLossEventRateControl
 {
     double _rampUpFrozenDuration;
-    unsigned short _currentTierIndex;
-    long long _rampUpStatus;
-    double _rampDownLossEventBitrateThreshold;
-    double _packetLossRate;
-    double _packetLossRateVideo;
-    double _roundTripTime;
-    double _firstReceiveTime;
-    double _shortAverageLag;
-    double _longAverageLag;
-    double _owrd;
-    unsigned int _firstSendTimestamp;
-    unsigned int _previousSendTimestamp;
-    unsigned int _previousTimestampDiff;
-    int _sendTimestampWrappedAround;
-    _Bool _lossEventBuffer[4];
-    int _lossEventBufferIndex;
-    double _lastLossEventTime;
-    double _rampUpFrozenTime;
-    double _rampDownOWRDThreshold;
-    double _rampDownLossRateThreshold;
-    double _rampDownLossEventCountThreshold;
-    double _rampUpNoLossEventDurationRatio;
-    double _rampUpStatusRateLimitedThreshold;
-    int _state;
-    double _rateControlTime;
-    unsigned int _targetBitrate;
-    unsigned int _averageReceivedBitrate;
-    unsigned short _minTierIndex;
-    unsigned short _maxTierIndex;
-    double _rateControlInterval;
 }
 
 - (void);
@@ -47,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (void);
@@ -55,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short);
 - (void);
 - (double);
 - (double);
@@ -63,28 +31,15 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
+- (void)_;
 - (double);
 - (id);
 - (id);
-- (int);
+- (int)fffffffffffffBffBfBiifi{_DpcParam=ffffBBfIf}iSBfBBiBBfBfBf}24^i32^{EngineHDRContext=IIiIIIIIIIIIIQQQQBBB{_DpcParam=ffffBBfIf}I}40;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double nowrd;
-@property(readonly, nonatomic) double nowrdAcc;
-@property(readonly, nonatomic) double nowrdShort;
-@property(readonly, nonatomic) double owrd; // @synthesize owrd=_owrd;
-@property(nonatomic) double rateControlInterval; // @synthesize rateControlInterval=_rateControlInterval;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
 
 @end
 

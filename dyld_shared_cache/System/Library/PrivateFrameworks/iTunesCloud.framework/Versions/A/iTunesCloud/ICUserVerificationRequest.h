@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, ICUserVerificationContext;
-
 @interface ICUserVerificationRequest
 {
     long long _qualityOfService;
-    ICStoreRequestContext *_storeRequestContext;
-    ICUserVerificationContext *_verificationContext;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)interpolationModes;
 - (id);
-- (long long);
-- (id);
+- (long long);
+- (id)S;
 - (void);
 - (void)ic}@.;
 
 // Remaining properties
 @property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(copy, nonatomic) ICStoreRequestContext *storeRequestContext; // @synthesize storeRequestContext=_storeRequestContext;
-@property(readonly, copy, nonatomic) ICUserVerificationContext *verificationContext; // @synthesize verificationContext=_verificationContext;
 
 @end
 

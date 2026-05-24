@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSPersonNameComponents, NSString, NSTimeZone, PKCurrencyAmount, PKEventDateInfo, PKLocation;
+@class NSString;
 
 @interface PKPassSemantic
 {
     NSString *_semanticKey;
-    NSString *_fieldKey;
-    NSString *_stringValue;
-    NSDate *_dateValue;
-    NSTimeZone *_timeZoneValue;
-    PKEventDateInfo *_eventDateInfoValue;
-    NSNumber *_numberValue;
-    PKLocation *_locationValue;
-    PKCurrencyAmount *_currencyAmountValue;
-    NSPersonNameComponents *_personNameComponentsValue;
-    NSArray *_stringsValue;
-    NSArray *_dictionariesValue;
 }
 
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool)qî%ð1Â0@ù
 × ;
 - (id);
 - (id);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -39,41 +28,29 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)\;
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)c;
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)h;
+- (_Bool)setNLScope: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasHeapTotal:(id)arg1;
+- (void)kFullWatchdog;
 - (id);
 - (long long)connectionAttemptLimit;
-- (id)iod;
+- (id)_financingPlansFetchPeriod;
 - (id)3-argon-CCS;
-- (void)sInterval;
+- (void)feesInterval;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmountValue; // @synthesize currencyAmountValue=_currencyAmountValue;
-@property(retain, nonatomic) NSDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(retain, nonatomic) NSArray *dictionariesValue; // @synthesize dictionariesValue=_dictionariesValue;
-@property(retain, nonatomic) PKEventDateInfo *eventDateInfoValue; // @synthesize eventDateInfoValue=_eventDateInfoValue;
-@property(copy, nonatomic) NSString *fieldKey; // @synthesize fieldKey=_fieldKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) PKLocation *locationValue; // @synthesize locationValue=_locationValue;
-@property(retain, nonatomic) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(retain, nonatomic) NSPersonNameComponents *personNameComponentsValue; // @synthesize personNameComponentsValue=_personNameComponentsValue;
 @property(copy, nonatomic) NSString *semanticKey; // @synthesize semanticKey=_semanticKey;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(retain, nonatomic) NSArray *stringsValue; // @synthesize stringsValue=_stringsValue;
-@property(retain, nonatomic) NSTimeZone *timeZoneValue; // @synthesize timeZoneValue=_timeZoneValue;
 
 @end
 

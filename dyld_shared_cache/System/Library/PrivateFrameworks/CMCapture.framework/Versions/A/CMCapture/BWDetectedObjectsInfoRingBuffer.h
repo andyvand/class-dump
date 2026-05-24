@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol BWObjectDetector;
 
 @interface BWDetectedObjectsInfoRingBuffer
 {
     NSMutableArray *_ringBuffer;
-    struct OpaqueFigSimpleMutex *_mutex;
-    int _depth;
-    int _numConsecutiveFramesWithObjects;
-    CDStruct_1b6d18a9 _lastUpdatePTS;
-    CDStruct_1b6d18a9 _lastStableObjectPTS;
 }
 
 - (void);
 - (id);
-- (float);
+- (float)!#;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)reshold;
+- (id)AutoFlashMacroNormalizedSNRThreshold;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <BWObjectDetector> objectDetector;
-@property(readonly) float secondsSinceLastObjectDetected;
-@property(readonly) Class superclass;
 
 @end
 

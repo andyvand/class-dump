@@ -7,16 +7,6 @@
 @interface CAContentStreamFrame
 {
     _Bool _fastPath;
-    int _status;
-    unsigned int _surfaceId;
-    unsigned long long _displayTime;
-    unsigned long long _updateBeginTime;
-    struct __IOSurface *_surface;
-    unsigned long long _dropCount;
-    double _displayResolution;
-    double _contentScaleX;
-    double _contentScaleY;
-    struct CGRect _contentRect;
 }
 
 - (unsigned int);
@@ -36,24 +26,14 @@
 - (unsigned long long);
 - (double);
 - (void);
-- (struct __IOSurface *);
+- (struct __IOSurface *)setInterface:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (struct CGRect);
+- (struct CGRect)`;
 - (void);
 
 // Remaining properties
-@property struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property double contentScaleX; // @synthesize contentScaleX=_contentScaleX;
-@property double contentScaleY; // @synthesize contentScaleY=_contentScaleY;
-@property double displayResolution; // @synthesize displayResolution=_displayResolution;
-@property unsigned long long displayTime; // @synthesize displayTime=_displayTime;
-@property unsigned long long dropCount; // @synthesize dropCount=_dropCount;
-@property _Bool fastPath; // @synthesize fastPath=_fastPath;
 @property int status; // @synthesize status=_status;
-@property struct __IOSurface *surface; // @synthesize surface=_surface;
-@property unsigned int surfaceId; // @synthesize surfaceId=_surfaceId;
-@property unsigned long long updateBeginTime; // @synthesize updateBeginTime=_updateBeginTime;
 
 @end
 

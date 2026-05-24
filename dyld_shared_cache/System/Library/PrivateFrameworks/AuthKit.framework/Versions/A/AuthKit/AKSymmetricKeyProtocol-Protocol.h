@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFSymmetricKeySpecifier;
+@class NSData;
 
 @protocol AKSymmetricKeyProtocol
 - (NSData *)]}±÷ëú¹¨Á¢ù`W3áÏ;S|(+ÊÌ ?+ò¬¹¼vKÄÀ¯"e5H
@@ -12,7 +12,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *keyData;
-@property(readonly, copy, nonatomic) NSString *keyDomain;
-@property(readonly, copy, nonatomic) _SFSymmetricKeySpecifier *keySpecifier;
 @end
 

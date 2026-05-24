@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol _OSSystemExtensionMDMClientToServerInterface
+- (void)to create data message from %@;
+- (void)tes:(NSDictionary *)arg1 %@  metadata:(NSString *)arg2 %@  sentFirstMessage:(void (^)(NSError *))arg3 %@  nextbyte:%llu  totalbytes:%llu  messageUUID:%@  filedescriptor:%d expiryDate:%@ /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UXKit/UXCollectionViewLayout.h>
 
-@class NSDictionary, NSMutableDictionary, _UXFlowLayoutInfo;
+@class NSDictionary;
 
 @interface UXCollectionViewFlowLayout : UXCollectionViewLayout
 {
@@ -21,23 +21,6 @@
         unsigned int layoutDataIsValid:1;
         unsigned int delegateInfoIsValid:1;
     } _gridLayoutFlags;
-    double _interitemSpacing;
-    double _lineSpacing;
-    struct CGSize _itemSize;
-    struct CGSize _headerReferenceSize;
-    struct CGSize _footerReferenceSize;
-    struct NSEdgeInsets _sectionInset;
-    _UXFlowLayoutInfo *_data;
-    struct CGSize _currentLayoutSize;
-    NSMutableDictionary *_insertedItemsAttributesDict;
-    NSMutableDictionary *_insertedSectionHeadersAttributesDict;
-    NSMutableDictionary *_insertedSectionFootersAttributesDict;
-    NSMutableDictionary *_deletedItemsAttributesDict;
-    NSMutableDictionary *_deletedSectionHeadersAttributesDict;
-    NSMutableDictionary *_deletedSectionFootersAttributesDict;
-    long long _scrollDirection;
-    NSDictionary *_rowAlignmentsOptionsDictionary;
-    struct CGRect _visibleBounds;
 }
 
 + (Class);
@@ -48,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (struct CGRect);
 - (void);
 - (void);
@@ -58,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)TI;
 - (double);
 - (double);
 - (id);
@@ -70,13 +53,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
+- (id)RE;
 - (void);
 - (void);
 - (id);
@@ -94,7 +77,7 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (long long);
 - (struct CGSize);
@@ -106,13 +89,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setRowAlignmentsOptions:) NSDictionary *_rowAlignmentOptions;
-@property(nonatomic) struct CGSize footerReferenceSize; // @synthesize footerReferenceSize=_footerReferenceSize;
-@property(nonatomic) struct CGSize headerReferenceSize; // @synthesize headerReferenceSize=_headerReferenceSize;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
-@property(nonatomic) double minimumInteritemSpacing; // @synthesize minimumInteritemSpacing=_interitemSpacing;
-@property(nonatomic) double minimumLineSpacing; // @synthesize minimumLineSpacing=_lineSpacing;
-@property(nonatomic) long long scrollDirection;
-@property(nonatomic) struct NSEdgeInsets sectionInset; // @synthesize sectionInset=_sectionInset;
 
 @end
 

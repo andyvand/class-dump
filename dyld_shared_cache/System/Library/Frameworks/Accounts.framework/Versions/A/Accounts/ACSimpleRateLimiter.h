@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLock, NSMutableArray;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface ACSimpleRateLimiter
 {
     unsigned long long _maximum;
-    double _timeInterval;
-    NSLock *_instanceLock;
-    NSMutableArray *_sortedActionDates;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)/;
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (unsigned long long);
 - (void);
 - (double);
 
 // Remaining properties
-@property(retain) NSLock *instanceLock; // @synthesize instanceLock=_instanceLock;
-@property(readonly) unsigned long long maximum; // @synthesize maximum=_maximum;
 @property(readonly) NSDate *rateLimitingStartDate;
-@property(retain) NSMutableArray *sortedActionDates; // @synthesize sortedActionDates=_sortedActionDates;
-@property(readonly) double timeInterval; // @synthesize timeInterval=_timeInterval;
 
 @end
 

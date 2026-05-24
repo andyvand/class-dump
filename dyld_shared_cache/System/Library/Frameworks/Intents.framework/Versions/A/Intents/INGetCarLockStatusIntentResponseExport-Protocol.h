@@ -7,10 +7,10 @@
 @class NSNumber;
 
 @protocol INGetCarLockStatusIntentResponseExport
-- (long long)sAdditionalDetails;
+- (NSNumber *);
+- (long long)hasAdditionalDetails;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *locked;
 @end
 

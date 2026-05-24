@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)u;
 - (id)ypad contextId because home is nil;
 - (void)is not reachable;
 

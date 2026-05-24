@@ -7,11 +7,6 @@
 @interface IDSTransportScoreCard
 {
     unsigned long long score;
-    long long stunTransport;
-    long long transportInterface;
-    unsigned int interfaceIndex;
-    _Bool alreadySelected;
-    _Bool isIPv6;
 }
 
 - (id);

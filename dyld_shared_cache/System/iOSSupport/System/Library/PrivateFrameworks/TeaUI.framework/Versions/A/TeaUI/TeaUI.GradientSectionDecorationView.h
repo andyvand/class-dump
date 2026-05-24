@@ -7,14 +7,11 @@
 @interface TeaUI.GradientSectionDecorationView
 {
     id gradientView;
-    id gradientSize;
-    id overscrollPinPosition;
-    id offset;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)upsellAppLaunchLastPresenterBundleID;
+- (id)setWatchAppSessionDuration:(struct CGRect)arg1;
 - (void);
 - (void);
 

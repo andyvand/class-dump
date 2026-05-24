@@ -7,6 +7,8 @@
 @class NSData;
 
 @protocol ECAuthenticationMessageInternal
+- (id)OT EXISTS %@ AFTER DELETE ON %@ FOR EACH ROW WHEN %@;
+- (NSData *)__AUTH_CONST;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *signature;

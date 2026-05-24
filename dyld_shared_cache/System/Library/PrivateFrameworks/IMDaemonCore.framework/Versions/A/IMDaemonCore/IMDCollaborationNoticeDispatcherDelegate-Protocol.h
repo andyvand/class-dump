@@ -5,5 +5,7 @@
 //
 
 @protocol IMDCollaborationNoticeDispatcherDelegate
+- (void)`;
+- (void);
 @end
 

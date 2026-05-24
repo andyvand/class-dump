@@ -14,7 +14,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (long long);
@@ -25,7 +25,7 @@
 + (void);
 + (void);
 + (unsigned long long);
-+ (void);
++ (void)initWithOriginatingRequestSpecifier: /* Error: Ran out of types for this method. */;
 
 @end
 

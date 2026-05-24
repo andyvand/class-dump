@@ -7,8 +7,6 @@
 @interface PKAccountEnhancedMerchantBehavior
 {
     double _minRefreshPeriod;
-    double _shortMinRefreshPeriod;
-    double _longMinRefreshPeriod;
 }
 
 + (_Bool)0@ù
@@ -16,7 +14,8 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)_k
+1;
 - (double);
 - (double);
 - (_Bool);
@@ -26,15 +25,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_secondaryFlowSuccessCount;
 - (void);
 - (id);
-- (id);
+- (id)_configurationType;
 
 // Remaining properties
-@property(nonatomic) double longMinRefreshPeriod; // @synthesize longMinRefreshPeriod=_longMinRefreshPeriod;
 @property(nonatomic) double minRefreshPeriod; // @synthesize minRefreshPeriod=_minRefreshPeriod;
-@property(nonatomic) double shortMinRefreshPeriod; // @synthesize shortMinRefreshPeriod=_shortMinRefreshPeriod;
 
 @end
 

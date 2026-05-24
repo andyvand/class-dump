@@ -6,48 +6,22 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVLabel, AVMobileChromelessFluidSlider, AVMobileChromelessSlider, AVMobileGlassBackgroundDimmingView, AVMobileGlassControlsStyleSheet, CALayer, NSArray, NSString, UIColor, UIFont, UIView;
+@class AVMobileGlassBackgroundDimmingView;
 @protocol AVMobileGlassTimelineViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassTimelineView : AVGlassBackedView
 {
     AVMobileGlassBackgroundDimmingView *_dimmingView;
-    AVGlassBackedView *_contentsView;
-    CALayer *_glassShadowLayer;
-    AVLabel *_leadingLabel;
-    AVLabel *_trailingLabel;
-    UIView *_labelShadowView;
-    UIFont *_timeLabelInlineFont;
-    UIFont *_timeLabelFullscreenPlatterFont;
-    struct CGRect _sliderShadowPathRect;
-    _Bool _overrideFluidSliderPreference;
-    _Bool _drawsShadow;
-    _Bool _labelsAutoadjustWithSliderEmphasis;
-    _Bool _emphasized;
-    _Bool _enabled;
-    unsigned long long _labelPosition;
-    unsigned long long _layoutType;
-    NSString *_leadingTimeText;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    NSString *_trailingTimeText;
-    id <AVMobileGlassTimelineViewDelegate> _delegate;
-    double _labelsExtendedDynamicRangeGain;
-    UIFont *_labelsFont;
-    UIColor *_labelsTextColor;
-    NSString *_labelsCompositingFilter;
-    NSArray *_labelsFilters;
-    AVMobileChromelessSlider *_slider;
-    double _sliderExtendedDynamicRangeGain;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setItemGroupSetCompletionGroup:(_Bool)arg1;
+- (void)th ID %@ is not a share;
 - (void);
 - (struct CGSize);
 - (void);
@@ -57,65 +31,41 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
+- (void);
+- (id)!;
+- (void);
+- (void)#;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)(/;
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void),V_attributedText;
 - (double);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVMobileGlassTimelineViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;
-@property(nonatomic, getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) AVMobileChromelessFluidSlider *fluidSlider;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long labelPosition; // @synthesize labelPosition=_labelPosition;
-@property(nonatomic) _Bool labelsAutoadjustWithSliderEmphasis; // @synthesize labelsAutoadjustWithSliderEmphasis=_labelsAutoadjustWithSliderEmphasis;
-@property(retain, nonatomic) NSString *labelsCompositingFilter; // @synthesize labelsCompositingFilter=_labelsCompositingFilter;
-@property(nonatomic) double labelsExtendedDynamicRangeGain; // @synthesize labelsExtendedDynamicRangeGain=_labelsExtendedDynamicRangeGain;
-@property(retain, nonatomic) NSArray *labelsFilters; // @synthesize labelsFilters=_labelsFilters;
-@property(retain, nonatomic) UIFont *labelsFont; // @synthesize labelsFont=_labelsFont;
-@property(retain, nonatomic) UIColor *labelsTextColor; // @synthesize labelsTextColor=_labelsTextColor;
-@property(nonatomic) unsigned long long layoutType; // @synthesize layoutType=_layoutType;
-@property(retain, nonatomic) NSString *leadingTimeText; // @synthesize leadingTimeText=_leadingTimeText;
-@property(readonly, nonatomic) AVMobileChromelessSlider *slider; // @synthesize slider=_slider;
-@property(nonatomic) double sliderExtendedDynamicRangeGain; // @synthesize sliderExtendedDynamicRangeGain=_sliderExtendedDynamicRangeGain;
-@property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *trailingTimeText; // @synthesize trailingTimeText=_trailingTimeText;
 
 @end
 

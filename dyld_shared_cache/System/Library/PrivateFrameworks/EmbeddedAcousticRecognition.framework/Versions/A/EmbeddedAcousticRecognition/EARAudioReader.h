@@ -9,12 +9,11 @@
 @interface EARAudioReader
 {
     NSURL *_fileURL;
-    double _sampleRate;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)__LINKEDIT;
 - (id);
 - (id);
 - (void);

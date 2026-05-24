@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (_Bool);
++ (void)IMDRelayEnrollmentControllerDispatchDelegate>";
++ (_Bool)sly caused imagent to crash, deleting all handled and pending nickname data to allow imagent to properly handle future nickname changes.;
 - (id);
-- (void)ationListener:didUpdatePositionFromManeuver: /* Error: Ran out of types for this method. */;
+- (void)navigationListener:didUpdatePositionFromManeuver: /* Error: Ran out of types for this method. */;
 
 @end
 

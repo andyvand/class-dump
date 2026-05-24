@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, _UISelectorSet;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _UISelectorDictionary
@@ -12,27 +12,25 @@ __attribute__((visibility("hidden")))
     NSMapTable *_map;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id)recordNameForMessageWithGUID:usingSalt: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)passed in with TransitionTypeNone;
 - (unsigned long long);
 - (_Bool)"16;
-- (id)or:(struct _NSZone *)arg1;
+- (id)_accessoryTintColorForAccessoryBaseColor:(struct _NSZone *)arg1;
 - (id)n;
-- (unsigned long long)SCalendarUnitMonth;
+- (unsigned long long)NSCalendarUnitMonth;
 - (void)ÜPR0;
 - (void)ä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allObjects;
-@property(readonly, nonatomic) _UISelectorSet *allSelectors;
 @property(readonly, nonatomic) unsigned long long count;
 
 @end

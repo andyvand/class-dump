@@ -9,9 +9,6 @@
 @interface ILMediaBrowserOutlineView
 {
     NSColor *_ILMBCellHighlightColor;
-    NSColor *_ILMBCellTriangleColor;
-    _Bool _isInRestore;
-    _Bool _isInReload;
 }
 
 - (void);
@@ -25,10 +22,10 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (void)collapseAccessibilityAction;
+- (_Bool)gerSu6numbert;
+- (void)e scroll manager completed request %{public}@, result=%{public}@;
+- (unsigned long long)I.ContextMenuBarButtonItem;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,7 +35,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);

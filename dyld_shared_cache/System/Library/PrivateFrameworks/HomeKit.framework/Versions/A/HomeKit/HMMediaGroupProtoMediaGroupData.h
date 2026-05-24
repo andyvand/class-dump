@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaGroupProtoMediaGroupRole, NSMutableArray, NSString;
+@class NSString;
 
 @interface HMMediaGroupProtoMediaGroupData
 {
     NSString *_associatedGroupIdentifier;
-    NSMutableArray *_destinationIdentifiers;
-    HMMediaGroupProtoMediaGroupRole *_groupRole;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_parentIdentifier;
-    _Bool _isDefaultName;
-    struct {
-        unsigned int isDefaultName:1;
-    } _has;
 }
 
 + (Class);
 - (void);
-- (void);
+- (void)F;
 - (void);
 - (void);
 - (void);
@@ -45,32 +36,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)uncharacteristic;
+- (id)istrar;
+- (void)Element;
+- (void)q;
+- (id)a;
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)DÌ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *associatedGroupIdentifier; // @synthesize associatedGroupIdentifier=_associatedGroupIdentifier;
-@property(retain, nonatomic) NSMutableArray *destinationIdentifiers; // @synthesize destinationIdentifiers=_destinationIdentifiers;
-@property(retain, nonatomic) HMMediaGroupProtoMediaGroupRole *groupRole; // @synthesize groupRole=_groupRole;
-@property(readonly, nonatomic) _Bool hasAssociatedGroupIdentifier;
-@property(readonly, nonatomic) _Bool hasGroupRole;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsDefaultName;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasParentIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isDefaultName; // @synthesize isDefaultName=_isDefaultName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
 
 @end
 

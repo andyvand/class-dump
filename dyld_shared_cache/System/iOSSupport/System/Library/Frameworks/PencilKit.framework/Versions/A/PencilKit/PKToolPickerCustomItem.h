@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKToolPickerItem.h>
 
-@class PKToolPickerCustomItemConfiguration, UIColor;
+@class PKToolPickerCustomItemConfiguration;
 
 @interface PKToolPickerCustomItem : PKToolPickerItem
 {
@@ -21,17 +21,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)inviterVersion;
 - (id);
 - (id);
 - (id);
 - (void)SwitchCell",&,N,V_autoMinimizeCell;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsColorSelection;
-@property(retain, nonatomic) UIColor *color; // @dynamic color;
 @property(readonly, nonatomic) PKToolPickerCustomItemConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) double width; // @dynamic width;
 
 @end
 

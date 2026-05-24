@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLIOAccelDevice;
-@protocol MTLDevice;
-
 @interface MTLIOAccelResourcePool
 {
     struct _MTLIOAccelResourcePoolPrivate _priv;
-    Class _resourceClass;
-    MTLIOAccelDevice<MTLDevice> *_device;
-    struct IOAccelNewResourceArgs *_resourceArgs;
-    unsigned int _resourceArgsSize;
-    unsigned long long age_to_purge;
-    unsigned int generation;
 }
 
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)CGImageSourceCopyProperties;
 - (unsigned int);
 - (struct IOAccelNewResourceArgs *);
 - (id);
@@ -30,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) struct IOAccelNewResourceArgs *resourceArgs; // @synthesize resourceArgs=_resourceArgs;
-@property(readonly) unsigned int resourceArgsSize; // @synthesize resourceArgsSize=_resourceArgsSize;
 
 @end
 

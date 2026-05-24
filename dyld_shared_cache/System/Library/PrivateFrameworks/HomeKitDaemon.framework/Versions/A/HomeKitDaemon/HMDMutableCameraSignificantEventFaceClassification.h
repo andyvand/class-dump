@@ -6,19 +6,17 @@
 
 #import <HomeKitDaemon/HMDCameraSignificantEventFaceClassification.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMutableCameraSignificantEventFaceClassification : HMDCameraSignificantEventFaceClassification
 {
 }
 
-- (id)ry:(struct _NSZone *)arg1 reachable:date: /* Error: Ran out of types for this method. */;
+- (id)insertReachabilityEventBulletinForAccessory:(struct _NSZone *)arg1 reachable:date: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *personName; // @dynamic personName;
 @property(copy) NSUUID *personUUID; // @dynamic personUUID;
-@property(copy) NSUUID *unassociatedFaceCropUUID; // @dynamic unassociatedFaceCropUUID;
 
 @end
 

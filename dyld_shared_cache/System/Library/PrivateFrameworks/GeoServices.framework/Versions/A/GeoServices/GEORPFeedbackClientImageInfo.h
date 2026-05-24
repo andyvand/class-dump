@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackClientImageInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_imageUrl;
-    NSString *_providerImageId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_imageUrl:1;
-        unsigned int read_providerImageId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)n:(id)arg1;
++ (_Bool)setIsSimulation:(id)arg1;
 - (void);
-- (void);
+- (void)CNAccountDescription>"24@0:(id)arg1 8@"NSString"16;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setLastCommunicatedPeer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -44,17 +32,13 @@
 - (id);
 - (void);
 - (id)layNameLanguageCode"b1"read_matchedDisplayName"b1"read_nearbyPlacesMetadata"b1"read_normalizedQuery"b1"read_secondaryNameOverrideLanguage"b1"wrote_anyField"b1};
-- (id)baction: /* Error: Ran out of types for this method. */;
+- (id)addSubaction: /* Error: Ran out of types for this method. */;
 - (id)´ý¼þ;
-- (id)centageAfterCharging;
+- (id)batteryPercentageAfterCharging;
 - (void))r#ýL@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImageUrl;
 @property(readonly, nonatomic) _Bool hasProviderImageId;
-@property(retain, nonatomic) NSString *imageUrl;
-@property(retain, nonatomic) NSString *providerImageId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

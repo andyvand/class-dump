@@ -6,33 +6,20 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSMutableArray, NSNumber, NSString, SignpostFrameLifetimeInterval;
+@class SignpostFrameLifetimeInterval;
 
 @interface SignpostRenderServerRenderInterval : SignpostAnimationSubInterval
 {
     _Bool _hasOffScreenPassCount;
-    unsigned int _frameSeed;
-    unsigned int _displayID;
-    unsigned int _offScreenPassCount;
-    int _renderServerPID;
-    unsigned long long _displayRefreshIntervalMachContinuousTime;
-    NSString *_renderSkipReason;
-    unsigned long long _renderServerTID;
-    NSNumber *_synchronousMetalShaderCompileCount;
-    NSNumber *_cachingLayersRerenderCount;
-    NSNumber *_fallbackShaderDrawCount;
-    NSMutableArray *_imageQueueSampleEvents;
-    NSMutableArray *_clientDrawableIntervals;
-    SignpostFrameLifetimeInterval *_frameLifetime;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@8?E;
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -50,22 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *cachingLayersRerenderCount; // @synthesize cachingLayersRerenderCount=_cachingLayersRerenderCount;
-@property(retain, nonatomic) NSMutableArray *clientDrawableIntervals; // @synthesize clientDrawableIntervals=_clientDrawableIntervals;
-@property(readonly, nonatomic) _Bool didSkipRender;
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic) unsigned long long displayRefreshIntervalMachContinuousTime; // @synthesize displayRefreshIntervalMachContinuousTime=_displayRefreshIntervalMachContinuousTime;
-@property(readonly, nonatomic) NSNumber *fallbackShaderDrawCount; // @synthesize fallbackShaderDrawCount=_fallbackShaderDrawCount;
 @property(nonatomic) __weak SignpostFrameLifetimeInterval *frameLifetime; // @synthesize frameLifetime=_frameLifetime;
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(readonly, nonatomic) _Bool hasOffScreenPassCount; // @synthesize hasOffScreenPassCount=_hasOffScreenPassCount;
-@property(retain, nonatomic) NSMutableArray *imageQueueSampleEvents; // @synthesize imageQueueSampleEvents=_imageQueueSampleEvents;
-@property(readonly, nonatomic) unsigned int offScreenPassCount; // @synthesize offScreenPassCount=_offScreenPassCount;
-@property(readonly, nonatomic, getter=isPotentiallyLong) _Bool potentiallyLong;
-@property(readonly, nonatomic) int renderServerPID; // @synthesize renderServerPID=_renderServerPID;
-@property(readonly, nonatomic) unsigned long long renderServerTID; // @synthesize renderServerTID=_renderServerTID;
-@property(readonly, nonatomic) NSString *renderSkipReason; // @synthesize renderSkipReason=_renderSkipReason;
-@property(readonly, nonatomic) NSNumber *synchronousMetalShaderCompileCount; // @synthesize synchronousMetalShaderCompileCount=_synchronousMetalShaderCompileCount;
 
 @end
 

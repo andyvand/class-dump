@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, GEOPlace, NSString;
+@class GEOPlace;
 @protocol GEOMapItem;
 
 @interface GEOMapItemAdditionalPlaceInfo
 {
     GEOPlace *_place;
-    id <GEOMapItem> _mapItem;
 }
 
 - (id);
@@ -27,13 +26,7 @@
 - (float)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double areaInMeters;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
 @property(readonly, nonatomic) id <GEOMapItem> mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) float photosMemoryScore;
-@property(readonly, nonatomic) int placeType;
 
 @end
 

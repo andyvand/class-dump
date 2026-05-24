@@ -4,57 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKEncryptedPushProvisioningTarget;
+@class PKEncryptedPushProvisioningTarget;
 
 @interface PKShareableCredential
 {
     PKEncryptedPushProvisioningTarget *_encryptedPushProvisioningTarget;
-    unsigned long long _status;
-    NSString *_ownerDisplayName;
-    NSString *_credentialIdentifier;
-    NSString *_credentialIdentifierHash;
-    NSString *_sharingInstanceIdentifier;
-    NSString *_cardConfigurationIdentifier;
-    NSString *_nonce;
 }
 
-+ (_Bool);
++ (_Bool)/usr/lib/libobjc.A.dylib;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)c;
+- (id)O;
 - (id);
 - (void);
+- (void)(;
+- (id)]	;
+- (id);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)_symptomsFails;
 - (id);
 - (unsigned long long);
 - (void)e:'%@';  /* Error: Ran out of types for this method. */;
 - (id)m thresholdAmount value can't be NaN;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cardConfigurationIdentifier; // @synthesize cardConfigurationIdentifier=_cardConfigurationIdentifier;
-@property(retain, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(retain, nonatomic) NSString *credentialIdentifierHash; // @synthesize credentialIdentifierHash=_credentialIdentifierHash;
 @property(copy, nonatomic) PKEncryptedPushProvisioningTarget *encryptedPushProvisioningTarget; // @synthesize encryptedPushProvisioningTarget=_encryptedPushProvisioningTarget;
-@property(retain, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(retain, nonatomic) NSString *ownerDisplayName; // @synthesize ownerDisplayName=_ownerDisplayName;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end
 

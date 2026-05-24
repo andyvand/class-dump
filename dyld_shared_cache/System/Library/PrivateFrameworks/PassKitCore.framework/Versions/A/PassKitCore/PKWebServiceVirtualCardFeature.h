@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKWebServiceRegionFeature.h>
 
-@class NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface PKWebServiceVirtualCardFeature : PKWebServiceRegionFeature
 {
     NSString *_merchantId;
-    NSSet *_implicitlySupportedNetworks;
-    NSDictionary *_networks;
-    NSDictionary *_cashVPANNetworks;
 }
 
 + (id);
@@ -23,15 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (void)ipImage;
-- (void)rossDissolve;
+- (void)stripImage;
+- (void)crossDissolve;
 - (id)¾mèÙ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *cashVPANNetworks; // @synthesize cashVPANNetworks=_cashVPANNetworks;
-@property(readonly, copy, nonatomic) NSSet *implicitlySupportedNetworks; // @synthesize implicitlySupportedNetworks=_implicitlySupportedNetworks;
 @property(readonly, copy, nonatomic) NSString *merchantId; // @synthesize merchantId=_merchantId;
-@property(copy, nonatomic) NSDictionary *networks; // @synthesize networks=_networks;
 
 @end
 

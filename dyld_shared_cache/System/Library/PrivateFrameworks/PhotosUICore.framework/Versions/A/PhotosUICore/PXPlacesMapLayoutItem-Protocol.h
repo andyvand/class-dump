@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet;
-
 @protocol PXPlacesMapLayoutItem
+- (_Bool)(=;
 - (struct CLLocationCoordinate2D)0@ù
 × ;
 
 // Remaining properties
 @property struct CLLocationCoordinate2D coordinate;
-@property(readonly, nonatomic) NSOrderedSet *geotaggables;
 @end
 

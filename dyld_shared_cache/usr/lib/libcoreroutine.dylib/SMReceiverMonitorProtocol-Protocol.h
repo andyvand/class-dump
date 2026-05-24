@@ -5,5 +5,7 @@
 //
 
 @protocol SMReceiverMonitorProtocol
+- (void)5C;
+- (void)P;
 @end
 

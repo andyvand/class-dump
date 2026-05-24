@@ -5,16 +5,12 @@
 //
 
 @class NSObject;
-@protocol CBRampManagerI, OS_os_log;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBRingLight
 {
     NSObject<OS_os_log> *_logHandle;
-    id <CBRampManagerI> _rampManager;
-    _Bool _overridenByUser;
-    float _currentMinNits;
-    unsigned long long _state;
 }
 
 - (void);
@@ -29,15 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)3;
 
 // Remaining properties
-@property float currentMinNits; // @synthesize currentMinNits=_currentMinNits;
-@property(readonly) _Bool isActive;
-@property(readonly) _Bool isEnabled;
 @property unsigned long long state; // @synthesize state=_state;
 
 @end

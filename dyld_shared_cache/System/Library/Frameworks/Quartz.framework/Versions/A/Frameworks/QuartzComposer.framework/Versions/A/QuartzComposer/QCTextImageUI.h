@@ -6,18 +6,15 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSMatrix, NSPopUpButton;
+@class NSMatrix;
 
 @interface QCTextImageUI : QCInspector
 {
     NSMatrix *layoutMatrix;
-    NSPopUpButton *fontMenu;
-    NSPopUpButton *alignmentHMenu;
-    NSPopUpButton *alignmentVMenu;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

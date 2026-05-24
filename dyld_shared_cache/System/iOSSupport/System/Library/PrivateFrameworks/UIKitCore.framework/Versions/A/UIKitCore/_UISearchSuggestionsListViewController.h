@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UICollectionViewController.h>
 
-@class NSString, UICollectionViewDiffableDataSource, UISearchController;
+@class UICollectionViewDiffableDataSource, UISearchController;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchSuggestionsListViewController : UICollectionViewController
@@ -19,25 +19,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (void)QcÐ1Â0@ù
 × ;
-- (void)et:(id)arg1;
+- (void)set_rubberBandInset:(id)arg1;
 - (void)Ëîÿ{þÿ;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak UISearchController *searchController; // @synthesize searchController=_searchController;
-@property(readonly) Class superclass;
 
 @end
 

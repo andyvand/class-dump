@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ARUIRenderer, ARUIRingsView, HKActivitySummary, _HKShapeView;
+@class ARUIRenderer, ARUIRingsView;
 
 @interface HKActivityRingView
 {
     ARUIRingsView *_ringsView;
     ARUIRenderer *_renderer;
-    _HKShapeView *_maskView;
-    _Bool _backgroundTransparencyOrColorSPIUsed;
-    _Bool _shouldBypassApplicationStateChecking;
-    HKActivitySummary *_activitySummary;
-    double _ringInsetPercentage;
-    double _emptyRingAlpha;
 }
 
-- (void);
+- (void)__DATA_CONST;
 - (void);
 - (id);
 - (void);
@@ -26,33 +20,31 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)__eh_frame;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)__swift_as_ret;
 - (void);
-- (void);
+- (double)__swift_as_entry__TEXT;
+- (double);
+- (void)__swift5_capture__TEXT;
 - (void);
 - (double);
-- (double);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (id);
+- (void)__TEXT;
+- (id)] Sending dynamic purchase completion;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)__objc_methtype;
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HKActivitySummary *activitySummary; // @synthesize activitySummary=_activitySummary;
 @property(nonatomic, getter=_emptyRingAlpha, setter=_setEmptyRingAlpha:) double emptyRingAlpha; // @synthesize emptyRingAlpha=_emptyRingAlpha;
 @property(nonatomic, getter=_ringInsetPercentage, setter=_setRingInsetPercentage:) double ringInsetPercentage; // @synthesize ringInsetPercentage=_ringInsetPercentage;
-@property(nonatomic, getter=_shouldBypassApplicationStateChecking, setter=_setShouldBypassApplicationStateChecking:) _Bool shouldBypassApplicationStateChecking; // @synthesize shouldBypassApplicationStateChecking=_shouldBypassApplicationStateChecking;
 
 @end
 

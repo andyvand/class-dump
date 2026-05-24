@@ -18,8 +18,8 @@
 + (id);
 + (_Bool);
 + (void);
-+ (void);
-+ (void);
++ (void)2s;
++ (void)1;
 + (void);
 + (_Bool);
 + (void);
@@ -29,7 +29,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)SBtB;
 + (void);
 + (id);
 + (id);

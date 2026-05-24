@@ -7,8 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupStyler
 {
     id baseStyler;
-    id theme;
-    id config;
 }
 
 @end

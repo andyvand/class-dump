@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _shareCreateCompletionBlock;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)R?%;
 - (void);
 - (id);
 - (void);

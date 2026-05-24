@@ -11,10 +11,9 @@
 @interface EWSWellKnownResponseObjectType : EWSResponseObjectType
 {
     NSDateComponents *_ProposedStart;
-    NSDateComponents *_ProposedEnd;
 }
 
-+ (id);
++ (id)/KG;
 - (void);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *ProposedEnd; // @synthesize ProposedEnd=_ProposedEnd;
 @property(retain, nonatomic) NSDateComponents *ProposedStart; // @synthesize ProposedStart=_ProposedStart;
 
 @end

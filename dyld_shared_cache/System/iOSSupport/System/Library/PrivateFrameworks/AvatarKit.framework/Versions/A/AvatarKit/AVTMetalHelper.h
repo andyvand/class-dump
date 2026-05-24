@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-@protocol MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface AVTMetalHelper
 {
     id <MTLDevice> _device;
-    id <MTLLibrary> _library;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_functions;
-    NSMutableDictionary *_renderPipelineStates;
-    NSMutableDictionary *_computePipelineStates;
 }
 
 - (id);

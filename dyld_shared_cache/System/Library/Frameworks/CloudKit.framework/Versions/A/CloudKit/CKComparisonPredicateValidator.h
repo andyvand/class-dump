@@ -11,32 +11,24 @@
 @interface CKComparisonPredicateValidator : CKPredicateValidatorInstance
 {
     id <CKObjectValidating> _modifierValidator;
-    id <CKObjectValidating> _leftExpressionValidator;
-    id <CKObjectValidating> _operatorValidator;
-    id <CKObjectValidating> _optionsValidator;
-    id <CKObjectValidating> _rightExpressionValidator;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_br_isParentOfURL:(id)arg1 strictly:ignoreHomeDirectoryCheck: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)x;;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKObjectValidating> leftExpressionValidator; // @synthesize leftExpressionValidator=_leftExpressionValidator;
 @property(retain, nonatomic) id <CKObjectValidating> modifierValidator; // @synthesize modifierValidator=_modifierValidator;
-@property(retain, nonatomic) id <CKObjectValidating> operatorValidator; // @synthesize operatorValidator=_operatorValidator;
-@property(retain, nonatomic) id <CKObjectValidating> optionsValidator; // @synthesize optionsValidator=_optionsValidator;
-@property(retain, nonatomic) id <CKObjectValidating> rightExpressionValidator; // @synthesize rightExpressionValidator=_rightExpressionValidator;
 
 @end
 

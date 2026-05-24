@@ -6,7 +6,7 @@
 
 @interface UnknownClass (DefaultObservationImplementations)
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

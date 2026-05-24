@@ -13,8 +13,8 @@
     NSArray *mAssets;
 }
 
-- (void);
-- (void);
+- (void)on:(unsigned long long)arg1;
+- (void)ItemChangeSource;
 - (void);
 - (id);
 - (id);

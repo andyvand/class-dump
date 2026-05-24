@@ -9,19 +9,17 @@
 @interface CHEllipseRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _center;
-    struct CGSize _size;
 }
 
-+ (_Bool);
++ (_Bool)_expanded;
 - (id);
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
-- (void);
+- (void)o resolve deleteSet method signature;
 
 // Remaining properties
 @property(readonly) struct CGPoint center; // @synthesize center=_center;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

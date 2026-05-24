@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void)sCompatibleWithTransitionInDirection:(double)arg1;
-- (void)efetchedCellForRowAtIndexPath:(id)arg1 willDisplay: /* Error: Ran out of types for this method. */;
+- (void)isCompatibleWithTransitionInDirection:(double)arg1;
+- (void)_prefetchedCellForRowAtIndexPath:(id)arg1 willDisplay: /* Error: Ran out of types for this method. */;
 - (id)to avoid this assert.;
 - (void)Àjoþ;
 

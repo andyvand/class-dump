@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)KTextInputElementContent",&,N,V__beginGestureElementContentForLineBreak;
 
 @end
 

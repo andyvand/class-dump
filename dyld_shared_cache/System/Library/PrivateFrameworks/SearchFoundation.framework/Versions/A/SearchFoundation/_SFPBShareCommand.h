@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBShareItem;
+@class _SFPBShareItem;
 
 @interface _SFPBShareCommand
 {
     _SFPBShareItem *_shareItem;
-    NSArray *_shareItems;
 }
 
 - (id);
@@ -18,30 +17,21 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setAnalysisStateModificationDate:(id)arg1;
+- (id)oder - Failed to read gain map average pixel luminance;
 - (id);
 - (id);
 - (void)hWebCommand"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBShareItem *shareItem; // @synthesize shareItem=_shareItem;
-@property(copy, nonatomic) NSArray *shareItems; // @synthesize shareItems=_shareItems;
-@property(readonly) Class superclass;
 
 @end
 

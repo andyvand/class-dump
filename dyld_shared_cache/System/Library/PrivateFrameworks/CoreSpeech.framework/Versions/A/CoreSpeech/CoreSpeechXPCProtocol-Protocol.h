@@ -5,5 +5,8 @@
 //
 
 @protocol CoreSpeechXPCProtocol
+- (void)C;
+- (void)7;
+- (void)B;
 @end
 

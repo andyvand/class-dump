@@ -7,7 +7,6 @@
 @interface NewsArticles.PDFReplicaViewerModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

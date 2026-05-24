@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol CUTSOSMetric
+- (unsigned long long);
+- (NSString *)@0:8S16S20S24^{BluetoothHCIEventModeChangeResults=SCS}28 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *operationID;
 @property(readonly) unsigned long long sosDomain;
-@property(readonly) long long sosError;
-@property(readonly) unsigned long long sosType;
 @end
 

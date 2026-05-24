@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, WAPersistentContainer;
+@class WAPersistentContainer;
 
 @interface AnalyticsStoreMOHandler
 {
     WAPersistentContainer *_persistentContainer;
-    NSManagedObjectContext *_backgroundStoreMoHandlerMOC;
 }
 
 + (id);
@@ -19,11 +18,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)_facialExpressionToSensitivity;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -34,7 +33,6 @@
 - (id)ÿn¤q;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectContext *backgroundStoreMoHandlerMOC; // @synthesize backgroundStoreMoHandlerMOC=_backgroundStoreMoHandlerMOC;
 @property(retain, nonatomic) WAPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
 
 @end

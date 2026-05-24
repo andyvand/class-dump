@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURLSessionDataTask;
+@class NSURLSessionDataTask;
 
 __attribute__((visibility("hidden")))
 @interface _MPAbstractNetworkArtworkLoadingContext
 {
     NSURLSessionDataTask *_dataTask;
-    NSMutableDictionary *_catalogIdentifierToCompletionHandlerMap;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)Fù1@ð1Â0@ù
 × ;
-- (void)iesByDataProviderEntityClass;
+- (void)_concreteEntitiesByDataProviderEntityClass;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *catalogIdentifierToCompletionHandlerMap; // @synthesize catalogIdentifierToCompletionHandlerMap=_catalogIdentifierToCompletionHandlerMap;
 @property(retain, nonatomic) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
 
 @end

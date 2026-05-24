@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString, SASharedCache;
+@class NSString;
 
 @interface SAExclave
 {
     NSString *_name;
-    unsigned long long _identifier;
-    NSArray *_loadInfos;
-    SASharedCache *_sharedCache;
-    unsigned long long _textlayout_flags;
-    NSMutableSet *_rootFrames;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityConfineToVisible;
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)\;
 - (id);
-- (id);
-- (id);
+- (id)_buildVersion;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -32,19 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSArray *loadInfos; // @synthesize loadInfos=_loadInfos;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) SASharedCache *sharedCache; // @synthesize sharedCache=_sharedCache;
-@property(readonly) Class superclass;
-@property(readonly) _Bool synthetic;
-@property(readonly) _Bool unslid;
 
 @end
 

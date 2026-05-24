@@ -19,7 +19,7 @@
 - (Class)áÿÐ!@ùñX°1Â0@ù
 × ;
 - (void)Context",&,N,V_candidateGenerationContext;
-- (void)MorphPresentationAnimationC;
+- (void)So46_UIContextMenuLiquidMorphPresentationAnimationC;
 
 @end
 

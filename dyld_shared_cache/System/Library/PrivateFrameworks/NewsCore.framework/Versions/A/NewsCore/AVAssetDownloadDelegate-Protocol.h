@@ -5,5 +5,11 @@
 //
 
 @protocol AVAssetDownloadDelegate
+
+@optional
+- (void);
+- (void)ɚ;
+- (void);
+- (void).dylib;
 @end
 

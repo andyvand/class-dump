@@ -6,15 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface HMFNetworkServiceInfo : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_txtRecord;
-    NSString *_serviceName;
-    NSString *_serviceType;
-    NSString *_serviceDomain;
 }
 
 + (id);
@@ -22,14 +18,14 @@
 × ;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
@@ -42,20 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category;
-@property(readonly, nonatomic) NSString *configNumber;
-@property(readonly, nonatomic) NSString *deviceID;
-@property(readonly, nonatomic) _Bool isAirPlay;
-@property(readonly, nonatomic) _Bool isHAP;
-@property(readonly, nonatomic) _Bool isMatter;
-@property(readonly, nonatomic) _Bool isTCP;
-@property(readonly, nonatomic) _Bool isUDP;
-@property(readonly, nonatomic) NSString *model;
-@property(readonly, nonatomic) NSString *serviceDomain; // @synthesize serviceDomain=_serviceDomain;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, nonatomic) NSString *stateNumber;
-@property(readonly, nonatomic) NSString *statusFlag;
 @property(readonly, nonatomic) NSDictionary *txtRecord; // @synthesize txtRecord=_txtRecord;
 
 @end

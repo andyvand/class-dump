@@ -11,14 +11,14 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)dition:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)_checkCredentialRequiresExtractionEntitlements:(id)arg1;
 - (id);
 - (void);
 - (void)ª)°1Â0@ù

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSessionChannelDescription, NSString;
+@class AVAudioSessionChannelDescription;
 
 @interface TTSAudioSessionChannel
 {
     unsigned int _channelLabel;
-    NSString *_channelName;
-    unsigned long long _channelNumber;
-    NSString *_owningPortUID;
-    AVAudioSessionChannelDescription *_channel;
 }
 
 + (id);
@@ -20,11 +16,11 @@
 - (void);
 - (void);
 - (void);
+- (void)H!;
+- (unsigned long long)vcSession:participantID:audioPaused:didSucceed:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
+- (id)reamGroupToStreamInputMapping;
+- (id)@;
 - (id);
 - (unsigned int);
 - (id);
@@ -35,10 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioSessionChannelDescription *channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned int channelLabel; // @synthesize channelLabel=_channelLabel;
-@property(retain, nonatomic) NSString *channelName; // @synthesize channelName=_channelName;
-@property(nonatomic) unsigned long long channelNumber; // @synthesize channelNumber=_channelNumber;
-@property(retain, nonatomic) NSString *owningPortUID; // @synthesize owningPortUID=_owningPortUID;
 
 @end
 

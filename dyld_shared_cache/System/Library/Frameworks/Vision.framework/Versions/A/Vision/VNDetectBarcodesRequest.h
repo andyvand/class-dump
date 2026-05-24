@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface VNDetectBarcodesRequest : VNImageBasedRequest
 {
@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -51,13 +51,7 @@
 - (_Bool)ÿ/r@¨;
 
 // Remaining properties
-@property(nonatomic) _Bool coalesceCompositeSymbologies;
 @property(copy, nonatomic) NSString *locateMode;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(nonatomic) _Bool stopAtFirstPyramidWith2DCode;
-@property(copy, nonatomic) NSArray *symbologies;
-@property(nonatomic) _Bool useMLDetector;
-@property(nonatomic) _Bool useSegmentationPregating; // @synthesize useSegmentationPregating=_useSegmentationPregating;
 
 @end
 

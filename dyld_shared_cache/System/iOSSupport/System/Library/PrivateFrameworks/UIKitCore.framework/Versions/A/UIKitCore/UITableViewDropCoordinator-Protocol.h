@@ -5,20 +5,17 @@
 //
 
 @class NSArray, NSIndexPath, UITableViewDropProposal;
-@protocol UIDragAnimating, UIDropSession, UITableViewDropPlaceholderContext;
+@protocol UIDragAnimating, UITableViewDropPlaceholderContext;
 
 @protocol UITableViewDropCoordinator
 - (id <UITableViewDropPlaceholderContext>)!ð!XGùQ]Ð1Â0@ù
 × ;
-- (NSArray *)SpecificLaunchOptions:registerLaunchOption: /* Error: Ran out of types for this method. */;
-- (NSIndexPath *)rTerm: /* Error: Ran out of types for this method. */;
+- (NSArray *)registerPlatformSpecificLaunchOptions:registerLaunchOption: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)_attributedDefinitionForTerm: /* Error: Ran out of types for this method. */;
 - (UITableViewDropProposal *)ntainerSafeAreaInsets;
 - (id <UIDragAnimating>)s Setting keyboard minimized = YES;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexPath *destinationIndexPath;
 @property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) UITableViewDropProposal *proposal;
-@property(readonly, nonatomic) id <UIDropSession> session;
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol EMDiagnosticInfoGathererInterface
+- (void)DQ;
+- (void)8A;
 @end
 

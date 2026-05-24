@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPError
+- (id)&;
+- (NSString *)h8;
 - (unsigned long long)ynote;
 
 // Remaining properties
-@property(nonatomic) double code;
 @property(copy, nonatomic) NSString *domain;
-@property(nonatomic) unsigned long long errorCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *reason;
 @end
 

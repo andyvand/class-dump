@@ -9,10 +9,6 @@
 @interface TSAApplicationDelegate : TSABaseApplicationDelegate
 {
     _Bool _terminating;
-    _Bool _inBackground;
-    _Bool _activating;
-    CDUnknownBlockType _alertCompletionBlock;
-    _Bool _hasNotifiedEnterBackground;
 }
 
 + (id);
@@ -21,15 +17,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)i;
 - (id);
 - (_Bool);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)y<;
 - (void);
 - (void);
 - (id);
@@ -39,11 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(getter=isActivating) _Bool activating; // @synthesize activating=_activating;
 @property(copy, nonatomic) CDUnknownBlockType alertCompletionBlock; // @synthesize alertCompletionBlock=_alertCompletionBlock;
-@property _Bool hasNotifiedEnterBackground; // @synthesize hasNotifiedEnterBackground=_hasNotifiedEnterBackground;
-@property(getter=isInBackground) _Bool inBackground; // @synthesize inBackground=_inBackground;
-@property(getter=isTerminating) _Bool terminating; // @synthesize terminating=_terminating;
 
 @end
 

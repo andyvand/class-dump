@@ -6,33 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWCrossIntentRankerResponse, FLOWSchemaFLOWKGQAExecution, FLOWSchemaFLOWMapsExecution, FLOWSchemaFLOWSPORTSExecution, FLOWSchemaFLOWWebAnswerExecution, NSArray, NSData, PEGASUSSchemaPEGASUSIntent, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWPegasusContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _productArea;
-    int _primaryProvider;
-    NSArray *_otherProviders;
-    PEGASUSSchemaPEGASUSIntent *_intent;
-    _Bool _isHandOffExecution;
-    FLOWSchemaFLOWKGQAExecution *_kgQAExecution;
-    FLOWSchemaFLOWWebAnswerExecution *_webAnswerExecution;
-    FLOWSchemaFLOWSPORTSExecution *_sportsExecution;
-    FLOWSchemaFLOWCrossIntentRankerResponse *_crossIntentRankerResponse;
-    FLOWSchemaFLOWMapsExecution *_mapsExecution;
-    struct {
-        unsigned int productArea:1;
-        unsigned int primaryProvider:1;
-        unsigned int isHandOffExecution:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasIntent;
-    _Bool _hasKgQAExecution;
-    _Bool _hasWebAnswerExecution;
-    _Bool _hasSportsExecution;
-    _Bool _hasCrossIntentRankerResponse;
-    _Bool _hasMapsExecution;
 }
 
 - (id);
@@ -45,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˟;
 - (void);
 - (void);
 - (void);
@@ -68,6 +46,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)@9 ;
 - (void);
 - (void);
 - (void);
@@ -75,23 +54,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)׀;
 - (id);
 - (void);
 - (void);
 - (void);
 - (int);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)size;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)mer error.;
 - (_Bool);
-- (id);
+- (id)__objc_data;
 - (void);
 - (void);
 - (unsigned long long);
@@ -105,28 +83,7 @@
 - (void)Yµß$;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWCrossIntentRankerResponse *crossIntentRankerResponse; // @synthesize crossIntentRankerResponse=_crossIntentRankerResponse;
-@property(nonatomic) _Bool hasCrossIntentRankerResponse; // @synthesize hasCrossIntentRankerResponse=_hasCrossIntentRankerResponse;
-@property(nonatomic) _Bool hasIntent; // @synthesize hasIntent=_hasIntent;
-@property(nonatomic) _Bool hasIsHandOffExecution;
-@property(nonatomic) _Bool hasKgQAExecution; // @synthesize hasKgQAExecution=_hasKgQAExecution;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasMapsExecution; // @synthesize hasMapsExecution=_hasMapsExecution;
-@property(nonatomic) _Bool hasPrimaryProvider;
-@property(nonatomic) _Bool hasProductArea;
-@property(nonatomic) _Bool hasSportsExecution; // @synthesize hasSportsExecution=_hasSportsExecution;
-@property(nonatomic) _Bool hasWebAnswerExecution; // @synthesize hasWebAnswerExecution=_hasWebAnswerExecution;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSIntent *intent; // @synthesize intent=_intent;
-@property(nonatomic) _Bool isHandOffExecution; // @synthesize isHandOffExecution=_isHandOffExecution;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLOWSchemaFLOWKGQAExecution *kgQAExecution; // @synthesize kgQAExecution=_kgQAExecution;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) FLOWSchemaFLOWMapsExecution *mapsExecution; // @synthesize mapsExecution=_mapsExecution;
-@property(copy, nonatomic) NSArray *otherProviders; // @synthesize otherProviders=_otherProviders;
-@property(nonatomic) int primaryProvider; // @synthesize primaryProvider=_primaryProvider;
-@property(nonatomic) int productArea; // @synthesize productArea=_productArea;
-@property(retain, nonatomic) FLOWSchemaFLOWSPORTSExecution *sportsExecution; // @synthesize sportsExecution=_sportsExecution;
-@property(retain, nonatomic) FLOWSchemaFLOWWebAnswerExecution *webAnswerExecution; // @synthesize webAnswerExecution=_webAnswerExecution;
 
 @end
 

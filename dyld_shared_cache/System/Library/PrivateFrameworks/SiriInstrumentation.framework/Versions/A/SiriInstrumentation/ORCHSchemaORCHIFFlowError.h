@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHError;
+@class ORCHSchemaORCHError;
 
 @interface ORCHSchemaORCHIFFlowError : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHError *_underLyingError;
-    long long _ifflowErrorCode;
-    struct {
-        unsigned int ifflowErrorCode:1;
-    } _has;
-    _Bool _hasUnderLyingError;
 }
 
 - (void);
@@ -29,7 +24,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -37,15 +32,11 @@
 - (id);
 - (id)
 × ;
-- (id)rRequestContext;
+- (id)_caarRequestContext;
 - (id)_powerContextPolicyReported;
 - (void)tiveAIEnablement.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfflowErrorCode;
-@property(nonatomic) _Bool hasUnderLyingError; // @synthesize hasUnderLyingError=_hasUnderLyingError;
-@property(nonatomic) long long ifflowErrorCode; // @synthesize ifflowErrorCode=_ifflowErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHError *underLyingError; // @synthesize underLyingError=_underLyingError;
 
 @end

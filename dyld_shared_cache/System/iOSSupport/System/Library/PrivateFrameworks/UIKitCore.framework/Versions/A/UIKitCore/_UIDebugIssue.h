@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _UIDebugIssueReport;
+@class NSString, _UIDebugIssueReport;
 
 __attribute__((visibility("hidden")))
 @interface _UIDebugIssue
 {
     NSString *_description;
-    NSString *_prefix;
-    _UIDebugIssueReport *_subissueReport;
 }
 
 + (id);
 + (id);
 - (id);
+- (id)(<;
+- (void)aring current subscription cache. New cache generation:(id)arg1 %ld;
+- (void)tableArray",&,N,V_calculatedFeatures;
+- (id)`;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)ayoutSubviews:(id)arg1 baseImplementation: /* Error: Ran out of types for this method. */;
-- (id)StringDrawingContext;
+- (void)buttonLayoutSubviews:(id)arg1 baseImplementation: /* Error: Ran out of types for this method. */;
+- (id)_resolvedStringDrawingContext;
 - (void)0];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *description; // @synthesize description=_description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 @property(readonly, nonatomic, getter=_subissueReport) _UIDebugIssueReport *subissueReport; // @synthesize subissueReport=_subissueReport;
-@property(readonly, copy, nonatomic) NSArray *subissues;
-@property(readonly) Class superclass;
 
 @end
 

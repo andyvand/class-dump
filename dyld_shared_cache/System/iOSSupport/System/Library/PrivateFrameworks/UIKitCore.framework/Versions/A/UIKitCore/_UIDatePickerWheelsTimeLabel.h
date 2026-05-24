@@ -6,28 +6,15 @@
 
 #import <UIKitCore/_UIDatePickerCalendarTimeLabel.h>
 
-@class UILabel, UIView, _UIControlEventsGestureRecognizer;
-@protocol _UIDatePickerWheelsTimeLabelDelegate;
+@class UILabel, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerWheelsTimeLabel : _UIDatePickerCalendarTimeLabel
 {
     UILabel *_measurementLabel;
-    struct CGRect _hoursReferenceFrame;
-    struct CGRect _minutesReferenceFrame;
-    long long _highlightedScope;
-    _Bool _highlightedForTouch;
-    UIView *_touchHighlightedView;
-    _Bool _wheelsActive;
-    _UIControlEventsGestureRecognizer *_controlEventsGestureRecognizer;
-    id <_UIDatePickerWheelsTimeLabelDelegate> _wheelsDelegate;
-    UIView *_contentView;
-    UILabel *_hourLabel;
-    UILabel *_minuteLabel;
-    UILabel *_timeSeparatorLabel;
 }
 
-+ (_Bool);
++ (_Bool)CKRecord from IMTransfer guid %@, marking row %lld as failed to upload ***;
 - (void);
 - (id);
 - (_Bool);
@@ -37,39 +24,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)"16@"IDSAccount"24@"IDSGroupSessionParticipantUpdate"32@"IDSMessageContext"40;
+- (void)pendingIncomingSatelliteMessageCount;
+- (struct CGRect)handleMessageReadReceiptWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)handleMessageReadReceiptWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)backwardCompatibilityPrefixForLanguageCode:(id)arg1;
+- (struct CGRect)_onRecordZoneFetchComplete:token:tokenData:moreComing:error: /* Error: Ran out of types for this method. */;
+- (id)_onRecordWrite:error:recordNameToPartIndexAndRowID: /* Error: Ran out of types for this method. */;
+- (void)_anyChatExistsOnServerWithResultsLimit:changeToken:activity:completion: /* Error: Ran out of types for this method. */;
+- (_Bool),N;
+- (long long)databaseManager;
+- (id)IMDaemonChatCountRequestProtocol;
+- (void)IMCheckInMessagePipelineParameter;
 - (struct CGRect);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
-- (_Bool);
-- (long long);
-- (id);
-- (void);
-- (struct CGRect);
 - (void);
 - (id);
-- (_Bool);
-- (void)leView:(id)arg1 canFocusRowAtIndexPath:(unsigned long long)arg2;
+- (_Bool)t;
+- (void)_tableView:(id)arg1 canFocusRowAtIndexPath:(unsigned long long)arg2;
 - (id)il for this set down animation;
-- (void);
+- (void)tooManyTouches;
 - (void)?×£p=
 ×ã?Á?;
 - (void);
 - (id)%Ãe;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect combinedTextRectFromLabels;
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) _UIControlEventsGestureRecognizer *controlEventsGestureRecognizer; // @synthesize controlEventsGestureRecognizer=_controlEventsGestureRecognizer;
-@property(readonly, nonatomic) UILabel *hourLabel; // @synthesize hourLabel=_hourLabel;
-@property(readonly, nonatomic) UILabel *minuteLabel; // @synthesize minuteLabel=_minuteLabel;
-@property(readonly, nonatomic) UILabel *timeSeparatorLabel; // @synthesize timeSeparatorLabel=_timeSeparatorLabel;
-@property(nonatomic) _Bool wheelsActive; // @synthesize wheelsActive=_wheelsActive;
-@property(nonatomic) __weak id <_UIDatePickerWheelsTimeLabelDelegate> wheelsDelegate; // @synthesize wheelsDelegate=_wheelsDelegate;
 
 @end
 

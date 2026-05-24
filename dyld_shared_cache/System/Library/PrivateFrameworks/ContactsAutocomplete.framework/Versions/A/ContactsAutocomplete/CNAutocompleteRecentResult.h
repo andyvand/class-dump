@@ -11,12 +11,10 @@
 @interface CNAutocompleteRecentResult : CNAutocompleteResult
 {
     NSDate *_date;
-    _Bool _matchesSendingAddress;
-    _Bool _completesChosenGroup;
 }
 
 + (id);
-+ (id);
++ (id)T;
 + (id);
 - (void);
 - (void);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool completesChosenGroup; // @synthesize completesChosenGroup=_completesChosenGroup;
 @property(readonly) NSDate *date; // @synthesize date=_date;
-@property _Bool matchesSendingAddress; // @synthesize matchesSendingAddress=_matchesSendingAddress;
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUserActivity;
+@class NSString;
 
 @interface SGEventActivity
 {
     unsigned char _type;
-    NSString *_teamIdentifier;
-    NSUserActivity *_userActivity;
-    double _validStartDate;
-    double _validEndDate;
 }
 
 + (unsigned char);
-+ (id);
++ (id);
 - (double);
 - (id);
 - (double);
@@ -29,10 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
-@property(readonly, nonatomic) double validEndDate; // @synthesize validEndDate=_validEndDate;
-@property(readonly, nonatomic) double validStartDate; // @synthesize validStartDate=_validStartDate;
 
 @end
 

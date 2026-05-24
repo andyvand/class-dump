@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)ring"16@"NSError"24;
+- (void)Z;
 
 @end
 

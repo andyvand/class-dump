@@ -6,31 +6,25 @@
 
 #import <GameController/_GCDevicePhysicalInputFacade.h>
 
-@class GCCursorElement, NSArray;
-@protocol GCButtonElement, GCDirectionPadElement;
+@class GCCursorElement;
+@protocol GCDirectionPadElement;
 
 @interface GCMouseInputState : _GCDevicePhysicalInputFacade
 {
     id <GCDirectionPadElement> _scrollWheel;
-    NSArray *_auxiliaryButtons;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)6zephyr10function_tEE3$_2FbPNS4_6node_tEEEE;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *auxiliaryButtons; // @synthesize auxiliaryButtons=_auxiliaryButtons;
 @property(readonly, nonatomic) GCCursorElement *cursor;
-@property(readonly, nonatomic) id <GCButtonElement> primaryButton;
-@property(readonly, nonatomic) id <GCDirectionPadElement> scrollWheel; // @synthesize scrollWheel=_scrollWheel;
-@property(readonly, nonatomic) id <GCButtonElement> secondaryButton;
-@property(readonly, nonatomic) id <GCButtonElement> thirdButton;
 
 @end
 

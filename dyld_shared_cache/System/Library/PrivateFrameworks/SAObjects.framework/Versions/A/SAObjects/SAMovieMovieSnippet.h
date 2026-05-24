@@ -19,11 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id));
 
 // Remaining properties
 @property(retain, nonatomic) SAMovieMovie *movie;
-@property(nonatomic) _Bool playTrailer;
 
 @end
 

@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _EARSpeechRecognitionResultPackage;
-
 __attribute__((visibility("hidden")))
 @interface _EARResultContext
 {
     _Bool _anyResults;
-    unsigned long long _countOfIsFinalFalseAlreadyWritten;
-    _EARSpeechRecognitionResultPackage *_prevPackage;
-    NSDictionary *_prevMuxPackages;
-    _EARSpeechRecognitionResultPackage *_prevPackageWithoutPersonalization;
-    long long _volatileRangeStartSamples;
-    long long _volatileRangeEndSamples;
-    unsigned long long _partialResultIndexOffset;
-    shared_ptr_9d440e49 _continuousListeningResultHelper;
-    shared_ptr_ec6f41eb _resultHandler;
-    basic_string_cc40eacf _prevBestRecogText;
-    vector_260926f7 _partialResults;
-    vector_260926f7 _loggableConcatResult;
-    vector_3f2cadd7 _loggableConcatCosts;
 }
 
+- (long long)C;
 - (long long);
-- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,38 +28,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (basic_string_cc40eacf);
-- (vector_260926f7);
+- (vector_362e99ae);
 - (unsigned long long);
-- (vector_260926f7);
+- (vector_362e99ae);
 - (vector_3f2cadd7);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)rary/PrivateFrameworks/CloudDocs.framework/Versions/A/CloudDocs;
 - (id);
-- (shared_ptr_9d440e49);
+- (shared_ptr_05eebbb1)__DATA_DIRTY;
 - (id);
 - (id);
-- (shared_ptr_ec6f41eb);
+- (shared_ptr_e547ae1c);
 - (void)´;
 
 // Remaining properties
-@property(nonatomic) _Bool anyResults; // @synthesize anyResults=_anyResults;
-@property(nonatomic) shared_ptr_9d440e49 continuousListeningResultHelper; // @synthesize continuousListeningResultHelper=_continuousListeningResultHelper;
-@property(nonatomic) unsigned long long countOfIsFinalFalseAlreadyWritten; // @synthesize countOfIsFinalFalseAlreadyWritten=_countOfIsFinalFalseAlreadyWritten;
-@property(nonatomic) vector_3f2cadd7 loggableConcatCosts; // @synthesize loggableConcatCosts=_loggableConcatCosts;
-@property(nonatomic) vector_260926f7 loggableConcatResult; // @synthesize loggableConcatResult=_loggableConcatResult;
-@property(readonly, nonatomic) unsigned long long partialResultIndexOffset; // @synthesize partialResultIndexOffset=_partialResultIndexOffset;
-@property(readonly, nonatomic) vector_260926f7 partialResults; // @synthesize partialResults=_partialResults;
 @property(nonatomic) basic_string_cc40eacf prevBestRecogText; // @synthesize prevBestRecogText=_prevBestRecogText;
-@property(retain, nonatomic) NSDictionary *prevMuxPackages; // @synthesize prevMuxPackages=_prevMuxPackages;
-@property(retain, nonatomic) _EARSpeechRecognitionResultPackage *prevPackage; // @synthesize prevPackage=_prevPackage;
-@property(retain, nonatomic) _EARSpeechRecognitionResultPackage *prevPackageWithoutPersonalization; // @synthesize prevPackageWithoutPersonalization=_prevPackageWithoutPersonalization;
-@property(nonatomic) shared_ptr_ec6f41eb resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(nonatomic) long long volatileRangeEndSamples; // @synthesize volatileRangeEndSamples=_volatileRangeEndSamples;
-@property(nonatomic) long long volatileRangeStartSamples; // @synthesize volatileRangeStartSamples=_volatileRangeStartSamples;
 
 @end
 

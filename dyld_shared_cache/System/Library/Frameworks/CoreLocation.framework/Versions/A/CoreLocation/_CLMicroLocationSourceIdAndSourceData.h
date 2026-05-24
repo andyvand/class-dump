@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _CLMicroLocationSourceIdAndSourceData
 {
     NSString *_sourceIdsIdentifier;
-    NSArray *_sourceData;
 }
 
 + (_Bool);
+- (id)B
+;
+- (id);
+- (id);
+- (void)2000 file ***
+;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)setRequiredThreadsPerThreadgroup:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *sourceData; // @synthesize sourceData=_sourceData;
 @property(readonly, copy, nonatomic) NSString *sourceIdsIdentifier; // @synthesize sourceIdsIdentifier=_sourceIdsIdentifier;
 
 @end

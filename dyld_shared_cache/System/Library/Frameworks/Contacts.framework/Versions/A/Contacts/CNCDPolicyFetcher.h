@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDPersistenceContext, CNContainer;
+@class CNContainer;
 
 __attribute__((visibility("hidden")))
 @interface CNCDPolicyFetcher
 {
     CNContainer *_container;
-    CNCDPersistenceContext *_persistenceContext;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)addObserverForName:(id)arg1 object:queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
-- (void)Event: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)visitDifferentMeCardEvent: /* Error: Ran out of types for this method. */;
+- (id)namePrefixDescription;
 - (void)h[;
 
 // Remaining properties
 @property(retain, nonatomic) CNContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) CNCDPersistenceContext *persistenceContext; // @synthesize persistenceContext=_persistenceContext;
 
 @end
 

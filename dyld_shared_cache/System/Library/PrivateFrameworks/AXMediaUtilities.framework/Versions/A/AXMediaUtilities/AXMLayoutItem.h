@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (struct CGRect);
++ (struct CGRect)|;
 + (struct CGRect);
 + (struct CGRect);
 - (_Bool);
@@ -19,20 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (double);
+- (double)@@?<v@?@"DAKeyEncryptedRequest"@"NSError">;
 - (double);
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double bottom;
 @property(readonly, nonatomic) struct CGRect frame; // @dynamic frame;
-@property(readonly, nonatomic) double height;
-@property(readonly, nonatomic) double left;
-@property(readonly, nonatomic) struct CGRect normalizedFrame; // @dynamic normalizedFrame;
-@property(readonly, nonatomic) double right;
-@property(readonly, nonatomic) double top;
-@property(readonly, nonatomic) double width;
 
 @end
 

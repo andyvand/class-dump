@@ -4,42 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAAccessory, EASession, NSCondition, NSMutableData, NSObject, NSRecursiveLock;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface EAInputStream
 {
     id _delegate;
-    EAAccessory *_accessory;
-    EASession *_session;
-    int _sock;
-    _Bool _useSocket;
-    NSMutableData *_inputFromAccData;
-    NSCondition *_inputFromAccCondition;
-    NSRecursiveLock *_statusLock;
-    NSRecursiveLock *_runloopLock;
-    NSObject<OS_dispatch_queue> *_inputFromAccQueue;
-    NSObject<OS_dispatch_source> *_sockListenSource;
-    char *_inputFromAccBuffer;
-    _Bool _isOpenCompletedEventSent;
-    _Bool _hasNewBytesAvailable;
-    _Bool _isAtEndEventSent;
-    unsigned long long _streamStatus;
-    struct __CFRunLoop *_runLoop;
-    struct __CFRunLoopSource *_runLoopSource;
-    int _zeroBytesReadCount;
 }
 
-- (int);
+- (int);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))�	1�!;
 - (void);
 - (void);
 - (void);

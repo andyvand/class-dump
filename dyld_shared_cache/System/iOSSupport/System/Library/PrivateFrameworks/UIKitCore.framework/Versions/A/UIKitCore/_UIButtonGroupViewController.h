@@ -6,26 +6,21 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIColor, UIScrollView, _UIButtonBar;
+@class UIColor, _UIButtonBar;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonGroupViewController : UIViewController
 {
     _UIButtonBar *_originalOwner;
-    _UIButtonBar *_buttonBar;
-    UIScrollView *_scrollView;
-    NSArray *_barButtonItemGroups;
-    _Bool _overLightKeyboard;
-    UIColor *_tintColor;
 }
 
-- (id);
+- (id)DServiceController",R,N;
 - (void);
 - (id);
 - (id);
 - (_Bool)!À@ùQg°1Â0@ù
 × ;
-- (void)ext:(id)arg1 proposedReplacementText:proposedReplacementRange: /* Error: Ran out of types for this method. */;
+- (void)initWithText:(id)arg1 proposedReplacementText:proposedReplacementRange: /* Error: Ran out of types for this method. */;
 - (void)mentObscured;
 - (id)rogressView",W,N,V_progressControlView;
 - (id)fterCAFlushAndRunDeferredBlocks(UIApplication *__strong, BOOL);
@@ -35,14 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol PDSXPCHandshake
+- (void)CLLocationProvider_Type:(NSString *)arg1:(void (^)(id <PDSRemote>, NSError *))arg2 kNotificationClientActivityTypeAirborne;
 @end
 

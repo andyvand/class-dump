@@ -8,27 +8,21 @@ __attribute__((visibility("hidden")))
 @interface NSWindowAnchorInfo
 {
     id horizontalItem;
-    id verticalItem;
-    long long horizontalAttribute;
-    long long verticalAttribute;
 }
 
+- (id)r/lib/system/libsystem_info.dylib;
+- (long long)bsystem_notify.dylib;
+- (void)UserIntentPhysicalButtonCGRect;
+- (void)UniqueChipID;
+- (void)PUMArrha4PFeOqINeQRM3A;
+- (void)0nvr5w/jk4WEg;
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (id)tentWindowFrame;
+- (id)contentWindowFrame;
 
 // Remaining properties
-@property(nonatomic) long long horizontalAttribute; // @synthesize horizontalAttribute;
 @property(retain, nonatomic) id horizontalItem; // @synthesize horizontalItem;
-@property(nonatomic) long long verticalAttribute; // @synthesize verticalAttribute;
-@property(retain, nonatomic) id verticalItem; // @synthesize verticalItem;
 
 @end
 

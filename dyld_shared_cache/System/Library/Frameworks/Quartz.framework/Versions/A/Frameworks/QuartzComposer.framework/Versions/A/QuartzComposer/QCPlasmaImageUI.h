@@ -11,7 +11,6 @@
 @interface QCPlasmaImageUI : QCInspector
 {
     NSTextField *widthField;
-    NSTextField *heightField;
 }
 
 + (id);

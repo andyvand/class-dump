@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PRAstKeywordInfo
 {
     long long _fieldType;
-    long long _direction;
 }
 
 + (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
 @property(nonatomic) long long fieldType; // @synthesize fieldType=_fieldType;
 
 @end

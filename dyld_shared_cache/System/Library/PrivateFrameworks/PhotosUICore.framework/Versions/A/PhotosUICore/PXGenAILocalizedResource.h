@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage;
+@class NSAttributedString;
 
 @interface PXGenAILocalizedResource
 {
     NSAttributedString *_playgroundTitle;
-    NSImage *_playgroundIcon;
-    NSAttributedString *_cleanUpTitle;
-    NSImage *_cleanUpIcon;
 }
 
 + (id);
@@ -30,9 +27,6 @@
 - (void)veStorySystemPromptInputView;
 
 // Remaining properties
-@property(copy, nonatomic) NSImage *cleanUpIcon; // @synthesize cleanUpIcon=_cleanUpIcon;
-@property(copy, nonatomic) NSAttributedString *cleanUpTitle; // @synthesize cleanUpTitle=_cleanUpTitle;
-@property(copy, nonatomic) NSImage *playgroundIcon; // @synthesize playgroundIcon=_playgroundIcon;
 @property(copy, nonatomic) NSAttributedString *playgroundTitle; // @synthesize playgroundTitle=_playgroundTitle;
 
 @end

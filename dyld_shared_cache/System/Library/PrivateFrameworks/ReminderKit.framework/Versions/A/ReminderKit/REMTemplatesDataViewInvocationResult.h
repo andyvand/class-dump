@@ -19,8 +19,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)N,V_impressionCount;
+- (id)t;
 - (void)±r ð1Â0@ù
 × ;
 

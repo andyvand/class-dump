@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface STSiriLocation
 {
     NSURL *_addressBookID;
-    NSString *_addressLabel;
-    NSString *_contactName;
-    NSData *_geoResult;
-    long long _resultType;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (void)rsion:data: /* Error: Ran out of types for this method. */;
+- (void)_getMyriadAdvertisementDataForVersion:data: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *addressBookID; // @synthesize addressBookID=_addressBookID;
-@property(copy, nonatomic) NSString *addressLabel; // @synthesize addressLabel=_addressLabel;
-@property(copy, nonatomic) NSString *contactName; // @synthesize contactName=_contactName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSData *geoResult; // @synthesize geoResult=_geoResult;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long resultType; // @synthesize resultType=_resultType;
-@property(readonly) Class superclass;
 
 @end
 

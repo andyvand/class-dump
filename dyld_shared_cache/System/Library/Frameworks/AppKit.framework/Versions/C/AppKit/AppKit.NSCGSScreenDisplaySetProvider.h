@@ -7,7 +7,6 @@
 @interface AppKit.NSCGSScreenDisplaySetProvider
 {
     id _configurationObserver;
-    id screenDisplaySetUpdateObserver;
 }
 
 @end

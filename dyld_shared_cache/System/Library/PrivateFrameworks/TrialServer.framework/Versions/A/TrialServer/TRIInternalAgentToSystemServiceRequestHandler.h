@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIAssetStore, TRIAssetStoreOperator;
-@protocol TRIStorageManagementProtocol, TRITrialInternalSystemEntitled;
+@protocol TRITrialInternalSystemEntitled;
 
 @interface TRIInternalAgentToSystemServiceRequestHandler
 {
     id <TRITrialInternalSystemEntitled> _entitlementWitness;
-    TRIAssetStore *_store;
-    TRIAssetStoreOperator *_operator;
-    id <TRIStorageManagementProtocol> _storageManagement;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)linkItemAtURL:(id)arg1 toURL:error: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithLayers:(id)arg1 layout:(id)arg2 depthEnabled:(id)arg3 parallaxDisabled:(id)arg4 clockAreaLuminance:(id *)arg5 settlingEffectEnabled:spatialPhotoEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)imageWithCVPixelBuffer:(id)arg1;
+- (void)rolsLayoutConfiguration=QQBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd}16;
+- (void)@"AVDisplayLink";
+- (void)0@0:(id)arg1 8@16B24B28@?32;
+- (void)Size=dd}}56@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@48;
+- (void)aybackControlButton";
+- (void)rCoordinator";
+- (void)eholderView";
+- (void)VPlayerViewControllerContentView"16;
+- (void)latformAdapter"16q24;
+- (void):(id)arg1 8@"<AVPictureInPictureControllerMacHelper>"16d24;
+- (void)16B24;
+- (void)iewDelegate>";
+- (void)ewController";
+- (void)creenPlaceholderView";
+- (void)?24;
 - (void);
 - (void)0@ù
 × ;

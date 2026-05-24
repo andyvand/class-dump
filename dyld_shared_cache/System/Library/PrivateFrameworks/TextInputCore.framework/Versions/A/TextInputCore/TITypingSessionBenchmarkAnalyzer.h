@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TITypingSession, TITypingSessionAligned;
+@class TITypingSession;
 
 __attribute__((visibility("hidden")))
 @interface TITypingSessionBenchmarkAnalyzer
 {
     TITypingSession *_session;
-    TITypingSessionAligned *_alignedSession;
-    unsigned long long _typingSessionConfidence;
-    double _sessionAlignmentConfidence;
-    int _sessionWords;
-    int _alignedWords;
-    int _sessionWordsWithText;
-    int _alignedWordsWithText;
 }
 
 - (unsigned long long);
-- (_Bool);
+- (_Bool)initCapsuleWithExtent:(id)arg1 cylinderSegments:(id)arg2 hemisphereSegments:(unsigned long long)arg3 inwardNormals:geometryType:allocator: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

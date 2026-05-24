@@ -5,5 +5,7 @@
 //
 
 @protocol BTMRegistrarServiceInterface
+- (void);
+- (void)T;
 @end
 

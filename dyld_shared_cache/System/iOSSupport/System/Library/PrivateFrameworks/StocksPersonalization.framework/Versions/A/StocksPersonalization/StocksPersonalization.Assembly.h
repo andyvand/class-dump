@@ -7,6 +7,7 @@
 @interface StocksPersonalization.Assembly
 {
     id assemblies;
+    id;
 }
 
 @end

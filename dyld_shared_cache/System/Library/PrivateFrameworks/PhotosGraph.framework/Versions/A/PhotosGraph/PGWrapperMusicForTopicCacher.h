@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void)` !`;
 - (id);
 - (void)used: /* Error: Ran out of types for this method. */;
 

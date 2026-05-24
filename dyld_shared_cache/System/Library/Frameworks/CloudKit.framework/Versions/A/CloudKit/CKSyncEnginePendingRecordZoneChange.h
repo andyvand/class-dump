@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSString;
+@class CKRecordID;
 
 @interface CKSyncEnginePendingRecordZoneChange
 {
     CKRecordID *_recordID;
-    long long _type;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (unsigned long long);
 - (id);
@@ -27,19 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)ionsOperationCallbacks;
+- (void)6;
+- (void)CKSerializeRecordModificationsOperationCallbacks;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

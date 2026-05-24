@@ -7,10 +7,6 @@
 @interface CWFRangingMeasurement
 {
     long long _roundTripTime;
-    long long _RSSI;
-    unsigned long long _channel;
-    long long _SNR;
-    unsigned long long _coreID;
 }
 
 + (_Bool);
@@ -27,16 +23,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long RSSI; // @synthesize RSSI=_RSSI;
-@property(nonatomic) long long SNR; // @synthesize SNR=_SNR;
-@property(nonatomic) unsigned long long channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned long long coreID; // @synthesize coreID=_coreID;
 @property(nonatomic) long long roundTripTime; // @synthesize roundTripTime=_roundTripTime;
 
 @end

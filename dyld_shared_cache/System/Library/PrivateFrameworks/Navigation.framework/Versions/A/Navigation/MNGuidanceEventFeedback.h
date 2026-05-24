@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface MNGuidanceEventFeedback
 {
     int _trafficCameraType;
-    NSUUID *_uniqueID;
-    NSData *_routeID;
-    unsigned long long _stepID;
-    unsigned long long _enrouteNoticeIndex;
-    unsigned long long _eventIndex;
-    unsigned long long _type;
-    double _startTime;
-    double _endTime;
-    double _maneuverTime;
-    double _startDistance;
-    double _endDistance;
-    double _vehicleSpeed;
-    unsigned long long _trafficColor;
-    unsigned long long _selectedPrimaryStringIndex;
-    unsigned long long _selectedSecondaryStringIndex;
-    NSArray *_junctionViewImageIDs;
-    NSString *_enrouteNoticeIdentifier;
-    NSString *_eventDescription;
 }
 
 + (_Bool);
@@ -35,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void)SearchEnvironmentStorage;
 - (void);
-- (void);
-- (void);
+- (void)ventProvider;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -53,7 +35,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (double);
 - (double);
@@ -64,36 +46,18 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)MMCSCPinSetupViewControllerDelegate;
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)}F;
 - (void);
 - (void);
 - (void)NavigationSessionManager"16@"MNActiveRouteInfo"24;
 - (void)¬á;
 
 // Remaining properties
-@property(nonatomic) double endDistance; // @synthesize endDistance=_endDistance;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(copy, nonatomic) NSString *enrouteNoticeIdentifier; // @synthesize enrouteNoticeIdentifier=_enrouteNoticeIdentifier;
-@property(nonatomic) unsigned long long enrouteNoticeIndex; // @synthesize enrouteNoticeIndex=_enrouteNoticeIndex;
-@property(copy, nonatomic) NSString *eventDescription; // @synthesize eventDescription=_eventDescription;
-@property(nonatomic) unsigned long long eventIndex; // @synthesize eventIndex=_eventIndex;
-@property(retain, nonatomic) NSArray *junctionViewImageIDs; // @synthesize junctionViewImageIDs=_junctionViewImageIDs;
-@property(nonatomic) double maneuverTime; // @synthesize maneuverTime=_maneuverTime;
-@property(retain, nonatomic) NSData *routeID; // @synthesize routeID=_routeID;
-@property(nonatomic) unsigned long long selectedPrimaryStringIndex; // @synthesize selectedPrimaryStringIndex=_selectedPrimaryStringIndex;
-@property(nonatomic) unsigned long long selectedSecondaryStringIndex; // @synthesize selectedSecondaryStringIndex=_selectedSecondaryStringIndex;
-@property(nonatomic) double startDistance; // @synthesize startDistance=_startDistance;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) unsigned long long stepID; // @synthesize stepID=_stepID;
-@property(nonatomic) int trafficCameraType; // @synthesize trafficCameraType=_trafficCameraType;
-@property(nonatomic) unsigned long long trafficColor; // @synthesize trafficColor=_trafficColor;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 @property(retain, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(nonatomic) double vehicleSpeed; // @synthesize vehicleSpeed=_vehicleSpeed;
 
 @end
 

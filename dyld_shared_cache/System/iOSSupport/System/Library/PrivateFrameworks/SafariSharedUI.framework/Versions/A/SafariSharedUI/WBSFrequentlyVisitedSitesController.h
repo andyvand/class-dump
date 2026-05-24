@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, WBSFrequentlyVisitedSitesBannedURLStore, WBSHistory;
-@protocol OS_dispatch_queue;
+@class NSArray, WBSFrequentlyVisitedSitesBannedURLStore;
 
 @interface WBSFrequentlyVisitedSitesController
 {
     WBSFrequentlyVisitedSitesBannedURLStore *_bannedURLStore;
-    NSString *_profileIdentifier;
-    WBSHistory *_history;
-    double _timeOfLastFrequentlyVisitedSitesComputation;
-    NSObject<OS_dispatch_queue> *_analyticsQueue;
 }
 
 + (float);
@@ -41,7 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *frequentlyVisitedSites;
-@property(readonly, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
 
 @end
 

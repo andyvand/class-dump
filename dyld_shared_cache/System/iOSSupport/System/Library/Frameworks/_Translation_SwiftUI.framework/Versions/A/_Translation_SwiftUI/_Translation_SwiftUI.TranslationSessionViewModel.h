@@ -8,12 +8,10 @@
 {
     id _translationSession;
     id _preflightConfiguration;
-    id _preflightCompletion;
-    id _$observationRegistrar;
 }
 
 - (void);
-- (id);
+- (id)";
 - (void);
 
 @end

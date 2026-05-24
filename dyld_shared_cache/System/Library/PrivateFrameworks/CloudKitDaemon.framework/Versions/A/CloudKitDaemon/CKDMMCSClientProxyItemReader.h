@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C3DownloadChunkContext, CKDMMCSItem, CKDMMCSItemGroupContext, NSString;
+@class CKDMMCSItemGroupContext;
 
 @interface CKDMMCSClientProxyItemReader
 {
     CKDMMCSItemGroupContext *_MMCSRequest;
-    CKDMMCSItem *_MMCSItem;
 }
 
 - (id);
@@ -25,19 +24,7 @@
 - (_Bool)lic}@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCSItem *MMCSItem; // @synthesize MMCSItem=_MMCSItem;
 @property(retain, nonatomic) CKDMMCSItemGroupContext *MMCSRequest; // @synthesize MMCSRequest=_MMCSRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) C3DownloadChunkContext *downloadChunkContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"C3DownloadChunkContext",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

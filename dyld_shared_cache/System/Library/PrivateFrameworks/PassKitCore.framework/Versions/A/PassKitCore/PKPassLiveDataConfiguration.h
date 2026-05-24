@@ -12,16 +12,16 @@
 }
 
 + (id);
-+ (id);
++ (id)R	ja;
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (void);
-- (void)get;
+- (id);
+- (void)impactedServersAtStudyStart;
+- (void)provisioningTarget;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *eligibleSemantics; // @synthesize eligibleSemantics=_eligibleSemantics;

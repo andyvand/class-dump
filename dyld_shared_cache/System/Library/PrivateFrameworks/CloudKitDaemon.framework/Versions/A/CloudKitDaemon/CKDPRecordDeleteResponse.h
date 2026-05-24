@@ -11,10 +11,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ment with duration=%1.3f seconds, trimAtEndStartPTS=%1.3f(%lld/%d), sbuf.PTS=%1.3f, sbuf.duration=%1.3f 
+;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 

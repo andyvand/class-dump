@@ -6,16 +6,9 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMHealthKitWorkoutEvent : BMEventBase
 {
     _Bool _isFirstPartyDonation;
-    _Bool _isIndoor;
-    _Bool _isUpdate;
-    NSString *_activityType;
-    NSString *_activityUUID;
-    unsigned long long _eventType;
 }
 
 + (id);
@@ -23,8 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void):(id)arg1 ];
+- (id)iaQueue:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned int);
@@ -32,7 +25,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)KR;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -41,20 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(copy, nonatomic) NSString *activityUUID; // @synthesize activityUUID=_activityUUID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isFirstPartyDonation; // @synthesize isFirstPartyDonation=_isFirstPartyDonation;
-@property(readonly, nonatomic) _Bool isIndoor; // @synthesize isIndoor=_isIndoor;
-@property(readonly, nonatomic) _Bool isUpdate; // @synthesize isUpdate=_isUpdate;
-@property(readonly) Class superclass;
 
 @end
 

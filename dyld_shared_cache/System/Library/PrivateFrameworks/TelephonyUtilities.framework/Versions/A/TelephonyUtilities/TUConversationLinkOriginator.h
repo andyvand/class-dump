@@ -9,8 +9,6 @@
 @interface TUConversationLinkOriginator
 {
     TUHandle *_handle;
-    NSString *_identifier;
-    long long _revision;
 }
 
 + (_Bool);
@@ -24,16 +22,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)orConversationLinkDescriptorsWithPredicate:completion: /* Error: Ran out of types for this method. */;
-- (long long)sationURL;
+- (id)I
+;
+- (id);
+- (void)setInvitedHandles:withRevision:forConversationLinkDescriptorsWithPredicate:completion: /* Error: Ran out of types for this method. */;
+- (long long)phoneAppLaunchForOutgoingConversationURL;
 - (void)ÍÌÌ=;
 
 // Remaining properties
-@property(retain, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long revision; // @synthesize revision=_revision;
 
 @end
 

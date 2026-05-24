@@ -9,16 +9,10 @@
 @interface CHTilingManager
 {
     long long _documentTileWidth;
-    long long _documentTileHeight;
-    long long _documentTilingTileHorizontalOverlap;
-    long long _documentTilingTileVerticalOverlap;
-    long long _documentTilingTileHorizontalContextOverlap;
-    long long _documentTilingTileVerticalContextOverlap;
-    id <CHStrokeProvider> _strokeProvider;
 }
 
 - (id);
-- (id);
+- (id)hJ	J;
 - (id);
 - (void);
 - (id);

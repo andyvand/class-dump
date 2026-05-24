@@ -6,23 +6,19 @@
 
 #import <HomeKitDaemon/HMDBackingStoreHandler.h>
 
-@class HMDMediaDestinationManagerMetricsDispatcher, HMMediaDestination, HMMutableMediaDestination;
 @protocol HMDMediaDestinationBackingStoreHandlerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationBackingStoreHandler : HMDBackingStoreHandler
 {
     struct os_unfair_lock_s _lock;
-    HMMutableMediaDestination *_destination;
-    id <HMDMediaDestinationBackingStoreHandlerDelegate> _delegate;
-    HMDMediaDestinationManagerMetricsDispatcher *_metricsDispatcher;
 }
 
-+ (id);
++ (id)P;
 + (id)q;
 - (void);
 - (void);
-- (void);
+- (void)shDaemonRemoteProxy",W,N,V_target;
 - (id);
 - (void);
 - (id);
@@ -36,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak id <HMDMediaDestinationBackingStoreHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) HMMediaDestination *destination;
-@property(readonly) HMDMediaDestinationManagerMetricsDispatcher *metricsDispatcher; // @synthesize metricsDispatcher=_metricsDispatcher;
 
 @end
 

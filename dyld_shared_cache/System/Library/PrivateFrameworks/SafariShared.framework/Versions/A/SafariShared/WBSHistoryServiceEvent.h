@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
-
 @interface WBSHistoryServiceEvent
 {
     long long _eventID;
-    NSString *_eventType;
-    NSDate *_time;
-    NSDictionary *_value;
 }
 
-+ (_Bool);
++ (_Bool)5;
 - (id);
 - (id);
+- (id)屎H;
 - (id);
-- (id);
-- (id);
+- (id)H1;
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)deleteAllTopicsFromSourcesWithBundleId:documentIds:deletedCount:error: /* Error: Ran out of types for this method. */;
 - (void)00;
 
 // Remaining properties
 @property(readonly, nonatomic) long long eventID; // @synthesize eventID=_eventID;
-@property(readonly, copy, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, copy, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(readonly, copy, nonatomic) NSDictionary *value; // @synthesize value=_value;
 
 @end
 

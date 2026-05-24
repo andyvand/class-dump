@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSMediaSuggestionOutcome;
+@class PLUSSchemaPLUSMediaSuggestionOutcome;
 
 @interface PLUSSchemaPLUSSuggestionDomainOutcome : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSMediaSuggestionOutcome *_mediaOutcome;
-    _Bool _hasMediaOutcome;
-    unsigned long long _whichDomainsuggestionoutcome;
 }
 
 - (unsigned long long);
@@ -22,23 +20,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id);
+- (void);
+- (unsigned long long)j;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)h:(id)arg1 recents SEARCH failed with error %@;
+- (id)A;
 - (id)!ÐFùqÝ°1Â0@ù
 × ;
-- (id)IndependentSignals;
+- (id)_inferenceMusicTrainingIndependentSignals;
 - (id)rted;
-- (void)ataCollectionId;
+- (void)dataCollectionId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaOutcome; // @synthesize hasMediaOutcome=_hasMediaOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PLUSSchemaPLUSMediaSuggestionOutcome *mediaOutcome; // @synthesize mediaOutcome=_mediaOutcome;
-@property(readonly, nonatomic) unsigned long long whichDomainsuggestionoutcome; // @synthesize whichDomainsuggestionoutcome=_whichDomainsuggestionoutcome;
 
 @end
 

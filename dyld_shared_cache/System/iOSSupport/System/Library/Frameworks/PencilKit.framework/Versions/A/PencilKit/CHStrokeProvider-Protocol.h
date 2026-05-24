@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet;
 @protocol CHStrokeProviderVersion;
 
 @protocol CHStrokeProvider
 
+@optional
+- (id <CHStrokeProviderVersion>);
+
 // Remaining properties
-@property(readonly) struct CGSize drawingCanvasSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) long long groupingPriority;
-@property(readonly, copy) NSArray *orderedStrokes;
 @property(readonly) id <CHStrokeProviderVersion> strokeProviderVersion;
-@property(readonly, copy) NSOrderedSet *visibleStrokeEncodedIdentifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSOrderedSet",?,R,C
-
 @end
 

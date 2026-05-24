@@ -10,9 +10,6 @@
 @interface WBSStartPageSectionManager
 {
     NSObject<WBSStartPageSectionManagerStorage> *_storage;
-    NSArray *_cachedSections;
-    long long _ignoreChanges;
-    struct os_unfair_lock_s _lock;
 }
 
 + (unsigned long long);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,11 +36,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *cloudKitStartPageSectionOrder;
-@property(readonly, nonatomic) NSArray *enabledSectionIdentifiers;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
 @property(readonly, copy, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) NSArray *suggestionsDataSourceSections;
 
 @end
 

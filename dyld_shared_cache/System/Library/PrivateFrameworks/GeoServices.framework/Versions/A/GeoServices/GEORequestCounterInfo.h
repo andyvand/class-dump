@@ -9,11 +9,6 @@
 @interface GEORequestCounterInfo
 {
     NSDictionary *_requestTypeStatistics;
-    unsigned long long _bytesTransmitted;
-    unsigned long long _bytesReceived;
-    long long _durationUSeconds;
-    int _durationCount;
-    unsigned long long _usedInterfaces;
 }
 
 + (_Bool)te external resources folder at "%@":%@ /* Error: Ran out of types for this method. */;
@@ -21,13 +16,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)CDIOSLegacyIdentifierRegistration>";
+- (unsigned long long)updateDictionary:(CDStruct_026435ec)arg1 shouldMigrateIfNecessary: /* Error: Ran out of types for this method. */;
+- (unsigned long long)updateDictionary:shouldMigrateIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)legacyIdentifierRegistrationsForRequest:(CDStruct_026435ec)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 - (void);
@@ -38,12 +33,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)splayDetails;
-- (id)yFilter;
+- (id)displayDetails;
+- (id)hikeSummaryFilter;
 - (void)¤ü¤Ú§"P@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSArray *requestTypes;
 
 @end

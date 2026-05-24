@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INShareFileIntent : INIntent
 {
@@ -29,22 +29,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (id)v<v;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *entityNames;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *recipients;
 @property(readonly, copy) NSString *shareMode;
-@property(readonly) Class superclass;
 
 @end
 

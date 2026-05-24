@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOAPSessionData
 {
     struct GEOSessionID _sessionId;
-    double _createTimeInUse;
-    double _createTime;
-    double _mapsUserStartDate;
-    NSString *_originHardwareClass;
-    unsigned long long _salt;
-    double _sessionCreateHour;
-    unsigned long long _sessionEpoch;
-    unsigned int _opaqueAppId;
-    _Bool _hasRotated;
-    _Bool _sessionHasRotated;
-    struct {
-        unsigned int has_sessionId:1;
-        unsigned int has_createTimeInUse:1;
-        unsigned int has_createTime:1;
-        unsigned int has_mapsUserStartDate:1;
-        unsigned int has_salt:1;
-        unsigned int has_sessionCreateHour:1;
-        unsigned int has_sessionEpoch:1;
-        unsigned int has_opaqueAppId:1;
-        unsigned int has_hasRotated:1;
-        unsigned int has_sessionHasRotated:1;
-    } _flags;
 }
 
-+ (_Bool)ionsEnabled:(id)arg1;
++ (_Bool)setHasMapSettingsNotificationsEnabled:(id)arg1;
 - (void);
 - (id);
 - (void);
@@ -44,8 +20,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_isDuckingAvailableRoute:(id)arg1;
+- (void)oiceProfileWithAudioFiles:(_Bool)arg1 aesKey:encryptedAudioSampleBypeDepth:languageCode:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -54,10 +30,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (double);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)!';
+- (_Bool)Inherited;
+- (unsigned long long)a8;
+- (_Bool)__objc_const;
 - (_Bool);
 - (void);
 - (double);
@@ -70,14 +46,14 @@
 × ;
 - (void)!AùQ·*ð1Â0@ù
 × ;
-- (id)ationSearches;
-- (void)conURLForSize:(id)arg1 allowSmaller: /* Error: Ran out of types for this method. */;
-- (id)LogCoding;
+- (id)locationSearches;
+- (void)_bestAvatarBrandIconURLForSize:(id)arg1 allowSmaller: /* Error: Ran out of types for this method. */;
+- (id)OSLogCoding;
 - (id)ô&4(¤(;
 - (unsigned int)failed:observer != ((void*)0) /* Error: Ran out of types for this method. */;
 - (void)e:(_Bool)arg1 Trying to initialize VectorTile (%d, %d, %d) with non-VMP4 data.
 ;
-- (id)kLookupURL;
+- (id)GEOFeedbackLookupURL;
 - (_Bool)COMPONENT_TYPE_HIKE_GEOMETRY;
 - (id);
 - (void)@©¤N@xØÿ@;
@@ -96,28 +72,7 @@
 - (_Bool)rÿÔH;
 
 // Remaining properties
-@property(nonatomic) double createTime;
-@property(nonatomic) double createTimeInUse;
-@property(nonatomic) _Bool hasCreateTime;
-@property(nonatomic) _Bool hasCreateTimeInUse;
-@property(nonatomic) _Bool hasHasRotated;
-@property(nonatomic) _Bool hasMapsUserStartDate;
-@property(nonatomic) _Bool hasOpaqueAppId;
-@property(readonly, nonatomic) _Bool hasOriginHardwareClass;
-@property(nonatomic) _Bool hasRotated;
-@property(nonatomic) _Bool hasSalt;
-@property(nonatomic) _Bool hasSessionCreateHour;
-@property(nonatomic) _Bool hasSessionEpoch;
-@property(nonatomic) _Bool hasSessionHasRotated;
 @property(nonatomic) _Bool hasSessionId;
-@property(nonatomic) double mapsUserStartDate;
-@property(nonatomic) unsigned int opaqueAppId;
-@property(retain, nonatomic) NSString *originHardwareClass;
-@property(nonatomic) unsigned long long salt;
-@property(nonatomic) double sessionCreateHour;
-@property(nonatomic) unsigned long long sessionEpoch;
-@property(nonatomic) _Bool sessionHasRotated;
-@property(nonatomic) struct GEOSessionID sessionId;
 
 @end
 

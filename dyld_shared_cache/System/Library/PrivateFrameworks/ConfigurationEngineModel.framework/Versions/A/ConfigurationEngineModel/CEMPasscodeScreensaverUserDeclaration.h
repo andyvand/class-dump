@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMPasscodeScreensaverUserDeclaration : CEMConfigurationBase
 {
     NSString *_payloadModulePath;
-    NSNumber *_payloadIdleTime;
 }
 
 + (id);
@@ -21,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void) ;
 - (void);
 - (id);
 - (id);
@@ -32,18 +31,10 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)n sslv2 initial packet;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadIdleTime; // @synthesize payloadIdleTime=_payloadIdleTime;
 @property(copy, nonatomic) NSString *payloadModulePath; // @synthesize payloadModulePath=_payloadModulePath;
-@property(readonly) Class superclass;
 
 @end
 

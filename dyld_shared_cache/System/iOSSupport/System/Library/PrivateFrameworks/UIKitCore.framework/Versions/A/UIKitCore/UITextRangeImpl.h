@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     long long _affinityIfCollapsed;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (void);
++ (id)s iMessage sibling. Chat:(id)arg1 %@. Updating participants using %@;
++ (id)erent participants than its iMessage sibling. Chat:(id)arg1 %@. Updating participants using %@;
+- (void),N,V_analysisFetchOptions;
+- (void)account:(long long)arg1 blockIdleStatusChanged: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)Output Path:(id)arg1 %@;
 - (id);
 - (id);
-- (_Bool)tAlpha:(id)arg1 forState: /* Error: Ran out of types for this method. */;
-- (id)Enabled: /* Error: Ran out of types for this method. */;
+- (_Bool)setAlpha:(id)arg1 forState: /* Error: Ran out of types for this method. */;
+- (id)_setCancellationTimerEnabled: /* Error: Ran out of types for this method. */;
 - (_Bool)ived view controller connection before view controller was created.;
 - (long long)ngCursorLocationRangeForProofreadingSuggestion:inContextID:] /* Error: Ran out of types for this method. */;
 - (void)<;ºÿDí;

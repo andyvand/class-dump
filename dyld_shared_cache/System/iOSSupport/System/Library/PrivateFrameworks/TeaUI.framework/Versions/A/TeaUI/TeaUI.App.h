@@ -7,9 +7,6 @@
 @interface TeaUI.App
 {
     id monitor;
-    id sceneProvider;
-    id application;
-    id environment;
 }
 
 @end

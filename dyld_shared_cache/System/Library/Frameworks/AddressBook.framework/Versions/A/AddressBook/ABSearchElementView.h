@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABSearchElementUIController, NSArray, NSPopUpButton, NSString, NSTextField, NSView;
+@class NSPopUpButton;
 
 @interface ABSearchElementView
 {
     NSPopUpButton *_propertyPopUp;
-    NSArray *_widgets;
-    ABSearchElementUIController *_controller;
-    NSString *_property;
-    long long _comparison;
-    NSView *withinIntervalView;
-    NSTextField *withinTextField;
-    NSPopUpButton *withinPopupButton;
-    NSView *_entryView;
-    long long _userInterfaceLayoutDirection;
 }
 
 + (id);
@@ -28,7 +19,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)y@;
 - (void);
 - (void);
 - (void);
@@ -45,7 +36,7 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -55,20 +46,14 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void)!CùÑ©Ð1Â0@ù
 × ;
-- (_Bool)yToKeyMap;
+- (_Bool)_propertyToKeyMap;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

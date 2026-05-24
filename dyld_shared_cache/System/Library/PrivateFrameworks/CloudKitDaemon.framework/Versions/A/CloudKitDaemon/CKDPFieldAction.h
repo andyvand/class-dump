@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPFieldActionDeleteListRange, CKDPFieldActionInsertIntoList, CKDPFieldActionReplaceListRange;
+@class CKDPFieldActionDeleteListRange;
 
 @interface CKDPFieldAction
 {
     CKDPFieldActionDeleteListRange *_deleteListRange;
-    CKDPFieldActionInsertIntoList *_insertIntoList;
-    CKDPFieldActionReplaceListRange *_replaceListRange;
 }
 
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)#;
 - (id);
-- (id);
+- (void)getAppletStateAndHistory:(id)arg1 withApplet:withPackage:withModule:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)NotificationCenterRef, const void *, CFStringRef, const void *, CFTypeRef);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
 - (void);
-- (id);
+- (id)`R;
 - (id);
 - (void)e capability check response for request %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPFieldActionDeleteListRange *deleteListRange; // @synthesize deleteListRange=_deleteListRange;
-@property(readonly, nonatomic) _Bool hasDeleteListRange;
 @property(readonly, nonatomic) _Bool hasInsertIntoList;
-@property(readonly, nonatomic) _Bool hasReplaceListRange;
-@property(retain, nonatomic) CKDPFieldActionInsertIntoList *insertIntoList; // @synthesize insertIntoList=_insertIntoList;
-@property(retain, nonatomic) CKDPFieldActionReplaceListRange *replaceListRange; // @synthesize replaceListRange=_replaceListRange;
 
 @end
 

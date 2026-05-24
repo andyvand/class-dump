@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     GEORequestCounterRemoteProxy *_remoteProxy;
 }
 
-+ (id);
++ (id)ces>",R,V_localizationServices;
 - (void);
 - (void);
 

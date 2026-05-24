@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString;
+@class NSArray, NSString;
 
 @protocol FCRecipeScorable
 - (NSArray *)e to decode configuration from configuration %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *articleIDs;
-@property(readonly, nonatomic) NSData *eventAggregationPersonalizationData;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSDate *lastReferenceDate;
-@property(readonly, nonatomic) NSData *personalizationData;
-@property(readonly, nonatomic) NSData *rapidUpdatePersonalizationData;
 @end
 

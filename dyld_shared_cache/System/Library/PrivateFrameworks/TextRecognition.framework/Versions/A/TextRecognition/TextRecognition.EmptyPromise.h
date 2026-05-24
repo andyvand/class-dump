@@ -7,8 +7,6 @@
 @interface TextRecognition.EmptyPromise
 {
     id lock;
-    id resolved;
-    id continuations;
 }
 
 @end

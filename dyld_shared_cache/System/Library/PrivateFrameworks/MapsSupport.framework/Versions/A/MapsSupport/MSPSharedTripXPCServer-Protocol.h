@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol MSPSharedTripXPCServer
+- (void)colorWithSRGBRed:(NSArray *)arg1 green:(unsigned long long)arg2 blue:(void (^)(NSError *))arg3 alpha: /* Error: Ran out of types for this method. */;
+- (void)$;
 @end
 

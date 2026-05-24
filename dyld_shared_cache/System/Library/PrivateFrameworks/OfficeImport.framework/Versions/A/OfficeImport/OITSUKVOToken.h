@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface OITSUKVOToken
 {
     NSObject *_observer;
-    NSObject *_target;
-    NSString *_keyPath;
-    void *_context;
 }
 
 - (id);
-- (id);
+- (id)previewPanel:sourceFrameOnScreenForPreviewItem: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) void *context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(readonly, nonatomic) NSObject *observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSObject *target; // @synthesize target=_target;
 
 @end
 

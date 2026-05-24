@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOPDAutocompleteParameters, GEOPDMIFAutocompleteRequestParameters, NSArray, NSString;
+@class GEOPDMIFAutocompleteRequestParameters, NSString;
 
 @interface GEOMIFAutocompleteRequestParameters
 {
     GEOPDMIFAutocompleteRequestParameters *requestParamaters;
-    GEOPDAutocompleteParameters *autocompleteParameters;
-    unsigned int _timeSinceMapEnteredForeground;
-    unsigned int _hourOfDay;
-    unsigned int _dayOfWeek;
-    NSString *_deviceCountryCode;
-    NSArray *_displayLanguages;
-    NSArray *_spokenLanguages;
-    NSString *_deviceDisplayLanguage;
-    NSString *_deviceKeyboardLanguage;
-    NSString *_deviceSpokenLanguage;
-    GEOLocation *_deviceExtendedLocation;
-    double _isTourist;
-    NSString *_displayRegion;
 }
 
 - (id);
@@ -29,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id)attributedStringWithStyleAttributes:defaultAttributes: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)URLLegacy:(id)arg1;
-- (unsigned int)OnRoad;
-- (unsigned int)ON_CELL_TYPE_TWO_LINE_NAME;
+- (id)setBluePOIURLLegacy:(id)arg1;
+- (unsigned int)geoConnectivityPointOnRoad;
+- (unsigned int)CATEGORY_SEARCH_RESULT_SECTION_CELL_TYPE_TWO_LINE_NAME;
 - (id);
 - (void)ª)3;
 - (double)ðÿ;
@@ -42,18 +29,7 @@
 - (unsigned int)9;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dayOfWeek; // @synthesize dayOfWeek=_dayOfWeek;
 @property(readonly, nonatomic) NSString *deviceCountryCode; // @synthesize deviceCountryCode=_deviceCountryCode;
-@property(readonly, nonatomic) NSString *deviceDisplayLanguage; // @synthesize deviceDisplayLanguage=_deviceDisplayLanguage;
-@property(readonly, nonatomic) GEOLocation *deviceExtendedLocation; // @synthesize deviceExtendedLocation=_deviceExtendedLocation;
-@property(readonly, nonatomic) NSString *deviceKeyboardLanguage; // @synthesize deviceKeyboardLanguage=_deviceKeyboardLanguage;
-@property(readonly, nonatomic) NSString *deviceSpokenLanguage; // @synthesize deviceSpokenLanguage=_deviceSpokenLanguage;
-@property(readonly, nonatomic) NSArray *displayLanguages; // @synthesize displayLanguages=_displayLanguages;
-@property(readonly, nonatomic) NSString *displayRegion; // @synthesize displayRegion=_displayRegion;
-@property(readonly, nonatomic) unsigned int hourOfDay; // @synthesize hourOfDay=_hourOfDay;
-@property(readonly, nonatomic) double isTourist; // @synthesize isTourist=_isTourist;
-@property(readonly, nonatomic) NSArray *spokenLanguages; // @synthesize spokenLanguages=_spokenLanguages;
-@property(readonly, nonatomic) unsigned int timeSinceMapEnteredForeground; // @synthesize timeSinceMapEnteredForeground=_timeSinceMapEnteredForeground;
 
 @end
 

@@ -4,73 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDate, NSFont, NSString;
+@class NSColor, NSFont;
 
 @protocol CalUIDayViewGadgetAppearanceDelegate
+- (NSFont *);
+- (double)@;
+- (double)r startAuthorization]_block_invoke;
+
+@optional
+- (NSColor *);
+- (double);
 
 // Remaining properties
-@property(readonly) NSColor *allDaySeparatorColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSColor",?,R
-
-@property(readonly) double allDaySeparatorHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) NSDate *displayEnd;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R
-
-@property(readonly) NSDate *displayStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R
-
-@property(readonly) long long displayType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) double heightAfterLastEvent;
 @property(readonly) double heightBeforeFirstEvent;
-@property(readonly) double horizontalOffset;
-@property(readonly) double hourHeight;
-@property(readonly) double hourLabelOutdent;
-@property(readonly) NSColor *hourLineColor;
-@property(readonly) double hourLineOutdent;
-@property(readonly) _Bool isHourHeightFixed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) NSColor *nowLineColor;
-@property(readonly) double nowLineHeight;
-@property(readonly, nonatomic) unsigned long long numberOfEmptyHoursDisplayed;
-@property(readonly) _Bool shouldAllDayEventsShowColorBar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool shouldAlwaysDrawAllDayArea;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool shouldDisplayCurrentTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool shouldDisplayPreviewEventsAsTentative;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool shouldDisplayTimeline;
-@property(readonly) _Bool shouldDrawAllDaySeparator;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) NSColor *timelineBackgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSColor",?,R
-
-@property(readonly, nonatomic) NSFont *timelineFont;
-@property(readonly) double timelineWidth;
-@property(readonly) NSString *truncatedNowLabelFormat;
-@property(readonly) double verticalOffset;
 @end
 

@@ -11,8 +11,6 @@
 @interface CEMSystemWebContentFilterDeclaration_WhitelistedBookmarksItem : CEMPayloadBase
 {
     NSString *_payloadURL;
-    NSString *_payloadBookmarkPath;
-    NSString *_payloadTitle;
 }
 
 + (id);
@@ -27,11 +25,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadBookmarkPath; // @synthesize payloadBookmarkPath=_payloadBookmarkPath;
-@property(copy, nonatomic) NSString *payloadTitle; // @synthesize payloadTitle=_payloadTitle;
 @property(copy, nonatomic) NSString *payloadURL; // @synthesize payloadURL=_payloadURL;
 
 @end

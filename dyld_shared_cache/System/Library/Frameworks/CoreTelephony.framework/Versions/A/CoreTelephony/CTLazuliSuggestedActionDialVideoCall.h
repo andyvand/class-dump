@@ -9,10 +9,9 @@
 @interface CTLazuliSuggestedActionDialVideoCall
 {
     NSString *_phoneNumber;
-    NSString *_fallbackUrl;
 }
 
-+ (_Bool);
++ (_Bool)yEvent:%p %@ error:%@ recoverableErrorCount:%ld mediaResourceRequestCount:%ld bytesDownloadedCount:%ld downloadDuration:%f variants:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -20,15 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
-- (void);
+- (void)applicationRemainsForegroundRequirement;
 - (id);
 - (void)ª)1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fallbackUrl; // @synthesize fallbackUrl=_fallbackUrl;
 @property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

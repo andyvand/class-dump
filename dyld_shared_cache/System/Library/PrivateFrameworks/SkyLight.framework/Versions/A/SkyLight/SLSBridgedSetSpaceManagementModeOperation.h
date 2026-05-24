@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)lld, free pages - %lld, historyPages - %lld;
 - (id);
 - (unsigned long long);
 - (id);

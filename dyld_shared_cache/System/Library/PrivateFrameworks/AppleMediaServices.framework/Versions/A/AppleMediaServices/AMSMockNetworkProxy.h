@@ -20,7 +20,7 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)P;
 + (id);
 + (void)uÿ;
 - (void);

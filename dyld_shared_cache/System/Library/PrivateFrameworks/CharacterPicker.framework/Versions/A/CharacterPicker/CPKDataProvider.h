@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
 @protocol CPKDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CPKDataProvider
 {
     id <CPKDataSource> _dataSource;
-    NSArray *_searchResults;
-    NSArray *_favorites;
-    NSArray *_recents;
-    NSDictionary *_state;
 }
 
 + (id);
@@ -33,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)�2;
 - (id);
 - (id);
 - (_Bool);
@@ -49,16 +44,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)L^;
 - (void);
 
 // Remaining properties
 @property(readonly) id <CPKDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) NSArray *favorites; // @synthesize favorites=_favorites;
-@property(readonly) NSArray *recents; // @synthesize recents=_recents;
-@property(retain) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(copy) NSDictionary *state; // @synthesize state=_state;
-@property(readonly) NSArray *suggested;
 
 @end
 

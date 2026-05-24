@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsManagementBlueprintViewHeaderProvider
 {
     id delegate;
-    id titleViewRenderer;
 }
 
 @end

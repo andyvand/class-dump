@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLock;
-
 @interface PPNamedEntityDissector
 {
     int _linguisticDataNotificationToken;
-    _PASLock *_lock;
-    NSString *_userLanguage;
-    _Bool _userIsMultilingual;
-    NSString *_meCardContactsIdentifier;
 }
 
-+ (id)eocodeLocation:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)reverseGeocodeLocation:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)42;
 - (void);
-- (void);
+- (void)SNumber *, NSString *, NSNumber *)_block_invoke;
 - (id);
 - (id);
 - (void);

@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (void)libbsm.0.dylib;
++ (id)a PDP blob for password change;
++ (id)RecoveryFDE;
++ (id)oldMasterKeys;
 + (id);
 + (_Bool);
 + (id);

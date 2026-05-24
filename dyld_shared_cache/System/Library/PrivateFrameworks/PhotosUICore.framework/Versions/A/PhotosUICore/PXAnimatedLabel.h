@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSLayoutConstraint, NSString, PXAnimatedCounter, UXLabel;
+@class NSFont, PXAnimatedCounter;
 
 @interface PXAnimatedLabel
 {
     NSFont *_font;
-    NSString *_text;
-    PXAnimatedCounter *_counter;
-    UXLabel *_label;
-    NSLayoutConstraint *_counterWidthConstraint;
 }
 
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (void);
@@ -28,17 +24,13 @@
 - (id);
 - (void)óúÿ;
 - (void);
-- (void)erVisibleSpinnerLoadingDelay;
-- (void)eedbackUserLikedDetailViewReasonRediscoveredPlace;
+- (void)userVisibleSpinnerLoadingDelay;
+- (void)kPXFeedbackUserLikedDetailViewReasonRediscoveredPlace;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) PXAnimatedCounter *counter; // @synthesize counter=_counter;
-@property(readonly) NSLayoutConstraint *counterWidthConstraint; // @synthesize counterWidthConstraint=_counterWidthConstraint;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(retain) UXLabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

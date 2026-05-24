@@ -11,7 +11,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool didCancelUserNotification;
 @property(nonatomic) unsigned long long numberOfDisplays;
 @end
 

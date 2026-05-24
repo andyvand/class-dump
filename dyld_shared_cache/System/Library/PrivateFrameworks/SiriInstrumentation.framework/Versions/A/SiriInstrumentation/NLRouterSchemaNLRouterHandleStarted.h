@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterHandleStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)deSupportingSoftware] RequiresBridgeOS:(_Bool)arg1 Chosen descriptor indicates that a bridgeOS update is required;
 - (id);
 - (void);
-- (void);
+- (void)removeFromCRL;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,15 +22,13 @@
 - (id)!¸DùñÞÐ1Â0@ù
 × ;
 - (id)B,N,V_hasPgRequestContext;
-- (id)onEndTimeInNs: /* Error: Ran out of types for this method. */;
+- (id)setCommandExecutionEndTimeInNs: /* Error: Ran out of types for this method. */;
 - (_Bool)eterNotAllowed.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (_Bool)ÕÿîË²#;
 - (void)Ê§ÿÂ¬U';
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

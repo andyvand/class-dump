@@ -7,7 +7,6 @@
 @interface NewsUI2.PushNotificationService
 {
     id notificationController;
-    id configurationManager;
 }
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RTSSchemaRTSClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_rtsSessionId;
-    _Bool _hasRtsSessionId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)es/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeAppsResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)x;
+- (_Bool)__kchatChatGUIDKey;
 - (id);
 - (id);
-- (id)udioPacketContainingEndOfFirstWordReadyUpstream;
+- (id)audioPacketContainingEndOfFirstWordReadyUpstream;
 - (id)i,N,V_audioCaptureDevice;
 - (void)roundTruthGenerated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRtsSessionId; // @synthesize hasRtsSessionId=_hasRtsSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *rtsSessionId; // @synthesize rtsSessionId=_rtsSessionId;
 
 @end

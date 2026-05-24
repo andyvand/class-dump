@@ -19,13 +19,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)wingRegistration;
 
 // Remaining properties
 @property _Bool screenSaverCanRun;
-@property(readonly) _Bool screenSaverIsRunning;
-@property(readonly) _Bool screenSaverIsRunningInBackground;
-@property(readonly) double screenSaverTimeRemaining;
 
 @end
 

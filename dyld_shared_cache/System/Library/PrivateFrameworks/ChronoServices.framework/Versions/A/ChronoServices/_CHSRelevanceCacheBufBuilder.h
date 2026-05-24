@@ -9,7 +9,6 @@
 @interface _CHSRelevanceCacheBufBuilder
 {
     AFBBufferBuilder *_owner;
-    struct RelevanceCacheBufBuilder *_bldr;
 }
 
 - (void);

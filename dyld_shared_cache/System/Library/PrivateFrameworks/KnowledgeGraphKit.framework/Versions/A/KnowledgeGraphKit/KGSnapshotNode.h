@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
-
 @interface KGSnapshotNode
 {
     unsigned long long _identifier;
-    NSSet *_labels;
-    NSDictionary *_properties;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)SB;
 - (unsigned long long);
-- (void);
+- (void)sion:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSSet *labels; // @synthesize labels=_labels;
-@property(readonly, copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly) Class superclass;
 
 @end
 

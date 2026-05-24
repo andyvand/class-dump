@@ -6,26 +6,22 @@
 
 #import <GeoServices/GEOComposedRouteSegment.h>
 
-@class GEOComposedTransitWalkingRouteStep, GEOComposedWalkingRouteStep;
-
 @interface GEOComposedWalkingRouteSegment : GEOComposedRouteSegment
 {
     unsigned long long _transitIncidentMessageStepIndex;
 }
 
 + (_Bool)rce path "%{public}@" does not exist;
-- (id);
+- (id)getResourceValue:(id)arg1 forKey:(struct _NSRange)arg2 error:(struct _NSRange)arg3;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (long long);
+- (long long)_setVisibleMapRect:animated:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedTransitWalkingRouteStep *arrivalStep;
-@property(readonly, nonatomic) GEOComposedWalkingRouteStep *lastWalkingStep;
 @property(readonly, nonatomic) unsigned long long transitIncidentMessageStepIndex; // @synthesize transitIncidentMessageStepIndex=_transitIncidentMessageStepIndex;
 
 @end

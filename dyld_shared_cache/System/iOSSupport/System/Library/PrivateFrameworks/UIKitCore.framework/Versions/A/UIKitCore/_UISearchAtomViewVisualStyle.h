@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UIFont, _UISearchAtomView;
+@class _UISearchAtomView;
 
 @interface _UISearchAtomViewVisualStyle
 {
@@ -20,38 +20,21 @@
 - (double);
 - (double);
 - (double);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
+- (id)"48@"NSString"56@"NSNumber"64@"NSNumber"72@"NSDictionary"80@"NSNumber"88;
+- (double)ctionary"24@"NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72@"NSDictionary"80@"NSNumber"88;
+- (id)transcodeFileTransferContents:utiType:isSticker:allowUnfilteredUTIs:target:sizes:commonCapabilities:maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)totalFileTransferSize;
+- (id)tokenForKey: /* Error: Ran out of types for this method. */;
+- (id)stopWatchingBuddy:account: /* Error: Ran out of types for this method. */;
+- (double)setHasConversationHistory: /* Error: Ran out of types for this method. */;
+- (id)nfo;
 - (id);
 - (id)teItem"16;
-- (double)pped;
+- (double)UIHidesWhenStopped;
 - (void)¨ónþ-13¼þ513 ò¸þ;
 
 // Remaining properties
-@property(readonly, nonatomic) double contentHorizontalPadding;
-@property(readonly, nonatomic) double cornerRadius;
-@property(readonly, nonatomic) UIBlurEffect *defaultAtomBackgroundBlurEffect;
-@property(readonly, nonatomic) UIColor *defaultAtomBackgroundColor;
-@property(readonly, nonatomic) UIFont *defaultFont;
-@property(readonly, nonatomic) UIColor *defaultSelectedAtomBackgroundColor;
-@property(readonly, nonatomic) UIColor *defaultSelectedTextAndImageColor;
-@property(readonly, nonatomic) UIColor *defaultTextAndImageColor;
-@property(readonly, nonatomic) double disabledAlpha;
-@property(readonly, nonatomic) UIBlurEffect *disabledAtomBackgroundBlurEffect;
-@property(readonly, nonatomic) double imageTextSpacing;
-@property(readonly, nonatomic) double maximumAtomWidthFraction;
-@property(readonly, nonatomic) double maximumFallbackWidth;
-@property(readonly, nonatomic) double minimumConstrainedAtomWidth;
-@property(readonly, nonatomic) double minimumTextConstrastRatio;
 @property(readonly, nonatomic) __weak _UISearchAtomView *searchAtomView; // @synthesize searchAtomView=_searchAtomView;
-@property(readonly, nonatomic) UIColor *textContrastFallbackColor;
-@property(readonly, nonatomic) double textVerticalPadding;
 
 @end
 

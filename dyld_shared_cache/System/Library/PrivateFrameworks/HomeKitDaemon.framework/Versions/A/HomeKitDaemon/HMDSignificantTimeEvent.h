@@ -6,22 +6,19 @@
 
 #import <HomeKitDaemon/HMDTimeEvent.h>
 
-@class NSDateComponents, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSignificantTimeEvent : HMDTimeEvent
 {
     struct os_unfair_lock_s _lock;
-    NSString *_significantEvent;
-    NSDateComponents *_offset;
 }
 
 + (id);
 + (_Bool)¸C;
 + (id)\PB;
-- (_Bool);
-- (id);
+- (_Bool)tyleAttributes"16@0:(id)arg1 8;
+- (id)allKnownReceiverCapabilities;
 - (id);
 - (id);
 - (void);
@@ -30,30 +27,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tureEventLookupCore  %d %d;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void)ublic}@[Flow:(id)arg1 %@] fetchOrCreateReaderKeyForPairingWithFlow;
-- (void);
+- (void)aggregateCount;
 - (id)essoryEvent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) NSDateComponents *offset; // @synthesize offset=_offset;
 @property(retain) NSString *significantEvent; // @synthesize significantEvent=_significantEvent;
-@property(readonly) Class superclass;
 
 @end
 

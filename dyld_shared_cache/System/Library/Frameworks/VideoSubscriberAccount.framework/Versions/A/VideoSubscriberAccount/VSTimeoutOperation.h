@@ -11,13 +11,11 @@
 @interface VSTimeoutOperation : VSAsyncOperation
 {
     NSOperation *_operation;
-    double _timeout;
-    NSOperationQueue *_privateQueue;
 }
 
+- (id)!;
 - (id);
-- (id);
-- (void);
+- (void)o.com/s?q={searchTerms}&src=pclm&ls=safarimac;
 - (void);
 - (double);
 - (void);
@@ -26,9 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperation *operation; // @synthesize operation=_operation;
 @property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

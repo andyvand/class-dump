@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OITSUColor;
-
 __attribute__((visibility("hidden")))
 @interface WDBorder
 {
     int mStyle;
-    OITSUColor *mColor;
-    unsigned char mWidth;
-    unsigned char mSpace;
-    _Bool mShadow;
-    _Bool mFrame;
 }
 
 - (void);
@@ -36,8 +29,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ncoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http:(struct _NSZone *)arg1 //www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+;
+- (void);
 - (void)nge;
 
 @end

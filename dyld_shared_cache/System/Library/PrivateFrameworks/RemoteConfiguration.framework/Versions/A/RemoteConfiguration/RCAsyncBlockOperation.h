@@ -7,8 +7,6 @@
 @interface RCAsyncBlockOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    CDUnknownBlockType _block;
 }
 
 + (id);
@@ -16,13 +14,13 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool)!Bùñ
 ð1Â0@ù
 × ;
-- (_Bool)ancellationTrigger;
+- (_Bool)cancellationTrigger;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

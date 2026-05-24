@@ -6,44 +6,31 @@
 
 #import <ChatKit/ChatKit.TapbackView.h>
 
-@protocol CKTapbackViewDelegate;
-
 @interface CKTapbackClassicView : ChatKit.TapbackView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    void delegate;
-    id imageView;
-    id configuredMessageType;
-    _Bool isSelected;
-    id serviceColor;
-    id asset;
-    id sequenceIndex;
 }
 
+- (void)NSString",C,N,V_contentID;
+- (struct UIEdgeInsets)eEdgeConstraint;
+- (void)eTextView;
+- (void)attachmentViews;
+- (double)0;
 - (void);
-- (struct UIEdgeInsets);
+- (_Bool)t;
 - (void);
 - (void);
-- (double);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)_defaultLabelAttributesWithFont:(struct CGRect)arg1 wrappingEnabled: /* Error: Ran out of types for this method. */;
 - (void)¬(ü;
 - (_Bool)¸ó;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

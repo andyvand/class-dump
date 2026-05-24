@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface BWIrisDiscontinuity
 {
     CDStruct_1b6d18a9 _discontinuityTime;
-    CDStruct_1b6d18a9 _duration;
-    NSArray *_timeSkews;
-    NSArray *_recipe;
-    long long _recipeMinDisplacement;
-    long long _recipeMaxDisplacement;
-    int _recipeIdentifier;
-    CDStruct_1b6d18a9 _targetFrameDuration;
-    _Bool _onlyRetime;
-    _Bool _haveSeenNonPositiveDisplacement;
-    _Bool _generateIFrames;
-    _Bool _minDisplacementIFrameRequested;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)0;
 - (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9)idFinishProcessingSampleBuffer:type:processorInput:err: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)processorController:didFinishProcessingSampleBuffer:type:processorInput:err: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 targetFrameDuration;
 @property(readonly) CDStruct_1b6d18a9 time;
 
 @end

@@ -6,24 +6,17 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSPopUpButton, NSTabView, QCProgrammablePatchView;
+@class QCProgrammablePatchView;
 
 @interface QCOpenCLUI : QCInspector
 {
     QCProgrammablePatchView *sourceView;
-    NSTabView *tabView;
-    NSPopUpButton *kernelNames;
-    NSPopUpButton *functionNames;
-    _Bool _private;
-    struct CGRect _savedFrame;
-    struct CGSize _savedMaxSize;
-    struct CGSize _savedMinSize;
 }
 
-+ (id);
++ (id)z`;
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);

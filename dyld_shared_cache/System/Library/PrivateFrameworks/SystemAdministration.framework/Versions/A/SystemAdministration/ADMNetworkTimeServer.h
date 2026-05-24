@@ -9,7 +9,6 @@
 @interface ADMNetworkTimeServer
 {
     NSString *_descriptiveName;
-    NSString *_address;
 }
 
 + (id);

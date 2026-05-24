@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, TSDTextureSet;
+@class TSDTextureSet;
 
 @interface TSDMagicMoveAnimationMatch
 {
     TSDTextureSet *_morphTexture;
-    TSDTextureSet *_morphQueuedTexture;
-    TSDTextureSet *_morphQueuedForDeletionTexture;
-    NSLock *_morphTextureUpdateLock;
-    _Bool _isUsingMorphTexture;
-    _Bool _didUseMorphTexture;
-    _Bool _hasBeenTornDown;
-    _Bool _isMorphMatch;
-    _Bool _isTextStyleIdenticalExceptSize;
-    _Bool _shouldDisableTextMorphing;
-    _Bool _shouldTearDownTextures;
-    TSDTextureSet *_outgoingTexture;
-    TSDTextureSet *_incomingTexture;
-    long long _matchType;
-    NSDictionary *_outgoingTextureActionBuildFinalAttributes;
 }
 
 + (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)MPCAVPlayerItemMetricSubscription;
+- (void);
+- (void)PlayerState;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)UnmanagedPlayerItemTransition;
 - (void);
 - (void);
 - (id);
@@ -54,15 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TSDTextureSet *incomingTexture; // @synthesize incomingTexture=_incomingTexture;
-@property(readonly, nonatomic) _Bool isMatched;
-@property(nonatomic) _Bool isMorphMatch; // @synthesize isMorphMatch=_isMorphMatch;
-@property(nonatomic) _Bool isTextStyleIdenticalExceptSize; // @synthesize isTextStyleIdenticalExceptSize=_isTextStyleIdenticalExceptSize;
-@property(nonatomic) long long matchType; // @synthesize matchType=_matchType;
 @property(retain, nonatomic) TSDTextureSet *outgoingTexture; // @synthesize outgoingTexture=_outgoingTexture;
-@property(retain, nonatomic) NSDictionary *outgoingTextureActionBuildFinalAttributes; // @synthesize outgoingTextureActionBuildFinalAttributes=_outgoingTextureActionBuildFinalAttributes;
-@property(nonatomic) _Bool shouldDisableTextMorphing; // @synthesize shouldDisableTextMorphing=_shouldDisableTextMorphing;
-@property(nonatomic) _Bool shouldTearDownTextures; // @synthesize shouldTearDownTextures=_shouldTearDownTextures;
 
 @end
 

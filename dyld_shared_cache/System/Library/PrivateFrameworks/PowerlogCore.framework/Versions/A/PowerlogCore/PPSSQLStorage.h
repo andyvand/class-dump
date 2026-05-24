@@ -6,13 +6,9 @@
 
 #import <PowerlogCore/PPSStorage.h>
 
-@class NSDictionary, NSMutableSet;
-
 @interface PPSSQLStorage : PPSStorage
 {
     _Bool _storageStarted;
-    NSDictionary *_connectionByStorage;
-    NSMutableSet *_entryKeysToSetup;
 }
 
 + (id);
@@ -26,42 +22,40 @@
 - (void);
 - (_Bool);
 - (int);
+- (void)a-;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)-;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void).;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)already called, ignoring;
+- (void);
+- (void);
+- (id)ta"@"NSDictionary"@"NSError">24;
+- (void)!;
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *connectionByStorage; // @synthesize connectionByStorage=_connectionByStorage;
-@property(retain) NSMutableSet *entryKeysToSetup; // @synthesize entryKeysToSetup=_entryKeysToSetup;
 @property _Bool storageStarted; // @synthesize storageStarted=_storageStarted;
 
 @end

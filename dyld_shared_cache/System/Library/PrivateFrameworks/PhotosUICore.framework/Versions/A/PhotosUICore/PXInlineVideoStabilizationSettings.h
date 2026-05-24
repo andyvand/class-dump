@@ -9,23 +9,16 @@
 @interface PXInlineVideoStabilizationSettings : PXSettings
 {
     _Bool _useMediaAnalysisRecipe;
-    _Bool _localCacheForMediaAnalysisRecipes;
-    _Bool _crossfadeEnabled;
-    _Bool _timeRangeEnabled;
-    _Bool _gyroStabilizationEnabled;
-    _Bool _pixelStabilizationEnabled;
-    _Bool _showDiagnosticUI;
-    double _allowedCropFraction;
 }
 
 + (id);
-+ (id);
++ (id)OperationQueue",R,N,V_layoutOperationQueue;
 + (id)W;;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)!ɚ_;
 - (void);
 - (void);
 - (void);
@@ -39,17 +32,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)=;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowedAnalysisTypes;
-@property(nonatomic) double allowedCropFraction; // @synthesize allowedCropFraction=_allowedCropFraction;
-@property(nonatomic) _Bool crossfadeEnabled; // @synthesize crossfadeEnabled=_crossfadeEnabled;
-@property(nonatomic) _Bool gyroStabilizationEnabled; // @synthesize gyroStabilizationEnabled=_gyroStabilizationEnabled;
-@property(nonatomic) _Bool localCacheForMediaAnalysisRecipes; // @synthesize localCacheForMediaAnalysisRecipes=_localCacheForMediaAnalysisRecipes;
-@property(nonatomic) _Bool pixelStabilizationEnabled; // @synthesize pixelStabilizationEnabled=_pixelStabilizationEnabled;
-@property(nonatomic) _Bool showDiagnosticUI; // @synthesize showDiagnosticUI=_showDiagnosticUI;
-@property(nonatomic) _Bool timeRangeEnabled; // @synthesize timeRangeEnabled=_timeRangeEnabled;
 @property(nonatomic) _Bool useMediaAnalysisRecipe; // @synthesize useMediaAnalysisRecipe=_useMediaAnalysisRecipe;
 
 @end

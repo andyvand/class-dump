@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface _DKSync2Policy
 {
     _Bool _syncDisabled;
-    _Bool _pushTriggersSync;
-    _Bool _requireCharging;
-    NSString *_name;
-    NSNumber *_version;
-    unsigned long long _maxSyncPeriodInDays;
-    unsigned long long _maxSyncDownIntervalInDays;
-    unsigned long long _minSyncIntervalInSeconds;
-    unsigned long long _minSyncWindowInSeconds;
-    unsigned long long _minSyncsPerDay;
-    unsigned long long _maxSyncsPerDay;
-    unsigned long long _numChangesTriggeringSync;
-    unsigned long long _singleDeviceSyncIntervalInDays;
-    NSDictionary *_streamNamesToSync;
-    NSArray *_streamNamesWithAdditionsTriggeringSync;
-    NSArray *_streamNamesWithDeletionsTriggeringSync;
-    unsigned long long _syncBatchSizeInEvents;
-    unsigned long long _maxBatchesPerSync;
-    unsigned long long _syncTimeoutInSeconds;
-    unsigned long long _triggeredSyncDelayInSeconds;
-    unsigned long long _policyDownloadIntervalInDays;
-    NSArray *_streamNamesToAlwaysSync;
 }
 
 + (id);
@@ -45,41 +24,41 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long))}S	;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (unsigned long long);
+- (_Bool)superclass;
+- (unsigned long long);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)5;
+- (void)|�? ;
 - (void);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
-- (void);
+- (id)=;
 - (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool)ion pid:%d,  /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Nhm02nvVOaQPimpOshlO1g;
+- (_Bool);
+- (void)setAllowsUltraConstrainedNetworkAccess:(_Bool)arg1;
+- (unsigned long long);
+- (void)f0sCf0t.f0;
+- (unsigned long long)20U;
 - (id);
 - (void);
 - (double);
@@ -91,8 +70,8 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)-AuthResBaggage;
+- (unsigned long long)ULL;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -100,28 +79,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxBatchesPerSync; // @synthesize maxBatchesPerSync=_maxBatchesPerSync;
-@property(nonatomic) unsigned long long maxSyncDownIntervalInDays; // @synthesize maxSyncDownIntervalInDays=_maxSyncDownIntervalInDays;
-@property(nonatomic) unsigned long long maxSyncPeriodInDays; // @synthesize maxSyncPeriodInDays=_maxSyncPeriodInDays;
-@property(nonatomic) unsigned long long maxSyncsPerDay; // @synthesize maxSyncsPerDay=_maxSyncsPerDay;
-@property(nonatomic) unsigned long long minSyncIntervalInSeconds; // @synthesize minSyncIntervalInSeconds=_minSyncIntervalInSeconds;
-@property(nonatomic) unsigned long long minSyncWindowInSeconds; // @synthesize minSyncWindowInSeconds=_minSyncWindowInSeconds;
-@property(nonatomic) unsigned long long minSyncsPerDay; // @synthesize minSyncsPerDay=_minSyncsPerDay;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long numChangesTriggeringSync; // @synthesize numChangesTriggeringSync=_numChangesTriggeringSync;
-@property(nonatomic) unsigned long long policyDownloadIntervalInDays; // @synthesize policyDownloadIntervalInDays=_policyDownloadIntervalInDays;
-@property(nonatomic) _Bool pushTriggersSync; // @synthesize pushTriggersSync=_pushTriggersSync;
-@property(nonatomic) _Bool requireCharging; // @synthesize requireCharging=_requireCharging;
-@property(nonatomic) unsigned long long singleDeviceSyncIntervalInDays; // @synthesize singleDeviceSyncIntervalInDays=_singleDeviceSyncIntervalInDays;
-@property(retain, nonatomic) NSArray *streamNamesToAlwaysSync; // @synthesize streamNamesToAlwaysSync=_streamNamesToAlwaysSync;
-@property(retain, nonatomic) NSDictionary *streamNamesToSync; // @synthesize streamNamesToSync=_streamNamesToSync;
-@property(retain, nonatomic) NSArray *streamNamesWithAdditionsTriggeringSync; // @synthesize streamNamesWithAdditionsTriggeringSync=_streamNamesWithAdditionsTriggeringSync;
-@property(retain, nonatomic) NSArray *streamNamesWithDeletionsTriggeringSync; // @synthesize streamNamesWithDeletionsTriggeringSync=_streamNamesWithDeletionsTriggeringSync;
-@property(nonatomic) unsigned long long syncBatchSizeInEvents; // @synthesize syncBatchSizeInEvents=_syncBatchSizeInEvents;
-@property(nonatomic) _Bool syncDisabled; // @synthesize syncDisabled=_syncDisabled;
-@property(nonatomic) unsigned long long syncTimeoutInSeconds; // @synthesize syncTimeoutInSeconds=_syncTimeoutInSeconds;
-@property(nonatomic) unsigned long long triggeredSyncDelayInSeconds; // @synthesize triggeredSyncDelayInSeconds=_triggeredSyncDelayInSeconds;
-@property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

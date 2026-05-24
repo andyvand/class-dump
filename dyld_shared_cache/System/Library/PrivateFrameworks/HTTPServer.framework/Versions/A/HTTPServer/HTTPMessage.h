@@ -9,7 +9,7 @@
     struct __CFHTTPMessage *message;
 }
 
-- (void);
+- (void)>z;
 - (id);
 - (id);
 - (id);
@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)*E;
 - (struct __CFHTTPMessage *);
 - (id);
 - (_Bool);
-- (long long)fig;
+- (long long)config;
 
 // Remaining properties
 @property(readonly) struct __CFHTTPMessage *message; // @synthesize message;

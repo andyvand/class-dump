@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)Created new accessory connection with UUID:(id)arg1 %@, result:%d /* Error: Ran out of types for this method. */;
 
 @end
 

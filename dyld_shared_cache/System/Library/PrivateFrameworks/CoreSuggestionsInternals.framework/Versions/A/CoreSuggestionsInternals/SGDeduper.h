@@ -11,16 +11,16 @@
 + (id);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
-+ (_Bool);
-+ (unsigned char);
-+ (void);
-+ (id);
-+ (id);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (id);
-+ (id);
++ (_Bool)webView:(id)arg1 decidePolicyForNavigationAction:(id)arg2 decisionHandler: /* Error: Ran out of types for this method. */;
++ (unsigned char)webView:(id)arg1 createWebViewWithConfiguration:(id)arg2 forNavigationAction:windowFeatures: /* Error: Ran out of types for this method. */;
++ (void)urlRequestForClientID:(id)arg1 secret:(id)arg2 redirectURI:(CDUnknownBlockType)arg3 authCode:tokenURL: /* Error: Ran out of types for this method. */;
++ (id)setIsHeader:(id)arg1;
++ (id)setInformativeText:(id)arg1;
++ (CDUnknownBlockType)isGreyMode;
++ (CDUnknownBlockType)isEqual:(CDUnknownBlockType)arg1;
++ (CDUnknownBlockType)isDisplayingOtherAccounts;
++ (id)",&,N,V_localizedName;
++ (id)iew",&,V_verticalStack;
 + (CDUnknownBlockType);
 
 @end

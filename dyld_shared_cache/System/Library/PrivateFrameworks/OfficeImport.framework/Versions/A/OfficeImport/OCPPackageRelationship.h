@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OCPPackageRelationship
 {
     NSString *mIdentifier;
-    NSString *mType;
-    int mTargetMode;
-    NSURL *mTargetLocation;
 }
 
 - (int);
 - (id);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);

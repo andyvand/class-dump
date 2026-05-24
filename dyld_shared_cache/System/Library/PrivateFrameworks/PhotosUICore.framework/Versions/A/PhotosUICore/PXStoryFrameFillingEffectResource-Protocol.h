@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> px_storyResourceDisplayAsset;
-@property(readonly, nonatomic) _Bool px_storyResourceUseSmartColor;
 @end
 

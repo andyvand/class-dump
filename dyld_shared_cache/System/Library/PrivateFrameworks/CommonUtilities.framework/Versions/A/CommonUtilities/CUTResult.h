@@ -9,8 +9,6 @@
 @interface CUTResult
 {
     long long _state;
-    NSError *_inError;
-    id _inValue;
 }
 
 - (id);
@@ -26,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
 @property(retain, nonatomic) NSError *inError; // @synthesize inError=_inError;
-@property(retain, nonatomic) id inValue; // @synthesize inValue=_inValue;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) id value;
 
 @end
 

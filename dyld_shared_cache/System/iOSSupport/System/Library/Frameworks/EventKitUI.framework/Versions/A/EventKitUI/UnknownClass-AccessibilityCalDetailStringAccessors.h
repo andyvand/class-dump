@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AccessibilityCalDetailStringAccessors)
-+ (void);
++ (void)s;
 @end
 

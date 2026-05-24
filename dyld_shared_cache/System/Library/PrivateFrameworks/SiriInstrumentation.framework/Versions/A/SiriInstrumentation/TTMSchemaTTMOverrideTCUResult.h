@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface TTMSchemaTTMOverrideTCUResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_tcuId;
-    int _recommendation;
-    int _overrideType;
-    NSArray *_overrideResults;
-    struct {
-        unsigned int recommendation:1;
-        unsigned int overrideType:1;
-    } _has;
-    _Bool _hasTcuId;
 }
 
 - (id);
@@ -42,27 +34,20 @@
 - (id);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)log>",&,N,V_log_t;
+- (_Bool)ck_chat_id, index_state FROM message WHERE ROWID = ? ORDER BY message.ROWID ASC;;
 - (void);
 - (void);
+- (id)!;
 - (id);
-- (id);
-- (id)corationID;
-- (id)tUser;
-- (void)EREASON_UNABLE_TO_CANCEL;
+- (id)deleteQueryDecorationID;
+- (id)_isNonDefaultUser;
+- (void)ORCHINTELLIGENCEFLOWFAILUREREASON_UNABLE_TO_CANCEL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOverrideType;
-@property(nonatomic) _Bool hasRecommendation;
-@property(nonatomic) _Bool hasTcuId; // @synthesize hasTcuId=_hasTcuId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *overrideResults; // @synthesize overrideResults=_overrideResults;
-@property(nonatomic) int overrideType; // @synthesize overrideType=_overrideType;
-@property(nonatomic) int recommendation; // @synthesize recommendation=_recommendation;
 @property(retain, nonatomic) SISchemaUUID *tcuId; // @synthesize tcuId=_tcuId;
 
 @end

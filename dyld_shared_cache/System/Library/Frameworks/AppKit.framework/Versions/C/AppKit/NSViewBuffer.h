@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSViewBuffer
 {
     _Bool _isValid;
-    NSView *_view;
-    struct CGRect _viewRect;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)dateWithTimeIntervalSince1970: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void)maticTextCompletionNotification;
+- (_Bool)4;
+- (void)NSSpellCheckerDidChangeAutomaticTextCompletionNotification;
 - (id);
 
 @end

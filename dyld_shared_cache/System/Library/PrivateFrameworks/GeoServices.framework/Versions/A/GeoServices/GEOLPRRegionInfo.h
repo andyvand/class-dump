@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRRegionInfo
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _routingRequiredFields;
-    NSString *_licensePlateTemplate;
-    NSMutableArray *_licensePlateValidationRules;
-    NSMutableArray *_validPowerTypeKeys;
-    NSMutableArray *_validVehicleTypeKeys;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_routingRequiredFields:1;
-        unsigned int read_licensePlateTemplate:1;
-        unsigned int read_licensePlateValidationRules:1;
-        unsigned int read_validPowerTypeKeys:1;
-        unsigned int read_validVehicleTypeKeys:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool)Source:(id)arg1;
++ (_Bool)setHasSearchSource:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -45,47 +29,41 @@
 - (id);
 - (int *);
 - (unsigned long long);
+- (id)Data.framework/Versions/A/CoreData;
+- (id);
+- (id)actsFoundation;
+- (_Bool)RetryDelegate>";
+- (void)_cn_altDSID;
+- (void)_cn_addObject:orPlaceholder: /* Error: Ran out of types for this method. */;
+- (void)ndingBlockCount;
+- (void)storage;
+- (void)CNTCCAppAuthorizationRecord;
+- (void)NSURLSessionTaskDelegate;
+- (void);
+- (void)transformedKey;
+- (void)f Man;
+- (void)honetic Gibraltar;
+- (int);
+- (void):(_Bool)arg1;
+- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)viorMonitor"16@"CSAudioRecordContext"24@"NSString"32@"CSAudioStartStreamOption"40;
+- (id)tedPolicy _isRouteValidForEchoCancellationWithAppleSiliconMac:] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)erchantCanl:(struct _NSZone *)arg1;
-- (id)sTraits: /* Error: Ran out of types for this method. */;
+- (void)A;
+- (id)setMerchantCanl:(struct _NSZone *)arg1;
+- (id)StringAsTraits: /* Error: Ran out of types for this method. */;
 - (id)eachable reached:-[_GEOMapServiceWiFiQualityLookupTicket submitLocationSearchWithCompletionQueue:completion:] is unsupported /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLicensePlateTemplate;
-@property(retain, nonatomic) NSString *licensePlateTemplate;
-@property(retain, nonatomic) NSMutableArray *licensePlateValidationRules;
-@property(readonly, nonatomic) int *routingRequiredFields;
 @property(readonly, nonatomic) unsigned long long routingRequiredFieldsCount;
-@property(retain, nonatomic) NSMutableArray *validPowerTypeKeys;
-@property(retain, nonatomic) NSMutableArray *validVehicleTypeKeys;
 
 @end
 

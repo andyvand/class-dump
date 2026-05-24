@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface NetworkConfigurationController
 {
     struct __SCDynamicStore *_store;
-    NSTimer *_notificationTimer;
 }
 
 + (id);

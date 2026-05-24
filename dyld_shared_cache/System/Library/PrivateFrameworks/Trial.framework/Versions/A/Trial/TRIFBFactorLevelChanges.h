@@ -7,27 +7,12 @@
 @interface TRIFBFactorLevelChanges
 {
     unsigned char _changeTypeName;
-    unsigned int _replacementName;
-    unsigned char _replacementLevelType;
-    unsigned char _changeTypeLevel;
-    unsigned int _replacementLevel;
-    unsigned char _changeTypeMetadata;
-    unsigned int _replacementMetadata;
-    unsigned char _changeTypeCacheKey;
-    unsigned int _replacementCacheKey;
-    unsigned char _changeTypeAlias;
-    unsigned int _replacementAlias;
-    unsigned char _changeTypeFactorNamespaceName;
-    unsigned int _replacementFactorNamespaceName;
-    unsigned char _changeTypeFactorId;
-    unsigned int _replacementFactorId;
-    unsigned char _changeTypeNamespaceId;
-    unsigned int _replacementNamespaceId;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)js8;
 - (void);
 - (void);
 - (void);
@@ -40,8 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

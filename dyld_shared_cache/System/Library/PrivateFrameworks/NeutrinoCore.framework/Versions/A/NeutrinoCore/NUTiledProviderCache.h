@@ -6,17 +6,14 @@
 
 #import <NeutrinoCore/NUProviderCache.h>
 
-@class NUColorSpace;
 @protocol NUMutablePurgeableBufferImage;
 
 @interface NUTiledProviderCache : NUProviderCache
 {
     id <NUMutablePurgeableBufferImage> _cachedTiledImage;
-    CDStruct_d58201db _tileSize;
-    NUColorSpace *_colorSpace;
 }
 
-- (void);
+- (void)type = '%@';;
 - (id);
 - (void)ñáð1Â0@ù
 × ;

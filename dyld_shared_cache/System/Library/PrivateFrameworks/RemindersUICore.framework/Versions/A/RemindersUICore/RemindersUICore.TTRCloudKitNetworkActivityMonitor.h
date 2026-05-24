@@ -7,11 +7,9 @@
 @interface RemindersUICore.TTRCloudKitNetworkActivityMonitor
 {
     id delegate;
-    id queue;
-    id executeToken;
 }
 
-- (void);
+- (void);
 - (id);
 - (void)Ød^t7Loÿ5;
 

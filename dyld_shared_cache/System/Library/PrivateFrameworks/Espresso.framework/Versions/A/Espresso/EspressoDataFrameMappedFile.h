@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface EspressoDataFrameMappedFile
 {
     int file_id;
-    unsigned long long length;
-    NSString *_path;
-    char *_basePtr;
 }
 
 - (void);
 - (char *);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property char *basePtr; // @synthesize basePtr=_basePtr;
 @property(retain) NSString *path; // @synthesize path=_path;
 
 @end

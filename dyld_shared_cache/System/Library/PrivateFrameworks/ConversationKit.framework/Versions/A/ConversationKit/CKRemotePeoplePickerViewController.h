@@ -7,20 +7,18 @@
 @interface CKRemotePeoplePickerViewController
 {
     id connection;
-    id $__lazy_storage_$_contentViewController;
-    id state;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)PTagUserStats";
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
-- (void);
+- (void)_processDirectorySearchResultSet:forOperation: /* Error: Ran out of types for this method. */;
 - (void)vüÿ;
 
 @end

@@ -11,7 +11,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsDynamicPlaceholderContentSize;

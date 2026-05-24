@@ -6,15 +6,13 @@
 
 #import <ClassKit/CLSArchivedAnswerFormat.h>
 
-@class NSArray, NSString;
-
 @interface CLSArchivedMultipleChoiceAnswerFormat : CLSArchivedAnswerFormat
 {
     long long _type;
 }
 
-+ (id);
-+ (_Bool);
++ (id)T;
++ (_Bool)_beneficiaryLogin;
 - (id);
 - (void);
 - (id);
@@ -25,15 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *archivedAnswerChoiceItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
 
 @end
 

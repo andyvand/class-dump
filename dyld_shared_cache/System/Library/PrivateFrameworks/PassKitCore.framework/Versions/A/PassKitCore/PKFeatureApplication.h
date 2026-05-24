@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL, PKFeatureApplicationDeclineDetails, PKFeatureApplicationInvitationDetails, PKFeatureApplicationOfferDetails;
+@class NSString;
 
 @interface PKFeatureApplication
 {
     _Bool _applicationStateDirty;
-    NSString *_applicationIdentifier;
-    NSURL *_applicationBaseURL;
-    unsigned long long _feature;
-    long long _applicationType;
-    NSString *_referenceIdentifier;
-    long long _updateUserInfoSubType;
-    unsigned long long _applicationState;
-    unsigned long long _applicationStateReason;
-    PKFeatureApplicationOfferDetails *_applicationOfferDetails;
-    PKFeatureApplicationDeclineDetails *_declineDetails;
-    NSString *_applicationTermsIdentifier;
-    NSDate *_lastUpdated;
-    NSString *_businessChatIdentifier;
-    NSString *_coreIDVServiceProviderName;
-    NSString *_accountIdentifier;
-    PKFeatureApplicationInvitationDetails *_invitationDetails;
-    NSString *_preliminaryAssessmentIdentifier;
 }
 
 + (_Bool)0@ù
@@ -52,9 +35,9 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)6 ;
+- (id)=;
+- (void).;
 - (id);
 - (id);
 - (id);
@@ -64,43 +47,23 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)nStatusUpdateDelayBin4;
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
-- (id)me;
-- (id)ivationObserver;
+- (id)compactLocalizedDisplayName;
+- (id)_stopPassActivationObserver;
 - (id)onStatus:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)entifier;
-- (void);
+- (void)clientReferenceIdentifier;
+- (void)NNSDecimal;
 - (void)ÿõ;
 - (unsigned long long)eÈÿQ=mé;
 - (void)·²ÿG¢lh;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSURL *applicationBaseURL; // @synthesize applicationBaseURL=_applicationBaseURL;
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) PKFeatureApplicationOfferDetails *applicationOfferDetails; // @synthesize applicationOfferDetails=_applicationOfferDetails;
-@property(nonatomic) unsigned long long applicationState; // @synthesize applicationState=_applicationState;
-@property(nonatomic) _Bool applicationStateDirty; // @synthesize applicationStateDirty=_applicationStateDirty;
-@property(nonatomic) unsigned long long applicationStateReason; // @synthesize applicationStateReason=_applicationStateReason;
-@property(copy, nonatomic) NSString *applicationTermsIdentifier; // @synthesize applicationTermsIdentifier=_applicationTermsIdentifier;
-@property(nonatomic) long long applicationType; // @synthesize applicationType=_applicationType;
-@property(readonly, nonatomic) NSData *authenticationSignaturePayload;
-@property(copy, nonatomic) NSString *businessChatIdentifier; // @synthesize businessChatIdentifier=_businessChatIdentifier;
-@property(copy, nonatomic) NSString *coreIDVServiceProviderName; // @synthesize coreIDVServiceProviderName=_coreIDVServiceProviderName;
-@property(retain, nonatomic) PKFeatureApplicationDeclineDetails *declineDetails; // @synthesize declineDetails=_declineDetails;
-@property(nonatomic) unsigned long long feature; // @synthesize feature=_feature;
-@property(retain, nonatomic) PKFeatureApplicationInvitationDetails *invitationDetails; // @synthesize invitationDetails=_invitationDetails;
-@property(readonly, nonatomic) _Bool isActive;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSString *preliminaryAssessmentIdentifier; // @synthesize preliminaryAssessmentIdentifier=_preliminaryAssessmentIdentifier;
-@property(copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
-@property(readonly, nonatomic) _Bool supportsAuthentication;
-@property(nonatomic) long long updateUserInfoSubType; // @synthesize updateUserInfoSubType=_updateUserInfoSubType;
 
 @end
 

@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDContextualPhotoMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_contextualPhotoLabels;
-    NSMutableArray *_contextualPhotos;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maxNumContextualPhotos;
-    unsigned int _maxNumPhotos;
-    _Bool _shouldApplyContextualizationPlacecard;
-    _Bool _shouldApplyContextualizationSearch;
-    _Bool _shouldLimitToPoisWithVendorTopPhoto;
-    struct {
-        unsigned int has_maxNumContextualPhotos:1;
-        unsigned int has_maxNumPhotos:1;
-        unsigned int has_shouldApplyContextualizationPlacecard:1;
-        unsigned int has_shouldApplyContextualizationSearch:1;
-        unsigned int has_shouldLimitToPoisWithVendorTopPhoto:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_contextualPhotoLabels:1;
-        unsigned int read_contextualPhotos:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)SCoreSpeechServicesAccessoryInfo",R,C,N,V_accessoryInfo;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)K!;
 - (_Bool);
 - (id);
 - (id)@"GEOPDPublisherSuggestionParameters";
-- (id);
+- (id)_completionBlock;
 - (id)´ÆÇhÈðÑhÓ;
 - (void);
 

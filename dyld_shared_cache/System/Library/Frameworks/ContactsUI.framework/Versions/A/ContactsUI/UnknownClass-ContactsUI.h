@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ContactsUI)
-+ (id);
++ (id)qA;
 + (id);
 + (id);
 + (id);

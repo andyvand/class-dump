@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSDictionary, NSNumber;
 
 @interface CKItem
 {
@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (float);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -27,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,12 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *ITunesStoreIdentifier;
-@property(readonly, nonatomic) float averageUserRating;
-@property(readonly, nonatomic) NSString *developerName;
-@property(readonly, nonatomic) NSString *itemTitle;
-@property(readonly, nonatomic) long long numberOfUserRatings;
-@property(readonly, nonatomic) NSArray *thumbnailImages;
-@property(readonly, nonatomic) NSURL *viewItemURL;
 
 @end
 

@@ -10,7 +10,7 @@
 }
 
 - (unsigned long long);
-- (void);
+- (void)X;
 
 // Remaining properties
 @property(nonatomic) unsigned long long destination; // @synthesize destination=_destination;

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSObject, NSSet, NSString, NSUUID, NSXPCConnection;
+@class NSObject, NSXPCConnection;
 @protocol OS_dispatch_queue;
 
 @interface UAUserActivityManager
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_serverQ;
-    _Bool _connectionInitializationSucceeded;
-    _Bool _supportsActivityContinuation;
-    _Bool _activityContinuationIsEnabled;
-    _Bool _allowedToConnect;
-    NSMapTable *_userActivitiesByUUID;
-    NSMutableSet *_userActivityUUIDsSendToServer;
-    int _useractivitydpid;
-    _Bool _registeredForAppResignationMessages;
-    _Bool _needToSendInitialMessage;
-    NSUUID *_activeUserActivityUUID;
-    NSObject<OS_dispatch_queue> *_serialQueueForSendingActivitiesToServer;
-    NSMapTable *_activeUserActivitiesByUUID;
 }
 
 + (_Bool);
@@ -33,53 +20,53 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (id);
+- (void)9j;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)o;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)asuredBw %lld, factor %.3f, currentAlternateBitrate %d/%d/%d, bufferDuration %.3f/%.3f, timebase %.3f/%.3f, fileEnd %d, okayToAttemptSwitchUp %d, minSwitch %.3f, buffFull %d, LL %d, RTT %lld;
+- (void)uicktime</key>	<array>		<string>audio/x-quicktime</string>	</array>	<key>audio/vnd.wave</key>	<array>		<string>audio/wav</string>		<string>audio/x-wav</string>		<string>audio/wave</string>	</array>	<key>audio/mpeg</key>	<array>		<string>audio/mpa</string>		<string>audio/x-mpeg</string>		<string>audio/mpg</string>		<string>audio/x-mpg</string>		<string>audio/mpeg3</string>		<string>audio/x-mpeg3</string>		<string>audio/mp3</string>		<string>audio/x-mp3</string>	</array>	<key>audio/aac</key>	<array>		<string>audio/x-aac</string>	</array>	<key>video/mp2t</key>	<array>		<string>video/x-mp2t</string>		<string>video/m2ts</string>		<string>video/x-m2ts</string>	</array>	<key>audio/aiff</key>	<array>		<string>audio/x-aiff</string>	</array>	<key>video/vnd.avi</key>	<array>		<string>video/avi</string>		<string>video/msvideo</string>		<string>video/x-msvideo</string>	</array></dict></plist>;
+- (id)DeferredTransaction:] /* Error: Ran out of types for this method. */;
+- (void)PARAM;
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)#;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)h;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -88,25 +75,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSMapTable *activeUserActivitiesByUUID; // @synthesize activeUserActivitiesByUUID=_activeUserActivitiesByUUID;
-@property(copy) NSUUID *activeUserActivityUUID; // @synthesize activeUserActivityUUID=_activeUserActivityUUID;
-@property(readonly) _Bool activityContinuationIsEnabled;
-@property _Bool allowedToConnect;
-@property(readonly) NSXPCConnection *connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool needToSendInitialMessage; // @synthesize needToSendInitialMessage=_needToSendInitialMessage;
-@property _Bool registeredForAppResignationMessages; // @synthesize registeredForAppResignationMessages=_registeredForAppResignationMessages;
-@property(readonly, copy) NSObject<OS_dispatch_queue> *serialQueueForSendingActivitiesToServer; // @synthesize serialQueueForSendingActivitiesToServer=_serialQueueForSendingActivitiesToServer;
 @property(readonly) NSObject<OS_dispatch_queue> *serverQ; // @synthesize serverQ=_serverQ;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsActivityContinuation; // @synthesize supportsActivityContinuation=_supportsActivityContinuation;
-@property(retain) NSMapTable *userActivitiesByUUID; // @synthesize userActivitiesByUUID=_userActivitiesByUUID;
-@property(readonly, copy) NSSet *userActivityUUIDsSendToServer;
 
 @end
 

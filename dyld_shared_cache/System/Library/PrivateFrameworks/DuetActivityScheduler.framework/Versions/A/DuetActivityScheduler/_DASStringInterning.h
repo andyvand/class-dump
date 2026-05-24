@@ -10,27 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _DASStringInterning
 {
     NSMapTable *_internedStrings;
-    unsigned long long _lookups;
-    unsigned long long _interns;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)u;
+- (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)$;
+- (void)D;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *internedStrings; // @synthesize internedStrings=_internedStrings;
-@property(nonatomic) unsigned long long interns; // @synthesize interns=_interns;
-@property(nonatomic) unsigned long long lookups; // @synthesize lookups=_lookups;
 
 @end
 

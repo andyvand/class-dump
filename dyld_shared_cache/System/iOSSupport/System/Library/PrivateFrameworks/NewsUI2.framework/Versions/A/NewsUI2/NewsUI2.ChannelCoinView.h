@@ -9,15 +9,10 @@
 @interface NewsUI2.ChannelCoinView
 {
     id iconImageView;
-    id nameLabel;
-    id secondaryNameLabel;
-    id accessoryButton;
-    id coinButton;
-    id token;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -25,15 +20,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)rInputLabels;
+- (void)accessibilityUserInputLabels;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityHint;
 @property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSString *accessibilityValue;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface IMAP2Connection.Framer
 {
     id inputBuffer;
-    id outputBuffer;
-    id encodingOptions;
-    id compression;
 }
 
 @end

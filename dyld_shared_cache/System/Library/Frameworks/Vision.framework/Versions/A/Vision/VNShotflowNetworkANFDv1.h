@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (const void *);
 + (_Bool);
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 + (const void *);
 + (const void *);

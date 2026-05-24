@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CSVoiceTriggerHearstAPEnabledPolicy
 {
     _Bool _hasNonVoiceTriggerStreamsActive;
-    NSArray *_nonVoiceTriggerStreamAudioProviderUUIDs;
 }
 
-+ (id)useSSVProcessing;
++ (id)_pauseSSVProcessing;
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (id);
 - (id);
+- (_Bool)__objc_intobj;
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)%ld, type = %u). Orientation %d. Crop %@. Rotation %d. Error %d;
+- (void)jarvisAudioLogDirectory;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasNonVoiceTriggerStreamsActive; // @synthesize hasNonVoiceTriggerStreamsActive=_hasNonVoiceTriggerStreamsActive;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *nonVoiceTriggerStreamAudioProviderUUIDs; // @synthesize nonVoiceTriggerStreamAudioProviderUUIDs=_nonVoiceTriggerStreamAudioProviderUUIDs;
-@property(readonly) Class superclass;
 
 @end
 

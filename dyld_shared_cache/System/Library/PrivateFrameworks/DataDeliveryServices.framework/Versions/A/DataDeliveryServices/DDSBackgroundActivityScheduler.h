@@ -10,20 +10,18 @@
 @interface DDSBackgroundActivityScheduler
 {
     id <DDSBackgroundActivitySchedulerDelegate> _delegate;
-    NSMutableDictionary *_schedulerByIdentifier;
 }
 
-- (void);
+- (void)setHasContactSuggesterQueryContext:(id)arg1;
+- (id)setHasContactId: /* Error: Ran out of types for this method. */;
+- (void)setHasContactGroundTruthGenerated:(id)arg1;
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)amework/Versions/A/CoreFoundation;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <DDSBackgroundActivitySchedulerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSMutableDictionary *schedulerByIdentifier; // @synthesize schedulerByIdentifier=_schedulerByIdentifier;
 
 @end

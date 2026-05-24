@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _UIStackedImageSingleNamedLayerImage;
+@class _UIStackedImageSingleNamedLayerImage;
 
 __attribute__((visibility("hidden")))
 @interface _UIStackedImageSingleNamedStack
@@ -18,35 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (struct CGSize);
-- (id)erRadius;
+- (id)cornerRadius;
 - (void));
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool flatImageContainsCornerRadius;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) struct CGImage *flattenedImage;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _UIStackedImageSingleNamedLayerImage *layerImage; // @synthesize layerImage=_layerImage;
-@property(readonly, nonatomic) NSArray *layers;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) id radiosityImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) struct CGSize radiosityImageScale;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) double scale;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
 
 @end
 

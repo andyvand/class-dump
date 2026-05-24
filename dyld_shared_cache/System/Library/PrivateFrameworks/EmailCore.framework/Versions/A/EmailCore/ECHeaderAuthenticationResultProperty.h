@@ -9,24 +9,17 @@
 @interface ECHeaderAuthenticationResultProperty
 {
     unsigned long long _hash;
-    NSString *_fullProperty;
-    NSString *_propertyType;
-    NSString *_property;
-    NSString *_value;
 }
 
+- (id)lscreen exit.;
+- (id)s of UIMenuElement. Only UIAction and UIMenu types are supported. Skipping:%@. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI;
+- (id);
+- (void)er;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *fullProperty; // @synthesize fullProperty=_fullProperty;
-@property(readonly, copy, nonatomic) NSString *property; // @synthesize property=_property;
-@property(readonly, copy, nonatomic) NSString *propertyType; // @synthesize propertyType=_propertyType;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

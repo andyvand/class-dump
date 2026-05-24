@@ -8,5 +8,6 @@
 
 @protocol PXAudioAssetMediaProvider
 + (id <PXAudioAssetMediaProvider>);
+- (long long);
 @end
 

@@ -7,11 +7,10 @@
 @interface NewsFeed.DebugFormatUploadHiddenTableViewCell
 {
     id button;
-    id onTap;
 }
 
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void)ì;

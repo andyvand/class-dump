@@ -9,8 +9,6 @@
 @interface HMIVideoAnalyzerResultOutcome
 {
     NSString *_message;
-    double _analysisFPS;
-    unsigned long long _code;
 }
 
 + (id);
@@ -19,20 +17,16 @@
 - (_Bool);
 - (id);
 - (double);
-- (id);
-- (id);
+- (id)(;
+- (id)b;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)P;
 
 // Remaining properties
-@property(readonly) double analysisFPS; // @synthesize analysisFPS=_analysisFPS;
 @property(readonly) unsigned long long code; // @synthesize code=_code;
-@property(readonly) _Bool isSkipped;
-@property(readonly) _Bool isSuccess;
-@property(readonly) NSString *message; // @synthesize message=_message;
 
 @end
 

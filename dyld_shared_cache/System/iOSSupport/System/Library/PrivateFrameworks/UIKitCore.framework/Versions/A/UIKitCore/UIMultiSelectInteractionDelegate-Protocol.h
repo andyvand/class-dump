@@ -18,10 +18,10 @@
 @optional
 - (void)Ô ;
 - (_Bool);
-- (_Bool)n:(UIMultiSelectInteraction *)arg1 inLayout:(struct CGPoint)arg2;
+- (_Bool)_layoutSectionFocusGuide:(UIMultiSelectInteraction *)arg1 forSection:(struct CGPoint)arg2 inLayout:(struct CGPoint)arg3;
 - (void)String",R,N,V_passwordRulesDescriptor;
 - (UIScrollView *)pºt»;
-- (_Bool)or;
+- (_Bool)inputColor;
 - (_Bool)ith three fingers to copy and paste a selection.;
 - (void)àþÿ;
 - (void)onyUtilities;

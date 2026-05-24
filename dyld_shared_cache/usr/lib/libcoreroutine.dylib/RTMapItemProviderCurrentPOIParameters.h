@@ -9,7 +9,7 @@
     double _distanceThreshold;
 }
 
-- (id);
+- (id)@.;
 - (id);
 - (double);
 - (id);

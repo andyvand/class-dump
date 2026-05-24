@@ -7,12 +7,6 @@
 @interface NewsUI2.TagFeedViewerInteractor
 {
     id delegate;
-    id dataManager;
-    id feedViewContext;
-    id appConfigManager;
-    id userDefaults;
-    id puzzleGameCenterService;
-    id lastSectionRequest;
 }
 
 @end

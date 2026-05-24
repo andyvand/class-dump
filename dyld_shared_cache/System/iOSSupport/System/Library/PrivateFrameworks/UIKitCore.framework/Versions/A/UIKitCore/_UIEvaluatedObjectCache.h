@@ -4,51 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSOrderedSet, NSString;
+@class NSOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIEvaluatedObjectCache
 {
     CDUnknownBlockType _sortComparator;
-    CDUnknownBlockType _evaluationBlock;
-    NSMutableOrderedSet *_sortedObjects;
-    id _topEvaluatedObject;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)nBlock:(id)arg1;
+- (id)deleteAttachmentDataForTransfer:(CDUnknownBlockType)arg1;
+- (void)_messageTimedOut: /* Error: Ran out of types for this method. */;
+- (void)_attachmentZoneSalt;
+- (void)Adding %@ to the devices to send this message to, since we are sending SMSFilteringSettingMessage and this device type (%ld) is not capable of receiving it;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)SString",C,N,V_descriptionText;
 - (id);
 - (id)!´Aùñ[°1Â0@ù
 × ;
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)Feedback: /* Error: Ran out of types for this method. */;
+- (id)_clickPresentationInteractionShouldPlayFeedback: /* Error: Ran out of types for this method. */;
 - (void)TION:(id)arg1 Requested to make a palette of a class that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
-- (id)groundColor;
-- (unsigned long long)llView;
+- (id)tableBackgroundColor;
+- (unsigned long long)UIViewControllerContainersShouldForwardContentScrollView;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSOrderedSet *sortedObjects;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id topEvaluatedObject;
 
 @end
 

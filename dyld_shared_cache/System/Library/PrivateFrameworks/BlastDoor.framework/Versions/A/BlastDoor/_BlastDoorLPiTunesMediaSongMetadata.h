@@ -6,21 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSArray, NSString, NSURL, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage, _BlastDoorLPLyricExcerptMetadata;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaSongMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    NSString *_album;
-    NSString *_lyrics;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
-    NSURL *_previewURL;
-    NSArray *_offers;
-    _BlastDoorLPLyricExcerptMetadata *_lyricExcerpt;
 }
 
 + (id);
@@ -28,12 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)W group search in %@;
+- (void)+3;
 - (id);
 - (void);
 - (id);
@@ -45,35 +35,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ams_isManagedAppleID;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)teConversation;
+- (void)deleteConversation;
 - (void);
 - (id);
 - (id)ightweight;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) _BlastDoorLPLyricExcerptMetadata *lyricExcerpt; // @synthesize lyricExcerpt=_lyricExcerpt;
-@property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

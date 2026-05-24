@@ -5,10 +5,10 @@
 //
 
 @protocol ISImage
+- (double)$;
+- (struct CGImage *)I;
 
 // Remaining properties
 @property(readonly) struct CGImage *CGImage;
-@property(readonly) double minimumSize;
-@property(readonly) unsigned int scale;
 @end
 

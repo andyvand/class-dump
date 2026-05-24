@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKDeviceCapabilityCheckResult
 {
     id _wrapped;
@@ -15,15 +13,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)@;
+- (long long)initWithStringClassProbability:classFeatureType:additionalFeatures: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) _Bool isSupported;
 
 @end

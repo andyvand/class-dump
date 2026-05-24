@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 @interface TXRDeferredImageInfo
 {
     NSObject<OS_dispatch_semaphore> *_infoLoaded;
-    TXRImageInfo *_info;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)framework/Versions/A/CoreServices;
+- (id)*;
 - (void);
 
 // Remaining properties

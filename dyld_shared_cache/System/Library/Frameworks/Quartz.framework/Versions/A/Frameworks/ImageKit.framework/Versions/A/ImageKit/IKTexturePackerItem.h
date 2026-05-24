@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKRectanglePacker, NSData, NSOpenGLContext;
-
 @interface IKTexturePackerItem
 {
     unsigned int _textureID;
-    NSData *_textureBytes;
-    IKRectanglePacker *_rectanglePacker;
-    NSOpenGLContext *_context;
 }
 
 - (unsigned int);

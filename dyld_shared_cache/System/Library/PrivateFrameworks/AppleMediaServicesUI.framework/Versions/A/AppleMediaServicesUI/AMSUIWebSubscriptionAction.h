@@ -6,20 +6,16 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebSubscriptionAction : AMSUIWebAction
 {
     _Bool _extendedCarrierCheck;
-    long long _cachePolicy;
-    long long _mediaType;
 }
 
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)update auto asset for query:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)kContentSync completed for auto asset:(id)arg1 %@ with error:(id)arg2 %@;
+- (void)veryUsingCloudPhotoLibraryManager:(_Bool)arg1 transaction:] /* Error: Ran out of types for this method. */;
+- (_Bool)cloudMasterGUID;
 - (long long);
 - (void);
 - (void)k/AppleIDSSOAuthentication;
@@ -27,16 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool extendedCarrierCheck; // @synthesize extendedCarrierCheck=_extendedCarrierCheck;
-@property(readonly) unsigned long long hash;
-@property long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) Class superclass;
 
 @end
 

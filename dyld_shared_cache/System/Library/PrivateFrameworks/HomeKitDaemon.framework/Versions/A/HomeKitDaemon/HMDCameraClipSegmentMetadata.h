@@ -8,30 +8,19 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraClipSegmentMetadata
 {
     unsigned long long _byteLength;
-    unsigned long long _byteOffset;
-    double _duration;
-    double _timeOffset;
-    int _type;
-    struct {
-        unsigned int byteLength:1;
-        unsigned int byteOffset:1;
-        unsigned int duration:1;
-        unsigned int timeOffset:1;
-        unsigned int type:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)MSPShareETABlockedTripShouldClearKVSAfterMigrationKey;
+- (void)MSPShareETASupportedReceivingTransportTypesKey;
+- (void)MSPShareETASupportedSendingTransportTypesKey;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)logGeoLookupFailureResult;
 - (id);
-- (double);
+- (double)r %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -43,9 +32,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)1Â0@ù
 × ;
-- (id)erPairingsWithCompletionHandler:(struct _NSZone *)arg1;
-- (_Bool)gAccessorySettingsFromAccessoryModelIDs:dataRoot: /* Error: Ran out of types for this method. */;
-- (void)ngPresent;
+- (id)fetchSystemCommissionerPairingsWithCompletionHandler:(struct _NSZone *)arg1;
+- (_Bool)_addMissingAccessorySettingsFromAccessoryModelIDs:dataRoot: /* Error: Ran out of types for this method. */;
+- (void)_pairingPresent;
 - (id)MDFileManager>",R,V_fileManager;
 - (double)p
  8ÜDäD;
@@ -53,20 +42,11 @@ __attribute__((visibility("hidden")))
 - (void)based on capability %@, and responses %@;
 - (void);
 - (id)mer.alarms;
-- (_Bool)_UNREACHABLE;
-- (void)asons;
+- (_Bool)CAMERA_IS_UNREACHABLE;
+- (void)reasons;
 
 // Remaining properties
-@property(nonatomic) unsigned long long byteLength; // @synthesize byteLength=_byteLength;
-@property(nonatomic) unsigned long long byteOffset; // @synthesize byteOffset=_byteOffset;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasByteLength;
 @property(nonatomic) _Bool hasByteOffset;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasTimeOffset;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) double timeOffset; // @synthesize timeOffset=_timeOffset;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)tiveOrigin:(id)arg1 %@ TransitioningOrigin:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

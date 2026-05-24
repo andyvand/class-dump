@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXContentScaleManagerDelegate;
-
 @interface SXContentScaleManager
 {
     long long _contentScale;
-    double _contentScaleFactor;
-    id <SXContentScaleManagerDelegate> _delegate;
 }
 
 - (id);
@@ -27,15 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) long long contentScale; // @synthesize contentScale=_contentScale;
-@property(readonly, nonatomic) double contentScaleFactor; // @synthesize contentScaleFactor=_contentScaleFactor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXContentScaleManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

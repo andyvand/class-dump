@@ -8,10 +8,9 @@
 {
     id cipherText;
     id enc;
-    id hpkeMode;
 }
 
-- (id);
+- (id)A;
 - (void);
 
 @end

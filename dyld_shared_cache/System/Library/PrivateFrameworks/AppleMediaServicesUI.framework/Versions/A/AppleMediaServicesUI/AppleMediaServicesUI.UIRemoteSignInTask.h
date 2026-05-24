@@ -7,11 +7,9 @@
 @interface AppleMediaServicesUI.UIRemoteSignInTask
 {
     id request;
-    id presenter;
-    id connection;
 }
 
-- (void);
+- (void)B24@?0@"<PLMomentAssetData>"8@"NSDictionary"16;
 
 @end
 

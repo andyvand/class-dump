@@ -5,5 +5,6 @@
 //
 
 @protocol _UISceneSettingsDiffAction
+- (void);
 @end
 

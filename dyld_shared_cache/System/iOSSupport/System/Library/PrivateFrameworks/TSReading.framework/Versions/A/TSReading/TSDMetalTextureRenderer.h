@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, TSDMetalContext, TSDMetalRenderTarget, TSDMetalShader;
-@protocol TSDMTLDataBuffer;
+@class NSArray, TSDMetalContext;
 
 @interface TSDMetalTextureRenderer
 {
     TSDMetalContext *_metalContext;
-    struct CGSize _size;
-    NSMutableArray *_drawValues;
-    TSDMetalShader *_shader;
-    TSDMetalShader *_blendingShader;
-    id <TSDMTLDataBuffer> _encodingDataBuffer;
-    TSDMetalRenderTarget *_renderTarget;
-    _Bool _shouldDrawOffscreenPass;
-    NSArray *_textures;
-    NSArray *_dataBuffers;
-    double _opacity;
 }
 
+- (void)ng playback failed;
+- (void)pty (no contentItemIDs);
+- (_Bool)le.MediaPlaybackCore/Unimplemented;
+- (void);
+- (void)f;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (double);
 - (void);
-- (void)oxUnchecked24;
+- (void)TSTiOSCheckboxUnchecked24;
 - (id);
 - (void)»ê;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *dataBuffers; // @synthesize dataBuffers=_dataBuffers;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(nonatomic) _Bool shouldDrawOffscreenPass; // @synthesize shouldDrawOffscreenPass=_shouldDrawOffscreenPass;
 @property(retain, nonatomic) NSArray *textures; // @synthesize textures=_textures;
 
 @end

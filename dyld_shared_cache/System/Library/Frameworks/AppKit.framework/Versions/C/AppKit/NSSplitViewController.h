@@ -6,37 +6,15 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSMutableArray, NSSplitView, NSString;
+@class NSSplitView;
 
 @interface NSSplitViewController : NSViewController
 {
     NSSplitView *_splitView;
-    NSMutableArray *_splitViewItems;
-    double _minimumThicknessForInlineSidebars;
-    id _localEdgeHoverEventMonitor;
-    id _globalEdgeHoverEventMonitor;
-    unsigned long long _liveResizeCounter;
-    struct {
-        unsigned int hidesFirstDivider:1;
-        unsigned int hidesLastDivider:1;
-        unsigned int settingSplitViewItems:1;
-        unsigned int hasItemToEdgeReveal:1;
-        unsigned int considersWindowMinSizeWhenGrowing:1;
-    } _flags;
 }
 
 
 // Remaining properties
 @property _Bool considersWindowMinSizeWhenGrowing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property double minimumThicknessForInlineSidebars;
-@property(retain) NSSplitView *splitView;
-@property(copy) NSArray *splitViewItems;
-@property(readonly) Class superclass;
 @end
 

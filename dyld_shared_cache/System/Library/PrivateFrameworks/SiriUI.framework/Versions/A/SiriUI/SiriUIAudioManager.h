@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 @interface SiriUIAudioManager
 {
     long long _lastSiriEvent;
-    _Bool _isAcousticIDRecording;
-    _Bool _isAudioPaused;
-    _Bool _switchedBluetoothDeviceToSCO;
-    _Bool _isSiriUIVisible;
-    unsigned int _bluetoothOutputDevice;
-    float _savedBluetoothOutputVolume;
-    unsigned int _savedBluetoothOutputVolumeDevice;
-    NSTimer *_bluetoothAudioResumeTimer;
-    NSTimer *_audioUnduckTimer;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (unsigned int);
 + (id);
@@ -57,7 +46,7 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -70,22 +59,13 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)tyBadgeView;
 - (id);
 - (void)áxÐ!$Gù1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSTimer *audioUnduckTimer; // @synthesize audioUnduckTimer=_audioUnduckTimer;
-@property(retain) NSTimer *bluetoothAudioResumeTimer; // @synthesize bluetoothAudioResumeTimer=_bluetoothAudioResumeTimer;
-@property(nonatomic) unsigned int bluetoothOutputDevice; // @synthesize bluetoothOutputDevice=_bluetoothOutputDevice;
-@property _Bool isAcousticIDRecording; // @synthesize isAcousticIDRecording=_isAcousticIDRecording;
 @property _Bool isAudioPaused; // @synthesize isAudioPaused=_isAudioPaused;
-@property _Bool isSiriUIVisible; // @synthesize isSiriUIVisible=_isSiriUIVisible;
-@property long long lastSiriEvent;
-@property(nonatomic) float savedBluetoothOutputVolume; // @synthesize savedBluetoothOutputVolume=_savedBluetoothOutputVolume;
-@property(nonatomic) unsigned int savedBluetoothOutputVolumeDevice; // @synthesize savedBluetoothOutputVolumeDevice=_savedBluetoothOutputVolumeDevice;
-@property(nonatomic) _Bool switchedBluetoothDeviceToSCO; // @synthesize switchedBluetoothDeviceToSCO=_switchedBluetoothDeviceToSCO;
 
 @end
 

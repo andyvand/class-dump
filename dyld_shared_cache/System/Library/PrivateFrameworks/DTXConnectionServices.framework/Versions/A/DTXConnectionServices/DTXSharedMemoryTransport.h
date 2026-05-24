@@ -6,14 +6,9 @@
 
 #import <DTXConnectionServices/DTXTransport.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface DTXSharedMemoryTransport : DTXTransport
 {
     struct DTXSharedMemory *_shm;
-    NSObject<OS_dispatch_queue> *_listenQueue;
-    _Bool _creator;
 }
 
 + (id);
@@ -32,14 +27,12 @@
 - (id);
 - (int);
 - (void);
-- (struct DTXSharedMemory *);
+- (struct DTXSharedMemory *): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int remotePid;
 @property(readonly, nonatomic) struct DTXSharedMemory *sharedMemory; // @synthesize sharedMemory=_shm;
-@property(readonly, nonatomic) unsigned long long totalSharedMemorySize;
 
 @end
 

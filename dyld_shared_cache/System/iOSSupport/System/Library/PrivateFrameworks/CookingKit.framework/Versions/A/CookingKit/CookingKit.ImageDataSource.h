@@ -8,10 +8,6 @@
 {
     id state;
     id currentURL;
-    id _imageURL;
-    id _$scope;
-    id task;
-    id imageLoader;
 }
 
 @end

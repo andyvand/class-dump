@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPFragmentationStream, HMFMessage, NSDate, NSString;
+@class HAPFragmentationStream;
 
 __attribute__((visibility("hidden")))
 @interface HMDFragmentationStreamTuple
 {
     HAPFragmentationStream *_fragmentationStream;
-    NSString *_objectUUID;
-    HMFMessage *_lastMessage;
-    NSDate *_expirationDate;
 }
 
 + (id);
@@ -27,11 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)kAccessoryIsReachableKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
 @property(readonly, nonatomic) HAPFragmentationStream *fragmentationStream; // @synthesize fragmentationStream=_fragmentationStream;
-@property(retain, nonatomic) HMFMessage *lastMessage; // @synthesize lastMessage=_lastMessage;
-@property(readonly, nonatomic) NSString *objectUUID; // @synthesize objectUUID=_objectUUID;
 
 @end
 

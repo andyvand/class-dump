@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKAppleBalanceAccountSummary, PKCurrencyAmount;
+@class NSDate;
 
 @interface PKAppleBalanceAccountDetails
 {
     NSDate *_lastUpdatedDate;
-    NSDate *_createdDate;
-    NSString *_fpanIdentifier;
-    NSString *_associatedPassTypeIdentifier;
-    NSString *_associatedPassSerialNumber;
-    long long _cardType;
-    NSString *_countryCode;
-    NSString *_currencyCode;
-    PKAppleBalanceAccountSummary *_accountSummary;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Q?%;
 - (void);
 - (id);
 - (id);
@@ -34,33 +26,24 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (id);
+- (_Bool)connectionAttemptStatisticsReportsAtIndex:(id)arg1;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id)ry: /* Error: Ran out of types for this method. */;
-- (id)reIdentifiers: /* Error: Ran out of types for this method. */;
-- (id)Limit;
+- (id)setAuxiliary: /* Error: Ran out of types for this method. */;
+- (id)openPaymentSetupWithMode:referrerIdentifier:allowedFeatureIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)_hasWithdrawalLimit;
 - (void)ure builder;
-- (void)DY_LPEM_TOUCHID_DISABLEABLE;
+- (void)EXPRESS_TRANSIT_EDUCATION_BODY_LPEM_TOUCHID_DISABLEABLE;
 
 // Remaining properties
-@property(retain, nonatomic) PKAppleBalanceAccountSummary *accountSummary; // @synthesize accountSummary=_accountSummary;
-@property(copy, nonatomic) NSString *associatedPassSerialNumber; // @synthesize associatedPassSerialNumber=_associatedPassSerialNumber;
-@property(copy, nonatomic) NSString *associatedPassTypeIdentifier; // @synthesize associatedPassTypeIdentifier=_associatedPassTypeIdentifier;
-@property(nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, nonatomic) PKCurrencyAmount *currentBalance;
-@property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
 @property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
 
 @end

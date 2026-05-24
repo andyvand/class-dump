@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface _PASKVOHandler
 {
     struct _opaque_pthread_mutex_t _lock;
-    NSMutableArray *_tasks;
 }
 
 - (void);
@@ -18,8 +15,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)N;
+- (void)setX_apple_activity: /* Error: Ran out of types for this method. */;
 
 @end
 

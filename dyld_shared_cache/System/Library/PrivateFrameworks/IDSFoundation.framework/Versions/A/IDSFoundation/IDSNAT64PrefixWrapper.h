@@ -6,14 +6,14 @@
 
 @interface IDSNAT64PrefixWrapper
 {
-    CDStruct_330c469e prefix;
+    CDStruct_c3d3b44c prefix;
 }
 
 - (void);
-- (CDStruct_330c469e);
+- (CDStruct_c3d3b44c)PreferSMBFileSharing;
 
 // Remaining properties
-@property(nonatomic) CDStruct_330c469e prefix; // @synthesize prefix;
+@property(nonatomic) CDStruct_c3d3b44c prefix; // @synthesize prefix;
 
 @end
 

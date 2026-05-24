@@ -5,5 +5,6 @@
 //
 
 @protocol CNWatchdog
+- (void);
 @end
 

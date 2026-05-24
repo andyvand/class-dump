@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (AMPDirectionalRangeExtensions)
-+ (id);
-+ (id);
++ (id)[o;
++ (id)o;
 - (struct _AMPDirectionalRange);
 
 // Remaining properties

@@ -6,15 +6,12 @@
 
 #import <AVKit/AVMobileControlsViewController.h>
 
-@class NSDictionary, NSString, NSTimer;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface AVTipKitControlsViewController : AVMobileControlsViewController
 {
     NSTimer *_tipTimer;
-    _Bool _configureTipsUponNextOverflowControlUpdate;
-    unsigned long long _tipsState;
-    NSDictionary *_tips;
 }
 
 - (id);
@@ -34,18 +31,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ogle/protobuf/repeated_field.h;
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)owLayoutEnabled;
+- (void)_updateDoubleRowLayoutEnabled;
 
 // Remaining properties
-@property(nonatomic) _Bool configureTipsUponNextOverflowControlUpdate; // @synthesize configureTipsUponNextOverflowControlUpdate=_configureTipsUponNextOverflowControlUpdate;
-@property(readonly, nonatomic) NSString *didPresentTipNotificationName;
-@property(copy, nonatomic) NSDictionary *tips; // @synthesize tips=_tips;
 @property(nonatomic) unsigned long long tipsState; // @synthesize tipsState=_tipsState;
-@property(readonly, nonatomic) NSString *viewControllerNotificationInfoKey;
 
 @end
 

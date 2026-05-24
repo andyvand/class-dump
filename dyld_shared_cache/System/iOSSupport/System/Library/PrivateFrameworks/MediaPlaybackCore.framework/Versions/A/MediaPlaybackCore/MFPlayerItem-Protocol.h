@@ -7,18 +7,14 @@
 @class AVPlayerItem, NSString, NSURL;
 
 @protocol MFPlayerItem
+- (void)@16@0:(_Bool)arg1 8;
+- (_Bool)_enableBYOEWithDataclassActionsAndSaveAccount:store:completion: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (AVPlayerItem *);
+- (NSString *);
+- (NSURL *)ъ;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlayerItem *avPlayerItem;
 @property(copy, nonatomic) NSString *contentItemID;
-@property(readonly, copy, nonatomic) NSString *description;
-@property(readonly, nonatomic) _Bool hasLoadableAsset;
-@property(readonly, nonatomic) _Bool isAssetLoaded;
-@property(readonly, nonatomic) _Bool isFullyDownloaded;
-@property(nonatomic) _Bool isVideoContent;
-@property(readonly, nonatomic) _Bool prefersSeekOverSkip;
-@property(readonly, nonatomic) double time;
-@property(copy, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSURL *url;
 @end
 

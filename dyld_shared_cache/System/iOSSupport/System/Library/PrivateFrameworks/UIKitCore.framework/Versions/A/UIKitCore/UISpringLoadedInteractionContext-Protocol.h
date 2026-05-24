@@ -7,14 +7,13 @@
 @class UIView;
 
 @protocol UISpringLoadedInteractionContext
+- (void)@;
 - (long long)á!Bùc1Â0@ù
 × ;
-- (struct CGPoint)load;
+- (struct CGPoint)shouldAllowCurrentKeyplaneReload;
 - (UIView *)32@?0@"NSArray"8@"BKSAnimationFenceHandle"16@?<v@?>24;
 
 // Remaining properties
 @property(readonly, nonatomic) long long state;
-@property(retain, nonatomic) id targetItem;
-@property(retain, nonatomic) UIView *targetView;
 @end
 

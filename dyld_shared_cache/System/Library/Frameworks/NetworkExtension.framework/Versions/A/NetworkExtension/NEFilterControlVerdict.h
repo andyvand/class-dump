@@ -9,15 +9,14 @@
 @interface NEFilterControlVerdict : NEFilterNewFlowVerdict
 {
     _Bool _updateRules;
-    _Bool _handledByDataProvider;
 }
 
++ (id)a;
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)setNeedReply: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (id);
 - (id)erdict argument must be a "allow", "drop", or "data" verdict;

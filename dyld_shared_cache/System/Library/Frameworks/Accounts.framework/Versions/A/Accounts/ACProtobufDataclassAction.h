@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ACProtobufDataclassAction
 {
     NSMutableArray *_affectedContainers;
-    int _type;
-    NSString *_undoAlertMessage;
-    NSString *_undoAlertTitle;
-    _Bool _destructive;
 }
 
 + (Class);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (void);
@@ -33,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (int);
@@ -42,16 +38,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *affectedContainers; // @synthesize affectedContainers=_affectedContainers;
-@property(nonatomic) _Bool destructive; // @synthesize destructive=_destructive;
-@property(readonly, nonatomic) _Bool hasUndoAlertMessage;
-@property(readonly, nonatomic) _Bool hasUndoAlertTitle;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *undoAlertMessage; // @synthesize undoAlertMessage=_undoAlertMessage;
-@property(retain, nonatomic) NSString *undoAlertTitle; // @synthesize undoAlertTitle=_undoAlertTitle;
 
 @end
 

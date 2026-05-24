@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIFont *_fontForExtraBulletRendering;
 }
 
-- (long long);
-- (void);
-- (struct CGRect);
+- (long long)ion blastdoor object from result:(const unsigned short *)arg1 <%@ %p>, ;
+- (void)for string:(id)arg1 %@, account:%@, allAccounts:%@ /* Error: Ran out of types for this method. */;
+- (struct CGRect)auxpathc;
 - (void);
 - (void);
 - (void)1Â0@ù

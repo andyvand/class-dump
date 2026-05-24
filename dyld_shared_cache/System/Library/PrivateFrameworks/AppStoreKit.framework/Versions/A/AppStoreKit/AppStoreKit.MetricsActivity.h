@@ -7,15 +7,6 @@
 @interface AppStoreKit.MetricsActivity
 {
     id arcadeSubscriptionManager;
-    id pageContext;
-    id hostApp;
-    id affiliateIdentifier;
-    id pageReferrerUrl;
-    id preloaded;
-    id currentPageFields;
-    id currentSearchAdRotationDataProvider;
-    id contextualAction;
-    id referrerDataContainer;
 }
 
 @end

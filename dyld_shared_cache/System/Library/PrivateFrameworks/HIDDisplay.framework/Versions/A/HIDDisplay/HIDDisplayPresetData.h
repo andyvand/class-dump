@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDDisplayPresetInterface, NSData;
-
 @interface HIDDisplayPresetData
 {
     long long _index;
-    HIDDisplayPresetInterface *_deviceRef;
 }
 
 - (void);
@@ -18,14 +15,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)rmMetadataObserver>";
+- (_Bool)setInkOverlayDrawingUndoTarget: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly) NSData *uniqueID;
 @property(readonly) _Bool valid;
-@property(readonly) _Bool writable;
 
 @end
 

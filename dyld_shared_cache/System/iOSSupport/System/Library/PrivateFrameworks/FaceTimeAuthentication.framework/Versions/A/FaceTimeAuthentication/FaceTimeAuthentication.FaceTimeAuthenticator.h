@@ -8,11 +8,6 @@
 {
     id status;
     id logger;
-    id authenticationUIController;
-    id daemonConnectionController;
-    id onUserSignOut;
-    id onAuthenticationUpdate;
-    id delayedStatusUpdate;
 }
 
 @end

@@ -4,9 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @protocol CBBrightnessProxy
+- (unsigned long long);
+- (unsigned long long)T;
+- (NSString *);
+- (unsigned long long);
+- (_Bool)A;
+- (void);
+- (void)3;
+- (void)�1�H;
+- (void)<IOPresentmentResource %p resource = %p refcnt = %d>;
+- (NSUUID *);
+- (unsigned long long)get xattr size for index %d:%s /* Error: Ran out of types for this method. */;
+- (int)k;
+- (void)rformanceAnalysis;
 - (float)ge <= 1.0;
 - (void)hí<P=ìQ8=Âu==ìQ¸=ôýÔ=lç=mçû=+>Nb>ÁÊ!>333>¦D>bX>hm>%>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>¦D<C<
 ×£<ÍÌÌ<B`å<)\=Å 0=hm==X9´=`åÐ=øSã=Âõ=>ßO>R¸>Å 0>7A>ôýT>Õxi>í|>'1>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>X94<Âu<¼t<j¼<ôýÔ<+=ï'=B`e=sh={®=ÍÌÌ=d;ß=ü©ñ=J>q=
@@ -31,33 +44,6 @@
 ×#<B`e<C<j¼<Âõ<Å 0=B`e=ßO=Tã¥=À=ôýÔ=B`å=F¶ó=L7	>P>+>¤p=>ÙN>d;_>²o>;
 
 // Remaining properties
-@property(readonly) unsigned long long CBDispTypeDFR;
-@property(readonly) unsigned long long CBDispTypeExternal;
-@property(readonly) unsigned long long CBDispTypeIntegrated;
-@property(readonly) unsigned long long CBDispTypeVirtual;
-@property(readonly) unsigned long long CBDispTypeWireless;
-@property(readonly) _Bool brightnessAvailable;
-@property(readonly) NSDictionary *brightnessCapabilities;
-@property(readonly) id brightnessNotificationAttached;
-@property(readonly) id brightnessNotificationDetached;
-@property(readonly) id brightnessNotificationPowerOff;
-@property(readonly) id brightnessNotificationPowerOn;
 @property(readonly) id brightnessNotificationRequestEDR;
-@property(readonly) id brightnessNotificationSecureIndicatorOff;
-@property(readonly) id brightnessNotificationSecureIndicatorOn;
-@property(readonly) NSString *brightnessRequestEDRHeadroom;
-@property(readonly) NSString *brightnessRequestRampDuration;
-@property(readonly) NSString *brightnessSecureIndicatorActiveCount;
-@property(readonly) NSString *brightnessSecureIndicatorType;
-@property(readonly) NSUUID *containerId;
-@property(readonly) int displayId;
-@property(readonly) unsigned long long displayType;
-@property(readonly) float maximumLuminance;
-@property(readonly) CDStruct_b2fbf00d nativeWhitePoint;
-@property(readonly) unsigned long long productId;
-@property(readonly) unsigned long long serialNumber;
-@property(readonly) NSUUID *uuid;
-@property(readonly) unsigned long long vendorId;
-@property(readonly) _Bool whitePointAvailable;
 @end
 

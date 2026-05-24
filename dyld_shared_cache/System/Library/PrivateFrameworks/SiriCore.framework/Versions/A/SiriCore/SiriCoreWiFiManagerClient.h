@@ -7,15 +7,13 @@
 @interface SiriCoreWiFiManagerClient
 {
     long long _rssi;
-    long long _snr;
-    long long _cca;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)in at %1$@.;
+- (void)ent an unexpected response that could not be parsed. Will try to connect again at %1$@.;
+- (_Bool)FocusedAccountIdentifiers;
+- (_Bool)SuggestionsFollowUpDebugStartDate;
+- (void)QueryComponentSubjectContains;
 - (void);
 - (id);
 - (_Bool);

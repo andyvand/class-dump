@@ -10,16 +10,10 @@ __attribute__((visibility("hidden")))
 @interface ISIconSegmentation
 {
     ISForegroundSegmentation *_strictForegroundSegmentation;
-    ISForegroundSegmentation *_looseForegroundSegmentation;
-    ISBiasedGrayscaleConversion *_grayscaleConversion;
-    unsigned long long _idiom;
-    int _maxNumberOfClusteringSamples;
-    _Bool _enableColorEnhancementInDarkImage;
-    _Bool _enableRecoloringSingleForegroundColorWithGradientBackgroundInDarkImage;
 }
 
 - (void);
-- (void);
+- (void)__objc_superrefs__DATA_CONST;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -31,12 +25,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ailed to copy spki;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool enableColorEnhancementInDarkImage; // @synthesize enableColorEnhancementInDarkImage=_enableColorEnhancementInDarkImage;
-@property(nonatomic) _Bool enableRecoloringSingleForegroundColorWithGradientBackgroundInDarkImage; // @synthesize enableRecoloringSingleForegroundColorWithGradientBackgroundInDarkImage=_enableRecoloringSingleForegroundColorWithGradientBackgroundInDarkImage;
 @property(readonly, nonatomic) ISBiasedGrayscaleConversion *grayscaleConversion; // @synthesize grayscaleConversion=_grayscaleConversion;
 
 @end

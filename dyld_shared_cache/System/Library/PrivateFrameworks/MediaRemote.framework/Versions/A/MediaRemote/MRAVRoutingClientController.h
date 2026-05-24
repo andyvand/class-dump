@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRMediaRemoteService, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class MRMediaRemoteService;
 
 __attribute__((visibility("hidden")))
 @interface MRAVRoutingClientController
 {
     MRMediaRemoteService *_mediaRemoteService;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_pendingCompletionHandlersForCategories;
-    NSMutableDictionary *_cachedRoutesForCategories;
 }
 
 - (void);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)vices: /* Error: Ran out of types for this method. */;
+- (void)addDestinationTypesFromDevices: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MRMediaRemoteService *mediaRemoteService; // @synthesize mediaRemoteService=_mediaRemoteService;

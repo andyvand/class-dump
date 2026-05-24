@@ -9,18 +9,13 @@
 @interface AKAuthorizationCredentialStateRequest
 {
     _Bool _shouldIgnoreUserID;
-    _Bool _shouldIgnoreTeamID;
-    NSString *_userID;
-    NSString *_teamID;
-    NSString *_clientID;
-    NSString *_altDSID;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (id);
 - (void);
@@ -34,12 +29,7 @@
 - (id)[üölf~tîä5CI?¥ÓÙ¯Ìº°Æ\* Vñûaksyãé8ND2¨ÞÔ¢îä~t¥ÓÙ¯5CI?Q'-[Á·½Ëlfüöãésy¨ÞÔ¢8ND2\* VÌº°Æakñû¿ÉÃµ/YS%ôþdnv;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(nonatomic) _Bool shouldIgnoreTeamID; // @synthesize shouldIgnoreTeamID=_shouldIgnoreTeamID;
-@property(nonatomic) _Bool shouldIgnoreUserID; // @synthesize shouldIgnoreUserID=_shouldIgnoreUserID;
 @property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

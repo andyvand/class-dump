@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSMutableArray;
-
 @interface OBBulletedList
 {
     unsigned long long _templateType;
-    NSMutableArray *_items;
-    NSMutableArray *_verticalConstraints;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -23,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,18 +34,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)A;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSLayoutConstraint *leadingConstraint; // @synthesize leadingConstraint=_leadingConstraint;
 @property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
-@property(retain, nonatomic) NSLayoutConstraint *trailingConstraint; // @synthesize trailingConstraint=_trailingConstraint;
-@property(retain, nonatomic) NSMutableArray *verticalConstraints; // @synthesize verticalConstraints=_verticalConstraints;
 
 @end
 

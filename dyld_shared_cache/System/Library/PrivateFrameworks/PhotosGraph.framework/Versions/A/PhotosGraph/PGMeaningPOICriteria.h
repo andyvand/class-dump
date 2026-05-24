@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PGMeaningPOICriteria
 {
     _Bool _mustBeSpecial;
-    NSArray *_positivePOIs;
-    NSArray *_negativePOIs;
-    unsigned long long _minimumNumberOfPOIs;
-    double _maximumParkDiameter;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
@@ -27,26 +23,15 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (double);
+- (unsigned long long)2;
+- (double)set_didRegisterFocusedWindowNotification: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void)HXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerRecentTrip.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maximumParkDiameter; // @synthesize maximumParkDiameter=_maximumParkDiameter;
-@property(nonatomic) unsigned long long minimumNumberOfPOIs; // @synthesize minimumNumberOfPOIs=_minimumNumberOfPOIs;
-@property(nonatomic) _Bool mustBeSpecial; // @synthesize mustBeSpecial=_mustBeSpecial;
-@property(retain, nonatomic) NSArray *negativePOIs; // @synthesize negativePOIs=_negativePOIs;
 @property(retain, nonatomic) NSArray *positivePOIs; // @synthesize positivePOIs=_positivePOIs;
-@property(readonly) Class superclass;
 
 @end
 

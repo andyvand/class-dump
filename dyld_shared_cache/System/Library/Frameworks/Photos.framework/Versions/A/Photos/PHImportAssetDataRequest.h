@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHImportAsset, PHImportCanceler;
+@class PHImportCanceler;
 
 @interface PHImportAssetDataRequest
 {
     PHImportCanceler *_canceler;
-    CDUnknownBlockType _cancelBlock;
-    PHImportAsset *_asset;
 }
 
 - (id);
@@ -20,14 +18,12 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (_Bool)s;
-- (void)ssetsInPreviewStateWithSuggestedByClientTypes:options: /* Error: Ran out of types for this method. */;
+- (_Bool)_extraParameters;
+- (void)queryForAssetsInPreviewStateWithSuggestedByClientTypes:options: /* Error: Ran out of types for this method. */;
 - (id)|;
 
 // Remaining properties
-@property(retain, nonatomic) PHImportAsset *asset; // @synthesize asset=_asset;
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(readonly, nonatomic) PHImportAsset *requestAsset;
 
 @end
 

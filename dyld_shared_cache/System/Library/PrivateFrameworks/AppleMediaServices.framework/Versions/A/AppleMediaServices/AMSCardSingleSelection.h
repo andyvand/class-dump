@@ -9,7 +9,6 @@
 @interface AMSCardSingleSelection
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
 }
 
 + (_Bool);
@@ -19,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)4;
+- (_Bool)setAuthenticationToken:(id)arg1;
 - (void);
 - (void)3Ð3ÕÐ3xÐ33Ð3RÐ3Ð3´Ð3ÿÐ3LÐ3Ð3êÐ3¡Ð3;
 
 // Remaining properties
-@property(copy) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(copy) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end

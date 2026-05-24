@@ -13,15 +13,15 @@
 
 + (double);
 + (double);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Video;
+- (void)ivateFrameworks/NewsTransport.framework/Versions/A/NewsTransport;
+- (void)URLSessionQueue;
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)=;
 - (id);
 - (double);
 - (_Bool);

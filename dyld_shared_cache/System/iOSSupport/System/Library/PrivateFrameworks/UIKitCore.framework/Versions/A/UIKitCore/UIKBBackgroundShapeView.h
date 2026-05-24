@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)__MPModelRelationshipMovieStoreAsset__MAPPING_MISSING__;
 - (id);
-- (void)ItemForItem:(id)arg1;
+- (void)obscuredSourceItemForItem:(id)arg1;
 
 @end
 

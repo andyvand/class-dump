@@ -6,24 +6,16 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSColor, NSString, NSTouch;
-@protocol NSSwitchVisualProvider;
-
 @interface NSSwitch : NSControl
 {
     long long _presentationStateOverride;
-    struct {
-        long long startModelState;
-        struct CGPoint startPointInTrackCoordinates;
-        _Bool everDraggedToDifferentState;
-        _Bool mustToggleByDistance;
-    } _currentTrackingState;
-    id <NSSwitchVisualProvider> _visualProvider;
-    NSTouch *_trackingTouch;
 }
 
-+ (id);
-+ (_Bool);
++ (id)g SQL transaction %s;
++ (_Bool)GER IF NOT EXISTS cfurl_vary_state_delete AFTER INSERT ON cfurl_vary_state WHEN (select count(*) from cfurl_vary_state)>16384
+BEGIN
+DELETE FROM cfurl_vary_state where request_key NOT IN (SELECT request_key from cfurl_vary_state ORDER BY time_stamp DESC LIMIT 8192);
+END;;
 + (Class);
 + (Class);
 + (_Bool);
@@ -31,10 +23,10 @@
 + (id);
 + (Class);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -53,36 +45,36 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)nChallenge"16;
+- (id)setCompletionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setAlternateHost: /* Error: Ran out of types for this method. */;
+- (void)connection:(struct CGPoint)arg1 didReceiveData:(struct CGPoint)arg2 completion: /* Error: Ran out of types for this method. */;
+- (long long)bgSessionInterface;
+- (_Bool)backgroundTask:(struct CGPoint)arg1 didReceiveChallenge:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)_onqueue_didReceiveResponse:(struct CGPoint)arg1 redirectRequest:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_connectionCacheCellPurgeTimeout;
+- (void)NSSECValidation;
+- (long long)to have %{public}@ entitlement.;
+- (void)@;
 - (void);
-- (id);
-- (struct CGRect);
-- (void);
-- (long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (CDStruct_04135deb);
-- (_Bool);
-- (void);
+- (CDStruct_b56a86f2)deleteResponsesSinceDate:dbConnection=%p DB=%@ Commit transaction failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (_Bool)S Proxy;
+- (void)secure connection.;
 - (void);
 - (Class);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
-- (double);
+- (double)9(;
 - (void);
 - (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (CDStruct_507282ca);
+- (CDStruct_c3b9c2ee);
 - (long long);
 - (_Bool)
 × ;
@@ -99,20 +91,6 @@
 - (void)ÁÂC;
 
 // Remaining properties
-@property(readonly) long long _presentationState;
-@property(setter=_setPresentationStateOverride:) long long _presentationStateOverride; // @synthesize _presentationStateOverride;
-@property(readonly) struct CGRect _trackRect;
-@property(retain) NSTouch *_trackingTouch; // @synthesize _trackingTouch;
-@property(retain, setter=_setVisualProvider:) id <NSSwitchVisualProvider> _visualProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long state;
-@property(readonly) Class superclass;
-@property(copy) NSColor *trackColor; // @dynamic trackColor;
 @property _Bool usesAquaduck;
 
 @end

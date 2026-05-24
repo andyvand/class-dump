@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _CGFontCacheKey
 {
     unsigned long long _hash;
-    NSURL *_url;
-    double _opticalSize;
 }
 
-- (void);
+- (void);;
 - (id);
-- (double);
+- (double)SecTrustGetTPHandle;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double opticalSize; // @synthesize opticalSize=_opticalSize;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

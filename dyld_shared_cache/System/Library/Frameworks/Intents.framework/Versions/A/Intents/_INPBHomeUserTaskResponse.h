@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeUserTask;
-
 @interface _INPBHomeUserTaskResponse
 {
     struct {
         unsigned int taskOutcome:1;
     } _has;
-    int _taskOutcome;
-    _INPBHomeUserTask *_userTask;
 }
 
 + (_Bool);
@@ -20,33 +16,23 @@
 - (id);
 - (int);
 - (void);
-- (void);
+- (void)T8;
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ome UUID=%@ SSID=%@;
+- (id);
 - (id);
-- (id);
-- (void)tadataDisableSmartQuotes;
+- (void)INIntentResponseParameterMetadataDisableSmartQuotes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasTaskOutcome;
-@property(readonly, nonatomic) _Bool hasUserTask;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) int taskOutcome; // @synthesize taskOutcome=_taskOutcome;
-@property(retain, nonatomic) _INPBHomeUserTask *userTask; // @synthesize userTask=_userTask;
 
 @end
 

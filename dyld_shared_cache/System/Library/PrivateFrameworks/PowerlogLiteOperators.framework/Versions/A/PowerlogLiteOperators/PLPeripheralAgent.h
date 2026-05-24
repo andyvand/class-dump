@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLIOKitOperatorComposition;
+@class NSDate;
 
 @interface PLPeripheralAgent
 {
     NSDate *_lastEntryDate;
-    PLIOKitOperatorComposition *_displayPortComposition;
-    PLIOKitOperatorComposition *_displayPortUSBComposition;
-    PLIOKitOperatorComposition *_displayPortTerminatedComposition;
-    PLIOKitOperatorComposition *_USBAddComposition;
-    PLIOKitOperatorComposition *_USBRemoveComposition;
-    PLIOKitOperatorComposition *_thunderboltAddComposition;
-    PLIOKitOperatorComposition *_thunderboltRemoveComposition;
-    PLIOKitOperatorComposition *_externalDisplayAddComposition;
-    PLIOKitOperatorComposition *_externalDisplayRemoveComposition;
-    PLIOKitOperatorComposition *_lidComposition;
-    PLIOKitOperatorComposition *_devPortUsbConnected;
-    PLIOKitOperatorComposition *_devPortCioConnected;
-    PLIOKitOperatorComposition *_devPortUsbDisconnected;
 }
 
 + (id);
@@ -37,7 +24,7 @@
 + (id);
 + (id);
 + (id)ns;
-+ (void)ns;
++ (void)GPUPH_P4_Transitions;
 - (id);
 - (id);
 - (void);
@@ -51,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -78,30 +65,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ics;
+- (void)CoalitionComputeMetrics;
 - (void)1 element to context;
 
 // Remaining properties
-@property(retain) PLIOKitOperatorComposition *USBAddComposition; // @synthesize USBAddComposition=_USBAddComposition;
-@property(retain) PLIOKitOperatorComposition *USBRemoveComposition; // @synthesize USBRemoveComposition=_USBRemoveComposition;
-@property(retain) PLIOKitOperatorComposition *devPortCioConnected; // @synthesize devPortCioConnected=_devPortCioConnected;
-@property(retain) PLIOKitOperatorComposition *devPortUsbConnected; // @synthesize devPortUsbConnected=_devPortUsbConnected;
-@property(retain) PLIOKitOperatorComposition *devPortUsbDisconnected; // @synthesize devPortUsbDisconnected=_devPortUsbDisconnected;
-@property(retain) PLIOKitOperatorComposition *displayPortComposition; // @synthesize displayPortComposition=_displayPortComposition;
-@property(retain) PLIOKitOperatorComposition *displayPortTerminatedComposition; // @synthesize displayPortTerminatedComposition=_displayPortTerminatedComposition;
-@property(retain) PLIOKitOperatorComposition *displayPortUSBComposition; // @synthesize displayPortUSBComposition=_displayPortUSBComposition;
-@property(retain) PLIOKitOperatorComposition *externalDisplayAddComposition; // @synthesize externalDisplayAddComposition=_externalDisplayAddComposition;
-@property(retain) PLIOKitOperatorComposition *externalDisplayRemoveComposition; // @synthesize externalDisplayRemoveComposition=_externalDisplayRemoveComposition;
 @property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property(retain) PLIOKitOperatorComposition *lidComposition; // @synthesize lidComposition=_lidComposition;
-@property(retain) PLIOKitOperatorComposition *thunderboltAddComposition; // @synthesize thunderboltAddComposition=_thunderboltAddComposition;
-@property(retain) PLIOKitOperatorComposition *thunderboltRemoveComposition; // @synthesize thunderboltRemoveComposition=_thunderboltRemoveComposition;
 
 @end
 

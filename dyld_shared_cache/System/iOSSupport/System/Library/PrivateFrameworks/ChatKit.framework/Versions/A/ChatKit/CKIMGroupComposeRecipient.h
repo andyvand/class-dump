@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKIMComposeRecipient, NSArray, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CKIMGroupComposeRecipient
 {
     NSString *_conversationGUID;
-    NSArray *_composeRecipients;
-    NSArray *_handles;
-    NSDate *_lastMessageDate;
-    CKIMComposeRecipient *_matchingRecipient;
-    NSString *_detailsString;
 }
 
 + (id);
-+ (_Bool)Threshold;
-- (void);
-- (void);
++ (_Bool)contentPinningThreshold;
+- (void)TTTextEditFilter",C,N,V_filter;
+- (void)V_attachment;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)l;
+- (id)attachments but only created %lu.;
 - (id);
 - (_Bool);
 - (id);
@@ -37,16 +32,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)"PRInjectedEditingClientSettings"16;
 - (void)T;
-- (id)rNonPurgeableUTITypes;
+- (id)otherNonPurgeableUTITypes;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *composeRecipients; // @synthesize composeRecipients=_composeRecipients;
 @property(retain, nonatomic) NSString *conversationGUID; // @synthesize conversationGUID=_conversationGUID;
-@property(retain, nonatomic) NSString *detailsString; // @synthesize detailsString=_detailsString;
-@property(retain, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(retain, nonatomic) NSDate *lastMessageDate; // @synthesize lastMessageDate=_lastMessageDate;
-@property(retain, nonatomic) CKIMComposeRecipient *matchingRecipient; // @synthesize matchingRecipient=_matchingRecipient;
 
 @end
 

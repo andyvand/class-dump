@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaTapToEditInvocationContext : SISchemaInstrumentationMessage
 {
     _Bool _isTranscriptEdited;
-    struct {
-        unsigned int isTranscriptEdited:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_shortVersion;
+- (_Bool)id:(id)arg1 %llu;
+- (_Bool)OM message_import ORDER BY message_import.order_date ASC, message_import.ROWID ASC;;
 - (id);
 - (id);
-- (id)Index;
-- (id)dTruthId;
+- (id)deleteDisambiguationIndex;
+- (id)_groundTruthId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsTranscriptEdited;
 @property(nonatomic) _Bool isTranscriptEdited; // @synthesize isTranscriptEdited=_isTranscriptEdited;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

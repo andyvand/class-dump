@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TSURemotePropertyList
 {
     NSURL *_remoteURL;
-    NSURL *_localURL;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSDictionary *_propertyList;
-    NSObject<OS_dispatch_queue> *_checkQueue;
-    NSObject<OS_dispatch_source> *_updateTimer;
-    _Bool _didUpdateAtLeastOnce;
 }
 
 - (id);
@@ -24,21 +17,21 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)__DATA_DIRTY;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)bols;
+- (void)NumberFormatterSymbols;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _UIIVCResponseDelegate;
 
 @interface UIRemoteInputViewControllerInterface
@@ -14,24 +13,17 @@
 
 + (id);
 + (id);
+- (void)1k";
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)on: /* Error: Ran out of types for this method. */;
+- (id)ate;
 - (void)reted as UIControlStateHighlighted.;
-- (void)cketInsets;
+- (void)scrollPocketInsets;
 - (void)T"d;
 - (void)o;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <_UIIVCResponseDelegate> responseDelegate; // @synthesize responseDelegate=_responseDelegate;
-@property(readonly) Class superclass;
 
 @end
 

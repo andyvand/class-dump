@@ -4,32 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSURL;
+@class NSError, NSString;
 @protocol SiriCoreSiriConnectionDelegate;
 
 @protocol SiriCoreSiriConnection
+- (_Bool)re-launch;
+- (_Bool)ic}@:Waiting for daemon re-launch /* Error: Ran out of types for this method. */;
+- (NSError *)e URL %@:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)RL %@;
+- (_Bool)category:%@ with timestamp:%@ /* Error: Ran out of types for this method. */;
+- (void)creating Biome storage directory:(_Bool)arg1 %@;
+- (void)figuration.;
+- (void)info exists in server configuration.;
+- (void)configuration has invalid type.;
+- (void)er allowlist.;
+- (void)}@;
+- (void)hanged accounts:(NSString *)arg1 %{public}@;
+- (void)accounts:(Class)arg1 %{public}@;
+- (void)nts %{public}@;
+- (void)update delivery account password;
+- (void)ord for %@ did not work. Reverting password;
+- (void)erver code “%1$@”, server message “%2$@”.;
+- (void)mail server reported to us.;
+- (NSString *)d. Will try to connect again at %1$@.;
+- (_Bool).g. when it is too busy, or down for service.;
+- (NSString *);
+- (Class)r is temporarily unavailable.;
+- (void)icRequests;
+- (void)EMUserDefaultLogMassDeletionAlertOption;
+- (_Bool)EMUserDefaultLogMassDeletionAll;
+- (_Bool)DynamicallyUpdateGeneratedSummaries;
+- (void)DisableInitialMessageSelection;
+- (void)?0@"EMThreadObjectID"8@"EMMessageListItemChange"16^B24;
+- (void)ionID:] /* Error: Ran out of types for this method. */;
+- (_Bool)r>"8;
+- (void)hive:(_Bool)arg1 %@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (void)ortsArchiving:(NSString *)arg1 %@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (void)NSData has zero length;
+- (void)x;
+- (NSString *)/length, len 0x%zx;
+- (NSString *)A;
+- (void)t;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceHost;
-@property(copy, nonatomic) NSString *assistantIdentifier;
-@property(copy, nonatomic) NSString *connectionId;
 @property(nonatomic) __weak id <SiriCoreSiriConnectionDelegate> delegate;
-@property(nonatomic) _Bool deviceIsInWalkaboutExperimentGroup;
-@property(nonatomic) _Bool forceReconnect;
-@property(nonatomic) _Bool imposePolicyBan;
-@property(copy, nonatomic) NSString *languageCode;
-@property(copy, nonatomic) NSString *peerAssistantIdentifier;
-@property(retain, nonatomic) Class peerProviderClass;
-@property(copy, nonatomic) NSString *peerType;
-@property(copy, nonatomic) NSString *peerVersion;
-@property(nonatomic) _Bool prefersWWAN;
-@property(copy, nonatomic) NSString *productTypePrefix;
-@property(nonatomic) _Bool siriConnectionUsesPeerManagedSync;
-@property(nonatomic) _Bool skipPeer;
-@property(copy, nonatomic) NSError *skipPeerError;
-@property(nonatomic) double timeout;
-@property(copy, nonatomic) NSURL *url;
-@property(nonatomic) _Bool useWiFiHint;
-@property(nonatomic) _Bool usesProxyConnection;
 @end
 

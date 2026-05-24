@@ -13,12 +13,12 @@
     NSString *_season;
 }
 
-+ (id);
-- (id);
++ (id)alues;
+- (id)versalStrategy>";
 - (void);
 - (void);
 - (id);
-- (void)lDedupingMaximumTimeGroupExtension;
+- (void)identicalDedupingMaximumTimeGroupExtension;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *season; // @synthesize season=_season;

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PGGraphPortraitKnowledgeToDonate
 {
     NSDictionary *_topics;
-    NSArray *_namedEntities;
-    NSArray *_locationNamedEntities;
 }
 
-- (id);
-- (id);
+- (id)_gatherElementInfoForElement:centeredAroundRange:withNumberOfLines:withPreviousElementInfo: /* Error: Ran out of types for this method. */;
+- (id)AXFApplicationManager",&,N,S_setApplicationManager:(id)arg1 ,V__applicationManager;
 - (id);
 - (id);
 - (void)/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerRecentSyndicatedAssets.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *locationNamedEntities; // @synthesize locationNamedEntities=_locationNamedEntities;
-@property(readonly, nonatomic) NSArray *namedEntities; // @synthesize namedEntities=_namedEntities;
 @property(readonly, nonatomic) NSDictionary *topics; // @synthesize topics=_topics;
 
 @end

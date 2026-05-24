@@ -6,28 +6,11 @@
 
 #import <WiFiPolicy/WiFiUsageSession.h>
 
-@class NSDate, NSMutableDictionary;
+@class NSDate;
 
 @interface WiFiUsageRoamingSession : WiFiUsageSession
 {
     NSDate *_lastRoamStartTime;
-    NSDate *_lastSuccessfulRoamTime;
-    unsigned long long _bandsInDeployment;
-    unsigned long long _numChannelsScanned;
-    unsigned long long _roamScanDurationInMs;
-    unsigned long long _numVeryLowRssiAttempts;
-    unsigned long long _numRoamsToLowerRSSI;
-    unsigned long long _numRoamsWithWiFiPrimary;
-    unsigned long long _numRoamsNoARP;
-    NSDate *_inWiFi1BarEntryTime;
-    NSDate *_inWiFi2BarEntryTime;
-    NSDate *_inWiFi3BarEntryTime;
-    NSDate *_inWiFiPrimaryEntryTime;
-    double _inWiFi1BarDuration;
-    double _inWiFi2BarDuration;
-    double _inWiFi3BarDuration;
-    double _inWiFiPrimaryDuration;
-    NSMutableDictionary *_roamProfileCounts;
 }
 
 - (void);
@@ -54,7 +37,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
@@ -65,47 +48,30 @@
 - (id);
 - (double);
 - (id);
-- (double);
+- (double)C;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)A;
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)`3;
 - (void);
-- (void);
-- (id);
+- (id)rrentSubDecoder:(struct _NSZone *)arg1 %@;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bandsInDeployment; // @synthesize bandsInDeployment=_bandsInDeployment;
-@property(nonatomic) double inWiFi1BarDuration; // @synthesize inWiFi1BarDuration=_inWiFi1BarDuration;
-@property(retain, nonatomic) NSDate *inWiFi1BarEntryTime; // @synthesize inWiFi1BarEntryTime=_inWiFi1BarEntryTime;
-@property(nonatomic) double inWiFi2BarDuration; // @synthesize inWiFi2BarDuration=_inWiFi2BarDuration;
-@property(retain, nonatomic) NSDate *inWiFi2BarEntryTime; // @synthesize inWiFi2BarEntryTime=_inWiFi2BarEntryTime;
-@property(nonatomic) double inWiFi3BarDuration; // @synthesize inWiFi3BarDuration=_inWiFi3BarDuration;
-@property(retain, nonatomic) NSDate *inWiFi3BarEntryTime; // @synthesize inWiFi3BarEntryTime=_inWiFi3BarEntryTime;
-@property(nonatomic) double inWiFiPrimaryDuration; // @synthesize inWiFiPrimaryDuration=_inWiFiPrimaryDuration;
-@property(retain, nonatomic) NSDate *inWiFiPrimaryEntryTime; // @synthesize inWiFiPrimaryEntryTime=_inWiFiPrimaryEntryTime;
 @property(retain, nonatomic) NSDate *lastRoamStartTime; // @synthesize lastRoamStartTime=_lastRoamStartTime;
-@property(retain, nonatomic) NSDate *lastSuccessfulRoamTime; // @synthesize lastSuccessfulRoamTime=_lastSuccessfulRoamTime;
-@property(nonatomic) unsigned long long numChannelsScanned; // @synthesize numChannelsScanned=_numChannelsScanned;
-@property(nonatomic) unsigned long long numRoamsNoARP; // @synthesize numRoamsNoARP=_numRoamsNoARP;
-@property(nonatomic) unsigned long long numRoamsToLowerRSSI; // @synthesize numRoamsToLowerRSSI=_numRoamsToLowerRSSI;
-@property(nonatomic) unsigned long long numRoamsWithWiFiPrimary; // @synthesize numRoamsWithWiFiPrimary=_numRoamsWithWiFiPrimary;
-@property(nonatomic) unsigned long long numVeryLowRssiAttempts; // @synthesize numVeryLowRssiAttempts=_numVeryLowRssiAttempts;
-@property(retain, nonatomic) NSMutableDictionary *roamProfileCounts; // @synthesize roamProfileCounts=_roamProfileCounts;
-@property(nonatomic) unsigned long long roamScanDurationInMs; // @synthesize roamScanDurationInMs=_roamScanDurationInMs;
 
 @end
 

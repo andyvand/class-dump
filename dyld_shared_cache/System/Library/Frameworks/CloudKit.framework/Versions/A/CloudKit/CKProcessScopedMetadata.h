@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKFrameworkFingerprint;
-
 @interface CKProcessScopedMetadata
 {
     unsigned int _clientSDKVersion;
-    CKFrameworkFingerprint *_frameworkFingerprint;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int clientSDKVersion; // @synthesize clientSDKVersion=_clientSDKVersion;
-@property(copy, nonatomic) CKFrameworkFingerprint *frameworkFingerprint; // @synthesize frameworkFingerprint=_frameworkFingerprint;
 
 @end
 

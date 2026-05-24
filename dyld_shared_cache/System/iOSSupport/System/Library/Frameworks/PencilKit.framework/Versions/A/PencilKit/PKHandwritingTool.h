@@ -16,7 +16,7 @@
 - (Class);
 - (id);
 - (_Bool);
-- (id);
+- (id)attributedRichCards;
 - (id);
 - (unsigned long long);
 - (_Bool);

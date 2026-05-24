@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHTRPCandidateReceived : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_trpId;
-    _Bool _hasTrpId;
 }
 
 - (id);
@@ -24,17 +23,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)%lld;
 - (id);
 - (id)
 × ;
-- (id)e;
+- (id)_entitySearchBundleScore;
 - (id)tStart",&,N,V_startedOrChanged;
 - (void)guation.items.value.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end

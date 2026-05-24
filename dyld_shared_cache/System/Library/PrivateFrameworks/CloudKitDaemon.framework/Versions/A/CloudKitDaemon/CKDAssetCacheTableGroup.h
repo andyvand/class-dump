@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAssetHandleTable, CKDAssetVolumeTable;
+@class CKDAssetHandleTable;
 
 @interface CKDAssetCacheTableGroup
 {
     CKDAssetHandleTable *_assetHandleTable;
-    CKDAssetVolumeTable *_assetVolumeTable;
 }
 
 + (double);
 + (_Bool);
 - (id);
-- (id);
+- (id)archable_message = (SELECT searchable_messages.ROWID FROM searchable_messages WHERE searchable_messages.ROWID = messages.ROWID);;
 - (void);
 - (void)it;
 
 // Remaining properties
 @property(readonly, nonatomic) CKDAssetHandleTable *assetHandleTable; // @synthesize assetHandleTable=_assetHandleTable;
-@property(readonly, nonatomic) CKDAssetVolumeTable *assetVolumeTable; // @synthesize assetVolumeTable=_assetVolumeTable;
 
 @end
 

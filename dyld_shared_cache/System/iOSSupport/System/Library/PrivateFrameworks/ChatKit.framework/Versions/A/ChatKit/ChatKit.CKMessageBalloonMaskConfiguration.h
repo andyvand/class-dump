@@ -9,7 +9,7 @@
     id pathConfiguration;
 }
 
-- (id);
+- (id)isMathPaperSolvingAllowed;
 - (id);
 - (id);
 - (void)DÚ;

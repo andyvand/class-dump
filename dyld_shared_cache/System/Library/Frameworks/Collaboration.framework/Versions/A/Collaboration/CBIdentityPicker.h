@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CBIdentityPicker
 {
     id _reserved[2];
 }
 
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -22,39 +23,36 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)%;
+- (void);
+- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)+);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (long long);
+- (void)\;
 - (void);
-- (void);
-- (id);
+- (id)6q24B32;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultipleSelection;
-@property(readonly, nonatomic) NSArray *identities;
 @property(copy, nonatomic) NSString *title;
 
 @end

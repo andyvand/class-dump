@@ -9,11 +9,10 @@
 @interface PXGridTipsHelper_Swift : PXTipsHelper_Swift
 {
     id switchLibraryTip;
-    id hasStartedTips;
 }
 
 + (void);
-+ (void);
++ (void)R";
 + (void);
 + (id);
 + (id);

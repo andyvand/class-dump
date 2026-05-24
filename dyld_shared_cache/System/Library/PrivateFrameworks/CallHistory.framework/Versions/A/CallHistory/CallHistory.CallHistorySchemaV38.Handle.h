@@ -7,12 +7,6 @@
 @interface CallHistory.CallHistorySchemaV38.Handle
 {
     id _normalizedValue;
-    id _type;
-    id _value;
-    id _initiatedCalls;
-    id _remoteParticipantCalls;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

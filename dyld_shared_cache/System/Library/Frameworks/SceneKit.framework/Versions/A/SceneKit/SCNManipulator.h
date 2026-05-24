@@ -4,77 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet, NSOrderedSet, SCNAuthoringEnvironment, SCNBillboardConstraint, SCNNode;
+@class SCNAuthoringEnvironment;
 
 @interface SCNManipulator
 {
     SCNAuthoringEnvironment *_authoringEnvironment;
-    NSOrderedSet *_targets;
-    SCNNode *_node;
-    union C3DMatrix4x4 _xAxisToZAxisTransform;
-    union C3DMatrix4x4 _yAxisToZAxisTransform;
-    union C3DMatrix4x4 _xyPlaneToYZPlaneTransform;
-    union C3DMatrix4x4 _xyPlaneToXZPlaneTransform;
-    unsigned short _selectedAxis;
-    union {
-        struct {
-            id originalPosition__axisDirection__mouseDeltaVector;
-        } axisMove;
-        struct {
-            id originalPosition__planeNormal__pointInPlane__mouseDeltaVector;
-        } planeMove;
-        struct {
-            float rotationSign;
-            id originalRotation;
-        } axisRotate;
-    } _actionData;
-    _Bool _isMouseDown;
-    _Bool _readonly;
-    unsigned long long _lastModifierFlags;
-    unsigned short _action;
-    struct CGPoint _originalMouseLocation;
-    struct {
-        void *positions;
-        void *orientations;
-        struct CATransform3D *originalLocalMatrix;
-        void *scales;
-    } _originalData;
-    unsigned int _originalDataCount;
-    union C3DMatrix4x4 _worldInitialMatrix;
-    union C3DMatrix4x4 _worldMatrix;
-    long long _snapToAlignCount;
-    CDStruct_962da47d *_snapToAlignOnX;
-    CDStruct_962da47d *_snapToAlignOnY;
-    CDStruct_962da47d *_snapToAlignOnZ;
-    NSMutableIndexSet *_snapXIndexes;
-    NSMutableIndexSet *_snapYIndexes;
-    NSMutableIndexSet *_snapZIndexes;
-    long long _xAlignment;
-    long long _yAlignment;
-    long long _zAlignment;
-    SCNNode *_planarTranslationHandleXY;
-    SCNNode *_planarTranslationHandleYZ;
-    SCNNode *_planarTranslationHandleXZ;
-    SCNNode *_planarTranslationHandles;
-    SCNNode *_axis;
-    SCNNode *_arcHandleXY;
-    SCNNode *_arcHandleYZ;
-    SCNNode *_arcHandleXZ;
-    SCNNode *_arcHandles;
-    SCNNode *_scaleNode;
-    SCNNode *_screenSpaceRotation;
-    SCNNode *_highlightNode;
-    id _planarTranslationLayout;
-    _Bool _layoutLocked;
-    SCNNode *_zArrow;
-    SCNNode *_rotationHandles;
-    SCNNode *_occluder;
-    SCNNode *_translateHandles;
-    SCNBillboardConstraint *_billboard;
-    NSOrderedSet *_cloneSet;
-    _Bool _cloning;
-    unsigned long long _features;
-    _Bool _alternateMode;
 }
 
 - (long long);
@@ -101,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -111,7 +45,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -1012,21 +946,12 @@ __DoFragmentModifier__
     gl_FragColor = _output.color;
 }
 ;
-- (_Bool)utTRC_e;
+- (_Bool)inputTRC_e;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(readonly) SCNAuthoringEnvironment *authoringEnvironment;
-@property(nonatomic) unsigned long long features;
-@property(readonly) SCNNode *manipulatorNode;
-@property(nonatomic) _Bool readonly; // @synthesize readonly=_readonly;
-@property(retain, nonatomic) SCNNode *target;
-@property(retain, nonatomic) NSOrderedSet *targets;
-@property(readonly) struct CATransform3D transform;
-@property(nonatomic) long long xAlignment; // @synthesize xAlignment=_xAlignment;
-@property(nonatomic) long long yAlignment; // @synthesize yAlignment=_yAlignment;
-@property(nonatomic) long long zAlignment; // @synthesize zAlignment=_zAlignment;
 
 @end
 

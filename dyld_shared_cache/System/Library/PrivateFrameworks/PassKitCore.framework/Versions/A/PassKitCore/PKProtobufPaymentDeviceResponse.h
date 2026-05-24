@@ -4,32 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PKProtobufPaymentDeviceResponse
 {
     unsigned int _defaultPaymentInstrumentIndex;
-    int _nearby;
-    NSMutableArray *_paymentInstruments;
-    unsigned int _protocolVersion;
-    NSMutableArray *_supportedSetupFeatures;
-    _Bool _deviceDisabled;
-    _Bool _locked;
-    _Bool _supportsFaceID;
-    _Bool _userDisabled;
-    struct {
-        unsigned int defaultPaymentInstrumentIndex:1;
-        unsigned int nearby:1;
-        unsigned int protocolVersion:1;
-        unsigned int deviceDisabled:1;
-        unsigned int locked:1;
-        unsigned int supportsFaceID:1;
-        unsigned int userDisabled:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -37,42 +18,42 @@
 - (void);
 - (void);
 - (void);
+- (void)ԡV;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
+- (int)iu8	;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned int)	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (int);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)I;
 - (void);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)LFreq"b1"uLCAPriCarDLBW"b1"uLCAPriCarDLFreq"b1"uLCAPriCarULBW"b1"uLCAPriCarULFreq"b1"uLCAHasCoexBand"b1};
 - (void);
 - (id);
 - (_Bool);
@@ -80,26 +61,11 @@
 - (void)sharedURLCache;
 - (void);
 - (unsigned int)6434975174002562436;
-- (void)ERROR_MESSAGE;
+- (void)ACCOUNT_SERVICE_TOO_MANY_SCHEDULED_PAYMENTS_TOTAL_ERROR_MESSAGE;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned int defaultPaymentInstrumentIndex; // @synthesize defaultPaymentInstrumentIndex=_defaultPaymentInstrumentIndex;
-@property(nonatomic) _Bool deviceDisabled; // @synthesize deviceDisabled=_deviceDisabled;
-@property(nonatomic) _Bool hasDefaultPaymentInstrumentIndex;
-@property(nonatomic) _Bool hasDeviceDisabled;
 @property(nonatomic) _Bool hasLocked;
-@property(nonatomic) _Bool hasNearby;
-@property(nonatomic) _Bool hasProtocolVersion;
-@property(nonatomic) _Bool hasSupportsFaceID;
-@property(nonatomic) _Bool hasUserDisabled;
-@property(nonatomic) _Bool locked; // @synthesize locked=_locked;
-@property(nonatomic) int nearby; // @synthesize nearby=_nearby;
-@property(retain, nonatomic) NSMutableArray *paymentInstruments; // @synthesize paymentInstruments=_paymentInstruments;
-@property(nonatomic) unsigned int protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(retain, nonatomic) NSMutableArray *supportedSetupFeatures; // @synthesize supportedSetupFeatures=_supportedSetupFeatures;
-@property(nonatomic) _Bool supportsFaceID; // @synthesize supportsFaceID=_supportsFaceID;
-@property(nonatomic) _Bool userDisabled; // @synthesize userDisabled=_userDisabled;
 
 @end
 

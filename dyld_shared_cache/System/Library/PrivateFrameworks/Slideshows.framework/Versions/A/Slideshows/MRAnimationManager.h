@@ -11,7 +11,7 @@
     NSMutableDictionary *mAnimations;
 }
 
-+ (void);
++ (void)$;
 + (id);
 + (void)Ø&;
 - (void);

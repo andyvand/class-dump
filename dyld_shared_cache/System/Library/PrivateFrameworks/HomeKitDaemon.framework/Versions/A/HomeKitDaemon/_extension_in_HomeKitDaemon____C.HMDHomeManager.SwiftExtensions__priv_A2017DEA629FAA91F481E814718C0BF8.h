@@ -7,11 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDHomeManager.SwiftExtensions__priv_A2017DEA629FAA91F481E814718C0BF8
 {
     id homeGraphIndexer;
-    id hindsightDigestController;
-    id biomeLogEventObserver;
-    id biomeEventManager;
-    id dispatchQueueMonitor;
-    id networkSnapshot;
 }
 
 - (id);

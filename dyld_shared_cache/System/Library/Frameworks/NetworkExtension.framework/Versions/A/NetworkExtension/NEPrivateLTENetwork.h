@@ -9,27 +9,23 @@
 @interface NEPrivateLTENetwork
 {
     NSString *_mobileCountryCode;
-    NSString *_mobileNetworkCode;
-    NSString *_trackingAreaCode;
 }
 
-+ (_Bool);
++ (_Bool)setSenderShortHandle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)=%ld;
 - (id);
+- (id)FetchEndpointMetadata;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ThroughMessagesFromStorage;
+- (void)ingMessageErrorDomain;
 - (void);
 - (id);
 - (void)otocol";
 
 // Remaining properties
 @property(copy) NSString *mobileCountryCode; // @synthesize mobileCountryCode=_mobileCountryCode;
-@property(copy) NSString *mobileNetworkCode; // @synthesize mobileNetworkCode=_mobileNetworkCode;
-@property(copy) NSString *trackingAreaCode; // @synthesize trackingAreaCode=_trackingAreaCode;
 
 @end
 

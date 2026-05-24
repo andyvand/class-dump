@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSRecursiveLock;
-
 @interface CUTTelephonyManager
 {
     _Bool _registered;
-    NSRecursiveLock *_lock;
-    NSMutableSet *_disableFastDormancyTokens;
 }
 
 + (id);
@@ -31,9 +27,6 @@
 - (void)ì5;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool disableFastDormancy;
-@property(retain, nonatomic) NSMutableSet *disableFastDormancyTokens; // @synthesize disableFastDormancyTokens=_disableFastDormancyTokens;
-@property(retain, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
 @property(nonatomic) _Bool registered; // @synthesize registered=_registered;
 
 @end

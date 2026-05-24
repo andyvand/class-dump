@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UITabBarControllerAdaptiveVisualStyle.h>
 
-@class NSString, NSToolbarItemGroup, _UISidebarPartitionAdapter;
+@class NSToolbarItemGroup;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarControllerAdaptiveVisualStyle_Mac : _UITabBarControllerAdaptiveVisualStyle
 {
     _Bool _isSidebarPartitionAdapterSuspended;
-    NSToolbarItemGroup *_segmentedControl;
-    _UISidebarPartitionAdapter *_sidebarPartitionAdapter;
 }
 
 - (void);
@@ -25,44 +23,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
+- (void)0:8^B16 /* Error: Ran out of types for this method. */;
+- (_Bool)4@"NSString"32@"NSString"40C48;
+- (_Bool)@0:8@"_SWCollaborationMetadata"16@"NSArray"24@"NSString"32 /* Error: Ran out of types for this method. */;
+- (void)reflectCommandTranslationWithDictionary:(id)arg1 relayToWatchOnly: /* Error: Ran out of types for this method. */;
+- (void)vice: /* Error: Ran out of types for this method. */;
+- (id)GridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)mmand",&,N,V_transcriptBackgroundCommand;
 - (void);
-- (void)ecessaryAtTop:(_Bool)arg1;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)_setUpLayoutGuideConstraintIfNecessaryAtTop:(_Bool)arg1;
 - (void);
 - (_Bool)àZ;
 - (void)Mq;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSidebarPartitionAdapterSuspended; // @synthesize isSidebarPartitionAdapterSuspended=_isSidebarPartitionAdapterSuspended;
 @property(retain, nonatomic) NSToolbarItemGroup *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(retain, nonatomic) _UISidebarPartitionAdapter *sidebarPartitionAdapter; // @synthesize sidebarPartitionAdapter=_sidebarPartitionAdapter;
-@property(readonly) Class superclass;
 
 @end
 

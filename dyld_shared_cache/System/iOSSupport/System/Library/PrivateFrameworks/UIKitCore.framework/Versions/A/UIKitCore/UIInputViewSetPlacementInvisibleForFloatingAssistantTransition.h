@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)le %@;
 - (struct CGAffineTransform);
 - (_Bool)`;
 - (double);

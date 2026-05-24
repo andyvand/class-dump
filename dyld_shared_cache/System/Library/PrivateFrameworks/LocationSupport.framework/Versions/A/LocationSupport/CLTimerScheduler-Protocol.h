@@ -7,6 +7,8 @@
 @class CLTimer;
 
 @protocol CLTimerScheduler
+- (void)mSizes %d
+;
 
 // Remaining properties
 @property(nonatomic) __weak CLTimer *timer;

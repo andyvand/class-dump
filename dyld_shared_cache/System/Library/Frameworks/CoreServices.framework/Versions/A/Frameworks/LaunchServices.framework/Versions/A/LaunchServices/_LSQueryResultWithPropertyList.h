@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     id _propertyList;
 }
 
-+ (_Bool);
++ (_Bool)?>16;
 - (id);
 - (id);
+- (id)RE;
 - (id);
-- (id);
-- (void);
+- (void)( ;
 - (void)';
 - (id)p;
 

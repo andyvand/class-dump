@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface CKDDeviceCapabilityUsageSQLEntry
 {
     NSNumber *_rowID;
-    NSString *_IDString;
-    NSNumber *_itemType;
-    NSDate *_lastUsed;
-    NSDate *_lastSent;
-    NSDate *_sending;
-    unsigned long long _failureCount;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (void)UsoTask_noVerb_appleArithmetic_ArithmeticAttribute;
 - (void);
+- (void)dio timer
+;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id)	;
 - (void).userinitiated;
 - (id)õ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *IDString; // @synthesize IDString=_IDString;
-@property(nonatomic) unsigned long long failureCount; // @synthesize failureCount=_failureCount;
-@property(retain, nonatomic) NSNumber *itemType; // @synthesize itemType=_itemType;
-@property(copy, nonatomic) NSDate *lastSent; // @synthesize lastSent=_lastSent;
-@property(copy, nonatomic) NSDate *lastUsed; // @synthesize lastUsed=_lastUsed;
 @property(retain, nonatomic) NSNumber *rowID; // @synthesize rowID=_rowID;
-@property(copy, nonatomic) NSDate *sending; // @synthesize sending=_sending;
 
 @end
 

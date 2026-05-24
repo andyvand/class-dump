@@ -5,25 +5,21 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 @interface DADBuddyStateObserver
 {
     NSObject<OS_dispatch_source> *_buddyStatePollingTimer;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    _Bool _hasRegisteredForNotification;
-    CDUnknownBlockType _buddyDidFinishHandler;
 }
 
 + (_Bool);
 + (_Bool);
 + (Class);
-+ (unsigned int);
++ (unsigned int)setSlowChargerNotificationToken: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);

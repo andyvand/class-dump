@@ -6,12 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSTargetFolderIdType, NSArray;
+@class EWSTargetFolderIdType;
 
 @interface EWSBaseMoveCopyItemType : EWSBaseRequestType
 {
     EWSTargetFolderIdType *_ToFolderId;
-    NSArray *_ItemIds;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *ItemIds; // @synthesize ItemIds=_ItemIds;
 @property(retain, nonatomic) EWSTargetFolderIdType *ToFolderId; // @synthesize ToFolderId=_ToFolderId;
 
 @end

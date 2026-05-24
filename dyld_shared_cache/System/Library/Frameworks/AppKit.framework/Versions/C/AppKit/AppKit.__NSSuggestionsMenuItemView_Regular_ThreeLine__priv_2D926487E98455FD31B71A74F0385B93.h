@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id)ge:(struct CGRect)arg1 inAnnotatedString:canCorrect: /* Error: Ran out of types for this method. */;
+- (id)۠;
+- (id)_spellingGuessesForRange:(struct CGRect)arg1 inAnnotatedString:canCorrect: /* Error: Ran out of types for this method. */;
 
 @end
 

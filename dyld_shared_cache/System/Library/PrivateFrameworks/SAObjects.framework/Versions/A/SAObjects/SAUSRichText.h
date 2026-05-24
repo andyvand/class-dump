@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SAUSRichText : AceObject
 {
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_initWithTokens:preITNTokens: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -31,18 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentAdvisory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *formattedTextDelimiter;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *markupList;
-@property(copy, nonatomic) NSArray *moreGlyphs;
-@property(copy, nonatomic) NSNumber *starRating;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *textMaxlines;
 
 @end
 

@@ -4,10 +4,3 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Typedef'd Structures
-
-// Ambiguous groups
-typedef struct {
-    unsigned int enabled:1;
-} CDStruct_513ff01d;
-

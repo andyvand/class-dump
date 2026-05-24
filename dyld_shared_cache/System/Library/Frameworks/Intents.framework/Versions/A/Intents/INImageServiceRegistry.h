@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableDictionary;
 
 @interface INImageServiceRegistry
 {
     NSMutableDictionary *_imageServicesByServiceIdentifier;
-    NSMutableArray *_prioritySortedImageServices;
-    NSObject<OS_dispatch_queue> *_registryQueue;
 }
 
 + (id)!rQÉ{;
@@ -20,17 +17,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)cF;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)l;
+- (void)level;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *imageLoaders;
-@property(readonly, copy, nonatomic) NSArray *imageServices;
-@property(readonly, copy, nonatomic) NSArray *imageStorageServices;
 
 @end
 

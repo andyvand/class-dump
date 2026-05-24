@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLSchemaFLParameterCandidateCategory : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_parameterNameId;
-    _Bool _hasParameterNameId;
 }
 
 - (void);
@@ -19,10 +18,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)0;
+- (id)P;
+- (void)@;
+- (unsigned long long)toneIdentifiers;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,8 +31,6 @@
 - (void)¸ëÂÿL´$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParameterNameId; // @synthesize hasParameterNameId=_hasParameterNameId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *parameterNameId; // @synthesize parameterNameId=_parameterNameId;
 
 @end

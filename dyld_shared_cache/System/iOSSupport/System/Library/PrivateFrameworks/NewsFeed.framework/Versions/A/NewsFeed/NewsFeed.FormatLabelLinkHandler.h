@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatLabelLinkHandler
 {
     id label;
-    id tapGestureRecognizer;
-    id link;
-    id linkBlock;
 }
 
 - (void);

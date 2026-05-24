@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSBluetoothSpeakerStateMonitor
 {
     _Bool _isActive;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)adPreventingTwoShotFeedback;
++ (id)_myriadPreventingTwoShotFeedback;
 - (void);
+- (void);
+- (id)P;
+- (void);
+- (void);
+- (void);
+- (void)imageBufferAndReturnError:(id)arg1;
+- (_Bool)X;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void)Stream:withConfig:toPrimaryStream:completion: /* Error: Ran out of types for this method. */;
-- (void)chTime;
+- (void)attachTandemStream:withConfig:toPrimaryStream:completion: /* Error: Ran out of types for this method. */;
+- (void)TriggerMachTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

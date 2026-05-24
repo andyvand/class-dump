@@ -9,9 +9,6 @@
 @interface ASDBetaAppVersion
 {
     NSString *_bundleID;
-    NSString *_bundleVersion;
-    long long _platform;
-    NSString *_shortVersion;
 }
 
 + (id);
@@ -24,16 +21,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)IAPAudioStopPlaybackForTransport;
 - (long long);
-- (id);
+- (id)-[MNSequence start];
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *bundleID;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) long long platform;
-@property(readonly) NSString *shortVersion;
 
 @end
 

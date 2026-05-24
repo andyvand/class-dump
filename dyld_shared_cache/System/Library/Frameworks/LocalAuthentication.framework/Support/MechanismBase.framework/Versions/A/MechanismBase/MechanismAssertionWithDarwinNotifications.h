@@ -11,29 +11,26 @@
 @interface MechanismAssertionWithDarwinNotifications : MechanismAssertion
 {
     int _inStateToken;
-    int _outStateToken;
-    _Bool _isInState;
-    NSString *_inStateNotificationName;
-    NSString *_outStateNotificationName;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int *);
-- (id);
+- (id)t Signature;
+- (id)esetbest() can only be called after initialize();
+- (id)led after initialize();
+- (void)ect:(id)arg1 wavedata() data is NULL pointer;
+- (void)vedata() cannot be called after endwavedata();
+- (id):initialize() cannot be called with rootpath = NULL /* Error: Ran out of types for this method. */;
+- (void));
+- (void)empty;
+- (int *)ore the buffer (m_queue) has been emptied
+;
+- (id)lled before; is cannot be called againbefore the buffer (m_queue) has been emptied
+;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inStateNotificationName; // @synthesize inStateNotificationName=_inStateNotificationName;
-@property(readonly, nonatomic) NSString *outStateNotificationName; // @synthesize outStateNotificationName=_outStateNotificationName;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface CallHistory.CallHistoryDataSource
 {
     id _containerProvider;
-    id delegate;
 }
 
 @end

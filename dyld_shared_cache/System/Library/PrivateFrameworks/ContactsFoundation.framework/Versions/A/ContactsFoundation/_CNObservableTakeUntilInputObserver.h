@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNObserver, _CNObservableTakeUntilInputObserverDelegate;
+@protocol CNObserver;
 
 @interface _CNObservableTakeUntilInputObserver
 {
     id <CNObserver> _observer;
-    id <_CNObservableTakeUntilInputObserverDelegate> _delegate;
 }
 
 - (id);
@@ -23,15 +21,7 @@
 - (void)ied;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <_CNObservableTakeUntilInputObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <CNObserver> observer; // @synthesize observer=_observer;
-@property(readonly) Class superclass;
 
 @end
 

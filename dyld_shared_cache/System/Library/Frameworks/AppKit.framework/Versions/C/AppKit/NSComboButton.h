@@ -6,21 +6,16 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSImage, NSMenu, NSSegmentedControl, NSString;
+@class NSSegmentedControl;
 
 @interface NSComboButton : NSControl
 {
     long long _style;
-    NSMenu *_menu;
-    NSString *_title;
-    NSImage *_image;
-    unsigned long long _imageScaling;
-    NSSegmentedControl *_segmentedControl;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
++ (id)value text NOT NULL,        domain text NOT NULL,        path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
++ (id)NOT EXISTS cookies (        name text NOT NULL,        value text NOT NULL,        domain text NOT NULL,        path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
 + (_Bool);
 + (Class);
 + (_Bool);
@@ -31,12 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)iority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (unsigned long long)uploadTaskWithRequest:fromFile: /* Error: Ran out of types for this method. */;
+- (void)TLS Trust evaluation failed(%d);
 - (_Bool);
-- (void);
-- (void);
+- (void)qenc_drop_oldest_entry;
+- (void)gal parameter;
 - (id);
 - (void);
 - (void);
@@ -46,27 +41,27 @@
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)boringssl_session_state_create;
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void):(long long)arg1 default-style style:family="paragraph"><style:paragraph-properties style:tab-stop-distance="0.5in"/><style:text-properties style:font-name="Times" fo:font-size="12.0pt"/></style:default-style><style:default-style style:family="table"><style:table-properties table:border-model="collapsing"/></style:default-style><style:default-style style:family="table-row"><style:table-row-properties fo:keep-together="auto"/></style:default-style><style:style style:name="Standard" style:family="paragraph" style:class="text"/></office:styles><office:automatic-styles><style:page-layout style:name="Standard"><style:page-layout-properties fo:page-width="8.5in" fo:page-height="11.0in" style:print-orientation="portrait" fo:margin-top="0.5in" fo:margin-bottom="0.5in" fo:margin-left="1.0in" fo:margin-right="1.0in"/></style:page-layout></office:automatic-styles><office:master-styles><style:master-page style:name="Standard" style:page-layout-name="Standard"></style:master-page></office:master-styles></office:document-styles> /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 - (_Bool)áì/!¤Aù1â3°1Â0@ù
 × ;
-- (void)veSubviews;
-- (id):(struct CGRect)arg1;
+- (void)removeSubviews;
+- (id)canRepresentDisplayGamut:(struct CGRect)arg1;
 - (void);
 - (void);
 - (void)ÖþÿYMhÒ;
 - (void)om.dillion.coppy;
 - (void)M_6nljmJ3P7Wm3qaFSA/Library/Caches/com.apple.xbs/TemporaryDirectory.tLhrrW/Sources/AppKit/AppKit.subproj/NSRulerMarker.m;
 - (id)u;
-- (void)STabBarTabCloseButtonColor;
-- (void)utableInfo;
+- (void)_NSTabBarTabCloseButtonColor;
+- (void)FlattenMutableInfo;
 - (void)ÿ@;
 - (void)vB;
 - (struct NSEdgeInsets)D;
@@ -76,11 +71,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSSegmentedControl *_segmentedControl; // @synthesize _segmentedControl;
-@property(retain) NSImage *image;
-@property unsigned long long imageScaling;
-@property(retain) NSMenu *menu;
-@property long long style;
-@property(copy) NSString *title;
 
 @end
 

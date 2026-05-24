@@ -6,54 +6,52 @@
 
 #import <TSReading/TSDShapeInfo.h>
 
-@class NSObject, NSString, TSDInfoGeometry, TSPObject, TSWPColumns, TSWPLineHintCollection, TSWPPadding, TSWPShapeStyle, TSWPStorage;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class TSWPStorage;
 
 @interface TSWPShapeInfo : TSDShapeInfo
 {
     TSWPStorage *_containedStorage;
-    _Bool _textUserEditable;
-    TSWPLineHintCollection *mLineHints;
 }
 
 + (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPoint);
-- (id);
+- (void)end;
+- (void)the playback engine is not ready;
+- (void)hen setting descriptor.;
+- (id)laybackContextOptions, void (^__strong)(MPCPlaybackRequestEnvironment * _Nullable __strong, NSNumber * _Nullable __strong, NSError * _Nullable __strong))_block_invoke;
+- (struct CGPoint)UserSelected;
+- (id)ListeningQueueEvent:(_Bool)arg1 %p replacedContent=%@>;
+- (_Bool)esent audio-only items;
+- (_Bool)route doesn't have a UI to nicely present audio-only items;
+- (id)esourceRequestEvent"16;
+- (id)resourceRequestErrorSignature;
+- (Class)PlaybackTimeoutAVMetrics;
+- (void):(_Bool)arg1 %@;
+- (void)ble __strong, MPModelGenericObject * _Nullable __strong, MPModelGenericObject * _Nullable __strong);
+- (void)g items)
+;
+- (void)emID in itemExistsForContentItemID (MPCQueueControllerBehaviorItemTypeEndOfQueuePlaceholder):(unsigned int)arg1 %@;
+- (void)ted playback queue for SharePlay behavior [options did not contain 'sharedListeningToken'];
+- (void)a type;
+- (void)ontext to autoplay SIL (dataSource requested shouldAddOriginalPlaybackContextAfterReplacement);
+- (void)dio-format-selection-format;
+- (id)sectionIdentifier;
+- (void)tfac2SetRateEnd;
+- (id)avIndexResponseTime0;
+- (_Bool)ller - Changing event time from ;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (Class);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)paused state;
+- (unsigned long long)sInterruptedState;
 - (double);
-- (double);
+- (double)ifier=;
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (Class);
-- (_Bool);
+- (_Bool)AssetSlidingQueueController;
 - (long long);
 - (id);
 - (id);
@@ -62,14 +60,14 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
+- (_Bool)1;
 - (void);
-- (void);
+- (void)B`;
 - (unsigned long long);
 - (_Bool);
 - (Class);
 - (unsigned int);
-- (id);
+- (id)hb@9;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -81,44 +79,12 @@
 - (void);
 - (Class);
 - (void)ArrayGetCoordinate(TSTCoordinateArray *, TSTGridIndex);
-- (id)tureGeneration;
+- (id)shouldForceTextureGeneration;
 - (id)region;
 - (void)ting:(id)arg1 %@;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsLastLineTruncation;
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @dynamic anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(retain, nonatomic) TSWPColumns *columns;
 @property(retain, nonatomic) TSWPStorage *containedStorage; // @synthesize containedStorage=_containedStorage;
-@property(nonatomic) long long contentWritingDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool displaysInstructionalText;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText; // @dynamic floatingAboveText;
-@property(copy, nonatomic) TSDInfoGeometry *geometry; // @dynamic geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText; // @dynamic inlineWithText;
-@property(readonly, nonatomic) NSString *instructionalText;
-@property(retain, nonatomic) TSWPLineHintCollection *lineHints; // @synthesize lineHints=mLineHints;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) unsigned int maxLineCount;
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @dynamic owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse; // @dynamic owningAttachmentNoRecurse;
-@property(retain, nonatomic) TSWPPadding *padding;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @dynamic parentInfo;
-@property(nonatomic) _Bool shrinkTextToFit;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool textIsVertical;
-@property(nonatomic, getter=isTextUserEditable) _Bool textUserEditable;
-@property(readonly, nonatomic) TSWPShapeStyle *tswpShapeStyle;
-@property(nonatomic) unsigned int verticalAlignment;
 
 @end
 

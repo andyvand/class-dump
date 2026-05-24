@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CustomViewSnapshotCache, NSArray, NSImage, NSOperationQueue, NSString, VisualTabPickerRootView, VisualTabPickerTransitionAnimator, VisualTabPickerTransitionCoordinator;
-@protocol VisualTabPickerDelegate;
+@class VisualTabPickerRootView;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerViewController
 {
     VisualTabPickerRootView *_rootView;
-    NSArray *_orderedTabViewItems;
-    NSArray *_filteredTabViewItems;
-    NSOperationQueue *_filterQueue;
-    NSString *_searchText;
-    _Bool _isPostponingClosingVisualTabPickerWhenNewTabIsInserted;
-    _Bool _didReportPerformSearch;
-    _Bool _isClosingBySelectingOrCreatingTab;
-    VisualTabPickerTransitionAnimator *_transitionAnimator;
-    VisualTabPickerTransitionCoordinator *_transitionCoordinator;
-    double _transitionProgress;
-    _Bool _didStartInteractiveTransition;
-    _Bool _tabsShouldBeClosable;
-    _Bool _addingNewTab;
-    CustomViewSnapshotCache *_snapshotCache;
-    id <VisualTabPickerDelegate> _delegate;
-    NSImage *_tabBarSnapshot;
-    NSImage *_sidebarSnapshot;
 }
 
 + (id);
@@ -54,15 +36,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)!Aa;
+- (void);
 - (void);
 - (void);
 - (double);
 - (_Bool);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -80,34 +62,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)setBasePathForTestingWithPath: /* Error: Ran out of types for this method. */;
 - (void)è;
 - (void);
 - (void)Ô;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAddingNewTab) _Bool addingNewTab; // @synthesize addingNewTab=_addingNewTab;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <VisualTabPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExitAnimationInProgress) _Bool exitAnimationInProgress;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shouldAdjustForTopBar;
-@property(retain, nonatomic) NSImage *sidebarSnapshot; // @synthesize sidebarSnapshot=_sidebarSnapshot;
-@property(readonly, nonatomic) CustomViewSnapshotCache *snapshotCache; // @synthesize snapshotCache=_snapshotCache;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSImage *tabBarSnapshot; // @synthesize tabBarSnapshot=_tabBarSnapshot;
 @property(nonatomic) _Bool tabsShouldBeClosable; // @synthesize tabsShouldBeClosable=_tabsShouldBeClosable;
 
 @end

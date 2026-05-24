@@ -6,7 +6,7 @@
 
 @protocol UIViewControllerTransitionCoordinator
 - (_Bool);
-- (void)ve;
-- (void)ate;
+- (void)fitsPopoverWhenKeyboardActive;
+- (void)_editorDelegate;
 @end
 

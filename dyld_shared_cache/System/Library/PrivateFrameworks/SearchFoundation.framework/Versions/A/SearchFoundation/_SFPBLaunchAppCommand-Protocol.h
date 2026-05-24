@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBLaunchAppCommand
+- (void);
+- (NSString *)fetchMovieCuratedAssetsInMemory: /* Error: Ran out of types for this method. */;
+- (NSData *)ndingInvitationRecordGUIDs;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(nonatomic) _Bool isOnenessApplication;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

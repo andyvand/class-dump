@@ -9,15 +9,6 @@
 @interface IKImageFlowCell
 {
     IKImageCell *_imageCell;
-    float _position[3];
-    float _rotation;
-    double _aspectRatio;
-    float _fog;
-    float _importFactor;
-    unsigned int _highlightTested:1;
-    unsigned int _hasHighlight:1;
-    unsigned int _sourceRespondsToDimmed:1;
-    unsigned int _inlinePreview:1;
 }
 
 - (float);
@@ -32,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (float);
 - (int);
@@ -41,13 +32,13 @@
 - (void);
 - (float);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)weakObjectsHashTable;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_processPlaybackCompletionContexts:(SEL)arg1;
 - (float);
-- (id);
+- (id);
 - (void);
 - (float *);
 - (_Bool);

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKScript
 {
     _Bool _scriptTimeoutSpecified;
-    _Bool _systemIntegrityProtectionProhibited;
-    NSString *_path;
-    double _estimatedRunningTime;
-    unsigned long long _scriptTimeoutInSeconds;
 }
 
 - (_Bool);
@@ -28,15 +22,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)y;
 - (id);
 
 // Remaining properties
-@property double estimatedRunningTime; // @synthesize estimatedRunningTime=_estimatedRunningTime;
 @property(readonly) _Bool isTimeoutUndefined;
-@property(copy) NSString *path; // @synthesize path=_path;
-@property(nonatomic) unsigned long long scriptTimeoutInSeconds; // @synthesize scriptTimeoutInSeconds=_scriptTimeoutInSeconds;
-@property(nonatomic) _Bool systemIntegrityProtectionProhibited; // @synthesize systemIntegrityProtectionProhibited=_systemIntegrityProtectionProhibited;
 
 @end
 

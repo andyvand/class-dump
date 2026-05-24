@@ -9,16 +9,14 @@
 @interface CHTimeWindowStrokeGroup : CHStrokeGroup
 {
     double _startTimestamp;
-    double _endTimestamp;
 }
 
 - (id);
 - (id);
-- (double);
-- (double)5CoreRecognition7decoder15LSTMCharLMStateE;
+- (double)?	;
+- (double)N15CoreRecognition7decoder15LSTMCharLMStateE;
 
 // Remaining properties
-@property(readonly, nonatomic) double endTimestamp; // @synthesize endTimestamp=_endTimestamp;
 @property(readonly, nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
 
 @end

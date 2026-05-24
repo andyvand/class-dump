@@ -9,16 +9,12 @@
 @interface NSViewServiceAccessoryView
 {
     NSViewServiceMarshal *_serviceMarshal;
-    struct CGRect _screenRelativeFrameMostRecentlyReported;
-    unsigned int _informingHostOfChangeToGeometry:1;
-    unsigned int _disclosedEnoughToBecomeKeyView:1;
-    NSDictionary *_hostAccessibilityChildren;
 }
 
 - (id);
+- (void)A;
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (void);
@@ -26,11 +22,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)P;
+- (void)B;
 
 // Remaining properties
 @property(retain) NSDictionary *hostAccessibilityChildren; // @synthesize hostAccessibilityChildren=_hostAccessibilityChildren;

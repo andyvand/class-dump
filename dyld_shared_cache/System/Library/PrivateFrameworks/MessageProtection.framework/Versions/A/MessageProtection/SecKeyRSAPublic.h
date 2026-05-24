@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)8p;
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)self;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id secKeyRef; // @synthesize secKeyRef=_secKeyRef;

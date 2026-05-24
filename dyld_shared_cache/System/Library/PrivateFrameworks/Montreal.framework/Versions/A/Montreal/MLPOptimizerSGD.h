@@ -13,7 +13,7 @@
     MPSVector *_momentum;
 }
 
-- (void);
+- (void);;
 - (void);
 - (id);
 - (id);

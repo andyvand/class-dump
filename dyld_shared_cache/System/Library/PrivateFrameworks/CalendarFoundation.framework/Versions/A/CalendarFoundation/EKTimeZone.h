@@ -15,8 +15,8 @@
 + (id);
 - (id);
 - (double);
-- (unsigned long long);
-- (void);
+- (unsigned long long)T@"NSObject<OS_dispatch_queue>",&,N,V_expiryQueue;
+- (void)__const;
 - (_Bool);
 - (id);
 - (double);

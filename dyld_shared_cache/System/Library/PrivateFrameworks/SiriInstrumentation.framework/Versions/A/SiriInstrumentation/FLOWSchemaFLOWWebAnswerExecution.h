@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWWebAnswerExecution : SISchemaInstrumentationMessage
 {
     unsigned int _answerType;
-    unsigned int _allowListType;
-    unsigned int _fuzzyMatchType;
-    unsigned int _subDomain;
-    unsigned int _quality;
-    unsigned int _answerClass;
-    struct {
-        unsigned int answerType:1;
-        unsigned int allowListType:1;
-        unsigned int fuzzyMatchType:1;
-        unsigned int subDomain:1;
-        unsigned int quality:1;
-        unsigned int answerClass:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -41,25 +26,25 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
+- (void)˟;
 - (void);
 - (unsigned int);
-- (id);
+- (unsigned int);
 - (void);
-- (unsigned long long);
+- (void);
+- (void)@9;
+- (unsigned int);
+- (id)__TEXT;
+- (void);
+- (unsigned long long)because it was last triggered less than %ld minutes ago.;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ferenceLocation"b1"responseIsFallback"b1};
-- (id)Truth;
+- (id)_hasGroundTruth;
 - (id)x;
 - (_Bool)XÆÿ;
 - (unsigned int)Äj¹ÿ;
@@ -67,19 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int allowListType; // @synthesize allowListType=_allowListType;
-@property(nonatomic) unsigned int answerClass; // @synthesize answerClass=_answerClass;
 @property(nonatomic) unsigned int answerType; // @synthesize answerType=_answerType;
-@property(nonatomic) unsigned int fuzzyMatchType; // @synthesize fuzzyMatchType=_fuzzyMatchType;
-@property(nonatomic) _Bool hasAllowListType;
-@property(nonatomic) _Bool hasAnswerClass;
-@property(nonatomic) _Bool hasAnswerType;
-@property(nonatomic) _Bool hasFuzzyMatchType;
-@property(nonatomic) _Bool hasQuality;
-@property(nonatomic) _Bool hasSubDomain;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int quality; // @synthesize quality=_quality;
-@property(nonatomic) unsigned int subDomain; // @synthesize subDomain=_subDomain;
 
 @end
 

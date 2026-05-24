@@ -4,10 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLAccelerationStructureDescriptor, MTLArchitecture, MTLCompileOptions, MTLIOCommandQueueDescriptor, MTLMeshRenderPipelineDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString, NSURL;
-@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLBuffer, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor;
+@class MTLAccelerationStructureDescriptor, MTLArchitecture, MTLCompileOptions, MTLIOCommandQueueDescriptor, MTLMeshRenderPipelineDescriptor, MTLRenderPipelineDescriptor, NSString, NSURL;
+@protocol MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4PipelineDataSetSerializer, MTLAccelerationStructure, MTLBuffer, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor;
 
 @protocol MTLDevice
+- (id <MTLBuffer>)e;
+- (unsigned long long)_;
+- (unsigned long long)T;
+- (_Bool)_warningsOfIncorrectTokenizationAcrossSegmentBoundariesInLanguageModelDictionary:stringsTable: /* Error: Ran out of types for this method. */;
+- (id <MTLLibrary>);
+- (void);
+- (_Bool)messageTargetUUIDWithHomeUUID: /* Error: Ran out of types for this method. */;
+- (unsigned long long)updated message payload:%@ /* Error: Ran out of types for this method. */;
+- (id <MTLRenderPipelineState>)ved outgoing invitation via merge:(MTLMeshRenderPipelineDescriptor *)arg1 %@;
+- (_Bool)ceived error handling snapshot:(unsigned long long)arg1 %@;
+- (unsigned long long)a merge:(long long)arg1 %@;
+- (_Bool)airingIdentity"8Q16^B24;
+- (unsigned long long);
+- (_Bool)emory pressure source event:%lu /* Error: Ran out of types for this method. */;
+- (id <MTLLibrary>)tKeyP;
+- (_Bool)red;
+- (_Bool)_activeTransactionForClient:(unsigned long long)arg1;
+- (id <MTL4PipelineDataSetSerializer>)VirtualTableDataSource}^{__shared_weak_count}},N,V_dataSource;
+- (void)property key %lx;
+- (CDStruct_4bcfbbae);
+- (_Bool);
 - (id <MTLResidencySet>)1Â0@ù
 × ;
 - (id <MTLBuffer>)5°!LCù±³ð1Â0@ù
@@ -3957,7 +3978,6 @@ void main (void)
 ;
 - (id <MTL4CommandAllocator>)IndicesContent.indicesStride == 1;
 - (id <MTLEvent>)*A¯ë?;
-- (id <MTL4Archive>);
 - (id <MTLRenderPipelineState>)N@ñv?;
 - (id <MTL4ArgumentTable>)±?;
 - (id <MTLCommandQueue>)?;
@@ -4003,7 +4023,6 @@ F>yç|?Æ?ß§Ê½ö
 - (id <MTL4CommandAllocator>)Ê§?®?æè¼Sì(=Ä´?b?zÅÓ¼×/=7Á?q|?ÄÌ¾¼9=Ì?ôÃx?ò'ª¼Þð<ØÖ?ºLu?Âü¼À²Ò<Òß?o*r?^¼29µ<ç?^Lo?¤7\¼5<î?ú¶l?4¼JDx<4ô?îZj?Ë÷¼y;B<ºø?½5h?'öÐ»O\<ü?ÈDf?»F{¼;;þ?0d?è£»oØ6;ÿ?Ýéb?áê7ÿ8;
 - (_Bool)OêK½÷ê|@%]?Lô[BOêK½@£/@%]?&!BOêK½
 @%]?<m÷AOêK½Å?5]?;yÃABéK½e?%]?wVABéK½	Þ|?5]?ØABéK½÷P?%]?ßÜ[A6èK½½/?%]?hQ;A6èK½`?5]?±{!AæK½ñò;
-- (_Bool);
 - (MTLArchitecture *)..>¿C5?`=k>â<?äIj?mtz?Y£=ðP?yæÍ>¢L?o=\/?Ö«t?»dü=8³§<#¿V?´1?²¸>89=Ãñ4?cU?líå>Hoø=?ú{>;VÁ>òê?h%=?XT?mSL>½9$?eÆ?Æßö=¯@´>5E?¶T=`Ç>àg>#ÛE?]£>­mJ>ï~?Æ¿>Ó¤>I/>=µj?9}%?­2ë>"o©>_¸s?ßÅ>°9?E>"«w?¶f?^=?=ó­{?/
 >î?>õi?ß¦¿>S}"=xòU?cä>:b?<1;>GT?&¬9?¦'¼=/Ü!?ð2s?ß4?¿+ú>§Xa?s#<Xû>ª-Õ>Ý«=wöU>P?W$&>îë>Öo&?AU>6Z>Ì,<ó?ò"Ó>0?Êÿ>pyH? ì>¿·!?z¦>º¢8?éet?=?Ú!?6¯~?à>ÝZ>g&?@ú><>b ?·ëI?¼)?,?ßÜC?øUU?ò°>o l?L?ÇË=Ï>ÙèL?EÍ>ËLY?4?F>¹ld? Ò§>Æ¦Õ=akf>rx?Aa /* Error: Ran out of types for this method. */;
 - (id <MTLIndirectCommandBuffer>)ÌQ?m7ù>¿Y>Ò?*>|eV?ÉÿÄ>N@>4?µ2= 3Æ=&;
@@ -4015,48 +4034,6 @@ F>yç|?Æ?ß§Ê½ö
 - (id <MTLLibrary>);
 
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) struct maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

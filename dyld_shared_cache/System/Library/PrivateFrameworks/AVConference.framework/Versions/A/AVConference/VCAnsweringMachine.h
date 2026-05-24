@@ -6,32 +6,20 @@
 
 #import <AVConference/VCMediaDevice.h>
 
-@class AVCAnsweringMachineConfiguration, NSObject, NSString, NSURL, VCAudioIO;
-@protocol OS_dispatch_queue, VCAnsweringMachineDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCAnsweringMachine : VCMediaDevice
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    id <VCAnsweringMachineDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct tagVCAnsweringMachineRealtimeContext _realtimeContext;
-    AVCAnsweringMachineConfiguration *_configuration;
-    NSString *_uuid;
-    int _deviceRole;
-    VCAudioIO *_audioIO;
-    int _reportingModuleID;
-    struct tagVCAudioFrameFormat _internalFormat;
-    NSURL *_recordingURL;
-    _Bool _stopIsAsync;
-    _Bool _didInvalidate;
 }
 
 + (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)L;
+- (void)M;
+- (void)qAC;
 - (void);
 - (void);
 - (_Bool);
@@ -40,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -60,7 +48,7 @@ __attribute__((visibility("hidden")))
 - (struct AudioStreamBasicDescription);
 - (_Bool);
 - (struct __CFDictionary *);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
@@ -82,17 +70,7 @@ __attribute__((visibility("hidden")))
 - (id)applyFollowSystemInputOutput];
 
 // Remaining properties
-@property(readonly, nonatomic) AVCAnsweringMachineConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long messageAudioToken;
-@property(readonly, nonatomic) NSURL *recordingURL; // @synthesize recordingURL=_recordingURL;
-@property(readonly) Class superclass;
 
 @end
 

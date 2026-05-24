@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, _NSWTUIDirectionalLightEffectView, _NSWTUITextChunk, _NSWTUITextEffectView;
+@class _NSWTUIDirectionalLightEffectView, _NSWTUITextEffectView;
 
 @interface _NSWTUIPonderingTextEffect
 {
     _NSWTUITextEffectView *_effectView;
-    _NSWTUIDirectionalLightEffectView *_lightingEffectView;
-    CALayer *_maskLayer;
-    struct _NSRange _range;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)5_?;
+- (id)PFnuFyqMMnGUQQnTqS5byg;
+- (id)AFXhxraF1bvyaCMlBIOZPA;
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange)replaceContentsInRange:withTextElements: /* Error: Ran out of types for this method. */;
+- (void)`	;
 - (id)ÿ;
 - (void)rForSpace:(_Bool)arg1 spid ignoringFullScreenSpaces:NO] == nil /* Error: Ran out of types for this method. */;
 - (void)cit_size;
 
 // Remaining properties
-@property(retain) _NSWTUITextChunk *chunk;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"_NSWTUITextChunk",?,&
-
-@property __weak _NSWTUITextEffectView *effectView; // @synthesize effectView=_effectView;
 @property(retain, nonatomic) _NSWTUIDirectionalLightEffectView *lightingEffectView; // @synthesize lightingEffectView=_lightingEffectView;
-@property(retain, nonatomic) CALayer *maskLayer; // @synthesize maskLayer=_maskLayer;
-@property struct _NSRange range; // @synthesize range=_range;
 
 @end
 

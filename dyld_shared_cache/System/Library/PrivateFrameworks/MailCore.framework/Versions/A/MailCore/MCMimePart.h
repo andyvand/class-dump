@@ -4,47 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECSignatureInfo, EFPathComponent, MCFileTypeInfo, MCMessageBody, MEDecodedMessageBanner, MEMessageSecurityInformation, NSArray, NSData, NSDate, NSError, NSMutableDictionary, NSString, WebArchive;
-
 @interface MCMimePart
 {
     MCMimePart *_nextPart;
-    long long _typeCode;
-    long long _subtypeCode;
-    NSString *_type;
-    NSString *_subtype;
-    NSMutableDictionary *_bodyParameters;
-    NSString *_contentTransferEncoding;
-    NSMutableDictionary *_otherIvars;
-    id _partNumberLock;
-    NSString *_partNumber;
-    id _usedStringEncodingLock;
-    unsigned long long _usedStringEncoding;
-    id _encryptSignLock;
-    NSArray *_messageSigners;
-    MCMimePart *_cmsExtractedContent;
-    NSError *_smimeError;
-    _Bool _isEncrypted;
-    _Bool _isSigned;
-    _Bool _skipSignatureVerification;
-    _Bool _hideCalendarMimePart;
-    _Bool _isMalformed;
-    _Bool _fromMicrosoft;
-    NSData *_headerData;
-    NSData *_encodedBodyData;
-    MEMessageSecurityInformation *_securityInformation;
-    NSData *_decodingContext;
-    MEDecodedMessageBanner *_banner;
-    unsigned long long _contentLength;
-    MCMimePart *_parentPart;
-    unsigned long long _headerEncodingHint;
-    NSString *_sender;
-    NSDate *_dateReceived;
-    ECSignatureInfo *_signatureInfo;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)";
 + (id);
 + (id);
 + (int);
@@ -68,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Rc;
 - (id);
 - (id);
 - (_Bool);
@@ -82,14 +48,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)G;
 - (id);
 - (id);
 - (unsigned long long);
@@ -98,14 +64,14 @@
 - (id);
 - (long long);
 - (id);
+- (id)K9_;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)JC;
+- (void);ka;
 - (void);
 - (id);
 - (id);
@@ -123,8 +89,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)a;
+- (_Bool)K9;
 - (id);
 - (unsigned long long);
 - (void);
@@ -134,35 +100,35 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)[%;
+- (id)԰B;
 - (struct __SecIdentity *);
 - (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)cK9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id) k`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)K9;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -187,13 +153,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)p;
+- (id)	;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -203,7 +169,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -215,7 +181,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)im8+;
 - (id);
 - (id);
 - (id);
@@ -230,7 +196,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -242,7 +208,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)Frameworks/CoreFoundation.framework/CoreFoundation;
 - (id);
 - (id);
 - (void);
@@ -258,73 +224,7 @@
 - (void)/H;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long approximateDecodedSize;
-@property(readonly, nonatomic) unsigned long long approximateRawSize;
-@property(readonly, copy, nonatomic) EFPathComponent *attachmentFilename;
-@property(readonly, copy, nonatomic) NSArray *attachmentMetadata;
-@property(readonly, copy, nonatomic) NSArray *attachments;
-@property(readonly, nonatomic) MEDecodedMessageBanner *banner; // @synthesize banner=_banner;
-@property(readonly, nonatomic) MCMimePart *bestAlternative;
-@property(readonly, copy, nonatomic) NSString *bodyConvertedFromFlowedText;
-@property(readonly, copy, nonatomic) NSArray *bodyParameterKeys;
-@property(readonly, copy, nonatomic) NSString *bodyString;
-@property(readonly, nonatomic) MCMimePart *cmsExtractedContent;
-@property(copy, nonatomic) NSString *contentDescription;
-@property(copy, nonatomic) NSString *contentID;
-@property(readonly, copy, nonatomic) NSString *contentIDURLString;
-@property(nonatomic) unsigned long long contentLength; // @synthesize contentLength=_contentLength;
-@property(copy, nonatomic) NSString *contentLocation;
-@property(copy, nonatomic) NSString *contentTransferEncoding; // @synthesize contentTransferEncoding=_contentTransferEncoding;
-@property(retain, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSData *decodedData;
-@property(readonly, nonatomic) NSData *decodingContext; // @synthesize decodingContext=_decodingContext;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *disposition;
-@property(readonly, copy, nonatomic) NSArray *dispositionParameterKeys;
-@property(readonly, copy, nonatomic) NSData *encodedBodyData; // @synthesize encodedBodyData=_encodedBodyData;
-@property(readonly, nonatomic) unsigned long long encodedBodyDataLength;
-@property(readonly, nonatomic) MCMimePart *firstChildPart;
-@property(readonly, nonatomic) unsigned long long formatFlowedOptions;
-@property(nonatomic) _Bool fromMicrosoft; // @synthesize fromMicrosoft=_fromMicrosoft;
-@property(readonly, copy, nonatomic) NSString *fullMimeTypeEvenInsideAppleDouble;
-@property(readonly, nonatomic) _Bool hasDataAvailable;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *headerData; // @synthesize headerData=_headerData;
-@property(nonatomic) unsigned long long headerEncodingHint; // @synthesize headerEncodingHint=_headerEncodingHint;
-@property _Bool hideCalendarMimePart; // @synthesize hideCalendarMimePart=_hideCalendarMimePart;
-@property(readonly, nonatomic) _Bool isAttachment;
-@property(readonly, nonatomic) _Bool isAutoArchivePart;
-@property(readonly, nonatomic) _Bool isCMSPart;
-@property(readonly, nonatomic) _Bool isCalendar;
-@property(readonly, nonatomic) _Bool isDirectoryAttachment;
-@property(nonatomic) _Bool isMalformed; // @synthesize isMalformed=_isMalformed;
-@property(readonly, nonatomic) _Bool isMessageExternalBodyWithURL;
-@property(readonly, nonatomic) _Bool isReadableText;
-@property(readonly, nonatomic) _Bool isRich;
-@property(copy, nonatomic) NSArray *languages;
-@property(readonly, nonatomic) unsigned int macCreatorCode;
-@property(readonly, nonatomic) unsigned int macTypeCode;
-@property(readonly, nonatomic) MCMessageBody *messageBody;
-@property(readonly, nonatomic) MCMimePart *nextSiblingPart;
-@property(readonly, nonatomic) unsigned int numberOfAttachments;
 @property(nonatomic) __weak MCMimePart *parentPart; // @synthesize parentPart=_parentPart;
-@property(copy) NSString *partNumber;
-@property(retain, nonatomic) MEMessageSecurityInformation *securityInformation; // @synthesize securityInformation=_securityInformation;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(retain) ECSignatureInfo *signatureInfo; // @synthesize signatureInfo=_signatureInfo;
-@property(readonly, copy, nonatomic) NSData *signedData;
-@property(nonatomic) _Bool skipSignatureVerification; // @synthesize skipSignatureVerification=_skipSignatureVerification;
-@property(copy, nonatomic) NSArray *subparts;
-@property(copy, nonatomic) NSString *subtype;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type;
-@property(readonly, nonatomic) MCFileTypeInfo *typeInfo;
-@property(readonly, nonatomic) _Bool usesKnownSignatureProtocol;
-@property(readonly, copy, nonatomic) WebArchive *webArchive;
 
 @end
 

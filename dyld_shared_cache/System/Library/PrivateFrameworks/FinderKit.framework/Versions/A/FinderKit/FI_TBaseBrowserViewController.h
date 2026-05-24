@@ -6,60 +6,29 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TBrowserContainerController, FI_TBrowserViewDataSource, FI_TNodeViewSettings, NSEvent, NSSharingServicePicker, NSString, NSView;
+@class NSEvent;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBaseBrowserViewController : FI_TViewController
 {
     struct TNSWeakPtr<FI_TBrowserContainerController> _weakContainerController;
-    struct TNotificationCenterObserver _dataSourceChangedObserver;
-    shared_ptr_0f967b3d _thumbnailController;
-    struct vector<std::shared_ptr<TIconFetcher>, std::allocator<std::shared_ptr<TIconFetcher>>> _pendingIconFetchers;
-    struct TEventMonitor _localModifierFlagsEventMonitor;
-    struct TEventMonitor _globalModifierFlagsEventMonitor;
-    NSEvent *_mouseDownEventForDrag;
-    struct TNSWeakPtr<FINode> _nodeToDoubleClick;
-    struct TFENodeVector _orderedSelection;
-    NSSharingServicePicker *_toolbarSharingServicePicker;
-    NSSharingServicePicker *_weakToolbarSharingServicePicker;
-    NSView *_anchoringViewForSharingService;
-    struct TNotificationCenterObserver _browserViewWillMoveToWindowObserver;
-    struct TNotificationCenterObserver _browserViewDidMoveToWindowObserver;
-    struct TKeyValueObserver _browserViewEffectiveAppearanceObserver;
-    struct TNotificationCenterObserver _browserViewBackingPropertiesObserver;
-    struct TNotificationCenterObserver _browserWindowDidBecomeMainObserver;
-    struct TNotificationCenterObserver _browserWindowDidResignMainObserver;
-    struct TNotificationCenterObserver _browserWindowDidBecomeKeyObserver;
-    struct TNotificationCenterObserver _browserWindowDidResignKeyObserver;
-    struct TNotificationCenterObserver _tagsPopoverDidCloseObserver;
-    _Bool _isTornDown;
-    _Bool _darkBackground;
-    _Bool _showIconPreview;
-    _Bool _isEditingTags;
-    _Bool _forceSharingCollaboration;
-    _Bool _openSavePanelMode;
-    _Bool _allowsDraggingFilesIn;
-    FI_TBrowserViewDataSource *_dataSource;
-    FI_TNodeViewSettings *_viewSettings;
-    double _iconSize;
-    double _textSize;
-    optional_3471c94b _currentPopoverNodeCellIdentifierPair;
 }
 
 + (void *);
 + (void);
-+ (_Bool);
++ (_Bool)an;
 + (void);
 + (void):]ENK3$_5clEP19FI_TMouseOverButtonEUlvE1_ /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGRect);
+- (struct CGRect)`;
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (struct TFENode);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,6 +38,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,9 +47,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -88,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q!;
 - (void);
 - (void);
 - (unsigned long long);
@@ -97,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (int);
+- (int);
 - (struct TFENode);
 - (struct TFENode);
 - (optional_d2d213db);
@@ -113,6 +81,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)%@qA;
 - (void);
 - (void);
 - (void);
@@ -123,8 +92,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
@@ -140,12 +108,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (pair_83a520c6);
+- (pair_83a520c6)(;
 - (id);
-- (_Bool);
-- (struct TFENodeVector);
+- (_Bool)(;
+- (struct TFENodeVector))A;
 - (const void *);
-- (struct TFENode);
+- (struct TFENode)`;
 - (void);
 - (void);
 - (void);
@@ -170,7 +138,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -189,13 +157,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long)@@9;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)(;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void):(struct TFENode *)arg1;
 - (pair_9fabd6c6);
 - (struct CGRect);
 - (_Bool);
@@ -211,10 +179,10 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (struct CGRect);
 - (struct CGRect);
+- (void);
 - (void);
 - (void);
-- (void);
-- (optional_3471c94b);
+- (optional_0f35d996);
 - (id);
 - (id);
 - (void);
@@ -228,6 +196,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -247,6 +216,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)S�;
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -254,12 +227,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -270,10 +238,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (_Bool);
@@ -294,50 +262,830 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)qA;
+- (_Bool)A;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)__TEXT;
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)splitView:(_Bool)arg1 effectiveRect:forDrawnRect:ofDividerAtIndex: /* Error: Ran out of types for this method. */;
+- (void)set_brailleItalicRanges: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
+- (id)openHandler;
+- (void)notificationWithSummaryPostedForNotificationID:(id)arg1;
+- (id)notificationRemovedWithNotificationIDs:(id)arg1;
+- (void)messageRepositoryForTriageAction:(id)arg1;
+- (id)messageFlags;
+- (id)maybeLaterButtonTitle;
+- (struct CGRect)mailboxes;
 - (struct TFENodeVector);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)updateMessages:(id)arg1 mailboxes:forViewController: /* Error: Ran out of types for this method. */;
+- (id)scopeWithPointSize:(id)arg1 scale:(struct CGRect *)arg2 rightToLeft:(unsigned long long *)arg3 style: /* Error: Ran out of types for this method. */;
 - (const struct TFENode *);
-- (id);
+- (id)
+
+%%%$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%
+%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+%
+
+
+
+
+'
+%
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+!!!!!!!'!!!!!%%!
+
+
+
+%
+$$$
+
+		
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%
+
+%
+
+%'%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+
+
+'%%
+
+
+
+%%
+%
+
+%
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%
+%%%%%%%%%%%%%%%%%%%
+
+
+%
+
+
+
+
+
+%%%%'%%%%
+''%%%''$$$$
+
+
+
+
+
+
+
+
+
+
+
+
+%%
+%''%
+
+%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%'%''%
+
+
+%
+''$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	%	
+'%
+%%
+%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%
+
+
+
+
+
+
+
+
+%
+
+%'
+%
+%
+
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%'%%
+
+
+%
+%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%'%'
+
+
+
+'
+%%%'
+%%
+''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%'%
+
+	%
+%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+'%'%%%
+%'%%'%
+%%'%
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%'%%
+%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%
+
+
+
+
+
+
+
+
+%%%'%%%''%'%%'%'%%'
+	
+
+
+
+
+
+
+
+
+
+%%%''%%
+
+%%
+%'%'%%%%%%'%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+%'%%
+'
+
+
+
+
+
+
+
+
+
+
+!%%%%'%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%
+
+
+
+'%%%%%'%'%%%%'%'%%
+
+
+
+
+
+
+
+
+
+
+%%%%'%%
+%
+%%%%%%%%%%%%%%%%'
+
+
+
+
+
+'%'%'%
+%
+%''
+%%%'%'%
+%
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%'%%%%%%%%%%%%%%%%%%%%%%
+
+%%%'%%%%%%%'''%'%%%%%%
+
+
+
+
+
+
+
+%%%%%''%%%'%%%%'%%%%%%%%%%%%
+'%''%%%%%%%%
+	
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%'%''%'%%%'%%%%%
+	
+%%%%%%%
+
+
+'
+%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'%'%%%%%%%%
+
+
+
+%%
+'%'%%%%%
+'%%'%%'%%
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%
+%
+%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!!%!'
+
+%%%''%%'
+''
+!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%'%%!!!%%'%%%%%%%'%'''%%%%!!		
+
+
+
+
+
+
+
+
+
+
+
+
+'''%%''%
+%''''''''%'%''%'%'%'
+
+
+
+
+
+
+
+
+%%%%'%%%%%%%''%%%%''%'%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%'''%%'%%
+%%
+%%%%%%%%%%%%%%%%%%
+
+
+%%
+
+
+
+
+
+
+
+
+
+
+%$$%$$''''
+
+
+
+
+
+''''%''''$''%'''%$''$%$'$
+
+
+%
+
+$$$$$$$'
+'''$$'%'
+''%$'$$$$$%''
+''%''''%'!
+'
+!''$!$$'!
+$$'''''''''
+'''
+''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''
+%
+
+;
 - (id);
 - (void);
 - (double);
 - (void);
 - (double);
-- (id)idth: /* Error: Ran out of types for this method. */;
-- (unsigned long long)atedUserInterfaceItem;
+- (id)setWidthForColumn:width: /* Error: Ran out of types for this method. */;
+- (unsigned long long)NSValidatedUserInterfaceItem;
 - (void);
 - (void);
 - (void)P;
@@ -350,33 +1098,7 @@ __attribute__((visibility("hidden")))
 - (void)Bòÿ»"m;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDraggingFilesIn; // @synthesize allowsDraggingFilesIn=_allowsDraggingFilesIn;
-@property(retain, nonatomic) NSView *anchoringViewForSharingService;
-@property(nonatomic) __weak FI_TBrowserContainerController *containerController;
-@property(nonatomic) optional_3471c94b currentPopoverNodeCellIdentifierPair; // @synthesize currentPopoverNodeCellIdentifierPair=_currentPopoverNodeCellIdentifierPair;
-@property(readonly, nonatomic, getter=isDarkBackground) _Bool darkBackground; // @synthesize darkBackground=_darkBackground;
-@property(nonatomic) __weak FI_TBrowserViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceSharingCollaboration; // @synthesize forceSharingCollaboration=_forceSharingCollaboration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double iconSize; // @synthesize iconSize=_iconSize;
-@property(readonly, nonatomic) int includeBadgeInIconImage;
-@property(readonly, nonatomic) _Bool isEditingTags; // @synthesize isEditingTags=_isEditingTags;
 @property(retain, nonatomic) NSEvent *mouseDownEventForDrag;
-@property(nonatomic) struct TFENode nodeToDoubleClick;
-@property(nonatomic) _Bool openSavePanelMode; // @synthesize openSavePanelMode=_openSavePanelMode;
-@property(readonly, nonatomic) double scaleFactor;
-@property(readonly, nonatomic) unsigned long long selectedNodesCount;
-@property(nonatomic) _Bool showIconPreview; // @synthesize showIconPreview=_showIconPreview;
-@property(readonly) Class superclass;
-@property(nonatomic) double textSize; // @synthesize textSize=_textSize;
-@property(readonly, nonatomic) void *thumbnailController;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
-@property(retain, nonatomic) FI_TNodeViewSettings *viewSettings; // @synthesize viewSettings=_viewSettings;
 
 @end
 

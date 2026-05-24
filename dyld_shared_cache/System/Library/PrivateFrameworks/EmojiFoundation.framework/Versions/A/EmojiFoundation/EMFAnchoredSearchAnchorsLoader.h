@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFAnchoredSearchAnchorCollection, EMFAnchoredSearchAnchorsCache, NSArray, NSString;
+@class EMFAnchoredSearchAnchorsCache, NSString;
 
 @interface EMFAnchoredSearchAnchorsLoader
 {
     NSString *_localeIdentifier;
-    EMFAnchoredSearchAnchorsCache *_anchorsCache;
-    EMFAnchoredSearchAnchorCollection *_locallyCachedAnchorCollection;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)@?0@"NSTableViewRowAction"8q16;
+- (void)iew.;
+- (id)nu option to create a New Folder in the bookmarks sidebar.;
+- (id)compactFolderTableCellViewIdentifier;
+- (id)e sheet);
 - (void);
 - (id);
 - (id);
@@ -26,10 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EMFAnchoredSearchAnchorsCache *anchorsCache; // @synthesize anchorsCache=_anchorsCache;
-@property(readonly, nonatomic) NSArray *leftHandAnchors;
-@property(readonly, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) __weak EMFAnchoredSearchAnchorCollection *locallyCachedAnchorCollection; // @synthesize locallyCachedAnchorCollection=_locallyCachedAnchorCollection;
-@property(readonly, nonatomic) NSArray *rightHandAnchors;
 
 @end
 

@@ -12,10 +12,6 @@
 - (NSString *)ÿ ;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *externalCenteringView;
-@property(readonly, nonatomic) NSString *pageTitle;
 @property(nonatomic) __weak StartPageViewController *startPageViewController;
-@property(readonly, nonatomic) NSView *titleView;
-@property(readonly, nonatomic) double topContentInset;
 @end
 

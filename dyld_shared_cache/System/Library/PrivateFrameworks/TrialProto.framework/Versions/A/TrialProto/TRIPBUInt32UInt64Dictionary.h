@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt32UInt64Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -24,12 +23,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)rOfCloudKitTreatmentRecordAssetWithOffsets:(unsigned long long *)arg1 ]E3$_0;
 - (void);
 - (void);
 

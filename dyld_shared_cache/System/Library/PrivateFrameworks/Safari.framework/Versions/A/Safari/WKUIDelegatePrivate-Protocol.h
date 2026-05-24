@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu;
+
 @protocol WKUIDelegatePrivate
+
+@optional
+- (void);
+- (void)/;
+- (void)*;
+- (void)g;
+- (void);
+- (void);
+- (NSMenu *);
+- (_Bool);
 @end
 

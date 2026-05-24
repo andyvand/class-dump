@@ -4,37 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface searchToolL2_mobilemailInput
 {
     double _sparseL1;
-    double _denseL1;
-    double _isMailCategoryHighImpact;
-    double _isMailCategoryPromotions;
-    double _documentEmbeddingAvailable;
-    double _has_query_text_embedding;
-    double _kMDItemTextContent_QUPP_ARG_SEARCH_TERM;
-    double _kMDItemSubject_QUPP_ARG_SEARCH_TERM;
-    double _kMDItemTextContent_QUPP_ARG_PERSON;
-    double _kMDItemTextContent_QUPP_ARG_LOCATION;
-    double _kMDItemAuthors_QUPP_ARG_SEARCH_TERM;
-    double _kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT;
-    double _kMDItemTextContent_QUPP_ARG_TIME;
-    double _kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM;
-    double _kMDItemSubject_QUPP_ARG_LOCATION;
-    double _kMDItemSubject_QUPP_ARG_PERSON;
-    double _kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL;
-    double _kMDItemAppEntityTitle_QUPP_ARG_LOCATION;
-    double _kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT;
-    double _kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT;
-    double _kMDItemAuthors_QUPP_ARG_PERSON_SENDER;
-    double _kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL;
-    double _kMDItemAuthors_QUPP_ARG_PERSON;
-    double _kMDItemSubject_QUPP_ARG_TIME;
-    double _kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER;
-    double _kMDItemAuthors_QUPP_ARG_LOCATION;
 }
 
 - (double);
@@ -88,38 +61,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (double);
-- (double);
-- (double);
+- (double)oLoadViewDelegate>";
+- (double)setWaitingForPlayback: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ed;
+- (id)kMDItemPhotosEventPerformers_astyped;
 
 // Remaining properties
-@property(nonatomic) double denseL1; // @synthesize denseL1=_denseL1;
-@property(nonatomic) double documentEmbeddingAvailable; // @synthesize documentEmbeddingAvailable=_documentEmbeddingAvailable;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(nonatomic) double has_query_text_embedding; // @synthesize has_query_text_embedding=_has_query_text_embedding;
-@property(nonatomic) double isMailCategoryHighImpact; // @synthesize isMailCategoryHighImpact=_isMailCategoryHighImpact;
-@property(nonatomic) double isMailCategoryPromotions; // @synthesize isMailCategoryPromotions=_isMailCategoryPromotions;
-@property(nonatomic) double kMDItemAppEntityTitle_QUPP_ARG_LOCATION; // @synthesize kMDItemAppEntityTitle_QUPP_ARG_LOCATION=_kMDItemAppEntityTitle_QUPP_ARG_LOCATION;
-@property(nonatomic) double kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM; // @synthesize kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM=_kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM;
-@property(nonatomic) double kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER; // @synthesize kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER=_kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER;
-@property(nonatomic) double kMDItemAuthors_QUPP_ARG_LOCATION; // @synthesize kMDItemAuthors_QUPP_ARG_LOCATION=_kMDItemAuthors_QUPP_ARG_LOCATION;
-@property(nonatomic) double kMDItemAuthors_QUPP_ARG_PERSON; // @synthesize kMDItemAuthors_QUPP_ARG_PERSON=_kMDItemAuthors_QUPP_ARG_PERSON;
-@property(nonatomic) double kMDItemAuthors_QUPP_ARG_PERSON_SENDER; // @synthesize kMDItemAuthors_QUPP_ARG_PERSON_SENDER=_kMDItemAuthors_QUPP_ARG_PERSON_SENDER;
-@property(nonatomic) double kMDItemAuthors_QUPP_ARG_SEARCH_TERM; // @synthesize kMDItemAuthors_QUPP_ARG_SEARCH_TERM=_kMDItemAuthors_QUPP_ARG_SEARCH_TERM;
-@property(nonatomic) double kMDItemSubject_QUPP_ARG_LOCATION; // @synthesize kMDItemSubject_QUPP_ARG_LOCATION=_kMDItemSubject_QUPP_ARG_LOCATION;
-@property(nonatomic) double kMDItemSubject_QUPP_ARG_PERSON; // @synthesize kMDItemSubject_QUPP_ARG_PERSON=_kMDItemSubject_QUPP_ARG_PERSON;
-@property(nonatomic) double kMDItemSubject_QUPP_ARG_SEARCH_TERM; // @synthesize kMDItemSubject_QUPP_ARG_SEARCH_TERM=_kMDItemSubject_QUPP_ARG_SEARCH_TERM;
-@property(nonatomic) double kMDItemSubject_QUPP_ARG_TIME; // @synthesize kMDItemSubject_QUPP_ARG_TIME=_kMDItemSubject_QUPP_ARG_TIME;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT; // @synthesize kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT=_kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT; // @synthesize kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT=_kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL; // @synthesize kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL=_kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT; // @synthesize kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT=_kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_LOCATION; // @synthesize kMDItemTextContent_QUPP_ARG_LOCATION=_kMDItemTextContent_QUPP_ARG_LOCATION;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL; // @synthesize kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL=_kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_PERSON; // @synthesize kMDItemTextContent_QUPP_ARG_PERSON=_kMDItemTextContent_QUPP_ARG_PERSON;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_SEARCH_TERM; // @synthesize kMDItemTextContent_QUPP_ARG_SEARCH_TERM=_kMDItemTextContent_QUPP_ARG_SEARCH_TERM;
-@property(nonatomic) double kMDItemTextContent_QUPP_ARG_TIME; // @synthesize kMDItemTextContent_QUPP_ARG_TIME=_kMDItemTextContent_QUPP_ARG_TIME;
 @property(nonatomic) double sparseL1; // @synthesize sparseL1=_sparseL1;
 
 @end

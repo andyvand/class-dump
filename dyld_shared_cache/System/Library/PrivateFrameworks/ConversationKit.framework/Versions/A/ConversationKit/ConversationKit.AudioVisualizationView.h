@@ -7,7 +7,6 @@
 @interface ConversationKit.AudioVisualizationView
 {
     id colorStyle;
-    id gradient;
 }
 
 - (id);

@@ -5,5 +5,8 @@
 //
 
 @protocol SORemoteExtensionContextProtocol
+- (void);
+- (void)y�;
+- (void);
 @end
 

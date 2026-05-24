@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id);
++ (void)tem/iOSSupport/System/Library/AccessibilityBundles/MobileSafariFramework.axbundle/Contents/MacOS/MobileSafariFramework;
 - (_Bool);
 - (unsigned long long);
 - (id);

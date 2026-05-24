@@ -6,48 +6,30 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, NSOrderedSet, NSString;
+@class NSOrderedSet;
 
 @interface MLOneHotEncoder : MLModelEngine
 {
     _Bool _ouputSparse;
-    _Bool _handleUnknown;
-    NSOrderedSet *_featureEncoding;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (id)ions (%lu).;
+- (_Bool)n or equal to %lu;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (unsigned long long)8X;
 - (void)ayer:Window Size can't be larger than the dimension length. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSOrderedSet *featureEncoding; // @synthesize featureEncoding=_featureEncoding;
-@property(readonly, nonatomic) _Bool handleUnknown; // @synthesize handleUnknown=_handleUnknown;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) _Bool ouputSparse; // @synthesize ouputSparse=_ouputSparse;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

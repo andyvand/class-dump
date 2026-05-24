@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SWReachabilityProvider, SXResourceDataSourceProvider;
+@protocol SXResourceDataSourceProvider;
 
 @interface SXImageViewFactory
 {
     id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
-    id <SWReachabilityProvider> _reachabilityProvider;
 }
 
 - (id);
@@ -21,15 +19,7 @@
 - (void)@"WKWebView"16@"WKDownload"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
 @property(readonly, nonatomic) id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
-@property(readonly) Class superclass;
 
 @end
 

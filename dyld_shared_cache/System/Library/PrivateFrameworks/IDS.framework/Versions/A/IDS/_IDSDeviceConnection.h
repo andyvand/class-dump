@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSInputStream, NSMutableDictionary, NSNumber, NSObject, NSOutputStream, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface _IDSDeviceConnection
 {
     NSString *_nsuuid;
-    NSString *_service;
-    NSString *_streamName;
-    NSString *_serviceToken;
-    NSString *_connectionUUID;
-    NSString *_clientName;
-    CDUnknownBlockType _openSocketCompletionHandler;
-    NSObject<OS_dispatch_queue> *_openSocketCompletionHandlerQueue;
-    NSString *_openSocketCompletionHandlerID;
-    NSInputStream *_inputStreamForSocket;
-    NSOutputStream *_outputStreamForSocket;
-    NSNumber *_clientTimeout;
-    NSMutableDictionary *_awdMetrics;
-    unsigned long long _mtu;
-    int _socket;
-    _Bool _isDefaultPairedDevice;
-    _Bool _hasTimedOut;
 }
 
 - (_Bool);
@@ -34,7 +17,7 @@
 - (id);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -43,23 +26,12 @@
 - (void);
 - (void)
 × ;
-- (void)erSecond;
+- (void)OutputBytesPerSecond;
 - (void)onnect];
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSInputStream *inputStream;
-@property(readonly, nonatomic) NSDictionary *metrics;
-@property(readonly, nonatomic) unsigned long long mtu;
-@property(readonly, nonatomic) NSOutputStream *outputStream;
 @property(readonly, nonatomic) int socket;
-@property(readonly) Class superclass;
 
 @end
 

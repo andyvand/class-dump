@@ -7,17 +7,15 @@
 @interface TSPObjectContextObserver
 {
     id _target;
-    SEL _action;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)e group data to fetch;
 - (SEL);
 - (void)8µ;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
 @property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

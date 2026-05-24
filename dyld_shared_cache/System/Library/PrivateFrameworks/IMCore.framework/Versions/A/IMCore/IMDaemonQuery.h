@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMDaemonQuery
 {
     NSString *_ID;
-    NSString *_key;
-    NSDate *_startDate;
-    CDUnknownBlockType _completionHandler;
 }
 
+- (id)itching payloads from payload=%d -> %d %d samplesPerFrame;
 - (id);
-- (id);
-- (id);
+- (id)b;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ID; // @synthesize ID=_ID;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

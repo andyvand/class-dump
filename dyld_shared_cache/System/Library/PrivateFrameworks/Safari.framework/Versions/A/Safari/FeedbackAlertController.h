@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSButton, NSPopUpButton, NSString, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface FeedbackAlertController
 {
     NSWindow *_sheetWindow;
-    NSAlert *_alert;
-    NSButton *_cancelButton;
-    NSButton *_reportButton;
-    double _stackViewWidth;
-    NSPopUpButton *_issuePopupButton;
-    NSPopUpButton *_subCategoryPopupButton;
 }
 
 - (id);
@@ -30,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)F;
 - (void);
 - (id);
 - (id);
@@ -38,19 +32,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)Pô
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

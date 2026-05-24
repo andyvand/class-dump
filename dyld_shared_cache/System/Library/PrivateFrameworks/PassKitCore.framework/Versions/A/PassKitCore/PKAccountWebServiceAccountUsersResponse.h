@@ -6,21 +6,19 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSDate, NSSet;
+@class NSSet;
 
 @interface PKAccountWebServiceAccountUsersResponse : PKAccountWebServiceResponse
 {
     NSSet *_users;
-    NSDate *_lastUpdated;
 }
 
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void)ntRequirementsCheckResult;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 @property(readonly, copy, nonatomic) NSSet *users; // @synthesize users=_users;
 
 @end

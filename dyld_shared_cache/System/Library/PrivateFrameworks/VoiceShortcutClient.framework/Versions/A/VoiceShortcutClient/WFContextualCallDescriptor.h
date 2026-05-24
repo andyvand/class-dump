@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSString;
-@protocol WFPropertyListObject;
+@class NSString;
 
 @interface WFContextualCallDescriptor
 {
     NSString *_handle;
-    unsigned long long _callType;
-    id <WFPropertyListObject> _callTypeSerializedRepresentation;
-    INPerson *_person;
-    id <WFPropertyListObject> _personSerializedRepresentation;
 }
 
 + (_Bool);
+- (id)3|;
 - (id);
-- (id);
-- (id);
+- (id)g;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)SString";
+- (_Bool)5˿;
 - (void);
+- (id)so;
 - (id);
-- (id);
-- (id);
+- (id)typingTextViewDidEndEditing;
 - (void)AU°!X@ùñ^°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long callType; // @synthesize callType=_callType;
-@property(readonly, nonatomic) id <WFPropertyListObject> callTypeSerializedRepresentation; // @synthesize callTypeSerializedRepresentation=_callTypeSerializedRepresentation;
 @property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) INPerson *person; // @synthesize person=_person;
-@property(readonly, nonatomic) id <WFPropertyListObject> personSerializedRepresentation; // @synthesize personSerializedRepresentation=_personSerializedRepresentation;
 
 @end
 

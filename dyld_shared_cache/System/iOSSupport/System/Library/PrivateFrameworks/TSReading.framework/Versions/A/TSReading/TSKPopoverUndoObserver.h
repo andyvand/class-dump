@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSUndoManager;
+@class NSUndoManager;
 
 @interface TSKPopoverUndoObserver
 {
     NSUndoManager *mUndoManager;
-    NSMutableSet *mPopoverBasedViewControllers;
-    NSMutableSet *mPopoverControllers;
 }
 
 + (id);
+- (void)ReleaseType;
+- (void)orkType;
+- (void)ayerController - resetQueue [Start] - keepCurrentItem:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)- item:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)];
 - (void);
 - (id);
 

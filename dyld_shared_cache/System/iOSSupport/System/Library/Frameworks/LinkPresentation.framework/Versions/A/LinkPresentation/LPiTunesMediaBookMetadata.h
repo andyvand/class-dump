@@ -6,36 +6,28 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
-
 @interface LPiTunesMediaBookMetadata : LPSpecializationMetadata
 {
     _Bool _hasSpineOnRight;
-    NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_author;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startDownloadingTranslationAssetsForLanguageCodes:completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)transcriptSatelliteSuppressedNotificationFontAttributes;
+- (void)transcriptCollectionViewController:(_Bool)arg1 willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (void)w:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 balloonView:tappedForChatItem: /* Error: Ran out of types for this method. */;
+- (id)ransitionProperties:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 balloonView:showInlineReplyForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 balloonView:selectedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)textView:(id)arg1 willBeginFormattingWithViewController: /* Error: Ran out of types for this method. */;
+- (void)systemApplicationDidBecomeActive;
+- (_Bool)supportsDynamicallyTogglingAllowsTextAnimations;
+- (id)supplementaryColumnWidth;
 - (void);
 - (id);
+- (void)/;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -44,27 +36,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 - (id);
 - (id)esentation.MediaFetching;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSpineOnRight; // @synthesize hasSpineOnRight=_hasSpineOnRight;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

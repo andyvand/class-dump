@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPersonalizationTreatment, FCSubscriptionController, NSOrderedSet, NSString, NSURL;
+@class NSURL;
 
 @interface FCUserVector
 {
     NSURL *_whitelistURL;
-    NSURL *_modelURL;
-    FCPersonalizationTreatment *_personalizationTreatment;
-    NSOrderedSet *_bundleChannelIDs;
-    NSOrderedSet *_sportsTagIDs;
-    NSString *_bundleChannelIDsVersion;
-    FCSubscriptionController *_subscriptionController;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)send FTMessage:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id):smarterFetchSources:smarterFetchStrategy: /* Error: Ran out of types for this method. */;
 - (id)undleOntologyLevelConfig;
-- (void)address;
+- (void)external_anlaytics_local_server_ip_address;
 - (void)lid JSON response format;
 - (id)}´ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSOrderedSet *bundleChannelIDs; // @synthesize bundleChannelIDs=_bundleChannelIDs;
-@property(retain, nonatomic) NSString *bundleChannelIDsVersion; // @synthesize bundleChannelIDsVersion=_bundleChannelIDsVersion;
-@property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(retain, nonatomic) FCPersonalizationTreatment *personalizationTreatment; // @synthesize personalizationTreatment=_personalizationTreatment;
-@property(retain, nonatomic) NSOrderedSet *sportsTagIDs; // @synthesize sportsTagIDs=_sportsTagIDs;
-@property(retain, nonatomic) FCSubscriptionController *subscriptionController; // @synthesize subscriptionController=_subscriptionController;
 @property(retain, nonatomic) NSURL *whitelistURL; // @synthesize whitelistURL=_whitelistURL;
 
 @end

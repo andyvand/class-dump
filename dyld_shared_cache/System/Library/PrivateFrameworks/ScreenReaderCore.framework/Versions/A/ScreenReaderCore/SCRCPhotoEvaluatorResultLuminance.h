@@ -9,19 +9,15 @@
 @interface SCRCPhotoEvaluatorResultLuminance : SCRCPhotoEvaluatorResult
 {
     double _darknessLevel;
-    double _brightnessLevel;
-    double _averageLevel;
 }
 
 - (id);
 - (double);
 - (double);
 - (id);
-- (double);
+- (double)wm;
 
 // Remaining properties
-@property(readonly, nonatomic) double averageLevel; // @synthesize averageLevel=_averageLevel;
-@property(readonly, nonatomic) double brightnessLevel; // @synthesize brightnessLevel=_brightnessLevel;
 @property(readonly, nonatomic) double darknessLevel; // @synthesize darknessLevel=_darknessLevel;
 
 @end

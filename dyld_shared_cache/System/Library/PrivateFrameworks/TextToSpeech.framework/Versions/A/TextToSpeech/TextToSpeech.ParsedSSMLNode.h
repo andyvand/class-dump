@@ -9,20 +9,11 @@
 @interface TextToSpeech.ParsedSSMLNode
 {
     id parent;
-    id tag;
-    id tagName;
-    id attributes;
-    id children;
-    id range;
-    id tagStartRange;
-    id tagEndRange;
-    id utf8StartOffset;
-    id rawText;
 }
 
 - (id);
 - (id);
-- (void)iceResourceAsset;
+- (void)TTSVoiceResourceAsset;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

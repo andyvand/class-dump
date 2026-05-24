@@ -6,19 +6,16 @@
 
 #import <AudioSession/AVAudioHardwareControl.h>
 
-@class NSIndexSet;
-
 @interface AVAudioHardwareStereoPanControl : AVAudioHardwareControl
 {
 }
 
-- (id);
-- (_Bool);
+- (id)mpt;
+- (_Bool)NSArray",&,N;
 - (id);
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *channelIDs;
 @property(readonly, nonatomic) float value;
 
 @end

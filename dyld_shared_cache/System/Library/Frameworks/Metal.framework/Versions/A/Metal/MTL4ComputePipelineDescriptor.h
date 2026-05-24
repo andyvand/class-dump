@@ -6,17 +6,11 @@
 
 #import <Metal/MTL4PipelineDescriptor.h>
 
-@class MTL4FunctionDescriptor, MTL4StaticLinkingDescriptor;
+@class MTL4FunctionDescriptor;
 
 @interface MTL4ComputePipelineDescriptor : MTL4PipelineDescriptor
 {
     _Bool _threadGroupSizeIsMultipleOfThreadExecutionWidth;
-    _Bool _supportBinaryLinking;
-    MTL4StaticLinkingDescriptor *_staticLinkingDescriptor;
-    long long _supportIndirectCommandBuffers;
-    MTL4FunctionDescriptor *_computeFunctionDescriptor;
-    unsigned long long _maxTotalThreadsPerThreadgroup;
-    CDStruct_da2e99ad _requiredThreadsPerThreadgroup;
 }
 
 - (void);
@@ -26,29 +20,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)rightEyeRightY;
 - (void);
 - (unsigned long long);
+- (void)_k;
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)h;
+- (unsigned long long);
 - (CDStruct_da2e99ad);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)J=;
 - (void);
 - (void);
 - (long long)ðÿ;
 
 // Remaining properties
 @property(copy, nonatomic) MTL4FunctionDescriptor *computeFunctionDescriptor; // @synthesize computeFunctionDescriptor=_computeFunctionDescriptor;
-@property(nonatomic) unsigned long long maxTotalThreadsPerThreadgroup; // @synthesize maxTotalThreadsPerThreadgroup=_maxTotalThreadsPerThreadgroup;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerThreadgroup; // @synthesize requiredThreadsPerThreadgroup=_requiredThreadsPerThreadgroup;
-@property(copy, nonatomic) MTL4StaticLinkingDescriptor *staticLinkingDescriptor; // @synthesize staticLinkingDescriptor=_staticLinkingDescriptor;
-@property(nonatomic) _Bool supportBinaryLinking; // @synthesize supportBinaryLinking=_supportBinaryLinking;
-@property(nonatomic) long long supportIndirectCommandBuffers; // @synthesize supportIndirectCommandBuffers=_supportIndirectCommandBuffers;
-@property(nonatomic) _Bool threadGroupSizeIsMultipleOfThreadExecutionWidth; // @synthesize threadGroupSizeIsMultipleOfThreadExecutionWidth=_threadGroupSizeIsMultipleOfThreadExecutionWidth;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface HomeKitSchemaHomeKitEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_hkId;
-    _Bool _hasHkId;
 }
 
 - (void);
@@ -21,11 +20,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)`;
+- (unsigned long long)!;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_width;
 - (id)
 × ;
 - (id)ng",C,N,V_referenceName;
@@ -33,9 +32,7 @@
 - (void)yÉÿ5#¶õ#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHkId; // @synthesize hasHkId=_hasHkId;
 @property(retain, nonatomic) SISchemaUUID *hkId; // @synthesize hkId=_hkId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, QLPlatformImage, QLServerSatellite, QLTGeneratorThumbnailRequest, QLThumbnailExtensionGenerator, QLThumbnailItem, QLThumbnailMetadata;
-@protocol OS_dispatch_queue;
+@class QLTGeneratorThumbnailRequest;
 
 @interface QLPreviewThumbnailGenerator
 {
     QLTGeneratorThumbnailRequest *_request;
-    QLThumbnailItem *_item;
-    int _status;
-    NSObject<OS_dispatch_queue> *_generationQueue;
-    _Bool _resultIsLowQuality;
-    struct __QLThumbnailRequest *_satelliteRequest;
-    _Bool _wantsLowQuality;
-    _Bool _resultHasIconModeApplied;
-    int _flavor;
-    QLThumbnailMetadata *generatedProperties;
-    NSArray *_thumbnailImages;
-    NSString *_extensionBadge;
-    unsigned long long _sandboxExtension;
-    QLThumbnailExtensionGenerator *_extensionGenerator;
-    QLServerSatellite *_satellite;
-    struct CGRect _contentRect;
 }
 
 + (_Bool);
+- (void)8;
+- (void)gs);
+- (void)eport;
+- (void)com.apple.symptom_diagnostics;
+- (void)ple.symptoms.diagnostics_transport.queue;
+- (void)h;
+- (struct __QLThumbnailRequest *)HighConsecutiveAudioErasuresGroup;
+- (_Bool)ExtendedPoorConnectionGroup;
+- (_Bool)ConnectionHealth;
+- (id)timestampsIncidentEvents;
+- (void)e;
+- (void)SymptomAnalyticsLegacy;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct __QLThumbnailRequest *);
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
+- (void)7;
+- (double)K;
 - (void);
 - (void);
 - (void);
@@ -52,17 +36,17 @@
 - (struct CGContext *);
 - (struct CGContext *);
 - (struct CGContext *);
-- (id);
+- (id)';
+- (void)setHasTriggeredHeuristicRule:(id)arg1;
+- (void)setHasTriggerType:(id)arg1;
+- (void)setHasTriggerPhrase:(id)arg1;
+- (id)setHasTestAssociatedSchemaIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasStorefront: /* Error: Ran out of types for this method. */;
+- (void)llPayloadCorrectionContext",&,N,V_fullPayloadCorrectionContext;
+- (id)setRetryNumber: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)$;
 - (id);
 - (id);
 - (void);
@@ -74,28 +58,12 @@
 - (int);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)key;
 - (void);
 - (void);
 
 // Remaining properties
-@property struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(copy) NSString *extensionBadge; // @synthesize extensionBadge=_extensionBadge;
-@property(retain) QLThumbnailExtensionGenerator *extensionGenerator; // @synthesize extensionGenerator=_extensionGenerator;
-@property int flavor; // @synthesize flavor=_flavor;
-@property(retain) QLThumbnailMetadata *generatedProperties; // @synthesize generatedProperties;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *generationQueue; // @synthesize generationQueue=_generationQueue;
-@property(retain) QLThumbnailItem *item; // @synthesize item=_item;
-@property(retain) QLTGeneratorThumbnailRequest *request; // @synthesize request=_request;
-@property _Bool resultHasIconModeApplied; // @synthesize resultHasIconModeApplied=_resultHasIconModeApplied;
 @property _Bool resultIsLowQuality; // @synthesize resultIsLowQuality=_resultIsLowQuality;
-@property unsigned long long sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
-@property(retain) QLServerSatellite *satellite; // @synthesize satellite=_satellite;
-@property struct __QLThumbnailRequest *satelliteRequest;
-@property int status; // @synthesize status=_status;
-@property(readonly) QLPlatformImage *thumbnailImage;
-@property(copy) NSArray *thumbnailImages; // @synthesize thumbnailImages=_thumbnailImages;
-@property _Bool wantsLowQuality; // @synthesize wantsLowQuality=_wantsLowQuality;
 
 @end
 

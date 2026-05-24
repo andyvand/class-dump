@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface SIRINLULegacyNLContext
 {
     _Bool _dictationPrompt;
-    _Bool _strictPrompt;
-    _Bool _listenAfterSpeaking;
-    _Bool _fromPommes;
-    int _legacyContextSource;
-    NSString *_previousDomainName;
-    NSArray *_renderedTexts;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,7 +26,7 @@
 - (id);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
 - (void);
@@ -42,12 +34,6 @@
 
 // Remaining properties
 @property _Bool dictationPrompt; // @synthesize dictationPrompt=_dictationPrompt;
-@property _Bool fromPommes; // @synthesize fromPommes=_fromPommes;
-@property(nonatomic) int legacyContextSource; // @synthesize legacyContextSource=_legacyContextSource;
-@property _Bool listenAfterSpeaking; // @synthesize listenAfterSpeaking=_listenAfterSpeaking;
-@property(retain, nonatomic) NSString *previousDomainName; // @synthesize previousDomainName=_previousDomainName;
-@property(retain, nonatomic) NSArray *renderedTexts; // @synthesize renderedTexts=_renderedTexts;
-@property _Bool strictPrompt; // @synthesize strictPrompt=_strictPrompt;
 
 @end
 

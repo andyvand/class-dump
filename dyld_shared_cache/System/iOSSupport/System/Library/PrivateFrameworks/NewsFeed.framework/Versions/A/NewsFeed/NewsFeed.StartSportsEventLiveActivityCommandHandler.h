@@ -7,8 +7,6 @@
 @interface NewsFeed.StartSportsEventLiveActivityCommandHandler
 {
     id urlHandler;
-    id sportsLiveActivityCache;
-    id sportsLiveActivityManager;
 }
 
 @end

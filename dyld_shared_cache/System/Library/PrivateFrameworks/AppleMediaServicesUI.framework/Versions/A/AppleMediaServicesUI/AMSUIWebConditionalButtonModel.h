@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebButtonModel, NSString;
+@class AMSUIWebButtonModel;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebConditionalButtonModel
 {
     _Bool _hideOnModal;
-    _Bool _hideOnPush;
-    AMSUIWebButtonModel *_button;
 }
 
-- (void);
+- (void)rectory at url %{public}@:(_Bool)arg1 (%{public}@);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)p{;
 - (void)arser"16@"NSString"24;
-- (id)tches;
+- (id)matches;
 
 // Remaining properties
 @property(retain) AMSUIWebButtonModel *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool hideOnModal; // @synthesize hideOnModal=_hideOnModal;
-@property _Bool hideOnPush; // @synthesize hideOnPush=_hideOnPush;
-@property(readonly) Class superclass;
 
 @end
 

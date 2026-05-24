@@ -5,5 +5,8 @@
 //
 
 @protocol EKEventEditViewDelegateOutOfProcessOnly
+
+@optional
+- (void)ؑ&s;
 @end
 

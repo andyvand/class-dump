@@ -6,19 +6,14 @@
 
 #import <AppKit/NSView.h>
 
-@class NSRemoteView, NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface NSWindowSharingRequestHostView : NSView
 {
     long long _requestState;
-    NSRemoteView *_remoteView;
-    NSWindow *_targetWindow;
-    CDUnknownBlockType _requestCompletionHandler;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)ted are mutually exclusive. Caller provided parameters [%s%s%s ];
 - (id);
 - (void);
 - (void);
@@ -32,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)meForItem:(struct CGRect)arg1;
+- (id)tabButtonFrameForItem:(struct CGRect)arg1;
 - (void)rd-detection-pattern.dd.event;
 - (void)w;
 - (id)STextSuggestionsDelegate+ObjectiveCBridgeable.swift;

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (void)iderStopped;
+- (void)_speedThresholdsToConsiderStopped;
 
 @end
 

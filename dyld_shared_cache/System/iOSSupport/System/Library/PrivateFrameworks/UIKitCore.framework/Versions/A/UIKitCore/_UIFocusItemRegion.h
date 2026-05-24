@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
     id <UIFocusItem> _item;
 }
 
+- (id)groupPhotoUpdatedForChatIdentifier:(struct CGRect)arg1 style:(id)arg2 account:(id)arg3 userInfo:(id)arg4;
+- (id)groupPhotoCreationTime;
+- (long long)gizmoDBVersion %ld;
+- (id)ss request with ID %@ - will piggyback off of existing request instead of starting a new one.;
+- (unsigned long long)nicknames to peers and client;
+- (id):(struct CGRect)arg1 %@;
+- (id)ber of attachment metadata batches to fetch as this is in demo mode.;
+- (id)ting transfer %@ with size %@;
+- (id)ock record, setting the lock record to nil to re-generate on next sync;
+- (_Bool)accounts:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)laborationId %@ was nil;
 - (id);
-- (id);
-- (long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool)ownSecureLabelImageLayerIfNeeded;
+- (_Bool)teardownSecureLabelImageLayerIfNeeded;
 - (void);
 
 // Remaining properties

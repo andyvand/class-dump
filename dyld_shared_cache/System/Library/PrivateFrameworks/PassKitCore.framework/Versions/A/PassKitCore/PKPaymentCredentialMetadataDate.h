@@ -15,10 +15,10 @@
 
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id)tionName:(id)arg1;
-- (void)DESCRIPTION;
+- (unsigned long long)@;
+- (_Bool)setHasTcpiRxoutoforderbytes:(id)arg1;
+- (id)setApplicationName:(id)arg1;
+- (void)PEER_PAYMENT_UNSUPPORTED_PAYMENT_METHOD_ERROR_DESCRIPTION;
 - (id)statementBalance;
 
 // Remaining properties

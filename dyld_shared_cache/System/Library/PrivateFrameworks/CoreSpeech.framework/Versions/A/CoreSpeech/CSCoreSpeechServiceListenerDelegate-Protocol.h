@@ -5,5 +5,7 @@
 //
 
 @protocol CSCoreSpeechServiceListenerDelegate
+- (oneway void);
+- (oneway void)O;
 @end
 

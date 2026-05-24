@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSHashTable;
 
 @interface SXMultiScrollViewDelegate
 {
     NSHashTable *_scrollViewDelegates;
-    NSHashTable *_tskScrollViewDelegates;
 }
 
-- (id);
+- (id)^;
 - (void);
 - (void);
 - (void);
 - (id);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_channel;
 - (void);
 - (void);
 - (void);
@@ -42,15 +41,7 @@
 - (void)r;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSHashTable *scrollViewDelegates; // @synthesize scrollViewDelegates=_scrollViewDelegates;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSHashTable *tskScrollViewDelegates; // @synthesize tskScrollViewDelegates=_tskScrollViewDelegates;
 
 @end
 

@@ -6,20 +6,18 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSGridView, NSImageView, NSPopover;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTouchBarInspectorViewController : NSViewController
 {
     NSImageView *_imageView;
-    NSGridView *_gridView;
-    NSPopover *_inspectorPopover;
 }
 
+- (void)2nu;
 - (void);
-- (void);
-- (void);
-- (void)reviousKeyWindowFromSavedProperties;
+- (void);
+- (void)_restorePreviousKeyWindowFromSavedProperties;
 - (void)_needsTilingConstraintUpdate;
 
 @end

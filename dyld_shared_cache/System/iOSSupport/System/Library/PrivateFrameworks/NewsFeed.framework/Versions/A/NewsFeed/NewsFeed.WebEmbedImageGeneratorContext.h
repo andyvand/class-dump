@@ -7,7 +7,6 @@
 @interface NewsFeed.WebEmbedImageGeneratorContext
 {
     id request;
-    id webContentViewController;
 }
 
 @end

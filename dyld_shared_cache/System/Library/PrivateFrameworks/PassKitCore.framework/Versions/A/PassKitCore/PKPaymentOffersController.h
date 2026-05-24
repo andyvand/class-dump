@@ -4,56 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSHashTable, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSString, NSURL, PKPaymentOfferCatalog, PKPaymentOfferMerchandisingOfferDetails, PKPaymentOffersControllerRequest, PKPaymentOffersControllerSelectedOfferDetails, PKPaymentOffersSessionDetails, PKPaymentService, PKPaymentWebService;
-@protocol OS_dispatch_queue;
+@class PKPaymentOffersSessionDetails, PKPaymentService;
 
 @interface PKPaymentOffersController
 {
     PKPaymentService *_paymentService;
-    PKPaymentWebService *_paymentWebService;
-    NSError *_loadingError;
-    NSURL *_baseURL;
-    NSMutableDictionary *_sessionIdentifierForCriteriaIdentifier;
-    NSMutableDictionary *_paymentOffersForCriteriaIdentifier;
-    NSMutableDictionary *_rewardsBalancesForPassUniqueID;
-    NSMutableDictionary *_languageDisclosuresSeenForCriteriaIdentifier;
-    NSMutableDictionary *_preferredLanguageForCriteriaIdentifier;
-    NSMutableDictionary *_preconfiguredInstallmentStateForPassUniqueID;
-    NSArray *_allSelectedInStorePaymentOffers;
-    PKPaymentOfferMerchandisingOfferDetails *_currentMerchandisingOfferDetails;
-    NSMutableOrderedSet *_queuedRequests;
-    PKPaymentOffersControllerRequest *_currentRequest;
-    NSMutableOrderedSet *_inflightMerchandisingRequests;
-    NSMutableOrderedSet *_queuedMerchandisingRequests;
-    NSMutableSet *_fetchedMerchandisingIdentifiers;
-    PKPaymentOfferCatalog *_catalog;
-    _Bool _hasFetchedCatalogFromServer;
-    _Bool _didReceiveValidMerchantSession;
-    _Bool _didSendPaymentOfferStatus;
-    unsigned long long _catalogLoadingState;
-    NSMutableDictionary *_requestLoadingDetails;
-    NSMutableDictionary *_dynamicContentPagesByCriteriaIdentifier;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    struct os_unfair_lock_s _lockObservers;
-    NSHashTable *_observers;
-    _Bool _consumingSelectedPaymentOffer;
-    PKPaymentOffersSessionDetails *_configuration;
-    NSString *_selectedPassUniqueID;
-    PKPaymentOffersControllerSelectedOfferDetails *_selectedOfferDetails;
 }
 
 + (id)º^H=ÔL\(;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)0;
 - (id);
 - (id);
 - (id);
@@ -62,74 +31,58 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (id)@;
+- (id)c;
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)h;
 - (unsigned long long);
+- (id)�h;
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool)k	.;
+- (_Bool)";
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)0;
+- (id);
+- (id)*a;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)=;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@9;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -137,26 +90,32 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)h;
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)?	;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void)aymentApplicationsWithSecureElementIdentifiers:(id)arg1 called with no identifiers. Here be dragons!;
-- (void);
+- (void)flightCode;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentOffersSessionDetails *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) _Bool consumingSelectedPaymentOffer; // @synthesize consumingSelectedPaymentOffer=_consumingSelectedPaymentOffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKPaymentOffersControllerSelectedOfferDetails *selectedOfferDetails; // @synthesize selectedOfferDetails=_selectedOfferDetails;
-@property(retain, nonatomic) NSString *selectedPassUniqueID; // @synthesize selectedPassUniqueID=_selectedPassUniqueID;
-@property(readonly) Class superclass;
 
 @end
 

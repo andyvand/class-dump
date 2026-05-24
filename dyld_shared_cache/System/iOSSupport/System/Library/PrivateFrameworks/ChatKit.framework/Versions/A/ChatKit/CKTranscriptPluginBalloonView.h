@@ -6,85 +6,66 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class ChatKit.CKBalloonLayer, ChatKit.CKBalloonMaskLayer, IMBalloonPluginDataSource, NSString, UIView, UIViewController;
-@protocol CKTranscriptPluginView;
-
 @interface CKTranscriptPluginBalloonView : CKBalloonView
 {
     _Bool _isInteractive;
-    _Bool _mayReparentPluginViews;
-    _Bool _scheduled;
-    _Bool _isSyndicationOnboarding;
-    _Bool _suppressMask;
-    long long _userInterfaceStyle;
-    long long _userInterfaceLevel;
-    UIViewController *_pluginViewController;
-    UIView<CKTranscriptPluginView> *_pluginView;
-    IMBalloonPluginDataSource *_dataSource;
-    UIView *_pluginSnapshotViewForThrowAnimation;
-    ChatKit.CKBalloonLayer *_pluginOverlayBalloonLayer;
-    UIView *_pluginContainerView;
-    ChatKit.CKBalloonMaskLayer *_pluginContainerMaskLayer;
-    ChatKit.CKBalloonLayer *_backdropBalloonLayer;
-    UIView *_pluginSnapshotView;
-    UIView *_suggestedActionsBackgroundView;
 }
 
+- (void)CAttachmentInsertionDelegate>";
+- (_Bool)mNotesVersion:completion: /* Error: Ran out of types for this method. */;
+- (id)setWidthConstraint: /* Error: Ran out of types for this method. */;
+- (struct CGSize)setNeedsInitialFetchFromCloud:(struct CGSize)arg1;
+- (_Bool)setAttachmentCell: /* Error: Ran out of types for this method. */;
+- (_Bool)serverRecord;
+- (_Bool)searchIndexerWillDeleteSearchableItemsWithObjectIDURIs: /* Error: Ran out of types for this method. */;
+- (void)perspectiveCorrectedImageFromImage:(id)arg1 normalizedImageQuad: /* Error: Ran out of types for this method. */;
+- (void)persistentContainer;
+- (void)objectEnumerator;
+- (void)localizedFrameworkStringForKey:(id)arg1 value:table:allowSiri: /* Error: Ran out of types for this method. */;
+- (void)localizedFrameworkStringForKey:(id)arg1 value:table:allowSiri: /* Error: Ran out of types for this method. */;
+- (void)localeWithLocaleIdentifier:(id)arg1;
+- (void)localZoomFactorIndex;
+- (void)loadOrientedImage;
+- (void)loadAttachmentContentForURLSchemeTask:(id)arg1;
 - (void);
-- (_Bool);
-- (id);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CKBalloonDescriptor_t);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
-- (struct CKBalloonDescriptor_t);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
+- (void)integerForKey:(_Bool)arg1;
+- (void)initWithNotes:(_Bool)arg1 toFolder:legacyContext:didCopyBlock: /* Error: Ran out of types for this method. */;
+- (void)imageScaling;
+- (void)imageForGraphicSymbolDescriptor:(_Bool)arg1;
+- (void)highlightsAttributedStringForTextStorage:(_Bool)arg1;
+- (void)genericBrickThumbnailWithSize:(id)arg1 scale: /* Error: Ran out of types for this method. */;
+- (void)_outlineController;
+- (id)_orientedImage;
+- (id)_onlyAcceptsCustomZooms;
+- (id)_oldPasswordIncorrectTextViewHeightConstraint;
+- (id)_observedButtons;
+- (id)_needsUpdateManagedObjectIDs;
+- (struct CKBalloonDescriptor_t)_needsFetchedResultsControllerUpdate;
+- (struct UIEdgeInsets)_mustZoomTextBeforeReplacingCharactersInRange;
+- (id)_mathNote;
+- (id)_managedObjectContext;
+- (struct CKBalloonDescriptor_t)_managedObjectChangeController;
+- (_Bool)buteName;
+- (_Bool)hedActualColumnWidths;
+- (struct CGRect)Handlers;
+- (_Bool)ICCalculateResultAttachmentView;
 - (void);
 - (Class);
+- (id)BTCD	@E;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)R;
+- (void)NSRunLoopCG;
 - (void);
 - (_Bool);
 - (id);
 - (struct CKBalloonDescriptor_t);
+- (void)o;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)a;
+- (void)thumbnail {key:%@, error:%s} /* Error: Ran out of types for this method. */;
+- (void)@ when saving record ID %@ %@:(id)arg1 %@;
+- (void)ICAttachmentTypeDrawing;
+- (_Bool)?0s8;
 - (void);
 - (void);
 - (void);
@@ -98,43 +79,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)dropTarget:(struct CGRect)arg1 dragEnteredAtPoint: /* Error: Ran out of types for this method. */;
 - (void)er",&,N,V_imagePickerController;
 - (_Bool);
-- (_Bool)loadPoisonPill;
+- (_Bool)PluginPayloadPoisonPill;
 - (void)attachment with URL %@;
-- (long long)agePickerButton;
+- (long long)TranslateSectionMacLanguagePickerButton;
 
 // Remaining properties
-@property(retain, nonatomic) ChatKit.CKBalloonLayer *backdropBalloonLayer; // @synthesize backdropBalloonLayer=_backdropBalloonLayer;
-@property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInteractive; // @synthesize isInteractive=_isInteractive;
-@property(nonatomic) _Bool isSyndicationOnboarding; // @synthesize isSyndicationOnboarding=_isSyndicationOnboarding;
-@property(readonly, nonatomic) struct CGRect maskFrame;
-@property(nonatomic) _Bool mayReparentPluginViews; // @synthesize mayReparentPluginViews=_mayReparentPluginViews;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *pluginContainerMaskLayer; // @synthesize pluginContainerMaskLayer=_pluginContainerMaskLayer;
-@property(retain, nonatomic) UIView *pluginContainerView; // @synthesize pluginContainerView=_pluginContainerView;
-@property(readonly, nonatomic) struct UIEdgeInsets pluginInsets;
-@property(retain, nonatomic) ChatKit.CKBalloonLayer *pluginOverlayBalloonLayer; // @synthesize pluginOverlayBalloonLayer=_pluginOverlayBalloonLayer;
-@property(retain, nonatomic) UIView *pluginSnapshotView; // @synthesize pluginSnapshotView=_pluginSnapshotView;
-@property(retain, nonatomic) UIView *pluginSnapshotViewForThrowAnimation; // @synthesize pluginSnapshotViewForThrowAnimation=_pluginSnapshotViewForThrowAnimation;
-@property(retain, nonatomic) UIView<CKTranscriptPluginView> *pluginView; // @synthesize pluginView=_pluginView;
-@property(nonatomic) __weak UIViewController *pluginViewController; // @synthesize pluginViewController=_pluginViewController;
-@property(nonatomic, getter=isScheduled) _Bool scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly, nonatomic) _Bool shouldMaskWhenOpaque;
-@property(retain, nonatomic) UIView *suggestedActionsBackgroundView; // @synthesize suggestedActionsBackgroundView=_suggestedActionsBackgroundView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressMask; // @synthesize suppressMask=_suppressMask;
+@property(nonatomic) _Bool suppressMask;
 
 @end
 

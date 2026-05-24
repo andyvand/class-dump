@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFHeaderLabelView, NSString, UIView;
+@class NSString;
 
 @interface MFComposeHeaderView
 {
     id _delegate;
-    MFHeaderLabelView *_labelView;
-    UIView *_separator;
-    UIView *_highlightBackgroundView;
-    _Bool _showsHighlightWhenTouched;
-    NSString *_navTitle;
 }
 
 + (id);
 + (double);
 + (double);
-+ (id);
++ (id)platform;
 + (double);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -42,23 +37,20 @@
 - (void);
 - (void);
 - (id);
+- (void)azy_storage_$_path;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ndex INTEGER;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(readonly, nonatomic) MFHeaderLabelView *labelView; // @synthesize labelView=_labelView;
-@property(copy, nonatomic) NSString *navTitle; // @synthesize navTitle=_navTitle;
-@property(nonatomic) _Bool showsHighlightWhenTouched; // @synthesize showsHighlightWhenTouched=_showsHighlightWhenTouched;
 
 @end
 

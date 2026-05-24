@@ -7,7 +7,6 @@
 @interface AudioDSPManagerSwift.InteropLayerAUPresetOverrideConfig
 {
     id boxName;
-    id filePath;
 }
 
 - (id);

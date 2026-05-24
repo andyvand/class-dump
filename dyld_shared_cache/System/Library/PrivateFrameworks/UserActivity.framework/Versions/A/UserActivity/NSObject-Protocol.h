@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (id);
+- (id)4Q;
+- (Class)P;
+- (unsigned long long)*;
+- (unsigned long long)playerfig_prepareNextItemForTransition;
+- (_Bool);
 - (struct _NSZone *))!ÜDù1`-1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

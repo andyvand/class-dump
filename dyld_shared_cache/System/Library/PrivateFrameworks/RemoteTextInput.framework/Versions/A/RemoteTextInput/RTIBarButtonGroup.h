@@ -9,7 +9,6 @@
 @interface RTIBarButtonGroup
 {
     float _representativeItemWidth;
-    NSArray *_itemWidths;
 }
 
 + (_Bool);
@@ -17,8 +16,8 @@
 - (void);
 - (float);
 - (id);
-- (id);
-- (id);
+- (id)Wo;
+- (id)32@40;
 - (_Bool);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *itemWidths; // @synthesize itemWidths=_itemWidths;
-@property(nonatomic) float representativeItemWidth; // @synthesize representativeItemWidth=_representativeItemWidth;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)"MPModelFileAsset"8;
+- (_Bool)quest.m;
+- (_Bool);
 - (int);
 
 @end

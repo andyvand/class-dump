@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSImage, NSString;
+@class NSImage;
 @protocol MMPinFieldViewDelegate;
 
 @interface MMPinFieldView
 {
     NSImage *_digitField;
-    NSImage *_digitFieldHightlight;
-    NSArray *_pinFieldBoxArray;
-    struct CGRect *_digitRects;
-    struct CGRect _progressRect;
-    NSString *_localizedString;
-    NSString *_pinString;
-    int _position;
-    double _maxFontHeight;
-    _Bool _enabled;
-    _Bool _echosBullets;
-    long long _pinLength;
-    struct {
-        unsigned int pinFieldViewTextDidChange:1;
-        unsigned int pinFieldViewTextDidComplete:1;
-        unsigned int padding:6;
-    } _delegateFlags;
-    id <MMPinFieldViewDelegate> _delegate;
-    NSButton *_nextButtonResponder;
 }
 
 + (struct CGSize);
@@ -36,9 +18,9 @@
 - (struct CGRect);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)@za;
 - (void);
 - (int);
 - (void);
@@ -54,7 +36,7 @@
 - (_Bool);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id);
@@ -70,8 +52,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <MMPinFieldViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool echosBullets; // @synthesize echosBullets=_echosBullets;
-@property(retain) NSButton *nextButtonResponder; // @synthesize nextButtonResponder=_nextButtonResponder;
 
 @end
 

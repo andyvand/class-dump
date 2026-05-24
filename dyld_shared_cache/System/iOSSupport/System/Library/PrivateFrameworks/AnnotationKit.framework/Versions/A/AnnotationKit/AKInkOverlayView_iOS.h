@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)ismatch %hu <-> %hu;
 - (_Bool);
 - (void);
 

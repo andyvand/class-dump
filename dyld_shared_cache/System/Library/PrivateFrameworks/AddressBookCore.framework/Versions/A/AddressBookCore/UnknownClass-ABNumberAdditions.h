@@ -6,6 +6,6 @@
 
 @interface UnknownClass (ABNumberAdditions)
 + (id);
-- (long long);
+- (long long);
 @end
 

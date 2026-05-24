@@ -7,11 +7,11 @@
 @class INSpeakableString;
 
 @protocol INCreateTimerIntentExport
+- (double);
+- (void);
 - (void)DeviceIdentifier;
 
 // Remaining properties
-@property double duration;
 @property(copy) INSpeakableString *label;
-@property long long type;
 @end
 

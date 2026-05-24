@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AVExternalStorageDevice
 {
     struct __CFString *_figExternalStorageDeviceUUID;
-    struct __CFArray *_nextAvailableURLArray;
-    struct __CFString *_displayName;
-    struct __CFURL *_baseURL;
-    struct __CFString *_uniqueIdentifier;
 }
 
 + (void);
 + (long long);
-- (id);
-- (_Bool);
-- (long long);
-- (id);
+- (id)_messageCoder;
+- (_Bool)_bindVariantArray:length:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (long long)msv_lazyFilter: /* Error: Ran out of types for this method. */;
+- (id)am",&,N,V_inputStream;
 - (void);
-- (id);
+- (id)_maxNumberOfActiveSlaveStreams;
 - (id);
 - (_Bool);
 - (id);
 - (long long);
-- (id)erride;
+- (id)_applyVideoMinFrameDurationOverride;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) long long freeSize;
-@property(readonly, nonatomic, getter=isNotRecommendedForCaptureUse) _Bool notRecommendedForCaptureUse;
-@property(readonly, nonatomic) long long totalSize;
-@property(readonly, nonatomic) NSUUID *uuid;
 
 @end
 

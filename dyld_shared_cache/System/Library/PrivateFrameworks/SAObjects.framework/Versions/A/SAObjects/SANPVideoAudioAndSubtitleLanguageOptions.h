@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SANPVideoLanguageOption;
+@class NSArray;
 
 @interface SANPVideoAudioAndSubtitleLanguageOptions : AceObject
 {
@@ -19,24 +19,14 @@
 - (void);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (id);
-- (id);
-- (id)AppIdentifyingInfo;
+- (id)SASyncNamedAppIdentifyingInfo;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *availableSubtitles;
-@property(copy, nonatomic) NSArray *availableTracks;
-@property(retain, nonatomic) SANPVideoLanguageOption *currentAudioTrack;
-@property(retain, nonatomic) SANPVideoLanguageOption *currentSubtitles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

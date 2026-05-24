@@ -9,39 +9,30 @@
 @interface NSBackgroundExtensionView : NSView
 {
     void observationToken;
-    NSView *contentView;
-    _Bool _disableBlurEffects;
-    _Bool automaticallyPlacesContentView;
-    id effectsView;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)URLResponse={__CFRuntimeBase=QAQ}^{__CFCachedURLResponse}}24@0:(_Bool)arg1 8^{_CFURLRequest=}16;
+- (void)CFRuntimeBase=QAQ}^{__CFCachedURLResponse}}16;
+- (void)SCFURLSessionConnection"16@"NSHTTPURLResponse"24;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id)vent:(struct CGRect)arg1;
-- (void)completion:(id)arg1;
-- (id)estureRecognizerTarget;
+- (id)_windowFailedToMoveWithEvent:(struct CGRect)arg1;
+- (void)textPreviewForRange:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)NSGestureRecognizerTarget;
 - (void);
 - (void)÷C;
 - (id))o´¬I;
 
 // Remaining properties
-@property(nonatomic) _Bool _disableBlurEffects; // @synthesize _disableBlurEffects;
-@property(nonatomic) _Bool automaticallyPlacesContentView; // @synthesize automaticallyPlacesContentView;
-@property(nonatomic, retain) NSView *contentView; // @synthesize contentView;
-@property(nonatomic) _Bool disableAutomaticLayout;
 @property(nonatomic) _Bool disableBlurEffects;
-@property(nonatomic, copy) id observationToken;
 
 @end
 

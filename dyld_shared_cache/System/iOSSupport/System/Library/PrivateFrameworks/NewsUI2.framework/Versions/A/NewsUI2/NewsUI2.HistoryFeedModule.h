@@ -7,8 +7,6 @@
 @interface NewsUI2.HistoryFeedModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
 @end

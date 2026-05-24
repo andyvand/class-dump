@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAmenityValue
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_amenityId;
-    NSMutableArray *_names;
-    NSString *_ribbonSymbolImageName;
-    NSString *_symbolImageName;
-    NSString *_vendorId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _amenityType;
-    _Bool _amenityPresent;
-    struct {
-        unsigned int has_amenityType:1;
-        unsigned int has_amenityPresent:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_amenityId:1;
-        unsigned int read_names:1;
-        unsigned int read_ribbonSymbolImageName:1;
-        unsigned int read_symbolImageName:1;
-        unsigned int read_vendorId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)tHasVlfFinalState:(id)arg1;
++ (_Bool)setHasVlfFinalState:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -55,22 +33,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (unsigned long long);
 - (void);
 - (void);
+- (id)CSOpportuneSpeakListenerDeviceManager;
+- (void)eVoiceTriggerAssetWithCompletion:(id)arg1 ]_block_invoke;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)";
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16i24;
@@ -84,20 +62,7 @@
 - (id)K;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *amenityId;
-@property(nonatomic) _Bool amenityPresent;
-@property(nonatomic) int amenityType;
-@property(readonly, nonatomic) _Bool hasAmenityId;
-@property(nonatomic) _Bool hasAmenityPresent;
 @property(nonatomic) _Bool hasAmenityType;
-@property(readonly, nonatomic) _Bool hasRibbonSymbolImageName;
-@property(readonly, nonatomic) _Bool hasSymbolImageName;
-@property(readonly, nonatomic) _Bool hasVendorId;
-@property(retain, nonatomic) NSMutableArray *names;
-@property(retain, nonatomic) NSString *ribbonSymbolImageName;
-@property(retain, nonatomic) NSString *symbolImageName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *vendorId;
 
 @end
 

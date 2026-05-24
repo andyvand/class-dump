@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VMUFieldValue
 {
     VMUFieldInfo *_field;
-    unsigned long long _value;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) VMUFieldInfo *field;
-@property(readonly, nonatomic) unsigned long long value;
 
 @end
 

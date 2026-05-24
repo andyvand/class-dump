@@ -12,14 +12,11 @@ __attribute__((visibility("hidden")))
 @interface SCNUIMatrix4TextField : SCNUIBindableView
 {
     SCNUIVector4TextField *tx;
-    SCNUIVector4TextField *ty;
-    SCNUIVector4TextField *tz;
-    SCNUIVector4TextField *tw;
 }
 
 - (void);
 - (struct CATransform3D);
-- (id);
+- (id)py:(struct CGRect)arg1 %s (%d);
 - (id);
 - (void)1.f - shadowDebug.a);
             shade(light.dir, light.color.rgb, intensity);

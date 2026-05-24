@@ -9,11 +9,11 @@
     struct NSEdgeInsets _layoutMargins;
 }
 
-+ (void);
++ (void)J;
+- (void){;
 - (void);
-- (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize)setPendingParticipants:(struct CGSize)arg1;
+- (void)floatingHUDPlatterViewInset;
 - (_Bool);
 - (struct CGSize);
 - (void);
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, getter=isFlipped) _Bool flipped;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property _Bool needsLayout; // @dynamic needsLayout;
 
 @end
 

@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, SFDevice, SFDeviceOperationCDPSetup, SFDeviceOperationWiFiSetup, SFSession;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SFDeviceRepairSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    unsigned long long _startTicks;
-    int _preflightWiFiEarlyState;
-    int _preflightWiFiState;
-    SFSession *_sfSession;
-    int _sfSessionState;
-    unsigned long long _peerFeatureFlags;
-    NSString *_peerSSID;
-    unsigned long long _peerProblemFlags;
-    int _pairVerifyState;
-    unsigned long long _pairVerifyType;
-    _Bool _sessionSecured;
-    int _getProblemsState;
-    unsigned long long _problemFlags;
-    NSString *_peerOSBuild;
-    _Bool _cdpEnabled;
-    SFDeviceOperationCDPSetup *_cdpSetupOperation;
-    double _cdpSetupSecs;
-    int _cdpState;
-    SFDeviceOperationWiFiSetup *_wifiSetupOperation;
-    int _wifiSetupState;
-    double _wifiSetupSecs;
-    _Bool _wifiIsCaptive;
-    int _finishState;
-    _Bool _disableSilentAuth;
-    unsigned int _repairFlags;
-    NSString *_altDSID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_idsIdentifier;
-    long long _operationType;
-    SFDevice *_peerDevice;
-    NSDictionary *_preferredWiFiConfiguration;
-    CDUnknownBlockType _progressHandler;
-    unsigned long long _triggerMs;
 }
 
 - (unsigned long long);
@@ -63,7 +28,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (int);
 - (void);
@@ -87,15 +52,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) _Bool disableSilentAuth; // @synthesize disableSilentAuth=_disableSilentAuth;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, copy, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(nonatomic) long long operationType; // @synthesize operationType=_operationType;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(nonatomic) NSDictionary *preferredWiFiConfiguration; // @synthesize preferredWiFiConfiguration=_preferredWiFiConfiguration;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(nonatomic) unsigned int repairFlags; // @synthesize repairFlags=_repairFlags;
-@property(nonatomic) unsigned long long triggerMs; // @synthesize triggerMs=_triggerMs;
 
 @end
 

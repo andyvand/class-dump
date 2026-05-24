@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCExtensionConnection, INExtensionContext, NSArray, NSDictionary, NSObject, NSString;
-@protocol INSExtensionServiceDelegate, OS_dispatch_queue;
+@class NSDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface INSExtensionService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_requestDelegateQueue;
-    INCExtensionConnection *_currentConnection;
-    NSString *_currentBundleIdForDisplay;
-    INExtensionContext *_extensionContext;
-    NSDictionary *_options;
-    id <INSExtensionServiceDelegate> _delegate;
 }
 
 - (void);
@@ -43,27 +37,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ioSourceDelegate:fileCoordinatorStatusDelegate:irisRequestDelegate:masterClock:workgroup:videoGreenGhostMitigationEnabled:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)T@"NSData",R,C,N,V_wrappingKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *airPlayRouteIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *commandIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <INSExtensionServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) INExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;
-@property(readonly, copy, nonatomic) NSString *groupIdentifier;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

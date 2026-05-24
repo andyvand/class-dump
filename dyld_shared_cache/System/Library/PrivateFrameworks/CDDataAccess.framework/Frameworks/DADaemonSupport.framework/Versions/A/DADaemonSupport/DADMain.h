@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSTimer;
 
 @interface DADMain
 {
     NSTimer *_delayedShutdownTimer;
-    NSTimer *_forceShutdownTimer;
-    _Bool *_runLoopStoppedRef;
-    NSObject<OS_dispatch_queue> *_aggdStatsQueue;
-    NSObject<OS_dispatch_source> *_aggdStatsSource;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -34,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

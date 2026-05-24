@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SALogNumericEvent : SABaseClientBoundCommand
 {
@@ -19,15 +19,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)	kj;
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *eventName;
-@property(copy, nonatomic) NSString *eventOperation;
-@property(copy, nonatomic) NSNumber *eventValue;
 
 @end
 

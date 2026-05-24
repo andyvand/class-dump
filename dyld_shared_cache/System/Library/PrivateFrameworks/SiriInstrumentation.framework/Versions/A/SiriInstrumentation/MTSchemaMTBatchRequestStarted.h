@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MTSchemaMTBatchRequestStarted : SISchemaInstrumentationMessage
 {
     unsigned int _numParagraphs;
-    NSString *_sequenceNumber;
-    struct {
-        unsigned int numParagraphs:1;
-    } _has;
-    _Bool _hasSequenceNumber;
 }
 
 - (void);
@@ -25,26 +18,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)evp/p5_crpt2.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)|;
+- (id)w;
 - (id);
 - (id);
 - (id)iTurnResolvedRankingFlag;
 - (id)ersonalizedItemInfos;
-- (void)ed;
+- (void)MTSchemaMTTTSPlaybackSpeed;
 - (_Bool)R´e±";
 - (void)ô Èÿû´	$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumParagraphs;
-@property(nonatomic) _Bool hasSequenceNumber; // @synthesize hasSequenceNumber=_hasSequenceNumber;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numParagraphs; // @synthesize numParagraphs=_numParagraphs;
-@property(copy, nonatomic) NSString *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

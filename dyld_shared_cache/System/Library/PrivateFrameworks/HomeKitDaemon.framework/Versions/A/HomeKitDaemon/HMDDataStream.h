@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPSecuritySessionEncryption, HMDDataStreamControlProtocol, HMFTimer, NSMapTable, NSMutableArray, NSMutableSet, NSObject, NSString;
-@protocol HMDDataStreamDelegate, HMDDataStreamTransport, OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStream
 {
     _Bool _active;
-    _Bool _firstMessageReceived;
-    id <HMDDataStreamDelegate> _delegate;
-    NSString *_logIdentifier;
-    id <HMDDataStreamTransport> _transport;
-    HAPSecuritySessionEncryption *_sessionEncryption;
-    NSMapTable *_protocols;
-    HMDDataStreamControlProtocol *_controlProtocol;
-    HMFTimer *_connectionTimer;
-    HMFTimer *_helloMessageResponseTimer;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _nextRequestIdentifier;
-    NSMutableSet *_pendingRequests;
-    NSMutableArray *_pendingEvents;
 }
 
 + (id)ùhÿ;
+- (void)6@"NSDictionary"24;
+- (void)gIdentity"16;
+- (void)16;
+- (void)SDictionary">16;
+- (void)_setSimulatesClearingDiscardableDataAfterOperations:(id)arg1;
+- (void)SString",R,C,N;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)tion invalidated;
+- (id)lic}@ capability type for %@;
+- (void)t present %@;
+- (void)iring %@, lacking %@, packet %@, destinations %@);
+- (void)nvalid account (packet:(id)arg1 %@, destinations %@);
 - (void);
 - (void);
 - (id);
@@ -52,18 +38,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)"NSString"8@"NSError"16;
+- (id)components:fromDate:toDate:options: /* Error: Ran out of types for this method. */;
+- (void)7;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void)B;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id)
 × ;
 - (id)11Â0@ù
@@ -74,27 +60,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) HMFTimer *connectionTimer; // @synthesize connectionTimer=_connectionTimer;
-@property(retain, nonatomic) HMDDataStreamControlProtocol *controlProtocol; // @synthesize controlProtocol=_controlProtocol;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDDataStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool firstMessageReceived; // @synthesize firstMessageReceived=_firstMessageReceived;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMFTimer *helloMessageResponseTimer; // @synthesize helloMessageResponseTimer=_helloMessageResponseTimer;
 @property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(nonatomic) unsigned long long nextRequestIdentifier; // @synthesize nextRequestIdentifier=_nextRequestIdentifier;
-@property(readonly, nonatomic) NSMutableArray *pendingEvents; // @synthesize pendingEvents=_pendingEvents;
-@property(readonly, nonatomic) NSMutableSet *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(retain, nonatomic) NSMapTable *protocols; // @synthesize protocols=_protocols;
-@property(retain, nonatomic) HAPSecuritySessionEncryption *sessionEncryption; // @synthesize sessionEncryption=_sessionEncryption;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <HMDDataStreamTransport> transport; // @synthesize transport=_transport;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

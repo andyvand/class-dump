@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IMBrandInfo, NSData, NSURL;
+
 @protocol IMBrandCacheProtocol
+- (IMBrandInfo *)sicalcpu;
+- (NSURL *).sse;
+- (NSData *)ional.altivec;
 @end
 

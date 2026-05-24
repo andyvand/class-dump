@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 __attribute__((visibility("hidden")))
 @interface MFBitmap
 {
     int m_width;
-    int m_height;
-    unsigned int m_bitsPerPixel;
-    int m_compression;
-    _Bool m_isOS2;
-    unsigned int m_infoHeaderSize;
-    unsigned int m_paletteSize;
-    NSMutableData *m_bmpData;
 }
 
 - (void);
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
@@ -31,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)qa8;
 - (void);
 - (const char *);
-- (id);
+- (id)filterProtobufData:onField:onNestedMessageEnd: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void)¤;

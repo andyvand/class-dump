@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MNLocation;
+@protocol MNLocationProvider;
+
 @protocol MNLocationProviderDelegate
+- (void);
+- (void)llNeRDUpdate:(id <MNLocationProvider>)arg1 options:(MNLocation *)arg2 progress:completion:] /* Error: Ran out of types for this method. */;
 @end
 

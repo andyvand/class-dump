@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBBillPayeeValue, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBIntentMetadata, _INPBPaymentAmountValue, _INPBString;
+@class _INPBBillPayeeValue, _INPBDateTimeRange;
 
 @protocol _INPBPayBillIntent
-- (_Bool)ithOptions: /* Error: Ran out of types for this method. */;
+- (void);
+- (int);
+- (void)&;
+- (_INPBDateTimeRange *)webView:didReceiveServerRedirectForProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (_Bool)enumeratorWithOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBillPayeeValue *billPayee;
-@property(nonatomic) int billType;
-@property(retain, nonatomic) _INPBDateTimeRange *dueDate;
-@property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount;
-@property(readonly, nonatomic) _Bool hasBillPayee;
-@property(nonatomic) _Bool hasBillType;
-@property(readonly, nonatomic) _Bool hasDueDate;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount;
-@property(retain, nonatomic) _INPBString *transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate;
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol ACDAccountAuthenticationPlugin
+
+@optional
+- (void);
+- (void);
+- (NSArray *){;
+- (NSString *)${;
 @end
 

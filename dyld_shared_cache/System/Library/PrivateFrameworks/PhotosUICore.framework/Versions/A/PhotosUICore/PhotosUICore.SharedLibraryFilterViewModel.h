@@ -7,10 +7,6 @@
 @interface PhotosUICore.SharedLibraryFilterViewModel
 {
     id _libraryFilterViewMode;
-    id libraryFilterState;
-    id observable;
-    id libraryFilterStateObservation;
-    id _$observationRegistrar;
 }
 
 @end

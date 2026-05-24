@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, RTLocation, RTMapItem;
+@class NSUUID;
 
 @interface RTHistoryEntryRoute
 {
     _Bool _navigationWasInterrupted;
-    NSUUID *_identifier;
-    NSDate *_usageDate;
-    RTLocation *_originLocation;
-    RTMapItem *_originMapItem;
-    RTLocation *_destinationLocation;
-    RTMapItem *_destinationMapItem;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)for the inner record, needs repair;
+- (id)ateIdentities entered;
+- (id)estNewTwoWayQRAllocation:targeted allocation request IDs:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)t ended up inside a location of interest at %{sensitive}f, %{sensitive}f.;
 
 // Remaining properties
-@property(readonly, nonatomic) RTLocation *destinationLocation; // @synthesize destinationLocation=_destinationLocation;
-@property(readonly, nonatomic) RTMapItem *destinationMapItem; // @synthesize destinationMapItem=_destinationMapItem;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool navigationWasInterrupted; // @synthesize navigationWasInterrupted=_navigationWasInterrupted;
-@property(readonly, nonatomic) RTLocation *originLocation; // @synthesize originLocation=_originLocation;
-@property(readonly, nonatomic) RTMapItem *originMapItem; // @synthesize originMapItem=_originMapItem;
-@property(readonly, nonatomic) NSDate *usageDate; // @synthesize usageDate=_usageDate;
 
 @end
 

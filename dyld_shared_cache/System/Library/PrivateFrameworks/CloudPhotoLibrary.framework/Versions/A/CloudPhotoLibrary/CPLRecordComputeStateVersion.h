@@ -7,7 +7,6 @@
 @interface CPLRecordComputeStateVersion
 {
     unsigned long long _majorVersion;
-    unsigned long long _stage;
 }
 
 - (id);
@@ -15,8 +14,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ñ	ª1\íò0
-ÁÚð;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) unsigned long long stage; // @synthesize stage=_stage;
 
 @end
 

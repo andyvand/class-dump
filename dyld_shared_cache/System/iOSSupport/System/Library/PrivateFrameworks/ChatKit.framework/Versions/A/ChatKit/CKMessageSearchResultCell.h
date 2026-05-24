@@ -6,45 +6,32 @@
 
 #import <ChatKit/CKEditableSearchResultCell.h>
 
-@class CKAvatarView, CKDateLabel, CKLabel, CKTextBalloonView, NSString, UIImageView, UIView;
-@protocol CKGradientReferenceView;
+@class NSString;
 
 @interface CKMessageSearchResultCell : CKEditableSearchResultCell
 {
     _Bool _isFromMe;
-    _Bool _isFromGroupConversation;
-    NSString *_resultIdentifier;
-    UIView<CKGradientReferenceView> *_gradientReferenceView;
-    CKLabel *_conversationNameLabel;
-    CKLabel *_senderLabel;
-    CKDateLabel *_dateLabel;
-    UIImageView *_chevronImageView;
-    CKTextBalloonView *_balloonView;
-    CKAvatarView *_avatarView;
-    UIView *_groupingSeparatorView;
-    struct CKMessageSearchResultVisibilityContext _visibilityContext;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
-- (struct CKMessageSearchResultVisibilityContext);
+- (struct CKMessageSearchResultVisibilityContext)performUpdate;
+- (void)attributedStringValue;
+- (void)_attachmentID;
+- (void)tion;
+- (void),W,N,V_verifyLabel;
+- (void)&,N,V_modernFoldersInSource;
+- (id)T@"NSMutableArray",&,N,V_completionHandlers;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (id);
-- (id);
+- (id)b;
+- (void)e;
+- (void)t;
+- (id)r;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,39 +52,19 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id)X;
 - (id)ýÐ!¬Aù±ð1Â0@ù
 × ;
 - (void)!ÔAùÑÐ1Â0@ù
 × ;
 - (void)Ô ;
 - (void)etedPreview"32@0:(id)arg1 8@"CKViewController<CKCoreTranscriptControllerProtocol>"16@"UIContextMenuConfiguration"24;
-- (void)nDataSource;
-- (void)hevron;
+- (void)_browserPluginDataSource;
+- (void)_wantsChevron;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CKTextBalloonView *balloonView; // @synthesize balloonView=_balloonView;
-@property(retain, nonatomic) UIImageView *chevronImageView; // @synthesize chevronImageView=_chevronImageView;
-@property(retain, nonatomic) CKLabel *conversationNameLabel; // @synthesize conversationNameLabel=_conversationNameLabel;
-@property(retain, nonatomic) CKDateLabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;
-@property(retain, nonatomic) UIView *groupingSeparatorView; // @synthesize groupingSeparatorView=_groupingSeparatorView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFromGroupConversation; // @synthesize isFromGroupConversation=_isFromGroupConversation;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
 @property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(retain, nonatomic) CKLabel *senderLabel; // @synthesize senderLabel=_senderLabel;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CKMessageSearchResultVisibilityContext visibilityContext; // @synthesize visibilityContext=_visibilityContext;
 
 @end
 

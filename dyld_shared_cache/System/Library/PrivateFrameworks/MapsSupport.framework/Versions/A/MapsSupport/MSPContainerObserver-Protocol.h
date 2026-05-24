@@ -5,5 +5,10 @@
 //
 
 @protocol MSPContainerObserver
+
+@optional
+- (void);
+- (void)l;
+- (void);
 @end
 

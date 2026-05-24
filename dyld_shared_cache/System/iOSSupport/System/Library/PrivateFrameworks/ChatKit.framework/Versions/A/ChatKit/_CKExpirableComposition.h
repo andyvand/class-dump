@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)lu notes;
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)_attachmentBrickZoomFactor;
 - (_Bool);
 
 @end

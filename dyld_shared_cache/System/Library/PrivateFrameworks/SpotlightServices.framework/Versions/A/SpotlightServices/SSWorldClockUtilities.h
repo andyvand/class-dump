@@ -10,22 +10,22 @@
 
 + (id);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (void)swapVideoPlaceholderForPlaybackIfNeeded;
++ (void)setButtonIgnoresTextSafeAreaInsets:(id)arg1;
++ (void)setBundleIdentifier:(id)arg1;
++ (id)setAllowsTapToLoad:(id)arg1;
++ (id)language;
++ (void)generateBestRepresentationForRequest:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
++ (void)forceEnableLockdownMode;
++ (id)extractKindFromURL:(id)arg1;
++ (id)extractApplicationFromURL:(id)arg1;
++ (id)contextWithOptions:(id)arg1;
++ (id)captionTextPadding;
++ (id)captionTextButton;
++ (id)assetFromVideoPreviewDictionary:(id)arg1 usingPreferredPlatformArray:(id)arg2;
++ (id)assetFromVideoPreviewDictionary:usingPreferredPlatformArray: /* Error: Ran out of types for this method. */;
++ (id)applyToAllCaptions:(id)arg1;
++ (id)_topLeadingCaptionStringWithApplicationName:(id)arg1 originalURL: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

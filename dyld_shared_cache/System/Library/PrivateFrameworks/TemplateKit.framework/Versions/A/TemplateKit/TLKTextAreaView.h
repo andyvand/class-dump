@@ -6,41 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSArray, NSMutableArray, NSString, NSView, NUIContainerStackView, TLKEmbossedLabel, TLKImage, TLKLabel, TLKRichText, TLKRichTextField, TLKStackView, TLKTextButton, TLKTitleContainerView;
-@protocol TLKTextAreaViewDelegate;
+@class TLKStackView;
 
 @interface TLKTextAreaView : TLKView
 {
     _Bool _truncateTitleMiddle;
-    _Bool _secondaryTitleIsDetached;
-    _Bool _truncateDetailsMiddle;
-    _Bool _isAccessoryViewBottomAligned;
-    _Bool _useCompactMode;
-    _Bool _disableAllObservers;
-    _Bool _isHorizontallyCompressed;
-    id <TLKTextAreaViewDelegate> _buttonDelegate;
-    TLKRichText *_bannerText;
-    TLKRichText *_topText;
-    TLKRichText *_title;
-    TLKRichText *_secondaryTitle;
-    TLKImage *_secondaryTitleImage;
-    NSArray *_detailTexts;
-    TLKRichText *_footnote;
-    NSString *_footnoteButtonText;
-    NSView *_accessoryView;
-    TLKEmbossedLabel *_bannerBadgeView;
-    TLKRichTextField *_topTextField;
-    TLKTitleContainerView *_titleContainer;
-    NUIContainerStackView *_detailFieldFootnoteAndAccessoryStackView;
-    NUIContainerStackView *_detailFieldAndFootnoteStackView;
-    NUIContainerStackView *_detailFieldStackView;
-    NSMutableArray *_detailsFields;
-    NSMutableArray *_bulletFields;
-    TLKLabel *_hyphenField;
-    TLKRichTextField *_footnoteLabel;
-    TLKTextButton *_footnoteButton;
-    NUIContainerStackView *_footnoteContainer;
-    long long _backgroundStyle;
 }
 
 + (id);
@@ -90,16 +60,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)a@9;
+- (void);
 - (id);
-- (void);
+- (void)DescriptorAudienceType;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
@@ -107,63 +72,31 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void)eImages;
+- (void)loadInlineImages;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(retain, nonatomic) TLKEmbossedLabel *bannerBadgeView; // @synthesize bannerBadgeView=_bannerBadgeView;
-@property(retain, nonatomic) TLKRichText *bannerText; // @synthesize bannerText=_bannerText;
-@property(retain, nonatomic) NSMutableArray *bulletFields; // @synthesize bulletFields=_bulletFields;
-@property __weak id <TLKTextAreaViewDelegate> buttonDelegate; // @synthesize buttonDelegate=_buttonDelegate;
 @property(retain, nonatomic) TLKStackView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NUIContainerStackView *detailFieldAndFootnoteStackView; // @synthesize detailFieldAndFootnoteStackView=_detailFieldAndFootnoteStackView;
-@property(retain, nonatomic) NUIContainerStackView *detailFieldFootnoteAndAccessoryStackView; // @synthesize detailFieldFootnoteAndAccessoryStackView=_detailFieldFootnoteAndAccessoryStackView;
-@property(retain, nonatomic) NUIContainerStackView *detailFieldStackView; // @synthesize detailFieldStackView=_detailFieldStackView;
-@property(retain, nonatomic) NSArray *detailTexts; // @synthesize detailTexts=_detailTexts;
-@property(retain, nonatomic) NSMutableArray *detailsFields; // @synthesize detailsFields=_detailsFields;
-@property(nonatomic) _Bool disableAllObservers; // @synthesize disableAllObservers=_disableAllObservers;
-@property(retain, nonatomic) TLKRichText *footnote; // @synthesize footnote=_footnote;
-@property(retain, nonatomic) TLKTextButton *footnoteButton; // @synthesize footnoteButton=_footnoteButton;
-@property(retain, nonatomic) NSString *footnoteButtonText; // @synthesize footnoteButtonText=_footnoteButtonText;
-@property(retain, nonatomic) NUIContainerStackView *footnoteContainer; // @synthesize footnoteContainer=_footnoteContainer;
-@property(retain, nonatomic) TLKRichTextField *footnoteLabel; // @synthesize footnoteLabel=_footnoteLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKLabel *hyphenField; // @synthesize hyphenField=_hyphenField;
-@property(nonatomic) _Bool isAccessoryViewBottomAligned; // @synthesize isAccessoryViewBottomAligned=_isAccessoryViewBottomAligned;
-@property(nonatomic) _Bool isHorizontallyCompressed; // @synthesize isHorizontallyCompressed=_isHorizontallyCompressed;
-@property(retain, nonatomic) TLKRichText *secondaryTitle; // @synthesize secondaryTitle=_secondaryTitle;
-@property(retain, nonatomic) TLKImage *secondaryTitleImage; // @synthesize secondaryTitleImage=_secondaryTitleImage;
-@property(nonatomic) _Bool secondaryTitleIsDetached; // @synthesize secondaryTitleIsDetached=_secondaryTitleIsDetached;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TLKRichText *title; // @synthesize title=_title;
-@property(retain, nonatomic) TLKTitleContainerView *titleContainer; // @synthesize titleContainer=_titleContainer;
-@property(retain, nonatomic) TLKRichText *topText; // @synthesize topText=_topText;
-@property(retain, nonatomic) TLKRichTextField *topTextField; // @synthesize topTextField=_topTextField;
-@property(nonatomic) _Bool truncateDetailsMiddle; // @synthesize truncateDetailsMiddle=_truncateDetailsMiddle;
-@property(nonatomic) _Bool truncateTitleMiddle; // @synthesize truncateTitleMiddle=_truncateTitleMiddle;
-@property(nonatomic) _Bool useCompactMode; // @synthesize useCompactMode=_useCompactMode;
 
 @end
 

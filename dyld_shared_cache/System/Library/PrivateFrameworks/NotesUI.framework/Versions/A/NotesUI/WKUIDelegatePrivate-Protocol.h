@@ -4,6 +4,93 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSColor, NSData, NSDictionary, NSMenu, NSString, NSViewController, WKFrameInfo, WKSecurityOrigin, WKWebView, _WKInspector, _WKInspectorConfiguration;
+
 @protocol WKUIDelegatePrivate
+
+@optional
+- (void)_accessibilityFirstResponderForKeyWindow;
+- (void)_accessibilityFirstElementForFocusWithOptions:(WKWebView *)arg1;
+- (void)_accessibilityFirstElementForFocusHonoringGroups:(WKWebView *)arg1;
+- (void)_accessibilityFirstElementForFocus;
+- (double)_accessibilityFirstDescendant;
+- (void)_accessibilityFirstContainedElementForTechnology:(WKWebView *)arg1 honoringGroups:shouldAlwaysScroll: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityFindViewControllerDescendantOfType:(WKWebView *)arg1;
+- (void)_accessibilityFindViewControllerDescendant:(WKWebView *)arg1;
+- (void)_accessibilityFindViewControllerAncestorOfType:(WKWebView *)arg1;
+- (void)_accessibilityFindViewAncestor:(WKWebView *)arg1 startWithSelf:(void (^)(_Bool))arg2;
+- (void)_accessibilityFindUnsortedDescendantsPassingTest:(WKWebView *)arg1;
+- (void)_accessibilityFindSubviewDescendantsPassingTest:(WKWebView *)arg1;
+- (void)_accessibilityFindSubviewDescendant:(WKWebView *)arg1;
+- (void)_accessibilityFindElementInDirection:(WKWebView *)arg1 searchType:allowOutOfBoundsChild:startingTouchContainer:honorGroups: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityFindDescendant:(WKWebView *)arg1 shouldStopAtLeafNodes: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityFauxCollectionViewCellsDisabled;
+- (void)_accessibilityFKAArrowKeysHandled;
+- (void)_accessibilityExplorerElements;
+- (void)_accessibilityExpandedStatusTogglesOnActivate;
+- (void)_accessibilityExpandedStatus;
+- (void)_accessibilityEquivalenceTag;
+- (void)oterIndex:(WKWebView *)arg1 options:(void (^)(id))arg2 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityEndUndoableTextInsertion;
+- (void)_accessibilityEncodedHierarchyData;
+- (void)_accessibilityElementsInDirectionWithCount:(WKWebView *)arg1 options:(NSData *)arg2;
+- (void)_accessibilityElementsForReadingInDirection:(WKWebView *)arg1;
+- (void):(WKWebView *)arg1;
+- (void)_accessibilityElementWindowsWithOptions:(WKWebView *)arg1 referenceWindow:(NSString *)arg2 allWindows:(void (^)(_Bool))arg3;
+- (void)_accessibilityElementWindowsWithOptions:(WKWebView *)arg1 referenceWindow:(unsigned long long)arg2;
+- (void)_accessibilityElementToFocusForAppearanceScreenChange;
+- (void)_accessibilityElementShouldBeInvalid;
+- (void)_accessibilityElementIsBeingHitTested;
+- (void)_accessibilityElementCommunityIdentifier;
+- (void)_accessibilityDropPointDescriptorAuxiliaryDictionary;
+- (void)_accessibilityDragSourceDescriptorDictionaryRepresentations;
+- (void)_accessibilityDragSourceDescriptorAuxiliaryDictionary;
+- (void)_accessibilityDistance:(WKWebView *)arg1 forAngle:(WKFrameInfo *)arg2 toRoad:(void (^)(_Bool))arg3;
+- (void)_accessibilityDisplayPointForSceneReferencePoint:(WKWebView *)arg1;
+- (void)_accessibilityDisplayFocusIndicatorForFocusEverywhereView;
+- (void)_accessibilityDismissAlternativeKeyPicker;
+- (void)_accessibilityDirectTouchOptionsAttribute;
+- (void)_accessibilityDirectInteractionFrame;
+- (void)_accessibilityDidReuseOpaqueElementView:(WKWebView *)arg1;
+- (void)_accessibilityDidFocusOnOpaqueElement:(WKWebView *)arg1 technology:(unsigned long long)arg2;
+- (void)_accessibilityDefaultFocusGroupIdentifier;
+- (void)_accessibilityDecreaseAutoscrollSpeed;
+- (void)_accessibilityDateTimePickerValues;
+- (void)_accessibilityDataSeriesValuesForAxis:(WKWebView *)arg1;
+- (void)_accessibilityDataSeriesValueDescriptionForPosition:(WKWebView *)arg1 axis:(void (^)(struct CGRect))arg2;
+- (void)_accessibilityDataSeriesType;
+- (void)_accessibilityDataSeriesSupportsSummarization;
+- (void)_accessibilityDataSeriesSupportsSonification;
+- (void)_accessibilityDataSeriesName;
+- (unsigned long long)_accessibilityDataSeriesMinimumValueForAxis:(WKWebView *)arg1;
+- (void)_accessibilityDataSeriesCategoryLabelsForAxis:(WKWebView *)arg1;
+- (void)_accessibilityDataDetectorScheme:(WKWebView *)arg1;
+- (void)_accessibilityCustomRotorTypeForString:(WKWebView *)arg1;
+- (void)_accessibilityCustomActionIdentifier;
+- (void)_accessibilityCurrentlyFocusedElementForTechnology:(WKWebView *)arg1;
+- (void)_accessibilityConvertSystemBoundedScreenRectToContextSpace:(WKWebView *)arg1;
+- (void)_accessibilityConvertSystemBoundedScreenPointToContextSpace:(WKWebView *)arg1;
+- (void)_accessibilityContainerForAccumulatingCustomRotorItems;
+- (void)_accessibilityComputedLabelForNavigationBarWithAssociatedBarButtonItem:(WKWebView *)arg1;
+- (void)_accessibilityCompareFrameForScrollParent:(WKWebView *)arg1 frame:(_WKInspector *)arg2 fromOrientation:toOrientation: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityColorChangeMatch;
+- (void)_accessibilityChartStructureDescription;
+- (void)_accessibilityCellWithRowIndex:(WKWebView *)arg1 column:(WKSecurityOrigin *)arg2 containingView:(unsigned long long)arg3;
+- (void)_accessibilityCanScrollInAtLeastOneDirection;
+- (NSMenu *)_accessibilityCanDisplayMultipleControllers;
+- (NSMenu *)_accessibilityCanDismissPopoverController:(WKWebView *)arg1;
+- (_WKInspectorConfiguration *)_accessibilityCanBeFirstResponderWhenNotAnElement;
+- (void)_accessibilityCanBeConsideredMediaAnalysisElement;
+- (NSColor *)_accessibilityBundleIdentifier;
+- (void)oteElements;
+- (void)IFocusItemContainer>",R,N;
+- (NSViewController *)Swapping %@ for %@ because it's the accessible element;
+- (void)ng entire frame;
+- (void)AXSSVoiceOverTextualContextFileSystem;
+- (NSDictionary *)r logic to handle that case.;
+- (void)Announcement data redacted>;
+- (void)UIAccessibilityStorageKeyIsScannerGroup;
+- (void)accessibilityMathExpression;
+- (_Bool)4tw2IO-iWrcShVfoKIciIbF4/Library/Caches/com.apple.xbs/TemporaryDirectory.CDhVpt/Sources/AccessibilityFrameworks/Source/UIAccessibility/NSObjectAccessibility.m;
 @end
 

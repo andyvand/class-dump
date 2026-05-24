@@ -13,18 +13,18 @@ __attribute__((visibility("hidden")))
 
 + (double);
 - (id);
-- (double);
-- (id);
-- (double);
-- (double);
+- (double);
+- (id)ifierType:withSharedSecret:withPayloadCertificateUUID:withPromptForVPNPIN:withOnDemandEnabled:withOnDemandMatchDomainsAlways:withOnDemandMatchDomainsNever:withOnDemandMatchDomainsOnRetry:withOnDemandRules:withDisconnectOnIdle:withDisconnectOnIdleTimer: /* Error: Ran out of types for this method. */;
+- (double)ImageHomographyResampler;
+- (double)erMacOS removePlaylistWithIdentifier:] /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (void)@ù
 × ;
-- (double)entCaptureGroup;
-- (void)resis;
-- (double)ition;
-- (id)eInvokable;
+- (double)removeFromCurrentCaptureGroup;
+- (void)liftMoveHysteresis;
+- (double)_needsDeferredTransition;
+- (id)_UISceneConnectionOptionDefinitionStorageInvokable;
 
 @end
 

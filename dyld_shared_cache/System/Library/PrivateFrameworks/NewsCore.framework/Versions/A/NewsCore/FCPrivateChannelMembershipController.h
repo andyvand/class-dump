@@ -6,13 +6,11 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCMTWriterLock, NSDictionary, NSMutableSet, NSString;
+@class NSDictionary;
 
 @interface FCPrivateChannelMembershipController : FCPrivateDataController
 {
     NSDictionary *_membershipsByChannelID;
-    NSMutableSet *_membershipReferences;
-    FCMTWriterLock *_membershipsLock;
 }
 
 + (_Bool);
@@ -21,36 +19,30 @@
 + (id);
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)_previewImagesByDevice;
 + (_Bool);
 + (unsigned long long);
 + (id);
 + (id);
-- (void);
+- (void)tV;
 - (id);
 - (_Bool);
+- (void)5;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)p;
 - (id);
-- (_Bool);
+- (_Bool)ation;
 - (void);
 - (void);
-- (void);
+- (void)hError:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ssionValue;
+- (id)savedBaselineImpressionValue;
 - (void)ock;
 - (void)e:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

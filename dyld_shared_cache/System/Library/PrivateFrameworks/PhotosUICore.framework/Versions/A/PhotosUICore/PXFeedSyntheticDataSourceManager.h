@@ -7,7 +7,6 @@
 @interface PXFeedSyntheticDataSourceManager
 {
     long long _initialNumberOfSections;
-    long long _initialNumberOfItemsPerSection;
 }
 
 - (id);

@@ -10,22 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _MSPQueryState
 {
     NSArray *_contents;
-    NSArray *_identifiers;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)T;
 - (id);
-- (id);
-- (id);
+- (id)nt();var u=null;for(let t in e){u=this._logicalFormsCache.logicalFormForControl(this.formControlWithUniqueID(t));break}const c=Object.entries(e).map((([e,t])=>[this.formControlWithUniqueID(e),t])).sort(((e,t)=>{const r=e[0],n=t[0],o=r.compareDocumentPosition(n);return o&(Node.DOCUMENT_POSITION_PRECEDING|Node.DOCUMENT_POSITION_CONTAINS)?1:o&(Node.DOCUMENT_POSITION_FOLLOWING|Node.DOCUMENT_POSITION_CONTAINED_BY)?-1:0}));return await this._executeWhilePreventingUserInteraction((async()=>{const e=new Set(i);for(let[t,n]of c){const o=e.has(t._controlUniqueID);await this._fillControl(t,n,r,o)}})),o?innermostActiveElement().blur():s&&setTimeout((()=>{this.selectIfTextField(s)}),0),u?.backingElement&&elementAppearsToContinueCaptchaWidget(u.backingElement)&&(a=!1),{formMetadata:this._getOrCreateCachedMetadataForLogicalForm(u),shouldSubmit:a}}_isInputAllowedInSearchForm(e,t){var r=this._getTagName(e).toLowerCase();if("button"===r||"fieldset"===r)return!0;if("select"===r)return!t||isSelectInDefaultState(e);if("input"!==r&&!this._textAreaElementLookLikeItIsPartOfASearchForm(e))return!1;var n=e.type;return"radio"===n||"checkbox"===n?!t||isCheckboxOrRadioButtonInDefaultState(e):"hidden"===n||"reset"===n||"submit"===n||"button"===n||"image"===n||this._isTextField(e)&&!this._isSecureTextField(e)}isSearchForm(e,t){if("get"!==e.method)return!1;for(var r=elementsInFormPiercingShadowDOM(e),n=r.length,o=0;o<n;++o)if(!this._isInputAllowedInSearchForm(r[o],t))return!1;return!0}_textAreaElementLookLikeItIsPartOfASearchForm(e){return!!this._isTextArea(e)&&("search"===e.getAttribute("type")||("search"===e.inputMode||"search"===e.getAttribute("enterkeyhint")))}_shouldInputBeIncludedInSearchURLQuery(e){if(e.disabled)return!1;if(!e.name.length)return!1;if(!e.value.length)return!1;if(isSelectElement(e))return!0;var t=this._getTagName(e).toLowerCase(),r=e.type;return"button"===t?"submit"===r:"input"===t&&("submit"===r||("checkbox"===r||"radio"===r?e.checked:"hidden"===r||this._isTextField(e)))}_isSubmitButton(e){return(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)&&(e.type&&"submit"===e.type)}_isCustomFormButton(e){return"button"===e.type&&(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)}_isCheckboxInputElement(e){return"checkbox"===e.type&&e instanceof HTMLInputElement}_setQueryString(e,t){var r=document.createElement("a");return r.href=e,r.search=t,r.href}searchTextFieldFormSubmissionURLString(e,t){if(visibilityCacheGeneration++,!this._isTextField(e)||this._isSecureTextField(e)||!e.isVisible())return null;var r=e.form;if(!r)return null;var n=r.getAttribute("action");if(!n||!n.length)return null;if(!/^https?:/i.test(r.action))return null;if(!this.isSearchForm(r,t))return null;for(var o=null,i="",l=elementsInFormPiercingShadowDOM(r),a=l.length,s=0;s<a;++s){var u=l[s];if((u===e||this._shouldInputBeIncludedInSearchURLQuery(u))&&(!this._isSubmitButton(u)||(o||(o=u),u===o))){i.length&&(i+="&");var c=u===e?"{searchTerms}":urlEncode(u.value);i+=urlEncode(u.name)+"="+c}}return this._setQueryString(r.action,i)}_collectExtraControlMetadata(e,t){let r=e.getAttribute("passwordrules");r?t.ControlPasswordRules=r:"\\d*"===e.pattern&&(t.ControlPasswordRules="allowed:digit;")}removeAutomaticStrongPasswordFromPasswordElement(e){let t=this.formControlWithUniqueID(e);t&&this._isTextField(t)&&(this.clearField(e),this._updateAnnotationsForField(t),FormMetadataJSController.setInputElementAutofilled(t,!1))}}var FormMetadataJS=new FormMetadata;
+0; /* Error: Ran out of types for this method. */;
 - (void);
-- (id)icipantsNeedingRoute;
+- (id)_participantsNeedingRoute;
 
 // Remaining properties
 @property(readonly) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly) NSArray *identifiers; // @synthesize identifiers=_identifiers;
 
 @end
 

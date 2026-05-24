@@ -5,15 +5,13 @@
 //
 
 @class _PASLock;
-@protocol TRINotificationToken;
 
 @interface PPBundleIdAllowancePolicy
 {
     _PASLock *_allowancePolicyLock;
-    id <TRINotificationToken> _trialToken;
 }
 
-+ (id);
++ (id)g;
 - (void);
 - (_Bool);
 - (id);
@@ -25,7 +23,7 @@
 - (void);
 - (void)
 × ;
-- (void)ry:error: /* Error: Ran out of types for this method. */;
+- (void)topicRecordsWithQuery:error: /* Error: Ran out of types for this method. */;
 
 @end
 

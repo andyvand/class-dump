@@ -7,6 +7,7 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void)__vfx_script_WeatherV136DefaultBackground_graph_28494FCF_1F9E_43DB_8133_B48CBE440680;
 - (void);
 @end
 

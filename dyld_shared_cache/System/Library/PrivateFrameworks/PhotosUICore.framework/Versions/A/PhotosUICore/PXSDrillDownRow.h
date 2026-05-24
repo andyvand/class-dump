@@ -6,20 +6,18 @@
 
 #import <PhotosUICore/PXSRow.h>
 
-@class PXSModule, PXSettings;
+@class PXSettings;
 
 @interface PXSDrillDownRow : PXSRow
 {
     PXSettings *_childSettings;
-    PXSModule *_childModule;
-    _Bool _isPrepared;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (id);
-- (void)ing: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)slowMotionEditorDidEndEditing: /* Error: Ran out of types for this method. */;
 - (void)ø;
 
 @end

@@ -10,8 +10,8 @@
 {
 }
 
-+ (void);
-- (id);
++ (void)libsystem_collections.dylib;
+- (id);
 
 @end
 

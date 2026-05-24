@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-
 @interface NFTLV
 {
     unsigned int _tag;
-    NSData *_value;
-    NSArray *_children;
-    unsigned long long _worseCaseSizeAsData;
 }
 
 + (id);
 + (id);
 + (id);
++ (id));
 + (id);
 + (id);
 + (id);
++ (id)ataGeneration;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -38,15 +33,13 @@
 - (id);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)setAppDict: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *children;
 @property(readonly, nonatomic) unsigned int tag;
-@property(readonly, nonatomic) NSData *value;
 
 @end
 

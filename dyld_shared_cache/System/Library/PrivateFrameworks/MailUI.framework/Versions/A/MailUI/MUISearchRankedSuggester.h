@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MUISearchRankedSuggester
 {
@@ -16,21 +16,12 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityHelp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logIdentifier;
-@property(readonly, nonatomic) _Bool shouldQueryForAsYouType;
-@property(readonly) Class superclass;
 
 @end
 

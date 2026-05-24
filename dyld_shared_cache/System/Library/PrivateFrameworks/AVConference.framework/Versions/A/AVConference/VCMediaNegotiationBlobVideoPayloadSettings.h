@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobVideoPayloadSettings
 {
     NSString *_featureString;
-    unsigned int _parameterSet;
-    unsigned int _payload;
-    NSMutableArray *_videoRuleCollections;
 }
 
 + (Class);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -28,22 +25,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)I;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *featureString; // @synthesize featureString=_featureString;
-@property(nonatomic) unsigned int parameterSet; // @synthesize parameterSet=_parameterSet;
 @property(nonatomic) unsigned int payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) NSMutableArray *videoRuleCollections; // @synthesize videoRuleCollections=_videoRuleCollections;
 
 @end
 

@@ -5,9 +5,9 @@
 //
 
 @protocol CNChangeNotificationReceiver
+- (_Bool)mediaNameForDisk:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double externalNotificationCoalescingDelay;
 @property(nonatomic) _Bool forwardsSelfGeneratedDistributedSaveNotifications;
 @end
 

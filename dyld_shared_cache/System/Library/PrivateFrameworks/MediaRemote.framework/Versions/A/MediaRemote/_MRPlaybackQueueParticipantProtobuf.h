@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRUserIdentityProtobuf;
+@class NSString;
 
 @interface _MRPlaybackQueueParticipantProtobuf
 {
     NSString *_identifier;
-    _MRUserIdentityProtobuf *_identity;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -23,17 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)AFQuickStopActionDismissFiringTimer;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)ueue;
+- (void)_requestPlaybackQueue;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasIdentity;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _MRUserIdentityProtobuf *identity; // @synthesize identity=_identity;
 
 @end
 

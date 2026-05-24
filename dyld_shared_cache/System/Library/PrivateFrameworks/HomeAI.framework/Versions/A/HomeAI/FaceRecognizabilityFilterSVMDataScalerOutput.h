@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface FaceRecognizabilityFilterSVMDataScalerOutput
@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id)hing facecrops for person:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *transformed_features; // @synthesize transformed_features=_transformed_features;
 
 @end

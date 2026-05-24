@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufCustomPrecisionAmount, PKProtobufNSDecimalNumber;
-
 @interface PKProtobufShippingMethod
 {
     long long _amount;
-    PKProtobufCustomPrecisionAmount *_customPrecisionAmount;
-    PKProtobufNSDecimalNumber *_decimalAmount;
-    NSString *_detail;
-    NSString *_identifier;
-    NSString *_label;
-    unsigned int _type;
-    CDStruct_9fb36b4c _has;
 }
 
 - (void);
@@ -32,15 +23,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)scripting addition "%s" because %s.;
 - (_Bool);
 - (void);
-- (void);
+- (void)$;
 - (id);
 - (void);
 - (id);
@@ -49,25 +40,12 @@
 × ;
 - (void)onnection request:(id)arg1 Web service not available;
 - (_Bool)thod Selected:%@ /* Error: Ran out of types for this method. */;
-- (void)n;
-- (void)gibleForSmartButton;
-- (_Bool)FServer;
+- (void)operation;
+- (void)eligibleForSmartButton;
+- (_Bool)PKUseMockSURFServer;
 
 // Remaining properties
-@property(nonatomic) long long amount; // @synthesize amount=_amount;
-@property(retain, nonatomic) PKProtobufCustomPrecisionAmount *customPrecisionAmount; // @synthesize customPrecisionAmount=_customPrecisionAmount;
-@property(retain, nonatomic) PKProtobufNSDecimalNumber *decimalAmount; // @synthesize decimalAmount=_decimalAmount;
-@property(retain, nonatomic) NSString *detail; // @synthesize detail=_detail;
 @property(nonatomic) _Bool hasAmount;
-@property(readonly, nonatomic) _Bool hasCustomPrecisionAmount;
-@property(readonly, nonatomic) _Bool hasDecimalAmount;
-@property(readonly, nonatomic) _Bool hasDetail;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

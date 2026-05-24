@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface DECatParamsResult
 {
     NSString *_catId;
-    NSDictionary *_params;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)IDs:(id)arg1 %@;
+- (id)h_E;
 - (void)ÑÑÐ¼Ð¸;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *catId; // @synthesize catId=_catId;
-@property(retain, nonatomic) NSDictionary *params; // @synthesize params=_params;
 
 @end
 

@@ -11,14 +11,13 @@
 @interface SMWindowsMigrateComponentStep : SMEngineStep
 {
     SMWindowsMacPathMapper *windowsMacPathMap;
-    SMCopyEngine *fileCopyEngine;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain) SMCopyEngine *fileCopyEngine; // @synthesize fileCopyEngine;
-@property(retain) SMWindowsMacPathMapper *windowsMacPathMap; // @synthesize windowsMacPathMap;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol ICCloudSessionDelegate
+- (void)r principal %@;
+- (void)ble to remove keytab entry for principal %@;
+- (void)g;
 @end
 

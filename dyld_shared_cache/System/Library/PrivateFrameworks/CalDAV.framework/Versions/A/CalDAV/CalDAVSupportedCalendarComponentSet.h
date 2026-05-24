@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface CalDAVSupportedCalendarComponentSet
 {
@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)drain_depth_p_0_90_at_charge_start_soc_curr_dynamic_bin_12;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *compNames;
 @property(retain, nonatomic) NSMutableSet *comps; // @synthesize comps=_comps;
 
 @end

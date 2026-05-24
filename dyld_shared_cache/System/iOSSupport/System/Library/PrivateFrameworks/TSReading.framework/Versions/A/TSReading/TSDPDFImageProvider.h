@@ -9,12 +9,11 @@
 @interface TSDPDFImageProvider : TSDImageProvider
 {
     struct CGPDFDocument *mPDFDocument;
-    struct CGSize mNaturalSize;
 }
 
 - (long long);
 - (void);
-- (struct CGPDFDocument *);
+- (struct CGPDFDocument *)CoordinatorEventStateHandling;
 - (void);
 - (struct CGPDFDocument *);
 - (_Bool);

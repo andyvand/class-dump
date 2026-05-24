@@ -24,8 +24,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)ility:frameDuration: /* Error: Ran out of types for this method. */;
+- (id)iewController";
+- (void)updateOCRUpdateModeWithStability:frameDuration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *sequence; // @synthesize sequence=_sequence;

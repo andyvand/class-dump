@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUSerialPortConfiguration
 {
     long long _baudRate;
-    NSString *_devicePath;
-    long long _flowControl;
-    unsigned long long _flags;
 }
 
 - (void);
-- (void);
+- (void)T);
 - (long long);
 - (id);
 - (long long);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)@0:8:16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long baudRate; // @synthesize baudRate=_baudRate;
-@property(copy, nonatomic) NSString *devicePath; // @synthesize devicePath=_devicePath;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic) long long flowControl; // @synthesize flowControl=_flowControl;
 
 @end
 

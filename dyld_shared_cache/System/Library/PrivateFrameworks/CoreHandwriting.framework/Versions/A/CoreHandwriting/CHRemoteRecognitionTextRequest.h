@@ -6,27 +6,15 @@
 
 #import <CoreHandwriting/CHRemoteRecognitionRequest.h>
 
-@class NSArray, NSDictionary, NSSet;
+@class NSArray;
 
 @interface CHRemoteRecognitionTextRequest : CHRemoteRecognitionRequest
 {
     _Bool _shouldUseTextReplacements;
-    _Bool _enableGen2ModelIfAvailable;
-    _Bool _enableGen2CharacterLMIfAvailable;
-    _Bool _enableStrokeReordering;
-    int _recognitionMode;
-    int _contentType;
-    int _autoCapitalizationMode;
-    int _autoCorrectionMode;
-    NSArray *_locales;
-    NSDictionary *_activeCharacterSetPerLocale;
-    int _baseWritingDirection;
-    NSDictionary *_parametersOverride;
-    NSSet *_customLexiconEntries;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_histogramView;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,13 +26,14 @@
 - (void);
 - (void);
 - (void);
+- (id)
+9JZ;
+- (id)JK}SH;
+- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (int);
 - (int);
@@ -55,7 +44,7 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -66,20 +55,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *activeCharacterSetPerLocale; // @synthesize activeCharacterSetPerLocale=_activeCharacterSetPerLocale;
-@property(nonatomic) int autoCapitalizationMode; // @synthesize autoCapitalizationMode=_autoCapitalizationMode;
-@property(nonatomic) int autoCorrectionMode; // @synthesize autoCorrectionMode=_autoCorrectionMode;
-@property(nonatomic) int baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(copy, nonatomic) NSSet *customLexiconEntries; // @synthesize customLexiconEntries=_customLexiconEntries;
-@property(nonatomic) _Bool enableGen2CharacterLMIfAvailable; // @synthesize enableGen2CharacterLMIfAvailable=_enableGen2CharacterLMIfAvailable;
-@property(nonatomic) _Bool enableGen2ModelIfAvailable; // @synthesize enableGen2ModelIfAvailable=_enableGen2ModelIfAvailable;
-@property(nonatomic) _Bool enableStrokeReordering; // @synthesize enableStrokeReordering=_enableStrokeReordering;
 @property(copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(copy, nonatomic) NSDictionary *parametersOverride; // @synthesize parametersOverride=_parametersOverride;
-@property(nonatomic) int recognitionMode; // @synthesize recognitionMode=_recognitionMode;
-@property(readonly, nonatomic) _Bool shouldRemoveUnnaturalGaps;
-@property(nonatomic) _Bool shouldUseTextReplacements; // @synthesize shouldUseTextReplacements=_shouldUseTextReplacements;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSDictionary, PKAppletSubcredential;
+@class NSDictionary;
 
 @interface PKPaymentRevokeSharedCredentialRequest : PKPaymentWebServiceRequest
 {
     NSDictionary *_revocationAttestation;
-    PKAppletSubcredential *_credential;
 }
 
 - (id);

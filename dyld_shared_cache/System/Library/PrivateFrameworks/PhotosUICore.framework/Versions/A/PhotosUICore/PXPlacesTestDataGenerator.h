@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXPlacesTestDataGenerator
 {
     NSObject<OS_dispatch_queue> *_generationQueue;
-    NSArray *_latOffsets;
-    NSArray *_longOffsets;
-    unsigned long long _max;
-    struct CLLocationCoordinate2D _from;
-    struct CLLocationCoordinate2D _to;
-    NSMutableArray *_dataPoints;
 }
 
-- (void);
+- (void)A;
 - (id);
 - (unsigned long long);
 - (id);

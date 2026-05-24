@@ -5,5 +5,6 @@
 //
 
 @protocol CHSControlsXPCClient
+- (oneway void);
 @end
 

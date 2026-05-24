@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSObject;
-@protocol OS_dispatch_queue;
+@class AVAsset;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetDownloadCacheInternal
 {
     AVAsset *asset;
-    struct CMBaseObject *assetCacheInspector;
-    NSObject<OS_dispatch_queue> *workQueue;
 }
 
-- (void)e:actualTime:error: /* Error: Ran out of types for this method. */;
+- (void)copyCGImageAtTime:actualTime:error: /* Error: Ran out of types for this method. */;
 
 @end
 

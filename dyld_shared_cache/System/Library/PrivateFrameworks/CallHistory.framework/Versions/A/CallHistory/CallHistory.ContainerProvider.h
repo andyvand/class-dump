@@ -7,8 +7,6 @@
 @interface CallHistory.ContainerProvider
 {
     id databaseURL;
-    id _state;
-    id userDefaults;
 }
 
 @end

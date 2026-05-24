@@ -5,5 +5,6 @@
 //
 
 @protocol HMDRemoteEventRouterUserAccessControlProvider
+- (unsigned long long)SharedTripCapabilityFetching;
 @end
 

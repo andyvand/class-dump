@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString, NSTimeZone, NSURL;
+@class NSURL;
 
 @interface EMInstantAnswerFlight
 {
     _Bool _infoIsLive;
-    NSURL *_checkInUrl;
-    NSDateComponents *_departureDateComponents;
-    NSDateComponents *_arrivalDateComponents;
-    NSTimeZone *_departureTimeZone;
-    NSTimeZone *_arrivalTimeZone;
-    NSString *_arrivalAirportCode;
-    NSString *_departureAirportCode;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
+- (id)RestrictedGuestFeatureLogEvent;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ResidentStatusProtobufSerializerResidentSelectionInfo;
 - (id);
 - (id);
 - (id);
@@ -36,14 +29,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *arrivalAirportCode; // @synthesize arrivalAirportCode=_arrivalAirportCode;
-@property(readonly, nonatomic) NSDateComponents *arrivalDateComponents; // @synthesize arrivalDateComponents=_arrivalDateComponents;
-@property(readonly, nonatomic) NSTimeZone *arrivalTimeZone; // @synthesize arrivalTimeZone=_arrivalTimeZone;
 @property(retain, nonatomic) NSURL *checkInUrl; // @synthesize checkInUrl=_checkInUrl;
-@property(readonly, nonatomic) NSString *departureAirportCode; // @synthesize departureAirportCode=_departureAirportCode;
-@property(readonly, nonatomic) NSDateComponents *departureDateComponents; // @synthesize departureDateComponents=_departureDateComponents;
-@property(readonly, nonatomic) NSTimeZone *departureTimeZone; // @synthesize departureTimeZone=_departureTimeZone;
-@property(readonly, nonatomic) _Bool infoIsLive; // @synthesize infoIsLive=_infoIsLive;
 
 @end
 

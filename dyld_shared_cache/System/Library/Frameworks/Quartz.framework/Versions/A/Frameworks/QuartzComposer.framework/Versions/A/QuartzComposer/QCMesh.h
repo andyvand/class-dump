@@ -6,30 +6,18 @@
 
 #import <QuartzComposer/QCObject.h>
 
-@class QCImage;
-
 @interface QCMesh : QCObject
 {
     struct _QCMeshInternal *_meshComponents;
-    QCImage *_texture[16];
-    struct __C3DGeometry *_c3DSourceGeometry;
-    struct _QCC3DMesh *_c3DMesh;
-    int _mode;
-    struct _QCMeshBoundingBox *_boundingBox;
-    double *_transformation;
-    unsigned long long _flags;
-    unsigned long long _componentDirtyFlag;
-    unsigned long long _componentUpdatedFlag;
-    void *_unused5[4];
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)(	;
+- (unsigned long long));
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -41,7 +29,7 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id);
 - (struct _QCMeshBoundingBox *);
 - (void);
 - (void);
@@ -50,14 +38,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) struct _QCMeshBoundingBox *boundingBox;
-@property _Bool flipCulling;
 @property(readonly) int mode; // @synthesize mode=_mode;
-@property(readonly) float pointSize;
-@property double *transformation;
-@property(readonly) unsigned long long volumeDepth;
-@property(readonly) unsigned long long volumeHeight;
-@property(readonly) unsigned long long volumeWidth;
 
 @end
 

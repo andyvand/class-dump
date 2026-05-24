@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSWindow;
+
 @protocol ASAuthorizationControllerPresentationContextProviding
+- (NSWindow *)tor size %zu not equal to dimension %d at axis %d;
 @end
 

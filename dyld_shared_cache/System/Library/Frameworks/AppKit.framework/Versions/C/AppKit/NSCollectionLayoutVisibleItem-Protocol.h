@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSString;
 
 @protocol NSCollectionLayoutVisibleItem
+- (void),V_handler;
+- (struct CGRect)stringByStrippingLeadingAndTrailingWhitespaceAndQuotes;
+- (struct CGRect);
 - (_Bool)0@ù
 × ;
 - (void):(_Bool)arg1 8Q16Q24{CGRect={CGPoint=dd}{CGSize=dd}}32Q64B72@76Q84;
-- (long long)imation: /* Error: Ran out of types for this method. */;
+- (long long)recognizerDidDismissAnimation: /* Error: Ran out of types for this method. */;
 - (void)@BqBddddBqBQB},V_state;
 - (void);
 - (double)on handler with nil;
-- (NSString *)Button;
+- (NSString *)NSHighlightedScrollRightButton;
 
 // Remaining properties
 @property double alpha;
-@property(readonly) struct CGRect bounds;
-@property struct CGPoint center;
-@property(readonly) struct CGRect frame;
-@property(getter=isHidden) _Bool hidden;
-@property(readonly) NSIndexPath *indexPath;
-@property(readonly) NSString *name;
-@property(readonly) long long representedElementCategory;
-@property(readonly) NSString *representedElementKind;
-@property long long zIndex;
 @end
 

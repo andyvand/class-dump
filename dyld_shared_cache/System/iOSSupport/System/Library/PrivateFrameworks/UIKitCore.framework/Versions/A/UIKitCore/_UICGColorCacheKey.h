@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (_Bool)ecureCandidateLabel:(id)arg1;
-- (_Bool)leEffectConfiguration;
+- (_Bool)setSecureCandidateLabel:(id)arg1;
+- (_Bool)_updateLayoutManagerStyleEffectConfiguration;
 - (id)T@"UIVectorLabel",&,N,V_accessoryLabel;
 - (id)from preferred attributes of cell has unresolved top separator visibility. %@;
 

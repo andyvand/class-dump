@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKEvent;
+
 @protocol EKEventAttachmentEditViewControllerDelegate
+
+@optional
+- (EKEvent *)Y%s;
+- (void)&s;
 @end
 

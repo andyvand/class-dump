@@ -7,7 +7,6 @@
 @interface Vision.HomographicImageRegistrationOperation
 {
     id requests;
-    id options;
 }
 
 @end

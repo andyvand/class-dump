@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AUMessageChannel_XPC
 {
     NSXPCConnection *_xpcConnection;
-    CDUnknownBlockType _callHostBlock;
 }
 
 - (void);

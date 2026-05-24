@@ -13,11 +13,11 @@
     NUVideoAttributes *_videoAttributes;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)Metadata",C,N;
 - (id);
 - (id);
 - (void)0@ù

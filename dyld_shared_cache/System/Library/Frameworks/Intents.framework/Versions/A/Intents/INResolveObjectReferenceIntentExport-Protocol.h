@@ -7,6 +7,7 @@
 @class NSData;
 
 @protocol INResolveObjectReferenceIntentExport
+- (NSData *);
 
 // Remaining properties
 @property(copy) NSData *reference;

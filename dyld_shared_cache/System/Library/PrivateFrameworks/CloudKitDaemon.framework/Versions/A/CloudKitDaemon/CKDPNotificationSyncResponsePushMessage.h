@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 @interface CKDPNotificationSyncResponsePushMessage
 {
     int _badgeCount;
-    NSString *_category;
-    NSString *_dialog;
-    NSData *_payload;
-    NSString *_sound;
-    int _source;
-    NSString *_subtitle;
-    NSMutableArray *_subtitleLocalizedArguments;
-    NSString *_subtitleLocalizedKey;
-    NSString *_title;
-    NSMutableArray *_titleLocalizedArguments;
-    NSString *_titleLocalizedKey;
-    NSString *_uuid;
-    _Bool _isRead;
-    struct {
-        unsigned int badgeCount:1;
-        unsigned int source:1;
-        unsigned int isRead:1;
-    } _has;
 }
 
-+ (Class);
++ (Class);
 + (Class);
 - (void);
 - (_Bool);
@@ -38,30 +18,31 @@
 - (void);
 - (int);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)EMThreadReloadSummaryHelper;
+- (id)c}@;
+- (void);
+- (unsigned long long)UsoTaskBuilder_request_common_Person;
 - (id);
 - (unsigned long long);
+- (void);
+- (id)!;
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void)o3;
+- (void)readBinaryValueAtBit:(id)arg1 numberOfBits: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)sion_sendPendingSetVolumeCommand(APSenderSessionRef);
+- (unsigned long long)resumed=%d 
+;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)_current_subsequentTdAfterJoinAfterTDCount;
+- (id)T@"WiFiSoftError",&,V_rnfSoftError;
 - (id);
 - (void);
 - (void);
@@ -73,7 +54,7 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int))A;
 - (void);
 - (_Bool);
 - (id);
@@ -82,13 +63,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)8@0:8@16@24@32^@40 /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (id)llbackProxy;
-- (void)ner:(id)arg1;
-- (_Bool)moryFetchOfItem:pcsData:forOperation:options:fetchCreator:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (id)clientOperationCallbackProxy;
+- (void)_registrationForContainer:(id)arg1;
+- (_Bool)_lockedHandleMemoryFetchOfItem:pcsData:forOperation:options:fetchCreator:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)isZoneWideShare;
 - (_Bool);
 - (void)clientOperationMetrics.reportFrequencyBase;
 - (void)g mergeable delta metadata:(_Bool)arg1 %@;
@@ -97,32 +78,7 @@
 - (void)hunkCount:(id)arg1 %lu, signature:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int badgeCount; // @synthesize badgeCount=_badgeCount;
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
-@property(retain, nonatomic) NSString *dialog; // @synthesize dialog=_dialog;
-@property(nonatomic) _Bool hasBadgeCount;
-@property(readonly, nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasDialog;
 @property(nonatomic) _Bool hasIsRead;
-@property(readonly, nonatomic) _Bool hasPayload;
-@property(readonly, nonatomic) _Bool hasSound;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) _Bool hasSubtitle;
-@property(readonly, nonatomic) _Bool hasSubtitleLocalizedKey;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasTitleLocalizedKey;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(nonatomic) _Bool isRead; // @synthesize isRead=_isRead;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) NSString *sound; // @synthesize sound=_sound;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSMutableArray *subtitleLocalizedArguments; // @synthesize subtitleLocalizedArguments=_subtitleLocalizedArguments;
-@property(retain, nonatomic) NSString *subtitleLocalizedKey; // @synthesize subtitleLocalizedKey=_subtitleLocalizedKey;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSMutableArray *titleLocalizedArguments; // @synthesize titleLocalizedArguments=_titleLocalizedArguments;
-@property(retain, nonatomic) NSString *titleLocalizedKey; // @synthesize titleLocalizedKey=_titleLocalizedKey;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

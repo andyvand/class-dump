@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPBSSFPRecord
 {
     _Bool _verificationMode;
-    _Bool _submitted;
-    NSString *_key;
-    NSString *_privateValue;
-    NSString *_tableVersion;
-    long long _segmentIndex;
-    double _creationDate;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
@@ -34,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)ad URL but skipping page load;
 - (id);
 - (id);
 - (_Bool);
@@ -48,7 +40,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)_updatePrepareProgress:(double)arg1;
 - (id);
 - (void);
 - (void);
@@ -57,15 +49,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(copy, nonatomic) NSString *privateValue; // @synthesize privateValue=_privateValue;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(nonatomic) long long segmentIndex; // @synthesize segmentIndex=_segmentIndex;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
-@property(copy, nonatomic) NSString *tableVersion; // @synthesize tableVersion=_tableVersion;
-@property(nonatomic) _Bool verificationMode; // @synthesize verificationMode=_verificationMode;
 
 @end
 

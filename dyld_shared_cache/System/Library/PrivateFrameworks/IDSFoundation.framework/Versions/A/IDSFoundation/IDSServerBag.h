@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerBagConfig, IDSServerBagLoadedContents, NSMutableDictionary, NSObject;
-@protocol IDSServerBagContentProvider, OS_dispatch_queue;
-
 @interface IDSServerBag
 {
     struct os_unfair_lock_s _contentsLock;
-    IDSServerBagLoadedContents *_loadedContents;
-    NSMutableDictionary *_overrideValues;
-    NSObject<OS_dispatch_queue> *_queue;
-    IDSServerBagConfig *_config;
-    id <IDSServerBagContentProvider> _contentProvider;
 }
 
 + (id);

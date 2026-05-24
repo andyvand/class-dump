@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol AMSBagProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AMSAccountNotificationPlugin
 {
     NSObject<OS_dispatch_queue> *_processingQueue;
-    id <AMSBagProtocol> _bag;
 }
 
 + (void);
-+ (id);
++ (id)Eo;
 + (void);
 + (void);
 + (void);
@@ -26,14 +25,14 @@
 + (_Bool);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (void);
 + (void);
 + (void);
 + (_Bool);
 + (void);
 + (void);
-- (_Bool);
+- (_Bool)@:(id)arg1 o;
 - (void);
 - (void);
 - (void);
@@ -49,19 +48,19 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void),{;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -72,19 +71,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(readonly) Class superclass;
 
 @end
 

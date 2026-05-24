@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SFSpotlightEmbeddingState
 {
     NSNumber *_embeddedPhotosAssetsCount;
-    NSNumber *_totalPhotosAssetsCount;
-    NSNumber *_embeddedPhotosAssetsPercentage;
 }
 
 + (_Bool);
@@ -20,29 +18,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)volumeController:(id)arg1 EUVolumeLimitDidChange: /* Error: Ran out of types for this method. */;
+- (unsigned long long)q8;
 - (_Bool);
-- (void);
+- (void)assertNotRunningInAccessQueue;
 - (id);
+- (id)PHQuestionTypeSurveyTripTitling;
+- (id)ion list;
 - (id);
-- (id);
-- (id);
-- (void)fixMatchInAuthors;
+- (void)hasCountBigramPrefixMatchInAuthors;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSNumber *embeddedPhotosAssetsCount; // @synthesize embeddedPhotosAssetsCount=_embeddedPhotosAssetsCount;
-@property(copy, nonatomic) NSNumber *embeddedPhotosAssetsPercentage; // @synthesize embeddedPhotosAssetsPercentage=_embeddedPhotosAssetsPercentage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *totalPhotosAssetsCount; // @synthesize totalPhotosAssetsCount=_totalPhotosAssetsCount;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <GeoServices/_GEOPlaceRequestTicket.h>
 
-@class GEOMapServiceTraits, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapServiceSpatialEventLookupTicket : _GEOPlaceRequestTicket
@@ -21,24 +21,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)leColumn"24q32;
 - (void);
 - (id)setIcons:(id)arg1;
-- (id)s;
-- (void)T_TYPE_PLACE_QUESTIONNAIRE;
+- (id)intentsConnectionStatus;
+- (void)COMPONENT_TYPE_PLACE_QUESTIONNAIRE;
 - (id)ÿÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end
 

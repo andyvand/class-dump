@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _LSApplicationRecordSpecificUnitsEnumerator : _LSRecordEnumerator
 {
     struct vector<unsigned int, std::allocator<unsigned int>> _unitIDs;
-    unsigned long long _options;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);

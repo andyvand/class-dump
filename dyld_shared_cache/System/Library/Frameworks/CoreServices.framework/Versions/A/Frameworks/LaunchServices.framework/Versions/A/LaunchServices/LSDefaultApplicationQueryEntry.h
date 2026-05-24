@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LSDefaultApplicationQueryEntry
 {
     _Bool _defaultForCategory;
-    NSArray *_windowOpenDates;
-    NSDate *_refreshDate;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -29,9 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)ä;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDefaultForCategory) _Bool defaultForCategory; // @synthesize defaultForCategory=_defaultForCategory;
-@property(readonly, nonatomic, getter=isOpenWindowGroupFull) _Bool openWindowGroupFull; // @dynamic openWindowGroupFull;
-@property(readonly, nonatomic) NSDate *refreshDate; // @synthesize refreshDate=_refreshDate;
 @property(readonly, nonatomic) NSArray *windowOpenDates; // @synthesize windowOpenDates=_windowOpenDates;
 
 @end

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSafariViewControllerPresentedFromHostAppEvent
 {
     unsigned long long _timestamp;
-    NSString *_hostAppBundleID;
-    CDStruct_b5306035 _has;
 }
 
-- (void);
-- (_Bool);
+- (void)	jA;
+- (_Bool)`;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,14 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h>@9;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHostAppBundleID;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *hostAppBundleID; // @synthesize hostAppBundleID=_hostAppBundleID;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

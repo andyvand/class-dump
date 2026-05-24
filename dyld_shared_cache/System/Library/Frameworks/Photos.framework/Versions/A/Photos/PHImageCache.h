@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PHRecyclableObjectVendor;
+@class NSMutableDictionary;
 @protocol PHImageCacheDelegate;
 
 @interface PHImageCache
 {
     NSMutableDictionary *_backingDictionary;
-    NSMutableDictionary *_uncommittedInserts;
-    NSMutableDictionary *_uncommittedDeletes;
-    struct os_unfair_lock_s _lock;
-    PHRecyclableObjectVendor *_entryVendor;
-    id <PHImageCacheDelegate> _delegate;
 }
 
 - (void);
@@ -25,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)rences.ShowStandaloneTabBar;
 - (_Bool);
 - (void);
 

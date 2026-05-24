@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSMutableDictionary, NSString, RWITarget;
 @protocol RWIApplicationDelegate;
 
 @interface RWIApplication
 {
     id <RWIApplicationDelegate> _delegate;
-    RWITarget *_target;
-    NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSString *_name;
-    NSImage *_icon;
-    NSMutableDictionary *_allDebuggables;
-    NSMutableDictionary *_drivables;
-    _Bool _proxy;
-    NSString *_hostApplicationIdentifier;
-    _Bool _ready;
-    long long _automationAvailability;
-    unsigned long long _debuggerAvailability;
 }
 
 + (id);
@@ -35,10 +22,10 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)#;
 - (id);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (_Bool);
@@ -48,36 +35,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)?;
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void))%;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) NSArray *allDebuggables;
-@property(readonly, nonatomic) long long automationAvailability; // @synthesize automationAvailability=_automationAvailability;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSArray *debuggables;
-@property(readonly, nonatomic) unsigned long long debuggerAvailability; // @synthesize debuggerAvailability=_debuggerAvailability;
-@property(nonatomic) __weak id <RWIApplicationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *drivables;
-@property(copy, nonatomic) NSString *hostApplicationIdentifier; // @synthesize hostApplicationIdentifier=_hostApplicationIdentifier;
-@property(readonly, copy, nonatomic) NSImage *icon;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCurrentApplication;
-@property(readonly, nonatomic) _Bool isCurrentTarget;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic, getter=isProxy) _Bool proxy; // @synthesize proxy=_proxy;
-@property(readonly, nonatomic, getter=isReady) _Bool ready; // @synthesize ready=_ready;
-@property(readonly, nonatomic) RWITarget *target; // @synthesize target=_target;
 
 @end
 

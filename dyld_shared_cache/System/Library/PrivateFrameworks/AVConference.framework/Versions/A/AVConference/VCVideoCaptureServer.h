@@ -4,148 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, VCImageQueue, VCImageRotationConverter, VCVideoSourceTokenManager, VideoAttributes;
-@protocol AVConferencePreviewDelegate, OS_dispatch_queue, OS_dispatch_source, VCVideoSource;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoCaptureServer
 {
     int currentWidth;
-    int currentHeight;
-    int currentFrameRate;
-    int _screenConfiguredFrameRate;
-    int _screenCurrentFrameRate;
-    int _maxFrameRate;
-    int _encodingWidth;
-    int _encodingHeight;
-    int previewFrameCount;
-    int captureFrameCount;
-    NSObject<OS_dispatch_source> *cameraHealthMonitor;
-    NSObject<OS_dispatch_source> *screenHealthMonitor;
-    int pendingWidth;
-    int pendingHeight;
-    int pendingFrameRate;
-    int _bestCameraCaptureFrameRate;
-    _Bool _followSystemCamera;
-    VCVideoSourceTokenManager *_tokenManager;
-    _Bool _firstPreviewFrameReceived;
-    int snapshotRequestCount;
-    NSMutableArray *cameraVideoSinks;
-    NSMutableArray *screenCaptureClients;
-    NSMutableDictionary *_cameraPreviewClients;
-    NSMutableDictionary *_cameraSinkVideoRules;
-    struct CGSize _localScreenPortraitAspectRatio;
-    struct CGSize _localScreenLandscapeAspectRatio;
-    struct CGSize _localExpectedPortraitAspectRatio;
-    struct CGSize _localExpectedLandscapeAspectRatio;
-    struct CGSize _defaultPortraitAspectRatio;
-    struct CGSize _defaultLandscapeAspectRatio;
-    NSObject<OS_dispatch_queue> *captureServerQueue;
-    NSObject<OS_dispatch_queue> *captureClientQueue;
-    NSObject<OS_dispatch_queue> *captureCameraQueue;
-    NSObject<OS_dispatch_queue> *_cameraPreviewClientMonitorQueue;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSObject<OS_dispatch_queue> *delegateNotificationQueue;
-    NSObject<OS_dispatch_queue> *variablesQueue;
-    NSObject<OS_dispatch_queue> *snapshotQueue;
-    _Bool _useAVCaptureSession;
-    NSObject<VCVideoSource> *avCapture;
-    NSObject<VCVideoSource> *_screenCapture;
-    NSMutableDictionary *_screenShareCaptureConfig;
-    unsigned long long _biomeEventType;
-    struct OpaqueVTPixelTransferSession *transferSession;
-    struct __CVPixelBufferPool *bufferPool;
-    _Bool resize;
-    NSObject<AVConferencePreviewDelegate> *appDelegate;
-    struct tagAVConferencePreviewDelegateRealtimeRealtimeInstanceVTable _delegateFunctions;
-    double falteredRenderingtimeStamp;
-    VCImageQueue *frontQueue;
-    VCImageQueue *backQueue;
-    _Bool _frontLayerInLayerHostMode;
-    _Bool _backLayerInLayerHostMode;
-    int _thermalLevel;
-    int _newThermalLevel;
-    int _peakPowerNotificationToken;
-    int _peakPowerLevel;
-    int _newPeakPowerLevel;
-    _Bool _viewPointCorrectionEnabledByThermal;
-    _Bool _viewPointCorrectionEnabledByClient;
-    _Bool _isPreviewRunning;
-    _Bool _isScreenCaptureForScreenShare;
-    _Bool _forceDisableThermal;
-    _Bool _isCapturing;
-    _Bool _preferPresentationTimeStamp;
-    _Bool _isExternalCamera;
-    struct _VCVideoSourceToken _currentVideoSourceToken;
-    _Bool _remoteSupportsFullScreenReceive;
-    _Bool _cinematicFramingEnabled;
-    double _cameraZoomFactor;
-    VideoAttributes *_localVideoAttributes;
-    unsigned int _defaultCapturePixelFormat;
-    _Bool _pendingOrientationChange;
-    int _newOrientation;
-    VCImageRotationConverter *_previewImageRotationConverter;
-    struct _opaque_pthread_mutex_t _enqueueLock;
-    NSMutableDictionary *_streamInputCaptureSources;
-    NSMutableDictionary *_streamInputs;
-    NSObject<OS_dispatch_queue> *_streamInputQueue;
-    NSMutableDictionary *_screenCaptureSource;
-    NSMutableDictionary *_screenCaptureConfig;
-    NSMutableDictionary *_screenClientToCaptureSourceID;
-    NSMutableDictionary *_screenCaptureThermalFrameRateThresholds;
-    NSMutableDictionary *_systemAudioCapture;
-    NSMutableDictionary *_systemAudioCaptureConfig;
-    NSMutableDictionary *_systemAudioSourceToClients;
-    _Bool _useScreenCaptureKitForAudio;
-    double _previousFrameTime;
-    struct __sFILE *_bufferStatsDumpFile;
-    struct tagVCVideoBufferStatistics _bufferStatsData;
-    _Bool _isBufferStatsDumpEnabled;
-    double _previousClockTime;
-    _Bool _is1080pCameraAvailable;
-    _Bool _skipPreviewRotation;
-    _Bool _isVideoMirrored;
-    int _remoteDeviceOrientation;
-    NSMutableSet *_deviceStateDelegates;
-    struct tagVCAspectRatios _remoteScreenAspectRatios;
-    struct tagVCAspectRatios _remoteExpectedAspectRatios;
-    struct tagVCAspectRatios _remoteExpectedFullScreenAspectRatios;
-    long long _localPreviewStreamToken;
-    _Bool _afbRxFrontCameraEnabled;
-    _Bool _afbRxBackCameraEnabled;
-    struct tagAVConferencePreviewDelegateRealtimeRealtimeInstanceVTable delegateFunctions;
 }
 
 + (_Bool);
 + (id);
 - (id);
 - (void);
+- (void));
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)kXz;
+- (_Bool);
+- (void);
+- (int)�A;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
+- (long long)Y(x;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)a;
+- (void)b;
 - (_Bool);
 - (void);
+- (void))!;
 - (void);
 - (void);
 - (void);
@@ -153,8 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -178,15 +72,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct tagVCAspectRatios);
 - (struct tagVCAspectRatios);
-- (struct tagVCAspectRatios);
+- (struct tagVCAspectRatios);
 - (int);
 - (void);
 - (_Bool);
 - (int);
-- (int);
+- (int)B;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -205,23 +99,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct opaqueCMFormatDescription *);
 - (struct CGSize);
 - (long long);
 - (struct CGSize);
 - (struct tagVCCameraAspectRatiosARXR);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@9;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -232,25 +126,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)J*P*;
+- (void)d;
+- (void)C9;
+- (void);
+- (_Bool);
+- (_Bool)@z`;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)q;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (struct tagAVConferencePreviewDelegateRealtimeRealtimeInstanceVTable);
-- (struct _VCVideoSourceToken);
+- (struct _VCVideoSourceToken);
 - (int);
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
@@ -281,7 +175,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -298,40 +192,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)|;
 - (id)ueue=%p;
 - (id)ination:(struct _NSZone *)arg1 error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool afbRxBackCameraEnabled; // @synthesize afbRxBackCameraEnabled=_afbRxBackCameraEnabled;
-@property(nonatomic) _Bool afbRxFrontCameraEnabled; // @synthesize afbRxFrontCameraEnabled=_afbRxFrontCameraEnabled;
-@property(retain, nonatomic) NSObject<AVConferencePreviewDelegate> *appDelegate; // @synthesize appDelegate;
-@property(readonly, nonatomic) int bestCameraCaptureFrameRate; // @synthesize bestCameraCaptureFrameRate=_bestCameraCaptureFrameRate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N,V_bestCameraCaptureFrameRate
-
 @property(readonly, nonatomic) struct _VCVideoSourceToken currentVideoSourceToken; // @synthesize currentVideoSourceToken=_currentVideoSourceToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct tagAVConferencePreviewDelegateRealtimeRealtimeInstanceVTable delegateFunctions; // @synthesize delegateFunctions;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool followSystemCamera; // @synthesize followSystemCamera=_followSystemCamera;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,V_followSystemCamera
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool is1080pCameraAvailable; // @synthesize is1080pCameraAvailable=_is1080pCameraAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_is1080pCameraAvailable
-
-@property(nonatomic) long long localPreviewStreamToken; // @synthesize localPreviewStreamToken=_localPreviewStreamToken;
-@property(nonatomic) struct tagVCAspectRatios remoteExpectedAspectRatios; // @synthesize remoteExpectedAspectRatios=_remoteExpectedAspectRatios;
-@property(nonatomic) struct tagVCAspectRatios remoteExpectedFullScreenAspectRatios; // @synthesize remoteExpectedFullScreenAspectRatios=_remoteExpectedFullScreenAspectRatios;
-@property(nonatomic) struct tagVCAspectRatios remoteScreenAspectRatios; // @synthesize remoteScreenAspectRatios=_remoteScreenAspectRatios;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int thermalPressureLevel;
 
 @end
 

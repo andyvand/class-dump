@@ -5,5 +5,6 @@
 //
 
 @protocol AXImageMonitorObserver
+- (void)^;
 @end
 

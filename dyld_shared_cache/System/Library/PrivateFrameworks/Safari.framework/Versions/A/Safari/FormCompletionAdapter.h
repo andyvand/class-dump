@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSView, NSWindow, WBSCreditCardData;
+@class NSURL, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface FormCompletionAdapter
 {
     NSWindow *_window;
-    struct Frame _frame;
 }
 
 + (id);
@@ -23,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)[;
 - (void);
 - (id);
 - (_Bool);
@@ -35,13 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ\;
 
 // Remaining properties
-@property(readonly, nonatomic) NSView *browserView;
-@property(readonly, nonatomic) struct Frame frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) WBSCreditCardData *lastFilledCreditCard;
-@property(readonly, nonatomic) _Bool shouldSavePasswordsToCloudKeychain;
-@property(readonly, nonatomic) _Bool shouldSaveUsernamesAndPasswords;
 @property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

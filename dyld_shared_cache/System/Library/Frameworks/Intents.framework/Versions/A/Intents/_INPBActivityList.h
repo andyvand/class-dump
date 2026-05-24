@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class NSArray;
 
 @interface _INPBActivityList
 {
     struct _has;
-    NSArray *_activities;
-    _INPBCondition *_condition;
 }
 
 + (_Bool);
@@ -20,32 +18,22 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)?@"<_GCGamepadEvent>">16;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)standardDeviation;
+- (void)rbysync] FAILED to initialize OTClique;
 - (id);
-- (void);
+- (void)4;
 - (id);
-- (void)_WORKFLOW;
-- (void)lectionForSearchForTimers:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)CATEGORY_WORKFLOW;
+- (void)provideLabelOptionsCollectionForSearchForTimers:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activities; // @synthesize activities=_activities;
-@property(readonly, nonatomic) unsigned long long activitiesCount;
-@property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

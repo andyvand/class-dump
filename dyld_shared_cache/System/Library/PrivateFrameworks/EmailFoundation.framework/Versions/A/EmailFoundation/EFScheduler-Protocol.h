@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EFCancelable;
+
 @protocol EFScheduler
+- (void);
+- (id <EFCancelable>)off <= (int)sizeof(ctx->buf);
 @end
 

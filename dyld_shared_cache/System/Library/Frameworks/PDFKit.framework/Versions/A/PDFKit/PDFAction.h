@@ -13,9 +13,9 @@
 
 + (id);
 + (Class);
-- (id);
-- (id);
-- (struct __CFDictionary *);
+- (id)a;
+- (id);
+- (struct __CFDictionary *)<;
 - (id);
 - (void);
 - (void);
@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

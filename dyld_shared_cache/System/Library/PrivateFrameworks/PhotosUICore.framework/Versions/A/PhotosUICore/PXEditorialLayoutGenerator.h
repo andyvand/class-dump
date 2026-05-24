@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, PXEditorialLayoutMetrics, PXMagazineLayoutTileMaker;
+@class PXEditorialLayoutMetrics;
 
 @interface PXEditorialLayoutGenerator
 {
     _Bool _isPrepared;
-    PXMagazineLayoutTileMaker *_tileMaker;
-    struct CGSize _actualSize;
-    struct _PXLayoutGeometry *_geometries;
-    struct CGRect *_rects;
-    unsigned long long _geometriesCount;
-    NSIndexSet *_geometrySet;
 }
 
 - (unsigned long long);
@@ -24,8 +18,8 @@
 - (void);
 - (void);
 - (struct _PXLayoutGeometry);
-- (void);
-- (struct CGSize);
+- (void)H;
+- (struct CGSize)h;
 - (void);
 - (void);
 - (struct CGSize);

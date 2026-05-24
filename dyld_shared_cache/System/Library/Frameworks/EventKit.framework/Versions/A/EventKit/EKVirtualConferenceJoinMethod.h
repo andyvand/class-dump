@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface EKVirtualConferenceJoinMethod
 {
     _Bool _isBroadcast;
-    NSString *_title;
-    NSURL *_URL;
 }
 
-- (void);
+- (void)ontrols dismissed with reason :(_Bool)arg1 %@;
 - (_Bool);
 - (void);
 - (id);
@@ -26,8 +24,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) _Bool isBroadcast; // @synthesize isBroadcast=_isBroadcast;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -13,17 +13,17 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ֿ;
++ (id)initWithName:(id)arg1 owner:qos: /* Error: Ran out of types for this method. */;
 + (id);
 - (struct _PASDBTransactionCompletion_);
-- (_Bool);
+- (_Bool)ring client for accessory server notification %@;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)__TEXT;
 - (void);
 - (struct _PASDBTransactionCompletion_)ontentReferences WHERE     contentId = :(CDUnknownBlockType)arg1 content_id;;
 - (id)(unset);

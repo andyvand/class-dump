@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue, NSString, WBSPasswordManagerWebsiteMetadataStore, WBSPrivacyProxyAvailabilityManager, WBSRemotelyUpdatableDataController, WBSSQLiteDatabase, _ASWebsiteNameDictionary;
-@protocol OS_dispatch_queue, WBSSavedAccountStoreWebsiteNameConsumer;
+@class WBSRemotelyUpdatableDataController;
+@protocol WBSSavedAccountStoreWebsiteNameConsumer;
 
 @interface _ASWebsiteNameProvider
 {
     WBSRemotelyUpdatableDataController *_remotelyUpdatableDataController;
-    _ASWebsiteNameDictionary *_websiteNameDictionary;
-    _Bool _isDatabaseOpen;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSSQLiteDatabase *_database;
-    NSOperationQueue *_websiteFetchingQueue;
-    WBSPasswordManagerWebsiteMetadataStore *_websiteMetadataStore;
-    WBSPrivacyProxyAvailabilityManager *_availabilityManager;
-    NSObject<OS_dispatch_queue> *_internalQueueForCachedWebsiteNames;
-    NSMutableDictionary *_cachedDomainToDateLastRefreshed;
-    NSMutableDictionary *_cachedWebsiteNamesFromKeychain;
-    NSMutableDictionary *_cachedWebsiteNamesFromDatabase;
-    _Bool _isForTesting;
-    id <WBSSavedAccountStoreWebsiteNameConsumer> _websiteNameConsumer;
 }
 
 + (id);
@@ -33,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (id);
@@ -43,7 +30,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -59,23 +46,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)C ;
+- (id)toggleAllowJavaScriptInSmartSearchField;
+- (void)_openFileURLUsingPassKit: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)w these websites to share information about you.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForTesting; // @synthesize isForTesting=_isForTesting;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <WBSSavedAccountStoreWebsiteNameConsumer> websiteNameConsumer; // @synthesize websiteNameConsumer=_websiteNameConsumer;
 
 @end

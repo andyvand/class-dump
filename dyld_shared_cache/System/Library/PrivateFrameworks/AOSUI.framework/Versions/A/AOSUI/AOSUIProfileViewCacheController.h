@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIProfileViewCacheController
 {
     _Bool _cacheIsValid;
-    _Bool _cacheHideOverLay;
-    NSArray *_cachePrefToHide;
-    NSData *_cacheImageData;
-    NSString *_cachePath;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1	3;
 - (void);
 - (_Bool);
 - (id);
@@ -35,11 +31,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property _Bool cacheHideOverLay; // @synthesize cacheHideOverLay=_cacheHideOverLay;
-@property(retain) NSData *cacheImageData; // @synthesize cacheImageData=_cacheImageData;
-@property _Bool cacheIsValid; // @synthesize cacheIsValid=_cacheIsValid;
 @property(retain) NSString *cachePath; // @synthesize cachePath=_cachePath;
-@property(retain) NSArray *cachePrefToHide; // @synthesize cachePrefToHide=_cachePrefToHide;
 
 @end
 

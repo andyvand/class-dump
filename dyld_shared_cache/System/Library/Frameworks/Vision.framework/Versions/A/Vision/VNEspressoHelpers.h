@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 + (struct __CVBuffer *);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)FSfileObjectsAreCaseSensitive;
 + (int);
-+ (_Bool);
++ (_Bool)unsignedIntegerValue;
 + (unsigned long long);
 + (int);
 + (_Bool);

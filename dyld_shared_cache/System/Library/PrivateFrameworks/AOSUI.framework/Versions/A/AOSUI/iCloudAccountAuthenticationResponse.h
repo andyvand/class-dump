@@ -11,10 +11,9 @@
 @interface iCloudAccountAuthenticationResponse : iCloudAccountResponse
 {
     NSDictionary *_tokens;
-    NSDictionary *_appleAccount;
 }
 
-- (id);
+- (id)d�\�;
 - (id);
 - (id);
 - (id);
@@ -32,18 +31,7 @@
 - (id)lerDidSucceed:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *HSAAction;
-@property(readonly, nonatomic) NSString *HSAData;
-@property(readonly, nonatomic) NSString *altDSID;
-@property(readonly, nonatomic) NSString *authToken;
-@property(readonly, nonatomic) NSString *cloudKitToken;
-@property(readonly, nonatomic) NSString *fmfAppToken;
 @property(readonly, nonatomic) NSString *fmfToken;
-@property(readonly, nonatomic) NSString *fmipLostModeToken;
-@property(readonly, nonatomic) NSString *fmipToken;
-@property(readonly, nonatomic) NSString *hsaToken;
-@property(readonly, nonatomic) NSString *mapsToken;
-@property(readonly, nonatomic) NSString *personID;
 
 @end
 

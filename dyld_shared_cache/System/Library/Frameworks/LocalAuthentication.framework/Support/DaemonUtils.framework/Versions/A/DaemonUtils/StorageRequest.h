@@ -6,46 +6,26 @@
 
 #import <DaemonUtils/Request.h>
 
-@class LACClientInfo, NSDictionary, NSString, NSUUID;
-@protocol LACXPCClient;
+@class LACClientInfo;
 
 @interface StorageRequest : Request
 {
     LACClientInfo *_clientInfo;
-    NSUUID *_contextID;
-    unsigned long long _originatorId;
-    long long _domain;
-    long long _key;
-    NSDictionary *_options;
 }
 
 - (void);
-- (long long);
-- (id);
+- (long long)t=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}16@144;
+- (id)sortedArrayUsingSelector: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(readonly, nonatomic) id <LACXPCClient> client;
 @property(retain, nonatomic) LACClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, nonatomic) NSUUID *contextID; // @synthesize contextID=_contextID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int identifier;
-@property(readonly, nonatomic) long long key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) unsigned long long originatorId; // @synthesize originatorId=_originatorId;
-@property(readonly) Class superclass;
 
 @end
 

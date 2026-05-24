@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)log results received;
-- (void);
+- (void)TapbackEmojiView;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;

@@ -6,33 +6,25 @@
 
 #import <MLCompute/MLCCPUDeviceOps.h>
 
-@class NSArray;
-
 @interface MLCSliceCPUDeviceOps : MLCCPUDeviceOps
 {
     unsigned long long _beginOffset;
-    NSArray *_begin;
-    NSArray *_count;
-    NSArray *_stride;
 }
 
 + (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ф;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *begin; // @synthesize begin=_begin;
 @property(nonatomic) unsigned long long beginOffset; // @synthesize beginOffset=_beginOffset;
-@property(copy, nonatomic) NSArray *count; // @synthesize count=_count;
-@property(copy, nonatomic) NSArray *stride; // @synthesize stride=_stride;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABACAccount, ABAccountComponents, NSString;
-@protocol ABACAccountStore;
+@class ABACAccount, ABAccountComponents;
 
 @interface ABACAccountPersistenceBackend
 {
@@ -27,22 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Data"16@?0@"NSURL"8;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) ABACAccount *account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier;
-@property(readonly) NSString *path;
-@property(readonly) id <ABACAccountStore> store;
-@property(readonly) Class superclass;
 
 @end
 

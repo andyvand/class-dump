@@ -7,23 +7,22 @@
 @interface GEOPDPlaceSummaryLayoutUnitAddress
 {
     int _type;
-    CDStruct_3af5a977 _flags;
 }
 
-+ (_Bool)dentAnnotationDetails:(id)arg1;
++ (_Bool)setIncidentAnnotationDetails:(id)arg1;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)*;
+- (void)ifying VT reject because Ads was detected;
+- (unsigned long long)A;
 - (_Bool);
 - (int);
 - (_Bool);
 - (void);
 - (id)ead_regions"b1"read_checksum"b1"read_filename"b1"read_filters"b1"wrote_anyField"b1};
-- (void)tadata:(int)arg1;
-- (id)etailText;
+- (void)addPhotoMetadata:(int)arg1;
+- (id)_labelDetailText;
 - (int)0.;
 - (id) ;
 - (id)onMappingReadAllFrom can only be called once per object;
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
 
 @end
 

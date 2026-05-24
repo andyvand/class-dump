@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOpenPanel;
+@class NSOpenPanel;
 
 __attribute__((visibility("hidden")))
 @interface _LSOpenWithPanelDelegate
 {
     struct unique_ptr<LaunchServices::State, std::default_delete<LaunchServices::State>> state;
-    _Bool allowAll;
-    id lastSelectedAppURLIdentifier;
-    NSMutableDictionary *recommendedAppURLIdentifiers;
-    _Bool delegateCaresAboutAppSelectionChanges;
-    _Bool delegateCaresAboutFilterMenuChanges;
-    NSOpenPanel *_openPanel;
 }
 
 - (void);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)Tø;
 

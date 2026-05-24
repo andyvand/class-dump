@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)8@"NSDictionary"16^B24;
 
 @end
 

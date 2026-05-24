@@ -9,9 +9,9 @@
 }
 
 + (id);
-+ (_Bool)ManagerDidFailToDispatchNotification;
++ (_Bool)_NSAppleEventManagerDidFailToDispatchNotification;
 - (id);
-- (id);
+- (id)i1;
 - (id);
 - (void);
 - (id)@"NSDictionary"@"NSError">32;

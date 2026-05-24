@@ -9,37 +9,34 @@
 @interface TRIPBUInt64Array
 {
     TRIPBMessage *_autocreator;
-    unsigned long long *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
+- (void)WBSSoftLinkingUtilities;
 - (void);
-- (void);
-- (void);
+- (void)_beginTimeoutUntilDate:(CDUnknownBlockType)arg1;
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id)h;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)blicURLEnabled;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_compatibilityVersion;
 - (void)0@ù
 × ;
-- (unsigned long long)Type;
+- (unsigned long long)hasInputType;
 - (void);
 
 // Remaining properties

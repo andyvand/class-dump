@@ -6,14 +6,11 @@
 
 #import <Silex/SXFillView.h>
 
-@class SXAnimatedImage, SXClippingView, SXImageFill, SXImageResource, SXImageView, UIImage;
+@class SXClippingView;
 
 @interface SXImageFillView : SXFillView
 {
     SXClippingView *_clippingView;
-    SXImageFill *_imageFill;
-    SXImageResource *_imageResource;
-    SXImageView *_imageView;
 }
 
 - (id);
@@ -27,21 +24,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)=dd}32{CGSize=dd}48;
-- (void)mWidth:identifier: /* Error: Ran out of types for this method. */;
+- (void)addItemWithMinimumWidth:maximumWidth:identifier: /* Error: Ran out of types for this method. */;
 - (void),V_blueprintAnalyzer;
 - (struct CGRect)tifier=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) SXAnimatedImage *animatedImage;
 @property(retain, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;
-@property(readonly, nonatomic) UIImage *image;
-@property(readonly, nonatomic) SXImageFill *imageFill; // @synthesize imageFill=_imageFill;
-@property(readonly, nonatomic) SXImageResource *imageResource; // @synthesize imageResource=_imageResource;
-@property(readonly, nonatomic) SXImageView *imageView; // @synthesize imageView=_imageView;
 
 @end
 

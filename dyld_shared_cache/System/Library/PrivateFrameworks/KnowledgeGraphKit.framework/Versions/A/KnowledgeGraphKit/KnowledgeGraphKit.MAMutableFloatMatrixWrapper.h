@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (id);
+- (id)1Je;
 
 @end
 

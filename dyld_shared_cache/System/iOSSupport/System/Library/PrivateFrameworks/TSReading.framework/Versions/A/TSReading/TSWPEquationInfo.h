@@ -13,11 +13,11 @@
     EQKitEquation *_equation;
 }
 
-- (void);
-- (id);
+- (void)@?0@8@16^B24;
+- (id);
 - (id);
 - (Class);
-- (id);
+- (id);
 - (void);
 - (Class);
 

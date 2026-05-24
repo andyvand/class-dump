@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTLocationRequestOptions;
+@class RTLocationRequestOptions;
 
 @interface RTLocationManagerLocationRequest
 {
     RTLocationRequestOptions *_options;
-    CDUnknownBlockType _handler;
-    NSDate *_startDate;
 }
 
 - (id);
+- (id)iled {error:%{public}@, deviceIdentityContainer:%{private}@} /* Error: Ran out of types for this method. */;
+- (id)d < 2, break;
 - (id);
 - (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)[H;
 - (void)tDateIntervals count, %lu;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) RTLocationRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

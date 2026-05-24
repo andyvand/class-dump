@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateInterval;
+@class NSDate;
 
 @interface BMBehaviorDatabaseMetadata
 {
     NSDate *_miningDate;
-    NSDateInterval *_eventInterval;
-    unsigned long long _minimumAbsoluteSupport;
-    double _minimumConfidence;
-    double _samplingInterval;
-    NSArray *_itemTypeIdentifiers;
-    NSArray *_targetTypeIdentifiers;
-    unsigned long long _numberOfBaskets;
 }
 
 - (id);
@@ -35,14 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDateInterval *eventInterval; // @synthesize eventInterval=_eventInterval;
-@property(readonly, nonatomic) NSArray *itemTypeIdentifiers; // @synthesize itemTypeIdentifiers=_itemTypeIdentifiers;
-@property(readonly, nonatomic) unsigned long long minimumAbsoluteSupport; // @synthesize minimumAbsoluteSupport=_minimumAbsoluteSupport;
-@property(readonly, nonatomic) double minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
 @property(readonly, copy, nonatomic) NSDate *miningDate; // @synthesize miningDate=_miningDate;
-@property(readonly, nonatomic) unsigned long long numberOfBaskets; // @synthesize numberOfBaskets=_numberOfBaskets;
-@property(readonly, nonatomic) double samplingInterval; // @synthesize samplingInterval=_samplingInterval;
-@property(readonly, nonatomic) NSArray *targetTypeIdentifiers; // @synthesize targetTypeIdentifiers=_targetTypeIdentifiers;
 
 @end
 

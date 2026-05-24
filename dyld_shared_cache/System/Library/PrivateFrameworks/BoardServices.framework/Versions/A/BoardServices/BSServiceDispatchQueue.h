@@ -6,21 +6,19 @@
 
 #import <BoardServices/BSServiceQueue.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BSServiceDispatchQueue : BSServiceQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _main;
-    _Bool _isAssociated;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id) �ND;
 - (void);
 - (id);
 - (void);
@@ -35,14 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

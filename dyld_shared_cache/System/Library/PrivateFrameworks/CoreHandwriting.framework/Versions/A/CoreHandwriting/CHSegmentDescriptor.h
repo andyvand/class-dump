@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHCutPoint, NSNumber;
+@class NSNumber;
 
 @interface CHSegmentDescriptor
 {
     NSNumber *_segmentID;
-    CHCutPoint *_startCutPoint;
-    CHCutPoint *_endCutPoint;
-    struct CGRect _segmentBounds;
-    struct CGRect _contextBounds;
 }
 
 + (id);
@@ -31,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect contextBounds; // @synthesize contextBounds=_contextBounds;
-@property(readonly, nonatomic) CHCutPoint *endCutPoint; // @synthesize endCutPoint=_endCutPoint;
-@property(readonly, nonatomic) struct CGRect segmentBounds; // @synthesize segmentBounds=_segmentBounds;
 @property(readonly, nonatomic) NSNumber *segmentID; // @synthesize segmentID=_segmentID;
-@property(readonly, nonatomic) CHCutPoint *startCutPoint; // @synthesize startCutPoint=_startCutPoint;
 
 @end
 

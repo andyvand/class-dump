@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSTargetAction
 {
     id _target;
-    SEL _action;
 }
 
 - (id);

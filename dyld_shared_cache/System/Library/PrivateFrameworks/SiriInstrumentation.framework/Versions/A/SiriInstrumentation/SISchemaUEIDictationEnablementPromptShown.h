@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationEnablementPromptShown : SISchemaInstrumentationMessage
 {
     _Bool _isDictationEnabled;
-    _Bool _isLearnMoreButtonClicked;
-    long long _promptVisibilityDurationInMs;
-    struct {
-        unsigned int isDictationEnabled:1;
-        unsigned int isLearnMoreButtonClicked:1;
-        unsigned int promptVisibilityDurationInMs:1;
-    } _has;
 }
 
 - (void);
@@ -29,30 +20,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)See logs with 'category="xpc.exceptions"' for more information on the invalidation.;
 - (void);
-- (unsigned long long);
+- (unsigned long long)areAllAppsAuthorizedForAutomaticUpdates;
 - (_Bool);
-- (_Bool);
+- (_Bool)ock_invoke;
 - (id);
 - (id);
-- (id)llmentDataDedupeHashBytes;
-- (id)SignalGenerated;
+- (id)deleteEnrollmentDataDedupeHashBytes;
+- (id)_hasAppIntentSignalGenerated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDictationEnabled;
-@property(nonatomic) _Bool hasIsLearnMoreButtonClicked;
-@property(nonatomic) _Bool hasPromptVisibilityDurationInMs;
 @property(nonatomic) _Bool isDictationEnabled; // @synthesize isDictationEnabled=_isDictationEnabled;
-@property(nonatomic) _Bool isLearnMoreButtonClicked; // @synthesize isLearnMoreButtonClicked=_isLearnMoreButtonClicked;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long promptVisibilityDurationInMs; // @synthesize promptVisibilityDurationInMs=_promptVisibilityDurationInMs;
 
 @end
 

@@ -10,10 +10,10 @@
 {
 }
 
+- (double)System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit;
 - (double);
 - (double);
-- (double);
-- (double);
+- (double)x;
 
 @end
 

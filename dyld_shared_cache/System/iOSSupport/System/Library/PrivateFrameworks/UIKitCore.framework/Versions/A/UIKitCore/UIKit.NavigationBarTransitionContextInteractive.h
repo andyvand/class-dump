@@ -9,12 +9,6 @@
 @interface UIKit.NavigationBarTransitionContextInteractive : UIKit.NavigationBarTransitionContext
 {
     id fromPlatters;
-    id toPlatters;
-    id toHostedViews;
-    id fromMatchingView;
-    id toMatchingView;
-    id fromElements;
-    id lastPlatterSource;
 }
 
 - (void)à£l;

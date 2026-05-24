@@ -6,42 +6,33 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPImage, LPImagePresentationProperties, LPImageViewStyle, UIImageView, UIView;
+@class LPImage;
 
 __attribute__((visibility("hidden")))
 @interface LPImageView : LPComponentView
 {
     LPImage *_image;
-    LPImage *_filteredImage;
-    LPImagePresentationProperties *_properties;
-    LPImageViewStyle *_style;
-    LPImageViewStyle *_originalStyle;
-    long long _currentScalingMode;
-    long long _platterReason;
-    UIImageView *_imageView;
-    UIView *_overlayView;
-    UIView *_backgroundView;
 }
 
 - (void);
+- (void)textStorageObserver;
+- (void)textReplyPreviewBalloonMinHeight;
+- (_Bool)textDraggableView:dragSessionDidEnd:withOperation: /* Error: Ran out of types for this method. */;
+- (long long)tableView:(struct CGSize)arg1 estimatedHeightForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)switchSubscriptionCellForIndexPathRow: /* Error: Ran out of types for this method. */;
+- (void)supportsPullModelInterpolation;
+- (id)summaryFrameIfAccessoryIndicatorHidden;
+- (struct CGSize)suggestionView:(struct CGSize)arg1 entityAtIndex: /* Error: Ran out of types for this method. */;
+- (void)statusSaveButtonTranscriptText;
+- (void)startDeferredEditingPayload:(long long)arg1 forConversation: /* Error: Ran out of types for this method. */;
+- (id)signInAppIconImage;
+- (id)showsSpamFiltering;
+- (void)LaunchPayload:sendMessageHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
+- (long long)LV;
+- (struct CGSize)P;
 - (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (struct CGSize);
-- (id);
-- (double);
+- (double)(;
 - (void);
 
 @end

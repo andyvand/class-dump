@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (int);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@9;
 + (id);
 + (id);
 + (id);

@@ -23,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isSpecificWebClip) _Bool specificWebClip;
 @property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly, nonatomic, getter=isWebClipHostApplication) _Bool webClipHostApplication;
 
 @end
 

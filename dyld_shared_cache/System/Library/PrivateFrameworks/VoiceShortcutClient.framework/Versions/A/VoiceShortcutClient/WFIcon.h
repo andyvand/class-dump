@@ -9,15 +9,14 @@
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool){;
+- (_Bool)OEz;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasClearBackground;
-@property(readonly, nonatomic) _Bool hasTransparentBackground;
 
 @end
 

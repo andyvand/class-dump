@@ -7,8 +7,6 @@
 @interface NewsUI2.TitleViewLayoutAttributesFactory
 {
     id buttonStyler;
-    id styler;
-    id cache;
 }
 
 @end

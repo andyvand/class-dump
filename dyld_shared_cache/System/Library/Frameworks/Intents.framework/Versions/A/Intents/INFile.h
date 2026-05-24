@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INItemProviderRequestMetadata, NSData, NSItemProvider, NSNumber, NSString, NSURL;
+@class NSData;
 
 @interface INFile
 {
     NSData *_memoryMappedFileData;
-    NSData *_data;
-    NSString *_filename;
-    NSURL *_fileURL;
-    NSData *_bookmarkData;
-    NSNumber *_removedOnCompletionValue;
-    INItemProviderRequestMetadata *_itemProviderRequestMetadata;
-    NSItemProvider *_itemProvider;
-    NSString *_typeIdentifier;
 }
 
 @end

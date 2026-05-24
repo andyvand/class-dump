@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRMarimbaLayer, MRTouchSet, NSSet, NSValue;
+@class MRMarimbaLayer, MRTouchSet;
 
 @interface MRMarimbaLayerView
 {
     MRTouchSet *_touchSet;
-    NSValue *_singleTapPositionAsValue;
-    NSSet *_pendingBeginTouches;
-    MRMarimbaLayer *_marimbaLayer;
 }
 
-- (void);
-- (id);
+- (void)setUploadQueue:(id)arg1;
+- (id)samplingCeiling;
 - (void);
 - (void);
 - (void);

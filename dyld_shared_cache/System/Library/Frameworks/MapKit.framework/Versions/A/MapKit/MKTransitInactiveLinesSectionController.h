@@ -12,7 +12,6 @@
 @interface MKTransitInactiveLinesSectionController : MKTransitSectionController
 {
     id <GEOTransitLine> _line;
-    NSArray *_inactiveLines;
 }
 
 - (id);
@@ -20,8 +19,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)abled:mapType:changeButtonTextWithPitch: /* Error: Ran out of types for this method. */;
+- (id)eg_segflow-xde2zmcdh5_64000_4ch.segmentation_labels.txt;
+- (void)resetCompassFlatWithMapPitch:pitchEnabled:mapType:changeButtonTextWithPitch: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *inactiveLines; // @synthesize inactiveLines=_inactiveLines;

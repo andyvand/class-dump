@@ -7,9 +7,9 @@
 @class NUChannel, NUChannelFormat;
 
 @protocol NUChannelPort
+- (NUChannelFormat *);
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannel *channel;
-@property(readonly, nonatomic) NUChannelFormat *effectiveFormat;
 @end
 

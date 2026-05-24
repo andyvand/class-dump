@@ -9,11 +9,11 @@
 }
 
 + (id);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (id);
-- (id)thContextRef:(id *)arg1 salt:iterations: /* Error: Ran out of types for this method. */;
+- (id)initWithContextRef:(id *)arg1 salt:iterations: /* Error: Ran out of types for this method. */;
 
 @end
 

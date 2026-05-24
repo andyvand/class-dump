@@ -7,7 +7,6 @@
 @interface NewsArticles.TipInteractor
 {
     id config;
-    id recorder;
 }
 
 @end

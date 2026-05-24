@@ -7,13 +7,6 @@
 @interface AppKit.NSProgressBasedAnimatedColorProvider__priv_27E25C5C4FDCECADB34082ABD5A8D95A
 {
     id baseFramesPerSecond;
-    id startDate;
-    id duration;
-    id timingFunction;
-    id repeatMode;
-    id provider;
-    id _finalResolution;
-    id cache;
 }
 
 @end

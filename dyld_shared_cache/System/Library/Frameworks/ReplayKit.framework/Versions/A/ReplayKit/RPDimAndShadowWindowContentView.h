@@ -8,7 +8,7 @@
 {
 }
 
-- (void)sionKeyExtensionUserInfo;
+- (void)RPBroadcastExtensionKeyExtensionUserInfo;
 
 @end
 

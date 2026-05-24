@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CNContactDataSourceLIFOScheduler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_stack;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id),V_name;
+- (id)R;
 - (double);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h library validation or to be debuggable;
 - (id);
 - (id);
 - (void)V_message;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSMutableArray *stack; // @synthesize stack=_stack;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

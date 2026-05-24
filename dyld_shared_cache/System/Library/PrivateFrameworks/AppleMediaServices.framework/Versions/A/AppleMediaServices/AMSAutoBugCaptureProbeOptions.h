@@ -7,8 +7,6 @@
 @interface AMSAutoBugCaptureProbeOptions
 {
     id enabled;
-    id duration;
-    id target;
 }
 
 - (id);

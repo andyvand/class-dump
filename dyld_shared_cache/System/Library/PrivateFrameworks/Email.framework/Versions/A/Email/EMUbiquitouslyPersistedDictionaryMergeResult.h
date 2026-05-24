@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface EMUbiquitouslyPersistedDictionaryMergeResult
 {
     _Bool _requiresSynchronizing;
-    NSDictionary *_changedItems;
-    NSArray *_deletedItems;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *changedItems; // @synthesize changedItems=_changedItems;
-@property(readonly, nonatomic) NSArray *deletedItems; // @synthesize deletedItems=_deletedItems;
-@property(readonly, nonatomic) _Bool requiresSynchronizing; // @synthesize requiresSynchronizing=_requiresSynchronizing;
 
 @end
 

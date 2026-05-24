@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableString;
-
 __attribute__((visibility("hidden")))
 @interface PptTextBlock
 {
     struct PptTextHeaderAtom *mTextHeader;
-    NSMutableString *mText;
-    void *mStyleText;
-    void *mSpecialInfo;
-    NSMutableArray *mMetaCharacterFields;
-    NSMutableArray *mBookmarks;
-    NSMutableArray *mHyperlinks;
-    void *mTextRuler;
 }
 
 - (int);
 - (void *);
-- (unsigned int);
-- (int);
-- (void *);
+- (unsigned int)ӋJ-
++;
+- (int);
+- (void *)';
 - (void);
 - (void);
-- (void);
+- (void)45;
 - (void);
 - (void);
 - (int);

@@ -5,5 +5,7 @@
 //
 
 @protocol MPNavigatorSupportInternal
+- (void)__objc_arrayobj;
+- (id)envelopeSubmissionDate;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSPushToken, IDSURI, NSData, NSString, NSUUID;
+@class IDSPushToken, NSUUID;
 
 @interface IDSGroupSessionActiveParticipant
 {
     NSUUID *_groupUUID;
-    unsigned long long _participantIdentifier;
-    IDSURI *_participantURIObject;
-    IDSPushToken *_participantPushTokenObject;
-    _Bool _givenNSNullToken;
-    _Bool _isKnown;
-    _Bool _isSignalless;
-    NSString *_signallessID;
 }
 
 - (id);
@@ -34,20 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (id)ass;
+- (id)_dataProtectionClass;
 - (void)(count:%d) /* Error: Ran out of types for this method. */;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *groupID;
-@property(readonly, nonatomic) NSUUID *groupUUID; // @synthesize groupUUID=_groupUUID;
-@property(readonly, nonatomic) _Bool isKnown; // @synthesize isKnown=_isKnown;
-@property(readonly, nonatomic) _Bool isSignalless; // @synthesize isSignalless=_isSignalless;
-@property(readonly, nonatomic) unsigned long long participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
-@property(readonly, nonatomic) NSData *participantPushToken;
 @property(readonly, nonatomic) IDSPushToken *participantPushTokenObject;
-@property(readonly, nonatomic) NSString *participantURI;
-@property(readonly, nonatomic) NSString *signallessID; // @synthesize signallessID=_signallessID;
 
 @end
 

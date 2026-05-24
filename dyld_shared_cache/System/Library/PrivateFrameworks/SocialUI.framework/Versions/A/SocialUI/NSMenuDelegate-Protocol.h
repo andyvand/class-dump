@@ -5,5 +5,10 @@
 //
 
 @protocol NSMenuDelegate
+
+@optional
+- (long long)g;
+- (void);
+- (struct CGRect)MSMessagesAppViewController;
 @end
 

@@ -6,24 +6,15 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBDisplayContainerSKL, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class CBDisplayContainerSKL;
 
 __attribute__((visibility("hidden")))
 @interface CBSliderCommitTelemetryMacOS : CBModule
 {
     CBDisplayContainerSKL *_displayContainer;
-    NSObject<OS_dispatch_queue> *_loggingQueue;
-    struct array<CBSliderCommitInfo, 100UL> _entryBuffer;
-    unsigned long long _bufferIndex;
-    unsigned long long _bufferEntriesFilled;
-    NSObject<OS_os_log> *_bufferLogHandle;
-    long long _telemetryPublishDelaySeconds;
-    NSObject<OS_dispatch_source> *_telemetryPublishDelayTimer;
-    _Bool _initialAABStateUpdateArrived;
 }
 
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (id);
@@ -34,20 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)VisionDataBuffer;
+- (void);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

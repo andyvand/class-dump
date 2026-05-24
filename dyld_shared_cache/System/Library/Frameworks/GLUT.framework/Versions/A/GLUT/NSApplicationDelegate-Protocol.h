@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSApplication;
+
 @protocol NSApplicationDelegate
+
+@optional
+- (void)lineMediaTextAttachmentDelegateP;
+- (void)So32CKCloudSyncProgressRepresentable_p;
+- (void)So6UIViewCSgXw;
+- (void);
+- (unsigned long long)GGG;
+- (void)tGG;
+- (_Bool)yADyAAyACyADyAAy;
+- (void)CKSensitiveContentTargetsAssociatedItemsKey;
+- (_Bool)nt %tu isStickerRepositioning:(NSApplication *)arg1 %@;
 @end
 

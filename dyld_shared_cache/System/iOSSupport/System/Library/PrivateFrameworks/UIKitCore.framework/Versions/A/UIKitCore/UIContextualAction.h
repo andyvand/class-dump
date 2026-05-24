@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage, UIMenu, UIVisualEffect;
-
 @interface UIContextualAction
 {
     _Bool _forcesFallbackBackgroundColor;
-    long long _style;
-    CDUnknownBlockType _handler;
-    NSString *_title;
-    UIColor *_backgroundColor;
-    UIImage *_image;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _preHandler;
-    UIMenu *__menu;
-    UIVisualEffect *__backgroundEffect;
 }
 
 + (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)ers to fetch the CloudKit record (recordID:(_Bool)arg1 %@) (URI:%@) (decryptionKey:%@) /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ot loaded, but attempted to read MiCOnByDefault;
 - (_Bool);
 - (void);
 - (void);
@@ -31,36 +20,26 @@
 - (id);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)ityInfo",C,N,V_statusSecurityInfo;
 - (void);
 - (id);
 - (id)ùÑ^1Â0@ù
 × ;
 - (void)Ô ;
-- (id)ibleDroppedItems: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType);
-- (void)Priority;
-- (void)shouldInvalidateLayoutForLinkAttributesChange;
-- (void)dentifiers;
+- (id)updateVisibleDroppedItems: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_touchSensitivityForFocusItemMetadata:remoteTouchSurfaceType: /* Error: Ran out of types for this method. */;
+- (void)_spanningLayoutGuideFittingPriority;
+- (void)_shouldInvalidateLayoutForLinkAttributesChange;
+- (void)_itemIdentifiers;
 - (void)stingView",R,N,V_sceneView;
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_TtC5UIKit36UICoreHostingKeyboardTrackingElement;
 - (id);
 - (id);
 - (void)uÍ o^;
 - (void)°aÕÌi;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setBackgroundEffect:) UIVisualEffect *_backgroundEffect; // @synthesize _backgroundEffect=__backgroundEffect;
-@property(copy, nonatomic, setter=_setMenu:) UIMenu *_menu; // @synthesize _menu=__menu;
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) _Bool forcesFallbackBackgroundColor; // @synthesize forcesFallbackBackgroundColor=_forcesFallbackBackgroundColor;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isDestructive;
-@property(copy, nonatomic) CDUnknownBlockType preHandler; // @synthesize preHandler=_preHandler;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

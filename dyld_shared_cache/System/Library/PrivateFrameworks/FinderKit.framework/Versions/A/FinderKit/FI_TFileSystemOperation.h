@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<TFileSystemOperationDelegateProtocol> *delegate;

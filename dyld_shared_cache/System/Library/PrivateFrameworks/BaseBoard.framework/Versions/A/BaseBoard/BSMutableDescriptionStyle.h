@@ -6,8 +6,6 @@
 
 #import <BaseBoard/BSDescriptionStyle.h>
 
-@class NSSet;
-
 @interface BSMutableDescriptionStyle : BSDescriptionStyle
 {
 }
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
@@ -28,18 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long bodyItemSeparator; // @dynamic bodyItemSeparator;
-@property(copy, nonatomic) NSSet *clientInformation; // @dynamic clientInformation;
-@property(nonatomic) long long collectionLineBreak; // @dynamic collectionLineBreak;
-@property(nonatomic) long long collectionTruncationStyle; // @dynamic collectionTruncationStyle;
-@property(nonatomic) long long debugging; // @dynamic debugging;
-@property(nonatomic) long long keyValuePairSorting; // @dynamic keyValuePairSorting;
-@property(nonatomic) long long maximumItemCountForTruncation; // @dynamic maximumItemCountForTruncation;
-@property(nonatomic) long long maximumNameLengthBeforeTruncation; // @dynamic maximumNameLengthBeforeTruncation;
-@property(nonatomic) long long maximumValueLengthBeforeTruncation; // @dynamic maximumValueLengthBeforeTruncation;
-@property(nonatomic) long long nameTruncation; // @dynamic nameTruncation;
-@property(nonatomic) long long proemItemSeparator; // @dynamic proemItemSeparator;
-@property(nonatomic) long long valueTruncation; // @dynamic valueTruncation;
 @property(nonatomic) long long verbosity; // @dynamic verbosity;
 
 @end

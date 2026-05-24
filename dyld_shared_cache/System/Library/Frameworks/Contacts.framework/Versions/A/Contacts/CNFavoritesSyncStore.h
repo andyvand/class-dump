@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNXPCContactsSupport, NSString;
-@protocol CNFavoritesLogger;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNFavoritesSyncStore
 {
     _Bool _wantsRetryAfterMessageFailure;
-    CNContactStore *_contactStore;
-    id <CNFavoritesLogger> _logger;
-    CNXPCContactsSupport *_contactsSupport;
 }
 
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -29,23 +25,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)0@ù
 × ;
-- (void)ORMAT;
-- (id)acts;
+- (void)URL_FORMAT;
+- (id)contacts;
 - (id)=;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNXPCContactsSupport *contactsSupport; // @synthesize contactsSupport=_contactsSupport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CNFavoritesLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsRetryAfterMessageFailure; // @synthesize wantsRetryAfterMessageFailure=_wantsRetryAfterMessageFailure;
 
 @end
 

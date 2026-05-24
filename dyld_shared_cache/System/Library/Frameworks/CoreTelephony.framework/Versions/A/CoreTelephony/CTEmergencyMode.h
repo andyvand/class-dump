@@ -7,46 +7,36 @@
 @interface CTEmergencyMode
 {
     _Bool _enabled;
-    _Bool _isEmergencyText;
-    _Bool _isEmergencySetup;
-    _Bool _isStewieActive;
-    long long _type;
-    long long _state;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool),+%.3f];
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)domainObjectWithDictionary:(long long)arg1 context: /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
+- (long long)SupportsHapticPlayback;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)LAPasscodeTypeNone;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)۔;
+- (void)userInfoObjectForURLAssetInstanceIdentifier:(long long)arg1;
 - (_Bool);
 - (_Bool)";
-- (_Bool)actName;
+- (_Bool)kPhoneBookContactName;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool isEmergencySetup; // @synthesize isEmergencySetup=_isEmergencySetup;
-@property(nonatomic) _Bool isEmergencyText; // @synthesize isEmergencyText=_isEmergencyText;
-@property(readonly, nonatomic) _Bool isStewieActive; // @synthesize isStewieActive=_isStewieActive;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

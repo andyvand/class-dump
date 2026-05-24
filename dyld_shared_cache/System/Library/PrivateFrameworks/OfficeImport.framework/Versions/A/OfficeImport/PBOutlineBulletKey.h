@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PBOutlineBulletKey
 {
     unsigned int mSlideId;
-    int mTextType;
-    unsigned int mPlaceholderIndex;
 }
 
 - (id);

@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _CTMutableGlyphStorage : _CTGlyphStorage
 {
     CTGlyphStorageInterface *_interface;
-    _Bool _implementsOrigins;
-    _Bool _hasCustomAdvances;
-    _Bool _implementsCustomAdvancesForIndexes;
 }
 
 - (_Bool);
@@ -32,22 +29,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)%25s:(unsigned int)arg1 %-5d  HALSystem:(long long)arg2:SetPropertyData:qualifier data is NULL for kAudioHardwarePropertyEnableVoiceIsolationDSP /* Error: Ran out of types for this method. */;
+- (void)NSt3__110__function6__funcIZN4AMCP3ASP13make_propertyILj1818453110EEENS_9enable_ifIXsr15Property_TraitsIXT_EEE17k_may_be_settableENS_10shared_ptrINS2_4Core9OperationEEEE4typeERKNS2_7AddressERKNS6_INS3_6PlugInEEEjEUlRKfE_FvSK_EEE;
 - (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)3;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCustomAdvances; // @synthesize hasCustomAdvances=_hasCustomAdvances;
-@property(readonly, nonatomic) _Bool implementsCustomAdvancesForIndexes; // @synthesize implementsCustomAdvancesForIndexes=_implementsCustomAdvancesForIndexes;
 @property(readonly, nonatomic) _Bool implementsOrigins; // @synthesize implementsOrigins=_implementsOrigins;
 
 @end

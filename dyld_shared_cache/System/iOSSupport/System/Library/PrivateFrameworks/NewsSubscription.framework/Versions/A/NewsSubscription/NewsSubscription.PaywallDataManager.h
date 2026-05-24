@@ -7,8 +7,6 @@
 @interface NewsSubscription.PaywallDataManager
 {
     id hideMyEmailSignupConfigProvider;
-    id account;
-    id hideMyEmailService;
 }
 
 @end

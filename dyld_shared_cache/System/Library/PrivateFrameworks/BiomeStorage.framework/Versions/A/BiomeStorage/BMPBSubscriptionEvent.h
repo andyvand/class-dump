@@ -9,19 +9,12 @@
 @interface BMPBSubscriptionEvent
 {
     NSString *_bootUUID;
-    NSString *_client;
-    NSString *_identifier;
-    NSString *_useCase;
-    _Bool _starting;
-    struct {
-        unsigned int starting:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)oreFoundation.framework/Versions/A/CoreFoundation;
+- (_Bool)SGQuickResponsesRepliesNested;
 - (_Bool);
 - (id);
 - (id);

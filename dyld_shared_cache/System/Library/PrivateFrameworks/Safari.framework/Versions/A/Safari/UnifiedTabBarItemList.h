@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UnifiedTabBarItemList
 {
     NSSet *_pinnedTabBarItems;
-    NSArray *_tabBarItems;
-    NSSet *_allTabBarItems;
-    unsigned long long _numberOfTabViewItems;
 }
 
 - (id);
@@ -32,8 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allTabBarItems; // @synthesize allTabBarItems=_allTabBarItems;
-@property(readonly, nonatomic) unsigned long long numberOfTabViewItems; // @synthesize numberOfTabViewItems=_numberOfTabViewItems;
 @property(readonly, copy, nonatomic) NSArray *tabBarItems; // @synthesize tabBarItems=_tabBarItems;
 
 @end

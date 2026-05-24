@@ -6,38 +6,16 @@
 
 #import <MetalTools/MTLToolsComputeCommandEncoder.h>
 
-@class MTLDebugCommandBuffer;
 @protocol MTLComputePipelineState;
 
 @interface MTLDebugComputeCommandEncoder : MTLToolsComputeCommandEncoder
 {
     struct MTLDebugFunctionArgument _buffers[31];
-    struct MTLDebugFunctionArgument _textures[128];
-    struct MTLDebugFunctionArgument _samplers[16];
-    struct MTLDebugFunctionArgument _threadgroupMemoryLengths[31];
-    CDStruct_da2e99ad _imageBlockSize;
-    MTLDebugCommandBuffer *_commandBuffer;
-    _Bool canDealloc;
-    _Bool canEndEncoding;
-    _Bool canSetComputePipelineState;
-    _Bool hasEndEncoding;
-    _Bool hasSetComputePipelineState;
-    _Bool hasSetStageInRegion;
-    CDStruct_1e3be3a8 stageInRegion;
-    _Bool hasIndirectSetStageInRegion;
-    _Bool allowsNullBufferBinds;
-    struct deque<id, std::allocator<id>> updatedFences;
-    unsigned int _activeSubstream;
-    unsigned int _numSubstreams;
-    struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> _progressLabels;
-    _Bool _encodingVirtualSubstream;
-    int _currentVirtualSubstreamIndex;
-    _Bool _encodedVirtualSubstreamDispatch;
-    id <MTLComputePipelineState> _computePipelineState;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,8 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ցB;
 - (void);
 - (unsigned long long);
 - (id);
@@ -64,23 +41,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -92,7 +57,19 @@
 - (void);
 - (void);
 - (void);
+- (void)IiEES5_mmRbEEE;
+- (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1`;
 - (void);
 - (void);
 - (id);

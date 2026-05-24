@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoRadioContentReferenceLibraryAlbumContentReference
 {
     long long _representativeItemCloudID;
-    long long _storeAdamID;
-    NSString *_albumName;
-    CDStruct_c223d907 _has;
 }
 
 - (id);

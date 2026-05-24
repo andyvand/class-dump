@@ -11,19 +11,17 @@
 @interface MSVLyricsTextElement : MSVLyricsElement
 {
     _Bool _keepParentheses;
-    NSAttributedString *_lyricsText;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)C;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool keepParentheses; // @synthesize keepParentheses=_keepParentheses;
 @property(copy, nonatomic) NSAttributedString *lyricsText; // @synthesize lyricsText=_lyricsText;
 
 @end

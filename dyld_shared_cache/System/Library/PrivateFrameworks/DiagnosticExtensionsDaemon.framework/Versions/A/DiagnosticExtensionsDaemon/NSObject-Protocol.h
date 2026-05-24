@@ -7,15 +7,20 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)ncelCompletion: /* Error: Ran out of types for this method. */;
+- (Class)eflectDeletedAllClearedMessagesInMailboxURL:] /* Error: Ran out of types for this method. */;
+- (id)geChangeManager reflectDeletedAllClearedMessagesInMailboxURL:] /* Error: Ran out of types for this method. */;
+- (id)eletedInMailboxURL:(SEL)arg1 ];
+- (id)MessageChangeManager reflectAllMessagesDeletedInMailboxURL:(SEL)arg1 ];
+- (id)without server messages;
+- (Class)ges:] /* Error: Ran out of types for this method. */;
+- (oneway void);
+- (NSString *)__DATA_CONST;
+- (_Bool);
+- (_Bool)oreNavigation.CLP.LogEntry.PrivateData.GalileoE5SyncState;
+- (_Bool)@;
+- (struct _NSZone *)setDidCancelCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

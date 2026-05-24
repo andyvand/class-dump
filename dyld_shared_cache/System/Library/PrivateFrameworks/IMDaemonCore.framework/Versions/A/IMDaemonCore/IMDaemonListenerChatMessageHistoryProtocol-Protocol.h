@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonListenerChatMessageHistoryProtocol
+- (void);
 @end
 

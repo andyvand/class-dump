@@ -9,12 +9,6 @@
 @interface FMFPlacemark
 {
     NSString *_locality;
-    NSString *_administrativeArea;
-    NSString *_country;
-    NSString *_state;
-    NSString *_streetAddress;
-    NSString *_streetName;
-    NSArray *_formattedAddressLines;
 }
 
 + (_Bool);
@@ -23,34 +17,28 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id)dIn %@;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)hh8;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
-- (void);
+- (void)Identifier:(id)arg1 setAsMeContact:ignoresGuardianRestrictions: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)r;
 - (void);
 - (void);
 - (id)× ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
 @property(retain, nonatomic) NSArray *formattedAddressLines; // @synthesize formattedAddressLines=_formattedAddressLines;
-@property(retain, nonatomic) NSString *locality; // @synthesize locality=_locality;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *streetAddress; // @synthesize streetAddress=_streetAddress;
-@property(retain, nonatomic) NSString *streetName; // @synthesize streetName=_streetName;
 
 @end
 

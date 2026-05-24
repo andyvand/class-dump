@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDaemonListenerAVProtocol, IMDaemonListenerAccountsProtocol, IMDaemonListenerAnyProtocol, IMDaemonListenerChatCountsProtocol, IMDaemonListenerChatDatabaseProtocol, IMDaemonListenerChatProtocol, IMDaemonListenerCloudSyncProtocol, IMDaemonListenerCollaborationProtocol, IMDaemonListenerFileProviderProtocol, IMDaemonListenerFileTransfersProtocol, IMDaemonListenerKeyTransparencyProtocol, IMDaemonListenerRemoteIntentProtocol, IMDaemonListenerSyncedSettingsProtocol;
+@protocol IMDaemonListenerAVProtocol, IMDaemonListenerAnyProtocol, IMDaemonListenerChatCountsProtocol, IMDaemonListenerChatProtocol, IMDaemonListenerCloudSyncProtocol;
 
 @protocol IMDBroadcasterProviding
+- (id <IMDaemonListenerAVProtocol>);
+- (id <IMDaemonListenerCloudSyncProtocol>)aN;
+- (id <IMDaemonListenerChatProtocol>);
+- (id <IMDaemonListenerChatCountsProtocol>);
+- (id <IMDaemonListenerChatProtocol>)0;
+- (id <IMDaemonListenerAVProtocol>)(;
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMDaemonListenerAVProtocol> broadcasterForACConferenceListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerAVProtocol> broadcasterForAVConferenceListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerAccountsProtocol> broadcasterForAccountListeners;
 @property(readonly, nonatomic) id <IMDaemonListenerAnyProtocol> broadcasterForAllListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerChatProtocol> broadcasterForBlackholeChatListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerChatCountsProtocol> broadcasterForChatCountsListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerChatDatabaseProtocol> broadcasterForChatDatabaseListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerChatProtocol> broadcasterForChatListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerCloudSyncProtocol> broadcasterForCloudSyncListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerCollaborationProtocol> broadcasterForCollaborationListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerFileProviderProtocol> broadcasterForFileProviderListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerFileTransfersProtocol> broadcasterForFileTransferListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerKeyTransparencyProtocol> broadcasterForKeyTransparencyListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerRemoteIntentProtocol> broadcasterForRemoteIntentListeners;
-@property(readonly, nonatomic) id <IMDaemonListenerSyncedSettingsProtocol> broadcasterForSyncedSettingsListeners;
 @end
 

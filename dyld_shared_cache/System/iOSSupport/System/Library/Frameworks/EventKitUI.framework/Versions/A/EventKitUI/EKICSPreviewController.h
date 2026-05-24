@@ -4,96 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKEventStore, EKEventViewController, EKICSPreviewModel, NSString, UIViewController;
+@class EKEvent;
 @protocol EKICSPreviewControllerDelegate;
 
 @interface EKICSPreviewController
 {
     EKEvent *_eventFromUID;
-    EKEventStore *_eventStore;
-    EKEventViewController *_currentImport;
-    UIViewController *_contentViewController;
-    _Bool _importing;
-    _Bool _hasCustomCancelButton;
-    long long _cancelButtonType;
-    _Bool _showListViewForOneEvent;
-    _Bool _allowsImport;
-    _Bool _allowsEditing;
-    _Bool _allowsSubitems;
-    int _eventUID;
-    id <EKICSPreviewControllerDelegate> _previewDelegate;
-    EKICSPreviewModel *_model;
-    unsigned long long _actionsState;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)s;
+- (void);
+- (void);
+- (void);
+- (void)s;
+- (void);
+- (void)+s;
+- (void)%s;
+- (id)s;
+- (id)X%s;
+- (id)s;
+- (id)s;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)s;
 - (_Bool);
 - (void);
 - (void);
 - (int);
+- (id)s;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void)j&s;
+- (void);
+- (_Bool);
+- (void);
+- (id)X/&s;
+- (void);
+- (void);
+- (unsigned long long)&s;
+- (_Bool);
+- (_Bool)s;
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)&s;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
+- (id)ySo33NSUnitElectricPotentialDifferenceCG;
 - (id);
-- (id);
-- (void)icalPadding: /* Error: Ran out of types for this method. */;
+- (void)setTextToSecondaryTextVerticalPadding: /* Error: Ran out of types for this method. */;
 - (void)¥;
 
 // Remaining properties
-@property(nonatomic) unsigned long long actionsState; // @synthesize actionsState=_actionsState;
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) _Bool allowsImport; // @synthesize allowsImport=_allowsImport;
-@property(nonatomic) _Bool allowsSubitems; // @synthesize allowsSubitems=_allowsSubitems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int eventUID; // @synthesize eventUID=_eventUID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EKICSPreviewModel *model; // @synthesize model=_model;
 @property(nonatomic) __weak id <EKICSPreviewControllerDelegate> previewDelegate; // @synthesize previewDelegate=_previewDelegate;
-@property(nonatomic) _Bool showListViewForOneEvent; // @synthesize showListViewForOneEvent=_showListViewForOneEvent;
-@property(readonly) Class superclass;
 
 @end
 

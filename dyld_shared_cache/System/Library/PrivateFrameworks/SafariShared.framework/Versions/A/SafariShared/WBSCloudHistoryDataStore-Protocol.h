@@ -5,6 +5,7 @@
 //
 
 @protocol WBSCloudHistoryDataStore
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool useManateeContainer;

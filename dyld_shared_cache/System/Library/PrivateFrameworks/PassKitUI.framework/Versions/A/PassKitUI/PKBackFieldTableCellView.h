@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, PKPassField;
+@class PKPassField;
 
 @interface PKBackFieldTableCellView
 {
     _Bool _isTopRow;
-    _Bool _isBottomRow;
-    PKPassField *_field;
-    NSTextField *_labelTextField;
-    NSTextField *_valueTextField;
 }
 
 - (void);
@@ -31,10 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKPassField *field; // @synthesize field=_field;
-@property(nonatomic) _Bool isBottomRow; // @synthesize isBottomRow=_isBottomRow;
-@property(nonatomic) _Bool isTopRow; // @synthesize isTopRow=_isTopRow;
-@property(retain) NSTextField *labelTextField; // @synthesize labelTextField=_labelTextField;
-@property(retain) NSTextField *valueTextField; // @synthesize valueTextField=_valueTextField;
 
 @end
 

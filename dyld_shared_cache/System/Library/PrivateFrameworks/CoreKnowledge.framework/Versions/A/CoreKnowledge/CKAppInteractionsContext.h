@@ -7,7 +7,6 @@
 @interface CKAppInteractionsContext
 {
     id _outOfAppLaunchBoundaryDonationsCountByIntentTypeAndBundleId;
-    id numberOfDiscardedDonationsByIntentTypeAndBundleId;
 }
 
 + (_Bool);
@@ -16,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)B;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface Speech.FullPayloadCorrector
 {
     id locale;
-    id clientID;
-    id fullPayloadCorrectorActor;
 }
 
 @end

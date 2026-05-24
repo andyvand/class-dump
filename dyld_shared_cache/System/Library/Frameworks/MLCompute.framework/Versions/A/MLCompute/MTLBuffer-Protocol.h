@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
+@protocol MTLTensor;
 
 @protocol MTLBuffer
+- (id <MTLTensor>);
+- (void);
 
 // Remaining properties
-@property(readonly) unsigned long long gpuAddress;
 @property(readonly) unsigned long long length;
-@property(readonly) id <MTLBuffer> remoteStorageBuffer;
-@property(readonly) long long sparseBufferTier;
 @end
 

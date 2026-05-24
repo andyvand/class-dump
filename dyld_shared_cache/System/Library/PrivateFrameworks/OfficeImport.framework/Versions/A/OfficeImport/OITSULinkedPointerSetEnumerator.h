@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OITSULinkedPointerSetEnumerator
 {
     OITSULinkedPointerSetEntry *mHead;
-    OITSULinkedPointerSetEntry *mLastUsed;
 }
 
 - (id);

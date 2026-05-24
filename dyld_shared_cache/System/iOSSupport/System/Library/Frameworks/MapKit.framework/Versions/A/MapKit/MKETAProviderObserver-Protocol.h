@@ -5,5 +5,8 @@
 //
 
 @protocol MKETAProviderObserver
+
+@optional
+- (void);
 @end
 

@@ -6,19 +6,17 @@
 
 #import <UIKitCore/_UICalendarViewDecorationItem.h>
 
-@class UIColor, UIImage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarViewImageDecoration : _UICalendarViewDecorationItem
 {
     UIImage *_image;
-    UIColor *_color;
-    long long _size;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)_pendingOriginatedMessagesTimer;
+- (id);
+- (id);
 - (id);
 - (void)q;
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface MSAttachmentInfo
 {
     NSURL *_url;
-    NSString *_filename;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)valuePreferenceForKey:defaultValue:withParser: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)teger value not 8 bytes.;
+- (void)A_;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

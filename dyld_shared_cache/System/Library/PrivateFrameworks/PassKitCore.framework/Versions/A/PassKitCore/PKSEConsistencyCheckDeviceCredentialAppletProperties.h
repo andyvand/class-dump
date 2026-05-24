@@ -7,7 +7,6 @@
 @interface PKSEConsistencyCheckDeviceCredentialAppletProperties
 {
     _Bool _locked;
-    _Bool _container;
 }
 
 - (_Bool);
@@ -16,7 +15,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isContainer) _Bool container; // @synthesize container=_container;
 @property(readonly, nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
 
 @end

@@ -7,15 +7,6 @@
 @interface NewsUI2.EndOfRecipeCoordinator
 {
     id tracker;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id blueprintProvider;
-    id sectionPositionProvider;
-    id contentAvailabilityValidator;
-    id feedDismissingManager;
-    id bundleSubscriptionManager;
-    id config;
-    id articleDataFactory;
 }
 
 @end

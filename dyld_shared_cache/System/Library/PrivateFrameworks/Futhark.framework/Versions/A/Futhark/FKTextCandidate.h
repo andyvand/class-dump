@@ -9,16 +9,14 @@
 @interface FKTextCandidate
 {
     float _confidence;
-    NSString *_text;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (float);
 
 // Remaining properties
-@property(readonly) float confidence; // @synthesize confidence=_confidence;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

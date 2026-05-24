@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, OCFontPanose1, OCFontSig;
+@class OCFontSig;
 
 __attribute__((visibility("hidden")))
 @interface OCFontMetadata
 {
     int _charSet;
-    int _pitch;
-    int _genericFamily;
-    OCFontSig *_sig;
-    OCFontPanose1 *_panose1;
-    NSArray *_altNames;
 }
 
 + (id);
@@ -22,17 +17,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (int);
-- (int);
+- (int)';
+- (int)use no user was provided.;
 - (void);
 - (id)8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *altNames; // @synthesize altNames=_altNames;
-@property(readonly, nonatomic) int charSet; // @synthesize charSet=_charSet;
-@property(readonly, nonatomic) int genericFamily; // @synthesize genericFamily=_genericFamily;
-@property(readonly, nonatomic) OCFontPanose1 *panose1; // @synthesize panose1=_panose1;
-@property(readonly, nonatomic) int pitch; // @synthesize pitch=_pitch;
 @property(readonly, nonatomic) OCFontSig *sig; // @synthesize sig=_sig;
 
 @end

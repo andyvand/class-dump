@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSMutableDictionary;
+@class EKEventStore;
 @protocol EKSyncStatusChangeListenerDelegate;
 
 @interface EKSyncStatusChangeListener
 {
     EKEventStore *_eventStore;
-    NSMutableDictionary *_sourceLastSyncingEndDates;
-    id <EKSyncStatusChangeListenerDelegate> _delegate;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)NowPlayingController] <%@> processing ClientPropertiesDidChangeNotification.;
 - (id);
-- (void);
+- (void)TE for display ID:(id)arg1 0x%08x, setting to %d;
 - (id);
 - (void)#ð!ìDù12'ð1Â0@ù
 × ;

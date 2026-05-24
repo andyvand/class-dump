@@ -13,10 +13,10 @@
     NSArray *_messageCommunications;
 }
 
-+ (_Bool);
++ (_Bool)ollingObserver;
 - (id);
 - (id);
-- (id);
+- (id)second,%i,gps-time,%.3lf;
 - (id);
 - (id);
 - (unsigned long long);

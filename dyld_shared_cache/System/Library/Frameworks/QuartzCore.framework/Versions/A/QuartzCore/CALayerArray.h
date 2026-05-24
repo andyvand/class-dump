@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long)ACornerRadii;
+- (unsigned long long)x;
+- (unsigned long long)CACornerRadii;
 
 @end
 

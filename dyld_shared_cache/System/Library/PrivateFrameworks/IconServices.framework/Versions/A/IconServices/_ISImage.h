@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _ISImage
 {
     unsigned int _scale;
-    struct CGImage *_CGImage;
-    double _minimumSize;
 }
 
 - (void);
@@ -18,12 +16,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *)I;
 
 // Remaining properties
-@property(nonatomic) struct CGImage *CGImage; // @synthesize CGImage=_CGImage;
 @property double minimumSize; // @synthesize minimumSize=_minimumSize;
-@property unsigned int scale; // @synthesize scale=_scale;
 
 @end
 

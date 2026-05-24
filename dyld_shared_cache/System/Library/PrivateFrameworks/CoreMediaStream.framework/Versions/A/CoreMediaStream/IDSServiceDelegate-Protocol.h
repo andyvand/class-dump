@@ -9,6 +9,12 @@
 @protocol IDSServiceDelegate
 
 @optional
-- (void)ntributorsEnabled:(IDSService *)arg1 forAlbumWithGUID:(IDSAccount *)arg2 personID:(NSString *)arg3 completionBlock:(_Bool)arg4;
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (void)y_limit_info=iBBB}44;
+- (void)setStartTime:(IDSService *)arg1;
+- (void)setMultipleContributorsEnabled:(IDSService *)arg1 forAlbumWithGUID:(IDSAccount *)arg2 personID:(NSString *)arg3 completionBlock:(_Bool)arg4;
 @end
 

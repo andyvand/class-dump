@@ -5,5 +5,6 @@
 //
 
 @protocol PXTapToRadarDiagnosticCollectionOperation
+- (void)~Ө	;
 @end
 

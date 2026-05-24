@@ -9,9 +9,6 @@
 @interface FCNewsTabiRecipeTagSuggestionsOutputConfiguration
 {
     NSString *_channelIDsOutputName;
-    NSString *_topicIDsOutputName;
-    NSString *_channelScoresOutputName;
-    NSString *_topicScoresOutputName;
 }
 
 - (id);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *channelIDsOutputName; // @synthesize channelIDsOutputName=_channelIDsOutputName;
-@property(readonly, nonatomic) NSString *channelScoresOutputName; // @synthesize channelScoresOutputName=_channelScoresOutputName;
-@property(readonly, nonatomic) NSString *topicIDsOutputName; // @synthesize topicIDsOutputName=_topicIDsOutputName;
-@property(readonly, nonatomic) NSString *topicScoresOutputName; // @synthesize topicScoresOutputName=_topicScoresOutputName;
 
 @end
 

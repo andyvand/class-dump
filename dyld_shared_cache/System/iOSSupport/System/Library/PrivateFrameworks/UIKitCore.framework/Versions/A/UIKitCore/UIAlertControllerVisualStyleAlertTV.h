@@ -12,23 +12,23 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (id);
+- (double)MS Relay;
+- (double)rocessing;
+- (struct UIEdgeInsets)ssing accept chat command %@;
+- (id)essing;
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
+- (id);
 - (id);
-- (id);
 - (double);
-- (long long);
-- (long long);
+- (long long)N;
+- (long long);
+- (double)<;
+- (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)A;
+- (double);
 - (_Bool);
 - (id);
 - (struct UIEdgeInsets);
@@ -36,13 +36,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (double);
+- (double)R;
 - (double);
-- (double);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
-- (id)rcentFullScreen;
+- (id)__percentFullScreen;
 - (double)c;
 
 @end

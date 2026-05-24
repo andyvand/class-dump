@@ -6,36 +6,31 @@
 
 #import <PassKitCore/PKAccountPaymentFundingDetails.h>
 
-@class NSString, PKAccountFundingSourceVerification;
+@class NSString;
 
 @interface PKAccountPaymentFundingDetailsBankAccount : PKAccountPaymentFundingDetails
 {
     NSString *_accountIdentifier;
-    NSString *_accountNumber;
-    NSString *_routingNumber;
-    NSString *_name;
-    unsigned long long _status;
-    PKAccountFundingSourceVerification *_verificationDetails;
 }
 
 + (_Bool);
 - (void);
+- (id)P;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)1;
+- (unsigned long long);
+- (_Bool)_tcpECNIntOffSACKE;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (id)redentialInSecureElement;
+- (id)_credentialInSecureElement;
 - (void)´;
 - (id);
 - (void);
@@ -43,11 +38,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *routingNumber; // @synthesize routingNumber=_routingNumber;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(retain, nonatomic) PKAccountFundingSourceVerification *verificationDetails; // @synthesize verificationDetails=_verificationDetails;
 
 @end
 

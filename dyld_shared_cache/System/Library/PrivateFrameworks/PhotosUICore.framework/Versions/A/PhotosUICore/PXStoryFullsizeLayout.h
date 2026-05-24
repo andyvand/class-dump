@@ -6,31 +6,9 @@
 
 #import <PhotosUICore/PXStoryModelTimelineLayout.h>
 
-@class NSDictionary, NSMutableIndexSet, NSString, PXGEffect, PXStoryTransitionController;
-@protocol PXStoryStyleDescriptor;
-
 @interface PXStoryFullsizeLayout : PXStoryModelTimelineLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _timelineContentUpdateFlags;
-    CDStruct_af00bf4e _timelineContentPostUpdateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    _Bool _allowsTransitionEffects;
-    unsigned int _transitionEffectSpriteIndex;
-    unsigned int _transitionAuxiliaryEffectSpriteIndex;
-    id <PXStoryStyleDescriptor> _overrideStyleInfo;
-    double _textAlpha;
-    PXStoryTransitionController *_transitionController;
-    PXGEffect *_transitionEffect;
-    PXGEffect *_auxiliaryTransitionEffect;
-    double _transitionEffectAlpha;
-    double _auxiliaryTransitionEffectAlpha;
-    NSDictionary *_zPositionsByClipIdentifier;
-    NSMutableIndexSet *_previouslyReportedClipIdentifiers;
-    CDStruct_b1a1f14e _activeTransition;
-    CDStruct_2bd92d94 _cornerRadiusOverride;
-    struct CGRect _strictVisibleTimelineRect;
-    CDStruct_e83c9415 _strictVisibleTimeRange;
 }
 
 - (id);
@@ -55,28 +33,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_2bd92d94);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDStruct_c2259bfa);
+- (void);
+- (void);
+- (double)˟;
+- (id);
 - (void);
 - (double);
 - (void);
@@ -91,39 +69,19 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)enumerateMatchesInString:options:range:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_TtC12NewsArticles29InterstitialAdHistoryRecorder;
 - (void);
-- (void);
-- (CDStruct_b1a1f14e);
-- (void);
+- (CDStruct_912cb5d2);
+- (void)recycleTransition:(id)arg1;
 - (id)eCustomDaysCurationType;
 - (_Bool)&,N,V_monogramEmailAddress;
-- (id)StoryClipLayoutCreatedVideoPresentationController;
+- (id)PXStoryClipLayoutCreatedVideoPresentationController;
 - (void)erState.m;
-- (void)iew;
+- (void)LemonadeCollectionCustomizationView;
 
 // Remaining properties
-@property(nonatomic) CDStruct_b1a1f14e activeTransition; // @synthesize activeTransition=_activeTransition;
-@property(retain, nonatomic) PXGEffect *auxiliaryTransitionEffect; // @synthesize auxiliaryTransitionEffect=_auxiliaryTransitionEffect;
-@property(nonatomic) double auxiliaryTransitionEffectAlpha; // @synthesize auxiliaryTransitionEffectAlpha=_auxiliaryTransitionEffectAlpha;
-@property(nonatomic) CDStruct_2bd92d94 cornerRadiusOverride; // @synthesize cornerRadiusOverride=_cornerRadiusOverride;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXStoryStyleDescriptor> overrideStyleInfo; // @synthesize overrideStyleInfo=_overrideStyleInfo;
-@property(readonly, nonatomic) NSMutableIndexSet *previouslyReportedClipIdentifiers; // @synthesize previouslyReportedClipIdentifiers=_previouslyReportedClipIdentifiers;
-@property(nonatomic) CDStruct_e83c9415 strictVisibleTimeRange; // @synthesize strictVisibleTimeRange=_strictVisibleTimeRange;
 @property(nonatomic) struct CGRect strictVisibleTimelineRect; // @synthesize strictVisibleTimelineRect=_strictVisibleTimelineRect;
-@property(readonly) Class superclass;
-@property(nonatomic) double textAlpha; // @synthesize textAlpha=_textAlpha;
-@property(retain, nonatomic) PXStoryTransitionController *transitionController; // @synthesize transitionController=_transitionController;
-@property(retain, nonatomic) PXGEffect *transitionEffect; // @synthesize transitionEffect=_transitionEffect;
-@property(nonatomic) double transitionEffectAlpha; // @synthesize transitionEffectAlpha=_transitionEffectAlpha;
-@property(readonly, nonatomic) struct CGRect transitionViewport;
-@property(retain, nonatomic) NSDictionary *zPositionsByClipIdentifier; // @synthesize zPositionsByClipIdentifier=_zPositionsByClipIdentifier;
 
 @end
 

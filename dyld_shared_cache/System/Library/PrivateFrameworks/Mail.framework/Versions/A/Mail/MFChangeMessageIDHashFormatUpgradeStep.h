@@ -15,12 +15,12 @@
 
 + (_Bool);
 + (unsigned long long);
+- (void);
+- (id);
+- (_Bool)Q;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)taxiing;
 - (void)Ü;
 
 // Remaining properties

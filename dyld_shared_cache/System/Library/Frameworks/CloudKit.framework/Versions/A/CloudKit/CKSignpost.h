@@ -10,18 +10,16 @@
 @interface CKSignpost
 {
     NSObject<OS_os_log> *_log;
-    unsigned long long _identifier;
 }
 
 + (id);
-- (id);
+- (id)J;
 - (id);
 - (unsigned long long);
 - (id);
-- (void)ineObjCDelegateAdapter;
+- (void)_TtC8CloudKit31CKSyncEngineObjCDelegateAdapter;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSTemporaryStorage, NSObject, NSString;
+@class GSTemporaryStorage, NSObject;
 @protocol GSAdditionStoring;
 
 __attribute__((visibility("hidden")))
@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     GSTemporaryStorage *_ts;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)setStartsOnFirstEligibleVariant: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *nameSpace;
 @property(readonly, nonatomic) NSObject<GSAdditionStoring> *storage;
 
 @end

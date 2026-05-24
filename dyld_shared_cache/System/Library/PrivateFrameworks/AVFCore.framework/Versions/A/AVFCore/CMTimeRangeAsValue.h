@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (const char *);
+- (const char *)@;
 
 @end
 

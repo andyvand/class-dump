@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EMRemoteContentURLCache, NSOperationQueue, NSString, NSURLSession;
+@class NSString, NSURLSession;
 
 @interface EMRemoteContentURLSession
 {
     NSURLSession *_session;
-    EFLocked *_activeTasks;
-    EFLocked *_observers;
-    struct os_unfair_lock_s _sessionLock;
-    NSString *_sourceBundleIdentifier;
-    EMRemoteContentURLCache *_cache;
-    NSOperationQueue *_delegateQueue;
 }
 
-+ (id);
++ (id)HMMediaShuffleState;
 - (id);
 - (id);
 - (void);
@@ -26,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (void);
-- (void);
+- (void)ment to context;
 - (void);
 - (id);
 - (void);
@@ -37,16 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) EMRemoteContentURLCache *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSOperationQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

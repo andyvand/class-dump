@@ -7,20 +7,17 @@
 @interface IOBufferMutableData
 {
     void *_bytes;
-    unsigned long long _length;
-    unsigned int _bufferID;
-    CDUnknownBlockType _deallocator;
 }
 
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SString",R,C,N,V_preferredApplePersonaIdentifier;
 - (void);
 - (const void *);
-- (void);
+- (void)setEndpointModelDelayInNs:(unsigned long long)arg1;
 - (void *);
 - (void);
 

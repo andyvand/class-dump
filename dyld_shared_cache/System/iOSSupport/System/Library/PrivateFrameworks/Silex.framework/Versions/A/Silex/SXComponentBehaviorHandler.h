@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXComponentBehavior, SXComponentView, UIView;
+@class SXComponentView;
 
 @interface SXComponentBehaviorHandler
 {
     _Bool _isSetup;
-    SXComponentView *_componentView;
-    SXComponentBehavior *_behavior;
 }
 
 - (void);
@@ -25,11 +23,7 @@
 - (void)XColumnLayout"24@0:8@"SXDataTableComponentController"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SXComponentBehavior *behavior; // @synthesize behavior=_behavior;
-@property(readonly, nonatomic) UIView *behaviorView;
 @property(readonly, nonatomic) SXComponentView *componentView; // @synthesize componentView=_componentView;
-@property(readonly, nonatomic) _Bool isSetup; // @synthesize isSetup=_isSetup;
-@property(readonly, nonatomic) _Bool requiresContinuousUpdates;
 
 @end
 

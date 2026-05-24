@@ -6,38 +6,20 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, MRTextRenderer, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectReflectionsTitle : MREffect
 {
     NSMutableDictionary *mSprites;
-    _Bool mFlipped;
-    _Bool mSpeedUpRight;
-    double mImageMain;
-    double mTextMain;
-    MRTextRenderer *mTextRenderer;
-    MRTextRenderer *mWordRenderer;
-    NSMutableArray *mWordImages;
-    NSMutableArray *mWordFrames;
-    NSMutableArray *mCachedRenderedWords;
-    double mTextYOffset;
-    struct CGSize mTextSize;
-    struct CGSize mTextImageSize;
-    MRImageProvider *mMaskProvider;
-    MRImageProvider *mGroundShadowCenterProvider;
-    MRImageProvider *mGroundShadowLeftProvider;
-    MRImageProvider *mGroundShadowRightProvider;
-    NSMutableDictionary *mBreakInformation;
-    _Bool mIsLoaded;
 }
 
+- (void)SessionQueue;
+- (void)nf_objectsForKeysWithoutMarker:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)isDiagnosticsEnabled;
+- (_Bool)terEnvelopeContentTypesAsDropped:(double)arg1 forReason:withError:] /* Error: Ran out of types for this method. */;
+- (id)"<NDAnalyticsEnvelopeStoreEntry>"8;
 - (_Bool);
 - (id);
 - (void);

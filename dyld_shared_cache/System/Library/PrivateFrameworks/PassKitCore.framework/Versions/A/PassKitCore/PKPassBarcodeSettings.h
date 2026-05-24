@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface PKPassBarcodeSettings
 {
     long long _initialBarcodeFetchCount;
-    NSURL *_barcodeServiceURL;
 }
 
 + (_Bool)î%1Â0@ù
@@ -17,12 +14,11 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id)encyCode:(id)arg1;
-- (void)edToBottom;
+- (void)result_server_busy_count;
+- (id)appleBalanceAddMoneyConfigurationWithCurrencyCode:(id)arg1;
+- (void)discoveryCardScrolledToBottom;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *barcodeServiceURL; // @synthesize barcodeServiceURL=_barcodeServiceURL;
 @property(readonly, nonatomic) long long initialBarcodeFetchCount; // @synthesize initialBarcodeFetchCount=_initialBarcodeFetchCount;
 
 @end

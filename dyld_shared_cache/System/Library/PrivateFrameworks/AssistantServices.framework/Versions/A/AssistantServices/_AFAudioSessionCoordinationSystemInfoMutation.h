@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioSessionCoordinationSystemInfo, NSString, NSUUID;
+@class AFAudioSessionCoordinationSystemInfo;
 
 @interface _AFAudioSessionCoordinationSystemInfoMutation
 {
     AFAudioSessionCoordinationSystemInfo *_base;
-    _Bool _isSupportedAndEnabled;
-    NSString *_homeKitRoomName;
-    NSUUID *_homeKitMediaSystemIdentifier;
-    NSString *_mediaRemoteGroupIdentifier;
-    NSString *_mediaRemoteRouteIdentifier;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIsSupportedAndEnabled:1;
-        unsigned int hasHomeKitRoomName:1;
-        unsigned int hasHomeKitMediaSystemIdentifier:1;
-        unsigned int hasMediaRemoteGroupIdentifier:1;
-        unsigned int hasMediaRemoteRouteIdentifier:1;
-    } _mutationFlags;
 }
 
-- (id);
+- (id)_prepareRecipientForCache:conversationAddress: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -34,18 +21,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)tionWithLanguageCode:(_Bool)arg1 options:speechOptions:reply: /* Error: Ran out of types for this method. */;
-- (id)ssetsForSiriSystemAssistantExperienceSync;
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)startRecordingForPendingDictationWithLanguageCode:(_Bool)arg1 options:speechOptions:reply: /* Error: Ran out of types for this method. */;
+- (id)shouldDownloadAssetsForSiriSystemAssistantExperienceSync;
+- (void)_ignoreRepostMyriadNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

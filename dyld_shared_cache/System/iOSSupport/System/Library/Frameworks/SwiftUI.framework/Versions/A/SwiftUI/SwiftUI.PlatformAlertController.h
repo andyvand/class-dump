@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)conflictingObjects;
 - (void)%}Ñ®lÿ;
 - (void);
 

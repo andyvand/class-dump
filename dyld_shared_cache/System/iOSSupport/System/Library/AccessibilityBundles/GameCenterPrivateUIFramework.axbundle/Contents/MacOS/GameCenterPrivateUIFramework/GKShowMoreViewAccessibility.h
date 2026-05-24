@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)row;
 - (_Bool);
 - (id);
 

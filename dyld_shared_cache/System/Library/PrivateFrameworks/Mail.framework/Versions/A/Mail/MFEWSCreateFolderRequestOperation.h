@@ -6,24 +6,21 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSCreateFolderResponseOperation, NSString;
+@class NSString;
 
 @interface MFEWSCreateFolderRequestOperation : MFEWSRequestOperation
 {
     int _mailboxType;
-    NSString *_offlineCreatedEWSFolderIdString;
-    NSString *_parentEWSFolderIdString;
-    NSString *_folderName;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (int);
 - (id);
 - (id);
@@ -33,7 +30,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (void);
@@ -41,11 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *folderName; // @synthesize folderName=_folderName;
-@property(readonly, nonatomic) int mailboxType; // @synthesize mailboxType=_mailboxType;
 @property(copy) NSString *offlineCreatedEWSFolderIdString; // @synthesize offlineCreatedEWSFolderIdString=_offlineCreatedEWSFolderIdString;
-@property(readonly, copy, nonatomic) NSString *parentEWSFolderIdString; // @synthesize parentEWSFolderIdString=_parentEWSFolderIdString;
-@property(retain, nonatomic) MFEWSCreateFolderResponseOperation *responseOperation;
 
 @end
 

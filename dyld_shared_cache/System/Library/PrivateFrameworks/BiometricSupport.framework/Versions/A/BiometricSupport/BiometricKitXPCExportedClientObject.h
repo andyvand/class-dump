@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitXPCExportedObject, NSDictionary;
-
 @interface BiometricKitXPCExportedClientObject
 {
     unsigned long long _clientID;
-    NSDictionary *_clientInfo;
-    BiometricKitXPCExportedObject *_exportedObject;
-    _Bool _delegateRegistered;
-    _Bool _clientAppIsBackground;
-    _Bool _clientAppIsInactive;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)AJ;
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)getBytes:(id)arg1 range: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -44,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clientAppIsBackground; // @synthesize clientAppIsBackground=_clientAppIsBackground;
-@property(readonly, nonatomic) _Bool clientAppIsInactive; // @synthesize clientAppIsInactive=_clientAppIsInactive;
 @property(readonly, nonatomic) unsigned long long clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy, nonatomic) NSDictionary *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, nonatomic) _Bool delegateRegistered; // @synthesize delegateRegistered=_delegateRegistered;
-@property(readonly, nonatomic) __weak BiometricKitXPCExportedObject *exportedObject;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SMMigrationRequest;
-@protocol SMSystem_FileManagerProtocol;
+@class SMMigrationRequest;
 
 @interface SMSystemRulePlugin
 {
     _Bool _cancelled;
-    SMMigrationRequest *_migrationRequest;
-    NSObject<SMSystem_FileManagerProtocol> *_sourceFilesystem;
-    NSObject<SMSystem_FileManagerProtocol> *_targetFilesystem;
 }
 
 - (id);
@@ -26,16 +22,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)IGestureRecognizer"16@"UIGestureRecognizer"24;
 - (void)1Â0@ù
 × ;
-- (void)boxURL;
+- (void)_destinationSandboxURL;
 
 // Remaining properties
-@property(nonatomic, getter=cancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
 @property __weak SMMigrationRequest *migrationRequest; // @synthesize migrationRequest=_migrationRequest;
-@property __weak NSObject<SMSystem_FileManagerProtocol> *sourceFilesystem; // @synthesize sourceFilesystem=_sourceFilesystem;
-@property __weak NSObject<SMSystem_FileManagerProtocol> *targetFilesystem; // @synthesize targetFilesystem=_targetFilesystem;
 
 @end
 

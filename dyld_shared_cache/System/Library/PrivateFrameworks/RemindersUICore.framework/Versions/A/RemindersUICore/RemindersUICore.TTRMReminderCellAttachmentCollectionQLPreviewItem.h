@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface RemindersUICore.TTRMReminderCellAttachmentCollectionQLPreviewItem
 {
     id attachmentID;
-    void previewItemTitle;
-    void previewItemURL;
-    id originalPreviewItemURL;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)<ñÿÿ|/ùÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *previewItemTitle;
-@property(nonatomic, copy) NSURL *previewItemURL;
 
 @end
 

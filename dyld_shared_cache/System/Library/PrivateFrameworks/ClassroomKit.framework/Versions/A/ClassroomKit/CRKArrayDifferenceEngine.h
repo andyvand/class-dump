@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CRKArrayDifferenceConfiguration;
 
 @interface CRKArrayDifferenceEngine
 {
     NSObject *mObject;
-    NSString *mKeyPath;
-    id <CRKArrayDifferenceConfiguration> _configuration;
 }
 
 + (id);

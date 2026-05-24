@@ -7,8 +7,8 @@
 @protocol NSURLSessionDataDelegate
 
 @optional
-- (void)ingModeSpecified;
-- (void)ield;
-- (void)d_subaction_index;
+- (void)trackingModeSpecified;
+- (void)_booleanField;
+- (void)selected_subaction_index;
 @end
 

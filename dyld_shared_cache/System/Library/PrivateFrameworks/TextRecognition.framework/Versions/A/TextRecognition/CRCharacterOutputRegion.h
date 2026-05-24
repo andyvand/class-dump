@@ -24,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (void)smallestImageSizeForTextWithRelativeHeight:originalImageSize:configuration: /* Error: Ran out of types for this method. */;
 

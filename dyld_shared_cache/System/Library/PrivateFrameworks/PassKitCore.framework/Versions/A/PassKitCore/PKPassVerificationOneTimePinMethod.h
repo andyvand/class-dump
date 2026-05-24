@@ -6,13 +6,9 @@
 
 #import <PassKitCore/PKPassVerificationMethod.h>
 
-@class NSString;
-
 @interface PKPassVerificationOneTimePinMethod : PKPassVerificationMethod
 {
     unsigned long long _channel;
-    NSString *_sourceAddress;
-    NSString *_destinationAddress;
 }
 
 + (_Bool)X"!Bùqî%ð1Â0@ù
@@ -25,17 +21,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)ppm1;
 - (unsigned long long);
-- (id);
-- (id)ngTest:(id)arg1;
-- (void)lMessageIDPromptDetailsForVirtualCard;
+- (id)listener:shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
+- (id)cardsPassingTest:(id)arg1;
+- (void)PKIDSGeneralMessageIDPromptDetailsForVirtualCard;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(readonly, nonatomic) NSString *sourceAddress; // @synthesize sourceAddress=_sourceAddress;
 
 @end
 

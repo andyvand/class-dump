@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UISelectionBandView;
-
 __attribute__((visibility("hidden")))
 @interface _UISelectionBandVisualProvider_macOS
 {
     _Bool _enabled;
-    UIView *_view;
-    _UISelectionBandView *_bandView;
-    struct CGPoint _initialPoint;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)ncChatSliceRecord"8@"NSError"16;
+- (void)sendReportJunkMessageGUID:(struct CGPoint)arg1 account:shouldRelay: /* Error: Ran out of types for this method. */;
+- (id)nameSendingService: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
 - (id)N,V_cachedDisplayHighlightedIndex;
-- (_Bool)Key;
+- (_Bool)UIApplicationLaunchOptionsLocationKey;
 - (void)!13Øð;
 
 // Remaining properties
-@property(retain, nonatomic) _UISelectionBandView *bandView; // @synthesize bandView=_bandView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGPoint initialPoint; // @synthesize initialPoint=_initialPoint;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestions.TimerClass, NSArray, NSString, OS_dispatch_queue;
+@class NSString;
 
 @interface MapsSuggestions.MapsSuggestionsEventStreamer
 {
     void uniqueName;
-    double lookAheadPeriod;
-    double pingInterval;
-    double expirationTimeout;
-    void notificationName;
-    OS_dispatch_queue *_queue;
-    MapsSuggestions.TimerClass *_scanTimer;
-    void _notifyTimers;
-    double _delay;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (id);
@@ -30,25 +22,17 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)timelineStyleWithSpec:(id)arg1 resourcesDataSource:randomNumberGenerators:errorReporter: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void)ip;
+- (void)userIsCurrentlyInATrip;
 - (id)ParkedCarImprover improveEntry:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) double _delay; // @synthesize _delay;
-@property(nonatomic, copy) NSArray *_notifyTimers;
-@property(nonatomic, readonly) OS_dispatch_queue *_queue; // @synthesize _queue;
-@property(nonatomic, retain) MapsSuggestions.TimerClass *_scanTimer; // @synthesize _scanTimer;
-@property(nonatomic, readonly) double expirationTimeout; // @synthesize expirationTimeout;
-@property(nonatomic, readonly) double lookAheadPeriod; // @synthesize lookAheadPeriod;
-@property(nonatomic, readonly) NSString *notificationName;
-@property(nonatomic, readonly) double pingInterval; // @synthesize pingInterval;
 @property(nonatomic, copy) NSString *uniqueName;
 
 @end

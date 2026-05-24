@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TOutlineView, NSString;
+@class FI_TOutlineView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TOutlineViewDataSource
 {
     struct TNSWeakPtr<FI_TOutlineView> _weakOutlineView;
-    struct vector<TKeyValueBinder, std::allocator<TKeyValueBinder>> _keyValueBinders;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
+- (void)GPoint=dd}32^v48;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)SmartMailbox";
 - (id);
 - (void);
 - (void)ÿÿ§;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak FI_TOutlineView *outlineView;
-@property(readonly) Class superclass;
 
 @end
 

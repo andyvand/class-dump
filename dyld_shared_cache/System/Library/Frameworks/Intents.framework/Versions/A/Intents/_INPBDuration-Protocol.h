@@ -5,11 +5,12 @@
 //
 
 @protocol _INPBDuration
+- (void)lications:(long long)arg1;
+- (void)plications;
+- (void)%f;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNanos;
-@property(nonatomic) _Bool hasSeconds;
 @property(nonatomic) int nanos;
-@property(nonatomic) long long seconds;
 @end
 

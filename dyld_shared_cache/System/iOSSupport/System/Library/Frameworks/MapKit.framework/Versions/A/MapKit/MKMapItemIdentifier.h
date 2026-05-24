@@ -16,18 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)esFrom: /* Error: Ran out of types for this method. */;
+- (void)_treatFavoritesFrom: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifierString;

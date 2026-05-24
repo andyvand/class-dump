@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStoreClientSideListener, NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCConnection, NSXPCListenerEndpoint;
 
 @interface ACRemoteAccountStoreSession
 {
     NSXPCConnection *_connection;
-    struct os_unfair_lock_s _connectionLock;
-    ACAccountStoreClientSideListener *_clientSideListener;
-    _Bool _notificationsEnabled;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    NSString *_effectiveBundleID;
 }
 
+- (void)h>;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)missing response queue;
 - (_Bool);
 - (id);
 - (void);
@@ -36,9 +31,7 @@
 - (id)0;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *effectiveBundleID; // @synthesize effectiveBundleID=_effectiveBundleID;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
-@property(nonatomic) _Bool notificationsEnabled; // @synthesize notificationsEnabled=_notificationsEnabled;
 
 @end
 

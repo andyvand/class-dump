@@ -6,22 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCloudContext, FCDateRange, FCFeedItemFeature, NSArray, NSDictionary;
-@protocol FCForYouQuerySidecar;
+@class NSArray;
 
 @interface FCMyArticlesSearchOperation : FCOperation
 {
     _Bool _channelsOnly;
-    _Bool _cachedOnly;
-    FCCloudContext *_context;
-    FCFeedItemFeature *_feature;
-    FCDateRange *_dateRange;
-    id <FCForYouQuerySidecar> _sidecar;
-    unsigned long long _filterOptions;
-    unsigned long long _maxFeedItems;
-    CDUnknownBlockType _searchCompletionHandler;
-    NSArray *_resultFeedItems;
-    NSDictionary *_resultFeedContextByFeedID;
 }
 
 - (void);
@@ -38,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ring",R,N;
 - (void);
 - (unsigned long long);
 - (id);
@@ -55,17 +44,7 @@
 - (_Bool)6;
 
 // Remaining properties
-@property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
-@property(nonatomic) _Bool channelsOnly; // @synthesize channelsOnly=_channelsOnly;
-@property(retain, nonatomic) FCCloudContext *context; // @synthesize context=_context;
-@property(copy, nonatomic) FCDateRange *dateRange; // @synthesize dateRange=_dateRange;
-@property(copy, nonatomic) FCFeedItemFeature *feature; // @synthesize feature=_feature;
-@property(nonatomic) unsigned long long filterOptions; // @synthesize filterOptions=_filterOptions;
-@property(nonatomic) unsigned long long maxFeedItems; // @synthesize maxFeedItems=_maxFeedItems;
-@property(copy) NSDictionary *resultFeedContextByFeedID; // @synthesize resultFeedContextByFeedID=_resultFeedContextByFeedID;
 @property(retain, nonatomic) NSArray *resultFeedItems; // @synthesize resultFeedItems=_resultFeedItems;
-@property(copy, nonatomic) CDUnknownBlockType searchCompletionHandler; // @synthesize searchCompletionHandler=_searchCompletionHandler;
-@property(retain, nonatomic) id <FCForYouQuerySidecar> sidecar; // @synthesize sidecar=_sidecar;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsPersonalization.NotificationScoringService
 {
     id serviceConfigProvider;
-    id articleFeaturesFactory;
-    id bundleSubscriptionIsSubscribedProvider;
-    id paidAccessChecker;
-    id userEmbeddingProvider;
-    id computeService;
 }
 
 @end

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EFManualCancelationToken, NSUbiquitousKeyValueStore, NSUserDefaults;
-@protocol EFAssertableScheduler;
+@class EFManualCancelationToken;
 
 @interface EDSyncableSettings
 {
     EFManualCancelationToken *_cancelable;
-    id <EFAssertableScheduler> _scheduler;
-    NSUserDefaults *_defaults;
-    NSUbiquitousKeyValueStore *_store;
-    EFLocked *_changeActionsByKey;
-    CDUnknownBlockType _proxyChangeHandler;
 }
 
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);

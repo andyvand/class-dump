@@ -9,16 +9,15 @@
 @interface NTPBWeightedTagID
 {
     NSString *_tagId;
-    float _weight;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)f;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)pted. error=%@;
+- (_Bool)sion from configuration %{public}@;
 - (void);
 - (id);
 - (float);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
-@property(nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

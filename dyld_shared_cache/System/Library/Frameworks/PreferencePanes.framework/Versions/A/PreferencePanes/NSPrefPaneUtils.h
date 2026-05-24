@@ -22,15 +22,15 @@
 + (double);
 + (id);
 + (id);
-+ (id);
++ (id)hh8?kA;
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
 + (id);
 + (long long);
-+ (id);
-+ (id);
++ (id)%;
++ (id);
 + (_Bool);
 
 @end

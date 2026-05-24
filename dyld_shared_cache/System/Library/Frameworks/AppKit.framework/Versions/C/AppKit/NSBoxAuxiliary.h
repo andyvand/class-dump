@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface NSBoxAuxiliary
 {
     double borderWidth;
-    double cornerRadius;
-    NSColor *_borderColor;
-    NSColor *_fillColor;
 }
 
 - (id);
-- (id)ndCapButtonCell;
+- (id)NSColorWellEndCapButtonCell;
 - (id)unable to create interface;
 - (void);
 - (void)x%;
@@ -24,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(copy) NSColor *fillColor; // @synthesize fillColor=_fillColor;
 
 @end
 

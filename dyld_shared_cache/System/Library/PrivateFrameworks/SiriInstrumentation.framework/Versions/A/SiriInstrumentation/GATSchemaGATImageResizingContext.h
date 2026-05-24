@@ -6,39 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATImageResizingEventEnded, GATSchemaGATImageResizingEventFailed, GATSchemaGATImageResizingEventStarted, NSData;
+@class GATSchemaGATImageResizingEventStarted;
 
 @interface GATSchemaGATImageResizingContext : SISchemaInstrumentationMessage
 {
     GATSchemaGATImageResizingEventStarted *_startedOrChanged;
-    GATSchemaGATImageResizingEventEnded *_ended;
-    GATSchemaGATImageResizingEventFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContentevent;
 }
 
-- (unsigned long long);
+- (unsigned long long)?
+;
 - (id);
+- (void);
+- (_Bool);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_resetSelectedVibrationIdentifierForcingUpdatingVibrationName: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,14 +43,7 @@
 - (void)Ûx$;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATImageResizingEventEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GATSchemaGATImageResizingEventFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATImageResizingEventStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContentevent; // @synthesize whichContentevent=_whichContentevent;
 
 @end
 

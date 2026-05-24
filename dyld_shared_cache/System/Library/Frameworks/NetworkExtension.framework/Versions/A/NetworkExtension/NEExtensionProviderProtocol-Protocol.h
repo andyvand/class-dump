@@ -5,5 +5,8 @@
 //
 
 @protocol NEExtensionProviderProtocol
+- (void)C;
+- (void);
+- (void);
 @end
 

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol SWMessage
+- (NSString *)ls - Trad.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *body;
 @property(readonly, nonatomic) NSString *name;
 @end
 

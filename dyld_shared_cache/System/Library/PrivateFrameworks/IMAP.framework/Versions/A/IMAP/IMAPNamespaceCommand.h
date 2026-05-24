@@ -6,26 +6,21 @@
 
 #import <IMAP/IMAPSingleCommand.h>
 
-@class NSArray, NSString;
 @protocol IMAPAccount;
 
 @interface IMAPNamespaceCommand : IMAPSingleCommand
 {
     id <IMAPAccount> _account;
-    NSString *_separatorChar;
-    NSArray *_privateNamespaces;
-    NSArray *_publicNamespaces;
-    NSArray *_sharedNamespaces;
 }
 
 - (_Bool);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (id);
@@ -34,16 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)other isKindOfClass:[ISDSchema class]] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <IMAPAccount> account; // @synthesize account=_account;
-@property(copy, nonatomic) NSArray *privateNamespaces; // @synthesize privateNamespaces=_privateNamespaces;
-@property(copy, nonatomic) NSArray *publicNamespaces; // @synthesize publicNamespaces=_publicNamespaces;
-@property(copy, nonatomic) NSString *separatorChar; // @synthesize separatorChar=_separatorChar;
-@property(copy, nonatomic) NSArray *sharedNamespaces; // @synthesize sharedNamespaces=_sharedNamespaces;
 
 @end
 

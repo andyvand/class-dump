@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)V;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title;

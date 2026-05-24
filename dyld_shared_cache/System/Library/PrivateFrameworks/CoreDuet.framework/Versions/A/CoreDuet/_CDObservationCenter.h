@@ -9,18 +9,17 @@
 @interface _CDObservationCenter
 {
     NSMapTable *_senderToNotificationObservers;
-    NSMapTable *_senderToNotificationObserverObservers;
 }
 
 + (id)SError">24;
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)onse r, cfurl_cache_receiver_data d WHERE r.request_key=%q AND d.entry_ID=r.entry_ID;
 - (void);
 - (unsigned long long);
 - (void);

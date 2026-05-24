@@ -5,5 +5,11 @@
 //
 
 @protocol SiriCoreConnectionProviderDelegate
+- (void)ShouldDisableGroupingInTransactions;
+
+@optional
+- (void)BadgeCount-v2;
+- (void)DisableCategorizationOnboardingPrimaryBadgeCount;
+- (void)ableCategorizationOnboardingPrimary-v2;
 @end
 

@@ -8,12 +8,6 @@
 {
     id initialColorState;
     id supportsColorTemperature;
-    id deviceConfig;
-    id _colorState;
-    id _favoriteColors;
-    id _brightness;
-    id _selectedColor;
-    id _adaptiveLightEnabled;
 }
 
 @end

@@ -4,85 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NTPBFeedCellExposure, NTPBTocCellExposureArticleElement;
-
 @interface NTPBTocCellExposure
 {
     int _displayRank;
-    NTPBFeedCellExposure *_feedCellExposure;
-    int _rankInSection;
-    NTPBTocCellExposureArticleElement *_tocCellExposureArticleElement;
-    NSData *_tocCellExposureId;
-    int _tocCellSection;
-    int _type;
-    _Bool _isBadged;
-    struct {
-        unsigned int displayRank:1;
-        unsigned int rankInSection:1;
-        unsigned int tocCellSection:1;
-        unsigned int type:1;
-        unsigned int isBadged:1;
-    } _has;
 }
 
-- (id);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
-- (int);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
+- (id)initWithMediaProvider:(int)arg1 mediaRequestIDs: /* Error: Ran out of types for this method. */;
+- (int)initWithMediaProvider:mediaRequestIDs: /* Error: Ran out of types for this method. */;
+- (id)ideoDownloadQuality: /* Error: Ran out of types for this method. */;
+- (id)ter:storyQueue:isExporting:isInline:limitVideoDownloadQuality: /* Error: Ran out of types for this method. */;
+- (void)initWithDisplayCollection:(int)arg1 outlineObject: /* Error: Ran out of types for this method. */;
+- (void)initWithDisplayCollection:(id)arg1 accessoryTitle:lockState:outlineObject: /* Error: Ran out of types for this method. */;
+- (void)initWithDisplayAssets:(id)arg1 originalResults:chapterCollection: /* Error: Ran out of types for this method. */;
+- (void)initWithComposeRecipients:(int)arg1 recipients: /* Error: Ran out of types for this method. */;
+- (void)indexPathSetWithItemIndexes:(_Bool)arg1 dataSourceIdentifier:section: /* Error: Ran out of types for this method. */;
+- (void)imageLoadingQueue;
+- (void)hiddenGadgetProviders;
+- (void)foldersCustomizationViewControllerWithRootCollectionList:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (int)estimatedSizeForPadPortrait;
+- (_Bool)enableCuratedLibrary;
+- (_Bool)distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline;
+- (_Bool)distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline;
+- (_Bool)distanceBetweenFooterlessWidgetContentBottomAndBottom;
+- (_Bool)didAskForMoreHelp: /* Error: Ran out of types for this method. */;
+- (_Bool)dataSourceIdentifier;
+- (_Bool)curationProperties;
+- (int)control:textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (void)collectionView:(_Bool)arg1 pasteboardWriterForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (int)error:(id)arg1;
+- (void)clearSingleQueries;
 - (id);
 - (void);
+- (void);
+- (unsigned long long)ybackEnds:hasBlurryTransition: /* Error: Ran out of types for this method. */;
+- (_Bool)TokenAdminUsers];
+- (void);
+- (int)tickleWithQualityOfService:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)hadowForYouTopicsConfig;
+- (_Bool)ialize FCNewsTabiRecommendedIssuesConfiguration due to failure to decode nonBundleInputOutputConfiguration from configuration %{public}@;
+- (id);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)opicsFollowedType;
+- (void)topicsFollowedType;
 
 // Remaining properties
-@property(nonatomic) int displayRank; // @synthesize displayRank=_displayRank;
-@property(retain, nonatomic) NTPBFeedCellExposure *feedCellExposure; // @synthesize feedCellExposure=_feedCellExposure;
-@property(nonatomic) _Bool hasDisplayRank;
-@property(readonly, nonatomic) _Bool hasFeedCellExposure;
-@property(nonatomic) _Bool hasIsBadged;
-@property(nonatomic) _Bool hasRankInSection;
-@property(readonly, nonatomic) _Bool hasTocCellExposureArticleElement;
-@property(readonly, nonatomic) _Bool hasTocCellExposureId;
-@property(nonatomic) _Bool hasTocCellSection;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isBadged; // @synthesize isBadged=_isBadged;
-@property(nonatomic) int rankInSection; // @synthesize rankInSection=_rankInSection;
-@property(retain, nonatomic) NTPBTocCellExposureArticleElement *tocCellExposureArticleElement; // @synthesize tocCellExposureArticleElement=_tocCellExposureArticleElement;
-@property(retain, nonatomic) NSData *tocCellExposureId; // @synthesize tocCellExposureId=_tocCellExposureId;
-@property(nonatomic) int tocCellSection; // @synthesize tocCellSection=_tocCellSection;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -4,22 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol SCNMaterialPropertyJSExport
+- (void);
+- (NSArray *);
+- (long long)ted text.;
+- (void)h2;
+- (void)unlockApplicationsWithBundleIdentifier:(double)arg1;
+- (id)initWithKeyPath:(NSString *)arg1 readOnly:languageValues: /* Error: Ran out of types for this method. */;
+- (long long);
+- (double);
+- (long long)ontainer_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0,has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', cloud_is_public INTEGER NOT NULL DEFAULT 0, cloud_is_subscribed INTEGER NOT NULL DEFAULT 0,cloud_author_display_name TEXT NOT NULL DEFAULT '', cloud_author_id TEXT NOT NULL DEFAULT '', cloud_user_count INTEGER NOT NULL DEFAULT 0, cloud_global_play_count INTEGER NOT NULL DEFAULT 0,cloud_global_like_count INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 - (void)=Ö­~?b^?g½äIR=m?|]?þ
 ¼³ÐÎ<HÜ?\?½:(id)arg1 Ç8;
 
 // Remaining properties
-@property(retain, nonatomic) id borderColor;
 @property(retain, nonatomic) id contents;
-@property(nonatomic) struct CATransform3D contentsTransform;
-@property(nonatomic) double intensity;
-@property(nonatomic) long long magnificationFilter;
-@property(nonatomic) long long mappingChannel;
-@property(nonatomic) double maxAnisotropy;
-@property(nonatomic) long long minificationFilter;
-@property(nonatomic) long long mipFilter;
-@property(nonatomic) long long textureComponents;
-@property(nonatomic) long long wrapS;
-@property(nonatomic) long long wrapT;
 @end
 

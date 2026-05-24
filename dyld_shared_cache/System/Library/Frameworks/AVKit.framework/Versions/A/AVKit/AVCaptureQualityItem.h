@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureQualityItem
 {
     NSString *_localizedName;
-    NSDictionary *_options;
-    NSString *_sessionPreset;
 }
 
 - (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly, copy) NSString *sessionPreset; // @synthesize sessionPreset=_sessionPreset;
 
 @end
 

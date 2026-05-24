@@ -7,10 +7,6 @@
 @interface MPSParallelRandomDistributionDescriptor
 {
     float _minimum;
-    float _maximum;
-    float _mean;
-    float _standardDeviation;
-    unsigned long long _distributionType;
 }
 
 + (id);
@@ -28,14 +24,10 @@
 - (float);
 - (id);
 - (float);
-- (float);
+- (float)";
 
 // Remaining properties
 @property(nonatomic) unsigned long long distributionType; // @synthesize distributionType=_distributionType;
-@property(nonatomic) float maximum; // @synthesize maximum=_maximum;
-@property(nonatomic) float mean; // @synthesize mean=_mean;
-@property(nonatomic) float minimum; // @synthesize minimum=_minimum;
-@property(nonatomic) float standardDeviation; // @synthesize standardDeviation=_standardDeviation;
 
 @end
 

@@ -14,14 +14,14 @@
 + (long long);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
 + (_Bool);
 + (id);
 + (id);
-+ (void);
++ (void)רC;
 + (id);
 + (id);
 + (id);

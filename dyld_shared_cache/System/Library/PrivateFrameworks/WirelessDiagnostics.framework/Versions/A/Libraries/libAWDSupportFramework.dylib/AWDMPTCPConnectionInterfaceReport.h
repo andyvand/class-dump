@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDMPTCPConnectionInterfaceReport
 {
     CDStruct_95bda58d _postConnectSubflowFailureErrors;
-    long long _dataInKB;
-    long long _dataOutKB;
-    unsigned long long _timestamp;
-    NSString *_interfaceName;
-    int _secondaryFlowFailureCount;
-    int _secondaryFlowSuccessCount;
-    _Bool _postConnectTcpFallbackCount;
-    struct {
-        unsigned int dataInKB:1;
-        unsigned int dataOutKB:1;
-        unsigned int timestamp:1;
-        unsigned int secondaryFlowFailureCount:1;
-        unsigned int secondaryFlowSuccessCount:1;
-        unsigned int postConnectTcpFallbackCount:1;
-    } _has;
 }
 
 - (void);
@@ -32,61 +15,46 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)k;
 - (void);
 - (int);
 - (int);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)*%;
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y>;
 - (_Bool);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)-@y?;
 - (void);
 - (void);
 - (void);
 - (void);
-- (int *);
+- (int *);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)ql;
+- (id)T;
 - (_Bool);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)stringByExpandingTildeInPath;
 
 // Remaining properties
-@property(nonatomic) long long dataInKB; // @synthesize dataInKB=_dataInKB;
-@property(nonatomic) long long dataOutKB; // @synthesize dataOutKB=_dataOutKB;
-@property(nonatomic) _Bool hasDataInKB;
-@property(nonatomic) _Bool hasDataOutKB;
-@property(readonly, nonatomic) _Bool hasInterfaceName;
-@property(nonatomic) _Bool hasPostConnectTcpFallbackCount;
-@property(nonatomic) _Bool hasSecondaryFlowFailureCount;
-@property(nonatomic) _Bool hasSecondaryFlowSuccessCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, nonatomic) int *postConnectSubflowFailureErrors;
-@property(readonly, nonatomic) unsigned long long postConnectSubflowFailureErrorsCount;
-@property(nonatomic) _Bool postConnectTcpFallbackCount; // @synthesize postConnectTcpFallbackCount=_postConnectTcpFallbackCount;
-@property(nonatomic) int secondaryFlowFailureCount; // @synthesize secondaryFlowFailureCount=_secondaryFlowFailureCount;
-@property(nonatomic) int secondaryFlowSuccessCount; // @synthesize secondaryFlowSuccessCount=_secondaryFlowSuccessCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

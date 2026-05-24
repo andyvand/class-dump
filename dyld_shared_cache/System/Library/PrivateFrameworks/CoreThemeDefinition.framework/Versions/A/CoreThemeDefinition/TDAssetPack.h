@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIMutableCommonAssetStorage, NSSet, NSString;
+@class CUIMutableCommonAssetStorage;
 
 @interface TDAssetPack
 {
     _Bool wasModified;
-    NSSet *tags;
-    NSString *outputPath;
-    CUIMutableCommonAssetStorage *assetStore;
-    NSString *assetPackIdentifier;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)allFlagGroupsIncludingHidden:(id)arg1 searchDirectory: /* Error: Ran out of types for this method. */;
+- (id)_urlSession;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ouldn't allocate parse buffer;
 - (_Bool);
-- (_Bool);
+- (_Bool)next-generation layer-based SVG Engine (LBSE);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetPackIdentifier; // @synthesize assetPackIdentifier;
 @property(retain) CUIMutableCommonAssetStorage *assetStore; // @synthesize assetStore;
-@property(copy, nonatomic) NSString *outputPath; // @synthesize outputPath;
-@property(retain, nonatomic) NSSet *tags; // @synthesize tags;
-@property(nonatomic) _Bool wasModified; // @synthesize wasModified;
 
 @end
 

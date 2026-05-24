@@ -9,9 +9,6 @@
 @interface SOAudioDeviceManager
 {
     NSMutableArray *_inputDevices;
-    unsigned int _inputDev;
-    struct IONotificationPort *_notificationPort;
-    unsigned int _serviceNotification;
 }
 
 + (unsigned int);
@@ -19,7 +16,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);

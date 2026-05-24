@@ -9,34 +9,21 @@
 @interface PXStoryRectAnimation : PXStoryValueAnimation
 {
     struct CGRect _sourceRectWithoutRotation;
-    double _sourceRotation;
-    struct CGRect _targetRectWithoutRotation;
-    double _targetRotation;
-    struct CGAffineTransform _normalizingTransform;
-    struct CGSize _referenceSize;
-    struct CGRect _outerBounds;
-    CDStruct_597fa96d _sourceRect;
-    CDStruct_597fa96d _targetRect;
-    CDStruct_597fa96d _currentRect;
 }
 
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
-- (CDStruct_597fa96d);
+- (CDStruct_e7d4c00a);
 - (void);
 - (void);
 - (struct CGSize);
-- (CDStruct_597fa96d);
-- (CDStruct_597fa96d);
+- (CDStruct_e7d4c00a);
+- (CDStruct_e7d4c00a);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_597fa96d currentRect; // @synthesize currentRect=_currentRect;
-@property(readonly, nonatomic) struct CGRect outerBounds; // @synthesize outerBounds=_outerBounds;
-@property(readonly, nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
-@property(readonly, nonatomic) CDStruct_597fa96d sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(readonly, nonatomic) CDStruct_597fa96d targetRect; // @synthesize targetRect=_targetRect;
+@property(readonly, nonatomic) CDStruct_e7d4c00a sourceRect; // @synthesize sourceRect=_sourceRect;
 
 @end
 

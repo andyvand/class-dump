@@ -9,19 +9,18 @@
 @interface MPARC4RandomSource
 {
     struct Arc4State *_state;
-    NSData *_seed;
 }
 
-+ (_Bool);
++ (_Bool)W;
 - (unsigned long long);
 - (void);
+- (void)_updateLocalStoreWithPinConfiguration:(id)arg1;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)dPropertyAddress;
+- (void)serviceRestartedPropertyAddress;
 - (id)ê;
 
 // Remaining properties

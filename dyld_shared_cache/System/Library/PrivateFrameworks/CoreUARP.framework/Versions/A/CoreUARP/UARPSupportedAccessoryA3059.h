@@ -15,7 +15,7 @@
 
 + (id);
 + (unsigned short);
-- (id);
+- (id)AMSPurchaseQueueConfiguration;
 - (void);
 
 @end

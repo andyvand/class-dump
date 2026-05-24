@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
-@protocol WBSStartPageSuggestionsProvider;
+@class NSHashTable;
 
 @interface WBSStartPageSuggestionsProviderBroadcaster
 {
     NSHashTable *_proxies;
-    _Bool _providerSupportsAttributionViews;
-    id <WBSStartPageSuggestionsProvider> _suggestionsProvider;
 }
 
 - (id);
-- (void);
+- (void)_;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)nonicalURL;
+- (void)safari_canonicalURL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool providerSupportsAttributionViews; // @synthesize providerSupportsAttributionViews=_providerSupportsAttributionViews;
-@property(readonly, nonatomic) __weak id <WBSStartPageSuggestionsProvider> suggestionsProvider; // @synthesize suggestionsProvider=_suggestionsProvider;
-@property(readonly) Class superclass;
 
 @end
 

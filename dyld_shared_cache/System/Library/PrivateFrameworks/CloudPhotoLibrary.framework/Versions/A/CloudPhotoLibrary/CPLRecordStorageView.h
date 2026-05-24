@@ -13,9 +13,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)ions;
-- (unsigned long long)"8B16@"NSString"20#28;
-- (id)÷;
+- (id);
+- (unsigned long long);
+- (id)(=;
 - (id);
 - (id);
 - (id);

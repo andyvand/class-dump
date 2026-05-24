@@ -9,14 +9,13 @@
 @interface WBSInjectionStatus
 {
     NSMutableArray *_completionHandlers;
-    long long _injectionStage;
 }
 
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void)e;
+- (void)perSitePreferencesStore;
 
 // Remaining properties
 @property(readonly, nonatomic) long long injectionStage; // @synthesize injectionStage=_injectionStage;

@@ -4,88 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet;
+@class NSOrderedSet;
 
 @interface PRSQueryRankingConfiguration
 {
     _Bool _allowAnonymousDataCollection;
-    _Bool _dateSortedL1;
-    NSOrderedSet *_requiredAttributes;
-    NSArray *_rankingQueries;
-    unsigned long long _strongRankingQueryCount;
-    unsigned long long _dominantRankingQueryCount;
-    unsigned long long _dominatedRankingQueryCount;
-    unsigned long long _shortcutBit;
-    unsigned long long _highMatchBit;
-    unsigned long long _lowMatchBit;
-    unsigned long long _highRecencyBit;
-    unsigned long long _lowRecencyBit;
-    unsigned long long _rankingBitCount;
-    double _minL2Score;
-    double _maxAge;
-    double _minCount;
-    id _fuzzyMatchMask;
-    id _fuzzyMatchCheck;
 }
 
 + (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (double);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (void)m"16{CGPoint=dd}24;
+- (void)24;
+- (void)tionTransformer"16;
+- (id)or:overrideSubtitle:captionButton:captionTextButton:secondaryCaptionButton: /* Error: Ran out of types for this method. */;
+- (id)_storefrontIdentifierIsOverridden;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (double);
+- (void);
+- (unsigned long long);
+- (void)readStorageInRegion:(double)arg1 block: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
+- (_Bool)_1;
+- (double);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (unsigned long long);
+- (void);
+- (void)pfVideoAdjustmentsDictionaryForString:(unsigned long long)arg1;
+- (void)public}@ from experiment provider with experiment %{public}@;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)orePenaltyStrength;
+- (void)_textScorePenaltyStrength;
 - (void);
 - (double)?;
 - (void)ôÿ¹óeé;
 - (unsigned long long)ÿÞ6|T$	;
 
 // Remaining properties
-@property(nonatomic) _Bool allowAnonymousDataCollection; // @synthesize allowAnonymousDataCollection=_allowAnonymousDataCollection;
-@property _Bool dateSortedL1; // @synthesize dateSortedL1=_dateSortedL1;
-@property(nonatomic) unsigned long long dominantRankingQueryCount; // @synthesize dominantRankingQueryCount=_dominantRankingQueryCount;
-@property(nonatomic) unsigned long long dominatedRankingQueryCount; // @synthesize dominatedRankingQueryCount=_dominatedRankingQueryCount;
-@property(nonatomic) id fuzzyMatchCheck; // @synthesize fuzzyMatchCheck=_fuzzyMatchCheck;
-@property(nonatomic) id fuzzyMatchMask; // @synthesize fuzzyMatchMask=_fuzzyMatchMask;
-@property(nonatomic) unsigned long long highMatchBit; // @synthesize highMatchBit=_highMatchBit;
-@property(nonatomic) unsigned long long highRecencyBit; // @synthesize highRecencyBit=_highRecencyBit;
-@property(nonatomic) unsigned long long lowMatchBit; // @synthesize lowMatchBit=_lowMatchBit;
-@property(nonatomic) unsigned long long lowRecencyBit; // @synthesize lowRecencyBit=_lowRecencyBit;
-@property(nonatomic) double maxAge; // @synthesize maxAge=_maxAge;
-@property(nonatomic) double minCount; // @synthesize minCount=_minCount;
-@property(nonatomic) double minL2Score; // @synthesize minL2Score=_minL2Score;
-@property(nonatomic) unsigned long long rankingBitCount; // @synthesize rankingBitCount=_rankingBitCount;
-@property(retain, nonatomic) NSArray *rankingQueries; // @synthesize rankingQueries=_rankingQueries;
 @property(retain, nonatomic) NSOrderedSet *requiredAttributes; // @synthesize requiredAttributes=_requiredAttributes;
-@property(nonatomic) unsigned long long shortcutBit; // @synthesize shortcutBit=_shortcutBit;
-@property(nonatomic) unsigned long long strongRankingQueryCount; // @synthesize strongRankingQueryCount=_strongRankingQueryCount;
 
 @end
 

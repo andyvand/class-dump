@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSProcessInfo, NSString;
-@protocol MPCVocalAttenuationPolicyDelegate, OS_dispatch_queue;
+@class NSProcessInfo;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationLowPowerModePolicy
 {
     _Bool _lowPowerModeEnabled;
-    _Bool _disableVocalAttenuation;
-    struct os_unfair_lock_s _dataLock;
-    id <MPCVocalAttenuationPolicyDelegate> _delegate;
-    long long _type;
-    NSProcessInfo *_powerMonitor;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
-- (void);
+- (void)@0:(id)arg1 8@"Protocol"16;
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)enableDataclassesWithoutLocalDataDataclassActionsForDataclasses:(id)arg1 fromAccount:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
 - (id);
-- (_Bool);
+- (id);
+- (_Bool)t"16@"ACDAccountStore"24;
 - (void);
 - (id);
 - (void);
@@ -38,24 +31,10 @@ __attribute__((visibility("hidden")))
 - (struct os_unfair_lock_s);
 - (void);
 - (void)WithTargetContentItemID:completion:| account rectification for originalPlaybackContext [%{public}@] sectionID=%{public}@ /* Error: Ran out of types for this method. */;
-- (id)mponentStationID;
+- (id)InvalidStoreURLMissingComponentStationID;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, nonatomic) _Bool canBeReset;
-@property(readonly, nonatomic) struct os_unfair_lock_s dataLock; // @synthesize dataLock=_dataLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <MPCVocalAttenuationPolicyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=shouldDisableVocalAttenuation) _Bool disableVocalAttenuation; // @synthesize disableVocalAttenuation=_disableVocalAttenuation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLowPowerModeEnabled) _Bool lowPowerModeEnabled; // @synthesize lowPowerModeEnabled=_lowPowerModeEnabled;
 @property(retain, nonatomic) NSProcessInfo *powerMonitor; // @synthesize powerMonitor=_powerMonitor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

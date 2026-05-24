@@ -6,22 +6,19 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPIndeterminateProgressSpinnerPresentationProperties, LPIndeterminateProgressSpinnerStyle, LPTextView, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface LPIndeterminateProgressSpinnerView : LPComponentView
 {
     NSView *_indicatorView;
-    LPTextView *_text;
-    LPIndeterminateProgressSpinnerStyle *_style;
-    LPIndeterminateProgressSpinnerPresentationProperties *_properties;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)$;
 - (void)0@ù
 × ;
 

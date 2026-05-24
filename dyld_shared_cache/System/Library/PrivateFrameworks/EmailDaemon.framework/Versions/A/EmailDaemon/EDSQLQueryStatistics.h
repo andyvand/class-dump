@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface EDSQLQueryStatistics
 {
     NSString *_redactedQuery;
-    NSDictionary *_queryCountByTransactionLabel;
-    unsigned long long _queryCount;
-    unsigned long long _firstRowMinExecutionTime;
-    unsigned long long _firstRowMaxExecutionTime;
-    unsigned long long _firstRowMeanExecutionTime;
-    unsigned long long _firstRowTwentyPercentileExecutionTime;
-    unsigned long long _firstRowEightyPercentileExecutionTime;
-    unsigned long long _timePerRowMinExecutionTime;
-    unsigned long long _timePerRowMaxExecutionTime;
-    unsigned long long _timePerRowMeanExecutionTime;
-    unsigned long long _timePerRowTwentyPercentileExecutionTime;
-    unsigned long long _timePerRowEightyPercentileExecutionTime;
-    unsigned long long _totalMinExecutionTime;
-    unsigned long long _totalMaxExecutionTime;
-    unsigned long long _totalMeanExecutionTime;
-    unsigned long long _totalTwentyPercentileExecutionTime;
-    unsigned long long _totalEightyPercentileExecutionTime;
 }
 
 - (unsigned long long);
@@ -51,24 +34,7 @@
 - (void)en_flag,   has_blue_flag,   has_purple_flag,   has_gray_flag,   draft,   replied,   forwarded,   redirected,   junk_level_set_by_user,   junk_level,   has_unflagged,   has_attachments,   count,   journaled,   is_icloud_cleanup ) VALUES (  :scope,   :conversation_id,   :newest_read_message,   :newest_message,   :display_message,   :date,   :display_date,   :read_later_date,   :read,   :flagged,   :has_Red_flag,   :has_Orange_flag,   :has_Yellow_flag,   :has_Green_flag,   :has_Blue_flag,   :has_Purple_flag,   :has_Gray_flag,   :draft,   :replied,   :forwarded,   :redirected,   :junk_level_set_by_user,   :junk_level,   :has_unflagged,   :has_attachments,   :count,   :journaled,   :is_icloud_cleanup ); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long firstRowEightyPercentileExecutionTime; // @synthesize firstRowEightyPercentileExecutionTime=_firstRowEightyPercentileExecutionTime;
-@property(readonly, nonatomic) unsigned long long firstRowMaxExecutionTime; // @synthesize firstRowMaxExecutionTime=_firstRowMaxExecutionTime;
-@property(readonly, nonatomic) unsigned long long firstRowMeanExecutionTime; // @synthesize firstRowMeanExecutionTime=_firstRowMeanExecutionTime;
-@property(readonly, nonatomic) unsigned long long firstRowMinExecutionTime; // @synthesize firstRowMinExecutionTime=_firstRowMinExecutionTime;
-@property(readonly, nonatomic) unsigned long long firstRowTwentyPercentileExecutionTime; // @synthesize firstRowTwentyPercentileExecutionTime=_firstRowTwentyPercentileExecutionTime;
-@property(readonly, nonatomic) unsigned long long queryCount; // @synthesize queryCount=_queryCount;
-@property(readonly, nonatomic) NSDictionary *queryCountByTransactionLabel; // @synthesize queryCountByTransactionLabel=_queryCountByTransactionLabel;
 @property(readonly, nonatomic) NSString *redactedQuery; // @synthesize redactedQuery=_redactedQuery;
-@property(readonly, nonatomic) unsigned long long timePerRowEightyPercentileExecutionTime; // @synthesize timePerRowEightyPercentileExecutionTime=_timePerRowEightyPercentileExecutionTime;
-@property(readonly, nonatomic) unsigned long long timePerRowMaxExecutionTime; // @synthesize timePerRowMaxExecutionTime=_timePerRowMaxExecutionTime;
-@property(readonly, nonatomic) unsigned long long timePerRowMeanExecutionTime; // @synthesize timePerRowMeanExecutionTime=_timePerRowMeanExecutionTime;
-@property(readonly, nonatomic) unsigned long long timePerRowMinExecutionTime; // @synthesize timePerRowMinExecutionTime=_timePerRowMinExecutionTime;
-@property(readonly, nonatomic) unsigned long long timePerRowTwentyPercentileExecutionTime; // @synthesize timePerRowTwentyPercentileExecutionTime=_timePerRowTwentyPercentileExecutionTime;
-@property(readonly, nonatomic) unsigned long long totalEightyPercentileExecutionTime; // @synthesize totalEightyPercentileExecutionTime=_totalEightyPercentileExecutionTime;
-@property(readonly, nonatomic) unsigned long long totalMaxExecutionTime; // @synthesize totalMaxExecutionTime=_totalMaxExecutionTime;
-@property(readonly, nonatomic) unsigned long long totalMeanExecutionTime; // @synthesize totalMeanExecutionTime=_totalMeanExecutionTime;
-@property(readonly, nonatomic) unsigned long long totalMinExecutionTime; // @synthesize totalMinExecutionTime=_totalMinExecutionTime;
-@property(readonly, nonatomic) unsigned long long totalTwentyPercentileExecutionTime; // @synthesize totalTwentyPercentileExecutionTime=_totalTwentyPercentileExecutionTime;
 
 @end
 

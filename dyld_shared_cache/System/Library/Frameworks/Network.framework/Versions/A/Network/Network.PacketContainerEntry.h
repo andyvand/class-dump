@@ -7,9 +7,6 @@
 @interface Network.PacketContainerEntry
 {
     id packet;
-    id sentTime;
-    id lostTime;
-    id reducedCongestionWindow;
 }
 
 @end

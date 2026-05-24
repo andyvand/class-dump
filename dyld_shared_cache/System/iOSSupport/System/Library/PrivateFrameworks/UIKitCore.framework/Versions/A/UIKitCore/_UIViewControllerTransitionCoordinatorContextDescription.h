@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIViewControllerTransitionCoordinatorContextDescription
 {
     _Bool _animated;
-    _Bool _interactive;
-    _Bool _cancelled;
-    double _transitionDuration;
-    double _percentComplete;
-    double _completionVelocity;
-    long long _completionCurve;
-    long long _toOrientation;
-    long long _fromOrientation;
-    struct CGAffineTransform _targetTransform;
 }
 
 + (id);
@@ -32,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)ipopView;
+- (void)trailingLollipopView;
 - (void);
 - (void)å+¬72êÿø³þÈþÿ;
 - (_Bool)tateWithCoder:] /* Error: Ran out of types for this method. */;
 - (double)e=%p;
 - (_Bool)tentType title ;
-- (struct CGAffineTransform)kgroundStyle;
+- (struct CGAffineTransform)GlassBackgroundStyle;
 - (_Bool);
 - (double);
 - (double)ab;
@@ -46,15 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isAnimated) _Bool animated; // @synthesize animated=_animated;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) long long completionCurve; // @synthesize completionCurve=_completionCurve;
-@property(nonatomic) double completionVelocity; // @synthesize completionVelocity=_completionVelocity;
-@property(nonatomic) long long fromOrientation; // @synthesize fromOrientation=_fromOrientation;
-@property(nonatomic, getter=isInteractive) _Bool interactive; // @synthesize interactive=_interactive;
-@property(nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(nonatomic) struct CGAffineTransform targetTransform; // @synthesize targetTransform=_targetTransform;
-@property(nonatomic) long long toOrientation; // @synthesize toOrientation=_toOrientation;
-@property(nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
 
 @end
 

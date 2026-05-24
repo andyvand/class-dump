@@ -4,24 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (void);
+- (void);
+- (UIWindowSceneActivationConfiguration *)requestSourceApplicationMetadataForBundleIdentifier:(UICollectionView *)arg1 completionHandler:(NSIndexPath *)arg2;
+- (UITargetedPreview *)antIndex;
+- (void);
+- (_Bool);
+- (void)J	;
 - (void)¡	ð!@ù±&°1Â0@ù
 × ;
 - (_Bool)raction"16{CGRect={CGPoint=dd}{CGSize=dd}}24@"PKAttachmentView"56;
 - (_Bool)IBBBQ{PKShaderPipelineConfig=[8C]}}16;
-- (UIContextMenuConfiguration *)stemMidGrayColor;
-- (struct CGPoint)aint:(UICollectionView *)arg1;
-- (_Bool)ionInView:(UICollectionView *)arg1 completionHandler:(NSIndexPath *)arg2;
-- (_Bool)edStrokesForStroke:(UICollectionView *)arg1 attachment:(NSIndexPath *)arg2 drawing: /* Error: Ran out of types for this method. */;
-- (NSIndexPath *)ement;
-- (_Bool)observers;
-- (_Bool)ebuffer;
+- (UIContextMenuConfiguration *)systemMidGrayColor;
+- (struct CGPoint)setButtonStackViewBottomConstraint:(UICollectionView *)arg1;
+- (_Bool)selectTextForEditMenuWithLocationInView:(UICollectionView *)arg1 completionHandler:(NSIndexPath *)arg2;
+- (_Bool)intersectedStrokesForStroke:(UICollectionView *)arg1 attachment:(NSIndexPath *)arg2 drawing: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)allowableMovement;
+- (_Bool)_observers;
+- (_Bool)_addLayerFramebuffer;
 - (void)_isDrawing;
 - (_Bool)u5xvôv0x;
-- (_Bool)erCustomItemC;
+- (_Bool)So22PKToolPickerCustomItemC;
 @end
 

@@ -7,7 +7,6 @@
 @interface JetEngine.ClickLocationTracker
 {
     id dataMapping;
-    id onDataSerialized;
 }
 
 @end

@@ -9,9 +9,6 @@
 @interface EKExpandingTextView
 {
     UILabel *_placeholderLabel;
-    _Bool _allowEnclosingViewScroll;
-    struct CGSize _previousIntrinsicContentSize;
-    struct CGSize _previousSizeThatFits;
 }
 
 - (void);
@@ -19,29 +16,22 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)google.protobuf.Duration;
 - (struct CGSize);
 - (id);
+- (void)or info;
+- (id)setIntentSlotValue:(struct CGRect)arg1;
+- (_Bool);
 - (void);
-- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void)ment: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setTextAlignment: /* Error: Ran out of types for this method. */;
 - (void)subscribed calendar is spam. Are you sure you want to continue?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *placeholder;
-@property(readonly) Class superclass;
 
 @end
 

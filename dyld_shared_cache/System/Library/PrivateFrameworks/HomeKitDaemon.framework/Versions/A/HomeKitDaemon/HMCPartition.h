@@ -14,7 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (id);
+- (id)ents pi ON vid.taskId = pi.taskId
+WHERE pi.taskId IS NULL
+ORDER BY vid.taskId ASC;
 - (void);
 
 // Remaining properties

@@ -8,15 +8,15 @@
 {
 }
 
++ (id)rawServerScore;
++ (id)listenedPenalty;
++ (id);
++ (id)nicheContentScores;
++ (id)mutedVoteDampener;
++ (id)multiplierDampener;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)serverScoreDemocratizationFactor;
 + (id);
 
 @end

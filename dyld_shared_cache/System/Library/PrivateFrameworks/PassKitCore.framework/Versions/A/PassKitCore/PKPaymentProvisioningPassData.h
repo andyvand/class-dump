@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKAppletSubcredential, PKSecureElementPass;
+@class NSURL;
 
 @interface PKPaymentProvisioningPassData
 {
     _Bool _willProvisionWithAuthenticationDisabled;
-    _Bool _suppressMakeDefaultPaymentPassOffer;
-    NSURL *_passURL;
-    PKSecureElementPass *_secureElementPass;
-    PKAppletSubcredential *_deviceCredential;
-    NSString *_ownershipToken;
-    NSString *_ownershipTokenIdentifier;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,21 +26,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)Epsilon:(id)arg1;
+- (_Bool)setSymptomsFails:(id)arg1;
+- (void)ns;
+- (id)durationForEpsilon:(id)arg1;
 - (void)ent.provisioning.camera.fpan.change.distance;
 
 // Remaining properties
-@property(retain, nonatomic) PKAppletSubcredential *deviceCredential; // @synthesize deviceCredential=_deviceCredential;
-@property(readonly, copy, nonatomic) NSString *ownershipToken; // @synthesize ownershipToken=_ownershipToken;
-@property(readonly, copy, nonatomic) NSString *ownershipTokenIdentifier; // @synthesize ownershipTokenIdentifier=_ownershipTokenIdentifier;
 @property(readonly, copy, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(retain, nonatomic) PKSecureElementPass *secureElementPass; // @synthesize secureElementPass=_secureElementPass;
-@property(readonly, nonatomic) _Bool suppressMakeDefaultPaymentPassOffer; // @synthesize suppressMakeDefaultPaymentPassOffer=_suppressMakeDefaultPaymentPassOffer;
-@property(nonatomic) _Bool willProvisionWithAuthenticationDisabled; // @synthesize willProvisionWithAuthenticationDisabled=_willProvisionWithAuthenticationDisabled;
 
 @end
 

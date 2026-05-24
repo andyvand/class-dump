@@ -9,12 +9,11 @@
 @interface MUISearchSenderQueryManager
 {
     EMSenderRepository *_senderRepository;
-    EFFuture *_senderFilterQueryFuture;
 }
 
 - (id);
-- (id);
-- (void)otectedContent: /* Error: Ran out of types for this method. */;
+- (id)(;
+- (void)setAccessibilityProtectedContent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) EFFuture *senderFilterQueryFuture;

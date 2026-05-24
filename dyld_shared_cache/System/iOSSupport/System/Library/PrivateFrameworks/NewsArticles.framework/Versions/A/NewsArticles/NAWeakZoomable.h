@@ -21,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)Section;
+- (void)suppressMoreFromSection;
 
 @end
 

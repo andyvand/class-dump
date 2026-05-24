@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     unsigned char _ticketNeedsLogicalUnitNumber;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned int);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)stringByDeletingPathExtension;
 
 // Remaining properties
 @property(readonly) unsigned char ticketNeedsLogicalUnitNumber; // @synthesize ticketNeedsLogicalUnitNumber=_ticketNeedsLogicalUnitNumber;

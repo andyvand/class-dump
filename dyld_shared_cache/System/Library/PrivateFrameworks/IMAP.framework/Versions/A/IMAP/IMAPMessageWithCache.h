@@ -6,14 +6,11 @@
 
 #import <IMAP/IMAPMessage.h>
 
-@class EDMessageCategorizationResult, MCMessageHeaders, NSData;
+@class NSData;
 
 @interface IMAPMessageWithCache : IMAPMessage
 {
     NSData *_messageData;
-    MCMessageHeaders *_headers;
-    EDMessageCategorizationResult *_categorizationResult;
-    long long _authenticationState;
 }
 
 - (id);
@@ -27,7 +24,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

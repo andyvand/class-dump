@@ -6,82 +6,31 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString, NSTouchBarColorPickerSwitcher;
 @protocol NSTouchBarColorPickerView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarColorPickerContainerView : NSView
 {
     NSView<NSTouchBarColorPickerView> *_colorPickerView;
-    NSTouchBarColorPickerSwitcher *_switcherView;
-    NSView *_swatch;
 }
 
 + (_Bool);
-- (id);
+- (id)R;
 - (void);
-- (void);
+- (void)image '%c%c%c%c' (IOConnectCallScalarMethod kAppleNVMeEANRead returned 0x%X);
 - (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (struct CGSize)ementFromAXUIElementRef;
+- (id)(B6;
+- (void)@!;
+- (_Bool);
+- (struct CGSize)_NSAccessibilityTestingElementFromAXUIElementRef;
 - (struct CGSize)5@;
 
 // Remaining properties
-@property(retain) NSView<NSTouchBarColorPickerView> *colorPickerView;
-@property(retain) NSView *colorSwatch;
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long itemPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct CGSize maxSize;
 @property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) Class superclass;
-@property(retain) NSTouchBarColorPickerSwitcher *switcherView;
 
 @end
 

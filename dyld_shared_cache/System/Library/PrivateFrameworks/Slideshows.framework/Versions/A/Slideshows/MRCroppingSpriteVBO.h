@@ -7,43 +7,27 @@
 @interface MRCroppingSpriteVBO
 {
     struct CGPoint mPosition;
-    struct CGSize mHalfSize;
-    float mRotation;
-    struct CGRect mInnerRect;
-    struct CGRect mOuterRect;
-    _Bool mPreservesImageAspectRatio;
-    _Bool mHitIsActive;
-    _Bool mNeedsInSpriteCoordinates;
-    struct CGSize mSpriteCoordinatesFactor;
-    struct CGPoint mSpriteCoordinatesOffset;
-    unsigned char mMeshType;
-    unsigned int mVBO;
-    unsigned char mMiddleOffset;
-    unsigned char mOuterOffset;
-    unsigned char mNumberOfVertices;
-    _Bool mPositionWasUpdated;
-    _Bool mRectsWereUpdated;
 }
 
 - (void);
-- (struct CGPoint);
-- (struct CGSize);
+- (struct CGPoint)setupWithInitialKeys: /* Error: Ran out of types for this method. */;
+- (struct CGSize)set_sourceApplicationBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)cacheCoordinator:(struct CGPoint)arg1 flushKeysWithWriteLock: /* Error: Ran out of types for this method. */;
+- (void)backgroundSessionLaunchEventCounter;
+- (void)_handleDroppedEnvelopesForLocalReasons:(_Bool)arg1;
+- (void)URLWithString:(struct CGRect)arg1;
+- (void)URLSession:(_Bool)arg1 task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
+- (void)pe;
+- (void)>",&,N,V_schedulingAndForegroundUploadThrottler;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (unsigned char);
-- (id);
-- (id);
+- (void);
+- (_Bool)strong _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (struct CGRect)DAnalyticsEnvelopeStoreEntry *> * _Nonnull NDAnalyticsEnvelopeStoreEntriesFromStringRepresentations(NSArray<NSString *> *__strong _Nonnull);
+- (_Bool)emFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NAUAnalyticsEnvelopeTracker.m;
+- (unsigned char)oadsForInfos:withEnvelopeStore:perPayloadCompletion:completion:] /* Error: Ran out of types for this method. */;
+- (id)UserData;
+- (id)SessionData;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -59,17 +43,7 @@
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize halfSize; // @synthesize halfSize=mHalfSize;
-@property(nonatomic) _Bool hitIsActive; // @synthesize hitIsActive=mHitIsActive;
-@property(nonatomic) struct CGRect innerRect; // @synthesize innerRect=mInnerRect;
-@property(nonatomic) unsigned char meshType; // @synthesize meshType=mMeshType;
-@property(nonatomic) _Bool needsInSpriteCoordinates; // @synthesize needsInSpriteCoordinates=mNeedsInSpriteCoordinates;
-@property(nonatomic) struct CGRect outerRect; // @synthesize outerRect=mOuterRect;
 @property(readonly, nonatomic) struct CGPoint position; // @synthesize position=mPosition;
-@property(nonatomic) _Bool preservesImageAspectRatio; // @synthesize preservesImageAspectRatio=mPreservesImageAspectRatio;
-@property(readonly, nonatomic) float rotation; // @synthesize rotation=mRotation;
-@property(nonatomic) struct CGSize spriteCoordinatesFactor; // @synthesize spriteCoordinatesFactor=mSpriteCoordinatesFactor;
-@property(nonatomic) struct CGPoint spriteCoordinatesOffset; // @synthesize spriteCoordinatesOffset=mSpriteCoordinatesOffset;
 
 @end
 

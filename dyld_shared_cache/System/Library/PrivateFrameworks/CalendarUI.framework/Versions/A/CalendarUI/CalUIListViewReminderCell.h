@@ -6,18 +6,12 @@
 
 #import <CalendarUI/CalUIListViewCell.h>
 
-@class CalUILabel, CalUIViewWithCornerRadius, EKEvent, NSClickGestureRecognizer, NSImageView;
+@class CalUILabel;
 @protocol CalUIListViewReminderCellDelegate;
 
 @interface CalUIListViewReminderCell : CalUIListViewCell
 {
     CalUILabel *_titleField;
-    CalUIViewWithCornerRadius *_backgroundView;
-    CalUILabel *_timeField;
-    NSImageView *_circleIcon;
-    NSClickGestureRecognizer *_circleClickRecognizer;
-    EKEvent *_event;
-    id <CalUIListViewReminderCellDelegate> _delegate;
 }
 
 + (double);
@@ -30,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void));
 - (id);
 - (void);
 - (void)1Â0@ù

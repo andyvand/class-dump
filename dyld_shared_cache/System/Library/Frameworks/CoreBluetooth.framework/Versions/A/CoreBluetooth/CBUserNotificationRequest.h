@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDevice;
-
 @interface CBUserNotificationRequest
 {
     unsigned int _event;
-    CBDevice *_device;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)i"�ab;
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void)initWithPage:(id)arg1 changeToken: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)Sysdiagnose;
+- (void)U;
 
 // Remaining properties
-@property(retain, nonatomic) CBDevice *device; // @synthesize device=_device;
 @property(nonatomic) unsigned int event; // @synthesize event=_event;
 
 @end

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface ISSignInPromptResponse
 {
     long long returnCode;
-    NSString *username;
-    NSString *password;
-    NSNumber *suppressionCheckboxState;
-    NSDictionary *serverResponse;
 }
 
 + (_Bool);
@@ -25,18 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *password; // @synthesize password;
 @property long long returnCode; // @synthesize returnCode;
-@property(retain) NSDictionary *serverResponse; // @synthesize serverResponse;
-@property(retain) NSNumber *suppressionCheckboxState; // @synthesize suppressionCheckboxState;
-@property(retain) NSString *username; // @synthesize username;
 
 @end
 

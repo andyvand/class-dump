@@ -5,5 +5,8 @@
 //
 
 @protocol NSPasteboardItemDataProvider
+
+@optional
+- (void);
 @end
 

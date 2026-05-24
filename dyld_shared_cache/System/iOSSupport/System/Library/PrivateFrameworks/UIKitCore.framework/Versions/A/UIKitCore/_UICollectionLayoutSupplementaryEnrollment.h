@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)ationSpeed;
-- (id)sureSizingLayout;
+- (id)animationSpeed;
+- (id)_ensureSizingLayout;
 - (id)= %@, ShadowColor = %@, DrawingStroke = %@>;
 - (void)þ8;
 

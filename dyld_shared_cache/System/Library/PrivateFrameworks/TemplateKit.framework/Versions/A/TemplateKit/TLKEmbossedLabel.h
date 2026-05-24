@@ -6,18 +6,9 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSColor, NSFont, TLKLabel, TLKMultilineText, TLKProminenceView;
-
 @interface TLKEmbossedLabel : TLKView
 {
     _Bool _shouldBadge;
-    TLKMultilineText *_text;
-    NSColor *_color;
-    NSFont *_font;
-    TLKLabel *_label;
-    TLKProminenceView *_backgroundView;
-    struct CGSize _textOffset;
-    struct CGSize _customInsetSize;
 }
 
 - (void);
@@ -27,19 +18,19 @@
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)v';
 - (id);
 - (struct CGSize);
 - (id);
 - (struct CGSize);
 - (id);
 - (id);
-- (void);
+- (void)BufferCSo0A4TimeCG9:(id)arg1 2_pGG;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)0@;
+- (void)payloadTunnelConfigurations;
+- (id)ice.wallpaper;
 - (void);
 - (void);
 - (void);
@@ -49,15 +40,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(retain, nonatomic) TLKProminenceView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(nonatomic) struct CGSize customInsetSize; // @synthesize customInsetSize=_customInsetSize;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(retain, nonatomic) TLKLabel *label; // @synthesize label=_label;
-@property(nonatomic) _Bool shouldBadge; // @synthesize shouldBadge=_shouldBadge;
-@property(retain, nonatomic) TLKMultilineText *text; // @synthesize text=_text;
-@property(nonatomic) struct CGSize textOffset; // @synthesize textOffset=_textOffset;
 
 @end
 

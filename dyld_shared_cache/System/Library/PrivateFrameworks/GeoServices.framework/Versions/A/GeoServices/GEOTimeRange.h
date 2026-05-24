@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOTimeRange
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _from;
-    unsigned int _to;
-    struct {
-        unsigned int has_from:1;
-        unsigned int has_to:1;
-    } _flags;
 }
 
 - (id);
@@ -23,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)2f;
 - (id)extClassification=ddi{?=b1b1b1}}16;
-- (id)idanceIndex;
-- (id)APNavSessionData;
+- (id)hasSpokenGuidanceIndex;
+- (id)GEOAPNavSessionData;
 - (void);
 
 @end

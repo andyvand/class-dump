@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface UnknownClass (ABUIAdditions)
 - (void);
@@ -14,13 +14,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ab_text;
-@property(copy, nonatomic) NSDictionary *ab_textAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

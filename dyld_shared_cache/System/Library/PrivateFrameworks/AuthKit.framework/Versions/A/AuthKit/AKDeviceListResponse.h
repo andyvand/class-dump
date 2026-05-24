@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface AKDeviceListResponse
 {
     NSString *_altDSID;
-    NSString *_deviceListVersion;
-    NSString *_idmsTrustedDevicesVersion;
-    NSArray *_deviceList;
-    NSArray *_deletedDeviceList;
-    NSString *_trustedDeviceHash;
-    NSString *_deletedDeviceHash;
-    NSNumber *_trustedDevicesUpdateTimestamp;
-    NSString *_deletedDevicesCacheExpiryOffset;
 }
 
 + (id);
@@ -32,12 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R$;
 - (id);
 - (id);
 - (id);
@@ -54,14 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *deletedDeviceHash; // @synthesize deletedDeviceHash=_deletedDeviceHash;
-@property(copy, nonatomic) NSArray *deletedDeviceList; // @synthesize deletedDeviceList=_deletedDeviceList;
-@property(copy, nonatomic) NSString *deletedDevicesCacheExpiryOffset; // @synthesize deletedDevicesCacheExpiryOffset=_deletedDevicesCacheExpiryOffset;
-@property(copy, nonatomic) NSArray *deviceList; // @synthesize deviceList=_deviceList;
-@property(copy, nonatomic) NSString *deviceListVersion; // @synthesize deviceListVersion=_deviceListVersion;
-@property(copy, nonatomic) NSString *idmsTrustedDevicesVersion; // @synthesize idmsTrustedDevicesVersion=_idmsTrustedDevicesVersion;
-@property(copy, nonatomic) NSString *trustedDeviceHash; // @synthesize trustedDeviceHash=_trustedDeviceHash;
-@property(copy, nonatomic) NSNumber *trustedDevicesUpdateTimestamp; // @synthesize trustedDevicesUpdateTimestamp=_trustedDevicesUpdateTimestamp;
 
 @end
 

@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSNumber, NSString;
+
 @protocol SiriCoreSQLiteValue
+- (long long)lidating cache;
+- (NSString *)k phone number;
+- (NSNumber *)t (%lu);
+- (NSData *)BOOL}d;
+- (NSString *)Senders Enabled=%{BOOL}d;
+
+@optional
+- (const char *)has invalid type.;
+- (long long)wlist.;
+- (double)s in server configuration.;
+- (const void *)xes or mailbox repository set;
 @end
 

@@ -4,54 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCurrentTimeMarkerView, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, UIColor, UIImageView, UIView, UIVisualEffect;
-
 __attribute__((visibility("hidden")))
 @interface EKDayGridView
 {
     double _timeInset;
-    double _hourHeight;
-    unsigned int _leftBorder:1;
-    unsigned int _rightBorder:1;
-    int _selected;
-    double _fixedDayWidth;
-    long long _orientation;
-    struct CGRect _lastBounds;
-    UIColor *_backgroundColor;
-    UIView *_leftBorderView;
-    NSMutableArray *_middleBorderViews;
-    UIView *_rightBorderView;
-    NSMutableArray *_gridPatternViews;
-    unsigned long long _daysToDisplay;
-    EKCurrentTimeMarkerView *_timeMarker;
-    UIImageView *_timeDot;
-    _Bool _hideTimeDot;
-    UIView *_highlightedDayBackground;
-    UIView *_fadingHighlightedDayBackground;
-    UIView *_gridContainerView;
-    NSMutableDictionary *_gridParentViews;
-    double _cachedWidthForOffMainThreadWork;
-    long long _sizeClass;
-    _Bool _needsLayoutInWindow;
-    NSLayoutConstraint *_curtainHeightConstraint;
-    _Bool _useMultiDayStyle;
-    _Bool _rightBorderInsetsOccurrences;
-    _Bool _showsTimeLine;
-    _Bool _showsTimeMarker;
-    _Bool _animatesTimeMarker;
-    UIColor *_lineColor;
-    long long _timeMarkerTodayDay;
-    double _eventHorizontalInset;
-    double _hoursToPadTop;
-    double _hoursToPadBottom;
-    long long _highlightedDayIndex;
-    double _timeWidth;
-    UIVisualEffect *_gridVisualEffect;
-    UIView *_occurrenceContainerView;
-    double _gridHeightScale;
 }
 
-+ (void);
++ (void);
 + (id);
 - (void);
 - (_Bool);
@@ -60,39 +19,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (double);
+- (double);
 - (struct CGRect);
 - (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (struct CGSize)tring<char, std:(struct CGSize)arg1:__1::char_traits<char>, std::__1::allocator<char> >={__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}}iiiiiiiiiiii} /* Error: Ran out of types for this method. */;
+- (void)@@"NSURL";
+- (void)Array";
+- (long long)n"@"NSError">;
 - (_Bool);
 - (void);
 - (double);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (double);
-- (void);
-- (double);
+- (void)Google_Protobuf_BytesValue;
+- (double);
 - (_Bool);
-- (void);
-- (void);
+- (void));
+- (void)ppleConvergedIPCControl found, releasing waiting thread;
 - (double);
 - (id);
 - (void);
-- (void);
-- (void);
-- (int);
+- (void);
+- (void)userAgentSession;
+- (int)answering call):(double)arg1 %lu;
 - (id);
 - (void);
 - (double);
-- (void);
-- (id);
-- (void);
+- (void)(;
+- (id)figuration>"24;
+- (void)i, sequenceNumber = %ld;
 - (void);
 - (void);
 - (void);
@@ -100,8 +59,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)__objc_imageinfo__DATA_CONST;
+- (void)originatingBundleIdentifier;
 - (void);
 - (id);
 - (double);
@@ -118,46 +77,16 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (_Bool)32@40@48@?56;
-- (void)configuredEditItems;
-- (void)rror;
-- (_Bool)eContactClass;
+- (void)reconfiguredEditItems;
+- (void)pendingVirtualConferenceError;
+- (_Bool)_CNMutableContactClass;
 - (void)leScrollViewDelegate>",W,N,V_blockableDelegate;
 - (_Bool)¾~;
 - (void);
 - (double)°_	;
 
 // Remaining properties
-@property(nonatomic) _Bool animatesTimeMarker; // @synthesize animatesTimeMarker=_animatesTimeMarker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double eventHorizontalInset; // @synthesize eventHorizontalInset=_eventHorizontalInset;
-@property(nonatomic) double fixedDayWidth;
-@property(nonatomic) double gridHeightScale; // @synthesize gridHeightScale=_gridHeightScale;
-@property(retain, nonatomic) UIVisualEffect *gridVisualEffect; // @synthesize gridVisualEffect=_gridVisualEffect;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long highlightedDayIndex; // @synthesize highlightedDayIndex=_highlightedDayIndex;
-@property(readonly, nonatomic) double hourHeight;
-@property(nonatomic) double hoursToPadBottom; // @synthesize hoursToPadBottom=_hoursToPadBottom;
-@property(nonatomic) double hoursToPadTop; // @synthesize hoursToPadTop=_hoursToPadTop;
-@property(retain, nonatomic) UIColor *lineColor; // @synthesize lineColor=_lineColor;
-@property(retain, nonatomic) UIView *occurrenceContainerView; // @synthesize occurrenceContainerView=_occurrenceContainerView;
-@property(nonatomic) _Bool rightBorderInsetsOccurrences; // @synthesize rightBorderInsetsOccurrences=_rightBorderInsetsOccurrences;
-@property(nonatomic, getter=isSelected) _Bool selected;
-@property(nonatomic) _Bool showsLeftBorder;
-@property(nonatomic) _Bool showsRightBorder;
-@property(nonatomic) _Bool showsTimeLine; // @synthesize showsTimeLine=_showsTimeLine;
-@property(nonatomic) _Bool showsTimeMarker; // @synthesize showsTimeMarker=_showsTimeMarker;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeInset;
-@property(readonly, nonatomic) EKCurrentTimeMarkerView *timeMarker; // @synthesize timeMarker=_timeMarker;
-@property(nonatomic) long long timeMarkerTodayDay; // @synthesize timeMarkerTodayDay=_timeMarkerTodayDay;
-@property(readonly, nonatomic) double timeWidth; // @synthesize timeWidth=_timeWidth;
-@property(readonly, nonatomic) double topPadding;
 @property(nonatomic) _Bool useMultiDayStyle; // @synthesize useMultiDayStyle=_useMultiDayStyle;
-@property(readonly, nonatomic) double widthForOccurrences;
 
 @end
 

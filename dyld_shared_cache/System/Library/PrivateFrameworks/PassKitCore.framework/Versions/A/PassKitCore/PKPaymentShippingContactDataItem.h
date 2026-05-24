@@ -15,7 +15,7 @@
 + (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *email;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *phone;
 
 @end
 

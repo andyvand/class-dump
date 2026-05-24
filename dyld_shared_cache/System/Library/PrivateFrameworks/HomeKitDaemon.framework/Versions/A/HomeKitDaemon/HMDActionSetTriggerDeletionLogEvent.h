@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface HMDActionSetTriggerDeletionLogEvent
 {
     _Bool _actionDeleted;
-    _Bool _eventDeleted;
 }
 
 + (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)v36@0:8@16B24^@28 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActionDeleted) _Bool actionDeleted; // @synthesize actionDeleted=_actionDeleted;
-@property(readonly, nonatomic, getter=isEventDeleted) _Bool eventDeleted; // @synthesize eventDeleted=_eventDeleted;
 
 @end
 

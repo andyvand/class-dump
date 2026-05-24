@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebMainThreadInvoker
 {
     id target;
-    struct RetainPtr<id> exception;
 }
 
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol NFECommercePaymentSessionInterface
+- (oneway void)ADDRESSING_GRAMMAR_FIELD_PLACEHOLDER;
+- (oneway void)ield.m;
+- (oneway void)ACTION_VIEW_PROFILE;
 @end
 

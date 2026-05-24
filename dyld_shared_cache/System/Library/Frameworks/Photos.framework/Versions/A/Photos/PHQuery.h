@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSFetchRequest, NSManagedObjectID, NSMutableDictionary, NSMutableSet, NSPredicate, NSRelationshipDescription, NSSet, NSString, PHCollection, PHFetchOptions, PHPhotoLibrary;
+@class NSPredicate;
 
 @interface PHQuery
 {
     NSPredicate *_cachedFetchOptionsPredicate;
-    NSPredicate *_basePredicate;
-    NSPredicate *_filterPredicate;
-    NSFetchRequest *_fetchRequest;
-    long long _collectionFetchType;
-    _Bool _preparedContainerInfo;
-    NSRelationshipDescription *_containerRelationship;
-    NSManagedObjectID *_containerIdentifier;
-    PHCollection *_containerCollection;
-    _Bool _preparedCombinedQueryKeys;
-    id _combinedQueryGroupKey;
-    NSString *_combinedQueryKeyPath;
-    NSManagedObjectID *_combinedQuerySeparatingIdentifier;
-    _Bool _preparedFilteringAttributes;
-    NSMutableSet *_filteringKeys;
-    unsigned long long _filteringAttributesIndexValue;
-    unsigned long long _filteringRelationshipsIndexValue;
-    unsigned long long _sortingAttributesIndexValue;
-    unsigned long long _objectToContainerRelationshipIndexValue;
-    unsigned long long _containerToObjectRelationshipIndexValue;
-    unsigned long long _containerSortingAttributesIndexValue;
-    unsigned long long _containerUserQueryIndexValue;
-    _Bool _containsToManySelfInPredicate;
-    NSMutableSet *_filteringOids;
-    NSMutableSet *_filteringObjectKeyPaths;
-    NSMutableDictionary *_filteringRelationshipsIndexValueByBaseEntityName;
-    CDUnknownBlockType _identificationBlock;
-    _Bool __includesCameraRoll;
-    PHFetchOptions *_fetchOptions;
-    NSArray *_propertiesToGroupBy;
-    NSArray *_propertiesToFetchWhenGrouping;
-    NSString *_fetchType;
-    NSArray *_seedOIDs;
-    PHPhotoLibrary *_photoLibrary;
-    NSString *_searchIndexLookupIdentifier;
 }
 
 + (id);
@@ -51,13 +17,13 @@
 + (id);
 + (id);
 + (id);
++ (id)modelBaseScaleFactorOfPageAtIndex:(id)arg1 forAnnotationController:(id)arg2;
++ (id)constraintEqualToConstant:(id)arg1;
++ (id)_farthestPointFrom:(id)arg1 inArray:(id *)arg2;
++ (id)arentController;
++ (id)!;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)L`H;
 + (id);
 + (id);
 + (id);
@@ -71,12 +37,12 @@
 + (id);
 + (id);
 + (unsigned int);
++ (id)V_shouldGZip;
++ (id)dd.sagaUpdateInProgressChanged;
++ (id)%p adamID=%@>;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -115,14 +81,14 @@
 + (id);
 + (id);
 + (id);
++ (id)mrLanguageOption;
++ (id)itemOrderingPropertiesForGroupingType:(id)arg1;
++ (id)enumeratorWithOptions:(id)arg1 startPosition:endPosition:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
++ (id)en;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_MPNowPlayingInfoPropertyCollectionInfo;
++ (id)ts WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID;
++ (id)oEnd:(id)arg1 %{public}@ fromSection:%{public}@ | moving [user moved] /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -131,7 +97,7 @@
 + (id);
 + (id);
 + (CDUnknownBlockType);
-+ (id);
++ (id)y;
 + (id);
 + (id);
 + (id);
@@ -146,12 +112,12 @@
 + (_Bool);
 + (id);
 + (CDUnknownBlockType);
++ (id)initWithUser:(id)arg1 protectionSpace:(id)arg2;
++ (id)_matchSidecars:(id)arg1 toSavedAccountsWithPasskeysInDictionary:(id)arg2 unmatchedSidecars: /* Error: Ran out of types for this method. */;
++ (id)_logDiagnosticMessageWithKey:(id)arg1 diagnosticMessage:(id)arg2 integerValue: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)LowFrequencyBucketScryptBlockSizeR;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -166,6 +132,7 @@
 + (_Bool);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -177,15 +144,14 @@
 + (id);
 + (id);
 + (id);
++ (id)_absoluteOriginOnScreen;
 + (id);
++ (id)postWeeklyReportNotification:(id)arg1;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (short);
-+ (id);
-+ (id);
++ (id)t private service proxy with error:(id)arg1 %{public}@;
++ (short)ecovery:(id)arg1 failed to serialize recovered config:%{public}@ /* Error: Ran out of types for this method. */;
++ (id)ScreenTimeWebBrowserRateLimited;
++ (id)ionRestriction;
 + (CDUnknownBlockType);
 + (id);
 + (id);
@@ -197,6 +163,8 @@
 + (id);
 + (id);
 + (id);
++ (id)CXChannelSourceManager;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -205,26 +173,24 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)k@;
 + (id);
 + (id);
 + (id);
++ (id)was called.;
++ (id)TLAlertTopicActivityGoalAttained;
++ (id);
++ (id)';
++ (id);
++ (id);
++ (id)_validationErrorMessage;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -232,10 +198,10 @@
 × ;
 + (id)á°!HCùñ°1Â0@ù
 × ;
-+ (void)gIdentifier;
++ (void)_combinedQuerySeparatingIdentifier;
 + (id)yAssetResource;
-+ (id)etResourceManager;
-+ (id)loadExtensionXPCProtocol;
++ (id)PHAssetResourceManager;
++ (id)PLBackgroundResourceUploadExtensionXPCProtocol;
 + (id);
 + (id)editing adjustment data request finished with result:(id)arg1 %@, info:%@ /* Error: Ran out of types for this method. */;
 + (id)decode autonamingUserFeedback object:(id)arg1 %@;
@@ -244,8 +210,8 @@
 + (id)rmine any requested information from the PHCloudIdentifier;
 + (id)cessing Availability --
 ;
-+ (id)IDs;
-+ (id)FileURLKey;
++ (id)changedObjectIDs;
++ (id)PHAssetExportRequestAdjustmentSecondaryDataFileURLKey;
 + (id)Î;
 - (unsigned long long);
 - (unsigned long long);
@@ -254,19 +220,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)ssion"8@?0;
+- (id)HMHomeManager;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
+- (id)P;
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
+- (unsigned long long)_playlistProperties;
+- (id),V_transitionInfo;
+- (void)MPMediaItemAnimatedArtwork;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -275,7 +241,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_urlIsPasswordManagerURL:resourceSpecifierDictionary: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -301,44 +267,19 @@
 - (id)Ô ;
 - (id)!$Dù°1Â0@ù
 × ;
-- (void)oLibrary:(id)arg1 withOptions:progress:delegate:performanceDelegate:atEnd: /* Error: Ran out of types for this method. */;
+- (void)importAssets:(id)arg1 fromImportSource:intoLibrary:withOptions:progress:delegate:performanceDelegate:atEnd: /* Error: Ran out of types for this method. */;
 - (void)ifier;
-- (id)HAssetResource;
+- (id)PHAssetResource;
 - (id)sourceAssetIdentifiersForBatchedCreation archiving error:%@ /* Error: Ran out of types for this method. */;
 - (id)Cache:Error parsing user feedback context as area name:%@ /* Error: Ran out of types for this method. */;
 - (id)ry;
-- (id)mageData;
-- (void)eo_thumbnail;
+- (id)contextualVideoThumbnailImageData;
+- (void)contextual_video_thumbnail;
 - (void)toredNSErrorP;
 - (void)ýÿ¯ø;
 
 // Remaining properties
 @property(nonatomic, setter=_setIncludesCameraRoll:) _Bool _includesCameraRoll; // @synthesize _includesCameraRoll=__includesCameraRoll;
-@property(readonly) NSPredicate *basePredicate; // @synthesize basePredicate=_basePredicate;
-@property(readonly) id combinedQueryGroupKey;
-@property(readonly) NSString *combinedQueryKeyPath;
-@property(readonly) NSManagedObjectID *combinedQuerySeparatingIdentifier;
-@property(readonly, nonatomic) NSRelationshipDescription *containerRelationship;
-@property(readonly) unsigned long long containerSortingAttributesIndexValue;
-@property(readonly) unsigned long long containerToObjectRelationshipIndexValue;
-@property(readonly) unsigned long long containerUserQueryIndexValue;
-@property(copy, nonatomic) PHFetchOptions *fetchOptions; // @synthesize fetchOptions=_fetchOptions;
-@property(readonly) NSFetchRequest *fetchRequest;
-@property(readonly) NSString *fetchType; // @synthesize fetchType=_fetchType;
-@property(readonly) NSPredicate *filterPredicate;
-@property(readonly) unsigned long long filteringAttributesIndexValue;
-@property(readonly) NSSet *filteringKeys;
-@property(readonly, nonatomic) NSSet *filteringOids;
-@property(readonly) unsigned long long filteringRelationshipsIndexValue;
-@property(readonly, nonatomic) NSDictionary *filteringRelationshipsIndexValueByBaseEntityName;
-@property(readonly) unsigned long long objectToContainerRelationshipIndexValue;
-@property(readonly) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain) NSArray *propertiesToFetchWhenGrouping; // @synthesize propertiesToFetchWhenGrouping=_propertiesToFetchWhenGrouping;
-@property(retain) NSArray *propertiesToGroupBy; // @synthesize propertiesToGroupBy=_propertiesToGroupBy;
-@property(readonly, nonatomic) NSString *searchIndexLookupIdentifier; // @synthesize searchIndexLookupIdentifier=_searchIndexLookupIdentifier;
-@property(readonly) NSArray *seedOIDs; // @synthesize seedOIDs=_seedOIDs;
-@property(readonly, nonatomic) NSString *shortDescription;
-@property(readonly) unsigned long long sortingAttributesIndexValue;
 
 @end
 

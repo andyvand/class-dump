@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CNAutocompleteSuggestionsViewController;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *books; // @synthesize books=_books;

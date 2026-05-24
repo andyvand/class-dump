@@ -12,9 +12,11 @@
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
+- (void)reams
+;
+- (id){ptr}] Set up transport streams
+;
+- (id)sportStreamRef *);
 - (id);
 - (id);
 - (void);

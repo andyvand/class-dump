@@ -9,9 +9,10 @@
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool);
 - (_Bool)Gù<°1Â0@ù
 × ;
 - (_Bool)Array"24@0:(NSGestureRecognizer *)arg1 8@"NSWindow"16;
-- (_Bool);
+- (_Bool)Content;
 @end
 

@@ -5,12 +5,11 @@
 //
 
 @class CRKCardPresentationConfiguration;
-@protocol CRCard;
 
 @protocol CRKCardPresenting
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRCard> card;
 @property(copy, nonatomic) CRKCardPresentationConfiguration *configuration;
 @end
 

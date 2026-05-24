@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTView, CNCaptureButtonView, NSLayoutConstraint, UIButton, UIImage, UILabel, UIView;
-@protocol AVTAvatarRecord, CNAvatarCaptureViewControllerDelegate;
+@class AVTView;
+@protocol CNAvatarCaptureViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarCaptureViewController
 {
     id <CNAvatarCaptureViewControllerDelegate> _delegate;
-    AVTView *_avtView;
-    NSLayoutConstraint *_avtViewHeightConstraint;
-    UILabel *_promptLabel;
-    id <AVTAvatarRecord> _avatarRecord;
-    CNCaptureButtonView *_captureButtonView;
-    UIButton *_cancelButton;
-    UIView *_captureFooter;
-    UIImage *_capturedImage;
 }
 
 - (void);
@@ -32,25 +24,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)+J;
+- (id)?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)#;
+- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void)
 × ;
@@ -59,15 +51,7 @@ __attribute__((visibility("hidden")))
 - (void) È ;
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
 @property(retain, nonatomic) AVTView *avtView; // @synthesize avtView=_avtView;
-@property(nonatomic) NSLayoutConstraint *avtViewHeightConstraint; // @synthesize avtViewHeightConstraint=_avtViewHeightConstraint;
-@property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) CNCaptureButtonView *captureButtonView; // @synthesize captureButtonView=_captureButtonView;
-@property(retain, nonatomic) UIView *captureFooter; // @synthesize captureFooter=_captureFooter;
-@property(retain, nonatomic) UIImage *capturedImage; // @synthesize capturedImage=_capturedImage;
-@property(nonatomic) __weak id <CNAvatarCaptureViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UILabel *promptLabel; // @synthesize promptLabel=_promptLabel;
 
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMActivityObjectID, EMStatusUpdateProvider, NSDate, NSDictionary, NSError, NSProgress, NSString;
-@protocol EFCancelable;
+@class NSDictionary;
 
 @interface EMActivity
 {
     struct os_unfair_lock_s _lock;
-    EMStatusUpdateProvider *_statusUpdateProvider;
-    id <EFCancelable> _progressKVOCancellation;
-    NSDictionary *_userInfo;
-    long long _activityType;
-    NSDate *_started;
-    NSDate *_finished;
-    NSProgress *_progress;
-    NSError *_error;
-    double _fractionCompleted;
-    EMActivityObjectID *_objectID;
 }
 
 + (id);
@@ -31,13 +20,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)s to a nested pattern of type ';
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -46,29 +35,13 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)albumGUID, assetCollectionGUID from CommandQueue where ord >= ? order by ord limit 1;;
 - (void);
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly) long long activityType; // @synthesize activityType=_activityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSDate *finished; // @synthesize finished=_finished;
-@property(nonatomic) double fractionCompleted; // @synthesize fractionCompleted=_fractionCompleted;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedDescription;
-@property(readonly) _Bool needsPersistentHistory;
-@property(readonly) EMActivityObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) NSDate *started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end

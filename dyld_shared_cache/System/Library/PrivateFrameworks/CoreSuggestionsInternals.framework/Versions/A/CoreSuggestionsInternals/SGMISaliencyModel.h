@@ -12,7 +12,7 @@
 + (id);
 + (long long);
 + (long long);
-+ (id);
++ (id)lumn"32q40;
 + (id);
 
 @end

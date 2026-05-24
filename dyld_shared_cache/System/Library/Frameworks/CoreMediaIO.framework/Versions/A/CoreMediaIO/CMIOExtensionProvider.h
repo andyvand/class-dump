@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, STMediaStatusDomainPublisher;
-@protocol CMIOExtensionProviderSource, OS_dispatch_queue;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CMIOExtensionProvider
 {
     NSObject<OS_dispatch_queue> *_clientQueue;
-    struct os_unfair_lock_s _contextsMapLock;
-    NSMutableArray *_contextsRegistration;
-    NSMutableDictionary *_contextsMap;
-    NSMutableDictionary *_pendingCountMap;
-    struct os_unfair_lock_s _connectedClientsLock;
-    NSArray *_connectedClients;
-    struct os_unfair_lock_s _devicesMapLock;
-    NSMutableDictionary *_devicesMap;
-    struct os_unfair_lock_s _streamsMapLock;
-    NSMutableDictionary *_streamsMap;
-    struct os_unfair_lock_s _devicesLock;
-    NSMutableArray *_devices;
-    struct os_unfair_lock_s _changedDeviceIDsLock;
-    NSArray *_changedDeviceIDs;
-    struct os_unfair_lock_s _changedStreamIDsLock;
-    NSArray *_changedStreamIDs;
-    struct os_unfair_lock_s _changedPropertiesLock;
-    NSMutableDictionary *_changedProperties;
-    NSArray *_nonStreamingProxyFrontedExtensionPIDs;
-    _Bool _nonStreamingProxyFrontedExtensionPIDsHasChanged;
-    id <CMIOExtensionProviderSource> _source;
-    STMediaStatusDomainPublisher *_stMediaStatusDomainPublisher;
-    NSMutableSet *_audioRecordingAttributions;
-    NSString *_description;
 }
 
 + (void);
@@ -59,7 +35,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)u8;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -82,7 +58,7 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,7 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tupLearnedALoi;
 - (void);
 - (id);
 - (id);
@@ -105,10 +81,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_queue> *clientQueue;
 @property(copy) NSArray *connectedClients;
-@property(readonly, copy) NSArray *devices;
-@property(readonly) __weak id <CMIOExtensionProviderSource> source; // @synthesize source=_source;
 
 @end
 

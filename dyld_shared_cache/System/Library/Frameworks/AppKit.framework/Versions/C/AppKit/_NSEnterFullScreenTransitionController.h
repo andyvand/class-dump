@@ -6,34 +6,12 @@
 
 #import <AppKit/_NSFullScreenTransitionController.h>
 
-@class NSArray, NSString, NSWindow, _NSFullScreenContentController, _NSFullScreenTransitionOverlayWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSEnterFullScreenTransitionController : _NSFullScreenTransitionController
 {
     NSWindow *_window;
-    _NSFullScreenContentController *_contentController;
-    NSArray *_customWindows;
-    unsigned long long _toSpid;
-    double _duration;
-    _Bool _activeOverride;
-    _Bool _doInProcessAnimation;
-    _Bool _activate;
-    _Bool _nonAnimatingSlideAnimation;
-    _Bool _enterForRestoration;
-    _Bool _reducedMotion;
-    _Bool _suppressImplicitFullScreenForOtherWindows;
-    _NSFullScreenTransitionOverlayWindow *_overlayWindow;
-    struct CGRect _beforeSnapshotFrame;
-    struct CGRect _beforeShadowDelta;
-    id _beforeContents;
-    _Bool _interrupted;
-    _Bool _configuredWindowForFS;
-    _Bool _haveSpaceFromDock;
-    _Bool _haveEnteredFS;
-    NSString *_desiredParentUUID;
-    NSString *_placementAnchorSpaceUUID;
-    long long _placementDirection;
 }
 
 + (_Bool);
@@ -46,21 +24,21 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)deviceTreeNodeIsPresent:withExactName:withNodeClass: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)copyDeviceTreeProperty(IODeviceTree:(unsigned long long)arg1 /product %@);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)inst object propery, returning a mismatched one;
+- (void)%s:(_Bool)arg1 unsupported public key length:%lu /* Error: Ran out of types for this method. */;
+- (void)tag %c%c%c%c found tag %c%c%c%c;
+- (void)c' (IOConnectCallScalarMethod kAppleNVMeEANRead returned 0x%X);
+- (void)t;
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -80,32 +58,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)prepareForExtractionToPath:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)initWithURL:statusCode:HTTPVersion:headerFields: /* Error: Ran out of types for this method. */;
+- (void)_connectionCacheNumPriorityLevels;
+- (void)_bytesPerSecondLimitValue;
+- (void)_boundInterfaceIdentifier;
+- (unsigned long long)pes;
+- (void);
+- (void)d;
+- (id)be able to download.;
+- (void)`
+;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)usItemsCompletedERKNS_10shared_ptrIK9TCopyItemEExxE3$_0FvR15OperationStatusEEE;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool activate; // @synthesize activate=_activate;
-@property(nonatomic) _Bool activeOverride; // @synthesize activeOverride=_activeOverride;
-@property(copy, nonatomic) NSString *desiredParentUUID; // @synthesize desiredParentUUID=_desiredParentUUID;
-@property(nonatomic) _Bool doInProcessAnimation; // @synthesize doInProcessAnimation=_doInProcessAnimation;
-@property(nonatomic) _Bool enterForRestoration; // @synthesize enterForRestoration=_enterForRestoration;
-@property(nonatomic) _Bool nonAnimatingSlideAnimation; // @synthesize nonAnimatingSlideAnimation=_nonAnimatingSlideAnimation;
-@property(copy, nonatomic) NSString *placementAnchorSpaceUUID; // @synthesize placementAnchorSpaceUUID=_placementAnchorSpaceUUID;
-@property(nonatomic) long long placementDirection; // @synthesize placementDirection=_placementDirection;
 @property(nonatomic) unsigned long long toSpid; // @synthesize toSpid=_toSpid;
 
 @end

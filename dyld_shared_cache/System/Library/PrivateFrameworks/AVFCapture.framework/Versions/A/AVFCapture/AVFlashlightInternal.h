@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVFlashlightInternal
 {
     AVWeakReference *weakReference;
-    struct OpaqueFigFlashlight *flashlight;
-    _Bool available;
-    _Bool overheated;
-    float flashlightLevel;
-    _Bool beamWidthControlSupported;
-    float minBeamWidth;
-    float maxBeamWidth;
-    float beamWidth;
-    struct OpaqueFigSimpleMutex *lock;
-    NSObject<OS_dispatch_queue> *serverReconnectQueue;
 }
 
 @end

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PCNativeButtonStyle;
-
 @interface PCNativeButton
 {
     long long _type;
-    NSString *_text;
-    NSString *_accessibleText;
-    PCNativeButtonStyle *_style;
 }
 
 + (_Bool);
@@ -19,19 +14,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i.;
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibleText; // @synthesize accessibleText=_accessibleText;
-@property(retain, nonatomic) PCNativeButtonStyle *style; // @synthesize style=_style;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

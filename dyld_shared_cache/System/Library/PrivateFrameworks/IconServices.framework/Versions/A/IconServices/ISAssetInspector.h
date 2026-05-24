@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFBundle, ISAssetCatalogResource, NSString;
+@class IFBundle;
 
 @interface ISAssetInspector
 {
     IFBundle *_bundle;
-    NSString *_catalogAssetName;
-    ISAssetCatalogResource *_assetCatalogResource;
 }
 
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (id)0;
+- (unsigned long long)processIdentifier;
+- (_Bool)mutableCopy;
+- (id)localeWithLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)A320;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ISAssetCatalogResource *assetCatalogResource; // @synthesize assetCatalogResource=_assetCatalogResource;
 @property(readonly) IFBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain, nonatomic) NSString *catalogAssetName; // @synthesize catalogAssetName=_catalogAssetName;
 
 @end
 

@@ -7,20 +7,10 @@
 #import <MPSRayIntersector/MPSAccelerationStructure.h>
 
 @class NSArray;
-@protocol MTLBuffer;
 
 @interface MPSInstanceAccelerationStructure : MPSAccelerationStructure
 {
     unsigned long long _transformType;
-    void *_bvh;
-    NSArray *_accelerationStructures;
-    id <MTLBuffer> _instanceBuffer;
-    unsigned long long _instanceBufferOffset;
-    id <MTLBuffer> _transformBuffer;
-    unsigned long long _transformBufferOffset;
-    id <MTLBuffer> _maskBuffer;
-    unsigned long long _maskBufferOffset;
-    unsigned long long _instanceCount;
 }
 
 + (_Bool);
@@ -28,8 +18,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,15 +28,15 @@
 - (void);
 - (void *);
 - (void *);
-- (int);
+- (int)q;
 - (unsigned long long);
 - (void *);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (void *);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -68,7 +58,7 @@
 - (id);
 - (struct _MPSAxisAlignedBoundingBox);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -77,14 +67,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accelerationStructures; // @synthesize accelerationStructures=_accelerationStructures;
-@property(retain, nonatomic) id <MTLBuffer> instanceBuffer; // @synthesize instanceBuffer=_instanceBuffer;
-@property(nonatomic) unsigned long long instanceBufferOffset; // @synthesize instanceBufferOffset=_instanceBufferOffset;
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
-@property(retain, nonatomic) id <MTLBuffer> maskBuffer; // @synthesize maskBuffer=_maskBuffer;
-@property(nonatomic) unsigned long long maskBufferOffset; // @synthesize maskBufferOffset=_maskBufferOffset;
-@property(retain, nonatomic) id <MTLBuffer> transformBuffer; // @synthesize transformBuffer=_transformBuffer;
-@property(nonatomic) unsigned long long transformBufferOffset; // @synthesize transformBufferOffset=_transformBufferOffset;
-@property(nonatomic) unsigned long long transformType;
 
 @end
 

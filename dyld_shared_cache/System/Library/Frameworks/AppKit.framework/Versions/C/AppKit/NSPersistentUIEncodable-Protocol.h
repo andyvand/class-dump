@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPersistentUIEncodedReference, NSString;
+@class NSArray;
 
 @protocol NSPersistentUIEncodable
-- (void)lyTintedModifier;
+- (void);
+- (void)OptionallyTintedModifier;
 
 // Remaining properties
-@property(readonly) _Bool _hasEverHadInvalidRestorableState;
-@property(setter=_setHasInvalidRestorableState:) _Bool _hasInvalidRestorableState;
 @property(readonly, copy) NSArray *_persistentUIChildren;
-@property(readonly, copy) NSPersistentUIEncodedReference *_persistentUIEncodedReference;
-@property(readonly, copy) NSString *_persistentUIIdentifier;
 @end
 

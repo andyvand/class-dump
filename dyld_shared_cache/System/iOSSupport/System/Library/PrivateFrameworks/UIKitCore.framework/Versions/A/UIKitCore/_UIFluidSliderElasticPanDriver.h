@@ -4,40 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPanGestureRecognizer, UIView;
-@protocol _UIFluidSliderDirectDrivingDelegate, _UIFluidSliderDrivable;
+@protocol _UIFluidSliderDrivable;
 
 __attribute__((visibility("hidden")))
 @interface _UIFluidSliderElasticPanDriver
 {
     id animatedValue;
-    id previousTranslation;
-    id previousTarget;
-    id state;
-    id initialStretchAmount;
-    void drivable;
-    UIPanGestureRecognizer *panGestureRecognizer;
-    unsigned long long trackAxis;
-    double stretchAmount;
-    double velocityMultiplier;
-    void delegate;
-    void name;
-    void view;
-    _Bool enabled;
-    id currentDetent;
 }
 
-- (double);
+- (double)_initWithIdentifier: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_reportReceivedMetricForSMSWithMessage:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)tificationSource;
 - (id);
 - (id);
 - (void);
@@ -47,23 +32,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ùQe°1Â0@ù
 × ;
-- (void)ViewsDidChangeForPopoverWithIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ed: /* Error: Ran out of types for this method. */;
+- (void)passthroughViewsDidChangeForPopoverWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setSelectedWeekOfYear:animated: /* Error: Ran out of types for this method. */;
 - (id)tered a single UIFocusItemContainer:%@ yielded by two mismatched owning UIFocusEnvironments:%@ and %@. UIFocusItemContainer should be 1:1 with its owning environment. /* Error: Ran out of types for this method. */;
-- (_Bool)ansparent;
-- (void)irmation;
+- (_Bool)transparent;
+- (void)_UIImagePickerControllerRequiresPickingConfirmation;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIFluidSliderDirectDrivingDelegate> delegate; // @synthesize delegate;
 @property(nonatomic) __weak id <_UIFluidSliderDrivable> drivable; // @synthesize drivable;
-@property(nonatomic) _Bool enabled; // @synthesize enabled;
-@property(nonatomic, copy) NSString *name;
-@property(nonatomic, retain) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer;
-@property(nonatomic) double stretchAmount; // @synthesize stretchAmount;
-@property(nonatomic) unsigned long long trackAxis; // @synthesize trackAxis;
-@property(nonatomic) double velocityMultiplier; // @synthesize velocityMultiplier;
-@property(nonatomic) __weak UIView *view; // @synthesize view;
 
 @end
 

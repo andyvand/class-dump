@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDTaskCounts : SISchemaInstrumentationMessage
 {
     unsigned int _siriTasksStarted;
-    unsigned int _siriTasksCompleted;
-    unsigned int _flowTasksStarted;
-    unsigned int _flowTasksCompleted;
-    struct {
-        unsigned int siriTasksStarted:1;
-        unsigned int siriTasksCompleted:1;
-        unsigned int flowTasksStarted:1;
-        unsigned int flowTasksCompleted:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -54,14 +43,6 @@
 - (id),C,N,V_contextualSpansTier1s;
 
 // Remaining properties
-@property(nonatomic) unsigned int flowTasksCompleted; // @synthesize flowTasksCompleted=_flowTasksCompleted;
-@property(nonatomic) unsigned int flowTasksStarted; // @synthesize flowTasksStarted=_flowTasksStarted;
-@property(nonatomic) _Bool hasFlowTasksCompleted;
-@property(nonatomic) _Bool hasFlowTasksStarted;
-@property(nonatomic) _Bool hasSiriTasksCompleted;
-@property(nonatomic) _Bool hasSiriTasksStarted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int siriTasksCompleted; // @synthesize siriTasksCompleted=_siriTasksCompleted;
 @property(nonatomic) unsigned int siriTasksStarted; // @synthesize siriTasksStarted=_siriTasksStarted;
 
 @end

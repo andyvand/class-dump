@@ -4,63 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, ProviderConfiguration;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface RemoteConfigurationController
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_source> *_updateTimer;
-    _Bool _googleConfigurationDidChange;
-    _Bool _tencentConfigurationDidChange;
-    _Bool _appleConfigurationDidChange;
-    ProviderConfiguration *_googleProviderConfiguration;
-    ProviderConfiguration *_tencentProviderConfiguration;
-    ProviderConfiguration *_appleProviderConfiguration;
-    NSDictionary *_currentConfiguration;
 }
 
-+ (id);
-+ (id);
++ (id)er.WorldClockWidget;
++ (id)h;
+- (id)handleURLSessionEvents;
+- (id)upported:(int)arg1;
+- (_Bool)being supplied: /* Error: Ran out of types for this method. */;
+- (id)fterLuck=;
+- (_Bool)terDominoCorrectionRelease=;
+- (_Bool)inkedOnOrAfterDawn=;
+- (id)ntMarginsContext:kind= /* Error: Ran out of types for this method. */;
+- (void);
+- (id)pple.shortcuts.ShortcutsWidget;
+- (_Bool)rWidgetExtension;
+- (void)leWidget-macOS;
+- (void)otes.WidgetExtension;
+- (void);
+- (void)v.TVWidgetExtension;
+- (id)et;
+- (void)get;
+- (void).mobilenotes.WidgetExtension;
+- (unsigned long long)il.MailWidgetExtension;
+- (id)l.CalendarWidgetExtension;
+- (void);
+- (void)etPeople;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (id);
-- (_Bool);
+- (void)BackgroundAbsentCheck;
+- (void)CorrectDominoContentMargins;
+- (void)InteractiveWatchOS;
+- (void)ader}"m_capacity"I"m_size"I}"m_uncommonHeaders"{Vector<WebCore:(id)arg1:HTTPHeaderMap::UncommonHeader, 0UL, WTF::CrashOnOverflow, 0UL, WTF::FastMalloc>="m_buffer"^{UncommonHeader}"m_capacity"I"m_size"I}}"m_networkLoadMetrics"{Box<WebCore::NetworkLoadMetrics>="m_data"{RefPtr<WTF::RefCountable<WebCore::NetworkLoadMetrics>, WTF::RawPtrTraits<WTF::RefCountable<WebCore::NetworkLoadMetrics>>, WTF::DefaultRefDerefTraits<WTF::RefCountable<WebCore::NetworkLoadMetrics>>>="m_ptr"^v}}"m_certificateInfo"{optional<WebCore::CertificateInfo>=""(?="__null_state_"c"__val_"{CertificateInfo="m_trust"{RetainPtr<__SecTrust *>="m_ptr"^{__SecTrust}}})"__engaged_"B}"m_httpStatusCode"s"m_isNull"b1"m_initLevel"b3"m_usedLegacyTLS"b1"m_wasPrivateRelayed"b1"m_proxyName"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_age"{Markable<WTF::Seconds, WTF::MarkableTraits<Seconds>>="m_value"{Seconds="m_value"d}}"m_date"{Markable<WTF::WallTime, WTF::MarkableTraits<WallTime>>="m_value"{WallTime="m_value"d}}"m_expires"{Markable<WTF::WallTime, WTF::MarkableTraits<WallTime>>="m_value"{WallTime="m_value"d}}"m_lastModified"{Markable<WTF::WallTime, WTF::MarkableTraits<WallTime>>="m_value"{WallTime="m_value"d}}"m_contentRange"{ParsedContentRange="m_firstBytePosition"q"m_lastBytePosition"q"m_instanceLength"q}"m_cacheControlDirectives"{CacheControlDirectives="maxAge"{Markable<WTF::Seconds, WTF::MarkableTraits<Seconds>>="m_value"{Seconds="m_value"d}}"maxStale"{Markable<WTF::Seconds, WTF::MarkableTraits<Seconds>>="m_value"{Seconds="m_value"d}}"staleWhileRevalidate"{Markable<WTF::Seconds, WTF::MarkableTraits<Seconds>>="m_value"{Seconds="m_value"d}}"noCache"b1"noStore"b1"mustRevalidate"b1"immutable"b1}"m_haveParsedCacheControlHeader"b1"m_haveParsedAgeHeader"b1"m_haveParsedDateHeader"b1"m_haveParsedExpiresHeader"b1"m_haveParsedLastModifiedHeader"b1"m_haveParsedContentRangeHeader"b1"m_isRedirected"b1"m_isRangeRequested"b1"m_tainting"b2"m_source"b4"m_type"b3"m_ipAddressSpace"b1"m_nsResponse"{RetainPtr<NSURLResponse>="m_ptr"@"NSURLResponse"}})"__engaged_"B}"platformData"{WebHitTestResultPlatformData="detectedDataActionContext"{Markable<WebKit::WebHitTestResultPlatformData::DetectedDataActionContext, WTF::MarkableTraits<WebKit::WebHitTestResultPlatformData::DetectedDataActionContext>>="m_value"{DetectedDataActionContext="context"{RetainPtr<DDSecureActionContext>="m_ptr"@"DDSecureActionContext"}}}"detectedDataBoundingBox"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"detectedDataTextIndicator"{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>="m_ptr"^{TextIndicator}}"detectedDataOriginatingPageOverlay"Q}"dictionaryPopupInfo"{DictionaryPopupInfo="origin"{FloatPoint="m_x"f"m_y"f}"textIndicator"{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>="m_ptr"^{TextIndicator}}"text"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}}"linkTextIndicator"{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>="m_ptr"^{TextIndicator}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ProviderConfiguration *appleProviderConfiguration; // @synthesize appleProviderConfiguration=_appleProviderConfiguration;
-@property(copy, nonatomic) NSDictionary *currentConfiguration; // @synthesize currentConfiguration=_currentConfiguration;
-@property(readonly, nonatomic) ProviderConfiguration *googleProviderConfiguration; // @synthesize googleProviderConfiguration=_googleProviderConfiguration;
 @property(readonly, nonatomic, getter=isSafeBrowsingOff) _Bool safeBrowsingOff;
-@property(readonly, nonatomic) ProviderConfiguration *tencentProviderConfiguration; // @synthesize tencentProviderConfiguration=_tencentProviderConfiguration;
 
 @end
 

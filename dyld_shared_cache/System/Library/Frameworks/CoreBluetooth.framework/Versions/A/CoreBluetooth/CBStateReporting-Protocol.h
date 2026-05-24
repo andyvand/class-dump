@@ -5,9 +5,10 @@
 //
 
 @protocol CBStateReporting
+- (void (^)(void));
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long bluetoothState;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler;
 @end
 

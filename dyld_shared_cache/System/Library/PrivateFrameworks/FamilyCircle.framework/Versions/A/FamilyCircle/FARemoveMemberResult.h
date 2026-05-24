@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FARemoveMemberResult
 {
     _Bool success;
-    void errorTitle;
-    void errorMessage;
-    void statusMessage;
-    void learnMoreURL;
-    long long statusCode;
 }
 
+- (id)MultilingualDictationLanguageSelected;
+- (void)SCENE_INCLUDES_MUSIC;
+- (void)requestMethodType;
 - (id);
+- (id));
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)oreServices.framework/Versions/A/CoreServices;
 - (_Bool);
 - (void);
 - (void);
@@ -34,11 +27,6 @@
 - (void)bDì;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *errorMessage;
-@property(nonatomic, copy) NSString *errorTitle;
-@property(nonatomic, copy) NSString *learnMoreURL;
-@property(nonatomic) long long statusCode; // @synthesize statusCode;
-@property(nonatomic, copy) NSString *statusMessage;
 @property(nonatomic) _Bool success; // @synthesize success;
 
 @end

@@ -6,38 +6,26 @@
 
 #import <CoreHandwriting/CHRecurrentNeuralNetwork.h>
 
-@class CHSingletonMLModel, NSArray, NSDictionary, NSString;
+@class CHSingletonMLModel;
 
 @interface CHRecurrentNeuralNetworkCoreML : CHRecurrentNeuralNetwork
 {
     CHSingletonMLModel *_model;
-    NSString *_resourcePath;
-    NSArray *_inputNames;
-    NSDictionary *_featureCounts;
-    NSArray *_outputNames;
-    long long _mainOutputIndex;
-    NSDictionary *_classCounts;
 }
 
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)adjustmentVersion;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *classCounts; // @synthesize classCounts=_classCounts;
-@property(readonly, nonatomic) NSDictionary *featureCounts; // @synthesize featureCounts=_featureCounts;
-@property(readonly, nonatomic) NSArray *inputNames; // @synthesize inputNames=_inputNames;
-@property(readonly, nonatomic) long long mainOutputIndex; // @synthesize mainOutputIndex=_mainOutputIndex;
 @property(readonly, nonatomic) CHSingletonMLModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSArray *outputNames; // @synthesize outputNames=_outputNames;
-@property(readonly, nonatomic) NSString *resourcePath; // @synthesize resourcePath=_resourcePath;
 
 @end
 

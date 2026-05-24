@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedPrerollAdRequester
 {
     id scheduledRequestIdentifiers;
-    id scheduledRequests;
-    id requestManager;
-    id requestStore;
-    id journal;
-    id lock;
 }
 
 @end

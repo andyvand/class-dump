@@ -7,13 +7,11 @@
 @interface TeaUI.PatternSectionDecorationView
 {
     id patternView;
-    id model;
-    id token;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)UserEventHistorySessionSecure;
+- (id)setVideoCompletePlaybackClickValue:(struct CGRect)arg1;
 - (void);
 - (void);
 - (void)2ÿÿö6þÿ~uýÿ;

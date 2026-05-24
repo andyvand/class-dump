@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore;
+@class CNContactStore, CNObservable;
 @protocol CNUIPRLikenessProvider;
 
 @protocol CNUIPRLikenessResolver
+- (CNObservable *)S	;
 - (CNContactStore *);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore;
 @property(readonly) id <CNUIPRLikenessProvider> loadingPlaceholderLikeness;
-@property(nonatomic) unsigned long long lookupOptions;
 @end
 

@@ -9,7 +9,6 @@
 @interface PXSSliderRow : PXSRow
 {
     double _minValue;
-    double _maxValue;
 }
 
 - (void);
@@ -18,12 +17,11 @@
 - (void);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (double)<;
 
 // Remaining properties
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
 @property(nonatomic) double minValue; // @synthesize minValue=_minValue;
 
 @end

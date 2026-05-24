@@ -6,20 +6,12 @@
 
 #import <iTunesCloud/ICStoreURLRequest.h>
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ICMusicSubscriptionPlaybackURLRequest : ICStoreURLRequest
 {
     _Bool _delegatedPlayback;
-    NSString *_assetSourceStorefrontID;
-    NSData *_leaseCertificateData;
-    NSData *_leaseAssetIDData;
-    NSString *_cloudUniversalLibraryID;
-    long long _requestType;
-    unsigned long long _storeCloudID;
-    long long _storePurchasedAdamID;
-    long long _storeSubscriptionAdamID;
 }
 
 - (void);
@@ -49,14 +41,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetSourceStorefrontID; // @synthesize assetSourceStorefrontID=_assetSourceStorefrontID;
-@property(copy, nonatomic) NSString *cloudUniversalLibraryID; // @synthesize cloudUniversalLibraryID=_cloudUniversalLibraryID;
-@property(nonatomic, getter=isDelegatedPlayback) _Bool delegatedPlayback; // @synthesize delegatedPlayback=_delegatedPlayback;
-@property(copy, nonatomic) NSData *leaseAssetIDData; // @synthesize leaseAssetIDData=_leaseAssetIDData;
-@property(copy, nonatomic) NSData *leaseCertificateData; // @synthesize leaseCertificateData=_leaseCertificateData;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(nonatomic) unsigned long long storeCloudID; // @synthesize storeCloudID=_storeCloudID;
-@property(nonatomic) long long storePurchasedAdamID; // @synthesize storePurchasedAdamID=_storePurchasedAdamID;
-@property(nonatomic) long long storeSubscriptionAdamID; // @synthesize storeSubscriptionAdamID=_storeSubscriptionAdamID;
 
 @end
 

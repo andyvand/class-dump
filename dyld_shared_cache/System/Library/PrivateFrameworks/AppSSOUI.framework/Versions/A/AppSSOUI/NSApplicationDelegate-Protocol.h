@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu;
+
 @protocol NSApplicationDelegate
+
+@optional
+- (void);
+- (void)qa;
+- (void);
+- (_Bool);
+- (NSMenu *)X;
+- (void)1;
+- (void)B;
+- (void);
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MPModelRadioStationEvent : MPModelObject
 {
@@ -18,22 +18,17 @@
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void)imeRequestEvent:Mismatched data versions (%u != %u) cannot deserialize /* Error: Ran out of types for this method. */;
++ (void)ventDataVersion proto;
++ (void)Type v4 enum value:%@ /* Error: Ran out of types for this method. */;
++ (void)hlightFeedbackEvent:unable to convert BMPBSocialHighlightUnifiedFeedbackType v4 enum value:%@ /* Error: Ran out of types for this method. */;
++ (void)able to convert BMPBSocialHighlightUnifiedFeedbackType enum value:%@ /* Error: Ran out of types for this method. */;
++ (void)ightUnifiedFeedbackType enum value:%@ /* Error: Ran out of types for this method. */;
++ (id)ialize BMPublicStreamNotification, please consult error logs for cause;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(copy, nonatomic) NSDate *endTime; // @dynamic endTime;
-@property(copy, nonatomic) CDUnknownBlockType heroArtworkCatalogBlock; // @dynamic heroArtworkCatalogBlock;
-@property(copy, nonatomic) NSDate *startTime; // @dynamic startTime;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

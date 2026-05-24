@@ -6,19 +6,17 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class EWSSearchExpressionType, MFEWSFindItemsResponseOperation, NSArray;
+@class NSArray;
 
 @interface MFEWSFindItemsRequestOperation : MFEWSRequestOperation
 {
     NSArray *_EWSFolderIdStrings;
-    NSArray *_additionalProperties;
-    EWSSearchExpressionType *_searchExpression;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *EWSFolderIdStrings; // @synthesize EWSFolderIdStrings=_EWSFolderIdStrings;
 @property(readonly, copy, nonatomic) NSArray *additionalProperties; // @synthesize additionalProperties=_additionalProperties;
-@property(retain, nonatomic) MFEWSFindItemsResponseOperation *responseOperation;
-@property(readonly, nonatomic) EWSSearchExpressionType *searchExpression; // @synthesize searchExpression=_searchExpression;
 
 @end
 

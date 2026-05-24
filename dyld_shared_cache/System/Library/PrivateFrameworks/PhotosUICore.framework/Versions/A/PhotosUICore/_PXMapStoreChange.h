@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface _PXMapStoreChange
 {
     NSSet *_addedItems;
-    NSSet *_removedItems;
-    NSSet *_updatedItems;
 }
 
 - (id);
@@ -20,21 +18,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)nType;
-- (id)ionPerformer;
+- (_Bool)_PHPickerCollectionType;
+- (id)CuratedLibraryRemoveFiltersActionPerformer;
 - (void)k	=;
 
 // Remaining properties
 @property(retain) NSSet *addedItems; // @synthesize addedItems=_addedItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSSet *removedItems; // @synthesize removedItems=_removedItems;
-@property(readonly) Class superclass;
-@property(retain) NSSet *updatedItems; // @synthesize updatedItems=_updatedItems;
 
 @end
 

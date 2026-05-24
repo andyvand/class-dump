@@ -9,8 +9,6 @@
 @interface PAMediaConversionServiceResourceURLReference
 {
     _Bool _mustStopAccessingURL;
-    _Bool _shouldDeleteOnDeallocation;
-    NSURL *_url;
 }
 
 + (id);
@@ -26,13 +24,11 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)commute15MinWarningEntityRelevanceCoarseTimeOfDayFeatures;
 
 // Remaining properties
-@property _Bool mustStopAccessingURL; // @synthesize mustStopAccessingURL=_mustStopAccessingURL;
-@property _Bool shouldDeleteOnDeallocation; // @synthesize shouldDeleteOnDeallocation=_shouldDeleteOnDeallocation;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

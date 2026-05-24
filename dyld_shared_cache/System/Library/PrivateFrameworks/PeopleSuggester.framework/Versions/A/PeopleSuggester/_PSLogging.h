@@ -11,18 +11,18 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id)or:]_block_invoke /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id)ld variant, attempting internal binary security check.;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@?<v@?@"CKSoftwareProduct">24;
++ (id)priorityUnprocessedItemsSinceLastReport;
 + (id);
 
 @end

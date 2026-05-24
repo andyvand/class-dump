@@ -8,22 +8,20 @@ __attribute__((visibility("hidden")))
 @interface EDLinkReference
 {
     unsigned long long mLinkIndex;
-    unsigned long long mFirstSheetIndex;
-    unsigned long long mLastSheetIndex;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)@9;
+- (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id)t.store_cleanup;
 - (unsigned long long);
 - (_Bool);
 

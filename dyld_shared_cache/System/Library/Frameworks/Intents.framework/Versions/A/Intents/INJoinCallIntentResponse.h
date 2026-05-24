@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INJoinCallIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)saveBestRepresentationForRequest:(long long)arg1 toFileAtURL:withContentType:allowingThumbnailDownloads:completionHandler: /* Error: Ran out of types for this method. */;
++ (int)archivedDataWithRootObject:(long long)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
++ (long long)_sendPendingGenerationRequests;
++ (_Bool)_prepareThumbnailRequestForQueueOrSending:(long long)arg1 synchronous: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)CPMLsql_commitTransaction;
+- (id)_maximumDegreesOfRotationSlot;
+- (id);
+- (void)list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}console.log('check123'); let element = document.querySelector('%@'); if (element){ console.log('check4'); let value = '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)tingIntent;
+- (long long)INSetBinarySettingIntent;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchForMediaIntentResponse
 {
     struct _has;
-    NSArray *_mediaItems;
 }
 
 + (Class);
@@ -25,21 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
-- (void)ss;
+- (void)PoundsMass;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *mediaItems; // @synthesize mediaItems=_mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(readonly) Class superclass;
 
 @end
 

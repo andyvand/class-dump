@@ -5,6 +5,18 @@
 //
 
 @protocol ECMessageFlagChangeBuilder
+- (void)w should only be set once on an AVMobileChromelessControlsView.;
+- (void)rolsView.;
+- (void)once on an AVMobileChromelessControlsView.;
+- (void)olsView should only be set once on an AVMobileChromelessControlsView.;
+- (void)ther view.;
+- (void)yControlsView is already a subview of another view.;
+- (void)laybackState:(_Bool)arg1 %@;
+- (void)ient completion handler with playbackState:(_Bool)arg1 %@;
+- (void)playback state:(unsigned long long)arg1 %@;
+- (void)lient completion handler with playback state:(_Bool)arg1 %@;
+- (void)ld have content before calling %@.;
+- (long long)b;
 
 // Remaining properties
 @property(nonatomic) long long reason;

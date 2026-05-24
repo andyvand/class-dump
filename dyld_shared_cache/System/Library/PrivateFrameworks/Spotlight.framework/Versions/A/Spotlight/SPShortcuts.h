@@ -9,7 +9,6 @@
 @interface SPShortcuts
 {
     NSMutableDictionary *_userShortcutsDictionary;
-    _Bool _isShortcutDictChanged;
 }
 
 + (id);
@@ -22,12 +21,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)R{;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)triggering database wait callback;
 - (void);
 
 @end

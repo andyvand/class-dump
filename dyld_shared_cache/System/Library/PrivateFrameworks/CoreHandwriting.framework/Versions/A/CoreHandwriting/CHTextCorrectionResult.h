@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextInputTarget, CHTokenizedTextResult, NSError;
+@class CHTextInputTarget;
 
 @interface CHTextCorrectionResult
 {
     _Bool _characterLevel;
-    CHTextInputTarget *_inputTarget;
-    CHTokenizedTextResult *_textResult;
-    long long _resultType;
-    NSError *_error;
-    struct _NSRange _affectedRange;
 }
 
-+ (_Bool);
++ (_Bool)_indexBufferLength;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -32,12 +27,7 @@
 - (void)Àø;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
-@property(readonly, nonatomic, getter=isCharacterLevel) _Bool characterLevel; // @synthesize characterLevel=_characterLevel;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) CHTextInputTarget *inputTarget; // @synthesize inputTarget=_inputTarget;
-@property(readonly, nonatomic) long long resultType; // @synthesize resultType=_resultType;
-@property(readonly, nonatomic) CHTokenizedTextResult *textResult; // @synthesize textResult=_textResult;
 
 @end
 

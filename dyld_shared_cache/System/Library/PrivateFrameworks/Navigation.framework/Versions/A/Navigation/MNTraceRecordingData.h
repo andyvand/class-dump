@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEODirectionsResponse, MNLocation, NSArray, NSError;
+@class MNLocation;
 
 @interface MNTraceRecordingData
 {
     MNLocation *_initialUserLocation;
-    NSArray *_waypoints;
-    GEODirectionsRequest *_initialDirectionsRequest;
-    GEODirectionsResponse *_initialDirectionsResponse;
-    NSError *_initialDirectionsRequestError;
-    double _initialDirectionsRequestTimestamp;
-    double _initialDirectionsResponseTimestamp;
 }
 
 + (_Bool);
@@ -22,28 +16,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);C
+;
+- (void)Z78C
+;
+- (id);
+- (double)rmRowHoverableAccessory;
 - (id);
 - (double);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)<m
+;
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)TIFFRepresentation;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsRequest *initialDirectionsRequest; // @synthesize initialDirectionsRequest=_initialDirectionsRequest;
-@property(retain, nonatomic) NSError *initialDirectionsRequestError; // @synthesize initialDirectionsRequestError=_initialDirectionsRequestError;
-@property(nonatomic) double initialDirectionsRequestTimestamp; // @synthesize initialDirectionsRequestTimestamp=_initialDirectionsRequestTimestamp;
-@property(retain, nonatomic) GEODirectionsResponse *initialDirectionsResponse; // @synthesize initialDirectionsResponse=_initialDirectionsResponse;
-@property(nonatomic) double initialDirectionsResponseTimestamp; // @synthesize initialDirectionsResponseTimestamp=_initialDirectionsResponseTimestamp;
 @property(retain, nonatomic) MNLocation *initialUserLocation; // @synthesize initialUserLocation=_initialUserLocation;
-@property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end
 

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoFragmentedMessage
 {
     unsigned long long _totalFragments;
-    unsigned long long _totalSize;
-    NSData *_fragmentData;
-    unsigned int _fragmentNumber;
-    unsigned int _routerVersion;
-    struct {
-        unsigned int totalFragments:1;
-        unsigned int totalSize:1;
-        unsigned int fragmentNumber:1;
-        unsigned int routerVersion:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
@@ -32,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)framework/DeviceIdentity;
+- (_Bool)ary/Frameworks/DeviceIdentity.framework/DeviceIdentity;
+- (_Bool)er file:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)0@"GCDTimer"8;
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -45,25 +33,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)j!;
 - (void)q1Â0@ù
 × ;
-- (id)ngestPairingState;
+- (id)longestPairingState;
 - (id)erAccessorySourceErrorDomain;
-- (unsigned long long)ration;
-- (void)mitTimeout;
+- (unsigned long long)configuredFragmentDuration;
+- (void)hrsCommitTimeout;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *fragmentData; // @synthesize fragmentData=_fragmentData;
-@property(nonatomic) unsigned int fragmentNumber; // @synthesize fragmentNumber=_fragmentNumber;
 @property(readonly, nonatomic) _Bool hasFragmentData;
-@property(nonatomic) _Bool hasFragmentNumber;
-@property(nonatomic) _Bool hasRouterVersion;
-@property(nonatomic) _Bool hasTotalFragments;
-@property(nonatomic) _Bool hasTotalSize;
-@property(nonatomic) unsigned int routerVersion; // @synthesize routerVersion=_routerVersion;
-@property(nonatomic) unsigned long long totalFragments; // @synthesize totalFragments=_totalFragments;
-@property(nonatomic) unsigned long long totalSize; // @synthesize totalSize=_totalSize;
 
 @end
 

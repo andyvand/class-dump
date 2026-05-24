@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSWindowServerHitTestSecurityAnalysis
 {
     struct CATransform3D _cumulativeLayerTransform;
-    float _cumulativeOpacity;
-    _Bool _hasInsecureFilter;
-    _Bool _parentsHaveInsecureLayerProperties;
-    unsigned int _occlusionMask;
-    float _occlusionPercentage;
-    long long _occlusionType;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)DISTRUSTED_RECOVERY_KEY_SECONDARY_ACTION;
 - (_Bool);
 - (long long);
 - (float);
@@ -31,7 +23,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)Kik8;
 - (void);
 - (_Bool);
 - (id);
@@ -39,19 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CATransform3D cumulativeLayerTransform;
-@property(readonly, nonatomic) float cumulativeOpacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasInsecureFilter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int occlusionMask;
-@property(readonly, nonatomic) float occlusionPercentage;
-@property(readonly, nonatomic) long long occlusionType;
-@property(readonly, nonatomic) _Bool parentsHaveInsecureLayerProperties;
-@property(readonly) Class superclass;
 
 @end
 

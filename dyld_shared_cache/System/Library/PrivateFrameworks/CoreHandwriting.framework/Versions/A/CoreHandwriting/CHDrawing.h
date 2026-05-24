@@ -9,21 +9,21 @@
     struct CHDrawingStrokes _drawing;
 }
 
-+ (_Bool);
++ (_Bool)_estimatedFileSizeDisplay;
 - (id);
 - (void);
 - (vector_5c6ea50b);
 - (struct CGRect);
 - (double);
 - (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (unsigned long long);
 - (Matrix_273a43f8);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -44,16 +44,16 @@
 - (float);
 - (float);
 - (struct CGPoint);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (Matrix_273a43f8);
-- (double);
-- (void);
+- (double)j;
+- (void)))E;
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)r!;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -62,11 +62,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (struct CGRect);
+- (struct CGRect)populations;
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)lization:(id)arg1 %@;
+- (void)generateSmartFillMaskForStroke:maskPaths:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)H9k;
 - (id);
 - (void);
 - (id)èr;

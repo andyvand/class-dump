@@ -8,7 +8,9 @@
 {
 }
 
-- (_Bool);
+- (_Bool)Add List then choose Smart List as the List Type.
+∙ Smart Lists can also be created directly from the tag browser. Select one or more tags and tap Create Smart List.
+∙ You can make regular lists into Smart Lists. Tap _SYMBOL_ELLIPSIS_CIRCLE_DO_NOT_LOCALIZE while viewing a reminder list, then tap Show List Info. Scroll down, then tap Make Into Smart List.;
 
 @end
 

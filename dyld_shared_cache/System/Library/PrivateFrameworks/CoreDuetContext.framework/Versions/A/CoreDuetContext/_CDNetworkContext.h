@@ -9,12 +9,12 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)s;
 + (long long);
 + (long long);
 + (id);
-+ (id);
-+ (long long);
++ (id)_serviceObjects;
++ (long long):(id)arg1 Updated configured known networks;
 + (long long);
 + (long long);
 + (id);

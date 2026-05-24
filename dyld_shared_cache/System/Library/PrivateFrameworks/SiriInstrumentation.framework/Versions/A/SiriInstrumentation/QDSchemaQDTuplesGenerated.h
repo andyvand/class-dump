@@ -6,24 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface QDSchemaQDTuplesGenerated : SISchemaInstrumentationMessage
 {
     unsigned int _numberOfTuples;
-    unsigned int _maximumTupleWidth;
-    _Bool _wasToolTupleLimitReached;
-    struct {
-        unsigned int numberOfTuples:1;
-        unsigned int maximumTupleWidth:1;
-        unsigned int wasToolTupleLimitReached:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (unsigned int);
@@ -33,26 +24,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDSoftwareUpdateMetrics_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)strings;
 - (id);
-- (id);
-- (id)loat;
+- (id)Q*;
+- (id)_valueFloat;
 - (id)irstDuration;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaximumTupleWidth;
-@property(nonatomic) _Bool hasNumberOfTuples;
-@property(nonatomic) _Bool hasWasToolTupleLimitReached;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int maximumTupleWidth; // @synthesize maximumTupleWidth=_maximumTupleWidth;
 @property(nonatomic) unsigned int numberOfTuples; // @synthesize numberOfTuples=_numberOfTuples;
-@property(nonatomic) _Bool wasToolTupleLimitReached; // @synthesize wasToolTupleLimitReached=_wasToolTupleLimitReached;
 
 @end
 

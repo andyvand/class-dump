@@ -7,6 +7,7 @@
 @protocol UILayoutContainerViewDelegate
 
 @optional
+- (void)kSpace,V_deviceLowOnDiskSpace;
 - (void)darkenSourceOver;
 - (void)GSize=dd}}8;
 - (void)13çp;

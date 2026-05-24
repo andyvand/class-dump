@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
+- (id)setIncludedStatuses:(struct _NSZone *)arg1;
 
 @end
 

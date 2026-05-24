@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewAttachmentsComponent
 {
     id enabledState;
-    id currentAccessedSecurityScopedResources;
-    id attachmentsViewController;
 }
 
 - (id);

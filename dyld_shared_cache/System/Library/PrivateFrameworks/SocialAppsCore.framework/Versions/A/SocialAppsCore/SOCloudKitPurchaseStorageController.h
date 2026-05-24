@@ -11,18 +11,17 @@
     SOCloudKitPurchaseStorageAlertController *_alertController;
 }
 
-+ (void);
++ (void)S;
 + (id);
-+ (id);
++ (id)_passView;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setTitleLabel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) SOCloudKitPurchaseStorageAlertController *alertController; // @synthesize alertController=_alertController;
-@property(readonly, nonatomic) _Bool isPrompting;
 
 @end
 

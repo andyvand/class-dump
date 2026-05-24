@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIDownloadOptions;
-
 @interface TRITaskAttributionInternalInsecure
 {
     int _triCloudKitContainer;
-    NSString *_teamIdentifier;
-    NSString *_applicationBundleIdentifier;
-    TRIDownloadOptions *_networkOptions;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (int);
-- (id);
+- (id)L;
 - (id);
 - (unsigned long long);
 - (id);
@@ -28,7 +23,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)es;
 - (id);
 - (id);
 - (id);
@@ -37,17 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TRIDownloadOptions *networkOptions; // @synthesize networkOptions=_networkOptions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(readonly, nonatomic) int triCloudKitContainer; // @synthesize triCloudKitContainer=_triCloudKitContainer;
 
 @end
 

@@ -6,24 +6,21 @@
 
 #import <AppleMediaServices/AMSPurchase.h>
 
-@class AKAppleIDAuthenticationContext, NSString;
+@class AKAppleIDAuthenticationContext;
 
 @interface AMSPurchaseSIWA : AMSPurchase
 {
     AKAppleIDAuthenticationContext *_authenticationContext;
-    NSString *_bundleID;
-    NSString *_serviceID;
-    NSString *_teamID;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (id);
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(retain) AKAppleIDAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy) NSString *serviceID; // @synthesize serviceID=_serviceID;
-@property(copy) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

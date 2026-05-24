@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface SignpostMetrics
 {
     NSData *_binarySnapshot;
-    NSNumber *_cpuTimeNsec;
-    NSNumber *_dirtyMemoryKB;
-    NSNumber *_dirtyMemoryLifetimePeakKB;
-    NSNumber *_storageDirtiedKB;
-    NSNumber *_cpuInstructionsKI;
 }
 
++ (id)n HAPAudioCodecSampleRate %ld;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -32,11 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *binarySnapshot; // @synthesize binarySnapshot=_binarySnapshot;
-@property(readonly, nonatomic) NSNumber *cpuInstructionsKI; // @synthesize cpuInstructionsKI=_cpuInstructionsKI;
-@property(readonly, nonatomic) NSNumber *cpuTimeNsec; // @synthesize cpuTimeNsec=_cpuTimeNsec;
-@property(readonly, nonatomic) NSNumber *dirtyMemoryKB; // @synthesize dirtyMemoryKB=_dirtyMemoryKB;
-@property(readonly, nonatomic) NSNumber *dirtyMemoryLifetimePeakKB; // @synthesize dirtyMemoryLifetimePeakKB=_dirtyMemoryLifetimePeakKB;
-@property(readonly, nonatomic) NSNumber *storageDirtiedKB; // @synthesize storageDirtiedKB=_storageDirtiedKB;
 
 @end
 

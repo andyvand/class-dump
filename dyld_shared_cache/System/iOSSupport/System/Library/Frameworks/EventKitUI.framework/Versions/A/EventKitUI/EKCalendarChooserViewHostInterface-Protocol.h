@@ -5,5 +5,7 @@
 //
 
 @protocol EKCalendarChooserViewHostInterface
+- (void);
+- (void)s;
 @end
 

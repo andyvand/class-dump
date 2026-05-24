@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface IMDContactStoreChangeHistoryEventsHandler
 {
     _Bool _receivedDropEverythingEvent;
-    NSMutableDictionary *_aliasToCNIDMap;
-    NSMutableDictionary *_CNIDToAliasesMap;
 }
 
 - (id);
@@ -19,8 +17,8 @@
 - (void);
 - (_Bool);
 - (id);
+- (_Bool)h";
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -30,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -40,16 +38,7 @@
 - (void)erCGG;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *CNIDToAliasesMap; // @synthesize CNIDToAliasesMap=_CNIDToAliasesMap;
 @property(retain, nonatomic) NSMutableDictionary *aliasToCNIDMap; // @synthesize aliasToCNIDMap=_aliasToCNIDMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool receivedDropEverythingEvent; // @synthesize receivedDropEverythingEvent=_receivedDropEverythingEvent;
-@property(readonly) Class superclass;
 
 @end
 

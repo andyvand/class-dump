@@ -11,11 +11,11 @@
     NSMutableArray *_serviceEntrys;
 }
 
-+ (Class);
++ (Class)?;
 + (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -23,12 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)resentation:%{public}@. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)__AUTH_CONST;
 - (void);
 
 // Remaining properties

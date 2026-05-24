@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSError *_error;
 }
 
-- (_Bool);
+- (_Bool)*@9j;
 - (void);
 - (id);
 - (void);

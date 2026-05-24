@@ -4,33 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSyncOperation, HMDSyncOperationQueue, HMFExponentialBackoffTimer, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol HMDSyncOperationManagerDataSource, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDSyncOperationManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_cloudVerifyAccountOperations;
-    NSMutableArray *_cloudZonePushOperationQueues;
-    NSMutableArray *_cloudZoneFetchOperationQueues;
-    NSMutableArray *_cloudCancelPauseOperations;
-    NSMutableArray *_cloudQueryDatabaseOperations;
-    NSMutableArray *_cloudPostFetchOperations;
-    NSMutableDictionary *_cloudZonePushOperationQueuesMap;
-    NSMutableDictionary *_cloudZoneFetchOperationQueuesMap;
-    NSObject<OS_os_log> *_logger;
-    _Bool _pauseQueue;
-    _Bool _syncLoopDialogDisplayed;
-    HMDSyncOperationQueue *_cloudPushOperations;
-    HMDSyncOperationQueue *_cloudFetchOperations;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    long long _pauseCloudPushLevel;
-    HMFExponentialBackoffTimer *_cloudPushDelayTimer;
-    HMDSyncOperation *_currentOperation;
-    id <HMDSyncOperationManagerDataSource> _dataSource;
-    CDUnknownBlockType _timerFactory;
 }
 
 + (id)qtCB;
@@ -47,10 +27,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ating shared controller;
 - (id);
 - (void);
-- (id);
+- (id)__TEXT;
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -60,8 +40,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)e %s, using default:%s /* Error: Ran out of types for this method. */;
+- (void)sisterInLawHusbandsSister;
 - (id);
 - (void);
 - (void);
@@ -79,10 +59,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!ÐFù1°1Â0@ù
 × ;
-- (void)cation: /* Error: Ran out of types for this method. */;
+- (void)handleMediaGroupsAggregateConsumerUpdatedAggregateDataNotification: /* Error: Ran out of types for this method. */;
 - (id)diaDestinationBackingStoreHandler",R,V_backingStoreHandler;
-- (void)erInviteOwnerResponseLogEventBuilder;
-- (_Bool);
+- (void)HMDSharedUserInviteOwnerResponseLogEventBuilder;
+- (_Bool)HMDCloudShareTrustManagerMetricsEventDispatcherDataSource;
 - (void)°ºñþÿÿÿÿÜ;
 - (_Bool);
 - (id)ome reference is nil;
@@ -94,33 +74,10 @@ __attribute__((visibility("hidden")))
 - (id)rtificate info;
 - (_Bool)þ;
 - (void)ansformable>"8;
-- (void)alytics_value;
+- (void)root_general_analytics_shareSiriAnalytics_value;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSArray *cloudCancelPauseOperations;
-@property(readonly) HMDSyncOperationQueue *cloudFetchOperations; // @synthesize cloudFetchOperations=_cloudFetchOperations;
-@property(readonly, copy) NSArray *cloudPostFetchOperations;
-@property(retain, nonatomic) HMFExponentialBackoffTimer *cloudPushDelayTimer; // @synthesize cloudPushDelayTimer=_cloudPushDelayTimer;
-@property(readonly) HMDSyncOperationQueue *cloudPushOperations; // @synthesize cloudPushOperations=_cloudPushOperations;
-@property(readonly, copy) NSArray *cloudQueryDatabaseOperations;
-@property(readonly, copy) NSArray *cloudVerifyAccountOperations;
-@property(readonly, copy) NSArray *cloudZoneFetchOperationQueues; // @synthesize cloudZoneFetchOperationQueues=_cloudZoneFetchOperationQueues;
-@property(readonly, copy) NSArray *cloudZonePushOperationQueues;
-@property(retain, nonatomic) HMDSyncOperation *currentOperation; // @synthesize currentOperation=_currentOperation;
-@property(readonly, nonatomic) __weak id <HMDSyncOperationManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long pauseCloudPushLevel; // @synthesize pauseCloudPushLevel=_pauseCloudPushLevel;
-@property(nonatomic) _Bool pauseQueue; // @synthesize pauseQueue=_pauseQueue;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=wasSyncLoopDialogDisplayed) _Bool syncLoopDialogDisplayed; // @synthesize syncLoopDialogDisplayed=_syncLoopDialogDisplayed;
-@property(readonly) CDUnknownBlockType timerFactory; // @synthesize timerFactory=_timerFactory;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

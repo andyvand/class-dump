@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIAssertionController;
-
 __attribute__((visibility("hidden")))
 @interface _UIAssertionBase
 {
     _Bool _initialState;
-    _Bool _invalidated;
-    _Bool _requiresExplicitInvalidation;
-    unsigned long long _type;
-    NSString *_reason;
-    _UIAssertionController *_parentController;
 }
 
-- (_Bool);
+- (_Bool)anyStorageControllerIsAwaitingStorageTimer;
 - (id);
 - (void);
 - (void);
@@ -32,19 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)GVb;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool initialState; // @synthesize initialState=_initialState;
-@property(readonly, nonatomic) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(nonatomic) __weak _UIAssertionController *parentController; // @synthesize parentController=_parentController;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) _Bool requiresExplicitInvalidation; // @synthesize requiresExplicitInvalidation=_requiresExplicitInvalidation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

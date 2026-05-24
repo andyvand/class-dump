@@ -7,20 +7,6 @@
 @interface RemoteManagement.MKRepo
 {
     id scope;
-    id persona;
-    id accessGroup;
-    id assetToCertPK;
-    id certPKRefCount;
-    id assetToKeyPK;
-    id keyPKRefCount;
-    id assetToPasswordPK;
-    id passwordPKRefCount;
-    id configurationToAssignedCertPK;
-    id assignedCertPKRefCount;
-    id configurationToAssignedKeyPK;
-    id assignedKeyPKRefCount;
-    id configurationToAssignedPasswordPK;
-    id assignedPasswordPKRefCount;
 }
 
 @end

@@ -9,15 +9,6 @@
 @interface PhotosGraph.FrequentLocationModifier__priv_9DC9DF9C86728BDC9D73ADC3140142CF : PhotosGraph.ScoreModifier__priv_9DC9DF9C86728BDC9D73ADC3140142CF
 {
     id smallCountryCityLevelModifier;
-    id smallCountryStateLevelModifier;
-    id smallCountryCountryLevelModifier;
-    id smallCountryAOILevelModifier;
-    id largeCountryCityLevelModifier;
-    id largeCountryStateLevelModifier;
-    id largeCountryCountryLevelModifier;
-    id largeCountryAOILevelModifier;
-    id happensNearFrequentLocation;
-    id isLargeCountry;
 }
 
 @end

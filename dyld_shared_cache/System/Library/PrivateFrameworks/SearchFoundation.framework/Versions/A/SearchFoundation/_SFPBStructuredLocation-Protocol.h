@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng;
+@class NSData, NSString;
 
 @protocol _SFPBStructuredLocation
+- (void);
+- (void)__objc_arraydata__DATA_CONST;
+- (NSData *)&,N;
+- (double)m.apple.livephoto.creationoperationsbyid;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBLatLng *geoLocation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double radius;
 @property(copy, nonatomic) NSString *title;
 @end
 

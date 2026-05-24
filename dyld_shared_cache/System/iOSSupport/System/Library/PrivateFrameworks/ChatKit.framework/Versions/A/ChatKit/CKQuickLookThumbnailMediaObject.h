@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)ic_preferredFontAndLineHeight:forAttachmentBoldTextWithZoomController: /* Error: Ran out of types for this method. */;
+- (id)forcesSmallSize;
+- (id)o;
+- (id)eted Image Classification for Attachment %@. %0.3fs;
 - (_Bool);
 
 @end

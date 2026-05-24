@@ -6,27 +6,11 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSDate, NSLayoutConstraint, NSString, _UIBarButtonItemData, _UIButtonBarButtonVisualProvider, _UISelectionInteraction;
+@class _UIButtonBarButtonVisualProvider, _UISelectionInteraction;
 
 @interface _UIButtonBarButton : UIControl
 {
     _UIButtonBarButtonVisualProvider *_visualProvider;
-    NSLayoutConstraint *_widthMinimizingConstraint;
-    NSLayoutConstraint *_heightMinimizingConstraint;
-    _Bool _autolayoutIsCleanForBoundsChange;
-    NSDate *_appearanceDate;
-    _Bool _acceptsInauthenticTouches;
-    _Bool _hasPerformedPostConfigurationLayout;
-    _Bool _backButton;
-    _Bool _breadcrumb;
-    _Bool _verticallyCentersContents;
-    _Bool _usesAdjustedTintColorWhenItemPrefersFilledAppearance;
-    _Bool _shouldUseButtonPlatters;
-    _Bool _isSingleItemInSectionWithPlatter;
-    _Bool _usesTintColorCapsuleForSelection;
-    _UIBarButtonItemData *_appearanceData;
-    long long _preferredMenuElementOrder;
-    _UISelectionInteraction *__selectionInteraction;
 }
 
 + (_Bool);
@@ -36,23 +20,23 @@
 - (struct CGSize);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)G ;
+- (void)leFunctionTableDescriptor"16Q24;
+- (_Bool)setPayloadSubCalAccountUseSSL:(struct CGPoint)arg1;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
+- (void)48@56@64@72@80Q88Q96;
+- (id)utableArray",&,N,V_ranges;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)MPArtworkCatalog"24;
+- (_Bool)_postParticipantItemChangedNotificationWithDeltaBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct CGSize);
@@ -75,20 +59,20 @@
 - (void)ð1Â0@ù
 × ;
 - (void):(_Bool)arg1 24@"WebFrame"32;
-- (void):(_Bool)arg1;
-- (void)llControlStringInset;
-- (void)nipulation:(_Bool)arg1;
+- (void)setMoreViewControllersChanged:(_Bool)arg1;
+- (void)pillControlStringInset;
+- (void)performActionsAndEnterState:(_Bool)arg1 velocity:underDirectManipulation: /* Error: Ran out of types for this method. */;
 - (void)largeContentViewerInteraction:(id)arg1 itemAtPoint: /* Error: Ran out of types for this method. */;
-- (id):image:actionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)taOwnerForAddingToSession:withTouchAtPoint: /* Error: Ran out of types for this method. */;
-- (void)ller:(_Bool)arg1;
-- (void)er;
-- (void)tImageNamed:(id)arg1 withTint:(id)arg2 flippedForRightToLeftLayoutDirection: /* Error: Ran out of types for this method. */;
-- (id)imates;
-- (void)us:(id)arg1;
+- (id)initWithAttributedName:image:actionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_webView:dataOwnerForAddingToSession:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (void)_removeIdentifiedChildViewController:(_Bool)arg1;
+- (void)_preferredStackOrder;
+- (void)_kitImageNamed:(id)arg1 withTint:(id)arg2 flippedForRightToLeftLayoutDirection: /* Error: Ran out of types for this method. */;
+- (id)_animates;
+- (void)setAccessibilityExpandedStatus:(id)arg1;
 - (void),V_favoriteOrder;
 - (void)stepperControl;
-- (void)ontextDelegate;
+- (void)_UICollectionViewPlaceholderContextDelegate;
 - (void)´Ûtþÿÿÿÿà;
 - (_Bool);
 - (long long);
@@ -100,12 +84,12 @@
 - (id)onnull, __strong id<_UIListContentTextPropertiesInternal> _Nonnull, _UIContentViewLayoutMode, CGFloat);
 - (id):(id)arg1 %@
 ;
-- (_Bool)roundStyle;
+- (_Bool)UIBackgroundStyle;
 - (void)4@?0@"_UIBarCustomizationItemReservoirView"8@"UITraitCollection"16;
-- (_Bool)oDataSource;
+- (_Bool)tableViewTagToDataSource;
 - (void)ring.;
-- (void)ggingForStrictRepeatedPushAssertion;
-- (id)_UIRopeAnimationC;
+- (void)UINavigationControllerEnableVerboseLoggingForStrictRepeatedPushAssertion;
+- (id)So16_UIRopeAnimationC;
 - (void)works/InputAnalytics.framework/InputAnalytics;
 - (id)m/Library/Frameworks/AVKit.framework/AVKit;
 - (void)43àtþ;
@@ -125,30 +109,7 @@
 - (struct CGRect)Áì;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect _buttonBarHitRect;
 @property(retain, nonatomic) _UISelectionInteraction *_selectionInteraction; // @synthesize _selectionInteraction=__selectionInteraction;
-@property(readonly, nonatomic) struct CGRect accessoryViewAlignmentRect;
-@property(retain, nonatomic) _UIBarButtonItemData *appearanceData; // @synthesize appearanceData=_appearanceData;
-@property(readonly, nonatomic, getter=isBackButton) _Bool backButton; // @synthesize backButton=_backButton;
-@property(nonatomic) _Bool backButtonMaskEnabled;
-@property(readonly, nonatomic, getter=isBreadcrumb) _Bool breadcrumb; // @synthesize breadcrumb=_breadcrumb;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSLayoutConstraint *heightMinimizingConstraint;
-@property(nonatomic) _Bool isSingleItemInSectionWithPlatter; // @synthesize isSingleItemInSectionWithPlatter=_isSingleItemInSectionWithPlatter;
-@property(nonatomic) long long preferredMenuElementOrder; // @synthesize preferredMenuElementOrder=_preferredMenuElementOrder;
-@property(nonatomic) _Bool shouldUseButtonPlatters; // @synthesize shouldUseButtonPlatters=_shouldUseButtonPlatters;
-@property(nonatomic, getter=isSpringLoaded) _Bool springLoaded;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesAdjustedTintColorWhenItemPrefersFilledAppearance; // @synthesize usesAdjustedTintColorWhenItemPrefersFilledAppearance=_usesAdjustedTintColorWhenItemPrefersFilledAppearance;
-@property(nonatomic) _Bool usesTintColorCapsuleForSelection; // @synthesize usesTintColorCapsuleForSelection=_usesTintColorCapsuleForSelection;
-@property(nonatomic) _Bool verticallyCentersContents; // @synthesize verticallyCentersContents=_verticallyCentersContents;
-@property(readonly, copy, nonatomic) _UIButtonBarButtonVisualProvider *visualProvider; // @synthesize visualProvider=_visualProvider;
-@property(readonly, nonatomic) NSLayoutConstraint *widthMinimizingConstraint;
 
 @end
 

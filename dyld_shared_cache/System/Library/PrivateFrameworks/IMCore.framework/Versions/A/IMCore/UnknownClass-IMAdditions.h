@@ -5,12 +5,13 @@
 //
 
 @interface UnknownClass (IMAdditions)
-+ (id);
-- (struct __CFArray *);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
++ (id)s:%d @:@ AUIOStart-AudioUnitStarting AUIO=%p AUIO Starting... /* Error: Ran out of types for this method. */;
+- (struct __CFArray *)story. Index=%d, packetLifeTime=%f, erasureCount=%d
+;
+- (id)L}d;
+- (id)capture rate to %d fps areStreamsSuspended=%{BOOL}d;
+- (_Bool)erate=%d;
+- (id)xSupportedMultiwayFrameRate=%d framerate=%d;
+- (id)eFrameRate. currentCaptureFrameRate=%d maxSupportedMultiwayFrameRate=%d framerate=%d;
 @end
 

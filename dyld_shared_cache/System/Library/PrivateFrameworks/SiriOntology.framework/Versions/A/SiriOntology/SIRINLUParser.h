@@ -7,7 +7,6 @@
 @interface SIRINLUParser
 {
     int _algorithmType;
-    int _parserIdentifier;
 }
 
 + (_Bool);
@@ -15,7 +14,7 @@
 - (void);
 - (int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) int algorithmType; // @synthesize algorithmType=_algorithmType;
-@property(nonatomic) int parserIdentifier; // @synthesize parserIdentifier=_parserIdentifier;
 
 @end
 

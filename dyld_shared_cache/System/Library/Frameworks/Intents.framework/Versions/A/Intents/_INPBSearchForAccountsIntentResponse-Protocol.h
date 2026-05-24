@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _INPBFinancialAccountValue;
 
 @protocol _INPBSearchForAccountsIntentResponse
+- (unsigned long long)j;
+- (_INPBFinancialAccountValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accounts;
-@property(readonly, nonatomic) unsigned long long accountsCount;
 @end
 

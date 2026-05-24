@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface UnknownClass (CX)
 - (id);
@@ -17,10 +17,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *cx_applicationIdentifier;
-@property(readonly, copy, nonatomic) NSString *cx_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSSet *cx_capabilities;
-@property(readonly, copy, nonatomic) NSString *cx_developerTeamIdentifier;
-@property(readonly, copy, nonatomic) NSString *cx_processName;
-@property(readonly, nonatomic, getter=cx_isProcessOnDemandInstallCapable) _Bool cx_processOnDemandInstallCapable;
 @end
 

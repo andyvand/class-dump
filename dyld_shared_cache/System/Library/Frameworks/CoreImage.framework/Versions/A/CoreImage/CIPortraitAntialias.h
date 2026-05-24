@@ -6,25 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPortraitAntialias : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputMaxBlurInPixels;
-    NSNumber *inputAntiAliasRadius;
-    NSNumber *inputLumaNoiseAmpl;
-    NSNumber *inputLumaNoiseModelCoeff;
-    NSNumber *inputScale;
-    CIVector *inputRect;
-    CIVector *inputSensorSize;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
@@ -44,14 +37,7 @@ __attribute__((visibility("hidden")))
 - (id)AYPd3H8Ya`Wfs}}}u~|NdZrij`knnnnZqj{s¥¥¥¥lvp_aUk`cXeffdfR^TeRd_n||||ssssOODS1AJJ>JZZTZYb[fppmr~yyyyLaZgP_Vdhnjplrozfsp{uvsywyyyxxxxhojs\mhs||||}}}}WkguZd\nZgblmmmmhhhh>WMdYd^hppppqqqqRibrazv¦¬¬¬ªªªªZsn{{{{s¦¦¦¦¢¢yyyy]]]]PPIP[[[[mmmm_pmw_oi~j}{Viay{{{{s|smth~|;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAntiAliasRadius; // @synthesize inputAntiAliasRadius;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseAmpl; // @synthesize inputLumaNoiseAmpl;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseModelCoeff; // @synthesize inputLumaNoiseModelCoeff;
-@property(copy, nonatomic) NSNumber *inputMaxBlurInPixels; // @synthesize inputMaxBlurInPixels;
-@property(copy, nonatomic) CIVector *inputRect; // @synthesize inputRect;
-@property(copy, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(copy, nonatomic) CIVector *inputSensorSize; // @synthesize inputSensorSize;
 
 @end
 

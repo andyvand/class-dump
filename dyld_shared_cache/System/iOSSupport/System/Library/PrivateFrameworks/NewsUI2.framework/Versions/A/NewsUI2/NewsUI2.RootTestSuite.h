@@ -7,8 +7,6 @@
 @interface NewsUI2.RootTestSuite
 {
     id navigator;
-    id featureAvailability;
-    id tipStorageManager;
 }
 
 - (id);

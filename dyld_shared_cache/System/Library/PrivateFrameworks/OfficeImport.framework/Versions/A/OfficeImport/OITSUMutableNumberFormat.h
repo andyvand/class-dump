@@ -13,6 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -22,8 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)remote proxy error:(unsigned char)arg1 %ld;
 
 @end
 

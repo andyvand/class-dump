@@ -6,33 +6,27 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSOutlineView, NSTableView, _NSDebugTDLineView;
+@class NSButton, _NSDebugTDLineView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDViewHierarchyListView : NSView
 {
     _NSDebugTDLineView *_line1;
-    _NSDebugTDLineView *_line2;
-    NSButton *_refreshButton;
-    NSTableView *_suggestedTextViewsTable;
-    NSOutlineView *_viewHierarchyOutlineView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)ailed:(id)arg1 %s;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)em;
+- (id)URLSession:assetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad: /* Error: Ran out of types for this method. */;
+- (id)URLSession:assetDownloadTask:didFinishDownloadingToURL: /* Error: Ran out of types for this method. */;
+- (id)compressionItemContainingItem;
 - (void)*dB;
 
 // Remaining properties
 @property(retain, nonatomic) NSButton *refreshButton; // @synthesize refreshButton=_refreshButton;
-@property(retain, nonatomic) NSTableView *suggestedTextViewsTable; // @synthesize suggestedTextViewsTable=_suggestedTextViewsTable;
-@property(retain, nonatomic) NSOutlineView *viewHierarchyOutlineView; // @synthesize viewHierarchyOutlineView=_viewHierarchyOutlineView;
 
 @end
 

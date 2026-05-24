@@ -8,7 +8,6 @@
 {
     id _name;
     id _image;
-    id _$observationRegistrar;
 }
 
 @end

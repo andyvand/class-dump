@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSArray, NSMutableArray, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol AVCQoSMonitorDelegate, OS_dispatch_queue;
 
 @interface AVCQoSMonitor
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    id <AVCQoSMonitorDelegate> _delegate;
-    AVConferenceXPCClient *_connection;
-    NSMutableArray *_registeredStreamTokens;
-    NSMutableDictionary *_reportingIntervals;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)S�`;
 - (_Bool);
 - (void);
 - (void);
@@ -31,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <AVCQoSMonitorDelegate> delegate;
-@property(readonly, nonatomic) NSArray *streamTokens; // @synthesize streamTokens=_registeredStreamTokens;
 
 @end
 

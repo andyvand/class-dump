@@ -4,43 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, QLTBitmapFormat, QLURLHandler, UTType;
-
 @interface QLPreviewReply
 {
     _Bool _wantsBorder;
-    unsigned long long _stringEncoding;
-    NSDictionary *_attachments;
-    NSString *_title;
-    unsigned long long _replyType;
-    NSData *_data;
-    UTType *_contentType;
-    QLURLHandler *_fileURLHandler;
-    QLTBitmapFormat *_bitmapFormat;
-    CDUnknownBlockType _drawInContextBlock;
-    CDUnknownBlockType _documentCreationBlock;
-    CDUnknownBlockType _dataCreationBlock;
-    struct CGSize _contentSize;
-    struct CGSize _minimumSize;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSDictionary *attachments; // @synthesize attachments=_attachments;
-@property(retain) QLTBitmapFormat *bitmapFormat; // @synthesize bitmapFormat=_bitmapFormat;
-@property struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(retain) UTType *contentType; // @synthesize contentType=_contentType;
-@property(retain) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) CDUnknownBlockType dataCreationBlock; // @synthesize dataCreationBlock=_dataCreationBlock;
-@property(copy, nonatomic) CDUnknownBlockType documentCreationBlock; // @synthesize documentCreationBlock=_documentCreationBlock;
-@property(copy, nonatomic) CDUnknownBlockType drawInContextBlock; // @synthesize drawInContextBlock=_drawInContextBlock;
-@property(retain) QLURLHandler *fileURLHandler; // @synthesize fileURLHandler=_fileURLHandler;
-@property struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
 @property unsigned long long replyType; // @synthesize replyType=_replyType;
-@property unsigned long long stringEncoding; // @synthesize stringEncoding=_stringEncoding;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property _Bool wantsBorder; // @synthesize wantsBorder=_wantsBorder;
 
 @end
 

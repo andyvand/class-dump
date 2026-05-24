@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (void)actions:(id)arg1;
+- (id),&,V_drainConditionLock;
+- (void)updateForNewData:(id)arg1 actions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)o7UIColorCG;
 - (void)7È;

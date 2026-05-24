@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, IMDRelayDeletionController, IMDRelayEnrollmentController, IMDRelayPushHandler, IMDService, IMOneTimeCodeUtilities, NSArray, NSMutableDictionary, NSString;
-
 @interface IMDRelayServiceController
 {
     _Bool _isRegistered;
-    IMDRelayEnrollmentController *_enrollmentController;
-    IMDRelayDeletionController *_deletionController;
-    NSMutableDictionary *_smsRelayBlockMap;
-    IDSService *_relayService;
-    IDSService *_smsRelayService;
-    IDSService *_smsWatchService;
-    IMDRelayPushHandler *_smsRelayPushHandler;
-    IMOneTimeCodeUtilities *_otcUtilities;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -41,33 +31,33 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)J;
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)u;
+- (id)T	;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)`;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)`I;
 - (void);
 - (_Bool);
 - (id);
@@ -79,43 +69,43 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)!8"  @;
 - (id);
 - (_Bool);
+- (_Bool)  (;
+- (_Bool)(;
+- (_Bool);
+- (void)o;
+- (void)@9hF;
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
+- (void)));
+- (_Bool)bh;
 - (_Bool);
 - (void);
+- (void)1R9#12q(1;
+- (id);
+- (void)	!;
+- (void);
+- (_Bool);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void));
 - (void);
 - (void);
 - (void);
@@ -125,33 +115,33 @@
 - (long long);
 - (_Bool);
 - (_Bool);
+- (_Bool)Ma;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
+- (id).b8" ;
 - (id);
-- (id);
+- (void)4;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)!@!;
 - (id);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void)o;
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -164,44 +154,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)+;
 - (void)¸;
 - (_Bool)verChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_callerIDForRelay;
-@property(readonly, nonatomic) _Bool _canRelayMMS;
-@property(readonly, nonatomic) _Bool _localDeviceSupportsEmergencySMS;
-@property(readonly, nonatomic) _Bool _localDeviceSupportsSMS;
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) IMDRelayDeletionController *deletionController; // @synthesize deletionController=_deletionController;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *dominentPhoneNumberAlias;
-@property(readonly, nonatomic) IMDRelayEnrollmentController *enrollmentController; // @synthesize enrollmentController=_enrollmentController;
-@property(readonly, nonatomic) _Bool hasPeerDevices;
-@property(readonly, nonatomic) _Bool hasRelayDevice;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRegistered; // @synthesize isRegistered=_isRegistered;
-@property(readonly, nonatomic) _Bool isSMSRelayEnabled;
-@property(retain, nonatomic) IMOneTimeCodeUtilities *otcUtilities; // @synthesize otcUtilities=_otcUtilities;
-@property(readonly, nonatomic) NSArray *peerDevices;
-@property(retain, nonatomic) IDSService *relayService; // @synthesize relayService=_relayService;
-@property(readonly, nonatomic) IMDService *service;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IMDService",?,R,N
-
-@property(retain, nonatomic) NSMutableDictionary *smsRelayBlockMap; // @synthesize smsRelayBlockMap=_smsRelayBlockMap;
-@property(retain, nonatomic) IMDRelayPushHandler *smsRelayPushHandler; // @synthesize smsRelayPushHandler=_smsRelayPushHandler;
-@property(retain, nonatomic) IDSService *smsRelayService; // @synthesize smsRelayService=_smsRelayService;
-@property(retain, nonatomic) IDSService *smsWatchService; // @synthesize smsWatchService=_smsWatchService;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool watchConnectedOverBT;
 
 @end

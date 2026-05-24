@@ -9,31 +9,6 @@
 @interface INFERENCESchemaINFERENCECommonAppIndependentSignals : SISchemaInstrumentationMessage
 {
     long long _rawLanguage;
-    long long _rawLocale;
-    long long _rawStateOrProvince;
-    long long _rawCountry;
-    long long _rawRequestDeviceCategory;
-    int _clientDayOfWeek;
-    int _rawClientHourOfDay;
-    _Bool _isClientDaylight;
-    int _appResolutionType;
-    int _sirikitResponseCode;
-    int _appSelectionUses;
-    unsigned int _modelVersion;
-    struct {
-        unsigned int rawLanguage:1;
-        unsigned int rawLocale:1;
-        unsigned int rawStateOrProvince:1;
-        unsigned int rawCountry:1;
-        unsigned int rawRequestDeviceCategory:1;
-        unsigned int clientDayOfWeek:1;
-        unsigned int rawClientHourOfDay:1;
-        unsigned int isClientDaylight:1;
-        unsigned int appResolutionType:1;
-        unsigned int sirikitResponseCode:1;
-        unsigned int appSelectionUses:1;
-        unsigned int modelVersion:1;
-    } _has;
 }
 
 @end

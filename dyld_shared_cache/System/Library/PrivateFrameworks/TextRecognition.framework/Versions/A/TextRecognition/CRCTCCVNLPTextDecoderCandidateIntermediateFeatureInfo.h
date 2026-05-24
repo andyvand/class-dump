@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CRCTCCVNLPTextDecoderCandidateIntermediateFeatureInfo
 {
     double _prob;
-    double _activationProb;
-    NSString *_decodedString;
-    NSArray *_ranges;
-    NSArray *_tokenPermutation;
 }
 
-- (void)ionFilterQuad:originalQuad:imageSize: /* Error: Ran out of types for this method. */;
+- (void)shouldEdgeIntersectionFilterQuad:originalQuad:imageSize: /* Error: Ran out of types for this method. */;
 
 @end
 

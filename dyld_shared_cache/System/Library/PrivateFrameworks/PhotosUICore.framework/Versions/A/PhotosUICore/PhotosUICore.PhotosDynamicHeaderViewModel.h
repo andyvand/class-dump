@@ -7,29 +7,6 @@
 @interface PhotosUICore.PhotosDynamicHeaderViewModel
 {
     id playbackDelegate;
-    id _movieViewModel;
-    id _isFullscreen;
-    id _previewState;
-    id _movieAlpha;
-    id _movieState;
-    id _chromeOpacity;
-    id timeDelegate;
-    id __isContentVisible;
-    id __scrollPosition;
-    id canPlay;
-    id targetContentKind;
-    id targetTransitionsState;
-    id isChangingDelegatedTransitionsState;
-    id transitionsPauseToken;
-    id currentTransitionsState;
-    id currentContentKindUpdateDate;
-    id currentContentKind;
-    id chromeOpacityAnimator;
-    id chromeOpacityAnimatorObservation;
-    id targetChromeOpacity;
-    id _visibleChromeDeadline;
-    id movieViewModelObservation;
-    id _$observationRegistrar;
 }
 
 @end

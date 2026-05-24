@@ -5,5 +5,6 @@
 //
 
 @protocol ABPersonBlocking
+- (void);
 @end
 

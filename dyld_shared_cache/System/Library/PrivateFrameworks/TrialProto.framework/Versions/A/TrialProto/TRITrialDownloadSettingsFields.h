@@ -7,29 +7,22 @@
 @interface TRITrialDownloadSettingsFields
 {
     int _discretionaryBehavior;
-    _Bool _allowAnyNetworking;
-    _Bool _allowBattery;
-    struct {
-        unsigned int discretionaryBehavior:1;
-        unsigned int allowAnyNetworking:1;
-        unsigned int allowBattery:1;
-    } _has;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)URLByResolvingAliasFileAtURL:options:error: /* Error: Ran out of types for this method. */;
+- (void)@16Q24Q32@40B48Q52Q60Q68;
 - (void);
 - (int);
 - (id);
 - (void);
 - (void);
+- (void)e;
+- (void)fs:(_Bool)arg1 Extension Processing;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)lic}@, error:(id)arg1 %@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)SFSportsItem;
 - (id);
 - (void);
 - (id);
@@ -41,12 +34,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAnyNetworking; // @synthesize allowAnyNetworking=_allowAnyNetworking;
-@property(nonatomic) _Bool allowBattery; // @synthesize allowBattery=_allowBattery;
-@property(nonatomic) int discretionaryBehavior; // @synthesize discretionaryBehavior=_discretionaryBehavior;
 @property(nonatomic) _Bool hasAllowAnyNetworking;
-@property(nonatomic) _Bool hasAllowBattery;
-@property(nonatomic) _Bool hasDiscretionaryBehavior;
 
 @end
 

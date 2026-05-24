@@ -9,38 +9,27 @@
 @interface INAirline
 {
     NSString *_name;
-    NSString *_iataCode;
-    NSString *_icaoCode;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id)setRepresentationTypes:(id)arg1;
 - (id);
 - (id);
+- (id)x&;
+- (unsigned long long)y Serial Number;
+- (_Bool)eriodicTimer;
+- (void)roam_reason;
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)lization;
-- (void)ARBON_DIOXIDE_SENSOR;
+- (id)_cachedLocalization;
+- (void)CARBON_DIOXIDE_SENSOR;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *iataCode; // @synthesize iataCode=_iataCode;
-@property(readonly, copy) NSString *icaoCode; // @synthesize icaoCode=_icaoCode;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

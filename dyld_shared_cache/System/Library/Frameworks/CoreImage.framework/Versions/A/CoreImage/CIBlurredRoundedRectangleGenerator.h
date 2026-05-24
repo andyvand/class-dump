@@ -6,22 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector, NSNumber;
+@class CIVector;
 
 __attribute__((visibility("hidden")))
 @interface CIBlurredRoundedRectangleGenerator : CIFilter
 {
     CIVector *inputExtent;
-    NSNumber *inputRadius;
-    NSNumber *inputSmoothness;
-    NSNumber *inputSigma;
-    CIColor *inputColor;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)r;
 - (id);
 - (id);
 - (void);
@@ -32,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)®®®®­­­­¨¨¨¨««««¥¥¥¥ §§²²²²³³³³\ldvQSC]R^Tazzzzd{xYvrivtYnixyyyyvhz|~wwwwxxxx{{{{}}}}fqm}_rk{~}Zhan`kenarpza~vvvvGXOZ*?/M[[[[iiiiffef>RE_KXLcXe[s¥¥¥¥¦¦¦¦nws`kgnMRGZ?LAUK\V]iiiippppuuuussssggel^`\bZZVZFSIWEWN^\f`jfoiquuru~~z~k§§§§YoeR]Ml[cWmzzzztzzzhheh?SH]@\Uhl|jjjj=OBZ2MA]nnnn||||££££\[Na.A,MPSEWtxxx|gnjtfkkkaaaa:RE^Rkfy¢¢¢¢¨¨¨¨kzy]YOaOVMVJTJZD^Wjtsqvuuuu¦¦©©¦¦¦¦~U[R^;=,=$05GH;Hggggvf~u¯¯¯¯©©©©q[dXlKaUgssqsx||||hrorQc]j`d]h[d]gN\Oe:TDirxq§§§§ºººº²²²²~~~~[gbkjjjjjrrrZtr{wf{xesnxG`Um=WIjTjbwsUc[oBZOiWnkwprrnvWaXj[keo~¦©«¯²²««««jibrH_Vjvvvvn{{v}Uf`m\VI\AL<UYZN\\gagMe_kllilPganNe_qrrqrppmposov\nhtppmpeqpqQf]oKg^w««««£­xxxxllll]icjsvtvo\up|hpktnzzz^mhz]mhw{{{{hqmtAVJgLZPb``Y`;PC[?QCZdcYek|y¡¡mzuo{`i_p`iavh||~~~~ivtv~~~~~h}}pywzgoktUjdutvu{uz{}auvxqqqqiiiiddddQc\d]f_iYjcnkpjv_og}zu}n|yoonoO`Xhttttvhut{VpmxuuszhzyvvtvR]Qiemfszx|}XheoSTKT-@0D7C4KJ]VisNkf{Se^s||||{{{{bjcoff_fPaVgajaujpitvvvvuuuuRdZmLbXowzw~{¥¥¥¥H\Qitrmt /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
 @property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) NSNumber *inputSigma; // @synthesize inputSigma;
-@property(retain, nonatomic) NSNumber *inputSmoothness; // @synthesize inputSmoothness;
 
 @end
 

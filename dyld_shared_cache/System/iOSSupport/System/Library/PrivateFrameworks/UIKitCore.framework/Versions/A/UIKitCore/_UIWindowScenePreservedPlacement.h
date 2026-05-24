@@ -14,14 +14,14 @@
 + (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)accountPartition;
+- (id)ilitiesyHCg_G;
+- (_Bool)ionary %s;
+- (id);
 - (id);
 - (id);
 - (_Bool)ect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{?={CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}}16{CGRect={CGPoint=dd}{CGSize=dd}}304;
-- (id)te:(struct _NSZone *)arg1 propertyList: /* Error: Ran out of types for this method. */;
+- (id)_commandWithTitle:(struct _NSZone *)arg1 target:action:attributes:state:propertyList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool keepInBackground; // @synthesize keepInBackground=_keepInBackground;

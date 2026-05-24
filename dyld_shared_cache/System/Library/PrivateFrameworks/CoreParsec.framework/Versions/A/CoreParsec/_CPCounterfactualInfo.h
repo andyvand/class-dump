@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPCounterfactualInfo
 {
     _Bool _cfDiffered;
-    _Bool _cfUsed;
-    int _cfError;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (int);
+- (void)ue.;
+- (void)Ruleset id must be unique.;
+- (void)et with id "%s" is invalid. Ruleset id must be unique.;
+- (_Bool).app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/Box.h;
+- (_Bool)yK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/Box.h;
+- (int)WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -26,16 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool cfDiffered; // @synthesize cfDiffered=_cfDiffered;
-@property(nonatomic) int cfError; // @synthesize cfError=_cfError;
-@property(nonatomic) _Bool cfUsed; // @synthesize cfUsed=_cfUsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 
 @end
 

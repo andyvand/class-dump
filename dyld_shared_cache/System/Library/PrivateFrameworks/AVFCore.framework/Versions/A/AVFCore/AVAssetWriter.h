@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterHelper, AVAssetWriterInternal, NSArray, NSError, NSString, NSURL;
-@protocol AVAssetWriterDataWritingDelegate;
+@class AVAssetWriterHelper, AVAssetWriterInternal;
 
 @interface AVAssetWriter
 {
     AVAssetWriterInternal *_internal;
 }
 
++ (id)i;
 + (id);
-+ (id);
-+ (id);
++ (id)Tn;
 + (void);
 + (_Bool)put that is already attached to a caption adaptor;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -33,13 +32,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void)(;
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)!;
 - (id);
 - (id);
 - (int);
@@ -48,7 +47,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -58,11 +57,11 @@
 - (void);
 - (void);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)?;
 - (id);
-- (void);
+- (void)initialInterstitialDelayForCarPlay;
 - (id);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -81,39 +80,22 @@
 × ;
 - (void)ñ)ð1Â0@ù
 × ;
-- (_Bool)text: /* Error: Ran out of types for this method. */;
-- (float)erollForRenderingUsingHint: /* Error: Ran out of types for this method. */;
-- (void)tsCopySampleLocation;
-- (void)tWithFigMetricEvent:(id)arg1;
-- (void)ssetReaderOutputAnnotationAdaptorWithAssetReaderTrackOutput: /* Error: Ran out of types for this method. */;
-- (_Bool)sOperation;
-- (void)odeForPrerollForRequestID:(id)arg1;
-- (_Bool)fferAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)startObservingObject:weakObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
+- (float)prerollForRenderingUsingHint: /* Error: Ran out of types for this method. */;
+- (void)implementsCopySampleLocation;
+- (void)errorEventWithFigMetricEvent:(id)arg1;
+- (void)assetReaderOutputAnnotationAdaptorWithAssetReaderTrackOutput: /* Error: Ran out of types for this method. */;
+- (_Bool)_requiresInProcessOperation;
+- (void)_completedDecodeForPrerollForRequestID:(id)arg1;
+- (_Bool)setSourcePixelBufferAttributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)plicationType;
-- (void)KeyCellCount;
+- (void)AVCaptionLengthArchiveKeyCellCount;
 - (void)Líÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableMediaTypes;
-@property(readonly, nonatomic) __weak id <AVAssetWriterDataWritingDelegate> dataWritingDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSURL *directoryForTemporaryFiles;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, getter=_helper) AVAssetWriterHelper *helper;
-@property(readonly, nonatomic) NSArray *inputs;
-@property(copy, nonatomic) NSArray *metadata;
-@property(readonly, copy, nonatomic) NSString *outputFileType;
-@property(readonly, copy, nonatomic) NSURL *outputURL;
-@property(nonatomic) _Bool shouldOptimizeForNetworkUse;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
 
 @end
 

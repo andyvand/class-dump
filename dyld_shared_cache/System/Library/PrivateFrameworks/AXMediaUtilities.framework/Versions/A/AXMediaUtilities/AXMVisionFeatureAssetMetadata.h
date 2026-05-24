@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface AXMVisionFeatureAssetMetadata
 {
     _Bool _imageAssetLocallyAvailable;
-    NSString *_name;
-    NSDate *_creationDate;
-    NSString *_uti;
-    NSString *_localizedTypeDescription;
-    NSString *_TIFFImageDescription;
-    NSString *_IPTCCaptionAbstract;
-    NSString *_EXIFUserComment;
-    NSString *_PNGImageDescription;
-    NSURL *_assetURL;
-    NSString *_imageAssetLocalIdentifier;
-    NSURL *_imageAssetPhotoLibraryURL;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)m;
++ (_Bool)@0:8@16Q24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (void)z;
 - (void);
-- (void);
-- (void);
+- (void)z;
 - (void);
 - (id);
 - (_Bool);
@@ -44,9 +33,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@o;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -62,22 +51,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *EXIFUserComment; // @synthesize EXIFUserComment=_EXIFUserComment;
-@property(retain, nonatomic) NSString *IPTCCaptionAbstract; // @synthesize IPTCCaptionAbstract=_IPTCCaptionAbstract;
-@property(retain, nonatomic) NSString *PNGImageDescription; // @synthesize PNGImageDescription=_PNGImageDescription;
-@property(retain, nonatomic) NSString *TIFFImageDescription; // @synthesize TIFFImageDescription=_TIFFImageDescription;
-@property(readonly, nonatomic) _Bool assetLocallyAvailable;
 @property(retain, nonatomic) NSURL *assetURL; // @synthesize assetURL=_assetURL;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSString *imageAssetLocalIdentifier; // @synthesize imageAssetLocalIdentifier=_imageAssetLocalIdentifier;
-@property(nonatomic) _Bool imageAssetLocallyAvailable; // @synthesize imageAssetLocallyAvailable=_imageAssetLocallyAvailable;
-@property(retain, nonatomic) NSURL *imageAssetPhotoLibraryURL; // @synthesize imageAssetPhotoLibraryURL=_imageAssetPhotoLibraryURL;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(retain, nonatomic) NSString *localizedTypeDescription; // @synthesize localizedTypeDescription=_localizedTypeDescription;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSURL *photoLibraryURL;
-@property(readonly, nonatomic) NSURL *url;
-@property(retain, nonatomic) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

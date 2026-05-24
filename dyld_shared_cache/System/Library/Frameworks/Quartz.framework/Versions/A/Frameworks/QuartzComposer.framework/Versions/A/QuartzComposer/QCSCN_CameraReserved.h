@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface QCSCN_CameraReserved
 {
     struct __C3DCamera *_camera;
-    struct __C3DScene *_sceneRef;
-    unsigned int _presentationInstance:1;
-    NSMutableDictionary *_animations;
-    NSString *_name;
-    NSString *_identifier;
-    _Bool _ortho;
-    double _xFov;
-    double _yFov;
-    double _xMag;
-    double _yMag;
-    double _zNear;
-    double _zFar;
-    double _focalDistance;
-    double _aperture;
 }
 
 - (void);

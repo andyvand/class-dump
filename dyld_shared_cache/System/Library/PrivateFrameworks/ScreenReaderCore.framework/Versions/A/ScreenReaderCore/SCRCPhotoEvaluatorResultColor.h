@@ -9,19 +9,15 @@
 @interface SCRCPhotoEvaluatorResultColor : SCRCPhotoEvaluatorResult
 {
     double _redLevel;
-    double _blueLevel;
-    double _greenLevel;
 }
 
-- (double);
+- (double);
 - (id);
-- (double);
+- (double)-m;
 - (double);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double blueLevel; // @synthesize blueLevel=_blueLevel;
-@property(readonly, nonatomic) double greenLevel; // @synthesize greenLevel=_greenLevel;
 @property(readonly, nonatomic) double redLevel; // @synthesize redLevel=_redLevel;
 
 @end

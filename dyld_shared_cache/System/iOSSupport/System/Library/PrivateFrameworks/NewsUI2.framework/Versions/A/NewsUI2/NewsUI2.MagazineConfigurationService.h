@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineConfigurationService
 {
     id dataService;
-    id bundleVersion;
 }
 
 @end

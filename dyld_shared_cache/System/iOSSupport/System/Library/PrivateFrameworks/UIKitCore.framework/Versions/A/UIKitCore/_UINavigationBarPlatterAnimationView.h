@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (id);
+- (id)setSizesWindowToScene: /* Error: Ran out of types for this method. */;
 - (id)crollerImp"16d24;
-- (id)ragControllerDelegate;
+- (id)_UITableViewDragControllerDelegate;
 - (void)-ù;
 
 // Remaining properties

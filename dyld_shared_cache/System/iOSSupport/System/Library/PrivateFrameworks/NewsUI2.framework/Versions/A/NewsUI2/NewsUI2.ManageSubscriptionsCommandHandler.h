@@ -7,8 +7,6 @@
 @interface NewsUI2.ManageSubscriptionsCommandHandler
 {
     id navigator;
-    id tracker;
-    id urlHandler;
 }
 
 @end

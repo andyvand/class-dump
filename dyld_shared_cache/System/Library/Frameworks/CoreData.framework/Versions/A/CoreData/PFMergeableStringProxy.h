@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSObject, NSString;
-@protocol NSMergeableTransformableStringAttributeValue;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface PFMergeableStringProxy
 {
     NSManagedObject *_container;
-    NSString *_key;
-    NSObject<NSMergeableTransformableStringAttributeValue> *_mergeableString;
 }
 
 + (_Bool);
@@ -23,18 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Op;
 - (void)tRequest :(id)arg1 entity = %@ resultType = %@ and %@>;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

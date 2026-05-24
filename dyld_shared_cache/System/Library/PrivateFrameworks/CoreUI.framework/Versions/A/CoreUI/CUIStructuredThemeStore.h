@@ -4,55 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICommonAssetStorage, NSCache, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface CUIStructuredThemeStore
 {
     NSMutableDictionary *_cache;
-    CUICommonAssetStorage *_store;
-    struct os_unfair_lock_s _cacheLock;
-    struct os_unfair_lock_s _storeLock;
-    unsigned long long _themeIndex;
-    NSString *_bundleID;
-    NSCache *_namedRenditionKeyCache;
-    CDUnknownFunctionPointerType _attributePresent;
-    unsigned int _mainBundle:1;
-    NSDictionary *_aliasDictionary;
-    NSSet *_legacyFlippableSet;
-    NSCache *_nameCache;
 }
 
 - (const struct _renditionkeyattributeindex *);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned int);
 - (long long);
-- (unsigned short);
+- (unsigned short);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)i?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_containerRepositoryURLForMangledID:(const struct _renditionkeytoken *)arg1;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (const struct _renditionkeytoken *);
+- (_Bool)ld;
+- (id)ckDoubleValue;
+- (const struct _renditionkeytoken *)for testing:(id)arg1 %s:(struct CGPoint *)arg2 %d;
 - (long long);
 - (_Bool);
 - (id);
@@ -60,26 +49,26 @@
 - (const struct _renditionkeyfmt *);
 - (_Bool);
 - (id);
-- (void);
+- (void)H;
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id);
+- (id)>;
 - (unsigned short);
 - (id);
 - (_Bool);
 - (id);
 - (const struct _renditionkeytoken *);
+- (id);
+- (const struct _renditionkeyfmt *)ȩ;
 - (id);
-- (const struct _renditionkeyfmt *);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)_layoutItem;
+- (void)v;
 - (_Bool);
 - (id);
 - (double);
-- (id);
+- (id)[NSVB_ViewServiceFencingController fencingControlProxy:didBeginFencingWithSendRight:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -87,17 +76,10 @@
 - (void);
 - (id)6;
 - (id);
-- (id)CStdException;
+- (id)13CStdException;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool mainBundle;
-@property(readonly) Class superclass;
 
 @end
 

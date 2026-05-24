@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWSportsExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_sportNames;
-    NSArray *_leagues;
-    NSArray *_athleteEntities;
-    NSArray *_teamEntities;
-    NSArray *_eventEntities;
 }
 
 - (unsigned long long);
@@ -34,7 +30,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -55,22 +51,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)media;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)i;
 - (id)rOfTimesMessagePayloadChanged"b1};
 - (id)T@"IFTSchemaIFTActionFailureDeveloperDefinedError",&,N,V_actionFailureDeveloperDefinedError;
 - (id);
 - (void)©¯$;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *athleteEntities; // @synthesize athleteEntities=_athleteEntities;
-@property(copy, nonatomic) NSArray *eventEntities; // @synthesize eventEntities=_eventEntities;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leagues; // @synthesize leagues=_leagues;
 @property(copy, nonatomic) NSArray *sportNames; // @synthesize sportNames=_sportNames;
-@property(copy, nonatomic) NSArray *teamEntities; // @synthesize teamEntities=_teamEntities;
 
 @end
 

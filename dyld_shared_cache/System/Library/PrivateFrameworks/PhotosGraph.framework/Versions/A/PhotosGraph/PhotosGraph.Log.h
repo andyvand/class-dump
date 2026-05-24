@@ -7,10 +7,6 @@
 @interface PhotosGraph.Log
 {
     id subsystem;
-    id category;
-    id $__lazy_storage_$_osLog;
-    id $__lazy_storage_$_signposter;
-    id $__lazy_storage_$_logger;
 }
 
 @end

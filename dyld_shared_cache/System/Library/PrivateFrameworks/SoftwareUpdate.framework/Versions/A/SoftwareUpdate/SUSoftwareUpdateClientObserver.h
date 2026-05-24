@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SUSoftwareUpdateController;
+@class SUSoftwareUpdateController;
 
 __attribute__((visibility("hidden")))
 @interface SUSoftwareUpdateClientObserver
@@ -13,24 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)fetchRequestFromStoredTripClusterScheduleOptions:(id)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property SUSoftwareUpdateController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

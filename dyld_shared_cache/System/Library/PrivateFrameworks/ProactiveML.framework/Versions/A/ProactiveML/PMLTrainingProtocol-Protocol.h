@@ -5,5 +5,7 @@
 //
 
 @protocol PMLTrainingProtocol
+- (void);
+- (void)tg;
 @end
 

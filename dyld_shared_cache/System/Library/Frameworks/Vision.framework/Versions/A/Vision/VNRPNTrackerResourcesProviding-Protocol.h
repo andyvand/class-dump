@@ -7,6 +7,7 @@
 @class NSDictionary, VNRPNTrackerEspressoResources;
 
 @protocol VNRPNTrackerResourcesProviding
-- (VNRPNTrackerEspressoResources *)ock:(NSDictionary *)arg1;
+- (VNRPNTrackerEspressoResources *);
+- (VNRPNTrackerEspressoResources *)releaseCachedResourcesWithCompletionBlock:(NSDictionary *)arg1;
 @end
 

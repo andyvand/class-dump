@@ -16,10 +16,10 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id);
+- (void)e:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 

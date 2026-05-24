@@ -5,5 +5,8 @@
 //
 
 @protocol AutoFillCandidateListBarItemControllerDelegate
+
+@optional
+- (unsigned long long);
 @end
 

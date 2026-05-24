@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AXSSMotionTrackingExpressionConfiguration
 {
@@ -29,19 +29,19 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)kA;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool){public}@);
+- (void)ion:(id)arg1 i}}static bestIndexToFillSelectControl(t,e){const n=t.length,o=[];for(let e=0;e<n;e++){const n=t[e][1];o.push(n)}let s=-1,i=Number.MAX_SAFE_INTEGER;for(let t=e.length-1;t>=0;t--){const n=e[t];Number.MAX_SAFE_INTEGER;const l=this.#t(n,o);-1!==l.index&&(l.startPosition<i&&(i=l.startPosition,s=l.index))}return-1===s?-1:t[s][0]}};
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)defaultManager;
+- (id)E;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_facialExpressionToSensitivity; // @synthesize _facialExpressionToSensitivity=__facialExpressionToSensitivity;
-@property(readonly, copy, nonatomic) NSDictionary *plistDictionary;
 
 @end
 

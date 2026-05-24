@@ -8,15 +8,10 @@ __attribute__((visibility("hidden")))
 @interface VCAudioHALPluginStream
 {
     struct tagVCAudioFrameFormat _sinkFormat;
-    id _sinkContext;
-    CDUnknownFunctionPointerType _sinkProc;
-    struct AudioTimeStamp _audioTimestamp;
-    struct tagVCAudioHALPluginCaptureSourceAudioData _audioSourceBuffer;
-    CDUnknownBlockType _writeMixBlockProcess;
 }
 
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);

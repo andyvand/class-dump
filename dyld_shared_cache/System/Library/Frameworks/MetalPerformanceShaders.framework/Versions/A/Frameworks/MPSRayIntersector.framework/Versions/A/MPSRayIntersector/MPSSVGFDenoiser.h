@@ -5,27 +5,19 @@
 //
 
 @class MPSSVGF;
-@protocol MPSSVGFTextureAllocator, MTLTexture;
+@protocol MTLTexture;
 
 @interface MPSSVGFDenoiser
 {
     id <MTLTexture> _prevFrameCountTexture;
-    id <MTLTexture> _prevMomentsTexture;
-    id <MTLTexture> _prevMomentsTexture2;
-    id <MTLTexture> _prevTexture;
-    id <MTLTexture> _prevTexture2;
-    unsigned long long _bilateralFilterIterations;
-    _Bool _clear;
-    MPSSVGF *_svgf;
-    id <MPSSVGFTextureAllocator> _textureAllocator;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -34,9 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bilateralFilterIterations;
 @property(readonly, nonatomic) MPSSVGF *svgf; // @synthesize svgf=_svgf;
-@property(readonly, nonatomic) id <MPSSVGFTextureAllocator> textureAllocator; // @synthesize textureAllocator=_textureAllocator;
 
 @end
 

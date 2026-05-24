@@ -9,7 +9,6 @@
 @interface SMIncompatibleAppFolderData
 {
     NSArray *_appFolderData;
-    NSURL *_filePath;
 }
 
 + (id);
@@ -20,13 +19,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)8;
 - (unsigned long long);
 - (void)ñ	°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSArray *appFolderData; // @synthesize appFolderData=_appFolderData;
 @property(retain) NSURL *filePath; // @synthesize filePath=_filePath;
 
 @end

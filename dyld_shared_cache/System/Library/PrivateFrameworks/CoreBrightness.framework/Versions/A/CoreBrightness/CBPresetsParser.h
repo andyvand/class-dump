@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject;
-@protocol OS_os_log;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CBPresetsParser
 {
     NSArray *_displayList;
-    NSMutableDictionary *_displayPresets;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 + (id);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (float);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);

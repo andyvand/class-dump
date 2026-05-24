@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
+- (id)ip to;
+- (struct CGPoint)downloadingPendingSatelliteMessages;
+- (double)engramID;
+- (struct CGPoint)ame [v2];
 - (id);
 - (void);
 - (double);

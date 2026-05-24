@@ -9,14 +9,6 @@
 @interface _UNNotificationContact
 {
     NSString *_handle;
-    long long _handleType;
-    NSString *_serviceName;
-    NSString *_displayName;
-    _Bool _displayNameSuggested;
-    NSString *_customIdentifier;
-    NSString *_cnContactIdentifier;
-    NSString *_cnContactFullname;
-    _Bool _cnContactIdentifierSuggested;
 }
 
 + (id);
@@ -34,33 +26,23 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (id));
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_pipelineCompleteness;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *cnContactFullname; // @synthesize cnContactFullname=_cnContactFullname;
-@property(readonly, copy) NSString *cnContactIdentifier; // @synthesize cnContactIdentifier=_cnContactIdentifier;
-@property(readonly, getter=isCNContactIdentifierSuggested) _Bool cnContactIdentifierSuggested; // @synthesize cnContactIdentifierSuggested=_cnContactIdentifierSuggested;
-@property(readonly, copy) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(readonly, copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, getter=isDisplayNameSuggested) _Bool displayNameSuggested; // @synthesize displayNameSuggested=_displayNameSuggested;
 @property(readonly, copy) NSString *handle; // @synthesize handle=_handle;
-@property(readonly) long long handleType; // @synthesize handleType=_handleType;
-@property(readonly, copy) NSString *preferredName;
-@property(readonly, getter=isPreferredNameReal) _Bool preferredNameReal;
-@property(readonly, copy) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLFormElement, NSString;
-
 @interface DOMHTMLButtonElement : DOMHTMLElement
 {
 }
@@ -19,24 +17,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)Finance;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)method;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *accessKey;
 @property _Bool autofocus;
-@property _Bool disabled;
-@property(readonly) DOMHTMLFormElement *form;
-@property(copy) NSString *name;
-@property(copy) NSString *type;
-@property(copy) NSString *value;
-@property(readonly) _Bool willValidate;
 
 @end
 

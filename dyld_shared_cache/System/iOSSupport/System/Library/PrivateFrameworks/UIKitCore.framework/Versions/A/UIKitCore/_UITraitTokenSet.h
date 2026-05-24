@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void);
@@ -26,17 +26,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)"32C40@"NSString"44;
+- (void)ary">40;
+- (void)ionary"32@?<v@?B@"NSDictionary">40;
+- (id)ve group photo file from %@ to %@, error %@;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool)ControllerDelegate>";
 - (_Bool)ession"16B24q28;
-- (id)thAnimators;
-- (unsigned long long)tationLockEntry;
+- (id)_canEnableTrackingAnimationsWithAnimators;
+- (unsigned long long)rotationLockEntry;
 - (unsigned long long)SÈ;
 
 // Remaining properties

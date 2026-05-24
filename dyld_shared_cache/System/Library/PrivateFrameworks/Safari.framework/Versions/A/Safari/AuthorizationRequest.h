@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSData, NSString;
+@class LAContext, NSData;
 
 __attribute__((visibility("hidden")))
 @interface AuthorizationRequest
 {
     LAContext *_localAuthenticationContext;
-    long long _localAuthenticationContextCreationTime;
-    int _authorizationRight;
-    long long _localAuthenticationPolicy;
-    NSString *_titleParameter;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -37,7 +33,6 @@ __attribute__((visibility("hidden")))
 - (void)ð;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthorize;
 @property(readonly, copy, nonatomic) NSData *currentExternalizedContext;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsFeed.LatestPuzzleProvider
 {
     id puzzleService;
-    id timeZone;
 }
 
 @end

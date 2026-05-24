@@ -5,5 +5,6 @@
 //
 
 @protocol UISApplicationSupportXPCServerInterface
+- (void);
 @end
 

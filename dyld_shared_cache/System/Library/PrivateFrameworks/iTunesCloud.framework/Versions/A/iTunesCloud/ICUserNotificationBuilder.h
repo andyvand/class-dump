@@ -9,8 +9,6 @@
 @interface ICUserNotificationBuilder
 {
     NSMutableDictionary *_userNotificationDictionary;
-    long long _alertLevel;
-    double _timeoutInterval;
 }
 
 - (void);
@@ -28,11 +26,11 @@
 - (void);
 - (id);
 - (void);
+- (void)EFT OUTER JOIN album_artist USING(album_artist_pid) WHERE album_artist IS NULL AND album_artist_pid != 0;
+- (id)GER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (id);
@@ -45,17 +43,7 @@ Ooµñ8ùÉî-'*ËnéîÞWJ¦­7dô?S
 .Ùmß{a­WºÑxr¾b¾%8 M[Ä5Q>üò»]A½\©æ/À:LeJ÷c7ZbëÈ}R²O¸Kß©è»ö}´Ôµ")×¿ÊÕ®ûKS%¢A7qã*NÀIëjNöîË#&ïoeKó¯ø¢9új`	ºµvWu²Eg³¦¬Ãtå(_º@ÃfðuD2 Ö /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long alertLevel; // @synthesize alertLevel=_alertLevel;
-@property(nonatomic) _Bool allowInCar;
-@property(copy, nonatomic) NSString *alternateButtonTitle;
-@property(copy, nonatomic) NSString *defaultButtonTitle;
-@property(nonatomic) _Bool displaysActionButtonOnLockScreen;
-@property(nonatomic) _Bool displaysAsTopMost;
-@property(nonatomic) _Bool forcesModalAppearance;
 @property(copy, nonatomic) NSString *message;
-@property(copy, nonatomic) NSString *otherButtonTitle;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

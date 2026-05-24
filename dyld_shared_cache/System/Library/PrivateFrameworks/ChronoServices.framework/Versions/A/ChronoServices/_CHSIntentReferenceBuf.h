@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSArray, NSData;
+@class AFBBufRef;
 
 @interface _CHSIntentReferenceBuf
 {
     AFBBufRef *_br;
-    const struct IntentReferenceBuf *_ptr;
 }
 
-- (id);
-- (const char *);
-- (id);
-- (id);
-- (const char *);
+- (id)KN?;
+- (const char *)_kJ?;
 - (id);
 - (id);
 - (const char *);
+- (id);
+- (id);
+- (const char *);
 - (_Bool);
 - (_Bool);
+- (_Bool)1;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,8 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)!@9(!;
 - (id);
 - (_Bool);
 - (id);
@@ -42,13 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasStableHash;
-@property(readonly, nonatomic) NSArray *intentData;
-@property(readonly, nonatomic) NSData *intentDataAsData;
-@property(readonly, nonatomic) NSArray *partialIntentData;
-@property(readonly, nonatomic) NSData *partialIntentDataAsData;
-@property(readonly, nonatomic) NSArray *schemaData;
-@property(readonly, nonatomic) NSData *schemaDataAsData;
-@property(readonly, nonatomic) long long stableHash;
 
 @end
 

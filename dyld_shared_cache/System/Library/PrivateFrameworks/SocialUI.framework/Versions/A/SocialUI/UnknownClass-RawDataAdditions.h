@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (RawDataAdditions)
-- (id);
+- (id);
 @end
 

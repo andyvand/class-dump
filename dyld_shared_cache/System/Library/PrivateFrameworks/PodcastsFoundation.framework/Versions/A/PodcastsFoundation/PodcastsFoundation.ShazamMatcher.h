@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.ShazamMatcher
 {
     id session;
-    id throttledSubscriber;
-    id inputSubject;
-    id outputSubject;
-    id subscription;
 }
 
 @end

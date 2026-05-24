@@ -13,13 +13,13 @@
 
 - (void);
 - (id);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool):(id)arg1 8;
+- (void)sion _runPairVerify];
 - (id);
 - (id);
 - (void)leOperationPublisher;

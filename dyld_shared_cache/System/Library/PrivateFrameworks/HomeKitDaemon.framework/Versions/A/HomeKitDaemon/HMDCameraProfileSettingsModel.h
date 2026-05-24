@@ -4,61 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoardNotification, NSData, NSNumber, NSSet;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProfileSettingsModel
 {
     _Bool _cameraManuallyDisabled;
-    unsigned long long _currentAccessMode;
 }
 
-+ (id);
++ (id)islamicUmalqura;
+- (id)StringAsArtworkSourceType: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)sRequests"i"numberOfTimeoutsFromMediaAnalysisRequests"i};
+- (void)GMusicBag";
+- (void)ssetSuggesterScoringContext";
+- (void)xt";
+- (void)ventNode";
+- (void)@?60;
+- (unsigned long long)ghtGroupNodeCollection";
+- (unsigned long long)setLanguageIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)routineInfoPropertiesWithServiceManager: /* Error: Ran out of types for this method. */;
+- (unsigned long long)rootMemoryIsAggregation;
 - (long long);
 - (void);
 
 // Remaining properties
-@property unsigned long long accessModeAtHome;
-@property(copy) NSNumber *accessModeAtHomeField; // @dynamic accessModeAtHomeField;
-@property(readonly) _Bool accessModeChangeNotificationEnabled;
-@property(copy) NSNumber *accessModeChangeNotificationEnabledField; // @dynamic accessModeChangeNotificationEnabledField;
-@property unsigned long long accessModeNotAtHome;
-@property(copy) NSNumber *accessModeNotAtHomeField; // @dynamic accessModeNotAtHomeField;
-@property(retain) NSSet *activityZones;
-@property(copy) NSData *activityZonesField; // @dynamic activityZonesField;
-@property _Bool activityZonesIncludedForSignificantEventDetection;
-@property(copy) NSNumber *activityZonesIncludedForSignificantEventDetectionField; // @dynamic activityZonesIncludedForSignificantEventDetectionField;
-@property _Bool cameraManuallyDisabled; // @synthesize cameraManuallyDisabled=_cameraManuallyDisabled;
-@property unsigned long long currentAccessMode; // @synthesize currentAccessMode=_currentAccessMode;
-@property(readonly) _Bool hasAnyNotificationFieldsSet;
-@property(readonly) unsigned long long mostPrivateAccessMode;
-@property(readonly) _Bool reachabilityEventNotificationEnabled;
-@property(copy) NSNumber *reachabilityEventNotificationEnabledField; // @dynamic reachabilityEventNotificationEnabledField;
-@property unsigned long long recordingEventTriggers;
-@property(copy) NSNumber *recordingEventTriggersField; // @dynamic recordingEventTriggersField;
-@property(readonly) HMDBulletinBoardNotification *smartBulletinBoardNotification;
-@property(copy) NSData *smartBulletinBoardNotificationDataField; // @dynamic smartBulletinBoardNotificationDataField;
-@property long long version;
 @property(copy) NSNumber *versionField; // @dynamic versionField;
 
 @end

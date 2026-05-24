@@ -7,10 +7,6 @@
 @interface MediaPlaybackCore.PlayerItemObserver
 {
     id tracksSubscription;
-    id statusSubscription;
-    id observerNumber;
-    id observers;
-    id playerItem;
 }
 
 @end

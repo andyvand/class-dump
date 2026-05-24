@@ -11,26 +11,25 @@
 @interface VOSBluetoothLowEnergyDevice : VOSBluetoothDevice
 {
     CBPeripheral *_peripheral;
-    CBCentralManager *_centralManager;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)=z;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id)SCRSpeechSettings_SCRCustomizedLanguageIDs;
+- (long long)constraintLessThanOrEqualToAnchor:(id)arg1 constant: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)odifierCommand;
+- (_Bool)VOTEventCommandModifierCommand;
 
 // Remaining properties
 @property(readonly, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CKVocabularyItem;
 
 @interface CKVocabularySearchResult
 {
     NSObject<CKVocabularyItem> *_vocabularyItem;
-    NSString *_originAppId;
 }
 
 + (_Bool);
@@ -21,14 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)validateSpotlightIndexForLibraryExistsWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)24@0:(id)arg1 8@"_SFPBSplitCardSection"16;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *originAppId; // @synthesize originAppId=_originAppId;
 @property(readonly, nonatomic) NSObject<CKVocabularyItem> *vocabularyItem; // @synthesize vocabularyItem=_vocabularyItem;
 
 @end

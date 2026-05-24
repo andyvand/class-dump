@@ -4,54 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTDeviceSupport, IDSServerBag, IMDCKSyncState, IMDSyncTelemetryReporter, IMDefaults, IMLockdownManager, NSString;
-@protocol NSObject;
-
 @interface IMDCKUtilities
 {
     _Bool _didKeyRollPendingCheck;
-    _Bool _useDeprecatedApi;
-    IMDCKSyncState *_syncState;
-    IMLockdownManager *_lockdownManager;
-    IDSServerBag *_serverBag;
-    FTDeviceSupport *_deviceSupport;
-    IMDefaults *_imDefaults;
-    IMDSyncTelemetryReporter *_telemetryReporter;
-    id <NSObject> _serverBagFinishedLoadingObserver;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)TCCAccepted;
 + (void);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id)Chat is a 1-1 chat, but has %ld participants. Not repairing participants.;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)P;
+- (void)setShouldLearn:(_Bool)arg1;
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (id)40@48@56@64q72;
 - (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)doubleValue;
 - (id);
 - (void);
 - (id);
@@ -59,17 +48,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)!;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_TtCCC12TextToSpeech16VoiceDatabaseXPC6Server14RequestHandler;
 - (long long);
 - (_Bool);
 - (void);
@@ -88,14 +77,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)#N;
 - (long long);
-- (void);
-- (id);
-- (id);
+- (void)%@;
+- (id)MAXVALUE;
+- (id)G;
 - (_Bool);
 - (void);
 - (id);
@@ -112,38 +101,38 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)P;
+- (id);
+- (void)!;
+- (void)_;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id)`;
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -153,11 +142,32 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
+- (_Bool)ate is NULL;
+- (void)ApTicket;
+- (unsigned int)Station AMFDRDataHTTPPut with sik format is forbidden. %@-%@;
+- (id)'%@'. Expected CFBoolean.;
+- (void)gAwIBAgIGAflWiCu0MA0GCSqGSIb3DQEBCwUAMEcxEzARBgNVBAgM
+CkNhbGlmb3JuaWExEzARBgNVBAoMCkFwcGxlIEluYy4xGzAZBgNVBAMMEkZEUi1D
+QTEtUk9PVC1MT0NBTDAeFw0yMjA0MjEwODQ0MTFaFw0zMjA0MTgwODQ0MTFaMEgx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQKDApBcHBsZSBJbmMuMRAwDgYDVQQLDAdEZXZp
+Y2VzMRIwEAYDVQQDDAlGRFItTE9DQUwwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AATstM3jcCQWuq9Bg83QA8IlrIKWDtWxssWc1c4hdDg/wsmD6Xb+xb45NCRgFnBW
+SS1+dvn52D3WUU5HVS412NMxo4GHMIGEMFoGCiqGSIb3Y2QGAQ8ETDFK/4T6iZRQ
+QzBBFgRPQkpQMTn/hKKdplQMMAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
+AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
+ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
+NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
+65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
+opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
+QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
+rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
+8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
+e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
+VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
+hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
+Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
+h0Sm4iIj1I5P1NFGq/jR8A==
+-----END CERTIFICATE-----;
 - (id);
 - (id);
 - (_Bool);
@@ -166,33 +176,14 @@
 - (id)0@ù
 × ;
 - (void)0@0:(_Bool)arg1 8i16@20C28@32@40@48@56@64@72;
-- (id)romSender:guidString:date: /* Error: Ran out of types for this method. */;
+- (id)receiveHighlightEvent:fromSender:guidString:date: /* Error: Ran out of types for this method. */;
 - (void)Èt¨;
 - (void)T;
 - (void)yed:(id)arg1 '%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
 - (id)$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDeviceCharging) _Bool deviceCharging;
-@property(readonly, nonatomic, getter=isDeviceOnWifi) _Bool deviceOnWifi;
-@property(retain, nonatomic) FTDeviceSupport *deviceSupport; // @synthesize deviceSupport=_deviceSupport;
 @property(nonatomic) _Bool didKeyRollPendingCheck; // @synthesize didKeyRollPendingCheck=_didKeyRollPendingCheck;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMDefaults *imDefaults; // @synthesize imDefaults=_imDefaults;
-@property(readonly, nonatomic) _Bool isInCloudKitDemoMode;
-@property(readonly, nonatomic) _Bool isSyncingPaused;
-@property(retain, nonatomic) IMLockdownManager *lockdownManager; // @synthesize lockdownManager=_lockdownManager;
-@property(retain, nonatomic) IDSServerBag *serverBag; // @synthesize serverBag=_serverBag;
-@property(retain, nonatomic) id <NSObject> serverBagFinishedLoadingObserver; // @synthesize serverBagFinishedLoadingObserver=_serverBagFinishedLoadingObserver;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMDCKSyncState *syncState; // @synthesize syncState=_syncState;
-@property(retain, nonatomic) IMDSyncTelemetryReporter *telemetryReporter; // @synthesize telemetryReporter=_telemetryReporter;
-@property(nonatomic) _Bool useDeprecatedApi; // @synthesize useDeprecatedApi=_useDeprecatedApi;
 
 @end
 

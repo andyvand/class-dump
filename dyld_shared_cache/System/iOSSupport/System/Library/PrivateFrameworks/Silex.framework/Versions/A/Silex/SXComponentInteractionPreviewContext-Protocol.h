@@ -9,7 +9,6 @@
 @protocol SXComponentInteractionPreviewContext
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect sourceRect;
 @property(readonly, nonatomic) UIViewController *viewController;
 @end
 

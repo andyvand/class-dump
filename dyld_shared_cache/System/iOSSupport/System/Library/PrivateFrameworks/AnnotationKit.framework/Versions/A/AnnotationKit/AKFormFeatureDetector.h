@@ -12,19 +12,19 @@
     NSObject<AKFormFeatureDetectorDelegate> *_delegate;
 }
 
-+ (struct CGContext *);
++ (struct CGContext *)B;
 + (struct CGContext *);
 - (id);
-- (float *);
+- (float *);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (_Bool);
 - (CDStruct_425ba859);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

@@ -9,8 +9,6 @@
 @interface AppStoreKit.RateAction : AppStoreKit.HttpTemplateAction
 {
     id adamId;
-    id rating;
-    id useModernRatingsAPI;
 }
 
 @end

@@ -7,19 +7,13 @@
 __attribute__((visibility("hidden")))
 @interface NSNaturalCubicSplineInterpolator
 {
-    CDStruct_507282ca *_knots;
-    long long _length;
-    double *_Hi;
-    double *_Bi;
-    double *_Ci;
-    double *_Di;
-    double *_Zi;
+    CDStruct_c3b9c2ee *_knots;
 }
 
 - (double);
 - (id);
-- (double);
-- (double);
+- (double)NULL;
+- (double)sk.mm;
 - (void);
 - (void);
 

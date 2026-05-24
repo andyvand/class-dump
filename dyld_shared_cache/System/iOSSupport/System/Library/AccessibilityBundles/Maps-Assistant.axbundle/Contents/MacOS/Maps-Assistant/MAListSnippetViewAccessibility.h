@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)3;
++ (id);
 - (id);
 
 @end

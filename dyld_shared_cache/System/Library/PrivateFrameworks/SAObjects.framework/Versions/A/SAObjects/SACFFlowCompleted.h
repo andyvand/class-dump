@@ -6,7 +6,7 @@
 
 #import <SAObjects/SACFAbstractClientCommandCompleted.h>
 
-@class NSString, SACFProvideContext;
+@class NSString;
 
 @interface SACFFlowCompleted : SACFAbstractClientCommandCompleted
 {
@@ -15,16 +15,15 @@
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)t;
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)lags %#{flags};
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain;
-@property(retain, nonatomic) SACFProvideContext *updateContext;
 
 @end
 

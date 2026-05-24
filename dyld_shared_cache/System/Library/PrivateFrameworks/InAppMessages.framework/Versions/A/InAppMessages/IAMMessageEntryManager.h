@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 @interface IAMMessageEntryManager
 {
     NSDictionary *_messageEntryByIdentifier;
-    NSDictionary *_priorityMessageEntryByIdentifier;
-    NSDictionary *_messageEntriesByEventTriggers;
-    NSDictionary *_messageEntriesByContextPropertyTriggers;
-    NSDictionary *_messageEntriesByUnknownKindTriggers;
-    NSDictionary *_messageEntriesByTargetIdentifier;
-    NSArray *_messageEntries;
-    NSString *_modalTargetIdentifier;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);
@@ -38,7 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *messageEntries; // @synthesize messageEntries=_messageEntries;
-@property(copy, nonatomic) NSString *modalTargetIdentifier; // @synthesize modalTargetIdentifier=_modalTargetIdentifier;
 
 @end
 

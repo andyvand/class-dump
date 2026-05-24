@@ -5,5 +5,6 @@
 //
 
 @protocol HomeKitCore.XPCModelPublisherInterface
+- (void)CAccount";
 @end
 

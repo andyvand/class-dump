@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureStillImageSettings, NSData;
+@class FigCaptureStillImageSettings;
 
 @interface AVCaptureDeferredPhotoSettings
 {
     FigCaptureStillImageSettings *_captureSettings;
-    NSData *_serializedProcessingSettings;
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)_duchessEnabled;
+- (id)t in common;
+- (void)ild:(id)arg1 BWFrameRateGovernorNode.m:275 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) FigCaptureStillImageSettings *captureSettings; // @synthesize captureSettings=_captureSettings;
-@property(readonly, copy, nonatomic) NSData *serializedProcessingSettings; // @synthesize serializedProcessingSettings=_serializedProcessingSettings;
 
 @end
 

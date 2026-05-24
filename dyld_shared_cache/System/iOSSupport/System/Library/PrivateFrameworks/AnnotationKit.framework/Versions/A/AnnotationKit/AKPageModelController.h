@@ -4,46 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCropAnnotation, AKInkAnnotation, AKStatistics, NSArray, NSMutableOrderedSet, NSMutableSet, NSSet;
+@class AKCropAnnotation, NSMutableOrderedSet;
 
 @interface AKPageModelController
 {
     NSMutableOrderedSet *_mutableAnnotations;
-    NSMutableSet *_mutableSelectedAnnotations;
-    AKInkAnnotation *_inkCanvasAnnotation;
-    id _representedObject;
-    AKCropAnnotation *_cropAnnotation;
-    AKStatistics *_statisticsLogger;
-    struct CGRect _appliedCropRect;
 }
 
-+ (_Bool)RowViews:(id)arg1;
++ (_Bool)setRowViews:(id)arg1;
+- (id);
+- (void)>;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)"
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -58,26 +53,20 @@
 - (struct CGImage *);
 - (_Bool);
 - (id);
-- (double);
+- (double)H;
 - (void);
 - (struct CGRect);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)rectWithPredicate_IPCAction;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)er;
+- (id)rootLayer;
 
 // Remaining properties
-@property(readonly) NSArray *annotations;
-@property struct CGRect appliedCropRect; // @synthesize appliedCropRect=_appliedCropRect;
 @property(retain) AKCropAnnotation *cropAnnotation; // @synthesize cropAnnotation=_cropAnnotation;
-@property(retain) AKInkAnnotation *inkCanvasAnnotation; // @synthesize inkCanvasAnnotation=_inkCanvasAnnotation;
-@property __weak id representedObject; // @synthesize representedObject=_representedObject;
-@property(readonly) NSSet *selectedAnnotations;
-@property(nonatomic) __weak AKStatistics *statisticsLogger; // @synthesize statisticsLogger=_statisticsLogger;
 
 @end
 

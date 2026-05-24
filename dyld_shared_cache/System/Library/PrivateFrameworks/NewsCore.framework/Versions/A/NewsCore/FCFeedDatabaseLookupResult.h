@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedRange, NSArray, NSData;
+@class NSArray;
 
 @interface FCFeedDatabaseLookupResult
 {
     _Bool _exhaustedRange;
-    NSArray *_feedItems;
-    FCFeedRange *_feedRange;
-    NSData *_ckFromCursor;
-    unsigned long long _ckFromOrder;
-    unsigned long long _ckToOrder;
-    id _insertionToken;
 }
 
 - (void);
@@ -24,24 +18,18 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)er;
 - (void);
 - (void);
 - (_Bool);
-- (id)elConfig;
+- (id)_articleListTagFeedGroupOntologyLevelConfig;
 - (void)ration must have a database;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *ckFromCursor; // @synthesize ckFromCursor=_ckFromCursor;
-@property(nonatomic) unsigned long long ckFromOrder; // @synthesize ckFromOrder=_ckFromOrder;
-@property(nonatomic) unsigned long long ckToOrder; // @synthesize ckToOrder=_ckToOrder;
-@property(nonatomic) _Bool exhaustedRange; // @synthesize exhaustedRange=_exhaustedRange;
 @property(copy, nonatomic) NSArray *feedItems; // @synthesize feedItems=_feedItems;
-@property(copy, nonatomic) FCFeedRange *feedRange; // @synthesize feedRange=_feedRange;
-@property(retain, nonatomic) id insertionToken; // @synthesize insertionToken=_insertionToken;
 
 @end
 

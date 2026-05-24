@@ -7,16 +7,11 @@
 @interface ConversationKit.InCallControlsParticipantCell
 {
     id nameLabel;
-    id subtitleLabel;
-    id statusIcon;
-    id avatarView;
-    id labelStackView;
-    id subtitleStackView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)_preferredFontDescriptorWithTextStyle:weight: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -9,8 +9,6 @@
 @interface CNAutocompleteResultPartitioner
 {
     NSMutableArray *_normalResults;
-    NSMutableArray *_foundInMailResults;
-    NSMutableArray *_foundOnServersResults;
 }
 
 + (_Bool);
@@ -18,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 772:(id)arg1 Invalid message dispatched %{public}s;
+- (id);
+- (void)#K;
 
 @end
 

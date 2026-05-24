@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOUUID
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _high;
-    unsigned long long _low;
-    CDStruct_583788c5 _flags;
 }
 
 - (id);
@@ -22,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)!Aùº*ð1Â0@ù
 × ;
-- (id)thLocation:floorOrdinal: /* Error: Ran out of types for this method. */;
-- (id)dMuids;
+- (id)initWithLocation:floorOrdinal: /* Error: Ran out of types for this method. */;
+- (id)clearAddedMuids;
 - (void);
 
 @end

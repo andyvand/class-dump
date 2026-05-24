@@ -7,8 +7,6 @@
 @interface ScreenTimeCore.STOrganizationSettingsRestrictionUtilityImplementation__priv_85746A119BB273F4CF13C31ED127C550
 {
     id persistenceController;
-    id restrictionPayloadUtility;
-    id userDefaults;
 }
 
 - (id);

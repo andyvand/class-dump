@@ -9,12 +9,12 @@
     long long _status;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)AssetReaderOption_PermitNonLocalURL;
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (long long);
 

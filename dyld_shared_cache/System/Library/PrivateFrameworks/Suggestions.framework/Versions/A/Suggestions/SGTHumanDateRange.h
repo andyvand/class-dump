@@ -10,27 +10,19 @@ __attribute__((visibility("hidden")))
 @interface SGTHumanDateRange
 {
     NSString *_name;
-    NSString *_displayName;
-    NSString *_rangeString;
-    unsigned long long _unit;
-    long long _deltaFrom;
-    long long _deltaTo;
 }
 
 - (id);
 - (_Bool);
 - (id);
+- (id)q(;
 - (id);
+- (id)";
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)setUndoManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic, getter=isFuture) _Bool future;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *rangeString; // @synthesize rangeString=_rangeString;
 
 @end
 

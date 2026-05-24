@@ -5,5 +5,9 @@
 //
 
 @protocol TSKChangeSourceObserver
+
+@optional
+- (void);
+- (void);
 @end
 

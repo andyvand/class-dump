@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CTLazuliGroupChatIcon
 {
     NSString *_name;
-    NSData *_data;
-    NSString *_type;
 }
 
-+ (_Bool);
++ (_Bool)PlayerItemStallEvent:%p %@> /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SASessionHandoffPayload;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)credentialCoder;
 - (id);
-- (void);
+- (void)8@16@24;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

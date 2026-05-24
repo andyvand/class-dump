@@ -6,7 +6,7 @@
 
 @interface UnknownClass (AKCursorAdditions_Mac)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 @end

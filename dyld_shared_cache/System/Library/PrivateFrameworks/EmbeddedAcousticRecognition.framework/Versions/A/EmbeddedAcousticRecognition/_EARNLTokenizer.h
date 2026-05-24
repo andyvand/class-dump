@@ -11,26 +11,21 @@
 @interface _EARNLTokenizer : _EARTokenizer
 {
     NLTagger *_nlTagger;
-    _Bool _toLowerCase;
-    _Bool _replacePunctuation;
-    unsigned long long _tagOptions;
 }
 
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void)__objc_selrefs;
 - (id);
 - (id);
 - (id);
 - (void)ôÄ;
 
 // Remaining properties
-@property(nonatomic) _Bool replacePunctuation; // @synthesize replacePunctuation=_replacePunctuation;
-@property(nonatomic) unsigned long long tagOptions; // @synthesize tagOptions=_tagOptions;
 @property(nonatomic) _Bool toLowerCase; // @synthesize toLowerCase=_toLowerCase;
 
 @end

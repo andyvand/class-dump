@@ -7,8 +7,6 @@
 @interface ChatKit.DetailsViewPresentationState
 {
     id _navigationPath;
-    id _navigationTitle;
-    id _$observationRegistrar;
 }
 
 - (id);

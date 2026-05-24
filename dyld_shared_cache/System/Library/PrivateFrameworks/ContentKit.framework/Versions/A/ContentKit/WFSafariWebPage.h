@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface WFSafariWebPage
 {
     NSURL *_URL;
-    NSString *_pageTitle;
-    NSData *_documentHTML;
 }
 
 + (_Bool);
@@ -28,11 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy, nonatomic) NSData *documentHTML; // @synthesize documentHTML=_documentHTML;
-@property(readonly, copy, nonatomic) NSString *pageTitle; // @synthesize pageTitle=_pageTitle;
-@property(readonly, copy, nonatomic) NSData *selectionHTML;
-@property(readonly, copy, nonatomic) NSString *selectionText;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

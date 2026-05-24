@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SFClient, SFDeviceOperationHandlerCDPSetup, SFDeviceOperationHandlerCNJSetup, SFDeviceOperationHandlerWiFiSetup, SFService, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceSetupAppleTVService
 {
     _Bool _activateCalled;
-    _Bool _advertiseFast;
-    _Bool _invalidateCalled;
-    SFClient *_preventExitForLocaleClient;
-    SFService *_sfService;
-    SFSession *_sfSession;
-    SFDeviceOperationHandlerCDPSetup *_cdpSetupHandler;
-    SFDeviceOperationHandlerWiFiSetup *_wifiSetupHandler;
-    SFDeviceOperationHandlerCNJSetup *_captiveNetworkHandler;
-    _Bool _prefCDPEnabled;
-    _Bool _isCLIMode;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _progressHandler;
-    NSString *_forcedPasscode;
-    CDUnknownBlockType _appleIDSetupReportHandler;
 }
 
 - (void);
@@ -38,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
@@ -46,18 +32,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)m '%s' (PID %d), parent process '%s' (parent PID %d);
 - (void)£ºÿÿ;
-- (void)er;
+- (void)SFPairedContactManager;
 - (CDUnknownBlockType)e key;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType appleIDSetupReportHandler; // @synthesize appleIDSetupReportHandler=_appleIDSetupReportHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) NSString *forcedPasscode; // @synthesize forcedPasscode=_forcedPasscode;
-@property(nonatomic) _Bool isCLIMode; // @synthesize isCLIMode=_isCLIMode;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

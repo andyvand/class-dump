@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDReselectedRTPParameters, HMDVideoAttributes, NSData;
+@class HMDVideoAttributes;
 
 __attribute__((visibility("hidden")))
 @interface HMDReselectedVideoParameters
 {
     HMDVideoAttributes *_videoAttributes;
-    HMDReselectedRTPParameters *_rtpParameters;
 }
 
 + (_Bool)hø{XþTÿ|,},ì~0d¤d !t!°'Ø*$..x/\6X7;=´=AhD¸GàHP¨QLRèRT[´\d]^_X`¨a\b(no¼x;
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)s:(id)arg1 %s;
 - (void);
-- (void)NFCReaderIdentifierCodingKey;
+- (void)HMDHomeNFCReaderIdentifierCodingKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDReselectedRTPParameters *rtpParameters; // @synthesize rtpParameters=_rtpParameters;
-@property(readonly, copy) NSData *tlvData;
 @property(readonly, copy, nonatomic) HMDVideoAttributes *videoAttributes; // @synthesize videoAttributes=_videoAttributes;
 
 @end

@@ -6,59 +6,20 @@
 
 #import <AppKit/NSView.h>
 
-@class NSBlurryAlleywayView, NSGlassEffectView, NSLayoutConstraint, NSLayoutGuide, NSSplitViewItem, NSString, NSVisualEffectView, _NSSplitViewItemAccessoryViewWrapper;
-@protocol NSSplitViewItemAccessoryView;
+@class NSSplitViewItem;
 
 __attribute__((visibility("hidden")))
 @interface _NSSplitViewItemViewWrapper : NSView
 {
     NSSplitViewItem *_splitViewItem;
-    _NSSplitViewItemAccessoryViewWrapper *_topAccessoryWrapper;
-    _NSSplitViewItemAccessoryViewWrapper *_bottomAccessoryWrapper;
-    NSVisualEffectView *_effectView;
-    NSGlassEffectView *_glassView;
-    NSBlurryAlleywayView *_overlaySidebarExteriorPerimeterView;
-    double _minimumThickness;
-    double _maximumThickness;
-    struct NSEdgeInsets _sidebarAdditionalSafeAreaInsets;
-    double _topSidebarInset;
-    NSLayoutConstraint *_stayPutConstraint;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_minimumThicknessConstraint;
-    NSLayoutGuide *_flexibleSafeAreaLayoutGuide;
-    NSLayoutConstraint *_minimumSafeAreaThicknessConstraint;
-    NSLayoutConstraint *_leadingSafeAreaConstraint;
-    NSLayoutConstraint *_trailingSafeAreaConstraint;
-    NSLayoutConstraint *_topSafeAreaConstraint;
-    NSLayoutConstraint *_bottomSafeAreaConstraint;
-    unsigned int _isOverlaid:1;
-    unsigned int _sidebar:1;
-    unsigned int _hasBaseVibrancyEffect:1;
-    unsigned int _forceWithinWindowBlending:1;
-    unsigned int _isRegisteredWithTitlebar:1;
-    unsigned int _isPeekEngaged:1;
-    unsigned int _adjacentPeekEngaged:1;
-    unsigned int _leadingEdgeOverlaid:1;
-    unsigned int _trailingEdgeOverlaid:1;
-    unsigned int _minimumThicknessEnabled:1;
-    NSLayoutConstraint *equalBreadthConstraint;
-    NSLayoutConstraint *breadthConstraint;
-    NSLayoutConstraint *_firstEdgeConstraint;
-    NSLayoutConstraint *_lastEdgeConstraint;
-    NSLayoutConstraint *_topAccessoryBottomConstraint;
-    NSLayoutConstraint *_bottomAccessoryTopConstraint;
-    NSLayoutConstraint *_topAccessoryFirstEdgeConstraint;
-    NSLayoutConstraint *_topAccessoryLastEdgeConstraint;
-    NSLayoutConstraint *_bottomAccessoryFirstEdgeConstraint;
-    NSLayoutConstraint *_bottomAccessoryLastEdgeConstraint;
 }
 
 + (id);
 + (id);
 - (struct NSEdgeInsets);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)g;
 - (id);
 - (id);
 - (long long);
@@ -74,34 +35,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)hasPrefix:(double)arg1;
+- (void);
+- (void);
+- (void);
+- (void)st in the sealing manifest;
+- (void)'s name:(_Bool)arg1 0x%x
+;
+- (void)s or %s, actually returns %s;
+- (void)service property BatteryInstalledKey;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (id);
+- (void)_AMFDRDecodeGetPayloadSeqAndSetManifestFromMultiCombinedData;
+- (struct CGRect)yValue (sik) != instValue;
+- (id)instLength (%zu);
 - (void);
 - (double);
 - (double);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)ۂ;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (struct NSEdgeInsets);
@@ -129,29 +91,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (double);
-- (long long);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (long long)stLanes"i"fHTTPMinimumFastLanePriority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (double)"i"fHTTPPriorityNumLevels"i"fHTTPNumFastLanes"i"fHTTPMinimumFastLanePriority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (id)r<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)_sessionID;
+- (void)_sessionDescription_ivar;
+- (void)_disallowCellular;
+- (void)_didReceiveResponse:sniff: /* Error: Ran out of types for this method. */;
+- (double)_NSNetServiceWeakObject;
 - (struct NSEdgeInsets);
-- (void);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)its load has started [was %s, wants %s]!;
+- (double)twice;
+- (id)should've been invalidated;
+- (void)OSAccountResolveAuthFailure failed with error %@, canceling auth;
+- (void)handle PAT challenge;
+- (void)blic}@> appWakeUUID %@ does not match uuid %@ for session %@ with identifier %@;
 - (void);
 - (void);
 - (void);
+- (void)5;
+- (void));
 - (void)ÔAî/!ÀCùä31Â0@ù
 × ;
 - (void)}16;
@@ -160,69 +122,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool allowsFloatingLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool allowsFullHeightLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(retain) NSLayoutConstraint *bottomAccessoryFirstEdgeConstraint; // @synthesize bottomAccessoryFirstEdgeConstraint=_bottomAccessoryFirstEdgeConstraint;
-@property(retain) NSLayoutConstraint *bottomAccessoryLastEdgeConstraint; // @synthesize bottomAccessoryLastEdgeConstraint=_bottomAccessoryLastEdgeConstraint;
-@property(retain) NSLayoutConstraint *bottomAccessoryTopConstraint; // @synthesize bottomAccessoryTopConstraint=_bottomAccessoryTopConstraint;
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *bottomAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property NSLayoutConstraint *breadthConstraint; // @synthesize breadthConstraint;
-@property(readonly) double breadthInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property NSLayoutConstraint *equalBreadthConstraint; // @synthesize equalBreadthConstraint;
-@property(retain) NSLayoutConstraint *firstEdgeConstraint; // @synthesize firstEdgeConstraint=_firstEdgeConstraint;
-@property(readonly) struct NSEdgeInsets floatingSidebarInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?,R
-
-@property _Bool forceWithinWindowBlending;
-@property _Bool hasBaseVibrancyEffect;
-@property(readonly) unsigned long long hash;
-@property _Bool isRegisteredWithTitlebar;
-@property(readonly) _Bool isSidebar;
-@property(readonly) _Bool isTrailingSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(retain) NSLayoutConstraint *lastEdgeConstraint; // @synthesize lastEdgeConstraint=_lastEdgeConstraint;
-@property(getter=isLeadingEdgeOverlaid) _Bool leadingEdgeOverlaid;
-@property double maximumThickness;
-@property double minimumThickness;
-@property(getter=isOverlaid) _Bool overlaid;
-@property(getter=isSidebar) _Bool sidebar;
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?
-
 @property(readonly) struct CGRect splitFrame;
-@property(retain) NSSplitViewItem *splitViewItem;
-@property(readonly) Class superclass;
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *titlebarAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(readonly) long long titlebarSeparatorStyle;
-@property(retain) NSLayoutConstraint *topAccessoryBottomConstraint; // @synthesize topAccessoryBottomConstraint=_topAccessoryBottomConstraint;
-@property(retain) NSLayoutConstraint *topAccessoryFirstEdgeConstraint; // @synthesize topAccessoryFirstEdgeConstraint=_topAccessoryFirstEdgeConstraint;
-@property(retain) NSLayoutConstraint *topAccessoryLastEdgeConstraint; // @synthesize topAccessoryLastEdgeConstraint=_topAccessoryLastEdgeConstraint;
-@property double topSidebarInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?
-
-@property(getter=isTrailingEdgeOverlaid) _Bool trailingEdgeOverlaid;
 
 @end
 

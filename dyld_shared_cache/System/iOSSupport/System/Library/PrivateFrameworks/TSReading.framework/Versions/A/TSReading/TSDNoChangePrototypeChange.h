@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol TSSPropertySource;
-
 @interface TSDNoChangePrototypeChange
 {
     id mPrototype;
@@ -16,31 +13,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)";
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) id <TSSPropertySource> propertiesAfterChange;
-@property(readonly, retain) id <TSSPropertySource> propertiesBeforeChange;
-@property(readonly, retain) id prototype; // @synthesize prototype=mPrototype;
-@property(readonly) _Bool prototypeIsBeingDeleted;
-@property(readonly) _Bool prototypeIsBeingModified;
 @property(readonly) _Bool prototypeIsBeingReplaced;
-@property(readonly, retain) id replacement;
-@property(readonly) Class superclass;
 
 @end
 

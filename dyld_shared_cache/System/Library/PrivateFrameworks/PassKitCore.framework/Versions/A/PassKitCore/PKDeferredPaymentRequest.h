@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone, NSURL, PKDeferredPaymentSummaryItem;
+@class NSString;
 
 @interface PKDeferredPaymentRequest
 {
     NSString *_paymentDescription;
-    PKDeferredPaymentSummaryItem *_deferredBilling;
-    NSString *_billingAgreement;
-    NSURL *_managementURL;
-    NSURL *_tokenNotificationURL;
-    NSDate *_freeCancellationDate;
-    NSTimeZone *_freeCancellationDateTimeZone;
 }
 
 + (id);
 + (_Bool)î%°1Â0@ù
 × ;
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -30,30 +24,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
+- (id)b;
+- (id)Th;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)?;
+- (_Bool)hasSockInetMcastJoinOs;
 - (void);
 - (id);
-- (id);
+- (id))2	!;
 - (void)remainingMinimumPayment:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *billingAgreement; // @synthesize billingAgreement=_billingAgreement;
-@property(retain, nonatomic) PKDeferredPaymentSummaryItem *deferredBilling; // @synthesize deferredBilling=_deferredBilling;
-@property(retain, nonatomic) NSDate *freeCancellationDate; // @synthesize freeCancellationDate=_freeCancellationDate;
-@property(retain, nonatomic) NSTimeZone *freeCancellationDateTimeZone; // @synthesize freeCancellationDateTimeZone=_freeCancellationDateTimeZone;
-@property(retain, nonatomic) NSURL *managementURL; // @synthesize managementURL=_managementURL;
 @property(copy, nonatomic) NSString *paymentDescription; // @synthesize paymentDescription=_paymentDescription;
-@property(retain, nonatomic) NSURL *tokenNotificationURL; // @synthesize tokenNotificationURL=_tokenNotificationURL;
 
 @end
 

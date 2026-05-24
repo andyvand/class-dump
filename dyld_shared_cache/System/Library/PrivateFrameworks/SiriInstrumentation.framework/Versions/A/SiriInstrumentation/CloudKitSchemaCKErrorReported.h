@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CloudKitSchemaCKErrorReported : SISchemaInstrumentationMessage
 {
     int _errorType;
-    struct {
-        unsigned int errorType:1;
-    } _has;
 }
 
 - (void);
@@ -28,13 +23,11 @@
 - (_Bool);
 - (id);
 - (id)stance";
-- (id)chemaMHTrailingPacketLatencyInfo;
+- (id)MHSchemaMHTrailingPacketLatencyInfo;
 - (id)ô{p|;
 
 // Remaining properties
 @property(nonatomic) int errorType; // @synthesize errorType=_errorType;
-@property(nonatomic) _Bool hasErrorType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

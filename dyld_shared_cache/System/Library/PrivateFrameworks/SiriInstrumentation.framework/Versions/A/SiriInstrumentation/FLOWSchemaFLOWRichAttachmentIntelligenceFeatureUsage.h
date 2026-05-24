@@ -6,20 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWRichAttachmentIntelligenceFeatureUsage : SISchemaInstrumentationMessage
 {
     NSArray *_isReadingIntelligenceAttempteds;
-    NSArray *_isReadingIntelligenceUseds;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)T;
 - (_Bool);
 - (void);
 - (void);
@@ -28,11 +27,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id))
+;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id)AProcessedClockStatistics";
 - (id)_batchNumChunks;
@@ -41,8 +41,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *isReadingIntelligenceAttempteds; // @synthesize isReadingIntelligenceAttempteds=_isReadingIntelligenceAttempteds;
-@property(copy, nonatomic) NSArray *isReadingIntelligenceUseds; // @synthesize isReadingIntelligenceUseds=_isReadingIntelligenceUseds;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

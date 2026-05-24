@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class INDateComponentsRange, NSArray;
 
 @protocol INSearchForPhotosIntentExport
-- (void)geNotFound;
+- (void)+;
+- (unsigned long long);
+- (NSArray *)e;
+- (void)INEditMessageIntentResponseCodeFailureMessageNotFound;
 
 // Remaining properties
-@property(copy) NSArray *activities;
-@property(readonly) long long activitiesOperator;
-@property(copy) NSString *albumName;
 @property(copy) INDateComponentsRange *dateCreated;
-@property(copy) NSArray *events;
-@property(readonly) long long eventsOperator;
-@property unsigned long long excludedAttributes;
-@property(copy) NSArray *geographicalFeatures;
-@property(readonly) long long geographicalFeaturesOperator;
-@property unsigned long long includedAttributes;
-@property(copy) CLPlacemark *locationCreated;
-@property(copy) NSString *memoryName;
-@property(copy) NSArray *peopleInPhoto;
-@property(copy) NSArray *places;
-@property(readonly) long long placesOperator;
-@property(copy) NSArray *searchTerms;
 @end
 

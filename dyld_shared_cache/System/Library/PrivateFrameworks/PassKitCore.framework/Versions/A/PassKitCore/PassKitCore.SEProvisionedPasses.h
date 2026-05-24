@@ -9,22 +9,12 @@
 @interface PassKitCore.SEProvisionedPasses
 {
     id externalProvisioningMode;
-    id isExpressModeSetupOptional;
-    id isExpressEnabled;
-    id cardIdentifier;
-    id notificationSuppressionAssertion;
-    id contactlessInterfaceSuppressionAssertion;
-    id provisioningTemplateIdentifier;
-    id passUniqueIdentifiers;
-    id passesForUniqueIdentifier;
-    id moreInfoItemsForPass;
-    id suppressMakeDefaultOfferForPass;
 }
 
 + (void);
 + (_Bool);
-- (void);
-- (void);
+- (void)�;
+- (void)_;
 - (id);
 - (id);
 - (id);

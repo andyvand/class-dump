@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBSearchForContactIntent
 {
     struct _has;
-    NSArray *_contactIdentifiers;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)onServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)u;
+- (_Bool)=;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)nancialAccountValue",&,N,V_toAccount;
-- (void)CodeFailureTimerAlreadyPaused;
+- (void)INPauseTimerIntentResponseCodeFailureTimerAlreadyPaused;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, nonatomic) unsigned long long contactIdentifiersCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

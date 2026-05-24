@@ -4,62 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPDFPageImageCache;
-@protocol NSObject><UIPDFDocumentDelegate;
-
 @interface UIPDFDocument
 {
     struct CGPDFDocument *_cgDocument;
-    unsigned long long _numberOfPages;
-    double _cachedWidth;
-    double _cachedHeight;
-    NSString *_documentID;
-    NSString *_documentName;
-    UIPDFPageImageCache *_pageImageCache;
-    unsigned long long _imageCacheCount;
-    unsigned long long _imageCacheLookAhead;
-    double _imageCacheResolution;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _imageCacheLock;
-    UIPDFPageImageCache *_thumbnailCache;
-    struct os_unfair_lock_s _thumbnailLock;
-    id <NSObject><UIPDFDocumentDelegate> _delegate;
 }
 
 + (id);
-- (void);
+- (void)IMDChatMemberStatusChangeContext;
 - (id);
 - (double);
-- (double);
+- (double)Xy;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGPDFDocument *);
+- (void)ed to retrieve file URLs for %{public}ld items:(unsigned long long)arg1 %@ - item identifiers:%s /* Error: Ran out of types for this method. */;
+- (id)deviceConditionsAllowSync %@;
+- (id)onID:(struct CGPDFDocument *)arg1 %@;
+- (id)dle:(struct CGPDFDocument *)arg1 %@, senderName:%@, conversationID:%@ /* Error: Ran out of types for this method. */;
+- (id)spondWithText:(unsigned long long)arg1 %@ didMarkAsRead :%@ while screentime not allowed for chatIdentifier:%@. returning early. /* Error: Ran out of types for this method. */;
+- (struct CGPDFDocument *)st contains biz id. participants:%@ /* Error: Ran out of types for this method. */;
 - (struct CGPDFDocument *);
 - (_Bool);
+- (id)state output.;
 - (id);
-- (id);
-- (void);
+- (void)_payloadADWarnUserBeforeCreatingMAFlag;
 - (double);
 - (id)0@ù
 × ;
 - (void)leHidden"b1"receivedTextInputUpdate"b1"isPresentingOrDismissingKeyboard"b1};
 - (id)onary",R,N,V_itemViews;
 - (double)ÍüÍHÏ;
-- (unsigned long long);
+- (unsigned long long)PQj;
 
 // Remaining properties
-@property(readonly) struct CGPDFDocument *CGDocument; // @synthesize CGDocument=_cgDocument;
-@property(nonatomic) id <NSObject><UIPDFDocumentDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *documentID; // @dynamic documentID;
 @property(readonly) unsigned long long numberOfPages; // @dynamic numberOfPages;
-@property(retain) UIPDFPageImageCache *pageImageCache; // @dynamic pageImageCache;
-@property(retain) UIPDFPageImageCache *thumbnailCache; // @dynamic thumbnailCache;
 
 @end
 

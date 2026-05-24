@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DESUserDefaultsStoreRecord, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface DESDebugRecord
 {
     NSMutableDictionary *_debugInfo;
-    DESUserDefaultsStoreRecord *_storeRecord;
-    NSString *_recordID;
 }
 
-+ (id);
++ (id)edParameterSets.parameters.candidate.value.value.entity.typeIdentifier.custom.bundleId;
+- (id)er.custom.bundleId;
+- (id)equest.statementResults.payload.outcome.success.returnValue.value.entity.typeIdentifier.custom.bundleId;
+- (id)oad.outcome.success.returnValue.value.primitive.app.bundleId;
+- (id)ollection.values.enumeration.typeIdentifier.custom.bundleId;
+- (_Bool)ier.custom.bundleId;
+- (void)essionName.structuredSearch.returnType.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)IDDiagnosticsMessageTypeOSPSessionUUID;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *debugInfo;
 @property(readonly, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
 
 @end

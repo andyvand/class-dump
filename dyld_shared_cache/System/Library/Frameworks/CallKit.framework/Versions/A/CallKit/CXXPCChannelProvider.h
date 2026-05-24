@@ -6,17 +6,14 @@
 
 #import <CallKit/CXChannelProvider.h>
 
-@class BSServiceConnection, CXChannelServiceDefinition, NSObject;
-@protocol OS_dispatch_queue;
+@class BSServiceConnection;
 
 @interface CXXPCChannelProvider : CXChannelProvider
 {
     BSServiceConnection *_connection;
-    CXChannelServiceDefinition *_definition;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -24,13 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e=}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) BSServiceConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) CXChannelServiceDefinition *definition; // @synthesize definition=_definition;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

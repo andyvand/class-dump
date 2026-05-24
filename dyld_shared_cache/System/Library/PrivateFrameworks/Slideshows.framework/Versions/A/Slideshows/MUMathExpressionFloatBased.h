@@ -15,13 +15,13 @@
 + (float);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities;
+- (void)ex;
+- (void)ithCompletion:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (float);
-- (void);
+- (void)?;
 - (id);
 - (float);
 - (_Bool);

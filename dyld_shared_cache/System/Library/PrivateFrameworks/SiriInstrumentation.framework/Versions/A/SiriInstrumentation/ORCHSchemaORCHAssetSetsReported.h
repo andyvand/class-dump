@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ORCHSchemaORCHAssetSetsReported : SISchemaInstrumentationMessage
 {
@@ -16,7 +16,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,12 +28,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)erenceTimeInMs;
+- (id)_answerSynthesisModelInferenceTimeInMs;
 - (id)echID;
 - (void)aphTier1.usoGraphTier1.linkedUsoNodeDatas.normalizedStringPayloads;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *uafAssetSets; // @synthesize uafAssetSets=_uafAssetSets;
 
 @end

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)lìXB;
-- (id);
+- (id)T@"NSObject<MSPSenderETAControllerDelegate>",W,N,V_delegate;
 - (void);
 - (void);
 - (void);
@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Direct;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMDRemoteLoginReceiverAuthenticationDelegate> delegate; // @synthesize delegate=_delegate;

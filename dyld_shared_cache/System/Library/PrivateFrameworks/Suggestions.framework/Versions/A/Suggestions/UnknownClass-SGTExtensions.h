@@ -7,9 +7,9 @@
 @interface UnknownClass (SGTExtensions)
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)k`;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -24,7 +24,7 @@
 - (struct _NSRange);
 - (struct _NSRange);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);

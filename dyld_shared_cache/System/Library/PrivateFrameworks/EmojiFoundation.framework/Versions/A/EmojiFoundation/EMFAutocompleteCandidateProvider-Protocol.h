@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol EMFAutocompleteCandidateProvider
+- (_Bool)%@
+;
+- (NSString *)(menu);
+- (void)/www.macromedia.com, http:(NSString *)arg1 //www.alistapart.com, http:(long long)arg2 //www.msn.com;
 @end
 

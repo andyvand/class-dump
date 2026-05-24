@@ -4,37 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMediaLinkPositionMetaData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMediaLink
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_adamId;
-    GEOPDMediaLinkPositionMetaData *_mediaLinkPositionMetaData;
-    NSString *_subId;
-    NSMutableArray *_thirdPartyLinks;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _mediaSubType;
-    int _mediaType;
-    struct {
-        unsigned int has_mediaSubType:1;
-        unsigned int has_mediaType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_adamId:1;
-        unsigned int read_mediaLinkPositionMetaData:1;
-        unsigned int read_subId:1;
-        unsigned int read_thirdPartyLinks:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_audioSessionInfoObservers;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

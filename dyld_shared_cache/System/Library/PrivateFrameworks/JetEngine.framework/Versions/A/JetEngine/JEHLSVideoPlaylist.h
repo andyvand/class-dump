@@ -4,50 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-
 @interface JEHLSVideoPlaylist
 {
     unsigned long long _startPosition;
-    NSMutableArray *_rollItems;
-    NSArray *_mainFeatureMetricsData;
 }
 
+- (void);
 - (void);
-- (void);
+- (id)l;
+- (id);
+- (id)^m;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (void);
+- (void),;
 - (void);
 - (void);
+- (void),q;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id),q;
 - (void);
 - (unsigned long long);
-- (void)CharValue;
+- (void)unsignedCharValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *eventData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *mainFeatureMetricsData; // @synthesize mainFeatureMetricsData=_mainFeatureMetricsData;
-@property(retain, nonatomic) NSMutableArray *rollItems; // @synthesize rollItems=_rollItems;
 @property(nonatomic) unsigned long long startPosition; // @synthesize startPosition=_startPosition;
-@property(readonly) Class superclass;
 
 @end
 

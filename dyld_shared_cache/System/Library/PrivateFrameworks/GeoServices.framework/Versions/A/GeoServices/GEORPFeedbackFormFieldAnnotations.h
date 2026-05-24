@@ -11,28 +11,27 @@
     NSString *_keyString;
 }
 
-+ (_Bool):(id)arg1;
-- (_Bool);
++ (_Bool)setIsVlfImprovementUsed:(id)arg1;
+- (_Bool)c;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (id)Feedback";
-- (id)tIndex: /* Error: Ran out of types for this method. */;
+- (id)announcementAtIndex: /* Error: Ran out of types for this method. */;
 - (id)¼îïÜïð;
 - (void)th the server (%@);
-- (id)oids_highways;
-- (id)D_VIEW;
+- (id)avoids_highways;
+- (id)LOOK_AROUND_VIEW;
 - (void)¥Ü}M@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKeyString;
-@property(retain, nonatomic) NSString *keyString;
 
 @end
 

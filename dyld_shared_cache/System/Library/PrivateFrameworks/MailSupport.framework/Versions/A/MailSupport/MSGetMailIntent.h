@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSString;
-
 @interface MSGetMailIntent
 {
 }
@@ -13,8 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) long long readStatus; // @dynamic readStatus;
-@property(copy, nonatomic) INPerson *recipient; // @dynamic recipient;
-@property(copy, nonatomic) INPerson *sender; // @dynamic sender;
-@property(copy, nonatomic) NSString *subject; // @dynamic subject;
 @end
 

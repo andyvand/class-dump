@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCRecommendedCategory
 {
     NSString *_identifier;
-    NSString *_name;
-    NSArray *_topicTagIDs;
-    NSArray *_channelTagIDs;
-    NSArray *_subcategories;
-    NSArray *_curatedTagIDs;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ore.framework/Versions/A/PhotosSwiftUICore;
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)MapsSuggestionsHideSuppressionTimeIntervalForUserPlaceKey;
+- (_Bool)fastDiscoveryConfigEqual:(id)arg1;
 - (id);
 - (void)eed requests must have a feed ID;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *channelTagIDs; // @synthesize channelTagIDs=_channelTagIDs;
-@property(readonly, nonatomic) NSArray *curatedTagIDs; // @synthesize curatedTagIDs=_curatedTagIDs;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *subcategories; // @synthesize subcategories=_subcategories;
-@property(readonly, nonatomic) NSArray *topicTagIDs; // @synthesize topicTagIDs=_topicTagIDs;
 
 @end
 

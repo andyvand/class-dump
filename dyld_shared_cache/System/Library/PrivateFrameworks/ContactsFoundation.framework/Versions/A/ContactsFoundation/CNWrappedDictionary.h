@@ -11,10 +11,10 @@
     NSDictionary *_underlyingDictionary;
 }
 
+- (id)@	;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)76;
 - (unsigned long long);
 - (void);
 

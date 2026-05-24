@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentShareableCredential.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKPaymentExternalOfferCredential : PKPaymentShareableCredential
 {
     _Bool _didSelectOffer;
-    NSURL *_passThumbnailImageURL;
-    NSString *_criteriaIdentifier;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void)ordValue>"16^B24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(readonly, nonatomic) _Bool didSelectOffer; // @synthesize didSelectOffer=_didSelectOffer;
 @property(readonly, nonatomic) NSURL *passThumbnailImageURL; // @synthesize passThumbnailImageURL=_passThumbnailImageURL;
 
 @end

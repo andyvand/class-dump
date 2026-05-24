@@ -7,11 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFileListNode
 {
     id _previous;
-    id _next;
-    id _key;
-    id _value;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

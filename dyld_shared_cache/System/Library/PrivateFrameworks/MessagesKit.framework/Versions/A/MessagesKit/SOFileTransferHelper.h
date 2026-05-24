@@ -6,17 +6,15 @@
 
 #import <MessagesKit/SOHelper.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface SOFileTransferHelper : SOHelper
 {
     NSMutableDictionary *_guidToResolvedBookmarkMap;
-    NSObject<OS_dispatch_queue> *_workerQueue;
 }
 
 + (id);
-+ (id);
++ (id)`";
 - (id);
 - (id);
 - (void);
@@ -37,7 +35,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *guidToResolvedBookmarkMap; // @synthesize guidToResolvedBookmarkMap=_guidToResolvedBookmarkMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workerQueue; // @synthesize workerQueue=_workerQueue;
 
 @end
 

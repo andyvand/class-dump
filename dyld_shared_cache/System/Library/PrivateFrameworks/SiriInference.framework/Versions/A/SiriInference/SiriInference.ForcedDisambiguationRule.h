@@ -7,9 +7,6 @@
 @interface SiriInference.ForcedDisambiguationRule
 {
     id samplingRate;
-    id randomNumGenerator;
-    id inferenceUserDefaults;
-    id isDisagnosticSubissionAllowed;
 }
 
 @end

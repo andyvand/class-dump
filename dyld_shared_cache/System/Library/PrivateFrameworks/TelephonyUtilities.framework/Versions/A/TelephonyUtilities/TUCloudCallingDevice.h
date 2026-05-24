@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TUCloudCallingDevice
 {
     _Bool _defaultPairedDevice;
-    _Bool _supportsRestrictingSecondaryCalling;
-    NSString *_name;
-    NSString *_modelIdentifier;
-    NSString *_uniqueID;
-    NSArray *_linkedUserURIs;
 }
 
 + (_Bool);
@@ -27,22 +22,17 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)H>;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)DodgingFrame:alignment: /* Error: Ran out of types for this method. */;
-- (id)agerDelegate;
+- (void)<;
+- (void)screenSharingAppURLDodgingFrame:alignment: /* Error: Ran out of types for this method. */;
+- (id)TUCollaborationManagerDelegate;
 
 // Remaining properties
-@property(nonatomic, getter=isDefaultPairedDevice) _Bool defaultPairedDevice; // @synthesize defaultPairedDevice=_defaultPairedDevice;
-@property(copy, nonatomic) NSArray *linkedUserURIs; // @synthesize linkedUserURIs=_linkedUserURIs;
-@property(copy, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool supportsRestrictingSecondaryCalling; // @synthesize supportsRestrictingSecondaryCalling=_supportsRestrictingSecondaryCalling;
-@property(copy, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end
 

@@ -9,17 +9,16 @@
 @interface NSInputServer
 {
     NSString *_name;
-    id _delegate;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)w divert token;
+- (void));
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)__TEXT;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,9 +28,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)backgroundTask:(SEL)arg1 didReceiveChallenge:(id)arg2 reply: /* Error: Ran out of types for this method. */;
+- (void)NSURL",C,D;
+- (_Bool)werThanLastAccess;
 - (void);
 - (void);
 - (void);

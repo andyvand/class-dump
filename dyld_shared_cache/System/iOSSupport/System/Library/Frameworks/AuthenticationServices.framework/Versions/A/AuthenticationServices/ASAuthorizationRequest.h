@@ -16,10 +16,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (void)(;
+- (id)donateInteractionWithCompletion:(struct _NSZone *)arg1;
+- (id)Y�;
 - (void);
 
 // Remaining properties

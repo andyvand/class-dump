@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaMARRSQueryRewriteEvaluatedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_rewrittenUserUtterances;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -23,13 +21,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)e SSL server;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,10 +39,7 @@
 - (void)Ã;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *rewrittenUserUtterances; // @synthesize rewrittenUserUtterances=_rewrittenUserUtterances;
 
 @end
 

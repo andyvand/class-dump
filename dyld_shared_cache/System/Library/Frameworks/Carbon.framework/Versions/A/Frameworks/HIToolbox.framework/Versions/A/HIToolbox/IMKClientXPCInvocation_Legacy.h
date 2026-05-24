@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKClientInvocationSentinel_Legacy;
-
 __attribute__((visibility("hidden")))
 @interface IMKClientXPCInvocation_Legacy
 {
     _Bool _request_reply_done;
-    _Bool _timedOut;
-    SEL _callerSelector;
-    struct __CFRunLoopTimer *_replyTimer;
-    IMKClientInvocationSentinel_Legacy *_sentinel;
-    double _timeout;
 }
 
 + (id);
@@ -26,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

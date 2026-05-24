@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSThread;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CWFApple80211
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSThread *_callbackThread;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct _Apple80211 *_a11Ref;
-    NSMutableDictionary *_mutableInterfaceNameEventMap;
-    _Bool _isMonitoringEvents;
-    int _virtualInterfaceRole;
-    NSString *_interfaceName;
-    NSString *_virtualInterfaceParent;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)thumbnailIconForRequest:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_AKDismissableView;
 - (void);
 - (id);
 - (id);
@@ -48,13 +39,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)32;
 - (id);
 - (id);
+- (id)	);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)yDescriptions;
+- (id)AAErrorDetailsProxiedDeviceData;
 - (id);
 - (id);
 - (id);
@@ -81,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -93,14 +84,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)willHandleURL:(id *)arg1 responseCode:callerBundleIdentifier:profile: /* Error: Ran out of types for this method. */;
+- (id)3;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)l;
+- (id)"8@"NSRegularExpression"16^B24;
+- (id)amo (il)?|guardare (il)?|vedere (il)?|vediamo (il)?) pallacanestro;
+- (id);
+- (id)cation Data Reader]:(id *)arg1 updated handshake status to [%s]:[%d] /* Error: Ran out of types for this method. */;
+- (id)hs;
+- (id)readDataFromBandEntry:(id *)arg1 phase II :read %ld bytes into %p
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -111,14 +110,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
@@ -129,16 +121,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)onary:(id *)arg1;
+- (id)dictionaryWithDictionary:(id *)arg1;
 - (id)t;
 - (void)D!,"à";
 - (id)´;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(readonly, copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, copy, nonatomic) NSString *virtualInterfaceParent; // @synthesize virtualInterfaceParent=_virtualInterfaceParent;
-@property(readonly, nonatomic) int virtualInterfaceRole; // @synthesize virtualInterfaceRole=_virtualInterfaceRole;
 
 @end
 

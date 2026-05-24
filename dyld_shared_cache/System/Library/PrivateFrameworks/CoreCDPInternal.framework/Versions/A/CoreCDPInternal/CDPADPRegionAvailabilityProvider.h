@@ -11,8 +11,8 @@
     AKWalrusConfigProvider *_configProvider;
 }
 
-- (void);
-- (id);
+- (void)ScrollViewPlusScrollObserver;
+- (id)ReaderAppearanceViewControllerDelegate;
 - (void);
 
 @end

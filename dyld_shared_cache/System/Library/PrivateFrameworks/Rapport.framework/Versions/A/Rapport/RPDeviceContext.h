@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RPDevice, RPLegacyDeviceDiscovery, RPLegacySession;
+@class RPDevice;
 
 __attribute__((visibility("hidden")))
 @interface RPDeviceContext
 {
     _Bool _reported;
-    int _state;
-    RPDevice *_device;
-    RPLegacyDeviceDiscovery *_discovery;
-    RPLegacySession *_session;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)9r;
 - (id);
 - (id);
 - (void);
 - (void);
-- (int);
-- (void);
+- (int)`;
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) RPDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) RPLegacyDeviceDiscovery *discovery; // @synthesize discovery=_discovery;
-@property(nonatomic) _Bool reported; // @synthesize reported=_reported;
-@property(retain, nonatomic) RPLegacySession *session; // @synthesize session=_session;
-@property(nonatomic) int state; // @synthesize state=_state;
 
 @end
 

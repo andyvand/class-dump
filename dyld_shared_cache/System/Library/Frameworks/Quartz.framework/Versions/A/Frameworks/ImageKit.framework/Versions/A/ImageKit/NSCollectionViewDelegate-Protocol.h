@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCollectionView, NSCollectionViewItem, NSIndexPath;
+@protocol NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (unsigned long long);
+- (void);
+- (void)UUID:(NSCollectionView *)arg1 %@ dateStartedConnecting:(NSCollectionViewItem *)arg2 %@;
+- (id <NSPasteboardWriting>)generatePaintCacheForStroke:(NSCollectionView *)arg1 animatingStroke:(NSIndexPath *)arg2 segmentSteps:liveStrokePoints:liveStrokeStartTime:duration: /* Error: Ran out of types for this method. */;
 @end
 

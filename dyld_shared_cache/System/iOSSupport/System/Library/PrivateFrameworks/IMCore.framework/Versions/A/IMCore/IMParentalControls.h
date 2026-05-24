@@ -9,19 +9,15 @@
 @interface IMParentalControls
 {
     _Bool _shouldPostNotifications;
-    _Bool _active;
-    _Bool _disableAV;
-    _Bool _forceChatLogging;
-    NSMutableDictionary *_parentalControls;
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)`";
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)/k;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,21 +30,15 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`";
 - (_Bool);
-- (id);
+- (id)i"A)	k!;
 - (void);
 - (_Bool)teMyStatus:message:] /* Error: Ran out of types for this method. */;
 - (_Bool)À;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _disableAV; // @synthesize _disableAV;
-@property(readonly, nonatomic) _Bool _forceChatLogging; // @synthesize _forceChatLogging;
 @property(readonly, nonatomic) NSMutableDictionary *_parentalControls; // @synthesize _parentalControls;
-@property(readonly, nonatomic) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) _Bool disableAV;
-@property(readonly, nonatomic) _Bool forceChatLogging;
-@property(nonatomic) _Bool shouldPostNotifications; // @synthesize shouldPostNotifications=_shouldPostNotifications;
 
 @end
 

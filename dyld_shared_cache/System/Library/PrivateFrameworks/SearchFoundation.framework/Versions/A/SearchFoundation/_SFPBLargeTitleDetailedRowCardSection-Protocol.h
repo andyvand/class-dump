@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBButtonItem, _SFPBColor, _SFPBRichText;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBLargeTitleDetailedRowCardSection
+- (NSString *);
+- (_Bool)initWithURL:cachePolicy:timeoutInterval: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithRequestContext:seedItemID:isLibraryID:maxResultCount: /* Error: Ran out of types for this method. */;
+- (void)shouldBeInterruptedAfterDeemphasizedPlaybackStarts;
+- (NSData *)vate;
 - (int)þ;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBButtonItem *subtitleButtonItem;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(copy, nonatomic) NSArray *trailingButtonItems;
-@property(copy, nonatomic) NSString *type;
 @end
 

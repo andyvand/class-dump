@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSUserDefaults;
-@protocol AAAccountStoreProxyProtocol;
+@class ACAccountStore;
 
 @interface AADataclassManager
 {
     ACAccountStore *_store;
-    id <AAAccountStoreProxyProtocol> _storeProxy;
-    NSUserDefaults *_userDefaults;
 }
 
-+ (id);
++ (id)CertRefsFromKeychain SecKeychainGetStatus returned %d;
 + (id);
 
 // Remaining properties
 @property(retain, nonatomic) ACAccountStore *store; // @synthesize store=_store;
-@property(retain, nonatomic) id <AAAccountStoreProxyProtocol> storeProxy; // @synthesize storeProxy=_storeProxy;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

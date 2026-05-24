@@ -6,22 +6,20 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectMapTitle : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
+- (_Bool)r"8@"NSDate"16^B24;
+- (id)TelemetryUploader;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (void)ingIDs;
 

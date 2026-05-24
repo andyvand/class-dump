@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRListAppearanceGridView
 {
     id preferredMaxLayoutWidth;
-    id horizontalMargins;
-    id topMargin;
-    id arrangedSubviews;
-    struct CGSize badgeSize;
-    double minimumGap;
-    id verticalGap;
 }
 
 - (void);
@@ -21,18 +15,14 @@
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (_Bool);
 - (id);
 - (void)tingP;
 - (void)ingPresenter.loadThumbnails:failed to load pending image for:%@, {error:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowsVibrancy;
-@property(nonatomic) struct CGSize badgeSize; // @synthesize badgeSize;
-@property(nonatomic, readonly) _Bool flipped;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) double minimumGap; // @synthesize minimumGap;
 
 @end
 

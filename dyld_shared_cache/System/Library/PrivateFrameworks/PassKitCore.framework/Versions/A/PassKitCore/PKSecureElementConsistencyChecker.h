@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKPaymentWebService;
-@protocol OS_dispatch_queue, PKCloudStoreCoordinatorDelegate, PKSecureElementConsistencyCheckerDelegate;
+@protocol PKCloudStoreCoordinatorDelegate, PKSecureElementConsistencyCheckerDelegate;
 
 @interface PKSecureElementConsistencyChecker
 {
     id <PKCloudStoreCoordinatorDelegate> _cloudStoreCoordinatorDelegate;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    _Atomic _Bool _didStart;
-    _Atomic _Bool _invalidated;
-    id <PKSecureElementConsistencyCheckerDelegate> _delegate;
-    PKPaymentWebService *_paymentWebService;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)T)M;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)@y	;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)NE_MONTHS_MESSAGE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_MESSAGE;
 
 // Remaining properties
 @property(nonatomic) id <PKSecureElementConsistencyCheckerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) PKPaymentWebService *paymentWebService; // @synthesize paymentWebService=_paymentWebService;
 
 @end
 

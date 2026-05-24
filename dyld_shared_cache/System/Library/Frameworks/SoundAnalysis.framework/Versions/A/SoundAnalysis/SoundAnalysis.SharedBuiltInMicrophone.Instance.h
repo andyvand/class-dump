@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SharedBuiltInMicrophone.Instance
 {
     id unsafePublisher;
-    id channelCount;
-    id sampleRate;
 }
 
 @end

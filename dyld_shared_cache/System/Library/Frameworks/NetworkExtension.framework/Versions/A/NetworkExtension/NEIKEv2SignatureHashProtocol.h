@@ -11,7 +11,7 @@
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)os_activity_scope_state_s;
 - (unsigned long long);
 - (_Bool);
 - (id);

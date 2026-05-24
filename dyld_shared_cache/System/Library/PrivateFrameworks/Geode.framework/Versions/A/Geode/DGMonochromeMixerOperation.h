@@ -9,9 +9,6 @@
 @interface DGMonochromeMixerOperation : DGOperation
 {
     long long _inputType;
-    double _inputRValue;
-    double _inputGValue;
-    double _inputBValue;
 }
 
 + (id);
@@ -24,16 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)_Nullable __strong));
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double inputBValue; // @synthesize inputBValue=_inputBValue;
-@property(nonatomic) double inputGValue; // @synthesize inputGValue=_inputGValue;
-@property(nonatomic) double inputRValue; // @synthesize inputRValue=_inputRValue;
 @property(nonatomic) long long inputType; // @synthesize inputType=_inputType;
 
 @end

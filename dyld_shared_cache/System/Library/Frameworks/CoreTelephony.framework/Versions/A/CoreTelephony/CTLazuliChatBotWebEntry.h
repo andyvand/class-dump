@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CTLazuliChatBotWebEntry
 {
     NSString *_label;
-    NSURL *_url;
 }
 
-+ (_Bool);
++ (_Bool)ntInitiated:%d mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)LACRemoteContext;
 - (id);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

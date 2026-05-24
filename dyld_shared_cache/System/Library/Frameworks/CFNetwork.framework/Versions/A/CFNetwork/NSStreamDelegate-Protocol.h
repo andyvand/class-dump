@@ -5,5 +5,8 @@
 //
 
 @protocol NSStreamDelegate
+
+@optional
+- (void);
 @end
 

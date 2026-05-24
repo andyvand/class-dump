@@ -6,23 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUEIDictationVoiceCommandUndoTapAction : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_voiceCommandId;
-    _Bool _isUndoTapAlternativeSelection;
-    struct {
-        unsigned int isUndoTapAlternativeSelection:1;
-    } _has;
-    _Bool _hasVoiceCommandId;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9	A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,21 +25,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)deliverEngagementRequest:withResultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)uid  ;
 - (id);
 - (id);
-- (id)allContext;
-- (id);
-- (void)TE;
+- (id)deleteExecutorIdentifierQueryCallContext;
+- (id)_hasAudioType;
+- (void)NLROUTERDECISIONTYPE_QUERY_REWRITE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsUndoTapAlternativeSelection;
-@property(nonatomic) _Bool hasVoiceCommandId; // @synthesize hasVoiceCommandId=_hasVoiceCommandId;
-@property(nonatomic) _Bool isUndoTapAlternativeSelection; // @synthesize isUndoTapAlternativeSelection=_isUndoTapAlternativeSelection;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *voiceCommandId; // @synthesize voiceCommandId=_voiceCommandId;
 
 @end

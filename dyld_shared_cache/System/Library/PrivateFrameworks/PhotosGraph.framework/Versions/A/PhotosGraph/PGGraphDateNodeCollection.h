@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSArray, NSDateInterval, PGGraphDayNodeCollection, PGGraphHolidayNodeCollection, PGGraphMomentNodeCollection, PGGraphMonthDayNodeCollection, PGGraphMonthNodeCollection, PGGraphSeasonNodeCollection, PGGraphWeekOfMonthNodeCollection, PGGraphWeekOfYearNodeCollection, PGGraphYearNodeCollection;
+@class PGGraphYearNodeCollection;
 
 @interface PGGraphDateNodeCollection : PGGraphNodeCollection
 {
@@ -17,27 +17,17 @@
 + (Class);
 - (id);
 - (id);
+- (id)rangeForUIElement: /* Error: Ran out of types for this method. */;
+- (id)S_setDelegateQueue:,V__delegateQueue /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)r	j;
 - (id);
 - (id);
 - (id)gÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *dateNames;
-@property(readonly, nonatomic) PGGraphDayNodeCollection *dayNodes;
-@property(readonly, nonatomic) PGGraphHolidayNodeCollection *holidayNodes;
-@property(readonly, nonatomic) NSDateInterval *localDateInterval;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphMonthDayNodeCollection *monthDayNodes;
-@property(readonly, nonatomic) PGGraphMonthNodeCollection *monthNodes;
-@property(readonly, nonatomic) PGGraphSeasonNodeCollection *seasonNodes;
-@property(readonly, nonatomic) PGGraphWeekOfMonthNodeCollection *weekOfMonthNodes;
-@property(readonly, nonatomic) PGGraphWeekOfYearNodeCollection *weekOfYearNodes;
 @property(readonly, nonatomic) PGGraphYearNodeCollection *yearNodes;
 
 @end

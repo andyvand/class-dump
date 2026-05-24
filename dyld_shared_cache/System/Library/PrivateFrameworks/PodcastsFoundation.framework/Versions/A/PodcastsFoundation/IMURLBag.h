@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBag, AMSProcessInfo, AMSSnapshotBag, IMMutableBagKeySet, NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AMSBag;
 
 @interface IMURLBag
 {
     long long _downloadLimitPodcast;
-    long long _downloadLimitVideoPodcast;
-    double _libraryShowFetchThresholdDefaultValue;
-    AMSBag *_liveBag;
-    AMSSnapshotBag *_currentSnapshot;
-    IMMutableBagKeySet *_keySet;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _failedUpdateAttempts;
 }
 
-+ (void);
++ (void)aA;
 + (id)W§Vy¡8$yC)$yU)$GAD_G3*$G;
 - (void);
 - (void);
@@ -38,8 +30,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)TH;
 - (id);
 - (id);
 - (id);
@@ -81,27 +73,27 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)9;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id));
+- (void)hb;
 - (id);
 - (id);
 - (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
+- (id)entityNamesOfAddedRecords;
 - (id);
 - (_Bool);
 - (id);
@@ -111,29 +103,7 @@
 - (id)PodcastsFoundation;
 
 // Remaining properties
-@property(retain) AMSSnapshotBag *currentSnapshot; // @synthesize currentSnapshot=_currentSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long downloadLimitPodcast; // @synthesize downloadLimitPodcast=_downloadLimitPodcast;
-@property(nonatomic) long long downloadLimitVideoPodcast; // @synthesize downloadLimitVideoPodcast=_downloadLimitVideoPodcast;
-@property(readonly) NSDate *expirationDate;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(nonatomic) unsigned long long failedUpdateAttempts; // @synthesize failedUpdateAttempts=_failedUpdateAttempts;
-@property(readonly) unsigned long long hash;
-@property(retain) IMMutableBagKeySet *keySet; // @synthesize keySet=_keySet;
-@property(nonatomic) double libraryShowFetchThresholdDefaultValue; // @synthesize libraryShowFetchThresholdDefaultValue=_libraryShowFetchThresholdDefaultValue;
 @property(retain, nonatomic) AMSBag *liveBag; // @synthesize liveBag=_liveBag;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

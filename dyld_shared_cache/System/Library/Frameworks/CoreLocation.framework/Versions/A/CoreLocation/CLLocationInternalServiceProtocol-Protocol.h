@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol CLLocationInternalServiceProtocol
+- (void);
+- (void);
+- (void)#;
+- (void);
+- (void);
+- (void)t;
+- (void);
+- (void)|;
+- (void)~;
+- (void)W~;
+- (void)aceTypeOK:(NSDictionary *)arg1 %s
+;
+- (void)__data;
 @end
 

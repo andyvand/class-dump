@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface UISubTest
 {
     NSNumber *_startTime;
-    NSNumber *_startFrame;
-    NSMutableArray *_time;
-    NSMutableArray *_fps;
-    NSString *_testName;
-    _Bool _showTime;
-    _Bool _showFps;
-    NSMutableDictionary *_data;
 }
 
 - (id);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id)elatedBy:(id)arg1 toAnchor:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)constraintWithAnchor:(id)arg1 relatedBy:toAnchor:multiplier:constant: /* Error: Ran out of types for this method. */;
 - (id);Â;
 - (void)ßØÐèb;
 

@@ -9,7 +9,6 @@
 @interface AppStoreKit.PageMetricsEvent : AppStoreKit.MetricsEvent
 {
     id isPersonalized;
-    id isReferralEligible;
 }
 
 @end

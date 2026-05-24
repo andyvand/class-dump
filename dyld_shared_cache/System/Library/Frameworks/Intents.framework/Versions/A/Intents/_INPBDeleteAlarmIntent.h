@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAlarmSearch, _INPBIntentMetadata;
+@class _INPBAlarmSearch;
 
 @interface _INPBDeleteAlarmIntent
 {
     struct _has;
-    _INPBAlarmSearch *_alarmSearch;
-    NSArray *_alarms;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (Class);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -30,28 +27,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)ublic}@);
 - (id);
 - (id);
-- (void);
+- (void);;
 - (_Bool),N;
 - (void)ationship.Mother;
 - (id)3³;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarmSearch *alarmSearch; // @synthesize alarmSearch=_alarmSearch;
-@property(copy, nonatomic) NSArray *alarms; // @synthesize alarms=_alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

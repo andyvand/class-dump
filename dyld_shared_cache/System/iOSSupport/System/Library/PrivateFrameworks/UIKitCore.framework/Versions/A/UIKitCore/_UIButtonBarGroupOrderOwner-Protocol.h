@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol _UIButtonBarGroupOrderOwner
+- (void)MPModelPropertyPlaylistLibraryAddedDate;
 - (NSArray *)ð!FùQdÐ1Â0@ù
 × ;
 @end

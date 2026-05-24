@@ -6,23 +6,18 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkVPNAppLayerDeclaration : CEMConfigurationBase
 {
     NSString *_payloadVPNUUID;
-    NSString *_payloadCellularSliceUUID;
-    NSArray *_payloadSafariDomains;
-    NSNumber *_payloadOnDemandMatchAppEnabled;
-    NSArray *_payloadSMBDomains;
-    NSString *_payloadProviderType;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)WiFiPeerToPeer;
 + (id);
 + (id);
 - (void);
@@ -42,24 +37,13 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool):(id)arg1 %@;
 - (id);
-- (void);
+- (void)Enc=%-9s Mac=%-4s
+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadCellularSliceUUID; // @synthesize payloadCellularSliceUUID=_payloadCellularSliceUUID;
-@property(copy, nonatomic) NSNumber *payloadOnDemandMatchAppEnabled; // @synthesize payloadOnDemandMatchAppEnabled=_payloadOnDemandMatchAppEnabled;
-@property(copy, nonatomic) NSString *payloadProviderType; // @synthesize payloadProviderType=_payloadProviderType;
-@property(copy, nonatomic) NSArray *payloadSMBDomains; // @synthesize payloadSMBDomains=_payloadSMBDomains;
-@property(copy, nonatomic) NSArray *payloadSafariDomains; // @synthesize payloadSafariDomains=_payloadSafariDomains;
 @property(copy, nonatomic) NSString *payloadVPNUUID; // @synthesize payloadVPNUUID=_payloadVPNUUID;
-@property(readonly) Class superclass;
 
 @end
 

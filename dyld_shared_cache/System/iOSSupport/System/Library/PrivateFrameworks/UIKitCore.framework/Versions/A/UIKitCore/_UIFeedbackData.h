@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHHapticPattern, NSString, NSURL, _UIFeedbackParameters;
-
 __attribute__((visibility("hidden")))
 @interface _UIFeedbackData
 {
     _Bool _isTransientHaptic;
-    _Bool _canReuseCoreHapticsPlayer;
-    _Bool _disableEventUseVolumeEnvelope;
-    unsigned int _effectiveSystemSoundID;
-    float _intensity;
-    float _sharpness;
-    unsigned long long _effectiveEventType;
-    double _effectiveDuration;
-    double _effectiveDelay;
-    _UIFeedbackParameters *_hapticParameters;
-    _UIFeedbackParameters *_audioParameters;
-    unsigned long long _effectiveEnabledFeedbackTypes;
-    NSURL *_fileURL;
-    unsigned long long _fileFeedbackType;
-    CHHapticPattern *_pattern;
 }
 
 - (void);
@@ -34,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (double);
+- (double)erredWidth=%f, userInterfaceStyle=%@ surface=%@>;
 - (_Bool);
-- (id);
+- (id){;
 - (void)Â0@ù
 × ;
 - (void)ð!xDùq`ð1Â0@ù
@@ -48,45 +32,24 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ð1Â0@ù
 × ;
 - (void)d16^d24;
-- (void)anged:(float)arg1;
-- (void)ousVelocity:(_Bool)arg1;
-- (id)ailedReferenceBoundsInPixels;
-- (unsigned long long)rectionalEdgeForLayoutAxis:preEdge: /* Error: Ran out of types for this method. */;
+- (void)valueChanged:(float)arg1;
+- (void)setPreviousVelocity:(_Bool)arg1;
+- (id)_unjailedReferenceBoundsInPixels;
+- (unsigned long long)_directionalEdgeForLayoutAxis:preEdge: /* Error: Ran out of types for this method. */;
 - (_Bool)ler>",&,N,V_currentPresentationController;
 - (void)bSpring;
 - (void)@ì¼l ¼Ä
 t`à ;
 - (double)L$	\	;
 - (id);
-- (unsigned int)quidMorph;
+- (unsigned int)liquidMorph;
 - (float)r height:%@; header offset:%g; footer offset:%g; num rows:%ld; array length:%ld; row heights:%@ row offsets:%@ /* Error: Ran out of types for this method. */;
 - (void)eTransitionContext"16;
 - (void);
 - (id)(Å_;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAudioParameters:) _UIFeedbackParameters *audioParameters; // @synthesize audioParameters=_audioParameters;
-@property(nonatomic, setter=_setCanReuseCoreHapticsPlayer:) _Bool canReuseCoreHapticsPlayer; // @synthesize canReuseCoreHapticsPlayer=_canReuseCoreHapticsPlayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, setter=_setDisableEventUseVolumeEnvelope:) _Bool disableEventUseVolumeEnvelope; // @synthesize disableEventUseVolumeEnvelope=_disableEventUseVolumeEnvelope;
-@property(nonatomic, setter=_setEffectiveDelay:) double effectiveDelay; // @synthesize effectiveDelay=_effectiveDelay;
-@property(nonatomic, setter=_setEffectiveDuration:) double effectiveDuration; // @synthesize effectiveDuration=_effectiveDuration;
-@property(nonatomic, setter=_setEffectiveEnabledFeedbackTypes:) unsigned long long effectiveEnabledFeedbackTypes; // @synthesize effectiveEnabledFeedbackTypes=_effectiveEnabledFeedbackTypes;
 @property(nonatomic, setter=_setEffectiveEventType:) unsigned long long effectiveEventType; // @synthesize effectiveEventType=_effectiveEventType;
-@property(nonatomic, setter=_setEffectiveSystemSoundID:) unsigned int effectiveSystemSoundID; // @synthesize effectiveSystemSoundID=_effectiveSystemSoundID;
-@property(nonatomic, setter=_setFileFeedbackType:) unsigned long long fileFeedbackType; // @synthesize fileFeedbackType=_fileFeedbackType;
-@property(retain, nonatomic, setter=_setFileURL:) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain, nonatomic, setter=_setHapticParameters:) _UIFeedbackParameters *hapticParameters; // @synthesize hapticParameters=_hapticParameters;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=_setIntensity:) float intensity; // @synthesize intensity=_intensity;
-@property(nonatomic, setter=_setIsTransientHaptic:) _Bool isTransientHaptic; // @synthesize isTransientHaptic=_isTransientHaptic;
-@property(retain, nonatomic, setter=_setPattern:) CHHapticPattern *pattern; // @synthesize pattern=_pattern;
-@property(nonatomic, setter=_setSharpness:) float sharpness; // @synthesize sharpness=_sharpness;
-@property(readonly) Class superclass;
 
 @end
 

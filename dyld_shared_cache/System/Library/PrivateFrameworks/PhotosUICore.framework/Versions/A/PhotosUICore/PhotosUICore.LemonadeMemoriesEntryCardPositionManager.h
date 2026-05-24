@@ -7,14 +7,6 @@
 @interface PhotosUICore.LemonadeMemoriesEntryCardPositionManager
 {
     id $__lazy_storage_$__position;
-    id logger;
-    id timeSlotProvider;
-    id impressionsCountProvider;
-    id lastUsedDateProvider;
-    id reloadTimeoutAfterAppWentToBackground;
-    id _enterBackgroundDate;
-    id isDisabledForIPad;
-    id _$observationRegistrar;
 }
 
 @end

@@ -6,42 +6,32 @@
 
 #import <Intents/INIntent.h>
 
-@class NSString;
-
 @interface INPlayMessageSoundIntent : INIntent
 {
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)isDefaultVersion;
 - (void);
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *messageIdentifier;
 @property(readonly) long long soundType;
-@property(readonly) Class superclass;
 
 @end
 

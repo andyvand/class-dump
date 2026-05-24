@@ -15,8 +15,8 @@
 
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)_repeatDescriptionField;
+- (void)Unsubscribe;
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVAction *backingAction; // @synthesize backingAction=_backingAction;

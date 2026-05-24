@@ -13,14 +13,14 @@
     NSArray *_subpredicates;
 }
 
-+ (_Bool);
++ (_Bool)eCallback;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nt:%lu names:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)%@ %@ %@;
 - (void);
 
 // Remaining properties

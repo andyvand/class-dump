@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, NSDictionary, NSObject, NSString;
-@protocol HMDAccessoryDataStreamAdapterDelegate, HMDDataStreamBulkSendSession, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDataStreamAdapter
 {
     _Bool _transportReady;
-    _Bool _didBulkSendFail;
-    _Bool _didBulkSendComplete;
-    id <HMDAccessoryDataStreamAdapterDelegate> _delegate;
-    HMDHAPAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_fileType;
-    NSDictionary *_metadata;
-    NSString *_reason;
-    id <HMDDataStreamBulkSendSession> _currentBulkSendSession;
-    CDUnknownBlockType _pendingOpenSessionCallback;
 }
 
 + (id)&ÄóB;
-- (_Bool);
-- (void);
+- (_Bool)6@?0@"MSPMutableHistoryEntryTransitLineItem"8;
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -44,13 +31,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)enumerateKeysAndObjectsUsingBlock:(id)arg1;
+- (void)connectionPool;
+- (void)connectionMethod;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)numberOfRegionsPerBatch;
+- (id)dowRect:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -64,26 +51,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, getter=isBulkSendActive) _Bool bulkSendActive;
-@property(retain) id <HMDDataStreamBulkSendSession> currentBulkSendSession; // @synthesize currentBulkSendSession=_currentBulkSendSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDAccessoryDataStreamAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool didBulkSendComplete; // @synthesize didBulkSendComplete=_didBulkSendComplete;
-@property _Bool didBulkSendFail; // @synthesize didBulkSendFail=_didBulkSendFail;
-@property(readonly, copy) NSString *fileType; // @synthesize fileType=_fileType;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(copy) CDUnknownBlockType pendingOpenSessionCallback; // @synthesize pendingOpenSessionCallback=_pendingOpenSessionCallback;
-@property(readonly) NSString *reason; // @synthesize reason=_reason;
 @property(readonly, getter=isSessionOpenInProgress) _Bool sessionOpenInProgress;
-@property(readonly) Class superclass;
-@property _Bool transportReady; // @synthesize transportReady=_transportReady;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

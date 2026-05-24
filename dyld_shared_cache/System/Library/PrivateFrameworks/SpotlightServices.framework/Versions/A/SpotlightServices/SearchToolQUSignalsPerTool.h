@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface SearchToolQUSignalsPerTool
 {
     _Bool _earliestTokenFromQU;
-    _Bool _latestTokenFromQU;
-    _Bool _hasQueryTextEmbedding;
-    _Bool _hasSearchTerm;
-    _Bool _hasOneOnOneSearchTerm;
-    _Bool _orderByTimeAscending;
-    _Bool _orderByTimeDescending;
-    _Bool _hasPersonIsSelfTokenFromLLMQU;
-    _Bool _dcRelationshipInECR;
-    NSString *_parsedQueryFromQU;
-    NSString *_locationFromQU;
-    NSSet *_rawSearchTermsFromLLMQU;
-    NSArray *_parsedArgSearchTermsFromQU;
-    NSArray *_normalizedPersonFromQU;
-    NSArray *_normalizedSearchTermsFromQU;
-    NSArray *_normalizedSearchTermsPersonFromQU;
-    NSString *_parsedArgLocationTermsFromQU;
-    NSSet *_uniquePersonsFromLLMQU;
-    NSSet *_personTokensFromLLMQU;
-    NSSet *_personSenderTokensFromLLMQU;
-    NSSet *_personReceiverTokensFromLLMQU;
-    NSDictionary *_detailedLLMQUTokens;
-    NSString *_departureLocationFromQU;
-    NSString *_arrivalLocationFromQU;
-    NSDate *_queryDateStringStartDate;
-    NSDate *_queryDateStringEndDate;
-    NSDictionary *_dcQUArgumentsTokenCount;
-    NSDictionary *_dcECRMappedPersonArgumentsTokenCount;
 }
 
 - (id);
@@ -84,47 +57,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool){NSEdgeInsets=dddd}20@0:8B16 /* Error: Ran out of types for this method. */;
+- (id)4@32@40;
+- (id)cialization";
+- (id)?B>32;
+- (id)KWebView"16@"NSURLAuthenticationChallenge"24@?<v@?B>32;
+- (id)unregisterForStoreAvailablityChangesWithToken: /* Error: Ran out of types for this method. */;
+- (void)set_useLossyCompressionForEncodedData:(id)arg1;
+- (void)setOriginatorDisplayName:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void)_embedding:searchToolL2Score:outsideUserSpecificTime:isEventBundle:com_apple_mobilecal_LLMQUIntentRestaurantEvent:com_apple_mobilecal_LLMQUIntentAppointmentEvent:com_apple_mobilemail_LLMQUIntentEvent:com_apple_mobilecal_LLMQUIntentEvent:com_apple_mobilecal_LLMQUIntentFlightEvent:com_apple_MobileSMS_LLMQUIntentAppointmentEvent:com_apple_MobileSMS_LLMQUIntentEvent:com_apple_mobilemail_LLMQUIntentAppointmentEvent:other_bundle_LLMQUIntentHotelEvent:com_apple_MobileSMS_LLMQUIntentTicketShowEvent:com_apple_mobilecal_LLMQUIntentTicketShowEvent:com_apple_MobileSMS_LLMQUIntentRestaurantEvent:other_bundle_LLMQUIntentTicketShowEvent:com_apple_mobilecal_LLMQUIntentHotelEvent:com_apple_mobilemail_LLMQUIntentRestaurantEvent:other_bundle_LLMQUIntentAppointmentEvent:com_apple_mobilemail_LLMQUIntentFlightEvent:other_bundle_LLMQUIntentRestaurantEvent:com_apple_mobilemail_LLMQUIntentTicketShowEvent:other_bundle_LLMQUIntentFlightEvent:other_bundle_LLMQUIntentEvent:com_apple_MobileSMS_LLMQUIntentFlightEvent:com_apple_mobilemail_LLMQUIntentHotelEvent:com_apple_MobileSMS_LLMQUIntentPartyEvent:com_apple_MobileSMS_LLMQUIntentTicketTransportEvent:com_apple_mobilemail_LLMQUIntentTicketTransportEvent:com_apple_mobilemail_LLMQUIntentCarRentalEvent:com_apple_MobileSMS_LLMQUIntentConversation:com_apple_mobilecal_LLMQUIntentPartyEvent:com_apple_mobileslideshow_LLMQUIntentPhone:com_apple_MobileSMS_LLMQUIntentHotelEvent:com_apple_mobileslideshow_LLMQUIntentEvent:other_bundle_LLMQUIntentTicketTransportEvent:com_apple_MobileSMS_LLMQUIntentCarRentalEvent:com_apple_mobilecal_LLMQUIntentTicketTransportEvent:com_apple_mobilecal_LLMQUIntentCarRentalEvent:com_apple_mobilemail_LLMQUIntentConversation:com_apple_mobilemail_LLMQUIntentPartyEvent:com_apple_mobilecal_LLMQUIntentCalendar:com_apple_mobileslideshow_LLMQUIntentWallet:com_apple_mobileslideshow_LLMQUIntentPhoto:com_apple_MobileSMS_LLMQUIntentCalendar:com_apple_MobileSMS_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentPhoto:other_bundle_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentPhoto:other_bundle_LLMQUIntentWallet:other_bundle_LLMQUIntentPhoto:other_bundle_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentWallet:com_apple_mobilecal_LLMQUIntentPhoto:com_apple_mobilemail_LLMQUIntentSharedLink:com_apple_MobileSMS_LLMQUIntentSharedLink:com_apple_mobilemail_LLMQUIntentSafari:com_apple_mobilecal_LLMQUIntentSharedLink: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *arrivalLocationFromQU; // @synthesize arrivalLocationFromQU=_arrivalLocationFromQU;
-@property(retain, nonatomic) NSDictionary *dcECRMappedPersonArgumentsTokenCount; // @synthesize dcECRMappedPersonArgumentsTokenCount=_dcECRMappedPersonArgumentsTokenCount;
-@property(retain, nonatomic) NSDictionary *dcQUArgumentsTokenCount; // @synthesize dcQUArgumentsTokenCount=_dcQUArgumentsTokenCount;
-@property(nonatomic) _Bool dcRelationshipInECR; // @synthesize dcRelationshipInECR=_dcRelationshipInECR;
-@property(retain, nonatomic) NSString *departureLocationFromQU; // @synthesize departureLocationFromQU=_departureLocationFromQU;
-@property(retain, nonatomic) NSDictionary *detailedLLMQUTokens; // @synthesize detailedLLMQUTokens=_detailedLLMQUTokens;
-@property(nonatomic) _Bool earliestTokenFromQU; // @synthesize earliestTokenFromQU=_earliestTokenFromQU;
-@property(nonatomic) _Bool hasOneOnOneSearchTerm; // @synthesize hasOneOnOneSearchTerm=_hasOneOnOneSearchTerm;
-@property(nonatomic) _Bool hasPersonIsSelfTokenFromLLMQU; // @synthesize hasPersonIsSelfTokenFromLLMQU=_hasPersonIsSelfTokenFromLLMQU;
-@property(nonatomic) _Bool hasQueryTextEmbedding; // @synthesize hasQueryTextEmbedding=_hasQueryTextEmbedding;
-@property(nonatomic) _Bool hasSearchTerm; // @synthesize hasSearchTerm=_hasSearchTerm;
-@property(nonatomic) _Bool latestTokenFromQU; // @synthesize latestTokenFromQU=_latestTokenFromQU;
-@property(retain, nonatomic) NSString *locationFromQU; // @synthesize locationFromQU=_locationFromQU;
-@property(retain, nonatomic) NSArray *normalizedPersonFromQU; // @synthesize normalizedPersonFromQU=_normalizedPersonFromQU;
-@property(retain, nonatomic) NSArray *normalizedSearchTermsFromQU; // @synthesize normalizedSearchTermsFromQU=_normalizedSearchTermsFromQU;
-@property(retain, nonatomic) NSArray *normalizedSearchTermsPersonFromQU; // @synthesize normalizedSearchTermsPersonFromQU=_normalizedSearchTermsPersonFromQU;
-@property(nonatomic) _Bool orderByTimeAscending; // @synthesize orderByTimeAscending=_orderByTimeAscending;
-@property(nonatomic) _Bool orderByTimeDescending; // @synthesize orderByTimeDescending=_orderByTimeDescending;
-@property(retain, nonatomic) NSString *parsedArgLocationTermsFromQU; // @synthesize parsedArgLocationTermsFromQU=_parsedArgLocationTermsFromQU;
-@property(retain, nonatomic) NSArray *parsedArgSearchTermsFromQU; // @synthesize parsedArgSearchTermsFromQU=_parsedArgSearchTermsFromQU;
 @property(retain, nonatomic) NSString *parsedQueryFromQU; // @synthesize parsedQueryFromQU=_parsedQueryFromQU;
-@property(retain, nonatomic) NSSet *personReceiverTokensFromLLMQU; // @synthesize personReceiverTokensFromLLMQU=_personReceiverTokensFromLLMQU;
-@property(retain, nonatomic) NSSet *personSenderTokensFromLLMQU; // @synthesize personSenderTokensFromLLMQU=_personSenderTokensFromLLMQU;
-@property(retain, nonatomic) NSSet *personTokensFromLLMQU; // @synthesize personTokensFromLLMQU=_personTokensFromLLMQU;
-@property(retain, nonatomic) NSDate *queryDateStringEndDate; // @synthesize queryDateStringEndDate=_queryDateStringEndDate;
-@property(retain, nonatomic) NSDate *queryDateStringStartDate; // @synthesize queryDateStringStartDate=_queryDateStringStartDate;
-@property(retain, nonatomic) NSSet *rawSearchTermsFromLLMQU; // @synthesize rawSearchTermsFromLLMQU=_rawSearchTermsFromLLMQU;
-@property(retain, nonatomic) NSSet *uniquePersonsFromLLMQU; // @synthesize uniquePersonsFromLLMQU=_uniquePersonsFromLLMQU;
 
 @end
 

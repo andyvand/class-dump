@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutVisualFormatTreeParser
 {
     _NSCollectionLayoutVisualTreeNode *_root;
-    NSArray *_visualFormats;
 }
 
 + (id);
@@ -21,14 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)applyBlock;
 - (id);
 - (id);
 - (id)nmanagedFrame:%@ /* Error: Ran out of types for this method. */;
-- (void)InDrawWithFrame;
+- (void)NSBrowserCellFillDrawingGoesInDrawWithFrame;
 
 // Remaining properties
-@property(retain, nonatomic) _NSCollectionLayoutVisualTreeNode *root; // @synthesize root=_root;
 @property(copy, nonatomic) NSArray *visualFormats; // @synthesize visualFormats=_visualFormats;
 
 @end

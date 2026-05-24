@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKConversationListScrollingController, NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKConversationList
 {
     _Bool _loadingConversations;
-    _Bool _loadedConversations;
-    _Bool _remergingConversations;
-    _Bool _loadedPinnedConversations;
-    CKConversation *_pendingConversation;
-    CKConversationListScrollingController *_scrollingController;
-    NSArray *_pinnedConversations;
-    NSMutableDictionary *_conversationsDictionary;
-    NSMutableArray *_trackedConversations;
 }
 
 + (_Bool);
 + (id);
 + (void);
 + (void)0¤ÿ|Y6°±0;
+- (void)_preferredViewSize;
+- (void)_postProcessingRequestIndex;
+- (void)_mathNotesNotesInSource;
+- (void)_makeDecisionForMovingHTMLObjectsToModernDestination;
+- (void)_legacyManagedObjectContext;
+- (void)_keepOriginalAttributes;
+- (void)_keepAlive;
+- (void)_isPerformingAccessibilityUndoableTextInsertion;
+- (void)_isHighlighted;
+- (long long)_exportDirectory;
+- (long long)_endAngle;
+- (void)_drawClockwise;
+- (id)utableArray",&,N,V_completionBlocks;
+- (id)straint",&,N,V_imageViewTopLayoutConstraint;
+- (void),N,V_trackedRangesForAddedExtraNewlines;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)XA;
 - (void);
 - (void);
 - (id);
@@ -48,38 +40,38 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)GShyAUGG;
 - (void);
-- (void);
-- (void);
+- (void)So16AVAudioPCMBufferCSg;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)f;
+- (id)r;
+- (id)b;
+- (void)e;
+- (_Bool)w;
+- (_Bool)v;
+- (_Bool)S;
+- (_Bool)neration %@;
+- (id)eting duplicated note {originalNote:(id)arg1 %@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
+- (void)ch triggering coalesced mention notification to %@, expecting %@;
+- (void)ntentIdentifier];
+- (id)mageDataWithUTType:metadata:] /* Error: Ran out of types for this method. */;
+- (id)-[ICLockedNotesModeMigrator presentLockedNotesWelcomeMigrationPromptIfSupportedForAccount:(unsigned long long)arg1 window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)gedModeAlertForNote:(id)arg1 mode:window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)LockedNotesModeMigrator presentDivergedModeAlertForNote:mode:window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)Handler:(unsigned long long)arg1 cancelHandler:] /* Error: Ran out of types for this method. */;
+- (id)re are shared notes among them. People who currently have access to these notes may lose it.;
+- (id)lose it.;
+- (id)nd edit it.;
+- (id)ers?;
+- (id)der?;
+- (id)it.;
+- (id)this folder will change who can read and edit all notes within it.;
+- (id)e who currently have access to it may lose it.;
+- (id)may lose it.;
+- (id)lder already contains shared notes. People who currently have access to these notes may lose it.;
+- (_Bool)ICFolderListSectionTypeExchange;
 - (id);
 - (void);
 - (void);
@@ -94,9 +86,9 @@
 - (void);
 - (id);
 - (_Bool);
+- (void));
 - (void);
-- (void);
-- (void);
+- (void)d,;
 - (void);
 - (void);
 - (void);
@@ -123,7 +115,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -141,17 +133,7 @@
 - (void)H;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *conversations;
-@property(retain, nonatomic) NSMutableDictionary *conversationsDictionary; // @synthesize conversationsDictionary=_conversationsDictionary;
-@property(readonly, nonatomic) _Bool hasActiveConversations;
-@property(readonly, nonatomic) _Bool loadedConversations; // @synthesize loadedConversations=_loadedConversations;
-@property(nonatomic) _Bool loadedPinnedConversations; // @synthesize loadedPinnedConversations=_loadedPinnedConversations;
-@property(readonly, nonatomic) _Bool loadingConversations; // @synthesize loadingConversations=_loadingConversations;
-@property(retain, nonatomic) CKConversation *pendingConversation; // @synthesize pendingConversation=_pendingConversation;
 @property(retain, nonatomic) NSArray *pinnedConversations; // @synthesize pinnedConversations=_pinnedConversations;
-@property(nonatomic) _Bool remergingConversations; // @synthesize remergingConversations=_remergingConversations;
-@property(readonly, nonatomic) CKConversationListScrollingController *scrollingController; // @synthesize scrollingController=_scrollingController;
-@property(retain, nonatomic) NSMutableArray *trackedConversations; // @synthesize trackedConversations=_trackedConversations;
 
 @end
 

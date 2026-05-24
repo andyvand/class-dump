@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @protocol _ICMutableLiveLinkIdentityPrivate
+- (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *identifier;
 @property(nonatomic) long long serverID;
 @end
 

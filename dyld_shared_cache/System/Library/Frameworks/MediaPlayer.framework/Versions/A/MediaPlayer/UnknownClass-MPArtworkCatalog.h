@@ -12,7 +12,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MPArtworkCatalog *_lastArtworkCatalog;
 @property(readonly, nonatomic) MPArtworkCatalog *artworkCatalog;
 @end
 

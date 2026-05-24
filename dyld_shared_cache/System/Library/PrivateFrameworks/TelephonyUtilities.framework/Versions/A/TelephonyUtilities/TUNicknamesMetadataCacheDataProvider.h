@@ -6,7 +6,7 @@
 
 #import <TelephonyUtilities/TUMetadataCacheDataProvider.h>
 
-@class IMNicknameProvider, NSString;
+@class IMNicknameProvider;
 
 @interface TUNicknamesMetadataCacheDataProvider : TUMetadataCacheDataProvider
 {
@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id)allHapticsAvailable;
++ (id)isCallHapticsAvailable;
 - (id);
 - (id);
 - (id);
@@ -22,17 +22,10 @@
 - (id);
 - (id);
 - (void);
-- (void)stemCapabilitiesForSubscriptionContext: /* Error: Ran out of types for this method. */;
+- (void)systemCapabilitiesForSubscriptionContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IMNicknameProvider *nicknameProvider; // @synthesize nicknameProvider=_nicknameProvider;
-@property(readonly) Class superclass;
 
 @end
 

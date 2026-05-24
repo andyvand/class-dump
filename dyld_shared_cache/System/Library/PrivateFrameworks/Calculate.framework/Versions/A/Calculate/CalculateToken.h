@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LocalizeNumberingSystem, NSString, UnitRanks;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CalculateToken
 {
     _Bool _needsWhitespaceAfter;
-    _Bool _loadedNeedsWhitespaceAfter;
-    unsigned long long _tokenType;
-    NSString *_text;
-    NSString *_normalizedText;
-    UnitRanks *_ranks;
-    LocalizeNumberingSystem *_numberingSystem;
-    struct _NSRange _range;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)	;
 - (_Bool);
 - (id);
 - (id)íñ_8- [;
@@ -52,20 +45,7 @@ $àKÃf
 	"  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool isAnyUnknown;
-@property(readonly) _Bool isMaybeX;
-@property(readonly) _Bool isOpen;
-@property(readonly) _Bool isOperand;
-@property(readonly) _Bool isOperator;
-@property(readonly) _Bool isPotentialVariable;
-@property(nonatomic) _Bool loadedNeedsWhitespaceAfter; // @synthesize loadedNeedsWhitespaceAfter=_loadedNeedsWhitespaceAfter;
-@property(nonatomic) _Bool needsWhitespaceAfter; // @synthesize needsWhitespaceAfter=_needsWhitespaceAfter;
 @property(retain, nonatomic) NSString *normalizedText; // @synthesize normalizedText=_normalizedText;
-@property(retain, nonatomic) LocalizeNumberingSystem *numberingSystem; // @synthesize numberingSystem=_numberingSystem;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(retain, nonatomic) UnitRanks *ranks; // @synthesize ranks=_ranks;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) unsigned long long tokenType; // @synthesize tokenType=_tokenType;
 
 @end
 

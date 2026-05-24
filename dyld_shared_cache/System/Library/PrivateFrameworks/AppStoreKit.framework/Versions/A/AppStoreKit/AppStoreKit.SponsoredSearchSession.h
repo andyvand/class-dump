@@ -7,9 +7,6 @@
 @interface AppStoreKit.SponsoredSearchSession
 {
     id term;
-    id requestData;
-    id advertPipeline;
-    id onDeviceAdsRanker;
 }
 
 @end

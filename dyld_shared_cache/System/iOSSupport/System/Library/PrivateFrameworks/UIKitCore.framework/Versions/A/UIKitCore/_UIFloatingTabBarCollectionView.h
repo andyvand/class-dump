@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)geSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)0@ù
 × ;

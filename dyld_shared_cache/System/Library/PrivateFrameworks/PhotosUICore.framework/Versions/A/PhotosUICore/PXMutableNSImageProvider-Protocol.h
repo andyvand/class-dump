@@ -5,6 +5,8 @@
 //
 
 @protocol PXMutableNSImageProvider
+- (struct CGSize)actionIfTrue;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGSize targetSize;

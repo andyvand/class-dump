@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _UISceneHostingContentSizePreferenceHostReceiving;
 
 __attribute__((visibility("hidden")))
@@ -14,21 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)scheduledMessageRecordZoneID;
 - (struct CGSize)Ô!!,Cùb1Â0@ù
 × ;
 - (void)Ô;
-- (void)wSceneOrderedPlacement;
+- (void)_UIWindowSceneOrderedPlacement;
 
 // Remaining properties
 @property(nonatomic, setter=setContentSizePreferenceReceiver:) __weak id <_UISceneHostingContentSizePreferenceHostReceiving> contentSizePreferenceReceiver; // @synthesize contentSizePreferenceReceiver=_contentSizePreferenceReceiver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

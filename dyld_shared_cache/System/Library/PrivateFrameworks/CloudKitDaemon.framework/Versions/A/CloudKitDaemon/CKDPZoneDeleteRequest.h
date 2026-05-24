@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPRecordZoneIdentifier, CKDPZoneEtagValidationInformation;
+@class CKDPDate;
 
 @interface CKDPZoneDeleteRequest
 {
     CKDPDate *_lastMissingManateeIdentityErrorDate;
-    CKDPZoneEtagValidationInformation *_validationEtag;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    int _zoneSaveSemantics;
-    _Bool _userPurge;
-    struct {
-        unsigned int zoneSaveSemantics:1;
-        unsigned int userPurge:1;
-    } _has;
 }
 
 + (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ri7;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,10 +25,11 @@
 - (id);
 - (void);
 - (int);
+- (void)T;
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)interruptedStateBeingReturned:%d. Wrapper's internal interrupted flag:%d. bufferedClientCount:%ld. substreamIsResumed:%d. ResumedForClient:%d
+ /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -54,16 +47,7 @@
 - (void)cate;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLastMissingManateeIdentityErrorDate;
-@property(nonatomic) _Bool hasUserPurge;
-@property(readonly, nonatomic) _Bool hasValidationEtag;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) _Bool hasZoneSaveSemantics;
-@property(retain, nonatomic) CKDPDate *lastMissingManateeIdentityErrorDate; // @synthesize lastMissingManateeIdentityErrorDate=_lastMissingManateeIdentityErrorDate;
-@property(nonatomic) _Bool userPurge; // @synthesize userPurge=_userPurge;
-@property(retain, nonatomic) CKDPZoneEtagValidationInformation *validationEtag; // @synthesize validationEtag=_validationEtag;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
-@property(nonatomic) int zoneSaveSemantics; // @synthesize zoneSaveSemantics=_zoneSaveSemantics;
 
 @end
 

@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id)eportingURLForEvent: /* Error: Ran out of types for this method. */;
+- (id)reportingURLForEvent: /* Error: Ran out of types for this method. */;
 - (id)@]ÿÿÿÿÿ;
 - (void);
 - (void)Ð]¼BH½û§+èpæÌu4G5C.#ôk¡¥*ô(·.ÔÕ¶³.~ÑÖKzoh:Ò\±´°v&Ã|´kÞ'È

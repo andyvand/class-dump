@@ -16,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long characteristicInstanceID; // @dynamic characteristicInstanceID;
-@property(nonatomic) long long serviceInstanceID; // @dynamic serviceInstanceID;
 
 @end
 

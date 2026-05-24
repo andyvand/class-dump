@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
-
 @interface IFTSchemaIFTVariableStep : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_statementId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasStatementId;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
@@ -33,18 +28,14 @@
 - (id)ásð!TGù1à°1Â0@ù
 × ;
 - (id)TriggerEnd;
-- (id)itEventMetadata;
-- (_Bool)racySignalSource;
+- (id)HomeKitSchemaHomeKitEventMetadata;
+- (_Bool)PLUSSchemaPLUSSuggestionAccuracySignalSource;
 - (void)÷";
 - (_Bool)q%;
 - (void));
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end
 

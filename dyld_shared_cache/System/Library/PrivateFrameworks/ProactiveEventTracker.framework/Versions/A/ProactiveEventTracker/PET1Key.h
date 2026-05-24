@@ -21,13 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)eocoordinates - Latitude:[%@], Longitude:[%@] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

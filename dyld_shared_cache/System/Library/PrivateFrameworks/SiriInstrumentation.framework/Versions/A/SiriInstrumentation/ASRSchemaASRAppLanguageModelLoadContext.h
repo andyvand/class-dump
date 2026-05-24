@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRAppLanguageModelLoadEnded, ASRSchemaASRAppLanguageModelLoadFailed, ASRSchemaASRAppLanguageModelLoadStarted, NSData;
+@class ASRSchemaASRAppLanguageModelLoadStarted;
 
 @interface ASRSchemaASRAppLanguageModelLoadContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRAppLanguageModelLoadStarted *_startedOrChanged;
-    ASRSchemaASRAppLanguageModelLoadEnded *_ended;
-    ASRSchemaASRAppLanguageModelLoadFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,38 +18,31 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)webView:(id)arg1 resource:didReceiveContentLength:fromDataSource: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 userCanChangeVisibilityOfTableColumn: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)EASessionUUID;
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_;
 - (id)setTotalCacheEntries: /* Error: Ran out of types for this method. */;
 - (id)¸b;
-- (id)dComponents;
+- (id)connectedComponents;
 - (void)®Æ9';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRAppLanguageModelLoadEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ASRSchemaASRAppLanguageModelLoadFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRAppLanguageModelLoadStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

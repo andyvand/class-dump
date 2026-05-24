@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPublicKeyCredentialClientData, NSArray;
+@class ASPublicKeyCredentialClientData;
 
 @protocol ASAuthorizationWebBrowserPlatformPublicKeyCredentialRegistrationRequest
+- (ASPublicKeyCredentialClientData *)T(;
 
 // Remaining properties
 @property(readonly, nonatomic) ASPublicKeyCredentialClientData *clientData;
-@property(copy, nonatomic) NSArray *excludedCredentials;
-@property(nonatomic) _Bool shouldShowHybridTransport;
 @end
 

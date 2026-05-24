@@ -23,11 +23,6 @@
 
 // Remaining properties
 @property(readonly) struct _CGLPBufferObject *CGLPBufferObj;
-@property(readonly) int pixelsHigh;
-@property(readonly) int pixelsWide;
-@property(readonly) unsigned int textureInternalFormat;
-@property(readonly) int textureMaxMipMapLevel;
-@property(readonly) unsigned int textureTarget;
 
 @end
 

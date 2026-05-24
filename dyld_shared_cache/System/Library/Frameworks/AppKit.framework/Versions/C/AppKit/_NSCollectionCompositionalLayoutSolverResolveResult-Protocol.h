@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint contentOffsetAdjustment;
-@property(readonly, nonatomic) struct CGSize contentSizeAdjustment;
 @end
 

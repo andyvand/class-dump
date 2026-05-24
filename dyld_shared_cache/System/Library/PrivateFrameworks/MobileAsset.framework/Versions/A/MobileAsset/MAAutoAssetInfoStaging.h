@@ -9,25 +9,21 @@
 @interface MAAutoAssetInfoStaging
 {
     NSDictionary *_updateAttributes;
-    NSDictionary *_byGroupAvailableForStagingAttributes;
-    NSDictionary *_byGroupTotalExpectedBytes;
 }
 
 + (_Bool);
-- (id);
+- (id)(=;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!@9;
+- (id)initWithListenerIKEConfig:(id)arg1 saSession:listenerUDPPort:listenerQueue:delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *byGroupAvailableForStagingAttributes; // @synthesize byGroupAvailableForStagingAttributes=_byGroupAvailableForStagingAttributes;
-@property(readonly, retain, nonatomic) NSDictionary *byGroupTotalExpectedBytes; // @synthesize byGroupTotalExpectedBytes=_byGroupTotalExpectedBytes;
 @property(readonly, retain, nonatomic) NSDictionary *updateAttributes; // @synthesize updateAttributes=_updateAttributes;
 
 @end

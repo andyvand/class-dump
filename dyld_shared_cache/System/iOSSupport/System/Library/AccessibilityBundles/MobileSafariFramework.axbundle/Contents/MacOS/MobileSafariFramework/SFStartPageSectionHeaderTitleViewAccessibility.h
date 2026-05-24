@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)isSelectable;
++ (void);
 - (void);
-- (id);
+- (id)If;
 
 @end
 

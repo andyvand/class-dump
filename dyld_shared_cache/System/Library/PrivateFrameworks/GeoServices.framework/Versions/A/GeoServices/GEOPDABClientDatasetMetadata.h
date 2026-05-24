@@ -9,26 +9,20 @@
 @interface GEOPDABClientDatasetMetadata
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _bucketId;
-    unsigned int _datasetId;
-    struct {
-        unsigned int has_bucketId:1;
-        unsigned int has_datasetId:1;
-    } _flags;
 }
 
-+ (_Bool)ewedInProactiveTray:(id)arg1;
-- (void);
++ (_Bool)setHasViewedInProactiveTray:(id)arg1;
+- (void)4;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)__DATA_DIRTY;
+- (_Bool)opportuneSpeakEventMonitor:didStreamStateChanged: /* Error: Ran out of types for this method. */;
+- (void)e:(id)arg1 ];
+- (void)A;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -36,20 +30,16 @@
 - (_Bool);
 - (void);
 - (id)@88@96q104@112@120;
-- (unsigned int)awLocation: /* Error: Ran out of types for this method. */;
+- (unsigned int)initWithRawLocation: /* Error: Ran out of types for this method. */;
 - (id)deValue;
 - (unsigned int)@);
 - (id)¤Ü±t
 ÿ;
-- (id)scriptionPK;
+- (id)GetSubscriptionPK;
 - (void)~õ1;
 
 // Remaining properties
-@property(nonatomic) unsigned int bucketId;
-@property(nonatomic) unsigned int datasetId;
 @property(nonatomic) _Bool hasBucketId;
-@property(nonatomic) _Bool hasDatasetId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSControl;
+
 @protocol NSControlTextEditingDelegate
+
+@optional
+- (void)dden by record policy with the same identifier;
+- (NSArray *)ermining if password change is allowed;
+- (_Bool)to non-policy failure;
+- (_Bool);
+- (void):(NSControl *)arg1 %@;
+- (_Bool)licy;
+- (void)*`2;
 @end
 

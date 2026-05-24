@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactImage, CNWallpaper, NSData, NSString;
+@class CNContactImage, NSString;
 
 @protocol CNMeCardSharingResult
+- (CNContactImage *);
+- (NSString *);
 - (NSString *)Pèÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *avatarRecipeData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) CNContactImage *contactImage;
-@property(readonly, nonatomic) _Bool didSaveImageToMeCard;
-@property(readonly, nonatomic) NSString *familyName;
 @property(readonly, nonatomic) NSString *givenName;
-@property(readonly, nonatomic) CNWallpaper *wallpaper;
-@property(retain, nonatomic) NSData *watchWallpaperImageData;
 @end
 

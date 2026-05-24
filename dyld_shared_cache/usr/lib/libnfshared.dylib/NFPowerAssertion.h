@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_transaction;
-
 @interface NFPowerAssertion
 {
     unsigned int _powerNotificationConnection;
-    struct IONotificationPort *_powerNotificationPort;
-    unsigned int _powerNotificationNotifier;
-    NSObject<OS_os_transaction> *_powerAssertTransaction;
-    NSMutableDictionary *_assertionHolders;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _enableDebug;
 }
 
 + (id);

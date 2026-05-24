@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNMTLResourceManager;
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLTessellator
 {
     struct __C3DGeometry *_geometry;
-    SCNMTLResourceManager *_resourceManager;
-    CDStruct_9b587744 _cachedTessellator;
-    id <MTLBuffer> _tessellationFactorBuffer;
-    id <MTLBuffer> _lastFramePositionBuffer;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)<hV;
+- (void)G;
 - (void);
 - (unsigned char);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)eB;
 - (void);
 - (CDStruct_9fd556a9);
 - (void);

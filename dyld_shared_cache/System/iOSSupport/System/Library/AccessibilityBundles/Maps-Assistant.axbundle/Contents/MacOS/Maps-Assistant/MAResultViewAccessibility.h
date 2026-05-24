@@ -12,9 +12,9 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)HighlightItemCellAccessibility;
 - (_Bool);
-- (id);
+- (id)fari.ScrollingCapsuleCollectionView[class].Item;
 
 @end
 

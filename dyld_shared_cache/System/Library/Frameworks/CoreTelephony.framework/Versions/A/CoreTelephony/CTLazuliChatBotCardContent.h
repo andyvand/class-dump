@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotCardDescription, CTLazuliChatBotCardMedia, CTLazuliChatBotCardTitle, CTLazuliChatBotSuggestedChipList;
+@class CTLazuliChatBotCardMedia;
 
 @interface CTLazuliChatBotCardContent
 {
     CTLazuliChatBotCardMedia *_media;
-    CTLazuliChatBotCardTitle *_title;
-    CTLazuliChatBotCardDescription *_cardDescription;
-    CTLazuliChatBotSuggestedChipList *_chipList;
 }
 
-+ (_Bool);
++ (_Bool)t != nil;
 - (void);
 - (void);
 - (void);
@@ -29,15 +26,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)¡&!üAù±ª)1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotCardDescription *cardDescription; // @synthesize cardDescription=_cardDescription;
-@property(retain, nonatomic) CTLazuliChatBotSuggestedChipList *chipList; // @synthesize chipList=_chipList;
 @property(retain, nonatomic) CTLazuliChatBotCardMedia *media; // @synthesize media=_media;
-@property(retain, nonatomic) CTLazuliChatBotCardTitle *title; // @synthesize title=_title;
 
 @end
 

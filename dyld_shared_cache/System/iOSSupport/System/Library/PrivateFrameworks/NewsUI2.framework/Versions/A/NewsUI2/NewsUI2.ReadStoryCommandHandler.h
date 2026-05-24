@@ -7,7 +7,6 @@
 @interface NewsUI2.ReadStoryCommandHandler
 {
     id navigator;
-    id tracker;
 }
 
 @end

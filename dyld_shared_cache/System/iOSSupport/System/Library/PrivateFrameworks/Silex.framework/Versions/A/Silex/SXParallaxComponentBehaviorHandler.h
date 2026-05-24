@@ -9,11 +9,6 @@
 @interface SXParallaxComponentBehaviorHandler : SXComponentBehaviorHandler
 {
     _Bool _isRotating;
-    _Bool _inFirstViewport;
-    _Bool _inLastViewport;
-    int _direction;
-    double _factor;
-    struct CGRect _absoluteContentViewFrame;
 }
 
 - (void);
@@ -25,19 +20,14 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)Z;
 - (_Bool);
 - (double);
 - (int);
-- (void);
-- (_Bool);
+- (void)e groups:(int)arg1 %{public}@;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) struct CGRect absoluteContentViewFrame; // @synthesize absoluteContentViewFrame=_absoluteContentViewFrame;
-@property(nonatomic) int direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) double factor; // @synthesize factor=_factor;
-@property(nonatomic) _Bool inFirstViewport; // @synthesize inFirstViewport=_inFirstViewport;
-@property(nonatomic) _Bool inLastViewport; // @synthesize inLastViewport=_inLastViewport;
 @property(readonly, nonatomic) _Bool isRotating; // @synthesize isRotating=_isRotating;
 
 @end

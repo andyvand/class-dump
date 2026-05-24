@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface NUHDRDivideGainMapFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputLightMap;
-    NSNumber *_inputPreserveColor;
-    NSNumber *_inputMixFactor;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)H869;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (id);
 - (void);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) CIImage *inputLightMap; // @synthesize inputLightMap=_inputLightMap;
-@property(retain, nonatomic) NSNumber *inputMixFactor; // @synthesize inputMixFactor=_inputMixFactor;
-@property(retain, nonatomic) NSNumber *inputPreserveColor; // @synthesize inputPreserveColor=_inputPreserveColor;
 
 @end
 

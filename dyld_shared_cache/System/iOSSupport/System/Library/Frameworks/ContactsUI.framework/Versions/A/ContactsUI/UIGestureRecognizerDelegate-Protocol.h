@@ -7,6 +7,8 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)t;
+- (_Bool)_sideTablePointerMask;
+- (_Bool);
+- (_Bool)_shouldSetAsMeContact;
 @end
 

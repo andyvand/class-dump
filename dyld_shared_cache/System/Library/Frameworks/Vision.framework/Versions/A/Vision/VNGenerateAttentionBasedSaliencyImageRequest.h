@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)nil argument;
 - (id)T0á	;
 - (_Bool)u!;
 

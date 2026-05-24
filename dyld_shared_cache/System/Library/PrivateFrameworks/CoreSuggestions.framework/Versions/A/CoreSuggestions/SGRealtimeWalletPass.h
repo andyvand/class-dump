@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface SGRealtimeWalletPass
 {
     int _extractionSource;
-    int _state;
-    NSString *_identifier;
-    NSData *_walletPassDictionaryData;
-    NSData *_walletPassData;
 }
 
 + (_Bool);
@@ -34,18 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int extractionSource; // @synthesize extractionSource=_extractionSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSData *walletPassData; // @synthesize walletPassData=_walletPassData;
-@property(readonly, nonatomic) NSData *walletPassDictionaryData; // @synthesize walletPassDictionaryData=_walletPassDictionaryData;
 
 @end
 

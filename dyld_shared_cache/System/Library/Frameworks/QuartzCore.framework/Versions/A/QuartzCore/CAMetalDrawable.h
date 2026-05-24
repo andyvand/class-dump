@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalLayer, IOSurfaceSharedEvent, NSMutableArray, NSString;
-@protocol MTLTexture;
-
 @interface CAMetalDrawable
 {
     struct _CAMetalDrawablePrivate *_priv;
-    id <MTLTexture> _cachedTexture;
-    CAMetalLayer *_layer;
-    struct CGRect _dirtyRect;
-    unsigned long long _drawableID;
-    IOSurfaceSharedEvent *_sharedEvent;
-    unsigned int _insertSeed;
-    NSMutableArray *_presentedHandlers;
-    unsigned long long _status;
-    double _presentedTime;
-    _Bool _presentScheduledInsertSeedValid;
-    unsigned int _presentScheduledInsertSeed;
-    NSMutableArray *_presentScheduledHandlers;
-    struct atomic<bool> _callbacksErased;
-    struct SpinLock _handlersLock;
-    _Bool _didComposite;
-    _Bool _hasExplicitDeadlines;
-    _Bool _needsLowLatency;
-    _Bool _didFinish;
-    unsigned int _updateSeed;
-    unsigned int _surfaceID;
-    float _clientPreferredLatency;
-    double _timeAcquired;
-    double _timePresentCalled;
-    double _targetTimestamp;
-    double _targetSamplingTimestamp;
-    double _targetPresentationTimestamp;
-    double _presentDeadline;
-    double _minimumPresentationDuration;
-    struct CATimingFramePacingLatency _preferredLatency;
 }
 
 - (void);
@@ -51,8 +19,8 @@
 - (void);
 - (double);
 - (void);
-- (float);
-- (void);
+- (float)�h$;
+- (void)a#;
 - (double);
 - (void);
 - (unsigned int);
@@ -64,14 +32,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)qualToString:(unsigned int)arg1 @"icon"]%@;
 - (void);
 - (_Bool);
-- (_Bool);
-- (double);
 - (void);
+- (_Bool)setLongLived: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithPackage:packageTable: /* Error: Ran out of types for this method. */;
+- (double)Parent;
+- (void)*`;
 - (void);
 - (void);
 - (void);
@@ -86,16 +54,18 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool));
+- (void)against libxml %d using libxml %d
+;
+- (id)XML namespace is not allowed
+;
 - (unsigned long long);
 - (double);
-- (_Bool);
+- (_Bool)__objc_protolist__DATA_CONST;
+- (void)ction;
+- (void)ray of strings;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (unsigned int);
 - (id);
@@ -104,46 +74,15 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)q;
 - (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24@0:8^{_CGLPixelFormatObject=}16 /* Error: Ran out of types for this method. */;
-- (double)TICS;
+- (double)CA_DISABLE_FLIPBOOK_FRAME_DIAGNOSTICS;
 - (void)illAmount %g);
-- (double)srcM1_Isqr;
+- (double)Pb3a8BsovXm_TmuaA2Xhfcx_IsrcM1_Isqr;
 - (id);
 
 // Remaining properties
-@property(nonatomic) float clientPreferredLatency; // @synthesize clientPreferredLatency=_clientPreferredLatency;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didComposite; // @synthesize didComposite=_didComposite;
-@property(nonatomic) _Bool didFinish; // @synthesize didFinish=_didFinish;
-@property(nonatomic) struct CGRect dirtyRect; // @synthesize dirtyRect=_dirtyRect;
 @property(nonatomic) unsigned long long drawableID; // @synthesize drawableID=_drawableID;
-@property(nonatomic) _Bool hasExplicitDeadlines; // @synthesize hasExplicitDeadlines=_hasExplicitDeadlines;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int insertSeed; // @synthesize insertSeed=_insertSeed;
-@property(readonly) CAMetalLayer *layer;
-@property(nonatomic) double minimumPresentationDuration; // @synthesize minimumPresentationDuration=_minimumPresentationDuration;
-@property(nonatomic) _Bool needsLowLatency; // @synthesize needsLowLatency=_needsLowLatency;
-@property(nonatomic) struct CATimingFramePacingLatency preferredLatency; // @synthesize preferredLatency=_preferredLatency;
-@property(nonatomic) double presentDeadline; // @synthesize presentDeadline=_presentDeadline;
-@property(nonatomic) unsigned int presentScheduledInsertSeed; // @synthesize presentScheduledInsertSeed=_presentScheduledInsertSeed;
-@property(nonatomic) _Bool presentScheduledInsertSeedValid; // @synthesize presentScheduledInsertSeedValid=_presentScheduledInsertSeedValid;
-@property(nonatomic) double presentedTime; // @synthesize presentedTime=_presentedTime;
-@property(retain, nonatomic) IOSurfaceSharedEvent *sharedEvent; // @synthesize sharedEvent=_sharedEvent;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int surfaceID; // @synthesize surfaceID=_surfaceID;
-@property(nonatomic) double targetPresentationTimestamp; // @synthesize targetPresentationTimestamp=_targetPresentationTimestamp;
-@property(nonatomic) double targetSamplingTimestamp; // @synthesize targetSamplingTimestamp=_targetSamplingTimestamp;
-@property(nonatomic) double targetTimestamp; // @synthesize targetTimestamp=_targetTimestamp;
-@property(readonly) id <MTLTexture> texture;
-@property(nonatomic) double timeAcquired; // @synthesize timeAcquired=_timeAcquired;
-@property(nonatomic) double timePresentCalled; // @synthesize timePresentCalled=_timePresentCalled;
-@property(nonatomic) unsigned int updateSeed; // @synthesize updateSeed=_updateSeed;
 
 @end
 

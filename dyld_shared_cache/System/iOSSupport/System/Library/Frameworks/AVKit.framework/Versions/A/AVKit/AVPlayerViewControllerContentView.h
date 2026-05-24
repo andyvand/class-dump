@@ -6,64 +6,34 @@
 
 #import <AVKit/AVView.h>
 
-@class AVCABackdropLayerView, AVCacheLargestInscribedRectInBoundingPath, AVCatalystGlassPlaybackControlsView, AVExternalPlaybackIndicatorView, AVMobileControlsViewController, AVObservationController, AVPlaybackControlsView, AVPlayerViewControllerCustomControlsView, AVScrollingObserver, AVTurboModePlaybackControlsPlaceholderView, NSArray, NSMutableDictionary, NSNumber, NSString, UIImageView, UIView;
-@protocol AVPlaybackContentContainer, AVPlayerViewControllerContentViewDelegate, AVPlayerViewControllerContentViewDelegate_Gen1;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerViewControllerContentView : AVView
 {
     UIImageView *_audioOnlyIndicatorView;
-    UIView *_contentOverlayView;
-    AVExternalPlaybackIndicatorView *_externalPlaybackIndicatorView;
-    UIView *_iAdPreRollView;
-    UIImageView *_unsupportedContentIndicatorView;
-    NSArray *_customControlsViewLayoutGuideConstraints;
-    AVCABackdropLayerView *_backdropLayerView;
-    AVTurboModePlaybackControlsPlaceholderView *_turboModePlaybackControlsPlaceholderView;
-    id <AVPlayerViewControllerContentViewDelegate_Gen1> _gen1Delegate;
-    AVObservationController *_observationController;
-    _Bool _showsPlaybackControls;
-    _Bool _wantsBackdropView;
-    _Bool _canAutomaticallyZoomLetterboxVideos;
-    _Bool _styleSheetShouldUseCompactFullScreenItemSize;
-    _Bool _needsInitialLayout;
-    NSString *_automaticVideoGravity;
-    AVMobileControlsViewController *_controlsViewController;
-    unsigned long long _contentOverlayViewPlacement;
-    AVPlayerViewControllerCustomControlsView *_customControlsView;
-    AVScrollingObserver *_scrollingObserver;
-    NSMutableDictionary *_targetVideoGravities;
-    id <AVPlayerViewControllerContentViewDelegate> _delegate;
-    UIView<AVPlaybackContentContainer> *_playbackContentContainerView;
-    UIView *_interactiveContentOverlayView;
-    UIView *_iAdPreRollViewIfLoaded;
-    AVCacheLargestInscribedRectInBoundingPath *_cacheLargestInscribedRect;
-    NSString *_externalPlaybackIndicatorTitle;
-    NSString *_externalPlaybackIndicatorSubtitle;
-    struct UIEdgeInsets _edgeInsetsForLetterboxedContent;
-    struct UIEdgeInsets _videoContentInset;
 }
 
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)a.GpsL1SyncState;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)N;
 - (void);
 - (void);
 - (id);
@@ -79,32 +49,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct UIEdgeInsets);
-- (void);
+- (void)1;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)startConversionWithError:(id)arg1 outputAvailableHandler:(unsigned long long)arg2;
+- (_Bool)applemusic;
+- (id)ie _loadMetadataForAsset:withKeys:collectionKeys:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)r-;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)PMLPlanWrapper;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)4@0:8@16@24Q32Q40Q48Q56Q64B72B76B80 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)utton;
 - (id);
 - (id);
 - (void);
@@ -115,44 +85,11 @@ __attribute__((visibility("hidden")))
 - (void)!àBùQ[1Â0@ù
 × ;
 - (_Bool)8I16@20@28;
-- (void);
-- (_Bool)tification;
+- (void)AVMobileChromelessPlaybackControlButton;
+- (_Bool)AVPictureInPictureControllerWillStartNotification;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *automaticVideoGravity; // @synthesize automaticVideoGravity=_automaticVideoGravity;
-@property(retain, nonatomic) AVCacheLargestInscribedRectInBoundingPath *cacheLargestInscribedRect; // @synthesize cacheLargestInscribedRect=_cacheLargestInscribedRect;
-@property(nonatomic) _Bool canAutomaticallyZoomLetterboxVideos; // @synthesize canAutomaticallyZoomLetterboxVideos=_canAutomaticallyZoomLetterboxVideos;
-@property(readonly, nonatomic) AVPlaybackControlsView *chromePlaybackControlsView;
-@property(retain, nonatomic) UIView *contentOverlayView; // @synthesize contentOverlayView=_contentOverlayView;
-@property(nonatomic) unsigned long long contentOverlayViewPlacement; // @synthesize contentOverlayViewPlacement=_contentOverlayViewPlacement;
-@property(retain, nonatomic) AVMobileControlsViewController *controlsViewController; // @synthesize controlsViewController=_controlsViewController;
-@property(retain, nonatomic) AVPlayerViewControllerCustomControlsView *customControlsView; // @synthesize customControlsView=_customControlsView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVPlayerViewControllerContentViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct UIEdgeInsets edgeInsetsForLetterboxedContent; // @synthesize edgeInsetsForLetterboxedContent=_edgeInsetsForLetterboxedContent;
-@property(copy, nonatomic) NSString *externalPlaybackIndicatorSubtitle; // @synthesize externalPlaybackIndicatorSubtitle=_externalPlaybackIndicatorSubtitle;
-@property(copy, nonatomic) NSString *externalPlaybackIndicatorTitle; // @synthesize externalPlaybackIndicatorTitle=_externalPlaybackIndicatorTitle;
-@property(readonly, nonatomic) AVCatalystGlassPlaybackControlsView *glassPlaybackControlsView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *iAdPreRollView;
-@property(readonly, nonatomic) UIView *iAdPreRollViewIfLoaded; // @synthesize iAdPreRollViewIfLoaded=_iAdPreRollViewIfLoaded;
-@property(retain, nonatomic) UIView *interactiveContentOverlayView; // @synthesize interactiveContentOverlayView=_interactiveContentOverlayView;
-@property(readonly, nonatomic) _Bool isCoveringWindow;
-@property(readonly, nonatomic) _Bool isInAScrollView;
-@property(readonly, nonatomic) NSNumber *layoutClass;
-@property(nonatomic) _Bool needsInitialLayout; // @synthesize needsInitialLayout=_needsInitialLayout;
-@property(retain, nonatomic) UIView<AVPlaybackContentContainer> *playbackContentContainerView; // @synthesize playbackContentContainerView=_playbackContentContainerView;
-@property(readonly, nonatomic) AVScrollingObserver *scrollingObserver; // @synthesize scrollingObserver=_scrollingObserver;
-@property(nonatomic) _Bool showsPlaybackControls; // @synthesize showsPlaybackControls=_showsPlaybackControls;
-@property(nonatomic) _Bool styleSheetShouldUseCompactFullScreenItemSize; // @synthesize styleSheetShouldUseCompactFullScreenItemSize=_styleSheetShouldUseCompactFullScreenItemSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *targetVideoGravities; // @synthesize targetVideoGravities=_targetVideoGravities;
 @property(nonatomic) struct UIEdgeInsets videoContentInset; // @synthesize videoContentInset=_videoContentInset;
-@property(nonatomic) _Bool wantsBackdropView; // @synthesize wantsBackdropView=_wantsBackdropView;
 
 @end
 

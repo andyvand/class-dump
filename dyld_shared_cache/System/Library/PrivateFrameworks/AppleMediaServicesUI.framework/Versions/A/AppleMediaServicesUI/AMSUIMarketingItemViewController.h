@@ -6,24 +6,18 @@
 
 #import <AppleMediaServicesUI/AMSUIDynamicViewController.h>
 
-@class NSDictionary, NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSUIMarketingItemViewController : AMSUIDynamicViewController
 {
     _Bool _attemptedCampaignAttribution;
-    NSDictionary *_campaignQueryParameters;
-    NSDictionary *_contextInfo;
-    NSString *_placement;
-    NSString *_serviceType;
-    id <AMSBagProtocol> _originalBag;
 }
 
 + (id);
-+ (id)ntity;
++ (id)identity;
 + (id)HGAAyAAyAJyAAyd =O=yù=GGGAHGé=Gt;
 + (id)S token %@;
-- (void);
+- (void)_w;
 - (void);
 - (id);
 - (id);
@@ -35,35 +29,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)H264_Small;
+- (id)toManyRelationshipNamesByEntityNames;
 - (id);
 - (void);
 - (void);
-- (void)rTextContainer: /* Error: Ran out of types for this method. */;
+- (id)intermediateText;
+- (void)7	>	.	G		;
+- (void);
+- (void)usedRectForTextContainer: /* Error: Ran out of types for this method. */;
 - (void)¸ß÷ÿ@ã÷ÿ,øÿÌøÿô¿øÿØøÿÚøÿ ùÿùÿ¬¸ùÿL¼ùÿ<ñÿ$;
 - (id)=_Q7=Sgt;
 - (id);
 
 // Remaining properties
-@property _Bool attemptedCampaignAttribution; // @synthesize attemptedCampaignAttribution=_attemptedCampaignAttribution;
-@property(retain) NSDictionary *campaignQueryParameters; // @synthesize campaignQueryParameters=_campaignQueryParameters;
-@property(copy) NSDictionary *contextInfo; // @synthesize contextInfo=_contextInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *offerHints;
 @property(retain) id <AMSBagProtocol> originalBag; // @synthesize originalBag=_originalBag;
-@property(retain) NSString *placement; // @synthesize placement=_placement;
-@property(retain) NSString *seed;
-@property(retain) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

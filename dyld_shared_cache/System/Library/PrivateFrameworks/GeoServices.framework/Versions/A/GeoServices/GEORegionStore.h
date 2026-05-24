@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSQLiteDB, NSLocale, NSMutableArray, _GEORegionStoreSharedCache, geo_isolater;
-@protocol _GEORegionStoreCollator;
+@class NSLocale, _GEORegionStoreSharedCache;
 
 @interface GEORegionStore
 {
     _GEORegionStoreSharedCache *_cache;
-    geo_isolater *_dbIsolater;
-    unsigned long long _area;
-    GEOSQLiteDB *_db;
-    _Atomic _Bool _ignoreDBChangeNotification;
-    NSLocale *_locale;
-    long long _dataBuildId;
-    id <_GEORegionStoreCollator> _defaultCollator;
-    NSMutableArray *_nextCollators;
-    CDUnknownBlockType _databaseTornDownCallback;
 }
 
-+ (void);
-+ (Class);
++ (void)[8I]};
++ (Class)CNHandleStringsClassificationBuilder;
 - (void);
+- (void)setValidationPredicates:(id)arg1 withValidationWarnings:(unsigned int)arg2;
+- (void)setUrlAddresses:(id)arg1;
+- (void)setUniquenessConstraints:(CDStruct_c3b9c2ee)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setSubAdministrativeArea:(unsigned long long)arg1;
+- (void)setStringForIndexing:(id)arg1;
+- (void)removeThumbnailImage;
+- (void)makeCoordinatorForSourcesWithAccountCollection:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
@@ -43,12 +33,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)success_details;
 - (void)-[ëP@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataBuildId;
-@property(copy, nonatomic) CDUnknownBlockType databaseTornDownCallback; // @synthesize databaseTornDownCallback=_databaseTornDownCallback;
 @property(readonly, nonatomic) NSLocale *locale;
 
 @end

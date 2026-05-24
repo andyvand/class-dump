@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface MNGuidanceLaneInfo
 {
     _Bool _isForManeuver;
-    int _composedGuidanceEventIndex;
-    NSUUID *_uniqueID;
-    NSArray *_lanes;
-    NSDictionary *_variableOverrides;
-    long long _distanceDetailLevel;
-    NSArray *_titles;
-    NSArray *_instructions;
-    NSArray *_primaryStrings;
-    NSArray *_secondaryStrings;
 }
 
 + (_Bool);
@@ -27,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)SearchTableRowView;
 - (int);
 - (id);
 - (id);
@@ -35,21 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MMSignoutSheetController;
 - (id);
 - (void)ionSessionManager"16B24;
 
 // Remaining properties
-@property(readonly, nonatomic) int composedGuidanceEventIndex; // @synthesize composedGuidanceEventIndex=_composedGuidanceEventIndex;
-@property(readonly, nonatomic) long long distanceDetailLevel; // @synthesize distanceDetailLevel=_distanceDetailLevel;
-@property(readonly, nonatomic) NSArray *instructions; // @synthesize instructions=_instructions;
-@property(readonly, nonatomic) _Bool isForManeuver; // @synthesize isForManeuver=_isForManeuver;
-@property(readonly, nonatomic) NSArray *lanes; // @synthesize lanes=_lanes;
-@property(retain, nonatomic) NSArray *primaryStrings; // @synthesize primaryStrings=_primaryStrings;
-@property(retain, nonatomic) NSArray *secondaryStrings; // @synthesize secondaryStrings=_secondaryStrings;
-@property(readonly, nonatomic) NSArray *titles; // @synthesize titles=_titles;
 @property(readonly, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic) NSDictionary *variableOverrides; // @synthesize variableOverrides=_variableOverrides;
 
 @end
 

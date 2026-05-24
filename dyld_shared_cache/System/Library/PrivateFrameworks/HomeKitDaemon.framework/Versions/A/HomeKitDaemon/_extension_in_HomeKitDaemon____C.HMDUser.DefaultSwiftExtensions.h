@@ -7,7 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDUser.DefaultSwiftExtensions
 {
     id isNotifyingAdaptiveTemperatureAutomationsDisclosure;
-    id storage;
 }
 
 - (id);

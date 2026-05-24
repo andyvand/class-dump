@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface ASDAlertAction
 {
     NSUUID *_identifier;
-    NSString *_title;
-    long long _style;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)appSyncingPane;
 - (void);
 - (void);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

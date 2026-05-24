@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAtomicSignal, BSMutableSettings, BSXPCCoder, NSString;
+@class NSString;
 
 @interface FBSInvocation
 {
     NSString *_protocolName;
-    NSString *_selectorName;
-    NSString *_encoding;
-    BSXPCCoder *_context;
-    BSMutableSettings *_objects;
-    BSAtomicSignal *_invoked;
-    CDUnknownBlockType _reply;
-    _Bool _resolved;
 }
 
-+ (void);
++ (void);
 - (void);
 - (void);
 - (_Bool);
@@ -26,10 +19,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)SelectedUserAttributes;
 - (id);
 - (id);
 - (Class);
@@ -38,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

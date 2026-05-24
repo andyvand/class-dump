@@ -11,18 +11,16 @@
 @interface ICThumbnailGeneratorAvatar : ICThumbnailGenerator
 {
     _Bool _RTL;
-    CNAvatarImageRenderer *_renderer;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)_populateDeviceModel;
 - (_Bool);
-- (void)thenticateCloudPasswordWithPrompt:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)authenticateCloudPasswordWithPrompt:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isRTL) _Bool RTL; // @synthesize RTL=_RTL;
 @property(readonly, nonatomic) CNAvatarImageRenderer *renderer; // @synthesize renderer=_renderer;
 
 @end

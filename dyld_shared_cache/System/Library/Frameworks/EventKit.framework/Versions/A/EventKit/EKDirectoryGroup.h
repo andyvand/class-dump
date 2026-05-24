@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)@ <%@> Error resolving for outputDeviceUID %@;
 
 @end
 

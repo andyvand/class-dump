@@ -7,15 +7,13 @@
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
 @class NSArray;
-@protocol CKFetchMergeableDeltaMetadataOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDFetchMergeableDeltaMetadataOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _metadataFetchedBlock;
-    NSArray *_mergeableValueIDs;
 }
 
-+ (id);
++ (id)setRxBadPlcpOverDecodingAttemptsPercentage:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -26,15 +24,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (int);
+- (int)ingEnabled:] returned %d, error=%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)zone %@;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchMergeableDeltaMetadataOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 @property(retain, nonatomic) NSArray *mergeableValueIDs; // @synthesize mergeableValueIDs=_mergeableValueIDs;
-@property(copy, nonatomic) CDUnknownBlockType metadataFetchedBlock; // @synthesize metadataFetchedBlock=_metadataFetchedBlock;
-@property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end
 

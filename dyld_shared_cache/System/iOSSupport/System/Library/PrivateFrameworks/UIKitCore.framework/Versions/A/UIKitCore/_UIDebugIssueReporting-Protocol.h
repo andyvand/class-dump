@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIDebugIssue;
+
 @protocol _UIDebugIssueReporting
+- (void)stringFromContact:(_UIDebugIssue *)arg1 style: /* Error: Ran out of types for this method. */;
 @end
 

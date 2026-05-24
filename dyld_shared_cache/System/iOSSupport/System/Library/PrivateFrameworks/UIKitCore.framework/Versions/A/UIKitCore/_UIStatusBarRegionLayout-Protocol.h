@@ -7,10 +7,11 @@
 @class NSArray, _UIStatusBarRegion;
 
 @protocol _UIStatusBarRegionLayout
+- (void);
 - (void)ù1Y°1Â0@ù
 × ;
 - (void)"<_UINavigationBarTitleViewDataSource>";
-- (NSArray *)sentViewController:withAnimationController:completion: /* Error: Ran out of types for this method. */;
+- (NSArray *)_presentViewController:withAnimationController:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)×13X4zþ}×13Äuþm×13 uþ;
 - (_UIStatusBarRegion *);
 
@@ -18,9 +19,6 @@
 - (_Bool)SearchBarUpdate:(NSArray *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canOverflowItems;
-@property(copy, nonatomic) NSArray *displayItems;
-@property(readonly, nonatomic) _Bool fitsAllItems;
 @property(nonatomic) __weak _UIStatusBarRegion *region;
 @end
 

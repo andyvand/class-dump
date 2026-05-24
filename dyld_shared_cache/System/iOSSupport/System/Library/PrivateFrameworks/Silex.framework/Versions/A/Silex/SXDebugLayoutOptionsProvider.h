@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSHashTable;
 
 @interface SXDebugLayoutOptionsProvider
 {
     unsigned long long _viewingLocation;
-    long long _bundleSubscriptionStatus;
-    long long _channelSubscriptionStatus;
-    unsigned long long _newsletterSubscriptionStatus;
-    long long _offerUpsellScenario;
-    long long _subscriptionActivationEligibility;
-    NSString *_offerIdentifier;
-    NSHashTable *_observers;
 }
 
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -34,7 +27,7 @@
 - (id);
 - (double);
 - (id);
-- (long long);
+- (long long)R:(long long)arg1;
 - (long long);
 - (long long);
 - (unsigned long long);
@@ -42,8 +35,8 @@
 - (unsigned long long);
 - (void);
 - (long long);
-- (void);
-- (id);
+- (void)Z;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -52,21 +45,7 @@
 - (void)8@0:8@"UIDragInteraction"16@"<UIDragSession>"24{CGPoint=dd}32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus=_bundleSubscriptionStatus;
-@property(nonatomic) long long channelSubscriptionStatus; // @synthesize channelSubscriptionStatus=_channelSubscriptionStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long newsletterSubscriptionStatus; // @synthesize newsletterSubscriptionStatus=_newsletterSubscriptionStatus;
 @property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(copy, nonatomic) NSString *offerIdentifier; // @synthesize offerIdentifier=_offerIdentifier;
-@property(nonatomic) long long offerUpsellScenario; // @synthesize offerUpsellScenario=_offerUpsellScenario;
-@property(nonatomic) long long subscriptionActivationEligibility; // @synthesize subscriptionActivationEligibility=_subscriptionActivationEligibility;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long viewingLocation; // @synthesize viewingLocation=_viewingLocation;
 
 @end
 

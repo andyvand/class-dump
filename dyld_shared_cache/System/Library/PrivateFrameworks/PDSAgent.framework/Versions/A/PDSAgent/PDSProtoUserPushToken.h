@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDSProtoUserAuth;
+@class NSString;
 
 @interface PDSProtoUserPushToken
 {
     NSString *_pushToken;
-    PDSProtoUserAuth *_userAuth;
-    NSString *_userId;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)king album changes;
+- (id)nickName;
+- (void)currency;
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)KQueryOperationCallbacks><CKDOperationCallbackProxy>",&,D,N;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasUserAuth;
-@property(retain, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain, nonatomic) PDSProtoUserAuth *userAuth; // @synthesize userAuth=_userAuth;
 @property(retain, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)restartForSoftwareUpdateWithForceClosingApps:doItLater:splat: /* Error: Ran out of types for this method. */;
+- (void)t97;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

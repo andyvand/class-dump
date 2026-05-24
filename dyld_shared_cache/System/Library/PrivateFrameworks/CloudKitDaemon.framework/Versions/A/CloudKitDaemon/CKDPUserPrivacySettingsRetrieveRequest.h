@@ -9,17 +9,17 @@
 }
 
 + (id);
-- (id);
+- (id)`N;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_suspendEndpointStreamInternal;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)illCloseItemReaderWriter:error: /* Error: Ran out of types for this method. */;
+- (Class)itemGroupContext:willCloseItemReaderWriter:error: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface Safari.BookmarksEditLocationTableCellView
 {
     id editLocationButton;
-    id locationMenu;
 }
 
 - (void);

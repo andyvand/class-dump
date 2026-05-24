@@ -13,7 +13,7 @@
     NSArray *_transfers;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)tate:'%@';  /* Error: Ran out of types for this method. */;

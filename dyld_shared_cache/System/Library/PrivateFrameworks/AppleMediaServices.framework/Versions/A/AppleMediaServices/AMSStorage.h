@@ -11,19 +11,19 @@
 + (_Bool);
 + (void);
 + (void);
-+ (id);
++ (id):(id)arg1 Conditions no longer good for sync %@, is not recoverable, will defer to DAS if possible;
 + (void);
 + (long long);
-+ (void);
-+ (id);
-+ (void);
-+ (long long);
++ (void)en raised during the execution of the context provider block for logging event (name = %@, timestamp = %f):(id)arg1 %@;
++ (id)_block_invoke;
++ (void)ublic}@ UpdatingCache:(long long)arg1 clearing formatted data artworks for %@;
++ (long long)nal device CustomDataCallback for %@;
 + (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
-+ (void)ier:(id)arg1 loadedBagPartialIdentifier:(id)arg2 storefront:(id)arg3 accountIdentifier: /* Error: Ran out of types for this method. */;
-+ (id)tCachedServerDataAccountResult;
++ (void)initWithData:(id)arg1 expirationDate:(id)arg2 loadedBagIdentifier:(id)arg3 loadedBagPartialIdentifier:storefront:accountIdentifier: /* Error: Ran out of types for this method. */;
++ (id)AMSAccountCachedServerDataAccountResult;
 + (_Bool)evice+Offers:(id)arg1 [%{public}@] Pinging appstoreagent...;
 + (id)¨Ï[ë¯L]NøöjUquÇå&9ÈOí'R·JÉ§¼«òW3W¤wÌVò'ÝaaÇ&Ì£ìÞèÏM;cG&Ê|þÄX£Amæ;áº:(id)arg1 ÞÊÒË®i¾ÂyPçZ°ÛÕ\l$m¶/-¢ßÿ²5àöØWbÝÉ¡f³Å£¯Ã'ã[5yÀ3x:teU4NÝõ6õqÕÌz:0°·ÌNPc¬üÀqs,Wctß7¨7;?æN[B¸ðr§[ã|z¿©|ÏH­ds;,¶tÑ*oÉr6ÙgÅ¢biþ¶÷§§ô|	hÂSh3Ù®(PÅ|ÍôúÍ¹x\g-±ôd·Â¡{à¥sáÜ¢ð±ÎA="ÐKYiq%0_°¾ÑÝt:)KS.$/ÚâPoÀï*üùìïf6x¯¤èm4 -èmó±=N©¿Ç6qy.XXåJ­îð÷Ìîô»­ËçGs-~N\ýUxÈ+|-qþaÀnxó Á:XGrYYp©¸×ëtÃ³9£îøeûànõIÓû)jÙ åJó³r/òß¬ZïêW&nfBÁÁRu[¥%v>Àvdn'ú¼õ$Ä]u©øªªýâ¡Î²5/çÃ,ÉmöéIûGbu[ãïUnwí2ëýß84áWN]:du ~ÀÆ3r¡$bîVYÖÖ.ùþEßWw±Ü¢ô])´t¿=YÆd`î´âN#þö7Ã-¼cÏþ²HÕh9À÷xY>âaj©[v=«$D§lu,ñ!å¶wGïÕ¿Ï÷°:3!ÖÑuJ6Ì:X!Ñý`(:å#:ÒW úÎ~µdXQKUÒ1*L¬6¾¢{,ê´RU%­ =¶ëÛâ`.^§]4¹#¯öÎ8áI4F*©¼]Øà2V<ÿ*CK ãZÝxÇ­-ÛszÃsÚ·ÁRI
 KÝ^¼Pî)c=r¥¹ðÍj°'¦wÂWßf xÜê<ºÌI	_bÏÎøÿ¦Ký¯°>Ë¿B34ü06¬ÐMËGÉ±m?oi¡| 1y-ÅÖØùk3}s©pA-pHßùÂ<.Æèçû{)8J®¸ø6Gl~¢{ÒÃáä!g=HÉ£çøz(òKOR¢îÅ«s#nYXp!Â Ënæv(
@@ -31,8 +31,8 @@ KÝ^¼Pî)c=r¥¹ðÍj°'¦wÂWßf xÜê<ºÌI	_bÏÎøÿ¦Ký
 + (_Bool)ÚÎÈ00LBCú©ÖºÎðëxCUt Ó%`Ü"9ÁMWè ^ÿjJÙ®ÜùçM+¶û4¿OÏmëyÞgÄô3³G§ló=1­ÒæbPPÑÄzd+Ò;ñ®H ¢ÜY,ûH.A6z½îéÜº¸?o6bCEb3õööÊÁ¯¢wô¥ T°4­O`ü2üì&NÖ¸wøe,Ì<xßzÞëñÇ]B>iJoß¨Æµ£ä1!hRLÛ¥£@ñòö§eÂþ1ZtM½géÑ¾Ô}()y<>0­@ÛaóO/ªÉå3ÃBSW»gÙêÑj;
 + (id);
 + (void);
-+ (id)ocol;
-+ (void)stemEngagementTask;
++ (id)QRCodeHandlerProtocol;
++ (void)AMSSystemEngagementTask;
 + (_Bool);
 + (void);
 + (void);

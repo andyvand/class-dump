@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, _PASArgParser;
+@class _PASArgParser;
 
 @interface _PASArgToplevelHandlerParams
 {
     _PASArgParser *_parser;
-    NSDictionary *_options;
-    NSArray *_positionalArguments;
 }
 
+- (id)er unregisterForAttestationCertificatesAvailability:] /* Error: Ran out of types for this method. */;
+- (id)lock_invoke;
+- (id)predictedCCEmailAddressesWithToAddresses:ccAddresses:fromAddress:date:bounds:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)resultType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(readonly, nonatomic) _PASArgParser *parser; // @synthesize parser=_parser;
-@property(readonly, nonatomic) NSArray *positionalArguments; // @synthesize positionalArguments=_positionalArguments;
 
 @end
 

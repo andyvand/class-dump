@@ -9,15 +9,11 @@
 @interface UIKit.NavigationBarTransitionContainer : _UITouchPassthroughView
 {
     id platterContainer;
-    id underGlassTransitionContainer;
-    id hostedViewContainer;
-    id content;
-    id overrideContent;
 }
 
-- (id);
+- (id)(;
 - (void);
-- (id)ageSymbolVisibilityEffect;
+- (id)_UIImageSymbolVisibilityEffect;
 - (void)BíþJPl;
 
 @end

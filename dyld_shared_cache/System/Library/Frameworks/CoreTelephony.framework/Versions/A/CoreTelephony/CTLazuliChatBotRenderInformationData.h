@@ -9,26 +9,24 @@
 @interface CTLazuliChatBotRenderInformationData
 {
     CTLazuliChatBotRenderInformation *_renderInformation;
-    long long _cacheType;
 }
 
-+ (_Bool);
++ (_Bool)laylist:%d mediaType:%@ mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)4;
 - (id);
 - (void)&ð!PDùª)ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long cacheType; // @synthesize cacheType=_cacheType;
 @property(retain, nonatomic) CTLazuliChatBotRenderInformation *renderInformation; // @synthesize renderInformation=_renderInformation;
 
 @end

@@ -9,13 +9,6 @@
 @interface SwiftUI.PlatformTextFieldCoordinator : SwiftUI.PlatformViewCoordinator
 {
     id configuration;
-    id environment;
-    id label;
-    id selectionStorage;
-    id isViewUpdating;
-    id field;
-    id ignoreNextUpdate;
-    id isUserEditing;
 }
 
 - (void);

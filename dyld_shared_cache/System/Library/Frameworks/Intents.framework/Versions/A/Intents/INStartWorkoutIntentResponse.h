@@ -6,40 +6,31 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INStartWorkoutIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)setBadgeType:(long long)arg1;
++ (long long)reset;
++ (_Bool)removeCachedThumbnailsFromUninstalledFileProvidersWithRemainingFileProviderIdentifiers:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (long long);
 - (id);
+- (id)startScanWithTimeout:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)%{public}@) for '%{public}@';
 - (id);
 - (id);
 - (long long)tentDatas;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

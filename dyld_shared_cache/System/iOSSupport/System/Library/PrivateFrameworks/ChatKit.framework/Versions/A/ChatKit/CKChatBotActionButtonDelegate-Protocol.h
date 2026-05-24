@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKChatBotActionButton;
+
 @protocol CKChatBotActionButtonDelegate
+- (void)expressionRangeForResultAttachment:(CKChatBotActionButton *)arg1;
+- (void)TF;
+- (void)isValidHTMLDestinationObject:(CKChatBotActionButton *)arg1;
+- (void)lineAttachment",R,W,N,V_attachment;
+
+@optional
+- (void);
 @end
 

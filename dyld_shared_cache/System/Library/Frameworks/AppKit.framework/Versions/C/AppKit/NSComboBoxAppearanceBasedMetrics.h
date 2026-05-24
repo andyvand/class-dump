@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)llback triggered;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TIUserModelDataStoreDurableEntry;
+@class NSArray, NSDate, TIUserModelDataStoreDurableEntry;
 
 @protocol TIUserModelDataStoring
-- (TIUserModelDataStoreDurableEntry *)eft;
+- (NSDate *);
+- (_Bool)c;
+- (NSArray *)S;
+- (TIUserModelDataStoreDurableEntry *)deft;
 
 // Remaining properties
-@property(readonly) NSDate *durableLastMigrationDate;
-@property(readonly) int durableVersion;
 @property(readonly) _Bool isValid;
-@property(readonly) NSDate *propertiesLastMigrationDate;
-@property(readonly) int propertiesVersion;
-@property(readonly) NSDate *transientLastMigrationDate;
-@property(readonly) int transientVersion;
 @end
 

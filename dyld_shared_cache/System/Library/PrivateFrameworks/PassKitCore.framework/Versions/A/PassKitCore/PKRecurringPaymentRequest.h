@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKRecurringPaymentSummaryItem;
+@class NSString;
 
 @interface PKRecurringPaymentRequest
 {
     NSString *_paymentDescription;
-    PKRecurringPaymentSummaryItem *_regularBilling;
-    PKRecurringPaymentSummaryItem *_trialBilling;
-    NSString *_billingAgreement;
-    NSURL *_managementURL;
-    NSURL *_tokenNotificationURL;
 }
 
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool)__unwind_info;
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)TiL;
 - (id);
 - (id);
 - (_Bool);
@@ -38,20 +33,15 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_highRxPhyPERFalse;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)lDetails;
+- (void)additionalDetails;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *billingAgreement; // @synthesize billingAgreement=_billingAgreement;
-@property(retain, nonatomic) NSURL *managementURL; // @synthesize managementURL=_managementURL;
 @property(copy, nonatomic) NSString *paymentDescription; // @synthesize paymentDescription=_paymentDescription;
-@property(retain, nonatomic) PKRecurringPaymentSummaryItem *regularBilling; // @synthesize regularBilling=_regularBilling;
-@property(retain, nonatomic) NSURL *tokenNotificationURL; // @synthesize tokenNotificationURL=_tokenNotificationURL;
-@property(retain, nonatomic) PKRecurringPaymentSummaryItem *trialBilling; // @synthesize trialBilling=_trialBilling;
 
 @end
 

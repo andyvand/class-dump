@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSPredicate;
+
 @protocol FPSpotlightCollectorObserving
+- (NSPredicate *)"M;
+- (unsigned long long);
 @end
 

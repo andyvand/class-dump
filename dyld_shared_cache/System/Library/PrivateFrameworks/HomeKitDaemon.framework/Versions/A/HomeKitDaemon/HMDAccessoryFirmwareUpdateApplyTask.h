@@ -6,34 +6,25 @@
 
 #import <HomeKitDaemon/HMDAccessoryFirmwareUpdateTask.h>
 
-@class NSString;
 @protocol HMDAccessoryFirmwareUpdatePolicy;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateApplyTask : HMDAccessoryFirmwareUpdateTask
 {
     _Bool _userInitiated;
-    id <HMDAccessoryFirmwareUpdatePolicy> _policy;
 }
 
-- (id);
+- (id)0;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)roductID;
+- (id)chipProductID;
 - (void)¤`=;
 - (void)à½@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak id <HMDAccessoryFirmwareUpdatePolicy> policy; // @synthesize policy=_policy;
-@property(readonly) Class superclass;
 
 @end
 

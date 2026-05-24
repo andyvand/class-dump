@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFStoryRecipeDisplayAssetNormalization;
-@protocol PXStoryResource;
+@class NSString;
 
 @interface PXStoryDummyClip
 {
     long long _identifier;
-    id <PXStoryResource> _resource;
-    PFStoryRecipeDisplayAssetNormalization *_colorNormalization;
-    NSString *_resourceIdentifier;
-    long long _resourceOccurrenceIndex;
-    CDStruct_e83c9415 _videoTimeRange;
-    CDStruct_c0304e72 _info;
 }
 
 - (CDStruct_e83c9415);
@@ -30,26 +23,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (long long)GViewControllerTransitionEndPoint;
-- (CDStruct_c0304e72)$Ü$l%;
+- (_Bool)s;
+- (long long)PXGViewControllerTransitionEndPoint;
+- (CDStruct_58af7e62)$Ü$l%;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization; // @synthesize colorNormalization=_colorNormalization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long hash;
-@property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CDStruct_c0304e72 info; // @synthesize info=_info;
-@property(readonly, nonatomic) id <PXStoryResource> resource; // @synthesize resource=_resource;
 @property(readonly, nonatomic) NSString *resourceIdentifier; // @synthesize resourceIdentifier=_resourceIdentifier;
-@property(readonly, nonatomic) long long resourceOccurrenceIndex; // @synthesize resourceOccurrenceIndex=_resourceOccurrenceIndex;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_e83c9415 videoTimeRange; // @synthesize videoTimeRange=_videoTimeRange;
 
 @end
 

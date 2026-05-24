@@ -13,26 +13,26 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)(;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (unsigned long long);
-- (id)zedDescriptionForDiff:(id)arg1;
-- (void)ET_FRIEND;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (unsigned long long);
+- (id)localizedDescriptionForDiff:(id)arg1;
+- (void)SHARED_ENTITLEMENT_CAPABILITY_SET_FRIEND;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, SACalendar, SAUIAppPunchOut;
+@class SAUIAppPunchOut;
 
 @interface SAMovieShowtime : AceObject
 {
@@ -26,26 +26,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *buyTicketsPunchout;
-@property(copy, nonatomic) NSNumber *childTicketQuantity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool is3d;
-@property(nonatomic) _Bool isImax;
-@property(copy, nonatomic) NSNumber *regularTicketQuantity;
-@property(copy, nonatomic) NSNumber *seniorTicketQuantity;
-@property(retain, nonatomic) SACalendar *showtime;
-@property(readonly) Class superclass;
 
 @end
 

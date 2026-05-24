@@ -6,24 +6,22 @@
 
 #import <ContactsPersistence/ABCDOwnedObject.h>
 
-@class ABCDContact, NSString;
+@class NSString;
 
 @interface CNCDNote : ABCDOwnedObject
 {
 }
 
 + (id);
-+ (id);
++ (id)A;
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ABCDContact *contact; // @dynamic contact;
 @property(retain, nonatomic) NSString *primitiveText; // @dynamic primitiveText;
-@property(retain, nonatomic) NSString *text; // @dynamic text;
 
 @end
 

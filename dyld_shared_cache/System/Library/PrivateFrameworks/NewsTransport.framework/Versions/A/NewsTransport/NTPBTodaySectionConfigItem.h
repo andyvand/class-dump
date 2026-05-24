@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBTodaySectionConfigArticle, NTPBTodaySectionConfigWebEmbed;
+@class NTPBTodaySectionConfigArticle;
 
 @interface NTPBTodaySectionConfigItem
 {
     NTPBTodaySectionConfigArticle *_article;
-    int _itemType;
-    NTPBTodaySectionConfigWebEmbed *_webEmbed;
-    struct {
-        unsigned int itemType:1;
-    } _has;
 }
 
 - (void);
@@ -22,27 +17,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void));
+- (unsigned long long)setItemForwardEndPlaybackTime: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)es;
+- (id)de. Don't run kextcache;
+- (_Bool)h id %{public}@. Ignoring invalid competitor tag.;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool){CGPoint=dd}16f32;
 - (int)p(;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBTodaySectionConfigArticle *article; // @synthesize article=_article;
-@property(readonly, nonatomic) _Bool hasArticle;
 @property(nonatomic) _Bool hasItemType;
-@property(readonly, nonatomic) _Bool hasWebEmbed;
-@property(nonatomic) int itemType; // @synthesize itemType=_itemType;
-@property(retain, nonatomic) NTPBTodaySectionConfigWebEmbed *webEmbed; // @synthesize webEmbed=_webEmbed;
 
 @end
 

@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface UIDeviceRGBColor : UIColor
 {
     double redComponent;
-    double greenComponent;
-    double blueComponent;
-    double alphaComponent;
-    _Atomic struct CGColor *_cachedColor;
 }
 
-- (struct CGColor *);
-- (void);
+- (struct CGColor *)R;
+- (void)I#;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ss;
+- (_Bool)fallbackXPCEncodableClass;
 - (id);
 - (id)X;
 - (id)Ì<ÿ;

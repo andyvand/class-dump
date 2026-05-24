@@ -6,40 +6,25 @@
 
 #import <CFNetwork/__NSCFLocalSessionTask.h>
 
-@class NSData, NSError, NSMutableArray, NSObject, NSString;
-@protocol OS_nw_protocol_options;
-
 __attribute__((visibility("hidden")))
 @interface __NSURLSessionWebSocketTask : __NSCFLocalSessionTask
 {
     _Bool _webSocketHandshakeCompleted;
-    _Bool _readInProgress;
-    int _pingSeed;
-    long long _maximumMessageSize;
-    long long _closeCode;
-    NSData *_closeReason;
-    NSMutableArray *_pendingSendWork;
-    NSMutableArray *_pendingReceiveWork;
-    NSMutableArray *_highPriorityPendingWork;
-    NSMutableArray *_delegateWork;
-    NSError *_webSocketError;
-    NSString *_protocolPicked;
-    NSObject<OS_nw_protocol_options> *_wsOptions;
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)iterationhiragana;
+- (id)controlSTX;
+- (void)|;
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool)C#;
 - (long long);
 - (void);
 - (long long);
-- (void)s;
+- (void)_shouldUsePipelineHeuristics;
 - (void);
 - (void)3	33(34	44(45	55(5//
 ////)/8/33
@@ -55,8 +40,6 @@ __attribute__((visibility("hidden")))
 - (id).=c;
 
 // Remaining properties
-@property(readonly) long long closeCode; // @synthesize closeCode=_closeCode;
-@property(readonly, copy) NSData *closeReason; // @synthesize closeReason=_closeReason;
 @property long long maximumMessageSize; // @synthesize maximumMessageSize=_maximumMessageSize;
 
 @end

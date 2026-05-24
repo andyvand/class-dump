@@ -5,13 +5,10 @@
 //
 
 @protocol SXDocumentLayout
-- (unsigned long long)ovider: /* Error: Ran out of types for this method. */;
-- (long long)s;
+- (unsigned long long)initWithProvider: /* Error: Ran out of types for this method. */;
+- (long long)SXAXAdditions;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columns;
-@property(readonly, nonatomic) long long gutter;
-@property(readonly, nonatomic) long long margin;
 @property(readonly, nonatomic) long long width;
 @end
 

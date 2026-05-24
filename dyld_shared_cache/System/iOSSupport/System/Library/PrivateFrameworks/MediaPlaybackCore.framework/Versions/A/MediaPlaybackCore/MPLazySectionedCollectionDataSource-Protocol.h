@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPIdentifierSet;
+
 @protocol MPLazySectionedCollectionDataSource
 - (unsigned long long)rImplementation %p <%{public}@> - Transforming error to network unavailable instead of original:(unsigned long long)arg1 %{public}@;
+
+@optional
+- (long long)�;
+- (MPIdentifierSet *);
 @end
 

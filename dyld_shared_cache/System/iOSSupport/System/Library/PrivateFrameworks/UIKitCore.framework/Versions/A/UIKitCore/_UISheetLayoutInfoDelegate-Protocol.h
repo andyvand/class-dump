@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _UISheetLayoutInfo;
+
 @protocol _UISheetLayoutInfoDelegate
+- (void)nversationManager"16@"NSString"24;
+- (void)sationActivityEvent"32;
+- (void)40@0:(id <_UISheetLayoutInfo>)arg1 8@"TUConversationManager"16@"TUConversation"24@"TUConversationActivityEvent"32;
+- (void)TUConversation"24@"TUConversationParticipant"32;
+- (void)ager"16@"NSArray"24;
 @end
 

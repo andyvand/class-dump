@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationHierarchyDataContainer
 {
     _Bool _collapsed;
-    UIView *_view;
-    long long _level;
 }
 
-- (id);
+- (id)eItems:(id)arg1 %lu};
 - (_Bool);
 - (void);
 - (void);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (long long)ÿãW×êo;
 
 // Remaining properties
-@property(nonatomic) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(nonatomic) long long level; // @synthesize level=_level;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

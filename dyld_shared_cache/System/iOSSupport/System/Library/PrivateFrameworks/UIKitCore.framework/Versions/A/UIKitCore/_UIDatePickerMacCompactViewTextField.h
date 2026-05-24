@@ -6,22 +6,18 @@
 
 #import <UIKitCore/UITextField.h>
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerMacCompactViewTextField : UITextField
 {
     long long _element;
-    UIColor *_unselectedTextColor;
-    UIColor *_selectedTextColor;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)tifiers:(id)arg1 withChatMetadata:updateReason:shouldUpdateStores:] /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)h_geom_keystone1_std;
 - (_Bool);
 - (id)ÜÐ;
 - (long long)Z­;
@@ -31,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long element; // @synthesize element=_element;
-@property(copy, nonatomic) UIColor *selectedTextColor; // @synthesize selectedTextColor=_selectedTextColor;
-@property(copy, nonatomic) UIColor *unselectedTextColor; // @synthesize unselectedTextColor=_unselectedTextColor;
 
 @end
 

@@ -6,45 +6,34 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INIdentifyIncomingCallerIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)canGenerateThumbnailsForContentType:(long long)arg1 atSize:completionHandler: /* Error: Ran out of types for this method. */;
++ (int)ndboxingURLWrapper",&,N,V_urlWrapper;
++ (long long)setContentType:(int)arg1;
++ (_Bool)conformsToType:(long long)arg1;
 + (_Bool);
-+ (_Bool);
 - (void);
 - (id);
 - (id);
+- (long long)6;
+- (id);
 - (long long);
-- (id);
-- (long long);
 - (void);
 - (id);
+- (id)ation;
+- (id);
+- (void)_candidateBSSCount;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)esponse;
+- (long long)INUncompressFileIntentResponse;
 - (long long)Òÿ±È;
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *callRecords;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long statusCode;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,58 +9,57 @@
 @interface INCodable
 {
     INCodableDescription *_objectDescription;
-    NSMutableDictionary *_customValueForKeyDictionary;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id)m:(id)arg1 zone:(id *)arg2 home:group: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (float);
+- (id);
 - (void);
-- (id);
-- (id);
+- (float)>32;
+- (void)setSchoolworkUbiquitousContainerError:(id)arg1;
+- (id)^@32;
+- (id)GCBatteryXPCProxyServiceRemoteClientInterface;
 - (id);
 - (id);
 - (id);
 - (int);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)i;
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)greater than base image sector count (%qd). (sub-image extends past end of base image)
+;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (_Bool)TC,D,N;
+- (id)andler;
 - (_Bool);
+- (void)DeviceAccess:(id)arg1 clientID];
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (double);
-- (id)lesAtIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)iguationWithEventParticipantsToDisambiguate:(id)arg1;
-- (void)veProfileInCarIntent;
-- (void)earchCallHistoryIntentResponse;
+- (id)intentVocabularyExamplesAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)disambiguationWithEventParticipantsToDisambiguate:(id)arg1;
+- (void)_INPBSaveProfileInCarIntent;
+- (void)SearchCallHistoryIntentResponse;
 - (void)CQ+;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setObjectDescription:) INCodableDescription *_objectDescription; // @synthesize _objectDescription;
 @property(retain, nonatomic) NSMutableDictionary *customValueForKeyDictionary; // @synthesize customValueForKeyDictionary=_customValueForKeyDictionary;
 
 @end

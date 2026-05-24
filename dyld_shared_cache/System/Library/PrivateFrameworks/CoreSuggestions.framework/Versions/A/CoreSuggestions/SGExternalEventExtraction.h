@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, NSTimeZone, NSURL;
+@class NSString;
 
 @interface SGExternalEventExtraction
 {
     _Bool _isAllDay;
-    NSString *_identifier;
-    NSString *_fallbackIdentifier;
-    long long _status;
-    long long _category;
-    NSString *_title;
-    NSString *_content;
-    NSDate *_creationDate;
-    NSDate *_startTime;
-    NSTimeZone *_startTimeZone;
-    NSDate *_endTime;
-    NSTimeZone *_endTimeZone;
-    NSArray *_locations;
-    NSData *_icsAttachmentData;
-    NSURL *_url;
 }
 
 + (_Bool);
@@ -48,28 +34,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) NSTimeZone *endTimeZone; // @synthesize endTimeZone=_endTimeZone;
-@property(readonly, nonatomic) NSString *fallbackIdentifier; // @synthesize fallbackIdentifier=_fallbackIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *icsAttachmentData; // @synthesize icsAttachmentData=_icsAttachmentData;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSTimeZone *startTimeZone; // @synthesize startTimeZone=_startTimeZone;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

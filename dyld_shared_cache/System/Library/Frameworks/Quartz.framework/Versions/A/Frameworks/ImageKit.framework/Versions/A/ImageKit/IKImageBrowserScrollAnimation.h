@@ -9,10 +9,9 @@
 @interface IKImageBrowserScrollAnimation : IKAnimationGroup
 {
     struct CGPoint _offset_i;
-    struct CGPoint _offset_f;
 }
 
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -20,7 +19,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint offset_f; // @synthesize offset_f=_offset_f;
 @property(nonatomic) struct CGPoint offset_i; // @synthesize offset_i=_offset_i;
 
 @end

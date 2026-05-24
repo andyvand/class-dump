@@ -6,22 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSRuleEditor;
+@class NSRuleEditor;
 
 __attribute__((visibility("hidden")))
 @interface NSRuleEditorViewSlice : NSView
 {
     NSRuleEditor *_ruleEditor;
-    NSColor *_backgroundColor;
-    long long _indentation;
-    struct CGRect _animationTargetRect;
-    struct {
-        unsigned int selected:1;
-        unsigned int lastSelected:1;
-        unsigned int hideNonPartDrawing:1;
-        unsigned int reserved:29;
-    } _flags;
-    long long _rowIndex;
 }
 
 + (void)_äÿÒ>D?H;
@@ -31,17 +21,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)nd upload not done!! remaining size:(_Bool)arg1 %ld;
+- (void)n for file %@, succeeded = %{bool}d;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)_neverDecrementedPlusOneForFirstTube;
 - (id);
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);

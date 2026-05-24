@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSLock, NSString, NSURLRequest, NSURLSession, NSURLSessionDownloadTask, _PKURLSessionDelegate;
+@class NSLock;
 
 @interface PKURLSession
 {
     CDUnknownBlockType _challengeBlock;
-    CDUnknownBlockType _redirectResponseBlock;
-    _Bool _inBackground;
-    NSLock *_connectionLock;
-    NSURLSession *_urlSession;
-    NSURLSessionDownloadTask *_downloadTask;
-    _PKURLSessionDelegate *_pkURLSessionDelegate;
-    NSData *_resumeData;
-    NSURLRequest *_urlRequest;
-    NSString *_destinationDirectory;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)	;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -50,13 +41,6 @@
 
 // Remaining properties
 @property(retain) NSLock *connectionLock; // @synthesize connectionLock=_connectionLock;
-@property(retain, nonatomic) NSString *destinationDirectory; // @synthesize destinationDirectory=_destinationDirectory;
-@property(retain) NSURLSessionDownloadTask *downloadTask; // @synthesize downloadTask=_downloadTask;
-@property _Bool inBackground; // @synthesize inBackground=_inBackground;
-@property(retain) _PKURLSessionDelegate *pkURLSessionDelegate; // @synthesize pkURLSessionDelegate=_pkURLSessionDelegate;
-@property(retain) NSData *resumeData; // @synthesize resumeData=_resumeData;
-@property(retain, nonatomic) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
-@property(retain) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

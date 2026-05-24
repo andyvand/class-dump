@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTCenteringCollectionViewDelegate, AVTGroupDialMaskingView, AVTUIEnvironment, NSArray, NSIndexPath, NSString, UICollectionView, UICollectionViewFlowLayout;
-@protocol AVTGroupPickerDelegate;
+@class AVTUIEnvironment;
 
 @interface AVTGroupDial
 {
     _Bool _isMoving;
-    _Bool _hasFinalizedSelection;
-    id <AVTGroupPickerDelegate> delegate;
-    NSArray *_groupItems;
-    AVTUIEnvironment *_environment;
-    NSArray *_cachedGroupTitleSizes;
-    UICollectionView *_collectionView;
-    UICollectionViewFlowLayout *_collectionViewLayout;
-    AVTCenteringCollectionViewDelegate *_centeringCollectionViewDelegate;
-    unsigned long long _currentScrollDirection;
-    long long _currentSelectedItemIndex;
-    AVTGroupDialMaskingView *_maskingView;
-    NSIndexPath *_shimmeringItemIndexPath;
 }
 
 + (_Bool);
@@ -53,54 +40,34 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ACDiagnosticsClientConstants;
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (struct CGSize);
+- (id)mber",&,N,V_eventCanceled;
+- (struct CGSize)sp graph level parameter %s on graph:(id)arg1 %s to %f;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)rankingType;
+- (void)framework.SpotlightDiagnostic;
+- (void)outputDescriptorType;
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)sAtPath:(id)arg1;
+- (id)fileExistsAtPath:(id)arg1;
 - (void)òÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cachedGroupTitleSizes; // @synthesize cachedGroupTitleSizes=_cachedGroupTitleSizes;
-@property(readonly, nonatomic) AVTCenteringCollectionViewDelegate *centeringCollectionViewDelegate; // @synthesize centeringCollectionViewDelegate=_centeringCollectionViewDelegate;
-@property(readonly, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) UICollectionViewFlowLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
-@property(nonatomic) unsigned long long currentScrollDirection; // @synthesize currentScrollDirection=_currentScrollDirection;
-@property(nonatomic) long long currentSelectedItemIndex; // @synthesize currentSelectedItemIndex=_currentSelectedItemIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTGroupPickerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) NSArray *groupItems; // @synthesize groupItems=_groupItems;
-@property(nonatomic) _Bool hasFinalizedSelection; // @synthesize hasFinalizedSelection=_hasFinalizedSelection;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMoving; // @synthesize isMoving=_isMoving;
-@property(retain, nonatomic) AVTGroupDialMaskingView *maskingView; // @synthesize maskingView=_maskingView;
-@property(nonatomic) long long selectedGroupIndex;
-@property(nonatomic) NSIndexPath *shimmeringItemIndexPath; // @synthesize shimmeringItemIndexPath=_shimmeringItemIndexPath;
-@property(readonly) Class superclass;
 
 @end
 

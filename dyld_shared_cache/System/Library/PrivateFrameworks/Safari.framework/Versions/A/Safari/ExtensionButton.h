@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ExtensionButton : BadgedButton
 {
     NSImage *_originalImage;
-    NSImage *_colorImage;
-    NSImage *_grayscaleImage;
-    _Bool _showsImageInGrayscale;
 }
 
 - (_Bool);
@@ -24,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)etchRampState(_:(id)arg1 );
+- (void)lementation.;
+- (id)@;
 - (id)itPreferences.compositingRepaintCountersVisible;
 - (void)0;
 - (void)`Ì;

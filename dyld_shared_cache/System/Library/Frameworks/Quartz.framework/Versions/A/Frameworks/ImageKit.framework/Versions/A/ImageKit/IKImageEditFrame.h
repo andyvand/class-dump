@@ -12,13 +12,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)_copyAndAddStroke:transform:ink:newParent: /* Error: Ran out of types for this method. */;
 - (id)PackerAtIndex err=%x (in context:%p) /* Error: Ran out of types for this method. */;
 
 @end

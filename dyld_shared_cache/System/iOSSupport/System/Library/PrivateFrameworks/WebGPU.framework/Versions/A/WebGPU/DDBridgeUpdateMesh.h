@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDBridgeChainedFloat4x4, DDBridgeMeshDescriptor, NSArray, NSData, NSString;
+@class NSString;
 
 @interface DDBridgeUpdateMesh
 {
     void identifier;
     unsigned char updateType;
-    DDBridgeMeshDescriptor *descriptor;
-    void parts;
-    void indexData;
-    void vertexData;
-    DDBridgeChainedFloat4x4 *instanceTransforms;
-    long long instanceTransformsCount;
-    void materialPrims;
 }
 
 - (void);
-- (id);
+- (id)H;
 - (long long);
 - (id);
 - (id);
+- (id)#z;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned char);
@@ -34,15 +27,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) DDBridgeMeshDescriptor *descriptor; // @synthesize descriptor;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSData *indexData;
-@property(nonatomic, retain) DDBridgeChainedFloat4x4 *instanceTransforms; // @synthesize instanceTransforms;
-@property(nonatomic, readonly) long long instanceTransformsCount; // @synthesize instanceTransformsCount;
-@property(nonatomic, readonly) NSArray *materialPrims;
-@property(nonatomic, readonly) NSArray *parts;
 @property(nonatomic, readonly) unsigned char updateType; // @synthesize updateType;
-@property(nonatomic, readonly) NSArray *vertexData;
 
 @end
 

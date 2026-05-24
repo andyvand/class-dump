@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)eResult>"24@0:(id)arg1 8@"NSURL"16;
+- (id)urlForAccountWithIdentifier:(id)arg1 baseURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

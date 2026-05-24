@@ -4,24 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray, NSString, UIView;
 
 @protocol UIWKInteractionViewProtocol
-- (void)xt:(void (^)(UIWKAutocorrectionContext *))arg1;
-- (void)WithClipRect:(struct CGPoint)arg1;
+- (void)in behavioral mining in process %@.;
+- (void)oorLPLinkMetadata",C,N,V_metadata;
+- (void);
+- (void);
+- (void)__const;
+- (void)outputForPoint:(void (^)(UIWKAutocorrectionContext *))arg1 context: /* Error: Ran out of types for this method. */;
+- (void)newCGImageWithClipRect:(struct CGPoint)arg1;
 - (struct CGRect)V_editingExternalElementsSelection;
 - (struct CGRect)ÿÿÿÿÿ;
 - (void)tion path;
-- (_Bool)y;
-- (NSString *)_N_112StrokeVertexENS_9allocatorIS3_EEEENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
-- (NSString *)obufUnknownFieldsEE;
+- (_Bool)velocity;
+- (NSString *)NSt3__120__shared_ptr_pointerIPNS_6vectorIN12_GLOBAL__N_112StrokeVertexENS_9allocatorIS3_EEEENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
+- (NSString *)NSt3__114default_deleteI23PKProtobufUnknownFieldsEE;
 
 @optional
+- (UIView *)0+;
+- (void)APRequesterCoordinatorProtocol;
+- (void);
+- (_Bool)W;
+- (void);
 - (_Bool)PKShaderPipelineConfig=[8C]},R,N;
 - (void);
 - (void)¬;
 - (void)è	;
 - (NSArray *)ration Feedback: /* Error: Ran out of types for this method. */;
-- (struct CGRect);
 @end
 

@@ -16,9 +16,9 @@
 + (void);
 + (void);
 + (id);
++ (void);
 + (void);
-+ (void);
-+ (void);
++ (void)T?;
 + (void);
 
 @end

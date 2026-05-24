@@ -9,7 +9,6 @@
 @interface PXGFocusGuideView
 {
     PXGFocusGuideViewConfiguration *_userData;
-    struct CGRect _clippingRect;
 }
 
 - (void);
@@ -21,22 +20,9 @@
 - (void);
 - (void);
 - (id)urceChange"24;
-- (void)on;
+- (void)LemonadeOneUpConfiguration;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) PXGFocusGuideViewConfiguration *userData; // @synthesize userData=_userData;
 
 @end

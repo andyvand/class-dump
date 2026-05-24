@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface WebEditorSpellCheckResponder
 {
     WeakPtr_9652a5ad _client;
-    struct Markable<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>> _identifier;
-    struct RetainPtr<NSArray> _results;
 }
 
-- (id);
+- (id)c&#;
 - (void);
 - (id);
 - (void)#ð!xCùq'1Â0@ù

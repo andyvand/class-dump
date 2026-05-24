@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGMutableElementIdentifierSet, NSMutableArray;
+@class NSMutableArray;
 
 @interface MAGraphChangeRequest
 {
     NSMutableArray *_nodesToInsert;
-    NSMutableArray *_edgesToInsert;
-    KGMutableElementIdentifierSet *_nodeIdentifiersToRemove;
-    KGMutableElementIdentifierSet *_edgeIdentifiersToRemove;
 }
 
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -32,16 +29,12 @@
 - (void);
 - (void);
 - (id);
+- (void)addMinimalStrategyIdentifier:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)_TtC13ControlCenter19UnfairRecursiveLock;
 
 // Remaining properties
-@property(retain, nonatomic) KGMutableElementIdentifierSet *edgeIdentifiersToRemove; // @synthesize edgeIdentifiersToRemove=_edgeIdentifiersToRemove;
-@property(retain, nonatomic) NSMutableArray *edgesToInsert; // @synthesize edgesToInsert=_edgesToInsert;
-@property(retain, nonatomic) KGMutableElementIdentifierSet *nodeIdentifiersToRemove; // @synthesize nodeIdentifiersToRemove=_nodeIdentifiersToRemove;
 @property(retain, nonatomic) NSMutableArray *nodesToInsert; // @synthesize nodesToInsert=_nodesToInsert;
-@property(readonly, nonatomic) unsigned long long numberOfChanges;
 
 @end
 

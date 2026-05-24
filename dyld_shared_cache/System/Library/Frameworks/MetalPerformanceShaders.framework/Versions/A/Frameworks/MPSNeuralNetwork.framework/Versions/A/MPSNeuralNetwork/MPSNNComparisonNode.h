@@ -14,7 +14,7 @@
 - (void *);
 - (Class);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long comparisonType; // @synthesize comparisonType=_comparisonType;

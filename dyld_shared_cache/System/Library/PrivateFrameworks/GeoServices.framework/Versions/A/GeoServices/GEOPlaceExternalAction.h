@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDActionData, NSArray, NSOrderedSet, NSString;
+@class GEOPDActionData, NSString;
 
 @interface GEOPlaceExternalAction
 {
     GEOPDActionData *_actionData;
-    NSOrderedSet *_appAdamIds;
-    NSArray *_actionProviders;
 }
 
 - (id);
@@ -21,19 +19,13 @@
 - (id);
 - (void);
 - (id);
+- (id)Options;
 - (id);
-- (id);
-- (id)Set;
+- (id)transitFavoriteSet;
 - (void)^c@ö^K@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionName;
-@property(readonly, nonatomic) NSArray *actionProviders; // @synthesize actionProviders=_actionProviders;
-@property(readonly, nonatomic) NSOrderedSet *appAdamIds;
-@property(readonly, nonatomic) NSString *categoryId;
-@property(readonly, nonatomic) _Bool possiblyHasSupportedIntegrations;
-@property(readonly, nonatomic) NSString *symbolName;
-@property(readonly, nonatomic) NSString *winningAdamId;
 
 @end
 

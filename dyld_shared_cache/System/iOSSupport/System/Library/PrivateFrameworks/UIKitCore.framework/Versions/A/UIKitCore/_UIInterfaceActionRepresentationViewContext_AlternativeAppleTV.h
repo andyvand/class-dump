@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (struct CATransform3D);
+- (_Bool)ZoneID",N,R;
+- (struct CATransform3D)hatIdentifier:(struct CGSize)arg1 %@  guid:(_Bool)arg2 %@;
 
 @end
 

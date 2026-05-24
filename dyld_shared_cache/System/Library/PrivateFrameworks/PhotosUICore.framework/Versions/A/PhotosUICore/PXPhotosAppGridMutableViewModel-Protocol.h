@@ -7,9 +7,9 @@
 @class PXProgrammaticNavigationDestination;
 
 @protocol PXPhotosAppGridMutableViewModel
+- (void (^)(void));
 
 // Remaining properties
 @property(retain, nonatomic) PXProgrammaticNavigationDestination *openInPhotosAppButtonNavigationDestination;
-@property(copy, nonatomic) CDUnknownBlockType openInPhotosAppButtonWillPerformActionHandler;
 @end
 

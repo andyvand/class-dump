@@ -9,20 +9,18 @@
 @interface SOStickerTableCellView
 {
     NSTextField *_nameLabel;
-    NSTextField *_timeLabel;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) NSTextField *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(retain) NSTextField *timeLabel; // @synthesize timeLabel=_timeLabel;
 
 @end
 

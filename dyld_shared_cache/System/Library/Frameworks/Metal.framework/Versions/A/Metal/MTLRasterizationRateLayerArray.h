@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void)erConnectionManager;
+- (void)_compilerConnectionManager;
 - (id)Ø;
 
 @end

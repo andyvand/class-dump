@@ -7,8 +7,6 @@
 @interface NewsFeed.TagMastheadViewRenderer
 {
     id styler;
-    id logoImageCache;
-    id backgroundImageCache;
 }
 
 @end

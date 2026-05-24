@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureMetadataOutputInternal, NSArray, NSObject, NSString;
-@protocol AVCaptureMetadataOutputObjectsDelegate, OS_dispatch_queue;
+@class AVCaptureMetadataOutputInternal;
+@protocol AVCaptureMetadataOutputObjectsDelegate;
 
 @interface AVCaptureMetadataOutput : AVCaptureOutput
 {
@@ -21,7 +21,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)canSaveAccount:inStore:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -29,52 +29,52 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (float);
+- (_Bool)te exists but missing time component;
+- (float)e.;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (float);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id){;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (float);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (float);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (_Bool)}24;
+- (id)backPressureSemaphoresToIgnore;
+- (_Bool)_previewSplitterNode;
+- (void)FigCaptureStillImageProcessingSettings;
+- (void)CaptureDevice (%p).;
 - (void);
-- (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)ent != ((void*)0);
+- (void)<<< BWActionCameraFlickerAvoidanceMonitor >>>> Fig;
 - (id);
 - (_Bool);
 - (void);
@@ -86,19 +86,19 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (_Bool)C;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)a;
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
+- (_Bool)*F;
+- (void)Ti;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool)wLayer: /* Error: Ran out of types for this method. */;
-- (_Bool)nToUnavailable;
+- (_Bool)initWithDevice:previewLayer: /* Error: Ran out of types for this method. */;
+- (_Bool)handleTransitionToUnavailable;
 - (void)R,V_height;
 - (id)eCompletion;
 - (void),ó;
@@ -106,24 +106,10 @@
 - (float)iorConditions are not supported on this receiver;
 - (_Bool)ode for compressor node;
 - (void)sVideoMinFrameDurationSupported;
-- (_Bool)BLRSKPL2V4VLPUD2TDU;
+- (_Bool)AVGQL72SILMBLRSKPL2V4VLPUD2TDU;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableMetadataObjectTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *metadataObjectTypes;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *metadataObjectsCallbackQueue;
 @property(readonly, nonatomic) id <AVCaptureMetadataOutputObjectsDelegate> metadataObjectsDelegate;
-@property(nonatomic) struct CGRect rectOfInterest;
-@property(readonly, nonatomic) NSArray *requiredMetadataObjectTypesForCinematicVideoCapture;
-@property(readonly) Class superclass;
 
 @end
 

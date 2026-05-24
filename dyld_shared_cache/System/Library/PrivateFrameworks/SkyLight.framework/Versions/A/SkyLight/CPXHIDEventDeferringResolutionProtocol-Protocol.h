@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken;
+@class BKSHIDEventDeferringEnvironment;
 
 @protocol CPXHIDEventDeferringResolutionProtocol
+- (struct CPSProcessRec *)AutomatedExportBypassingDasdDueToVoucher;
+- (int)P;
+- (BKSHIDEventDeferringEnvironment *);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int connectionID;
 @property(readonly, copy, nonatomic) BKSHIDEventDeferringEnvironment *environment;
-@property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) struct CPSProcessRec *processRecord;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringToken *token;
 @end
 

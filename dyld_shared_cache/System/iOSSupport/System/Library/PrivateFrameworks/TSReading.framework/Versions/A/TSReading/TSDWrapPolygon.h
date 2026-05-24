@@ -7,10 +7,6 @@
 @interface TSDWrapPolygon
 {
     void *mPolygon;
-    _Bool mIntersectsSelf;
-    _Bool mComputedSelfIntersection;
-    struct CGRect mBounds;
-    _Bool mComputedBounds;
 }
 
 - (void);
@@ -19,13 +15,13 @@
 - (struct CGPoint);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)4;
 - (void *);
 - (id);
 

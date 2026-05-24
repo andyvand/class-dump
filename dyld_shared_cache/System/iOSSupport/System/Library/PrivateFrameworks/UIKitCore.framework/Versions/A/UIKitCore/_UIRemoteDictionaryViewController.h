@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UIRemoteDictionaryViewController : UITableViewController
 {
     NSArray *_availableDictionaries;
-    _UIDictionaryManager *_dictionaryAssetManager;
-    NSMutableDictionary *_downloadingAssets;
 }
 
 - (_Bool);
@@ -21,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)sharedTracker;
+- (id)setFamilyName: /* Error: Ran out of types for this method. */;
+- (void)_allHandles;
 - (void);
-- (void);
-- (id);
+- (id)compressedProtobuf2DataForGroupActionItem called on object %@ %@;
 - (id);
 - (long long);
 - (void);

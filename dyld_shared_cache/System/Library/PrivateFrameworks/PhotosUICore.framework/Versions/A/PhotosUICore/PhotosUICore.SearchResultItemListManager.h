@@ -7,16 +7,6 @@
 @interface PhotosUICore.SearchResultItemListManager
 {
     id itemList;
-    id peopleManager;
-    id promotedTopCollectionsManager;
-    id collectionsManager;
-    id collectionSectionProvider;
-    id itemType;
-    id unifiedManager;
-    id providerObserver;
-    id personObserver;
-    id topCollectionsObserver;
-    id collectionsObserver;
 }
 
 @end

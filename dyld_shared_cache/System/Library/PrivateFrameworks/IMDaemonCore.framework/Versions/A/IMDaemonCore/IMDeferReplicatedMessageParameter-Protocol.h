@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol IMDeferReplicatedMessageParameter
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool replicatingEncryptedMessage;
 @property(copy, nonatomic) NSString *replicationSourceServiceName;
 @end
 

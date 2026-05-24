@@ -7,11 +7,6 @@
 @interface WidgetKit.ElevatedMemoryRequestAssertion
 {
     id widget;
-    id reason;
-    id _controller;
-    id _lock_active;
-    id _lock_invalidated;
-    id _lock;
 }
 
 @end

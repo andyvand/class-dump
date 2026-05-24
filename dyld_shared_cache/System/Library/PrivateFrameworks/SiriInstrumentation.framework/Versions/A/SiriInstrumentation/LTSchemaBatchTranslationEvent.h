@@ -6,30 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LTSchemaError, LTSchemaTask, NSData, NSString;
+@class LTSchemaTask;
 
 @interface LTSchemaBatchTranslationEvent : SISchemaInstrumentationMessage
 {
     LTSchemaTask *_task;
-    NSString *_sessionID;
-    NSString *_requestID;
-    NSString *_systemLocale;
-    unsigned int _batchSeqNo;
-    unsigned int _numberOfParagraphs;
-    unsigned int _responseTimeMs;
-    unsigned int _numParagraphFailures;
-    LTSchemaError *_error;
-    struct {
-        unsigned int batchSeqNo:1;
-        unsigned int numberOfParagraphs:1;
-        unsigned int responseTimeMs:1;
-        unsigned int numParagraphFailures:1;
-    } _has;
-    _Bool _hasTask;
-    _Bool _hasSessionID;
-    _Bool _hasRequestID;
-    _Bool _hasSystemLocale;
-    _Bool _hasError;
 }
 
 - (void);
@@ -54,8 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)RA�;
+- (void)C;
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -63,10 +44,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)showAuthPasswordSheetUsingWindow:(_Bool)arg1 shouldNest:helpHandler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)shouldDownloadSplatUpdateAssets;
 - (id);
 - (id);
 - (void);
@@ -79,36 +60,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ully set this devie as Me device.;
 - (id)1Â0@ù
 × ;
-- (void)ed:(id)arg1;
-- (id)shot:(id)arg1;
+- (void)setActionCanceled:(id)arg1;
+- (id)setAllocationChangelogSnapshot:(id)arg1;
 - (id)xt",&,N,V_contextualEntityRetrievalContext;
-- (_Bool);
+- (_Bool)VOICENAME_ENUSWORKOUTD;
 - (void)Ãç!;
 - (void)Ô{Êÿ;
 - (_Bool)X±ÿø§°©:& /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int batchSeqNo; // @synthesize batchSeqNo=_batchSeqNo;
-@property(retain, nonatomic) LTSchemaError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasBatchSeqNo;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasNumParagraphFailures;
-@property(nonatomic) _Bool hasNumberOfParagraphs;
-@property(nonatomic) _Bool hasRequestID; // @synthesize hasRequestID=_hasRequestID;
-@property(nonatomic) _Bool hasResponseTimeMs;
-@property(nonatomic) _Bool hasSessionID; // @synthesize hasSessionID=_hasSessionID;
-@property(nonatomic) _Bool hasSystemLocale; // @synthesize hasSystemLocale=_hasSystemLocale;
-@property(nonatomic) _Bool hasTask; // @synthesize hasTask=_hasTask;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numParagraphFailures; // @synthesize numParagraphFailures=_numParagraphFailures;
-@property(nonatomic) unsigned int numberOfParagraphs; // @synthesize numberOfParagraphs=_numberOfParagraphs;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) unsigned int responseTimeMs; // @synthesize responseTimeMs=_responseTimeMs;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(copy, nonatomic) NSString *systemLocale; // @synthesize systemLocale=_systemLocale;
 @property(retain, nonatomic) LTSchemaTask *task; // @synthesize task=_task;
 
 @end

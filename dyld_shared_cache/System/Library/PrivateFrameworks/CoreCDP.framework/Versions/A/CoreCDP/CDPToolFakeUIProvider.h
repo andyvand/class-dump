@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInheritanceAccessKey, NSString;
+@class NSString;
 
 @interface CDPToolFakeUIProvider
 {
     NSString *_localSecret;
-    NSString *_remoteSecret;
-    NSString *_icsc;
-    NSString *_recoveryKey;
-    AKInheritanceAccessKey *_accessKey;
 }
 
 - (void);
@@ -20,38 +16,27 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) AKInheritanceAccessKey *accessKey; // @synthesize accessKey=_accessKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *icsc; // @synthesize icsc=_icsc;
 @property(copy, nonatomic) NSString *localSecret; // @synthesize localSecret=_localSecret;
-@property(copy, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(copy, nonatomic) NSString *remoteSecret; // @synthesize remoteSecret=_remoteSecret;
-@property(readonly) Class superclass;
 
 @end
 

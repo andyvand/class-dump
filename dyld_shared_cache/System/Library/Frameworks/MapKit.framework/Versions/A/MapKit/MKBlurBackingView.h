@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)diaPlayingState];
 - (void)1Â0@ù
 × ;
-- (void)nceTransition;
+- (void)endAppearanceTransition;
 
 // Remaining properties
 @property(retain, nonatomic) MKBlurBackingLayer *blurLayer; // @synthesize blurLayer=_blurLayer;

@@ -6,77 +6,61 @@
 
 #import <ChatKit/CKMessagePartChatItem.h>
 
-@class NSArray, NSAttributedString, NSItemProvider, NSLocale, NSOrderedSet;
+@class NSItemProvider;
 
 @interface CKTextMessagePartChatItem : CKMessagePartChatItem
 {
     NSItemProvider *_dragItemProvider;
-    long long _bigEmojiStyle;
-    _Bool _hasCachedBigEmojiStyle;
-    NSLocale *_translationSourceLanguage;
-    NSLocale *_translationTargetLanguage;
 }
 
-- (void);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)trackCollaborationActionSecondShareForObject:share:isInviting: /* Error: Ran out of types for this method. */;
+- (id)textController:removedTrackedAttribute: /* Error: Ran out of types for this method. */;
+- (id)switchToDevicePasswordInSettingsInfoAlertWithAccount: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)searchDomainIdentifier;
+- (id)rangeOfUnconfirmedMentionInTextStorage: /* Error: Ran out of types for this method. */;
+- (_Bool)predicateForPendingInvitationsInAccount:receivedSince: /* Error: Ran out of types for this method. */;
+- (_Bool)parseTitleFromHTMLString:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)tCheckingResult:(id)arg1 usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
+- (id)_webView:(id)arg1 runWebAuthenticationPanel:(struct _NSRange)arg2 initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)@"NSMutableDictionary",&,N,V_buttonIdentifiersToButtons;
+- (_Bool)ICUnsupportedTextAttachmentWithFallbackPDF;
+- (id)ICAccessibility_OSX;
+- (id)ICMentionTextAttachment;
+- (id)ICTTTextStorageScrollClampingDelegate;
 - (id);
 - (id);
 - (_Bool);
 - (Class);
-- (id);
+- (id)GG;
 - (_Bool);
 - (_Bool);
+- (_Bool)_G;
+- (id)o;
+- (id)t;
+- (id)};
+- (long long)p;
+- (Class)l;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (Class);
-- (_Bool);
-- (double);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (double)n;
+- (_Bool)et - attachment:%s /* Error: Ran out of types for this method. */;
+- (id)ng;
+- (_Bool)mage for %@;
+- (id)an account ID to get container.;
+- (id)%@);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)x
+;
 - (id);
 - (id);
 - (id);
-- (id)DescriptorByRemovingSymbolicTrait: /* Error: Ran out of types for this method. */;
+- (id)ck_fontDescriptorByRemovingSymbolicTrait: /* Error: Ran out of types for this method. */;
 - (void)°;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double ageForTextEffectCoordination;
-@property(readonly, nonatomic) long long bigEmojiStyle;
-@property(readonly, nonatomic) _Bool containsExcessiveLineHeightCharacters;
-@property(readonly, nonatomic) _Bool containsHyperlink;
-@property(readonly, nonatomic) _Bool dimsContentOverTranscriptBackground;
-@property(readonly, copy, nonatomic) NSArray *emojiImageMediaObjectsInMessagePartText;
-@property(readonly, copy, nonatomic) NSAttributedString *fallbackCorruptText;
-@property(readonly, nonatomic) _Bool showTranslationAlternateText;
-@property(readonly, copy, nonatomic) NSAttributedString *subject;
-@property(readonly, copy, nonatomic) NSAttributedString *text;
-@property(readonly, copy, nonatomic) NSOrderedSet *transferGUIDsInMessagePartText;
-@property(readonly, copy, nonatomic) NSAttributedString *translationSecondaryText;
-@property(readonly, nonatomic) NSLocale *translationSourceLanguage; // @synthesize translationSourceLanguage=_translationSourceLanguage;
-@property(readonly, nonatomic) NSLocale *translationTargetLanguage; // @synthesize translationTargetLanguage=_translationTargetLanguage;
 
 @end
 

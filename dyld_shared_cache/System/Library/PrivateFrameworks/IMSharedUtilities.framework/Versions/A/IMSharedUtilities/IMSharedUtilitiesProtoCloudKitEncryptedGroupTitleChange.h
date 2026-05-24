@@ -4,50 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMSharedUtilitiesProtoCloudKitEncryptedGroupTitleChange
 {
     NSString *_groupTitle;
-    NSString *_otherHandle;
-    NSData *_padding;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)?#;
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)reated;
+- (void)formation:(id)arg1 received non-HTTPS image URL:%@ /* Error: Ran out of types for this method. */;
+- (void)associatedReaders;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id)ssagePriorityTimeoutAfterRead;
-- (void)sk;
+- (id)MessagePriorityTimeoutAfterRead;
+- (void)intensiveSpotlightDisk;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *groupTitle; // @synthesize groupTitle=_groupTitle;
-@property(readonly, nonatomic) _Bool hasGroupTitle;
-@property(readonly, nonatomic) _Bool hasOtherHandle;
-@property(readonly, nonatomic) _Bool hasPadding;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

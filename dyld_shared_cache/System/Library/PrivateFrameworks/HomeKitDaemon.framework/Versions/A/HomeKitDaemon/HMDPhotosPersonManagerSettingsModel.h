@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDPhotosPersonManagerSettingsModel
@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id);
+- (id)ice:(id)arg1 %@, active alias:(id)arg2 %@, account:%@, displayName:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(retain) NSNumber *sharingFaceClassificationsEnabled; // @dynamic sharingFaceClassificationsEnabled;
-@property(retain) NSUUID *zoneUUID; // @dynamic zoneUUID;
 
 @end
 

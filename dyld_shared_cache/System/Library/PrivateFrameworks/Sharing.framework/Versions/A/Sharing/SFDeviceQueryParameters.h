@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAssetQuery, NSString;
+@class MAAssetQuery;
 
 __attribute__((visibility("hidden")))
 @interface SFDeviceQueryParameters
 {
     _Bool _installedOnly;
-    _Bool _imperfectMatch;
-    _Bool _fallback;
-    MAAssetQuery *_maQuery;
 }
 
 - (id);
@@ -23,16 +20,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)IOBluetoothHostControllerScanEnableDidChangeNotification;
 - (_Bool)<SFBLERecorderReplayDelegate>",W,N,V_replayDelegate;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool fallback; // @synthesize fallback=_fallback;
-@property(readonly, nonatomic) _Bool imperfectMatch; // @synthesize imperfectMatch=_imperfectMatch;
-@property(readonly, nonatomic) _Bool installedOnly; // @synthesize installedOnly=_installedOnly;
 @property(readonly, nonatomic) MAAssetQuery *maQuery; // @synthesize maQuery=_maQuery;
-@property(readonly, nonatomic) NSString *queryType;
 
 @end
 

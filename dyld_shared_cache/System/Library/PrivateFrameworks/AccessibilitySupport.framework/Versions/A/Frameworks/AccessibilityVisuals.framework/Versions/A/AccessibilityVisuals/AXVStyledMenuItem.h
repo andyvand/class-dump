@@ -6,19 +6,12 @@
 
 #import <AccessibilityVisuals/AXVProgressIndicatorView.h>
 
-@class CALayer, CAShapeLayer, CATextLayer, NSString;
+@class CAShapeLayer;
 @protocol AXVMenuItemDelegate;
 
 @interface AXVStyledMenuItem : AXVProgressIndicatorView
 {
     id <AXVMenuItemDelegate> _delegate;
-    NSString *_imageName;
-    NSString *_imageSymbolName;
-    NSString *_title;
-    CAShapeLayer *__backgroundLayer;
-    CAShapeLayer *__borderLayer;
-    CALayer *__imageLayer;
-    CATextLayer *__titleLayer;
 }
 
 - (void);
@@ -32,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -43,22 +36,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)TY;
 - (void);
 - (id);
-- (void);
+- (void);
+- (id);
+- (void)C;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *_backgroundLayer; // @synthesize _backgroundLayer=__backgroundLayer;
-@property(retain, nonatomic) CAShapeLayer *_borderLayer; // @synthesize _borderLayer=__borderLayer;
-@property(retain, nonatomic) CALayer *_imageLayer; // @synthesize _imageLayer=__imageLayer;
-@property(retain, nonatomic) CATextLayer *_titleLayer; // @synthesize _titleLayer=__titleLayer;
-@property(nonatomic) __weak id <AXVMenuItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(copy, nonatomic) NSString *imageSymbolName; // @synthesize imageSymbolName=_imageSymbolName;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

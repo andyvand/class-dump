@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     long long _contentAlignment;
 }
 
-+ (double);
++ (double)98;
 + (double);
 + (struct CGSize);
 + (double);
 + (id);
-- (double);
+- (double);
 - (double);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (void);
 - (long long);

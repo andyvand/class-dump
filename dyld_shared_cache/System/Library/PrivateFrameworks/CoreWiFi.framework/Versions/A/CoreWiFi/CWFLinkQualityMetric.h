@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSDate;
 
 @interface CWFLinkQualityMetric
 {
     NSDate *_updatedAt;
-    NSData *_linkQualityMetricData;
 }
 
-+ (_Bool);
++ (_Bool)=;
 
 @end
 

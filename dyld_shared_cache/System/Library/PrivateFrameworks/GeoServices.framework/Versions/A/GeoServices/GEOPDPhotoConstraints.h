@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface GEOPDPhotoConstraints
 {
     unsigned long long _maxPixels;
-    NSMutableArray *_mediaTypes;
-    unsigned long long _minPixels;
-    float _maxAspectRatio;
-    unsigned int _maxNumberOfPhotos;
-    struct {
-        unsigned int has_maxPixels:1;
-        unsigned int has_minPixels:1;
-        unsigned int has_maxAspectRatio:1;
-        unsigned int has_maxNumberOfPhotos:1;
-    } _flags;
 }
 
 - (id);
@@ -28,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)=}24@0:(struct _NSZone *)arg1 8@16;
-- (id)y;
+- (id)_identifierHistory;
 - (id)h5t7	¸:`<¼>H?@ /* Error: Ran out of types for this method. */;
 - (void);
 

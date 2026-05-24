@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFAnnotation, PDFPageView, PDFTextWidgetTextView, PDFView, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface PDFKitTextViewPrivate
 {
     UIView *topLevelView;
-    PDFTextWidgetTextView *textView;
-    PDFView *pdfView;
-    PDFPageView *pdfPageView;
-    PDFAnnotation *annotation;
 }
 
 - (void);

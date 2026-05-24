@@ -7,7 +7,6 @@
 @interface MPMediaItemArtwork
 {
     struct CGSize _bounds;
-    CDUnknownBlockType _requestHandler;
 }
 
 - (id);
@@ -18,11 +17,10 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void)_MAPPING_MISSING__;
+- (void)__MPModelRelationshipPlaylistEntryMovie__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) struct CGRect imageCropRect;
 
 @end
 

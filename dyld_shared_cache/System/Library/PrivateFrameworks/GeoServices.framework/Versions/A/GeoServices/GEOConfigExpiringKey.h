@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface GEOConfigExpiringKey
 {
     NSString *_keyPath;
-    NSDate *_expireTime;
-    NSString *_expireOSVersion;
 }
 
 + (id);
 + (_Bool)(%{private}u bytes) exceeds threshold, converting to download;
-- (id);
+- (id)mainThreadScheduler;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)0@"NSString"8@"NSNumber"16^B24;
 - (void);
 - (_Bool)Ld;
 - (void)EI:ì5 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *expireOSVersion; // @synthesize expireOSVersion=_expireOSVersion;
-@property(readonly, nonatomic) NSDate *expireTime; // @synthesize expireTime=_expireTime;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
 @property(readonly, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 
 @end

@@ -4,18 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)recordFromExternalData:error: /* Error: Ran out of types for this method. */;
+- (id)rebuilderStateString: /* Error: Ran out of types for this method. */;
+- (id)rebuildCompleteFuture;
+- (id)readOnly;
+- (id)queuedFetchRecordsContexts;
+- (Class)queryableFieldWithEncodeBlock:decodeBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)alertControllerWithTitle:message:preferredStyle: /* Error: Ran out of types for this method. */;
+- (unsigned long long)alize at %{public}@, err=%{public}d:%{public}s /* Error: Ran out of types for this method. */;
+- (id)+{;
+- (_Bool);
+- (id);
 - (struct _NSZone *)ÿÿ2ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

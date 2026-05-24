@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *)wareString;
+- (id)i;
+- (id);
+- (unsigned long long);
+- (oneway void);
+- (_Bool);
+- (_Bool)e file because too big; err=%@;
+- (struct _NSZone *)firmwareString;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

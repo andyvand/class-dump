@@ -7,22 +7,21 @@
 @class UICellAccessoryManager;
 
 @protocol UICellAccessoryLayout
+- (void);
+- (void);
+- (struct CGRect)visualIdenticalityStringRepresentation;
 - (double);
 - (double (^)(void))\AùQZ°1Â0@ù
 × ;
 - (UICellAccessoryManager *)!t@ùQ`°1Â0@ù
 × ;
-- (double)ms: /* Error: Ran out of types for this method. */;
-- (void)escreenCloseGlassBehaviors;
+- (double)navigationItemUpdatedAdditionalOverflowItems: /* Error: Ran out of types for this method. */;
+- (void)homescreenCloseGlassBehaviors;
 - (void)debugger. Child:(UICellAccessoryManager *)arg1 %@; Parent:%@ /* Error: Ran out of types for this method. */;
 - (double (^)(void))rGuide=%p;
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType disclosureLayoutWidthProvider;
-@property(nonatomic) unsigned long long edge;
 @property(nonatomic) __weak UICellAccessoryManager *manager;
-@property(nonatomic) double safeAreaInset;
-@property(copy, nonatomic) CDUnknownBlockType standardLayoutWidthProvider;
 @end
 

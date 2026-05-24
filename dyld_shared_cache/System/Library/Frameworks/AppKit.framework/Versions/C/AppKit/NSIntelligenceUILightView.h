@@ -12,21 +12,16 @@ __attribute__((visibility("hidden")))
 @interface NSIntelligenceUILightView : NSView
 {
     NSIntelligentLightRoot *_root;
-    long long _scope;
-    float _minimumPowerLevel;
-    double _audioLevel;
-    unsigned int _usesAudioLevels:1;
-    unsigned int _isNoisy:1;
 }
 
 - (void);
+- (void)K ##;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)divert token;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (float);
 - (id);
 - (double);
@@ -36,15 +31,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id)arSRGBColorSpace;
+- (id)extendedLinearSRGBColorSpace;
 - (void);
 - (void)#A;
 
 // Remaining properties
-@property double audioLevel;
-@property float minimumPowerLevel;
 @property long long scope;
-@property _Bool usesAudioLevels;
 
 @end
 

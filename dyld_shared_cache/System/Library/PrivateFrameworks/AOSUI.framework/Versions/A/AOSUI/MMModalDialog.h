@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMAlert, NSButton, NSImage, NSString, NSWindow;
-@protocol MMModalDialogDelegate;
-
 @interface MMModalDialog
 {
     _Bool _isVisible;
-    _Bool _isModal;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _helpHandler;
-    id <MMModalDialogDelegate> _delegate;
-    NSWindow *_parentWindow;
-    NSString *defaultButtonKeyEquivalent;
-    NSString *alternateButtonKeyEquivalent;
-    NSString *otherButtonKeyEquivalent;
-    NSString *_title;
-    NSString *_message;
-    NSString *_defaultButtonTitle;
-    NSString *_alternateButtonTitle;
-    NSString *_otherButtonTitle;
-    NSString *_iconLabel;
-    NSString *_badgeLabel;
-    NSImage *_icon;
-    NSImage *_badge;
-    MMAlert *_alert;
 }
 
 - (void);
@@ -41,23 +20,23 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)E9;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)1;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -77,26 +56,7 @@
 - (id)ntroller;
 
 // Remaining properties
-@property(retain) MMAlert *alert; // @synthesize alert=_alert;
-@property(readonly) NSButton *alternateButton;
-@property(copy) NSString *alternateButtonKeyEquivalent; // @synthesize alternateButtonKeyEquivalent;
-@property(copy) NSString *alternateButtonTitle; // @synthesize alternateButtonTitle=_alternateButtonTitle;
-@property NSImage *badge; // @synthesize badge=_badge;
-@property(copy) NSString *badgeLabel; // @synthesize badgeLabel=_badgeLabel;
-@property(readonly) NSButton *defaultButton;
-@property(copy) NSString *defaultButtonKeyEquivalent; // @synthesize defaultButtonKeyEquivalent;
-@property(copy) NSString *defaultButtonTitle; // @synthesize defaultButtonTitle=_defaultButtonTitle;
-@property(nonatomic) id <MMModalDialogDelegate> delegate; // @synthesize delegate=_delegate;
-@property NSImage *icon; // @synthesize icon=_icon;
-@property(copy) NSString *iconLabel; // @synthesize iconLabel=_iconLabel;
 @property _Bool isModal; // @synthesize isModal=_isModal;
-@property _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(copy) NSString *message; // @synthesize message=_message;
-@property(readonly) NSButton *otherButton;
-@property(copy) NSString *otherButtonKeyEquivalent; // @synthesize otherButtonKeyEquivalent;
-@property(copy) NSString *otherButtonTitle; // @synthesize otherButtonTitle=_otherButtonTitle;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

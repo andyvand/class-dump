@@ -7,12 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.DataSecurityCheck
 {
     id actor;
-    id sessionConfiguration;
-    id previousInvalidationContext;
-    id testDeviceReferenceProtocol;
-    id account;
-    id systemInteraction;
-    id dataProtectionStatus;
 }
 
 @end

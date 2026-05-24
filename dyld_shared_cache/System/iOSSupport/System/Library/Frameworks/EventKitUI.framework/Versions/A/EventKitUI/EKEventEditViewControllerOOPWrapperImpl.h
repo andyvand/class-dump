@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKEventStore, EventKitUI.EKEventEditViewControllerOOPImpl, NSString, UIColor;
-@protocol EKEventEditViewDelegate;
+@class EventKitUI.EKEventEditViewControllerOOPImpl, NSString;
 
 @interface EKEventEditViewControllerOOPWrapperImpl
 {
     NSString *_viewID;
-    _Bool ignoreUnsavedChanges;
-    _Bool timeImplicitlySet;
-    _Bool shouldRecordPrecommitEvent;
-    _Bool createdOwnEKEvent;
-    unsigned long long eventCreationMethod;
-    NSString *suggestionKey;
-    id precommitSerializedEvent;
-    unsigned long long eventCreationViewStart;
-    EventKitUI.EKEventEditViewControllerOOPImpl *_vc;
 }
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)%s;
 - (void);
 - (void);
 - (void);
@@ -33,34 +23,34 @@
 - (void);
 - (void);
 - (void);
+- (void)&s;
 - (void);
-- (void);
-- (void);
+- (void)s;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (_Bool)s;
+- (id);
+- (void)&s;
+- (void)O&s;
+- (void);
+- (id)(s;
+- (id);
+- (id)3%s;
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id){;
 - (void);
 - (void);
 - (id);
@@ -69,29 +59,10 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (void)kui_futureTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)setEkui_futureTraitCollection: /* Error: Ran out of types for this method. */;
 - (void)_dº;
 
 // Remaining properties
-@property(nonatomic) _Bool createdOwnEKEvent; // @synthesize createdOwnEKEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEventEditViewDelegate> editViewDelegate;
-@property(retain, nonatomic) UIColor *editorBackgroundColor;
-@property(retain, nonatomic) EKEvent *event;
-@property(nonatomic) unsigned long long eventCreationMethod; // @synthesize eventCreationMethod;
-@property(nonatomic) unsigned long long eventCreationViewStart; // @synthesize eventCreationViewStart;
-@property(retain, nonatomic) EKEventStore *eventStore;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreUnsavedChanges; // @synthesize ignoreUnsavedChanges;
-@property(readonly, nonatomic) id precommitSerializedEvent; // @synthesize precommitSerializedEvent;
-@property(nonatomic) _Bool shouldRecordPrecommitEvent; // @synthesize shouldRecordPrecommitEvent;
-@property(retain, nonatomic) NSString *suggestionKey; // @synthesize suggestionKey;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool timeImplicitlySet; // @synthesize timeImplicitlySet;
 @property(retain, nonatomic) EventKitUI.EKEventEditViewControllerOOPImpl *vc; // @synthesize vc=_vc;
 
 @end

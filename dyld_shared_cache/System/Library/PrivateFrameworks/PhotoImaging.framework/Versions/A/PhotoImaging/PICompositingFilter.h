@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSString;
+@class CIImage;
 
 @interface PICompositingFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputBackgroundImage;
-    NSNumber *_inputIntensity;
-    NSString *_inputBlendMode;
 }
 
 + (id);
@@ -23,16 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)iguration error %d;
 - (id);
 - (id);
 - (void)preheatEditDependencies;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputBackgroundImage; // @synthesize inputBackgroundImage=_inputBackgroundImage;
-@property(retain, nonatomic) NSString *inputBlendMode; // @synthesize inputBlendMode=_inputBlendMode;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
 
 @end
 

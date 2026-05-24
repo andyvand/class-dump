@@ -9,14 +9,13 @@
 @interface FigCaptureDepthDataSinkConfiguration : FigCaptureSinkConfiguration
 {
     _Bool _discardsLateDepthData;
-    _Bool _filteringEnabled;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (id)ngSupported;
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool discardsLateDepthData; // @synthesize discardsLateDepthData=_discardsLateDepthData;
-@property(nonatomic) _Bool filteringEnabled; // @synthesize filteringEnabled=_filteringEnabled;
 
 @end
 

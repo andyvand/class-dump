@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, SXExperiment, SXTagSubscriptionStatus;
-
 @protocol SXConditionValidationContext
+- (_Bool);
+- (long long);
 - (long long)om;
 - (unsigned long long)actory"16@?0@"<TFResolver>"8;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBundleSubscriber) _Bool bundleSubscriber;
-@property(readonly, nonatomic, getter=isBundleTrialEligible) _Bool bundleTrialEligible;
-@property(readonly, nonatomic, getter=isChannelSubscriber) _Bool channelSubscriber;
-@property(readonly, nonatomic) NSSet *conditionKeys;
-@property(readonly, nonatomic) double contentScaleFactor;
-@property(readonly, nonatomic) NSString *contentSizeCategory;
-@property(readonly, nonatomic) SXExperiment *experiment;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) unsigned long long newsletterSubscriptionStatus;
-@property(readonly, nonatomic) unsigned long long numberOfColumns;
-@property(readonly, nonatomic) NSString *offerIdentifier;
-@property(readonly, nonatomic) long long offerUpsellScenario;
-@property(readonly, nonatomic) long long subscriptionActivationEligibility;
-@property(readonly, nonatomic) SXTagSubscriptionStatus *tagSubscriptionStatus;
-@property(readonly, nonatomic) _Bool testing;
-@property(readonly, nonatomic) long long userInterfaceStyle;
-@property(readonly, nonatomic) long long verticalSizeClass;
-@property(readonly, nonatomic) unsigned long long viewingLocation;
 @property(readonly, nonatomic) struct CGSize viewportSize;
 @end
 

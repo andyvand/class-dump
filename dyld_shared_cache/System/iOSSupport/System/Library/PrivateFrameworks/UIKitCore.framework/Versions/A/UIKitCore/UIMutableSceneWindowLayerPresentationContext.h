@@ -6,18 +6,13 @@
 
 #import <UIKitCore/UISceneWindowLayerPresentationContext.h>
 
-@class NSString;
-
 @interface UIMutableSceneWindowLayerPresentationContext : UISceneWindowLayerPresentationContext
 {
 }
 
-- (id)fierCommonRenderer;
+- (id)UITextMagnifierCommonRenderer;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *flattenMode; // @dynamic flattenMode;
-@property(nonatomic) _Bool fullyOccluded; // @dynamic fullyOccluded;
-@property(nonatomic) _Bool ignoreAnimations; // @dynamic ignoreAnimations;
 @property(nonatomic) double postCommitDuration; // @dynamic postCommitDuration;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
+@class NSSet;
 
 @interface SXAXCustomRotorProvider
 {
     NSSet *_cachedAvailableRotors;
-    NSObject *_rootElement;
 }
 
 - (id);

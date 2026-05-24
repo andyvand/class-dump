@@ -6,20 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RRSchemaRRPullerEnded, RRSchemaRRPullerFailed;
+@class RRSchemaRRPullerEnded;
 
 @interface RRSchemaRRPullerContext : SISchemaInstrumentationMessage
 {
     RRSchemaRRPullerEnded *_ended;
-    RRSchemaRRPullerFailed *_failed;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,26 +23,21 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ry/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobActivity_macOS.m:34 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)f, IMDHandleRecordRef);
 - (id);
 - (id);
-- (id)ri1Day;
+- (id)appUsageCountForEntityFromSiri1Day;
 - (id)ternativeRanksFamilyNameRank;
-- (void)Source;
+- (void)planSource;
 
 // Remaining properties
 @property(retain, nonatomic) RRSchemaRRPullerEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RRSchemaRRPullerFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface EDCoreAnalyticAccountMapper
 {
     NSDate *_date;
-    NSArray *_accounts;
 }
 
-+ (_Bool);
++ (_Bool):%@) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)};
 - (id);
 - (void);
-- (void);
-- (id);
-- (void)onitoredActivityReasonArchiving;
+- (void)A;
+- (id)available networks;
+- (void)MonitoredActivityReasonArchiving;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
 @property(nonatomic) NSDate *date; // @synthesize date=_date;
 
 @end

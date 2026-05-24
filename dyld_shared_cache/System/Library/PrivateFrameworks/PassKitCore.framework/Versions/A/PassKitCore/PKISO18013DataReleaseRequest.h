@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSURL, PKTransactionReleasedData;
+@class PKTransactionReleasedData;
 
 @interface PKISO18013DataReleaseRequest
 {
     _Bool _trustedRelyingParty;
-    PKTransactionReleasedData *_releasedData;
-    NSString *_rpIdentifier;
-    NSString *_organizationName;
-    NSString *_organizationUnit;
-    NSData *_iconData;
-    NSURL *_iconURL;
-    NSNumber *_industryCode;
-    NSData *_authenticationACL;
-    NSData *_externalizedAuthenticationContext;
-    NSString *_analyticsIdentifier;
-    NSString *_analyticsOrganizationName;
 }
 
 - (void);
@@ -28,13 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,23 +36,11 @@
 - (void);
 - (id);
 - (void);
-- (void)T_CONTACT_INVALID_NAME;
+- (void)IN_APP_PAYMENT_CONTACT_INVALID_NAME;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *analyticsIdentifier; // @synthesize analyticsIdentifier=_analyticsIdentifier;
-@property(retain, nonatomic) NSString *analyticsOrganizationName; // @synthesize analyticsOrganizationName=_analyticsOrganizationName;
-@property(retain, nonatomic) NSData *authenticationACL; // @synthesize authenticationACL=_authenticationACL;
 @property(retain, nonatomic) PKTransactionReleasedData *dataElements;
-@property(retain, nonatomic) NSData *externalizedAuthenticationContext; // @synthesize externalizedAuthenticationContext=_externalizedAuthenticationContext;
-@property(retain, nonatomic) NSData *iconData; // @synthesize iconData=_iconData;
-@property(retain, nonatomic) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(retain, nonatomic) NSNumber *industryCode; // @synthesize industryCode=_industryCode;
-@property(retain, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(retain, nonatomic) NSString *organizationUnit; // @synthesize organizationUnit=_organizationUnit;
-@property(retain, nonatomic) PKTransactionReleasedData *releasedData; // @synthesize releasedData=_releasedData;
-@property(retain, nonatomic) NSString *rpIdentifier; // @synthesize rpIdentifier=_rpIdentifier;
-@property(nonatomic, getter=isTrustedRelyingParty) _Bool trustedRelyingParty; // @synthesize trustedRelyingParty=_trustedRelyingParty;
 
 @end
 

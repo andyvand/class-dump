@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void)downgrade date %@. We can't download at this time. When the Identity is restored, we will kick sync appropriately;
 - (id);
 - (void)A¡°!;
 

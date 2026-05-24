@@ -5,14 +5,14 @@
 //
 
 @interface UnknownClass (IconServices)
++ (id)";
++ (id)ddress;
++ (id)el;
++ (id)e.datadetectors.ddmlscanner.model;
++ (id)DateSpanWithReference;
++ (id)dDate.DateSpan.YearNumber;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)TimeSpanWithReference;
 - (void);
 @end
 

@@ -6,49 +6,37 @@
 
 #import <NearField/NFSession.h>
 
-@class NFApplet, NSDictionary, NSObject;
-@protocol NFSecureTransactionServicesHandoverHybridSessionDelegate, NFTNEPReaderDelegate, NFTNEPTagDeviceDelegate;
+@class NSDictionary, NSObject;
+@protocol NFTNEPTagDeviceDelegate;
 
 @interface NFSecureTransactionServicesHandoverHybridSession : NFSession
 {
     NSDictionary *_appletsById;
-    id <NFSecureTransactionServicesHandoverHybridSessionDelegate> _delegate;
-    unsigned long long _numActiveSEs;
-    _Bool _fieldNotificationSent;
-    NFApplet *_activeApplet;
-    NFApplet *_defaultApplet;
-    NSObject<NFTNEPTagDeviceDelegate> *_tagDeviceDelegate;
-    NSObject<NFTNEPReaderDelegate> *_tagReaderDelegate;
 }
 
-- (id);
-- (id);
+- (id)tlPreferences.framework/Contents/MacOS/IntlPreferences;
+- (id)m/Library/PrivateFrameworks/IntlPreferences.framework/Contents/MacOS/IntlPreferences;
+- (void)lectionView.m;
+- (void)dateComponents;
+- (_Bool)utton];
+- (void)tmpLabeledReadWriteSharingACL;
+- (void)-legacy;
+- (_Bool)CNSaveRequest"8;
+- (unsigned long long)oid);
 - (void);
-- (void);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)o info struct specified;
 - (id);
 
 // Remaining properties
-@property(readonly) NFApplet *activeApplet; // @synthesize activeApplet=_activeApplet;
-@property(readonly) NFApplet *defaultApplet; // @synthesize defaultApplet=_defaultApplet;
-@property __weak id <NFSecureTransactionServicesHandoverHybridSessionDelegate> delegate;
-@property(readonly) unsigned long long numberOfActiveSecureElements;
 @property(retain, nonatomic) NSObject<NFTNEPTagDeviceDelegate> *tagDeviceDelegate; // @synthesize tagDeviceDelegate=_tagDeviceDelegate;
-@property(retain, nonatomic) NSObject<NFTNEPReaderDelegate> *tagReaderDelegate; // @synthesize tagReaderDelegate=_tagReaderDelegate;
 
 @end
 

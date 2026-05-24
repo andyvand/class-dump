@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 @interface ILMediaBrowserMovieView
 {
     id _representedGroup;
-    id _representedObject;
-    _Bool _showingThumbnail;
-    id _enterKeyTarget;
-    SEL _enterKeyAction;
-    id _viewDelegate;
-    NSWindow *_flagWindow;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)So23UIActivityIndicatorViewC;
+- (unsigned long long)otstrapper.swift;
+- (void)ity string for a 'show sidebar' button;
+- (void)' button;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)(;
 - (_Bool);
 - (void);
 

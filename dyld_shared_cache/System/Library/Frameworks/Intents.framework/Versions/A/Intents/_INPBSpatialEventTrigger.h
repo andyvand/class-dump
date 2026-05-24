@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBLocationValue;
-
 @interface _INPBSpatialEventTrigger
 {
     struct {
         unsigned int event:1;
         unsigned int mobileSpace:1;
     } _has;
-    int _event;
-    int _mobileSpace;
-    _INPBLocationValue *_location;
-    NSArray *_suggestedValues;
 }
 
 + (Class);
@@ -34,40 +28,26 @@
 - (id);
 - (int);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)_filterObjectsBeingSavedFromObjects: /* Error: Ran out of types for this method. */;
+- (id)ks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void)wep;
 - (id);
 - (id);
 - (id)Ñ¾(ð1Â0@ù
 × ;
-- (void)onseCodeFailure;
+- (void)INSnoozeTasksIntentResponseCodeFailure;
 - (_Bool)requiresUserIdentification;
 - (void)ÕÿÜâMë;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int event; // @synthesize event=_event;
-@property(nonatomic) _Bool hasEvent;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasMobileSpace;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBLocationValue *location; // @synthesize location=_location;
-@property(nonatomic) int mobileSpace; // @synthesize mobileSpace=_mobileSpace;
-@property(copy, nonatomic) NSArray *suggestedValues; // @synthesize suggestedValues=_suggestedValues;
-@property(readonly, nonatomic) unsigned long long suggestedValuesCount;
-@property(readonly) Class superclass;
 
 @end
 

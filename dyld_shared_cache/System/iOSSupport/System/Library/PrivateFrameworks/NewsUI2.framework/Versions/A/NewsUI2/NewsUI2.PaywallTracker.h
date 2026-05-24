@@ -7,17 +7,6 @@
 @interface NewsUI2.PaywallTracker
 {
     id tracker;
-    id paywallTrackerObserver;
-    id feedData;
-    id channelData;
-    id groupData;
-    id sectionData;
-    id articleData;
-    id articleExposureContextData;
-    id campaignData;
-    id adReferralData;
-    id puzzleData;
-    id recipeData;
 }
 
 @end

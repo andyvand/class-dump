@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FPCollectionDataSourceDelegate;
-
 @protocol FPCollectionDataSource
 
 // Remaining properties
-@property(nonatomic) __weak id <FPCollectionDataSourceDelegate> delegate;
 @property(readonly, nonatomic) _Bool hasMoreIncoming;
 @end
 

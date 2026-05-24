@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface WBSDispatchSourceTimer
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_source> *_timer;
-    _Bool _repeats;
-    double _interval;
-    double _startDelay;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
 }
 
 + (id);
@@ -24,25 +15,20 @@
 + (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)exist in element (%p);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) _Bool repeats; // @synthesize repeats=_repeats;
-@property(readonly, nonatomic) double startDelay; // @synthesize startDelay=_startDelay;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

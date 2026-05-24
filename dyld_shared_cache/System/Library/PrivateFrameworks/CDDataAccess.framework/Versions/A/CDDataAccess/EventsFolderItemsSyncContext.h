@@ -7,18 +7,13 @@
 @interface EventsFolderItemsSyncContext
 {
     int _calEventChangeId;
-    int _calRecurrenceChangeId;
-    int _calAlarmChangeId;
-    int _calAttendeeChangeId;
-    int _calAttachmentChangeId;
-    int _highestSequenceNumber;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -28,12 +23,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int calAlarmChangeId; // @synthesize calAlarmChangeId=_calAlarmChangeId;
-@property(nonatomic) int calAttachmentChangeId; // @synthesize calAttachmentChangeId=_calAttachmentChangeId;
-@property(nonatomic) int calAttendeeChangeId; // @synthesize calAttendeeChangeId=_calAttendeeChangeId;
 @property(nonatomic) int calEventChangeId; // @synthesize calEventChangeId=_calEventChangeId;
-@property(nonatomic) int calRecurrenceChangeId; // @synthesize calRecurrenceChangeId=_calRecurrenceChangeId;
-@property(nonatomic) int highestSequenceNumber; // @synthesize highestSequenceNumber=_highestSequenceNumber;
 
 @end
 

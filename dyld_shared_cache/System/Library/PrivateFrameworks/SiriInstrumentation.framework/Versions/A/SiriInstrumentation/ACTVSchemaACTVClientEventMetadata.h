@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ACTVSchemaACTVClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_activationEventId;
-    _Bool _hasActivationEventId;
 }
 
 - (void);
@@ -19,22 +18,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)nager is responsible for creating all objects.;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)EntityInUsingApp1Hr: /* Error: Ran out of types for this method. */;
+- (id)setTaskAbandonCountForEntityInUsingApp1Hr: /* Error: Ran out of types for this method. */;
 - (id)p@HD°J¸L;
-- (id);
+- (id)requestedVoiceContext;
 - (void)ëL';
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *activationEventId; // @synthesize activationEventId=_activationEventId;
-@property(nonatomic) _Bool hasActivationEventId; // @synthesize hasActivationEventId=_hasActivationEventId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

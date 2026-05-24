@@ -11,14 +11,13 @@
 @interface TRIFBImmutableBoxedInt64 : TRIFBBoxedInt64
 {
     AFBBufRef *_br;
-    const struct BoxedInt64 *_ptr;
 }
 
 - (id);
 - (const struct BoxedInt64 *);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

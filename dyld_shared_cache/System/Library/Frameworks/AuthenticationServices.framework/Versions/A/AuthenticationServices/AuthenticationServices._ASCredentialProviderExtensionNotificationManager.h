@@ -7,7 +7,6 @@
 @interface AuthenticationServices._ASCredentialProviderExtensionNotificationManager
 {
     id $defaultActor;
-    id credentialProviderExtensionManager;
 }
 
 - (void);
@@ -16,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)toggleAutoFillConsoleLogging: /* Error: Ran out of types for this method. */;
 
 @end
 

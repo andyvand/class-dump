@@ -14,33 +14,20 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct ActivationPruning {
-    float threshold;
-    unsigned long long numCandidates;
-    _Bool cumulative;
-};
-
-struct AdditiveCombiningBeamScorer<CoreRecognition::decoder::CombinedBeamState> {
-    CDUnknownFunctionPointerType *_vptr$BaseBeamScorer;
-    double weight_;
-    double logProbLowerBound_;
-    struct vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>> scorers_;
-};
-
 struct BoundingBox {
-    double x_min;
-    double x_max;
-    double y_min;
-    double y_max;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -49,8 +36,8 @@ struct CGPoint {
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
@@ -165,36 +152,18 @@ struct CHTextTransformationResult {
     id _field3;
 };
 
-struct CTCBeamSearchConfig {
-    unsigned long long blankLabel;
-    int beamWidth;
-    int numBestPaths;
-    double labelSelectionThreshold;
-    struct optional<CoreRecognition::decoder::ActivationPruning> pruner;
-};
-
-struct CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>> {
-    CDUnknownFunctionPointerType *_vptr$AbstractCTCDecoder;
-    unsigned long long blankLabel_;
-    struct AdditiveCombiningBeamScorer<CoreRecognition::decoder::CombinedBeamState> beamScorer_;
-    struct SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState> pathBuilder_;
-    struct CTCBeamSearchConfig config_;
-};
-
 struct CVNLPTextDecodingPruningPolicy {
-    long long strategy;
-    _Bool shouldSort;
-    float threshold;
-    unsigned int maxNumberOfCandidates;
+    long long _field1;
+    _Bool _field2;
+    float _field3;
+    unsigned int _field4;
 };
 
 struct FeatureArray {
     struct vector<unsigned long, std::allocator<unsigned long>> _field1;
     struct vector<unsigned long, std::allocator<unsigned long>> _field2;
-    vector_926a3350 _field3;
+    vector_4858b34d _field3;
 };
-
-struct FeatureExtractionProcessor;
 
 struct LaTeXSyntaxHelper;
 
@@ -212,12 +181,8 @@ struct Matrix<float> {
     unsigned int _field4;
 };
 
-struct ObjectRef<_LXLexicon *> {
-    struct _LXLexicon *mCFObject;
-};
-
 struct ObjectRef<const _LXLexicon *> {
-    struct _LXLexicon *mCFObject;
+    struct _LXLexicon *_field1;
 };
 
 struct ObjectRef<void *> {
@@ -231,28 +196,6 @@ struct PointsAndPrincipalLines {
 
 struct PreprocessingManager;
 
-struct SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState> {
-    CDUnknownFunctionPointerType *_vptr$AbstractResultPathBuilder;
-    _Bool optimizeAlignment_;
-    struct vector<unsigned long, std::allocator<unsigned long>> spaceLabels_;
-    _Bool splitSpaceProbability_;
-};
-
-struct SymbolTokenPropertiesHelper {
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> structuralSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> digitSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> separatorSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> operatorSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> currencySymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> exponentSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> constantSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> openeingBracketSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> closingBracketSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> functionCallSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> spaceSymbols;
-    struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> lineBreakSymbols;
-};
-
 struct VariantMap {
     int *_field1;
     int *_field2;
@@ -265,8 +208,8 @@ struct VariantMap {
 struct _LXLexicon;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __shared_weak_count;
@@ -279,64 +222,8 @@ struct map<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelSta
     } __tree_;
 };
 
-struct map<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>>> {
-    struct __tree<std::__value_type<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>, std::__map_value_compare<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>>>> {
-    struct __tree<std::__value_type<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>>, std::__map_value_compare<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePostprocessing>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::set<long>, std::vector<CHCandidateResult>, std::less<std::set<long>>, std::allocator<std::pair<const std::set<long>, std::vector<CHCandidateResult>>>> {
-    struct __tree<std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, std::__map_value_compare<std::set<long>, std::pair<const std::set<long>, std::vector<CHCandidateResult>>, std::less<std::set<long>>>, std::allocator<std::pair<const std::set<long>, std::vector<CHCandidateResult>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>, std::less<std::set<unsigned long>>, std::allocator<std::pair<const std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>> {
-    struct __tree<std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::__map_value_compare<std::set<unsigned long>, std::pair<const std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::less<std::set<unsigned long>>>, std::allocator<std::pair<const std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<std::string, std::pair<std::string, double>, std::less<std::string>, std::allocator<std::pair<const std::string, std::pair<std::string, double>>>> {
     struct __tree<std::__value_type<std::string, std::pair<std::string, double>>, std::__map_value_compare<std::string, std::pair<const std::string, std::pair<std::string, double>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::pair<std::string, double>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<unsigned int, unsigned int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> {
-    struct __tree<std::__value_type<unsigned int, unsigned int>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, unsigned int>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned int>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<unsigned int, unsigned long long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long long>>> {
-    struct __tree<std::__value_type<unsigned int, unsigned long long>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, unsigned long long>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned long long>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>> {
-    struct __tree<std::__value_type<unsigned int, unsigned long>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, unsigned long>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned long>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -359,32 +246,14 @@ struct optional<CHPrincipalLines> {
     _Bool __engaged_;
 };
 
-struct optional<CoreRecognition::decoder::ActivationPruning> {
-    union {
-        char __null_state_;
-        struct ActivationPruning __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<CoreRecognition::decoder::CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>>> {
-    union {
-        char __null_state_;
-        struct CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>> __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct set<long, std::less<long>, std::allocator<long>> {
     struct __tree<long, std::less<long>, std::allocator<long>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
+        void *_field1;
+        CDStruct_09bd28e6 _field2;
+        struct {
+            unsigned long long _field1;
+        } _field3;
+    } _field1;
 };
 
 struct shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext> {
@@ -405,17 +274,6 @@ struct shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing> 
 struct shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterPersonalizer> {
     struct CHAbstractFastPathCharacterPersonalizer *__ptr_;
     struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<void> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct unique_ptr<CoreHandwriting::FeatureExtractionProcessor, std::default_delete<CoreHandwriting::FeatureExtractionProcessor>> {
-    struct {
-        struct FeatureExtractionProcessor *__ptr_;
-    } ;
 };
 
 struct unique_ptr<CoreHandwriting::LaTeXSyntaxHelper, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>> {
@@ -454,30 +312,6 @@ struct unique_ptr<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHold
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> {
-    struct __hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::string, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
-};
-
 struct vector<CGPoint, std::allocator<CGPoint>> {
     struct CGPoint *__begin_;
     struct CGPoint *__end_;
@@ -492,14 +326,6 @@ struct vector<CGRect, std::allocator<CGRect>> {
     struct {
         struct CGRect *_field1;
     } _field3;
-};
-
-struct vector<CGVector, std::allocator<CGVector>> {
-    struct CGVector *__begin_;
-    struct CGVector *__end_;
-    struct {
-        struct CGVector *__cap_;
-    } ;
 };
 
 struct vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>> {
@@ -550,18 +376,12 @@ struct vector<double, std::allocator<double>> {
     } ;
 };
 
-struct vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
+    float *_field1;
+    float *_field2;
     struct {
-        float *__cap_;
-    } ;
+        float *_field1;
+    } _field3;
 };
 
 struct vector<int, std::allocator<int>> {
@@ -580,12 +400,6 @@ struct vector<long, std::allocator<long>> {
     } _field3;
 };
 
-struct vector<std::map<long, long>, std::allocator<std::map<long, long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>>> {
     void *__begin_;
     void *__end_;
@@ -598,22 +412,10 @@ struct vector<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractF
     CDStruct_63fd5f43 ;
 };
 
-struct vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::unordered_map<unsigned long, float>, std::allocator<std::unordered_map<unsigned long, float>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
 };
 
 struct vector<std::vector<double>, std::allocator<std::vector<double>>> {
@@ -649,14 +451,14 @@ typedef struct {
 } CDStruct_63fd5f43;
 
 typedef struct {
-    double strokeClutterFilteringDuration;
-    double strokeClassificationDuration;
-    double groupingDuration;
-    double documentLayoutAnalysisDuration;
-    double recognitionDuration;
-    double principalLinesDuration;
-    double totalDuration;
-} CDStruct_14eb5789;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+} CDStruct_a6fa95e6;
 
 typedef struct {
     double _field1;
@@ -700,8 +502,8 @@ typedef struct Matrix<float> {
 } Matrix_273a43f8;
 
 typedef struct ObjectRef<const _LXLexicon *> {
-    struct _LXLexicon *mCFObject;
-} ObjectRef_c4ceabc4;
+    struct _LXLexicon *_field1;
+} ObjectRef_ceed0876;
 
 typedef struct ObjectRef<void *> {
     void *mCFObject;
@@ -709,11 +511,13 @@ typedef struct ObjectRef<void *> {
 
 typedef struct set<long, std::less<long>, std::allocator<long>> {
     struct __tree<long, std::less<long>, std::allocator<long>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-} set_f8fc641a;
+        void *_field1;
+        CDStruct_09bd28e6 _field2;
+        struct {
+            unsigned long long _field1;
+        } _field3;
+    } _field1;
+} set_ebe48671;
 
 typedef struct shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext> {
     struct CHDiffusionPipelineContext *_field1;
@@ -777,12 +581,12 @@ typedef struct vector<const void *, std::allocator<const void *>> {
 } vector_d15290fb;
 
 typedef struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
+    float *_field1;
+    float *_field2;
     struct {
-        float *__cap_;
-    } ;
-} vector_926a3350;
+        float *_field1;
+    } _field3;
+} vector_4858b34d;
 
 typedef struct vector<long, std::allocator<long>> {
     long long *_field1;
@@ -793,10 +597,10 @@ typedef struct vector<long, std::allocator<long>> {
 } vector_5c6ea50b;
 
 typedef struct vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_9d9fb3d0;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
+} vector_f46ce477;
 
 typedef struct vector<std::vector<std::unordered_map<int, int>>, std::allocator<std::vector<std::unordered_map<int, int>>>> {
     void *_field1;

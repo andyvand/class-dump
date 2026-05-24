@@ -6,90 +6,64 @@
 
 #import <EventKitUI/EKAbstractCalendarEditor.h>
 
-@class CUIKSubscribedCalendarManager, DAESubscribedCalendarSummary, EKCalendarCancelValidationEditItem, EKCalendarColorEditItem, EKCalendarSubscriptionSpamCheckEditItem, EKCalendarSubscriptionURLEditItem, EKCalendarValidateEditItem, EKSource, EKSubscribedCalendarDescriptionHeader, NSString, NSURL;
+@class EKSource;
 
 @interface EKSubscribedCalendarEditor : EKAbstractCalendarEditor
 {
     EKSource *_limitedToSource;
-    EKSubscribedCalendarDescriptionHeader *_tableViewHeader;
-    NSString *_username;
-    NSString *_password;
-    _Bool _insecureConnectionOffered;
-    _Bool _insecureConnectionApproved;
-    _Bool _holidayCalendarMode;
-    NSString *_preloadTitle;
-    EKCalendarColorEditItem *_colorEditItem;
-    EKCalendarSubscriptionURLEditItem *_urlItem;
-    EKCalendarValidateEditItem *_validateItem;
-    EKCalendarCancelValidationEditItem *_cancelValidationItem;
-    EKCalendarSubscriptionSpamCheckEditItem *_spamCheckItem;
-    id _previewDownloadToken;
-    DAESubscribedCalendarSummary *_previewSummary;
-    CUIKSubscribedCalendarManager *_subCalManager;
-    _Bool _allowTableHeaderLayouts;
-    NSURL *_prefillURL;
-    unsigned long long _state;
 }
 
-+ (id);
++ (id))s;
+- (void)xX%s;
+- (void);
+- (void)ؑ&s;
 - (void);
 - (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)s;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)s;
+- (void)5&s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (_Bool)s;
+- (void)%s;
+- (void)&s;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)%s;
+- (void)s;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ionSessionInterface>";
+- (void)osStatus;
+- (void)Z<;
 - (unsigned long long);
+- (void)VOTEventCommandNextKeyboardLanguage;
 - (void);
 - (void);
-- (void);
-- (void)seOutOfProcessUI;
+- (void)shouldUseOutOfProcessUI;
 - (void);
 - (void)vQ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *prefillURL; // @synthesize prefillURL=_prefillURL;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

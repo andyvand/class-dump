@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryTextResourceInfo;
-
 @protocol PXStoryTextResource
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryTextResourceInfo *px_storyResourceTextResourceInfo;
 @property(readonly, nonatomic) long long px_storyResourceTextType;
 @end
 

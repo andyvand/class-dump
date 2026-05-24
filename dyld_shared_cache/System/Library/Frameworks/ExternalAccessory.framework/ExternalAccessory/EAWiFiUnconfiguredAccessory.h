@@ -9,11 +9,6 @@
 @interface EAWiFiUnconfiguredAccessory
 {
     NSString *_name;
-    NSString *_manufacturer;
-    NSString *_model;
-    NSString *_ssid;
-    NSString *_macAddress;
-    unsigned long long _properties;
 }
 
 - (id);
@@ -21,19 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Q;
 - (id);
 - (void);
 - (id);
 - (id)× ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(readonly, copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long properties; // @synthesize properties=_properties;
-@property(readonly, copy, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

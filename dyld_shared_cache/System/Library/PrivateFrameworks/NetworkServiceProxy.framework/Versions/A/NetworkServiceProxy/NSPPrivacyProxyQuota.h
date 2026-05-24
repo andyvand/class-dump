@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPPrivacyProxyCost;
-
 @interface NSPPrivacyProxyQuota
 {
     unsigned long long _expiration;
-    NSPPrivacyProxyCost *_cost;
-    struct {
-        unsigned int expiration:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)i-A2GG;
 - (void);
 - (id);
 - (void);
@@ -34,9 +28,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSPPrivacyProxyCost *cost; // @synthesize cost=_cost;
-@property(nonatomic) unsigned long long expiration; // @synthesize expiration=_expiration;
-@property(readonly, nonatomic) _Bool hasCost;
 @property(nonatomic) _Bool hasExpiration;
 
 @end

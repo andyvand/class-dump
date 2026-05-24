@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioTierPickerPlistEntry
 {
     int _payload;
-    unsigned long long _codecBitrate;
-    unsigned long long _packetsPerBundle;
-    unsigned long long _redNumPayloads;
-    NSString *_featureFlag;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -31,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)MÂ%;
 
 // Remaining properties
-@property(nonatomic) unsigned long long codecBitrate; // @synthesize codecBitrate=_codecBitrate;
-@property(copy, nonatomic) NSString *featureFlag; // @synthesize featureFlag=_featureFlag;
-@property(nonatomic) unsigned long long packetsPerBundle; // @synthesize packetsPerBundle=_packetsPerBundle;
 @property(nonatomic) int payload; // @synthesize payload=_payload;
-@property(nonatomic) unsigned long long redNumPayloads; // @synthesize redNumPayloads=_redNumPayloads;
 
 @end
 

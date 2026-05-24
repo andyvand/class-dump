@@ -6,41 +6,27 @@
 
 #import <EventKit/EKObjectChange.h>
 
-@class EKObjectID, NSString;
+@class EKObjectID;
 
 @interface EKCalendarItemChange : EKObjectChange
 {
     _Bool _titleChanged;
-    _Bool _locationChanged;
-    _Bool _startDateChanged;
-    _Bool _startTimezoneChanged;
-    _Bool _endDateChanged;
-    _Bool _endTimezoneChanged;
-    _Bool _notesChanged;
-    _Bool _allDayChanged;
-    _Bool _suppressNotificationForChanges;
-    EKObjectID *_calendarID;
-    EKObjectID *_oldCalendarID;
-    NSString *_externalID;
-    NSString *_oldExternalID;
-    NSString *_uuid;
-    NSString *_uniqueID;
 }
 
 + (int);
 - (_Bool);
+- (_Bool)\;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)PowerLogger] logging event %@;
+- (id)<%@:%@> :<%@> -> <%@> /* Error: Ran out of types for this method. */;
+- (_Bool)content items %@.;
+- (id)wPlayingOriginClientRequests] %{public}@ UpdatingCache:(id)arg1 clientProperties %{public}@;
+- (_Bool)ported message:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)nding data to %{public}@;
+- (id)entItems because %{public}@.;
+- (_Bool)use new device added:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)presenceAssertionDuration;
 - (id);
 - (id);
 - (id);
@@ -48,21 +34,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allDayChanged; // @synthesize allDayChanged=_allDayChanged;
 @property(readonly, nonatomic) EKObjectID *calendarID; // @synthesize calendarID=_calendarID;
-@property(readonly, nonatomic) _Bool endDateChanged; // @synthesize endDateChanged=_endDateChanged;
-@property(readonly, nonatomic) _Bool endTimezoneChanged; // @synthesize endTimezoneChanged=_endTimezoneChanged;
-@property(readonly, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
-@property(readonly, nonatomic) _Bool locationChanged; // @synthesize locationChanged=_locationChanged;
-@property(readonly, nonatomic) _Bool notesChanged; // @synthesize notesChanged=_notesChanged;
-@property(readonly, nonatomic) EKObjectID *oldCalendarID; // @synthesize oldCalendarID=_oldCalendarID;
-@property(readonly, nonatomic) NSString *oldExternalID; // @synthesize oldExternalID=_oldExternalID;
-@property(readonly, nonatomic) _Bool startDateChanged; // @synthesize startDateChanged=_startDateChanged;
-@property(readonly, nonatomic) _Bool startTimezoneChanged; // @synthesize startTimezoneChanged=_startTimezoneChanged;
-@property(readonly, nonatomic) _Bool suppressNotificationForChanges; // @synthesize suppressNotificationForChanges=_suppressNotificationForChanges;
-@property(readonly, nonatomic) _Bool titleChanged; // @synthesize titleChanged=_titleChanged;
-@property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

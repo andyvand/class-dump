@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _SFContextualNamedEntityCodingObject
 {
     NSString *_content;
-    long long _sourceFramework;
-    NSNumber *_score;
-    NSNumber *_category;
-    NSString *_language;
 }
 
 + (_Bool);
-- (id);
+- (id)
+;
 - (long long);
 - (id);
 - (void);
@@ -28,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *category; // @synthesize category=_category;
 @property(readonly, copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, copy, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(readonly, nonatomic) long long sourceFramework; // @synthesize sourceFramework=_sourceFramework;
 
 @end
 

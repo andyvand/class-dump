@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDTemplateData, NSMapTable, NSTimeZone;
+@class GEOPDTemplateData;
 
 @interface GEOPlaceTemplate
 {
     GEOPDTemplateData *_templateData;
-    NSTimeZone *_timeZone;
-    NSMapTable *_attributionMap;
-    _Bool _hasRichData;
 }
 
 @end

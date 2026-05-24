@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMPredicateBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMPredicateAll : CEMPredicateBase
 {
@@ -21,19 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Brand);
+- (id)G;
+- (void)ert inappropriate fallback;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadPredicates; // @synthesize payloadPredicates=_payloadPredicates;
-@property(readonly) Class superclass;
 
 @end
 

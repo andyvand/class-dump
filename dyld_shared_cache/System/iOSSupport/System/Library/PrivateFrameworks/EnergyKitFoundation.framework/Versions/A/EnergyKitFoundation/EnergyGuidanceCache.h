@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSData, NSString;
 
 @interface EnergyGuidanceCache
 {
@@ -15,14 +15,6 @@
 // Remaining properties
 @property(nonatomic, copy) NSData *energyGuidance; // @dynamic energyGuidance;
 @property(nonatomic, copy) NSString *gridID; // @dynamic gridID;
-@property(nonatomic, copy) NSUUID *guidanceID; // @dynamic guidanceID;
-@property(nonatomic) short guidanceType; // @dynamic guidanceType;
-@property(nonatomic, copy) NSDate *insertTime; // @dynamic insertTime;
-@property(nonatomic, copy) NSString *ratePlan; // @dynamic ratePlan;
-@property(nonatomic, copy) NSString *timeZone; // @dynamic timeZone;
-@property(nonatomic, copy) NSString *utilityID; // @dynamic utilityID;
-@property(nonatomic, copy) NSDate *validUntil; // @dynamic validUntil;
-@property(nonatomic) short version; // @dynamic version;
 
 @end
 

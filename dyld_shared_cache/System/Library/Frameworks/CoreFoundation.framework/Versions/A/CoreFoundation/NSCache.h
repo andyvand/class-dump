@@ -10,23 +10,10 @@
 @interface NSCache
 {
     id <NSCacheDelegate> _cacheDelegate;
-    struct cache_s *_cache;
-    unsigned char _discardableContentState;
-    _Bool _evictOnSuspension;
-    _Bool _evictsDiscarded;
-    _Bool _moribund;
-    _Bool _doDelegateWillEvictValue;
-    _Bool _observesNotification;
-    unsigned long long _notificationToken;
-    struct os_unfair_lock_s _notificationLock;
 }
 
 
 // Remaining properties
-@property unsigned long long countLimit;
-@property id <NSCacheDelegate> delegate;
-@property _Bool evictsObjectsWithDiscardedContent;
 @property(copy) NSString *name;
-@property unsigned long long totalCostLimit;
 @end
 

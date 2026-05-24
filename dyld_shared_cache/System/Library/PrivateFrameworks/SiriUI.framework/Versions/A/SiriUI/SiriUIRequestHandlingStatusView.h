@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIRequestHandlingStatusView
 {
     NSView *_asrStatusView;
-    NSView *_executionStatusView;
-    NSString *_currentASRStatus;
-    NSString *_currentExecutionStatus;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)i/;
 - (void)Áxð!XGùq1Â0@ù
 × ;
 

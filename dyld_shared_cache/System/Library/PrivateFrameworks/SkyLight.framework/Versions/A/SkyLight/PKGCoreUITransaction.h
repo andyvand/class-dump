@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PKGCoreUIRenderer;
+@class PKGCoreUIRenderer;
 
 __attribute__((visibility("hidden")))
 @interface PKGCoreUITransaction
 {
     PKGCoreUIRenderer *_renderer;
-    NSMutableArray *_workItems;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)y/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (id)s;
+- (void)OLD.Z_PK;
+- (id)%@ = NULL , %@ = NULL, Z_OPT = (Z_OPT + 1) WHERE %@ = OLD.Z_PK;
 - (void);
 - (void);
 

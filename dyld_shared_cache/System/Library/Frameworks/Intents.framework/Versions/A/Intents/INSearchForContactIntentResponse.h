@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchForContactIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)IFColor";
++ (int)initWithURLWrapper:(long long)arg1 parentDirectoryWrapper:contentType: /* Error: Ran out of types for this method. */;
++ (long long)initWithFileAtURL:(int)arg1 size:(int)arg2 minimumDimension:(_Bool)arg3 scale:iconMode:error: /* Error: Ran out of types for this method. */;
++ (_Bool)imageWithFormat:(long long)arg1 data: /* Error: Ran out of types for this method. */;
++ (_Bool)(;
 - (void);
 - (void);
 - (id);
@@ -24,24 +22,16 @@
 - (id);
 - (long long);
 - (id);
+- (id)/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+- (id)motionXPCProxyServerEndpoint:(id)arg1 didReceiveSensorsActiveChange: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)}@ codesignID=%{public}@ service=%{public}@ req=%{public}@);
 - (id);
 - (id);
 - (long long)nts",R,C,V_startDateComponents;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *matchedContacts;
-@property(readonly) Class superclass;
 
 @end
 

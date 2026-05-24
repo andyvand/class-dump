@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSURL;
+
 @protocol FCResourceURLGenerating
+- (NSURL *)collectionView:(NSString *)arg1 didUpdateFocusInContext:withAnimationCoordinator: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, OBBundle, OBPrivacyFlow, UIColor;
+@class NSArray;
 
 @interface OBPrivacyLinkController
 {
     NSArray *_bundles;
-    NSArray *_bundleIdentifiers;
-    _Bool _didOverrideShowUnifiedAbout;
-    _Bool _underlineLinks;
-    _Bool _presentedViewControllerShouldUseDarkMode;
-    _Bool _displayIcon;
-    _Bool _displayInfoIcon;
-    _Bool _displayLargeIcon;
-    _Bool _displayCaptionText;
-    _Bool _allowsOpeningSafari;
-    _Bool _showsLinkToUnifiedAbout;
-    UIColor *_customTintColor;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
-    CDUnknownBlockType _privacyLinkCallback;
 }
 
 + (id);
@@ -40,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -52,7 +38,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -60,31 +46,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;
-@property(readonly) OBBundle *bundle;
-@property(readonly) NSArray *bundles;
-@property(retain, nonatomic) UIColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property _Bool displayCaptionText; // @synthesize displayCaptionText=_displayCaptionText;
-@property unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property _Bool displayIcon; // @synthesize displayIcon=_displayIcon;
-@property _Bool displayInfoIcon; // @synthesize displayInfoIcon=_displayInfoIcon;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
-@property _Bool displayLargeIcon; // @synthesize displayLargeIcon=_displayLargeIcon;
-@property(readonly) OBPrivacyFlow *flow;
-@property(nonatomic) _Bool presentedViewControllerShouldUseDarkMode; // @synthesize presentedViewControllerShouldUseDarkMode=_presentedViewControllerShouldUseDarkMode;
 @property(copy, nonatomic) CDUnknownBlockType privacyLinkCallback; // @synthesize privacyLinkCallback=_privacyLinkCallback;
-@property(nonatomic) _Bool showsLinkToUnifiedAbout; // @synthesize showsLinkToUnifiedAbout=_showsLinkToUnifiedAbout;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
 
 @end
 

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _SFPBAppAutoShortcutsItem
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

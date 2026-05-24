@@ -7,8 +7,6 @@
 @interface NewsFeed.FeaturePromotionTabBarAccessoryProvider__priv_6BD5943490D0C208C77979CF1118B515
 {
     id hostingController;
-    id delegate;
-    id accessoryPresentationMode;
 }
 
 @end

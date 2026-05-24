@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProtobufSubcredentialInvitationMessage
 {
     NSString *_dataString;
-    NSData *_passThumbnailImage;
-    NSString *_phoneInvitation;
-    int _status;
-    NSString *_uniqueIdentifier;
-    unsigned int _version;
-    NSString *_watchInvitation;
-    CDStruct_47fe53f2 _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,18 +20,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)(J	;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_htAmpduParams;
 - (void);
 - (id);
 - (_Bool);
@@ -47,25 +40,13 @@
 - (int);
 - (id);
 - (id)× ;
-- (_Bool)RL;
+- (_Bool)_regionWithPeerPaymentServiceURL;
 - (void)lic}@:(_Bool)arg1 %@;
 - (int);
-- (void)reflightStatus;
+- (void)preflightStatus;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataString; // @synthesize dataString=_dataString;
-@property(readonly, nonatomic) _Bool hasDataString;
-@property(readonly, nonatomic) _Bool hasPassThumbnailImage;
-@property(readonly, nonatomic) _Bool hasPhoneInvitation;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(readonly, nonatomic) _Bool hasWatchInvitation;
-@property(retain, nonatomic) NSData *passThumbnailImage; // @synthesize passThumbnailImage=_passThumbnailImage;
-@property(retain, nonatomic) NSString *phoneInvitation; // @synthesize phoneInvitation=_phoneInvitation;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
-@property(retain, nonatomic) NSString *watchInvitation; // @synthesize watchInvitation=_watchInvitation;
 
 @end
 

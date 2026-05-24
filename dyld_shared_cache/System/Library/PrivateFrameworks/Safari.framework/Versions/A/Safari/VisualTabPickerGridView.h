@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, FlippedView, NSMapTable, NSMutableArray, NSString, VisualTabPickerGridViewTransitionCoordinator, VisualTabPickerLayoutEngine, VisualTabPickerViewController;
-@protocol VisualTabPickerGridViewDataSource, VisualTabPickerGridViewDelegate, VisualTabPickerTransitioning;
+@class FlippedView;
+@protocol VisualTabPickerGridViewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerGridView
 {
     FlippedView *_gridContainerView;
-    NSMutableArray *_tileContainerViews;
-    NSMutableArray *_tabViewItems;
-    VisualTabPickerLayoutEngine *_layoutEngine;
-    _Bool _didStartEntryAnimation;
-    NSMapTable *_webViewThumbnailViewReuseDictionary;
-    VisualTabPickerGridViewTransitionCoordinator *_transitionCoordinator;
-    _Bool _shouldScaleDownUnfocusedTiles;
-    _Bool _gridAnimationInProgress;
-    id <VisualTabPickerGridViewDataSource> _dataSource;
-    id <VisualTabPickerGridViewDelegate> _delegate;
-    VisualTabPickerViewController *_visualTabPickerViewController;
 }
 
 - (_Bool);
@@ -65,13 +54,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)@";
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -88,9 +77,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)9
+;
+- (void)s;
+- (void)e;
 - (struct _NSRange);
 - (unsigned long long);
 - (unsigned long long);
@@ -98,7 +88,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -113,18 +103,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <VisualTabPickerGridViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <VisualTabPickerGridViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool gridAnimationInProgress; // @synthesize gridAnimationInProgress=_gridAnimationInProgress;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CALayer *tileContainerLayer;
-@property(readonly, nonatomic) id <VisualTabPickerTransitioning> transitionCoordinator;
-@property(nonatomic) __weak VisualTabPickerViewController *visualTabPickerViewController; // @synthesize visualTabPickerViewController=_visualTabPickerViewController;
 
 @end
 

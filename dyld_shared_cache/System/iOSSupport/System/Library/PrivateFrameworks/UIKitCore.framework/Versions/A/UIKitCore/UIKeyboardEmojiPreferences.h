@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFEmojiPreferencesClient, NSArray, NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class EMFEmojiPreferencesClient;
 
 @interface UIKeyboardEmojiPreferences
 {
     EMFEmojiPreferencesClient *_preferencesClient;
-    NSObject<OS_dispatch_queue> *_clientDispatchQueue;
-    NSArray *_localRecentsWithClient;
-    NSArray *_localRecentsWithoutClient;
-    _Bool _deviceWasLockedWhenKeyboardWasShown;
-    _Bool _hasCheckedMemojiPreference;
-    _Bool _supportsMemoji;
 }
 
 + (id)¨[l;
@@ -23,37 +16,37 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)e:(_Bool)arg1 %@;
+- (void)dating task request;
+- (long long)D, using 0 as the message part index.;
+- (void)und chat, but it had no particpants. Updating with handleInfo:%@ /* Error: Ran out of types for this method. */;
+- (id)entifier;
+- (id)report:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)number %@ based on phoneNumberIsValid %d and phoneNumberIsShortCode %d;
+- (id)nickname %@ are different %@;
+- (_Bool)d chat validation:(id)arg1 No device found from push token:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)providing error to caller.;
+- (void)trieved binary NSDictionary Attachment for incoming message at path %@;
+- (void)tell feature is on.;
+- (void)o CloudKit so calling completion with success.;
+- (void)%@ to %@, attempting to toggle icloud settings toggle;
+- (id)ng ok:(id)arg1 %@;
+- (void)re sending logs;
+- (void)t activity date %@;
+- (void)me. Dropping record:(id)arg1 %@;
+- (void)cordID does not have a record name. Dropping record:(id)arg1 %@;
+- (void)dID while syncing or recordID does not have a record name. Dropping record:(id)arg1 %@;
+- (void)ages.;
+- (long long)t launch;
+- (_Bool)IMFoundation;
+- (void)ingHighlightsToChatsQueue;
+- (void)IMDAskToBuyReponseHandler;
 - (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)D;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -62,21 +55,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void).apple.configuration.security.fde.filevault;
 - (id);
 - (void)
 × ;
 - (void)¨?f;
 
 // Remaining properties
-@property(nonatomic) _Bool hasCheckedMemojiPreference; // @synthesize hasCheckedMemojiPreference=_hasCheckedMemojiPreference;
-@property(readonly, nonatomic) _Bool hasDisplayedSkinToneHelp;
-@property(nonatomic) unsigned long long maximumRecentsCount;
 @property(readonly, nonatomic) EMFEmojiPreferencesClient *preferencesClient;
-@property(retain, nonatomic) NSArray *recents;
-@property(nonatomic) long long selectedCategoryType;
-@property(retain, nonatomic) NSDictionary *skinToneBaseKeyPreferences;
-@property(nonatomic) _Bool supportsMemoji; // @synthesize supportsMemoji=_supportsMemoji;
 
 @end
 

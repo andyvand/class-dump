@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFText;
+@class NSString;
 
 @interface SFMediaDetail
 {
     NSString *_title;
-    SFText *_content;
 }
 
 + (_Bool);
-- (id);
+- (id)setNumberOfChildren:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)c}@:(id)arg1 -_startPlaybackForStateDescriptor:(%{public}@) usingAssetWithLoadedProperties:(%{public}@) shouldConfirmAlertStillPlaying:(%{BOOL}d). /* Error: Ran out of types for this method. */;
+- (id);
+- (void)temporalSceneClassifications;
+- (id)PHMemoryCurationAvailabilityOptionMinimumDurationForLongCurationKey;
+- (id)PHAssetExportRequestFullSizeVideoURLKey;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)oviderItemCommand;
+- (void)_openFileProviderItemCommand;
 
 // Remaining properties
-@property(retain, nonatomic) SFText *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

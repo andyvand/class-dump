@@ -9,30 +9,22 @@
 @interface TBPopularityScore
 {
     unsigned long long _score;
-    NSString *_typeDescription;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)MuteForStream;
 - (void);
-- (id);
-- (id);
+- (id)5;
+- (id)SError",R,V_error;
 - (void);
-- (unsigned long long);
+- (unsigned long long)ide pocket instead
+;
 - (void);
 - (id);
 - (void)afð!ðBù1¥°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long score; // @synthesize score=_score;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *typeDescription; // @synthesize typeDescription=_typeDescription;
 
 @end

@@ -6,15 +6,11 @@
 
 #import <BiometricKit/BKEnrollOperation.h>
 
-@class BKIdentity;
 @protocol BKEnrollPearlOperationDelegate;
 
 @interface BKEnrollPearlOperation : BKEnrollOperation
 {
     _Bool _clientToComplete;
-    long long _enrollmentType;
-    BKIdentity *_augmentedIdentity;
-    long long _periocularGlassesRequirement;
 }
 
 - (void);
@@ -24,18 +20,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKIdentity *augmentedIdentity; // @synthesize augmentedIdentity=_augmentedIdentity;
-@property(nonatomic) _Bool clientToComplete; // @synthesize clientToComplete=_clientToComplete;
 @property(nonatomic) __weak id <BKEnrollPearlOperationDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) long long enrollmentType; // @synthesize enrollmentType=_enrollmentType;
-@property(nonatomic) long long periocularGlassesRequirement; // @synthesize periocularGlassesRequirement=_periocularGlassesRequirement;
 
 @end
 

@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ASRSchemaASRNamedEntityUserEdit : SISchemaInstrumentationMessage
 {
     int _entityTaggerCategory;
-    _Bool _isNamedEntityPresentInVisualContext;
-    NSArray *_visualContextCategories;
-    _Bool _isNamedEntityPresentInSpeechProfile;
-    NSArray *_speechProfileCategories;
-    struct {
-        unsigned int entityTaggerCategory:1;
-        unsigned int isNamedEntityPresentInVisualContext:1;
-        unsigned int isNamedEntityPresentInSpeechProfile:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -45,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (id);
@@ -55,23 +44,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id)RecognizerCombinedThresholdJS;
+- (_Bool)!;
+- (id)n.framework/Versions/A/DiagnosticLogCollection;
+- (id)tdSpeakerRecognizerCombinedThresholdJS;
 - (id)dÔ¬Ü!x"À" #x$X%0&T'ä')ä)(+p+,Ü,¼-.ä.¼/0à02ä2(4p45$67L7,8t8T99x:(id)arg1 à;d?¬?@dAÔBdCDÐDôE<FGdGDHÔH´IüI¸K;
 - (id);
 - (void)¬þ÷&;
 
 // Remaining properties
 @property(nonatomic) int entityTaggerCategory; // @synthesize entityTaggerCategory=_entityTaggerCategory;
-@property(nonatomic) _Bool hasEntityTaggerCategory;
-@property(nonatomic) _Bool hasIsNamedEntityPresentInSpeechProfile;
-@property(nonatomic) _Bool hasIsNamedEntityPresentInVisualContext;
-@property(nonatomic) _Bool isNamedEntityPresentInSpeechProfile; // @synthesize isNamedEntityPresentInSpeechProfile=_isNamedEntityPresentInSpeechProfile;
-@property(nonatomic) _Bool isNamedEntityPresentInVisualContext; // @synthesize isNamedEntityPresentInVisualContext=_isNamedEntityPresentInVisualContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *speechProfileCategories; // @synthesize speechProfileCategories=_speechProfileCategories;
-@property(copy, nonatomic) NSArray *visualContextCategories; // @synthesize visualContextCategories=_visualContextCategories;
 
 @end
 

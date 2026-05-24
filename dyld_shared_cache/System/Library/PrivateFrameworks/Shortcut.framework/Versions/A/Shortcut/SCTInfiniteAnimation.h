@@ -11,15 +11,12 @@ __attribute__((visibility("hidden")))
 @interface SCTInfiniteAnimation
 {
     NSObject<SCTAnimatable> *mAnimateObject;
-    float mInternalProgress;
-    double mAnimationStart;
-    float mDelayedStartTime;
 }
 
+- (void);
+- (void)windowBackgroundColor;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 
 @end
 

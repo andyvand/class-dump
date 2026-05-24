@@ -10,12 +10,12 @@
 {
 }
 
-- (_Bool);
-- (BOOL);
+- (_Bool)setCurrentAttachment: /* Error: Ran out of types for this method. */;
+- (BOOL)objectWasFetchedFromCloudWithRecord:accountID: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)ICAttachmentTypeMovie;
 - (struct UIEdgeInsets);
 - (Class);
 - (unsigned long long);

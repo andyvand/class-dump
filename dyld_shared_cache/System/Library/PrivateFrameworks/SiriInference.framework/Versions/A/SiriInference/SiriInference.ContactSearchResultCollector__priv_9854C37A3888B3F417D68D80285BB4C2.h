@@ -7,7 +7,6 @@
 @interface SiriInference.ContactSearchResultCollector__priv_9854C37A3888B3F417D68D80285BB4C2
 {
     id matches;
-    id spans;
 }
 
 @end

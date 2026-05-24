@@ -4,39 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLAccelerationStructureDescriptor, NSArray;
-
 @interface MTLBVHDescriptor
 {
     unsigned long long _maxDepth;
-    unsigned long long _clampedMaxDepth;
-    unsigned long long _fragmentCount;
-    unsigned long long _primitiveDataSize;
-    MTLAccelerationStructureDescriptor *_mtlDescriptor;
-    struct PipelineKey _pipelineKey;
-    _Bool _pipelineKeyValid;
-    _Bool _motion;
-    _Bool _useTemporalSplits;
-    _Bool _disallowMixingTemporalSplitsAndLeafNodes;
-    _Bool _useFastBuild;
-    _Bool _deterministic;
-    float _primitiveCost;
-    float _traversalCost;
-    float _motionTraversalCost;
-    float _primitiveMotionStartTime;
-    float _primitiveMotionEndTime;
-    float _temporalSplitBias;
-    float _splitCapacity;
-    float _minOverlap;
-    unsigned long long _branchingFactor;
-    unsigned long long _minPrimitivesPerLeaf;
-    unsigned long long _maxPrimitivesPerLeaf;
-    unsigned long long _minPrimitivesPerInnerNode;
-    unsigned long long _maxPrimitivesPerInnerNode;
-    NSArray *_geometryDescriptors;
-    unsigned long long _primitiveKeyframeCount;
-    unsigned long long _maxSubKeyframeTemporalSplits;
-    unsigned long long _splitHeuristic;
 }
 
 - (_Bool);
@@ -50,6 +20,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,72 +29,47 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
+- (void)�;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (float);
-- (float);
+- (float);
 - (unsigned long long);
 - (unsigned long long);
-- (float);
-- (float);
+- (float)9_;
+- (float);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (float);
+- (float);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct PipelineKey);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long branchingFactor; // @synthesize branchingFactor=_branchingFactor;
-@property(nonatomic) _Bool deterministic; // @synthesize deterministic=_deterministic;
-@property(nonatomic) _Bool disallowMixingTemporalSplitsAndLeafNodes; // @synthesize disallowMixingTemporalSplitsAndLeafNodes=_disallowMixingTemporalSplitsAndLeafNodes;
-@property(nonatomic) unsigned long long fragmentCount;
-@property(nonatomic) __weak NSArray *geometryDescriptors; // @synthesize geometryDescriptors=_geometryDescriptors;
 @property(nonatomic) unsigned long long maxDepth;
-@property(nonatomic) unsigned long long maxPrimitivesPerInnerNode; // @synthesize maxPrimitivesPerInnerNode=_maxPrimitivesPerInnerNode;
-@property(nonatomic) unsigned long long maxPrimitivesPerLeaf; // @synthesize maxPrimitivesPerLeaf=_maxPrimitivesPerLeaf;
-@property(nonatomic) unsigned long long maxSubKeyframeTemporalSplits; // @synthesize maxSubKeyframeTemporalSplits=_maxSubKeyframeTemporalSplits;
-@property(nonatomic) float minOverlap; // @synthesize minOverlap=_minOverlap;
-@property(nonatomic) unsigned long long minPrimitivesPerInnerNode; // @synthesize minPrimitivesPerInnerNode=_minPrimitivesPerInnerNode;
-@property(nonatomic) unsigned long long minPrimitivesPerLeaf; // @synthesize minPrimitivesPerLeaf=_minPrimitivesPerLeaf;
-@property(nonatomic) _Bool motion; // @synthesize motion=_motion;
-@property(nonatomic) float motionTraversalCost; // @synthesize motionTraversalCost=_motionTraversalCost;
-@property(nonatomic) float primitiveCost; // @synthesize primitiveCost=_primitiveCost;
-@property(nonatomic) unsigned long long primitiveDataSize;
-@property(nonatomic) unsigned long long primitiveKeyframeCount; // @synthesize primitiveKeyframeCount=_primitiveKeyframeCount;
-@property(nonatomic) float primitiveMotionEndTime; // @synthesize primitiveMotionEndTime=_primitiveMotionEndTime;
-@property(nonatomic) float primitiveMotionStartTime; // @synthesize primitiveMotionStartTime=_primitiveMotionStartTime;
-@property(nonatomic) float splitCapacity; // @synthesize splitCapacity=_splitCapacity;
-@property(nonatomic) unsigned long long splitHeuristic; // @synthesize splitHeuristic=_splitHeuristic;
-@property(nonatomic) float temporalSplitBias; // @synthesize temporalSplitBias=_temporalSplitBias;
-@property(nonatomic) float traversalCost; // @synthesize traversalCost=_traversalCost;
-@property(nonatomic) _Bool useFastBuild; // @synthesize useFastBuild=_useFastBuild;
-@property(nonatomic) _Bool useTemporalSplits; // @synthesize useTemporalSplits=_useTemporalSplits;
 
 @end
 

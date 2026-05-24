@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)};
 
 // Remaining properties
 @property(nonatomic) __weak NSRemoteView *remoteView; // @synthesize remoteView=_remoteView;

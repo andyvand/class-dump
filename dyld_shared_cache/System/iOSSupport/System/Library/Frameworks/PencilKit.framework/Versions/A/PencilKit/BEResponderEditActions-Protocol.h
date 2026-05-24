@@ -8,8 +8,8 @@
 
 @optional
 - (void)!;
-- (void)tteToPosition:(id)arg1;
-- (void)wingReplaySupport;
+- (void)_updateConstraintsToDockPaletteToPosition:(id)arg1;
+- (void)PKDrawingReplaySupport;
 - (void)ÿøb¤,ÏÿøbÔ0Ðÿ;
 @end
 

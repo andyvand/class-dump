@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSDLayout, TSUColor, TSWPLineHintCollection;
+@protocol TSWPLayoutTarget;
+
 @protocol TSWPLayoutOwner
+- (TSWPLineHintCollection *)keepCurrentItem:(TSDLayout<TSWPLayoutTarget> *)arg1;
+- (void)meStamp ;
+- (void)e while processing ;
+
+@optional
+- (TSUColor *)UninitializedPlaybackStack;
+- (_Bool)SError"16;
+- (_Bool)troller - queueHasReachedItsEnd - ;
+- (_Bool);
 @end
 

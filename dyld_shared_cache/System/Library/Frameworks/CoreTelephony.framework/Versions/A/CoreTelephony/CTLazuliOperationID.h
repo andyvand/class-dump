@@ -11,13 +11,13 @@
     NSString *_uuid;
 }
 
-+ (_Bool);
++ (_Bool)ringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_keys;
 - (id);
 - (id);
 - (void);

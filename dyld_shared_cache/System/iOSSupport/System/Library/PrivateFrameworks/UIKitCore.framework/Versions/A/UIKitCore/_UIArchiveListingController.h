@@ -9,28 +9,22 @@
 @interface _UIArchiveListingController
 {
     _UILibArchiveStreamingReader *_archiveReader;
-    _Bool _isValidArchive;
-    _Bool _excludeDotFilesFromResults;
-    NSString *_archivePath;
-    long long _appleDoubleIdentificationType;
 }
 
-- (void);
-- (void);
+- (void)indexOfObjectIdenticalTo:(_Bool)arg1;
+- (void)deleteCommandDictionaryWithIncomingDictionary:(long long)arg1 inferredRecoverableDeleteForLegacyCommandsWithDate: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (_Bool);
-- (id);
+- (long long);
+- (_Bool)ats;
+- (id)N;
 - (void);
 - (void)ô</ÿSfË°^;
 
 // Remaining properties
-@property(nonatomic) long long appleDoubleIdentificationType; // @synthesize appleDoubleIdentificationType=_appleDoubleIdentificationType;
 @property(readonly, nonatomic) NSString *archivePath; // @synthesize archivePath=_archivePath;
-@property(nonatomic) _Bool excludeDotFilesFromResults; // @synthesize excludeDotFilesFromResults=_excludeDotFilesFromResults;
 
 @end
 

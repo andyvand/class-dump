@@ -8,27 +8,14 @@ __attribute__((visibility("hidden")))
 @interface CIBilateralSolverCPU
 {
     int _width;
-    int _height;
-    unsigned long long _maxVertices;
-    float *_Dn_buf;
-    float *_Dm_buf;
-    float *_A_buf;
-    float *_b_buf;
-    float *_x_buf;
-    float *_M_buf;
-    float *_Sc_buf;
-    float *_q_buf;
-    float *_r_buf;
-    float *_d_buf;
-    _Bool _useTrilinearInterpolation;
 }
 
-+ (void);
++ (void);
 - (_Bool);
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);

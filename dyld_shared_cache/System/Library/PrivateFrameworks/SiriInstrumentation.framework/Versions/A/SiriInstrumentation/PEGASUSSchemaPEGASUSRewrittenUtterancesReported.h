@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSRewrittenUtterancesReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    _Bool _wasRewrittenUtteranceUsed;
-    NSArray *_rewrittenUtterancesMetadatas;
-    struct {
-        unsigned int wasRewrittenUtteranceUsed:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (_Bool);
@@ -33,29 +27,24 @@
 - (void);
 - (void);
 - (void);
+- (void)el should be hidden.;
+- (id)updateName;
+- (_Bool)teDataclassesToEnableAnyway:dataclassActionsForMerge:userDefaultDisabledDataclasses:appNames:fromServices:forAccount:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)P;
+- (_Bool);
+- (_Bool)ay name = %@;
 - (id);
 - (id)!Aù±Ýð1Â0@ù
 × ;
-- (id);
+- (id)_hasCrownPressed;
 - (id)edOrChanged;
-- (void);
+- (void)LOCALE_CS_CZ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasWasRewrittenUtteranceUsed;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *rewrittenUtterancesMetadatas; // @synthesize rewrittenUtterancesMetadatas=_rewrittenUtterancesMetadatas;
-@property(nonatomic) _Bool wasRewrittenUtteranceUsed; // @synthesize wasRewrittenUtteranceUsed=_wasRewrittenUtteranceUsed;
 
 @end
 

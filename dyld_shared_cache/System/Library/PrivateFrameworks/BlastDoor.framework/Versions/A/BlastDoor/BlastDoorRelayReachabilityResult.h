@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorRelayReachabilityResult
 {
     id relayReachabilityResult;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)ocol>"24;
+- (_Bool)8@16q24{CGPoint=dd}32{CGRect={CGPoint=dd}{CGSize=dd}}48;
+- (_Bool)I16@20;
+- (_Bool)useRightTailDirection;
 - (long long);
 - (id);
 - (id);
@@ -22,13 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allAreReachable;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool didCheckServer;
-@property(nonatomic, readonly) long long error;
-@property(nonatomic, readonly) NSArray *handleResults;
-@property(nonatomic, readonly) _Bool isFinal;
-@property(nonatomic, readonly) NSString *service;
 
 @end
 

@@ -4,64 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, MRMarimbaLayer, MRMarimbaLayerView, NSArray, NSButton;
-@protocol MRMarimbaViewHUDDelegate;
+@class MRMarimbaLayer, MRMarimbaLayerView;
 
 @interface MRMarimbaView
 {
     MRMarimbaLayerView *_marimbaLayerView;
-    NSArray *_orderedVideoPaths;
-    NSButton *_exitButton;
-    unsigned long long _hudShowCount;
-    _Bool _isEnteringExitingMarimba;
-    _Bool _isInMarimba;
-    _Bool _usesExitButton;
-    MRMarimbaLayer *_marimbaLayer;
-    double _aspectRatio;
-    id <MRMarimbaViewHUDDelegate> _hudDelegate;
 }
 
 - (void);
 - (_Bool);
+- (void)ageIO.framework/Versions/A/ImageIO;
 - (void);
-- (void);
-- (void);
-- (id);
-- (double);
+- (void)or;
+- (id)rialQueue",&,N,V_submissionQueue;
+- (double)tion;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)newsEdgeWidgetConfig;
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
+- (void);
 - (void);
+- (void)";
 - (void);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)P;
 - (_Bool);
-- (id)ize:zRotation:innerRect:outerRect:context: /* Error: Ran out of types for this method. */;
-- (void)erenceDate:(id)arg1;
+- (id)initWithPosition:size:zRotation:innerRect:outerRect:context: /* Error: Ran out of types for this method. */;
+- (void)dateWithTimeIntervalSinceReferenceDate:(id)arg1;
 - (void)h;
-- (void)untFactor;
+- (void)amountFactor;
 - (double);
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly) struct CGRect cleanAperture;
-@property(retain, nonatomic) MPDocument *document;
-@property(nonatomic) id <MRMarimbaViewHUDDelegate> hudDelegate; // @synthesize hudDelegate=_hudDelegate;
-@property(readonly) _Bool isInMarimba; // @synthesize isInMarimba=_isInMarimba;
-@property(nonatomic) double marimbaContentsScale;
 @property(readonly) MRMarimbaLayer *marimbaLayer; // @synthesize marimbaLayer=_marimbaLayer;
-@property(nonatomic) _Bool usesExitButton; // @synthesize usesExitButton=_usesExitButton;
 
 @end
 

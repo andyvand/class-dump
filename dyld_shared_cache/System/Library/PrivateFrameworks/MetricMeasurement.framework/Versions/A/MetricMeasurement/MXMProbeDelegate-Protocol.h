@@ -5,5 +5,8 @@
 //
 
 @protocol MXMProbeDelegate
+
+@optional
+- (void);
 @end
 

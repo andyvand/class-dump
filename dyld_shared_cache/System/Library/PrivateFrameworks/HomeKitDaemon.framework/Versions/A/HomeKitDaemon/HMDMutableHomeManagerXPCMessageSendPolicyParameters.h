@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ndex:(struct _NSZone *)arg1;
+- (id)insertString:(struct _NSZone *)arg1 atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @dynamic active;

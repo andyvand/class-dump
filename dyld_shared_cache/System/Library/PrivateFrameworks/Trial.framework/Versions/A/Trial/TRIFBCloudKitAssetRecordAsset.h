@@ -9,15 +9,14 @@
 @interface TRIFBCloudKitAssetRecordAsset
 {
     AFBBufRef *_br;
-    const struct CloudKitAssetRecordAsset *_ptr;
 }
 
-- (_Bool);
+- (_Bool)�;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T ;
 - (id);
 - (id);
 - (id);

@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPMediaKitEntityPayloadTransformer
 {
     NSString *_identifier;
-    NSString *_type;
-    NSMutableDictionary *_attributes;
-    NSMutableDictionary *_meta;
-    NSString *_transformedType;
-    NSMutableDictionary *_relationships;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)__DATA_DIRTY;
 - (void)T@"UIImageView",&,N,V_accessoryImageView;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSMutableDictionary *meta; // @synthesize meta=_meta;
-@property(readonly, nonatomic) NSMutableDictionary *relationships; // @synthesize relationships=_relationships;
-@property(readonly, nonatomic) NSDictionary *transformedPayload;
 @property(readonly, nonatomic) NSString *transformedType; // @synthesize transformedType=_transformedType;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

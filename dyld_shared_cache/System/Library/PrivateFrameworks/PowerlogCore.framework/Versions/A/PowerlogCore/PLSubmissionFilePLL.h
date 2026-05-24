@@ -18,19 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)i?;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (id);
 
 // Remaining properties

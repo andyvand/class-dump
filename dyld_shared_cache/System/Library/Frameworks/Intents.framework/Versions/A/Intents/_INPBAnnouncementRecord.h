@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeFilter;
-
 @interface _INPBAnnouncementRecord
 {
     struct {
         unsigned int duration:1;
     } _has;
-    double _duration;
-    NSString *_identifier;
-    _INPBHomeFilter *_originator;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)lerDirectionPad"16@0:(id)arg1 8;
 - (double);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
-- (_Bool);
+- (_Bool)unregisterDelegate:(id)arg1;
+- (void)mined to be HOME from IP signatures;
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void)nchableAppBundleIdentifierMapping;
+- (void)extensionToLaunchableAppBundleIdentifierMapping;
 - (void)SAFETY_MONITOR;
 - (id)o;
 - (void)"±ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasOriginator;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBHomeFilter *originator; // @synthesize originator=_originator;
-@property(readonly) Class superclass;
 
 @end
 

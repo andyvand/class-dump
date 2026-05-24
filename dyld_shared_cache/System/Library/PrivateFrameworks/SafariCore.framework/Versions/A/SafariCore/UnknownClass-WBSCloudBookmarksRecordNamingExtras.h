@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDecimalNumber, NSString, WBSURLHostComponentEnumerator;
-
 @interface UnknownClass (WBSCloudBookmarksRecordNamingExtras)
 + (id);
 + (id);
@@ -46,7 +44,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -77,9 +75,9 @@
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -101,59 +99,10 @@
 - (struct _NSRange);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)on.;
+- (_Bool)failed;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool safari_allowsLooserMatchingInSearch;
-@property(readonly, nonatomic) NSData *safari_base64DecodedData;
-@property(readonly, copy, nonatomic) NSDecimalNumber *safari_comparableSafariVersionNumberForAnalyticsFromNormalizedVersionString;
-@property(readonly, nonatomic) _Bool safari_containsCJKCharacters;
-@property(readonly, nonatomic) _Bool safari_containsDotOrHomoglyphForDot;
-@property(readonly, nonatomic) _Bool safari_containsInteriorWhitespace;
-@property(readonly, copy, nonatomic) NSString *safari_displayableTabBarTitleString;
-@property(readonly, copy, nonatomic) NSString *safari_domainFromHost;
-@property(readonly, copy, nonatomic) NSString *safari_effectiveTopLevelDomainForHost;
-@property(readonly, copy, nonatomic) NSString *safari_filenameByFixingIllegalCharacters;
-@property(readonly, nonatomic) unsigned long long safari_firstLocationOfPeriodOrHomoglyphForPeriod;
-@property(readonly, copy, nonatomic) NSString *safari_highLevelDomainForPasswordManager;
-@property(readonly, copy, nonatomic) NSString *safari_highLevelDomainForUserTypedStringWhenAddingPasswordInPasswordManager;
-@property(readonly, copy, nonatomic) NSString *safari_highLevelDomainFromHost;
-@property(readonly, nonatomic) WBSURLHostComponentEnumerator *safari_hostComponentsEnumerator;
-@property(readonly, nonatomic) WBSURLHostComponentEnumerator *safari_hostDomainsEnumerator;
-@property(readonly, nonatomic) _Bool safari_isAppleAccountPasskeyRPID;
-@property(readonly, nonatomic) _Bool safari_isPasswordEligibleForAutoFill;
-@property(readonly, nonatomic) _Bool safari_isPathExtensionAllowedForAnalytics;
-@property(readonly, nonatomic) _Bool safari_isPrefixOfWwwDot;
 @property(readonly, nonatomic) _Bool safari_isSpecialFolderRecordName;
-@property(readonly, nonatomic) _Bool safari_looksLikeEmailAddress;
-@property(readonly, nonatomic) _Bool safari_looksLikeIPAddress;
-@property(readonly, nonatomic) _Bool safari_mightContainURLScheme;
-@property(readonly, copy, nonatomic) NSString *safari_monogramString;
-@property(readonly, copy, nonatomic) NSString *safari_possibleTopLevelDomainCorrectionForUserTypedString;
-@property(readonly, copy, nonatomic) NSString *safari_separateResourceForkPath;
-@property(readonly, copy, nonatomic) NSString *safari_simplifiedSiteNameForCredentialLookup;
-@property(readonly, copy, nonatomic) NSString *safari_simplifiedUserVisibleURLString;
-@property(readonly, copy, nonatomic) NSString *safari_stringByAddingWwwDotPrefix;
-@property(readonly, copy, nonatomic) NSString *safari_stringByConvertingBookmarkDAVServerIDToCKRecordName;
-@property(readonly, copy, nonatomic) NSString *safari_stringByDeletingAllPathExtensions;
-@property(readonly, copy, nonatomic) NSString *safari_stringByNormalizingVersionString;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRedactingBookmarkDAVServerID;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRemovingExcessWhitespace;
-@property(readonly, nonatomic) NSString *safari_stringByRemovingParenthesizedText;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRemovingTopLevelDomainFromHost;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRemovingUnnecessaryCharactersFromUserTypedURLString;
-@property(readonly, nonatomic) NSString *safari_stringByRemovingWrappingParenthesis;
-@property(readonly, nonatomic) NSString *safari_stringByRemovingWrappingSingleQuotes;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRemovingWwwAndWildcardDotPrefixes;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRemovingWwwDotPrefix;
-@property(readonly, copy, nonatomic) NSString *safari_stringByReplacingHomoglyphForSpaceWithSpace;
-@property(readonly, copy, nonatomic) NSString *safari_stringByTrimmingWhitespace;
-@property(readonly, copy, nonatomic) NSString *safari_stringByTruncatingToMaximumFilenameLengthPreservingExtension;
-@property(readonly, copy, nonatomic) NSString *safari_stringForcingLeftToRightDirection;
-@property(readonly, copy, nonatomic) NSString *safari_suggestedFilenameFromTitleString;
-@property(readonly, copy, nonatomic) NSString *safari_urlStringForCompletionDeduplication;
-@property(readonly, copy, nonatomic) NSString *safari_urlStringSuppressingHTTPFamilySchemeAndWWWSubdomain;
-@property(readonly, copy, nonatomic) NSString *safari_userVisibleSafariBundleVersionFromFullVersion;
 @end
 

@@ -9,10 +9,6 @@
 @interface DTXProxyRequestHandler
 {
     Protocol *_publishedProtocol;
-    NSString *_publishedProtocolName;
-    Protocol *_peerProtocol;
-    NSString *_peerProtocolName;
-    CDUnknownBlockType _handlerBlock;
 }
 
 - (id);
@@ -20,18 +16,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *channelIdentifier;
-@property(readonly, copy) CDUnknownBlockType handlerBlock; // @synthesize handlerBlock=_handlerBlock;
-@property(readonly) Protocol *peerProtocol; // @synthesize peerProtocol=_peerProtocol;
-@property(readonly, copy) NSString *peerProtocolName; // @synthesize peerProtocolName=_peerProtocolName;
-@property(readonly) Protocol *publishedProtocol; // @synthesize publishedProtocol=_publishedProtocol;
-@property(readonly, copy) NSString *publishedProtocolName; // @synthesize publishedProtocolName=_publishedProtocolName;
 
 @end
 

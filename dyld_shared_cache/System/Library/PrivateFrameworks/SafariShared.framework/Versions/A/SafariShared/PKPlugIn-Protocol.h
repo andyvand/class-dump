@@ -4,10 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDictionary, NSObject, NSString, NSURL, NSUUID;
+@class NSArray, NSDictionary, NSObject, NSString, NSURL, NSUserDefaults;
 @protocol OS_dispatch_queue, PKPlugIn;
 
 @protocol PKPlugIn
+- (void)set_shouldStopProcessing:(long long)arg1;
+- (_Bool)setInlinePreviewEnabled:(id *)arg1;
+- (NSString *)Hl;
+- (void);
+- (NSUserDefaults *);
+- (id <PKPlugIn>)4;
+- (NSString *)?;
+- (NSString *)createPresenceDetectOperationWithError: /* Error: Ran out of types for this method. */;
+- (NSURL *);
+- (id)q	;
 - (void)@0:(NSArray *)arg1 8@16Q24@32@40;
 - (NSString *)lculateRequest";
 - (id)iled to add autocomplete trigger %{private}@ for %{private}@:%{public}@ /* Error: Ran out of types for this method. */;
@@ -24,27 +34,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool active;
-@property(readonly) NSDictionary *attributes;
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(readonly) NSURL *containingUrl;
-@property(readonly) NSBundle *embeddedBundle;
-@property(readonly) id embeddedPrincipal;
-@property(readonly) NSDictionary *entitlements;
 @property(readonly) NSString *identifier;
-@property(readonly) NSString *localizedContainingName;
-@property(readonly) NSDictionary *localizedFileProviderActionNames;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
-@property(readonly) NSUUID *multipleInstanceUUID;
-@property(copy) CDUnknownBlockType notificationBlock;
-@property(readonly) _Bool onSystemVolume;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(readonly) id plugInPrincipal;
-@property(readonly) _Bool spent;
-@property(readonly) id <PKPlugIn> supersededBy;
-@property(readonly) NSURL *url;
-@property long long userElection;
-@property(readonly) NSString *version;
 @end
 

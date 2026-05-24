@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrubberContainerView;
-
 __attribute__((visibility("hidden")))
 @interface NSScrubberSelectionPair
 {
     long long _itemIndex;
-    NSScrubberContainerView *_backgroundView;
-    NSScrubberContainerView *_overlayView;
-    _Bool _containsCustomViews;
 }
 
 - (void);
@@ -25,26 +20,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)dIIIB}16@0:(id)arg1 8;
+- (void)nary"24;
+- (void)ported;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_NSDocFormatInTable;
 - (_Bool);
 - (void)32;
 - (id)tentUIManager discardAllPersistentStateAndClose];
 - (void)@B;
 
 // Remaining properties
-@property(retain) NSScrubberContainerView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property _Bool containsCustomViews; // @synthesize containsCustomViews=_containsCustomViews;
 @property long long itemIndex; // @synthesize itemIndex=_itemIndex;
-@property(retain) NSScrubberContainerView *overlayView; // @synthesize overlayView=_overlayView;
-@property(readonly) double preferredItemCornerRadius;
 
 @end
 

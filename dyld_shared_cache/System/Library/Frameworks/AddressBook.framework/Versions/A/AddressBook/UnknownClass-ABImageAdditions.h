@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ka;
 - (id);
 - (void);
-- (id);
+- (id)9c;
 - (struct CGRect);
 @end
 

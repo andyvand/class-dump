@@ -7,14 +7,13 @@
 @interface CSCoreSpeechServicesAccessoryInfo
 {
     _Bool _supportsJustSiri;
-    _Bool _supportsAlwaysOnAccelerometer;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)v52@0:(id)arg1 8@16@24@32@40B48;
 - (id);
 - (id);
 - (_Bool);
@@ -22,7 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool supportsAlwaysOnAccelerometer; // @synthesize supportsAlwaysOnAccelerometer=_supportsAlwaysOnAccelerometer;
 @property(nonatomic) _Bool supportsJustSiri; // @synthesize supportsJustSiri=_supportsJustSiri;
 
 @end

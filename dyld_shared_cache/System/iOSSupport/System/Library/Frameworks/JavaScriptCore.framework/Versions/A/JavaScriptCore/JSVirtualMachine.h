@@ -7,10 +7,6 @@
 @interface JSVirtualMachine
 {
     struct OpaqueJSContextGroup *m_group;
-    struct Lock m_externalDataMutex;
-    struct RetainPtr<NSMapTable> m_contextCache;
-    struct RetainPtr<NSMapTable> m_externalObjectGraph;
-    struct RetainPtr<NSMapTable> m_externalRememberedSet;
 }
 
 + (id);
@@ -31,7 +27,7 @@
 - (struct OpaqueJSContextGroup *);
 - (void);
 - (void);
-- (id);
+- (id)&K;
 - (id);
 - (void)¨;
 

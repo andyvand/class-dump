@@ -6,17 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, OPTINSchemaOPTINInconsistentStateDetected, SISchemaInstrumentationMessage;
+@class OPTINSchemaOPTINInconsistentStateDetected, SISchemaInstrumentationMessage;
 
 @interface OPTINSchemaOPTINClientEvent : SISchemaTopLevelUnionType
 {
     OPTINSchemaOPTINInconsistentStateDetected *_inconsistentStateDetected;
-    _Bool _hasInconsistentStateDetected;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long)r;
 - (void);
 - (void);
 - (id);
@@ -25,7 +23,7 @@
 - (void);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -34,17 +32,13 @@
 - (id)!x@ù1Þ1Â0@ù
 × ;
 - (id)InteractionType"b1};
-- (unsigned long long);
-- (id)ctionCandidatesGenerated;
+- (unsigned long long)_queryDecorationTupleRankingTime;
+- (id)_actionCandidatesGenerated;
 - (id)",C,N,V_name;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInconsistentStateDetected; // @synthesize hasInconsistentStateDetected=_hasInconsistentStateDetected;
-@property(retain, nonatomic) OPTINSchemaOPTINInconsistentStateDetected *inconsistentStateDetected; // @synthesize inconsistentStateDetected=_inconsistentStateDetected;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

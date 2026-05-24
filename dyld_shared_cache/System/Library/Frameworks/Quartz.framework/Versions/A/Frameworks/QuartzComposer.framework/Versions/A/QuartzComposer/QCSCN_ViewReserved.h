@@ -4,44 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSOpenGLContext, NSOpenGLPixelFormat, NSOperationQueue, NSRecursiveLock, NSTimer, QCSCN_EventHandler, QCSCN_LoadingLayer, QCSCN_Renderer, QCSCN_Scene;
+@class NSOpenGLContext;
 
 @interface QCSCN_ViewReserved
 {
     NSOpenGLContext *_openGLContext;
-    NSOpenGLPixelFormat *_pixelFormat;
-    struct __CVDisplayLink *_displayLink;
-    _Bool _displayLinkRunning;
-    unsigned int _mainViewDisplayID;
-    NSTimer *_timer;
-    _Bool _repetitiveRedisplayRunning;
-    _Bool _allowsBrowsing;
-    _Bool _enableJittering;
-    _Bool _jitteringSupported;
-    _Bool _jitteringIsComplete;
-    _Bool _abortJittering;
-    _Bool _jitteringThreadRunning;
-    _Bool _restartJittering;
-    NSRecursiveLock *_jitteringLock;
-    _Bool _clearViewportWhenDrawing;
-    QCSCN_LoadingLayer *_loadingLayer;
-    _Bool _asynchronousLoading;
-    NSOperationQueue *_loadingQueue;
-    id _delegate;
-    QCSCN_Renderer *_renderer;
-    QCSCN_EventHandler *_eventHandler;
-    QCSCN_Scene *_scene;
-    NSRecursiveLock *_lock;
-    NSRecursiveLock *_glContextLock;
-    _Bool _ibNoMultisampling;
-    NSColor *_backgroundColor;
-    _Bool _isOpaque;
-    _Bool _firstDrawDone;
-    _Bool _dirty;
 }
 
 - (void);
-- (void);
+- (void)drawWithBox:(_Bool)arg1 inContext:withTextAnnotation: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 uniform vec2 kernel[12];

@@ -5,5 +5,6 @@
 //
 
 @protocol Navigation.MNRemainingTimeUpdaterDelegate
+- (void);
 @end
 

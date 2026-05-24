@@ -5,5 +5,6 @@
 //
 
 @protocol _GCGamepadEventSink
+- (void)P;
 @end
 

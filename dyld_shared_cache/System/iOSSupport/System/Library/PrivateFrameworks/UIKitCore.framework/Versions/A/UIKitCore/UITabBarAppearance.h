@@ -6,19 +6,15 @@
 
 #import <UIKitCore/UIBarAppearance.h>
 
-@class UIColor, UIImage, UITabBarItemAppearance, UIVibrancyEffect, _UITabBarLayoutData;
+@class UIVibrancyEffect, _UITabBarLayoutData;
 
 @interface UITabBarAppearance : UIBarAppearance
 {
     _UITabBarLayoutData *_layoutData;
-    UITabBarItemAppearance *_carPlayAppearance;
-    UITabBarItemAppearance *_stackedLayoutAppearance;
-    UITabBarItemAppearance *_inlineLayoutAppearance;
-    UITabBarItemAppearance *_compactInlineLayoutAppearance;
 }
 
 + (_Bool)the button that presents additional actions.;
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
@@ -26,13 +22,13 @@
 × ;
 - (long long)TitleForFooterInSection"b1"dataSourceDetailTextForHeaderInSection"b1"dataSourceCommitEditingStyle"b1"dataSourceSectionIndexTitlesForTableView"b1"dataSourceSectionIndexTitlesForTableViewTrimmedToCount"b1"dataSourceSectionForSectionIndexTitle"b1"dataSourceCanEditRow"b1"dataSourceCanMoveRow"b1"dataSourceCanUpdateRow"b1"dataSourceShouldShowMenu"b1"dataSourceCanPerformAction"b1"dataSourcePerformAction"b1"dataSourceIndexPathForSectionIndexTitle"b1"dataSourceWasNonNil"b1"delegateEditingStyleForRowAtIndexPath"b1"delegateTitleForDeleteConfirmationButtonForRowAtIndexPath"b1"delegateEditActionsForRowAtIndexPath"b1"delegateLeadingSwipeActionsConfigurationForRowAtIndexPath"b1"delegateTrailingSwipeActionsConfigurationForRowAtIndexPath"b1"delegateLeadingSwipeActionsForRowAtIndexPath"b1"delegateTrailingSwipeActionsForRowAtIndexPath"b1"delegateShouldIndentWhileEditing"b1"dataSourceMoveRow"b1"delegateCellForRow"b1"delegateWillDisplayCell"b1"delegateDidEndDisplayingCell"b1"delegateDidEndDisplayingSectionHeader"b1"delegateDidEndDisplayingSectionFooter"b1"delegateHeightForRow"b1"delegateHeightForSectionHeader"b1"delegateTitleWidthForSectionHeader"b1"delegateHeightForSectionFooter"b1"delegateTitleWidthForSectionFooter"b1"delegateEstimatedHeightForRow"b1"delegateEstimatedHeightForSectionHeader"b1"delegateEstimatedHeightForSectionFooter"b1"delegateViewForHeaderInSection"b1"delegateViewForFooterInSection"b1"delegateDisplayedItemCountForRowCount"b1"delegateDisplayStringForRowCount"b1"delegateAccessoryTypeForRow"b1"delegateAccessoryButtonTappedForRow"b1"delegateWillSelectRow"b1"delegateWillDeselectRow"b1"delegateDidSelectRow"b1"delegateDidDeselectRow"b1"delegateCanPerformPrimaryAction"b1"delegatePerformPrimaryAction"b1"delegateWillBeginEditing"b1"delegateDidEndEditing"b1"delegateTargetIndexPathForMove"b1"delegateIndentationLevelForRow"b1"delegateWantsHeaderForSection"b1"delegateMargin"b1"delegateHeaderTitleAlignment"b1"delegateFooterTitleAlignment"b1"delegateFrameForSectionIndexGivenProposedFrame"b1"delegateDidFinishReload"b1"delegateHeightForHeader"b1"delegateHeightForFooter"b1"delegateViewForHeader"b1"delegateViewForFooter"b1"delegateCalloutTargetRectForCell"b1"delegateShouldShowMenu"b1"delegateCanPerformAction"b1"delegatePerformAction"b1"delegateWillBeginReordering"b1"delegateDidEndReordering"b1"delegateDidCancelReordering"b1"delegateWillDisplayHeaderViewForSection"b1"delegateWillDisplayFooterViewForSection"b1"delegateShouldHighlightRow"b1"delegateDidHighlightRow"b1"delegateDidUnhighlightRow"b1"delegateTitleForSwipeAccessory"b1"delegateBackgroundColorForDeleteConfirmationButton"b1"delegateBackgroundColorForSwipeAccessory"b1"delegateDeleteConfirmationButton"b1"delegateSwipeAccessory"b1"delegateSwipeAccessoryPushed"b1"delegateShouldDrawTopSeparatorForSection"b1"delegateShouldDrawBottomSeparatorForSection"b1"delegateShouldHaveFullLengthTopSeparatorForSection"b1"delegateShouldHaveFullLengthBottomSeparatorForSection"b1"delegateSpacingForExtraSeparators"b1"delegateWillBeginSwiping"b1"delegateDidEndSwiping"b1"delegateCanFocusRow_deprecated"b1"delegateCanFocusRow"b1"delegateDidFocusRow"b1"delegateDidUnfocusRow"b1"delegateIndexPathForPreferredFocusedItem"b1"delegateShouldUpdateFocusFromRowAtIndexPathToView"b1"delegateIndexPathForPreferredFocusedView"b1"delegateShouldUpdateFocusInContext"b1"delegateDidUpdateFocusInContext"b1"delegateContextMenuConfigurationForRowAtIndexPath"b1"delegatePreviewForHighlightingContextMenuWithConfiguration"b1"delegatePreviewForDismissingContextMenuWithConfiguration"b1"delegateWillCommitMenuWithAnimator"b1"delegatewillPerformPreviewActionForMenuWithConfiguration"b1"delegateWillDisplayContextMenuWithConfiguration"b1"delegateWillEndContextMenuInteractionWithConfiguration"b1"delegateSelectionFollowsFocusForRowAtIndexPath"b1"delegateWasNonNil"b1"style"b2"isInSidebar"b1"separatorStyle"b3"headerFooterPinningBehavior"b2"wasEditing"b1"isEditing"b1"isEditingAllRows"b1"scrollsToSelection"b1"reloadSkippedDuringSuspension"b1"displaySkippedDuringSuspension"b1"needsReload"b1"needsRebuildGeometry"b1"suppressRebuildGeometry"b1"scheduledUpdateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (void)ntentViewerItem>"24{CGPoint=dd}32;
-- (id)estartAnimationOnNextLayout;
-- (void)eColor;
-- (void)thAngle;
-- (id)ints;
-- (double)ttonStyle: /* Error: Ran out of types for this method. */;
-- (id)orHWLayout:senderID:forceRebuild:createIfNeeded: /* Error: Ran out of types for this method. */;
-- (void)guration;
+- (id)restartAnimationOnNextLayout;
+- (void)pinStripeColor;
+- (void)hoverAzimuthAngle;
+- (id)backButtonConstraints;
+- (double)_responderSelectorForSystemButtonStyle: /* Error: Ran out of types for this method. */;
+- (id)GSKeyboardForHWLayout:senderID:forceRebuild:createIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)UISwipeActionsConfiguration;
 - (_Bool)d;
 - (unsigned long long)À;
 - (id),)|)(.;
@@ -40,28 +36,20 @@
 - (id)äX;
 - (void)ion setStatusBarOrientation:(id)arg1 animated:] API have been deprecated on iOS 8.0 and are no-ops on iOS 13.0 /* Error: Ran out of types for this method. */;
 - (id)oConstraints property of a %@ that is managed by a UICollectionView is not supported, and will result in incorrect self-sizing. View:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (id)ckgroundColor;
+- (void)_prominentItemAppearance;
+- (id)UITokenBackgroundColor;
 - (void)ComposeView.swift;
 - (id);
-- (id)ent;
+- (id)_UISliderColorVisualElement;
 - (void);
 - (void);
 - (void)Ä_;
 - (void)[b;
 - (void)Ó©d;
-- (void)g;
+- (void)L0g;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setSelectedItemVibrancyEffect:) UIVibrancyEffect *_selectedItemVibrancyEffect; // @dynamic _selectedItemVibrancyEffect;
-@property(copy, nonatomic) UITabBarItemAppearance *compactInlineLayoutAppearance; // @synthesize compactInlineLayoutAppearance=_compactInlineLayoutAppearance;
-@property(copy, nonatomic) UITabBarItemAppearance *inlineLayoutAppearance; // @synthesize inlineLayoutAppearance=_inlineLayoutAppearance;
-@property(retain, nonatomic) UIImage *selectionIndicatorImage;
-@property(copy, nonatomic) UIColor *selectionIndicatorTintColor;
-@property(nonatomic) long long stackedItemPositioning;
-@property(nonatomic) double stackedItemSpacing;
-@property(nonatomic) double stackedItemWidth;
-@property(copy, nonatomic) UITabBarItemAppearance *stackedLayoutAppearance; // @synthesize stackedLayoutAppearance=_stackedLayoutAppearance;
 
 @end
 

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSArray *_updates;
 }
 
-+ (id);
++ (id);
 - (id);
+- (id);
+- (id)mountain;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)@;
 - (void)0@ù
 × ;
 

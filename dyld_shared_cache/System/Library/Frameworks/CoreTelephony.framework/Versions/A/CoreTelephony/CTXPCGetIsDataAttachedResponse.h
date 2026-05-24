@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)ןx;
 - (_Bool);
 - (id);
-- (id);
+- (id)N;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isDataAttached;

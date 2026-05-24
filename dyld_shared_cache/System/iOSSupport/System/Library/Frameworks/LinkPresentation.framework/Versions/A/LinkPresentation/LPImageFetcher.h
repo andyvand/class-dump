@@ -6,23 +6,21 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class NSURL, WKWebView;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPImageFetcher : LPFetcher
 {
     CDUnknownBlockType _completionHandler;
-    WKWebView *_webView;
-    NSURL *_URL;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
++ (id)simulatedChats;
+- (void)subtitleString;
+- (void)signInPrivacyLinkHeight;
+- (void)showTouchBarTapbackPickerForChatItem:(id)arg1;
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void)á÷ð!0AùqÐ1Â0@ù
 × ;
 

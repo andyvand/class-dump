@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDNotifierConfiguration, NSObject, NSString, UNUserNotificationCenter;
-@protocol OS_os_log;
+@class DEDNotifierConfiguration;
 
 @interface DEDUserNotificationNotifier
 {
     DEDNotifierConfiguration *_config;
-    NSString *_bugSessionIdentifier;
-    UNUserNotificationCenter *_center;
-    NSObject<OS_os_log> *_log;
 }
 
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)NSt3__120__shared_ptr_pointerIPN3xpc4dictEPFvS3_ENS_9allocatorIS2_EEEE;
 - (void);
 - (void);
 - (void);
@@ -27,26 +23,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)NS1_24GnssMeasurementDataEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
-- (void);
-- (id);
+- (void)adobeIllustratorIdentifier;
+- (id)C;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bugSessionIdentifier; // @synthesize bugSessionIdentifier=_bugSessionIdentifier;
-@property(retain) UNUserNotificationCenter *center; // @synthesize center=_center;
 @property __weak DEDNotifierConfiguration *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureAudioChannelInternal_Tundra
 {
     AVCaptureConnection_Tundra *connection;
-    _Bool enabled;
-    float volume;
-    struct os_unfair_lock_s internalLock;
 }
 
 @end

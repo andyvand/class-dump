@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INNumericSettingValue, INSettingMetadata, INTemporalEventTrigger, NSString;
+@class INSettingMetadata;
 
 @interface INSetNumericSettingIntent : INIntent
 {
@@ -40,18 +40,7 @@
 - (void)esponse"16;
 
 // Remaining properties
-@property(readonly) long long action;
-@property(readonly) long long boundedValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INNumericSettingValue *numericValue;
 @property(readonly, copy) INSettingMetadata *settingMetadata;
-@property(readonly) Class superclass;
-@property(readonly, copy) INTemporalEventTrigger *temporalEventTrigger;
 
 @end
 

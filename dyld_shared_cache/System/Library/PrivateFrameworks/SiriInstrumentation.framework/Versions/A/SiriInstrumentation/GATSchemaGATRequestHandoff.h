@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATRequestHandoff : SISchemaInstrumentationMessage
 {
     _Bool _exist;
-    CDStruct_f0caceea _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)outlineView:didRemoveRowView:forRow: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exist; // @synthesize exist=_exist;
-@property(nonatomic) _Bool hasExist;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface AFSecurityConnection
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    AFInstanceContext *_instanceContext;
 }
 
-- (oneway void);
-- (void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
+- (oneway void)conflictingExpressPassIdentifiersForPassConfiguration:(id)arg1 withCompletion:(CDUnknownBlockType)arg2;
+- (void)_updateUseApplePayCashSetting: /* Error: Ran out of types for this method. */;
+- (void)PKUnifiedAccessHomeAuxiliaryCapabilityDescriptor;
+- (oneway void)ociated event in database
+;
+- (void)otherCardsPayWithRewardsEligible;
+- (void)-app.rewrap;
 - (void);
 - (oneway void);
 - (id);
@@ -33,17 +30,11 @@
 - (void)N,V_isSpeaking;
 - (void)ange:Adult) - returning Adult /* Error: Ran out of types for this method. */;
 - (oneway void)rtiseSuppressTriggerInOutput]_block_invoke;
-- (id)ageRequestMessage;
-- (id)ndKey;
+- (id)UpdateMessageRequestMessage;
+- (id)AFKeychainSetValueForAccountAndKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

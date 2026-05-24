@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVEventManagerSelectorAction : AVEventManagerAction
 {
     id _target;
-    SEL _selector;
-    unsigned long long _parameterCount;
 }
 
 - (id);

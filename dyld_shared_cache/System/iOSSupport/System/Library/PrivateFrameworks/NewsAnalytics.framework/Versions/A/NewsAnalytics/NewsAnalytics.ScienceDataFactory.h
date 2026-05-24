@@ -7,7 +7,6 @@
 @interface NewsAnalytics.ScienceDataFactory
 {
     id personalizationService;
-    id appConfigurationManager;
 }
 
 @end

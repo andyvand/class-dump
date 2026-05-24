@@ -11,14 +11,11 @@
 @interface CIAztecCodeDescriptor : CIBarcodeDescriptor
 {
     NSData *errorCorrectedPayload;
-    _Bool isCompact;
-    long long layerCount;
-    long long dataCodewordCount;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -30,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) long long dataCodewordCount; // @synthesize dataCodewordCount;
 @property(readonly) NSData *errorCorrectedPayload; // @synthesize errorCorrectedPayload;
-@property(readonly) _Bool isCompact; // @synthesize isCompact;
-@property(readonly) long long layerCount; // @synthesize layerCount;
 
 @end
 

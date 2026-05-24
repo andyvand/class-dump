@@ -9,15 +9,14 @@
 @interface NSPPrivacyProxyPolicyTierMap
 {
     NSPPrivacyProxyPolicy *_policy;
-    int _tier;
 }
 
 - (int);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (int);
 - (_Bool);
@@ -27,10 +26,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ions/A/UniformTypeIdentifiers;
 
 // Remaining properties
-@property(retain, nonatomic) NSPPrivacyProxyPolicy *policy; // @synthesize policy=_policy;
 @property(nonatomic) int tier; // @synthesize tier=_tier;
 
 @end

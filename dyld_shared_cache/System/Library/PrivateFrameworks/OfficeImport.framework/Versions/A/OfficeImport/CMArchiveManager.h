@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CMArchiveManager
 {
     _Bool mIsThumbnail;
-    _Bool mIsOnPhone;
-    unsigned long long mPageCount;
-    NSString *mPassphrase;
-    NSMutableDictionary *mDrawableCache;
-    NSString *mResourcePathPrefix;
-    NSMutableSet *mPausedPaths;
-    int mHeight;
-    int mWidth;
-    double mCommitInterval;
-    _Bool mAutoCommit;
-    NSCache *mStyleObjectCache;
-    _Bool _noDecorations;
 }
 
 + (id);
@@ -32,28 +20,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (void)q@9?;
 - (void);
-- (void);
+- (id)Ts;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(K
+k;
 - (id);
 - (void);
 - (id);
@@ -67,18 +56,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool)ü^;
 - (void);
-- (unsigned long long)I16EshComputedValueE;
+- (unsigned long long)20EshBasicTablePropValI16EshComputedValueE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool noDecorations; // @synthesize noDecorations=_noDecorations;
 @property(copy) NSString *passphrase; // @synthesize passphrase=mPassphrase;
-@property(readonly) Class superclass;
 
 @end
 

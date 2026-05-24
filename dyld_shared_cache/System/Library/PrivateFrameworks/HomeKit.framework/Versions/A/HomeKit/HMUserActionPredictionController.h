@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMUserActionPredictionProvider, NSString, NSUUID, _HMContext;
-@protocol HMUserActionPredictionControllerDelegate;
+@class HMUserActionPredictionProvider;
 
 @interface HMUserActionPredictionController
 {
     struct os_unfair_lock_s _lock;
-    id <HMUserActionPredictionControllerDelegate> _delegate;
-    HMUserActionPredictionProvider *_predictionProvider;
-    NSUUID *_homeIdentifier;
-    _HMContext *_context;
 }
 
 + (id)pc;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)ctionGroup;
+- (id)0
+@
+2
+>
+;
+- (void)C;
+- (void)HMAccessoryNetworkProtectionGroup;
 - (id);
 
 // Remaining properties
-@property(retain) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMUserActionPredictionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *homeIdentifier; // @synthesize homeIdentifier=_homeIdentifier;
 @property(readonly) HMUserActionPredictionProvider *predictionProvider; // @synthesize predictionProvider=_predictionProvider;
-@property(readonly) Class superclass;
 
 @end
 

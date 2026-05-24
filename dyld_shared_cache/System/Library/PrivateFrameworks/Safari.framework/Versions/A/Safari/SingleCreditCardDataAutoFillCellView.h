@@ -12,28 +12,22 @@ __attribute__((visibility("hidden")))
 @interface SingleCreditCardDataAutoFillCellView : ColorInvertingTableCellView
 {
     NSString *_displayText;
-    NSString *_headerText;
-    NSTextField *_singleCreditCardDataDisplayTextField;
-    NSTextField *_singleCreditCardDataHeaderTextField;
 }
 
 + (struct CGSize);
+- (id)톹;
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(copy, nonatomic) NSString *headerText; // @synthesize headerText=_headerText;
 @property __weak NSTextField *singleCreditCardDataDisplayTextField; // @synthesize singleCreditCardDataDisplayTextField=_singleCreditCardDataDisplayTextField;
-@property __weak NSTextField *singleCreditCardDataHeaderTextField; // @synthesize singleCreditCardDataHeaderTextField=_singleCreditCardDataHeaderTextField;
 
 @end
 

@@ -9,22 +9,21 @@
 @interface CKRecipientAvailabilities
 {
     id reachabilityController;
-    id reachabilities;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)dia;
+- (id)oad to complete;
+- (id)t.metadataData %d;
+- (id)chment.previewUpdateDate %@ has self.attachment.metadataData %d;
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)O;
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)eViewDelegate;
+- (void)TapbackPickerPileViewDelegate;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNComposeRecipientTextView, NSArray;
+@class NSArray;
 
 @interface _CNAtomTextView
 {
     unsigned long long _textStorageEditingDepth;
-    CNComposeRecipientTextView *_hostRecipientView;
 }
 
-+ (id);
++ (id)@;
 - (void);
 - (void);
 - (_Bool);
@@ -24,14 +23,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)T	;
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
 - (void);
@@ -47,15 +46,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)1;
+- (_Bool)d RCRepeat(NSUInteger, __strong dispatch_block_t _Nonnull);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) NSArray *atoms;
-@property __weak CNComposeRecipientTextView *hostRecipientView; // @synthesize hostRecipientView=_hostRecipientView;
 
 @end
 

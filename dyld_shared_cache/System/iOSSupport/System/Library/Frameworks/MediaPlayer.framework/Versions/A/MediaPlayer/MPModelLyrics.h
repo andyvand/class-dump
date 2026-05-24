@@ -13,24 +13,19 @@
 }
 
 + (id);
++ (id)Q;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (id)path:/System/Library/PrivateFrameworks/CoreDuetContext.framework/CoreDuetContext /* Error: Ran out of types for this method. */;
++ (void)t session date:%@, previously stored device boot session date %@ /* Error: Ran out of types for this method. */;
++ (void)n launch donation. This should not be possible. Current boot session date:%@, previously stored device boot session date %@ /* Error: Ran out of types for this method. */;
++ (void)ession occurred after the current boot session's start date in biome daemon launch donation. This should not be possible. Current boot session date:%@, previously stored device boot session date %@ /* Error: Ran out of types for this method. */;
++ (void)launch donation. This should not be possible.;
++ (void)ed boot session is the same as the current boot session in biome daemon launch donation. This should not be possible.;
++ (void)%@ at time:%f, in the biome daemon launch donation /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *TTML; // @dynamic TTML;
-@property(nonatomic) _Bool hasDownloadedCatalogLyrics; // @dynamic hasDownloadedCatalogLyrics;
-@property(nonatomic) _Bool hasLibraryLyrics; // @dynamic hasLibraryLyrics;
-@property(nonatomic) _Bool hasStoreLyrics; // @dynamic hasStoreLyrics;
-@property(nonatomic) _Bool hasTimeSyncedLyrics; // @dynamic hasTimeSyncedLyrics;
 @property(copy, nonatomic) NSString *text; // @dynamic text;
 
 @end

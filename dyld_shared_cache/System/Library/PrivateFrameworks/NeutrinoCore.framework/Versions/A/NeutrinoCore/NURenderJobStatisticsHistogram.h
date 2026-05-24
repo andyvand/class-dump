@@ -7,31 +7,12 @@
 @interface NURenderJobStatisticsHistogram
 {
     unsigned long long _binCount;
-    double _millisPerBin;
-    long long *_prepareLatencyHistogram;
-    long long *_prepareDurationHistogram;
-    long long *_renderLatencyHistogram;
-    long long *_renderDurationHistogram;
-    long long *_completeLatencyHistogram;
-    long long *_completeDurationHistogram;
-    long long *_totalDurationHistogram;
-    long long *_totalLatencyHistogram;
-    long long *_totalHistogram;
-    long long _prepareLatencyHistogramCount;
-    long long _prepareDurationHistogramCount;
-    long long _renderLatencyHistogramCount;
-    long long _renderDurationHistogramCount;
-    long long _completeLatencyHistogramCount;
-    long long _completeDurationHistogramCount;
-    long long _totalDurationHistogramCount;
-    long long _totalLatencyHistogramCount;
-    long long _totalHistogramCount;
 }
 
 - (long long);
 - (long long *);
 - (long long);
-- (long long *);
+- (long long *);
 - (long long);
 - (long long *);
 - (long long);
@@ -40,7 +21,7 @@
 - (long long *);
 - (long long);
 - (long long *);
-- (long long);
+- (long long);
 - (long long *);
 - (double);
 - (id);
@@ -57,25 +38,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long binCount; // @synthesize binCount=_binCount;
-@property(readonly) long long *completeDurationHistogram; // @synthesize completeDurationHistogram=_completeDurationHistogram;
-@property(readonly) long long completeDurationHistogramCount; // @synthesize completeDurationHistogramCount=_completeDurationHistogramCount;
-@property(readonly) long long *completeLatencyHistogram; // @synthesize completeLatencyHistogram=_completeLatencyHistogram;
-@property(readonly) long long completeLatencyHistogramCount; // @synthesize completeLatencyHistogramCount=_completeLatencyHistogramCount;
-@property(readonly) double millisPerBin; // @synthesize millisPerBin=_millisPerBin;
-@property(readonly) long long *prepareDurationHistogram; // @synthesize prepareDurationHistogram=_prepareDurationHistogram;
-@property(readonly) long long prepareDurationHistogramCount; // @synthesize prepareDurationHistogramCount=_prepareDurationHistogramCount;
-@property(readonly) long long *prepareLatencyHistogram; // @synthesize prepareLatencyHistogram=_prepareLatencyHistogram;
-@property(readonly) long long prepareLatencyHistogramCount; // @synthesize prepareLatencyHistogramCount=_prepareLatencyHistogramCount;
-@property(readonly) long long *renderDurationHistogram; // @synthesize renderDurationHistogram=_renderDurationHistogram;
-@property(readonly) long long renderDurationHistogramCount; // @synthesize renderDurationHistogramCount=_renderDurationHistogramCount;
-@property(readonly) long long *renderLatencyHistogram; // @synthesize renderLatencyHistogram=_renderLatencyHistogram;
-@property(readonly) long long renderLatencyHistogramCount; // @synthesize renderLatencyHistogramCount=_renderLatencyHistogramCount;
-@property(readonly) long long *totalDurationHistogram; // @synthesize totalDurationHistogram=_totalDurationHistogram;
-@property(readonly) long long totalDurationHistogramCount; // @synthesize totalDurationHistogramCount=_totalDurationHistogramCount;
-@property(readonly) long long *totalHistogram; // @synthesize totalHistogram=_totalHistogram;
-@property(readonly) long long totalHistogramCount; // @synthesize totalHistogramCount=_totalHistogramCount;
-@property(readonly) long long *totalLatencyHistogram; // @synthesize totalLatencyHistogram=_totalLatencyHistogram;
-@property(readonly) long long totalLatencyHistogramCount; // @synthesize totalLatencyHistogramCount=_totalLatencyHistogramCount;
 
 @end
 

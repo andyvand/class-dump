@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDocumentBrowserViewController;
+@class UIDocumentBrowserViewController;
 
 @interface DOCDocumentCreationController
 {
     _Bool _hasActiveSession;
-    UIDocumentBrowserViewController *_browserViewController;
-    NSString *_activeDocumentCreationIntent;
 }
 
 - (void);
@@ -18,11 +16,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)hA;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,11 +29,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)V;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeDocumentCreationIntent; // @synthesize activeDocumentCreationIntent=_activeDocumentCreationIntent;
 @property(readonly) __weak UIDocumentBrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
 
 @end

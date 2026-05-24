@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SXLayoutBlueprint;
+@class SXLayoutBlueprint;
 
 @protocol SXComponentController
+- (SXLayoutBlueprint *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *flattenedComponentViews;
-@property(readonly, nonatomic) _Bool isPresented;
 @property(readonly, nonatomic) SXLayoutBlueprint *presentedBlueprint;
 @end
 

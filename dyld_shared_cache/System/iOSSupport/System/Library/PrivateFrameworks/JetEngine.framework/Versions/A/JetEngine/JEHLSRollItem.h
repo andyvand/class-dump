@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)_TtC11AppStoreKit12JSUserObject;
 
 // Remaining properties
 @property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;

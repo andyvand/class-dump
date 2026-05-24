@@ -5,5 +5,7 @@
 //
 
 @protocol MicActivityClientProtocol
+- (void);
+- (void);
 @end
 

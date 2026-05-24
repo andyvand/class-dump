@@ -7,12 +7,6 @@
 @interface (extension in UIKit):__C.UIView.AnimationInfo
 {
     id lock;
-    id owningView;
-    id invalidationBlock;
-    id animatableProperties;
-    id presentationModifiers;
-    id modifierGroupRequestHandlers;
-    id higherOrderPropertyKeys;
 }
 
 @end

@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id)photosContactsKnowledgeSuggestions;
 - (id);
 - (void)Ð@X;
 

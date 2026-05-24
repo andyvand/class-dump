@@ -7,19 +7,6 @@
 @interface NewsArticles.LiveCoverageStatusView
 {
     id liveCoverageState;
-    id mastheadBackgroundColor;
-    id action;
-    id cornerRadius;
-    id buttonBackgroundView;
-    id statusButton;
-    id closeButton;
-    id $__lazy_storage_$_hoverGestureRecognizer;
-    id formatter;
-    id updateTimer;
-    id $__lazy_storage_$_panGestureRecognizer;
-    id isTransitioning;
-    id isPinned;
-    id isPerformingPinningTransition;
 }
 
 - (void);
@@ -34,7 +21,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)bannerAdRenderer;
 
 @end
 

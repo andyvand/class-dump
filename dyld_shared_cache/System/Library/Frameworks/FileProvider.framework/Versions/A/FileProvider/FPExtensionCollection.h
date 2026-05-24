@@ -6,36 +6,33 @@
 
 #import <FileProvider/FPItemCollection.h>
 
-@class FPExtensionCollectionDSCopySubscriber, FPExtensionEnumerationSettings, FPItemID;
+@class FPExtensionEnumerationSettings;
 
 @interface FPExtensionCollection : FPItemCollection
 {
     FPExtensionEnumerationSettings *_settings;
-    FPItemID *_alternateID;
-    id _providerDomainMonitoringContext;
-    FPExtensionCollectionDSCopySubscriber *_dsCopySubscriber;
 }
 
 + (_Bool);
 + (_Bool);
 - (id);
+- (_Bool)آ;
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 

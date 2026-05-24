@@ -6,15 +6,12 @@
 
 #import <OfficeImport/CMState.h>
 
-@class EDSheet, EDWorkbook, NSMutableDictionary;
+@class EDWorkbook;
 
 __attribute__((visibility("hidden")))
 @interface EMState : CMState
 {
     EDWorkbook *_workbook;
-    EDSheet *_currentSheet;
-    NSMutableDictionary *_hyperlinks;
-    NSMutableDictionary *_styleWrappers;
 }
 
 - (void);
@@ -22,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_isConfigEnabled;
 - (void)´H;
 
 // Remaining properties
-@property __weak EDSheet *currentSheet; // @synthesize currentSheet=_currentSheet;
 @property(retain) EDWorkbook *document; // @dynamic document;
 
 @end

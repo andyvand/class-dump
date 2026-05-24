@@ -9,7 +9,6 @@
 @interface SGMIBiomeSummaryResults
 {
     NSDictionary *_biomeSummaryByMessage;
-    NSDictionary *_biomeMessageIdByPersistentId;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)@: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *biomeMessageIdByPersistentId; // @synthesize biomeMessageIdByPersistentId=_biomeMessageIdByPersistentId;
 @property(readonly, nonatomic) NSDictionary *biomeSummaryByMessage; // @synthesize biomeSummaryByMessage=_biomeSummaryByMessage;
 
 @end

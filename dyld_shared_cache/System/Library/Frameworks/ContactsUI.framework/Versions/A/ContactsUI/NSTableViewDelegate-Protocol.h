@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCell, NSString;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (NSString *)`
+;
+- (_Bool);
+- (double);
+- (NSCell *);
+- (void);
 @end
 

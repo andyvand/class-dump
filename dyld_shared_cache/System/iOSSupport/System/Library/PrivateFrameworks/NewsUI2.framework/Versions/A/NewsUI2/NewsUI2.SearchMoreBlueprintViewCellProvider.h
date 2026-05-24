@@ -7,8 +7,6 @@
 @interface NewsUI2.SearchMoreBlueprintViewCellProvider
 {
     id delegate;
-    id baseStyler;
-    id feedItemRenderer;
 }
 
 @end

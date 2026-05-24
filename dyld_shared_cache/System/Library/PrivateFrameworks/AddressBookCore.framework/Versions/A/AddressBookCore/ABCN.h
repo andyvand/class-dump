@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)O;
 + (id);
 + (id);
 + (id);
@@ -28,7 +28,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)a@9;
 + (id);
 + (id);
 + (id);
@@ -63,15 +63,17 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (id);
++ (unsigned long long)C;
 + (unsigned long long);
-+ (unsigned long long);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -82,9 +84,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -110,7 +110,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)a@9H;
 + (id);
 + (id);
 + (id);

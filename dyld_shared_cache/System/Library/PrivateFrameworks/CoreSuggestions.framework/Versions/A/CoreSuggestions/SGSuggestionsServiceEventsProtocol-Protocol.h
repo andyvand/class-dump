@@ -5,7 +5,9 @@
 //
 
 @protocol SGSuggestionsServiceEventsProtocol
-- (void)dAt;
-- (void)omplete;
+- (void);
+- (_Bool)WebEditorSpellCheckResponder;
+- (void)receivedAt;
+- (void)_isComplete;
 @end
 

@@ -12,39 +12,27 @@ __attribute__((visibility("hidden")))
 @interface _UIToolbarAppearanceStorage : _UIBarAppearanceStorage
 {
     _Bool _hidesShadow;
-    UIImage *_backgroundImage;
-    UIImage *_miniBackgroundImage;
-    UIImage *_topBackgroundImage;
-    UIImage *_miniTopBackgroundImage;
-    UIImage *_shadowImage;
-    UIImage *_topShadowImage;
 }
 
 + (long long);
 - (_Bool);
-- (void);
+- (void)rq5;
 - (id);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (void)tate";
-- (void)l:(_Bool)arg1 offscreen: /* Error: Ran out of types for this method. */;
+- (void)_accessoryRectForCell:(_Bool)arg1 offscreen: /* Error: Ran out of types for this method. */;
 - (id)ÄYØ[;
 - (id)ð;
 - (id)±;
 - (void);
 - (void){§;
-- (void)ationItemSwiftRenameHandler;
+- (void)_UINavigationItemSwiftRenameHandler;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(nonatomic) _Bool hidesShadow; // @synthesize hidesShadow=_hidesShadow;
-@property(retain, nonatomic) UIImage *miniBackgroundImage; // @synthesize miniBackgroundImage=_miniBackgroundImage;
-@property(retain, nonatomic) UIImage *miniTopBackgroundImage; // @synthesize miniTopBackgroundImage=_miniTopBackgroundImage;
-@property(retain, nonatomic) UIImage *shadowImage; // @synthesize shadowImage=_shadowImage;
-@property(retain, nonatomic) UIImage *topBackgroundImage; // @synthesize topBackgroundImage=_topBackgroundImage;
-@property(retain, nonatomic) UIImage *topShadowImage; // @synthesize topShadowImage=_topShadowImage;
 
 @end
 

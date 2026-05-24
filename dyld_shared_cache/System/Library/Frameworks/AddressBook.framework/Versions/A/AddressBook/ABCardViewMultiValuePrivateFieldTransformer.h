@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewPersonMapper, CNContact, NSString;
+@class ABCardViewPersonMapper;
 
 @interface ABCardViewMultiValuePrivateFieldTransformer
 {
     ABCardViewPersonMapper *_personMapper;
-    CNContact *_contact;
-    NSString *_field;
 }
 
 + (id);
@@ -33,16 +31,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *field; // @synthesize field=_field;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ABCardViewPersonMapper *personMapper; // @synthesize personMapper=_personMapper;
-@property(readonly) Class superclass;
 
 @end
 

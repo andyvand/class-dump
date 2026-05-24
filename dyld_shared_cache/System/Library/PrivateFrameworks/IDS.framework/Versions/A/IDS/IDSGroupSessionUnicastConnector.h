@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_connection;
+@class NSString;
 
 @interface IDSGroupSessionUnicastConnector
 {
     NSString *_groupSessionIDAlias;
-    unsigned long long _participantIDAlias;
-    NSData *_salt;
-    long long _dataMode;
-    CDUnknownBlockType _connectionReadyCallback;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_nw_connection> *_cachedConnection;
 }
 
 + (void);
@@ -38,7 +31,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)IDSQueryRateLimited;
 - (void);
 - (id);
 - (id);
@@ -47,13 +40,7 @@
 - (long long)È;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_nw_connection> *cachedConnection; // @synthesize cachedConnection=_cachedConnection;
-@property(copy, nonatomic) CDUnknownBlockType connectionReadyCallback; // @synthesize connectionReadyCallback=_connectionReadyCallback;
-@property(readonly, nonatomic) long long dataMode; // @synthesize dataMode=_dataMode;
 @property(readonly, nonatomic) NSString *groupSessionIDAlias; // @synthesize groupSessionIDAlias=_groupSessionIDAlias;
-@property(readonly, nonatomic) unsigned long long participantIDAlias; // @synthesize participantIDAlias=_participantIDAlias;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSData *salt; // @synthesize salt=_salt;
 
 @end
 

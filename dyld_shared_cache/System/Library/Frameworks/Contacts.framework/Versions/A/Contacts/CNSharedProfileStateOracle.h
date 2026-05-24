@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactImageStore, CNContactPosterStore, CNContactStore, CNUnfairLock, IMNickname, IMNicknameProvider;
+@class CNContact;
 
 @interface CNSharedProfileStateOracle
 {
     CNContact *_contact;
-    _Bool _shouldContactBeRefetched;
-    IMNickname *_archivedNickname;
-    IMNickname *_currentNickname;
-    IMNickname *_pendingNickname;
-    CNUnfairLock *_contactLock;
-    CNContactStore *_contactStore;
-    CNContactImageStore *_recentContactImageStore;
-    CNContactPosterStore *_recentPosterStore;
-    IMNicknameProvider *_nicknameProvider;
 }
 
 + (_Bool);
@@ -31,15 +22,15 @@
 + (_Bool);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)caseInsensitiveCompare: /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
-+ (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,15 +46,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (double)";
 - (double);
-- (double);
+- (id));
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -71,7 +62,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
@@ -102,12 +93,12 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6l;
 - (id);
 - (void)*°1Â0@ù
 × ;
@@ -115,16 +106,7 @@
 - (id)rentsYoungerSister>!$_;
 
 // Remaining properties
-@property(retain, nonatomic) IMNickname *archivedNickname; // @synthesize archivedNickname=_archivedNickname;
 @property(retain, nonatomic) CNContact *contact;
-@property(readonly, nonatomic) CNUnfairLock *contactLock; // @synthesize contactLock=_contactLock;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) IMNickname *currentNickname; // @synthesize currentNickname=_currentNickname;
-@property(retain, nonatomic) IMNicknameProvider *nicknameProvider; // @synthesize nicknameProvider=_nicknameProvider;
-@property(retain, nonatomic) IMNickname *pendingNickname; // @synthesize pendingNickname=_pendingNickname;
-@property(retain, nonatomic) CNContactImageStore *recentContactImageStore; // @synthesize recentContactImageStore=_recentContactImageStore;
-@property(retain, nonatomic) CNContactPosterStore *recentPosterStore; // @synthesize recentPosterStore=_recentPosterStore;
-@property(nonatomic) _Bool shouldContactBeRefetched; // @synthesize shouldContactBeRefetched=_shouldContactBeRefetched;
 
 @end
 

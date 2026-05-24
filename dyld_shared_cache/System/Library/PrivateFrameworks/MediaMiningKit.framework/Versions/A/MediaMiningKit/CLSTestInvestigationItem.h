@@ -4,53 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLSCurationModel, NSArray, NSDate, NSDateComponents, NSSet, NSString, VNSceneprint;
+@class CLLocation;
 
 @interface CLSTestInvestigationItem
 {
     _Bool _clsIsUtility;
-    _Bool _clsIsBlurry;
-    _Bool _isVideo;
-    _Bool _clsIsScreenshotOrScreenRecording;
-    _Bool _isFavorite;
-    _Bool _clsIsAnInterestingVideo;
-    _Bool _clsIsAnInterestingPhoto;
-    _Bool _clsIsAnInterestingPanorama;
-    _Bool _clsIsAnInterestingSDOF;
-    _Bool _clsIsAnInterestingHDR;
-    _Bool _clsHasInterestingAudioClassification;
-    _Bool _clsHasCustomPlaybackVariation;
-    _Bool _clsIsAestheticallyPrettyGood;
-    _Bool _clsIsInhabited;
-    _Bool _clsAvoidIfPossibleForKeyItem;
-    _Bool _clsHasPoorResolution;
-    _Bool _clsHasInterestingScenes;
-    _Bool _clsIsNonMemorable;
-    _Bool _clsIsLoopOrBounce;
-    _Bool _clsIsLongExposure;
-    _Bool _clsIsInSharedLibrary;
-    NSString *_clsIdentifier;
-    CLLocation *_clsLocation;
-    NSArray *_clsPersonLocalIdentifiers;
-    NSArray *_clsConsolidatedPersonLocalIdentifiers;
-    long long _clsViewCount;
-    long long _clsPlayCount;
-    long long _clsShareCount;
-    double _clsContentScore;
-    NSSet *_clsSceneClassifications;
-    VNSceneprint *_clsSceneprint;
-    NSArray *_clsUnprefetchedPersonLocalIdentifiers;
-    double _clsSharpnessScore;
-    double _clsExposureScore;
-    double _clsAestheticScore;
-    double _clsFaceScore;
-    NSDate *_cls_universalDate;
-    double _clsHighlightVisibilityScore;
-    double _clsAutoplaySuggestionScore;
-    double _clsDuration;
-    double _clsSquareCropScore;
-    NSArray *_clsPetLocalIdentifiers;
-    double _clsIconicScore;
 }
 
 + (id);
@@ -61,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -75,7 +33,7 @@
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -103,86 +61,27 @@
 - (double);
 - (id);
 - (_Bool);
+- (_Bool)|
+;
 - (_Bool);
-- (_Bool);
 - (double);
 - (double);
-- (void);
+- (void)T*a;
 - (double);
 - (double);
 - (id);
-- (double);
-- (id);
-- (id);
+- (double)_isSelectedPart: /* Error: Ran out of types for this method. */;
+- (id)9Q;
+- (id)essor - inferred pet relationship donation failed:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (struct CLLocationCoordinate2D);
-- (_Bool);
+- (_Bool)sourceHeight;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double clsAestheticScore; // @synthesize clsAestheticScore=_clsAestheticScore;
-@property(readonly, nonatomic) double clsAutoplaySuggestionScore; // @synthesize clsAutoplaySuggestionScore=_clsAutoplaySuggestionScore;
-@property(nonatomic) _Bool clsAvoidIfPossibleForKeyItem; // @synthesize clsAvoidIfPossibleForKeyItem=_clsAvoidIfPossibleForKeyItem;
-@property(readonly, nonatomic) NSArray *clsConsolidatedPersonLocalIdentifiers; // @synthesize clsConsolidatedPersonLocalIdentifiers=_clsConsolidatedPersonLocalIdentifiers;
-@property(nonatomic) double clsContentScore; // @synthesize clsContentScore=_clsContentScore;
-@property(readonly, nonatomic) double clsDuration; // @synthesize clsDuration=_clsDuration;
-@property(readonly, nonatomic) double clsExposureScore; // @synthesize clsExposureScore=_clsExposureScore;
-@property(readonly, nonatomic) double clsFaceScore; // @synthesize clsFaceScore=_clsFaceScore;
-@property(readonly, nonatomic) _Bool clsHasCustomPlaybackVariation; // @synthesize clsHasCustomPlaybackVariation=_clsHasCustomPlaybackVariation;
-@property(readonly, nonatomic) _Bool clsHasInterestingAudioClassification; // @synthesize clsHasInterestingAudioClassification=_clsHasInterestingAudioClassification;
-@property(readonly) _Bool clsHasInterestingScenes; // @synthesize clsHasInterestingScenes=_clsHasInterestingScenes;
-@property(readonly) _Bool clsHasPoorResolution; // @synthesize clsHasPoorResolution=_clsHasPoorResolution;
-@property(readonly, nonatomic) double clsHighlightVisibilityScore; // @synthesize clsHighlightVisibilityScore=_clsHighlightVisibilityScore;
-@property(readonly, nonatomic) double clsIconicScore; // @synthesize clsIconicScore=_clsIconicScore;
-@property(readonly, nonatomic) NSString *clsIdentifier; // @synthesize clsIdentifier=_clsIdentifier;
-@property(readonly, nonatomic) _Bool clsIsAestheticallyPrettyGood; // @synthesize clsIsAestheticallyPrettyGood=_clsIsAestheticallyPrettyGood;
-@property(readonly, nonatomic) _Bool clsIsBlurry; // @synthesize clsIsBlurry=_clsIsBlurry;
-@property(readonly, nonatomic) _Bool clsIsInSharedLibrary; // @synthesize clsIsInSharedLibrary=_clsIsInSharedLibrary;
-@property(readonly) _Bool clsIsInhabited; // @synthesize clsIsInhabited=_clsIsInhabited;
-@property(readonly, nonatomic) _Bool clsIsInterestingHDR; // @synthesize clsIsInterestingHDR=_clsIsAnInterestingHDR;
-@property(readonly, nonatomic) _Bool clsIsInterestingLivePhoto; // @synthesize clsIsInterestingLivePhoto=_clsIsAnInterestingPhoto;
-@property(readonly, nonatomic) _Bool clsIsInterestingPanorama; // @synthesize clsIsInterestingPanorama=_clsIsAnInterestingPanorama;
-@property(readonly, nonatomic) _Bool clsIsInterestingSDOF; // @synthesize clsIsInterestingSDOF=_clsIsAnInterestingSDOF;
-@property(readonly, nonatomic) _Bool clsIsInterestingVideo; // @synthesize clsIsInterestingVideo=_clsIsAnInterestingVideo;
-@property(readonly, nonatomic) _Bool clsIsLongExposure; // @synthesize clsIsLongExposure=_clsIsLongExposure;
-@property(readonly, nonatomic) _Bool clsIsLoopOrBounce; // @synthesize clsIsLoopOrBounce=_clsIsLoopOrBounce;
-@property(readonly, nonatomic) _Bool clsIsNonMemorable; // @synthesize clsIsNonMemorable=_clsIsNonMemorable;
-@property(readonly, nonatomic) _Bool clsIsScreenshotOrScreenRecording; // @synthesize clsIsScreenshotOrScreenRecording=_clsIsScreenshotOrScreenRecording;
-@property(readonly, nonatomic) _Bool clsIsUtility; // @synthesize clsIsUtility=_clsIsUtility;
 @property(retain, nonatomic) CLLocation *clsLocation; // @synthesize clsLocation=_clsLocation;
-@property(readonly, nonatomic) unsigned long long clsPeopleCount;
-@property(readonly, nonatomic) NSArray *clsPersonAndPetLocalIdentifiers;
-@property(retain, nonatomic) NSArray *clsPersonLocalIdentifiers; // @synthesize clsPersonLocalIdentifiers=_clsPersonLocalIdentifiers;
-@property(readonly, nonatomic) NSArray *clsPetLocalIdentifiers; // @synthesize clsPetLocalIdentifiers=_clsPetLocalIdentifiers;
-@property(readonly, nonatomic) long long clsPlayCount; // @synthesize clsPlayCount=_clsPlayCount;
-@property(copy, nonatomic) NSSet *clsSceneClassifications; // @synthesize clsSceneClassifications=_clsSceneClassifications;
-@property(readonly, nonatomic) VNSceneprint *clsSceneprint; // @synthesize clsSceneprint=_clsSceneprint;
-@property(readonly, nonatomic) long long clsShareCount; // @synthesize clsShareCount=_clsShareCount;
-@property(readonly, nonatomic) double clsSharpnessScore; // @synthesize clsSharpnessScore=_clsSharpnessScore;
-@property(readonly) unsigned long long clsSimilarityModelVersion;
-@property(readonly, nonatomic) double clsSquareCropScore; // @synthesize clsSquareCropScore=_clsSquareCropScore;
-@property(readonly, nonatomic) NSArray *clsUnprefetchedPersonLocalIdentifiers; // @synthesize clsUnprefetchedPersonLocalIdentifiers=_clsUnprefetchedPersonLocalIdentifiers;
-@property(readonly, nonatomic) long long clsViewCount; // @synthesize clsViewCount=_clsViewCount;
-@property(readonly, nonatomic) NSDate *cls_localDate;
-@property(readonly, nonatomic) NSDateComponents *cls_localDateComponents;
-@property(retain, nonatomic) NSDate *cls_universalDate; // @synthesize cls_universalDate=_cls_universalDate;
-@property(readonly) CLSCurationModel *curationModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFavorite; // @synthesize isFavorite=_isFavorite;
-@property(readonly, nonatomic) _Bool isVideo; // @synthesize isVideo=_isVideo;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D pl_coordinate;
-@property(readonly, nonatomic) NSDate *pl_date;
-@property(readonly, nonatomic) double pl_gpsHorizontalAccuracy;
-@property(readonly, nonatomic) NSString *pl_uuid;
-@property(readonly) Class superclass;
 
 @end
 

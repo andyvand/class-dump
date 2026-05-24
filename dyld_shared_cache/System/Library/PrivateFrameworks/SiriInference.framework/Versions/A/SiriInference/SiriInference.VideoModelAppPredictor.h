@@ -7,9 +7,6 @@
 @interface SiriInference.VideoModelAppPredictor
 {
     id configProvider;
-    id candidateAppsProvider;
-    id signalsCreator;
-    id analyticsLogger;
 }
 
 @end

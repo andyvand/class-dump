@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PBDataReader
 {
     unsigned long long _pos;
-    _Bool _error;
-    const char *_bytes;
-    NSData *_data;
-    unsigned long long _length;
 }
 
 - (unsigned long long);
@@ -20,18 +14,18 @@
 - (long long);
 - (int);
 - (_Bool);
-- (int);
+- (int)c;
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
-- (long long);
+- (long long)B9(;
 - (unsigned long long);
 - (long long);
-- (int);
-- (id);
+- (int)Iu;
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)?	;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -39,29 +33,28 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (float);
 - (unsigned int);
 - (void);
+- (void);
+- (_Bool)7;
 - (void);
-- (_Bool);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)J;
+- (unsigned long long);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(nonatomic) unsigned long long position; // @synthesize position=_pos;
 
 @end
 

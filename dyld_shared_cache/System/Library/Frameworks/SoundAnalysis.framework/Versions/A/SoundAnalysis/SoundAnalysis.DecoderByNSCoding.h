@@ -7,7 +7,6 @@
 @interface SoundAnalysis.DecoderByNSCoding
 {
     id decoder;
-    id decodedByteBuffers;
 }
 
 - (CDStruct_3c1748cc);
@@ -18,9 +17,9 @@
 - (struct CGRect);
 - (struct CGSize);
 - (struct CGPoint);
-- (const char *);
+- (const char *)d;
 - (_Bool);
-- (_Bool);
+- (_Bool)copyNSStringForKey:(id)arg1 fromXPCDictionary: /* Error: Ran out of types for this method. */;
 - (int);
 - (float)LÐ;
 - (void)´ùøÿÀùøÿÌùøÿØùøÿäùøÿðùøÿüùøÿúøÿèûøÿôûøÿ0üøÿTüøÿ¼üøÿýøÿýøÿýøÿ(ýøÿþøÿàþøÿ8;

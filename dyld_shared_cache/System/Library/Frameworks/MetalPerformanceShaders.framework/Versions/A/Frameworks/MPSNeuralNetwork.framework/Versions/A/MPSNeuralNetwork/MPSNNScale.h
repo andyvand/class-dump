@@ -6,15 +6,11 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSImageScale;
-@protocol MPSHandle, MPSImageTransformProvider;
+@protocol MPSImageTransformProvider;
 
 @interface MPSNNScale : MPSCNNKernel
 {
     id <MPSImageTransformProvider> _transformProvider;
-    CDStruct_da2e99ad _destSize;
-    MPSImageScale *_filter;
-    id <MPSHandle> _handle;
 }
 
 + (const struct MPSLibraryInfo *);

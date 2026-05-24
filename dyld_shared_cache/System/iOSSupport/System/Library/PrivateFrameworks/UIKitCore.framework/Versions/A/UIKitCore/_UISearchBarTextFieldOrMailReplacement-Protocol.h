@@ -5,8 +5,9 @@
 //
 
 @protocol _UISearchBarTextFieldOrMailReplacement
+- (void)shouldAllowHighQualityPhotoUploadForNetworkConditions;
 - (void)1Â0@ù
 × ;
-- (void)gImages;
+- (void)_effectiveImageViewTraitCollectionForResolvingImages;
 @end
 

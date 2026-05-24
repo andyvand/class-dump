@@ -7,11 +7,12 @@
 @class NSArray, _INPBContactValue;
 
 @protocol _INPBContact
++ (Class)ng::createWithCFURL:requested %ld bytes.
+ /* Error: Ran out of types for this method. */;
 - (void)ght.framework/CoreSpotlight;
 - (_INPBContactValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

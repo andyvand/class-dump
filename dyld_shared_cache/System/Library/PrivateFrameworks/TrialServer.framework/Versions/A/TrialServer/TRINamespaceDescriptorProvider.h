@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRINamespaceDatabase;
+@class TRINamespaceDatabase;
 
 @interface TRINamespaceDescriptorProvider
 {
     TRINamespaceDatabase *_namespaceDatabase;
-    NSString *_descriptorDirectory;
 }
 
-+ (id);
++ (id)_outstandingUpdateAccessoriesRequest;
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)chatRelayedStatusChanged:(int)arg1;
 - (void);
 
 @end

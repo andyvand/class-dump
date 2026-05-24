@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PXSystemAuthenticationTypeObserver
 {
     long long _authenticationType;
-    NSObject<OS_dispatch_queue> *_observationQueue;
-    NSMutableSet *_observers;
-    NSMutableSet *_distributedObservers;
-    long long _forcedSystemAuthenticationType;
 }
 
 + (id);
@@ -38,10 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(retain, nonatomic) NSMutableSet *distributedObservers; // @synthesize distributedObservers=_distributedObservers;
-@property(nonatomic) long long forcedSystemAuthenticationType; // @synthesize forcedSystemAuthenticationType=_forcedSystemAuthenticationType;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *observationQueue; // @synthesize observationQueue=_observationQueue;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
 
 @end
 

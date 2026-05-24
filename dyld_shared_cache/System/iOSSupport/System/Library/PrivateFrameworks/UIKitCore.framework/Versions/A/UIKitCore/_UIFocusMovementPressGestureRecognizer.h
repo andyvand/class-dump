@@ -6,63 +6,47 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableOrderedSet, NSString, _UIRepeatingGestureClock;
+@class _UIRepeatingGestureClock;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusMovementPressGestureRecognizer : UIGestureRecognizer
 {
     _Bool _shouldRepeat;
-    unsigned long long _focusHeading;
-    long long _repeatCount;
-    _UIRepeatingGestureClock *_repeatingClock;
-    NSMutableOrderedSet *_trackedPresses;
 }
 
 - (void);
 - (void);
+- (void)24B32B36B40B44B48@52q60@68B76;
+- (id)B44B48@52q60@68;
+- (unsigned long long)chatsFound;
+- (void)_chatRoomToGroupChatIdentifierMap;
 - (void);
-- (id);
-- (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)o particular destinations called on the wrong session;
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)MTLFunctionLog;
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (id)v24@0:(id)arg1 8@"<_DUIServerSessionRemoteDragManipulation>"16;
 - (void)sible;
 - (_Bool)teractor:(id)arg1 ,V__interactor;
 - (_Bool)¬­;
-- (void)cessibilityCarPlayBoldTextStatusDidChangeNotification;
+- (void)UIAccessibilityCarPlayBoldTextStatusDidChangeNotification;
 - (void);
 - (void)ï23Í}þqï23Í}þyï23Í}þYï23Í}þ;
 - (void)¶òÐº[;
 - (void)¸5_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long focusHeading; // @synthesize focusHeading=_focusHeading;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_isRecognizing) _Bool isRecognizing;
-@property(nonatomic) long long repeatCount; // @synthesize repeatCount=_repeatCount;
 @property(retain, nonatomic) _UIRepeatingGestureClock *repeatingClock; // @synthesize repeatingClock=_repeatingClock;
-@property(nonatomic) _Bool shouldRepeat; // @synthesize shouldRepeat=_shouldRepeat;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, getter=_trackedPresses, setter=_setTrackedPresses:) NSMutableOrderedSet *trackedPresses; // @synthesize trackedPresses=_trackedPresses;
 
 @end
 

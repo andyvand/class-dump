@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RangeTableFuncCol._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _colname;
-    id _typeName;
-    id _forOrdinality;
-    id _isNotNull;
-    id _colexpr;
-    id _coldefexpr;
-    id _location;
 }
 
 @end

@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.EpisodeStateRepository
 {
     id defaultManagedObjectContext;
-    id episodeStateFetchesSubject;
-    id lastEnqueuedFetchId;
-    id $__lazy_storage_$_signpostID;
-    id episodeStatePersistentHistoryTracker;
 }
 
 @end

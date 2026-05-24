@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAudio, LPLyricExcerptMetadata, NSArray, NSString, NSURL;
-
 @interface LPInlineMediaPlaybackInformation
 {
     unsigned long long _type;
-    NSString *_storeIdentifier;
-    NSString *_storefrontIdentifier;
-    NSArray *_offers;
-    NSURL *_previewURL;
-    LPLyricExcerptMetadata *_lyricExcerpt;
-    double _startTime;
-    NSString *_persistentIdentifier;
-    LPAudio *_audio;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (_Bool);
++ (id)suggestedLocales;
++ (id)startDownloadFor:(id)arg1 completionHandler:(id)arg2;
++ (id)startAnimationAfterDelay:(id)arg1;
++ (id)start;
++ (id)standardLayoutSizeForSize:(id)arg1 applyLayout:(id)arg2;
++ (id)showMessageEditingViewControllerForChatItem:(id)arg1 presentKeyboard: /* Error: Ran out of types for this method. */;
++ (id)showMeCardViewController;
++ (id)showEntryViewPhotosShelf:(id)arg1 completion:(id)arg2;
++ (id)shouldHaveRoundRectAvatar;
+- (id)systemDarkGrayColor;
+- (_Bool)showTypingIndicator;
 - (id);
 - (id);
 - (double);
-- (unsigned long long);
-- (void);
+- (unsigned long long)Hs;
+- (void)?;
 - (unsigned long long);
 - (id);
 - (id);
@@ -43,15 +33,6 @@
 - (id)8*;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) LPAudio *audio; // @synthesize audio=_audio;
-@property(readonly, nonatomic) _Bool isAvailableForAnonymousDownload;
-@property(readonly, retain, nonatomic) LPLyricExcerptMetadata *lyricExcerpt; // @synthesize lyricExcerpt=_lyricExcerpt;
-@property(readonly, copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly, copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

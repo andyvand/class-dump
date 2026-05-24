@@ -9,27 +9,21 @@
 @interface SCKRecordFieldSchema
 {
     _Bool _encrypted;
-    _Bool _required;
-    NSString *_name;
-    Class _valueClass;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)ssageItem";
 - (id);
 - (void);
 - (void);
-- (Class);
+- (Class)_isSquareRoot;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted; // @synthesize encrypted=_encrypted;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic, getter=isRequired) _Bool required; // @synthesize required=_required;
-@property(retain, nonatomic) Class valueClass; // @synthesize valueClass=_valueClass;
 
 @end
 

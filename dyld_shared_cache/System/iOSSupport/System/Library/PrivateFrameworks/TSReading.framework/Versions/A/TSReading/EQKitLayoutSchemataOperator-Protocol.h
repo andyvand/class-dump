@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EQKitOperator><EQKitLayoutNode;
+
 @protocol EQKitLayoutSchemataOperator
+- (id <EQKitOperator><EQKitLayoutNode>)wn type:%@] /* Error: Ran out of types for this method. */;
 @end
 

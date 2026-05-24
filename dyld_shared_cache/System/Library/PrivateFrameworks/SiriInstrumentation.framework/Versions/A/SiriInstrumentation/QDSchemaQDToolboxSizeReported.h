@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface QDSchemaQDToolboxSizeReported : SISchemaInstrumentationMessage
 {
     unsigned int _totalToolCount;
-    struct {
-        unsigned int totalToolCount:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)results;
 - (_Bool);
-- (_Bool);
+- (_Bool)messageSubTitleTeen;
 - (id);
 - (id);
-- (id)SaidDialogIdentifier;
+- (id)_uufrSaidDialogIdentifier;
 - (id)tLength;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTotalToolCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int totalToolCount; // @synthesize totalToolCount=_totalToolCount;
 
 @end

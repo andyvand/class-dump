@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TTSSpeechString
 {
     unsigned long long _type;
-    NSString *_transformedString;
-    NSString *_originalString;
-    TTSSpeechString *_parentString;
-    NSMutableArray *_transformations;
 }
 
 - (id);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)G;
 - (struct _NSRange);
 - (id);
 - (_Bool);
@@ -39,18 +35,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *defrostedTransformedString;
-@property(readonly, nonatomic) _Bool finalized;
 @property(retain, nonatomic) NSString *originalString; // @synthesize originalString=_originalString;
-@property(retain, nonatomic) TTSSpeechString *parentString; // @synthesize parentString=_parentString;
-@property(retain, nonatomic) NSMutableArray *transformations; // @synthesize transformations=_transformations;
-@property(retain, nonatomic) NSString *transformedString; // @synthesize transformedString=_transformedString;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

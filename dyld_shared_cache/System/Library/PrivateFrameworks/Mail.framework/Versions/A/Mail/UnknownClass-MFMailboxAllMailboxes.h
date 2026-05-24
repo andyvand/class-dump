@@ -6,6 +6,6 @@
 
 @interface UnknownClass (MFMailboxAllMailboxes)
 - (_Bool);
-- (id);
+- (id)*;
 @end
 

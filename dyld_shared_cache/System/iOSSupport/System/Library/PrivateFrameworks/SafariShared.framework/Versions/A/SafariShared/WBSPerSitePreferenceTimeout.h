@@ -7,17 +7,15 @@
 @interface WBSPerSitePreferenceTimeout
 {
     double _interval;
-    id _fallbackValue;
 }
 
 + (id);
-- (id);
+- (id)[;
 - (id);
 - (double);
 - (void)ultHash<OpaqueJSContext *>, WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, WTF::HashTraits<OpaqueJSContext *>>::validateKey(const ValueType &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id fallbackValue; // @synthesize fallbackValue=_fallbackValue;
 @property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
 
 @end

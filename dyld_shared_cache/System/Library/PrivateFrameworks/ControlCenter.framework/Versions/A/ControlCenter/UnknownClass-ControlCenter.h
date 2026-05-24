@@ -8,10 +8,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)\\ ;
+- (void)(;
 - (void);
-- (void);
-- (void);
+- (void),l;
 - (void);
 - (void);
 - (id);
@@ -20,10 +20,5 @@
 
 // Remaining properties
 @property(nonatomic, copy) id showSiri;
-@property(nonatomic, copy) id showSpotlight;
-@property(nonatomic, copy) id showTimeMachine;
-@property(nonatomic, copy) id showVPN;
-@property(nonatomic, copy) id showWeather;
-@property(nonatomic, copy) id trackedApplications;
 @end
 

@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol UINSWindowStateControllerDelegate;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface UINSWindowStateController
 {
     _Bool _closingWindowCausedTermination;
-    _Bool _initialWindowOpeningComplete;
-    _Bool _isCreatingWindowForAppActivation;
-    int _windowBatchingToken;
-    id <UINSWindowStateControllerDelegate> _delegate;
-    NSMutableSet *_scenesExpectedToOpen;
-    NSMutableSet *_scenesKnownToBeOpen;
-    NSMutableSet *_scenesExpectedToClose;
-    NSMutableSet *_systemSceneIdentifiersKnownToBeOpen;
-    NSMapTable *_scenesToWindowStates;
-    NSMutableDictionary *_systemSceneIdentifiersToWindowStates;
-    NSMutableArray *_fullScreenWindowsHiddenForTermination;
-    NSMutableArray *_windowsDetiledForTermination;
-    NSMutableArray *_miniaturizedWindowsToRestoreInDockOnRelaunch;
-    NSString *_sceneIDWeHidInsteadOfClosing;
-    CDUnknownBlockType _closeAllCompletion;
 }
 
-- (id);
+- (id)R;
 - (int);
 - (void);
 - (id);
@@ -62,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (_Bool);
@@ -89,7 +73,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (void);
 - (_Bool);
@@ -118,27 +102,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)data_map_double_commit_shadow;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appSupportsMultiwindow;
-@property(copy, nonatomic) CDUnknownBlockType closeAllCompletion; // @synthesize closeAllCompletion=_closeAllCompletion;
-@property(nonatomic) _Bool closingWindowCausedTermination; // @synthesize closingWindowCausedTermination=_closingWindowCausedTermination;
-@property(nonatomic) __weak id <UINSWindowStateControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableArray *fullScreenWindowsHiddenForTermination; // @synthesize fullScreenWindowsHiddenForTermination=_fullScreenWindowsHiddenForTermination;
-@property(nonatomic) _Bool initialWindowOpeningComplete; // @synthesize initialWindowOpeningComplete=_initialWindowOpeningComplete;
-@property(nonatomic) _Bool isCreatingWindowForAppActivation; // @synthesize isCreatingWindowForAppActivation=_isCreatingWindowForAppActivation;
-@property(retain, nonatomic) NSMutableArray *miniaturizedWindowsToRestoreInDockOnRelaunch; // @synthesize miniaturizedWindowsToRestoreInDockOnRelaunch=_miniaturizedWindowsToRestoreInDockOnRelaunch;
-@property(retain, nonatomic) NSString *sceneIDWeHidInsteadOfClosing; // @synthesize sceneIDWeHidInsteadOfClosing=_sceneIDWeHidInsteadOfClosing;
-@property(retain, nonatomic) NSMutableSet *scenesExpectedToClose; // @synthesize scenesExpectedToClose=_scenesExpectedToClose;
 @property(retain, nonatomic) NSMutableSet *scenesExpectedToOpen; // @synthesize scenesExpectedToOpen=_scenesExpectedToOpen;
-@property(retain, nonatomic) NSMutableSet *scenesKnownToBeOpen; // @synthesize scenesKnownToBeOpen=_scenesKnownToBeOpen;
-@property(retain, nonatomic) NSMapTable *scenesToWindowStates; // @synthesize scenesToWindowStates=_scenesToWindowStates;
-@property(retain, nonatomic) NSMutableSet *systemSceneIdentifiersKnownToBeOpen; // @synthesize systemSceneIdentifiersKnownToBeOpen=_systemSceneIdentifiersKnownToBeOpen;
-@property(retain, nonatomic) NSMutableDictionary *systemSceneIdentifiersToWindowStates; // @synthesize systemSceneIdentifiersToWindowStates=_systemSceneIdentifiersToWindowStates;
-@property(nonatomic) int windowBatchingToken; // @synthesize windowBatchingToken=_windowBatchingToken;
-@property(retain, nonatomic) NSMutableArray *windowsDetiledForTermination; // @synthesize windowsDetiledForTermination=_windowsDetiledForTermination;
 
 @end
 

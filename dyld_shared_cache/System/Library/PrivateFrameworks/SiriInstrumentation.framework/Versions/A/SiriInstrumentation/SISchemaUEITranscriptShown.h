@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEITranscriptShown : SISchemaInstrumentationMessage
 {
     int _transcriptShownReason;
-    struct {
-        unsigned int transcriptShownReason:1;
-    } _has;
 }
 
 - (int);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)getCachedSubscriptionEntitlementsForSegment:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)Є;
+- (_Bool)sRecordStore;
 - (id);
 - (id);
-- (id)urOfDay;
-- (id)ompanionSyncPluginSyncObjectAcquisitionStarted;
+- (id)deleteFollowUpHourOfDay;
+- (id)_hasCompanionSyncPluginSyncObjectAcquisitionStarted;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTranscriptShownReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int transcriptShownReason; // @synthesize transcriptShownReason=_transcriptShownReason;
 
 @end

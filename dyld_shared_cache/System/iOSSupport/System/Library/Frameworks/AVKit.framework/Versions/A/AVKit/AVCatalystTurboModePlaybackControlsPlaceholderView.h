@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVButton, AVCatalystGlassStyleSheet, AVObservationController, AVPlayerController, AVVolumeButtonControl, NSString, NSValue, UIView;
+@class AVCatalystGlassStyleSheet, UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVCatalystTurboModePlaybackControlsPlaceholderView
 {
     AVCatalystGlassStyleSheet *_styleSheet;
-    AVPlayerController *_playerController;
-    long long _preferredUnobscuredArea;
-    long long _includedControlType;
-    NSString *_volumeButtonMicaPackageStateName;
-    NSValue *_overrideLayoutMarginsWhenEmbeddedInline;
-    AVVolumeButtonControl *_volumeButton;
-    UIView *_prominentPlayButtonContainer;
-    AVButton *_prominentPlayButton;
-    UIView *_volumeButtonContainer;
-    UIView *_contentView;
-    AVObservationController *_observationController;
-    struct CGAffineTransform _overrideTransformForProminentPlayButton;
 }
 
 - (id);
 - (id);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,14 +36,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
-- (void);
-- (id);
+- (void)rgeable deltas:(id)arg1 %@;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)LogEntry.RayTracingTilesAvailability.LatLonGeodetic;
 - (void);
+- (id);
+- (void)isPeerConnectionError;
 - (void);
 - (id);
 - (id);
@@ -63,19 +51,7 @@ __attribute__((visibility("hidden")))
 - (id)troller.pictureInPicturePossible;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) long long includedControlType; // @synthesize includedControlType=_includedControlType;
-@property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(retain, nonatomic) NSValue *overrideLayoutMarginsWhenEmbeddedInline; // @synthesize overrideLayoutMarginsWhenEmbeddedInline=_overrideLayoutMarginsWhenEmbeddedInline;
-@property(nonatomic) struct CGAffineTransform overrideTransformForProminentPlayButton; // @synthesize overrideTransformForProminentPlayButton=_overrideTransformForProminentPlayButton;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(nonatomic) long long preferredUnobscuredArea; // @synthesize preferredUnobscuredArea=_preferredUnobscuredArea;
-@property(nonatomic) __weak AVButton *prominentPlayButton; // @synthesize prominentPlayButton=_prominentPlayButton;
 @property(retain, nonatomic) UIView *prominentPlayButtonContainer; // @synthesize prominentPlayButtonContainer=_prominentPlayButtonContainer;
-@property(retain, nonatomic) AVCatalystGlassStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(nonatomic) __weak AVVolumeButtonControl *volumeButton; // @synthesize volumeButton=_volumeButton;
-@property(retain, nonatomic) UIView *volumeButtonContainer; // @synthesize volumeButtonContainer=_volumeButtonContainer;
-@property(copy, nonatomic) NSString *volumeButtonMicaPackageStateName; // @synthesize volumeButtonMicaPackageStateName=_volumeButtonMicaPackageStateName;
 
 @end
 

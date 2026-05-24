@@ -14,8 +14,8 @@
 + (id);
 + (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)/;
+- (id)__MUAmenityItemViewAccessibility_super;
 
 @end
 

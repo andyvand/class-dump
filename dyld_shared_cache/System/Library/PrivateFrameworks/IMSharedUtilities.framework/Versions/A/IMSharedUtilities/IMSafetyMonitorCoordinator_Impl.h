@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMSafetyMonitorCoordinator_Impl
 {
@@ -18,29 +18,27 @@
 - (_Bool);
 - (void);
 - (long long);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)";
+- (id)pay.inapp;
 - (void)LyåÝ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *appPayload;
 @property(nonatomic, readonly) NSString *appPayloadID;
-@property(nonatomic, readonly) _Bool shouldDisallowBasedOnRegulatoryDomain;
 
 @end
 

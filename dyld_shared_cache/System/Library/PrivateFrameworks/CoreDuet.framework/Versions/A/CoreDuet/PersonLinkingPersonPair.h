@@ -4,60 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PersonLinkingPerson;
-
 @interface PersonLinkingPersonPair
 {
     float _confidence;
-    NSString *_reason;
-    PersonLinkingPerson *_sourcePerson;
-    PersonLinkingPerson *_targetPerson;
-    _Bool _grade;
-    struct {
-        unsigned int confidence:1;
-        unsigned int grade:1;
-    } _has;
 }
 
 - (id);
 - (id);
+- (void)};
+- (void)d;
 - (void);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)0;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)@;
+- (void)HSTSCache;
 - (void);
 - (id);
-- (id);
+- (id));
 - (float);
-- (void);
+- (void);
 - (void);
 - (_Bool)[øÿ;
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool grade; // @synthesize grade=_grade;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasGrade;
-@property(readonly, nonatomic) _Bool hasReason;
 @property(readonly, nonatomic) _Bool hasSourcePerson;
-@property(readonly, nonatomic) _Bool hasTargetPerson;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) PersonLinkingPerson *sourcePerson; // @synthesize sourcePerson=_sourcePerson;
-@property(retain, nonatomic) PersonLinkingPerson *targetPerson; // @synthesize targetPerson=_targetPerson;
 
 @end
 

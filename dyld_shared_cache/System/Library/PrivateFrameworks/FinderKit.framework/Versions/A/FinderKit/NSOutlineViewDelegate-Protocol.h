@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification, NSOutlineView, NSTableRowView;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (_Bool)confirmationRequiredWithObjectToConfirm:(NSOutlineView *)arg1;
+- (void);
+- (void);
+- (NSTableRowView *);
+- (void)!;
+- (_Bool);
+- (void)ssageListSectionDataSource configuredCollectionViewCellForCollectionView:(NSNotification *)arg1 indexPath:itemID:cellIdentifier:] /* Error: Ran out of types for this method. */;
+- (void)kMessageListItemsFirstBatchRetrieved;
 @end
 

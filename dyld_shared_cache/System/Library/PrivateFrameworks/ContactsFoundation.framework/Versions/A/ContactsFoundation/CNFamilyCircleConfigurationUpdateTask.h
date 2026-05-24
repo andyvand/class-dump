@@ -6,16 +6,11 @@
 
 #import <ContactsFoundation/CNTask.h>
 
-@class ACAccountStore, CNResult, NSArray;
-@protocol CNDelegateAccountSink, CNDelegateAccountSource;
+@protocol CNDelegateAccountSource;
 
 @interface CNFamilyCircleConfigurationUpdateTask : CNTask
 {
     id <CNDelegateAccountSource> _accountSource;
-    id <CNDelegateAccountSink> _accountSink;
-    ACAccountStore *_accountStore;
-    NSArray *_delegateAccounts;
-    CNResult *_result;
 }
 
 + (id);
@@ -25,9 +20,9 @@
 - (void);
 - (id);
 - (id);
+- (id)6;
 - (id);
-- (id);
-- (id);
+- (id)<;
 - (id);
 - (id);
 - (id);
@@ -37,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNDelegateAccountSink> accountSink; // @synthesize accountSink=_accountSink;
 @property(readonly, nonatomic) id <CNDelegateAccountSource> accountSource; // @synthesize accountSource=_accountSource;
-@property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, nonatomic) NSArray *delegateAccounts; // @synthesize delegateAccounts=_delegateAccounts;
-@property(retain, nonatomic) CNResult *result; // @synthesize result=_result;
 
 @end
 

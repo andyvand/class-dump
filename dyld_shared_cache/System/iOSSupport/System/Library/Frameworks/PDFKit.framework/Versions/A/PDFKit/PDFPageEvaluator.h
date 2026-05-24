@@ -7,16 +7,6 @@
 @interface PDFPageEvaluator
 {
     struct CGPDFPage *_page;
-    struct CGRect _pageBounds;
-    unsigned long long _pageArea;
-    struct CGPDFRState *_rstate;
-    struct CGPDFGState *_gstate;
-    struct CGPDFOperatorTable *_table;
-    struct CGPDFContentStream *_cs;
-    _Bool _scanned;
-    _Bool _containsText;
-    _Bool _containsLargeImage;
-    struct CGPDFContentStream *_contentStream;
 }
 
 + (void);
@@ -40,16 +30,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ted Buffer;
 - (id);
 - (void);
-- (id);
+- (id)creen after EDR change;
 
 // Remaining properties
-@property _Bool containsLargeImage; // @synthesize containsLargeImage=_containsLargeImage;
-@property _Bool containsText; // @synthesize containsText=_containsText;
 @property(readonly) struct CGPDFContentStream *contentStream; // @synthesize contentStream=_contentStream;
-@property(readonly) struct CGPDFRState *rstate; // @synthesize rstate=_rstate;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSString, PDFAppearanceCharacteristicsPrivate;
+@class PDFAppearanceCharacteristicsPrivate;
 
 @interface PDFAppearanceCharacteristics
 {
@@ -27,24 +27,68 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)texels[1] = texture2D(pickedColorBuffer, uv + vec2(                0., -u_inverseResolution.y)).r;
+    texels[2] = texture2D(pickedColorBuffer, uv + vec2( u_inverseResolution.x, -u_inverseResolution.y)).r;
+    
+    texels[3] = texture2D(pickedColorBuffer, uv + vec2(-u_inverseResolution.x, 0.)).r;
+    
+    texels[5] = texture2D(pickedColorBuffer, uv + vec2( u_inverseResolution.x, 0.)).r;
+    
+    texels[6] = texture2D(pickedColorBuffer, uv + vec2(-u_inverseResolution.x, u_inverseResolution.y)).r;
+    texels[7] = texture2D(pickedColorBuffer, uv + vec2(                0., u_inverseResolution.y)).r;
+    texels[8] = texture2D(pickedColorBuffer, uv + vec2( u_inverseResolution.x, u_inverseResolution.y)).r;
+    
+    
+    
+    vec3 a = vec3(texels[0],texels[3],texels[6]);
+    vec3 b = vec3(texels[2],texels[5],texels[7]);
+    bvec3 tmp = equal(a,b);
+    vec3 retLin = mix( vec3(tmp), vec3(not(tmp)), vec3(equal(b,vec3(0.))) );
+    
+    
+    a = vec3(texels[0],texels[1],texels[2]);
+    b = vec3(texels[6],texels[7],texels[8]);
+    tmp = equal(a,b);
+    vec3 retCol = mix( vec3(tmp), vec3(not(tmp)), vec3(equal(b,vec3(0.))) );
+    
+    
+
+
+    vec4 last = step(vec4(0.002), vec4(texels[5],texels[7],texels[8], min(retLin.x, retCol.x)) );
+    
+    
+    float x = last.w + 2.*retLin.y + retLin.z - retCol.z - 2.*last.x - last.z;
+    float y = last.w + 2.*retCol.y + retCol.z - retLin.z- 2.*last.y - last.z;
+    float magnitude = sqrt( x*x + y*y );
+    
+    
+    
+    
+    float depth = 1.;
+    for(int i=-1; i<2; i++)
+    for(int j=-1; j<2; j++)
+        depth = min(depth, texture2D(pickedDepthBuffer, uv + u_inverseResolution*vec2(i,j)).r);
+    
+    
+    
+    if( texture2D(depthBuffer, uv).x < depth-0.0000001 &&  texture2D(pickedColorBuffer, uv).r > 0.  )
+        gl_FragColor = vec4(.25);
+    else
+        gl_FragColor = vec4( min(magnitude/4.,1.) );
+    
+}
+
+;
 - (struct CGPDFForm *);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ation;
+- (void)AKAnnotation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *appearanceCharacteristicsKeyValues;
-@property(copy, nonatomic) NSColor *backgroundColor;
-@property(copy, nonatomic) NSColor *borderColor;
-@property(copy, nonatomic) NSString *caption;
 @property(nonatomic) long long controlType;
-@property(copy, nonatomic) NSString *downCaption;
-@property(copy, nonatomic) NSString *rolloverCaption;
-@property(nonatomic) long long rotation;
 
 @end
 

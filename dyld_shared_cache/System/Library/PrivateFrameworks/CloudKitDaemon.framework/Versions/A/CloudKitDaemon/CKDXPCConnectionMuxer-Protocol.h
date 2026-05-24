@@ -5,6 +5,7 @@
 //
 
 @protocol CKDXPCConnectionMuxer
+- (void)h;
 - (void)encryptedFieldContextType;
 @end
 

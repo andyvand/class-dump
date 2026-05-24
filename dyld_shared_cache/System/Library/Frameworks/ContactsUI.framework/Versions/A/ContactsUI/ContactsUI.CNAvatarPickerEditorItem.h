@@ -7,14 +7,6 @@
 @interface ContactsUI.CNAvatarPickerEditorItem
 {
     id originalItem;
-    id initialMonogramText;
-    id showsAsCompany;
-    id canSaveInitialImage;
-    id _editingItem;
-    id hasPendingChanges;
-    id isGeneratingMemoji;
-    id requestedCropRect;
-    id _setupUserData;
 }
 
 @end

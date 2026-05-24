@@ -11,13 +11,12 @@
 @interface CPLNewAssetExtractionStep : CPLBatchExtractionStep
 {
     NSMutableSet *_alreadySeenMasterScopedIdentifiers;
-    unsigned long long _maximumCount;
 }
 
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)ñ1Â0@ù

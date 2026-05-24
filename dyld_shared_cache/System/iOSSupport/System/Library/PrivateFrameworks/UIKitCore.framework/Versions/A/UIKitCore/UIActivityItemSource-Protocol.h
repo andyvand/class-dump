@@ -5,5 +5,8 @@
 //
 
 @protocol UIActivityItemSource
+
+@optional
+- (id);
 @end
 

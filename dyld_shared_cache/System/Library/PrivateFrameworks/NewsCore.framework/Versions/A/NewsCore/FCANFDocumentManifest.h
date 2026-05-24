@@ -9,12 +9,10 @@
 @interface FCANFDocumentManifest
 {
     NSArray *_nonImageResourceIDs;
-    NSArray *_optimalImageResourceIDs;
-    NSArray *_smallestImageResourceIDs;
 }
 
 + (_Bool);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
@@ -22,12 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void)orSingleArticle;
+- (void)corryBarMaxArticleCountForSingleArticle;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *nonImageResourceIDs; // @synthesize nonImageResourceIDs=_nonImageResourceIDs;
-@property(readonly, copy, nonatomic) NSArray *optimalImageResourceIDs; // @synthesize optimalImageResourceIDs=_optimalImageResourceIDs;
-@property(readonly, copy, nonatomic) NSArray *smallestImageResourceIDs; // @synthesize smallestImageResourceIDs=_smallestImageResourceIDs;
 
 @end
 

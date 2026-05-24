@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CINinePartStretched : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputBreakpoint0;
-    CIVector *inputBreakpoint1;
-    CIVector *inputGrowAmount;
 }
 
 + (id);
@@ -24,15 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)( (;
 - (id);
 - (id)XaWfPZNcI`Uj|¤¥¥¢§¨¨¨¨ªªªªªªªª»»»»³µµµ¤¤¤¤mqvo}gsmuluqvxxwxZmhtZf^n`g`j`f^jMf_qiwt}x¢¢¢¢z¡¡¡¡¡¡¡~Yjbu\cYhTaYhwwtwRd]pruuuvz{|Vpnzixyyzzzz|jwsvwszxxuxwwwwvvvvttttlrqrlmmmR]VaJVL^qqqqrm~«¦««¿¿¿¿½½½½bysUphzx`us}nnjnQ`Zc`hhhyyyybonqaaYa``_`K\Rc?ZOhooist{y|zzzzZmdy¡¡¡¡¦¦¦¦DbWupmepttttamiomjdmlyz{dlkq\\W\BLCMGE:I-B5QE[UiolhqAUK\TTMT@RIXhhhhqqqq]c]jBZReooooixxxn|}}}}}}]kgv;\TpbmksrrrrddddHSJUFUK[jpmpgwtq¨¨¨¨°°°°¢¢z{wq}t|{|}}}}ivtwjmhqwwvwu¡£§§££££V^Ti>N?Y]_Ublniw¥¥¥¥¡¡¡¡}pokrbhakssrs}}}}xxxxRb[fZZRZT_V_jqnu~kxv}}}}hheh<QE_nqoqssssenknqtrv    ®®®®©©©©{frmrpoiptzzz|x\zzevvy~~~yyyyisuu||||p}}vvvvjjjjQ[Qd]jdpxZkf{bqnyqxxxoonoEZPeNYMidvtynywbpl|lyy|zzzzqqqq>XNcGVK_mmmm ¨­°¯°°¤¤¤¤}}~||~e}z|xt|Shao?\SiRc[nUrn~io~~~~bjej/K;_ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputBreakpoint0; // @synthesize inputBreakpoint0;
-@property(retain, nonatomic) CIVector *inputBreakpoint1; // @synthesize inputBreakpoint1;
-@property(retain, nonatomic) CIVector *inputGrowAmount; // @synthesize inputGrowAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

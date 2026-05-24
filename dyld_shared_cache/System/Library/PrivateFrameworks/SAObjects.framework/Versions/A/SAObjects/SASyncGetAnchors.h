@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface SASyncGetAnchors : SABaseClientBoundCommand
 {
@@ -16,25 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSArray *appMetaDataList;
-@property(copy, nonatomic) NSString *authToken;
-@property(nonatomic) _Bool companionOfMUDevice;
-@property(copy, nonatomic) NSDictionary *customVocabSources;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeAllKnownAnchors;
-@property(copy, nonatomic) NSString *primeToken;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSArray *sources;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *syncModes;
-@property(copy, nonatomic) NSString *syncReason;
-@property(copy, nonatomic) NSArray *watchAppMetaDataList;
 
 @end
 

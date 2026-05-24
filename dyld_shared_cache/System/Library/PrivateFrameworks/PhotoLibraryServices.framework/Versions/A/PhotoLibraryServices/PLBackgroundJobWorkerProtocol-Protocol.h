@@ -5,8 +5,15 @@
 //
 
 @protocol PLBackgroundJobWorkerProtocol
++ (id));
 
 @optional
++ (id);
++ (id)QLSqliteDatabaseStatementWrapper;
++ (id);
++ (id);
+- (id)@;
+- (id)A;
 - (id)ashNotification:Preflight failed:lastNotificationViewedDate is within threshold:%@ /* Error: Ran out of types for this method. */;
 @end
 

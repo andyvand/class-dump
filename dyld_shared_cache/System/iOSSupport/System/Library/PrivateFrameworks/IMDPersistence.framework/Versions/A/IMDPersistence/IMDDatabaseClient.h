@@ -56,16 +56,16 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)P;
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)_paletteLeftConstraintInCompact;
 - (void);
 - (void);
 

@@ -12,15 +12,14 @@ __attribute__((visibility("hidden")))
 @interface _NSTextFieldPlugin : _NSValueBinderPlugin
 {
     NSDecimalNumber *_originalMinValue;
-    NSDecimalNumber *_originalMaxValue;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)LhyIpGgxiQoFZD/OGPcQ;
+- (_Bool)yxFFGn+VS4L9a/bsvm19Q;
 - (id);
 - (id);
 - (_Bool);

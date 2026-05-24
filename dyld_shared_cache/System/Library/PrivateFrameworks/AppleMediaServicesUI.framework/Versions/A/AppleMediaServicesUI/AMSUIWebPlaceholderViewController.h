@@ -6,31 +6,32 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSBinaryPromise, AMSUIMessageLoadingViewController, AMSUIWebAppearance, AMSUIWebClientContext, AMSUIWebLoadingPageModel, AMSUIWebSnapshotView, NSString, NSUUID, NSView, NSViewController;
-@protocol AMSUIWebPagePresenter;
+@class AMSUIWebClientContext;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebPlaceholderViewController : AMSUICommonViewController
 {
     _Bool _animateFadeIn;
-    _Bool _hasAppeared;
-    _Bool _isVisible;
-    _Bool _shouldSnapshot;
-    AMSUIWebAppearance *_appearance;
-    AMSUIWebLoadingPageModel *_model;
-    NSViewController<AMSUIWebPagePresenter> *_originalViewController;
-    AMSUIWebClientContext *_context;
-    AMSUIMessageLoadingViewController *_loadingController;
-    NSUUID *_snapshotID;
-    AMSBinaryPromise *_snapshotPromise;
-    AMSUIWebSnapshotView *_snapshotView;
-    NSView *_visibleView;
 }
 
+- (void)Managing>",R,N,V_manager;
+- (void)DDSAssetTrackingDelegate;
+- (id)DDSAssetPolicy;
+- (id);
+- (_Bool);
+- (void)q;
+- (void)df;
+- (void)<;
+- (void)rest in auto asset:(id)arg1 %{public}@ submitted, now lock the auto asset to download the content;
+- (void)alog based asset update status:(id)arg1 (%ld) for query:(%{public}@) /* Error: Ran out of types for this method. */;
+- (void)blic}@;
+- (id)ion's query:%@.  Are you really, really sure you meant that? /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (id)tus for locked auto asset:%@ completed with error:%@ /* Error: Ran out of types for this method. */;
+- (id)Cannot add assertion, manager interface is nil for asset type:(id)arg1 %@;
+- (id)Success;
+- (_Bool)NSError"24;
 - (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -38,25 +39,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -67,8 +54,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)globalSigningEnabled;
+- (id)dered Data-Given-Pre-SSV-to-SSV case
+;
 - (void)NSString"24@"_WKContentRuleListAction"32@"NSURL"40;
 - (id);
 - (_Bool)±=yAByàÞ=y:å=yAByAByæÝ=yÙ=GâÔ=yäØ=SgGGûÌ=y¥Ý=GG_ß=tGGm¯=GATGABy±ã=¤=G_G /* Error: Ran out of types for this method. */;
@@ -76,26 +64,7 @@ __attribute__((visibility("hidden")))
 - (void),øïÿ;
 
 // Remaining properties
-@property _Bool animateFadeIn; // @synthesize animateFadeIn=_animateFadeIn;
-@property(retain) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
 @property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasAppeared; // @synthesize hasAppeared=_hasAppeared;
-@property(readonly) unsigned long long hash;
-@property _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(retain) AMSUIMessageLoadingViewController *loadingController; // @synthesize loadingController=_loadingController;
-@property(retain) AMSUIWebLoadingPageModel *model; // @synthesize model=_model;
-@property(retain) NSViewController<AMSUIWebPagePresenter> *originalViewController; // @synthesize originalViewController=_originalViewController;
-@property _Bool shouldSnapshot; // @synthesize shouldSnapshot=_shouldSnapshot;
-@property(retain) NSUUID *snapshotID; // @synthesize snapshotID=_snapshotID;
-@property(retain) AMSBinaryPromise *snapshotPromise; // @synthesize snapshotPromise=_snapshotPromise;
-@property(retain) AMSUIWebSnapshotView *snapshotView; // @synthesize snapshotView=_snapshotView;
-@property(readonly) Class superclass;
-@property(retain) NSView *visibleView; // @synthesize visibleView=_visibleView;
 
 @end
 

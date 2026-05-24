@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)0@?48;
 - (_Bool)è;
 - (_Bool)iability-witness>;
 

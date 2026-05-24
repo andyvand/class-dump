@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSWindow;
+
 @protocol NSSharingServiceDelegate
+
+@optional
+- (NSWindow *);
+- (struct CGRect);
 @end
 

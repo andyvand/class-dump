@@ -13,22 +13,6 @@ __attribute__((visibility("hidden")))
 @interface NSMenuScrollView : NSScrollView
 {
     id _consumptionEventMonitor;
-    struct __CFRunLoopTimer *_autoScrollTimer;
-    double _coalescedDeltaY;
-    double _accelerationMultiplier;
-    double _lineHeight;
-    double _accelerationStartTime;
-    _Bool _isScrollingBehaviorEnabled;
-    _Bool _shouldContinueAutoScrolling;
-    _Bool _isAutoScrollInProgress;
-    _Bool _isScrollingUsingScrollWheel;
-    _Bool _isTopScrollIndicatorVisible;
-    _Bool _isEligibleForScrollAcceleration;
-    _Bool _preventMouseEventReentry;
-    _Bool _hasPendingScrollIndicatorUpdates;
-    _Bool _hasPendingSizeUpdates;
-    NSCocoaMenuImpl<_NSPopupMenuScrollViewDelegate> *_contextMenuDelegate;
-    long long _scrollingBehavior;
 }
 
 - (_Bool);
@@ -36,32 +20,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool)G;
+- (long long)rks/IOKit.framework/Versions/A/IOKit;
+- (void)__DATA_DIRTY;
+- (void);
 - (void);
 - (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (_Bool)GP;
+- (id)linkItemAtURL:toURL:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (void)}@ local authenticator will provide headers or request;
+- (void)eamTask:received streams out of order /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ce;
+- (void);
+- (void)@;
+- (void);
+- (id)%{public}s[%p] CFDataCreate failed;
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)completionHandler:(struct CGRect)arg1;
+- (id)incremental_nextAsynchronousDocumentFindMatchForward:(struct CGRect)arg1 wrap:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)NSServiceDescription;
 - (void)è§ÿ¾T;
 
 // Remaining properties
 @property(nonatomic) __weak NSCocoaMenuImpl<_NSPopupMenuScrollViewDelegate> *contextMenuDelegate; // @synthesize contextMenuDelegate=_contextMenuDelegate;
-@property(nonatomic) long long scrollingBehavior; // @synthesize scrollingBehavior=_scrollingBehavior;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface AppStoreKit.ComponentContainerCollectionElementsObserver
 {
     id presenter;
-    id parent;
-    id scrollObserver;
-    id impressionsCalculator;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFAnnotation, PDFAnnotationChangePrivate;
+@class PDFAnnotationChangePrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFAnnotationChange
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) PDFAnnotation *annotation;
-@property(readonly, nonatomic) unsigned long long changeTimestamp;
 @property(readonly, nonatomic) int changeType;
 
 @end

@@ -6,29 +6,22 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOLocationShiftingListCacheResponse : GEOXPCReply
 {
     NSArray *_items;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void)ival;
+- (void)_preArrival;
 - (void);
 - (void)04;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly) Class superclass;
 
 @end
 

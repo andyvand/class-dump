@@ -5,5 +5,6 @@
 //
 
 @protocol MREditingDelegate
+- (void)appBuildNumber;
 @end
 

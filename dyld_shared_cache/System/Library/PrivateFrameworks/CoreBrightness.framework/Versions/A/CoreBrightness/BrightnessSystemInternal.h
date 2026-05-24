@@ -4,59 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BLControl, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSXPCListener;
-@protocol OS_os_log;
+@class BLControl;
 
 __attribute__((visibility("hidden")))
 @interface BrightnessSystemInternal
 {
     BLControl *bl;
-    CDUnknownBlockType _callback;
-    NSMutableArray *_callbackProps;
-    float _cachedSlider;
-    NSXPCListener *_listener;
-    NSMutableDictionary *_clients;
-    NSMutableDictionary *_clientsProps;
-    NSMutableDictionary *_ownedProps;
-    NSMutableDictionary *_combinableProps;
-    NSMutableDictionary *_clientsConnectionState;
-    _Bool _checkConnections;
-    CDUnknownBlockType connectionCheckBlock;
-    NSObject<OS_os_log> *_logHandle;
-    double _initDuration;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)11'2E;
+- (void)y1'F3~D'y;
+- (void);
+- (_Bool)D~H;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (id);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)_;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,28 +11,24 @@
 @interface DMFCreateConfigurationOrganizationRequest : DMFTaskRequest
 {
     NSString *_organizationIdentifier;
-    NSString *_organizationDisplayName;
-    NSString *_organizationType;
 }
 
 + (_Bool);
++ (_Bool)(;
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id);
+- (id)	;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *organizationDisplayName; // @synthesize organizationDisplayName=_organizationDisplayName;
 @property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(copy, nonatomic) NSString *organizationType; // @synthesize organizationType=_organizationType;
 
 @end
 

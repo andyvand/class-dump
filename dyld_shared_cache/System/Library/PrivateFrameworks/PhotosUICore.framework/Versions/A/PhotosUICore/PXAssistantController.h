@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXAssistantNavigationController;
-@protocol PXAssistantContext, PXAssistantControllerDelegate;
+@class PXAssistantNavigationController;
+@protocol PXAssistantContext;
 
 @interface PXAssistantController
 {
     PXAssistantNavigationController *_navigationController;
-    _Bool _completed;
-    id <PXAssistantContext> _context;
-    id <PXAssistantControllerDelegate> _delegate;
 }
 
 - (void);
@@ -36,32 +33,23 @@
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
-- (void);
-- (void);
+- (void)_accessibilityNextElementsForSpeakThis;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)previewItem;
 - (_Bool)e;
 - (id)XSharedLibraryLegacyDevicesFallbackMonitor * _Nullable __strong, __strong id<PXPresentationEnvironment> _Nonnull, NSString *__strong _Nonnull, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong));
 - (void);
 - (_Bool)¨ÔüÿªðMä@;
 
 // Remaining properties
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
 @property(readonly, nonatomic) id <PXAssistantContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXAssistantControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

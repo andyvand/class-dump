@@ -6,7 +6,7 @@
 
 #import <BackBoardServices/BKSEventDeferringChainIdentity.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDisplay;
+@class BKSHIDEventDisplay;
 
 @interface BKSMutableEventDeferringChainIdentity : BKSEventDeferringChainIdentity
 {
@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) BKSHIDEventDisplay *display; // @dynamic display;
-@property(retain, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @dynamic environment;
 
 @end
 

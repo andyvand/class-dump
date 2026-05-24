@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPixelBufferPool;
-
 __attribute__((visibility("hidden")))
 @interface BWScalingSession
 {
     struct OpaqueVTPixelRotationSession *_rotationSession;
-    int _rotationSessionDegrees;
-    struct OpaqueVTPixelTransferSession *_transferSession;
-    BWPixelBufferPool *_intermediateBufferPool;
-    CDStruct_79c71658 _intermediateBufferPoolDimensions;
 }
 
 - (int);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)OITSUMutableNumberFormat;
 - (id);
 - (void);
 

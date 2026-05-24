@@ -9,19 +9,18 @@
 @interface NSCIDGlyphInfo : NSGlyphInfo
 {
     unsigned short _cid;
-    unsigned long long _collection;
 }
 
 + (id);
 + (_Bool);
-+ (void)edLineBreakIndexForProposedIndex: /* Error: Ran out of types for this method. */;
++ (void)adjustedLineBreakIndexForProposedIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)(;
 
 @end
 

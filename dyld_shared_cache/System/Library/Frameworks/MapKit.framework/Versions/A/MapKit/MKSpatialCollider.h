@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MKSpatialColliderPairSet;
-
 __attribute__((visibility("hidden")))
 @interface MKSpatialCollider
 {
     long long _options;
-    _MKSpatialColliderPairSet *_previousCollisionPairs;
-    _MKSpatialColliderPairSet *_registeredCollisonPairs;
-    _Bool _isVertical;
-    struct vector<MKAnnotationView *, std::allocator<MKAnnotationView *>> _sortedAnnotationViews;
-    double _maxLength;
-    unsigned long long mutator;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (void)nsTypeForQuickRoute;
+- (void)preferredDirectionsTypeForQuickRoute;
 - (unsigned long long)[Open All Day];
 
 @end

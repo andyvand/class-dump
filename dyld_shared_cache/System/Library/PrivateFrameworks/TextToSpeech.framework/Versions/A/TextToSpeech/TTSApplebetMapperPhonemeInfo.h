@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface TTSApplebetMapperPhonemeInfo
 {
     NSNumber *_startTime;
-    NSNumber *_endTime;
-    NSString *_phoneme;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)ver [%s] %s:%d captureSource must not be NULL /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) NSString *phoneme; // @synthesize phoneme=_phoneme;
 @property(retain, nonatomic) NSNumber *startTime; // @synthesize startTime=_startTime;
 
 @end

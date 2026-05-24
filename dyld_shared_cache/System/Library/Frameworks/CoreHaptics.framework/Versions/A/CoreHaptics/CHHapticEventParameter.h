@@ -9,7 +9,6 @@
 @interface CHHapticEventParameter
 {
     float _value;
-    NSString *_param;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSString *parameterID; // @synthesize parameterID=_param;
-@property float value; // @synthesize value=_value;
 
 @end
 

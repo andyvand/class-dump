@@ -11,8 +11,8 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)#;
+- (unsigned long long)allocate;
 
 @end
 

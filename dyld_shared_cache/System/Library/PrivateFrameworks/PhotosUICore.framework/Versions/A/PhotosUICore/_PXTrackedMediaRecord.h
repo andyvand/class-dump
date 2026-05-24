@@ -7,8 +7,6 @@
 @interface _PXTrackedMediaRecord
 {
     id _media;
-    long long _mediaKind;
-    double _timestamp;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id media; // @synthesize media=_media;
-@property(readonly, nonatomic) long long mediaKind; // @synthesize mediaKind=_mediaKind;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

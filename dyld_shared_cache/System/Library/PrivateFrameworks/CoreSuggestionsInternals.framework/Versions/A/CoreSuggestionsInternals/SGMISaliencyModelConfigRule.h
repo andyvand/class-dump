@@ -9,14 +9,11 @@
 @interface SGMISaliencyModelConfigRule
 {
     NSNumber *_featureName;
-    NSNumber *_strictLowerBound;
-    NSNumber *_strictUpperBound;
-    NSNumber *_output;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)QK=;
 - (id);
 - (id);
 - (id);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(readonly) NSNumber *featureName; // @synthesize featureName=_featureName;
-@property(readonly) NSNumber *output; // @synthesize output=_output;
-@property(readonly) NSNumber *strictLowerBound; // @synthesize strictLowerBound=_strictLowerBound;
-@property(readonly) NSNumber *strictUpperBound; // @synthesize strictUpperBound=_strictUpperBound;
 
 @end
 

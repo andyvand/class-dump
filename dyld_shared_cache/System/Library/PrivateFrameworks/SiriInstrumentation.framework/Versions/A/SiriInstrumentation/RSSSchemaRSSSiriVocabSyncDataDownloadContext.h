@@ -6,23 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RSSSchemaRSSSiriVocabSyncDataDownloadEnded, RSSSchemaRSSSiriVocabSyncDataDownloadFailed, RSSSchemaRSSSiriVocabSyncDataDownloadTriggered;
+@class RSSSchemaRSSSiriVocabSyncDataDownloadTriggered;
 
 @interface RSSSchemaRSSSiriVocabSyncDataDownloadContext : SISchemaInstrumentationMessage
 {
     RSSSchemaRSSSiriVocabSyncDataDownloadTriggered *_startedOrChanged;
-    RSSSchemaRSSSiriVocabSyncDataDownloadEnded *_ended;
-    RSSSchemaRSSSiriVocabSyncDataDownloadFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)4˟;
 - (void);
 - (void);
 - (void);
@@ -33,29 +27,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)OS;
 - (_Bool);
-- (_Bool);
+- (_Bool)y(IMDAttachmentRecordRef, CFStringRef *, int64_t *, int64_t *, CFStringRef *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, Boolean *, int64_t *, CFDictionaryRef *, Boolean *, CFDictionaryRef *, CFDictionaryRef *, Boolean *, int64_t *, CFDataRef *, CFStringRef *, CFStringRef *, int64_t *, CFStringRef *, CFStringRef *);
 - (id);
-- (id);
-- (id):(id)arg1;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)assetsAtIndex:(id)arg1;
 - (id)N,V_appContactFreqForMessagesInf;
 - (void)VE_AUTHENTICATION_PERMITTED;
 
 // Remaining properties
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncDataDownloadEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncDataDownloadFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RSSSchemaRSSSiriVocabSyncDataDownloadTriggered *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

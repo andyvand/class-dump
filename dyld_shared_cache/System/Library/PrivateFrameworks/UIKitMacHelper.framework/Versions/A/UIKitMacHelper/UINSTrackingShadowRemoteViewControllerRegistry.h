@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSHashTable;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface UINSTrackingShadowRemoteViewControllerRegistry
 {
     NSHashTable *_shadowVCs;
-    CADisplayLink *_displayLink;
-    _Bool _showsDebugOverlay;
 }
 
 + (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ration is complete. returned error code %d. Pretending it did complete.;
 - (void);
 - (void);
 - (void);

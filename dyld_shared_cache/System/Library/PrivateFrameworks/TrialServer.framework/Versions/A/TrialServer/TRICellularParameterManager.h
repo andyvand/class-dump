@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCServiceSubscriptionContext, CoreTelephonyClient, NSString, _PASLock;
+@class CTXPCServiceSubscriptionContext, NSString;
 
 @interface TRICellularParameterManager
 {
     CTXPCServiceSubscriptionContext *_subscriptionContext;
-    CoreTelephonyClient *_telephonyClient;
-    _PASLock *_lock;
-    NSString *_carrierBundleIdentifier;
-    NSString *_carrierCountryIsoCode;
 }
 
 + (id)loutDeployments:error: /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)responseForRequest:(id)arg1 bodyData:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -32,14 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *carrierBundleIdentifier; // @synthesize carrierBundleIdentifier=_carrierBundleIdentifier;
-@property(retain, nonatomic) NSString *carrierCountryIsoCode; // @synthesize carrierCountryIsoCode=_carrierCountryIsoCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

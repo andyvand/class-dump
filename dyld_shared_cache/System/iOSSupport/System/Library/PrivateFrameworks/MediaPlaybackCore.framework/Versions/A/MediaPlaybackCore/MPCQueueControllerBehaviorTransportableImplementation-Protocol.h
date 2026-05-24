@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol MPCQueueControllerBehaviorTransportableExtension;
+
 @protocol MPCQueueControllerBehaviorTransportableImplementation
++ (id <MPCQueueControllerBehaviorTransportableExtension>);
+- (_Bool)filteredServerProvidedFeatures:(NSString *)arg1 forAccount:(NSString *)arg2;
+
+@optional
+- (_Bool);
 @end
 

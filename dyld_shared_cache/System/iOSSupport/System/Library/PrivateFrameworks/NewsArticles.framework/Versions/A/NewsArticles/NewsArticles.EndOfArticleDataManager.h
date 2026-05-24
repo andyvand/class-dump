@@ -7,14 +7,10 @@
 @interface NewsArticles.EndOfArticleDataManager
 {
     id delegate;
-    id feedServiceConfigFetcher;
-    id feedService;
-    id accessQueue;
-    id feedContextFactory;
 }
 
 - (id);
-- (void)ervice;
+- (void)recipeService;
 
 @end
 

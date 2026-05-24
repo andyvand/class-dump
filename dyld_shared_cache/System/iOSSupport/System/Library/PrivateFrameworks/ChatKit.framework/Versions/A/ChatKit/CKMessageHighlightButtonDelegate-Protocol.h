@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageHighlightButton;
+
 @protocol CKMessageHighlightButtonDelegate
+- (void)displayedAvatarCount;
+- (BOOL)displayText;
+- (struct CGRect)displayRemoteAttachmentPreview;
+- (void)displayFilePreview;
+- (struct CGRect)dispatchAfter:(CKMessageHighlightButton *)arg1 stringIdentifier:withBlock: /* Error: Ran out of types for this method. */;
 @end
 

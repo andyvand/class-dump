@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraph, PGGraphLocationCityNodeCollection, PGTitleGenerationContext;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PGLocationFeatureSummarySource
 {
     NSObject<OS_os_log> *_loggingConnection;
-    PGTitleGenerationContext *_titleGenerationContext;
-    PGGraph *_graph;
-    PGGraphLocationCityNodeCollection *_supersetCityNodes;
 }
 
 - (id);
@@ -20,17 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ayoutHash;
 - (void)GMemoryTriggerPersonBirthday.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

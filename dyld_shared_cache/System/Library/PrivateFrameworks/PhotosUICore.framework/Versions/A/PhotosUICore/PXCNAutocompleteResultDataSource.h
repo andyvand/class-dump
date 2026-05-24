@@ -16,7 +16,7 @@
 - (id);
 - (long long);
 - (id);
-- (long long)ssetCollections;
+- (long long)numberOfEnrichmentStateCompleteAssetCollections;
 - (long long)äCÊAå·Ø%;
 - (void)Ü­;
 

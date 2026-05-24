@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SCNKeyedArchiver
 {
     _Bool skipMorphTargets;
-    NSDictionary *options;
 }
 
 + (id);
@@ -21,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options;
 @property(nonatomic) _Bool skipMorphTargets; // @synthesize skipMorphTargets;
 
 @end

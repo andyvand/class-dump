@@ -6,35 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, QDSchemaQDToolDefinition, QDSchemaQDToolSource, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface QDSchemaQDRetrievedTool : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sessionScopedUniqueId;
-    NSString *_toolId;
-    int _subType;
-    float _similarityScore;
-    int _selectionCriteria;
-    QDSchemaQDToolSource *_toolSource;
-    QDSchemaQDToolDefinition *_toolDefinition;
-    struct {
-        unsigned int subType:1;
-        unsigned int similarityScore:1;
-        unsigned int selectionCriteria:1;
-    } _has;
-    _Bool _hasSessionScopedUniqueId;
-    _Bool _hasToolId;
-    _Bool _hasToolSource;
-    _Bool _hasToolDefinition;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)@
+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,7 +40,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)qc;
 - (void);
 - (void);
 - (void);
@@ -65,32 +51,18 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ary/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppClusterMapping_macOS.m:44 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)c.group_id = ?;
 - (id);
 - (id);
-- (id)ale;
+- (id)_uiScale;
 - (id)biguationsLastInfinity;
-- (void)TIONDIALOGNAME_SWITCH_PARTNER;
+- (void)GATCONFIRMATIONDIALOGNAME_SWITCH_PARTNER;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSelectionCriteria;
-@property(nonatomic) _Bool hasSessionScopedUniqueId; // @synthesize hasSessionScopedUniqueId=_hasSessionScopedUniqueId;
-@property(nonatomic) _Bool hasSimilarityScore;
-@property(nonatomic) _Bool hasSubType;
-@property(nonatomic) _Bool hasToolDefinition; // @synthesize hasToolDefinition=_hasToolDefinition;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(nonatomic) _Bool hasToolSource; // @synthesize hasToolSource=_hasToolSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int selectionCriteria; // @synthesize selectionCriteria=_selectionCriteria;
 @property(retain, nonatomic) SISchemaUUID *sessionScopedUniqueId; // @synthesize sessionScopedUniqueId=_sessionScopedUniqueId;
-@property(nonatomic) float similarityScore; // @synthesize similarityScore=_similarityScore;
-@property(nonatomic) int subType; // @synthesize subType=_subType;
-@property(retain, nonatomic) QDSchemaQDToolDefinition *toolDefinition; // @synthesize toolDefinition=_toolDefinition;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
-@property(retain, nonatomic) QDSchemaQDToolSource *toolSource; // @synthesize toolSource=_toolSource;
 
 @end
 

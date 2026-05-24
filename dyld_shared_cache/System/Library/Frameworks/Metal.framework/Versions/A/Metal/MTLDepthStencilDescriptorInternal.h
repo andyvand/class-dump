@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     struct MTLDepthStencilDescriptorPrivate _private;
 }
 
-- (void);
+- (void)CIColorMonochrome;
 - (void);
 - (id);
 - (void);
@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)AppleKeyboardPreferencesFnKeySettingChangedNotification;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)H;
 - (_Bool);
 - (id);
 - (void);
@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (const struct MTLDepthStencilDescriptorPrivate *);
 - (unsigned long long);
-- (void)s;
+- (void)libraryDataContents;
 
 // Remaining properties
 @property(readonly) const struct MTLDepthStencilDescriptorPrivate *depthStencilPrivate;

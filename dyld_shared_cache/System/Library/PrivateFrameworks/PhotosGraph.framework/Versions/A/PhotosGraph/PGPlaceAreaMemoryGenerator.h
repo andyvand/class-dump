@@ -6,18 +6,14 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class MABinaryAdjacency, PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class MABinaryAdjacency;
 
 @interface PGPlaceAreaMemoryGenerator : PGOverTimeMemoryGenerator
 {
     MABinaryAdjacency *_addressNodesByAreaNode;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -26,10 +22,10 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)savedCursorLocationForScreen:(id)arg1;
+- (id)_alignment;
+- (void)supportsAction:(id)arg1;
+- (unsigned long long)rray",C,N,S_setSharedKeyboardFocusedElementSelectedElementControllers:,V__sharedKeyboardFocusedElementSelectedElementControllers /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)####################

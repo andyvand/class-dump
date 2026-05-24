@@ -9,19 +9,16 @@
 @interface SKCloudServiceSetupConfiguration
 {
     _Bool _targetsFinanceApplication;
-    _Bool _forPublicSDK;
-    NSString *_applicationIdentifier;
-    NSString *_applicationVersion;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *applicationVersion; // @synthesize applicationVersion=_applicationVersion;
-@property(nonatomic) _Bool forPublicSDK; // @synthesize forPublicSDK=_forPublicSDK;
-@property(nonatomic) _Bool targetsFinanceApplication; // @synthesize targetsFinanceApplication=_targetsFinanceApplication;
 
 @end
 

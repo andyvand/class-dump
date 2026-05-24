@@ -5,14 +5,13 @@
 //
 
 @protocol BWFigVideoCaptureDeviceCenterStageDelegate
+- (void);
+- (void)`;
+- (struct CGRect)0o;
+- (long long);
+- (_Bool)B;
 
 // Remaining properties
-@property(nonatomic) CDStruct_a536cad7 cinematicFramingControls;
-@property(nonatomic) _Bool cinematicFramingControlsSuspended;
-@property(readonly, nonatomic) long long multipleFacesDetectedCumulativeTime;
 @property(readonly, nonatomic) struct CGRect regionOfInterestForCameraControls;
-@property(nonatomic) CDUnknownBlockType regionOfInterestForCameraControlsChangedHandler;
-@property(nonatomic, getter=isRegionOfInterestForCameraControlsFeedbackEnabled) _Bool regionOfInterestForCameraControlsFeedbackEnabled;
-@property(readonly, nonatomic) long long singleFaceDetectedCumulativeTime;
 @end
 

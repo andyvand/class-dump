@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineMagicalMomentsRecommendedAppsHistogramSet
 {
     unsigned long long _timestamp;
-    int _confidenceOfMostConfidentModel;
-    int _durationSinceLastSuccessfulTraining;
-    int _fallbackModelConfidence;
-    NSMutableArray *_instances;
-    int _modelType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int confidenceOfMostConfidentModel:1;
-        unsigned int durationSinceLastSuccessfulTraining:1;
-        unsigned int fallbackModelConfidence:1;
-        unsigned int modelType:1;
-    } _has;
 }
 
 + (Class);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)`2;
 - (void);
 - (void);
 - (void);
@@ -45,7 +31,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -58,21 +44,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (int)øóÖÿ;
 
 // Remaining properties
-@property(nonatomic) int confidenceOfMostConfidentModel; // @synthesize confidenceOfMostConfidentModel=_confidenceOfMostConfidentModel;
-@property(nonatomic) int durationSinceLastSuccessfulTraining; // @synthesize durationSinceLastSuccessfulTraining=_durationSinceLastSuccessfulTraining;
-@property(nonatomic) int fallbackModelConfidence; // @synthesize fallbackModelConfidence=_fallbackModelConfidence;
-@property(nonatomic) _Bool hasConfidenceOfMostConfidentModel;
-@property(nonatomic) _Bool hasDurationSinceLastSuccessfulTraining;
-@property(nonatomic) _Bool hasFallbackModelConfidence;
-@property(nonatomic) _Bool hasModelType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *instances; // @synthesize instances=_instances;
-@property(nonatomic) int modelType; // @synthesize modelType=_modelType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

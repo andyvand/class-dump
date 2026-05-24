@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, BSProcessHandle;
+@class BSProcessHandle;
 
 @protocol BSServiceConnectionHost
+- (void)A;
 
 // Remaining properties
 @property(readonly, nonatomic) BSProcessHandle *remoteProcess;
-@property(readonly, nonatomic) BSAuditToken *remoteToken;
 @end
 

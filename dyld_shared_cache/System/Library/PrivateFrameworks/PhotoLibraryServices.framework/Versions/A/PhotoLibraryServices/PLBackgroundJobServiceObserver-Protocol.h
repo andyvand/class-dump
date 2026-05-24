@@ -5,5 +5,8 @@
 //
 
 @protocol PLBackgroundJobServiceObserver
+
+@optional
+- (id);
 @end
 

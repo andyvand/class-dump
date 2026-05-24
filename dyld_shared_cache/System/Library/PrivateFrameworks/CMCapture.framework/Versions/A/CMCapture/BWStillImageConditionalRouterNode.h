@@ -14,10 +14,10 @@
 }
 
 + (void);
-- (void);
+- (void)CHBArea2DType;
 - (void);
 - (id);
-- (void)sure;
+- (void)BackPressure;
 
 @end
 

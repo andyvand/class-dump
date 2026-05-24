@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ABCardViewMultiValueEntry
 {
     NSString *_identifier;
-    NSString *_label;
-    id _value;
-    NSString *_accountName;
-    _Bool _isReadOnly;
-    _Bool _isDuplicate;
-    _Bool _isPrivate;
-    NSArray *_personIdentifiers;
-    NSArray *_multiValueIdentifiers;
-    id _suggestedValue;
 }
 
 + (id);
@@ -35,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ACCOUNT_CONTACT_BENEFICIARY_ERROR_ALERT_TITLE;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -48,21 +39,11 @@
 - (void);
 - (void)á@°!4Fù1ª°1Â0@ù
 × ;
-- (_Bool)diameter: /* Error: Ran out of types for this method. */;
+- (_Bool)drawString:color:diameter: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *accountName; // @synthesize accountName=_accountName;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isDuplicate; // @synthesize isDuplicate=_isDuplicate;
-@property _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly) _Bool isSuggested;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(copy) NSArray *multiValueIdentifiers; // @synthesize multiValueIdentifiers=_multiValueIdentifiers;
-@property(copy) NSArray *personIdentifiers; // @synthesize personIdentifiers=_personIdentifiers;
-@property(retain) id suggestedValue; // @synthesize suggestedValue=_suggestedValue;
-@property(copy) id value; // @synthesize value=_value;
 
 @end
 

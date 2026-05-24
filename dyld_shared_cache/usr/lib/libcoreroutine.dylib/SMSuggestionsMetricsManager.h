@@ -6,14 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTDefaultsManager, RTDeviceLocationPredictor, SMSessionStore, SMSuggestionsStore;
+@class RTDefaultsManager;
 
 @interface SMSuggestionsMetricsManager : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    RTDeviceLocationPredictor *_deviceLocationPredictor;
-    SMSessionStore *_sessionStore;
-    SMSuggestionsStore *_suggestionsStore;
 }
 
 + (id);
@@ -36,11 +33,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)setObservers:(id *)arg1;
+- (id)setObject:(id *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)setIsGuitarfish:(unsigned long long)arg1;
+- (id)setFinished:(id *)arg1;
+- (_Bool)setClassicContent:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -51,9 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDeviceLocationPredictor *deviceLocationPredictor; // @synthesize deviceLocationPredictor=_deviceLocationPredictor;
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(retain, nonatomic) SMSuggestionsStore *suggestionsStore; // @synthesize suggestionsStore=_suggestionsStore;
 
 @end
 

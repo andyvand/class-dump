@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PHFetchResult;
+@class PHFetchResult;
 
 @interface PXMemoriesDataSourceState
 {
     PHFetchResult *_memories;
-    NSDictionary *_infosByMemory;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *infosByMemory; // @synthesize infosByMemory=_infosByMemory;
 @property(readonly, nonatomic) PHFetchResult *memories; // @synthesize memories=_memories;
 
 @end

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)e.corespotlight.userQueryParser.preheat;
+- (id)Tv;
 - (void);
 - (void);
 

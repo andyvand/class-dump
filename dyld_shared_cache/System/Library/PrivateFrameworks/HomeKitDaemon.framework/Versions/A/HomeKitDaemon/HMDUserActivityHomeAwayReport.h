@@ -12,15 +12,14 @@ __attribute__((visibility("hidden")))
 @interface HMDUserActivityHomeAwayReport : HMDUserActivityReport
 {
     unsigned long long _state;
-    HMDDevice *_sourceDevice;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_fetchActiveHandlesWithCompletion:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMDDevice *sourceDevice; // @synthesize sourceDevice=_sourceDevice;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

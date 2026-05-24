@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TInlinePreviewData, NSDictionary;
+@class FI_TInlinePreviewData;
 
 __attribute__((visibility("hidden")))
 @interface FI_TThumbnailImageRep
@@ -15,15 +15,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (double);
 - (void).listViewCalculateAllSizes;
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *clientProperties;
-@property struct CGRect contentRect;
 @property(readonly, nonatomic) double scaleFactor;
 
 @end

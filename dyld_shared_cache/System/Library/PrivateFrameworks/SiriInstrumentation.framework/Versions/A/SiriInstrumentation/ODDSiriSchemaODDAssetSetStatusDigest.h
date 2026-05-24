@@ -6,20 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssetSetStatusDimensions;
+@class ODDSiriSchemaODDAssetSetStatusDimensions;
 
 @interface ODDSiriSchemaODDAssetSetStatusDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssetSetStatusDimensions *_dimensions;
-    _Bool _hasDimensions;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)P;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -29,13 +28,11 @@
 × ;
 - (id)sDeleted;
 - (id)omeAutomationRequestMetadata;
-- (id)ER_PEER;
-- (void)OUNTRYCODE_UM;
+- (id)NETPROVIDER_PEER;
+- (void)ISOCOUNTRYCODE_UM;
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAssetSetStatusDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

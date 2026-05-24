@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, LPLinkMetadata, NSString, NSURL;
+@class LPLinkMetadata, NSString;
 
 @interface LPLinkMetadataPreviewTransformer
 {
     LPLinkMetadata *_metadata;
-    NSURL *_URL;
 }
 
-- (id);
+- (id)supportsSharedWithYou;
 - (id);
 - (id);
 - (id);
@@ -22,11 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) NSString *hostForPreviewSummary;
-@property(readonly, copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, retain, nonatomic) LPImage *previewImage;
-@property(readonly, copy, nonatomic) NSString *previewSummary;
 
 @end
 

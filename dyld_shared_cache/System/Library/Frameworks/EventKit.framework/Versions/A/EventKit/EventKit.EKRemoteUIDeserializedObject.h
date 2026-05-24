@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKObject, NSDictionary;
+@class EKObject;
 
 @interface EventKit.EKRemoteUIDeserializedObject
 {
     EKObject *deserializedObject;
-    void tempObjectIDMap;
 }
 
-- (id);
-- (id);
+- (id)ePlaybackQueueForOffset(NSRange, __strong MRPlaybackQueueDataSourceCreateContentItemCallback);
+- (id)nficant change;
 - (id);
 - (void)#Ð!ðEùÑ2'ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic, readonly) EKObject *deserializedObject; // @synthesize deserializedObject;
-@property(nonatomic, readonly) NSDictionary *tempObjectIDMap;
 
 @end
 

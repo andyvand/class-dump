@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol CATAssertionProviding, CATIDSServiceConnectionInvitationInboxDelegate, CATTimerSource, OS_dispatch_queue;
+@protocol CATIDSServiceConnectionInvitationInboxDelegate, CATTimerSource;
 
 __attribute__((visibility("hidden")))
 @interface CATIDSServiceConnectionInvitationInbox
 {
     id <CATTimerSource> mTimerSource;
-    id <CATAssertionProviding> mAssertionProvider;
-    NSObject<OS_dispatch_queue> *mWorkQueue;
-    double mAcknowledgeTimeout;
-    NSMutableDictionary *mInvitationsByInvitationID;
-    NSMutableDictionary *mAcknowledgeTimersByInvitationID;
-    id <CATIDSServiceConnectionInvitationInboxDelegate> _delegate;
 }
 
 + (id);

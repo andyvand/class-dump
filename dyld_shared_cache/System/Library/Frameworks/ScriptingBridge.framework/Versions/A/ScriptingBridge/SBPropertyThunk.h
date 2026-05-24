@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface SBPropertyThunk : SBThunk
 {
     unsigned int _code;
-    unsigned int _ae_type;
-    _Bool _is_value;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)=;
 - (unsigned int);
 - (_Bool);
 - (unsigned int);

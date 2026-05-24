@@ -13,14 +13,14 @@
 
 - (id);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)6hP;
 - (void);
+- (id)tarted less than an hour before end date, not performing further movement based changes on end date;
 - (id);
-- (id);
-- (id)ren:(struct _NSZone *)arg1 atStartLevel:expandChildren:andInvalidate: /* Error: Ran out of types for this method. */;
+- (id)_expandItemEntryChildren:(struct _NSZone *)arg1 atStartLevel:expandChildren:andInvalidate: /* Error: Ran out of types for this method. */;
 - (_Bool)d¡;
 - (_Bool);
-- (struct CGImage *)LocalUserKEsDidChange;
+- (struct CGImage *)NSMenuLocalUserKEsDidChange;
 
 // Remaining properties
 @property(readonly) struct CGImage *CGImage;

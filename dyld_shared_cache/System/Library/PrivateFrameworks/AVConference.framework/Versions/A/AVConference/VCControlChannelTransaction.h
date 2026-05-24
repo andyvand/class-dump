@@ -6,20 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSNumber;
-@protocol VCControlChannelTransactionDelegate;
-
 __attribute__((visibility("hidden")))
 @interface VCControlChannelTransaction : VCObject
 {
     unsigned int _sessionID;
-    NSNumber *_participantID;
-    unsigned long long _transactionID;
-    struct _opaque_pthread_mutex_t _transactionLock;
-    struct _opaque_pthread_cond_t _transactionDone;
-    _Bool _isConfirmed;
-    _Bool _isFlushed;
-    id <VCControlChannelTransactionDelegate> _weakTransactionDelegate;
 }
 
 + (_Bool);

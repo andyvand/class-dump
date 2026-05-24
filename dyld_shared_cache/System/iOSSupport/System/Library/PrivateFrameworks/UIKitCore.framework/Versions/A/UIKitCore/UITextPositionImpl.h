@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     WebVisiblePosition *_webVisiblePosition;
 }
 
-+ (id);
++ (id)s than its iMessage sibling. Chat:(id)arg1 %@. Updating participants using %@;
+- (id)repairOffGridStatusWithHandleID:fromHandleID:completion: /* Error: Ran out of types for this method. */;
+- (void)canHandleNotificationResponse:(id)arg1 userNotificationCenter: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (_Bool)w:(id)arg1;
+- (_Bool)setAllowsNonOpaqueShadow:(id)arg1;
 - (void)%a;
 
 // Remaining properties

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioNode, AVAudioPlayerNode, SCNAudioSource;
+@class AVAudioNode;
 
 @interface SCNAudioPlayer
 {
     AVAudioNode *_audioNode;
-    AVAudioPlayerNode *_audioPlayer;
-    SCNAudioSource *_audioSource;
-    struct __C3DNode *_nodeRef;
-    struct __C3DScene *_scene;
-    _Bool _customAudioNode;
-    _Bool _completed;
-    _Bool _shouldRecycle;
-    CDUnknownBlockType willStartPlayback;
-    CDUnknownBlockType didFinishPlayback;
 }
 
 + (id);
@@ -41,18 +32,11 @@
 - (void);
 - (void);
 - (struct __C3DScene *);
-- (_Bool)commandBuffer: /* Error: Ran out of types for this method. */;
-- (id)extureMatrix;
+- (_Bool)sphericalHarmonicsForEnvironmentTexture:order:commandBuffer: /* Error: Ran out of types for this method. */;
+- (id)u_reflectiveTextureMatrix;
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioNode *audioNode; // @synthesize audioNode=_audioNode;
-@property(readonly) AVAudioPlayerNode *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
-@property(readonly, nonatomic) SCNAudioSource *audioSource; // @synthesize audioSource=_audioSource;
-@property _Bool completed; // @synthesize completed=_completed;
-@property(readonly) _Bool customAudioNode; // @synthesize customAudioNode=_customAudioNode;
-@property(copy, nonatomic) CDUnknownBlockType didFinishPlayback; // @synthesize didFinishPlayback;
 @property(readonly) struct __C3DScene *scene; // @synthesize scene=_scene;
-@property(copy, nonatomic) CDUnknownBlockType willStartPlayback; // @synthesize willStartPlayback;
 
 @end
 

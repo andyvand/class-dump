@@ -7,27 +7,21 @@
 @class NSArray, UIView;
 
 @protocol UIInputViewSetPlacementApplicator
+- (void);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)L&X(;
 - (NSArray *)ð!ÜAù1\1Â0@ù
 × ;
-- (_Bool);
-- (void)emoval;
-- (void)rToPopToForNavigationItem:(_Bool)arg1;
-- (UIView *)tatisticsForUserInteractionDuration;
+- (void)_gestureRecognizersNeedingRemoval;
+- (void)_findViewControllerToPopToForNavigationItem:(_Bool)arg1;
+- (UIView *)_distributionStatisticsForUserInteractionDuration;
 - (_Bool)wHierarchy,V_sourceViewIsInViewHierarchy;
 - (struct CGPoint)micShadow;
 - (UIView *)ntsEdgeAttachedInCompactHeight;
-- (void)xpectedResult;
+- (void)_expectedResult;
 - (UIView *)ted %@;
 
 // Remaining properties
-@property(readonly) UIView *backdropContainer;
-@property(readonly) NSArray *constraints;
-@property(readonly) struct UIEdgeInsets contentInsets;
-@property(readonly) UIView *draggableView;
-@property(readonly) struct UIEdgeInsets inputAccessoryPadding;
-@property(readonly) struct UIEdgeInsets inputAssistantPadding;
 @property(readonly) struct CGPoint origin;
-@property(readonly) struct CGRect popoverFrame;
-@property(readonly) UIView *twoFingerDraggableView;
 @end
 

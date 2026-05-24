@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFAppColor
+- (NSString *)_validateSpotlightAvailabilityInFeatureAvailability:forFeature:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSData *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

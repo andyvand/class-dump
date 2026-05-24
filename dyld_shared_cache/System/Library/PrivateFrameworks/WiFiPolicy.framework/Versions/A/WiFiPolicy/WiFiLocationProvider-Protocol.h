@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation;
-
 @protocol WiFiLocationProvider
 - (_Bool)¥Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CLLocation *currentLocation;
 @property(readonly, nonatomic) _Bool isAuthorized;
-@property(copy, nonatomic) CDUnknownBlockType locationChangedCallback;
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     QLDiskCache *_diskCache;
 }
 
-+ (_Bool);
++ (_Bool);
 + (double);
 - (id);
 - (void);

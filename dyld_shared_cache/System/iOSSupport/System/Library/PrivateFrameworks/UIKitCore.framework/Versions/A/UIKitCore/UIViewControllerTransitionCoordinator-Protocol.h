@@ -5,7 +5,7 @@
 //
 
 @protocol UIViewControllerTransitionCoordinator
-- (_Bool)IsDown;
+- (_Bool)_prefersScrollingResizesWhenDetentDirectionIsDown;
 - (_Bool)Ôþÿ;
 - (void)yÚÒ¾7G;
 - (void)13\o;

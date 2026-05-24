@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSTimer;
+@class NSImage;
 
 @interface LUIProgressBar
 {
     NSImage *_emptyLeftCap;
-    NSImage *_emptyMiddle;
-    NSImage *_emptyRightCap;
-    NSImage *_fullLeftCap;
-    NSImage *_fullMiddle;
-    NSImage *_fullRightCap;
-    NSTimer *_updateTimer;
-    float _value;
-    float _minValue;
-    float _maxValue;
-    float _currentValue;
-    float _step;
-    int _progressBarStyle;
-    _Bool _drawsBackground;
-    _Bool _animates;
-    CDUnknownBlockType _animationCompleteBlock;
-    NSDate *_endDate;
 }
 
 - (void);
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)Y;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (void)H<`<;
 - (void);
 - (void);
+- (struct CGSize)CloudKitFetchAllRecords;
+- (float)a"8@"NSError"16;
+- (id);
 - (void);
-- (struct CGSize);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (float);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (float);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)backButton;
-- (float);
+- (void)_backButton;
+- (float)_client;
 
 // Remaining properties
 @property(readonly, getter=isIndeterminate) _Bool indeterminate;

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatAuxiliaryBindingsNode
 {
     id _identifier;
-    id _children;
-    id _selectors;
-    id _options;
-    id _throws;
 }
 
 @end

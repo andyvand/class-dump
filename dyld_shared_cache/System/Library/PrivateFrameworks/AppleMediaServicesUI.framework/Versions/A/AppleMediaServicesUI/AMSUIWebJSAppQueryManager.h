@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
 @protocol AMSUIWebJSAppQueryManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebJSAppQueryManager
 {
     id <AMSUIWebJSAppQueryManagerDelegate> _delegate;
-    NSMutableDictionary *_observingQueries;
 }
 
+- (void)) with error:(id)arg1 %{public}@;
+- (void)wnload for assertions (%{public}@) with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)asset selector:(id)arg1 %{public}@ due to error:(_Bool)arg2 %{public}@;
+- (id)key %{public}@;
+- (id)EnableLinguisticDataAutoAsset;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)ing"32@0:8@"CRCameraReader"16@"CRCameraReaderOutput"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <AMSUIWebJSAppQueryManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableDictionary *observingQueries; // @synthesize observingQueries=_observingQueries;
-@property(readonly) Class superclass;
 
 @end
 

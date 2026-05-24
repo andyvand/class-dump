@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCVideoHardwareDumpWriter
 {
     void *_dumpFile;
-    struct __CFSet *_sources;
-    struct os_unfair_lock_s _registrationLock;
 }
 
 + (id):demote:connectionPriority:replaceOnly:] /* Error: Ran out of types for this method. */;

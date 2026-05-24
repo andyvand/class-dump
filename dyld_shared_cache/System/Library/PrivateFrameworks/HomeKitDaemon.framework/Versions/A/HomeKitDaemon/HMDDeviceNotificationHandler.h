@@ -4,73 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, HMFTimer, NSMutableOrderedSet, NSObject, NSString;
-@protocol HMDDeviceNotificationHandlerDataSource, OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceNotificationHandler
 {
     _Bool _delaySupported;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_destination;
-    HMFTimer *_coalesceTimer;
-    HMFTimer *_delayTimer;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDDeviceNotificationHandlerDataSource> _dataSource;
-    NSMutableOrderedSet *_deviceNotificationsByRequestIDs;
 }
 
 + (id)o­;
+- (void)MSPMapsInstallState;
+- (void)MSPMutableHistoryEntryPlaceDisplay;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Service] Token invalidated, will purge;
+- (void)rvice] Found %lu handles are now blocked, will stop sharing;
+- (void)if we need to stop any sharing...;
+- (void)e error %@;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
+- (void)`
+;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id)utTeethMask;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)(;
+- (id);
 - (id)
 × ;
 - (id)1°1Â0@ù
 × ;
-- (void)ResidentSelectionPrimaryResidentChangedLogEvent;
+- (void)HMDResidentSelectionPrimaryResidentChangedLogEvent;
 - (void)icy parameters on connection:(id)arg1 %@;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) HMFTimer *coalesceTimer; // @synthesize coalesceTimer=_coalesceTimer;
-@property(readonly, nonatomic) id <HMDDeviceNotificationHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool delaySupported; // @synthesize delaySupported=_delaySupported;
-@property(retain, nonatomic) HMFTimer *delayTimer; // @synthesize delayTimer=_delayTimer;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(retain) NSMutableOrderedSet *deviceNotificationsByRequestIDs; // @synthesize deviceNotificationsByRequestIDs=_deviceNotificationsByRequestIDs;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

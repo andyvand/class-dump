@@ -4,47 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMappingModel, NSMutableArray, NSMutableDictionary, NSSQLCore, NSSQLModel, NSSQLiteAdapter, NSSQLiteConnection, NSString;
+@class NSSQLCore, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSSQLiteStoreMigrator
 {
     NSSQLCore *_store;
-    NSSQLModel *_dstModel;
-    NSSQLModel *_srcModel;
-    NSSQLiteAdapter *_adapter;
-    NSMappingModel *_mappingModel;
-    NSSQLiteConnection *_connection;
-    NSArray *_tableGenerationSQL;
-    NSArray *_existingTableNames;
-    NSMutableDictionary *_reindexedEntities;
-    NSMutableDictionary *_reindexedPropertiesByEntity;
-    NSMutableDictionary *_sourceToDestinationEntityMap;
-    NSMutableDictionary *_addedEntityMigrations;
-    NSMutableDictionary *_removedEntityMigrations;
-    NSMutableDictionary *_transformedEntityMigrations;
-    NSMutableDictionary *_copiedEntityMigrations;
-    NSMutableDictionary *_tableMigrationDescriptionsByEntity;
-    _Bool _hasPKTableChanges;
-    NSMutableArray *_pkTableUpdateStatements;
-    NSMutableDictionary *_attributeExtensionsToUpdate;
-    NSMutableArray *_indexesToCreate;
-    NSMutableArray *_indexesToDrop;
-    NSMutableArray *_defaultValueStatements;
-    NSMutableArray *_derivationsToDrop;
-    NSMutableArray *_derivationsToRun;
-    NSMutableDictionary *_historyMigrationPropertyDataForEntityCache;
-    NSMutableArray *_cloudKitUpdateStatements;
-    _Bool _hasCloudKitTables;
-    _Bool _hasDeferredLightweightMigration;
-    _Bool _forcedMigration;
-    NSString *_destinationConfigurationForCloudKitValidation;
-    NSString *_stageLabel;
 }
 
 + (_Bool);
 + (void);
-- (void);
+- (void)GR;
 - (id);
 - (void);
 

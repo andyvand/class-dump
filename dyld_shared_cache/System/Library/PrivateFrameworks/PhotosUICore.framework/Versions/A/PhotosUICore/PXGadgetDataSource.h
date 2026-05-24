@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PXGadgetDataSource
 {
@@ -16,7 +16,7 @@
 - (struct PXSimpleIndexPath);
 - (struct PXSimpleIndexPath);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -36,8 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *gadgetSections; // @synthesize gadgetSections=_gadgetSections;
-@property(readonly, nonatomic) _Bool hasNoContentGadget;
-@property(readonly, nonatomic) NSString *publiclySafeDescription;
 
 @end
 

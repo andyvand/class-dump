@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface searchToolL2_MobileSMSOutput
 {
     long long _label;
-    NSDictionary *_prob;
 }
 
 - (void);
@@ -20,13 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)0@ù
 × ;
-- (void)tchOnlyTopHitExcludedQuery;
-- (id)temPhotosEventNames_strong;
+- (void)isAltNamePrefixMatchOnlyTopHitExcludedQuery;
+- (id)kMDItemPhotosEventNames_strong;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long label; // @synthesize label=_label;
-@property(retain, nonatomic) NSDictionary *prob; // @synthesize prob=_prob;
 
 @end
 

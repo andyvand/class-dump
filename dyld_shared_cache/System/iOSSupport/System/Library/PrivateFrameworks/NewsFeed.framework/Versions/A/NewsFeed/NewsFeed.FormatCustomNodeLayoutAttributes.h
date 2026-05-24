@@ -7,15 +7,6 @@
 @interface NewsFeed.FormatCustomNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id style;
-    id auxViewRequirements;
 }
 
 @end

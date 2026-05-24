@@ -5,5 +5,6 @@
 //
 
 @protocol MSPContainerCoalescingToken
+- (void);
 @end
 

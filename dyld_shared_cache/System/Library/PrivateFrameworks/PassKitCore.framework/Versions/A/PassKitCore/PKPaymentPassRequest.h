@@ -11,20 +11,18 @@
 @interface PKPaymentPassRequest : PKPaymentWebServiceRequest
 {
     NSString *_passTypeID;
-    NSString *_serialNumber;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ssSource;
+- (id)_recipientAddressSource;
 - (void)"NSDateComponents",C,N,V_shinkansenSecondaryDepartureTime;
 - (void)ore;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *passTypeID; // @synthesize passTypeID=_passTypeID;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

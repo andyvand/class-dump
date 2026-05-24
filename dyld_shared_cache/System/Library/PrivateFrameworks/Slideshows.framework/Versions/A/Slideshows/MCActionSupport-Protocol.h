@@ -7,9 +7,13 @@
 @class NSDictionary;
 
 @protocol MCActionSupport
+- (void)initWithName:(NSDictionary *)arg1 directory:version:options:classRegistry: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)initWithAppConfigurationManager:telemetryUploader:storeDirectoryFileURL:URLSessionQueue: /* Error: Ran out of types for this method. */;
+- (unsigned long long)languageCode;
+- (void)> * _Nonnull NDAnalyticsEnvelopeStoreEntriesFromStringRepresentations(NSArray<NSString *> *__strong _Nonnull);
+- (void);
 
 // Remaining properties
 @property(readonly) NSDictionary *actions;
-@property(readonly, nonatomic) unsigned long long countOfActions;
 @end
 

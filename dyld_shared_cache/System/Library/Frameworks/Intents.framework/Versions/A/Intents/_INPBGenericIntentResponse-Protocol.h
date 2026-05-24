@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBGenericIntentResponse
-- (_Bool)coredAlternatives;
+- (_INPBIntentMetadata *)__knownNetworkProfiles;
+- (void);
+- (_Bool)_scoredAlternatives;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *metadata;
-@property(copy, nonatomic) NSArray *properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
 @end
 

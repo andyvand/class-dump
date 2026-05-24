@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLNumericConstraint, MLParameterKey;
+@class MLParameterKey;
 
 @interface MLParameterDescription
 {
     MLParameterKey *_key;
-    id _defaultValue;
-    MLNumericConstraint *_numericConstraint;
 }
 
 + (id);
@@ -19,10 +17,10 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)PatchIDArg;
+- (id)ce.;
 - (id);
-- (id);
-- (id);
+- (id)om.apple.xbs/TemporaryDirectory.V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/video/decode_synchronizer.cc;
 - (id);
 - (void);
 - (void)´<°k;
@@ -31,9 +29,7 @@
 - (void)tã;
 
 // Remaining properties
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(retain, nonatomic) MLParameterKey *key; // @synthesize key=_key;
-@property(retain, nonatomic) MLNumericConstraint *numericConstraint; // @synthesize numericConstraint=_numericConstraint;
 
 @end
 

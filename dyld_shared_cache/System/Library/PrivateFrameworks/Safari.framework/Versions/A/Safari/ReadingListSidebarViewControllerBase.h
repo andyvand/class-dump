@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, NSString, ReadingListTableViewController;
+@class ReadingListTableViewController;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListSidebarViewControllerBase
 {
     ReadingListTableViewController *_tableViewController;
-    BrowserWindowController *_windowController;
 }
 
 - (void);
@@ -20,23 +19,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
 - (void)8;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canSelectAnyReadingListItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ReadingListTableViewController *tableViewController; // @synthesize tableViewController=_tableViewController;
-@property(nonatomic) __weak BrowserWindowController *windowController; // @synthesize windowController=_windowController;
 
 @end
 

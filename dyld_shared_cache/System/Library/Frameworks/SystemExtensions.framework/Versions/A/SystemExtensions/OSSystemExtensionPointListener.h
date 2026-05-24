@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListener;
-@protocol OSSystemExtensionPointListenerDelegate;
+@class NSXPCListener;
 
 @interface OSSystemExtensionPointListener
 {
     struct os_unfair_lock_s lock;
-    id <OSSystemExtensionPointListenerDelegate> _delegate;
-    NSXPCListener *_listener;
-    NSXPCConnection *_currentConnection;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)rResourceTransferSender open() failed;
+- (void)ble to open file for read (errno %d);
+- (void)e %@;
+- (void)ocketPairResourceTransferSender:(id)arg1 read all %llu bytes from file %@;
+- (void)rResourceTransferSender:(id)arg1 malloc failed for %llu;
+- (void)expiryDate:(id)arg1 %@;
+- (void)tes %@;
+- (void)ssage %@ (size:(id)arg1 %lu) to file %@;
+- (id)DhV4TOzEpeqeU/Library/Caches/com.apple.xbs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDSFoundation/IDSSocketPairMessage.m;
+- (void)ta of %u length (have %u pieces, %u expected);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)addTripSegmentDataWithIdentifier:(id)arg1 dateInterval:tripDistance:tripDistanceUncertainty:modeOfTransportation:locations:roads:isEndOfSegment:originLocation:destinationLocation:tripSegSequenceNumber:tripSegSequenceNumberMax:tripCommuteID:handler: /* Error: Ran out of types for this method. */;
+- (void)locationsProcessed, %u, maxIntervalBetweenLocations, %.2f, new visits, %lu, places from visits, %lu, visitCountDevice, %lu, visitCountTotal, %lu, placeCountDevice, %lu, placeCountTotal, %lu, mode, %lu, reason, %lu;
+- (void)ngerprints, %@;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *currentConnection; // @synthesize currentConnection=_currentConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <OSSystemExtensionPointListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

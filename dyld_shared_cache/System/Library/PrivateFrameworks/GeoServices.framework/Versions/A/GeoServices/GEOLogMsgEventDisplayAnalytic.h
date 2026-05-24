@@ -9,27 +9,9 @@
 @interface GEOLogMsgEventDisplayAnalytic
 {
     PBUnknownFields *_unknownFields;
-    double _meanImageSpacing;
-    int _displayActionTrigger;
-    int _displayEvent;
-    unsigned int _movementDistance;
-    unsigned int _renderedImageCount;
-    unsigned int _requestedImageCount;
-    unsigned int _requiredResourcesAvailable;
-    unsigned int _totalTime;
-    struct {
-        unsigned int has_meanImageSpacing:1;
-        unsigned int has_displayActionTrigger:1;
-        unsigned int has_displayEvent:1;
-        unsigned int has_movementDistance:1;
-        unsigned int has_renderedImageCount:1;
-        unsigned int has_requestedImageCount:1;
-        unsigned int has_requiredResourcesAvailable:1;
-        unsigned int has_totalTime:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasSource:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -44,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -55,28 +37,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
-- (id);
-- (int);
+- (id)removeObject:(int)arg1;
+- (int)removeMailtoPrefix;
+- (id)removeEncryptionKeyWithLabel:(int)arg1;
+- (int)removeDelayedBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (int);
-- (int);
+- (int)%{private}s;
+- (int).reactive.combine-latest.results;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)MessageTypePortReset requires a U0 link state.;
 - (_Bool);
 - (void);
-- (id)ytics:(struct _NSZone *)arg1;
-- (id)tStyle: /* Error: Ran out of types for this method. */;
+- (id)setServerLegIDForAnalytics:(struct _NSZone *)arg1;
+- (id)addFormatStyle: /* Error: Ran out of types for this method. */;
 - (id)otification.;
 - (id);
 - (unsigned int)BAÂhV¶¥N@;
@@ -84,23 +66,7 @@
 - (void)ãC4;
 
 // Remaining properties
-@property(nonatomic) int displayActionTrigger;
-@property(nonatomic) int displayEvent;
 @property(nonatomic) _Bool hasDisplayActionTrigger;
-@property(nonatomic) _Bool hasDisplayEvent;
-@property(nonatomic) _Bool hasMeanImageSpacing;
-@property(nonatomic) _Bool hasMovementDistance;
-@property(nonatomic) _Bool hasRenderedImageCount;
-@property(nonatomic) _Bool hasRequestedImageCount;
-@property(nonatomic) _Bool hasRequiredResourcesAvailable;
-@property(nonatomic) _Bool hasTotalTime;
-@property(nonatomic) double meanImageSpacing;
-@property(nonatomic) unsigned int movementDistance;
-@property(nonatomic) unsigned int renderedImageCount;
-@property(nonatomic) unsigned int requestedImageCount;
-@property(nonatomic) unsigned int requiredResourcesAvailable;
-@property(nonatomic) unsigned int totalTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

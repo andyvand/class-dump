@@ -10,26 +10,22 @@ __attribute__((visibility("hidden")))
 @interface CPKWindowMorphAnimation
 {
     struct CGRect _startWindowFrame;
-    struct CGRect _endWindowFrame;
-    NSWindow *_startWindow;
-    NSWindow *_endWindow;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) NSWindow *endWindow; // @synthesize endWindow=_endWindow;
 @property(nonatomic) NSWindow *startWindow; // @synthesize startWindow=_startWindow;
 
 @end

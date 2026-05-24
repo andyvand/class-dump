@@ -4,18 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PGDejunkerDeduperOptions;
+@class NSArray, NSDictionary, NSString, PGCurationOptions, PGDejunkerDeduperOptions, PGHighlightTailorHighlightInfo, PHAsset;
 
 @protocol PGEnrichmentProfile
+- (NSArray *);
+- (PHAsset *);
+- (NSArray *)selectionEndLineIndex;
+- (PGDejunkerDeduperOptions *)selectable;
+- (unsigned short)initWithCapacity:(PGHighlightTailorHighlightInfo *)arg1;
+- (NSDictionary *)applicationControllerForProcessSerialNumber: /* Error: Ran out of types for this method. */;
+- (PGCurationOptions *)accessibilitySharedCharacterRange;
+- (_Bool)_readableContentOfElement:topLevelElement: /* Error: Ran out of types for this method. */;
+- (_Bool)_inlineSessionEnded:(PGHighlightTailorHighlightInfo *)arg1;
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic) _Bool collectsDebugInfo;
-@property(readonly, nonatomic) NSDictionary *debugInfos;
-@property(retain, nonatomic) PGDejunkerDeduperOptions *extendedCurationOptions;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) unsigned short targetEnrichmentState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,R,N
-
 @end
 

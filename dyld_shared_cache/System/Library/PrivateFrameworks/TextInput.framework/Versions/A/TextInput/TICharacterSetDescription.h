@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSString;
+@class NSCharacterSet;
 
 @interface TICharacterSetDescription
 {
     NSCharacterSet *_characterSet;
-    _Bool _inverted;
-    long long _baseIdentifier;
-    NSString *_charactersAddedToBase;
-    NSString *_charactersRemovedFromBase;
 }
 
-- (id);
+- (id)shouldLenientlyMatchWithContentItemsForRegion: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (long long);
+- (long long);
 - (id);
-- (id);
+- (id)photoLibraryIdentifierWithPhotoLibraryURL:createIfMissing:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -52,10 +48,6 @@ B
 
 // Remaining properties
 @property(readonly, nonatomic) long long baseIdentifier; // @synthesize baseIdentifier=_baseIdentifier;
-@property(readonly, nonatomic) NSCharacterSet *characterSet;
-@property(copy, nonatomic) NSString *charactersAddedToBase; // @synthesize charactersAddedToBase=_charactersAddedToBase;
-@property(copy, nonatomic) NSString *charactersRemovedFromBase; // @synthesize charactersRemovedFromBase=_charactersRemovedFromBase;
-@property(readonly, nonatomic) _Bool inverted; // @synthesize inverted=_inverted;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChatTranscriptLayoutSpecification, NSArray, NSMutableArray;
-@protocol IMChatTranscriptLayoutEngineDataSource;
+@class NSMutableArray;
 
 @interface IMChatTranscriptLayoutEngine
 {
     NSMutableArray *_cachedDrawables;
-    id <IMChatTranscriptLayoutEngineDataSource> _dataSource;
-    IMChatTranscriptLayoutSpecification *_layoutSpecification;
-    NSArray *_layoutAttributes;
-    struct CGSize _contentSize;
 }
 
 - (void);
@@ -26,29 +21,26 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)?;
 - (void);
 - (void);
 - (struct CGSize);
 - (id)
 × ;
-- (void)cel;
+- (void)cancel;
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(nonatomic) __weak id <IMChatTranscriptLayoutEngineDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(copy, nonatomic) NSArray *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(retain, nonatomic) IMChatTranscriptLayoutSpecification *layoutSpecification; // @synthesize layoutSpecification=_layoutSpecification;
 
 @end
 

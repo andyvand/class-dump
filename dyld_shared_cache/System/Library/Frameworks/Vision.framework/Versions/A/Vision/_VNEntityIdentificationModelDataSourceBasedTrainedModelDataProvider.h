@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VNEntityIdentificationModel;
-@protocol VNEntityIdentificationModelDataSource;
+@class VNEntityIdentificationModel;
 
 __attribute__((visibility("hidden")))
 @interface _VNEntityIdentificationModelDataSourceBasedTrainedModelDataProvider
 {
     VNEntityIdentificationModel *_entityIdentificationModel;
-    id <VNEntityIdentificationModelDataSource> _dataSource;
 }
 
+- (id)9
+;
 - (id);
-- (id);
+- (unsigned long long)h
+;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)Group when processing %lu anod tiles. currentDetector:%@; group:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

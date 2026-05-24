@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraMetricsMilestone
 {
     NSString *_key;
-    long long _timestamp;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSString *key; // @synthesize key=_key;
-@property(readonly) long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

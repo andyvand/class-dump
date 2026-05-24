@@ -9,8 +9,6 @@
 @interface RPNearbyInvitationDevice : RPEndpoint
 {
     unsigned char _deviceColor;
-    _Bool _inBubble;
-    _Bool _wasTriggered;
 }
 
 + (_Bool);
@@ -22,15 +20,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)tate;
+- (id)Trailing whitespace not allowd in rspecifier (found ";
 - (void);
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char deviceColor; // @synthesize deviceColor=_deviceColor;
 @property(nonatomic) _Bool inBubble; // @synthesize inBubble=_inBubble;
-@property(nonatomic) _Bool wasTriggered; // @synthesize wasTriggered=_wasTriggered;
 
 @end
 

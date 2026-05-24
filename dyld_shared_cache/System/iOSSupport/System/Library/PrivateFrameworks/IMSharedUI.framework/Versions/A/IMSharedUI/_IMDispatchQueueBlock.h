@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _IMDispatchQueueBlock
 {
     CDUnknownBlockType _block;
-    NSString *_key;
-    long long _priority;
-    unsigned long long _fifo;
 }
 
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)n;
+- (void)xtractor<WTF:(long long)arg1:KeyValuePair<WebKit::NetworkCache::Key, std::unique_ptr<WebKit::NetworkCache::SpeculativeLoadManager::ExpiringEntry>>>, HashFunctions = WTF::DefaultHash<WebKit::NetworkCache::Key>, Traits = WTF::HashMap<WebKit::NetworkCache::Key, std::unique_ptr<WebKit::NetworkCache::SpeculativeLoadManager::ExpiringEntry>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebKit::NetworkCache::Key>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (long long);
+- (long long)t;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic, setter=setFIFO:) unsigned long long fifo; // @synthesize fifo=_fifo;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end
 

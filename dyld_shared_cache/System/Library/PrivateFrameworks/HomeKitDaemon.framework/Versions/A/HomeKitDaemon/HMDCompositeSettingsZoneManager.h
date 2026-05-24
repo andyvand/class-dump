@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, NAFuture, NSObject, NSString;
-@protocol HMDDatabase, OS_dispatch_queue;
+@protocol HMDDatabase;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsZoneManager
 {
     _Bool _createZoneIfNotExist;
-    id <HMDDatabase> _database;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMBLocalZone *_localZone;
-    HMBCloudZone *_cloudZone;
-    NSString *_zoneName;
-    NAFuture *_configurationFuture;
 }
 
 + (id)|tÿA6
@@ -41,21 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly) NAFuture *configurationFuture; // @synthesize configurationFuture=_configurationFuture;
-@property(readonly, getter=isConfigured) _Bool configured;
-@property(readonly) _Bool createZoneIfNotExist; // @synthesize createZoneIfNotExist=_createZoneIfNotExist;
 @property(readonly) id <HMDDatabase> database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, copy) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

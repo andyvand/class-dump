@@ -9,37 +9,35 @@
 @interface GEOIncidentOnRouteInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_indexAndOffsets;
 }
 
 + (Class);
-+ (_Bool)teResumed:(id)arg1;
++ (_Bool)setHasRouteResumed:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)defaultWatchdog;
+- (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)es";
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)DetectedLocationTimestamp:(struct _NSZone *)arg1;
-- (id)LPRUser;
+- (id)setLastDetectedLocationTimestamp:(struct _NSZone *)arg1;
+- (id)GEOLPRUser;
 - (id)"%@";
 - (id)´;
 - (void)¢ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *indexAndOffsets;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

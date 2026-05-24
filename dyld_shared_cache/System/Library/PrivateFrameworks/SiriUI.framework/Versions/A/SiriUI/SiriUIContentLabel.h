@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont;
-
 @interface SiriUIContentLabel
 {
     _Bool _willAppearDirectlyOverUltraDarkBackground;
-    NSFont *_superScriptFont;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,8 +24,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)setCollectionViewLayout:animated: /* Error: Ran out of types for this method. */;
+- (id)H;
 - (void);
 - (void);
 - (id);
@@ -37,7 +34,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSFont *superScriptFont; // @synthesize superScriptFont=_superScriptFont;
 @property(nonatomic) _Bool willAppearDirectlyOverUltraDarkBackground; // @synthesize willAppearDirectlyOverUltraDarkBackground=_willAppearDirectlyOverUltraDarkBackground;
 
 @end

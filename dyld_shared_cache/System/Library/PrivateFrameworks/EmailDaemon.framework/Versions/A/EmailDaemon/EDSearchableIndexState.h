@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSSet, _EDSearchableIndexPendingRemovals;
+@class NSMutableSet;
 
 @interface EDSearchableIndexState
 {
     NSMutableSet *_removedIdentifiers;
-    NSMutableArray *_preparingItems;
-    NSMutableArray *_pendingItems;
-    NSMutableArray *_preprocessingItems;
-    NSMutableArray *_processingItems;
-    NSMutableSet *_pendingDomainRemovals;
-    _Bool _isActive;
-    _Bool _needsRefresh;
-    _Bool _coalesceTimerFired;
-    _Bool _scheduledProcessing;
-    _Bool _scheduledRefresh;
-    _Bool _indexImmediately;
-    _Bool _persistenceAvailable;
-    long long _resumeCount;
-    _EDSearchableIndexPendingRemovals *_pendingIdentifierRemovals;
 }
 
 - (void);
@@ -39,7 +25,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -50,7 +36,7 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (void);
@@ -63,7 +49,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)_TtC12SiriOntology35UsoTask_update_common_CalendarEvent;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -72,26 +58,7 @@
 - (void)dD;
 
 // Remaining properties
-@property(nonatomic) _Bool coalesceTimerFired; // @synthesize coalesceTimerFired=_coalesceTimerFired;
-@property(readonly, nonatomic) unsigned long long countOfItemsInPendingQueues;
-@property(nonatomic) _Bool indexImmediately; // @synthesize indexImmediately=_indexImmediately;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) _Bool needsImmediateProcessing;
-@property(nonatomic) _Bool needsRefresh; // @synthesize needsRefresh=_needsRefresh;
-@property(readonly, nonatomic) _Bool needsToScheduleRefresh;
-@property(readonly, copy, nonatomic) NSSet *pendingDomainRemovals; // @synthesize pendingDomainRemovals=_pendingDomainRemovals;
-@property(retain, nonatomic) _EDSearchableIndexPendingRemovals *pendingIdentifierRemovals; // @synthesize pendingIdentifierRemovals=_pendingIdentifierRemovals;
-@property(readonly, copy, nonatomic) NSArray *pendingIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *pendingItems; // @synthesize pendingItems=_pendingItems;
-@property _Bool persistenceAvailable; // @synthesize persistenceAvailable=_persistenceAvailable;
-@property(readonly, copy, nonatomic) NSArray *preparingItems; // @synthesize preparingItems=_preparingItems;
-@property(readonly, copy, nonatomic) NSArray *preprocessingItems; // @synthesize preprocessingItems=_preprocessingItems;
-@property(readonly, copy, nonatomic) NSArray *processingItems; // @synthesize processingItems=_processingItems;
-@property(readonly, nonatomic) _Bool queueContentsAllowsRefresh;
-@property(readonly, copy, nonatomic) NSSet *removedIdentifiers; // @synthesize removedIdentifiers=_removedIdentifiers;
 @property(nonatomic) long long resumeCount; // @synthesize resumeCount=_resumeCount;
-@property(nonatomic) _Bool scheduledProcessing; // @synthesize scheduledProcessing=_scheduledProcessing;
-@property(nonatomic) _Bool scheduledRefresh; // @synthesize scheduledRefresh=_scheduledRefresh;
 
 @end
 

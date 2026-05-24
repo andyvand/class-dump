@@ -5,5 +5,7 @@
 //
 
 @protocol ISyncServerUIHandling
+- (bycopy int);
+- (oneway void)`;
 @end
 

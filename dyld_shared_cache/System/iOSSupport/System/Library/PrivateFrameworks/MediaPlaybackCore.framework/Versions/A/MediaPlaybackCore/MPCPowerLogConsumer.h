@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MPCPlaybackEngineEventStreamSubscription;
 
 __attribute__((visibility("hidden")))
 @interface MPCPowerLogConsumer
 {
     _Bool _lastVocalAttenuationIsActive;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
 }
 
 + (unsigned int);
 + (id);
-- (void);
-- (void);
+- (void)"ACAccount"16@"ACDAccountStore"24^@32;
+- (void)class;
 - (void);
 - (void);
 - (void);
@@ -27,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)ic}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool lastVocalAttenuationIsActive; // @synthesize lastVocalAttenuationIsActive=_lastVocalAttenuationIsActive;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

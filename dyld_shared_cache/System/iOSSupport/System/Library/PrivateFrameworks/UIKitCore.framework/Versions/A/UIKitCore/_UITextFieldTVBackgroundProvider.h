@@ -6,8 +6,6 @@
 
 #import <UIKitCore/_UITextFieldViewBackgroundProvider.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITextFieldTVBackgroundProvider : _UITextFieldViewBackgroundProvider
 {
@@ -22,15 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double naturalHeight;
-@property(readonly, nonatomic) _Bool shouldExtendCaretHeight;
-@property(readonly) Class superclass;
 
 @end
 

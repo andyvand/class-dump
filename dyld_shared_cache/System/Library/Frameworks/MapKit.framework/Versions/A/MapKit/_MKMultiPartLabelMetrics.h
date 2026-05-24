@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSMutableAttributedString;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface _MKMultiPartLabelMetrics
 {
     NSAttributedString *_originalAttributedString;
-    NSArray *_separators;
-    NSArray *_components;
-    NSMutableAttributedString *_attributedString;
-    unsigned long long _currentSeparatorIndex;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)xpcMessage;
+- (id)ntifier=%@ and intervals=%@;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)(;
+- (_Bool)3;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)letion: /* Error: Ran out of types for this method. */;
+- (void)setMapRegion:pitch:yaw:duration:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(nonatomic) unsigned long long currentSeparatorIndex; // @synthesize currentSeparatorIndex=_currentSeparatorIndex;
 @property(readonly, copy, nonatomic) NSAttributedString *originalAttributedString; // @synthesize originalAttributedString=_originalAttributedString;
-@property(readonly, copy, nonatomic) NSArray *separators; // @synthesize separators=_separators;
 
 @end
 

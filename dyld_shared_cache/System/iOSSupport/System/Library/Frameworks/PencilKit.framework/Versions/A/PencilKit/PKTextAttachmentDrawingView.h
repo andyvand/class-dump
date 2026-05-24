@@ -6,35 +6,11 @@
 
 #import <PencilKit/_UITextAttachmentDrawingView.h>
 
-@class NSString, NSTextAttachment, PKLinedPaperLayer, PKTextAttachmentDrawingViewTouchRecognizer, PKTextAttachmentResizeView, UILongPressGestureRecognizer, UIPanGestureRecognizer, UIScrollView, UITapGestureRecognizer, UIView;
+@class PKTextAttachmentResizeView, UIScrollView;
 
 @interface PKTextAttachmentDrawingView : _UITextAttachmentDrawingView
 {
     UIScrollView *_tileMaskView;
-    struct CGAffineTransform _cachedDrawingTransform;
-    double _cachedDrawingTransformBoundsWidth;
-    _Bool _resizeUpper;
-    _Bool _inserted;
-    _Bool _zoomingProgramatically;
-    _Bool _isLiveResizing;
-    double _drawingAspectRatio;
-    UIView *_tileScaleView;
-    NSTextAttachment *_textAttachment;
-    double _zoomScale;
-    PKTextAttachmentResizeView *_topResizeView;
-    PKTextAttachmentResizeView *_bottomResizeView;
-    PKLinedPaperLayer *_linesLayer;
-    PKTextAttachmentDrawingViewTouchRecognizer *_resizeHighlightGestureRecognizer;
-    UIPanGestureRecognizer *_resizeDragGestureRecognizer;
-    UITapGestureRecognizer *_eatKeyboardGestureRecognizer;
-    UITapGestureRecognizer *_tapBelowDrawingGestureRecognizer;
-    UITapGestureRecognizer *_showMenuGestureRecognizer;
-    UILongPressGestureRecognizer *_hideMenuGestureRecognizer;
-    double _zoomStartScale;
-    struct CGPoint _zoomStartLocationInWindow;
-    struct CGPoint _zoomStartLocationInAttachment;
-    struct CGPoint _textViewContentOffsetStartLocation;
-    struct CGRect _liveResizeAttachmentBounds;
 }
 
 - (_Bool);
@@ -157,20 +133,20 @@
 - (long long);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
+- (void);
+- (_Bool)*;
+- (void);
+- (id)windowDidExpose: /* Error: Ran out of types for this method. */;
+- (_Bool)AdTypeInternal;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)lastDoor._ObjCTextBoldAttributeWrapper;
+- (void)M;
 - (_Bool);
 - (void);
 - (void);
@@ -186,53 +162,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)isApplePhotosSharedLibraryInvitationURL: /* Error: Ran out of types for this method. */;
+- (id)`F;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)DidChangeAutoHide:(_Bool)arg1;
+- (void)paletteViewStateDidChangeAutoHide:(_Bool)arg1;
 - (id)inedWordCount:(id)arg1 duration:isAutoRefined:debugInfo: /* Error: Ran out of types for this method. */;
-- (void)BorderStyle: /* Error: Ran out of types for this method. */;
+- (void)setBorderStyle: /* Error: Ran out of types for this method. */;
 - (id)À;
 - (void)½îÿÿ;
 - (double)?°+´);
 
 // Remaining properties
-@property(readonly, nonatomic) long long _characterIndex;
-@property(retain, nonatomic) PKTextAttachmentResizeView *bottomResizeView; // @synthesize bottomResizeView=_bottomResizeView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double drawingAspectRatio; // @synthesize drawingAspectRatio=_drawingAspectRatio;
-@property(nonatomic) struct CGRect drawingCanvasBounds;
-@property(readonly, nonatomic) struct CGAffineTransform drawingTransform;
-@property(readonly, nonatomic) struct CGSize drawingVisibleSize;
-@property(retain, nonatomic) UITapGestureRecognizer *eatKeyboardGestureRecognizer; // @synthesize eatKeyboardGestureRecognizer=_eatKeyboardGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILongPressGestureRecognizer *hideMenuGestureRecognizer; // @synthesize hideMenuGestureRecognizer=_hideMenuGestureRecognizer;
-@property(nonatomic) _Bool inserted; // @synthesize inserted=_inserted;
-@property(readonly, nonatomic) _Bool isAtBeginningOfDocument;
-@property(nonatomic) _Bool isLiveResizing; // @synthesize isLiveResizing=_isLiveResizing;
-@property(retain, nonatomic) PKLinedPaperLayer *linesLayer; // @synthesize linesLayer=_linesLayer;
-@property(nonatomic) struct CGRect liveResizeAttachmentBounds; // @synthesize liveResizeAttachmentBounds=_liveResizeAttachmentBounds;
-@property(retain, nonatomic) UIPanGestureRecognizer *resizeDragGestureRecognizer; // @synthesize resizeDragGestureRecognizer=_resizeDragGestureRecognizer;
-@property(retain, nonatomic) PKTextAttachmentDrawingViewTouchRecognizer *resizeHighlightGestureRecognizer; // @synthesize resizeHighlightGestureRecognizer=_resizeHighlightGestureRecognizer;
-@property(nonatomic) _Bool resizeUpper; // @synthesize resizeUpper=_resizeUpper;
-@property(retain, nonatomic) UITapGestureRecognizer *showMenuGestureRecognizer; // @synthesize showMenuGestureRecognizer=_showMenuGestureRecognizer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapBelowDrawingGestureRecognizer; // @synthesize tapBelowDrawingGestureRecognizer=_tapBelowDrawingGestureRecognizer;
-@property(nonatomic) __weak NSTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
-@property(nonatomic) struct CGPoint textViewContentOffsetStartLocation; // @synthesize textViewContentOffsetStartLocation=_textViewContentOffsetStartLocation;
-@property(readonly, nonatomic) UIView *tileScaleView; // @synthesize tileScaleView=_tileScaleView;
 @property(retain, nonatomic) PKTextAttachmentResizeView *topResizeView; // @synthesize topResizeView=_topResizeView;
-@property(nonatomic) double zoomScale; // @synthesize zoomScale=_zoomScale;
-@property(nonatomic) struct CGPoint zoomStartLocationInAttachment; // @synthesize zoomStartLocationInAttachment=_zoomStartLocationInAttachment;
-@property(nonatomic) struct CGPoint zoomStartLocationInWindow; // @synthesize zoomStartLocationInWindow=_zoomStartLocationInWindow;
-@property(nonatomic) double zoomStartScale; // @synthesize zoomStartScale=_zoomStartScale;
-@property(nonatomic) _Bool zoomingProgramatically; // @synthesize zoomingProgramatically=_zoomingProgramatically;
 
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSMessageToDelete
 {
     unsigned int _dataProtectionClass;
-    NSString *_guid;
-    NSString *_alternateGUID;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void)[%04x/%uB/%@];
 - (unsigned int)-key;
 
 // Remaining properties
-@property(retain, setter=setAlternateGUID:) NSString *alternateGUID; // @synthesize alternateGUID=_alternateGUID;
 @property unsigned int dataProtectionClass; // @synthesize dataProtectionClass=_dataProtectionClass;
-@property(retain, setter=setGUID:) NSString *guid; // @synthesize guid=_guid;
 
 @end
 

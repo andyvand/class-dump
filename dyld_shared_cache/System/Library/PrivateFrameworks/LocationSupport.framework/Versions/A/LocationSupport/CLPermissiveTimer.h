@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)T;
 - (void);
 - (void);
 

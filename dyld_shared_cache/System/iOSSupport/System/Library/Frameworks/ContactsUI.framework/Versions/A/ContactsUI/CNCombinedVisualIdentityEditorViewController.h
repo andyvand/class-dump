@@ -4,21 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerDataSource, CNVisualIdentityAvatarStyleEditorViewController, NSString, UISegmentedControl;
+@class CNPhotoPickerDataSource;
 @protocol CNVisualIdentityItemEditorViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNCombinedVisualIdentityEditorViewController
 {
     id <CNVisualIdentityItemEditorViewControllerDelegate> _delegate;
-    CNPhotoPickerDataSource *_dataSource;
-    UISegmentedControl *_segmentedControl;
-    CNVisualIdentityAvatarStyleEditorViewController *_textEditor;
-    CNVisualIdentityAvatarStyleEditorViewController *_emojiEditor;
-    CNVisualIdentityAvatarStyleEditorViewController *_selectedEditor;
 }
 
 + (id);
+- (id)jA;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -26,21 +29,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -49,18 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CNPhotoPickerDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVisualIdentityItemEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNVisualIdentityAvatarStyleEditorViewController *emojiEditor; // @synthesize emojiEditor=_emojiEditor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UISegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(retain, nonatomic) CNVisualIdentityAvatarStyleEditorViewController *selectedEditor; // @synthesize selectedEditor=_selectedEditor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNVisualIdentityAvatarStyleEditorViewController *textEditor; // @synthesize textEditor=_textEditor;
 
 @end
 

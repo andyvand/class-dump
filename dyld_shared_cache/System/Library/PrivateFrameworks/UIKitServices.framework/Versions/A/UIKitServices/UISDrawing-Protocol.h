@@ -7,10 +7,6 @@
 @protocol UISDrawing
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
 @property(readonly, nonatomic) struct CGSize drawingSize;
 @end
 

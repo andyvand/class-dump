@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMultiDict, NSMutableDictionary;
+@class IMMultiDict;
 
 @interface CKTranscriptPluginViewManager
 {
     IMMultiDict *_reusablePluginViewsByClassName;
-    NSMutableDictionary *_pluginViewToReuseDelegateMap;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
+- (void)on:(id)arg1 %s};
+- (id)rying accept share %@ %@;
+- (_Bool)in the specified folder;
+- (void)=;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void)ACHMENTS;
+- (void)DELETE_ATTACHMENTS;
 - (void);
 
 @end

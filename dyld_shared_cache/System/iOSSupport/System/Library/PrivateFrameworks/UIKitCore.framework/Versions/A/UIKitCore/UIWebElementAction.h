@@ -9,22 +9,19 @@
 @interface UIWebElementAction
 {
     NSString *_title;
-    CDUnknownBlockType _actionHandler;
-    CDUnknownBlockType _dismissalHandler;
-    int _type;
 }
 
-+ (id);
-+ (id);
++ (id)Error:(int)arg1 %@;
++ (id)etries %@;
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)disk on incoming:(id)arg1 %@;
+- (void)SSL_GET_PREV_SESSION;
 - (id);
-- (void);
+- (void)MPSupportsExternallyPlayableContent;
 - (int)1Â0@ù
 × ;
-- (CDUnknownBlockType)ection: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)queue_failedConnection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dismissalHandler; // @synthesize dismissalHandler=_dismissalHandler;

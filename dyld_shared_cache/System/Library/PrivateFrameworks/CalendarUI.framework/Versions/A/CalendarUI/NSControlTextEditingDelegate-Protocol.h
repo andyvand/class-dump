@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSControl, NSTextView;
+@class NSArray, NSControl, NSTextView;
 
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (NSArray *);
 - (void)ùÄ#°1Â0@ù
 × ;
-- (_Bool)xtTypeSelectMatchFromRow:(NSControl *)arg1 toRow:(NSTextView *)arg2 forString:(SEL)arg3;
+- (_Bool)tableView:(NSControl *)arg1 nextTypeSelectMatchFromRow:(NSTextView *)arg2 toRow:(SEL)arg3 forString: /* Error: Ran out of types for this method. */;
 @end
 

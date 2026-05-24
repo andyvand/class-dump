@@ -5,7 +5,6 @@
 //
 
 @class NSSet;
-@protocol CalDAVMkcalendarTaskDelegate><CoreDAVTaskDelegate;
 
 @interface CalDAVMkcalendarTask
 {
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) id <CalDAVMkcalendarTaskDelegate><CoreDAVTaskDelegate> delegate; // @dynamic delegate;
 @property(retain, nonatomic) NSSet *setElements; // @synthesize setElements=_setElements;
 
 @end

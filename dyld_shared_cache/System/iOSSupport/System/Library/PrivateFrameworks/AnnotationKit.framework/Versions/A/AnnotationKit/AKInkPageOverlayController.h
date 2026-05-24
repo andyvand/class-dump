@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInkOverlayView, AKPageController, AKShapeDetectionController, NSString;
-@protocol PKRulerHostingDelegate;
+@class AKPageController;
 
 @interface AKInkPageOverlayController
 {
     _Bool _ignoreAnnotationAndSelectionKVO;
-    _Bool _onlyPencilDraws;
-    AKInkOverlayView *_inkOverlayView;
-    AKPageController *_pageController;
-    AKShapeDetectionController *_shapeDetectionController;
-    id <PKRulerHostingDelegate> _rulerHostingDelegate;
-    CDUnknownBlockType _delayedShapeDetectionBlock;
-    double _lastStrokeEndTime;
 }
 
 + (id);
@@ -33,18 +25,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct CGSize);
-- (id);
-- (id);
+- (id)gk;
+- (id);
 - (double);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -57,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -67,24 +59,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)ightAttributeTag: /* Error: Ran out of types for this method. */;
+- (void)colorForNoteOfHighlightAttributeTag: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) CDUnknownBlockType delayedShapeDetectionBlock; // @synthesize delayedShapeDetectionBlock=_delayedShapeDetectionBlock;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreAnnotationAndSelectionKVO; // @synthesize ignoreAnnotationAndSelectionKVO=_ignoreAnnotationAndSelectionKVO;
-@property(retain) AKInkOverlayView *inkOverlayView; // @synthesize inkOverlayView=_inkOverlayView;
-@property double lastStrokeEndTime; // @synthesize lastStrokeEndTime=_lastStrokeEndTime;
-@property _Bool onlyPencilDraws; // @synthesize onlyPencilDraws=_onlyPencilDraws;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(nonatomic) __weak id <PKRulerHostingDelegate> rulerHostingDelegate; // @synthesize rulerHostingDelegate=_rulerHostingDelegate;
-@property(retain) AKShapeDetectionController *shapeDetectionController; // @synthesize shapeDetectionController=_shapeDetectionController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,13 +14,13 @@
 }
 
 + (unsigned char);
-+ (id);
++ (id)et(TSUAdditions) tsu_setByMappingObjectsUsingBlock:(unsigned char)arg1 ];
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

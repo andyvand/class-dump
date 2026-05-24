@@ -5,6 +5,7 @@
 //
 
 @protocol PLVideoChoosingOptions
+- (id);
 - (id)urceTypeAdjustmentOriginalResource;
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface iCloudUserNotification
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_informativeText;
-    NSString *_accountDSID;
-    unsigned long long _displayStyle;
-    NSString *_actionButtonLabel;
-    NSString *_otherButtonLabel;
-    NSDictionary *_activateActionDict;
-    NSDictionary *_dismissActionDict;
-    NSDictionary *_clearActionDict;
-    NSDictionary *_launchActionDict;
-    NSData *_launchActionArguments;
-    NSDictionary *_userInfo;
-    NSString *_uuid;
-    NSString *_clientIdentifier;
-    NSString *_delegateMachServiceName;
 }
 
 + (_Bool);
@@ -33,26 +18,26 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
+- (id)depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_4;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)t>, unsigned long long>, WebCore::IndexKey>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IndexKey>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IndexKey>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IndexKey>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)w;
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void)GEOWorldCityLightsLayer;
+- (id)si_remote_connection_valid;
 - (void);
 - (void);
 - (void);
@@ -67,21 +52,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *accountDSID; // @synthesize accountDSID=_accountDSID;
-@property(copy) NSString *actionButtonLabel; // @synthesize actionButtonLabel=_actionButtonLabel;
-@property(copy) NSDictionary *activateActionDict; // @synthesize activateActionDict=_activateActionDict;
-@property(copy) NSDictionary *clearActionDict; // @synthesize clearActionDict=_clearActionDict;
-@property(copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(copy) NSString *delegateMachServiceName; // @synthesize delegateMachServiceName=_delegateMachServiceName;
-@property(copy) NSDictionary *dismissActionDict; // @synthesize dismissActionDict=_dismissActionDict;
-@property unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(copy) NSData *launchActionArguments; // @synthesize launchActionArguments=_launchActionArguments;
-@property(copy) NSDictionary *launchActionDict; // @synthesize launchActionDict=_launchActionDict;
-@property(copy) NSString *otherButtonLabel; // @synthesize otherButtonLabel=_otherButtonLabel;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @property(copy) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

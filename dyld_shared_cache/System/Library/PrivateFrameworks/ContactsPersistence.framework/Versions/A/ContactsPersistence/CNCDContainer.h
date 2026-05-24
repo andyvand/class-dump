@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDRecord.h>
 
-@class ABCDInfo, CNCDContact, CNCDProviderMetadata, NSDate, NSSet, NSString;
+@class CNCDContact;
 
 @interface CNCDContainer : ABCDRecord
 {
@@ -14,19 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *contacts; // @dynamic contacts;
-@property(retain, nonatomic) NSSet *deletedRecords; // @dynamic deletedRecords;
-@property(retain, nonatomic) NSString *externalIdentifier; // @dynamic externalIdentifier;
-@property(retain, nonatomic) NSSet *groups; // @dynamic groups;
-@property(nonatomic) unsigned short guardianFlags; // @dynamic guardianFlags;
-@property(retain, nonatomic) ABCDInfo *info; // @dynamic info;
-@property(copy, nonatomic) NSDate *lastSyncDate; // @dynamic lastSyncDate;
 @property(retain, nonatomic) CNCDContact *me; // @dynamic me;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSString *providerIdentifier; // @dynamic providerIdentifier;
-@property(retain, nonatomic) CNCDProviderMetadata *providerMetadata; // @dynamic providerMetadata;
-@property(retain, nonatomic) NSString *remoteLocation; // @dynamic remoteLocation;
-@property(retain, nonatomic) NSString *serialNumber; // @dynamic serialNumber;
-@property(nonatomic) unsigned short type; // @dynamic type;
 @end
 

@@ -9,16 +9,11 @@
 @interface CVNLPTextDecodingBeamSearchConfiguration : CVNLPTextDecodingConfiguration
 {
     _Bool _shouldOptimizeAlignment;
-    _Bool _pruneProblematicMixedScriptWordPaths;
-    _Bool _shouldApplyWordLMToLastWord;
-    unsigned long long _beamWidth;
-    unsigned long long _pathCount;
-    CDUnknownBlockType _scoringFunction;
 }
 
+- (_Bool)H,;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)'D;
 - (void);
 - (void);
 - (void);
@@ -26,7 +21,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,11 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long beamWidth; // @synthesize beamWidth=_beamWidth;
-@property(nonatomic) unsigned long long pathCount; // @synthesize pathCount=_pathCount;
-@property(nonatomic) _Bool pruneProblematicMixedScriptWordPaths; // @synthesize pruneProblematicMixedScriptWordPaths=_pruneProblematicMixedScriptWordPaths;
-@property(readonly, nonatomic) CDUnknownBlockType scoringFunction; // @synthesize scoringFunction=_scoringFunction;
-@property(nonatomic) _Bool shouldApplyWordLMToLastWord; // @synthesize shouldApplyWordLMToLastWord=_shouldApplyWordLMToLastWord;
-@property(nonatomic) _Bool shouldOptimizeAlignment; // @synthesize shouldOptimizeAlignment=_shouldOptimizeAlignment;
 
 @end
 

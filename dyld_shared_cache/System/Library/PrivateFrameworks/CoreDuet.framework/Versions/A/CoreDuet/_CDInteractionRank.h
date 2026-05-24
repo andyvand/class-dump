@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface _CDInteractionRank
 {
     double _score;
-    NSSet *_reasons;
 }
 
 - (void);
@@ -20,7 +17,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSSet *reasons; // @synthesize reasons=_reasons;
 @property double score; // @synthesize score=_score;
 
 @end

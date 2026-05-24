@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WiFiUsageNetworkIPv4Details
 {
     _Bool _isValid;
-    NSString *_ipv4Address;
-    NSString *_ipv4RouterAddress;
-    NSString *_ipv4RouterMacAddress;
-    NSString *_ipv4DefGwAddress;
-    NSString *_ipv4Subnet;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ipv4Address; // @synthesize ipv4Address=_ipv4Address;
-@property(retain, nonatomic) NSString *ipv4DefGwAddress; // @synthesize ipv4DefGwAddress=_ipv4DefGwAddress;
-@property(retain, nonatomic) NSString *ipv4RouterAddress; // @synthesize ipv4RouterAddress=_ipv4RouterAddress;
-@property(retain, nonatomic) NSString *ipv4RouterMacAddress; // @synthesize ipv4RouterMacAddress=_ipv4RouterMacAddress;
-@property(retain, nonatomic) NSString *ipv4Subnet; // @synthesize ipv4Subnet=_ipv4Subnet;
 @property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 
 @end

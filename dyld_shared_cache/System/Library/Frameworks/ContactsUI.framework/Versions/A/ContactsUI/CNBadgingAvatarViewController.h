@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarViewController, CNBadgeViewController, NSArray, NSImage;
+@class CNAvatarViewController;
 
 @interface CNBadgingAvatarViewController
 {
     CNAvatarViewController *_avatarViewController;
-    CNBadgeViewController *_badgeViewController;
 }
 
 - (void);
@@ -19,19 +18,16 @@
 - (id);
 - (void);
 - (id);
+- (id)|;
+- (void);
+- (void);
+- (id)(;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) NSImage *badgeImage;
-@property(readonly, nonatomic) CNBadgeViewController *badgeViewController; // @synthesize badgeViewController=_badgeViewController;
-@property(copy, nonatomic) NSArray *contacts;
 
 @end
 

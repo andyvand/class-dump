@@ -15,32 +15,25 @@
 + (long long);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (id);
++ (void)launch notification;
++ (void)gister for biomed re-launch notification, status:%@ /* Error: Ran out of types for this method. */;
++ (void)%{public}@;
++ (void)ted;
++ (void)ceived new event on '%@' %s;
++ (void)wn service domain when initializing BMComputePublisherClient, %@;
++ (void)MComputeSourceClient events pruned for stream %@ with reason %lu;
++ (void)teSourceClient send event with identifier %@ to compute server:%@ /* Error: Ran out of types for this method. */;
++ (id)ions (%u != %u) cannot deserialize;
 + (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *biography; // @dynamic biography;
-@property(copy, nonatomic) NSString *handle; // @dynamic handle;
-@property(nonatomic) _Bool hasLightweightProfile; // @dynamic hasLightweightProfile;
-@property(nonatomic) long long pendingRequestsCount; // @dynamic pendingRequestsCount;
-@property(nonatomic, getter=isPrivate) _Bool privatePerson; // @dynamic privatePerson;
 @property(copy, nonatomic) NSString *uncensoredName; // @dynamic uncensoredName;
-@property(nonatomic, getter=isVerified) _Bool verified; // @dynamic verified;
 
 @end
 

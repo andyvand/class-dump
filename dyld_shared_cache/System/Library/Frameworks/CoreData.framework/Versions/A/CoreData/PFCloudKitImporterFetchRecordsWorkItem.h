@@ -6,15 +6,12 @@
 
 #import <CoreData/PFCloudKitImportRecordsWorkItem.h>
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImporterFetchRecordsWorkItem : PFCloudKitImportRecordsWorkItem
 {
     NSMutableArray *_updatedObjectIDs;
-    NSMutableDictionary *_failedObjectIDsToError;
-    NSMutableDictionary *_recordIDToObjectID;
-    NSMutableDictionary *_operationsToExecute;
 }
 
 - (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (void);
 
 @end

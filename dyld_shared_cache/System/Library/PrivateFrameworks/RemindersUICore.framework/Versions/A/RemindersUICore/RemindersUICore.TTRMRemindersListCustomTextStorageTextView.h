@@ -9,11 +9,10 @@
 @interface RemindersUICore.TTRMRemindersListCustomTextStorageTextView : RemindersUICore.TTRMRemindersListTextView
 {
     id reminderTextStorage;
-    id tokenInteraction;
 }
 
 - (void);
-- (void);
+- (void)(C;
 - (id);
 - (void);
 - (void);
@@ -32,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)articleListTagFeedGroupTopicsConfig;
 - (id);
 - (_Bool);
 - (void);

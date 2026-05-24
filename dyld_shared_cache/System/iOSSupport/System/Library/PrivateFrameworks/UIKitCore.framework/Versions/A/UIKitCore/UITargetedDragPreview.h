@@ -6,47 +6,34 @@
 
 #import <UIKitCore/UITargetedPreview.h>
 
-@class NSDictionary, NSString, UIView, _DUIPreview, _UIDraggingImageComponent;
-@protocol _UIDragPreviewContainer, _UIDragPreviewProvider;
-
 @interface UITargetedDragPreview : UITargetedPreview
 {
     _Bool _didSetLiftAnchorPoint;
-    _DUIPreview *_duiPreview;
-    _UIDraggingImageComponent *_imageComponent;
-    _Bool __applyTargetTransformToFlock;
-    _Bool _preventAfterScreenUpdatesSnapshot;
-    long long __preferredStackOrder;
-    CDUnknownBlockType __fenceHandler;
-    UIView<_UIDragPreviewContainer> *__previewContainer;
-    NSDictionary *__springboardParameters;
-    struct CGPoint __initialBadgeLocation;
-    struct CGPoint _liftAnchorPoint;
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)copyAllChatsWithUnreadMessagesWithLimit:(struct CGPoint)arg1 beforeDate:(id)arg2 predicate:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_sendTextAutoReplyToChat:(id)arg1 withUrgentBreakthroughInstructions: /* Error: Ran out of types for this method. */;
+- (void)_replacementGUID;
+- (void)e;
 - (id);
 - (id);
+- (id)for message part %ld. ThisEdit:%@, DateOfLastEdit:%@ /* Error: Ran out of types for this method. */;
+- (void)ing service:(long long)arg1 %@;
+- (void)ged in account:(id)arg1 %@;
+- (void)ogged in accounts:(_Bool)arg1 %@;
+- (void)borting relay %@;
+- (void)dids;
+- (void)yLookupLibrary(void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (struct CGPoint);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)^;
 - (_Bool);
 - (id);
 - (struct CGPoint);
@@ -54,25 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=_applyTargetTransformToFlock, setter=_setApplyTargetTransformToFlock:) _Bool _applyTargetTransformToFlock; // @synthesize _applyTargetTransformToFlock=__applyTargetTransformToFlock;
-@property(readonly, nonatomic) id <_UIDragPreviewProvider> _dragPreviewProvider;
-@property(readonly, nonatomic) _DUIPreview *_duiPreview;
-@property(copy, nonatomic) CDUnknownBlockType _fenceHandler; // @synthesize _fenceHandler=__fenceHandler;
-@property(nonatomic, setter=_setInitialBadgeLocation:) struct CGPoint _initialBadgeLocation; // @synthesize _initialBadgeLocation=__initialBadgeLocation;
-@property(nonatomic, setter=_setPreferredStackOrder:) long long _preferredStackOrder; // @synthesize _preferredStackOrder=__preferredStackOrder;
-@property(retain, nonatomic, setter=_setPreviewContainer:) UIView<_UIDragPreviewContainer> *_previewContainer; // @synthesize _previewContainer=__previewContainer;
-@property(copy, nonatomic) NSDictionary *_springboardParameters; // @synthesize _springboardParameters=__springboardParameters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic, getter=_isDefaultPreview, setter=_setDefaultPreview:) _Bool defaultPreview; // @dynamic defaultPreview;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint liftAnchorPoint; // @synthesize liftAnchorPoint=_liftAnchorPoint;
-@property(nonatomic, getter=_preventAfterScreenUpdatesSnapshot, setter=_setPreventAfterScreenUpdatesSnapshot:) _Bool preventAfterScreenUpdatesSnapshot; // @synthesize preventAfterScreenUpdatesSnapshot=_preventAfterScreenUpdatesSnapshot;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=_viewToSnapshot, setter=_setViewToSnapshot:) __weak UIView *viewToSnapshot; // @dynamic viewToSnapshot;
 
 @end
 

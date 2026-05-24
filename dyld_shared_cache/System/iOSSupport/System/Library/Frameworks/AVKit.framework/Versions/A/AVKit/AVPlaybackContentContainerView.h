@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVStatusBarBackgroundGradientView, AVVisualAnalysisView, NSString, UIView, __AVPlayerLayerView;
+@class AVStatusBarBackgroundGradientView;
 
 __attribute__((visibility("hidden")))
 @interface AVPlaybackContentContainerView
 {
     _Bool _playingOnSecondScreen;
-    _Bool _canShowStatusBarBackgroundGradientWhenStatusBarVisible;
-    _Bool _observingStatusBarHidden;
-    AVVisualAnalysisView *_visualAnalysisView;
-    __AVPlayerLayerView *_playerLayerView;
-    UIView *_contentOverlayView;
-    UIView *_contentOverlayViewSubview;
-    AVStatusBarBackgroundGradientView *_statusBarBackgroundGradientView;
-    struct CGRect _videoContentFrame;
 }
 
 - (void);
@@ -38,36 +30,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)-g;
 - (void);
 - (_Bool);
 - (void)A!Dùq[1Â0@ù
 × ;
 - (void)@ù
 × ;
-- (void)ontrolElementWithUserInterfaceStyle: /* Error: Ran out of types for this method. */;
+- (void)avkit_tintColorForControlElementWithUserInterfaceStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlaybackContentContainerView *activeContentView;
-@property(nonatomic) _Bool canShowStatusBarBackgroundGradientWhenStatusBarVisible; // @synthesize canShowStatusBarBackgroundGradientWhenStatusBarVisible=_canShowStatusBarBackgroundGradientWhenStatusBarVisible;
-@property(readonly, nonatomic) UIView *contentOverlayView; // @synthesize contentOverlayView=_contentOverlayView;
-@property(retain, nonatomic) UIView *contentOverlayViewSubview; // @synthesize contentOverlayViewSubview=_contentOverlayViewSubview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isObservingStatusBarHidden) _Bool observingStatusBarHidden; // @synthesize observingStatusBarHidden=_observingStatusBarHidden;
-@property(retain, nonatomic) __AVPlayerLayerView *playerLayerView; // @synthesize playerLayerView=_playerLayerView;
-@property(nonatomic, getter=isPlayingOnSecondScreen) _Bool playingOnSecondScreen; // @synthesize playingOnSecondScreen=_playingOnSecondScreen;
 @property(readonly, nonatomic) AVStatusBarBackgroundGradientView *statusBarBackgroundGradientView; // @synthesize statusBarBackgroundGradientView=_statusBarBackgroundGradientView;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect videoContentFrame; // @synthesize videoContentFrame=_videoContentFrame;
-@property(retain, nonatomic) AVVisualAnalysisView *visualAnalysisView; // @synthesize visualAnalysisView=_visualAnalysisView;
 
 @end
 

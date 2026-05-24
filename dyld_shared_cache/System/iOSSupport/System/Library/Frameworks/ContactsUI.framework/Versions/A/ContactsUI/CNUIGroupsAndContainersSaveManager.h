@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNContactViewCache, CNUIEditAuthorizationController, NSString;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNUIGroupsAndContainersSaveManager
 {
     CNContactStore *_contactStore;
-    CNContactViewCache *_contactViewCache;
-    CNUIEditAuthorizationController *_authorizationController;
-    CDUnknownBlockType _authorizationResultBlock;
 }
 
 + (id)0@ù
@@ -21,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)|;
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -30,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)hasCheckbox;
+- (id)yellow;
 - (void);
 - (id);
 - (_Bool);
@@ -48,11 +45,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (_Bool)>;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)xpc_endpoint_t;
 - (void);
 - (id);
 - (id);
@@ -66,23 +63,13 @@ __attribute__((visibility("hidden")))
 - (_Bool)!¨Cù±tð1Â0@ù
 × ;
 - (id);
-- (_Bool)mated:(id)arg1;
-- (void)yContactListStyleToBannerTitle:primaryAppearance: /* Error: Ran out of types for this method. */;
+- (_Bool)presentGroupsViewControllerAnimated:(id)arg1;
+- (void)applyContactListStyleToBannerTitle:primaryAppearance: /* Error: Ran out of types for this method. */;
 - (void)w][LikenessRenderer] (%p) received image (%@) for contact %{public}@, replacing placeholder;
 - (id)yµ,øyZøyAGyNðøy@UøG_AHy®ïøyAHyµYøxPøyJYøSgGGG+øGSgtGG­"øG_A_AHyAIyAGyAK_ ZøAHyAKÖ0øGtGGAZGÂîøyAHyAMyAKGAZG_ãÐÿÿQo_tGAFGGG_SSQo_;
 
 // Remaining properties
-@property(retain, nonatomic) CNUIEditAuthorizationController *authorizationController; // @synthesize authorizationController=_authorizationController;
-@property(copy, nonatomic) CDUnknownBlockType authorizationResultBlock; // @synthesize authorizationResultBlock=_authorizationResultBlock;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -20,26 +20,19 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id)that is already speaking. ;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)is different;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadMode; // @synthesize payloadMode=_payloadMode;
-@property(readonly) Class superclass;
 
 @end
 

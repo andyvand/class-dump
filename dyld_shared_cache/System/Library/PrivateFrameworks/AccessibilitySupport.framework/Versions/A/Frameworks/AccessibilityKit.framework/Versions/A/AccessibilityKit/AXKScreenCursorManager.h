@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFScreen, NSString;
-
 @interface AXKScreenCursorManager
 {
     _Bool __trackingIndividualScreenCursor;
-    AXFScreen *__previousCursorScreen;
-    struct CGPoint __previousCursorLocation;
 }
 
-+ (id);
++ (id)imageName;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -26,7 +22,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -38,19 +34,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setOutlineOuterColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint _previousCursorLocation; // @synthesize _previousCursorLocation=__previousCursorLocation;
-@property(retain, nonatomic) AXFScreen *_previousCursorScreen; // @synthesize _previousCursorScreen=__previousCursorScreen;
 @property(nonatomic) _Bool _trackingIndividualScreenCursor; // @synthesize _trackingIndividualScreenCursor=__trackingIndividualScreenCursor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

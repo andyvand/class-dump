@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIView;
+@class NSIndexPath, UIScrollView, UISwipeActionController, UIView;
 
 @protocol UISwipeActionHost
+- (UIScrollView *)e user identity:(UISwipeActionController *)arg1 %{private}@.;
 - (UIView *);
 - (NSIndexPath *)ubviews"b1};
-- (UIView *);
 
 @optional
+- (void);
+- (UIView *);
 - (void)0@ù
 × ;
-- (void)erBarButtonItems;
+- (void)_otherBarButtonItems;
 - (void)ould not be taken when linked against iOS 14 or newer.;
 @end
 

@@ -6,24 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSDomainConfiguredState, PLUSSchemaPLUSSuggestionDomainMetadata, SISchemaUUID;
+@class PLUSSchemaPLUSSuggestionDomainMetadata;
 
 @interface PLUSSchemaPLUSSuggesterMetadataReported : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionDomainMetadata *_suggestionDomainMetadata;
-    SISchemaUUID *_originalRequestId;
-    _Bool _isSuggesterEnabled;
-    PLUSSchemaPLUSDomainConfiguredState *_domainConfiguredState;
-    struct {
-        unsigned int isSuggesterEnabled:1;
-    } _has;
-    _Bool _hasSuggestionDomainMetadata;
-    _Bool _hasOriginalRequestId;
-    _Bool _hasDomainConfiguredState;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,25 +36,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)~;
 - (_Bool);
-- (_Bool);
+- (_Bool)he for handle IDs:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)onContext;
+- (id)_hasWholeHouseAudioDestinationContext;
 - (id)yload;
-- (void)EWITHSOURCE;
+- (void)DIALOGENGINENAMEDENTITYCATID__GEO__GOTDISTANCEWITHSOURCE;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSDomainConfiguredState *domainConfiguredState; // @synthesize domainConfiguredState=_domainConfiguredState;
-@property(nonatomic) _Bool hasDomainConfiguredState; // @synthesize hasDomainConfiguredState=_hasDomainConfiguredState;
-@property(nonatomic) _Bool hasIsSuggesterEnabled;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasSuggestionDomainMetadata; // @synthesize hasSuggestionDomainMetadata=_hasSuggestionDomainMetadata;
-@property(nonatomic) _Bool isSuggesterEnabled; // @synthesize isSuggesterEnabled=_isSuggesterEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainMetadata *suggestionDomainMetadata; // @synthesize suggestionDomainMetadata=_suggestionDomainMetadata;
 
 @end

@@ -6,35 +6,27 @@
 
 #import <UIKitCore/UIStoryboardSegueTemplate.h>
 
-@class NSArray, UIBarButtonItem, UIView;
-
 __attribute__((visibility("hidden")))
 @interface UIStoryboardPopoverPresentationSegueTemplate : UIStoryboardSegueTemplate
 {
     unsigned long long _permittedArrowDirections;
-    NSArray *_passthroughViews;
-    UIView *_anchorView;
-    UIBarButtonItem *_anchorBarButtonItem;
 }
 
 - (void);
-- (id);
+- (id)ear for handle ID %@;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (void)CheckedPreferences;
-- (void)dingPadding;
+- (id)_listKeypoints3_metal:(id)arg1 suppressedResponseMapTexture:tileBuffer:tileCountBuffer:tileCount:thresholdsBuffer:cumulativePointsBuffer:keypointLocationsBuffer:keypointResponsesBuffer:maxRegionHeight:maxRegionWidth: /* Error: Ran out of types for this method. */;
+- (void)hasCheckedPreferences;
+- (void)inlineLeadingPadding;
 - (id)ntroller's delegate (%@) does not conform to _UIColorPickerViewProvidingDelegate;
 - (unsigned long long)valid state:deallocating presentation controller while still ignoring interaction events:<%s:%p> /* Error: Ran out of types for this method. */;
-- (void)erProviderContext;
+- (void)FilterProviderContext;
 - (void)ld(ÿ@ü{;
 
 // Remaining properties
-@property(retain, nonatomic) UIBarButtonItem *anchorBarButtonItem; // @synthesize anchorBarButtonItem=_anchorBarButtonItem;
-@property(retain, nonatomic) UIView *anchorView; // @synthesize anchorView=_anchorView;
-@property(copy, nonatomic) NSArray *passthroughViews; // @synthesize passthroughViews=_passthroughViews;
 @property(nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;
 
 @end

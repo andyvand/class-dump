@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWPBUpdateBrowse
 {
     NSString *_clientUUID;
-    NSMutableArray *_discoveredEndpoints;
 }
 
 - (id);
-- (void);
+- (void)B;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)perties:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_getCookiesForURL:(struct _NSZone *)arg1 mainDocumentURL:partition:policyProperties:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)@;
 

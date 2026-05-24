@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol REMPersonIDProviding
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID;
-@property(copy, nonatomic) NSData *personIDSalt;
 @end
 

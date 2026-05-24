@@ -4,55 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSNumberFormatter, NSObject, NSUserDefaults;
-@protocol FMDistanceCalculatorLocalizationDelegate, OS_dispatch_queue;
+@class NSLocale, NSObject;
+@protocol FMDistanceCalculatorLocalizationDelegate;
 
 @interface FMDistanceCalculator
 {
     NSObject<FMDistanceCalculatorLocalizationDelegate> *_localizationDelegate;
-    NSLocale *_locale;
-    NSLocale *_measurementSystemLocale;
-    NSUserDefaults *_userDefaults;
-    NSObject<OS_dispatch_queue> *_calculationQueue;
-    NSNumberFormatter *_formatter;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
+- (void)_multiSEApplicationGroupMemberIDs;
+- (void)_moduleIdentifierAsData;
+- (void)_migrationInstances;
+- (id)_isReleased;
+- (id)_isCallbackQueueSuspended;
+- (id)_invokeDidEndSession;
+- (id)_ignoreRFTechOnIsEqual;
+- (id)_identifier;
+- (id)_hwSupportUpdateTime;
+- (id)_hasAntenna;
+- (id)_filterType;
+- (double)_exitFieldCallback;
+- (id)_eckaCertificateAsData;
+- (id)_discretionaryData;
+- (id)_disableCompletionNotification;
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *calculationQueue; // @synthesize calculationQueue=_calculationQueue;
-@property(retain, nonatomic) NSNumberFormatter *formatter; // @synthesize formatter=_formatter;
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) __weak NSObject<FMDistanceCalculatorLocalizationDelegate> *localizationDelegate; // @synthesize localizationDelegate=_localizationDelegate;
-@property(nonatomic) long long measurementSystem;
-@property(retain, nonatomic) NSLocale *measurementSystemLocale; // @synthesize measurementSystemLocale=_measurementSystemLocale;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

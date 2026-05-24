@@ -5,14 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 @interface FCOperationThrottler
 {
     NSObject<OS_dispatch_source> *_dispatchSource;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_group> *_handlerSynchronizationGroup;
-    _Bool _suspended;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)thCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)refreshIAPsForActiveAccountWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)oAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKRecordSchema.m;
 - (void)ue to failure to decode channelScoresOutputName from configuration %{public}@;
 

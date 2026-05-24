@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKPaymentTransactionFeeItem
 {
     NSString *_identifier;
-    unsigned long long _type;
-    PKCurrencyAmount *_currencyAmount;
-    NSString *_localizedDisplayName;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)A;
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long)85;
+- (_Bool)on"b1"timestamp"b1"connectionType"b1"errorCode"b1"linkType"b1"success"b1};
+- (void)Machine",&,N,V_lqmPoor;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)ddBeneficiaryMessageKey;
+- (void)PKSavingsHasDismissedAddBeneficiaryMessageKey;
 
 // Remaining properties
-@property(copy, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

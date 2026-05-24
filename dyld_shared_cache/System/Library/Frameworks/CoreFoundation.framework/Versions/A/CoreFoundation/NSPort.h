@@ -7,12 +7,10 @@
 @interface NSPort
 {
     _Bool _valid;
-    unsigned long long _reservedSpaceLength;
 }
 
 
 // Remaining properties
-@property(readonly) unsigned long long reservedSpaceLength; // @synthesize reservedSpaceLength=_reservedSpaceLength;
 @property(readonly, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 @end
 

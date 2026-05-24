@@ -6,35 +6,20 @@
 
 #import <CloudPhotoLibrary/CPLEngineSyncTask.h>
 
-@class NSArray, NSError, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLBackgroundDownloadsTask : CPLEngineSyncTask
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSMutableArray *_transportTasks;
-    _Bool _shouldStop;
-    NSError *_badError;
-    NSError *_stopError;
-    _Bool _prioritizeNonDerivatives;
-    _Bool _hasResetQueue;
-    unsigned long long _successfullyDownloadedResourcesCount;
-    unsigned long long _failedDownloadedResourcesCount;
-    unsigned long long _countOfFinishedDownloadTasksSinceLastReport;
-    NSObject<OS_dispatch_source> *_reportTimer;
-    unsigned long long _activeTransferTaskCount;
-    unsigned long long _transportTaskCount;
-    struct os_unfair_lock_s _taskCountLock;
-    NSArray *_intentsToDownload;
-    unsigned long long _currentIntentIndex;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);

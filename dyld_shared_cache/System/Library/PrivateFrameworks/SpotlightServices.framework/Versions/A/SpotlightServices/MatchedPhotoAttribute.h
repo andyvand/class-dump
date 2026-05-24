@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SSTokenizedString;
+@class SSTokenizedString;
 
 @interface MatchedPhotoAttribute
 {
     SSTokenizedString *_feature;
-    unsigned long long _tokenNum;
-    unsigned long long _tokenLength;
-    double _confidence;
-    double _boundingBox;
-    NSMutableArray *_types;
-    NSMutableArray *_totalFeaturesNum;
 }
 
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)initWithHost:(id)arg1 video:(unsigned long long)arg2 style:(id)arg3 posterFrame:(double)arg4 posterFrameStyle:(double)arg5 configuration: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
+- (void)@"<MTLBlitCommandEncoder>"8;
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (double);
 - (double);
-- (void);
-- (void)Score;
-- (id)Min_Word;
-- (void)DItemPhotosMemoryTitle_QueryTermsNum_Min_Word;
-- (id)edEyeOnOff;
+- (void)iewDelegate>";
+- (void)_quIntentScore;
+- (id)enum_kMDItemPhotosDescription_TermFrequencies_Min_Word;
+- (void)kMDItemPhotosMemoryTitle_QueryTermsNum_Min_Word;
+- (id)kMDItemRedEyeOnOff;
 
 // Remaining properties
-@property double boundingBox; // @synthesize boundingBox=_boundingBox;
-@property double confidence; // @synthesize confidence=_confidence;
 @property(retain, nonatomic) SSTokenizedString *feature; // @synthesize feature=_feature;
-@property unsigned long long tokenLength; // @synthesize tokenLength=_tokenLength;
-@property unsigned long long tokenNum; // @synthesize tokenNum=_tokenNum;
-@property(retain, nonatomic) NSMutableArray *totalFeaturesNum; // @synthesize totalFeaturesNum=_totalFeaturesNum;
-@property(retain, nonatomic) NSMutableArray *types; // @synthesize types=_types;
 
 @end
 

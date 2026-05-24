@@ -6,15 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@protocol SXAnalyticsReportingProvider, SXAppStateMonitor, SXFullscreenCanvasControllerFactory, SXImageViewFactory, SXMediaSharingPolicyProvider;
+@protocol SXAnalyticsReportingProvider;
 
 @interface SXMosaicGalleryComponentViewFactory : SXComponentViewFactory
 {
     id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
-    id <SXAppStateMonitor> _appStateMonitor;
-    id <SXImageViewFactory> _imageViewFactory;
-    id <SXMediaSharingPolicyProvider> _mediaSharingPolicyProvider;
-    id <SXFullscreenCanvasControllerFactory> _canvasControllerFactory;
 }
 
 - (id);
@@ -31,10 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(readonly, nonatomic) id <SXFullscreenCanvasControllerFactory> canvasControllerFactory; // @synthesize canvasControllerFactory=_canvasControllerFactory;
-@property(readonly, nonatomic) id <SXImageViewFactory> imageViewFactory; // @synthesize imageViewFactory=_imageViewFactory;
-@property(readonly, nonatomic) id <SXMediaSharingPolicyProvider> mediaSharingPolicyProvider; // @synthesize mediaSharingPolicyProvider=_mediaSharingPolicyProvider;
 
 @end
 

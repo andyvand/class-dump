@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)"�;
++ (id)__VKCImageSubjectHighlightViewAccessibility_super;
 + (void);
 - (void);
 

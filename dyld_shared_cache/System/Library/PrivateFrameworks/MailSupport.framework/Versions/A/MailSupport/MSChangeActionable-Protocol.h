@@ -7,10 +7,9 @@
 @class EFFuture, EMMessageRepository;
 
 @protocol MSChangeActionable
+- (EFFuture *);
 
 // Remaining properties
-@property(readonly, nonatomic) EFFuture *changeActionFuture;
-@property(readonly, nonatomic) _Bool isUndoSupported;
 @property(readonly, nonatomic) EMMessageRepository *messageRepository;
 @end
 

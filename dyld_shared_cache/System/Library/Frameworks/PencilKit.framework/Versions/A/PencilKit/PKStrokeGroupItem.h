@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHStrokeGroupQueryItem, NSArray;
+@class CHStrokeGroupQueryItem;
 
 @interface PKStrokeGroupItem
 {
     CHStrokeGroupQueryItem *_strokeGroupItem;
-    NSArray *_strokes;
-    long long _contentType;
-    struct CGRect _bounds;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)9;
 - (id);
 - (struct CGRect);
 - (void);
-- (long long);
+- (long long)add bulleted list with a zero count sublist, please ensure that the sublist items is not empty;
 - (void);
-- (void)ppedToRuler;
+- (void)_lastDrawingWasSnappedToRuler;
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) long long contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) CHStrokeGroupQueryItem *strokeGroupItem; // @synthesize strokeGroupItem=_strokeGroupItem;
-@property(copy, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (FileControllerStringUtilities)
-- (_Bool);
+- (_Bool);
 - (_Bool);
 @end
 

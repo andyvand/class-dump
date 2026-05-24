@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSError;
+@class NSData;
 
 @interface KTVerificationInfo
 {
     NSData *_accountKey;
-    NSArray *_serverLoggableDatas;
-    NSError *_failure;
-    NSDate *_idsResponseTime;
-    unsigned long long _optedIn;
-    NSDictionary *_ktOpts;
 }
 
 + (id);
@@ -32,9 +27,9 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id)&,V_independentRequest;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -43,13 +38,6 @@
 
 // Remaining properties
 @property(retain) NSData *accountKey; // @synthesize accountKey=_accountKey;
-@property(readonly) NSDictionary *diagnosticsJsonDictionary;
-@property(retain) NSError *failure; // @synthesize failure=_failure;
-@property(retain) NSDate *idsResponseTime; // @synthesize idsResponseTime=_idsResponseTime;
-@property(retain) NSDictionary *ktOpts; // @synthesize ktOpts=_ktOpts;
-@property(readonly) NSData *ktOptsData;
-@property unsigned long long optedIn; // @synthesize optedIn=_optedIn;
-@property(retain) NSArray *serverLoggableDatas; // @synthesize serverLoggableDatas=_serverLoggableDatas;
 
 @end
 

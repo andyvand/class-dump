@@ -9,9 +9,6 @@
 @interface PPM2DatabaseRecordCount
 {
     NSString *_activeTreatments;
-    unsigned int _schemaVersion;
-    NSString *_tableName;
-    CDStruct_278ffb8f _has;
 }
 
 - (void);
@@ -23,25 +20,20 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)/;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_canShareLocationWithFMLHandle:isFromGroup: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (void)ring"40@?<v@?@"NSError">48;
-- (unsigned int)mesType;
+- (unsigned int)cityNamesType;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(nonatomic) _Bool hasSchemaVersion;
-@property(readonly, nonatomic) _Bool hasTableName;
-@property(nonatomic) unsigned int schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(retain, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

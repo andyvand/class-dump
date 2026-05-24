@@ -6,75 +6,10 @@
 
 #import <AVConference/VCRateControlAlgorithmBase.h>
 
-@class VCRateControlSmartBrake;
-
 __attribute__((visibility("hidden")))
 @interface VCRateControlAlgorithmStabilizedNOWRD : VCRateControlAlgorithmBase
 {
     unsigned short _echoedTimestamp;
-    _Bool _isStable;
-    _Bool _shouldRampUpSkipNOWRDStabilization;
-    double _sendBitrateLimitedStartTime;
-    double _inVideoBitrate;
-    double _outVideoBitrate;
-    double _inAudioBitrate;
-    double _outAudioBitrate;
-    double _basebandNotificationArrivalTime;
-    double _basebandNormalizedBDCD;
-    double _basebandNormalizedQueuingDelay;
-    unsigned int _basebandAverageBitrate;
-    unsigned int _basebandTotalQueueDepth;
-    double _basebandExpectedQueuingDelay;
-    int _basebandRadioTechnology;
-    int _basebandAdditionalTiersForRampUp;
-    _Bool _basebandAdaptationEnabled;
-    _Bool _basebandNotificationFromNWConnection;
-    _Bool _allowRampUpBasedOnBytesInFlight;
-    unsigned int _bytesInFlight;
-    unsigned int _bytesInFlightThreshold;
-    _Bool _bytesInFlightAdaptationEnabled;
-    struct tagVCRateControlSmartBrakeOutput _smartBrakeOutput;
-    double _localRCEventTime;
-    double _lastFeedbackTime;
-    unsigned int _lastFeedbackTargetBitrate;
-    unsigned short _previousTimestamp;
-    unsigned short _queuingDelayTimestamp;
-    unsigned int _receiveTimestamp;
-    unsigned int _timestampWrapAroundCounter;
-    unsigned int _lastRateChangeCounter;
-    unsigned int _newOWRDSampleCollected;
-    _Bool _isRemoteBandwidthEstimationStable;
-    struct tagVCRateControlHistoryElement _history[500];
-    int _currentHistorySize;
-    int _currentHistoryIndex;
-    double _previousNOWRD;
-    double _firstOWRDFrozenTime;
-    double _rampUpFrozenDuration;
-    double _extendedRampUpFrozenExitTime;
-    double _stabilizationTime;
-    double _rateChangeSystemTime;
-    double _lastPositiveOWRDTime;
-    double _lastAllowRampUpTime;
-    _Bool _isRampUpSettling;
-    unsigned int _fastRampDownBitrateRange;
-    double _rampUpSettleDuration;
-    _Bool _shouldSuppressRampDown;
-    unsigned int _rampDownSuppressionBitrateThreshold;
-    unsigned int _additionalTierForRampDown;
-    double _basebandLTEOrGreaterRATSwitchTime;
-    _Bool _isWaitingForBasebandRampDown;
-    double _lastBasebandRampDownTime;
-    double _lastHighNBDCDTime;
-    unsigned int _packetReceivedVideo;
-    unsigned int _packetBurstLoss;
-    unsigned int _roundTripTimeTick;
-    double _previousRoundTripTime;
-    double _lastNetworkUnstableTime;
-    _Bool _withBTCoex;
-    VCRateControlSmartBrake *_smartBrake;
-    struct tagVCRateControlSmartBrakeInput _smartBrakeInput;
-    double _lastSmartBrakeEngageTime;
-    _Bool _isSmartBrakeCongestionTimeAboveThreshold;
 }
 
 - (double);

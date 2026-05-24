@@ -18,15 +18,15 @@
 + (_Bool)text content type:%@
  /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)bstones for recordIDs:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)WorkoutAlwaysPrompt;
 - (id);
-- (id);
+- (id)ggleTransitionsCommand;
 - (unsigned long long);
 - (void)Ô ;
-- (_Bool)Groups;
-- (void)RenderingMode:(id)arg1;
+- (_Bool)trailingItemGroups;
+- (void)setDefaultRenderingMode:(id)arg1;
 - (id),V_lifted;
 - (void)øA[;
 

@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutFramesQueryOffsets
 {
     long long _indexOffset;
-    long long _supplementaryIndexOffset;
-    struct CGPoint _frameOffset;
 }
 
 - (long long);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)odyStreamForTask:(long long)arg1 )` delegate method.;
 - (id);
 - (void);
 - (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint frameOffset; // @synthesize frameOffset=_frameOffset;
-@property(nonatomic) long long indexOffset; // @synthesize indexOffset=_indexOffset;
-@property(nonatomic) long long supplementaryIndexOffset; // @synthesize supplementaryIndexOffset=_supplementaryIndexOffset;
 
 @end
 

@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IDENTITYSchemaIDENTITYIDScoreCard, NSData, NSString;
+@class NSString;
 
 @interface IDENTITYSchemaIDENTITYResultCandidateReceived : SISchemaInstrumentationMessage
 {
     NSString *_resultCandidateId;
-    _Bool _isSelected;
-    IDENTITYSchemaIDENTITYIDScoreCard *_identityScoreCard;
-    struct {
-        unsigned int isSelected:1;
-    } _has;
-    _Bool _hasResultCandidateId;
-    _Bool _hasIdentityScoreCard;
 }
 
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -32,15 +25,15 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (void)_authContextFromAuthOptions:(_Bool)arg1;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)getHandlesSharingMyLocationWithGroupId:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)iriSchemaODDExperimentFixedDimensions",&,N,V_experimentFixedDimensions;
 - (id)</x/;
@@ -48,12 +41,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentityScoreCard; // @synthesize hasIdentityScoreCard=_hasIdentityScoreCard;
-@property(nonatomic) _Bool hasIsSelected;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYIDScoreCard *identityScoreCard; // @synthesize identityScoreCard=_identityScoreCard;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSXPCConnectionExpectedReplies
 {
     struct __CFDictionary *_replyTable;
-    unsigned long long _sequence;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

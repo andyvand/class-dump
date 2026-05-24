@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKInterestNotification, IOKNotificationPort, IOKService, NSObject, _TSF_IODConnection;
-@protocol OS_dispatch_queue;
+@class IOKService;
 
 @interface _TSF_TSDgPTPPort
 {
     IOKService *_service;
-    IOKNotificationPort *_notificationPort;
-    IOKInterestNotification *_generalInterestNotification;
-    _Bool _updatePropertiesOnPropertyChange;
-    _Bool _logNotifyTest;
-    unsigned short _portNumber;
-    int _portRole;
-    unsigned long long _clockIdentifier;
-    NSObject<OS_dispatch_queue> *_propertyUpdateQueue;
-    _TSF_IODConnection *_connection;
 }
 
 + (id);
@@ -26,11 +16,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -41,7 +31,7 @@
 - (id);
 - (void);
 - (int);
-- (unsigned short);
+- (unsigned short);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -56,14 +46,7 @@
 - (int)Ô ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(readonly, nonatomic) _TSF_IODConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) _Bool logNotifyTest; // @synthesize logNotifyTest=_logNotifyTest;
 @property(nonatomic) unsigned short portNumber; // @synthesize portNumber=_portNumber;
-@property(nonatomic) int portRole; // @synthesize portRole=_portRole;
-@property(readonly, nonatomic) int portType; // @dynamic portType;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyUpdateQueue; // @synthesize propertyUpdateQueue=_propertyUpdateQueue;
-@property(readonly, nonatomic) IOKService *service;
 
 @end
 

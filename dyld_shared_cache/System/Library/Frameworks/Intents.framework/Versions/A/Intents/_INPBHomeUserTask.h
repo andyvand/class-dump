@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeAttributeValue;
-
 @interface _INPBHomeUserTask
 {
     struct {
         unsigned int attribute:1;
         unsigned int taskType:1;
     } _has;
-    int _attribute;
-    int _taskType;
-    _INPBHomeAttributeValue *_value;
 }
 
 + (_Bool);
@@ -34,29 +29,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)}s:(id)arg1 %u) testHomeNetworks activation;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)dataDisableAutocorrect;
-- (int)earchCallHistory: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)b;
+- (void)INIntentResponseParameterMetadataDisableAutocorrect;
+- (int)defaultUnseenForSearchCallHistory: /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
 @property(nonatomic) int attribute; // @synthesize attribute=_attribute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAttribute;
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) int taskType; // @synthesize taskType=_taskType;
-@property(retain, nonatomic) _INPBHomeAttributeValue *value; // @synthesize value=_value;
 
 @end
 

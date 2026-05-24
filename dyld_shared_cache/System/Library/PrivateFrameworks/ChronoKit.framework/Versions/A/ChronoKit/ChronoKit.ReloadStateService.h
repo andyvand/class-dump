@@ -7,8 +7,6 @@
 @interface ChronoKit.ReloadStateService
 {
     id _persistenceStore;
-    id _lock;
-    id _lock_reloadState;
 }
 
 @end

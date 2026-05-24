@@ -7,7 +7,6 @@
 @interface NewsFeed.DiagnosticFileProvider
 {
     id webEmbedDiagnosticAttachmentProvider;
-    id attachmentResolver;
 }
 
 - (id);

@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVAudioSessionPlayStateInfo
 {
     unsigned int playState;
-    unsigned int IOModes;
-    CDUnknownFunctionPointerType IOProcID;
-    NSString *deviceUID;
 }
 
-- (unsigned int);
-- (CDUnknownFunctionPointerType);
-- (unsigned int);
+- (unsigned int),W,V_delegate;
+- (CDUnknownFunctionPointerType)NEIKEv2IPv4NetmaskAttribute;
+- (unsigned int)NEIKEv2IPv4AddressAttribute;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)dìt;
-- (id)ferredKey;
+- (id)AVAudioSessionConcurrentAirPlayAudioPreferredKey;
 
 // Remaining properties
-@property(nonatomic) unsigned int IOModes; // @synthesize IOModes;
-@property(nonatomic) CDUnknownFunctionPointerType IOProcID; // @synthesize IOProcID;
-@property(retain, nonatomic) NSString *deviceUID; // @synthesize deviceUID;
 @property(nonatomic) unsigned int playState; // @synthesize playState;
 
 @end

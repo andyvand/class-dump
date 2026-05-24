@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ODDPointPropertySet
 {
     NSString *mLayoutTypeId;
-    NSString *mPresentationName;
-    NSString *mPresentationStyleLabel;
-    int mPresentationStyleIndex;
-    int mPresentationStyleCount;
-    NSObject *mPresentationAssociatedId;
-    _Bool mCustomVerticalFlip;
-    double mCustomScaleX;
-    double mCustomScaleY;
-    double mCustomOffsetX;
-    double mCustomOffsetY;
 }
 
 - (void);
@@ -27,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	k@];
 - (void);
 - (id);
 - (int);

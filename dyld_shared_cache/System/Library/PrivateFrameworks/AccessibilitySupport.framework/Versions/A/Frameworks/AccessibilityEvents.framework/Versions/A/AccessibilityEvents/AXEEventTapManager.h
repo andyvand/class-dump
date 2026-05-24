@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXEEventTap, NSArray, NSLock, NSString;
-
 @interface AXEEventTapManager
 {
     unsigned int __tapPlacement;
-    unsigned long long _location;
-    unsigned long long __priority;
-    NSLock *__listenerLock;
-    NSArray *__passiveListeners;
-    NSArray *__activeListeners;
-    AXEEventTap *__passiveEventTap;
-    AXEEventTap *__activeEventTap;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)v;
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)@qa;
 - (void);
 - (void);
 - (void);
@@ -38,7 +29,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (id);
@@ -50,29 +41,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)j;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AXEEventTap *_activeEventTap; // @synthesize _activeEventTap=__activeEventTap;
-@property(copy, nonatomic) NSArray *_activeListeners; // @synthesize _activeListeners=__activeListeners;
-@property(readonly, nonatomic) NSLock *_listenerLock; // @synthesize _listenerLock=__listenerLock;
-@property(retain, nonatomic) AXEEventTap *_passiveEventTap; // @synthesize _passiveEventTap=__passiveEventTap;
-@property(copy, nonatomic) NSArray *_passiveListeners; // @synthesize _passiveListeners=__passiveListeners;
-@property(readonly, nonatomic) unsigned long long _priority; // @synthesize _priority=__priority;
 @property(readonly, nonatomic) unsigned int _tapPlacement; // @synthesize _tapPlacement=__tapPlacement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long location; // @synthesize location=_location;
-@property(readonly) Class superclass;
 
 @end
 

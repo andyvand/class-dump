@@ -6,26 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSContactSuggestion : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_suggestionId;
-    int _source;
-    double _confidence;
-    NSArray *_contributingGroundTruths;
-    struct {
-        unsigned int source:1;
-        unsigned int confidence:1;
-    } _has;
-    _Bool _hasSuggestionId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)I;
 - (void);
 - (id);
 - (unsigned long long);
@@ -34,7 +26,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -42,7 +34,7 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)| Cannot recover:(id)arg1 message part number already exists. Not inserting into main message body for messageGUID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (int);
@@ -50,20 +42,13 @@
 × ;
 - (double)ext";
 - (void)hasNeuralCombinerThreshold;
-- (id)tachmentExists;
+- (id)_hasSmsAttachmentExists;
 - (id)asEndpointDelayContext;
-- (_Bool)AMETERTYPE_IMAGE;
+- (_Bool)LINKPARAMETERTYPE_IMAGE;
 - (void)nt.CNVActionCandidatesCollated;
-- (void)NT_ROOM;
+- (void)ASRSPEECHPROFILECATEGORY_NT_ROOM;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(copy, nonatomic) NSArray *contributingGroundTruths; // @synthesize contributingGroundTruths=_contributingGroundTruths;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int source; // @synthesize source=_source;
 @property(retain, nonatomic) SISchemaUUID *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end

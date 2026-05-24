@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
+- (id)_IDSDeviceConnectionActiveMap;
+- (id)h;
+- (id)prefilterFetchInterval;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties

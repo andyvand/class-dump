@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, STYGeneralSignpostMonitorHelper, STYSignpostStreamingStatistics, STYSpecialAppLaunchSignpostMonitorHelper, STYWorkflowResponsivenessMonitorHelper, SignpostSupportObjectExtractor;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface STYSignpostsMonitor
 {
     unsigned int _successiveExtractorFailureCount;
-    unsigned int _eventCount;
-    NSObject<OS_dispatch_queue> *_monitorQueue;
-    SignpostSupportObjectExtractor *_signpostExtractor;
-    STYSignpostStreamingStatistics *_streamingStatistics;
-    NSDate *_timeOfLastExtractorFailure;
-    STYGeneralSignpostMonitorHelper *_generalSignpostHelper;
-    STYSpecialAppLaunchSignpostMonitorHelper *_specialAppLaunchSignpostHelper;
-    STYWorkflowResponsivenessMonitorHelper *_workflowResponsivenessHelper;
 }
 
 + (id);
@@ -42,29 +34,21 @@
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (unsigned int);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)ry/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsDeleteSupportImprover.m;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)ۦ;
 - (void);
 
 // Remaining properties
-@property unsigned int eventCount; // @synthesize eventCount=_eventCount;
-@property(retain) STYGeneralSignpostMonitorHelper *generalSignpostHelper; // @synthesize generalSignpostHelper=_generalSignpostHelper;
 @property(retain) NSObject<OS_dispatch_queue> *monitorQueue; // @synthesize monitorQueue=_monitorQueue;
-@property(retain) SignpostSupportObjectExtractor *signpostExtractor; // @synthesize signpostExtractor=_signpostExtractor;
-@property(retain) STYSpecialAppLaunchSignpostMonitorHelper *specialAppLaunchSignpostHelper; // @synthesize specialAppLaunchSignpostHelper=_specialAppLaunchSignpostHelper;
-@property(retain) STYSignpostStreamingStatistics *streamingStatistics; // @synthesize streamingStatistics=_streamingStatistics;
-@property unsigned int successiveExtractorFailureCount; // @synthesize successiveExtractorFailureCount=_successiveExtractorFailureCount;
-@property(retain) NSDate *timeOfLastExtractorFailure; // @synthesize timeOfLastExtractorFailure=_timeOfLastExtractorFailure;
-@property(retain) STYWorkflowResponsivenessMonitorHelper *workflowResponsivenessHelper; // @synthesize workflowResponsivenessHelper=_workflowResponsivenessHelper;
 
 @end
 

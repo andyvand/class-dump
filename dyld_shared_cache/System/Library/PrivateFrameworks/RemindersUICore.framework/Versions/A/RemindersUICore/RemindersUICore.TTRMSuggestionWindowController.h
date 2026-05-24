@@ -7,15 +7,12 @@
 @interface RemindersUICore.TTRMSuggestionWindowController
 {
     id delegate;
-    id localMouseDownEventMonitor;
-    id lostFocusObserver;
-    id viewShownFor;
 }
 
-- (void);
+- (void)activityObservingApplicationWindowDidBecomeBackground;
 - (id);
 - (void);
-- (id);
+- (id)ideoType"b1"adSupportedChannel"b1"isDigitalReplicaAd"b1"isNativeAd"b1"isUserSubscribedToFeed"b1"isVideoInFeed"b1};
 - (void);
 - (void);
 - (void);

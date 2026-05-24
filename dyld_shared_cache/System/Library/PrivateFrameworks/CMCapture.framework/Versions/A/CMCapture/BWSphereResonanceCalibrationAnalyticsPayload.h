@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWSphereResonanceCalibrationAnalyticsPayload
 {
     long long _magneticFieldMagnitude;
-    NSString *_portType;
-    unsigned int _calibrationStatus;
-    int _sphereXAxisResonantFrequency;
-    int _sphereYAxisResonantFrequency;
-    int _deltaSphereXAxisResonantFrequency;
-    int _deltaSphereYAxisResonantFrequency;
-    int _sphereXAxisDampingCoefficient;
-    int _sphereYAxisDampingCoefficient;
-    int _deltaSphereXAxisDampingCoefficient;
-    int _deltaSphereYAxisDampingCoefficient;
-    int _sphereXAxisLoopGain;
-    int _sphereYAxisLoopGain;
 }
 
 - (int);
@@ -44,39 +30,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (int);
-- (int);
+- (int)I;
 - (int);
 - (int);
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)TCBackgroundThreadManager;
 - (id);
 - (id);
-- (id);
+- (id)proxd.btpairing.connect;
 - (id)ig-prepare;
 
 // Remaining properties
-@property(nonatomic) unsigned int calibrationStatus; // @synthesize calibrationStatus=_calibrationStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int deltaSphereXAxisDampingCoefficient; // @synthesize deltaSphereXAxisDampingCoefficient=_deltaSphereXAxisDampingCoefficient;
-@property(nonatomic) int deltaSphereXAxisResonantFrequency; // @synthesize deltaSphereXAxisResonantFrequency=_deltaSphereXAxisResonantFrequency;
-@property(nonatomic) int deltaSphereYAxisDampingCoefficient; // @synthesize deltaSphereYAxisDampingCoefficient=_deltaSphereYAxisDampingCoefficient;
-@property(nonatomic) int deltaSphereYAxisResonantFrequency; // @synthesize deltaSphereYAxisResonantFrequency=_deltaSphereYAxisResonantFrequency;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long magneticFieldMagnitude; // @synthesize magneticFieldMagnitude=_magneticFieldMagnitude;
-@property(copy, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) int sphereXAxisDampingCoefficient; // @synthesize sphereXAxisDampingCoefficient=_sphereXAxisDampingCoefficient;
-@property(nonatomic) int sphereXAxisLoopGain; // @synthesize sphereXAxisLoopGain=_sphereXAxisLoopGain;
-@property(nonatomic) int sphereXAxisResonantFrequency; // @synthesize sphereXAxisResonantFrequency=_sphereXAxisResonantFrequency;
-@property(nonatomic) int sphereYAxisDampingCoefficient; // @synthesize sphereYAxisDampingCoefficient=_sphereYAxisDampingCoefficient;
-@property(nonatomic) int sphereYAxisLoopGain; // @synthesize sphereYAxisLoopGain=_sphereYAxisLoopGain;
-@property(nonatomic) int sphereYAxisResonantFrequency; // @synthesize sphereYAxisResonantFrequency=_sphereYAxisResonantFrequency;
-@property(readonly) Class superclass;
 
 @end
 

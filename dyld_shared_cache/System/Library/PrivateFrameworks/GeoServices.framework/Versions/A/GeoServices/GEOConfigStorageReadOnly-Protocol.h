@@ -5,6 +5,6 @@
 //
 
 @protocol GEOConfigStorageReadOnly
-- (void)info;
+- (void)label_info;
 @end
 

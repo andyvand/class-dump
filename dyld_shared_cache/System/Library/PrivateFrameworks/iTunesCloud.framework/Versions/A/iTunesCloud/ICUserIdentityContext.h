@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, ICUserIdentityStore;
+@class ICUserIdentity;
 
 @interface ICUserIdentityContext
 {
     ICUserIdentity *_identity;
-    ICUserIdentityStore *_identityStore;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)=~;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)h9;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)g",C,N,V_buildIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) ICUserIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) ICUserIdentityStore *identityStore; // @synthesize identityStore=_identityStore;
 
 @end
 

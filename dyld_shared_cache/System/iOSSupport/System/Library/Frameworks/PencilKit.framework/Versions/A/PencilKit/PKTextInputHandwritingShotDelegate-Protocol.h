@@ -5,5 +5,6 @@
 //
 
 @protocol PKTextInputHandwritingShotDelegate
+- (void);
 @end
 

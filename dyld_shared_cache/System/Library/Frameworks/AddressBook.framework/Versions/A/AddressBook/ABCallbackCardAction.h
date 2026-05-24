@@ -14,7 +14,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)k!;
 - (id);
 - (id)face"16@0:8 /* Error: Ran out of types for this method. */;
 

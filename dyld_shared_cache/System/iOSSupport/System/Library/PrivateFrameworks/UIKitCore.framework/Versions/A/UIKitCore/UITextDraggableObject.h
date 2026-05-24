@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSItemProvider, UITextRange;
+@class NSItemProvider;
 
 @interface UITextDraggableObject
 {
     NSItemProvider *_itemProvider;
-    UITextRange *_range;
-    CDUnknownBlockType _targetedPreviewProvider;
-    CDUnknownBlockType _previewProvider;
 }
 
 + (id);
+- (CDUnknownBlockType)deviceInformationString;
+- (void)_noticeDispatcher;
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
+- (id)buildWithIdentifier:withLocked:withOverridePicturePath: /* Error: Ran out of types for this method. */;
 - (id)ellProviding>"16@"<UITableConstantsTableProviding>"24;
-- (void)nitialSpringVelocity:(id)arg1 options:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)animateWithDuration:(id)arg1 delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(copy, nonatomic) CDUnknownBlockType previewProvider; // @synthesize previewProvider=_previewProvider;
-@property(retain, nonatomic) UITextRange *range; // @synthesize range=_range;
-@property(copy, nonatomic) CDUnknownBlockType targetedPreviewProvider; // @synthesize targetedPreviewProvider=_targetedPreviewProvider;
 
 @end
 

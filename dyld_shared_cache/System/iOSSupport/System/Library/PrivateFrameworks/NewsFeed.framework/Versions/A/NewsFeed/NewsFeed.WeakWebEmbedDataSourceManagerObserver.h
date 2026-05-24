@@ -7,7 +7,6 @@
 @interface NewsFeed.WeakWebEmbedDataSourceManagerObserver
 {
     id observer;
-    id dataVisualization;
 }
 
 @end

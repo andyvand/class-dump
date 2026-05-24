@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VNClassificationObservation;
+@class VNClassificationObservation;
 
 @interface VNFaceAttributeCategory
 {
     VNClassificationObservation *_mostLikelyLabel;
-    NSArray *_allLabelsWithConfidences;
-    unsigned long long _requestRevision;
 }
 
 + (_Bool);
@@ -19,9 +17,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)changeItem:(id)arg1 baseVersion:changedFields:contents:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -30,9 +28,7 @@
 - (void)rnerVec ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allLabelsWithConfidences; // @synthesize allLabelsWithConfidences=_allLabelsWithConfidences;
 @property(copy, nonatomic) VNClassificationObservation *label; // @synthesize label=_mostLikelyLabel;
-@property(readonly, nonatomic) unsigned long long requestRevision; // @synthesize requestRevision=_requestRevision;
 
 @end
 

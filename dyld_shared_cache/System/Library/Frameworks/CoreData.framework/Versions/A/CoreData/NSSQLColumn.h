@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)RBSXPCMessageContext;
 - (void);
 - (unsigned char)ned to a user record:%@ /* Error: Ran out of types for this method. */;
 - (unsigned int)as caught during Core Data change processing.  This is usually a bug within an observer of NSManagedObjectContextObjectsDidChangeNotification.;

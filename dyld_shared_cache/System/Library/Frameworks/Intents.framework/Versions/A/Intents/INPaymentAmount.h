@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, NSString;
+@class INCurrencyAmount;
 
 @interface INPaymentAmount
 {
     INCurrencyAmount *_amount;
-    long long _amountType;
 }
 
 + (id);
@@ -17,28 +16,20 @@
 - (id);
 - (long long);
 - (id);
+- (id)boolForKey:(id)arg1;
 - (id);
+- (unsigned long long)k;
+- (_Bool)didForceAllRemainingChannels;
+- (void)istMetrics nil;
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)completion:(unsigned long long)arg1;
-- (void)eDateTimeRangeOptionsCollectionForSearchForMessages:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)confirmRetrieveParkingLocation:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)provideDateTimeRangeOptionsCollectionForSearchForMessages:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)bí;
 - (id)tÃÿzp%rh;
 
 // Remaining properties
 @property(readonly, copy) INCurrencyAmount *amount; // @synthesize amount=_amount;
-@property(readonly) long long amountType; // @synthesize amountType=_amountType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVoiceController, NSDate, NSString, NSURL;
-@protocol CKAudioRecorderDelegate;
-
 @interface CKAudioRecorder
 {
     _Bool _paused;
-    _Bool _recording;
-    _Bool _cancelled;
-    _Bool _shouldPlayStartSound;
-    _Bool _shouldPlayStopSound;
-    id <CKAudioRecorderDelegate> _delegate;
-    CDUnknownBlockType _completion;
-    long long _totalPacketsCount;
-    NSURL *_fileURL;
-    CKVoiceController *_voiceController;
-    NSDate *_startDate;
-    struct OpaqueAudioFileID *_fileID;
 }
 
-- (void);
-- (void);
-- (void);
+- (void),W,N,V_delegate;
+- (void)N;
+- (void)dentifier;
 - (long long);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
+- (void)T;
+- (_Bool)thumbnailService;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_;=;
+- (void)u;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)^;
 - (void);
 - (float);
 - (double);
@@ -57,9 +43,9 @@
 - (id);
 - (CDUnknownBlockType)Qð1Â0@ù
 × ;
-- (void)ontextMenuInteractionWithConfiguration:(_Bool)arg1 animator: /* Error: Ran out of types for this method. */;
+- (void)collectionView:(_Bool)arg1 willEndContextMenuInteractionWithConfiguration:animator: /* Error: Ran out of types for this method. */;
 - (void)ing latitude:(id)arg1 %@ or longitude:%@ from spotlight result /* Error: Ran out of types for this method. */;
-- (_Bool)TED_RETRY_RETRACTION_ALERT_DESCRIPTION;
+- (_Bool)MESSAGE_NOT_RETRACTED_RETRY_RETRACTION_ALERT_DESCRIPTION;
 - (void);
 - (void)ÔÆÿðj×ÆÿðjØÑÆÿðjr¥ÿqðjäÆÿQðjdäÆÿ¡ðjø²ÿðjÐA¦ÿðjäÆÿqðj(åÆÿYðj¸ú²ÿYðj$ZÆÿ©ðjHÙÆÿyðjLû²ÿyðjHû²ÿaðjZÆÿ;
 - (id)<§ÿ¿97;0;
@@ -69,26 +55,7 @@
 - (_Bool)¬ká¬4;
 
 // Remaining properties
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKAudioRecorderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic) struct OpaqueAudioFileID *fileID; // @synthesize fileID=_fileID;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
 @property(nonatomic, getter=isRecording) _Bool recording; // @synthesize recording=_recording;
-@property(nonatomic) _Bool shouldPlayStartSound; // @synthesize shouldPlayStartSound=_shouldPlayStartSound;
-@property(nonatomic) _Bool shouldPlayStopSound; // @synthesize shouldPlayStopSound=_shouldPlayStopSound;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(nonatomic) long long totalPacketsCount; // @synthesize totalPacketsCount=_totalPacketsCount;
-@property(retain, nonatomic) CKVoiceController *voiceController; // @synthesize voiceController=_voiceController;
 
 @end
 

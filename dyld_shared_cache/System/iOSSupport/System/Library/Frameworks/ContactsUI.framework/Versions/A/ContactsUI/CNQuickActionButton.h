@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNQuickAction, NSArray, UIButton, UILabel;
-@protocol CNQuickActionButtonDelegate;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface CNQuickActionButton
 {
     _Bool _showTitle;
-    _Bool _showBackgroundPlatter;
-    CNQuickAction *_action;
-    id <CNQuickActionButtonDelegate> _delegate;
-    UIButton *_button;
-    UILabel *_label;
-    NSArray *_activatedConstraints;
 }
 
 - (_Bool);
@@ -31,22 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)}iq}16@24Q32;
+- (void)agesNeedingAttachments:(id)arg1;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)ontactAvatarProvider:(id)arg1;
-- (void)sary;
+- (void)setEditingContactAvatarProvider:(id)arg1;
+- (void)_startListeningToIDSServiceAvailabilityIfNecessary;
 - (id)äp;
 
 // Remaining properties
-@property(retain, nonatomic) CNQuickAction *action; // @synthesize action=_action;
-@property(retain, nonatomic) NSArray *activatedConstraints; // @synthesize activatedConstraints=_activatedConstraints;
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) __weak id <CNQuickActionButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(nonatomic) _Bool showBackgroundPlatter; // @synthesize showBackgroundPlatter=_showBackgroundPlatter;
-@property(nonatomic) _Bool showTitle; // @synthesize showTitle=_showTitle;
 
 @end
 

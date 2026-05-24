@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CPXFocusControlling, CPXProcessManaging;
+@protocol CPXProcessManaging;
 
 __attribute__((visibility("hidden")))
 @interface CPXEntryPointsService
 {
     id <CPXProcessManaging> _processManager;
-    id <CPXFocusControlling> _focusController;
 }
 
-- (id);
-- (int);
-- (int);
+- (id)ile with the read only option at path:(id)arg1 %@;
+- (int)ABLE ;
+- (int)@, 0);
 - (void);
 
 @end

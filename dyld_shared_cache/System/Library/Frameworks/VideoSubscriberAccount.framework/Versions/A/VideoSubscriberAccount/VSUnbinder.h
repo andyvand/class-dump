@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface VSUnbinder
 {
     _Bool _invalid;
-    NSMapTable *_bindingsByBinder;
 }
 
 - (void);
@@ -18,13 +15,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)І;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *bindingsByBinder; // @synthesize bindingsByBinder=_bindingsByBinder;
 @property(nonatomic, getter=isInvalid) _Bool invalid; // @synthesize invalid=_invalid;
 
 @end

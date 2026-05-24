@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ArraySlicer
 {
     unsigned long long _sliceSize;
-    unsigned long long _count;
-    unsigned long long _offset;
-    NSArray *_array;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (unsigned long long);
 - (void);
 

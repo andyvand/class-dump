@@ -11,16 +11,16 @@
 + (id);
 - (void);
 - (void);
+- (void))|;
+- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)lGenerator (for retrieving thumbnails) or Quick Look thumbnail extensions (for providing thumbnails). %@;
 - (_Bool);
 - (int);
-- (void);
+- (void)iggersPayload"16@0:(id)arg1 8;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;

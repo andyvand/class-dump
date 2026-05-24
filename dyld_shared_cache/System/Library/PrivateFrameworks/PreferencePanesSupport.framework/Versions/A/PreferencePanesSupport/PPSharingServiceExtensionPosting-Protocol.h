@@ -5,5 +5,6 @@
 //
 
 @protocol PPSharingServiceExtensionPosting
+- (void);
 @end
 

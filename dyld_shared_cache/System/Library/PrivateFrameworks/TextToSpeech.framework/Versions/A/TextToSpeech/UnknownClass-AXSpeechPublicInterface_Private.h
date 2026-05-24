@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface UnknownClass (AXSpeechPublicInterface_Private)
 + (void);
@@ -21,33 +21,25 @@
 - (void);
 - (struct AudioComponentDescription);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)rnalPresentationClockType"i"isServerPacketRetransmissionEnabled"B"isRTTBasedFIRThrottlingEnabled"B"nackGeneratorStoreBagsConfig"{tagVCNACKGeneratorStoreBagsConfig="nackGeneratorStorebagConfigVersion"C"nackSeqNumAgingDuration"f"nackThrottlingBitRateLimitingMaxRatio"f"isExtraDelayForPacketRetransmissionsEnabled"B"nackThrottlingFactorBuckets"[4f]"nackThrottlingPlrBuckets"[4f]"nackGenerationMaxPLR"f"nackGenerationMaxRTT"f"rttForRTxFulfillmentWaitTime"f"rttForRTxFulfillmentMultiplier"f"rtxIncompleteFrameBufferDurationMultiplier"f}"forceZeroRegionOfInterestOrigin"B"isLateKeyFrameDetectionEnabled"B"cannedReplayContext"^v"rateAdaptation"^v"overlayToken"q"minPlaybackInterval"d"minRenderingDelay"d"noVideoDisplayedTimeoutSeconds"d"fixedJitterBufferSize"d"videoStallPercentageThreshold"I"reportVideoDegradedEvents"B"pdDecryptionContext"^v"pixelFormat"I"fecLossFeedbackBitfieldLength"S"useMultiImageDecoding"B"experimentManager"^v"enableInterleavedDecoding"B"numberOfInterleavedDecoders"I"logPrefix"[30c]};
+- (id)nvalid resolution:width=%u height=%u /* Error: Ran out of types for this method. */;
+- (id)networkTypePriority;
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)(9;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)ך;
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct AudioComponentDescription auComponentDesc;
-@property(retain, nonatomic) NSDictionary *extraAttributes;
-@property(readonly, nonatomic) NSString *groupName;
-@property(nonatomic) _Bool isFirstParty;
-@property(nonatomic) _Bool isPersonalVoice;
-@property(retain, nonatomic) NSString *manufacturerName;
 @property(retain, nonatomic) NSArray *primaryLanguages;
-@property(retain, nonatomic) NSArray *supportedLanguages;
-@property(retain, nonatomic) NSString *synthesizerBundleIdentifier;
 @end
 

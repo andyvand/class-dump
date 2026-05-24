@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface W5PeerDiscoveryEvent
 {
     NSArray *_peersFound;
-    NSArray *_peersLost;
-    NSDictionary *_info;
 }
 
 + (_Bool);
@@ -22,14 +20,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ailed to allocate buffer for image translucency test;
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *info; // @synthesize info=_info;
 @property(retain, nonatomic) NSArray *peersFound; // @synthesize peersFound=_peersFound;
-@property(retain, nonatomic) NSArray *peersLost; // @synthesize peersLost=_peersLost;
 
 @end
 

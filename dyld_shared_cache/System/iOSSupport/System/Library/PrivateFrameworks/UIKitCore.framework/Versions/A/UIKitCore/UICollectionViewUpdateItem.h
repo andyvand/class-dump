@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, NSUUID;
-
 @interface UICollectionViewUpdateItem
 {
     struct _UICollectionUpdateIndexPair _initialIndexPair;
-    struct _UICollectionUpdateIndexPair _finalIndexPair;
-    struct _UICollectionUpdateIndexPair _indexPairForAction;
-    struct {
-        unsigned int isAppendingSectionInsert:1;
-        unsigned int shouldReconfigure:1;
-    } _updateItemFlags;
-    NSIndexPath *_initialIndexPath;
-    NSIndexPath *_finalIndexPath;
-    long long _updateAction;
-    NSUUID *_identifier;
 }
 
 - (_Bool);
-- (id);
+- (id)tatusValueDictionary";
 - (long long);
 - (void);
 - (_Bool);
@@ -42,14 +30,14 @@
 - (_Bool)@40@0:8q16q24@32 /* Error: Ran out of types for this method. */;
 - (id)d}{CGSize=dd}}72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16Q48@56@64 /* Error: Ran out of types for this method. */;
 - (id)erContextTransitioning>";
-- (long long)ornerConfiguration;
-- (_Bool)eDistanceFactor;
-- (long long)Materials: /* Error: Ran out of types for this method. */;
-- (void)DefinedTraits;
-- (long long)ameForInterfaceOrientation:(id)arg1 usingStatusbarHeight: /* Error: Ran out of types for this method. */;
-- (long long)cumentState: /* Error: Ran out of types for this method. */;
-- (_Bool)ged: /* Error: Ran out of types for this method. */;
-- (void)nect;
+- (long long)updateCornerConfiguration;
+- (_Bool)effectiveDistanceFactor;
+- (long long)_setShouldAdaptToMaterials: /* Error: Ran out of types for this method. */;
+- (void)_clientDefinedTraits;
+- (long long)_applicationFrameForInterfaceOrientation:(id)arg1 usingStatusbarHeight: /* Error: Ran out of types for this method. */;
+- (long long)_addTextCheckingAnnotatedStringToDocumentState: /* Error: Ran out of types for this method. */;
+- (_Bool)_accessibilitySettingsChanged: /* Error: Ran out of types for this method. */;
+- (void)_discardSessionOnUserDisconnect;
 - (_Bool)skImage:(id)arg1;
 - (id)0)4//ä/00@1;
 - (id);
@@ -62,29 +50,7 @@
 - (_Bool)P>^þNsÓÀck;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _finalItem;
-@property(readonly, nonatomic) long long _finalSection;
-@property(readonly, nonatomic) long long _initialItem;
-@property(readonly, nonatomic) long long _initialSection;
-@property(readonly, nonatomic) long long _item;
-@property(readonly, nonatomic) long long _section;
 @property(readonly, nonatomic, getter=_action) long long action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=_indexPath) NSIndexPath *indexPath;
-@property(readonly, nonatomic) NSIndexPath *indexPathAfterUpdate; // @synthesize indexPathAfterUpdate=_finalIndexPath;
-@property(readonly, nonatomic) NSIndexPath *indexPathBeforeUpdate; // @synthesize indexPathBeforeUpdate=_initialIndexPath;
-@property(nonatomic) _Bool isAppendingSectionInsert;
-@property(readonly, nonatomic, getter=_isSectionOperation) _Bool isSectionOperation;
-@property(retain, nonatomic, getter=_newIndexPath, setter=_setNewIndexPath:) NSIndexPath *newIndexPath;
-@property(nonatomic, getter=_shouldReconfigure, setter=_setShouldReconfigure:) _Bool shouldReconfigure;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long updateAction; // @synthesize updateAction=_updateAction;
 
 @end
 

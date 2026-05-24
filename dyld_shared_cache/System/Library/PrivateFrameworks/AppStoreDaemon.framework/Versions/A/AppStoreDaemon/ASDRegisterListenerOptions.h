@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSString;
 
 @interface ASDRegisterListenerOptions
 {
     NSString *_clientID;
-    NSXPCConnection *_endpoint;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSXPCConnection *endpoint; // @synthesize endpoint=_endpoint;
 
 @end
 

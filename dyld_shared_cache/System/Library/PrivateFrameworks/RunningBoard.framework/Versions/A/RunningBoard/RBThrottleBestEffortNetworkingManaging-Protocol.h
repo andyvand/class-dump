@@ -5,5 +5,6 @@
 //
 
 @protocol RBThrottleBestEffortNetworkingManaging
+- (_Bool);
 @end
 

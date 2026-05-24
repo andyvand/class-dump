@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDTrustKitDecisioningManager, NSMutableDictionary, NSTimer;
+@class NSMutableDictionary;
 
 @interface IMDSpamCheckRequeryTracker
 {
     NSMutableDictionary *_trackedRecords;
-    NSTimer *_updateTimer;
-    double _updateTimeInterval;
-    double _timerTimeout;
-    IMDTrustKitDecisioningManager *_decisioningManager;
 }
 
 + (id);
@@ -38,11 +34,7 @@
 - (void),;
 
 // Remaining properties
-@property(retain, nonatomic) IMDTrustKitDecisioningManager *decisioningManager; // @synthesize decisioningManager=_decisioningManager;
-@property(nonatomic) double timerTimeout; // @synthesize timerTimeout=_timerTimeout;
 @property(readonly, nonatomic) NSMutableDictionary *trackedRecords; // @synthesize trackedRecords=_trackedRecords;
-@property(nonatomic) double updateTimeInterval; // @synthesize updateTimeInterval=_updateTimeInterval;
-@property(retain, nonatomic) NSTimer *updateTimer; // @synthesize updateTimer=_updateTimer;
 
 @end
 

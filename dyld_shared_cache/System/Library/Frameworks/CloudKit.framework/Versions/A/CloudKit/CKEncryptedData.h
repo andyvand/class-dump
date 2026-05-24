@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKEncryptedData
 {
     NSData *_data;
-    NSData *_encryptedData;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)setSessionID: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (void);
 - (_Bool);
 - (id);
@@ -37,16 +36,6 @@
 
 // Remaining properties
 @property(copy) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool needsDecryption;
-@property(readonly, nonatomic) _Bool needsEncryption;
-@property(readonly) Class superclass;
 
 @end
 

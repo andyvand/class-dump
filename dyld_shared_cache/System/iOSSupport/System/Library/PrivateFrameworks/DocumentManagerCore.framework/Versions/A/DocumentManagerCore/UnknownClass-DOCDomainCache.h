@@ -6,7 +6,7 @@
 
 @interface UnknownClass (DOCDomainCache)
 + (id);
-+ (id);
++ (id);
 + (void);
 @end
 

@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, SFAppleIDContactInfo, SFAppleIDIdentity, SFAppleIDValidationRecord;
+@class NSString;
 
 @interface SFAppleIDAccount
 {
     NSString *_altDSID;
-    NSString *_appleID;
-    NSString *_certificateToken;
-    NSDate *_certificateTokenCreationDate;
-    SFAppleIDContactInfo *_contactInfo;
-    NSDate *_creationDate;
-    SFAppleIDIdentity *_identity;
-    NSData *_privateKeyPersistentReference;
-    SFAppleIDValidationRecord *_validationRecord;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
@@ -40,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)alFormWithName(PCSLogContextRef, PCSIdentitySetRef, CFStringRef, bool, CFArrayRef, CFErrorRef *);
 - (id);
 - (id);
 - (void)ô;
@@ -48,14 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(retain, nonatomic) NSString *certificateToken; // @synthesize certificateToken=_certificateToken;
-@property(retain, nonatomic) NSDate *certificateTokenCreationDate; // @synthesize certificateTokenCreationDate=_certificateTokenCreationDate;
-@property(retain, nonatomic) SFAppleIDContactInfo *contactInfo; // @synthesize contactInfo=_contactInfo;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) SFAppleIDIdentity *identity; // @synthesize identity=_identity;
-@property(retain, nonatomic) NSData *privateKeyPersistentReference; // @synthesize privateKeyPersistentReference=_privateKeyPersistentReference;
-@property(retain, nonatomic) SFAppleIDValidationRecord *validationRecord; // @synthesize validationRecord=_validationRecord;
 
 @end
 

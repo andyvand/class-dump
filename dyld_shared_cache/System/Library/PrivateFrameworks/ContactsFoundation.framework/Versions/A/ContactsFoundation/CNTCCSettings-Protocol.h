@@ -5,5 +5,7 @@
 //
 
 @protocol CNTCCSettings
+- (void);
+- (void) ;
 @end
 

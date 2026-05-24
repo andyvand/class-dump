@@ -7,15 +7,13 @@
 @interface ContactsUICore.SilhouetteLayer
 {
     id spec;
-    id $__lazy_storage_$_businessLayer;
-    id $__lazy_storage_$_personLayer;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)ghtQueryContinuation: /* Error: Ran out of types for this method. */;
+- (void)`;
+- (void)restoreSpotlightQueryContinuation: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKDPStreamingAssetIdentifier
 {
     NSData *_fileSignature;
-    NSString *_owner;
-    NSData *_referenceSignature;
 }
 
 - (_Bool);
@@ -20,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)e.%{ptr}.%@.state;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,12 +32,7 @@
 - (void)adata operation deallocated before request completion block;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
-@property(readonly, nonatomic) _Bool hasFileSignature;
 @property(readonly, nonatomic) _Bool hasOwner;
-@property(readonly, nonatomic) _Bool hasReferenceSignature;
-@property(retain, nonatomic) NSString *owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) NSData *referenceSignature; // @synthesize referenceSignature=_referenceSignature;
 
 @end
 

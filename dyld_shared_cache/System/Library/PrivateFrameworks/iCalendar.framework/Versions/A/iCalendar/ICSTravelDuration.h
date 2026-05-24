@@ -6,7 +6,7 @@
 
 #import <iCalendar/ICSProperty.h>
 
-@class ICSDuration, NSString;
+@class NSString;
 
 @interface ICSTravelDuration : ICSProperty
 {
@@ -20,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) ICSDuration *duration;
 @property(retain, nonatomic) NSString *transparency;
 
 @end

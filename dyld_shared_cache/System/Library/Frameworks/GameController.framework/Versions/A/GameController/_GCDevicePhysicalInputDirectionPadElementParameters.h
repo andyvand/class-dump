@@ -6,28 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputElementParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputDirectionPadElementParameters : _GCDevicePhysicalInputElementParameters
 {
     _Bool _analog;
-    NSSet *_xySources;
-    NSSet *_xSources;
-    NSSet *_ySources;
-    NSSet *_upSources;
-    NSSet *_leftSources;
-    NSSet *_downSources;
-    NSSet *_rightSources;
-    unsigned long long _eventUpValueField;
-    unsigned long long _eventDownValueField;
-    unsigned long long _eventLeftValueField;
-    unsigned long long _eventRightValueField;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)setDestructiveActionSheetDetails:(struct _NSZone *)arg1;
 - (void);
 
 @end

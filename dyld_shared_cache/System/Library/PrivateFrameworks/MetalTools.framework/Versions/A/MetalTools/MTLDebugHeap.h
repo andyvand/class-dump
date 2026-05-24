@@ -11,9 +11,6 @@
 @interface MTLDebugHeap : MTLToolsHeap
 {
     struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
-    MTLDebugDevice *_debugDevice;
-    long long _maxCompatiblePlacementSparsePageSize;
 }
 
 - (void);
@@ -32,10 +29,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (long long);
 - (unsigned long long);
 - (_Bool);
@@ -44,11 +41,10 @@
 - (id)6ð1Â0@ù
 × ;
 - (id)@0:(unsigned long long)arg1 8;
-- (id)mpileVisibleFunction:(unsigned long long)arg1 withDescriptor:error: /* Error: Ran out of types for this method. */;
+- (id)compileVisibleFunction:(unsigned long long)arg1 withDescriptor:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MTLDebugDevice *debugDevice; // @synthesize debugDevice=_debugDevice;
-@property(readonly, nonatomic) long long maxCompatiblePlacementSparsePageSize; // @synthesize maxCompatiblePlacementSparsePageSize=_maxCompatiblePlacementSparsePageSize;
 
 @end
 

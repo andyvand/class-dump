@@ -22,9 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) _Bool isEnabledForBundle;
-@property(readonly, nonatomic) _Bool isEnabledForDevice;
-@property(readonly, nonatomic) _Bool isSupported;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, NSArray, NSError, NSString;
+@class MRDeviceInfo;
 
 @interface MRExternalDeviceTransport
 {
     long long _connectionType;
-    _Bool _requiresCustomPairing;
-    _Bool _isValid;
-    NSString *_uid;
-    NSArray *_subscribedPlayerPaths;
 }
 
 - (_Bool);
@@ -24,29 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_showWindows:completion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id)H;
 - (void)N,V_subscribedPlayerPaths;
-- (id)N_ACTIVITY_DATA_KEY;
+- (id)MRXPC_APPLICATION_ACTIVITY_DATA_KEY;
 
 // Remaining properties
-@property(readonly, nonatomic) long long connectionType; // @synthesize connectionType=_connectionType;
 @property(readonly, nonatomic) MRDeviceInfo *deviceInfo;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSString *hostname;
-@property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long port;
-@property(readonly, nonatomic) _Bool requiresCustomPairing; // @synthesize requiresCustomPairing=_requiresCustomPairing;
-@property(nonatomic) _Bool shouldUseSystemAuthenticationPrompt; // @dynamic shouldUseSystemAuthenticationPrompt;
-@property(readonly, nonatomic) NSArray *subscribedPlayerPaths; // @synthesize subscribedPlayerPaths=_subscribedPlayerPaths;
-@property(readonly, nonatomic) _Bool supportsIdleDisconnection;
-@property(readonly, nonatomic) _Bool supportsReconnection;
-@property(readonly, nonatomic) NSString *uid; // @synthesize uid=_uid;
 
 @end
 

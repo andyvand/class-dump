@@ -15,7 +15,7 @@
 + (const CDStruct_3a02d5a8 *);
 - (id);
 - (long long)DetectScreenGazeRequest;
-- (id)tate;
+- (id)E5RTExecutionPrewarmedState;
 - (_Bool);
 
 // Remaining properties

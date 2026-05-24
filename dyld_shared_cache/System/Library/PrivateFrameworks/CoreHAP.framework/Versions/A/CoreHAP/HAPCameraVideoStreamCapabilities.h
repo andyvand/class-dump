@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraVideoQualityWrapper, HAPTLVUnsignedNumberValue, NSData, NSString;
+@class NSData;
 
 @interface HAPCameraVideoStreamCapabilities
 {
     NSData *_identifier;
-    HAPCameraVideoQualityWrapper *_quality;
-    HAPTLVUnsignedNumberValue *_width;
-    HAPTLVUnsignedNumberValue *_height;
-    HAPTLVUnsignedNumberValue *_framesPerSecond;
-    HAPTLVUnsignedNumberValue *_averageBitrate;
-    HAPTLVUnsignedNumberValue *_peakBitrate;
 }
 
 + (id);
@@ -27,10 +21,10 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)reVersion:(id)arg1 state: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -38,24 +32,11 @@
 - (void);
 - (id);
 - (void)aracteristicPropertiesWrapper";
-- (id)eralInfo:advertisedProtocolVersion:previousProtocolVersion:resumeSessionId:lastSeen:statusFlags:stateNumber:configNumber:categoryIdentifier:accessoryName: /* Error: Ran out of types for this method. */;
+- (id)initWithPeripheralInfo:advertisedProtocolVersion:previousProtocolVersion:resumeSessionId:lastSeen:statusFlags:stateNumber:configNumber:categoryIdentifier:accessoryName: /* Error: Ran out of types for this method. */;
 - (void)irplayDelegate;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *averageBitrate; // @synthesize averageBitrate=_averageBitrate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *framesPerSecond; // @synthesize framesPerSecond=_framesPerSecond;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *height; // @synthesize height=_height;
 @property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *peakBitrate; // @synthesize peakBitrate=_peakBitrate;
-@property(retain, nonatomic) HAPCameraVideoQualityWrapper *quality; // @synthesize quality=_quality;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *width; // @synthesize width=_width;
 
 @end
 

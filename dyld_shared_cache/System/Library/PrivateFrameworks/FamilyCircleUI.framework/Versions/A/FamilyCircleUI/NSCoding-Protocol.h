@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (id)FLOWHOMEKITSERVICETYPE_IP_CAMERA;
 @end
 

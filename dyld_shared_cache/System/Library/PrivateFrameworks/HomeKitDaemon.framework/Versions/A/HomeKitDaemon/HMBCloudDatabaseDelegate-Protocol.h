@@ -9,6 +9,8 @@
 @protocol HMBCloudDatabaseDelegate
 
 @optional
+- (void);
+- (void)bundleForClass:(HMBCloudDatabase *)arg1;
 - (void)cteristics:(HMBCloudDatabase *)arg1 %@, properties:(NSError *)arg2 %@;
 @end
 

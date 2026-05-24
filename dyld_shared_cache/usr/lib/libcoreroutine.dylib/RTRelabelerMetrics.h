@@ -6,7 +6,7 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString, RTRelabeler;
+@class RTRelabeler;
 
 @interface RTRelabelerMetrics : RTMetric
 {
@@ -15,9 +15,9 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setUpdateWatch: /* Error: Ran out of types for this method. */;
++ (id)account;
++ (id)kPCSSetupStingrayUpdateSupport;
 + (id);
 + (CDStruct_b8464340);
 - (_Bool);
@@ -28,25 +28,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id);
 - (id);
 - (double);
-- (void);
+- (id);
+- (id);
+- (id);
+- (double)fetchComplete:(id)arg1 currentItemData:point:error: /* Error: Ran out of types for this method. */;
+- (void)ata:(id)arg1 %@];
 - (void)%s, gps location received, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RTRelabeler *relabeler; // @synthesize relabeler=_relabeler;
-@property(readonly) Class superclass;
 
 @end
 

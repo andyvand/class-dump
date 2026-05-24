@@ -4,9 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol _UIScrollViewScrollObserver_Internal
 
 @optional
+- (struct UIEdgeInsets)fetchAttachmentRecordsFilteredUsingPredicate:(UIScrollView *)arg1 limit:(_Bool)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)isLastBatchOfWrite:(UIScrollView *)arg1 activity:writeCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)_processModifyRecordsCompletion:(UIScrollView *)arg1 deletedRecordIDs:operationError:isLastBatchOfWrite:activity:writeCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)_processModifyPerRecordCallBack:(UIScrollView *)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_processMessagesForRelayIfNeededMarkingAsRelayedUponSuccess:(UIScrollView *)arg1;
+- (void)_processIncomingChat:(UIScrollView *)arg1;
+- (void)_processFetchRecordZoneChangesCompletionWithError:(UIScrollView *)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)e:(UIScrollView *)arg1 chat:serviceSession: /* Error: Ran out of types for this method. */;
+- (void)_processAssetFetchPerRecordProgressBlock:(UIScrollView *)arg1 progress:(struct CGPoint)arg2;
+- (void)_processAssetFetchPerRecordCompletionBlock:(UIScrollView *)arg1 recordID:(UIScrollView *)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)_processAssetFetchOperationCompletionBlock:(UIScrollView *)arg1 removeTombstones:(struct CGPoint)arg2 operationID:error: /* Error: Ran out of types for this method. */;
 - (void);
 @end
 

@@ -11,7 +11,7 @@
     NSString *_path;
 }
 
-- (_Bool);
+- (_Bool)<˟;
 - (id);
 - (id);
 - (_Bool);

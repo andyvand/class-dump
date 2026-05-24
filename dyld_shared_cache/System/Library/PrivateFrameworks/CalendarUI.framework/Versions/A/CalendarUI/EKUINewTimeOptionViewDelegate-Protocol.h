@@ -5,5 +5,6 @@
 //
 
 @protocol EKUINewTimeOptionViewDelegate
+- (void)T	;
 @end
 

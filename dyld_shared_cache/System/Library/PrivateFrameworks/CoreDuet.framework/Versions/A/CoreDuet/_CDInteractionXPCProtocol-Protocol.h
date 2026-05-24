@@ -5,5 +5,16 @@
 //
 
 @protocol _CDInteractionXPCProtocol
+- (void);
+- (void)g;
+- (void);
+- (void)m;
+- (void);
+- (void)\L;
+- (void)m;
+- (void)b0;
+- (void);
+- (void){;
+- (void)mO;
 @end
 

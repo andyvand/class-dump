@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ICLLPlaybackControlSettings, _ICLLQueue;
+@class _ICLLPlaybackControlSettings;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLQueueQuery
 {
     _ICLLPlaybackControlSettings *_controlSettings;
-    _ICLLQueue *_queue;
-    NSString *_queueContext;
-    int _revision;
-    CDStruct_3e022450 _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (id);
 - (id);

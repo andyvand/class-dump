@@ -9,14 +9,11 @@
 
 @protocol PXStoryChapter
 - (NSObject<NSCopying> *)@"NSIndexSet",C,N,V_reloadedTileKindsOnObjectChanged;
-- (NSString *)vigateToNextZoomLevelActionPerformer;
-- (NSString *)tionHeaderTitle;
+- (NSString *)_PXCuratedLibraryNavigateToNextZoomLevelActionPerformer;
+- (NSString *)LemonadeWallpaperSectionHeaderTitle;
 - (NSString *)Ð[Ê;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSObject<NSCopying> *identifier;
-@property(readonly, nonatomic) NSString *localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle;
 @end
 

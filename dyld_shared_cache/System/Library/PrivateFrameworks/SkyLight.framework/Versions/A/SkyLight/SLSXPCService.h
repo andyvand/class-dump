@@ -4,52 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface SLSXPCService
 {
     _Bool _enabled;
-    _Bool _connected;
-    _Bool _setTarget;
-    _Bool _autoreconnect;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    CDUnknownBlockType _errorBlock;
-    CDUnknownBlockType _notificationBlock;
-    CDUnknownBlockType _clientErrorBlock;
-    CDUnknownBlockType _clientNotificationBlock;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (const char *);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)]_block_invoke_3;
+- (void)Sending '%@';
+- (void)hare invitation.;
+- (void)te _performFetchRecordsRequest:(CDUnknownBlockType)arg1 ]_block_invoke_2;
+- (void)ata:(CDUnknownBlockType)arg1 CloudKit Fetch Records;
+- (void)rroring delegate could not complete request '%@' because it does not have a zone.;
+- (id)Export;
+- (int)dkit.export;
+- (int)t:importer:] /* Error: Ran out of types for this method. */;
+- (void)gDelegate _performImportWithRequest:(id)arg1 ]_block_invoke_2;
+- (_Bool)t in this process.;
+- (id)alToPredicateOperatorType;
+- (id)ualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (id)nOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (id)hanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (id)ToPredicateOperatorType,
+NSGreaterThanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (void)iginal url is not a required file url;
+- (id)on-file URL to a file backed NSData;
+- (id)needsLocalDelete;
+- (CDUnknownBlockType)isUploaded;
+- (id)%p - %@>;
+- (void)ancelled because there is already a pending request of type '%@'.;
+- (id)TemporaryDirectory.aLAJrA/Sources/Persistence/NSCloudKitMirroringRequestManager.m;
+- (CDUnknownBlockType)24;
+- (CDUnknownBlockType)adata:] /* Error: Ran out of types for this method. */;
+- (const char *)k_invoke;
+- (_Bool)storePath;
+- (void)) SELECT %@ FROM %@;
+- (void)eDictionary"8;
 - (void);
 - (id);
 - (void);
@@ -63,23 +61,7 @@
 - (_Bool)£¥x;
 
 // Remaining properties
-@property _Bool autoreconnect; // @synthesize autoreconnect=_autoreconnect;
-@property(copy, nonatomic) CDUnknownBlockType clientErrorBlock; // @synthesize clientErrorBlock=_clientErrorBlock;
-@property(copy, nonatomic) CDUnknownBlockType clientNotificationBlock; // @synthesize clientNotificationBlock=_clientNotificationBlock;
-@property _Bool connected; // @synthesize connected=_connected;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) CDUnknownBlockType errorBlock; // @synthesize errorBlock=_errorBlock;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType notificationBlock; // @synthesize notificationBlock=_notificationBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notifyQueue; // @synthesize notifyQueue=_notifyQueue;
-@property _Bool setTarget; // @synthesize setTarget=_setTarget;
-@property(readonly) Class superclass;
 
 @end
 

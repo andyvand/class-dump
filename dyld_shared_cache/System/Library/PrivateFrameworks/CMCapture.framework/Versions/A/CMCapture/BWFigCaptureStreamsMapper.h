@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWFigCaptureStreamsMapper
 {
     NSArray *_bwFigCaptureStreams;
-    NSArray *_figCaptureStreams;
 }
 
 - (void);

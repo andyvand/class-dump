@@ -11,6 +11,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -19,13 +20,12 @@
 + (id);
 + (id);
 + (id);
++ (id)IDSTapToRadar;
++ (id)e.alloy.eventkitmutation;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

@@ -14,7 +14,7 @@
 - (long long);
 - (id);
 - (id);
-- (id)onThrowingSongsProducer;
+- (id)StoryExceptionThrowingSongsProducer;
 - (void)Q¸h;
 
 // Remaining properties

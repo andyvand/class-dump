@@ -7,39 +7,21 @@
 @interface GEORPFeatureHandle
 {
     struct GEORPFeatureHandleStyleAttribute *_styleAttributes;
-    unsigned long long _styleAttributesCount;
-    unsigned long long _styleAttributesSpace;
-    unsigned int _featureIndex;
-    unsigned int _featureTileX;
-    unsigned int _featureTileY;
-    unsigned int _featureTileZ;
-    unsigned int _identifier;
-    int _style;
-    int _type;
-    struct {
-        unsigned int has_featureIndex:1;
-        unsigned int has_featureTileX:1;
-        unsigned int has_featureTileY:1;
-        unsigned int has_featureTileZ:1;
-        unsigned int has_identifier:1;
-        unsigned int has_style:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool)etIsSettlement:(id)arg1;
++ (_Bool)setIsSettlement:(id)arg1;
 - (unsigned long long);
-- (struct GEORPFeatureHandleStyleAttribute);
+- (struct GEORPFeatureHandleStyleAttribute)__crash_info;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setFetchBatchSize:(_Bool)arg1;
+- (void)didTurnIntoFault;
+- (void)didMigrate;
+- (void)didAddStore;
+- (void)didAccessValueForKey:(_Bool)arg1;
+- (void)_canDeleteContacts;
+- (void)_canCreateContacts;
+- (void)_cachePsc;
+- (void)_cacheKeyForAccountCollection:(unsigned int)arg1;
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
@@ -51,15 +33,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)`;
+- (void)Wj;
+- (void)ublic}lu samples;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)2;
 - (void);
 - (int);
 - (struct GEORPFeatureHandleStyleAttribute *);
@@ -68,9 +50,9 @@
 - (void);
 - (void);
 - (id)1"wrote_anyField"b1};
-- (void)asAbBranchId;
-- (id)ies: /* Error: Ran out of types for this method. */;
-- (unsigned int)mmaryLayoutUnitHikeRouteFactoidElevationGainLoss;
+- (void)hasAbBranchId;
+- (id)addRoadProperties: /* Error: Ran out of types for this method. */;
+- (unsigned int)GEOPDPlaceSummaryLayoutUnitHikeRouteFactoidElevationGainLoss;
 - (int),¸	D	¤0		x;
 - (id)¬p
 q|q
@@ -87,7 +69,7 @@ Tr
 @v
 ;
 - (_Bool)ÈH´M;
-- (id)nate_countdown_type;
+- (id)alternate_countdown_type;
 - (void)prefix (if any). This is error-prone and can lead to undefined behavior. Please avoid doing this. If you are using allow_alias, please assign the same numeric value to both enums.;
 - (id)à;
 - (_Bool);
@@ -95,22 +77,7 @@ Tr
 - (int)l[þ0;
 
 // Remaining properties
-@property(nonatomic) unsigned int featureIndex;
-@property(nonatomic) unsigned int featureTileX;
-@property(nonatomic) unsigned int featureTileY;
-@property(nonatomic) unsigned int featureTileZ;
 @property(nonatomic) _Bool hasFeatureIndex;
-@property(nonatomic) _Bool hasFeatureTileX;
-@property(nonatomic) _Bool hasFeatureTileY;
-@property(nonatomic) _Bool hasFeatureTileZ;
-@property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasStyle;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int identifier;
-@property(nonatomic) int style;
-@property(readonly, nonatomic) struct GEORPFeatureHandleStyleAttribute *styleAttributes;
-@property(readonly, nonatomic) unsigned long long styleAttributesCount;
-@property(nonatomic) int type;
 
 @end
 

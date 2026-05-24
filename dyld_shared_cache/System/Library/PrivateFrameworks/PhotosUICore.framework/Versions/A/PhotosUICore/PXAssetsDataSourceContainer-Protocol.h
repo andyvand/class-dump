@@ -7,14 +7,9 @@
 @class NSString;
 
 @protocol PXAssetsDataSourceContainer
-- (NSString *)UIMetrics;
+- (NSString *)LemonadeUIMetrics;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedFallbackTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) _Bool supportsImmutableCollectionToolbar;
 @end
 

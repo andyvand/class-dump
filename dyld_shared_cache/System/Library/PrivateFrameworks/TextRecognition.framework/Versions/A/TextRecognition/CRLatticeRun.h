@@ -9,8 +9,6 @@
 @interface CRLatticeRun
 {
     NSArray *_graphEdges;
-    NSMutableArray *_mutablePaths;
-    struct CGRect _rect;
 }
 
 - (id);
@@ -24,10 +22,7 @@
 - (void)ce;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *graphEdges; // @synthesize graphEdges=_graphEdges;
 @property(retain, nonatomic) NSMutableArray *mutablePaths; // @synthesize mutablePaths=_mutablePaths;
-@property(readonly, nonatomic) NSArray *paths;
-@property(readonly) struct CGRect rect; // @synthesize rect=_rect;
 
 @end
 

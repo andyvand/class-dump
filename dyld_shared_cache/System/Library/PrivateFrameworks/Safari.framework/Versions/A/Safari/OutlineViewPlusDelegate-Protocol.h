@@ -5,5 +5,9 @@
 //
 
 @protocol OutlineViewPlusDelegate
+
+@optional
+- (_Bool);
+- (struct CGRect);
 @end
 

@@ -9,29 +9,24 @@
 @interface AppStoreKit.LegacyLocalizer
 {
     id locale;
-    id extendedLocale;
-    id localizedStringTables;
-    id dateFormatters;
-    id dynamicDateFormatters;
-    id $__lazy_storage_$_relativeDateFormatter;
 }
 
 - (id);
 - (id);
+- (id)o;
+- (id);
+- (id);
+- (id);
+- (id)o;
 - (id);
 - (id);
 - (id);
+- (id)o;
 - (id);
+- (id)o;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)o;
 - (id);
 - (id);
 - (void)DyÍ¡YypGGSg;

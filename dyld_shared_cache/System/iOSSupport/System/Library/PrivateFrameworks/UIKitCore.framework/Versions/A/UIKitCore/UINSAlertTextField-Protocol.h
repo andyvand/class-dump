@@ -9,17 +9,14 @@
 @protocol UINSAlertTextField
 - (NSString *)0@ù
 × ;
-- (void)ges:(long long)arg1;
-- (UIColor *)usEnvironments;
-- (void)yer;
-- (long long)NavigationBarNSToolbarProxyTabBarItemProviding;
+- (void)fieldEditor:(long long)arg1 shouldInsertText:replacingRanges: /* Error: Ran out of types for this method. */;
+- (UIColor *)_childViewControllersEligibleForOverridingPreferredFocusEnvironments;
+- (void)_UIFocusSpecularHighlightLayer;
+- (long long)_UINavigationBarNSToolbarProxyTabBarItemProviding;
 - (NSString *)¸;
 - (void)è³Àþà:(UIColor *)arg1 xþ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(nonatomic) long long identifier;
 @property(copy, nonatomic) NSString *placeholder;
-@property(copy, nonatomic) UIColor *textColor;
 @end
 

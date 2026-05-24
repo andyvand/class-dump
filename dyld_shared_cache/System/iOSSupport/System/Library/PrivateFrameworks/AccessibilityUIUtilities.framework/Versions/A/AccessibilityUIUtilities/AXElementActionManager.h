@@ -9,24 +9,21 @@
 @interface AXElementActionManager
 {
     _Bool _shouldIncludeMedusaActions;
-    AXDragManager *_dragManager;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)[h|;
+- (id){;
+- (id)]{;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)2;
 
 // Remaining properties
 @property(readonly, nonatomic) AXDragManager *dragManager; // @synthesize dragManager=_dragManager;
-@property(readonly, nonatomic) _Bool isDragActive;
-@property(nonatomic) _Bool shouldIncludeMedusaActions; // @synthesize shouldIncludeMedusaActions=_shouldIncludeMedusaActions;
 
 @end
 

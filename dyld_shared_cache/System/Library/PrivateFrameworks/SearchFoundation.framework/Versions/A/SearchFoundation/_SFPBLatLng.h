@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBLatLng
 {
     double _lat;
-    double _lng;
 }
 
 - (void);
@@ -18,25 +15,16 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (id)objectFetchingManagedObjectContextForObject:(id)arg1 propertySet: /* Error: Ran out of types for this method. */;
+- (id)be called on an PHImportLibrarySource;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(A;
 - (double);
-- (double)mand;
+- (double)_openCalculationCommand;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double lat; // @synthesize lat=_lat;
-@property(nonatomic) double lng; // @synthesize lng=_lng;
-@property(readonly) Class superclass;
 
 @end
 

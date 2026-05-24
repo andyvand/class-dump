@@ -18,13 +18,13 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)AgeVerificationTask;
 - (id);
+- (unsigned long long));
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)VerticalOnly;
 - (void);
-- (void)ceShuffleModeCommand;
+- (void)_advanceShuffleModeCommand;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelAlbumKind *albumKind; // @synthesize albumKind=_albumKind;

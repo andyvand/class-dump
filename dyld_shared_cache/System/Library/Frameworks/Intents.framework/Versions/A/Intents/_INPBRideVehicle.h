@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSString, _INPBImageValue;
+@class GEOLocation;
 
 @interface _INPBRideVehicle
 {
     struct _has;
-    GEOLocation *_location;
-    NSString *_manufacturer;
-    _INPBImageValue *_mapAnnotationImage;
-    NSString *_model;
-    NSString *_registrationPlate;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,10 +19,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)PODContentEntity;
 - (void);
 - (void);
-- (id);
+- (id)rebuildAuxiliaryKernelCollectionWithInterface:(id)arg1 rebootRequired:withError: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -44,23 +39,7 @@
 - (void)Oð·;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasManufacturer;
-@property(readonly, nonatomic) _Bool hasMapAnnotationImage;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) _Bool hasRegistrationPlate;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(retain, nonatomic) _INPBImageValue *mapAnnotationImage; // @synthesize mapAnnotationImage=_mapAnnotationImage;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *registrationPlate; // @synthesize registrationPlate=_registrationPlate;
-@property(readonly) Class superclass;
 
 @end
 

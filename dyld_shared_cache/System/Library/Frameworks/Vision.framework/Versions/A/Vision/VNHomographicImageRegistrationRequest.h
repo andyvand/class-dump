@@ -13,7 +13,7 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)contactWithIdentifierWasDeleted: /* Error: Ran out of types for this method. */;
 - (_Bool)µÿ;
 - (id);
 - (_Bool);

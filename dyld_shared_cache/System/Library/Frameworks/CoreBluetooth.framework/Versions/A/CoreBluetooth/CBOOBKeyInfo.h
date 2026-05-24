@@ -9,11 +9,6 @@
 @interface CBOOBKeyInfo
 {
     unsigned char _btAddressType;
-    unsigned char _addressType;
-    unsigned char _keyType;
-    unsigned short _version;
-    NSData *_btAddressData;
-    NSData *_irkData;
 }
 
 - (void);
@@ -26,23 +21,18 @@
 - (void);
 - (unsigned short);
 - (id);
-- (unsigned long long);
+- (unsigned long long)interleaved in SIP messages;
 - (id);
 - (unsigned char);
 - (_Bool);
 - (void);
+- (void)fp_zeroOutReplyBlockArgumentsWithError:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned char addressType; // @synthesize addressType=_addressType;
 @property(copy, nonatomic) NSData *btAddressData; // @synthesize btAddressData=_btAddressData;
-@property(nonatomic) unsigned char btAddressType; // @synthesize btAddressType=_btAddressType;
-@property(copy, nonatomic) NSData *irkData; // @synthesize irkData=_irkData;
-@property(nonatomic) unsigned char keyType; // @synthesize keyType=_keyType;
-@property(nonatomic) unsigned short version; // @synthesize version=_version;
 
 @end
 

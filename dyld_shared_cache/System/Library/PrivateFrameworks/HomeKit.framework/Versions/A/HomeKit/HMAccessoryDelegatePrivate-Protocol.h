@@ -4,6 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMAccessory, HMService, HMSymptomsHandler;
+
 @protocol HMAccessoryDelegatePrivate
+
+@optional
+- (void)_takeSnapshotOfObject:(HMAccessory *)arg1 useCommitedValues: /* Error: Ran out of types for this method. */;
+- (void)_takeSnapshotFromCommittedValuesOfObject:(HMAccessory *)arg1;
+- (void)_tagScreenshotsForAssetsInStore:(HMAccessory *)arg1;
+- (void)_tableFooterForKey:(HMAccessory *)arg1;
+- (void)y:(HMAccessory *)arg1;
+- (void)_systemPhotoLibraryChangedSinceLastRunWithSourceLibrary:(HMAccessory *)arg1 targetLibrary: /* Error: Ran out of types for this method. */;
+- (void)_synonymsByOriginalWord;
+- (void)_syndicationSpotlightReceiver;
+- (void)_syndicationSerialQueue;
+- (void)_syndicationIngestMutex;
+- (void)_syndicationIngestLibraryLock;
+- (void)_syndicationIngestClientIdentifier;
+- (void)_syndicationAssetForSearchableItem:(HMAccessory *)arg1 inLibrary:createIfNeeded:didCreate:error: /* Error: Ran out of types for this method. */;
+- (void)_synchronous;
+- (void)_syncedPropertiesForAssetUUID:(HMAccessory *)arg1;
+- (void)_syncableFacesToUploadInitiallyPredicate;
+- (void)_syncStateMatchesBetweenSystemLibrary:(HMAccessory *)arg1 syndicationLibrary: /* Error: Ran out of types for this method. */;
+- (void)_syncPerson:(HMAccessory *)arg1 toLibrary:error: /* Error: Ran out of types for this method. */;
+- (void)_syncFaceCropsFromLibrary:(HMAccessory *)arg1 toLibrary:error: /* Error: Ran out of types for this method. */;
+- (void)_syncChangeTracker;
+- (void)_syncAsset:(HMAccessory *)arg1 toLibrary:completion: /* Error: Ran out of types for this method. */;
+- (void)_sync:(HMAccessory *)arg1 identifyingBlock:libraryRole:libraryForTelemetry: /* Error: Ran out of types for this method. */;
+- (void)_switchConfiguration:(HMAccessory *)arg1 toState: /* Error: Ran out of types for this method. */;
+- (void)_suppportedQueryTypes;
+- (void)_supportsIndexRebuild;
+- (void)_supportedThumbnailFormatIDFromGeneralFormatID:(HMAccessory *)arg1;
+- (void)_supportedIdentifiers;
+- (void)_sumOfCountsInCountedSet:(HMAccessory *)arg1;
+- (void)_suggestionTemplateKey;
+- (void)_suggestionSubtypeAllowedToContainSyndicatedAssets:(HMAccessory *)arg1;
+- (void)_suggestionRecords;
+- (void)_suggestionIsPrimaryPersonOrPetSuggestion:(HMAccessory *)arg1;
+- (void)_suggestionIsOCRSuggestion:(HMAccessory *)arg1;
+- (void)_suggestionComponent;
+- (void)_suggestion;
+- (void)_succeeded;
+- (void)_substringMatchedCategories;
+- (void)_subscriptionEntryForSharedAlbumWithGUID:(HMAccessory *)arg1;
+- (void)_submitTaskWithoutCoalescingIfNecessaryOnBundle:(HMAccessory *)arg1;
+- (void)_subcategory;
+- (void)_styleCastRenderTypeFromAssetAdjustments:(HMAccessory *)arg1 settingPayload:(HMService *)arg2 adjustmentEnvelope: /* Error: Ran out of types for this method. */;
+- (void)_stripWellKnownIdentifierFromIdentifierMap:(HMAccessory *)arg1;
+- (void)_stripScopeIdentifierPrefixForCollectionShare:(HMAccessory *)arg1;
+- (void)_stringFromDate:(HMAccessory *)arg1 toDate:(_Bool)arg2 currentDate: /* Error: Ran out of types for this method. */;
+- (void)_streamingAllowed;
+- (void)_storeValidatedLocalExternalResource:(HMAccessory *)arg1 forAsset:(HMService *)arg2;
+- (void)_storeResourceWithType:(HMAccessory *)arg1 version:(HMService *)arg2 asset:destURL:error: /* Error: Ran out of types for this method. */;
+- (void)_stopped;
+- (void)_stopWaitingForDataMigratorPrerequisitesWithReason:(HMAccessory *)arg1;
+- (void)_stopUnpauseTimer;
+- (void)_stopTrackingResourceWithScopedIdentifier:(HMAccessory *)arg1 fileSize:(HMSymptomsHandler *)arg2 type: /* Error: Ran out of types for this method. */;
+- (void)_stopObservingLibraryStateCompletedAllOperations;
+- (void)_singletonFetchingAlbumWithKind:(HMAccessory *)arg1 library: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

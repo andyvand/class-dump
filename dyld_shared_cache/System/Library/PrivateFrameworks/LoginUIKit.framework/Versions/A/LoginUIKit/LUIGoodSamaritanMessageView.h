@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImageView, NSScrollView, NSTextView;
-
 @interface LUIGoodSamaritanMessageView
 {
     int _style;
-    NSScrollView *_scrollView;
-    NSTextView *_messageTextView;
-    NSImageView *_ribbonImageView;
-    NSAttributedString *_currentMessage;
 }
 
 - (id);

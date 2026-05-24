@@ -5,5 +5,9 @@
 //
 
 @protocol ACCConnectionInfoXPCServerProtocol
+- (void)H	J;
+- (void);
+- (void)eration layer-based SVG Engine (LBSE);
+- (void)le WebGL extensions that are still in draft status;
 @end
 

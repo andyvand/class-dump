@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (CKErrorGoo)
-+ (_Bool);
++ (_Bool)k	;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)sт;
++ (_Bool)kK;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)RI;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,16 +37,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)S;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)set;
 
 // Remaining properties
 @property(readonly, nonatomic) int CKSQLiteCode;
-@property(readonly, nonatomic) NSString *CKSQLiteErrorMessage;
-@property(readonly, nonatomic) int CKSQLiteExtendedCode;
-@property(readonly, nonatomic, getter=isCKComparisonError) _Bool ckComparisonError;
 @end
 

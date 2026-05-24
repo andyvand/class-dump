@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSStackView, NSString, NSTextField, NSView;
+@class NSStackView;
 
 @interface ABCleanGroupHeaderEntryListCellView
 {
     NSStackView *_stackView;
-    NSButton *_groupPlusButton;
-    _Bool _shouldShowGroupPlusButton;
-    NSView *_accessoryView;
 }
 
 - (void);
-- (void);
+- (void)@&;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -31,17 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) NSButton *groupPlusButton; // @synthesize groupPlusButton=_groupPlusButton;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(nonatomic) NSTextField *textField;
 
 @end
 

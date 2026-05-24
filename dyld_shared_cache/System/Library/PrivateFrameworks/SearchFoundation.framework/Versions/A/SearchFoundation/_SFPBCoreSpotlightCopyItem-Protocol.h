@@ -7,12 +7,11 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBCoreSpotlightCopyItem
+- (NSString *)+;
+- (NSString *)exitDeleteTime;
+- (NSData *)PHLivePhotoResult;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
 @property(copy, nonatomic) NSArray *dataProviderTypeIdentifiers;
-@property(copy, nonatomic) NSArray *fileProviderTypeIdentifiers;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol AFSetAudioSessionActiveResultMutating
+- (void);
 - (void)essionStateDidChange:(unsigned int)arg1 ];
 @end
 

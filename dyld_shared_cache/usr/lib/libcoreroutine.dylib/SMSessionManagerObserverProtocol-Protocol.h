@@ -5,5 +5,9 @@
 //
 
 @protocol SMSessionManagerObserverProtocol
+
+@optional
+- (void)P;
+- (void);
 @end
 

@@ -9,16 +9,15 @@
 @interface _MRGroupSessionIdentityShareReplyMessageProtobuf
 {
     _MRGroupSessionParticipantProtobuf *_leaderParticipant;
-    _MRGroupSessionParticipantProtobuf *_localParticipant;
 }
 
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (unsigned long long);
@@ -26,14 +25,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void):player:completion: /* Error: Ran out of types for this method. */;
+- (id)userFeedbackOptInWithProfile;
+- (void)_loadNowPlayingStateForEndpoint:client:player:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLeaderParticipant;
 @property(readonly, nonatomic) _Bool hasLocalParticipant;
-@property(retain, nonatomic) _MRGroupSessionParticipantProtobuf *leaderParticipant; // @synthesize leaderParticipant=_leaderParticipant;
-@property(retain, nonatomic) _MRGroupSessionParticipantProtobuf *localParticipant; // @synthesize localParticipant=_localParticipant;
 
 @end
 

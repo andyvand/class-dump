@@ -7,9 +7,9 @@
 @interface UnknownClass (PRUIAdditions)
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)p;
 - (void);
 - (id);
 @end

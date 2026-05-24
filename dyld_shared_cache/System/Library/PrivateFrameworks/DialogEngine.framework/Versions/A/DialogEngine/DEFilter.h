@@ -9,7 +9,6 @@
 @interface DEFilter
 {
     DEMatchCriteria *_include;
-    DEMatchCriteria *_exclude;
 }
 
 + (void);
@@ -30,7 +29,6 @@
 - (void)¿Ð°;
 
 // Remaining properties
-@property(retain, nonatomic) DEMatchCriteria *exclude; // @synthesize exclude=_exclude;
 @property(retain, nonatomic) DEMatchCriteria *include; // @synthesize include=_include;
 
 @end

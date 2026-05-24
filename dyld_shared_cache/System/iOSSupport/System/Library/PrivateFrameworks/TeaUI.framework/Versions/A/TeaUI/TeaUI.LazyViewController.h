@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class NSString;
 
 @interface TeaUI.LazyViewController
 {
     id identifier;
-    id _loadedViewController;
-    id eventManager;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)Q,V_accumulatedBytesCopied;
 - (void);
-- (id);
+- (id)(06;
 - (id);
 - (void);
 - (void);
@@ -26,8 +24,6 @@
 - (void)Xr;
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 @property(nonatomic, readonly) NSString *description;
 
 @end

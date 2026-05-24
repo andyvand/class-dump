@@ -9,19 +9,17 @@
 @interface IMSPIOutgoingAttachmentObject
 {
     _Bool _isSensitive;
-    NSString *_fileURL;
 }
 
-- (id);
+- (id)GetPreferredSendQueue failed - %d;
 - (void);
 - (_Bool);
-- (void)GUIDs:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)fetchEarliestMessageDateForChatsWithGUIDs:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void),%X'*;
 - (id)scarding status %@.;
 
 // Remaining properties
 @property(retain) NSString *fileURL; // @synthesize fileURL=_fileURL;
-@property _Bool isSensitive; // @synthesize isSensitive=_isSensitive;
 
 @end
 

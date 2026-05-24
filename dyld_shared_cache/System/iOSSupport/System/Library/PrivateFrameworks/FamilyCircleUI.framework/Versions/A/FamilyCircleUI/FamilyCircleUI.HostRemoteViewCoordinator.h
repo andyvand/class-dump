@@ -8,12 +8,9 @@
 {
     id state;
     id xpcConnection;
-    id onEnd;
-    id ageRangeRequestModel;
-    id $__lazy_storage_$_remoteViewController;
 }
 
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);

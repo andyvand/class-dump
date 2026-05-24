@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMActionOpenWeb
 {
     long long mode;
-    void url;
-    void parameters;
 }
 
 - (id);
 - (long long);
-- (id);
+- (id)payment.lifecycle.suspend.issuer;
 - (long long);
 - (_Bool);
 - (id);
@@ -25,10 +21,7 @@
 - (void)<à;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long mode; // @synthesize mode;
-@property(nonatomic, readonly) NSString *parameters;
-@property(nonatomic, readonly) NSString *url;
 
 @end
 

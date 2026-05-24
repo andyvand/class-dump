@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol MLCustomLayer
+- (_Bool)nderPipelineAtIndex:(NSArray *)arg1 inIndirectArgumentBuffer:(id *)arg2 atOffset:] /* Error: Ran out of types for this method. */;
+- (NSArray *)s/%s%u;
+- (id)MTLStepFunctionPerPatchControlPoint;
+
+@optional
+- (_Bool)/MTLCompiler.framework/Versions/32024/MTLCompiler;
 @end
 

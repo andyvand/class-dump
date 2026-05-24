@@ -10,28 +10,22 @@ __attribute__((visibility("hidden")))
 @interface SATimeRangeOfSamples
 {
     SATimestamp *_startTime;
-    SATimestamp *_endTime;
-    unsigned long long _startSampleIndex;
-    unsigned long long _endSampleIndex;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)ailed;
+- (void)ng_function,%.3lf;
+- (id),;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)shouldInvalidateCachedAudioMix;
 - (id);
 - (void);
 - (void)o symbolicate %lu symbols) after %.0f seconds
 ;
 
 // Remaining properties
-@property unsigned long long endSampleIndex; // @synthesize endSampleIndex=_endSampleIndex;
-@property(retain) SATimestamp *endTime; // @synthesize endTime=_endTime;
-@property unsigned long long startSampleIndex; // @synthesize startSampleIndex=_startSampleIndex;
 @property(retain) SATimestamp *startTime; // @synthesize startTime=_startTime;
 
 @end

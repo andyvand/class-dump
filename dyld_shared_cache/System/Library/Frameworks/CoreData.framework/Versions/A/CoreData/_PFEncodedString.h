@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _PFEncodedString : _PFAbstractString
 {
     int _cd_rc;
-    unsigned int _length;
-    id _sourceData;
 }
 
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)HV;
+- (unsigned long long)8_;
 - (void);
 - (_Bool);
 - (oneway void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (_Bool);
 - (_Bool);

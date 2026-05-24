@@ -7,15 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)setUserNotificationCancelProc: /* Error: Ran out of types for this method. */;
+- (id)setUserInfo: /* Error: Ran out of types for this method. */;
+- (id)setUnsavedChannels:(SEL)arg1;
+- (id)setUnsavedAccountChannels:(SEL)arg1;
+- (id)setUnredeemedVouchers:(SEL)arg1;
+- (Class)setTriggeringEvent: /* Error: Ran out of types for this method. */;
+- (oneway void)initWithMemoryNode:validityIntervalByTriggerType:creationDate: /* Error: Ran out of types for this method. */;
+- (NSString *)_reportDisambiguatedLocationsWithAnalytics: /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)urceShared];
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)givenName;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

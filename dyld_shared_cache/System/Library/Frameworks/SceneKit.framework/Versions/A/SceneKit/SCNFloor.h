@@ -9,19 +9,10 @@
 @interface SCNFloor : SCNGeometry
 {
     unsigned int _isPresentationInstance:1;
-    unsigned int _usesCustomScaleFactor:1;
-    float _reflectivity;
-    float _reflectionFalloffStart;
-    float _reflectionFalloffEnd;
-    unsigned long long _reflectionCategoryBitMask;
-    double _width;
-    double _length;
-    float _reflectionResolutionScaleFactor;
-    unsigned long long _reflectionSampleCount;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)`;
 - (void);
 - (void);
 - (void);
@@ -46,7 +37,7 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)firstItemWithValue:forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (double);
@@ -57,13 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double length;
-@property(nonatomic) unsigned long long reflectionCategoryBitMask;
-@property(nonatomic) double reflectionFalloffEnd;
-@property(nonatomic) double reflectionFalloffStart;
-@property(nonatomic) double reflectionResolutionScaleFactor;
 @property(nonatomic) double reflectivity;
-@property(nonatomic) double width;
 
 @end
 

@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSSplitViewDividerDragParams
 {
     long long index;
-    NSView *originalFocusedSubview;
-    struct {
-        double minPossiblePosition;
-        double minAllowablePosition;
-        double maxAllowablePosition;
-        double maxPossiblePosition;
-        _Bool canCollapseBeforeView;
-        _Bool canCollapseAfterView;
-    } staticDragLimits;
-    NSLayoutConstraint *draggingConstraint;
-    NSArray *neighboringViewConstraints;
-    id draggingAnchor;
-    _Bool delegateDynamicallyConstrains;
-    _Bool userInteractiveDrag;
 }
 
 - (void);

@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, SFAutoFillPasskeyIdentifier, WBSAutoFillPasskey;
+@class WBSAutoFillPasskey;
 
 @interface SFAutoFillPasskey
 {
     WBSAutoFillPasskey *_corePasskey;
 }
 
-+ (_Bool);
++ (_Bool)inputCalibrationIlluminant1;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)IFD0:EXIF:MAKERNOTE:ExpandedDynamicRange /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) WBSAutoFillPasskey *corePasskey; // @synthesize corePasskey=_corePasskey;
-@property(readonly, copy, nonatomic) NSString *customTitle;
-@property(readonly, copy, nonatomic) SFAutoFillPasskeyIdentifier *identifier;
-@property(readonly, nonatomic) NSString *relyingPartyIdentifier;
-@property(readonly, nonatomic) _Bool shouldRequireUserVerification;
-@property(readonly, nonatomic) NSData *userHandle;
-@property(readonly, nonatomic) NSString *username;
 
 @end
 

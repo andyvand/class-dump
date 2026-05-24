@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PCSManateePrivateKey
 {
     NSData *_privateKey;
-    NSData *_publicKeyInfo;
 }
 
 - (id);
@@ -20,21 +19,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)1;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)humbnailing %@ is deactivated (policy on %s);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPrivateKey;
-@property(readonly, nonatomic) _Bool hasPublicKeyInfo;
-@property(retain, nonatomic) NSData *privateKey; // @synthesize privateKey=_privateKey;
-@property(retain, nonatomic) NSData *publicKeyInfo; // @synthesize publicKeyInfo=_publicKeyInfo;
 
 @end
 

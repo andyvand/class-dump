@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNScheduler;
 
 @interface CNCallStackRecordingSchedulerDecorator
@@ -15,27 +14,19 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (double);
 - (void);
+- (id)peripheralManager:(double)arg1 didAddService:(CDUnknownBlockType)arg2 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)accountsUpdated:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

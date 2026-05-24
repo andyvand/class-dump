@@ -8,24 +8,19 @@ __attribute__((visibility("hidden")))
 @interface FI_TIconSpatialDataController
 {
     struct mutex _lock;
-    struct TFENode _bulkSettingContainer;
-    struct TFENodeVector _bulkSettingNodes;
-    struct vector<IconSpatialData, std::allocator<IconSpatialData>> _bulkSettingSpatialData;
-    long long _settingSpatialDataInBulk;
-    _Bool _writeSpatialDataToDisk;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (struct IconSpatialData);
+- (struct IconSpatialData)nM9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (_Bool);
 - (id);

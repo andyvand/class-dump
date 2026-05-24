@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFPGraphicsState, MFPObjectTable, NSMutableArray, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface MFPGraphics
 {
     struct CGRect mCanvas;
-    int mHorzDpi;
-    int mVertDpi;
-    MFPGraphicsState *mCurrentState;
-    NSMutableArray *mStateStack;
-    MFPObjectTable *mObjectTable;
-    NSMutableDictionary *mAvailableFonts;
 }
 
 + (float);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (float);
+- (float);
 - (struct CGAffineTransform);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (_Bool);
 - (void);
 - (id);

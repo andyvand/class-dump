@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _NSMenuCacheEntry
 {
     void menu;
-    long long item;
-    unsigned int context;
-    unsigned int eventModifiers;
 }
 
-- (void);
+- (void)ultipathTCP;
 - (id);
-- (unsigned int);
+- (unsigned int)initialize;
 - (id);
-- (void);
+- (void)mapping is empty;
 - (long long);
 - (unsigned int);
-- (void);
+- (void)_individualItemsToolbar;
 - (void)hadingFilter.inputColor;
 - (void)ÀbÿÑætE;
 - (id)H;
 
 // Remaining properties
-@property(nonatomic) unsigned int context; // @synthesize context;
-@property(nonatomic) unsigned int eventModifiers; // @synthesize eventModifiers;
-@property(nonatomic) long long item; // @synthesize item;
 @property(nonatomic) __weak NSMenu *menu; // @synthesize menu;
 
 @end

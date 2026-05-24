@@ -27,9 +27,6 @@
 - (void)Ê;
 
 // Remaining properties
-@property(nonatomic) double confidence;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, copy) NSString *identifier;
 
 @end

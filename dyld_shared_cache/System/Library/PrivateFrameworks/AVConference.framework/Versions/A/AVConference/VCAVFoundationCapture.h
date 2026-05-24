@@ -6,112 +6,27 @@
 
 #import <AVConference/VCVideoCapture.h>
 
-@class AVCaptureDataOutputSynchronizer, AVCaptureDepthDataOutput, AVCaptureDevice, AVCaptureDeviceInput, AVCaptureMetadataOutput, AVCaptureSession, AVCaptureVideoDataOutput, NSMutableArray, NSObject, NSString, VCImageResizingConverter, VCImageRotationConverter;
-@protocol OS_dispatch_queue;
+@class AVCaptureDepthDataOutput, AVCaptureDeviceInput;
 
 __attribute__((visibility("hidden")))
 @interface VCAVFoundationCapture : VCVideoCapture
 {
     AVCaptureDeviceInput *_videoDeviceInput;
-    AVCaptureVideoDataOutput *_videoCaptureOutput;
-    NSObject<OS_dispatch_queue> *_captureSessionQueue;
-    NSObject<OS_dispatch_queue> *_viewPointCorrectionQueue;
-    AVCaptureSession *_captureSession;
-    AVCaptureDataOutputSynchronizer *_outputSynchronizer;
-    NSMutableArray *_outputSynchronizerOutputs;
-    AVCaptureMetadataOutput *_metadataOutput;
-    AVCaptureDepthDataOutput *_depthDataOutput;
-    AVCaptureDevice *_captureDevice;
-    _Bool _faceMeshTrackingEnabled;
-    _Bool _viewPointCorrectionEnabled;
-    _Bool _needCenterStageMetadataForViewpointCorrection;
-    _Bool _effectsApplied;
-    _Bool _cframingEnabled;
-    _Bool _isCaptureSIFRPreferred;
-    int _captureSIFRPreferredOverride;
-    _Bool _captureFormatNonBinOnlyOverride;
-    _Bool _captureFormatPrefer16By9ForSquare;
-    _Bool _memojiWithoutDepthEnabled;
-    _Bool _deviceSupportCinematicFraming;
-    _Bool _deviceSupportVideoEffects;
-    _Bool _deviceSupportsTrueDepthSwitchForEffects;
-    _Bool _isBackgroundBlurActive;
-    _Bool _isReactionActive;
-    int _orientation;
-    int _previousOrientation;
-    _Bool _pendingOrientationChange;
-    _Bool _supportsPortraitResolution;
-    _Bool _simulateTallCaptureFormat;
-    _Bool _isCaptureDeviceInternal;
-    _Bool _beginCommitConfigForFormatSwitch;
-    double _cameraZoomFactor;
-    int _activeWidth;
-    int _activeHeight;
-    int _activeFrameRate;
-    int _deviceMinFrameRate;
-    int _lastClientRequestedFrameRate;
-    int _VPCProcessedFrameCount;
-    int _VPCModifiedFrameCount;
-    int _captureFrameCount;
-    double _captureStartTime;
-    double _captureDuration;
-    struct CGSize _requestSize;
-    struct CGSize _captureSize;
-    _Bool _resize;
-    _Bool _isPreviewing;
-    _Bool _isCapturing;
-    _Bool _forceMirrorCapture;
-    _Bool _forceDynamicEffectsFramerate;
-    _Bool _forcePearlCamera;
-    _Bool _isServerProcess;
-    _Bool _avCaptureDeviceInputLocked;
-    _Bool _deviceOrientationMatchesReceiver;
-    int _frameCount;
-    float _processTimeSum;
-    float _depthFrameRateMultplier;
-    float _viewpointProcessTime;
-    NSMutableArray *_renderFrameTimes;
-    NSMutableArray *_cachedDataArray;
-    VCImageResizingConverter *_imageCopyingConverter;
-    VCImageResizingConverter *_imageResizingConverter;
-    VCImageResizingConverter *_imageCroppingConverter;
-    VCImageRotationConverter *_imageRotationConverter;
-    int _cameraCaptureVideoRotation;
-    _Bool _frontCameraSupportsFullBleedCapture;
-    _Bool _backCameraSupportsFullBleedCapture;
-    _Bool _remotePreferFullBleed;
-    _Bool _currentRemotePreferFullBleed;
-    _Atomic int _pixelBufferCVO;
-    int _remoteDeviceOrientation;
-    _Bool _isViewpointSupported;
-    _Bool _useAVConferenced;
-    _Bool _enableBufferStatsDump;
-    _Bool _cameraEffectsFrontCameraMirrored;
-    struct tagVCVideoBufferStatistics *_statsBuffer;
-    struct __CFAllocator *_numberPropertyAllocator;
-    struct __CFAllocator *_attachmentAllocator;
-    _Bool _shouldRemoveExtraRotation;
-    unsigned int _capturePixelFormat;
-    _Bool _shouldUseCompressedPixelFormat;
-    struct OpaqueVTPixelTransferSession *_uncompressTransferSession;
-    struct __CVPixelBufferPool *_uncompressedPixelFormatBufferPool;
-    struct OpaqueVTPixelTransferSession *_compressTransferSession;
-    struct __CVPixelBufferPool *_compressedPixelFormatBufferPool;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (CDStruct_1b6d18a9);
++ (CDStruct_198678f7);
 + (_Bool);
 + (_Bool);
 + (struct CGRect);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -130,13 +45,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)~;
 - (int);
 - (void);
 - (int);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -157,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct opaqueCMSampleBuffer *);
 - (id);
@@ -165,7 +80,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -176,25 +91,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (id);
 - (_Bool);
 - (int);
 - (void);
 - (struct CGSize);
-- (int);
+- (int);
 - (int);
 - (id);
-- (CDStruct_1b6d18a9);
-- (int);
+- (CDStruct_198678f7);
+- (int);
 - (int);
 - (BOOL);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (struct tagVCVideoCaptureFeatureStatus);
 - (int);
 - (_Bool);
@@ -207,8 +122,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)*;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -227,25 +142,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (int);
-- (int);
+- (int));
 - (void);
 - (int);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)ProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}48^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}56;
 - (_Bool)%{BOOL}d cellular=%{BOOL}d redNumPayloads=%u;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) AVCaptureDepthDataOutput *depthDataOutput; // @synthesize depthDataOutput=_depthDataOutput;
-@property(readonly, copy) NSString *description;
-@property _Bool effectsApplied; // @synthesize effectsApplied=_effectsApplied;
-@property _Bool faceMeshTrackingEnabled; // @synthesize faceMeshTrackingEnabled=_faceMeshTrackingEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INContactCard, NSString;
-
 @interface INSearchForMeCardIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)interfaceWithProtocol:(long long)arg1;
++ (long long)initWithFileAtURL:(int)arg1 size:(int)arg2 scale:(_Bool)arg3 representationTypes: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithBitmapContext:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)objectEnumerator;
+- (id);
 - (void);
-- (void);
+- (void)blic}@);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (long long)ctionary",R,N,V_typeForClassDictionary;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INContactCard *meCard;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol NSPageControllerDelegate
+
+@optional
+- (void);
+- (struct CGRect);
 @end
 

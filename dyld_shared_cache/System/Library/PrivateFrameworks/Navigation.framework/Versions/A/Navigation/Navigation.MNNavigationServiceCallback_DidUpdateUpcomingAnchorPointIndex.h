@@ -13,7 +13,7 @@
 
 + (_Bool);
 - (id);
-- (long long);
+- (long long)LimitedAvailabilityControlWidgetConfiguration;
 - (id);
 - (id);
 - (unsigned long long);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long anchorPointIndex; // @synthesize anchorPointIndex;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

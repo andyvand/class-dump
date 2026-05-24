@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
-
 @interface DAResolvedRecipient
 {
     long long _status;
-    long long _certificatesStatus;
-    long long _availabilityStatus;
-    NSString *_mergedFreeBusy;
-    NSMutableDictionary *_mResolvedEmailToX509Certs;
 }
 
 - (void);
@@ -27,15 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (long long);
-- (void);
+- (long long)didReceiveDASTrialEventWithPayload: /* Error: Ran out of types for this method. */;
+- (void)D;
 
 // Remaining properties
-@property(nonatomic) long long availabilityStatus; // @synthesize availabilityStatus=_availabilityStatus;
-@property(nonatomic) long long certificatesStatus; // @synthesize certificatesStatus=_certificatesStatus;
-@property(retain, nonatomic) NSMutableDictionary *mResolvedEmailToX509Certs; // @synthesize mResolvedEmailToX509Certs=_mResolvedEmailToX509Certs;
-@property(retain, nonatomic) NSString *mergedFreeBusy; // @synthesize mergedFreeBusy=_mergedFreeBusy;
-@property(readonly, nonatomic) NSDictionary *resolvedEmailToX509Certs;
 @property(nonatomic) long long status; // @synthesize status=_status;
 
 @end

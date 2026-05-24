@@ -5,15 +5,26 @@
 //
 
 @protocol PLMomentAssetData
-- (id)eded;
+- (id);
+- (id);
+- (BOOL)H;
+- (id);
+- (id)nlab;
+- (id)1J*J
+;
+- (id)EJJ
+;
+- (id)_updateAlbumAssociationIfNeeded;
 - (id)¨8;
 - (id)cale, unable to initialize candidate;
 - (id)ingCPLDownloadForAssets:doneTokens:format:reply:] /* Error: Ran out of types for this method. */;
 - (id)ÑÛ;
 
 @optional
+- (id)d;
 - (id);
-- (id)hedDate: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)_fixTrashedDate: /* Error: Ran out of types for this method. */;
 - (id)LIKE %@ AND uniformTypeIdentifier == %@;
 @end
 

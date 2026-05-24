@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.HandleSelection.ViewModel.ImageCacheKey
 {
     id imageName;
-    id iconSize;
-    id isFilled;
-    id colorScheme;
 }
 
 @end

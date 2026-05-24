@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol AFUIBridgeClientDelegate, OS_dispatch_queue;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface AFUIBridgeClient
 {
     NSXPCConnection *_xpcConnection;
-    id <AFUIBridgeClientDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (oneway void);
@@ -26,27 +23,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)tentTitle;
 - (id);
 - (oneway void);
 - (id);
-- (void)currentLongDate: /* Error: Ran out of types for this method. */;
+- (void)_currentLongDate: /* Error: Ran out of types for this method. */;
 - (id)endWiProxReadinessTimer];
 - (id)E
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AFUIBridgeClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

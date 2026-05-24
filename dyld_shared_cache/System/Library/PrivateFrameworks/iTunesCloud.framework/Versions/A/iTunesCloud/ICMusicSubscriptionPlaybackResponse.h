@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreDialogResponse, ICURLBag, NSArray, NSData, NSDate, NSDictionary, NSError, NSString;
+@class NSData, NSDictionary;
 
 @interface ICMusicSubscriptionPlaybackResponse
 {
     NSDictionary *_responseDictionary;
-    NSDate *_requestDate;
-    ICURLBag *_urlBag;
 }
 
 - (id);
@@ -19,28 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)__OSPersonalizationOptionsUseDummyDeviceIdentity;
 - (id);
 - (id);
 - (void)JSSignConfiguration;
 - (id)c}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) ICStoreDialogResponse *dialog;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *householdID;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, copy, nonatomic) NSDate *leaseExpirationDate;
 @property(readonly, copy, nonatomic) NSData *leaseInfoData;
-@property(readonly, copy, nonatomic) NSDictionary *metricsDictionary;
-@property(readonly, copy, nonatomic) NSError *serverError;
-@property(readonly, copy, nonatomic) NSData *subscriptionKeyBagData;
-@property(readonly) Class superclass;
 
 @end
 

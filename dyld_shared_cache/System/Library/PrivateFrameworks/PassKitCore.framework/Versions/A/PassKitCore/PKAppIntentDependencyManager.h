@@ -13,8 +13,8 @@
 
 + (id);
 - (id);
-- (void)ntifier;
-- (void)Identifiers;
+- (void)sharerKeyIdentifier;
+- (void)credentialIdentifiers;
 
 // Remaining properties
 @property __weak id <PKAppIntentCoordinator> coordinator; // @synthesize coordinator=_coordinator;

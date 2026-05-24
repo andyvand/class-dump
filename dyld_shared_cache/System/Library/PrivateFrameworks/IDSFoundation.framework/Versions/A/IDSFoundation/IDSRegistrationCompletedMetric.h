@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PBCodable;
-@protocol NSCopying;
+@class NSString;
 
 @interface IDSRegistrationCompletedMetric
 {
     int _registrationType;
-    NSString *_serviceIdentifier;
-    _Bool _wasSuccessful;
-    long long _registrationError;
-    long long _circleStatus;
 }
 
-- (id);
+- (id);
 - (unsigned short);
 - (id);
 - (id);
@@ -29,22 +24,7 @@
 - (_Bool)×n;
 
 // Remaining properties
-@property(readonly) unsigned int awdIdentifier;
-@property(readonly, nonatomic) PBCodable<NSCopying> *awdRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long registrationError; // @synthesize registrationError=_registrationError;
-@property(readonly, nonatomic) int registrationType; // @synthesize registrationType=_registrationType;
-@property(readonly, nonatomic) unsigned short rtcType;
-@property(readonly, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wasSuccessful; // @synthesize wasSuccessful=_wasSuccessful;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PKToolPickerVisibilityContext
 {
     _Bool _contextMenuPresentedDidChange;
-    _Bool _shouldNotifyDuringUpdate;
 }
 
 - (_Bool);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool contextMenuPresentedDidChange; // @synthesize contextMenuPresentedDidChange=_contextMenuPresentedDidChange;
-@property(nonatomic) _Bool shouldNotifyDuringUpdate; // @synthesize shouldNotifyDuringUpdate=_shouldNotifyDuringUpdate;
 
 @end
 

@@ -4,72 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAccountsAndGroupsDataSource, CNContactViewCache, NSArray, NSString, UICollectionView, UICollectionViewDiffableDataSource;
+@class CNContactViewCache;
 @protocol CNContactContainerPickerViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactContainerPickerViewController
 {
     id <CNContactContainerPickerViewControllerDelegate> _delegate;
-    NSArray *_selectedContainerIdentifiers;
-    CNContactViewCache *_contactViewCache;
-    CNAccountsAndGroupsDataSource *_accountsDataSource;
-    UICollectionView *_collectionView;
-    UICollectionViewDiffableDataSource *_dataSource;
-    NSArray *_items;
-    NSArray *_containers;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void));
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)f;
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
 - (id);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (id)ns/A/PhysicsKit;
+- (_Bool);
+- (void)P;
 - (void);
-- (id)teListByAddingContacts: /* Error: Ran out of types for this method. */;
-- (void)eForContainerOfContactWithIdentifier:(id)arg1;
-- (id)riButtonBackgroundColor;
+- (id)updateListByAddingContacts: /* Error: Ran out of types for this method. */;
+- (void)predicateForContainerOfContactWithIdentifier:(id)arg1;
+- (id)carPlaySiriButtonBackgroundColor;
 - (void)N,V_contactChangesNotifier;
 - (void)ûÿâ!ä";
 
 // Remaining properties
-@property(retain, nonatomic) CNAccountsAndGroupsDataSource *accountsDataSource; // @synthesize accountsDataSource=_accountsDataSource;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(retain, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(retain, nonatomic) NSArray *containers; // @synthesize containers=_containers;
-@property(retain, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactContainerPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSArray *selectedContainerIdentifiers; // @synthesize selectedContainerIdentifiers=_selectedContainerIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

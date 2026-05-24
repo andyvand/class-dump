@@ -11,15 +11,15 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)+;
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (_Bool);
@@ -30,7 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool perservesAlpha;
-@property(readonly, nonatomic) _Bool preservesOpacity;
 
 @end
 

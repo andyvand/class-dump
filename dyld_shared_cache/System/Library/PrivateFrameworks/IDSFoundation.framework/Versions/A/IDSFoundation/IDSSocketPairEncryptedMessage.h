@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)2LLP;
 - (unsigned char);
 - (void)s remaining data, offset %u packet length %u
 ;

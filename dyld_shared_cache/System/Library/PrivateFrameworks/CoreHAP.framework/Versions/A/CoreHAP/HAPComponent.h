@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     id <HAPBTLECentralManagerDelegate> centralManagerDelegate;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)PBLEPeripheral"24;

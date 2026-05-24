@@ -5,13 +5,11 @@
 //
 
 @class NSString;
-@protocol SWShareConfiguration;
 
 @protocol SWNavigationBarConfiguration
 - (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SWShareConfiguration> shareConfiguration;
 @property(readonly, nonatomic) NSString *title;
 @end
 

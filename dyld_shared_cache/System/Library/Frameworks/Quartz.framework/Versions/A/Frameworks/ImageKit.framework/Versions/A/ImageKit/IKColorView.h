@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)fetch for collections with type %d and subtype %d;
 
 @end
 

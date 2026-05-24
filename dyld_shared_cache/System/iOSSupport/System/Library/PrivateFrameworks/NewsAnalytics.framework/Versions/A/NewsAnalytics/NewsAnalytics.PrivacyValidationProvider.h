@@ -7,7 +7,6 @@
 @interface NewsAnalytics.PrivacyValidationProvider
 {
     id appConfigurationManager;
-    id _privacyValidation;
 }
 
 - (void);

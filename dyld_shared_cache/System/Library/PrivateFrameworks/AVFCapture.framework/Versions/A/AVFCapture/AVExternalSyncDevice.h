@@ -4,96 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceInput, AVWeakReference, FigStateMachine, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 @interface AVExternalSyncDevice
 {
     AVWeakReference *_deviceWeakReference;
-    struct OpaqueCMClock *_clock;
-    _Bool _usbConnected;
-    AVWeakReference *_delegate;
-    FigStateMachine *_stateMachine;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _configurationTimeoutBlock;
-    CDUnknownBlockType _unfollowTimeoutBlock;
-    AVCaptureDeviceInput *_captureDeviceInput;
-    NSString *_uniqueIdentifier;
-    unsigned int _vendorID;
-    unsigned int _productID;
-    _Bool _sessionRunning;
-    _Bool _locked;
-    NSUUID *_uuid;
-    CDStruct_1b6d18a9 _signalCompensationDelay;
 }
 
 + (void)»'µ¦À;
-- (CDStruct_1b6d18a9);
-- (void);
-- (void);
+- (CDStruct_1b6d18a9)msv_errorWithDomain:code:underlyingError:userInfo:debugDescription: /* Error: Ran out of types for this method. */;
+- (void)isWritableFileAtPath:(CDStruct_1b6d18a9)arg1;
+- (void)isNullValueAtColumnIndex:(_Bool)arg1;
+- (void)enumerateObjectsWithOptions:(CDUnknownBlockType)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_primaryTextColor;
+- (_Bool)_entitlement;
+- (void)ay",&,N,V_subwords;
+- (void)_remove;
+- (void)_operationError;
+- (void)y",&,N,V_gradientTextColorHex;
+- (void)ay",&,D,N;
+- (void)ge",&,N,V_package;
+- (void),V_parentWord;
+- (void)als;
+- (void)o;
+- (void)_convertObject:(unsigned int)arg1;
+- (void)_containerStack;
+- (void)quest;
+- (void)VArtworkServiceRequest",R,N,V_request;
+- (void)n",&,N,V_session;
+- (void)uppercaseString;
+- (void)translationsMap;
+- (CDUnknownBlockType)MSVRandom;
+- (void)E;
+- (id)MSVError;
+- (void)rceRef, size_t, CGImageDestinationRef, CGFloat, CGFloat);
+- (void)nnot be NULL;
+- (void)dex out of bounds;
+- (_Bool)OCIFontState;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (struct OpaqueCMClock *);
-- (unsigned int)ash;
+- (struct OpaqueCMClock *)SC_IyEEE3$_0;
+- (unsigned int)_hash;
 
 // Remaining properties
-@property(readonly, nonatomic) struct OpaqueCMClock *clock; // @synthesize clock=_clock;
-@property(copy, nonatomic) CDUnknownBlockType configurationTimeoutBlock; // @synthesize configurationTimeoutBlock=_configurationTimeoutBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(readonly, nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic, getter=isSessionRunning) _Bool sessionRunning; // @synthesize sessionRunning=_sessionRunning;
-@property(nonatomic) CDStruct_1b6d18a9 signalCompensationDelay; // @synthesize signalCompensationDelay=_signalCompensationDelay;
-@property(readonly, nonatomic) long long state;
-@property(readonly, nonatomic) long long status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(readonly, nonatomic, getter=isUsbConnected) _Bool usbConnected; // @synthesize usbConnected=_usbConnected;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) unsigned int vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

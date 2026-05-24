@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFParallaxLayerStack, PIParallaxStyle;
+@class PFParallaxLayerStack;
 
 @interface PIParallaxClockMaterialRequest
 {
     PFParallaxLayerStack *_layerStack;
-    PIParallaxStyle *_style;
-    long long _luminanceCalculationType;
 }
 
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)_iCloudFlavor;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)utDebugSpillOnly: /* Error: Ran out of types for this method. */;
+- (void)h;
+- (void)setInputDebugSpillOnly: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PFParallaxLayerStack *layerStack; // @synthesize layerStack=_layerStack;
-@property(nonatomic) long long luminanceCalculationType; // @synthesize luminanceCalculationType=_luminanceCalculationType;
-@property(retain, nonatomic) PIParallaxStyle *style; // @synthesize style=_style;
 
 @end
 

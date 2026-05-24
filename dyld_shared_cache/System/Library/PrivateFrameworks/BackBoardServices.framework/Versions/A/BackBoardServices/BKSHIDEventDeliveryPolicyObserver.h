@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringSelectionPathIdentifier, BKSHIDEventDeferringToken, BKSHIDEventDeliveryPolicy, BKSHIDEventDisplay, BKSHIDEventObserver, NSHashTable, NSObject, NSSet, NSString;
-@protocol BSInvalidatable, OS_dispatch_queue;
+@class BKSHIDEventObserver, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BKSHIDEventDeliveryPolicyObserver
 {
     BKSHIDEventObserver *_observer;
-    id <BSInvalidatable> _observingAssertion;
-    NSObject<OS_dispatch_queue> *_asyncObserverCalloutQueue;
-    struct os_unfair_lock_s _lock;
-    BKSHIDEventDisplay *_lock_display;
-    BKSHIDEventDeferringEnvironment *_lock_environment;
-    BKSHIDEventDeferringToken *_lock_token;
-    BKSHIDEventDeferringSelectionPathIdentifier *_lock_selectionPathIdentifier;
-    NSSet *_lock_observations;
-    BKSHIDEventDeliveryPolicy *_lock_currentPolicy;
-    NSHashTable *_lock_observers;
 }
 
 - (id);
@@ -30,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)BLE where pKey = %d; ;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -40,36 +30,21 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)addObserver:selector:name:object:suspensionBehavior: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)_num;
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *asyncObserverCalloutQueue;
-@property(readonly, nonatomic) _Bool canReceiveEvents;
-@property(readonly, nonatomic) BKSHIDEventDeliveryPolicy *currentPolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) BKSHIDEventDeferringEnvironment *deferringEnvironment;
-@property(copy, nonatomic) BKSHIDEventDeferringToken *deferringToken;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) BKSHIDEventDisplay *display;
-@property(readonly, nonatomic) _Bool finalStringTokenInChain;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long policyStatus;
-@property(copy, nonatomic) BKSHIDEventDeferringSelectionPathIdentifier *selectionPathIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

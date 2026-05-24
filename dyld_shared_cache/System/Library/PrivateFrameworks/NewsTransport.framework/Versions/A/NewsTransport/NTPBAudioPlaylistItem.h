@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBDate;
-
 @interface NTPBAudioPlaylistItem
 {
     long long _listOrder;
-    NSString *_articleID;
-    NTPBDate *_dateAdded;
-    NSString *_identifier;
-    struct {
-        unsigned int listOrder:1;
-    } _has;
 }
 
 @end

@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSData, NSString, PKPaymentPass;
+@class PKPaymentPass;
 
 @interface PKPaymentSubmitActivationCodeRequest : PKPaymentWebServiceRequest
 {
     PKPaymentPass *_pass;
-    NSString *_verificationCode;
-    NSData *_verificationData;
-    NSArray *_entries;
 }
 
 - (id);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id){;
 - (void);
 - (id);
-- (void)IdentityUseBioBindingKey;
+- (void)PKIdentityUseBioBindingKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *entries; // @synthesize entries=_entries;
 @property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(copy, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
-@property(copy, nonatomic) NSData *verificationData; // @synthesize verificationData=_verificationData;
 
 @end
 

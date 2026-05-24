@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBShowPurchaseRequestSheetCommand
+- (NSData *),V_comment;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requestIdentifier;
 @end
 

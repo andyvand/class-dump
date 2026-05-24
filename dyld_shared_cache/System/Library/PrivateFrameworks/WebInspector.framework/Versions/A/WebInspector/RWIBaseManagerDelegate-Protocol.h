@@ -5,5 +5,9 @@
 //
 
 @protocol RWIBaseManagerDelegate
+
+@optional
+- (void)";
+- (void);
 @end
 

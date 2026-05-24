@@ -5,5 +5,9 @@
 //
 
 @protocol EKUIManagedViewController
+- (_Bool)X%s;
+
+@optional
+- (_Bool);
 @end
 

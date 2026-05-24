@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationSession, NSArray, NSDictionary, NSString, PGManagerWorkingContext;
-
 @interface PGSurveyQuestionFactory
 {
     _Bool _ignoreExistingQuestions;
-    short _questionVersion;
-    NSDictionary *_existingQuestionsByEntityIdentifier;
-    PGManagerWorkingContext *_workingContext;
-    CLSCurationSession *_curationSession;
 }
 
 - (_Bool);
@@ -21,15 +15,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)setActiveMenuController: /* Error: Ran out of types for this method. */;
+- (id)becomeFrontmostApplication;
+- (id)accessibilityLabel;
+- (id)accessibilityHorizontalScrollBar;
+- (id)__sharedKeyboardFocusedElementSelectedElementControllers;
+- (id),V__elementCacheLock;
+- (id)_assertNotApplicationCacheQueue;
+- (id)AXKApplicationContentAccessorBase;
+- (id)AXKScreenCursorNotificationTargetScreenKey;
 - (id);
 - (id);
 - (id);
@@ -41,21 +35,7 @@
 - (void)e asset feature vector extraction failed. Error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *collidingQuestionTypes;
-@property(retain, nonatomic) CLSCurationSession *curationSession; // @synthesize curationSession=_curationSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *existingQuestionsByEntityIdentifier; // @synthesize existingQuestionsByEntityIdentifier=_existingQuestionsByEntityIdentifier;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool ignoreExistingQuestions; // @synthesize ignoreExistingQuestions=_ignoreExistingQuestions;
-@property(readonly, nonatomic) long long questionOptions;
-@property(readonly, nonatomic) unsigned short questionType;
-@property(readonly, nonatomic) short questionVersion; // @synthesize questionVersion=_questionVersion;
-@property(readonly) Class superclass;
-@property(readonly) PGManagerWorkingContext *workingContext; // @synthesize workingContext=_workingContext;
 
 @end
 

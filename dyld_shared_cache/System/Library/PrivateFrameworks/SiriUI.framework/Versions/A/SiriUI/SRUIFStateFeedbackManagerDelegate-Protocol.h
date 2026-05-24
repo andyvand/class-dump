@@ -5,5 +5,8 @@
 //
 
 @protocol SRUIFStateFeedbackManagerDelegate
+
+@optional
+- (_Bool);
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TUUIXPCClient;
 
 __attribute__((visibility("hidden")))
@@ -13,19 +12,12 @@ __attribute__((visibility("hidden")))
     id <TUUIXPCClient> _wrappedObject;
 }
 
-- (id);
-- (void);
-- (id);
+- (id))> &&);
+- (void)id WebKit:(id)arg1:NetworkConnectionToWebProcess::getRawCookies(const URL &, const SameSiteInfo &, const URL &, std::optional<FrameIdentifier>, std::optional<PageIdentifier>, std::optional<WebPageProxyIdentifier>, CompletionHandler<void (Vector<WebCore::Cookie> &&)> &&) /* Error: Ran out of types for this method. */;
+- (id)eadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF:(id)arg1:HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, std::tuple<WTF::Ref<WebKit::PlaybackSessionModelContext>, WTF::Ref<WebCore::PlaybackSessionInterfaceMac>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <TUUIXPCClient> wrappedObject; // @synthesize wrappedObject=_wrappedObject;
 
 @end

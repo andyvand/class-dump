@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBActionItem, _SFPBColor, _SFPBMediaItem, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBMediaInfoCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _isMediaContainer;
-    int _separatorStyle;
-    int _watchListItemType;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBMediaItem *_mediaItem;
-    NSArray *_details;
-    _SFPBActionItem *_playAction;
-    NSArray *_offers;
-    NSString *_watchListIdentifier;
-    NSString *_watchListButtonLabel;
-    NSString *_watchListContinuationText;
-    NSString *_watchListConfirmationText;
-    _SFPBRichText *_specialOfferButtonLabel;
 }
 
 - (int);
@@ -54,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R%;
 - (void);
 - (void);
 - (void);
@@ -70,19 +51,19 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)Verifier",R,C,N,V_ageVerifier;
+- (_Bool)ICURLRequest:task:didResumeAt: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)ibrary:(id)arg1;
+- (void)appendInteger:(id)arg1;
+- (id)de analysis stage from %d to %d by client:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -94,34 +75,7 @@
 - (int)]Ùÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *details; // @synthesize details=_details;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMediaContainer; // @synthesize isMediaContainer=_isMediaContainer;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBMediaItem *mediaItem; // @synthesize mediaItem=_mediaItem;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(retain, nonatomic) _SFPBActionItem *playAction; // @synthesize playAction=_playAction;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *specialOfferButtonLabel; // @synthesize specialOfferButtonLabel=_specialOfferButtonLabel;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *watchListButtonLabel; // @synthesize watchListButtonLabel=_watchListButtonLabel;
-@property(copy, nonatomic) NSString *watchListConfirmationText; // @synthesize watchListConfirmationText=_watchListConfirmationText;
-@property(copy, nonatomic) NSString *watchListContinuationText; // @synthesize watchListContinuationText=_watchListContinuationText;
-@property(copy, nonatomic) NSString *watchListIdentifier; // @synthesize watchListIdentifier=_watchListIdentifier;
-@property(nonatomic) int watchListItemType; // @synthesize watchListItemType=_watchListItemType;
 
 @end
 

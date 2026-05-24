@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SECSFAPropertyValue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SECSFAMatchProperty
 {
     NSString *_propertyName;
-    SECSFAPropertyValue *_value;
 }
 
 - (void);
@@ -22,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)ɐ@;
+- (id)@;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -32,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPropertyName;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(retain, nonatomic) SECSFAPropertyValue *value; // @synthesize value=_value;
 
 @end
 

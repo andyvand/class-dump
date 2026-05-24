@@ -9,20 +9,11 @@
 @interface UINibCoderValue
 {
     NSString *key;
-    unsigned int scope;
-    BOOL type;
-    union {
-        float floatValue;
-        double doubleValue;
-        unsigned long long integerValue;
-        void *bytesValue;
-    } value;
-    unsigned long long length;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)0;
 + (id);
 + (id);
 + (id);

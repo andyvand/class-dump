@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarImageRenderer, NSCache;
+@class CNAvatarImageRenderer;
 
 __attribute__((visibility("hidden")))
 @interface CKPrintController
 {
     _Bool _isPrinting;
-    CNAvatarImageRenderer *_avatarImageRenderer;
-    NSCache *_avatarCache;
 }
 
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (id)e;
++ (void)h;
++ (id)t;
++ (void)D;
++ (id)p;
++ (id)t;
 + (id)ä^ªÿå÷kÐìFÿÕ÷k_ªÿ;
-- (void);
+- (void)contentSizeHeightConstraint;
 - (_Bool);
 - (void);
 - (void);
@@ -33,9 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)ð;
 
 // Remaining properties
-@property(retain, nonatomic) NSCache *avatarCache; // @synthesize avatarCache=_avatarCache;
 @property(retain, nonatomic) CNAvatarImageRenderer *avatarImageRenderer; // @synthesize avatarImageRenderer=_avatarImageRenderer;
-@property(nonatomic, setter=setPrinting:) _Bool isPrinting; // @synthesize isPrinting=_isPrinting;
 
 @end
 

@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface SCTPopAnimation
 {
     SCTHelpPointerView *mAnimatedView;
-    float mSlope;
-    float mScale;
-    float mScaleStep;
 }
 
 - (void);
-- (void);
+- (void)traint";
 - (void);
 - (id);
 

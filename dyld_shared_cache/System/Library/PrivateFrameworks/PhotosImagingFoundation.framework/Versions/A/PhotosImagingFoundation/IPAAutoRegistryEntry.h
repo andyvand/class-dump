@@ -7,18 +7,16 @@
 @interface IPAAutoRegistryEntry
 {
     _Bool _persistable;
-    Class _autoSettingsClass;
 }
 
-- (void);
-- (_Bool);
+- (void)AVCIImageFilteringResult;
+- (_Bool)SampleBufferReceiver;
 - (Class);
-- (void);
-- (void);
+- (void)AVMetadataExtraAttributeKey;
+- (void)integerValue;
 
 // Remaining properties
 @property(retain, nonatomic) Class autoSettingsClass; // @synthesize autoSettingsClass=_autoSettingsClass;
-@property(nonatomic) _Bool persistable; // @synthesize persistable=_persistable;
 
 @end
 

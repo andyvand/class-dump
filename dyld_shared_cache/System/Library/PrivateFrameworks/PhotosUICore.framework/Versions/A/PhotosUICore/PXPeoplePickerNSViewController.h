@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSString, NSTextField, PHFetchResult, PHPhotoLibrary, PXPeoplePickerCollectionView, PXPeoplePickerDataSource, PXPeoplePickerDataSourceManager;
-@protocol PXPeoplePickerViewControllerDelegate;
+@class NSTextField, PHFetchResult;
 
 @interface PXPeoplePickerNSViewController
 {
     NSTextField *_titleTextField;
-    NSTextField *_statusTextField;
-    NSButton *_cancelButton;
-    NSButton *_confirmButton;
-    NSString *_prompt;
-    PHFetchResult *_fetchResult;
-    PXPeoplePickerCollectionView *_collectionView;
-    PXPeoplePickerDataSource *_currentDataSource;
-    PXPeoplePickerDataSourceManager *_dataSourceManager;
-    CDUnknownBlockType _modalCompletionHandler;
-    _Bool _wantsPets;
-    _Bool _allowsMultipleSelection;
-    PHPhotoLibrary *_photoLibrary;
-    long long _selectionLimit;
-    long long _minimumSelectionLimit;
-    id <PXPeoplePickerViewControllerDelegate> _delegate;
-    id _userInfo;
 }
 
 - (_Bool);
@@ -39,19 +22,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)1., length(shadowStrengthXY)); 
+			gl_FragColor = mix(vec4(shadowColor.rgb, shadowColor.a * shadowStrength), borderColor, clamp(borderAlpha, 0., 1.));/* * SpriteEdgeSoftenerPremultiplied(vInSpriteCoordinates, invRadii);*/ 
+		} 
+		;
 - (void);
 - (void);
 - (id)Á%°!dFùñ8Ð1Â0@ù
@@ -60,35 +46,19 @@
 × ;
 - (id)±<Ð1Â0@ù
 × ;
-- (void)tScrubberEdgeFadeDistance: /* Error: Ran out of types for this method. */;
-- (long long)ocialGroupAssets;
+- (void)setScrubberEdgeFadeDistance: /* Error: Ran out of types for this method. */;
+- (long long)includeOthersInSocialGroupAssets;
 - (long long),N;
 - (id);
 - (void)Sg;
-- (void)ker;
+- (void)photospicker;
 - (void)nalytics.customizeShelvesMenuLayout_;
-- (void)namicHeaderStyle;
+- (void)PhotosDynamicHeaderStyle;
 - (void)p;
 - (id)ÁO¦L<;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXPeoplePickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *disabledIdentifiers;
 @property(readonly, nonatomic) PHFetchResult *fetchResult;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long minimumSelectionLimit; // @synthesize minimumSelectionLimit=_minimumSelectionLimit;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(copy, nonatomic) NSString *prompt;
-@property(nonatomic) long long selectionLimit; // @synthesize selectionLimit=_selectionLimit;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic) _Bool wantsPets; // @synthesize wantsPets=_wantsPets;
 
 @end
 

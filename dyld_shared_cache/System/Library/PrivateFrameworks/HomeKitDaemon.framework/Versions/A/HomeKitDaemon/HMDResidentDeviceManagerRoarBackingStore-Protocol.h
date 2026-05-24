@@ -4,13 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDResidentSelectionInfo, NSString;
+@class HMDBackingStoreResidentUpdateResult, HMDDevice, NSArray, NSNotification, NSString;
 
 @protocol HMDResidentDeviceManagerRoarBackingStore
+- (_Bool);
+- (_Bool)"IDSService"16@"IDSAccount"24q32@"NSString"40@"IDSMessageContext"48;
+- (void)sharedTripService:(NSNotification *)arg1 didUpdateReachedDestinationForSharedTrip: /* Error: Ran out of types for this method. */;
+- (HMDBackingStoreResidentUpdateResult *)setClientIdentifier:(NSNotification *)arg1;
+- (NSArray *)initWithFeedbackRequestParameters:(HMDDevice *)arg1 traits:(_Bool *)arg2 userInfoType: /* Error: Ran out of types for this method. */;
+- (NSString *)age without a groupID;
 
 // Remaining properties
 @property(readonly) NSString *cloudChangeUpdateNotificationName;
-@property(readonly, nonatomic) _Bool hasAnyResident;
-@property(readonly) HMDResidentSelectionInfo *residentSelectionInfo;
 @end
 

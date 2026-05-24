@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, _UITextLayoutControllerBase;
-@protocol UICoordinateSpace, _UITextLayoutController;
+@class _UITextLayoutControllerBase;
+@protocol _UITextLayoutController;
 
 __attribute__((visibility("hidden")))
 @interface _UITextLayoutBaselineCalculator
 {
     _UITextLayoutControllerBase<_UITextLayoutController> *_textLayoutController;
-    NSDictionary *_typingAttributes;
-    id <UICoordinateSpace> _coordinateSpace;
-    double _scale;
-    _Bool _usesLineFragmentOrigin;
-    struct CGPoint _fallbackTextContainerOrigin;
 }
 
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)istributedNotificationObserver";
 - (double);
 - (void)it33CoreListMetricsTemporaryProvidingP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) double firstBaselineOffsetFromTop;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double lastBaselineOffsetFromBottom;
-@property(readonly) Class superclass;
 
 @end
 

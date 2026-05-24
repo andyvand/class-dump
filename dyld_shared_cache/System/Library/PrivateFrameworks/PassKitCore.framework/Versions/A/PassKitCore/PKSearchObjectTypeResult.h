@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSearchObjectTypeResult
 {
     unsigned long long _type;
@@ -16,22 +14,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)_CommonCocoaPanels_DisplayCertificateGroup;
 - (_Bool);
-- (void);
+- (void)_newLinkState;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *typeName;
 
 @end
 

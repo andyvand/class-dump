@@ -12,23 +12,21 @@ __attribute__((visibility("hidden")))
 @interface CNContactKeyValueUpdate : CNContactUpdate
 {
     CNPropertyDescription *_property;
-    id _value;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)iceRegistrationBarred:not listening for access barring /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (void):8@16B24B28 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CNPropertyDescription *property; // @synthesize property=_property;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

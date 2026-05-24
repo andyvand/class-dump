@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMIVideoAssetWriterDelegateAdapter
 {
     CDUnknownBlockType _assetWriterDidOutputInitializationSegment;
-    CDUnknownBlockType _assetWriterDidOutputSeparableSegment;
-    CDUnknownBlockType _assetWriterDidFailWithError;
 }
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)cB9;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)|�;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType assetWriterDidFailWithError; // @synthesize assetWriterDidFailWithError=_assetWriterDidFailWithError;
 @property(copy) CDUnknownBlockType assetWriterDidOutputInitializationSegment; // @synthesize assetWriterDidOutputInitializationSegment=_assetWriterDidOutputInitializationSegment;
-@property(copy) CDUnknownBlockType assetWriterDidOutputSeparableSegment; // @synthesize assetWriterDidOutputSeparableSegment=_assetWriterDidOutputSeparableSegment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

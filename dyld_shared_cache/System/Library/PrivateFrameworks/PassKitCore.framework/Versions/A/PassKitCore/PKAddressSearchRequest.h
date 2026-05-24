@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString;
+@class NSArray;
 
 @interface PKAddressSearchRequest
 {
     NSArray *_keysToFetch;
-    CDUnknownBlockType _contactFilter;
-    NSString *_outputKey;
-    long long _type;
-    NSString *_fragment;
-    NSPredicate *_predicate;
 }
 
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)(A;
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -40,11 +35,6 @@
 - (void)rror"16;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType contactFilter; // @synthesize contactFilter=_contactFilter;
-@property(copy, nonatomic) NSString *fragment; // @synthesize fragment=_fragment;
-@property(retain, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
-@property(retain, nonatomic) NSString *outputKey; // @synthesize outputKey=_outputKey;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

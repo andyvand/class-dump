@@ -4,78 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SUCoreConnectServer, SUCoreConnectServerPolicy, SUCoreLog, SUMacController;
-@protocol OS_dispatch_queue;
+@class SUCoreLog;
 
 @interface SUMacControllerServer
 {
     SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_controllerAccessQueue;
-    SUMacController *_controller;
-    SUCoreConnectServer *_coreServer;
-    SUCoreConnectServerPolicy *_serverConnectionPolicy;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)dPopoverTouchBarItem",&,V_popoverItem;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)ntrollerCommandWakeupUpdateBrain;
+- (id)SUMacControllerCommandWakeupUpdateBrain;
 
 // Remaining properties
-@property(retain, nonatomic) SUMacController *controller; // @synthesize controller=_controller;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *controllerAccessQueue; // @synthesize controllerAccessQueue=_controllerAccessQueue;
-@property(retain, nonatomic) SUCoreConnectServer *coreServer; // @synthesize coreServer=_coreServer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) SUCoreConnectServerPolicy *serverConnectionPolicy; // @synthesize serverConnectionPolicy=_serverConnectionPolicy;
-@property(readonly) Class superclass;
 
 @end
 

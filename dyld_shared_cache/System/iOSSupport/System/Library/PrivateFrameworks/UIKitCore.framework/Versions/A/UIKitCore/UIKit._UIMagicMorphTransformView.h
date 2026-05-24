@@ -9,18 +9,13 @@
 @interface UIKit._UIMagicMorphTransformView : UIView
 {
     id hidesSourceView;
-    id matchesAlpha;
-    id appliesMinificationFilter;
-    id sourcePreview;
-    id portalView;
-    id didHostSourceView;
 }
 
-- (id);
-- (struct CGSize);
+- (id)P;
+- (struct CGSize)g response list;
 - (id);
 - (void);
-- (id)peatedActionDelegate;
+- (id)UIRepeatedActionDelegate;
 - (void)vigationItemBarButtonItemGroupsDidChange:] /* Error: Ran out of types for this method. */;
 - (void)$ÐÜ;
 - (_Bool);

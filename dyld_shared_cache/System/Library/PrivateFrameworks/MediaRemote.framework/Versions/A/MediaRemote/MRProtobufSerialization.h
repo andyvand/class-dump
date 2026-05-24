@@ -9,24 +9,18 @@
 @interface MRProtobufSerialization
 {
     NSDictionary *_protobufKeyToDictionaryKeyMapping;
-    NSDictionary *_dictionaryKeyToProtobufKeyMapping;
-    Class _protobufClass;
-    CDUnknownBlockType _dictionaryValueToProtobufValueTransformer;
-    CDUnknownBlockType _protobufValueToDictionaryValueTransformer;
-    CDUnknownBlockType _dictionaryValueToProtobufPostTransformer;
-    CDUnknownBlockType _protobufValueToDictionaryPostTransformer;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (Class);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)hhx;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -35,11 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *dictionaryKeyToProtobufKeyMapping; // @synthesize dictionaryKeyToProtobufKeyMapping=_dictionaryKeyToProtobufKeyMapping;
-@property(copy, nonatomic) CDUnknownBlockType dictionaryValueToProtobufPostTransformer; // @synthesize dictionaryValueToProtobufPostTransformer=_dictionaryValueToProtobufPostTransformer;
-@property(copy, nonatomic) CDUnknownBlockType dictionaryValueToProtobufValueTransformer; // @synthesize dictionaryValueToProtobufValueTransformer=_dictionaryValueToProtobufValueTransformer;
-@property(retain, nonatomic) Class protobufClass; // @synthesize protobufClass=_protobufClass;
-@property(copy, nonatomic) CDUnknownBlockType protobufValueToDictionaryPostTransformer; // @synthesize protobufValueToDictionaryPostTransformer=_protobufValueToDictionaryPostTransformer;
-@property(copy, nonatomic) CDUnknownBlockType protobufValueToDictionaryValueTransformer; // @synthesize protobufValueToDictionaryValueTransformer=_protobufValueToDictionaryValueTransformer;
 
 @end
 

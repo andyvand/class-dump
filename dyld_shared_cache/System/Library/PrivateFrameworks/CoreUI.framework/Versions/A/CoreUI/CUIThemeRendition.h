@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface CUIThemeRendition
 {
     struct _renditionkeytoken _stackKey[22];
-    struct _renditionkeytoken *_key;
-    long long _type;
-    unsigned int _subtype;
-    unsigned int _scale;
-    int _exifOrientation;
-    int _blendMode;
-    struct cuithemerenditionrenditionflags _renditionFlags;
-    long long _templateRenderingMode;
-    unsigned long long _colorSpaceID;
-    NSString *_name;
-    NSData *_srcData;
-    double _opacity;
-    NSString *_utiType;
-    struct CGImage *_uncroppedImage;
-    struct CGSize _physicalSizeInMeters;
-    NSDictionary *_properties;
 }
 
-+ (Class);
++ (Class)S;
 + (id);
 - (unsigned short);
 - (struct CGImage *);
@@ -37,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (struct cuithemerenditionrenditionflags *);
+- (struct cuithemerenditionrenditionflags *);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,18 +32,19 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)Azj;
+- (unsigned int);
 - (double);
 - (id);
-- (const struct _csitextstyle *);
+- (const struct _csitextstyle *):
+* /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (_Bool);
@@ -73,11 +56,11 @@
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (int);
 - (_Bool);
-- (struct CGSVGDocument *);
+- (struct CGSVGDocument *)J�S)*5;
 - (int);
 - (id);
 - (CDStruct_3c058996);
@@ -87,10 +70,10 @@
 - (id);
 - (double);
 - (_Bool);
-- (id);
+- (id)4^;
 - (float);
 - (int);
-- (long long);
+- (long long)isWaitingForIdentityUpdate;
 - (const struct _renditionkeytoken *);
 - (long long);
 - (long long);
@@ -99,10 +82,10 @@
 - (double);
 - (_Bool);
 - (id);
+- (id)4;
+- (double)A;
 - (id);
-- (double);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -110,8 +93,8 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (struct CGImage *);
-- (unsigned long long);
+- (struct CGImage *);
+- (unsigned long long)deleteUserPersonaWithPersonaUniqueString:passcodeData:completionHandler: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
@@ -123,22 +106,14 @@
 - (void);
 - (struct CGColor *);
 - (int);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (unsigned int);
 - (void);
 - (int)@32d40;
 - (id)find the correct chunk '%d';
-- (id)ionBrowserGlassButtonStretch;
+- (id)VersionBrowserGlassButtonStretch;
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) int exifOrientation; // @synthesize exifOrientation=_exifOrientation;
-@property(retain, nonatomic) NSString *internalName;
-@property(nonatomic) unsigned int internalScale; // @synthesize internalScale=_scale;
-@property(nonatomic) long long internalTemplateRenderingMode; // @synthesize internalTemplateRenderingMode=_templateRenderingMode;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) NSData *srcData; // @synthesize srcData=_srcData;
-@property(nonatomic) unsigned int subtype; // @synthesize subtype=_subtype;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

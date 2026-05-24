@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGKeyValueCacheFile;
+@class SGKeyValueCacheFile;
 
 @interface SGDetailCacheSnapshot
 {
     SGKeyValueCacheFile *_phoneCache;
-    SGKeyValueCacheFile *_emailCache;
-    NSString *_maybeFormat;
 }
 
 - (void);

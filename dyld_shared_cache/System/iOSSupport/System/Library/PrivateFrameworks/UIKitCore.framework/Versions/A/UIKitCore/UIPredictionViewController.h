@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, TUIPredictionView, UIInputViewSetPlacement;
+@class TUIPredictionView, UIInputViewSetPlacement;
 
 __attribute__((visibility("hidden")))
 @interface UIPredictionViewController : UIViewController
@@ -16,35 +16,24 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
+- (void)buildWithBundleIdentifier:withExternalVersionIdentifier:withVersion:withShortVersion:withName:withBundleSize:withDynamicSize:withIsValidated:withInstalling:withAppStoreVendable:withDeviceBasedVPP:withBetaApp:withAdHocCodeSigned:withHasUpdateAvailable:withDownloadFailed:withDownloadWaiting:withDownloadPaused:withDownloadCancelled: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)Chunkserver__ChunkErrorIndex;
+- (id)__MPModelPropertyTVSeasonHasExplicitContent__MAPPING_MISSING__;
 - (_Bool)Ð! EùYð1Â0@ù
 × ;
 - (double)
 × ;
 - (_Bool)IFindNavigatorViewLayout";
-- (void)KeyboardVisualState;
-- (_Bool)eletionAtURL:(id)arg1 completionHandler:(id)arg2;
-- (_Bool)cumentView;
+- (void)currentKeyboardVisualState;
+- (_Bool)accommodatePresentedSubitemDeletionAtURL:(id)arg1 completionHandler:(id)arg2;
+- (_Bool)UIWebDocumentView;
 - (void)Nd;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) TUIPredictionView *predictionView; // @synthesize predictionView=_predictionView;
-@property(readonly) Class superclass;
 
 @end
 

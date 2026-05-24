@@ -7,8 +7,6 @@
 @interface IMCore.ImportExport.ArchivedConversation
 {
     id conversation;
-    id messageBatchRelativePaths;
-    id messageCount;
 }
 
 @end

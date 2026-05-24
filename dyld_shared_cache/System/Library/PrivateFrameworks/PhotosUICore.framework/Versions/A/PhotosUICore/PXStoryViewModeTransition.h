@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXAssetReference, PXNumberAnimator, PXRegionOfInterest, PXStoryTimelineLayoutSnapshot, PXUpdater;
+@class PXNumberAnimator, PXUpdater;
 
 @interface PXStoryViewModeTransition
 {
     PXUpdater *_updater;
-    _Bool _isComplete;
-    _Bool _isFinished;
-    _Bool _isCancelled;
-    float _fractionCompleted;
-    long long _sourceViewMode;
-    long long _destinationViewMode;
-    PXStoryTimelineLayoutSnapshot *_sourceSnapshot;
-    PXStoryTimelineLayoutSnapshot *_destinationSnapshot;
-    PXAssetReference *_assetReference;
-    PXRegionOfInterest *_regionOfInterest;
-    PXNumberAnimator *_progressAnimator;
-    PXNumberAnimator *_fadeoutAnimator;
-    CDStruct_b546a901 _swipeDownInteractionState;
 }
 
 - (double);
-- (double);
+- (double);
 - (void);
-- (CDStruct_b546a901);
+- (CDStruct_84602be5);
 - (long long);
 - (id);
 - (_Bool);
@@ -39,18 +26,18 @@
 - (struct CGRect);
 - (long long);
 - (id);
-- (CDStruct_2bd92d94);
+- (CDStruct_c2259bfa);
 - (CDStruct_fe8c0406);
 - (double);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)vx;
 - (double);
 - (void);
 - (float);
@@ -60,39 +47,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)reURL:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchMomentShareFromShareURL:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)$__lazy_storage_$_notificationsShelfViewModel;
-- (_Bool)essToastOngoingTitle;
+- (_Bool)PXRevertEditActionProgressToastOngoingTitle;
 - (void)PXSynchronousAddPickerFileProviderDomain(NSError *__autoreleasing * _Nullable);
 - (void);
 - (_Bool)dexingStatusGenericEmptyStateViewModel;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAssetReference *assetReference; // @synthesize assetReference=_assetReference;
-@property(readonly, nonatomic) double dampingRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXStoryTimelineLayoutSnapshot *destinationSnapshot; // @synthesize destinationSnapshot=_destinationSnapshot;
-@property(readonly, nonatomic) long long destinationViewMode; // @synthesize destinationViewMode=_destinationViewMode;
-@property(readonly, nonatomic) PXNumberAnimator *fadeoutAnimator; // @synthesize fadeoutAnimator=_fadeoutAnimator;
-@property(readonly, nonatomic) double fadeoutDuration;
-@property(readonly, nonatomic) float fractionCompleted; // @synthesize fractionCompleted=_fractionCompleted;
-@property(readonly, nonatomic) _Bool hasActiveAnimation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly, nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
 @property(readonly, nonatomic) PXNumberAnimator *progressAnimator; // @synthesize progressAnimator=_progressAnimator;
-@property(readonly, nonatomic) PXRegionOfInterest *regionOfInterest; // @synthesize regionOfInterest=_regionOfInterest;
-@property(readonly, nonatomic) _Bool shouldFinish;
-@property(readonly, nonatomic) PXStoryTimelineLayoutSnapshot *sourceSnapshot; // @synthesize sourceSnapshot=_sourceSnapshot;
-@property(readonly, nonatomic) long long sourceViewMode; // @synthesize sourceViewMode=_sourceViewMode;
-@property(readonly, nonatomic) double springStiffness;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_b546a901 swipeDownInteractionState; // @synthesize swipeDownInteractionState=_swipeDownInteractionState;
 
 @end
 

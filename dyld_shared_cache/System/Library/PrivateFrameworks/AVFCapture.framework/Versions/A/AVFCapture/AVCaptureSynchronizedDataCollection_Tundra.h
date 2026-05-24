@@ -11,7 +11,7 @@
     AVCaptureSynchronizedDataCollectionInternal_Tundra *_internal;
 }
 
-- (id);
+- (id)enumerateIndexesUsingBlock:(id)arg1;
 - (id);
 - (unsigned long long);
 - (unsigned long long)ig;

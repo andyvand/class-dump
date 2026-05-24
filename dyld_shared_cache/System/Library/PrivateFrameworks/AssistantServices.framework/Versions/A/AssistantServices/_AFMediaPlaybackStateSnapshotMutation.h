@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMediaPlaybackStateSnapshot, NSDate, NSString;
+@class AFMediaPlaybackStateSnapshot;
 
 @interface _AFMediaPlaybackStateSnapshotMutation
 {
     AFMediaPlaybackStateSnapshot *_base;
-    long long _playbackState;
-    NSDate *_nowPlayingTimestamp;
-    NSString *_mediaType;
-    NSString *_groupIdentifier;
-    _Bool _isProxyGroupPlayer;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasPlaybackState:1;
-        unsigned int hasNowPlayingTimestamp:1;
-        unsigned int hasMediaType:1;
-        unsigned int hasGroupIdentifier:1;
-        unsigned int hasIsProxyGroupPlayer:1;
-    } _mutationFlags;
 }
 
-- (void);
+- (void)CardAuthorizationDestinationDeviceSignature",&,N,V_destinationDeviceSignature;
 - (long long);
 - (id);
 - (_Bool);
@@ -33,19 +20,13 @@
 - (id);
 - (void);
 - (id);
+- (void)t;
 - (void);
-- (void);
-- (id)ionResults:(id)arg1;
-- (void)herState;
+- (id)startRequestWithCorrectedText:(id)arg1 forSpeechIdentifier:userSelectionResults: /* Error: Ran out of types for this method. */;
+- (void)_nextElectionPublisherState;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

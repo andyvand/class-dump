@@ -6,35 +6,24 @@
 
 #import <BiometricKit/BKPresenceDetectOperation.h>
 
-@protocol BKFaceDetectOperationDelegate;
-
 @interface BKFaceDetectOperation : BKPresenceDetectOperation
 {
     _Bool _highPriority;
-    _Bool _eyeRelief;
-    _Bool _motionDetect;
-    long long _mode;
-    double _timeout;
 }
 
 - (void);
 - (_Bool);
-- (long long);
+- (long long)factors to file %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)listener:shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak id <BKFaceDetectOperationDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool eyeRelief; // @synthesize eyeRelief=_eyeRelief;
-@property(nonatomic) _Bool highPriority; // @synthesize highPriority=_highPriority;
 @property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) _Bool motionDetect; // @synthesize motionDetect=_motionDetect;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

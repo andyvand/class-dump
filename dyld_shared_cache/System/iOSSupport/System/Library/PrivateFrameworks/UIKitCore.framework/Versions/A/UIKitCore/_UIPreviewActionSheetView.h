@@ -6,24 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UILongPressGestureRecognizer;
+@class NSArray;
 @protocol _UIPreviewActionSheetViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewActionSheetView : UIView
 {
     id <_UIPreviewActionSheetViewDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_actions;
-    NSString *_title;
-    UILongPressGestureRecognizer *_captureTouchesRecognizer;
-    struct UIEdgeInsets _contentInsets;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)ray"16C24@"NSArray"28@"NSString"36;
+- (id)initWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (void)rvice;
 - (void);
 - (id);
 - (id);
@@ -32,28 +27,16 @@ __attribute__((visibility("hidden")))
 - (id)Á;
 - (void)
 × ;
-- (CDUnknownBlockType)ons: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (void)troller;
-- (id)hasSpacing;
-- (id)yTypeCapsLock;
+- (CDUnknownBlockType)setGenieSubdivisions: /* Error: Ran out of types for this method. */;
+- (void)configureIndicatorImagesForIndicator:(id)arg1 atPage: /* Error: Ran out of types for this method. */;
+- (void)_reloadDataSourceController;
+- (id)_hasSpacing;
+- (id)UIKBKeyDisplayTypeCapsLock;
 - (void)temSceneComponent.m;
 - (void)0¦þ%Æ23l¦þ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(retain, nonatomic) UILongPressGestureRecognizer *captureTouchesRecognizer; // @synthesize captureTouchesRecognizer=_captureTouchesRecognizer;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIPreviewActionSheetViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -7,51 +7,29 @@
 @interface RTTripClusterWalkAndBikeTripStats
 {
     _Bool _isWalkSegmentBeforeDrivePresent;
-    _Bool _isWalkSegmentAfterDrivePresent;
-    _Bool _isBikeSegmentBeforeDrivePresent;
-    _Bool _isBikeSegmentAfterDrivePresent;
-    double _walkTimeDurationBeforeDrive_sec;
-    double _walkTimeDurationAfterDrive_sec;
-    double _bikeTimeDurationBeforeDrive_sec;
-    double _bikeTimeDurationAfterDrive_sec;
-    double _walkDistanceBeforeDrive_m;
-    double _walkDistanceAfterDrive_m;
-    double _bikeDistanceBeforeDrive_m;
-    double _bikeDistanceAfterDrive_m;
 }
 
 - (double);
 - (double);
 - (double);
 - (void);
+- (long long);
 - (long long);
 - (long long);
-- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
+- (double)Data"@"NSArray"@"NSError">24;
+- (double)onary"16@?<v@?@"NSString"@"NSData"@"NSData"@"NSArray"@"NSError">24;
+- (double)@?<v@?B@"NSError">24;
+- (_Bool)special;
+- (_Bool)someone;
+- (double)relief;
+- (double)order;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double bikeDistanceAfterDrive_m; // @synthesize bikeDistanceAfterDrive_m=_bikeDistanceAfterDrive_m;
-@property(readonly, nonatomic) double bikeDistanceBeforeDrive_m; // @synthesize bikeDistanceBeforeDrive_m=_bikeDistanceBeforeDrive_m;
-@property(readonly, nonatomic) double bikeTimeDurationAfterDrive_sec; // @synthesize bikeTimeDurationAfterDrive_sec=_bikeTimeDurationAfterDrive_sec;
-@property(readonly, nonatomic) double bikeTimeDurationBeforeDrive_sec; // @synthesize bikeTimeDurationBeforeDrive_sec=_bikeTimeDurationBeforeDrive_sec;
-@property(readonly, nonatomic) _Bool isBikeSegmentAfterDrivePresent; // @synthesize isBikeSegmentAfterDrivePresent=_isBikeSegmentAfterDrivePresent;
-@property(readonly, nonatomic) _Bool isBikeSegmentBeforeDrivePresent; // @synthesize isBikeSegmentBeforeDrivePresent=_isBikeSegmentBeforeDrivePresent;
-@property(readonly, nonatomic) _Bool isWalkSegmentAfterDrivePresent; // @synthesize isWalkSegmentAfterDrivePresent=_isWalkSegmentAfterDrivePresent;
 @property(readonly, nonatomic) _Bool isWalkSegmentBeforeDrivePresent; // @synthesize isWalkSegmentBeforeDrivePresent=_isWalkSegmentBeforeDrivePresent;
-@property(readonly, nonatomic) double walkDistanceAfterDrive_m; // @synthesize walkDistanceAfterDrive_m=_walkDistanceAfterDrive_m;
-@property(readonly, nonatomic) double walkDistanceBeforeDrive_m; // @synthesize walkDistanceBeforeDrive_m=_walkDistanceBeforeDrive_m;
-@property(readonly, nonatomic) double walkTimeDurationAfterDrive_sec; // @synthesize walkTimeDurationAfterDrive_sec=_walkTimeDurationAfterDrive_sec;
-@property(readonly, nonatomic) double walkTimeDurationBeforeDrive_sec; // @synthesize walkTimeDurationBeforeDrive_sec=_walkTimeDurationBeforeDrive_sec;
 
 @end
 

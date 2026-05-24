@@ -6,37 +6,13 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableDictionary, NSObject, NSString, RTAccount, RTAccountManager, RTDarwinNotificationHelper, RTDataProtectionManager, RTDefaultsManager, RTKeychainManager, RTLifeCycleManager, RTPersistenceManager, RTPersistenceResetSyncContext, RTPlatform, RTTimer, RTTimerManager;
-@protocol OS_os_transaction, RTPersistenceMetricsDelegate;
-
 @interface RTPersistenceDriver : RTService
 {
     _Bool _requiresDirtyTransaction;
-    _Bool _requiresSetupTransaction;
-    RTPersistenceManager *_persistenceManager;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTAccountManager *_accountManager;
-    RTPlatform *_currentPlatform;
-    RTKeychainManager *_keychainManager;
-    RTDefaultsManager *_defaultsManager;
-    RTLifeCycleManager *_lifecycleManager;
-    NSObject<OS_os_transaction> *_setupTransaction;
-    long long _cloudSyncAuthorization;
-    long long _encryptedDataAvailability;
-    RTAccount *_currentAccount;
-    long long _currentAccountStatus;
-    id <RTPersistenceMetricsDelegate> _metricsDelegate;
-    RTPersistenceResetSyncContext *_resetSyncContext;
-    RTDarwinNotificationHelper *_notificationHelper;
-    RTTimerManager *_timerManager;
-    RTTimer *_backgroundProcessingAssertionDeferralTimer;
-    RTTimer *_backgroundProcessingAssertionAcquireRetryTimer;
-    unsigned long long _backgroundAssertionRetryCount;
-    NSMutableDictionary *_fileDescriptorsForPersistenceStoreDict;
 }
 
 + (id);
-+ (long long);
++ (long long);
 - (long long);
 - (_Bool);
 - (id);
@@ -55,7 +31,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)�;
 - (id);
 - (void);
 - (void);
@@ -63,7 +39,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -81,50 +57,51 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)setExistingItemSHA1: /* Error: Ran out of types for this method. */;
+- (id)markMirrorKey:(id)arg1 type:(id)arg2;
+- (long long)_currentStep;
+- (unsigned long long)PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
+- (_Bool)ng;
 - (long long);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (long long);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (void);
+- (void);
+- (void)set current bit:(double)arg1 %@;
+- (void)item for %@ does not have current bit set, attempting to fix;
+- (_Bool)lbackStingrayRecord:(long long)arg1 Re-creating Fallback Stingray Record;
+- (_Bool)allback key hash in existing record match our DBR Record!;
+- (_Bool)riteFallbackStingrayRecord:(long long)arg1 Nothing needed to be done, Stingray Fallback key hash in existing record match our DBR Record!;
+- (void)M:(long long)arg1 no DBR record, in need of repair;
+- (id)ration (due to %@/%@);
+- (_Bool)eychain Item for %@:%d /* Error: Ran out of types for this method. */;
+- (_Bool)Delete:(unsigned long long)arg1 Unable to delete item from keychain %@:%d /* Error: Ran out of types for this method. */;
+- (_Bool)dropping lock assertion;
+- (int)lock assertion;
+- (_Bool)PCSRecoverGuitarfishTokenRecord:(id)arg1 error:(id)arg2 %{public}@;
+- (void)velvet;
+- (void)refuse;
+- (void)rabbit;
+- (void)pyramid;
+- (void)promote;
+- (_Bool)drum;
+- (int)DELETE FROM SyncedKeys WHERE OLD.rowid = SyncedKeys.pubkeyNumber ;    END  ; CREATE TABLE IF NOT EXISTS UpdateLimits ( updateType TEXT PRIMARY KEY NOT NULL, mod_date DATETIME DEFAULT CURRENT_TIMESTAMP, counter INTEGER, digest TEXT);;
+- (void)32@"NSError"40;
+- (_Bool)nable to derive seed from stored mnemonic;
+- (_Bool)ManateeSharing;
+- (void)ata was not;
+- (void)noughToUpdate:%@ though %@ (master %@, content %@) /* Error: Ran out of types for this method. */;
+- (_Bool)_CDPWalrusStateChangeDarwinNotification;
+- (_Bool)tection;
+- (int)12@?0i8;
+- (_Bool)s
+;
+- (void)rted signer:(long long)arg1 %@);
 - (void);
 - (id);
 - (void);
@@ -143,52 +120,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)ޢ;
 - (id)B,Ð1Â0@ù
 × ;
 - (id);
-- (id)ucketedPercentageOfLOIsDeleted;
-- (void)ityLastAttemptDate;
+- (id)bucketedPercentageOfLOIsDeleted;
+- (void)XPCActivityLastAttemptDate;
 - (void)learned places count, %lu, error, %@;
 - (void)rtial visit does not match (in %s:%d) /* Error: Ran out of types for this method. */;
 - (void)to service, %@;
 
 // Remaining properties
-@property(readonly) RTAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property unsigned long long backgroundAssertionRetryCount; // @synthesize backgroundAssertionRetryCount=_backgroundAssertionRetryCount;
-@property(retain, nonatomic) RTTimer *backgroundProcessingAssertionAcquireRetryTimer; // @synthesize backgroundProcessingAssertionAcquireRetryTimer=_backgroundProcessingAssertionAcquireRetryTimer;
-@property(retain, nonatomic) RTTimer *backgroundProcessingAssertionDeferralTimer; // @synthesize backgroundProcessingAssertionDeferralTimer=_backgroundProcessingAssertionDeferralTimer;
-@property long long cloudSyncAuthorization; // @synthesize cloudSyncAuthorization=_cloudSyncAuthorization;
-@property(retain) RTAccount *currentAccount; // @synthesize currentAccount=_currentAccount;
-@property long long currentAccountStatus; // @synthesize currentAccountStatus=_currentAccountStatus;
-@property(readonly) RTPlatform *currentPlatform; // @synthesize currentPlatform=_currentPlatform;
-@property(readonly) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property long long encryptedDataAvailability; // @synthesize encryptedDataAvailability=_encryptedDataAvailability;
-@property(retain, nonatomic) NSMutableDictionary *fileDescriptorsForPersistenceStoreDict; // @synthesize fileDescriptorsForPersistenceStoreDict=_fileDescriptorsForPersistenceStoreDict;
 @property(readonly) unsigned long long hash;
-@property(readonly) RTKeychainManager *keychainManager; // @synthesize keychainManager=_keychainManager;
-@property(retain) RTLifeCycleManager *lifecycleManager; // @synthesize lifecycleManager=_lifecycleManager;
-@property __weak id <RTPersistenceMetricsDelegate> metricsDelegate; // @synthesize metricsDelegate=_metricsDelegate;
-@property(retain) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(readonly) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
-@property _Bool requiresDirtyTransaction; // @synthesize requiresDirtyTransaction=_requiresDirtyTransaction;
-@property _Bool requiresSetupTransaction; // @synthesize requiresSetupTransaction=_requiresSetupTransaction;
-@property(retain) RTPersistenceResetSyncContext *resetSyncContext; // @synthesize resetSyncContext=_resetSyncContext;
-@property(retain) NSObject<OS_os_transaction> *setupTransaction; // @synthesize setupTransaction=_setupTransaction;
-@property(nonatomic) _Bool shouldResetCloudStore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
 
 @end
 

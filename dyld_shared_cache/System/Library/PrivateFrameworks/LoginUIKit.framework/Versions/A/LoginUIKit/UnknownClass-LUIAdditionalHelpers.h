@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, ODNode;
+@class NSString;
 
 @interface UnknownClass (LUIAdditionalHelpers)
 + (id);
@@ -13,14 +13,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)s";
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (id)sendOwnershipTokensForReason:completion: /* Error: Ran out of types for this method. */;
+- (unsigned int)installmentItems;
 - (id);
 - (id);
 - (void);
@@ -30,12 +30,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSDictionary *desiredAttributes;
 @property(readonly) NSString *guid;
-@property(readonly) NSArray *nestedGroups;
-@property(readonly) ODNode *node;
-@property(readonly) NSDictionary *passwordPolicy;
-@property(readonly) unsigned int uid;
-@property(readonly) NSArray *users;
 @end
 

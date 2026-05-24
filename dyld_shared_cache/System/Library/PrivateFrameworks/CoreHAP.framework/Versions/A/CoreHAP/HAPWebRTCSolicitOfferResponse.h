@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPWebRTCOfferStatusWrapper, NSData, NSMutableArray, NSString;
+@class NSData;
 
 @interface HAPWebRTCSolicitOfferResponse
 {
     NSData *_sessionIdentifier;
-    NSData *_SDPOffer;
-    NSMutableArray *_additionalCandidates;
-    HAPWebRTCOfferStatusWrapper *_status;
-    NSData *_KID;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -36,18 +32,7 @@
 - (id)X¨Z$[Ü\è`da¨apcc\fpfhhl;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *KID; // @synthesize KID=_KID;
-@property(retain, nonatomic) NSData *SDPOffer; // @synthesize SDPOffer=_SDPOffer;
-@property(retain, nonatomic) NSMutableArray *additionalCandidates; // @synthesize additionalCandidates=_additionalCandidates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) HAPWebRTCOfferStatusWrapper *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

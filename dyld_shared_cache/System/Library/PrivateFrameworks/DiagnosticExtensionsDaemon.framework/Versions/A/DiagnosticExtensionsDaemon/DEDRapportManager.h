@@ -13,15 +13,12 @@
 + (id);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id);
+- (id)F;
 
 // Remaining properties
-@property(readonly) NSString *mediaRemoteIdentifier;
-@property(readonly) NSString *mediaSystemIdentifier;
 @property(readonly) NSString *mediaSystemName;
-@property(readonly, nonatomic) long long mediaSystemRole;
 
 @end
 

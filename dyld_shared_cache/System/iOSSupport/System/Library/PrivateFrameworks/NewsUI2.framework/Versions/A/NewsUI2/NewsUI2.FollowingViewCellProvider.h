@@ -7,12 +7,6 @@
 @interface NewsUI2.FollowingViewCellProvider
 {
     id browseButtonViewRenderer;
-    id settingsButtonViewRenderer;
-    id tagViewRenderer;
-    id engagementViewManager;
-    id delegate;
-    id featureAvailability;
-    id renderer;
 }
 
 @end

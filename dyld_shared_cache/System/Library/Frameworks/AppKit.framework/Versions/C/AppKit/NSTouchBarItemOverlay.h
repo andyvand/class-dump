@@ -4,47 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSFunctionRow, NSFunctionRowBackgroundColorView, NSString, NSTouchBar, NSTouchBarItem, NSTouchBarItemOverlayOptions, NSTouchBarView, NSTouchBarViewController, _NSTouchBarItemOverlayTouchInterceptionView;
+@class NSTouchBarItem;
 
 @interface NSTouchBarItemOverlay
 {
     NSTouchBarItem *_weakItem;
-    NSTouchBarItem *_strongItem;
-    NSTouchBar *_overlayTouchBar;
-    NSTouchBar *_popoverTouchBar;
-    NSFunctionRow *_functionRow;
-    NSTouchBarViewController *_viewController;
-    _NSTouchBarItemOverlayTouchInterceptionView *_containerView;
-    NSButton *_closeButton;
-    NSFunctionRowBackgroundColorView *_colorView;
-    NSTouchBarItemOverlayOptions *_options;
-    CDUnknownBlockType _closeButtonHandler;
-    unsigned int _showsCloseButtonForOverlay:1;
-    unsigned int _showsControlStripForOverlay:1;
-    unsigned int _preventUserDismissalForOverlay:1;
-    unsigned int _listeningForAppDeactivation:1;
-    unsigned int _listeningForItemInvisible:1;
-    unsigned int _trackingTouches:1;
 }
 
 
 // Remaining properties
-@property(copy) CDUnknownBlockType closeButtonHandler; // @synthesize closeButtonHandler=_closeButtonHandler;
-@property(readonly, copy) NSTouchBarItemOverlayOptions *currentRecommendedOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) __weak NSTouchBarItem *item;
-@property(retain) NSTouchBar *overlayTouchBar;
-@property(retain) NSTouchBar *popoverTouchBar;
-@property _Bool preventUserDismissalForOverlay;
-@property _Bool showsCloseButtonForOverlay;
-@property _Bool showsControlStripForOverlay;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBarView *touchBarView;
-@property(readonly, getter=isTrackingTouches) _Bool trackingTouches;
 @end
 

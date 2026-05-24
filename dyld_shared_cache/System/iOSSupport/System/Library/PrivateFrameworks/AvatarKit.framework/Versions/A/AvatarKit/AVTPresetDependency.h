@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTPreset, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVTPresetDependency
 {
     float _morphVariantIntensity;
-    long long _category;
-    AVTPreset *_preset;
-    NSString *_morphVariant;
-    NSString *_imageVariant;
-    NSString *_materialVariant;
-    NSDictionary *_visibilityRules;
 }
 
-- (id);
+- (id)onChecker:est, %u. RavenSolution under test has speed marked invalid. Exiting with check passed return value. Continuing with remaining checks. /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

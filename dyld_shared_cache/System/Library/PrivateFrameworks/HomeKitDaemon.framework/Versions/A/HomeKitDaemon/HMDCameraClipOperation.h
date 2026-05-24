@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, HMDCameraRecordingUploadOperationEvent, NSArray, NSDate, NSString, NSUUID;
-@protocol HMDCameraClipOperationDataSource;
+@class NSDate, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipOperation
 {
     NSString *_logIdentifier;
-    NSUUID *_clipModelID;
-    HMBLocalZone *_localZone;
-    HMDCameraRecordingUploadOperationEvent *_uploadOperationEvent;
-    NSDate *_creationDate;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    id <HMDCameraClipOperationDataSource> _dataSource;
 }
 
 + (unsigned long long);
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)clearParkedCarBulletin;
+- (id)_originalMutableArray;
 - (double);
 - (id);
 - (id);
@@ -36,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)o %{public}@;
 - (id);
 - (id);
 - (void);
@@ -53,33 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) NSUUID *clipModelID; // @synthesize clipModelID=_clipModelID;
 @property(readonly, copy) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly) id <HMDCameraClipOperationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) double executionDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) double queuedDuration;
-@property(readonly, copy) NSString *shortDescription;
-@property(copy) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(readonly) HMDCameraRecordingUploadOperationEvent *uploadOperationEvent; // @synthesize uploadOperationEvent=_uploadOperationEvent;
 
 @end
 

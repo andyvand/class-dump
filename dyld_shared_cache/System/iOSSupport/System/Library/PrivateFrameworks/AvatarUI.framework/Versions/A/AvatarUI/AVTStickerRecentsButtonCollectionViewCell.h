@@ -20,7 +20,7 @@
 - (struct CGRect);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)slowHwToTlc;
 - (id);
 - (void);
 - (void);

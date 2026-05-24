@@ -6,7 +6,7 @@
 
 #import <AVConference/VCMediaStreamGroupConfig.h>
 
-@class NSString, VCAudioStreamGroupCommonConfig;
+@class VCAudioStreamGroupCommonConfig;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamReceiveGroupConfig : VCMediaStreamGroupConfig
@@ -14,20 +14,13 @@ __attribute__((visibility("hidden")))
     VCAudioStreamGroupCommonConfig *_audioStreamGroupConfig;
 }
 
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)));
+- (void);
 - (id);
 
 // Remaining properties
 @property(retain) VCAudioStreamGroupCommonConfig *audioStreamGroupConfig; // @synthesize audioStreamGroupConfig=_audioStreamGroupConfig;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

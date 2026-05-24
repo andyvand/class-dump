@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothHeadGestureConfiguration, NSString, NSUUID;
+@class NSString;
 
 @interface AFBluetoothDeviceInfo
 {
     _Bool _isAdvancedAppleAudioDevice;
-    _Bool _supportsInEarDetection;
-    _Bool _supportsVoiceTrigger;
-    _Bool _supportsJustSiri;
-    _Bool _supportsSpokenNotification;
-    _Bool _supportsListeningModeANC;
-    _Bool _supportsListeningModeTransparency;
-    _Bool _supportsListeningModeAutomatic;
-    _Bool _supportsConversationAwareness;
-    _Bool _supportsPersonalVolume;
-    _Bool _supportsAnnounceCall;
-    unsigned int _vendorID;
-    unsigned int _productID;
-    NSString *_address;
-    NSString *_name;
-    NSUUID *_deviceUID;
-    AFBluetoothHeadGestureConfiguration *_headGestureConfiguration;
 }
 
 + (id);
@@ -39,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ateComponents",C,N,V_shinkansenDepartureTime;
 - (id);
 - (id);
 - (id);
@@ -47,36 +31,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)4;
 - (id);
-- (_Bool);
+- (_Bool)ickerConfiguration"16@0:(id)arg1 8;
 - (void);
 - (_Bool);
 - (unsigned int);
 - (id);
 - (id);
-- (void)oMutability;
+- (void)AFHomeAccessoryInfoMutability;
 - (unsigned int)tFlow.ClientScripter.JSExecution.Finished;
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, copy, nonatomic) NSUUID *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(readonly, copy, nonatomic) AFBluetoothHeadGestureConfiguration *headGestureConfiguration; // @synthesize headGestureConfiguration=_headGestureConfiguration;
-@property(readonly, nonatomic) _Bool isAdvancedAppleAudioDevice; // @synthesize isAdvancedAppleAudioDevice=_isAdvancedAppleAudioDevice;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(readonly, nonatomic) _Bool supportsAnnounceCall; // @synthesize supportsAnnounceCall=_supportsAnnounceCall;
-@property(readonly, nonatomic) _Bool supportsConversationAwareness; // @synthesize supportsConversationAwareness=_supportsConversationAwareness;
-@property(readonly, nonatomic) _Bool supportsInEarDetection; // @synthesize supportsInEarDetection=_supportsInEarDetection;
-@property(readonly, nonatomic) _Bool supportsJustSiri; // @synthesize supportsJustSiri=_supportsJustSiri;
-@property(readonly, nonatomic) _Bool supportsListeningModeANC; // @synthesize supportsListeningModeANC=_supportsListeningModeANC;
-@property(readonly, nonatomic) _Bool supportsListeningModeAutomatic; // @synthesize supportsListeningModeAutomatic=_supportsListeningModeAutomatic;
-@property(readonly, nonatomic) _Bool supportsListeningModeTransparency; // @synthesize supportsListeningModeTransparency=_supportsListeningModeTransparency;
-@property(readonly, nonatomic) _Bool supportsPersonalVolume; // @synthesize supportsPersonalVolume=_supportsPersonalVolume;
-@property(readonly, nonatomic) _Bool supportsSpokenNotification; // @synthesize supportsSpokenNotification=_supportsSpokenNotification;
-@property(readonly, nonatomic) _Bool supportsVoiceTrigger; // @synthesize supportsVoiceTrigger=_supportsVoiceTrigger;
-@property(readonly, nonatomic) unsigned int vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

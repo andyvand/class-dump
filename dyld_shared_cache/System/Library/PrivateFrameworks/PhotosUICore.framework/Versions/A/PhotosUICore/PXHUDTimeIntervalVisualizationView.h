@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXHUDAbstractVisualizationView.h>
 
-@class NSTimer, PXHUDTimeIntervalVisualization, UXLabel;
+@class PXHUDTimeIntervalVisualization, UXLabel;
 
 @interface PXHUDTimeIntervalVisualizationView : PXHUDAbstractVisualizationView
 {
     UXLabel *_titleAndTimeLabel;
-    NSTimer *_timer;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id)qqfdddd}}24q32@?40;
 - (void)LibraryExitAssistantViewControllerDelegate>",W,N,V_delegate;
 - (void)¼Ù;

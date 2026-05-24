@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)lgorithm:(id)arg1;
 - (id);
 
 @end

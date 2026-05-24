@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BTMCodeSignInfo
 {
     struct __SecCode *_secCode;
-    struct __CFDictionary *_information;
 }
 
 + (id);
@@ -18,27 +17,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (int);
+- (int)*y;
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)nodeWithLayer:sources:forTraining: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)}[%lu]	offset:%lu	%s
+	padding policy:n/a
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *designatedRequirement;
-@property(readonly) NSString *developerName;
-@property(readonly) _Bool hasAssociatedBundleIdentifiersEntitlement;
-@property(readonly) _Bool isSandboxed;
-@property(readonly) _Bool isSystemApp;
-@property(readonly) NSData *lightweightCodeRequirement;
-@property(readonly) NSString *signingIdentifier;
-@property(readonly) NSString *teamIdentifier;
 
 @end
 

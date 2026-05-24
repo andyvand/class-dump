@@ -6,34 +6,11 @@
 
 #import <PencilKit/PKPaletteView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, PKPaletteButtonGroupView, PKPaletteReturnKeyButton, UIStackView, UIView;
+@class UIView;
 
 @interface PKUCBPaletteView : PKPaletteView
 {
     _Bool _returnKeyEnabled;
-    _Bool _alwaysIncludeReturnKeyAndInputAssistantItems;
-    _Bool _updatingUI;
-    long long _returnKeyType;
-    CDUnknownBlockType _returnKeyHandler;
-    NSString *_localeIdentifier;
-    NSArray *_leadingBarButtons;
-    NSArray *_centeredBarButtons;
-    NSArray *_trailingBarButtons;
-    UIView *__contentView;
-    NSLayoutConstraint *__contentViewTopAnchor;
-    NSLayoutConstraint *__contentViewBottomAnchor;
-    NSLayoutConstraint *__contentViewLeadingAnchor;
-    NSLayoutConstraint *__contentViewTrailingAnchor;
-    UIStackView *__buttonStackView;
-    NSLayoutConstraint *__buttonStackViewHeightConstraint;
-    NSLayoutConstraint *__buttonStackViewBottomConstraint;
-    PKPaletteButtonGroupView *__leadingButtonGroupView;
-    PKPaletteButtonGroupView *__centeredButtonGroupView;
-    PKPaletteButtonGroupView *__trailingButtonGroupView;
-    PKPaletteButtonGroupView *__returnKeyButtonGroupView;
-    PKPaletteReturnKeyButton *__returnKeyButton;
-    NSArray *_nonCompactContentViewConstraints;
-    NSArray *_compactContentViewConstraints;
 }
 
 + (id);
@@ -111,15 +88,15 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)setMediumBubble:(id)arg1;
 - (double);
 - (void);
 - (void);
 - (double);
 - (id);
 - (void);
-- (void)ckgroundGPUPriority:(long long)arg1;
-- (long long)idInsertTextInElement: /* Error: Ran out of types for this method. */;
+- (void)setBackgroundGPUPriority:(long long)arg1;
+- (long long)didInsertTextInElement: /* Error: Ran out of types for this method. */;
 - (void)election;
 - (id)0;
 - (id)anvas view that has no container view. Canvas controller:%@ /* Error: Ran out of types for this method. */;
@@ -128,39 +105,7 @@
 - (void)olorSwatch"8Q16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) UIStackView *_buttonStackView; // @synthesize _buttonStackView=__buttonStackView;
-// Error: Property attributes should begin with the type ('T') attribute, property name: _buttonStackViewBottomConstraint
-// Property attributes: (null)
-
-@property(retain, nonatomic) NSLayoutConstraint *_buttonStackViewHeightConstraint; // @synthesize _buttonStackViewHeightConstraint=__buttonStackViewHeightConstraint;
-@property(retain, nonatomic) PKPaletteButtonGroupView *_centeredButtonGroupView; // @synthesize _centeredButtonGroupView=__centeredButtonGroupView;
 @property(retain, nonatomic) UIView *_contentView; // @synthesize _contentView=__contentView;
-@property(retain, nonatomic) NSLayoutConstraint *_contentViewBottomAnchor; // @synthesize _contentViewBottomAnchor=__contentViewBottomAnchor;
-@property(retain, nonatomic) NSLayoutConstraint *_contentViewLeadingAnchor; // @synthesize _contentViewLeadingAnchor=__contentViewLeadingAnchor;
-@property(retain, nonatomic) NSLayoutConstraint *_contentViewTopAnchor; // @synthesize _contentViewTopAnchor=__contentViewTopAnchor;
-@property(retain, nonatomic) NSLayoutConstraint *_contentViewTrailingAnchor; // @synthesize _contentViewTrailingAnchor=__contentViewTrailingAnchor;
-@property(retain, nonatomic) PKPaletteButtonGroupView *_leadingButtonGroupView; // @synthesize _leadingButtonGroupView=__leadingButtonGroupView;
-@property(retain, nonatomic) PKPaletteReturnKeyButton *_returnKeyButton; // @synthesize _returnKeyButton=__returnKeyButton;
-@property(retain, nonatomic) PKPaletteButtonGroupView *_returnKeyButtonGroupView; // @synthesize _returnKeyButtonGroupView=__returnKeyButtonGroupView;
-@property(retain, nonatomic) PKPaletteButtonGroupView *_trailingButtonGroupView; // @synthesize _trailingButtonGroupView=__trailingButtonGroupView;
-@property(nonatomic) _Bool alwaysIncludeReturnKeyAndInputAssistantItems; // @synthesize alwaysIncludeReturnKeyAndInputAssistantItems=_alwaysIncludeReturnKeyAndInputAssistantItems;
-@property(copy, nonatomic) NSArray *centeredBarButtons; // @synthesize centeredBarButtons=_centeredBarButtons;
-@property(copy, nonatomic) NSArray *compactContentViewConstraints; // @synthesize compactContentViewConstraints=_compactContentViewConstraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *leadingBarButtons; // @synthesize leadingBarButtons=_leadingBarButtons;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(copy, nonatomic) NSArray *nonCompactContentViewConstraints; // @synthesize nonCompactContentViewConstraints=_nonCompactContentViewConstraints;
-@property(nonatomic, getter=isReturnKeyEnabled) _Bool returnKeyEnabled; // @synthesize returnKeyEnabled=_returnKeyEnabled;
-@property(copy, nonatomic) CDUnknownBlockType returnKeyHandler; // @synthesize returnKeyHandler=_returnKeyHandler;
-@property(nonatomic) long long returnKeyType; // @synthesize returnKeyType=_returnKeyType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingBarButtons; // @synthesize trailingBarButtons=_trailingBarButtons;
-@property(nonatomic, getter=isUpdatingUI) _Bool updatingUI; // @synthesize updatingUI=_updatingUI;
 
 @end
 

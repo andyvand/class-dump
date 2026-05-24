@@ -7,13 +7,12 @@
 @interface ChatKit.Gallery.ImagePlaygroundIconView__priv_F9FFDDFCD3D97E162E1C88AA3426E03A
 {
     id imagePlaygroundIconImageView;
-    id imagePlaygroundBackgroundImageView;
 }
 
 - (id);
 - (void);
 - (id);
-- (void)tachments: /* Error: Ran out of types for this method. */;
+- (void)fetchIsCurrentlyDownloadingPurgedAttachments: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

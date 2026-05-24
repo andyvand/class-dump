@@ -6,37 +6,14 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSRulerMarker, NSScrollView, NSString;
+@class NSScrollView;
 
 @interface NSRulerView : NSView
 {
     NSScrollView *_scrollView;
-    unsigned long long _orientation;
-    NSString *_units;
-    double _originOffset;
-    double _ruleThickness;
-    double _thicknessForMarkers;
-    double _thicknessForAccessoryView;
-    NSView *_clientView;
-    NSMutableArray *_markers;
-    NSView *_accessoryView;
-    NSDictionary *_cachedHashDict;
-    double _cachedDocViewToRulerConversion;
-    NSRulerMarker *_draggingMarker;
-    id _accessibilityPanelController;
-    NSMutableArray *_markerLines;
-    id _draggingMarkerView;
-    id _formattedHashLabelCache;
-    NSView *_contentView;
-    struct {
-        unsigned int _showTooltip:1;
-        unsigned int _rtlLayoutDirection:1;
-        unsigned int _accessoryHostMode:1;
-        unsigned int _reserved:29;
-    } _rvFlags;
 }
 
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (id);
@@ -46,20 +23,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (double);
-- (void);
+- (void)c;
 - (double);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)-app-list;
 - (void);
 - (void);
 - (void);
@@ -67,59 +44,66 @@
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)"AVMetricEvent"24@?<v@?>32;
+- (void)setAllowsPersistentDNS:(id)arg1;
+- (id)integerValue;
+- (id)insertObject:atIndex: /* Error: Ran out of types for this method. */;
+- (id)initWithResumeData:(id)arg1 delegate:path: /* Error: Ran out of types for this method. */;
+- (id)hasAttemptedAPSDelivery;
+- (id)filenameWithOriginalFilename:(id)arg1;
+- (void)enumerateKeysAndObjectsUsingBlock:(id)arg1;
+- (id)earliestBeginDate;
+- (id)downloadTaskWithRequest: /* Error: Ran out of types for this method. */;
+- (id)download:willResumeWithResponse:fromByte: /* Error: Ran out of types for this method. */;
+- (id)download:didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (_Bool)delegateQueue;
+- (_Bool)defaultTaskGroup;
+- (_Bool)credStorage_setCredential:forProtectionSpace: /* Error: Ran out of types for this method. */;
+- (_Bool)createResumeDataForTaskInfo;
+- (_Bool)countOfBytesExpectedToSend;
+- (_Bool)connection:didReceiveTCPConnection:extraBytes: /* Error: Ran out of types for this method. */;
+- (_Bool)connection:(id)arg1 didReceiveResponse:completion: /* Error: Ran out of types for this method. */;
+- (id)checked_willPerformHTTPRedirection;
+- (id)checked_sessionDidBecomeInvalidWithError;
+- (id)backgroundAVAssetDownloadTask:didResolveMediaSelectionProperyList:reply: /* Error: Ran out of types for this method. */;
+- (id)assetDownloadTaskWithURLAsset:assetTitle:assetArtworkData:options: /* Error: Ran out of types for this method. */;
+- (id)appWasLaunchedForBackgroundSession: /* Error: Ran out of types for this method. */;
+- (_Bool)_numberOfOngoingWrites;
+- (double)te>",R,&,V_delegate_ivar;
+- (double)_cachedPeerName;
+- (void)startRequest():(id)arg1 no current request!;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (struct CGPoint);
-- (struct CGSize);
+- (void)s NULL;
+- (long long)native service header since it is not covered under the setting origin's certificate;
+- (struct CGPoint)ionFromFilename():passed a bogus filename /* Error: Ran out of types for this method. */;
+- (struct CGSize)L URL!;
+- (struct CGRect)teCanonicalURL():Passed a NULL URL! /* Error: Ran out of types for this method. */;
+- (struct CGRect)*something* here for language code;
+- (struct CGRect)ocessResponse with state:%@, statusCode:%ld /* Error: Ran out of types for this method. */;
+- (struct CGRect)esponse;
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (double);
-- (_Bool);
+- (double)qenc_effective_fill;
+- (_Bool)Protocols;
+- (id)WHERE entry_ID in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
+- (id)"%s");
+- (id)he_response WHERE time_stamp >= "%s");
+- (void)
+
+
+)
+8
+
+)8
+)8;
 - (id);
+- (struct CGRect);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct CGRect);
@@ -130,11 +114,11 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id)erfaceOptions;
+- (id)keyPathsForValuesAffectingEffectiveCompressibleUserInterfaceOptions;
 - (void)\Xÿÿ;
 - (id)il With Attachment;
 - (void)%s;
-- (void)tyException;
+- (void)NSAccessibilityException;
 - (void)hd¡²høÁ;
 - (void)À;
 - (id)XA;
@@ -144,19 +128,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _wantsHardScrollPocket;
-@property(retain) NSView *accessoryView;
-@property(readonly) double baselineLocation;
-@property __weak NSView *clientView;
-@property(readonly, getter=isFlipped) _Bool flipped;
-@property(copy) NSArray *markers;
-@property(copy) NSString *measurementUnits;
-@property unsigned long long orientation;
-@property double originOffset;
-@property(readonly) double requiredThickness;
-@property double reservedThicknessForAccessoryView;
-@property double reservedThicknessForMarkers;
-@property double ruleThickness;
-@property __weak NSScrollView *scrollView;
 
 @end
 

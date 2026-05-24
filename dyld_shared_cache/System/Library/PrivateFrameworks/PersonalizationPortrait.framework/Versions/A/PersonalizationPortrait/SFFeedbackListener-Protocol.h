@@ -4,11 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFSearchViewAppearFeedback;
+@class SFDidGoToSearchFeedback, SFLateSectionsAppendedFeedback, SFSearchViewAppearFeedback;
 
 @protocol SFFeedbackListener
 
 @optional
+- (void)/Versions/A/ProactiveSupport;
+- (void)_strokes:(SFLateSectionsAppendedFeedback *)arg1 containsAnyStrokes: /* Error: Ran out of types for this method. */;
+- (void)pathControlPopup;
+- (void);
+- (void)pathForLanguageModelForLocale:(SFDidGoToSearchFeedback *)arg1 modelType:resourceType: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)hash;
+- (void)H;
 - (void)tName:(SFSearchViewAppearFeedback *)arg1 phoneticLastName:organizationName:jobTitle:nickname:relatedNames:streetNames:cityNames: /* Error: Ran out of types for this method. */;
 - (void) ;
 - (void)nam;

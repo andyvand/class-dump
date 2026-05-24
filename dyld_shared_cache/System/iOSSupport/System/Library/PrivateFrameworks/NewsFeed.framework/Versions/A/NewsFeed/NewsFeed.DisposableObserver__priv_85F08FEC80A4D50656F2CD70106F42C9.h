@@ -7,7 +7,6 @@
 @interface NewsFeed.DisposableObserver__priv_85F08FEC80A4D50656F2CD70106F42C9
 {
     id observer;
-    id keepAliveObject;
 }
 
 @end

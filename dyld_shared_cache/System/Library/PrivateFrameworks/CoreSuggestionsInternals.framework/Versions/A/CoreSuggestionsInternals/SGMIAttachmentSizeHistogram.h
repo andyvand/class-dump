@@ -7,14 +7,9 @@
 @interface SGMIAttachmentSizeHistogram
 {
     unsigned long long _countUpTo8KB;
-    unsigned long long _count8KBTo32KB;
-    unsigned long long _count32KBTo128KB;
-    unsigned long long _count128KBTo512KB;
-    unsigned long long _count512KBTo2MB;
-    unsigned long long _countOver2MB;
 }
 
-+ (id);
++ (id)removeFromSuperview;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,11 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count128KBTo512KB; // @synthesize count128KBTo512KB=_count128KBTo512KB;
-@property(readonly, nonatomic) unsigned long long count32KBTo128KB; // @synthesize count32KBTo128KB=_count32KBTo128KB;
-@property(readonly, nonatomic) unsigned long long count512KBTo2MB; // @synthesize count512KBTo2MB=_count512KBTo2MB;
-@property(readonly, nonatomic) unsigned long long count8KBTo32KB; // @synthesize count8KBTo32KB=_count8KBTo32KB;
-@property(readonly, nonatomic) unsigned long long countOver2MB; // @synthesize countOver2MB=_countOver2MB;
 @property(readonly, nonatomic) unsigned long long countUpTo8KB; // @synthesize countUpTo8KB=_countUpTo8KB;
 
 @end

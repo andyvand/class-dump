@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKCreditAccountUserInfo, PKSavingsAccountUserInfo;
+@class PKCreditAccountUserInfo;
 
 @interface PKAccountUserInfo
 {
     PKCreditAccountUserInfo *_creditUserInfo;
-    PKSavingsAccountUserInfo *_savingsUserInfo;
 }
 
 + (id);
@@ -18,8 +17,8 @@
 × ;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)?;
+- (id)&;
 - (id);
 - (id);
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) PKCreditAccountUserInfo *creditUserInfo; // @synthesize creditUserInfo=_creditUserInfo;
-@property(copy, nonatomic) PKSavingsAccountUserInfo *savingsUserInfo; // @synthesize savingsUserInfo=_savingsUserInfo;
 
 @end
 

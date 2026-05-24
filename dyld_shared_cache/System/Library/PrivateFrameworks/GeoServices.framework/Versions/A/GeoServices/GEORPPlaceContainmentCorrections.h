@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPContainmentCorrection, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPlaceContainmentCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPContainmentCorrection *_childContainment;
-    GEORPContainmentCorrection *_parentContainment;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_childContainment:1;
-        unsigned int read_parentContainment:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ayoutConfigParameters:(id)arg1;
-- (void);
-- (void);
-- (id);
++ (_Bool)setLayoutConfigParameters:(id)arg1;
+- (void)System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
+- (void)primitiveAddress;
+- (id)initWithString: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)S;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)iceTriggerXPCClient"16B24;
+- (void)CSVolumeMonitor:(id)arg1 systemVolumeDidChange: /* Error: Ran out of types for this method. */;
+- (id)*;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id){GeoCodecsDaVinciPrimitive}^{GeoCodecsDaVinciSceneMesh}^{GeoCodecsDaVinciSceneNode}^{GeoCodecsDaVinciMaterialMap}^SSSSSC}16@0:(struct _NSZone *)arg1 8;
-- (id)unctionElements;
+- (id)clearJunctionElements;
 - (id)\Ï;
-- (id)E_CURATED_GUIDES;
+- (id)RIBBON_ITEM_TYPE_CURATED_GUIDES;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPContainmentCorrection *childContainment;
-@property(readonly, nonatomic) _Bool hasChildContainment;
 @property(readonly, nonatomic) _Bool hasParentContainment;
-@property(retain, nonatomic) GEORPContainmentCorrection *parentContainment;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

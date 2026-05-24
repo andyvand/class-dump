@@ -7,7 +7,6 @@
 @interface NewsFeed.OpenTextFileCommandHandler
 {
     id attachmentResolver;
-    id sceneProvider;
 }
 
 @end

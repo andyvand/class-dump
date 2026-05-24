@@ -5,5 +5,8 @@
 //
 
 @protocol TIUserModelConfigurationDelegate
+
+@optional
+- (Class)viousTextPosition with invalid position.;
 @end
 

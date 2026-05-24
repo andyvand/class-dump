@@ -9,38 +9,27 @@
 @interface MDLPhysicallyPlausibleLight : MDLLight
 {
     float _lumens;
-    float _innerConeAngle;
-    float _outerConeAngle;
-    float _attenuationStartDistance;
-    float _attenuationEndDistance;
-    float _attenuationFalloffExponent;
 }
 
 - (void);
 - (void);
 - (float);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)name                   WHEN name = 'STSQP' AND version = '1.2' THEN name                   ELSE NULL               END,               sd_version = CASE                   WHEN version = '1.1' THEN 'TW=12&NG=3&FV=1.1'                   WHEN version = 'TW=12&NG=3&FV=1.1' THEN version                   WHEN version = '1.2' THEN version                   ELSE NULL               END;
+- (void));
+- (void)s (               id integer PRIMARY KEY AUTOINCREMENT NOT NULL,               sessionId integer NOT NULL,                                  domainIdentifier char(128) NOT NULL,                         FOREIGN KEY (sessionId) REFERENCES sessions (id)               ON DELETE CASCADE                                          );
+- (void)TE TABLE IF NOT EXISTS sessionsDomainIds (               id integer PRIMARY KEY AUTOINCREMENT NOT NULL,               sessionId integer NOT NULL,                                  domainIdentifier char(128) NOT NULL,                         FOREIGN KEY (sessionId) REFERENCES sessions (id)               ON DELETE CASCADE                                          );
+- (float);
+- (float)U;
 - (float);
 - (float);
-- (float);
-- (float);
 - (void);
 - (float);
-- (id);
+- (id)l %lu accessory characteristic notification(s);
 - (struct CGColor *);
 - (void);
 
 // Remaining properties
-@property(nonatomic) float attenuationEndDistance; // @synthesize attenuationEndDistance=_attenuationEndDistance;
 @property(nonatomic) float attenuationFalloffExponent; // @synthesize attenuationFalloffExponent=_attenuationFalloffExponent;
-@property(nonatomic) float attenuationStartDistance; // @synthesize attenuationStartDistance=_attenuationStartDistance;
-@property(nonatomic) struct CGColor *color;
-@property(nonatomic) float innerConeAngle; // @synthesize innerConeAngle=_innerConeAngle;
-@property(nonatomic) float lumens; // @synthesize lumens=_lumens;
-@property(nonatomic) float outerConeAngle; // @synthesize outerConeAngle=_outerConeAngle;
 
 @end
 

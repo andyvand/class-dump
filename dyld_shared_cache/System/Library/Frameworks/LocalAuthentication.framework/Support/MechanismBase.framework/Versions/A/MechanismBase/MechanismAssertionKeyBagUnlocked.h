@@ -6,34 +6,26 @@
 
 #import <MechanismBase/MechanismAssertion.h>
 
-@class NSObject, NSString;
-@protocol LACKeyBag, OS_dispatch_queue;
+@protocol LACKeyBag;
 
 @interface MechanismAssertionKeyBagUnlocked : MechanismAssertion
 {
     id <LACKeyBag> _keybag;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ed() can only be called after sat_initialize();
+- (id)vDetect:(id)arg1 supervector scorer not initialized in config;
+- (id)fig;
+- (id)ed after initialize();
+- (id)pointer;
+- (void)buffer (m_queue) has been emptied (call reset());
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,7 +15,8 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (id);
 - (id);
-- (void);
+- (void)VCPEnc %p (%dx%d, %s):(id)arg1 Got 10b input and set HDRMetadataInsertionMode_Auto/HEVC_Main10_AutoLevel/bitdepth10
+;
 - (void);
 - (void);
 - (void);

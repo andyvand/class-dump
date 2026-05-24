@@ -7,12 +7,6 @@
 @interface PGSharingSuggestionOptions
 {
     _Bool _replaceMergeCandidates;
-    _Bool _debugMode;
-    _Bool _includeUnverified;
-    _Bool _filterLowWeightResults;
-    _Bool _useContactSuggestion;
-    unsigned long long _sharingStream;
-    unsigned long long _fetchLimit;
 }
 
 + (unsigned long long);
@@ -23,8 +17,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)keyboardFocusTracker:sharedKeyboardFocusedElementDestroyed: /* Error: Ran out of types for this method. */;
+- (_Bool)accessibilityHorizontalScrollBar;
 - (unsigned long long);
 - (id);
 - (void);
@@ -35,13 +29,7 @@
 - (unsigned long long)â;
 
 // Remaining properties
-@property(nonatomic) _Bool debugMode; // @synthesize debugMode=_debugMode;
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(nonatomic) _Bool filterLowWeightResults; // @synthesize filterLowWeightResults=_filterLowWeightResults;
-@property(nonatomic) _Bool includeUnverified; // @synthesize includeUnverified=_includeUnverified;
-@property(nonatomic) _Bool replaceMergeCandidates; // @synthesize replaceMergeCandidates=_replaceMergeCandidates;
 @property(nonatomic) unsigned long long sharingStream; // @synthesize sharingStream=_sharingStream;
-@property(nonatomic) _Bool useContactSuggestion; // @synthesize useContactSuggestion=_useContactSuggestion;
 
 @end
 

@@ -7,10 +7,10 @@
 @interface UnknownClass (MSPExtras)
 + (id);
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)H;
 - (id);
 @end
 

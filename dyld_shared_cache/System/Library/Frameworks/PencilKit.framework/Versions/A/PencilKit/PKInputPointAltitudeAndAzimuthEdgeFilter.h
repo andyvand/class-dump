@@ -11,9 +11,6 @@
 @interface PKInputPointAltitudeAndAzimuthEdgeFilter : PKInputPointBaseFilter
 {
     id <PKInputPointAltitudeAndAzimuthEdgeFilterDelegate> _delegate;
-    double _edgeLimit;
-    double _lastKnownAzimuth;
-    double _lastKnownAltitude;
 }
 
 - (void);
@@ -25,13 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PKInputPointAltitudeAndAzimuthEdgeFilterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double edgeLimit; // @synthesize edgeLimit=_edgeLimit;
-@property(nonatomic) double lastKnownAltitude; // @synthesize lastKnownAltitude=_lastKnownAltitude;
-@property(nonatomic) double lastKnownAzimuth; // @synthesize lastKnownAzimuth=_lastKnownAzimuth;
 
 @end
 

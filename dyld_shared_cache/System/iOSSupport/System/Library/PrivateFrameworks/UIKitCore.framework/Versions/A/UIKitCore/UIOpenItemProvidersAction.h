@@ -8,10 +8,10 @@
 {
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)tatus updated, ensuring BGST tasks are updated;
+- (id):(id)arg1 %@ to:(id)arg2 %d;
+- (id)hat row ID %lld;
+- (id)n the allowed list, it should not have been trying to send a relay message, sending a message back to it to tell it to not send relay messages in the future;
 - (id);
 - (id);
 - (id);

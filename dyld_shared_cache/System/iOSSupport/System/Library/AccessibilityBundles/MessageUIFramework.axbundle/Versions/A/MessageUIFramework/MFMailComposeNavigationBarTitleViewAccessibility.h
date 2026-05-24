@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (_Bool);
++ (id)_UIContextMenuListViewAccessibility;
++ (void)AXShouldIncludeMediaDescriptionsRotor;
+- (_Bool);
 
 @end
 

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDIDSFirewallManager, IDSFirewall, NSNotificationCenter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHomeManager, HMDIDSFirewallManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSFirewallManagerContext
 {
     HMDHomeManager *_homeManager;
-    IDSFirewall *_firewall;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSNotificationCenter *_notificationCenter;
-    HMDIDSFirewallManager *_firewallManager;
 }
 
 + (id)ÿíÍð¦B;
-- (void);
-- (void);
+- (void)localizedCaseInsensitiveCompare:(id)arg1;
+- (void)decodeDoubleForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -30,25 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)ssionHandler:(id)arg1 localNetworkConfig:localRTPSocket:sessionInfo: /* Error: Ran out of types for this method. */;
+- (void)_createVideoStreamWithSessionHandler:(id)arg1 localNetworkConfig:localRTPSocket:sessionInfo: /* Error: Ran out of types for this method. */;
 - (id)nitor is unreachable;
 - (void)blic}@Retrieval already in progress for accessory with server %@/%@;
 - (void)Anyone on Network;
 - (id)>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) IDSFirewall *firewall; // @synthesize firewall=_firewall;
 @property __weak HMDIDSFirewallManager *firewallManager; // @synthesize firewallManager=_firewallManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

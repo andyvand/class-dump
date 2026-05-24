@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *);
+- (oneway void);
+- (_Bool)";
+- (id)t<OS_xpc_object>"];
+- (struct _NSZone *)usesSerialQueue_block_invoke;
+
+@optional
+- (NSString *)m <%@> is being defined in a process that does not link UIKit. This probably won't behave correctly.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

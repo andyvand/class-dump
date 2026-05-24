@@ -6,17 +6,13 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class FPItemManager, FPService, NSDictionary;
-@protocol FPOperationProgressDelegate, FPXOperationService;
+@class NSDictionary;
+@protocol FPOperationProgressDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FPFetchRegularItemThumbnailsOperation : FPOperation
 {
     NSDictionary *_dictionary;
-    struct CGSize _desiredSizeToScale;
-    FPItemManager *_itemManager;
-    FPService<FPXOperationService> *_servicer;
-    id <FPOperationProgressDelegate> _delegate;
 }
 
 - (void);

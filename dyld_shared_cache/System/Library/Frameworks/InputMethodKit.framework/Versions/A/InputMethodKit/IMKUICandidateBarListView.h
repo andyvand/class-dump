@@ -6,19 +6,9 @@
 
 #import <InputMethodKit/IMKUICandidateListView.h>
 
-@class IMKCandidate, NSArray, NSColor, NSMutableDictionary;
-
 @interface IMKUICandidateBarListView : IMKUICandidateListView
 {
     _Bool _animateChanges;
-    double _candidateItemMargin;
-    unsigned long long _indexOfSelectedCandidate;
-    NSColor *_lineHighlightedColor;
-    IMKCandidate *_selectedCandidate;
-    NSArray *_selectionKeys;
-    NSMutableDictionary *_selectionKeyToCandidateMapping;
-    _Bool _showsDelimiterLines;
-    _Bool _highlightsLineWithSelectedIndex;
 }
 
 - (id);
@@ -43,25 +33,16 @@
 - (double);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)9H;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool animateChanges; // @synthesize animateChanges=_animateChanges;
-@property(nonatomic) double candidateItemMargin; // @synthesize candidateItemMargin=_candidateItemMargin;
-@property(nonatomic) _Bool highlightsLineWithSelectedIndex; // @synthesize highlightsLineWithSelectedIndex=_highlightsLineWithSelectedIndex;
 @property(nonatomic) unsigned long long indexOfSelectedCandidate; // @synthesize indexOfSelectedCandidate=_indexOfSelectedCandidate;
-@property(retain, nonatomic) NSColor *lineHighlightedColor; // @synthesize lineHighlightedColor=_lineHighlightedColor;
-@property(retain, nonatomic) IMKCandidate *selectedCandidate; // @synthesize selectedCandidate=_selectedCandidate;
-@property(readonly, nonatomic) _Bool selectedCandidateIsVisible;
-@property(retain, nonatomic) NSMutableDictionary *selectionKeyToCandidateMapping; // @synthesize selectionKeyToCandidateMapping=_selectionKeyToCandidateMapping;
-@property(retain, nonatomic) NSArray *selectionKeys; // @synthesize selectionKeys=_selectionKeys;
-@property(nonatomic) _Bool showsDelimiterLines; // @synthesize showsDelimiterLines=_showsDelimiterLines;
 
 @end
 

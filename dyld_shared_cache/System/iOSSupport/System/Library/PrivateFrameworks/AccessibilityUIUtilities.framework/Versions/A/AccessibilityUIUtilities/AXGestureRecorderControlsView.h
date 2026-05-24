@@ -4,48 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASTBiggerProgressView, UIButton;
-@protocol AXGestureRecorderControlsViewDelegate;
+@class UIButton;
 
 @interface AXGestureRecorderControlsView
 {
     UIButton *_leftButton;
-    UIButton *_rightButton;
-    ASTBiggerProgressView *_progressView;
-    id <AXGestureRecorderControlsViewDelegate> _delegate;
-    UIButton *_middleButton;
 }
 
 + (double);
 - (void);
+- (void){;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)ܒ_|;
+- (_Bool)|;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)ccountAuthenticationPlugin enabling dataclasses post email verification for account %@;
 - (float);
 - (void);
-- (id);
-- (void);
+- (id)SCRCUserDefaultsProxy;
+- (void)E;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AXGestureRecorderControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UIButton *leftButton; // @synthesize leftButton=_leftButton;
-@property(nonatomic, getter=isLeftButtonEnabled) _Bool leftButtonEnabled;
-@property(retain, nonatomic) UIButton *middleButton; // @synthesize middleButton=_middleButton;
-@property(nonatomic) float progress;
-@property(retain, nonatomic) UIButton *rightButton; // @synthesize rightButton=_rightButton;
-@property(nonatomic, getter=isRightButtonEnabled) _Bool rightButtonEnabled;
 
 @end
 

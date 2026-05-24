@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFlowLayoutRow, _UIFlowLayoutSection;
+@class _UIFlowLayoutSection;
 
 __attribute__((visibility("hidden")))
 @interface _UIFlowLayoutItem
@@ -14,33 +14,25 @@ __attribute__((visibility("hidden")))
         unsigned int positionEstimated:1;
         unsigned int sizeHasBeenSet:1;
     } _itemFlags;
-    _UIFlowLayoutSection *_section;
-    _UIFlowLayoutRow *_rowObject;
-    struct CGRect _itemFrame;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)Fۙ~;
 - (_Bool);
 - (void);
 - (void);
 - (void)× ;
 - (_Bool);
-- (void)oForward;
-- (id)nerSize: /* Error: Ran out of types for this method. */;
+- (void)canGoForward;
+- (id)_storageSyncIfNecessaryWithContainerSize: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (id)£@;
 
 // Remaining properties
-@property(nonatomic) struct CGRect itemFrame; // @synthesize itemFrame=_itemFrame;
-@property(nonatomic, getter=isPositionEstimated) _Bool positionEstimated;
-@property(nonatomic) __weak _UIFlowLayoutRow *rowObject; // @synthesize rowObject=_rowObject;
 @property(nonatomic) __weak _UIFlowLayoutSection *section; // @synthesize section=_section;
-@property(nonatomic, getter=isSizeEstimated) _Bool sizeEstimated;
-@property(nonatomic) _Bool sizeHasBeenSet;
 
 @end
 

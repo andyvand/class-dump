@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGCacheManagerCallStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)C;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)l;
+- (unsigned long long)Not supported on macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)hat_id INNER JOIN message m ON   m.ROWID = cm.message_id WHERE   m.is_from_me = 0   AND m.is_played = 0   AND m.is_audio_message = 1   AND c.style = 45 ;
+- (id);
 - (id);
-- (id);
-- (id)th:(id)arg1;
+- (id)addContributingGroundTruth:(id)arg1;
 - (id),N,V_totalSamplesAtTriggerStart;
-- (_Bool)essCount;
+- (_Bool)maSuccessCount;
 - (_Bool)catIds;
 - (void)ã";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

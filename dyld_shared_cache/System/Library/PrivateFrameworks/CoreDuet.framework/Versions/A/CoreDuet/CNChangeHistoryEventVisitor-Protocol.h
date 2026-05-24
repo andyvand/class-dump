@@ -5,5 +5,11 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void));
+- (void);
+
+@optional
+- (void);
+- (void);
 @end
 

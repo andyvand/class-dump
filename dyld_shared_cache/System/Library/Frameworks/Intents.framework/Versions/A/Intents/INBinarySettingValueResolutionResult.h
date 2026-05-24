@@ -11,9 +11,9 @@
 }
 
 + (id);
-+ (id);
++ (id)versionedFileIdentifierWithThumbnailRequest:(long long)arg1;
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

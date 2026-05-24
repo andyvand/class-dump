@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPersistentStore, NSPersistentStoreCoordinator, NSString;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitStoreMonitor
 {
     NSObject<OS_dispatch_group> *_monitorGroup;
-    struct os_unfair_lock_s _aliveLock;
-    _Bool _storeIsAlive;
-    _Bool _declaredDead;
-    int _retryCount;
-    int _timeoutSeconds;
-    NSPersistentStoreCoordinator *_monitoredCoordinator;
-    NSPersistentStore *_monitoredStore;
-    NSString *_storeIdentifier;
 }
 
 - (void);

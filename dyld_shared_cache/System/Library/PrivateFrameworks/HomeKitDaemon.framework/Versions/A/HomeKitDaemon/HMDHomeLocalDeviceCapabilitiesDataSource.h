@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeLocalDeviceCapabilitiesDataSource
 {
@@ -23,23 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isCompanionCapable;
-@property(readonly) _Bool isResidentCapable;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAddingAccessory;
-@property(readonly) _Bool supportsBulletinBoard;
-@property(readonly) _Bool supportsHomeInvitation;
 @property(readonly) _Bool supportsHomeKitDataStream;
-@property(readonly) _Bool supportsHomeNotificationEnablement;
-@property(readonly) _Bool supportsRemoteAccess;
-@property(readonly) _Bool supportsSiriUnsecuringActionsWithNoPasscode;
-@property(readonly) _Bool supportsSiriUnsecuringActionsWithWatchAuth;
 
 @end
 

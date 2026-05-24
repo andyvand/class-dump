@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailUserActivityPresenterCapability
 {
     id userActivityMetadataInterator;
-    id displayUpdater;
 }
 
 @end

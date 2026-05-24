@@ -6,20 +6,16 @@
 
 #import <MPSCore/MPSNDArray.h>
 
-@protocol MTLCommandBuffer;
-
 @interface MPSTemporaryNDArray : MPSNDArray
 {
     unsigned long long _readCount;
-    id <MTLCommandBuffer> _commandBuffer;
-    unsigned long long _childRefCount;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);

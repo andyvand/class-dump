@@ -9,9 +9,6 @@
 @interface NSVBKeyboardEventSpecification
 {
     int _modifierFlagsCriterion;
-    NSString *_charactersIgnoringModifiers;
-    unsigned long long _modifierFlags;
-    long long _keyCode;
 }
 
 + (_Bool);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)1;
 - (id);
 - (unsigned long long);
 - (void);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(readonly) NSString *charactersIgnoringModifiers; // @synthesize charactersIgnoringModifiers=_charactersIgnoringModifiers;
-@property(readonly) long long keyCode; // @synthesize keyCode=_keyCode;
-@property(readonly) unsigned long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(readonly) int modifierFlagsCriterion; // @synthesize modifierFlagsCriterion=_modifierFlagsCriterion;
 
 @end
 

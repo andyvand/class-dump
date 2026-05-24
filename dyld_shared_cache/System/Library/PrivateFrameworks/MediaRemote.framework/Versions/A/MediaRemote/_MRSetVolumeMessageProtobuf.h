@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRRequestDetailsProtobuf;
+@class _MRRequestDetailsProtobuf;
 
 @interface _MRSetVolumeMessageProtobuf
 {
     _MRRequestDetailsProtobuf *_details;
-    NSString *_outputDeviceUID;
-    float _volume;
-    CDStruct_731552e5 _has;
 }
 
 - (_Bool);
@@ -22,26 +19,21 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)B;
+- (_Bool)@;
 - (void);
 - (float);
 - (void);
-- (id);
-- (id);
+- (id)l/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotoFoundation/Source/PFGeometryUtilities.m;
+- (id)ouping];
 - (void);
 - (_Bool)setHasIsCurrentlyPlaying: /* Error: Ran out of types for this method. */;
-- (void)matApplication;
-- (id)geLogger;
-- (void);
+- (void)audioFormatApplication;
+- (id)MRProtocolMessageLogger;
+- (void)ASE;
 
 // Remaining properties
-@property(retain, nonatomic) _MRRequestDetailsProtobuf *details; // @synthesize details=_details;
-@property(readonly, nonatomic) _Bool hasDetails;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
 @property(nonatomic) _Bool hasVolume;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

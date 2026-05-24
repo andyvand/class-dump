@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrollView, NSTextView, NSView, QCPatch;
+@class NSView;
 
 @interface QCLogView
 {
     NSView *_insideView;
-    NSScrollView *_scrollView;
-    NSTextView *_textView;
-    QCPatch *_rootPatch;
-    void *_unused[4];
 }
 
-+ (void)g;
++ (void)edgeSmoothing;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (Class);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

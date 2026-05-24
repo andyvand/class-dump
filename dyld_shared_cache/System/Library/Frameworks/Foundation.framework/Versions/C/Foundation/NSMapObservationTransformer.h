@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSMapObservationTransformer : NSObservationTransformer
 {
     id _block;
-    int _tag;
 }
 
 - (void);

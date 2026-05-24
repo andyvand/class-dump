@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)H;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _PKStrokeID version; // @synthesize version=_version;

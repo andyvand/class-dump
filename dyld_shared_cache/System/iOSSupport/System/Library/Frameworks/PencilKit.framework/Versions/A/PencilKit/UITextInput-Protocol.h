@@ -8,14 +8,15 @@
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (NSString *)mAtIndexPath:(UITextRange *)arg1;
-- (NSArray *)ementRecognitionIDs;
+- (UITextPosition *)customWindowsToEnterFullScreenForWindow:(struct CGPoint)arg1;
+- (NSString *)collectionView:(UITextRange *)arg1 canPerformPrimaryActionForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (NSArray *)__potentiallyTargetedElementRecognitionIDs;
 - (long long)UndoRedoButtonsVisibleInCompactSize:(UITextPosition *)arg1 ,V__wantsUndoRedoButtonsVisibleInCompactSize;
 - (NSDictionary *)resentationController;
 - (long long)ToRadarCommand;
 - (UITextRange *)"NSString",C,N,V_name;
 - (long long)eQueryDelegate>",W,N,V_autoRefineDelegate;
-- (UITextRange *)ntentView;
+- (UITextRange *)PKPaletteToolImageContentView;
 - (struct CGRect)tÞ(ßÌßà4ã¨ãæAêTêøë;
 - (void)Ür;
 - (UITextPosition *);
@@ -24,54 +25,30 @@
 - (void)Sharpener log from %@; error:(id <UITextInputDelegate>)arg1 %@;
 - (struct CGRect)lu SDR strokes, and %lu HDR strokes;
 - (void)or:invalid mutableImageMetadata /* Error: Ran out of types for this method. */;
-- (UITextRange *)ionLevelCluster;
-- (UITextPosition *)icaIndex;
+- (UITextRange *)smartSelectionLevelCluster;
+- (UITextRange *)toolShadowActiveOnOldPencils;
+- (UITextPosition *)replicaIndex;
 - (UITextPosition *)s;
 - (void)radar;
 - (void)Éæb3Ðÿ¹æbè2Ðÿ;
 
 @optional
+- (UITextPosition *);
+- (void);
+- (struct CGRect);
+- (UITextPosition *);
+- (void)U;
+- (void)|;
 - (void)w",R,N,V__borderView;
-- (void)Gain:(NSArray *)arg1;
+- (void)_setMaxHDRGain:(NSArray *)arg1;
 - (void),C,N,V_activePreviewText;
-- (void)ceControllerDelegate;
+- (void)PKTextInputReserveSpaceControllerDelegate;
 - (_Bool)ÌPL¡S¤;
 - (UIView *)¸;
 - (struct CGRect)nk:r:path:/System/Library/PrivateFrameworks/DataDetectorsUI.framework/DataDetectorsUI /* Error: Ran out of types for this method. */;
 - (void)büvÌÿ;
-- (UITextPosition *);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
 @property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
 @end
 

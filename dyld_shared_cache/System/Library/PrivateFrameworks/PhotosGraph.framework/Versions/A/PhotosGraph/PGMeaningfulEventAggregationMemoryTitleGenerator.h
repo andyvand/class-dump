@@ -6,20 +6,15 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class NSSet;
-
 @interface PGMeaningfulEventAggregationMemoryTitleGenerator : PGTitleGenerator
 {
     unsigned long long _meaning;
-    NSSet *_features;
-    NSSet *_meaningfulEvents;
-    double _unreliableMeaningRatioThresholdForSpecificTitle;
 }
 
 + (id);
 - (double);
 - (void);
-- (id);
+- (id)_lineRangeForElement:(unsigned long long)arg1 centeredAroundLine:(id)arg2 numberOfLines:(id)arg3;
 - (id);
 - (void);
 - (unsigned long long);
@@ -29,10 +24,7 @@
 - (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Questions/Survey/AgeCategory/PGAgeCategoryQuestionFactory.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *features; // @synthesize features=_features;
 @property(readonly, nonatomic) unsigned long long meaning; // @synthesize meaning=_meaning;
-@property(readonly, nonatomic) NSSet *meaningfulEvents; // @synthesize meaningfulEvents=_meaningfulEvents;
-@property(nonatomic) double unreliableMeaningRatioThresholdForSpecificTitle; // @synthesize unreliableMeaningRatioThresholdForSpecificTitle=_unreliableMeaningRatioThresholdForSpecificTitle;
 
 @end
 

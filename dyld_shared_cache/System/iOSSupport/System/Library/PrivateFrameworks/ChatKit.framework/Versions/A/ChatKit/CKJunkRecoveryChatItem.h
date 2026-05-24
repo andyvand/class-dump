@@ -11,20 +11,18 @@
 @interface CKJunkRecoveryChatItem : CKChatItem
 {
     NSDate *_earliestMessageDate;
-    CKJunkRecoveryTranscriptCell *_sizingCell;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)accessQueue;
+- (void)extView",W,N,V_hintTextView;
+- (id)ytGG;
 - (struct CGSize);
 - (void);
 - (id);
 - (Class);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *earliestMessageDate; // @synthesize earliestMessageDate=_earliestMessageDate;
 @property(copy, nonatomic) CKJunkRecoveryTranscriptCell *sizingCell; // @synthesize sizingCell=_sizingCell;
 
 @end

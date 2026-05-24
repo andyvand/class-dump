@@ -5,5 +5,11 @@
 //
 
 @protocol RTIInputSystemDelegate
+- (void)_subClassOverridesDrawRect;
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

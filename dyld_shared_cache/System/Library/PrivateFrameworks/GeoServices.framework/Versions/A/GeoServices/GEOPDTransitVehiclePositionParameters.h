@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOPDTransitVehiclePositionParameters
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _tripIds;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)valueStringFormatter;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)type"b1};
-- (id)CreateTime: /* Error: Ran out of types for this method. */;
+- (id)_setShortSessionId:sessionCreateTime: /* Error: Ran out of types for this method. */;
 - (id)¨´;
 - (void)¸!Æk^uJ@;
 

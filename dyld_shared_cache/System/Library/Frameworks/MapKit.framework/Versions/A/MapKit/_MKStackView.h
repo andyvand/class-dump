@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable;
-@protocol _MKAnimationStackViewDelegate, _MKStackViewDelegate;
+@class NSArray;
+@protocol _MKStackViewDelegate;
 
 @interface _MKStackView
 {
     NSArray *_stackConstraints;
-    NSHashTable *_viewsNeedingWidthConstraints;
-    _Bool _bottomConstraintShouldBeGreaterThanOrEqual;
-    id <_MKStackViewDelegate> _stackDelegate;
-    NSArray *_stackedSubviews;
-    id <_MKAnimationStackViewDelegate> _stackAnimationDelegate;
 }
 
 - (id);
@@ -24,20 +19,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)addEntriesFromDictionary:(_Bool)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)Voice trigger to use the current voice triggered channel:(struct CGRect)arg1 %{public}tu;
 - (void);
-- (void)etStackedSubviews:animated:isNeedLayout: /* Error: Ran out of types for this method. */;
+- (void)setStackedSubviews:animated:isNeedLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool bottomConstraintShouldBeGreaterThanOrEqual; // @synthesize bottomConstraintShouldBeGreaterThanOrEqual=_bottomConstraintShouldBeGreaterThanOrEqual;
-@property(nonatomic) __weak id <_MKAnimationStackViewDelegate> stackAnimationDelegate; // @synthesize stackAnimationDelegate=_stackAnimationDelegate;
 @property(nonatomic) __weak id <_MKStackViewDelegate> stackDelegate; // @synthesize stackDelegate=_stackDelegate;
-@property(copy, nonatomic) NSArray *stackedSubviews; // @synthesize stackedSubviews=_stackedSubviews;
 
 @end
 

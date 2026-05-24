@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHFetchResult, PHPhotoLibrary;
-@protocol OS_dispatch_queue, PXFetchResultCountObserverDelegate;
+@class PHPhotoLibrary;
 
 @interface PXFetchResultCountObserver
 {
     PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    long long _fetchResultCount;
-    PHFetchResult *_fetchResult;
-    id <PXFetchResultCountObserverDelegate> _delegate;
 }
 
 - (id);
@@ -31,17 +26,7 @@
 - (void)N|?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXFetchResultCountObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(nonatomic) long long fetchResultCount; // @synthesize fetchResultCount=_fetchResultCount;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

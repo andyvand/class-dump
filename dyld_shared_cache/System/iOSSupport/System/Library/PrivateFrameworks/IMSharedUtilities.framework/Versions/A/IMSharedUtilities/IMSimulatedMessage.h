@@ -6,12 +6,11 @@
 
 #import <IMSharedUtilities/IMSimulatedEntry.h>
 
-@class IMMessageItem, NSArray;
+@class IMMessageItem;
 
 @interface IMSimulatedMessage : IMSimulatedEntry
 {
     IMMessageItem *_item;
-    NSArray *_parts;
 }
 
 + (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMMessageItem *item; // @synthesize item=_item;
-@property(retain, nonatomic) NSArray *parts; // @synthesize parts=_parts;
 
 @end
 

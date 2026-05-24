@@ -7,21 +7,17 @@
 @interface AVAudioHardwareAddress
 {
     unsigned int _scope;
-    unsigned long long _selector;
-    unsigned long long _element;
 }
 
+- (id)NEProfileIngestionMethods;
 - (id);
-- (id);
-- (id);
+- (id)etching from history.;
 - (id);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long element; // @synthesize element=_element;
-@property(readonly, nonatomic) unsigned int scope; // @synthesize scope=_scope;
 @property(readonly, nonatomic) unsigned long long selector; // @synthesize selector=_selector;
 
 @end

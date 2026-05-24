@@ -5,5 +5,10 @@
 //
 
 @protocol NIInternalSessionDelegate
+
+@optional
+- (void)#;
+- (void);
+- (void);
 @end
 

@@ -18,13 +18,13 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)session;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void)@52;
 
 // Remaining properties

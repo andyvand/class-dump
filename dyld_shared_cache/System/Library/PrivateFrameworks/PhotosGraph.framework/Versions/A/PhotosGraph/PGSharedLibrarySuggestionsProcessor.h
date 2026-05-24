@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGManagerWorkingContext, PHLibraryScope;
+@class PGManagerWorkingContext;
 
 @interface PGSharedLibrarySuggestionsProcessor
 {
     PGManagerWorkingContext *_workingContext;
-    PHLibraryScope *_libraryScope;
-    NSArray *_libraryScopeRules;
-    unsigned long long _numberOfProcessedMoments;
 }
 
-+ (_Bool);
++ (_Bool)addObject:(id)arg1;
 + (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)_predicate;
+- (_Bool)Preflight:(id)arg1 applicationIdentifier:(id)arg2 role:(id)arg3 subrole:(CDUnknownBlockType)arg4 predicate:(id *)arg5 ];
+- (id)errider defaultsValueForKey:(id)arg1 ] is abstract, and therefore not implemented.;
 - (id);
 - (_Bool);
 - (id);

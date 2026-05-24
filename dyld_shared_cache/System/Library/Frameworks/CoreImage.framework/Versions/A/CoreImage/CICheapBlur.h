@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICheapBlur : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputPasses;
-    NSNumber *inputSampling;
 }
 
 + (id);

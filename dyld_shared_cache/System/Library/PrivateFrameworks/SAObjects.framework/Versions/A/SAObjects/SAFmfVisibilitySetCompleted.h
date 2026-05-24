@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SAFmfVisibilitySetCompleted : SADomainCommand
 {
@@ -18,19 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
 @property(copy, nonatomic) NSURL *searchContext;
-@property(readonly) Class superclass;
 
 @end
 

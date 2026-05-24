@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableOrderedSet;
 
 @interface IMMessagesToTrack
 {
     NSMutableOrderedSet *_recentMessageIDs;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 + (id)o create IMTUConversationItem for conversation %@ on chat %@;
-- (void);
+- (void)y;
 - (id);
+- (unsigned long long)n;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -26,9 +24,6 @@
 - (void)};
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentNumberOfMessages;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly, nonatomic) unsigned long long maxNumberOfMessages;
 @property(retain, nonatomic) NSMutableOrderedSet *recentMessageIDs; // @synthesize recentMessageIDs=_recentMessageIDs;
 
 @end

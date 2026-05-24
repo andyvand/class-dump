@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PDSCDKV
@@ -16,10 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *dataValue; // @dynamic dataValue;
 @property(copy, nonatomic) NSString *key; // @dynamic key;
-@property(copy, nonatomic) NSNumber *numValue; // @dynamic numValue;
-@property(copy, nonatomic) NSString *stringValue; // @dynamic stringValue;
 
 @end
 

@@ -9,10 +9,9 @@
 @interface IMBrandRBMBrandDataSourceObjcShim
 {
     id chatBotBrandDataSource;
-    BSOpaqueWrapper *opaqueWrapper;
 }
 
-- (id);
+- (id)=03ySo6UIViewC%ܾ7G;
 - (id);
 - (_Bool);
 - (id);

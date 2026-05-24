@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSharedPixelBufferPool, NSString, NSThread;
-
 @interface IMAuxVideoProvider
 {
     unsigned long long _clientState;
-    NSString *_providerID;
-    _Bool _didConnect;
-    _Bool _willUpdateSettings;
-    NSThread *_callbackThread;
-    IMSharedPixelBufferPool *_sharedBufferPool;
-    double _frameRate;
-    unsigned long long _shouldExit;
-    unsigned long long _isAboutToExitThread;
 }
 
 - (void);
@@ -26,13 +16,13 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (void);
+- (void);
 - (oneway void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 

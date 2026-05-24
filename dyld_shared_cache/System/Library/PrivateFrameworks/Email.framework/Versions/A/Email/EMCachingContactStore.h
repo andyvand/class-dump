@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EFFuture, EFLazyCache, EFPromise, NSString;
-@protocol EFScheduler;
+@class CNContactStore, EFLazyCache;
 
 @interface EMCachingContactStore
 {
     CNContactStore *_cnStore;
-    EFLazyCache *_displayNameCache;
-    EFFuture *_emailAddressCacheFuture;
-    EFFuture *_cacheCanStartFuture;
-    EFPromise *_emailAddressCacheFinished;
-    unsigned long long _options;
-    id <EFScheduler> _addressCacheScheduler;
 }
 
 + (id);
@@ -24,30 +17,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)0;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)HMDHomeActivityStateContributorType;
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)Q;
+- (id)8=;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
-- (id);
+- (id)1;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -56,21 +49,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <EFScheduler> addressCacheScheduler; // @synthesize addressCacheScheduler=_addressCacheScheduler;
-@property(retain, nonatomic) EFFuture *cacheCanStartFuture; // @synthesize cacheCanStartFuture=_cacheCanStartFuture;
-@property(readonly, nonatomic) CNContactStore *cnStore; // @synthesize cnStore=_cnStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) EFLazyCache *displayNameCache; // @synthesize displayNameCache=_displayNameCache;
-@property(retain) EFPromise *emailAddressCacheFinished; // @synthesize emailAddressCacheFinished=_emailAddressCacheFinished;
-@property(retain) EFFuture *emailAddressCacheFuture; // @synthesize emailAddressCacheFuture=_emailAddressCacheFuture;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 
 @end
 

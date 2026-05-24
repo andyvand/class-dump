@@ -6,15 +6,12 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CMDrawableStyle, CMTableGridInfo, OADOrientedBounds, OADTable;
+@class OADTable;
 
 __attribute__((visibility("hidden")))
 @interface PMTableMapper : CMMapper
 {
     OADTable *mTable;
-    CMDrawableStyle *mStyle;
-    CMTableGridInfo *mGrid;
-    OADOrientedBounds *mBounds;
 }
 
 - (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q;
 - (float);
 - (id);
 - (id);

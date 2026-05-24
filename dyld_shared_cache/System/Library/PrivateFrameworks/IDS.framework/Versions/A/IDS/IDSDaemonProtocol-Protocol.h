@@ -9,7 +9,23 @@
 @protocol IDSDaemonProtocol
 
 @optional
-- (void)D:(NSString *)arg1;
+- (void)Ⴙijh8);
+- (void)R;
+- (void);
+- (void)!;
+- (void);
+- (void)`;
+- (void);
+- (void)P;
+- (void);
+- (void);
+- (void)"T;
+- (void);
+- (void);
+- (void)869;
+- (void)[;
+- (void)clientAddress;
+- (void)_activeDeviceForUniqueID:(NSString *)arg1;
 - (void)s, return;
 - (void)set current phone subscription source {uuid:(NSString *)arg1 %@};
 - (void)or invitation with identifier {%@} and state {%ld};

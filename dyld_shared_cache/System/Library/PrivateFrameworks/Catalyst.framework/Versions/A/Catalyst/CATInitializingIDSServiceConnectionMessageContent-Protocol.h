@@ -5,6 +5,8 @@
 //
 
 @protocol CATInitializingIDSServiceConnectionMessageContent
+- (long long)-> err:0x%x
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentType;

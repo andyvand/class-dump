@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PodcastsFoundation.SyncKeysRepository
 {
     id syncKeysStore;
@@ -42,13 +40,7 @@
 - (void)Sayx;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *interestSyncVersion;
-@property(nonatomic) _Bool isInterestSyncDirty;
-@property(nonatomic) _Bool isLibrarySyncEnabled;
 @property(nonatomic) _Bool isNonFollowedShowsSyncDirty;
-@property(nonatomic) _Bool isPlaylistSyncDirty;
-@property(nonatomic, copy) NSString *nonFollowedShowsSyncVersion;
-@property(nonatomic, copy) NSString *podcastsDomainVersion;
 
 @end
 

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVScrubbingGesturePlatformConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface AVScrubbingGestureConfiguration
 {
     _Bool _usesNaturalDirection;
-    _Bool _linearSeeking;
-    float _syntheticFriction;
-    AVScrubbingGesturePlatformConfiguration *_platformConfiguration;
 }
 
 + (id);
@@ -25,10 +20,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool linearSeeking; // @synthesize linearSeeking=_linearSeeking;
-@property(readonly, nonatomic) AVScrubbingGesturePlatformConfiguration *platformConfiguration; // @synthesize platformConfiguration=_platformConfiguration;
 @property(readonly, nonatomic) float syntheticFriction; // @synthesize syntheticFriction=_syntheticFriction;
-@property(readonly, nonatomic) _Bool usesNaturalDirection; // @synthesize usesNaturalDirection=_usesNaturalDirection;
 
 @end
 

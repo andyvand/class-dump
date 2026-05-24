@@ -6,13 +6,11 @@
 
 #import <PreferencePanes/NSProxyPreferencePane.h>
 
-@class NSRemoteView, NSString, NSXPCInterface;
+@class NSString;
 
 @interface NSVBProxyPreferencePane : NSProxyPreferencePane
 {
     NSString *_remoteViewClass;
-    NSRemoteView *_remoteView;
-    _Bool _legacyResizeBehavior;
 }
 
 - (void);
@@ -36,15 +34,6 @@
 
 // Remaining properties
 @property _Bool legacyResizeBehavior; // @synthesize legacyResizeBehavior=_legacyResizeBehavior;
-@property(readonly) NSXPCInterface *remoteObjectInterface; // @dynamic remoteObjectInterface;
-@property(retain) NSRemoteView *remoteView; // @synthesize remoteView=_remoteView;
-@property(retain) NSString *remoteViewClass; // @synthesize remoteViewClass=_remoteViewClass;
-@property(readonly) NSString *serviceName; // @dynamic serviceName;
-@property(readonly) NSString *serviceSubclassName; // @dynamic serviceSubclassName;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

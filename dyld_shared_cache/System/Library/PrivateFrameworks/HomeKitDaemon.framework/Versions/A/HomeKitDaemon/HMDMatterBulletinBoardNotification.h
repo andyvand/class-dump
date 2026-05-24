@@ -6,25 +6,20 @@
 
 #import <HomeKitDaemon/HMDBulletinBoardNotification.h>
 
-@class HMDAccessory, HMFMessageDispatcher, NSNumber, NSObject, NSString, NSUUID;
-@protocol HMDMatterAccessoryProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterBulletinBoardNotification : HMDBulletinBoardNotification
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_messageTargetUUID;
-    HMDAccessory<HMDMatterAccessoryProtocol> *_accessory;
-    NSNumber *_endpointID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
 }
 
 + (_Bool)4;
 + (id)ÚB;
 - (void);
 - (void);
-- (void);
+- (void)requestCapabilityLevelsForContacts: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -35,12 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)olution flag on server;
+- (id)w;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id)AâÐ!FùQÐ1Â0@ù
 × ;
@@ -50,16 +45,6 @@ __attribute__((visibility("hidden")))
 - (id))A?;
 
 // Remaining properties
-@property(nonatomic) __weak HMDAccessory<HMDMatterAccessoryProtocol> *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endpointID; // @synthesize endpointID=_endpointID;
-@property(readonly) unsigned long long hash;
-@property(retain) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly) Class superclass;
 @property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

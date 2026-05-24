@@ -11,7 +11,6 @@
 @interface CEMManagementTestDeclaration : CEMConfigurationBase
 {
     NSString *_payloadEcho;
-    NSString *_payloadReturnStatus;
 }
 
 + (id);
@@ -30,20 +29,14 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)}{bitdepth}; else a 4-char format code (e.g. aac, alac).
+;
 - (id);
-- (void);
+- (void)transmit_message() failed
+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadEcho; // @synthesize payloadEcho=_payloadEcho;
-@property(copy, nonatomic) NSString *payloadReturnStatus; // @synthesize payloadReturnStatus=_payloadReturnStatus;
-@property(readonly) Class superclass;
 
 @end
 

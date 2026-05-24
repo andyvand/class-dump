@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow, UINSSceneHostingViewController, UIWindow;
+@class NSWindow, UIWindow;
 
 @interface UINSSheetManager
 {
     NSWindow *_sheetWindow;
-    UIWindow *_sheetUIWindow;
-    UIWindow *_parentUIWindow;
-    struct CGSize _initialUIContentSize;
-    UINSSceneHostingViewController *_sceneHost;
-    CDUnknownBlockType _setupCompletionHandler;
-    CDUnknownBlockType _didPresentBlock;
 }
 
 - (void);
@@ -27,15 +21,7 @@
 - (void)stering shadow remote view controller %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak UIWindow *parentUIWindow; // @synthesize parentUIWindow=_parentUIWindow;
 @property(readonly, nonatomic) UIWindow *sheetUIWindow; // @synthesize sheetUIWindow=_sheetUIWindow;
-@property(readonly) Class superclass;
 
 @end
 

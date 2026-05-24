@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVExecutionPrepareEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)EC_KEY_print_fp;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id)ALCompanionDeviceCommunicationEnded";
-- (id)emaINFERENCECommsAppSelectionTrainingAppDependentMessageSignals;
+- (id)INFERENCESchemaINFERENCECommsAppSelectionTrainingAppDependentMessageSignals;
 - (id)øÉ;
 - (_Bool)`1­K8$;
 - (_Bool))ÿ;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

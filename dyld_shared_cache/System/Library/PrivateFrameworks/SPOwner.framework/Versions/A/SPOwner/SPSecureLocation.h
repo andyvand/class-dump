@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface SPSecureLocation
 {
     NSString *_findMyId;
-    double _latitude;
-    double _longitude;
-    double _horizontalAccuracy;
-    double _verticalAccuracy;
-    double _speed;
-    double _course;
-    double _altitude;
-    NSNumber *_floor;
-    NSDate *_timestamp;
-    long long _motionActivityState;
-    long long _publishReason;
-    NSString *_locationLabel;
 }
 
-+ (id);
++ (id)o;
 + (id);
 + (_Bool);
 - (void);
@@ -34,7 +22,7 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -46,32 +34,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)d;
+- (id)d:(struct _NSZone *)arg1 handleInfo:) /* Error: Ran out of types for this method. */;
+- (double)IMCSSimulateRecipientIndexerTimeoutRace;
+- (double);
+- (void);
+- (double);
 - (id);
-- (double);
-- (double);
-- (void);
-- (double);
-- (id);
 - (void);
 - (double);
 - (void);
-- (double)Timestamp: /* Error: Ran out of types for this method. */;
+- (double)setWipedTimestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) double course; // @synthesize course=_course;
 @property(copy, nonatomic) NSString *findMyId; // @synthesize findMyId=_findMyId;
-@property(copy, nonatomic) NSNumber *floor; // @synthesize floor=_floor;
-@property(nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(copy, nonatomic) NSString *locationLabel; // @synthesize locationLabel=_locationLabel;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(nonatomic) long long motionActivityState; // @synthesize motionActivityState=_motionActivityState;
-@property(nonatomic) long long publishReason; // @synthesize publishReason=_publishReason;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) double verticalAccuracy; // @synthesize verticalAccuracy=_verticalAccuracy;
 
 @end
 

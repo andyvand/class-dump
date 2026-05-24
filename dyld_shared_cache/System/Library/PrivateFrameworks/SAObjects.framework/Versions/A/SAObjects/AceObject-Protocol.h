@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMutableDictionary;
+
 @protocol AceObject
+- (NSMutableDictionary *)es/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/grimoire/trie/tail.cc:170:MARISA_RANGE_ERROR:current.length() == 0 /* Error: Ran out of types for this method. */;
+- (id)T;
 @end
 

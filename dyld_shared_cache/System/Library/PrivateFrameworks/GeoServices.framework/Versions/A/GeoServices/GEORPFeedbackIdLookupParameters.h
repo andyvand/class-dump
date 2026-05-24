@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPFeedbackIdLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _feedbackComponentTypes;
-    NSMutableArray *_feedbackIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_feedbackComponentTypes:1;
-        unsigned int read_feedbackIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool);
-- (void);
++ (_Bool)setIsWalkingOnlyRoute:(id)arg1;
+- (void)customPropertyFromDescription:(int *)arg1 inContext:(unsigned long long)arg2;
 - (unsigned long long);
-- (id);
+- (id)1K;
 - (id);
 - (unsigned long long);
 - (int *);
@@ -45,7 +33,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setSuppressInterruptionEndedNotifications: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -54,16 +42,13 @@
 - (id);
 - (void);
 - (id)ehicleSpeed"b1"read_junctionViewGuidanceFeedback"b1"read_routeID"b1"read_signGuidanceFeedback"b1"read_spokenGuidanceFeedback"b1"read_trafficCameraGuidanceFeedback"b1"wrote_anyField"b1};
-- (id)portedLanguagesType;
+- (id)announcementsSupportedLanguagesType;
 - (id)0>A;
-- (id);
+- (id)routePlanningDescription;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *feedbackComponentTypes;
-@property(readonly, nonatomic) unsigned long long feedbackComponentTypesCount;
 @property(retain, nonatomic) NSMutableArray *feedbackIds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

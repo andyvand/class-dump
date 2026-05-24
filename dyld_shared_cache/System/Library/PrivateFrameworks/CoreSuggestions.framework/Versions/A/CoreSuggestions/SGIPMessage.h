@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, SGIPPerson;
+@class NSString;
 
 @interface SGIPMessage
 {
     _Bool _isSent;
-    _Bool _isGroupConversation;
-    _Bool _isSenderSignificant;
-    NSString *_messageId;
-    SGIPPerson *_sender;
-    NSArray *_recipients;
-    NSString *_subject;
-    NSDate *_dateSent;
-    NSArray *_messageUnits;
-    NSString *_type;
 }
 
 + (id);
@@ -25,15 +16,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -42,7 +33,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -52,16 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;
-@property(nonatomic) _Bool isGroupConversation; // @synthesize isGroupConversation=_isGroupConversation;
-@property(nonatomic) _Bool isSenderSignificant; // @synthesize isSenderSignificant=_isSenderSignificant;
-@property(nonatomic) _Bool isSent; // @synthesize isSent=_isSent;
 @property(retain, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
-@property(retain, nonatomic) NSArray *messageUnits; // @synthesize messageUnits=_messageUnits;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain, nonatomic) SGIPPerson *sender; // @synthesize sender=_sender;
-@property(retain, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

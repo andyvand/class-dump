@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSData, NSDate, NSSet, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface NSCKImportOperation : NSManagedObject
@@ -15,9 +15,6 @@ __attribute__((visibility("hidden")))
 
 
 // Remaining properties
-@property(retain, nonatomic) NSData *changeTokenBytes; // @dynamic changeTokenBytes;
 @property(retain, nonatomic) NSDate *importDate; // @dynamic importDate;
-@property(retain, nonatomic) NSUUID *operationUUID; // @dynamic operationUUID;
-@property(retain, nonatomic) NSSet *pendingRelationships; // @dynamic pendingRelationships;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatSnapshot
 {
     id view;
-    id depth;
 }
 
 @end

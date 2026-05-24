@@ -6,15 +6,10 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UIDelayedAction;
-
 __attribute__((visibility("hidden")))
 @interface _UITouchDownGestureRecognizer : UIGestureRecognizer
 {
     struct CGPoint _locationInView;
-    struct CGPoint _initialLocationInScreenSpace;
-    UIDelayedAction *_activationDelay;
-    double _allowableMovement;
 }
 
 - (void);
@@ -23,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void)@ù
 × ;
 - (id);
-- (struct CGPoint)Lift:(id)arg1;
-- (void)eLayer:(id)arg1;
-- (void)anceInternalEnabled;
-- (void);
-- (void)fileRenameDidEndWithFinalURL:(double)arg1;
+- (struct CGPoint)setPreparedForLift:(id)arg1;
+- (void)setIconSlashMaskShapeLayer:(id)arg1;
+- (void)automaticAppearanceInternalEnabled;
+- (void)_labelContainerLeadingPinConstraint;
+- (void)_fileRenameDidEndWithFinalURL:(double)arg1;
 - (_Bool)nment;
-- (double)NavigationItemView;
+- (double)_UINavigationItemView;
 - (void)as aquired %.2f seconds ago and might be stuck. This can have a serious impact on focus updates. Additional info:%@ /* Error: Ran out of types for this method. */;
 - (void)tion state before starting interactive transition. This means we MAY need to support implicit start/finish animator tracking.;
 - (void)So22UIHoverHighlightEffectC;

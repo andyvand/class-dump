@@ -4,47 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UIContextMenuLayoutArbiterInput;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLayoutArbiter
 {
     UIView *_containerView;
-    unsigned long long _currentLayout;
-    _UIContextMenuLayoutArbiterInput *_currentInput;
-    CDStruct_17a0fc55 _menuAnchor;
 }
 
 - (struct CGRect);
-- (void);
-- (CDStruct_17a0fc55);
-- (id);
+- (void)setActiveTransfers:(id)arg1;
+- (CDStruct_96a80611)connectedAccounts;
+- (id)_fetchAndValidateFileTransfersFromCloudKit:(id)arg1 capturedWithABC:(unsigned long long)arg2 activity:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGPoint);
+- (void)ed has a last message that is later than it's sibling so we don't want to write it to CloudKit and want to replace it with it's sibling. Current GUID:(inout struct CGRect *)arg1 %@ Sibling GUID:(inout struct CGRect *)arg2 %@;
+- (void)r(_:(struct CGRect)arg1 );
+- (unsigned long long)unknownSenderRecordInfoKey;
+- (struct CGRect)0@"CKAccountInfo"8@"NSError"16;
+- (struct CGRect)isEligibleForTruthZoneOverride;
+- (struct CGPoint)AKAppleIDAuthenticationController;
 - (unsigned long long);
 - (struct CGRect);
 - (id);
 - (double);
 - (struct CGRect);
-- (unsigned long long);
-- (void)d:(unsigned long long)arg1;
+- (unsigned long long)mediaPickerDidCancel: /* Error: Ran out of types for this method. */;
+- (void)incrementCountForElementKind:(unsigned long long)arg1;
 - (void);
 - (void)Í];
 - (id)3S;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) struct CGRect contentBounds;
-@property(retain, nonatomic) _UIContextMenuLayoutArbiterInput *currentInput; // @synthesize currentInput=_currentInput;
-@property(nonatomic) unsigned long long currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, nonatomic) CDStruct_17a0fc55 menuAnchor; // @synthesize menuAnchor=_menuAnchor;
 
 @end
 

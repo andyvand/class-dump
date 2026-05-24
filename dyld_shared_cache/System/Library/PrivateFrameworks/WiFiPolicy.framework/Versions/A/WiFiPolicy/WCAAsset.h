@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSString;
+@class NSString;
 
 @interface WCAAsset
 {
     NSString *_name;
-    NSString *_extension;
-    unsigned long long _latestInstalledVersion;
-    MAAsset *_latestInstalledAsset;
-    unsigned long long _installedAssetVersion;
-    unsigned long long _latestNotInstalledVersion;
-    MAAsset *_latestNotInstalledAsset;
 }
 
++ (id):%{public}@ /* Error: Ran out of types for this method. */;
++ (id)commonUserEntity_UserEntityAttribute_Old;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)senderMessageTimeoutSecs;
 - (void);
 - (void);
+- (id)nessLogoID;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)gory:(id)arg1 editingColors: /* Error: Ran out of types for this method. */;
+- (unsigned long long)d matching color for name '%@' in color kind and category '%@'
+Is it missing from AvatarKit's palette plist?;
 - (void);
 - (id);
 - (unsigned long long);
@@ -35,7 +30,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)apEndpointRemoteControlSession_handleMessageInternal;
 - (id);
 - (void);
 - (id);
@@ -43,13 +38,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *extension; // @synthesize extension=_extension;
-@property unsigned long long installedAssetVersion; // @synthesize installedAssetVersion=_installedAssetVersion;
-@property(retain, nonatomic) MAAsset *latestInstalledAsset; // @synthesize latestInstalledAsset=_latestInstalledAsset;
 @property unsigned long long latestInstalledVersion; // @synthesize latestInstalledVersion=_latestInstalledVersion;
-@property(retain, nonatomic) MAAsset *latestNotInstalledAsset; // @synthesize latestNotInstalledAsset=_latestNotInstalledAsset;
-@property unsigned long long latestNotInstalledVersion; // @synthesize latestNotInstalledVersion=_latestNotInstalledVersion;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

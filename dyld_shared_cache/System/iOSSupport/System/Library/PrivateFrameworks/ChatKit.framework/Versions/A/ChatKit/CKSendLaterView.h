@@ -7,9 +7,6 @@
 @interface CKSendLaterView
 {
     id pluginContext;
-    id delegate;
-    id cancellables;
-    id hostingView;
 }
 
 - (id);

@@ -7,15 +7,12 @@
 @interface NewsFeed.DebugFormatInspectorViewController
 {
     id editor;
-    id pane;
-    id coverViewManager;
-    id $__lazy_storage_$_paneViewController;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void)x@;
 

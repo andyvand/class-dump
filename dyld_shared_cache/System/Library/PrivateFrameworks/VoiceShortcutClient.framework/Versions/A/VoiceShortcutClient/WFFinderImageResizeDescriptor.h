@@ -9,14 +9,11 @@
 @interface WFFinderImageResizeDescriptor
 {
     _Bool _preserveMetadata;
-    NSString *_identifier;
-    unsigned long long _format;
-    unsigned long long _size;
 }
 
-+ (_Bool);
++ (_Bool)__swift5_typeref__TEXT;
 - (id);
-- (_Bool);
+- (_Bool)^p;
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,10 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long format; // @synthesize format=_format;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool preserveMetadata; // @synthesize preserveMetadata=_preserveMetadata;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICThumbnailConfiguration, NSDate, NSError, NSImage, NSSet;
+@class ICThumbnailConfiguration;
 
 @interface ICThumbnailDescription
 {
     _Bool _cached;
-    ICThumbnailConfiguration *_configuration;
-    NSDate *_creationDate;
-    double _fetchDuration;
-    NSError *_error;
-    NSImage *_image;
-    unsigned long long _imageScaling;
-    long long _thumbnailDecorationType;
-    NSSet *_associatedObjectIdentifiers;
 }
 
-- (long long);
+- (long long)i;
 - (void);
 - (void);
 - (double);
@@ -29,28 +21,19 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)setSendingMessage: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)	?ח;
 - (id);
-- (_Bool)erID:note: /* Error: Ran out of types for this method. */;
+- (_Bool)highlightColorForUserID:note: /* Error: Ran out of types for this method. */;
 - (void)s:effectiveRange:textView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *associatedObjectIdentifiers; // @synthesize associatedObjectIdentifiers=_associatedObjectIdentifiers;
-@property(nonatomic, getter=isCached) _Bool cached; // @synthesize cached=_cached;
 @property(readonly, nonatomic) ICThumbnailConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) double fetchDuration; // @synthesize fetchDuration=_fetchDuration;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned long long imageScaling; // @synthesize imageScaling=_imageScaling;
-@property(readonly, nonatomic) long long preferredLayerContentsPlacement;
-@property(nonatomic) long long thumbnailDecorationType; // @synthesize thumbnailDecorationType=_thumbnailDecorationType;
 
 @end
 

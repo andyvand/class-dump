@@ -6,15 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, ICStoreURLRequest, NSDictionary;
+@class ICStoreRequestContext;
 
 @interface ICBuyProductRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    ICStoreURLRequest *_storeURLRequest;
-    NSDictionary *_buyParameters;
-    _Bool _includeKeybagSyncData;
-    id _parsedResponse;
 }
 
 - (id);

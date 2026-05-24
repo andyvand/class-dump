@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol IMServiceForSendingTaskDelegate;
+@class NSArray;
 
 @interface IMServiceForSendingTask
 {
     void taskID;
-    void delegate;
-    id requestedServices;
-    id requestIDToResults;
-    id pendingRequests;
-    id updateHandler;
-    id deadline;
-    id latestBestResult;
 }
 
 - (id);
@@ -30,12 +22,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ntifiers;
+- (void)chatIdentifiers;
 
 // Remaining properties
-@property(nonatomic) __weak id <IMServiceForSendingTaskDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) NSArray *requestIDs;
-@property(nonatomic, readonly) NSString *taskID;
 
 @end
 

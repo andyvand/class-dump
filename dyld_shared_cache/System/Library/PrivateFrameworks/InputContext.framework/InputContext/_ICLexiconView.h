@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _ICLexiconView
 {
     struct _LXLexicon *_lexicon;
-    unsigned char _typeFlags;
-    NSString *_name;
 }
 
 - (id);
@@ -24,7 +20,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) unsigned char typeFlags; // @synthesize typeFlags=_typeFlags;
 
 @end

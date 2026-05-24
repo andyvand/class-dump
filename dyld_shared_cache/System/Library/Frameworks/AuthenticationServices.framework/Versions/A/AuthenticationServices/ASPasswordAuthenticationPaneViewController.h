@@ -6,20 +6,12 @@
 
 #import <AuthenticationServices/ASCredentialRequestPaneViewController.h>
 
-@class ASCredentialRequestButtonContinue, ASCredentialRequestPaneHeaderConfiguration, ASPasswordAuthenticationPaneViewControllerConfiguration, NSLayoutConstraint, NSString, NSTextField;
+@class ASPasswordAuthenticationPaneViewControllerConfiguration;
 @protocol ASPasswordAuthenticationPaneViewControllerDelegate;
 
 @interface ASPasswordAuthenticationPaneViewController : ASCredentialRequestPaneViewController
 {
     ASPasswordAuthenticationPaneViewControllerConfiguration *_configuration;
-    ASCredentialRequestPaneHeaderConfiguration *_headerConfiguration;
-    double _keyboardHeight;
-    NSString *_firstPINForNewPINEntry;
-    NSTextField *_usernameField;
-    NSTextField *_secureTextField;
-    ASCredentialRequestButtonContinue *_signInButton;
-    NSLayoutConstraint *_paneHeaderStackViewBottomKeyboardConstraint;
-    id <ASPasswordAuthenticationPaneViewControllerDelegate> _authenticationDelegate;
 }
 
 - (void);
@@ -30,14 +22,14 @@
 - (double);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ingIdentifiedAddressBookLabelToOverridePreferredIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

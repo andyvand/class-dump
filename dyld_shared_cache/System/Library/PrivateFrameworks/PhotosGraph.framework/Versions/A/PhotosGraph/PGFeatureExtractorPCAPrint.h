@@ -14,8 +14,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)tyMeaningEdgeCollection;
+- (id)resetDatabaseWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGGraphPersonActivityMeaningEdgeCollection;
 
 @end
 

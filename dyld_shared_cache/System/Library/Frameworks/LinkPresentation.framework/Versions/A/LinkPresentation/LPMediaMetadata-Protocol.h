@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSURL;
+
 @protocol LPMediaMetadata
+- (NSString *)er retaining sponsored beneficiary IDs in excluded list:excluded:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSURL *)edStateManager",&,N,V_adopterProcessScopedStateManager;
+
+@optional
+- (NSString *)B;
 @end
 

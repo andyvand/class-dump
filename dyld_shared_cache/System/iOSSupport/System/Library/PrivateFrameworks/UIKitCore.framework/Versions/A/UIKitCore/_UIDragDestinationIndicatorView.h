@@ -6,32 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSIndexPath;
-
 __attribute__((visibility("hidden")))
 @interface _UIDragDestinationIndicatorView : UIView
 {
     _Bool _isSourceList;
-    NSIndexPath *_currentIndexPath;
-    double _scaleFactor;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)NSNumber"36@"NSNumber"44;
+- (void)onboardDeleteVerificationCodesIfNeededWithMessage:(struct CGRect)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)onboardDeleteVerificationCodesIfNeededWithMessage:(struct CGRect)arg1 completionHandler:(_Bool)arg2;
+- (void)offGridModeForHandle:(struct CGRect)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id)entItem;
+- (id)recentItem;
 - (double)(Èîÿ;
 - (void))mÊ|\;
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexPath *currentIndexPath; // @synthesize currentIndexPath=_currentIndexPath;
 @property(nonatomic) _Bool isSourceList; // @synthesize isSourceList=_isSourceList;
-@property(readonly, nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end
 

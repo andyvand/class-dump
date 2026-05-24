@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SafariWebBookmarkList;
 @protocol FunctionBarFavoritesClient;
 
 @protocol FunctionBarFavoritesVending
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canNavigateUp;
 @property(nonatomic) __weak id <FunctionBarFavoritesClient> client;
-@property(retain, nonatomic) SafariWebBookmarkList *vendedFolder;
 @end
 

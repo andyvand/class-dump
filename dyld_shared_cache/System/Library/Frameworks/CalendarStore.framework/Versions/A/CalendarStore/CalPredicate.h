@@ -11,12 +11,13 @@
     NSPredicate *_subpredicate;
 }
 
-- (id);
+- (id)+;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)
+k;
 
 @end
 

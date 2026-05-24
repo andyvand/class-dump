@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MLSVMEngine
 {
     _Bool _freeModelOnDealloc;
-    _Bool _isInputSizeLowerBoundOnly;
-    struct svm_model *_model;
-    unsigned long long _inputSize;
-    NSArray *_classLabels;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ulong3;
+- (void)MeshEmulationMeshVertex;
+- (void)needsCustomBorderColorSamplers;
+- (_Bool)ons:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (struct svm_node *);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)CLLocationPushServiceExtensionRemoteXPCInterface;
 - (void);
 - (unsigned long long);
 - (id);
@@ -39,12 +33,7 @@
 - (void)3ûÑª/¥sjúcKº³°uò6ÓásZh×°éAôwPbÅXtü£×PÙGCDï{)Â1	KW¤¢(Óµ=mÚpð-%6<~n;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *classLabels; // @synthesize classLabels=_classLabels;
-@property _Bool freeModelOnDealloc; // @synthesize freeModelOnDealloc=_freeModelOnDealloc;
-@property unsigned long long inputSize; // @synthesize inputSize=_inputSize;
-@property _Bool isInputSizeLowerBoundOnly; // @synthesize isInputSizeLowerBoundOnly=_isInputSizeLowerBoundOnly;
 @property struct svm_model *model; // @synthesize model=_model;
-@property(readonly, nonatomic) unsigned long long numberOfClasses;
 
 @end
 

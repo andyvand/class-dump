@@ -6,32 +6,26 @@
 
 #import <NotesUI/ICCollapsibleBaseView.h>
 
-@class ICImageAndMovieThumbnailView, NSImage;
+@class ICImageAndMovieThumbnailView;
 
 @interface ICCollapsibleThumbnailView : ICCollapsibleBaseView
 {
     _Bool _showAsMovie;
-    NSImage *_image;
-    unsigned long long _imageScaling;
-    ICImageAndMovieThumbnailView *_thumbnailView;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)elevantItemIdentifier;
+- (void)_firstRelevantItemIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned long long imageScaling; // @synthesize imageScaling=_imageScaling;
-@property(nonatomic) _Bool showAsMovie; // @synthesize showAsMovie=_showAsMovie;
 @property(retain, nonatomic) ICImageAndMovieThumbnailView *thumbnailView; // @synthesize thumbnailView=_thumbnailView;
 
 @end

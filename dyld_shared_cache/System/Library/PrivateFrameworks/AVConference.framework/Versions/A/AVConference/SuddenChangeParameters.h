@@ -8,19 +8,13 @@ __attribute__((visibility("hidden")))
 @interface SuddenChangeParameters
 {
     int margin;
-    int minSamplesCountFastBandwidthEstimation;
-    int minSamplesCount;
-    int minMarginRequired;
-    double percentage;
-    double durationThresholdUpward;
-    double durationThresholdDownward;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (int);
 - (int);
 - (double);
@@ -32,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(nonatomic) double durationThresholdDownward; // @synthesize durationThresholdDownward;
-@property(nonatomic) double durationThresholdUpward; // @synthesize durationThresholdUpward;
 @property(nonatomic) int margin; // @synthesize margin;
-@property(nonatomic) int minMarginRequired; // @synthesize minMarginRequired;
-@property(nonatomic) int minSamplesCount; // @synthesize minSamplesCount;
-@property(nonatomic) int minSamplesCountFastBandwidthEstimation; // @synthesize minSamplesCountFastBandwidthEstimation;
-@property(nonatomic) double percentage; // @synthesize percentage;
 
 @end
 

@@ -6,35 +6,24 @@
 
 #import <MetalTools/MTL4ToolsCommandBuffer.h>
 
-@class MTL4DebugCommandAllocator;
-@protocol MTL4CommandEncoder;
-
 @interface MTL4DebugCommandBuffer : MTL4ToolsCommandBuffer
 {
     unsigned long long _currentState;
-    id <MTL4CommandEncoder> _currentEncoder;
-    unsigned long long _aggregatedEncoderMask;
-    MTL4DebugCommandAllocator *_debugCommandAllocator;
-    unsigned long long _allocatorGeneration;
-    struct unordered_multiset<AttachmentDescriptorSimple, AttachmentDescriptorSimple::hash_t, AttachmentDescriptorSimple::equal_t, std::allocator<AttachmentDescriptorSimple>> _attachmentSet;
-    struct array<AttachmentDescriptorSimple, 8UL> _prevAttachments;
-    struct array<AttachmentDescriptorSimple, 8UL> _currentAttachments;
-    struct MTL4DebugRenderPassInfo _suspendResumeRenderPassInfo;
 }
 
 - (struct MTL4DebugRenderPassInfo);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (const void *);
@@ -52,10 +41,9 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void)rIndex: /* Error: Ran out of types for this method. */;
+- (void)setVertexVisibleFunctionTable:atBufferIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long aggregatedEncoderMask; // @synthesize aggregatedEncoderMask=_aggregatedEncoderMask;
 @property(nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
 
 @end

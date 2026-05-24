@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -29,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIColor *bodyBackgroundColor;
-@property(retain, nonatomic) SAUIColor *bodyTextColor;
-@property(nonatomic) long long countDownSeconds;
-@property(retain, nonatomic) SAUIColor *headerBackgroundColor;
-@property(retain, nonatomic) SAUIColor *headerTextColor;
 
 @end
 

@@ -5,16 +5,14 @@
 //
 
 @protocol UITextCursorAssertionControllerSubject
-- (void)erView;
+- (_Bool);
+- (void)clipUnderView;
 - (_Bool)ntationMetrics",?,R,N;
 
-// Remaining properties
-@property(nonatomic) unsigned long long activeIndicators;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
+@optional
+- (void);
 
+// Remaining properties
 @property(nonatomic) _Bool cursorBlinks;
-@property(nonatomic) _Bool cursorVisible;
-@property(nonatomic) _Bool ghostAppearance;
 @end
 

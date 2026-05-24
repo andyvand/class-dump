@@ -6,35 +6,31 @@
 
 #import <ChatKit/CKMultilineStampLabelChatItem.h>
 
-@class CKTranscriptPluginChatItem, IMTranscriptPluginBreadcrumbChatItem, UIImage;
+@class IMTranscriptPluginBreadcrumbChatItem, UIImage;
 
 @interface CKTranscriptPluginBreadcrumbChatItem : CKMultilineStampLabelChatItem
 {
     UIImage *_iconImage;
-    CKTranscriptPluginChatItem *_previousPluginChatItem;
 }
 
-- (BOOL);
-- (void);
-- (id);
-- (id);
+- (BOOL)ring"16;
+- (void)mentionNotificationSnippetForAttachmentType:(id)arg1;
+- (id)_webViewFullscreenMayReturnToInline: /* Error: Ran out of types for this method. */;
+- (id)napshotConfiguration",R,N,V_configuration;
+- (struct CGSize)rItemIdentifier",R,C,N;
+- (id)_encryptionDelegateCRContextURL;
 - (struct CGSize);
-- (id);
-- (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ICAuthenticationAuthenticateBiometricsAttemptDidFail;
+- (_Bool)PresentationIntentEmphasis;
 - (Class);
 - (id);
 - (unsigned long long)4;
-- (void)_STICKER;
+- (void)ATTACH_STICKER;
 
 // Remaining properties
 @property(readonly, nonatomic) IMTranscriptPluginBreadcrumbChatItem *IMChatItem; // @dynamic IMChatItem;
-@property(readonly, nonatomic) UIImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, nonatomic) struct CGSize iconSizePlusHorizontalPadding;
-@property(retain, nonatomic) CKTranscriptPluginChatItem *previousPluginChatItem; // @synthesize previousPluginChatItem=_previousPluginChatItem;
 
 @end
 

@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SCNTimingFunction;
-
 @interface SCNAnimation
 {
     struct __C3DAnimation *_animationRef;
-    NSString *_keyPath;
-    double _duration;
-    double _repeatCount;
-    double _timeOffset;
-    double _beginTime;
-    _Bool _autoreverses;
-    _Bool _removedOnCompletion;
-    _Bool _applyOnCompletion;
-    _Bool _additive;
-    _Bool _cumulative;
-    _Bool _usesSceneTimeBase;
-    _Bool _fillForward;
-    _Bool _fillBackward;
-    SCNTimingFunction *_timingFunction;
-    NSArray *_animationEvents;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    CDUnknownBlockType _animationDidStart;
-    CDUnknownBlockType _animationDidStop;
-    NSMutableDictionary *_userInfo;
-    struct os_unfair_lock_s _userInfoLock;
-    id _caAnimationCache;
-    id _userAnimation;
-    _Bool _didMutate;
 }
 
 + (id);
@@ -41,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)luminance:%.2f, saturation:%.2f, grayscale:%.2f /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -62,7 +36,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (struct __C3DAnimation *);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -78,25 +52,25 @@
 - (void);
 - (double);
 - (double);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)6;
 - (void);
 - (double);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)_TtCC14IMDPersistence26FullDatabaseIndexScheduler22InMemoryPersistedState;
+- (void)sFromContact:(_Bool)arg1 %{BOOL}d => interruptionLevel:%tu, realertCount:%tu /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)DateLabelDelegate>",W,N,V_delegate;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)displayedSubscribedCalendarSpamDetectionPrivacyNotice;
 - (void);
 - (void);
 - (double);
@@ -1035,32 +1009,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isAdditive) _Bool additive;
-@property(copy, nonatomic) CDUnknownBlockType animationDidStart;
-@property(copy, nonatomic) CDUnknownBlockType animationDidStop;
-@property(copy, nonatomic) NSArray *animationEvents;
-@property(nonatomic, getter=isAppliedOnCompletion) _Bool appliedOnCompletion;
-@property(nonatomic) _Bool autoreverses;
-@property(nonatomic) double blendInDuration;
-@property(nonatomic) double blendOutDuration;
-@property(nonatomic, getter=isCumulative) _Bool cumulative;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double duration;
-@property(nonatomic) _Bool fillsBackward;
-@property(nonatomic) _Bool fillsForward;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *keyPath;
-@property(nonatomic, getter=isRemovedOnCompletion) _Bool removedOnCompletion;
-@property(nonatomic) double repeatCount;
-@property(nonatomic) double startDelay;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeOffset;
-@property(retain, nonatomic) SCNTimingFunction *timingFunction;
-@property(nonatomic) _Bool usesSceneTimeBase;
 
 @end
 

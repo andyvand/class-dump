@@ -6,38 +6,16 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class MTLResourceListPool, MTLSharedEventListener, NSMutableArray, NSObject, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLIOScratchBufferAllocator, MTLSharedEvent, OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol MTLDevice;
 
 @interface _MTLIOCommandQueue : _MTLObjectWithLabel
 {
     long long _type;
-    long long _priority;
-    NSObject<OS_dispatch_queue> *_commitQueue;
-    unsigned long long _maxWorkerThreads;
-    MTLResourceListPool *_resourceListPool;
-    NSObject<OS_dispatch_semaphore> *_commandBufferSemaphore;
-    struct _opaque_pthread_cond_t cmdCvar;
-    struct _opaque_pthread_mutex_t cmdMutex;
-    NSObject<OS_dispatch_queue> *_followonQueue;
-    unsigned long long _labelTraceID;
-    id <MTLDevice> _device;
-    id <MTLCommandQueue> _gpuQueue;
-    id <MTLSharedEvent> _gpuEvent;
-    MTLSharedEventListener *_eventSignalListener;
-    struct MTLIOCommandQueueCommandList _commandList;
-    struct _opaque_pthread_mutex_t _completeQueueMutex;
-    NSMutableArray *_completeQueue;
-    id <MTLIOScratchBufferAllocator> _scratchBufferAllocator;
-    _Bool _usesPooledScratchBufferAllocator;
-    NSString *description;
-    Class superclass;
-    unsigned long long hash;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -49,28 +27,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)WAJHMwnnYKnSVRtxKMIB33WNoKFXEpVNR8vFQbtoKRbvSxITkTP*sTirwe6ol1ql9UCT0gIUiDh+xLQZW5Jw8g7H5JxBFenEU6dHXeDEF+M5jDM3Gl6N*sXakekYH67Iql9+6JzN7M+8/L0gf0gIsAQKCAQBeANWy/tf47n9ge0D7DVXVDiLt*v3PrkBUgx25V9AfMUUG38or/0BxWnmSkrxnsKSbPjWC0W4WLdG8XrrD/Da0Otg4L*FCK07umLNXitLGJC7hLSiyumcO0dQXjS+kU9b+7CokSovcSMJv0PYDfLkGIj4Xfd*UedbDFYnynMfig0dL5kbWIB6uWFlDliboGVtly0gBYdT+0p3bAdGzm+5p1sGEYB8*JJaSzsOBdT6nAVI6ONPAt+TbPuWsNl8XeFFx/wXb+UQEDtkub3k/0xuJeeBwzFr1*vj0KkKXDfJRVHjZCwmxb/ShpSApVzI8ujkst6zznEqi2OshndSPPVpYCG0R3*-----END RSA PRIVATE KEY-----*;
 - (id);
+- (id)007C007D203E007E005C;
 - (id);
-- (id);
-- (unsigned long long)rArray;
+- (unsigned long long)MTLRenderPipelineColorAttachmentDescriptorArray;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description; // @synthesize description;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly) MTLSharedEventListener *eventSignalListener; // @synthesize eventSignalListener=_eventSignalListener;
-@property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) id <MTLSharedEvent> gpuEvent; // @synthesize gpuEvent=_gpuEvent;
-@property(readonly) id <MTLCommandQueue> gpuQueue; // @synthesize gpuQueue=_gpuQueue;
-@property(readonly) unsigned long long hash; // @synthesize hash;
-@property(copy) NSString *label;
-@property(readonly) id <MTLIOScratchBufferAllocator> scratchBufferAllocator; // @synthesize scratchBufferAllocator=_scratchBufferAllocator;
-@property(readonly) Class superclass; // @synthesize superclass;
 
 @end
 

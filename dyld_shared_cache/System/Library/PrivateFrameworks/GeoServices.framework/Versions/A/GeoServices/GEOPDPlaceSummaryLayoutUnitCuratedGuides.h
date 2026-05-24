@@ -7,13 +7,10 @@
 @interface GEOPDPlaceSummaryLayoutUnitCuratedGuides
 {
     unsigned int _minNumGuides;
-    struct {
-        unsigned int has_minNumGuides:1;
-    } _flags;
 }
 
-+ (_Bool)ndOffsetsInRoutes:(id)arg1 count: /* Error: Ran out of types for this method. */;
-- (void);
++ (_Bool)setIncidentEndOffsetsInRoutes:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -21,19 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)s attendingStateStart:(id)arg1 (%u) readThisOrVoiceOverSessionActive:(%u) aggressiveECParamsApplied:(%u) inAttendingWindow:(%u) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)RL"b1"read_fontChecksums"b1"read_fonts"b1"read_iconChecksums"b1"read_icons"b1"read_locationShiftEnabledRegions"b1"read_logMessageUsageURL"b1"read_logMessageUsageV3URL"b1"read_muninBaseURL"b1"read_muninBuckets"b1"read_muninVersions"b1"read_offlineMetadatas"b1"read_polyLocationShiftURL"b1"read_proactiveRoutingURL"b1"read_problemCategoriesURL"b1"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_realtimeTrafficProbeURL"b1"read_regionalResources"b1"read_releaseInfo"b1"read_resourcesURL"b1"read_resources"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileGroups"b1"read_tileSets"b1"read_urlInfoSets"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURL"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)stIcloudSyncDate;
+- (id)_lastIcloudSyncDate;
 - (id)<ÒôÒÓÔÕ4ÜÀÜàÝ	àLâèâ¤ã(ææ;
-- (id)gory_names;
+- (id)modern_primary_category_names;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMinNumGuides;
-@property(nonatomic) unsigned int minNumGuides;
 
 @end
 

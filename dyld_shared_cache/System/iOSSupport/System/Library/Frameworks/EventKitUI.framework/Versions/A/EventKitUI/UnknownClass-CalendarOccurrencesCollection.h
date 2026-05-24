@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CalendarOccurrencesCollection)
-- (id);
+- (id)s;
 @end
 

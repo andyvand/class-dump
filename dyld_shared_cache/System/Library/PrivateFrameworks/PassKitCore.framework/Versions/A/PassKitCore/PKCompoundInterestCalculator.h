@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSMutableDictionary, PKCompoundInterestCalculatorConfiguration;
+@class NSCalendar, PKCompoundInterestCalculatorConfiguration;
 
 @interface PKCompoundInterestCalculator
 {
     NSCalendar *_calendar;
-    NSMutableDictionary *_toDateCache;
-    PKCompoundInterestCalculatorConfiguration *_configuration;
 }
 
 - (id);
@@ -19,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)BalanceForCriteriaIdentifier:(id)arg1 passUniqueID: /* Error: Ran out of types for this method. */;
+- (id)loadingDetailsForRewardsBalanceForCriteriaIdentifier:(id)arg1 passUniqueID: /* Error: Ran out of types for this method. */;
 - (void)then some;
 
 // Remaining properties

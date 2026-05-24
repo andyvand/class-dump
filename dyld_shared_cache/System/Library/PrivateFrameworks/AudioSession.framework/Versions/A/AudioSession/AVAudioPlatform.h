@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSessionManager, NSArray;
+@class AVAudioSessionManager;
 
 @interface AVAudioPlatform
 {
@@ -12,22 +12,19 @@
 }
 
 + (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)NEIKEv2IntermediatePacket;
+- (_Bool)NEIKEv2GSPMPayload;
+- (_Bool)NEIKEv2NoncePayload;
+- (_Bool)NEIKEv2CustomPayload;
+- (id)NEIKEv2KeyExchangeHandlerMODP;
+- (_Bool)NEHotspotConfigurationManager;
+- (id)NEFilterDataExtensionProviderHostProtocol;
+- (id)NENetworkAgentSessionFileHandle;
+- (_Bool)NEExtensionAppProxyProviderHostProtocol;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableCategories;
-@property(readonly, nonatomic) NSArray *availableModes;
-@property(readonly, nonatomic, getter=isInputAvailable) _Bool inputAvailable;
 @property(readonly, nonatomic) _Bool mixStereoToMono;
 
 @end

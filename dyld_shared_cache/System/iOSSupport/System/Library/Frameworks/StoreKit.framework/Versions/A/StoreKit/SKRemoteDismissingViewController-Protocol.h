@@ -5,5 +5,6 @@
 //
 
 @protocol SKRemoteDismissingViewController
+- (_Bool)_from, MIN(schedule_to) AS min_schedule_to, MAX(download_attempts) AS highest_download_attempts FROM push_subscription WHERE pending = 1 AND download_attempts < ;
 @end
 

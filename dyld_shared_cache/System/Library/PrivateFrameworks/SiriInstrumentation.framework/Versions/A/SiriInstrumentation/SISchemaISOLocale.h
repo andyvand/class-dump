@@ -9,11 +9,6 @@
 @interface SISchemaISOLocale : SISchemaInstrumentationMessage
 {
     int _languageCode;
-    int _countryCode;
-    struct {
-        unsigned int languageCode:1;
-        unsigned int countryCode:1;
-    } _has;
 }
 
 @end

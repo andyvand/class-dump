@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
-
 @interface CodeIdentity
 {
     struct __SecCode *_secCodeRef;
-    _Bool _haveCheckedValidity;
-    NSNumber *_sdkVersion;
-    NSDictionary *_cachedInfoPlist;
-    NSDictionary *_cachedEntitlements;
 }
 
 + (unsigned int);
@@ -21,7 +15,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -42,11 +36,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)y";
 
 // Remaining properties
 @property(readonly) struct __SecCode *codeRef; // @synthesize codeRef=_secCodeRef;
-@property(readonly) _Bool isAdHocSigned;
 
 @end
 

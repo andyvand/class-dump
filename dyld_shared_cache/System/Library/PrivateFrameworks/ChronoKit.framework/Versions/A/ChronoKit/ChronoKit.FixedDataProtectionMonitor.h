@@ -7,7 +7,6 @@
 @interface ChronoKit.FixedDataProtectionMonitor
 {
     id _maxUnlockedProtectionLevelPublisher;
-    id maxUnlockedProtectionLevel;
 }
 
 @end

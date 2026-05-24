@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMSystemMigrationDeclaration_CustomBehaviorItem : CEMPayloadBase
 {
     NSString *_payloadContext;
-    NSArray *_payloadPaths;
 }
 
 + (id);
@@ -20,15 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (id)`;
+- (_Bool)%s;
+- (id)PCProxyDecodableP;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadContext; // @synthesize payloadContext=_payloadContext;
-@property(copy, nonatomic) NSArray *payloadPaths; // @synthesize payloadPaths=_payloadPaths;
 
 @end
 

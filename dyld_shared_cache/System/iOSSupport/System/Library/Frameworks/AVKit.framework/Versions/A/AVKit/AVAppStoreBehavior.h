@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAppStoreBehaviorContext, NSString;
+@class AVAppStoreBehaviorContext;
 
 @interface AVAppStoreBehavior
 {
     _Bool _prefersFirstGenerationControlsWhenEmbeddedInline;
-    AVAppStoreBehaviorContext *_behaviorContext;
 }
 
 + (id);
@@ -25,14 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AVAppStoreBehaviorContext *behaviorContext; // @synthesize behaviorContext=_behaviorContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool prefersFirstGenerationControlsWhenEmbeddedInline; // @synthesize prefersFirstGenerationControlsWhenEmbeddedInline=_prefersFirstGenerationControlsWhenEmbeddedInline;
-@property(readonly) Class superclass;
 
 @end
 

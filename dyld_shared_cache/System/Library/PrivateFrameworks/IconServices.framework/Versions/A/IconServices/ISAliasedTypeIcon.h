@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     ISIcon *_moniker;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)ndle"16@"NSNumber"24@?<v@?B>32;
 - (id);
 - (id);
 - (void);

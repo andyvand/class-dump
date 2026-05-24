@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneKeyboardProxyLayerForwardingManager
@@ -17,28 +17,22 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)chatForChatIdentifier:(id)arg1 style:updatingAccount: /* Error: Ran out of types for this method. */;
+- (id)unt:(id)arg1 totalMessages:context: /* Error: Ran out of types for this method. */;
+- (id)e;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)URLSession:dataTask:didReceiveResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)setIsFavorite:(id)arg1;
+- (id)ITLibArtistPropertySortName;
 - (id)
 × ;
-- (id)sInlineSearchBarForTraits: /* Error: Ran out of types for this method. */;
+- (id)_hasInlineSearchBarForTraits: /* Error: Ran out of types for this method. */;
 - (id)orableObjectToRoots(NSObject<UIStateRestoring> *);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

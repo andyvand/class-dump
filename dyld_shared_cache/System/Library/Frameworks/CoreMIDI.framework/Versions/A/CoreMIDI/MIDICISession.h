@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDICIDeviceInfo, NSArray, NSMutableArray, NSNumber;
-
 @interface MIDICISession
 {
     unsigned int _client;
-    unsigned int _destination;
-    NSArray *_supportedProtocols;
-    NSMutableArray *_profileStates;
-    CDUnknownBlockType _profileChangedCallback;
-    CDUnknownBlockType _sessionDisconnectCallback;
-    CDUnknownBlockType _profileSpecificDataCallback;
-    _Bool _supportsProfileCapability;
-    _Bool _supportsPropertyCapability;
-    MIDICIDeviceInfo *_deviceInfo;
-    unsigned int _ciSessionRef;
-    unsigned int _maxSysExSize;
-    unsigned char _maxRequests;
-    struct MIDICIDeviceIdentification _deviceID;
-    CDUnknownBlockType _propertyChangedCallback;
-    CDUnknownBlockType _propertyResponseCallback;
-    CDUnknownBlockType _profileSpecificDataHandler;
 }
 
 + (id);
@@ -46,7 +28,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -62,27 +44,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (struct MIDICIDeviceIdentification);
 - (id);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct MIDICIDeviceIdentification deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) MIDICIDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(copy, nonatomic) CDUnknownBlockType disconnectBlock; // @synthesize disconnectBlock=_sessionDisconnectCallback;
-@property(readonly, nonatomic) unsigned int entity;
-@property(readonly, nonatomic) NSNumber *maxPropertyRequests;
-@property(readonly, nonatomic) NSNumber *maxSysExSize;
-@property(readonly, nonatomic) unsigned int midiDestination; // @synthesize midiDestination=_destination;
-@property(copy, nonatomic) CDUnknownBlockType profileChangedCallback; // @synthesize profileChangedCallback=_profileChangedCallback;
-@property(copy, nonatomic) CDUnknownBlockType profileSpecificDataBlock; // @synthesize profileSpecificDataBlock=_profileSpecificDataCallback;
-@property(copy, nonatomic) CDUnknownBlockType profileSpecificDataHandler; // @synthesize profileSpecificDataHandler=_profileSpecificDataHandler;
-@property(copy, nonatomic) CDUnknownBlockType propertyChangedCallback; // @synthesize propertyChangedCallback=_propertyChangedCallback;
-@property(copy, nonatomic) CDUnknownBlockType propertyResponseCallback; // @synthesize propertyResponseCallback=_propertyResponseCallback;
-@property(readonly, nonatomic) _Bool supportsProfileCapability; // @synthesize supportsProfileCapability=_supportsProfileCapability;
-@property(readonly, nonatomic) _Bool supportsPropertyCapability; // @synthesize supportsPropertyCapability=_supportsPropertyCapability;
+@property(copy, nonatomic) CDUnknownBlockType propertyChangedCallback;
 
 @end
 

@@ -6,51 +6,40 @@
 
 #import <Catalyst/CATTransport.h>
 
-@class CATRemoteConnection, NSMutableDictionary, NSString;
+@class CATRemoteConnection;
 @protocol CATRemoteTransportDelegate;
 
 @interface CATRemoteTransport : CATTransport
 {
     CATRemoteConnection *mConnection;
-    NSMutableDictionary *mOperationByUUID;
-    _Bool mConnectionHasOpened;
-    id <CATRemoteTransportDelegate> _remoteTransportDelegate;
 }
 
 + (void);
-+ (id);
++ (id)setContentsChanged;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)?;
+- (void)ch_basicArabicCharacterSet;
 - (struct __SecTrust *);
+- (void)spd;
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@"NSError",&,N,V_processingError;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct __SecTrust *peerTrust;
 @property(nonatomic) __weak id <CATRemoteTransportDelegate> remoteTransportDelegate; // @synthesize remoteTransportDelegate=_remoteTransportDelegate;
-@property(readonly) Class superclass;
 
 @end
 

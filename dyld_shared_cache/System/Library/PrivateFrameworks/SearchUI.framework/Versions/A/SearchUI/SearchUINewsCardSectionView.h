@@ -6,20 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NUIContainerBoxView, NUIContainerStackView, SearchUIImageView, SearchUILabel, SearchUINewsCardGradientView;
+@class NUIContainerStackView;
 
 @interface SearchUINewsCardSectionView : SearchUICardSectionView
 {
     _Bool _overlaysTextInImage;
-    NUIContainerBoxView *_baseBoxView;
-    NUIContainerBoxView *_textContentBoxView;
-    NUIContainerStackView *_textContentStackView;
-    SearchUINewsCardGradientView *_gradientView;
-    SearchUIImageView *_thumbnailImageView;
-    SearchUIImageView *_providerImageView;
-    SearchUILabel *_providerLabel;
-    SearchUILabel *_titleLabel;
-    SearchUILabel *_subtitleLabel;
 }
 
 + (_Bool);
@@ -29,7 +20,7 @@
 - (id);
 - (struct NSEdgeInsets);
 - (id);
-- (double);
+- (double)/;
 - (struct CGSize);
 - (void);
 - (void);
@@ -39,15 +30,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
-- (double);
+- (double)`;
 - (struct CGSize);
+- (id)s;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (struct CGRect);
@@ -57,21 +48,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 
 // Remaining properties
-@property(retain) NUIContainerBoxView *baseBoxView; // @synthesize baseBoxView=_baseBoxView;
 @property(retain) NUIContainerStackView *contentView; // @dynamic contentView;
-@property(retain) SearchUINewsCardGradientView *gradientView; // @synthesize gradientView=_gradientView;
-@property _Bool overlaysTextInImage; // @synthesize overlaysTextInImage=_overlaysTextInImage;
-@property(retain) SearchUIImageView *providerImageView; // @synthesize providerImageView=_providerImageView;
-@property(retain) SearchUILabel *providerLabel; // @synthesize providerLabel=_providerLabel;
-@property(retain) SearchUILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain) NUIContainerBoxView *textContentBoxView; // @synthesize textContentBoxView=_textContentBoxView;
-@property(retain) NUIContainerStackView *textContentStackView; // @synthesize textContentStackView=_textContentStackView;
-@property(retain) SearchUIImageView *thumbnailImageView; // @synthesize thumbnailImageView=_thumbnailImageView;
-@property(retain) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

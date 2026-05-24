@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDServerUIContextController, NSHTTPURLResponse;
+@class AKAppleIDServerUIContextController;
 
 @interface AKMacOSRemoteUIProvider
 {
     AKAppleIDServerUIContextController *contextController;
-    NSHTTPURLResponse *deferredResponse;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) AKAppleIDServerUIContextController *contextController; // @synthesize contextController;
-@property(nonatomic, retain) NSHTTPURLResponse *deferredResponse; // @synthesize deferredResponse;
 
 @end
 

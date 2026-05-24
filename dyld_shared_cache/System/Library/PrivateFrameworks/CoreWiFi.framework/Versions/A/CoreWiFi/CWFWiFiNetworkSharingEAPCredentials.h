@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSSet, NSString;
+@class NSString;
 
 @interface CWFWiFiNetworkSharingEAPCredentials
 {
     _Bool _TLSCertificateRequired;
-    _Bool _FASTUsePAC;
-    _Bool _FASTProvisionPACAnonymously;
-    NSString *_outerIdentity;
-    NSArray *_trustedServerCertificates;
-    NSArray *_trustedServerNames;
-    NSArray *_clientCertificateChain;
-    NSData *_clientPrivateKey;
-    NSString *_username;
-    NSSet *_acceptedEAPTypes;
-    NSString *_TLSMinimumVersion;
-    NSString *_TLSMaximumVersion;
-    long long _TTLSInnerAuthenticationType;
 }
 
 + (_Bool);
@@ -29,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -60,19 +48,7 @@
 - (void)t;
 
 // Remaining properties
-@property(nonatomic) _Bool FASTProvisionPACAnonymously; // @synthesize FASTProvisionPACAnonymously=_FASTProvisionPACAnonymously;
-@property(nonatomic) _Bool FASTUsePAC; // @synthesize FASTUsePAC=_FASTUsePAC;
-@property(nonatomic) _Bool TLSCertificateRequired; // @synthesize TLSCertificateRequired=_TLSCertificateRequired;
-@property(copy, nonatomic) NSString *TLSMaximumVersion; // @synthesize TLSMaximumVersion=_TLSMaximumVersion;
-@property(copy, nonatomic) NSString *TLSMinimumVersion; // @synthesize TLSMinimumVersion=_TLSMinimumVersion;
-@property(nonatomic) long long TTLSInnerAuthenticationType; // @synthesize TTLSInnerAuthenticationType=_TTLSInnerAuthenticationType;
-@property(copy, nonatomic) NSSet *acceptedEAPTypes; // @synthesize acceptedEAPTypes=_acceptedEAPTypes;
-@property(copy, nonatomic) NSArray *clientCertificateChain; // @synthesize clientCertificateChain=_clientCertificateChain;
-@property(copy, nonatomic) NSData *clientPrivateKey; // @synthesize clientPrivateKey=_clientPrivateKey;
 @property(copy, nonatomic) NSString *outerIdentity; // @synthesize outerIdentity=_outerIdentity;
-@property(copy, nonatomic) NSArray *trustedServerCertificates; // @synthesize trustedServerCertificates=_trustedServerCertificates;
-@property(copy, nonatomic) NSArray *trustedServerNames; // @synthesize trustedServerNames=_trustedServerNames;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

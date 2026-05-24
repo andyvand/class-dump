@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface INExtensionContextSlotResolutionResult
 {
     long long _result;
-    NSData *_data;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
-- (id);
-- (id);
-- (void);
-- (long long)ouldCheckForSiriEnabled:shouldIgnoreLaunchId:requireTrustCheck:completion: /* Error: Ran out of types for this method. */;
-- (void)rtCall:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)N,V_disabledSystemGestureInputNames;
+- (id)__hashedBSSID:XPCConnection:error: /* Error: Ran out of types for this method. */;
+- (void).apple.Verizon_Response_LTE_US.5b78c7d8-d474-11eb-98d2-f45c89abb0d9;
+- (long long)_matchExtensionsForIntent:extensionPointName:shouldCheckForSiriEnabled:shouldIgnoreLaunchId:requireTrustCheck:completion: /* Error: Ran out of types for this method. */;
+- (void)providePreferredCallProviderOptionsCollectionForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) long long result; // @synthesize result=_result;
 
 @end

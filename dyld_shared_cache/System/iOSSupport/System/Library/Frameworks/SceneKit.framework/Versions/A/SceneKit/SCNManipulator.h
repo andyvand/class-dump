@@ -4,76 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet, NSOrderedSet, SCNAuthoringEnvironment, SCNBillboardConstraint, SCNNode;
+@class SCNAuthoringEnvironment;
 
 @interface SCNManipulator
 {
     SCNAuthoringEnvironment *_authoringEnvironment;
-    NSOrderedSet *_targets;
-    SCNNode *_node;
-    union C3DMatrix4x4 _xAxisToZAxisTransform;
-    union C3DMatrix4x4 _yAxisToZAxisTransform;
-    union C3DMatrix4x4 _xyPlaneToYZPlaneTransform;
-    union C3DMatrix4x4 _xyPlaneToXZPlaneTransform;
-    unsigned short _selectedAxis;
-    union {
-        struct {
-            id originalPosition__axisDirection__mouseDeltaVector;
-        } axisMove;
-        struct {
-            id originalPosition__planeNormal__pointInPlane__mouseDeltaVector;
-        } planeMove;
-        struct {
-            float rotationSign;
-            id originalRotation;
-        } axisRotate;
-    } _actionData;
-    _Bool _isMouseDown;
-    _Bool _readonly;
-    unsigned short _action;
-    struct CGPoint _originalMouseLocation;
-    struct {
-        void *positions;
-        void *orientations;
-        struct SCNMatrix4 *originalLocalMatrix;
-        void *scales;
-    } _originalData;
-    unsigned int _originalDataCount;
-    union C3DMatrix4x4 _worldInitialMatrix;
-    union C3DMatrix4x4 _worldMatrix;
-    long long _snapToAlignCount;
-    CDStruct_962da47d *_snapToAlignOnX;
-    CDStruct_962da47d *_snapToAlignOnY;
-    CDStruct_962da47d *_snapToAlignOnZ;
-    NSMutableIndexSet *_snapXIndexes;
-    NSMutableIndexSet *_snapYIndexes;
-    NSMutableIndexSet *_snapZIndexes;
-    long long _xAlignment;
-    long long _yAlignment;
-    long long _zAlignment;
-    SCNNode *_planarTranslationHandleXY;
-    SCNNode *_planarTranslationHandleYZ;
-    SCNNode *_planarTranslationHandleXZ;
-    SCNNode *_planarTranslationHandles;
-    SCNNode *_axis;
-    SCNNode *_arcHandleXY;
-    SCNNode *_arcHandleYZ;
-    SCNNode *_arcHandleXZ;
-    SCNNode *_arcHandles;
-    SCNNode *_scaleNode;
-    SCNNode *_screenSpaceRotation;
-    SCNNode *_highlightNode;
-    id _planarTranslationLayout;
-    _Bool _layoutLocked;
-    SCNNode *_zArrow;
-    SCNNode *_rotationHandles;
-    SCNNode *_occluder;
-    SCNNode *_translateHandles;
-    SCNBillboardConstraint *_billboard;
-    NSOrderedSet *_cloneSet;
-    _Bool _cloning;
-    unsigned long long _features;
-    _Bool _alternateMode;
 }
 
 - (long long);
@@ -87,13 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (const CDStruct_962da47d *);
+- (id);
+- (void)9;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -102,10 +37,10 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -116,17 +51,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)_"^{PKMetalParticleStrokePoint}"__end_"^{PKMetalParticleStrokePoint}""{?="__cap_"^{PKMetalParticleStrokePoint}}};
 - (id);
-- (id);
-- (void);
-- (struct SCNMatrix4);
+- (void)(
+;
+- (struct SCNMatrix4)L;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool)S implementations
 struct OsdVertexBufferSet
@@ -2374,22 +2310,13 @@ __DoFragmentModifier__
     return half4(_output.color);
 }
  /* Error: Ran out of types for this method. */;
-- (id)3D_SUPPORTS_PROGRAMMABLE_BLENDING;
+- (id)C3D_SUPPORTS_PROGRAMMABLE_BLENDING;
 - (_Bool)LL || C3DNodeGetOpacity(theNode) > 0 || rendererElement->_renderableAttributeKind == kC3DRenderableAttributeKindParticleSystem;
 - (_Bool);
 - (_Bool)ßq;
 
 // Remaining properties
 @property(readonly) SCNAuthoringEnvironment *authoringEnvironment;
-@property(nonatomic) unsigned long long features;
-@property(readonly) SCNNode *manipulatorNode;
-@property(nonatomic) _Bool readonly; // @synthesize readonly=_readonly;
-@property(retain, nonatomic) SCNNode *target;
-@property(retain, nonatomic) NSOrderedSet *targets;
-@property(readonly) struct SCNMatrix4 transform;
-@property(nonatomic) long long xAlignment; // @synthesize xAlignment=_xAlignment;
-@property(nonatomic) long long yAlignment; // @synthesize yAlignment=_yAlignment;
-@property(nonatomic) long long zAlignment; // @synthesize zAlignment=_zAlignment;
 
 @end
 

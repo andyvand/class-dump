@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKSharingMessage;
+@class PKSharingMessage;
 
 @interface PKPassSharePendingActivation
 {
     _Bool _isWaitingOnUserAction;
-    PKSharingMessage *_originalInvitation;
-    NSString *_shareIdentifier;
 }
 
 + (_Bool)X"!´Aùqî%ð1Â0@ù
@@ -24,15 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)TION;
+- (unsigned long long);
+- (_Bool)setHasInfraWiFiState:(id)arg1;
+- (void)wlanProtectionFramesDueToLTECoexCount;
+- (void)SHARE_INITIATION_ERROR_SHARE_LIMIT_REACHED_DESCRIPTION;
 
 // Remaining properties
-@property(nonatomic) _Bool isWaitingOnUserAction; // @synthesize isWaitingOnUserAction=_isWaitingOnUserAction;
 @property(retain, nonatomic) PKSharingMessage *originalInvitation; // @synthesize originalInvitation=_originalInvitation;
-@property(retain, nonatomic) NSString *shareIdentifier; // @synthesize shareIdentifier=_shareIdentifier;
 
 @end
 

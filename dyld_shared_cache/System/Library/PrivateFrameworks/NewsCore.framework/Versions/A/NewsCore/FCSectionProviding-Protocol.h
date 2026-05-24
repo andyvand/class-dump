@@ -9,7 +9,6 @@
 @protocol FCSectionProviding
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFoodSection;
 @property(readonly, copy, nonatomic) NSString *parentID;
 @end
 

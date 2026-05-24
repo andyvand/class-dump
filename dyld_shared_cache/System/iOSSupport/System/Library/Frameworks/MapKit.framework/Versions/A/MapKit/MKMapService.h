@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MKMapService
 {
     int _deviceOrientation;
@@ -37,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -70,6 +68,7 @@
 - (id);
 - (id);
 - (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -78,9 +77,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -95,6 +93,17 @@
 - (void);
 - (id);
 - (id);
+- (id)";
+- (id);
+- (id);
+- (id);
+- (id)l;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -105,28 +114,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)rant;
+- (id)MKPOICategoryRestaurant;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property int deviceOrientation; // @synthesize deviceOrientation=_deviceOrientation;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,33 +6,26 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTInvocationDispatcher;
+@class RTInvocationDispatcher;
 
 @interface RTEventManager : RTService
 {
     _Bool _accessToEventsGranted;
-    RTInvocationDispatcher *_invocationDispatcher;
-    id _eventStore;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)ids-stun-attribute-qr-requestnonce;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -40,25 +33,21 @@
 - (void);
 - (void);
 - (id);
+- (void)d %@ forTopic %@ sessionID %@ toIdentifier %@ fromID %@;
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)_screen_lock_duration_home;
+- (void);
+- (void)hs20Settings;
+- (id);
+- (void)SD_daily_longest_screen_lock_duration_home;
 - (void)terestMetricsManager _onLearnedLocationStoreNotification:(id)arg1 ];
 - (void)eturned location,count,%d;
 - (void)s selecting inRouteLoc index with uturn flag,%lu;
 
 // Remaining properties
-@property(nonatomic) _Bool accessToEventsGranted; // @synthesize accessToEventsGranted=_accessToEventsGranted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RTInvocationDispatcher *invocationDispatcher; // @synthesize invocationDispatcher=_invocationDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

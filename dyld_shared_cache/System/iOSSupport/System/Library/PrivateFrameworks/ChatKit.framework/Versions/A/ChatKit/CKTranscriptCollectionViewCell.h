@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel;
+@class UILabel;
 
 @interface CKTranscriptCollectionViewCell
 {
     _Bool isAnimatingInDarkEffect;
-    _Bool _wantsDrawerLayout;
-    BOOL _orientation;
-    _Bool _isInReplyContext;
-    UILabel *_debugLabel;
-    double _drawerPercentRevealed;
-    double _associatedItemOffset;
-    struct CGRect contentAlignmentRect;
 }
 
 + (id);
+- (_Bool)0@52;
+- (void)noteHTMLEditorView:(_Bool)arg1 attachmentPresentationForContentID: /* Error: Ran out of types for this method. */;
+- (void)ic_firstConstraintWithAttribute:(_Bool)arg1;
+- (void)ic_darkerAccessibilityColorForColor:(_Bool)arg1;
+- (void)flashScrollers;
+- (void)enumerateRowsWithBlock:(struct CGRect)arg1;
+- (void)dataUsingEncoding:(double)arg1;
+- (void)setReplicaIDToNotesVersionData:(_Bool)arg1;
+- (void)setReplicaIDToNotesVersionData:(CDUnknownBlockType)arg1;
+- (void)setPreferences:(CDUnknownBlockType)arg1;
+- (void)setNonSystemPaperNotesInSource:(CDUnknownBlockType)arg1;
+- (void)setMaxConcurrentOperationCount:(CDUnknownBlockType)arg1;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (double);
+- (double);
 - (struct CGRect);
-- (void);
-- (double);
-- (void);
+- (void)tGSg_AItGSgGG;
+- (double)i;
+- (void)yAttachment.contentID is nil;
 - (void);
 - (id);
 - (id);
@@ -48,26 +41,12 @@
 - (void);
 - (void);
 - (void);
-- (BOOL);
+- (BOOL)syut;
 - (void)èÛÝTÝÝHßðßDàpà;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double associatedItemOffset; // @synthesize associatedItemOffset=_associatedItemOffset;
-@property(nonatomic) struct CGRect contentAlignmentRect; // @synthesize contentAlignmentRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) UILabel *debugLabel; // @synthesize debugLabel=_debugLabel;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double drawerPercentRevealed; // @synthesize drawerPercentRevealed=_drawerPercentRevealed;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAnimatingInDarkEffect; // @synthesize isAnimatingInDarkEffect;
-@property(nonatomic) _Bool isInReplyContext; // @synthesize isInReplyContext=_isInReplyContext;
-@property(nonatomic) BOOL orientation; // @synthesize orientation=_orientation;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsDrawerLayout; // @synthesize wantsDrawerLayout=_wantsDrawerLayout;
 
 @end
 

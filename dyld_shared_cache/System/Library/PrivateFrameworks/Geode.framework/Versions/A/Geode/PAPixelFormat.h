@@ -19,24 +19,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly) unsigned long long bitsPerPixel;
-@property(readonly) unsigned long long bitsPerSample;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasAlpha;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name;
-@property(readonly) unsigned long long numberOfComponents;
-@property(readonly) Class superclass;
 
 @end
 

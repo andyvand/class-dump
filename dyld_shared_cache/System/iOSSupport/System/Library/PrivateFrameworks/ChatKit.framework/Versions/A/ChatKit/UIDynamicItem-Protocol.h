@@ -10,17 +10,10 @@
 - (void);
 - (void)R,C,N;
 
+@optional
+- (UIBezierPath *);
+
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
 @property(nonatomic) struct CGPoint center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(nonatomic) struct CGAffineTransform transform;
 @end
 

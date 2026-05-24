@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TKTokenAccessDB, TKTokenAccessUserPrompt;
+@protocol TKTokenAccessDB;
 
 @interface TKTokenAccessRegistry
 {
     id <TKTokenAccessDB> _accessDB;
-    id <TKTokenAccessUserPrompt> _prompt;
 }
 
 - (void);

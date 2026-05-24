@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableViewCell, UITableViewCellEditControl, UITableViewCellReorderControl, UIView;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewCellEditingData
 {
     UITableViewCell *_cell;
-    long long _editingStyle;
-    UITableViewCellEditControl *_editControl;
-    UITableViewCellReorderControl *_reorderControl;
-    UIView *_reorderSeparatorView;
-    struct {
-        unsigned int addedEditControlAsSubview:1;
-        unsigned int addedReorderControlAsSubview:1;
-        unsigned int addedReorderSeparatorViewAsSubview:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (id)ð!ÜEùQ[Ð1Â0@ù
 × ;
-- (id)rame:(_Bool)arg1 innerCorners: /* Error: Ran out of types for this method. */;
-- (_Bool)Resize;
+- (id)setProgress:(_Bool)arg1 withFrame:innerCorners: /* Error: Ran out of types for this method. */;
+- (_Bool)contentAreaDidResize;
 - (id)´×;
 - (void)Õa;
 

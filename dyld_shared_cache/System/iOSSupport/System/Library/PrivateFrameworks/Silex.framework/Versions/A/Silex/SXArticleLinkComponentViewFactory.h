@@ -6,14 +6,11 @@
 
 #import <Silex/SXContainerComponentViewFactory.h>
 
-@protocol SXActionComponentInteractionHandlerFactory, SXArticleURLFactory, SXComponentInteractionHandlerManager, SXURLActionFactory;
+@protocol SXComponentInteractionHandlerManager;
 
 @interface SXArticleLinkComponentViewFactory : SXContainerComponentViewFactory
 {
     id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
-    id <SXActionComponentInteractionHandlerFactory> _interactionHandlerFactory;
-    id <SXURLActionFactory> _URLActionFactory;
-    id <SXArticleURLFactory> _articleURLFactory;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 - (void)8@16@24@32@40@48^@56;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXURLActionFactory> URLActionFactory; // @synthesize URLActionFactory=_URLActionFactory;
-@property(readonly, nonatomic) id <SXArticleURLFactory> articleURLFactory; // @synthesize articleURLFactory=_articleURLFactory;
-@property(readonly, nonatomic) id <SXActionComponentInteractionHandlerFactory> interactionHandlerFactory; // @synthesize interactionHandlerFactory=_interactionHandlerFactory;
 @property(readonly, nonatomic) id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
 
 @end

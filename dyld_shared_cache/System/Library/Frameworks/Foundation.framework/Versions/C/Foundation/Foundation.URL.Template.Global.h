@@ -7,9 +7,6 @@
 @interface Foundation.URL.Template.Global
 {
     id operatorRegex;
-    id separatorRegex;
-    id elementRegex;
-    id uriTemplateRegex;
 }
 
 @end

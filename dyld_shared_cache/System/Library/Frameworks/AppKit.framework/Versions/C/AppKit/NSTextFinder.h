@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol NSTextFinderBarContainer, NSTextFinderClient;
+@protocol NSTextFinderClient;
 
 @interface NSTextFinder
 {
     id _client;
-    id _content;
-    id <NSTextFinderBarContainer> _container;
-    unsigned long long _style;
-    _Bool _incrementalEnabled;
-    _Bool _shouldDim;
 }
 
 + (void);
-+ (long long);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
++ (long long)_kCFHTTPCookiePolicyPropertyIsSafeRequest;
++ (id)@;
 + (id);
 + (void);
 + (void);
 + (id);
++ (void)@;
++ (id);
 + (void);
++ (void);
++ (id);
++ (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -47,18 +41,19 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool){__CFURL=}48C56;
+- (_Bool)ig %p;
+- (_Bool)t %s config %p;
+- (void)yList could not be serialized.;
+- (id)_allowsMultipathTCP;
+- (_Bool)isfiable;
+- (_Bool)pported Media Type;
+- (void)om.apple.httpserver.bysocket;
+- (void)kCFHTTPServerRequireClientCertificate;
+- (id)eiver_data, b.request_object, b.user_info, r.time_stamp FROM cfurl_cache_response r, cfurl_cache_blob_data b, cfurl_cache_receiver_data d WHERE r.request_key=%q AND b.entry_ID=r.entry_ID AND b.entry_ID=d.entry_ID;;
+- (_Bool)HeaderName;
+- (void)@
+;
 - (void);
 - (id);
 - (id);
@@ -70,11 +65,6 @@
 
 // Remaining properties
 @property id <NSTextFinderClient> client;
-@property id <NSTextFinderBarContainer> findBarContainer;
-@property _Bool findIndicatorNeedsUpdate;
-@property(readonly, copy) NSArray *incrementalMatchRanges;
-@property(getter=isIncrementalSearchingEnabled) _Bool incrementalSearchingEnabled;
-@property _Bool incrementalSearchingShouldDimContentView; // @synthesize incrementalSearchingShouldDimContentView=_shouldDim;
 
 @end
 

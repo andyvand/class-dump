@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSColorPickerTouchBarItem, NSString;
+@class NSColor;
 
 @interface AKDFRTextColorController
 {
     NSColor *_color;
-    NSColorPickerTouchBarItem *_colorBarItem;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -23,15 +22,6 @@
 
 // Remaining properties
 @property(copy) NSColor *color; // @synthesize color=_color;
-@property(retain) NSColorPickerTouchBarItem *colorBarItem; // @synthesize colorBarItem=_colorBarItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) long long tag;
 
 @end
 

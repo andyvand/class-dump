@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PARenderPipelineGeometry;
+@class PARenderPipelineGeometry;
 
 @interface IPAGeometryConverter
 {
     PARenderPipelineGeometry *_geometry;
-    struct PFIntSize_st _inputSize;
-    long long _orientation;
-    _Bool _computedInputToOutputTransform;
-    struct CGAffineTransform _inputToOutputTransform;
-    _Bool _computedOutputToInputTransform;
-    struct CGAffineTransform _outputToInputTransform;
 }
 
 + (id);
@@ -27,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (unsigned long long);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
@@ -43,18 +37,12 @@
 - (struct CGRect);
 - (id);
 - (struct PFIntSize_st);
-- (id);
+- (id)P;
 - (struct PFIntSize_st);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

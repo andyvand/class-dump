@@ -7,22 +7,14 @@
 @interface ChatKit.CKBackgroundGalleryViewController
 {
     id conversation;
-    id detailsViewCoordinator;
-    id contentOffsetProxy;
-    id wantsInspectorStyling;
-    id editingViewController;
-    id viewModel;
-    id playgroundDelegate;
-    id suggestionGenerator;
-    id motionEventsManager;
 }
 
-- (void);
+- (void)nagedObjectID",N,R;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)n drafts;

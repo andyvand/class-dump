@@ -4,61 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSURL, SAConnectionPolicy, SAConnectionPolicyRoute;
+@class NSURL;
 
 @interface SiriCoreSiriConnectionInfo
 {
     _Bool _prefersWWAN;
-    _Bool _skipPeer;
-    _Bool _useWiFiHint;
-    _Bool _forceReconnect;
-    _Bool _imposePolicyBan;
-    _Bool _requiresURLSession;
-    _Bool _forceOnDeviceOnlyDictation;
-    NSURL *_url;
-    SAConnectionPolicyRoute *_connectionPolicyRoute;
-    NSString *_aceHost;
-    NSString *_languageCode;
-    NSError *_skipPeerErrorReason;
-    double _timeout;
-    NSString *_assistantIdentifier;
-    NSString *_peerAssistantIdentifier;
-    NSString *_connectionId;
-    SAConnectionPolicy *_connectionPolicy;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)update:%@ /* Error: Ran out of types for this method. */;
+- (id)te a secure connection to the server (%1$@).;
+- (_Bool)erver.;
+- (void)th the server failed. Please check the settings for this account.;
+- (void)06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)tials (e.g. username and/or password) that the user has entered for this account. We will automatically try again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)ll automatically try again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
 - (void);
+- (void)Will try to connect again at %1$@.;
+- (void)).;
+- (_Bool)datedVIPs:removedVIPs:called before observer:gotVIPs: /* Error: Ran out of types for this method. */;
+- (_Bool)TopHitsInCommittedSearchLimit;
+- (_Bool)DisableInitialMessageSelection;
+- (_Bool)BlockedSenderEnabled;
+- (void)p queryString %d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (_Bool)o a non-attribute query;
+- (void)builder;
+- (void)xceeds data length %lu;
+- (void)block:(id)arg1 %@;
+- (id)@ %@;
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (double);
 - (void);
@@ -66,23 +50,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceHost; // @synthesize aceHost=_aceHost;
-@property(copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
-@property(copy, nonatomic) NSString *connectionId; // @synthesize connectionId=_connectionId;
-@property(copy, nonatomic) SAConnectionPolicy *connectionPolicy; // @synthesize connectionPolicy=_connectionPolicy;
-@property(copy, nonatomic) SAConnectionPolicyRoute *connectionPolicyRoute; // @synthesize connectionPolicyRoute=_connectionPolicyRoute;
-@property(nonatomic, getter=isForceOnDeviceOnlyDictationEnabled) _Bool forceOnDeviceOnlyDictation; // @synthesize forceOnDeviceOnlyDictation=_forceOnDeviceOnlyDictation;
-@property(nonatomic) _Bool forceReconnect; // @synthesize forceReconnect=_forceReconnect;
-@property(nonatomic) _Bool imposePolicyBan; // @synthesize imposePolicyBan=_imposePolicyBan;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(copy, nonatomic) NSString *peerAssistantIdentifier; // @synthesize peerAssistantIdentifier=_peerAssistantIdentifier;
-@property(nonatomic) _Bool prefersWWAN; // @synthesize prefersWWAN=_prefersWWAN;
-@property(nonatomic) _Bool requiresURLSession; // @synthesize requiresURLSession=_requiresURLSession;
-@property(nonatomic) _Bool skipPeer; // @synthesize skipPeer=_skipPeer;
-@property(copy, nonatomic) NSError *skipPeerErrorReason; // @synthesize skipPeerErrorReason=_skipPeerErrorReason;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) _Bool useWiFiHint; // @synthesize useWiFiHint=_useWiFiHint;
 
 @end
 

@@ -6,28 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAdMatchingEnded, MHSchemaMHAdMatchingFailed, MHSchemaMHAdMatchingStarted, NSData;
+@class MHSchemaMHAdMatchingStarted;
 
 @interface MHSchemaMHVoiceAdBlockerContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAdMatchingStarted *_startedOrChanged;
-    MHSchemaMHAdMatchingEnded *_ended;
-    MHSchemaMHAdMatchingFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)O8�;
 - (void);
 - (_Bool);
 - (void);
@@ -48,14 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAdMatchingEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MHSchemaMHAdMatchingFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAdMatchingStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

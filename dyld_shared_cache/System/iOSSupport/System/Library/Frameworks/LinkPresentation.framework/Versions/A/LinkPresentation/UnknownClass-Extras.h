@@ -5,11 +5,10 @@
 //
 
 @interface UnknownClass (Extras)
-- (_Bool);
-- (_Bool);
+- (_Bool)shouldHideInteractions;
+- (_Bool)shouldHideGroupsDonations;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _lp_prefersDarkInterface;
-@property(nonatomic, readonly) _Bool _lp_prefersHighContrast;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface _CNDonationExtensionLogger
@@ -12,28 +12,21 @@
     NSObject<OS_os_log> *_log_t;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sendMessageCmd:(id)arg1 from:completion: /* Error: Ran out of types for this method. */;
+- (void)_persistentIDString;
+- (void)leteProgress;
+- (void)editedUniversal;
+- (void)tableSet",&,N,V_devCapabilities;
+- (void)s;
+- (void)utableIndexSet",&,N,V_supportedResolutions;
+- (void),&,N,V_supportedDocumentTypes;
+- (void)preferredScaleFactors;
 - (id);
-- (void);
+- (void)r: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log_t; // @synthesize log_t=_log_t;
-@property(readonly) Class superclass;
 
 @end
 

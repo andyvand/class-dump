@@ -12,13 +12,13 @@
 + (unsigned long long);
 + (long long);
 + (_Bool);
-+ (id);
++ (id)�;
 + (_Bool);
-+ (long long);
-+ (id);
++ (long long)showImmediately;
++ (id)NotEqualTo;
++ (_Bool)allbacks;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)_LAMKBUnlockDevice;
 + (_Bool);
 
 @end

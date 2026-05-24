@@ -5,5 +5,8 @@
 //
 
 @protocol UIDragGestureRecognizerDelegate
+
+@optional
+- (_Bool);
 @end
 

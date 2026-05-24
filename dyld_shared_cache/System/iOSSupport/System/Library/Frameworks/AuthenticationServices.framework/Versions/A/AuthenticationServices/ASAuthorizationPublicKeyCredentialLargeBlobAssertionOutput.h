@@ -9,7 +9,6 @@
 @interface ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput
 {
     _Bool _didWrite;
-    NSData *_readData;
 }
 
 + (id);
@@ -19,11 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)dictionaryWithObject:(struct _NSZone *)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didWrite; // @synthesize didWrite=_didWrite;
 @property(readonly, nonatomic) NSData *readData; // @synthesize readData=_readData;
 
 @end

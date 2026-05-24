@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDController, DEDSharingConnection, NSObject;
-@protocol OS_os_log;
+@class DEDController;
 
 @interface DEDSharingInbound
 {
     DEDController *_delegate;
-    DEDSharingConnection *_connection;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);
@@ -20,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)nrecognized key type (%d), ignoring %@;
 - (id);
 - (void);
 - (id);
@@ -28,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property __weak DEDSharingConnection *connection; // @synthesize connection=_connection;
 @property __weak DEDController *delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
 
 @end
 

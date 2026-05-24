@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebFramePrivate
 {
     NakedPtr_9be60511 coreFrame;
-    struct RetainPtr<WebFrameView> webFrameView;
-    struct unique_ptr<WebScriptDebugger, std::default_delete<WebScriptDebugger>> scriptDebugger;
-    struct unique_ptr<WebCore::CaptionUserPreferencesTestingModeToken, std::default_delete<WebCore::CaptionUserPreferencesTestingModeToken>> captionPreferencesTestingModeToken;
-    id internalLoadDelegate;
-    _Bool shouldCreateRenderers;
-    _Bool includedInWebKitStatistics;
-    struct RetainPtr<NSString> url;
-    struct RetainPtr<NSString> provisionalURL;
-    struct WeakPtr<LegacyWebPageInspectorController, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> webPageInspectorController;
 }
 
 - (void);

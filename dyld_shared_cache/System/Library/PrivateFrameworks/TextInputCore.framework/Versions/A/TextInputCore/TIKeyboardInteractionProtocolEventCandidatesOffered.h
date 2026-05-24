@@ -6,7 +6,7 @@
 
 #import <TextInputCore/TIKeyboardInteractionProtocolBase.h>
 
-@class NSString, TIAutocorrectionList;
+@class TIAutocorrectionList;
 
 @interface TIKeyboardInteractionProtocolEventCandidatesOffered : TIKeyboardInteractionProtocolBase
 {
@@ -14,25 +14,18 @@
 }
 
 + (_Bool);
-- (id);
+- (id)TTYShouldBeRealtimePreference;
 - (void);
 - (void);
 - (id);
+- (id)sizeof(SASerializedIndex) * serializedModelLoadedChange->numRequesters);
 - (id);
-- (id);
-- (void);
+- (void)sources",R,N,V_resources;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) TIAutocorrectionList *candidates; // @synthesize candidates=_candidates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

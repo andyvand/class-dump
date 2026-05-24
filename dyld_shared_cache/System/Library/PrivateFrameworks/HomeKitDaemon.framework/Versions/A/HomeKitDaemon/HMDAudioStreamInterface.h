@@ -6,20 +6,12 @@
 
 #import <HomeKitDaemon/HMDStreamInterface.h>
 
-@class NSNumber, NSString;
-@protocol HMDAVCAudioStream, HMDAudioStreamInterfaceDataSource, HMDAudioStreamInterfaceDelegate, HMDPHASEExternalOutputStreamController, HMDPHASESharedEngine;
+@protocol HMDAVCAudioStream;
 
 __attribute__((visibility("hidden")))
 @interface HMDAudioStreamInterface : HMDStreamInterface
 {
     _Bool _streamStarted;
-    id <HMDAudioStreamInterfaceDelegate> _delegate;
-    unsigned long long _audioStreamSetting;
-    id <HMDAVCAudioStream> _audioStream;
-    id <HMDAudioStreamInterfaceDataSource> _dataSource;
-    id <HMDPHASESharedEngine> _engine;
-    id <HMDPHASEExternalOutputStreamController> _outputStreamController;
-    CDUnknownBlockType _stopStreamCompletionHandler;
 }
 
 + (id);
@@ -31,14 +23,14 @@ __attribute__((visibility("hidden")))
 + (id)ûB;
 - (void);
 - (void);
+- (_Bool)public}@;
+- (CDUnknownBlockType)Listener waypoints updated %{private}@;
+- (void)r blocked;
+- (void)ver] Checking blocklist to see if any cached statuses are now blocked...;
+- (void)requested handles have both statues yet;
+- (void)Dictionary"16;
+- (void)on:(id)arg1 ];
 - (_Bool);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -51,21 +43,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)9Ω;
+- (void)omponents";
+- (void)topTierAestheticScoreForTripKeyAsset;
+- (unsigned long long)lock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)- 1.43067655809); 
+  float mix50_400   = mix(c.g, c.b, log10iso*1.10730936496 
+                                           - 1.88128539659); 
+  float mix400_3200 = mix(c.b, c.a, log10iso*1.10730936496 
+                                           - 2.88128539659); 
+  float v = compare(log10iso - 1.69897000434,                     mix10_50,                     compare(log10iso - 2.60205999133,                             mix50_400,                             mix400_3200)); 
+  return vec4(v,v,v,1.0);
+};
+- (id);
 - (void);
 - (id)1Â0@ù
 × ;
@@ -81,24 +80,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) id <HMDAVCAudioStream> audioStream; // @synthesize audioStream=_audioStream;
-@property unsigned long long audioStreamSetting; // @synthesize audioStreamSetting=_audioStreamSetting;
-@property(readonly) id <HMDAudioStreamInterfaceDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDAudioStreamInterfaceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *downlinkToken;
-@property(retain) id <HMDPHASESharedEngine> engine; // @synthesize engine=_engine;
-@property(readonly) unsigned long long hash;
-@property(getter=isMuted) _Bool muted;
-@property(retain) id <HMDPHASEExternalOutputStreamController> outputStreamController; // @synthesize outputStreamController=_outputStreamController;
-@property(copy) CDUnknownBlockType stopStreamCompletionHandler; // @synthesize stopStreamCompletionHandler=_stopStreamCompletionHandler;
-@property _Bool streamStarted; // @synthesize streamStarted=_streamStarted;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSNumber *syncSource;
-@property(readonly) NSNumber *uplinkToken;
 
 @end
 

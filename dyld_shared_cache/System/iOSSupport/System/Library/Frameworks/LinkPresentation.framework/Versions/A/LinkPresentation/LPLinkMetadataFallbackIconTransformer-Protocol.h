@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPImage, LPLinkMetadataPresentationTransformer;
+
 @protocol LPLinkMetadataFallbackIconTransformer
+- (LPImage *)transcriptCollectionView:(LPLinkMetadataPresentationTransformer *)arg1 shouldScrollToHighlightedMessage: /* Error: Ran out of types for this method. */;
 @end
 

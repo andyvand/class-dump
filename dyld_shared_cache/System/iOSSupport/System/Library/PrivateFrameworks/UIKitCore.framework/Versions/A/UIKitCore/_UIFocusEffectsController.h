@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, _UIDynamicValueConvergenceAnimation;
+@class _UIDynamicValueConvergenceAnimation;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusEffectsController
 {
     _UIDynamicValueConvergenceAnimation *_rollbackAnimation;
-    NSHashTable *_observers;
-    struct CGPoint _displayOffset;
-    double _displayMovementAdjustment;
-    _Bool _displayOffsetAccumulatorEnabled;
-    struct CGPoint _currentOffset;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
+- (void)writeInitialSyncCompletedRecordIfNeeded;
+- (struct CGPoint)_resetAccountReplicationSessions;
+- (void)NSDictionary",R,C;
+- (void)TrustKitRelay;
+- (void)ing replication;
 - (_Bool);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)e",R;
 - (id);
-- (void)r:(id)arg1;
+- (void)set_departingParentViewController:(id)arg1;
 - (void);
 - (void)	\;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint currentOffset; // @synthesize currentOffset=_currentOffset;
-@property(readonly, nonatomic) struct CGPoint displayOffset;
-@property(nonatomic) _Bool displayOffsetAccumulatorEnabled; // @synthesize displayOffsetAccumulatorEnabled=_displayOffsetAccumulatorEnabled;
 
 @end
 

@@ -6,35 +6,28 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaMovieMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_genre;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    LPImage *_branding;
-    NSString *_brandingText;
 }
 
-+ (id);
++ (id)startEditingPayloadBypassingValidation:forPlugin:completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)transcriptTypingIndicatorDefaultSize;
+- (void):(id)arg1;
+- (void)transcriptCollectionViewController:(id)arg1 viewedCommSafetyItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 targetAlphaForChatItem: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 didSelectItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 didSelectItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 didRemoveChatItems:associatedChatItems: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 didInsertChatItems:associatedChatItems: /* Error: Ran out of types for this method. */;
+- (_Bool)thisYearDateFormatterNoTime;
+- (id)thinkingDotContainer;
+- (id)thinkingDotColor;
+- (void)y:(CDUnknownBlockType)arg1;
+- (id)supportsCustomizationForLinkPreviewTextAttachment: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -53,21 +46,7 @@
 - (id)ì;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(retain, nonatomic) LPImage *branding; // @synthesize branding=_branding;
-@property(retain, nonatomic) NSString *brandingText; // @synthesize brandingText=_brandingText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

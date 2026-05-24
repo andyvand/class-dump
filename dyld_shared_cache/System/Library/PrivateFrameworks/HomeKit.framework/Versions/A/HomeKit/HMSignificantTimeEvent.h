@@ -6,12 +6,11 @@
 
 #import <HomeKit/HMTimeEvent.h>
 
-@class NSDateComponents, NSString;
+@class NSString;
 
 @interface HMSignificantTimeEvent : HMTimeEvent
 {
     NSString *_significantEvent;
-    NSDateComponents *_offset;
 }
 
 + (id);
@@ -26,15 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (void)AnisetteDataRequest;
+- (void)(;
+- (void)HMEraseAnisetteDataRequest;
 - (id)ity for accessory :%@ / %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *offset; // @synthesize offset=_offset;
 @property(retain, nonatomic) NSString *significantEvent; // @synthesize significantEvent=_significantEvent;
 
 @end

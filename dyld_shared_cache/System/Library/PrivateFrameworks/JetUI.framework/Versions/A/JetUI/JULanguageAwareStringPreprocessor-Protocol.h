@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol JULanguageAwareStringPreprocessor
+
+@optional
+- (NSString *).j;
 @end
 

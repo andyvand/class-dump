@@ -6,23 +6,16 @@
 
 #import <ChatKit/ChatKit.TapbackView.h>
 
-@protocol CKTapbackViewDelegate;
-
 @interface ChatKit.TapbackEmojiKeyboardGlyphView : ChatKit.TapbackView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    _Bool isSelected;
-    void delegate;
-    id contentView;
-    id horizontalOffset;
 }
 
-- (struct UIEdgeInsets);
-- (void);
-- (void);
+- (struct UIEdgeInsets)guessesForWordRange:inString:language:inSpellDocumentWithTag: /* Error: Ran out of types for this method. */;
+- (void)filterSelectionWithManagedObjectContext:account: /* Error: Ran out of types for this method. */;
+- (void)tartPoint;
 - (double);
-- (void);
+- (void)oned in a table;
 - (void);
 - (id);
 - (id);
@@ -34,9 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

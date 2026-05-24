@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaControlInfoGenerator
 {
     unsigned int _type;
-    struct __CFDictionary *_callbacksDict;
-    NSMutableArray *_controlInfoPool;
-    struct _opaque_pthread_mutex_t _controlInfoPoolLock;
-    unsigned char _version;
-    unsigned char _fecFeedbackVersion;
-    unsigned int _optionBitmap;
-    struct _opaque_pthread_rwlock_t _callbackDictLock;
 }
 
 - (void);
 - (int);
 - (unsigned long long);
-- (unsigned char);
+- (unsigned char)qa;
 - (int);
 - (int);
 - (id);
 - (void);
 - (unsigned char);
-- (unsigned int);
+- (unsigned int)set property %@ failed, caching;
 
 // Remaining properties
-@property unsigned char fecFeedbackVersion; // @synthesize fecFeedbackVersion=_fecFeedbackVersion;
 @property(readonly) unsigned int type; // @synthesize type=_type;
-@property(readonly) unsigned char version; // @synthesize version=_version;
 
 @end
 

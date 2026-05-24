@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface PKDrawingOverlayCache
 {
     NSCache *_memoryCache;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
-+ (id);
++ (id)p";
 - (void);
 - (void);
 - (void);
@@ -24,11 +22,10 @@
 - (void);
 - (void)Qßð1Â0@ù
 × ;
-- (id)ariant:weight: /* Error: Ran out of types for this method. */;
-- (id)ared_ptr_pointerIP24PKStrokePathPointsSharedNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
+- (id)initWithUncheckedIdentifier:color:version:variant:weight: /* Error: Ran out of types for this method. */;
+- (id)NSt3__120__shared_ptr_pointerIP24PKStrokePathPointsSharedNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(retain, nonatomic) NSCache *memoryCache; // @synthesize memoryCache=_memoryCache;
 
 @end

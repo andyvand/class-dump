@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFFieldDetectSession, NSHashTable, NSObject, NSString, PKFieldProperties, PKFieldPropertiesProbe;
-@protocol OS_dispatch_queue, PKFieldDetectorDelegate;
+@class NFFieldDetectSession, PKFieldProperties;
 
 @interface PKFieldDetector
 {
     NFFieldDetectSession *_fieldDetectSession;
-    unsigned long long _fieldDetectSessionRetryCount;
-    _Bool _fieldDetectSessionRequested;
-    _Bool _nfcRadioEnabled;
-    struct os_unfair_lock_s _lock;
-    NSHashTable *_observers;
-    unsigned long long _enablePersistentFieldDetectionReasons;
-    PKFieldProperties *_fieldProperties;
-    PKFieldPropertiesProbe *_fieldPropertiesProbe;
-    NSObject<OS_dispatch_queue> *_fieldDetectorSerialQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    id <PKFieldDetectorDelegate> _delegate;
 }
 
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -31,31 +19,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)h;
+- (void)%;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)lPasswordEntry: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)setShowingExternalPasswordEntry: /* Error: Ran out of types for this method. */;
 - (void)2;
 - (void)fiers:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKFieldDetectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak PKFieldProperties *fieldProperties;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

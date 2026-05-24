@@ -13,12 +13,12 @@
     _UIPencilHoverState *_hoverState;
 }
 
-+ (id);
++ (id)R;
 - (id);
 - (id);
 - (double);
-- (id);
-- (void)try;
+- (id)opertyArtistCleanDownloadedSongCount;
+- (void)SDFElementContainerRegistry;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPencilHoverState *_hoverState;

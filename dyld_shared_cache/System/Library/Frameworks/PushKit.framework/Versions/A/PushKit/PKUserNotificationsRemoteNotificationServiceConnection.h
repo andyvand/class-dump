@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface PKUserNotificationsRemoteNotificationServiceConnection
 {
     NSMutableSet *_registries;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
-    NSString *_bundleIdentifier;
 }
 
 + (id);
 - (id);
+- (id)y are supported unless 8 bit doesn't compress.;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);
@@ -39,22 +34,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ring",&,N,V_originalHost;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callOutQueue; // @synthesize callOutQueue=_callOutQueue;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) NSMutableSet *registries; // @synthesize registries=_registries;
-@property(readonly) Class superclass;
 
 @end
 

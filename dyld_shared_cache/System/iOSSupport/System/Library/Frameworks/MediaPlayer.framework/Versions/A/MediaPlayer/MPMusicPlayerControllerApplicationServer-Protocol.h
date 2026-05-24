@@ -5,5 +5,9 @@
 //
 
 @protocol MPMusicPlayerControllerApplicationServer
+- (void);
+- (void);
+- (void)overridingNotSet;
+- (void)N;
 @end
 

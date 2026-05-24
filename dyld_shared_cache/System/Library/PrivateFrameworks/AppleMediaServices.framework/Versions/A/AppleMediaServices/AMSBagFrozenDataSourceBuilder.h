@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagFrozenDataSourceBuilder
 {
     NSDictionary *_data;
-    NSDictionary *_defaultValues;
-    NSDate *_expirationDate;
-    NSString *_profile;
-    NSString *_profileVersion;
-    AMSProcessInfo *_processInfo;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)requestPlaybackState;
 - (id);
 - (id);
 - (id);
@@ -42,11 +37,6 @@ A}is:,tÙICÿ¡:.@ötþØÞ~¨b|÷åª#R§"µ©E¦hi*¦1]�
 
 // Remaining properties
 @property(retain) NSDictionary *data; // @synthesize data=_data;
-@property(retain) NSDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property(retain) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
-@property(retain) NSString *profile; // @synthesize profile=_profile;
-@property(retain) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
 
 @end
 

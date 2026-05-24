@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, VCVideoStreamRateControlProtocol;
+@protocol VCVideoStreamRateControlProtocol;
 
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamRateController
 {
     id <VCVideoStreamRateControlProtocol> _rateControl;
-    int _algorithm;
-    unsigned short _maxTierIndex;
-    unsigned short _minTierIndex;
-    unsigned short _operatingTierIndex;
-    unsigned int _minBitrate;
-    unsigned int _maxBitrate;
-    unsigned int _targetBitrate;
-    double _rateControlTime;
-    double _rateControlInterval;
-    unsigned int _previousRTPTimestamp;
-    unsigned int _averageTargetBitrate;
-    unsigned long long _accumulatedTargetDataSize;
-    double _totalTime;
-    double _videoFrozenDuration;
-    _Bool _didVideoStall;
-    void *_logDump;
-    NSObject<OS_dispatch_queue> *_videoStreamRateControllerQueue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -42,24 +24,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short);
 - (void);
 - (void);
 - (id);
 - (double);
-- (unsigned int);
+- (unsigned int)";
 - (unsigned int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int maxBitrate; // @synthesize maxBitrate=_maxBitrate;
 @property(readonly, nonatomic) unsigned int minBitrate; // @synthesize minBitrate=_minBitrate;
-@property(readonly, nonatomic) double nowrd;
-@property(readonly, nonatomic) double nowrdAcc;
-@property(readonly, nonatomic) double nowrdShort;
-@property(readonly, nonatomic) double owrd;
-@property(readonly, nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MapsSupport/MSPMutableHistoryEntry.h>
 
-@class GEOMapRegion, NSDate, NSString;
+@class NSString;
 
 @interface MSPMutableHistoryEntrySearch : MSPMutableHistoryEntry
 {
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool),;
 - (id);
 - (void);
 - (id);
@@ -29,19 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *languageCode;
-@property(copy, nonatomic) NSString *locationDisplayString;
-@property(copy, nonatomic) GEOMapRegion *mapRegion;
 @property(copy, nonatomic) NSString *query;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool tracksRAPReportingOnly;
-@property(readonly, copy, nonatomic) NSDate *usageDate;
 
 @end
 

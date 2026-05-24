@@ -4,53 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSXPCListener, SUPowerAssertionManager, SUProduct;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSXPCListener;
 
 @interface SUUpdateServiceDaemon
 {
     NSXPCListener *_listener;
-    NSMutableArray *_clients;
-    NSMutableArray *_availableUpdates;
-    SUProduct *_adoptedManualProduct;
-    NSMutableSet *_approvedStashingTokens;
-    SUPowerAssertionManager *_powerAssertionManager;
-    NSMutableArray *_additionalPostLogoutInstallRequests;
-    NSMutableDictionary *_productsInstalledAfterPostLogoutInstallDictionary;
-    NSMutableDictionary *_additionalPackageDigestsByURL;
-    NSObject<OS_dispatch_queue> *_serviceQueue;
-    NSObject<OS_dispatch_queue> *_updateInfoQueue;
-    NSObject<OS_dispatch_queue> *_clientNotifyQueue;
-    NSObject<OS_dispatch_queue> *_backgroundActivityQueue;
-    NSObject<OS_dispatch_queue> *_saveStateQueue;
-    long long _retriesForBackgroundActivity;
-    _Bool _postLogoutInstallWillHaveFLO;
-    _Bool _saveStateScheduled;
-    _Bool _restartingForDoItLaterUpdate;
-    NSObject<OS_dispatch_source> *_suspendWatchdogTimer;
 }
 
-+ (id);
++ (id)̿;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Vg;
 - (void);
+- (void);
 - (void);
+- (void)h;
 - (void);
+- (void);
 - (void);
+- (void);
+- (void)&;
+- (void)~;
+- (void)p;
+- (void)V;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -74,6 +70,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,51 +80,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ShF;
+- (void);
 - (id);
 - (id);
 - (void);
+- (void)Y;
+- (id);
+- (void)^;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

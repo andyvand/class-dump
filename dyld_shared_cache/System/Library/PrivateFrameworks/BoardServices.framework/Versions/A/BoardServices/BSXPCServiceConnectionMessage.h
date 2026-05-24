@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceDispatchQueue, BSServiceQueue, NSString;
-@protocol BSXPCServiceConnectionHandshake, BSXPCServiceConnectionMessageDelegate;
+@protocol BSXPCServiceConnectionHandshake;
 
 @interface BSXPCServiceConnectionMessage
 {
     id <BSXPCServiceConnectionHandshake> _handshake;
-    id <BSXPCServiceConnectionMessageDelegate> _delegate;
-    int _sendFlag;
-    _Bool _batchable;
-    _Bool _notification;
-    unsigned int _activationGeneration;
-    BSServiceDispatchQueue *_targetQueue;
-    CDUnknownBlockType _completion;
-    BSServiceQueue *_replyQueue;
 }
 
 - (id);
@@ -25,18 +16,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)setSources:(out id *)arg1;
 - (void);
 - (_Bool)not allowed on BSXPCServiceConnectionPeer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,13 @@
 //
 
 @protocol RPDaemonProtocol
+- (oneway void);
+- (oneway void)9Z#;
+
+@optional
+- (oneway void)!;
+- (oneway void)@9Z#;
+- (oneway void);
+- (oneway void)";
 @end
 

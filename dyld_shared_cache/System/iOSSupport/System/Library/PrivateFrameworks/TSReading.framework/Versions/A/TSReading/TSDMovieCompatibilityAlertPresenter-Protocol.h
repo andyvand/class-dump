@@ -5,5 +5,7 @@
 //
 
 @protocol TSDMovieCompatibilityAlertPresenter
+- (void)ndingAction"8Q16^B24;
+- (void)ackCore.MPCQueueControllerBehaviorMusicSharePlay;
 @end
 

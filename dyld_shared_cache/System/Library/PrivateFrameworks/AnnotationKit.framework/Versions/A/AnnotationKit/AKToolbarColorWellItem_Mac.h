@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPopoverColorWell, NSButton, NSImageView, NSLayoutConstraint, NSString;
-@protocol AKToolbarColorWellItem_Mac_Delegate;
+@class AKPopoverColorWell, NSLayoutConstraint;
 
 @interface AKToolbarColorWellItem_Mac
 {
     NSLayoutConstraint *_buttonWidthConstraint;
-    NSLayoutConstraint *_buttonHeightConstraint;
-    NSLayoutConstraint *_pulldownIndicatorWidthConstraint;
-    NSImageView *_pulldownIndicatorView;
-    NSButton *_highlightButton;
-    long long _tag;
-    _Bool _enabled;
-    AKPopoverColorWell *_colorWell;
-    unsigned long long _displayMode;
-    id <AKToolbarColorWellItem_Mac_Delegate> _colorWellDelegate;
 }
 
 - (void);
@@ -30,23 +20,18 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (long long);
-- (void);
+- (_Bool);
+- (long long);
+- (void)textangent;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__auth_stubs;
 - (void)
 × ;
-- (void)ing;
+- (void)fillColorHDRString;
 
 // Remaining properties
 @property(retain) AKPopoverColorWell *colorWell; // @synthesize colorWell=_colorWell;
-@property(nonatomic) __weak id <AKToolbarColorWellItem_Mac_Delegate> colorWellDelegate; // @synthesize colorWellDelegate=_colorWellDelegate;
-@property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property long long tag;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

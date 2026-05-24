@@ -6,8 +6,6 @@
 
 #import <UserManagement/UMUserPersona.h>
 
-@class NSString;
-
 @interface UMUserMutablePersona : UMUserPersona
 {
 }
@@ -16,18 +14,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned int gid; // @dynamic gid;
-@property(nonatomic) _Bool isDataSeparatedPersona; // @dynamic isDataSeparatedPersona;
-@property(nonatomic) _Bool isDefaultPersona; // @dynamic isDefaultPersona;
-@property(nonatomic) _Bool isDisabled; // @dynamic isDisabled;
-@property(nonatomic) _Bool isEnterprisePersona; // @dynamic isEnterprisePersona;
-@property(nonatomic) _Bool isGuestPersona; // @dynamic isGuestPersona;
-@property(nonatomic) _Bool isPersonalPersona; // @dynamic isPersonalPersona;
-@property(nonatomic) _Bool isSystemPersona; // @dynamic isSystemPersona;
 @property(nonatomic) unsigned int uid; // @dynamic uid;
-@property(copy, nonatomic) NSString *userPersonaNickName; // @dynamic userPersonaNickName;
-@property(nonatomic) unsigned long long userPersonaType; // @dynamic userPersonaType;
-@property(copy, nonatomic) NSString *userPersonaUniqueString; // @dynamic userPersonaUniqueString;
 
 @end
 

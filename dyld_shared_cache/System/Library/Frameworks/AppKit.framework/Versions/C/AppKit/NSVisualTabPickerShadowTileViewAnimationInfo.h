@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerShadowTileViewAnimationInfo
 {
     CALayer *_layerForAnimation;
-    NSString *_animationKey;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)AddObserver;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *animationKey; // @synthesize animationKey=_animationKey;
 @property(readonly, nonatomic) CALayer *layerForAnimation; // @synthesize layerForAnimation=_layerForAnimation;
 
 @end

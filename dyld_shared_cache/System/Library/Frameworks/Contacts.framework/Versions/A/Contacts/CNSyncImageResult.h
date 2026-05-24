@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface CNSyncImageResult
 {
     unsigned long long _type;
-    NSData *_imageData;
-    NSData *_imageHash;
-    struct CGRect _cropRect;
 }
 
 - (id);
@@ -21,12 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1Â0@ù
 × ;
-- (struct CGRect)stDescription;
+- (struct CGRect)CNDowntimeWhitelistDescription;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, nonatomic) NSData *imageHash; // @synthesize imageHash=_imageHash;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

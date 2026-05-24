@@ -7,8 +7,6 @@
 @interface NewsUI2.FollowerAdSegmentProvider
 {
     id needsUpdate;
-    id tagService;
-    id subscriptionService;
 }
 
 @end

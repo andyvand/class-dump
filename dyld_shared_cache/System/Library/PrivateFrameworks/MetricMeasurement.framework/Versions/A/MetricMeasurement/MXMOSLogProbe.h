@@ -6,7 +6,7 @@
 
 #import <MetricMeasurement/MXMProbe.h>
 
-@class NSString, OSActivityStream;
+@class OSActivityStream;
 
 @interface MXMOSLogProbe : MXMProbe
 {
@@ -17,22 +17,16 @@
 + (id);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)[m;
 - (void);
-- (id);
+- (id)+p;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

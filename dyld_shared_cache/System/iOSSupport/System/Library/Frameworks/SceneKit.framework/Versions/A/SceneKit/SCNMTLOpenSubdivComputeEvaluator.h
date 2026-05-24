@@ -10,7 +10,8 @@ __attribute__((visibility("hidden")))
     struct MTLComputeEvaluator *_computeEvaluator;
 }
 
-- (void);
+- (void)(
+;
 
 @end
 

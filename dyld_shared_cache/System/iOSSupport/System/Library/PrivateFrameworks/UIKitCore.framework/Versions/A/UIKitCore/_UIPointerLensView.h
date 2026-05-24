@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _UIPointerLensView : UIView
 {
     id flexInteraction;
-    id warpBackdrop;
-    id element;
 }
 
-- (void);
+- (void),&,N,V_tableRow;
 - (id);
 - (void);
-- (struct CGRect)ht: /* Error: Ran out of types for this method. */;
-- (double)ownAudioFeedback: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setPaddingRight: /* Error: Ran out of types for this method. */;
+- (double)setClickDownAudioFeedback: /* Error: Ran out of types for this method. */;
 - (void)kingEnabled;
-- (id)ViewCountView;
+- (id)UITableViewCountView;
 - (void)øKl;
 
 // Remaining properties

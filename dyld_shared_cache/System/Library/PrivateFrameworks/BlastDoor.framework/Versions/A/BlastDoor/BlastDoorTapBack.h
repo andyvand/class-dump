@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTapBack_MessageSummaryInfo, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorTapBack
 {
@@ -14,23 +14,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (struct _NSRange);
-- (id);
+- (id)BrowserTransitionCoordinator"16q24q32;
+- (long long)UIEdgeInsets=dddd}16;
+- (struct _NSRange)nscriptOverlayTransitionContext"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)"CKChatItem"16@"NSString"24B32d36q44;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageFallbackHash;
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
-@property(nonatomic, readonly) long long associatedMessageType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorTapBack_MessageSummaryInfo *messageSummaryInfo;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) NSString *plainTextBody;
 
 @end
 

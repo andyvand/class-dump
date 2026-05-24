@@ -6,17 +6,15 @@
 
 #import <ProactiveML/PMLAWDBaseTracker.h>
 
-@class AWDServerConnection;
 @protocol PMLAWDMetricQueryDelegate;
 
 @interface PMLAWDAvailableSessionsTracker : PMLAWDBaseTracker
 {
     id <PMLAWDMetricQueryDelegate> _delegate;
-    AWDServerConnection *_awdServerConnection;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

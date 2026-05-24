@@ -5,7 +5,10 @@
 //
 
 @protocol SPKCoreParsecInterfaceProtocol
-- (double)r;
++ (id)A;
+- (void);
+- (void)*;
+- (double)_ranker;
 - (void)NSString"8@"NSArray"16@"NSArray"24;
 @end
 

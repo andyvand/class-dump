@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoute, MPNowPlayingInfoAudioFormat, MPNowPlayingInfoAudioRoute, NSDictionary, NSString;
-
 @interface MPCPlayerAudioRoute
 {
     _Bool _supportsSpatialization;
-    _Bool _isSpatializationEnabled;
-    _Bool _canStreamSpatial;
-    _Bool _canRenderSpatial;
-    long long _type;
-    NSString *_name;
-    MPAVRoute *_pickedRoute;
-    MPNowPlayingInfoAudioFormat *_nowPlayingAudioFormat;
-    long long _multiChannelSupport;
 }
 
-+ (id);
++ (id)vr;
 - (id);
 - (long long);
 - (id);
@@ -42,25 +32,7 @@
 - (void)ic}@ %2i %{public}@ô SHARED SESSION SYNC END    %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canRenderSpatial; // @synthesize canRenderSpatial=_canRenderSpatial;
-@property(readonly, nonatomic) _Bool canStreamSpatial; // @synthesize canStreamSpatial=_canStreamSpatial;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *humanDescription;
-@property(readonly, nonatomic) _Bool isSpatializationEnabled; // @synthesize isSpatializationEnabled=_isSpatializationEnabled;
-@property(readonly, nonatomic) long long multiChannelSupport; // @synthesize multiChannelSupport=_multiChannelSupport;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) MPNowPlayingInfoAudioFormat *nowPlayingAudioFormat; // @synthesize nowPlayingAudioFormat=_nowPlayingAudioFormat;
-@property(readonly, nonatomic) MPNowPlayingInfoAudioRoute *nowPlayingAudioRoute;
-@property(readonly, nonatomic) MPAVRoute *pickedRoute; // @synthesize pickedRoute=_pickedRoute;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsSpatialization; // @synthesize supportsSpatialization=_supportsSpatialization;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

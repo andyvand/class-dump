@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface VCXPCConnection
 {
     NSObject<OS_xpc_object> *_connection;
-    int _pid;
-    id context;
-    NSData *tokenData;
-    NSObject<OS_os_transaction> *_transaction;
-    _Bool _isPersistent;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    NSObject<OS_dispatch_queue> *_timeoutTimerQueue;
-    struct OpaqueFigCFWeakReferenceHolder *_timeoutTimerContext;
-    NSString *_lastCalledApiName;
-    _Bool _timeoutTimerStarted;
 }
 
 + (void);
+- (void)qH;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)4@;
 - (void);
 - (void);
 - (void);
 - (int);
 - (id);
+- (id);
+- (void);
+- (id)IL;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)fB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}40^{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}48^{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}56@64;
 - (void);
 - (void);
 - (void)ics as directed by the storebag settings;
@@ -46,11 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *connection;
-@property(retain, nonatomic) id context; // @synthesize context;
-@property(retain, nonatomic) NSString *lastCalledApiName; // @synthesize lastCalledApiName=_lastCalledApiName;
-@property(getter=isPersistent) _Bool persistent;
-@property int pid;
-@property(retain, nonatomic) NSData *tokenData; // @synthesize tokenData;
 
 @end
 

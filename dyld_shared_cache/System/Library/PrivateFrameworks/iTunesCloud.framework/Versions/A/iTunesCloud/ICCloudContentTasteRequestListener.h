@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICCloudContentTasteRequestListener
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSXPCConnection *_xpcConnection;
 }
 
-+ (id);
++ (id)aGroupStagingManager"16@"NSUUID"24;
 - (void);
 - (void);
 - (void);
@@ -24,12 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)e=QQ}16;
+- (void)24@0:(long long)arg1 8q16;
+- (void)me"32@0:(long long)arg1 8@"HMAccessorySettingsController"16@"NSUUID"24;
+- (void)HEVC"b1"supportsDedicatedStatusChannel"b1};
+- (void)upportsHomeActivityState"b1"supportsUWBUnlock"b1"supportsNativeMatterPlugin"b1"supportsHKSV3"b1"supportsHEVC"b1"supportsDedicatedStatusChannel"b1};
+- (id);
 - (id);
 - (void)¬ì0;
 

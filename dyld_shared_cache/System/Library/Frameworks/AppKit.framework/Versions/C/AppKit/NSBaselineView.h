@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSView *_realBaselineView;
 }
 
-+ (id);
++ (id)ol version;
 - (void);
+- (id)_tcpConnectionPoolName;
 - (id);
-- (id);
-- (id);
+- (id)background transfer daemon, and will not try to reconnect;
 - (void)&|vG;
 
 // Remaining properties

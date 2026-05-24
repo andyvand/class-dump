@@ -7,20 +7,6 @@
 @interface AppStoreKit.Video
 {
     id videoUrl;
-    id preview;
-    id allowsAutoPlay;
-    id looping;
-    id canPlayFullScreen;
-    id playbackControls;
-    id autoPlayPlaybackControls;
-    id playbackId;
-    id templateMediaEvent;
-    id templateClickEvent;
-    id editorialMediaFlavor;
-    id editorialMediaPlacement;
-    id id;
-    id segue;
-    id impressionMetrics;
 }
 
 @end

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CMSchemaCMSearchFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
@@ -25,13 +22,11 @@
 - (void);
 - (id);
 - (id)onContext";
-- (id)ExprSearchVariant;
+- (id)IFTSchemaASTFlatExprSearchVariant;
 - (id)ä¤,¥`§¨;
 - (void)ü@Áÿ?YµÉ$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

@@ -6,30 +6,11 @@
 
 #import <Mail/MFEWSTask.h>
 
-@class MFEWSAccount, MFEWSDeleteMailboxTaskOperation, MFEWSMailboxReconcileTaskOperation, MFEWSPersistMessageMetadataOperation, MFMailbox, NSMutableArray, NSMutableDictionary, NSMutableSet, NSProgress, NSString;
-@protocol MFEWSMailboxDataCache;
+@class MFEWSMailboxReconcileTaskOperation, NSString;
 
 @interface MFEWSMailboxSyncTask : MFEWSTask
 {
     MFEWSMailboxReconcileTaskOperation *_reconcileOperation;
-    MFEWSPersistMessageMetadataOperation *_persistMetadataOperation;
-    NSMutableArray *_batchesNeedingFetch;
-    NSMutableSet *_currentFetchOperations;
-    NSMutableDictionary *_batchesToPersistByInitialSyncState;
-    _Bool _userInitiated;
-    _Bool _needsDelete;
-    _Bool _foundNewUnreadInboxMessage;
-    _Bool _isPrimaryMailbox;
-    _Bool _isInitialSync;
-    _Bool _needToPersistInitialSync;
-    MFMailbox *_mailbox;
-    NSString *_folderIDString;
-    id <MFEWSMailboxDataCache> _mailboxDataCache;
-    NSString *_syncStateToReconcile;
-    NSString *_syncStateToPersist;
-    MFEWSDeleteMailboxTaskOperation *_deleteMailboxOperation;
-    NSProgress *_checkProgress;
-    MFEWSAccount *_account;
 }
 
 - (id);
@@ -45,16 +26,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)�;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -62,16 +43,16 @@
 - (id);
 - (id);
 - (void);
+- (void)@9(;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)mediaStreamEnabled;
 - (id);
 - (id);
 - (void);
@@ -82,29 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSProgress *checkProgress; // @synthesize checkProgress=_checkProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MFEWSDeleteMailboxTaskOperation *deleteMailboxOperation; // @synthesize deleteMailboxOperation=_deleteMailboxOperation;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *folderIDString; // @synthesize folderIDString=_folderIDString;
-@property(nonatomic) _Bool foundNewUnreadInboxMessage; // @synthesize foundNewUnreadInboxMessage=_foundNewUnreadInboxMessage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInitialSync; // @synthesize isInitialSync=_isInitialSync;
-@property(nonatomic) _Bool isPrimaryMailbox; // @synthesize isPrimaryMailbox=_isPrimaryMailbox;
-@property(readonly, nonatomic) MFMailbox *mailbox; // @synthesize mailbox=_mailbox;
-@property(nonatomic) __weak id <MFEWSMailboxDataCache> mailboxDataCache; // @synthesize mailboxDataCache=_mailboxDataCache;
-@property(nonatomic) _Bool needToPersistInitialSync; // @synthesize needToPersistInitialSync=_needToPersistInitialSync;
-@property(nonatomic) _Bool needsDelete; // @synthesize needsDelete=_needsDelete;
-@property(retain, nonatomic) MFEWSPersistMessageMetadataOperation *persistMetadataOperation;
-@property(retain, nonatomic) MFEWSMailboxReconcileTaskOperation *reconcileOperation;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *syncStateToPersist; // @synthesize syncStateToPersist=_syncStateToPersist;
 @property(copy, nonatomic) NSString *syncStateToReconcile; // @synthesize syncStateToReconcile=_syncStateToReconcile;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
++ (id)=;
 + (void);
 + (id);
-+ (void)¨Xøiûð)ñEù)@ù?ëa;
-+ (id);
++ (void);
++ (id)iV;
 + (double);
 
 @end

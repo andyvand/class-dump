@@ -5,5 +5,7 @@
 //
 
 @protocol WebDocumentRepresentation
+- (void);
+- (void)_|;
 @end
 

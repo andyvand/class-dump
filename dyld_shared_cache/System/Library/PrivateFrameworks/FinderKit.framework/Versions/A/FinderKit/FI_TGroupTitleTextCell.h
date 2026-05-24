@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
+- (void)setAccountsFilterGroup:(id)arg1;
+- (_Bool)removeHeightAtIndex:(id)arg1;
 
 @end
 

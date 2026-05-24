@@ -9,15 +9,12 @@
 @interface CalDAVCalendarServerAllowedSharingModesItem
 {
     CoreDAVItemWithNoChildren *_canBePublished;
-    CoreDAVItemWithNoChildren *_canBeShared;
-    CoreDAVItemWithNoChildren *_isMarkedUndeletable;
-    CoreDAVItemWithNoChildren *_isMarkedImmutableSharees;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1;
 - (void);
 - (id);
 - (void);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *canBePublished; // @synthesize canBePublished=_canBePublished;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *canBeShared; // @synthesize canBeShared=_canBeShared;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *isMarkedImmutableSharees; // @synthesize isMarkedImmutableSharees=_isMarkedImmutableSharees;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *isMarkedUndeletable; // @synthesize isMarkedUndeletable=_isMarkedUndeletable;
 
 @end
 

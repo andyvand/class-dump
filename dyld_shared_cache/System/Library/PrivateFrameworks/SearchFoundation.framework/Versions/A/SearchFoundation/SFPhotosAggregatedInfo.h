@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFPhotosAggregatedInfo
 {
     struct {
@@ -13,9 +11,6 @@
         unsigned int totalNumberOfEmbeddingMatchedAssets:1;
         unsigned int totalNumberOfMetadataMatchedAssets:1;
     } _has;
-    int _totalNumberOfAssets;
-    int _totalNumberOfEmbeddingMatchedAssets;
-    int _totalNumberOfMetadataMatchedAssets;
 }
 
 + (_Bool);
@@ -28,28 +23,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setStartTime:(id)arg1 forItemWithPlayParameters: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)PHPhotosErrorLibraryTooNew;
+- (id)@), behavior:(struct _NSZone *)arg1 (%@);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) int totalNumberOfAssets; // @synthesize totalNumberOfAssets=_totalNumberOfAssets;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets; // @synthesize totalNumberOfEmbeddingMatchedAssets=_totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets; // @synthesize totalNumberOfMetadataMatchedAssets=_totalNumberOfMetadataMatchedAssets;
 
 @end
 

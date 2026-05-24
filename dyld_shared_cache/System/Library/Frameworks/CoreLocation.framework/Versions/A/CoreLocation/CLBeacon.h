@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLBeaconInternal, NSDate, NSNumber, NSUUID;
+@class CLBeaconInternal, NSDate;
 
 @interface CLBeacon
 {
@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e.GameCenterMessageExtension;
 - (id);
 - (double);
 - (id);
@@ -25,19 +25,12 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)populateDefaultLoggerCache:(struct _NSZone *)arg1 subsystem:category: /* Error: Ran out of types for this method. */;
+- (void)KERNEL_INDEX_COPY_MTL_BVH_GEOMETRIES;
 - (int);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *UUID;
-@property(readonly, nonatomic) double accuracy;
-@property(readonly, copy, nonatomic) NSNumber *major;
-@property(readonly, copy, nonatomic) NSNumber *minor;
-@property(readonly, nonatomic) long long proximity;
-@property(readonly, copy, nonatomic) NSUUID *proximityUUID;
-@property(readonly, nonatomic) long long rssi;
 @property(readonly, copy, nonatomic) NSDate *timestamp;
 
 @end

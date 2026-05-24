@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)moveSecureAudioCaptureFrom:withExclaveTimestamp: /* Error: Ran out of types for this method. */;
++ (id)_moveSecureAudioCaptureFrom:withExclaveTimestamp: /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (id);
 

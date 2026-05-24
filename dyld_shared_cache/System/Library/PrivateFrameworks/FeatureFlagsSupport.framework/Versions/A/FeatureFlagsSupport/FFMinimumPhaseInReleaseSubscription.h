@@ -11,23 +11,21 @@
 @interface FFMinimumPhaseInReleaseSubscription : FFSubscription
 {
     NSString *_targetRelease;
-    NSString *_minimumPhase;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
++ (id)getting count of DetectedFace with predicate %@:(id)arg1 %@;
++ (id)r fetching faces:(id)arg1 %@;
+- (id)FigDecoder - Failed to read gain map average pixel luminance;
+- (id)ailed to read aux image orientation, default to Up, %ld;
+- (id)%d;
+- (_Bool)p;
+- (_Bool)d;
+- (_Bool)PHFigDecoder - failed sync decode of gain map:(id)arg1 %@, status code:(id)arg2 %d;
+- (id)ecode of gain map, invalid parameter, options:(id)arg1 %@;
+- (id)led sync decode of image:%@, status code:%d /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *minimumPhase; // @synthesize minimumPhase=_minimumPhase;
 @property(readonly, nonatomic) NSString *targetRelease; // @synthesize targetRelease=_targetRelease;
 
 @end

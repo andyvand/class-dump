@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutocompleteSessionData, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _GEOPlaceSearchCompletion
 {
     NSArray *_groups;
-    GEOAutocompleteSessionData *_sessionData;
 }
 
 - (id);
@@ -19,15 +18,7 @@ __attribute__((visibility("hidden")))
 - (id)¦»BAK«!qP@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *groups; // @synthesize groups=_groups;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEOAutocompleteSessionData *sessionData; // @synthesize sessionData=_sessionData;
-@property(readonly) Class superclass;
 
 @end
 

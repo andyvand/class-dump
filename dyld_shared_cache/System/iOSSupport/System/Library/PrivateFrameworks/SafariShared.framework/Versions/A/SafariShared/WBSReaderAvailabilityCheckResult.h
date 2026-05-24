@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSURL;
-
 @interface WBSReaderAvailabilityCheckResult
 {
     _Bool _readerAvailable;
-    _Bool _dominantContentIframe;
-    _Bool _isSameDocumentNavigation;
-    _Bool _doesPageUseSearchEngineOptimizationMetadata;
-    NSArray *_textSamples;
-    NSURL *_canonicalURL;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (void)";
+- (void);
+- (_Bool)onServices_Private.__ASPasswordSavingModalState;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)edLegacyTLSHosts;
+- (void)allowedLegacyTLSHosts;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *canonicalURL; // @synthesize canonicalURL=_canonicalURL;
-@property(readonly, nonatomic) NSDictionary *combinedMetadataForTests;
-@property(nonatomic) _Bool doesPageUseSearchEngineOptimizationMetadata; // @synthesize doesPageUseSearchEngineOptimizationMetadata=_doesPageUseSearchEngineOptimizationMetadata;
-@property(nonatomic, getter=hasDominantContentIframe) _Bool dominantContentIframe; // @synthesize dominantContentIframe=_dominantContentIframe;
-@property(nonatomic) _Bool isSameDocumentNavigation; // @synthesize isSameDocumentNavigation=_isSameDocumentNavigation;
 @property(nonatomic, getter=isReaderAvailable) _Bool readerAvailable; // @synthesize readerAvailable=_readerAvailable;
-@property(copy, nonatomic) NSArray *textSamples; // @synthesize textSamples=_textSamples;
 
 @end
 

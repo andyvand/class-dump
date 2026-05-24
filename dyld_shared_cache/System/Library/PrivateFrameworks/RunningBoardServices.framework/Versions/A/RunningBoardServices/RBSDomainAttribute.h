@@ -11,8 +11,6 @@
 @interface RBSDomainAttribute : RBSAttribute
 {
     NSString *_domain;
-    NSString *_name;
-    NSString *_sourceEnvironment;
 }
 
 + (id);
@@ -20,9 +18,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *fullyQualifiedName;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *sourceEnvironment; // @synthesize sourceEnvironment=_sourceEnvironment;
 
 @end
 

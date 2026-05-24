@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
-
 @interface SAFanSpeed
 {
     int _fanSpeed;
-    SATimestamp *_timestamp;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityCustomContents;
 - (int);
 - (_Bool);
 - (id);
@@ -27,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) int fanSpeed; // @synthesize fanSpeed=_fanSpeed;
-@property(readonly) _Bool fanSpeedIsValid;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) SATimestamp *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

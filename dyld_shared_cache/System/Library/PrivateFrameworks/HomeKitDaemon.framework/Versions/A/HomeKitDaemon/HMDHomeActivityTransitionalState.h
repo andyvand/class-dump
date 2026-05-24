@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSDate *_transitionalStateEndDate;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void)ving peer %{public}@;
+- (void);
 - (void)HH2;
 
 // Remaining properties

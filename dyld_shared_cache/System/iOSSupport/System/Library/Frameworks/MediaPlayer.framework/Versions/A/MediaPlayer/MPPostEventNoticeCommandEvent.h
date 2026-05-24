@@ -11,17 +11,15 @@
 @interface MPPostEventNoticeCommandEvent : MPRemoteCommandEvent
 {
     NSString *_eventIdentifier;
-    NSString *_eventType;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)es__MAPPING_MISSING__;
+- (void)__MPModelPropertyRadioStationShortEditorNotes__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(readonly, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
 
 @end
 

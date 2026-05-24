@@ -9,7 +9,6 @@
 @interface CKDPCryptoRequirementsSigningKey
 {
     NSData *_signingPublicKey;
-    NSData *_signingPublicKeySignature;
 }
 
 - (id);
@@ -19,21 +18,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)decodeTransactionTypeCode:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ctiveAudioEngineSet for type Media
+;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (void)6@?0@"CKSubscription"8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSigningPublicKey;
-@property(readonly, nonatomic) _Bool hasSigningPublicKeySignature;
-@property(retain, nonatomic) NSData *signingPublicKey; // @synthesize signingPublicKey=_signingPublicKey;
-@property(retain, nonatomic) NSData *signingPublicKeySignature; // @synthesize signingPublicKeySignature=_signingPublicKeySignature;
 
 @end
 

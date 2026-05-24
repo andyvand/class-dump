@@ -5,8 +5,12 @@
 //
 
 @class NSString;
+@protocol FCFeldsparIDProviderObserving;
 
 @protocol FCFeldsparIDProvider
+- (void)!;
+- (void)iFiAwarePairedDeviceInfo(deviceID:(id <FCFeldsparIDProviderObserving>)arg1 %llu, name:%@, pairingName:%@, vendorName:%@, modelName:%@, attributes:%@) /* Error: Ran out of types for this method. */;
+- (NSString *):8 /* Error: Ran out of types for this method. */;
 - (void)ryAccessEnabled;
 
 // Remaining properties

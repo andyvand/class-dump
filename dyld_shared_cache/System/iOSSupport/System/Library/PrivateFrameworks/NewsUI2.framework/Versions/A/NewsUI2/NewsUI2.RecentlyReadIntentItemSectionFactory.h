@@ -7,7 +7,6 @@
 @interface NewsUI2.RecentlyReadIntentItemSectionFactory
 {
     id historyService;
-    id tagService;
 }
 
 @end

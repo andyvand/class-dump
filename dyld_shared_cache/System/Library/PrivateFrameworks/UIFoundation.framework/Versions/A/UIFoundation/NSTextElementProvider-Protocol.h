@@ -7,6 +7,11 @@
 @class NSTextRange;
 
 @protocol NSTextElementProvider
+- (void);
+- (void)EnableDefaultPermissions;
+
+@optional
+- (NSTextRange *);
 
 // Remaining properties
 @property(readonly) NSTextRange *documentRange;

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _KSRequestThrottle
 {
     CDUnknownBlockType _curveFunction;
-    double _maximum;
-    CDUnknownBlockType _request;
-    int _retryCount;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_debugIdentifier;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)+;
+- (void);
+- (id)P;
+- (id);
+- (id)Non-entitled client with no bundle ID (%@) trying to save an OAuth2 token";
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

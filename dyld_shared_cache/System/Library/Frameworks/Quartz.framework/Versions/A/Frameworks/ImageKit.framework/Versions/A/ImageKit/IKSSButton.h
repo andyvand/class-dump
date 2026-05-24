@@ -9,16 +9,15 @@
 @interface IKSSButton
 {
     NSMutableSet *_commandKeys;
-    NSString *_toolTipString;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
-- (_Bool);
+- (_Bool)_gameCenterProfilePrivacyChangesIsRestricted;
 - (void);
-- (void);
+- (void)analyzeLibraryForFeature:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

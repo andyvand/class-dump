@@ -9,39 +9,31 @@
 @interface CKDPPackageManifestHeader
 {
     NSData *_signature;
-    NSData *_verificationKey;
-    int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (_Bool);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)setExpiration:(id)arg1;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_generateEncryptionKeyAndCryptor;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)EDInteractionEventLogPersistence;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)oInstalledBundleIDsOperation:withBlock: /* Error: Ran out of types for this method. */;
+- (id)performMapShareURLsToInstalledBundleIDsOperation:withBlock: /* Error: Ran out of types for this method. */;
 - (void)xK;
-- (void)angedNotification;
+- (void)CKDAuthorizationChangedNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSignature;
-@property(readonly, nonatomic) _Bool hasVerificationKey;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(retain, nonatomic) NSData *verificationKey; // @synthesize verificationKey=_verificationKey;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

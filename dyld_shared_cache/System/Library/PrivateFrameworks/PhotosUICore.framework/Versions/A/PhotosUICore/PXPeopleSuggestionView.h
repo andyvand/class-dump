@@ -6,22 +6,9 @@
 
 #import <PhotosUICore/PXSmartScaleView.h>
 
-@class CAShapeLayer, NSDateFormatter, PXPersonImageRequest, UXImageView, UXLabel, UXView;
-@protocol PXPerson;
-
 @interface PXPeopleSuggestionView : PXSmartScaleView
 {
     _Bool _needsSpotlightUpdate;
-    _Bool _validSpotlight;
-    id <PXPerson> _suggestion;
-    UXImageView *_imageView;
-    UXView *_suggestionView;
-    UXView *_dimView;
-    CAShapeLayer *_spotlightLayer;
-    PXPersonImageRequest *_imageRequest;
-    NSDateFormatter *_dateFormatter;
-    UXLabel *_dateLabel;
-    struct CGRect _faceRect;
 }
 
 - (void);
@@ -39,37 +26,27 @@
 - (void);
 - (double);
 - (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
+- (void);
+- (struct CGRect)=;
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
+- (id);
 - (void);
+- (struct CGRect);
+- (void)HTMLByEnclosingHTML:(id)arg1 withHTML: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)oEditSource";
-- (id)rDataSource: /* Error: Ran out of types for this method. */;
+- (id)pinPipelineForDataSource: /* Error: Ran out of types for this method. */;
 - (void)t¶¼¶;
-- (void)eKind;
+- (void)_colorGradeKind;
 - (id)$'ÿL'ÿ;
 - (void)¤H;
 - (id)ÿ5;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(retain, nonatomic) UXLabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(retain, nonatomic) UXView *dimView; // @synthesize dimView=_dimView;
 @property(nonatomic) struct CGRect faceRect; // @synthesize faceRect=_faceRect;
-@property(retain, nonatomic) PXPersonImageRequest *imageRequest; // @synthesize imageRequest=_imageRequest;
-@property(retain, nonatomic) UXImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool needsSpotlightUpdate; // @synthesize needsSpotlightUpdate=_needsSpotlightUpdate;
-@property(retain, nonatomic) CAShapeLayer *spotlightLayer; // @synthesize spotlightLayer=_spotlightLayer;
-@property(readonly, nonatomic) id <PXPerson> suggestion; // @synthesize suggestion=_suggestion;
-@property(retain, nonatomic) UXView *suggestionView; // @synthesize suggestionView=_suggestionView;
-@property(nonatomic) _Bool validSpotlight; // @synthesize validSpotlight=_validSpotlight;
 
 @end
 

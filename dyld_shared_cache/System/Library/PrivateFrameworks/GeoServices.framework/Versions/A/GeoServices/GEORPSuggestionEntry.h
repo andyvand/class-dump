@@ -9,46 +9,38 @@
 @interface GEORPSuggestionEntry
 {
     NSMutableArray *_displayLines;
-    unsigned int _serverSearchCompletionEntryIndex;
-    unsigned int _serverSearchCompletionSectionIndex;
-    int _type;
-    struct {
-        unsigned int has_serverSearchCompletionEntryIndex:1;
-        unsigned int has_serverSearchCompletionSectionIndex:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ndLandmarks:(id)arg1;
++ (_Bool)setLocalitiesAndLandmarks:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)validateContainedRecord:forGuardianRestrictions: /* Error: Ran out of types for this method. */;
+- (unsigned int)username;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)T(;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)interDelegate>",W,N,V_delegate;
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
 - (void);
 - (id)ionCountryCode"b1"read_filterByBusinessCategorys"b1"read_indexFilter"b1"read_inputLanguage"b1"read_knownLocation"b1"read_limitToCountryCodeIso2s"b1"read_location"b1"read_mapRegion"b1"read_phoneticLocaleIdentifier"b1"read_preserveFields"b1"read_searchContextSubstring"b1"read_searchContext"b1"read_searchLocation"b1"read_searchSubstrings"b1"read_search"b1"read_serviceTags"b1"read_suggestionsOptions"b1"read_suggestionsPrefix"b1"read_viewportCenterCountryCode"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (void)ata;
-- (id)ticesForComposedRoute:routeInitializerData: /* Error: Ran out of types for this method. */;
-- (int)t;
+- (void)hasSubactionMetaData;
+- (id)createEnrouteNoticesForComposedRoute:routeInitializerData: /* Error: Ran out of types for this method. */;
+- (int)GEOPDSearchIntent;
 - (id)ô-;
 - (id)8;
 - (id)Üì
@@ -58,13 +50,7 @@
 - (void)ðÜ{¸äP@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *displayLines;
-@property(nonatomic) _Bool hasServerSearchCompletionEntryIndex;
-@property(nonatomic) _Bool hasServerSearchCompletionSectionIndex;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int serverSearchCompletionEntryIndex;
-@property(nonatomic) unsigned int serverSearchCompletionSectionIndex;
-@property(nonatomic) int type;
 
 @end
 

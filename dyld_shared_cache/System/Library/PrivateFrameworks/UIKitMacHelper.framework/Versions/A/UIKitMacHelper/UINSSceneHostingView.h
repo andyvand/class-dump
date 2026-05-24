@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSSceneHostingViewController, UIView, UIWindow;
+@class UIView, UIWindow;
 
 @interface UINSSceneHostingView
 {
     UIWindow *_uiWindow;
-    UINSSceneHostingViewController *_sceneHostingVC;
-    _Bool _hostedInToolbar;
-    UIView *_uiView;
 }
 
 - (id);
@@ -26,24 +23,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)find all visible calendars.  Calendar:(_Bool)arg1 [%@];
+- (_Bool)T9;
 - (struct CGSize);
-- (void);
+- (void)_traceValue:forLabel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHostedInToolbar) _Bool hostedInToolbar; // @synthesize hostedInToolbar=_hostedInToolbar;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIView *uiView; // @synthesize uiView=_uiView;
 
 @end

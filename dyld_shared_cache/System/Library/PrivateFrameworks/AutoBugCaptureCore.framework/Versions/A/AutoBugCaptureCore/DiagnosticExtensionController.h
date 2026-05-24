@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDateFormatter, NSString;
 
 __attribute__((visibility("hidden")))
 @interface DiagnosticExtensionController
 {
     NSDateFormatter *dateFormatter;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_destinationRootDirectory;
 }
 
-- (id);
+- (id)%{public}@;
 - (id);
 - (void);
 - (void);

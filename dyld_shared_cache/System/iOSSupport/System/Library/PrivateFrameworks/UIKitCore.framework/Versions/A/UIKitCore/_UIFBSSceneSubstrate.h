@@ -13,7 +13,7 @@
     NSMapTable *_sceneLayerTable;
 }
 
-- (void):(id)arg1;
+- (void)gestureRecognizerShouldDismissForTouchDown:(id)arg1;
 - (void)ce;
 - (id);
 - (void)ÈL\;

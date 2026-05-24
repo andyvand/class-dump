@@ -7,10 +7,6 @@
 @interface PhotosUICore.AssetsRecoveryNotificationListManager
 {
     id countsManager;
-    id countsObservation;
-    id changeDetailsRepository;
-    id itemList;
-    id observable;
 }
 
 @end

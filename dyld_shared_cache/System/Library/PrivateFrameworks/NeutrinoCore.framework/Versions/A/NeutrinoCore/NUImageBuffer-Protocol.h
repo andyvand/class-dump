@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUColorSpace, NUPixelFormat;
-
 @protocol NUImageBuffer
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *CVPixelBuffer;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, nonatomic) NUPixelFormat *format;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

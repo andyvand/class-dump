@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTQueryResults : SISchemaInstrumentationMessage
 {
@@ -29,13 +29,12 @@
 - (id)Qà°1Â0@ù
 × ;
 - (id)tificationReceivedTier1",&,N,V_notificationReceivedTier1;
-- (id)ated;
+- (id)CAARSchemaCAARFeaturesGenerated;
 - (void)¥@#;
 - (void)j¤ÿ¨Ð­îd';
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

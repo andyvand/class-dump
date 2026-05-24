@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CDLogging)
-- (_Bool);
+- (_Bool)kFbG;
 @end
 

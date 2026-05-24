@@ -9,21 +9,19 @@
 @interface AssetCacheLowSpaceAlert : AssetCacheAlert
 {
     long long _cacheLimit;
-    long long _reservedVolumeSpace;
 }
 
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)4;
 - (long long);
-- (id);
+- (id)SceneRepresentationBox;
 - (id);
 
 // Remaining properties
 @property long long cacheLimit; // @synthesize cacheLimit=_cacheLimit;
-@property long long reservedVolumeSpace; // @synthesize reservedVolumeSpace=_reservedVolumeSpace;
 
 @end
 

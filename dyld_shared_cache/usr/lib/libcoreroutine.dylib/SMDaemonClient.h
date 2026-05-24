@@ -4,38 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, RTAuthorizationManager, RTDefaultsManager, RTDistanceCalculator, RTEntitlementProvider, RTPlatform, SMAppDeletionManager, SMDeviceConfigurationChecker, SMEligibilityChecker, SMInitiatorService, SMMessagingService, SMReceiverService, SMSessionStore, SMSuggestionsHelper, SMSuggestionsManager, SMSuggestionsStore;
-@protocol OS_dispatch_queue;
-
 @interface SMDaemonClient
 {
     _Bool _enabled;
-    _Bool _supported;
-    _Bool _monitorInitiatorSafetyCache;
-    _Bool _monitorReceiverSessionStatus;
-    _Bool _monitorReceiverSafetyCache;
-    _Bool _monitorSessionState;
-    _Bool _monitorLocalSessionState;
-    int _processIdentifier;
-    NSXPCConnection *_xpcConnection;
-    RTAuthorizationManager *_authorizationManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPlatform *_platform;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_executablePath;
-    NSString *_executableName;
-    RTEntitlementProvider *_entitlementProvider;
-    SMInitiatorService *_initiatorService;
-    SMSessionStore *_sessionStore;
-    SMSuggestionsManager *_suggestionsManager;
-    SMSuggestionsHelper *_suggestionsHelper;
-    SMSuggestionsStore *_suggestionsStore;
-    SMMessagingService *_messagingService;
-    SMReceiverService *_receiverService;
-    SMEligibilityChecker *_eligibilityChecker;
-    SMDeviceConfigurationChecker *_deviceConfigurationChecker;
-    SMAppDeletionManager *_appDeletionManager;
 }
 
 - (void);
@@ -48,6 +19,13 @@
 - (void);
 - (void);
 - (void);
+- (void)r;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,14 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -100,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -117,6 +88,7 @@
 - (void);
 - (void);
 - (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
@@ -128,6 +100,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -138,28 +111,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -168,14 +123,30 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ta}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (void)@16^@24;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -188,9 +159,9 @@
 - (id);
 - (id);
 - (int);
-- (_Bool)RoadStartLatitude;
-- (void)teType:(id)arg1 fetchRequest:enumerationBlock: /* Error: Ran out of types for this method. */;
-- (id)FliesWalkingSpeed;
+- (_Bool)geoRoadStartLatitude;
+- (void)enumerateType:(id)arg1 fetchRequest:enumerationBlock: /* Error: Ran out of types for this method. */;
+- (id)_crowFliesWalkingSpeed;
 - (id);
 - (void)fying:stateSyncMessage /* Error: Ran out of types for this method. */;
 - (void):No priorVisits /* Error: Ran out of types for this method. */;
@@ -200,40 +171,7 @@
 - (void)¿-ð;
 
 // Remaining properties
-@property(retain, nonatomic) SMAppDeletionManager *appDeletionManager; // @synthesize appDeletionManager=_appDeletionManager;
-@property(readonly, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SMDeviceConfigurationChecker *deviceConfigurationChecker; // @synthesize deviceConfigurationChecker=_deviceConfigurationChecker;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) SMEligibilityChecker *eligibilityChecker; // @synthesize eligibilityChecker=_eligibilityChecker;
 @property _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) RTEntitlementProvider *entitlementProvider; // @synthesize entitlementProvider=_entitlementProvider;
-@property(copy, nonatomic) NSString *executableName; // @synthesize executableName=_executableName;
-@property(copy, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SMInitiatorService *initiatorService; // @synthesize initiatorService=_initiatorService;
-@property(retain, nonatomic) SMMessagingService *messagingService; // @synthesize messagingService=_messagingService;
-@property(nonatomic) _Bool monitorInitiatorSafetyCache; // @synthesize monitorInitiatorSafetyCache=_monitorInitiatorSafetyCache;
-@property(nonatomic) _Bool monitorLocalSessionState; // @synthesize monitorLocalSessionState=_monitorLocalSessionState;
-@property(nonatomic) _Bool monitorReceiverSafetyCache; // @synthesize monitorReceiverSafetyCache=_monitorReceiverSafetyCache;
-@property(nonatomic) _Bool monitorReceiverSessionStatus; // @synthesize monitorReceiverSessionStatus=_monitorReceiverSessionStatus;
-@property(nonatomic) _Bool monitorSessionState; // @synthesize monitorSessionState=_monitorSessionState;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SMReceiverService *receiverService; // @synthesize receiverService=_receiverService;
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(retain, nonatomic) SMSuggestionsHelper *suggestionsHelper; // @synthesize suggestionsHelper=_suggestionsHelper;
-@property(retain, nonatomic) SMSuggestionsManager *suggestionsManager; // @synthesize suggestionsManager=_suggestionsManager;
-@property(retain, nonatomic) SMSuggestionsStore *suggestionsStore; // @synthesize suggestionsStore=_suggestionsStore;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supported; // @synthesize supported=_supported;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _LTTranslator;
+@class _LTTranslator;
 
 @interface AXMLanguageTranslator
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_cachedAvailableTranslationLocales;
-    _LTTranslator *_translator;
 }
 
 + (id);
@@ -19,17 +17,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)|;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)m;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)h;
 - (void);
 
 // Remaining properties

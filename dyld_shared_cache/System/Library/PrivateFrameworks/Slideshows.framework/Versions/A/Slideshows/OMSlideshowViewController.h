@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OKDocumentViewController, OMMarimbaViewController, OMSlideshow;
-@protocol OMSlideshowViewControllerPlaybackDelegate, OMSlideshowViewControllerPrepareDelegate;
+@class OMMarimbaViewController;
 
 @interface OMSlideshowViewController
 {
     OMMarimbaViewController *_marimbaViewController;
-    OKDocumentViewController *_opusViewController;
-    NSString *_pendingGotoKeyPath;
-    NSString *_marimbaStyleID;
-    CDUnknownBlockType _pendingGotoCompletionHandler;
-    int _isReadyToPlayCounter;
-    _Bool _isStretchableWithoutReauthoring;
-    struct {
-        unsigned int isInEditMode:1;
-        unsigned int isInteractive:1;
-        unsigned int isReadyToNavigate:1;
-        unsigned int isVisible:1;
-    } _flags;
-    _Bool _logRenderingTimes;
-    _Bool _unloadsOnDisappear;
-    OMSlideshow *_slideshow;
-    double _audioVolume;
-    id <OMSlideshowViewControllerPrepareDelegate> _prepareDelegate;
-    id <OMSlideshowViewControllerPlaybackDelegate> _playbackDelegate;
 }
 
 - (void);
@@ -43,29 +24,29 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)determinePayloadDeliveryWindowForEntries:(_Bool)arg1 withLastUploadDatesByContentType:completion: /* Error: Ran out of types for this method. */;
+- (void)createDirectoryAtURL:(id)arg1 withIntermediateDirectories:(_Bool)arg2 attributes:(CDUnknownBlockType)arg3 error: /* Error: Ran out of types for this method. */;
+- (void)uploadEnvelopeBatch:(id)arg1 withURL:(id)arg2 valuesByHTTPHeaderField:completion: /* Error: Ran out of types for this method. */;
+- (void)on>",R,N;
+- (void)AAEndpointType;
+- (void)_TtC19NewsAnalyticsUpload17TelemetryAssembly;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)wwan5G;
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long);
+- (void)cf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (void)l/Library/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
+- (id)=;
+- (void)(P;
 - (id);
 - (void);
 - (_Bool);
@@ -81,29 +62,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)performInitialFaceDetectionInGroup:withOptions: /* Error: Ran out of types for this method. */;
 - (void)Á;
 
 // Remaining properties
-@property(nonatomic) double audioVolume; // @synthesize audioVolume=_audioVolume;
-@property(readonly) struct CGRect cleanAperture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isEditable;
-@property(nonatomic) _Bool isInEditMode;
-@property(nonatomic) _Bool isInteractive;
-@property(readonly) _Bool isPlaying;
-@property(readonly) _Bool isStretchableWithoutReauthoring; // @synthesize isStretchableWithoutReauthoring=_isStretchableWithoutReauthoring;
-@property(nonatomic) _Bool logRenderingTimes; // @synthesize logRenderingTimes=_logRenderingTimes;
-@property id <OMSlideshowViewControllerPlaybackDelegate> playbackDelegate; // @synthesize playbackDelegate=_playbackDelegate;
-@property id <OMSlideshowViewControllerPrepareDelegate> prepareDelegate; // @synthesize prepareDelegate=_prepareDelegate;
-@property(readonly) NSString *renderingLogFilePath;
-@property(retain) OMSlideshow *slideshow; // @synthesize slideshow=_slideshow;
-@property(readonly) Class superclass;
 @property _Bool unloadsOnDisappear; // @synthesize unloadsOnDisappear=_unloadsOnDisappear;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString, PKPaymentService;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface PKDeviceSharingCapabilitiesManager
 {
     NSHashTable *_observers;
-    struct os_unfair_lock_s _lockObservers;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    PKPaymentService *_paymentService;
-    NSMutableArray *_familyMembers;
-    NSMutableDictionary *_fetchStatusByAppleID;
 }
 
 - (void);
@@ -31,13 +24,7 @@
 - (void)'; ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

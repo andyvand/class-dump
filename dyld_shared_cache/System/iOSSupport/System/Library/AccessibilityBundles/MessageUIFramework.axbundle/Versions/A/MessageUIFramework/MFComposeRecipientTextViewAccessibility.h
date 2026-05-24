@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
-- (void);
++ (Class);
++ (id)UIWindowSceneAccessibility;
++ (void)FocusRingNSButtonAccessibility;
+- (void)Њ;
 - (void);
 - (void);
 - (void);

@@ -5,6 +5,10 @@
 //
 
 @protocol BWGraphStatusDelegate
+- (void);
 - (void)1þÿ¥1ÿÿ±0ÿÿ»/ÿÿÅ/ÿÿÏ.ÿÿÙ-ÿÿä-ÿÿî-ÿÿ÷-þÿÿ.ûÿÿ1÷ÿÿ5óÿÿ9ðÿÿ=ìÿÿAèÿ;
+
+@optional
+- (void)#;
 @end
 

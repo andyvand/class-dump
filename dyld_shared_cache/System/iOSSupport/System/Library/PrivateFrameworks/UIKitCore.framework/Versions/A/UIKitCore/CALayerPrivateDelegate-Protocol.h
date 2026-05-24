@@ -5,5 +5,8 @@
 //
 
 @protocol CALayerPrivateDelegate
+
+@optional
+- (void);
 @end
 

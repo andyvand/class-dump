@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreTelephonyMockObject, NSDate, NSObject, NSString, NSUUID, SFAppAutoFillPasskeyProvider, TICredentialCustomInfo, TIKeyboardSecureCandidateRenderer;
-@protocol OS_dispatch_queue;
+@class CoreTelephonyMockObject, TIKeyboardSecureCandidateRenderer;
 
 @interface TIAppAutofillManager
 {
     TIKeyboardSecureCandidateRenderer *_secureCandidateRenderer;
-    CoreTelephonyMockObject *_coreTelephonyMockObject;
-    NSObject<OS_dispatch_queue> *_privateQueue;
-    NSUUID *_documentIdentifierForLastAutofillGeneration;
-    NSString *_clientIdentifierForLastAutofillGeneration;
-    NSString *_clientIdentifierForLastKeyboardSync;
-    TICredentialCustomInfo *_queuedCustomInfo;
-    TICredentialCustomInfo *_queuedUnauthenticatedCustomInfo;
-    NSDate *_dateOfLastPasswordAutoFill;
-    NSString *_lastAutofilledUsername;
-    SFAppAutoFillPasskeyProvider *_passkeyProvider;
 }
 
 + (_Bool);
@@ -27,7 +16,7 @@
 + (void);
 + (id)¡ð!Dù±ið1Â0@ù
 × ;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,49 +29,32 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)utomationInternal.SceneNotSetUpResponseHandler;
 - (void);
-- (void);
-- (id);
+- (void)discreteProgressWithTotalUnitCount:(id)arg1;
+- (id)`;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)!;
 - (id);
 - (void);
-- (void);
+- (void)setServerTopBundleId:(id)arg1;
+- (void);
 - (id);
+- (void);
+- (void);
+- (id)@;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id)Ô ;
-- (id)terSet;
+- (id)uppercaseLetterCharacterSet;
 
 // Remaining properties
-@property(retain) NSString *clientIdentifierForLastAutofillGeneration; // @synthesize clientIdentifierForLastAutofillGeneration=_clientIdentifierForLastAutofillGeneration;
-@property(retain, nonatomic) NSString *clientIdentifierForLastKeyboardSync; // @synthesize clientIdentifierForLastKeyboardSync=_clientIdentifierForLastKeyboardSync;
 @property(retain, nonatomic) CoreTelephonyMockObject *coreTelephonyMockObject;
-@property(retain, nonatomic) NSDate *dateOfLastPasswordAutoFill; // @synthesize dateOfLastPasswordAutoFill=_dateOfLastPasswordAutoFill;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSUUID *documentIdentifierForLastAutofillGeneration; // @synthesize documentIdentifierForLastAutofillGeneration=_documentIdentifierForLastAutofillGeneration;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *lastAutofilledUsername; // @synthesize lastAutofilledUsername=_lastAutofilledUsername;
-@property(readonly, nonatomic) SFAppAutoFillPasskeyProvider *passkeyProvider; // @synthesize passkeyProvider=_passkeyProvider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(retain, nonatomic) TICredentialCustomInfo *queuedCustomInfo; // @synthesize queuedCustomInfo=_queuedCustomInfo;
-@property(retain, nonatomic) TICredentialCustomInfo *queuedUnauthenticatedCustomInfo; // @synthesize queuedUnauthenticatedCustomInfo=_queuedUnauthenticatedCustomInfo;
-@property(readonly, nonatomic) TIKeyboardSecureCandidateRenderer *secureCandidateRenderer;
-@property(readonly) Class superclass;
 
 @end
 

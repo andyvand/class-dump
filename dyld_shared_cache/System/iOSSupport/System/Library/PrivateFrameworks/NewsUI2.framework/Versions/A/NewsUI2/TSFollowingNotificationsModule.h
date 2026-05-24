@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TSFollowingNotificationsModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

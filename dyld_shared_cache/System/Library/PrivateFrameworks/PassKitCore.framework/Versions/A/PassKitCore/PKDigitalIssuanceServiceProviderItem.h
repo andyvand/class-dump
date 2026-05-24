@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKDigitalIssuanceServiceProviderItem
 {
     NSString *_identifier;
-    NSString *_localizedDisplayName;
-    NSString *_localizedDescription;
-    unsigned long long _unitCount;
-    NSDecimalNumber *_amount;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id)qî%ð1Â0@ù
 × ;
-- (id)ce;
+- (id)_remoteDevice;
 - (void)ror"24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long unitCount; // @synthesize unitCount=_unitCount;
 
 @end
 

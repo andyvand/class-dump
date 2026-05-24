@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPArtworkCatalog, MPModelMovie, MPModelPlaylist, MPModelSocialPerson, MPModelSong, MPModelTVEpisode, NSString;
+@class MPModelPlaylist;
 
 @interface MPModelPlaylistEntry : MPModelObject
 {
@@ -14,14 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) MPArtworkCatalog *_artworkCatalog; // @dynamic _artworkCatalog;
-@property(retain, nonatomic) MPModelMovie *movie; // @dynamic movie;
 @property(retain, nonatomic) MPModelPlaylist *playlist; // @dynamic playlist;
-@property(nonatomic) long long position; // @dynamic position;
-@property(retain, nonatomic) NSString *positionUniversalIdentifier; // @dynamic positionUniversalIdentifier;
-@property(retain, nonatomic) MPModelSocialPerson *socialContributor; // @dynamic socialContributor;
-@property(retain, nonatomic) MPModelSong *song; // @dynamic song;
-@property(retain, nonatomic) MPModelTVEpisode *tvEpisode; // @dynamic tvEpisode;
-@property(retain, nonatomic) NSString *universalIdentifier; // @dynamic universalIdentifier;
 @end
 

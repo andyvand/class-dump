@@ -11,7 +11,6 @@
 @interface QCStructure : QCObject
 {
     GFList *_list;
-    void *_unused2[4];
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (id);
 - (id);
 - (id);
@@ -35,7 +34,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)BLE item ADD COLUMN download_source_container_pid INTEGER NOT NULL DEFAULT 0;
 - (id);
 - (void);
 - (id);

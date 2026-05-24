@@ -15,8 +15,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)sionAssertion leaveCriticalSection];
+- (id)AFAccessibilityState::isVibrationDisabled /* Error: Ran out of types for this method. */;
 
 @end
 

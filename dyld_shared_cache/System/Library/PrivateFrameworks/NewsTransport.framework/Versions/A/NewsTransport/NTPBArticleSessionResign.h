@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NTPBArticleSessionResign
 {
     long long _publisherArticleVersion;
-    NSString *_articleId;
-    int _articleType;
-    NSData *_articleViewingSessionId;
-    NSString *_sourceChannelId;
-    CDStruct_3186b938 _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (int);
-- (id);
-- (void);
+- (void)canShowLoadingProgress;
+- (void)assetCollectionRepresentsMonthsChapter:(_Bool)arg1;
+- (void)addNotificationRequest:(_Bool)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateActionButtons;
+- (_Bool)_stateQueue_seekToBeginningAtEnd;
+- (id)_shouldShowGyroBadgeForAsset:(int)arg1;
+- (int)_shouldShowGyroBadgeForAsset: /* Error: Ran out of types for this method. */;
+- (void)_selectedRelatedIndex;
+- (int)_scrubberDimsMainContent;
+- (id)oller: /* Error: Ran out of types for this method. */;
+- (void)gCASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsBlockFilter.m;
 - (id);
 - (_Bool);
 - (void);
@@ -36,26 +29,17 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)backQueue:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ommands from the command queue;
 - (_Bool);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (void)tEntrySnapshot;
+- (void)hasLastEntrySnapshot;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int articleType; // @synthesize articleType=_articleType;
-@property(retain, nonatomic) NSData *articleViewingSessionId; // @synthesize articleViewingSessionId=_articleViewingSessionId;
 @property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasArticleType;
-@property(readonly, nonatomic) _Bool hasArticleViewingSessionId;
-@property(nonatomic) _Bool hasPublisherArticleVersion;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) long long publisherArticleVersion; // @synthesize publisherArticleVersion=_publisherArticleVersion;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

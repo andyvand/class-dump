@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BPSFlatMapOuter;
-
 @interface _BPSFlatMapSide
 {
     long long _index;
-    _BPSFlatMapOuter *_outer;
 }
 
 - (void);
-- (void);
+- (void)<h;
 - (id);
 - (id);
 - (void);
+- (void);
+- (long long)�;
+- (long long);
 - (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
+- (void)@T;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long index; // @synthesize index=_index;
-@property(retain, nonatomic) _BPSFlatMapOuter *outer; // @synthesize outer=_outer;
-@property(readonly) Class superclass;
 
 @end
 

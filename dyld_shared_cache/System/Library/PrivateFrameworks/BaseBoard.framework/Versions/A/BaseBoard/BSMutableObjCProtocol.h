@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface BSMutableObjCProtocol
 {
     NSString *_name;
-    NSMutableArray *_properties;
 }
 
 + (id);

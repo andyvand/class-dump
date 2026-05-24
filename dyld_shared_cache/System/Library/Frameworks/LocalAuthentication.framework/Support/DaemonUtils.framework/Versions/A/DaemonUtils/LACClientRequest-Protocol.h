@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACClientInfo, NSUUID;
+@class NSUUID;
 @protocol LACXPCClient;
 
 @protocol LACClientRequest
+- (NSUUID *)start;
+- (id <LACXPCClient>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <LACXPCClient> client;
-@property(readonly, nonatomic) LACClientInfo *clientInfo;
-@property(readonly, nonatomic) NSUUID *contextID;
-@property(readonly, nonatomic) unsigned long long originatorId;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, _HMDocument;
+@class _HMDocument;
 
 @interface HMHTMLDocument
 {
@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)subversion;
 - (void);
 - (id);
 - (id);
@@ -28,9 +28,7 @@
 - (id)diaSystemComponentUUID;
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *attributedString;
 @property(readonly) _HMDocument *document; // @synthesize document=_document;
-@property(readonly, copy) NSString *stringValue;
 
 @end
 

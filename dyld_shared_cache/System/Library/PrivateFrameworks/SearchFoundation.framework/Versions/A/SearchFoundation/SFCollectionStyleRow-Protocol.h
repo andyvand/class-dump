@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @protocol SFCollectionStyleRow
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) _Bool drawPlattersIfNecessary;
-@property(nonatomic) _Bool isInsetGrouped;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int rowStyle;
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL;
+@class NSObject, NSURL;
 @protocol OS_os_activity;
 
 @interface WBSSiteMetadataRequest
 {
     NSObject<OS_os_activity> *_activity;
-    NSString *_cachedDescription;
-    NSURL *_url;
-    NSDictionary *_extraInfo;
 }
 
 - (id);
@@ -27,8 +24,6 @@
 - (void)C,N,V_groupIdentifierQueryStringKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(readonly, copy, nonatomic) NSDictionary *extraInfo; // @synthesize extraInfo=_extraInfo;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

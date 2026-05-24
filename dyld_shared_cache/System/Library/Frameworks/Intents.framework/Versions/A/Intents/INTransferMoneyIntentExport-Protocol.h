@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
+@class INPaymentAccount;
 
 @protocol INTransferMoneyIntentExport
+- (void);
 
 // Remaining properties
 @property(copy) INPaymentAccount *fromAccount;
-@property(copy) INPaymentAccount *toAccount;
-@property(copy) INPaymentAmount *transactionAmount;
-@property(copy) NSString *transactionNote;
-@property(copy) INDateComponentsRange *transactionScheduledDate;
 @end
 

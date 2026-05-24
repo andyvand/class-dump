@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableSet, NSNumber, NSUbiquitousKeyValueStore;
+@class NSUbiquitousKeyValueStore;
 
 @interface CDFDonationFeedbackStore
 {
     NSUbiquitousKeyValueStore *_kvs;
-    NSMutableSet *_hashes;
-    NSNumber *_resetGeneration;
-    NSNumber *_resetTimestamp;
-    NSData *_userSalt;
 }
 
 + (id);
@@ -31,7 +27,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (id);

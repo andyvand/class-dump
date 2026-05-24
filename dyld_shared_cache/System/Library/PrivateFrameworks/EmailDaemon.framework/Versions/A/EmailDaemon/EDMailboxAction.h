@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EDMailboxAction
 {
     long long _actionID;
-    long long _actionType;
-    long long _mailboxID;
-    NSString *_mailboxName;
-    NSString *_renamedMailboxName;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (long long);
@@ -28,10 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionID; // @synthesize actionID=_actionID;
-@property(readonly, nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(readonly, copy, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property(readonly, copy, nonatomic) NSString *renamedMailboxName; // @synthesize renamedMailboxName=_renamedMailboxName;
 
 @end
 

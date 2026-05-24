@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDocument, NSIndexSet;
+@class NSDocument;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentErrorRecoveryAttempter
 {
     NSDocument *_document;
-    id _wrappedRecoveryAttempter;
-    CDUnknownBlockType _continuerOrNil;
-    long long _silentRecoveryOptionIndex;
-    CDUnknownBlockType _docModalRecoveryAttempter;
-    CDUnknownBlockType _appModalRecoveryAttempter;
-    CDUnknownBlockType _recoveryCancelerOrNil;
-    NSIndexSet *_customOptionIndexes;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)downloadDidBegin:(id)arg1;
+- (id)download:(id)arg1 willSendRequest:(id)arg2 redirectResponse:(CDUnknownBlockType)arg3;
+- (id)download:(id)arg1 didReceiveResponse:(unsigned long long)arg2;
 - (void);
+- (void)te cookie = %@;
+- (_Bool)cookie partition to the deleteStmt;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void)Üèÿ;
 
 @end

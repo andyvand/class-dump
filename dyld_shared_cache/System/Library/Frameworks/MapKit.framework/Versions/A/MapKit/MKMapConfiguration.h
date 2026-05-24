@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKPointOfInterestFilter;
-
 @interface MKMapConfiguration
 {
     _Bool _showsTraffic;
-    _Bool _showsHiking;
-    _Bool _showsTopographicFeatures;
-    MKPointOfInterestFilter *_pointOfInterestFilter;
-    long long _elevationStyle;
 }
 
 + (id);
@@ -30,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)F;
 - (id);
 - (void);
 - (id);
@@ -40,11 +34,7 @@
 - (void)initWithClientHeading: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) MKPointOfInterestFilter *_pointOfInterestFilter; // @synthesize _pointOfInterestFilter;
-@property(nonatomic) _Bool _showsHiking; // @synthesize _showsHiking;
-@property(nonatomic) _Bool _showsTopographicFeatures; // @synthesize _showsTopographicFeatures;
 @property(nonatomic) _Bool _showsTraffic; // @synthesize _showsTraffic;
-@property(nonatomic) long long elevationStyle; // @synthesize elevationStyle=_elevationStyle;
 
 @end
 

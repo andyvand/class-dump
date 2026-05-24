@@ -11,11 +11,11 @@
     NSString *_notificationUUID;
 }
 
-+ (_Bool);
++ (_Bool)t;
 + (void)t permission CKShareParticipantPermissionUnknown;
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (unsigned long long);

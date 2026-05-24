@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, UIColor;
+@class UIColor;
 
 @interface EKUIAvailabilityFreeSpanView
 {
     UIColor *_borderColor;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)izeWillBeCompact: /* Error: Ran out of types for this method. */;
+- (void)sizeWillBeCompact: /* Error: Ran out of types for this method. */;
 - (void)ton, trailingButton, centerGuide;
 
 // Remaining properties
 @property(retain) UIColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

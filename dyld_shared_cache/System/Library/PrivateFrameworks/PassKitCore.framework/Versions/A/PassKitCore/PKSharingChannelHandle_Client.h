@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKSharingChannelHandle.h>
 
-@class NSString, PKXPCService;
+@class PKXPCService;
 
 @interface PKSharingChannelHandle_Client : PKSharingChannelHandle
 {
     PKXPCService *_remoteService;
-    struct os_unfair_lock_s _lock;
-    NSString *_transportIdentifier;
 }
 
 + (void);
@@ -26,32 +24,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
+- (void)*!;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)amountSuggestions;
 - (id)transaction service push topic override %@ for pass %@;
 - (void)ementConsistencyCheckDeviceState"8;
-- (void)ROR_UNSUPPORTED_OS_MESSAGE;
+- (void)NEARBY_ERROR_UNSUPPORTED_OS_MESSAGE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

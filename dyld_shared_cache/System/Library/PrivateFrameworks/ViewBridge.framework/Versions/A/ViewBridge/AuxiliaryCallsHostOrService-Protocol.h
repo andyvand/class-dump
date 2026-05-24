@@ -5,5 +5,6 @@
 //
 
 @protocol AuxiliaryCallsHostOrService
+- (void);
 @end
 

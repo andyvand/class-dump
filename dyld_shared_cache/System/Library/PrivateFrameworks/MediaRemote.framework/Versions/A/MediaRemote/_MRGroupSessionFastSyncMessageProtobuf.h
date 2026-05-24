@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _MRGroupSessionFastSyncMessageProtobuf
 {
     int _messageType;
-    NSData *_payload;
-    struct {
-        unsigned int messageType:1;
-    } _has;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)c:(id)arg1;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)unsignedIntValue;
 - (_Bool);
 - (int);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)ts_s=I*II}16;
 - (id);
-- (id);
-- (void)Application;
+- (id)siri_tv_snippet_modernization;
+- (void)_launchApplication;
 - (void)= %f, alpha = %f>;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMessageType;
-@property(readonly, nonatomic) _Bool hasPayload;
-@property(nonatomic) int messageType; // @synthesize messageType=_messageType;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
 
 @end
 

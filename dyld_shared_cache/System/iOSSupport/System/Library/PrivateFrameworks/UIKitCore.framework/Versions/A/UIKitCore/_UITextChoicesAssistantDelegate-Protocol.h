@@ -10,8 +10,8 @@
 @protocol _UITextChoicesAssistantDelegate
 - (void)1Â0@ù
 × ;
-- (void)gUpdates;
-- (void)llection;
+- (void)hasRemainingUpdates;
+- (void)_viewForTraitCollection;
 - (UIResponder<UIAsyncTextInputClient> *)rces/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift;
 - (UIResponder<UIWKInteractionViewProtocol> *)ÂËþÿ;
 - (TIKeyboardState *);
@@ -24,7 +24,7 @@ XªÆ,#]aªß72s;C«=Àçé¾»?Dô.eM;
 - (void)R0¾33÷;
 - (UIResponder<BETextInput> *);
 - (void)þH430btþ;
-- (UIKBInputDelegateManager *)ize;
+- (UIKBInputDelegateManager *)UINSToolbarItemPresentationSize;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardState *keyboardState;

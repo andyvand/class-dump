@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSURL;
+@class NSURL;
 
 @interface FCPersistentDictionary
 {
     NSURL *_fileURL;
-    NSSet *_allowedClasses;
 }
 
 - (_Bool);
@@ -21,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allowedClasses; // @synthesize allowedClasses=_allowedClasses;
 @property(readonly, copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 
 @end

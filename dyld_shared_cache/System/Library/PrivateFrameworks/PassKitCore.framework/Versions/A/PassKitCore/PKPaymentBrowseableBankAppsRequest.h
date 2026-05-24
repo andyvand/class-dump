@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (void)TA_REFUNDED;
+- (void)@"AWDWiFiMetricsManagerStateMachine",&,N,V_avgCCA125pct;
+- (void)SETUP_PURCHASE_STATE_METADATA_REFUNDED;
 - (id)LÏÿ?k(;
 
 // Remaining properties

@@ -6,23 +6,10 @@
 
 #import <AVConference/VCConnectionManager.h>
 
-@class VCBitrateArbiter, VCExperimentManager, VCSessionBitrateArbiter;
-
 __attribute__((visibility("hidden")))
 @interface VCConnectionManagerIDS : VCConnectionManager
 {
     double _lastTimestampForRemoteSendingFromNonPrimary;
-    double _lastTimestampPreferredRemoteInterfaceUpdated;
-    unsigned int _sentPacketCount[256];
-    unsigned int _sentByteCount[256];
-    unsigned int _receivedPacketCount[256];
-    unsigned int _receivedByteCount[256];
-    VCSessionBitrateArbiter *_multiwayBitrateArbiter;
-    VCBitrateArbiter *_oneToOneBitrateArbiter;
-    _Bool _isMultiwaySession;
-    _Bool _enableCoreMotionDetection;
-    _Bool _optIntoExistingSubscribedStreams;
-    VCExperimentManager *_experimentManager;
 }
 
 - (void);
@@ -40,14 +27,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,9 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -74,11 +61,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned int);
-- (CDStruct_6f03dd4f *);
+- (CDStruct_157d85a6 *);
 - (unsigned int);
 - (unsigned int);
 - (void);

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPasskeyRegistrationCredentialExtensionOutput, AuthenticationServicesCore.ASCPublicKeyCredentialRegistrationExtensionOutputs, NSData, NSString;
+@class AuthenticationServicesCore.ASCPublicKeyCredentialRegistrationExtensionOutputs, NSString;
 
 @interface ASPasskeyRegistrationCredential
 {
     NSString *_relyingParty;
-    NSData *_clientDataHash;
-    NSData *_credentialID;
-    NSData *_attestationObject;
-    ASPasskeyRegistrationCredentialExtensionOutput *_extensionOutput;
 }
 
 + (id);
@@ -31,22 +27,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *attestationObject; // @synthesize attestationObject=_attestationObject;
-@property(readonly, nonatomic) NSData *clientDataHash; // @synthesize clientDataHash=_clientDataHash;
 @property(nonatomic, readonly) AuthenticationServicesCore.ASCPublicKeyCredentialRegistrationExtensionOutputs *coreExtensions;
-@property(readonly, nonatomic) NSData *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) ASPasskeyRegistrationCredentialExtensionOutput *extensionOutput; // @synthesize extensionOutput=_extensionOutput;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *relyingParty; // @synthesize relyingParty=_relyingParty;
-@property(readonly) Class superclass;
 
 @end
 

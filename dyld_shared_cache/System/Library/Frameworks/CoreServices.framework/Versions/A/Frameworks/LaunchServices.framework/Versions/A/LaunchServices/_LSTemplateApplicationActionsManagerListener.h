@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCListener, NSXPCListenerEndpoint;
-@protocol OS_xpc_object;
+@class NSXPCListener, NSXPCListenerEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface _LSTemplateApplicationActionsManagerListener
@@ -13,24 +12,16 @@ __attribute__((visibility("hidden")))
     NSXPCListener *_listener;
 }
 
-+ (id);
++ (id)setEmulationVertexShaderIntermediateBufferSlot: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)i ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSXPCListenerEndpoint *endpoint; // @dynamic endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_xpc_object> *xpcendpoint; // @dynamic xpcendpoint;
 
 @end
 

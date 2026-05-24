@@ -14,8 +14,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)B;
+- (void)M;
 
 // Remaining properties
 @property(nonatomic) __weak NSXPCConnection *connectionToDiscoveryService; // @synthesize connectionToDiscoveryService=_connectionToDiscoveryService;

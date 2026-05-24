@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSubscriptionLeaseSession, ICStoreRequestContext, MPCModelGenericAVItemAssetLoadProperties, NSObject;
+@class MPCModelGenericAVItemAssetLoadProperties, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemSubscriptionAssetLoadOperation
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    CDUnknownBlockType _cancellationHandler;
-    MPCModelGenericAVItemAssetLoadProperties *_assetLoadProperties;
-    long long _operationType;
-    ICStoreRequestContext *_requestContext;
-    CDUnknownBlockType _responseHandler;
-    ICMusicSubscriptionLeaseSession *_subscriptionLeaseSession;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
+- (id)`;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)performRequestWithHandler:(id *)arg1;
+- (_Bool)notifyIDSProxyOfAccount:(id *)arg1 store:withCommand: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)?ka;
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -44,10 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;
-@property(nonatomic) long long operationType; // @synthesize operationType=_operationType;
-@property(copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(retain, nonatomic) ICMusicSubscriptionLeaseSession *subscriptionLeaseSession; // @synthesize subscriptionLeaseSession=_subscriptionLeaseSession;
 
 @end
 

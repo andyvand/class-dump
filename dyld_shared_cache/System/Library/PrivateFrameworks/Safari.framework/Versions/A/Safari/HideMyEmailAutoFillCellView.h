@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HideMyEmailAutoFillCellView : ColorInvertingTableCellView
 {
     WBSHideMyEmailRecord *_record;
-    NSTextField *_hideMyEmailAddressTextField;
-    NSTextField *_hideMyEmailWebsiteTextField;
 }
 
 + (struct CGSize);
@@ -23,13 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_themeForButton:(id)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSTextField *hideMyEmailAddressTextField; // @synthesize hideMyEmailAddressTextField=_hideMyEmailAddressTextField;
-@property(nonatomic) __weak NSTextField *hideMyEmailWebsiteTextField; // @synthesize hideMyEmailWebsiteTextField=_hideMyEmailWebsiteTextField;
-@property(retain, nonatomic) WBSHideMyEmailRecord *record; // @synthesize record=_record;
 
 @end
 

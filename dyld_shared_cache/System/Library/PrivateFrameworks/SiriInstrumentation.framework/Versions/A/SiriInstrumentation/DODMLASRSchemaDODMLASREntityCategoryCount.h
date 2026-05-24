@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASREntityCategoryCount : SISchemaInstrumentationMessage
 {
     NSString *_entityCategory;
-    unsigned int _count;
-    CDStruct_bbadad30 _has;
-    _Bool _hasEntityCategory;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)portAppleIDAuthCertSerial;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)"b1"hasHandleWithPreferredType"b1"hasHandleWithAllowedType"b1"isCommunalRequest"b1"fractionOfCommunalDevicesMatchingCandidate"b1"isPlusSignal"b1"isOnlyCandidate"b1"isQueryNormalized"b1"isQueryStrippedOfPunctuation"b1"isQueryStrippedOfWhitespace"b1"isQueryStrippedOfSymbols"b1"isAsrE3Signal"b1};
-- (id)xperimentDigest;
+- (id)ODDSiriSchemaODDAssistantExperimentDigest;
 - (id)¾;
-- (void)T_HOUSE;
-- (unsigned int)NCLUSIVE;
+- (void)INTERCOMTARGET_HOUSE;
+- (unsigned int)PLUSMEDIAPLAYMEDIARESULT_INFERRED_INCONCLUSIVE;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
 @property(copy, nonatomic) NSString *entityCategory; // @synthesize entityCategory=_entityCategory;
-@property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasEntityCategory; // @synthesize hasEntityCategory=_hasEntityCategory;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

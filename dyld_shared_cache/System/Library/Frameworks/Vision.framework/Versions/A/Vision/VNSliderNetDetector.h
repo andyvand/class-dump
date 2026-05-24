@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (unsigned int);
 - (id);
 - (_Bool);
 - (unsigned int);

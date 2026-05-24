@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, NSWindow;
+@class NSWindow;
 
 @interface IKWindowEffect
 {
     NSWindow *_window;
-    NSView *_view;
-    struct CGAffineTransform _startTransform;
-    struct CGAffineTransform _endTransform;
-    double _startAlpha;
-    double _endAlpha;
-    double _startWhite;
-    double _endWhite;
-    double _duration;
-    unsigned int _connectionID;
-    long long _windowNumber;
-    struct CGRect _sourceRect;
-    struct CGRect _targetRect;
-    _Bool _transtionIsLinear;
-    _Bool _equalRects;
-    int _windowEffectType;
 }
 
 + (id);
@@ -31,27 +16,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)u;
 - (void);
 - (id);
 - (void);
 - (void)eCorrection"8Q16^B24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end

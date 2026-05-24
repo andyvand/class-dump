@@ -11,14 +11,12 @@
 @interface _NSPredicateRule : NSPredicateRule
 {
     NSString *_fact;
-    double _grade;
-    _Bool _asserting;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)QІ;
 - (void);
 - (id);
 - (void)ñá°1Â0@ù

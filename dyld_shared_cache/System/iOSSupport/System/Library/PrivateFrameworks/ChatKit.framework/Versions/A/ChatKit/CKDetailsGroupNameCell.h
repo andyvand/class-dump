@@ -6,58 +6,39 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class CKDetailsAddGroupNameView, NSString, UIButton;
-@protocol CKDetailsGroupNameCellDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CKDetailsGroupNameCell : CKDetailsCell
 {
     _Bool _showPhoneButton;
-    _Bool _showFaceTimeVideoButton;
-    CKDetailsAddGroupNameView *_groupNameView;
-    id <CKDetailsGroupNameCellDelegate> _delegate;
-    UIButton *_phoneButton;
-    UIButton *_facetimeVideoButton;
 }
 
 + (_Bool);
 + (id);
+- (_Bool)ictionary",R,N,V_decomposedHighlightInfo;
+- (void)ICFindInNoteHighlightColor;
+- (void)CGImageForProposedRect:(_Bool)arg1 context:hints: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)AyADyAEyA10__A11_AWyAEyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGGGGAGG;
+- (_Bool)C;
+- (id)s;
+- (id)ar recent System Paper thumbnail;
+- (void);
+- (void)_
+;
+- (id);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)orRange:(long long)arg1;
+- (id)attributedString:(long long)arg1 shouldAddAutoCompleteAttributeForRange:(id)arg2;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKDetailsGroupNameCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIButton *facetimeVideoButton; // @synthesize facetimeVideoButton=_facetimeVideoButton;
-@property(retain, nonatomic) CKDetailsAddGroupNameView *groupNameView; // @synthesize groupNameView=_groupNameView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIButton *phoneButton; // @synthesize phoneButton=_phoneButton;
-@property(nonatomic) _Bool showFaceTimeVideoButton; // @synthesize showFaceTimeVideoButton=_showFaceTimeVideoButton;
 @property(nonatomic) _Bool showPhoneButton; // @synthesize showPhoneButton=_showPhoneButton;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,13 +7,12 @@
 @interface NewsUI2.BundleSubscriberAdSegmentProvider
 {
     id needsUpdate;
-    id subscriptionManager;
 }
 
 - (void);
 - (id);
 - (void);
-- (void)dServiceContextKind;
+- (void)TodayFeedServiceContextKind;
 
 @end
 

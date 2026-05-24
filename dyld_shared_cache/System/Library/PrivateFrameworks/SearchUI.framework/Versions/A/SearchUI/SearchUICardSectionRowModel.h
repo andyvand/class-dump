@@ -6,15 +6,9 @@
 
 #import <SearchUI/SearchUIRowModel.h>
 
-@class NSString;
-
 @interface SearchUICardSectionRowModel : SearchUIRowModel
 {
     _Bool _isInline;
-    _Bool _isHorizontalInLayout;
-    _Bool _shouldFillAvailableSpace;
-    NSString *_cardReuseIdentifier;
-    struct CGSize _minimumLayoutSize;
 }
 
 - (_Bool);
@@ -45,28 +39,23 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)^;
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
+- (struct CGSize);
+- (void)P;
 - (id);
-- (struct CGSize);
-- (void);
+- (id)d during maintenance task before running subtask:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardReuseIdentifier; // @synthesize cardReuseIdentifier=_cardReuseIdentifier;
-@property(readonly, nonatomic) Class cardSectionViewClass;
-@property(nonatomic) _Bool isHorizontalInLayout; // @synthesize isHorizontalInLayout=_isHorizontalInLayout;
 @property(nonatomic) _Bool isInline; // @synthesize isInline=_isInline;
-@property(nonatomic) struct CGSize minimumLayoutSize; // @synthesize minimumLayoutSize=_minimumLayoutSize;
-@property(nonatomic) _Bool shouldFillAvailableSpace; // @synthesize shouldFillAvailableSpace=_shouldFillAvailableSpace;
 
 @end
 

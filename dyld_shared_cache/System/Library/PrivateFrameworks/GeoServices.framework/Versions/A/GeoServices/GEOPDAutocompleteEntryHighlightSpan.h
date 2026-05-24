@@ -9,15 +9,9 @@
 @interface GEOPDAutocompleteEntryHighlightSpan
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _length;
-    unsigned int _startIndex;
-    struct {
-        unsigned int has_length:1;
-        unsigned int has_startIndex:1;
-    } _flags;
 }
 
-+ (_Bool)n:(id)arg1;
++ (_Bool)setHasWatchProximityRadiusOn:(id)arg1;
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -28,27 +22,23 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)riggerUserSelectedPhrase vtPhraseTypeDidChangeNotificationReceived]_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)i;
 - (void);
 - (id)"y"d}"size"{?="width"d"height"d}};
 - (void)powerFormat;
-- (id)g;
+- (id)UTF8String;
 - (id){&;
 - (void)dª¯à°;
 - (id)es                WHERE tileset = @tileset    );;
-- (void)dressE;
+- (void)N8addr_obj4geo317StructuredAddressE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLength;
 @property(nonatomic) _Bool hasStartIndex;
-@property(nonatomic) unsigned int length;
-@property(nonatomic) unsigned int startIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

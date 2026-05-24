@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, TUSearchController;
+@class NSString;
 
 @interface TUSearchResults
 {
     NSString *_searchTerm;
-    NSMutableArray *_resultGroups;
-    TUSearchController *_searchController;
-    NSMutableArray *_allSearchItemsCache;
-    NSMutableArray *_allDataItemsCache;
 }
 
 - (void);
@@ -40,19 +36,11 @@
 - (void);
 - (id)!XFù³!°1Â0@ù
 × ;
-- (void)ceForNonRelayableService;
+- (void)validityErrorForEndpointNotOnCurrentDeviceForNonRelayableService;
 - (void)on:%@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allDataItems;
-@property(retain, nonatomic) NSMutableArray *allDataItemsCache; // @synthesize allDataItemsCache=_allDataItemsCache;
-@property(readonly) NSArray *allSearchItems;
-@property(retain, nonatomic) NSMutableArray *allSearchItemsCache; // @synthesize allSearchItemsCache=_allSearchItemsCache;
-@property(readonly) long long numberOfResults;
-@property(readonly) long long numberOfSections;
-@property(retain, nonatomic) NSMutableArray *resultGroups; // @synthesize resultGroups=_resultGroups;
-@property __weak TUSearchController *searchController; // @synthesize searchController=_searchController;
 @property(retain, nonatomic) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
 
 @end

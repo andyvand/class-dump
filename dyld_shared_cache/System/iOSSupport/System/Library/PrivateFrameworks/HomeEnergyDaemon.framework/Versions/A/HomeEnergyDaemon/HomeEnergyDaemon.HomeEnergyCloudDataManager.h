@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.HomeEnergyCloudDataManager
 {
     id trackedModels;
+    id;
 }
 
 @end

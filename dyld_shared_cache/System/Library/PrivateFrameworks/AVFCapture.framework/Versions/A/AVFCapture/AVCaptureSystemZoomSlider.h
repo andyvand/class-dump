@@ -6,30 +6,24 @@
 
 #import <AVFCapture/AVCaptureControl.h>
 
-@class AVCaptureDevice, NSDictionary;
+@class AVCaptureDevice;
 
 @interface AVCaptureSystemZoomSlider : AVCaptureControl
 {
     AVCaptureDevice *_device;
-    CDUnknownBlockType _action;
-    double _maxVideoZoomFactor;
-    NSDictionary *_displayValuesByZoomFactorValue;
-    struct os_unfair_lock_s _actionLock;
-    _Bool _observingDeviceVideoZoomFactor;
-    _Bool _changeZoomInProcess;
 }
 
 + (void)çß×@;
-- (void);
-- (void);
+- (void)augmentNetworkParametersForSession:(double)arg1 participantID:parameters: /* Error: Ran out of types for this method. */;
+- (void)_textFieldValues;
 - (double);
-- (void);
+- (void)_operationQueue;
+- (id)NSStreamDelegate;
 - (id);
+- (id)OfClasses(NSSet<Class> *__strong _Nonnull, NSData *__strong _Nonnull);
+- (void)MediaPlatform;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)URL"16;
 - (id);
 - (void);
 - (id);

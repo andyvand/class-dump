@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVTouchBarMediaSelectionOption, NSMutableArray;
-@protocol AVTouchBarMediaSelectionButtonViewControllerDelegate, AVTouchBarMediaSelectionControlling;
+@class AVTouchBarMediaSelectionOption, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarMediaSelectionButtonViewController
 {
     NSMutableArray *_bindings;
-    AVObservationController *_keyValueObservationController;
-    id <AVTouchBarMediaSelectionControlling> _playerController;
-    id <AVTouchBarMediaSelectionButtonViewControllerDelegate> _delegate;
-    AVTouchBarMediaSelectionOption *_previouslySelectedTouchBarLegibleMediaSelectionOption;
 }
 
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)figurationForUser:-> %p(UnlockEnabled:%d,IdentificationEnabled:%d,LoginEnabled:%d,ApplePayEnabled:%d,EfUnlockEnabled:%d,EfIdentificationEnabled:%d,EfLoginEnabled:%d,EfApplePayEnabled:%d)
+ /* Error: Ran out of types for this method. */;
+- (id)4^;
 - (id);
 - (void);
 - (void);
@@ -32,9 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AVTouchBarMediaSelectionButtonViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) id <AVTouchBarMediaSelectionControlling> playerController; // @synthesize playerController=_playerController;
-@property(retain) AVTouchBarMediaSelectionOption *previouslySelectedTouchBarLegibleMediaSelectionOption; // @synthesize previouslySelectedTouchBarLegibleMediaSelectionOption=_previouslySelectedTouchBarLegibleMediaSelectionOption;
 @property(readonly) AVTouchBarMediaSelectionOption *touchBarMediaSelectionOptionForToggling;
 
 @end

@@ -14,28 +14,25 @@
     _UIRemoteViewController *_remoteViewController;
 }
 
-+ (id);
++ (id)eduling a fetch operation from message zone, using token %@;
 + (_Bool);
 - (void);
 - (void);
 - (id);
 - (Class)tSettings";
-- (void)esponder:(id)arg1 WithOptions: /* Error: Ran out of types for this method. */;
-- (_Bool)isplayMode: /* Error: Ran out of types for this method. */;
+- (void)toggleDictationForResponder:(id)arg1 WithOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)_effectiveTargetDisplayModeForDisplayMode: /* Error: Ran out of types for this method. */;
 - (id)tentSequenceView;
 - (id)LiquidLensViewLargeVariantSpec",N,&,Vlarge;
-- (void)View;
+- (void)_UIDimmingKnockoutBackdropView;
 - (void);
 - (void);
-- (id)kViewAxis;
+- (id)UIStackViewAxis;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setInheritsSecurity:) _Bool _inheritsSecurity;
 @property(nonatomic, readonly) Class _intelligenceBaseClass;
-@property(retain, nonatomic) _UIHostedWindowHostingHandle *hostedWindowHostingHandle; // @synthesize hostedWindowHostingHandle=_hostedWindowHostingHandle;
-@property(nonatomic) __weak _UIRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
 
 @end
 

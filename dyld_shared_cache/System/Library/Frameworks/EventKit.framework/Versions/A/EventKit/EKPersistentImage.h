@@ -14,15 +14,15 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
-- (long long);
+- (long long)cache.;
 - (void);
+- (void)setDrain_duration_count_at_charge_start_secs_curr_static_bin:(id)arg1;
+- (id)signalEventsCount;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)<PAL::SessionID, std::unique_ptr<WebCore::NetworkStorageSession>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<PAL::SessionID, std::unique_ptr<WebCore::NetworkStorageSession>>>, HashFunctions = WTF::DefaultHash<PAL::SessionID>, Traits = WTF::HashMap<PAL::SessionID, std::unique_ptr<WebCore::NetworkStorageSession>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<PAL::SessionID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

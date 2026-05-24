@@ -32,15 +32,15 @@
 + (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)d;
 - (float);
 - (_Bool);
 - (double);
-- (struct CGColor *);
+- (struct CGColor *)t;
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)4;
 - (_Bool);
 - (id);
 

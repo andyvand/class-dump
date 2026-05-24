@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController, _UIZoomTransitionController;
+@class UIViewController, _UIZoomTransitionController;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneZoomTransitionHostComponent
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,16 +30,9 @@ __attribute__((visibility("hidden")))
 - (void)ttributedDetailMessage:(id)arg1;
 - (id)$__lazy_storage_$_lensingPortals;
 - (id)tingTraitCollectionPropagationClientComponent.m;
-- (void)immingEnabled;
+- (void)IsModelDimmingEnabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

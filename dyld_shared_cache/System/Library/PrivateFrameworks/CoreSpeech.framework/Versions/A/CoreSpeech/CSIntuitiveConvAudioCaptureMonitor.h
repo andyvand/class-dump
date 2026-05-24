@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioStartStreamOption, NSHashTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSIntuitiveConvAudioCaptureMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    CSAudioStartStreamOption *_startStreamOption;
 }
 
-+ (id)n: /* Error: Ran out of types for this method. */;
++ (id)_notifyDelegateOfRemovedConnection: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)P;
 - (void);
 - (void);
 - (void);
+- (void)f;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (id);
+- (void)initWithRequestRevision:(id)arg1 CRImageReaderOutput: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)FromActivation;
+- (id)();
+- (void)deltaTimeFromActivation;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSAudioStartStreamOption *startStreamOption; // @synthesize startStreamOption=_startStreamOption;
 
 @end
 

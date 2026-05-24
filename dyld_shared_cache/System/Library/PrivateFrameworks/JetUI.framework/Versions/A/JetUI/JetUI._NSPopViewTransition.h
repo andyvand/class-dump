@@ -7,9 +7,6 @@
 @interface JetUI._NSPopViewTransition
 {
     id sourceView;
-    id destinationView;
-    id dimmingView;
-    id popAnimator;
 }
 
 @end

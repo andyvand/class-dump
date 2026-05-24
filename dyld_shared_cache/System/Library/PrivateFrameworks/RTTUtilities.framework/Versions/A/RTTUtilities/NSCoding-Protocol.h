@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (id)N5raven49h_HorizontalDistanceTraveledArgs_RavenConvergenceIdEE;
 @end
 

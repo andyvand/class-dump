@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSString;
+@class NSArray;
 
 @interface CNUIDraggingContacts
 {
     NSArray *_draggingContacts;
-    CNContactStore *_contactStore;
 }
 
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id)ki;
 + (id);
 + (id);
 + (id);
@@ -24,28 +23,16 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)\;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id) ;
+- (void)allowPhotoCapture;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSArray *draggingContacts; // @synthesize draggingContacts=_draggingContacts;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 
 @end
 

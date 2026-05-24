@@ -6,29 +6,21 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLOutputBackingsVerifier, NSMutableArray, NSObject;
-@protocol MLModeling, MLStatefulModelEngine, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MLDelegateModel : MLModel
 {
     NSObject<OS_dispatch_queue> *_asyncPredictionQueue;
-    id <MLModeling> _internalEngine;
-    id <MLStatefulModelEngine> _statefulModelEngine;
-    MLOutputBackingsVerifier *_outputBackingsVerifier;
-    struct os_unfair_lock_s _asyncPredictionSchedulingLock;
-    unsigned long long _currentAsyncPredictionsInFlight;
-    struct atomic<bool> _prepared;
-    unsigned long long _maxAsyncPredictionsInFlight;
-    NSMutableArray *_pendingPredictionQueue;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -50,21 +42,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)t;
 - (void);
 - (id);
 - (int);
 - (id);
 - (id)"^{StorageManager}}};
 - (unsigned long long)¤<;
-- (void)tionHints;
+- (void)optimizationHints;
 - (void)T!Ö¯àWbjäQÀ¥U]r1B*Ûm»¦ºôüÈ
 ÁîEÙ%&þzÖuJµTïì|ë/Ê|Ì÷ÆÚzûG3âÛôíR<£e£-°-£yS¬ZVúÐ	/ÞÏhoIX)YI8âÈyUßÝa§ekãÅ1ää'f~Ïß¡j,ª«¾uyl^²iÆùmr-Â_V-ËÜêwSÏ&q\ªÄ-!ÑÕÎ$ÞõÝé³#	aí,¯ÚÌp¾Zn#§ó;­FqV?Ö,Ýu	ÇnLqn¤#ï¢ÛE>·(2*ìtqyÝT£ËÉõ%oH H®Àç=èVFýâ¾©ìLÏV;
 
 // Remaining properties
-@property(readonly, nonatomic) int engine;
 @property(readonly, nonatomic) unsigned long long maxAsyncPredictionsInFlight; // @synthesize maxAsyncPredictionsInFlight=_maxAsyncPredictionsInFlight;
-@property(readonly, nonatomic) NSMutableArray *pendingPredictionQueue; // @synthesize pendingPredictionQueue=_pendingPredictionQueue;
 
 @end
 

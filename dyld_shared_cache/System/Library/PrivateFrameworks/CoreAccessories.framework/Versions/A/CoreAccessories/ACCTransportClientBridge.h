@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACCTransportClient, NSString;
+@class ACCTransportClient;
 
 @interface ACCTransportClientBridge
 {
     ACCTransportClient *_transportClient;
-    CDUnknownBlockType _connectionAuthStatusChangedHandler;
-    CDUnknownBlockType _connectionPropertiesChangedHandler;
-    CDUnknownBlockType _endpointPropertiesChangedHandler;
-    CDUnknownBlockType _serverDisconnectedHandler;
 }
 
 + (id);
@@ -31,20 +27,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)et;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connectionAuthStatusChangedHandler; // @synthesize connectionAuthStatusChangedHandler=_connectionAuthStatusChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType connectionPropertiesChangedHandler; // @synthesize connectionPropertiesChangedHandler=_connectionPropertiesChangedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType endpointPropertiesChangedHandler; // @synthesize endpointPropertiesChangedHandler=_endpointPropertiesChangedHandler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType serverDisconnectedHandler; // @synthesize serverDisconnectedHandler=_serverDisconnectedHandler;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ACCTransportClient *transportClient; // @synthesize transportClient=_transportClient;
 
 @end

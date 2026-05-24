@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)for '%@'; got %@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

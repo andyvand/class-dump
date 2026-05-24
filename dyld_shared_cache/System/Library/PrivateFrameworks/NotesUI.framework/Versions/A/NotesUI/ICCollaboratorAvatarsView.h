@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShare, NSArray, NSStackView;
+@class NSArray;
 
 @interface ICCollaboratorAvatarsView
 {
     _Bool _reverseZIndexing;
-    double _borderWidth;
-    double _dimension;
-    NSArray *_participants;
-    CKShare *_share;
-    double _shadowOpacity;
-    double _shadowRadius;
-    double _spacing;
-    NSArray *_avatarContainerViews;
-    NSStackView *_avatarStackView;
-    struct CGSize _shadowOffset;
 }
 
 - (void);
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (id);
 - (id);
@@ -37,20 +27,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (id);
 - (id);
 - (double);
 - (void);
 - (void);
 - (id);
-- (double);
-- (void);
+- (double)PermissiveCloudKitXPCActivityUnknownState;
+- (void);
 - (double)@ù
 × ;
-- (void)tle;
+- (void)_displayingTitle;
 - (struct CGSize)f;
-- (void)ion;
+- (void)SiriNoteTextViewSizeDidChangeNotification;
 - (double)?0@"ICEvernoteNote"8;
 - (void)d;
 - (double);
@@ -59,17 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *avatarContainerViews; // @synthesize avatarContainerViews=_avatarContainerViews;
-@property(retain, nonatomic) NSStackView *avatarStackView; // @synthesize avatarStackView=_avatarStackView;
-@property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(nonatomic) double dimension; // @synthesize dimension=_dimension;
-@property(readonly, nonatomic) unsigned long long displayedAvatarCount;
-@property(retain, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(nonatomic) _Bool reverseZIndexing; // @synthesize reverseZIndexing=_reverseZIndexing;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
-@property(nonatomic) double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
-@property(nonatomic) __weak CKShare *share; // @synthesize share=_share;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
 
 @end
 

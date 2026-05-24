@@ -9,7 +9,6 @@
 @interface SYDTestConfiguration
 {
     NSString *_testServerName;
-    NSString *_testDeviceID;
 }
 
 + (_Bool);
@@ -17,15 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)RepresentableP;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *testDeviceID; // @synthesize testDeviceID=_testDeviceID;
 @property(readonly, copy, nonatomic) NSString *testServerName; // @synthesize testServerName=_testServerName;
 
 @end

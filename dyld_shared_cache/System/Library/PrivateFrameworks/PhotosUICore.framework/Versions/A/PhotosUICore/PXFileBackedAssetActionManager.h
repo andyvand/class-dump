@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)tles:(id)arg1;
+- (id)possibleValues:(id)arg1 titles: /* Error: Ran out of types for this method. */;
 - (void)(;
 
 // Remaining properties

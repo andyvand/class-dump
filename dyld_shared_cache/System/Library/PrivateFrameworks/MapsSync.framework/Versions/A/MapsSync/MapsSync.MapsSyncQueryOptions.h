@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSync.MapsSyncQueryPredicate, MapsSync.MapsSyncRange, NSArray;
+@class MapsSync.MapsSyncQueryPredicate;
 
 @interface MapsSync.MapsSyncQueryOptions
 {
     MapsSync.MapsSyncQueryPredicate *predicate;
-    MapsSync.MapsSyncRange *range;
-    void sortDescriptors;
-    _Bool notifyOnLoad;
-    _Bool lazyLoad;
 }
 
 + (id);
@@ -27,16 +23,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)updateReceiverVideoStreamConfiguration: /* Error: Ran out of types for this method. */;
+- (void)_candidateIdentifierToViewMap;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool lazyLoad; // @synthesize lazyLoad;
-@property(nonatomic) _Bool notifyOnLoad; // @synthesize notifyOnLoad;
 @property(nonatomic, retain) MapsSync.MapsSyncQueryPredicate *predicate; // @synthesize predicate;
-@property(nonatomic, retain) MapsSync.MapsSyncRange *range; // @synthesize range;
-@property(nonatomic, copy) NSArray *sortDescriptors;
 
 @end
 

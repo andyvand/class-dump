@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSURL;
+@class NSURL;
 
 @interface PKShoveOptions
 {
     _Bool _stompReplacementPaths;
-    NSURL *_sourcePath;
-    NSURL *_destPath;
-    unsigned long long _optionFlags;
-    NSSet *_forcedReplacementPaths;
 }
 
 + (_Bool);
@@ -27,17 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *destPath; // @synthesize destPath=_destPath;
-@property(retain) NSSet *forcedReplacementPaths; // @synthesize forcedReplacementPaths=_forcedReplacementPaths;
-@property unsigned long long optionFlags; // @synthesize optionFlags=_optionFlags;
 @property(retain) NSURL *sourcePath; // @synthesize sourcePath=_sourcePath;
-@property _Bool stompReplacementPaths; // @synthesize stompReplacementPaths=_stompReplacementPaths;
 
 @end
 

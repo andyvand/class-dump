@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNDInMemoryDonationPreferences
 {
     _Bool _donationsEnabled;
 }
 
 + (id);
-- (void);
-- (_Bool);
+- (void),N,GisAudio;
+- (_Bool)ICScannerFunctionalUnitProps;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isDonationsEnabled) _Bool donationsEnabled; // @synthesize donationsEnabled=_donationsEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

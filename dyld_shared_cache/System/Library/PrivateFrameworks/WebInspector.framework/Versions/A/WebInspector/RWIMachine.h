@@ -13,14 +13,14 @@
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)9q;
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)WriteRichTextDataWhenCopyingOrDragging;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCurrentMachine) _Bool currentMachine; // @synthesize currentMachine=_currentMachine;

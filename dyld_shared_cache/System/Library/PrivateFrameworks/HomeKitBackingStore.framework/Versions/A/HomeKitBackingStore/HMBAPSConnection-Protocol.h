@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol HMBAPSConnectionDelegate;
 
 @protocol HMBAPSConnection
+- (void),;
 
 // Remaining properties
 @property __weak id <HMBAPSConnectionDelegate> delegate;
-@property(copy) NSArray *enabledTopics;
 @end
 

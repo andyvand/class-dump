@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface SiriUIFanController
 {
     struct __CFNumber *_fanDuckingRequestToken;
-    unsigned int _connection;
-    _Bool _fanDuckingEnabled;
-    NSObject<OS_dispatch_queue> *_fanDispatchQueue;
 }
 
 + (_Bool);
@@ -27,10 +21,9 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (unsigned int)acterSetWithRange: /* Error: Ran out of types for this method. */;
+- (unsigned int)characterSetWithRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fanDispatchQueue; // @synthesize fanDispatchQueue=_fanDispatchQueue;
 @property(nonatomic) _Bool fanDuckingEnabled; // @synthesize fanDuckingEnabled=_fanDuckingEnabled;
 
 @end

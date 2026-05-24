@@ -6,50 +6,45 @@
 
 #import <MediaRemote/MRAVOutputDevice.h>
 
-@class MRAVOutputDeviceSourceInfo, NSArray, NSDictionary, _MRAVOutputDeviceDescriptorProtobuf;
+@class _MRAVOutputDeviceDescriptorProtobuf;
 
 @interface MRAVDistantOutputDevice : MRAVOutputDevice
 {
     _MRAVOutputDeviceDescriptorProtobuf *_protobuf;
-    MRAVOutputDeviceSourceInfo *_sourceInfo;
-    NSDictionary *_modelSpecificInfo;
-    NSArray *_clusterComposition;
-    NSArray *_activatedClusterMemebers;
-    NSArray *_allClusterMembers;
-    NSArray *_rooms;
 }
 
 + (_Bool);
 - (id);
+- (id)A
+;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)I2StatusViewController",R,V_statusViewController;
 - (float);
 - (void);
 - (id);
-- (float);
+- (float)?;
+- (id);
+- (_Bool);
+- (id)8;
+- (_Bool)guage detector. This is a critical error.;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)A;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -57,7 +52,7 @@
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -93,25 +88,25 @@
 - (id)ñ&Ð1Â0@ù
 × ;
 - (id)ext"56;
-- (_Bool)ConfigDeviceID: /* Error: Ran out of types for this method. */;
+- (_Bool)setManagedConfigDeviceID: /* Error: Ran out of types for this method. */;
 - (_Bool)setAdvertisement: /* Error: Ran out of types for this method. */;
-- (_Bool)fromID:withOptions: /* Error: Ran out of types for this method. */;
-- (_Bool)esUIDsString;
-- (_Bool)e64EncodedString:options: /* Error: Ran out of types for this method. */;
-- (_Bool)ts;
-- (_Bool)te;
+- (_Bool)service:account:inviteReceivedForSession:fromID:withOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)outputDevicesUIDsString;
+- (_Bool)initWithBase64EncodedString:options: /* Error: Ran out of types for this method. */;
+- (_Bool)hasRegisteredAgents;
+- (_Bool)_shouldRestoreState;
 - (id)er,V_container;
 - (_Bool)nel",R,N,V_outputContextCommunicationChannel;
-- (void)uestMessageProtobuf;
+- (void)_MRPlaybackSessionRequestMessageProtobuf;
 - (id)Ð{|È|;
 - (_Bool)xø;
 - (_Bool)ntroller] <%@> processing SupportedCommandsDidChangeNotification.;
 - (long long)riving encryption keys.;
-- (_Bool)sionInfoUserInfoKey;
-- (unsigned long long)ryLevel;
-- (_Bool)on;
+- (_Bool)MRAVEndpointGroupSessionInfoUserInfoKey;
+- (unsigned long long)batteryLevel;
+- (_Bool)MRAVOutputContextModificationWillRemoveOutputDeviceNotification;
 - (_Bool)ect passed to %s;
-- (id)reen;
+- (id)SharedSystemScreen;
 - (_Bool)Ûÿ@³;
 - (_Bool)ðÚÔÿçb;
 - (_Bool)hD
@@ -124,7 +119,6 @@
 - (id)%;
 
 // Remaining properties
-@property(readonly, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *generateDescriptor;
 @property(readonly, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *protobuf;
 
 @end

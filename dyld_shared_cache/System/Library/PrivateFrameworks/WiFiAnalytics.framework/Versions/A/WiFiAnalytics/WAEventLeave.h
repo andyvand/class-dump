@@ -9,7 +9,6 @@
 @interface WAEventLeave : WAEvent
 {
     _Bool _isInVoluntary;
-    double _associationDuration;
 }
 
 + (id);
@@ -18,13 +17,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ic}@};
 - (void);
 - (double);
-- (void);
+- (void)erge(const CLPreferences &, bool);
 
 // Remaining properties
-@property(nonatomic) double associationDuration; // @synthesize associationDuration=_associationDuration;
 @property(nonatomic) _Bool isInVoluntary; // @synthesize isInVoluntary=_isInVoluntary;
 
 @end

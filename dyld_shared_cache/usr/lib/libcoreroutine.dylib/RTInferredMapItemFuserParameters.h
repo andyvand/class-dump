@@ -7,28 +7,20 @@
 @interface RTInferredMapItemFuserParameters
 {
     double _aoiConsiderThreshold;
-    double _aoiUseThreshold;
-    double _confidenceEqualityEpsilon;
-    double _distanceThreshold;
-    double _placeholderMultiplier;
 }
 
 - (double);
-- (id);
+- (id)_lrcSerializedEscrowRecord;
+- (double)initial sync has completed, rejecting OOB fetch;
+- (double)chef;
 - (double);
-- (double);
-- (double);
-- (id);
+- (id)ionStateAllocbind = %@, hasNoSessionStateTestOptions = %@, reconnectQUIC = %@;
 - (id);
 - (double);
 - (id)fter reset sync;
 
 // Remaining properties
 @property(readonly, nonatomic) double aoiConsiderThreshold; // @synthesize aoiConsiderThreshold=_aoiConsiderThreshold;
-@property(readonly, nonatomic) double aoiUseThreshold; // @synthesize aoiUseThreshold=_aoiUseThreshold;
-@property(readonly, nonatomic) double confidenceEqualityEpsilon; // @synthesize confidenceEqualityEpsilon=_confidenceEqualityEpsilon;
-@property(readonly, nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;
-@property(readonly, nonatomic) double placeholderMultiplier; // @synthesize placeholderMultiplier=_placeholderMultiplier;
 
 @end
 

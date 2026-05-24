@@ -22,7 +22,7 @@
 - (id);
 - (void)Chest Lite;
 - (id):%@ /* Error: Ran out of types for this method. */;
-- (id)leSessionID;
+- (id)IDSLoggableSessionID;
 - (id)èo;
 
 // Remaining properties

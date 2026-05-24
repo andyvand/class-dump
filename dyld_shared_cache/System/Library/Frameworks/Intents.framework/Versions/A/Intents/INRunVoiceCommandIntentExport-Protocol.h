@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntentExecutionResult, INSpeakableString, INVoiceCommandDeviceInformation, NSString;
+@class INSpeakableString, INVoiceCommandDeviceInformation, NSString;
 
 @protocol INRunVoiceCommandIntentExport
+- (INSpeakableString *);
+- (NSString *);
+- (INVoiceCommandDeviceInformation *);
 
 // Remaining properties
-@property(copy) INIntentExecutionResult *executionResult;
-@property(copy) INVoiceCommandDeviceInformation *originDevice;
-@property(copy) NSString *previousIntentIdentifier;
 @property(copy) INSpeakableString *voiceCommand;
 @end
 

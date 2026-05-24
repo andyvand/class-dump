@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CIImage;
+@class CIContext;
 
 @interface PIPosterLayoutHelper
 {
     CIContext *_context;
-    CIImage *_matte;
-    _Bool _shouldConstrainLayoutToBounds;
 }
 
 - (id);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void)uldUseGainMapExposureCompensationForRawProperties: /* Error: Ran out of types for this method. */;
+- (void)shouldUseGainMapExposureCompensationForRawProperties: /* Error: Ran out of types for this method. */;
 
 @end
 

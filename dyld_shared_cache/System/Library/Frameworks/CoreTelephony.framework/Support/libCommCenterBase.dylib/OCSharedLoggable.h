@@ -7,22 +7,20 @@
 @interface OCSharedLoggable
 {
     struct queue _queue;
-    struct OsLogContext _logContext;
 }
 
-- (void);
+- (void);
 - (struct queue);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (struct OsLogContext);
+- (struct OsLogContext)__DATA;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=getLogContext) struct OsLogContext logContext; // @synthesize logContext=_logContext;
 @property(nonatomic, getter=getQueue) struct queue queue; // @synthesize queue=_queue;
 
 @end

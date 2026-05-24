@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalLocation, NSString;
+@class CalLocation;
 
 @interface CalRoute
 {
     CalLocation *_start;
-    CalLocation *_end;
-    double _duration;
-    NSString *_route;
 }
 
 + (_Bool);
@@ -19,8 +16,8 @@
 - (id);
 - (double);
 - (void);
-- (id);
-- (void);
+- (id)4;
+- (void)kA;
 - (id);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property double duration; // @synthesize duration=_duration;
-@property(retain) CalLocation *end; // @synthesize end=_end;
-@property(copy) NSString *route; // @synthesize route=_route;
 @property(retain) CalLocation *start; // @synthesize start=_start;
 
 @end

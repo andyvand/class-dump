@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSArray, NSMutableArray, NSString;
+@class CHDrawing;
 
 @interface CHSynthesisResult
 {
     struct optional<CHPrincipalLines> _principalLines;
-    NSMutableArray *_subresults;
-    CHDrawing *_drawing;
-    NSString *_content;
-    NSArray *_segmentContents;
-    NSArray *_segmentStrokeIndexes;
-    unsigned long long _numberOfNotSynthesizedCharacters;
-    CHDrawing *_inventoryDebuggingStyleDrawing;
-    NSString *_inventoryDebuggingStyleContent;
-    NSArray *_contractViolations;
-    double _averageDistanceBetweenElements;
 }
 
-+ (_Bool);
++ (_Bool)leFactorIfAvailable: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -42,28 +32,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R>;
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void)°!;
 
 // Remaining properties
-@property double averageDistanceBetweenElements; // @synthesize averageDistanceBetweenElements=_averageDistanceBetweenElements;
-@property(readonly) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSArray *contractViolations; // @synthesize contractViolations=_contractViolations;
-@property(readonly) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, nonatomic) NSString *inventoryDebuggingStyleContent; // @synthesize inventoryDebuggingStyleContent=_inventoryDebuggingStyleContent;
 @property(readonly, nonatomic) CHDrawing *inventoryDebuggingStyleDrawing; // @synthesize inventoryDebuggingStyleDrawing=_inventoryDebuggingStyleDrawing;
-@property unsigned long long numberOfNotSynthesizedCharacters; // @synthesize numberOfNotSynthesizedCharacters=_numberOfNotSynthesizedCharacters;
-@property(nonatomic) CDStruct_9bc45644 principalLines;
-@property(readonly) NSArray *segmentContents; // @synthesize segmentContents=_segmentContents;
-@property(readonly) NSArray *segmentStrokeIndexes; // @synthesize segmentStrokeIndexes=_segmentStrokeIndexes;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, NSString;
+@class AMSSQLiteConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSEngagementCacheDatabase
@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)_emitEnablementFlowLoggingForConfigurationParameters:(id)arg1 didEnable:(id)arg2;
 - (_Bool);
 - (_Bool)ÍÍ:(id)arg1 çÐØl\ûÎ¬ÑÓÎÈ'^q°ëºäÍpAÜñii¢ª½è­ãg¿íì=Ým»ZVØ­¤ÇhkÏ¸)µuEO9jÅýu«O£)ØðkÓ©qd+dHRÝ;EeÁäè[*±ÙÈàÔí±±í¯Ëox9&M¸QÑ+mÄÜ"²Å¥ÇñÖg¥÷*9²a®M67¼Þï½cÉæÝ
 Eí	Êfê"ä¢zßEføZ¸><_ÀH!ïÔÿéWkî!`ó÷Zä1mÌ¡R1·¾¥6áçåÚ)öçP=ý¶ôÚ
@@ -29,13 +29,6 @@ rý©+?aPT.7ÓÀú¦&´I&Su}¶]	¤AÒo.>_¶¼0(j±Â£Ç/Ó$
 
 // Remaining properties
 @property(retain) AMSSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

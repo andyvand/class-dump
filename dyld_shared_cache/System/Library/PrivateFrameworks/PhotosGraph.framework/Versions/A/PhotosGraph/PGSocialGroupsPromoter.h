@@ -9,9 +9,9 @@
 }
 
 + (id);
-+ (id);
++ (id)H;
 - (id);
-- (void)electionUserChoiceResetTimeout;
+- (void)librarySelectionUserChoiceResetTimeout;
 
 @end
 

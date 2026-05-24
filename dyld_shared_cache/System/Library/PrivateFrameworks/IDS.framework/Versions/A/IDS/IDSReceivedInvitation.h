@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)recvPush;
+- (void);
 - (void);
 - (void)0@ù
 × ;

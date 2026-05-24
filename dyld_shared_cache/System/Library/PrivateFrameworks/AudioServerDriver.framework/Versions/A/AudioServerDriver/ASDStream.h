@@ -6,42 +6,11 @@
 
 #import <AudioServerDriver/ASDObject.h>
 
-@class ASDStreamFormat, NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ASDStreamFormat;
 
 @interface ASDStream : ASDObject
 {
     ASDStreamFormat *_physicalFormat;
-    NSArray *_physicalFormats;
-    NSObject<OS_dispatch_queue> *_physicalFormatQueue;
-    NSMutableArray *_controls;
-    NSObject<OS_dispatch_queue> *_controlQueue;
-    NSString *_streamName;
-    unsigned int _latency;
-    _Bool _isTapStream;
-    CDUnknownBlockType _readInputBlockUnretained;
-    CDUnknownBlockType _convertInputBlockUnretained;
-    CDUnknownBlockType _processInputBlockUnretained;
-    CDUnknownBlockType _processOutputBlockUnretained;
-    CDUnknownBlockType _mixOutputBlockUnretained;
-    CDUnknownBlockType _processMixBlockUnretained;
-    CDUnknownBlockType _convertMixBlockUnretained;
-    CDUnknownBlockType _writeMixBlockUnretained;
-    CDUnknownBlockType _readIsolatedInputBlockUnretained;
-    _Bool _isActive;
-    _Bool _physicalFormatSettable;
-    unsigned int _direction;
-    unsigned int _startingChannel;
-    unsigned int _terminalType;
-    CDUnknownBlockType _readInputBlock;
-    CDUnknownBlockType _convertInputBlock;
-    CDUnknownBlockType _processInputBlock;
-    CDUnknownBlockType _processOutputBlock;
-    CDUnknownBlockType _mixOutputBlock;
-    CDUnknownBlockType _processMixBlock;
-    CDUnknownBlockType _convertMixBlock;
-    CDUnknownBlockType _writeMixBlock;
-    CDUnknownBlockType _readIsolatedInputBlock;
 }
 
 - (CDUnknownBlockType *);
@@ -66,7 +35,7 @@
 - (CDUnknownBlockType *);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)C;
 - (CDUnknownBlockType *);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -74,7 +43,7 @@
 - (_Bool);
 - (CDUnknownBlockType *);
 - (CDUnknownBlockType *);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (_Bool);
@@ -82,15 +51,15 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType *);
+- (id)C;
+- (CDUnknownBlockType *);
 - (id);
 - (unsigned int);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)resetCounterGroups;
+- (void)objectRespondsToHPSLanguageValueProtocolMethods:(id)arg1;
+- (void)objectRespondsToHPSLanguageValueProtocolMethods:(id)arg1;
+- (CDUnknownBlockType)markAuthenticateUserEnd;
+- (id)initWithSetupAccessoryPayload:(unsigned int)arg1 appID:(id)arg2 homeUUID:ownershipToken: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -102,52 +71,25 @@
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void)ot add 2 elements to context;
 - (unsigned int);
 - (void);
 - (_Bool);
-- (unsigned int);
-- (id);
+- (unsigned int)da_dataWithHexString:(const struct AudioObjectPropertyAddress *)arg1 stringIsUppercase:(unsigned int)arg2;
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)send auto bug capture signature:(const struct AudioObjectPropertyAddress *)arg1 %@ with sessionID:%@
+ /* Error: Ran out of types for this method. */;
+- (_Bool)anagedconfiguration.passcodechanged;
 - (id);
 - (void);
 - (id);
-- (void)ugin:(id)arg1 andObjectClassID: /* Error: Ran out of types for this method. */;
+- (void)initWithElement:(id)arg1 inScope:withPlugin:andObjectClassID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType convertInputBlock; // @synthesize convertInputBlock=_convertInputBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *convertInputBlockUnretainedPtr;
-@property(copy, nonatomic) CDUnknownBlockType convertMixBlock; // @synthesize convertMixBlock=_convertMixBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *convertMixBlockUnretainedPtr;
-@property(nonatomic) unsigned int direction; // @synthesize direction=_direction;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) _Bool isTapStream;
-@property(nonatomic) unsigned int isolatedLatency;
-@property(nonatomic) unsigned int latency; // @dynamic latency;
-@property(copy, nonatomic) CDUnknownBlockType mixOutputBlock; // @synthesize mixOutputBlock=_mixOutputBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *mixOutputBlockUnretainedPtr;
-@property(copy, nonatomic) ASDStreamFormat *physicalFormat; // @dynamic physicalFormat;
-@property(nonatomic, getter=isPhysicalFormatSettable) _Bool physicalFormatSettable; // @synthesize physicalFormatSettable=_physicalFormatSettable;
-@property(copy, nonatomic) NSArray *physicalFormats; // @dynamic physicalFormats;
-@property(copy, nonatomic) CDUnknownBlockType processInputBlock; // @synthesize processInputBlock=_processInputBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *processInputBlockUnretainedPtr;
-@property(copy, nonatomic) CDUnknownBlockType processMixBlock; // @synthesize processMixBlock=_processMixBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *processMixBlockUnretainedPtr;
-@property(copy, nonatomic) CDUnknownBlockType processOutputBlock; // @synthesize processOutputBlock=_processOutputBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *processOutputBlockUnretainedPtr;
-@property(copy, nonatomic) CDUnknownBlockType readInputBlock; // @synthesize readInputBlock=_readInputBlock;
 @property(readonly, nonatomic) CDUnknownBlockType *readInputBlockUnretainedPtr;
-@property(copy, nonatomic) CDUnknownBlockType readIsolatedInputBlock; // @synthesize readIsolatedInputBlock=_readIsolatedInputBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *readIsolatedInputBlockUnretainedPtr;
-@property(nonatomic) unsigned int startingChannel; // @synthesize startingChannel=_startingChannel;
-@property(copy, nonatomic) NSString *streamName; // @dynamic streamName;
-@property(nonatomic) unsigned int terminalType; // @synthesize terminalType=_terminalType;
-@property(copy, nonatomic) CDUnknownBlockType writeMixBlock; // @synthesize writeMixBlock=_writeMixBlock;
-@property(readonly, nonatomic) CDUnknownBlockType *writeMixBlockUnretainedPtr;
 
 @end
 

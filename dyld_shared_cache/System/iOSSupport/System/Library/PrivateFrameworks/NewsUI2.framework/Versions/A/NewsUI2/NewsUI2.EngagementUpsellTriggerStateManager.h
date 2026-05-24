@@ -7,13 +7,6 @@
 @interface NewsUI2.EngagementUpsellTriggerStateManager
 {
     id appVersion;
-    id featureSettings;
-    id dateProvider;
-    id store;
-    id presentationOperationManager;
-    id conditionEvaluator;
-    id lock;
-    id _triggerVersions;
 }
 
 @end

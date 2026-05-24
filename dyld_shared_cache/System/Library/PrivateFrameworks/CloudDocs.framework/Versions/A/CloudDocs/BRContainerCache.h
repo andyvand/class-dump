@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, br_pacer;
-@protocol BRContainerHelper, NSObject, OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface BRContainerCache
 {
     NSString *_personaID;
-    id <BRContainerHelper> _helper;
-    NSMutableDictionary *_containersByID;
-    NSMutableSet *_fetchedContainerIDs;
-    _Bool _containerCacheUptodate;
-    NSObject<OS_dispatch_queue> *_queue;
-    br_pacer *_invalidationPacer;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    id <NSObject> _containerStatusObserver;
 }
 
 + (id);
@@ -28,9 +19,9 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (void);
@@ -38,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 
 @end

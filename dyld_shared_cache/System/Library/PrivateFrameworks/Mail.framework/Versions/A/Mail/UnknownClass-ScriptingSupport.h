@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCategory, MFMailAccount, MFMailbox, NSArray, NSIndexSet, NSScriptObjectSpecifier, NSString;
+@class NSScriptObjectSpecifier;
 
 @interface UnknownClass (ScriptingSupport)
 - (_Bool);
@@ -16,16 +16,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)";
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (int);
 - (id);
@@ -33,7 +33,7 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)qA;
 - (id);
 - (void);
 - (id);
@@ -44,7 +44,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)y;
 - (_Bool);
 - (id);
 - (id);
@@ -54,8 +54,8 @@
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void);
-- (unsigned int)Delegate;
+- (void)6;
+- (unsigned int)MFEWSMailboxReconcileTaskOperationDelegate;
 - (long long);
 - (id)OWID = messages.subject));
 - (_Bool);
@@ -64,34 +64,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *appliedFlagColors;
-@property(readonly, copy, nonatomic) NSArray *bccRecipients;
-@property(readonly, copy, nonatomic) NSArray *ccRecipients;
-@property(readonly, nonatomic) unsigned long long conversationFlags;
-@property(readonly, nonatomic) long long conversationID;
-@property(readonly, nonatomic) int conversationPosition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long highImpactCategoryType;
-@property(readonly, nonatomic) _Bool isChildRequestMessage;
-@property(readonly, nonatomic) _Bool isPrimary;
-@property(readonly, nonatomic) _Bool isPriority;
-@property(readonly, nonatomic) long long libraryID;
-@property(readonly, nonatomic) MFMailAccount *mailAccount;
-@property(readonly, nonatomic) MFMailbox *mailMailbox;
-@property(readonly, nonatomic) long long mf_businessID;
-@property(readonly, nonatomic) EMCategory *mf_category;
 @property(readonly) NSScriptObjectSpecifier *objectSpecifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *toRecipients;
-@property(readonly) unsigned int unreadCount;
 @end
 

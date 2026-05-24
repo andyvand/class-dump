@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSPredicate, NSString;
+@class NSPredicate;
 
 @interface MUIMailboxFilter
 {
     _Bool _hasMailboxPredicate;
-    long long _type;
-    NSString *_name;
-    NSString *_filterDescription;
-    NSString *_iconImageName;
-    NSImage *_icon;
-    NSColor *_iconTintColor;
-    NSPredicate *_predicate;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)k;
+- (id)3;
 - (id);
 - (id);
 - (_Bool);
@@ -46,27 +39,13 @@
 - (id);
 - (long long);
 - (_Bool);
+- (id);
+- (void)frameAnalyzerFrameResultBuffer;
 - (id);
-- (void);
-- (id);
-- (void)tForTextStyle:options: /* Error: Ran out of types for this method. */;
+- (void)preferredFontForTextStyle:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *filterDescription; // @synthesize filterDescription=_filterDescription;
-@property(nonatomic) _Bool hasMailboxPredicate; // @synthesize hasMailboxPredicate=_hasMailboxPredicate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *iconImageName; // @synthesize iconImageName=_iconImageName;
-@property(retain, nonatomic) NSColor *iconTintColor; // @synthesize iconTintColor=_iconTintColor;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

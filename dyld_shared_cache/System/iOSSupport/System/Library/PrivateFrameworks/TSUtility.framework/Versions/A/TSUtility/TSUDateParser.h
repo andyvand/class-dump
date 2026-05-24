@@ -9,15 +9,12 @@
 @interface TSUDateParser
 {
     NSMutableArray *mFormatCategories;
-    struct __CFLocale *mLocale;
-    _Bool mIsJapaneseLocale;
-    struct __CFDateFormatter *mSpecialCaseFormatter;
 }
 
 + (id);
-- (void);
-- (struct __CFDate *);
-- (void);
+- (void)featurePromotionEnabled;
+- (struct __CFDate *)_selection;
+- (void)el_Sb13notificationst;
 - (struct __CFDateFormatter *);
 - (struct __CFDate *);
 - (struct __CFDate *);

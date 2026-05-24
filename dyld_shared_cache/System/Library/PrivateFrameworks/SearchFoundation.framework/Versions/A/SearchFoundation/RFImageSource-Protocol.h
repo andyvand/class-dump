@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFAppIconImage, RFAvatarImage, RFBadgedImage, RFDefaultBrowserAppIconImage, RFMonogramImage, RFSymbolImage, RFUrlImage;
+@class RFAppIconImage, RFUrlImage;
 
 @protocol RFImageSource
+- (void);
+- (RFAppIconImage *);
 
 // Remaining properties
-@property(retain, nonatomic) RFAppIconImage *app_icon;
-@property(retain, nonatomic) RFAvatarImage *avatar;
-@property(retain, nonatomic) RFBadgedImage *badged_image;
-@property(retain, nonatomic) RFDefaultBrowserAppIconImage *default_browser_app_icon;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool do_not_show_loading_placeholder;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFMonogramImage *monogram;
-@property(retain, nonatomic) RFSymbolImage *symbol;
 @property(retain, nonatomic) RFUrlImage *url;
 @end
 

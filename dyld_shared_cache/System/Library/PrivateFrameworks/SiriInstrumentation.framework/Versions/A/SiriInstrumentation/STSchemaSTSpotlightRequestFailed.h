@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTSpotlightRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
 - (void);
@@ -22,28 +17,24 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)arrivalUpdater:shouldShowChargingInfoForWaypoint: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (unsigned long long)updateForAccountID:withContext:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ge;
+- (_Bool)gration failed to rename madrid_chat table.;
+- (void)�;
 - (id);
 - (id);
-- (id)eDecision;
-- (id);
-- (void)tVersion;
-- (void)iptionHashChangeInSeconds;
+- (id)deleteMitigationResponseDecision;
+- (id)_hasServerPod;
+- (void)responseCatalogMobileAssetVersion;
+- (void)timeSinceLastModelCatalogSubscriptionHashChangeInSeconds;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

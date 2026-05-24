@@ -16,9 +16,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,20 +43,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)rKey:%@ quality:%lu /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setDamping: /* Error: Ran out of types for this method. */;
+- (_Bool)retches;
+- (_Bool)wnEvent;
 - (_Bool);
 - (_Bool);
 - (void)@"NSArray">24;
-- (_Bool)alRoundDownValueKey;
-- (_Bool)ceKitConnector;
+- (_Bool)MapsSuggestionsDurationSignalRoundDownValueKey;
+- (_Bool)MapsSuggestionsRealFinanceKitConnector;
 
 @end
 

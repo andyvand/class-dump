@@ -6,68 +6,46 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@class CPLEnginePushRepository, CPLEngineScheduler, CPLEngineScope, CPLEngineScopeStorage, CPLEngineTransport, CPLTransportScopeMapping, CPLUploadPushedChangesTask, NSDate, NSObject, NSString;
-@protocol CPLEngineTransportGroup, CPLEngineTransportUpdateContributorsTask, OS_dispatch_queue;
+@class CPLUploadPushedChangesTask, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLPushToTransportScopeTask : CPLEngineScopedTask
 {
     NSObject<OS_dispatch_queue> *_lock;
-    struct os_unfair_lock_s _currentSubtaskLock;
-    NSString *_scopeIdentifier;
-    CPLEngineScopeStorage *_scopes;
-    CPLEngineTransport *_transport;
-    CPLEnginePushRepository *_pushRepository;
-    CPLEngineScheduler *_scheduler;
-    CPLEngineScope *_sharedScope;
-    long long _ruleGroup;
-    CPLTransportScopeMapping *_transportScopeMapping;
-    id <CPLEngineTransportUpdateContributorsTask> _updateContributorsTask;
-    id <CPLEngineTransportGroup> _storedTransportGroup;
-    id <CPLEngineTransportGroup> _transportGroup;
-    long long _taskItem;
-    NSString *_currentTaskKey;
-    NSDate *_taskStartDate;
-    unsigned long long _recordCount;
-    _Bool _didExtractOneBatch;
-    _Bool _wasBusy;
-    _Bool _hasUploadedOneBatch;
-    _Bool _retryImmediately;
-    _Bool _highPriority;
-    CPLUploadPushedChangesTask *_currentSubtask;
 }
 
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool),;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ªï´;
 - (void);
 - (void);
 - (void);
@@ -77,14 +55,6 @@
 
 // Remaining properties
 @property(readonly) CPLUploadPushedChangesTask *currentSubtask; // @synthesize currentSubtask=_currentSubtask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly) Class superclass;
 
 @end
 

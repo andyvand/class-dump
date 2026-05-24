@@ -5,5 +5,8 @@
 //
 
 @protocol CWFXPCRequestProtocolInternal
+- (void);
+- (void);
+- (void)a;
 @end
 

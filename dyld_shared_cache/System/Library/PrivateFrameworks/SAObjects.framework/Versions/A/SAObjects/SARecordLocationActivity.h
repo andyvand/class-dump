@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SALocation;
+@class SALocation;
 
 @interface SARecordLocationActivity : SABaseClientBoundCommand
 {
@@ -16,13 +16,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)rch;
-- (id)Id;
+- (void)SASmsSearch;
+- (id)refereceId;
 - (void)+K7;
 
 // Remaining properties
 @property(retain, nonatomic) SALocation *location;
-@property(copy, nonatomic) NSString *sourceType;
 
 @end
 

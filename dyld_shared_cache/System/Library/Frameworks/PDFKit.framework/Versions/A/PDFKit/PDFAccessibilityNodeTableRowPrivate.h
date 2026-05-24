@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeTableRowPrivate
 {
     long long index;
-    _Bool isHeader;
 }
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol IKRenderer
+- (_Bool);
+- (void)e.Schedule;
 @end
 

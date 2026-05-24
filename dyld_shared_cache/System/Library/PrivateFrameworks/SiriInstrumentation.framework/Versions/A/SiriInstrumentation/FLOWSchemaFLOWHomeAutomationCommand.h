@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWHomeAutomationCommand : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_commandId;
-    int _commandType;
-    int _commandOutcome;
-    int _commandErrorReason;
-    unsigned int _commandDuration;
-    NSArray *_homeAutomationRequests;
-    struct {
-        unsigned int commandType:1;
-        unsigned int commandOutcome:1;
-        unsigned int commandErrorReason:1;
-        unsigned int commandDuration:1;
-    } _has;
-    _Bool _hasCommandId;
 }
 
 @end

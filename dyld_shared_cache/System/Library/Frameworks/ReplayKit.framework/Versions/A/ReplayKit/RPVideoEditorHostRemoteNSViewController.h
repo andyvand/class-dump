@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSExtension, NSString, RPVideoEditorViewServiceExtensionHostContext;
+@class NSExtension;
 @protocol RPVideoEditorHostRemoteNSViewControllerDelegate;
 
 @interface RPVideoEditorHostRemoteNSViewController
 {
     id <RPVideoEditorHostRemoteNSViewControllerDelegate> _delegate;
-    RPVideoEditorViewServiceExtensionHostContext *_hostContext;
-    NSExtension *_extension;
-    NSArray *_inputItems;
 }
 
 + (void);
 - (oneway void);
 - (void);
+- (id)rray, and cube map textures;
 - (id);
-- (id);
+- (void)_addGPUFrameScheduledHandler: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)search descriptions to NSData;
 - (void);
 - (void);
 - (id);
@@ -31,17 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RPVideoEditorHostRemoteNSViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RPVideoEditorViewServiceExtensionHostContext *hostContext; // @synthesize hostContext=_hostContext;
-@property(retain, nonatomic) NSArray *inputItems; // @synthesize inputItems=_inputItems;
-@property(readonly) Class superclass;
 
 @end
 

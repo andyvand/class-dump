@@ -6,13 +6,13 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMInstrument, NSNumber, NSString;
+@class NSString;
 
 @interface MXMNetworkMetric : MXMMetric
 {
 }
 
-+ (id);
++ (id)brary/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (id);
 - (_Bool);
@@ -20,11 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_results;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MXMInstrument *instrument; // @dynamic instrument;
-@property(readonly, copy, nonatomic) NSNumber *processIdentifier;
 @property(readonly, copy, nonatomic) NSString *processName;
 
 @end

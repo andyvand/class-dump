@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDOwnedObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CNCDPostalAddress : ABCDOwnedObject
 {
@@ -17,17 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *city; // @dynamic city;
-@property(retain, nonatomic) NSString *countryCode; // @dynamic countryCode;
-@property(retain, nonatomic) NSString *countryName; // @dynamic countryName;
-@property(retain, nonatomic) NSData *customValuesDictionary; // @dynamic customValuesDictionary;
 @property(retain, nonatomic) NSString *region; // @dynamic region;
-@property(retain, nonatomic) NSString *sama; // @dynamic sama;
-@property(retain, nonatomic) NSString *state; // @dynamic state;
-@property(retain, nonatomic) NSString *street; // @dynamic street;
-@property(retain, nonatomic) NSString *subAdministrativeArea;
-@property(retain, nonatomic) NSString *subLocality; // @dynamic subLocality;
-@property(retain, nonatomic) NSString *zipCode; // @dynamic zipCode;
 
 @end
 

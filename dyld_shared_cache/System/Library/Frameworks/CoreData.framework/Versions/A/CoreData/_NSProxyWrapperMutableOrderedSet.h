@@ -15,6 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)f;
 - (void);
 - (void);
 - (void);
@@ -23,17 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)tring",C,N,V_standardOutputPath;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 

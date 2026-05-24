@@ -9,7 +9,6 @@
 @interface TRITrialExperimentFields
 {
     NSString *_clientExperimentId;
-    NSString *_clientTreatmentId;
 }
 
 - (_Bool);
@@ -17,23 +16,20 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)@56;
+- (void)fetchMomentIDsNotAnalyzedForThemesInContext:(id)arg1 adapterVersion:uemVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)mage request for RAW completed, but client decided that this RAW is invalid, re-requesting JPEG;
 - (id);
-- (void);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientExperimentId; // @synthesize clientExperimentId=_clientExperimentId;
-@property(retain, nonatomic) NSString *clientTreatmentId; // @synthesize clientTreatmentId=_clientTreatmentId;
 @property(readonly, nonatomic) _Bool hasClientExperimentId;
-@property(readonly, nonatomic) _Bool hasClientTreatmentId;
 
 @end
 

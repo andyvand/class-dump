@@ -7,18 +7,6 @@
 @interface WidgetKit.WidgetArchiver.ArchivingDelegate
 {
     id bundleStub;
-    id systemVersion;
-    id includeSelectableRegions;
-    id computedSelectableRegions;
-    id failIfBackgroundIsMissing;
-    id failIfAnyTypeFailedToEncode;
-    id unencodeableTypes;
-    id currentEnvironment;
-    id largestImageSizeByFamily;
-    id viewCollection;
-    id descriptorQuerying;
-    id allowedImageTypes;
-    id defaultImageType;
 }
 
 @end

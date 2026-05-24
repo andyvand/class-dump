@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RWIProtocolCSSSelector : RWIProtocolJSONObject
 {
@@ -17,12 +17,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)	;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool dynamic;
-@property(copy, nonatomic) NSArray *specificity;
 @property(copy, nonatomic) NSString *text;
 
 @end

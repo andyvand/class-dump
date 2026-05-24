@@ -7,9 +7,6 @@
 @interface _IMTimingInstance
 {
     double _startTiming;
-    double _stopTiming;
-    double _totalTime;
-    _Bool _isRunning;
 }
 
 + (id);
@@ -18,12 +15,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ntID:(double)arg1 streamID:reply:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
 @property(nonatomic) double totalTime; // @synthesize totalTime=_totalTime;
 
 @end

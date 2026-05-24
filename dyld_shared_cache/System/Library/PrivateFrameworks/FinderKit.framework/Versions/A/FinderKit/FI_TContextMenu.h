@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TContextMenu
 {
     struct TNotificationCenterObserver _menuDidCompleteInteractionObserver;
-    int _contextMenuStateGeneration;
 }
 
 + (void);
@@ -25,27 +22,20 @@ __attribute__((visibility("hidden")))
 + (void);
 - (void);
 - (int);
+- (void)T_;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void));
+- (id);
 - (id);
 - (id);
 - (void)\;
 
 // Remaining properties
 @property(nonatomic) int contextMenuStateGeneration; // @synthesize contextMenuStateGeneration=_contextMenuStateGeneration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

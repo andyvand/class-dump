@@ -11,15 +11,14 @@
 @interface CAStateRemoveElement : CAStateElement
 {
     NSString *_keyPath;
-    id _object;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
+- (id)n;
 - (void);
 - (void);
 - (void);
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

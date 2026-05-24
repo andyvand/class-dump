@@ -9,8 +9,6 @@
 @interface AKModernToolbarPicker
 {
     UIStackView *_stackview;
-    AKController *_controller;
-    long long _currentTag;
 }
 
 - (id);
@@ -19,14 +17,360 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)rCoatnormalTextureSampler, _surface.clearCoatNormalTexcoord), USE_CLEARCOATNORMAL_TEXTURE_COMPONENT).rg * 2.f - 1.f;
+        _surface._clearCoatNormalTS.z = sqrt(1.f - saturate(length_squared(_surface._clearCoatNormalTS.xy)));
+#else
+        _surface._clearCoatNormalTS = u_clearCoatNormalTexture.sample(u_clearCoatNormalTextureSampler, _surface.clearCoatNormalTexcoord).rgb;
+        _surface._clearCoatNormalTS = _surface._clearCoatNormalTS * 2.f - 1.f;
+#endif
+#ifdef USE_CLEARCOATNORMAL_INTENSITY
+        _surface._clearCoatNormalTS = mix(float3(0.f, 0.f, 1.f), _surface._clearCoatNormalTS, scn_commonprofile.clearCoatNormalIntensity);
+#endif
+#else
+        _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.clearCoatNormal.rgb = normalize(ts2vs * _surface._clearCoatNormalTS.xyz );
+    }
+#else
+    _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+    
+#ifdef USE_REFLECTIVE_MAP
+    float3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.f)*(refl.z+1.f));
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+#if defined(USE_REFLECTIVE_TEXTURE_COMPONENT)
+    _surface.reflective = colorFromMask(_surface.reflective, USE_REFLECTIVE_TEXTURE_COMPONENT).r;
+#endif
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    float3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, scn:(id)arg1:mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = scn_commonprofile.reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = float4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = scn_commonprofile.materialShininess;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+    
+    __DoSurfaceModifier__
+    
+#endif
+    
+    
+    
+    
+    
+    SCNShaderLightingContribution _lightingContribution(_surface, in);
+#ifdef USE_LIGHT_MODIFIER
+    __LightModifierCopyDecl__
+#endif
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+#endif
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+#ifdef USE_CLUSTERED_LIGHTING
+    uint3 clusterIndex;
+    clusterIndex.xy = uint2(in.fragmentPosition.xy * scn_frame.clusterScale.xy); 
+    clusterIndex.z = in.position.z * scn_frame.clusterScale.z + scn_frame.clusterScale.w; 
+    
+    
+    ushort4 cluster_offset_count = u_clusterTexture.read(clusterIndex);
+    int lid = cluster_offset_count.x;
+#endif
+
+#ifdef USE_PBR
+    _lightingContribution.prepareForPBR(u_specularDFGDiffuseHammonTexture, scn_commonprofile.selfIlluminationOcclusion);
+    
+    
+#ifdef USE_SELFILLUMINATION
+    _lightingContribution.add_irradiance_from_selfIllum();
+#else
+#ifdef USE_PROBES_LIGHTING 
+    _lightingContribution.add_global_irradiance_from_sh(scn_frame.viewToCubeTransform, scn_node.shCoefficients);
+#else
+    _lightingContribution.add_global_irradiance_probe(u_irradianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+#endif
+#endif
+
+    
+#ifndef DISABLE_SPECULAR
+#ifdef C3D_USE_REFLECTION_PROBES
+    int probe_count = (cluster_offset_count.z & 0xff);
+    for (int i = 0 ; i < probe_count; ++i, ++lid) {
+        _lightingContribution.add_local_probe(scn_lights[LightIndex(lid)], u_reflectionProbeTexture);
+    }
+#if PROBES_NORMALIZATION
+#if PROBES_OUTER_BLENDING
+    _lightingContribution.specular += _lightingContribution.probesWeightedSum.rgb / max(1.f, _lightingContribution.probesWeightedSum.a);
+#else
+    _lightingContribution.specular += _lightingContribution.probesWeightedSum.rgb / _lightingContribution.probesWeightedSum.a;
+#endif
+    float globalFactor = saturate(1.f - _lightingContribution.probesWeightedSum.a);
+#else
+    float globalFactor = _lightingContribution.probeRadianceRemainingFactor;
+#endif
+    _lightingContribution.add_global_probe(scn_frame.viewToCubeTransform, globalFactor * scn_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#else 
+   _lightingContribution.add_global_probe(u_radianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+    
+#ifdef USE_CLEARCOAT
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+#endif
+
+    
+#endif 
+#endif 
+
+#endif 
+    #if DEBUG_PIXEL
+        switch (DEBUG_PIXEL) {
+            case 1:_output.color = float4(_surface.normal * 0.5f + 0.5f, 1.f); break;
+            case 2:_output.color = float4(_surface.geometryNormal * 0.5f + 0.5f, 1.f); break;
+            case 3:_output.color = float4(_surface.tangent * 0.5f + 0.5f, 1.f); break;
+            case 4:_output.color = float4(in.uv0, 0.f, 1.f); break;
+            case 5:_output.color = float4(_surface.diffuse.rgb, 1.f); break;
+            case 6:_output.color = float4(float3(_surface.roughness), 1.f); break;
+            case 7:_output.color = float4(float3(_surface.metalness), 1.f); break;
+            case 8:_output.color = float4(float3(_surface.ambientOcclusion), 1.f); break;
+            default:break;
+        }
+        return _output;
+    #endif
+    
+    __FragmentDoLighting__
+    
+    #ifdef USE_CLUSTERED_LIGHTING
+        
+        int omni_count = cluster_offset_count.y & 0xff;
+        for (int i = 0 ; i < omni_count; ++i, ++lid) {
+            _lightingContribution.add_local_omni(scn_lights[LightIndex(lid)]);
+        }
+
+        
+        int spot_count = (cluster_offset_count.y >> 8);
+        for (int i = 0 ; i < spot_count; ++i, ++lid) {
+            _lightingContribution.add_local_spot(scn_lights[LightIndex(lid)]);
+        }
+
+    #endif
+#else 
+        _lightingContribution.diffuse = in.diffuse;
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = in.specular;
+    #endif
+#endif 
+    #ifdef AVOID_OVERLIGHTING
+        _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = saturate(_lightingContribution.specular);
+    #endif 
+    #endif 
+#else 
+    _lightingContribution.diffuse = float3(1.);
+#endif 
+
+    
+    
+    
+    
+#ifdef USE_PBR
+    { 
+        float3 diffuseAlbedo = mix(_lightingContribution.pbr.albedo, float3(0.0), _surface.metalness);
+        
+        
+#ifdef USE_PBR_TRANSPARENCY
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _lightingContribution.pbr.albedo;
+#else
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _surface.diffuse.rgb;
+#endif
+        
+        color += _lightingContribution.pbr.envDiffuse;
+        color += _lightingContribution.diffuse * diffuseAlbedo;
+#ifndef DISABLE_SPECULAR
+        color += _lightingContribution.pbr.envSpecular;
+        color += _lightingContribution.specular;
+#endif
+#ifdef USE_EMISSION
+        color += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+        color *= _surface.multiply.rgb;
+#endif
+#ifdef USE_MODULATE
+        color *= _lightingContribution.modulate;
+#endif
+        _output.color.rgb = color;
+    }
+#else 
+
+#ifdef USE_SHADOWONLY
+    _output.color.rgb = float3(0.0);
+    _output.color.a = 1. - _lightingContribution.shadowFactor;
+#else
+    _output.color.rgb = illuminate(_surface, _lightingContribution);
+#endif
+#endif
+
+#ifndef USE_SHADOWONLY
+  #ifdef USE_PBR_TRANSPARENCY
+    _output.color.a = _lightingContribution.pbr.transparency;
+  #else
+    _output.color.a = _surface.diffuse.a;
+  #endif
+#endif
+
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+#endif
+
+#if !defined(DIFFUSE_PREMULTIPLIED) && !defined(USE_PBR_TRANSPARENCY)
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SHADOWONLY
+    float transparencyFactor = 1.0;
+  #ifdef USE_NODE_OPACITY
+    transparencyFactor *= in.nodeOpacity;
+  #endif
+    _output.color.a *= transparencyFactor; 
+
+#else 
+
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= scn_commonprofile.transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+    _output.color *= (float4(1.f) - _surface.transparent);
+#else
+  #ifndef USE_PBR_TRANSPARENCY
+    _output.color *= _surface.transparent.a;
+  #endif
+#endif
+    
+#else 
+    
+#ifdef USE_TRANSPARENCY 
+  #ifndef USE_PBR_TRANSPARENCY
+    _output.color *= scn_commonprofile.transparency;
+  #endif
+#endif
+    
+#endif 
+    
+#ifdef USE_NODE_OPACITY
+    _output.color *= in.nodeOpacity;
+#endif
+    
+#endif 
+    
+    
+    
+    
+    
+#ifdef USE_MODIFIER_FRAMEBUFFER
+    const SCNFramebuffer _framebuffer = {
+#if defined(C3D_SUPPORTS_PROGRAMMABLE_BLENDING) && defined(USE_MODIFIER_FRAMEBUFFER_COLOR0)
+        .color = framebufferColor0
+#else
+        .color = 0.f
+#endif
+    };
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+    
+    __DoFragmentModifier__
+    
+#endif
+#if defined(USE_CLUSTERED_LIGHTING) && defined(DEBUG_CLUSTER_TILE)
+    _output.color.rgb = mix(_output.color.rgb, float3(scn::debugColorForCount(clusterIndex.z).xyz), 0.1f);
+    _output.color.rgb = mix(_output.color.rgb, float3(clusterIndex.x & 0x1 ^ clusterIndex.y & 0x1).xyz, 0.01f);
+#endif
+#ifdef DISABLE_LINEAR_RENDERING
+    _output.color.rgb = scn::linear_to_srgb(_output.color.rgb);
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard_fragment();
+#endif
+
+#ifdef USE_POINT_RENDERING
+    if ((dfdx(pointCoord.x) < 0.5f) && (length_squared(pointCoord * 2.f - 1.f) > 1.f)) {
+        discard_fragment();
+    }
+#endif
+    
+    
+#ifdef USE_OUTLINE
+    _output.color.rgb = in.outlineHash;
+#endif
+    
+
+#ifdef USE_MOTIONBLUR
+#ifdef USE_MULTIPLE_RENDERING
+    _output.motionblur.xy = half2((in.mv_fragment.xy - scn_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#else
+    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#endif
+    _output.motionblur.z = length(_output.motionblur.xy);
+    _output.motionblur.w = half(-_surface.position.z);
+#endif
+
+#ifdef USE_NORMALS_OUTPUT
+    _output.normals = half4( half3(_surface.normal.xyz), half(_surface.roughness) );
+#endif
+    
+#ifdef USE_RADIANCE_OUTPUT
+    _output.radiance.rgb = half3(_lightingContribution.specular.rgb);
+#endif
+                                 
+#ifdef USE_REFLECTANCE_ROUGHNESS_OUTPUT
+#ifdef USE_PBR
+    _output.reflectanceRoughnessOutput = half4( half3(_lightingContribution.pbr.probeReflectance), half(_surface.roughness) );
+#else 
+    _output.reflectanceRoughnessOutput = half4( 0.h );
+#endif
+#endif
+    
+    return _output;
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak AKController *controller; // @synthesize controller=_controller;
-@property(nonatomic) long long currentTag; // @synthesize currentTag=_currentTag;
-@property(retain, nonatomic) UIStackView *stackview; // @synthesize stackview=_stackview;
 
 @end
 

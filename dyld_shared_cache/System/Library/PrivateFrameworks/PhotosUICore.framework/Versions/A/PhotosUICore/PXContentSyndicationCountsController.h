@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PXDisplayAssetCollection;
-
 @interface PXContentSyndicationCountsController
 {
     CDStruct_aa0b146f _detailedCounts;
-    long long _savedCount;
-    id <PXDisplayAssetCollection> _assetCollection;
 }
 
 - (id);
@@ -31,20 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_aa0b146f actualDetailedCounts;
-@property(readonly, nonatomic) long long actualSavedCount;
-@property(copy, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) CDStruct_aa0b146f detailedCounts;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long savedCount;
-@property(readonly, nonatomic) NSString *savedCountDescription;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *totalCountDescription;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance;
-
 @interface Safari.CompletionListCollectionViewItem.TextField
 {
 }
@@ -21,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsVibrancy;
-@property(nonatomic, retain) NSAppearance *effectiveAppearance;
 
 @end
 

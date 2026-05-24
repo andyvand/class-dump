@@ -11,9 +11,6 @@
 @interface CIPDF417CodeDescriptor : CIBarcodeDescriptor
 {
     NSData *errorCorrectedPayload;
-    _Bool isCompact;
-    long long rowCount;
-    long long columnCount;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (long long);
 - (_Bool);
 - (void);
@@ -30,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) long long columnCount; // @synthesize columnCount;
 @property(readonly) NSData *errorCorrectedPayload; // @synthesize errorCorrectedPayload;
-@property(readonly) _Bool isCompact; // @synthesize isCompact;
-@property(readonly) long long rowCount; // @synthesize rowCount;
 
 @end
 

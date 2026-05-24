@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiQualityServiceResponse
 {
     PBDataReader *_reader;
-    NSMutableArray *_locationResults;
-    NSMutableArray *_networkResults;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _statusCode;
-    struct {
-        unsigned int has_statusCode:1;
-        unsigned int read_locationResults:1;
-        unsigned int read_networkResults:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)D:(id)arg1;
++ (_Bool)setOriginalRouteID:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -38,26 +26,26 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (void)initWithObjects:(id)arg1;
+- (void)initWithKey:(id)arg1 ascending: /* Error: Ran out of types for this method. */;
+- (id)nts to target (%{public}@);
+- (int)actsPersistence.CNCDContactVCardParsedResultBuilderFactory;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)streamProvider;
+- (void)CSAudioAlertProviding;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (void);
 - (id)Ñ¹*Ð1Â0@ù
 × ;
-- (id)es;
+- (id)linkedServices;
 - (id)R,N,G_hasWifiFingerprintLabelStatusCode;
 - (id)vice.purgeDiskCache;
 - (void)ÿÿÿÿ;
@@ -66,9 +54,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasStatusCode;
-@property(retain, nonatomic) NSMutableArray *locationResults;
-@property(retain, nonatomic) NSMutableArray *networkResults;
-@property(nonatomic) int statusCode;
 
 @end
 

@@ -5,16 +5,11 @@
 //
 
 @class ABAddressBook;
-@protocol ABAccountCollection, ABAddressBookReference;
+@protocol ABAddressBookReference;
 
 @interface ABManagedObjectContext
 {
     id <ABAddressBookReference> _owningAddressBook;
-    id <ABAccountCollection> _ab_accountCollection;
-    int _aggregateMultiValueMode;
-    _Bool _writeChangesToServer;
-    _Bool _sendsChangeNotifications;
-    _Bool _unlockOnDealloc;
 }
 
 + (id);
@@ -64,23 +59,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)CNContactProviderSupportManager;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) id <ABAccountCollection> ab_accountCollection; // @synthesize ab_accountCollection=_ab_accountCollection;
-@property int aggregateMultiValueMode; // @synthesize aggregateMultiValueMode=_aggregateMultiValueMode;
 @property ABAddressBook *owningAddressBook;
-@property _Bool sendsChangeNotifications; // @synthesize sendsChangeNotifications=_sendsChangeNotifications;
-@property _Bool unlockOnDealloc; // @synthesize unlockOnDealloc=_unlockOnDealloc;
-@property _Bool writeChangesToServer; // @synthesize writeChangesToServer=_writeChangesToServer;
 
 @end
 

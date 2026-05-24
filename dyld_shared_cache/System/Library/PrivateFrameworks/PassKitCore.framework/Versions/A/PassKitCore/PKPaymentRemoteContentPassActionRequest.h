@@ -13,8 +13,8 @@
     PKPaymentPassAction *_action;
 }
 
-- (id);
-- (id)emantics: /* Error: Ran out of types for this method. */;
+- (id)3;
+- (id)_initWithIdentifier:type:semantics: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)sing.location.no;
 

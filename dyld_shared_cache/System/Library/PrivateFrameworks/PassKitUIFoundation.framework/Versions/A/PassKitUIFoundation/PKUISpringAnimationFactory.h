@@ -7,7 +7,6 @@
 @interface PKUISpringAnimationFactory
 {
     CDUnknownBlockType _animationDelayHandler;
-    double _maximumVendedDelay;
 }
 
 - (id);
@@ -15,13 +14,12 @@
 - (double);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType animationDelayHandler; // @synthesize animationDelayHandler=_animationDelayHandler;
-@property(readonly, nonatomic) double maximumVendedDelay; // @synthesize maximumVendedDelay=_maximumVendedDelay;
 
 @end
 

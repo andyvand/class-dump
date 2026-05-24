@@ -12,8 +12,5 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIView *animatingView;
-@property(readonly, nonatomic) struct CGRect endFrame;
-@property(nonatomic) _Bool inputViewsHidden;
-@property(readonly, nonatomic) struct CGRect startFrame;
 @end
 

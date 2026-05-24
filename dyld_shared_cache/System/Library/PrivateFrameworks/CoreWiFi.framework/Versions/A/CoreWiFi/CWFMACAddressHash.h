@@ -9,8 +9,6 @@
 @interface CWFMACAddressHash
 {
     NSData *_salt;
-    NSData *_hashData;
-    long long _hashMethod;
 }
 
 + (id);
@@ -25,10 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)95;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -37,11 +35,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)alEvent: /* Error: Ran out of types for this method. */;
+- (void)__handleWillAssocInternalEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *hashData; // @synthesize hashData=_hashData;
-@property(nonatomic) long long hashMethod; // @synthesize hashMethod=_hashMethod;
 @property(retain, nonatomic) NSData *salt; // @synthesize salt=_salt;
 
 @end

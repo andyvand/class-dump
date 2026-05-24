@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ABCNInstantMessageAddress
 {
     NSString *_username;
-    NSString *_service;
-    NSString *_userIdentifier;
-    NSArray *_bundleIdentifiers;
-    NSString *_teamIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)uniqueIdentifier;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)hasDevicePlatform;
 - (id);
 - (_Bool);
 - (void);
@@ -32,10 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, copy, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 @property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

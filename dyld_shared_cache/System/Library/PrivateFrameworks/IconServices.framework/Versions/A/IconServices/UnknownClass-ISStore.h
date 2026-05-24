@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (ISStore)
-- (void);
-- (id);
-- (void);
+- (void)models;
+- (id)6^{__CFLocale=}20^{__CFString=}28^B36;
+- (void)odels;
 @end
 

@@ -6,24 +6,20 @@
 
 #import <CoreDAV/CoreDAVAction.h>
 
-@class NSURL;
-
 @interface CoreDAVOrderedAction : CoreDAVAction
 {
     int _absoluteOrder;
-    NSURL *_priorURL;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)acceptsFirstResponderStatus;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int absoluteOrder; // @synthesize absoluteOrder=_absoluteOrder;
-@property(retain, nonatomic) NSURL *priorURL; // @synthesize priorURL=_priorURL;
 
 @end
 

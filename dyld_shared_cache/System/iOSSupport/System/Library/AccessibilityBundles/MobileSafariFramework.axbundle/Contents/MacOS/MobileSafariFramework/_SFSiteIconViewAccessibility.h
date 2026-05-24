@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)leftBarButtonItems;
 + (void);
 - (_Bool);
 

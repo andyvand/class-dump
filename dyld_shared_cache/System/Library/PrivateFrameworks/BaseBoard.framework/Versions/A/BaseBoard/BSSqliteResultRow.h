@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface BSSqliteResultRow
 {
     struct sqlite3_stmt *_statement;
-    NSArray *_columnNames;
 }
 
 - (id);
@@ -22,23 +19,15 @@
 - (id);
 - (id);
 - (double);
-- (long long);
+- (long long);
 - (id);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)!= nil;
 - (void);
 - (double)ô¼;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end

@@ -9,7 +9,6 @@
 @interface NTPBTodaySectionConfigFont
 {
     NSString *_name;
-    NSString *_urlString;
 }
 
 @end

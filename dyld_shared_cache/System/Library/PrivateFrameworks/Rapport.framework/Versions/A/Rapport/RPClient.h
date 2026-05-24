@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue, RPSignedInUserProvider;
+@class NSMutableSet, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPClient
 {
     NSMutableSet *_assertions;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    id <RPSignedInUserProvider> _userProvider;
-    NSXPCConnection *_xpcCnx;
-    _Bool _targetUserSession;
-    unsigned int _type;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 + (void);
@@ -27,18 +18,18 @@
 - (void);
 - (void);
 - (void);
+- (void)tion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)';
 - (id);
-- (id);
+- (void);
+- (void)`;
+- (void)C;
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,29 +37,25 @@
 - (void);
 - (void);
 - (void);
+- (void)J;
 - (void);
+- (id);
+- (void)#;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)`";
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (_Bool)öøLÀ;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

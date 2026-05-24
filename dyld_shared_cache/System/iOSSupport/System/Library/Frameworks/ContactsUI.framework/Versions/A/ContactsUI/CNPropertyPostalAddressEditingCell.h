@@ -6,7 +6,7 @@
 
 #import <ContactsUI/CNPropertyEditingCell.h>
 
-@class CNPostalAddressEditorView, UIColor;
+@class CNPostalAddressEditorView;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyPostalAddressEditingCell : CNPropertyEditingCell
@@ -17,22 +17,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)M9;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (void);
 - (id);
 - (void);
-- (void)deSilhouette;
+- (void)_shouldIncludeSilhouette;
 - (void)r mask (%{public}p) for coin flip animation on layer:%{public}p /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNPostalAddressEditorView *addressEditor; // @synthesize addressEditor=_addressEditor;
-@property(copy, nonatomic) UIColor *editorSeparatorColor;
 
 @end
 

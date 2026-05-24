@@ -6,7 +6,7 @@
 
 #import <AppKit/NSSearchField.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSTextFinderBarSearchField : NSSearchField
@@ -22,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *recentAttributedSearchStrings;
 @property(copy) NSString *statusString;
 
 @end

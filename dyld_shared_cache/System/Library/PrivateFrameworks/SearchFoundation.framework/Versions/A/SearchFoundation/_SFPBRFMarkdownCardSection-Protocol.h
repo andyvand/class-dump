@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray, NSData;
 
 @protocol _SFPBRFMarkdownCardSection
+- (void);
+- (NSData *)ck;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSDictionary *markdown_data;
 @property(copy, nonatomic) NSArray *markdown_strings;
-@property(nonatomic) int streaming_state;
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AFExperiment
 {
     NSString *_configurationIdentifier;
-    NSString *_configurationVersion;
-    NSString *_deploymentGroupIdentifier;
-    NSDictionary *_deploymentGroupProperties;
-    long long _deploymentReason;
 }
 
-+ (id);
++ (id)q;
 + (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)V_channelTransportIdentifier;
+- (unsigned long long)tallment mangement URL.;
+- (void)engagementMessagesMetadata;
 - (id);
 - (id);
 - (_Bool);
@@ -38,8 +34,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)8;
+- (id)1;
 - (_Bool);
 - (id);
 - (void);
@@ -47,22 +43,7 @@
 - (void)V_nearbyDevicesPayloads;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *configurationIdentifier; // @synthesize configurationIdentifier=_configurationIdentifier;
-@property(readonly, copy, nonatomic) NSString *configurationVersion; // @synthesize configurationVersion=_configurationVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *deploymentGroupIdentifier; // @synthesize deploymentGroupIdentifier=_deploymentGroupIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *deploymentGroupProperties; // @synthesize deploymentGroupProperties=_deploymentGroupProperties;
-@property(readonly, nonatomic) long long deploymentReason; // @synthesize deploymentReason=_deploymentReason;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long featureGroups;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool playsSessionInactiveSoundForSiriVOXSounds;
-@property(readonly, nonatomic) _Bool playsSound;
 @property(readonly, nonatomic) _Bool playsTwoShotSoundForSiriVOXSounds;
-@property(readonly) Class superclass;
 
 @end
 

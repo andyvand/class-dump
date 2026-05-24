@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SFEntitledAssetConfig
 {
     unsigned long long _assetType;
-    NSString *_language;
-    NSString *_regionId;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)`~;
+- (id)"NSObject<OS_dispatch_queue>",&,N,V_queue;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool):(id)arg1 variantIntensityY:skeletonRootJoint: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -33,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long assetType; // @synthesize assetType=_assetType;
-@property(readonly, copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, copy, nonatomic) NSString *regionId; // @synthesize regionId=_regionId;
 
 @end
 

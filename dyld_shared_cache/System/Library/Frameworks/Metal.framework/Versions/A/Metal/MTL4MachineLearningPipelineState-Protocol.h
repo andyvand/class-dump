@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4MachineLearningPipelineReflection, NSString;
+@class NSString;
 @protocol MTLDevice;
 
 @protocol MTL4MachineLearningPipelineState
+- (id <MTLDevice>)Ghemiddlehookcyrillic;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long intermediatesHeapSize;
 @property(readonly) NSString *label;
-@property(readonly) MTL4MachineLearningPipelineReflection *reflection;
 @end
 

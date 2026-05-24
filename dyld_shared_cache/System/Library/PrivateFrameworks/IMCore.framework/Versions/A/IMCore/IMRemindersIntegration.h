@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)'%@' is too long (%d > %d);
 
 @end
 

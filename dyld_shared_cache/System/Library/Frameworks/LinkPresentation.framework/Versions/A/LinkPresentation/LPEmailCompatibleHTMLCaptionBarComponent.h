@@ -6,13 +6,12 @@
 
 #import <LinkPresentation/LPHTMLComponent.h>
 
-@class LPCaptionBarPresentationProperties, LPCaptionBarStyle;
+@class LPCaptionBarStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPEmailCompatibleHTMLCaptionBarComponent : LPHTMLComponent
 {
     LPCaptionBarStyle *_style;
-    LPCaptionBarPresentationProperties *_presentationProperties;
 }
 
 + (id);

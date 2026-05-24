@@ -11,7 +11,6 @@
 @interface WFAggregateForecastRequest : WFTask
 {
     WFLocation *_location;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -27,7 +26,6 @@
 - (void)2÷K³;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) WFLocation *location; // @synthesize location=_location;
 
 @end

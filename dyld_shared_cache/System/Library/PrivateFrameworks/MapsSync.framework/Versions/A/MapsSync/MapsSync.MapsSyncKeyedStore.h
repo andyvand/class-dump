@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)DAY_STRING_DASH_DAY_OF_WEEK_FORMAT;
 - (id);
 - (void);
 - (void);
@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (double);
-- (id);
-- (_Bool);
+- (id)iway resetDownlinkSegmentWithStreamGroups:(id)arg1 withPayload:] /* Error: Ran out of types for this method. */;
+- (_Bool)ke;
 - (id);
 - (id);
 - (id);

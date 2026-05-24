@@ -4,117 +4,72 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, NTPBIssueData, NTPBIssueExposureData, NTPBIssueViewData;
-
 @interface NTPBAnfComponentExposure
 {
     long long _backendArticleVersionInt64;
-    long long _publisherArticleVersionInt64;
-    NSString *_anfComponentId;
-    NSString *_anfComponentRole;
-    NSString *_anfComponentType;
-    NSString *_articleId;
-    NSString *_articleVersion;
-    NSData *_articleViewingSessionId;
-    NSMutableArray *_fractionalCohortMemberships;
-    NTPBIssueData *_issueData;
-    NTPBIssueExposureData *_issueExposureData;
-    NTPBIssueViewData *_issueViewData;
-    NSString *_metadata;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int backendArticleVersionInt64:1;
-        unsigned int publisherArticleVersionInt64:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)_previewImageView;
+- (void)assetTypeCountsForAssets:(long long)arg1 photosCount:videosCount:othersCount: /* Error: Ran out of types for this method. */;
+- (void)anchorPaddingForCurrentZoomLevel;
+- (void)anchorBodyIndexBeforeChanges;
+- (void)anchorBodyIndexAfterChanges;
+- (void)addAudioFromVideoHighlightAsset:(_Bool)arg1 fromTime:atStoryTimeRange:volume:fadeIn:fadeOut:shouldDuck:error: /* Error: Ran out of types for this method. */;
+- (void)_useMusicCuesForPacing;
+- (void)_updateIsSegmentVisible;
+- (void)_updateFloatingHeaderButtons;
+- (void)_updateFlags;
+- (void)_updateFirstTimeExperienceReadinessLogging;
+- (long long)_updateCachedRecentAssets;
+- (id)_titleScalingFactorForKind:size:extendedTraitCollectionSnapshot:fixedBottomPadding: /* Error: Ran out of types for this method. */;
+- (id)_titlePlaceholder;
+- (id)_titlePaddingTopScale;
+- (_Bool)_simulateCreationError;
+- (_Bool)_simulateCPLFeatureState;
+- (_Bool)_simulateCPLCMMFeatureState;
+- (_Bool)_sharedLibraryFilterViewModel;
+- (_Bool)_setPlayabilityFromAsset: /* Error: Ran out of types for this method. */;
+- (_Bool)_setPhotoLoupeHidden:animated: /* Error: Ran out of types for this method. */;
+- (_Bool)_setPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setAvPlayerCurrentTime: /* Error: Ran out of types for this method. */;
+- (id)_setAttributedPrimaryTitle:accessibilityIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_setAttributedPrimaryFallbackTitle:(unsigned long long)arg1 accessibilityIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_scaleSpeedFactor;
+- (long long)_reviewReplyStepContextWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_requestingGraphFractionCompleted;
+- (id)_requestedSuggestedPerson;
+- (id)_requestedMeContact;
+- (void)_removeRejectedSong:(id)arg1 fromCachedResultForAssetContainer: /* Error: Ran out of types for this method. */;
+- (void)_publishReloadChange;
+- (_Bool)_progress;
+- (id)boundingRectWithSize:options: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)orSink:(id)arg1 ];
+- (id)y;
 - (id);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool)e component count is greater than child component count (reals %@ ; %@);
+- (void);
+- (_Bool)vePlayback"B"extraMinimumTouchDuration"B};
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)wn file from asset store:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)mmand:(id)arg1 adding channelIDs:%{public}@ paidChannelIDs:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (_Bool)_	ð1Â0@ù
 × ;
-- (void)tFontResourceIDsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)flintFontResourceIDsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anfComponentId; // @synthesize anfComponentId=_anfComponentId;
-@property(retain, nonatomic) NSString *anfComponentRole; // @synthesize anfComponentRole=_anfComponentRole;
-@property(retain, nonatomic) NSString *anfComponentType; // @synthesize anfComponentType=_anfComponentType;
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSString *articleVersion; // @synthesize articleVersion=_articleVersion;
-@property(retain, nonatomic) NSData *articleViewingSessionId; // @synthesize articleViewingSessionId=_articleViewingSessionId;
-@property(nonatomic) long long backendArticleVersionInt64; // @synthesize backendArticleVersionInt64=_backendArticleVersionInt64;
-@property(retain, nonatomic) NSMutableArray *fractionalCohortMemberships; // @synthesize fractionalCohortMemberships=_fractionalCohortMemberships;
-@property(readonly, nonatomic) _Bool hasAnfComponentId;
-@property(readonly, nonatomic) _Bool hasAnfComponentRole;
-@property(readonly, nonatomic) _Bool hasAnfComponentType;
 @property(readonly, nonatomic) _Bool hasArticleId;
-@property(readonly, nonatomic) _Bool hasArticleVersion;
-@property(readonly, nonatomic) _Bool hasArticleViewingSessionId;
-@property(nonatomic) _Bool hasBackendArticleVersionInt64;
-@property(readonly, nonatomic) _Bool hasIssueData;
-@property(readonly, nonatomic) _Bool hasIssueExposureData;
-@property(readonly, nonatomic) _Bool hasIssueViewData;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(nonatomic) _Bool hasPublisherArticleVersionInt64;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(retain, nonatomic) NTPBIssueData *issueData; // @synthesize issueData=_issueData;
-@property(retain, nonatomic) NTPBIssueExposureData *issueExposureData; // @synthesize issueExposureData=_issueExposureData;
-@property(retain, nonatomic) NTPBIssueViewData *issueViewData; // @synthesize issueViewData=_issueViewData;
-@property(retain, nonatomic) NSString *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) long long publisherArticleVersionInt64; // @synthesize publisherArticleVersionInt64=_publisherArticleVersionInt64;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

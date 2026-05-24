@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CBAppliedCompensations
 {
     id <CBRampManagerI> _rampManager;
-    double _maxHarmony;
-    double _maxBLR;
-    _Bool _harmonyEnabled;
-    _Bool _blrEnabled;
-    double _blrComp;
-    double _harmonyComp;
 }
 
 - (void);
@@ -30,9 +24,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) double blrComp; // @synthesize blrComp=_blrComp;
-@property(nonatomic) _Bool blrEnabled; // @synthesize blrEnabled=_blrEnabled;
-@property(readonly) double harmonyComp; // @synthesize harmonyComp=_harmonyComp;
 @property(nonatomic) _Bool harmonyEnabled; // @synthesize harmonyEnabled=_harmonyEnabled;
 
 @end

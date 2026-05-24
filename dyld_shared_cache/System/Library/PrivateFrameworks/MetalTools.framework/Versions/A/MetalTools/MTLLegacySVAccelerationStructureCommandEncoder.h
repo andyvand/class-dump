@@ -6,16 +6,11 @@
 
 #import <MetalTools/MTLToolsAccelerationStructureCommandEncoder.h>
 
-@class MTLAccelerationStructurePassDescriptor, MTLLegacySVCommandBuffer;
-@protocol MTLLibrary;
+@class MTLLegacySVCommandBuffer;
 
 @interface MTLLegacySVAccelerationStructureCommandEncoder : MTLToolsAccelerationStructureCommandEncoder
 {
     MTLLegacySVCommandBuffer *_commandBuffer;
-    struct list<LegacySVResourceAndUsage, std::allocator<LegacySVResourceAndUsage>> _LegacySVResourceAndUsageList;
-    struct list<id<MTLHeap>, std::allocator<id<MTLHeap>>> _heapList;
-    MTLAccelerationStructurePassDescriptor *_accelerationStructurePassDescriptor;
-    id <MTLLibrary> _accelerationStructureSupportLibrary;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (void);
@@ -44,12 +39,16 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)=;
+- (void);
+- (void);
+- (void)U;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,11 +62,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)1;
 - (void);
 - (void);
 - (void)"<MTLBuffer>"24Q32;

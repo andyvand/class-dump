@@ -7,20 +7,9 @@
 @interface ContactsUICore.ContactCardHeaderSwiftUIViewModel
 {
     id _contact;
-    id _actionsProvider;
-    id _isEmergencyContact;
-    id _isBlocked;
-    id _isDowntimeWhitelisted;
-    id $__lazy_storage_$_contactFormatter;
-    id $__lazy_storage_$_personNameFormatter;
-    id $__lazy_storage_$_handleNameFormatter;
-    id blockedHeader;
-    id emergencyHeader;
-    id downtimeHeader;
-    id _$observationRegistrar;
 }
 
-- (void);
+- (void);
 - (id);
 - (void)8@"NSString"16;
 

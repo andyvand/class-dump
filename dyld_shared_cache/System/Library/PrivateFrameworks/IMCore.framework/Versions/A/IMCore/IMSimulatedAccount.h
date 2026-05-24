@@ -13,11 +13,11 @@
     IMHandle *_loginHandle;
 }
 
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id)m;
+- (id)to create AVCVideoStream;
+- (_Bool)callback for addParticipantDidSucceed %d, participantID %@;
+- (void)ce ID;
+- (_Bool)ySSGG;
 - (_Bool);
 - (void)$ú;
 

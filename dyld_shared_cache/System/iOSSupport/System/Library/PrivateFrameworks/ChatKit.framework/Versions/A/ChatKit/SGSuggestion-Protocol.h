@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SGSuggestionAction, UIImage;
 @protocol SGSuggestionDelegate;
 
 @protocol SGSuggestion
+
+@optional
+- (SGSuggestionAction *);
+- (_Bool)useDispatchGroupForDaemonProcessWithGroup: /* Error: Ran out of types for this method. */;
+- (UIImage *)updateSubFolderMergeableDataChangeCount;
 
 // Remaining properties
 @property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate;

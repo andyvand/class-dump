@@ -4,66 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOProprietaryDefaultsSource, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AVCaptureProprietaryDefaultsSingleton
 {
     char *_proprietaryDefaultsSourceQueueLabel;
-    unsigned long long _proprietaryDefaultsSourceQueueLabelLength;
-    NSObject<OS_dispatch_queue> *_proprietaryDefaultsSourceQueue;
-    NSObject<OS_dispatch_queue> *_proprietaryDefaultChangeNotificationCallbackQueue;
-    CMIOProprietaryDefaultsSource *_proprietaryDefaultsSource;
-    NSObject<OS_dispatch_queue> *_cmioProprietaryDefaultsSourceReconnectionQueue;
-    int _numberOfTimesConnectionHasBroken;
-    _Bool _connectionWasInterrupted;
-    CDUnknownBlockType _frameSenderEndpointsChangedHandler;
-    NSMutableDictionary *_defaultChangedHandlersForObserversForKeys;
-    NSMutableArray *_keyObservationsThatFailedToRegisterWithServer;
 }
 
++ (id)unknown;
++ (void)_textMessageUnsupportedCategories;
++ (void);
++ (void);
++ (void);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
++ (void)chromaticDefringingEnabledForSlomoForPortType:(id)arg1 sensorIDString:(id)arg2;
 + (id);
 + (id);
 + (int);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (void);
 + (void);
 + (id);
-+ (struct __CVBuffer *);
-+ (int);
-+ (void)bolg;
-- (void);
-- (id);
-- (void);
++ (struct __CVBuffer *)1;
++ (int)@b;
++ (void)campbolg;
+- (void)service:account:identifier:hasBeenDeliveredWithContext: /* Error: Ran out of types for this method. */;
+- (id)_setupManagedObjectContextWithPersistentStoreCoodinator: /* Error: Ran out of types for this method. */;
+- (void)processingQueue;
 - (void);
 - (void);
 - (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithMediaType:(id)arg1 node:(id)arg2;
 - (id);
-- (id);
+- (id)AutoExposureWithZoomFactor:(id)arg1 ];
 - (int);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (struct __CVBuffer *);
-- (int);
+- (int);
 - (void);
 
 @end

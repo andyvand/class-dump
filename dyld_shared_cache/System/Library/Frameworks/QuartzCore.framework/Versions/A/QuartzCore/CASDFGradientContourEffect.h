@@ -9,24 +9,16 @@
 @interface CASDFGradientContourEffect : CASDFEffect
 {
     struct CGColor *_startColor;
-    struct CGColor *_endColor;
-    double _angle;
-    double _radius;
-    double _shadowEffectOffset;
-    double _shadowGradientStart;
-    double _shadowGradientEnd;
-    double _shadowAlpha;
-    double _gradientOffset;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (struct CGColor *);
 - (double);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,20 +31,12 @@
 - (void);
 - (double);
 - (void);
-- (double);
+- (double)xpSetCoefficientForVar(NSISLinExp *, NSISFloat_t, NSISLinExpVar);
 - (id);
-- (double);
+- (double)keyWindow;
 - (void)(contentsMaximumDesiredEDR %g);
 
 // Remaining properties
-@property(nonatomic) double angle; // @synthesize angle=_angle;
-@property(retain, nonatomic) struct CGColor *endColor; // @synthesize endColor=_endColor;
-@property(nonatomic) double gradientOffset; // @synthesize gradientOffset=_gradientOffset;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
-@property(nonatomic) double shadowAlpha; // @synthesize shadowAlpha=_shadowAlpha;
-@property(nonatomic) double shadowEffectOffset; // @synthesize shadowEffectOffset=_shadowEffectOffset;
-@property(nonatomic) double shadowGradientEnd; // @synthesize shadowGradientEnd=_shadowGradientEnd;
-@property(nonatomic) double shadowGradientStart; // @synthesize shadowGradientStart=_shadowGradientStart;
 @property(retain, nonatomic) struct CGColor *startColor; // @synthesize startColor=_startColor;
 
 @end

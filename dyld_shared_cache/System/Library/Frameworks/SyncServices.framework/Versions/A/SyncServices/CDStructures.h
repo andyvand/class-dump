@@ -45,6 +45,6 @@ typedef struct {
 } CDStruct_e6eac3cb;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 

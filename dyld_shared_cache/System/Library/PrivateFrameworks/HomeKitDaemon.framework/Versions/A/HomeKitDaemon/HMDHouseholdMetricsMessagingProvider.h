@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMessageDispatcher;
 @protocol HMFMessageReceiver;
 
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdMetricsMessagingProvider
 {
     id <HMFMessageReceiver> _receiver;
-    HMDMessageDispatcher *_messageDispatcher;
 }
 
 + (id)¶sÿb
 ¨ÛB;
 - (void);
 - (id);
-- (void);
+- (void)setScaleToShowAllOfFaceTimeWindow:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -26,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
 @property(readonly, nonatomic) id <HMFMessageReceiver> receiver; // @synthesize receiver=_receiver;
 
 @end

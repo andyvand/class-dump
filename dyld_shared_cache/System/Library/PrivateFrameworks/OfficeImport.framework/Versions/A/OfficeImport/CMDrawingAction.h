@@ -8,14 +8,12 @@ __attribute__((visibility("hidden")))
 @interface CMDrawingAction
 {
     int _type;
-    id _value;
-    float _floatValue;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (float);

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRRecognitionResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_phrases;
-    NSArray *_utterances;
-    _Bool _hasLinkId;
 }
 
 - (id);
@@ -48,11 +45,7 @@
 - (void)3øÓ&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *phrases; // @synthesize phrases=_phrases;
-@property(copy, nonatomic) NSArray *utterances; // @synthesize utterances=_utterances;
 
 @end
 

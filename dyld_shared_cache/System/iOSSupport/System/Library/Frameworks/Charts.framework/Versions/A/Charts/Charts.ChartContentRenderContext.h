@@ -8,24 +8,6 @@
 {
     id idContext;
     id xRange;
-    id yRange;
-    id measurements;
-    id stackContext;
-    id subPositionContext;
-    id rasterizationScale;
-    id markInsets;
-    id environment;
-    id lineSeriesContext;
-    id areaSeriesContext;
-    id xScale;
-    id yScale;
-    id xOffsetScale;
-    id yOffsetScale;
-    id symbolSizeScale;
-    id symbolScale;
-    id lineStyleScale;
-    id foregroundStyleScale;
-    id accessibilityElementBins;
 }
 
 @end

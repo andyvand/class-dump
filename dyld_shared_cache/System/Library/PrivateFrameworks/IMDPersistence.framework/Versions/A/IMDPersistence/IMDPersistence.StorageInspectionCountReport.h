@@ -7,22 +7,6 @@
 @interface IMDPersistence.StorageInspectionCountReport
 {
     id reportContentFlags;
-    id chatCount;
-    id emptyChatCount;
-    id messageCount;
-    id orphanedMessageCount;
-    id deletedMessageCount;
-    id recoverableMessageCount;
-    id attachmentFileCounts;
-    id attachmentRecordCounts;
-    id attachmentFileSizes;
-    id purgeableFileCounts;
-    id attributedToMessagesPurgeableFileCounts;
-    id purgeableFileSizes;
-    id attributedToMessagesPurgeableFileSizes;
-    id attachmentDirectoryCount;
-    id emptyAttachmentDirectoryCount;
-    id handleCounts;
 }
 
 @end

@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CAARSchemaCAARScoreBoost : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_actionCandidateId;
-    double _boost;
-    NSString *_reason;
-    struct {
-        unsigned int boost:1;
-    } _has;
-    _Bool _hasActionCandidateId;
-    _Bool _hasReason;
 }
 
 - (void);
@@ -49,12 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *actionCandidateId; // @synthesize actionCandidateId=_actionCandidateId;
-@property(nonatomic) double boost; // @synthesize boost=_boost;
-@property(nonatomic) _Bool hasActionCandidateId; // @synthesize hasActionCandidateId=_hasActionCandidateId;
-@property(nonatomic) _Bool hasBoost;
-@property(nonatomic) _Bool hasReason; // @synthesize hasReason=_hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SPAccessoryDiscoveryXPCProtocol
+- (void);
 @end
 

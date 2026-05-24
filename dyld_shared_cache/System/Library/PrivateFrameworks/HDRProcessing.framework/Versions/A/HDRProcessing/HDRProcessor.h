@@ -4,105 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DISPHDRProcessing, DolbyVisionComposer, DolbyVisionDisplayManagement, DolbyVisionMR, MSRHDRProcessing, NSObject, SpatialResampler;
-@protocol MTLCommandQueue, MTLDevice, OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol MTLDevice;
 
 @interface HDRProcessor
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    unsigned long long chipID;
-    MSRHDRProcessing *_msr;
-    DISPHDRProcessing *_disp;
-    DolbyVisionComposer *_composer;
-    SpatialResampler *_resampler;
-    DolbyVisionDisplayManagement *_dm;
-    DolbyVisionDisplayManagement *_dm_constr;
-    DolbyVisionMR *_mr;
-    struct EDRMetaData_RBSP *_parser;
-    CDStruct_de414a6a _edrMetaData[2];
-    struct HDR10PlusMetaData_RBSP *_hdr10PlusMetaDataParser;
-    CDStruct_fc518844 _hdr10PlusMetaData;
-    long long _callerApiVersion;
-    unsigned int _hardwareType;
-    unsigned int _hdrMode;
-    unsigned int _hdrProfile;
-    unsigned long long _bitDepth;
-    float _sdrMaxBrightnessInNits;
-    float _hdrMaxBrightnessInNits;
-    unsigned int _displayType;
-    unsigned long long _displayDiagonalSize;
-    unsigned long long _maxDisplayBrightnessNits;
-    float _minDisplayBrightnessNits;
-    float _displayContrastRatio;
-    float _displayAveragePixelThreshold;
-    _Bool _displayAveragePixelThresholdExist;
-    float _displayAveragePixelWeightR;
-    float _displayAveragePixelWeightG;
-    float _displayAveragePixelWeightB;
-    float _displaySustainedBrightnessInNits;
-    double _displayPrimaries[8];
-    unsigned int _displayVSVDBDoViDMVersion;
-    unsigned int _displayCompensationType;
-    float _displayCompensationGammaValue;
-    int _edrRangeType;
-    unsigned int _ambientViewingEnvironmentIlluminance;
-    int _ambientViewingEnvironmentType;
-    _Bool _enableHdrConstraintStrength;
-    float _hdrConstraintStrengthValue;
-    float _maxConstraintValue;
-    float _minConstraintValue;
-    int _totalFramesForConstraintStats;
-    int _fullConstraintFrames;
-    int _performConstraintFrames;
-    int _transitionFrames;
-    int _noConstraintInfoFrames;
-    unsigned long long _constraintLogStart;
-    _Bool _gcpOn;
-    _Bool _enableGcpc;
-    float _gcpGammaValue;
-    _Bool _enableHybridCanonicalRendering;
-    _Bool _hcrUseSystemBrightnessForProContent;
-    _Bool _hcrUseSystemBrightnessForCaptureContent;
-    float _sceneLux;
-    unsigned int _inputFormatRaw;
-    unsigned int _outputFormatRaw;
-    unsigned int _inputFormat;
-    unsigned int _outputFormat;
-    unsigned long long _videoFullRangeFlag;
-    unsigned long long _colourPrimaries;
-    unsigned long long _transferFunction;
-    unsigned long long _matrixCoeffs;
-    unsigned long long _colorSpace;
-    unsigned long long _outputColorSpace;
-    unsigned long long _outputMatrixCoeffs;
-    unsigned long long _outputTransferFunction;
-    unsigned long long _maxMasteringNits;
-    float _minMasteringNits;
-    _Bool _maxMasteringNitsIsSet;
-    _Bool _minMasteringNitsIsSet;
-    unsigned long long _max_content_light_level;
-    unsigned long long _numberOfRequestedFrames;
-    unsigned long long _numberOfScheduledFrames;
-    unsigned long long _numberOfProcessedFrames;
-    unsigned long long _numberOfComputedFrames;
-    CDStruct_26384d64 _configurationParameters;
-    struct __CVPixelBufferPool *_420vPool;
-    struct __CVPixelBufferPool *_x420Pool;
-    NSObject<OS_dispatch_queue> *_scheduleQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSObject<OS_dispatch_semaphore> *_scheduleSemaphone;
-    struct __CFError *_error_success;
-    unsigned long long logInstanceID;
-    _Bool _logOnce;
-    int _source_RGhA;
-    float _defaultMaxEDRValue;
-    float _defaultEDRFactorValue;
-    float _defaultAmbientLightValue;
-    float _defaultContrastRatioValue;
-    double _targetNits;
-    double _targetMinNits;
-    struct __CFString *_targetColorPrimaries;
 }
 
 + (id);
@@ -111,14 +17,14 @@
 + (long long);
 + (long long);
 + (long long);
-+ (_Bool);
++ (_Bool)7;
 + (_Bool);
 + (_Bool);
 + (void);
 + (id);
 + (void);
-- (long long);
-- (double);
+- (long long)%;
+- (double)(w;
 - (double);
 - (struct __CFString *);
 - (void);
@@ -130,16 +36,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
+- (void)?;
+- (unsigned int)?;
 - (long long);
 - (long long);
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)=;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -156,7 +62,7 @@
 - (float);
 - (float);
 - (float);
-- (float);
+- (float)7;
 - (void);
 - (long long);
 - (long long);
@@ -165,12 +71,12 @@
 - (_Bool);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)tureID<DaVinci::TexTexture>] /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (void);
 - (void);
@@ -178,13 +84,7 @@
 - (void);
 
 // Remaining properties
-@property float defaultAmbientLightValue; // @synthesize defaultAmbientLightValue=_defaultAmbientLightValue;
-@property float defaultContrastRatioValue; // @synthesize defaultContrastRatioValue=_defaultContrastRatioValue;
-@property float defaultEDRFactorValue; // @synthesize defaultEDRFactorValue=_defaultEDRFactorValue;
 @property float defaultMaxEDRValue; // @synthesize defaultMaxEDRValue=_defaultMaxEDRValue;
-@property struct __CFString *targetColorPrimaries; // @synthesize targetColorPrimaries=_targetColorPrimaries;
-@property double targetMinNits; // @synthesize targetMinNits=_targetMinNits;
-@property double targetNits; // @synthesize targetNits=_targetNits;
 
 @end
 

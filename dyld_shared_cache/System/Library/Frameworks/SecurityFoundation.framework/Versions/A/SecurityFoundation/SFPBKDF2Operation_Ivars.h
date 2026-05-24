@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-@protocol SFPseudoRandomFunction;
-
 __attribute__((visibility("hidden")))
 @interface SFPBKDF2Operation_Ivars
 {
     long long iterationCount;
-    id <SFPseudoRandomFunction> pseudoRandomFunction;
-    NSData *salt;
 }
 
 - (void);

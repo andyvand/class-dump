@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDConfigurationLogEvent, HMDEventCountersManager, HMDTimeBasedFlagsManager, HMMDailyScheduler, HMMDateProvider, NSArray, NSNotificationCenter, NSString, NSUserDefaults;
-@protocol HMDEWSLogging, HMDFeaturesDataSource, HMDMetricsDeviceStateProvider, HMMLogEventDispatching, HMMLogEventSubmitting, HMMRadarInitiating, HMMUptimeProvider;
+@class HMDConfigurationLogEvent, HMDEventCountersManager, HMMDateProvider, NSNotificationCenter, NSUserDefaults;
+@protocol HMDEWSLogging, HMDFeaturesDataSource, HMDMetricsDeviceStateProvider, HMMLogEventSubmitting, HMMRadarInitiating, HMMUptimeProvider;
 
 @protocol HMDLogEventAnalyzerDataSource
+- (HMDEventCountersManager *)IsLocked:%s /* Error: Ran out of types for this method. */;
+- (id <HMMRadarInitiating>);
+- (void);
 - (void)1Â0@ù
 × ;
-- (id <HMMUptimeProvider>)CharacteristicEventUUID:snapshotFile:timer: /* Error: Ran out of types for this method. */;
-- (id <HMDMetricsDeviceStateProvider>)iaAccessories;
+- (id <HMMUptimeProvider>)initWithSnapshotCharacteristicEventUUID:snapshotFile:timer: /* Error: Ran out of types for this method. */;
+- (id <HMDMetricsDeviceStateProvider>)deviceSetupMediaAccessories;
 - (HMDConfigurationLogEvent *)@;
 - (NSUserDefaults *)handled upon receiving event report;
-- (_Bool)ier;
+- (_Bool)kDefaultCameraApplicationIdentifier;
 - (id <HMDFeaturesDataSource>)lid HMFVersion:%@ /* Error: Ran out of types for this method. */;
 - (id <HMMLogEventSubmitting>)4@?0@"HMFBoolean"8@?<v@?B>16;
-- (HMMDateProvider *)yDate;
-- (id <HMDEWSLogging>)inInternalRequestKey;
-- (NSNotificationCenter *)oesNotHaveHomeHub;
+- (HMMDateProvider *)expiryDate;
+- (id <HMDEWSLogging>)kDismissBulletinInternalRequestKey;
+- (NSNotificationCenter *)cannotCreateAutomationAsHomeDoesNotHaveHomeHub;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDConfigurationLogEvent *cachedConfiguration;
-@property(readonly, nonatomic) NSString *currentSoftwareVersion;
-@property(readonly, nonatomic) HMMDateProvider *dateProvider;
-@property(readonly, nonatomic) id <HMDMetricsDeviceStateProvider> deviceStateProvider;
-@property(readonly, nonatomic) __weak id <HMDEWSLogging> ewsLogger;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featureFlags;
-@property(readonly, nonatomic) HMDTimeBasedFlagsManager *flagsManager;
-@property(readonly, nonatomic) NSArray *homeDataSources;
-@property(readonly, nonatomic) _Bool isCurrentDeviceConfirmedPrimaryResident;
-@property(readonly, nonatomic) _Bool isThisDeviceDesignatedFMFDevice;
 @property(readonly, nonatomic) HMDEventCountersManager *legacyCountersManager;
-@property(readonly, nonatomic) HMMDailyScheduler *legacyDailyScheduler;
-@property(readonly, nonatomic) id <HMMLogEventDispatching> logEventDispatcher;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) id <HMMRadarInitiating> radarInitiator;
-@property(readonly, nonatomic) id <HMMUptimeProvider> uptimeProvider;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults;
 @end
 

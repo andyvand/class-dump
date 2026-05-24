@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (void)ãEÓâ_;
 
 @end

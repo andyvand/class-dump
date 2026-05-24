@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData, NSString;
 
 @interface HistoricalGuidanceCache
 {
@@ -15,10 +15,6 @@
 // Remaining properties
 @property(nonatomic, copy) NSString *gridID; // @dynamic gridID;
 @property(nonatomic, copy) NSData *historicalGuidance; // @dynamic historicalGuidance;
-@property(nonatomic, copy) NSDate *intervalEnd; // @dynamic intervalEnd;
-@property(nonatomic, copy) NSDate *intervalStart; // @dynamic intervalStart;
-@property(nonatomic) _Bool partial; // @dynamic partial;
-@property(nonatomic) short version; // @dynamic version;
 
 @end
 

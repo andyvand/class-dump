@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHEndpointerUsed : SISchemaInstrumentationMessage
 {
     int _endpointer;
-    struct {
-        unsigned int endpointer:1;
-    } _has;
 }
 
 - (void);
@@ -22,11 +17,11 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/conf/conf_mod.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)qß1Â0@ù
 × ;
 - (id)SchemaUUID",&,N,V_donationID;
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int endpointer; // @synthesize endpointer=_endpointer;
-@property(nonatomic) _Bool hasEndpointer;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

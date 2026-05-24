@@ -9,28 +9,24 @@
 @interface ASCredentialServiceIdentifier
 {
     NSString *_displayName;
-    NSString *_identifier;
-    long long _type;
 }
 
 + (_Bool);
+- (id)rmTypeIdentifiers.dylib;
+- (id);
+- (unsigned long long)NSTextField",W,N,V_title;
+- (id)UniversalSearchFeatureNotificationHasBeenDisplayed;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (long long)P;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

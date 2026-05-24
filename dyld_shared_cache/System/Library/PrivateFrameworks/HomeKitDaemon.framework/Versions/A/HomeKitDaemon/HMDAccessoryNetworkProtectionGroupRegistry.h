@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSMutableDictionary, NSNotificationCenter, NSObject, NSSet, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryNetworkProtectionGroupRegistry
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_groupRecords;
-    HMDHome *_home;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)luded from backup, excluding now:(id)arg1 %@;
+- (_Bool)Rules write error %@;
+- (long long)efetch.;
 - (id);
 - (void);
 - (void);
@@ -38,12 +33,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ervices.framework/Versions/A/GeoServices;
 - (id);
 - (void);
 - (id);
@@ -59,23 +54,7 @@ __attribute__((visibility("hidden")))
 - (id)ôùÿòâ;
 
 // Remaining properties
-@property(readonly, copy) NSSet *activeGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) NSSet *persistedGroups;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDecoder, NSString;
-
 @interface CSSearchableItemCodedArray
 {
     unsigned long long _addCount;
-    unsigned long long _updateCount;
-    _Bool _counted;
-    CSDecoder *_items;
-    CSDecoder *_itemsContent;
-    NSString *_bundleID;
-    NSString *_protectionClass;
-    CDStruct_ab85f6a0 _obj;
 }
 
 - (id);
 - (id);
 - (id);
-- (CDStruct_ab85f6a0);
+- (CDStruct_04aed232);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -35,11 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) CSDecoder *items; // @synthesize items=_items;
-@property(readonly, nonatomic) CSDecoder *itemsContent; // @synthesize itemsContent=_itemsContent;
-@property(readonly, nonatomic) CDStruct_ab85f6a0 obj; // @synthesize obj=_obj;
-@property(retain, nonatomic) NSString *protectionClass; // @synthesize protectionClass=_protectionClass;
+@property(readonly, nonatomic) CDStruct_04aed232 obj; // @synthesize obj=_obj;
 
 @end
 

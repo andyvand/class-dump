@@ -9,18 +9,16 @@
 @interface AWDProactiveModelFittingModelInfo
 {
     NSString *_locale;
-    NSString *_name;
-    NSString *_version;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (_Bool)mergeableDeltaSavedBlock;
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,20 +26,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void) ;
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)c;
+- (void)setContainer:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocale;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

@@ -8,18 +8,12 @@ __attribute__((visibility("hidden")))
 @interface CBStopsBasedBrightnessRamp
 {
     float _start;
-    float _target;
-    float _current;
-    float _rampSpeed;
-    float _rampTime;
-    float _startTime;
-    float _timeOfLastUpdate;
 }
 
 - (int);
 - (int);
 - (float);
-- (id);
+- (id);
 - (float);
 - (float);
 

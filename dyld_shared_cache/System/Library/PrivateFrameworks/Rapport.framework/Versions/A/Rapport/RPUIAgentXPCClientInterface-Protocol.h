@@ -5,5 +5,8 @@
 //
 
 @protocol RPUIAgentXPCClientInterface
+
+@optional
+- (void);
 @end
 

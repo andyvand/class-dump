@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CLPInstSchemaCLPNLv4TaskEvaluationEnded, CLPInstSchemaCLPNLv4TaskEvaluationStarted, NSData;
+@class CLPInstSchemaCLPNLv4TaskEvaluationStarted;
 
 @interface CLPInstSchemaCLPNLv4TaskEvaluationContext : SISchemaInstrumentationMessage
 {
     CLPInstSchemaCLPNLv4TaskEvaluationStarted *_startedOrChanged;
-    CLPInstSchemaCLPNLv4TaskEvaluationEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
 - (void);
@@ -36,17 +32,12 @@
 - (_Bool);
 - (id);
 - (id)y";
-- (id)RequestFailed;
+- (id)GMSSchemaGMSModelRequestFailed;
 - (id)8ø;
 - (void)èþ±ÿÇ;
 
 // Remaining properties
-@property(retain, nonatomic) CLPInstSchemaCLPNLv4TaskEvaluationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CLPInstSchemaCLPNLv4TaskEvaluationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

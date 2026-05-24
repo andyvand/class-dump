@@ -11,8 +11,6 @@
 @interface FCNewsTabiTagScoringConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiTagScoringOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiTagScoringOutputConfiguration *_nonBundleOutputConfiguration;
-    double _minimumChannelScoreForGrouping;
 }
 
 - (void);
@@ -21,15 +19,13 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)	;
 - (id)1Â0@ù
 × ;
 - (void)elled;
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiTagScoringOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(nonatomic) double minimumChannelScoreForGrouping; // @synthesize minimumChannelScoreForGrouping=_minimumChannelScoreForGrouping;
-@property(retain, nonatomic) FCNewsTabiTagScoringOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

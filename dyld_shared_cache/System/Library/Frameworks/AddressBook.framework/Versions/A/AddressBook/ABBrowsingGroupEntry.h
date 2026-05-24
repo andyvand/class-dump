@@ -6,7 +6,7 @@
 
 #import <AddressBook/ABGroupEntry.h>
 
-@class ABAccount, ABAddressBook;
+@class ABAccount;
 
 @interface ABBrowsingGroupEntry : ABGroupEntry
 {
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAccount *account;
-@property(readonly, retain) ABAddressBook *addressBook;
 
 @end
 

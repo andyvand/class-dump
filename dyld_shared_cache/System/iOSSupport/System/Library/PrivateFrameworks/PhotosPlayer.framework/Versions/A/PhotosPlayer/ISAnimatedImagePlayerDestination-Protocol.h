@@ -5,5 +5,11 @@
 //
 
 @protocol ISAnimatedImagePlayerDestination
+- (_Bool)_documentController;
+- (void)_distanceFromMedia;
+
+@optional
+- (void)_enableLineBalancing;
+- (void)_embedConfiguration;
 @end
 

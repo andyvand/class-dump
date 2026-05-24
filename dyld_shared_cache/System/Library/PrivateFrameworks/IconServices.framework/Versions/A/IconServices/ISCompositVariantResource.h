@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSString, NSURL;
+@class NSDictionary, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ISCompositVariantResource
 {
     NSString *_variantName;
-    unsigned long long _flags;
-    NSDictionary *_assetCatalogReference;
-    NSDictionary *_compositionInfo;
-    NSURL *_baseURL;
-    NSMutableDictionary *_vectorResources;
-    NSMutableDictionary *_imageSetResources;
-    NSDictionary *_recipes;
-    NSMutableArray *_layers;
 }
 
-+ (id);
++ (id)DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16@0:(id)arg1 8;
 - (id);
 - (id);
 - (id);
@@ -34,41 +26,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (struct CGImage *);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)Offset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16;
+- (id)String}^v^{__CFDictionary}qCf}24@0:8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16 /* Error: Ran out of types for this method. */;
+- (id)q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}24@0:(id)arg1 8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16;
+- (struct CGImage *)ntimeBase=QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}24@0:(unsigned long long)arg1 8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16;
+- (_Bool)writeSourceFromJSONFile:(struct CGContext *)arg1 source:(unsigned long long)arg2 withReply:(id *)arg3;
+- (id)scanQuery:configuration:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)removeConversation:(id)arg1;
+- (_Bool)remoteScannerEnabled;
+- (id)_beginning;
+- (id)DataDetectorsSupport;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSDictionary *assetCatalogReference; // @synthesize assetCatalogReference=_assetCatalogReference;
-@property(retain) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 @property(retain) NSDictionary *compositionInfo; // @synthesize compositionInfo=_compositionInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *imageSetResources; // @synthesize imageSetResources=_imageSetResources;
-@property(retain) NSMutableArray *layers; // @synthesize layers=_layers;
-@property(retain) NSDictionary *recipes; // @synthesize recipes=_recipes;
-@property(readonly) Class superclass;
-@property(readonly) NSString *variantName; // @synthesize variantName=_variantName;
-@property(retain) NSMutableDictionary *vectorResources; // @synthesize vectorResources=_vectorResources;
 
 @end
 

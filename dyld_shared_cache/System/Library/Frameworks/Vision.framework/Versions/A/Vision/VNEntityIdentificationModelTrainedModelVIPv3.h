@@ -6,15 +6,10 @@
 
 #import <Vision/VNEntityIdentificationModelTrainedModel.h>
 
-@class NSArray, VNRequestSpecifier;
-
 __attribute__((visibility("hidden")))
 @interface VNEntityIdentificationModelTrainedModelVIPv3 : VNEntityIdentificationModelTrainedModel
 {
     shared_ptr_d8728072 _faceIDModel;
-    VNRequestSpecifier *_entityPrintOriginatingRequestSpecifier;
-    NSArray *_entityUniqueIdentifiers;
-    NSArray *_entityPrintCounts;
 }
 
 + (id);
@@ -29,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)C;
+- (id)arrayOfStringsValueAtIndex:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentForwardingAction;
+@class INIntent;
 
 @interface UISIntentForwardingAction
 {
     INIntent *_cachedIntent;
-    INIntentForwardingAction *_cachedIntentForwardingAction;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)B9H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)h#;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) INIntent *intent;
-@property(readonly, nonatomic) INIntentForwardingAction *intentForwardingAction;
 
 @end
 

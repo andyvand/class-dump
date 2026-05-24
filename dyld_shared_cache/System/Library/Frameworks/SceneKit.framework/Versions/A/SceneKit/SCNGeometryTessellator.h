@@ -9,14 +9,6 @@
 @interface SCNGeometryTessellator
 {
     NSMutableSet *_clients;
-    _Bool _adaptive;
-    _Bool _screenSpace;
-    float _maximumEdgeLength;
-    float _edgeTessellationFactor;
-    float _insideTessellationFactor;
-    float _tessellationFactorScale;
-    long long _smoothingMode;
-    unsigned long long _partitionMode;
 }
 
 + (id);
@@ -36,16 +28,16 @@
 - (double);
 - (void);
 - (_Bool);
-- (CDStruct_9b587744);
+- (CDStruct_9d37c1eb);
 - (void);
 - (double);
-- (void);
+- (void)/%;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CaseInsensitiveLookupAdditions;
 - (_Bool);
 - (void);
 - (id);
@@ -1276,14 +1268,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 - (void)úð;
 
 // Remaining properties
-@property(nonatomic, getter=isAdaptive) _Bool adaptive;
-@property(nonatomic) double edgeTessellationFactor;
-@property(nonatomic) double insideTessellationFactor;
-@property(nonatomic) double maximumEdgeLength;
-@property(nonatomic, getter=isScreenSpace) _Bool screenSpace;
-@property(nonatomic) long long smoothingMode;
 @property(nonatomic) double tessellationFactorScale;
-@property(nonatomic) unsigned long long tessellationPartitionMode;
 
 @end
 

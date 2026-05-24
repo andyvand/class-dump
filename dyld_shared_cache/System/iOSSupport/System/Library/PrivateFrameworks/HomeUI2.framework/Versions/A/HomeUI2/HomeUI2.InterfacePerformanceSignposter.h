@@ -7,6 +7,7 @@
 @interface HomeUI2.InterfacePerformanceSignposter
 {
     id states;
+    id;
 }
 
 @end

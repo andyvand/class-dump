@@ -9,14 +9,13 @@
 @interface WBSPrivateRelayFailClosedExceptionManager
 {
     NSMutableSet *_privateRelayFailClosedExceptions;
-    NSMutableSet *_clearedExceptionsForBrowsingSession;
 }
 
-+ (id);
++ (id)pple.identityservicesd;
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

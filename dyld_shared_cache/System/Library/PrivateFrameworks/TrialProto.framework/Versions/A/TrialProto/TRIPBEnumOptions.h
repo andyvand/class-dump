@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray;
-
 @interface TRIPBEnumOptions : TRIPBMessage
 {
 }
@@ -16,11 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowAlias; // @dynamic allowAlias;
-@property(nonatomic) _Bool deprecated; // @dynamic deprecated;
-@property(nonatomic) _Bool hasAllowAlias; // @dynamic hasAllowAlias;
-@property(nonatomic) _Bool hasDeprecated; // @dynamic hasDeprecated;
-@property(retain, nonatomic) NSMutableArray *uninterpretedOptionArray; // @dynamic uninterpretedOptionArray;
-@property(readonly, nonatomic) unsigned long long uninterpretedOptionArray_Count; // @dynamic uninterpretedOptionArray_Count;
 
 @end
 

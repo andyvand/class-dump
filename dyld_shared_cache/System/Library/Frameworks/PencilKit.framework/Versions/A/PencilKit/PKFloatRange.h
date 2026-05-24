@@ -7,7 +7,6 @@
 @interface PKFloatRange
 {
     double _lowerBound;
-    double _upperBound;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(readonly, nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

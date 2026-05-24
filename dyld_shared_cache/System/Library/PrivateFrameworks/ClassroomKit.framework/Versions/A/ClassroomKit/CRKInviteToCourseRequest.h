@@ -11,12 +11,12 @@
     CRKCourseInvitation *_invitation;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) CRKCourseInvitation *invitation; // @synthesize invitation=_invitation;

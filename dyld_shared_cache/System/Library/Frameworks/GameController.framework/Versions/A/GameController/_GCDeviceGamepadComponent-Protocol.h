@@ -7,6 +7,7 @@
 @protocol _GCGamepadEventSourceDescription;
 
 @protocol _GCDeviceGamepadComponent
+- (id <_GCGamepadEventSourceDescription>)n;
 
 // Remaining properties
 @property(readonly) id <_GCGamepadEventSourceDescription> gamepadEventSource;

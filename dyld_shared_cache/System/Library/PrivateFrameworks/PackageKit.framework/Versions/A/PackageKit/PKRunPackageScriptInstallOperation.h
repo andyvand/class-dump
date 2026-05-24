@@ -6,14 +6,11 @@
 
 #import <PackageKit/PKInstallOperation.h>
 
-@class NSString, PKPackageSpecifier;
+@class NSString;
 
 @interface PKRunPackageScriptInstallOperation : PKInstallOperation
 {
     NSString *_scriptType;
-    PKPackageSpecifier *_currentPackageSpecifier;
-    unsigned int _original_bootstrap_port;
-    unsigned int _original_security_session_port;
 }
 
 + (id);
@@ -25,10 +22,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (int);
+- (int)y;
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

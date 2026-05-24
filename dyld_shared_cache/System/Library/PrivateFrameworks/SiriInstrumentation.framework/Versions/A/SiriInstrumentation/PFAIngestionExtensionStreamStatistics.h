@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PFAIngestionExtensionStreamStatistics : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_streamId;
-    unsigned int _preProcessingCount;
-    unsigned int _postProcessingCount;
-    struct {
-        unsigned int preProcessingCount:1;
-        unsigned int postProcessingCount:1;
-    } _has;
-    _Bool _hasStreamId;
 }
 
 - (void);
@@ -42,18 +35,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_hasLlmQUTotalTime;
 - (id)asAdaptiveSiriVolumeUserIntentDetected;
-- (void)iedTranscript;
+- (void)modifiedTranscript;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPostProcessingCount;
-@property(nonatomic) _Bool hasPreProcessingCount;
-@property(nonatomic) _Bool hasStreamId; // @synthesize hasStreamId=_hasStreamId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int postProcessingCount; // @synthesize postProcessingCount=_postProcessingCount;
-@property(nonatomic) unsigned int preProcessingCount; // @synthesize preProcessingCount=_preProcessingCount;
 @property(retain, nonatomic) SISchemaUUID *streamId; // @synthesize streamId=_streamId;
 
 @end

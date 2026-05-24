@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCLockupViewGroup, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AKMediaServicesController
 {
     struct os_unfair_lock_s _activeLockupGroupLock;
-    NSMutableDictionary *_activeLockupGroupForBundleID;
-    NSObject<OS_dispatch_queue> *_imageDownloadQueue;
-    ASCLockupViewGroup *_group;
 }
 
 + (id)À

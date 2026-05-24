@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTCoreModelMulticolorAuxiliaryPicker, AVTCoreModelPairing, AVTCoreModelPickerOptions, NSArray, NSDictionary, NSString;
+@class AVTCoreModelMulticolorAuxiliaryPicker;
 
 @interface AVTCoreModelMulticolorPicker
 {
     _Bool _allowsRemoval;
-    NSString *_identifier;
-    NSString *_title;
-    AVTCoreModelPickerOptions *_options;
-    AVTCoreModelPairing *_pairing;
-    AVTCoreModelMulticolorAuxiliaryPicker *_auxiliaryPicker;
-    NSArray *_subpickers;
-    NSArray *_subtitles;
-    NSDictionary *_nestedPresetPickers;
-    long long _initialState;
 }
 
 - (id);
@@ -25,34 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Iq;
 - (_Bool);
 - (id);
+- (id)task in Hold for Modal state.;
 - (id);
 - (id);
+- (long long)P;
 - (id);
-- (long long);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsRemoval; // @synthesize allowsRemoval=_allowsRemoval;
 @property(readonly, nonatomic) AVTCoreModelMulticolorAuxiliaryPicker *auxiliaryPicker; // @synthesize auxiliaryPicker=_auxiliaryPicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long initialState; // @synthesize initialState=_initialState;
-@property(readonly, nonatomic) NSDictionary *nestedPresetPickers; // @synthesize nestedPresetPickers=_nestedPresetPickers;
-@property(readonly, nonatomic) AVTCoreModelPickerOptions *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) AVTCoreModelPairing *pairing; // @synthesize pairing=_pairing;
-@property(readonly, nonatomic) NSArray *subpickers; // @synthesize subpickers=_subpickers;
-@property(readonly, nonatomic) NSArray *subtitles; // @synthesize subtitles=_subtitles;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

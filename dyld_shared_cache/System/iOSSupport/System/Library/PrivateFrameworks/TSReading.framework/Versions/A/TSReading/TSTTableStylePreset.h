@@ -6,43 +6,31 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSString, TSTTableStyleNetwork;
-
 @interface TSTTableStylePreset : TSPObject
 {
     unsigned long long mIndex;
-    TSTTableStyleNetwork *mStyleNetwork;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)kCore.StartPlayerItemDonation;
+- (id)%@;
+- (void)n;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)CStoreDialogResponseButtonAction;
+- (id)adata ;
+- (id)musicSubscriptionData;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)?;
+- (_Bool)r finishing transaction:(id)arg1;
 - (unsigned long long);
 - (id)16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56{_NSRange=QQ}72;
-- (void)ataProperty;
+- (void)TSCHChartSeriesErrorBarCustomNegativeDataProperty;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long index;
-@property(readonly, nonatomic) NSString *presetKind;
-@property(copy, nonatomic) TSTTableStyleNetwork *styleNetwork;
-@property(readonly) Class superclass;
 
 @end
 

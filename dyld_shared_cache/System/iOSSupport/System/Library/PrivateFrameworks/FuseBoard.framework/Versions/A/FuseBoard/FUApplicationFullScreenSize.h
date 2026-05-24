@@ -4,49 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUApplicationBundleInfo, NSArray, NSString;
+@class FUApplicationBundleInfo, NSString;
 
 @interface FUApplicationFullScreenSize
 {
     NSString *_description;
     _Bool _supportsPhone;
-    _Bool _supportsPad;
-    unsigned long long _supportedOrientations;
-    struct CGSize _usableDisplaySizeInPoints;
-    _Bool _preferSmallerDisplaySize;
-    _Bool _useTrueDisplaySize;
-    _Bool _isMonarchLinked;
-    _Bool _isTigrisLinked;
-    _Bool _isPeaceLinked;
-    _Bool _isPeaceBLinked;
-    _Bool _isYukonLinked;
-    _Bool _isAzulLinked;
-    _Bool _isAzulHWLinked;
-    _Bool _runningAsPhoneApp;
-    NSArray *_allSupportedSizes;
-    FUApplicationBundleInfo *_bundleInfo;
-    struct CGSize _screenSizeToUse;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)z;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct CGSize);
-- (id);
-- (id);
+- (struct CGSize)
+;
+- (id)';
+- (id){public}@) | hh1EOLEnabled = %{BOOL}d;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allSupportedSizes; // @synthesize allSupportedSizes=_allSupportedSizes;
 @property(readonly, nonatomic) FUApplicationBundleInfo *bundleInfo; // @synthesize bundleInfo=_bundleInfo;
-@property(readonly, nonatomic) _Bool runningAsPhoneApp; // @synthesize runningAsPhoneApp=_runningAsPhoneApp;
 @property(readonly, nonatomic) struct CGSize screenSizeToUse; // @synthesize screenSizeToUse=_screenSizeToUse;
 
 @end

@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryPowerManagementLogEvent
 {
     _Bool _reachable;
-    _Bool _remotelyReachable;
-    unsigned char _wolanVersion;
-    long long _logType;
-    NSUUID *_accessoryUUID;
-    NSNumber *_linkType;
-    NSString *_operationType;
-    NSString *_suspendedState;
-    double _wakeDurationSec;
-    long long _wolanWakeUpType;
 }
 
-- (unsigned char);
+- (unsigned char)etwork reachability changed:%{public}@ -> %{public}@, notifying sending observers /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (double);
-- (long long);
-- (id);
+- (double)_firstByteReceivedDate;
+- (long long)of length %lu to outputStream:%@ /* Error: Ran out of types for this method. */;
+- (id)suggestion:collidesWithMemories: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id)message:%@ /* Error: Ran out of types for this method. */;
@@ -41,34 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSNumber *linkType; // @synthesize linkType=_linkType;
 @property(readonly, nonatomic) long long logType; // @synthesize logType=_logType;
-@property(readonly, nonatomic) NSString *operationType; // @synthesize operationType=_operationType;
-@property(readonly, nonatomic) _Bool reachable; // @synthesize reachable=_reachable;
-@property(readonly, nonatomic) _Bool remotelyReachable; // @synthesize remotelyReachable=_remotelyReachable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *suspendedState; // @synthesize suspendedState=_suspendedState;
-@property(readonly, nonatomic) double wakeDurationSec; // @synthesize wakeDurationSec=_wakeDurationSec;
-@property(readonly, nonatomic) unsigned char wolanVersion; // @synthesize wolanVersion=_wolanVersion;
-@property(readonly, nonatomic) long long wolanWakeUpType; // @synthesize wolanWakeUpType=_wolanWakeUpType;
 
 @end
 

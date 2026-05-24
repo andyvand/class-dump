@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCUserEventHistoryMetadata, NFLazy, NSArray, NSDate, NSHashTable, NSString;
-@protocol FCNewsAppConfigurationManager;
+@class NFLazy;
 
 @interface FCUserEventHistoryStorage
 {
     NFLazy *_lazyRootDirectory;
-    NSHashTable *_observers;
-    NSArray *_prunedSessionIDs;
-    unsigned long long _prunedSessionSize;
-    FCUserEventHistoryMetadata *_metadata;
-    unsigned long long _currentSize;
-    id <FCNewsAppConfigurationManager> _configurationManager;
 }
 
 - (void);
@@ -30,26 +23,26 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)viewForMagnificationEvents;
+- (void)ld;
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (unsigned long long);
+- (void)MapsSuggestionsWalletSourceEnabledKey;
+- (void)MapsSuggestionsInitialWeightCurrentLocationOfInterestKey;
+- (id)E;
 - (void);
 - (void);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)j;
 - (id);
-- (id);
+- (id)remove %@ (starting with children);
 - (void);
 - (id);
 - (_Bool);
@@ -58,32 +51,14 @@
 - (id);
 - (void)
 × ;
-- (id)onIDByFeedID:feedItems: /* Error: Ran out of types for this method. */;
+- (id)initWithSectionIDByFeedID:feedItems: /* Error: Ran out of types for this method. */;
 - (void)fier;
 - (id)app config;
-- (void)iplier;
+- (void)managedWinnerTopicMultiplier;
 - (id))jÃÎ;
 
 // Remaining properties
-@property(retain, nonatomic) id <FCNewsAppConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(nonatomic) unsigned long long currentSize; // @synthesize currentSize=_currentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *earliestSessionDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isEmpty;
 @property(retain, nonatomic) NFLazy *lazyRootDirectory; // @synthesize lazyRootDirectory=_lazyRootDirectory;
-@property(retain, nonatomic) FCUserEventHistoryMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSArray *prunedSessionIDs; // @synthesize prunedSessionIDs=_prunedSessionIDs;
-@property(nonatomic) unsigned long long prunedSessionSize; // @synthesize prunedSessionSize=_prunedSessionSize;
-@property(readonly, nonatomic) NSArray *sessionIDs;
-@property(readonly, nonatomic) NSArray *sessions;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,43 +6,25 @@
 
 #import <Metal/MTLBindingInternal.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLThreadgroupMemoryBindingInternal : MTLBindingInternal
 {
     unsigned short _alignment;
-    unsigned int _dataSize;
-    unsigned long long _dataType;
 }
 
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)(;
 - (unsigned long long);
-- (void)pes:(id)arg1;
+- (void)formattedDescription:(id)arg1 withPrintedTypes: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)DepthStencilStateArg;
 
 // Remaining properties
-@property(readonly) unsigned long long access;
-@property(readonly, getter=isArgument) _Bool argument;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long index;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
 @property(readonly) unsigned long long threadgroupMemoryAlignment;
-@property(readonly) unsigned long long threadgroupMemoryDataSize;
-@property(readonly) long long type;
-@property(readonly, getter=isUsed) _Bool used;
 
 @end
 

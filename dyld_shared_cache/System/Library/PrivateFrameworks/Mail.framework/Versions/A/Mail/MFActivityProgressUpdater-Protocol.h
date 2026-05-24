@@ -5,5 +5,7 @@
 //
 
 @protocol MFActivityProgressUpdater
+- (void);
+- (void);
 @end
 

@@ -9,9 +9,6 @@
 @interface AFSyncSnapshot
 {
     NSString *_anchor;
-    NSString *_validity;
-    long long _count;
-    NSString *_key;
 }
 
 + (_Bool);
@@ -24,15 +21,12 @@
 - (long long);
 - (void)1Â0@ù
 × ;
-- (void)rrupted: /* Error: Ran out of types for this method. */;
-- (id)lity;
+- (void)_connectionInterrupted: /* Error: Ran out of types for this method. */;
+- (id)AFMultiUserStateSnapshotMutability;
 - (void)>;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;
-@property(nonatomic) long long count; // @synthesize count=_count;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *validity; // @synthesize validity=_validity;
 
 @end
 

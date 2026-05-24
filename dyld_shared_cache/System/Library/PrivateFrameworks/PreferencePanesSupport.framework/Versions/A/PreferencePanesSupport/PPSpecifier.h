@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSImage, NSNumber, NSString, NSUUID, NSView, NSViewController;
-@protocol PPSpecifierDelegate;
+@class NSUUID, NSView;
 
 @interface PPSpecifier
 {
     NSUUID *_uuid;
-    _Bool _allowsTruncation;
-    _Bool _enabled;
-    NSArray *searchKeywords;
-    id <PPSpecifierDelegate> delegate;
-    unsigned long long titleLineBreakMode;
-    unsigned long long _type;
-    NSImage *_icon;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_helpAnchor;
-    NSNumber *_badgeCount;
-    NSImage *_badgeImage;
-    NSString *_extensionIdentifier;
-    NSDictionary *_extensionPersonaity;
-    NSViewController *_viewController;
-    NSView *_tableCellView;
 }
 
 + (id);
@@ -36,24 +19,7 @@
 + (id);
 
 // Remaining properties
-@property _Bool allowsTruncation; // @dynamic allowsTruncation;
-@property(retain) NSNumber *badgeCount; // @synthesize badgeCount=_badgeCount;
-@property(retain) NSImage *badgeImage; // @synthesize badgeImage=_badgeImage;
-@property __weak id <PPSpecifierDelegate> delegate; // @synthesize delegate;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(retain) NSDictionary *extensionPersonaity; // @synthesize extensionPersonaity=_extensionPersonaity;
-@property(retain) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(retain) NSImage *icon; // @synthesize icon=_icon;
-@property(retain) NSArray *searchKeywords; // @synthesize searchKeywords;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain) NSView *tableCellView; // @synthesize tableCellView=_tableCellView;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property unsigned long long titleLineBreakMode; // @synthesize titleLineBreakMode;
-@property unsigned long long type; // @synthesize type=_type;
-@property(readonly) NSUUID *uuid; // @dynamic uuid;
-@property(readonly) NSView *view; // @dynamic view;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
+@property(readonly) NSView *tableCellView;
 
 @end
 

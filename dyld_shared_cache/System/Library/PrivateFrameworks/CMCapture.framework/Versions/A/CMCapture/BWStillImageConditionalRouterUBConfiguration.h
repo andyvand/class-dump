@@ -15,7 +15,7 @@
 
 + (id);
 - (unsigned long long);
-- (void);
+- (void)CHBDefaultTextProperties;
 - (id)eTime;
 
 // Remaining properties

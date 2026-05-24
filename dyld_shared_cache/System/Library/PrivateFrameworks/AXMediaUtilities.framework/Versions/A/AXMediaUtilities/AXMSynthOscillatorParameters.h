@@ -6,64 +6,48 @@
 
 #import <AXMediaUtilities/AXMSynthObservableParameters.h>
 
-@class AXMSynthEnvelopeParameters, AXMSynthMainParameters, NSArray, NSString;
+@class AXMSynthMainParameters;
 
 @interface AXMSynthOscillatorParameters : AXMSynthObservableParameters
 {
     float _lowpassCutoff;
-    AXMSynthMainParameters *_mainParameters;
-    AXMSynthEnvelopeParameters *_envelopeParameters;
 }
 
 + (id);
+- (void)t;
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)>{;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)t;
+- (id);
 - (float);
 - (float);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)\|;
+- (long long);
+- (float);
+- (void);
+- (void);
+- (_Bool)h{;
 - (long long);
+- (void)8�#{;
+- (id);
+- (id);
+- (void)@;
+- (id);
+- (void);
+- (id)__objc_catlist;
 - (float);
 - (void);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (float);
-- (void);
-- (float);
+- (float)overlap_threshold;
 
 // Remaining properties
-@property(readonly, nonatomic) float baseFrequency;
-@property(nonatomic) long long detuning;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) AXMSynthEnvelopeParameters *envelopeParameters; // @synthesize envelopeParameters=_envelopeParameters;
-@property(readonly, nonatomic) NSArray *fmOperatorIdentifiers;
-@property(readonly, nonatomic) NSString *fmTargetIdentifier;
-@property(readonly, nonatomic) AXMSynthOscillatorParameters *fmTargetParameters;
-@property(nonatomic) float frequencyRatio;
-@property(nonatomic) float gain;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool isBypassed;
-@property(nonatomic) float lowpassCutoff; // @synthesize lowpassCutoff=_lowpassCutoff;
 @property(nonatomic) __weak AXMSynthMainParameters *mainParameters; // @synthesize mainParameters=_mainParameters;
-@property(readonly, nonatomic) float sampleRate;
-@property(nonatomic) long long waveform;
 
 @end
 

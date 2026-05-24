@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedContentPrefetchManager
 {
     id contentContext;
-    id formatService;
-    id assetHandleFactory;
-    id interestTokens;
 }
 
 @end

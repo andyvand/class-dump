@@ -6,7 +6,7 @@
 
 #import <EventKit/EKPersistentObject.h>
 
-@class EKFrozenReminderSource, NSNumber, NSString;
+@class EKFrozenReminderSource, NSString;
 
 @interface EKPersistentSource : EKPersistentObject
 {
@@ -16,7 +16,7 @@
 + (Class);
 + (id);
 + (id);
-+ (id);
++ (id)s;
 - (id);
 - (void);
 - (int);
@@ -53,45 +53,35 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)2;
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (int);
+- (void)ren't any outstanding tasks, so we're going to call our cancel completion block now.;
+- (id)setCharge_duration_p_0_25_at_charge_start_secs_curr_dynamic_bin_2: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (int)pluginViewFinishedLoading: /* Error: Ran out of types for this method. */;
+- (void)ectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF:(int)arg1:Ref<WebCore::TextCheckingRequest>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (_Bool)u;
 - (void);
-- (void);
-- (void);
+- (id);
 - (int);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (int);
-- (void);
-- (void);
+- (void);
 - (void)!FùQ2'ð1Â0@ù
 × ;
 - (_Bool)has no entity name;
 - (id)rence.notification.overriddenTravelAdvisoryHypothesisTransportType;
-- (void)med_entity_id;
+- (void)consumed_entity_id;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *UUID;
-@property(copy, nonatomic) NSNumber *defaultAlarmOffset; // @dynamic defaultAlarmOffset;
-@property(nonatomic) _Bool disabled; // @dynamic disabled;
-@property(copy, nonatomic) NSString *externalID; // @dynamic externalID;
-@property(copy, nonatomic) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(nonatomic) _Bool onlyCreatorCanModify; // @dynamic onlyCreatorCanModify;
-@property(nonatomic) int preferredEventPrivateValue; // @dynamic preferredEventPrivateValue;
-@property(retain) EKFrozenReminderSource *reminderSource; // @synthesize reminderSource=_reminderSource;
-@property(nonatomic) long long sourceTypeRaw; // @dynamic sourceTypeRaw;
-@property(nonatomic) int strictestEventPrivateValue; // @dynamic strictestEventPrivateValue;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
+@property(readonly, nonatomic) NSString *UUID; // @dynamic UUID;
 
 @end
 

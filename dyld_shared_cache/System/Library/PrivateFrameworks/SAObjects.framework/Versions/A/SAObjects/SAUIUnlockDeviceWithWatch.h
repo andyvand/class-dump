@@ -18,11 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *failureCommands;
-@property(copy, nonatomic) NSArray *successCommands;
 
 @end
 

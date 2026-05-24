@@ -10,7 +10,7 @@
 }
 
 - (CDStruct_1b6d18a9);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties

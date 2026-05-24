@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol TSKHighlightArrayControllerProtocol;
+@class NSMutableArray;
 
 @interface TSKHighlightArrayController
 {
     NSMutableArray *_layers;
-    NSMutableArray *_controllers;
-    double _zOrder;
-    id <TSKHighlightArrayControllerProtocol> _delegate;
-    _Bool _creatingLayers;
-    struct CGAffineTransform _canvasTransform;
-    struct CGAffineTransform _layerTransform;
-    _Bool _shouldPulsate;
-    _Bool _pulsating;
-    _Bool _autohide;
-    double _viewScale;
 }
 
-- (_Bool);
+- (_Bool)out: /* Error: Ran out of types for this method. */;
+- (void)lBegin;
+- (void)ntroller - Changing event time from ;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)AVPlayerItemTimeJumpedReasonClientInitiated;
+- (void)autoplayItemsLoadedCount;
+- (_Bool)autoplayChangeCount;
 - (id);
 - (id);
 - (_Bool);
 - (double);
-- (void);
-- (void);
+- (void)[;
+- (void)";
 - (void);
 - (void);
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (id);
-- (void)ionParagraphStyleIndexProperty;
+- (id)initWithKeyOptions:valueOptions:capacity: /* Error: Ran out of types for this method. */;
+- (void)TSCHChartSeriesTrendlineEquationParagraphStyleIndexProperty;
 
 // Remaining properties
-@property(nonatomic) _Bool autohide; // @synthesize autohide=_autohide;
-@property(readonly, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(nonatomic) _Bool pulsating; // @synthesize pulsating=_pulsating;
-@property(nonatomic) _Bool shouldPulsate; // @synthesize shouldPulsate=_shouldPulsate;
 @property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) double viewScale; // @synthesize viewScale=_viewScale;
 
 @end
 

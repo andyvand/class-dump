@@ -10,14 +10,14 @@
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 

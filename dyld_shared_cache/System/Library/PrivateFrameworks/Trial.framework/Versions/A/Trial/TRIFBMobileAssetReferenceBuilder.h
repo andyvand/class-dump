@@ -9,18 +9,17 @@
 @interface TRIFBMobileAssetReferenceBuilder
 {
     AFBBufferBuilder *_owner;
-    struct MobileAssetReferenceBuilder *_bldr;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id)[;
 - (void);
 - (void);
+- (void);
+- (void)P;
 - (void);
 - (void)ordAsset=[1C]};
 

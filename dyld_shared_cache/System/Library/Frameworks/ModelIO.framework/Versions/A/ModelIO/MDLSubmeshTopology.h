@@ -9,15 +9,6 @@
 @interface MDLSubmeshTopology
 {
     id <MDLMeshBuffer> _faceTopology;
-    unsigned long long _faceCount;
-    id <MDLMeshBuffer> _vertexCreaseIndices;
-    id <MDLMeshBuffer> _vertexCreases;
-    unsigned long long _vertexCreaseCount;
-    id <MDLMeshBuffer> _edgeCreaseIndices;
-    id <MDLMeshBuffer> _edgeCreases;
-    unsigned long long _edgeCreaseCount;
-    id <MDLMeshBuffer> _holes;
-    unsigned long long _holeCount;
 }
 
 + (id);
@@ -25,37 +16,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
+- (id)espresso network from file %@ with storage type %05x, status code %d;
+- (id)eate espresso plan;
+- (unsigned long long)espresso context;
+- (void)nId char(128) NOT NULL,                                 modelHandleId integer NOT NULL,                            serverIteration integer NOT NULL,                          FOREIGN KEY (modelHandleId) REFERENCES modelHandles (id)               ON DELETE CASCADE                                                  );
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (void)OFFSET $table_limit;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long edgeCreaseCount; // @synthesize edgeCreaseCount=_edgeCreaseCount;
-@property(retain, nonatomic) id <MDLMeshBuffer> edgeCreaseIndices; // @synthesize edgeCreaseIndices=_edgeCreaseIndices;
-@property(retain, nonatomic) id <MDLMeshBuffer> edgeCreases; // @synthesize edgeCreases=_edgeCreases;
-@property(nonatomic) unsigned long long faceCount; // @synthesize faceCount=_faceCount;
 @property(retain, nonatomic) id <MDLMeshBuffer> faceTopology; // @synthesize faceTopology=_faceTopology;
-@property(nonatomic) unsigned long long holeCount; // @synthesize holeCount=_holeCount;
-@property(retain, nonatomic) id <MDLMeshBuffer> holes; // @synthesize holes=_holes;
-@property(nonatomic) unsigned long long vertexCreaseCount; // @synthesize vertexCreaseCount=_vertexCreaseCount;
-@property(retain, nonatomic) id <MDLMeshBuffer> vertexCreaseIndices; // @synthesize vertexCreaseIndices=_vertexCreaseIndices;
-@property(retain, nonatomic) id <MDLMeshBuffer> vertexCreases; // @synthesize vertexCreases=_vertexCreases;
 
 @end
 

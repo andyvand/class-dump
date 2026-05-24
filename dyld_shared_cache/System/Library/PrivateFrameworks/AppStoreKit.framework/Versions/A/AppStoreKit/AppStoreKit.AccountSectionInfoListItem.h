@@ -7,8 +7,6 @@
 @interface AppStoreKit.AccountSectionInfoListItem
 {
     id title;
-    id value;
-    id id;
 }
 
 @end

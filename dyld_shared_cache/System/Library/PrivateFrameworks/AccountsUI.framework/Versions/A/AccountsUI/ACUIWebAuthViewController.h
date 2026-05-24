@@ -6,20 +6,11 @@
 
 #import <AccountsUI/ACUIViewController.h>
 
-@class NSBox, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSStackView, NSTextField, SLWebAuthController;
-@protocol ACUIWebAuthDelegate;
+@class NSBox, SLWebAuthController;
 
 @interface ACUIWebAuthViewController : ACUIViewController
 {
     SLWebAuthController *_webAuthController;
-    id <ACUIWebAuthDelegate> _delegate;
-    NSBox *_webViewContainer;
-    NSProgressIndicator *_spinner;
-    NSTextField *_continueTextField;
-    NSLayoutConstraint *_webContainerViewHeightConstraint;
-    NSImageView *_imageView;
-    NSStackView *_verticalStack;
-    NSLayoutConstraint *_heightConstraint;
 }
 
 + (_Bool);
@@ -40,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void))A;
 - (void);
 - (id);
 - (void);
@@ -50,13 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSTextField *continueTextField; // @synthesize continueTextField=_continueTextField;
-@property __weak id <ACUIWebAuthDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(retain) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) NSStackView *verticalStack; // @synthesize verticalStack=_verticalStack;
-@property(retain) NSLayoutConstraint *webContainerViewHeightConstraint; // @synthesize webContainerViewHeightConstraint=_webContainerViewHeightConstraint;
 @property(retain) NSBox *webViewContainer; // @synthesize webViewContainer=_webViewContainer;
 
 @end

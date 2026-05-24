@@ -4,19 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSXPCConnection;
-@protocol MBAppConnectionProtocol, ProximitySetupConnectionHandler;
+@class NSXPCConnection;
+@protocol MBAppConnectionProtocol;
 
 __attribute__((visibility("hidden")))
 @interface MBSAConnection
 {
     id <MBAppConnectionProtocol> _hostingApp;
-    id <ProximitySetupConnectionHandler> _proximityHandler;
-    NSXPCConnection *_connection;
-    NSMutableDictionary *_progressBlocks;
 }
 
 + (id);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)q	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)(;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,76 +96,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)d;
+- (id)	;
 - (void);
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <MBAppConnectionProtocol> hostingApp; // @synthesize hostingApp=_hostingApp;
-@property(retain) NSMutableDictionary *progressBlocks; // @synthesize progressBlocks=_progressBlocks;
-@property __weak id <ProximitySetupConnectionHandler> proximityHandler; // @synthesize proximityHandler=_proximityHandler;
-@property(readonly) Class superclass;
 
 @end
 

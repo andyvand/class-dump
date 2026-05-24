@@ -14,12 +14,12 @@
 + (id);
 - (void);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -28,9 +28,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)}J;
+- (id)yValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, PAL::SessionID>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, PAL::SessionID>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)ts<uint64_t>, unsigned long long>>, Traits = WTF:(id)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WebKit::WebFoundTextRange>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

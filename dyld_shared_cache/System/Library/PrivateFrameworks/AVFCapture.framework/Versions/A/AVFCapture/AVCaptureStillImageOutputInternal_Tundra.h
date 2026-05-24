@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceFormat_Tundra, AVCaptureStillImageOutputUtils, NSDictionary, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureStillImageOutputInternal_Tundra
 {
     struct __CFDictionary *videoDecompressorUnits;
-    struct __CFDictionary *videoToProcsUnits;
-    AVCaptureStillImageOutputUtils *tranformUtils;
-    NSMutableArray *stillImageRequests;
-    unsigned int imageDataFormatType;
-    NSDictionary *outputSettings;
-    AVCaptureDeviceFormat_Tundra *highResModeFormat;
-    _Bool isHighResMode;
-    _Bool isCapturing;
-    _Bool isEnableHighResMode;
-    int numberOfPhotoCaptures;
 }
 
-- (void);
+- (void)@64;
 - (id);
 
 @end

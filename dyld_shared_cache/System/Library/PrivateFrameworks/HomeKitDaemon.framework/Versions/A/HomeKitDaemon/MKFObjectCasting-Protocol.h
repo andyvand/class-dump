@@ -4,11 +4,90 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MKFHomeManager;
+@protocol MKFAccessoryNetworkProtectionGroup, MKFAccount, MKFAction, MKFAirPlayAccessory, MKFAnalysisEventBulletinRegistration, MKFAppleMediaAccessoryPowerAction, MKFApplicationData, MKFBulletinCondition, MKFBulletinRegistration, MKFBulletinTimeSpecification, MKFCalendarEvent, MKFCameraAccessModeBulletinRegistration, MKFCameraReachabilityBulletinRegistration, MKFCameraSignificantEventBulletinRegistration, MKFCharacteristic, MKFCharacteristicBulletinRegistration, MKFCharacteristicEvent, MKFCharacteristicRangeEvent, MKFCharacteristicValueEvent, MKFDurationEvent, MKFEvent, MKFEventTrigger, MKFFloatCharacteristic, MKFGuest, MKFGuestAccessCode, MKFHAPAccessory, MKFHAPMetadata, MKFHome, MKFHomeAccessCode, MKFHomeManager, MKFHomeManagerHome, MKFHomeMediaSetting, MKFHomeNetworkRouterManagingDeviceSetting, MKFHomeNetworkRouterSetting, MKFHomePerson, MKFHomePersonManagerSetting, MKFHomeSetting, MKFHomeThreadNetwork, MKFIncomingInvitation, MKFIntegerCharacteristic, MKFInvitation, MKFLocationEvent, MKFMatterAttributeEvent, MKFMatterBulletinRegistration, MKFMatterCommandAction, MKFMatterLocalKeyValuePair, MKFMatterPath, MKFMediaAccessory, MKFMediaPlaybackAction, MKFNaturalLightingAction, MKFNotificationRegistration, MKFNotificationRegistrationActionSet, MKFNotificationRegistrationCharacteristic, MKFNotificationRegistrationMediaProperty, MKFOutgoingInvitation, MKFPerson, MKFPhotosPerson, MKFPresenceEvent, MKFRemovedUserAccessCode, MKFResident, MKFResidentSelection, MKFRoom, MKFRoomPresence, MKFServiceGroup, MKFShortcutAction, MKFSignificantTimeEvent, MKFSoftwareUpdate, MKFStatusChannel, MKFStringCharacteristic, MKFSunriseSunsetTimeSpecification, MKFTimeOfDayTimeSpecification, MKFTimePeriodBulletinCondition, MKFTimerTrigger, MKFTrigger, MKFUser, MKFUserAccessCode, MKFUserActivityStatus, MKFWeekDayScheduleRule, MKFYearDayScheduleRule, MKFZone;
 
 @protocol MKFObjectCasting
 
 @optional
+- (id <MKFZone>)criptionTypes;
+- (id <MKFYearDayScheduleRule>)eld;
+- (id <MKFWeekDayScheduleRule>)endDate;
+- (id <MKFUserActivityStatus>)neItem",&,N,V_transitLineItem;
+- (id <MKFUserAccessCode>)destinationName;
+- (id <MKFUser>)eLine",&,N,V_line;
+- (id <MKFTrigger>)deleteFavoritesSyncedMarkerFile;
+- (id <MKFTimerTrigger>)ution;
+- (id <MKFTimePeriodBulletinCondition>)TransitStorageAttribution",&,N,V_transitAttribution;
+- (id <MKFTimeOfDayTimeSpecification>)k",&,N,V_headerArtwork;
+- (id <MKFSunriseSunsetTimeSpecification>)ternateArtwork;
+- (id <MKFStringCharacteristic>)containsObject: /* Error: Ran out of types for this method. */;
+- (id <MKFStatusChannel>)ationStorage",R,N;
+- (id <MKFSoftwareUpdate>)contactStorages;
+- (id <MKFSignificantTimeEvent>)T@"MSPSharedTripSharingIdentity",R,N;
+- (id <MKFShortcutAction>)_ridesharingTrip;
+- (id <MKFServiceGroup>)clearMinimalStrategyIdentifiers;
+- (id <MKFRoomPresence>)checkin;
+- (id <MKFRoom>),&,N,V_placeDisplay;
+- (id <MKFResidentSelection>)captureUserAction:target:value: /* Error: Ran out of types for this method. */;
+- (id <MKFResident>)",&,N,V_pin;
+- (id <MKFRemovedUserAccessCode>)storage;
+- (id <MKFPresenceEvent>)@"MSPHistoryEntryStorage",R,N,V_storage;
+- (id <MKFPhotosPerson>)_senderSessionStorage;
+- (id <MKFPerson>)roupSessionStorage",&,N,V_senderSessionStorage;
+- (id <MKFOutgoingInvitation>),N,V_directionsSearch;
+- (id <MKFNotificationRegistrationMediaProperty>)&,N,V_bookmark;
+- (id <MKFNotificationRegistrationCharacteristic>)T@"GEOURLRouteHandle",R,N;
+- (id <MKFNotificationRegistrationActionSet>)addCoordinates: /* Error: Ran out of types for this method. */;
+- (id <MKFNotificationRegistration>)_updatedObjects;
+- (id <MKFNaturalLightingAction>)tate",&,N,V_currentState;
+- (id <MKFMediaPlaybackAction>)erviceTraits",R,N,V_traits;
+- (id <MKFMediaAccessory>)MapRegion",R,N;
+- (id <MKFMatterPath>)n",C,N;
+- (id <MKFMatterLocalKeyValuePair>)egion",&,N,V_region;
+- (id <MKFMatterCommandAction>)ItemStorage;
+- (id <MKFMatterBulletinRegistration>)_sessionStorage;
+- (id <MKFMatterAttributeEvent>)_regionBookmark;
+- (id <MKFLocationEvent>)tLng",&,N,V_latLng;
+- (id <MKFInvitation>)_performBlockOnAllCachedStatus: /* Error: Ran out of types for this method. */;
+- (id <MKFIntegerCharacteristic>)_originalHandle;
+- (id <MKFIncomingInvitation>)dWaypoint,V_endWaypoint;
+- (id <MKFHomeThreadNetwork>)_noteWillMutate;
+- (id <MKFHomeSetting>)N,V_startWaypoint;
+- (id <MKFHomePersonManagerSetting>)_needToSendETARefreshFor:state: /* Error: Ran out of types for this method. */;
+- (id <MKFHomePerson>)eOptions",R,N;
+- (id <MKFHomeNetworkRouterSetting>)_msp_blockedTestTripIdentifiers;
+- (id <MKFHomeNetworkRouterManagingDeviceSetting>)_liveModeParticipantIdentifiers;
+- (id <MKFHomeMediaSetting>)ayDelegate>",W,N,V_delegate;
+- (id <MKFHomeManagerHome>)egate;
+- (id <MKFHomeAccessCode>)actControllerDelegate>",W,N,V_delegate;
+- (id <MKFHome>)_isolationQueue;
+- (id <MKFHAPMetadata>)abilityDelegate;
+- (id <MKFHAPAccessory>)ailabiltyDelegate>",W,N,V_availabilityDelegate;
+- (id <MKFGuestAccessCode>)Source;
+- (id <MKFGuest>)",C,N,V_routeInformationSource;
+- (id <MKFFloatCharacteristic>)_handle;
+- (id <MKFEventTrigger>)tenerDelegate>",W,N,V_delegate;
+- (id <MKFEvent>)_fromID;
+- (id <MKFDurationEvent>),N,V_updatedImmutableObject;
+- (id <MKFCharacteristicValueEvent>);
+- (id <MKFCharacteristicRangeEvent>)ContainerPersisterDelegate>",W,N,V_delegate;
+- (id <MKFCharacteristicEvent>)_connectionCanControlReceiving: /* Error: Ran out of types for this method. */;
+- (id <MKFCharacteristicBulletinRegistration>)em>",R,N;
+- (id <MKFCharacteristic>)_artworkUseType;
+- (id <MKFCameraSignificantEventBulletinRegistration>)ticket;
+- (id <MKFCameraReachabilityBulletinRegistration>)V_iconType;
+- (id <MKFCameraAccessModeBulletinRegistration>)led,V_cancelled;
+- (id <MKFCalendarEvent>)StringAsSearchType: /* Error: Ran out of types for this method. */;
+- (id <MKFBulletinRegistration>)StringAsChangeType: /* Error: Ran out of types for this method. */;
+- (id <MKFBulletinCondition>)StringAsArtworkSourceType: /* Error: Ran out of types for this method. */;
+- (id <MKFApplicationData>)StringAsOrigin: /* Error: Ran out of types for this method. */;
+- (id <MKFAppleMediaAccessoryPowerAction>)_TtC11MapsSupportP33_D895F6978ABFA0F06ADE38F52CA15BBD19ResourceBundleClass;
+- (id <MKFAnalysisEventBulletinRegistration>)MSPContainerStateSnapshot;
+- (id <MKFAirPlayAccessory>)MSPContainerArrayStateSnapshot;
+- (id <MKFAction>)MSPFileContainerPersister;
+- (id <MKFAccessoryNetworkProtectionGroup>)MSPSharedTripSubscriptionToken;
+- (id <MKFBulletinTimeSpecification>)8);
+- (id <MKFAccount>);
 - (id <MKFHomeManager>)edConfiguredName = %@, for service %@;
 @end
 

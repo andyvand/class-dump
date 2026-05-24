@@ -6,25 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImage;
-
 @interface _UIFloatingShadowView : UIView
 {
     UIView *_shadowView;
-    struct CATransform3D _shadowTransform;
-    _Bool _shadowEnabled;
-    _Bool __disableOutsetShadowPath;
-    double _shadowRadius;
-    double _shadowOpacity;
-    double _shadowVerticalOffset;
-    double _shadowExpansion;
-    UIImage *_shadowImage;
-    double _cornerRadius;
-    struct CGSize _shadowSize;
-    struct CGRect _shadowContentsCenter;
 }
 
-+ (Class);
++ (Class)_registeredCustomQueueIdentifiers;
 - (double);
 - (struct CGRect);
 - (void);
@@ -32,21 +19,21 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPath *);
+- (struct CGPath *)H;
 - (void);
-- (void);
-- (_Bool);
+- (void)to replace with version from CKRecord, success %@ error %@;
+- (_Bool)ce (%@) at rowID:%lld, existing display name is (%@) and new display name is (%@) /* Error: Ran out of types for this method. */;
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize)east one feature in and one feature out;
+- (void)av file:(struct CGSize)arg1 %@;
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (double)@ù
 × ;
-- (void)d;
-- (id)en:(struct CGRect)arg1;
+- (void)_dismissForSelectionQuickActionAnimated;
+- (id)_createStatusBarWithRequestedStyle:(struct CGRect)arg1 orientation:hidden: /* Error: Ran out of types for this method. */;
 - (id)ÿÿì;
 - (double)ne;
 - (void)imations;
@@ -55,16 +42,7 @@
 - (double)þ;
 
 // Remaining properties
-@property(nonatomic) _Bool _disableOutsetShadowPath; // @synthesize _disableOutsetShadowPath=__disableOutsetShadowPath;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) struct CGRect shadowContentsCenter; // @synthesize shadowContentsCenter=_shadowContentsCenter;
 @property(nonatomic, getter=isShadowEnabled) _Bool shadowEnabled; // @synthesize shadowEnabled=_shadowEnabled;
-@property(nonatomic) double shadowExpansion; // @synthesize shadowExpansion=_shadowExpansion;
-@property(retain, nonatomic) UIImage *shadowImage; // @synthesize shadowImage=_shadowImage;
-@property(nonatomic) double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
-@property(nonatomic) struct CGSize shadowSize; // @synthesize shadowSize=_shadowSize;
-@property(nonatomic) double shadowVerticalOffset; // @synthesize shadowVerticalOffset=_shadowVerticalOffset;
 
 @end
 

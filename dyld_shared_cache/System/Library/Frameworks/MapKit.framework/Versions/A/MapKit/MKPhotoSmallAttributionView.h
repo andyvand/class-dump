@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, _MKUILabel;
+@class _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKPhotoSmallAttributionView
 {
     _MKUILabel *_label;
-    NSView *_backgroundView;
-    struct CGSize _labelSize;
 }
 
-- (id);
+- (id)s.;
 - (struct CGSize);
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)nDetails: /* Error: Ran out of types for this method. */;
+- (void)mapItemsForPlacesInDetails: /* Error: Ran out of types for this method. */;
 
 @end
 

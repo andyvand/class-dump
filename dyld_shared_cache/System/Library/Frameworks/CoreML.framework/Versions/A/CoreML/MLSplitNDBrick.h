@@ -4,51 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLSplitNDBrick
 {
     _Bool _shapeInfoNeeded;
-    NSNumber *_axis;
-    NSNumber *_numSplits;
-    NSArray *_splitSizes;
-    NSArray *_inputRanks;
-    NSArray *_outputRanks;
-    NSArray *_inputShapes;
-    NSArray *_outputShapes;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)refitCurveLeafNodeInPlaceKernel;
+- (id)copyAndCompactMTLBVHHeaderKernel;
+- (id)rasterizationEnabled;
+- (id)alphaToCoverageEnabled;
+- (id)MTLStepFunctionPerVertex;
+- (id)requiredThreadsPerObjectThreadgroup;
+- (id)lu, %lu, %lu];
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool) P;
 - (id);
-- (id);
+- (id);
 - (void)ument must be an absolute path but a relative path (;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *axis; // @synthesize axis=_axis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inputRanks; // @synthesize inputRanks=_inputRanks;
-@property(readonly, nonatomic) NSArray *inputShapes; // @synthesize inputShapes=_inputShapes;
-@property(readonly, nonatomic) NSNumber *numSplits; // @synthesize numSplits=_numSplits;
-@property(readonly, nonatomic) NSArray *outputRanks; // @synthesize outputRanks=_outputRanks;
-@property(readonly, nonatomic) NSArray *outputShapes; // @synthesize outputShapes=_outputShapes;
 @property(readonly, nonatomic) _Bool shapeInfoNeeded; // @synthesize shapeInfoNeeded=_shapeInfoNeeded;
-@property(readonly, nonatomic) NSArray *splitSizes; // @synthesize splitSizes=_splitSizes;
-@property(readonly) Class superclass;
 
 @end
 

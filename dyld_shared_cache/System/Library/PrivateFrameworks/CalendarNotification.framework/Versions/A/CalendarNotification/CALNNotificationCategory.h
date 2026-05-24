@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CALNNotificationCategory
 {
     NSString *_identifier;
-    NSArray *_actions;
-    unsigned long long _options;
-    NSString *_hiddenPreviewsBodyPlaceholder;
-    NSString *_categorySummaryFormat;
 }
 
 + (id);
@@ -25,17 +21,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)ion;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy) NSString *categorySummaryFormat; // @synthesize categorySummaryFormat=_categorySummaryFormat;
-@property(readonly, copy, nonatomic) NSString *hiddenPreviewsBodyPlaceholder; // @synthesize hiddenPreviewsBodyPlaceholder=_hiddenPreviewsBodyPlaceholder;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

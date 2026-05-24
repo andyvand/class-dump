@@ -7,32 +7,27 @@
 #import <AppKit/_NSWTUIView.h>
 
 @class NSMutableDictionary;
-@protocol _NSWTUITextPreviewSource;
 
 @interface _NSWTUITextEffectView : _NSWTUIView
 {
     _Bool _sourceIsAsync;
-    id <_NSWTUITextPreviewSource> _source;
-    NSMutableDictionary *_textEffects;
 }
 
-- (void);
-- (id);
+- (void)EW;
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)const char *__single __terminated_by(0), _Bool);
+- (void)<C;
 - (_Bool);
 - (id);
 - (void)!Dùñá3ð1Â0@ù
 × ;
-- (id)vate;
+- (id)deactivate;
 - (void)not allowed.;
-- (id)onObject;
+- (id)SectionObject;
 
 // Remaining properties
-@property __weak id <_NSWTUITextPreviewSource> source; // @synthesize source=_source;
-@property _Bool sourceIsAsync; // @synthesize sourceIsAsync=_sourceIsAsync;
 @property(retain, nonatomic) NSMutableDictionary *textEffects; // @synthesize textEffects=_textEffects;
 
 @end

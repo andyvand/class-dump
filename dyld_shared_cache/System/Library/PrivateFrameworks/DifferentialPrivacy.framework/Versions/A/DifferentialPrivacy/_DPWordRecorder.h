@@ -9,10 +9,9 @@
 @interface _DPWordRecorder
 {
     unsigned long long _wordFragmentWidth;
-    id <_DPDataRecorder><_DPDataRecorderKeyProperties> _recorder;
 }
 
-- (unsigned long long);
+- (unsigned long long)_menuItemForWebExtensionWithUnloadedBackgroundPage: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <_DPDataRecorder><_DPDataRecorderKeyProperties> recorder; // @synthesize recorder=_recorder;
-@property(readonly, nonatomic) unsigned long long wordFragmentWidth; // @synthesize wordFragmentWidth=_wordFragmentWidth;
 
 @end
 

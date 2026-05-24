@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIDSMessageOptions, NSDictionary, NSString;
+@class NSString;
 
 @interface CRKSendIDSMessageRequest
 {
     NSString *_sourceAppleID;
-    NSString *_destinationAddress;
-    NSDictionary *_message;
-    CRKIDSMessageOptions *_options;
 }
 
 + (_Bool);
-- (id);
+- (id)H;
 - (void);
-- (id);
+- (id)h;
 - (void);
-- (void);
+- (void)setProcess_peak_phys_footprint:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(copy, nonatomic) NSDictionary *message; // @synthesize message=_message;
-@property(copy, nonatomic) CRKIDSMessageOptions *options; // @synthesize options=_options;
 @property(copy, nonatomic) NSString *sourceAppleID; // @synthesize sourceAppleID=_sourceAppleID;
 
 @end

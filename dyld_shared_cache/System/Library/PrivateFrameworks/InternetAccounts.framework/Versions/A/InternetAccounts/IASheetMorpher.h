@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPrefCrossFadeView, NSPrefCrossFadeWindow, NSWindow;
+@class NSPrefCrossFadeWindow, NSWindow;
 
 @interface IASheetMorpher
 {
     NSPrefCrossFadeWindow *_hostSheet;
-    NSPrefCrossFadeView *_crossFadeImageView;
 }
 
 - (void);

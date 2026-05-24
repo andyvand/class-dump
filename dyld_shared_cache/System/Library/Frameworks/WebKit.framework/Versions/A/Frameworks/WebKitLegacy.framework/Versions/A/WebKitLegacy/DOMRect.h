@@ -12,16 +12,13 @@
 {
 }
 
-- (void);
+- (void){public}@) %{public}@;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) DOMCSSPrimitiveValue *bottom;
-@property(readonly) DOMCSSPrimitiveValue *left;
-@property(readonly) DOMCSSPrimitiveValue *right;
 @property(readonly) DOMCSSPrimitiveValue *top;
 
 @end

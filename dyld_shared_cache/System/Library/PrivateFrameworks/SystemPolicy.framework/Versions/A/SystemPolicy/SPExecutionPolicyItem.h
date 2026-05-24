@@ -9,13 +9,6 @@
 @interface SPExecutionPolicyItem
 {
     NSString *_itemPath;
-    NSString *_signingID;
-    NSString *_teamID;
-    NSString *_cdHash;
-    _Bool _needsApproval;
-    _Bool _needsOverride;
-    _Bool _knownMalware;
-    NSString *_blockedReasonDescription;
 }
 
 + (_Bool);
@@ -34,14 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *blockedReasonDescription; // @synthesize blockedReasonDescription=_blockedReasonDescription;
-@property(readonly, nonatomic) NSString *cdHash; // @synthesize cdHash=_cdHash;
 @property(readonly, nonatomic) NSString *itemPath; // @synthesize itemPath=_itemPath;
-@property(readonly, nonatomic) _Bool knownMalware; // @synthesize knownMalware=_knownMalware;
-@property(readonly, nonatomic) _Bool needsApproval; // @synthesize needsApproval=_needsApproval;
-@property(readonly, nonatomic) _Bool needsOverride; // @synthesize needsOverride=_needsOverride;
-@property(readonly, nonatomic) NSString *signingID; // @synthesize signingID=_signingID;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

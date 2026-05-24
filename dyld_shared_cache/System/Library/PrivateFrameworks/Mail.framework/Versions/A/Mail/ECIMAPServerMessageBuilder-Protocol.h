@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol ECIMAPServerMessageBuilder
 
 // Remaining properties
 @property(nonatomic) unsigned int imapUID;
-@property(copy, nonatomic) NSSet *labels;
 @end
 

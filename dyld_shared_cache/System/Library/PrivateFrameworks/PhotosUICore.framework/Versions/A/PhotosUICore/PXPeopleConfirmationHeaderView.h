@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPeopleScalableAvatarView, UXLabel;
 @protocol PXPerson;
 
 @interface PXPeopleConfirmationHeaderView
 {
     id <PXPerson> _person;
-    UXLabel *_titleLabel;
-    PXPeopleScalableAvatarView *_avatarView;
-    UXLabel *_descriptionLabel;
 }
 
 - (void);
@@ -25,20 +21,15 @@
 - (void);
 - (void);
 - (id)e=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16q784@792@800{?={?=qiIq}{?=qiIq}}808@856d864q872;
-- (void)ionDate;
+- (void)currentSkipSegmentActionDate;
 - (id)c>ÿ;
-- (id)usActionLearnMoreUpgradeSuggested_Title;
-- (void)emonadeMockBookmarksDataSource;
+- (id)PXCPLStatusActionLearnMoreUpgradeSuggested_Title;
+- (void)LemonadeMockBookmarksDataSource;
 - (void);
 - (id)¶;
 
 // Remaining properties
-@property(retain, nonatomic) PXPeopleScalableAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) UXLabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(copy, nonatomic) NSString *descriptionText;
 @property(retain, nonatomic) id <PXPerson> person; // @synthesize person=_person;
-@property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) UXLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

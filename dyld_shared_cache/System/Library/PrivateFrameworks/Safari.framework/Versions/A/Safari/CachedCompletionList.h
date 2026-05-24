@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface CachedCompletionList
 {
     _Bool _allowsInitialSelection;
-    NSString *_queryString;
-    Vector_e48de2cf _cachedCompletionVector;
 }
 
 - (void);
 - (id);
 - (void *);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)endFavoritesChangedNotification;
+- (void)_sendFavoritesChangedNotification;
 - (id)ab;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsInitialSelection; // @synthesize allowsInitialSelection=_allowsInitialSelection;
-@property(readonly, nonatomic) void *cachedCompletionVector; // @synthesize cachedCompletionVector=_cachedCompletionVector;
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

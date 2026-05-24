@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (Class);
-+ (void)entGetChannelsDefineSameTopology;
-- (id);
++ (void)C3DMeshElementGetChannelsDefineSameTopology;
+- (id)_applicationData;
 - (id)xing failed - Count of deindexed mesh elements does not match count of indexed mesh elements;
 
 @end

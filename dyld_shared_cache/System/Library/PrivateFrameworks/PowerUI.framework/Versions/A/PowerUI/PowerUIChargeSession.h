@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface PowerUIChargeSession
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSNumber *_startSoC;
-    NSNumber *_endSoC;
-    double _duration;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ailed to Truncate Database;
 - (double);
 - (id);
 - (id);
@@ -26,11 +22,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSNumber *endSoC; // @synthesize endSoC=_endSoC;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSNumber *startSoC; // @synthesize startSoC=_startSoC;
 
 @end
 

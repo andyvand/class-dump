@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _INPBIntentSlotVocabularyConcept
 {
     struct {
         unsigned int requiresUserIdentification:1;
     } _has;
-    _Bool _requiresUserIdentification;
-    NSString *_identifier;
-    NSArray *_synonyms;
 }
 
 + (Class);
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -34,27 +31,15 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)ValueData;
+- (_Bool);
+- (void)privateMediaItemValueData;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasRequiresUserIdentification;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool requiresUserIdentification; // @synthesize requiresUserIdentification=_requiresUserIdentification;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *synonyms; // @synthesize synonyms=_synonyms;
-@property(readonly, nonatomic) unsigned long long synonymsCount;
 
 @end
 

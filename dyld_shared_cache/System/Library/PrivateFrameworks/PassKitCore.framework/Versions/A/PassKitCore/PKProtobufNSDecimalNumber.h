@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKProtobufNSDecimalNumber
 {
     int _exponent;
-    int _isCompact;
-    int _isNegative;
-    int _length;
-    NSData *_mantissa;
-    int _reserved;
-    unsigned int _version;
 }
 
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (id);
+- (int)Tl;
 - (int);
-- (int);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
-- (int);
+- (int);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)tes"b1"ratioOOBBytes"b1"rrcState"b1"rxRetransmissionRate"b1"rxRetry"b1"tcpRTTAvg"b1"tcpRTTmin"b1"tcpRTTvar"b1"totalConfiguredBw"b1"totalConfiguredMimoLayers"b1"txRetransmissionRate"b1"txber"b1"videoStreamingStallTime"b1"weightedAveragePhyrateRx"b1"weightedAveragePhyrateTx"b1"weightedAverageRssi"b1"weightedAverageSnr"b1"wifChannelBW"b1"wifChannelType"b1"wifiCapability"b1"wifiModelConfidenceLevel"b1"wifiModelVersion"b1"wifiSinr"b1"wifichannel"b1"wifiguardinterval"b1"wifilowDataMode"b1"wifimcsindex"b1"wifinumberOfSpatialStreams"b1"wrmRecommendedRAT"b1"cellNsaEnabled"b1"isFR1"b1};
+- (void)ed;
 - (void);
 - (int);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void)hIDNotRecognized;
+- (void)touchIDNotRecognized;
 - (int)·hXC;
 
 // Remaining properties
-@property(nonatomic) int exponent; // @synthesize exponent=_exponent;
-@property(nonatomic) int isCompact; // @synthesize isCompact=_isCompact;
-@property(nonatomic) int isNegative; // @synthesize isNegative=_isNegative;
-@property(nonatomic) int length; // @synthesize length=_length;
-@property(retain, nonatomic) NSData *mantissa; // @synthesize mantissa=_mantissa;
-@property(nonatomic) int reserved; // @synthesize reserved=_reserved;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

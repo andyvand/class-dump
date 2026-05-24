@@ -6,61 +6,41 @@
 
 #import <Safari/BrowserDataImporter.h>
 
-@class BookmarkMergeDriver, BookmarksUndoController, NSDictionary, NSMutableArray, NSString;
-@protocol BrowserBookmarkImporterDelegate;
-
 __attribute__((visibility("hidden")))
 @interface BrowserBookmarkImporter : BrowserDataImporter
 {
     unsigned long long _importOrigin;
-    NSDictionary *_previouslyImportedBookmarksByImportOriginUUID;
-    NSMutableArray *_reimportedBookmarks;
-    BookmarkMergeDriver *_mergeDriver;
-    _Bool _hasBegunBookmarkTransaction;
-    id <BrowserBookmarkImporterDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    BookmarksUndoController *_bookmarksUndoController;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)ؗ`;
 - (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)RL? %@;
 - (void);
 - (CDUnknownBlockType);
 - (void)ogle Chrome;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BookmarksUndoController *bookmarksUndoController; // @synthesize bookmarksUndoController=_bookmarksUndoController;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BrowserBookmarkImporterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasBegunBookmarkTransaction; // @synthesize hasBegunBookmarkTransaction=_hasBegunBookmarkTransaction;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

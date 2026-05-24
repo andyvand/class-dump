@@ -4,30 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCAudioAssetTypeSelection, MPIdentifierSet, MPModelFileAsset, MPModelGenericObject, MPModelHomeSharingAsset, MPModelStoreAsset, NSString;
-@protocol MPCModelPlaybackAssetCacheProviding;
-
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemAssetLoadProperties
 {
     _Bool _prefersVideoContent;
-    _Bool _prefersHighQualityContent;
-    _Bool _radioPlayback;
-    _Bool _followUp;
-    _Bool _supportsVocalAttenuation;
-    long long _HLSContentPolicy;
-    id <MPCModelPlaybackAssetCacheProviding> _assetCacheProvider;
-    MPModelFileAsset *_fileAsset;
-    MPModelGenericObject *_genericObject;
-    MPModelHomeSharingAsset *_homeSharingAsset;
-    MPIdentifierSet *_itemIdentifiers;
-    MPModelStoreAsset *_storeAsset;
-    unsigned long long _accountID;
-    unsigned long long _delegatedAccountID;
-    NSString *_householdID;
-    NSString *_storefrontID;
-    long long _preferredAudioAssetType;
-    MPCAudioAssetTypeSelection *_audioAssetTypeSelection;
 }
 
 - (void);
@@ -41,16 +21,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)__objc_classlist__DATA_CONST;
 - (long long);
+- (id)unt %@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool)__objc_classname__TEXT;
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long)s for account:%@ (%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -62,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
@@ -71,24 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long HLSContentPolicy; // @synthesize HLSContentPolicy=_HLSContentPolicy;
-@property(nonatomic) unsigned long long accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) _Bool allowsHLSContent;
-@property(retain, nonatomic) id <MPCModelPlaybackAssetCacheProviding> assetCacheProvider; // @synthesize assetCacheProvider=_assetCacheProvider;
-@property(retain, nonatomic) MPCAudioAssetTypeSelection *audioAssetTypeSelection; // @synthesize audioAssetTypeSelection=_audioAssetTypeSelection;
-@property(nonatomic) unsigned long long delegatedAccountID; // @synthesize delegatedAccountID=_delegatedAccountID;
-@property(retain, nonatomic) MPModelFileAsset *fileAsset; // @synthesize fileAsset=_fileAsset;
-@property(nonatomic, getter=isFollowUp) _Bool followUp; // @synthesize followUp=_followUp;
-@property(retain, nonatomic) MPModelGenericObject *genericObject; // @synthesize genericObject=_genericObject;
-@property(retain, nonatomic) MPModelHomeSharingAsset *homeSharingAsset; // @synthesize homeSharingAsset=_homeSharingAsset;
-@property(copy, nonatomic) NSString *householdID; // @synthesize householdID=_householdID;
-@property(retain, nonatomic) MPIdentifierSet *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(nonatomic) long long preferredAudioAssetType; // @synthesize preferredAudioAssetType=_preferredAudioAssetType;
-@property(nonatomic) _Bool prefersHighQualityContent; // @synthesize prefersHighQualityContent=_prefersHighQualityContent;
-@property(nonatomic) _Bool prefersVideoContent; // @synthesize prefersVideoContent=_prefersVideoContent;
-@property(nonatomic, getter=isRadioPlayback) _Bool radioPlayback; // @synthesize radioPlayback=_radioPlayback;
-@property(retain, nonatomic) MPModelStoreAsset *storeAsset; // @synthesize storeAsset=_storeAsset;
-@property(copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
-@property(nonatomic) _Bool supportsVocalAttenuation; // @synthesize supportsVocalAttenuation=_supportsVocalAttenuation;
 
 @end
 

@@ -10,7 +10,7 @@
 }
 
 + (shared_ptr_963287a8);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -21,16 +21,16 @@
 - (double);
 - (struct PKCompressedStrokePoint);
 - (double);
-- (id);
-- (double);
+- (id)shouldWaitUntilEndOfCurrentRepetition;
+- (double)insertAssetIntoPhotoLibrary:mainFileURL:mainFileMetadata:savedAssetType:bundleScope:uuid:replacementUUID:imageSource:imageData:isPlaceholder:deleteFileOnFailure: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (struct CGSize);
-- (id);
+- (id)dictionaryRepresentation;
 - (_Bool);
 - (double);
 - (id);
 - (double);
-- (double);
+- (double)resetStorageRequestSchemaVersion;
 - (struct CGPoint);
 - (double);
 - (void);
@@ -38,16 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double _edgeWidth;
-@property(readonly, nonatomic) double _radius2;
-@property(readonly, nonatomic) double altitude;
-@property(readonly, nonatomic) double azimuth;
-@property(readonly, nonatomic) double force;
-@property(readonly, nonatomic) struct CGPoint location;
-@property(readonly, nonatomic) double opacity;
-@property(readonly, nonatomic) double secondaryScale;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) double threshold;
-@property(readonly, nonatomic) double timeOffset;
 
 @end
 

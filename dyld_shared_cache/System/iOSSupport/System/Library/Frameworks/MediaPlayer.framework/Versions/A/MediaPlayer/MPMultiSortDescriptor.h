@@ -15,9 +15,9 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)__kIMChatParticipantsDidChangeAddedParticipantsKey;
 - (void);
-- (void)on:task:didCompleteWithError: /* Error: Ran out of types for this method. */;
+- (void)URLSession:task:didCompleteWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *relatedProperties; // @synthesize relatedProperties=_relatedProperties;

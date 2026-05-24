@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFileProviderSearchQuery;
+@class NSArray;
 
 @interface FPEnumerationSettings
 {
     NSArray *_sortDescriptors;
-    NSFileProviderSearchQuery *_searchQuery;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)[INFO]   %{private, mask.hash}s~SipInsecureTransportGroup:SipTransportLayer is going away /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)ñç)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy) NSFileProviderSearchQuery *searchQuery; // @synthesize searchQuery=_searchQuery;
 @property(copy) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end

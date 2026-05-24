@@ -14,12 +14,7 @@
 + (id)m/°;
 
 // Remaining properties
-@property(readonly, getter=isActive) _Bool active; // @dynamic active;
-@property(readonly) unsigned long long attributeIndex; // @dynamic attributeIndex;
-@property(readonly) unsigned long long attributeType; // @dynamic attributeType;
 @property(readonly) NSString *name; // @dynamic name;
-@property(readonly, getter=isPatchControlPointData) _Bool patchControlPointData; // @dynamic patchControlPointData;
-@property(readonly, getter=isPatchData) _Bool patchData; // @dynamic patchData;
 
 @end
 

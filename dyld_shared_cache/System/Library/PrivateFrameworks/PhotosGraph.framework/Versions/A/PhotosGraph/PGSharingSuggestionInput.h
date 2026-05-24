@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGGraph, PHFetchResult, PHPhotoLibrary;
+@class NSArray, PGGraph;
 
 @interface PGSharingSuggestionInput
 {
     NSArray *_assetLocalIdentifiers;
-    NSArray *_momentLocalIdentifiers;
-    NSArray *_momentNodes;
-    PHFetchResult *_assets;
-    PHFetchResult *_moments;
-    PHPhotoLibrary *_photoLibrary;
-    PGGraph *_graph;
 }
 
+- (id)ndowController";
+- (id)setSymbolFont:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_retryAfterBackoff;
 - (id);
 - (void)8@"NSDate"16^B24;
-- (id)tionDebugInfo;
+- (id)musicCurationDebugInfo;
 - (id)þÿÒiÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchResult *assets;
 @property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) NSArray *momentNodes;
-@property(readonly, nonatomic) PHFetchResult *moments;
 
 @end
 

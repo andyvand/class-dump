@@ -9,16 +9,15 @@
     long long type;
 }
 
-- (id);
+- (id)ion-identifier.missing;
 - (long long);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)MPSMatrixInternalBlockUpperTriangularMatrixMultiply;
 - (id)aryScale:(id)arg1 %f
  	bias:%f
  	minmumValue:%f

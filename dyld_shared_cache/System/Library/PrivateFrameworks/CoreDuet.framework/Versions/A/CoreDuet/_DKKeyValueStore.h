@@ -13,13 +13,13 @@
 
 + (id);
 - (void);
-- (void);
+- (void)ecognized shielding debug option:(id)arg1 %x;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (_Bool);
 - (void);
@@ -29,9 +29,9 @@
 - (id);
 - (void)0@ù
 × ;
-- (void)tring:(id)arg1;
+- (void)withString:(id)arg1;
 - (id)uing operation to fetch sync device identifiers;
-- (void)_message_sent_with_fail_if_asleep;
+- (void)rapport_message_sent_with_fail_if_asleep;
 - (void)DuetFramework/_CDSpotlightRecorder.m:(id)arg1 552;
 
 @end

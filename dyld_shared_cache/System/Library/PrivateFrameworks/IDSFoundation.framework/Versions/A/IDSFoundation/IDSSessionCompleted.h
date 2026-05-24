@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSSessionCompleted
 {
     _Bool _isQREnabled;
-    _Bool _isUsingQRDirectly;
-    _Bool _isInitiator;
-    _Bool _isScreenSharingSessionType;
-    _Bool _isWithDefaultPairedDevice;
-    _Bool _isWifiInterfaceDisallowed;
-    _Bool _isCellularInterfaceDisallowed;
-    unsigned int _clientType;
-    unsigned int _transportType;
-    unsigned int _linkType;
-    unsigned int _linkProtocol;
-    unsigned int _endedReason;
-    unsigned int _destinationType;
-    NSString *_guid;
-    NSNumber *_protocolVersionNumber;
-    NSString *_serviceName;
-    NSNumber *_durationOfSession;
-    NSNumber *_durationToConnect;
 }
 
 - (id);
@@ -42,7 +25,7 @@
 - (id);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id)ÃW;
@@ -52,33 +35,7 @@
 - (unsigned int)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int clientType; // @synthesize clientType=_clientType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int destinationType; // @synthesize destinationType=_destinationType;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSNumber *durationOfSession; // @synthesize durationOfSession=_durationOfSession;
-@property(readonly, nonatomic) NSNumber *durationToConnect; // @synthesize durationToConnect=_durationToConnect;
-@property(readonly, nonatomic) unsigned int endedReason; // @synthesize endedReason=_endedReason;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCellularInterfaceDisallowed; // @synthesize isCellularInterfaceDisallowed=_isCellularInterfaceDisallowed;
-@property(readonly, nonatomic) _Bool isInitiator; // @synthesize isInitiator=_isInitiator;
-@property(readonly, nonatomic) _Bool isQREnabled; // @synthesize isQREnabled=_isQREnabled;
-@property(readonly, nonatomic) _Bool isScreenSharingSessionType; // @synthesize isScreenSharingSessionType=_isScreenSharingSessionType;
-@property(readonly, nonatomic) _Bool isUsingQRDirectly; // @synthesize isUsingQRDirectly=_isUsingQRDirectly;
-@property(readonly, nonatomic) _Bool isWifiInterfaceDisallowed; // @synthesize isWifiInterfaceDisallowed=_isWifiInterfaceDisallowed;
-@property(readonly, nonatomic) _Bool isWithDefaultPairedDevice; // @synthesize isWithDefaultPairedDevice=_isWithDefaultPairedDevice;
-@property(readonly, nonatomic) unsigned int linkProtocol; // @synthesize linkProtocol=_linkProtocol;
-@property(readonly, nonatomic) unsigned int linkType; // @synthesize linkType=_linkType;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSNumber *protocolVersionNumber; // @synthesize protocolVersionNumber=_protocolVersionNumber;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int transportType; // @synthesize transportType=_transportType;
 
 @end
 

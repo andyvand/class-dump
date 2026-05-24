@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString, STUserDeviceState;
-@protocol STSerializableManagedObject;
-
 @interface STCoreDevice
 {
 }
 
-+ (id);
++ (id)C3DEffectCommonProfileGetCullMode;
 + (id);
 + (id);
 + (id);
@@ -28,27 +25,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_handleOpenFailureWithStatus:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, readonly) _Bool hasLegacyUsageData;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSDate *lastPasscodeUseDate; // @dynamic lastPasscodeUseDate;
-@property(retain, nonatomic) STUserDeviceState *localUserDeviceState; // @dynamic localUserDeviceState;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) short platform; // @dynamic platform;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsPasscodeActivity; // @dynamic supportsPasscodeActivity;
-@property(readonly) id <STSerializableManagedObject> syncableRootObject;
-@property(retain, nonatomic) NSSet *usages; // @dynamic usages;
-@property(retain, nonatomic) NSSet *userDeviceAddresses; // @dynamic userDeviceAddresses;
-@property(retain, nonatomic) NSSet *userDeviceStates; // @dynamic userDeviceStates;
 
 @end
 

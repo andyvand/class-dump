@@ -11,25 +11,21 @@
 @interface SFEndSearchFeedback : SFFeedback
 {
     _Bool _isCanceled;
-    NSString *_uuid;
-    unsigned long long _cancelSearchEvent;
 }
 
 + (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
+- (id)sendCustomData:(id)arg1 withName: /* Error: Ran out of types for this method. */;
+- (void)acOS/MediaPlayer;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool)xMatchInAttachmentTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)setCountBigramPrefixMatchInAttachmentTypes: /* Error: Ran out of types for this method. */;
 - (void)pe;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cancelSearchEvent; // @synthesize cancelSearchEvent=_cancelSearchEvent;
-@property(nonatomic) _Bool isCanceled; // @synthesize isCanceled=_isCanceled;
 @property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

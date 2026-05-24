@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBBillPayeeValue, _INPBCurrencyAmountValue, _INPBDateTime, _INPBValueMetadata;
+@class _INPBCurrencyAmountValue, _INPBDateTime, _INPBValueMetadata;
 
 @protocol _INPBBillDetailsValue
-- (void)nversationIdentifier:(_Bool)arg1 content:dateSent:sender:recipients:groupName:serviceName:location: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setNextButtonResponder:(_INPBDateTime *)arg1;
+- (_INPBDateTime *)constraintLessThanOrEqualToConstant: /* Error: Ran out of types for this method. */;
+- (void)initWithIdentifier:(_Bool)arg1 conversationIdentifier:content:dateSent:sender:recipients:groupName:serviceName:location: /* Error: Ran out of types for this method. */;
 - (_Bool)"INRestaurantGuestDisplayPreferences",C,V_guestDisplayPreferences;
 - (int)¤=?Ì@ B;
 - (void);
@@ -15,22 +18,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmountValue *amountDue;
-@property(retain, nonatomic) _INPBBillPayeeValue *billPayee;
-@property(nonatomic) int billType;
-@property(retain, nonatomic) _INPBDateTime *dueDate;
-@property(readonly, nonatomic) _Bool hasAmountDue;
-@property(readonly, nonatomic) _Bool hasBillPayee;
-@property(nonatomic) _Bool hasBillType;
-@property(readonly, nonatomic) _Bool hasDueDate;
-@property(readonly, nonatomic) _Bool hasLateFee;
-@property(readonly, nonatomic) _Bool hasMinimumDue;
-@property(readonly, nonatomic) _Bool hasPaymentDate;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *lateFee;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *minimumDue;
-@property(retain, nonatomic) _INPBDateTime *paymentDate;
-@property(nonatomic) int status;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

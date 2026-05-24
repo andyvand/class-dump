@@ -7,26 +7,24 @@
 @interface CalRecurrenceDayOfWeek
 {
     long long _dayOfTheWeek;
-    long long _weekNumber;
 }
 
++ (id)H;
 + (id);
 + (id);
-+ (id);
+- (id)#;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ng.;
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)_keyboardIsActive;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dayOfTheWeek; // @synthesize dayOfTheWeek=_dayOfTheWeek;
-@property(readonly, nonatomic) long long weekNumber; // @synthesize weekNumber=_weekNumber;
 
 @end
 

@@ -4,94 +4,79 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, GEOWorldImageLayer, NSMutableArray, NSTrackingArea;
+@class GEOWorldImageLayer;
 
 @interface GEOWorldView
 {
     GEOWorldImageLayer *_dayMapLayer;
-    GEOWorldImageLayer *_nightMapLayer;
-    NSMutableArray *overlappingLayers;
-    _Bool enabled;
-    _Bool isDebugON;
-    CALayer *primeMeridianLayer;
-    CALayer *viewEquatorLayer;
-    CALayer *copyrightLayer;
-    unsigned char imageMonthOfTheYear;
-    long long trackingRectTag;
-    NSTrackingArea *mouseMoveTrackingArea;
-    struct CGPoint previousMousePosition;
-    double scaleFactor;
 }
 
-+ (struct CGImage *);
-- (double);
-- (struct CGPoint);
-- (double);
++ (struct CGImage *)blic}@:[%{public}@] No account provided, attempting to use the local account. privacyIdentifier = %{public}@ /* Error: Ran out of types for this method. */;
+- (double)ill wait for another request to complete before running authHandler:%{public}@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)cate request:(struct CLLocationCoordinate2D)arg1 %{public}@;
+- (double)rror processing authenticate request:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)store:%lu. Adding Authenticate Request to coordinator:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)MSAuthenticateTaskCoordinator.;
+- (void)ation handler block. Authentication will be processed by AMSAuthenticateTaskCoordinator.;
+- (void)a raw password we can use.;
+- (void)D, and the account didn't have one.;
+- (void)ken; skipping credential verification;
+- (void)only requires service token; skipping credential verification;
+- (void)uthentication.;
+- (void)count's raw password to force an interactive authentication.;
+- (id)n finish the authentication flow without needing to verify again.;
+- (void)ic}@Failed to handle the dialog. error = %{public}@;
+- (void)g dialog request to delegate.;
+- (void). error = %{public}@;
+- (void)Failed to decode the AMSDialogRequest. error = %{public}@;
+- (void)ogRequest. Decoding it.;
+- (struct CGSize)ror contained an encoded AMSDialogRequest. Decoding it.;
+- (_Bool)dia type:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)ly verified for the media type:%{public}@ /* Error: Ran out of types for this method. */;
+- (double)blic}@The authentication failed. error = %{public}@;
+- (id)tried to make the account active, but after authentication it isn’t active. Making it active and saving it. account = %{public}@;
+- (struct CLLocationCoordinate2D)] Failed to authenticate the account by reusing its password. error = %{public}@;
+- (void)ount. username = %{public}@;
+- (void)s’ altDSID, but it has no username. authenticationResults = %{public}@ | account = %{public}@;
+- (void)nt matching the given authentication results. authenticationResults = %{public}@;
+- (void)Looking for an existing account matching authentication results. authenticationResults = %{public}@;
+- (void)to proceed with the authentication because the account provided is a local account.;
+- (void)lic}@;
+- (void)the client info. error = %{public}@;
+- (void)c}@;
+- (double)trics Event = %{public}@;
+- (id)tation did not delete keys:%{public}@ /* Error: Ran out of types for this method. */;
+- (struct CGImage *)retrieve certification from keychain, options.regenerateKeys:(id)arg1 %{public}lu, options.style:(id)arg2 %{public}lu;
+- (struct CLLocationCoordinate2D)led to find active iCloud account;
+- (struct CLLocationCoordinate2D)supported;
+- (void)c}@] Failed to fetch keybag data for account:%{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)] Provisioning failed. Error = %{public}@;
+- (void)%ld;
+- (void)d) headers. error = %d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k!B;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (struct CLLocationCoordinate2D);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (struct CGImage *);
-- (struct CLLocationCoordinate2D);
-- (struct CLLocationCoordinate2D);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)B32@0:8@16:24 /* Error: Ran out of types for this method. */;
+- (void)addChangesFromObject:(id)arg1 toObjects:passingTest: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) double globeRotation;
-@property(nonatomic, setter=setDebugON:) _Bool isDebugON;
-@property(nonatomic, setter=setNightMap:) _Bool isNightMap;
 
 @end
 

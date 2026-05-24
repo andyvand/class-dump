@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, _SFPBRichText;
 
 @protocol _SFPBRowCardSection
-- (int);
+- (_SFPBRichText *);
+- (void));
+- (unsigned long long)R%;
+- (int)%;
+- (void);
+- (void);
+- (void)`";
+- (_Bool)setAutoPlayEnabled:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)setAccountNotificationsShowInLibraryDictionary: /* Error: Ran out of types for this method. */;
+- (void)MPModelRelationshipPlaylistEntryPlaylist;
+- (NSData *)ayName;
+- (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBImage *attributionImage;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool cardPaddingBottom;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) _Bool imageIsRightAligned;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *key;
-@property(nonatomic) _Bool keyNoWrap;
-@property(nonatomic) int keyWeight;
-@property(retain, nonatomic) _SFPBRichText *leadingSubtitle;
-@property(retain, nonatomic) _SFPBRichText *leadingText;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *trailingSubtitle;
-@property(retain, nonatomic) _SFPBRichText *trailingText;
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSString *value;
-@property(nonatomic) _Bool valueNoWrap;
-@property(nonatomic) int valueWeight;
 @end
 

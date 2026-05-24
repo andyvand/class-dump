@@ -6,23 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface QDSchemaQDEntityMatch : SISchemaInstrumentationMessage
 {
     unsigned int _startIndex;
-    unsigned int _endIndex;
-    NSArray *_matchingTransforms;
-    int _matcher;
-    float _matchScore;
-    NSString *_originAppBundleId;
-    struct {
-        unsigned int startIndex:1;
-        unsigned int endIndex:1;
-        unsigned int matcher:1;
-        unsigned int matchScore:1;
-    } _has;
-    _Bool _hasOriginAppBundleId;
 }
 
 - (void);
@@ -33,12 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)M;
 - (void);
 - (void);
 - (void);
@@ -46,41 +33,29 @@
 - (void);
 - (void);
 - (void);
+- (float)|;
 - (void);
-- (float);
-- (void);
+- (_Bool)Controller disableFMMForRemoveDiskVolue:hostWindow:usingCallback:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (void)gInfo>"24^q32^q40;
+- (unsigned int);
+- (id)±;
 - (void);
+- (id);
+- (void);
+- (unsigned long long)est_macOS.m:32 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (int)st"8@"NSError"16;
+- (_Bool);
+- (_Bool)ore.spi.database-access;
 - (unsigned int);
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (int);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (void);
-- (id);
-- (id)AudibleFeedbackDelayInNs;
+- (id)_twoShotAudibleFeedbackDelayInNs;
 - (id)Embeddings;
 - (void)Event;
 
 // Remaining properties
-@property(nonatomic) unsigned int endIndex; // @synthesize endIndex=_endIndex;
-@property(nonatomic) _Bool hasEndIndex;
-@property(nonatomic) _Bool hasMatchScore;
-@property(nonatomic) _Bool hasMatcher;
-@property(nonatomic) _Bool hasOriginAppBundleId; // @synthesize hasOriginAppBundleId=_hasOriginAppBundleId;
-@property(nonatomic) _Bool hasStartIndex;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float matchScore; // @synthesize matchScore=_matchScore;
-@property(nonatomic) int matcher; // @synthesize matcher=_matcher;
-@property(copy, nonatomic) NSArray *matchingTransforms; // @synthesize matchingTransforms=_matchingTransforms;
-@property(copy, nonatomic) NSString *originAppBundleId; // @synthesize originAppBundleId=_originAppBundleId;
 @property(nonatomic) unsigned int startIndex; // @synthesize startIndex=_startIndex;
 
 @end

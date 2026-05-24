@@ -8,10 +8,5 @@
 
 // Remaining properties
 @property(readonly) _Bool readsDepth;
-@property(readonly) _Bool readsStencil;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-@property(readonly) unsigned long long uniqueIdentifier;
-@property(readonly) _Bool writesDepth;
-@property(readonly) _Bool writesStencil;
 @end
 

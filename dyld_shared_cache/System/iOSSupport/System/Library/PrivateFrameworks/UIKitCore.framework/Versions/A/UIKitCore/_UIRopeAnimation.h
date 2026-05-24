@@ -7,8 +7,6 @@
 @interface _UIRopeAnimation
 {
     id _progressValue;
-    id _animations;
-    id _lastIndex;
 }
 
 - (void);

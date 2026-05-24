@@ -11,40 +11,32 @@
 @interface PKRecurringPaymentSummaryItem : PKPaymentSummaryItem
 {
     NSDate *_startDate;
-    unsigned long long _intervalUnit;
-    long long _intervalCount;
-    NSDate *_endDate;
 }
 
-+ (_Bool);
++ (_Bool)__eh_frame;
 - (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)!;
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)KA@9JU@9;
 - (_Bool);
-- (void);
+- (void)_hotspot20;
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
-- (void)ymentSetupFieldText;
+- (void)PKPaymentSetupFieldText;
 - (id);
-- (void)Card;
+- (void)transferReadCard;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) long long intervalCount; // @synthesize intervalCount=_intervalCount;
-@property(readonly, nonatomic) _Bool intervalCountSpecified;
-@property(nonatomic) unsigned long long intervalUnit; // @synthesize intervalUnit=_intervalUnit;
 @property(readonly, nonatomic) _Bool intervalUnitSpecified;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

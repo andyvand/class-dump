@@ -6,20 +6,16 @@
 
 #import <IMAP/IMAPCommand.h>
 
-@class NSError, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface IMAPSingleCommand : IMAPCommand
 {
     unsigned long long _sequenceNumber;
-    _Bool _isComplete;
-    NSMutableArray *_untaggedResponses;
-    NSError *_error;
-    unsigned long long _sessionNumber;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)ka;
 - (unsigned long long);
 - (id);
 - (id);
@@ -37,12 +33,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) _Bool handlesAllUntaggedResponses;
-@property _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property unsigned long long sequenceNumber;
-@property unsigned long long sessionNumber; // @synthesize sessionNumber=_sessionNumber;
-@property(readonly, copy) NSString *tag;
 @property(retain) NSMutableArray *untaggedResponses; // @synthesize untaggedResponses=_untaggedResponses;
 
 @end

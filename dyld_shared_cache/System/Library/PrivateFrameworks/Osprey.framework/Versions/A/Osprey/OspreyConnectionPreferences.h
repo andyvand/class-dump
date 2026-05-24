@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, OspreyKeychain;
+@class NSString, OspreyKeychain;
 
 @interface OspreyConnectionPreferences
 {
     OspreyKeychain *_keychain;
-    _Bool _certificateDataFetched;
-    NSData *_certificateData;
-    NSData *_deviceAttestationData;
-    NSString *_connectionHost;
-    NSNumber *_deviceAuthenticationVersion;
-    NSNumber *_deviceAttestionVersion;
-    NSDate *_deviceAttestionExpireOn;
 }
 
 - (void);
@@ -29,27 +22,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_7	k;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)5;
+- (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (id)beforefocus",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("webkitbeforeblur",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("webkitusertextinput",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("keydown",(e=>eventQueue.processAndEnqueue(e)),!0,!0),addGlobalEventHandler("webkitsubmit",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("webkitautofillrequest",(e=>eventQueue.processAndEnqueue(e)))}class EventQueue{#e=[];#t=null;#n(e){switch(e.type){case"webkitsubmit":case"webkitautofillrequest":return e.target;case"webkitbeforefocus":case"webkitbeforeblur":case"webkitusertextinput":case"keydown":return textFieldEventTarget(e);default:return null}}processAndEnqueue(e){const t=this.#n(e);if(!t)return;let n=null;"keydown"===e.type&&(n={key:e.key,shiftKey:e.shiftKey});const s={target:t,type:e.type,data:n};this.#t?this.#t.dispatchEvent(s):(mainScriptLoadRequest.scheduleIfNeeded(),this.#e.push(s))}setDelegate(e){this.#t=e;for(const e of this.#e)this.#t.dispatchEvent(e);this.#e.length=0}}const eventQueue=new EventQueue;class MainScriptLoadRequest{#s=null;#u=!1;scheduleIfNeeded(){this.#u||this.#s||("complete"===document.readyState?this.#i():this.#s=setTimeout(this.#i.bind(this),100))}#i(){this.#u=!0,window.webkit.messageHandlers.controller.postMessage({name:"loadMainScriptRequest"})}}const mainScriptLoadRequest=new MainScriptLoadRequest;addEventListeners();
+0; /* Error: Ran out of types for this method. */;
+- (void)(�;
 - (void)çÀÑçÀÕÑçÀ:ÑçÀZÑçÀ¸ÑçÀðÑçÀÑçÀÑçÀ7ÑçÀÑçÀjÑçÀ¢ÑçÀÛÑçÀBÑçÀ?ÑçÀ¨ÑçÀQÑçÀ>ÑçÀÏÑçÀôÑçÀàÑçÀÑçÀaÑçÀLÑçÀÑçÀKÑçÀÃÑçÀÑçÀ0ÑçÀAÑçÀÑçÀ­ÑçÀFÑçÀóÑçÀÑçÀXÑçÀ)ÑçÀyÑçÀÑçÀÑçÀ<ÑçÀÑçÀ´ÑçÀÌÑçÀ³ÑçÀtÑçÀÓÑçÀ¯ÑçÀ
 ÑçÀÞÑçÀÊÑçÀ=ÑçÀÒÑçÀGÑçÀÑçÀÑçÀÑçÀ4ÑçÀÑçÀ¾ÑçÀ{ÑçÀ	ÑçÀÑçÀÈÑçÀgÑçÀ&ÑçÀ@ÑçÀ²ÑçÀãÑçÀNÑçÀÑçÀ5ÑçÀÑçÀÑçÀøÑçÀÑçÀdÑçÀ÷ÑçÀÔÑçÀÑçÀmÑçÀoÑçÀÑçÀ3ÑçÀñÑçÀùÑçÀfÑçÀÑçÀÑçÀÑçÀúÑçÀÆÑçÀèÑçÀûÑçÀÑçÀYÑçÀÑçÀÉÑçÀ(ÑçÀ|ÑçÀ%ÑçÀ9ÑçÀÑçÀvÑçÀxÑçÀÎÑçÀwÑçÀÅÑçÀMÑçÀ¡ÑçÀÑçÀ»ÑçÀ¬ÑçÀ`ÑçÀçÑçÀ-ÑçÀ©ÑçÀÑçÀbÑçÀ}ÑçÀ¤ÑçÀÑÑçÀäÑçÀHÑçÀ/ÑçÀÑçÀõÑçÀÑçÀÑçÀÑçÀ§ÑçÀÑçÀJÑçÀ]ÑçÀ¹ÑçÀÑçÀÑçÀÜÑçÀÙÑçÀ¦ÑçÀíÑçÀ1ÑçÀÂÑçÀ®ÑçÀÀÑçÀÍÑçÀáÑçÀhÑçÀ2ÑçÀeÑçÀ!ÑçÀéÑçÀÑçÀSÑçÀÑçÀ+ÑçÀÇÑçÀ¥ÑçÀzÑçÀüÑçÀÑçÀCÑçÀåÑçÀØÑçÀÑçÀÝÑçÀWÑçÀæÑçÀ"ÑçÀÑçÀ×ÑçÀòÑçÀ¼ÑçÀÁÑçÀÑçÀsÑçÀÿÑçÀEÑçÀÑçÀºÑçÀÑçÀîÑçÀ,ÑçÀÑçÀVÑçÀÑçÀÑçÀ_ÑçÀ°ÑçÀÑçÀ±ÑçÀ ÑçÀPÑçÀÑçÀrÑçÀ;ÑçÀTÑçÀ·ÑçÀ'ÑçÀÑçÀOÑçÀRÑçÀ ÑçÀDÑçÀuÑçÀêÑçÀÑçÀIÑçÀªÑçÀ«ÑçÀÑçÀÑ÷½µÔkd^aé;°hÔéoyÈ	l6XR¶Ìs·o¿Âæ,-²@ØV#ìsBOÜ³4DÃkHåeáx~ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *certificateData;
 @property(copy, nonatomic) NSString *connectionHost; // @synthesize connectionHost=_connectionHost;
-@property(copy, nonatomic) NSDate *deviceAttestionExpireOn; // @synthesize deviceAttestionExpireOn=_deviceAttestionExpireOn;
-@property(copy, nonatomic) NSNumber *deviceAttestionVersion; // @synthesize deviceAttestionVersion=_deviceAttestionVersion;
-@property(copy, nonatomic) NSNumber *deviceAuthenticationVersion; // @synthesize deviceAuthenticationVersion=_deviceAuthenticationVersion;
-@property(readonly, nonatomic) _Bool isDeviceAttestionExpired;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface ASAuthorizationPublicKeyCredentialLargeBlobAssertionInput
 {
     long long _operation;
-    NSData *_dataToWrite;
 }
 
 + (_Bool);
@@ -18,13 +15,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)dictionaryWithContentsOfURL:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)rPlatformCredentials;
-- (id)horizedScopes;
+- (long long)authorizationStateForPlatformCredentials;
+- (id)_authorizedScopes;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *dataToWrite; // @synthesize dataToWrite=_dataToWrite;
 @property(readonly, nonatomic) long long operation; // @synthesize operation=_operation;
 
 @end

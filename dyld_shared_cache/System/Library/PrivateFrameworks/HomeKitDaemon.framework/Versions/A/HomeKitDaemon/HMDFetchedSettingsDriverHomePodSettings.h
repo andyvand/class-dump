@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol HMDFetchedSettingsDriverDelegate, HMDHPSAccessorySettingService, HMDHPSSettingsObjectFactoryProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDFetchedSettingsDriverDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDFetchedSettingsDriverHomePodSettings
 {
     id <HMDFetchedSettingsDriverDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDHPSAccessorySettingService> _service;
-    id <HMDHPSSettingsObjectFactoryProtocol> _hmdhpsObjectFactory;
 }
 
 + (id)pÎÿüxõB;
@@ -21,6 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)LRouteHandle"16@0:(id)arg1 8;
+- (void)c;
+- (void);
+- (id);
+- (id)v;
 - (void);
 - (void);
 - (void);
@@ -28,32 +30,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)ts:updates:deletes: /* Error: Ran out of types for this method. */;
+- (id)processInserts:updates:deletes: /* Error: Ran out of types for this method. */;
 - (void)c}@[Flow:%@] Failed to fetch access code for access code identifier:%@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void)ifier of the accessory;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDFetchedSettingsDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMDHPSSettingsObjectFactoryProtocol> hmdhpsObjectFactory; // @synthesize hmdhpsObjectFactory=_hmdhpsObjectFactory;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) id <HMDHPSAccessorySettingService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTLazuliChatBotVerificationDetails
 {
     _Bool _verified;
-    NSString *_verifiedBy;
-    NSString *_expires;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)r:%@ mediaType:%@ isClientInitiated:%d mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
+- (id)9;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (_Bool);
-- (void);
+- (void)LAEnvironmentMechanism;
 - (id);
 - (void)&ð!PEùª)ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *expires; // @synthesize expires=_expires;
 @property(nonatomic) _Bool verified; // @synthesize verified=_verified;
-@property(retain, nonatomic) NSString *verifiedBy; // @synthesize verifiedBy=_verifiedBy;
 
 @end
 

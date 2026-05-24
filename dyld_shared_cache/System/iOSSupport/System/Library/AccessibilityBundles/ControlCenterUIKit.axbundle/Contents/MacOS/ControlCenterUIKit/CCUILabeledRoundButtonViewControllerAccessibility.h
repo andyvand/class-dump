@@ -21,7 +21,7 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)MPURatingControlAccessibility;
 
 @end
 

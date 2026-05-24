@@ -6,8 +6,6 @@
 
 #import <PhotosGraph/PGGraphHighlightNodeCollection.h>
 
-@class PGGraphFeatureNodeCollection, PGGraphHighlightTypeNodeCollection;
-
 @interface PGGraphHighlightGroupNodeCollection : PGGraphHighlightNodeCollection
 {
 }
@@ -22,14 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NS0_8functionIFvvEEENS0_9allocatorIS4_EEEERKN13TGroupManager7OptionsEE3$_0;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featuredLocationOrAreaNodes;
 @property(readonly, nonatomic) PGGraphHighlightNodeCollection *highlightNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *tripFeatureNodes;
-@property(readonly, nonatomic) PGGraphHighlightTypeNodeCollection *typeNodes;
 
 @end
 

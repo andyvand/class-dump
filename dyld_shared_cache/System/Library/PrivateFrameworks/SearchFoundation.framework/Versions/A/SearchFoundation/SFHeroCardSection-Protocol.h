@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSData, NSDictionary, NSString, SFRichText;
 
 @protocol SFHeroCardSection
+- (void)result=%@;
+- (void)setConversation:(SFRichText *)arg1;
+- (NSData *);
+- (void)4;
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buttonItems;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFImage *image;
-@property(nonatomic) int imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

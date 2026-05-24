@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface VNDetectFaceRectanglesRequest : VNImageBasedRequest
 {
@@ -47,17 +47,7 @@
 - (_Bool)ÿhç@É;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canOverridePrecisionRecallThreshold;
-@property(nonatomic) _Bool faceCoreEnhanceEyesAndMouthLocalization;
-@property(nonatomic) _Bool faceCoreExtractBlink;
-@property(nonatomic) _Bool faceCoreExtractSmile;
-@property(retain, nonatomic) NSNumber *faceCoreInitialAngle;
-@property(retain, nonatomic) NSNumber *faceCoreMinFaceSize;
-@property(retain, nonatomic) NSNumber *faceCoreNumberOfDetectionAngles;
-@property(nonatomic) unsigned long long faceCoreType;
-@property(nonatomic) float precisionRecallThreshold;
 @property(readonly, copy, nonatomic) NSNumber *precisionRecallThresholdOverride;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

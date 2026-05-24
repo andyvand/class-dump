@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITabBarAppearance;
-
 @protocol _UITabDataProvider
+- (_Bool);
+- (_Bool)@;
 - (_Bool)Ö.3y;Ö.3y¬.3y§.3y_Ð.3y¶´;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) long long preferredPlacement;
-@property(readonly, copy, nonatomic) UITabBarAppearance *scrollEdgeAppearance;
-@property(readonly, nonatomic, getter=isSelected) _Bool seleted;
-@property(readonly, nonatomic, getter=isSpringLoaded) _Bool springLoaded;
-@property(readonly, copy, nonatomic) UITabBarAppearance *standardAppearance;
 @end
 

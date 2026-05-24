@@ -9,7 +9,6 @@
 @interface Swift.__CocoaDictionary.Index.Storage : Swift._SwiftObject
 {
     id base;
-    id allKeys;
 }
 
 @end

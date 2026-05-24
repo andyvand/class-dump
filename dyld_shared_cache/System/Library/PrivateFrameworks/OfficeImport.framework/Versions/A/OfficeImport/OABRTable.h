@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ESDContainer, OABReaderState, OABTableSortedIntArray, OADTable;
+@class ESDContainer;
 
 __attribute__((visibility("hidden")))
 @interface OABRTable
 {
     ESDContainer *mSrcTable;
-    OADTable *mTgtTable;
-    OABReaderState *mState;
-    struct CGPoint mScale;
-    int mRowCount;
-    int mColumnCount;
-    OABTableSortedIntArray *mXCoords;
-    OABTableSortedIntArray *mYCoords;
-    void *mHorzLines;
-    void *mVertLines;
-    void *mCells;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)è;
 
 @end

@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSString;
-
 @interface GEOCategorySearchResultSection
 {
     long long _cellType;
-    NSString *_headerDisplayName;
-    NSString *_subHeaderDisplayName;
-    GEOStyleAttributes *_styleAttributes;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ContactsUnitTesting;
 - (id);
 - (void);
-- (id);
-- (id);
-- (long long)ame;
+- (id)ioStream:] /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)_maneuverRoadOrExitName;
 - (void)X®ÿ;
 
 // Remaining properties
 @property(nonatomic) long long cellType; // @synthesize cellType=_cellType;
-@property(copy, nonatomic) NSString *headerDisplayName; // @synthesize headerDisplayName=_headerDisplayName;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
-@property(copy, nonatomic) NSString *subHeaderDisplayName; // @synthesize subHeaderDisplayName=_subHeaderDisplayName;
 
 @end
 

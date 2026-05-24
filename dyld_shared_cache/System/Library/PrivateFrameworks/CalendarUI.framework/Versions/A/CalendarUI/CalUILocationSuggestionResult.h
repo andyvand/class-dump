@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, EKVirtualConferenceRoomType, MKLocalSearchCompletion, NSArray, NSData, NSString, NSURL;
+@class NSString;
 
 @interface CalUILocationSuggestionResult
 {
     _Bool _isCategory;
-    _Bool _drawDivider;
-    NSString *_displayString;
-    NSData *_mapKitHandle;
-    NSArray *_addressStrings;
-    CLLocation *_location;
-    double _radius;
-    long long _type;
-    long long _proximity;
-    EKVirtualConferenceRoomType *_roomType;
-    NSURL *_detectedURL;
-    MKLocalSearchCompletion *_searchCompletion;
-    NSString *_searchTerm;
 }
 
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -41,10 +29,10 @@
 - (id);
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long) ;
+- (long long)h;
 - (double);
-- (void);
+- (void)$;
 - (id);
 - (void);
 - (void);
@@ -56,19 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *addressStrings; // @synthesize addressStrings=_addressStrings;
-@property(retain) NSURL *detectedURL; // @synthesize detectedURL=_detectedURL;
-@property(retain) NSString *displayString; // @synthesize displayString=_displayString;
-@property _Bool drawDivider; // @synthesize drawDivider=_drawDivider;
-@property _Bool isCategory; // @synthesize isCategory=_isCategory;
-@property(retain) CLLocation *location; // @synthesize location=_location;
-@property(retain) NSData *mapKitHandle; // @synthesize mapKitHandle=_mapKitHandle;
-@property long long proximity; // @synthesize proximity=_proximity;
-@property double radius; // @synthesize radius=_radius;
-@property(retain) EKVirtualConferenceRoomType *roomType; // @synthesize roomType=_roomType;
-@property(retain) MKLocalSearchCompletion *searchCompletion; // @synthesize searchCompletion=_searchCompletion;
 @property(retain) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property long long type; // @synthesize type=_type;
 
 @end
 

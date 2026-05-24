@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object, TRIAssetExtracting, TRIAssetPatching, TRIAssetStoreOperations, TRIPaths, TRIStorageManagementProtocol;
+@protocol TRIAssetStoreOperations, TRIPaths;
 
 @interface TRIAssetStore
 {
     id <TRIPaths> _paths;
-    id <TRIAssetExtracting> _extractor;
-    id <TRIAssetPatching> _patcher;
-    NSObject<OS_xpc_object> *_monitoredActivity;
-    id <TRIStorageManagementProtocol> _storageManagement;
-    _Bool _useGlobalPaths;
-    id <TRIAssetStoreOperations> _assetOperator;
 }
 
 + (id);
 - (_Bool);
+- (_Bool)B;
+- (id)en;
+- (_Bool);
+- (_Bool);
+- (_Bool)evice info;
+- (_Bool)V_connect;
+- (_Bool)eration is not supported;
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)P;
 - (CDStruct_6b48f683);
 - (_Bool);
 - (_Bool);

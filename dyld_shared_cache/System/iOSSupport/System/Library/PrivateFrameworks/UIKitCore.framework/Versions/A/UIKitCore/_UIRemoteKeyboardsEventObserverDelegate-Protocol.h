@@ -5,7 +5,7 @@
 //
 
 @protocol _UIRemoteKeyboardsEventObserverDelegate
-- (void)Notifications;
+- (void)_beginObservingBacklightLevelNotifications;
 - (long long)ò;
 @end
 

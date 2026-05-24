@@ -9,14 +9,13 @@
 @interface MPSNDArrayGatherMatrixMultiplication : MPSNDArrayMatrixMultiplication
 {
     _Bool _isSorted;
-    unsigned long long _batchDims;
 }
 
 + (_Bool);
 + (_Bool);
+- (unsigned long long)b!;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)L_;
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long batchDims; // @synthesize batchDims=_batchDims;
 @property(readonly, nonatomic) _Bool isSorted; // @synthesize isSorted=_isSorted;
 
 @end

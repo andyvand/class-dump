@@ -6,13 +6,12 @@
 
 #import <CoreData/NSAtomicStoreCacheNode.h>
 
-@class NSXMLNode, NSXMLObjectStore2;
+@class NSXMLNode;
 
 __attribute__((visibility("hidden")))
 @interface NSXMLObjectStoreCacheNode2 : NSAtomicStoreCacheNode
 {
     NSXMLNode *_externalData;
-    NSXMLObjectStore2 *_store;
 }
 
 - (id);
@@ -21,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)';
+- (id)tableArray",&,N,V_dirtyDataclassProperties;
 - (void);
-- (id)omainCFNetwork;
+- (id)kCFErrorDomainCFNetwork;
 
 @end
 

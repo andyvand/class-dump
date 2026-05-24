@@ -9,12 +9,9 @@
 @interface _INPBSetLabeledSettingIntentResponse
 {
     struct _has;
-    NSString *_errorDetail;
-    NSString *_oldValue;
-    NSString *_updatedValue;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -25,29 +22,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)IntentResponseCodeReady;
+- (void)INAddMediaIntentResponseCodeReady;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *errorDetail; // @synthesize errorDetail=_errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasOldValue;
-@property(readonly, nonatomic) _Bool hasUpdatedValue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *oldValue; // @synthesize oldValue=_oldValue;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *updatedValue; // @synthesize updatedValue=_updatedValue;
 
 @end
 

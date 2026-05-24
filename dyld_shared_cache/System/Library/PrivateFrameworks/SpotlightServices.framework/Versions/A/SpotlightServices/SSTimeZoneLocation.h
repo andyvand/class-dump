@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSTimeZone;
+@class NSString;
 
 @interface SSTimeZoneLocation
 {
     _Bool _isCapital;
-    NSString *_location;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSString *_countryName;
-    NSString *_countryCode;
-    NSTimeZone *_timeZone;
 }
 
 + (id);
@@ -25,26 +19,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)FCommandEngagementFeedback"16;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void):passiveIntent: /* Error: Ran out of types for this method. */;
-- (void)r;
-- (id)ix;
+- (void)initWithScannerType:passiveIntent: /* Error: Ran out of types for this method. */;
+- (void)QueryParser;
+- (id)parsec_corrected_query_TermFrequenciesWeighted_Min_Prefix;
 - (id)rShowMore:%d /* Error: Ran out of types for this method. */;
 - (void)ûÜ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *countryName; // @synthesize countryName=_countryName;
-@property _Bool isCapital; // @synthesize isCapital=_isCapital;
-@property(retain, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
 @property(retain, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSArray, NSData, NSString, NSUUID;
-@protocol MTLDevice;
+@class NSString;
 
 @interface MTLToolsLibrary : MTLToolsObject
 {
@@ -24,7 +23,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)format type (wakati,none,...);
 - (id);
 - (id);
 - (void);
@@ -36,30 +35,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id)Table:(id)arg1 descriptor:renderPipeline:stage: /* Error: Ran out of types for this method. */;
+- (id)initWithVisibleFunctionTable:(id)arg1 descriptor:renderPipeline:stage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSData *bitcodeData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *externFunctionNames;
-@property(readonly) NSArray *functionNames;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *installName;
-@property(copy) NSString *label;
-@property(readonly, copy) NSUUID *libraryIdentifier;
 @property(copy) NSString *overrideTriple;
-@property(nonatomic) _Bool shaderValidationEnabled;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
 
 @end
 

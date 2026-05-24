@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRXPCConnection, NSObject, NSString, NSXPCListenerEndpoint;
-@protocol MRCallAgent, OS_dispatch_queue, OS_xpc_object;
+@protocol MRCallAgent;
 
 @interface MRMediaRemoteService
 {
@@ -20,39 +19,6 @@
         CDUnknownFunctionPointerType _field8;
         void *_field9;
     } *clientModule;
-    const struct {
-        void *_field1;
-        CDUnknownFunctionPointerType _field2;
-        CDUnknownFunctionPointerType _field3;
-        CDUnknownFunctionPointerType _field4;
-        CDUnknownFunctionPointerType _field5;
-        CDUnknownFunctionPointerType _field6;
-        CDUnknownFunctionPointerType _field7;
-        CDUnknownFunctionPointerType _field8;
-    } *browsableContentEndpoint;
-    const struct {
-        void *_field1;
-        CDUnknownFunctionPointerType _field2;
-        CDUnknownFunctionPointerType _field3;
-        CDUnknownFunctionPointerType _field4;
-    } *voiceRecordingEndpoint;
-    const struct {
-        void *_field1;
-        CDUnknownBlockType _field2;
-    } *televisionEndpoint;
-    _Bool _isRunning;
-    _Bool _hasRegisteredAgents;
-    MRXPCConnection *_mrXPCConnection;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_queue> *_clientCallbackQueue;
-    NSObject<OS_dispatch_queue> *_clientCallbackPriorityQueue;
-    NSObject<OS_dispatch_queue> *_browsableContentQueue;
-    NSObject<OS_dispatch_queue> *_voiceInputQueue;
-    NSObject<OS_dispatch_queue> *_televisionQueue;
-    NSObject<OS_dispatch_queue> *_agentQueue;
-    NSXPCListenerEndpoint *_uiServiceEndpoint;
-    id <MRCallAgent> _callAgent;
 }
 
 - (id);
@@ -65,21 +31,21 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void).;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)setImage:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -88,7 +54,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)IMConversationListFilterModeBlocked;
 - (void);
 - (void);
 - (void);
@@ -98,43 +64,24 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)isSyncNeededForWatch;
+- (void)_startIdleTimer;
+- (id)arch Queries Data Sharing status is configured by profile;
+- (void)AFSiriActivationHoneycombDeviceVoiceTrigger;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void)ChannelLayoutDescription;
-- (id)nRequestMessageProtobuf;
-- (id)DidChangeMessage;
+- (id)_MRPlaybackSessionRequestMessageProtobuf;
+- (id)MRLegacyVolumeControlCapabilitiesDidChangeMessage;
 - (id)´"%;
 - (id)ons:Expecting a CFArrayRef of MRLanguageOptionGroupRefs but instead found a CFArrayRef of CFDataRef. Please fix. /* Error: Ran out of types for this method. */;
 - (void)riteTo:(id)arg1 ];
 - (void)andoff;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *agentQueue; // @synthesize agentQueue=_agentQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *browsableContentQueue; // @synthesize browsableContentQueue=_browsableContentQueue;
 @property(nonatomic) __weak id <MRCallAgent> callAgent; // @synthesize callAgent=_callAgent;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientCallbackPriorityQueue; // @synthesize clientCallbackPriorityQueue=_clientCallbackPriorityQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientCallbackQueue; // @synthesize clientCallbackQueue=_clientCallbackQueue;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasRegisteredAgents; // @synthesize hasRegisteredAgents=_hasRegisteredAgents;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(retain, nonatomic) MRXPCConnection *mrXPCConnection; // @synthesize mrXPCConnection=_mrXPCConnection;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *televisionQueue; // @synthesize televisionQueue=_televisionQueue;
-@property(retain, nonatomic) NSXPCListenerEndpoint *uiServiceEndpoint; // @synthesize uiServiceEndpoint=_uiServiceEndpoint;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *voiceInputQueue; // @synthesize voiceInputQueue=_voiceInputQueue;
 
 @end
 

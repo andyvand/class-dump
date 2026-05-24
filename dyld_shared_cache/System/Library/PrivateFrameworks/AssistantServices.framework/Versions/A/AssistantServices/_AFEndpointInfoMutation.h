@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFEndpointInfo, NSString;
+@class AFEndpointInfo;
 
 @interface _AFEndpointInfoMutation
 {
     AFEndpointInfo *_base;
-    NSString *_identifier;
-    NSString *_mediaRouteIdentifier;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIdentifier:1;
-        unsigned int hasMediaRouteIdentifier:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)hasActualService;
 - (id);
-- (id):(id)arg1;
+- (id)startAcousticIDRequestWithOptions:(id)arg1;
 - (void)_lastKnownEligibleAnnouncementRequestTypes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

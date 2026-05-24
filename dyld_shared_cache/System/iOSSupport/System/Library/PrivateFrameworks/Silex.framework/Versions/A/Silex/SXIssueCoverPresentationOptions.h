@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface SXIssueCoverPresentationOptions
 {
     _Bool _videoPlaybackEnabled;
-    UIColor *_parentBackgroundColor;
-    struct CGSize _size;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct CGSize);
 - (void)tem";
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *parentBackgroundColor; // @synthesize parentBackgroundColor=_parentBackgroundColor;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) _Bool videoPlaybackEnabled; // @synthesize videoPlaybackEnabled=_videoPlaybackEnabled;
 
 @end
 

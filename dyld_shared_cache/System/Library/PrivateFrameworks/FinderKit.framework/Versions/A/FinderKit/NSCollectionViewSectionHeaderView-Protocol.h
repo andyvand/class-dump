@@ -8,6 +8,9 @@
 
 @protocol NSCollectionViewSectionHeaderView
 
+@optional
+- (NSButton *)_highestMatches;
+
 // Remaining properties
 @property __weak NSButton *sectionCollapseButton;
 // Preceding property had unknown attributes: ?

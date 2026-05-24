@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _MNTrackedAlternateRoute
 {
     MNActiveRouteInfo *_alternateRoute;
-    MNActiveRouteInfo *_mainRoute;
-    CDStruct_3f2a7a20 _divergenceCoordinate;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_3f2a7a20);
+- (CDStruct_3f2a7a20)AccessibilityAttachmentModifier;
 - (id);
 - (id);
 - (void)1Ð1Â0@ù
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MNActiveRouteInfo *alternateRoute; // @synthesize alternateRoute=_alternateRoute;
-@property(nonatomic) CDStruct_3f2a7a20 divergenceCoordinate; // @synthesize divergenceCoordinate=_divergenceCoordinate;
-@property(retain, nonatomic) MNActiveRouteInfo *mainRoute; // @synthesize mainRoute=_mainRoute;
 
 @end
 

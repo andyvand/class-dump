@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, NSString;
+@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats;
 
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLTopicConversionStats
 {
     COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *_conversionStats;
-    NSString *_tagId;
 }
 
-- (_Bool);
+- (_Bool)_startObservingDeleteProgress;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)els and topics;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)o;
+- (void)contentAndRelevanceInfo;
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *conversionStats; // @synthesize conversionStats=_conversionStats;
 @property(readonly, nonatomic) _Bool hasConversionStats;
-@property(readonly, nonatomic) _Bool hasTagId;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

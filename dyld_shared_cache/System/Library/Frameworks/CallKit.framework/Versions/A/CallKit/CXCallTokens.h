@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CXCallTokens
 {
     long long _uplinkStreamToken;
-    long long _downlinkStreamToken;
-    long long _combinedAudioStreamToken;
-    NSDictionary *_streamTokensByParticipantID;
 }
 
-+ (_Bool);
++ (_Bool)E;
 - (void);
 - (void);
 - (_Bool);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,16 +24,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)d subscription status;
+- (_Bool)_adjustedItemDateOfEntity:(id)arg1 withDefaultValue: /* Error: Ran out of types for this method. */;
+- (void)yModifyLibraryAddedItemsCommandID();
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long combinedAudioStreamToken; // @synthesize combinedAudioStreamToken=_combinedAudioStreamToken;
-@property(nonatomic) long long downlinkStreamToken; // @synthesize downlinkStreamToken=_downlinkStreamToken;
-@property(retain, nonatomic) NSDictionary *streamTokensByParticipantID; // @synthesize streamTokensByParticipantID=_streamTokensByParticipantID;
 @property(nonatomic) long long uplinkStreamToken; // @synthesize uplinkStreamToken=_uplinkStreamToken;
 
 @end

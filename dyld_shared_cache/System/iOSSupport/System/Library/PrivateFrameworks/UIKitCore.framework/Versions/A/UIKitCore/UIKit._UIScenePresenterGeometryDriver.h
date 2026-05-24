@@ -7,9 +7,6 @@
 @interface UIKit._UIScenePresenterGeometryDriver
 {
     id geometryHandle;
-    id previousGeometry;
-    id targetView;
-    id geometryChangeObserver;
 }
 
 @end

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSURL *_profileURL;
 }
 
-+ (_Bool)terDidFailToImportCredentials;
++ (_Bool)importerDidFailToImportCredentials;
 - (id);
 - (id);
 - (id);
@@ -28,10 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *credentialJSONURL;
-@property(readonly, nonatomic) NSURL *keyDatabaseURL;
-@property(readonly, nonatomic) NSURL *legacyCredentialDatabaseURL;
-@property(readonly, nonatomic) NSURL *legacyKeyDatabaseURL;
 @property(readonly, nonatomic) NSURL *placesDatabaseURL;
 
 @end

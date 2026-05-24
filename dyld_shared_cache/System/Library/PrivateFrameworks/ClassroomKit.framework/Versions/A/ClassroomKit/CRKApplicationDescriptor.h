@@ -9,8 +9,6 @@
 @interface CRKApplicationDescriptor
 {
     _Bool _includeIcon;
-    _Bool _includeBadgeIcon;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
@@ -19,8 +17,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)!;
+- (id)H;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) _Bool includeBadgeIcon; // @synthesize includeBadgeIcon=_includeBadgeIcon;
-@property(readonly, nonatomic) _Bool includeIcon; // @synthesize includeIcon=_includeIcon;
 
 @end
 

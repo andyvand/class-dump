@@ -10,9 +10,9 @@
 
 + (id);
 + (_Bool);
++ (_Bool),z;
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id)̌A|;
 + (_Bool);
 + (id);
 

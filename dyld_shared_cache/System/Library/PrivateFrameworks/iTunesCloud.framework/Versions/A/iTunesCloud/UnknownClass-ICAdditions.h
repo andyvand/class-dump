@@ -13,8 +13,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (int);
-- (id);
+- (id)setNetworkGatewayIPAddress:(id)arg1;
+- (int)setNetworkAccessRestricted:(id)arg1;
+- (id)setNeedsiTunesMultiUserRepair:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 @end
 

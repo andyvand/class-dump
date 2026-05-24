@@ -6,21 +6,16 @@
 
 #import <AudioServerDriver/ASDControl.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ASDBooleanControl : ASDControl
 {
     _Bool _value;
-    NSObject<OS_dispatch_queue> *_valueQueue;
-    _Bool _settable;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -28,19 +23,18 @@
 - (_Bool);
 - (unsigned int);
 - (void);
+- (_Bool)L;
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (unsigned int)yQueue;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)%tu);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
 @property(nonatomic) _Bool value; // @dynamic value;
 
 @end

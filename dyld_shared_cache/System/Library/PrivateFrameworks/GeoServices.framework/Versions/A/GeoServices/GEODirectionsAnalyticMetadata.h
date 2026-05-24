@@ -9,38 +9,32 @@
 @interface GEODirectionsAnalyticMetadata
 {
     PBUnknownFields *_unknownFields;
-    _Bool _routeHandoffCapable;
-    struct {
-        unsigned int has_routeHandoffCapable:1;
-    } _flags;
 }
 
-+ (_Bool)over:(id)arg1;
++ (_Bool)setHasPrefixLastTokenMatchCover:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)cancelled;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setIsAssistantClientConsideredAsRecord:(id)arg1;
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)sH;
 - (_Bool);
 - (void);
-- (id)eviceNetworkConnectivity:(struct _NSZone *)arg1;
-- (id)nList;
-- (id)fineMapItemAction;
+- (id)setHasDeviceNetworkConnectivity:(struct _NSZone *)arg1;
+- (id)GEOSearchSectionList;
+- (id)MapLaunchAction_RefineMapItemAction;
 - (id);
 - (void)ÈW5;
 
 // Remaining properties
 @property(nonatomic) _Bool hasRouteHandoffCapable;
-@property(nonatomic) _Bool routeHandoffCapable;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

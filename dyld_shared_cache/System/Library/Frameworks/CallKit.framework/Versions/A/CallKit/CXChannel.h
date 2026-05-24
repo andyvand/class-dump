@@ -9,12 +9,10 @@
 @interface CXChannel
 {
     NSUUID *_UUID;
-    NSString *_localizedName;
-    long long _transmissionMode;
 }
 
 + (id);
-+ (id);
++ (id)ouldPlaybackRequireOnlineKeys:%@; hasOnlinePlaybackKeys:%@; hasOfflinePlaybackKeys:%@; hasPendingLeaseAcquisition:%@, hasInflightLeaseAcquisition:%@, isTakenDueToLeasePrevention:%@, leaseState:%@; stateReasonDialog:%@> /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (_Bool);
 - (id);
@@ -23,20 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)}@ Initialized with active account DSID %{public}@, primaryAppleAccount %{public}@;
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)_autoPlayItem;
+- (void)te isPhoneRoute];
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) long long transmissionMode; // @synthesize transmissionMode=_transmissionMode;
 
 @end
 

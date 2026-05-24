@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSSet, PGMoodGenerationContext;
+@class NSArray;
 
 @interface PGMoodGeneratorOptions
 {
     unsigned long long _memoryCategory;
-    unsigned long long _memorySubcategory;
-    NSArray *_moodHistory;
-    NSSet *_momentIDs;
-    NSDate *_referenceDate;
-    NSArray *_prefetchedAssets;
-    NSDictionary *_sceneIdentifiersByMomentNodeIdentifier;
-    PGMoodGenerationContext *_moodGenerationContext;
 }
 
 - (void);
@@ -38,14 +31,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long memoryCategory; // @synthesize memoryCategory=_memoryCategory;
-@property(nonatomic) unsigned long long memorySubcategory; // @synthesize memorySubcategory=_memorySubcategory;
-@property(retain) NSSet *momentIDs; // @synthesize momentIDs=_momentIDs;
-@property(retain, nonatomic) PGMoodGenerationContext *moodGenerationContext; // @synthesize moodGenerationContext=_moodGenerationContext;
-@property(retain, nonatomic) NSArray *moodHistory; // @synthesize moodHistory=_moodHistory;
 @property(retain) NSArray *prefetchedAssets; // @synthesize prefetchedAssets=_prefetchedAssets;
-@property(retain) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(retain) NSDictionary *sceneIdentifiersByMomentNodeIdentifier; // @synthesize sceneIdentifiersByMomentNodeIdentifier=_sceneIdentifiersByMomentNodeIdentifier;
 
 @end
 

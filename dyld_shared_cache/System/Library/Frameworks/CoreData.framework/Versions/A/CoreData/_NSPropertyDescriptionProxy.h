@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSPropertyDescription;
-
 __attribute__((visibility("hidden")))
 @interface _NSPropertyDescriptionProxy
 {
     id _sourceBuffer;
-    NSPropertyDescription *_underlyingProperty;
-    NSEntityDescription *_entityDescription;
-    unsigned int _entitysReferenceIDForProperty;
 }
 
 + (_Bool);
@@ -31,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 
 @end
 

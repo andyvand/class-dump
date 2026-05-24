@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBHomeAttributeValue;
-
 @protocol _INPBHomeAttribute
 
 // Remaining properties
 @property(nonatomic) int attributeType;
-@property(retain, nonatomic) _INPBHomeAttributeValue *attributeValue;
-@property(nonatomic) _Bool hasAttributeType;
-@property(readonly, nonatomic) _Bool hasAttributeValue;
 @end
 

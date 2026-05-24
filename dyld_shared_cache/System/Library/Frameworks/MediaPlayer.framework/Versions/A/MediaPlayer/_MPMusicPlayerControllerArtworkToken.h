@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _MPMusicPlayerControllerArtworkToken
 {
     NSString *_artworkIdentifier;
-    NSString *_contentItemID;
 }
 
 - (id);
-- (void)tification: /* Error: Ran out of types for this method. */;
+- (void)activeUserDidChangeNotification: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,34 +6,19 @@
 
 #import <AppKit/NSScrollView.h>
 
-@class CALayer, NSBrowser, NSImageView, NSView;
+@class NSImageView;
 
 @interface _NSBrowserColumnView : NSScrollView
 {
     NSImageView *_imageViewForAnimationOptimization;
-    NSBrowser *_tmpStashedBrowserView;
-    double _markedWidth;
-    struct __BrcvFlags {
-        unsigned int isEmptyColumn:1;
-        unsigned int hasMarkedWidth:1;
-        unsigned int tileDisabled:1;
-        unsigned int drawsColumnDividerLine:1;
-        unsigned int reserved:28;
-    } _brcvFlags;
-    double _vScrollerUnmodifiedHeight;
-    id _scrollHandler;
-    NSView *_scrollTrackBottomContainerView;
-    CALayer *_scrollTrackBottomLayer;
-    CALayer *_scrollTrackBottomGrabberLeft;
-    CALayer *_scrollTrackBottomGrabberRight;
 }
 
-+ (id);
++ (id)ad_ctx->hbrc_out.xhdr->val_offset >= read_ctx->hbrc_out.xhdr->name_offset;
 + (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)AMFDRDecodeIterateTrustObjectRevokedBegin failed;
+- (void)N data (IOConnectCallScalarMethod kAppleNVMeEANGetSize returned 0x%X);
 - (struct NSEdgeInsets);
 - (void);
 - (void);
@@ -42,33 +27,33 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)!;
+- (void)`;
 - (void);
 - (struct CGRect);
-- (void);
+- (_Bool)NSObject<OS_dispatch_data>"40;
+- (void)shared_weak_count}}24@"NSObject<OS_dispatch_data>"40;
+- (id)ata:(struct CGPoint)arg1 options:(long long)arg2 assetOptions:childDownloadSessionIdentifier:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (id)allKeys;
+- (_Bool)SString",R;
 - (void);
 - (struct CGRect);
 - (void);
-- (struct NSEdgeInsets);
-- (_Bool);
+- (void)unkedTrailer:FOUND trailer-dict:%@, but it is empty. /* Error: Ran out of types for this method. */;
+- (struct CGRect)r trust, marking as secure;
+- (void)> backgroundSessionDidFinishAppWake block not invoked for UUID %@ for session %@ with identifier %@ outstanding auth tasks %@;
+- (struct NSEdgeInsets)s are http or https;
+- (_Bool)rminate extractor for task:(id)arg1 %@ because of error:%@ [%ld] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
+- (void)cess_end_of_early_data;
+- (id)orPredicateWithSubpredicates:(id)arg1;
+- (void)%{public}@ of %{public}@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)presentedObject:(struct CGRect)arg1 inTextView: /* Error: Ran out of types for this method. */;
-- (void)ributeSettable;
-- (void)Delegate;
+- (id)tokenAttachment:(struct CGRect)arg1 _immediateActionAnimationControllerForRepresentedObject:inTextView: /* Error: Ran out of types for this method. */;
+- (void)accessibilityIsMainWindowAttributeSettable;
+- (void)tickMarkDelegate;
 - (void).count;
 - (void)ÿr°;
 

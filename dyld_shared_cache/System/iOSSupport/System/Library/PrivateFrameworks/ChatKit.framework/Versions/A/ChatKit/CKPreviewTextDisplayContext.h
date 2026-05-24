@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
+@class UIColor;
 
 @interface CKPreviewTextDisplayContext
 {
     UIColor *_baseTextColor;
-    UIColor *_mentionsColor;
-    UIFont *_baseTextFont;
-    UIFont *_mentionsFont;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)authenticating;
+- (void)authenticateWithPassphrase:(id)arg1;
+- (void)_disclaimerHeightConstraint;
+- (void)_disableUndoCoalesceBreaking;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)custom password with prompt {prompt:%@, result:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)t:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *baseTextColor; // @synthesize baseTextColor=_baseTextColor;
-@property(retain, nonatomic) UIFont *baseTextFont; // @synthesize baseTextFont=_baseTextFont;
-@property(retain, nonatomic) UIColor *mentionsColor; // @synthesize mentionsColor=_mentionsColor;
-@property(retain, nonatomic) UIFont *mentionsFont; // @synthesize mentionsFont=_mentionsFont;
 
 @end
 

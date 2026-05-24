@@ -31,8 +31,8 @@
 + (id);
 + (id);
 + (id);
-+ (double);
-+ (double);
++ (double);
++ (double);
 + (double);
 
 @end

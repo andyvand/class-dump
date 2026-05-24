@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (Matrix_8746f91e);
-- (_Bool);
-- (_Bool);
-- (void);
-- (Matrix_8746f91e);
+- (id)serialWorkloopSchedulerWithName:(id)arg1;
+- (_Bool)reverseObjectEnumerator;
+- (_Bool)retry:willDelayFor:afterAttempt: /* Error: Ran out of types for this method. */;
+- (unsigned long long)openUserActivityData:inApplication:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)observableWithEmailAddressesInString: /* Error: Ran out of types for this method. */;
+- (id)isSomeoneWaiting;
+- (Matrix_ce64fbd0)isShortNameFormatEnabled;
+- (_Bool)isGregorianDerivedCalendar:(id)arg1;
+- (_Bool)isGreenTeaDevice;
+- (void)initWithBufferingStrategy:observable: /* Error: Ran out of types for this method. */;
+- (Matrix_ce64fbd0);
 - (id);
 - (void)3¾ÿ46è3;
 

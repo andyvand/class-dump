@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, SASyncAppMetaData;
+@class NSString;
 
 @interface SASyncAnchor : AceObject
 {
@@ -15,20 +15,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(retain, nonatomic) SASyncAppMetaData *appMetaData;
-@property(nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *generation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *intentSlotName;
-@property(copy, nonatomic) NSString *key;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *suspendDurationInSeconds;
-@property(copy, nonatomic) NSString *suspendReason;
-@property(copy, nonatomic) NSString *validity;
 @end
 

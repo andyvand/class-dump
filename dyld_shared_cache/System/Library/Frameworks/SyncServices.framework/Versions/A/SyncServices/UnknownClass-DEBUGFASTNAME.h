@@ -6,12 +6,12 @@
 
 @interface UnknownClass (DEBUGFASTNAME)
 + (id);
-- (id);
+- (id)P;
 - (int);
 - (int);
 - (id);
 - (id);
 - (void *);
-- (id);
+- (id);
 @end
 

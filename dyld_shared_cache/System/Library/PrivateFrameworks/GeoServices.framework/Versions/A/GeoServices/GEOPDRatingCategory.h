@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRatingCategory
 {
     PBDataReader *_reader;
-    NSString *_key;
-    NSMutableArray *_localizedNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_key:1;
-        unsigned int read_localizedNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_splitterState;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)@ù
 × ;
 - (id)@"NSObject<OS_dispatch_queue>"32@?<v@?@"NSData"@"NSError">40;
-- (id)rchantLookupResult;
+- (id)_merchantLookupResult;
 - (id)p;
 - (void);
 

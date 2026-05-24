@@ -9,24 +9,22 @@
 @interface MPModelTVEpisodeKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)ReviewComposerViewModel;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)_allAnnotations:(id)arg1 all:atLeastOneShare:attributeFromTag: /* Error: Ran out of types for this method. */;
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

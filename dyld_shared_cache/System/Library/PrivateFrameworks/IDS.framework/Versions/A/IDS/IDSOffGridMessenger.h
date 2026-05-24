@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServiceProperties, IDSXPCDaemonController, NSObject, NSSet, NSString, _IDSService;
-@protocol IDSOffGridMessengerDelegate, OS_dispatch_queue;
+@class IDSXPCDaemonController;
 
 @interface IDSOffGridMessenger
 {
     IDSXPCDaemonController *_daemonController;
-    NSString *_uuid;
-    NSString *_serviceName;
-    long long _serviceType;
-    IDSServiceProperties *_serviceProperties;
-    _IDSService *_service;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <IDSOffGridMessengerDelegate> _delegate;
 }
 
 - (void);
@@ -43,7 +35,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dK;
 - (long long);
 - (id);
 - (id);
@@ -61,21 +53,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IDSXPCDaemonController *daemonController; // @synthesize daemonController=_daemonController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IDSOffGridMessengerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *handles;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) _IDSService *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic) IDSServiceProperties *serviceProperties; // @synthesize serviceProperties=_serviceProperties;
-@property(readonly, nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

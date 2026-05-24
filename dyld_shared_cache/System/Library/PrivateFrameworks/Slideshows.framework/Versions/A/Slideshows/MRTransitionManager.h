@@ -9,7 +9,6 @@
 @interface MRTransitionManager
 {
     NSMutableDictionary *mTransitionSets;
-    NSMutableDictionary *mTransitionPools;
 }
 
 + (id);
@@ -24,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool).AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssemblerUtilities.m;
 - (void);
 - (void);
 - (id);

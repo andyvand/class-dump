@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)n;
 - (_Bool);
 - (double);
 - (struct CGSize);
-- (double);
+- (double)K;
 - (id);
 - (double);
 - (double);
@@ -25,17 +25,7 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double bigPaddedInset;
-@property(readonly, nonatomic) double dotOverlapOffset;
-@property(readonly, nonatomic) double grabberOpacity;
 @property(readonly, nonatomic) double minimumStemLength;
-@property(readonly, nonatomic) struct CGSize remoteEffectSize;
-@property(readonly, nonatomic) struct CGSize shadowOffset;
-@property(readonly, nonatomic) double shadowOpacity;
-@property(readonly, nonatomic) double shadowRadius;
-@property(readonly, nonatomic) double smallPaddedInset;
-@property(readonly, nonatomic) double stemWidth;
-@property(readonly, nonatomic) _Bool useGrabberDotsForSelection;
 
 @end
 

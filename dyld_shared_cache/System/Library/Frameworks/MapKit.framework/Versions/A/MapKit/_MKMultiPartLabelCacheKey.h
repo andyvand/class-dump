@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _MKMultiPartLabelCacheKey
 {
     NSAttributedString *_attributedString;
-    struct CGSize _size;
 }
 
 - (id);
-- (id);
+- (id)d;;
 - (unsigned long long);
 - (struct CGSize);
 - (_Bool);
 - (id);
 - (id);
-- (void)tMapPitchRadians: /* Error: Ran out of types for this method. */;
+- (void)setMapPitchRadians: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

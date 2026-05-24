@@ -10,13 +10,13 @@
 }
 
 + (id);
-- (void);
+- (void)Purge sync check failure server side;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (_Bool);

@@ -7,16 +7,6 @@
 @interface NewsFeed.DebugFormatUploadViewController
 {
     id editor;
-    id request;
-    id dataSource;
-    id diffViewController;
-    id tableView;
-    id coverViewManager;
-    id $__lazy_storage_$_nextBarButtonItem;
-    id sections;
-    id filter;
-    id filteredSections;
-    id selection;
 }
 
 - (void);
@@ -34,7 +24,7 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)@�A@9;
 - (void)0Ñu;
 - (void)­#:Ô /* Error: Ran out of types for this method. */;
 - (void);

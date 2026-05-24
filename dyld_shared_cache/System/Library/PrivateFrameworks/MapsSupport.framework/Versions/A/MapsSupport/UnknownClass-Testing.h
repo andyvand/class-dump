@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSharedNavETAInfo, GEOSharedNavWaypointInfo;
-@protocol GEOMapItem;
-
 @interface UnknownClass (Testing)
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
++ (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (id);
++ (void);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -40,12 +37,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)p	;
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -54,24 +60,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDStruct_f48a8b00);
-- (void);
+- (id);
+- (id);
+- (CDStruct_f48a8b00);
+- (void)\;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)nite or NaN;
 - (id);
 - (id);
 - (id);
@@ -79,14 +76,6 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOSharedNavWaypointInfo *destinationWaypointInfo;
-@property(readonly, nonatomic) id <GEOMapItem> destinationWaypointMapItem;
-@property(readonly, nonatomic) GEOSharedNavETAInfo *etaInfo;
-@property(readonly, nonatomic) GEOSharedNavETAInfo *finalETAInfo;
 @property(readonly, nonatomic) _Bool hasEtaInfo;
-@property(readonly, nonatomic) _Bool hasWaypointInfos;
-@property(readonly, nonatomic) _Bool isNavigatingToIntermediateStop;
-@property(readonly, nonatomic) GEOSharedNavWaypointInfo *nextWaypointInfo;
-@property(readonly, nonatomic) unsigned long long numberOfIntermediateStopsRemaining;
 @end
 

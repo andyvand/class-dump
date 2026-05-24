@@ -13,14 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)
+>
+0
+;
+- (id)*	K		>	;
+- (id).M.?;
 - (_Bool);
 - (id);
 - (id);
@@ -28,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)/;
 
 @end
 

@@ -6,18 +6,11 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMInstrument, NSDate, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class MXMInstrument, NSDate;
 
 @interface MXMOSSignpostMetric : MXMMetric
 {
     NSDate *_startDate;
-    NSDate *_stopDate;
-    unsigned long long _startMachContTime;
-    unsigned long long _stopMachContTime;
-    NSObject<OS_dispatch_semaphore> *_startDate_semaphore;
-    NSObject<OS_dispatch_semaphore> *_stopDate_semaphore;
-    NSString *_processName;
 }
 
 + (_Bool);
@@ -34,22 +27,18 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)jk"{;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)";
+- (id)ѫ2;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category;
 @property(readonly, copy, nonatomic) MXMInstrument *instrument; // @dynamic instrument;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(readonly, nonatomic) NSString *subsystem;
 
 @end
 

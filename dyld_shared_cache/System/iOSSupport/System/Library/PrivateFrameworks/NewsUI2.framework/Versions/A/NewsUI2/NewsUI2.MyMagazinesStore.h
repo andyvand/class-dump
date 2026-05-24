@@ -7,26 +7,10 @@
 @interface NewsUI2.MyMagazinesStore
 {
     id state;
-    id badgeIssueIDs;
-    id currentIssues;
-    id recentlyReadIssues;
-    id downloadedIssues;
-    id currentIssuesChecker;
-    id issueService;
-    id issueReadingHistory;
-    id subscriptionController;
-    id offlineIssueList;
-    id offlineIssueManager;
-    id paidBundleConfigManager;
-    id myMagazinesPersonalizationService;
-    id lazyPersistentStore;
-    id accessQueue;
-    id $__lazy_storage_$_lazyInitializingPromise;
-    id firstFullRefresh;
 }
 
-- (void);
-- (void);
+- (void)AnnotationDisc;
+- (void)GroupCombinable;
 - (void);
 - (id);
 - (void);

@@ -8,22 +8,22 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (long long);
-+ (float);
-+ (float);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (void)setData:(id)arg1;
++ (void)setCreator:(id)arg1;
++ (void)setByteRangeAccessSupported:(id)arg1;
++ (void)setButton:(id)arg1;
++ (void)setBehavior:(id)arg1;
++ (void)setAutomaticallyWaitsToMinimizeStalling:(id)arg1;
++ (id)resampleAndCropWithImage:(id)arg1 width:(id)arg2 height:(id)arg3;
++ (long long)quaternaryLabelColor;
++ (float)pulsingLoadIndicatorDuration;
++ (float)nameComponents;
++ (_Bool)isPreliminary;
++ (id)extractOffers:(id)arg1;
++ (id)enumerateObjectsUsingBlock:(id)arg1;
++ (id)enableUserInteractionForDecorativeButton;
++ (void)defaultBackgroundColor;
++ (void)_quoteIndicatorView;
 
 @end
 

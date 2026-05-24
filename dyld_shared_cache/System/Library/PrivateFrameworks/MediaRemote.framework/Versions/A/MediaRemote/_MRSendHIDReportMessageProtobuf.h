@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _MRSendHIDReportMessageProtobuf
 {
     NSData *_report;
-    NSString *_virtualDeviceID;
 }
 
 - (void);
@@ -22,18 +21,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)<;
 - (void);
 - (id);
-- (id);
+- (id)dApplicationWithBundleIdentifier:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id)stringValue;
-- (void)nments: /* Error: Ran out of types for this method. */;
+- (void)addTranscriptAlignments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasReport;
 @property(readonly, nonatomic) _Bool hasVirtualDeviceID;
-@property(retain, nonatomic) NSData *report; // @synthesize report=_report;
-@property(retain, nonatomic) NSString *virtualDeviceID; // @synthesize virtualDeviceID=_virtualDeviceID;
 
 @end
 

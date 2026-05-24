@@ -9,6 +9,7 @@
 @protocol CKPropertiesDescription
 
 @optional
+- (NSString *)V;
 - (NSString *);
 @end
 

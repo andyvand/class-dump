@@ -5,5 +5,7 @@
 //
 
 @protocol PDContinuityPaymentServiceExportedInterface
+- (void);
+- (void)(;
 @end
 

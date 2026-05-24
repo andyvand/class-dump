@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface IMServiceAgent
 {
@@ -23,22 +23,17 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long),;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)kIMAccountStatusChangedNotification;
+- (id)__kIMAccountStatusChangedNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSDictionary *currentAVChatInfo;
 @property(retain, nonatomic) NSArray *myAvailableMessages;
-@property(retain, nonatomic) NSArray *myAwayMessages;
-@property(readonly, nonatomic) unsigned long long requestAudioReflectorStart;
-@property(readonly, nonatomic) unsigned long long requestAudioReflectorStop;
-@property(readonly, nonatomic) unsigned long long vcCapabilities;
 
 @end
 

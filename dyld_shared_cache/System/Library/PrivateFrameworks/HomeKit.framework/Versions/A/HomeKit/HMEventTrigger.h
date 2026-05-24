@@ -6,15 +6,11 @@
 
 #import <HomeKit/HMTrigger.h>
 
-@class HMMutableArray, HMTriggerPolicy, NSArray, NSPredicate, NSString;
+@class NSPredicate;
 
 @interface HMEventTrigger : HMTrigger
 {
     _Bool _executeOnce;
-    NSPredicate *_internalPredicate;
-    NSArray *_recurrences;
-    unsigned long long _activationState;
-    HMMutableArray *_currentEvents;
 }
 
 + (id);
@@ -39,7 +35,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)8ԕ?;
 - (void);
 - (void);
 - (unsigned long long);
@@ -49,11 +45,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (_Bool);
@@ -70,17 +66,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)16d24@32@40f48@52B60B64;
+- (void)initWithRegularityThreshold:(id)arg1 intensityThreshold:regularityWeight:intensityWeight:minimalInteration:minimalUniqueDaysInteracted:interactionStore:lookbackWindow:outgoingOnly: /* Error: Ran out of types for this method. */;
+- (void)setIsCustomUserAsset:(unsigned long long)arg1;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -90,28 +86,7 @@
 - (void)à$¸;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actionSets;
-@property(nonatomic) unsigned long long activationState; // @synthesize activationState=_activationState;
-@property(readonly, copy, nonatomic) NSArray *allEvents;
-@property(readonly, copy, nonatomic) NSString *configuredName;
-@property(retain, nonatomic) HMMutableArray *currentEvents; // @synthesize currentEvents=_currentEvents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, copy, nonatomic) NSArray *endEvents;
-@property(readonly, copy, nonatomic) NSArray *events;
-@property(readonly, nonatomic) _Bool executeOnce; // @synthesize executeOnce=_executeOnce;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSPredicate *internalPredicate; // @synthesize internalPredicate=_internalPredicate;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) HMTriggerPolicy *policy;
-@property(readonly, copy, nonatomic) NSPredicate *predicate;
-@property(readonly, copy, nonatomic) NSArray *recurrences; // @synthesize recurrences=_recurrences;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long triggerActivationState;
 
 @end
 

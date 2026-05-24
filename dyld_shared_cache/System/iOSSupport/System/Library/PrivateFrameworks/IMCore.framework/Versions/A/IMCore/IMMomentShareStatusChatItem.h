@@ -6,19 +6,17 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMMomentShareStatusChatItem : IMTranscriptChatItem
 {
     NSString *_activityTitle;
-    NSDate *_expirationDate;
 }
 
-+ (id);
++ (id)safari_replaceOccurrenceOfString:(id)arg1 withString:link: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activityTitle; // @synthesize activityTitle=_activityTitle;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 
 @end
 

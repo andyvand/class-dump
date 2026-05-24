@@ -9,7 +9,6 @@
 @interface MSASCommentCheckOperation
 {
     NSString *_albumGUID;
-    NSString *_assetCollectionGUID;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
-@property(retain, nonatomic) NSString *assetCollectionGUID; // @synthesize assetCollectionGUID=_assetCollectionGUID;
 
 @end
 

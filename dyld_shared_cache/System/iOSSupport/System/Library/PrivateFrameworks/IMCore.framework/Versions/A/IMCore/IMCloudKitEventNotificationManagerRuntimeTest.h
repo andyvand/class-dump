@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitHookTestSingleton, NSString;
-
 @interface IMCloudKitEventNotificationManagerRuntimeTest
 {
     double _previousInterval;
-    double _defaultTestDuration;
-    IMCloudKitHookTestSingleton *_cloudKitHooks;
 }
 
 - (void);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (void);
@@ -30,15 +26,7 @@
 - (void)(;
 
 // Remaining properties
-@property(retain, nonatomic) IMCloudKitHookTestSingleton *cloudKitHooks; // @synthesize cloudKitHooks=_cloudKitHooks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property double defaultTestDuration; // @synthesize defaultTestDuration=_defaultTestDuration;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

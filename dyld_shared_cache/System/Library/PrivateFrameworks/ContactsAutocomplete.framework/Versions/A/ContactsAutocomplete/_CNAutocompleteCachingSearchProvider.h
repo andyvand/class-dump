@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNFuture;
 
 @interface _CNAutocompleteCachingSearchProvider
 {
     id <CNFuture> _localSearchFuture;
-    id <CNFuture> _recentsSearchFuture;
-    id <CNFuture> _suggestionsSearchFuture;
-    id <CNFuture> _predictionSearchFuture;
-    id <CNFuture> _localExtensionSearchesFuture;
-    id <CNFuture> _directoryServerSearchFuture;
-    id <CNFuture> _calendarServerSearchFuture;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)9E;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

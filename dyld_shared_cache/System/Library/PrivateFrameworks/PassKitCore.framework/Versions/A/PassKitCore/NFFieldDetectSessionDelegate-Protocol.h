@@ -5,5 +5,8 @@
 //
 
 @protocol NFFieldDetectSessionDelegate
+
+@optional
+- (void);
 @end
 

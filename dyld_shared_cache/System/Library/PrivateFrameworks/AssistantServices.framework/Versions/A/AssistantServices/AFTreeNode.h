@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AFTreeNode
 {
     id _item;
-    AFTreeNode *_parentNode;
-    NSMutableArray *_childNodes;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
@@ -33,19 +29,17 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id)updatePaymentRewardsRedemptionsWithPassUniqueIdentifier:limit:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)Identifier;
+- (void)_correctionIdentifier;
 - (unsigned long long)alization localizedStringForKey:(CDStruct_70511ce9 *)arg1 gender:(id *)arg2 table:(unsigned long long)arg3 bundle:languageCode:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_childNodes) NSMutableArray *childNodes; // @synthesize childNodes=_childNodes;
-@property(retain, nonatomic) id item; // @synthesize item=_item;
 @property(nonatomic, setter=_setParentNode:) __weak AFTreeNode *parentNode; // @synthesize parentNode=_parentNode;
 
 @end

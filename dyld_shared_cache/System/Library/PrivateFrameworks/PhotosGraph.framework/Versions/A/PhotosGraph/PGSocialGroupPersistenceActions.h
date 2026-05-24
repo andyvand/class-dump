@@ -7,13 +7,10 @@
 @interface PGSocialGroupPersistenceActions
 {
     id socialGroupsSkippedBecauseNoCommonAssets;
-    id newAutomaticSocialGroupMembersAndOrders;
-    id currentAutomaticSocialGroupsToModifyAndOrders;
-    id outdatedAutomaticSocialGroupsToDelete;
 }
 
-- (long long);
-- (long long);
+- (long long)unchPadGridElementController:,V__launchPadGridElementController /* Error: Ran out of types for this method. */;
+- (long long)=;
 - (long long);
 - (long long);
 - (id);

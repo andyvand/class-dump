@@ -6,42 +6,34 @@
 
 #import <UIKitCore/UICollectionReusableView.h>
 
-@class NSString, UIColor, UILabel, UIVisualEffect, UIVisualEffectView;
+@class NSString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiSectionHeader : UICollectionReusableView
 {
     UILabel *_emojiSectionHeader;
-    UIVisualEffectView *_backdropView;
-    struct UIEdgeInsets _insets;
 }
 
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (double);
+- (void):(double)arg1 %{bool,private}d. initial load? %{bool,public}d;
+- (void)der provided;
+- (double)ge from device on the allowed proxy list? %@;
+- (id)m Push Handler;
+- (double)sage, sending a message back to it to tell it to not send relay messages in the future;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void)40@0:(id)arg1 8@"UITraitCollection"16@"_UIViewControllerTransitionCoordinatorContextDescription"24B32B36;
-- (struct UIEdgeInsets)sAtIndexes:forKeyPath:context: /* Error: Ran out of types for this method. */;
-- (void)ForNewDateRange;
+- (struct UIEdgeInsets)removeObserver:fromObjectsAtIndexes:forKeyPath:context: /* Error: Ran out of types for this method. */;
+- (void)_updateDateForNewDateRange;
 - (id)lyingAlertAction;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) UIVisualEffect *effect;
-@property(nonatomic) double headerFontSize;
 @property(copy, nonatomic) NSString *headerName;
-@property(nonatomic) double headerOpacity;
-@property(copy, nonatomic) UIColor *headerTextColor;
-@property(nonatomic) struct UIEdgeInsets insets; // @synthesize insets=_insets;
-@property(nonatomic) _Bool useVibrantBlend;
 
 @end
 

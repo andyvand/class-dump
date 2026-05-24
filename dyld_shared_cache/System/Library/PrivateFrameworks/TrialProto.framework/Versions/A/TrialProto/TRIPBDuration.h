@@ -19,10 +19,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) int nanos; // @dynamic nanos;
-@property(nonatomic) long long seconds; // @dynamic seconds;
 @property(nonatomic) double timeInterval;
-@property(nonatomic) double timeIntervalSince1970;
 
 @end
 

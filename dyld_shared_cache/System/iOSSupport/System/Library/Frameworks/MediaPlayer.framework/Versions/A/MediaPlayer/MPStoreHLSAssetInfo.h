@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreHLSAssetInfo, NSNumber, NSString, NSURL;
+@class ICStoreHLSAssetInfo, NSURL;
 
 @interface MPStoreHLSAssetInfo
 {
     ICStoreHLSAssetInfo *_internalInfo;
 }
 
-- (id);
-- (id);
+- (id)y;
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -21,17 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void)itemType_KEY;
+- (void)__itemType_KEY;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *alternateKeyCertificateURL;
-@property(readonly, copy, nonatomic) NSURL *alternateKeyServerURL;
-@property(readonly, copy, nonatomic) NSURL *alternatePlaylistURL;
-@property(readonly, nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream;
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL;
-@property(readonly, copy, nonatomic) NSNumber *keyServerAdamID;
-@property(readonly, copy, nonatomic) NSString *keyServerProtocolType;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
 @property(readonly, copy, nonatomic) NSURL *playlistURL;
 
 @end

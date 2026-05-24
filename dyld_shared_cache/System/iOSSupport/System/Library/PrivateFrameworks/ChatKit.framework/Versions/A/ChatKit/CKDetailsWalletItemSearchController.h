@@ -14,8 +14,8 @@
 }
 
 + (id);
-- (id);
-- (void);
+- (id),GisInsideSystemPaper,V_insideSystemPaper;
+- (void)ICPDFEncryptionStateChecker",C,N,V_encryptionStateChecker;
 - (id);
 - (void)é-;
 

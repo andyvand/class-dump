@@ -6,23 +6,18 @@
 
 #import <OfficeImport/TCDumpType.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface TCDumpStruct : TCDumpType
 {
     long long mSize;
-    NSString *mSizeFieldName;
-    long long mSizeCorrection;
-    NSMutableArray *mMembers;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`*;
 - (void)cted duration unit count!;
 
 @end

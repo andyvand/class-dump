@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKRecognitionController, UIContextMenuInteraction, UITapGestureRecognizer, UIView, _PKDataDetectorController;
+@class PKRecognitionController, UIView;
 
 @interface _PKDataDetectorInteraction
 {
     PKRecognitionController *_recognitionController;
-    _Bool _enabled;
-    _PKDataDetectorController *_dataDetectorController;
-    UIContextMenuInteraction *_menuInteraction;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    UIView *_view;
-    struct CGRect _sourceRect;
-    struct CGAffineTransform _drawingTransform;
-    struct CGAffineTransform _highlightTransform;
-    struct CGAffineTransform _highlightPreviewTransform;
 }
 
 - (void);
@@ -29,7 +20,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)";
 - (id);
 - (id);
 - (void);
@@ -49,21 +40,6 @@
 - (id)x;
 
 // Remaining properties
-@property(readonly, nonatomic) _PKDataDetectorController *dataDetectorController; // @synthesize dataDetectorController=_dataDetectorController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform=_drawingTransform;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGAffineTransform highlightPreviewTransform; // @synthesize highlightPreviewTransform=_highlightPreviewTransform;
-@property(nonatomic) struct CGAffineTransform highlightTransform; // @synthesize highlightTransform=_highlightTransform;
-@property(readonly, nonatomic) UIContextMenuInteraction *menuInteraction; // @synthesize menuInteraction=_menuInteraction;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

@@ -13,7 +13,7 @@
     NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool)_subsystemToCategories;
 - (id);
 - (id);
 - (void);

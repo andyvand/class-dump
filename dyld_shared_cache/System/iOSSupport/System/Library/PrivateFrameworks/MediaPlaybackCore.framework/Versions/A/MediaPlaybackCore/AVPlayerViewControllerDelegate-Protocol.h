@@ -5,5 +5,10 @@
 //
 
 @protocol AVPlayerViewControllerDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (_Bool);
 @end
 

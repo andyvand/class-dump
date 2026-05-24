@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSItemProvider, NSOrderedSet, NSSet, NSString, PKDrawing, PKStroke, PKStrokeSelectionImage;
+@class NSOrderedSet;
 
 @interface PKStrokeSelection
 {
     NSOrderedSet *_strokes;
-    NSSet *_strokeIdentifiers;
-    PKStroke *_lassoStroke;
-    PKStrokeSelectionImage *_strokeImage;
-    PKStrokeSelectionImage *_strokeImageWithHighlight;
-    PKDrawing *_drawing;
-    NSOrderedSet *_externalElements;
-    NSItemProvider *_externalElementsItemProvider;
 }
 
 + (id);
@@ -51,30 +44,11 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)mediaBackground;
 - (void)ttonGroupView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(copy, nonatomic) NSOrderedSet *externalElements; // @synthesize externalElements=_externalElements;
-@property(copy, nonatomic) NSItemProvider *externalElementsItemProvider; // @synthesize externalElementsItemProvider=_externalElementsItemProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKStroke *lassoStroke; // @synthesize lassoStroke=_lassoStroke;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(copy, nonatomic) PKStrokeSelectionImage *strokeImage; // @synthesize strokeImage=_strokeImage;
-@property(copy, nonatomic) PKStrokeSelectionImage *strokeImageWithHighlight; // @synthesize strokeImageWithHighlight=_strokeImageWithHighlight;
 @property(readonly, nonatomic) NSOrderedSet *strokes; // @synthesize strokes=_strokes;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 
 @end
 

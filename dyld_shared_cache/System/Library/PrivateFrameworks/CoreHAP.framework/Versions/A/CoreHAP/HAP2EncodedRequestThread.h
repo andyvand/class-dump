@@ -6,13 +6,12 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2AccessoryServerEncodingThreadBTLERequest, NSString;
+@class HAP2AccessoryServerEncodingThreadBTLERequest;
 
 __attribute__((visibility("hidden")))
 @interface HAP2EncodedRequestThread : HAP2LoggingObject
 {
     _Bool _enforcePDUBodyLength;
-    HAP2AccessoryServerEncodingThreadBTLERequest *_btleRequest;
 }
 
 + (id);
@@ -23,19 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)setBrowsingIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HAP2AccessoryServerEncodingThreadBTLERequest *btleRequest; // @synthesize btleRequest=_btleRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

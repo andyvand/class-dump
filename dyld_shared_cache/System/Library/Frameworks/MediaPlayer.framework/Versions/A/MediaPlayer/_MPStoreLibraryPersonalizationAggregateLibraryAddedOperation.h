@@ -12,24 +12,20 @@ __attribute__((visibility("hidden")))
 @interface _MPStoreLibraryPersonalizationAggregateLibraryAddedOperation : MPAsyncOperation
 {
     MPMediaLibraryView *_libraryView;
-    CDUnknownBlockType _responseHandler;
-    vector_ef673ceb _persistentIDs;
 }
 
 - (void);
-- (vector_ef673ceb);
+- (vector_cd3d9677);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void)|;
 - (void);
-- (void);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)addGlobalPlaylistWithID:andAddToCloudLibrary:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) MPMediaLibraryView *libraryView; // @synthesize libraryView=_libraryView;
-@property(nonatomic) vector_ef673ceb persistentIDs; // @synthesize persistentIDs=_persistentIDs;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

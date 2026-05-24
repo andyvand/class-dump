@@ -9,9 +9,6 @@
 @interface SwiftUI.MenuBehavior__priv_4FB54E52B65B75BD18B9C51358440E13 : SwiftUI.MenuBarExtraBehavior
 {
     id host;
-    id name;
-    id menuContentsAreInvalid;
-    id hoverDelegate;
 }
 
 - (void);

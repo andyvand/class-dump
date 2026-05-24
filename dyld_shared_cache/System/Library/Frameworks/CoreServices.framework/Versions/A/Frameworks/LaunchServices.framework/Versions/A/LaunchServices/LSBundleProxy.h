@@ -6,26 +6,11 @@
 
 #import <LaunchServices/LSResourceProxy.h>
 
-@class NSArray, NSString, NSURL, NSUUID, _LSLazyPropertyList;
+@class NSString;
 
 @interface LSBundleProxy : LSResourceProxy
 {
     NSString *_localizedShortName;
-    _Bool _foundBackingBundle;
-    _Bool _containerized;
-    NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSString *_bundleExecutable;
-    NSURL *_bundleContainerURL;
-    NSString *_bundleVersion;
-    NSString *_sdkVersion;
-    NSUUID *_cacheGUID;
-    unsigned long long _sequenceNumber;
-    NSArray *_machOUUIDs;
-    unsigned long long _compatibilityState;
-    _LSLazyPropertyList *__infoDictionary;
-    _LSLazyPropertyList *__entitlements;
-    _LSLazyPropertyList *__environmentVariables;
 }
 
 @end

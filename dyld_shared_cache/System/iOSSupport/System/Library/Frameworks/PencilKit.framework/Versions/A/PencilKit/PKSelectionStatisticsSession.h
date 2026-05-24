@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableArray, NSString;
+@class NSDictionary, NSMutableArray;
 
 @interface PKSelectionStatisticsSession
 {
     NSMutableArray *_selectionGestures;
-    NSMutableArray *_selectionActions;
-    NSDate *_startTime;
-    double _timeSpentSelecting;
-    long long _numberOfTimesSelectionWasClearedInASession;
-    long long _selectionGestureCount;
-    NSString *_lastActionTaken;
-    NSString *_lastSignificantActionTaken;
-    long long _lastSelectionType;
-    long long _lastContentType;
 }
 
 - (double);
@@ -42,15 +33,7 @@
 - (void)utConstraint",&,N,V_textButtonWidthConstraint;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *lastActionTaken; // @synthesize lastActionTaken=_lastActionTaken;
-@property(nonatomic) long long lastContentType; // @synthesize lastContentType=_lastContentType;
-@property(nonatomic) long long lastSelectionType; // @synthesize lastSelectionType=_lastSelectionType;
-@property(retain, nonatomic) NSString *lastSignificantActionTaken; // @synthesize lastSignificantActionTaken=_lastSignificantActionTaken;
-@property(nonatomic) long long numberOfTimesSelectionWasClearedInASession; // @synthesize numberOfTimesSelectionWasClearedInASession=_numberOfTimesSelectionWasClearedInASession;
-@property(readonly, nonatomic) NSDictionary *selectionActionDictionary;
-@property(nonatomic) long long selectionGestureCount; // @synthesize selectionGestureCount=_selectionGestureCount;
 @property(readonly, nonatomic) NSDictionary *selectionGestureDictionary;
-@property(nonatomic) double timeSpentSelecting; // @synthesize timeSpentSelecting=_timeSpentSelecting;
 
 @end
 

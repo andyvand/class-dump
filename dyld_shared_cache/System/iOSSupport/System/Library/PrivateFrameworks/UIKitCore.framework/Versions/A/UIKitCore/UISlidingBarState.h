@@ -4,50 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISlidingBarConfiguration;
-
 @interface UISlidingBarState
 {
     _Bool __treatLeadingHiddenAsOverlaps;
-    _Bool __treatTrailingHiddenAsOverlaps;
-    _Bool __treatSupplementaryHiddenAsOverlaps;
-    double _leadingWidth;
-    double _leadingOffscreenWidth;
-    double _trailingWidth;
-    double _trailingOffscreenWidth;
-    double _supplementaryWidth;
-    double _supplementaryOffscreenWidth;
-    double _mainWidth;
-    UISlidingBarConfiguration *_configuration;
-    double _leadingDragOffset;
-    double _trailingDragOffset;
-    double _supplementaryDragOffset;
-    double __leadingOverlayWidth;
-    double __trailingOverlayWidth;
-    double __supplementaryOverlayWidth;
-    double __rubberBandInset;
-    double __keyboardAdjustment;
-    long long __collapsedState;
 }
 
 - (double);
 - (_Bool);
 - (_Bool);
 - (void);
-- (double);
-- (_Bool);
+- (double)__got;
+- (_Bool)k,;
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)scrollViewBeganMomentum:withVelocity:targetContentOffset: /* Error: Ran out of types for this method. */;
+- (void)hasBaselineRelativeLayoutMarginsForArrangement;
+- (_Bool)TLKDarkAppearance;
 - (double);
+- (id)^j;
 - (id);
-- (id);
-- (double);
-- (double);
-- (_Bool);
+- (double)chapterOfType:atIndex: /* Error: Ran out of types for this method. */;
+- (double);
+- (_Bool)0123456789abcdef;
 - (double);
 - (unsigned long long);
 - (double);
@@ -67,24 +46,24 @@
 × ;
 - (double)"_UITouchBarController";
 - (double)ACornerRadii={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)erredTransition:(id)arg1 context: /* Error: Ran out of types for this method. */;
-- (_Bool)SelectColor: /* Error: Ran out of types for this method. */;
-- (void)ble:(double)arg1;
-- (_Bool)dContentSize;
-- (_Bool)election: /* Error: Ran out of types for this method. */;
-- (id)nu: /* Error: Ran out of types for this method. */;
-- (_Bool)readingSuggestionPendingUnderlineForPoofreadingSuggestionID: /* Error: Ran out of types for this method. */;
-- (void)dth;
-- (double)ration:reorderingCell:additionalAnimations: /* Error: Ran out of types for this method. */;
+- (void)transitionConductor:(id)arg1 didStartDeferredTransition:context: /* Error: Ran out of types for this method. */;
+- (_Bool)styleDidSelectColor: /* Error: Ran out of types for this method. */;
+- (void)setTable:(double)arg1;
+- (_Bool)preferredContentSize;
+- (_Bool)moveToEndOfDocumentAndModifySelection: /* Error: Ran out of types for this method. */;
+- (id)initWithBarButtonSystemItem:menu: /* Error: Ran out of types for this method. */;
+- (_Bool)_removeProofreadingSuggestionPendingUnderlineForPoofreadingSuggestionID: /* Error: Ran out of types for this method. */;
+- (void)_preferredMaxLayoutWidth;
+- (double)_animateTableViewContentToNewLayoutWithDuration:reorderingCell:additionalAnimations: /* Error: Ran out of types for this method. */;
 - (long long),V_screenBounds;
 - (_Bool),N,GisTouchBarAvailable,V_touchBarAvailable;
 - (void)teSection;
 - (id)SourceIndexPathsOfDraggingItems;
-- (void)ometry;
-- (_Bool)itor;
+- (void)UIKBRenderGeometry;
+- (_Bool)NSPredicateVisitor;
 - (_Bool)è$À;
 - (void)drop-shadow-center.png;
-- (void)ornerRadius;
+- (void)inlineCornerRadius;
 - (void)to present %@  on %@ which is already presenting %@;
 - (double)NavigationBarContentView+TransitionContainer.swift;
 - (_Bool);
@@ -98,33 +77,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setCollapsedState:) long long _collapsedState; // @synthesize _collapsedState=__collapsedState;
-@property(nonatomic) double _keyboardAdjustment; // @synthesize _keyboardAdjustment=__keyboardAdjustment;
-@property(nonatomic, setter=_setLeadingOverlayWidth:) double _leadingOverlayWidth; // @synthesize _leadingOverlayWidth=__leadingOverlayWidth;
-@property(nonatomic) double _rubberBandInset; // @synthesize _rubberBandInset=__rubberBandInset;
-@property(nonatomic, setter=_setSupplementaryOverlayWidth:) double _supplementaryOverlayWidth; // @synthesize _supplementaryOverlayWidth=__supplementaryOverlayWidth;
-@property(nonatomic, setter=_setTrailingOverlayWidth:) double _trailingOverlayWidth; // @synthesize _trailingOverlayWidth=__trailingOverlayWidth;
-@property(nonatomic, setter=_setTreatLeadingHiddenAsOverlaps:) _Bool _treatLeadingHiddenAsOverlaps; // @synthesize _treatLeadingHiddenAsOverlaps=__treatLeadingHiddenAsOverlaps;
-@property(nonatomic, setter=_setTreatSupplementaryHiddenAsOverlaps:) _Bool _treatSupplementaryHiddenAsOverlaps; // @synthesize _treatSupplementaryHiddenAsOverlaps=__treatSupplementaryHiddenAsOverlaps;
-@property(nonatomic, setter=_setTreatTrailingHiddenAsOverlaps:) _Bool _treatTrailingHiddenAsOverlaps; // @synthesize _treatTrailingHiddenAsOverlaps=__treatTrailingHiddenAsOverlaps;
-@property(readonly, nonatomic, getter=isCollapsed) _Bool collapsed;
-@property(retain, nonatomic) UISlidingBarConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) _Bool isLeadingVisible;
-@property(readonly, nonatomic) _Bool isSupplementaryVisible;
-@property(readonly, nonatomic) _Bool isTrailingVisible;
-@property(nonatomic) double leadingDragOffset; // @synthesize leadingDragOffset=_leadingDragOffset;
-@property(nonatomic) double leadingOffscreenWidth; // @synthesize leadingOffscreenWidth=_leadingOffscreenWidth;
-@property(readonly, nonatomic) _Bool leadingOverlapsMain;
 @property(nonatomic) double leadingWidth; // @synthesize leadingWidth=_leadingWidth;
-@property(nonatomic) double mainWidth; // @synthesize mainWidth=_mainWidth;
-@property(nonatomic) double supplementaryDragOffset; // @synthesize supplementaryDragOffset=_supplementaryDragOffset;
-@property(nonatomic) double supplementaryOffscreenWidth; // @synthesize supplementaryOffscreenWidth=_supplementaryOffscreenWidth;
-@property(readonly, nonatomic) _Bool supplementaryOverlapsMain;
-@property(nonatomic) double supplementaryWidth; // @synthesize supplementaryWidth=_supplementaryWidth;
-@property(nonatomic) double trailingDragOffset; // @synthesize trailingDragOffset=_trailingDragOffset;
-@property(nonatomic) double trailingOffscreenWidth; // @synthesize trailingOffscreenWidth=_trailingOffscreenWidth;
-@property(readonly, nonatomic) _Bool trailingOverlapsMain;
-@property(nonatomic) double trailingWidth; // @synthesize trailingWidth=_trailingWidth;
 
 @end
 

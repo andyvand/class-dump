@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CUIVectorGlyphPath
 {
     struct CUIVectorGlyphPathLengthData _lengthData;
-    id _path;
-    NSData *_clipStrokeKeyframes;
 }
 
 + (unsigned long long *);
@@ -25,7 +21,7 @@
 + (id);
 + (struct CUIVectorGlyphPathLengthData);
 - (long long);
-- (struct CUIVectorGlyphPathLengthData);
+- (struct CUIVectorGlyphPathLengthData))1;
 - (id);
 - (id);
 - (id);
@@ -36,10 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSData *clipStrokeKeyframes; // @synthesize clipStrokeKeyframes=_clipStrokeKeyframes;
-@property(readonly, retain, nonatomic) NSData *encodedClipStrokeKeyframes;
 @property(readonly, retain, nonatomic) id path; // @synthesize path=_path;
-@property(readonly, nonatomic) long long subpathCount;
 
 @end
 

@@ -7,13 +7,13 @@
 @class NSArray, NSSet;
 
 @protocol CHCalculateDocumentProvider
+- (NSArray *)RJJ!;
+- (NSSet *)Started notification timer %p;
+
+@optional
+- (NSArray *)!;
 
 // Remaining properties
 @property(readonly, copy) NSSet *declaredVariables;
-@property(readonly, copy) NSArray *expressionEvaluationResults;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(readonly, copy) NSArray *recognizedExpressions;
 @end
 

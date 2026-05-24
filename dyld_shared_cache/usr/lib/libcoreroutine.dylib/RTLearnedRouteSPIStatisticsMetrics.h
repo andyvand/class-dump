@@ -7,21 +7,6 @@
 @interface RTLearnedRouteSPIStatisticsMetrics
 {
     _Bool _isSPISuccess;
-    _Bool _didSPIReturnDestinationVisit;
-    _Bool _didSPIReturned2Routes;
-    _Bool _didSPIReturned3Routes;
-    _Bool _didSPIReturnNonVisit;
-    _Bool _didSPIReturnODPair;
-    _Bool _didSPIReturnOriginVisit;
-    _Bool _isSPIResponseRouteHighLikelihood;
-    _Bool _isSPIResponseRouteLowLikelihood;
-    _Bool _isSPIBestRouteLikelihood;
-    int _numSPIReturnWaypointsAvg;
-    int _spiQueryType;
-    float _spiResponseTime;
-    float _spiReturnRouteLengthAvg;
-    float _timeBetweenSPIQueries;
-    int _fetchReasonCode;
 }
 
 - (float);
@@ -33,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -47,35 +32,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ta=}16I24^@28;
 - (_Bool);
+- (_Bool)O;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (float);
+- (_Bool)Ď;
+- (float)LooseLeaves;
 - (int);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property _Bool didSPIReturnDestinationVisit; // @synthesize didSPIReturnDestinationVisit=_didSPIReturnDestinationVisit;
-@property _Bool didSPIReturnNonVisit; // @synthesize didSPIReturnNonVisit=_didSPIReturnNonVisit;
-@property _Bool didSPIReturnODPair; // @synthesize didSPIReturnODPair=_didSPIReturnODPair;
-@property _Bool didSPIReturnOriginVisit; // @synthesize didSPIReturnOriginVisit=_didSPIReturnOriginVisit;
-@property _Bool didSPIReturned2Routes; // @synthesize didSPIReturned2Routes=_didSPIReturned2Routes;
-@property _Bool didSPIReturned3Routes; // @synthesize didSPIReturned3Routes=_didSPIReturned3Routes;
-@property int fetchReasonCode; // @synthesize fetchReasonCode=_fetchReasonCode;
-@property _Bool isSPIBestRouteLikelihood; // @synthesize isSPIBestRouteLikelihood=_isSPIBestRouteLikelihood;
-@property _Bool isSPIResponseRouteHighLikelihood; // @synthesize isSPIResponseRouteHighLikelihood=_isSPIResponseRouteHighLikelihood;
-@property _Bool isSPIResponseRouteLowLikelihood; // @synthesize isSPIResponseRouteLowLikelihood=_isSPIResponseRouteLowLikelihood;
 @property _Bool isSPISuccess; // @synthesize isSPISuccess=_isSPISuccess;
-@property int numSPIReturnWaypointsAvg; // @synthesize numSPIReturnWaypointsAvg=_numSPIReturnWaypointsAvg;
-@property int spiQueryType; // @synthesize spiQueryType=_spiQueryType;
-@property float spiResponseTime; // @synthesize spiResponseTime=_spiResponseTime;
-@property float spiReturnRouteLengthAvg; // @synthesize spiReturnRouteLengthAvg=_spiReturnRouteLengthAvg;
-@property float timeBetweenSPIQueries; // @synthesize timeBetweenSPIQueries=_timeBetweenSPIQueries;
 
 @end
 

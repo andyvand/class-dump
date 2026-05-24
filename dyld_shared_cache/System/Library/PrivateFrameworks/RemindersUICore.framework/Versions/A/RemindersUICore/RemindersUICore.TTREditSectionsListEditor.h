@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTREditSectionsListEditor
 {
     id remList;
-    id listEditor;
-    id remListSectionChangeItems;
-    id userDefaults;
 }
 
 @end

@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)H);
 - (id);
 - (id);
 - (float);

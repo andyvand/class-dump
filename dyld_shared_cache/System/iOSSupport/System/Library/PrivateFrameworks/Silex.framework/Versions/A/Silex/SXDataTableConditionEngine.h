@@ -7,7 +7,6 @@
 @interface SXDataTableConditionEngine
 {
     unsigned long long _conditionCount;
-    unsigned long long _validConditionCount;
 }
 
 + (id);
@@ -19,14 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (unsigned long long);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long conditionCount; // @synthesize conditionCount=_conditionCount;
-@property(nonatomic) unsigned long long validConditionCount; // @synthesize validConditionCount=_validConditionCount;
 
 @end
 

@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface EMFAbstractIndexStrategy
 {
     NSDictionary *_termIndex;
-    NSDictionary *_documentIndex;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)SiteMetadataManagerAccessQueue;
+- (id)didPerformDelayedLaunchOperationsNotification;
+- (id)didPerformDelayedLaunchOperationsNotification;
+- (void)arks view.;
+- (void)option.;
+- (id)ed (Search Field);
+- (id)to open an external app.;
+- (id)@?0@"NSTimer"8;
+- (id)om.apple.SystemConfiguration;
+- (id)istItem);
+- (void)n;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *documentIndex; // @synthesize documentIndex=_documentIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSDictionary *termIndex; // @synthesize termIndex=_termIndex;
 
 @end

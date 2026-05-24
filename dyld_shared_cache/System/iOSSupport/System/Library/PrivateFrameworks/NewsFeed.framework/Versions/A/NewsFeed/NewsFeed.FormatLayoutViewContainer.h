@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatLayoutViewContainer
 {
     id viewModel;
-    id view;
-    id rootView;
-    id subviewTree;
-    id $__lazy_storage_$_viewportMonitorObservers;
-    id $__lazy_storage_$_loadAwareObservers;
 }
 
 @end

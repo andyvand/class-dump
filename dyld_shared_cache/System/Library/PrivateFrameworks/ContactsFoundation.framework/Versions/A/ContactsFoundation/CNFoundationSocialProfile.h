@@ -9,32 +9,24 @@
 @interface CNFoundationSocialProfile
 {
     NSString *_urlString;
-    NSString *_username;
-    NSString *_userIdentifier;
-    NSString *_service;
-    NSString *_displayName;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)+;
+- (id)h;
 - (id);
 - (unsigned long long);
+- (id)$;
 - (id);
+- (_Bool)`	;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)v48@0:8@"APSConnection"16@"NSData"24@"NSString"32@"NSString"40 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy) NSString *service; // @synthesize service=_service;
 @property(readonly, copy) NSString *urlString; // @synthesize urlString=_urlString;
-@property(readonly, copy) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(readonly, copy) NSString *username; // @synthesize username=_username;
 
 @end
 

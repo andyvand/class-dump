@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAMarqueeView, NANowPlayingArtworkView, UIButton, UILabel, UIMenu, UIView;
 @protocol NANowPlayingDockedViewDelegate;
 
 @interface NANowPlayingDockedView
 {
     _Bool _changesDisplayWhenHighlighted;
-    _Bool _waiting;
-    _Bool _isPlaying;
-    id <NANowPlayingDockedViewDelegate> _delegate;
-    UIView *_contentView;
-    UILabel *_publisherLabel;
-    NAMarqueeView *_publisherMarqueeContainer;
-    UILabel *_titleLabel;
-    NAMarqueeView *_titleMarqueeContainer;
-    UIButton *_rewindButton;
-    UIButton *_playPauseButton;
-    UIButton *_closeButton;
-    UIMenu *_menu;
-    NANowPlayingArtworkView *_artworkView;
 }
 
 - (id);
@@ -31,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (_Bool);
@@ -57,13 +43,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void)hedArticleTextRanges;
+- (void)cachedArticleTextRanges;
 - (struct CGPoint)®x® ¯
 °;
 - (void);
@@ -72,21 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize artworkSize;
-@property(retain, nonatomic) NANowPlayingArtworkView *artworkView; // @synthesize artworkView=_artworkView;
-@property(nonatomic) _Bool changesDisplayWhenHighlighted; // @synthesize changesDisplayWhenHighlighted=_changesDisplayWhenHighlighted;
-@property(readonly, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
 @property(nonatomic) __weak id <NANowPlayingDockedViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isPlaying; // @synthesize isPlaying=_isPlaying;
-@property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(readonly, nonatomic) UIButton *playPauseButton; // @synthesize playPauseButton=_playPauseButton;
-@property(readonly, nonatomic) UILabel *publisherLabel; // @synthesize publisherLabel=_publisherLabel;
-@property(readonly, nonatomic) NAMarqueeView *publisherMarqueeContainer; // @synthesize publisherMarqueeContainer=_publisherMarqueeContainer;
-@property(readonly, nonatomic) UIButton *rewindButton; // @synthesize rewindButton=_rewindButton;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(readonly, nonatomic) NAMarqueeView *titleMarqueeContainer; // @synthesize titleMarqueeContainer=_titleMarqueeContainer;
-@property(nonatomic) _Bool waiting; // @synthesize waiting=_waiting;
 
 @end
 

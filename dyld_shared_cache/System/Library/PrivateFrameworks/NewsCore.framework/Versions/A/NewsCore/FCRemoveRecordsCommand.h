@@ -20,15 +20,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)MapsSuggestionsRoutineFetchFromTimeIntervalInSecondsForRelevanceScoreKey;
 - (void);
 - (void);
 - (id);
-- (void)errideProvider;
+- (void)FCEnvironmentOverrideProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *createdOrModifiedRecordIDs;
-@property(readonly, nonatomic) NSArray *deletedRecordIDs;
 
 @end
 

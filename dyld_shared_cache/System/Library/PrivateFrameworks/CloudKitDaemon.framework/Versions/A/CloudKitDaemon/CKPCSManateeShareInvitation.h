@@ -9,31 +9,28 @@
 @interface CKPCSManateeShareInvitation
 {
     NSData *_exportedPCSData;
-    NSData *_shareePublicKeyData;
 }
 
+- (id)egate>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)r"16@"<AVTAvatarRecord>"24;
+- (void)ntationController"16q24@"<UIViewControllerTransitionCoordinator>"32;
+- (_Bool):8@"AVTStickerRecentsOverlayView"16 /* Error: Ran out of types for this method. */;
+- (_Bool)dDelegate>"16;
+- (id)6@?24@32;
 - (id);
 - (void);
 - (void);
+- (unsigned long long)<AirPlayActivation> [%{ptr}] subEndpoint [%{ptr}] removed with regToken=0x%04x (forced=%s)
+;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (void)¬ÕðÕ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *exportedPCSData; // @synthesize exportedPCSData=_exportedPCSData;
 @property(readonly, nonatomic) _Bool hasExportedPCSData;
-@property(readonly, nonatomic) _Bool hasShareePublicKeyData;
-@property(retain, nonatomic) NSData *shareePublicKeyData; // @synthesize shareePublicKeyData=_shareePublicKeyData;
 
 @end
 

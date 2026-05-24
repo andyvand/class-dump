@@ -9,15 +9,12 @@
 @interface UIKit._UIRimHighlightEffectViewEntry : _UIVisualEffectViewEntry
 {
     id config;
-    id activationOrigin;
-    id deactivationOrigin;
-    id _cachedTransitionView;
 }
 
 - (id);
 - (void)1^ð1Â0@ù
 × ;
-- (void):(id)arg1;
+- (void)initWithReferenceCorner:(id)arg1;
 - (void)rderedSet",&,N,V_contentViews;
 - (void)Ô «^;
 - (void)p­l;

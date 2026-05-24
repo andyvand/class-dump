@@ -5,5 +5,9 @@
 //
 
 @protocol AssetCacheServicesManagerObserverProtocol
+- (oneway void)}S)
+*
+]S(3hf;
+- (oneway void)*;
 @end
 

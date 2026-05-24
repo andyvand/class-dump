@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id)&'()*+;
-+ (id)tionStmt;
++ (id)PgQuery_CreateFunctionStmt;
 + (id)?;
 + (id);
 + (id);

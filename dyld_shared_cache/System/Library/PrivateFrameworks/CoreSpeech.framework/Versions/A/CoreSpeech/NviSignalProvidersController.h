@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSMapTable;
 @protocol NviAssetsProvider;
 
 @interface NviSignalProvidersController
 {
     id <NviAssetsProvider> _assetsProvider;
-    NSDictionary *_dataSrcMap;
-    NSMapTable *_sigProvidersMap;
-    NSHashTable *_currActiveSigProvTypes;
-    NSHashTable *_currActiveDataSourceTypes;
 }
 
 + (void)stered;
@@ -21,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)L1;
 - (void);
 - (void);
 - (void);
@@ -42,14 +37,10 @@
 - (void);
 - (void);
 - (void);
-- (void)m:deviceId:completion: /* Error: Ran out of types for this method. */;
+- (void)notifyBluetoothDeviceVoiceTriggerPrewarm:deviceId:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <NviAssetsProvider> assetsProvider; // @synthesize assetsProvider=_assetsProvider;
-@property(retain, nonatomic) NSHashTable *currActiveDataSourceTypes; // @synthesize currActiveDataSourceTypes=_currActiveDataSourceTypes;
-@property(retain, nonatomic) NSHashTable *currActiveSigProvTypes; // @synthesize currActiveSigProvTypes=_currActiveSigProvTypes;
-@property(retain, nonatomic) NSDictionary *dataSrcMap; // @synthesize dataSrcMap=_dataSrcMap;
-@property(retain, nonatomic) NSMapTable *sigProvidersMap; // @synthesize sigProvidersMap=_sigProvidersMap;
 
 @end
 

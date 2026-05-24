@@ -9,27 +9,22 @@
 @interface HMCameraClipEncryptedDataContext
 {
     NSData *_initializationVector;
-    NSData *_ciphertext;
-    NSData *_tag;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)kettledrum;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSData *ciphertext; // @synthesize ciphertext=_ciphertext;
-@property(readonly, copy) NSData *dataRepresentation;
 @property(readonly, copy) NSData *initializationVector; // @synthesize initializationVector=_initializationVector;
-@property(readonly, copy) NSData *tag; // @synthesize tag=_tag;
 
 @end
 

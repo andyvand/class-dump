@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PDAssertion
 {
     _Bool _invalidateWhenBackgrounded;
-    unsigned long long _type;
-    NSString *_identifier;
-    NSString *_reason;
-    double _createdAt;
 }
 
 - (void);
@@ -23,14 +17,10 @@
 - (unsigned long long);
 - (id)aX"ð!àGù1ï%1Â0@ù
 × ;
-- (void)PKPaymentRequestCouponCodeUpdateCSgIeyBy_;
+- (void)So32PKPaymentRequestCouponCodeUpdateCSgIeyBy_;
 - (double)à¨ÿ£QmL";
 
 // Remaining properties
-@property(readonly, nonatomic) double createdAt; // @synthesize createdAt=_createdAt;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool invalidateWhenBackgrounded; // @synthesize invalidateWhenBackgrounded=_invalidateWhenBackgrounded;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

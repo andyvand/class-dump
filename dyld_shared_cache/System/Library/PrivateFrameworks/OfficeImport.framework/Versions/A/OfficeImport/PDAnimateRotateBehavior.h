@@ -10,21 +10,16 @@ __attribute__((visibility("hidden")))
 @interface PDAnimateRotateBehavior : PDAnimateBehavior
 {
     double mTo;
-    double mFrom;
-    double mBy;
-    _Bool mHasTo;
-    _Bool mHasFrom;
-    _Bool mHasBy;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)Library(void);
 - (double);
 - (id);
 

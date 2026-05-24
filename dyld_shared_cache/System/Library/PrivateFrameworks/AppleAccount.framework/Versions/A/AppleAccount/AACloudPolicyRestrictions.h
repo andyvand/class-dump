@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)er home doesn't appear to be set up; home = %s;
 + (id);
-+ (id);
++ (id)rtProfileCerts returned %d;
 
 @end
 

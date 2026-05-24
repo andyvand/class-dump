@@ -5,5 +5,9 @@
 //
 
 @protocol NUIArrangementContainer
+
+@optional
+- (long long)@9?;
+- (double)t;
 @end
 

@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKSubscribedCalendarDescriptionHeader, NSArray, NSString;
+@class EKSubscribedCalendarDescriptionHeader;
 @protocol EKCalendarEditItemDelegate;
 
 @interface EKCalendarSubscriptionDetailsViewController
 {
     EKSubscribedCalendarDescriptionHeader *_tableHeaderView;
-    NSArray *_sections;
-    id <EKCalendarEditItemDelegate> _delegate;
 }
 
-- (int);
+- (int)s;
 - (void);
+- (id);
+- (_Bool)&s;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
+- (id)0;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (long long);
+- (void);
+- (void)";
 - (long long);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)occurrenceViewForEvent:onDate: /* Error: Ran out of types for this method. */;
 - (void)ôÀïÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKCalendarEditItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

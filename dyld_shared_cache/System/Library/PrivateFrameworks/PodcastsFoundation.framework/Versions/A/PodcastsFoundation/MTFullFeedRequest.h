@@ -9,7 +9,6 @@
 @interface MTFullFeedRequest : MTBaseFeedRequest
 {
     id isSerial;
-    id hasSeasons;
 }
 
 - (id);

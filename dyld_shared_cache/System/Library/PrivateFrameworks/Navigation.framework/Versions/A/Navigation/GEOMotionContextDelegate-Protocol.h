@@ -5,5 +5,8 @@
 //
 
 @protocol GEOMotionContextDelegate
+
+@optional
+- (void);
 @end
 

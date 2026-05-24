@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VMUDirectDominees
 {
     VMUDominatorGraph *_dg;
-    unsigned int _node;
 }
 
 - (id);

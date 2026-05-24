@@ -9,10 +9,6 @@
 @interface PKSecureElementApplet
 {
     _Bool _locked;
-    _Bool _containsSubKeys;
-    NSString *_identifier;
-    NSString *_packageIdentifier;
-    unsigned long long _lifecycleState;
 }
 
 + (id);
@@ -22,20 +18,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
-- (void);
+- (void)_qualityIndicator;
 - (unsigned long long);
 - (id);
-- (void)RY_LAST_PAYMENT_PLUS_MERCHANT_CATEGORY2_MONTH_ZERO_MESSAGE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_LAST_PAYMENT_PLUS_MERCHANT_CATEGORY2_MONTH_ZERO_MESSAGE;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsSubKeys; // @synthesize containsSubKeys=_containsSubKeys;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long lifecycleState; // @synthesize lifecycleState=_lifecycleState;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(readonly, nonatomic) NSString *packageIdentifier; // @synthesize packageIdentifier=_packageIdentifier;
 
 @end
 

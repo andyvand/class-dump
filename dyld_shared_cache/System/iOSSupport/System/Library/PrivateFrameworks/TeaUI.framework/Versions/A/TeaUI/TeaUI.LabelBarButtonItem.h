@@ -7,11 +7,10 @@
 @interface TeaUI.LabelBarButtonItem
 {
     id barButtonItemIdentifier;
-    id label;
 }
 
 - (id);
-- (id);
+- (id)todayWidgetHeadlineScoringOutputName;
 - (void)ÿÿÂ9þÿ;
 
 @end

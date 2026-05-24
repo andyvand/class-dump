@@ -13,26 +13,25 @@ __attribute__((visibility("hidden")))
 @interface WFOutOfProcessWorkflowControllerStateMachine : WFStateMachine
 {
     id <WFOutOfProcessWorkflowControllerStateMachineDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (void);
+- (void){;
 - (void);
-- (void);
-- (void);
+- (void)p3|;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void){;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Ș2|;
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)l;
+- (id)ing";
+- (void);
 - (id);
 - (void);
 - (id);
@@ -40,7 +39,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak id <WFOutOfProcessWorkflowControllerStateMachineDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 
 @end

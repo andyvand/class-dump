@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBActivateCarSignalIntentResponse
 {
     CDStruct_95bda58d _signals;
-    struct _has;
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
@@ -21,26 +18,18 @@
 - (int);
 - (int);
 - (void);
-- (id);
+- (id)?@"<GCPhysicalInputElement>"@"<GCTouchedStateInput>"B>16@0:(id)arg1 8;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int *);
-- (_Bool);
-- (void);
+- (_Bool)signatureWithDomain:(id)arg1 type:subType:subtypeContext:detectedProcess:triggerThresholdValues: /* Error: Ran out of types for this method. */;
+- (void)ic}s (%{public}s:(id)arg1 %u) [nearbysync] Failed to send %{public}@ to nearby device (%{public}@ less than %lu seconds ago;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int *signals;
-@property(readonly, nonatomic) unsigned long long signalsCount;
-@property(readonly) Class superclass;
 
 @end
 

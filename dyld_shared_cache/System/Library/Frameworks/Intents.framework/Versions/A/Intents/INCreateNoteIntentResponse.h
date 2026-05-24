@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INNote, NSString;
-
 @interface INCreateNoteIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_finishAllRequestsWithError:(long long)arg1;
 + (int);
 + (long long);
 + (_Bool);
@@ -25,23 +23,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)",R,C,N,V_identifier;
+- (id);
+- (void)45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)t;
+- (long long)INDeleteEventIntentResponseExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INNote *createdNote;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

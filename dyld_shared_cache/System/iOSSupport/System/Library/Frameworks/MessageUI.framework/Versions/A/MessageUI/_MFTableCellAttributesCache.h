@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)tring",&,N,S_setSourceBundleIdentifier:,V_sourceBundleIdentifier /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

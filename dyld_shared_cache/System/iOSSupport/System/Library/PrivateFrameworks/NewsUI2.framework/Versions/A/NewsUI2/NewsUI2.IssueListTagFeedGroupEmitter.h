@@ -7,11 +7,6 @@
 @interface NewsUI2.IssueListTagFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id tagService;
-    id issueService;
-    id magazineCategoryConfigService;
-    id personalizationService;
 }
 
 @end

@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIHyperpoint
 {
     double *__value;
     unsigned long long __dimensions;
 }
 
-+ (id)CarPlayTouchpads: /* Error: Ran out of types for this method. */;
-+ (_Bool)e;
++ (id)setCarPlayTouchpads: /* Error: Ran out of types for this method. */;
++ (_Bool)username;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tionQueuePlayer _establishConnectionIfNeeded timeout [ping did not pong];
 - (unsigned long long);
 - (void)ù
 × ;
-- (_Bool)ntry;
-- (void)urrentDragSourceAction:(id)arg1;
-- (id)setVisualEffect:(unsigned long long)arg1;
+- (_Bool)topEntry;
+- (void)setCurrentDragSourceAction:(id)arg1;
+- (id)_backing_setVisualEffect:(unsigned long long)arg1;
 - (id)ivered;
 - (void)cell %@ with indexPath:(double *)arg1 %@ cellAttrs:(const double *)arg2 %@ layoutAttrsToUpdate:%@ /* Error: Ran out of types for this method. */;
 - (void)Kit inconsistency:(const double *)arg1 unknown character in format string:%C; dateFormat:%@ /* Error: Ran out of types for this method. */;
 - (const double *)(N;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
 @property(readonly, nonatomic) const double *_value;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

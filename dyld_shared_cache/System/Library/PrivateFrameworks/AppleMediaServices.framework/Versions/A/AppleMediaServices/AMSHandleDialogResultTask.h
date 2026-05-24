@@ -6,17 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSDialogRequest, AMSDialogResult, AMSProcessInfo, NSError, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSHandleDialogResultTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSString *_proxyBundleId;
-    AMSDialogResult *_result;
-    NSError *_error;
 }
 
 - (void);
@@ -25,10 +19,10 @@
 - (id);
 - (id);
 - (void);
+- (id)LSApplicationWorkspaceObserverProtocol;
+- (id)istent state.;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_addSharedURLCacheProperties;
 - (id)lSñÿlWÿ´U;
 - (id)Ö\*D;
 - (void)ªAsÏ´AsÙ¶As+°As²As ¬As®As¨As)ªAs}´As¶As¢°AsZ²AsÓAs*As-AsAs§As6As±AsAs.AsDAsAs7AsPAstAsÉAséAsmìAsÛîAs|èAs¼êAsùôAs3öAsrðAsòAsìAsòîAscèAsêAs	ôAsuöAs&ðAsnòAsÌAsiÎAsÑÈAs5ÊAsWÔAsÖAs'ÐAsYÒAsUÌAs
@@ -39,12 +33,6 @@ AsAs4AsAs1As@lAs¶nAsÝhAsjAstAs¥vAs¡pAsrAs;lAsnAsýhAs9jAsJtAs�
 
 // Remaining properties
 @property(copy) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSError *error; // @synthesize error=_error;
-@property(copy) NSString *proxyBundleId; // @synthesize proxyBundleId=_proxyBundleId;
-@property(readonly) AMSDialogRequest *request;
-@property(readonly) AMSDialogResult *result; // @synthesize result=_result;
 
 @end
 

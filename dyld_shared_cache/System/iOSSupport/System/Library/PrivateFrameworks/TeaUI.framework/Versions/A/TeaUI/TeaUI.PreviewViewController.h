@@ -7,10 +7,9 @@
 @interface TeaUI.PreviewViewController
 {
     id previewedViewController;
-    id triggeringViewController;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

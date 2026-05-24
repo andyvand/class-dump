@@ -7,8 +7,6 @@
 @interface MessageProtection.TetraDBManager
 {
     id _persistentContainer;
-    id cache;
-    id $__lazy_storage_$_persistentContainer;
 }
 
 - (id);

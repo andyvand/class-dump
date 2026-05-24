@@ -9,7 +9,7 @@
     CDUnknownBlockType _snapshotSizeCalculator;
 }
 
-+ (id);
++ (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);

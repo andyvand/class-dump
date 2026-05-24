@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol AVTAvatarAttributeEditorSectionItemPrefetching
+- (void (^)(void (^)(void)) (^)(void (^)(UIImage *), _Bool));
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *prefetchingIdentifier;
-@property(readonly, copy, nonatomic) CDUnknownBlockType presetResourcesProvider;
-@property(readonly, copy, nonatomic) CDUnknownBlockType stickerResourceProvider;
-@property(readonly, copy, nonatomic) CDUnknownBlockType thumbnailProvider;
 @end
 

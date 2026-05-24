@@ -9,6 +9,7 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)_CalendarEventDetails;
 - (void)sing to parse response to PROPPATCH because of content-type:(NSURLSession *)arg1 [%@].;
 - (void)//cal.me.com/_namespace/;
 @end

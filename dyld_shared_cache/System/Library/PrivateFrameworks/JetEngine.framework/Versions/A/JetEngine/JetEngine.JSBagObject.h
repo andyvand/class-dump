@@ -10,12 +10,12 @@
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)f{;
+- (id)o;
 - (id);
 - (void);
 - (id);

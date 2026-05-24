@@ -8,7 +8,7 @@
 {
 }
 
-+ (Class);
++ (Class)F;
 - (long long);
 
 @end

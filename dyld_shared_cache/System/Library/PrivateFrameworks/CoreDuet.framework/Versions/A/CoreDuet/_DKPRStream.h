@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKPRValueType;
+@class NSString;
 
 @interface _DKPRStream
 {
     NSString *_name;
-    _DKPRValueType *_type;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)˟;
 - (id);
 - (id);
 - (void)ñ©3°1Â0@ù

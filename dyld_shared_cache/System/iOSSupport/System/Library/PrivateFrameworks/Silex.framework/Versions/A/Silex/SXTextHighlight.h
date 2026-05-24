@@ -9,7 +9,6 @@
 @interface SXTextHighlight
 {
     SXTangierTextRenderCollectorItem *_item;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SXTangierTextRenderCollectorItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

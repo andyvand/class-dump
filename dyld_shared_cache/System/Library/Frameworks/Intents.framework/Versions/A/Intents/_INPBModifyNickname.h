@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
-
 @interface _INPBModifyNickname
 {
     CDStruct_0d3d9f76 _has;
-    _Bool _isRemoval;
-    _INPBString *_targetNickname;
 }
 
-+ (_Bool);
++ (_Bool)+;
 - (id);
 - (void);
 - (void);
@@ -29,20 +25,10 @@
 - (void);
 - (id);
 - (id);
-- (void)nectedReason;
+- (void)disconnectedReason;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasIsRemoval;
-@property(readonly, nonatomic) _Bool hasTargetNickname;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isRemoval; // @synthesize isRemoval=_isRemoval;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBString *targetNickname; // @synthesize targetNickname=_targetNickname;
 
 @end
 

@@ -7,10 +7,10 @@
 @class HMDBackingStoreModelObject, NSSet;
 
 @protocol HMDBackingStoreChangeObject
-- (NSSet *);
+- (HMDBackingStoreModelObject *)verlap:context:] /* Error: Ran out of types for this method. */;
+- (NSSet *)_operationBlock;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDBackingStoreModelObject *change;
-@property(readonly, nonatomic) NSSet *dependentUUIDs;
 @end
 

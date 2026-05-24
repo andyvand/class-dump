@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMFMessageDispatcher, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol HMDClientConnectionDataSource, OS_dispatch_queue;
+@class HMFMessageDispatcher, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDClientConnection
 {
     HMFMessageDispatcher *_msgDispatcher;
-    HMDHomeManager *_homeManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDClientConnectionDataSource> _dataSource;
-    NSMutableArray *_commandsBeingExecuted;
 }
 
 + (id)
 äøB;
 - (void);
-- (id);
+- (id)RFBViewerLibCallback:kRFBCallbackComunicationError /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)eUpdateContextAuthor;
-- (void)y;
-- (id);
+- (void)setTimeSinceLastNowPlayingAppStartInSec:(id)arg1;
+- (id)controllerForceUpdateContextAuthor;
+- (void)HMDSiriEndpointProfilesMessengerFactory;
+- (id)D;
 - (id)Received upload reason:%{public}@ Count for legacy:%ld homeZone:%ld homeManager:%ld /* Error: Ran out of types for this method. */;
 - (id)t:%@, marking user permission as denied /* Error: Ran out of types for this method. */;
 - (void);
@@ -37,22 +33,6 @@ __attribute__((visibility("hidden")))
 - (id)HxA;
 
 // Remaining properties
-@property(readonly) NSMutableArray *commandsBeingExecuted; // @synthesize commandsBeingExecuted=_commandsBeingExecuted;
-@property(readonly) id <HMDClientConnectionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

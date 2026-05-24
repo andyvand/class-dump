@@ -6,39 +6,30 @@
 
 #import <AppleMediaServicesUI/AMSUIWebViewController.h>
 
-@class NSDictionary;
-
 @interface AMSUIRegulatoryAgeVerificationController : AMSUIWebViewController
 {
     id resultPromise;
-    _Bool showSkipButton;
-    void userInfo;
-    id accountParameters;
-    id cfuHandler;
-    id loadPromise;
-    id metrics;
-    id resolveHandler;
 }
 
-+ (id);
++ (id)Body;
 + (id)@=ypGkÓ@®×ýÿ_So6NSViewCXcIegnnnr_;
 + (id)g resolutions;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)eryServices.DDSManager;
+- (void)DDSTrialAsset"8@"NSError"16;
+- (void)ion"8^B16;
+- (_Bool)Optional;
+- (void)-%@-%@;
+- (id)E;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
+- (id)`;
+- (id)braryManager"8;
 - (id);
 - (void);
 - (id);
+- (void)M	/	>	;
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -47,8 +38,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id resultPromise; // @synthesize resultPromise;
-@property(nonatomic) _Bool showSkipButton; // @synthesize showSkipButton;
-@property(nonatomic, copy) NSDictionary *userInfo;
 
 @end
 

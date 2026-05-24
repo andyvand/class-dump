@@ -9,24 +9,20 @@
 @interface PLXPCListenerOperatorComposition
 {
     NSDictionary *_registration;
-    CDUnknownBlockType _operatorBlock;
-    PLOperator *_operator;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (CDUnknownBlockType)SDate",&,N,V_entryDate;
-- (id)Identifiers;
+- (id)contentIdentifiers;
 
 // Remaining properties
 @property __weak PLOperator *operator; // @synthesize operator=_operator;
-@property(copy, nonatomic) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
-@property(readonly) NSDictionary *registration; // @synthesize registration=_registration;
 
 @end
 

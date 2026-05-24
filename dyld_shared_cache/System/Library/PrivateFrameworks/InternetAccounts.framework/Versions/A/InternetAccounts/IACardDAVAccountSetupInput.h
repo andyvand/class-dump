@@ -11,10 +11,6 @@
 @interface IACardDAVAccountSetupInput : IAAccountSetupInput
 {
     NSString *_serverAddress;
-    NSString *_autoHostname;
-    NSString *_autoSchema;
-    _Bool _migrateLocalData;
-    NSString *_emailAddress;
 }
 
 - (void);
@@ -26,14 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *autoHostname; // @synthesize autoHostname=_autoHostname;
-@property(retain) NSString *autoSchema; // @synthesize autoSchema=_autoSchema;
-@property(retain) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property _Bool migrateLocalData; // @synthesize migrateLocalData=_migrateLocalData;
 @property(retain) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
 
 @end

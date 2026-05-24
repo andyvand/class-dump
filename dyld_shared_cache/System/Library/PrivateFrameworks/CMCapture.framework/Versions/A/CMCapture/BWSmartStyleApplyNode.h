@@ -6,44 +6,23 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPixelBufferPool;
-@protocol CMISmartStyle, CMISmartStyleProcessor, CMISmartStyleProxyRenderer, MTLCommandQueue;
-
 @interface BWSmartStyleApplyNode : BWNode
 {
     int _renderingMethod;
-    id <MTLCommandQueue> _metalCommandQueue;
-    Class _smartStyleClass;
-    id <CMISmartStyle> _currentStyle;
-    id <CMISmartStyleProxyRenderer> _smartStyleProxyRenderer;
-    Class _smartStyleProcessorInputOutputClass;
-    id <CMISmartStyleProcessor> _smartStyleProcessor;
-    _Bool _firstFrame;
-    struct opaqueCMSampleBuffer *_mostRecentCoefficients;
-    _Bool _applyGlobalMostRecentCoefficients;
-    float _currentGlobalLocalMixFactor;
-    float _globalLocalSystemMixFactorDecayRate;
-    int _mostRecentQuadraBinningFactor;
-    _Bool _currentRecordingSupportsReversibility;
-    BWPixelBufferPool *_filteredCoefficientsPixelBufferPool;
-    unsigned int _filteredCoefficientsPixelBufferPoolSize;
-    unsigned long long _filterType;
-    int _maxLossyCompressionLevel;
-    _Bool _applyDither;
 }
 
 + (void)ovieFileSinkNode _handleSpatialAggressorsSeenMarkerBuffer:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (int);
-- (int);
+- (int)JS;
 - (CDStruct_1b6d18a9);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (int);
 - (int);
-- (void);
+- (void)TSUProgressReporter;
 - (void);
 - (void);
 - (void);
@@ -52,7 +31,7 @@
 - (void)LÿJÿHÿ¥FÿªD	ÿ¯Bÿ²Aÿµ@ÿ!b+ÿ!b*ÿ!b*ÿ!b*ÿ!a*ÿ!a)ÿ!`)ÿ!`(ÿ'`(ÿ.`(ÿ4`'ÿ9`&ÿ?`%ÿE`$ÿL`#ÿS`"ÿZ`!ÿa`!ÿh^ÿn]ÿt[ÿ{ZÿXÿVÿTÿRÿPÿ¦Nÿ¬L
 ÿ±Jÿ´Iÿ¶Hÿ$k+ÿ$k+ÿ$k+ÿ$k+ÿ$j+ÿ%j*ÿ%j*ÿ%i*ÿ(i)ÿ/i)ÿ5i(ÿ:(id)arg1 i'ÿ@i'ÿFi&ÿMi$ÿSi#ÿZj"ÿbj!ÿkj!ÿqhÿwfÿ~dÿbÿ`ÿ^ÿ\ÿ¡Zÿ¨Xÿ®V
 ÿ²Tÿ¶Sÿ·Rÿ's,ÿ's,ÿ's+ÿ's+ÿ's+ÿ'r+ÿ'r*ÿ(q*ÿ)q*ÿ/q)ÿ5q)ÿ;q(ÿAq'ÿGq&ÿMr%ÿTr$ÿ[r#ÿbr"ÿkr!ÿsr"ÿzp ÿnÿlÿjÿhÿfÿ£dÿªaÿ°_ÿ´^ÿ·\ÿ¹[ÿ){,ÿ){+ÿ){+ÿ){+ÿ)z+ÿ)z+ÿ)z+ÿ*z*ÿ*y*ÿ/y)ÿ5y)ÿ;y(ÿAz'ÿGz'ÿNz%ÿTz$ÿ[z#ÿb{"ÿk{!ÿt{!ÿ|{"ÿyÿwÿtÿrÿpÿ¦nÿ­kÿ²iÿ¶hÿºfÿ»fÿ*+ÿ*+ÿ++ÿ++ÿ++ÿ++ÿ+*ÿ+*ÿ,*ÿ/)ÿ5)ÿ;(ÿA'ÿG&ÿN%ÿT$ÿ[#ÿc"ÿk!ÿt ÿ}!ÿ!ÿÿÿ}ÿ¢{ÿ©xÿ¯vÿµt	ÿ¹rÿ¼qÿ¾p;
-- (int)dSensorTemperatureAverage;
+- (int)infaredSensorTemperatureAverage;
 - (void)TÙÿÑ;
 
 // Remaining properties

@@ -10,37 +10,35 @@ __attribute__((visibility("hidden")))
 @interface NSMenuBarTrackingSession : NSMenuTrackingSession
 {
     id _localEventMonitor;
-    _Bool _didBeginTrackingOnPreviousMouseDown;
-    _Bool _expectFirstMouseUp;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)0:8Q16Q24d32@?40 /* Error: Ran out of types for this method. */;
+- (void)_bytesPerSecondLimit;
+- (_Bool)"NSUUID",R,C;
+- (_Bool)RROR:The path to the FS cached directory (%@) or the UUID (%@) is wrong. /* Error: Ran out of types for this method. */;
+- (void)attempting to connect to background transfer daemon;
+- (_Bool)sion <%{public}@> no connection to background transfer daemon, and will not try to reconnect;
+- (void);
+- (_Bool)stream;
+- (_Bool)NSString"8@"NSString"16^B24;
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)9;
+- (_Bool);
+- (_Bool)3;
+- (_Bool);
+- (_Bool)@;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool)Type:(id)arg1 forSaveOperation:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_saveToURL:(id)arg1 ofType:forSaveOperation:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)!;
 - (id)ÿx¾T·D;
 

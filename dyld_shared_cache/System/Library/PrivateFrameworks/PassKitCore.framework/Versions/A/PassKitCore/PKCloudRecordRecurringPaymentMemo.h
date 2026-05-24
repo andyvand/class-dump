@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (void);
+- (id)@9;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (long long)tInitiationType;
+- (long long)_remoteNetworkRequestInitiationType;
 - (void)nsaction Event;
 
 // Remaining properties

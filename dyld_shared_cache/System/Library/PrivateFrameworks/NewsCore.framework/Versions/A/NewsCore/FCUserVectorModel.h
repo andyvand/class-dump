@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)entKitConnector);
 - (id);
-- (id);
-- (id);
-- (void)on_bundle_id_mapping_additions;
+- (id)_dataValueForExtendedAttribute:(id)arg1;
+- (void)personalization_bundle_id_mapping_additions;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelStructurePath, NSArray, NSString;
+@class MLModelStructurePath, NSString;
 
 @interface MLModelStructureNeuralNetworkLayer
 {
     NSString *_name;
-    NSString *_type;
-    NSArray *_inputNames;
-    NSArray *_outputNames;
-    MLModelStructurePath *_path;
 }
 
 - (id);
@@ -24,11 +20,7 @@
 - (void)rotobuf wireformat as compiled format. One should not try to instantiate it. This is a bug in CoreML framework.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *inputNames; // @synthesize inputNames=_inputNames;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *outputNames; // @synthesize outputNames=_outputNames;
 @property(readonly, nonatomic) MLModelStructurePath *path; // @synthesize path=_path;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

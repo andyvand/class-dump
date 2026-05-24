@@ -7,15 +7,6 @@
 @interface NewsFeed.DebugFormatOverlayView
 {
     id selectionFrame;
-    id selectionContentFrame;
-    id metricSelectionFrame;
-    id contentOffset;
-    id contentFrame;
-    id contentTransformation;
-    id selectionView;
-    id metricSelectionView;
-    id rulerView;
-    id viewResultFrame;
 }
 
 - (id);

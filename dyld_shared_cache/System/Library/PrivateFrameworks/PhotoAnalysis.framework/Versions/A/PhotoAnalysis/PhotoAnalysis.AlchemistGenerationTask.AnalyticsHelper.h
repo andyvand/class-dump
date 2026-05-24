@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.AlchemistGenerationTask.AnalyticsHelper
 {
     id $defaultActor;
-    id analytics;
-    id totalDurationSignpost;
 }
 
 @end

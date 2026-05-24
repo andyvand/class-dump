@@ -12,26 +12,25 @@ __attribute__((visibility("hidden")))
 @interface NSPatternColor : NSColor
 {
     NSImage *_patternImage;
-    struct CGColor *_patternColor;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)9XURLCache23NSURLRequestCachePolicy_block_invoke_2;
+- (id)sistent-reference;
+- (id)set_preventsSystemHTTPProxyAuthentication:(id)arg1;
+- (id)t<OS_sec_protocol_metadata>"8@"NSObject<OS_sec_trust>"16@?<v@?B>24;
 - (id);
 - (struct CGColor *);
 - (void);
 - (id);
-- (Class);
-- (unsigned long long);
-- (long long);
-- (_Bool);
+- (Class)SiriIntentEventMetadataKey-eventType;
+- (unsigned long long)*>>="__value"{TRef<OpaqueIconRef *, TRetainReleasePolicy<IconRef>>="fRef"^{OpaqueIconRef}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 11UL, Blob, NSObject *, TString, TRef<const __CFString *>, TRef<const __CFNumber *>, TRef<const __CFData *>, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<11UL, Blob>="__value"{Blob="capacity"I"length"I"buffer"*}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 12UL, NSObject *, TString, TRef<const __CFString *>, TRef<const __CFNumber *>, TRef<const __CFData *>, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<12UL, NSObject *>="__value"@"NSObject"}"__tail"(__union<std::__variant_detail::_Trait::_Available, 13UL, TString, TRef<const __CFString *>, TRef<const __CFNumber *>, TRef<const __CFData *>, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<13UL, TString>="__value"{TString="fString"{TRef<const __CFString *, TRetainReleasePolicy<CFStringRef>>="fRef"^{__CFString}}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 14UL, TRef<const __CFString *>, TRef<const __CFNumber *>, TRef<const __CFData *>, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<14UL, TRef<const __CFString *>>="__value"{TRef<const __CFString *, TRetainReleasePolicy<CFStringRef>>="fRef"^{__CFString}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 15UL, TRef<const __CFNumber *>, TRef<const __CFData *>, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<15UL, TRef<const __CFNumber *>>="__value"{TRef<const __CFNumber *, TRetainReleasePolicy<CFNumberRef>>="fRef"^{__CFNumber}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 16UL, TRef<const __CFData *>, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<16UL, TRef<const __CFData *>>="__value"{TRef<const __CFData *, TRetainReleasePolicy<CFDataRef>>="fRef"^{__CFData}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 17UL, TRef<const __CFDictionary *>, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<17UL, TRef<const __CFDictionary *>>="__value"{TRef<const __CFDictionary *, TRetainReleasePolicy<CFDictionaryRef>>="fRef"^{__CFDictionary}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 18UL, TRef<const __CFURL *>, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<18UL, TRef<const __CFURL *>>="__value"{TRef<const __CFURL *, TRetainReleasePolicy<CFURLRef>>="fRef"^{__CFURL}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 19UL, TRef<const __CFArray *>, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<19UL, TRef<const __CFArray *>>="__value"{TRef<const __CFArray *, TRetainReleasePolicy<CFArrayRef>>="fRef"^{__CFArray}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 20UL, TRef<__CFFileSecurity *>, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<20UL, TRef<__CFFileSecurity *>>="__value"{TRef<__CFFileSecurity *, TRetainReleasePolicy<CFFileSecurityRef>>="fRef"^{__CFFileSecurity}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 21UL, TRef<TReferenceCounted *>, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<21UL, TRef<TReferenceCounted *>>="__value"{TRef<TReferenceCounted *, TRetainReleasePolicy<TReferenceCounted *>>="fRef"^{TReferenceCounted}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 22UL, NodeNotificationOptions, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<22UL, NodeNotificationOptions>="__value"I}"__tail"(__union<std::__variant_detail::_Trait::_Available, 23UL, Property, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<23UL, Property>="__value"I}"__tail"(__union<std::__variant_detail::_Trait::_Available, 24UL, NodeRequestOptions, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<24UL, NodeRequestOptions>="__value"I}"__tail"(__union<std::__variant_detail::_Trait::_Available, 25UL, NodeDSStoreStatus, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<25UL, NodeDSStoreStatus>="__value"I}"__tail"(__union<std::__variant_detail::_Trait::_Available, 26UL, DSBladeRunnerFlags>="__dummy"c"__head"{__alt<26UL, DSBladeRunnerFlags>="__value"I}"__tail"(__union<std::__variant_detail::_Trait::_Available, 27UL>=))))))))))))))))))))))))))))"__index"I}}}"fTask"{shared_ptr<TNodeTask>="__ptr_"^{TNodeTask}"__cntrl_"^{__shared_weak_count}}"fNotifier"{TRef<TDSNotifier *, TRetainReleasePolicy<TDSNotifier *>>="fRef"^{TDSNotifier}}} /* Error: Ran out of types for this method. */;
+- (long long)p;
+- (_Bool)K;
 - (void);
 - (id)0@ù
 × ;
-- (id)bledMaterial;
-- (struct CGColor *)uetoothTemplate;
+- (id)disabledMaterial;
+- (struct CGColor *)NSBluetoothTemplate;
 - (void);
 - (void)z_,ÕC;
 - (void)Ü:E /* Error: Ran out of types for this method. */;

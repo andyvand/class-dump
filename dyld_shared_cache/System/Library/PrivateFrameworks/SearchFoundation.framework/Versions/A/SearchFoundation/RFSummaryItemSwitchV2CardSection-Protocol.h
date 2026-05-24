@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class RFTextProperty;
 
 @protocol RFSummaryItemSwitchV2CardSection
+- (RFTextProperty *);
+- (void)";
+- (RFTextProperty *)_observedPageIndices;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) _Bool is_on;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFTextProperty *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

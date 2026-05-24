@@ -5,6 +5,7 @@
 //
 
 @protocol AVShadowCasting
+- (void)wbTreatmentId;
 
 // Remaining properties
 @property(nonatomic) _Bool drawsShadow;

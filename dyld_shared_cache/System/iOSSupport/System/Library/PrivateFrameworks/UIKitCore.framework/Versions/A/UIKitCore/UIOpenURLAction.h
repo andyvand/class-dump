@@ -11,8 +11,8 @@
     UISceneOpenURLOptions *_localOpenURLOptions;
 }
 
-- (id);
-- (id)inputViewObeysDOMFocus;
+- (id)setPayloadAllowCloudCalendar: /* Error: Ran out of types for this method. */;
+- (id)_inputViewObeysDOMFocus;
 - (void)ÖPÿ¼;
 
 // Remaining properties

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTDefaultsManager, RTManagedConfiguration;
+@class RTDefaultsManager;
 
 @interface RTWorkoutSchedulerMetrics
 {
     unsigned char _isDeviceEligible;
-    RTDefaultsManager *_defaultsManager;
-    RTManagedConfiguration *_managedConfiguration;
-    NSMutableDictionary *_metricsDictionary;
-    unsigned long long _memoryFootprintDeferredSchedulerDailyCount;
 }
 
 + (id);
@@ -34,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (id)t;
+- (id)BlueSkyDailyQualifiedPlaceInferencesSent;
 - (void)zing or Ready, current state, %{sensitive}@;
 - (id)ator,sessionID:(id)arg1 %@,%@,%@,starting initialization sequence;
 - (id)isfying:originalCandidate /* Error: Ran out of types for this method. */;
@@ -43,10 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) unsigned char isDeviceEligible; // @synthesize isDeviceEligible=_isDeviceEligible;
-@property(retain, nonatomic) RTManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
-@property(nonatomic) unsigned long long memoryFootprintDeferredSchedulerDailyCount; // @synthesize memoryFootprintDeferredSchedulerDailyCount=_memoryFootprintDeferredSchedulerDailyCount;
-@property(retain, nonatomic) NSMutableDictionary *metricsDictionary; // @synthesize metricsDictionary=_metricsDictionary;
 
 @end
 

@@ -11,12 +11,12 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (void *);
 - (id);
 - (Class);
 - (id);
-- (id);
+- (id)MPSRNNRecurrentMatrixState;
 
 @end
 

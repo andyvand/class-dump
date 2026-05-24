@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)Yؗ9C;
 - (id);
 - (id);
-- (id);
+- (id)H;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *causeCode;

@@ -10,13 +10,13 @@
 {
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)r;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)B;
 - (void);
 
 @end

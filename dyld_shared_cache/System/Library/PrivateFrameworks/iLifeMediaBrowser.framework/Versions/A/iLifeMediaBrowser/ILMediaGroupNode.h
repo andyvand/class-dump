@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILMediaGroup, NSImage, NSMutableArray, NSString;
+@class ILMediaGroup;
 
 @interface ILMediaGroupNode
 {
     ILMediaGroup *_mediaGroup;
-    NSMutableArray *_filteredChildNodes;
-    int _stateLock;
-    id _filterDelegate;
-    NSMutableArray *_filteredMediaObjects;
-    _Bool _filteredMediaObjectsLoaded;
-    NSString *_id;
-    NSString *_name;
-    NSImage *_icon;
-    _Bool _observing;
-    _Bool _isCreatingTree;
-    unsigned long long _browserType;
 }
 
 + (_Bool);
@@ -33,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,7 +31,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)8;
 - (long long);
 - (void);
 - (id);

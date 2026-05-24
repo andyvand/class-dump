@@ -5,5 +5,9 @@
 //
 
 @protocol MPCQueueControllerDelegate
+- (void)KitAuthenticationPlugin;
+- (void)thenticationPlugin.bundle/Contents/MacOS/CloudKitAuthenticationPlugin;
+- (void);
+- (void)__DATA_DIRTY;
 @end
 

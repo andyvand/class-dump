@@ -5,5 +5,7 @@
 //
 
 @protocol TUMomentsControllerXPCServer
+- (oneway void)qa;
+- (oneway void);
 @end
 

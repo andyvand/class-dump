@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (void);
+- (void)d. waitUntilTimestamp:%@ /* Error: Ran out of types for this method. */;
 - (struct _NSZone *);
 
 @end

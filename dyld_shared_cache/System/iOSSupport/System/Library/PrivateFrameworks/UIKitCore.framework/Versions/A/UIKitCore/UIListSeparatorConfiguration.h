@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIVisualEffect;
-
 @interface UIListSeparatorConfiguration
 {
     _Bool _ignoreTopSeparatorInsetsFromCell;
-    _Bool _ignoreBottomSeparatorInsetsFromCell;
-    long long _topSeparatorVisibility;
-    long long _bottomSeparatorVisibility;
-    UIColor *_color;
-    UIColor *_multipleSelectionColor;
-    UIVisualEffect *_visualEffect;
-    struct NSDirectionalEdgeInsets _topSeparatorInsets;
-    struct NSDirectionalEdgeInsets _bottomSeparatorInsets;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)p�;
 + (id);
 + (id);
 + (_Bool)Toolbar.%p;
 - (id);
 - (id);
 - (unsigned long long);
-- (id)thViewController: /* Error: Ran out of types for this method. */;
-- (_Bool)m:(id)arg1 isForPurpose: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)dexPath:(id)arg1;
-- (id)stureRecognizer;
+- (id)textView:willBeginFormattingWithViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)item:(id)arg1 isForPurpose: /* Error: Ran out of types for this method. */;
+- (void)controlTapCountWithCategory:(id)arg1 suffix: /* Error: Ran out of types for this method. */;
+- (void)_collectionView:(id)arg1 didFocusItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)_UIInertHoverGestureRecognizer;
 - (id)þÿ;
 - (void)nterfaceOrientation);
-- (void)urceSectionTransaction;
+- (void)NSDiffableDataSourceSectionTransaction;
 - (void)õþgÿ;
 - (id)°Rëÿ"tÉOg;
 - (void)ÌÿÀÖ(i;
@@ -65,15 +55,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_ignoreBottomSeparatorInsetsFromCell, setter=_setIgnoreBottomSeparatorInsetsFromCell:) _Bool _ignoreBottomSeparatorInsetsFromCell; // @synthesize _ignoreBottomSeparatorInsetsFromCell;
-@property(nonatomic, getter=_ignoreTopSeparatorInsetsFromCell, setter=_setIgnoreTopSeparatorInsetsFromCell:) _Bool _ignoreTopSeparatorInsetsFromCell; // @synthesize _ignoreTopSeparatorInsetsFromCell;
-@property(copy, nonatomic, getter=_visualEffect, setter=_setVisualEffect:) UIVisualEffect *_visualEffect;
-@property(nonatomic) struct NSDirectionalEdgeInsets bottomSeparatorInsets; // @synthesize bottomSeparatorInsets=_bottomSeparatorInsets;
-@property(nonatomic) long long bottomSeparatorVisibility; // @synthesize bottomSeparatorVisibility=_bottomSeparatorVisibility;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) UIColor *multipleSelectionColor; // @synthesize multipleSelectionColor=_multipleSelectionColor;
-@property(nonatomic) struct NSDirectionalEdgeInsets topSeparatorInsets; // @synthesize topSeparatorInsets=_topSeparatorInsets;
-@property(nonatomic) long long topSeparatorVisibility; // @synthesize topSeparatorVisibility=_topSeparatorVisibility;
-@property(copy, nonatomic) UIVisualEffect *visualEffect; // @synthesize visualEffect=_visualEffect;
 
 @end
 

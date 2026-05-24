@@ -12,20 +12,19 @@ __attribute__((visibility("hidden")))
 @interface ITMediaPlaylist : ITMediaCollection
 {
     struct vector<unsigned long long, std::allocator<unsigned long long>> _persistentIDList;
-    ITLibPlaylist *_itLibPlaylist;
 }
 
-+ (unsigned long long);
++ (unsigned long long)eletion, returning early;
 - (id);
-- (id);
-- (id);
+- (id)options;
+- (id)integer;
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)ܲ;
+- (unsigned long long);
 - (void)ð!¬EùQ?ð1Â0@ù
 × ;
-- (void)x: /* Error: Ran out of types for this method. */;
+- (void)sectionAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ITLibPlaylist *itLibPlaylist; // @synthesize itLibPlaylist=_itLibPlaylist;

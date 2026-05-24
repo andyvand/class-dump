@@ -5,11 +5,9 @@
 //
 
 @protocol _INPBVoiceCommandDeviceInformation
+- (void)T;
 
 // Remaining properties
 @property(nonatomic) int deviceIdiom;
-@property(nonatomic) _Bool hasDeviceIdiom;
-@property(nonatomic) _Bool hasIsHomePodInUltimateMode;
-@property(nonatomic) _Bool isHomePodInUltimateMode;
 @end
 

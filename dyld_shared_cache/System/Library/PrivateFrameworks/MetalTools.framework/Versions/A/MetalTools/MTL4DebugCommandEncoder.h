@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4DebugCommandBuffer, MTLToolsDevice;
-
 @interface MTL4DebugCommandEncoder
 {
     id _baseObject;
-    MTLToolsDevice *_device;
-    MTL4DebugCommandBuffer *_commandBuffer;
-    unsigned long long _afterEncoderStageMaskForBarriers;
-    unsigned long long _afterEncoderStageMaskForFences;
-    unsigned long long _beforeEncoderStageMask;
-    struct MTL4DebugCommandEncoderState _encoderState;
 }
 
 - (void);
@@ -31,13 +23,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool canEndEncoding;
-@property(readonly, nonatomic) _Bool hasEndEncoding;
 
 @end
 

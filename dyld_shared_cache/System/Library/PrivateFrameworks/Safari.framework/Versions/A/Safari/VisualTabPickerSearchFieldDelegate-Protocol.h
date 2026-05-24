@@ -5,5 +5,6 @@
 //
 
 @protocol VisualTabPickerSearchFieldDelegate
+- (void);
 @end
 

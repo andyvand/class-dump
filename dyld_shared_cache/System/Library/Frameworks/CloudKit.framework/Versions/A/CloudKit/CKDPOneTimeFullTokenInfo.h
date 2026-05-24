@@ -9,11 +9,6 @@
 @interface CKDPOneTimeFullTokenInfo
 {
     NSData *_sharingKeyBytes;
-    NSData *_sharingKeySeed;
-    int _sharingKeyType;
-    struct {
-        unsigned int sharingKeyType:1;
-    } _has;
 }
 
 - (int);
@@ -29,7 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)sequenceValue;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,11 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSharingKeyBytes;
-@property(readonly, nonatomic) _Bool hasSharingKeySeed;
-@property(nonatomic) _Bool hasSharingKeyType;
-@property(retain, nonatomic) NSData *sharingKeyBytes; // @synthesize sharingKeyBytes=_sharingKeyBytes;
-@property(retain, nonatomic) NSData *sharingKeySeed; // @synthesize sharingKeySeed=_sharingKeySeed;
-@property(nonatomic) int sharingKeyType; // @synthesize sharingKeyType=_sharingKeyType;
 
 @end
 

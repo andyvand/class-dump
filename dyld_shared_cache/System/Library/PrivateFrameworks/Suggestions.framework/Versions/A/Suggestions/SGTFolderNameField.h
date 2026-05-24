@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SGTFolderNameField
 {
     _Bool _autocompleteInProgress;
-    _Bool _suggestionsInitStarted;
-    _Bool _selectionIsCompletion;
-    NSString *_lastActualText;
-    NSString *_lastCompletedText;
-    NSArray *_suggestions;
-    NSObject<OS_dispatch_queue> *_cacheAccessQueue;
 }
 
 - (void);
 - (void);
 - (id);
+- (id)?#;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)V_contentPDFDocument;
 - (void);
 
 // Remaining properties
 @property(copy) NSString *lastActualText; // @synthesize lastActualText=_lastActualText;
-@property(copy) NSString *lastCompletedText; // @synthesize lastCompletedText=_lastCompletedText;
-@property(copy) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end
 

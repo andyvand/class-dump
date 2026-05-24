@@ -4,52 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSObject, NSString, NSUUID, NSXPCConnection, RPConnection, RPEndpoint;
-@protocol OS_dispatch_queue;
+@class RPConnection;
 
 @interface RPSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    unsigned int _pairSetupFlags;
-    unsigned int _pairVerifyFlags;
-    int _passwordType;
-    int _passwordTypeActual;
-    NSArray *_allowedMACAddresses;
-    NSArray *_pairSetupACL;
-    NSString *_password;
-    CDUnknownBlockType _authCompletionHandler;
-    CDUnknownBlockType _showPasswordHandler;
-    CDUnknownBlockType _hidePasswordHandler;
-    CDUnknownBlockType _promptForPasswordHandler;
-    NSData *_pairingInfo;
-    unsigned long long _controlFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    RPEndpoint *_peerEndpoint;
-    NSString *_serviceType;
-    RPConnection *_cnx;
-    NSUUID *_localIdentifier;
-    NSString *_peerID;
-    unsigned long long _sessionID;
-    unsigned long long _startTicks;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ntentData",&,N,V_privateAddMediaIntentData;
+- (void)INDateComponentsRange;
+- (void)ileIntentResponse initWithCode:(id)arg1 userActivity:] /* Error: Ran out of types for this method. */;
+- (id)INRequestPaymentIntentResponseCodeFailureRequiringAppLaunch;
+- (void)INIntentPhrasePronunciationHintID;
+- (void)StickerDescription;
 - (unsigned long long);
 - (void);
 - (void);
@@ -64,19 +35,19 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)dding to and removing from keypath:(id)arg1 %@;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ord alignment failed for reference lattice. Aborting error-blaming.;
+- (void)ansition-model has ;
+- (id)_H_5 a_5_n;
 - (CDUnknownBlockType);
-- (id);
+- (id)ltipleFromJsonResultsPath:]E3$_0 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -92,7 +63,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long)3;
 - (unsigned long long);
 - (id);
 - (void);
@@ -101,41 +72,18 @@
 - (void);
 - (void);
 - (unsigned int);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void):(id)arg1;
+- (void)_invalidateCore:(id)arg1;
 - (id)OQ»R@;
 - (id)ýÿ¯MÀP;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowedMACAddresses; // @synthesize allowedMACAddresses=_allowedMACAddresses;
-@property(copy, nonatomic) CDUnknownBlockType authCompletionHandler; // @synthesize authCompletionHandler=_authCompletionHandler;
 @property(retain, nonatomic) RPConnection *cnx; // @synthesize cnx=_cnx;
-@property(nonatomic) unsigned long long controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType hidePasswordHandler; // @synthesize hidePasswordHandler=_hidePasswordHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSUUID *localIdentifier; // @synthesize localIdentifier=_localIdentifier;
-@property(retain, nonatomic) NSArray *pairSetupACL; // @synthesize pairSetupACL=_pairSetupACL;
-@property(nonatomic) unsigned int pairSetupFlags; // @synthesize pairSetupFlags=_pairSetupFlags;
-@property(nonatomic) unsigned int pairVerifyFlags; // @synthesize pairVerifyFlags=_pairVerifyFlags;
-@property(copy, nonatomic) NSData *pairingInfo; // @synthesize pairingInfo=_pairingInfo;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) int passwordType; // @synthesize passwordType=_passwordType;
-@property(readonly, nonatomic) int passwordTypeActual; // @synthesize passwordTypeActual=_passwordTypeActual;
-@property(retain, nonatomic) RPEndpoint *peerEndpoint; // @synthesize peerEndpoint=_peerEndpoint;
-@property(copy, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(copy, nonatomic) CDUnknownBlockType promptForPasswordHandler; // @synthesize promptForPasswordHandler=_promptForPasswordHandler;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) unsigned long long sessionID; // @synthesize sessionID=_sessionID;
-@property(copy, nonatomic) CDUnknownBlockType showPasswordHandler; // @synthesize showPasswordHandler=_showPasswordHandler;
-@property(nonatomic) unsigned long long startTicks; // @synthesize startTicks=_startTicks;
 
 @end
 

@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
-
 @interface _CSEmbedding
 {
     unsigned short _version;
-    int _format;
-    int _dimension;
-    NSArray *_vectors;
-    NSDictionary *_properties;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (unsigned short);
 - (void);
-- (int);
+- (int)(;
 - (id);
 - (void);
-- (int)D;
+- (int)kMDItemAppStoreAdamID;
 
 // Remaining properties
-@property(readonly, nonatomic) int dimension; // @synthesize dimension=_dimension;
-@property(readonly, nonatomic) NSData *encodedData;
 @property(readonly, nonatomic) int format; // @synthesize format=_format;
-@property(retain, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) NSArray *vectors; // @synthesize vectors=_vectors;
-@property(readonly, nonatomic) unsigned short version; // @synthesize version=_version;
 
 @end
 

@@ -11,10 +11,6 @@ __attribute__((visibility("hidden")))
 @interface AVMediaDataRequester
 {
     id <AVMediaDataRequesterConsumer> _mediaDataConsumer;
-    NSObject<OS_dispatch_queue> *_requestQueue;
-    CDUnknownBlockType _requestBlock;
-    struct OpaqueFigSimpleMutex *_invalidateMutex;
-    _Bool _invalidatePending;
 }
 
 - (void);
@@ -29,7 +25,6 @@ __attribute__((visibility("hidden")))
 - (id)mps: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType requestBlock; // @synthesize requestBlock=_requestBlock;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *requestQueue; // @synthesize requestQueue=_requestQueue;
 
 @end

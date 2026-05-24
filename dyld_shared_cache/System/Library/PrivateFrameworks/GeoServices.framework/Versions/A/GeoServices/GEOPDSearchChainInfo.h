@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchBrandDensity, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchChainInfo
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _relationshipTypes;
-    GEOPDSearchBrandDensity *_brandDensity;
-    NSString *_brandDisplayName;
-    unsigned long long _muid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_relationshipTypes:1;
-        unsigned int read_brandDensity:1;
-        unsigned int read_brandDisplayName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)audioSessionInfoProvider:didReceiveAudioSessionRouteChangeNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)includeSummaryForPredictedDestination"b1"has_includeTravelTimeAggressive"b1"has_includeTravelTimeConservative"b1"has_includeTravelTimeEstimate"b1"has_supportsArMode"b1};
-- (id)ntextMetadataType;
+- (id)_placeContextMetadataType;
 - (id)xÔxdyøyÈz{$|¸|}Ô}p~¸~Ôp;
 - (void);
 

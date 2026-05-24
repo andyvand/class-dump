@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXNewMagazineRectArray;
-
 @interface PXNewMagazineChunk
 {
     long long _startIndexOfInputs;
-    long long _startY;
-    unsigned long long _numOfRects;
-    PXNewMagazineRectArray *_rectsArray;
-    unsigned long long _height;
 }
 
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (unsigned long long);
@@ -24,11 +18,7 @@
 - (void)á¶¼êCÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long height; // @synthesize height=_height;
-@property(readonly, nonatomic) unsigned long long numOfRects; // @synthesize numOfRects=_numOfRects;
-@property(readonly, nonatomic) PXNewMagazineRectArray *rectsArray; // @synthesize rectsArray=_rectsArray;
 @property(readonly, nonatomic) long long startIndexOfInputs; // @synthesize startIndexOfInputs=_startIndexOfInputs;
-@property(readonly, nonatomic) long long startY; // @synthesize startY=_startY;
 
 @end
 

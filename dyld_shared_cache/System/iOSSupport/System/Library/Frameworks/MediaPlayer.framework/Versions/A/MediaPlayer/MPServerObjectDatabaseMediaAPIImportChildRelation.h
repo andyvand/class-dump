@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPIdentifierSet, NSString;
+@class MPIdentifierSet;
 
 __attribute__((visibility("hidden")))
 @interface MPServerObjectDatabaseMediaAPIImportChildRelation
 {
     MPIdentifierSet *_identifiers;
-    NSString *_type;
-    MPIdentifierSet *_parentIdentifiers;
-    NSString *_childKey;
-    long long _relativeOrder;
 }
 
 - (void);
@@ -25,15 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)delRelationshipTVEpisodePlaybackPosition__MAPPING_MISSING__;
-- (id)ongPopularity;
+- (void)__MPModelRelationshipTVEpisodePlaybackPosition__MAPPING_MISSING__;
+- (id)MPModelPropertyAlbumSongPopularity;
 
 // Remaining properties
-@property(nonatomic) NSString *childKey; // @synthesize childKey=_childKey;
 @property(copy, nonatomic) MPIdentifierSet *identifiers; // @synthesize identifiers=_identifiers;
-@property(copy, nonatomic) MPIdentifierSet *parentIdentifiers; // @synthesize parentIdentifiers=_parentIdentifiers;
-@property(nonatomic) long long relativeOrder; // @synthesize relativeOrder=_relativeOrder;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -15,7 +15,22 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)U;
 - (void);
-- (void);
+- (void)eAB(vec4 var_I_A, vec4 var_I_B, vec4 cov_Ip, vec4 meanIP, float eps) {
+  var_I_A.x += eps;
+  var_I_B.xz += eps;
+  vec2 r1r2 = var_I_A.yz / var_I_A.xx;
+  var_I_B.xyz -= r1r2.xxy * var_I_A.yzz;
+  cov_Ip.yz -= r1r2 * cov_Ip.xx;
+  r1r2.x = var_I_B.y / var_I_B.x;
+  var_I_B.z -= r1r2.x * var_I_B.y;
+  cov_Ip.z -= r1r2.x * cov_Ip.y;
+  cov_Ip.z /= var_I_B.z;
+  cov_Ip.y = (cov_Ip.y - (var_I_B.y * cov_Ip.z)) / var_I_B.x;
+  cov_Ip.x = ((cov_Ip.x - (var_I_A.y * cov_Ip.y)) - (var_I_A.z * cov_Ip.z)) / var_I_A.x;
+  cov_Ip.w = meanIP.w - dot(cov_Ip.xyz, meanIP.xyz);
+  return cov_Ip;
+}
+;
 - (id);
 - (unsigned long long);
 - (unsigned long long);

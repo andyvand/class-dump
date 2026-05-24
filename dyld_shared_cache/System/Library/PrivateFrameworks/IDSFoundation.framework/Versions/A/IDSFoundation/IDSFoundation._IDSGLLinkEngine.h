@@ -7,16 +7,6 @@
 @interface IDSFoundation._IDSGLLinkEngine
 {
     id linkEngine;
-    id allocateType;
-    id relayLinkProvider;
-    id linkConnector;
-    id sorter;
-    id qualityReportPlugin;
-    id disableMultiStackPlugin;
-    id state;
-    id connectionStrategy;
-    id allocateBlock;
-    id isInitiator;
 }
 
 @end

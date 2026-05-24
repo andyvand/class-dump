@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORevealedPlaceCardModuleTypeShowcase
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_buttons;
-    NSString *_showcaseId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_buttons:1;
-        unsigned int read_showcaseId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)ation:(id)arg1;
++ (Class);
++ (_Bool)setManifestConfiguration:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,28 +24,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)XPC_ERROR_CONNECTION_INTERRUPTED;
 - (id);
+- (void)_copyPsdDataInBuffer:(id)arg1 copyLength:fromAudioData: /* Error: Ran out of types for this method. */;
+- (_Bool), default to inactive;
+- (id)Z;
+- (unsigned long long);
+- (_Bool)matrix.
+;
 - (void);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)4b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
 - (id)fetchTile:result: /* Error: Ran out of types for this method. */;
 - (id)_GEOTileLoaderObserverWrapper;
-- (id)menity_ribbon_item;
+- (id)amenity_ribbon_item;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buttons;
 @property(readonly, nonatomic) _Bool hasShowcaseId;
-@property(retain, nonatomic) NSString *showcaseId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
+@class NSImage, NSString;
 
 @protocol TabBarViewItem
-- (_Bool)rackedViewsAtRepresentedObjectsIndex: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void)thumbnailExistsAtLocalPath;
+- (NSImage *)a model for key:%s. Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)insertView:inTrackedViewsAtRepresentedObjectsIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accessoryViews;
-@property(readonly, nonatomic) NSImage *image;
-@property(readonly, copy, nonatomic) NSString *label;
 @property(nonatomic, getter=isPinned) _Bool pinned;
-@property(nonatomic) _Bool showIcon;
-@property(readonly, copy, nonatomic) NSString *toolTip;
 @end
 

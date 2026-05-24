@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol _NSParagraphStyleMarkdownSettings
 
+@optional
+- (NSArray *);
+- (long long);
+
 // Remaining properties
-@property(readonly) long long _listIntentOrdinal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
 @property(readonly, copy) NSArray *_presentationIntents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(readonly, copy) NSString *codeBlockIntentLanguageHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) long long headerLevel;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) long long listIntentOrdinal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly, copy) NSArray *presentationIntents;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C
 

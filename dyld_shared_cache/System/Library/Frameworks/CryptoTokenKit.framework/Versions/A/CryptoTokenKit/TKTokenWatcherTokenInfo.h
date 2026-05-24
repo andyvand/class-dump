@@ -9,20 +9,16 @@
 @interface TKTokenWatcherTokenInfo
 {
     NSString *_tokenID;
-    NSString *_slotName;
-    NSString *_driverName;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ting to %{public}@, flags:%x, uid:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *driverName; // @synthesize driverName=_driverName;
-@property(readonly, nonatomic) NSString *slotName; // @synthesize slotName=_slotName;
 @property(readonly, nonatomic) NSString *tokenID; // @synthesize tokenID=_tokenID;
 
 @end

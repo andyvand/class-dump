@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (void);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (_Bool);
++ (_Bool)_nscfBridgeURLCacheCopyResponseForRequest:(id)arg1;
++ (void)_initWithLoadingConnection:request:response:delegate:proxy: /* Error: Ran out of types for this method. */;
++ (void)_explicitlySetTimeoutInterval;
++ (_Bool)FO:(long long)arg1 fetch-response is unable to open the file %s. Errno:(long long)arg2 %{errno}d;
++ (_Bool)ng back to the temp folder:(id)arg1 %@;
++ (void)ieStorageAcceptPolicyAlways here;
++ (_Bool);
 + (void);
 + (void);
 + (void);
 + (void);
 + (id);
 + (id);
-+ (_Bool);
-+ (void);
++ (_Bool)r)) == _dataBufferSize;
++ (void)kConditionalConnectionRequirementPowerPluggedIn;
 + (void);
 + (Class)aì/°!¤Aùá3°1Â0@ù
 × ;
@@ -48,29 +48,29 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (void)HDQGasGaugeControl;
+- (void)o query Mesa provisioning state:(_Bool)arg1 %s;
+- (_Bool);
+- (void);
+- (void)ed to decode public key:%d /* Error: Ran out of types for this method. */;
+- (void)stalt/IORegistryUtilities/MGIOKitHelper.m;
+- (void)MliLomP737aAOJ/w/evA;
+- (void)82Ono2SP03rNGkhOc5O1Mw;
+- (void)AklmqJyJMChzHsYT0aiBbw;
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -86,17 +86,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ts;
+- (void)layoutSegments;
 - (void)ouch bar (%@). %@;
 
 // Remaining properties
-@property _Bool allowsCursorRectsWhenInactive;
-@property(readonly) _Bool areCursorRectsEnabled;
-@property(readonly) _Bool hasValidCursorRects;
-@property(readonly) _Bool shouldShowCursorRects;
-@property(readonly) _Bool shouldUpdateTrackingAreasDuringScrolling;
 @property(readonly) Class viewHelperClass;
-@property __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface CALNNotificationIdentifierComponents
 {
     NSString *_sourceIdentifier;
-    NSString *_sourceClientIdentifier;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *sourceClientIdentifier; // @synthesize sourceClientIdentifier=_sourceClientIdentifier;
 @property(readonly, copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 
 @end

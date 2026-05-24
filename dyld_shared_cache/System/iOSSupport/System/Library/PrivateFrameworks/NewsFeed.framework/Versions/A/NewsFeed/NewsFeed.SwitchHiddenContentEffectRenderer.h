@@ -7,9 +7,6 @@
 @interface NewsFeed.SwitchHiddenContentEffectRenderer
 {
     id blockedRenderer;
-    id removedRenderer;
-    id featureAvailability;
-    id unavailableItemAlpha;
 }
 
 @end

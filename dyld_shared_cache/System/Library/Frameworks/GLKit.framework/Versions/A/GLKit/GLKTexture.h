@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface GLKTexture
 {
     struct CGImageBlockSet *_blockSet;
-    struct __CFData *_cfData;
-    int _unpackAlignment;
-    _Bool _requestIssuedForAlphaPremultiplication;
-    _Bool _requestIssuedToReorientToGL;
-    _Bool _requestIssuedForSRGB;
-    unsigned int _primarySurfaceLength;
-    _Bool _requestIssuedForMipmapGeneration;
-    _Bool _hasPremultipliedAlpha;
-    _Bool _isPowerOfTwo;
-    _Bool _isCubeMap;
-    _Bool _isMipmapped;
-    _Bool _isVerticalFlipped;
-    _Bool _hasAlpha;
-    _Bool _reOrient;
-    unsigned int _GLTextureName;
-    unsigned int _bindTarget;
-    unsigned int _textureTarget;
-    unsigned int _internalFormat;
-    unsigned int _format;
-    unsigned int _type;
-    int _texelFormat;
-    unsigned int _width;
-    unsigned int _height;
-    unsigned int _orientation;
-    unsigned int _numMipMapLevels;
-    unsigned int _bitsPerPixel;
-    unsigned int _rowBytes;
-    unsigned int _nComponents;
-    unsigned int _nPrimarySurfaces;
-    unsigned int _nSurfaces;
-    int _loadMode;
-    int _dataCategory;
-    unsigned int _index;
-    NSData *_imageData;
-    NSString *_label;
 }
 
 - (_Bool);
@@ -57,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -71,26 +36,26 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (_Bool);
+- (_Bool);
+- (int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void *);
 - (_Bool);
@@ -101,59 +66,31 @@
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)remainingFamilySpots;
 - (void);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (void);
 - (unsigned int);
-- (void);
+- (void)itterMode;
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void)lor material enabled;
 
 // Remaining properties
-@property(nonatomic) unsigned int GLTextureName; // @synthesize GLTextureName=_GLTextureName;
-@property(nonatomic) unsigned int bindTarget; // @synthesize bindTarget=_bindTarget;
-@property(nonatomic) unsigned int bitsPerPixel; // @synthesize bitsPerPixel=_bitsPerPixel;
-@property(nonatomic) int dataCategory; // @synthesize dataCategory=_dataCategory;
-@property(nonatomic) unsigned int format; // @synthesize format=_format;
-@property(nonatomic) _Bool hasAlpha; // @synthesize hasAlpha=_hasAlpha;
-@property(readonly) _Bool hasPremultipliedAlpha; // @synthesize hasPremultipliedAlpha=_hasPremultipliedAlpha;
-@property(nonatomic) unsigned int height; // @synthesize height=_height;
 @property(readonly) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(nonatomic) unsigned int internalFormat; // @synthesize internalFormat=_internalFormat;
-@property(nonatomic) _Bool isCubeMap; // @synthesize isCubeMap=_isCubeMap;
-@property(nonatomic) _Bool isMipmapped; // @synthesize isMipmapped=_isMipmapped;
-@property(nonatomic) _Bool isPowerOfTwo; // @synthesize isPowerOfTwo=_isPowerOfTwo;
-@property(nonatomic) _Bool isVerticalFlipped; // @synthesize isVerticalFlipped=_isVerticalFlipped;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) int loadMode; // @synthesize loadMode=_loadMode;
-@property(nonatomic) unsigned int nComponents; // @synthesize nComponents=_nComponents;
-@property(nonatomic) unsigned int nPrimarySurfaces; // @synthesize nPrimarySurfaces=_nPrimarySurfaces;
-@property(nonatomic) unsigned int nSurfaces; // @synthesize nSurfaces=_nSurfaces;
-@property(nonatomic) unsigned int numMipMapLevels; // @synthesize numMipMapLevels=_numMipMapLevels;
-@property(nonatomic) unsigned int orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) _Bool reOrient; // @synthesize reOrient=_reOrient;
-@property(readonly) _Bool requestIssuedForMipmapGeneration; // @synthesize requestIssuedForMipmapGeneration=_requestIssuedForMipmapGeneration;
-@property(nonatomic) unsigned int rowBytes; // @synthesize rowBytes=_rowBytes;
-@property(nonatomic) int texelFormat; // @synthesize texelFormat=_texelFormat;
-@property(nonatomic) unsigned int textureTarget; // @synthesize textureTarget=_textureTarget;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

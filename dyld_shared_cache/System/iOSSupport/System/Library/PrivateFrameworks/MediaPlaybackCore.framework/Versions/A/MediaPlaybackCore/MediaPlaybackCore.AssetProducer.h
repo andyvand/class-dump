@@ -7,9 +7,6 @@
 @interface MediaPlaybackCore.AssetProducer
 {
     id dataSource;
-    id reporter;
-    id batchNumber;
-    id tasks;
 }
 
 @end

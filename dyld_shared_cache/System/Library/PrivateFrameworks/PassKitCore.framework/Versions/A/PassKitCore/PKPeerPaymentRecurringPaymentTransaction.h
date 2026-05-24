@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPeerPaymentRecurringPaymentTransaction
 {
     NSString *_identifier;
-    unsigned long long _status;
-    NSDate *_executionDate;
-    long long _errorCode;
 }
 
 + (id);
@@ -19,26 +16,23 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)i;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)TxBytes"b1"hidAssocMinutes"b1"scoAssocMinutes"b1"statsCollectionMinutes"b1"wifiA2dpRxBytes"b1"wifiA2dpTxBytes"b1"wifiAssocMinutes"b1"wifiHidRxBytes"b1"wifiHidTxBytes"b1"wifiRxBytes"b1"wifiScoRxBytes"b1"wifiScoTxBytes"b1"wifiTxBytes"b1};
+- (void)_fallbackTimerMsecs;
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id)itWithName:(id)arg1 dictionaries: /* Error: Ran out of types for this method. */;
+- (id)initWithName:(id)arg1 dictionaries: /* Error: Ran out of types for this method. */;
 - (void)asses.sqlite;
 - (void)PEER_PAYMENT_AMBIGUOUS_SENDER_ADDRESS_ERROR_DESCRIPTION_FORMAT;
 - (long long)rôÿ}iPj;
 
 // Remaining properties
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSDate *executionDate; // @synthesize executionDate=_executionDate;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end
 

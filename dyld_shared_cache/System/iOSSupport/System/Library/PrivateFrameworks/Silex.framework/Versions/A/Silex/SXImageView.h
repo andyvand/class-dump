@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, NSTimer, SXAnimatedImage, SXImageResource, UIActivityIndicatorView, UIImage, UILongPressGestureRecognizer, UIView;
-@protocol NSItemProviderWriting, SWReachabilityProvider, SXImageViewDelegate, SXResourceDataSourceProvider;
+@protocol SXResourceDataSourceProvider;
 
 @interface SXImageView
 {
     _Bool _shouldShowLoadingIndicator;
-    _Bool _scrubbingEnabled;
-    _Bool _isScrubbing;
-    _Bool _isDecorative;
-    _Bool _paused;
-    _Bool _autoPlayEnabled;
-    _Bool _shouldResume;
-    _Bool _shouldResumeAfterLoad;
-    SXImageResource *_imageResource;
-    id <SXImageViewDelegate> _delegate;
-    SXAnimatedImage *_animatedImage;
-    unsigned long long _frameIndex;
-    CDUnknownBlockType _frameChangeBlock;
-    id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
-    id <SWReachabilityProvider> _reachabilityProvider;
-    CDUnknownBlockType _preferredQualityImageRequestCancelHandler;
-    CDUnknownBlockType _highQualityImageRequestCancelHandler;
-    UIImage *_preferredQualityImage;
-    UIImage *_highQualityImage;
-    unsigned long long _preferredQualityInterest;
-    unsigned long long _highQualityInterest;
-    NSMapTable *_interestTable;
-    UIActivityIndicatorView *_activityIndicatorView;
-    unsigned long long _playCount;
-    NSTimer *_activeTimer;
-    unsigned long long _intendedFrameIndex;
-    UILongPressGestureRecognizer *_scrubGesture;
-    struct CGSize _preferredImageSize;
-    struct CGSize _preferredQualityLoadingImageSize;
-    struct CGPoint _previousPoint;
 }
 
 - (void);
@@ -69,7 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (unsigned long long);
 - (CDUnknownBlockType);
@@ -83,7 +53,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)4;
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -91,23 +61,23 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)=;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)p_compactChunksInRange: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -122,7 +92,7 @@
 - (struct CGSize);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)h%;
 - (_Bool);
 - (void);
 - (void);
@@ -134,62 +104,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (void)ÔÁÝ°!´Dùñî°1Â0@ù
 × ;
 - (void)GPoint=dd}{CGSize=dd}}40@0:8@"QLPreviewController"16@"<QLPreviewItem>"24^@32 /* Error: Ran out of types for this method. */;
 - (_Bool)wControllerDelegate>",W,N,V_delegate;
-- (void);
+- (void)_adType;
 - (void)tyleMatch"8@"SXDataTableStyleMatch"16;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *activeTimer; // @synthesize activeTimer=_activeTimer;
-@property(retain, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;
-@property(readonly, nonatomic) SXAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(nonatomic) _Bool autoPlayEnabled; // @synthesize autoPlayEnabled=_autoPlayEnabled;
-@property(readonly, nonatomic) _Bool containsAnimatedImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXImageViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *dragIdentifier;
-@property(readonly, nonatomic) id <NSItemProviderWriting> dragObject;
-@property(readonly, nonatomic) UIView *dragPreviewView;
-@property(copy, nonatomic) CDUnknownBlockType frameChangeBlock; // @synthesize frameChangeBlock=_frameChangeBlock;
-@property(nonatomic) unsigned long long frameIndex; // @synthesize frameIndex=_frameIndex;
-@property(readonly, nonatomic) _Bool hasInterest;
-@property(readonly, nonatomic) _Bool hasLoadedImage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIImage *highQualityImage; // @synthesize highQualityImage=_highQualityImage;
-@property(copy, nonatomic) CDUnknownBlockType highQualityImageRequestCancelHandler; // @synthesize highQualityImageRequestCancelHandler=_highQualityImageRequestCancelHandler;
-@property(nonatomic) unsigned long long highQualityInterest; // @synthesize highQualityInterest=_highQualityInterest;
-@property(readonly, nonatomic) SXImageResource *imageResource; // @synthesize imageResource=_imageResource;
-@property(nonatomic) unsigned long long intendedFrameIndex; // @synthesize intendedFrameIndex=_intendedFrameIndex;
-@property(retain, nonatomic) NSMapTable *interestTable; // @synthesize interestTable=_interestTable;
-@property(nonatomic) _Bool isDecorative; // @synthesize isDecorative=_isDecorative;
-@property(nonatomic) _Bool isScrubbing; // @synthesize isScrubbing=_isScrubbing;
-@property(nonatomic) long long loadingIndicatorStyle;
-@property(nonatomic) _Bool paused; // @synthesize paused=_paused;
-@property(nonatomic) unsigned long long playCount; // @synthesize playCount=_playCount;
-@property(nonatomic) struct CGSize preferredImageSize; // @synthesize preferredImageSize=_preferredImageSize;
-@property(nonatomic) __weak UIImage *preferredQualityImage; // @synthesize preferredQualityImage=_preferredQualityImage;
-@property(copy, nonatomic) CDUnknownBlockType preferredQualityImageRequestCancelHandler; // @synthesize preferredQualityImageRequestCancelHandler=_preferredQualityImageRequestCancelHandler;
-@property(nonatomic) unsigned long long preferredQualityInterest; // @synthesize preferredQualityInterest=_preferredQualityInterest;
-@property(nonatomic) struct CGSize preferredQualityLoadingImageSize; // @synthesize preferredQualityLoadingImageSize=_preferredQualityLoadingImageSize;
-@property(readonly, nonatomic) _Bool prefersHighQuality;
-@property(nonatomic) struct CGPoint previousPoint; // @synthesize previousPoint=_previousPoint;
-@property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
 @property(readonly, nonatomic) __weak id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
-@property(retain, nonatomic) UILongPressGestureRecognizer *scrubGesture; // @synthesize scrubGesture=_scrubGesture;
-@property(nonatomic) _Bool scrubbingEnabled; // @synthesize scrubbingEnabled=_scrubbingEnabled;
-@property(nonatomic) _Bool shouldResume; // @synthesize shouldResume=_shouldResume;
-@property(nonatomic) _Bool shouldResumeAfterLoad; // @synthesize shouldResumeAfterLoad=_shouldResumeAfterLoad;
-@property(nonatomic) _Bool shouldShowLoadingIndicator; // @synthesize shouldShowLoadingIndicator=_shouldShowLoadingIndicator;
-@property(readonly) Class superclass;
 
 @end
 

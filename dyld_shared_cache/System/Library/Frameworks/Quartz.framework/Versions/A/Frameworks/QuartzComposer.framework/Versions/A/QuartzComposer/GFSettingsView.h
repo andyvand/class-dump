@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFList, NSButtonCell, NSCell, NSPopUpButtonCell, NSTableView, NSTextFieldCell, NSView;
+@class NSView;
 
 @interface GFSettingsView
 {
     NSView *_insideView;
-    NSTableView *_tableView;
-    NSCell *_keyCell;
-    NSTextFieldCell *_stringCell;
-    NSTextFieldCell *_integerCell;
-    NSTextFieldCell *_floatingCell;
-    NSButtonCell *_booleanCell;
-    NSPopUpButtonCell *_menuCell;
-    GFList *_defaults;
-    id _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)id8;
 - (void);
 - (id);
 - (void);

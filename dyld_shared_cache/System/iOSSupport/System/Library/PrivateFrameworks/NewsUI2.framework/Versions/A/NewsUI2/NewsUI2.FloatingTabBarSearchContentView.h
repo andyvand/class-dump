@@ -7,7 +7,6 @@
 @interface NewsUI2.FloatingTabBarSearchContentView
 {
     id searchBar;
-    id searchContentConfiguration;
 }
 
 - (id);

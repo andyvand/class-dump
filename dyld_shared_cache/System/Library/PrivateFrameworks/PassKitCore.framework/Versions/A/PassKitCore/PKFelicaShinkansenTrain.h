@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSData;
 
 @interface PKFelicaShinkansenTrain
 {
     NSData *_originStation;
-    NSData *_destinationStation;
-    NSNumber *_departureTime;
-    NSNumber *_arrivalTime;
-    NSString *_trainName;
-    NSNumber *_carNumber;
-    NSNumber *_seatRow;
-    NSNumber *_seatNumber;
 }
 
 + (_Bool)0@ù
@@ -25,24 +18,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)portsCouponCode;
-- (void)g;
+- (void),+;
+- (id)_supportsCouponCode;
+- (void)isLoading;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *arrivalTime; // @synthesize arrivalTime=_arrivalTime;
-@property(readonly, copy, nonatomic) NSNumber *carNumber; // @synthesize carNumber=_carNumber;
-@property(readonly, copy, nonatomic) NSNumber *departureTime; // @synthesize departureTime=_departureTime;
-@property(readonly, copy, nonatomic) NSData *destinationStation; // @synthesize destinationStation=_destinationStation;
 @property(readonly, copy, nonatomic) NSData *originStation; // @synthesize originStation=_originStation;
-@property(readonly, copy, nonatomic) NSNumber *seatNumber; // @synthesize seatNumber=_seatNumber;
-@property(readonly, copy, nonatomic) NSNumber *seatRow; // @synthesize seatRow=_seatRow;
-@property(readonly, copy, nonatomic) NSString *trainName; // @synthesize trainName=_trainName;
 
 @end
 

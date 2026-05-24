@@ -4,62 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnectionOptions, NSMapTable, NSMutableArray;
-@protocol AMSSQLiteConnectionDelegate;
+@class AMSSQLiteConnectionOptions, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteConnection
 {
     NSMutableArray *_afterTransactionBlocks;
-    struct sqlite3 *_database;
-    id <AMSSQLiteConnectionDelegate> _delegate;
-    _Bool _didResetForCorruption;
-    NSMapTable *_preparedStatements;
-    long long _transactionDepth;
-    _Bool _transactionWantsRollback;
-    AMSSQLiteConnectionOptions *_options;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (_Bool)g`g;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)!;
+- (long long)B56@?60;
+- (id)supportsTelephony;
+- (_Bool)j;
+- (id);
 - (void);
-- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)startNowPlayingSessionABC;
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (void);
-- (_Bool);
-- (_Bool)yForAccount:(id)arg1 options:(id *)arg2 error: /* Error: Ran out of types for this method. */;
+- (_Bool)s;
+- (_Bool)copyPublicKeyForAccount:(id)arg1 options:(id *)arg2 error: /* Error: Ran out of types for this method. */;
 - (_Bool)agIdentifier = %{public}@;
-- (_Bool)ustedDomains;
+- (_Bool)schemesThatOverrideTrustedDomains;
 - (void)±Õ Ý±Õ !±Õ I±Õ z±Õ ï±Õ ±Õ ¹±Õ ±Õ à±Õ :±Õ ú±Õ ±Õ ý±Õ ±Õ »±Õ P±Õ [±Õ +±Õ ±Õ ò±Õ {±Õ É±Õ ð±Õ â±Õ ±Õ ±Õ ±Õ W±Õ ¬±Õ r±Õ ±±Õ 
 ±Õ ±Õ |±Õ Æ±Õ ?±Õ ·±Õ ±Õ A±Õ ±Õ þ±Õ ±Õ Á±Õ ë±Õ ±Õ  ±Õ .±Õ Ê±Õ Ò±Õ æ±Õ ±Õ "±Õ q±Õ û±Õ ±Õ î±Õ Ï±Õ å±Õ ±Õ  ±Õ e±Õ Ñ±Õ <±Õ ù±Õ ±Õ Þ±Õ B±Õ T±Õ ±Õ ²±Õ ±Õ }±Õ ÿ±Õ ±Õ ê±Õ ±Õ ª±Õ ±Õ ±Õ &±Õ ±Õ (±Õ X±Õ è±Õ %±Õ ×±Õ Ä±Õ ¶±Õ '±Õ ±Õ Ø±Õ µ±Õ E±Õ ¤±Õ ¿±Õ 2±Õ H±Õ ±Õ Ð±Õ ~±Õ £±Õ ó±Õ a±Õ @±Õ Y±Õ ±Õ l±Õ 8±Õ ¼±Õ ø±Õ À±Õ R±Õ i±Õ ±Õ Ö±Õ S±Õ N±Õ d±Õ C±Õ g±Õ ç±Õ ô±Õ ñ±Õ ±Õ /±Õ ¦±Õ ü±Õ $±Õ ß±Õ ±Õ ¡±Õ ]±Õ ã±Õ F±Õ ±Õ ±Õ n±Õ 0±Õ Ç±Õ ±Õ Î±Õ  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <AMSSQLiteConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long lastChangeCount;
 @property(readonly, copy, nonatomic) AMSSQLiteConnectionOptions *options; // @synthesize options=_options;
 
 @end

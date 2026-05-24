@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DialogElement
 {
     _Bool _printOnly;
-    _Bool _spokenOnly;
-    _Bool _spokenOnlyDefined;
-    _Bool _isApprovedForGrading;
-    NSString *_id;
-    NSString *_fullPrint;
-    NSString *_fullSpeak;
-    NSString *_supportingPrint;
-    NSString *_supportingSpeak;
-    NSString *_unfilteredFullPrint;
-    NSString *_unfilteredFullSpeak;
-    NSString *_unfilteredSupportingPrint;
-    NSString *_unfilteredSupportingSpeak;
-    NSString *_redactedFullPrint;
-    NSString *_redactedFullSpeak;
-    NSString *_redactedSupportingPrint;
-    NSString *_redactedSupportingSpeak;
-    NSString *_unfilteredRedactedFullPrint;
-    NSString *_unfilteredRedactedFullSpeak;
 }
 
 @end

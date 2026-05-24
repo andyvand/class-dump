@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAppLanguageModelLoadFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    unsigned long long _loadTimeInNs;
-    unsigned long long _foregroundCheckTimeInNs;
-    struct {
-        unsigned int reason:1;
-        unsigned int loadTimeInNs:1;
-        unsigned int foregroundCheckTimeInNs:1;
-    } _has;
 }
 
 - (void);
@@ -30,28 +21,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)hasIPConnection;
 - (int);
 - (_Bool);
-- (void);
+- (void)oFormatList_Finalize(CFTypeRef);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id)talTurnCount: /* Error: Ran out of types for this method. */;
+- (id)k;
+- (id)setTotalTurnCount: /* Error: Ran out of types for this method. */;
 - (id)èáÜâ;
 - (id)UK-UA;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long foregroundCheckTimeInNs; // @synthesize foregroundCheckTimeInNs=_foregroundCheckTimeInNs;
-@property(nonatomic) _Bool hasForegroundCheckTimeInNs;
-@property(nonatomic) _Bool hasLoadTimeInNs;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long loadTimeInNs; // @synthesize loadTimeInNs=_loadTimeInNs;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

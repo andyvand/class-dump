@@ -6,40 +6,9 @@
 
 #import <AppKit/NSActionCell.h>
 
-@class NSCalendar, NSColor, NSDate, NSLocale, NSTextFieldCell, NSTimeZone;
-@protocol NSDatePickerCellDelegate;
-
 @interface NSDatePickerCell : NSActionCell
 {
     double _timeInterval;
-    NSDate *_minDate;
-    NSDate *_maxDate;
-    struct __dateCellFlags {
-        unsigned int elements:16;
-        unsigned int controlStyle:3;
-        unsigned int controlMode:2;
-        unsigned int trackingHand:2;
-        unsigned int reserved2:4;
-        unsigned int drawsBackground:1;
-        unsigned int digitsEntered:2;
-        unsigned int forcesLeadingZeroes:1;
-        unsigned int wrapsDateComponentArithmetic:1;
-    } _dcFlags;
-    id <NSDatePickerCellDelegate> _delegate;
-    NSCalendar *_calendar;
-    NSLocale *_locale;
-    NSTimeZone *_timeZone;
-    NSColor *_backgroundColor;
-    NSColor *_textColor;
-    NSTextFieldCell *_textField;
-    _Bool _useCurrentDateDuringDecoding;
-    _Bool _force24Hr;
-    _Bool _mouseInside;
-    int _indexOfSelectedSubfield;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
-    id _reserved4;
 }
 
 + (id);
@@ -48,120 +17,147 @@
 + (id);
 + (id);
 + (void)èô¬H;
-- (_Bool);
+- (_Bool)ip;
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
+- (_Bool)set_allowsSensitiveLogging:(id)arg1;
+- (id)_multipathAlternatePort;
+- (unsigned long long)_completeUploadProgress;
+- (struct CGRect)currentCalendar;
 - (void);
+- (void);
+- (unsigned long long)<o;
+- (unsigned long long);
 - (_Bool);
+- (struct CGSize)st used in call to setAllowsAnyHTTPSCertificate:forHost: /* Error: Ran out of types for this method. */;
+- (id)Policy now;
 - (id);
-- (unsigned long long);
-- (struct CGRect);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (struct CGSize);
+- (struct CGSize)b;
+- (struct NSEdgeInsets)r;
+- (long long)mework/Versions/A/SymptomReporter;
+- (id)ry/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices;
+- (struct CGRect)_kCFNTimingDataFetchStart;
+- (id)_kCFNTimingDataInternalTransactionMetrics;
+- (double)_kCFNTimingDataNStatWiredTXPackets;
+- (unsigned long long)_kCFNTimingDataNStatConnectSuccesses;
+- (id)@
+(Secure Connection End) %@
+(Connect End) %@
+(Request Start) %@
+(Request End) %@
+(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (_Bool)SURLDownloadInternal dealloc];
+- (void)= %@, persistence = %d};
+- (double)urce %p>;
+- (id)RunloopBlockContext;
+- (id)ENDING %s;
+- (_Bool)e_CFWriteStream;
+- (void)expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
+- (void)protocolDidFinishLoading;
+- (void)stamp >= "%s";
+- (void)tConnection.cpp;
+- (void);
+- (void)web proxy server (HTTPS).;
+- (int)ted and will return %d;
+- (id)RLResponseGetTypeID is deprecated and will return %d;
+- (_Bool)workDiagnostics.notification;
+- (void)offset;
+- (void)responseBodySize;
+- (void)1.1;
+- (void)kCFCredentialStorageRemoveSynchronizableCredentials;
+- (void);
+- (void);
+- (id)@;
+- (struct _NSRange);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void)@;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (struct CGSize);
-- (struct NSEdgeInsets);
 - (long long);
-- (id);
-- (struct CGRect);
-- (id);
-- (double);
+- (long long);
+- (void);
 - (unsigned long long);
-- (id);
+- (unsigned long long)W;
 - (_Bool);
 - (void);
-- (double);
-- (id);
+- (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (int);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct _NSRange);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (long long);
+- (long long);
 - (struct CGSize);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (id);
@@ -169,57 +165,57 @@
 - (struct NSEdgeInsets);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
+- (_Bool)|@;
+- (void);
+- (void);
+- (void);
+- (_Bool)@;
+- (void)@;
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
 - (id);
 - (void);
+- (void)@;
+- (_Bool);
+- (_Bool)@;
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (struct CGSize)@;
+- (id);
+- (void)@;
 - (void);
+- (_Bool)?;
 - (void);
+- (void);
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange)@;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (struct NSEdgeInsets);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -229,24 +225,24 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ts;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)em.B.dylib;
 - (void);
 - (void)0@ù
 × ;
-- (void)Item:(id)arg1 atIndex:inSection:reload: /* Error: Ran out of types for this method. */;
-- (void)ntentIndicator;
-- (id)rentItem:(struct _NSZone *)arg1;
-- (id)eModificationDate;
+- (void)insertItem:(id)arg1 atIndex:inSection:reload: /* Error: Ran out of types for this method. */;
+- (void)_moreRightContentIndicator;
+- (id)_isExpandableRow:(struct _NSZone *)arg1 withParentItem: /* Error: Ran out of types for this method. */;
+- (id)_fileModificationDate;
 - (id);
 - (id)GetWindowTags returned %d. connection id = 0x%08x window id = 0x%08x;
 - (void)update bounds [0,%ld) for section %ld;
@@ -262,20 +258,6 @@
 
 // Remaining properties
 @property(setter=_setUseCurrentDateDuringDecoding:) _Bool _useCurrentDateDuringDecoding;
-@property(copy) NSColor *backgroundColor;
-@property(copy) NSCalendar *calendar;
-@property unsigned long long datePickerElements;
-@property unsigned long long datePickerMode;
-@property unsigned long long datePickerStyle;
-@property(copy) NSDate *dateValue;
-@property __weak id <NSDatePickerCellDelegate> delegate;
-@property _Bool drawsBackground;
-@property(copy) NSLocale *locale;
-@property(copy) NSDate *maxDate;
-@property(copy) NSDate *minDate;
-@property(copy) NSColor *textColor;
-@property double timeInterval;
-@property(copy) NSTimeZone *timeZone;
 
 @end
 

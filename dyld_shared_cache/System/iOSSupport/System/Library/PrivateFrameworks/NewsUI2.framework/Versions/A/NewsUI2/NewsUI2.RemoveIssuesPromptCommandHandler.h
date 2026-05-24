@@ -7,10 +7,6 @@
 @interface NewsUI2.RemoveIssuesPromptCommandHandler
 {
     id isiCloudPrivateDataSyncingEnabled;
-    id offlineIssueManager;
-    id sceneProvider;
-    id store;
-    id bundleSubscriptionManager;
 }
 
 @end

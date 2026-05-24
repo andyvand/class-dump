@@ -7,14 +7,11 @@
 @interface AppStoreKit.AppStoreOnDeviceRecommendationsManager
 {
     id amsEngagement;
-    id accountStore;
-    id activeStoreAccount;
-    id bag;
 }
 
 - (id);
 - (void)DíÒ	_pGz_Xx;
-- (id)Kit;
+- (id)AppStoreKit;
 
 @end
 

@@ -15,7 +15,7 @@
 + (id);
 + (_Bool)arIndex"i"size"I};
 - (id);
-- (_Bool);
+- (_Bool)U;
 - (void);
 - (CDStruct_4c969caf);
 - (id);

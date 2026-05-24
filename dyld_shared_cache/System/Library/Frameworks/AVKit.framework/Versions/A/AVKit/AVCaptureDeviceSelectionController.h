@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceDiscoverySession, AVCaptureDeviceInput, AVCaptureSession, NSMapTable, NSMutableSet, NSSet;
+@class AVCaptureSession, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceSelectionController
 {
     AVCaptureSession *_captureSession;
-    NSMutableSet *_ownedDeviceInputs;
-    NSMutableSet *_inUseDevices;
-    NSMutableSet *_disconnectedDeviceUniqueIDs;
-    AVCaptureDevice *_videoDevice;
-    AVCaptureDevice *_audioDevice;
-    AVCaptureDeviceInput *_videoInput;
-    AVCaptureDeviceInput *_audioInput;
-    NSMapTable *_videoDevicesWithErrors;
-    NSMapTable *_audioDevicesWithErrors;
-    NSSet *_availableVideoDevices;
-    NSSet *_availableAudioDevices;
-    AVCaptureDeviceDiscoverySession *_deviceDiscoverySession;
 }
 
 + (_Bool);
@@ -65,15 +53,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVCaptureDevice *audioDevice;
-@property(retain, nonatomic) AVCaptureDeviceInput *audioInput; // @synthesize audioInput=_audioInput;
-@property(copy, nonatomic) NSSet *availableAudioDevices; // @synthesize availableAudioDevices=_availableAudioDevices;
 @property(copy, nonatomic) NSSet *availableVideoDevices; // @synthesize availableVideoDevices=_availableVideoDevices;
-@property(readonly, nonatomic) AVCaptureSession *captureSession; // @synthesize captureSession=_captureSession;
-@property(retain, nonatomic) AVCaptureDeviceDiscoverySession *deviceDiscoverySession; // @synthesize deviceDiscoverySession=_deviceDiscoverySession;
-@property(readonly, nonatomic) _Bool hasDevicesWithErrors;
-@property(retain, nonatomic) AVCaptureDevice *videoDevice;
-@property(retain, nonatomic) AVCaptureDeviceInput *videoInput; // @synthesize videoInput=_videoInput;
 
 @end
 

@@ -12,19 +12,18 @@
 @interface WPHomeKit : WPClient
 {
     CBDiscovery *_homeKitCBDiscovery;
-    id <WPHomeKitDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)setChangeLocalPassswordTrailingAlignment: /* Error: Ran out of types for this method. */;
+- (unsigned char)setStatusDescription:(long long)arg1;
+- (unsigned long long)ErrorInvalidSerializedAccessToken;
 - (void);
-- (unsigned char);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (long long);
+- (_Bool)orientedBoundsFromLayoutElement:state: /* Error: Ran out of types for this method. */;
+- (long long)C;
 - (void);
 - (id);
 - (id);
@@ -33,11 +32,11 @@
 - (void);
 - (CDStruct_1ef3fb1f);
 - (void);
-- (CDStruct_9e3626a3);
+- (CDStruct_2ec95fd7);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)appleAnchorHrefs;
+- (_Bool);
 - (void);
 - (void);
 - (void);

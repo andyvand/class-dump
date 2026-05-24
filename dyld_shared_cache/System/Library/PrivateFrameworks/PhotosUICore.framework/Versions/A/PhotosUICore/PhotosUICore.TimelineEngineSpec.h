@@ -7,34 +7,6 @@
 @interface PhotosUICore.TimelineEngineSpec
 {
     id _enableDebugging;
-    id _cells;
-    id _transitionDuration;
-    id _transitionDelay;
-    id _undershootCycles;
-    id _overshootCycles;
-    id _transitionStartZ;
-    id _transitionEndZ;
-    id _loopDuration;
-    id _percentageVisible;
-    id _startZ;
-    id _endZ;
-    id _referenceScale;
-    id _screenDimension;
-    id _perturbation;
-    id _blurSpan;
-    id _opacitySpan;
-    id _keyAssetExtraScale;
-    id _keyAssetPhase;
-    id _cardWidth;
-    id _cardHeight;
-    id _introCardWidth;
-    id _introCardHeight;
-    id _introCardOrigin;
-    id _introScaleDuration;
-    id _outroCardWidth;
-    id _outroCardHeight;
-    id _outroCardOrigin;
-    id _$observationRegistrar;
 }
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFPlatformSchemaIFPlatformTargetFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    _Bool _hasCriticalError;
 }
 
 - (void);
@@ -24,8 +23,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)predicateForContactsMatchingPhoneNumber: /* Error: Ran out of types for this method. */;
 - (id)!TEùàÐ1Â0@ù
 × ;
 - (id)ValuesReported",&,N,V_serverExecutionValuesReported;
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

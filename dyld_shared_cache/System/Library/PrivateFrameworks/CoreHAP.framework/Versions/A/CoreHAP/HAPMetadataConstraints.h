@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface HAPMetadataConstraints
 {
     NSNumber *_minimumValue;
-    NSNumber *_maximumValue;
-    NSNumber *_stepValue;
-    NSNumber *_minLength;
-    NSNumber *_maxLength;
-    NSArray *_validValues;
 }
 
 + (_Bool);
@@ -24,14 +19,14 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)dler",&,N,V_onDeviceCompilationHandler;
+- (_Bool)d40Q48@56;
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id)@;
 - (void);
 - (void);
 - (void)2AccessoryServerDiscoveryDelegate>";
@@ -40,12 +35,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *maxLength; // @synthesize maxLength=_maxLength;
-@property(retain, nonatomic) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(retain, nonatomic) NSNumber *minLength; // @synthesize minLength=_minLength;
 @property(retain, nonatomic) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(retain, nonatomic) NSNumber *stepValue; // @synthesize stepValue=_stepValue;
-@property(copy, nonatomic) NSArray *validValues; // @synthesize validValues=_validValues;
 
 @end
 

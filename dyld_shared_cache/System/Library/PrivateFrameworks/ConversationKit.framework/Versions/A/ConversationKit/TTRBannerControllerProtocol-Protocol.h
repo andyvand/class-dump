@@ -7,6 +7,10 @@
 @protocol TTRBannerControllerDelegate;
 
 @protocol TTRBannerControllerProtocol
+- (void);
+- (void)Qr;
+- (void)Qr;
+- (void),;
 
 // Remaining properties
 @property(nonatomic) __weak id <TTRBannerControllerDelegate> delegate;

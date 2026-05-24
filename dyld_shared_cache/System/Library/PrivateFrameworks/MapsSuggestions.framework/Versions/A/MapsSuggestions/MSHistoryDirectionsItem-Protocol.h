@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStorageRouteRequestStorage, NSData;
-
 @protocol MSHistoryDirectionsItem
+- (_Bool)^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool navigationInterrupted;
-@property(readonly, nonatomic) GEOStorageRouteRequestStorage *routeRequestStorage;
-@property(readonly, nonatomic) NSData *sharedETAData;
 @end
 

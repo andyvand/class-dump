@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
 @protocol LSRegistrantStrategy;
 
 __attribute__((visibility("hidden")))
 @interface LSSystemExtensionPointRefreshRegistrant
 {
     id <LSRegistrantStrategy> _strategy;
-    NSUUID *_uuid;
 }
 
 - (id);

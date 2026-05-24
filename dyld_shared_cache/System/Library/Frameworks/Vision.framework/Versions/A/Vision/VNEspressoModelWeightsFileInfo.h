@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNEspressoModelWeightsFileInfo
 {
     _Bool _weightsFileExists;
-    _Bool _isRegularWeightsFile;
-    NSString *_weightsFilePath;
 }
 
 - (_Bool);
@@ -21,8 +19,6 @@ __attribute__((visibility("hidden")))
 - (void)del (%d) use RIGID;
 
 // Remaining properties
-@property(readonly) _Bool isRegularWeightsFile; // @synthesize isRegularWeightsFile=_isRegularWeightsFile;
-@property(readonly) _Bool weightsFileExists; // @synthesize weightsFileExists=_weightsFileExists;
 @property(readonly, nonatomic) NSString *weightsFilePath; // @synthesize weightsFilePath=_weightsFilePath;
 
 @end

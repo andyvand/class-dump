@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FCInterestToken, NSData;
+
 @protocol FCAssetKeyCacheType
+- (NSData *);
+- (FCInterestToken *)a@9?;
+- (void);
 @end
 

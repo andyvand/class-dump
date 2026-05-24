@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineSchedulerBlocker, CPLEngineWriteTransactionBlocker;
+@class CPLEngineWriteTransactionBlocker;
 
 @interface CPLEngineBlocker
 {
     _Bool _blocking;
-    CPLEngineWriteTransactionBlocker *_writeTransactionBlocker;
-    CPLEngineSchedulerBlocker *_schedulerBlocker;
 }
 
 - (id);
-- (id);
+- (id)y;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CPLEngineSchedulerBlocker *schedulerBlocker; // @synthesize schedulerBlocker=_schedulerBlocker;
 @property(readonly, nonatomic) CPLEngineWriteTransactionBlocker *writeTransactionBlocker; // @synthesize writeTransactionBlocker=_writeTransactionBlocker;
 
 @end

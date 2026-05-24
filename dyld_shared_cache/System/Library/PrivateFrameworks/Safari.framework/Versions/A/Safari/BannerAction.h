@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BannerAction
 {
     _Bool _animates;
-    Banner *_banner;
-    long long _type;
 }
 
 - (id);
@@ -22,9 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool animates; // @synthesize animates=_animates;
 @property(readonly, nonatomic) Banner *banner; // @synthesize banner=_banner;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

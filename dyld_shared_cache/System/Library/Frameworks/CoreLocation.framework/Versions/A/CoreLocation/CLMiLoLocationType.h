@@ -9,12 +9,12 @@
     unsigned long long _locationType;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long)ithServiceType:locationTypes: /* Error: Ran out of types for this method. */;
+- (id)setEnableResourcePatchingInstrumentation:(struct _NSZone *)arg1;
+- (unsigned long long)_createServiceWithServiceType:locationTypes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long locationType; // @synthesize locationType=_locationType;

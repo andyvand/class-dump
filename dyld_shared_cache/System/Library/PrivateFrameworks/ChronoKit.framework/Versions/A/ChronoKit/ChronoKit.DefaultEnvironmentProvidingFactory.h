@@ -7,11 +7,6 @@
 @interface ChronoKit.DefaultEnvironmentProvidingFactory
 {
     id extensionManager;
-    id keybagStateProvider;
-    id _lock_mapValidBundleProviders;
-    id subscriptions;
-    id lock;
-    id system;
 }
 
 @end

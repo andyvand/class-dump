@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface USPSchemaUSPMeasureStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)Recoverable:(_Bool)arg1 %@;
 - (id);
-- (void);
+- (void))_block_invoke;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_shouldAutomaticallyEditInsertedGroupNames;
+- (_Bool), m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.date DESC, m.ROWID DESC LIMIT ?;;
 - (id);
 - (id);
-- (id)onCountForEntityInUsingApp1Day;
-- (id)meDiffInNs;
+- (id)deleteTaskAbandonCountForEntityInUsingApp1Day;
+- (id)_phsRejectBeforeActivationTimeDiffInNs;
 - (_Bool);
 - (_Bool)IASiriMissEvaluationContext;
 - (void)äæ9ÀÎ=ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,38 +6,23 @@
 
 #import <AVKit/AVView.h>
 
-@class AVMobileAuxiliaryControlsView, AVMobileChromelessBackgroundGradientView, AVMobileChromelessContentTabsView, AVMobileChromelessDisplayModeControlsView, AVMobileChromelessPlaybackControlsView, AVMobileChromelessTimelineView, AVMobileChromelessVolumeControlsView, AVMobileContentTagView, AVMobileTitlebarView;
-@protocol AVMobileChromelessControlsViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessControlsView : AVView
 {
     _Bool _layoutAllowed;
-    AVMobileAuxiliaryControlsView *_auxiliaryControlsView;
-    AVMobileChromelessBackgroundGradientView *_backgroundView;
-    AVMobileChromelessContentTabsView *_contentTabsView;
-    AVMobileChromelessDisplayModeControlsView *_displayModeControlsView;
-    AVMobileContentTagView *_liveEdgeContentTagView;
-    AVMobileChromelessPlaybackControlsView *_playbackControlsView;
-    AVMobileChromelessTimelineView *_timelineView;
-    AVMobileTitlebarView *_titlebarView;
-    AVMobileChromelessVolumeControlsView *_volumeControlsView;
-    id <AVMobileChromelessControlsViewDelegate> _delegate;
-    struct CGRect _contentIntersection;
-    struct AVMobileChromelessControlsLayoutConfiguration _layoutConfiguration;
 }
 
 - (id);
 - (void);
+- (void)C;
 - (void);
+- (void)1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)M.ՑM.;
 - (struct AVMobileChromelessControlsLayoutConfiguration);
 - (_Bool);
 - (id);
@@ -48,8 +33,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)P;
+- (void)H;
 - (id);
 - (void);
 - (id);
@@ -60,18 +45,7 @@ __attribute__((visibility("hidden")))
 - (void)oundsOrContentSizeAdjustmentCount;
 
 // Remaining properties
-@property(retain, nonatomic) AVMobileAuxiliaryControlsView *auxiliaryControlsView; // @synthesize auxiliaryControlsView=_auxiliaryControlsView;
-@property(retain, nonatomic) AVMobileChromelessBackgroundGradientView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) AVMobileChromelessContentTabsView *contentTabsView; // @synthesize contentTabsView=_contentTabsView;
-@property(nonatomic) __weak id <AVMobileChromelessControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AVMobileChromelessDisplayModeControlsView *displayModeControlsView; // @synthesize displayModeControlsView=_displayModeControlsView;
-@property(nonatomic) _Bool layoutAllowed; // @synthesize layoutAllowed=_layoutAllowed;
 @property(nonatomic) struct AVMobileChromelessControlsLayoutConfiguration layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) AVMobileContentTagView *liveEdgeContentTagView; // @synthesize liveEdgeContentTagView=_liveEdgeContentTagView;
-@property(retain, nonatomic) AVMobileChromelessPlaybackControlsView *playbackControlsView; // @synthesize playbackControlsView=_playbackControlsView;
-@property(retain, nonatomic) AVMobileChromelessTimelineView *timelineView; // @synthesize timelineView=_timelineView;
-@property(retain, nonatomic) AVMobileTitlebarView *titlebarView; // @synthesize titlebarView=_titlebarView;
-@property(retain, nonatomic) AVMobileChromelessVolumeControlsView *volumeControlsView; // @synthesize volumeControlsView=_volumeControlsView;
 
 @end
 

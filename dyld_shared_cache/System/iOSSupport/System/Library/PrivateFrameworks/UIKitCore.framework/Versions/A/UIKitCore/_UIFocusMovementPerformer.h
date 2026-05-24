@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
     id <_UIFocusMovementPerformerDelegate> _delegate;
 }
 
-- (_Bool);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)setNicknameDictionary:(id)arg1;
+- (id)omingDownloadMessageBlock;
+- (struct CGRect)ucceeded %@;
+- (struct CGRect)e preview for transfer %@;
+- (_Bool)ecently Deleted | Removed parts from old item %@, got new item:(id)arg1 %@;
+- (id)onedList doesn't contain nickname %@;
+- (id)key %@ error %@;
+- (id)update with key %@ -  %@;
+- (id)fetching current nickname;
+- (id)ting up pipeline for delivered quietly receipt fromID:(id)arg1 %@, ;
+- (id)level and updating mic switch eligible on imagent launch;
+- (id)nt status returned an error:(id)arg1 %@;
+- (id)ExceededMaxFetchChatAttempts;
 - (id);
 - (id);
 - (void);

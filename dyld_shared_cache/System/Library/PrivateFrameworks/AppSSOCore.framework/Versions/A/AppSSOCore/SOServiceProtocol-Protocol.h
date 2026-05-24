@@ -5,5 +5,6 @@
 //
 
 @protocol SOServiceProtocol
+- (void);
 @end
 

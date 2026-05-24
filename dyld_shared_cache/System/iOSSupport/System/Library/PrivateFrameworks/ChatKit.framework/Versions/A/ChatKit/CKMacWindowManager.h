@@ -13,14 +13,14 @@
 
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (void);
 + (void);
 + (void);
 + (id);
-- (void);
-- (id);
+- (void)ICMClickableTextView;
+- (id)toMode:window:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

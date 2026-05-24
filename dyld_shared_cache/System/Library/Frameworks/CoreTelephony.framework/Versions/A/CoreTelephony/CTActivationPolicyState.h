@@ -11,10 +11,10 @@
 
 + (_Bool);
 - (long long);
-- (void);
+- (void)6;
 - (id);
 - (id);
-- (void);
+- (void)c}@ sign started;
 - (id);
 
 // Remaining properties

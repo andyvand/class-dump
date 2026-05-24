@@ -5,11 +5,10 @@
 //
 
 @protocol GEOMapLine
+- (unsigned long long)^q16@24@32^@40;
 - (CDStruct_c3b9c2ee *)as_type"b1"read_unknownFields"b1"read_clientSubmissionUuid"b1"read_userLocation"b1"wrote_anyField"b1};
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long coordinateCount;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *coordinates;
-@property(readonly, nonatomic) double length;
 @end
 

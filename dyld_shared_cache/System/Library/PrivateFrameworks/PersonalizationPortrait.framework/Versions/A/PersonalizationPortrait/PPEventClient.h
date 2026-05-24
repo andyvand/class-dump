@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPEventClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)originalWritingDirectionIndex;
 - (void);
 - (_Bool);
 - (void);

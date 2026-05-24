@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface UITextFormattingViewControllerFormattingStyle
 {
     NSString *_styleKey;
-    NSString *_title;
-    NSDictionary *_attributes;
 }
 
 + (_Bool)scaleFactor=%f scaledLineHeight=%f scaledFirstBaseline=%f scaledLastBaseline=%f numberOfLines=%ld unscaledSize=%@ scaledText=%@>;
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id)agInteractionEffect>";
 - (_Bool)selectionGestureRecognizer;
-- (void)sition:(id)arg1;
-- (id)nHandleDropSession:(struct _NSZone *)arg1;
+- (void)initWithString:(id)arg1 position: /* Error: Ran out of types for this method. */;
+- (id)tableView:(struct _NSZone *)arg1 canHandleDropSession: /* Error: Ran out of types for this method. */;
 - (id)þÿþÿþÿ¶Ãþÿ;
 - (void)tjåþ3Ô;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(readonly, copy, nonatomic) NSString *styleKey; // @synthesize styleKey=_styleKey;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

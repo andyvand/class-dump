@@ -11,15 +11,15 @@
     NSMutableSet *mTouches;
 }
 
-- (void);
+- (void)]B;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)OctaneServiceProtocol;
 - (_Bool);
 - (void);
 - (void);
-- (void)s;
+- (void)mFlags;
 
 @end
 

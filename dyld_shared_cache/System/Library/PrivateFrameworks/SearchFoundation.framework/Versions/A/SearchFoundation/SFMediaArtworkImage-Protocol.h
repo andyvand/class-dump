@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFMediaArtworkImage
+- (void);
+- (NSString *)updateSubscribedPlaylistsWithSagaIDs:ignoreMinRefreshInterval:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mediaEntityType;
 @property(copy, nonatomic) NSString *persistentID;
-@property(copy, nonatomic) NSString *spotlightIdentifier;
-@property(copy, nonatomic) NSString *universalLibraryID;
 @end
 

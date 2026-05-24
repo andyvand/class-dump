@@ -7,6 +7,8 @@
 @class CWFNetworkProfile;
 
 @protocol CWFXPCEventProtocolWiFiUserAgent
+- (void);
+- (void);
 - (void)(Ð1Â0@ù
 × ;
 - (void)] AUTO-JOIN:(CWFNetworkProfile *)arg1 -- %{public}@;

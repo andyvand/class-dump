@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface EKEventFetchRequestToken
 {
     unsigned int _token;
-    EKEventStore *_eventStore;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly, nonatomic) unsigned int token; // @synthesize token=_token;
 
 @end
 

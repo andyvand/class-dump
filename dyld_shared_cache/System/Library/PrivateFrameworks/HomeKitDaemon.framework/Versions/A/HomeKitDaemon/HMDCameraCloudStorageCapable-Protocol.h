@@ -7,14 +7,14 @@
 @class HMDHome, NSString, NSUUID;
 
 @protocol HMDCameraCloudStorageCapable
+- (void);
+- (NSString *)WAYPOINT_CONTACT_WORK;
+- (long long)originatorIdentifier;
 - (HMDHome *)
 × ;
-- (NSUUID *)onChanges:enableNotification:message:clientIdentifier: /* Error: Ran out of types for this method. */;
+- (NSUUID *)_notifyCharacteristicNotificationChanges:enableNotification:message:clientIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *cameraIdentifier;
-@property(readonly, nonatomic) long long cloudStorageVersion;
-@property(readonly, nonatomic) NSString *cloudZoneName;
-@property(readonly, nonatomic) HMDHome *home;
 @end
 

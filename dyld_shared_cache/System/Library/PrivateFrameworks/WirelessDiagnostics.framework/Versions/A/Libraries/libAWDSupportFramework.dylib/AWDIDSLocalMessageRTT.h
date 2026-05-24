@@ -7,36 +7,28 @@
 @interface AWDIDSLocalMessageRTT
 {
     long long _rtt;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int rtt:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)I;
 - (void);
 - (long long);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRtt;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) long long rtt; // @synthesize rtt=_rtt;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

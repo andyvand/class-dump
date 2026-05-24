@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PXComposeRecipientDataSource, PXIDSAddressQueryController;
-@protocol PXComposeRecipientValidationManagerDelegate;
+@class NSMutableDictionary, PXComposeRecipientDataSource;
 
 @interface PXComposeRecipientValidationManager
 {
     NSMutableDictionary *_composeRecipientsToQuery;
-    NSMutableDictionary *_queryAddressesToComposeRecipientQuery;
-    PXIDSAddressQueryController *_addressQueryController;
-    PXComposeRecipientDataSource *_dataSource;
-    id <PXComposeRecipientValidationManagerDelegate> _delegate;
 }
 
 + (id);
-- (long long);
+- (long long)!;
 - (void);
 - (void);
 - (void);
@@ -30,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXComposeRecipientDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <PXComposeRecipientValidationManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

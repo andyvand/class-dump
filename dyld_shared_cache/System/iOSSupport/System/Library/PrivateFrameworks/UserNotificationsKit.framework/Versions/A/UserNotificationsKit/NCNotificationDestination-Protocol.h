@@ -4,14 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSString;
+@class NCNotificationRequest, NSString;
 @protocol NCNotificationDestinationDelegate;
 
 @protocol NCNotificationDestination
+- (void)uest"8Q16;
+- (void)Siri request %@ but there were multiple matching interactions found;
+- (void)resentedContentForRunningContext:(NCNotificationRequest *)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)WFAllowActionsFromAllBundles;
+
+@optional
+- (void)kflow triggerActionSetsBuilders];
+- (void)ow requiresDeviceUnlockEnsuringHomesAreLoaded]_block_invoke;
+- (void)em"24@?0@"NSData"8Q16;
+- (_Bool)tedContentForRunningContext:(NCNotificationRequest *)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <NCNotificationDestinationDelegate> delegate;
-@property(readonly, nonatomic) BSServiceConnectionEndpoint *endpoint;
 @property(readonly, nonatomic) NSString *identifier;
 @end
 

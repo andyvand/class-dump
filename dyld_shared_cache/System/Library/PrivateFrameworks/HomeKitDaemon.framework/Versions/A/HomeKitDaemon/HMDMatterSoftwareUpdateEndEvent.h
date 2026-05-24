@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSNumber, NSString, NSUUID;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterSoftwareUpdateEndEvent
 {
     _Bool _isAutomaticThirdPartyAccessorySoftwareUpdateEnabled;
-    NSNumber *_accessoryLinkType;
-    NSNumber *_accessoryProductID;
-    NSNumber *_accessoryVendorID;
-    NSNumber *_accessoryFirmwareVersionNumber;
-    NSNumber *_targetFirmwareVersionNumber;
-    NSMutableDictionary *_vendorDetailsForCoreAnalytics;
 }
 
 - (id);
@@ -30,37 +24,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ransitions_reason3_manualHoldEnd;
+- (void)numTransitions_reason3_manualHoldEnd;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *accessoryFirmwareVersionNumber; // @synthesize accessoryFirmwareVersionNumber=_accessoryFirmwareVersionNumber;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSNumber *accessoryLinkType; // @synthesize accessoryLinkType=_accessoryLinkType;
-@property(readonly, nonatomic) NSNumber *accessoryProductID; // @synthesize accessoryProductID=_accessoryProductID;
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSNumber *accessoryVendorID; // @synthesize accessoryVendorID=_accessoryVendorID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool isAutomaticThirdPartyAccessorySoftwareUpdateEnabled; // @synthesize isAutomaticThirdPartyAccessorySoftwareUpdateEnabled=_isAutomaticThirdPartyAccessorySoftwareUpdateEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *targetFirmwareVersionNumber; // @synthesize targetFirmwareVersionNumber=_targetFirmwareVersionNumber;
 @property(retain, nonatomic) NSMutableDictionary *vendorDetailsForCoreAnalytics; // @synthesize vendorDetailsForCoreAnalytics=_vendorDetailsForCoreAnalytics;
 
 @end

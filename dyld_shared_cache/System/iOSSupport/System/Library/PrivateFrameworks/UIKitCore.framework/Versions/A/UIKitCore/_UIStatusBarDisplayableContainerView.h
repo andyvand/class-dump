@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIAccessibilityHUDItem;
-
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarDisplayableContainerView : UIView
 {
@@ -21,34 +19,7 @@ __attribute__((visibility("hidden")))
 - (void)Í^;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) __weak UIView *subviewForBaselineAlignment; // @synthesize subviewForBaselineAlignment=_subviewForBaselineAlignment;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

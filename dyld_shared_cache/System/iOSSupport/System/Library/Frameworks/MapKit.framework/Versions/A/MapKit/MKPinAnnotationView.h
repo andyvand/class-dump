@@ -6,21 +6,17 @@
 
 #import <MapKit/MKAnnotationView.h>
 
-@class UIColor, UIImageView;
+@class UIImageView;
 @protocol _MKPinAnnotationViewDelegate;
 
 @interface MKPinAnnotationView : MKAnnotationView
 {
     UIImageView *_shadowView;
-    UIColor *_pinTintColor;
-    id <_MKPinAnnotationViewDelegate> _delegate;
-    int _state;
-    _Bool _animatesDrop;
 }
 
++ (id)C;
 + (id);
-+ (id);
-+ (id);
++ (id)RG;
 + (id);
 + (id);
 + (id);
@@ -42,20 +38,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void);
+- (void);
+- (struct CGRect));
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)R";
 - (void);
 - (id);
 - (void);
@@ -65,18 +61,18 @@
 - (struct UIEdgeInsets);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)ecuting fetch of moment share for URL:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ope: /* Error: Ran out of types for this method. */;
+- (void)avatarImageForContacts:scope: /* Error: Ran out of types for this method. */;
 - (_Bool)isScrollEnabled;
 - (void)ting at %@.;
 - (id) ;
@@ -84,9 +80,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setDelegate:) __weak id <_MKPinAnnotationViewDelegate> _delegate; // @synthesize _delegate;
-@property(nonatomic) _Bool animatesDrop;
-@property(nonatomic) unsigned long long pinColor;
-@property(retain, nonatomic) UIColor *pinTintColor;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface PKPassUpgradePrecursorPassIssuerAppAction : PKPassUpgradePrecursorPassAction
 {
     NSString *_appUrl;
-    NSString *_appIdentifier;
 }
 
 + (_Bool)qî%ð1Â0@ù
@@ -19,13 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)kRxDataErrors;
 - (id);
-- (id)ForInvitationWithIdentifier:(id)arg1 transportIdentifier:completion: /* Error: Ran out of types for this method. */;
-- (void)resEncryption;
+- (id)carKeyRoutingInformationForInvitationWithIdentifier:(id)arg1 transportIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)appletDataRequiresEncryption;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
 @property(readonly, nonatomic) NSString *appUrl; // @synthesize appUrl=_appUrl;
 
 @end

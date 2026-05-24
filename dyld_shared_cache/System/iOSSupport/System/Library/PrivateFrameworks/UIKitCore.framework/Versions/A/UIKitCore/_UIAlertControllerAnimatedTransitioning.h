@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAlertController, UIInteractionProgress;
-
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerAnimatedTransitioning
 {
     _Bool _presentation;
-    UIAlertController *_alertController;
-    UIInteractionProgress *_interactionProgress;
 }
 
+- (void)initWithEntity:(id)arg1 insertIntoManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)registerPurgedAttachmentAtPath: /* Error: Ran out of types for this method. */;
+- (id)nager",&,N,V_callHistoryManager;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (double);
-- (void)vider:(id)arg1 actionHandlerInvocationDelegate: /* Error: Ran out of types for this method. */;
+- (double)buildWithRemoteAddress:(id)arg1 withLocalIdentifier:withRemoteIdentifier:withAuthenticationMethod:withPayloadCertificateUUID:withSharedSecret:withExtendedAuthEnabled:withDisableRedirect:withDisableMOBIKE:withUseConfigurationAttributeInternalIPSubnet:withEnablePFS:withEnableCertificateRevocationCheck:withNATKeepAliveOffloadEnable:withNATKeepAliveInterval:withAuthName:withAuthPassword:withDeadPeerDetectionRate:withProtocolType:withServerCertificateIssuerCommonName:withServerCertificateCommonName:withIKESecurityAssociationParameters:withChildSecurityAssociationParameters:withInterfaces: /* Error: Ran out of types for this method. */;
+- (void)_initWithActionGroup:(id)arg1 visualStyleProvider:actionHandlerInvocationDelegate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIInteractionProgress *interactionProgress; // @synthesize interactionProgress=_interactionProgress;
 @property(getter=isPresentation) _Bool presentation; // @synthesize presentation=_presentation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PXAssetCollectionReference, PXCuratedLibraryLayoutSpec, PXCuratedLibrarySectionHeaderLayout, PXCuratedLibrarySectionedLayout, PXCuratedLibrarySummaryHelper, PXCuratedLibraryViewModel, PXGDiagnosticsSpriteProbe, PXGExposureBlurEffect, PXGSpriteReference, PXLibraryFilterState, PXNumberAnimator, PXSectionedObjectReference, PXZoomablePhotosLayout;
-@protocol PXBrowserVisibleContentSnapshot, PXDisplayAssetCollection;
+@class PXCuratedLibrarySummaryHelper, PXSectionedObjectReference;
 
 @interface PXCuratedLibraryLayout
 {
     PXCuratedLibrarySummaryHelper *_summaryHelper;
-    CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    NSMutableDictionary *_lastVisibleAreaAnchorsByZoomLevels;
-    NSMutableDictionary *_preferredVisibleAreaAnchorsByZoomLevels;
-    PXGDiagnosticsSpriteProbe *_spriteProbe;
-    _Bool _wantsStatusBarGradient;
-    PXNumberAnimator *_statusBarGradientAnimator;
-    PXNumberAnimator *_blurredBackgroundOpacityAnimator;
-    unsigned short _statusBarGradientResizableCapInsetsIndex;
-    unsigned int _statusBarGradientSpriteIndex;
-    double _statusBarGradientAlpha;
-    double _statusBarGradientHeight;
-    double _statusBarGradientAndStyleFadeDuration;
-    _Bool _wantsBlurredBackground;
-    unsigned int _blurredBackgroundSpriteIndex;
-    unsigned short _blurredBackgroundMediaVersion;
-    PXGExposureBlurEffect *_blurredBackgroundEffect;
-    unsigned int _contentBackgroundSpriteIndex;
-    unsigned short _contentBackgroundMediaVersion;
-    _Bool _isPerformingUpdate;
-    _Bool _isPerformingInitialUpdate;
-    _Bool _canHandleVisibleRectRejection;
-    PXCuratedLibrarySectionedLayout *_libraryBodyLayout;
-    PXZoomablePhotosLayout *_allPhotosBodyLayout;
-    PXCuratedLibrarySectionHeaderLayout *_floatingHeaderLayout;
-    long long _presentedZoomLevel;
-    PXCuratedLibraryViewModel *_viewModel;
-    PXGSpriteReference *_lastHitSpriteReference;
-    double _lateralMargin;
-    id _lastVisibleDominantObjectReference;
-    PXAssetCollectionReference *_lastPresentedDayAssetCollectionReference;
-    id _dominantHeroPreferencesBeforeTransition;
-    PXLibraryFilterState *_libraryFilterState;
-    PXCuratedLibraryLayoutSpec *_spec;
-    struct CGRect _presentedVisibleRect;
 }
 
 - (void);
@@ -61,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (struct CGRect);
@@ -77,8 +41,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
+- (id);
+- (struct CGRect);
 - (id);
 - (void);
 - (void);
@@ -96,14 +60,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGPoint);
 - (_Bool);
 - (double);
@@ -137,7 +101,7 @@
 - (double);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)7&;
 - (void);
 - (void);
 - (void);
@@ -164,40 +128,7 @@
 - (id)¼2R>;
 
 // Remaining properties
-@property(readonly, nonatomic) PXZoomablePhotosLayout *allPhotosLayout; // @synthesize allPhotosLayout=_allPhotosBodyLayout;
-@property(readonly, nonatomic) PXAssetCollectionReference *assetCollectionReference;
-@property(readonly, nonatomic) double bottomMargin;
-@property(nonatomic) _Bool canHandleVisibleRectRejection; // @synthesize canHandleVisibleRectRejection=_canHandleVisibleRectRejection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id dominantHeroPreferencesBeforeTransition; // @synthesize dominantHeroPreferencesBeforeTransition=_dominantHeroPreferencesBeforeTransition;
 @property(readonly, nonatomic) PXSectionedObjectReference *dominantObjectReference;
-@property(readonly, nonatomic) double estimatedHeaderHeight;
-@property(readonly, nonatomic) PXCuratedLibrarySectionHeaderLayout *floatingHeaderLayout; // @synthesize floatingHeaderLayout=_floatingHeaderLayout;
-@property(readonly, nonatomic) struct CGRect fullyVisibleRect;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXGSpriteReference *lastHitSpriteReference; // @synthesize lastHitSpriteReference=_lastHitSpriteReference;
-@property(retain, nonatomic) PXAssetCollectionReference *lastPresentedDayAssetCollectionReference; // @synthesize lastPresentedDayAssetCollectionReference=_lastPresentedDayAssetCollectionReference;
-@property(retain, nonatomic) id lastVisibleDominantObjectReference; // @synthesize lastVisibleDominantObjectReference=_lastVisibleDominantObjectReference;
-@property(nonatomic) double lateralMargin; // @synthesize lateralMargin=_lateralMargin;
-@property(readonly, nonatomic) PXCuratedLibrarySectionedLayout *libraryBodyLayout; // @synthesize libraryBodyLayout=_libraryBodyLayout;
-@property(retain, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) struct CGRect presentedVisibleRect; // @synthesize presentedVisibleRect=_presentedVisibleRect;
-@property(readonly, nonatomic) long long presentedZoomLevel; // @synthesize presentedZoomLevel=_presentedZoomLevel;
-@property(readonly, nonatomic) PXCuratedLibraryLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> topMostAssetCollection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXDisplayAssetCollection>",?,R,N
-
-@property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) id <PXBrowserVisibleContentSnapshot> visibleContentSnapshot;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXBrowserVisibleContentSnapshot>",?,R,N
-
 
 @end
 

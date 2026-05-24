@@ -7,9 +7,6 @@
 @interface MPSMatrixCopy
 {
     _Bool _sourcesAreTransposed;
-    _Bool _destinationsAreTransposed;
-    unsigned long long _copyRows;
-    unsigned long long _copyColumns;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -19,7 +16,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -27,10 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long copyColumns; // @synthesize copyColumns=_copyColumns;
 @property(readonly, nonatomic) unsigned long long copyRows; // @synthesize copyRows=_copyRows;
-@property(readonly, nonatomic) _Bool destinationsAreTransposed; // @synthesize destinationsAreTransposed=_destinationsAreTransposed;
-@property(readonly, nonatomic) _Bool sourcesAreTransposed; // @synthesize sourcesAreTransposed=_sourcesAreTransposed;
 
 @end
 

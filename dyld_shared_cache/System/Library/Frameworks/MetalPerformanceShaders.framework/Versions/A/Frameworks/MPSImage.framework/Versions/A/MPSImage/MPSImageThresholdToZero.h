@@ -16,14 +16,13 @@
 - (float);
 - (id);
 - (id);
-- (const float *);
-- (void);
+- (const float *)k;
+- (void)initWithPredicate:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float thresholdValue;
-@property(readonly, nonatomic) const float *transform;
 
 @end
 

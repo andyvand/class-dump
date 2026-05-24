@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITableViewCell;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIViewAnimationContext
 {
     NSArray *_viewAnimations;
-    long long _animationCount;
-    CDUnknownBlockType _completionHandler;
-    UITableViewCell *_swipeToDeleteCell;
 }
 
+- (id)/0;
+- (long long)tableView:validateDrop:proposedRow:proposedDropOperation: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
-- (id);
-- (void);
+- (void)d [request changed];
 - (id)
 × ;
 - (CDUnknownBlockType)ts:landscapeInsets:tabBar: /* Error: Ran out of types for this method. */;
 - (void)zes are not supported by flow layout. Collection view:(long long)arg1 %@;
-- (void)tHiddenAncestorSheetIDs;
+- (void)__descendantHiddenAncestorSheetIDs;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long animationCount; // @synthesize animationCount=_animationCount;
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) UITableViewCell *swipeToDeleteCell; // @synthesize swipeToDeleteCell=_swipeToDeleteCell;
 @property(retain, nonatomic) NSArray *viewAnimations; // @synthesize viewAnimations=_viewAnimations;
 
 @end

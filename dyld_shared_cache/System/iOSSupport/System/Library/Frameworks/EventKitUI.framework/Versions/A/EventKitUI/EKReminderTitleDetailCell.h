@@ -6,37 +6,25 @@
 
 #import <EventKitUI/EKReminderDetailCell.h>
 
-@class NSLayoutConstraint, UIButton, UILabel, UIView;
-@protocol EKReminderTitleDetailCellDelegate;
+@class UILabel;
 
 @interface EKReminderTitleDetailCell : EKReminderDetailCell
 {
     UILabel *_title;
-    UILabel *_dateLabelLine1;
-    UILabel *_dateLabelLine2;
-    UILabel *_dateLabelLine3;
-    UILabel *_dateLabelLine4;
-    UILabel *_recurrenceLabel;
-    UIView *_bottomView;
-    UIButton *_circle;
-    UIButton *_editButton;
-    NSLayoutConstraint *_bottomConstraint;
-    id <EKReminderTitleDetailCellDelegate> _delegate;
-    _Bool _showExtraSpaceAtBottom;
 }
 
 + (id);
 + (void);
-+ (void);
-- (_Bool);
-- (void);
++ (void);
+- (_Bool)s;
+- (void)0+s;
 - (id);
 - (void);
 - (id);
 - (void);
 - (double);
 - (id);
-- (void)iedByAddress;
+- (void)sharedItemModifiedByAddress;
 
 // Remaining properties
 @property(nonatomic) _Bool showExtraSpaceAtBottom; // @synthesize showExtraSpaceAtBottom=_showExtraSpaceAtBottom;

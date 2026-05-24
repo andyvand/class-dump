@@ -9,8 +9,6 @@
 @interface RTMotionActivityPedometerData
 {
     NSDateInterval *_dateInterval;
-    unsigned long long _numberOfSteps;
-    double _distance;
 }
 
 + (_Bool);
@@ -18,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)eter, attribute:%p, outputBuffer:%p, outputLength:%p, remainingLength:%zd /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (double);
 - (_Bool);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) unsigned long long numberOfSteps; // @synthesize numberOfSteps=_numberOfSteps;
 
 @end
 

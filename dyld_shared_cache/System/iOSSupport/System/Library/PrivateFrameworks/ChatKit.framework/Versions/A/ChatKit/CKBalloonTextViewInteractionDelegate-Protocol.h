@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextView;
+
 @protocol CKBalloonTextViewInteractionDelegate
+- (void)dd}},N,V_titleAttributedStringInsideFrame;
+- (void)geTransform;
+
+@optional
+- (void)addCharactersInString:(UITextView *)arg1;
+- (void)addButton:(UITextView *)arg1;
+- (void)addAttachmentsObject:(UITextView *)arg1;
+- (void)addAttachmentWithIdentifier:(UITextView *)arg1;
+- (void);
 @end
 

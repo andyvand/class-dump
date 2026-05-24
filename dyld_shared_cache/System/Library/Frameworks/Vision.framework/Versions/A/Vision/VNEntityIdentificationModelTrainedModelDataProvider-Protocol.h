@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSObject><NSCopying><NSSecureCoding;
+
 @protocol VNEntityIdentificationModelTrainedModelDataProvider
+- (id <NSObject><NSCopying><NSSecureCoding>);
 @end
 

@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 @interface UISwipeActionVisualStyle_iOS
 {
 }
 
-- (double);
-- (double);
+- (double)4;
+- (double)0;
 - (double);
 - (id);
-- (double);
+- (double)edEntrySize=%lld diskCacheAvailableSize=%lld;
 - (double);
 - (id);
 - (unsigned long long)1Â0@ù
 × ;
-- (double)Style;
+- (double)foregroundStyle;
 - (double)selectionBorderColor;
 - (double);
 - (unsigned long long)Attempted to hide a view for an invalid _UIViewHiddenReason, or the reason is too large to fit in _viewFlags.internallyHiddenForReason:%ld /* Error: Ran out of types for this method. */;
 - (double)pIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
 - (double)shUpdates may not be set on an active animator (%@);
-- (unsigned long long)EffectDirectionalTransition;
+- (unsigned long long)_UILightEffectDirectionalTransition;
 - (double);
 - (double)c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) UIColor *defaultButtonBackgroundColor;
-@property(readonly, nonatomic) double defaultButtonWidth;
 @property(readonly, nonatomic) unsigned long long defaultCollectionViewCompositionalLayoutSwipeStyle;
-@property(readonly, nonatomic) UIColor *defaultTintColor;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double horizontalPadding;
-@property(readonly, nonatomic) double iconToTitleSpacing;
-@property(readonly, nonatomic) double maxButtonWidth;
-@property(readonly, nonatomic) double maxFontSize;
-@property(readonly, nonatomic) unsigned long long maxLines;
-@property(readonly, nonatomic) double minFontSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double titleFontWeight;
 
 @end
 

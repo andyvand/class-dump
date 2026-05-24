@@ -6,30 +6,27 @@
 
 #import <TSReading/TSDContainerLayout.h>
 
-@class TSDBezierPath, TSDLayoutGeometry;
+@class TSDLayoutGeometry;
 
 @interface TSDGroupLayout : TSDContainerLayout
 {
     TSDLayoutGeometry *mDynamicLayoutGeometry;
-    struct CGRect mBoundsForStandardKnobs;
-    TSDBezierPath *mCachedWrapPath;
-    TSDBezierPath *mCachedExternalWrapPath;
 }
 
 - (void);
-- (id);
+- (id)ished];
 - (void);
+- (_Bool)$;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ReloadingReason;
 - (void);
-- (_Bool);
+- (_Bool)InterstitialPublisher;
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)]z);
 - (id);
 - (void);
 - (_Bool);
@@ -44,7 +41,7 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -55,7 +52,7 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void):(id)arg1 forSegment: /* Error: Ran out of types for this method. */;
+- (void)setEnabled:(id)arg1 forSegment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int wrapContainerMode;

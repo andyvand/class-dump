@@ -7,7 +7,6 @@
 @interface PKAccountLocation
 {
     unsigned long long _app;
-    unsigned long long _page;
 }
 
 + (_Bool)0@ù
@@ -19,15 +18,14 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_symptom;
 - (void);
 - (id);
-- (id)naries:(id)arg1;
+- (id)_createDictionaryMapForDictionaries:(id)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long app; // @synthesize app=_app;
-@property(nonatomic) unsigned long long page; // @synthesize page=_page;
 
 @end
 

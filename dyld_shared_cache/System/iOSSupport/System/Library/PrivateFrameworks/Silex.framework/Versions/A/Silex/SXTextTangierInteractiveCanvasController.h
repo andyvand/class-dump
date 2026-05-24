@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView;
-@protocol SXTextAttributionProviding, SXTextTangierInteractiveCanvasControllerDataSource;
-
 @interface SXTextTangierInteractiveCanvasController
 {
     _Bool _forceLayoutAndRenderOnThread;
-    _Bool _isScrolling;
-    _Bool _mightScrollToTop;
-    UIScrollView *_scrollView;
-    id <SXTextTangierInteractiveCanvasControllerDataSource> _dataSource;
-    id <SXTextAttributionProviding> _textAttributionProvider;
-    NSString *_selectedText;
 }
 
 + (void);
@@ -23,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,27 +31,21 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)ï°1Â0@ù
 × ;
 - (void)W,N,V_textComponentLayoutHosting;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <SXTextTangierInteractiveCanvasControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) _Bool forceLayoutAndRenderOnThread; // @synthesize forceLayoutAndRenderOnThread=_forceLayoutAndRenderOnThread;
 @property(nonatomic) _Bool isScrolling; // @synthesize isScrolling=_isScrolling;
-@property(nonatomic) _Bool mightScrollToTop; // @synthesize mightScrollToTop=_mightScrollToTop;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(copy, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
-@property(retain, nonatomic) id <SXTextAttributionProviding> textAttributionProvider; // @synthesize textAttributionProvider=_textAttributionProvider;
 
 @end
 

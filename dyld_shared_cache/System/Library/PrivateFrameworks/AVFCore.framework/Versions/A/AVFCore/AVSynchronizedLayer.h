@@ -13,15 +13,15 @@
 
 + (id);
 + (void)ed once;
-- (void);
+- (void)_initWithTokenPhraseChoiceList:(id)arg1 earNbest:endsOfSentencePunctuations:earPersonalEntities: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)exe;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVPlayerItem *playerItem;

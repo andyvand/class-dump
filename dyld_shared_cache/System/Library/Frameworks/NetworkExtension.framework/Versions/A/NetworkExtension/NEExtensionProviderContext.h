@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEProvider, NSObject, NSString, NSXPCConnection;
-@protocol NEExtensionProviderHostProtocol, OS_os_transaction;
+@class NSString;
+@protocol NEExtensionProviderHostProtocol;
 
 @interface NEExtensionProviderContext
 {
     id <NEExtensionProviderHostProtocol> _hostContext;
-    NSString *_description;
-    _Bool _isDisposed;
-    _Bool _started;
-    NEConfiguration *_configuration;
-    CDUnknownBlockType _stopCompletionHandler;
-    NSXPCConnection *_hostConnection;
-    NEProvider *_provider;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
 + (id);
-+ (id);
++ (id)32Q40@48;
 - (void);
 - (void);
 - (void);
@@ -33,27 +25,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)DecreaseNearbyCount;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)ProbingState;
 - (void);
 - (void);
 - (id);
 - (void)serverCertificateIssuerCommonName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *extensionPoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) Class requiredProviderSuperClass;
-@property(readonly) Class superclass;
 
 @end
 

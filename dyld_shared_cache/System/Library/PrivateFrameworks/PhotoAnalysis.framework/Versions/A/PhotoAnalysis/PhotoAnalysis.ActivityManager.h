@@ -7,12 +7,6 @@
 @interface PhotoAnalysis.ActivityManager
 {
     id activities;
-    id schedulingPolicy;
-    id forTesting;
-    id queue;
-    id logger;
-    id stateHolder;
-    id activityIsRunningByName;
 }
 
 @end

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface THAButton
 {
     unsigned char _identifier;
-    unsigned long long _type;
 }
 
 - (id);
@@ -17,12 +16,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)ticsReadResponses:(unsigned long long)arg1;
-- (unsigned char)rManagerDataSource;
+- (void)_handleSupportedConfigurationCharacteristicsReadResponses:(unsigned long long)arg1;
+- (unsigned char)HMDAppleMediaAccessorySensorManagerDataSource;
 
 // Remaining properties
 @property(nonatomic) unsigned char identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

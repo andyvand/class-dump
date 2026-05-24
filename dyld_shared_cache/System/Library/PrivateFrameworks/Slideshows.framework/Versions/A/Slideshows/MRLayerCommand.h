@@ -7,10 +7,9 @@
 @interface MRLayerCommand
 {
     int commandID;
-    id object;
 }
 
-- (id);
+- (id)=%d;
 - (void);
 
 @end

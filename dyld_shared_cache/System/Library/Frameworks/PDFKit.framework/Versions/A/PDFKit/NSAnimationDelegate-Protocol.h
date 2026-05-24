@@ -5,5 +5,11 @@
 //
 
 @protocol NSAnimationDelegate
+
+@optional
+- (_Bool)TARGET_FAN_STATE;
+- (void)DEHUMIDIFIER_THRESHOLD;
+- (float)VOLUME;
+- (void);
 @end
 

@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumEXIFCondition.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PXSmartAlbumCameraModelCondition : PXSmartAlbumEXIFCondition
 {
@@ -16,11 +16,10 @@
 + (id);
 - (id);
 - (void);
-- (id)ySo17AVPlayerItemTrackCG;
-- (void)ontext;
+- (id)SaySo17AVPlayerItemTrackCG;
+- (void)StoryViewActionContext;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cameraModel;
 @property(readonly, nonatomic) NSArray *cameraModels;
 
 @end

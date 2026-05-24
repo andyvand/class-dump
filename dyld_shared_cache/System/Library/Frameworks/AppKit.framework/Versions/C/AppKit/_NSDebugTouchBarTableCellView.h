@@ -6,25 +6,21 @@
 
 #import <AppKit/NSTableCellView.h>
 
-@class NSButton, NSImageView, NSPopover, NSStackView, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface _NSDebugTouchBarTableCellView : NSTableCellView
 {
     NSTextField *_secondaryLabel;
-    NSButton *_quickLookButton;
-    NSImageView *_statusImageView;
-    NSStackView *_statusStack;
-    NSPopover *_inspectorPopover;
 }
 
-- (void);
+- (void)copyNumberFromDeviceTree:(id)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (void)0:(id)arg1 8@"NSPasteboard"16;
-- (id)MotionCanBeginDrag;
-- (id)d;
+- (id)verticalMotionCanBeginDrag;
+- (id)_toSpid;
 
 // Remaining properties
 @property(retain) NSTextField *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;

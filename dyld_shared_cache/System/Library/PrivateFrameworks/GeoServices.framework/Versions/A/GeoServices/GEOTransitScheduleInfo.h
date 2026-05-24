@@ -4,45 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitEntry, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTransitScheduleInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOTransitEntry *_entry;
 }
 
-+ (_Bool)avState:(id)arg1;
++ (_Bool)setNavState:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)"16@"NSURL"24Q32;
+- (id);
+- (void)`;
+- (id)#;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)latticeRnnMitigatorScore;
+- (void)ledAssetManager;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)xO;
 - (void);
 - (id)1º*ð1Â0@ù
 × ;
 - (id)lectionItemIndex:position: /* Error: Ran out of types for this method. */;
-- (id)ChargingStationInfos;
+- (id)_legIndexToChargingStationInfos;
 - (id)eOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@"GEOVectorTile"16;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOTransitEntry *entry;
 @property(readonly, nonatomic) _Bool hasEntry;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

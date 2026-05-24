@@ -5,5 +5,6 @@
 //
 
 @protocol AFAnalyticsService
+- (oneway void)ayID again, aleady done:%d, or not using desktop picture:%d /* Error: Ran out of types for this method. */;
 @end
 

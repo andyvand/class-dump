@@ -6,18 +6,13 @@
 
 #import <MapKit/MKSearchFoundationRichText.h>
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MKSearchFoundationBusinessHoursAndDistanceRichText : MKSearchFoundationRichText
 {
     _Bool _businessHoursResolved;
-    _Bool _distanceResolved;
-    NSString *_hoursString;
-    NSColor *_hoursColor;
 }
 
-- (void);
+- (void)%d withKey:(id)arg1 %@ withPayload:%@ dispatching... /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,13 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ce: /* Error: Ran out of types for this method. */;
+- (void)placeHasRatingForAppearance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(getter=isBusinessHoursResolved) _Bool businessHoursResolved; // @synthesize businessHoursResolved=_businessHoursResolved;
-@property(getter=isDistanceResolved) _Bool distanceResolved; // @synthesize distanceResolved=_distanceResolved;
-@property(retain) NSColor *hoursColor; // @synthesize hoursColor=_hoursColor;
-@property(retain) NSString *hoursString; // @synthesize hoursString=_hoursString;
 
 @end
 

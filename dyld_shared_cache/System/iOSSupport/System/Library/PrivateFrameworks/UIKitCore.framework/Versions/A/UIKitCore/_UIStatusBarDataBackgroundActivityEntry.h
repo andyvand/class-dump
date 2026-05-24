@@ -6,34 +6,28 @@
 
 #import <UIKitCore/_UIStatusBarDataEntry.h>
 
-@class NSString;
-
 @interface _UIStatusBarDataBackgroundActivityEntry : _UIStatusBarDataEntry
 {
     long long _type;
-    double _displayStartDate;
-    NSString *_detailString;
 }
 
-+ (_Bool)rButton;
++ (_Bool)_UIButtonBarButton;
 - (id);
 - (double);
-- (void);
+- (void)statementWithString:(double)arg1 error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (long long)±a°1Â0@ù
 × ;
 - (_Bool)w<UIActionSheetPresentationControllerDismissActionView>";
-- (void)eExternalTouchPathIndex;
+- (void)singleAllowableExternalTouchPathIndex;
 - (id)tment:includeEmoji: /* Error: Ran out of types for this method. */;
-- (id)k:(struct _NSZone *)arg1;
-- (void)reAccessoryViewConstraints;
+- (id)_allowsEventWithRequiredButtonMask:(struct _NSZone *)arg1;
+- (void)restoreAccessoryViewConstraints;
 - (id)äG;
 - (void)Í03ySo7UITouchCG;
 - (void)*\Âõ(¼?;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detailString; // @synthesize detailString=_detailString;
-@property(nonatomic) double displayStartDate; // @synthesize displayStartDate=_displayStartDate;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

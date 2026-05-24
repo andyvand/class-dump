@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolRuntimeObjectPreview;
+@class NSString;
 
 @interface RWIProtocolRuntimePropertyPreview : RWIProtocolJSONObject
 {
@@ -29,13 +29,7 @@
 - (void) ì;
 
 // Remaining properties
-@property(nonatomic) _Bool internal;
-@property(nonatomic) _Bool isPrivate;
 @property(copy, nonatomic) NSString *name;
-@property(nonatomic) long long subtype;
-@property(nonatomic) long long type;
-@property(copy, nonatomic) NSString *value;
-@property(retain, nonatomic) RWIProtocolRuntimeObjectPreview *valuePreview;
 
 @end
 

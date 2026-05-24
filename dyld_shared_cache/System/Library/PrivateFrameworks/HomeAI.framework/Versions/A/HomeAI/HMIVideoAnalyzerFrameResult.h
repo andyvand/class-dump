@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIVideoFrame, NSSet, NSString;
+@class HMIVideoFrame;
 
 @interface HMIVideoAnalyzerFrameResult
 {
     HMIVideoFrame *_frame;
-    NSSet *_events;
-    struct CGRect _regionOfInterest;
 }
 
 + (id);
 + (_Bool);
 + (id)ô;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (id);
+- (id)	;
 - (id);
-- (id);
-- (void);
+- (void)	;
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSSet *events; // @synthesize events=_events;
-@property(readonly) HMIVideoFrame *frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
 @property(readonly) struct CGRect regionOfInterest; // @synthesize regionOfInterest=_regionOfInterest;
-@property(readonly) Class superclass;
-@property(readonly) CDStruct_1b6d18a9 time;
 
 @end
 

@@ -6,36 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSDictionary, NSString;
-
 @interface GEOConfigSetAllValueInStoreRequest : GEOXPCRequest
 {
     unsigned long long _keyOptions;
-    NSDictionary *_keyStringsAndValues;
 }
 
-+ (Class);
++ (Class)SLXLocationPinButtonCell;
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)listener:shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void)y;
+- (void)_coordinatesArray;
 - (void)Pºæþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long keyOptions; // @synthesize keyOptions=_keyOptions;
-@property(retain, nonatomic) NSDictionary *keyStringsAndValues; // @synthesize keyStringsAndValues=_keyStringsAndValues;
-@property(readonly) Class superclass;
 
 @end
 

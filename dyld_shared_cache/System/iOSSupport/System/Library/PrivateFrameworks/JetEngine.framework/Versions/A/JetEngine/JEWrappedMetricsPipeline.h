@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id pipeline;
 }
 
-- (id);
+- (id)timescale;
 - (void)ÅÿMu
 0Åÿ%Mu
 @Åÿ%Mu

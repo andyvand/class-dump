@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGFilteringStepStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id);
+- (void)ptpClock_getLocalPeerClockPortsForClient;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)izationServiceProtocol><NSXPCProxyCreating>"@"NSError">16;
+- (_Bool)SColor",C,V_borderColor;
+- (_Bool)add column is_expirable to the message table.;
 - (id);
 - (id);
-- (id)ctersInQuery;
-- (id)ata;
-- (_Bool)R_BEGINNING;
-- (_Bool)IPTIONSTATE_PREVIEW;
-- (void)emaMHAssistantDaemonAudioTwoShotPromptType;
+- (id)deleteNumCharactersInQuery;
+- (id)_hasTimingData;
+- (_Bool)UEIVOICECOMMANDTYPE_MOVE_CURSOR_BEGINNING;
+- (_Bool)FLOWAPPLEMUSICVOICEUSERSUBSCRIPTIONSTATE_PREVIEW;
+- (void)MHSchemaMHAssistantDaemonAudioTwoShotPromptType;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

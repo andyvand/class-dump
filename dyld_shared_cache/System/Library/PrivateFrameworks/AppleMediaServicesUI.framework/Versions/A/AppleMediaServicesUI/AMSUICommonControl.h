@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor;
-
 @interface AMSUICommonControl
 {
     _Bool _userInteractionEnabled;
-    _Bool _trackingMouse;
-    NSColor *_backgroundColor;
 }
 
 - (void);
@@ -19,20 +15,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)%{public}@ or modelURL:(id)arg1 %{public}@;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)te with error:(id)arg1 %@;
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void)sLargeTitles: /* Error: Ran out of types for this method. */;
-- (_Bool)rKey: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setPrefersLargeTitles: /* Error: Ran out of types for this method. */;
+- (_Bool)decodeObjectOfClass:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ByAByAC¤·=G.Ï=yØß=GGAJGAPGAPGt;
 - (void)So32AMSUIBannerMessageViewControllerC;
@@ -40,11 +36,7 @@
 - (void)´à;
 
 // Remaining properties
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) CALayer *layer;
-@property(retain) NSColor *tintColor;
 @property(getter=isTrackingMouse) _Bool trackingMouse; // @synthesize trackingMouse=_trackingMouse;
-@property(getter=isUserInteractionEnabled) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
 
 @end
 

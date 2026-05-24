@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CWFAutoJoinManager, CWFPrivateMACManager, CWFScanResult, CWFWiFiNetworkSharingManager, CWFXPCRequestProxy, NSMutableArray, NSMutableSet, NSObject, NSSet, NSString, RBSProcessMonitor;
+@class NSObject;
 @protocol CWFXPCManagerDelegate, OS_dispatch_queue;
 
 @interface CWFXPCManager
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSMutableArray *_mutableXPCListeners;
-    CWFXPCRequestProxy *_XPCRequestProxy;
-    RBSProcessMonitor *_processMonitor;
-    NSMutableSet *_processMonitorPIDs;
-    NSMutableSet *_processMonitorBundleIDs;
-    id <CWFXPCManagerDelegate> _delegate;
-    NSSet *_supportedRequestTypes;
-    CDUnknownBlockType _allowCloudSyncableNetworkHandler;
-    CDUnknownBlockType _allowNearbySyncableNetworkHandler;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)e XPC no data;
+- (void)ng"16@?<v@?@"NSDictionary"@"NSError">24;
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)(
+J;
 - (id);
 - (void);
 - (id);
@@ -39,54 +31,38 @@
 - (void);
 - (void);
 - (void);
+- (id)B;
+- (id);
+- (void)setDeviceBatteryComponentBatteryUpdatedHandler:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void)adapter;
+- (id)iskImages.framework/Versions/A/DiskImages;
 - (void);
 - (void);
+- (id)LUIIMAGE_RIBBON_DL_3LINES;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)eWithInterfaceName: /* Error: Ran out of types for this method. */;
+- (void)__apple80211FindServiceWithInterfaceName: /* Error: Ran out of types for this method. */;
 - (id)_peerMACAddress;
 - (id);
 - (void)bily_sa.4fcac896-d474-11eb-93df-f45c89abb0d9;
-- (void)cy_detected;
+- (void)bbh_latency_detected;
 - (id)LWaEB8_xIdvK4/Library/Caches/com.apple.xbs/TemporaryDirectory.kPthP0/Sources/CoreWiFi/Framework/CWFJITTDImpactEstimator.m;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType allowCloudSyncableNetworkHandler; // @synthesize allowCloudSyncableNetworkHandler=_allowCloudSyncableNetworkHandler;
-@property(copy) CDUnknownBlockType allowNearbySyncableNetworkHandler; // @synthesize allowNearbySyncableNetworkHandler=_allowNearbySyncableNetworkHandler;
-@property(copy) CWFScanResult *associatedNetwork;
-@property(readonly) CWFAutoJoinManager *autoJoinManager;
-@property(readonly) CWFAutoJoinManager *autoJoinManagerCached;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) id <CWFXPCManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CLLocation *location;
-@property(readonly) CWFPrivateMACManager *privateMACManager; // @dynamic privateMACManager;
-@property(readonly) Class superclass;
-@property(copy) NSSet *supportedRequestTypes; // @synthesize supportedRequestTypes=_supportedRequestTypes;
-@property(readonly) CWFWiFiNetworkSharingManager *wifiNetworkSharingManager;
 
 @end
 

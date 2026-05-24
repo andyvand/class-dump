@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface MSVArtworkServiceResizeRequestDestination
 {
     long long _format;
-    NSURL *_destinationURL;
-    double _compressionQuality;
-    struct CGSize _size;
 }
 
 + (id);
@@ -22,16 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize)(;
+- (void)didSelectActionOfType;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double compressionQuality; // @synthesize compressionQuality=_compressionQuality;
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
 @property(readonly, nonatomic) long long format; // @synthesize format=_format;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

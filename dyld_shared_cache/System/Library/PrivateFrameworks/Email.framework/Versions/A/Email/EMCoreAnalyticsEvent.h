@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface EMCoreAnalyticsEvent
 {
     NSString *_name;
-    NSDictionary *_data;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)count ID %@:%@ /* Error: Ran out of types for this method. */;
 - (void)!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

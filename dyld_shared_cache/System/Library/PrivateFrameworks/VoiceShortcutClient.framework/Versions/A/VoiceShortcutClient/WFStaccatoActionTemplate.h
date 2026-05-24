@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WFStaccatoActionTemplate
 {
     NSString *_identifier;
-    NSString *_sectionIdentifier;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSArray *_parameters;
-    NSString *_actionIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)x9;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(retain, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly, copy, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end
 

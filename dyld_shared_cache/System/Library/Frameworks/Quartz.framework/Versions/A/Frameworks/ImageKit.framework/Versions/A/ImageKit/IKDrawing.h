@@ -20,7 +20,7 @@
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)%@", %@, strokes:(id)arg1 %lu;
 
 @end
 

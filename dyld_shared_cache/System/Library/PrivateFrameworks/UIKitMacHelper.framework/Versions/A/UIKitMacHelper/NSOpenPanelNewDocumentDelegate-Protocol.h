@@ -5,5 +5,6 @@
 //
 
 @protocol NSOpenPanelNewDocumentDelegate
+- (void)v;
 @end
 

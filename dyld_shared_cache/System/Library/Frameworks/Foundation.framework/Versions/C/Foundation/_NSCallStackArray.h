@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCallStackArray
 {
     void **_frames;
-    unsigned long long _cnt;
-    unsigned long long _ignore;
-    char **_pcstrs;
-    _Bool _wantSyms;
 }
 
 + (id);

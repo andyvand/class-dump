@@ -11,6 +11,10 @@
 }
 
 - (void);
+- (void)candidateListTouchBarItem:(id)arg1 endSelectingCandidateAtIndex:(struct _NSRange)arg2;
+- (void);
+- (void);
+- (void)AccountsUI;
 - (void);
 - (void);
 - (void);
@@ -21,11 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

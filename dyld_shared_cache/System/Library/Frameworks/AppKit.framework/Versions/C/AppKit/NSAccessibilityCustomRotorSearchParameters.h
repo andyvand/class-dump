@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAccessibilityCustomRotorItemResult, NSString;
+@class NSAccessibilityCustomRotorItemResult;
 
 @interface NSAccessibilityCustomRotorSearchParameters
 {
     NSAccessibilityCustomRotorItemResult *_currentItem;
-    long long _searchDirection;
-    NSString *_filterString;
 }
 
 - (void);
-- (void);
+- (void)sharedCookieStorageForGroupContainerIdentifier:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain) NSAccessibilityCustomRotorItemResult *currentItem; // @synthesize currentItem=_currentItem;
-@property(copy) NSString *filterString; // @synthesize filterString=_filterString;
-@property long long searchDirection; // @synthesize searchDirection=_searchDirection;
 
 @end
 

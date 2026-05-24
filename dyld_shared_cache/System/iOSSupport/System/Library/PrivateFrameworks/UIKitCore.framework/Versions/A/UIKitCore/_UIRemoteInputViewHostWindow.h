@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id)ntSizeGivenSize: /* Error: Ran out of types for this method. */;
+- (id)intrinsicContentSizeGivenSize: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)edImageContainerModifyTransformMinHeight;
+- (void)UISolariumStackedImageContainerModifyTransformMinHeight;
 - (_Bool)IApplicationGetPrincipalClass(NSString *__strong);
 - (_Bool)s(CGSize, BOOL, CGFloat, BOOL);
 - (long long)d **, size_t *, off_t *);
 - (void)Å23øFvþ;
-- (_Bool)otView;
+- (_Bool)RootView;
 - (long long)|~;
 - (_Bool)];
 - (double)m];

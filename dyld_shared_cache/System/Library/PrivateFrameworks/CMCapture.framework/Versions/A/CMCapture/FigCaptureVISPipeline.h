@@ -6,20 +6,16 @@
 
 #import <CMCapture/FigCapturePipeline.h>
 
-@class BWFigCaptureDevice, BWMotionAttachmentsNode, BWVISNode;
+@class BWMotionAttachmentsNode;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureVISPipeline : FigCapturePipeline
 {
     BWMotionAttachmentsNode *_motionAttachmentsNode;
-    BWVISNode *_visNode;
-    BWVISNode *_sdofVISNode;
-    struct CGRect _irisVISCleanOutputRect;
-    BWFigCaptureDevice *_captureDevice;
 }
 
-+ (void)ectionCinematicExtendedEnhancedDisabled;
-- (void);
++ (void)VideoStabilizationAutoSelectionCinematicExtendedEnhancedDisabled;
+- (void)@"NSString",&,N,VmPubDate;
 
 @end
 

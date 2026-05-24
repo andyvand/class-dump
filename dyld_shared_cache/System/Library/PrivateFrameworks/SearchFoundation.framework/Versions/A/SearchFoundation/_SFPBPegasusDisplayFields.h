@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
+@class NSString;
 
 @interface _SFPBPegasusDisplayFields
 {
     NSString *_displayStatus;
-    _SFPBDate *_departureTime;
-    _SFPBDate *_arrivalTime;
 }
 
 - (void);
@@ -24,24 +22,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)populateEntryWithImage:(id)arg1 requestID:forKey:additionalInfo: /* Error: Ran out of types for this method. */;
+- (id)RecordFaceAndSceneAnalysisToAvailability;
 - (id);
 - (id);
 - (void)ion"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBDate *arrivalTime; // @synthesize arrivalTime=_arrivalTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _SFPBDate *departureTime; // @synthesize departureTime=_departureTime;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *displayStatus; // @synthesize displayStatus=_displayStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

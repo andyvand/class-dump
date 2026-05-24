@@ -6,14 +6,12 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class MapsSuggestionsCanKicker, MapsSuggestionsShortcutManager, NSObject, NSString;
-@protocol MapsSuggestionsSourceDelegate, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsShortcutSource : MapsSuggestionsBaseSource
 {
     NSObject<OS_dispatch_queue> *_queue;
-    MapsSuggestionsShortcutManager *_shortcutManager;
-    MapsSuggestionsCanKicker *_updateForcer;
 }
 
 + (_Bool);
@@ -30,14 +28,6 @@
 - (void)ribution"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSUUID, RTLearnedLocationOfInterestMO;
+@class NSUUID;
 
 @interface RTLearnedLocationOfInterestTransitionMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)populateUnderlyingErrorsStartingWithRootError:(id)arg1;
++ (id)persistentRef;
++ (id)participant_capabilities;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
 @property(retain, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) RTLearnedLocationOfInterestMO *locationOfInterest; // @dynamic locationOfInterest;
-@property(copy, nonatomic) NSNumber *predominantMotionActivityType; // @dynamic predominantMotionActivityType;
-@property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(copy, nonatomic) NSDate *stopDate; // @dynamic stopDate;
-@property(retain, nonatomic) NSUUID *visitIdentifierDestination; // @dynamic visitIdentifierDestination;
-@property(retain, nonatomic) NSUUID *visitIdentifierOrigin; // @dynamic visitIdentifierOrigin;
 
 @end
 

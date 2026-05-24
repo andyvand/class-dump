@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDeviceCapabilities, SXHost, SXMessagePresenter;
+@protocol SXHost;
 
 @interface SXPhoneNumberActionActivityProvider
 {
     id <SXHost> _host;
-    id <SXMessagePresenter> _messagePresenter;
-    id <SXDeviceCapabilities> _deviceCapabilities;
 }
 
 - (id);
@@ -27,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXDeviceCapabilities> deviceCapabilities; // @synthesize deviceCapabilities=_deviceCapabilities;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) id <SXMessagePresenter> messagePresenter; // @synthesize messagePresenter=_messagePresenter;
-@property(readonly) Class superclass;
 
 @end
 

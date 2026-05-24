@@ -9,9 +9,6 @@
 @interface PXSharedAlbumsActivityEntryAvatarConfiguration
 {
     NSString *_email;
-    NSString *_phone;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
 + (id);
@@ -20,16 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id)ramaParameters;
+- (id)PXStoryMultipartPanoramaParameters;
 - (id)¼	;
-- (id)archLabel;
+- (id)PXSharedLibrarySetupAssistant_Participants_SearchLabel;
 - (void));
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(readonly, copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly, copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(readonly, copy, nonatomic) NSString *phone; // @synthesize phone=_phone;
 
 @end
 

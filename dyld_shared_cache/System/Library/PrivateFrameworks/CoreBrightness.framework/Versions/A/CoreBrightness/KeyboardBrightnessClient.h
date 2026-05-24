@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClient, NSObject;
-@protocol OS_os_log;
+@class BrightnessSystemClient;
 
 @interface KeyboardBrightnessClient
 {
     BrightnessSystemClient *bsc;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (void);
@@ -32,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 
 @end
 

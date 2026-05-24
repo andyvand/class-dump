@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__accessibilityContent;
 + (void);
 - (_Bool);
 - (id);

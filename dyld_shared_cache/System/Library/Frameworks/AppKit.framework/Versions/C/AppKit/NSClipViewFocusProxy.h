@@ -6,8 +6,7 @@
 
 #import <AppKit/NSViewFocusProxy.h>
 
-@class NSClipView, NSString;
-@protocol UICoordinateSpace;
+@class NSClipView;
 
 @interface NSClipViewFocusProxy : NSViewFocusProxy
 {
@@ -19,22 +18,11 @@
 - (double);
 - (id);
 - (void);
-- (struct CGPoint)hAssociatedDisplay: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)initWithAssociatedDisplay: /* Error: Ran out of types for this method. */;
 - (struct CGSize)P&¶ÿV¾I;
 
 // Remaining properties
 @property(readonly) __weak NSClipView *clipView;
-@property(nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGSize visibleSize;
 
 @end
 

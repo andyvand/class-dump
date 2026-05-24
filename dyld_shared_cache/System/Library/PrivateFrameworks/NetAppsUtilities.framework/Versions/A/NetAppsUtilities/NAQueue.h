@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol NAQueueingStrategy;
+@class NSMutableArray;
 
 @interface NAQueue
 {
     NSMutableArray *_buffer;
-    id <NAQueueingStrategy> _strategy;
 }
 
 + (id);
@@ -28,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *allObjects;
 @property(readonly) unsigned long long count;
 
 @end

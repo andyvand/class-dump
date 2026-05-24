@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)erRecordCompletionBlock encountered an error.  Will try this record again on next sync. %@;
 - (unsigned long long)a!ØGùa°1Â0@ù
 × ;
 

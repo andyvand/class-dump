@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     UIImageView *_imageView;
 }
 
-- (id);
-- (id);
+- (id)ccount {note:(id)arg1 %@};
+- (id)er<ICTrackedAttributeDelegate>"8Q16^B24;
 - (void);
 - (void);
 - (id)!°Aùñð1Â0@ù
 × ;
-- (void)asAnyIrisVideoPath;
+- (void)_hasAnyIrisVideoPath;
 - (void)"IMPluginPayload",&,N,V_extensionPayloadBeingSent;
 - (void);
 

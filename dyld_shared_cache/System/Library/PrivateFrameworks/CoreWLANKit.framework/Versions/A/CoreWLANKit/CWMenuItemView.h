@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenuItem;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface CWMenuItemView
 {
     NSMenuItem *_menuItem;
-    NSArray *_images;
-    _Bool _isPopupMenuItem;
-    _Bool _menuHasCurrentNetwork;
-    double _height;
 }
 
 + (unsigned long long);
-- (id);
+- (id)�&;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)canonicalLanguageIdentifierFromString:(struct CGRect)arg1;
 
 @end
 

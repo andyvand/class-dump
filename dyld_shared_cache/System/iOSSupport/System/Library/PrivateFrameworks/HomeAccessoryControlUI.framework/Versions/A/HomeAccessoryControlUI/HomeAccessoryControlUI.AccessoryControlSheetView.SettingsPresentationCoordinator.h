@@ -8,8 +8,6 @@
 {
     id _presentSettingsSheet;
     id _settingsViewType;
-    id _source;
-    id _$observationRegistrar;
 }
 
 @end

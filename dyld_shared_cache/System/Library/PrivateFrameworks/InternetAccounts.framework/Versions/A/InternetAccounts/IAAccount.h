@@ -9,10 +9,6 @@
 @interface IAAccount
 {
     NSMutableDictionary *_attrs;
-    _Bool _persistentStorage;
-    NSString *_uid;
-    NSString *_parentUID;
-    id _private;
 }
 
 + (id);
@@ -23,15 +19,17 @@
 + (id);
 + (id);
 + (id);
++ (_Bool)J,
+
+*;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)@9;
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
 - (id);
 - (id);
 - (void);
@@ -49,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -58,7 +56,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -73,7 +71,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)
+
+*;
 - (_Bool);
 - (void);
 - (void);
@@ -82,10 +82,10 @@
 - (id);
 - (void);
 - (id);
+- (id)Z;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -105,19 +105,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void));
 
 // Remaining properties
-@property(retain) NSString *acAccountID;
-@property(retain) NSString *acAccountTypeID;
-@property(retain) NSString *accountDescription;
-@property(retain) NSString *accountType;
-@property(retain) NSString *fullName;
-@property(readonly) NSString *loginName;
-@property(retain) NSString *parentUID; // @synthesize parentUID=_parentUID;
-@property(retain) NSString *password;
-@property _Bool persistentStorage; // @synthesize persistentStorage=_persistentStorage;
-@property(readonly) NSString *provider;
 @property(retain) NSString *uid; // @synthesize uid=_uid;
 
 @end

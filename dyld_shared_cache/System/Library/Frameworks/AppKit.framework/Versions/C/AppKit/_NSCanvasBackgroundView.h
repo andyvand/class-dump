@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)ary/Caches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/fipsmodule/bn/shift.c.inc;
 
 @end
 

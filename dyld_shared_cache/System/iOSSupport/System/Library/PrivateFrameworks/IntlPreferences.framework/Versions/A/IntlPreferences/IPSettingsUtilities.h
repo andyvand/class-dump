@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)qk;
++ (void);
 + (void);
 + (void);
 + (void);

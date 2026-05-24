@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MSASPersonInfoManager
 {
     NSMutableDictionary *_personIDToPersonInfoDictionary;
-    NSString *_pathForPersonInfoDictionary;
 }
 
 + (id);
-+ (id)odel:(struct _NSZone *)arg1 didFindAssetCollectionChange:inAlbum: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
++ (id)MSASModel:(struct _NSZone *)arg1 didFindAssetCollectionChange:inAlbum: /* Error: Ran out of types for this method. */;
+- (_Bool)cause accessory is reachable;
+- (void)lic}@Not auto accepting invitation for home %@ (home zone exists:(id)arg1 %d auto accept zone exists:%d local marker present:%d /* Error: Ran out of types for this method. */;
+- (id)dded user:%@ /* Error: Ran out of types for this method. */;
+- (id)ey for current user of home %{public}@ to %{public}@;
+- (void)or restricted guest [%@];
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *pathForPersonInfoDictionary; // @synthesize pathForPersonInfoDictionary=_pathForPersonInfoDictionary;
 @property(retain, nonatomic) NSMutableDictionary *personIDToPersonInfoDictionary; // @synthesize personIDToPersonInfoDictionary=_personIDToPersonInfoDictionary;
 
 @end

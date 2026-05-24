@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
+@class IFColor;
 
 @interface ISClippingRecipe
 {
@@ -12,27 +12,20 @@
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)40@0:8^@16^@24^@32 /* Error: Ran out of types for this method. */;
+- (id)=qq}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)0:8 /* Error: Ran out of types for this method. */;
+- (id)6b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)={__CFRuntimeBase=QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)0:8@16@24 /* Error: Ran out of types for this method. */;
+- (id)scanString:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) IFColor *badgeTintColor; // @synthesize badgeTintColor=_badgeTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

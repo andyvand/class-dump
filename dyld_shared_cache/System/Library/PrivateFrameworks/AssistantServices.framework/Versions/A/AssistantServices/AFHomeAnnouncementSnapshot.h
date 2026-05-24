@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeAnnouncement, NSString;
-
 @interface AFHomeAnnouncementSnapshot
 {
     unsigned long long _state;
-    AFHomeAnnouncement *_lastPlayedAnnouncement;
 }
 
 + (id);
 + (_Bool);
+- (id)tor;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (unsigned long long)H;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)FromComponents: /* Error: Ran out of types for this method. */;
+- (void)localeIdentifierFromComponents: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) AFHomeAnnouncement *lastPlayedAnnouncement; // @synthesize lastPlayedAnnouncement=_lastPlayedAnnouncement;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

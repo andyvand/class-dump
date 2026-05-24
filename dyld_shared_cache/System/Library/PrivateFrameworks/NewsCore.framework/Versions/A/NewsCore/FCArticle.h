@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleContent, FCFetchOperation, NSError, NSObject, NSString;
-@protocol FCHeadlineProviding, OS_dispatch_group;
+@class NSObject, NSString;
+@protocol OS_dispatch_group;
 
 @interface FCArticle
 {
     NSString *_articleID;
-    id <FCHeadlineProviding> _headline;
-    FCArticleContent *_content;
-    NSObject<OS_dispatch_group> *_fetchGroup;
-    NSError *_fetchError;
-    FCFetchOperation *_headlineFetchOperation;
 }
 
-- (void);
+- (void)˿;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)s;
 - (id);
 - (id);
 - (void);
@@ -34,15 +29,10 @@
 - (void);
 - (id)T@"FCColor",&,N,V_themeColor;
 - (id)8d;
-- (void)OAEnabledLevel;
+- (void)moreToReadEOAEnabledLevel;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(retain, nonatomic) FCArticleContent *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchGroup; // @synthesize fetchGroup=_fetchGroup;
-@property(retain, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
-@property(retain, nonatomic) FCFetchOperation *headlineFetchOperation; // @synthesize headlineFetchOperation=_headlineFetchOperation;
 
 @end
 

@@ -9,11 +9,10 @@
 @interface SiriInference.IntDictionaryFeatureProvider
 {
     id values;
-    void featureNames;
 }
 
 - (id);
-- (id);
+- (id)SdG;
 
 // Remaining properties
 @property(nonatomic, readonly) NSSet *featureNames;

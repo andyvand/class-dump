@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface UnknownClass (TSDUIView)
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)iption;
+- (double)erview.recursiveDescription;
+- (id)lViewController.view;
+- (void)alController.allowsPictureInPicturePlayback;
+- (void)Controller.isPictureInPictureActive;
+- (void)er.isReadyForDisplay;
+- (void)ty;
+- (void)tem.presentationSize;
+- (void)ve;
+- (void)PAVItem class]];
+- (void)fromItem isKindOfClass:(double)arg1 [MPAVItem class]];
+- (void)previousItemAssetType;
 - (id);
 
 // Remaining properties
 @property(nonatomic) double tsdAlpha;
-@property(copy, nonatomic) UIColor *tsdBackgroundColor;
 @end
 

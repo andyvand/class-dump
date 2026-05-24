@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSHashTable, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerLinkedLabelStorage
 {
     UILabel *_sizingLabel;
-    NSHashTable *_attachedLabels;
-    unsigned long long _currentPriority;
-    NSCache *_sizeCache;
 }
 
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
+- (void)ic}s] Failed to expire:(struct CGSize)arg1 %@;
+- (void)executing:%@ /* Error: Ran out of types for this method. */;
+- (void)erge;
+- (void)nt session with ID:(id)arg1 %@;
+- (_Bool)isEligibleForTruthZoneOverride;
 - (void);
 - (id);
 - (unsigned long long);

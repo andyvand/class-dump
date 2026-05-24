@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSBusinessCacheUpdater, NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestBusinessProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    CLSBusinessCacheUpdater *_businessCacheUpdater;
 }
 
-+ (unsigned long long);
++ (unsigned long long)AXFocused;
 + (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)setIsPreFetchInfo:(id)arg1;
+- (id)screenAboveScreen:(id)arg1 closestToPoint: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -26,16 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void)rOfAssetsInCollections;
+- (void)medianNumberOfAssetsInCollections;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,41 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSMutableArray, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface SUScan
 {
     NSURL *catalogURL;
-    NSArray *previousProducts;
-    NSArray *preferredLocalizations;
-    _Bool dontRunMakeQueues;
-    NSDictionary *installedPrinters;
-    _Bool shouldBuildCacheOnly;
-    NSArray *filteredProductKeys;
-    _Bool ignorePPDVersionCache;
-    NSDictionary *distributionEnvironment;
-    _Bool isBackgroundScan;
-    double _progressValue;
-    _Bool _isExecuting;
-    int _productsCount;
-    int _productsComplete;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSArray *installableProducts;
-    NSMutableArray *_packageSources;
-    NSError *_error;
-    _Bool _didLoadAllResourcesSuccessfully;
-    unsigned short scanTimeout;
-    NSDictionary *_distributionEvaluationMetainfo;
-    NSArray *_filteredProductTypes;
 }
 
 + (long long);
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,13 +30,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (bycopy id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)A#;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -75,22 +53,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool)round;
-- (id)zationFailed;
+- (id)SUErrorCodePersonalizationFailed;
 
 // Remaining properties
 @property(retain) NSURL *catalogURL; // @synthesize catalogURL;
-@property(retain) NSDictionary *distributionEnvironment; // @synthesize distributionEnvironment;
-@property(retain) NSDictionary *distributionEvaluationMetainfo; // @synthesize distributionEvaluationMetainfo=_distributionEvaluationMetainfo;
-@property _Bool dontRunMakeQueues; // @synthesize dontRunMakeQueues;
-@property(retain) NSArray *filteredProductKeys; // @synthesize filteredProductKeys;
-@property(retain) NSArray *filteredProductTypes; // @synthesize filteredProductTypes=_filteredProductTypes;
-@property _Bool ignorePPDVersionCache; // @synthesize ignorePPDVersionCache;
-@property(retain) NSDictionary *installedPrinters; // @synthesize installedPrinters;
-@property _Bool isBackgroundScan; // @synthesize isBackgroundScan;
-@property(retain) NSArray *preferredLocalizations; // @synthesize preferredLocalizations;
-@property(retain) NSArray *previousProducts; // @synthesize previousProducts;
-@property unsigned short scanTimeout; // @synthesize scanTimeout;
-@property _Bool shouldBuildCacheOnly; // @synthesize shouldBuildCacheOnly;
 
 @end
 

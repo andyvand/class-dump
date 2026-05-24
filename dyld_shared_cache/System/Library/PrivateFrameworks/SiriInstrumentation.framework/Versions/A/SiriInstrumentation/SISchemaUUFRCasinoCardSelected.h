@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaUUFRCasinoCardSelected : SISchemaInstrumentationMessage
 {
     NSString *_cardSectionId;
-    int _ordinalCardSectionPosition;
-    NSString *_snippetAceId;
-    struct {
-        unsigned int ordinalCardSectionPosition:1;
-    } _has;
-    _Bool _hasCardSectionId;
-    _Bool _hasSnippetAceId;
 }
 
-- (id);
+- (id)H#;
 - (void);
 - (void);
 - (void);
@@ -37,23 +30,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)getTestFlightFeedbackServiceWithReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)PA;
+- (_Bool)_message, date DESC) WHERE is_read = 0 AND is_from_me = 0 AND item_type = 0 AND is_finished = 1 AND is_system_message = 0;
 - (id);
 - (id);
-- (id)nchEvent;
+- (id)deleteHasAppLaunchEvent;
 - (id)_hasDialogScorer;
-- (void)VICENAME_CORRECTED_UTTERANCE_TOKENIZE;
+- (void)CDMSERVICENAME_CORRECTED_UTTERANCE_TOKENIZE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cardSectionId; // @synthesize cardSectionId=_cardSectionId;
-@property(nonatomic) _Bool hasCardSectionId; // @synthesize hasCardSectionId=_hasCardSectionId;
-@property(nonatomic) _Bool hasOrdinalCardSectionPosition;
-@property(nonatomic) _Bool hasSnippetAceId; // @synthesize hasSnippetAceId=_hasSnippetAceId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int ordinalCardSectionPosition; // @synthesize ordinalCardSectionPosition=_ordinalCardSectionPosition;
-@property(copy, nonatomic) NSString *snippetAceId; // @synthesize snippetAceId=_snippetAceId;
 
 @end
 

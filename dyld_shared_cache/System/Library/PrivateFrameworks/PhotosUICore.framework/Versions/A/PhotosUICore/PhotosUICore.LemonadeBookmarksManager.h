@@ -7,16 +7,6 @@
 @interface PhotosUICore.LemonadeBookmarksManager
 {
     id dataSource;
-    id photoLibrary;
-    id sharedAlbumsObserver;
-    id utilityAlbumsObserver;
-    id preferenceValues;
-    id preferenceChangeObservation;
-    id __loadingStatus;
-    id _bookmarks;
-    id pendingBookmarksResult;
-    id _observable;
-    id _$observationRegistrar;
 }
 
 @end

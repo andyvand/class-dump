@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool).iCal.CalendarWidgetExtension;
++ (_Bool)macOS;
 
 @end
 

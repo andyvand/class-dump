@@ -11,7 +11,6 @@
 @interface PKHandwritingSynthesisProofreadingLogEntry : PKHandwritingSynthesisLogEntry
 {
     NSArray *_generatedStrokes;
-    NSArray *_replacedStrokes;
 }
 
 - (id);

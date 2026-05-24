@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface RPLegacySessionMessage
 {
     NSDictionary *_message;
-    NSDictionary *_options;
-    NSString *_requestID;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)sult:(id)arg1;
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
-- (void);
+- (void)=;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

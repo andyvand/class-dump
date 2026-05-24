@@ -5,9 +5,11 @@
 //
 
 @class MTLComputePipelineReflection, NSString;
-@protocol MTLDevice, MTLFunctionHandle;
+@protocol MTLComputePipelineState, MTLFunctionHandle;
 
 @protocol MTLComputePipelineState
+- (unsigned long long)!;
+- (id <MTLComputePipelineState>);
 - (unsigned long long)r|    utru~~~~vz~|Xi`rOg^r`xv}rozy}ttttllllS^UdS\RdkkhkZkinGa[kHd`k\gcgGTI[JPBWffcf||||b~|euo}crj}^}y`}Zof}Nk`{rrrrI[RaU]V_eeeehhhhbf`kltruut|zy|Ob[ojjhj`_Z`HVP[;
 - (MTLComputePipelineReflection *)mzupTwqr{w~}|zwcqlxW_SmC[Olvvtv}}}}xxxxppppmurx³³³³²²²²_to{kpitd|zpxxxxooookkkkhhehRZNgTe\s    ¡}{wwwwjjjjNWL`GZOkIZPeKJ9URc\jbk|y©©©©££££{ssssmmfmpmfuz ¦¦¯¯¯¯¢¦wwwwIYQ`````llllssss|{{|i{{Hicvuuuuppppdmhp¡¡¡¡{ ¦txUjawSg_qvvvvuuuuckgmOe_l{{{{>^Sq'F4[X[S[\dddpojp¢¢¢¢¦¦¦¦qKWKc1B0QFQEXQc\errrrcroxssqsWniu[qo{zzzzlmkm?SH^ERGYO]W^ghhhuuuuxxxxhmftiuo    ¶¶¶¶´´´´_upfmerxxxxlq]{zOibC]Vn3OE_^^^^\\\\LWPYX^Xczzzz{BgazSqk}TbUrbh\tr{u¤¤¤¤®®®®§§§§Yqk}bpiw}}{}syyyysssswyu|lwq}Sqk~w}Kg[}boh~    t{w{stntzzvz¤¤¤¤rwu~`d[heecerrrr~~~~ssss;J;V,:&GVVTVllllzzzz~~~~zyuzXpizxdd]dNWLYddddn{{{|~m|oun_sm~hsnw[hamYd\hfmjmsvuvv}}m{wiws_sm}usnwYg`pllilhhhhLaYgpppp||||~~~~Ulc~e}yllllU`]`____U]W^:SI`ZaZiinknjjhjWgbglllluusut{{xxxxjjhjWicoswlyvOme}p¡¡¡¡¡¡¡¡dd_d<D3J2=+D?E7P?XReuuuunrrr``^`HQGYljilRgbwztqz   ¡¡¡¡}}{}kkem^f_jtttt||||yyyynrrrqqqqz||||~yh{vxxxx]nkvj~]tn¢¢¢¢hsn|I[OhhhdhppppttttakfrXieuzzzzetttZ`Xc7L?YQc\f}}}}jurs}{tuusuVjcnjlfoNf_m:UHh>aVt¡¡¡¡zpqlsATHecidkrrrrdlllP^WaXXSX@PEUH\U_qqqqqvun|uofuYlfvbnjsF`ZhUZQ\ZZUZddddpppp||||qªªªª±±±±¥¥¥¥ssssccYcEZNfkxuzgup~KbWu}xs}ui{wjxsyytKeYwRj`{¡¥¥¥¦¦¦¦zzzzP`UfIUH`\`Xejljmnnnnaaaa4J@PIKDKTTTTE\Sdour}ªªªªiuoE\MqWmcyp|zuuuuddddPVL\jiej /* Error: Ran out of types for this method. */;
 - (_Bool)mputeSmoothedFWidthTransformed(sampler s, vec2 dc, float scale) {
@@ -52,18 +54,8 @@ kernel vec4 _glow(sampler s, float radius, float bias_amount, vec4 color, float 
 }
 ;
 - (id <MTLFunctionHandle>)DÀ;
-- (long long);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) CDStruct_da2e99ad requiredThreadsPerThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) unsigned long long threadExecutionWidth;
 @end
 

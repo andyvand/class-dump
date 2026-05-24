@@ -4,50 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPDateStatistics, CKDPIdentifier, CKDPProtectionInfo, CKDPProtectionInfoKeysToRemove, CKDPRecordChainParent, CKDPRecordCryptoFeatureSet, CKDPRecordIdentifier, CKDPRecordOneTimeStableUrlInfo, CKDPRecordStableUrl, CKDPRecordType, CKDPShare, CKDPShareIdentifier, CKDPStorageExpiration, NSData, NSMutableArray, NSString;
+@class CKDPRecordCryptoFeatureSet;
 
 @interface CKDPRecord
 {
     CKDPRecordCryptoFeatureSet *_appliedCryptoFeatures;
-    CKDPRecordChainParent *_chainParent;
-    NSData *_chainPrivateKey;
-    CKDPProtectionInfo *_chainProtectionInfo;
-    CKDPProtectionInfoKeysToRemove *_chainProtectionInfoKeysToRemove;
-    NSMutableArray *_conflictLoserEtags;
-    CKDPIdentifier *_createdBy;
-    NSString *_etag;
-    CKDPDate *_expirationTime;
-    NSMutableArray *_fields;
-    CKDPIdentifier *_modifiedBy;
-    NSString *_modifiedByDevice;
-    CKDPRecordOneTimeStableUrlInfo *_oneTimeStableUrlInfo;
-    int _permission;
-    NSMutableArray *_pluginFields;
-    CKDPProtectionInfo *_protectionInfo;
-    CKDPProtectionInfoKeysToRemove *_protectionInfoKeysToRemove;
-    CKDPRecordIdentifier *_recordIdentifier;
-    CKDPShareIdentifier *_shareId;
-    CKDPShare *_shareInfo;
-    CKDPRecordStableUrl *_stableUrl;
-    CKDPStorageExpiration *_storageExpiration;
-    CKDPDateStatistics *_timeStatistics;
-    NSMutableArray *_tombstonedPublicKeyIDs;
-    CKDPRecordType *_type;
-    NSData *_zoneishPrimaryKeyId;
-    _Bool _expired;
-    struct {
-        unsigned int permission:1;
-        unsigned int expired:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-+ (Class);
++ (Class)3;
 + (Class);
 + (id);
-- (id);
-- (id);
+- (id)UsoTask_convert_common_DateTimeRange;
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -77,64 +47,101 @@
 - (id);
 - (id);
 - (void);
+- (void)";
+- (_Bool);
+- (_Bool)ontext went away.
+;
+- (unsigned long long)] Data underrun in the input sample buffer queue
+;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id)setRoamingActiveTime: /* Error: Ran out of types for this method. */;
+- (void)setInstantHotspotClientConnectCount:(id)arg1;
+- (id)#error opening log file %s (%s) for writing;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)oSig:(id)arg1 hmacKey:hmacSig: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)IDChangesKey;
+- (id)EDMessageTransformer;
+- (_Bool)e:message:mailbox:] .. %@ /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (int);
+- (int)01)
+        X509v3 extensions:(id)arg1 X509v3 Key Usage:critical
+                Digital Signature, Certificate Sign, CRL Sign
+            X509v3 Basic Constraints:critical
+                CA:TRUE
+            X509v3 Subject Key Identifier:38:05:20:A9:3F:C6:79:F4:EC:9A:6F:7F:47:02:5E:6E:A4:79:11:F5
+            X509v3 Authority Key Identifier:keyid:45:A2:4C:A9:8A:5B:4A:27:5E:85:A6:4D:05:1C:27:44:A5:87:76:17
+
+            X509v3 CRL Distribution Points:URI:http://www.apple.com/appleca/iphone.crl
+
+    Signature Algorithm:sha1WithRSAEncryption
+        8d:be:6b:c8:4e:80:9e:78:86:0c:09:d0:6e:ed:c1:dc:30:f7:29:4b:20:4e:2c:6c:b3:24:72:fd:ce:24:34:60:95:30:d7:32:61:31:e5:d4:d5:63:aa:3f:89:81:f6:44:ab:71:d0:bc:17:db:ab:bc:ec:bb:a4:40:6a:e7:e4:57:c6:28:6f:11:72:fc:0c:51:07:31:db:40:54:ee:b5:e6:1e:e3:dc:9b:f9:3c:6a:ba:d8:c3:20:f1:dd:49:cb:3a:a6:29:cd:52:f9:f3:f3:18:5e:dd:82:83:b8:e8:4e:94:10:7a:1e:11:a0:63:4d:8e:60:4a:1d:45:72:4d:a0:ac:1f:b0:98:8b:b4:33:5a:85:60:cf:7f:89:35:62:65:d1:1b:48:a4:ec:ca:60:1a:9d:a6:d1:b9:3d:f3:64:a4:67:d1:a5:1b:b6:d9:e7:65:75:cb:af:2f:7a:db:d8:a1:f4:f3:09:bf:9a:99:1a:34:a6:ed:1f:82:84:0b:b6:a8:68:5d:ec:49:d4:b3:34:84:af:cb:a4:d9:00:f0:bc:07:6c:17:e7:95:bb:c3:3d:d9:bb:6a:13:1d:34:bd:2f:c1:9a:f1:4d:67:5f:56:33:90:b2:ef:ff:27:da:19:60:55:b0:78:c2:8c:34:5b:61:3a:e1:ec:61:92:8b:2f:04:9a:c6
+-----BEGIN CERTIFICATE-----
+MIIDeDCCAmCgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBgDELMAkGA1UEBhMCVVMx
+EzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRp
+b24gQXV0aG9yaXR5MTQwMgYDVQQDFCtbVEVTVF0gQXBwbGUgaVBob25lIENlcnRp
+ZmljYXRpb24gQXV0aG9yaXR5MB4XDTA3MDMyMTA2MjA1MFoXDTIyMDMxMjA2MjA1
+MFowYTELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xFTATBgNVBAsT
+DEFwcGxlIGlQaG9uZTEmMCQGA1UEAxQdW1RFU1RdIEFwcGxlIGlQaG9uZSBEZXZp
+Y2UgQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANdgUir6k1Lc266Sa9as
+WRcfmiDtNK7CFejj8DtjhNhtjQJldOZiGCfR/HjDLzaDOZGfPTLglX+QO6tHvvFH
+hYxdqxxcuxBpR1a4Fb80SvBJboo1Sk9Huz7qzN8u9LiWFpTdOPbwgs8m/WehcwFD
+2CW9AiyCiXxwAWjCioVghHeDAgMBAAGjgZ4wgZswDgYDVR0PAQH/BAQDAgGGMA8G
+A1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFDgFIKk/xnn07Jpvf0cCXm6keRH1MB8G
+A1UdIwQYMBaAFEWiTKmKW0onXoWmTQUcJ0Slh3YXMDgGA1UdHwQxMC8wLaAroCmG
+J2h0dHA6Ly93d3cuYXBwbGUuY29tL2FwcGxlY2EvaXBob25lLmNybDANBgkqhkiG
+9w0BAQUFAAOCAQEAjb5ryE6AnniGDAnQbu3B3DD3KUsgTixssyRy/c4kNGCVMNcy
+YTHl1NVjqj+JgfZEq3HQvBfbq7zsu6RAaufkV8YobxFy/AxRBzHbQFTuteYe49yb
++TxqutjDIPHdScs6pinNUvnz8xhe3YKDuOhOlBB6HhGgY02OYEodRXJNoKwfsJiL
+tDNahWDPf4k1YmXRG0ik7MpgGp2m0bk982SkZ9GlG7bZ52V1y68vetvYofTzCb+a
+mRo0pu0fgoQLtqhoXexJ1LM0hK/LpNkA8LwHbBfnlbvDPdm7ahMdNL0vwZrxTWdf
+VjOQsu//J9oZYFWweMKMNFthOuHsYZKLLwSaxg==
+-----END CERTIFICATE----- /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)hain changed notifications;
 - (_Bool);
-- (void);
+- (void)prekey containing a Kyber key:(id)arg1 %@ 
+ signature:%@ 
+ timestamp:%f 
+ because of error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -143,7 +150,7 @@
 - (id);
 - (id)0@ù
 × ;
-- (void)questingAccessUsers;
+- (void)clearRequestingAccessUsers;
 - (id)N,V_encryptedKey;
 - (void)&,N,V_encryptedMergeableValue;
 - (_Bool)tationRequest",&,N,V_attestationRequest;
@@ -161,56 +168,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPRecordCryptoFeatureSet *appliedCryptoFeatures; // @synthesize appliedCryptoFeatures=_appliedCryptoFeatures;
-@property(retain, nonatomic) CKDPRecordChainParent *chainParent; // @synthesize chainParent=_chainParent;
-@property(retain, nonatomic) NSData *chainPrivateKey; // @synthesize chainPrivateKey=_chainPrivateKey;
-@property(retain, nonatomic) CKDPProtectionInfo *chainProtectionInfo; // @synthesize chainProtectionInfo=_chainProtectionInfo;
-@property(retain, nonatomic) CKDPProtectionInfoKeysToRemove *chainProtectionInfoKeysToRemove; // @synthesize chainProtectionInfoKeysToRemove=_chainProtectionInfoKeysToRemove;
-@property(retain, nonatomic) NSMutableArray *conflictLoserEtags; // @synthesize conflictLoserEtags=_conflictLoserEtags;
-@property(retain, nonatomic) CKDPIdentifier *createdBy; // @synthesize createdBy=_createdBy;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) CKDPDate *expirationTime; // @synthesize expirationTime=_expirationTime;
-@property(nonatomic) _Bool expired; // @synthesize expired=_expired;
-@property(retain, nonatomic) NSMutableArray *fields; // @synthesize fields=_fields;
-@property(readonly, nonatomic) _Bool hasAppliedCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasChainParent;
-@property(readonly, nonatomic) _Bool hasChainPrivateKey;
-@property(readonly, nonatomic) _Bool hasChainProtectionInfo;
-@property(readonly, nonatomic) _Bool hasChainProtectionInfoKeysToRemove;
-@property(readonly, nonatomic) _Bool hasCreatedBy;
 @property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasExpirationTime;
-@property(nonatomic) _Bool hasExpired;
-@property(readonly, nonatomic) _Bool hasModifiedBy;
-@property(readonly, nonatomic) _Bool hasModifiedByDevice;
-@property(readonly, nonatomic) _Bool hasOneTimeStableUrlInfo;
-@property(nonatomic) _Bool hasPermission;
-@property(readonly, nonatomic) _Bool hasProtectionInfo;
-@property(readonly, nonatomic) _Bool hasProtectionInfoKeysToRemove;
-@property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasShareId;
-@property(readonly, nonatomic) _Bool hasShareInfo;
-@property(readonly, nonatomic) _Bool hasStableUrl;
-@property(readonly, nonatomic) _Bool hasStorageExpiration;
-@property(readonly, nonatomic) _Bool hasTimeStatistics;
-@property(readonly, nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasZoneishPrimaryKeyId;
-@property(retain, nonatomic) CKDPIdentifier *modifiedBy; // @synthesize modifiedBy=_modifiedBy;
-@property(retain, nonatomic) NSString *modifiedByDevice; // @synthesize modifiedByDevice=_modifiedByDevice;
-@property(retain, nonatomic) CKDPRecordOneTimeStableUrlInfo *oneTimeStableUrlInfo; // @synthesize oneTimeStableUrlInfo=_oneTimeStableUrlInfo;
-@property(nonatomic) int permission; // @synthesize permission=_permission;
-@property(retain, nonatomic) NSMutableArray *pluginFields; // @synthesize pluginFields=_pluginFields;
-@property(retain, nonatomic) CKDPProtectionInfo *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
-@property(retain, nonatomic) CKDPProtectionInfoKeysToRemove *protectionInfoKeysToRemove; // @synthesize protectionInfoKeysToRemove=_protectionInfoKeysToRemove;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
-@property(retain, nonatomic) CKDPShare *shareInfo; // @synthesize shareInfo=_shareInfo;
-@property(retain, nonatomic) CKDPRecordStableUrl *stableUrl; // @synthesize stableUrl=_stableUrl;
-@property(retain, nonatomic) CKDPStorageExpiration *storageExpiration; // @synthesize storageExpiration=_storageExpiration;
-@property(retain, nonatomic) CKDPDateStatistics *timeStatistics; // @synthesize timeStatistics=_timeStatistics;
-@property(retain, nonatomic) NSMutableArray *tombstonedPublicKeyIDs; // @synthesize tombstonedPublicKeyIDs=_tombstonedPublicKeyIDs;
-@property(retain, nonatomic) CKDPRecordType *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSData *zoneishPrimaryKeyId; // @synthesize zoneishPrimaryKeyId=_zoneishPrimaryKeyId;
 
 @end
 

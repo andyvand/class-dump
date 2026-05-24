@@ -5,5 +5,6 @@
 //
 
 @protocol MTLIndirectComputeCommand
+- (void)inputColorNoiseReductionAmount;
 @end
 

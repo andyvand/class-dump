@@ -5,5 +5,9 @@
 //
 
 @protocol BUStarfieldTimelineItem
+
+@optional
+- (unsigned long long);
+- (_Bool);
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSMutableArray;
+@class CLLocation;
 
 __attribute__((visibility("hidden")))
 @interface HMDLocationClusterGroup
 {
     CLLocation *_center;
-    NSMutableArray *_locations;
 }
 
 - (id);
-- (id);
+- (id)y;
 - (id);
 - (id)ications to be enabled for current access mode:%@, notification settings:%@ /* Error: Ran out of types for this method. */;
 - (void)gs;
 
 // Remaining properties
 @property(readonly, copy) CLLocation *center; // @synthesize center=_center;
-@property(readonly) NSMutableArray *locations; // @synthesize locations=_locations;
 
 @end
 

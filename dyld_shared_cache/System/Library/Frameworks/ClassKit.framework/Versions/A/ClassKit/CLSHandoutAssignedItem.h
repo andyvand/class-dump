@@ -6,36 +6,33 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class CLSActivity, NSMutableSet, NSString;
+@class NSString;
 
 @interface CLSHandoutAssignedItem : CLSObject
 {
     NSString *_currentActivityID;
-    NSString *_title;
-    NSString *_identifier;
-    CLSActivity *_currentActivity;
-    NSMutableSet *_bundleIDs;
-    int _type;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_custodianRecoveryToken;
 - (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
+- (void)ANEServicesDeviceSendRequest;
+- (id)n %s at %d ;
+- (long long):%d
+ /* Error: Ran out of types for this method. */;
+- (id)ead_attr_init() failed. Error:%d
+ /* Error: Ran out of types for this method. */;
+- (id)amfi_allow_any_signature=1 for loading customer FW;
+- (void)oid *, const void *, uint32_t &);
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id)ndRequestForEstablishedConnection:%{public}@ completionHandler:%{public}@] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_accessKey;
+- (void)custodian-appleaccount/resend-invite;
 - (id);
 - (long long);
 - (void);
@@ -43,19 +40,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSMutableSet *bundleIDs;
-@property(readonly, nonatomic) CLSActivity *currentActivity;
-@property(copy, nonatomic) NSString *currentActivityID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

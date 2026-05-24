@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)�(;
 - (id);
 - (id);
-- (id);
+- (id)=[2d]}16@?0@"FBSSettings"8;
 - (int);
 
 // Remaining properties

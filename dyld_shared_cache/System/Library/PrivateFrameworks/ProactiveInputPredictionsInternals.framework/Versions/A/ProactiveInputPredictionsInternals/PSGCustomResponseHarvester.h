@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSFileManager, NSMutableDictionary, NSString, PETEventTracker2;
+@class NSMutableDictionary;
 @protocol SGXPCActivityManagerProtocol;
 
 @interface PSGCustomResponseHarvester
 {
     id <SGXPCActivityManagerProtocol> _xpcActivityManager;
-    PETEventTracker2 *_pet2tracker;
-    NSFileManager *_fManager;
-    NSString *_checkpointFullPath;
-    NSString *_preferredLanguage;
-    int _customResponsesStep;
-    NSDate *_latestProcessedDate;
-    unsigned long long _batchSize;
-    NSString *_modelFilePath;
-    NSString *_modelConfigPath;
-    NSString *_modelVocabPath;
-    NSString *_storeDirectory;
-    NSMutableDictionary *_modelExistsForLanguage;
 }
 
 + (void);
@@ -29,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (int);
 - (id);
@@ -44,7 +32,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)stringWithUTF8String: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *modelExistsForLanguage; // @synthesize modelExistsForLanguage=_modelExistsForLanguage;

@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSArray;
 
 @interface _GCIPCRemoteProcess
 {
     int _auditSessionIdentifier;
-    int _processIdentifier;
-    unsigned int _effectiveUserIdentifier;
-    unsigned int _effectiveGroupIdentifier;
-    NSString *_bundleIdentifier;
-    NSArray *_connections;
-    NSMutableSet *_connectionInvalidationRegistrations;
-    CDStruct_4c969caf _auditToken;
 }
 
 - (void);
-- (void);
+- (void)Hl;
 - (_Bool);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)updateFileSize:ofThumbnailForURL:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)JJ*	;
 - (int);
 - (unsigned int);
 - (id);
 - (void);
 - (id)24@"NSArray"32;
-- (void);
+- (void)secureInputPid;
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) int auditSessionIdentifier; // @synthesize auditSessionIdentifier=_auditSessionIdentifier;
-@property(readonly) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSMutableSet *connectionInvalidationRegistrations; // @synthesize connectionInvalidationRegistrations=_connectionInvalidationRegistrations;
 @property(copy) NSArray *connections; // @synthesize connections=_connections;
-@property(readonly) unsigned int effectiveGroupIdentifier; // @synthesize effectiveGroupIdentifier=_effectiveGroupIdentifier;
-@property(readonly) unsigned int effectiveUserIdentifier; // @synthesize effectiveUserIdentifier=_effectiveUserIdentifier;
-@property(readonly) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
 
 @end
 

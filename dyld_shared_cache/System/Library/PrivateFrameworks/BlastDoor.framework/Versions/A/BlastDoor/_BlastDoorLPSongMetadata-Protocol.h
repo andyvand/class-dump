@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol _BlastDoorLPSongMetadata
-- (void)eIdentifierOverrideForPushTopicGeneration;
+- (void)applicationBundleIdentifierOverrideForPushTopicGeneration;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album;
-@property(copy, nonatomic) NSString *artist;
 @property(copy, nonatomic) NSString *name;
 @end
 

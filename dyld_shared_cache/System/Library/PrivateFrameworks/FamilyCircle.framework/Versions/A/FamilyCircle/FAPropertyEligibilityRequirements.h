@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FAPropertyEligibilityRequirements
 {
     _Bool _hasRecommendedMembers;
-    _Bool _serverEligibility;
-    NSString *_propertyName;
-    NSString *_expectedMediaAltDSID;
-    NSArray *_activeBundleIDs;
-    id _serverPayload;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)@;
+- (_Bool)_figContentKeySession;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_tryFetchingSharingURL;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *activeBundleIDs; // @synthesize activeBundleIDs=_activeBundleIDs;
-@property(readonly, copy, nonatomic) NSString *expectedMediaAltDSID; // @synthesize expectedMediaAltDSID=_expectedMediaAltDSID;
-@property(readonly, nonatomic) _Bool hasRecommendedMembers; // @synthesize hasRecommendedMembers=_hasRecommendedMembers;
 @property(readonly, copy, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(readonly, nonatomic) _Bool serverEligibility; // @synthesize serverEligibility=_serverEligibility;
-@property(readonly, nonatomic) id serverPayload; // @synthesize serverPayload=_serverPayload;
 
 @end
 

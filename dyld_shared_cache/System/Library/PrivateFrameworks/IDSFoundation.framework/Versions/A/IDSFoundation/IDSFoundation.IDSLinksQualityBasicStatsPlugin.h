@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityBasicStatsPlugin
 {
     id name;
-    id timeSource;
-    id interval;
-    id state;
 }
 
 @end

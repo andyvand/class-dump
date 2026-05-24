@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MLBatchProvider;
-
 @interface MLProgramEvaluationResult
 {
     double _loss;
-    id <MLBatchProvider> _evaluationMetrics;
 }
 
 @end

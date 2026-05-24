@@ -8,14 +8,12 @@
 @protocol PFStoryRecipeStyle;
 
 @protocol PFStoryMutableRecipe
+- (void);
+- (void);
+- (NSDictionary *)_TtCO10Accelerate4BNNS10UnaryLayer;
+- (id <PFStoryRecipeStyle>);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *autoEditDecisionLists;
 @property(copy, nonatomic) NSString *contentIdentifier;
-@property(copy, nonatomic) id <PFStoryRecipeStyle> currentStyle;
-@property(nonatomic) long long majorVersion;
-@property(nonatomic) long long minorVersion;
-@property(nonatomic) CDStruct_5d4c7ed3 overallDurationInfo;
-@property(copy, nonatomic) NSDictionary *seedSongIdentifiersByCatalog;
 @end
 

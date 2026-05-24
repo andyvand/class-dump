@@ -9,37 +9,31 @@
 @interface FMStopwatch
 {
     NSString *_label;
-    NSString *_comment;
-    unsigned long long _startTime;
-    unsigned long long _endTime;
 }
 
-+ (id);
-+ (id);
++ (id)_currentTimeLimit;
++ (id)URLWithString: /* Error: Ran out of types for this method. */;
++ (void)V_informative;
++ (void),V_maxDetectionTimeout;
 + (void);
 + (void);
-+ (void);
-+ (void);
-- (void);
-- (id);
+- (void)_touchIDRequired;
+- (id)_restrictedPerformanceMode;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (void);
 - (void);
-- (void)Set;
+- (void)lowercaseLetterCharacterSet;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *comment; // @synthesize comment=_comment;
-@property(nonatomic) unsigned long long endTime; // @synthesize endTime=_endTime;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long startTime; // @synthesize startTime=_startTime;
 
 @end
 

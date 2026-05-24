@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(nonatomic) _Bool enableBarrier;
-@property(readonly) _Bool supportsRollback;
 @end
 

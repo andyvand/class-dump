@@ -14,9 +14,9 @@
 + (id);
 + (void)irCreated=%d;
 - (void);
+- (void)RG;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,23 +32,23 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void)òJBÚÒª"º²
 jâzrÊÂZR*¢:2êkóûCKÓÛ£+³»cës{ÃËS[#«3;ãðh`ØÐH@8°(  /* Error: Ran out of types for this method. */;
 

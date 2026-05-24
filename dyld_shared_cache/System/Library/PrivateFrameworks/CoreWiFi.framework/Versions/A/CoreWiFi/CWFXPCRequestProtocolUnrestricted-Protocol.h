@@ -5,5 +5,6 @@
 //
 
 @protocol CWFXPCRequestProtocolUnrestricted
+- (void)nt;
 @end
 

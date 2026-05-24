@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBCompanionSubscription
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    unsigned long long _dataType;
-    NSString *_displayName;
-    unsigned long long _downloadedDataBytes;
-    NSString *_identifier;
-    NSString *_originatingBundleIdentifier;
-    GEOMapRegion *_region;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _policy;
-    _Bool _syncToWatch;
-    struct {
-        unsigned int has_dataType:1;
-        unsigned int has_downloadedDataBytes:1;
-        unsigned int has_policy:1;
-        unsigned int has_syncToWatch:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_identifier:1;
-        unsigned int read_originatingBundleIdentifier:1;
-        unsigned int read_region:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ventAction:(id)arg1;
++ (_Bool)setHasUserActionEventAction:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -48,17 +24,17 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)16;
 - (void);
 - (void);
 - (id);
+- (_Bool)	;
 - (void);
+- (id);
+- (void)supportsEcoModeFor:(_Bool)arg1;
+- (void)@0:(id)arg1 8@16@24Q32;
+- (id);
+- (void)lock_invoke;
 - (id);
 - (unsigned long long);
 - (unsigned int);
@@ -68,40 +44,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)I;
 - (void);
 - (id):(struct _NSZone *)arg1 pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>, eqkey, hashkey>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void);
-- (id)ed: /* Error: Ran out of types for this method. */;
+- (void)layerBatchs;
+- (id)setMapSettingsFindMyCarEnabled: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ø0¬tD;
 - (id)];
 - (id)vÎ;
 - (_Bool);
 - (_Bool)nce per object;
 - (_Bool)@?0@"NSString"8@"NSString"16@"NSString"24;
-- (id);
+- (id)nil;
 - (void)F,2;
 - (void)6;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long dataType;
-@property(retain, nonatomic) NSString *displayName;
-@property(nonatomic) unsigned long long downloadedDataBytes;
-@property(nonatomic) _Bool hasDataType;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(nonatomic) _Bool hasDownloadedDataBytes;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasOriginatingBundleIdentifier;
-@property(nonatomic) _Bool hasPolicy;
-@property(readonly, nonatomic) _Bool hasRegion;
-@property(nonatomic) _Bool hasSyncToWatch;
-@property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) NSString *originatingBundleIdentifier;
-@property(nonatomic) unsigned int policy;
-@property(retain, nonatomic) GEOMapRegion *region;
-@property(nonatomic) _Bool syncToWatch;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

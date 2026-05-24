@@ -6,44 +6,31 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSDictionary, NSString, TRIExperimentDeployment, TRIExperimentTaskSupport, TRIRolloutDeployment, TRIRolloutTaskSupport, TRITaskCapabilityModifier, _PASLock;
-@protocol TRIFactorPackSetId, TRITaskAttributing, TRITaskQueueStateProviding;
+@class TRIRolloutDeployment;
+@protocol TRITaskAttributing;
 
 @interface TRIFetchFactorPackSetTask : TRIBaseTask
 {
     id <TRITaskAttributing> _taskAttribution;
-    unsigned long long _construct;
-    TRIRolloutTaskSupport *_rolloutSupport;
-    TRIExperimentTaskSupport *_experimentSupport;
-    NSString *_treatmentId;
-    _Bool _isCounterfactualTreatment;
-    TRITaskCapabilityModifier *_capabilityModifier;
-    NSDictionary *_factorRecordsByAssetId;
-    _PASLock *_guardedDownloadableRecord;
-    _Bool wasDeferred;
-    int retryCount;
-    TRIRolloutDeployment *_rolloutDeployment;
-    TRIExperimentDeployment *_experimentDeployment;
-    NSString<TRIFactorPackSetId> *_factorPackSetId;
 }
 
++ (id)`;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)parsed %ld bytes%s;
 + (_Bool);
-- (void);
+- (void)osticsMode:(int)arg1 wifiState:(id)arg2 megaWiFiProfileState:noLoggingWiFiProfileState:eapolState:bluetoothState:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)HAPCameraBufferUploadCommandTypeWrapper;
+- (id)ver has become unpaired;
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)abledVideoTrackInAsset:(int)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -74,24 +61,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TRIExperimentDeployment *experimentDeployment; // @synthesize experimentDeployment=_experimentDeployment;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int retryCount; // @synthesize retryCount;
 @property(readonly, nonatomic) TRIRolloutDeployment *rolloutDeployment; // @synthesize rolloutDeployment=_rolloutDeployment;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

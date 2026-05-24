@@ -9,7 +9,6 @@
 @interface SFLManager
 {
     id _cache;
-    struct os_unfair_lock_s _lock;
 }
 
 + (Class);
@@ -19,11 +18,11 @@
 - (id);
 - (id);
 - (id);
+- (id)H;
+- (id)H;
+- (id)ǟ+i;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

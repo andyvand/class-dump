@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSOutputStream, NSString, TRIPBMessage;
+@class NSOutputStream;
 
 #pragma mark Function Pointers and Blocks
 
@@ -24,7 +24,7 @@ struct TRIPBCodedInputStreamState {
 };
 
 struct TRIPBExtensionDescription {
-    CDUnion_a49d1a5a _field1;
+    CDUnion_cf1021d0 _field1;
     char *_field2;
     char *_field3;
     char *_field4;
@@ -53,10 +53,6 @@ struct TRIPBMessageFieldDescription {
     unsigned char _field7;
 };
 
-struct TRIPBMessage_Storage {
-    unsigned int _field1[0];
-};
-
 struct TRIPBOutputBufferState {
     char *bytes;
     unsigned long long size;
@@ -76,16 +72,16 @@ typedef struct {
 #pragma mark Typedef'd Unions
 
 typedef union {
-    _Bool valueBool;
-    int valueInt32;
-    long long valueInt64;
-    unsigned int valueUInt32;
-    unsigned long long valueUInt64;
-    float valueFloat;
-    double valueDouble;
-    NSData *valueData;
-    NSString *valueString;
-    TRIPBMessage *valueMessage;
-    int valueEnum;
-} CDUnion_a49d1a5a;
+    _Bool _field1;
+    int _field2;
+    long long _field3;
+    unsigned int _field4;
+    unsigned long long _field5;
+    float _field6;
+    double _field7;
+    id _field8;
+    id _field9;
+    id _field10;
+    int _field11;
+} CDUnion_cf1021d0;
 

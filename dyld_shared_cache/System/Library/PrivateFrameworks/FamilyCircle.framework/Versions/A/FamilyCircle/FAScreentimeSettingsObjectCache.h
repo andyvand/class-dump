@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface FAScreentimeSettingsObjectCache
 {
     NSDate *_date;
-    id _introductionModel;
-    NSNumber *_memberDSID;
 }
 
 + (Class);
 + (_Bool);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
++ (id)bt_type_watch;
+- (void)FetchScriptCommand;
+- (void)secondaryButtonLabel;
+- (id)ArtistCollection;
+- (id)jsScriptIdentifier;
+- (id)appMetaData;
+- (id)_longLongForProperty:propertyString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)`;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) id introductionModel; // @synthesize introductionModel=_introductionModel;
-@property(retain, nonatomic) NSNumber *memberDSID; // @synthesize memberDSID=_memberDSID;
 
 @end
 

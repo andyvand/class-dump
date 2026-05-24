@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSURL;
+@class NSURL;
 
 @interface SFLBookmark
 {
     NSURL *_url;
-    unsigned long long _state;
-    NSError *_error;
-    struct os_unfair_lock_s _lock;
-    NSData *_data;
-    CDUnknownBlockType _synchronousResolver;
-    CDUnknownBlockType _asynchronousResolver;
 }
 
 - (void);
@@ -26,7 +20,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)9;
 - (_Bool);
 - (id);
 - (id);
@@ -38,25 +32,18 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)enumerateKeysAndValuesUsingBlock:(id)arg1;
+- (id)deleteSubscriptionWithID:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType asynchronousResolver; // @synthesize asynchronousResolver=_asynchronousResolver;
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) NSError *error; // @dynamic error;
-@property(readonly, getter=isResolved) _Bool resolved;
-@property(readonly, getter=isStale) _Bool stale;
 @property(readonly) unsigned long long state; // @dynamic state;
-@property(copy) CDUnknownBlockType synchronousResolver; // @synthesize synchronousResolver=_synchronousResolver;
-@property(readonly) NSURL *url; // @dynamic url;
 
 @end
 

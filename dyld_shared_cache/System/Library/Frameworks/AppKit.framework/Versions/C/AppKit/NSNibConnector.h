@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSNibConnector
 {
     id _source;
-    id _destination;
-    NSString *_label;
 }
 
 + (void)ÛåTH;
 - (void);
 - (void);
+- (void)2js;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ublic}s(%d) %{public}s[%p] %{public}s alert, level:(id)arg1 %{public}s, description:%{public}s /* Error: Ran out of types for this method. */;
+- (id)P;
+- (id)ple.desktopservices.TestHost;
 - (id);
 - (void)
 × ;
 - (void)±å31Â0@ù
 × ;
-- (id)oardDelayForPartialSearchString: /* Error: Ran out of types for this method. */;
+- (id)_keyboardDelayForPartialSearchString: /* Error: Ran out of types for this method. */;
 - (void)X u£vè§;
 - (void);
 - (void)òò;
 
 // Remaining properties
-@property __weak id destination;
-@property(copy) NSString *label;
 @property __weak id source;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol PKSandboxProvider
+- (int);
+- (int);
+- (int)7;
 @end
 

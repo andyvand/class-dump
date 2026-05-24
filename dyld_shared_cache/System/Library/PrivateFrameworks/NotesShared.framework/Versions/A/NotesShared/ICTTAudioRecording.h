@@ -6,30 +6,18 @@
 
 #import <NotesShared/ICCRObject.h>
 
-@class ICTTMergeableAttributedString, NSDate, NSNumber, NSString;
+@class ICTTMergeableAttributedString;
 
 @interface ICTTAudioRecording : ICCRObject
 {
 }
 
-+ (id);
++ (id)9;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) NSString *callLocalSpeakerHandle; // @dynamic callLocalSpeakerHandle;
-@property(nonatomic, retain) NSNumber *callRecording; // @dynamic callRecording;
-@property(nonatomic, retain) NSDate *callRecordingStartTime; // @dynamic callRecordingStartTime;
-@property(nonatomic, retain) NSString *callRemoteSpeakerHandle; // @dynamic callRemoteSpeakerHandle;
-@property(nonatomic, retain) NSNumber *callType; // @dynamic callType;
-@property(nonatomic, retain) NSString *externalModelAttributionProviderName; // @dynamic externalModelAttributionProviderName;
-@property(nonatomic, retain) NSString *externalModelAttributionSymbolName; // @dynamic externalModelAttributionSymbolName;
-@property(nonatomic, retain) id fragments; // @dynamic fragments;
-@property(nonatomic, retain) NSString *longformSummaryModelVersionInfo; // @dynamic longformSummaryModelVersionInfo;
 @property(nonatomic, retain) ICTTMergeableAttributedString *summary; // @dynamic summary;
-@property(nonatomic, retain) NSNumber *summaryVersion; // @dynamic summaryVersion;
-@property(nonatomic, retain) ICTTMergeableAttributedString *topLineSummary; // @dynamic topLineSummary;
-@property(nonatomic, retain) NSString *toplineSummaryModelVersionInfo; // @dynamic toplineSummaryModelVersionInfo;
 
 @end
 

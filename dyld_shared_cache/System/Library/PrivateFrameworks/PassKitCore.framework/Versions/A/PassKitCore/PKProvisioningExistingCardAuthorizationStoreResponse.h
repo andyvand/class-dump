@@ -15,11 +15,11 @@
 
 + (_Bool);
 - (id);
+- (id);
+- (id)Q;
+- (void)_establishmentSuccess;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)pplyFeatureOnboardingACMI;
+- (void)applyFeatureOnboardingACMI;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *existingCardAuthorizations; // @synthesize existingCardAuthorizations=_existingCardAuthorizations;

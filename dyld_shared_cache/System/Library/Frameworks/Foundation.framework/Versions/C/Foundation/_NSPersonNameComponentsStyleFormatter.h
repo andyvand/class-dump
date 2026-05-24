@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSPersonNameComponentsFormatter, NSSet;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSPersonNameComponentsStyleFormatter
 {
     NSSet *_abbreviatedKeys;
-    _NSPersonNameComponentsStyleFormatter *_fallbackStyleFormatter;
-    NSSet *_keysOfInterest;
-    _Bool _shouldFallBack;
-    _Bool _isEnabled;
-    long long _ordering;
-    NSLocale *_locale;
-    NSArray *_orderedTemplate;
-    NSArray *_fallbackDescriptor;
-    NSPersonNameComponentsFormatter *_masterFormatter;
 }
 
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)@;
 - (id);
 - (_Bool);
 - (id);
@@ -46,16 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSSet *abbreviatedKeys;
-@property(readonly, copy) NSArray *fallbackDescriptor;
-@property(retain) _NSPersonNameComponentsStyleFormatter *fallbackStyleFormatter; // @synthesize fallbackStyleFormatter=_fallbackStyleFormatter;
-@property(readonly) _Bool isEnabled;
-@property(readonly) NSSet *keysOfInterest;
-@property(readonly, copy) NSPersonNameComponentsFormatter *masterFormatter; // @synthesize masterFormatter=_masterFormatter;
-@property(readonly) NSArray *orderedKeysOfInterest;
-@property(readonly) NSArray *orderedTemplate;
-@property long long ordering;
-@property(readonly) _Bool shouldFallBack;
-@property(readonly) _Bool shouldIgnoreComponentsContainingSpecialCharacters;
 
 @end
 

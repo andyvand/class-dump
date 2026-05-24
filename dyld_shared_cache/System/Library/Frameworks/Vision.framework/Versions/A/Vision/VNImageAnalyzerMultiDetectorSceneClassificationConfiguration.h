@@ -6,16 +6,12 @@
 
 #import <Vision/VNImageAnalyzerMultiDetectorAnalysisConfiguration.h>
 
-@class VNClassificationCustomHierarchy, VNDisallowedList;
+@class VNDisallowedList;
 
 __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerMultiDetectorSceneClassificationConfiguration : VNImageAnalyzerMultiDetectorAnalysisConfiguration
 {
     float _minimumConfidence;
-    VNDisallowedList *_disallowedList;
-    unsigned long long _maximumLeafLabels;
-    unsigned long long _maximumHierarchicalLabels;
-    VNClassificationCustomHierarchy *_customHierarchy;
 }
 
 - (void);
@@ -23,23 +19,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (id);
-- (id);
+- (id)9;
 - (unsigned int);
 - (id);
 - (void);
 - (float);
 - (id);
-- (void)D_PtsClsf;
+- (void)FLMReg2D_PtsClsf;
 
 // Remaining properties
-@property(retain, nonatomic) VNClassificationCustomHierarchy *customHierarchy; // @synthesize customHierarchy=_customHierarchy;
 @property(copy, nonatomic) VNDisallowedList *disallowedList; // @synthesize disallowedList=_disallowedList;
-@property(nonatomic) unsigned long long maximumHierarchicalLabels; // @synthesize maximumHierarchicalLabels=_maximumHierarchicalLabels;
-@property(nonatomic) unsigned long long maximumLeafLabels; // @synthesize maximumLeafLabels=_maximumLeafLabels;
-@property(nonatomic) float minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
 
 @end
 

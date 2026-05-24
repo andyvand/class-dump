@@ -12,7 +12,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (id);

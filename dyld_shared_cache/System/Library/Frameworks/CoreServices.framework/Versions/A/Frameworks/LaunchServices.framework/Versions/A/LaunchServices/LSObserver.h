@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString;
-@protocol LSObserverDelegate, NSObject;
+@protocol LSObserverDelegate;
 
 @interface LSObserver
 {
     id <LSObserverDelegate> _delegate;
-    NSOperationQueue *_queue;
-    id <NSObject> _changeObserver;
-    unsigned int _observing:1;
-    NSString *_name;
 }
 
 + (void)c}s, synchronous launch but the target checked in before we could get into the list of waiters, so assume everything is ok.;
 - (void);
 - (void);
 - (void);
+- (id)k;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (id);
 - (id);
 - (void);
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property __weak id <LSObserverDelegate> delegate;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(retain) NSOperationQueue *queue;
 
 @end
 

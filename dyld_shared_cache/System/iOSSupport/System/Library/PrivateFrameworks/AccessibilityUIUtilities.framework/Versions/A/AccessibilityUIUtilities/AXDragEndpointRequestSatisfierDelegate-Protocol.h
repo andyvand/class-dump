@@ -5,5 +5,6 @@
 //
 
 @protocol AXDragEndpointRequestSatisfierDelegate
+- (void);
 @end
 

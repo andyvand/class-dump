@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraph;
+@class USOSchemaUSOGraph;
 
 @interface PLUSSchemaPLUSContactSuggesterQueryStarted : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraph *_usoPersonQuery;
-    int _domain;
-    struct {
-        unsigned int domain:1;
-    } _has;
-    _Bool _hasUsoPersonQuery;
 }
 
 - (id);
@@ -26,27 +21,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)dictionary;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Deleted:(id)arg1 Unexpected column in recoverable message in chat %@ with index %d;
 - (id);
 - (id)0@ù
 × ;
 - (int)!DCùqÞð1Â0@ù
 × ;
-- (id)nfoGenerated;
+- (id)_hasSimpleTaskInfoGenerated;
 - (id)on;
-- (void)NVERSATION;
+- (void)CNVPLUGIN_SOCIALCONVERSATION;
 
 // Remaining properties
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasUsoPersonQuery; // @synthesize hasUsoPersonQuery=_hasUsoPersonQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraph *usoPersonQuery; // @synthesize usoPersonQuery=_usoPersonQuery;
 
 @end

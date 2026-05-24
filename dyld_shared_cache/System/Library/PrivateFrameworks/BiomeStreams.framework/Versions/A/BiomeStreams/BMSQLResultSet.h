@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSQLDatabase, NSArray, NSDictionary, NSError, NSString;
-
 @interface BMSQLResultSet
 {
     struct os_unfair_lock_s _lock;
-    _Bool _finished;
-    unsigned long long _cursor;
-    NSArray *_columns;
-    id _keySet;
-    NSDictionary *_row;
-    NSError *_error;
-    struct sqlite3_stmt *_stmt;
-    NSString *_query;
-    BMSQLDatabase *_database;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)@;
+- (id));
 - (id);
 - (id);
 - (id);
@@ -39,11 +28,6 @@
 - (_Bool)1Xáÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *columns;
-@property(readonly, nonatomic) BMSQLDatabase *database; // @synthesize database=_database;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, nonatomic) NSDictionary *row; // @synthesize row=_row;
 @property(readonly, nonatomic) struct sqlite3_stmt *stmt; // @synthesize stmt=_stmt;
 
 @end

@@ -7,10 +7,6 @@
 @interface FPCKStats
 {
     long long _numberOfFilesChecked;
-    long long _numberOfBrokenFilesInFSAndFSSnapshotCheck;
-    long long _numberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck;
-    long long _numberOfBrokenFilesInBackupManifestCheck;
-    long long _numberOfBrokenFilesInReconciliationTableCheck;
 }
 
 + (_Bool);
@@ -22,18 +18,14 @@
 - (long long);
 - (long long);
 - (long long);
+- (long long)';
 - (long long);
-- (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long numberOfBrokenFilesInBackupManifestCheck; // @synthesize numberOfBrokenFilesInBackupManifestCheck=_numberOfBrokenFilesInBackupManifestCheck;
-@property(nonatomic) long long numberOfBrokenFilesInFSAndFSSnapshotCheck; // @synthesize numberOfBrokenFilesInFSAndFSSnapshotCheck=_numberOfBrokenFilesInFSAndFSSnapshotCheck;
-@property(nonatomic) long long numberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck; // @synthesize numberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck=_numberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck;
-@property(nonatomic) long long numberOfBrokenFilesInReconciliationTableCheck; // @synthesize numberOfBrokenFilesInReconciliationTableCheck=_numberOfBrokenFilesInReconciliationTableCheck;
 @property(nonatomic) long long numberOfFilesChecked; // @synthesize numberOfFilesChecked=_numberOfFilesChecked;
 
 @end

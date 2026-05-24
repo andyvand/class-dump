@@ -11,34 +11,27 @@
 @interface GEOComposedStringArgument_Frequency : GEOComposedStringArgument
 {
     NSMeasurement *_defaultValue;
-    NSMeasurement *_overrideValue;
-    NSMeasurement *_defaultMinValue;
-    NSMeasurement *_overrideMinValue;
-    NSMeasurement *_defaultMaxValue;
-    NSMeasurement *_overrideMaxValue;
 }
 
 + (_Bool)ble to load data from resource at "%@" - %@;
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (double);
+- (double)Q24;
+- (double):8@16Q24 /* Error: Ran out of types for this method. */;
+- (double)0:8Q16@"<CNObserver>"24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)tDeviceHwIdentifier:(struct _NSZone *)arg1;
+- (id)setDeviceHwIdentifier:(struct _NSZone *)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double overrideMaxValue;
-@property(nonatomic) double overrideMinValue;
 @property(nonatomic) double overrideValue;
 
 @end

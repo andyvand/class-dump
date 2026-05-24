@@ -6,38 +6,29 @@
 
 #import <IMCore/IMAssociatedMessageChatItem.h>
 
-@class IMMessageAcknowledgmentChatItem, IMTapback, NSArray;
+@class NSArray;
 
 @interface IMAggregateAcknowledgmentChatItem : IMAssociatedMessageChatItem
 {
     _Bool _latestIsFromMe;
-    _Bool _includesMultiple;
-    NSArray *_acknowledgments;
-    IMMessageAcknowledgmentChatItem *_fromMeAcknowledgement;
-    IMTapback *_latestTapback;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)] already registered a vtpCallbackId [%d];
+- (id)log;
+- (_Bool)ssageReceived:no participantID provided. Processing without dialog /* Error: Ran out of types for this method. */;
+- (_Bool)efix:could not create a shared instance of NAT64Resolver /* Error: Ran out of types for this method. */;
+- (_Bool)%s:%d VCNAT64ResolverGetPrefix:could not create a shared instance of NAT64Resolver /* Error: Ran out of types for this method. */;
+- (id)s:%d %@(%p) not found video stream with stream ID %@ /* Error: Ran out of types for this method. */;
+- (id)] %s:(id)arg1 %d Memory allocation for colorInfo dictionary failed;
+- (id)%s:%d kAUVoiceIOProperty_PrimaryCodecType succeeded codecType(%d) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *acknowledgments; // @synthesize acknowledgments=_acknowledgments;
-@property(readonly, nonatomic) IMMessageAcknowledgmentChatItem *fromMeAcknowledgement; // @synthesize fromMeAcknowledgement=_fromMeAcknowledgement;
-@property(readonly, nonatomic) _Bool includesFromMe;
-@property(readonly, nonatomic) _Bool includesMultiple; // @synthesize includesMultiple=_includesMultiple;
-@property(readonly, nonatomic) _Bool latestIsFromMe; // @synthesize latestIsFromMe=_latestIsFromMe;
-@property(readonly, nonatomic) IMTapback *latestTapback; // @synthesize latestTapback=_latestTapback;
 
 @end
 

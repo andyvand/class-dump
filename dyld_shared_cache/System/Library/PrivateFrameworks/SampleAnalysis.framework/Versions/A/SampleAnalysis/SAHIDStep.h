@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
-
 @interface SAHIDStep
 {
     unsigned int _debugid;
-    int _pid;
-    SATimestamp *_timestamp;
-    unsigned long long _tid;
 }
 
 - (id);
@@ -24,10 +19,6 @@
 
 // Remaining properties
 @property(readonly) unsigned int debugid; // @synthesize debugid=_debugid;
-@property(readonly) NSString *debugidString;
-@property(readonly) int pid;
-@property(readonly) unsigned long long tid; // @synthesize tid=_tid;
-@property(readonly) SATimestamp *timestamp;
 
 @end
 

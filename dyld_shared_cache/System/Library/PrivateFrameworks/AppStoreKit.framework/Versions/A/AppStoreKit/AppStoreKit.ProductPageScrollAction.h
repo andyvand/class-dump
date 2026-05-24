@@ -9,8 +9,6 @@
 @interface AppStoreKit.ProductPageScrollAction : AppStoreKit.Action
 {
     id section;
-    id index;
-    id clicksOnScroll;
 }
 
 @end

@@ -12,7 +12,7 @@
 
 + (void)ssion check...;
 - (_Bool);
-- (id);
+- (id)e in messages configured for Family, not sending event to Core Anlaytics;
 
 @end
 

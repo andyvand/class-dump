@@ -7,10 +7,6 @@
 @interface JetEngine.RunLoopWorkerThread
 {
     id name;
-    id stateLock;
-    id runLoop;
-    id source;
-    id tasks;
 }
 
 @end

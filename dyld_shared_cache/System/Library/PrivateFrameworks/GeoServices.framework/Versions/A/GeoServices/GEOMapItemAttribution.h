@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSearchAttributionInfo, NSArray, NSString;
+@class GEOSearchAttributionInfo, NSArray;
 
 @interface GEOMapItemAttribution
 {
     GEOSearchAttributionInfo *_info;
-    NSArray *_attributionURLs;
-    NSString *_yelpID;
-    NSString *_poiID;
-    NSArray *_serverAttributionURLs;
-    NSArray *_clientActionURLs;
 }
 
 + (id);
@@ -27,31 +22,20 @@
 - (id);
 - (id);
 - (id);
+- (id)';
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)termOfAddressFromDataRepresentation:(int)arg1;
+- (id)dateFormatterWithYearFormat:hasLongFormat:locale: /* Error: Ran out of types for this method. */;
+- (id)_cn_deleteCharactersInSet:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Ìlæÿ@³;
 - (id)öÁþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAdamID;
-@property(readonly, nonatomic) NSArray *attributionApps;
-@property(readonly, nonatomic) NSArray *attributionURLs;
-@property(readonly, nonatomic) NSString *captionDisplayName;
-@property(copy, nonatomic) NSArray *clientActionURLs; // @synthesize clientActionURLs=_clientActionURLs;
-@property(readonly, nonatomic) NSString *providerID;
-@property(readonly, nonatomic) NSString *providerName;
-@property(readonly, nonatomic) _Bool requiresAttributionInCallout;
-@property(readonly, nonatomic) _Bool requiresAttributionInDeveloperPlaceCard;
 @property(copy, nonatomic) NSArray *serverAttributionURLs; // @synthesize serverAttributionURLs=_serverAttributionURLs;
-@property(readonly, nonatomic) _Bool shouldOpenInAppStore;
-@property(readonly, nonatomic) NSString *webBaseActionURL;
 
 @end
 

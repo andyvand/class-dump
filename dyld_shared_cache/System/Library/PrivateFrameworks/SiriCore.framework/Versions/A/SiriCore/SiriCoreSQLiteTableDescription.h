@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SiriCoreSQLiteTableDescription
 {
     NSString *_name;
-    NSArray *_columns;
-    NSArray *_constraints;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(readonly, copy, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

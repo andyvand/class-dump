@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MPMediaCompoundPredicate : MPMediaPredicate
 {
@@ -17,9 +17,9 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)[IMChatItemFilterController insertHistoricalMessages:(id)arg1 queryID:hasMessagesBefore:hasMessagesAfter:isReplacingItems:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)initForReadingFromData:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -27,14 +27,7 @@
 - (void)aybackSessionType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *predicates; // @synthesize predicates=_predicates;
-@property(readonly) Class superclass;
 
 @end
 

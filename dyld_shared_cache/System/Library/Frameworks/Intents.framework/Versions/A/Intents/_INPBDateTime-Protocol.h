@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBLocalDate, _INPBLocalTime;
+@class _INPBLocalDate, _INPBLocalTime;
 
 @protocol _INPBDateTime
-- (void)alog;
-- (_Bool)rLock;
+- (_INPBLocalDate *);
+- (_INPBLocalTime *)(	;
+- (void)defaultDialog;
+- (_Bool)doorLock;
 
 // Remaining properties
 @property(nonatomic) int calendarSystem;
-@property(retain, nonatomic) _INPBLocalDate *date;
-@property(nonatomic) _Bool hasCalendarSystem;
-@property(readonly, nonatomic) _Bool hasDate;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasTimeZoneID;
-@property(retain, nonatomic) _INPBLocalTime *time;
-@property(copy, nonatomic) NSString *timeZoneID;
 @end
 

@@ -7,10 +7,6 @@
 @interface MREffectCoverCascadeEvent
 {
     BOOL relativeX;
-    BOOL relativeY;
-    unsigned char type;
-    double relativeStartTime;
-    double duration;
 }
 
 - (id);

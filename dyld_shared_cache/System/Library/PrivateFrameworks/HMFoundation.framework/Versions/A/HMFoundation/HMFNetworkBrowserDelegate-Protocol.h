@@ -5,5 +5,8 @@
 //
 
 @protocol HMFNetworkBrowserDelegate
+
+@optional
+- (void)ԁ_;
 @end
 

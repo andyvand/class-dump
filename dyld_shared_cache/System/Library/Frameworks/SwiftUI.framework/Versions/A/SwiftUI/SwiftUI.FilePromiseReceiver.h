@@ -7,11 +7,6 @@
 @interface SwiftUI.FilePromiseReceiver
 {
     id receiveDirectory;
-    id receiver;
-    id state;
-    id completionHandlers;
-    id workQueue;
-    id received;
 }
 
 @end

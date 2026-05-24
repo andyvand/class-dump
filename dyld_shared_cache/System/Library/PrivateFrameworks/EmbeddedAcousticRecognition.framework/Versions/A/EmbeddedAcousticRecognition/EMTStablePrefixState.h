@@ -9,8 +9,6 @@
 @interface EMTStablePrefixState
 {
     _Bool _isFinalReceived;
-    NSArray *_stablePrefixData;
-    NSArray *_segmentInfoData;
 }
 
 + (id);
@@ -23,18 +21,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)stem/Library/PrivateFrameworks/Symptoms.framework/Frameworks/ManagedEvent.framework/ManagedEvent;
+- (void)provideRequestedEventAttributeOptionsCollectionForFindEvents:(vector_5ed94be2)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (vector_5ed94be2);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) vector_5ed94be2 data;
-@property(nonatomic) _Bool isFinalReceived; // @synthesize isFinalReceived=_isFinalReceived;
-@property(retain, nonatomic) NSArray *segmentInfoData; // @synthesize segmentInfoData=_segmentInfoData;
-@property(nonatomic) vector_7ebc9a25 sourceSideData;
 @property(retain, nonatomic) NSArray *stablePrefixData; // @synthesize stablePrefixData=_stablePrefixData;
 
 @end

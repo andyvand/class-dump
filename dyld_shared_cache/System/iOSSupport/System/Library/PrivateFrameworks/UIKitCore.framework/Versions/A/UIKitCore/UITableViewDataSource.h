@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface UITableViewDataSource
 {
     NSArray *_sections;
 }
 
-+ (id);
++ (id)ate change;
 - (id);
+- (id)clearLocalProperties;
+- (id)clearExpiredTimeSensitiveMessagesWithCompletionHandler:(id)arg1;
+- (id)clearDataFromCloudKit;
+- (long long)chatsToSendNicknameInfoTo;
+- (double)chatsNeedRemerging:(id)arg1 groupedChats:(id)arg2;
+- (double)chatsGUIDsForMessageWithIdentifier:(id)arg1;
+- (double)chatsGUIDsForMessageWithGUID:(id)arg1;
+- (long long)chatsFilteredUsingPredicate:(id)arg1;
+- (_Bool)chatBotRecoverableMessageRecordZoneID;
+- (_Bool)chatBotMessageRecordZoneID;
 - (id);
-- (id);
-- (id);
-- (long long);
-- (double);
-- (double);
-- (double);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (void):(id)arg1;
@@ -33,14 +33,7 @@
 - (void)Ð_êÿz$ÐÈÝa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly) Class superclass;
 
 @end
 

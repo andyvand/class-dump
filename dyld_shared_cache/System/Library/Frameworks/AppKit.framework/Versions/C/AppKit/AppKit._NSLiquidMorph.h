@@ -7,8 +7,6 @@
 @interface AppKit._NSLiquidMorph
 {
     id descriptor;
-    id animationKeys;
-    id __morphedViewsToBackfillPortalViews;
 }
 
 @end

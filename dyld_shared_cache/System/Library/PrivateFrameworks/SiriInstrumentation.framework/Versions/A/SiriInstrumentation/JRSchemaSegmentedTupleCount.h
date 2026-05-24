@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaSegmentedTupleCount : SISchemaInstrumentationMessage
 {
     NSArray *_tupleCandidates;
-    unsigned int _count;
-    CDStruct_bbadad30 _has;
 }
 
 - (unsigned long long);
@@ -25,24 +23,21 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id)sTuples",&,N,V_tuples;
-- (id)SchemaSTSpotlightResult;
+- (id)STSchemaSTSpotlightResult;
 - (void)Q;
 - (unsigned int),fhhiìik8l;
 - (void)#";
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tupleCandidates; // @synthesize tupleCandidates=_tupleCandidates;
 
 @end

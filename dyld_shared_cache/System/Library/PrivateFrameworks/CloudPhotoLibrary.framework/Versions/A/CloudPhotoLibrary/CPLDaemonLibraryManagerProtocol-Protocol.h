@@ -5,6 +5,7 @@
 //
 
 @protocol CPLDaemonLibraryManagerProtocol
+- (void);
 - (void);
 - (void),N,V_scopes;
 @end

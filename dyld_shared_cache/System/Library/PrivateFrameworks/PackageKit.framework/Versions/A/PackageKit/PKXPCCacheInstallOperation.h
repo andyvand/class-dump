@@ -11,14 +11,13 @@
 @interface PKXPCCacheInstallOperation : PKInstallOperation
 {
     PKInstallTask *_currentTask;
-    _Bool _inSandbox;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int)4;
 - (id);
 - (void);
 - (void);

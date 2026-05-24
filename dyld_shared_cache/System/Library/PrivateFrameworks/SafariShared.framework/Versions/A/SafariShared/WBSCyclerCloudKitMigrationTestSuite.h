@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSCyclerItemListRepresentation, WBSCyclerIterationCounter, WBSCyclerTestSuiteBookmarkAuxiliary;
+@class WBSCyclerTestSuiteBookmarkAuxiliary;
 
 @interface WBSCyclerCloudKitMigrationTestSuite
 {
     WBSCyclerTestSuiteBookmarkAuxiliary *_bookmarkAuxiliary;
-    unsigned long long _bookmarksGeneratedPriorToMigration;
-    WBSCyclerItemListRepresentation *_topLevelBookmarksPriorToMigration;
-    _Bool _hasValidatedResultsOfPrimaryMigration;
-    _Bool _finished;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -29,21 +25,10 @@
 - (void)¬(¸;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N,GisFinished,V_finished
 
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WBSCyclerIterationCounter *iterationCounter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WBSCyclerIterationCounter",?,&,N
-
-@property(readonly) Class superclass;
 
 @end
 

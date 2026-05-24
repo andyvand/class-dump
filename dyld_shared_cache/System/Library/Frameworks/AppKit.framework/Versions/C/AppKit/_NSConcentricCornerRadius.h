@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     _NSCornerRadius *_minimumRadius;
 }
 
-- (void);
+- (void)re = %d;
 - (id);
 - (double);
 - (double);
 - (double);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id)lets;
+- (_Bool):8@16i24 /* Error: Ran out of types for this method. */;
+- (_Bool)shared_weak_count}};
+- (id)echosBullets;
 - (void)ventRef, typeEventRef, NULL, sizeof keyEvent, NULL, &keyEvent);
 
 // Remaining properties

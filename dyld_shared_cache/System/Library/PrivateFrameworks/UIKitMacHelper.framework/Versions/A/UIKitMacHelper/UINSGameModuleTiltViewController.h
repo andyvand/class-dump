@@ -6,22 +6,19 @@
 
 #import <UIKitMacHelper/UINSGameModuleConfigViewController.h>
 
-@class NSSlider, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleTiltViewController : UINSGameModuleConfigViewController
 {
     NSTextField *_neutralLabel;
-    NSSlider *_neutralSlider;
-    NSSlider *_sensitivitySlider;
-    NSSlider *_yawRangeSlider;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void)R;
 - (void);
 - (id);
 - (void);
@@ -34,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak NSTextField *neutralLabel; // @synthesize neutralLabel=_neutralLabel;
-@property __weak NSSlider *neutralSlider; // @synthesize neutralSlider=_neutralSlider;
-@property __weak NSSlider *sensitivitySlider; // @synthesize sensitivitySlider=_sensitivitySlider;
-@property __weak NSSlider *yawRangeSlider; // @synthesize yawRangeSlider=_yawRangeSlider;
 
 @end
 

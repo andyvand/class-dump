@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NSSortedArray
 {
     NSMutableArray *_array;
-    SEL _compareSelector;
-    unsigned long long _cachedCount;
-    id _cachedFirstObject;
 }
 
 + (void)ä¯_ÿø
 {H;
 - (void);
-- (id);
-- (id);
+- (id)check for changes to notification %s, token %d:(SEL)arg1 %u;
+- (id)rsion sysctl value:(unsigned long long)arg1 [%d] %s;
 - (void);
 - (SEL);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -38,12 +35,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!4Bùä3°1Â0@ù
 × ;
-- (id)TransitionBlock:(id)arg1;
+- (id)setTransitionBlock:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long)on count;
-- (_Bool)LowPowerWindow;
-- (void)hibitsSetAlphaValue;
+- (_Bool)FullscreenLowPowerWindow;
+- (void)NSMenuWindowManagerWindowProhibitsSetAlphaValue;
 - (id)[NSCarbonMenuImpl _beginHandlingEvents:(const id *)arg1 count:(unsigned long long)arg2 ];
 
 // Remaining properties

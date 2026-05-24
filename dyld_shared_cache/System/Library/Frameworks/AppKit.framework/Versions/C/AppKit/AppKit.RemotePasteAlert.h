@@ -9,7 +9,6 @@
 @interface AppKit.RemotePasteAlert : NSAlert
 {
     id completion;
-    id didLocalLayout;
 }
 
 - (id);

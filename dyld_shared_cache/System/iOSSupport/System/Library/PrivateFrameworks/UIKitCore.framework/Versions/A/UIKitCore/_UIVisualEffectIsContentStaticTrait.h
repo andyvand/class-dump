@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)lorSet;
++ (id)UITableCellBackgroundColorSet;
 + (long long)HÍ½gg;
 
 @end

@@ -6,38 +6,10 @@
 
 #import <FinderKit/FI_TBrowserViewController.h>
 
-@class FI_TColumnPreviewController, NSFont, NSString, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface FI_TColumnViewController : FI_TBrowserViewController
 {
     struct TFENode _draggingSourceContainer;
-    _Bool _selectedItemNeedsPreviewView;
-    FI_TColumnPreviewController *_previewViewController;
-    _Bool _showIcons;
-    _Bool _showPreviewColumn;
-    _Bool _showsSize;
-    _Bool _configuring;
-    _Bool _resizingAllColumns;
-    _Bool _forwardKeydownsToNextColumn;
-    _Bool _delayedOpening;
-    int _arrangeBy;
-    struct TAliasesTargets _resolvedAliasTable;
-    void *_optimizer;
-    struct TFENode _brokenAlias;
-    NSTimer *_delayedContainerSynchingTimer;
-    struct TColumnOptimizerContainers _delayedContainers;
-    struct shared_ptr<TColumnPreviewQTEjectHelper> _ejectHelper;
-    long long _columnIndexOriginatingDrag;
-    NSFont *_cellViewFont;
-    _Bool _nextSelectionAllowsRetarget;
-    _Bool _settingSelectionPath;
-    _Bool _bumpedIn;
-    TNSWeakPtr_db0eab6c _showDelayedPreviewToken;
-    struct unordered_set<TFENode, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<TFENode>> _pendingOpenContainerNodes;
-    struct TNotificationCenterObserver _userDidResizeColumnsObserver;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _columnViewNotificationObservers;
-    _Bool _editing;
 }
 
 + (id);
@@ -74,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,18 +64,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct TFENode);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (double);
 - (id);
 - (struct TFENode);
-- (void);
+- (void)?;
 - (struct TFENodeVector);
 - (struct TFENodeVector);
 - (struct TFENode);
@@ -112,13 +84,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct TFENode);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
+- (void)4;
 - (void);
-- (void);
-- (void);
+- (void)T)};
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -131,7 +103,7 @@ __attribute__((visibility("hidden")))
 - (struct optional_bool);
 - (int);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
@@ -155,7 +127,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct TFENode);
-- (struct TFENode);
+- (struct TFENode);
 - (void);
 - (void);
 - (long long);
@@ -165,7 +137,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct TFENodeVector);
+- (struct TFENodeVector)9;
 - (unsigned long long);
 - (double);
 - (id);
@@ -180,19 +152,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T
+
+;
 - (void);
 - (double);
 - (_Bool);
-- (struct CGImage *);
+- (struct CGImage *)@;
 - (struct CGSize);
 - (id);
 - (struct CGSize);
 - (void);
 - (_Bool);
 - (struct TFENode);
-- (struct TFENode);
-- (void);
+- (struct TFENode)**;
+- (void)24@0:8S16i20 /* Error: Ran out of types for this method. */;
 - (void *);
 - (void);
 - (int);
@@ -203,29 +177,29 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)writeToURL:(id)arg1 atomically: /* Error: Ran out of types for this method. */;
+- (_Bool)writableTypesForPasteboard:(id)arg1;
+- (unsigned long long)windowWillUseStandardFrame:(id)arg1 defaultFrame:(id)arg2;
+- (_Bool)windowWillResize:(id)arg1 toSize:(id)arg2;
+- (double)windowWillEnterVersionBrowser:(id)arg1;
+- (_Bool)windowWillBeginSheet:(id)arg1;
+- (_Bool)windowShouldClose:(id)arg1;
+- (id)windowDidUpdate:(id)arg1;
+- (id)windowDidFailToExitFullScreen:(id)arg1;
+- (id)windowDidExpose:(id)arg1;
+- (_Bool)windowDidChangeScreenProfile:(id)arg1;
+- (double)windowDidChangeBackingProperties:(id)arg1;
+- (id)windowDidBecomeKey:(id)arg1;
+- (id)window:(id)arg1 willResizeForVersionBrowserWithMaxPreferredSize:(long long)arg2 maxAllowedSize:(id)arg3;
+- (_Bool)window:(id)arg1 willEncodeRestorableState:(id)arg2;
+- (_Bool)window:(id)arg1 startCustomAnimationToExitFullScreenWithDuration:(id)arg2;
 - (id);
 - (double);
 - (long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)u;
 - (const struct TFENode *);
 - (void)0@ù
 × ;
@@ -236,23 +210,7 @@ __attribute__((visibility("hidden")))
 - (void)F;
 
 // Remaining properties
-@property(nonatomic) int arrangeBy; // @synthesize arrangeBy=_arrangeBy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool delayedOpening; // @synthesize delayedOpening=_delayedOpening;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool nextSelectionAllowsRetarget; // @synthesize nextSelectionAllowsRetarget=_nextSelectionAllowsRetarget;
-@property struct TFENode nodeToDoubleClick;
-@property(nonatomic) double preferredColumnWidth;
-@property(readonly, retain, nonatomic) FI_TColumnPreviewController *previewViewController;
 @property(nonatomic) _Bool showIcons; // @synthesize showIcons=_showIcons;
-@property(nonatomic) _Bool showPreviewColumn; // @synthesize showPreviewColumn=_showPreviewColumn;
-@property(nonatomic) _Bool showsSize; // @synthesize showsSize=_showsSize;
-@property(readonly) Class superclass;
 
 @end
 

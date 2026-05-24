@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, BSProcessHandle, NSObject, NSString, RBSMachPortTaskNameRight, RBSProcessBundle, RBSProcessIdentity, RBSProcessMonitor;
-@protocol OS_xpc_object;
+@class RBSMachPortTaskNameRight;
 
 @interface RBSProcessHandle
 {
     RBSMachPortTaskNameRight *_taskPort;
-    RBSProcessMonitor *_monitor;
-    BSProcessHandle *_legacyHandle;
-    NSObject<OS_xpc_object> *_codedHandle;
-    BSAuditToken *_bsAuditToken;
-    unsigned long long _data;
-    NSString *_cachedName;
-    int _pid;
-    unsigned int _euid;
-    RBSProcessIdentity *_identity;
-    NSString *_beforeTranslocationBundlePath;
-    NSString *_executablePath;
-    RBSProcessBundle *_bundle;
 }
 
 @end

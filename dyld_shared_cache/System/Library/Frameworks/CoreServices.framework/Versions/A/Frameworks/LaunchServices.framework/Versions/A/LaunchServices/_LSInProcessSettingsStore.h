@@ -7,22 +7,20 @@
 #import <LaunchServices/LSSettingsStore.h>
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface _LSInProcessSettingsStore : LSSettingsStore
 {
     NSObject<OS_dispatch_source> *_dbCloseTimer;
-    struct sqlite3 *_database;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (unsigned char);
-- (id);
+- (unsigned char)4@0:(id)arg1 8@"MTLCommandBufferDescriptor"16;
+- (id)eTable: /* Error: Ran out of types for this method. */;
 - (struct sqlite3 *);
 - (unsigned char);
 - (void);
@@ -30,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct sqlite3 *database; // @synthesize database=_database;
-@property(readonly) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
 
 @end
 

@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, TXRDeferredTextureInfo, TXRTextureInfo;
-@protocol OS_dispatch_queue;
+@class TXRTextureInfo;
 
 __attribute__((visibility("hidden")))
 @interface TXRParserKTX
 {
     TXRTextureInfo *_textureInfo;
-    unsigned int _bytesOfKeyValueData;
-    _Bool _isCompressed;
-    NSDictionary *_internalSizedFormatLookup;
-    TXRDeferredTextureInfo *_deferredTextureInfo;
-    NSObject<OS_dispatch_queue> *_parserQueue;
-    _Bool _shouldFlipVertically;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)hj78;
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)3,/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) TXRTextureInfo *textureInfo; // @synthesize textureInfo=_textureInfo;
 
 @end

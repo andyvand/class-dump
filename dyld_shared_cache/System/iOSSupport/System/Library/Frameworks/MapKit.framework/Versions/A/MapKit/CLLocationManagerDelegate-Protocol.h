@@ -7,6 +7,12 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (_Bool)R;
+- (void);
+- (void)-;
+- (void);
+- (void);
+- (void)44@"NSString"52@"NSString"60;
 - (void)0@ù
 × ;
 @end

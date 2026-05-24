@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NUIdentifier, NUPipelinePath;
+@class NUChannelData, NUIdentifier;
 
 @protocol NUPipeline
+- (NUChannelData *);
+- (_Bool);
+- (NUIdentifier *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NUIdentifier *identifier;
-@property(readonly, copy, nonatomic) NSArray *inputChannels;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSArray *outputChannels;
-@property(readonly, nonatomic) NUPipelinePath *path;
 @end
 

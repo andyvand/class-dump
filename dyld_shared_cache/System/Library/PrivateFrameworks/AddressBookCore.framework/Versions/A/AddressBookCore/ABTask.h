@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABTask
 {
     _Bool _cancelled;
-    NSString *_name;
 }
 
 + (id);
@@ -18,17 +15,16 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)h;
+- (id)q;
+- (id);
+- (_Bool)hasPrefix: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, getter=isCancelled) _Bool cancelled;
-@property(copy) NSString *name; // @synthesize name=_name;
 
 @end
 

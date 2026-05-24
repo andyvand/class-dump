@@ -7,6 +7,11 @@
 @class UMUserPersona;
 
 @protocol UMUserPersonaManagement
+- (void);
+- (void)(;
+- (void);
+- (void)9?k;
+- (void)u";
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UMUserPersona *currentPersona;

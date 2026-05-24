@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface SSCAMetalLayerClientResourceUsageSnapshot
 {
     NSDate *_snapshotDate;
-    unsigned long long _snapshotMCT;
-    double _physicalFootprintMiB;
-    double _peakPhysicalFootprintMiB;
-    double _totalDiskReadsMiB;
-    double _totalDiskWritesMiB;
-    double _totalDiskLogicalWritesMiB;
-    unsigned long long _totalInstructionCount;
-    unsigned long long _totalPcoreInstructionCount;
-    NSNumber *_memoryLimitHeadroomMiB;
-    double _timebaseRatio;
 }
 
 + (id);
@@ -41,24 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *memoryLimitHeadroomMiB; // @synthesize memoryLimitHeadroomMiB=_memoryLimitHeadroomMiB;
-@property(readonly, nonatomic) double peakPhysicalFootprintMiB; // @synthesize peakPhysicalFootprintMiB=_peakPhysicalFootprintMiB;
-@property(readonly, nonatomic) double physicalFootprintMiB; // @synthesize physicalFootprintMiB=_physicalFootprintMiB;
-@property(readonly, nonatomic) NSDate *snapshotDate; // @synthesize snapshotDate=_snapshotDate;
-@property(readonly, nonatomic) unsigned long long snapshotMCT; // @synthesize snapshotMCT=_snapshotMCT;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
-@property(readonly, nonatomic) double totalDiskLogicalWritesMiB; // @synthesize totalDiskLogicalWritesMiB=_totalDiskLogicalWritesMiB;
-@property(readonly, nonatomic) double totalDiskReadsMiB; // @synthesize totalDiskReadsMiB=_totalDiskReadsMiB;
-@property(readonly, nonatomic) double totalDiskWritesMiB; // @synthesize totalDiskWritesMiB=_totalDiskWritesMiB;
-@property(readonly, nonatomic) unsigned long long totalInstructionCount; // @synthesize totalInstructionCount=_totalInstructionCount;
-@property(readonly, nonatomic) unsigned long long totalPcoreInstructionCount; // @synthesize totalPcoreInstructionCount=_totalPcoreInstructionCount;
 
 @end
 

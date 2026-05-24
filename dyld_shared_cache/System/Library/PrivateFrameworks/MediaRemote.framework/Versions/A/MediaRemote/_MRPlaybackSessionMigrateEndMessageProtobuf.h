@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRErrorProtobuf, _MRNowPlayingPlayerPathProtobuf, _MRPlaybackSessionRequestProtobuf, _MRSendCommandResultStatusProtobuf;
-
 @interface _MRPlaybackSessionMigrateEndMessageProtobuf
 {
     long long _errorCode;
-    _MRErrorProtobuf *_error;
-    NSString *_errorDescription;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    _MRPlaybackSessionRequestProtobuf *_request;
-    _MRSendCommandResultStatusProtobuf *_setPlaybackSessionCommandStatus;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
@@ -35,31 +27,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Commands;
 - (void);
 - (void);
-- (id)ck:duration:requestID:queue:completion: /* Error: Ran out of types for this method. */;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (_Bool)colVersion;
+- (id)_willStartingPlaybackToOutputDeviceInterruptPlayback:duration:requestID:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)_sendRequest:userInfo:destination:uid:date:response: /* Error: Ran out of types for this method. */;
+- (_Bool)_protocolVersion;
 - (void)Dialog",R,N,V_dialog;
-- (_Bool)meControlCapabilities;
-- (void)ersUpdatedNotification;
-- (long long)set;
+- (_Bool)volumeControlCapabilities;
+- (void)kMRMediaRemoteBrowsableContentNowPlayingIdentifiersUpdatedNotification;
+- (long long)kMRMediaRemoteOptionPlaybackQueueOffset;
 - (_Bool)À©	;
 
 // Remaining properties
-@property(retain, nonatomic) _MRErrorProtobuf *error; // @synthesize error=_error;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(readonly, nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDescription;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
 @property(readonly, nonatomic) _Bool hasRequest;
-@property(readonly, nonatomic) _Bool hasSetPlaybackSessionCommandStatus;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) _MRPlaybackSessionRequestProtobuf *request; // @synthesize request=_request;
-@property(retain, nonatomic) _MRSendCommandResultStatusProtobuf *setPlaybackSessionCommandStatus; // @synthesize setPlaybackSessionCommandStatus=_setPlaybackSessionCommandStatus;
 
 @end
 

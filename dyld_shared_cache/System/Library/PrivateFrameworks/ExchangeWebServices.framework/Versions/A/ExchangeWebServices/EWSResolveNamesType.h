@@ -6,14 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EWSResolveNamesType : EWSBaseRequestType
 {
     _Bool _ReturnFullContactData;
-    NSArray *_ParentFolderIds;
-    NSString *_UnresolvedEntry;
-    long long _SearchScope;
 }
 
 + (id);
@@ -25,14 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSArray *ParentFolderIds; // @synthesize ParentFolderIds=_ParentFolderIds;
-@property _Bool ReturnFullContactData; // @synthesize ReturnFullContactData=_ReturnFullContactData;
-@property long long SearchScope; // @synthesize SearchScope=_SearchScope;
-@property(copy) NSString *UnresolvedEntry; // @synthesize UnresolvedEntry=_UnresolvedEntry;
 
 @end
 

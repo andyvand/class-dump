@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (long long);
+- (long long)constraintsWithVisualFormat:options:metrics:views: /* Error: Ran out of types for this method. */;
 
 @end
 

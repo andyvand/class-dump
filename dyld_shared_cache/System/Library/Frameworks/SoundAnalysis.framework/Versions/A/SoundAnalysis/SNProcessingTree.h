@@ -9,13 +9,13 @@
     shared_ptr_a9a21428 _processingTree;
 }
 
-- (_Bool);
+- (_Bool)km;
 - (_Bool);
 - (_Bool);
 - (shared_ptr_a9a21428);
-- (_Bool);
+- (_Bool)h;
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (id);

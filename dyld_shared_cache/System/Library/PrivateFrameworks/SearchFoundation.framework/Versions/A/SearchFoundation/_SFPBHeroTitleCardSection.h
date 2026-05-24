@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBHeroTitleCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBRichText *_title;
-    _SFPBRichText *_subtitle;
-    NSArray *_buttonItems;
-    unsigned long long _maxVisibleButtonItems;
 }
 
 - (void);
@@ -29,67 +17,47 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (unsigned long long)A+;
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (_Bool)ICDelegateAccountStoreServiceListener;
+- (_Bool)ICDelegationConsumerServiceProtocolHandler;
+- (id);
+- (void)``;
+- (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)String"8@"CXCallDirectoryStoreIdentificationEntry"16;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)maximumChangeThreshold;
+- (id)objectID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)_card_section: /* Error: Ran out of types for this method. */;
+- (void)setSimple_item_rich_card_section: /* Error: Ran out of types for this method. */;
 - (int){;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSArray *buttonItems; // @synthesize buttonItems=_buttonItems;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxVisibleButtonItems; // @synthesize maxVisibleButtonItems=_maxVisibleButtonItems;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

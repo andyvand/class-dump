@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothDevicePair, IOBluetoothDevicePairViewControllerExpansion, IOBluetoothPasskeyDisplay, NSString;
+@class IOBluetoothDevicePair;
 @protocol IOBluetoothDevicePairDelegate;
 
 @interface IOBluetoothDevicePairViewController
 {
     id <IOBluetoothDevicePairDelegate> _delegate;
-    IOBluetoothDevice *_device;
-    IOBluetoothDevicePair *_devicePair;
-    IOBluetoothPasskeyDisplay *_passkeyDisplay;
-    _Bool _useCustomPINCode;
-    IOBluetoothDevicePairViewControllerExpansion *_expansion;
-    NSString *_PINCode;
 }
 
 - (void);
@@ -37,17 +31,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id) ;
+- (void)changed (%@);
 - (void);
 - (void);
 
 // Remaining properties
-@property NSString *PINCode; // @synthesize PINCode=_PINCode;
-@property __weak id <IOBluetoothDevicePairDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) IOBluetoothDevice *device; // @synthesize device=_device;
 @property(retain) IOBluetoothDevicePair *devicePair; // @synthesize devicePair=_devicePair;
-@property(retain) IOBluetoothPasskeyDisplay *passkeyDisplay; // @synthesize passkeyDisplay=_passkeyDisplay;
 
 @end
 

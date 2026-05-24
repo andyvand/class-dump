@@ -7,25 +7,6 @@
 @interface MediaPlaybackCore.AssetSlidingQueue
 {
     id dataSource;
-    id delegate;
-    id reporter;
-    id assetProducer;
-    id sessionID;
-    id queueCompletions;
-    id contentItemIDs;
-    id nowPlayingIndex;
-    id didReachEndOfQueue;
-    id isPreloadingEnabled;
-    id batchNumber;
-    id queueReloadCount;
-    id reloadingItemsReentranceCount;
-    id positions;
-    id maximumPlayerQueueLength;
-    id assetLoadPrevention;
-    id batchedReloadsParams;
-    id batchedReloads;
-    id waiters;
-    id isInvalidated;
 }
 
 @end

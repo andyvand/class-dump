@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet;
+@class NSSet;
 
 @interface MXMSampleFilter
 {
     NSSet *_tagFilters;
-    NSMutableDictionary *_attributeFilters;
 }
 
 + (id);
@@ -20,17 +19,17 @@
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)U;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)Xt;
+- (id)t;
 - (id);
 - (_Bool);
 - (id);
@@ -43,9 +42,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *attributeFilters; // @synthesize attributeFilters=_attributeFilters;
-@property(readonly, nonatomic) _Bool finite;
-@property(readonly, nonatomic, getter=finite) _Bool isFinite;
 @property(retain, nonatomic) NSSet *tagFilters; // @synthesize tagFilters=_tagFilters;
 
 @end

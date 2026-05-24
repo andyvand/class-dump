@@ -8,7 +8,6 @@
 {
     id _content;
     id _quickLookPreviewURL;
-    id _$observationRegistrar;
 }
 
 @end

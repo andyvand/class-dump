@@ -6,14 +6,9 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, ICStoreURLRequest;
-
 @interface ICSetParentalControlRequestOperation : ICRequestOperation
 {
     _Bool _allowsExplicitContent;
-    _Bool _automatic;
-    ICStoreRequestContext *_requestContext;
-    ICStoreURLRequest *_storeURLRequest;
 }
 
 - (void);
@@ -22,20 +17,17 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)24@"HMAccessory"32;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void):(id)arg1 forMode: /* Error: Ran out of types for this method. */;
+- (void)ol;
+- (void)scheduleInRunLoop:(id)arg1 forMode: /* Error: Ran out of types for this method. */;
 - (void)c_setActiveStoreAccount: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsExplicitContent; // @synthesize allowsExplicitContent=_allowsExplicitContent;
-@property(nonatomic, getter=isAutomatic) _Bool automatic; // @synthesize automatic=_automatic;
-@property(retain, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(retain, nonatomic) ICStoreURLRequest *storeURLRequest; // @synthesize storeURLRequest=_storeURLRequest;
 
 @end
 

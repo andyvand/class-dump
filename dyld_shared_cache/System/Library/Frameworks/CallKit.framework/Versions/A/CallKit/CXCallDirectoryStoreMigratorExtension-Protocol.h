@@ -5,6 +5,7 @@
 //
 
 @protocol CXCallDirectoryStoreMigratorExtension
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabledViaPlugInKit) _Bool enabledViaPlugInKit;

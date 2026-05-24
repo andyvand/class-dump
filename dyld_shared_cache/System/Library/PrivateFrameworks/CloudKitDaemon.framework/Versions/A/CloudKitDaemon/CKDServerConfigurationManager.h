@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDServerConfiguration, NSCache, NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface CKDServerConfigurationManager
 {
     _Bool _shouldDropAllConfigurations;
-    int _iCloudEnvNotifToken;
-    NSObject<OS_dispatch_source> *_switchNotifSource;
-    NSOperationQueue *_configurationQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    CKDServerConfiguration *_globalConfiguration;
-    NSMutableSet *_globalConfigurationOps;
-    NSOperationQueue *_containerSpecificInfoQueue;
-    NSCache *_containerSpecificInfos;
-    NSMutableDictionary *_containerSpecificInfoOperations;
-    NSMapTable *_fetchContainerSpecificInfoCompletionHandlers;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
 }
 
 + (id);
-- (id);
+- (id)adjust::common_AppEntity /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -32,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -42,10 +31,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (int);
-- (_Bool);
+- (int)smartCoverStateChangedCount;
+- (_Bool)requestLowAccuracyLocationUpdate;
 - (void);
 - (_Bool);
 - (void);
@@ -60,24 +49,6 @@
 - (id)ntainer countAssetCacheItems];
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperationQueue *configurationQueue; // @synthesize configurationQueue=_configurationQueue;
-@property(readonly, nonatomic) NSMutableDictionary *containerSpecificInfoOperations; // @synthesize containerSpecificInfoOperations=_containerSpecificInfoOperations;
-@property(readonly, nonatomic) NSOperationQueue *containerSpecificInfoQueue; // @synthesize containerSpecificInfoQueue=_containerSpecificInfoQueue;
-@property(retain, nonatomic) NSCache *containerSpecificInfos; // @synthesize containerSpecificInfos=_containerSpecificInfos;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMapTable *fetchContainerSpecificInfoCompletionHandlers; // @synthesize fetchContainerSpecificInfoCompletionHandlers=_fetchContainerSpecificInfoCompletionHandlers;
-@property(retain, nonatomic) CKDServerConfiguration *globalConfiguration; // @synthesize globalConfiguration=_globalConfiguration;
-@property(readonly, nonatomic) NSMutableSet *globalConfigurationOps; // @synthesize globalConfigurationOps=_globalConfigurationOps;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int iCloudEnvNotifToken; // @synthesize iCloudEnvNotifToken=_iCloudEnvNotifToken;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *propertyQueue; // @synthesize propertyQueue=_propertyQueue;
-@property _Bool shouldDropAllConfigurations; // @synthesize shouldDropAllConfigurations=_shouldDropAllConfigurations;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *switchNotifSource; // @synthesize switchNotifSource=_switchNotifSource;
 
 @end

@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface OADMiterLineJoin : OADLineJoin
 {
     float mLimit;
-    unsigned int mIsLimitOverridden:1;
 }
 
-+ (id);
++ (id)Ѱ#;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)l not include calendar servers:(float)arg1 missing network client entitlement;
 - (unsigned long long);
 - (_Bool);
 - (id);

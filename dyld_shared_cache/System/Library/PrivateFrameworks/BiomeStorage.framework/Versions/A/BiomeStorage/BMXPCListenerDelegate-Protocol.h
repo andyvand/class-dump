@@ -5,5 +5,6 @@
 //
 
 @protocol BMXPCListenerDelegate
+- (_Bool);
 @end
 

@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic, getter=isPending) _Bool pending;
 @end
 

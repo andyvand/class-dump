@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AuthKit)
-- (_Bool);
+- (_Bool);
 @end
 

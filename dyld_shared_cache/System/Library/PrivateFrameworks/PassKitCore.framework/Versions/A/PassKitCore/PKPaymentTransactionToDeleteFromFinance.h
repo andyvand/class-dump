@@ -9,17 +9,15 @@
 @interface PKPaymentTransactionToDeleteFromFinance
 {
     NSString *_transactionIdentifier;
-    NSString *_accountIdentifier;
 }
 
-- (void);
-- (id);
+- (void)M;
+- (id))k ;
 - (id)¤Ø;
-- (void)KSharingUsePredefinedCapabilitySetsKey;
-- (void)saction;
+- (void)PKSharingUsePredefinedCapabilitySetsKey;
+- (void)express_transaction;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end

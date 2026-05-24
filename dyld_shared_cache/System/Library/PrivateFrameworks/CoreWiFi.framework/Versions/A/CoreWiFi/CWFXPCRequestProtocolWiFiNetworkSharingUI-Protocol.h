@@ -5,5 +5,7 @@
 //
 
 @protocol CWFXPCRequestProtocolWiFiNetworkSharingUI
+- (void)#;
+- (void)canceled but not pending;
 @end
 

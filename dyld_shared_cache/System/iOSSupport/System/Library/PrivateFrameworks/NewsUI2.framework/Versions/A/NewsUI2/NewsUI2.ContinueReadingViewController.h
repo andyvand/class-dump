@@ -7,16 +7,12 @@
 @interface NewsUI2.ContinueReadingViewController
 {
     id content;
-    id eventHandler;
-    id dialogRequestFactory;
-    id relativeTabBarController;
-    id styler;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

@@ -11,34 +11,28 @@
 @interface NEDNSProxyProviderProtocol : NEVPNProtocol
 {
     NSDictionary *_providerConfiguration;
-    NSString *_providerBundleIdentifier;
-    NSString *_pluginType;
-    NSString *_designatedRequirement;
 }
 
-+ (_Bool);
++ (_Bool)setLastPacketReceivedTime: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)h;
+- (id)`;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)tring:options:range: /* Error: Ran out of types for this method. */;
-- (_Bool)ableEncryptedDNSSettings;
+- (id);
+- (void);
+- (id);
+- (void)replaceOccurrencesOfString:withString:options:range: /* Error: Ran out of types for this method. */;
+- (_Bool)disableEncryptedDNSSettings;
 - (id)er resetKeychainItemsAfterProtocolChange:(int)arg1 newConfiguration:(unsigned long long)arg2 ];
 
 // Remaining properties
-@property(copy) NSString *designatedRequirement; // @synthesize designatedRequirement=_designatedRequirement;
 @property(copy) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property(copy) NSString *providerBundleIdentifier; // @synthesize providerBundleIdentifier=_providerBundleIdentifier;
-@property(copy) NSDictionary *providerConfiguration; // @synthesize providerConfiguration=_providerConfiguration;
 
 @end
 

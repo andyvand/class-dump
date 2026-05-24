@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (void);

@@ -14,27 +14,18 @@
 
 + (id);
 + (id);
+- (id)a;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)29TDwarfSkipULEBAttributeActionI5DwarfI7Dwarf329Pointer6412LittleEndianEE;
 - (id);
 - (void);
 - (_Bool);
-- (void)nchAppWithParameters;
+- (void)launchAppWithParameters;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *storeName;
-@property(copy, nonatomic) NSString *storeType;
-@property(readonly) Class superclass;
 
 @end
 

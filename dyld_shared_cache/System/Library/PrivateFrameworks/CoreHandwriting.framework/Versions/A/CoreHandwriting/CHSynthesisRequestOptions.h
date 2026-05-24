@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSArray, NSNumber;
+@class NSArray;
 
 @interface CHSynthesisRequestOptions
 {
     _Bool _isFastPath;
-    _Bool _fastPathAsXZero;
-    _Bool _fastPathUseDefaultStyle;
-    _Bool _styleInventoryQuery;
-    _Bool _skipStyleInventoryLookup;
-    _Bool _saveStyleSample;
-    _Bool _forceInventoryDefaultStyle;
-    NSArray *_styleDrawings;
-    NSArray *_styleContents;
-    NSArray *_stylePredictions;
-    NSNumber *_forwardProcessRatio;
-    NSNumber *_backwardProcessRatio;
-    NSNumber *_fitWidth;
-    NSNumber *_fitHeight;
-    NSNumber *_distanceBetweenDigits;
-    long long _synthesizeCharacterInventoryBehavior;
-    CHDrawing *_xZeroDrawing;
-    NSNumber *_seed;
-    long long _chunkSynthesisSuggestion;
 }
 
 + (id);
@@ -35,14 +17,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_imageRef;
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)RH;
 - (void);
 - (void);
 - (void);
@@ -52,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Jk	;
 - (void);
 - (void);
 - (void);
@@ -63,7 +45,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)J.;
 - (_Bool);
 - (id);
 - (id);
@@ -79,28 +61,10 @@
 - (void);
 - (id);
 - (void)8x;
-- (id)ion7decoder24SegmentedPathBuilderBaseINS0_17CombinedBeamStateEEE;
+- (id)N15CoreRecognition7decoder24SegmentedPathBuilderBaseINS0_17CombinedBeamStateEEE;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *backwardProcessRatio; // @synthesize backwardProcessRatio=_backwardProcessRatio;
-@property(nonatomic) long long chunkSynthesisSuggestion; // @synthesize chunkSynthesisSuggestion=_chunkSynthesisSuggestion;
-@property(retain, nonatomic) NSNumber *distanceBetweenDigits; // @synthesize distanceBetweenDigits=_distanceBetweenDigits;
-@property(nonatomic) _Bool fastPathAsXZero; // @synthesize fastPathAsXZero=_fastPathAsXZero;
-@property(nonatomic) _Bool fastPathUseDefaultStyle; // @synthesize fastPathUseDefaultStyle=_fastPathUseDefaultStyle;
-@property(retain, nonatomic) NSNumber *fitHeight; // @synthesize fitHeight=_fitHeight;
-@property(retain, nonatomic) NSNumber *fitWidth; // @synthesize fitWidth=_fitWidth;
-@property(nonatomic) _Bool forceInventoryDefaultStyle; // @synthesize forceInventoryDefaultStyle=_forceInventoryDefaultStyle;
-@property(retain, nonatomic) NSNumber *forwardProcessRatio; // @synthesize forwardProcessRatio=_forwardProcessRatio;
-@property(nonatomic) _Bool isFastPath; // @synthesize isFastPath=_isFastPath;
-@property(nonatomic) _Bool saveStyleSample; // @synthesize saveStyleSample=_saveStyleSample;
-@property(retain, nonatomic) NSNumber *seed; // @synthesize seed=_seed;
-@property(nonatomic) _Bool skipStyleInventoryLookup; // @synthesize skipStyleInventoryLookup=_skipStyleInventoryLookup;
-@property(retain, nonatomic) NSArray *styleContents; // @synthesize styleContents=_styleContents;
 @property(retain, nonatomic) NSArray *styleDrawings; // @synthesize styleDrawings=_styleDrawings;
-@property(nonatomic) _Bool styleInventoryQuery; // @synthesize styleInventoryQuery=_styleInventoryQuery;
-@property(retain, nonatomic) NSArray *stylePredictions; // @synthesize stylePredictions=_stylePredictions;
-@property(nonatomic) long long synthesizeCharacterInventoryBehavior; // @synthesize synthesizeCharacterInventoryBehavior=_synthesizeCharacterInventoryBehavior;
-@property(retain, nonatomic) CHDrawing *xZeroDrawing; // @synthesize xZeroDrawing=_xZeroDrawing;
 
 @end
 

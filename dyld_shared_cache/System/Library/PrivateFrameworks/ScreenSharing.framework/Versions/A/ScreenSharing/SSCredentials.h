@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)_inferredResultsForLocationRepresentativeAssets: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

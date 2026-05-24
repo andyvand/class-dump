@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSAccessibilityColor
+- (NSString *);
 
 // Remaining properties
 @property(readonly) NSString *accessibilityName;

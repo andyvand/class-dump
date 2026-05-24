@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSObject, NSString, WPHomeKit;
-@protocol HAPAccessoryServerBrowserWiProxBTLEDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HAPAccessoryServerBrowserWiProxBTLE
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_trackedPeripherals;
-    NSMutableSet *_trackedIdentifiers;
-    unsigned char _routeMode;
-    _Bool _scanInBackground;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HAPAccessoryServerBrowserWiProxBTLEDelegate> _delegate;
-    WPHomeKit *_wpHomeKit;
-    long long _currentScanState;
-    long long _currentScanType;
-    NSMapTable *_reachabilityScanTuples;
 }
 
 + (id)ed accessory %@ while not discovering;
@@ -33,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned char);
 - (void);
@@ -65,31 +55,17 @@
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id):PrivateData::GnssAvailabilityPrediction_GnssAvailability_IsValid(value) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id)ng";
-- (void)houldWake;
+- (void)shouldWake;
 
 // Remaining properties
-@property(nonatomic) long long currentScanState; // @synthesize currentScanState=_currentScanState;
-@property(nonatomic) long long currentScanType; // @synthesize currentScanType=_currentScanType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HAPAccessoryServerBrowserWiProxBTLEDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak NSMapTable *reachabilityScanTuples; // @synthesize reachabilityScanTuples=_reachabilityScanTuples;
-@property(nonatomic) unsigned char routeMode; // @synthesize routeMode=_routeMode;
-@property _Bool scanInBackground; // @synthesize scanInBackground=_scanInBackground;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, nonatomic) WPHomeKit *wpHomeKit; // @synthesize wpHomeKit=_wpHomeKit;
 
 @end
 

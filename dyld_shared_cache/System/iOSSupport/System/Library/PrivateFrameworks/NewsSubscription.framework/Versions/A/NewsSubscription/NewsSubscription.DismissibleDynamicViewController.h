@@ -7,13 +7,12 @@
 @interface NewsSubscription.DismissibleDynamicViewController
 {
     id identifier;
-    id dismissDelegate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tsu_firstKey;
 - (void);
 - (void);
 

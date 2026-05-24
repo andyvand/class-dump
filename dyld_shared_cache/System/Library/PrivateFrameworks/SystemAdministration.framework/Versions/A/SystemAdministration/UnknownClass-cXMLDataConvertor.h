@@ -6,6 +6,6 @@
 
 @interface UnknownClass (cXMLDataConvertor)
 + (id);
-- (id);
+- (id);
 @end
 

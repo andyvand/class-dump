@@ -7,8 +7,6 @@
 @interface FCStubPurchaseManagerDelegateObserver
 {
     CDUnknownBlockType _successBlock;
-    CDUnknownBlockType _failedBlock;
-    CDUnknownBlockType _failedWithInvalidReceiptBlock;
 }
 
 - (CDUnknownBlockType);
@@ -18,16 +16,14 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)bestOfBundleScoringConfig;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType failedBlock; // @synthesize failedBlock=_failedBlock;
-@property(copy, nonatomic) CDUnknownBlockType failedWithInvalidReceiptBlock; // @synthesize failedWithInvalidReceiptBlock=_failedWithInvalidReceiptBlock;
 @property(copy, nonatomic) CDUnknownBlockType successBlock; // @synthesize successBlock=_successBlock;
 
 @end

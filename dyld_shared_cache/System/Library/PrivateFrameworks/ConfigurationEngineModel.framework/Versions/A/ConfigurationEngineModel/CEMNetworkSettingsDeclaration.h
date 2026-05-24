@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMNetworkSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadForceWiFiWhitelisting;
-    NSNumber *_payloadAllowVPNCreation;
 }
 
 + (id);
@@ -28,22 +27,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
-- (_Bool);
+- (_Bool)[TTSSpeechManager _initialize];
 - (id);
-- (void);
+- (void)t_size[SSL_MD_GOST94_IDX] >= 0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowVPNCreation; // @synthesize payloadAllowVPNCreation=_payloadAllowVPNCreation;
 @property(copy, nonatomic) NSNumber *payloadForceWiFiWhitelisting; // @synthesize payloadForceWiFiWhitelisting=_payloadForceWiFiWhitelisting;
-@property(readonly) Class superclass;
 
 @end
 

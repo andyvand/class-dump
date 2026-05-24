@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString;
+@class CDPContext;
 
 @interface CDPSOSCircleProxyImpl
 {
@@ -18,36 +18,36 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)loadStatsCounterWithKey:(id *)arg1;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (int);
-- (unsigned long long);
+- (unsigned long long)ption:(id *)arg1 begin_time}llu;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -56,7 +56,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_isBackgroundBlurActiveForEnabled: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -64,17 +64,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (int);
+- (int)kA;
 
 // Remaining properties
 @property(readonly, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ReminderKit/REMBaseSection.h>
 
-@class REMObjectID, REMTemplate;
+@class REMTemplate;
 
 @interface REMTemplateSection : REMBaseSection
 {
@@ -15,14 +15,13 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)x;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) REMTemplate *parentTemplate; // @synthesize parentTemplate=_parentTemplate;
-@property(retain, nonatomic) REMObjectID *parentTemplateID; // @dynamic parentTemplateID;
 
 @end
 

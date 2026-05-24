@@ -7,15 +7,63 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool).5, -0.5)));
+  vec4 p1 = sample(image, samplerTransform(image, d + vec2(+0.5, -0.5)));
+  vec4 p2 = sample(image, samplerTransform(image, d + vec2(-0.5, +0.5)));
+  vec4 p3 = sample(image, samplerTransform(image, d + vec2(+0.5, +0.5)));
+  vec2 am0 = (pass < 9.000000e-01) ? p0.rr :p0.rg;
+  vec2 am1 = (pass < 9.000000e-01) ? p1.rr :p1.rg;
+  vec2 am2 = (pass < 9.000000e-01) ? p2.rr :p2.rg;
+  vec2 am3 = (pass < 9.000000e-01) ? p3.rr :p3.rg;
+  am0.r = ((d.x + 0.5) < bound.x) ? (am0.r + am1.r) :am0.r;
+  am2.r = ((d.x + 0.5) < bound.x) ? (am2.r + am3.r) :am2.r;
+  am0.r = ((d.y + 0.5) < bound.y) ? (am0.r + am2.r) :am0.r;
+  am0.g = ((d.x + 0.5) < bound.x) ? max(am0.g, am1.g) :am0.g;
+  am2.g = ((d.x + 0.5) < bound.x) ? max(am2.g, am3.g) :am2.g;
+  am0.g = ((d.y + 0.5) < bound.y) ? max(am0.g, am2.g) :am0.g;
+  return vec4(am0.r * 0.25, am0.g, 0.0, 1.0);
+}
+ /* Error: Ran out of types for this method. */;
+- (oneway void)= sample(image, samplerTransform(image, dc + vec2(delta.x, 0.0))) * w6.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, 0.0))) * w6.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, 0.0))) * w6.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt3.x, delta.y))) * w7.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt2.x, delta.y))) * w7.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delta.x, delta.y))) * w7.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(0.0, delta.y))) * w7.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(delta.x, delta.y))) * w8.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, delta.y))) * w8.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, delta.y))) * w8.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt3.x, delt2.y))) * w8.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt2.x, delt2.y))) * w9.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delta.x, delt2.y))) * w9.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(0.0, delt2.y))) * w9.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(delta.x, delt2.y))) * w9.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, delt2.y))) * w10.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, delt2.y))) * w10.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt3.x, delt3.y))) * w10.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt2.x, delt3.y))) * w10.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delta.x, delt3.y))) * w11.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(0.0, delt3.y))) * w11.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(delta.x, delt3.y))) * w11.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, delt3.y))) * w11.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, delt3.y))) * w12.x;
+  return vec4(sum.rgb, center.a);
+}
+;
+- (NSString *);
+  return vec4(v, v, v, 1.0);
+}
+;
+- (id);
+- (_Bool)h;
 - (struct _NSZone *)%s) creating client;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)X;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

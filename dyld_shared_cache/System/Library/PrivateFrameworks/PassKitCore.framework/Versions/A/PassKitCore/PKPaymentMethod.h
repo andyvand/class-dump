@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString, PKAppletSubcredential, PKBankAccountInformation, PKPaymentPass, PKRemotePaymentInstrument, PKSecureElementPass;
+@class NSString;
 
 @interface PKPaymentMethod
 {
     _Bool _usePeerPaymentBalance;
-    NSString *_displayName;
-    NSString *_network;
-    unsigned long long _type;
-    PKSecureElementPass *_secureElementPass;
-    CNContact *_billingAddress;
-    PKAppletSubcredential *_subCredential;
-    PKRemotePaymentInstrument *_remoteInstrument;
-    NSString *_peerPaymentQuoteIdentifier;
-    PKBankAccountInformation *_bankAccount;
-    NSString *_bindToken;
 }
 
 + (id);
@@ -41,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -54,7 +44,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)initWithGroupInfo:groupID:cypher: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -65,18 +55,7 @@
 - (void)dRecordArrayDatabaseZone"16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) PKBankAccountInformation *bankAccount; // @synthesize bankAccount=_bankAccount;
-@property(copy, nonatomic) CNContact *billingAddress; // @synthesize billingAddress=_billingAddress;
-@property(copy, nonatomic) NSString *bindToken; // @synthesize bindToken=_bindToken;
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *network; // @synthesize network=_network;
-@property(copy, nonatomic) PKPaymentPass *paymentPass;
-@property(copy, nonatomic) NSString *peerPaymentQuoteIdentifier; // @synthesize peerPaymentQuoteIdentifier=_peerPaymentQuoteIdentifier;
-@property(retain, nonatomic) PKRemotePaymentInstrument *remoteInstrument; // @synthesize remoteInstrument=_remoteInstrument;
-@property(copy, nonatomic) PKSecureElementPass *secureElementPass; // @synthesize secureElementPass=_secureElementPass;
-@property(retain, nonatomic) PKAppletSubcredential *subCredential; // @synthesize subCredential=_subCredential;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool usePeerPaymentBalance; // @synthesize usePeerPaymentBalance=_usePeerPaymentBalance;
 
 @end
 

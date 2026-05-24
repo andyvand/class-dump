@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKNotificationChatController;
+
 @protocol CKNotificationChatControllerDelegate
+- (void)getIndexes:(CKNotificationChatController *)arg1 maxCount:inIndexRange: /* Error: Ran out of types for this method. */;
+- (void)getData:(CKNotificationChatController *)arg1 mimeType:error: /* Error: Ran out of types for this method. */;
 @end
 

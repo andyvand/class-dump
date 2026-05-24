@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFInvertedIndex, NSBundle, NSLock;
+@class EMFInvertedIndex, NSBundle;
 
 @interface EMFIndexManager
 {
     NSBundle *_searchEngineBundle;
-    NSLock *_defaultIndexLock;
-    NSLock *_stemmedIndexLock;
-    _Bool _triedLoadingDefaultIndex;
-    _Bool _triedLoadingStemmedIndex;
-    EMFInvertedIndex *_defaultIndex;
-    EMFInvertedIndex *_stemmedIndex;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)rViewController"8;
+- (void)Loss' flag is enabled.);
+- (void).;
 - (void);
 - (id);
 - (void);
@@ -27,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) EMFInvertedIndex *defaultIndex; // @synthesize defaultIndex=_defaultIndex;
-@property(copy, nonatomic) EMFInvertedIndex *stemmedIndex; // @synthesize stemmedIndex=_stemmedIndex;
 
 @end
 

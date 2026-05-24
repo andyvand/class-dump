@@ -7,7 +7,6 @@
 @interface OnDemandSummarizationFeedbackController
 {
     id $__lazy_storage_$_feedbackController;
-    id currentPresentingViewController;
 }
 
 + (id);

@@ -11,13 +11,15 @@
     id <ECDKIMPublicKeySource> _publicKeySource;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)y active. Ignoring. %@;
+- (_Bool)ce %@ attempted content transition while one was already active. Ignoring. %@;
+- (_Bool)lem is.;
+- (_Bool)@ to %@.;
+- (id)transition while adjusting bounds.;
+- (id)ues should not be arrays/dictionaries. Lookin' at you, '%@'.;
+- (id)rror:(id)arg1 Internal inconsistency - playback speed menu item count does not equal the speed collection count. 
+%@
+%@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,9 +31,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)9;
+- (id)s;
+- (void)in the full reply dictionary, will return NULL;
 
 // Remaining properties
 @property(readonly, nonatomic) id <ECDKIMPublicKeySource> publicKeySource; // @synthesize publicKeySource=_publicKeySource;

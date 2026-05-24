@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PLDuetActivitySchedulerUsageSnapshot
 {
     NSDate *_startDate;
-    NSDate *_stopDate;
-    double _numberOfBytesUploadedWiFi;
-    double _numberOfBytesDownloadedWiFi;
-    double _numberOfBytesUploadedCell;
-    double _numberOfBytesDownloadedCell;
-    NSString *_bundleID;
 }
 
 - (void);
@@ -22,26 +16,20 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)`;
 - (void);
 - (void);
-- (void);
+- (void)SACFScriptEncryptionParameters;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property double numberOfBytesDownloadedCell; // @synthesize numberOfBytesDownloadedCell=_numberOfBytesDownloadedCell;
-@property double numberOfBytesDownloadedWiFi; // @synthesize numberOfBytesDownloadedWiFi=_numberOfBytesDownloadedWiFi;
-@property double numberOfBytesUploadedCell; // @synthesize numberOfBytesUploadedCell=_numberOfBytesUploadedCell;
-@property double numberOfBytesUploadedWiFi; // @synthesize numberOfBytesUploadedWiFi=_numberOfBytesUploadedWiFi;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain) NSDate *stopDate; // @synthesize stopDate=_stopDate;
 
 @end
 

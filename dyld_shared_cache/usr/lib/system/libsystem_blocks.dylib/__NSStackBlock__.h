@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (oneway void);
-- (id);
-- (id);
+- (id)?@"NSData"@"PBSecurityScopedURLWrapper"@"NSError";
+- (id)rtion "old_size" failed (/AppleInternal/Library/BuildRoots/4~CNpjugDJxGwmcP2q1YmzIqPfiX5AhC5I4GUtWws/Library/Caches/com.apple.xbs/TemporaryDirectory.dDD8oD/Sources/libmalloc/src/xzone_malloc/xzone_malloc.c:6243) /* Error: Ran out of types for this method. */;
 
 @end
 

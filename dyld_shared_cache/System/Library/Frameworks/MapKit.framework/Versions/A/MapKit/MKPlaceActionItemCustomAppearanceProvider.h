@@ -11,13 +11,12 @@
 @interface MKPlaceActionItemCustomAppearanceProvider : MKPlaceActionItemAppearanceProvider
 {
     NSString *_overrideTitle;
-    NSString *_overrideSymbolName;
 }
 
 - (id);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)mapLayerPresentationForAnnotation: /* Error: Ran out of types for this method. */;
 
 @end
 

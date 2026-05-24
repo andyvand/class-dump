@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol CBAdvertisingAddressReporting
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType advertisingAddressChangedHandler;
-@property(readonly, copy, nonatomic) NSData *advertisingAddressDataConnectable;
-@property(readonly, copy, nonatomic) NSData *advertisingAddressDataNonConnectable;
 @end
 

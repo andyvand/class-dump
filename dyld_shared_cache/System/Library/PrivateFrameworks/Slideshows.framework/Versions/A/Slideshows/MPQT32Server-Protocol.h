@@ -5,5 +5,6 @@
 //
 
 @protocol MPQT32Server
+- (short)vert envelope content to telemetry, bytes=%lu;
 @end
 

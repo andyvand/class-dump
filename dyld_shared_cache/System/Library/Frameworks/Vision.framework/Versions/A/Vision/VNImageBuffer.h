@@ -4,67 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CIImage, NSDictionary, NSNumber, VNDepthRepresentation, VNImageBufferCache, VNImageSourceManager, VNSession;
+@class VNSession;
 
 @interface VNImageBuffer
 {
     VNSession *_session;
-    struct __CVBuffer *_origPixelBuffer;
-    CIImage *_origCIImage;
-    struct opaqueCMSampleBuffer *_origSampleBuffer;
-    VNImageSourceManager *_imageSourceManager;
-    VNImageBufferCache *_pixelBufferRepsCache;
-    CIContext *_passedInCIContext;
-    int _orientation;
-    unsigned long long _origImageWidth;
-    unsigned long long _origImageHeight;
-    NSDictionary *_options;
-    VNDepthRepresentation *_depthRepresentation;
-    struct os_unfair_lock_s _depthRepresentationLock;
 }
 
 + (struct CGRect);
-+ (const void *);
++ (const void *);
 - (id);
-- (id);
+- (id);
 - (struct __CVBuffer *);
-- (id);
+- (id)B;
 - (int);
 - (void);
-- (id);
+- (id)_clientStateCurrentVersionIfNeedReset;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ogging ENABLED;
+- (id)addPort:(struct __CVBuffer *)arg1 forMode:(unsigned int)arg2;
+- (id)stemOrContentNoFormat=%@ inNewName=%@ inNewSize=%@ inOptions=%@;
+- (id)t16;
 - (id);
 - (struct __CVBuffer *);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)%@;
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (int);
+- (id)sortingFamilyNameDescription;
+- (_Bool)countryCodeByLocaleLookup;
+- (id)not perform migration, no store metadata found, %@;
+- (struct __CVBuffer *)%@ for action type %@;
 - (id);
-- (_Bool);
-- (id);
-- (struct __CVBuffer *);
-- (id);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *));
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)messagingAddressesWithService:(CDStruct_1fe29af2 *)arg1 owner: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct __CVBuffer *);
 - (id);
 - (struct __CVBuffer *);
 - (struct CGImage *);
 - (struct __CVBuffer *);
-- (CDStruct_d2aef016);
+- (CDStruct_d00fdffd)withLock_compactAndRemoveDelegates: /* Error: Ran out of types for this method. */;
 - (struct __CVBuffer *);
 - (id);
 - (id);
@@ -74,17 +62,11 @@
 - (struct __CVBuffer *)r rename;
 - (void)on2D object. Error:points buffer size mismatch (data size:%lu; expected:%lu) /* Error: Ran out of types for this method. */;
 - (id)or length = ;
-- (id)aGazeCodingKeys;
+- (id)ExclaveCameraGazeCodingKeys;
 - (id);
 
 // Remaining properties
 @property(readonly) struct CGRect fullImageBufferRect;
-@property(readonly) unsigned long long height;
-@property(readonly) int orientation;
-@property(readonly) NSNumber *sceneStabilityMetric;
-@property(readonly) VNSession *session;
-@property(readonly) CDStruct_d2aef016 timingInfo;
-@property(readonly) unsigned long long width;
 
 @end
 

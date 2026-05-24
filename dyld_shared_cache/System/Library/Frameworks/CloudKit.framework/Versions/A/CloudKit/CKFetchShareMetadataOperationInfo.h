@@ -6,42 +6,32 @@
 
 #import <CloudKit/CKOperationInfo.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKFetchShareMetadataOperationInfo : CKOperationInfo
 {
     _Bool _shouldFetchRootRecord;
-    _Bool _overwriteContainerPCSServiceIfManatee;
-    _Bool _skipShareDecryption;
-    NSArray *_shareURLsToFetch;
-    NSArray *_rootRecordDesiredKeys;
-    NSDictionary *_shareInvitationTokensByShareURL;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)!;
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id)`;
+- (void);
 - (void)d@\Ð   <"Ü"L#;
 
 // Remaining properties
-@property(nonatomic) _Bool overwriteContainerPCSServiceIfManatee; // @synthesize overwriteContainerPCSServiceIfManatee=_overwriteContainerPCSServiceIfManatee;
-@property(retain, nonatomic) NSArray *rootRecordDesiredKeys; // @synthesize rootRecordDesiredKeys=_rootRecordDesiredKeys;
-@property(retain, nonatomic) NSDictionary *shareInvitationTokensByShareURL; // @synthesize shareInvitationTokensByShareURL=_shareInvitationTokensByShareURL;
 @property(retain, nonatomic) NSArray *shareURLsToFetch; // @synthesize shareURLsToFetch=_shareURLsToFetch;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
-@property(nonatomic) _Bool skipShareDecryption; // @synthesize skipShareDecryption=_skipShareDecryption;
 
 @end
 

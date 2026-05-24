@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NSSuggestionItemSection
 {
     NSString *_title;
-    NSArray *_items;
 }
 
 - (id);
@@ -21,13 +20,12 @@
 - (id)1Â0@ù
 × ;
 - (void)B56;
-- (id)rtsSorting:(struct _NSZone *)arg1;
+- (id)_tableBinderForTableViewSupportsSorting:(struct _NSZone *)arg1;
 - (void)offset;
 - (id)cted:%@ (row:%ld, column:%ld) /* Error: Ran out of types for this method. */;
 - (void)¡dh»: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *items; // @synthesize items=_items;
 @property(copy) NSString *title; // @synthesize title=_title;
 
 @end

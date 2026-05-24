@@ -9,14 +9,12 @@
 @interface SLSBridgedTileSpaceSetDividerWindowOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned int _windowID;
-    unsigned long long _spaceID;
-    unsigned long long _direction;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
++ (_Bool));
+- (id)A/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (id)and to-manys=%p};
+- (id)sterObject:(unsigned long long)arg1 forInsertedRecord:(unsigned long long)arg2 withMetadata:(unsigned int)arg3 ];
 - (unsigned long long);
 - (id);
 - (unsigned int);
@@ -24,9 +22,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long direction; // @synthesize direction=_direction;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end
 

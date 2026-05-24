@@ -4,50 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDMMCSPutRequestInfo
 {
     long long _duration;
-    long long _startTime;
-    long long _timestamp;
-    NSMutableArray *_authHttpInfos;
-    NSMutableArray *_cancelErrors;
-    int _cancelledErrorCode;
-    NSString *_cancelledErrorDomain;
-    NSMutableArray *_chunkingInfos;
-    int _chunksUploaded;
-    NSString *_ckContainerId;
-    NSString *_clientId;
-    NSMutableArray *_completeHttpInfos;
-    NSMutableArray *_containerHttpInfos;
-    NSMutableArray *_errors;
-    int _itemCount;
-    unsigned int _itemCountFailed;
-    unsigned int _itemCountSuccessful;
-    int _itemsAlreadyPresentCount;
-    int _itemsNotPresentCount;
-    int _itemsPartiallyPresentCount;
-    int _requestErrorCode;
-    NSString *_requestErrorDomain;
-    _Bool _allItemsFailed;
-    _Bool _allItemsSuccessful;
-    struct {
-        unsigned int duration:1;
-        unsigned int startTime:1;
-        unsigned int timestamp:1;
-        unsigned int cancelledErrorCode:1;
-        unsigned int chunksUploaded:1;
-        unsigned int itemCount:1;
-        unsigned int itemCountFailed:1;
-        unsigned int itemCountSuccessful:1;
-        unsigned int itemsAlreadyPresentCount:1;
-        unsigned int itemsNotPresentCount:1;
-        unsigned int itemsPartiallyPresentCount:1;
-        unsigned int requestErrorCode:1;
-        unsigned int allItemsFailed:1;
-        unsigned int allItemsSuccessful:1;
-    } _has;
 }
 
 + (Class);
@@ -58,6 +17,14 @@
 + (Class);
 - (void);
 - (void);
+- (void)	;
+- (void)	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)hnM9;
 - (void);
 - (void);
 - (void);
@@ -68,21 +35,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)@�0;
 - (int);
 - (unsigned int);
 - (_Bool);
@@ -92,11 +51,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)T7U;
 - (_Bool);
+- (_Bool)q㧟B;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T*@9_q;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -110,7 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (int);
 - (unsigned long long);
 - (id);
@@ -124,10 +83,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
-- (void);
-- (void);
+- (void)TX;
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -139,13 +98,13 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (unsigned long long);
 - (long long);
@@ -156,64 +115,23 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)};
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (int);
-- (id)lable: /* Error: Ran out of types for this method. */;
-- (_Bool)stanceToOtherPlacesType;
+- (void)H;
+- (int);
+- (id)setHasAvailable: /* Error: Ran out of types for this method. */;
+- (_Bool)distanceToOtherPlacesType;
 - (void)geOfDevice;
 
 // Remaining properties
-@property(nonatomic) _Bool allItemsFailed; // @synthesize allItemsFailed=_allItemsFailed;
-@property(nonatomic) _Bool allItemsSuccessful; // @synthesize allItemsSuccessful=_allItemsSuccessful;
-@property(retain, nonatomic) NSMutableArray *authHttpInfos; // @synthesize authHttpInfos=_authHttpInfos;
-@property(retain, nonatomic) NSMutableArray *cancelErrors; // @synthesize cancelErrors=_cancelErrors;
-@property(nonatomic) int cancelledErrorCode; // @synthesize cancelledErrorCode=_cancelledErrorCode;
-@property(retain, nonatomic) NSString *cancelledErrorDomain; // @synthesize cancelledErrorDomain=_cancelledErrorDomain;
-@property(retain, nonatomic) NSMutableArray *chunkingInfos; // @synthesize chunkingInfos=_chunkingInfos;
-@property(nonatomic) int chunksUploaded; // @synthesize chunksUploaded=_chunksUploaded;
-@property(retain, nonatomic) NSString *ckContainerId; // @synthesize ckContainerId=_ckContainerId;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(retain, nonatomic) NSMutableArray *completeHttpInfos; // @synthesize completeHttpInfos=_completeHttpInfos;
-@property(retain, nonatomic) NSMutableArray *containerHttpInfos; // @synthesize containerHttpInfos=_containerHttpInfos;
-@property(nonatomic) long long duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSMutableArray *errors; // @synthesize errors=_errors;
-@property(nonatomic) _Bool hasAllItemsFailed;
-@property(nonatomic) _Bool hasAllItemsSuccessful;
-@property(nonatomic) _Bool hasCancelledErrorCode;
-@property(readonly, nonatomic) _Bool hasCancelledErrorDomain;
-@property(nonatomic) _Bool hasChunksUploaded;
-@property(readonly, nonatomic) _Bool hasCkContainerId;
-@property(readonly, nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasItemCount;
-@property(nonatomic) _Bool hasItemCountFailed;
-@property(nonatomic) _Bool hasItemCountSuccessful;
-@property(nonatomic) _Bool hasItemsAlreadyPresentCount;
-@property(nonatomic) _Bool hasItemsNotPresentCount;
-@property(nonatomic) _Bool hasItemsPartiallyPresentCount;
-@property(nonatomic) _Bool hasRequestErrorCode;
-@property(readonly, nonatomic) _Bool hasRequestErrorDomain;
-@property(nonatomic) _Bool hasStartTime;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int itemCount; // @synthesize itemCount=_itemCount;
-@property(nonatomic) unsigned int itemCountFailed; // @synthesize itemCountFailed=_itemCountFailed;
-@property(nonatomic) unsigned int itemCountSuccessful; // @synthesize itemCountSuccessful=_itemCountSuccessful;
-@property(nonatomic) int itemsAlreadyPresentCount; // @synthesize itemsAlreadyPresentCount=_itemsAlreadyPresentCount;
-@property(nonatomic) int itemsNotPresentCount; // @synthesize itemsNotPresentCount=_itemsNotPresentCount;
-@property(nonatomic) int itemsPartiallyPresentCount; // @synthesize itemsPartiallyPresentCount=_itemsPartiallyPresentCount;
-@property(nonatomic) int requestErrorCode; // @synthesize requestErrorCode=_requestErrorCode;
-@property(retain, nonatomic) NSString *requestErrorDomain; // @synthesize requestErrorDomain=_requestErrorDomain;
-@property(nonatomic) long long startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface TeaUI.TipPlacement
 {
     id sourceIdentifier;
-    id sourceItem;
-    id sourceViewController;
-    id source;
-    id isSourceViewControllerPresented;
-    id traits;
-    id permittedArrowDirections;
 }
 
 @end

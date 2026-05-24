@@ -5,6 +5,7 @@
 //
 
 @protocol PODSyncSettingsProtocol
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool syncSubscriptions;

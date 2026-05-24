@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBLocation, _INPBString;
+@class _INPBIntentMetadata;
 
 @interface _INPBSaveParkingLocationIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBLocation *_parkingLocation;
-    _INPBString *_parkingNote;
 }
 
 + (_Bool);
@@ -27,27 +24,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)D;
 - (id);
 - (id);
 - (void);
 - (_Bool)tring",&,N,V_proposedLabel;
-- (void)ailureRestrictedContent;
+- (void)INPlayMediaIntentResponseCodeFailureRestrictedContent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasParkingLocation;
-@property(readonly, nonatomic) _Bool hasParkingNote;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBLocation *parkingLocation; // @synthesize parkingLocation=_parkingLocation;
-@property(retain, nonatomic) _INPBString *parkingNote; // @synthesize parkingNote=_parkingNote;
-@property(readonly) Class superclass;
 
 @end
 

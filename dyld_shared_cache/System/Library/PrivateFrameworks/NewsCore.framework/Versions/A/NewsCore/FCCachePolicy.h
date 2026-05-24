@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface FCCachePolicy
 {
     unsigned long long _cachePolicy;
-    double _maximumCachedAge;
 }
 
 + (id);
-+ (id);
++ (id)MapsSuggestionsLocaleChangedTrigger;
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
-- (double)eFeedScoringConfig;
+- (id)/usr/lib/swift/libswiftQuartzCore.dylib;
+- (double)shadowNewspaperMagazineFeedScoringConfig;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(nonatomic) double maximumCachedAge; // @synthesize maximumCachedAge=_maximumCachedAge;
-@property(readonly, nonatomic) NSDate *oldestAllowedDate;
 
 @end
 

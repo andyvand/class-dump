@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 @interface BWSecureMetadataOutputConfiguration
 {
     _Bool _objectDetectionEnabled;
-    NSSet *_enabledDetectedObjectTypes;
-    float _objectDetectionTargetFrameRate;
-    _Bool _attentionDetectionEnabled;
-    _Bool _faceOcclusionDetectionEnabled;
-    _Bool _faceTrackingEnabled;
-    int _faceTrackingMaxNumTrackedFaces;
-    float _faceTrackingNetworkFailureThresholdMultiplier;
-    float _faceTrackingFailureFieldOfViewModifier;
-    _Bool _eyeReliefStatusDetectionEnabled;
-    _Bool _motionToWakeEnabled;
-    float _motionToWakeTargetFrameRate;
-    _Bool _faceIDReadinessEnabled;
-    _Bool _faceIDReadinessPeriocularEnabled;
-    _Bool _faceIDReadinessAttentionRequired;
 }
 
 - (void);
@@ -31,17 +15,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int)A;
+- (_Bool)I;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)_decimalWidth;
+- (void)OITSUIntDictionary;
 - (float);
 - (float);
 - (_Bool);
@@ -57,29 +41,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)warmForConstantColorConfidenceMapForEncodingScheme:(float)arg1 requestedStillImageCaptureSettings:confidenceMapDimensions: /* Error: Ran out of types for this method. */;
-- (_Bool)fferServicingLock;
+- (void)_handlePrewarmForConstantColorConfidenceMapForEncodingScheme:(float)arg1 requestedStillImageCaptureSettings:confidenceMapDimensions: /* Error: Ran out of types for this method. */;
+- (_Bool)_bufferServicingLock;
 - (id)kÿgÿ£bÿ©~^ÿ¯zYÿ¶uUÿ½pOÿÄlIÿÌgCÿÓc=ÿÛ_8ÿä[2ÿìY-ÿôW*ÿýV(ÿÿU'ÿÿU'ÿÿV'ÿÿV'ÿÿW'ÿ;
 - (float)id;
 
 // Remaining properties
-@property(nonatomic) _Bool attentionDetectionEnabled; // @synthesize attentionDetectionEnabled=_attentionDetectionEnabled;
-@property(copy, nonatomic) NSSet *enabledDetectedObjectTypes; // @synthesize enabledDetectedObjectTypes=_enabledDetectedObjectTypes;
-@property(nonatomic) _Bool eyeReliefStatusDetectionEnabled; // @synthesize eyeReliefStatusDetectionEnabled=_eyeReliefStatusDetectionEnabled;
-@property(nonatomic) _Bool faceIDReadinessAttentionRequired; // @synthesize faceIDReadinessAttentionRequired=_faceIDReadinessAttentionRequired;
-@property(nonatomic) _Bool faceIDReadinessEnabled; // @synthesize faceIDReadinessEnabled=_faceIDReadinessEnabled;
-@property(nonatomic) _Bool faceIDReadinessPeriocularEnabled; // @synthesize faceIDReadinessPeriocularEnabled=_faceIDReadinessPeriocularEnabled;
-@property(nonatomic) _Bool faceOcclusionDetectionEnabled; // @synthesize faceOcclusionDetectionEnabled=_faceOcclusionDetectionEnabled;
-@property(nonatomic) _Bool faceTrackingEnabled; // @synthesize faceTrackingEnabled=_faceTrackingEnabled;
-@property(nonatomic) float faceTrackingFailureFieldOfViewModifier; // @synthesize faceTrackingFailureFieldOfViewModifier=_faceTrackingFailureFieldOfViewModifier;
-@property(nonatomic) int faceTrackingMaxNumTrackedFaces; // @synthesize faceTrackingMaxNumTrackedFaces=_faceTrackingMaxNumTrackedFaces;
-@property(nonatomic) float faceTrackingNetworkFailureThresholdMultiplier; // @synthesize faceTrackingNetworkFailureThresholdMultiplier=_faceTrackingNetworkFailureThresholdMultiplier;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) NSDictionary *metadataOutputConfigurationDictionary;
-@property(nonatomic) _Bool motionToWakeEnabled; // @synthesize motionToWakeEnabled=_motionToWakeEnabled;
-@property(nonatomic) float motionToWakeTargetFrameRate; // @synthesize motionToWakeTargetFrameRate=_motionToWakeTargetFrameRate;
 @property(nonatomic) _Bool objectDetectionEnabled; // @synthesize objectDetectionEnabled=_objectDetectionEnabled;
-@property(nonatomic) float objectDetectionTargetFrameRate; // @synthesize objectDetectionTargetFrameRate=_objectDetectionTargetFrameRate;
 
 @end
 

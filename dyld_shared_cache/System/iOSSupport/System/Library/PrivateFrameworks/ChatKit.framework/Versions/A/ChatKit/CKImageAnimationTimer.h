@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableSet;
+@class NSMutableSet;
 
 @interface CKImageAnimationTimer
 {
     _Bool _shouldStopWhenBackgrounded;
-    _Bool _hasValidStartTimeForCurrentDisplayLink;
-    NSMutableSet *_observers;
-    CADisplayLink *_displayLink;
-    double _animationTime;
-    double _animationStartTime;
 }
 
 + (_Bool);
 + (id);
+- (void)gestureRecognizer:shouldReceiveTouch: /* Error: Ran out of types for this method. */;
+- (_Bool)_contentSizeHeightConstraint;
+- (_Bool)_containedView;
+- (void)handwritingRecognitionSupported;
+- (void)ICAttachmentThumbnailOperation;
+- (void));
+- (_Bool)t;
+- (void)asswordProtected:removeOriginalNote:]_block_invoke /* Error: Ran out of types for this method. */;
+- (double)plicateNote:intoFolder:isPasswordProtected:removeOriginalNote:]_block_invoke /* Error: Ran out of types for this method. */;
+- (double)Duplicated note;
+- (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)0;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)utTraitsDidChange;
+- (void)textInputTraitsDidChange;
 - (id)G	GÀHI
 ìKM ÌQôRÔSàT	XUU\V#8WX[¬[
 ]ô]^	ð^¨_ÐbXd;
@@ -43,12 +38,7 @@
 - (id)ëxÿ;
 
 // Remaining properties
-@property(nonatomic) double animationStartTime; // @synthesize animationStartTime=_animationStartTime;
-@property(readonly, nonatomic) double animationTime; // @synthesize animationTime=_animationTime;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(nonatomic) _Bool hasValidStartTimeForCurrentDisplayLink; // @synthesize hasValidStartTimeForCurrentDisplayLink=_hasValidStartTimeForCurrentDisplayLink;
 @property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
-@property(nonatomic) _Bool shouldStopWhenBackgrounded; // @synthesize shouldStopWhenBackgrounded=_shouldStopWhenBackgrounded;
 
 @end
 

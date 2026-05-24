@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGCacheManagerCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRequest_macOS.m:40 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)t_message_join WHERE chat_id = chat.ROWID) == 0 AND (SELECT COUNT(*) FROM chat_recoverable_message_join WHERE chat_id = chat.ROWID) == 0);;
 - (id);
 - (id);
-- (id)s:(id)arg1;
+- (id)addClientProcessAssetAvailabilityStatus:(id)arg1;
 - (id)inceLastValidRequestMs;
-- (_Bool)OMATIC;
+- (_Bool)VOICEFEEDBACK_AUTOMATIC;
 - (_Bool)lSource.spanMatches.matches.originAppBundleId;
 - (void)¸ÖÿàN®^ä";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -14,16 +14,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
+- (void);
+- (int)B;
 - (unsigned int);
-- (struct AXVCGFullscreenZoomParameters);
+- (struct AXVCGFullscreenZoomParameters)' ;
 - (struct AXVCGFullscreenZoomParameters);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int _mainCGSConnectionID; // @synthesize _mainCGSConnectionID=__mainCGSConnectionID;
-@property(readonly, nonatomic) struct AXVCGFullscreenZoomParameters zoomParameters;
 
 @end
 

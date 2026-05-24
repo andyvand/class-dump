@@ -16,10 +16,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool)llRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
-- (void)ionOnNextPassOnly;
-- (void);
+- (void)skipAnimationOnNextPassOnly;
+- (void)setCoreUIWidget:(long long)arg1;
 - (id):textHeight: /* Error: Ran out of types for this method. */;
-- (id)allowsSkippingLayout;
+- (id)_allowsSkippingLayout;
 
 // Remaining properties
 @property(nonatomic) long long connectionCount; // @synthesize connectionCount=_connectionCount;

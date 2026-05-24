@@ -11,12 +11,12 @@
     NSArray *_resourceFileURLs;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *resourceFileURLs; // @synthesize resourceFileURLs=_resourceFileURLs;

@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, HMDXPCClientConnection, HMFMessage, HMFTimer, NSString;
-@protocol HMDCameraStreamControlManagerProtocol;
+@class HMDCameraStreamSessionInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamManagerSession
 {
     HMDCameraStreamSessionInfo *_streamSessionInfo;
-    NSString *_destinationID;
-    HMDXPCClientConnection *_streamClientConnection;
-    id <HMDCameraStreamControlManagerProtocol> _streamControlManager;
-    HMFTimer *_streamSetupTimer;
-    HMFMessage *_currentMessage;
 }
 
 + (id)ÿB;
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)capabilityLevelFetcher:didUpdateCapabilityLevelsForHandles: /* Error: Ran out of types for this method. */;
+- (id)capabilityLevelFetcher:didUpdateCapabilityLevelsForHandles: /* Error: Ran out of types for this method. */;
+- (id)arrivalNotificationBody;
+- (id)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
+- (void)litiesByParticipant;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)8@16o^@24;
 - (id)0@ù
 × ;
-- (id)ueStoreMessage;
+- (id)HMDHomeRemoteUpdateCHIPKeyValueStoreMessage;
 - (void);
 
 // Remaining properties
-@property(retain) HMFMessage *currentMessage; // @synthesize currentMessage=_currentMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *destinationID; // @synthesize destinationID=_destinationID;
-@property(readonly) unsigned long long hash;
-@property(retain) HMDXPCClientConnection *streamClientConnection; // @synthesize streamClientConnection=_streamClientConnection;
-@property(readonly) id <HMDCameraStreamControlManagerProtocol> streamControlManager; // @synthesize streamControlManager=_streamControlManager;
 @property(readonly) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) HMFTimer *streamSetupTimer; // @synthesize streamSetupTimer=_streamSetupTimer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL, PHPhotoLibrary;
+@class NSURL;
 
 @interface PGSearchComputationCache
 {
     NSURL *_persistentStoreURL;
-    NSMutableDictionary *_momentAssetPairsByNodeUUID;
-    NSMutableDictionary *_curationInformationByNodeUUID;
-    NSMutableDictionary *_locationInformationByNodeUUID;
-    PHPhotoLibrary *_photoLibrary;
 }
 
-+ (id);
++ (id)ion.c;
 - (void);
 - (void);
 - (id);
@@ -23,22 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)"24@0:(id)arg1 8@"AXFUIElement"16;
+- (id)",&,N,V__inputMarkingSessionStartPosition;
+- (id)rScreen;
 - (void);
-- (id);
+- (id)ontinuingFieldsInFormControls(t,S,!1,!1),r=o.length>1?++u:void 0,n=e.RequestType===WBSFormMetadataRequestTesting?"en-US":void 0;this.classifyDateFields(o,WBSContactBirthdayClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,WBSDateDayOrderedPartToken,r,n),k=o.length;continue}o.ControlClassification=B}else o.ControlLooksLikeEIDField?o.ControlClassification=WBSDeviceEIDClassificationToken:o.ControlLooksLikeIMEIField&&(o.ControlClassification=WBSDeviceIMEIClassificationToken);else f=!0,o.ControlClassification=WBSCreditCardTypeClassificationToken;else h=!0,o.ControlClassification=WBSCreditCardSecurityCodeClassificationToken}}}globalThis.FormMetadataClassificationJS=new FormMetadataClassification;
+0; /* Error: Ran out of types for this method. */;
 - (void);
-- (void)r;
+- (void)PGGraphIngestHomeWorkProcessor;
 - (void)AppleInternal/Library/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGPublicEventDisambiguator.m;
 - (id)noSongIdentifiersFound;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *curationInformationByNodeUUID; // @synthesize curationInformationByNodeUUID=_curationInformationByNodeUUID;
-@property(readonly, nonatomic) NSMutableDictionary *locationInformationByNodeUUID; // @synthesize locationInformationByNodeUUID=_locationInformationByNodeUUID;
-@property(readonly, nonatomic) NSMutableDictionary *momentAssetPairsByNodeUUID; // @synthesize momentAssetPairsByNodeUUID=_momentAssetPairsByNodeUUID;
 @property(readonly, nonatomic) NSURL *persistentStoreURL; // @synthesize persistentStoreURL=_persistentStoreURL;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

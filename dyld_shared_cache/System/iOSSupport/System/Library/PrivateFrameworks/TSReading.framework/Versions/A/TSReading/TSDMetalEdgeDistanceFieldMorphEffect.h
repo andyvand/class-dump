@@ -5,32 +5,15 @@
 //
 
 @class TSDMetalTextureInfo;
-@protocol MTLDevice;
 
 @interface TSDMetalEdgeDistanceFieldMorphEffect
 {
     _Bool _didTeardown;
-    struct CGRect _outgoingTextBounds;
-    struct CGRect _incomingTextBounds;
-    CDStruct_83984b6f _outgoingTextColor;
-    CDStruct_83984b6f _incomingTextColor;
-    struct CGAffineTransform _outgoingTextureEdgeInsetsAdjustmentMatrix;
-    struct CGAffineTransform _incomingTextureEdgeInsetsAdjustmentMatrix;
-    struct {
-        double skew;
-        double skewOffset;
-        double scale;
-    } _textureAdjustment;
-    _Bool _didSetupTextureAdjustment;
-    id <MTLDevice> _metalDevice;
-    _Bool isTextStyleIdenticalExceptSize;
-    TSDMetalTextureInfo *_outgoingTextureInfo;
-    TSDMetalTextureInfo *_incomingTextureInfo;
 }
 
 + (void);
 + (void);
-- (CDStruct_39925896);
+- (CDStruct_39925896)erCanSpeedRampChanged - timeStamp: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (double);
@@ -38,21 +21,19 @@
 - (struct CGAffineTransform);
 - (struct CGRect);
 - (id);
-- (struct CGContext *);
+- (struct CGContext *);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)geWillDelete;
+- (void)RangeWillDelete;
 
 // Remaining properties
-@property(readonly, nonatomic) TSDMetalTextureInfo *incomingTextureInfo; // @synthesize incomingTextureInfo=_incomingTextureInfo;
-@property(nonatomic) _Bool isTextStyleIdenticalExceptSize; // @synthesize isTextStyleIdenticalExceptSize;
 @property(readonly, nonatomic) TSDMetalTextureInfo *outgoingTextureInfo; // @synthesize outgoingTextureInfo=_outgoingTextureInfo;
 
 @end

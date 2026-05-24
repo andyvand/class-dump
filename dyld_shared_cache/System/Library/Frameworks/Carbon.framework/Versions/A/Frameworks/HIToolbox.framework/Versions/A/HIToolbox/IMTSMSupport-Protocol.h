@@ -5,8 +5,9 @@
 //
 
 @protocol IMTSMSupport
+- (void);
 
 @optional
-- (unsigned long long)WithImage:frame:key: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithImage:frame:key: /* Error: Ran out of types for this method. */;
 @end
 

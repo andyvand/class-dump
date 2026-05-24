@@ -4,15 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFDurationEventDatabaseID, NSNumber;
+@class NSNumber;
 @protocol MKFHome;
 
 @protocol MKFDurationEvent
+- (NSNumber *)s/A/ParsecSubscriptionServiceSupport;
+- (void)ample(imageMin, samplerTransform(imageMin, sc));
+sc = dc + vec2(0,-1);
+vec4 pMax10 = sample(imageMax, samplerTransform(imageMax, sc));
+vec4 pMin10 = sample(imageMin, samplerTransform(imageMin, sc));
+vec4 pMax11 = sample(imageMax, samplerTransform(imageMax, dc));
+vec4 pMin11 = sample(imageMin, samplerTransform(imageMin, dc));
+sc = dc + vec2(0,1);
+vec4 pMax12 = sample(imageMax, samplerTransform(imageMax, sc));
+vec4 pMin12 = sample(imageMin, samplerTransform(imageMin, sc));
+sc = dc + vec2(1,-1);
+vec4 pMax20 = sample(imageMax, samplerTransform(imageMax, sc));
+vec4 pMin20 = sample(imageMin, samplerTransform(imageMin, sc));
+sc = dc + vec2(1,0);
+vec4 pMax21 = sample(imageMax, samplerTransform(imageMax, sc));
+vec4 pMin21 = sample(imageMin, samplerTransform(imageMin, sc));
+sc = dc + vec2(1,1);
+vec4 pMax22 = sample(imageMax, samplerTransform(imageMax, sc));
+vec4 pMin22 = sample(imageMin, samplerTransform(imageMin, sc));
+float minDevCMaxNMin = distance(pMax11, pMin00);
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin01) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin02) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin10) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin11) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin12) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin20) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin21) );
+minDevCMaxNMin = min( minDevCMaxNMin , distance(pMax11, pMin22) );
+float minDevCMinNMax = distance(pMin11, pMax00);
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax01) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax02) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax10) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax11) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax12) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax20) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax21) );
+minDevCMinNMax = min( minDevCMinNMax , distance(pMin11, pMax22) );
+float outVal = min(minDevCMaxNMin , minDevCMinNMax) / MAX_VAL;
+outVal = 1.0f / (1.0f + exp(-logisticGain*(outVal - logisticMid)));
+vec4 outPixel = vec4(outVal, outVal, outVal, 1.0);
+return outPixel;
+}
+
+;
 - (id <MKFHome>);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFDurationEventDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *duration;
-@property(readonly) id <MKFHome> home;
 @end
 

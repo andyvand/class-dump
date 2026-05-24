@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSDictionary, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableArray;
 
 @interface ICHTTPArchive
 {
     NSMutableArray *_loggedEvents;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_source> *_flushTimer;
-    NSString *_currentArchiveFileName;
-    NSDateFormatter *_dateFormatter;
-    NSDictionary *_creatorDictionary;
-    NSString *_archiveDirectoryPath;
-    NSMutableArray *_archiveFilePaths;
-    _Bool _hasValidArchiveDirectory;
-    long long _maxArchiveFiles;
-    long long _maxArchiveBodyLength;
-    long long _flushDelaySeconds;
 }
 
 + (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)	?נ;
+- (void)ector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}ffffiiii^vBfffffffi{btVector3=(?=[4f])}{btVector3=(?=[4f])}}32;
+- (void)6@24@32@40{CATransform3D=dddddddddddddddd}48;
+- (id);
+- (id)AC;
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)ø;

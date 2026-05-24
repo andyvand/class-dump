@@ -10,6 +10,9 @@
 @protocol _UIFocusEnvironmentPlatformSupport
 
 @optional
+- (_Bool)setIsManaged:(UIFocusUpdateContext *)arg1;
+- (_Bool)account:capabilitiesChanged: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (void)s:(UIFocusUpdateContext *)arg1 When collapsing for size class adaptation, secondary (detail) view controller has a navigation controller without any children, so ignoring it and not collapsing secondary on top of primary. SplitViewController is %@, primary is %@, secondary is %@;
 - (id <UIFocusEnvironment>)¿·é$pÀ`¬o`r£ê?;
 @end

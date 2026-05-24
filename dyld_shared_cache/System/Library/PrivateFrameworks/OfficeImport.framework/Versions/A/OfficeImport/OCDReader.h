@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSString;
-@protocol OCDReaderDelegate, TCCancelDelegate;
+@class NSString;
+@protocol TCCancelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface OCDReader
 {
     id <TCCancelDelegate> mCancelDelegate;
-    _Bool mIsThumbnail;
-    NSString *mFileName;
-    NSData *mData;
-    NSError *mStartError;
-    id <OCDReaderDelegate> _delegate;
 }
 
+- (_Bool)q;
+- (id);
+- (void)q;
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)su_arrayByRemovingObjectsIdenticalToObjectsInArray: /* Error: Ran out of types for this method. */;
+- (void)2;
+- (id)tsu_arrayByRemovingObjectsIdenticalToObjectsInArray: /* Error: Ran out of types for this method. */;
 - (void)è;
 - (id)z@j;
 
 // Remaining properties
-@property(retain, nonatomic) id <TCCancelDelegate> cancelDelegate; // @synthesize cancelDelegate=mCancelDelegate;
-@property(retain, nonatomic) NSData *data; // @synthesize data=mData;
-@property(nonatomic) __weak id <OCDReaderDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSString *fileName; // @synthesize fileName=mFileName;
-@property(nonatomic) _Bool isThumbnail; // @synthesize isThumbnail=mIsThumbnail;
-@property(retain, nonatomic) NSError *startError; // @synthesize startError=mStartError;
 
 @end
 

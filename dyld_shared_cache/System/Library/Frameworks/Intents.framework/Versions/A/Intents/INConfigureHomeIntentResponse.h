@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INConfigureHomeIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_canCreateContextOfSize:(long long)arg1 forRequest: /* Error: Ran out of types for this method. */;
 + (int);
 + (long long);
 + (_Bool);
@@ -20,25 +18,18 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)q;
 - (long long);
+- (id)P;
+- (id)GCDeviceButtonInputDescription;
+- (id);
+- (void).Batelco_bh.43a98ea8-d474-11eb-a640-f45c89abb0d9;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)rvalAttributeMetadataINTypePropertyMetadataDefaultValue;
+- (long long)__INCodableTimeIntervalAttributeMetadataINTypePropertyMetadataDefaultValue;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

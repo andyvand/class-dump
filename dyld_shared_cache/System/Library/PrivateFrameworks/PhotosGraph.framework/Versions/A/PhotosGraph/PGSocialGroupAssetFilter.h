@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGSocialGroupAssetFilter
 {
     double _minimumRatioOfFacesComingFromSocialGroup;
-    double _minimumRatioOfPersonsInSocialGroupPresent;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)initWithWebExtension:permissionsWereUpdatedDueToAnExternalChange: /* Error: Ran out of types for this method. */;
++ (_Bool)w;
 - (double);
 - (double);
-- (id);
-- (_Bool);
+- (id)colorWithAlphaComponent:(id)arg1;
+- (_Bool)3;
 - (id);
 - (id);
 - (id);
@@ -26,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double minimumRatioOfFacesComingFromSocialGroup; // @synthesize minimumRatioOfFacesComingFromSocialGroup=_minimumRatioOfFacesComingFromSocialGroup;
-@property(readonly, nonatomic) double minimumRatioOfPersonsInSocialGroupPresent; // @synthesize minimumRatioOfPersonsInSocialGroupPresent=_minimumRatioOfPersonsInSocialGroupPresent;
-@property(readonly) Class superclass;
 
 @end
 

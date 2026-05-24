@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNAutocompleteObservableBuilderBatchingHelper, CNAutocompleteProbeProvider, CNScheduler;
+@protocol CNAutocompleteObservableBuilderBatchingHelper;
 
 @interface CNAutocompleteObservableBuilder
 {
     _Bool _supplementalResultsUseNetwork;
-    id <CNAutocompleteObservableBuilderBatchingHelper> _batchingHelper;
-    id <CNAutocompleteProbeProvider> _probeProvider;
-    double _networkActivityStartDelay;
-    CDUnknownBlockType _networkActivityDidStartHandler;
-    CDUnknownBlockType _networkActivityDidStopHandler;
-    id <CNScheduler> _scheduler;
 }
 
 + (_Bool);
@@ -30,16 +23,17 @@
 - (double);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A9h
+;
 - (void);
 - (void);
 - (void);
@@ -49,19 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNAutocompleteObservableBuilderBatchingHelper> batchingHelper; // @synthesize batchingHelper=_batchingHelper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType networkActivityDidStartHandler; // @synthesize networkActivityDidStartHandler=_networkActivityDidStartHandler;
-@property(copy, nonatomic) CDUnknownBlockType networkActivityDidStopHandler; // @synthesize networkActivityDidStopHandler=_networkActivityDidStopHandler;
-@property(nonatomic) double networkActivityStartDelay; // @synthesize networkActivityStartDelay=_networkActivityStartDelay;
-@property(readonly, nonatomic) id <CNAutocompleteProbeProvider> probeProvider; // @synthesize probeProvider=_probeProvider;
-@property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supplementalResultsUseNetwork; // @synthesize supplementalResultsUseNetwork=_supplementalResultsUseNetwork;
 
 @end
 

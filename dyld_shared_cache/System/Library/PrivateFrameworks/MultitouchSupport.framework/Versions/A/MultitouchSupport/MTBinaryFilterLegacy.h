@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface MTBinaryFilterLegacy
 {
     unsigned int _maxFrameSize;
-    struct _MTBinaryFilter *_legacyFilter;
-    NSURL *_bundleURL;
-    id _cfBundle;
-    id _mtDevice;
-    CDUnknownFunctionPointerType _createBinaryFilter;
 }
 
 - (void);
@@ -27,28 +20,16 @@ __attribute__((visibility("hidden")))
 -     // Error parsing type: @32@0:8@16^{__MTDevice={__CFRuntimeBase=QAQ}IIB^{__MTActuator}BBBBIIIIQIIIIIIII^{__CFString}{?=BB}BBBBBBIIBBBBBBBB*d^{__ALGLibraryState}IQCIqIIIISBii[20{MTSensorRegion=CCCCCC(?=CC)}]{MTSensorRegionThresholds=sss}{MTSensorSurfaceDescriptor=IIssss}I^{MTParsedMultitouchFrameRep_t}{__MTDeviceCallbacksStruct=[21{__MTDeviceCallbackRecord=(?=[4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?][4^?]^?[4^?])C[4^v]}]i[4S]f[4S]f[4{ImageCallbackFilter=II}][5f][5{MTStatisticParameters=ff}][5*]B{?=iII}}^{__CFMachPort}^{__CFString}^{__CFRunLoopSource}B^{__CFRunLoop}[3I]CiiBIBIB@i^{__CFData}QQQCBB[5I][5I]^vQB^vB{?=i*I{MTBinaryFrameHeader={MTBinaryHeader=CCCCI}{MTImagePathContentOptions=CCCC}SSCCsSsC}I[32{?=qdiiii{MTPoint=ff}{MTPoint=ff}fffff{MTPoint=ff}{MTPoint=ff}S ff}]I[32^{?}]{?=*IS}}[7C]CQ^{work_interval}IBC^{__CFDictionary}}24, name: (null)
 - (void);
 - (CDUnknownFunctionPointerType);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (id);
+- (id)0H'D�1E;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(retain, nonatomic) id cfBundle; // @synthesize cfBundle=_cfBundle;
-@property(nonatomic) CDUnknownFunctionPointerType createBinaryFilter; // @synthesize createBinaryFilter=_createBinaryFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct _MTBinaryFilter *legacyFilter; // @synthesize legacyFilter=_legacyFilter;
-@property(readonly, nonatomic) unsigned int maxFrameSize; // @synthesize maxFrameSize=_maxFrameSize;
-@property(nonatomic) __weak id mtDevice; // @synthesize mtDevice=_mtDevice;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,21 +7,18 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool)stPredicted:(Class)arg1;
+- (id)P;
+- (unsigned long long);
+- (_Bool);
+- (_Bool)EOTransitLine>",R,N;
+- (_Bool)setStateOfChargeAtDestPredicted:(Class)arg1;
 - (id)_originListSecondaryInstructions;
 - (_Bool);
-- (struct _NSZone *);
 
 @optional
-- (NSString *)lDisplayOrder;
+- (NSString *)groupItemVerticalDisplayOrder;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

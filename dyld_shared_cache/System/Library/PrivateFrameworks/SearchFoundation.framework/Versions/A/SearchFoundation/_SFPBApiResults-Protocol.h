@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-
 @protocol _SFPBApiResults
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *flights;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int resultType;
 @property(nonatomic) int status;
 @end
 

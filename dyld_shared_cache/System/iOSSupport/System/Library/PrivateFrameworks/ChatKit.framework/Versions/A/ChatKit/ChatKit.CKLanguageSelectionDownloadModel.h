@@ -7,11 +7,6 @@
 @interface ChatKit.CKLanguageSelectionDownloadModel
 {
     id locale;
-    id _progress;
-    id _state;
-    id _isDefaultModel;
-    id _isSelected;
-    id _$observationRegistrar;
 }
 
 @end

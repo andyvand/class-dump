@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSActivationEventNotifier
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_handlerMap;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)faceObservationWithRequestRevision:(id)arg1 boundingBox:faceprint: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)etion: /* Error: Ran out of types for this method. */;
+- (void)_transferAudioData:numSamples:remoteWavFilePath:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *handlerMap; // @synthesize handlerMap=_handlerMap;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

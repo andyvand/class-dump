@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NLDataInstance
 {
@@ -22,10 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *label;
-@property(readonly, copy) NSArray *labels;
 @property(readonly, copy) NSString *string;
-@property(readonly, copy) NSArray *tokens;
 
 @end
 

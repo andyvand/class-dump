@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -23,9 +23,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)?S;
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (long long);
 - (void)NSString",R,C,N,V_phoneNumber;

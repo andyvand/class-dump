@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDSession, NSHTTPURLResponse, NSMutableData, NSMutableURLRequest, NSObject, NSString, NSURLConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableURLRequest;
 
 @interface iCloudRequester
 {
     NSMutableURLRequest *_request;
-    NSURLConnection *_urlConnection;
-    CDUnknownBlockType _handler;
-    NSMutableData *_data;
-    NSHTTPURLResponse *_httpResponse;
-    _Bool _isExecuting;
-    _Bool _isFinished;
-    _Bool _canceled;
-    AKAppleIDSession *_appleIDSession;
-    NSString *_accountID;
-    _Bool _shouldRetry;
-    _Bool _isCanceled;
-    NSObject<OS_dispatch_queue> *_handlerQueue;
 }
 
 - (void);
-- (id);
+- (id)kR*p*;;
 - (void);
 - (void);
 - (id);
@@ -46,22 +33,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)chSuggestedBeneficiaries:(_Bool)arg1;
+- (void)fetchSuggestedBeneficiaries:(_Bool)arg1;
 - (_Bool)itViewController runUpsellWebKitViewControllerForWindow:accountID:librarySizeAsNumber:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=isCanceled) _Bool canceled; // @synthesize canceled=_isCanceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isFinished) _Bool finished; // @synthesize finished=_isFinished;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *handlerQueue; // @synthesize handlerQueue=_handlerQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
 @property(nonatomic, getter=isExecuting) _Bool isExecuting; // @synthesize isExecuting=_isExecuting;
-@property(readonly) Class superclass;
 
 @end
 

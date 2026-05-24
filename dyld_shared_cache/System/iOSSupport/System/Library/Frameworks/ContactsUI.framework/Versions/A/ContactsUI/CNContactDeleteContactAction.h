@@ -6,28 +6,26 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNUICoreRecentsManager, CNUIExternalComponentsFactory;
+@class CNUIExternalComponentsFactory;
 
 __attribute__((visibility("hidden")))
 @interface CNContactDeleteContactAction : CNContactAction
 {
     CNUIExternalComponentsFactory *_componentsFactory;
-    CNUICoreRecentsManager *_recentsManager;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)I;
 - (_Bool);
 - (void);
-- (id);
+- (id)assetCacheWithURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)V_primaryPropertyKey;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIExternalComponentsFactory *componentsFactory; // @synthesize componentsFactory=_componentsFactory;
-@property(readonly, nonatomic) CNUICoreRecentsManager *recentsManager; // @synthesize recentsManager=_recentsManager;
 
 @end
 

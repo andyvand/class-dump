@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NGMPBP256Key
 {
     NSData *_keyData;
-    NSString *_keychainTag;
-    int _keystore;
 }
 
-- (id);
+- (id)|*;
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
+- (void)ived in message expire state reply handler:(id)arg1 %s;
+- (id);
+- (int)P=;
+- (id)com.apple.corespotlight.daemon.mail;
 - (void);
 - (id);
-- (int);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -37,11 +35,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasKeyData;
 @property(readonly, nonatomic) _Bool hasKeychainTag;
-@property(retain, nonatomic) NSData *keyData; // @synthesize keyData=_keyData;
-@property(retain, nonatomic) NSString *keychainTag; // @synthesize keychainTag=_keychainTag;
-@property(nonatomic) int keystore; // @synthesize keystore=_keystore;
 
 @end
 

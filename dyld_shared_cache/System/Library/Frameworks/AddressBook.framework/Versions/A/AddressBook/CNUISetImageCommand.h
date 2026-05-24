@@ -6,27 +6,17 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNMutableContact, NSData, NSString;
+@class CNMutableContact;
 
 @interface CNUISetImageCommand : CNUIUndoableCommand
 {
     _Bool _shouldSave;
-    _Bool _done;
-    CNMutableContact *_contact;
-    NSData *_imageData;
-    NSData *_largeImageData;
-    NSData *_cropRectHash;
-    NSString *_imageReference;
-    NSString *_imageType;
-    NSData *_memojiMetadata;
-    NSString *_actionName;
-    struct CGRect _cropRect;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)urces/AppStoreDaemon/Libraries/AppStoreDaemon/Services/InstallApps/Metadata/ASDWatchAppMetadata.m:162 :Unsupported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -49,26 +39,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ĥ;
 - (id);
 - (id);
 - (void);
 - (void)"NSTextView"16@"NSArray"24@"NSArray"32;
-- (_Bool)ewed: /* Error: Ran out of types for this method. */;
-- (struct CGRect)eCommandForDeletedContacts: /* Error: Ran out of types for this method. */;
+- (_Bool)markAsViewed: /* Error: Ran out of types for this method. */;
+- (struct CGRect)makeDeleteCommandForDeletedContacts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
 @property(retain, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(retain, nonatomic) NSData *cropRectHash; // @synthesize cropRectHash=_cropRectHash;
-@property(nonatomic) _Bool done; // @synthesize done=_done;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *imageReference; // @synthesize imageReference=_imageReference;
-@property(copy, nonatomic) NSString *imageType; // @synthesize imageType=_imageType;
-@property(retain, nonatomic) NSData *largeImageData; // @synthesize largeImageData=_largeImageData;
-@property(retain, nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
-@property(nonatomic) _Bool shouldSave; // @synthesize shouldSave=_shouldSave;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface MPSCNNSpatialNormalizationGradient : MPSCNNGradientKernel
 {
     float _alpha;
-    float _beta;
-    float _delta;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -18,18 +16,16 @@
 - (id);
 - (id);
 - (float);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)r;
 - (float);
-- (id)y_2d_2d_float;
+- (id)MPSRNNGateCombine_2dArray_2d_2d_float;
 - (float);
 
 // Remaining properties
 @property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float beta; // @synthesize beta=_beta;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
 
 @end
 

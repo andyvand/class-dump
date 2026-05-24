@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface ABBuddyStatus
 {
     Class IMService;
-    NSMutableDictionary *cache;
 }
 
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);

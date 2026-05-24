@@ -7,18 +7,16 @@
 @interface SFSpeechAnalyzerSpeechDetectorOptions
 {
     _Bool _reportResults;
-    unsigned long long _sensitivityLevel;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)powerToggleEventCount;
+- (void)pingPongSequenceIsReassocOnly;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool reportResults; // @synthesize reportResults=_reportResults;
 @property(nonatomic) unsigned long long sensitivityLevel; // @synthesize sensitivityLevel=_sensitivityLevel;
 
 @end

@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void)r;
+- (void)alertHeader;
 
 // Remaining properties
 @property(retain, nonatomic) PKPeerPaymentTransactionMetadata *peerPaymentTransactionMetadata; // @synthesize peerPaymentTransactionMetadata=_peerPaymentTransactionMetadata;

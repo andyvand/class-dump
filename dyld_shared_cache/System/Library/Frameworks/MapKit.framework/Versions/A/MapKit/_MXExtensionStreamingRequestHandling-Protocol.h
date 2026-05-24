@@ -5,5 +5,6 @@
 //
 
 @protocol _MXExtensionStreamingRequestHandling
+- (void);
 @end
 

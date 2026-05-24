@@ -4,57 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOEVStepFeedbackInfo, NSData, PBDataReader;
+@class PBDataReader;
 
 @interface GEOStepFeedback
 {
     PBDataReader *_reader;
-    double _completionTimeStamp;
-    NSData *_etaTrafficUpdateResponseId;
-    GEOEVStepFeedbackInfo *_evStepInfo;
-    NSData *_routeID;
-    double _stepEndPathPointOffset;
-    NSData *_stepZilch;
-    NSData *_tripID;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _expectedTime;
-    int _maneuverType;
-    unsigned int _routeIndex;
-    unsigned int _stepID;
-    int _stepEndPathPointIndex;
-    unsigned int _waypointRouteID;
-    _Bool _completedStep;
-    _Bool _lightGuidance;
-    _Bool _routePaused;
-    _Bool _routeResumed;
-    struct {
-        unsigned int has_completionTimeStamp:1;
-        unsigned int has_stepEndPathPointOffset:1;
-        unsigned int has_expectedTime:1;
-        unsigned int has_maneuverType:1;
-        unsigned int has_routeIndex:1;
-        unsigned int has_stepID:1;
-        unsigned int has_stepEndPathPointIndex:1;
-        unsigned int has_waypointRouteID:1;
-        unsigned int has_completedStep:1;
-        unsigned int has_lightGuidance:1;
-        unsigned int has_routePaused:1;
-        unsigned int has_routeResumed:1;
-        unsigned int read_etaTrafficUpdateResponseId:1;
-        unsigned int read_evStepInfo:1;
-        unsigned int read_routeID:1;
-        unsigned int read_stepZilch:1;
-        unsigned int read_tripID:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)hedToken:(id)arg1;
++ (_Bool)setMatchedToken:(id)arg1;
+- (id);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (double);
 - (int);
 - (void);
@@ -90,25 +50,25 @@
 - (id);
 - (int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setIncludesDisabledStoreMatches: /* Error: Ran out of types for this method. */;
+- (_Bool)scopeAccountUrls:forCacheKey: /* Error: Ran out of types for this method. */;
+- (_Bool)nameWithFormatter:rangeOfSortingSubstring: /* Error: Ran out of types for this method. */;
+- (_Bool)nameWithFormatter:rangeOfSortingSubstring: /* Error: Ran out of types for this method. */;
+- (_Bool)nameOrderForRecord: /* Error: Ran out of types for this method. */;
+- (_Bool)nameNormalized;
+- (_Bool)isDuplicate:ofCustomProperty: /* Error: Ran out of types for this method. */;
+- (_Bool)isAnyPersistentStoreAttachedToPersistentStoreCoordinator: /* Error: Ran out of types for this method. */;
+- (_Bool)inverseRelationship;
+- (_Bool)beginListening;
+- (_Bool)rsistentStoreIdentifier;
+- (_Bool)setWithObjects: /* Error: Ran out of types for this method. */;
+- (_Bool)NSArray",R,C,N,V_allAccountsImpl;
+- (_Bool)Array",C,VchildAccounts;
 - (unsigned int);
 - (id);
 - (id);
-- (double);
-- (_Bool);
+- (double)<CNAccountDescription>"8;
+- (_Bool)"8;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -118,57 +78,24 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void)attSiriStateMonitor:(id)arg1 didRecieveAttSiriStateChange: /* Error: Ran out of types for this method. */;
+- (id)ute:%{public}@ playbackRoute:%{public}@, route in recordingInfo:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)16;
-- (id)t;
-- (id)gument_Price;
-- (id)neratedGuides;
+- (id)hasMapFeatureSubmittedRatingsCount;
+- (id)GEOComposedStringArgument_Price;
+- (id)userGeneratedGuides;
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool completedStep;
-@property(nonatomic) double completionTimeStamp;
-@property(retain, nonatomic) NSData *etaTrafficUpdateResponseId;
-@property(retain, nonatomic) GEOEVStepFeedbackInfo *evStepInfo;
-@property(nonatomic) unsigned int expectedTime;
-@property(nonatomic) _Bool hasCompletedStep;
-@property(nonatomic) _Bool hasCompletionTimeStamp;
-@property(readonly, nonatomic) _Bool hasEtaTrafficUpdateResponseId;
-@property(readonly, nonatomic) _Bool hasEvStepInfo;
-@property(nonatomic) _Bool hasExpectedTime;
-@property(nonatomic) _Bool hasLightGuidance;
-@property(nonatomic) _Bool hasManeuverType;
-@property(readonly, nonatomic) _Bool hasRouteID;
-@property(nonatomic) _Bool hasRouteIndex;
-@property(nonatomic) _Bool hasRoutePaused;
-@property(nonatomic) _Bool hasRouteResumed;
-@property(nonatomic) _Bool hasStepEndPathPointIndex;
-@property(nonatomic) _Bool hasStepEndPathPointOffset;
 @property(nonatomic) _Bool hasStepID;
-@property(readonly, nonatomic) _Bool hasStepZilch;
-@property(readonly, nonatomic) _Bool hasTripID;
-@property(nonatomic) _Bool hasWaypointRouteID;
-@property(nonatomic) _Bool lightGuidance;
-@property(nonatomic) int maneuverType;
-@property(retain, nonatomic) NSData *routeID;
-@property(nonatomic) unsigned int routeIndex;
-@property(nonatomic) _Bool routePaused;
-@property(nonatomic) _Bool routeResumed;
-@property(nonatomic) int stepEndPathPointIndex;
-@property(nonatomic) double stepEndPathPointOffset;
-@property(nonatomic) unsigned int stepID;
-@property(retain, nonatomic) NSData *stepZilch;
-@property(retain, nonatomic) NSData *tripID;
-@property(nonatomic) unsigned int waypointRouteID;
 
 @end
 

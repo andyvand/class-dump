@@ -9,10 +9,6 @@
 @interface PHAPrivateFederatedLearningModelTrainerResponse
 {
     NSArray *_parameterDeltas;
-    NSArray *_trainingLossesPerEpoch;
-    NSArray *_trainingAccuraciesPerEpoch;
-    unsigned long long _trainingEpochs;
-    unsigned long long _numberOfTrainingSamples;
 }
 
 - (id);
@@ -26,14 +22,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)dleIdentifier;
+- (void)bundleIdentifier;
 
 // Remaining properties
-@property(nonatomic) unsigned long long numberOfTrainingSamples; // @synthesize numberOfTrainingSamples=_numberOfTrainingSamples;
 @property(retain, nonatomic) NSArray *parameterDeltas; // @synthesize parameterDeltas=_parameterDeltas;
-@property(retain, nonatomic) NSArray *trainingAccuraciesPerEpoch; // @synthesize trainingAccuraciesPerEpoch=_trainingAccuraciesPerEpoch;
-@property(nonatomic) unsigned long long trainingEpochs; // @synthesize trainingEpochs=_trainingEpochs;
-@property(retain, nonatomic) NSArray *trainingLossesPerEpoch; // @synthesize trainingLossesPerEpoch=_trainingLossesPerEpoch;
 
 @end
 

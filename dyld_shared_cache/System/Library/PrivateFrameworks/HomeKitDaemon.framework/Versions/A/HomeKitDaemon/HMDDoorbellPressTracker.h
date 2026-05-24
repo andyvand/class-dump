@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNotificationCenter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDDoorbellPressTracker
 {
     struct os_unfair_lock_s _lock;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_dateOfLastDoorbellPressByAccessoryUUID;
-    NSMutableDictionary *_registrationsByAccessoryUUID;
 }
 
 + (id)¦B;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)Date";
+- (void)sydromeReceiverCapabilities;
+- (void)chargingStationInfo;
+- (void)_TtC11MapsSupportP33_D895F6978ABFA0F06ADE38F52CA15BBD19ResourceBundleClass;
+- (id)24;
 - (id);
 - (void);
 - (_Bool);
@@ -34,18 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)àmA;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *dateOfLastDoorbellPressByAccessoryUUID; // @synthesize dateOfLastDoorbellPressByAccessoryUUID=_dateOfLastDoorbellPressByAccessoryUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) NSMutableDictionary *registrationsByAccessoryUUID; // @synthesize registrationsByAccessoryUUID=_registrationsByAccessoryUUID;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

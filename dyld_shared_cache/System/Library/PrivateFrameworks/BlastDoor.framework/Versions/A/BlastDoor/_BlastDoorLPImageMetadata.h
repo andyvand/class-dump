@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface _BlastDoorLPImageMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
-    struct CGSize _size;
 }
 
 + (_Bool);
@@ -27,17 +21,13 @@
 - (unsigned long long);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)PrivateFrameworks/login.framework/Versions/A/login;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

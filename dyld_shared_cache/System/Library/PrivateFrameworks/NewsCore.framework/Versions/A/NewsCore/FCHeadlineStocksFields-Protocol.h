@@ -10,7 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *stocksClusterID;
-@property(readonly, copy, nonatomic) NSString *stocksMetadataJSON;
-@property(readonly, copy, nonatomic) NSString *stocksScoresJSON;
 @end
 

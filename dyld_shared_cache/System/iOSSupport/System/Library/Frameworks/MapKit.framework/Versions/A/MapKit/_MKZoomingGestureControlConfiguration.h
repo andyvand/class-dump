@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MKZoomingGestureControlConfiguration
 {
     double _decelerationThreshold;
-    double _maximumZoomInVelocity;
-    double _maximumZoomOutVelocity;
-    double _zoomOutFrictionScale;
-    double _zoomDraggingResistance;
 }
 
 + (id);
@@ -25,21 +19,10 @@
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) double decelerationThreshold; // @synthesize decelerationThreshold=_decelerationThreshold;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maximumZoomInVelocity; // @synthesize maximumZoomInVelocity=_maximumZoomInVelocity;
-@property(readonly, nonatomic) double maximumZoomOutVelocity; // @synthesize maximumZoomOutVelocity=_maximumZoomOutVelocity;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double zoomDraggingResistance; // @synthesize zoomDraggingResistance=_zoomDraggingResistance;
-@property(readonly, nonatomic) double zoomOutFrictionScale; // @synthesize zoomOutFrictionScale=_zoomOutFrictionScale;
 
 @end
 

@@ -7,15 +7,6 @@
 @interface NewsFeed.FormatSponsoredBannerNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id _selectors;
-    id style;
-    id flex;
 }
 
 @end

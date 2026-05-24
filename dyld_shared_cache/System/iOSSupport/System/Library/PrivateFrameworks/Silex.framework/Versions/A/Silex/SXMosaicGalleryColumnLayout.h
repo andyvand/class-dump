@@ -7,7 +7,6 @@
 @interface SXMosaicGalleryColumnLayout
 {
     double _width;
-    double _gutter;
 }
 
 - (double);
@@ -15,11 +14,10 @@
 - (double);
 - (double);
 - (id);
-- (double);
+- (double)";
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double gutter; // @synthesize gutter=_gutter;
 @property(readonly, nonatomic) double width; // @synthesize width=_width;
 
 @end

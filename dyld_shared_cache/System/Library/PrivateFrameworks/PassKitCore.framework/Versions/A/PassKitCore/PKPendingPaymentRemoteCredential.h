@@ -6,22 +6,11 @@
 
 #import <PassKitCore/PKPendingProvisioning.h>
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface PKPendingPaymentRemoteCredential : PKPendingProvisioning
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    long long _credentialType;
-    long long _cardType;
-    NSString *_sanitizedPrimaryAccountNumber;
-    NSString *_cardIdentifier;
-    NSString *_ownershipToken;
-    NSString *_nonce;
-    NSString *_transferableFromDeviceSerialNumber;
-    NSString *_transferableFromDeviceIdentifier;
-    NSURL *_passURL;
-    NSArray *_activationMethods;
 }
 
 + (_Bool);
@@ -46,34 +35,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)%;
 - (id);
 - (void);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)Q,N,V_requestsBLEScan;
+- (long long);
 - (void);
-- (void)s;
+- (void)embeddedBeacons;
 - (id)om.apple.passbook.cloudstore.unrecoverable-error;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activationMethods; // @synthesize activationMethods=_activationMethods;
-@property(retain, nonatomic) NSString *cardIdentifier; // @synthesize cardIdentifier=_cardIdentifier;
-@property(nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(retain, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(retain, nonatomic) NSString *ownershipToken; // @synthesize ownershipToken=_ownershipToken;
-@property(retain, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(retain, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(retain, nonatomic) NSString *sanitizedPrimaryAccountNumber; // @synthesize sanitizedPrimaryAccountNumber=_sanitizedPrimaryAccountNumber;
-@property(retain, nonatomic) NSString *transferableFromDeviceIdentifier; // @synthesize transferableFromDeviceIdentifier=_transferableFromDeviceIdentifier;
-@property(retain, nonatomic) NSString *transferableFromDeviceSerialNumber; // @synthesize transferableFromDeviceSerialNumber=_transferableFromDeviceSerialNumber;
 
 @end
 

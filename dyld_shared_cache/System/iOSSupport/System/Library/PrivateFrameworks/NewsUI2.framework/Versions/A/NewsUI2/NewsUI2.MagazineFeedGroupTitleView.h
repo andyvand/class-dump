@@ -7,12 +7,9 @@
 @interface NewsUI2.MagazineFeedGroupTitleView
 {
     id titleLabel;
-    id subtitleLabel;
-    id moreActionsButton;
-    id debugFeedAction;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

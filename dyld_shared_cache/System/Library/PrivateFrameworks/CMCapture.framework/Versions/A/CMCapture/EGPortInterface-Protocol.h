@@ -5,15 +5,11 @@
 //
 
 @class EGGraph, NSDictionary;
-@protocol EGInputPort, EGOutputPort;
 
 @protocol EGPortInterface
+- (EGGraph *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <EGInputPort> egInputPort;
 @property(readonly, nonatomic) NSDictionary *egInputPortsByName;
-@property(readonly, nonatomic) id <EGOutputPort> egOutputPort;
-@property(readonly, nonatomic) NSDictionary *egOutputPortsByName;
-@property(readonly, nonatomic) __weak EGGraph *parentGraph;
 @end
 

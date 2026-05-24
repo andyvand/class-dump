@@ -16,7 +16,7 @@
 + (id);
 + (void);
 + (void);
-+ (id);
++ (id)countByEnumeratingWithState:(_Bool)arg1 objects:(long long)arg2 count:(_Bool)arg3;
 
 @end
 

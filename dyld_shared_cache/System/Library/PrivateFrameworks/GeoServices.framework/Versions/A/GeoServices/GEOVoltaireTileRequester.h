@@ -13,13 +13,13 @@
 
 + (unsigned char);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)video;
+- (_Bool)K@9k;
 - (int);
 - (id);
 - (void);
 - (_Bool)EOPolylineCoordinateRange={PolylineCoordinate=If}{PolylineCoordinate=If}}16@?32@40;
-- (id)ng_with_crash;
+- (id)replace_accident_string_with_crash;
 - (id)$ü$¤-%;
 - (id);
 

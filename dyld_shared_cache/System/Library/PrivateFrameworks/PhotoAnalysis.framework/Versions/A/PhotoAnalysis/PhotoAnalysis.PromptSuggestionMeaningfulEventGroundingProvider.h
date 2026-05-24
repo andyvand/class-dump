@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionMeaningfulEventGroundingProvider
 {
     id logger;
-    id storyPhotoLibraryContext;
-    id graphManager;
 }
 
 @end

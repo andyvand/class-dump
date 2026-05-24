@@ -6,15 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UILabel;
-
 __attribute__((visibility("hidden")))
 @interface UIKBTutorialSinglePageView : UIView
 {
     _Bool _useAlertStyle;
-    UIView *_visualDisplayView;
-    UILabel *_textTitle;
-    UILabel *_textBody;
 }
 
 - (id);
@@ -22,18 +17,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)g;
 - (void);
-- (void);
-- (id);
+- (id)sage, skipping reporting to Lazuli;
 - (id);
 - (void);
 - (void);
 - (void)©;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *textBody; // @synthesize textBody=_textBody;
-@property(retain, nonatomic) UILabel *textTitle; // @synthesize textTitle=_textTitle;
-@property(nonatomic) _Bool useAlertStyle; // @synthesize useAlertStyle=_useAlertStyle;
 @property(retain, nonatomic) UIView *visualDisplayView; // @synthesize visualDisplayView=_visualDisplayView;
 
 @end

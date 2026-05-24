@@ -5,5 +5,6 @@
 //
 
 @protocol CNMeCardSharingAvatarProvider
+- (void)A�6;
 @end
 

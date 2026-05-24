@@ -4,62 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSDate, NSString, PBDataReader, PBUnknownFields;
-@protocol GEOServerFormattedString;
+@class NSString, PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDDeparture
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _absDepartureTime;
-    double _absLiveDepartureTime;
-    NSString *_displayNameOverride;
-    GEOFormattedString *_realTimeStatus;
-    unsigned long long _referenceTripId;
-    NSString *_vehicleNumber;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _realTimeStatusInfo;
-    _Bool _isCanceled;
-    struct {
-        unsigned int has_absDepartureTime:1;
-        unsigned int has_absLiveDepartureTime:1;
-        unsigned int has_referenceTripId:1;
-        unsigned int has_realTimeStatusInfo:1;
-        unsigned int has_isCanceled:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayNameOverride:1;
-        unsigned int read_realTimeStatus:1;
-        unsigned int read_vehicleNumber:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)aw:(id)arg1;
-- (id);
-- (unsigned long long);
++ (_Bool)setHasYaw:(id)arg1;
+- (id)phoneticMiddleName;
+- (unsigned long long)CNOpenDirectoryFacadeTestDouble;
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)Ke;
 - (id);
 - (int);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,27 +45,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double);
 - (unsigned long long);
 - (int);
 - (_Bool);
-- (id);
+- (id)~7;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)remoteDeviceUID;
+- (void)iceTrigger _createSecondPassIfNeededWithFirstPassSource:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)u;
 - (id);
 - (void);
 - (id)edEntryTypes"b1"read_resultTypeFilters"b1"read_addressResultSubTypeFilter"b1"read_poiIconCategoryFilter"b1"wrote_anyField"b1};
-- (id)withRequest: /* Error: Ran out of types for this method. */;
+- (id)_configureTask:withRequest: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)time_since_start;
 - (void)ð;
@@ -99,39 +74,7 @@ __attribute__((visibility("hidden")))
 - (void)ÚÿÿÿÿÿÿÿôÿÿÿóÿÿÿòÿÿÿðÿÿÿïÿÿÿõÿÿÿìÿÿÿöÿÿÿñÿÿÿîÿÿÿëÿÿÿíÿÿÿßÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿëÿÿÿæÿÿÿåÿÿÿéÿÿÿîÿÿÿòÿÿÿïÿÿÿìÿÿÿçÿÿÿèÿÿÿäÿÿÿâÿÿÿñÿÿÿðÿÿÿêÿÿÿãÿÿÿüÿÿÿ÷ÿÿÿýÿÿÿöÿÿÿúÿÿÿùÿÿÿïÿÿÿÿÿÿÿòÿÿÿõÿÿÿñÿÿÿðÿÿÿëÿÿÿóÿÿÿîÿÿÿôÿÿÿìÿÿÿøÿÿÿíÿÿÿûÿÿÿìÿÿÿ÷ÿÿÿöÿÿÿôÿÿÿùÿÿÿûÿÿÿøÿÿÿõÿÿÿïÿÿÿòÿÿÿèÿÿÿêÿÿÿëÿÿÿîÿÿÿðÿÿÿñÿÿÿúÿÿÿéÿÿÿíÿÿÿóÿÿÿ÷ÿÿÿñÿÿÿúÿÿÿóÿÿÿûÿÿÿðÿÿÿïÿÿÿòÿÿÿöÿÿÿôÿÿÿîÿÿÿýÿÿÿüÿÿÿõÿÿÿùÿÿÿøÿÿÿËÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÂÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿÇÿÿÿÿÿÿÿûÿýÿüÿùÿ;
 
 // Remaining properties
-@property(nonatomic) double absDepartureTime;
-@property(nonatomic) double absLiveDepartureTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSDate *departureDate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *displayName;
-@property(retain, nonatomic) NSString *displayNameOverride;
-@property(nonatomic) _Bool hasAbsDepartureTime;
-@property(nonatomic) _Bool hasAbsLiveDepartureTime;
-@property(readonly, nonatomic) _Bool hasDisplayNameOverride;
-@property(nonatomic) _Bool hasIsCanceled;
-@property(readonly, nonatomic) _Bool hasRealTimeStatus;
-@property(nonatomic) _Bool hasRealTimeStatusInfo;
-@property(nonatomic) _Bool hasReferenceTripId;
-@property(readonly, nonatomic) _Bool hasVehicleNumber;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCanceled;
-@property(readonly, nonatomic) _Bool isPastDeparture;
-@property(readonly, nonatomic) NSDate *liveDepartureDate;
-@property(readonly, nonatomic) long long liveStatus;
-@property(readonly, nonatomic) id <GEOServerFormattedString> liveStatusString;
-@property(retain, nonatomic) GEOFormattedString *realTimeStatus;
-@property(nonatomic) int realTimeStatusInfo;
-@property(nonatomic) unsigned long long referenceTripId;
-@property(readonly, nonatomic) NSDate *scheduledDepartureDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long tripIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, nonatomic) NSString *vehicleIdentifier;
-@property(retain, nonatomic) NSString *vehicleNumber;
 
 @end
 

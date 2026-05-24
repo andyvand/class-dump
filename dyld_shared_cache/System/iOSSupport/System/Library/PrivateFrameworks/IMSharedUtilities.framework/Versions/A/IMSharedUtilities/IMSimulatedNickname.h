@@ -6,15 +6,11 @@
 
 #import <IMSharedUtilities/IMSimulatedEntry.h>
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface IMSimulatedNickname : IMSimulatedEntry
 {
     NSString *_recordID;
-    NSData *_decryptionKey;
-    NSString *_sender;
-    NSDate *_date;
-    NSString *_cachedGUID;
 }
 
 + (_Bool);
@@ -35,15 +31,11 @@
 - (id);
 - (id);
 - (void);
-- (id)ite;
+- (id)website;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cachedGUID; // @synthesize cachedGUID=_cachedGUID;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSData *decryptionKey; // @synthesize decryptionKey=_decryptionKey;
-@property(retain, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end
 

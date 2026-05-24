@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tr<const WebCore::Element>=^{Element}}16B24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

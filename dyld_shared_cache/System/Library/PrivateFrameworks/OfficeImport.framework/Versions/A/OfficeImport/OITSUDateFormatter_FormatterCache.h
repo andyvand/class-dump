@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDateFormatter_FormatterCache
 {
     NSLock *_dateFormatterCacheLock;
-    NSMutableDictionary *_dateFormatterCache;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 @end

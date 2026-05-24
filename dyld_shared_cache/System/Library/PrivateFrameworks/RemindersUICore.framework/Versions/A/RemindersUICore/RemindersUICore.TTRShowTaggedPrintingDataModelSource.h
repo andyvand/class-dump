@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRShowTaggedPrintingDataModelSource
 {
     id store;
-    id hashtagLabels;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

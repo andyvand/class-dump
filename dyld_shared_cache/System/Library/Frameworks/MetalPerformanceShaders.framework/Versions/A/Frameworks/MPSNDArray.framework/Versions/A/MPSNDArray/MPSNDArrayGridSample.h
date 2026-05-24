@@ -9,20 +9,13 @@
 @interface MPSNDArrayGridSample : MPSNDArrayBinaryKernel
 {
     unsigned int _samplingMode;
-    unsigned int _nearestMode;
-    unsigned int _dataFormat;
-    int _paddingMode;
-    _Bool _relativeCoordinates;
-    _Bool _normalizeCoordinates;
-    _Bool _alignCorners;
-    double _constantValue;
 }
 
 + (const struct MPSLibraryInfo *);
+- (void)C;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -34,24 +27,17 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)T;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)+0�*a;
 - (void);
 - (double);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool alignCorners; // @synthesize alignCorners=_alignCorners;
-@property(nonatomic) double constantValue; // @synthesize constantValue=_constantValue;
-@property(nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(nonatomic) unsigned int nearestMode; // @synthesize nearestMode=_nearestMode;
-@property(nonatomic) _Bool normalizeCoordinates; // @synthesize normalizeCoordinates=_normalizeCoordinates;
-@property(nonatomic) int paddingMode; // @synthesize paddingMode=_paddingMode;
-@property(nonatomic) _Bool relativeCoordinates; // @synthesize relativeCoordinates=_relativeCoordinates;
 @property(nonatomic) unsigned int samplingMode; // @synthesize samplingMode=_samplingMode;
 
 @end

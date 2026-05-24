@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorRelayGroupParticipantMutationEnvelope
 {
@@ -14,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_clearName;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *changedParticipants;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long type;
 
 @end
 

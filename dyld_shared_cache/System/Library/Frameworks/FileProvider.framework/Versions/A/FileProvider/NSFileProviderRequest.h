@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileProviderDomainVersion, NSURL, NSUUID;
+@class NSUUID;
 
 @interface NSFileProviderRequest
 {
     _Bool _speculativeDownload;
-    NSURL *_requestingExecutable;
-    NSFileProviderDomainVersion *_domainVersion;
-    NSUUID *_requestingApplicationIdentifier;
-    unsigned long long _deletedDirectoryFileID;
-    NSData *_continuationToken;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)sendResponseForSuggestedAction:to:withMessageID:response:withError: /* Error: Ran out of types for this method. */;
++ (id)CTBootstrapServiceTypeSoftwareUpgrade;
++ (id)ediaSessionStateMachine;
 + (_Bool);
 - (void);
 - (id);
@@ -29,29 +24,22 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Core/Fig/AVDelegatingPlaybackCoordinator.m %s:Ignoring stale state for %{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)handleParticipantAdded_block_invoke;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void)!ØGù±ç)1Â0@ù
 × ;
 - (id)eflight is supported on cross-domain moves;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *continuationToken; // @synthesize continuationToken=_continuationToken;
-@property(nonatomic) unsigned long long deletedDirectoryFileID; // @synthesize deletedDirectoryFileID=_deletedDirectoryFileID;
-@property(retain, nonatomic) NSFileProviderDomainVersion *domainVersion; // @synthesize domainVersion=_domainVersion;
-@property(readonly, nonatomic) _Bool isFileViewerRequest;
-@property(readonly, nonatomic) _Bool isSystemRequest;
 @property(retain, nonatomic) NSUUID *requestingApplicationIdentifier; // @synthesize requestingApplicationIdentifier=_requestingApplicationIdentifier;
-@property(copy, nonatomic) NSURL *requestingExecutable; // @synthesize requestingExecutable=_requestingExecutable;
-@property(readonly, nonatomic, getter=isSpeculativeDownload) _Bool speculativeDownload; // @synthesize speculativeDownload=_speculativeDownload;
 
 @end
 

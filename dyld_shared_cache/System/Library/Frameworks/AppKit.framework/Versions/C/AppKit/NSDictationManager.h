@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSDictationManager
 {
     long long _lastNotifiedState;
-    long long _lastDictationState;
-    struct __TISInputSource *_cachedInputSourceRef;
-    _Bool _menuKeyEquivalentNeedsUpdating;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)tion %d;
++ (id)_kCFNTimingDataNStatCellRXPackets;
 + (id);
 - (void);
 - (void);
@@ -33,13 +28,7 @@ __attribute__((visibility("hidden")))
 G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

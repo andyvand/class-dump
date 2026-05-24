@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUserDefaults, PPKVOObserver, _PASLock;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSUserDefaults;
 
 @interface PPSettings
 {
     NSUserDefaults *_portraitDefaults;
-    NSUserDefaults *_canLearnFromAppDefaults;
-    _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_initializationComplete;
-    PPKVOObserver *_canLearnFromAppKVOObserver;
-    PPKVOObserver *_weightKVOObserver;
-    PPKVOObserver *_abGroupKVObserver;
-    PPKVOObserver *_queryPlanLoggingKVOObserver;
 }
 
 + (_Bool);
@@ -25,28 +16,28 @@
 + (void);
 + (_Bool);
 + (void);
-+ (id)ictionary;
-- (void);
++ (id)scalarValueDictionary;
+- (void)PG_QUERY__OVERRIDING_KIND__OVERRIDING_NOT_SET;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)tionary",&,N,V_serviceProperties;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,12 +52,12 @@
 - (double);
 - (void);
 - (double);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void)!ÌGù÷Ð1Â0@ù
 × ;
-- (_Bool)letedCount:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteAllLocationsOlderThanDate:(id)arg1 atLeastOneLocationRemoved:deletedCount:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isAppConnectionsLocationsEnabled) _Bool appConnectionsLocationsEnabled;

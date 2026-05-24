@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, TRIExperimentRecord;
+@class TRIExperimentRecord;
 
 @interface TRIExperimentCovariates
 {
     TRIExperimentRecord *_experimentRecord;
-    NSDictionary *_dictionary;
 }
 
-- (id);
-- (unsigned long long);
+- (id)initWithPrivateClientMetadata:(id)arg1 contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (unsigned long long)dictionaryRepresentationForAuxiliaryImagePixelBuffer:(id)arg1 metadata:colorSpace:compatibilityMetadata: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)1!ð1Â0@ù

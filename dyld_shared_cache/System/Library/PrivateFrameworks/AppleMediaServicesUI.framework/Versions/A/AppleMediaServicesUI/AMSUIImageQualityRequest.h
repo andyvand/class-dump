@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void)entifierRequest:error: /* Error: Ran out of types for this method. */;
+- (void)purchase:handleSceneIdentifierRequest:error: /* Error: Ran out of types for this method. */;
 
 @end
 

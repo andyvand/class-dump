@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBNumericSettingValue, _INPBSettingMetadata, _INPBTemporalEventTrigger;
+@class NSString, _INPBIntentMetadata, _INPBSettingMetadata;
 
 @protocol _INPBSetNumericSettingIntent
+- (void);
+- (void)!;
+- (_Bool);
+- (_INPBSettingMetadata *);
+- (void)ers;
+- (_Bool)aa_setByRemovingObjectsFromSet: /* Error: Ran out of types for this method. */;
+- (int)fetchInvitationsWithCompletion:(NSString *)arg1;
+- (_INPBIntentMetadata *)NSCoding;
 - (_Bool)essCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int action;
-@property(nonatomic) int boundedValue;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasBoundedValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNumericValue;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBNumericSettingValue *numericValue;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger;
 @end
 

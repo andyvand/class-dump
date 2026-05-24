@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _GCHIDEventParser;
+@class _GCHIDEventParser;
 @protocol _GCHIDEventSource;
 
 __attribute__((visibility("hidden")))
 @interface _GCCollectionEventHIDAdapter
 {
     _GCHIDEventParser *_parser;
-    id <_GCHIDEventSource> _HIDEventSource;
-    id _HIDEventObservation;
-    NSArray *_observers;
 }
 
 - (void);
@@ -29,16 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id HIDEventObservation; // @synthesize HIDEventObservation=_HIDEventObservation;
 @property(retain, nonatomic) id <_GCHIDEventSource> HIDEventSource; // @synthesize HIDEventSource=_HIDEventSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 
 @end
 

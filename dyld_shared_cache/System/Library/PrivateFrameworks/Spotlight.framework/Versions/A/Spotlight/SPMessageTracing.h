@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SPMessageTracingSearchSession;
-@protocol OS_dispatch_queue;
-
 @interface SPMessageTracing
 {
     _Bool _queryIsBeingRequested;
-    _Bool _resultIsBeingDisplayed;
-    SPMessageTracingSearchSession *_currentSearchSession;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -40,14 +34,11 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SPMessageTracingSearchSession *currentSearchSession; // @synthesize currentSearchSession=_currentSearchSession;
 @property(nonatomic) _Bool queryIsBeingRequested; // @synthesize queryIsBeingRequested=_queryIsBeingRequested;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool resultIsBeingDisplayed; // @synthesize resultIsBeingDisplayed=_resultIsBeingDisplayed;
 
 @end
 

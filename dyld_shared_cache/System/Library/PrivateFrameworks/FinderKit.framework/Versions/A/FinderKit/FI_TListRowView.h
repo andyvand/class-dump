@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol TListRowViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface FI_TListRowView
 {
     struct TNSWeakPtr<NSObject<TListRowViewDelegate>> _weakDelegate;
-    _Bool _iconDimmed;
-    _Bool _textDimmed;
-    struct TFENode _node;
 }
 
 - (void);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)initWithThreadIdentifier:(struct TFENode)arg1 senderEmailAddress:toRecipients:ccRecipients:subject:hasCustomSignature:showSmartReplySuggestions:originalMessageCategorySubtype:originalContentMessages: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -35,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<TListRowViewDelegate> *delegate;
-@property(nonatomic, getter=isIconDimmed) _Bool iconDimmed; // @synthesize iconDimmed=_iconDimmed;
 @property(nonatomic) struct TFENode node; // @synthesize node=_node;
-@property(nonatomic, getter=isTextDimmed) _Bool textDimmed; // @synthesize textDimmed=_textDimmed;
 
 @end
 

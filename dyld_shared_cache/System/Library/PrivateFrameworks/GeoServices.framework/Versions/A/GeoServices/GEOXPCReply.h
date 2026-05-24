@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface GEOXPCReply
 {
     unsigned char _flags;
-    NSObject<OS_xpc_object> *_object;
-    NSError *_error;
-    unsigned long long _signpostId;
-    NSString *_peerBundleId;
-    NSString *_serviceName;
-    NSString *_methodName;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)er ‘url’ must be nonnull and of type %{public}@;
 - (id);
 - (id);
 - (id);
@@ -27,24 +21,14 @@
 - (id);
 - (void);
 - (void);
-- (void)eUpdater:(id)arg1 willSendRequests: /* Error: Ran out of types for this method. */;
-- (unsigned char)atcherURL;
+- (void)transitRouteUpdater:(id)arg1 willSendRequests: /* Error: Ran out of types for this method. */;
+- (unsigned char)dispatcherURL;
 - (id)+Ð¬,Ð­;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned char flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *object; // @synthesize object=_object;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *replyDictionary;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IMPurgableObject
 {
     id _instanceObject;
-    CDUnknownBlockType _setupBlock;
-    CDUnknownBlockType _cleanupBlock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);

@@ -5,5 +5,8 @@
 //
 
 @protocol AXVARemoteDesktopDelegateInterface
+
+@optional
+- (void);
 @end
 

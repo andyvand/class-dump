@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @protocol RFTableHeaderCardSection
+- (void);
+- (NSArray *);
 - (NSArray *)e_footnote_card_section;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cells;
 @property(copy, nonatomic) NSArray *columns;
-@property(copy, nonatomic) NSArray *compact_cells;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int should_repeat_header_in_flow_layout;
-@property(nonatomic) int vertical_alignment;
 @end
 

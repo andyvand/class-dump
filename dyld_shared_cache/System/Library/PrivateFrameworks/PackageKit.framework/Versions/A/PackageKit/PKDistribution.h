@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSXMLDocument;
+@class NSXMLDocument;
 
 @interface PKDistribution
 {
     NSXMLDocument *_xmlDocument;
-    NSMutableDictionary *_choicesByIdentifier;
-    NSMutableDictionary *_pkgRefsByIdentifier;
-    NSMutableArray *_pkgRefsInOrder;
-    NSMutableDictionary *_stringsDictionaryByLocalization;
 }
 
 @end

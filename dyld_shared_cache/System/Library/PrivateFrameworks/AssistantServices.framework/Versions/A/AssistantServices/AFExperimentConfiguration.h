@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFExperimentGroup, NSArray, NSString;
-
 @interface AFExperimentConfiguration
 {
     long long _type;
-    NSString *_identifier;
-    NSString *_version;
-    AFExperimentGroup *_controlGroup;
-    NSArray *_experimentGroups;
-    NSString *_salt;
 }
 
 + (id);
@@ -21,38 +14,26 @@
 - (id);
 - (id);
 - (id);
+- (id)r;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (void),C,N,V_originalScore;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AFExperimentGroup *controlGroup; // @synthesize controlGroup=_controlGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *experimentGroups; // @synthesize experimentGroups=_experimentGroups;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *salt; // @synthesize salt=_salt;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

@@ -6,41 +6,40 @@
 
 #import <ChatKit/CKContactMediaObject.h>
 
-@class NSString;
-
 @interface CKLocationMediaObject : CKContactMediaObject
 {
     struct CLLocationCoordinate2D _coordinate;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)from shared %@ share %@ recordID %@;
++ (id)recordID %@;
++ (id)NotePreviewProviderErrors;
 + (Class);
 + (id);
 + (_Bool);
+- (id)initForNoteGalleryWithNote:preferredSize:scale:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (id)handwritingRecognitionDrawing;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (Class);
+- (id));
+- (id));
+- (Class)L
+);
 - (Class);
 - (id);
 - (_Bool);
+- (id)o;
+- (id);
+- (id)v;
+- (id);
+- (struct CGSize)];
+- (id)tTextAttachment isLegacyMediaType];
+- (Class)ithThumbnailType:uniqueKey:associatedObject:associatedObjectIdentifier:associatedObjectTitle:accountIdentifier:cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder:] /* Error: Ran out of types for this method. */;
+- (id)folder already contains a shared note. People who currently have access to this note may lose it.;
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (int);
 - (struct CLLocationCoordinate2D);
 - (id)lýÿ¡ZýÿòýÿÄ;
@@ -48,21 +47,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol _NSQuickActionTouchBarClientProtocol
+- (void)th error %d;
+- (void)olicy;
+- (void)lled dummy function!;
 @end
 

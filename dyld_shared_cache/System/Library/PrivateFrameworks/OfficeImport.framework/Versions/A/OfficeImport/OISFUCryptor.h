@@ -8,18 +8,11 @@ __attribute__((visibility("hidden")))
 @interface OISFUCryptor
 {
     int mOperation;
-    struct _CCCryptor *mCryptor;
-    unsigned long long mBlockSize;
-    _Bool mFinished;
-    char *mDecryptionInputBuffer;
-    char *mOutputBuffer;
-    char *mOutputBufferPos;
-    unsigned long long mOutputBufferAvailable;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);

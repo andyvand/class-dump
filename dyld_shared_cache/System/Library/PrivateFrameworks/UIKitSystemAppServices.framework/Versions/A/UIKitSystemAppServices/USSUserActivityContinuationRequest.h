@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface USSUserActivityContinuationRequest
 {
     NSString *_activityUUID;
-    NSString *_activityType;
-    NSData *_activityData;
 }
 
 + (id);
@@ -23,13 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)+;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *activityData; // @synthesize activityData=_activityData;
-@property(retain, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
 @property(retain, nonatomic) NSString *activityUUID; // @synthesize activityUUID=_activityUUID;
 
 @end

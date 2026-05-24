@@ -6,31 +6,19 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue, VCStreamInputDelegate;
+@class NSDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCStreamInput : VCObject
 {
     NSObject<OS_dispatch_queue> *_streamInputQueue;
-    CDUnknownFunctionPointerType _sampleBufferHandler;
-    NSNumber *_streamInputID;
-    struct opaqueCMFormatDescription *_format;
-    id <VCStreamInputDelegate> _strongDelegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _isStarted;
-    CDStruct_1b6d18a9 _lastBufferTime;
-    CDStruct_1b6d18a9 _lastAveragedTime;
-    _Atomic unsigned int _sampleBufferCount;
-    double _estimatedJitter;
-    double _lastTransitTime;
-    struct opaqueVCRemoteImageQueue *_receiverQueue;
 }
 
-- (void);
+- (void)a;
 - (id);
 - (struct opaqueCMFormatDescription *);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (void);
@@ -39,20 +27,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool)f, interArrivalTime=%f ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
 @property(readonly) NSDictionary *reportingStats;
-@property(readonly, nonatomic) NSNumber *streamInputID; // @synthesize streamInputID=_streamInputID;
-@property(readonly) Class superclass;
 
 @end
 

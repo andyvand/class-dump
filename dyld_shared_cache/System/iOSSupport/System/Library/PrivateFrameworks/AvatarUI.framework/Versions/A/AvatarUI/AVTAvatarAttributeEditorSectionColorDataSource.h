@@ -5,15 +5,10 @@
 //
 
 @class AVTAvatarAttributeEditorColorSection;
-@protocol AVTAvatarAttributeEditorSectionColorDataSourceDelegate;
 
 @interface AVTAvatarAttributeEditorSectionColorDataSource
 {
     AVTAvatarAttributeEditorColorSection *_colorSection;
-    id <AVTAvatarAttributeEditorSectionColorDataSourceDelegate> _delegate;
-    long long _selectedPrimaryColorIndex;
-    long long _selectedExtendedColorIndex;
-    long long _displayMode;
 }
 
 + (id);
@@ -39,18 +34,11 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)__DATA;
 - (long long)a! DùÑI1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AVTAvatarAttributeEditorColorSection *colorSection; // @synthesize colorSection=_colorSection;
-@property(nonatomic) id <AVTAvatarAttributeEditorSectionColorDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long displayMode; // @synthesize displayMode=_displayMode;
-@property(readonly, nonatomic) _Bool isShowingExtended;
-@property(readonly, nonatomic) _Bool isShowingSlider;
-@property(nonatomic) long long selectedExtendedColorIndex; // @synthesize selectedExtendedColorIndex=_selectedExtendedColorIndex;
-@property(readonly, nonatomic) long long selectedItemIndex;
 @property(nonatomic) long long selectedPrimaryColorIndex; // @synthesize selectedPrimaryColorIndex=_selectedPrimaryColorIndex;
 
 @end

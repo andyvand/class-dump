@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUPairingDaemon, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class CUPairingDaemon;
 
 __attribute__((visibility("hidden")))
 @interface CUPairingXPCConnection
 {
     CUPairingDaemon *_daemon;
-    _Bool _pmEntitledDeleteIdentity;
-    _Bool _pmEntitledHomeKit;
-    _Bool _pmEntitledRead;
-    _Bool _pmEntitledRemoveAdmin;
-    _Bool _pmEntitledRemovePeer;
-    _Bool _pmEntitledWrite;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _monitoring;
-    NSXPCConnection *_xpcCnx;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
+- (void)MPSCNNPooling_new_tex2d_tex2d_avg_2x3_0;
 - (void);
-- (void);
-- (void);
+- (void)applicationInfoForPID: /* Error: Ran out of types for this method. */;
 
 @end
 

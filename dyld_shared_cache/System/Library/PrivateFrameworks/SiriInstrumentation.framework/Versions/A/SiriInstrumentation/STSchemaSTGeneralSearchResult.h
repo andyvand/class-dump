@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface STSchemaSTGeneralSearchResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_generalSearchResultId;
-    NSString *_bundleId;
-    int _resultType;
-    struct {
-        unsigned int resultType:1;
-    } _has;
-    _Bool _hasGeneralSearchResultId;
-    _Bool _hasBundleId;
 }
 
 - (void);
@@ -32,29 +25,23 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)setRunsOnAppleSilicon: /* Error: Ran out of types for this method. */;
+- (_Bool)ABDefaultStopWatchTimeIntervalProvider;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ndex:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
-- (void)ksCompleted:(int)arg1;
-- (id)LinkActionTier1;
-- (_Bool)layBannerTapped;
-- (id)tionTotalRankingDuration;
+- (void)setFlowTasksCompleted:(int)arg1;
+- (id)deleteLinkActionTier1;
+- (_Bool)announceCarPlayBannerTapped;
+- (id)_hasQueryDecorationTotalRankingDuration;
 - (int)cheLookupEnded",&,N,V_ended;
-- (void)MissCount;
+- (void)estimatedSiriMissCount;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(retain, nonatomic) SISchemaUUID *generalSearchResultId; // @synthesize generalSearchResultId=_generalSearchResultId;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasGeneralSearchResultId; // @synthesize hasGeneralSearchResultId=_hasGeneralSearchResultId;
-@property(nonatomic) _Bool hasResultType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
 
 @end
 

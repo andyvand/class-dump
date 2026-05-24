@@ -7,11 +7,6 @@
 @interface NewsUI2.PuzzleRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id scriptsManager;
-    id navigator;
-    id sceneProvider;
 }
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol _UIFocusItemDebuggable
+
+@optional
+- (_Bool)sendServerMessage:command:fromAccount: /* Error: Ran out of types for this method. */;
 @end
 

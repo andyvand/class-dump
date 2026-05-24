@@ -5,5 +5,6 @@
 //
 
 @protocol IXCoordinatorWithDeviceSecurityPromise
+- (_Bool);
 @end
 

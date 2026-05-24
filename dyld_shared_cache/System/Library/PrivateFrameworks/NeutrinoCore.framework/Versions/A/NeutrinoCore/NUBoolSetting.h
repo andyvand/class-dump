@@ -15,7 +15,7 @@
 + (id);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)Ô!!AùQáð1Â0@ù
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSNumber *defaultValue;
-@property(readonly) NSNumber *identityValue;
 
 @end
 

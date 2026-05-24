@@ -8,31 +8,28 @@ __attribute__((visibility("hidden")))
 @interface CATintedImage
 {
     struct CGImage *_image;
-    struct CGColor *_tint;
-    unsigned int _copy_flags;
 }
 
 + (id);
-+ (id);
++ (id)isFirstInstanceSinceBoot;
 + (void);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)MescalNotInitialized;
 - (struct CGImage *);
 - (struct CGColor *);
-- (void *);
-- (void);
+- (void *)readyToSwitchToLoginSession: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) struct CGImage *image; // @synthesize image=_image;
-@property(retain) struct CGColor *tint; // @synthesize tint=_tint;
 
 @end
 

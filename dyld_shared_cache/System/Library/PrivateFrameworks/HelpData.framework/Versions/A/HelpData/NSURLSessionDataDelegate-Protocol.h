@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)K;
+- (void)e.message.egpu_model_name;
 @end
 

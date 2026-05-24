@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (struct CGSize);
++ (struct CGSize)q;
 + (unsigned long long);
 + (struct CGRect);
-+ (void);
++ (void)1@9;
 + (void);
 + (void);
 + (_Bool);

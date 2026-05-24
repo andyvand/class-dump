@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HLPHelpSearchResult
 {
     double _relevanceScore;
     long long _weight;
-    long long _matchCount;
-    NSString *_identifier;
 }
 
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void)nager"16@"CLBeaconIdentityConstraint"24@"NSError"32;
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -27,8 +23,6 @@
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long matchCount; // @synthesize matchCount=_matchCount;
 @property(nonatomic) double relevanceScore; // @synthesize relevanceScore=_relevanceScore;
 @property(nonatomic) long long weight; // @synthesize weight=_weight;
 

@@ -14,13 +14,12 @@
 
 + (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)setPixelAspectRatio: /* Error: Ran out of types for this method. */;
+- (void)f;
 - (_Bool);
-- (void)d;
+- (void)_contentRemoved;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cachingEnabled;
 @property(readonly, nonatomic) unsigned long long storageSpaceAvailable;
 
 @end

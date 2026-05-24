@@ -4,34 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXImageRequestOptions;
 @protocol PXDisplayAsset;
 
 @interface PXImageRequestDescriptor
 {
     id <PXDisplayAsset> _asset;
-    long long _contentMode;
-    PXImageRequestOptions *_options;
-    struct CGSize _targetSize;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)`;
+- (id)trix * aVertex 
+		#define ComputeTextureCoordinates0		vTextureCoordinates0 = (uTextureMatrix0 * aTextureCoordinates0).st 
+		#define ComputeTextureCoordinates1		vTextureCoordinates1 = (uTextureMatrix1 * aTextureCoordinates1).st 
+		#define ComputeTextureCoordinates2		vTextureCoordinates2 = (uTextureMatrix2 * aTextureCoordinates2).st 
+		#define ComputeInSpriteCoordinates		vInSpriteCoordinates = aInSpriteCoordinates 
+		#define ComputeForeColor				vColor = aColor 
+		;
 - (struct CGSize);
 - (_Bool);
 - (long long);
-- (id)lineView:(struct _NSZone *)arg1 shouldTypeSelectForEvent:withCurrentSearchString: /* Error: Ran out of types for this method. */;
+- (id)outlineView:(struct _NSZone *)arg1 shouldTypeSelectForEvent:withCurrentSearchString: /* Error: Ran out of types for this method. */;
 - (id)Asset Count ##;
 - (void)d&3ÿ½Ùµ¨&3ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(readonly, copy, nonatomic) PXImageRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

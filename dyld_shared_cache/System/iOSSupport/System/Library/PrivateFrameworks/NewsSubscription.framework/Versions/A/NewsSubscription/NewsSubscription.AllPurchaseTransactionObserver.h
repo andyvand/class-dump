@@ -7,25 +7,11 @@
 @interface NewsSubscription.AllPurchaseTransactionObserver
 {
     id configurationManager;
-    id inAppSubscriptionStatusChecker;
-    id appConfigurationManager;
-    id tagController;
-    id purchaseController;
-    id subscriptionController;
-    id purchaseAdContextEntriesManager;
-    id webOptinFlowManager;
-    id trackerProvider;
-    id router;
-    id osloAbandonmentUpsellManager;
-    id failedTransactionPurchaseContexts;
-    id familySharingLandingPageLauncher;
-    id entitlementService;
-    id postPurchaseOnboardingManager;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)th;
 - (void);
 
 @end

@@ -6,22 +6,17 @@
 
 #import <Safari/BackgroundColorView.h>
 
-@class NSButton, NSImageView, NSStackView, NSTextField;
+@class NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface PrivacyProxyStatusSection : BackgroundColorView
 {
     NSStackView *_privacyProxyStatusView;
-    NSStackView *_privacyProxyStatusBody;
-    NSTextField *_privacyProxyHeading;
-    NSTextField *_privacyProxyDescription;
-    NSImageView *_privacyProxyIcon;
-    NSButton *_privacyProxyAction;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,11 +35,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *privacyProxyAction; // @synthesize privacyProxyAction=_privacyProxyAction;
-@property(retain, nonatomic) NSTextField *privacyProxyDescription; // @synthesize privacyProxyDescription=_privacyProxyDescription;
-@property(retain, nonatomic) NSTextField *privacyProxyHeading; // @synthesize privacyProxyHeading=_privacyProxyHeading;
-@property(retain, nonatomic) NSImageView *privacyProxyIcon; // @synthesize privacyProxyIcon=_privacyProxyIcon;
-@property(retain, nonatomic) NSStackView *privacyProxyStatusBody; // @synthesize privacyProxyStatusBody=_privacyProxyStatusBody;
 @property(retain, nonatomic) NSStackView *privacyProxyStatusView; // @synthesize privacyProxyStatusView=_privacyProxyStatusView;
 
 @end

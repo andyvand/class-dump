@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPStagingNotReadyReasonsWrapper, HAPUpdateNotReadyReasonsWrapper, NSString;
+@class HAPStagingNotReadyReasonsWrapper;
 
 @interface HAPFirmwareUpdateReadiness
 {
     HAPStagingNotReadyReasonsWrapper *_stagingNotReadyReasons;
-    HAPUpdateNotReadyReasonsWrapper *_updateNotReadyReasons;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -21,21 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)synchronousRemoteObjectProxyWithErrorHandler:(id)arg1;
 - (_Bool);
 - (id);
 - (void)AccessoryReachabilityDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPStagingNotReadyReasonsWrapper *stagingNotReadyReasons; // @synthesize stagingNotReadyReasons=_stagingNotReadyReasons;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPUpdateNotReadyReasonsWrapper *updateNotReadyReasons; // @synthesize updateNotReadyReasons=_updateNotReadyReasons;
 
 @end
 

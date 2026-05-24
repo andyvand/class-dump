@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPCustomFeedback
 {
     int _feedbackType;
-    unsigned long long _timestamp;
-    NSData *_jsonFeedback;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)t;
+- (void)S;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -24,20 +20,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSData *jsonFeedback; // @synthesize jsonFeedback=_jsonFeedback;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

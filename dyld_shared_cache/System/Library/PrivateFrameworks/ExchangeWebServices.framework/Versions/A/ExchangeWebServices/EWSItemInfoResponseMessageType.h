@@ -13,7 +13,7 @@
     NSArray *_Items;
 }
 
-+ (id);
++ (id)H_ADSgtGG_Qo__y6;
 - (id);
 - (void);
 - (void);

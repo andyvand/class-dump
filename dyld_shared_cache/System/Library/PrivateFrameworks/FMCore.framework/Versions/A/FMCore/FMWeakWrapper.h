@@ -7,13 +7,12 @@
 @interface FMWeakWrapper
 {
     id _object;
-    unsigned long long _objectHash;
 }
 
-- (id);
+- (id)A;
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;
-@property(nonatomic) unsigned long long objectHash; // @synthesize objectHash=_objectHash;
 
 @end
 

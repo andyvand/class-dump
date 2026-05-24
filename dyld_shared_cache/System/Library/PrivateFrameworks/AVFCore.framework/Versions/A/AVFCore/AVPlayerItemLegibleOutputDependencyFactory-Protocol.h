@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol AVPlayerItemOutputHost;
+
 @protocol AVPlayerItemLegibleOutputDependencyFactory
+- (id <AVPlayerItemOutputHost>)egmentInfo}^{SegmentInfo}{?=^{SegmentInfo}}},N;
 @end
 

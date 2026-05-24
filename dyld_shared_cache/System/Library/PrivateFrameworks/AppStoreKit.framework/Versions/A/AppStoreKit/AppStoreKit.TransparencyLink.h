@@ -7,9 +7,6 @@
 @interface AppStoreKit.TransparencyLink
 {
     id id;
-    id linkableText;
-    id targetShelfId;
-    id positionHint;
 }
 
 @end

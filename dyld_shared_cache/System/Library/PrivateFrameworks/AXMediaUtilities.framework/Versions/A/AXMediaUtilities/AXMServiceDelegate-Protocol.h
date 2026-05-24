@@ -5,5 +5,6 @@
 //
 
 @protocol AXMServiceDelegate
+- (void);
 @end
 

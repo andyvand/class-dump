@@ -4,13 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContact, NSPredicate, NSString;
+
 @protocol EKIdentityProtocol
+- (NSString *)(;
+
+@optional
+- (CNContact *)8>x?;
+- (_Bool);
+- (CNContact *)Reached:%@ with context %@ /* Error: Ran out of types for this method. */;
+- (NSPredicate *)T;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _Bool isCurrentUserForSharing;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N

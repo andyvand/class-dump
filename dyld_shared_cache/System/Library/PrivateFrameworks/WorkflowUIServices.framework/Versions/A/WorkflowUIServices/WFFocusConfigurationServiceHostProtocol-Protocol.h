@@ -5,5 +5,7 @@
 //
 
 @protocol WFFocusConfigurationServiceHostProtocol
+- (void);
+- (void)zg;
 @end
 

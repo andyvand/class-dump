@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonChatCountRequestProtocol
+- (void)39;
 @end
 

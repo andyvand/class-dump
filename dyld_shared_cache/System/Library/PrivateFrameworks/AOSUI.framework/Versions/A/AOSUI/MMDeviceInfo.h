@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MMDeviceInfo
 {
     NSString *_udid;
-    NSString *_deviceName;
-    NSString *_osVersion;
-    NSString *_buildVersion;
 }
 
 + (id);
@@ -23,14 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)0@ù
 × ;
-- (id)wnerHandle;
+- (id)ownerHandle;
 - (id)reamService mmWebKitViewControllerDidSucceed:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) long long osTheme;
-@property(readonly, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
 @property(readonly, nonatomic) NSString *udid; // @synthesize udid=_udid;
 
 @end

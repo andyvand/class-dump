@@ -5,22 +5,19 @@
 //
 
 @class NSArray;
-@protocol CNAvatarCacheChangeListenerDelegate;
 
 @interface CNAvatarChangeHistoryReportingTask
 {
     NSArray *_identifiers;
-    id <CNAvatarCacheChangeListenerDelegate> _delegate;
 }
 
 - (id);
+- (id)Client:creating server connection. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)estrictionsGivenAuthorizationResult: /* Error: Ran out of types for this method. */;
+- (void)shouldBypassRestrictionsGivenAuthorizationResult: /* Error: Ran out of types for this method. */;
 - (id)6;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNAvatarCacheChangeListenerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
 
 @end

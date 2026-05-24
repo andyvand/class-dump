@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyedArchiver, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIArchiver
 {
     struct os_unfair_lock_s _lock;
-    NSKeyedArchiver *_archiver;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_securityScopedBookmarks;
 }
 
 - (id);
@@ -25,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)eShouldBegin"b1"privateDelegateCanPrevent"b1"privateDelegateCanBePrevented"b1"privateDelegateShouldRecognizeSimultaneously"b1"privateDelegateShouldAttemptToRecognizeWithEvent"b1"privateDelegateShouldRequireFailure"b1"privateDelegateShouldBeRequiredToFail"b1"privateDelegateCanCancel"b1"privateDelegateCanBeCancelled"b1"privateDelegateAcceptsBeingFailureRequirement"b1"privateDelegateAcceptsBeingFailureDependent"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"privateSubclassShouldRequireFailure"b1"privateSubclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"queriedFailureRequirements"b1"disabled_DO_NOT_USE_DIRECTLY"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"acceptsFailureRequirements"b1"cancelsTouchesInView"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1};
-- (void)sActive;
-- (void)rageState;
-- (long long)rVariant;
-- (_Bool)TouchBarQuickLookTemplate;
+- (void)viewWillDrawOperationIsActive;
+- (void)_updateTemporaryVersionStorageState;
+- (long long)AppleScrollBarVariant;
+- (_Bool)NSTouchBarQuickLookTemplate;
 - (void)ää?;
 - (void)±E;
 - (void)$Ãaÿg`õE;
@@ -39,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)Îÿ4G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -20,8 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) IMClassicTapback *counterpart;
-@property(readonly, nonatomic) IMClassicTapback *removedTapbackCounterpart;
 @property(readonly, nonatomic) IMClassicTapback *visibleTapbackCounterpart;
 
 @end

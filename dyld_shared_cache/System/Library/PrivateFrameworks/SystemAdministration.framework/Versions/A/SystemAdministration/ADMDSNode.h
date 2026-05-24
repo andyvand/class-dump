@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AdminDirectoryService, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface ADMDSNode
 {
     unsigned int mNodeReference;
-    NSString *mNodeName;
-    AdminDirectoryService *mDirectoryService;
-    NSObject<OS_dispatch_semaphore> *mOpenCloseSemaphore;
 }
 
 + (id);
@@ -26,7 +20,7 @@
 - (_Bool);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -39,7 +33,7 @@
 - (unsigned int);
 - (void);
 - (int);
-- (int);
+- (int);
 - (id);
 - (id);
 - (id);
@@ -52,7 +46,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)unKextcacheWithAuthorization:result: /* Error: Ran out of types for this method. */;
+- (_Bool)runKextcacheWithAuthorization:result: /* Error: Ran out of types for this method. */;
 
 @end
 

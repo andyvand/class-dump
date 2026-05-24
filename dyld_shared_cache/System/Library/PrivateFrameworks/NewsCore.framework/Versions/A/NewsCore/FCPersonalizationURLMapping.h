@@ -9,10 +9,9 @@
 @interface FCPersonalizationURLMapping
 {
     NTPBURLMapping *_pbURLMapping;
-    NSDictionary *_urlMappingByDomain;
 }
 
-+ (id);
++ (id)@68@0:(id)arg1 8@16@24@32q40B48@52@60;
 + (_Bool);
 - (id);
 - (id);
@@ -21,14 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)aC;
 - (id);
-- (unsigned long long)erDiversificationInitialPenalty;
-- (void)SSheet;
+- (unsigned long long)publisherDiversificationInitialPenalty;
+- (void)SubscriptionButtonTargetTypeAMSSheet;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(retain, nonatomic) NSDictionary *urlMappingByDomain; // @synthesize urlMappingByDomain=_urlMappingByDomain;
 
 @end

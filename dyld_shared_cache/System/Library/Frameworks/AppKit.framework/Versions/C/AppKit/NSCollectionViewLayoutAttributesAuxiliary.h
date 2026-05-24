@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface NSCollectionViewLayoutAttributesAuxiliary
 {
     double fractionIntoEndZone;
-    double distanceIntoEndZone;
-    _Bool floating;
 }
 
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)ct with NULL path.;
 - (void)Ñà3Ð1Â0@ù
 × ;
-- (id)dowView;
+- (id)_hasTopShadowView;
 - (_Bool);
 
 // Remaining properties
-@property double distanceIntoEndZone; // @synthesize distanceIntoEndZone;
-@property(getter=isFloating) _Bool floating; // @synthesize floating;
 @property double fractionIntoEndZone; // @synthesize fractionIntoEndZone;
 
 @end

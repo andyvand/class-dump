@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnail, NSURL;
+@class NSURL;
 
 @interface FCHeadlineThumbnailImageMetadata
 {
     NSURL *_url;
-    unsigned long long _sizeBuffer;
-    FCHeadlineThumbnail *_thumbnail;
 }
 
 - (unsigned long long);
@@ -18,11 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)ionFeedConfiguration;
+- (void)sectionFeedConfiguration;
 
 // Remaining properties
-@property(nonatomic) unsigned long long sizeBuffer; // @synthesize sizeBuffer=_sizeBuffer;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnail; // @synthesize thumbnail=_thumbnail;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

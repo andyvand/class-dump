@@ -5,5 +5,7 @@
 //
 
 @protocol TUConversationMessagesGroupProviderXPCServer
+- (oneway void);
+- (oneway void);
 @end
 

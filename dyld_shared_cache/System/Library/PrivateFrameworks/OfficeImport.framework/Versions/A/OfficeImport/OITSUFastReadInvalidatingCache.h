@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition;
-
 __attribute__((visibility("hidden")))
 @interface OITSUFastReadInvalidatingCache
 {
     CDUnknownBlockType mGenerator;
-    _Atomic id mValue;
-    _Atomic long long mReaderCount;
-    _Atomic id mToDispose;
-    _Bool mReentrant;
-    NSCondition *mCondition;
-    _Bool mIsGenerating;
 }
 
-- (void);
+- (void)9;
 - (id);
 - (void);
 - (void);

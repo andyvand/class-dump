@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1;
 - (void);
 
 // Remaining properties

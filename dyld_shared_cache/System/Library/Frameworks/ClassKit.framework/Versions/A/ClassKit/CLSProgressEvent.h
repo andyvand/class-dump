@@ -6,77 +6,60 @@
 
 #import <ClassKit/CLSInsightEvent.h>
 
-@class CLSActivityReportItem, CLSRange, CLSTimeInterval, NSString;
+@class NSString;
 
 @interface CLSProgressEvent : CLSInsightEvent
 {
     int _handoutAttachmentType;
-    NSString *_attachmentID;
-    NSString *_classID;
-    NSString *_handoutID;
-    NSString *_recipientPersonID;
-    long long _contextType;
-    NSString *_objectIDPath;
-    NSString *_handoutAuthorizedObjectID;
-    CLSActivityReportItem *_activityItemInfo;
-    CLSRange *_rangeInfo;
-    CLSTimeInterval *_timeIntervalInfo;
-    NSString *_primaryActivityItemIdentifier;
-    NSString *_activityID;
 }
 
-+ (_Bool);
++ (_Bool)_delegateWantsToSkipDataclassEnablement;
 - (id);
 - (void);
+- (void)/Accelerate.framework/Versions/A/Accelerate;
 - (void);
 - (void);
+- (void)x;
+- (void);
 - (void);
 - (void);
+- (void)__objc_superrefs__DATA_CONST;
 - (void);
 - (void);
+- (id)ng HwExecution Time for programId:%u processId:%u procedureId:%u, StartTime:%llu, nFinishTime:%llu
+ /* Error: Ran out of types for this method. */;
+- (id)rst start event
+;
+- (id)lected ANEDriver device
+;
+- (id)create with programHandle:0x%llx
+ /* Error: Ran out of types for this method. */;
+- (void)s:(id)arg1 %u
+;
+- (id)(%d)
+;
+- (id)procid=%x transid=%llx reqcallBackData=%llx;
+- (id)intermediateBufferSurface is NULL error = 0x%x
+;
+- (int)face is NULL error = 0x%x
+;
+- (id)ms *);
+- (id)LAYER;
+- (_Bool)dma_read;
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)0 ;
+- (id);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)ing context...;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityID; // @synthesize activityID=_activityID;
-@property(copy, nonatomic) CLSActivityReportItem *activityItemInfo; // @synthesize activityItemInfo=_activityItemInfo;
-@property(copy, nonatomic) NSString *appIdentifier; // @dynamic appIdentifier;
-@property(copy, nonatomic) NSString *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(copy, nonatomic) NSString *classID; // @synthesize classID=_classID;
-@property(nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(nonatomic) int handoutAttachmentType; // @synthesize handoutAttachmentType=_handoutAttachmentType;
-@property(copy, nonatomic) NSString *handoutAuthorizedObjectID; // @synthesize handoutAuthorizedObjectID=_handoutAuthorizedObjectID;
-@property(copy, nonatomic) NSString *handoutID; // @synthesize handoutID=_handoutID;
-@property(copy, nonatomic) NSString *objectIDPath; // @synthesize objectIDPath=_objectIDPath;
-@property(copy, nonatomic) NSString *primaryActivityItemIdentifier; // @synthesize primaryActivityItemIdentifier=_primaryActivityItemIdentifier;
-@property(copy, nonatomic) CLSRange *rangeInfo; // @synthesize rangeInfo=_rangeInfo;
-@property(copy, nonatomic) NSString *recipientPersonID; // @synthesize recipientPersonID=_recipientPersonID;
-@property(retain, nonatomic) CLSTimeInterval *timeIntervalInfo; // @synthesize timeIntervalInfo=_timeIntervalInfo;
 
 @end
 

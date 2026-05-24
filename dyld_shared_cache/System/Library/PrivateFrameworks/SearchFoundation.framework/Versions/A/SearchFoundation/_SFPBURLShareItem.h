@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class _SFPBURL;
 
 @interface _SFPBURLShareItem
 {
@@ -16,23 +16,15 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)setGroupingIdentifier:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void)_SFPBRFPreview"24@0:8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBURL *urlValue; // @synthesize urlValue=_urlValue;
 
 @end

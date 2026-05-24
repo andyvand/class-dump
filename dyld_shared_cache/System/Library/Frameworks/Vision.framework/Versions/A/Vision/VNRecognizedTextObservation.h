@@ -6,13 +6,11 @@
 
 #import <Vision/VNRectangleObservation.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNRecognizedTextObservation : VNRectangleObservation
 {
     _Bool _isTitle;
-    NSArray *_textObjects;
-    NSString *_text;
 }
 
 + (id);
@@ -23,17 +21,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)generatePlaceholderIdentifier;
+- (unsigned long long)`;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)�/w�
+-;
 - (void);
 - (void);
 - (void)ion %d. Crop %@. Rotation %d. Error %d;
 
 // Remaining properties
-@property(nonatomic) _Bool isTitle; // @synthesize isTitle=_isTitle;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 @property(copy, nonatomic) NSArray *textObjects; // @synthesize textObjects=_textObjects;
 
 @end

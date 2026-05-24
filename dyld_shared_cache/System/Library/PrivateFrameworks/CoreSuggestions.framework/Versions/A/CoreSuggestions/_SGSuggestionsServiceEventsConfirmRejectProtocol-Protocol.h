@@ -7,6 +7,8 @@
 @class SGRecordId;
 
 @protocol _SGSuggestionsServiceEventsConfirmRejectProtocol
-- (_Bool)ingPrefix:(SGRecordId *)arg1 limitTo:(id *)arg2 error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ry/Caches/com.apple.xbs/TemporaryDirectory.uaboQr/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebPreferences.mm;
+- (_Bool)suggestContactMatchesWithMessagingPrefix:(SGRecordId *)arg1 limitTo:(id *)arg2 error: /* Error: Ran out of types for this method. */;
 @end
 

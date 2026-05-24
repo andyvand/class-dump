@@ -7,8 +7,6 @@
 @interface ConversationKit.CollaborationImageFetcher
 {
     id provider;
-    id queue;
-    id imageByCollaborationIdentifier;
 }
 
 @end

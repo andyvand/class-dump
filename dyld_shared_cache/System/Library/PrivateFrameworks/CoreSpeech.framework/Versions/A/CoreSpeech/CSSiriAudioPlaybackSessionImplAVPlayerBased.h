@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioPlaybackRequest, AVPlayer, AVPlayerItem, NSObject, NSString;
+@class AFAudioPlaybackRequest, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriAudioPlaybackSessionImplAVPlayerBased
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isActive;
-    AVPlayer *_player;
-    AVPlayerItem *_playerItem;
-    CDUnknownBlockType _completion;
-    AFAudioPlaybackRequest *_request;
-    unsigned long long _options;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)<;
+- (void)s;
+- (void)u;
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ted attribute:'%@' /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
-- (void)meForTTSType:withContext:reply: /* Error: Ran out of types for this method. */;
+- (void)getVolumeForTTSType:withContext:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) AFAudioPlaybackRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

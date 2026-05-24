@@ -6,10 +6,9 @@
 
 @interface UnknownClass (IMKUIAdditions)
 - (_Bool);
-- (double);
+- (double)evels: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double cornerRadius;
 @property(readonly, nonatomic, getter=isDarkMode) _Bool darkMode;
 @end
 

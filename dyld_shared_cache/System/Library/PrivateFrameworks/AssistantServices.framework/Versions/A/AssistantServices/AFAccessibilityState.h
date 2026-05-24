@@ -7,27 +7,25 @@
 @interface AFAccessibilityState
 {
     long long _isVoiceOverTouchEnabled;
-    long long _isVibrationDisabled;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (long long);
+- (id)_remaningFields;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)showNewPasswordError:(id)arg1;
 - (void);
 - (id);
 - (long long)Calls Voice On Min Ratio;
 
 // Remaining properties
-@property(readonly, nonatomic) long long isVibrationDisabled; // @synthesize isVibrationDisabled=_isVibrationDisabled;
 @property(readonly, nonatomic) long long isVoiceOverTouchEnabled; // @synthesize isVoiceOverTouchEnabled=_isVoiceOverTouchEnabled;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, FARequestConfigurator;
+@class FARequestConfigurator;
 
 @interface FASharedServicesRequest
 {
     FARequestConfigurator *_requestConfigurator;
-    ACAccount *_appleAccount;
 }
 
 + (Class);

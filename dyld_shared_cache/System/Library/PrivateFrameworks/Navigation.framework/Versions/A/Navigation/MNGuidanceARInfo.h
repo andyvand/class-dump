@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, NSDictionary, NSString, NSUUID;
-@protocol GEOServerFormattedString;
+@class NSUUID;
 
 @interface MNGuidanceARInfo
 {
     int _eventType;
-    int _maneuverType;
-    NSUUID *_guidanceEventID;
-    GEOComposedString *_instructionString;
-    id <GEOServerFormattedString> _instruction;
-    NSDictionary *_variableOverrides;
-    NSString *_arrowLabel;
-    NSString *_maneuverRoadName;
-    double _heading;
-    unsigned long long _stepIndex;
-    unsigned long long _priority;
-    struct GEOPolylineCoordinateRange {
-        CDStruct_3f2a7a20 start;
-        CDStruct_3f2a7a20 end;
-    } _locationCoordinateRange;
-    CDStruct_071ac149 _locationCoordinate;
 }
 
 + (_Bool);
 - (void);
-- (struct GEOPolylineCoordinateRange);
+- (struct GEOPolylineCoordinateRange)AlertEnvironment;
+- (id)TextInputSuggestionCompletion;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ScrollEdgeEffectTagModifierDefinition;
 - (id);
 - (id);
 - (int);
 - (id);
-- (CDStruct_071ac149);
+- (CDStruct_39925896);
 - (id);
 - (id);
 - (void);
@@ -49,26 +33,14 @@
 - (unsigned long long);
 - (int);
 - (_Bool);
-- (void);
+- (void)MMCSCOptionsSetupViewController;
 - (double);
 - (id);
 - (void)v28@0:8@"MNNavigationSessionManager"16i24 /* Error: Ran out of types for this method. */;
 - (unsigned long long)ons:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *arrowLabel; // @synthesize arrowLabel=_arrowLabel;
-@property(readonly, nonatomic) int eventType; // @synthesize eventType=_eventType;
 @property(readonly, nonatomic) NSUUID *guidanceEventID; // @synthesize guidanceEventID=_guidanceEventID;
-@property(readonly, nonatomic) double heading; // @synthesize heading=_heading;
-@property(readonly, nonatomic) id <GEOServerFormattedString> instruction; // @synthesize instruction=_instruction;
-@property(retain, nonatomic) GEOComposedString *instructionString; // @synthesize instructionString=_instructionString;
-@property(readonly, nonatomic) CDStruct_071ac149 locationCoordinate; // @synthesize locationCoordinate=_locationCoordinate;
-@property(readonly, nonatomic) GEOPolylineCoordinateRange_38d3edb7 locationCoordinateRange; // @synthesize locationCoordinateRange=_locationCoordinateRange;
-@property(readonly, nonatomic) NSString *maneuverRoadName; // @synthesize maneuverRoadName=_maneuverRoadName;
-@property(readonly, nonatomic) int maneuverType; // @synthesize maneuverType=_maneuverType;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) unsigned long long stepIndex; // @synthesize stepIndex=_stepIndex;
-@property(readonly, nonatomic) NSDictionary *variableOverrides; // @synthesize variableOverrides=_variableOverrides;
 
 @end
 

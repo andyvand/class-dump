@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNComposeRecipient, CNComposeRecipientAtom;
-
 @interface _CNAtomTextAttachment
 {
     _Bool _isPlaceholder;
-    CNComposeRecipientAtom *_atomView;
 }
 
 - (void);
@@ -24,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNComposeRecipientAtom *atomView; // @synthesize atomView=_atomView;
 @property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(readonly, nonatomic) CNComposeRecipient *recipient;
 
 @end
 

@@ -6,17 +6,12 @@
 
 #import <HomeKitDaemon/HMDAction.h>
 
-@class HMDAccessory, HMDHome, NSArray, NSDictionary, NSString;
-@protocol HMDMatterAccessoryProtocol;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterCommandAction : HMDAction
 {
     _Bool _enforceExecutionOrder;
-    NSArray *_commands;
-    NSDictionary *_actionInformation;
-    NSString *_dumpState;
-    HMDHome *_home;
 }
 
 + (id);
@@ -24,26 +19,26 @@ __attribute__((visibility("hidden")))
 + (id)Kßÿ±È;
 - (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)MSPContact;
+- (void)MSPCollectionItemReplicaStorage;
+- (_Bool)tionListener state change (navigation:%@, transport type:%@) /* Error: Ran out of types for this method. */;
+- (_Bool)ntRoute:(id)arg1 %d;
+- (_Bool)set %@;
+- (_Bool)ationsStatus error %@;
+- (_Bool)%lu bytes long;
+- (_Bool)STORAGE] cached session for group id %@;
+- (id)e] stop sharing trip with group:(id)arg1 %@;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)`";
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Display1;
 - (id);
 - (id);
 - (id);
@@ -61,19 +56,7 @@ __attribute__((visibility("hidden")))
 - (id)elObject"8;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory<HMDMatterAccessoryProtocol> *accessory;
-@property(readonly, nonatomic) NSDictionary *actionInformation; // @synthesize actionInformation=_actionInformation;
-@property(copy, nonatomic) NSArray *commands; // @synthesize commands=_commands;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *dumpState; // @synthesize dumpState=_dumpState;
-@property(nonatomic) _Bool enforceExecutionOrder; // @synthesize enforceExecutionOrder=_enforceExecutionOrder;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 
 @end
 

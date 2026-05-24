@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface IKSSIndexSheetTextLayer
 {
     NSString *_text;
-    NSDictionary *_attributes;
-    struct CGSize _textSize;
-    struct CGSize _textMargins;
-    _Bool _animates;
 }
 
 - (struct CGSize);
@@ -21,23 +17,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)simpleSchedule;
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)R,N,V_encodedStrokeIdentifier;
 
 // Remaining properties
-@property _Bool animates; // @synthesize animates=_animates;
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) struct CGSize textMargins; // @synthesize textMargins=_textMargins;
-@property(readonly) struct CGSize textSize;
 
 @end
 

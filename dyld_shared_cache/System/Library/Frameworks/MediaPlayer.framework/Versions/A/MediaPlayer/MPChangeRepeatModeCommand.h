@@ -11,7 +11,6 @@
 @interface MPChangeRepeatModeCommand : MPRemoteCommand
 {
     NSArray *_supportedRepeatTypes;
-    long long _currentRepeatType;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (id);
 - (long long);
 - (id);
-- (void)_MAPPING_MISSING__;
+- (void)__MPModelPropertyPodcastEpisodeAssetURL__MAPPING_MISSING__;
 
 // Remaining properties
 @property(nonatomic) long long currentRepeatType; // @synthesize currentRepeatType=_currentRepeatType;

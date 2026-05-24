@@ -13,8 +13,8 @@
     UIMenu *_menu;
 }
 
-- (id);
-- (id);
+- (id)e;
+- (id)t;
 - (void)´µ;
 - (void);
 - (id)k¸Ö;

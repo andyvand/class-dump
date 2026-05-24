@@ -5,5 +5,6 @@
 //
 
 @protocol SFUInputBundle
+- (unsigned int);
 @end
 

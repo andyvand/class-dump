@@ -7,7 +7,6 @@
 @interface TUICFQueryResult
 {
     _Bool _allowCallForDestinationID;
-    _Bool _fromBlockList;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowCallForDestinationID; // @synthesize allowCallForDestinationID=_allowCallForDestinationID;
-@property(nonatomic, getter=isFromBlockList) _Bool fromBlockList; // @synthesize fromBlockList=_fromBlockList;
 
 @end
 

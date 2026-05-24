@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString;
+
 @protocol NSTextInput
+- (NSAttributedString *)a;
+- (unsigned long long)_recentMDSearchQueryResults;
+- (void)P;
 - (struct _NSRange)CGSSurfaceType * _Nonnull, uint32_t * _Nonnull, uint32_t * _Nonnull);
-- (long long)nContentSize;
+- (long long)NSMinContentSize;
 - (void)pliesDismissType(void);
 - (struct _NSRange)trong, NSMutableDictionary *__strong);
 - (void);

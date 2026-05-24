@@ -7,7 +7,6 @@
 @interface ContactsUI.AvatarPickerSelectedView
 {
     id _detailViewType;
-    id _step;
 }
 
 @end

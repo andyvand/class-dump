@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, SearchUIWatchListState, WLKCanonicalPlayablesResponse;
+@class NSHashTable;
 
 @interface SearchUIWatchListCardsManager
 {
     _Bool _isInUpNext;
-    NSHashTable *_rowModels;
-    NSString *_watchListIdentifier;
-    WLKCanonicalPlayablesResponse *_response;
-    SearchUIWatchListState *_watchListState;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id)willowLeaf_angled_medium;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)_sourceRegion2;
 - (id);
 - (void);
 - (void);
-- (void)tBlueComponent:(id)arg1;
+- (void)setBlueComponent:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool isInUpNext; // @synthesize isInUpNext=_isInUpNext;
-@property(retain, nonatomic) WLKCanonicalPlayablesResponse *response; // @synthesize response=_response;
 @property(retain, nonatomic) NSHashTable *rowModels; // @synthesize rowModels=_rowModels;
-@property(retain, nonatomic) NSString *watchListIdentifier; // @synthesize watchListIdentifier=_watchListIdentifier;
-@property(retain, nonatomic) SearchUIWatchListState *watchListState; // @synthesize watchListState=_watchListState;
 
 @end
 

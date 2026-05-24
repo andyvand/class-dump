@@ -7,36 +7,26 @@
 @interface _UIContentViewEditingConfiguration
 {
     _Bool _useTextInputAsLabel;
-    _Bool _selectAllTextWhenEditingBegins;
-    CDUnknownBlockType _didEndHandler;
-    CDUnknownBlockType _shouldBeginHandler;
-    CDUnknownBlockType _shouldChangeHandler;
-    CDUnknownBlockType _shouldEndHandler;
 }
 
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)IMDIDSService";
+- (void)4@"TUConversationActivitySession"32;
+- (void):(_Bool)arg1 8@16q24@32@40B48@52q60@68@?76;
+- (_Bool)noteItemProcessed: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldReportNewUserIfCreatedChatZones:(id)arg1 deletedZones: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool)ltViewPropertiesApplier:(id)arg1;
+- (_Bool)setUseDefaultViewPropertiesApplier:(id)arg1;
 - (id)layingContinuousFeedback:(struct _NSZone *)arg1 ,V_playingContinuousFeedback;
 - (id);
 - (void)È~];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType didEndHandler; // @synthesize didEndHandler=_didEndHandler;
-@property(nonatomic) _Bool selectAllTextWhenEditingBegins; // @synthesize selectAllTextWhenEditingBegins=_selectAllTextWhenEditingBegins;
-@property(copy, nonatomic) CDUnknownBlockType shouldBeginHandler; // @synthesize shouldBeginHandler=_shouldBeginHandler;
-@property(copy, nonatomic) CDUnknownBlockType shouldChangeHandler; // @synthesize shouldChangeHandler=_shouldChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType shouldEndHandler; // @synthesize shouldEndHandler=_shouldEndHandler;
 @property(nonatomic) _Bool useTextInputAsLabel; // @synthesize useTextInputAsLabel=_useTextInputAsLabel;
 
 @end

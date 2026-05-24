@@ -5,5 +5,6 @@
 //
 
 @protocol PPContactClientProtocol
+- (void)ssageSentFromMe;
 @end
 

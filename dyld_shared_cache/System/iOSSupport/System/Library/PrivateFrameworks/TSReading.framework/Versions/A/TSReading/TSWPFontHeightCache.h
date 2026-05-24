@@ -7,17 +7,13 @@
 @interface TSWPFontHeightCache
 {
     struct list<unsigned long, std::allocator<unsigned long>> _fontHashList;
-    struct map<unsigned long, TSWPFontHeightCacheEntry, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, TSWPFontHeightCacheEntry>>> _fontHashToInfoMap;
-    unsigned int _cacheSize;
-    unsigned int _maxCacheSize;
-    struct _opaque_pthread_rwlock_t _lock;
 }
 
 + (id);
 + (id);
 + (id)y9v¾x;
-- (_Bool);
-- (void);
+- (_Bool)tem - identifier:(struct __CTFont *)arg1;
+- (void)d;
 - (CDStruct_7660b417);
 - (unsigned long long);
 - (void);

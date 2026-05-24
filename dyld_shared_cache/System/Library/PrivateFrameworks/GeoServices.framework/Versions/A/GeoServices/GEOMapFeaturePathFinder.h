@@ -10,22 +10,18 @@
 @interface GEOMapFeaturePathFinder
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    int _transportType;
-    double _maxDistanceFromRoad;
 }
 
-- (void);
+- (void)�H;
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)activity !;
 - (void)B=WQ@;
 - (void)3;
 - (int)´ÙÿZº5Êë6;
 
 // Remaining properties
-@property(nonatomic) double maxDistanceFromRoad; // @synthesize maxDistanceFromRoad=_maxDistanceFromRoad;
 @property(nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end

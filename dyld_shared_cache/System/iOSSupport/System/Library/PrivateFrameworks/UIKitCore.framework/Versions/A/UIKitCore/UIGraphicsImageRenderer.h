@@ -11,19 +11,19 @@
 }
 
 + (void);
-+ (Class)utesTransformer;
++ (Class)sectionDecorationLayoutAttributesTransformer;
 + (struct CGContext *)EêÿÈEêÿÀFêÿGêÿHGêÿtGêÿ¨GêÿèGêÿHêÿ@HêÿHêÿ¸HêÿäHêÿ0Iêÿ\IêÿIêÿÔIêÿ;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)nship type:(id)arg1 %@ %@;
 - (id);
-- (id);
+- (id)P;
 - (id)1Â0@ù
 × ;
-- (_Bool)ateHighlightAndPressedFeedback;
-- (id)tionController;
+- (_Bool)_updateHighlightAndPressedFeedback;
+- (id)_builtinInteractionController;
 - (id)b",&,N,V_selectedChild;
 
 @end

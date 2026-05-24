@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CLFindMyAccessoryFirmwareUpdateDelegate, OS_dispatch_queue;
+@protocol CLFindMyAccessoryFirmwareUpdateDelegate;
 
 @interface CLFindMyAccessoryFirmwareUpdateManager
 {
     id <CLFindMyAccessoryFirmwareUpdateDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct unique_ptr<CLConnectionClient, std::default_delete<CLConnectionClient>> _connection;
 }
 
-- (void);
+- (void)~U;
 - (void);
 - (void);
 - (void);
@@ -23,10 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)tWithData:options:error: /* Error: Ran out of types for this method. */;
+- (void)k}S)A;
+- (void)J;
+- (void)performSelector: /* Error: Ran out of types for this method. */;
+- (void)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (id)8	;
 
 // Remaining properties

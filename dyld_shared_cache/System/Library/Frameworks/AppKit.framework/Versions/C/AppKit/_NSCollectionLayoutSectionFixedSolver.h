@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSection, NSIndexSet, NSObject, NSString, _NSCollectionLayoutAuxiliaryItemSolver, _NSCollectionLayoutItemSolver, _NSCollectionLayoutSectionGeometryTranslator, _NSCollectionLayoutSupplementaryRegistrar;
-@protocol NSCollectionLayoutContainer;
+@class NSCollectionLayoutSection;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSectionFixedSolver
 {
     _Bool _shouldAdjustContentSizeForPartialLastGroupSolution;
-    _Bool _layoutRTL;
-    int _layoutAxis;
-    int _containerLayoutAxis;
-    NSCollectionLayoutSection *_layoutSection;
-    id <NSCollectionLayoutContainer> _container;
-    NSObject *_traitCollection;
-    long long _frameCount;
-    _NSCollectionLayoutItemSolver *_solution;
-    _NSCollectionLayoutAuxiliaryItemSolver *_sectionAuxiliarySolution;
-    _NSCollectionLayoutSupplementaryRegistrar *_sectionSupplementaryRegistrar;
-    _NSCollectionLayoutSectionGeometryTranslator *_sectionGeometryTranslator;
-    id <NSCollectionLayoutContainer> _memoizedAuxiliaryHostContainer;
-    struct CGPoint _orthogonalOffset;
-    struct CGVector _orthogonalScrollingPrefetchingUnitVector;
 }
 
-- (id);
+- (id)copyDataFromServiceTree:(long long)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (void)s-allowed was zero length;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ct trusted key, expected tag %c%c%c%c found tag %c%c%c%c;
+- (id)Dg8w;
+- (id)/rF3Vg;
 - (id);
 - (struct CGRect);
 - (id);
@@ -48,26 +33,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
+- (id);
 - (id);
+- (struct CGPoint)!;
+- (void);
+- (void);
+- (void)J;
 - (id);
-- (struct CGPoint);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)18TOperationReporter;
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)j;
+- (id)`;
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (int)aí/ð!LDùñâ3ð1Â0@ù
 × ;
@@ -75,14 +60,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGVector)}24@0:8^{_NSModalSession=@@^{_NSModalSession}iBqQBBBsq@@:^vq@@?@B}16 /* Error: Ran out of types for this method. */;
 - (void)ntItemBezelView";
-- (void)d:(_Bool)arg1;
-- (id)gWithHitPoint:(long long)arg1;
-- (void)oundScaleFactor;
+- (void)checkboxOrRadioCUIOptionsWithMaskOnly:(_Bool)arg1 flipped: /* Error: Ran out of types for this method. */;
+- (id)beginCreationDragWithHitPoint:(long long)arg1;
+- (void)_backgroundScaleFactor;
 - (double)ÿ;
 - (id);
-- (void)leUpdating;
+- (void)_reloadHappenedWhileUpdating;
 - (_Bool)GBColorSpace;
-- (id)ts;
+- (id)NSDisableKeyboardLayoutAdjustedShortcuts;
 - (void)d to be a _NSBrowserColumnsContainerView kind of object!! It be:%@ /* Error: Ran out of types for this method. */;
 - (id)dSet *__strong _Nonnull, _NSDataSourceSnapshotter *__strong _Nonnull, BOOL)_block_invoke;
 - (id)8|dUhÔø;
@@ -96,31 +81,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) id <NSCollectionLayoutContainer> container; // @synthesize container=_container;
-@property(nonatomic) int containerLayoutAxis; // @synthesize containerLayoutAxis=_containerLayoutAxis;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect effectiveContentFrame;
-@property(nonatomic) long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
 @property(retain, nonatomic) NSCollectionLayoutSection *layoutSection; // @synthesize layoutSection=_layoutSection;
-@property(retain, nonatomic) id <NSCollectionLayoutContainer> memoizedAuxiliaryHostContainer; // @synthesize memoizedAuxiliaryHostContainer=_memoizedAuxiliaryHostContainer;
-@property(nonatomic) struct CGPoint orthogonalOffset; // @synthesize orthogonalOffset=_orthogonalOffset;
-@property(nonatomic) struct CGVector orthogonalScrollingPrefetchingUnitVector; // @synthesize orthogonalScrollingPrefetchingUnitVector=_orthogonalScrollingPrefetchingUnitVector;
-@property(readonly, nonatomic) NSIndexSet *pinnedSupplementaryIndexes;
-@property(retain, nonatomic) _NSCollectionLayoutAuxiliaryItemSolver *sectionAuxiliarySolution; // @synthesize sectionAuxiliarySolution=_sectionAuxiliarySolution;
-@property(retain, nonatomic) _NSCollectionLayoutSectionGeometryTranslator *sectionGeometryTranslator; // @synthesize sectionGeometryTranslator=_sectionGeometryTranslator;
-@property(retain, nonatomic) _NSCollectionLayoutSupplementaryRegistrar *sectionSupplementaryRegistrar; // @synthesize sectionSupplementaryRegistrar=_sectionSupplementaryRegistrar;
-@property(nonatomic) _Bool shouldAdjustContentSizeForPartialLastGroupSolution; // @synthesize shouldAdjustContentSizeForPartialLastGroupSolution=_shouldAdjustContentSizeForPartialLastGroupSolution;
-@property(retain, nonatomic) _NSCollectionLayoutItemSolver *solution; // @synthesize solution=_solution;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

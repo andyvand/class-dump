@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPQuickTypeItem, PSGOperationalPredictedItem, PSGProactiveTrigger;
+@class PSGProactiveTrigger;
 
 @interface PSGStructuredInfoSuggestion
 {
     PSGProactiveTrigger *_proactiveTrigger;
-    PPQuickTypeItem *_portraitItem;
-    PSGOperationalPredictedItem *_operationalItem;
 }
 
 + (_Bool);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)isplayAsset>",R,N;
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,8 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PSGOperationalPredictedItem *operationalItem; // @synthesize operationalItem=_operationalItem;
-@property(readonly, nonatomic) PPQuickTypeItem *portraitItem; // @synthesize portraitItem=_portraitItem;
 @property(readonly, nonatomic) PSGProactiveTrigger *proactiveTrigger; // @synthesize proactiveTrigger=_proactiveTrigger;
 
 @end

@@ -8,9 +8,15 @@
 @protocol OS_dispatch_queue;
 
 @protocol RPMessageable
+- (void)ity",&,N,V_completionUserActivity;
+- (void)INSearchForMediaIntentResponseExport;
+- (void)UNKNOWN_MOBILE_SPACE;
+- (void)BLUETOOTH_AUDIO_ROUTE;
+- (void);
+- (NSString *)_3 a_3 r\;
+- (NSObject<OS_dispatch_queue> *)INS5_IfNS_9allocatorIfEEEENS6_IS8_EEEEPS8_E3$_0FfiEEE;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
-@property(retain, nonatomic) NSString *serviceType;
 @end
 

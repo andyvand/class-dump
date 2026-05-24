@@ -6,29 +6,17 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class NSArray, NSData, NSDate, NSString;
+@class NSArray;
 
 @interface MSCachedCuratedCollection : MapsSync.MapsSyncObject
 {
     id _collectionDescription;
-    id _curatedCollectionIdentifier;
-    id _image;
-    id _imageUrl;
-    id _isTombstone;
-    id _lastFetchedDate;
-    id _lastSignificantChangeDate;
-    id _placesCount;
-    id _positionIndex;
-    id _publisherAttribution;
-    id _resultProviderIdentifier;
-    id _title;
-    id _titleLocale;
 }
 
 + (Class);
 - (id);
-- (void);
-- (void);
+- (void)\;
+- (void)R\;
 - (void);
 - (void);
 - (id);
@@ -36,44 +24,32 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)1
+;
 - (void);
 - (long long);
 - (void);
-- (int);
-- (_Bool);
+- (int)*;
+- (_Bool)bedding for %s;
 - (void);
 - (id);
 - (int);
 - (id);
+- (void)ion is already running;
+- (id)_VCAudioIssueDetectorUtil_ReportAggregatedDistortionStats;
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)},N,V_cachedTextRect;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allowedClasses;
-@property(nonatomic, copy) NSString *collectionDescription;
-@property(nonatomic) unsigned long long curatedCollectionIdentifier;
-@property(nonatomic, copy) NSData *image;
-@property(nonatomic, copy) NSString *imageUrl;
-@property(nonatomic) _Bool isTombstone;
-@property(nonatomic, copy) NSDate *lastFetchedDate;
-@property(nonatomic, copy) NSDate *lastSignificantChangeDate;
-@property(nonatomic) int placesCount;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic, copy) NSString *publisherAttribution;
-@property(nonatomic) int resultProviderIdentifier;
-@property(nonatomic, copy) NSString *title;
-@property(nonatomic, copy) NSString *titleLocale;
 
 @end
 

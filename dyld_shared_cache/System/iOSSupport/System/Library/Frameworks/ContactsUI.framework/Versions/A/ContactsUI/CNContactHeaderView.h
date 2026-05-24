@@ -4,50 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CNContact, CNContactHeaderViewSizeAttributes, CNContactPhotoView, CNContactStore, CNUIBackgroundColors, NSArray, NSDictionary, NSLayoutConstraint, NSObject, NSString, UIImageView, UILabel;
-@protocol CNContactHeaderViewDelegate, CNPresenterDelegate, OS_dispatch_queue;
+@class CNContactStore;
 
 @interface CNContactHeaderView
 {
     _Bool _needsReload;
-    CIContext *_colorExtractionContext;
-    _Bool _isSiri;
-    _Bool _needsLabelSizeCalculation;
-    _Bool _shouldUseConstrainedMaxHeight;
-    _Bool _useDualSimParity;
-    _Bool _alwaysShowsMonogram;
-    _Bool _visibleToScrollViews;
-    _Bool _showMonogramsOnly;
-    _Bool _shouldShowBelowNavigationTitle;
-    NSDictionary *_nameTextAttributes;
-    id <CNPresenterDelegate> _presenterDelegate;
-    id <CNContactHeaderViewDelegate> _delegate;
-    CNContactStore *_xpcContactStore;
-    UILabel *_nameLabel;
-    UIImageView *_posterView;
-    NSArray *_activatedConstraints;
-    NSArray *_contacts;
-    NSLayoutConstraint *_photoTopConstraint;
-    NSLayoutConstraint *_photoHeightConstraint;
-    CNContactHeaderViewSizeAttributes *_sizeAttributes;
-    double _lastViewWidth;
-    double _constrainedMaxHeight;
-    NSObject<OS_dispatch_queue> *_backgroundColorCacheQueue;
-    CNContact *_contactMiniCache;
-    CNUIBackgroundColors *_colorsMiniCache;
-    CNContactPhotoView *_photoView;
 }
 
 + (struct CGSize);
++ (id)QuotaStorageDataSource;
++ (id):(_Bool)arg1 %d;
++ (_Bool)!;
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id)tUpView;
-- (_Bool);
++ (id)setUpView;
+- (_Bool)-;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)-;
 - (void);
 - (void);
 - (void);
@@ -60,17 +33,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Y;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,7 +55,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (_Bool);
@@ -95,7 +68,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (double);
 - (double);
 - (id);
@@ -105,28 +78,28 @@
 - (id);
 - (double);
 - (id);
-- (void);
-- (id);
+- (void)TX;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (id);
 - (void);
+- (double)8;
+- (void)8;
 - (double);
-- (void);
-- (double);
-- (void);
+- (void)p4;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -134,44 +107,10 @@
 - (id);
 - (id)"CNVisualIdentity";
 - (void)Color;
-- (void)out: /* Error: Ran out of types for this method. */;
+- (void)setSyncTimeout: /* Error: Ran out of types for this method. */;
 - (id)ished with a provider item that was not of type CNPhotoPickerAnimojiProviderItem, Memoji metadata will not be saved;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activatedConstraints; // @synthesize activatedConstraints=_activatedConstraints;
-@property(nonatomic) _Bool alwaysShowsMonogram; // @synthesize alwaysShowsMonogram=_alwaysShowsMonogram;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundColorCacheQueue; // @synthesize backgroundColorCacheQueue=_backgroundColorCacheQueue;
-@property(retain, nonatomic) CNUIBackgroundColors *colorsMiniCache; // @synthesize colorsMiniCache=_colorsMiniCache;
-@property(nonatomic) double constrainedMaxHeight; // @synthesize constrainedMaxHeight=_constrainedMaxHeight;
-@property(retain, nonatomic) CNContact *contactMiniCache; // @synthesize contactMiniCache=_contactMiniCache;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSiri; // @synthesize isSiri=_isSiri;
-@property(nonatomic) double lastViewWidth; // @synthesize lastViewWidth=_lastViewWidth;
-@property(readonly, nonatomic) double maxHeight;
-@property(readonly, nonatomic) double minHeight;
-@property(readonly, nonatomic) double minTitleOffset;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(copy, nonatomic) NSDictionary *nameTextAttributes; // @synthesize nameTextAttributes=_nameTextAttributes;
-@property(nonatomic) _Bool needsLabelSizeCalculation; // @synthesize needsLabelSizeCalculation=_needsLabelSizeCalculation;
-@property(retain) NSLayoutConstraint *photoHeightConstraint; // @synthesize photoHeightConstraint=_photoHeightConstraint;
-@property(retain) NSLayoutConstraint *photoTopConstraint; // @synthesize photoTopConstraint=_photoTopConstraint;
-@property(readonly, nonatomic) CNContactPhotoView *photoView; // @synthesize photoView=_photoView;
-@property(retain, nonatomic) UIImageView *posterView; // @synthesize posterView=_posterView;
-@property(nonatomic) __weak id <CNPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate=_presenterDelegate;
-@property(nonatomic) _Bool shouldShowBelowNavigationTitle; // @synthesize shouldShowBelowNavigationTitle=_shouldShowBelowNavigationTitle;
-@property(nonatomic) _Bool shouldUseConstrainedMaxHeight; // @synthesize shouldUseConstrainedMaxHeight=_shouldUseConstrainedMaxHeight;
-@property(nonatomic) _Bool showMonogramsOnly; // @synthesize showMonogramsOnly=_showMonogramsOnly;
-@property(retain, nonatomic) CNContactHeaderViewSizeAttributes *sizeAttributes; // @synthesize sizeAttributes=_sizeAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useDualSimParity; // @synthesize useDualSimParity=_useDualSimParity;
-@property(nonatomic) _Bool visibleToScrollViews; // @synthesize visibleToScrollViews=_visibleToScrollViews;
 @property(retain, nonatomic) CNContactStore *xpcContactStore; // @synthesize xpcContactStore=_xpcContactStore;
 
 @end

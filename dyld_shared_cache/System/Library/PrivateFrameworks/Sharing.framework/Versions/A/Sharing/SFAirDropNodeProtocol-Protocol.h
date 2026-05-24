@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSNumber, NSSet, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @protocol SFAirDropNodeProtocol
+- (void);
+- (NSString *);
+- (_Bool)currentItemPointerModificationTime;
 - (NSUUID *)ed for  %{mask}
 ;
 - (_Bool)dSuggestFamilyMembers:%@ isSharePlayAvailable:%@ hostAppBundleIdentifier:%@ shouldNotSuggestPeople:%@ supportsCollaboration:%@ > /* Error: Ran out of types for this method. */;
-- (void)_LOCKED_TITLE;
+- (void)UNLOCK_WATCH_LOCKED_TITLE;
 
 // Remaining properties
-@property(getter=isClassroom) _Bool classroom;
-@property(retain) CNContact *contact;
-@property(copy) NSString *contactIdentifier;
-@property(getter=isDisabled) _Bool disabled;
-@property(retain) struct CGImage *displayIcon;
-@property(copy) NSString *displayName;
-@property(retain) NSUUID *endpointUUID;
-@property(retain) NSSet *formattedHandles;
-@property(copy) NSString *model;
 @property(retain) NSUUID *nodeIdentifier;
-@property(copy) NSString *realName;
-@property long long selectionReason;
-@property(getter=isSuggestion) _Bool suggestion;
-@property(retain) NSNumber *suggestionIndex;
-@property(retain) NSString *transportBundleID;
 @end
 

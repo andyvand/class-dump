@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaIFOutcomeSuccess, SISchemaIFOutcomeToolDisambiguation;
-
 @interface ExecutorSiriSchemaExecutorRequestEnded : SISchemaInstrumentationMessage
 {
     int _outcome;
-    SISchemaIFOutcomeSuccess *_success;
-    SISchemaIFOutcomeToolDisambiguation *_toolDisambiguation;
-    CDStruct_ed540088 _has;
-    _Bool _hasSuccess;
-    _Bool _hasToolDisambiguation;
-    unsigned long long _whichOutcomedetails;
 }
 
 - (unsigned long long);
@@ -26,36 +18,30 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)hicleInfoData received an XPC_ERROR_CONNECTION_INTERRUPTED error.
+;
+- (id)entifier;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)syndicationDate;
 - (_Bool);
 - (id);
 - (id)Ms"b1"connectedSubflowCount"b1};
-- (id)tReceived;
+- (id)SISchemaPNRTextToSpeechRequestReceived;
 - (id)p\;
-- (int)GE;
-- (id)tSiriSpeechId;
+- (int)FLOWSTATETYPE_MODIFY_MESSAGE;
+- (id)halTargetSiriSpeechId;
 - (void)ÿI%;
 - (void)Ø9';
 
 // Remaining properties
-@property(nonatomic) _Bool hasOutcome;
-@property(nonatomic) _Bool hasSuccess; // @synthesize hasSuccess=_hasSuccess;
-@property(nonatomic) _Bool hasToolDisambiguation; // @synthesize hasToolDisambiguation=_hasToolDisambiguation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int outcome; // @synthesize outcome=_outcome;
-@property(retain, nonatomic) SISchemaIFOutcomeSuccess *success; // @synthesize success=_success;
-@property(retain, nonatomic) SISchemaIFOutcomeToolDisambiguation *toolDisambiguation; // @synthesize toolDisambiguation=_toolDisambiguation;
-@property(readonly, nonatomic) unsigned long long whichOutcomedetails; // @synthesize whichOutcomedetails=_whichOutcomedetails;
 
 @end
 

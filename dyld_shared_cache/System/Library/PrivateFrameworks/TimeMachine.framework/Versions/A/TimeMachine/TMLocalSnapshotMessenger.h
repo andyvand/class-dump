@@ -15,7 +15,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -23,8 +23,8 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool)rBrowsingWithOptions:error: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (_Bool)_readyLocalSnapshotForBrowsingWithOptions:error: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol LPAudioPlayerClient
+- (void)totalSpaceOfAttachments;
+- (void)totalSatelliteMessageCount;
+- (void)totalMessagePartCount;
 @end
 

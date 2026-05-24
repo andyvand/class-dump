@@ -5,5 +5,6 @@
 //
 
 @protocol DOAsyncResultProtocol
+- (oneway void)B;
 @end
 

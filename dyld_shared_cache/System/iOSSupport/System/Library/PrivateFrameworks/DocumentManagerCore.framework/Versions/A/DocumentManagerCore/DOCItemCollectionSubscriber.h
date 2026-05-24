@@ -9,19 +9,17 @@
 @interface DOCItemCollectionSubscriber
 {
     NSUUID *_UUID;
-    CDUnknownBlockType _updateBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)itemsWereModified:byUserInitiatedAction: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)V;
 
 // Remaining properties
 @property(retain) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

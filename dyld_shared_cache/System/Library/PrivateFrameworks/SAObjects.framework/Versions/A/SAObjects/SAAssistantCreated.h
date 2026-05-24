@@ -14,17 +14,16 @@
 
 + (id);
 + (id);
+- (void)o;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)Üùÿ¤LÁâ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assistantId;
-@property(copy, nonatomic) NSString *speechId;
 
 @end
 

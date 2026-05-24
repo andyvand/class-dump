@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKSystemSharingUIObserver
 {
     CDUnknownBlockType _systemSharingUIDidSaveShareBlock;
-    CDUnknownBlockType _systemSharingUIDidStopSharingBlock;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CKContainer *_container;
 }
 
 + (void)turn length doesn't match property type size (%d != %d);
@@ -23,15 +20,12 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id)ableValueDeltaRecord;
-- (id)r:(id)arg1;
-- (void)Info;
+- (id)isMergeableValueDeltaRecord;
+- (id)fetchEntryBatchWithStartingIndex:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)CKDatabaseOperationInfo;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(copy) CDUnknownBlockType systemSharingUIDidSaveShareBlock; // @synthesize systemSharingUIDidSaveShareBlock=_systemSharingUIDidSaveShareBlock;
-@property(copy) CDUnknownBlockType systemSharingUIDidStopSharingBlock; // @synthesize systemSharingUIDidStopSharingBlock=_systemSharingUIDidStopSharingBlock;
 
 @end
 

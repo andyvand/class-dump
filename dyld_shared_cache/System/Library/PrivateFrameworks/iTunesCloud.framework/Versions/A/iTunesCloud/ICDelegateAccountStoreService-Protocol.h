@@ -4,7 +4,157 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ICUserIdentity;
+
 @protocol ICDelegateAccountStoreService
+- (void);
+- (void)R;
+- (void)owColor;
+#endif
+
+uniform int largeKernelSize;
+uniform int smallKernelSize;
+
+uniform sampler2DRect colorSampler;
+uniform sampler2DRect depthSampler;
+uniform sampler2DRect lightDepthSampler;
+
+uniform mat4  camera_MVP_i;
+uniform mat4  light_MVP;
+uniform mat4  light_MVP_i;
+uniform vec3  lightPosition;
+uniform vec2  viewport;
+uniform float zMapFactor;
+uniform float softenFactor;
+
+varying vec2 TexCoord;
+
+vec3 unprojectPoint(vec3 screenPos)
+{
+	vec4 pTmp;
+	
+	pTmp.x = (2.0 * screenPos.x / viewport.x) - 1.0;
+	pTmp.y = (2.0 * screenPos.y / viewport.y) - 1.0;
+	pTmp.z = (2.0 * screenPos.z) - 1.0;
+	pTmp.w = 1.0;
+
+	pTmp = camera_MVP_i * pTmp;
+    pTmp /= pTmp.w;
+	
+	return vec3(pTmp);
+}
+
+
+void main (void)
+{
+	int i;
+	
+#if USE_BLUR
+    float shadow = 1.0;
+#else
+    float shadow = 0.0;
+
+    //get color (no blur mode)
+    vec4 color = texture2DRect(colorSampler, TexCoord);
+#endif
+    
+	//get z
+	float depthValue = texture2DRect(depthSampler, TexCoord*zMapFactor).x;
+	
+	//unproject to get world position
+	vec3 worldPos = unprojectPoint(vec3(TexCoord, depthValue));
+	
+	//project into light space
+	vec4 lightScreen =  light_MVP * vec4(worldPos, 1.0);
+	
+    float div = 1.0/lightScreen.w;
+    
+    lightScreen.x *= div;
+    lightScreen.y *= div;
+    
+    
+    if(lightScreen.x*lightScreen.x > 1.0 || lightScreen.y*lightScreen.y > 1.0){	
+    }
+    else{		
+        //compute virtual distance to light
+        float distLight = lightScreen.z * div;
+        
+        //lightScren.z is [-1; 1];
+        distLight = (distLight+1.0) * 0.5;
+        
+        if(distLight < 1.0){
+            float totalAccum = 0.0;
+            
+            vec2  ptLightScreen = vec2(lightScreen);
+            
+            //from image-based to viewport based
+            ptLightScreen = (ptLightScreen+1.0) * viewport * 0.5;
+
+            //use a stronger factor when we have more precision in the z buffer (i.e when distLight is close to 0)
+            float zThreshold = 100.0 / exp(distLight);
+            
+#if USE_BLUR
+            float lightDepth = texture2DRect(lightDepthSampler, ptLightScreen).x;
+            totalAccum = clamp(zThreshold * (distLight - lightDepth), 0.0, 1.0);
+            float filteringSizeFactor = (distLight - lightDepth)*softenFactor;
+            
+            //smooth 8 samples
+            for(i=0; i<8; i++){
+                //get z in light map
+                vec2 pt = ptLightScreen + (kernel[i]*filteringSizeFactor);
+                
+                lightDepth = texture2DRect(lightDepthSampler, pt).x;
+                
+                totalAccum += clamp(zThreshold * (distLight - lightDepth), 0.0, 1.0);
+            }
+			
+            shadow *= 1.0 - (totalAccum / 9.0);
+#else
+            float filteringSizeFactor = softenFactor;//(distLight - lightDepth)*softenFactor / lightDepth ;
+                        
+            //smooth with first samples
+            for(i=0; i<smallKernelSize; i++){
+                //get z in light map
+                vec2 pt = ptLightScreen + (kernel[i]*filteringSizeFactor);
+                float lightDepth = texture2DRect(lightDepthSampler, pt).x;
+                                
+                totalAccum += clamp(zThreshold * (distLight - lightDepth), 0.0, 1.0);
+            }
+ 			
+            shadow = totalAccum / float(smallKernelSize);  // 1 / 8
+            if (abs(shadow - 0.5) >= 0.4375) {
+//            if (shadow <= 0.0625 && shadow >= 0.9375) { // no penumbra
+            } else { // penumbra
+                //smooth all samples
+                for(; i<largeKernelSize; i++){
+                    //get z in light map
+                    vec2 pt = ptLightScreen + (kernel[i]*filteringSizeFactor);
+                    float lightDepth = texture2DRect(lightDepthSampler, pt).x;
+                    
+                    totalAccum += clamp(zThreshold * (distLight - lightDepth), 0.0, 1.0);
+                }
+                
+                shadow = totalAccum / float(largeKernelSize); // 1 / 32
+                
+                //debug
+                //color.r = 1.0;
+            }
+#endif
+            
+        }
+    }
+    
+#if USE_BLUR    
+    //blur mode
+    gl_FragColor = vec4(1.0 - shadow, 0.0,0.0, 1.0);//todo:(ICUserIdentity *)arg1 write in depth texture
+#else
+    //apply shadow on color buffer
+    gl_FragColor = mix(color.rgba, vec4(shadowColor.rgb, 1.0), shadowColor.a * shadow);
+#endif
+}
+
+;
+- (void)N25domGles_pipeline_settings13domAlpha_func8domValueE;
 - (void)eòÄS³$iþÈ_¿(´#ÃTbõ§0ÐGqæzíÛL¬;vá×@ 7«<ÜK
 }êöa ·WÀ\Ë+¼ýjPÇ'°ñfúm,»[ÌlûÍZº-±&ÆQgð½*Ê]kü`÷ÁV¶!JÝ=ªë|;
 @end

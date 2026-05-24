@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSStoryboard, NSString, NSViewController;
+@class NSViewController;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewControllerPrivateData
 {
     NSViewController *_parentViewController;
-    struct _NSModalSession *_modalSessionForPresentedViewController;
-    NSMutableArray *_presentedViewControllers;
-    NSMutableArray *_childViewControllers;
-    long long _appearanceTransitionCount;
-    NSArray *_segueTemplates;
-    NSStoryboard *_storyboard;
-    NSString *_identifier;
-    NSDictionary *_externalObjectEntryTableForViewLoading;
-    NSArray *_topLevelObjectsToKeepAliveFromStoryboard;
-    CDUnknownBlockType _constrainServiceScreenFrameBlock;
-    NSDictionary *_segueDestinationOptions;
-    struct {
-        unsigned int preventInsertAndRemoveChildViewControllersFromSendingKVO:1;
-        unsigned int _sentViewWillAppear:1;
-        unsigned int _sentViewWillDisappear:1;
-        unsigned int _sentViewDidLoad:1;
-        unsigned int _scheduledBridgedServiceLayoutPropertyChange:1;
-        unsigned int _reserved:27;
-    } _flags;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)is in RestoreOS;
 - (id);
 - (id);
-- (id);
-- (id);
-- (struct _NSModalSession *);
+- (id)RFExposureSeparationDistance;
+- (id)s;
+- (struct _NSModalSession *)dp7SlZZQotrh8McQoH1xFA;
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -56,21 +37,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!èBùã31Â0@ù
 × ;
-- (id)w;
+- (id)NSLockoutUIOverlayWindow;
 
 // Remaining properties
-@property long long appearanceTransitionCount; // @synthesize appearanceTransitionCount=_appearanceTransitionCount;
-@property(retain) NSMutableArray *childViewControllers; // @synthesize childViewControllers=_childViewControllers;
-@property(copy) CDUnknownBlockType constrainServiceScreenFrameBlock; // @synthesize constrainServiceScreenFrameBlock=_constrainServiceScreenFrameBlock;
-@property(retain) NSDictionary *externalObjectEntryTableForViewLoading; // @synthesize externalObjectEntryTableForViewLoading=_externalObjectEntryTableForViewLoading;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property struct _NSModalSession *modalSessionForPresentedViewController; // @synthesize modalSessionForPresentedViewController=_modalSessionForPresentedViewController;
 @property NSViewController *parentViewController; // @synthesize parentViewController=_parentViewController;
-@property(retain) NSMutableArray *presentedViewControllers; // @synthesize presentedViewControllers=_presentedViewControllers;
-@property(retain) NSDictionary *segueDestinationOptions; // @synthesize segueDestinationOptions=_segueDestinationOptions;
-@property(retain) NSArray *segueTemplates; // @synthesize segueTemplates=_segueTemplates;
-@property(retain) NSStoryboard *storyboard; // @synthesize storyboard=_storyboard;
-@property(retain) NSArray *topLevelObjectsToKeepAliveFromStoryboard; // @synthesize topLevelObjectsToKeepAliveFromStoryboard=_topLevelObjectsToKeepAliveFromStoryboard;
 
 @end
 

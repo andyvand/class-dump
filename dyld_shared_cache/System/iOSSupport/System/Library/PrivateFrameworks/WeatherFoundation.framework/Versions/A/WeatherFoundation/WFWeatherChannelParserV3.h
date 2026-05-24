@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSString;
+@class NSCalendar;
 
 @interface WFWeatherChannelParserV3
 {
@@ -23,19 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)e;
+- (void)aP;
 - (id)",&,N,V_temperatureUnitProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,25 +6,21 @@
 
 #import <QuickLookThumbnailing/QLThumbnailRequestOperation.h>
 
-@class NSError, UIImage;
+@class UIImage;
 
 @interface QLTThumbnailOperation : QLThumbnailRequestOperation
 {
     UIImage *_image;
-    NSError *_error;
-    CDUnknownBlockType _needsAdditionalTime;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)m;
 
 // Remaining properties
-@property(readonly) NSError *error; // @synthesize error=_error;
 @property(readonly) UIImage *image; // @synthesize image=_image;
-@property(copy) CDUnknownBlockType needsAdditionalTime; // @synthesize needsAdditionalTime=_needsAdditionalTime;
 
 @end
 

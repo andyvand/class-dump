@@ -6,28 +6,25 @@
 
 #import <WeatherFoundation/WFTask.h>
 
-@class NSLocale, WFLocation;
+@class WFLocation;
 
 @interface WFAirQualityRequest : WFTask
 {
     _Bool _attachRawAPIData;
-    NSLocale *_locale;
-    WFLocation *_location;
-    CDUnknownBlockType _completionHandler;
 }
 
-+ (id);
++ (id)VBuffer=}16@0:(id)arg1 8;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)(K;
 - (void);
 - (void);
 - (void)°1Â0@ù
@@ -35,9 +32,6 @@
 - (void)@­;
 
 // Remaining properties
-@property(nonatomic) _Bool attachRawAPIData; // @synthesize attachRawAPIData=_attachRawAPIData;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) WFLocation *location; // @synthesize location=_location;
 
 @end

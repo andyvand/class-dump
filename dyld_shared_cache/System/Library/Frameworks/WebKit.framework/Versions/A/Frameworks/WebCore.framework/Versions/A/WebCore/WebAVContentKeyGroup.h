@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebAVContentKeyGroup
 {
     struct WeakObjCPtr<AVContentKeySession> _contentKeySession;
-    struct WeakPtr<WebCore::ContentKeyGroupDataSource, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> _dataSource;
-    struct RetainPtr<NSUUID> _groupIdentifier;
 }
 
-- (const void *);
+- (const void *)h;
 - (CDStruct_1328923a *);
 - (id);
 - (void);
@@ -52,17 +48,7 @@ nioîè2õmáèhô
 - (void)o;
 
 // Remaining properties
-@property(readonly) NSData *contentProtectionSessionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDStruct_1328923a *logChannel;
 @property(readonly, nonatomic) unsigned long long logIdentifier;
-@property(readonly, nonatomic) const void *loggerPtr;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CKRecordZoneGraph
 {
     NSMutableArray *_nodes;
-    NSMutableArray *_sortedZones;
 }
 
 + (id);

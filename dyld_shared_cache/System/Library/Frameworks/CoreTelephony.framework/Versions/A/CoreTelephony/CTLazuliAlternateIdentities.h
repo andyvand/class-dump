@@ -11,7 +11,7 @@
     NSArray *_identityList;
 }
 
-+ (_Bool);
++ (_Bool)d to the receiver;
 - (void);
 - (_Bool);
 - (id);

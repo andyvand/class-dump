@@ -11,17 +11,15 @@
 @interface MPChangeLanguageOptionCommandEvent : MPRemoteCommandEvent
 {
     MPNowPlayingInfoLanguageOption *_languageOption;
-    long long _setting;
 }
 
 - (id);
 - (id);
 - (long long);
-- (void)Duration__MAPPING_MISSING__;
+- (void)__MPModelPropertyPodcastChapterDuration__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) MPNowPlayingInfoLanguageOption *languageOption; // @synthesize languageOption=_languageOption;
-@property(readonly, nonatomic) long long setting; // @synthesize setting=_setting;
 
 @end
 

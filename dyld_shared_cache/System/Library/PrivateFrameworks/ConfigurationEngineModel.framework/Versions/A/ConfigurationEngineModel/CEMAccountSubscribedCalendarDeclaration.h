@@ -6,17 +6,14 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMAccountSubscribedCalendarDeclaration : CEMConfigurationBase
 {
     NSString *_payloadSubCalAccountDescription;
-    NSString *_payloadSubCalAccountHostName;
-    NSNumber *_payloadSubCalAccountUseSSL;
-    NSString *_payloadSubCalAccountCredentials;
 }
 
-+ (id);
++ (id)q;
 + (id);
 + (id);
 + (id);
@@ -24,7 +21,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)!`!j*;
 - (void);
 - (void);
 - (id);
@@ -41,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadSubCalAccountCredentials; // @synthesize payloadSubCalAccountCredentials=_payloadSubCalAccountCredentials;
 @property(copy, nonatomic) NSString *payloadSubCalAccountDescription; // @synthesize payloadSubCalAccountDescription=_payloadSubCalAccountDescription;
-@property(copy, nonatomic) NSString *payloadSubCalAccountHostName; // @synthesize payloadSubCalAccountHostName=_payloadSubCalAccountHostName;
-@property(copy, nonatomic) NSNumber *payloadSubCalAccountUseSSL; // @synthesize payloadSubCalAccountUseSSL=_payloadSubCalAccountUseSSL;
-@property(readonly) Class superclass;
 
 @end
 

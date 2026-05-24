@@ -6,7 +6,7 @@
 
 #import <Foundation/NSProxy.h>
 
-@class NSObject, Protocol;
+@class Protocol;
 
 @interface NSProtocolChecker : NSProxy
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(readonly) Protocol *protocol;
-@property(readonly, retain) NSObject *target;
 
 @end
 

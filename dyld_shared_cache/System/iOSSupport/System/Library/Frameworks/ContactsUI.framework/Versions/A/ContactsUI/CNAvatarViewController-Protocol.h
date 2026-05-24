@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class CNAvatarViewControllerSettings, NSArray;
 @protocol CNKeyDescriptor;
 
 @protocol CNAvatarViewController
+- (id)setTitle:(CNAvatarViewControllerSettings *)arg1;
+- (NSArray *);
 - (id <CNKeyDescriptor>)0@ù
 × ;
 

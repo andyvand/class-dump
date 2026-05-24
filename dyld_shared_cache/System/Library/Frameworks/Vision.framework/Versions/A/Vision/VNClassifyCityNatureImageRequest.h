@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNClassifyCityNatureImageRequest : VNImageBasedRequest
 {
 }
@@ -15,13 +13,12 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)ed to retrieve a persistent store description.;
 - (id)ÿIR¨T@n±ÿIR¨T¯ÿIR¨T@n±ÿ;
 - (_Bool);
 
 // Remaining properties
 @property unsigned long long imageCropAndScaleOption;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

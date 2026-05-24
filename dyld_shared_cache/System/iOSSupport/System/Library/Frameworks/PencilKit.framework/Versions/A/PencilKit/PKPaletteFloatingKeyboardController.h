@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKeyboardInputMode, UIMenu;
-@protocol PKPaletteFloatingKeyboardControllerDelegate;
+@class UIMenu;
 
 @interface PKPaletteFloatingKeyboardController
 {
     UIMenu *_cachedKeyboardMenu;
-    _Bool _updatingCurrentInputMode;
-    _Bool;
-    id <PKPaletteFloatingKeyboardControllerDelegate> _delegate;
-    UIKeyboardInputMode *_emojiInputMode;
-    double _latestUserInitiatedInputModeChangeTimestamp;
 }
 
 + (long long);
@@ -46,15 +40,9 @@
 - (id);
 - (void);
 - (void);
-- (void)ickerAndColorPickerView;
+- (void)PKPaletteToolPickerAndColorPickerView;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKPaletteFloatingKeyboardControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UIKeyboardInputMode *emojiInputMode; // @synthesize emojiInputMode=_emojiInputMode;
-@property(readonly, nonatomic) UIMenu *keyboardSelectionMenu;
-@property(nonatomic) double latestUserInitiatedInputModeChangeTimestamp; // @synthesize latestUserInitiatedInputModeChangeTimestamp=_latestUserInitiatedInputModeChangeTimestamp;
-@property(readonly, nonatomic, getter=isPresentingKeyboard) _Bool presentingKeyboard;
-@property(nonatomic, getter=isProcessingReloadInputViews) _Bool processingReloadInputViews; // @synthesize processingReloadInputViews=_processingReloadInputViews;
 @property(nonatomic) _Bool updatingCurrentInputMode; // @synthesize updatingCurrentInputMode=_updatingCurrentInputMode;
 
 @end

@@ -8,24 +8,24 @@
 {
 }
 
-+ (id);
++ (id)(;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)WebView"16@"WKNavigationResponse"24@?<v@?q>32;
+- (id)setStatus:(id)arg1;
+- (unsigned long long)setContentCompressionResistancePriority:forOrientation: /* Error: Ran out of types for this method. */;
+- (id)preferredTransform;
+- (id)minimumNumberOfPlayers;
+- (id)maximumCharacters;
+- (id)margin;
+- (id)initWithContext:(id)arg1 URLParser: /* Error: Ran out of types for this method. */;
+- (void)initWithColor:(id)arg1;
 - (id);
 - (void);
+- (id);
+- (void)accessibilitySearchButton;
 
 @end
 

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCAssistantConnection, MPCAssistantDiscovery;
+@class MPCAssistantConnection;
 
 @interface MPCAssistantSendCommand
 {
     MPCAssistantConnection *_connection;
-    MPCAssistantDiscovery *_discovery;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void *);
+- (void)@36;
+- (void)4@0:(unsigned int)arg1 8:(id)arg2 16;
+- (_Bool)ith error:(id)arg1 %@;
+- (void)ple account found, following up with user!;
+- (void *)ecame primary;
 - (void);
 - (id);
 - (void)- FFT Info:dt=%3.1fms df=%3.1fHz /* Error: Ran out of types for this method. */;

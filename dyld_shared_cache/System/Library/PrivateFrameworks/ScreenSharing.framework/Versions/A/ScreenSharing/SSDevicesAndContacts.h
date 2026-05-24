@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSBatchIDQueryController, NSArray, NSMutableDictionary, NSMutableOrderedSet, NSObject, NSSet, NSString;
-@protocol SSDevicesAndContactsDelegate;
-
 @interface SSDevicesAndContacts
 {
     _Bool _testMode;
-    int _maxItemsPerType;
-    NSObject<SSDevicesAndContactsDelegate> *_delegate;
-    NSMutableOrderedSet *_deviceComputers;
-    NSArray *_idsDevices;
-    NSArray *_vettedAppleIDs;
-    NSString *_localDeviceID;
-    IDSBatchIDQueryController *_idQueryController;
-    IDSBatchIDQueryController *_idQuerySafeViewController;
-    NSMutableDictionary *_availabilityByID;
-    NSMutableDictionary *_ipBasedRecents;
-    NSSet *_recentSet;
 }
 
 + (id);
@@ -50,14 +36,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`!C;
 - (id);
 - (id);
 - (void);
@@ -69,25 +55,7 @@
 - (_Bool)ero;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *availabilityByID; // @synthesize availabilityByID=_availabilityByID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property NSObject<SSDevicesAndContactsDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableOrderedSet *deviceComputers; // @synthesize deviceComputers=_deviceComputers;
-@property(readonly) unsigned long long hash;
-@property(retain) IDSBatchIDQueryController *idQueryController; // @synthesize idQueryController=_idQueryController;
-@property(retain) IDSBatchIDQueryController *idQuerySafeViewController; // @synthesize idQuerySafeViewController=_idQuerySafeViewController;
-@property(retain) NSArray *idsDevices; // @synthesize idsDevices=_idsDevices;
-@property(retain) NSMutableDictionary *ipBasedRecents; // @synthesize ipBasedRecents=_ipBasedRecents;
-@property(retain) NSString *localDeviceID; // @synthesize localDeviceID=_localDeviceID;
-@property int maxItemsPerType; // @synthesize maxItemsPerType=_maxItemsPerType;
-@property(retain) NSSet *recentSet; // @synthesize recentSet=_recentSet;
-@property(readonly) Class superclass;
 @property _Bool testMode; // @synthesize testMode=_testMode;
-@property(retain) NSArray *vettedAppleIDs; // @synthesize vettedAppleIDs=_vettedAppleIDs;
 
 @end
 

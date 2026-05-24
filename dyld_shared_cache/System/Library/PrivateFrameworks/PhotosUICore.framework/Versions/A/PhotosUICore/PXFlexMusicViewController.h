@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface PXFlexMusicViewController
 {
     id player;
-    id pickerView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)eP;
 - (void)°¢: /* Error: Ran out of types for this method. */;
 
 @end

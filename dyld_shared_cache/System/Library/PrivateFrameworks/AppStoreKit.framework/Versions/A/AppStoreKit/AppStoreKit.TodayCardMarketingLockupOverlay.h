@@ -9,9 +9,6 @@
 @interface AppStoreKit.TodayCardMarketingLockupOverlay : AppStoreKit.TodayCardOverlay
 {
     id lockup;
-    id paragraph;
-    id hideBackground;
-    id artworkBackgroundColor;
 }
 
 @end

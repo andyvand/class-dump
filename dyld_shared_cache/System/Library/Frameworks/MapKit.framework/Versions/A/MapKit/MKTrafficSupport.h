@@ -9,12 +9,12 @@
 }
 
 + (id);
-+ (long long);
-+ (long long);
++ (long long)__objc_superrefs__DATA_CONST;
++ (long long)__objc_protorefs__DATA_CONST;
 + (int);
 + (int);
 + (int);
-- (void);
+- (void)werlog ... logEvent=%@;
 - (id);
 - (id);
 - (id);

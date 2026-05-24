@@ -5,5 +5,6 @@
 //
 
 @protocol MNParkedVehicleDetectorDelegate
+- (void);
 @end
 

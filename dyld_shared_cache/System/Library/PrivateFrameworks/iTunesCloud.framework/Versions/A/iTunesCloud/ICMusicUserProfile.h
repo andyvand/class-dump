@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSocialProfile, ICStoreArtworkInfo, NSArray, NSString;
+@class NSString;
 
 @interface ICMusicUserProfile
 {
     _Bool _isPrivate;
-    _Bool _isDiscoverableByContact;
-    _Bool _isContactCheckAllowed;
-    _Bool _isVerified;
-    _Bool _isOnboarded;
-    _Bool _collaborationAllowed;
-    _Bool _displayNameAccepted;
-    NSString *_name;
-    NSString *_handle;
-    NSArray *_acceptedTerms;
-    ICStoreArtworkInfo *_artworkInfo;
-    ICMusicSocialProfile *_socialProfile;
 }
 
 + (id);
@@ -34,8 +23,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)updateMediaPeerToPeerEnabled:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)reachabilityEventManager;
 - (id);
 - (_Bool);
 - (id);
@@ -45,23 +34,11 @@
 - (void);
 - (id);
 - (id);
-- (void)tionType;
+- (void)_connectionType;
 - (_Bool)g developer token for user token request.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *acceptedTerms; // @synthesize acceptedTerms=_acceptedTerms;
-@property(readonly, nonatomic) ICStoreArtworkInfo *artworkInfo; // @synthesize artworkInfo=_artworkInfo;
-@property(readonly, nonatomic) _Bool collaborationAllowed; // @synthesize collaborationAllowed=_collaborationAllowed;
-@property(readonly, nonatomic) _Bool displayNameAccepted; // @synthesize displayNameAccepted=_displayNameAccepted;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isContactCheckAllowed; // @synthesize isContactCheckAllowed=_isContactCheckAllowed;
-@property(readonly, nonatomic) _Bool isDiscoverableByContact; // @synthesize isDiscoverableByContact=_isDiscoverableByContact;
-@property(readonly, nonatomic) _Bool isOnboarded; // @synthesize isOnboarded=_isOnboarded;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly, nonatomic) _Bool isVerified; // @synthesize isVerified=_isVerified;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) ICMusicSocialProfile *socialProfile; // @synthesize socialProfile=_socialProfile;
-@property(readonly, nonatomic) NSString *socialProfileID;
 
 @end
 

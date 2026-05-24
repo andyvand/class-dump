@@ -9,8 +9,6 @@
 @interface PGExampleConfiguration : PGConfiguration
 {
     _Bool _exampleBool;
-    long long _exampleInteger;
-    double _exampleDouble;
 }
 
 - (long long);
@@ -18,8 +16,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool exampleBool; // @synthesize exampleBool=_exampleBool;
-@property(readonly, nonatomic) double exampleDouble; // @synthesize exampleDouble=_exampleDouble;
 @property(readonly, nonatomic) long long exampleInteger; // @synthesize exampleInteger=_exampleInteger;
 
 @end

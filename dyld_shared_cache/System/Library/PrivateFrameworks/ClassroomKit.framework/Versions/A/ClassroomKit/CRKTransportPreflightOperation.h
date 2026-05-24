@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATTransport, CRKSession, NSDictionary, NSString;
+@class CATTransport;
 
 @interface CRKTransportPreflightOperation
 {
     _Bool _decisionHandlerWantsBackoffReset;
-    _Bool _connectionInterruptedDueToDecisionHandler;
-    _Bool _invalidationTriggered;
-    _Bool _cancellationRequested;
-    CRKSession *_session;
-    CATTransport *_transport;
 }
 
 - (void);
@@ -31,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)";
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -41,10 +36,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)PLVideoAgent;
 - (void);
 - (void);
-- (void);
+- (void)h
+;
 - (void);
 - (id);
 - (id);
@@ -52,19 +48,6 @@
 - (_Bool)4@?0@"CRKCourse"8@"CRKCourse"16;
 
 // Remaining properties
-@property(nonatomic) _Bool cancellationRequested; // @synthesize cancellationRequested=_cancellationRequested;
-@property(nonatomic) _Bool connectionInterruptedDueToDecisionHandler; // @synthesize connectionInterruptedDueToDecisionHandler=_connectionInterruptedDueToDecisionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool decisionHandlerWantsBackoffReset; // @synthesize decisionHandlerWantsBackoffReset=_decisionHandlerWantsBackoffReset;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool invalidationTriggered; // @synthesize invalidationTriggered=_invalidationTriggered;
-@property(readonly, nonatomic) __weak CRKSession *session; // @synthesize session=_session;
-@property(readonly, copy, nonatomic) NSDictionary *stateDictionary;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CATTransport *transport; // @synthesize transport=_transport;
 
 @end

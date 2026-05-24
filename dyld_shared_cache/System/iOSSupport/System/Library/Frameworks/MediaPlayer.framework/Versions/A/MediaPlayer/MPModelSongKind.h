@@ -9,24 +9,22 @@
 @interface MPModelSongKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
++ (id)_arrayCollid;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)__kIMMeNowPlayingInfoChangedNotification;
+- (unsigned long long)navigationListener:didUpdatePositionFromManeuver: /* Error: Ran out of types for this method. */;
+- (id)writeFromBuffer:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

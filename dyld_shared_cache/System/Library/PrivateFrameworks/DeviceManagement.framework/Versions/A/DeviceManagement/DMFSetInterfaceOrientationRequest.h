@@ -9,10 +9,9 @@
 @interface DMFSetInterfaceOrientationRequest : DMFTaskRequest
 {
     _Bool _lockOrientation;
-    unsigned long long _interfaceOrientation;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
 @property(nonatomic) _Bool lockOrientation; // @synthesize lockOrientation=_lockOrientation;
 
 @end

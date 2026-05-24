@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, XPCServiceListener;
-@protocol NSObject, OS_dispatch_queue, OS_xpc_object, XPCServiceConnectionDelegate;
+@class NSObject, NSString;
+@protocol OS_xpc_object;
 
 @interface XPCServiceConnection
 {
     NSString *_serviceName;
-    id <XPCServiceConnectionDelegate> _delegate;
-    NSObject<OS_xpc_object> *_client;
-    id <NSObject> _context;
-    XPCServiceListener *_serviceListener;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (id);
-- (void);
+- (void)=}16@24@32;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)e '%{public}s' from fd;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *client; // @synthesize client=_client;
-@property(retain, nonatomic) id <NSObject> context; // @synthesize context=_context;
-@property(nonatomic) __weak id <XPCServiceConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak XPCServiceListener *serviceListener; // @synthesize serviceListener=_serviceListener;
-@property(readonly, retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

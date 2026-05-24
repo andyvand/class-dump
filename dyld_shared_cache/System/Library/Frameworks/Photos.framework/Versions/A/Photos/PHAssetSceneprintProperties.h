@@ -6,17 +6,15 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface PHAssetSceneprintProperties : PHAssetPropertySet
 {
     NSData *_sceneprint;
-    NSData *_duplicateMatchingData;
-    NSData *_duplicateMatchingAlternateData;
 }
 
 + (id);
-+ (id);
++ (id)PHSearchSuggestionPropertyStartDate;
 - (id);
 - (id);
 - (id);
@@ -26,10 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *duplicateMatchingAlternateData; // @synthesize duplicateMatchingAlternateData=_duplicateMatchingAlternateData;
-@property(readonly, nonatomic) NSString *duplicateMatchingAlternateValue;
-@property(readonly, nonatomic) NSData *duplicateMatchingData; // @synthesize duplicateMatchingData=_duplicateMatchingData;
-@property(readonly, nonatomic) NSString *duplicateMatchingValue;
 @property(readonly, nonatomic) NSData *sceneprint; // @synthesize sceneprint=_sceneprint;
 
 @end

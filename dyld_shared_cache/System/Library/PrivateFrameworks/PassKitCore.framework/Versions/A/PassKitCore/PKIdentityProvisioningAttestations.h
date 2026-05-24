@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PKIdentityProvisioningAttestations
 {
     NSArray *_authorizationKeyAttestation;
-    NSArray *_deviceEncryptionKeyAttestation;
-    NSData *_deviceEncryptionKeyAuthorization;
-    NSData *_transactionKeyCASDAttestation;
-    NSData *_transactionKeyCASDSignature;
-    NSData *_transactionKeyCASDAuthorization;
-    NSData *_progenitorKeyCASDAttestation;
-    NSArray *_transactionKeys;
-    NSData *_serverAttestedProvisioningData;
 }
 
 + (_Bool);
 - (id);
+- (id)7i;
 - (id);
 - (id);
 - (id);
@@ -29,22 +22,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)timerFiringDelayedMaxSeconds;
 - (void)'%@'; ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *authorizationKeyAttestation; // @synthesize authorizationKeyAttestation=_authorizationKeyAttestation;
-@property(readonly, nonatomic) NSArray *deviceEncryptionKeyAttestation; // @synthesize deviceEncryptionKeyAttestation=_deviceEncryptionKeyAttestation;
-@property(readonly, nonatomic) NSData *deviceEncryptionKeyAuthorization; // @synthesize deviceEncryptionKeyAuthorization=_deviceEncryptionKeyAuthorization;
-@property(readonly, nonatomic) NSData *progenitorKeyCASDAttestation; // @synthesize progenitorKeyCASDAttestation=_progenitorKeyCASDAttestation;
-@property(readonly, nonatomic) NSData *serverAttestedProvisioningData; // @synthesize serverAttestedProvisioningData=_serverAttestedProvisioningData;
-@property(readonly, nonatomic) NSData *transactionKeyCASDAttestation; // @synthesize transactionKeyCASDAttestation=_transactionKeyCASDAttestation;
-@property(readonly, nonatomic) NSData *transactionKeyCASDAuthorization; // @synthesize transactionKeyCASDAuthorization=_transactionKeyCASDAuthorization;
-@property(readonly, nonatomic) NSData *transactionKeyCASDSignature; // @synthesize transactionKeyCASDSignature=_transactionKeyCASDSignature;
-@property(readonly, nonatomic) NSArray *transactionKeys; // @synthesize transactionKeys=_transactionKeys;
 
 @end
 

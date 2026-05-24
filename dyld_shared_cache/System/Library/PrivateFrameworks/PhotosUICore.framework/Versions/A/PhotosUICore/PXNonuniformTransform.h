@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-@protocol PXAnonymousCoordinateSpace;
-
 @interface PXNonuniformTransform
 {
     struct CGRect _sourceRect;
-    struct CGRect _targetRect;
-    NSView<PXAnonymousCoordinateSpace> *_coordinateSpace;
-    double _minimumScale;
-    double _maximumScale;
 }
 
 + (id);
@@ -22,7 +15,7 @@
 - (double);
 - (id);
 - (id);
-- (id)cestorThatSupportsExplictlyRemovingAssets;
+- (id)px_fetchAncestorThatSupportsExplictlyRemovingAssets;
 - (void)lÊ;
 
 @end

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol NSUserInterfaceItemSearching;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SCTResults
 {
     NSString *identifier;
-    unsigned long long sequenceNumber;
-    NSMutableArray *values;
-    NSObject<NSUserInterfaceItemSearching> *handler;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)MTCategory;
+- (void)$ȚH
+;
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSObject<NSUserInterfaceItemSearching> *handler; // @synthesize handler;
 @property(retain) NSString *identifier; // @synthesize identifier;
-@property unsigned long long sequenceNumber; // @synthesize sequenceNumber;
-@property(retain) NSMutableArray *values; // @synthesize values;
 
 @end
 

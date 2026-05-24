@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SASSpeechPartialResult : SABaseClientBoundCommand
 {
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSArray *tokens;
 @end
 

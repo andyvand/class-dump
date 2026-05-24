@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UnknownClass (Convenience)
 + (id);
 + (id);
@@ -16,7 +14,5 @@
 
 // Remaining properties
 @property(readonly) _Bool isLocal;
-@property(readonly) NSArray *subnodeNames;
-@property(readonly) NSArray *unreachableSubnodeNames;
 @end
 

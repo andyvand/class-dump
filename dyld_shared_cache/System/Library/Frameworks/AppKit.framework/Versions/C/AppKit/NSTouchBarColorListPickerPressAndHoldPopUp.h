@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSColorList, NSScrubber, NSString, NSView;
-@protocol NSTouchBarColorListPickerContainerView, NSTouchBarColorListPickerPressAndHoldPopUpDelegate;
+@class NSColorList, NSScrubber;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorListPickerPressAndHoldPopUp
 {
     NSScrubber *_scrubber;
-    NSColorList *_colorList;
-    NSView<NSTouchBarColorListPickerContainerView> *_containerView;
-    id <NSTouchBarColorListPickerPressAndHoldPopUpDelegate> _delegate;
-    _Bool _presenting;
-    _Bool _didBeginScrubberInteraction;
-    NSColor *_selectedColor;
-    long long _numberOfLighterColors;
-    long long _numberOfDarkerColors;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ScaleToFit;
+- (void)FitSystem;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,26 +29,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)J\;
+- (void)continueWithoutCredentialForAuthenticationChallenge:(id)arg1;
 - (void)0@ù
 × ;
 - (id)itor"b1"usesFontPanel"b1"rulerVisible"b1"usesRuler"b1"postingTextDidEnd"b1"beganEditing"b1"continuousSpellCheckingEnabled"b1"drawsBackground"b1"selectionAffinity"b2"selectionGranularity"b2"isBlinking"b1"blinkCaretDrawn"b1"resigningFirstResponder"b1"becomingFirstResponder"b1"selectionExtensionAnchor"b2"rulerUpdateDisabled"b1"delegateHandlesKeyBindings"b1"insertionPointDisabled"b1"smartnessEnabled"b1"rulerDisabled"b1"continueKillRing"b1"trackingAttachmentCell"b1"bufferingAltKeypadDigits"b1"allowsUndo"b1"delegateProvidesUndoManager"b1};
-- (void)en;
+- (void)_prevalidatePasteboardVerificationToken;
 
 // Remaining properties
 @property(retain) NSColorList *colorList; // @synthesize colorList=_colorList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <NSTouchBarColorListPickerPressAndHoldPopUpDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long numberOfDarkerColors; // @synthesize numberOfDarkerColors=_numberOfDarkerColors;
-@property long long numberOfLighterColors; // @synthesize numberOfLighterColors=_numberOfLighterColors;
-@property(copy) NSColor *selectedColor; // @synthesize selectedColor=_selectedColor;
-@property(readonly) Class superclass;
 
 @end
 

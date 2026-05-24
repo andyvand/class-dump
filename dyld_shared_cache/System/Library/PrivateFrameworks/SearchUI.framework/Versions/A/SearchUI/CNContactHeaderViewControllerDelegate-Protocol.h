@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContactHeaderViewController, NSString;
+
 @protocol CNContactHeaderViewControllerDelegate
+
+@optional
+- (void)dateWithTimeIntervalSinceReferenceDate:(CNContactHeaderViewController *)arg1;
+- (void)dataWithPropertyList:(CNContactHeaderViewController *)arg1 format:(NSString *)arg2 options:(_Bool)arg3 error: /* Error: Ran out of types for this method. */;
 @end
 

@@ -11,21 +11,20 @@
 @interface NSNavBannerView : NSView
 {
     NSBannerView *_bannerView;
-    long long _bannerType;
 }
 
 - (void);
-- (long long);
-- (id);
+- (long long)_onqueue_didReceiveProgressUpdateWithTotalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)vate.cfnetwork.har-capture-amp;
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)P;
+- (id)ALPN protocol in list. Expected array with a string;
 - (struct CGSize);
 - (void)Áê/°!Dùqß31Â0@ù
 × ;
-- (id)TileID:(struct CGRect)arg1 coverTileID:coveredWindowTileFrame:parentSpaceID:ignoreEvents:screen:joinTileID: /* Error: Ran out of types for this method. */;
-- (void)lass;
+- (id)initWithActiveTileID:(struct CGRect)arg1 coverTileID:coveredWindowTileFrame:parentSpaceID:ignoreEvents:screen:joinTileID: /* Error: Ran out of types for this method. */;
+- (void)NSTouchBarSearchMagGlass;
 
 // Remaining properties
 @property long long bannerType;

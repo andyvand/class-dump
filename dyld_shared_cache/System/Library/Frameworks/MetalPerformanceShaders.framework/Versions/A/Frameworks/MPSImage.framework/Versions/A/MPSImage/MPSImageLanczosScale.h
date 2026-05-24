@@ -25,10 +25,10 @@
 
 + (const struct MPSLibraryInfo *);
 - (void);
-- (id);
+- (id)qk;
 - (struct MPSRegion);
 - (id);
-- (void);
+- (void)initWithDisplayName:(id)arg1 handles:handleIdentifier: /* Error: Ran out of types for this method. */;
 - (id)´°°?¢ìÉcÕ?R;9W{?;
 
 @end

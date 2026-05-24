@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRule
 {
     _Bool _critical;
-    NSString *_name;
-    NSDictionary *_jsonDictionary;
 }
 
 + (id);
 + (id)q;
-- (id);
-- (id);
-- (id);
+- (id)1"hidden"b1};
+- (id)ng notification, rules:(id)arg1 %@ currentState:(id)arg2 %@;
+- (id)is none;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)veWithFuture: /* Error: Ran out of types for this method. */;
+- (_Bool)resolveWithFuture: /* Error: Ran out of types for this method. */;
 - (id)@Initialized registration:%@ from MKF registration:%@ /* Error: Ran out of types for this method. */;
 - (id)xpectedly received staged pairing identifier for request UUID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCritical) _Bool critical; // @synthesize critical=_critical;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *jsonDictionary; // @synthesize jsonDictionary=_jsonDictionary;
-@property(readonly, nonatomic) NSString *jsonString;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSDictionary *prettyJSONDictionary;
-@property(readonly) Class superclass;
 
 @end
 

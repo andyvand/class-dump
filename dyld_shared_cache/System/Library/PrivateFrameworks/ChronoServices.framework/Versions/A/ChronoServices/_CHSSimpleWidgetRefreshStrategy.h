@@ -9,8 +9,6 @@
 @interface _CHSSimpleWidgetRefreshStrategy
 {
     NSString *_rateLimitIdentifier;
-    _Bool _isDefaultStrategy;
-    _Bool _isDisabledStrategy;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id))N?;
 - (id);
 - (_Bool);
 - (id);
@@ -30,17 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isDefaultStrategy) _Bool isDefaultStrategy; // @synthesize isDefaultStrategy=_isDefaultStrategy;
-@property(readonly, nonatomic, getter=isDisabledStrategy) _Bool isDisabledStrategy; // @synthesize isDisabledStrategy=_isDisabledStrategy;
-@property(readonly, copy, nonatomic) NSString *rateLimitIdentifier;
-@property(readonly, nonatomic, getter=isRateLimited) _Bool rateLimited;
-@property(readonly) Class superclass;
 
 @end
 

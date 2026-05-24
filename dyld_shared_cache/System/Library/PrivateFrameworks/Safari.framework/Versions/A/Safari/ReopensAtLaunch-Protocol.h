@@ -5,5 +5,6 @@
 //
 
 @protocol ReopensAtLaunch
++ (void)$;
 @end
 

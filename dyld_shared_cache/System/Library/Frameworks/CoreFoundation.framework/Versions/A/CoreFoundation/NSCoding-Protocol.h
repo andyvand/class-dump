@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)2p2p2p;
+- (void)s name;
 @end
 

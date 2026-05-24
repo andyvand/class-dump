@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (double);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -24,7 +24,7 @@
 + (id);
 + (struct CGImage *);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

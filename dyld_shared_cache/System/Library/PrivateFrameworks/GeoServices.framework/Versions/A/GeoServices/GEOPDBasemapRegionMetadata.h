@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBasemapRegionMetadata
 {
     PBUnknownFields *_unknownFields;
-    NSString *_buildUnitAreaId;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)@?<v@?@"NSString"I@"NSDate"@"NSError">16;
-- (id)vailableChargerIds;
+- (id)_availableChargerIds;
 - (id)0RD¶³(RX¶³DRl¶³\R¶³ä¥R¶³Ì¦R¤¶³´§R´¶³©RÄ¶³Ø©Rä¶³¨ªR·³«R·³¬R0·³®R\·³°®Rp·³d¯R·³L±R´·³ô±RÈ·³¨²Rà·³d³Rø·³ÔµR¸³ø·R(¸³Ä¸R@¸³¹RX¸³\ºRp¸³l»R¸³X½R´¸³;
 - (void)P;
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SCNOrderedDictionary
 {
     NSMutableArray *_keys;
-    NSMutableDictionary *_keyValues;
 }
 
 - (void);
@@ -21,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void)$;
 - (void);
-- (void);
+- (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)h";
 - (void);
 - (unsigned long long)}dBBB^v}16;
 - (id)pler2D authoringColor;

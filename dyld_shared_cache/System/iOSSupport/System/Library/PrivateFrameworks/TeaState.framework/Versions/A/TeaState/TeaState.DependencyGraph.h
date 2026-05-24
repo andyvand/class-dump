@@ -8,15 +8,6 @@
 {
     id rootScope;
     id graph;
-    id scopeVertices;
-    id scopeParents;
-    id scopeTags;
-    id commandActions;
-    id eventSubscriptions;
-    id rulesPendingUpdate;
-    id currentState;
-    id graphLock;
-    id updateSignalHandler;
 }
 
 @end

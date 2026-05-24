@@ -6,15 +6,11 @@
 
 #import <Timeline/TLTimelineOperation.h>
 
-@class NSArray, NSDate, NSError;
+@class NSArray, NSDate;
 
 @interface TLTimelineExtendOperation : TLTimelineOperation
 {
     NSDate *_afterDate;
-    double _timeout;
-    unsigned long long _limit;
-    NSArray *_timelineEntries;
-    NSError *_extendError;
 }
 
 + (unsigned long long);
@@ -26,16 +22,12 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setCalendar: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *afterDate; // @synthesize afterDate=_afterDate;
-@property(retain) NSError *extendError; // @synthesize extendError=_extendError;
-@property(readonly, nonatomic) unsigned long long limit; // @synthesize limit=_limit;
 @property(retain) NSArray *timelineEntries; // @synthesize timelineEntries=_timelineEntries;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

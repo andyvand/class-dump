@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *contentsLayer; // @synthesize contentsLayer=_contentsLayer;
-@property struct CGColor *tintColor;
 
 @end
 

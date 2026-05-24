@@ -11,13 +11,9 @@
 @interface MPSMatrixSolveCholesky : MPSMatrixBinaryKernel
 {
     MPSMatrixSolveTriangular *_trsmT;
-    MPSMatrixSolveTriangular *_trsmN;
-    _Bool _upper;
-    unsigned long long _order;
-    unsigned long long _numberOfRightHandSides;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -25,11 +21,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long numberOfRightHandSides; // @synthesize numberOfRightHandSides=_numberOfRightHandSides;
-@property(nonatomic) unsigned long long order; // @synthesize order=_order;
 @property(readonly, nonatomic) _Bool upper; // @synthesize upper=_upper;
 
 @end

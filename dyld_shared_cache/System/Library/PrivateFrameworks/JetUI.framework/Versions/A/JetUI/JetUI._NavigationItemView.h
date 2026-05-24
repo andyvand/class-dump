@@ -7,27 +7,18 @@
 @interface JetUI._NavigationItemView
 {
     id backgroundView;
-    id shadowView;
-    id backButton;
-    id titleLabel;
-    id leadingView;
-    id trailingView;
-    id representedItem;
-    id standardAppearance;
-    id canNavigateBack;
 }
 
 - (void);
-- (id);
+- (id)_titleImage;
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)`;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize fittingSize;
 @property(nonatomic, readonly) _Bool flipped;
 
 @end

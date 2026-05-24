@@ -6,49 +6,32 @@
 
 #import <IMAP/IMAPNetworkTaskOperation.h>
 
-@class NSIndexSet, NSMutableArray, NSMutableIndexSet, NSString;
+@class NSMutableArray;
 @protocol IMAPSyncUIDsFlagsAndLabelsOperationDelegate;
 
 @interface IMAPSyncUIDsFlagsAndLabelsOperation : IMAPNetworkTaskOperation
 {
     NSMutableArray *_fetchResponses;
-    NSMutableIndexSet *_vanishedUIDs;
-    _Bool _includeLabels;
-    unsigned int _highestKnownUID;
-    NSIndexSet *_messageNumbers;
-    unsigned long long _changedSince;
-    id <IMAPSyncUIDsFlagsAndLabelsOperationDelegate> _delegate;
 }
 
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)e;
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)gXw;
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long changedSince; // @synthesize changedSince=_changedSince;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <IMAPSyncUIDsFlagsAndLabelsOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int highestKnownUID; // @synthesize highestKnownUID=_highestKnownUID;
-@property(readonly, nonatomic) _Bool includeLabels; // @synthesize includeLabels=_includeLabels;
-@property(readonly, copy, nonatomic) NSIndexSet *messageNumbers; // @synthesize messageNumbers=_messageNumbers;
-@property(readonly) Class superclass;
 
 @end
 

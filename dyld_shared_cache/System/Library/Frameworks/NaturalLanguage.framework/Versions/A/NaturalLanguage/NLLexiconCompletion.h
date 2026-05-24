@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface NLLexiconCompletion
 {
     unsigned int _tokenID;
-    double _score;
 }
 
 - (id);
 - (id);
-- (double);
+- (double)documentationLanguage;
 - (unsigned int);
 
 @end

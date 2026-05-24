@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)"HMDNetworkRouterAccessViolationControlOperation",&,N,V_operation;
-- (id);
+- (id)L1 stabilization for asset %{public}@:(unsigned long long)arg1 %{public}@;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)meBecameQualifiedForAdaptiveTemperatureAutomations;
+- (_Bool)h;
+- (id)handleHomeBecameQualifiedForAdaptiveTemperatureAutomations;
 - (unsigned long long)×
 w&yµÑ;
 

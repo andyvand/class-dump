@@ -7,11 +7,13 @@
 @class NSString;
 
 @protocol MPMutableRadioIdentifiers
+- (NSString *);
+- (void);
+- (void)atNoForceRowSecurity;
+- (NSString *)oidList;
+- (long long)ULL;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *stationEventID;
-@property(copy, nonatomic) NSString *stationHash;
-@property(nonatomic) long long stationID;
 @property(copy, nonatomic) NSString *stationStringID;
 @end
 

@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, geo_isolater;
+@class geo_isolater;
 
 @interface GEOResourceManifestUpdateAssertionRegistry
 {
     geo_isolater *_isolation;
-    NSMutableArray *_assertions;
-    unsigned long long _stateCaptureHandle;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)opSectionSearchHome;
+- (void)shouldRenderAsTopSectionSearchHome;
 - (void)·Íu3P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

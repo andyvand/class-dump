@@ -6,24 +6,17 @@
 
 #import <PhotosUICore/PXStoryDisplayAssetResourcePreloadingOperation.h>
 
-@class NSString, PXVideoContentProvider, PXVideoSessionManager;
-
 @interface PXStoryVideoAssetResourcePreloadingOperation : PXStoryDisplayAssetResourcePreloadingOperation
 {
     _Bool _isExporting;
-    _Bool _isInline;
-    _Bool _limitVideoDownloadQuality;
-    PXVideoSessionManager *_videoSessionManager;
-    PXVideoContentProvider *_videoContentProvider;
-    CDStruct_e83c9415 _downloadTimeRange;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
-- (_Bool);
+- (_Bool)4#;
 - (id);
 - (id);
 - (CDStruct_e83c9415);
@@ -31,22 +24,10 @@
 - (void);
 - (void)ing spec on %@;
 - (id);
-- (void)ype;
+- (void)promptEntryViewType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CDStruct_e83c9415 downloadTimeRange; // @synthesize downloadTimeRange=_downloadTimeRange;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isExporting; // @synthesize isExporting=_isExporting;
-@property(readonly, nonatomic) _Bool isInline; // @synthesize isInline=_isInline;
-@property(readonly, nonatomic) _Bool limitVideoDownloadQuality; // @synthesize limitVideoDownloadQuality=_limitVideoDownloadQuality;
-@property(readonly) Class superclass;
-@property(retain) PXVideoContentProvider *videoContentProvider; // @synthesize videoContentProvider=_videoContentProvider;
-@property(readonly, nonatomic) PXVideoSessionManager *videoSessionManager; // @synthesize videoSessionManager=_videoSessionManager;
 
 @end
 

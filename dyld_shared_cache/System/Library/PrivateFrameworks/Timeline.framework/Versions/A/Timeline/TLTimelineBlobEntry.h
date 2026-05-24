@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData, NSDate;
 
 @interface TLTimelineBlobEntry
 {
     NSDate *_tl_entryDate;
-    NSData *_blob;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
+- (id)';
 - (id);
+- (id)rnal resource;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)rcedFeedbackAllowList>";
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -28,14 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *blob; // @synthesize blob=_blob;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, setter=tl_setEntryDate:) NSDate *tl_entryDate; // @synthesize tl_entryDate=_tl_entryDate;
 
 @end
 

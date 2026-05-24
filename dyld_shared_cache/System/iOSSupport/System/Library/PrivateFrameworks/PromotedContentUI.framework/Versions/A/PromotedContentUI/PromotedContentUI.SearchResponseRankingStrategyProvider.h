@@ -7,24 +7,6 @@
 @interface PromotedContentUI.SearchResponseRankingStrategyProvider
 {
     id bundleID;
-    id adCandidateIDGenerator;
-    id appStore;
-    id birthYearSource;
-    id birthYearSourceAnalytics;
-    id clock;
-    id featureFlag;
-    id instanceIDGenerator;
-    id policyInstrumentation;
-    id storefrontIDSource;
-    id systemInfoProvider;
-    id idAccount;
-    id coreSettings;
-    id locationManager;
-    id metricHelper;
-    id executionEnvironment;
-    id routingInfoProvider;
-    id frequencyCapProvider;
-    id timer;
 }
 
 @end

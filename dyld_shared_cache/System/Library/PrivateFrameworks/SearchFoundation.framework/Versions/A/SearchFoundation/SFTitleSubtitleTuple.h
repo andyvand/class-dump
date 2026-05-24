@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFTitleSubtitleTuple
 {
     NSString *_title;
-    NSString *_subtitle;
 }
 
 + (_Bool);
-- (id);
+- (id):(id)arg1 8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLSessionStreamTask"32;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)preheatForAlert:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)@24@32@40@48B56;
+- (id)parses from query:%@ /* Error: Ran out of types for this method. */;
+- (id)ate called on non-Date PHMemoryFeature, (got type %@, %@ of class %@);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)tQueryRecency;
+- (void)hasResultQueryRecency;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

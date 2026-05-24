@@ -7,7 +7,6 @@
 @interface IDSOffGridDeliveryHandlesDonationOptions
 {
     _Bool _isInitialDonation;
-    long long _priority;
 }
 
 + (_Bool);
@@ -16,12 +15,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)heckDurationMs;
 - (void);
-- (long long)on;
+- (long long)expiration;
 
 // Remaining properties
-@property(nonatomic) _Bool isInitialDonation; // @synthesize isInitialDonation=_isInitialDonation;
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end

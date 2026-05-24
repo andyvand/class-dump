@@ -8,9 +8,6 @@
 {
     id selection;
     id viewModel;
-    id forceShowNotNowButton;
-    id hideBackButton;
-    id hasExplicitlyPreselectedProvider;
 }
 
 - (void);

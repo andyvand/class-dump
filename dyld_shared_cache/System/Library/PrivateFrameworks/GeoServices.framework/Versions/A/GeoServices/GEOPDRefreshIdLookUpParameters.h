@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRefreshIdLookUpParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapsIds;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id)tionElements"b1"read_artworkOverride"b1"read_chargingInfo"b1"read_evInfo"b1"read_exitNumber"b1"read_maneuverNames"b1"read_shield"b1"read_signposts"b1"wrote_anyField"b1};
-- (id)Parameters:error: /* Error: Ran out of types for this method. */;
+- (id)_modern_applyToAutocompleteParameters:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

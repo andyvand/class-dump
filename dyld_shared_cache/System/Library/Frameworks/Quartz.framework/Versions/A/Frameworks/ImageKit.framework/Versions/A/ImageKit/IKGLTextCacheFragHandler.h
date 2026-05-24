@@ -9,9 +9,6 @@
 @interface IKGLTextCacheFragHandler
 {
     IKCacheFragHandler *_fragHandler;
-    int _maxLineHeight;
-    struct CGSize _currentSize;
-    struct CGRect _usedSpace;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (struct CGRect);

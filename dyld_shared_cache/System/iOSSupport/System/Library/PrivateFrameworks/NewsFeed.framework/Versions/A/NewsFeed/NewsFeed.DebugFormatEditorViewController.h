@@ -7,36 +7,6 @@
 @interface NewsFeed.DebugFormatEditorViewController
 {
     id delegate;
-    id toolbarBackgroundView;
-    id $__lazy_storage_$_navigationItemManager;
-    id editor;
-    id styler;
-    id formatManager;
-    id canvasViewController;
-    id scrollView;
-    id rulerView;
-    id $__lazy_storage_$_overlayView;
-    id $__lazy_storage_$_contentView;
-    id snapshotCanvasView;
-    id backgroundView;
-    id statusView;
-    id $__lazy_storage_$_zoomBarButtonItem;
-    id $__lazy_storage_$_canvasInteractionBarButtonItem;
-    id lastLayoutBounds;
-    id lastSafeAreaInsets;
-    id lastRenderKey;
-    id $__lazy_storage_$_editorPathView;
-    id editorToolbarItems;
-    id debuggerToolbarItems;
-    id $__lazy_storage_$_debuggerRunBarButtonItem;
-    id $__lazy_storage_$_debuggerNextBarButtonItem;
-    id $__lazy_storage_$_debuggerStepInBarButtonItem;
-    id $__lazy_storage_$_debuggerStepOverBarButtonItem;
-    id $__lazy_storage_$_debuggerStepOutBarButtonItem;
-    id $__lazy_storage_$_snapshotBarButtonItem;
-    id $__lazy_storage_$_workspacesBarButtonItem;
-    id $__lazy_storage_$_devicesBarButtonItem;
-    id sourceViewController;
 }
 
 - (void);
@@ -62,7 +32,7 @@
 - (void);
 - (void);
 - (void)ÿÿÿÿP;
-- (void)Available;
+- (void)notAvailable;
 - (void);
 - (void);
 - (id)5Ýõ;

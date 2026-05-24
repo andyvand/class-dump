@@ -11,11 +11,11 @@
     id <PDSKVStore> _kvStore;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)c}@:(id)arg1 Could not remove pending asset collections for album with nil GUID.;
+- (void)ve pending asset collection with nil GUID.;
+- (void)or album with nil GUID.;
+- (void)Could not add pending asset collection changes for album with nil GUID.;
+- (void)ID.;
 - (id);
 - (void);
 - (void);

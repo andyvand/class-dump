@@ -9,17 +9,14 @@
 @interface UIKit._UISurfaceLightEffectEntry__priv_DE00D3934C8DD6B37DA91C2A67999855 : _UIVisualEffectViewEntry
 {
     id configuration;
-    id tag;
-    id surfaces;
-    id _cachedLightBoxView;
 }
 
 - (_Bool);
 - (id);
 - (void)1^°1Â0@ù
 × ;
-- (void)le:(id)arg1 image: /* Error: Ran out of types for this method. */;
-- (void)ationForReorderingRow;
+- (void)initWithStyle:(id)arg1 image: /* Error: Ran out of types for this method. */;
+- (void)_setupAnimationForReorderingRow;
 - (void)Ù ^;
 - (void)8ßÿôÊøl;
 

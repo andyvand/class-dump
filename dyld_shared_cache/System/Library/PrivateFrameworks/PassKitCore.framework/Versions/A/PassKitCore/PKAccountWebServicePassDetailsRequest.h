@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKPaymentDeviceMetadata;
+@class NSString;
 
 @interface PKAccountWebServicePassDetailsRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    NSString *_sharingInstanceIdentifier;
 }
 
 - (id);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (id)[%s] Car key source UI provider:Failed to send invitation:%s /* Error: Ran out of types for this method. */;
-- (void)BY_TIMEOUT_SENDING_TITLE;
+- (void)NEARBY_TIMEOUT_SENDING_TITLE;
 - (void);
 - (id)CÐÿ.8kF;
 - (void)Ñÿ¦çj:(id)arg1 ?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
 
 @end
 

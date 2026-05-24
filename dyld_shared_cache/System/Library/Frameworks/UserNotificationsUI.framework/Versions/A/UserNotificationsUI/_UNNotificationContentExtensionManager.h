@@ -9,13 +9,12 @@
 @interface _UNNotificationContentExtensionManager
 {
     _UNNotificationContentExtensionCache *_extensionsCache;
-    id _extensionsDiscoveryToken;
 }
 
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)S�;
 - (id);
 - (id);
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _UNNotificationContentExtensionCache *extensionsCache; // @synthesize extensionsCache=_extensionsCache;
-@property(retain, nonatomic) id extensionsDiscoveryToken; // @synthesize extensionsDiscoveryToken=_extensionsDiscoveryToken;
 
 @end
 

@@ -6,25 +6,16 @@
 
 #import <CoreGraphics/CPChunk.h>
 
-@class CPParagraph, CPTextLine;
-@protocol CPGraphicUser;
-
 __attribute__((visibility("hidden")))
 @interface CPGraphicObject : CPChunk
 {
     unsigned int clipIndex;
-    struct CGRect renderedBounds;
-    _Bool isInZoneBorder;
-    int zoneGraphicType;
-    CPTextLine *anchoringTextLine;
-    CPParagraph *anchoringParagraph;
-    CPChunk<CPGraphicUser> *user;
 }
 
 - (void);
+- (void)_;
 - (void);
-- (void);
-- (void);
+- (void)~ө;
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -36,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned short);
 - (int);
-- (void);
+- (void)P;
 - (id);
 - (id)m&o&o''/''/Ñ'V'V/ã'v'~ ^'¡'¡ ..7á..6 ..7..8..7..6	..q..8..&..²....«..<..8Â..6..8á..Ã..á..<. . ½.¡.¢9a.£.£9.¤.¤<&.¦.¦7M.¨.¨9¼.©.©5¡.ª.ª6«.«.«:.¬.¬Ô.­.­:9.®.®6b.±.±:.².²:.³.³7m.·.·6þ.¹.¹7.¼.¼5³.½.½5N.¾.À7u.Á.Á.Â.Â;
 .Ã.Ã6..Ä.Ä
@@ -47,7 +38,6 @@ j.í.íÃ.ï.ï}.ò.òO/ /* Error: Ran out of types for this method. */;
 - (void)n;
 
 // Remaining properties
-@property(retain, nonatomic) CPParagraph *anchoringParagraph; // @synthesize anchoringParagraph;
 @property(nonatomic) unsigned int clipIndex; // @synthesize clipIndex;
 
 @end

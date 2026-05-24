@@ -9,14 +9,13 @@
 @interface PKDisplayLinkObserver
 {
     CADisplayLink *_displayLink;
-    CDUnknownBlockType _handler;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ntext"16;
 - (void)qß1Â0@ù
 × ;
 

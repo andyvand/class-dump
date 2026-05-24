@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
 @protocol LACBackoffCounter;
 
 @protocol LACAuthenticationUIProxy
+- (_Bool)- Layer uninitialized;
+- (void)able = 0x%.6X%.8X);
+- (NSDictionary *)r not enabled in config;
+- (id <LACBackoffCounter>)old_BW_Slider)]-[_brightness_BW_Right]-(>=8@200)-|;
 
 // Remaining properties
 @property(readonly, nonatomic) id <LACBackoffCounter> backoffCounter;

@@ -6,28 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSTimer, UILabel, _UIBackdropView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIWebPDFLabelView : UIView
 {
     UILabel *_label;
-    _UIBackdropView *_backdropView;
-    NSTimer *_timer;
-    unsigned long long currentPageIndex;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)Time:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (id)rmer;
+- (void)mismatch;
+- (id)___swiftTransformer;
 - (void);
 - (void)orStyleAndScene(_UITabBarItemTitleStyle, UIWindowScene *__strong _Nonnull);
 - (void)<"&ÿ_¨Ô;

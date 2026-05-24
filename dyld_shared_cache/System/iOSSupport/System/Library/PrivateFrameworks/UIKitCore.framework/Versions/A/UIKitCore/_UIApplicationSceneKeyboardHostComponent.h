@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIApplicationSceneKeyboardHostComponent
 {
     unsigned int _keyboardSuppressionAssertionCount;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)"32@"NSString"40B48;
+- (_Bool)ing"48B56;
+- (void)messagePartTranslation;
+- (void)lastUsedServiceName;
 - (void);
 - (void)
 × ;
 - (void)roller=%@; window=%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool suppressKeyboardFocusRequests;
 
 @end

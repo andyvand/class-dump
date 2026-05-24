@@ -4,43 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, NSURL, NSUUID, QLRequestSession;
-
 __attribute__((visibility("hidden")))
 @interface QLRequest
 {
     struct CGContext *_context;
-    struct __QLGenerator *_generator;
-    _Bool _cancelled;
-    _Bool _generatorComputed;
-    _Bool _fallbackAsDark;
-    _Bool _disableConcurrency;
-    _Bool _useResolvedURLInGenerator;
-    _Bool _didReply;
-    _Bool _ubiquitousComputed;
-    _Bool _fileIsDataLess;
-    _Bool _fileMightBeUbiquitous;
-    int _discardError;
-    unsigned int _replyPort;
-    CDUnknownBlockType _generationWillStartBlock;
-    CDUnknownBlockType _replyCreatedWithBitmapBlock;
-    QLRequestSession *_session;
-    NSUUID *_uuid;
-    id _mangledID;
-    NSString *_sandboxToken;
-    NSDictionary *_options;
-    NSMutableDictionary *_properties;
-    NSString *_contentTypeUTI;
-    NSString *_appearanceName;
-    CDUnknownFunctionPointerType _contextMemoryDiscard;
-    const void *_documentObject;
-    unsigned long long _weight;
-    struct __QLRequest *_requestRef;
-    NSURL *_requestedURL;
-    NSURL *_realURL;
-    NSURL *_resolvedURL;
-    CDStruct_4c969caf _token;
-    CDStruct_b3b3fc87 _callbacks;
 }
 
 - (_Bool);
@@ -78,16 +45,16 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (_Bool)h7;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (const void *);
 - (int);
 - (_Bool);
 - (_Bool);
 - (CDUnknownFunctionPointerType);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (struct __CFBundle *);
@@ -113,61 +80,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
+- (void);
+- (void);
+- (id)1@�_;
+- (id);
+- (unsigned long long)^;
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (void)PTransportStreamSendBackingProviderUpdateAcquiredBBuf(APTransportStreamSendBackingProviderRef, CMBlockBufferRef);
+- (id)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (CDStruct_b3b3fc87)quarantine status for %@ (QTN_MATCH_UNAVAILABLE);
+- (CDStruct_70d275a4)quarantine status for %@ (QTN_MATCH_UNAVAILABLE);
 
 // Remaining properties
-@property(retain) NSString *appearanceName; // @synthesize appearanceName=_appearanceName;
-@property CDStruct_b3b3fc87 callbacks; // @synthesize callbacks=_callbacks;
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain) NSString *contentTypeUTI; // @synthesize contentTypeUTI=_contentTypeUTI;
-@property(nonatomic) struct CGContext *context; // @synthesize context=_context;
-@property CDUnknownFunctionPointerType contextMemoryDiscard; // @synthesize contextMemoryDiscard=_contextMemoryDiscard;
-@property _Bool didReply; // @synthesize didReply=_didReply;
-@property _Bool disableConcurrency; // @synthesize disableConcurrency=_disableConcurrency;
-@property int discardError; // @synthesize discardError=_discardError;
-@property const void *documentObject; // @synthesize documentObject=_documentObject;
-@property _Bool fallbackAsDark; // @synthesize fallbackAsDark=_fallbackAsDark;
-@property _Bool fileIsDataLess; // @synthesize fileIsDataLess=_fileIsDataLess;
-@property _Bool fileMightBeUbiquitous; // @synthesize fileMightBeUbiquitous=_fileMightBeUbiquitous;
-@property(copy, nonatomic) CDUnknownBlockType generationWillStartBlock; // @synthesize generationWillStartBlock=_generationWillStartBlock;
-@property(nonatomic) struct __QLGenerator *generator; // @synthesize generator=_generator;
-@property(readonly) int generatorArchitectureForSatellite;
-@property(readonly) struct __CFBundle *generatorBundle;
-@property _Bool generatorComputed; // @synthesize generatorComputed=_generatorComputed;
-@property(readonly) _Bool generatorShouldRunInSatellite;
-@property(readonly) _Bool hasGeneratorFunction;
-@property(readonly) _Bool isPreviewRequest;
-@property(readonly) _Bool isThumbnailRequest;
-@property(retain) id mangledID; // @synthesize mangledID=_mangledID;
-@property(readonly) _Bool needsAccessToExternalResources;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSMutableDictionary *properties; // @synthesize properties=_properties;
-@property(retain) NSURL *realURL; // @synthesize realURL=_realURL;
-@property(copy, nonatomic) CDUnknownBlockType replyCreatedWithBitmapBlock; // @synthesize replyCreatedWithBitmapBlock=_replyCreatedWithBitmapBlock;
 @property unsigned int replyPort; // @synthesize replyPort=_replyPort;
-@property(readonly) struct __QLRequest *requestRef; // @synthesize requestRef=_requestRef;
-@property(retain) NSURL *requestedURL; // @synthesize requestedURL=_requestedURL;
-@property(retain) NSURL *resolvedURL; // @synthesize resolvedURL=_resolvedURL;
-@property(retain) NSString *sandboxToken; // @synthesize sandboxToken=_sandboxToken;
-@property(retain) QLRequestSession *session; // @synthesize session=_session;
-@property CDStruct_4c969caf token; // @synthesize token=_token;
-@property _Bool ubiquitousComputed; // @synthesize ubiquitousComputed=_ubiquitousComputed;
-@property(readonly) NSURL *url;
-@property _Bool useResolvedURLInGenerator; // @synthesize useResolvedURLInGenerator=_useResolvedURLInGenerator;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property unsigned long long weight; // @synthesize weight=_weight;
 
 @end
 

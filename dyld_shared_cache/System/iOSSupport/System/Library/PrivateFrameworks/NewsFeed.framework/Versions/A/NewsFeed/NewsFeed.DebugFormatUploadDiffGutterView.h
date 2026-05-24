@@ -7,14 +7,10 @@
 @interface NewsFeed.DebugFormatUploadDiffGutterView
 {
     id contentSize;
-    id contentInsets;
-    id numberOfLines;
-    id changedHunkRanges;
-    id source;
 }
 
 - (id);
-- (void);
+- (void)l writeData:offset:queue:handler:] /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (void);

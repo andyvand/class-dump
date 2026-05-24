@@ -6,14 +6,11 @@
 
 #import <AppleMediaServices/AMSDelegateAuthenticateRequest.h>
 
-@class AMSPurchaseResult, NSString;
+@class NSString;
 
 @interface AMSDelegatePurchaseRequest : AMSDelegateAuthenticateRequest
 {
     _Bool _requiresDelegateToken;
-    NSString *_deviceName;
-    AMSPurchaseResult *_purchaseResult;
-    NSString *_cacheKey;
 }
 
 + (_Bool);
@@ -37,10 +34,7 @@ HZ}Æ#ô>GÉä5µÐôê<¶¤8Ý
 - (id);
 
 // Remaining properties
-@property(retain) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;
 @property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(retain) AMSPurchaseResult *purchaseResult; // @synthesize purchaseResult=_purchaseResult;
-@property _Bool requiresDelegateToken; // @synthesize requiresDelegateToken=_requiresDelegateToken;
 
 @end
 

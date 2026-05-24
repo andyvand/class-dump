@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _NSTreeNodeObservingTracker
 {
     id _treeNodeObserver;
-    NSArray *_availableModelAndProxyKeys;
-    NSCountedSet *_treeNodeObservingTracking;
-    id _observedTreeNodesData;
-    struct __treeNodeObservingTrackerFlags {
-        unsigned int _multipleObservedModelObjects:1;
-        unsigned int _registersObservingWithKVOPriorKey:1;
-        unsigned int _reservedModelObservingTrackerFlags:30;
-    } _treeNodeObservingTrackerFlags;
-    NSMutableDictionary *_observedModelKeyPathInfoTable;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)_AMFDRDecodeInstPropertyMatching;
+- (void)Unsupported tag found in manifest '%c%c%c%c';
+- (void)zu;
 - (id);
 - (void);
 - (void);

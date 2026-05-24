@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface SSTokenMatch
 {
     unsigned long long _type;
-    NSMutableArray *_indexes;
 }
 
-- (_Bool);
+- (_Bool)36@0:8@16@24B32 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (id);
+- (id)il;
 - (void);
-- (void);
+- (void)initWithSearchString:currentTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *indexes; // @synthesize indexes=_indexes;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

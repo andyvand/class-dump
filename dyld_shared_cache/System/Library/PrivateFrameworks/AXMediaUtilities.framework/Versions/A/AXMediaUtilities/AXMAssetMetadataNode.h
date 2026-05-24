@@ -10,10 +10,10 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)encodeObject:forKey: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
-- (void);
+- (void)z;
 
 @end
 

@@ -9,28 +9,24 @@
 @interface PKFPANCardCanSaveResult
 {
     unsigned long long _savableFields;
-    unsigned long long _updatableFields;
-    PKAutoFillCardDescriptor *_matchedCard;
 }
 
 + (id);
 + (_Bool)î%°1Â0@ù
 × ;
 - (unsigned long long);
-- (id);
+- (id).Η;
 - (id);
 - (unsigned long long);
+- (void));
+- (id);
+- (id)@;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)ckAutoFill;
+- (void)FallbackAutoFill;
 
 // Remaining properties
 @property(retain, nonatomic) PKAutoFillCardDescriptor *matchedCard; // @synthesize matchedCard=_matchedCard;
-@property(readonly, nonatomic) unsigned long long savableFields; // @synthesize savableFields=_savableFields;
-@property(readonly, nonatomic) unsigned long long updatableFields; // @synthesize updatableFields=_updatableFields;
 
 @end
 

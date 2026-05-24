@@ -12,21 +12,18 @@
 @interface ICAsyncBlockOperation : ICAsyncOperation
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    CDUnknownBlockType _cancellationHandler;
-    CDUnknownBlockType _startHandler;
 }
 
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)passed in;
 - (void);
-- (void);
+- (void)>;
 - (void);
 - (CDUnknownBlockType);
 - (void)Ä;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancellationHandler;
 @property(readonly, copy, nonatomic) CDUnknownBlockType startHandler; // @synthesize startHandler=_startHandler;
 
 @end

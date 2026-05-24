@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BRServerInfoRecordInfo
 {
     unsigned long long _bounceNo;
-    NSData *_encryptedBasename;
-    NSString *_etag;
-    NSString *_extension;
-    NSString *_recordID;
-    NSData *_recordProtectionInfo;
-    NSString *_zoneName;
-    NSData *_zoneProtectionInfo;
-    struct {
-        unsigned int bounceNo:1;
-    } _has;
 }
 
 - (id);
@@ -32,24 +20,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)C;
+- (id);;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -59,22 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bounceNo; // @synthesize bounceNo=_bounceNo;
-@property(retain, nonatomic) NSData *encryptedBasename; // @synthesize encryptedBasename=_encryptedBasename;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSString *extension; // @synthesize extension=_extension;
-@property(nonatomic) _Bool hasBounceNo;
-@property(readonly, nonatomic) _Bool hasEncryptedBasename;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasExtension;
 @property(readonly, nonatomic) _Bool hasRecordID;
-@property(readonly, nonatomic) _Bool hasRecordProtectionInfo;
-@property(readonly, nonatomic) _Bool hasZoneName;
-@property(readonly, nonatomic) _Bool hasZoneProtectionInfo;
-@property(retain, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) NSData *recordProtectionInfo; // @synthesize recordProtectionInfo=_recordProtectionInfo;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
-@property(retain, nonatomic) NSData *zoneProtectionInfo; // @synthesize zoneProtectionInfo=_zoneProtectionInfo;
 
 @end
 

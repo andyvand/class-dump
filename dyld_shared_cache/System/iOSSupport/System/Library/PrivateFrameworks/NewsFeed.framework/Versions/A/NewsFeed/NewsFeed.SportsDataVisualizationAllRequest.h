@@ -7,9 +7,6 @@
 @interface NewsFeed.SportsDataVisualizationAllRequest
 {
     id content;
-    id includeFeaturedEvents;
-    id affinityTagIds;
-    id traits;
 }
 
 @end

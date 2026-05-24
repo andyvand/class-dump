@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet;
+@class NSData;
 
 @interface CKDFetchZoneChangesRequestOperationResult
 {
     _Bool _hasPendingArchivedRecords;
-    NSData *_resultServerChangeTokenData;
-    NSData *_resultClientChangeTokenData;
-    long long _status;
-    NSSet *_syncObligationZoneIDs;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)	;
+- (void)taSource created for routingContextUUID:(id)arg1 %@
+;
 - (_Bool);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id)esCheckResponse;
+- (id)adopterCapabilitiesCheckResponse;
 - (void)t, but it will not be used.;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPendingArchivedRecords; // @synthesize hasPendingArchivedRecords=_hasPendingArchivedRecords;
-@property(retain, nonatomic) NSData *resultClientChangeTokenData; // @synthesize resultClientChangeTokenData=_resultClientChangeTokenData;
 @property(retain, nonatomic) NSData *resultServerChangeTokenData; // @synthesize resultServerChangeTokenData=_resultServerChangeTokenData;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(retain, nonatomic) NSSet *syncObligationZoneIDs; // @synthesize syncObligationZoneIDs=_syncObligationZoneIDs;
 
 @end
 

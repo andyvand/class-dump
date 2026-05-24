@@ -7,9 +7,10 @@
 @class NSData, _SFPBImage;
 
 @protocol _SFPBImageDerivedColor
+- (void)PlaylistEditing;
+- (NSData *)_rankSortedCollectionSearchResultsFromResults:maxResults:query: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

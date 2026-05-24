@@ -7,6 +7,7 @@
 @interface HomeUtilityServices.TAFVerificationFactor
 {
     id _factor;
+    id;
 }
 
 - (id);

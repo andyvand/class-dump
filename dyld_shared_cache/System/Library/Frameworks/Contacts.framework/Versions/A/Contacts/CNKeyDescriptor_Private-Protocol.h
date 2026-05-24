@@ -7,6 +7,7 @@
 @class CNContactKeyVector;
 
 @protocol CNKeyDescriptor_Private
+- (CNContactKeyVector *)sage.;
 - (CNContactKeyVector *)ration...;
 @end
 

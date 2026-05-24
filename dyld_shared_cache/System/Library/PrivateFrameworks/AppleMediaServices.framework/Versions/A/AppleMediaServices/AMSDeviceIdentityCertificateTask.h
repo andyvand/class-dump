@@ -13,7 +13,6 @@ __attribute__((visibility("hidden")))
 @interface AMSDeviceIdentityCertificateTask : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    NSObject<OS_dispatch_queue> *_requestQueue;
 }
 
 - (id);
@@ -26,7 +25,6 @@ $ø)ûgiàF}>ÉTH7ÊÆuîå»#÷\ Ì'-x3/ÛkÃBb@º6¦è¸2�
 - (id)f;
 
 // Remaining properties
-@property(readonly, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(readonly) NSObject<OS_dispatch_queue> *requestQueue; // @synthesize requestQueue=_requestQueue;
 
 @end

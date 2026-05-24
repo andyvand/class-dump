@@ -6,21 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CAARSchemaCAARRequestReceived : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)bject;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)4˟;
 - (id);
 - (id)diaPlaybackOn"b1"invocationType"b1"isPermanentOffsetEnabled"b1"permanentOffsetFactor"b1};
 - (id);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,21 +6,18 @@
 
 #import <AddressBook/ABCardCollectionRowView.h>
 
-@class CNPostalAddress, NSNumber, NSStackView;
+@class CNPostalAddress, NSNumber;
 
 @interface ABCardCollectionPostalAddressRowView : ABCardCollectionRowView
 {
     CNPostalAddress *_postalAddress;
-    NSStackView *_addressFieldsContainer;
-    _Bool _isEditing;
-    NSNumber *_cachedIntrinsicHeight;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -41,17 +38,14 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)SUCorePersistedStatePolicyFields;
 - (_Bool)1Â0@ù
 × ;
 - (void)á@ð!\Bù1ªð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSStackView *addressFieldsContainer; // @synthesize addressFieldsContainer=_addressFieldsContainer;
 @property(retain, nonatomic) NSNumber *cachedIntrinsicHeight; // @synthesize cachedIntrinsicHeight=_cachedIntrinsicHeight;
-@property(readonly, nonatomic) _Bool isEditing; // @synthesize isEditing=_isEditing;
-@property(retain, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
 
 @end
 

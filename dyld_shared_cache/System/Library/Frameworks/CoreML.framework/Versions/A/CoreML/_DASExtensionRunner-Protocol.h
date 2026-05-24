@@ -5,5 +5,8 @@
 //
 
 @protocol _DASExtensionRunner
+- (_Bool)amdgpu_gfx1010_nsgc;
+- (void)>;
+- (unsigned char)B;
 @end
 

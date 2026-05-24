@@ -6,21 +6,19 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class DAESubscribedCalendarSummary, EKICSPreviewController, NSArray;
+@class DAESubscribedCalendarSummary;
 
 @interface EKCalendarPreviewEventsEditItem : EKCalendarEditItem
 {
     DAESubscribedCalendarSummary *_previewSummary;
-    NSArray *_previewEventViews;
-    EKICSPreviewController *_previewController;
 }
 
-- (id);
+- (id)&s;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)AtIndex: /* Error: Ran out of types for this method. */;
+- (void)objectAtIndex: /* Error: Ran out of types for this method. */;
 
 @end
 

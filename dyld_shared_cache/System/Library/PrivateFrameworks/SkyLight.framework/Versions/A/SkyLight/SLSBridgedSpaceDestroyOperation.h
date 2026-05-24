@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)(%@)) AS COUNT, MIN(%@) AS %@, ;
 - (id);
 - (unsigned long long);
 - (id);

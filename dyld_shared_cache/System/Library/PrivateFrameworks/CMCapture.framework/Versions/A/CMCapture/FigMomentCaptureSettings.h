@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureIrisStillImageSettings, NSString;
+@class FigCaptureIrisStillImageSettings;
 
 @interface FigMomentCaptureSettings
 {
     FigCaptureIrisStillImageSettings *_stillImageSettings;
-    long long _settingsID;
-    NSString *_captureRequestIdentifier;
-    unsigned long long _userInitiatedCaptureTime;
-    int _torchMode;
-    int _flashMode;
-    _Bool _autoRedEyeReductionEnabled;
-    int _digitalFlashMode;
-    int _qualityPrioritization;
-    int _clientQualityPrioritization;
-    int _HDRMode;
-    _Bool _autoOriginalPhotoDeliveryEnabled;
-    _Bool _autoSpatialOverCaptureEnabled;
-    _Bool _autoDeferredProcessingEnabled;
-    unsigned int _rawOutputFormat;
-    unsigned int _outputWidth;
-    unsigned int _outputHeight;
-    _Bool _depthDataDeliveryEnabled;
 }
 
 + (_Bool)$Ð1Â0@ù
@@ -42,10 +25,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
-- (void);
-- (int);
+- (void)tyleMatrix",&,N,VmStyleMatrix;
+- (int);
 - (void);
 - (id);
 - (id);
@@ -58,39 +41,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (int);
-- (id);
+- (id);
 - (id)<;
 - (void)ptureDevice >>>> %s:(int)arg1 Time machine frames metadata invalid:Unexpected number of time machine metadata entries. Got %d. Expected %d /* Error: Ran out of types for this method. */;
 - (int);
 - (void)UUÿTTÿ¤RRÿ¬PPÿ´NNÿ»KKÿÃIIÿÌFFÿÕDDÿÝBBÿæ@Aÿð?@ÿù?Aÿù?Aÿù@Aÿù@Aÿ;
 - (unsigned int)PÐ;
 - (void)Z;
-- (void)ScoringSupported;
+- (void)livePhotoVitalityScoringSupported;
 - (void)gSampleBufferProcessor_ImageControl_Focus.m;
 - (_Bool)edIO:clientAudioClockDeviceUID:preferredIOBufferDuration:audioCaptureConnectionConfigurations:isConfiguredForContinuityCapture:isAudioOnlyRecordingSession:remoteIOOutputFormat:outErr:] /* Error: Ran out of types for this method. */;
 - (unsigned int))opticalCenterDictionary, &staticDistortedOpticalCenter );
 
 // Remaining properties
-@property(nonatomic) int HDRMode; // @synthesize HDRMode=_HDRMode;
-@property(nonatomic, getter=isAutoDeferredProcessingEnabled) _Bool autoDeferredProcessingEnabled; // @synthesize autoDeferredProcessingEnabled=_autoDeferredProcessingEnabled;
-@property(nonatomic, getter=isAutoOriginalPhotoDeliveryEnabled) _Bool autoOriginalPhotoDeliveryEnabled; // @synthesize autoOriginalPhotoDeliveryEnabled=_autoOriginalPhotoDeliveryEnabled;
-@property(nonatomic) _Bool autoRedEyeReductionEnabled; // @synthesize autoRedEyeReductionEnabled=_autoRedEyeReductionEnabled;
-@property(nonatomic, getter=isAutoSpatialOverCaptureEnabled) _Bool autoSpatialOverCaptureEnabled; // @synthesize autoSpatialOverCaptureEnabled=_autoSpatialOverCaptureEnabled;
-@property(readonly, nonatomic) NSString *captureRequestIdentifier;
-@property(nonatomic) int clientQualityPrioritization; // @synthesize clientQualityPrioritization=_clientQualityPrioritization;
-@property(nonatomic) _Bool depthDataDeliveryEnabled; // @synthesize depthDataDeliveryEnabled=_depthDataDeliveryEnabled;
-@property(nonatomic) int digitalFlashMode; // @synthesize digitalFlashMode=_digitalFlashMode;
-@property(nonatomic) int flashMode; // @synthesize flashMode=_flashMode;
-@property(nonatomic) unsigned int outputHeight; // @synthesize outputHeight=_outputHeight;
-@property(nonatomic) unsigned int outputWidth; // @synthesize outputWidth=_outputWidth;
-@property(nonatomic) int qualityPrioritization; // @synthesize qualityPrioritization=_qualityPrioritization;
-@property(nonatomic) unsigned int rawOutputFormat; // @synthesize rawOutputFormat=_rawOutputFormat;
-@property(readonly, nonatomic) long long settingsID;
 @property(readonly, nonatomic) FigCaptureIrisStillImageSettings *stillImageSettings; // @synthesize stillImageSettings=_stillImageSettings;
-@property(nonatomic) int torchMode; // @synthesize torchMode=_torchMode;
-@property(readonly, nonatomic) unsigned long long userInitiatedCaptureTime;
 
 @end
 

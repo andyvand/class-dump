@@ -7,7 +7,6 @@
 @interface _MonitorState
 {
     _Bool _isMonitoring;
-    _Bool _shouldBeMonitoring;
 }
 
 - (void);

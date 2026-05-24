@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKScrollViewAnimationProperties, NSString;
+@class NSString;
 
 @interface CKScrollViewScrollGeometryUpdateReason
 {
     NSString *_reasonType;
-    CKScrollViewAnimationProperties *_animationProperties;
 }
 
-- (void);
-- (_Bool);
+- (void)_webView:(id)arg1 contextMenu:forElement: /* Error: Ran out of types for this method. */;
+- (_Bool));
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKScrollViewAnimationProperties *animationProperties; // @synthesize animationProperties=_animationProperties;
 @property(retain, nonatomic) NSString *reasonType; // @synthesize reasonType=_reasonType;
 
 @end

@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary;
+@class NSDate, NSMutableDictionary;
 
 @interface MUISearchFeedbackStats
 {
     NSDate *_lastReset;
-    NSMutableDictionary *_daysOfWeek;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)G;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ilityCloseButton: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityCloseButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSMutableDictionary *daysOfWeek; // @synthesize daysOfWeek=_daysOfWeek;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) NSDate *lastReset; // @synthesize lastReset=_lastReset;
 
 @end
 

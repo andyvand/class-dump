@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWInferenceScheduler, NSDictionary, NSString;
-@protocol MTLCommandQueue;
-
 __attribute__((visibility("hidden")))
 @interface BWStillImageProcessorControllerConfiguration
 {
     int _stillImageProcessingMode;
-    NSString *_pipelineProcessingContext;
-    NSDictionary *_sensorConfigurationsByPortType;
-    _Bool _deferredCaptureSupportEnabled;
-    id <MTLCommandQueue> _metalCommandQueue;
-    BWInferenceScheduler *_inferenceScheduler;
-    unsigned int _figThreadPriority;
-    _Bool _postponeProcessorSetup;
-    _Bool _deferredPhotoProcessorEnabled;
 }
 
 - (int);
@@ -38,20 +27,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)CHXScatterType;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool deferredCaptureSupportEnabled; // @synthesize deferredCaptureSupportEnabled=_deferredCaptureSupportEnabled;
-@property(nonatomic) _Bool deferredPhotoProcessorEnabled; // @synthesize deferredPhotoProcessorEnabled=_deferredPhotoProcessorEnabled;
-@property(nonatomic) unsigned int figThreadPriority; // @synthesize figThreadPriority=_figThreadPriority;
-@property(retain, nonatomic) BWInferenceScheduler *inferenceScheduler; // @synthesize inferenceScheduler=_inferenceScheduler;
-@property(retain, nonatomic) id <MTLCommandQueue> metalCommandQueue; // @synthesize metalCommandQueue=_metalCommandQueue;
-@property(retain, nonatomic) NSString *pipelineProcessingContext; // @synthesize pipelineProcessingContext=_pipelineProcessingContext;
-@property(nonatomic) _Bool postponeProcessorSetup;
-@property(readonly, nonatomic) _Bool postponedProcessorSetupSupported;
-@property(retain, nonatomic) NSDictionary *sensorConfigurationsByPortType; // @synthesize sensorConfigurationsByPortType=_sensorConfigurationsByPortType;
 @property(nonatomic) int stillImageProcessingMode; // @synthesize stillImageProcessingMode=_stillImageProcessingMode;
 
 @end

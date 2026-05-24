@@ -6,28 +6,20 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphSceneFeatureNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
-+ (id);
++ (id)ttempted to register class %@ with only an applicationIdentifier %@ and predicate. This is not supported.;
++ (id)plicationIdentifier %@. This is not supported.;
 + (Class);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly) Class superclass;
 
 @end
 

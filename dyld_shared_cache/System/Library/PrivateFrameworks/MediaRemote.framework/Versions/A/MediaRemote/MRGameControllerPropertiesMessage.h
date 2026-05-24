@@ -12,13 +12,12 @@
 {
 }
 
-- (id);
+- (id)_;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)account(_:blockListChanged:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long controllerID;
 @property(readonly, nonatomic) _MRGameControllerPropertiesProtobuf *properties;
 
 @end

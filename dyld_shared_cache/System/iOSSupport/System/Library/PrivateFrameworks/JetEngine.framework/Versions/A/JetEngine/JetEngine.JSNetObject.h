@@ -9,7 +9,7 @@
     id guts;
 }
 
-- (id);
+- (id)supportsLeaderboardSets;
 - (id);
 - (void)PvÅÿ¥Qu
 dvÅÿ­Qu

@@ -6,18 +6,18 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SASVDialogNode : AceObject
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)with #ActiveHyps:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -25,15 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *nodeTypeHint;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

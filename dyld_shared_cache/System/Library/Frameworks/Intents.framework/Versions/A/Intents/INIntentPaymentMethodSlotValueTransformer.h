@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)B;
 + (Class);
 + (Class);
-+ (long long)etPaymentDate: /* Error: Ran out of types for this method. */;
++ (long long)setPaymentDate: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)el:(id)arg1;
+- (id)StringAsItemLabel:(id)arg1;
 
 @end
 

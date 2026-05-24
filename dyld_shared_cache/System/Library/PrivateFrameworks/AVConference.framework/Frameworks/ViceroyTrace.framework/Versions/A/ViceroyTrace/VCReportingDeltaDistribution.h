@@ -6,15 +6,10 @@
 
 #import <ViceroyTrace/VCReportingDistribution.h>
 
-@class VCHistogram;
-
 __attribute__((visibility("hidden")))
 @interface VCReportingDeltaDistribution : VCReportingDistribution
 {
     double _absoluteSum;
-    double _absoluteMin;
-    double _absoluteMax;
-    VCHistogram *_deltaHistogram;
 }
 
 - (void);
@@ -23,15 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)!;
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly) double absoluteMax; // @synthesize absoluteMax=_absoluteMax;
-@property(readonly) double absoluteMin; // @synthesize absoluteMin=_absoluteMin;
 @property(readonly) double absoluteSum; // @synthesize absoluteSum=_absoluteSum;
-@property(readonly) VCHistogram *deltaHistogram; // @synthesize deltaHistogram=_deltaHistogram;
 
 @end
 

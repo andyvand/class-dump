@@ -4,6 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCollectionView, NSImage, NSSet;
+@protocol NSDraggingInfo, NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (_Bool)_resultsController;
+- (_Bool)_requiredContextIDsForDragSessionInView:(NSCollectionView *)arg1;
+- (unsigned long long)_representedObjectsFromPasteboard:(NSCollectionView *)arg1;
+- (unsigned long long)_replaceRange:(NSCollectionView *)arg1 withAttributedText:(id <NSDraggingInfo>)arg2 usingAnimation:(long long *)arg3 completion:(long long *)arg4;
+- (void)_removeRepresentedObjectsInCharacterRange:(NSCollectionView *)arg1;
+- (NSSet *)_removeAddressAtomSubview:(NSCollectionView *)arg1;
+- (NSSet *)_rectForBounds:(NSCollectionView *)arg1 sizingView:(NSSet *)arg2 isLeft:(long long)arg3;
+- (id <NSPasteboardWriting>)_recomputeTextContainerExclusionPaths;
+- (NSArray *)_recentsBundleIdentifier;
+- (NSArray *)_rangeAdjustmentGestureView;
+- (void)_operations;
+- (void)_nextTaskID;
+- (void)_nAddressesFormat;
+- (NSImage *)_lengthValidationBlock;
+- (void)_layoutButtons;
+- (_Bool)_labelLeadingPadding;
+- (_Bool)_keyboardIsHiding;
+- (_Bool)_isiPhone;
+- (void);
+- (_Bool);
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class Protocol;
+@protocol PDSXPCInterface;
+
 @protocol PDSXPCInterfaceVendor
+- (id <PDSXPCInterface>)ntroller:(Protocol *)arg1 observer:observationIdentifier:observationResumer: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,52 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_labels;
-    NSMutableArray *_lines;
-    NSString *_searchDisplayName;
-    NSMutableArray *_stopInfos;
-    NSString *_subTitle;
-    NSMutableArray *_systems;
-    NSString *_title;
-    NSMutableArray *_transitConnections;
-    unsigned long long _transitId;
-    GEOPDMapsIdentifier *_transitMarketId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_transitId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_labels:1;
-        unsigned int read_lines:1;
-        unsigned int read_searchDisplayName:1;
-        unsigned int read_stopInfos:1;
-        unsigned int read_subTitle:1;
-        unsigned int read_systems:1;
-        unsigned int read_title:1;
-        unsigned int read_transitConnections:1;
-        unsigned int read_transitMarketId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)sectionWithRows:(id)arg1 title:condition: /* Error: Ran out of types for this method. */;
+- (id)initWithBlob:isEarlyDetected: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)@80;
-- (id)derType;
+- (id)_sectionHeaderType;
 - (id)ì]|_;
 - (void);
 

@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface PRLexiconCompletion
 {
     unsigned int _tokenID;
-    double _score;
 }
 
 - (id);
 - (id);
 - (double);
-- (unsigned int);
+- (unsigned int)sh, id:%{public}@, taskCount:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double score; // @synthesize score=_score;
 @property(readonly) unsigned int tokenID; // @synthesize tokenID=_tokenID;
 
 @end

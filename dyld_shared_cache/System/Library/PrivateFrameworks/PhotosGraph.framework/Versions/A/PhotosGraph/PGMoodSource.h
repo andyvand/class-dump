@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PGMoodGeneratorOptions, PGMoodVector, PHAssetCollection, PHPhotoLibrary;
-@protocol PGEnrichedMemoryProtocol;
+@class PHAssetCollection;
 
 @interface PGMoodSource
 {
     PHAssetCollection *_assetCollection;
-    PHPhotoLibrary *_photoLibrary;
-    PGMoodGeneratorOptions *_options;
-    PGMoodVector *_positiveVector;
-    PGMoodVector *_negativeVector;
-    NSDictionary *_moodSourceDictionary;
-    id <PGEnrichedMemoryProtocol> _enrichedMemory;
 }
 
 + (id);
@@ -26,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_spotlightElementDestroyed:(id)arg1;
+- (id)_setFocusedApplicationController:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -39,16 +32,10 @@
 - (double);
 - (void)me '%@'
 ;
-- (id)ocation;
+- (id)momentsAtHomeOrFrequentLocation;
 
 // Remaining properties
 @property(readonly) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly) id <PGEnrichedMemoryProtocol> enrichedMemory; // @synthesize enrichedMemory=_enrichedMemory;
-@property(readonly) NSDictionary *moodSourceDictionary; // @synthesize moodSourceDictionary=_moodSourceDictionary;
-@property(retain) PGMoodVector *negativeVector; // @synthesize negativeVector=_negativeVector;
-@property(readonly) PGMoodGeneratorOptions *options; // @synthesize options=_options;
-@property(readonly) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain) PGMoodVector *positiveVector; // @synthesize positiveVector=_positiveVector;
 
 @end
 

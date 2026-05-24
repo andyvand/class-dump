@@ -9,35 +9,26 @@
 @interface INSpeakerIDInfo
 {
     NSString *_sharedUserID;
-    long long _speakerIDConfidence;
 }
 
 + (id);
 + (_Bool);
-- (long long);
+- (long long)b;
 - (id);
 - (id);
-- (id);
+- (id)setSensorsActive:(id)arg1;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setCurrentPingCount:(id)arg1;
+- (void)rewifi] AUTO-JOIN:(id)arg1 No configured known networks or nearby recommended networks;
 - (id);
 - (id);
-- (id)rCancelingInApplication;
-- (void)letion: /* Error: Ran out of types for this method. */;
+- (id)hasUserActivityForCancelingInApplication;
+- (void)provideTypeOptionsForSearchForTimers:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)8Üÿ²'OÊ¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *sharedUserID; // @synthesize sharedUserID=_sharedUserID;
-@property(readonly) long long speakerIDConfidence; // @synthesize speakerIDConfidence=_speakerIDConfidence;
-@property(readonly) Class superclass;
 
 @end
 

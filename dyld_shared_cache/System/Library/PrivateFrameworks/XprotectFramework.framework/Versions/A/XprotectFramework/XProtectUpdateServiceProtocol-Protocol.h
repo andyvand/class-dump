@@ -5,5 +5,6 @@
 //
 
 @protocol XProtectUpdateServiceProtocol
+- (void);
 @end
 

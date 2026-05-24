@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface AALoginResponseDataclasses
 {
     NSArray *_provisionedDataclasses;
-    NSDictionary *_dataclassProperties;
 }
 
+- (id)r;
 - (id);
 - (id);
-- (id);
-- (void)TermsAcceptanceTitle;
+- (void)neediCloudTermsAcceptanceTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dataclassProperties; // @synthesize dataclassProperties=_dataclassProperties;
 @property(readonly, nonatomic) NSArray *provisionedDataclasses; // @synthesize provisionedDataclasses=_provisionedDataclasses;
 
 @end

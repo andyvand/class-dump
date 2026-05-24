@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements;
-
 @interface PGSeasonMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
-    PGMemoryMomentRequirements *_momentRequirements;
 }
 
 + (void);
@@ -28,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)_convertAXFTextRange:(id)arg1 toParagraphRange:(CDUnknownBlockType)arg2 rangeLimit: /* Error: Ran out of types for this method. */;
+- (unsigned long long),R,N;
 - (void)GSequentialFeatureExtractor;
 
 @end

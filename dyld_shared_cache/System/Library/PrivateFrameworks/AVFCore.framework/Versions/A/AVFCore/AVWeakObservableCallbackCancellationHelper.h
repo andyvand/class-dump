@@ -11,9 +11,9 @@
     NSMutableArray *_callbackRegistrations;
 }
 
+- (void)*;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 @end

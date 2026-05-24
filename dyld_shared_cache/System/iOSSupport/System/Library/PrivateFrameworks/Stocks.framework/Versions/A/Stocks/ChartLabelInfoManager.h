@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChartLabelInfo, NSMutableArray;
+@class ChartLabelInfo;
 
 @interface ChartLabelInfoManager
 {
     ChartLabelInfo *_yAxisLabelInfo;
-    NSMutableArray *_monthLabelInfoArrays;
-    NSMutableArray *_integerLabelInfoArray;
-    _Bool _use24hrTime;
 }
 
-+ (id);
++ (id);
 + (void);
-+ (id);
++ (id)u;
 + (struct __CFString *);
 - (_Bool);
 - (id);

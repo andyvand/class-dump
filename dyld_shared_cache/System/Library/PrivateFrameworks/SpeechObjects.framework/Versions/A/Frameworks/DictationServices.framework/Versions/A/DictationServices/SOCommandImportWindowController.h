@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface SOCommandImportWindowController
 {
     NSButton *_saveButton;
-    NSButton *_cancelButton;
-    NSPopUpButton *_languagePopUpButton;
 }
 
-+ (id);
++ (id),&,N,V_userPushTokenRegResponses;
 - (void);
 - (void);
 - (void);

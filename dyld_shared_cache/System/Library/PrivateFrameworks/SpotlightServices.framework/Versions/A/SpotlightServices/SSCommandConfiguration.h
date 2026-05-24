@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFCommand;
+@class SFCommand;
 
 @interface SSCommandConfiguration
 {
     SFCommand *_command;
-    NSString *_title;
-    NSString *_symbol;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)w";
++ (id)@"CNAvatarCache";
++ (id)setConstant:(id)arg1;
++ (id)allowsDominantImageBackgroundColorAsCaptionBackground;
++ (id)_themePlatform;
++ (id)_textView;
++ (id)_textSafeAreaInset;
++ (id)_temporaryFileURL;
+- (id)youTubeVideoURLForEmbedURL:(id)arg1;
+- (id)setHandler: /* Error: Ran out of types for this method. */;
+- (void)c7;
+- (void);
+- (id)to find Asset record in CloudKit for all requested assetIds (requested:%tu, found:%tu). Example missing assetId:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)rInput: /* Error: Ran out of types for this method. */;
+- (void)didClearInput: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) SFCommand *command; // @synthesize command=_command;
-@property(retain) NSString *symbol; // @synthesize symbol=_symbol;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -7,16 +7,12 @@
 @interface Foundation.NSKeyValueObservation.Helper__priv_6DA0945A07226B3278459E9368612FF4
 {
     id weakObject;
-    id unsafeUnretainedObject;
-    id lock;
-    id path;
-    id callback;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)hE;
 - (void);
 
 @end

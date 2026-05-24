@@ -6,7 +6,6 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringModalityAssertion.h>
 
-@class BKSHIDEventDeferringChangeBasis, BKSHIDEventDeferringModality, BKSHIDEventDeferringSelectionTarget;
 @protocol BKSHIDEventDeferringSelectionPathSymbol;
 
 @interface BKSMutableHIDEventDeferringModalityAssertion : BKSHIDEventDeferringModalityAssertion
@@ -17,15 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventDeferringChangeBasis *basis; // @dynamic basis;
-@property(retain, nonatomic) BKSHIDEventDeferringModality *modality; // @dynamic modality;
 @property(retain, nonatomic) id <BKSHIDEventDeferringSelectionPathSymbol> pathIdentifier; // @dynamic pathIdentifier;
-@property(retain, nonatomic) BKSHIDEventDeferringSelectionTarget *selectionTarget; // @dynamic selectionTarget;
-@property(nonatomic) double timestamp; // @dynamic timestamp;
 
 @end
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HKUnit, NSArray;
+@class HKUnit;
 
 @protocol INQueryHealthSampleIntentExport
+- (long long);
 - (HKUnit *);
 
 // Remaining properties
-@property long long expectedResultType;
 @property long long objectType;
-@property long long questionType;
-@property(copy) NSArray *recordDates;
-@property(copy) NSArray *thresholdValues;
-@property(copy) HKUnit *unit;
 @end
 

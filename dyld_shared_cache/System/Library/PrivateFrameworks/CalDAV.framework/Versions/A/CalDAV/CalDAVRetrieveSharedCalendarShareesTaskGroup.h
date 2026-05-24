@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
+@class NSSet, NSURL;
 
 @interface CalDAVRetrieveSharedCalendarShareesTaskGroup
 {
     NSSet *_sharees;
-    NSURL *_url;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)hangeUpdatedElement;
+- (id);
+- (void)CalDAVCalendarServerResourceChangeUpdatedElement;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *sharees; // @synthesize sharees=_sharees;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

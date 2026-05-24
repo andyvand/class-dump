@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAReporter;
-
 @interface AVAudioSession
 {
     void *_impl;
-    _Bool mCategoryEverSet;
-    _Bool mSessionEverActivated;
-    _Bool _prefersEchoCancelledInput;
-    _Bool _isEchoCancelledInputEnabled;
-    _Bool _isEchoCancelledInputAvailable;
-    CAReporter *reporter;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)l;
 + (id);
-+ (long long);
++ (long long);
 + (id);
 + (id);
 

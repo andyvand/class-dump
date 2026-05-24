@@ -6,24 +6,22 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class FAScreentimeSettingsObjectCache, NSNumber;
+@class NSNumber;
 
 @interface FAEnableScreenTimeSettingsRequest : FAFamilyCircleRequest
 {
     NSNumber *_memberDSID;
-    FAScreentimeSettingsObjectCache *_screentimeModelCache;
 }
 
+- (id)temporary;
+- (id)SearchCompleted;
+- (id)ShowWeatherLocations;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)i-ref;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSNumber *memberDSID; // @synthesize memberDSID=_memberDSID;
-@property(readonly) FAScreentimeSettingsObjectCache *screentimeModelCache; // @synthesize screentimeModelCache=_screentimeModelCache;
 
 @end
 

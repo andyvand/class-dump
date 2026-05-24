@@ -11,7 +11,6 @@
 @interface WFChangeForecastRequest : WFTask
 {
     WFLocation *_location;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, copy, nonatomic) WFLocation *location; // @synthesize location=_location;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TCDumpEnum
 {
     NSString *mTypeName;
-    NSMutableDictionary *mValueToNameMap;
-    NSMutableDictionary *mNameToValueMap;
 }
 
 - (id);

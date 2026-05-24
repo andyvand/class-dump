@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSLayoutConstraint, NSMenu, NSString, NSTimer, NSView, ReadingListTableView, SidebarTableCellView;
-@protocol ReadingListTableViewContentProvider, ReadingListTableViewControllerDelegate;
+@class ReadingListTableView;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListTableViewController
 {
     ReadingListTableView *_tableView;
-    NSArray *_displayedItems;
-    NSDate *_dateOfLastInitialContentUpdate;
-    SidebarTableCellView *_tableCellViewForRowHeightCalculation;
-    NSTimer *_coalescedTableViewReloadTimer;
-    NSView *_spacerView;
-    NSLayoutConstraint *_spacerViewHeightConstraint;
-    NSMenu *_contextMenu;
-    _Bool _showsSearchFieldWrapperView;
-    _Bool _showAsOffline;
-    id <ReadingListTableViewControllerDelegate> _delegate;
-    id <ReadingListTableViewContentProvider> _contentProvider;
 }
 
 - (_Bool);
@@ -34,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)eP;
 - (id);
 - (void);
 - (void);
@@ -84,19 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ReadingListTableViewContentProvider> contentProvider; // @synthesize contentProvider=_contentProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ReadingListTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long displayedItemsCount;
-@property(nonatomic, getter=isEditingTableView) _Bool editingTableView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool showAsOffline; // @synthesize showAsOffline=_showAsOffline;
 @property(nonatomic) _Bool showsSearchFieldWrapperView; // @synthesize showsSearchFieldWrapperView=_showsSearchFieldWrapperView;
-@property(readonly) Class superclass;
 
 @end
 

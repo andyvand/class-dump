@@ -6,17 +6,16 @@
 
 #import <MapKit/MKPlaceActionDataProvider.h>
 
-@class CNContact, MKMapItem;
+@class CNContact;
 @protocol _MKPlaceItem;
 
 @interface MKPlaceItemActionDataProvider : MKPlaceActionDataProvider
 {
     id <_MKPlaceItem> _placeItem;
-    unsigned long long _options;
 }
 
-- (void);
-- (_Bool);
+- (void), ENERGY_DIFF=%f;
+- (_Bool)ID mapping;
 - (id);
 - (id);
 - (_Bool);
@@ -24,13 +23,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)tation: /* Error: Ran out of types for this method. */;
+- (void)newInternalAnnotationRepresentationForInternalAnnotation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact;
-@property(readonly, nonatomic) MKMapItem *mapItem;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) id <_MKPlaceItem> placeItem; // @synthesize placeItem=_placeItem;
 
 @end
 

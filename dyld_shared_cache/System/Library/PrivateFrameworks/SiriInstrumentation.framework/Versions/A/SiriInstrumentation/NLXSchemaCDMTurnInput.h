@@ -6,27 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMTurnContext, NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMTurnInput : SISchemaInstrumentationMessage
 {
     NSArray *_asrHypothesisIds;
-    NLXSchemaCDMTurnContext *_turnContext;
-    _Bool _isTapToEdit;
-    struct {
-        unsigned int isTapToEdit:1;
-    } _has;
-    _Bool _hasTurnContext;
 }
 
 - (void);
+- (void)?	;
 - (void);
-- (void);
+- (_Bool)4;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)һ;
 - (void);
 - (unsigned long long);
 - (id);
@@ -38,8 +32,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)supported extension feature;
+- (unsigned long long)ҝ;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -51,11 +45,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *asrHypothesisIds; // @synthesize asrHypothesisIds=_asrHypothesisIds;
-@property(nonatomic) _Bool hasIsTapToEdit;
-@property(nonatomic) _Bool hasTurnContext; // @synthesize hasTurnContext=_hasTurnContext;
-@property(nonatomic) _Bool isTapToEdit; // @synthesize isTapToEdit=_isTapToEdit;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMTurnContext *turnContext; // @synthesize turnContext=_turnContext;
 
 @end
 

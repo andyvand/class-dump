@@ -6,22 +6,20 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPImageViewStyle, NSArray, NSMutableArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LPImageStackView : LPComponentView
 {
     NSArray *_images;
-    LPImageViewStyle *_style;
-    NSMutableArray *_imageViews;
 }
 
 + (void)k;
-- (void);
-- (id);
+- (void)swipeGestureRecognizer;
+- (id)summaryAttributedTextForBlockedConversationWithIcon:(id)arg1;
+- (struct CGSize)smartDashesTypeDidChange:(struct CGSize)arg1;
 - (struct CGSize);
-- (struct CGSize);
-- (id);
+- (id)walletPassMetadata;
 - (void)q°1Â0@ù
 × ;
 

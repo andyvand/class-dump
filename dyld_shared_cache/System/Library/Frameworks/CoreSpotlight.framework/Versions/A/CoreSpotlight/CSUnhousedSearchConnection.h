@@ -13,7 +13,7 @@
     NSString *_token;
 }
 
-+ (id);
++ (id)";
 - (id);
 - (id);
 - (id);

@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @protocol SFQueryUnderstandingParse
+- (void);
+- (_Bool);
+- (_Bool)P;
+- (_Bool)b^
+;
+- (NSData *)DO;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool hasActionTokens;
-@property(nonatomic) _Bool hasCaptureDeviceTokens;
-@property(nonatomic) _Bool hasEventTokens;
-@property(nonatomic) _Bool hasFavoritedTokens;
-@property(nonatomic) _Bool hasGenericLocationTokens;
-@property(nonatomic) _Bool hasLocationTokens;
-@property(nonatomic) _Bool hasMediaTypeTokens;
-@property(nonatomic) _Bool hasNounTokens;
-@property(nonatomic) _Bool hasPersonSenderTokens;
-@property(nonatomic) _Bool hasPersonTokens;
-@property(nonatomic) _Bool hasSortCriteriaTokens;
-@property(nonatomic) _Bool hasSourceAppTokens;
-@property(nonatomic) _Bool hasTimeTokens;
-@property(nonatomic) _Bool hasUnspecifiedTokens;
-@property(nonatomic) _Bool hasVisualQualityTokens;
-@property(nonatomic) _Bool isBlocklistedQuery;
-@property(nonatomic) _Bool isUnsafeQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int queryIntentType;
-@property(nonatomic) int spotlightQueryIntent;
 @end
 

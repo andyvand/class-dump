@@ -5,5 +5,6 @@
 //
 
 @protocol KCSharingMessagingdXPCServerProtocol
+- (void);
 @end
 

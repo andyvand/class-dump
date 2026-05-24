@@ -10,15 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _NSBannerDecorationView : NSView
 {
     _Bool _drawsTopSeparator;
-    _Bool _drawsBottomSeparator;
 }
 
-+ (id);
++ (id)e to open the file %s. Errno:%{errno}d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
+- (id)6;
 - (id);
-- (id);
-- (void);
+- (void)peration:%{public}@
+	status:%d /* Error: Ran out of types for this method. */;
 
 @end
 

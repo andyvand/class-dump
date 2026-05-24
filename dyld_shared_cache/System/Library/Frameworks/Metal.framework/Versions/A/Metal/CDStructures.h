@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLBlitPassSampleBufferAttachmentDescriptorArrayInternal, MTLComputePassSampleBufferAttachmentDescriptorArrayInternal, MTLFunctionConstantValues, MTLIOAccelBuffer, MTLIOAccelDevice, MTLIOAccelDeviceShmem, MTLIOAccelDeviceShmemPool, MTLIOAccelHeap, MTLIOAccelPooledResource, MTLIOAccelResource, MTLIOAccelResourcePool, MTLLinkedFunctions, MTLPipelineBufferDescriptorArrayInternal, MTLProfileControl, MTLRenderPassColorAttachmentDescriptorArrayInternal, MTLRenderPassSampleBufferAttachmentDescriptorArrayInternal, MTLRenderPipelineColorAttachmentDescriptorArrayInternal, MTLResourceAllocationInfo, MTLResourceList, MTLResourceStatePassSampleBufferAttachmentDescriptorArrayInternal, MTLStageInputOutputDescriptor, MTLStencilDescriptorInternal, MTLTileRenderPipelineColorAttachmentDescriptorArrayInternal, MTLVertexDescriptorInternal, NSArray, NSData, NSDictionary, NSObject, NSString, _MTLIOCommandQueue;
+@class MTLBlitPassSampleBufferAttachmentDescriptorArrayInternal, MTLComputePassSampleBufferAttachmentDescriptorArrayInternal, MTLFunctionConstantValues, MTLIOAccelDevice, MTLIOAccelDeviceShmem, MTLIOAccelDeviceShmemPool, MTLIOAccelHeap, MTLIOAccelPooledResource, MTLIOAccelResource, MTLIOAccelResourcePool, MTLLinkedFunctions, MTLPipelineBufferDescriptorArrayInternal, MTLProfileControl, MTLRenderPassColorAttachmentDescriptorArrayInternal, MTLRenderPassSampleBufferAttachmentDescriptorArrayInternal, MTLRenderPipelineColorAttachmentDescriptorArrayInternal, MTLResourceAllocationInfo, MTLResourceList, MTLResourceStatePassSampleBufferAttachmentDescriptorArrayInternal, MTLStageInputOutputDescriptor, MTLStencilDescriptorInternal, MTLTileRenderPipelineColorAttachmentDescriptorArrayInternal, MTLVertexDescriptorInternal, NSArray, NSData, NSDictionary, NSObject, NSString;
 
 #pragma mark Blocks
 
@@ -16,26 +16,8 @@ struct ConstantsSpecializationScript {
     unsigned char _field1[1];
 };
 
-struct CoreAnalyticsBacktraceInfo {
-    int nFrames;
-    void *callstack[32];
-};
-
 struct CounterValue {
     unsigned long long _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-};
-
-struct DebugLocation {
-    unsigned int _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-    unsigned int _field4;
-};
-
-struct DebugSubProgram {
-    unsigned int _field1;
     unsigned int _field2;
     unsigned int _field3;
 };
@@ -58,25 +40,9 @@ struct DeserializedBinaryArchiveLayout {
     id _field15;
 };
 
-struct FileIdentifier {
-    int dev;
-    unsigned long long ino;
-};
-
 struct IOAccelClientSharedRO;
 
 struct IOAccelClientSharedRW;
-
-struct IOAccelDrawableSurfaceConfig {
-    unsigned long long window_mode;
-    int width;
-    int height;
-    int sfc_width;
-    int sfc_height;
-    unsigned int config_bits;
-    unsigned int status_bits;
-    unsigned long long texture_ram;
-};
 
 struct IOAccelGetResourceInfoReturnData {
     unsigned int _field1;
@@ -207,36 +173,14 @@ struct LogBuffer {
 
 struct LogBufferHeader;
 
-struct MDB_env;
-
-struct MTL4ArchiveImpl;
-
 struct MTL4BufferRange {
-    unsigned long long bufferAddress;
-    unsigned long long length;
-};
-
-struct MTL4MetalScriptBuilder;
-
-struct MTLAddressRange {
     unsigned long long _field1;
     unsigned long long _field2;
 };
 
-struct MTLAirNTObject;
-
-struct MTLArchiveMapDB {
-    struct MDB_env *_field1;
-    unsigned int _field2;
-    _Bool _field3;
-    _Bool _field4;
-};
-
-struct MTLArchiveUsageDB {
-    struct MDB_env *_field1;
-    unsigned int _field2;
-    _Bool _field3;
-    _Bool _field4;
+struct MTLAddressRange {
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct MTLArgumentDescriptorPrivate {
@@ -296,8 +240,6 @@ struct MTLCompileLibraryRequestData {
     id _field5;
     _Bool _field6;
 };
-
-struct MTLCompileToken;
 
 struct MTLCompilerCache {
     CDUnknownFunctionPointerType *_field1;
@@ -368,11 +310,6 @@ struct MTLDepthStencilDescriptorPrivate {
     unsigned long long resourceIndex;
 };
 
-struct MTLDispatch {
-    struct MTLDispatch *_field1;
-    CDUnknownBlockType _field2;
-};
-
 struct MTLFunctionData {
     unsigned long long bitCodeOffset;
     unsigned long long bitCodeFileSize;
@@ -405,12 +342,6 @@ struct MTLFunctionDescriptorPrivate {
     NSArray *privateFunctions;
 };
 
-struct MTLGPUBVHBuilderPipelineInfo {
-    char *_field1;
-    _Bool _field2;
-    _Bool _field3;
-};
-
 struct MTLHashKey {
     struct MTLHashMask<4> _field1;
     CDStruct_41a22ec7 _field2;
@@ -435,13 +366,6 @@ struct MTLHeapDescriptorPrivate {
     unsigned long long _field9;
     unsigned long long _field10;
     long long _field11;
-};
-
-struct MTLIOAccelBufferHeap {
-    MTLIOAccelBuffer *buffers[64];
-    struct MTLRangeAllocator allocators[64];
-    unsigned int allocations[64];
-    unsigned int count;
 };
 
 struct MTLIOAccelCommandBufferResourceInfo {
@@ -493,13 +417,7 @@ struct MTLIOAccelCommandBufferStorage {
     unsigned int _field34;
 };
 
-struct MTLIOAccelCommandBufferStoragePool {
-    struct storageQueue _field1;
-    struct os_unfair_lock_s _field2;
-    int _field3;
-    _Atomic int _field4;
-    id _field5;
-};
+struct MTLIOAccelCommandBufferStoragePool;
 
 struct MTLIOCommand;
 
@@ -519,24 +437,6 @@ struct MTLIOCommandList {
     id _field13;
 };
 
-struct MTLIOCommandQueueCommand;
-
-struct MTLIOCommandQueueCommandList {
-    struct {
-        struct MTLIOCommandQueueCommand *tqh_first;
-        struct MTLIOCommandQueueCommand **tqh_last;
-    } activeq;
-    struct _opaque_pthread_mutex_t *lock;
-    struct _opaque_pthread_cond_t *cond;
-    _MTLIOCommandQueue *queue;
-    _Bool exit;
-};
-
-struct MTLIODispatch {
-    struct MTLIODispatch *_field1;
-    CDUnknownBlockType _field2;
-};
-
 struct MTLIOScratchBufferPrivate {
     struct {
         struct MTLIOScratchBufferPrivate *_field1;
@@ -547,11 +447,6 @@ struct MTLIOScratchBufferPrivate {
     unsigned long long _field4;
     unsigned long long _field5;
     _Bool _field6;
-};
-
-struct MTLIOScratchBufferPrivateQueue {
-    struct MTLIOScratchBufferPrivate *tqh_first;
-    struct MTLIOScratchBufferPrivate **tqh_last;
 };
 
 struct MTLIndirectCommandBufferDescriptorState {
@@ -584,37 +479,6 @@ struct MTLIndirectCommandBufferDescriptorState {
     unsigned long long resourceIndex;
     unsigned int maxToolsDispatchBindings;
     _Bool supportColorAttachmentMapping;
-};
-
-struct MTLIndirectCommandBufferHeader {
-    unsigned long long headerSize;
-    unsigned int commandTypes;
-    _Bool inheritPipelineState;
-    _Bool inheritBuffers;
-    unsigned char maxVertexBufferBindCount;
-    unsigned char maxFragmentBufferBindCount;
-    unsigned char maxKernelBufferBindCount;
-    unsigned char maxObjectBufferBindCount;
-    unsigned char maxMeshBufferBindCount;
-    _Bool supportRayTracing;
-    _Bool supportDynamicAttributeStride;
-    unsigned char maxKernelThreadgroupMemoryBindCount;
-    unsigned char maxObjectThreadgroupMemoryBindCount;
-    unsigned char maxScissorRectCount;
-    unsigned char maxViewportCount;
-    _Bool inheritDepthStencilState;
-    _Bool inheritDepthBias;
-    _Bool inheritStencilReferenceValues;
-    _Bool inheritDepthClipMode;
-    _Bool inheritCullMode;
-    _Bool inheritFrontFacingWinding;
-    _Bool inheritTriangleFillMode;
-    _Bool inheritDepthTestBounds;
-    _Bool inheritScissorRects;
-    _Bool inheritViewports;
-    _Bool inheritBlendColor;
-    long long allowOverrideRenderStates;
-    unsigned long long size;
 };
 
 struct MTLIntersectionFunctionTableDescriptorPrivate {
@@ -737,8 +601,6 @@ struct MTLMeshRenderPipelineDescriptorPrivate {
     unsigned long long tileGlobalConstantsTag;
 };
 
-struct MTLMetalScriptBuilder;
-
 struct MTLMotionEstimationPipelineDescriptorPrivate {
     unsigned long long textureWidth;
     unsigned long long textureHeight;
@@ -767,23 +629,6 @@ struct MTLPipelineBufferDescriptorPrivate {
 };
 
 struct MTLPipelineCollection;
-
-struct MTLPipelineLibraryBuilder {
-    id _field1;
-    id _field2;
-};
-
-struct MTLPipelineNTObject;
-
-struct MTLRangeAllocator {
-    struct MTLRangeAllocatorElement *elements;
-    unsigned int numElements;
-    unsigned long long capacity;
-    unsigned long long capacityIncrement;
-    unsigned long long defaultAlignmentMask;
-};
-
-struct MTLRangeAllocatorElement;
 
 struct MTLRenderPassAttachmentDescriptorPrivate {
     id texture;
@@ -1059,11 +904,6 @@ struct MTLStencilDescriptorPrivate {
     unsigned int writeMask;
 };
 
-struct MTLSyncDispatch {
-    struct MTLSyncDispatch *_field1;
-    CDUnknownBlockType _field2;
-};
-
 struct MTLTargetDeviceArch {
     unsigned long long _field1;
     unsigned int _field2;
@@ -1071,9 +911,9 @@ struct MTLTargetDeviceArch {
 };
 
 struct MTLTargetDeviceArchVersion {
-    unsigned short major;
-    unsigned char minor;
-    unsigned char update;
+    unsigned short _field1;
+    unsigned char _field2;
+    unsigned char _field3;
 };
 
 struct MTLTensorSlice {
@@ -1196,54 +1036,44 @@ struct MessageHeader {
 
 struct MultiLevelBinaryCache;
 
-struct PipelineCache<PipelineKey> {
-    struct unordered_map<PipelineCache<PipelineKey>::HashKey, PipelineValue, PipelineCache<PipelineKey>::Hasher, std::equal_to<PipelineCache<PipelineKey>::HashKey>, std::allocator<std::pair<const PipelineCache<PipelineKey>::HashKey, PipelineValue>>> map;
-    unsigned long long baseThreadgroupSize;
-    struct function<id<MTLComputePipelineState>(const PipelineKey &)> createPipeline;
-    _Bool _supportsSIMDReduction;
-    _Bool _supportsSIMDShuffleAndFill;
-    _Bool _useFastBestObjectSplit;
-    struct os_unfair_lock_s _pipelineCacheLock;
-};
-
 struct PipelineKey {
     struct {
-        unsigned int pipelineIndex:8;
-        unsigned int polygonType:2;
-        unsigned int minFragmentsPerLeaf:4;
-        unsigned int maxFragmentsPerLeaf:8;
-        unsigned int indexStride:4;
-        unsigned int spatialSplits:1;
-        unsigned int useResourceBuffer:1;
-        unsigned int primitiveMotion:1;
-        unsigned int branchingFactor:4;
-        unsigned int motion:1;
-        unsigned int useBatching:1;
-        unsigned int useChildIndices:1;
-        unsigned int vertexFormat:6;
-        unsigned int logThreadgroupSize:4;
-        unsigned int maxFragmentsPerInnerNode:8;
-        unsigned int createLeafNodes:1;
-        unsigned int enforceMaxDepth:1;
-        unsigned int useTemporalSplits:1;
-        unsigned int disallowMixingTemporalSplitsAndLeafNodes:1;
-        unsigned int useFastWideBuild:1;
-        unsigned int deterministic:1;
-        unsigned int fragmentPhase:1;
-        unsigned int supportsSIMDReduction:1;
-        unsigned int supportsSIMDShuffleAndFill:1;
-        unsigned int useFastBestObjectSplit:1;
-        unsigned int maxSubKeyframeTemporalSplits:4;
-        unsigned int disallowTemporalSplits:1;
-        unsigned int rowMajorInstanceMatrix:1;
-        unsigned int refitUpdatesOpacityAndFunctionTableOffset:1;
-    } ;
-    unsigned int vertexStride;
-    unsigned int boundingBoxStride;
-    float minOverlap;
-    float traversalCost;
-    float fragmentCost;
-    float temporalSplitBias;
+        unsigned int :8;
+        unsigned int :2;
+        unsigned int :4;
+        unsigned int :8;
+        unsigned int :4;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :4;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :6;
+        unsigned int :4;
+        unsigned int :8;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :4;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+    } _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    float _field4;
+    float _field5;
+    float _field6;
+    float _field7;
 };
 
 struct PipelineScript {
@@ -1380,52 +1210,9 @@ struct _NSRange {
     unsigned long long length;
 };
 
-struct __CFString;
-
 struct __IOSurface;
 
 struct __shared_weak_count;
-
-struct _opaque_pthread_cond_t {
-    long long __sig;
-    char __opaque[40];
-};
-
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
-struct function<id<MTLComputePipelineState>(const PipelineKey &)> {
-    struct __value_func<id<MTLComputePipelineState>(const PipelineKey &)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct functionIdExtended;
-
-struct map<MTLUINT256_t, std::pair<unsigned int, unsigned long long>, CompareHash, std::allocator<std::pair<const MTLUINT256_t, std::pair<unsigned int, unsigned long long>>>> {
-    struct __tree<std::__value_type<MTLUINT256_t, std::pair<unsigned int, unsigned long long>>, std::__map_value_compare<MTLUINT256_t, std::pair<const MTLUINT256_t, std::pair<unsigned int, unsigned long long>>, CompareHash>, std::allocator<std::pair<const MTLUINT256_t, std::pair<unsigned int, unsigned long long>>>> {
-        void *__begin_node_;
-        struct {
-            struct __tree_end_node<std::__tree_node_base<void *>*> {
-                void *__left_;
-            } __end_node_;
-        } ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct once_flag {
-    unsigned long long __state_;
-};
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
@@ -1436,24 +1223,19 @@ struct resourceListQueue {
     id *tqh_last;
 };
 
-struct shared_ptr<MTLCompilerCache> {
-    struct MTLCompilerCache *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<MultiLevelBinaryCache> {
     struct MultiLevelBinaryCache *_field1;
     struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<TrackingData> {
-    struct TrackingData *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct TrackingData *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::unordered_map<MTLUINT256_t, NSObject<OS_dispatch_data>*, UnorderedContainerHash, UnorderedContainerHash>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::vector<machOEntry>> {
@@ -1471,363 +1253,6 @@ struct stitchedAirDescriptor {
     CDStruct_41a22ec7 _field2;
 };
 
-struct storageQueue {
-    struct MTLIOAccelCommandBufferStorage *_field1;
-    struct MTLIOAccelCommandBufferStorage **_field2;
-};
-
-struct unique_ptr<MTL4ArchiveImpl, std::default_delete<MTL4ArchiveImpl>> {
-    struct {
-        struct MTL4ArchiveImpl *__ptr_;
-    } ;
-};
-
-struct unique_ptr<MTL4MetalScriptBuilder, std::default_delete<MTL4MetalScriptBuilder>> {
-    struct {
-        struct MTL4MetalScriptBuilder *__ptr_;
-    } ;
-};
-
-struct unique_ptr<MTLMetalScriptBuilder, std::default_delete<MTLMetalScriptBuilder>> {
-    struct {
-        struct MTLMetalScriptBuilder *__ptr_;
-    } ;
-};
-
-struct unique_ptr<MTLPipelineCollection, std::default_delete<MTLPipelineCollection>> {
-    struct {
-        struct MTLPipelineCollection *__ptr_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLLoadedFile *, id>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLLoadedFile *, id>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLLoadedFile *, id>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, _NSRange>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, _NSRange>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, _NSRange>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<MTLHashKey, MTLOpaqueGPUArchiverUnitId *, CompareFunctionIdHash, CompareFunctionIdHash, std::allocator<std::pair<const MTLHashKey, MTLOpaqueGPUArchiverUnitId *>>> {
-    struct __hash_table<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, std::__unordered_map_hasher<MTLHashKey, std::pair<const MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, CompareFunctionIdHash, CompareFunctionIdHash>, std::__unordered_map_equal<MTLHashKey, std::pair<const MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, CompareFunctionIdHash, CompareFunctionIdHash>, std::allocator<std::pair<const MTLHashKey, MTLOpaqueGPUArchiverUnitId *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>, CompareFunctionIdHash, CompareFunctionIdHash, std::allocator<std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>>> {
-    struct __hash_table<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, std::__unordered_map_hasher<MTLHashKey, std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, CompareFunctionIdHash, CompareFunctionIdHash>, std::__unordered_map_equal<MTLHashKey, std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, CompareFunctionIdHash, CompareFunctionIdHash>, std::allocator<std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLLoadedFile *, id, std::hash<MTLLoadedFile *>, std::equal_to<MTLLoadedFile *>, std::allocator<std::pair<MTLLoadedFile *const, id>>> {
-    struct __hash_table<std::__hash_value_type<MTLLoadedFile *, id>, std::__unordered_map_hasher<MTLLoadedFile *, std::pair<MTLLoadedFile *const, id>, std::hash<MTLLoadedFile *>, std::equal_to<MTLLoadedFile *>>, std::__unordered_map_equal<MTLLoadedFile *, std::pair<MTLLoadedFile *const, id>, std::equal_to<MTLLoadedFile *>, std::hash<MTLLoadedFile *>>, std::allocator<std::pair<MTLLoadedFile *const, id>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLLoadedFile *, id>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLLoadedFile *, id>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLLoadedFile *, id>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLUINT256_t, MTLAirEntry *, UnorderedContainerHash, UnorderedContainerHash, std::allocator<std::pair<const MTLUINT256_t, MTLAirEntry *>>> {
-    struct __hash_table<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, std::__unordered_map_hasher<MTLUINT256_t, std::pair<const MTLUINT256_t, MTLAirEntry *>, UnorderedContainerHash, UnorderedContainerHash>, std::__unordered_map_equal<MTLUINT256_t, std::pair<const MTLUINT256_t, MTLAirEntry *>, UnorderedContainerHash, UnorderedContainerHash>, std::allocator<std::pair<const MTLUINT256_t, MTLAirEntry *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLAirEntry *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLUINT256_t, MTLProgramObject *, UnorderedContainerHash, UnorderedContainerHash, std::allocator<std::pair<const MTLUINT256_t, MTLProgramObject *>>> {
-    struct __hash_table<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, std::__unordered_map_hasher<MTLUINT256_t, std::pair<const MTLUINT256_t, MTLProgramObject *>, UnorderedContainerHash, UnorderedContainerHash>, std::__unordered_map_equal<MTLUINT256_t, std::pair<const MTLUINT256_t, MTLProgramObject *>, UnorderedContainerHash, UnorderedContainerHash>, std::allocator<std::pair<const MTLUINT256_t, MTLProgramObject *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, MTLProgramObject *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLUINT256_t, NSObject<OS_dispatch_data>*, UnorderedContainerHash, UnorderedContainerHash, std::allocator<std::pair<const MTLUINT256_t, NSObject<OS_dispatch_data>*>>> {
-    struct __hash_table<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, std::__unordered_map_hasher<MTLUINT256_t, std::pair<const MTLUINT256_t, NSObject<OS_dispatch_data>*>, UnorderedContainerHash, UnorderedContainerHash>, std::__unordered_map_equal<MTLUINT256_t, std::pair<const MTLUINT256_t, NSObject<OS_dispatch_data>*>, UnorderedContainerHash, UnorderedContainerHash>, std::allocator<std::pair<const MTLUINT256_t, NSObject<OS_dispatch_data>*>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, NSObject<OS_dispatch_data>*>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLUINT256_t, _NSRange, UnorderedContainerHash, UnorderedContainerHash, std::allocator<std::pair<const MTLUINT256_t, _NSRange>>> {
-    struct __hash_table<std::__hash_value_type<MTLUINT256_t, _NSRange>, std::__unordered_map_hasher<MTLUINT256_t, std::pair<const MTLUINT256_t, _NSRange>, UnorderedContainerHash, UnorderedContainerHash>, std::__unordered_map_equal<MTLUINT256_t, std::pair<const MTLUINT256_t, _NSRange>, UnorderedContainerHash, UnorderedContainerHash>, std::allocator<std::pair<const MTLUINT256_t, _NSRange>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, _NSRange>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, _NSRange>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, _NSRange>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>, UnorderedContainerHash, UnorderedContainerHash, std::allocator<std::pair<const MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>>> {
-    struct __hash_table<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, std::__unordered_map_hasher<MTLUINT256_t, std::pair<const MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, UnorderedContainerHash, UnorderedContainerHash>, std::__unordered_map_equal<MTLUINT256_t, std::pair<const MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, UnorderedContainerHash, UnorderedContainerHash>, std::allocator<std::pair<const MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLUINT256_t, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<PipelineCache<PipelineKey>::HashKey, PipelineValue, PipelineCache<PipelineKey>::Hasher, std::equal_to<PipelineCache<PipelineKey>::HashKey>, std::allocator<std::pair<const PipelineCache<PipelineKey>::HashKey, PipelineValue>>> {
-    struct __hash_table<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, std::__unordered_map_hasher<PipelineCache<PipelineKey>::HashKey, std::pair<const PipelineCache<PipelineKey>::HashKey, PipelineValue>, PipelineCache<PipelineKey>::Hasher, std::equal_to<PipelineCache<PipelineKey>::HashKey>>, std::__unordered_map_equal<PipelineCache<PipelineKey>::HashKey, std::pair<const PipelineCache<PipelineKey>::HashKey, PipelineValue>, std::equal_to<PipelineCache<PipelineKey>::HashKey>, PipelineCache<PipelineKey>::Hasher>, std::allocator<std::pair<const PipelineCache<PipelineKey>::HashKey, PipelineValue>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<PipelineCache<PipelineKey>::HashKey, PipelineValue>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, id<MTLLibrarySPI>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, id<MTLLibrarySPI>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, id<MTLLibrarySPI>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, id<MTLLibrarySPI>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, id<MTLLibrarySPI>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLLibrarySPI>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned long long, id<MTLLibrarySPI>, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, id<MTLLibrarySPI>>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, id<MTLLibrarySPI>>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, id<MTLLibrarySPI>>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, id<MTLLibrarySPI>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id<MTLLibrarySPI>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, std::vector<std::pair<MTLHashKey, unsigned int>>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned long long, unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, unsigned long long>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, unsigned long long>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, unsigned long long>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, unsigned long long>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, unsigned long long>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct vector<MTLAirNTObject *, std::allocator<MTLAirNTObject *>> {
-    struct MTLAirNTObject **__begin_;
-    struct MTLAirNTObject **__end_;
-    struct {
-        struct MTLAirNTObject **__cap_;
-    } ;
-};
-
-struct vector<MTLDebugLocation *, std::allocator<MTLDebugLocation *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<MTLDebugSubProgram *, std::allocator<MTLDebugSubProgram *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<MTLGPUFamily, std::allocator<MTLGPUFamily>> {
-    long long *__begin_;
-    long long *__end_;
-    struct {
-        long long *__cap_;
-    } ;
-};
-
-struct vector<MTLPipelineNTObject *, std::allocator<MTLPipelineNTObject *>> {
-    struct MTLPipelineNTObject **__begin_;
-    struct MTLPipelineNTObject **__end_;
-    struct {
-        struct MTLPipelineNTObject **__cap_;
-    } ;
-};
-
-struct vector<MTLRasterizationRateLayerDescriptor *, std::allocator<MTLRasterizationRateLayerDescriptor *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
 struct vector<MTLUINT256_t, std::allocator<MTLUINT256_t>> {
     CDStruct_183601bc *_field1;
     CDStruct_183601bc *_field2;
@@ -1836,43 +1261,12 @@ struct vector<MTLUINT256_t, std::allocator<MTLUINT256_t>> {
     } _field3;
 };
 
-struct vector<const __CFString *, std::allocator<const __CFString *>> {
-    struct __CFString **__begin_;
-    struct __CFString **__end_;
-    struct {
-        struct __CFString **__cap_;
-    } ;
-};
-
-struct vector<functionIdExtended, std::allocator<functionIdExtended>> {
-    struct functionIdExtended *__begin_;
-    struct functionIdExtended *__end_;
-    struct {
-        struct functionIdExtended *__cap_;
-    } ;
-};
-
-struct vector<id<MTLIOScratchBuffer>, std::allocator<id<MTLIOScratchBuffer>>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<void (^)(), std::allocator<void (^)()>> {
-    CDUnknownBlockType *__begin_;
-    CDUnknownBlockType *__end_;
-    CDStruct_73970acf ;
-};
-
 struct vector<void (^)(id<MTL4CommitFeedback>), std::allocator<void (^)(id<MTL4CommitFeedback>)>> {
     CDUnknownBlockType *__begin_;
     CDUnknownBlockType *__end_;
-    CDStruct_73970acf ;
-};
-
-struct weak_ptr<MTLCompileToken> {
-    struct MTLCompileToken *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct {
+        CDUnknownBlockType *__cap_;
+    } ;
 };
 
 #pragma mark Typedef'd Structures
@@ -2040,16 +1434,12 @@ typedef struct {
 } CDStruct_b4ace6a6;
 
 typedef struct {
+    unsigned long long bits;
+} CDStruct_914d909e;
+
+typedef struct {
     unsigned char key[32];
 } CDStruct_41a22ec7;
-
-typedef struct {
-    CDUnknownBlockType *__cap_;
-} CDStruct_73970acf;
-
-typedef struct {
-    id *__cap_;
-} CDStruct_b6058e76;
 
 typedef struct {
     unsigned int fragmentUsesDiscard:1;
@@ -2067,13 +1457,13 @@ typedef struct {
 } CDStruct_d04b17dd;
 
 typedef struct {
-    unsigned int kernelRegisterSpill:1;
-    unsigned int threadgroupBarrier:1;
-    unsigned int deviceMemoryAtomics:1;
-    unsigned int threadgroupMemoryAtomics:1;
-    unsigned int kernelThreadInvariantRegisterSpill:1;
-    unsigned int reserved:59;
-} CDStruct_d6acfb42;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :59;
+} CDStruct_944790b2;
 
 typedef struct {
     unsigned int :8;
@@ -2103,10 +1493,6 @@ typedef struct {
     float x;
     float y;
 } CDStruct_6e3f967a;
-
-typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
 
 typedef struct CDStruct_183601bc;
 
@@ -2149,40 +1535,26 @@ typedef struct {
     unsigned long long _field6;
 } CDStruct_8a59707f;
 
-// Ambiguous groups
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    unsigned long long bits;
-} CDStruct_914d909e;
-
+// Template types
 typedef struct shared_ptr<MultiLevelBinaryCache> {
     struct MultiLevelBinaryCache *_field1;
     struct __shared_weak_count *_field2;
 } shared_ptr_f020d503;
 
 typedef struct shared_ptr<TrackingData> {
-    struct TrackingData *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_843efa4b;
+    struct TrackingData *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_1f635668;
 
 typedef struct shared_ptr<std::unordered_map<MTLUINT256_t, NSObject<OS_dispatch_data>*, UnorderedContainerHash, UnorderedContainerHash>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_316ba172;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_1978d57d;
 
 typedef struct shared_ptr<std::vector<machOEntry>> {
     void *_field1;
     struct __shared_weak_count *_field2;
 } shared_ptr_97f6440e;
-
-#pragma mark Named Unions
-
-union type {
-    unsigned char __data[24];
-};
 
 #pragma mark Typedef'd Unions
 

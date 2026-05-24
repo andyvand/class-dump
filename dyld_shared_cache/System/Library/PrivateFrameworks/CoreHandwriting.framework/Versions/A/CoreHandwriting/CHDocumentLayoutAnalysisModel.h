@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSingletonMLModel, NSArray, NSDictionary, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface CHDocumentLayoutAnalysisModel
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CHSingletonMLModel *_encoderModel;
-    CHSingletonMLModel *_decoderModel;
-    float _interpolationDistance;
-    float _coordinateNormalizationFactor;
-    NSString *_modelName;
-    unsigned long long _encoderBatchSize;
-    unsigned long long _maxNumStrokes;
-    unsigned long long _maxNumPointsPerStroke;
-    unsigned long long _numSignalFeaturesPerPoint;
-    unsigned long long _encoderDimension;
-    unsigned long long _decoderDimension;
-    long long _numOutputClasses;
-    long long _nontextClassIndex;
-    NSArray *_scriptCodeMap;
-    NSDictionary *_scriptCodeDictionary;
 }
 
 + (id);
 + (long long);
 - (id);
-- (id);
+- (id)0;
 - (unsigned long long);
 - (long long);
 - (long long);
@@ -47,19 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float coordinateNormalizationFactor; // @synthesize coordinateNormalizationFactor=_coordinateNormalizationFactor;
-@property(readonly, nonatomic) unsigned long long decoderDimension; // @synthesize decoderDimension=_decoderDimension;
-@property(readonly, nonatomic) unsigned long long encoderBatchSize; // @synthesize encoderBatchSize=_encoderBatchSize;
-@property(readonly, nonatomic) unsigned long long encoderDimension; // @synthesize encoderDimension=_encoderDimension;
-@property(readonly, nonatomic) float interpolationDistance; // @synthesize interpolationDistance=_interpolationDistance;
-@property(readonly, nonatomic) unsigned long long maxNumPointsPerStroke; // @synthesize maxNumPointsPerStroke=_maxNumPointsPerStroke;
-@property(readonly, nonatomic) unsigned long long maxNumStrokes; // @synthesize maxNumStrokes=_maxNumStrokes;
 @property(readonly, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly, nonatomic) long long nontextClassIndex; // @synthesize nontextClassIndex=_nontextClassIndex;
-@property(readonly, nonatomic) long long numOutputClasses; // @synthesize numOutputClasses=_numOutputClasses;
-@property(readonly, nonatomic) unsigned long long numSignalFeaturesPerPoint; // @synthesize numSignalFeaturesPerPoint=_numSignalFeaturesPerPoint;
-@property(readonly, nonatomic) NSDictionary *scriptCodeDictionary; // @synthesize scriptCodeDictionary=_scriptCodeDictionary;
-@property(readonly, nonatomic) NSArray *scriptCodeMap; // @synthesize scriptCodeMap=_scriptCodeMap;
 
 @end
 

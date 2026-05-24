@@ -5,6 +5,6 @@
 //
 
 @protocol SXVideoAdStateReporting
-- (void)edChildren;
+- (void)_addedChildren;
 @end
 

@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PETSchemaPET1Key : SISchemaInstrumentationMessage
 {
     NSString *_key;
-    _Bool _hasKey;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)em with GUID %@ because it is already unhidden. currentSyndicationRange:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)rrId;
+- (id)_hasGrrId;
 - (id)SOUtteranceAlignment",&,N,V_alignment;
 - (_Bool),È;
-- (void)RB_UNKNOWN;
-- (void)ojis;
+- (void)PEGASUSVIDEOVERB_UNKNOWN;
+- (void)recognizedEmojis;
 
 // Remaining properties
-@property(nonatomic) _Bool hasKey; // @synthesize hasKey=_hasKey;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

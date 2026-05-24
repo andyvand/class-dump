@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, NSString;
+@class CIImage;
 
 @interface PIColorWashFilter
 {
     CIImage *_inputImage;
-    CIColor *_inputColor;
-    NSString *_inputMode;
 }
 
 + (id);
@@ -32,9 +30,7 @@
 - (id)heck;
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor=_inputColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
 
 @end
 

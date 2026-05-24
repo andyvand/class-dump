@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ASRSchemaASRRecognizerComponents : SISchemaInstrumentationMessage
 {
     NSString *_frontend;
-    NSString *_decodable;
-    NSString *_decoder;
-    _Bool _hasFrontend;
-    _Bool _hasDecodable;
-    _Bool _hasDecoder;
 }
 
 - (void);
@@ -32,14 +27,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)\;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)F;
 - (id);
 - (id);
-- (id)istoryCountCount;
+- (id)tupleHistoryCountCount;
 - (id)ì	0
 À
 äÄì4Øh¬<dDÔø@d¸ !;
@@ -47,13 +42,7 @@
 - (void)LªÿÒa±QÑ&;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *decodable; // @synthesize decodable=_decodable;
-@property(copy, nonatomic) NSString *decoder; // @synthesize decoder=_decoder;
 @property(copy, nonatomic) NSString *frontend; // @synthesize frontend=_frontend;
-@property(nonatomic) _Bool hasDecodable; // @synthesize hasDecodable=_hasDecodable;
-@property(nonatomic) _Bool hasDecoder; // @synthesize hasDecoder=_hasDecoder;
-@property(nonatomic) _Bool hasFrontend; // @synthesize hasFrontend=_hasFrontend;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

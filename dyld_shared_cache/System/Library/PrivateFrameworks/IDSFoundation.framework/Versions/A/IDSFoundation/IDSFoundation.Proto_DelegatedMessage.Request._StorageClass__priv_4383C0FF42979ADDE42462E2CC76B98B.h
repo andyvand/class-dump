@@ -7,7 +7,6 @@
 @interface IDSFoundation.Proto_DelegatedMessage.Request._StorageClass__priv_4383C0FF42979ADDE42462E2CC76B98B
 {
     id _delegatedParticipantID;
-    id _innerMessage;
 }
 
 @end

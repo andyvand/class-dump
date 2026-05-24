@@ -7,7 +7,6 @@
 @interface TelephonyUtilities.FaceTimeServiceAvailabilityHelper
 {
     id queryController;
-    id preferredFromID;
 }
 
 @end

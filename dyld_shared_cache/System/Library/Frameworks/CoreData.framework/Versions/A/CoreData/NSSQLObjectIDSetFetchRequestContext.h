@@ -6,13 +6,12 @@
 
 #import <CoreData/NSSQLFetchRequestContext.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLObjectIDSetFetchRequestContext : NSSQLFetchRequestContext
 {
     NSArray *_idSets;
-    NSString *_columnName;
 }
 
 - (void);

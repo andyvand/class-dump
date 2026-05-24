@@ -6,82 +6,32 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest, SFWatchListItem;
+@class NSString;
 
 @interface SFWatchNowCardSection : SFCardSection
 {
     NSString *_type;
-    NSString *_sectionTitle;
-    SFWatchListItem *_watchListItem;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ng long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std:(id)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id)supportsCurrentPlatform;
 - (_Bool);
+- (void)NSString";
+- (id);
+- (id)ate}.8f).;
+- (id)_PHResourceLocalAvailabilityRequestResourceTypeJPEGThumbnail;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)t:triggerEvent:destination:actionTarget: /* Error: Ran out of types for this method. */;
+- (void)initWithResult:triggerEvent:destination:actionTarget: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(copy, nonatomic) NSString *sectionTitle; // @synthesize sectionTitle=_sectionTitle;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
-@property(retain, nonatomic) SFWatchListItem *watchListItem; // @synthesize watchListItem=_watchListItem;
 
 @end
 

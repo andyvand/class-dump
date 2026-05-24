@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaVersion;
+@class NSString;
 
 @interface CAMSchemaCAMModelId : SISchemaInstrumentationMessage
 {
     NSString *_modelName;
-    SISchemaVersion *_modelVersion;
-    _Bool _hasModelName;
-    _Bool _hasModelVersion;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)png;base64,%@;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)setRemainingTimeToEndOfLeg: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -30,7 +27,7 @@
 - (_Bool);
 - (id);
 - (id)ctionAdvertisingEndEnded";
-- (id)1;
+- (id)ASRSchemaASROneBestTranscriptTier1;
 - (id)Nÿÿ,NÿÿHNÿÿdNÿÿNÿÿNÿÿ¸NÿÿÔNÿÿðNÿÿOÿÿ(OÿÿDOÿÿ`Oÿÿ|OÿÿOÿÿ´OÿÿÐOÿÿìOÿÿPÿÿ$Pÿÿ@Pÿÿ\PÿÿxPÿÿPÿÿ°PÿÿÌPÿÿèPÿÿQÿÿ Qÿÿ<QÿÿXQÿÿtQÿÿQÿÿ¬QÿÿÈQÿÿäQÿÿ;
 - (void);
 - (void)!;
@@ -39,11 +36,7 @@
 - (id)üÈÿ¨C®j	*;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModelName; // @synthesize hasModelName=_hasModelName;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(retain, nonatomic) SISchemaVersion *modelVersion; // @synthesize modelVersion=_modelVersion;
 
 @end
 

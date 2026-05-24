@@ -4,37 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModel, HMFTimer, NSArray, NSDictionary, NSMutableSet, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDSettingsControllerProtocol, HMDUserDataControllerDataSource, HMDUserDataControllerDelegate, HMDUserDataControllerTimerCreator, OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserDataController
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isModifyingState;
-    _Bool _assistantAccessControlRequiresAuthenticationForSecureRequests;
-    _Bool _assistantAccessControlActivityNotificationsEnabledForPersonalRequests;
-    _Bool _isCurrentUser;
-    unsigned long long _state;
-    NSUUID *_homeUUID;
-    NSUUID *_userUUID;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    id <HMDUserDataControllerDelegate> _delegate;
-    id <HMDUserDataControllerDataSource> _dataSource;
-    id <HMDUserDataControllerTimerCreator> _timerCreator;
-    NSUUID *_sharedSettingsRootUUID;
-    NSUUID *_assistantAccessControlModelUUID;
-    NSMutableSet *_assistantAccessControlAccessoryUUIDs;
-    NSUUID *_mediaContentProfileAccessControlModelUUID;
-    NSMutableSet *_mediaContentProfileAccessControlAccessories;
-    NSUUID *_userListeningHistoryUpdateControlModelUUID;
-    NSMutableSet *_userListeningHistoryUpdateControlModelAccessories;
-    NSUUID *_privateSettingsRootUUID;
-    HMFTimer *_sharedZoneFirstLoadTimer;
-    HMFTimer *_privateZoneFirstLoadTimer;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDSettingsControllerProtocol> _sharedSettingsController;
-    id <HMDSettingsControllerProtocol> _privateSettingsController;
 }
 
 + (id)Pì:B /* Error: Ran out of types for this method. */;
@@ -43,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (long long);
@@ -52,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,34 +43,34 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void).dylib;
+- (id)Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (void)ework/Versions/A/WebKit;
+- (id)ework/Versions/A/UniformTypeIdentifiers;
+- (id);
 - (void);
 - (void);
+- (id)iconDataSource;
+- (id)homeDirectory;
+- (void)_leaveLiveMode:(id)arg1;
+- (void)ay",C,N,VstoreSubscriptionTypes;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)route to %lu participants, but state doesn't have routeInfo;
+- (void)for %{private}@;
+- (void)trip muted id %@;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -106,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)*͍R;
 - (id);
 - (void)ting home is not allowed.;
 - (id)c}@;
@@ -118,43 +93,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)=;
 
 // Remaining properties
-@property(readonly, copy) NSArray *assistantAccessControlAccessoriesToEncode;
-@property(retain) NSMutableSet *assistantAccessControlAccessoryUUIDs; // @synthesize assistantAccessControlAccessoryUUIDs=_assistantAccessControlAccessoryUUIDs;
-@property _Bool assistantAccessControlActivityNotificationsEnabledForPersonalRequests; // @synthesize assistantAccessControlActivityNotificationsEnabledForPersonalRequests=_assistantAccessControlActivityNotificationsEnabledForPersonalRequests;
-@property(readonly, copy) HMBModel *assistantAccessControlModelToReset;
-@property(retain) NSUUID *assistantAccessControlModelUUID; // @synthesize assistantAccessControlModelUUID=_assistantAccessControlModelUUID;
-@property _Bool assistantAccessControlRequiresAuthenticationForSecureRequests; // @synthesize assistantAccessControlRequiresAuthenticationForSecureRequests=_assistantAccessControlRequiresAuthenticationForSecureRequests;
-@property(readonly) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly) __weak id <HMDUserDataControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDUserDataControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
-@property(readonly) _Bool isInitialized;
-@property(retain) NSMutableSet *mediaContentProfileAccessControlAccessories; // @synthesize mediaContentProfileAccessControlAccessories=_mediaContentProfileAccessControlAccessories;
-@property(readonly, copy) NSArray *mediaContentProfileAccessControlAccessoriesToEncode;
-@property(retain) NSUUID *mediaContentProfileAccessControlModelUUID; // @synthesize mediaContentProfileAccessControlModelUUID=_mediaContentProfileAccessControlModelUUID;
-@property(retain) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) NSDictionary *privateSettingValuesByKeyPath;
-@property(readonly) id <HMDSettingsControllerProtocol> privateSettingsController; // @synthesize privateSettingsController=_privateSettingsController;
-@property(retain) NSUUID *privateSettingsRootUUID; // @synthesize privateSettingsRootUUID=_privateSettingsRootUUID;
-@property(retain, nonatomic) HMFTimer *privateZoneFirstLoadTimer; // @synthesize privateZoneFirstLoadTimer=_privateZoneFirstLoadTimer;
-@property(readonly, copy) NSDictionary *sharedSettingValuesByKeyPath;
-@property(readonly) id <HMDSettingsControllerProtocol> sharedSettingsController; // @synthesize sharedSettingsController=_sharedSettingsController;
-@property(retain) NSUUID *sharedSettingsRootUUID; // @synthesize sharedSettingsRootUUID=_sharedSettingsRootUUID;
-@property(retain, nonatomic) HMFTimer *sharedZoneFirstLoadTimer; // @synthesize sharedZoneFirstLoadTimer=_sharedZoneFirstLoadTimer;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) id <HMDUserDataControllerTimerCreator> timerCreator; // @synthesize timerCreator=_timerCreator;
-@property(retain) NSMutableSet *userListeningHistoryUpdateControlModelAccessories; // @synthesize userListeningHistoryUpdateControlModelAccessories=_userListeningHistoryUpdateControlModelAccessories;
-@property(readonly, copy) NSArray *userListeningHistoryUpdateControlModelAccessoriesToEncode;
-@property(retain) NSUUID *userListeningHistoryUpdateControlModelUUID; // @synthesize userListeningHistoryUpdateControlModelUUID=_userListeningHistoryUpdateControlModelUUID;
-@property(readonly) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

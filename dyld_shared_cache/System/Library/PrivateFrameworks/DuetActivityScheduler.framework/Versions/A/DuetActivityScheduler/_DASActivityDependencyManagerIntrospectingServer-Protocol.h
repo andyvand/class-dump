@@ -5,5 +5,7 @@
 //
 
 @protocol _DASActivityDependencyManagerIntrospectingServer
+- (void);
+- (void)r	;
 @end
 

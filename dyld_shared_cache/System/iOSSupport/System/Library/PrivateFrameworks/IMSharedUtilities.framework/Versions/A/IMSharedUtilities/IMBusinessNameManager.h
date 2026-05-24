@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSLock;
 
 @interface IMBusinessNameManager
 {
     NSLock *_cacheLock;
-    NSMutableDictionary *_cache;
-    NSMutableDictionary *_pendingRequests;
-    NSMutableDictionary *_pendingUniqueRequests;
 }
 
 + (id);
@@ -20,22 +17,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)a))`+;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)Utilities2;
+- (void);
+- (id);
+- (void)IMSharedUtilities2;
 - (void)1åÿ;
-- (id)Model;
+- (id)PersistedListModel;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *cache; // @synthesize cache=_cache;
 @property(retain) NSLock *cacheLock; // @synthesize cacheLock=_cacheLock;
-@property(retain) NSMutableDictionary *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(retain) NSMutableDictionary *pendingUniqueRequests; // @synthesize pendingUniqueRequests=_pendingUniqueRequests;
 
 @end
 

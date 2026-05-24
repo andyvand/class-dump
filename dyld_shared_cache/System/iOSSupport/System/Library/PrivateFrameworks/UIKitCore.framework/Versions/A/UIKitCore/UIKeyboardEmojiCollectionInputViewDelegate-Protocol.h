@@ -5,5 +5,8 @@
 //
 
 @protocol UIKeyboardEmojiCollectionInputViewDelegate
+
+@optional
+- (_Bool)COM_TEMP4;
 @end
 

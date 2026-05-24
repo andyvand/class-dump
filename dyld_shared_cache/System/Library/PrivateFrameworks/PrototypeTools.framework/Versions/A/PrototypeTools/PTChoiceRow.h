@@ -6,52 +6,44 @@
 
 #import <PrototypeTools/PTSRow.h>
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol PTChoiceRowDataSource;
 
 @interface PTChoiceRow : PTSRow
 {
     NSArray *_possibleValues;
-    NSArray *_possibleTitles;
-    NSArray *_possibleShortTitles;
-    id <PTChoiceRowDataSource> _dataSource;
-    NSString *_choiceIdentifier;
 }
 
 + (_Bool);
+- (id)@9;
 - (id);
-- (id);
-- (id);
+- (id)k`;
 - (id);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)QQQQQQQQQQi}16;
+- (_Bool)ay"24@?0@"VNPixelBufferObservation"8^@16;
 - (void);
 - (long long);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void).apple.xbs/TemporaryDirectory.duXmje/Sources/Admin/InternetServices.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *choiceIdentifier; // @synthesize choiceIdentifier=_choiceIdentifier;
 @property(nonatomic) __weak id <PTChoiceRowDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(copy, nonatomic) NSArray *possibleShortTitles; // @synthesize possibleShortTitles=_possibleShortTitles;
-@property(copy, nonatomic) NSArray *possibleTitles; // @synthesize possibleTitles=_possibleTitles;
-@property(copy, nonatomic) NSArray *possibleValues; // @synthesize possibleValues=_possibleValues;
 
 @end
 

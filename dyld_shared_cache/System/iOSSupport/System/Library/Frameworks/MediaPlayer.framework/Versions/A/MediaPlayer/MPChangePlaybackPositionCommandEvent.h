@@ -11,16 +11,14 @@
 @interface MPChangePlaybackPositionCommandEvent : MPRemoteCommandEvent
 {
     double _positionTime;
-    NSNumber *_referenceTime;
 }
 
 - (double);
-- (id);
+- (id)commentStmt;
 - (id);
 - (void)ormDialogActionCommand;
 
 // Remaining properties
-@property(readonly, nonatomic) double positionTime; // @synthesize positionTime=_positionTime;
 @property(readonly, nonatomic) NSNumber *referenceTime; // @synthesize referenceTime=_referenceTime;
 
 @end

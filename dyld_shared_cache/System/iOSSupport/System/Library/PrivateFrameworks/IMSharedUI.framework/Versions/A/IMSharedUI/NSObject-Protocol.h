@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)er<void (bool)> &&);
+- (id), CompletionHandler<void (bool)> &&);
+- (id)rocessNotificationEvent(const NotificationData &, NotificationEventType, CompletionHandler<void (bool)> &&);
+- (id)vent;
+- (id)view(s);
+- (Class)uest &&, WebCore::StoredCredentialsPolicy, std::optional<NavigatingToAppBoundDomain>) /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (NSString *)B;
+- (id);
+- (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -11,7 +11,6 @@
 @interface EWSPullSubscription : EWSSubscription
 {
     _Bool _shouldPull;
-    EWSExchangeServiceBindingTask *_pullTask;
 }
 
 - (_Bool);
@@ -19,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain) EWSExchangeServiceBindingTask *pullTask; // @synthesize pullTask=_pullTask;
-@property _Bool shouldPull; // @synthesize shouldPull=_shouldPull;
 
 @end
 

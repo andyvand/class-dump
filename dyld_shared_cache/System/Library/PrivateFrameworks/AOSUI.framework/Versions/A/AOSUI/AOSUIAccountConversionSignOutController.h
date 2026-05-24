@@ -11,7 +11,8 @@
     AIDAServiceOwnersManager *_serviceOwnersManager;
 }
 
-- (void);
+- (void)K(
+!(q	3;
 - (id);
 - (void);
 - (void);

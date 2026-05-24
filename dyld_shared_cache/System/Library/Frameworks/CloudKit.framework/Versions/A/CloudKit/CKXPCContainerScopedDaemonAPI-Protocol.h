@@ -7,16 +7,17 @@
 @class CKDeclineSharesOperationInfo, CKFetchShareParticipantsOperationInfo;
 
 @protocol CKXPCContainerScopedDaemonAPI
+- (void);
 - (void)erationCallbacks>",R,D,N;
-- (void)ingAsset;
+- (void)CKStreamingAsset;
 - (void);
-- (void)eckOptions;
+- (void)CKDeviceCapabilityCheckOptions;
 - (void)¬;
 - (void)ÐèÐÄÑ;
 - (void)9;
 - (void)Ô;
 - (void)r deleting toc entries for table delete:(CKFetchShareParticipantsOperationInfo *)arg1 %@;
-- (void)AccessRequestOperation;
+- (void)CKShareAccessRequestOperation;
 - (void)<%{public}@:(CKDeclineSharesOperationInfo *)arg1 %p; %{public}@> with error %@;
 - (void)%{public}@ calling out about an archived record with id %@;
 - (void)c}@ finished replace mergeable deltas request callback for %@ with error:(unsigned long long)arg1 %@;
@@ -24,13 +25,13 @@
 ÕÿÜÕÿØÕÿðÕÿ,Õÿ4ÕÿÕÿìÕÿÌÕÿÕÿ¨Õÿ$Õÿø*Õÿ4Õÿô<ÕÿðEÕÿÄKÕÿQÕÿtWÕÿxYÕÿlZÕÿpYÕÿ`\ÕÿhYÕÿdYÕÿ`YÕÿaÕÿ bÕÿ<cÕÿìcÕÿXfÕÿ8iÕÿmÕÿønÕÿØpÕÿdrÕÿ;
 - (void)ÿüÿ ÿüÿ¬ÿüÿ¸ÿüÿÄÿüÿÐÿüÿÜÿüÿèÿüÿôÿüÿ;
 - (void)g lived operations;
-- (void)icipantStatus;
-- (void)ing;
-- (void)OpenFailed;
+- (void)ParticipantStatus;
+- (void)W3CNavigationTiming;
+- (void)PackageDBOpenFailed;
 - (void)ber"8@"NSNumber"16;
 - (void)ly Unavailable;
-- (void)ificationKey;
-- (void)ndex;
+- (void)AssetVerificationKey;
+- (void)sizeOfSectionAtIndex;
 - (void)n;
 - (void)AY=cSg;
 - (void)et;

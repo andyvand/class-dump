@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSDate, NSNumber, NSString, SAMovieV2MovieDetailSnippet;
+@class NSArray;
 
 @interface SAMovieV2MovieListCell : SADomainObject
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,17 +28,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *displayableShowtimes;
-@property(retain, nonatomic) SAMovieV2MovieDetailSnippet *movieDetailSnippet;
-@property(copy, nonatomic) NSString *movieName;
-@property(copy, nonatomic) NSArray *posterImages;
-@property(copy, nonatomic) NSNumber *qualityRating;
-@property(copy, nonatomic) NSString *rating;
-@property(copy, nonatomic) NSDate *theatricalReleaseDate;
 
 @end
 

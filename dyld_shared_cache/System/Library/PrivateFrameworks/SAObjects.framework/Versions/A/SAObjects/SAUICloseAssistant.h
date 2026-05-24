@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)onsPlayoff;
++ (id)InterConfederationsPlayoff;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reason;

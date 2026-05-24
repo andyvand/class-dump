@@ -6,80 +6,68 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIStatusBarForegroundStyleAttributes, UIStatusBarItem, UIStatusBarLayoutManager, _UILegibilityImageSet, _UILegibilityView;
+@class UIStatusBarItem;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarItemView : UIView
 {
     double _currentOverlap;
-    struct CGContext *_imageContext;
-    double _imageContextScale;
-    _UILegibilityView *_legibilityView;
-    _UILegibilityImageSet *_lastGeneratedTextImage;
-    double _lastGeneratedTextImageLetterSpacing;
-    NSString *_lastGeneratedTextImageText;
-    _Bool _visible;
-    _Bool _allowsUpdates;
-    _Bool _shouldTintContentImage;
-    UIStatusBarItem *_item;
-    UIStatusBarLayoutManager *_layoutManager;
-    UIStatusBarForegroundStyleAttributes *_foregroundStyle;
 }
 
 + (id);
+- (void)_unreadMessagesWithRoomNames:(id)arg1 onServices:limit:fallbackGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)_unreadMessagesWithRoomNames:(id)arg1 onServices:(int)arg2 limit:fallbackGUID: /* Error: Ran out of types for this method. */;
+- (double)_syncOperationGroupName;
+- (_Bool)"__IMDBackwardCompatibilityMessageIdentifier",&,N,V_swiftImplementation;
+- (double),&,V_lastSentDowngradeRequestSinceLoadDate;
+- (void)_unformattedID;
+- (void)Hash;
+- (double)IMiMessageMaxTransferAudioFileSizeForWifiForPhoneNumber:(id)arg1 cellSize:(int)arg2 serverConfigurationBag:phoneNumber:simID: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (void)dY@;
+- (void);
+- (double)d;
+- (void)H;
 - (double);
-- (_Bool);
 - (double);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (double);
-- (double);
+- (double)}};
+- (id)y:(id)arg1 %s, localeID:(id)arg2 %s, preferredLocalization:(int)arg3 %s;
+- (id)livery receipt;
+- (id)e %s, took %fs;
+- (id)for %s, attaching to %s with range %s, took %fs;
+- (id)ot exist. Bailing and passing input to next pipeline;
+- (double).;
+- (double)MessageContext, bail.;
+- (void)poraryTransferGUIDsOn got something thats not a IMMessageItem:%@ /* Error: Ran out of types for this method. */;
+- (double)ndex:%@ for %@ as clean /* Error: Ran out of types for this method. */;
+- (double)able messages zone %@;
+- (double)fetching the recoverable messages again %@;
+- (id)exing of %@;
+- (id)messages enabled;
+- (void)ased on groupID:%@ /* Error: Ran out of types for this method. */;
+- (id)x%llx; subject='%@' text='%@' messageID:(id)arg1 %lld GUID:(double)arg2 '%@' sortID:(double)arg3 %lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)nated:(double)arg1 %{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)zIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (_Bool)as having been updated %@;
+- (_Bool)oSave was passed in a nil records array;
+- (_Bool)ted fetch chat operation ID %@;
+- (double)SMSFilterSyncDeviceParams array. Need to update filter params.;
+- (double)ing accept chat command:(double)arg1 %@, %@;
+- (void)l sync state, flags %x;
 - (double);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (void);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (void);
-- (double);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)\J;
+- (void)ects WHERE identifier = @identifier AND person_id = @personID AND source = @source LIMIT 1;
+- (_Bool)P;
 - (id);
 - (_Bool)0@ù
 × ;
-- (void);
+- (void)colorTemperature;
 - (id)es;
-- (id);
+- (id)_UIFeedbackCoreHapticsIgnoreCaptureHapticsOnlyEngine;
 - (void)[;
 - (void)<ñÉZc;
 - (long long)e;
@@ -91,12 +79,7 @@ __attribute__((visibility("hidden")))
 - (long long)Òë(k;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsUpdates; // @synthesize allowsUpdates=_allowsUpdates;
-@property(readonly, nonatomic) UIStatusBarForegroundStyleAttributes *foregroundStyle; // @synthesize foregroundStyle=_foregroundStyle;
 @property(readonly, nonatomic) UIStatusBarItem *item; // @synthesize item=_item;
-@property(nonatomic) __weak UIStatusBarLayoutManager *layoutManager; // @synthesize layoutManager=_layoutManager;
-@property(readonly, nonatomic) _Bool shouldTintContentImage; // @synthesize shouldTintContentImage=_shouldTintContentImage;
-@property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_IconView, NSColor, NSImage, NSString;
+@class FI_IconView;
 
 @interface FIIconView
 {
@@ -40,18 +40,18 @@
 - (struct CGRect);
 - (unsigned long long);
 - (void);
-- (double);
+- (double)lidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)I;
 - (void);
+- (struct CGRect)LibCall_ACMContextGetData;
 - (void);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)highlightedMessagesViewDidProvideFeedbackForMessage:feedbackType:feedbackFeature: /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
+- (id)setActionDeleteMessage:(id)arg1;
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void)@"CALayer";
 - (void);
@@ -59,21 +59,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(getter=isDropTarget) _Bool dropTarget;
-@property unsigned long long gridSpacing;
-@property(copy, nonatomic) NSImage *iconImage;
-@property struct CGSize iconImageSize;
-@property(getter=isSelected) _Bool selected;
-@property long long style;
-@property(getter=isSubtitleEnabled) _Bool subtitleEnabled;
-@property(copy) NSColor *subtitleFontColor;
-@property(copy) NSString *subtitleStr;
 @property(getter=isTitleEnabled) _Bool titleEnabled;
-@property(copy) NSColor *titleFontColor;
-@property double titleFontSize;
-@property(getter=isTitleOnBottom) _Bool titleOnBottom;
-@property(copy) NSString *titleStr;
-@property _Bool useActiveAppearance;
 
 @end
 

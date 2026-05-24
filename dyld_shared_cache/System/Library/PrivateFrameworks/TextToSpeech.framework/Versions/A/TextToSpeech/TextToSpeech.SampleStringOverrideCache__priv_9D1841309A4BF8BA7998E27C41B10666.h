@@ -7,7 +7,6 @@
 @interface TextToSpeech.SampleStringOverrideCache__priv_9D1841309A4BF8BA7998E27C41B10666
 {
     id _cache;
-    id _lock;
 }
 
 @end

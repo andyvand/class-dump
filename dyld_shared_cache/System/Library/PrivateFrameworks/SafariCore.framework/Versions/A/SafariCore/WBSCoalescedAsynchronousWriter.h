@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source, WBSCoalescedAsynchronousWriterDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue, WBSCoalescedAsynchronousWriterDelegate;
 
 @interface WBSCoalescedAsynchronousWriter
 {
     NSObject<OS_dispatch_queue> *_diskAccessQueue;
-    NSURL *_fileURL;
-    CDUnknownBlockType _writerBlock;
-    CDUnknownBlockType _dataSourceBlock;
-    NSObject<OS_dispatch_queue> *_dataSourceQueue;
-    NSDictionary *_fileResourceValues;
-    CDUnknownBlockType _plistDictionarySourceBlock;
-    unsigned long long _plistFormat;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_source> *_timer;
-    double _writeDelayInterval;
-    NSObject<OS_dispatch_group> *_writeGroup;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _suddenTerminationDisabler;
-    _Bool _done;
-    NSString *_name;
-    id <WBSCoalescedAsynchronousWriterDelegate> _delegate;
 }
 
-- (void);
+- (void)_displayBox;
 - (id);
 - (id);
 - (void);
@@ -38,20 +23,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)newAdornmentLayerForAnnotation:(id)arg1 withPageController:(id)arg2;
+- (id)mutableClass;
 - (id);
 - (void);
 - (id);
+- (id)8;
+- (id)_pairingIDPropertyName;
 - (void);
-- (id);
+- (id)isMinorAccountHolder;
+- (void);
+- (id)	;
 - (id);
 - (void);
-- (id);
+- (id)decodeObjectOfClass:(id)arg1 forKey:(id)arg2;
 - (id);
 - (void);
 - (void);

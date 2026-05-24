@@ -7,8 +7,6 @@
 @interface SGEntityTagLabelOptions
 {
     _Bool stored;
-    _Bool indexed;
-    _Bool tracked;
 }
 
 @end

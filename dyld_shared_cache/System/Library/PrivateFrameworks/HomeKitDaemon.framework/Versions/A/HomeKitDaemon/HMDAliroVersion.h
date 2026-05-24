@@ -9,8 +9,6 @@
 @interface HMDAliroVersion
 {
     id expeditedTransactionSupportedVersions;
-    id bleUWBSupportedVersions;
-    id bleAdvertisingVersions;
 }
 
 - (id);

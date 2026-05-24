@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, NSUUID, RTMapItemMO;
+@class NSDate, RTMapItemMO;
 
 @interface RTVehicleEventMO
 {
     RTMapItemMO *cachedMapItem;
 }
 
-+ (id);
++ (id)nary=}16;
 - (void)ù
 × ;
-- (id);
+- (id)interfaceTypeFromMessageType: /* Error: Ran out of types for this method. */;
 - (void)IMonitorEnabler",&,N,V_bluePOIMonitorEnabler;
 - (id)Monitor;
 - (void)vg,%{public}.3lf,dtwForUnmatchedTripAvg,%{public}.3lf,routeLengthAvg,%{public}.3lf,tripsToFormLearnedRouteAvg,%{public}.3lf,waypointCountAvg,%{public}.3lf,clusterProcessingRunTimeAvg,%{public}.3lf;
 
 // Remaining properties
-@property(retain, nonatomic) RTMapItemMO *cachedMapItem; // @synthesize cachedMapItem;
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSDate *locDate; // @dynamic locDate;
-@property(copy, nonatomic) NSNumber *locLatitude; // @dynamic locLatitude;
-@property(copy, nonatomic) NSNumber *locLongitude; // @dynamic locLongitude;
-@property(copy, nonatomic) NSNumber *locReferenceFrame; // @dynamic locReferenceFrame;
-@property(copy, nonatomic) NSNumber *locUncertainty; // @dynamic locUncertainty;
-@property(copy, nonatomic) NSNumber *locationQuality; // @dynamic locationQuality;
-@property(copy, nonatomic) NSUUID *mapItemIdentifier; // @dynamic mapItemIdentifier;
-@property(copy, nonatomic) NSString *notes; // @dynamic notes;
-@property(retain, nonatomic) NSData *photoData; // @dynamic photoData;
-@property(copy, nonatomic) NSNumber *userSetLocation; // @dynamic userSetLocation;
-@property(copy, nonatomic) NSNumber *usualLocation; // @dynamic usualLocation;
-@property(copy, nonatomic) NSString *vehicleIdentifier; // @dynamic vehicleIdentifier;
 
 @end
 

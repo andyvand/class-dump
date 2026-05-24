@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWDeferredCaptureAnalyticsPayload
 {
     int _error;
-    int _processingType;
-    _Bool _fileBacked;
-    unsigned int _commitDurationInMilliseconds;
-    unsigned int _flushDurationInMilliseconds;
 }
 
 - (void);
@@ -26,25 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)0u;
 - (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int commitDurationInMilliseconds; // @synthesize commitDurationInMilliseconds=_commitDurationInMilliseconds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int error; // @synthesize error=_error;
-@property(nonatomic) _Bool fileBacked; // @synthesize fileBacked=_fileBacked;
-@property(nonatomic) unsigned int flushDurationInMilliseconds; // @synthesize flushDurationInMilliseconds=_flushDurationInMilliseconds;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int processingType; // @synthesize processingType=_processingType;
-@property(readonly) Class superclass;
 
 @end
 

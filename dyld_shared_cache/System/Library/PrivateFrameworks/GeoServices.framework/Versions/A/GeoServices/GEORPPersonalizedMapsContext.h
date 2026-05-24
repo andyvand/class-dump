@@ -9,13 +9,10 @@
 @interface GEORPPersonalizedMapsContext
 {
     PBUnknownFields *_unknownFields;
-    int _addressType;
-    int _placeType;
-    CDStruct_2d9f5d20 _flags;
 }
 
-+ (_Bool)LatitudeDelta:(id)arg1;
-- (void);
++ (_Bool)setLatitudeDelta:(id)arg1;
+- (void)unsignedIntegerValue;
 - (_Bool);
 - (id);
 - (int);
@@ -28,28 +25,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_shouldRequestSingleChannelFromAudioProvider;
+- (void)CSVoiceProfileContext;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id){?="read_purposeDenylists"b1"read_builds"b1"read_coord"b1"read_precisions"b1"read_tiles"b1"wrote_anyField"b1};
-- (id)ds;
+- (id)clearEditeds;
 - (id)J\KÌK;
-- (id)ONENT_TYPE_RELATED_PLACE;
+- (id)COMPONENT_TYPE_RELATED_PLACE;
 - (void);
 - (void);
 - (int)a2ÑM@;
 - (_Bool)3;
 
 // Remaining properties
-@property(nonatomic) int addressType;
 @property(nonatomic) _Bool hasAddressType;
-@property(nonatomic) _Bool hasPlaceType;
-@property(nonatomic) int placeType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -6,33 +6,17 @@
 
 #import <AppKit/NSController.h>
 
-@class NSArray, NSManagedObjectContext, NSPredicate, NSString;
+@class NSManagedObjectContext;
 
 @interface NSObjectController : NSController
 {
     id _content;
-    id _objectHandler;
-    id _managedProxy;
-    struct __objectControllerFlags {
-        unsigned int _editable:1;
-        unsigned int _automaticallyPreparesContent:1;
-        unsigned int _hasLoadedData:1;
-        unsigned int _explicitlyCannotAdd:1;
-        unsigned int _explicitlyCannotRemove:1;
-        unsigned int _isUsingManagedProxy:1;
-        unsigned int _hasFetched:1;
-        unsigned int _batches:1;
-        unsigned int _reservedObjectController:24;
-    } _objectControllerFlags;
-    NSString *_objectClassName;
-    Class _objectClass;
-    NSArray *_contentObjectArray;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)b;
 + (Class);
 + (void);
 - (_Bool);
@@ -41,63 +25,63 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
+- (id);
+- (id)?q@"NSURLCredential">32;
+- (_Bool)checked__willUseEffectiveConfiguration;
+- (_Bool)backgroundTask:didReceiveChallenge:reply: /* Error: Ran out of types for this method. */;
+- (void)_requiresPowerPluggedIn;
+- (_Bool)_phskip_urlCacheSet;
+- (_Bool);
+- (_Bool)z;
+- (id)public}@> an error occurred on the xpc connection to setup the background session:(id)arg1 %@;
+- (id)ry to reconnect;
+- (id)blic}@> no connection to background transfer daemon, and will not try to reconnect;
+- (void)d HSTS Policy now;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ective fill:(id)arg1 %.2f;
+- (void).cpp;
+- (_Bool)tic const char *_PNAME<HTTPServerRequest>:(id)arg1:(_Bool)arg2 GET() [OBJTYPE = HTTPServerRequest];
+- (id)kCFDNSServiceFailureKey;
+- (id)NSErrorFailingURLStringKey;
+- (void)kCFFTPResourceSize;
+- (void)_kCFNetworkErrorConditionalRequestKey;
+- (void)kCFURLRequestContentDecoderSkipURLCheck;
+- (_Bool)storage;
+- (void)ate %@;
+- (id)ling initWithDictionary: /* Error: Ran out of types for this method. */;
+- (id)waiterKey;
+- (_Bool)nsurlsessiond/Downloads;
+- (_Bool)BBBBQQ}8;
+- (void)lled;
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)E;
 - (id);
-- (id);
-- (void);
+- (void)dw;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24@0:(_Bool)arg1 8^{_CGLPixelFormatObject=}16;
-- (void)nimate;
-- (void)rCocoaSheetsAttachedToCarbonModalParent;
+- (void)shouldAnimate;
+- (void)_removeCocoaWindowEventHandlersForCocoaSheetsAttachedToCarbonModalParent;
 - (void)¤;
 - (void)H;
 - (void)¤;
@@ -112,18 +96,7 @@
 - (id)ÿomÖG;
 
 // Remaining properties
-@property _Bool automaticallyPreparesContent;
-@property(readonly) _Bool canAdd;
-@property(readonly) _Bool canRemove;
-@property(retain) id content;
-@property(getter=isEditable) _Bool editable;
-@property(copy) NSString *entityName;
-@property(retain) NSPredicate *fetchPredicate;
 @property(retain) NSManagedObjectContext *managedObjectContext;
-@property Class objectClass;
-@property(readonly, copy) NSArray *selectedObjects;
-@property(readonly) id selection;
-@property _Bool usesLazyFetching;
 
 @end
 

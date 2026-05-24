@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface DiagnosticsProcessInfo
 {
     NSMutableArray *_urls;
-    unsigned long long _pid;
-    unsigned long long _age;
-    double _residentSize;
-    double _cpuUsage;
-    double _powerScore;
-    double _score;
 }
 
 + (id);
@@ -24,26 +18,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (double);
 - (unsigned long long);
 - (double);
 - (id);
 - (double);
-- (void);
-- (double)PresenceOfSchemaOrgMarkup;
+- (void)a-zA-Z0-9_\-\.:(unsigned long long)arg1 ]*+)?|(/sessions)(/[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})(/subscriptions)(/[a-zA-Z0-9_][a-zA-Z0-9_\-\.:]*+)?)$ /* Error: Ran out of types for this method. */;
+- (double)determinePresenceOfSchemaOrgMarkup;
 - (unsigned long long);
 - (void)ncel a prompt asking whether the user wants to open an external app.;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long age; // @synthesize age=_age;
-@property(nonatomic) double cpuUsage; // @synthesize cpuUsage=_cpuUsage;
 @property(readonly) unsigned long long pid; // @synthesize pid=_pid;
-@property(nonatomic) double powerScore; // @synthesize powerScore=_powerScore;
-@property(nonatomic) double residentSize; // @synthesize residentSize=_residentSize;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

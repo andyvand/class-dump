@@ -6,32 +6,27 @@
 
 #import <TSUtility/TSUProgress.h>
 
-@class NSObject, TSUScaledProgressStorage;
-@protocol OS_dispatch_queue;
+@class TSUScaledProgressStorage;
 
 @interface TSUScaledProgress : TSUProgress
 {
     TSUScaledProgressStorage *mStorage;
-    TSUProgress *mProgress;
-    id mProgressObserver;
-    NSObject<OS_dispatch_queue> *mProgressQueue;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)p;
 - (double);
 - (void);
-- (void);
+- (void)pVariationOfStyle:(double)arg1 propertyMap:matchStyles:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property double maxValue;
 @property(retain) TSUProgress *progress;
 
 @end

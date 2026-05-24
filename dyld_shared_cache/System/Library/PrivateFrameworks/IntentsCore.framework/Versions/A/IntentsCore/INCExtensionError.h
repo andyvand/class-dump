@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface INCExtensionError
 {
     long long _errorCode;
-    NSError *_underlyingError;
 }
 
 - (id);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property long long errorCode; // @synthesize errorCode=_errorCode;
-@property(copy) NSError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

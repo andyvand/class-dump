@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAssetCollection, PXTimelineCrop;
+@class PXTimelineCrop;
 
 @interface PXTimelineDataItem
 {
     PXTimelineCrop *_suggestedCrop;
-    PHAssetCollection *_assetCollection;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -20,7 +19,6 @@
 - (void)å¹ ;
 
 // Remaining properties
-@property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
 @property(retain, nonatomic) PXTimelineCrop *suggestedCrop; // @synthesize suggestedCrop=_suggestedCrop;
 
 @end

@@ -10,10 +10,10 @@
 {
 }
 
-- (void);
+- (void)ounts:(struct CGPoint)arg1 %@;
 - (id);
 - (id);
-- (id)tion:(id)arg1;
+- (id)startAnimation:(id)arg1;
 - (id)w­;
 - (id)ÿp´Î.p;
 - (id)bÐ¬s;

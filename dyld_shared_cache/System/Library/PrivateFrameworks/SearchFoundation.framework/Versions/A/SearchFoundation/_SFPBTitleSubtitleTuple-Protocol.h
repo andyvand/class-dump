@@ -7,10 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBTitleSubtitleTuple
+- (void);
+- (NSData *)N,V_assetsHelper;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *subtitle;
 @property(copy, nonatomic) NSString *title;
 @end
 

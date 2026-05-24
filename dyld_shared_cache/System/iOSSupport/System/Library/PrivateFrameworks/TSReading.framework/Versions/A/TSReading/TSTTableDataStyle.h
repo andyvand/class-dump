@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s missing successful purchases. Create a Task to iterate Transaction.updates at launch.;
 
 @end
 

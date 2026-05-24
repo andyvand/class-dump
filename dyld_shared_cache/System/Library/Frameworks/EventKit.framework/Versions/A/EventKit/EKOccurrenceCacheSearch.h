@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSNumber, NSSet, NSString;
+@class NSSet;
 
 @interface EKOccurrenceCacheSearch
 {
     NSSet *_calendars;
-    NSString *_searchTerm;
-    EKEventStore *_store;
-    CDUnknownBlockType _callback;
-    NSNumber *_replyID;
-    _Bool _canceled;
 }
 
-+ (id);
-- (void);
++ (id)ice %@ %@;
+- (void)undation;
 - (int);
 - (id);
 - (void);
@@ -25,16 +20,10 @@
 - (id);
 - (void)
 × ;
-- (void)seTempObjectIDReverseMap;
+- (void)_rebaseTempObjectIDReverseMap;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

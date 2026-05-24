@@ -7,7 +7,6 @@
 @interface ContactsUICore.ContactCardHeroView.Model
 {
     id contact;
-    id _representation;
 }
 
 @end

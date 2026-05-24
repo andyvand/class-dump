@@ -7,9 +7,6 @@
 @interface NewsUI2.NewsShortcutItemHandler
 {
     id navigator;
-    id userActivityDeserializer;
-    id tracker;
-    id patterns;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, SAReminderTrigger;
+@class NSString;
 
 @interface SAReminderListSearch : SADomainCommand
 {
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountName;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SAReminderTrigger *trigger;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, NSString;
+@class NSString;
 
 @interface GEOResultRefinementSortElement
 {
     NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
 }
 
-- (id);
-- (id);
+- (id)contactsWithData:(id)arg1 inContext: /* Error: Ran out of types for this method. */;
+- (id)leDictionary",&,V_persistentStoreCoordinators;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)xpiringKeys;
+- (void)expiringKeys;
 - (void);á%8@P@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) GEOPDResultRefinementMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

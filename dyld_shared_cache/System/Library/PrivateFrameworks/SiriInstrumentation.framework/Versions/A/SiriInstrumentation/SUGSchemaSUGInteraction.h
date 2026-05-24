@@ -6,28 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SUGSchemaSUGInteraction : SISchemaInstrumentationMessage
 {
     NSString *_relatedSuggestionId;
-    unsigned int _relatedSuggestionEventSequenceNum;
-    unsigned int _relatedSuggestionsShownCount;
-    _Bool _hasOccurredWithinHour;
-    int _triggerType;
-    struct {
-        unsigned int relatedSuggestionEventSequenceNum:1;
-        unsigned int relatedSuggestionsShownCount:1;
-        unsigned int hasOccurredWithinHour:1;
-        unsigned int triggerType:1;
-    } _has;
-    _Bool _hasRelatedSuggestionId;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -50,28 +39,18 @@
 - (id);
 - (void);
 - (int);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)queue>";
+- (_Bool)markCalendarMenuItemAsSelected:(id)arg1;
+- (_Bool)ULT 0;
 - (id);
 - (id);
-- (id)umInsertions;
-- (id)ce;
+- (id)deleteNumInsertions;
+- (id)_hasTrialNamespace;
 - (void);
-- (void)rrorsReported;
+- (void)mobileAssetErrorsReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasOccurredWithinHour;
-@property(nonatomic) _Bool hasOccurredWithinHour; // @synthesize hasOccurredWithinHour=_hasOccurredWithinHour;
-@property(nonatomic) _Bool hasRelatedSuggestionEventSequenceNum;
-@property(nonatomic) _Bool hasRelatedSuggestionId; // @synthesize hasRelatedSuggestionId=_hasRelatedSuggestionId;
-@property(nonatomic) _Bool hasRelatedSuggestionsShownCount;
-@property(nonatomic) _Bool hasTriggerType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int relatedSuggestionEventSequenceNum; // @synthesize relatedSuggestionEventSequenceNum=_relatedSuggestionEventSequenceNum;
 @property(copy, nonatomic) NSString *relatedSuggestionId; // @synthesize relatedSuggestionId=_relatedSuggestionId;
-@property(nonatomic) unsigned int relatedSuggestionsShownCount; // @synthesize relatedSuggestionsShownCount=_relatedSuggestionsShownCount;
-@property(nonatomic) int triggerType; // @synthesize triggerType=_triggerType;
 
 @end
 

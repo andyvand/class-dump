@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol FCOperationIdentifying
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *longOperationDescription;
 @property(readonly, nonatomic) NSString *shortOperationDescription;
 @end
 

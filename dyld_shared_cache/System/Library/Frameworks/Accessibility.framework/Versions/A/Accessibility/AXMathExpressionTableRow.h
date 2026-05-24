@@ -13,9 +13,9 @@
     NSArray *_expressions;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)noting the timeout; calling code should now unschedule session;
+- (id)ror:] /* Error: Ran out of types for this method. */;
+- (void)lumeRevertRequirements(%@);
 - (void);
 
 // Remaining properties

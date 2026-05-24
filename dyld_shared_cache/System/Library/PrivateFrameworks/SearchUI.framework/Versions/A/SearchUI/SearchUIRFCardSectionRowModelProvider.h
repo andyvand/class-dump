@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     id builderContext;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 @end
 

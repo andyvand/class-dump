@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHouseholdMetricsClient, HMDHouseholdMetricsMessagingProvider, HMDHouseholdMetricsServer, HMMDateProvider, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMMDateProvider, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdMetricsManager
 {
     NSUUID *_messageTargetUUID;
-    HMMDateProvider *_dateProvider;
-    HMDHouseholdMetricsClient *_client;
-    HMDHouseholdMetricsServer *_server;
-    HMDHouseholdMetricsMessagingProvider *_messagingProvider;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)ÏB;
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
@@ -33,23 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)·`Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDHouseholdMetricsClient *client; // @synthesize client=_client;
 @property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly, nonatomic) HMDHouseholdMetricsMessagingProvider *messagingProvider; // @synthesize messagingProvider=_messagingProvider;
-@property(readonly, nonatomic) HMDHouseholdMetricsServer *server; // @synthesize server=_server;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

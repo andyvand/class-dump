@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface BOSLogCollector
 {
     _Bool _initializedFromNVRAMState;
-    NSDate *_startDate;
-    NSString *_sessionUUID;
-    NSString *_macOSBridgeOSInstallLog;
-    NSString *_macOSBridgeOSSoftwareUpdateControllerLog;
-    NSString *_bridgeOSLog;
 }
 
 + (_Bool);
@@ -41,19 +36,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/A/GenerativePartnerServiceUI;
 
 // Remaining properties
-@property(retain) NSString *bridgeOSLog; // @synthesize bridgeOSLog=_bridgeOSLog;
-@property _Bool initializedFromNVRAMState; // @synthesize initializedFromNVRAMState=_initializedFromNVRAMState;
-@property(retain) NSString *macOSBridgeOSInstallLog; // @synthesize macOSBridgeOSInstallLog=_macOSBridgeOSInstallLog;
-@property(retain) NSString *macOSBridgeOSSoftwareUpdateControllerLog; // @synthesize macOSBridgeOSSoftwareUpdateControllerLog=_macOSBridgeOSSoftwareUpdateControllerLog;
-@property(retain) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

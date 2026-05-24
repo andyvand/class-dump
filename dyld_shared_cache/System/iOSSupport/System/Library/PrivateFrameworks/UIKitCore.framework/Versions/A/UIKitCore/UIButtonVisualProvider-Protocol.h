@@ -8,10 +8,13 @@
 @protocol UIHoverEffect, UIPointerInteractionAnimating;
 
 @protocol UIButtonVisualProvider
++ (_Bool)setPayloadLDAPSearchSettingSearchBase: /* Error: Ran out of types for this method. */;
+- (void)setStatusDataRoamingEnabled:(_Bool)arg1;
+- (void);
 - (void)1Â0@ù
 × ;
-- (void)eEnableProKeyboard:(UIView *)arg1;
-- (void)eractingReleaseFeedback;
+- (void)updateEnableProKeyboard:(UIView *)arg1;
+- (void)_userInteractingReleaseFeedback;
 - (struct CGRect)ÿÿ¤Ô;
 - (UIImageView *);
 - (struct CGSize)Ü;
@@ -30,33 +33,34 @@
 - (double);
 - (void);
 - (void)Rsïÿ4ßîÿ;
-- (void)LargeBackground;
-- (void)lue;
+- (void)_nonLargeBackground;
+- (void)Value;
 - (UIView *)age_$_cornerRadii;
 - (CDStruct_c3b9c2ee)horizontalTextInset;
-- (void)ndex;
+- (void)secondaryEdgeColumnIndex;
 - (void)must be before End Date (%@);
 - (UIPreviewParameters *)er.BatteryWidget;
 - (void)@:(id <UIPointerInteractionAnimating>)arg1 %@ keyboard; backdropStyle = %ld, floating = %d;
 - (void)ct != nil;
-- (void)CMENUITEM_APP_SERVICES;
+- (void)MACMENUITEM_APP_SERVICES;
 - (void):(long long)arg1 %d
 ;
-- (_Bool)ttomSafeArea;
+- (_Bool)UIKeyboardLayoutGuideUsesBottomSafeArea;
 - (void)Map(NSObject *, NSString *, NSMutableDictionary *, NSString *);
-- (struct CGRect)otification;
+- (struct CGRect)_UISBHSMainHostWindowDidStartLiveResizeNotification;
 - (void)ady active!;
-- (void)olorCandidateBarHighlight;
-- (UIContextMenuConfiguration *)ectionRangeAdjustmentContainerView;
+- (void)UIKBColorCandidateBarHighlight;
+- (UIContextMenuConfiguration *)_UITextSelectionRangeAdjustmentContainerView;
+- (void)_UIScreenUniqueIdDidChangeNotification;
 - (UIView *)olumn %lu is missing for row %lu of bitmap data:%@ /* Error: Ran out of types for this method. */;
 - (UIView *)ecognition;
 - (void)undTaskInfo fireExpirationHandler];
 - (UIVisualEffectView *)rFocusableInFocusSystem(__strong id<UIFocusItem>, UIFocusSystem *__strong, BOOL, BOOL);
 - (void)@"UIButton"8@"_UIButtonConfigurationState"16;
 - (void)roller"40d48;
-- (_Bool)AugmentedPopGesture;
+- (_Bool)UIUseAugmentedPopGesture;
 - (void)initial attributes:(struct CGSize)arg1 %@; layout query:%@; collection view:%@;  data source counts:%@ /* Error: Ran out of types for this method. */;
-- (UIShape *)Dismissed;
+- (UIShape *)CreateNewEmojiDismissed;
 - (void)identifier %@;
 - (void)__strong, BOOL);
 - (struct CGRect)B16@?0@"_UIViewServiceSessionActivityRecord"8;
@@ -77,14 +81,6 @@
 - (UIView *);
 
 // Remaining properties
-@property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) UIButton *button;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,N
-
 @property(nonatomic) double focusSizeIncrease;
 @end
 

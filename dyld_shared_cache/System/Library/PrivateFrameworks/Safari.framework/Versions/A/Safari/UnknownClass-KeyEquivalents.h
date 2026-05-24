@@ -7,7 +7,7 @@
 @interface UnknownClass (KeyEquivalents)
 + (id);
 + (id);
-+ (id);
++ (id)mn;
 + (double);
 - (float);
 - (id);
@@ -21,19 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)l;
 - (id);
 - (id);
 - (id);
 - (struct _NSRange);
+- (struct _NSRange);
 - (struct _NSRange);
-- (struct _NSRange);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool safari_isPathOfSystemOrStagedFramework;

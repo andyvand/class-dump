@@ -7,8 +7,6 @@
 @interface ConversationKit.ScreeningSoundAndHapticsManager
 {
     id feedbackGenerator;
-    id soundPlayer;
-    id ringerStateObserver;
 }
 
 - (void);

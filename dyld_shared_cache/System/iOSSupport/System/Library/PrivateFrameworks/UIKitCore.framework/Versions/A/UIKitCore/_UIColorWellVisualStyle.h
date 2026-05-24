@@ -6,54 +6,37 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, UIDragPreviewParameters;
 @protocol _UIColorWellControl;
 
 @interface _UIColorWellVisualStyle : UIView
 {
     _Bool _supportsAlpha;
-    _Bool _supportsEyedropper;
-    _Bool _wantsSystemDragAndDrop;
-    _Bool _wantsExtraTouchInsets;
-    id <_UIColorWellControl> _colorWell;
-    UIColor *_selectedColor;
-    NSString *_pickerTitle;
-    double _maxGain;
-    UIDragPreviewParameters *_dragPreviewParameters;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ightClientState"8@"NSError"16;
+- (void)8@36;
+- (void)eItem"44;
+- (void):(id)arg1 8@16@24@32B40B44@48q56Q64@72@80@88B96B100;
+- (id)didChangeChatWithContexts: /* Error: Ran out of types for this method. */;
+- (id)_blastDoorProcessingWithIMMessageItem:(id)arg1 chat:account:fromToken:fromIDSID:fromIdentifier:toIdentifier:participants:groupName:groupID:isFromMe:isLastFromStorage:isFromStorage:batchContext:hideLockScreenNotification:wantsCheckpointing:needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)IMDBackgroundMessagingAPIListener;
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (double);
-- (id)Shown;
+- (id)_inputModeListIsShown;
 - (struct CGSize)intrinsicContentSizeInvalidationHandler;
 - (void)¼nþ]»13øùqþ;
 - (void)8];
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIColorWellControl> colorWell; // @synthesize colorWell=_colorWell;
-@property(readonly, nonatomic) UIDragPreviewParameters *dragPreviewParameters; // @synthesize dragPreviewParameters=_dragPreviewParameters;
-@property(nonatomic) double maxGain; // @synthesize maxGain=_maxGain;
-@property(retain, nonatomic) NSString *pickerTitle; // @synthesize pickerTitle=_pickerTitle;
-@property(retain, nonatomic) UIColor *selectedColor; // @synthesize selectedColor=_selectedColor;
-@property(nonatomic) _Bool supportsAlpha; // @synthesize supportsAlpha=_supportsAlpha;
-@property(nonatomic) _Bool supportsEyedropper; // @synthesize supportsEyedropper=_supportsEyedropper;
-@property(nonatomic) _Bool wantsExtraTouchInsets; // @synthesize wantsExtraTouchInsets=_wantsExtraTouchInsets;
-@property(nonatomic) _Bool wantsSystemDragAndDrop; // @synthesize wantsSystemDragAndDrop=_wantsSystemDragAndDrop;
 
 @end
 

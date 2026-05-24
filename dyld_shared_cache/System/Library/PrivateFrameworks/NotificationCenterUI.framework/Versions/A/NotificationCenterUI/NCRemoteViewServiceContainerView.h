@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NCRemoteViewServiceContainerView
 {
     _Bool _inSetFrame;
-    _Bool _sendFrameChangesToHost;
-    id <NCRemoteServiceContainerViewDelegate> _delegate;
 }
 
 - (void);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <NCRemoteServiceContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool sendFrameChangesToHost; // @synthesize sendFrameChangesToHost=_sendFrameChangesToHost;
 
 @end
 

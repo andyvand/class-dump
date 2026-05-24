@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionExecutionUtils.InternalTimeout__priv_F2B2018CE311D57E201152AEF107597E
 {
     id $defaultActor;
-    id didTimeout;
 }
 
 @end

@@ -4,6 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AACustodianRecoveryRequestContext, AACustodianUpdateRequestContext, AATrustedContactFetchRequest, NSString;
+
 @protocol AACustodianDaemonProtocol
+- (void)g:(AACustodianRecoveryRequestContext *)arg1 Still waiting for compositor;
+- (void)Name:(AACustodianUpdateRequestContext *)arg1 %@  Identifier:(void (^)(NSError *))arg2 %@;
+- (void)ePayloads no obsolete payloads;
+- (void)erted if it fails to install;
+- (void)DisablePhotosiCloudSetting;
+- (void)Manager.uninstallProfile user is not allowed;
+- (void)CEEDED;
+- (void)ofile returning error %d (%s);
+- (void)estart dock; status = %d;
+- (void)e profileInstalled = %d;
+- (void)allation of profile in store;
+- (void)_installedPayloadUUIDs;
+- (void)e kSecPolicyAppleSMIME;
+- (void)rc:(AATrustedContactFetchRequest *)arg1 %d  SignStatus:(void (^)(NSArray *, NSError *))arg2 %d;
+- (void)nd cert for signer index:(void (^)(NSArray *, NSError *))arg1 %ld in allCertsInfo;
+- (void)Decoder unable to extract signer cert %ld.  Error:(NSString *)arg1 %d;
+- (void)SystemConfiguration;
+- (void)CloudConfiguration;
+- (void)CPProfile setAuthorizationFromData:(AACustodianRecoveryRequestContext *)arg1 ];
+- (void)CMSCertificatesInfo;
+- (void)ot an array;
+- (void)PayloadIdentifier;
+- (void)e object;
+- (void)processed;
+- (void)n/launchctl;
+- (void)use OS version is too old;
+- (void)rning YES (some items filtered);
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol AMSBagProtocol, AMSTreatmentStoreProtocol, FLFollowUpControllerProtocol, OS_dispatch_queue;
+@protocol FLFollowUpControllerProtocol;
 
 @interface AMSFollowUp
 {
     id <FLFollowUpControllerProtocol> _followUpController;
-    NSObject<OS_dispatch_queue> *_followUpQueue;
-    id <AMSBagProtocol> _bag;
-    id <AMSTreatmentStoreProtocol> _treatmentStore;
 }
 
 - (void);
@@ -50,8 +46,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)"hasMuxSupportCapability"b1"hasMeDevice"b1"hasSiriLanguage"b1"hasCompanionName"b1};
+- (id)L;
 - (id);
 - (void)ÉÅN¶°å£n<FïvÒ\ëÅ$0|Ìvúô<ëcÑcûG1·WÌµÁÚqp¨AÄ¾þñ~ð\ÐH±eZð tªø-kó{2°ºÍ/DnÝíxý*]õtµ:(Ü
 QëâÆw}R¢¢O¶lc°ö/EË[îXEþ)&$"+PmþËÚ«æz?S¼ZÙ9ñõÈÎîÆ`CºH9(ägÀìÐ*yR3sãW¶þ=JÇó3òÖÈã1ÓC_·«`Å8LÊ¦§Ä²N¤¯,üBåÌN¼1,b~ó6_×lçÕ<%u^¾,@çA<ÔÔ8^q³Õ3HSH¿kâJfÞYÉ «ð Ô&}ÝÍfâ/+ÛLÏlê#	$Ðí^O»øB¸·¡[Ö6®y­"D /* Error: Ran out of types for this method. */;
@@ -59,10 +55,7 @@ QëâÆw}R¢¢O¶lc°ö/EË[îXEþ)&$"+PmþËÚ«æz?S¼ZÙ9ñõ
 - (void)"	GïcçZ_*F²]'s'ÔáBª,*2bcJi¼ñþ;
 
 // Remaining properties
-@property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(retain, nonatomic) id <FLFollowUpControllerProtocol> followUpController; // @synthesize followUpController=_followUpController;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *followUpQueue; // @synthesize followUpQueue=_followUpQueue;
-@property(retain, nonatomic) id <AMSTreatmentStoreProtocol> treatmentStore; // @synthesize treatmentStore=_treatmentStore;
 
 @end
 

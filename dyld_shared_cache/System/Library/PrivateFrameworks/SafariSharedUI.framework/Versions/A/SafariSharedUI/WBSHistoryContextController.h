@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContextClient, CKContextResponse, NSObject, NSURL, WBSHistory;
-@protocol OS_dispatch_queue;
+@class CKContextResponse, WBSHistory;
 
 @interface WBSHistoryContextController
 {
     CKContextResponse *_cachedResponse;
-    NSURL *_pageURLForCachedResponse;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    CKContextClient *_client;
-    WBSHistory *_history;
 }
 
 - (void);

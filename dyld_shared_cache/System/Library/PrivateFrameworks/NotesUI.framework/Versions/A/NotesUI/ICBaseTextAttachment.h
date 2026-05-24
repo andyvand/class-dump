@@ -12,8 +12,8 @@
 {
 }
 
-- (double);
-- (_Bool);
+- (double);
+- (_Bool);
 - (id);
 - (void);
 - (short);
@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (id);
+- (id)rOrderedChildrenContainer was actually a sibling since self was one of its supplementary views.  Correcting for this yields %{public}@.;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)lr;
 
 // Remaining properties
 @property(retain, nonatomic) ICAttachment *attachment; // @dynamic attachment;

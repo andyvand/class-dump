@@ -9,9 +9,6 @@
 @interface IOKPowerNotifier
 {
     struct IONotificationPort *_notificationPort;
-    unsigned int _connection;
-    unsigned int _notifier;
-    id <IOKPowerNotifierDelegate> _delegate;
 }
 
 - (void);

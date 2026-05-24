@@ -7,13 +7,10 @@
 @interface CSSpeechEndHostTimeEstimator
 {
     _Bool _endPointNotified;
-    unsigned long long _numAudioSampleForwarded;
-    unsigned long long _lastAudioChunkHostTime;
-    double _trailingSilenceDurationAtEndpoint;
 }
 
 - (void);
-- (void);
+- (void)L;
 - (unsigned long long);
 - (void);
 - (void);
@@ -22,16 +19,13 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(*;
 - (void);
-- (double);
-- (void)omplete:(unsigned long long)arg1;
+- (double)R#;
+- (void)_downloadAssetCatalogForAssetType:(unsigned long long)arg1 complete:(unsigned long long)arg2;
 
 // Remaining properties
-@property(nonatomic) _Bool endPointNotified; // @synthesize endPointNotified=_endPointNotified;
-@property(nonatomic) unsigned long long lastAudioChunkHostTime; // @synthesize lastAudioChunkHostTime=_lastAudioChunkHostTime;
 @property(nonatomic) unsigned long long numAudioSampleForwarded; // @synthesize numAudioSampleForwarded=_numAudioSampleForwarded;
-@property(nonatomic) double trailingSilenceDurationAtEndpoint; // @synthesize trailingSilenceDurationAtEndpoint=_trailingSilenceDurationAtEndpoint;
 
 @end
 

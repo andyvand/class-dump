@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface DEDCloudKitClient
 {
     NSObject<OS_os_log> *_log;
-    NSString *_taskIdentifier;
-    NSArray *_pendingRecords;
-    CKContainer *_container;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)J;
++ (_Bool)NSt3__120__shared_ptr_pointerIPN4QMux5StateEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEEE;
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
@@ -33,27 +30,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ctiveObjectINS1_33GnssPreprocessedMeasurementsEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)&,V_cachedRequiresDataClassBAccessToRun;
 - (id)0@ù
 × ;
 - (void)nhancedloggingd for bug session [%{public}@];
 
 // Remaining properties
-@property(retain, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain) NSArray *pendingRecords; // @synthesize pendingRecords=_pendingRecords;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

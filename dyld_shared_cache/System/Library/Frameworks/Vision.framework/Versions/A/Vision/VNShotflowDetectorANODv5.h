@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNShotflowDetectorANODv5 : VNShotflowDetectorANODBase
 {
     float _petFaceThreshold;
-    float _faceBodyDistanceThreshold;
 }
 
 + (id);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (float);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (float);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) float faceBodyDistanceThreshold; // @synthesize faceBodyDistanceThreshold=_faceBodyDistanceThreshold;
 @property(nonatomic) float petFaceThreshold; // @synthesize petFaceThreshold=_petFaceThreshold;
 
 @end

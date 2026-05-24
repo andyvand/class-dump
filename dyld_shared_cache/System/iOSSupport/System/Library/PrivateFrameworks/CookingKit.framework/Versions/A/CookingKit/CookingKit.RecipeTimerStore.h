@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id userDefaults;
-    id loadingState;
 }
 
 @end

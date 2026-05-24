@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTransitAdvisory
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_text;
 }
 
-+ (_Bool)eryCharge:(id)arg1;
++ (_Bool)setMinBatteryCharge:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)initWithEventType:(id)arg1 score:threshold:deltaTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -26,8 +25,8 @@
 - (_Bool);
 - (void);
 - (id)ocalSessionId"b1"has_initialDeviceSessionId"b1"has_navSessionId"b1"has_preSyncSessionId"b1"has_sessionId"b1"has_ageOfSessionIdInSeconds"b1"has_lastIcloudSyncDate"b1"has_navSessionRelativeTimestamp"b1"has_relativeTimestamp"b1"has_sessionCreateHour"b1"has_sessionEpoch"b1"has_sequenceNumber"b1"has_userCohortValue"b1"has_didPreviouslyRotate"b1"has_hasRotated"b1};
-- (id)eferredTransportType;
-- (id)OfflineDownload;
+- (id)hasUserPreferredTransportType;
+- (id)GEOLogMsgStateOfflineDownload;
 - (void)üP",#$ä$Ü%;
 - (id)e called once per object;
 - (_Bool)Ü¨´¦¼¨Ä¦¤¨Ô¦¨ä¦ô§ô¦Ü§Ð§Ø§Ô§t;
@@ -36,8 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;
-@property(retain, nonatomic) GEOFormattedString *text;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

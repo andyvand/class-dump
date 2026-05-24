@@ -7,19 +7,17 @@
 @interface WCActiveDeviceSwitchTask
 {
     _Bool _clientReadyForSessionState;
-    unsigned long long _taskState;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property _Bool clientReadyForSessionState; // @synthesize clientReadyForSessionState=_clientReadyForSessionState;
-@property unsigned long long taskState; // @synthesize taskState=_taskState;
 
 @end
 

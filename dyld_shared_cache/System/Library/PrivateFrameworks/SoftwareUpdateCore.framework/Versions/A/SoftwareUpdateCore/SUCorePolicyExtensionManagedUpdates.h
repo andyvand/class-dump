@@ -6,17 +6,9 @@
 
 #import <SoftwareUpdateCore/SUCorePolicyExtension.h>
 
-@class NSString;
-
 @interface SUCorePolicyExtensionManagedUpdates : SUCorePolicyExtension
 {
     _Bool _supervised;
-    _Bool _MDMUseDelayPeriod;
-    NSString *_requestedPMV;
-    long long _delayPeriodSecs;
-    long long _minorDelayPeriodSecs;
-    long long _majorDelayPeriodSecs;
-    unsigned long long _mdmSoftwareUpdatePath;
 }
 
 + (id);
@@ -36,8 +28,8 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long)5;
+- (long long)P;
 - (long long);
 - (id);
 - (long long);
@@ -51,8 +43,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@"NSData">24;
+- (id)_loadTabGroupSpecificSections;
 - (id);
 - (void);
 - (_Bool);
@@ -62,12 +54,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool MDMUseDelayPeriod; // @synthesize MDMUseDelayPeriod=_MDMUseDelayPeriod;
-@property(nonatomic) long long delayPeriodSecs; // @synthesize delayPeriodSecs=_delayPeriodSecs;
-@property(nonatomic) long long majorDelayPeriodSecs; // @synthesize majorDelayPeriodSecs=_majorDelayPeriodSecs;
-@property(nonatomic) unsigned long long mdmSoftwareUpdatePath; // @synthesize mdmSoftwareUpdatePath=_mdmSoftwareUpdatePath;
-@property(nonatomic) long long minorDelayPeriodSecs; // @synthesize minorDelayPeriodSecs=_minorDelayPeriodSecs;
-@property(retain, nonatomic) NSString *requestedPMV; // @synthesize requestedPMV=_requestedPMV;
 @property(nonatomic) _Bool supervised; // @synthesize supervised=_supervised;
 
 @end

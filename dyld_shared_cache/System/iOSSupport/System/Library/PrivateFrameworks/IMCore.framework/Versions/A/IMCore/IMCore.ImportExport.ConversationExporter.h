@@ -7,13 +7,6 @@
 @interface IMCore.ImportExport.ConversationExporter
 {
     id conversation;
-    id exportOptions;
-    id exportStatistics;
-    id currentBatch;
-    id messageExporterState;
-    id standaloneMode;
-    id batchCount;
-    id fallbackAccountParticipant;
 }
 
 @end

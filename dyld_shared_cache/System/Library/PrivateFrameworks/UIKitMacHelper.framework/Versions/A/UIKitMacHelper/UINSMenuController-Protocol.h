@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
-@protocol UINSMenu;
-
 @protocol UINSMenuController
+- (void (^)(id <UINSMenu>, id <UINSMenuItem>))Y;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType contextMenuDidClose;
-@property(readonly, nonatomic) NSMenu *currentContextMenu;
-@property(readonly, nonatomic) id <UINSMenu> currentContextMenuProxy;
-@property(copy, nonatomic) CDUnknownBlockType menuWillAppear;
-@property(copy, nonatomic) CDUnknownBlockType performItemAction;
 @property(copy, nonatomic) CDUnknownBlockType validateItem;
-@property(copy, nonatomic) CDUnknownBlockType willHighlightItem;
 @end
 

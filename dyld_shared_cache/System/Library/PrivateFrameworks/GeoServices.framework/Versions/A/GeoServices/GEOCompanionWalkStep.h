@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitArtwork, NSMutableArray, NSString, PBDataReader;
-@protocol GEOTransitArtworkDataSource;
+@class PBDataReader;
 
 @interface GEOCompanionWalkStep
 {
     PBDataReader *_reader;
-    struct GEOJunctionElement *_junctionElements;
-    unsigned long long _junctionElementsCount;
-    unsigned long long _junctionElementsSpace;
-    GEOPBTransitArtwork *_artworkOverride;
-    NSMutableArray *_maneuverNames;
-    NSMutableArray *_signposts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _junctionType;
-    int _maneuverType;
-    CDStruct_9011fabd _flags;
 }
 
++ (Class):k /* Error: Ran out of types for this method. */;
++ (_Bool)setHasOffsetForDistanceString:(id)arg1;
 + (Class);
-+ (_Bool)HasOffsetForDistanceString:(id)arg1;
-+ (Class);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -38,18 +25,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (int);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (unsigned long long);
-- (struct GEOJunctionElement *);
-- (struct GEOJunctionElement);
-- (_Bool);
+- (id)performSynchronousReaderBlock:(int)arg1;
+- (int)performSynchronousReaderBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)pendingReaders;
+- (id)pendingBlockCount;
+- (id)pathComponents;
+- (id)orderedDictionary;
+- (id)keyForEntitlement:(int)arg1;
+- (int)keyEnumerator;
+- (unsigned long long)isValidFileDescriptor;
+- (struct GEOJunctionElement *)isUnlockedSinceBoot;
+- (struct GEOJunctionElement)isUnitTestingCachedValue;
+- (_Bool)ces (%d);
 - (void);
 - (void);
 - (void);
@@ -65,41 +52,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)kSSVCAUserIntentPermanentOffsetFactorUpperBound;
+- (id)CSVoiceTriggerRejectReporter _readEventFromBiome];
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)ertDate:(struct _NSZone *)arg1;
+- (id)setAlertDate:(struct _NSZone *)arg1;
 - (id)àm;
-- (id)i;
+- (id)launchUri;
 - (id)ÿÿd;
 - (void)è5;
 - (int)Oÿ%Ä6à¸7;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artworkOverride;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArtworkOverride;
-@property(nonatomic) _Bool hasJunctionType;
 @property(nonatomic) _Bool hasManeuverType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct GEOJunctionElement *junctionElements;
-@property(readonly, nonatomic) unsigned long long junctionElementsCount;
-@property(nonatomic) int junctionType;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> maneuverArtworkOverride;
-@property(retain, nonatomic) NSMutableArray *maneuverNames;
-@property(nonatomic) int maneuverType;
-@property(retain, nonatomic) NSMutableArray *signposts;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int transportType;
 
 @end
 

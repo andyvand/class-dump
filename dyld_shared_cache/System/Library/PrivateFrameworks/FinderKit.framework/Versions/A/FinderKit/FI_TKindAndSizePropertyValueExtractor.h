@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TKindAndSizePropertyValueExtractor : FI_IPropertyValueExtractor
 {
     FI_IPropertyValueExtractor *_kindExtractor;
-    FI_IPropertyValueExtractor *_sizeExtractor;
 }
 
 - (void);

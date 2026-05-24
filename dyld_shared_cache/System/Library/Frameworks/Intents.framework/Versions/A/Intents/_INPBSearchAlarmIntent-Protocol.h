@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBAlarmSearch, _INPBIntentMetadata;
+@class NSArray, _INPBAlarm, _INPBAlarmSearch, _INPBIntentMetadata;
 
 @protocol _INPBSearchAlarmIntent
-- (_Bool)ion;
-- (NSArray *)arameterType;
+- (_Bool);
+- (_INPBAlarm *);
+- (void)otenotificationservice;
+- (_INPBIntentMetadata *);
+- (_Bool)hasRequiresAuthentication;
+- (NSArray *)INIntentParameterType;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarmSearch *alarmSearch;
-@property(nonatomic) int alarmSearchType;
-@property(copy, nonatomic) NSArray *alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(nonatomic) _Bool hasAlarmSearchType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

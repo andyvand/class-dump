@@ -6,7 +6,7 @@
 
 #import <LaunchServices/LSRecord.h>
 
-@class LSBundleRecord, NSArray, NSDictionary, NSString, NSURL, _LSLocalizedStringRecord;
+@class LSBundleRecord, NSDictionary;
 
 @interface LSClaimRecord : LSRecord
 {
@@ -14,23 +14,10 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@"<MTLEvent>"24@0:8q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *URLSchemes;
-@property(readonly) LSBundleRecord *_claimingBundleRecord;
-@property(readonly) _LSLocalizedStringRecord *_localizedName;
-@property(readonly) unsigned int _rawFlags;
-@property(readonly) LSBundleRecord *claimingBundleRecord;
-@property(readonly, nonatomic) id compatibilityObject; // @dynamic compatibilityObject;
-@property(readonly) _Bool defaultShareModeCollaboration;
-@property(readonly) NSString *handlerRank;
 @property(readonly) NSDictionary *iconDictionary;
-@property(readonly) NSURL *iconResourceBundleURL;
-@property(readonly) NSString *localizedName;
-@property(readonly) unsigned int role;
-@property(readonly) NSArray *typeIdentifiers;
-@property(readonly, getter=isWildcard) _Bool wildcard;
 
 @end
 

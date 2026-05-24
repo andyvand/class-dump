@@ -6,9 +6,6 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableArray, NSNumber, NSTimer;
-@protocol _UIRotaryGestureRecognizerDelegate;
-
 @interface _UIRotaryGestureRecognizer : UIGestureRecognizer
 {
     struct {
@@ -21,23 +18,6 @@
         unsigned int delegateRotaryGestureRecognizerFailedClassifyingMovement:1;
         unsigned int delegateWasNonNil:1;
     } _rotaryGestureRecognizerFlags;
-    _Bool _hasNotifiedDelegateBeganClassifyingMovement;
-    double _startWheelPosition;
-    double _currentWheelPosition;
-    double _rotaryDeadBand;
-    long long _movementClassification;
-    struct CGPoint _touchBeganPoint;
-    struct CGPoint _digitizerLocation;
-    NSMutableArray *_recentRotaryEvents;
-    NSNumber *_delegateMustBeginFromRestValue;
-    NSTimer *_restingTouchBeginTimer;
-    NSTimer *_restingTouchRecoveryTimer;
-    _Bool _isActivelyTouching;
-    double _accumulatedDistance;
-    double _delta;
-    double _velocity;
-    long long _startRegion;
-    long long _beganMode;
 }
 
 - (long long);
@@ -45,13 +25,13 @@
 - (void);
 - (void);
 - (_Bool);
+- (long long)markAllNicknamesAsPending;
+- (double)forwardInvocation: /* Error: Ran out of types for this method. */;
+- (double)deleteChatBotRecoverableMessageSyncToken;
+- (double);
+- (void);
+- (long long)";
 - (long long);
-- (double);
-- (double);
-- (double);
-- (void);
-- (long long);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -63,23 +43,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
+- (void)eableOnDisk:(id)arg1 %{bool}d
+    filePath:%s /* Error: Ran out of types for this method. */;
+- (_Bool)ng:%s /* Error: Ran out of types for this method. */;
+- (_Bool)Resuming task;
+- (double)sationItem for conversation %@ on chat %@;
+- (double)ld;
+- (double)om server;
+- (double):(struct CGPoint)arg1 %@ to mark as read, bailing;
+- (double)e:(struct CGPoint)arg1 %@ vs %@;
+- (double)livered quietly, message is on a different service:%@ vs %@ /* Error: Ran out of types for this method. */;
+- (double):(struct CGPoint)arg1 %@;
+- (void)d ID because salt is nil.;
+- (void)ID because salt is nil.;
+- (double)Recently Deleted | Ignoring deletion for recovered part, recovered %@ after it was deleted %@;
+- (double)******;
+- (double)not exist. Attempting to create one;
+- (void)t with identifier:%@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
+- (void)D from disk.;
 - (void);
 - (void);
 - (id);
@@ -89,10 +70,10 @@
 × ;
 - (double);
 - (id)ggestedActions"B"shouldAttemptToPresent"B"interactionEffectForTargetedPreview"B};
-- (void)etIsPhysicallyAttachedHardwareKeyboard;
-- (void)ibility;
-- (void)rTextEffectsContentFrame;
-- (void)UITextDragCaretView;
+- (void)resetIsPhysicallyAttachedHardwareKeyboard;
+- (void)_updateNavBarVisibility;
+- (void)_formerTextEffectsContentFrame;
+- (void)_UITextDragCaretView;
 - (void)ngToolsCoordinator.m;
 - (void)¹/3;
 - (void);
@@ -100,13 +81,6 @@
 
 // Remaining properties
 @property(nonatomic) double accumulatedDistance; // @synthesize accumulatedDistance=_accumulatedDistance;
-@property(nonatomic) long long beganMode; // @synthesize beganMode=_beganMode;
-@property(nonatomic) __weak id <_UIRotaryGestureRecognizerDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) double delta; // @synthesize delta=_delta;
-@property(nonatomic) _Bool isActivelyTouching; // @synthesize isActivelyTouching=_isActivelyTouching;
-@property(readonly, nonatomic) double position;
-@property(nonatomic) long long startRegion; // @synthesize startRegion=_startRegion;
-@property(nonatomic) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

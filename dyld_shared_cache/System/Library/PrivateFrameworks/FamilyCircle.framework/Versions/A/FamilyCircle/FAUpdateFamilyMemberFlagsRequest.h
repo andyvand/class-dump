@@ -6,16 +6,15 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface FAUpdateFamilyMemberFlagsRequest : FAFamilyCircleRequest
 {
     NSNumber *_dsid;
-    NSDictionary *_flags;
 }
 
-- (id);
-- (void);
+- (id)voiceMail;
+- (void)handlers, let's keep the session around;
 - (void);
 
 @end

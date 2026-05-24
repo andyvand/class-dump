@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPointerRegion, _UIPointerLensView;
+@class UIPointerRegion;
 
 __attribute__((visibility("hidden")))
 @interface _UIPointerArbiterCore_macOS
@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (long long);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (id)conversationManager;
+- (long long)in, but groupID is non-nil:(id)arg1 %@. Please file a radar!;
+- (void)acknowledgments failed with error:(id)arg1 %@;
+- (long long)writing up messages as sync type does not allow it;
+- (id);
+- (void)ctionedIdentifierList;
 - (id);
 - (void);
 - (void)!ÈGùÑ^°1Â0@ù
@@ -31,17 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)Spacer;
 
 // Remaining properties
-@property(retain, nonatomic) UIPointerRegion *activePointerRegion; // @synthesize activePointerRegion=_activePointerRegion;
 @property(nonatomic) long long cursorHideCount; // @synthesize cursorHideCount=_cursorHideCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIPointerLensView *lensView;
-@property(readonly, nonatomic) long long pointerState;
-@property(readonly) Class superclass;
 
 @end
 

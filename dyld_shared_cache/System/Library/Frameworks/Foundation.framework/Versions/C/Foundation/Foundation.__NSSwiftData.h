@@ -7,7 +7,6 @@
 @interface Foundation.__NSSwiftData
 {
     id _backing;
-    id _range;
 }
 
 - (id);
@@ -23,7 +22,7 @@
 - (void *);
 - (id);
 - (id);
-- (id)tiveFormat;
+- (id)negativeFormat;
 - (id)##	#
 #
 #
@@ -39,7 +38,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) void *bytes;
 @property(nonatomic, readonly) long long length;
 
 @end

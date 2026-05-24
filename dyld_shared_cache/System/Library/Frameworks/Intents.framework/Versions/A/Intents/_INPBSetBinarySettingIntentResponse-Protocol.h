@@ -7,13 +7,10 @@
 @class NSString;
 
 @protocol _INPBSetBinarySettingIntentResponse
+- (void);
+- (void)__TEXT;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(nonatomic) _Bool hasOldValue;
-@property(nonatomic) _Bool hasUpdatedValue;
-@property(nonatomic) int oldValue;
-@property(nonatomic) int updatedValue;
 @end
 

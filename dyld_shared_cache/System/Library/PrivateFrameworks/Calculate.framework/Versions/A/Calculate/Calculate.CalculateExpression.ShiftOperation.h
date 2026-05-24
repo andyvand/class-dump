@@ -9,7 +9,6 @@
 @interface Calculate.CalculateExpression.ShiftOperation : Calculate.CalculateExpression.Operation
 {
     id type;
-    id digit;
 }
 
 @end

@@ -10,21 +10,18 @@ __attribute__((visibility("hidden")))
 @interface HMDWatchSystemState
 {
     struct os_unfair_lock_s _lock;
-    _Bool _companionReachable;
-    NSHashTable *_watchSystemStateDelegates;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)alid size for DisplayInfo2Update %d;
 - (id);
-- (void)Model:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)exportOwnerUserSettingsFromLocalModel:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (void)24;
 
 // Remaining properties
-@property(nonatomic, getter=isCompanionReachable) _Bool companionReachable; // @synthesize companionReachable=_companionReachable;
 @property(readonly, nonatomic) NSHashTable *watchSystemStateDelegates; // @synthesize watchSystemStateDelegates=_watchSystemStateDelegates;
 
 @end

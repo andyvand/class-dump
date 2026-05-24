@@ -5,5 +5,6 @@
 //
 
 @protocol SearchUIGridCustomizingCardSection
+- (struct NSDirectionalEdgeInsets);
 @end
 

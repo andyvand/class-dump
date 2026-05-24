@@ -7,7 +7,6 @@
 @interface NewsAnalytics.PrivacySaltProvider
 {
     id userInfo;
-    id salt;
 }
 
 @end

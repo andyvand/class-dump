@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ECEventType, ECVersionedPID;
+@protocol ECVersionedPID;
 
 @protocol ECEventAuthenticationMessage
+- (id <ECVersionedPID>)t-BypassingDasd-%@;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capabilities;
-@property(readonly, nonatomic) id <ECEventType> eventType;
 @property(readonly, nonatomic) id <ECVersionedPID> proxyTargetProcess;
 @end
 

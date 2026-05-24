@@ -6,35 +6,26 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerChangeItemCommand : _MPCPlayerCommand
 {
     unsigned long long _changeItemSupport;
 }
 
+- (id)_nonVisibleServiceDataclass;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)_findPhotoLibraryIdentifiersMatchingSearchCriteria:error: /* Error: Ran out of types for this method. */;
+- (id)d Photos for account %@;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long changeItemSupport; // @synthesize changeItemSupport=_changeItemSupport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

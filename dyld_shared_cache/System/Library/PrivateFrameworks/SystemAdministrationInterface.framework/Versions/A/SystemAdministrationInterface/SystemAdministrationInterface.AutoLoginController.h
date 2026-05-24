@@ -7,12 +7,6 @@
 @interface SystemAdministrationInterface.AutoLoginController
 {
     id _autoLoginUsers;
-    id _selectedUser;
-    id _password;
-    id _warningAlertTitle;
-    id _warningAlertMessage;
-    id $__lazy_storage_$_loginPrefs;
-    id loadingUsers;
 }
 
 @end

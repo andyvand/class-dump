@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol OSLogEntryWithPayload
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *category;
-@property(readonly, nonatomic) NSArray *components;
-@property(readonly, nonatomic) NSString *formatString;
-@property(readonly, nonatomic) NSString *subsystem;
 @end
 

@@ -11,10 +11,10 @@
 }
 
 + (id);
-+ (id);
++ (id)(;
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -23,19 +23,19 @@
 - (_Bool);
 - (int);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)setAllowsFallbackToExpiredStatus:(id)arg1;
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
+- (void);
 - (id);
+- (id)setCharge_duration_p_0_00_at_charge_start_secs_curr_dynamic_bin_8: /* Error: Ran out of types for this method. */;
+- (id)_charge_duration_count_at_charge_start_soc_curr_static_bin;
+- (id)amic_bin_12;
 - (void);
 - (id);
 - (id);

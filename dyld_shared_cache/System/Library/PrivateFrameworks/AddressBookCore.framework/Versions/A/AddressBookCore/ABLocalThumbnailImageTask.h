@@ -6,17 +6,16 @@
 
 #import <AddressBookCore/ABTask.h>
 
-@class ABLocalImageLoader, NSArray;
+@class NSArray;
 
 @interface ABLocalThumbnailImageTask : ABTask
 {
     NSArray *_imageIdentifiers;
-    ABLocalImageLoader *_imageLoader;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

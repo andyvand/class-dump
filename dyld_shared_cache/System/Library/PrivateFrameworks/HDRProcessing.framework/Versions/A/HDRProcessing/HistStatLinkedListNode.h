@@ -7,18 +7,6 @@
 @interface HistStatLinkedListNode
 {
     float _prevAvgVal;
-    float _prevMaxVal;
-    long long _streamId;
-    unsigned long long _numOfProcessedFrames;
-    float *_minValBuffer;
-    float *_maxValBuffer;
-    float *_avgValBuffer;
-    float *_stdValBuffer;
-    float **_prctValBuffer;
-    float *_prevNormHistHeight;
-    double *_targetMaxBuffer;
-    HistStatLinkedListNode *_next;
-    HistStatLinkedListNode *_prev;
 }
 
 - (float *);
@@ -33,18 +21,18 @@
 - (void);
 - (void);
 - (float *);
+- (float);
 - (float);
-- (float);
-- (float **);
+- (float **);
 - (unsigned long long);
 - (float *);
 - (float *);
 - (id);
-- (void);
+- (void)1;
 - (float *);
 - (double *);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (void);
 - (void);
@@ -54,19 +42,7 @@
 ;
 
 // Remaining properties
-@property float *avgValBuffer; // @synthesize avgValBuffer=_avgValBuffer;
-@property float *maxValBuffer; // @synthesize maxValBuffer=_maxValBuffer;
-@property float *minValBuffer; // @synthesize minValBuffer=_minValBuffer;
-@property(retain) HistStatLinkedListNode *next; // @synthesize next=_next;
-@property unsigned long long numOfProcessedFrames; // @synthesize numOfProcessedFrames=_numOfProcessedFrames;
-@property float **prctValBuffer; // @synthesize prctValBuffer=_prctValBuffer;
-@property(retain) HistStatLinkedListNode *prev; // @synthesize prev=_prev;
-@property float prevAvgVal; // @synthesize prevAvgVal=_prevAvgVal;
-@property float prevMaxVal; // @synthesize prevMaxVal=_prevMaxVal;
-@property float *prevNormHistHeight; // @synthesize prevNormHistHeight=_prevNormHistHeight;
-@property float *stdValBuffer; // @synthesize stdValBuffer=_stdValBuffer;
 @property long long streamId; // @synthesize streamId=_streamId;
-@property double *targetMaxBuffer; // @synthesize targetMaxBuffer=_targetMaxBuffer;
 
 @end
 

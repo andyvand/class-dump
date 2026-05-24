@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITabBarController, UIView;
+@class UITabBarController;
 
 @interface UITabAccessory
 {
     long long _environment;
-    UITabBarController *_tabBarController;
-    UIView *_contentView;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)p to download for transferID %@ due to default com.apple.imessage FailTapToDownload transfer %@;
+- (id)and only to the paired device;
+- (void)MDChat"8;
 - (void);
 - (long long);
 - (id)Ht_;
@@ -23,9 +21,7 @@
 - (id)`?h;
 
 // Remaining properties
-@property(nonatomic, setter=_setEnvironment:) long long _environment; // @synthesize _environment;
 @property(nonatomic, setter=_setTabBarController:) __weak UITabBarController *_tabBarController; // @synthesize _tabBarController;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
 
 @end
 

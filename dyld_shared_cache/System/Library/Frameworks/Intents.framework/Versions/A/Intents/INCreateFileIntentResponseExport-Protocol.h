@@ -7,17 +7,13 @@
 @class NSNumber, NSString;
 
 @protocol INCreateFileIntentResponseExport
-- (NSNumber *)fLocationForRequestRide:completion: /* Error: Ran out of types for this method. */;
-- (long long)Sound:completion: /* Error: Ran out of types for this method. */;
-- (void)sponseCodeReady;
+- (void)28CPMLLINEARSVMAnalysisHandler;
+- (NSNumber *)resolveDropOffLocationForRequestRide:completion: /* Error: Ran out of types for this method. */;
+- (long long)handlePlayMessageSound:completion: /* Error: Ran out of types for this method. */;
+- (void)INSearchForBillsIntentResponseCodeReady;
 - (NSString *)ÝæO½B;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *destinationName;
-@property(copy) NSString *entityName;
-@property(copy) NSString *entityType;
-@property(copy) NSNumber *overwrite;
-@property(copy) NSNumber *success;
 @end
 

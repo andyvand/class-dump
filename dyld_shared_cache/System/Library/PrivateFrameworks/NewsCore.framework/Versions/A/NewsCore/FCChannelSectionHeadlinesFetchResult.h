@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol FCChannelProviding;
 
 @interface FCChannelSectionHeadlinesFetchResult
 {
     id <FCChannelProviding> _channel;
-    NSArray *_sectionHeadlinesGroups;
 }
 
 - (void);
@@ -19,11 +17,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)FCSubscriptionTypeMutedTag;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCChannelProviding> channel; // @synthesize channel=_channel;
-@property(retain, nonatomic) NSArray *sectionHeadlinesGroups; // @synthesize sectionHeadlinesGroups=_sectionHeadlinesGroups;
 
 @end
 

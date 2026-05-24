@@ -9,13 +9,11 @@
 @interface GEORouteTrafficBuilder
 {
     NSMutableArray *_trafficColors;
-    NSMutableArray *_trafficOffsets;
-    double _trafficDistance;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

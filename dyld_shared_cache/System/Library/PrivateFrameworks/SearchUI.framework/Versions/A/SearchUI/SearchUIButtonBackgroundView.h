@@ -9,20 +9,18 @@
 @interface SearchUIButtonBackgroundView
 {
     _Bool _useHierarchicalColorRendering;
-    NSColor *_color;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) _Bool useHierarchicalColorRendering; // @synthesize useHierarchicalColorRendering=_useHierarchicalColorRendering;
 
 @end
 

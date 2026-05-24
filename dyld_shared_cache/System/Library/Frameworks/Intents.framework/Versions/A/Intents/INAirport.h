@@ -9,38 +9,27 @@
 @interface INAirport
 {
     NSString *_name;
-    NSString *_iataCode;
-    NSString *_icaoCode;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setSaveFileHandle:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)e>",&,N,V_periodicCheckA11Timer;
+- (void)Ez9vlwacfVNTWQBoHLWaEB8_xIdvK4/Library/Caches/com.apple.xbs/TemporaryDirectory.kPthP0/Sources/CoreWiFi/Framework/CWFNearbyDeviceDiscoveryManager.m;
 - (id);
 - (id);
-- (id)es:(unsigned long long)arg1 foundAttributes: /* Error: Ran out of types for this method. */;
-- (void)_SENSOR;
+- (id)_calculateReferencedCodableDescriptionsFromAttributes:(unsigned long long)arg1 usingTypes:foundAttributes: /* Error: Ran out of types for this method. */;
+- (void)TEMPERATURE_SENSOR;
 - (id)>ÞD;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *iataCode; // @synthesize iataCode=_iataCode;
-@property(readonly, copy) NSString *icaoCode; // @synthesize icaoCode=_icaoCode;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

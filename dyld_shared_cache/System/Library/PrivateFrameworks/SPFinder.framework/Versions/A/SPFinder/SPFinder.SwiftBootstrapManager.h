@@ -7,7 +7,6 @@
 @interface SPFinder.SwiftBootstrapManager
 {
     id $defaultActor;
-    id bootedContexts;
 }
 
 @end

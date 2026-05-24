@@ -5,5 +5,9 @@
 //
 
 @protocol UITextInteractionDelegate
+
+@optional
+- (void);
+- (void)initialPresentationDate;
 @end
 

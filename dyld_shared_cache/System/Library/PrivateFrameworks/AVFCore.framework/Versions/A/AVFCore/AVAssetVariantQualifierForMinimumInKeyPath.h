@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)j;
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 
 @end

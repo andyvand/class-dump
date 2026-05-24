@@ -7,11 +7,6 @@
 @interface ChatKit.CKTextEffectCoordinator.ManagedAnimation
 {
     id identifier;
-    id minimumDelay;
-    id startTime;
-    id textView;
-    id animator;
-    id ignoreEligibilityCheck;
 }
 
 @end

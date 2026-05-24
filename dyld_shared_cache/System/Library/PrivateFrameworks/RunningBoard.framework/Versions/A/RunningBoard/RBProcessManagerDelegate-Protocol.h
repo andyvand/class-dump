@@ -5,5 +5,6 @@
 //
 
 @protocol RBProcessManagerDelegate
+- (void)a topology;
 @end
 

@@ -11,7 +11,7 @@
     NSXPCConnection *_connection;
 }
 
-- (id);
+- (id)_hasActionFailureDeveloperDefinedError;
 - (void);
 - (id);
 - (void);

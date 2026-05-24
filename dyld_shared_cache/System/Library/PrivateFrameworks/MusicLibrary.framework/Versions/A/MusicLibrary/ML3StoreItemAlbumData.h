@@ -9,11 +9,10 @@
 @interface ML3StoreItemAlbumData
 {
     NSDictionary *_trackItemImportProperties;
-    NSDictionary *_parsedStoreAlbumImportProperties;
 }
 
-- (id);
-- (id);
+- (id)_addInflightResourceIdentifier:prefetchPhase: /* Error: Ran out of types for this method. */;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_EMPTY_16_withCode:(id)arg1;
 - (void)tem SET keep_local=%d WHERE item_pid IN (%@);
 
 @end

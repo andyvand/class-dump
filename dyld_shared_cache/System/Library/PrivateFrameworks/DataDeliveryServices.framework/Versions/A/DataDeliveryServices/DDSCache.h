@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface DDSCache
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_cache;
 }
 
-- (void);
+- (void)t?;
 - (id);
 - (void);
-- (id);
+- (id)shouldBeInvalidatedByThumbnailVersion:(id)arg1;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

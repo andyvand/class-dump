@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)prototypeSettingsEnabled;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ote_anyField"b1};
-- (id)poiAtAddressLookupResult;
+- (id)_poiAtAddressLookupResult;
 - (id)$Ï;
 - (void)«tIH@;
 

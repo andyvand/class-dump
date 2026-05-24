@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, WFLocation;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface WFWeatherDataServiceParserMetadataV1
 {
     _Bool _temporarilyUnavailable;
-    NSDate *_readDate;
-    NSDate *_expireDate;
-    unsigned long long _version;
-    WFLocation *_location;
-    NSString *_language;
-    NSString *_providerName;
-    NSURL *_providerLogoURL;
-    long long _dataOrigination;
 }
 
 - (_Bool);
@@ -38,18 +30,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)Key;
+- (void)WFNextHourPrecipitationConditionIntensityKey;
 
 // Remaining properties
-@property(nonatomic) long long dataOrigination; // @synthesize dataOrigination=_dataOrigination;
-@property(copy, nonatomic) NSDate *expireDate; // @synthesize expireDate=_expireDate;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) WFLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSURL *providerLogoURL; // @synthesize providerLogoURL=_providerLogoURL;
-@property(copy, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
 @property(copy, nonatomic) NSDate *readDate; // @synthesize readDate=_readDate;
-@property(nonatomic) _Bool temporarilyUnavailable; // @synthesize temporarilyUnavailable=_temporarilyUnavailable;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

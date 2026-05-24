@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceDataUsagePolicyInterface
+- (void);
 @end
 

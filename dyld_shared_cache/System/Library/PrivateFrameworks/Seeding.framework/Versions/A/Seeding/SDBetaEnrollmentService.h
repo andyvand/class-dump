@@ -4,68 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString, NSXPCListener;
+@class NSXPCListener;
 
 @interface SDBetaEnrollmentService
 {
     int _profileToken;
-    NSXPCListener *_listener;
-    NSMutableDictionary *_appConnections;
-    NSNumber *_userIdentifier;
 }
 
-+ (id);
++ (id)timed out ret=0x%xself.queueDepth=%ld :self.currentAsyncRequestsInFlight=%ld lModel=%@ /* Error: Ran out of types for this method. */;
+- (void)32@0:(id)arg1 8Q16@?24;
+- (void)e";
+- (void)DataSharingChangeLogEvent";
+- (id)40@"NSString"48@"NSUUID"56@?<v@?B>64;
+- (void)0:(unsigned long long)arg1 8@16@24@32@40@48@56@?64;
+- (int)Array"@"NSError">48;
+- (void)ionary"16q24@?<v@?@"NSDictionary"@"NSDictionary">32;
+- (void)Group"16;
+- (void)32@40@48@56;
+- (void)isDirty"b1"hasRequestPath"b1"hasInputOrigin"b1"hasIsEyesFree"b1};
+- (void)24;
+- (void)32@0:(id)arg1 8q16@?<v@?dd@"NSError">24;
+- (void)48@0:(id)arg1 8@"NSString"16B24B28Q32@?<v@?>40;
+- (void)16@?<v@?B>24;
+- (void)24@0:(id)arg1 8@16;
+- (void)@"AFInterstitialProvider";
+- (void)UID";
+- (void)v32@0:(id)arg1 8d16@24;
+- (void)2@0:(id)arg1 8@16q24;
+- (void)Availability"16B24;
+- (void)ontextIdentifier"b1};
+- (void)naryOutcomeRequest";
+- (void)aseV2Test";
+- (void)voiceOverTouchEnabledPreferenceDidChange: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)_paymentToken;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)H3;
 - (_Bool);
 - (void);
-- (void);
+- (void)virtualANEModel.ioSIDErrorValue=%u;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *appConnections; // @synthesize appConnections=_appConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(nonatomic) int profileToken; // @synthesize profileToken=_profileToken;
-@property(readonly) Class superclass;
-@property(retain) NSNumber *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

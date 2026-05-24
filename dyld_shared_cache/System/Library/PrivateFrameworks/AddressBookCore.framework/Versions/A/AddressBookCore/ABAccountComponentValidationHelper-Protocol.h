@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol ABAccountComponentValidationHelper
-- (NSString *)igs;
+- (_Bool);
+- (NSString *)distributionListConfigs;
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEnvironmentMonitor, NSProcessInfo;
+@class ICEnvironmentMonitor;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationPolicyControllerParameters
 {
     ICEnvironmentMonitor *_thermalMonitor;
-    NSProcessInfo *_lowPowerModeMonitor;
-    double _renderingTimeLimit;
 }
 
-- (id);
+- (id)isProxy;
 - (void);
-- (void);
-- (void);
-- (double);
+- (void)16@24;
+- (void)deviceIsAudioAccessory;
+- (double)lassPrimary does not have filtered dataclasses. All dataclasses are valid;
 - (id);
 - (void)ion:| rolling back edit [failed to find datasource] sectionID=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSProcessInfo *lowPowerModeMonitor; // @synthesize lowPowerModeMonitor=_lowPowerModeMonitor;
-@property(nonatomic) double renderingTimeLimit; // @synthesize renderingTimeLimit=_renderingTimeLimit;
 @property(retain, nonatomic) ICEnvironmentMonitor *thermalMonitor; // @synthesize thermalMonitor=_thermalMonitor;
 
 @end

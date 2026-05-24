@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *volume;

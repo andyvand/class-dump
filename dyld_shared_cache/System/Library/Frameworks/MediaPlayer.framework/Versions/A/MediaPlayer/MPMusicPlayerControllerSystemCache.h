@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMusicPlayerControllerNowPlaying, MPMusicPlayerQueueDescriptor, NSUserDefaults;
+@class MPMusicPlayerControllerNowPlaying, NSUserDefaults;
 
 @interface MPMusicPlayerControllerSystemCache
 {
     NSUserDefaults *_defaults;
 }
 
-+ (id);
++ (id)L;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)+I;
+- (id)pasteboardWithName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)Entry;
+- (void)_endEntry;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCachedData;
 @property(retain, nonatomic) MPMusicPlayerControllerNowPlaying *nowPlaying;
-@property(retain, nonatomic) MPMusicPlayerQueueDescriptor *queueDescriptor;
 
 @end
 

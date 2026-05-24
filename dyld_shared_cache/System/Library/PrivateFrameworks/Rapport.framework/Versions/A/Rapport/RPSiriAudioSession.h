@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, RPSiriAudioSessionDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPSiriAudioSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    NSString *_sessionID;
-    id <RPSiriAudioSessionDelegate> _delegate;
 }
 
 + (_Bool);
@@ -27,36 +17,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)modified date:(id)arg1 %@;
+- (id)struction with smallG failed.;
+- (void)es;
+- (id)NSt3__120__shared_ptr_pointerIPN6quasar8artifact13AppLmArtifactENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (CDUnknownBlockType)v^;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void);
+- (void)#;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <RPSiriAudioSessionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

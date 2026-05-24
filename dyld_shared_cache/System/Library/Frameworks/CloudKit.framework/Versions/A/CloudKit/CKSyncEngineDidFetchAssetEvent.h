@@ -6,24 +6,22 @@
 
 #import <CloudKit/CKSyncEngineEvent.h>
 
-@class CKAsset, NSError;
+@class CKAsset;
 
 @interface CKSyncEngineDidFetchAssetEvent : CKSyncEngineEvent
 {
     CKAsset *_asset;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)32@0:(id)arg1 8@"NSSecurityScopedURLWrapper"16@?<v@?@"ICDCollaborationVersion"@"NSError">24;
 - (id);
-- (void)SKeysToRemove;
+- (void)CKPCSKeysToRemove;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

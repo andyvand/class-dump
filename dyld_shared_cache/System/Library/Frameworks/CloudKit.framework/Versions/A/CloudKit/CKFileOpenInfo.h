@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssetDownloadStagingInfo, CKAssetDownloadStagingManager, NSFileHandle, NSNumber, NSString;
+@class NSString;
 
 @interface CKFileOpenInfo
 {
     _Bool _shouldReadRawEncryptedData;
-    NSString *_UUID;
-    NSString *_path;
-    NSNumber *_deviceID;
-    NSNumber *_fileID;
-    NSNumber *_generationID;
-    NSFileHandle *_fileHandle;
-    CKAssetDownloadStagingInfo *_assetDownloadStagingInfo;
-    CKAssetDownloadStagingManager *_assetDownloadStagingManager;
 }
 
 + (_Bool);
@@ -25,12 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)JJ);
 - (id);
 - (void)ÀI;
 - (id);
@@ -40,14 +32,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) CKAssetDownloadStagingInfo *assetDownloadStagingInfo; // @synthesize assetDownloadStagingInfo=_assetDownloadStagingInfo;
-@property __weak CKAssetDownloadStagingManager *assetDownloadStagingManager; // @synthesize assetDownloadStagingManager=_assetDownloadStagingManager;
-@property(readonly, copy, nonatomic) NSNumber *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly, copy, nonatomic) NSNumber *fileID; // @synthesize fileID=_fileID;
-@property(readonly, copy, nonatomic) NSNumber *generationID; // @synthesize generationID=_generationID;
-@property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) _Bool shouldReadRawEncryptedData; // @synthesize shouldReadRawEncryptedData=_shouldReadRawEncryptedData;
 
 @end
 

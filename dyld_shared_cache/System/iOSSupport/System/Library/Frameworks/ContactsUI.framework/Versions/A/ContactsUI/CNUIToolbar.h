@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView, UIVisualEffectView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNUIToolbar
 {
     _Bool _isAnimating;
-    NSArray *_items;
-    NSArray *_buttons;
-    UIView *_border;
-    UIVisualEffectView *_visualEffectView;
 }
 
 + (double);
@@ -21,28 +17,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (void)I;
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double):8@"CNPhotoPickerHeaderView"16 /* Error: Ran out of types for this method. */;
-- (void)tionItem: /* Error: Ran out of types for this method. */;
+- (void)authorizedAddContacts:toDestinationItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *border; // @synthesize border=_border;
 @property(retain, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
 
 @end
 

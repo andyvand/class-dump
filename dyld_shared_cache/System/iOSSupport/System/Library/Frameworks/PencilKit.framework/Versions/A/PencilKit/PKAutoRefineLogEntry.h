@@ -11,12 +11,6 @@
 @interface PKAutoRefineLogEntry : PKHandwritingSynthesisLogEntry
 {
     NSArray *_unrefinedStrokes;
-    NSArray *_refinedStrokes;
-    NSArray *_unchangedStrokes;
-    _Bool _isAutoRefined;
-    long long;
-    double _tokenDeviation;
-    double _tokenTranslation;
 }
 
 - (id);
@@ -33,13 +27,7 @@
 - (void)ì;
 
 // Remaining properties
-@property(readonly) _Bool isAutoRefined; // @synthesize isAutoRefined=_isAutoRefined;
-@property(readonly) NSArray *originalStrokes;
 @property(readonly) NSArray *refinedStrokes; // @synthesize refinedStrokes=_refinedStrokes;
-@property(readonly) long long refinedWordCount; // @synthesize refinedWordCount=_refinedWordCount;
-@property(readonly) double tokenDeviation; // @synthesize tokenDeviation=_tokenDeviation;
-@property(readonly) double tokenTranslation; // @synthesize tokenTranslation=_tokenTranslation;
-@property(readonly) NSArray *unchangedStrokes; // @synthesize unchangedStrokes=_unchangedStrokes;
 
 @end
 

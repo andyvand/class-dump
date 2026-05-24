@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1J1J>S㫥R#;
 - (void);
 - (void);
 - (void);
@@ -30,10 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int baseWritingDirection; // @dynamic baseWritingDirection;
-@property(nonatomic) long long changeableTokenColumnCount; // @dynamic changeableTokenColumnCount;
-@property(nonatomic) long long precedingLineBreaks; // @dynamic precedingLineBreaks;
-@property(nonatomic) long long recognizerGenerationIdentifier; // @dynamic recognizerGenerationIdentifier;
 @property(copy, nonatomic) NSArray *tokenColumns; // @dynamic tokenColumns;
 
 @end

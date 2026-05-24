@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineTodayFeedGroupEmitterCursor
 {
     id location;
-    id cloudContext;
-    id historyService;
 }
 
 @end

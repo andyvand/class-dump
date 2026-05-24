@@ -13,14 +13,14 @@
     NSArray *_hashBucketDetails;
 }
 
-+ (id);
++ (id)sQualified<WTF:(id)arg1:ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
+- (id)raits<String>, Malloc = WTF:(id)arg1:(id)arg2 FastMalloc, shouldValidateKey = WTF:(id)arg3:ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)hTable<WTF::String, WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *hashBucketDetails;
+@property(retain, nonatomic) NSArray *hashBucketDetails; // @synthesize hashBucketDetails=_hashBucketDetails;
 
 @end
 

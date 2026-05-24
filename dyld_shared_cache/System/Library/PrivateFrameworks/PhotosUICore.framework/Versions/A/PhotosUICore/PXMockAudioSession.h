@@ -11,17 +11,16 @@
 @interface PXMockAudioSession : PXAudioSession
 {
     NSTimer *_currentTimeUpdateTimer;
-    CDStruct_1b6d18a9 _currentTime;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDStruct_1b6d18a9)toLibrarySource;
+- (void);
+- (CDStruct_1b6d18a9)_photoLibrarySource;
 - (void)ÄäwÔ®ÿ;
 - (void)kR*<;
 

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ISAuthenticationResponse
 {
     NSString *_token;
-    unsigned long long _urlBagType;
-    NSString *_storeFront;
-    _Bool _isManagedStudent;
-    unsigned long long _URLBagType;
-    NSString *_accountIdentifier;
-    long long _accountKind;
-    NSString *_creditString;
-    NSNumber *_dsID;
 }
 
-+ (_Bool);
++ (_Bool)d;
 - (long long);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/;
 - (id);
 - (id);
 - (id);
@@ -37,13 +29,6 @@
 
 // Remaining properties
 @property unsigned long long URLBagType; // @synthesize URLBagType=_URLBagType;
-@property(readonly) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly) long long accountKind; // @synthesize accountKind=_accountKind;
-@property(readonly) NSString *creditString; // @synthesize creditString=_creditString;
-@property(readonly) NSNumber *dsID; // @synthesize dsID=_dsID;
-@property(readonly) _Bool isManagedStudent; // @synthesize isManagedStudent=_isManagedStudent;
-@property(readonly) NSString *storeFront; // @synthesize storeFront=_storeFront;
-@property(readonly) NSString *token; // @synthesize token=_token;
 
 @end
 

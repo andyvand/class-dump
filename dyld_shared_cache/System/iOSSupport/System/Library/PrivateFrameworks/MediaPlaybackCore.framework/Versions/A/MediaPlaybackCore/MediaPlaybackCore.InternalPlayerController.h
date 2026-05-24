@@ -9,21 +9,6 @@
 @interface MediaPlaybackCore.InternalPlayerController
 {
     id delegate;
-    id targetRate;
-    id targetStartTime;
-    id timeOfPreviousRewindOnInterruption;
-    id player;
-    id reporter;
-    id queue;
-    id scanningSubscription;
-    id lastFullyDownloadedPlayerItem;
-    id reportedResumePlaybackTime;
-    id preSetQueueItem;
-    id pendingSeek;
-    id preferredRate;
-    id hasPrerolled;
-    id actionAtQueueEnd;
-    id contentItemIDAtQueueEnd;
 }
 
 - (void);

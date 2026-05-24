@@ -9,14 +9,12 @@
 @interface AppKit._NSTextFormattingBaseComboBox__priv_B20AA1257E16D4018E27D921D92487C8 : NSComboBox
 {
     id componentKey;
-    id componentSize;
-    id isInspectorUI;
 }
 
 - (id);
 - (id);
 - (struct CGSize);
-- (id)t:(struct CGRect)arg1;
+- (id)_springLoadingHighlightForSegment:(struct CGRect)arg1;
 - (void)ðQE;
 
 // Remaining properties

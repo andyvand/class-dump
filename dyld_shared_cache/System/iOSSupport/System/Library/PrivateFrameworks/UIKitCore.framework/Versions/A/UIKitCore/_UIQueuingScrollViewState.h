@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UITransitionState.h>
 
-@class UIView, UIViewController;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIQueuingScrollViewState : _UITransitionState
 {
     UIView *_view;
-    UIViewController *_viewController;
-    _Bool _manual;
 }
 
 - (_Bool);

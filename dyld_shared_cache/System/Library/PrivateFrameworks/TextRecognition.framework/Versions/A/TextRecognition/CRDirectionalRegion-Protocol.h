@@ -5,7 +5,7 @@
 //
 
 @protocol CRDirectionalRegion
-- (unsigned long long)put;
+- (unsigned long long)ImageReaderOutput;
 
 // Remaining properties
 @property(readonly) unsigned long long layoutDirection;

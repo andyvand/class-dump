@@ -6,24 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SISchemaUEIDictationAlternativeConfusionPairsSelected : SISchemaInstrumentationMessage
 {
     NSArray *_alternativeSelections;
-    int _numDeletions;
-    int _numInsertions;
-    int _numSubstitutions;
-    CDStruct_a724d976 _has;
 }
 
+- (void)T.;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (int);
@@ -31,7 +27,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (unsigned long long);
@@ -42,24 +38,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_weightedAppForgroundUsages;
 - (_Bool);
-- (_Bool);
+- (_Bool)SELECT group_concat(c.room_name)                           FROM                             chat c                           INNER JOIN                             chat_message_join j                           ON                             c.ROWID = j.chat_id                           WHERE                             j.message_id = message.ROWID                           ) WHERE message.ROWID = (select j.message_id FROM chat c INNER JOIN chat_message_join j ON c.rowid = j.chat_id WHERE c.room_name IS NOT NULL); ;
 - (id);
 - (id);
-- (id);
-- (id)erUpdated;
-- (void)idth;
+- (id)deleteEdge;
+- (id)_hasActionParameterUpdated;
+- (void)sendBandwidth;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternativeSelections; // @synthesize alternativeSelections=_alternativeSelections;
-@property(nonatomic) _Bool hasNumDeletions;
-@property(nonatomic) _Bool hasNumInsertions;
-@property(nonatomic) _Bool hasNumSubstitutions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int numDeletions; // @synthesize numDeletions=_numDeletions;
-@property(nonatomic) int numInsertions; // @synthesize numInsertions=_numInsertions;
-@property(nonatomic) int numSubstitutions; // @synthesize numSubstitutions=_numSubstitutions;
 
 @end
 

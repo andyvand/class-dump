@@ -5,5 +5,6 @@
 //
 
 @protocol SFShareSheetServiceDelegate
+- (void);
 @end
 

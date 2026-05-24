@@ -9,11 +9,6 @@
 @interface GEOLocalizationCapabilities
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _supportedPhoneticTypes;
-    _Bool _supportsLocalizedTrafficControlIcons;
-    struct {
-        unsigned int has_supportsLocalizedTrafficControlIcons:1;
-    } _flags;
 }
 
 - (_Bool);
@@ -38,9 +33,9 @@
 - (void);
 - (int)@ù
 × ;
-- (id)sSearchResponseRelativeTimestamp:(struct _NSZone *)arg1;
-- (id)ack;
-- (id)ed: /* Error: Ran out of types for this method. */;
+- (id)setPlaceCardPlaceActionDetailsSearchResponseRelativeTimestamp:(struct _NSZone *)arg1;
+- (id)hasSpokenGuidanceFeedback;
+- (id)StringAsTrafficSpeed: /* Error: Ran out of types for this method. */;
 - (id)@;
 - (id)X;
 - (unsigned long long)@ÙÎ÷S@²ï§Æçf@;
@@ -48,11 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSupportsLocalizedTrafficControlIcons;
-@property(readonly, nonatomic) int *supportedPhoneticTypes;
 @property(readonly, nonatomic) unsigned long long supportedPhoneticTypesCount;
-@property(nonatomic) _Bool supportsLocalizedTrafficControlIcons;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

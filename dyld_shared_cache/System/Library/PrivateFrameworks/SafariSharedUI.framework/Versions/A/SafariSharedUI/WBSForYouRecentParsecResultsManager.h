@@ -6,24 +6,22 @@
 
 #import <SafariSharedUI/WBSForYouRecommendationMediatorDataSource.h>
 
-@class NSArray, NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSCache;
 
 @interface WBSForYouRecentParsecResultsManager : WBSForYouRecommendationMediatorDataSource
 {
     NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)_;
 - (void);
 - (void)ge;
 

@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface GRRSchemaGRRHypothesisRankingStarted : SISchemaInstrumentationMessage
 {
     NSString *_assetVersion;
-    NSArray *_featureFlags;
-    _Bool _hasAssetVersion;
 }
 
 - (void);
@@ -32,8 +30,8 @@
 - (_Bool);
 - (id);
 - (id)umCharactersInQuery"b1"numWordsInQuery"b1};
-- (void)AtTimestampHourInMs;
-- (id)eLocation;
+- (void)queuedAtTimestampHourInMs;
+- (id)deleteResponseInferenceLocation;
 - (id)å;
 - (id);
 - (void)ìÇÿÁ²($$;
@@ -41,9 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(copy, nonatomic) NSArray *featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

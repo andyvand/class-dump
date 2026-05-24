@@ -9,7 +9,6 @@
 @interface ABTaskOperation
 {
     ABTask *_task;
-    CDUnknownBlockType _taskCompletionBlock;
 }
 
 - (CDUnknownBlockType);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)identifierToDiscretionaryIntervals;
 - (void);
 
 // Remaining properties

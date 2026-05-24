@@ -5,5 +5,6 @@
 //
 
 @protocol PLSyndicationSanitizedResourceGeneratorDelegate
+- (id)>24;
 @end
 

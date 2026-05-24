@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *descriptor; // @dynamic descriptor;
-@property(readonly, nonatomic) unsigned long long direction; // @dynamic direction;
 
 @end
 

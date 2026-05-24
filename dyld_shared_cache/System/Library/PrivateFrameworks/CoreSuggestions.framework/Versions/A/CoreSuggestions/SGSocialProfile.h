@@ -11,15 +11,10 @@
 @interface SGSocialProfile : SGLabeledObject
 {
     NSString *_username;
-    NSString *_userIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_displayName;
-    NSString *_service;
-    NSString *_teamIdentifier;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -30,16 +25,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(readonly, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

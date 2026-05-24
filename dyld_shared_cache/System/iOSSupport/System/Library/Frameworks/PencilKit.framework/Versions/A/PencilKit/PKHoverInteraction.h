@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 @protocol PKHoverInteractionDelegate;
 
 @interface PKHoverInteraction
 {
     id <PKHoverInteractionDelegate> _delegate;
-    UIView *_view;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)8;
 - (void);
 - (void);
 - (void)»#8¿;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <PKHoverInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

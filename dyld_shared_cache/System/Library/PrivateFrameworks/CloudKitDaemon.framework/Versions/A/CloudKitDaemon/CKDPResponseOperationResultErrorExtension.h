@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKDPResponseOperationResultErrorExtension
 {
     NSString *_extensionName;
-    NSData *_extensionPayload;
-    unsigned int _typeCode;
-    struct {
-        unsigned int typeCode:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)bufferedAudioEngine_flushWithinSampleRangeInternal;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -38,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *extensionName; // @synthesize extensionName=_extensionName;
-@property(retain, nonatomic) NSData *extensionPayload; // @synthesize extensionPayload=_extensionPayload;
 @property(readonly, nonatomic) _Bool hasExtensionName;
-@property(readonly, nonatomic) _Bool hasExtensionPayload;
-@property(nonatomic) _Bool hasTypeCode;
-@property(nonatomic) unsigned int typeCode; // @synthesize typeCode=_typeCode;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ICFilterSelection
 {
     _Bool _includeRecentlyDeleted;
-    unsigned long long _joinOperator;
-    NSArray *_filterTypeSelections;
-    NSString *_primaryDateSummary;
-    NSString *_secondaryDateSummary;
 }
 
 + (id);
@@ -24,49 +20,34 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)setConnectionLock: /* Error: Ran out of types for this method. */;
+- (id)serviceConnection;
+- (id)tes);
+- (id)s:%0.2f (%llu of %llu bytes) /* Error: Ran out of types for this method. */;
+- (id)oading assets:0%%... /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long)@;
+- (_Bool);
+- (_Bool);
+- (id)H;
 - (_Bool);
 - (id);
 - (void)Àî;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *emptyFilterTypeSelections;
-@property(readonly, nonatomic) NSString *emptySummary;
-@property(readonly, nonatomic) NSString *emptySummaryTitle;
-@property(retain, nonatomic) NSArray *filterTypeSelections; // @synthesize filterTypeSelections=_filterTypeSelections;
-@property(readonly, nonatomic) _Bool hasEmptySelection;
-@property(nonatomic) _Bool includeRecentlyDeleted; // @synthesize includeRecentlyDeleted=_includeRecentlyDeleted;
-@property(readonly, nonatomic) NSArray *incompatibleLockedNotesFilterTypeSelections;
-@property(readonly, nonatomic) NSArray *invalidFilterTypeSelectionCombinations;
-@property(readonly, nonatomic) NSString *invalidSummary;
-@property(readonly, nonatomic) NSString *invalidSummaryTitle;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isValid;
-@property(nonatomic) unsigned long long joinOperator; // @synthesize joinOperator=_joinOperator;
-@property(readonly, copy, nonatomic) NSString *primaryDateSummary; // @synthesize primaryDateSummary=_primaryDateSummary;
-@property(readonly, copy, nonatomic) NSString *secondaryDateSummary; // @synthesize secondaryDateSummary=_secondaryDateSummary;
-@property(readonly, copy, nonatomic) NSString *summaryWithJoinOperatorMenu;
 
 @end
 

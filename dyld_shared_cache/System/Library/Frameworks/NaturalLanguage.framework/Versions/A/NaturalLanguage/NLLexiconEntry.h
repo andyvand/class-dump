@@ -9,9 +9,6 @@
 @interface NLLexiconEntry
 {
     NSString *_string;
-    unsigned int _tokenID;
-    unsigned long long _flags;
-    double _probability;
 }
 
 + (id);
@@ -24,8 +21,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned long long flags;
-@property(readonly) double probability;
 @property(readonly, copy) NSString *string;
 
 @end

@@ -7,19 +7,17 @@
 @interface AVZoomRange
 {
     double _minZoomFactor;
-    double _maxZoomFactor;
 }
 
-+ (id);
-- (id);
-- (_Bool);
++ (id)sses:(double)arg1 %@ resulted in error:(double)arg2 %@;
+- (id)_primaryDropShadowColor;
+- (_Bool)tFileHandle;
 - (double);
 - (id);
 - (double);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double maxZoomFactor; // @synthesize maxZoomFactor=_maxZoomFactor;
 @property(readonly, nonatomic) double minZoomFactor; // @synthesize minZoomFactor=_minZoomFactor;
 
 @end

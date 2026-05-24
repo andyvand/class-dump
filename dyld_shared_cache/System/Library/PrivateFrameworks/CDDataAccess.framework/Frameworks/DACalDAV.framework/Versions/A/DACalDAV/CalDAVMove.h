@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CalDAVMove
 {
     int _sourceCalendarID;
-    int _itemID;
-    int _changeID;
-    NSString *_oldExternalID;
-    long long _objectType;
 }
 
 - (int);
@@ -29,10 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int changeID; // @synthesize changeID=_changeID;
-@property(nonatomic) int itemID; // @synthesize itemID=_itemID;
-@property(nonatomic) long long objectType; // @synthesize objectType=_objectType;
-@property(retain, nonatomic) NSString *oldExternalID; // @synthesize oldExternalID=_oldExternalID;
 @property(nonatomic) int sourceCalendarID; // @synthesize sourceCalendarID=_sourceCalendarID;
 
 @end

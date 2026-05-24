@@ -11,7 +11,7 @@
     id <CNTCC> _tccServices;
 }
 
-+ (id)ectHash: /* Error: Ran out of types for this method. */;
++ (id)setCropRectHash: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);

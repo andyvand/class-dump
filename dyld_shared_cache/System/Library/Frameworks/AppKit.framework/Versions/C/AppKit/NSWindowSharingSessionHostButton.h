@@ -14,20 +14,18 @@
 }
 
 + (void)8H;
-- (void);
-- (void);
-- (_Bool);
+- (void)ey %@.;
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (_Bool);
+- (id)e reach out to cfnetwork / duetactivityscheduler;
+- (id);
+- (void)ect={CGPoint=dd}{CGSize=dd}}32@0:(id)arg1 8q16Q24;
 - (id)at '%@':%@ %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool acceptsHover;
 @property __weak NSObject<NSWindowSharingSessionHostButtonDelegate> *delegate;
-@property _Bool recordingStyle;
 
 @end
 

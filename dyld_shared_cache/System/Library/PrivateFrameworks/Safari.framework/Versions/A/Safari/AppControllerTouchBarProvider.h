@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTouchBar;
-@protocol AppControllerTouchBarProviderDelegate;
+@class NSButton, NSTouchBar;
 
 __attribute__((visibility("hidden")))
 @interface AppControllerTouchBarProvider
 {
     NSTouchBar *_touchBar;
-    id <AppControllerTouchBarProviderDelegate> _delegate;
-    NSButton *_newWindowButton;
-    NSButton *_newPrivateBrowsingWindowButton;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -27,17 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)5ó-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AppControllerTouchBarProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSButton *newPrivateBrowsingWindowButton; // @synthesize newPrivateBrowsingWindowButton=_newPrivateBrowsingWindowButton;
 @property(readonly, nonatomic) NSButton *newWindowButton; // @synthesize newWindowButton=_newWindowButton;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 
 @end
 

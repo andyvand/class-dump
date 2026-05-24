@@ -9,26 +9,20 @@
 @interface MMCSRequestorContext
 {
     int _type;
-    MMCSEngine *_engine;
-    char **_signatures;
-    unsigned long long _count;
-    unsigned long long *_itemIDs;
-    unsigned int *_itemFlags;
-    char **_authTokens;
 }
 
-+ (id);
-- (void);
-- (id);
++ (id)@Allowing notifications to be enabled for doorbell characteristic;
+- (void){public}@> as %{public}@, migrated relationships:(char **)arg1 %{public}@;
+- (id)oved accessory from notification:(id)arg1 %@;
 - (void);
 - (unsigned long long *);
 - (char **);
 - (void);
 - (unsigned int *);
-- (void);
-- (void);
-- (char **);
-- (int);
+- (void)[;
+- (void)"	;
+- (char **)logEventBackwardAOPPowerState:withChannels: /* Error: Ran out of types for this method. */;
+- (int)fastHwToTlcBalance;
 - (_Bool);
 - (void);
 - (id);
@@ -38,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) char **authTokens; // @synthesize authTokens=_authTokens;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(nonatomic) __weak MMCSEngine *engine; // @synthesize engine=_engine;
-@property(nonatomic) unsigned int *itemFlags; // @synthesize itemFlags=_itemFlags;
-@property(nonatomic) unsigned long long *itemIDs; // @synthesize itemIDs=_itemIDs;
-@property(nonatomic) char **signatures; // @synthesize signatures=_signatures;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

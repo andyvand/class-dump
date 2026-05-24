@@ -14,18 +14,11 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *Version; // @synthesize Version=_Version;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

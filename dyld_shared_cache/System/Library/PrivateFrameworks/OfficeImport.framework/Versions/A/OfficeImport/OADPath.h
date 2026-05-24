@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface OADPath
 {
     struct CGSize mSize;
-    NSMutableArray *mElements;
-    int mFillMode;
-    _Bool mStroked;
 }
 
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)T;
 - (id);
+- (id);
 - (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize)} for:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void)ø;

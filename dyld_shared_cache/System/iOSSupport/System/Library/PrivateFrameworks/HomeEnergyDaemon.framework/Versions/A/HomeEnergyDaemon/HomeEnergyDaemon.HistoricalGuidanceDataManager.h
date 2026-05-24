@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id urlSession;
-    id calendar;
 }
 
 @end

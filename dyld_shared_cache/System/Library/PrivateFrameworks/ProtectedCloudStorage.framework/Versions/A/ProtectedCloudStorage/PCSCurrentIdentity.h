@@ -9,19 +9,17 @@
 @interface PCSCurrentIdentity
 {
     struct _PCSIdentityData *_identity;
-    NSDate *_currentItemPointerModificationTime;
 }
 
-- (id);
+- (id)@-;
 - (void);
 - (id);
 - (void);
 - (struct _PCSIdentityData *);
-- (void);
+- (void)tor database update to finish;
 
 // Remaining properties
 @property(retain) NSDate *currentItemPointerModificationTime; // @synthesize currentItemPointerModificationTime=_currentItemPointerModificationTime;
-@property(readonly) struct _PCSIdentityData *identity; // @synthesize identity=_identity;
 
 @end
 

@@ -4,23 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUSchemaRegistry
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_schemas;
-    NSMutableDictionary *_versions;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)getExplicitMarkedEnrollmentUtterancesFromDirectory:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)3R1a5vl55hmn1hxBWJRExqVFo7C2hcTz3kGkrLxeKnouVluxUOko
+7E+mgPmJn2OVWnGxPlHuV3epJCsuzosaWiDGPSynhMkM/FDSLMiTJ4NjMKEDPykp
+rYzTMrsuPb84qQrD94rCqVXoL3tWn20uwYyeBXtM1evcaGho/bmjAVmpLp1Kzr0L
+vH5xwPLtMpWSQWzsnCh39Og=
+-----END CERTIFICATE-----
+;
 - (id);
 - (void);
 - (id);

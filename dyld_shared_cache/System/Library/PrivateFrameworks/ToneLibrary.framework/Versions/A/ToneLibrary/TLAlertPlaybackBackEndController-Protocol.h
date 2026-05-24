@@ -5,5 +5,6 @@
 //
 
 @protocol TLAlertPlaybackBackEndController
+- (_Bool);
 @end
 

@@ -12,17 +12,17 @@
 + (_Bool)%ld
 ;
 + (id)tt;
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)nd a chat for the following identifiers:%s /* Error: Ran out of types for this method. */;
+- (id)available from IMDCKRecordSaltManager could not create CKRecord!;
+- (_Bool)rary change was received for a particular asset, but a corresponding file transfer was not found using the asset's syndicationIdentifier. syndicationIdentifier:%@, asset:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)dle:%@, bailing /* Error: Ran out of types for this method. */;
+- (_Bool)SimulatedMessageBatch;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)er;
-- (void)efaultTrailingCellMarginWidth:(id)arg1;
-- (CDUnknownBlockType)TextField;
+- (_Bool)trailingSwipeEdgeMultiplier;
+- (void)setDefaultTrailingCellMarginWidth:(id)arg1;
+- (CDUnknownBlockType)returnBorrowedSearchTextField;
 - (id)Menu;
 - (void)BarFrame != NULL;
 - (void)©~Ê$@[;

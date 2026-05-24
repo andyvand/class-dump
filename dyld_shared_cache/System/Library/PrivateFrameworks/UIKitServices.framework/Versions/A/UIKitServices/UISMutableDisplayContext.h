@@ -6,7 +6,7 @@
 
 #import <UIKitServices/UISDisplayContext.h>
 
-@class FBSDisplayConfiguration, UISApplicationSupportDisplayEdgeInfo, UISDisplayShape;
+@class FBSDisplayConfiguration;
 
 @interface UISMutableDisplayContext : UISDisplayContext
 {
@@ -20,11 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long artworkSubtype; // @dynamic artworkSubtype;
 @property(retain, nonatomic) FBSDisplayConfiguration *displayConfiguration; // @dynamic displayConfiguration;
-@property(retain, nonatomic) UISApplicationSupportDisplayEdgeInfo *displayEdgeInfo; // @dynamic displayEdgeInfo;
-@property(retain, nonatomic) UISDisplayShape *exclusionArea; // @dynamic exclusionArea;
-@property(nonatomic) unsigned long long userInterfaceStyle; // @dynamic userInterfaceStyle;
 
 @end
 

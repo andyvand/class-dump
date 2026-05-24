@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
-- (id)WCritical;
+- (id);
+- (id)CTCellularHealthHWCritical;
 
 // Remaining properties
 @property(readonly, nonatomic) CTRatSelection *selection;

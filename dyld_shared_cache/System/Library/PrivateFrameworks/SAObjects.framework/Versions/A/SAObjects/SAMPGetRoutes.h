@@ -12,11 +12,11 @@
 
 + (id);
 + (id);
-- (void);
+- (void)n;
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) double routeTimeout;

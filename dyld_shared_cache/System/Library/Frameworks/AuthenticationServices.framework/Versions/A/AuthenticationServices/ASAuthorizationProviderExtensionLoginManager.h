@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationProviderExtensionLoginConfiguration, ASAuthorizationProviderExtensionUserLoginConfiguration, NSDictionary, NSString, POLoginManager;
+@class POLoginManager;
 
 @interface ASAuthorizationProviderExtensionLoginManager
 {
@@ -13,9 +13,9 @@
 
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)kA;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (struct __SecKey *);
@@ -41,20 +41,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ogle Chrome;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long authenticationMethod;
-@property(readonly, getter=isDeviceRegistered) _Bool deviceRegistered;
-@property(readonly, copy, nonatomic) NSDictionary *extensionData;
-@property(readonly, copy, nonatomic) ASAuthorizationProviderExtensionLoginConfiguration *loginConfiguration;
 @property(readonly, nonatomic) POLoginManager *loginManager; // @synthesize loginManager=_loginManager;
-@property(copy, nonatomic) NSString *loginUserName;
-@property(readonly, copy, nonatomic) NSString *registrationToken;
-@property(copy, nonatomic) NSDictionary *ssoTokens;
-@property(readonly, copy, nonatomic) ASAuthorizationProviderExtensionUserLoginConfiguration *userLoginConfiguration;
-@property(readonly, getter=isUserRegistered) _Bool userRegistered;
 
 @end
 

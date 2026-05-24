@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebFramePolicyListener
 {
     struct RefPtr<WebCore::LocalFrame, WTF::RawPtrTraits<WebCore::LocalFrame>, WTF::DefaultRefDerefTraits<WebCore::LocalFrame>> _frame;
-    struct CompletionHandler<void (WebCore::PolicyAction)> _policyFunction;
-    struct RetainPtr<NSURL> _appLinkURL;
-    struct RetainPtr<NSURL> _referrerURL;
-    unsigned char _defaultPolicy;
 }
 
-+ (void)OpaqueLoadingForMedia;
++ (void)EnableOpaqueLoadingForMedia;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void){public}@:[%{public}@] Failed to obtain or format account name /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)�Z8	9;
 - (void);
 - (id);
 - (void);
@@ -31,13 +25,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

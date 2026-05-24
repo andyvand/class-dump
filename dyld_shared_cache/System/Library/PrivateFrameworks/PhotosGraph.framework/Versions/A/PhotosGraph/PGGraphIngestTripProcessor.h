@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MABinaryAdjacency, NSString, PGGraphBuilder, PGGraphHighlightGroupNodeCollection;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestTripProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    PGGraphHighlightGroupNodeCollection *_allTripNodes;
-    MABinaryAdjacency *_featuredLocationNodesByHighlightGroupNode;
-    PGGraphHighlightGroupNodeCollection *_tripsMissingFeaturedLocations;
 }
 
-+ (unsigned long long);
++ (unsigned long long)6;
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)stringByTrimmingCharactersInSet:(id)arg1;
+- (id)Ni;
 - (void);
 - (id);
 - (id);
 - (void)tos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Data Model Enrichment/PGGraphPhotosHighlightEnrichmentProcessor.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

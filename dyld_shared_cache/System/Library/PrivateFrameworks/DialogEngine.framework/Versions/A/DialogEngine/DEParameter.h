@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEParameter
 {
     shared_ptr_a172c490 _This;
@@ -31,12 +29,6 @@
 
 // Remaining properties
 @property shared_ptr_a172c490 This; // @synthesize This=_This;
-@property(readonly) NSString *defaultValue;
-@property(retain) NSString *description;
-@property(retain) NSString *name;
-@property(readonly) _Bool overridable;
-@property(retain) NSString *semanticConcept;
-@property(retain) NSString *type;
 
 @end
 

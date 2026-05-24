@@ -5,5 +5,6 @@
 //
 
 @protocol IMAPGetNewLocalActionsOperationDelegate
+- (void);
 @end
 

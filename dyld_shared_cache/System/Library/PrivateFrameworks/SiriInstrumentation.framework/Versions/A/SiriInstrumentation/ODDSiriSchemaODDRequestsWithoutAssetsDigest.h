@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDRequestsWithoutAssetsCounts, ODDSiriSchemaODDRequestsWithoutAssetsDimensions;
+@class ODDSiriSchemaODDRequestsWithoutAssetsDimensions;
 
 @interface ODDSiriSchemaODDRequestsWithoutAssetsDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDRequestsWithoutAssetsDimensions *_dimensions;
-    ODDSiriSchemaODDRequestsWithoutAssetsCounts *_counts;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)֢;
 - (_Bool);
 - (void);
 - (void);
@@ -27,24 +24,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r;
 - (void);
-- (_Bool);
+- (_Bool)0;
 - (id);
 - (id);
 - (id)QÞ°1Â0@ù
 × ;
 - (id)ype;
 - (id)T@"NLXSchemaMentionDetectorSpanData",&,N,V_mentionDetectorSpanData;
-- (id)RY_UNKNOWN;
+- (id)RESPONSECATEGORY_UNKNOWN;
 - (void)er1.matchingSpans.input;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDRequestsWithoutAssetsCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDRequestsWithoutAssetsDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

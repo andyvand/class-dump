@@ -7,7 +7,6 @@
 @interface NewsUI2.LocationPermissionsCoordinator
 {
     id _isAuthorized;
-    id locationDetectionManager;
 }
 
 - (void);

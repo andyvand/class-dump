@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSChangeDataCaptureMetadata : SISchemaInstrumentationMessage
 {
     int _operationType;
-    struct {
-        unsigned int operationType:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)R;
+- (_Bool);
+- (_Bool)his is not an internal install so let's delete the backup database stored at %@;
 - (id);
 - (id)!<FùÝ°1Â0@ù
 × ;
-- (int)tHasEmoji: /* Error: Ran out of types for this method. */;
-- (id)asResolvedSlotName;
+- (int)setHasEmoji: /* Error: Ran out of types for this method. */;
+- (id)_hasResolvedSlotName;
 - (id)ext;
 - (void)ActivityTier1.suggestions.suggestionId;
-- (_Bool)TClientEvent;
+- (_Bool)NETSchemaNETClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOperationType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int operationType; // @synthesize operationType=_operationType;
 
 @end

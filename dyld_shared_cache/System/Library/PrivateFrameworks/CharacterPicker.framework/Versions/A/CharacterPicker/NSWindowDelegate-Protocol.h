@@ -9,17 +9,24 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (struct CGSize)_;
+- (void);
+- (void)";
+- (void)16@24;
+- (void)newFromSqliteStatement:(NSNotification *)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (void);
 - (void)!TCù1rÐ1Â0@ù
 × ;
 - (void);
 - (void)!ð!p@ùqr1Â0@ù
 × ;
 - (struct CGRect)age";
-- (void)oveForward:(NSNotification *)arg1;
-- (void)ss;
-- (_Bool)pover:(NSWindow *)arg1;
-- (void)xiliaryView;
-- (void)ht;
-- (struct CGSize)SPopoverDelegate;
+- (void)moveForward:(NSNotification *)arg1;
+- (void)class;
+- (_Bool)_prepareDeallocatingParentPopover:(NSWindow *)arg1;
+- (void)_auxiliaryView;
+- (void)mixmojiCreationAdditionalHeight;
+- (struct CGSize)NSPopoverDelegate;
 @end
 

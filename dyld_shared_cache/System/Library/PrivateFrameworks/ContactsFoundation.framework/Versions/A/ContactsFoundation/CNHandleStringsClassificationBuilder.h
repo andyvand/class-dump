@@ -9,8 +9,6 @@
 @interface CNHandleStringsClassificationBuilder
 {
     NSMutableArray *_emailAddresses;
-    NSMutableArray *_phoneNumbers;
-    NSMutableArray *_unknown;
 }
 
 - (void);
@@ -22,15 +20,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithTarget:action:schedulerProvider: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)¡&ð!Aùñ?*1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain, nonatomic) NSMutableArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(retain, nonatomic) NSMutableArray *unknown; // @synthesize unknown=_unknown;
 
 @end
 

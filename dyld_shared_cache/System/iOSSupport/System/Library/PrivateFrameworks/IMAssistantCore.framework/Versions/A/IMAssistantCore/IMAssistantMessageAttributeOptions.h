@@ -7,6 +7,7 @@
 @interface IMAssistantMessageAttributeOptions
 {
     unsigned long long _attributes;
+    id includeRead;
 }
 
 + (id);
@@ -18,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) _Bool includeRead;
 @property(readonly, nonatomic) _Bool includeUnread;
 

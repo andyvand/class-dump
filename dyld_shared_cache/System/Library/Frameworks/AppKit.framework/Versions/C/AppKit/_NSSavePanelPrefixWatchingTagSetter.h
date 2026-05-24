@@ -6,20 +6,19 @@
 
 #import <AppKit/_NSSavePanelTagSetter.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _NSSavePanelPrefixWatchingTagSetter : _NSSavePanelTagSetter
 {
     NSURL *directoryURL;
-    NSString *prefix;
 }
 
 - (id);
-- (void);
-- (_Bool);
+- (void)set_TLSMinimumSupportedProtocolVersion:(CDUnknownBlockType)arg1;
+- (_Bool)_watchExtensionBundleIdentifier;
 - (id);
-- (_Bool);
+- (_Bool)auth to request;
 - (void);
 
 @end

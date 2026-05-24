@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionBarPresentationProperties, LPImage, LPIndeterminateProgressSpinnerPresentationProperties, LPVideo, NSString, UIColor;
+@class LPCaptionBarPresentationProperties;
 
 @interface LPAppLinkPresentationProperties
 {
     LPCaptionBarPresentationProperties *_captionBar;
-    LPCaptionBarPresentationProperties *_mediaTopCaptionBar;
-    LPCaptionBarPresentationProperties *_mediaBottomCaptionBar;
-    NSString *_topCaption;
-    NSString *_bottomCaption;
-    NSString *_trailingTopCaption;
-    NSString *_trailingBottomCaption;
-    NSString *_mediaTopCaption;
-    NSString *_mediaBottomCaption;
-    LPImage *_image;
-    LPImage *_icon;
-    LPVideo *_video;
-    UIColor *_backgroundColor;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)switcherView:didMagnify: /* Error: Ran out of types for this method. */;
+- (id)swipeToReplyShowIndicatorThreshold;
+- (id)swipeToReplyDelta;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)supplementalDialTelephonyCallStringForDestination:(id)arg1 isPhoneNumber: /* Error: Ran out of types for this method. */;
+- (void)superFormatTranslation;
+- (void)suggestionDelegate;
+- (void)suggestionContext;
+- (void)suggestionCategoryTitleWithSenderName:(id)arg1 numberOfFiles:numberOfItems:aggregateContentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
+- (void)suggestionCategoryTitleWithSenderName:(id)arg1 numberOfFiles:numberOfItems:aggregateContentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
+- (void)strokeColor;
+- (void)stringForKey:(id)arg1;
+- (id)stickerBundleIDFromFileTransfer: /* Error: Ran out of types for this method. */;
+- (id)stepThroughOnboardingTipAnimationForLayer: /* Error: Ran out of types for this method. */;
+- (id)statusUpdateWithLocationText:isLocationAvailableForDisplay: /* Error: Ran out of types for this method. */;
+- (id)siri_selectionHighlightColorOverride;
+- (id)simulatedDaemon:willSendBalloonPayload:attachments:messageGUID:bundleID: /* Error: Ran out of types for this method. */;
+- (id)shouldHideClearPluginButton;
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)script src="mraid.js"></script></head><body><article onClick="mraid.open('https:(id)arg1 //apple.news/subscription')" id="ad-content" class="ad ad--ipad ad--large"></article><script>function changeClass() {var obj = document.getElementById('ad-content');if( Math.abs(window.orientation) === 90 ) {obj.classList.remove('ad--portrait');obj.classList.add('ad--landscape');} else {obj.classList.remove('ad--landscape');obj.classList.add('ad--portrait');}}if('large' === 'htmlinterstitial' && 'ipad' === 'iphone') {window.addEventListener('orientationchange', changeClass);window.addEventListener('resize', changeClass);window.addEventListener('load', changeClass);}</script></body></html>;
 - (id);
 - (void);
 - (id);
@@ -54,30 +42,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSString *bottomCaption; // @synthesize bottomCaption=_bottomCaption;
 @property(retain, nonatomic) LPCaptionBarPresentationProperties *captionBar; // @synthesize captionBar=_captionBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *mediaBottomCaption; // @synthesize mediaBottomCaption=_mediaBottomCaption;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(copy, nonatomic) NSString *mediaTopCaption; // @synthesize mediaTopCaption=_mediaTopCaption;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(retain, nonatomic) LPIndeterminateProgressSpinnerPresentationProperties *progressSpinner;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"LPIndeterminateProgressSpinnerPresentationProperties",?,&,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *topCaption; // @synthesize topCaption=_topCaption;
-@property(copy, nonatomic) NSString *trailingBottomCaption; // @synthesize trailingBottomCaption=_trailingBottomCaption;
-@property(copy, nonatomic) NSString *trailingTopCaption; // @synthesize trailingTopCaption=_trailingTopCaption;
-@property(retain, nonatomic) LPVideo *video; // @synthesize video=_video;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, UIColor;
+@class UIColor;
 
 @interface MPArtworkColorAnalysis
 {
     UIColor *_backgroundColor;
-    _Bool _backgroundColorLight;
-    UIColor *_primaryTextColor;
-    _Bool _primaryTextColorLight;
-    UIColor *_secondaryTextColor;
-    _Bool _secondaryTextColorLight;
-    UIColor *_tertiaryTextColor;
-    _Bool _tertiaryTextColorLight;
-    UIColor *_quaternaryTextColor;
-    UIColor *_gradientColor;
-    NSArray *_gradientTextColors;
-    NSNumber *_gradientColorStartPosition;
-    NSNumber *_gradientColorEndPosition;
 }
 
 + (id);
@@ -28,8 +16,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ascii37;
+- (void)56;
 - (void);
 - (void);
 - (void);
@@ -50,26 +38,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)t;
 - (void);
 - (id);
-- (id);
+- (id)K
+;
 - (void)elPlaylist",&,D,N;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic, getter=isBackgroundColorLight) _Bool backgroundColorLight; // @synthesize backgroundColorLight=_backgroundColorLight;
-@property(retain, nonatomic) UIColor *gradientColor; // @synthesize gradientColor=_gradientColor;
-@property(retain, nonatomic) NSNumber *gradientColorEndPosition; // @synthesize gradientColorEndPosition=_gradientColorEndPosition;
-@property(retain, nonatomic) NSNumber *gradientColorStartPosition; // @synthesize gradientColorStartPosition=_gradientColorStartPosition;
-@property(retain, nonatomic) NSArray *gradientTextColors; // @synthesize gradientTextColors=_gradientTextColors;
-@property(retain, nonatomic) UIColor *primaryTextColor; // @synthesize primaryTextColor=_primaryTextColor;
-@property(readonly, nonatomic, getter=isPrimaryTextColorLight) _Bool primaryTextColorLight; // @synthesize primaryTextColorLight=_primaryTextColorLight;
-@property(retain, nonatomic) UIColor *quaternaryTextColor; // @synthesize quaternaryTextColor=_quaternaryTextColor;
-@property(retain, nonatomic) UIColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
-@property(readonly, nonatomic, getter=isSecondaryTextColorLight) _Bool secondaryTextColorLight; // @synthesize secondaryTextColorLight=_secondaryTextColorLight;
-@property(retain, nonatomic) UIColor *tertiaryTextColor; // @synthesize tertiaryTextColor=_tertiaryTextColor;
-@property(readonly, nonatomic, getter=isTertiaryTextColorLight) _Bool tertiaryTextColorLight; // @synthesize tertiaryTextColorLight=_tertiaryTextColorLight;
 
 @end
 

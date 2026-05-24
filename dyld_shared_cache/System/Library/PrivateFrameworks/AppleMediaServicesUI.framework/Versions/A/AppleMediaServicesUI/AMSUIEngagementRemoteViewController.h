@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
-@protocol AMSUIEngagementTaskHostInterface, AMSUIEngagementTaskRemoteInterface;
+@class NSValue;
+@protocol AMSUIEngagementTaskHostInterface;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIEngagementRemoteViewController
 {
     id <AMSUIEngagementTaskHostInterface> _delegate;
-    NSValue *_internalPreferredContentSizeOverride;
 }
 
 + (id);
-+ (id)pandableInfoParser;
++ (id)AMSUIPaymentSheetExpandableInfoParser;
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)orderedCloudComments;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)queueMetricsForResult;
+- (void)shouldEnqueueMetricsForResult;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIEngagementTaskHostInterface> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSValue *internalPreferredContentSizeOverride; // @synthesize internalPreferredContentSizeOverride=_internalPreferredContentSizeOverride;
-@property struct CGSize preferredContentSizeOverride;
-@property(readonly) id <AMSUIEngagementTaskRemoteInterface> remoteProxy;
-@property(readonly) Class superclass;
 
 @end
 

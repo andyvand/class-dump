@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol NWRemoteConnectionActorDelegate;
 
 @interface NWRemoteConnectionActor
 {
     NSObject<NWRemoteConnectionActorDelegate> *_delegate;
-    NSMutableDictionary *_connections;
-    NSMutableDictionary *_browsers;
 }
 
 - (void);
@@ -20,18 +18,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)1;
+- (void)$;
 - (void);
-- (void);
-- (id);
+- (id)H;
 - (void)@;
 - (id)23.;
 - (void)2iv;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *browsers; // @synthesize browsers=_browsers;
-@property(retain) NSMutableDictionary *connections; // @synthesize connections=_connections;
 @property __weak NSObject<NWRemoteConnectionActorDelegate> *delegate; // @synthesize delegate=_delegate;
 
 @end

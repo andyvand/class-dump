@@ -5,6 +5,9 @@
 //
 
 @protocol EMMutableDictionaryProtocol
+- (void)ge_type) == (field->message_type()):(id)arg1;
+- (void)(;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned long long count;

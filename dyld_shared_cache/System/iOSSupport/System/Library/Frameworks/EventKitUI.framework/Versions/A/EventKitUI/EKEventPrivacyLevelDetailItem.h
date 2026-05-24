@@ -6,24 +6,22 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class UISwitch, UITableViewCell;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventPrivacyLevelDetailItem : EKEventDetailItem
 {
     UITableViewCell *_cell;
-    UISwitch *_control;
-    _Bool _switchStateIsOn;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void)nText: /* Error: Ran out of types for this method. */;
+- (void)setMainText: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -9,14 +9,10 @@
 @interface Swift.__SharedStringStorage : Swift.__SwiftNativeNSString
 {
     id _owner;
-    id start;
-    id _countAndFlags;
-    id _breadcrumbs;
-    id immortal;
 }
 
 - (unsigned long long);
-- (const char *);
+- (const char *)A;
 - (const char *);
 - (void);
 - (long long);
@@ -25,15 +21,13 @@
 - (BOOL);
 - (unsigned long long);
 - (id);
-- (BOOL);
+- (BOOL)$b;
 - (unsigned short);
 - (const char *);
 - (BOOL)P;
 - (const char *)Cøzmm:(BOOL)arg1 ù®mÉ;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long fastestEncoding;
-@property(nonatomic, readonly) unsigned long long hash;
 @property(nonatomic, readonly) long long length;
 
 @end

@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSString, NSURL;
-@protocol CRKFileBackedConfigurationSourceDelegate, OS_dispatch_queue;
+@class NSURL;
+@protocol CRKFileBackedConfigurationSourceDelegate;
 
 @interface CRKFileBackedConfigurationSource
 {
     NSURL *mFileURL;
-    NSObject<OS_dispatch_queue> *mCallbackQueue;
-    NSOperationQueue *mFileOperationQueue;
-    id <CRKFileBackedConfigurationSourceDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)H;
+- (void)IS;
+- (id)force %d did not run first group before running other fixups;
+- (id)initWithEnvironment:(id)arg1 avatarRecord:editorPresentationContext: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CRKFileBackedConfigurationSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

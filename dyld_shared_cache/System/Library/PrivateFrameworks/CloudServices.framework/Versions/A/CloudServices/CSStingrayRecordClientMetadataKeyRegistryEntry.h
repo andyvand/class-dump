@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CSStingrayRecordClientMetadataKeyRegistryEntry
 {
     NSString *_pcsService;
-    NSMutableArray *_publicKeys;
 }
 
 + (Class);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)k";
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)=;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)on identifier string representation into components. String representation:%{public}@. Components:%{public}@. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPcsService;
-@property(retain, nonatomic) NSString *pcsService; // @synthesize pcsService=_pcsService;
-@property(retain, nonatomic) NSMutableArray *publicKeys; // @synthesize publicKeys=_publicKeys;
 
 @end
 

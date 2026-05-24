@@ -6,16 +6,12 @@
 
 #import <OSUpdate/SUOSULaterObserver.h>
 
-@class NSArray, NSMutableArray, NSObject, NSPointerArray;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUOSUAppQuitObserver : SUOSULaterObserver
 {
     _Bool _pendingAppScan;
-    NSObject<OS_dispatch_queue> *_q;
-    NSArray *_bundleIdentifiers;
-    NSMutableArray *_registeredAuditSessionIDs;
-    NSPointerArray *_registeredLSNotificationIDs;
 }
 
 - (void);
@@ -38,11 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property _Bool pendingAppScan; // @synthesize pendingAppScan=_pendingAppScan;
 @property(retain) NSObject<OS_dispatch_queue> *q; // @synthesize q=_q;
-@property(retain) NSMutableArray *registeredAuditSessionIDs; // @synthesize registeredAuditSessionIDs=_registeredAuditSessionIDs;
-@property(retain) NSPointerArray *registeredLSNotificationIDs; // @synthesize registeredLSNotificationIDs=_registeredLSNotificationIDs;
 
 @end
 

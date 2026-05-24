@@ -6,29 +6,26 @@
 
 #import <UIKitCore/UIWebScrollView.h>
 
-@class UIWebBrowserView, _UIWebViewScrollViewDelegateForwarder;
+@class _UIWebViewScrollViewDelegateForwarder;
 
 __attribute__((visibility("hidden")))
 @interface _UIWebViewScrollView : UIWebScrollView
 {
     _UIWebViewScrollViewDelegateForwarder *_forwarder;
-    _Bool _bouncesSetExplicitly;
-    _Bool _contentInsetAdjustmentBehaviorWasExternallyOverridden;
-    UIWebBrowserView *_browserView;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ctionary"32@0:(_Bool)arg1 8q16^@24;
+- (void)localDomain;
 - (void);
 - (void);
 - (id);
 - (void)ð1Â0@ù
 × ;
 - (void);
-- (void)en:(_Bool)arg1;
-- (id)stureRecognizer;
+- (void)containsTraitToken:(_Bool)arg1;
+- (id)_panGestureRecognizer;
 - (_Bool)¸°ô°;
 
 @end

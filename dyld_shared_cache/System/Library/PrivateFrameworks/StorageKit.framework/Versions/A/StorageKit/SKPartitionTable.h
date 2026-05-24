@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SKDisk;
+@class SKDisk;
 
 __attribute__((visibility("hidden")))
 @interface SKPartitionTable
 {
     unsigned int _sectorSize;
-    NSMutableArray *_partitions;
-    SKDisk *_disk;
-    struct __MKMedia *_mediaRef;
 }
 
 + (_Bool);
 + (id);
 + (struct __MKMedia *);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (unsigned int);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct __MKMedia *);
 - (id);
@@ -41,9 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) SKDisk *disk; // @synthesize disk=_disk;
-@property struct __MKMedia *mediaRef; // @synthesize mediaRef=_mediaRef;
-@property(retain, nonatomic) NSMutableArray *partitions; // @synthesize partitions=_partitions;
-@property unsigned int sectorSize; // @synthesize sectorSize=_sectorSize;
 
 @end
 

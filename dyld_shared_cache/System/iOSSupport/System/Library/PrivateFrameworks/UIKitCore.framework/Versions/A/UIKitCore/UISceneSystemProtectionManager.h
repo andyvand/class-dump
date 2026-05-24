@@ -9,8 +9,8 @@
     _Bool userAuthenticationEnabled;
 }
 
-- (void);
-- (_Bool);
+- (void)&;
+- (_Bool). Bailing!;
 - (id);
 
 // Remaining properties

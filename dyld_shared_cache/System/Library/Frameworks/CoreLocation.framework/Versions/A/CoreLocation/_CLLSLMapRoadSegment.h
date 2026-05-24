@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _CLLSLMapRoadSegment
 {
     unsigned long long _roadID;
-    NSArray *_polylines;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)H;
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (void)c' length (%llu) at offset (%llu [0x%llX]) larger than fileSize(%llu)
+;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setRadiusStride:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *polylines; // @synthesize polylines=_polylines;
 @property(nonatomic) unsigned long long roadID; // @synthesize roadID=_roadID;
 
 @end

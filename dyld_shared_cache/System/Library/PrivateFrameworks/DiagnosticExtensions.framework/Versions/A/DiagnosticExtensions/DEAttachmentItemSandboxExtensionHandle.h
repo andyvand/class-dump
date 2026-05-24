@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface DEAttachmentItemSandboxExtensionHandle
 {
     _Bool _didInit;
-    NSURL *_itemURL;
-    long long __handle;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)ble:(id)arg1;
+- (_Bool)fter error %@;
 - (id);
 - (id);
-- (void);
-- (long long);
+- (void)B;
+- (long long)`;
 - (void);
 
 // Remaining properties
-@property(readonly) long long _handle; // @synthesize _handle=__handle;
 @property(nonatomic) _Bool didInit; // @synthesize didInit=_didInit;
-@property(retain, nonatomic) NSURL *itemURL; // @synthesize itemURL=_itemURL;
 
 @end
 

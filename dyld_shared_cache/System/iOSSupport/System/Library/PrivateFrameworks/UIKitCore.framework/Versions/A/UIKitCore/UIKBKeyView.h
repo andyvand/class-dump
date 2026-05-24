@@ -6,71 +6,48 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, NSMutableDictionary, NSString, UIKBRenderConfig, UIKBRenderFactory, UIKBScreenTraits, UIKBTree, UIKeyboardMenuView;
+@class UIKBTree;
 
 @interface UIKBKeyView : UIView
 {
     UIKBTree *m_keyplane;
-    UIKBTree *m_key;
-    struct CGRect m_drawFrame;
-    struct __CFBoolean *m_allowsCaching;
-    UIKBRenderConfig *m_renderConfig;
-    UIKBRenderFactory *m_factory;
-    NSMutableDictionary *_keyLayers;
-    int _renderedKeyState;
-    NSString *_cachedTraitsHashString;
-    struct CGColor *_activeBackgroundColor;
-    id _activeCompositingFilter;
-    _Bool _singleRerender;
-    double _cachedBackgroundOpacity;
-    CAShapeLayer *_debugHitTargetLayer;
-    _Bool _cachedControlKeyRenderingPreference;
-    _Bool _renderAsMask;
-    _Bool _containedInDynamicKey;
-    unsigned long long _cachedAnchorCorner;
-    unsigned long long _cachedShiftState;
-    long long _cachedSelector;
-    UIKeyboardMenuView *_popupMenu;
-    double _endingTransitionDuration;
-    UIKBScreenTraits *_screenTraits;
-    struct CGRect _debugDisplayRect;
 }
 
-+ (_Bool);
++ (_Bool)e got an error trying to remove %@ from the handled map %@;
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (double);
+- (void)are submitted;
+- (void)ng along as a success!;
+- (void)ot doing ABC %@;
+- (void)sting delivered quietely receipt be sent to message guids:(struct CGRect)arg1 %@;
+- (void)st read message time date (%@) guid (%@) timestamp:(_Bool)arg1 (%@) Messages time date (%@) timestamp:(%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
+- (void)essage:(id)arg1 %@;
+- (void)deliveries for message part edits. This edit delivery was successful. Clearing previous failed part delivery. GUID:(unsigned long long)arg1 %@;
+- (void)%@;
+- (void)ting unsupported handleIDs. GUID:(_Bool)arg1 %@;
+- (void)pending flag for %@;
+- (void)roup chat with originalGroupID as regular groupID (%@) in %llu chats, trying with client groupID (%@);
+- (_Bool)need to compare last message time's;
+- (id)inding best candidate group chat with toIdentifier:(id)arg1 %@ fromIdentifier:%@ displayName:%@ participants:%@ sortedIdentifiers:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)e was zero length, chat:%@ /* Error: Ran out of types for this method. */;
+- (void)mmand (%ld), trustedData:(long long)arg1 %@;
+- (id)ory %ld subCategory @%ld;
+- (_Bool)%@, and all other accounts;
+- (id)elaySend;
+- (id)anscode of transfer GUID %@ at path %@ size %llu to watch;
+- (long long)the attributes:(id)arg1 %@;
+- (void)eachabilityBaseDelegate;
+- (_Bool)message to Spam folder.;
+- (unsigned long long)mStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (double)Set=}8;
+- (struct CGRect)kMDItemTransportAccountID;
+- (long long)SMServiceSession;
 - (struct CGRect);
-- (long long);
-- (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -82,25 +59,25 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void){%;
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)+;
+- (id)T;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)MPModeliTunesLibrarySearchRequestOperation;
+- (void)P;
 - (id)1Â0@ù
 × ;
 - (id)A
 !ÄGù±fÐ1Â0@ù
 × ;
-- (int)automaticFillColorForActive: /* Error: Ran out of types for this method. */;
+- (int)_automaticFillColorForActive: /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (id)e's no _last then there can't be a _first either;
 - (id)pendent Visual Effect Views cannot have an independently set group name. Set your group name on on '%@';
@@ -108,7 +85,7 @@
 - (_Bool)Æÿÿ;
 - (_Bool);
 - (void)ÀßR0|43°^;
-- (long long)abBarItemState;
+- (long long)_UITabBarItemState;
 - (_Bool)ÈÄ\;
 - (struct UIEdgeInsets);
 - (void);
@@ -124,44 +101,7 @@
 - (id)Ûn;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetIdiom;
-@property(readonly, nonatomic) long long cacheDeferPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool cacheDeferable;
-@property(readonly, nonatomic) NSString *cacheKey;
-@property(nonatomic) unsigned long long cachedAnchorCorner; // @synthesize cachedAnchorCorner=_cachedAnchorCorner;
-@property(nonatomic) _Bool cachedControlKeyRenderingPreference; // @synthesize cachedControlKeyRenderingPreference=_cachedControlKeyRenderingPreference;
-@property(readonly) long long cachedRenderFlags;
-@property(nonatomic) long long cachedSelector; // @synthesize cachedSelector=_cachedSelector;
-@property(nonatomic) unsigned long long cachedShiftState; // @synthesize cachedShiftState=_cachedShiftState;
-@property(retain, nonatomic) NSString *cachedTraitsHashString; // @synthesize cachedTraitsHashString=_cachedTraitsHashString;
-@property(readonly, nonatomic) double cachedWidth;
-@property(nonatomic) _Bool containedInDynamicKey; // @synthesize containedInDynamicKey=_containedInDynamicKey;
-@property(readonly, nonatomic) UIKBKeyView *contentsKeyView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct CGRect debugDisplayRect; // @synthesize debugDisplayRect=_debugDisplayRect;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct UIEdgeInsets displayInsets;
-@property(readonly, nonatomic) _Bool displaysColorImage;
-@property(nonatomic) struct CGRect drawFrame; // @synthesize drawFrame=m_drawFrame;
-@property(nonatomic) double endingTransitionDuration; // @synthesize endingTransitionDuration=_endingTransitionDuration;
-@property(retain, nonatomic) UIKBRenderFactory *factory; // @synthesize factory=m_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDynamicKey;
-@property(readonly, nonatomic) _Bool keepNonPersistent;
-@property(readonly, nonatomic) UIKBTree *key; // @synthesize key=m_key;
-@property(readonly, nonatomic) UIKBTree *keyplane; // @synthesize keyplane=m_keyplane;
-@property(nonatomic) __weak UIKeyboardMenuView *popupMenu; // @synthesize popupMenu=_popupMenu;
 @property(nonatomic) _Bool renderAsMask; // @synthesize renderAsMask=_renderAsMask;
-@property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=m_renderConfig;
-@property(retain, nonatomic) UIKBScreenTraits *screenTraits; // @synthesize screenTraits=_screenTraits;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect variantFrame;
 
 @end
 

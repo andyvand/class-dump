@@ -9,7 +9,6 @@
 @interface EKDayTimeContentView
 {
     EKDayTimeView *_owner;
-    struct _NSRange _hourRange;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange hourRange; // @synthesize hourRange=_hourRange;
 @property(nonatomic) EKDayTimeView *owner; // @synthesize owner=_owner;
 
 @end

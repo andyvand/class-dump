@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)@?<B@?@"UIWindow">16;
 + (id);
 + (void);
 - (_Bool);

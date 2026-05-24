@@ -11,20 +11,19 @@
     CKConversationListTipManagerSwift *_swiftManager;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)attachmentInsertionController:willAddAttachment:atRange: /* Error: Ran out of types for this method. */;
+- (void)addFontTrait: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 requestUserMediaAuthorizationForDevices:url:mainFrameURL:decisionHandler: /* Error: Ran out of types for this method. */;
+- (id)eadWriteSharedSubObjectsInSource;
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ntion notification for note %@, expecting %@;
+- (void)dID.recordName];
 - (void)1&j}*;
 
 // Remaining properties
-@property(readonly, nonatomic) long long presentedTip;
 @property(retain, nonatomic) CKConversationListTipManagerSwift *swiftManager; // @synthesize swiftManager=_swiftManager;
 
 @end

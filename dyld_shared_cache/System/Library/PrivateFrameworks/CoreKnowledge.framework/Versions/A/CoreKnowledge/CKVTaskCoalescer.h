@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVTaskSettings, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class NSObject, NSString;
+@protocol OS_os_transaction;
 
 @interface CKVTaskCoalescer
 {
     NSString *_managerName;
-    _Atomic unsigned int _eventIdCounter;
-    NSMutableDictionary *_taskRegistry;
-    unsigned int _transactionCounter;
-    double _coalescenceInterval;
-    double _coalescenceDelay;
-    NSObject<OS_dispatch_queue> *_taskRegistryQueue;
-    NSObject<OS_dispatch_queue> *_taskExecutionQueue;
-    CKVTaskSettings *_settings;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);

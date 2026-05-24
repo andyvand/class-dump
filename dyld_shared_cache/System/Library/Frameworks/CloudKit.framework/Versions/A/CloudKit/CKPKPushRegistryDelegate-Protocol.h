@@ -5,5 +5,6 @@
 //
 
 @protocol CKPKPushRegistryDelegate
+- (void);
 @end
 

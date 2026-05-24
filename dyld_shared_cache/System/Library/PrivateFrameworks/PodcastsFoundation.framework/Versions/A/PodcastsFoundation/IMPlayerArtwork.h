@@ -7,13 +7,6 @@
 @interface IMPlayerArtwork
 {
     id template;
-    id width;
-    id height;
-    id backgroundColor;
-    id primaryTextColor;
-    id secondaryTextColor;
-    id tertiaryTextColor;
-    id quaternaryTextColor;
 }
 
 - (id);

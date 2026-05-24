@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMNLContext, NLXSchemaNLXLegacyNLContext, NSData;
+@class NLXSchemaCDMNLContext;
 
 @interface NLXSchemaCDMTurnContext : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMNLContext *_nlContext;
-    NLXSchemaNLXLegacyNLContext *_legacyNlContext;
-    _Bool _hasNlContext;
-    _Bool _hasLegacyNlContext;
-    unsigned long long _whichTurncontexttype;
 }
 
 - (unsigned long long);
@@ -29,8 +25,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)a_;
+- (void)ical extension;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -42,12 +38,7 @@
 - (void)l;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLegacyNlContext; // @synthesize hasLegacyNlContext=_hasLegacyNlContext;
-@property(nonatomic) _Bool hasNlContext; // @synthesize hasNlContext=_hasNlContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaNLXLegacyNLContext *legacyNlContext; // @synthesize legacyNlContext=_legacyNlContext;
 @property(retain, nonatomic) NLXSchemaCDMNLContext *nlContext; // @synthesize nlContext=_nlContext;
-@property(readonly, nonatomic) unsigned long long whichTurncontexttype; // @synthesize whichTurncontexttype=_whichTurncontexttype;
 
 @end
 

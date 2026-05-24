@@ -7,9 +7,10 @@
 @class GCHapticCapabilityGraph, NSArray;
 
 @protocol _GCDeviceHapticCapabilitiesComponent
+- (NSArray *);
+- (GCHapticCapabilityGraph *)H;
 
 // Remaining properties
-@property(readonly, nonatomic) GCHapticCapabilityGraph *hapticCapabilityGraph;
 @property(readonly, nonatomic) NSArray *hapticEngines;
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface DCArchiveWriter
 {
     struct archive *_archive;
-    _Bool _usesCompression;
-    _Bool _flatten;
-    NSString *_flattenFolderName;
-    NSURL *_destinationURL;
-    NSString *_basePath;
 }
 
 - (_Bool);
@@ -29,18 +24,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)etBuffer[%p] frameDecodingOrder:(id *)arg1 %hu, expectedDecodingOrder:%hu /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
 @property(retain, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(nonatomic) _Bool flatten; // @synthesize flatten=_flatten;
-@property(copy, nonatomic) NSString *flattenFolderName; // @synthesize flattenFolderName=_flattenFolderName;
-@property(nonatomic) _Bool usesCompression; // @synthesize usesCompression=_usesCompression;
 
 @end
 

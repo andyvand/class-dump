@@ -6,7 +6,7 @@
 
 #import <CalendarStore/CalCalendarItem.h>
 
-@class EKReminder, NSDate;
+@class EKReminder;
 
 @interface CalTask : CalCalendarItem
 {
@@ -15,28 +15,24 @@
 
 + (id);
 - (void);
+- (void);
 - (void);
+- (id);
+- (id)A;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)",R,N,V_codec;
+- (void)J2_;
 - (unsigned long long);
 
 // Remaining properties
-@property(copy) NSDate *completedDate;
-@property(copy) NSDate *dueDate;
 @property(retain, nonatomic) EKReminder *ekReminder; // @synthesize ekReminder=_ekReminder;
-@property _Bool isCompleted;
-@property unsigned long long priority;
 
 @end
 

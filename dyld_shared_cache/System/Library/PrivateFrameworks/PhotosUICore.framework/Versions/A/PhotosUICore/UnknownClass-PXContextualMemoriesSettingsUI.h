@@ -6,7 +6,7 @@
 
 @interface UnknownClass (PXContextualMemoriesSettingsUI)
 - (id);
-- (id);
+- (id)˩#;
 - (id);
 @end
 

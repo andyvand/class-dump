@@ -6,12 +6,11 @@
 
 #import <AdCore/ADSingleton.h>
 
-@class DSIDRecord, NSArray;
+@class DSIDRecord;
 
 @interface ADIDManager : ADSingleton
 {
     DSIDRecord *_activeDSIDRecord;
-    NSArray *_monthlyResetArray;
 }
 
 @end

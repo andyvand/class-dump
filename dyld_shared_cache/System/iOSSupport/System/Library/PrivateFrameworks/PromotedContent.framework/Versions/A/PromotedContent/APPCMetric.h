@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
-
 @interface APPCMetric
 {
     long long purpose;
-    long long metric;
-    void timestamp;
-    void contentId;
-    void properties;
 }
 
-- (id);
+- (id);
 - (void);
-- (long long);
+- (long long)setEvergreenMultiplier: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)TSCHChartSeriesShowNegativeDataProperty;
 - (void);
 - (void);
 - (void);
@@ -29,11 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *contentId;
-@property(nonatomic) long long metric; // @synthesize metric;
-@property(nonatomic, copy) NSDictionary *properties;
 @property(nonatomic) long long purpose; // @synthesize purpose;
-@property(nonatomic, copy) NSDate *timestamp;
 
 @end
 

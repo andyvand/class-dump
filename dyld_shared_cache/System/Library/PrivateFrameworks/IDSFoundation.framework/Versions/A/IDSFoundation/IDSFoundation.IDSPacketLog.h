@@ -7,11 +7,6 @@
 @interface IDSFoundation.IDSPacketLog
 {
     id sessionID;
-    id startTime;
-    id startTimeIntervalSinceReferenceDate;
-    id linkInfoIDs;
-    id batchState;
-    id writeFn;
 }
 
 @end

@@ -8,15 +8,10 @@ __attribute__((visibility("hidden")))
 @interface ODIBending
 {
     float mSpaceWidth;
-    float mSpaceHeight;
-    _Bool mWithArrows;
-    float mRectHeight;
-    unsigned int mMaxNodeCount;
-    unsigned int mMaxColumnCount;
 }
 
 + (unsigned int);
-+ (_Bool);
++ (_Bool){C;
 - (void);
 - (void);
 - (void);

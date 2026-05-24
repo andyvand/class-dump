@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPadding, LPPointUnit, LPTextViewStyle, UIColor;
+@class LPPadding;
 
 __attribute__((visibility("hidden")))
 @interface LPIndeterminateProgressSpinnerStyle
 {
     _Bool _useLargeIndicatorStyle;
-    LPPadding *_padding;
-    LPPointUnit *_spacing;
-    LPPointUnit *_verticalOffset;
-    UIColor *_indicatorColor;
-    LPTextViewStyle *_label;
 }
 
-- (_Bool);
+- (_Bool)textView:shouldInteractWithTextAttachment:inRange:interaction: /* Error: Ran out of types for this method. */;
+- (void)textBalloonViewTextViewDidChangeRenderBounds:(_Bool)arg1;
+- (id)supportsImagePaste;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -34,12 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)¬ð;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *indicatorColor; // @synthesize indicatorColor=_indicatorColor;
-@property(retain, nonatomic) LPTextViewStyle *label; // @synthesize label=_label;
 @property(retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) LPPointUnit *spacing; // @synthesize spacing=_spacing;
-@property(nonatomic) _Bool useLargeIndicatorStyle; // @synthesize useLargeIndicatorStyle=_useLargeIndicatorStyle;
-@property(retain, nonatomic) LPPointUnit *verticalOffset; // @synthesize verticalOffset=_verticalOffset;
 
 @end
 

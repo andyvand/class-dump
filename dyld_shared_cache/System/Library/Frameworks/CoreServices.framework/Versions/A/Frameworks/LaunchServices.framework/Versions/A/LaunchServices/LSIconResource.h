@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface LSIconResource
 {
     _Bool _documentBadge;
-    NSString *_type;
-    NSURL *_resourceURL;
-    NSData *_resourceData;
-    NSString *_resourceRelativePath;
-    NSString *_resourceFileName;
-    NSString *_resourceName;
 }
 
 + (id);
@@ -31,7 +25,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,31 +34,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)hހ9i*B�;
+- (id);
+- (id)G;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isDocumentBadge) _Bool documentBadge; // @synthesize documentBadge=_documentBadge;
-@property(readonly) unsigned long long hash;
-@property(retain) NSData *resourceData; // @synthesize resourceData=_resourceData;
-@property(retain) NSString *resourceFileName; // @synthesize resourceFileName=_resourceFileName;
-@property(retain) NSString *resourceName; // @synthesize resourceName=_resourceName;
-@property(retain) NSString *resourceRelativePath; // @synthesize resourceRelativePath=_resourceRelativePath;
 @property(retain) NSURL *resourceURL; // @synthesize resourceURL=_resourceURL;
-@property(readonly) Class superclass;
-@property(retain) NSString *type; // @synthesize type=_type;
 
 @end
 

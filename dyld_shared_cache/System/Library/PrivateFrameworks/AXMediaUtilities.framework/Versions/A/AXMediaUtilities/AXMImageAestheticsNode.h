@@ -13,12 +13,12 @@
     VNClassifyImageAestheticsRequest *__imageAestheticsRequest;
 }
 
-+ (_Bool);
++ (_Bool)length;
 + (id);
 + (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)m;
+- (void)[|;
 - (id);
 - (id);
 - (void);

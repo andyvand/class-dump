@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVThreadNetworkCredentials, HAP2TLVThreadOperationTypeWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAP2TLVThreadOperationTypeWrapper;
 
 @interface HAP2TLVThreadControl
 {
     HAP2TLVThreadOperationTypeWrapper *_operationType;
-    HAP2TLVThreadNetworkCredentials *_threadNetworkCredentials;
-    HAPTLVUnsignedNumberValue *_formingAllowed;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -22,24 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)iven offset:(id)arg1 %ld;
 - (_Bool);
 - (id);
-- (id);
-- (void)s:mask: /* Error: Ran out of types for this method. */;
-- (void)dDuringConnectionStateChangeWithError:(id)arg1;
+- (id)/swift/libswiftAVFoundation.dylib;
+- (void)setFlags:mask: /* Error: Ran out of types for this method. */;
+- (void)_invokeOperationsReceivedDuringConnectionStateChangeWithError:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *formingAllowed; // @synthesize formingAllowed=_formingAllowed;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAP2TLVThreadOperationTypeWrapper *operationType; // @synthesize operationType=_operationType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAP2TLVThreadNetworkCredentials *threadNetworkCredentials; // @synthesize threadNetworkCredentials=_threadNetworkCredentials;
 
 @end
 

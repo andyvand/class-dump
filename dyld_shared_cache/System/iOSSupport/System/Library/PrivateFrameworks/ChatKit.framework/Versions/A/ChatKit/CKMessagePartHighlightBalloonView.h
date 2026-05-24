@@ -6,31 +6,27 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class UIColor, UIImage, UIImageView, UIView;
+@class UIImageView;
 
 @interface CKMessagePartHighlightBalloonView : CKBalloonView
 {
     UIImageView *_imageView;
-    UIView *_colorView;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)setWithObjects:(id)arg1;
+- (void)T@"NSString",N,R,VttforegroundColorAttributeName;
+- (void)E;
+- (id)bled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)(;
 - (id);
 - (id);
 - (void)ð ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *balloonColor;
-@property(readonly, nonatomic) UIView *colorView; // @synthesize colorView=_colorView;
-@property(retain, nonatomic) UIImage *glyphImage;
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
 
 @end

@@ -14,11 +14,11 @@
     id currentLuma;
 }
 
-+ (Class);
++ (Class)ute",&,N,V_outputDeviceRoute;
 - (void);
 - (id);
-- (id);
-- (id)rImageProvider;
+- (id)setMaximumResultsPerScope: /* Error: Ran out of types for this method. */;
+- (id)_UIStatusBarImageProvider;
 - (void)Ì0jþ³HÎ8l;
 
 // Remaining properties

@@ -11,7 +11,6 @@
 @interface SCNNodeReference : SCNReferenceNode
 {
     NSString *referenceSceneName;
-    NSString *referenceNodeName;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *referenceNodeName; // @synthesize referenceNodeName;
 @property(copy, nonatomic) NSString *referenceSceneName; // @synthesize referenceSceneName;
 
 @end

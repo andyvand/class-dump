@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)layoutManager:shouldUseAction:forControlCharacterAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak MTKView *target; // @synthesize target=_target;

@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface PLUSSchemaPLUSMediaCandidateEntity : SISchemaInstrumentationMessage
 {
     NSString *_entityAdamId;
-    _Bool _nominated;
-    double _confidence;
-    NSArray *_entityFeedbackHistorys;
-    struct {
-        unsigned int nominated:1;
-        unsigned int confidence:1;
-    } _has;
-    _Bool _hasEntityAdamId;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,31 +32,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)E;
+- (_Bool)ent!;
 - (id);
 - (id)1Â0@ù
 × ;
 - (double)th"b1};
-- (void)antsWithTrust;
-- (id)InputEvent;
+- (void)hasNumParticipantsWithTrust;
+- (id)_hasTextInputEvent;
 - (id)ntainingSpeechReadyUpstream;
 - (void)rEvent;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(copy, nonatomic) NSString *entityAdamId; // @synthesize entityAdamId=_entityAdamId;
-@property(copy, nonatomic) NSArray *entityFeedbackHistorys; // @synthesize entityFeedbackHistorys=_entityFeedbackHistorys;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasEntityAdamId; // @synthesize hasEntityAdamId=_hasEntityAdamId;
-@property(nonatomic) _Bool hasNominated;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool nominated; // @synthesize nominated=_nominated;
 
 @end
 

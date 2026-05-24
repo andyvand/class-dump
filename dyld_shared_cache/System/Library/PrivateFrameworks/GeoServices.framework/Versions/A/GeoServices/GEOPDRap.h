@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDRap
 {
     PBUnknownFields *_unknownFields;
-    int _placecardRapButtonType;
-    struct {
-        unsigned int has_placecardRapButtonType:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)%;
 - (_Bool);
 - (id){GEOPolylineCoordinateRange={PolylineCoordinate=If}{PolylineCoordinate=If}}16{PolylineCoordinate=If}32Q40;
-- (id)ntCity;
+- (id)_merchantCity;
 - (id)X¼;
 - (void)Ô¼È¨F@;
 

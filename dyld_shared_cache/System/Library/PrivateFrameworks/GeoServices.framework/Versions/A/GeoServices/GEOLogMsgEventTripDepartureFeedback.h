@@ -9,18 +9,10 @@
 @interface GEOLogMsgEventTripDepartureFeedback
 {
     PBUnknownFields *_unknownFields;
-    double _distanceFromOrigin;
-    double _timeFromOrigin;
-    int _transportMode;
-    struct {
-        unsigned int has_distanceFromOrigin:1;
-        unsigned int has_timeFromOrigin:1;
-        unsigned int has_transportMode:1;
-    } _flags;
 }
 
-+ (_Bool)sStyleZoomLevel:(id)arg1;
-- (id);
++ (_Bool)setHasStyleZoomLevel:(id)arg1;
+- (id){;
 - (double);
 - (void);
 - (void);
@@ -28,10 +20,10 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)b/swift/libswiftDispatch.dylib;
 - (_Bool);
-- (_Bool);
-- (double);
-- (int);
+- (double)ge=QQ}32@0:8@16Q24 /* Error: Ran out of types for this method. */;
+- (int)CNReaderWriterScheduler;
 - (int);
 - (void);
 - (void);
@@ -42,23 +34,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sIsochronousEndpointCompanionDescriptor=CCSI}}16^@24;
 - (_Bool);
 - (void);
-- (id)cription;
-- (id)thWorldwideGuideLocation: /* Error: Ran out of types for this method. */;
+- (id)shortDescription;
+- (id)initWithWorldwideGuideLocation: /* Error: Ran out of types for this method. */;
 - (id)zoom level is less than start zoom level;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double distanceFromOrigin;
-@property(nonatomic) _Bool hasDistanceFromOrigin;
-@property(nonatomic) _Bool hasTimeFromOrigin;
 @property(nonatomic) _Bool hasTransportMode;
-@property(nonatomic) double timeFromOrigin;
-@property(nonatomic) int transportMode;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

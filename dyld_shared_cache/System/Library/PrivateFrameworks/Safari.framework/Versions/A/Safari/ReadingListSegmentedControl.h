@@ -19,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void)(ð;
 
 // Remaining properties
-@property(nonatomic) __weak id <ReadingListSegmentedControlDelegate> readingListSegmentedControlDelegate; // @synthesize readingListSegmentedControlDelegate=_readingListSegmentedControlDelegate;
 @property(readonly, nonatomic) _Bool selectedSegmentIsAllSegment;
-@property(readonly, nonatomic) _Bool selectedSegmentIsUnreadSegment;
 
 @end
 

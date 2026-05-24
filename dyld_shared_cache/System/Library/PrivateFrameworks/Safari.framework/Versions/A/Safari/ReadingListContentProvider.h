@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FilteredCollectionHelper, NSMutableArray, NSString, SidebarContentFilter;
+@class FilteredCollectionHelper;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListContentProvider
 {
     FilteredCollectionHelper *_filteredCollectionHelper;
-    NSMutableArray *_cachedUnreadItems;
-    _Bool _showsOnlyUnreadItems;
-    SidebarContentFilter *_contentFilter;
-    unsigned long long _maximumNumberOfItems;
 }
 
 - (void);
@@ -25,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (void);
 - (void);
@@ -38,25 +34,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) SidebarContentFilter *contentFilter; // @synthesize contentFilter=_contentFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maximumNumberOfItems; // @synthesize maximumNumberOfItems=_maximumNumberOfItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,V_maximumNumberOfItems
-
-@property(nonatomic) _Bool showsOnlyUnreadItems; // @synthesize showsOnlyUnreadItems=_showsOnlyUnreadItems;
-@property(readonly) Class superclass;
 
 @end
 

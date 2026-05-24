@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface CRFormDetectorModelOutput
 {
     MLMultiArray *_boundingBoxes;
-    MLMultiArray *_classLogits;
-    MLMultiArray *_anchors;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (void);
+- (id)cancelBackgroundLoad: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)nDelimiterRangesForTokens:usingCharacterTokens: /* Error: Ran out of types for this method. */;
+- (void)tokenDelimiterRangesForTokens:usingCharacterTokens: /* Error: Ran out of types for this method. */;
 - (id)abel array:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *anchors; // @synthesize anchors=_anchors;
 @property(retain, nonatomic) MLMultiArray *boundingBoxes; // @synthesize boundingBoxes=_boundingBoxes;
-@property(retain, nonatomic) MLMultiArray *classLogits; // @synthesize classLogits=_classLogits;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

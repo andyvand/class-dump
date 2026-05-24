@@ -4,51 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsFeedback, GEODirectionsFeedbackLogMessage, GEOLatLng, GEOLocation, NSArray, NSMutableArray, NSNumber, NSString;
+@class GEODirectionsFeedback, GEODirectionsFeedbackLogMessage;
 
 @interface GEODirectionsFeedbackCollector
 {
     GEODirectionsFeedback *_currentDirectionsFeedback;
-    GEODirectionsFeedbackLogMessage *_currentFeedbackLogMessage;
-    double _currentDirectionsModeStartTime;
-    NSMutableArray *_navigationModes;
-    double _originalExpectedTime;
-    GEOLatLng *_tripOrigin;
-    _Bool _wasEverConnectedToCarplay;
-    _Bool _hasEnteredPreArrivalMode;
-    NSNumber *_isVLFImprovementUsed;
-    NSNumber *_arWalkingUsedInRoutePlanning;
-    NSNumber *_arWalkingUsedInNavigation;
-    _Bool _batteryDied;
-    _Bool _chargingStopAdded;
-    _Bool _isCoarseLocationUsed;
-    _Bool _isEVRoute;
-    _Bool _isBadEvExperience;
-    NSNumber *_stateOfChargeAtOrigin;
-    NSNumber *_stateOfChargeAtDestPredicted;
-    NSNumber *_stateOfChargeAtDestActual;
-    NSArray *_waypoints;
-    NSString *_evConsumptionModel;
-    NSString *_evChargingModel;
-    int _voiceGuidanceLevel;
-    int _transportType;
-    NSNumber *_isHandsFreeProfileUsed;
-    _Bool _hasRouteHandoffCapability;
-    _Bool _enteredParkingMode;
-    _Bool _didSuggestWalkingRoute;
-    _Bool _userDidAcceptWalkingRoute;
-    _Bool _didSuggestFindMy;
-    _Bool _userDidLaunchFindMy;
-    double _timeBetweenParkedAndArrival;
-    unsigned long long _arrivedAtDestinationCount;
-    unsigned long long _inParkingModeCount;
-    long long _endReason;
-    GEOLocation *_parkingDetectionLocation;
-    GEOLocation *_arrivalLocation;
 }
 
 - (void);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (void);
@@ -60,26 +24,26 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (_Bool)0$;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (_Bool)setKeyForDomain:_withAuthorization: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)isMagusRestrictedWithSAEForLanguageCode:(id)arg1;
+- (void)ssetHandler _receivedNewAssetUpdate:(_Bool)arg1 ];
+- (id)ta-updated;
 - (double);
 - (unsigned long long);
 - (void);
@@ -87,9 +51,9 @@
 - (void);
 - (void);
 - (void);
+- (void)D;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,14 +72,14 @@
 - (_Bool)@ù
 × ;
 - (void)25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16q24Q32;
-- (void)chargeUnitsCount;
-- (void)asCreateTime;
-- (long long)AllTransactionExternalResources;
-- (void)pID;
-- (id)eReply;
+- (void)surchargeUnitsCount;
+- (void)hasCreateTime;
+- (long long)_waitForAllTransactionExternalResources;
+- (void)_departureStepID;
+- (id)GEOPlaceFetchURLCacheReply;
 - (void)	A¬C¼E	\J	@RPT`VpX	 [0]@_	bd¬f¼hÌjÜlìnüps	\vlx|z|~	\	¼Ìhx	Øè	¬ ¼¢Ì¤Ü¦ì¨üª­¯,±<³Lµ\·	¨º¸¼	h¿xÁÃÅ¨Ç	øÊÍÏ(Ñ8Ó;
 - (id);
-- (void)TATE_NONE;
+- (void)PREVIOUS_STATE_NONE;
 - (_Bool)ddingMetadataReadAllFrom can only be called once per object;
 - (_Bool)ÿI;
 - (void);
@@ -128,30 +92,7 @@
 - (void)8;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocation *arrivalLocation; // @synthesize arrivalLocation=_arrivalLocation;
-@property(nonatomic) unsigned long long arrivedAtDestinationCount; // @synthesize arrivedAtDestinationCount=_arrivedAtDestinationCount;
-@property(nonatomic) _Bool batteryDied; // @synthesize batteryDied=_batteryDied;
-@property(retain, nonatomic) GEODirectionsFeedback *currentDirectionsFeedback; // @synthesize currentDirectionsFeedback=_currentDirectionsFeedback;
 @property(retain, nonatomic) GEODirectionsFeedbackLogMessage *currentFeedbackLogMessage; // @synthesize currentFeedbackLogMessage=_currentFeedbackLogMessage;
-@property(nonatomic) _Bool didSuggestFindMy; // @synthesize didSuggestFindMy=_didSuggestFindMy;
-@property(nonatomic) _Bool didSuggestWalkingRoute; // @synthesize didSuggestWalkingRoute=_didSuggestWalkingRoute;
-@property(nonatomic) long long endReason; // @synthesize endReason=_endReason;
-@property(nonatomic) _Bool enteredParkingMode; // @synthesize enteredParkingMode=_enteredParkingMode;
-@property(retain, nonatomic) NSString *evChargingModel; // @synthesize evChargingModel=_evChargingModel;
-@property(retain, nonatomic) NSString *evConsumptionModel; // @synthesize evConsumptionModel=_evConsumptionModel;
-@property(readonly, nonatomic) _Bool hasActiveFeedbackSession;
-@property(nonatomic) _Bool hasRouteHandoffCapability; // @synthesize hasRouteHandoffCapability=_hasRouteHandoffCapability;
-@property(nonatomic) unsigned long long inParkingModeCount; // @synthesize inParkingModeCount=_inParkingModeCount;
-@property(nonatomic) _Bool isBadEvExperience; // @synthesize isBadEvExperience=_isBadEvExperience;
-@property(nonatomic) _Bool isEVRoute; // @synthesize isEVRoute=_isEVRoute;
-@property(retain, nonatomic) GEOLocation *parkingDetectionLocation; // @synthesize parkingDetectionLocation=_parkingDetectionLocation;
-@property(retain, nonatomic) NSNumber *stateOfChargeAtDestActual; // @synthesize stateOfChargeAtDestActual=_stateOfChargeAtDestActual;
-@property(retain, nonatomic) NSNumber *stateOfChargeAtDestPredicted; // @synthesize stateOfChargeAtDestPredicted=_stateOfChargeAtDestPredicted;
-@property(retain, nonatomic) NSNumber *stateOfChargeAtOrigin; // @synthesize stateOfChargeAtOrigin=_stateOfChargeAtOrigin;
-@property(nonatomic) double timeBetweenParkedAndArrival; // @synthesize timeBetweenParkedAndArrival=_timeBetweenParkedAndArrival;
-@property(nonatomic) _Bool userDidAcceptWalkingRoute; // @synthesize userDidAcceptWalkingRoute=_userDidAcceptWalkingRoute;
-@property(nonatomic) _Bool userDidLaunchFindMy; // @synthesize userDidLaunchFindMy=_userDidLaunchFindMy;
-@property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end
 

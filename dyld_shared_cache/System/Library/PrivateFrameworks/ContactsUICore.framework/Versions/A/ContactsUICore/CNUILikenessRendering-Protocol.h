@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNObservable, CNUIImage;
+
 @protocol CNUILikenessRendering
+- (CNObservable *);
+- (CNUIImage *)!;
+- (unsigned long long);
+- (CNUIImage *);
 
 // Remaining properties
 @property(nonatomic) unsigned long long lookupOptions;

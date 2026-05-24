@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPDMapsIdentifier, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDContainmentPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_containerId;
-    GEOFormattedString *_containmentLine;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_containerId:1;
-        unsigned int read_containmentLine:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)udioStream;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)@0:(struct _NSZone *)arg1 8i16i20Q24;
-- (id)WithAdvisoryNotice:artwork: /* Error: Ran out of types for this method. */;
+- (id)_commonInitWithAdvisoryNotice:artwork: /* Error: Ran out of types for this method. */;
 - (id)xõ`öÄöä tL°8 h;
 - (void)ÝÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÅÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿùÿÿÿäÿÿÿóÿÿÿñÿÿÿÇÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÏÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÂÿÿÿÿÿÿÿíÿÿÿðÿÿÿæÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿðÿÿÿõÿÿÿïÿÿÿìÿÿÿíÿÿÿêÿÿÿøÿÿÿîÿÿÿýÿÿÿüÿÿÿôÿÿÿ÷ÿÿÿþÿÿÿòÿÿÿ;
 

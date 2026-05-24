@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol TBScore
+- (unsigned long long)beMetadataEvents(FigEndpointPlaybackSessionRef);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long score;
 @property(readonly, nonatomic) NSString *typeDescription;
 @end
 

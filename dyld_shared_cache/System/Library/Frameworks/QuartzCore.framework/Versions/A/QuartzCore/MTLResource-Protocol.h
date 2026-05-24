@@ -8,23 +8,17 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (NSString *);
+- (id <MTLDevice>)AX2Characters overflow prevented;
+- (int)ler scrollWheel:(unsigned int)arg1 ];
 - (unsigned long long)±1Ð1Â0@ù
 × ;
-- (unsigned long long);
 - (id <MTLHeap>).0, 1.0);
   return vec4(mix (s0.rgb, vec3 (x, x, x), a), s0.a);
 }
 ;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

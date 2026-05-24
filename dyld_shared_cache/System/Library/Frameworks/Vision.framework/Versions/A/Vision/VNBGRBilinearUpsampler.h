@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageBilinearScale, MPSImageGaussianBlur, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface VNBGRBilinearUpsampler
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    MPSImageGaussianBlur *_blurFilter;
-    MPSImageBilinearScale *_bilinearScale;
-    struct __CVMetalTextureCache *_metalTextureCache;
-    struct os_unfair_lock_s _lock;
-    double _featheringSigma;
 }
 
 - (id);
@@ -36,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)s not supported for observation produced by ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property double featheringSigma; // @synthesize featheringSigma=_featheringSigma;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

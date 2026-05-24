@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
+@class NSString;
 
 @interface SPQUParseTokenArgument
 {
     NSString *_token;
-    NSString *_tokenLabel;
-    NSValue *_tokenRange;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)setDirectionsSourceAddressComponents: /* Error: Ran out of types for this method. */;
+- (id)enumerateAttribute:(id)arg1 inRange:(id)arg2 options:(id)arg3 usingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)core;
+- (id);
+- (void)utFactorNames:(id)arg1 rolloutDeployments:namespace:taskAttribution:factorsState:notificationKey: /* Error: Ran out of types for this method. */;
+- (void)computeCalibratedSparseScore;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(retain, nonatomic) NSString *tokenLabel; // @synthesize tokenLabel=_tokenLabel;
-@property(retain, nonatomic) NSValue *tokenRange; // @synthesize tokenRange=_tokenRange;
 
 @end
 

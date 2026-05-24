@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiQualityLocationSearchResult
 {
     PBDataReader *_reader;
-    NSMutableArray *_ess;
-    GEOLocation *_location;
-    unsigned long long _tileKey;
-    NSMutableArray *_tiles;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_tileKey:1;
-        unsigned int has_status:1;
-        unsigned int read_ess:1;
-        unsigned int read_location:1;
-        unsigned int read_tiles:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setOriginalDuration:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -43,12 +27,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)r:(id)arg1;
+- (void)CSVoiceTriggerFirstPassJarvis;
+- (unsigned long long)Ƈ;
 - (_Bool);
 - (id);
-- (void);
+- (void):(id)arg1 8@16Q24;
 - (_Bool);
 - (void);
 - (id);
@@ -58,14 +42,14 @@
 × ;
 - (id)!pBùÑ¹*Ð1Â0@ù
 × ;
-- (int)emIndices;
-- (id)tchedIndex;
-- (id)Count: /* Error: Ran out of types for this method. */;
+- (int)transitNodeSystemIndices;
+- (id)lastZilchStitchedIndex;
+- (id)setHasPersonalCollectionsCount: /* Error: Ran out of types for this method. */;
 - (id)£Ì£h¥d¦4§¨è¨ð©;
-- (unsigned long long)dateDesiredAccuracyWhileStationaryForDriving;
+- (unsigned long long)NavdLocationUpdateDesiredAccuracyWhileStationaryForDriving;
 - (id)cecache;;
 - (void)ReadAllFrom can only be called once per object;
-- (_Bool)on;
+- (_Bool)starting_route_instruction;
 - (id)JOIN tiles ON access_times.data_pk = tiles.data_pk                ORDER BY access_times.timestamp, tiles.insert_timestamp ASC                LIMIT @limit    );;
 - (void);
 - (int);
@@ -77,14 +61,7 @@
 - (unsigned long long)Ì·7ô2;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *ess;
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasTileKey;
-@property(retain, nonatomic) GEOLocation *location;
-@property(nonatomic) int status;
-@property(nonatomic) unsigned long long tileKey;
-@property(retain, nonatomic) NSMutableArray *tiles;
 
 @end
 

@@ -7,7 +7,7 @@
 @class PXCPLStatus;
 
 @protocol PXCPLStatusProvider
-- (PXCPLStatus *)TimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
+- (PXCPLStatus *)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCPLStatus *status;

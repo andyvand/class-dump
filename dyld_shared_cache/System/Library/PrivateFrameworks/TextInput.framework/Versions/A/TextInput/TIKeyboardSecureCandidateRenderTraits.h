@@ -4,87 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TIKeyboardSecureCandidateLayoutTraits, TIKeyboardSecureCandidateRGBColor, TIKeyboardSecureCandidateTextTraits;
+@class NSString;
 
 @interface TIKeyboardSecureCandidateRenderTraits
 {
     _Bool _isCandidateUI;
-    _Bool _isInlinePromptUI;
-    _Bool _shouldOfferHideMyEmail;
-    _Bool _disableHideMyEmail;
-    _Bool _shouldForceDoubleLineCandidateForCellularAutofill;
-    _Bool _shouldForceDoubleLineCandidateForPasswordAutofill;
-    TIKeyboardSecureCandidateLayoutTraits *_layoutTraits;
-    TIKeyboardSecureCandidateTextTraits *_headerTextTraits;
-    TIKeyboardSecureCandidateTextTraits *_inputTextTraits;
-    NSString *_prefixText;
-    NSString *_suffixText;
-    NSArray *_resultCountToSingleCellWidth;
-    NSDictionary *_cellWidthOptions;
-    double _singleCellHeight;
-    double _singleCellVerticalPadding;
-    double _dividerLineWidth;
-    long long _maxCellCount;
-    long long _sharedCellCount;
-    double _screenScale;
-    long long _cellRenderingStyle;
-    NSString *_fontName;
-    double _fontSize;
-    TIKeyboardSecureCandidateRGBColor *_textColor;
-    NSString *_hideMyEmailLocalizedText;
 }
 
-+ (_Bool);
++ (_Bool));
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)';
+- (void)l;
 - (void);
+- (void)",R,N,V_locale;
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void)8@0:(_Bool)arg1 8q16q24s32q36q44q52q60;
+- (id)predicateToLimitToCaptureSessionIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)pathForAlchemistV2ResourceFileWithRecipeID: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)8@?<v@?@@"NSError">16;
+- (double)potlightClientStateMismatchedCount:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (double);
+- (void);
+- (id);
+- (double);
+- (void);
+- (double);
 - (_Bool);
+- (double);
 - (void);
 - (_Bool);
+- (void);
+- (long long)T;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (double);
+- (id);
 - (void);
 - (long long);
-- (double);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (id);
-- (double);
-- (void);
-- (double);
-- (_Bool);
-- (double);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void)d;
+- (void)_user_model_db_failed;
 - (void)Í¤Áµ®©È;
 - (void)>		;
 - (id)Í¾°£Æ;
@@ -94,31 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long cellRenderingStyle; // @synthesize cellRenderingStyle=_cellRenderingStyle;
-@property(copy, nonatomic) NSDictionary *cellWidthOptions; // @synthesize cellWidthOptions=_cellWidthOptions;
-@property(nonatomic) _Bool disableHideMyEmail; // @synthesize disableHideMyEmail=_disableHideMyEmail;
-@property(nonatomic) double dividerLineWidth; // @synthesize dividerLineWidth=_dividerLineWidth;
 @property(copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *headerTextTraits; // @synthesize headerTextTraits=_headerTextTraits;
-@property(copy, nonatomic) NSString *hideMyEmailLocalizedText; // @synthesize hideMyEmailLocalizedText=_hideMyEmailLocalizedText;
-@property(retain, nonatomic) TIKeyboardSecureCandidateTextTraits *inputTextTraits; // @synthesize inputTextTraits=_inputTextTraits;
-@property(nonatomic) _Bool isCandidateUI; // @synthesize isCandidateUI=_isCandidateUI;
-@property(nonatomic) _Bool isInlinePromptUI; // @synthesize isInlinePromptUI=_isInlinePromptUI;
-@property(retain, nonatomic) TIKeyboardSecureCandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(nonatomic) long long maxCellCount; // @synthesize maxCellCount=_maxCellCount;
-@property(copy, nonatomic) NSString *prefixText; // @synthesize prefixText=_prefixText;
-@property(copy, nonatomic) NSArray *resultCountToSingleCellWidth; // @synthesize resultCountToSingleCellWidth=_resultCountToSingleCellWidth;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(nonatomic) long long sharedCellCount; // @synthesize sharedCellCount=_sharedCellCount;
-@property(nonatomic) _Bool shouldForceDoubleLineCandidateForCellularAutofill; // @synthesize shouldForceDoubleLineCandidateForCellularAutofill=_shouldForceDoubleLineCandidateForCellularAutofill;
-@property(nonatomic) _Bool shouldForceDoubleLineCandidateForPasswordAutofill; // @synthesize shouldForceDoubleLineCandidateForPasswordAutofill=_shouldForceDoubleLineCandidateForPasswordAutofill;
-@property(nonatomic) _Bool shouldOfferHideMyEmail; // @synthesize shouldOfferHideMyEmail=_shouldOfferHideMyEmail;
-@property(nonatomic) double singleCellHeight; // @synthesize singleCellHeight=_singleCellHeight;
-@property(nonatomic) double singleCellVerticalPadding; // @synthesize singleCellVerticalPadding=_singleCellVerticalPadding;
-@property(nonatomic) double singleCellWidth;
-@property(copy, nonatomic) NSString *suffixText; // @synthesize suffixText=_suffixText;
-@property(retain, nonatomic) TIKeyboardSecureCandidateRGBColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

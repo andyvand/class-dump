@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelKind, MPPropertySet, NSString;
+@class MPModelKind;
 
 @interface MPModelLibrarySearchScope
 {
     MPModelKind *_itemKind;
-    NSString *_name;
-    MPPropertySet *_itemProperties;
 }
 
 + (_Bool);
@@ -20,16 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)ome unsupported traits (non-float array or interleaved arrays). Skipping it;
+- (_Bool)ctionID;
 - (void);
 - (id);
-- (void)titiesBlock: /* Error: Ran out of types for this method. */;
+- (void)_checkHasContent:determined:queryHasEntitiesBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelKind *itemKind; // @synthesize itemKind=_itemKind;
-@property(readonly, copy, nonatomic) MPPropertySet *itemProperties; // @synthesize itemProperties=_itemProperties;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

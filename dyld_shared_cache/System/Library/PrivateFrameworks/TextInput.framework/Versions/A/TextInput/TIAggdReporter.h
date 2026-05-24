@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TIAggdReporter
 {
@@ -14,27 +12,21 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (id);
-+ (id)SetWithArray: /* Error: Ran out of types for this method. */;
++ (id)orderedSetWithArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (void)_limitedLibraryFilterPredicateForEntityName:(id)arg1 withClientContext: /* Error: Ran out of types for this method. */;
+- (void)_importSessionID;
+- (void)ite BackgroundPhaseInProgressToken %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

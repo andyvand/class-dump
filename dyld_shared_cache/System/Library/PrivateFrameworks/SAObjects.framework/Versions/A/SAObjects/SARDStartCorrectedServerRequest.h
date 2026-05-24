@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *interactionIdToBeCorrected;
-@property(copy, nonatomic) NSString *utteranceToBeCorrected;
 
 @end
 

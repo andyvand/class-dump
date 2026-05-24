@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class NSDate, NSSet;
 
 @protocol FCReadingHistoryType
+- (NSDate *);
+- (void)ocolType=%s, servicePort=%hu, hostname=%@>;
 - (void)deEngagementBoostFeatureCandidateArticleMultiplier;
-- (NSSet *)rl;
+- (NSSet *)appAnalyticsEndpointUrl;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allDislikedArticleIDs;
 @property(readonly, nonatomic) NSSet *allReadArticleIDs;
-@property(readonly, nonatomic) NSSet *allSeenArticleIDs;
 @end
 

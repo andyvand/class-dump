@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_imageAttributeRules;
 }
 
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (id);

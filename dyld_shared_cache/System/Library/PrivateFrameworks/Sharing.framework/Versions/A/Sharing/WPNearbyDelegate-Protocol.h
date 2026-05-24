@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID, WPNearby;
+
 @protocol WPNearbyDelegate
 
 @optional
-- (void)BLEDevice;
+- (void);
+- (void)j";
+- (void)setAttributes:(WPNearby *)arg1 ofItemAtPath:(NSUUID *)arg2 error:(long long)arg3;
+- (void)SFBLEDevice;
 @end
 

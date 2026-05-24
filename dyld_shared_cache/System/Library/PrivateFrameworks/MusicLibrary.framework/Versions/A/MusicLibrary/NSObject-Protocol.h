@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (id)T;
+- (id)lChimeEnabled;
+- (_Bool)%@');
 - (struct _NSZone *)en_by_auto_fill INTEGER NOT NULL DEFAULT 0;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)/;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

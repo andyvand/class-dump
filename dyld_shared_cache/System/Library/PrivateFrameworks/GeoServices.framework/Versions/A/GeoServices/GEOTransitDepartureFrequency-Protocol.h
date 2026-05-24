@@ -7,15 +7,9 @@
 @class NSDate;
 
 @protocol GEOTransitDepartureFrequency
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long displayFrequency;
 @property(readonly, nonatomic) NSDate *firstTimeInFrequency;
-@property(readonly, nonatomic) double frequencyForSorting;
-@property(readonly, nonatomic) long long frequencyType;
-@property(readonly, nonatomic) _Bool isEstimate;
-@property(readonly, nonatomic) NSDate *lastTimeInFrequency;
-@property(readonly, nonatomic) long long maxFrequency;
-@property(readonly, nonatomic) long long minFrequency;
 @end
 

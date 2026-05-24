@@ -6,20 +6,18 @@
 
 #import <CoreParsec/PARRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PARSafariSummarizationPrefetchRequest : PARRequest
 {
     NSString *_urlString;
-    NSArray *_urlVariants;
-    NSString *_localeString;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)anifest entry.;
+- (id)ts<WTF::WeakPtr<API::HTTPCookieStoreObserver>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<API::HTTPCookieStoreObserver>, Value = WTF::WeakPtr<API::HTTPCookieStoreObserver>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, Traits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)erMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF:(id)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (id);
@@ -29,9 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localeString; // @synthesize localeString=_localeString;
 @property(copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
-@property(copy, nonatomic) NSArray *urlVariants; // @synthesize urlVariants=_urlVariants;
 
 @end
 

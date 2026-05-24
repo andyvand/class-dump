@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSSet, NSString;
+@class NSArray, NSError;
 
 @interface TBErrorFetchResponse
 {
     NSArray *results;
-    NSSet *tiles;
-    NSError *_error;
 }
 
 + (id);
@@ -23,20 +21,7 @@
 - (id);;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *results; // @synthesize results;
-@property(readonly, nonatomic) NSDictionary *resultsByBSSID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *tiles; // @synthesize tiles;
 
 @end
 

@@ -11,7 +11,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ctionaryRef);
 - (_Bool);
 - (_Bool);
 - (void);

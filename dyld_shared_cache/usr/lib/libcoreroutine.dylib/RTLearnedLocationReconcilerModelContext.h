@@ -9,11 +9,10 @@
 @interface RTLearnedLocationReconcilerModelContext
 {
     NSArray *_devices;
-    NSArray *_overlappingVisits;
 }
 
 - (void);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (void)interval for transient object, %@ to %lf;
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(retain, nonatomic) NSArray *overlappingVisits; // @synthesize overlappingVisits=_overlappingVisits;
 
 @end
 

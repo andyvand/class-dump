@@ -9,7 +9,6 @@
 @interface BSXPCServiceConnectionEventObservers
 {
     NSMapTable *_lock_revocations;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface VMUDominatorRoots
 {
     VMUDominatorGraph *_dg;
-    unsigned int _i;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)ySSGG;
 
 @end
 

@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)e metadata for share:(id)arg1 %@;
 - (void);
-- (id);
+- (id)keychainAccessGroup;
 - (long long);
 - (void);
 

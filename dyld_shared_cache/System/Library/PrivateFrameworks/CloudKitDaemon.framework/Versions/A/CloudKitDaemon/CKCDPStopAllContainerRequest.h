@@ -9,16 +9,16 @@
 }
 
 - (id);
+- (void)ATLTestBase;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)rPlay.notification.%{ptr};
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool)0@0:(id)arg1 8@16@24@32@40@48@56@64@72;
 - (void);
+- (id);
 - (id);
-- (id);
-- (Class)inishDecryptOperation;
+- (Class)_finishDecryptOperation;
 
 @end
 

@@ -4,45 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, TSDCanvas, TSDTrackingArea, TSUMutableRetainedPointerSet, UIHoverGestureRecognizer;
+@class TSDCanvas;
 
 @interface TSDTrackingController
 {
     TSDCanvas *_canvas;
-    TSDTrackingArea *_engagedTrackingArea;
-    TSDTrackingArea *_engagedCursorTrackingArea;
-    TSUMutableRetainedPointerSet *_invalidReps;
-    NSMutableOrderedSet *_trackingAreas;
-    NSMutableOrderedSet *_oldTrackingAreas;
-    unsigned long long _updateDisableCount;
-    UIHoverGestureRecognizer *_gesture;
 }
 
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)uation fields.;
+- (unsigned long long)anAutoPlay=%@ storeFront=%@ subscriptionStatus=%@ bag=%@>;
+- (id)te account command failed;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)et reload #############;
+- (void)as been loaded;
+- (void)eue has not been finalized yet, no asset has been loaded;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)AssetProducerDataSource;
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -58,13 +51,6 @@
 - (void)á;
 
 // Remaining properties
-@property(readonly, nonatomic) TSDCanvas *canvas; // @synthesize canvas=_canvas;
-@property(retain, nonatomic) TSDTrackingArea *engagedCursorTrackingArea; // @synthesize engagedCursorTrackingArea=_engagedCursorTrackingArea;
-@property(retain, nonatomic) TSDTrackingArea *engagedTrackingArea; // @synthesize engagedTrackingArea=_engagedTrackingArea;
-@property(readonly, nonatomic) UIHoverGestureRecognizer *gesture; // @synthesize gesture=_gesture;
-@property(retain, nonatomic) TSUMutableRetainedPointerSet *invalidReps; // @synthesize invalidReps=_invalidReps;
-@property(retain, nonatomic) NSMutableOrderedSet *oldTrackingAreas; // @synthesize oldTrackingAreas=_oldTrackingAreas;
-@property(retain, nonatomic) NSMutableOrderedSet *trackingAreas; // @synthesize trackingAreas=_trackingAreas;
 @property(nonatomic) unsigned long long updateDisableCount; // @synthesize updateDisableCount=_updateDisableCount;
 
 @end

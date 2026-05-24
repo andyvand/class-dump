@@ -7,8 +7,6 @@
 @interface NewsUI2.LocalPrimaryChannelMigrationStartupTask
 {
     id executionPhase;
-    id localDataManager;
-    id subscriptionService;
 }
 
 @end

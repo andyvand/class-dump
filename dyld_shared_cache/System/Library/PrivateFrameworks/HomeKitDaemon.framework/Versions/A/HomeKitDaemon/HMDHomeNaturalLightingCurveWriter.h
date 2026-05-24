@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSString;
-@protocol HMDLightProfileDataSource;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeNaturalLightingCurveWriter
 {
     HMDHome *_home;
-    id <HMDLightProfileDataSource> _dataSource;
 }
 
 + (id)e]ÿé	;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)doBilateralPass:points:weights:sums:slope: /* Error: Ran out of types for this method. */;
+- (id)));
+vec4 meaning = meaningBlur(imgSample, blurSample);
+vec4 clarity = clarityNew(imgSample, meaning, intensity);
+return clarity;
+}
+
+;
 - (id);
 - (id)!tGù°1Â0@ù
 × ;
 - (void)HMDAccessoryMatterEventMessageEventIDKey;
 
 // Remaining properties
-@property(readonly) id <HMDLightProfileDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSString *logIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

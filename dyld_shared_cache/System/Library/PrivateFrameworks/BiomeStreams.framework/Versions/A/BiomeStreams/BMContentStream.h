@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMContentSource, BMStoreStream, NSString;
+@class BMStoreStream, NSString;
 
 @interface BMContentStream
 {
     BMStoreStream *_storeStream;
-    BMContentSource *_contentSource;
 }
 
 - (id);

@@ -7,12 +7,6 @@
 @interface MTMusicSubscriptionInfoSyncUtil
 {
     id bag;
-    id workQueue;
-    id lastMusicSyncDate;
-    id syncSession;
-    id accountStore;
-    id appleMusicSegmentKey;
-    id appleMusicSegmentValue;
 }
 
 - (id);

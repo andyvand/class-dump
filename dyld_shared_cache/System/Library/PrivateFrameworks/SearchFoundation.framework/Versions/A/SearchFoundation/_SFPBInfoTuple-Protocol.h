@@ -7,12 +7,14 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBInfoTuple
+- (void);
+- (id);
+- (void)B;
+- (void)creationRequestForAssetFromScreenshotImage: /* Error: Ran out of types for this method. */;
+- (NSData *)allCollectionSuggestionSubtypes;
+- (NSArray *)l for asset UUID:%{public}@ fromPath:%@, toPath:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int initiallyVisibleValues;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *showMoreString;
-@property(copy, nonatomic) NSArray *values;
 @end
 

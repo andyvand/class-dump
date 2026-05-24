@@ -4,11 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService;
+@class IDSAccount, IDSMessageContext, IDSProtobuf, IDSService, NSString;
 
 @protocol IDSServiceDelegate
 
 @optional
-- (void)orHIDDeviceService:(IDSService *)arg1;
+- (void)clientRespondsToDidScanToBandDataWithScannerDevice:(IDSService *)arg1;
+- (void)clientIndexToGridIndex:(IDSService *)arg1;
+- (void)clickGestureRecognizer;
+- (void)clearSelectionPath;
+- (void)clearPastedImage;
+- (void)clearFlattenedCIImage;
+- (void)clearBlocksFromBlockCollection:(IDSService *)arg1 didCancelDisplay:(IDSAccount *)arg2;
+- (void)cleanupDocumentFeederView;
+- (void)AutoSelectPreviewedItem;
+- (void)d;
+- (void)@;
+- (void)initWithWorkQueue:(IDSService *)arg1 timerSource:(IDSAccount *)arg2 dataChunker:(IDSProtobuf *)arg3 flushPromptInterval:(NSString *)arg4 supportsRetransmit:(IDSMessageContext *)arg5;
+- (void);
+- (void)of profile (identifier:(IDSService *)arg1 %{public}@) from %{public}@ to %{public}@;
+- (void)requestToDeleteLocalData;
+- (void)_axss_iAPInterfaceExistsForHIDDeviceService:(IDSService *)arg1;
 @end
 

@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKRecordID, CKRecordZoneID, NSDate, NSMutableArray, NSObject, NSString;
+@class CKRecordZoneID, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ADClientDPIDManager
 {
     NSObject<OS_dispatch_queue> *_backupFlowQueue;
-    _Bool _isTest;
-    _Bool _isPrivateContainerSecure;
-    _Bool _updateInProgress;
-    _Bool _sandboxEnvironment;
-    _Bool _supportsDeviceToDeviceEncryption;
-    unsigned long long _dpidReconcileState;
-    NSDate *_dpidReconcileStartDate;
-    CKRecordZoneID *_zoneID;
-    CKRecordID *_recordID;
-    CKRecordID *_recordIDLegacy;
-    CKContainer *_privateContainer;
-    long long _qualityOfService;
-    NSString *_DPID;
-    NSMutableArray *_operationsInProgress;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (void);
@@ -37,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -47,12 +33,12 @@
 - (id);
 - (void);
 - (void);
+- (void)cts/PhotosFormats/PhotosFormats/story/PFStoryRecipeAsset.m;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)iscovery";
 - (void);
 - (void);
 - (_Bool);
@@ -62,26 +48,26 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)roperties",R,N,V_secondaryCaptionButton;
+- (void)directionsSourceLocationName;
+- (void)isEncodedForLocalUse;
+- (unsigned long long)#;
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (void){public}@[%{public}@] Failed to commit block:(CDUnknownBlockType)arg1 %{public}@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)volumeSliderGapConstraint;
+- (void)_updatePlaybackControlsContainerVisibilityAnimated:additionalActions: /* Error: Ran out of types for this method. */;
+- (id)_makeProminentPlayButtonAndContainerIfNeeded;
+- (void)servationController",&,N,V_playerControllerObservationController;
+- (id)eek to playback position command;
+- (void)_AVInputRoutePickerViewControllerSceneSpecification;
 - (void);
 - (void);
 - (void);
@@ -98,19 +84,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *DPID; // @synthesize DPID=_DPID;
-@property(retain) NSDate *dpidReconcileStartDate; // @synthesize dpidReconcileStartDate=_dpidReconcileStartDate;
-@property unsigned long long dpidReconcileState; // @synthesize dpidReconcileState=_dpidReconcileState;
-@property(nonatomic) _Bool isPrivateContainerSecure; // @synthesize isPrivateContainerSecure=_isPrivateContainerSecure;
-@property(readonly, nonatomic) _Bool isTest; // @synthesize isTest=_isTest;
-@property(retain, nonatomic) NSMutableArray *operationsInProgress; // @synthesize operationsInProgress=_operationsInProgress;
-@property(retain, nonatomic) CKContainer *privateContainer; // @synthesize privateContainer=_privateContainer;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) CKRecordID *recordIDLegacy; // @synthesize recordIDLegacy=_recordIDLegacy;
-@property(nonatomic) _Bool sandboxEnvironment; // @synthesize sandboxEnvironment=_sandboxEnvironment;
-@property(nonatomic) _Bool supportsDeviceToDeviceEncryption; // @synthesize supportsDeviceToDeviceEncryption=_supportsDeviceToDeviceEncryption;
-@property(nonatomic) _Bool updateInProgress; // @synthesize updateInProgress=_updateInProgress;
 @property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end

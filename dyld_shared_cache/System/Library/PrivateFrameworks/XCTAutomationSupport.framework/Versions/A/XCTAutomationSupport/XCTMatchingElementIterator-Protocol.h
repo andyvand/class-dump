@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, XCElementSnapshot;
+@class XCElementSnapshot;
 @protocol XCTElementSetTransformer;
 
 @protocol XCTMatchingElementIterator
+- (id <XCTElementSetTransformer>);
 
 // Remaining properties
 @property(readonly) XCElementSnapshot *currentMatch;
-@property(readonly) NSSet *currentRelatedElements;
-@property(readonly) __weak id <XCTElementSetTransformer> transformer;
 @end
 

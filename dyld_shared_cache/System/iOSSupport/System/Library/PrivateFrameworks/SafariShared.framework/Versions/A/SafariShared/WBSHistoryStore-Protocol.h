@@ -7,11 +7,14 @@
 @protocol WBSHistoryStoreDelegate;
 
 @protocol WBSHistoryStore
-- (void)ts;
+- (void)>;
+- (void)=;
+- (void)!;
+- (void)>;
+- (void);
+- (void)_triggeringVisits;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSHistoryStoreDelegate> delegate;
-@property(nonatomic) double historyAgeLimit;
-@property(readonly, nonatomic) _Bool isUsingInMemoryDatabase;
 @end
 

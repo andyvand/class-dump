@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INStartPhotoPlaybackIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)saveURLSandboxWrapper;
++ (long long)replyWithFileURL:(int)arg1 contentType:(int)arg2;
++ (_Bool)removeAllAdditionsForNamespaces:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -23,25 +21,17 @@
 - (long long);
 - (id);
 - (long long);
+- (id)unt of items in the archive with permissions that differ from the majority.;
 - (id);
+- (id)settingsSupportedForCBDevice:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)sCancelled=%d, wasRequeued=%d, scanChannelCount=%lu, autoHotspot=[duration=%lums, result=%d, error=(%{public}@)]);
 - (id);
 - (id);
 - (long long)rray",C,N,V_payloadFinancialAccountValues;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *searchResultsCount;
-@property(readonly) Class superclass;
 
 @end
 

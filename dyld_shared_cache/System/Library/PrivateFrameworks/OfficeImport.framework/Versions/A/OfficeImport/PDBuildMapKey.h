@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
+@class NSValue;
 
 __attribute__((visibility("hidden")))
 @interface PDBuildMapKey
 {
     NSValue *mDrawableValue;
-    NSString *mGroupId;
 }
 
-- (void);
+- (void)9;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (unsigned long long);
 - (id);

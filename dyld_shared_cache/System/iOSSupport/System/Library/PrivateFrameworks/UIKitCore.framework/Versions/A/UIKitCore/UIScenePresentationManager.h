@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, NSHashTable, NSMapTable, NSString, UIScenePresentationContext, _UISceneKeyboardProxyLayerForwardingPresentationScene, _UIScenePresenterOwner;
-@protocol UIScenePresentationManagerDelegate;
+@class FBScene, _UISceneKeyboardProxyLayerForwardingPresentationScene;
 
 @interface UIScenePresentationManager
 {
     _UISceneKeyboardProxyLayerForwardingPresentationScene *_keyboardProxyPresentationEnvironment;
-    FBScene *_scene;
-    _UIScenePresenterOwner *_scenePresenterOwner;
-    NSMapTable *_mapLayersToPresenterOwners;
-    NSHashTable *_prioritizedPresenterObservers;
-    UIScenePresentationContext *_defaultScenePresentationContext;
-    id <UIScenePresentationManagerDelegate> _delegate;
-    struct {
-        _Bool defaultPriorityBand;
-    } _delegateFlags;
 }
 
 + (id)roller,S_setTemporaryPresentationController:,V_temporaryPresentationController /* Error: Ran out of types for this method. */;
-- (void);
+- (void)sion:withPhoneNumber:withDataRoamingEnabled:withVoiceRoamingEnabled:withPersonalHotspotEnabled:withIsNetworkTethered:withIsRoaming:withSIMMCC:withSIMMNC:withSubscriberMCC:withSubscriberMNC:withCurrentMCC:withCurrentMNC: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ionTrackingEntry>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)_setShowsVolumeSlider: /* Error: Ran out of types for this method. */;
+- (id)setRecordLabel:(id)arg1;
+- (void)r MPModelPropertyTVSeasonHasExplicitContent;
 - (id);
 - (id);
 - (id);
@@ -38,12 +28,12 @@
 × ;
 - (void)"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (id)dd}}16i48;
-- (id)erInteraction;
-- (id)lectionGestureOnView:(id)arg1;
-- (id)ProofreadingSuggestionID: /* Error: Ran out of types for this method. */;
+- (id)wantsScrollPocketContainerInteraction;
+- (id)shouldAllowTwoFingerSelectionGestureOnView:(id)arg1;
+- (id)_removeProofreadingSuggestionReviewingHighlightForProofreadingSuggestionID: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)KeysWithReason:(CDUnknownBlockType)arg1 force: /* Error: Ran out of types for this method. */;
-- (void)tionLayoutEnvironment;
+- (id)deactivateKeysWithReason:(CDUnknownBlockType)arg1 force: /* Error: Ran out of types for this method. */;
+- (void)_UICollectionLayoutEnvironment;
 - (void)	
 ;
 - (void)«X¬Ð¬|­±x²¸»L¼;
@@ -52,23 +42,13 @@
 - (id)is being asked to observe a scrollView.;
 - (void);
 - (id);
-- (id);
+- (id)percentDimmed;
 - (long long)idanceRect"16^B24;
 - (_Bool)ner, NSCoder *__strong);
 - (void)á,ÝÓg;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) UIScenePresentationContext *defaultPresentationContext; // @synthesize defaultPresentationContext=_defaultScenePresentationContext;
-@property(nonatomic) __weak id <UIScenePresentationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
 @property(readonly, nonatomic) __weak FBScene *scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
 
 @end
 

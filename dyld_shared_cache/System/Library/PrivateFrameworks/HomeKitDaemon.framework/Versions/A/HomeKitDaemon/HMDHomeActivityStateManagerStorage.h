@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString, NSUUID;
 @protocol HMDHomeActivityStateManagerDataSource, HMDHomeActivityStateManagerStorageDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateManagerStorage
 {
     id <HMDHomeActivityStateManagerStorageDelegate> delegate;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    NSNotificationCenter *_notificationCenter;
-    NSUUID *_homeUUID;
 }
 
 + (id)R;
@@ -21,29 +17,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_updateItem:withSettlingEffectGatingFailures: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)= %d Minutes] Metric event counts on current device:%@ %@ /* Error: Ran out of types for this method. */;
 - (id)ice stopped being primary - submitting AccessoryMetric and stopping;
-- (void)esReadRequestKey;
+- (void)kMediaPropertiesReadRequestKey;
 - (id)q;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDHomeActivityStateManagerStorageDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

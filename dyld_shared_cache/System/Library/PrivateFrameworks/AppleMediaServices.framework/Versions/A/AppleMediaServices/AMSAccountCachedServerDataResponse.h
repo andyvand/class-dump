@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ing endpoint=%@;
 - (void)Ë	ÀÌ,J]È:Y&}f¼o<ì$pS8ecÅ[)?·;ýÛ5Ìú²CÀ¶q(X''SÔR@Ó/Ên@WwÙLf1,.zµýýrsËHÓ®ü ÙÄµu4:LîX1ßjÈØR7X½ÅÏ21iÈQ¢lYÏÇþ²rÔ±íHÇû··9¶oÂ+#X¹+Vd¤ÓëfÊ?ÀTUútO²LÚMQ3x0ú^>tsØýÈ~¦ÿkÌ<¿Bª¦àôv¸¥ÛºïIZù1±óéþÍ¤îPÂK#³Â©óA;öË_AL¼ò /* Error: Ran out of types for this method. */;
 
 // Remaining properties

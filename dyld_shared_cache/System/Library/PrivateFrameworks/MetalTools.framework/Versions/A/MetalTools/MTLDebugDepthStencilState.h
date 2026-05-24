@@ -11,18 +11,16 @@
 @interface MTLDebugDepthStencilState : MTLToolsDepthStencilState
 {
     unsigned char _attachmentWriteMask;
-    MTLDepthStencilDescriptor *_descriptor;
 }
 
-- (id);
+- (id);
 - (unsigned char);
-- (void);
+- (void)D;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char attachmentWriteMask; // @synthesize attachmentWriteMask=_attachmentWriteMask;
 @property(readonly, nonatomic) MTLDepthStencilDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 
 @end

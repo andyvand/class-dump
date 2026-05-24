@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSSelectorGetBinding : NSKeyGetBinding
 {
     SEL getSel;
-    CDUnknownFunctionPointerType getMethod;
-    CDUnknownFunctionPointerType get;
 }
 
 - (id);

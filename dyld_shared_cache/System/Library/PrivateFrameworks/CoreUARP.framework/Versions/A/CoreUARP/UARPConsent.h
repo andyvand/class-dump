@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString;
+@class NSString;
 
 @interface UARPConsent
 {
     _Bool _isDownloadable;
-    _Bool _isRecommended;
-    _Bool _needsPostLogoutMode;
-    NSString *_accessoryName;
-    NSString *_appleModelNumber;
-    NSString *_assetVersion;
-    NSNumber *_downloadSize;
-    NSString *_consentDescription;
-    NSString *_warning;
-    NSString *_installerProgressDescription;
-    NSString *_installerProgressPhase;
-    NSError *_installerProgressError;
-    NSNumber *_installerOverallProgress;
-    NSString *_assetBuildVersion;
 }
 
 + (_Bool);
-- (void);
+- (void)}};
 - (void);
 - (void);
 - (void);
@@ -37,12 +24,12 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)A3;
+- (id)};
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -62,19 +49,6 @@
 
 // Remaining properties
 @property(readonly) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(copy) NSString *appleModelNumber; // @synthesize appleModelNumber=_appleModelNumber;
-@property(copy) NSString *assetBuildVersion; // @synthesize assetBuildVersion=_assetBuildVersion;
-@property(readonly) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(copy) NSString *consentDescription; // @synthesize consentDescription=_consentDescription;
-@property NSNumber *downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(copy) NSNumber *installerOverallProgress; // @synthesize installerOverallProgress=_installerOverallProgress;
-@property(copy) NSString *installerProgressDescription; // @synthesize installerProgressDescription=_installerProgressDescription;
-@property(copy) NSError *installerProgressError; // @synthesize installerProgressError=_installerProgressError;
-@property(copy) NSString *installerProgressPhase; // @synthesize installerProgressPhase=_installerProgressPhase;
-@property _Bool isDownloadable; // @synthesize isDownloadable=_isDownloadable;
-@property _Bool isRecommended; // @synthesize isRecommended=_isRecommended;
-@property _Bool needsPostLogoutMode; // @synthesize needsPostLogoutMode=_needsPostLogoutMode;
-@property(copy) NSString *warning; // @synthesize warning=_warning;
 
 @end
 

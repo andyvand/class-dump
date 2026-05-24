@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GCPhysicalInputElementEnumerator
 {
     GCPhysicalInputElementCollection *_collection;
-    unsigned long long _currentIndex;
 }
 
 - (id);

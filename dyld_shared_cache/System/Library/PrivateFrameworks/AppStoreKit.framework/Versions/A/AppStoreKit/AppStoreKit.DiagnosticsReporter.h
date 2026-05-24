@@ -7,12 +7,6 @@
 @interface AppStoreKit.DiagnosticsReporter
 {
     id configuration;
-    id onReportError;
-    id onReportIncident;
-    id $__lazy_storage_$_jsMetricsLogger;
-    id $__lazy_storage_$_jsonMetricsLogger;
-    id $__lazy_storage_$_diagnosticsMetricsLogger;
-    id $__lazy_storage_$_validationMetricsLogger;
 }
 
 - (void);

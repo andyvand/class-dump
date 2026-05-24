@@ -7,6 +7,7 @@
 @interface _SpriteKit_SwiftUI.SpriteKitViewDelegate__priv_4A29C38A751B2448A1E2FA85CDDEAA53
 {
     id callback;
+    id;
 }
 
 - (_Bool);

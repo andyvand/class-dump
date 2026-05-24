@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NLXPCSpellServerClient
 {
     NSString *_serverName;
-    NSXPCConnection *_connection;
-    _Bool _invalidated;
 }
 
 + (id);
 + (void);
-- (void);
+- (void)݈	;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 

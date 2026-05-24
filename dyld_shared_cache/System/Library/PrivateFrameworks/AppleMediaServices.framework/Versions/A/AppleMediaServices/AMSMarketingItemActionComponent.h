@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary, NSURL;
 
 @interface AMSMarketingItemActionComponent
 {
@@ -13,15 +13,13 @@
 
 - (id);
 - (id);
-- (id);
-- (id)hValidIdentifiers:(id)arg1 fileManager:defaults: /* Error: Ran out of types for this method. */;
+- (id)gibility-domain.change.greymatter;
+- (id)cleanUpCookieDatabasesWithValidIdentifiers:(id)arg1 fileManager:defaults: /* Error: Ran out of types for this method. */;
 - (void)Y>n%F @Xgg9y¦ÐÆ\Áæ×N®ÌJú®M-³Ãþó©t>¨CFïÚ£\jo[s6n@P
 kh·*Õy¸-»²ß»qGÓåPQ±³£(m4é@ÿ-;
 
 // Remaining properties
 @property(readonly) NSURL *artworkURL;
-@property(readonly) NSString *description;
-@property(readonly) NSDictionary *rawValues; // @synthesize rawValues=_rawValues;
 
 @end
 

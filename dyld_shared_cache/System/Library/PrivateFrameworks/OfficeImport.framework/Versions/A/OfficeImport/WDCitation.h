@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WDDocument;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface WDCitation
 {
     NSString *mSourceType;
-    NSMutableArray *mAuthors;
-    NSString *mYear;
-    NSMutableArray *mTitles;
-    NSMutableArray *mUrls;
-    NSString *mPeriodicalTitle;
-    NSString *mVolume;
-    NSString *mNumber;
-    NSString *mSection;
-    NSString *mPubDate;
-    NSString *mPages;
-    WDDocument *mDocument;
 }
 
 + (id);
 + (id);
 + (struct _xmlNode *);
-+ (id);
++ (id)J;
 + (id);
 + (id);
 + (int);
@@ -41,37 +30,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void)@:class version %lu cannot read instances archived with version %lu /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)dAtom;
+- (id)19PptBookmarkSeedAtom;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *authors; // @synthesize authors=mAuthors;
-@property(readonly) __weak WDDocument *document; // @synthesize document=mDocument;
-@property(retain, nonatomic) NSString *number; // @synthesize number=mNumber;
-@property(retain, nonatomic) NSString *pages; // @synthesize pages=mPages;
-@property(retain, nonatomic) NSString *periodicalTitle; // @synthesize periodicalTitle=mPeriodicalTitle;
-@property(retain, nonatomic) NSString *pubDate; // @synthesize pubDate=mPubDate;
-@property(retain, nonatomic) NSString *section; // @synthesize section=mSection;
-@property(retain, nonatomic) NSString *sourceType; // @synthesize sourceType=mSourceType;
-@property(retain, nonatomic) NSMutableArray *titles; // @synthesize titles=mTitles;
-@property(retain, nonatomic) NSMutableArray *urls; // @synthesize urls=mUrls;
-@property(retain, nonatomic) NSString *volume; // @synthesize volume=mVolume;
 @property(retain, nonatomic) NSString *year; // @synthesize year=mYear;
 
 @end

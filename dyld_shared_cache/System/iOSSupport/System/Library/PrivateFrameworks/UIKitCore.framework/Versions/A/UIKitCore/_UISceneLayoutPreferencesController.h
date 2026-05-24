@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, _UISceneLayoutPreferenceBuilder;
+@class NSHashTable, _UISceneLayoutPreferenceBuilder;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneLayoutPreferencesController
@@ -15,29 +15,21 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (CDUnion_c6a188fc);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)@?0@"NSMutableDictionary"8;
+- (_Bool)>16;
+- (void)syncRemovedRecoverableMessagesToCloudKitWithCompletion: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (void);
 - (id)¡	!¬DùÑeð1Â0@ù
 × ;
-- (void)sFloatingInCompactHeight;
+- (void)wantsFloatingInCompactHeight;
 - (id)¨D |#;
 - (void)H;
 - (void)Æ03+¸þÆ03+¸þ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hostObservesLayoutPreferenceChanges;
-@property(readonly, nonatomic) _Bool hostSupportsSceneDoubleTap;
-@property(readonly) Class superclass;
 
 @end
 

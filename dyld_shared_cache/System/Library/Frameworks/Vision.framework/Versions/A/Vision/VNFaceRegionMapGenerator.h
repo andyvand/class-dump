@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)B;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)ceAnalyzerMultiDetectorProcessingOptionFaceprintConfidence;
+- (void)VNFaceAnalyzerMultiDetectorProcessingOptionFaceprintConfidence;
 
 @end
 

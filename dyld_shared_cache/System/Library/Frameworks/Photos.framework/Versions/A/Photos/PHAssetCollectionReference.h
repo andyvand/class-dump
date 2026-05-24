@@ -11,13 +11,11 @@
 @interface PHAssetCollectionReference : PHCollectionReference
 {
     long long _assetCollectionType;
-    long long _assetCollectionSubtype;
-    NSArray *_transientAssetReferences;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)qA;
 - (id);
 - (id);
 - (id);
@@ -29,8 +27,6 @@
 - (_Bool)trong _Nonnull, PFMetadata *__strong _Nullable, NSDictionary<PHAssetExportRequestFileURLKey,NSURL *> *__strong _Nullable);
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetCollectionSubtype; // @synthesize assetCollectionSubtype=_assetCollectionSubtype;
-@property(readonly, nonatomic) long long assetCollectionType; // @synthesize assetCollectionType=_assetCollectionType;
 @property(readonly, copy, nonatomic) NSArray *transientAssetReferences; // @synthesize transientAssetReferences=_transientAssetReferences;
 
 @end

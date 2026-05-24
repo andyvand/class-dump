@@ -7,26 +7,22 @@
 @interface UICollectionViewDiffableDataSourceReorderingHandlers
 {
     CDUnknownBlockType _canReorderItemHandler;
-    CDUnknownBlockType _willReorderHandler;
-    CDUnknownBlockType _didReorderHandler;
 }
 
-- (id);
+- (id)payloadRequiredURLStringProbe;
 - (CDUnknownBlockType)
 × ;
 - (void)1Â0@ù
 × ;
 - (CDUnknownBlockType)IDraggingSessionDelegate>";
-- (CDUnknownBlockType)Radius:lineWidth: /* Error: Ran out of types for this method. */;
-- (void);
+- (CDUnknownBlockType)_percentFillImageWithSize:forScale:batteryRect:cornerRadius:lineWidth: /* Error: Ran out of types for this method. */;
+- (void)_UIKBRTFingerDetection;
 - (id)P¼;
 - (void)l;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType canReorderItemHandler; // @synthesize canReorderItemHandler=_canReorderItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType didReorderHandler; // @synthesize didReorderHandler=_didReorderHandler;
-@property(copy, nonatomic) CDUnknownBlockType willReorderHandler; // @synthesize willReorderHandler=_willReorderHandler;
 
 @end
 

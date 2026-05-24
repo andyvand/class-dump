@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PKTextInputWritingSession, UIView;
-@protocol NSObject><NSCopying, PKScribbleInteractionWrapper, UICoordinateSpace, UITextInput;
-
 @interface PKTextInputElement
 {
     struct CGRect _lastKnownFrame;
-    id <UICoordinateSpace> _coordinateSpace;
-    _Bool __requestingPlaceholderSuppression;
-    _Bool __waitingForMatchingDidFinishWriting;
-    _Bool _legacyHasBeenFocusedWithinContainer;
-    long long __elementType;
-    UIView *_elementTextInputView;
-    id <PKScribbleInteractionWrapper> __viewScribbleInteraction;
-    id <PKScribbleInteractionWrapper> __containerInteraction;
-    long long __orderInContainer;
-    PKTextInputWritingSession *__writingSession;
-    id <UITextInput> _textInput;
-    NSNumber *_recognitionIdentifier;
-    id <NSObject><NSCopying> _containerElementIdentifier;
 }
 
 + (struct CGRect);
@@ -87,40 +71,22 @@
 - (id);
 - (struct _NSRange);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (id)(Ð1Â0@ù
 × ;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
+- (_Bool)inputPointFilter:distanceToEdge: /* Error: Ran out of types for this method. */;
 - (_Bool)ate>",W,N,V_delegate;
 - (void)tentViewHeightConstraint;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PKScribbleInteractionWrapper> _containerInteraction; // @synthesize _containerInteraction=__containerInteraction;
-@property(nonatomic) long long _elementType; // @synthesize _elementType=__elementType;
-@property(readonly, nonatomic) long long _orderInContainer; // @synthesize _orderInContainer=__orderInContainer;
-@property(nonatomic) _Bool _requestingPlaceholderSuppression; // @synthesize _requestingPlaceholderSuppression=__requestingPlaceholderSuppression;
-@property(readonly, nonatomic) id <PKScribbleInteractionWrapper> _viewScribbleInteraction; // @synthesize _viewScribbleInteraction=__viewScribbleInteraction;
-@property(nonatomic) _Bool _waitingForMatchingDidFinishWriting; // @synthesize _waitingForMatchingDidFinishWriting=__waitingForMatchingDidFinishWriting;
-@property(nonatomic) __weak PKTextInputWritingSession *_writingSession; // @synthesize _writingSession=__writingSession;
 @property(readonly, nonatomic) struct _NSRange activeAffectedRange;
-@property(readonly, nonatomic) id <NSObject><NSCopying> containerElementIdentifier; // @synthesize containerElementIdentifier=_containerElementIdentifier;
-@property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace;
-@property(readonly, nonatomic) NSString *debugElementTypeDescription;
-@property(nonatomic) __weak UIView *elementTextInputView; // @synthesize elementTextInputView=_elementTextInputView;
-@property(readonly, nonatomic, getter=isFocused) _Bool focused;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) _Bool isEditableElement;
-@property(nonatomic) _Bool legacyHasBeenFocusedWithinContainer; // @synthesize legacyHasBeenFocusedWithinContainer=_legacyHasBeenFocusedWithinContainer;
-@property(copy, nonatomic) NSNumber *recognitionIdentifier; // @synthesize recognitionIdentifier=_recognitionIdentifier;
-@property(readonly, nonatomic) UIView *referenceView;
-@property(nonatomic) __weak id <UITextInput> textInput; // @synthesize textInput=_textInput;
 
 @end
 

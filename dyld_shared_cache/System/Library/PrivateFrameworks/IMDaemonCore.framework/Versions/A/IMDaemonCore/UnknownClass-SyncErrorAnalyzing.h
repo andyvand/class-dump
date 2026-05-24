@@ -5,17 +5,18 @@
 //
 
 @interface UnknownClass (SyncErrorAnalyzing)
+- (_Bool)
+;
+- (_Bool)  H;
 - (_Bool);
+- (_Bool)*;
 - (_Bool);
+- (_Bool)  H;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)8 ;
 - (_Bool);
 - (_Bool);
 - (_Bool);

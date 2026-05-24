@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol MTLDevice;
-
 @interface CRDetectorConfiguration
 {
     _Bool detectTables;
-    _Bool skipVerticalText;
-    _Bool logIntermediateResults;
-    void customModelPath;
-    _Bool disableScriptDetection;
-    _Bool disableTextTypeDetection;
-    _Bool runFullTile;
-    _Bool runFineScale;
-    _Bool mergeFullTile;
-    _Bool useScaleTraversal;
-    _Bool extractPolygons;
-    struct CGSize tileSize;
-    double tileOverlap;
-    void prioritization;
-    struct CGSize minimumInputSize;
-    struct CGSize maximumInputSize;
-    double inputLengthLimit;
-    double minimumTextHeight;
-    long long tableMinDetectableArea;
-    void scriptRatioThresholds;
-    double scoreMapScaleFactor;
-    id <MTLDevice> metalDevice;
-    unsigned long long computeDeviceType;
 }
 
 - (_Bool);
@@ -59,14 +34,14 @@
 - (struct CGSize);
 - (_Bool);
 - (struct CGSize);
+- (_Bool);
+- (double)!;
 - (_Bool);
-- (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -74,34 +49,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)l;
 - (struct CGSize);
-- (void)dingBoxes: /* Error: Ran out of types for this method. */;
+- (void)setBoundingBoxes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long computeDeviceType; // @synthesize computeDeviceType;
-@property(nonatomic, copy) NSString *customModelPath;
 @property(nonatomic) _Bool detectTables; // @synthesize detectTables;
-@property(nonatomic) _Bool disableScriptDetection; // @synthesize disableScriptDetection;
-@property(nonatomic) _Bool disableTextTypeDetection; // @synthesize disableTextTypeDetection;
-@property(nonatomic) _Bool extractPolygons; // @synthesize extractPolygons;
-@property(nonatomic) double inputLengthLimit; // @synthesize inputLengthLimit;
-@property(nonatomic) _Bool logIntermediateResults; // @synthesize logIntermediateResults;
-@property(nonatomic) struct CGSize maximumInputSize; // @synthesize maximumInputSize;
-@property(nonatomic) _Bool mergeFullTile; // @synthesize mergeFullTile;
-@property(nonatomic, retain) id <MTLDevice> metalDevice; // @synthesize metalDevice;
-@property(nonatomic, readonly) struct CGSize minimumInputSize; // @synthesize minimumInputSize;
-@property(nonatomic) double minimumTextHeight; // @synthesize minimumTextHeight;
-@property(nonatomic, copy) NSString *prioritization;
-@property(nonatomic) _Bool runFineScale; // @synthesize runFineScale;
-@property(nonatomic) _Bool runFullTile; // @synthesize runFullTile;
-@property(nonatomic, readonly) double scoreMapScaleFactor; // @synthesize scoreMapScaleFactor;
-@property(nonatomic, copy) NSDictionary *scriptRatioThresholds;
-@property(nonatomic) _Bool skipVerticalText; // @synthesize skipVerticalText;
-@property(nonatomic, readonly) long long tableMinDetectableArea; // @synthesize tableMinDetectableArea;
-@property(nonatomic, readonly) double tileOverlap; // @synthesize tileOverlap;
-@property(nonatomic, readonly) struct CGSize tileSize; // @synthesize tileSize;
-@property(nonatomic) _Bool useScaleTraversal; // @synthesize useScaleTraversal;
 
 @end
 

@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSArray, NSData;
-
 @interface IFTSchemaASTFlatExprUpdateVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_lhs;
-    NSArray *_paths;
-    int _kind;
-    struct {
-        unsigned int exists:1;
-        unsigned int kind:1;
-    } _has;
-    _Bool _hasLhs;
 }
 
 - (void);
@@ -29,22 +19,23 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)credentials updated;
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)s
+;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)shortDisplayNameForContact:andHandle: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
-- (void)umber:(_Bool)arg1;
+- (void)setCalendarWeekNumber:(_Bool)arg1;
 - (_Bool)V_originalMediaSizeInKBs;
 - (id)d;
 - (id);
@@ -58,13 +49,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasKind;
-@property(nonatomic) _Bool hasLhs; // @synthesize hasLhs=_hasLhs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *lhs; // @synthesize lhs=_lhs;
-@property(copy, nonatomic) NSArray *paths; // @synthesize paths=_paths;
 
 @end
 

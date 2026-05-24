@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void)rToZoneMap;
+- (id)nsfer:[state:%ld -> %ld sync state:%ld -> %ld local path:%@ transferred name:%@ -> %@ guid:%@ -> %@ error:%d -> %d total bytes:%d -> %d created:%@ -> %@ commSafety:%d -> %d update reason:%d -> %d] /* Error: Ran out of types for this method. */;
 
 @end
 

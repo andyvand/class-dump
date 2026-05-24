@@ -7,11 +7,6 @@
 @interface ChatKit.SearchIndexingDebugStateViewModel__priv_F467A9D7D96CE0C082487096A8375BFD
 {
     id _remainingMessagesCount;
-    id _clientState;
-    id _isThrottled;
-    id _throttledUntil;
-    id _throttleMonitor;
-    id _$observationRegistrar;
 }
 
 @end

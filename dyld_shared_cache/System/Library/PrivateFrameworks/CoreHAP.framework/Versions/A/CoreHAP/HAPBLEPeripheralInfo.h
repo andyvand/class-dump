@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface HAPBLEPeripheralInfo
 {
     NSUUID *_peripheralUUID;
-    unsigned long long _advertisedProtocolVersion;
-    unsigned long long _previousProtocolVersion;
-    unsigned long long _resumeSessionId;
-    double _lastSeen;
-    NSNumber *_statusFlags;
-    NSNumber *_stateNumber;
-    NSNumber *_configNumber;
-    NSNumber *_categoryIdentifier;
-    NSString *_accessoryName;
-    NSData *_broadcastKey;
-    double _keyUpdatedTime;
-    NSNumber *_keyUpdatedStateNumber;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -52,7 +40,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_pruneOnAccess;
 - (void);
 - (id);
 - (double);
@@ -61,19 +49,7 @@
 - (id)verIP] Received notification context:%{public}@ in read response for characteristic instanceId:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
 @property(nonatomic) unsigned long long advertisedProtocolVersion; // @synthesize advertisedProtocolVersion=_advertisedProtocolVersion;
-@property(retain, nonatomic) NSData *broadcastKey; // @synthesize broadcastKey=_broadcastKey;
-@property(readonly, nonatomic) NSNumber *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(readonly, nonatomic) NSNumber *configNumber; // @synthesize configNumber=_configNumber;
-@property(retain, nonatomic) NSNumber *keyUpdatedStateNumber; // @synthesize keyUpdatedStateNumber=_keyUpdatedStateNumber;
-@property(nonatomic) double keyUpdatedTime; // @synthesize keyUpdatedTime=_keyUpdatedTime;
-@property(readonly, nonatomic) double lastSeen; // @synthesize lastSeen=_lastSeen;
-@property(readonly, nonatomic) NSUUID *peripheralUUID; // @synthesize peripheralUUID=_peripheralUUID;
-@property(nonatomic) unsigned long long previousProtocolVersion; // @synthesize previousProtocolVersion=_previousProtocolVersion;
-@property(nonatomic) unsigned long long resumeSessionId; // @synthesize resumeSessionId=_resumeSessionId;
-@property(retain, nonatomic) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(readonly, nonatomic) NSNumber *statusFlags; // @synthesize statusFlags=_statusFlags;
 
 @end
 

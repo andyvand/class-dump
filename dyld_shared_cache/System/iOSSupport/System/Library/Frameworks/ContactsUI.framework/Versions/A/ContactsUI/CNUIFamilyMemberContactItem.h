@@ -9,9 +9,6 @@
 @interface CNUIFamilyMemberContactItem
 {
     _Bool _unreachable;
-    NSString *_label;
-    NSString *_detailLabel;
-    NSString *_contactIdentifier;
 }
 
 + (id);
@@ -20,20 +17,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)setURLProtocolDelegate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)Blocking;
+- (void)allowsContactBlocking;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSString *detailLabel; // @synthesize detailLabel=_detailLabel;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic, getter=isUnreachable) _Bool unreachable; // @synthesize unreachable=_unreachable;
 
 @end
 

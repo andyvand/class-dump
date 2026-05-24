@@ -6,32 +6,29 @@
 
 #import <AppKit/NSAccessibilityElement.h>
 
-@class NSString, NSTouchBarInputMethodCandidate;
-@protocol NSInputMethodUICandidateAccessibilityTarget;
+@class NSTouchBarInputMethodCandidate;
 
 @interface NSInputMethodUICandidateAccessibilityElement : NSAccessibilityElement
 {
     NSTouchBarInputMethodCandidate *_candidate;
-    id <NSInputMethodUICandidateAccessibilityTarget> _target;
-    struct CGRect _frame;
 }
 
+- (id)}{?=qiIq}}32@80{?={?=qiIq}{?=qiIq}}88;
+- (id);
 - (id);
+- (_Bool)6;
 - (id);
+- (id)resuming, timeouts(%.1f, %.1f) qos(0x%x) voucher(%@) activity(%{public,uuid_t}.16P);
+- (struct CGRect);
 - (id);
+- (struct CGRect)t_buffer from buffer manager;
+- (unsigned long long)};
+- (void)H;
+- (id);
+- (id)_adjustLocationForNearestCaretPosition:direction: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (struct CGRect);
-- (void)arColorPickerSliderSaturationArtworkProvider;
+- (struct CGRect)h;
+- (void)NSTouchBarColorPickerSliderSaturationArtworkProvider;
 - (void)_NSTrackingAreaCGViewHelper _installTrackingArea:(id)arg1 ];
 - (id)resizing height constraint;
 - (void)¤&A;
@@ -39,15 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSTouchBarInputMethodCandidate *candidate; // @synthesize candidate=_candidate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <NSInputMethodUICandidateAccessibilityTarget> target; // @synthesize target=_target;
 
 @end
 

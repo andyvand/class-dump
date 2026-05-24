@@ -14,7 +14,7 @@
 
 - (void);
 - (void);
-- (id)adMessages;
+- (id)uploadMessages;
 
 // Remaining properties
 @property(readonly, nonatomic) MFEWSAccount *account; // @dynamic account;

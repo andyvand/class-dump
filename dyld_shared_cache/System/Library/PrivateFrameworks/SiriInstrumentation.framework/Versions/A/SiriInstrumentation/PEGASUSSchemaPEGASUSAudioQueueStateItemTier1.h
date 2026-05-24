@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSAudioQueueStateItemTier1 : SISchemaInstrumentationMessage
 {
     NSString *_audioAlbum;
-    NSString *_audioArtist;
-    NSString *_audioClientId;
-    NSString *_audioTitle;
-    _Bool _hasAudioAlbum;
-    _Bool _hasAudioArtist;
-    _Bool _hasAudioClientId;
-    _Bool _hasAudioTitle;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
@@ -31,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,28 +33,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)$;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)\,;
 - (_Bool);
-- (_Bool);
+- (_Bool)cordCopyAttachmentsDirectWithPredicate_IPCAction;
 - (id);
 - (id);
-- (id)end;
+- (id)_frontend;
 - (id)setMessageType: /* Error: Ran out of types for this method. */;
 - (void)bundleId;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *audioAlbum; // @synthesize audioAlbum=_audioAlbum;
-@property(copy, nonatomic) NSString *audioArtist; // @synthesize audioArtist=_audioArtist;
-@property(copy, nonatomic) NSString *audioClientId; // @synthesize audioClientId=_audioClientId;
-@property(copy, nonatomic) NSString *audioTitle; // @synthesize audioTitle=_audioTitle;
-@property(nonatomic) _Bool hasAudioAlbum; // @synthesize hasAudioAlbum=_hasAudioAlbum;
-@property(nonatomic) _Bool hasAudioArtist; // @synthesize hasAudioArtist=_hasAudioArtist;
-@property(nonatomic) _Bool hasAudioClientId; // @synthesize hasAudioClientId=_hasAudioClientId;
-@property(nonatomic) _Bool hasAudioTitle; // @synthesize hasAudioTitle=_hasAudioTitle;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

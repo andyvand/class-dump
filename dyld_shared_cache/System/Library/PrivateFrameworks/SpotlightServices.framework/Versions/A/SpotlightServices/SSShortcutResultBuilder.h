@@ -6,26 +6,9 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSString;
-
 @interface SSShortcutResultBuilder : SSResultBuilder
 {
     _Bool _isBackgroundRunnable;
-    _Bool _isAlarmResult;
-    _Bool _isCustomAppAttributedShortcut;
-    NSString *_name;
-    NSArray *_alternateNames;
-    NSString *_numberOfActionsString;
-    NSString *_punchoutLabel;
-    NSString *_userActivityRequiredString;
-    NSString *_settingsPreference;
-    unsigned long long _entityThumbnailDisplayStyle;
-    NSString *_actionIdentifier;
-    NSString *_domainIdentifier;
-    NSString *_lnPropertyIdentifier;
-    NSString *_primaryPhrase;
-    NSString *_biomeStreamIdentifier;
-    unsigned long long _entityBadgeType;
 }
 
 + (_Bool);
@@ -45,60 +28,45 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (unsigned long long)rray"24@?<v@?@"NSError"@"NSArray">32;
+- (id)titleSimplifiedByDeduplicatingHostname:forMetadata: /* Error: Ran out of types for this method. */;
+- (id)timeForURL: /* Error: Ran out of types for this method. */;
+- (id)thumbnail;
+- (id)themeWithStyle:icon:platform:sizeClass:sizeClassParameters:hasButton: /* Error: Ran out of types for this method. */;
+- (id)symbolConfiguration;
+- (id)summaryTypeForTransformer: /* Error: Ran out of types for this method. */;
+- (id)stringByAppendingString: /* Error: Ran out of types for this method. */;
+- (id)storefrontIdentifier;
+- (id)storefrontCountryCodeFromPathComponent: /* Error: Ran out of types for this method. */;
+- (id)statusTransformerDidUpdate: /* Error: Ran out of types for this method. */;
+- (_Bool)startFetchingSubresourcesForPartialMetadata:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)startFetchingMetadataForWebView:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setPositionButtonRelativeToTextStack:(unsigned long long)arg1;
+- (id)setFullScreen:(id)arg1;
+- (unsigned long long)setCuratorProfileURL: /* Error: Ran out of types for this method. */;
+- (id)setContentCompressionResistancePriority:forOrientation: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)cessfully authenticated account. The account is:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)WithLong: /* Error: Ran out of types for this method. */;
+- (void)initWithLong: /* Error: Ran out of types for this method. */;
 - (id)ÔBåÿA¢òl	;
 - (id)#	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(retain, nonatomic) NSArray *alternateNames; // @synthesize alternateNames=_alternateNames;
-@property(retain, nonatomic) NSString *biomeStreamIdentifier; // @synthesize biomeStreamIdentifier=_biomeStreamIdentifier;
-@property(retain, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(nonatomic) unsigned long long entityBadgeType; // @synthesize entityBadgeType=_entityBadgeType;
-@property(nonatomic) unsigned long long entityThumbnailDisplayStyle; // @synthesize entityThumbnailDisplayStyle=_entityThumbnailDisplayStyle;
-@property(nonatomic) _Bool isAlarmResult; // @synthesize isAlarmResult=_isAlarmResult;
 @property(nonatomic) _Bool isBackgroundRunnable; // @synthesize isBackgroundRunnable=_isBackgroundRunnable;
-@property(nonatomic) _Bool isCustomAppAttributedShortcut; // @synthesize isCustomAppAttributedShortcut=_isCustomAppAttributedShortcut;
-@property(retain, nonatomic) NSString *lnPropertyIdentifier; // @synthesize lnPropertyIdentifier=_lnPropertyIdentifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *numberOfActionsString; // @synthesize numberOfActionsString=_numberOfActionsString;
-@property(retain, nonatomic) NSString *primaryPhrase; // @synthesize primaryPhrase=_primaryPhrase;
-@property(retain, nonatomic) NSString *punchoutLabel; // @synthesize punchoutLabel=_punchoutLabel;
-@property(retain, nonatomic) NSString *settingsPreference; // @synthesize settingsPreference=_settingsPreference;
-@property(retain, nonatomic) NSString *userActivityRequiredString; // @synthesize userActivityRequiredString=_userActivityRequiredString;
 
 @end
 

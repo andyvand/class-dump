@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATRegisterMediaEventStarted : SISchemaInstrumentationMessage
 {
     _Bool _exist;
-    CDStruct_f0caceea _has;
 }
 
 - (void);
@@ -21,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)initWithAlertType:style: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id){?="candidateCount"b1};
-- (id)s;
+- (id)_timeSinceTriggerInMilliseconds;
 - (id)ä8å;
 
 // Remaining properties
 @property(nonatomic) _Bool exist; // @synthesize exist=_exist;
-@property(nonatomic) _Bool hasExist;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

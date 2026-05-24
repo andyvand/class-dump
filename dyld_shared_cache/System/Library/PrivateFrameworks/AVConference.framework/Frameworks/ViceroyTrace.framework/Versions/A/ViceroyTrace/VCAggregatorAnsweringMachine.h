@@ -6,21 +6,10 @@
 
 #import <ViceroyTrace/VCAggregatorRecordingAndTranscriptionService.h>
 
-@class VCReportingHistogram;
-
 __attribute__((visibility("hidden")))
 @interface VCAggregatorAnsweringMachine : VCAggregatorRecordingAndTranscriptionService
 {
     unsigned char _answeringMachineSource;
-    unsigned char _answeringMachineCapabilities;
-    double _answeringMachineAssetDelayTime;
-    double _answeringMachineCreatedTime;
-    double _answeringMachineRecordingCleanupStartTime;
-    VCReportingHistogram *_answeringMachineUsageHistogram;
-    double _answeringMachineEnteredScreeningTime;
-    double _answeringMachineAudioBringUpTime;
-    double _answeringMachineRecordingFinalizationTime;
-    double _answeringMachineTotalScreeningTime;
 }
 
 - (void);
@@ -32,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (id);

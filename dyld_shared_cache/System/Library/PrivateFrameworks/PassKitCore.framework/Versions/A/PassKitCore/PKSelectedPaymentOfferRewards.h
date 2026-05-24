@@ -11,12 +11,10 @@
 @interface PKSelectedPaymentOfferRewards : PKSelectedPaymentOffer
 {
     PKPaymentOfferRewardsRedemptionIntent *_rewardsRedemptionIntent;
-    double _stickyDuration;
-    double _activeDuration;
 }
 
-+ (_Bool);
-- (double);
++ (_Bool);
+- (double)I@9?;
 - (void);
 - (void);
 - (void);
@@ -27,15 +25,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_selfPreferredChannel;
 - (id);
 - (double);
 - (void)onary"16@?0@"PKPaymentOfferDynamicContentCustomLayoutItem"8;
 
 // Remaining properties
-@property(nonatomic) double activeDuration; // @synthesize activeDuration=_activeDuration;
 @property(retain, nonatomic) PKPaymentOfferRewardsRedemptionIntent *rewardsRedemptionIntent; // @synthesize rewardsRedemptionIntent=_rewardsRedemptionIntent;
-@property(nonatomic) double stickyDuration; // @synthesize stickyDuration=_stickyDuration;
 
 @end
 

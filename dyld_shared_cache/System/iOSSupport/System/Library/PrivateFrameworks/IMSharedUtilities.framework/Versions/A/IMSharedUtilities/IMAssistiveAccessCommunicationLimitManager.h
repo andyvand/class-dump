@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol IMAssistiveAccessIndirectContactsQueryDelegate;
 
 @interface IMAssistiveAccessCommunicationLimitManager
@@ -25,11 +24,7 @@
 - (void)Oññ4yõÙ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *favoriteHandleStrings;
 @property(nonatomic) __weak id <IMAssistiveAccessIndirectContactsQueryDelegate> indirectContactsQueryDelegate; // @synthesize indirectContactsQueryDelegate=_indirectContactsQueryDelegate;
-@property(readonly, nonatomic) _Bool isAssistiveAccessRunning;
-@property(readonly, nonatomic) _Bool shouldFilterIncomingMessages;
-@property(readonly, nonatomic) _Bool shouldFilterOutgoingMessages;
 
 @end
 

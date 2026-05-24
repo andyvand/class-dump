@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MNTracePlaybackDetails
 {
     unsigned long long _eventType;
-    NSString *_tracePath;
-    double _traceDuration;
-    double _currentPosition;
-    NSArray *_bookmarks;
-    unsigned long long _recordedBookmarkID;
-    NSString *_pedestrianTracePath;
-    double _pedestrianTraceStartRelativeTimestamp;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -35,19 +26,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)V_codeEnteredAction;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *bookmarks; // @synthesize bookmarks=_bookmarks;
-@property(nonatomic) double currentPosition; // @synthesize currentPosition=_currentPosition;
 @property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(copy, nonatomic) NSString *pedestrianTracePath; // @synthesize pedestrianTracePath=_pedestrianTracePath;
-@property(nonatomic) double pedestrianTraceStartRelativeTimestamp; // @synthesize pedestrianTraceStartRelativeTimestamp=_pedestrianTraceStartRelativeTimestamp;
-@property(nonatomic) unsigned long long recordedBookmarkID; // @synthesize recordedBookmarkID=_recordedBookmarkID;
-@property(nonatomic) double traceDuration; // @synthesize traceDuration=_traceDuration;
-@property(copy, nonatomic) NSString *tracePath; // @synthesize tracePath=_tracePath;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorAPSQuickRelayAllocationStatus
 {
@@ -14,21 +14,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long allocationStatus;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *destinationId;
-@property(nonatomic, readonly) _Bool has_allocationStatus;
-@property(nonatomic, readonly) _Bool has_participantId;
-@property(nonatomic, readonly) unsigned long long participantId;
-@property(nonatomic, readonly) NSData *token;
 
 @end
 

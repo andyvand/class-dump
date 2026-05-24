@@ -5,5 +5,9 @@
 //
 
 @protocol NSAccessibilityRow
+- (long long)accessoryServerIdentifier;
+
+@optional
+- (long long)kPredicateEvaluatePredicateRequestKey;
 @end
 

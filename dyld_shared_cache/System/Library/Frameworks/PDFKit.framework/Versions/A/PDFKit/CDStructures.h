@@ -34,12 +34,12 @@ struct CAColorMatrix {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGDisplayListEntry;
@@ -68,32 +68,32 @@ struct CGMatrixFilter {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct NSDirectionalEdgeInsets {
-    double top;
-    double leading;
-    double bottom;
-    double trailing;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct PDFDetectedFormRow;
@@ -106,29 +106,6 @@ struct PDFSizeIntegral {
 struct _NSRange {
     unsigned long long location;
     unsigned long long length;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct pdf_unfair_mutex {
-    struct os_unfair_lock_s m_lock;
-};
-
-struct vector<CGRect, std::allocator<CGRect>> {
-    struct CGRect *__begin_;
-    struct CGRect *__end_;
-    struct {
-        struct CGRect *__cap_;
-    } ;
 };
 
 struct vector<PDFDetectedFormRow, std::allocator<PDFDetectedFormRow>> {
@@ -157,7 +134,7 @@ typedef struct {
 typedef struct {
     struct CGPoint _field1;
     struct CGPoint _field2;
-} CDStruct_e3b9714e;
+} CDStruct_d0b1bdbd;
 
 // Template types
 typedef struct vector<const CGDisplayListEntry *, std::allocator<const CGDisplayListEntry *>> {

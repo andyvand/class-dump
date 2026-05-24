@@ -15,7 +15,7 @@
 ;
 - (id);
 - (void);
-- (id);
+- (id)Text/Tangier/TSWPRep+SXAccessibility.m;
 - (void);
 - (void);
 

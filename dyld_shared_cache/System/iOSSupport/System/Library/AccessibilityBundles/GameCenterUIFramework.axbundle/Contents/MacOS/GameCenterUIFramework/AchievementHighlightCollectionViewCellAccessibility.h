@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (_Bool);
-- (id);
+- (id)setAccessibilityContainer: /* Error: Ran out of types for this method. */;
 
 @end
 

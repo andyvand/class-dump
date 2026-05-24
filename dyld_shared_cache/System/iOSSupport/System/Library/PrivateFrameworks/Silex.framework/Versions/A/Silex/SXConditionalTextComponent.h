@@ -6,7 +6,7 @@
 
 #import <Silex/SXTextComponent.h>
 
-@class NSString, SXJSONArray;
+@class SXJSONArray;
 
 @interface SXConditionalTextComponent : SXTextComponent
 {
@@ -16,13 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *conditions; // @dynamic conditions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

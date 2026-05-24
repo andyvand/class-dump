@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PKSecureElementCertificateSet
 {
     _Bool _supportsLegacyFormats;
-    NSDictionary *_dictionary;
 }
 
 + (_Bool);
@@ -20,13 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_rC1CoexDurationMS;
 - (id);
-- (id)ountUsers;
+- (id)maximumAccountUsers;
 - (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_LAST_PAYMENT_PLUS_MERCHANT_CATEGORY2_MESSAGE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
 @property(nonatomic) _Bool supportsLegacyFormats; // @synthesize supportsLegacyFormats=_supportsLegacyFormats;
 
 @end

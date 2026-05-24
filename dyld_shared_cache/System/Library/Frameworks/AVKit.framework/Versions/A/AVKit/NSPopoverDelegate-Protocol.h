@@ -5,5 +5,10 @@
 //
 
 @protocol NSPopoverDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (void);
 @end
 

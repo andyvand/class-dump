@@ -9,15 +9,15 @@
 @interface CKDPAssetUploadTokenRetrieveRequestHeaderInfo
 {
     NSString *_headerKey;
-    NSString *_headerValue;
 }
 
 - (id);
 - (id);
+- (void)T;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ptr} Not Yielding to %{ptr}; interruptible not resumed; %@
+;
+- (_Bool)HA9h];
 - (void);
 - (_Bool);
 - (id);
@@ -30,7 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *headerKey; // @synthesize headerKey=_headerKey;
-@property(retain, nonatomic) NSString *headerValue; // @synthesize headerValue=_headerValue;
 
 @end
 

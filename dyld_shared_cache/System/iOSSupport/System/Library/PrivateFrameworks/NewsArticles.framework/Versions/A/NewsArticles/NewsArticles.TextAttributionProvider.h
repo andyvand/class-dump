@@ -9,7 +9,6 @@
 @interface NewsArticles.TextAttributionProvider
 {
     id headline;
-    id shareLinkProvider;
 }
 
 - (id);

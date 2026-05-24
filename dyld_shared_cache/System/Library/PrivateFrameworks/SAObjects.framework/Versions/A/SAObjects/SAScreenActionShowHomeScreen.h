@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(0 == strcmp(_resolvedPath, testResolvedPath)) && "ScanDirectory was passed a non-resolved path";
 
 @end
 

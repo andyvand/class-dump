@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (shared_ptr_9dbb0ac9);
-- (_Bool);
-- (unsigned long long);
+- (void)ources;
+- (shared_ptr_9dbb0ac9)ffset;
+- (_Bool)predicateToExcludeUnknownShares;
+- (unsigned long long)y job processing;
 - (void);
 
 @end

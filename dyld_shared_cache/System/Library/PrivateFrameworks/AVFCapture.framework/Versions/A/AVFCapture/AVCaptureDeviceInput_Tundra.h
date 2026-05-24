@@ -6,33 +6,27 @@
 
 #import <AVFCapture/AVCaptureInput_Tundra.h>
 
-@class AVCaptureDeviceInputInternal_Tundra, AVCaptureDevice_Tundra, AVExternalSyncDevice;
+@class AVCaptureDeviceInputInternal_Tundra, AVCaptureDevice_Tundra;
 
 @interface AVCaptureDeviceInput_Tundra : AVCaptureInput_Tundra
 {
     AVCaptureDeviceInputInternal_Tundra *_internal;
-    _Bool _unifiedAutoExposureDefaultsEnabled;
-    _Bool _lockedVideoFrameDurationSupported;
-    _Bool _windNoiseRemovalSupported;
-    _Bool _windNoiseRemovalEnabled;
-    _Bool _audioZoomSupported;
-    _Bool _audioZoomEnabled;
-    AVExternalSyncDevice *_externalSyncDevice;
-    CDStruct_1b6d18a9 _activeLockedVideoFrameDuration;
 }
 
-+ (id);
-+ (void)ockedForConfiguration;
-- (unsigned int);
-- (void);
-- (void);
-- (struct OpaqueCMClock *);
-- (void);
-- (void);
++ (id)orks/QuartzCore.framework/Versions/A/QuartzCore;
++ (void)lockedForConfiguration;
+- (unsigned int)ytesWritten=%d, dataLen=%d;
+- (void)eld"8Q16^B24;
+- (void)ework %@
+%s;
+- (struct OpaqueCMClock *)MSVLyricsTTMLParserErrorDomain;
+- (void)condaryTextColor:(id)arg1 {%@}, tertiaryTextColor:(id)arg2 {%@}, quaternaryTextColor:{%@} /* Error: Ran out of types for this method. */;
+- (void)dColor:(id)arg1 {%@}, textPrimaryColor:{%@}, secondaryTextColor:{%@}, tertiaryTextColor:{%@}, quaternaryTextColor:{%@} /* Error: Ran out of types for this method. */;
+- (int)cancel method was called;
 - (int);
-- (int);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,25 +40,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)_clearCacheIncludingRemote: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)realtimeWalletPassesFromEntity:(id)arg1 enrichments: /* Error: Ran out of types for this method. */;
+- (_Bool)e file to "%@":(id)arg1 %@;
 - (void);
 - (id);
 - (void);
@@ -72,11 +52,24 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)erSparse;
+- (_Bool)BWStillImageFocusPixelBlurScoreResult;
+- (id);
+- (void);
+- (_Bool);
+- (void)BWSmartFramingPerceptionSinkNode with changing formats is not supported;
+- (_Bool)maxProcessingCount ) );
+- (void)FiltersApplied;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -88,32 +81,17 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (id);
+- (long long)llowed E5RT compute backend:%{public}@ /* Error: Ran out of types for this method. */;
+- (id))) ;
 - (CDStruct_1b6d18a9);
-- (void);
+- (void);
 - (_Bool)Ðä;
 - (CDStruct_1b6d18a9)iver;
 - (CDStruct_1b6d18a9)bí;
 - (void)ð;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 activeExternalSyncVideoFrameDuration;
-@property(nonatomic) CDStruct_1b6d18a9 activeLockedVideoFrameDuration; // @synthesize activeLockedVideoFrameDuration=_activeLockedVideoFrameDuration;
-@property(nonatomic, getter=isAudioZoomEnabled) _Bool audioZoomEnabled; // @synthesize audioZoomEnabled=_audioZoomEnabled;
-@property(readonly, nonatomic, getter=isAudioZoomSupported) _Bool audioZoomSupported; // @synthesize audioZoomSupported=_audioZoomSupported;
-@property(nonatomic, getter=isCinematicVideoCaptureEnabled) _Bool cinematicVideoCaptureEnabled;
-@property(readonly, nonatomic, getter=isCinematicVideoCaptureSupported) _Bool cinematicVideoCaptureSupported;
 @property(readonly, nonatomic) AVCaptureDevice_Tundra *device;
-@property(readonly, nonatomic) AVExternalSyncDevice *externalSyncDevice; // @synthesize externalSyncDevice=_externalSyncDevice;
-@property(readonly, nonatomic, getter=isExternalSyncSupported) _Bool externalSyncSupported;
-@property(readonly, nonatomic, getter=isLockedVideoFrameDurationSupported) _Bool lockedVideoFrameDurationSupported; // @synthesize lockedVideoFrameDurationSupported=_lockedVideoFrameDurationSupported;
-@property(nonatomic) long long multichannelAudioMode;
-@property(nonatomic) float simulatedAperture;
-@property(nonatomic) _Bool unifiedAutoExposureDefaultsEnabled; // @synthesize unifiedAutoExposureDefaultsEnabled=_unifiedAutoExposureDefaultsEnabled;
-@property(nonatomic) CDStruct_1b6d18a9 videoMinFrameDurationOverride;
-@property(nonatomic, getter=isWindNoiseRemovalEnabled) _Bool windNoiseRemovalEnabled; // @synthesize windNoiseRemovalEnabled=_windNoiseRemovalEnabled;
-@property(readonly, nonatomic, getter=isWindNoiseRemovalSupported) _Bool windNoiseRemovalSupported; // @synthesize windNoiseRemovalSupported=_windNoiseRemovalSupported;
 
 @end
 

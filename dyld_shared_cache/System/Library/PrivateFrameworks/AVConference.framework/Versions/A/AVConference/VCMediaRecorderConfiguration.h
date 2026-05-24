@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface VCMediaRecorderConfiguration : VCObject
 {
     unsigned int _mediaAvailability;
-    int _clientPid;
 }
 
 - (void);
 - (void);
 - (unsigned int);
-- (int)sageAudioToken;
+- (int)messageAudioToken;
 
 // Remaining properties
-@property(nonatomic) int clientPid; // @synthesize clientPid=_clientPid;
 @property(nonatomic) unsigned int mediaAvailability; // @synthesize mediaAvailability=_mediaAvailability;
 
 @end

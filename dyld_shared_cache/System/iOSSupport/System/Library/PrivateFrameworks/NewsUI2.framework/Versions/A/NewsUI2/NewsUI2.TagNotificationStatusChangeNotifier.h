@@ -7,11 +7,6 @@
 @interface NewsUI2.TagNotificationStatusChangeNotifier
 {
     id channelSupportThreadIdentifier;
-    id notifyOfEnabledTagsDelay;
-    id notifyOfAvailableTagsDelay;
-    id notificationConfiguration;
-    id notificationService;
-    id subscriptionService;
 }
 
 @end

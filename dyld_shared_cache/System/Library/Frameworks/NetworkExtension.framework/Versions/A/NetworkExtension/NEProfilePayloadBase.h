@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface NEProfilePayloadBase
 {
     NSDictionary *_payloadAtom;
-    NSMutableDictionary *_pendingCertificates;
-    NSDictionary *_pluginUpgradeInfo;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)'p ;
 - (id);
 - (id);
 - (id);
@@ -24,13 +22,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)@64@0:8@16q24@32@40@48@56 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *payloadAtom; // @synthesize payloadAtom=_payloadAtom;
-@property(retain) NSMutableDictionary *pendingCertificates; // @synthesize pendingCertificates=_pendingCertificates;
-@property(retain) NSDictionary *pluginUpgradeInfo; // @synthesize pluginUpgradeInfo=_pluginUpgradeInfo;
 
 @end
 

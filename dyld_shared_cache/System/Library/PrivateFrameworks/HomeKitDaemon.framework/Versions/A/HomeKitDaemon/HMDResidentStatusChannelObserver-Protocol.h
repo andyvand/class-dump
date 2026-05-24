@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDResidentStatusChannel;
+
 @protocol HMDResidentStatusChannelObserver
+
+@optional
+- (void)T@"GEOMapRegion",&,N,V_region;
+- (void)_performBlockOnAllCachedStatus:(HMDResidentStatusChannel *)arg1;
+- (void),V_endWaypoint;
 @end
 

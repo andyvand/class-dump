@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ECCurrencyConverter
 {
     NSMutableDictionary *mXlToLassoCurrencyCode;
-    NSMutableDictionary *mLassoToXlCurrencyCode;
-    NSMutableDictionary *mXlAccountingFormat;
-    NSMutableDictionary *mXlToLassoCurrencyCodeBySymbol;
 }
 
 + (id);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

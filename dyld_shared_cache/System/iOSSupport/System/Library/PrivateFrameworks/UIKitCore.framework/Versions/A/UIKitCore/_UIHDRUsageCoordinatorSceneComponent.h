@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, UITraitCollection;
+@class UIScene, UITraitCollection;
 
 __attribute__((visibility("hidden")))
 @interface _UIHDRUsageCoordinatorSceneComponent
@@ -20,15 +20,15 @@ __attribute__((visibility("hidden")))
     UIScene *_scene;
 }
 
+- (void);
 - (void);
+- (void);
 - (void);
+- (void)FileURLRequests:(id)arg1 %{public}ld requests coalesced into %{public}ld unique identifiers;
+- (void)a different service:%@ vs %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)letion: /* Error: Ran out of types for this method. */;
-- (void)atePagingGestures;
+- (id)replaceAnimatedTextPlaceholderWith:completion: /* Error: Ran out of types for this method. */;
+- (void)_updatePagingGestures;
 - (void)râíÿðþÿ;
 - (id)b¼;
 - (void)6sÑXk[;
@@ -37,18 +37,10 @@ __attribute__((visibility("hidden")))
 - (id)Aÿò"Ø¦a;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
 @property(readonly, nonatomic) UITraitCollection *_traitOverrides;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UITraitCollection",?,R,N
 
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

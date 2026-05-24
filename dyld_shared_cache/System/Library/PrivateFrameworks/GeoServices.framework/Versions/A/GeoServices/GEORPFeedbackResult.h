@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackIdLookupResult, GEORPFeedbackImageUploadResult, GEORPFeedbackLayoutConfigResult, GEORPFeedbackLogEventResult, GEORPFeedbackQueryResult, GEORPFeedbackSubmissionResult, GEORPFeedbackTdmFraudNotificationResult, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPFeedbackIdLookupResult *_idLookupResult;
-    GEORPFeedbackImageUploadResult *_imageUploadResult;
-    GEORPFeedbackLayoutConfigResult *_layoutConfigResult;
-    GEORPFeedbackLogEventResult *_logEventResult;
-    GEORPFeedbackQueryResult *_queryResult;
-    GEORPFeedbackSubmissionResult *_submissionResult;
-    GEORPFeedbackTdmFraudNotificationResult *_tdmFraudNotificationResult;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_idLookupResult:1;
-        unsigned int read_imageUploadResult:1;
-        unsigned int read_layoutConfigResult:1;
-        unsigned int read_logEventResult:1;
-        unsigned int read_queryResult:1;
-        unsigned int read_submissionResult:1;
-        unsigned int read_tdmFraudNotificationResult:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)t:(id)arg1;
++ (_Bool)setLabelDetailText:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -42,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)ABCDRelatedName;
+- (id)t store service connection invalidated:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)CNCDIOSLegacyIdentifierRegistrarPersistence;
 - (id);
 - (id);
 - (_Bool);
@@ -52,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)T	;
 - (_Bool);
 - (void);
 - (void);
@@ -61,8 +39,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)startDetectTwoShot: /* Error: Ran out of types for this method. */;
+- (void)$;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -70,27 +48,13 @@
 - (id);
 - (void);
 - (id)sponseStatus"b1"read_experimentMetadata"b1"read_modelMetadata"b1"read_resultSections"b1"wrote_anyField"b1};
-- (id)BookingTimestamp;
+- (id)blurredBookingTimestamp;
 - (id)Ó;
-- (id)FF_ROUTE;
+- (id)ISSUE_ARRIVAL_OFF_ROUTE;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdLookupResult;
-@property(readonly, nonatomic) _Bool hasImageUploadResult;
-@property(readonly, nonatomic) _Bool hasLayoutConfigResult;
-@property(readonly, nonatomic) _Bool hasLogEventResult;
-@property(readonly, nonatomic) _Bool hasQueryResult;
 @property(readonly, nonatomic) _Bool hasSubmissionResult;
-@property(readonly, nonatomic) _Bool hasTdmFraudNotificationResult;
-@property(retain, nonatomic) GEORPFeedbackIdLookupResult *idLookupResult;
-@property(retain, nonatomic) GEORPFeedbackImageUploadResult *imageUploadResult;
-@property(retain, nonatomic) GEORPFeedbackLayoutConfigResult *layoutConfigResult;
-@property(retain, nonatomic) GEORPFeedbackLogEventResult *logEventResult;
-@property(retain, nonatomic) GEORPFeedbackQueryResult *queryResult;
-@property(retain, nonatomic) GEORPFeedbackSubmissionResult *submissionResult;
-@property(retain, nonatomic) GEORPFeedbackTdmFraudNotificationResult *tdmFraudNotificationResult;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

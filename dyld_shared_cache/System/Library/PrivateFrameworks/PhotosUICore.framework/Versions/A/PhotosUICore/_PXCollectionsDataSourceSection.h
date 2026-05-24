@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXCollectionsDataSection.h>
 
-@class NSDictionary, PXCollectionsDataSource;
+@class PXCollectionsDataSource;
 
 @interface _PXCollectionsDataSourceSection : PXCollectionsDataSection
 {
     long long _count;
-    PXCollectionsDataSource *_collectionsDataSource;
-    NSDictionary *_lockStatePerCollection;
-    unsigned long long _section;
 }
 
 - (id);
@@ -33,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXCollectionsDataSource *collectionsDataSource; // @synthesize collectionsDataSource=_collectionsDataSource;
-@property(readonly, nonatomic) NSDictionary *lockStatePerCollection; // @synthesize lockStatePerCollection=_lockStatePerCollection;
-@property(readonly, nonatomic) unsigned long long section; // @synthesize section=_section;
 
 @end
 

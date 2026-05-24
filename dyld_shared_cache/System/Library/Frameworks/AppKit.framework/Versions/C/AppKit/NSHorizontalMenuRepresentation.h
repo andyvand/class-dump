@@ -6,55 +6,40 @@
 
 #import <AppKit/NSStackView.h>
 
-@class NSMenuIdenticalVisibleIndexDictionary, NSObject, NSString, NSView;
-@protocol NSMenuRepresentationDelegate, NSMenuVisibleIndexDictionary;
+@class NSMenuIdenticalVisibleIndexDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSHorizontalMenuRepresentation : NSStackView
 {
     NSMenuIdenticalVisibleIndexDictionary *_indexes;
-    NSObject<NSMenuRepresentationDelegate> *_repDelegate;
-    struct CGRect _visibleRect;
 }
 
+- (long long)B;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
+- (struct CGRect)initializedWithAVAsset;
+- (struct CGRect)initializeHTTPAuthenticatorWithAppleIDContext:(long long)arg1 statusCodes: /* Error: Ran out of types for this method. */;
+- (struct CGRect)initializeHTTPAuthenticatorWithAppleIDContext:(id)arg1 statusCodes: /* Error: Ran out of types for this method. */;
+- (void)initWithResponse:(CDUnknownBlockType)arg1 data:userInfo:storagePolicy: /* Error: Ran out of types for this method. */;
+- (void)initWithRequest:(long long)arg1 delegate:(CDUnknownBlockType)arg2 startImmediately: /* Error: Ran out of types for this method. */;
+- (id)w;
 - (id);
 - (struct CGRect)
 × ;
-- (id)romBookmarkSnapshots:bookmarks:update: /* Error: Ran out of types for this method. */;
+- (id)_restoreStateFromBookmarkSnapshots:bookmarks:update: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)fH;
 
 // Remaining properties
-@property(readonly) NSView *backingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSObject<NSMenuVisibleIndexDictionary> *indexes;
-@property(readonly) long long numberOfVisibleItems;
-@property(nonatomic) __weak NSObject<NSMenuRepresentationDelegate> *representationDelegate; // @synthesize representationDelegate=_repDelegate;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
 
 @end
 

@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSTimer;
+@class NSMutableDictionary;
 
 @interface IMDOffGridAvailabilityTracker
 {
     NSMutableDictionary *_trackedHandles;
-    NSTimer *_updateTimer;
 }
 
 + (id);
+- (id)`;
+- (void),y ;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)xT;
 - (void);
 - (void);
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *trackedHandles; // @synthesize trackedHandles=_trackedHandles;
-@property(retain, nonatomic) NSTimer *updateTimer; // @synthesize updateTimer=_updateTimer;
 
 @end
 

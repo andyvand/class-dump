@@ -11,15 +11,15 @@
     NSString *_phoneNumber;
 }
 
-+ (_Bool);
++ (_Bool)timeSpentInInitialStartup;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)addCredential:(id)arg1 credentialType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ª)1Â0@ù
 × ;

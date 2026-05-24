@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface AVScrubbingGesturePlatformAdapter
 {
     _Bool _gestureEnabled;
-    id <AVScrubbingGesturePlatformAdapterDelegate> _delegate;
 }
 
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,10 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <AVScrubbingGesturePlatformAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool gestureActive;
-@property(nonatomic) _Bool gestureEnabled; // @synthesize gestureEnabled=_gestureEnabled;
-@property(readonly, nonatomic) float timelineVelocity;
-@property(readonly, nonatomic) struct CGPoint translation;
 
 @end
 

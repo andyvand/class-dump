@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDouble, _INPBInteger, _INPBIntentMetadata, _INPBTemperature;
-
 @interface _INPBSetClimateSettingsInCarIntent
 {
     struct {
@@ -18,19 +16,6 @@
         unsigned int relativeFanSpeedSetting:1;
         unsigned int relativeTemperatureSetting:1;
     } _has;
-    _Bool _enableAirConditioner;
-    _Bool _enableAutoMode;
-    _Bool _enableClimateControl;
-    _Bool _enableFan;
-    int _airCirculationMode;
-    int _climateZone;
-    int _relativeFanSpeedSetting;
-    int _relativeTemperatureSetting;
-    _INPBDataString *_carName;
-    _INPBInteger *_fanSpeedIndex;
-    _INPBDouble *_fanSpeedPercentage;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBTemperature *_temperature;
 }
 
 + (_Bool);
@@ -44,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,7 +37,7 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (id);
 - (int);
 - (_Bool);
@@ -62,7 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -95,44 +80,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool)tType;
 - (void)creen;
 
 // Remaining properties
 @property(nonatomic) int airCirculationMode; // @synthesize airCirculationMode=_airCirculationMode;
-@property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(nonatomic) int climateZone; // @synthesize climateZone=_climateZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableAirConditioner; // @synthesize enableAirConditioner=_enableAirConditioner;
-@property(nonatomic) _Bool enableAutoMode; // @synthesize enableAutoMode=_enableAutoMode;
-@property(nonatomic) _Bool enableClimateControl; // @synthesize enableClimateControl=_enableClimateControl;
-@property(nonatomic) _Bool enableFan; // @synthesize enableFan=_enableFan;
-@property(retain, nonatomic) _INPBInteger *fanSpeedIndex; // @synthesize fanSpeedIndex=_fanSpeedIndex;
-@property(retain, nonatomic) _INPBDouble *fanSpeedPercentage; // @synthesize fanSpeedPercentage=_fanSpeedPercentage;
-@property(nonatomic) _Bool hasAirCirculationMode;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasClimateZone;
-@property(nonatomic) _Bool hasEnableAirConditioner;
-@property(nonatomic) _Bool hasEnableAutoMode;
-@property(nonatomic) _Bool hasEnableClimateControl;
-@property(nonatomic) _Bool hasEnableFan;
-@property(readonly, nonatomic) _Bool hasFanSpeedIndex;
-@property(readonly, nonatomic) _Bool hasFanSpeedPercentage;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasRelativeFanSpeedSetting;
-@property(nonatomic) _Bool hasRelativeTemperatureSetting;
-@property(readonly, nonatomic) _Bool hasTemperature;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int relativeFanSpeedSetting; // @synthesize relativeFanSpeedSetting=_relativeFanSpeedSetting;
-@property(nonatomic) int relativeTemperatureSetting; // @synthesize relativeTemperatureSetting=_relativeTemperatureSetting;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTemperature *temperature; // @synthesize temperature=_temperature;
 
 @end
 

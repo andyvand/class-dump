@@ -7,7 +7,8 @@
 @class NSArray;
 
 @protocol INShareETAIntentExport
-- (NSArray *)atNumber;
+- (void);
+- (NSArray *)_boatNumber;
 
 // Remaining properties
 @property(copy) NSArray *recipients;

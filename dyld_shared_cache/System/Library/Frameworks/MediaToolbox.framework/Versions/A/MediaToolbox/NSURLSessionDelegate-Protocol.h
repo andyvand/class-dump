@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)v8;
+- (void):(NSURLSession *)arg1 8@"NSString"16;
 @end
 

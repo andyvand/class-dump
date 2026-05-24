@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (void);
++ (id)R;
+- (void);
 - (void);
 - (void);
 - (void);

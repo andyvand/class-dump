@@ -5,5 +5,8 @@
 //
 
 @protocol SCNCameraControllerDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray, NSString;
+@class NSString;
 
 @interface IMStateCaptureRecentsBuffer
 {
     NSString *_title;
-    unsigned long long _maximumNumberOfTrackedObjects;
-    unsigned long long _nextInsertionIndex;
-    NSPointerArray *_trackedObjects;
-    unsigned long long *_handles;
 }
 
+- (void)*@;
 - (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -30,11 +26,7 @@
 - (void)Q;
 
 // Remaining properties
-@property(nonatomic) unsigned long long *handles; // @synthesize handles=_handles;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfTrackedObjects; // @synthesize maximumNumberOfTrackedObjects=_maximumNumberOfTrackedObjects;
 @property(nonatomic) unsigned long long nextInsertionIndex; // @synthesize nextInsertionIndex=_nextInsertionIndex;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSPointerArray *trackedObjects; // @synthesize trackedObjects=_trackedObjects;
 
 @end
 

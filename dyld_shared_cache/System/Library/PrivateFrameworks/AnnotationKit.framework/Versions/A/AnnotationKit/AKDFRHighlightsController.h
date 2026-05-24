@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSGroupTouchBarItem, NSScrubber, NSString, NSTouchBarItem;
+@class AKController;
 
 @interface AKDFRHighlightsController
 {
     AKController *_controller;
-    NSGroupTouchBarItem *_touchBarItem;
-    NSScrubber *_scrubber;
-    NSTouchBarItem *_underlineItem;
-    NSTouchBarItem *_strikethroughItem;
-    NSTouchBarItem *_colorSwatchesItem;
 }
 
 - (void);
@@ -36,25 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSTouchBarItem *colorSwatchesItem; // @synthesize colorSwatchesItem=_colorSwatchesItem;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSScrubber *scrubber; // @synthesize scrubber=_scrubber;
-@property(retain) NSTouchBarItem *strikethroughItem; // @synthesize strikethroughItem=_strikethroughItem;
-@property(readonly) Class superclass;
-@property(retain) NSGroupTouchBarItem *touchBarItem; // @synthesize touchBarItem=_touchBarItem;
-@property(retain) NSTouchBarItem *underlineItem; // @synthesize underlineItem=_underlineItem;
 
 @end
 

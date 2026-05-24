@@ -14,6 +14,7 @@
 + (double);
 + (double);
 + (double);
++ (double)P;
 + (double);
 + (double);
 + (double);
@@ -27,8 +28,7 @@
 + (double);
 + (double);
 + (double);
-+ (double);
-+ (double)ter;
++ (double)AKCATiburonInputUIReporter;
 
 @end
 

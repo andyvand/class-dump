@@ -9,13 +9,11 @@
 @interface CKTextEffectCoordinatorContinuationState
 {
     id textViewIdentifier;
-    id locationInAttributedText;
-    id ignoreTextViewEligibilityCheck;
 }
 
 - (id);
 - (id);
-- (id)enCollectionViewContentSize;
+- (id)frozenCollectionViewContentSize;
 - (void)@¦#ÿ);
 
 // Remaining properties

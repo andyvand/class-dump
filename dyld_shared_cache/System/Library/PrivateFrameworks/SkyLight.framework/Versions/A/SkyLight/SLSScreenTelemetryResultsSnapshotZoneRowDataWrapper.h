@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
     shared_ptr_4a2e92a1 _data;
 }
 
-+ (id);
++ (id)oneContext initializeCachesWithManagedObjectContext:(shared_ptr_4a2e92a1)arg1 andObservedStore:error:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (const float *);
 - (unsigned long long);
 - (id);
 - (shared_ptr_4a2e92a1);
-- (id)Assertion;
+- (id)_suppressDeferringPolicyEvaluationAssertion;
 - (void)ÿÿ	H;
 - (id)rix != nullptr;
 

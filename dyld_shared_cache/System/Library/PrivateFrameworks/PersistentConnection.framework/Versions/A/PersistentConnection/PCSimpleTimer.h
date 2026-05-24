@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSRunLoop, NSString, PCDispatchTimer;
-@protocol OS_dispatch_queue;
-
 @interface PCSimpleTimer
 {
     double _fireTime;
-    double _startTime;
-    double _lastUpdateTime;
-    double _earlyFireDelta;
-    _Bool _triggerOnGMTChange;
-    _Bool _disableSystemWaking;
-    NSDate *_scheduledWakeDate;
-    NSString *_serviceIdentifier;
-    id _target;
-    SEL _selector;
-    id _userInfo;
-    _Bool _userVisible;
-    PCDispatchTimer *_preventSleepTimer;
-    PCDispatchTimer *_fireTimer;
-    _Bool _sleepIsImminent;
-    unsigned int _powerAssertionID;
-    id _timeChangeSource;
-    NSRunLoop *_timerRunLoop;
-    NSString *_timerMode;
-    int _significantTimeChangeToken;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (double);
@@ -51,24 +28,23 @@
 - (void);
 - (void);
 - (void);
+- (void)s();
 - (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (id);
+- (_Bool)BOMCopierSourceSetAllowBom;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (void){public}@ created %{public}@;
 
 // Remaining properties
 @property(nonatomic) _Bool disableSystemWaking; // @synthesize disableSystemWaking=_disableSystemWaking;
-@property(nonatomic, getter=isUserVisible) _Bool userVisible;
 
 @end
 

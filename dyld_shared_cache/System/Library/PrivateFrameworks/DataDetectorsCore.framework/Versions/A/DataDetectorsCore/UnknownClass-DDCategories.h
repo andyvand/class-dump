@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (DDCategories)
-- (void);
+- (void);
 @end
 

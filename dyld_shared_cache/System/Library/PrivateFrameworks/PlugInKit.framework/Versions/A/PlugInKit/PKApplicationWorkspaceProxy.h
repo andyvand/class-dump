@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationWorkspace, NSString;
+@class LSApplicationWorkspace;
 
 @interface PKApplicationWorkspaceProxy
 {
@@ -15,22 +15,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) LSApplicationWorkspace *lsObject; // @synthesize lsObject=_lsObject;
-@property(readonly) Class superclass;
 
 @end
 

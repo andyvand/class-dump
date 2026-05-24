@@ -6,51 +6,42 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIAutocorrectInlinePrompt : UIView
 {
     struct CGRect m_originalTypedTextRect;
-    NSString *m_typedText;
-    NSString *m_correction;
-    NSMutableArray *m_typedTextViews;
-    UIView *m_correctionView;
-    UIView *m_correctionAnimationView;
-    UIView *m_typedTextAnimationView;
-    UIView *m_correctionShadowView;
-    _Bool m_fits;
-    _Bool m_mouseDown;
-    double m_originalTypedTextRectCorrectionAmount;
-    unsigned int m_usageTrackingMask;
 }
 
-- (id);
-- (id);
-- (int);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
+- (id)service:%@ number of messages:%lu /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (int)we already have this device in our allowed list ;
+- (struct CGRect)ssage Records that need CK Sync;
+- (void)lient;
+- (void)ying is disabled, setting join state to Read Only;
+- (void)op="0%" left="0%" height="70%" width="100%" fit="meet"/>
+</layout>
+</head>
+<body>
+;
+- (_Bool)PCSBackupDisabledKeyroll;
 - (_Bool);
-- (_Bool);
 - (struct CGRect);
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (void);
+- (void)+y;
 - (void)_scrollAnimationAdjustsForContentOffsetDelta;
-- (void)eControl;
+- (void)_innerWebDateTimeControl;
 - (void)opItemSize:(id)arg1 ,V_visibleDropItemSize;
 - (int)ionFactor;
-- (id)ws;
-- (void)pacity;
+- (id)_typedTextViews;
+- (void)_cachedCapacity;
 - (_Bool)êÿX9þÐyþÿ;
 - (_Bool)ace;
 - (void)däc;

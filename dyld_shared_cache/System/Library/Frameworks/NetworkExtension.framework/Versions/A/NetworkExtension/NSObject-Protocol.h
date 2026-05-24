@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)(=;
+- (unsigned long long)y.Icon;
+- (_Bool)&,N,V_mappedProductType;
+- (oneway void)pairing failed:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (struct _NSZone *)ÿÿ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

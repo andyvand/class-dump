@@ -7,14 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool);
+- (NSString *)tion;
+- (_Bool)isMagusRestrictedWithSAEForLanguageCode:(SEL)arg1;
+- (_Bool)s CSVoiceTriggerSecondPass[%{public}@]:(id)arg1 Second pass generated mhUUID for rejections:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)URLSession:(Class)arg1 task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

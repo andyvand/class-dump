@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSPrecondition, NSString, NSUUID;
 @protocol LSRegistrantStrategy;
 
 __attribute__((visibility("hidden")))
 @interface LSMIResultUnregistrant
 {
     id <LSRegistrantStrategy> _strategy;
-    NSUUID *_uuid;
-    NSString *_bundleID;
-    LSPrecondition *_precondition;
-    unsigned int _type;
 }
 
 - (id);

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, VFXNode;
+@class VFXNode;
 
 __attribute__((visibility("hidden")))
 @interface AVTStickerProp
 {
     _Bool _orientToCamera;
-    _Bool _renderLast;
-    VFXNode *_node;
-    NSString *_originalName;
-    NSArray *_palettesDescriptions;
-    NSArray *_shaderModifiers;
-    NSArray *_adjustments;
-    double _opacity;
-    struct CGSize _size;
-    id _position;
-    id _scale;
-    id _rotation;
 }
 
 + (id);
@@ -49,14 +38,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)new %{public}@ senders to bucket %{public}@:%{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_previousServerChangeTokenData;
+- (void)response from the server! Zone usage signature validation failed:(id)arg1 %@ zoneID:%@" /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (id);
@@ -67,24 +56,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)tGestureRecognizers: /* Error: Ran out of types for this method. */;
+- (id)setGestureRecognizers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *adjustments; // @synthesize adjustments=_adjustments;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *identifier;
 @property(retain, nonatomic) VFXNode *node; // @synthesize node=_node;
-@property(readonly, nonatomic) NSString *nodeName;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) _Bool orientToCamera; // @synthesize orientToCamera=_orientToCamera;
-@property(copy, nonatomic) NSString *originalName; // @synthesize originalName=_originalName;
-@property(readonly, nonatomic) NSArray *palettesDescriptions; // @synthesize palettesDescriptions=_palettesDescriptions;
-@property(nonatomic) id position; // @synthesize position=_position;
-@property(readonly, nonatomic) _Bool renderLast; // @synthesize renderLast=_renderLast;
-@property(nonatomic) id rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) id scale; // @synthesize scale=_scale;
-@property(copy, nonatomic) NSArray *shaderModifiers; // @synthesize shaderModifiers=_shaderModifiers;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

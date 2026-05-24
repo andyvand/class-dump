@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol ML3ClientImportServiceSessionXPCInterface
+- (void)_connectToCloudChangeTrackerWithContext:(NSArray *)arg1;
+- (void)_confirmed;
+- (void)_backgroundJobWorkItemsFromObjectIDs:(NSArray *)arg1 inManagedObjectContext:(void (^)(ML3ClientImportResult *, NSError *))arg2 error: /* Error: Ran out of types for this method. */;
+- (void)_awaitForRequiredLibraryStateWithContext:(NSArray *)arg1 reply:(void (^)(ML3ClientImportResult *, NSError *))arg2;
+- (void)ractionOfAllAssetsWithMediaAnalysisInSearchIndexThreshold;
+- (void)efiniteClusterTimeIntervalDistance;
+- (void)roupId;
+- (void)unt;
+- (void);
 @end
 

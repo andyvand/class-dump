@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, PPLocationStorage, PPTrialWrapper, _PASLock;
+@class PPLocationStorage, _PASLock;
 
 @interface PPLocalLocationStore
 {
     _PASLock *_cache;
-    NSCache *_modelCache;
-    PPTrialWrapper *_trialWrapper;
-    _Bool _useScoreInterpreter;
-    PPLocationStorage *_storage;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)!;
 + (id);
 + (id);
 + (unsigned short);
 + (id)Ñö°1Â0@ù
 × ;
-- (_Bool);
-- (id);
+- (_Bool)or == &pg_query__scan_result__descriptor;
+- (id)K9;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,16 +29,16 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)syncController:(id)arg1 syncBatchCompleted:(id *)arg2;
+- (id)ed, we should use that ;
+- (_Bool);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)conversationExporter;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -52,7 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PPLocationStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) _Bool useScoreInterpreter; // @synthesize useScoreInterpreter=_useScoreInterpreter;
 
 @end
 

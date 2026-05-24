@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStreamBulkSendProtocol, NSDictionary, NSError, NSMutableArray;
+@class HMDDataStreamBulkSendProtocol, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamBulkSendSessionCandidate
 {
     NSDictionary *_metadata;
-    HMDDataStreamBulkSendProtocol *_bulkSendProtocol;
-    NSDictionary *_requestHeader;
-    NSMutableArray *_pendingReads;
-    NSError *_receivedFailure;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)_fetchRequiresUserConfirmationOfSharingIdentityWithCompletion:(id)arg1;
+- (void)PQueryState",R,G_visibleState;
+- (void)Bookmarks.plist;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMDDataStreamBulkSendProtocol *bulkSendProtocol; // @synthesize bulkSendProtocol=_bulkSendProtocol;
-@property(readonly, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSMutableArray *pendingReads; // @synthesize pendingReads=_pendingReads;
-@property(retain, nonatomic) NSError *receivedFailure; // @synthesize receivedFailure=_receivedFailure;
-@property(readonly, nonatomic) NSDictionary *requestHeader; // @synthesize requestHeader=_requestHeader;
 
 @end
 

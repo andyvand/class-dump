@@ -7,7 +7,6 @@
 @interface ConversationKit.TimerService
 {
     id $defaultActor;
-    id observation;
 }
 
 @end

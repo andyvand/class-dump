@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentral, CBCharacteristic, NSData, NSMutableData, NSNumber;
+@class CBCharacteristic, NSMutableData;
 
 @interface CBATTRequest
 {
     NSMutableData *_value;
-    _Bool _ignoreResponse;
-    CBCentral *_central;
-    CBCharacteristic *_characteristic;
-    unsigned long long _offset;
-    NSNumber *_transactionID;
 }
 
 - (void);
@@ -22,22 +17,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)A;
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long)startAdvertising: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CBCentral *central; // @synthesize central=_central;
 @property(retain, nonatomic) CBCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(nonatomic) _Bool ignoreResponse; // @synthesize ignoreResponse=_ignoreResponse;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSNumber *transactionID; // @synthesize transactionID=_transactionID;
-@property(copy) NSData *value; // @synthesize value=_value;
 
 @end
 

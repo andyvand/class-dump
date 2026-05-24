@@ -7,11 +7,6 @@
 @interface TeaUI.GlassBarCompressionAnimation
 {
     id viewController;
-    id floatingTabBarContainerView;
-    id scrollView;
-    id topCompression;
-    id bottomCompression;
-    id shadowPocketView;
 }
 
 - (void);
@@ -27,15 +22,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
-- (id);
+- (double)ameworks/IMFoundation.framework/Versions/A/IMFoundation;
+- (id)transformationWithSortBlock: /* Error: Ran out of types for this method. */;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;
 @property(nonatomic, readonly) _Bool shouldCloseGapOnScroll;
-@property(nonatomic, readonly) _Bool shouldCompressAtTop;
-@property(nonatomic, readonly) double topOffset;
 
 @end
 

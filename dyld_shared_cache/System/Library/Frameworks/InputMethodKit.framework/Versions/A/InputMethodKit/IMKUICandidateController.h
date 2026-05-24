@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateCanvas, IMKCandidateData, IMKCandidateDefinitionUnit, IMKCandidateNavigationController, IMKCandidateUIProperties, IMKDefinitionToLayoutController, IMKLayoutToViewController, IMKUIProperties, NSArray, NSString;
-@protocol IMKCandidateControllerDelegate><IMKCandidateSelectionViewDelegate;
+@class IMKCandidateCanvas;
 
 @interface IMKUICandidateController
 {
     IMKCandidateCanvas *_canvas;
-    IMKCandidateData *_currentlyShownCandidates;
-    IMKDefinitionToLayoutController *_definitionToLayoutController;
-    id <IMKCandidateControllerDelegate><IMKCandidateSelectionViewDelegate> _delegate;
-    NSString *_displayMethod;
-    double _fontSize;
-    IMKLayoutToViewController *_layoutToViewController;
-    double _maxCandidateLineSize;
-    IMKCandidateNavigationController *_navigationController;
-    IMKUIProperties *_properties;
-    NSString *_noCandidatesMessage;
-    NSString *_selectedCandidateKey;
-    NSArray *_sortingMethods;
-    IMKCandidateUIProperties *_UIProperties;
-    NSString *_UISettingName;
 }
 
 - (long long);
@@ -37,19 +22,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)qa	;
+- (id)<N ;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)	;
 - (void);
+- (void)1;
 - (void);
+- (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
@@ -73,7 +58,7 @@
 - (id);
 - (double);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -87,77 +72,46 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (_Bool);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id)(!H;
 - (void);
+- (id)addVideoRules:encodingType:payload:videoRuleCollections: /* Error: Ran out of types for this method. */;
+- (void)ithError:(id)arg1 ];
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (double)c4;
 - (id);
+- (void);
 - (double);
-- (id);
-- (void);
-- (double);
 - (void);
 - (void);
-- (void)f:(long long)arg1;
+- (void)_openingQuoteOf:(long long)arg1;
 - (void)`y;
 - (double);
 - (long long)"¥à};
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) IMKCandidateUIProperties *UIProperties; // @synthesize UIProperties=_UIProperties;
-@property(copy, nonatomic) NSString *UISettingName; // @synthesize UISettingName=_UISettingName;
-@property(nonatomic) long long UIType;
-@property(nonatomic) double candidateThickness;
-@property(readonly, nonatomic) _Bool candidateWindowOnlyHasOneLine;
-@property(retain, nonatomic) IMKCandidateCanvas *canvas; // @synthesize canvas=_canvas;
-@property(readonly, nonatomic) IMKCandidateDefinitionUnit *currentlySelectedCandidate;
-@property(nonatomic) unsigned long long currentlySelectedIndex;
-@property(retain, nonatomic) IMKCandidateData *currentlyShownCandidates; // @synthesize currentlyShownCandidates=_currentlyShownCandidates;
-@property(readonly, nonatomic) struct CGSize customSize;
-@property(retain, nonatomic) IMKDefinitionToLayoutController *definitionToLayoutController; // @synthesize definitionToLayoutController=_definitionToLayoutController;
-@property(nonatomic) id <IMKCandidateControllerDelegate><IMKCandidateSelectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *displayMethod; // @synthesize displayMethod=_displayMethod;
-@property(readonly, nonatomic) _Bool flattensViewArchitecture;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly, nonatomic) _Bool isWindowBacked;
-@property(nonatomic) long long layoutDirection;
-@property(nonatomic) long long layoutOrientation;
-@property(retain, nonatomic) IMKLayoutToViewController *layoutToViewController; // @synthesize layoutToViewController=_layoutToViewController;
-@property(nonatomic) double maxCandidateLineSize; // @synthesize maxCandidateLineSize=_maxCandidateLineSize;
-@property(retain, nonatomic) IMKCandidateNavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(copy, nonatomic) NSString *noCandidatesMessage; // @synthesize noCandidatesMessage=_noCandidatesMessage;
-@property(readonly, nonatomic) double numberOfColumns;
-@property(readonly, nonatomic) double numberOfRows;
-@property(retain, nonatomic) IMKUIProperties *properties; // @synthesize properties=_properties;
-@property(copy, nonatomic) NSString *selectedCandidateKey; // @synthesize selectedCandidateKey=_selectedCandidateKey;
 @property(readonly, nonatomic) _Bool shouldLimitWindowSizeToCanvasSize;
-@property(readonly, nonatomic) _Bool shouldNotShowCandidates;
-@property(readonly, nonatomic) _Bool showsAnnotations;
-@property(retain, nonatomic) NSArray *sortingMethods; // @synthesize sortingMethods=_sortingMethods;
-@property(nonatomic) unsigned long long topVisibleLine;
-@property(readonly, nonatomic) long long windowCategory;
 
 @end
 

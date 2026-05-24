@@ -5,6 +5,6 @@
 //
 
 @protocol NSCopying
-- (id)etCharacteristicConfigurations:(struct _NSZone *)arg1;
+- (id)setCharacteristicConfigurations:(struct _NSZone *)arg1;
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class AVVideoCompositionRenderContext, AVVideoCompositionRenderHint, NSDictionary;
 
 @protocol AVVideoCompositing
+- (void)enableDRTOptimization;
+- (NSDictionary *)_initWithRecognition:preITNRecognition:unrepairedRecognition:recognitionIsFormatted:isFinal:audioAnalytics:utteranceStartMilliseconds:latticeMitigatorResult:nBestVoiceCommandInterpretations:preITNNBestVoiceCommandInterpretations:recognitionPaused:firstResultAfterResume:endOfSentenceLikelihood:numTokensExcludingTriggerPhrase:voiceCommandDebugInfo:performanceMarkers: /* Error: Ran out of types for this method. */;
+- (void)_initWithRecognition:(AVVideoCompositionRenderContext *)arg1 preITNRecognition:unrepairedRecognition:recognitionIsFormatted:isFinal: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)(;
+
+@optional
+- (_Bool)formattedTokensWithoutEmojiModifier:emojiTokenIndices:recognizeEmoji: /* Error: Ran out of types for this method. */;
+- (_Bool)formattedStringWithStrings:preToPostItnArray:task: /* Error: Ran out of types for this method. */;
+- (_Bool)formattedStringWithStrings: /* Error: Ran out of types for this method. */;
+- (void)_embeddingsForOrthography:(AVVideoCompositionRenderHint *)arg1 templateName:embeddings:pronRequest: /* Error: Ran out of types for this method. */;
+- (_Bool)T8;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canConformColorOfSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *requiredPixelBufferAttributesForRenderContext;
 @property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly, nonatomic) _Bool supportsHDRSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsSourceTaggedBuffers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsWideColorSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MKAutocompleteAnalyticsState
 {
     int _responseStatus;
-    NSString *_query;
-    NSArray *_queryTokens;
-    NSArray *_suggestionEntries;
-    NSString *_modelVersion;
-    NSString *_rolloutId;
-    NSString *_rolloutDeploymentId;
-    NSString *_rolloutFactorpackId;
-    NSString *_rolloutRampId;
-    NSString *_experimentId;
-    NSNumber *_deploymentId;
-    NSString *_treatmentId;
-    NSString *_experimentDescription;
 }
 
 - (id);
+- (id)qa;
 - (id);
-- (id);
-- (id);
+- (id)`@9#;
 - (id);
 - (id);
 - (id);
@@ -37,23 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_pointCount;
 - (id)on:%@ transportType:%lu> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, copy, nonatomic) NSString *experimentDescription; // @synthesize experimentDescription=_experimentDescription;
-@property(readonly, copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
 @property(readonly, copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, copy, nonatomic) NSArray *queryTokens; // @synthesize queryTokens=_queryTokens;
-@property(readonly, nonatomic) int responseStatus; // @synthesize responseStatus=_responseStatus;
-@property(readonly, copy, nonatomic) NSString *rolloutDeploymentId; // @synthesize rolloutDeploymentId=_rolloutDeploymentId;
-@property(readonly, copy, nonatomic) NSString *rolloutFactorpackId; // @synthesize rolloutFactorpackId=_rolloutFactorpackId;
-@property(readonly, copy, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
-@property(readonly, copy, nonatomic) NSString *rolloutRampId; // @synthesize rolloutRampId=_rolloutRampId;
-@property(readonly, nonatomic) NSArray *suggestionEntries; // @synthesize suggestionEntries=_suggestionEntries;
-@property(readonly, copy, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

@@ -6,14 +6,14 @@
 
 @interface UnknownClass (HMIError)
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)H9;
 + (id);
 @end
 

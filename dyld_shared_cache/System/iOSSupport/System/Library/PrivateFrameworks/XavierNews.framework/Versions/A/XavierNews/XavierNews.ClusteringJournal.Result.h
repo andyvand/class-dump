@@ -7,9 +7,6 @@
 @interface XavierNews.ClusteringJournal.Result
 {
     id group;
-    id outcome;
-    id requirements;
-    id candidates;
 }
 
 @end

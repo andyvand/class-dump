@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol CSAudioInjectionEngineDelegate, CSBundleAudioProviding, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSBundleAudioInjectionEngine
 {
     _Bool _isRecording;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSAudioInjectionEngineDelegate> _delegate;
-    unsigned long long _audioStreamHandleId;
-    NSUUID *_uuid;
-    id <CSBundleAudioProviding> _audioPlugin;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (void);
 - (void);
 - (id);
@@ -35,7 +30,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithCIImage:(id)arg1 orientation:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -44,19 +39,7 @@
 - (_Bool)oiceTrigger _shotAnalyzerNDAPI:hasResultAvailable:forChannel:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <CSBundleAudioProviding> audioPlugin; // @synthesize audioPlugin=_audioPlugin;
-@property(nonatomic) unsigned long long audioStreamHandleId; // @synthesize audioStreamHandleId=_audioStreamHandleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSAudioInjectionEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRecording; // @synthesize isRecording=_isRecording;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

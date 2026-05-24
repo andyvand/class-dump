@@ -7,9 +7,6 @@
 @interface NewsFeed.RecipeUserFeedDataRepository
 {
     id recipeUserFeedData;
-    id recipeUserDataStore;
-    id observers;
-    id observersLock;
 }
 
 @end

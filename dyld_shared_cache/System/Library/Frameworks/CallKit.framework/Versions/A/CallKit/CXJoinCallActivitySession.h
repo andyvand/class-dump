@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXJoinCallActivity, NSDate, NSUUID;
+@class NSDate;
 
 @interface CXJoinCallActivitySession
 {
     NSDate *_timestamp;
-    NSUUID *_UUID;
-    CXJoinCallActivity *_activity;
-    unsigned long long _state;
 }
 
 + (_Bool);
 - (_Bool);
+- (id)Kids;
+- (id)A;
 - (id);
+- (void);
+- (unsigned long long)%{public}@ Subscription status load failed for %{public}@ due to URL bag load failure:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)_dataSourceInsertItems:(id)arg1 fromSection:afterEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
+- (void)Could not find item entry for identifier:(id)arg1 %@;
 - (id);
 - (void);
 - (id);
@@ -34,9 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) CXJoinCallActivity *activity; // @synthesize activity=_activity;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

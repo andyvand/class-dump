@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSUUID, PKDrawing, PKTextInputCanvasController, PKTextInputCursorController, PKTextInputDebugLogController, PKTextInputElementsController, PKTextInputFeedbackController, PKTextInputHandwritingShot, PKTextInputRecognitionManager, PKTextInputReserveSpaceController, PKTextInputResultCommand, PKTextInputTargetState, PKTextInputWritingSession;
+@class PKTextInputRecognitionManager;
 @protocol PKTextInputHandwritingControllerDelegate;
 
 @interface PKTextInputHandwritingController
 {
     id <PKTextInputHandwritingControllerDelegate> _delegate;
-    PKTextInputCanvasController *_canvasController;
-    PKTextInputElementsController *_elementsController;
-    PKTextInputFeedbackController *_feedbackController;
-    PKTextInputReserveSpaceController *_reserveSpaceController;
-    PKTextInputDebugLogController *_debugLogController;
-    PKTextInputCursorController *_cursorController;
-    double _strokeAlphaOverride;
-    PKTextInputRecognitionManager *__recognitionManager;
-    PKTextInputWritingSession *__writingSession;
-    PKTextInputHandwritingShot *__activeHandwritingShot;
-    PKTextInputHandwritingShot *__possibleHandwritingShot;
-    PKTextInputResultCommand *__activeResultCommand;
-    NSMutableArray *__resultCommandsQueue;
-    double __lastInProgressStrokeUpdateTime;
-    NSUUID *__lastInProgressStrokeUUID;
-    PKDrawing *__lastKnownDrawing;
-    PKTextInputTargetState *__activeInputTargetState;
-    double __floatingBackgroundLastUpdateTime;
 }
 
 + (_Bool);
@@ -117,35 +99,7 @@
 - (void)utPoints;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setActiveHandwritingShot:) PKTextInputHandwritingShot *_activeHandwritingShot; // @synthesize _activeHandwritingShot=__activeHandwritingShot;
-@property(retain, nonatomic, setter=_setActiveInputTargetState:) PKTextInputTargetState *_activeInputTargetState; // @synthesize _activeInputTargetState=__activeInputTargetState;
-@property(retain, nonatomic, setter=_setActiveResultCommand:) PKTextInputResultCommand *_activeResultCommand; // @synthesize _activeResultCommand=__activeResultCommand;
-@property(nonatomic) double _floatingBackgroundLastUpdateTime; // @synthesize _floatingBackgroundLastUpdateTime=__floatingBackgroundLastUpdateTime;
-@property(copy, nonatomic) NSUUID *_lastInProgressStrokeUUID; // @synthesize _lastInProgressStrokeUUID=__lastInProgressStrokeUUID;
-@property(nonatomic) double _lastInProgressStrokeUpdateTime; // @synthesize _lastInProgressStrokeUpdateTime=__lastInProgressStrokeUpdateTime;
-@property(copy, nonatomic, setter=_setLastKnownDrawing:) PKDrawing *_lastKnownDrawing; // @synthesize _lastKnownDrawing=__lastKnownDrawing;
-@property(retain, nonatomic, setter=_setPossibleHandwritingShot:) PKTextInputHandwritingShot *_possibleHandwritingShot; // @synthesize _possibleHandwritingShot=__possibleHandwritingShot;
-@property(retain, nonatomic) PKTextInputRecognitionManager *_recognitionManager; // @synthesize _recognitionManager=__recognitionManager;
-@property(readonly, nonatomic) NSMutableArray *_resultCommandsQueue; // @synthesize _resultCommandsQueue=__resultCommandsQueue;
-@property(retain, nonatomic, setter=_setWritingSession:) PKTextInputWritingSession *_writingSession; // @synthesize _writingSession=__writingSession;
-@property(readonly, nonatomic) PKTextInputCanvasController *canvasController; // @synthesize canvasController=_canvasController;
-@property(readonly, nonatomic) PKTextInputCursorController *cursorController; // @synthesize cursorController=_cursorController;
-@property(readonly, nonatomic) PKTextInputTargetState *debugActiveInputTargetState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) PKTextInputDebugLogController *debugLogController; // @synthesize debugLogController=_debugLogController;
 @property(readonly, nonatomic) PKTextInputRecognitionManager *debugRecognitionManager;
-@property(nonatomic) __weak id <PKTextInputHandwritingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PKTextInputElementsController *elementsController; // @synthesize elementsController=_elementsController;
-@property(readonly, nonatomic) PKTextInputFeedbackController *feedbackController; // @synthesize feedbackController=_feedbackController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKTextInputReserveSpaceController *reserveSpaceController; // @synthesize reserveSpaceController=_reserveSpaceController;
-@property(readonly, nonatomic) double strokeAlphaOverride; // @synthesize strokeAlphaOverride=_strokeAlphaOverride;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long writingState;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol IMDMessageIndexingJob
+- (void)R";
 - (void), m.guid, -1 FROM chat_recoverable_message_join AS crmj JOIN chat AS c  ON c.ROWID=crmj.chat_id AND c.guid=? JOIN message AS m  ON m.ROWID=crmj.message_id AND crmj.ck_sync_state=1;;
 @end
 

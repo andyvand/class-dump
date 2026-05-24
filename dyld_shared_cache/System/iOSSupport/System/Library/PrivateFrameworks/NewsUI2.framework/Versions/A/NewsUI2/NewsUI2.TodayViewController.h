@@ -7,33 +7,10 @@
 @interface NewsUI2.TodayViewController
 {
     id _lastImpression;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintSelectionProvider;
-    id blueprintLayoutProvider;
-    id sharingActivityProviderFactory;
-    id refreshStateMachine;
-    id visibilityEventManager;
-    id refreshControl;
-    id commands;
-    id loadingGate;
-    id didAppearCompletions;
-    id didDisappearCompletions;
-    id mastheadPaywall;
-    id mastheadViewProviderDelegate;
-    id offlineBannerCoordinator;
-    id deferLoadingContent;
-    id tipManager;
-    id tipConfigFactory;
-    id tracker;
-    id paywallBarButtonItemGroup;
-    id welcomeStatus;
-    id welcomeStatusTask;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

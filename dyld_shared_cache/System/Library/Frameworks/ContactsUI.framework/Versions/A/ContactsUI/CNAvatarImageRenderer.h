@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNAvatarImageProvider, CNSchedulerProvider, CNUILikenessRendering, CNUIPRLikenessResolver;
+@protocol CNUILikenessRendering;
 
 @interface CNAvatarImageRenderer
 {
     id <CNUILikenessRendering> _renderer;
-    id <CNUIPRLikenessResolver> _resolver;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (id);
@@ -23,8 +21,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -34,10 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNAvatarImageProvider> placeholderImageProvider;
 @property(readonly, nonatomic) id <CNUILikenessRendering> renderer; // @synthesize renderer=_renderer;
-@property(readonly, nonatomic) id <CNUIPRLikenessResolver> resolver; // @synthesize resolver=_resolver;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end
 

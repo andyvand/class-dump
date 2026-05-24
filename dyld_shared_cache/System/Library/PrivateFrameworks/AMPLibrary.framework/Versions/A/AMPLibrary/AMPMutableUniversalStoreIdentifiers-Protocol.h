@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol AMPMutableUniversalStoreIdentifiers
 - (unsigned long long)Container] libModelKind=%@, identifier=%llu;
 
 // Remaining properties
 @property(nonatomic) unsigned long long adamID;
-@property(copy, nonatomic) NSArray *formerAdamIDs;
-@property(copy, nonatomic) NSString *globalPlaylistID;
-@property(nonatomic) unsigned long long purchasedAdamID;
-@property(nonatomic) unsigned long long reportingAdamID;
-@property(nonatomic) unsigned long long subscriptionAdamID;
-@property(copy, nonatomic) NSString *universalCloudLibraryID;
 @end
 

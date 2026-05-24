@@ -7,10 +7,6 @@
 @interface _UIPopoverHostManagerPopoverUpdateConfiguration
 {
     _Bool _showsArrow;
-    _Bool _isRTL;
-    long long _preferredHorizontalAlignment;
-    struct CGSize _contentSize;
-    struct CGRect _sourceRectInParentUIWindow;
 }
 
 - (struct CGRect);
@@ -19,16 +15,12 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)c;
+- (_Bool)customFill;
 - (void)cs;
 - (struct CGSize)q;
 
 // Remaining properties
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(nonatomic) long long preferredHorizontalAlignment; // @synthesize preferredHorizontalAlignment=_preferredHorizontalAlignment;
-@property(nonatomic) _Bool showsArrow; // @synthesize showsArrow=_showsArrow;
 @property(nonatomic) struct CGRect sourceRectInParentUIWindow; // @synthesize sourceRectInParentUIWindow=_sourceRectInParentUIWindow;
 
 @end

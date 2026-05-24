@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRReminderCellNotesEditingPresenter
 {
     id delegate;
-    id presenterManager;
-    id item;
-    id inlineHashtagEditingPresenter;
-    id paragraphStyleEditingPresenter;
-    id notesEditingSession;
-    id shouldSkipSavingEditingSession;
-    id state;
 }
 
 @end

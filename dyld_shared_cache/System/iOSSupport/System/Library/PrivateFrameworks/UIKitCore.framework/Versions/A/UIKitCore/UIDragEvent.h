@@ -6,42 +6,25 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSHashTable, NSMutableSet, NSSet, UIView, UIWindow, _UIDragEventSample, _UIDropSessionImpl, _UIInternalDraggingSessionDestination, _UIInternalDraggingSessionSource;
+@class UIView, _UIDragEventSample;
 
 __attribute__((visibility("hidden")))
 @interface UIDragEvent : UIEvent
 {
     _UIDragEventSample *_currentSample;
-    UIView *_previousEventView;
-    UIView *_eventView;
-    NSMutableSet *_beginningGestureRecognizers;
-    NSMutableSet *_updatingGestureRecognizers;
-    NSMutableSet *_exitingGestureRecognizers;
-    NSMutableSet *_endingGestureRecognizers;
-    NSMutableSet *_ignoredGestureRecognizers;
-    NSMutableSet *_dynamicGestureRecognizers;
-    NSHashTable *_ownersQueriedForDynamicGestures;
-    NSMutableSet *_dynamicInteractions;
-    _Bool _ignoreDragEnd;
-    _Bool _needsHitTestReset;
-    _Bool _dragFailed;
-    CDUnknownBlockType _dragFailedCallback;
-    unsigned int _dragSessionID;
-    _UIInternalDraggingSessionDestination *_sessionDestination;
-    _UIInternalDraggingSessionSource *_sessionSource;
 }
 
 + (_Bool);
 + (void);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool);
+- (struct CGPoint).Messages.IncomingClientConnectionListener;
+- (_Bool)us issue that needs to be identified and addressed.;
+- (_Bool)t %p _ckUniqueID %@, ckSyncState %ld recordChangeTag %@>;
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (void);
+- (void)z;
 - (unsigned int);
 - (void);
 - (id);
@@ -64,8 +47,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long)iewController";
 - (_Bool)q16{CGPoint=dd}24q40@48@56@?64@?72;
-- (void)onDetentForHeight;
-- (struct CGPoint)nalMode;
+- (void)computePreferredScrollTruncationDetentForHeight;
+- (struct CGPoint)_signalMode;
 - (_Bool)urrentUpdate finished;
 - (id)Badge;
 - (void)dh;
@@ -74,19 +57,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dragSessionID; // @synthesize dragSessionID=_dragSessionID;
-@property(readonly, nonatomic, getter=_dropSession) _UIDropSessionImpl *dropSession;
-@property(readonly, nonatomic, getter=_dynamicGestureRecognizers) NSSet *dynamicGestureRecognizers;
-@property(readonly, nonatomic) UIWindow *eventWindow;
-@property(readonly, nonatomic) _Bool hasActiveGestureRecognizers;
 @property(readonly, nonatomic, getter=_hitTestedView) UIView *hitTestedView;
-@property(readonly, nonatomic) _Bool isFromAccessibilitySession;
-@property(readonly, nonatomic) _Bool isPolicyDriven;
-@property(readonly, nonatomic) struct CGPoint locationInSceneReferenceSpace;
-@property(readonly, nonatomic, getter=_sessionDestination) _UIInternalDraggingSessionDestination *sessionDestination; // @synthesize sessionDestination=_sessionDestination;
-@property(readonly, nonatomic, getter=_sessionSource) _UIInternalDraggingSessionSource *sessionSource; // @synthesize sessionSource=_sessionSource;
-@property(readonly, nonatomic, getter=_touchRoutingPolicyContextID) unsigned int touchRoutingPolicyContextID;
-@property(readonly, nonatomic, getter=_windowServerHitTestContextID) unsigned int windowServerHitTestContextID;
 
 @end
 

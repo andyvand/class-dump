@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt64UInt64Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -23,15 +22,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)eVectorOfBoxedDoubleWithCount:(unsigned long long *)arg1 block:(unsigned long long)arg2 ]E4$_10;
 - (void);
-- (void)viceClass;
+- (void)DeviceClass;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

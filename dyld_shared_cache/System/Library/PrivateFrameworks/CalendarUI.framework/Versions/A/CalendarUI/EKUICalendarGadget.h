@@ -6,17 +6,16 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKUICalendarPopUpButton, EKUIGadget;
+@class EKUICalendarPopUpButton;
 
 @interface EKUICalendarGadget : EKUISingleViewGadget
 {
     EKUICalendarPopUpButton *_calendarPicker;
-    EKUIGadget *_compositeParent;
 }
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)!p;
 - (void);
 - (void);
 - (void);
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(retain) EKUICalendarPopUpButton *calendarPicker; // @synthesize calendarPicker=_calendarPicker;
-@property(nonatomic) __weak EKUIGadget *compositeParent; // @synthesize compositeParent=_compositeParent;
 
 @end
 

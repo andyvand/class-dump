@@ -5,5 +5,6 @@
 //
 
 @protocol RBExtensionDataProviding
+- (_Bool)ew.nil-identifier;
 @end
 

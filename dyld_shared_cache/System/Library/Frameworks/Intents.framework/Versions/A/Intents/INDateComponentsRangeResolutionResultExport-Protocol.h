@@ -5,5 +5,6 @@
 //
 
 @protocol INDateComponentsRangeResolutionResultExport
++ (id)8;
 @end
 

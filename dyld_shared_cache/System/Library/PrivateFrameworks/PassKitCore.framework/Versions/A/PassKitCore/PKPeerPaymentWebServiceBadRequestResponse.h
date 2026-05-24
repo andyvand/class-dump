@@ -6,22 +6,20 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PKPeerPaymentWebServiceBadRequestResponse : PKPeerPaymentWebServiceResponse
 {
     NSNumber *_errorCode;
-    NSString *_serverDebugDescription;
 }
 
 - (id);
 - (id);
-- (void)rConfirmationCancelButton;
+- (void)userConfirmationCancelButton;
 - (id)q;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, copy, nonatomic) NSString *serverDebugDescription; // @synthesize serverDebugDescription=_serverDebugDescription;
 
 @end
 

@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (void)criptionText;
+- (void)issueDescriptionText;
 
 @end
 

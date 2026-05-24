@@ -6,7 +6,7 @@
 
 #import <QuickLookThumbnailing/QLTThumbnailRequest.h>
 
-@class FPItem, QLCacheFileProviderVersionedFileIdentifier;
+@class FPItem;
 
 @interface QLTUbiquitousFileThumbnailRequest : QLTThumbnailRequest
 {
@@ -25,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) QLCacheFileProviderVersionedFileIdentifier *fileIdentifier; // @dynamic fileIdentifier;
 @property(readonly) FPItem *item; // @synthesize item=_item;
 
 @end

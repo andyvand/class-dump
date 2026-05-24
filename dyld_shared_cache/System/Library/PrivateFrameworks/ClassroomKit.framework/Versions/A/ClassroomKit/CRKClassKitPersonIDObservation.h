@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRKClassKitDataObserver, CRKClassKitFacade;
+@protocol CRKClassKitFacade;
 
 @interface CRKClassKitPersonIDObservation
 {
     id <CRKClassKitFacade> _classKitFacade;
-    id <CRKClassKitDataObserver> _dataObserver;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKClassKitFacade> classKitFacade; // @synthesize classKitFacade=_classKitFacade;
-@property(retain, nonatomic) id <CRKClassKitDataObserver> dataObserver; // @synthesize dataObserver=_dataObserver;
 
 @end
 

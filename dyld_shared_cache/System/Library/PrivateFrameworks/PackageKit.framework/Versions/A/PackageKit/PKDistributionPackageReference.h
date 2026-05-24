@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString, NSURL, PKDistribution;
+@class NSMutableArray, NSString;
 
 @interface PKDistributionPackageReference
 {
     NSMutableArray *_pkgRefElements;
-    NSString *_pkgRefIdentifier;
-    PKDistribution *_distribution;
 }
 
+- (void)#;
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -44,8 +42,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -53,40 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *MD5;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSURL *URL;
-@property(readonly) NSDictionary *additionalInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *digest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *fileDigest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) long long fileDigestType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) unsigned long long fileSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *identifier;
-@property(readonly) Class superclass;
-@property(readonly) NSString *version;
 
 @end
 

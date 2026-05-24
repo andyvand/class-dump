@@ -4,66 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ARSession, CALayer, NSArray;
+@class CALayer;
 
 @interface RealityKit.ARView
 {
     id _lastHitEntityForGestures;
     id _scene;
-    id __delegatePrivate;
-    id initialized;
-    id engineStartedByThisView;
-    id currentIBL;
-    id _enableGroundingShadowsByDefault;
-    id environment;
-    id __environmentEntity;
-    id __enableAutomaticFrameRate;
-    id __preferredFrameRate;
-    id singleTapGesture;
-    id engineWasRunningWhenLastInTheForeground;
-    id backingLayer;
-    id useCAMetalLayer;
-    id pauseEngineOnLeaveForeground;
-    id extendedDynamicRangeOutput;
-    id edrHeadroomPolicy;
-    id __renderGraphEmitter;
-    id __forceLocalizedProbes;
-    id __parallaxBackgroundProbe;
-    id layerHandle;
-    id updateSubscription;
-    id renderSubscription;
-    id realityFusionSession;
-    id arSystem;
-    id renderView;
-    id interfaceOrientation;
-    id lastInterfaceOrientation;
-    id viewCounterRotating;
-    id updateAfterCounterRotation;
-    id sessionComponents;
-    id __disableCounterRotation;
-    id __disableComposition;
-    id __differentialRendering;
-    id __nonARKitDevices;
-    id enablePresentsWithTransaction;
-    id presentsWithTransactionFrames;
-    id antialiasingMode;
-    id __statisticsOptions;
-    id __disableStatisticsRendering;
 }
 
 + (Class);
+- (void)R";
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (float);
-- (void);
-- (void);
+- (float)iB;
+- (void)ublic}@] Received content confirmation action success!;
+- (void)controller.;
 - (void);
 - (void);
 - (id);
@@ -72,22 +33,20 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)iftSystem.dylib;
 - (void);
 - (id);
-- (void);
+- (void)|r;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T>;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double contentScaleFactor;
-@property(nonatomic, readonly) NSArray *entityAccessibilityWrappers;
 @property(nonatomic, readonly) CALayer *renderLayer;
-@property(nonatomic, retain) ARSession *session;
 
 @end
 

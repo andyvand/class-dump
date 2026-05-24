@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFCardMetadata, SFCardSearchMetadata, SFEntitySearchMetadata;
+@class NSString, SFCardMetadata;
 
 @protocol SFDrillDownMetadata
+- (void);
+- (SFCardMetadata *)A;
+- (void)ger;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cardDomains;
 @property(copy, nonatomic) NSString *cardIdentifier;
-@property(copy, nonatomic) NSArray *cardIdentifiers;
-@property(retain, nonatomic) SFCardMetadata *cardOnlyMetadata;
-@property(retain, nonatomic) SFCardSearchMetadata *cardSearchMetadata;
-@property(copy, nonatomic) NSString *debugParams;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFEntitySearchMetadata *entitySearchMetadata;
-@property(retain, nonatomic) SFEntitySearchMetadata *entitySearchOnlyMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *params;
-@property(copy, nonatomic) NSString *qtype;
-@property(copy, nonatomic) NSString *viewConfigName;
 @end
 

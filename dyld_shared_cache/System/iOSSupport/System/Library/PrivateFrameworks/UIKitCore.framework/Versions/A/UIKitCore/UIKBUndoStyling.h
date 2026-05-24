@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UIFont, UIVibrancyEffect;
+@class UIBlurEffect;
 
 __attribute__((visibility("hidden")))
 @interface UIKBUndoStyling
 {
     _Bool _undoRedoIconOnly;
-    _Bool _isRTL;
-    _Bool _cutCopyPasteIconOnly;
-    _Bool _tooSmallForInstructionalText;
-    UIBlurEffect *_backgroundBlurEffect;
-    UIVibrancyEffect *_backgroundVibrancyEffect;
-    UIColor *_HUDbackgroundColor;
-    UIColor *_HUDShadowColor;
-    UIColor *_buttonGlyphColorEnabled;
-    UIColor *_buttonGlyphColorPressed;
-    UIColor *_buttonGlyphColorDisabled;
-    UIColor *_elementBackgroundColor;
-    UIColor *_elementCoverColor;
-    double _undoControlMinWidth;
-    double _cutControlMinWidth;
-    long long _appearance;
 }
 
 - (id);
 - (id);
 - (id);
+- (_Bool)rsistentTaskExecutorStatusReportCG;
+- (double)So36IMPersistentTaskExecutorStatusReportC;
 - (_Bool);
-- (double);
-- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)ting downgrade from %ld to %ld...;
+- (void)t path %@ with error:(id)arg1 %@;
+- (void)1 data, but we failed to decode to a dictionary!;
+- (void)tionDate;
+- (void)nValidationToken:(_Bool)arg1 fromSender:completion: /* Error: Ran out of types for this method. */;
+- (void)tatusSubscriptionMatchesSubscriptionValidationToken:(double)arg1 fromSender:completion: /* Error: Ran out of types for this method. */;
+- (void)age;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (void);
-- (id);
+- (void)r GUID %@;
+- (void)e replication:(id)arg1 %@ (time since last:%f, interval:%f) /* Error: Ran out of types for this method. */;
+- (void)ng inconsistent merged chats. Leaving inconsistency as is.;
+- (id)e %@;
+- (id)value exists;
+- (id)cal value does not exist;
+- (_Bool)isScheduledMessage;
+- (double)indexToRange;
+- (void)FirstAttachmentSyncInitiated;
 - (id);
 - (id);
 - (id);
@@ -61,7 +45,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
 - (long long);
 - (void)0@ù
 × ;
@@ -69,25 +54,7 @@ __attribute__((visibility("hidden")))
 - (void)<ÉþþðÙp¼f;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *HUDShadowColor; // @synthesize HUDShadowColor=_HUDShadowColor;
-@property(retain, nonatomic) UIColor *HUDbackgroundColor; // @synthesize HUDbackgroundColor=_HUDbackgroundColor;
-@property(nonatomic) long long appearance; // @synthesize appearance=_appearance;
 @property(retain, nonatomic) UIBlurEffect *backgroundBlurEffect; // @synthesize backgroundBlurEffect=_backgroundBlurEffect;
-@property(retain, nonatomic) UIVibrancyEffect *backgroundVibrancyEffect; // @synthesize backgroundVibrancyEffect=_backgroundVibrancyEffect;
-@property(retain, nonatomic) UIColor *buttonGlyphColorDisabled; // @synthesize buttonGlyphColorDisabled=_buttonGlyphColorDisabled;
-@property(retain, nonatomic) UIColor *buttonGlyphColorEnabled; // @synthesize buttonGlyphColorEnabled=_buttonGlyphColorEnabled;
-@property(retain, nonatomic) UIColor *buttonGlyphColorPressed; // @synthesize buttonGlyphColorPressed=_buttonGlyphColorPressed;
-@property(nonatomic) double cutControlMinWidth; // @synthesize cutControlMinWidth=_cutControlMinWidth;
-@property(nonatomic) _Bool cutCopyPasteIconOnly; // @synthesize cutCopyPasteIconOnly=_cutCopyPasteIconOnly;
-@property(retain, nonatomic) UIColor *elementBackgroundColor; // @synthesize elementBackgroundColor=_elementBackgroundColor;
-@property(retain, nonatomic) UIColor *elementCoverColor; // @synthesize elementCoverColor=_elementCoverColor;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(nonatomic) _Bool tooSmallForInstructionalText; // @synthesize tooSmallForInstructionalText=_tooSmallForInstructionalText;
-@property(nonatomic) double undoControlMinWidth; // @synthesize undoControlMinWidth=_undoControlMinWidth;
-@property(readonly, nonatomic) UIFont *undoInteractiveControlLabelFont;
-@property(nonatomic) _Bool undoRedoIconOnly; // @synthesize undoRedoIconOnly=_undoRedoIconOnly;
-@property(readonly, nonatomic) UIFont *undoStateControlLabelFont;
-@property(readonly, nonatomic) UIFont *undoStateControlUnavailableLabelFont;
 
 @end
 

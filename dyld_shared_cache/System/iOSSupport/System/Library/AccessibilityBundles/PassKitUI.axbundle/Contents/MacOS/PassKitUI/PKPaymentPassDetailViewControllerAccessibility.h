@@ -11,14 +11,14 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKKeyboardCameraGuidanceViewAccessibility;
 + (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)libswiftos.dylib;
 - (void);
 - (id);
 - (void);

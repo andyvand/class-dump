@@ -7,7 +7,6 @@
 @interface IdentityLookup.LiveLookupStore
 {
     id defaultExpirationTimeMinutes;
-    id storeWrapper;
 }
 
 @end

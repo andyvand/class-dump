@@ -9,17 +9,15 @@
 @interface CNMaskingTableView
 {
     double _maskingInset;
-    UIView *_tableMaskView;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)$;
 - (double);
 - (void)_contactViewBackgroundGradientLayer;
 
 // Remaining properties
-@property(nonatomic) double maskingInset; // @synthesize maskingInset=_maskingInset;
 @property(retain, nonatomic) UIView *tableMaskView; // @synthesize tableMaskView=_tableMaskView;
 
 @end

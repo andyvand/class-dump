@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DKEventStream;
 @protocol _DKKnowledgeQuerying;
 
 @interface _CDSpotlightEventIndexerDataSource
 {
     id <_DKKnowledgeQuerying> _knowledgeStore;
-    _DKEventStream *_stream;
 }
 
 + (unsigned long long)¿5·;
 - (id);
 - (id);
+- (id)iy;
 - (id);
-- (id);
-- (id);
+- (id)Rr;
 - (id);
 - (id);
 - (void);
-- (id)MDItemRecipients;
+- (id)kMDItemRecipients;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_DKKnowledgeQuerying> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
-@property(readonly, nonatomic) _DKEventStream *stream; // @synthesize stream=_stream;
 
 @end
 

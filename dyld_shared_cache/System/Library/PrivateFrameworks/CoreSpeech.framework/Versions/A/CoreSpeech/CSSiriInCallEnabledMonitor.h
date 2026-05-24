@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CSSiriInCallEnabledMonitor
 {
     int _notifyToken;
-    _Bool _isEnabled;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id)_numAnalyzedSamples;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)ueChange;
+- (void)handleRingVibrationValueChange;
 
 @end
 

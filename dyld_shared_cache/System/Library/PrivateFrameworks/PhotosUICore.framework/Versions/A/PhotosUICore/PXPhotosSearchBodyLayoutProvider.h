@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController, PXPhotosViewModel, PXZoomablePhotosInteraction, PXZoomablePhotosLayout, PXZoomablePhotosViewModel, _PXPhotosSearchBodyCollectionSectionLayout;
-@protocol PXPersonViewControllerPresentationDelegate><PXPhotosViewControllerPresentationDelegate><PXSearchFeedViewControllerPresentationDelegate, PXPhotosSectionBodyLayoutProviderInvalidationDelegate, PXPhotosSelectionContainer;
+@protocol PXPhotosSelectionContainer;
 
 @interface PXPhotosSearchBodyLayoutProvider
 {
     _Bool _userChangedZoom;
-    PXZoomablePhotosLayout *_allResultsLayout;
-    _Bool _isUpdatingPhotosViewModel;
-    long long _currentSpecSizeClass;
-    long long _currentSpecOrientation;
-    id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate;
-    id _collectionSectionProvider;
-    NSViewController<PXPersonViewControllerPresentationDelegate><PXPhotosViewControllerPresentationDelegate><PXSearchFeedViewControllerPresentationDelegate> *_hostViewController;
-    PXPhotosViewModel *_viewModel;
-    PXZoomablePhotosViewModel *_zoomableViewModel;
-    CDUnknownBlockType _layoutInformationChangedCallback;
-    id <PXPhotosSelectionContainer> _collectionsSelection;
-    PXZoomablePhotosInteraction *_zoomInteraction;
-    _PXPhotosSearchBodyCollectionSectionLayout *_collectionSectionLayout;
 }
 
-- (id);
+- (id)�?;
 - (id);
 - (_Bool);
 - (void);
@@ -33,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)~Ө;
 - (id);
 - (id);
 - (id);
@@ -50,28 +36,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)lic}@;
 - (void)Controller:(id)arg1 );
-- (void)AssetsToSharedLibraryIntent;
+- (void)MoveAssetsToSharedLibraryIntent;
 - (id)È¤ÿ¿T03<;
 
 // Remaining properties
-@property(retain, nonatomic) _PXPhotosSearchBodyCollectionSectionLayout *collectionSectionLayout; // @synthesize collectionSectionLayout=_collectionSectionLayout;
-@property(readonly, nonatomic) id collectionSectionProvider; // @synthesize collectionSectionProvider=_collectionSectionProvider;
 @property(nonatomic) __weak id <PXPhotosSelectionContainer> collectionsSelection; // @synthesize collectionsSelection=_collectionsSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSViewController<PXPersonViewControllerPresentationDelegate><PXPhotosViewControllerPresentationDelegate><PXSearchFeedViewControllerPresentationDelegate> *hostViewController; // @synthesize hostViewController=_hostViewController;
-@property(nonatomic) __weak id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate; // @synthesize invalidationDelegate;
-@property(copy, nonatomic) CDUnknownBlockType layoutInformationChangedCallback; // @synthesize layoutInformationChangedCallback=_layoutInformationChangedCallback;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(retain, nonatomic) PXZoomablePhotosInteraction *zoomInteraction; // @synthesize zoomInteraction=_zoomInteraction;
-@property(readonly, nonatomic) PXZoomablePhotosViewModel *zoomableViewModel; // @synthesize zoomableViewModel=_zoomableViewModel;
 
 @end
 

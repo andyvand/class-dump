@@ -7,8 +7,6 @@
 @interface SoundAnalysis.AudioStreamAnalyzer
 {
     id subscriptions;
-    id audioBufferSubject;
-    id environment;
 }
 
 @end

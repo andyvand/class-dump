@@ -5,5 +5,6 @@
 //
 
 @protocol HMSettingManager
+- (void)sh=?;
 @end
 

@@ -11,7 +11,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)seed item_pid %lld;
 
 @end
 

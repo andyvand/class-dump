@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSMutableArray;
+@class NSLocale;
 
 @interface TESPatternMatcherLoader
 {
     NSLocale *_locale;
-    NSMutableArray *_matchers;
 }
 
 + (id);
+- (void)controlVerticalSpace;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSMutableArray *matchers; // @synthesize matchers=_matchers;
 
 @end
 

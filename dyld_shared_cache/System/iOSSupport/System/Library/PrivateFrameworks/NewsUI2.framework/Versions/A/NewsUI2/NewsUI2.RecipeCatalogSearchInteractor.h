@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeCatalogSearchInteractor
 {
     id delegate;
-    id dataManager;
 }
 
 @end

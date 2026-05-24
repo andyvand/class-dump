@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKPassTileImage, PKPassTileStateCheckIn, PKPassTileStateDefault, PKPassTileStateDefaultV2, PKPassTileStateForeignView, PKPassTileStateGroup, PKPassTileStateMetadata, PKPassTileStatePaymentOfferSelector, PKPaymentPassAction;
+@class NSArray, PKPassTileStatePaymentOfferSelector;
 
 @interface PKPassTileState
 {
     NSArray *_actions;
-    _Bool _enabled;
-    _Bool _selected;
-    _Bool _resolved;
-    _Bool _fullBleed;
-    _Bool _hidesBackground;
-    long long _type;
-    PKPassTileStateMetadata *_metadata;
-    PKPassTileState *_actionState;
-    PKPassTileImage *_icon;
-    NSArray *_actionDictionaries;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool)0@ù
 × ;
 - (id);
@@ -44,43 +34,26 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)(;
 - (id);
 - (_Bool);
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id)completions;
+- (void)cachedPeersOnDFS;
 - (void);
-- (void);
 - (id);
 - (id);
-- (void)ryptedObjectForKey:(id)arg1 ofClass: /* Error: Ran out of types for this method. */;
+- (void)pk_encryptedObjectForKey:(id)arg1 ofClass: /* Error: Ran out of types for this method. */;
 - (id)promptCount;
-- (void)dsText;
+- (void)paymentSheetMerchantRewardsText;
 - (void)tedOfferTypeHistory:%ld items;  /* Error: Ran out of types for this method. */;
-- (_Bool)gXw;
+- (_Bool)SgXw;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPaymentPassAction *action;
-@property(copy, nonatomic) NSArray *actionDictionaries; // @synthesize actionDictionaries=_actionDictionaries;
-@property(retain, nonatomic) PKPassTileState *actionState; // @synthesize actionState=_actionState;
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isFullBleed) _Bool fullBleed; // @synthesize fullBleed=_fullBleed;
-@property(nonatomic) _Bool hidesBackground; // @synthesize hidesBackground=_hidesBackground;
-@property(retain, nonatomic) PKPassTileImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) PKPassTileStateMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic, getter=isResolved) _Bool resolved; // @synthesize resolved=_resolved;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) PKPassTileStateCheckIn *stateTypeCheckIn;
-@property(readonly, nonatomic) PKPassTileStateDefault *stateTypeDefault;
-@property(readonly, nonatomic) PKPassTileStateDefaultV2 *stateTypeDefaultV2;
-@property(readonly, nonatomic) PKPassTileStateForeignView *stateTypeForeignView;
-@property(readonly, nonatomic) PKPassTileStateGroup *stateTypeGroup;
 @property(readonly, nonatomic) PKPassTileStatePaymentOfferSelector *stateTypePaymentOfferSelector;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

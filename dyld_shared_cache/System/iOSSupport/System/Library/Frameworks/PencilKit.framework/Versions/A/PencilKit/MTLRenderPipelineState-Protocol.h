@@ -8,27 +8,16 @@
 @protocol MTLDevice;
 
 @protocol MTLRenderPipelineState
+- (unsigned long long)Q;
+- (unsigned long long);
+- (_Bool);
+- (id <MTLDevice>);
 - (MTLRenderPipelineReflection *);
 - (CDStruct_14f26992)eousItemStableIdentifiers: /* Error: Ran out of types for this method. */;
-- (_Bool)KPalette;
+- (_Bool)PKPalette;
 - (long long)ÜpÆ;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadgroupsPerMeshGrid;
-@property(readonly) unsigned long long maxTotalThreadsPerMeshThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerObjectThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) unsigned long long meshThreadExecutionWidth;
-@property(readonly) unsigned long long objectThreadExecutionWidth;
-@property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerTileThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) _Bool threadgroupSizeMatchesTileSize;
 @end
 

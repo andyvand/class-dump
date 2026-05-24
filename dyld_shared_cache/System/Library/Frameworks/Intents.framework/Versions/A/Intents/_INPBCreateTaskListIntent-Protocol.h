@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBCreateTaskListIntent
+- (_INPBDataString *)9_;
+- (_INPBIntentMetadata *)?0@"TMDisk"8Q16;
+- (void);
 - (_INPBDataString *);
-- (_Bool)onValue: /* Error: Ran out of types for this method. */;
+- (_Bool)addPairPersonValue: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *groupName;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *taskTitles;
-@property(readonly, nonatomic) unsigned long long taskTitlesCount;
-@property(retain, nonatomic) _INPBDataString *title;
 @end
 

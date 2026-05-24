@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)quietly receipt:(id)arg1 %@, %@;
++ (id);
 + (id);
 + (struct CGRect);
 + (id);

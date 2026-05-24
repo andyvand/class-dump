@@ -6,17 +6,17 @@
 
 #import <ChatKit/CKTextMessagePartChatItem.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CKAggregateMessagePartChatItem : CKTextMessagePartChatItem
 {
     NSArray *_subparts;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)];
+- (id)save on Done, but we've already saved;
+- (id)notes, and you won’t need to remember a separate password for “%@” locked notes.;
+- (id)SFetchedResultsController"8;
 - (id);
 - (Class);
 - (void);
@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *subparts; // @synthesize subparts=_subparts;
-@property(readonly, copy, nonatomic) NSString *title;
 
 @end
 

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXComponents;
-@protocol SXAutoPlacement, SXDocumentStyle;
+@protocol SXComponentTextStyle, SXDocumentStyle;
 
 @protocol SXDOMObjectProviding
+- (id <SXDocumentStyle>)T	;
+- (id <SXComponentTextStyle>);
+- (id <SXComponentTextStyle>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement;
-@property(readonly, nonatomic) SXComponents *components;
 @property(readonly, nonatomic) id <SXDocumentStyle> documentStyle;
 @end
 

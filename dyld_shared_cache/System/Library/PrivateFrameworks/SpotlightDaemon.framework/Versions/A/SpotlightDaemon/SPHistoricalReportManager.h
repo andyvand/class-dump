@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SPHistoricalReportManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_reportsDirectory;
-    long long _retentionDays;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)handlePrimaryResidentDidBecomeCurrentDeviceSwiftExtensions;
+- (void)handleNonResidentMediaActionExecutionWithSessionData:(id)arg1 encodePlaybackArchive:(CDUnknownBlockType)arg2 completion: /* Error: Ran out of types for this method. */;
+- (id)handleNetworkInfoFetchWithMessage: /* Error: Ran out of types for this method. */;
+- (void)handleMediaPlaybackStateNotification: /* Error: Ran out of types for this method. */;
+- (id)ldarm touristen;
 - (void);
 
 @end

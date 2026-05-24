@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRRecentContact, EKStructuredLocation, GEOFeatureStyleAttributes;
+@class CRRecentContact;
 
 @interface EKRecentContactSearchResult
 {
     CRRecentContact *_recent;
-    GEOFeatureStyleAttributes *_attributes;
 }
 
 - (id);
@@ -23,8 +22,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOFeatureStyleAttributes *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) EKStructuredLocation *location;
 @property(retain, nonatomic) CRRecentContact *recent; // @synthesize recent=_recent;
 
 @end

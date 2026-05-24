@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCTextDataDetectorElement;
 + (void);
-- (_Bool);
+- (_Bool)%;
 - (unsigned long long);
 - (id);
 

@@ -9,15 +9,10 @@
 @interface SCNCylinder : SCNGeometry
 {
     double _cylinderradius;
-    double _cylinderheight;
-    double _cylinderradialSpan;
-    long long _cylinderheightSegmentCount;
-    long long _cylinderradialSegmentCount;
-    long long _cylinderprimitiveType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ignoredDataTypeFieldLabels;
 - (void);
 - (void);
 - (void);
@@ -28,29 +23,26 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)B@;
 - (struct __C3DGeometry *);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (long long);
 - (id);
+- (id)R,N,V_throttlingController;
 - (id);
-- (id);
-- (void);
+- (void)y.m;
 - (double);
 - (void);
 - (id);
-- (double);
+- (double)_sourceIdentifier;
 - (void);
 - (id)->_currentColorTarget->_referenceCount>0;
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double radius;
 
 @end

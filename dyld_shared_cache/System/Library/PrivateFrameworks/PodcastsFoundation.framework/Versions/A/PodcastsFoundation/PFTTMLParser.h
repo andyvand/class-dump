@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSXMLParser;
+@class NSXMLParser;
 @protocol PFTTMLParserDelegate;
 
 @interface PFTTMLParser
 {
     id <PFTTMLParserDelegate> _delegate;
-    NSXMLParser *_parser;
-    NSDictionary *_currentElementAttributes;
 }
 
 - (long long);
@@ -26,28 +24,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)ationt;
+- (void)Sd8position_Sd8durationt;
 - (void);
 
 // Remaining properties
-@property(nonatomic) NSDictionary *currentElementAttributes; // @synthesize currentElementAttributes=_currentElementAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <PFTTMLParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXMLParser *parser; // @synthesize parser=_parser;
-@property(readonly) Class superclass;
 
 @end
 

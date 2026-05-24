@@ -10,12 +10,12 @@
 
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)works/URLFormatting.framework/Versions/A/URLFormatting;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)KWebView"16@"WKWebViewConfiguration"24@"WKNavigationAction"32@"WKWindowFeatures"40;
++ (id)tableView:dataCellForTableColumn:row: /* Error: Ran out of types for this method. */;
++ (id)delegate;
 
 @end
 

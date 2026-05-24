@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (void);
+- (void)erberosMapping";
 - (void);
-- (void);
-- (void);
+- (void)mbers.numbers;
 - (void);
 - (void);
 - (void);

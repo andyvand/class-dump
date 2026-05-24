@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)hasAlternateButton;
++ (id)enabledDataclasses;
 
 @end
 

@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLComputePipelineReflection, NSString;
-@protocol MTL4BinaryFunction, MTLDevice, MTLFunction, MTLFunctionHandle;
+@class NSString;
+@protocol MTL4BinaryFunction, MTLFunction, MTLFunctionHandle;
 
 @protocol MTLComputePipelineState
 - (_Bool)eadsPerObjectThreadgroup:threadsPerMeshThreadgroup:] /* Error: Ran out of types for this method. */;
@@ -14,15 +14,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) unsigned long long threadExecutionWidth;
 @end
 

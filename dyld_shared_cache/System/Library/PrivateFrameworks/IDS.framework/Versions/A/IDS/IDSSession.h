@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, _IDSSession;
+@class _IDSSession;
 
 @interface IDSSession
 {
     _IDSSession *_internal;
-    NSString *_uniqueID;
-    struct os_unfair_lock_s _uniqueIDLock;
-    NSSet *_requiredCapabilities;
-    NSSet *_requiredLackOfCapabilities;
 }
 
 - (_Bool);
@@ -27,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,8 +34,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -54,15 +50,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (unsigned int)fetchObjectForKey:completion: /* Error: Ran out of types for this method. */;
+- (void)ace [%@].;
 - (id);
 - (id);
-- (unsigned int);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)!;
 - (void)1Â0@ù
 × ;
 - (id)source [%@];

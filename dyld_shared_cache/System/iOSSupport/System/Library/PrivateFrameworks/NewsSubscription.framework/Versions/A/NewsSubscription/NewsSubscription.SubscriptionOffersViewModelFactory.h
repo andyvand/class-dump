@@ -7,8 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersViewModelFactory
 {
     id learnMoreText;
-    id webAuthButtonTitle;
-    id subscribeButtonTextProvider;
 }
 
 @end

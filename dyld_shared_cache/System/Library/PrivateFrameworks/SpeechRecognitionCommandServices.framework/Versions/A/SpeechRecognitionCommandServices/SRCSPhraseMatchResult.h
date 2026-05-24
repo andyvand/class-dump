@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SRCSTextMarkerRangeProtocol;
-
 @interface SRCSPhraseMatchResult
 {
     id _userInfo;
-    NSString *_matchedString;
-    id <SRCSTextMarkerRangeProtocol> _markerRange;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)bindText:atIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly) id <SRCSTextMarkerRangeProtocol> markerRange; // @synthesize markerRange=_markerRange;
-@property(readonly) NSString *matchedString; // @synthesize matchedString=_matchedString;
 @property(retain) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end

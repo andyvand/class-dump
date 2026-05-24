@@ -5,6 +5,6 @@
 //
 
 @protocol _DPDediscoRecordProtocol
-- (long long)m;
+- (long long)_DPPiRapporAlgorithm;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol FBSSceneHostAgent
+- (void);
 @end
 

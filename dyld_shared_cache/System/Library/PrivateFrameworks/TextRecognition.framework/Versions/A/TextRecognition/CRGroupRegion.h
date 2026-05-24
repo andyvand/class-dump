@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSString;
+@class CRNormalizedQuad, NSArray;
 
 @interface CRGroupRegion
 {
     CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    NSArray *_subregions;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)ocument: /* Error: Ran out of types for this method. */;
+- (id)_unregisterForCompletionAbortingNotifications;
+- (id)_thumbnailFileURLForReadingListItemUUID: /* Error: Ran out of types for this method. */;
+- (void)validateHorizontalTiles:document: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
 @property(retain) NSArray *subregions; // @synthesize subregions=_subregions;
-@property(readonly) Class superclass;
 
 @end
 

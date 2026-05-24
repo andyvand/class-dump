@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RRSchemaRREntityPoolResolveEnded, RRSchemaRREntityPoolResolveFailed, RRSchemaRREntityPoolResolveStarted;
+@class RRSchemaRREntityPoolResolveStarted;
 
 @interface RRSchemaRREntityPoolResolveContext : SISchemaInstrumentationMessage
 {
     RRSchemaRREntityPoolResolveStarted *_startedOrChanged;
-    RRSchemaRREntityPoolResolveEnded *_ended;
-    RRSchemaRREntityPoolResolveFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -35,27 +29,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)evid:%@ eventType:%ld startTime:%@ eventTime:%@ } /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ndex_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) ;
+- (id)?;
 - (id);
-- (id);
-- (id)ay;
+- (id)appContactFreqForPhoneCall7Day;
 - (id)ce;
-- (void)mCompleted;
+- (void)contextPrewarmCompleted;
 
 // Remaining properties
-@property(retain, nonatomic) RRSchemaRREntityPoolResolveEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RRSchemaRREntityPoolResolveFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RRSchemaRREntityPoolResolveStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

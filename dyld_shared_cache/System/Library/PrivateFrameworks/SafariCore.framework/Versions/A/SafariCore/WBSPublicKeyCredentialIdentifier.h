@@ -9,15 +9,14 @@
 @interface WBSPublicKeyCredentialIdentifier
 {
     NSString *_credentialID;
-    NSString *_groupID;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
 
 @end
 

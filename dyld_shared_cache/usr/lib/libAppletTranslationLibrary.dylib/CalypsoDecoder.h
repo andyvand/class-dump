@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ATLTimer, NSData, NSDictionary, NSMutableArray, NSNumber, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CalypsoDecoder
 {
     NSMutableArray *_hciArray;
-    NSString *_appletAID;
-    _Bool _errorTransaction;
-    NSNumber *_errorCode;
-    NSData *_transactionDetailRaw;
-    NSDictionary *_staticConfig;
-    NSNumber *_cityCode;
-    NSNumber *_serviceProvider;
-    id _currentSubDecoder;
-    ATLTimer *_timer;
-    _Bool _debug;
 }
 
 + (id);
@@ -33,7 +23,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -41,16 +31,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -59,14 +49,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)fetchCacheFileDescriptorsForBundleID:(id)arg1 identifiers:(id)arg2 userCtx:(id)arg3 flags:(id)arg4 completionHandler:(id *)arg5;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void):withBitmap: /* Error: Ran out of types for this method. */;
+- (void)decodeIPETyp2:withIfr:withBitmap: /* Error: Ran out of types for this method. */;
 
 @end
 

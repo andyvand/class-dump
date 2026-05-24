@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct CGPDFAnnotation *);
+- (struct CGPDFAnnotation *)";
 
 // Remaining properties
 @property(readonly) struct CGPDFAnnotation *annotation; // @synthesize annotation=_annotation;

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAction, NSString;
+@class NSString;
 
 @interface UISceneProposalAction
 {
 }
 
-- (id);
-- (id);
+- (id)since last:(id)arg1 %f, interval:(id)arg2 %f);
+- (id)%@ in chat:(id)arg1 %@;
 - (id);
 - (id)led with nil scene, skipping save;
 - (id)ettings;
@@ -19,9 +19,7 @@
 - (long long)ÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) BSAction *action;
 @property(readonly, copy, nonatomic) NSString *persistentIdentifier;
-@property(readonly, copy, nonatomic) NSString *sceneIdentifier;
 
 @end
 

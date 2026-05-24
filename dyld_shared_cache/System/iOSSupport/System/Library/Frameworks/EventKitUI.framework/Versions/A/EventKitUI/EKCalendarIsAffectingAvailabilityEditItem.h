@@ -11,12 +11,12 @@
 }
 
 + (_Bool);
+- (_Bool)j&s;
+- (void))s;
+- (id)%s;
 - (_Bool);
-- (void);
-- (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)s;
 - (id);
 
 @end

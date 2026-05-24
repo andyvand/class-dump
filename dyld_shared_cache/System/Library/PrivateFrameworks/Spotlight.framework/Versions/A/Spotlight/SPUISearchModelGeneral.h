@@ -6,30 +6,27 @@
 
 #import <Spotlight/SPUISearchModel.h>
 
-@class NSObject, SPClientSession;
-@protocol OS_dispatch_queue;
+@class SPClientSession;
 
 @interface SPUISearchModelGeneral : SPUISearchModel
 {
     SPClientSession *_session;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
 - (_Bool);
 - (id);
+- (id)ror fetching location authorization status for TTL:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) SPClientSession *session; // @synthesize session=_session;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

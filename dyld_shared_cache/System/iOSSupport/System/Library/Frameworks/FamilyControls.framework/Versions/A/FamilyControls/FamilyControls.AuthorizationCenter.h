@@ -8,10 +8,6 @@
 {
     id _authorizationStatus;
     id recordChangedNotificationToken;
-    id notificationQueue;
-    id currentPublicConnection;
-    id currentPrivateConnection;
-    id connectionLock;
 }
 
 @end

@@ -9,7 +9,6 @@
 @protocol KGEdge
 
 // Remaining properties
-@property(readonly, nonatomic) id <KGNode> sourceNode;
 @property(readonly, nonatomic) id <KGNode> targetNode;
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebBookmarkLeaf;
-@protocol WBSCloudTabItem;
+@class WebBookmarkLeaf;
 
 __attribute__((visibility("hidden")))
 @interface URLCompletionMatchBookmarkData
 {
     _Bool _shouldPreload;
-    _Bool _isSynthesized;
-    WebBookmarkLeaf *_bookmark;
 }
 
 - (id);
@@ -22,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (float);
-- (float);
+- (float);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,50 +34,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
-- (id)eAudioUITimer;
+- (id)_updateAudioUITimer;
 - (void)ô8Ä;
 - (id)ì;
 
 // Remaining properties
 @property(readonly, nonatomic) WebBookmarkLeaf *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly, nonatomic) id <WBSCloudTabItem> cloudTab;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<WBSCloudTabItem>",?,R,N
-
-@property(readonly, copy, nonatomic) NSString *cloudTabDeviceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool containsBookmark;
-@property(readonly, nonatomic) _Bool containsReadingListItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSynthesized; // @synthesize isSynthesized=_isSynthesized;
-@property(readonly, nonatomic) _Bool lastVisitWasFailure;
-@property(readonly, nonatomic) double lastVisitedTimeInterval;
-@property(readonly, nonatomic) _Bool onlyContainsCloudTab;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *originalURLString;
-@property(readonly, nonatomic) _Bool shouldPreload; // @synthesize shouldPreload=_shouldPreload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long visitCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long visitCountScore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool visitWasClientError;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface NewsUI2.PuzzleTypeOfflineFeedBuilder
 {
     id resolver;
-    id puzzleTypeID;
-    id puzzleService;
-    id featureAvailability;
-    id appConfigManager;
-    id feedAvailabilityService;
-    id offlineFeedDatabase;
 }
 
 @end

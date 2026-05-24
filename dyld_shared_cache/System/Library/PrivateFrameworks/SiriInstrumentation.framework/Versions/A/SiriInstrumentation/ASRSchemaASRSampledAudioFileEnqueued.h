@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRSampledAudioFileEnqueued : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    int _audioCodec;
-    struct {
-        unsigned int audioCodec:1;
-    } _has;
-    _Bool _hasOriginalAsrId;
 }
 
 - (void);
@@ -28,23 +23,19 @@
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)Ĵ;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)RadioRemote;
+- (id)usageScoreMusicWithoutRadioRemote;
 - (id)¨~ð~d¬ÐÀPtpÜ;
 - (id)è²÷ÿÀûÿÿ;
 - (void)Ì¼ªÿAx²¤Æ&;
 
 // Remaining properties
-@property(nonatomic) int audioCodec; // @synthesize audioCodec=_audioCodec;
-@property(nonatomic) _Bool hasAudioCodec;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
 
 @end

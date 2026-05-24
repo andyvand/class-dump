@@ -9,7 +9,7 @@
 }
 
 - (_Bool);
-- (Class);
+- (Class)AttendeeStatusStringView;
 
 @end
 

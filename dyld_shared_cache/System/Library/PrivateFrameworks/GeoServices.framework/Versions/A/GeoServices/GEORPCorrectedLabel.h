@@ -4,63 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapRegion, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPCorrectedLabel
 {
     PBDataReader *_reader;
-    GEOLatLng *_coordinate;
-    NSString *_correctedValue;
-    NSMutableArray *_featureHandles;
-    GEOMapRegion *_featureRegion;
-    NSString *_originalValue;
-    unsigned long long _uid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _localizedLabels;
-    struct {
-        unsigned int has_uid:1;
-        unsigned int has_localizedLabels:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_correctedValue:1;
-        unsigned int read_featureHandles:1;
-        unsigned int read_featureRegion:1;
-        unsigned int read_originalValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)setIsOriginalRouteNavigable:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)updatePersistentStoresWithBuilder:(_Bool)arg1 oldUrls:newUrls:resultBlock: /* Error: Ran out of types for this method. */;
+- (void)propertiesToGroupBy;
+- (void)discoverPropertiesForAccount:(_Bool)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)sendDictionary:(id)arg1 forEvent:andLog: /* Error: Ran out of types for this method. */;
+- (void)ABCDAddressingGrammar;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)z<;
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)p;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setAudioMeterProvider: /* Error: Ran out of types for this method. */;
+- (void)s Fetching audio device info from CSSpeechController...;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -70,27 +50,15 @@
 - (void);
 - (id);
 - (id)knownFields"b1"read_geoIdCandidates"b1"read_center"b1"read_mapRegion"b1"read_placeId"b1"read_worldwide"b1"wrote_anyField"b1};
-- (void)ibutes:(id)arg1 userValues: /* Error: Ran out of types for this method. */;
-- (id)ions: /* Error: Ran out of types for this method. */;
+- (void)initWithPlace:(id)arg1 clientAttributes:userValues: /* Error: Ran out of types for this method. */;
+- (id)addClusteredRouteRideSelections: /* Error: Ran out of types for this method. */;
 - (id)ÌD¤EDH¨L;
 - (id)displayDestinations;
-- (_Bool)PLACECARD;
+- (_Bool)ORB_MENU_SHOW_PLACECARD;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *coordinate;
-@property(retain, nonatomic) NSString *correctedValue;
-@property(retain, nonatomic) NSMutableArray *featureHandles;
-@property(retain, nonatomic) GEOMapRegion *featureRegion;
-@property(readonly, nonatomic) _Bool hasCoordinate;
-@property(readonly, nonatomic) _Bool hasCorrectedValue;
-@property(readonly, nonatomic) _Bool hasFeatureRegion;
-@property(nonatomic) _Bool hasLocalizedLabels;
 @property(readonly, nonatomic) _Bool hasOriginalValue;
-@property(nonatomic) _Bool hasUid;
-@property(nonatomic) _Bool localizedLabels;
-@property(retain, nonatomic) NSString *originalValue;
-@property(nonatomic) unsigned long long uid;
 
 @end
 

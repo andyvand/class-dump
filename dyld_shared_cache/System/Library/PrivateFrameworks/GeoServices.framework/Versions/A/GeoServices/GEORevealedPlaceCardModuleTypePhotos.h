@@ -9,13 +9,9 @@
 @interface GEORevealedPlaceCardModuleTypePhotos
 {
     PBUnknownFields *_unknownFields;
-    _Bool _categoryAlbumExists;
-    struct {
-        unsigned int has_categoryAlbumExists:1;
-    } _flags;
 }
 
-+ (_Bool)ype:(id)arg1;
++ (_Bool)setManeuverType:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -24,23 +20,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)aclLocateCommon;
+- (void)_context;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)objects.
+;
+- (_Bool)ڮ;
 - (void);
 - (id)EOLiveTileKey=b6b26b26b14b4b4b4b36})}16@24;
-- (id)etchStart;
-- (id)rritoryInfo;
-- (id)upported_child_action;
+- (id)fetchStart;
+- (id)GEOCoarseLocationTerritoryInfo;
+- (id)supported_child_action;
 - (void)Íí)KP@;
 
 // Remaining properties
-@property(nonatomic) _Bool categoryAlbumExists;
 @property(nonatomic) _Bool hasCategoryAlbumExists;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

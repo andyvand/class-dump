@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItem, MPMusicPlayerControllerNowPlaying, MPMusicPlayerControllerNowPlayingTimeSnapshot, MPMusicPlayerQueueDescriptor, MPNowPlayingInfoAudioFormat, MPVolumeController, NSArray, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MPMusicPlayerController
 {
     long long _shuffleMode;
-    long long _repeatMode;
-    _Bool _prioritizeStartupOverQuality;
-    _Bool _serverValidated;
-    _Bool _mediaServiceLost;
-    NSXPCConnection *_connection;
-    struct os_unfair_lock_s _lock;
-    _Bool _isPreparedToPlay;
-    _Bool _userQueueModificationsDisabled;
-    NSString *_clientIdentifier;
-    MPMusicPlayerControllerNowPlaying *_serverNowPlaying;
-    MPMusicPlayerControllerNowPlayingTimeSnapshot *_serverTimeSnapshot;
-    MPMusicPlayerQueueDescriptor *_serverQueueDescriptor;
-    MPMusicPlayerControllerNowPlayingTimeSnapshot *_lastServerTimeSnapshot;
-    MPMusicPlayerControllerNowPlaying *_lastServerNowPlaying;
-    NSArray *_lastContentItemIDs;
-    MPMusicPlayerQueueDescriptor *_targetQueueDescriptor;
-    long long _notificationsCounter;
-    MPVolumeController *_volumeController;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _nowPlayingUID;
 }
 
 + (id);
@@ -42,7 +21,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +30,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -69,15 +48,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -90,108 +69,187 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)h;
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (double);
 - (float);
-- (unsigned long long);
+- (unsigned long long)5;
+- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
 - (long long);
+- (long long);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id)"<AMSUIWebActionRunnable>",&,V_bottomLinkAction;
+- (void)tion_id < ? OR base_location_id > ? ;
+- (long long)ocation_id, exclude_from_shuffle, keep_local, keep_local_status, keep_local_constraints, in_my_library, is_compilation, date_added, show_composer, is_music_show, date_downloaded, download_source_container_pid FROM item;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ertexSemanticBoneIndices,
+    SCNVertexSemanticBoneWeights,
+    SCNVertexSemanticTexcoord0,
+    SCNVertexSemanticTexcoord1,
+    SCNVertexSemanticTexcoord2,
+    SCNVertexSemanticTexcoord3,
+    SCNVertexSemanticTexcoord4,
+    SCNVertexSemanticTexcoord5,
+    SCNVertexSemanticTexcoord6,
+    SCNVertexSemanticTexcoord7
+};
+
+
+
+struct SCNSceneBuffer {
+    float4x4    viewTransform;
+    float4x4    inverseViewTransform; 
+    float4x4    projectionTransform;
+    float4x4    viewProjectionTransform;
+    float4x4    viewToCubeTransform; 
+    float4x4    lastFrameViewProjectionTransform;
+    float4      ambientLightingColor;
+    float4		fogColor;
+    float3		fogParameters; 
+    float2      inverseResolution;
+    float       time;
+    float       sinTime;
+    float       cosTime;
+    float       random01;
+    float       motionBlurIntensity;
+    
+    float       environmentIntensity;
+    float4x4    inverseProjectionTransform;
+    float4x4    inverseViewProjectionTransform;
+    
+    float2      nearFar; 
+    float4      viewportSize; 
+    
+    float4x4    inverseTransposeViewTransform;
+
+    
+    float4      clusterScale; 
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif 
+;
+- (void);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (id)P;
 - (void);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)oord;
+varying vec2 TexCoord1;
+
+//TODO:(id)arg1 make a separable blur...
+void main (void)
+{	
+	//1  2  1
+	//2  4  2
+	//1  2  1
+	int		kernelSize = 9;
+	float	accum = 0.0;
+	vec2	aoTexCoord = TexCoord1;	
+	vec3	gaussianKernel[9];
+
+	float weight;
+
+	gaussianKernel[0] = vec3(-1.0,1.0,	1.0);
+	gaussianKernel[1] = vec3(0.0,1.0,	2.0);
+	gaussianKernel[2] = vec3(1.0,1.0,	1.0);
+
+	gaussianKernel[3] = vec3(-1.0,0.0,	2.0);
+	gaussianKernel[4] = vec3(0.0,0.0,	4.0);
+	gaussianKernel[5] = vec3(1.0,0.0,	2.0);
+	
+	gaussianKernel[6] = vec3(-1.0,-1.0,	1.0);
+	gaussianKernel[7] = vec3(0.0,-1.0,	2.0);
+	gaussianKernel[8] = vec3(1.0,-1.0,	1.0);
+
+	vec4 normalDepthCenter = texture2DRect(textureSampler2,aoTexCoord);
+	
+	for(int i = 0; i < kernelSize ; i++) {
+		float coef = gaussianKernel[i].z;
+		vec2 sampleCoord = vec2(aoTexCoord + gaussianKernel[i].xy * 2.0);
+		vec4 sampleDepthCenter = texture2DRect(textureSampler2,sampleCoord);
+		
+		float dotSampleCenter = max(0.0,dot(sampleDepthCenter.xyz,normalDepthCenter.xyz));
+		float deltaZ = normalDepthCenter.a - sampleDepthCenter.a;
+		
+		//if ((dotSampleCenter > 0.5) && (deltaZ < 0.5)) {
+		
+		float coef2 = max(0.0,(1.0 - deltaZ) * dotSampleCenter * coef);
+		
+		accum += texture2DRect(textureSampler1,sampleCoord + 0.5).x * coef2;
+		weight += coef2;
+	}
+	
+	if (weight > 1.0) {
+		accum /= weight;
+	} else {
+		accum = texture2DRect(textureSampler1,aoTexCoord).x;
+	}
+	
+	//accum = texture2DRect(textureSampler1,TexCoord).x;
+	gl_FragColor =	vec4(accum,accum,accum,1.0) * texture2DRect(textureSampler0,TexCoord);
+	};
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (float);
+- (_Bool)_adaptExistingHighlightsToNewHighlight:(id)arg1 onPageController:firstModifiedHighlight: /* Error: Ran out of types for this method. */;
+- (float)gationPlayInfoRequest";
 - (void);
 - (id);
 - (long long);
 - (unsigned long long);
-- (void)ooks;
+- (void)_determinedHasAudiobooks;
 - (id)Ü2;
 - (void)missing mapping for MPModelPropertyPlaylistCollaborationInvitationURLExpirationDate;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) unsigned long long currentChapterIndex;
-@property(nonatomic) float currentPlaybackRate;
-@property(nonatomic) double currentPlaybackTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long indexOfNowPlayingItem;
-@property(readonly, nonatomic) _Bool isNowPlayingItemFromGeniusMix;
-@property(readonly, nonatomic) _Bool isPreparedToPlay; // @synthesize isPreparedToPlay=_isPreparedToPlay;
-@property(readonly, nonatomic) NSArray *lastContentItemIDs; // @synthesize lastContentItemIDs=_lastContentItemIDs;
-@property(readonly, nonatomic) MPMusicPlayerControllerNowPlaying *lastServerNowPlaying; // @synthesize lastServerNowPlaying=_lastServerNowPlaying;
-@property(readonly, nonatomic) MPMusicPlayerControllerNowPlayingTimeSnapshot *lastServerTimeSnapshot; // @synthesize lastServerTimeSnapshot=_lastServerTimeSnapshot;
-@property(readonly, nonatomic) long long notificationsCounter; // @synthesize notificationsCounter=_notificationsCounter;
-@property(readonly, nonatomic) MPNowPlayingInfoAudioFormat *nowPlayingAudioFormat;
-@property(copy, nonatomic) MPMediaItem *nowPlayingItem;
-@property(nonatomic) unsigned long long nowPlayingUID; // @synthesize nowPlayingUID=_nowPlayingUID;
-@property(nonatomic) long long playbackSpeed;
-@property(readonly, nonatomic) long long playbackState;
-@property(nonatomic) _Bool prioritizeStartupOverQuality;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) long long repeatMode;
-@property(readonly, nonatomic) MPMusicPlayerControllerNowPlaying *serverNowPlaying; // @synthesize serverNowPlaying=_serverNowPlaying;
-@property(readonly, nonatomic) MPMusicPlayerQueueDescriptor *serverQueueDescriptor; // @synthesize serverQueueDescriptor=_serverQueueDescriptor;
-@property(readonly, nonatomic) MPMusicPlayerControllerNowPlayingTimeSnapshot *serverTimeSnapshot; // @synthesize serverTimeSnapshot=_serverTimeSnapshot;
-@property(nonatomic) long long shuffleMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPMusicPlayerQueueDescriptor *targetQueueDescriptor; // @synthesize targetQueueDescriptor=_targetQueueDescriptor;
-@property(nonatomic) _Bool userQueueModificationsDisabled; // @synthesize userQueueModificationsDisabled=_userQueueModificationsDisabled;
-@property(nonatomic) float volume;
-@property(readonly, nonatomic) MPVolumeController *volumeController; // @synthesize volumeController=_volumeController;
 
 @end
 

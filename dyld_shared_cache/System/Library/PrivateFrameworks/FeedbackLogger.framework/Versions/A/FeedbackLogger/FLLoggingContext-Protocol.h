@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLAutoBugCapture, NSFileManager, NSObject, NSString, NSUserDefaults;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol FLLoggingContext
+- (void);
+- (NSObject<OS_dispatch_queue> *)setMountedPreboot: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ation observer;
 
 // Remaining properties
-@property(readonly, nonatomic) FLAutoBugCapture *autoBugCapture;
-@property(readonly, nonatomic) _Bool deviceUnlockedSinceBoot;
-@property(readonly, nonatomic) NSFileManager *fileManager;
 @property(readonly, nonatomic) unsigned long long now;
-@property(readonly, nonatomic) unsigned long long persistenceConfiguration;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly, copy, nonatomic) NSString *timestampReferenceIdentifier;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults;
 @end
 

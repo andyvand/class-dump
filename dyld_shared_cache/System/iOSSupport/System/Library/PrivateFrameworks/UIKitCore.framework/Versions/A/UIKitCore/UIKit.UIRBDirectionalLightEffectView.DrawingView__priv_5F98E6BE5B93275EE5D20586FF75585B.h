@@ -12,9 +12,9 @@
     id effects;
 }
 
-+ (Class);
++ (Class)MPAVRoute",R,N;
 - (void);
-- (id);
+- (id)c;
 - (void);
 - (id)ðððððððððððððððððððððððððððÂ;
 - (void)ødl;

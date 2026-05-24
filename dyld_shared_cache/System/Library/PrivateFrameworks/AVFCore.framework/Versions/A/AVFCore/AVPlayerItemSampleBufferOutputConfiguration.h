@@ -9,7 +9,7 @@
     double _advanceIntervalForDataAvailability;
 }
 
-- (void);
+- (void)containsObject:(double)arg1;
 - (double);
 
 // Remaining properties

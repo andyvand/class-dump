@@ -7,8 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_DescriptorProto.ExtensionRange._StorageClass__priv_B62C77B489B1F84E4650498C184D5180
 {
     id _start;
-    id _end;
-    id _options;
 }
 
 @end

@@ -8,11 +8,11 @@
 {
 }
 
-- (id);
+- (id)_installFailed;
+- (void)_installPending;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)mData:(id)arg1 ] unable to create authorization from data:(id)arg2 %d;
+- (void)horizationFromData:(id)arg1 ];
 
 @end
 

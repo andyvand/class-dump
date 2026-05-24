@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebAVStreamDataParserListener
 {
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (ThreadSafeWeakPtr_db3974ad);
+- (ThreadSafeWeakPtr_db3974ad)superclass;
 - (void);
 - (id);
 - (void)leThreadWeakPtrImpl>];
@@ -37,14 +35,7 @@ iätf8àUìo<á6³ðûg­ï,)±îÛù07·ï,00®j&æId®ðõÒ-liâ
 BâÚôà/kitcèã;,éstaîì×nspiòì®9åðAÑijiîêQDa®pÎúà0Iëïà/xngoläðçéð¿D00³ìÅgéð|äoèð´­ð¿mstaòð·æk¾åAâiîðÈÞ­mamåë{zâðæáñ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property ThreadSafeWeakPtr_db3974ad parent; // @synthesize parent=_parent;
-@property(readonly) Class superclass;
 
 @end
 

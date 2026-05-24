@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVQueuePlayer, NSString, TLAlertQueuePlayerStateDescriptor, TLAudioQueue;
+@class TLAudioQueue;
 
 @interface TLAlertQueuePlayerController
 {
     TLAudioQueue *_audioQueue;
-    struct os_unfair_lock_s _lock;
-    TLAlertQueuePlayerStateDescriptor *_stateDescriptor;
-    NSString *_playingToneIdentifier;
-    AVAsset *_toneAssetForPendingPlayingAlert;
-    _Bool _hasToneAssetForPendingPlayingAlert;
-    _Bool _isStoppingPlayingAlert;
-    _Bool _isWaitingToCompleteReloadPlaybackRequest;
-    _Bool _isObservingQueuePlayer;
-    AVQueuePlayer *_queuePlayer;
-    _Bool _isAudioEnvironmentSetup;
-    CDStruct_13aec295 _externalEnvironmentValues;
 }
 
 + (_Bool);
 + (id);
-+ (CDStruct_13aec295);
++ (CDStruct_3d581f42);
 + (double);
 + (long long);
 + (double);
@@ -66,13 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

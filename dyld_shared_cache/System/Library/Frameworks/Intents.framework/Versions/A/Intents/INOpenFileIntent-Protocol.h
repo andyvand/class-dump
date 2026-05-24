@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol INOpenFileIntent
+- (NSString *)s :%s (%d) /* Error: Ran out of types for this method. */;
+- (void)UTF8String;
+- (id)h;
+- (void)disable_network_peer;
 - (NSString *);
 
 // Remaining properties
-@property(copy) NSString *appId;
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
-@property(copy) NSArray *properties;
-@property(copy) NSString *scope;
-@property(copy) NSString *scopeEntityName;
 @end
 

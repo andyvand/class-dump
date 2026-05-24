@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class CNPhotoPickerProviderItem, NSString;
 
 @protocol CNVisualIdentityPickerTextEditableProviderItem
+- (CNPhotoPickerProviderItem *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor;
 @property(readonly, nonatomic) NSString *itemText;
 @end
 

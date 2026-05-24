@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFSwiftIMAPTaskManager
 {
     id workloopKey;
-    id workloop;
-    id callbackQueue;
-    id queue;
-    id logger;
-    id identifier;
-    id makeEngineAndAdaptor;
-    id _engineAndAdaptor;
-    id bodyFetchContext;
 }
 
 - (void);
@@ -27,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -44,39 +36,35 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)A9_;
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)=;
+- (void)ted device with build (%{public}@) as ready.;
+- (_Bool)8;
 - (void);
 - (_Bool);
 - (id)4%ýÿÿÿýÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool connected;
 @property(nonatomic, copy) NSString *defaultIdleMailboxName;
-@property(nonatomic) unsigned int firstNewInboxUID;
-@property(nonatomic, readonly) _Bool hasActivity;
-@property(nonatomic, copy) NSString *secondaryIdleMailboxName;
 
 @end
 

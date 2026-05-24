@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (void)CEMPredicateCompositeBudget;
+- (id);
 - (void);
-- (id);
-- (void);
-- (void)estoringInputViews;
+- (void)_isRestoringInputViews;
 - (id)l%Ä%	&ì';
 - (_Bool);
 - (void)ÑØ4];

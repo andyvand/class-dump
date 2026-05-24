@@ -7,6 +7,16 @@
 @class CPLFingerprintContext, CPLResource, NSArray, NSString;
 
 @protocol CPLLibraryManagerImplementation
+- (void);
+- (void){;
+- (void)6;
+- (void)qb;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)cipal %s - %d gss server principal %s - %d %s for %s;
+- (void)3;
 - (void)1Â0@ù
 × ;
 - (void)Âð!Ô@ù1Â0@ù
@@ -21,22 +31,22 @@
 × ;
 - (void)ploadPushedChangesTask"16@"CPLEngineStoreTransaction"24;
 - (void)pe:(NSString *)arg1 shouldUpdateTransportScope:(long long)arg2 store:(long long)arg3 transport:(void (^)(CPLLibraryShareScopeChange *, NSError *))arg4 session:inTransaction: /* Error: Ran out of types for this method. */;
-- (void)ist;
-- (void)rojectPreviewImageData: /* Error: Ran out of types for this method. */;
-- (void)rror: /* Error: Ran out of types for this method. */;
-- (void)EngineLibrary:(NSString *)arg1 session:(void (^)(NSError *))arg2 clientCacheIdentifier:scope:transportScope: /* Error: Ran out of types for this method. */;
+- (void)shouldSyncScopeList;
+- (void)setProjectPreviewImageData: /* Error: Ran out of types for this method. */;
+- (void)notifyStatusForRecordViewHasChanged:persist:error: /* Error: Ran out of types for this method. */;
+- (void)initWithEngineLibrary:(NSString *)arg1 session:(void (^)(NSError *))arg2 clientCacheIdentifier:scope:transportScope: /* Error: Ran out of types for this method. */;
 - (void)hasMingledRecordsForScopeWithIdentifier:(void (^)(NSError *))arg1;
-- (void)ry;
-- (void)nsferTasksInTransportTasks;
-- (void)completionHandler:(NSArray *)arg1;
-- (void)essaryWithLastReportDate:(_Bool)arg1;
+- (void)featureVersionHistory;
+- (void)countOfTransferTasksInTransportTasks;
+- (void)beginInMemoryDownloadOfResource:(NSArray *)arg1 clientBundleID:(void (^)(NSArray *, NSError *))arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_reportQuarantineCountIfNecessaryWithLastReportDate:(_Bool)arg1;
+- (void)_fillStatus:(NSArray *)arg1 forComponents:(void (^)(NSArray *, NSError *))arg2 completionHandler: /* Error: Ran out of types for this method. */;
 - (void)T@"CPLFingerprintSchemeV2",R,V_mmcsv2FingerprintScheme;
-- (void)gate;
-- (void)yStorage;
+- (void)_CPLScheduledOverrideDelegate;
+- (void)CPLBatchExtractionStrategyStorage;
 - (void)ôã;
 - (void)library/Engine/Storage/CPLEngineOutgoingResources.m;
 - (void)Ha0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStorageViews.m;
-- (void);
 - (void)file URL;
 - (void)disk;
 - (void)r next state after %@;
@@ -46,8 +56,8 @@
 - (void)se it has been replaced with an other library manager;
 
 @optional
-- (void)ý;
-- (void)pers:(NSArray *)arg1 error:(void (^)(NSDictionary *, NSError *))arg2;
+- (void)A;
+- (void)storePushPullGatekeepers:(NSArray *)arg1 error:(void (^)(NSDictionary *, NSError *))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) CPLFingerprintContext *fingerprintContextIfKnown;

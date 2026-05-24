@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferEventMotion
 {
@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)enumerateWithOptionsV2:(id)arg1 fromOffset:usingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)>";
@@ -25,13 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

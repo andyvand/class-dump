@@ -7,9 +7,10 @@
 @protocol IMDaemonProtocol;
 
 @protocol IMDaemonMultiplexedConnectionManaging
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMDaemonProtocol> remoteProxy;
-@property(readonly, nonatomic) id <IMDaemonProtocol> synchronousRemoteProxy;
 @end
 

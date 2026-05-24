@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface SOSystemIdleMonitor
 {
     id _globalEventMonitor;
-    id _localEventMonitor;
-    NSMutableDictionary *_listenerLookup;
-    NSMutableDictionary *_timerLookup;
 }
 
-+ (id);
++ (id)_provisioningContextWithProvisioningController:setupAssistantCredentials:maximumSelectable: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -22,9 +17,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)setTintColor:animated: /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
+- (void)stringWithFormat: /* Error: Ran out of types for this method. */;
 
 @end
 

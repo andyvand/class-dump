@@ -9,12 +9,6 @@
 @interface SCNPlane : SCNGeometry
 {
     double _width;
-    double _height;
-    double _cornerRadius;
-    long long _widthSegmentCount;
-    long long _heightSegmentCount;
-    long long _cornerSegmentCount;
-    long long _primitiveType;
 }
 
 + (id);
@@ -30,7 +24,7 @@
 - (long long);
 - (id);
 - (void);
-- (struct __C3DGeometry *);
+- (struct __C3DGeometry *)#;
 - (void);
 - (id);
 - (_Bool);
@@ -39,7 +33,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (double);
 - (double);
 - (void);
@@ -53,12 +47,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) long long cornerSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 
 @end
 

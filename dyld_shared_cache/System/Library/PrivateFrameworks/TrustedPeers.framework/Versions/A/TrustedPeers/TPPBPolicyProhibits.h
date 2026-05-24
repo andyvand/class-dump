@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TPPBPolicyProhibits
 {
     unsigned long long _policyVersion;
-    NSString *_candidateCategory;
-    NSString *_explanation;
-    NSString *_sponsorCategory;
-    NSString *_sponsorId;
-    CDStruct_0e29c504 _has;
 }
 
 - (id);
@@ -25,7 +18,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (id);
@@ -37,23 +30,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)%@.;
+- (id)tatus APMetadataSenderCreate(CFAllocatorRef, APSenderSessionRef, APMetadataFeatures, dispatch_queue_t, APMetadataSourceRef, void *, APMetadataSenderIsTimelineEstablishedCallback, APMetadataSenderGetCurrentRTPTimeCallback, APMetadataSenderRef *);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *candidateCategory; // @synthesize candidateCategory=_candidateCategory;
-@property(retain, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(readonly, nonatomic) _Bool hasCandidateCategory;
-@property(readonly, nonatomic) _Bool hasExplanation;
 @property(nonatomic) _Bool hasPolicyVersion;
-@property(readonly, nonatomic) _Bool hasSponsorCategory;
-@property(readonly, nonatomic) _Bool hasSponsorId;
-@property(nonatomic) unsigned long long policyVersion; // @synthesize policyVersion=_policyVersion;
-@property(retain, nonatomic) NSString *sponsorCategory; // @synthesize sponsorCategory=_sponsorCategory;
-@property(retain, nonatomic) NSString *sponsorId; // @synthesize sponsorId=_sponsorId;
 
 @end
 

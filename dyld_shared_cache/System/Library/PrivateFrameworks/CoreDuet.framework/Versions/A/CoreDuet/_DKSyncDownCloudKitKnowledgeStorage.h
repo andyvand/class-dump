@@ -5,18 +5,16 @@
 //
 
 @class _DKSyncCloudKitKnowledgeStorage;
-@protocol _DKSyncRemoteKnowledgeStorageFetchDelegate;
 
 @interface _DKSyncDownCloudKitKnowledgeStorage
 {
     _DKSyncCloudKitKnowledgeStorage *_common;
-    id <_DKSyncRemoteKnowledgeStorageFetchDelegate> _delegate;
 }
 
 + (id)ContactEvent"16;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -28,23 +26,21 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Cs%0Cs%1Cs%2Cs%aCs%cCs%eCs%iCs%oCs%sCs%t.s%;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void)!CùÑ©3ð1Â0@ù
 × ;
-- (long long)orEventsWithStartDateAfter: /* Error: Ran out of types for this method. */;
-- (void)entStreamsRegister;
+- (long long)predicateForEventsWithStartDateAfter: /* Error: Ran out of types for this method. */;
+- (void)_eventStreamsRegister;
 - (void)quency consumer;
 
 // Remaining properties
-@property(getter=isAvailable) _Bool available;
 @property(retain) _DKSyncCloudKitKnowledgeStorage *common; // @synthesize common=_common;
-@property(retain) id <_DKSyncRemoteKnowledgeStorageFetchDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

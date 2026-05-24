@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPSpotlightEmbeddingState
+- (int)rString>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, IPC::TransferString>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, IPC::TransferString>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, IPC::TransferString>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, IPC::TransferString>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, IPC::TransferString>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)get = API:(int)arg1:UserScript, Source = API::Object, PtrTraits = WTF::RawPtrTraits<API::Object>, RefDerefTraits = WTF::DefaultRefDerefTraits<API::Object>] /* Error: Ran out of types for this method. */;
+- (void)Core:(int)arg1:ScaleTransformOperation, Source = WebCore::TransformOperation, PtrTraits = WTF::RawPtrTraits<WebCore::TransformOperation>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::TransformOperation>] /* Error: Ran out of types for this method. */;
+- (void)PtrTraits, RefDerefTraits>) [Target = WebCore:(int)arg1:ScaleTransformOperation, Source = WebCore::TransformOperation, PtrTraits = WTF::RawPtrTraits<WebCore::TransformOperation>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::TransformOperation>] /* Error: Ran out of types for this method. */;
+- (int)lloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int)kPtr<WebKit::NetworkProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int embeddedPhotosAssetsCount;
-@property(nonatomic) int embeddedPhotosAssetsPercentage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int totalPhotosAssetsCount;
 @end
 

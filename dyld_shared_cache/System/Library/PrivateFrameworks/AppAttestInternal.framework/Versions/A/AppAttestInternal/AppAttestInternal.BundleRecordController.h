@@ -7,10 +7,6 @@
 @interface AppAttestInternal.BundleRecordController
 {
     id auditToken;
-    id logger;
-    id $__lazy_storage_$_securityController;
-    id $__lazy_storage_$_recordCache;
-    id $__lazy_storage_$_allowlistedThirdPartyAppExtensionTypes;
 }
 
 @end

@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, CRTableStructureRecognizerResultProgram;
+@class CRNormalizedQuad;
 
 @interface CRTableStructureRecognizerResult
 {
     CRNormalizedQuad *_tableQuad;
-    CRTableStructureRecognizerResultProgram *_program;
-    vector_0f90da2f _rows;
-    vector_9ef6d755 _columns;
-    vector_9009152f _merges;
-    vector_2b89d498 _textLineIndexesForCells;
-    vector_672b9697 _rectForCells;
-    vector_46603644 _rowsForCells;
-    vector_46603644 _columnsForCells;
-    struct CRTableStructureRecognizerResultParsed _parsedProgram;
 }
 
-- (vector_2b89d498);
+- (vector_10f0b7fc);
 - (id);
 - (void);
 - (void);
@@ -29,31 +20,22 @@
 - (void);
 - (void);
 - (void);
-- (vector_46603644);
-- (vector_672b9697);
+- (vector_6a547bec);
+- (vector_2afa0483);
 - (struct CRTableStructureRecognizerResultParsed);
-- (vector_9009152f);
-- (vector_46603644);
-- (void);
-- (void);
-- (void);
-- (id);
+- (vector_88cd3d4f);
+- (vector_6a547bec);
+- (void)safari_notificationNameForUserDefaultsKey:(id)arg1;
+- (void)_visibleTrailingButtonClosestToTextField;
+- (void)_verticalBadgeOffsetConstraint;
+- (id)HistoryConnectionProxyHolder;
 - (id);
 - (void)mage_Buffer=^vQQQ}36@0:8Q16Q24i32 /* Error: Ran out of types for this method. */;
-- (vector_9ef6d755);
-- (vector_0f90da2f)È;
+- (vector_723dfca5);
+- (vector_80d80252)È;
 
 // Remaining properties
-@property(nonatomic) vector_9ef6d755 columns; // @synthesize columns=_columns;
-@property(nonatomic) vector_46603644 columnsForCells; // @synthesize columnsForCells=_columnsForCells;
-@property(nonatomic) vector_9009152f merges; // @synthesize merges=_merges;
-@property(nonatomic) struct CRTableStructureRecognizerResultParsed parsedProgram; // @synthesize parsedProgram=_parsedProgram;
-@property(retain) CRTableStructureRecognizerResultProgram *program; // @synthesize program=_program;
-@property(nonatomic) vector_672b9697 rectForCells; // @synthesize rectForCells=_rectForCells;
-@property(nonatomic) vector_0f90da2f rows; // @synthesize rows=_rows;
-@property(nonatomic) vector_46603644 rowsForCells; // @synthesize rowsForCells=_rowsForCells;
-@property(retain, nonatomic) CRNormalizedQuad *tableQuad; // @synthesize tableQuad=_tableQuad;
-@property(nonatomic) vector_2b89d498 textLineIndexesForCells; // @synthesize textLineIndexesForCells=_textLineIndexesForCells;
+@property(nonatomic) vector_80d80252 rows; // @synthesize rows=_rows;
 
 @end
 

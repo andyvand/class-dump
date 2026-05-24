@@ -9,9 +9,6 @@
 @interface MNTracePlayerTimelineStream
 {
     NSArray *_data;
-    unsigned long long _nextIndex;
-    double _nextUpdatePosition;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -25,8 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) unsigned long long nextIndex; // @synthesize nextIndex=_nextIndex;
-@property(readonly, nonatomic) double nextUpdatePosition; // @synthesize nextUpdatePosition=_nextUpdatePosition;
 
 @end
 

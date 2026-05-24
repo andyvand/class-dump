@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableIndexSet;
-
 @interface PHImportTimerCollection
 {
     unsigned char _mediaType;
-    unsigned long long _fileSize;
-    NSMutableArray *_timers;
-    NSMutableIndexSet *_runningTimers;
-    unsigned char _aspectRatio;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)n#na@nb`;
 - (double);
 - (id);
 - (void);

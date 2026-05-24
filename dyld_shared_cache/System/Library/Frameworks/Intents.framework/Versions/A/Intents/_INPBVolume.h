@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBVolume
 {
     struct _has;
-    NSArray *_values;
 }
 
 + (Class);
@@ -18,7 +17,7 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -31,15 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

@@ -6,9 +6,6 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSObject, UIBarButtonItemGroup, UIDocument, UIDocumentViewControllerLaunchOptions, _UIBarButtonItemActionBinding, _UIDocumentLaunchViewController, _UIDocumentMovedPopoverViewController;
-@protocol OS_dispatch_queue;
-
 @interface UIDocumentViewController : UIViewController
 {
     struct {
@@ -16,34 +13,26 @@
         unsigned int hasReceivedDocumentDidOpen:1;
         unsigned int needsDocumentUnavailableConfigurationUpdate:1;
     } _flags;
-    UIDocumentViewControllerLaunchOptions *_launchOptions;
-    UIBarButtonItemGroup *_undoRedoItemGroup;
-    NSObject<OS_dispatch_queue> *_documentBackgroundQueue;
-    _UIDocumentLaunchViewController *_launchViewController;
-    UIDocument *_document;
-    unsigned long long _lastKnownState;
-    _UIBarButtonItemActionBinding *_undoManagerBinding;
-    _UIDocumentMovedPopoverViewController *_documentMovedPopover;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Received merge complete notification, re-syncing chats;
+- (void)nickname data of size %lu, recordID data of size %lu, and encryption key of size %lu to disk;
+- (void)or:(CDUnknownBlockType)arg1 %@;
+- (void)in exit state, _shouldiCloudSwitchBeEnabled is based on whether feature is enabled or not:%@ /* Error: Ran out of types for this method. */;
+- (id)IMDPhotosSyndicationLibraryChangeListener;
+- (unsigned long long)e-id="%@";
 - (id);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +45,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -68,7 +57,7 @@
 × ;
 - (void)
 × ;
-- (void)imatedTextSpacerAnimationInfo;
+- (void)_UIAnimatedTextSpacerAnimationInfo;
 - (void)updates on tab bar controller.;
 - (_Bool)éj434Úsþ;
 - (struct UIEdgeInsets);
@@ -79,15 +68,7 @@
 - (void)_;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isPresentedFromDocumentBrowser;
-@property(retain, nonatomic) UIDocument *document; // @synthesize document=_document;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *documentBackgroundQueue; // @synthesize documentBackgroundQueue=_documentBackgroundQueue;
-@property(nonatomic) __weak _UIDocumentMovedPopoverViewController *documentMovedPopover; // @synthesize documentMovedPopover=_documentMovedPopover;
 @property(readonly, nonatomic) unsigned long long lastKnownState; // @synthesize lastKnownState=_lastKnownState;
-@property(retain, nonatomic) UIDocumentViewControllerLaunchOptions *launchOptions; // @synthesize launchOptions=_launchOptions;
-@property(retain, nonatomic) _UIDocumentLaunchViewController *launchViewController; // @synthesize launchViewController=_launchViewController;
-@property(readonly, nonatomic) _UIBarButtonItemActionBinding *undoManagerBinding; // @synthesize undoManagerBinding=_undoManagerBinding;
-@property(readonly, nonatomic) UIBarButtonItemGroup *undoRedoItemGroup; // @synthesize undoRedoItemGroup=_undoRedoItemGroup;
 
 @end
 

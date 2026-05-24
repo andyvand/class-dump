@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRNowPlayingPlayerPathProtobuf, _MRTransactionPacketsProtobuf;
-
 @interface _MRTransactionMessageProtobuf
 {
     unsigned long long _name;
-    _MRTransactionPacketsProtobuf *_packets;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    struct {
-        unsigned int name:1;
-    } _has;
 }
 
 - (_Bool);
@@ -22,28 +15,23 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`N;
 - (void);
-- (id);
-- (id);
+- (id)to ENOENT;
+- (id)tion.deactivate;
 - (void);
 - (void);
-- (void)ableOperations;
+- (void)cancelableOperations;
 
 // Remaining properties
 @property(nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPackets;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(nonatomic) unsigned long long name; // @synthesize name=_name;
-@property(retain, nonatomic) _MRTransactionPacketsProtobuf *packets; // @synthesize packets=_packets;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

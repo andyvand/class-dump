@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)(%d) tile key;
 - (id);
-- (id);
+- (id)ctionIfNeeded:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id)eCoordinateForDistanceAfterStart:(struct _NSZone *)arg1;
+- (id)routeCoordinateForDistanceAfterStart:(struct _NSZone *)arg1;
 - (void);
 
 @end

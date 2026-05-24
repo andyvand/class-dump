@@ -6,25 +6,17 @@
 
 #import <SafariShared/WBSPerSitePreferenceManager.h>
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, WBSCoalescedAsynchronousWriter, WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, WBSPerSitePreference;
 
 @interface WBSUserMediaPermissionController : WBSPerSitePreferenceManager
 {
     NSMutableDictionary *_cachedSettings;
-    WBSCoalescedAsynchronousWriter *_saveUserMediaPermissionsWriter;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    struct atomic<LoadingStatus> _savedStateLoadStatus;
-    NSURL *_userMediaPermissionsFileURL;
-    WBSPerSitePreferencesSQLiteStore *_perSitePreferencesStore;
-    WBSPerSitePreference *_cameraMediaCapturePreference;
-    WBSPerSitePreference *_microphoneMediaCapturePreference;
 }
 
 + (id);
 + (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)=;
 - (void);
 - (void);
 - (void);
@@ -36,7 +28,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long).;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -73,7 +65,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (long long);
@@ -86,15 +78,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WBSPerSitePreference *cameraMediaCapturePreference; // @synthesize cameraMediaCapturePreference=_cameraMediaCapturePreference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSPerSitePreference *microphoneMediaCapturePreference; // @synthesize microphoneMediaCapturePreference=_microphoneMediaCapturePreference;
-@property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore; // @synthesize perSitePreferencesStore=_perSitePreferencesStore;
-@property(readonly) Class superclass;
 
 @end
 

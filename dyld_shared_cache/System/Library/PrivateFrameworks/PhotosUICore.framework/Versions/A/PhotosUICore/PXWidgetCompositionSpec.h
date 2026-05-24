@@ -9,12 +9,6 @@
 @interface PXWidgetCompositionSpec
 {
     PXWidgetSpec *_widgetSpec;
-    long long _maximumNumberOfColumns;
-    long long _orientation;
-    PXWidgetBarSpec *_footerSpec;
-    long long _disclosureLocation;
-    PXWidgetBarSpec *__defaultHeaderSpec;
-    PXWidgetBarSpec *__headerSpecForFlushedContent;
 }
 
 - (id);
@@ -22,21 +16,15 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (long long);
+- (id)I	3?I;
 - (id);
 - (long long);
+- (id);
+- (long long);
 - (void)k;
 
 // Remaining properties
 @property(readonly, nonatomic) PXWidgetBarSpec *_defaultHeaderSpec; // @synthesize _defaultHeaderSpec=__defaultHeaderSpec;
-@property(readonly, nonatomic) PXWidgetBarSpec *_headerSpecForFlushedContent; // @synthesize _headerSpecForFlushedContent=__headerSpecForFlushedContent;
-@property(readonly, nonatomic) long long disclosureLocation; // @synthesize disclosureLocation=_disclosureLocation;
-@property(readonly, nonatomic) PXWidgetBarSpec *footerSpec; // @synthesize footerSpec=_footerSpec;
-@property(readonly, nonatomic) long long maximumNumberOfColumns; // @synthesize maximumNumberOfColumns=_maximumNumberOfColumns;
-@property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) PXWidgetSpec *widgetSpec; // @synthesize widgetSpec=_widgetSpec;
 
 @end
 

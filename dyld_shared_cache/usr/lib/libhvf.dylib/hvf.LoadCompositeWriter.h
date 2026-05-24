@@ -8,20 +8,6 @@
 {
     id subparts;
     id extremumCSCColumnStarts;
-    id masterCSCRowIndices;
-    id extremumCSCRowIndices;
-    id masterCSCAxisValues;
-    id extremumCSCAxisValues;
-    id masterTranslationIndices;
-    id masterTranslations;
-    id masterRotationIndices;
-    id masterRotations;
-    id extremumTranslationIndices;
-    id extremumTranslations;
-    id extremumRotationIndices;
-    id extremumRotations;
-    id composite;
-    id shim;
 }
 
 @end

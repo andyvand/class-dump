@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (id);
@@ -24,11 +24,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_synthesizeCharacterInventoryBehavior;
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)alendarInternPool;
+- (_Bool)PPCalendarInternPool;
 - (void)u ;
 
 // Remaining properties

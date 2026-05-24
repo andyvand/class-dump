@@ -7,11 +7,11 @@
 @class _INPBTask;
 
 @protocol _INPBSetTaskAttributeIntentResponse
+- (int);
+- (void)cѰ;
+- (int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasModifiedTask;
 @property(retain, nonatomic) _INPBTask *modifiedTask;
-@property(readonly, nonatomic) int *warnings;
-@property(readonly, nonatomic) unsigned long long warningsCount;
 @end
 

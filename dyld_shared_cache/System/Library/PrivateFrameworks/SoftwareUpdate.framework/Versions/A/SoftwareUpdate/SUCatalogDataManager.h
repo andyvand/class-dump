@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, SUCatalog;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSString, SUCatalog;
 
 __attribute__((visibility("hidden")))
 @interface SUCatalogDataManager
 {
     NSString *_catalogEntityTag;
-    NSURL *_currentlySetCatalogURL;
-    NSMutableDictionary *_lastClientRetrievalPostDateByKey;
-    _Bool _isCatalogEVProtected;
-    _Bool _isDefaultCatalogURL;
-    NSString *_cachePathRoot;
-    SUCatalog *_catalog;
-    NSObject<OS_dispatch_semaphore> *_inFlightSemaphore;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    NSObject<OS_dispatch_queue> *_loadQueue;
-    NSObject<OS_dispatch_queue> *_handlerQueue;
 }
 
 + (id);
@@ -43,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id):/ /* Error: Ran out of types for this method. */;
 - (void)(Ð!Aù±,ð1Â0@ù
 × ;
 

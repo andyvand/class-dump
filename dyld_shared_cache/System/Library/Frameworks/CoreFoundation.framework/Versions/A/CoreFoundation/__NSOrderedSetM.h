@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSOrderedSetM : NSMutableOrderedSet
 {
     _Atomic struct __cow_state_t *cow;
-    CDStruct_2595eaee storage;
 }
 
 + (_Bool);
@@ -18,20 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)%lu for %@[%lu] which is also the %s attachment. This may be a conflict as the %s attachment's storeAction == MTLStoreActionStore and depth writes are enabled.;
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)originalInstallType;
+- (_Bool)ent ;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)Queue;
+- (void)currentQueue;
 - (void)nRegistrar.c;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)tuOdbolg;
 - (unsigned long long)D ;
 
 @end

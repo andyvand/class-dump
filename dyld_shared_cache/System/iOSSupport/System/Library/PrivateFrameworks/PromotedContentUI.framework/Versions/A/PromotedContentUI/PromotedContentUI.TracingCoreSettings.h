@@ -7,7 +7,6 @@
 @interface PromotedContentUI.TracingCoreSettings
 {
     id tracedSettings;
-    id log;
 }
 
 @end

@@ -6,33 +6,29 @@
 
 #import <IMCore/IMBalloonPlugin.h>
 
-@class LSPlugInKitProxy, NSExtension, NSNumber, NSUUID;
-@protocol PKPlugIn;
+@class LSPlugInKitProxy;
 
 @interface IMBalloonAppExtension : IMBalloonPlugin
 {
     _Bool _canSendDataPayloads;
-    NSExtension *_extension;
-    LSPlugInKitProxy *_proxy;
-    NSUUID *_requestIdentifier;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)ot statistically relevant. LastMinTimestamp=%d, stdev=%f, mean=%f, stdevMult=%f, skew=%f, kurtosis=%f, threshold=%f, candMinLag=%f, finalMinLag=%f;
+- (_Bool):%d Noted jump in AddLagToHistory %f /* Error: Ran out of types for this method. */;
+- (void)compute audio Tx bit rate because timePeriod=%fs < (AUDIO_TRANSMITTER_MIN_BITRATE_REPORT_PERIOD=%fs);
+- (_Bool)th nil;
+- (id)on;
+- (_Bool)%d %@(%p) Failed to setup XPC;
+- (id)%d This should not be called for IP camera or display;
+- (id)g rules:(id)arg1 no H264 support;
+- (id)essOutputChange=%d;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)b;
 - (id);
 - (id)QÖ°1Â0@ù
 × ;
@@ -40,14 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canSendDataPayloads; // @synthesize canSendDataPayloads=_canSendDataPayloads;
-@property(readonly, retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly, nonatomic) _Bool isLaunchProhibited;
-@property(readonly, retain, nonatomic) NSNumber *itemID;
-@property(readonly, retain, nonatomic) id <PKPlugIn> plugin;
 @property(retain, nonatomic) LSPlugInKitProxy *proxy; // @synthesize proxy=_proxy;
-@property(retain) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly, nonatomic) _Bool shouldBalloonHideAppIcon;
 
 @end
 

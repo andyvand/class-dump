@@ -6,14 +6,12 @@
 
 #import <CryptoTokenKit/TKSEPKey.h>
 
-@class NSString, NSXPCConnection;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TKLocalSEPKey : TKSEPKey
 {
     NSString *_callerName;
-    NSXPCConnection *_caller;
-    id _sac;
 }
 
 + (void);
@@ -21,14 +19,14 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (void);
 + (int);
-+ (id);
++ (id)C;
 + (int);
 + (void);
 + (id);
 + (int);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (void);
 - (id);
@@ -36,21 +34,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (struct __SecAccessControl *);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)openSettingsAppWithDictionary:(id)arg1 context:(id *)arg2;
+- (void)J;
+- (id)P;
 - (id);
-- (id);
-- (void);
+- (void)cationReason' option;
 - (id)À;
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *caller; // @synthesize caller=_caller;
-@property(readonly, nonatomic) NSString *callerName;
 @property(retain, nonatomic) id sac; // @synthesize sac=_sac;
 
 @end

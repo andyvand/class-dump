@@ -6,16 +6,12 @@
 
 #import <Sharing/SFSession.h>
 
-@class CUPairingSession, SFService;
+@class CUPairingSession;
 
 __attribute__((visibility("hidden")))
 @interface SFServiceSession : SFSession
 {
     CUPairingSession *_pairSetupSession;
-    unsigned int _pairSetupXID;
-    CUPairingSession *_pairVerifySession;
-    unsigned long long _sendLastTicks;
-    SFService *_service;
 }
 
 - (void);
@@ -46,17 +42,16 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_|;
 - (void)îxþÿ°þÿþÿ;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long sendLastTicks; // @synthesize sendLastTicks=_sendLastTicks;
-@property(retain, nonatomic) SFService *service; // @synthesize service=_service;
 
 @end
 

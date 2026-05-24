@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDVideoResolution
 {
     NSNumber *_imageWidth;
-    NSNumber *_imageHeight;
-    unsigned long long _resolutionType;
 }
 
 + (id);
@@ -28,13 +26,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)sidentsList:(struct _NSZone *)arg1;
+- (id)primarySelectionMode:(struct _NSZone *)arg1 didUpdatePreferredResidentsList: /* Error: Ran out of types for this method. */;
 - (void)e;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *imageHeight; // @synthesize imageHeight=_imageHeight;
 @property(readonly, copy, nonatomic) NSNumber *imageWidth; // @synthesize imageWidth=_imageWidth;
-@property(readonly, nonatomic) unsigned long long resolutionType; // @synthesize resolutionType=_resolutionType;
 
 @end
 

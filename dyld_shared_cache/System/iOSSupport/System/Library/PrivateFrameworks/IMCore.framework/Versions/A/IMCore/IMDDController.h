@@ -15,7 +15,7 @@
 + (id);
 + (id)lr;
 - (struct __DDScanner *);
-- (void);
+- (void)V;
 - (id);
 - (void);
 - (void);
@@ -23,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)7;
 - (void)l 3;
 
 // Remaining properties

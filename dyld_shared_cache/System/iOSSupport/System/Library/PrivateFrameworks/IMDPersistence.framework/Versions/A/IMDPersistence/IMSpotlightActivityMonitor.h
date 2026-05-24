@@ -9,7 +9,7 @@
     id state;
 }
 
-+ (id);
++ (id)#;
 - (void);
 - (void);
 - (void);

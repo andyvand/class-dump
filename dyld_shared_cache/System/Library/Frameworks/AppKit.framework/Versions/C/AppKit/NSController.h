@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-
 @interface NSController
 {
     id _modelObservingTracker;
-    id _expectedObservingInfo;
-    id _singleValueAccessor;
-    int _specialPurposeType;
-    id _bindingAdaptor;
-    NSMutableArray *_editors;
-    NSMutableArray *_declaredKeys;
-    NSMutableDictionary *_dependentKeyToModelKeyTable;
-    NSMutableDictionary *_modelKeyToDependentKeyTable;
-    NSMutableArray *_modelKeysToRefreshEachTime;
-    struct __bindingsControllerFlags {
-        unsigned int _alwaysPresentsApplicationModalAlerts:1;
-        unsigned int _refreshesAllModelKeys:1;
-        unsigned int _multipleObservedModelObjects:1;
-        unsigned int _isEditing:1;
-        unsigned int _reservedController:28;
-    } _bindingsControllerFlags;
 }
 
-+ (id);
++ (id)@;
 + (Class);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)41oC41sC41t.41;
 + (void)å;
 + (_Bool)\·ÿ;
 - (void);
+- (void)y"80{?={?=qiIq}{?=qiIq}}88@"AVMediaSelection"136;
+- (void)sk"24{?={?=qiIq}{?=qiIq}}32@"NSArray"80{?={?=qiIq}{?=qiIq}}88@"AVMediaSelection"136;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)g RME with domain %s and code %lld;
+- (_Bool)%d;
+- (_Bool)e task corpse with error:%d /* Error: Ran out of types for this method. */;
+- (_Bool)inking. Purging persistent cache.;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (long long)ding user-info failed. Error:%@ /* Error: Ran out of types for this method. */;
+- (id)enableSPIDelegateCallbacks;
+- (id)AVAssetDownloadChildDownloadSessionIdentifier;
+- (id)AVAssetDownloadToken;
+- (id)temporaryDestinationURL;
+- (_Bool)ial %p>{userPrincipal = %@, hostPrincipal = %@, uuid = %@, kerberosFlags = %@, persistence = %d};
+- (_Bool)readFileToCookies;
+- (void)ile.mm;
+- (void)]?={} 	;
+- (void)TYPE = CFNACOAuthSigner];
+- (void)teAssetDownloadTask does not support response property;
+- (void)@%p> { State = %s, Count = %d, requests = {;
+- (void)eation_time int,		expires_time int,		UNIQUE(partition, host, port, type)		);;
+- (void)@"NSURLResponse"8^{__CFData=}16^{__CFError=}24;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (id);
@@ -69,18 +51,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (void)23n;
 - (void);
-- (void);
+- (id)up Channel ID key;
+- (void)ng interaction %{sensitive}@ to index %tu;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (_Bool)¼oÿ;
@@ -89,14 +71,7 @@
 I;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, getter=isEditing) _Bool editing;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

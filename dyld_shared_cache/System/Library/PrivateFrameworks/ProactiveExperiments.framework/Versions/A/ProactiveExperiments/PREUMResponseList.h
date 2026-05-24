@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PREUMMessageMetadata, PREUMTrialExperiment;
-
 @interface PREUMResponseList
 {
     unsigned long long _responseTimePerf;
-    PREUMTrialExperiment *_experiment;
-    int _generationStatus;
-    NSMutableArray *_items;
-    PREUMMessageMetadata *_msgMetadata;
-    _Bool _isCached;
-    struct {
-        unsigned int responseTimePerf:1;
-        unsigned int generationStatus:1;
-        unsigned int isCached:1;
-    } _has;
 }
 
 + (Class);
@@ -44,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)H;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -60,17 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PREUMTrialExperiment *experiment; // @synthesize experiment=_experiment;
-@property(nonatomic) int generationStatus; // @synthesize generationStatus=_generationStatus;
 @property(readonly, nonatomic) _Bool hasExperiment;
-@property(nonatomic) _Bool hasGenerationStatus;
-@property(nonatomic) _Bool hasIsCached;
-@property(readonly, nonatomic) _Bool hasMsgMetadata;
-@property(nonatomic) _Bool hasResponseTimePerf;
-@property(nonatomic) _Bool isCached; // @synthesize isCached=_isCached;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) PREUMMessageMetadata *msgMetadata; // @synthesize msgMetadata=_msgMetadata;
-@property(nonatomic) unsigned long long responseTimePerf; // @synthesize responseTimePerf=_responseTimePerf;
 
 @end
 

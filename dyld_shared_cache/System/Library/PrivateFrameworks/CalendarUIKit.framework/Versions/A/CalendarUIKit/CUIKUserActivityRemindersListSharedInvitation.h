@@ -13,11 +13,10 @@
     NSString *_title;
 }
 
-- (id)cý	Râ;
-- (_Bool)10@ù
-?×è;
 - (id);
+- (_Bool);
 - (id);
+- (id):(id)arg1 DM: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;

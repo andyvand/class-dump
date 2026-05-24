@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDADeviceStateActivityEnded : SISchemaInstrumentationMessage
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
@@ -22,16 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)nt_join maj WHERE message.ROWID = maj.message_id LIMIT 1), 0);
 - (_Bool);
 - (id);
 - (id)cipeType"b1"sampleCount"b1"isDebugTask"b1};
-- (id)itSchemaCloudKitEventMetadata;
+- (id)CloudKitSchemaCloudKitEventMetadata;
 - (id)°;
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface VNTasksQueueCache
 {
     NSMutableDictionary *_queueNameToTasksQueueDictionary;
-    struct os_unfair_lock_s _queueNameToTasksQueueDictionaryLock;
-    long long _maximumTasksCount;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)9h;
 - (id);
 - (void);
 - (id);

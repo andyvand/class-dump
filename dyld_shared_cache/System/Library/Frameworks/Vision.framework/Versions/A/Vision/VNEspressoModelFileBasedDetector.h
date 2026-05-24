@@ -12,28 +12,25 @@ __attribute__((visibility("hidden")))
 @interface VNEspressoModelFileBasedDetector : VNDetector
 {
     VNEspressoResources *_espressoResources;
-    unsigned long long _networkRequiredInputImageWidth;
-    unsigned long long _networkRequiredInputImageHeight;
-    unsigned long long _inputImageAspectRatioHandling;
 }
 
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)port"@"NSError">24;
 + (unsigned long long);
++ (id)CNChangeHistory;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -55,9 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) VNEspressoResources *espressoResources; // @synthesize espressoResources=_espressoResources;
-@property(readonly, nonatomic) unsigned long long inputImageAspectRatioHandling; // @synthesize inputImageAspectRatioHandling=_inputImageAspectRatioHandling;
-@property(readonly, nonatomic) unsigned long long networkRequiredInputImageHeight; // @synthesize networkRequiredInputImageHeight=_networkRequiredInputImageHeight;
-@property(readonly, nonatomic) unsigned long long networkRequiredInputImageWidth; // @synthesize networkRequiredInputImageWidth=_networkRequiredInputImageWidth;
 
 @end
 

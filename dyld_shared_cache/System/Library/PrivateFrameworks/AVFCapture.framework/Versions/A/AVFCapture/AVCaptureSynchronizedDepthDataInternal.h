@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureSynchronizedDepthDataInternal
 {
     AVDepthData *depthData;
-    _Bool depthDataWasDropped;
-    long long droppedReason;
 }
 
 @end

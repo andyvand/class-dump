@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterBridgeRoutingDecision, NSData;
-
 @interface NLRouterSchemaNLRouterBridgeHandleFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    int _errorCode;
-    NLRouterSchemaNLRouterBridgeRoutingDecision *_routingDecision;
-    CDStruct_7b2c8649 _has;
-    _Bool _hasRoutingDecision;
 }
 
 - (void);
@@ -24,14 +18,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)C;
+- (_Bool)_smsTargetConfirmButton;
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)12 (512 bit);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -46,13 +40,7 @@
 - (int)+]®B';
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasRoutingDecision; // @synthesize hasRoutingDecision=_hasRoutingDecision;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLRouterSchemaNLRouterBridgeRoutingDecision *routingDecision; // @synthesize routingDecision=_routingDecision;
 
 @end
 

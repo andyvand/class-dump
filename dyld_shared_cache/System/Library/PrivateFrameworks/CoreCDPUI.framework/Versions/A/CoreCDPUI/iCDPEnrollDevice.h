@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPDevice, NSImage, NSString;
+@class NSString;
 
 @interface iCDPEnrollDevice
 {
     _Bool _isCurrentDevice;
-    NSString *_localizedName;
-    NSString *_localizedDescription;
-    NSString *_model;
-    NSString *_recordID;
-    NSImage *_deviceIcon;
-    CDPDevice *_cdpDevice;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)7?;
 - (id);
+- (void)@9	;
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)A;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -35,20 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) CDPDevice *cdpDevice; // @synthesize cdpDevice=_cdpDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSImage *deviceIcon; // @synthesize deviceIcon=_deviceIcon;
-@property(readonly) unsigned long long hash;
-@property _Bool isCurrentDevice; // @synthesize isCurrentDevice=_isCurrentDevice;
-@property(retain) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(retain) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(retain) NSString *model; // @synthesize model=_model;
-@property(retain) NSString *recordID; // @synthesize recordID=_recordID;
-@property(readonly) Class superclass;
 
 @end
 

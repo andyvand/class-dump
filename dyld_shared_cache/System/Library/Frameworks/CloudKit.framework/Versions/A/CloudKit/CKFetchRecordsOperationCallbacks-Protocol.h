@@ -5,5 +5,6 @@
 //
 
 @protocol CKFetchRecordsOperationCallbacks
+- (void)6;
 @end
 

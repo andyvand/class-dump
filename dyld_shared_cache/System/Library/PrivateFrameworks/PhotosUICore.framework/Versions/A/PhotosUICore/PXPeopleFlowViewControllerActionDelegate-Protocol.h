@@ -5,5 +5,6 @@
 //
 
 @protocol PXPeopleFlowViewControllerActionDelegate
+- (void);
 @end
 

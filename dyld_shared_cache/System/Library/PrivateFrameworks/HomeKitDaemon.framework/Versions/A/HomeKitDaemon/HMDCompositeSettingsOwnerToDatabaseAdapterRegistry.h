@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsOwnerToDatabaseAdapterRegistry
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_settingOwnerToDatabaseAdapterTable;
 }
 
 - (void);
-- (void);
+- (void)loadModelAtURL:(id)arg1 options:(id)arg2 error:(id)arg3;
 - (id);
 - (id)to stop the thread network;
 - (void)place_identifiers;

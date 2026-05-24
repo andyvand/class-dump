@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, OSLogDoublyLinkedList;
-
 __attribute__((visibility("hidden")))
 @interface _OSLogLRUCache
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType evictionHandler;
-    unsigned long long _maxCount;
-    NSMutableDictionary *_storage;
-    OSLogDoublyLinkedList *_mruItems;
-    NSString *_name;
 }
 
 - (void);
@@ -22,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)W;
 - (id);
-- (id);
+- (id)alization"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
 - (id);
 - (void);
 - (id);
@@ -33,19 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType evictionHandler; // @synthesize evictionHandler;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(readonly, nonatomic) OSLogDoublyLinkedList *mruItems; // @synthesize mruItems=_mruItems;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSMutableDictionary *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,15 @@
 
 #import <PhotosGraph/PGGraphLocationNode.h>
 
-@class MANodeFilter, NSString;
+@class NSString;
 
 @interface PGGraphNamedLocationNode : PGGraphLocationNode
 {
     NSString *_name;
-    NSString *_uuid;
 }
 
-+ (void);
-+ (void);
++ (void)e=dd}},N,V_selectionRangeFrame;
++ (void)XFUIElement",&,N,V_currentReadingElement;
 + (id);
 + (id);
 + (id);
@@ -25,17 +24,15 @@
 - (id);
 - (id);
 - (id);
+- (id)startRocketEffectWithProgressStateSource: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned short);
+- (unsigned short)aphManager.swift;
 - (id);
 - (_Bool)tures:(id)arg1 musicCuratorContext:genre:weightByLanguage:weightByRegion: /* Error: Ran out of types for this method. */;
-- (void)rmatGenericUnnamedPerson;
+- (void)PGPeopleTitleFormatGenericUnnamedPerson;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_uuid;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) MANodeFilter *uniquelyIdentifyingFilter;
 
 @end
 

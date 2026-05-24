@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactPhotoView, NSArray, NSDictionary, NSMutableArray, NSString, UILabel, UIView;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CNContactOrbHeaderView
 {
     _Bool _centersPhotoAndLabels;
-    _Bool _alwaysShowsMonogram;
-    CNContactFormatter *_contactFormatter;
-    NSString *_alternateName;
-    NSString *_message;
-    CNContactPhotoView *_photoView;
-    NSArray *_contacts;
-    NSMutableArray *_headerConstraints;
-    NSDictionary *_nameTextAttributes;
-    NSDictionary *_taglineTextAttributes;
-    UILabel *_nameLabel;
-    UILabel *_taglineLabel;
-    UILabel *_fakeTaglineAlignmentLabel;
-    UIView *_markerView;
-    struct UIEdgeInsets _contentMargins;
 }
 
 + (id);
-+ (id);
++ (id)lector:(_Bool)arg1 %{public}@;
 + (_Bool);
 - (void);
 - (id);
@@ -35,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)I;
 - (void);
 - (id);
 - (double);
@@ -57,12 +43,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void)J;
+- (void)@9y9q
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
+- (void)ecifier}];
+- (struct UIEdgeInsets)C;
 - (void);
 - (_Bool);
 - (void);
@@ -77,22 +64,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *alternateName; // @synthesize alternateName=_alternateName;
-@property(nonatomic) _Bool alwaysShowsMonogram; // @synthesize alwaysShowsMonogram=_alwaysShowsMonogram;
-@property(nonatomic) _Bool centersPhotoAndLabels; // @synthesize centersPhotoAndLabels=_centersPhotoAndLabels;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(nonatomic) struct UIEdgeInsets contentMargins; // @synthesize contentMargins=_contentMargins;
-@property(retain, nonatomic) UILabel *fakeTaglineAlignmentLabel; // @synthesize fakeTaglineAlignmentLabel=_fakeTaglineAlignmentLabel;
 @property(retain, nonatomic) NSMutableArray *headerConstraints; // @synthesize headerConstraints=_headerConstraints;
-@property(retain, nonatomic) UIView *markerView; // @synthesize markerView=_markerView;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(copy, nonatomic) NSDictionary *nameTextAttributes; // @synthesize nameTextAttributes=_nameTextAttributes;
-@property(readonly, nonatomic) double photoLabelSpacing;
-@property(readonly, nonatomic) CNContactPhotoView *photoView; // @synthesize photoView=_photoView;
-@property(retain, nonatomic) UILabel *taglineLabel; // @synthesize taglineLabel=_taglineLabel;
-@property(copy, nonatomic) NSDictionary *taglineTextAttributes; // @synthesize taglineTextAttributes=_taglineTextAttributes;
 
 @end
 

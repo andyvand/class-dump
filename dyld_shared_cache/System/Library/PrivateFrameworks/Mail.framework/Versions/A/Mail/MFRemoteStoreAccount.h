@@ -6,14 +6,12 @@
 
 #import <Mail/MFMailAccount.h>
 
-@class ACAccount, ECAccount, ECAuthScheme, NSArray, NSDate, NSOperationQueue, NSString;
-
 @interface MFRemoteStoreAccount : MFMailAccount
 {
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -39,69 +37,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)B ;
 - (void);
 - (long long)ÿa;K#ÿQ;K#ü÷ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *accountTypeString;
-@property _Bool allowInsecureAuthentication;
-@property(readonly, copy) NSString *altDSID;
-@property(readonly, copy) NSString *appleAuthenticationToken;
-@property(readonly, copy) NSString *applePersonID;
-@property(copy) NSString *authenticationScheme;
-@property(readonly, copy) NSString *base64EncodedAppleAuthenticationToken2;
-@property(readonly, nonatomic) ECAccount *baseAccount;
-@property long long cachePolicy;
-@property(copy) NSString *canonicalEmailAddress;
-@property(readonly, copy) NSString *clientInfo;
-@property _Bool configureDynamically;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *displayName;
-@property(readonly, copy) NSArray *emailAddressStrings;
-@property(readonly, copy, nonatomic) NSDate *expiryDate;
-@property(copy) NSString *externalHostname;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C
-
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *hostname;
-@property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isActive;
-@property(readonly, nonatomic) _Bool isGmailAccount;
-@property(readonly) _Bool isYahooAccount;
-@property(readonly, copy) NSString *machineID;
-@property(readonly, nonatomic, getter=isManaged) _Bool managed;
-@property(readonly, nonatomic) _Bool needToSynchronizeMailboxCaches;
-@property(readonly, copy) NSString *oauthToken;
-@property(readonly, copy, nonatomic) NSString *offlineCacheDirectory;
-@property(readonly, copy) NSString *oneTimePassword;
-@property(copy) NSString *password;
-@property long long portNumber;
-@property(retain) ECAuthScheme *preferredAuthScheme;
-@property(readonly) _Bool primaryiCloudAccount;
-@property(readonly, nonatomic) NSOperationQueue *remoteFetchQueue;
-@property(readonly, nonatomic) NSOperationQueue *remoteTaskQueue;
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-@property(readonly, copy, nonatomic) NSString *saslProfileName;
-@property long long securityLayerType;
 @property(readonly, nonatomic) _Bool shouldCacheAggressively;
-@property _Bool shouldUseAuthentication;
-@property(readonly, copy, nonatomic) NSArray *standardPorts;
-@property(readonly, copy, nonatomic) NSArray *standardSSLPorts;
-@property(readonly, copy, nonatomic) NSString *statisticsKind;
-@property _Bool storeDraftsOnServer;
-@property _Bool storeJunkOnServer;
-@property _Bool storeSentMessagesOnServer;
-@property _Bool storeTrashOnServer;
-@property(readonly) Class superclass;
-@property(readonly) ACAccount *systemAccount;
-@property(readonly, copy) NSString *username;
-@property _Bool usesSSL;
 
 @end
 

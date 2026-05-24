@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface CKAppInstallationWatcher
 {
     _Bool _observingApplicationWorkspace;
-    NSMutableArray *_observers;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_installations;
 }
 
 + (id);
 - (void);
+- (void)+AFGG;
+- (void)8G;
+- (_Bool)aveformSource:Failed to convert buffer /* Error: Ran out of types for this method. */;
+- (id)ntion.tokenContentIdentifier];
+- (id)StringDelegate for a row that already has one.;
 - (void);
+- (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -39,27 +30,21 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)rItem;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)recipientsVirtualToolbarItem;
 - (id);
-- (void)tiveConversations;
+- (void)SwitchingActiveConversations;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inProgressInstallations;
-@property(retain, nonatomic) NSMutableArray *installations; // @synthesize installations=_installations;
 @property(retain, nonatomic) NSMutableArray *observers; // @synthesize observers=_observers;
-@property(nonatomic) _Bool observingApplicationWorkspace; // @synthesize observingApplicationWorkspace=_observingApplicationWorkspace;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

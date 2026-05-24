@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSUtteranceUnderstandingReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_topU2IntentsMetadatas;
-    NSArray *_topKGSAIntentsMetadatas;
-    _Bool _hasLinkId;
 }
 
 - (id);
@@ -31,29 +28,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)rom server for %@  and retrieveFromServer is set to YES ;
+- (void)ils with error (%@).;
+- (id)KECHAINRECOVERY_FORGOT_TITLE;
+- (_Bool)showCreateAppleID;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e file a radar *******;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)panMatched;
+- (id)_hasEntitySpanMatched;
 - (id)&,N,V_startedOrChanged;
 - (void)am;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *topKGSAIntentsMetadatas; // @synthesize topKGSAIntentsMetadatas=_topKGSAIntentsMetadatas;
-@property(copy, nonatomic) NSArray *topU2IntentsMetadatas; // @synthesize topU2IntentsMetadatas=_topU2IntentsMetadatas;
 
 @end
 

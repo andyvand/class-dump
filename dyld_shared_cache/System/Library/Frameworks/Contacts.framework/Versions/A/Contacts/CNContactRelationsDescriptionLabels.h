@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNContactRelationsDescriptionLabels
 {
     NSArray *_preferredLanguages;
-    NSArray *_standardLabels;
-    NSArray *_standardLocaleSpecificLabels;
-    NSArray *_extendedLabels;
-    NSArray *_extendedLocaleSpecificLabels;
-    NSDictionary *_localizedStringsByLabelKey;
 }
 
 - (id);
@@ -27,12 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)Data"16@"NSString"24^@32;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *extendedLabels; // @synthesize extendedLabels=_extendedLabels;
-@property(readonly, nonatomic) NSArray *extendedLocaleSpecificLabels; // @synthesize extendedLocaleSpecificLabels=_extendedLocaleSpecificLabels;
-@property(readonly, nonatomic) NSDictionary *localizedStringsByLabelKey; // @synthesize localizedStringsByLabelKey=_localizedStringsByLabelKey;
 @property(readonly, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(readonly, nonatomic) NSArray *standardLabels; // @synthesize standardLabels=_standardLabels;
-@property(readonly, nonatomic) NSArray *standardLocaleSpecificLabels; // @synthesize standardLocaleSpecificLabels=_standardLocaleSpecificLabels;
 
 @end
 

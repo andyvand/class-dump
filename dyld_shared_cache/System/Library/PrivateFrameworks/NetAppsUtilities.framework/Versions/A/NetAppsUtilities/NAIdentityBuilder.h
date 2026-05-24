@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAIdentity, NSMutableArray;
+@class NSMutableArray;
 
 @interface NAIdentityBuilder
 {
     NSMutableArray *_characteristics;
-    NAIdentity *_builtIdentity;
 }
 
 + (id);
@@ -18,7 +17,6 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NAIdentity *builtIdentity; // @synthesize builtIdentity=_builtIdentity;
 @property(retain, nonatomic) NSMutableArray *characteristics; // @synthesize characteristics=_characteristics;
 
 @end

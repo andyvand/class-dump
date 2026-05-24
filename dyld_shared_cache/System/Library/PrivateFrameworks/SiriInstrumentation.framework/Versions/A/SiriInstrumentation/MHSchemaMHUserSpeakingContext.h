@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHUserSpeakingEnded, MHSchemaMHUserSpeakingStarted, NSData, SISchemaUUID;
+@class MHSchemaMHUserSpeakingStarted;
 
 @interface MHSchemaMHUserSpeakingContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHUserSpeakingStarted *_startedOrChanged;
-    MHSchemaMHUserSpeakingEnded *_ended;
-    SISchemaUUID *_trpId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasTrpId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (_Bool);
@@ -37,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)inates out of range;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -46,17 +40,10 @@
 × ;
 - (id);
 - (id)EventMetadata",&,N,V_eventMetadata;
-- (void)StartLocation;
+- (void)SISchemaUEIVisionSnippetStartLocation;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHUserSpeakingEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHUserSpeakingStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

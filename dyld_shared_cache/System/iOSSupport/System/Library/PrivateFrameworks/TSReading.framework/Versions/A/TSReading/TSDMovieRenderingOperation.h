@@ -11,12 +11,11 @@
 @interface TSDMovieRenderingOperation : TSDSwatchRenderingOperation
 {
     TSDMovieInfo *mMovieInfo;
-    _Bool mShouldClipVertically;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

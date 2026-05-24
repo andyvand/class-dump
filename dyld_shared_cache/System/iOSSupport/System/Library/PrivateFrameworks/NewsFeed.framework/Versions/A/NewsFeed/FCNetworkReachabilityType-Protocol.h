@@ -5,16 +5,11 @@
 //
 
 @protocol FCNetworkReachabilityType
-- (void);
+- (_Bool)J;
+- (_Bool);
 - (long long)±ö;ló;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cellularRadioAccessTechnology;
-@property(readonly, nonatomic) _Bool isCloudKitReachable;
-@property(readonly, nonatomic) _Bool isLowDataModeEnabled;
 @property(readonly, nonatomic) _Bool isNetworkReachable;
-@property(readonly, nonatomic) _Bool isNetworkReachableViaWiFi;
-@property(readonly, nonatomic) _Bool isNetworkUsageInexpensive;
-@property(readonly, nonatomic) long long offlineReason;
 @end
 

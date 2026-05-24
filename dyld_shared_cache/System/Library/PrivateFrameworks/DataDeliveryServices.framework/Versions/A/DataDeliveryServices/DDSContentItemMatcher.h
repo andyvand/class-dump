@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)setHasCollateAnswerSynthesisResultDurationInMs:(id)arg1;
++ (id)setHasChannel:(id)arg1;
++ (_Bool)setHasCdmSystemDialogActTier1:(id)arg1;
++ (_Bool)setHasCdmSingleServiceWarmupAttemptFailed:(id)arg1;
++ (_Bool)setHasCdmSingleServiceSetupAttemptFailed:(id)arg1;
++ (_Bool)setHasCdmSingleServiceSetupAttemptContext:(id)arg1;
 
 @end
 

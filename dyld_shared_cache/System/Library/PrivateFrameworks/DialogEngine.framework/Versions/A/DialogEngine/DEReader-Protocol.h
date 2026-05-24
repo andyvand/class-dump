@@ -7,6 +7,7 @@
 @class NSData;
 
 @protocol DEReader
+- (NSData *);
 - (NSData *);
 @end
 

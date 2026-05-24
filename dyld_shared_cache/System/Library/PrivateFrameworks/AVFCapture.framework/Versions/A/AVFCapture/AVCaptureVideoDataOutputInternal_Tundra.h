@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureVideoSettings, AVWeakReference, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureVideoDataOutputInternal_Tundra
 {
     AVWeakReference *weakReferenceDelegate;
-    NSObject<OS_dispatch_queue> *clientQueue;
-    struct __CFDictionary *videoDecompressorUnits;
-    struct __CFDictionary *videoFrameRateGovernorUnits;
-    struct __CFDictionary *videoCompressorUnits;
-    struct __CFDictionary *videoToProcsUnits;
-    struct __CFDictionary *callbackData;
-    AVCaptureVideoSettings *videoSettings;
-    _Bool alwaysDiscardsLateVideoFrames;
-    NSArray *availableVideoCVPixelFormatTypes;
-    _Bool automaticallyConfiguresOutputBufferDimensions;
-    _Bool deliversPreviewSizedOutputBuffers;
-    _Bool preparesCellularRadioForNetworkConnection;
-    _Bool sceneStabilityMetadataEnabled;
-    _Bool preservesDynamicHDRMetadata;
-    NSArray *requestedBufferAttachments;
-    struct os_unfair_lock_s internalLock;
 }
 
-- (void);
+- (void)@40;
 - (id);
 
 @end

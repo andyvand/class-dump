@@ -5,6 +5,6 @@
 //
 
 @protocol FBSSceneDelegate
-- (void)olor;
+- (void)_carSystemFocusColor;
 @end
 

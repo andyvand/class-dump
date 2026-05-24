@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary;
 
 @interface MPPlaybackArchiveDisplayProperties
 {
     _Bool _final;
-    NSString *_title;
-    NSString *_subtitle;
-    NSData *_artworkImageData;
-    NSMutableDictionary *_storage;
 }
 
 + (_Bool);
@@ -20,36 +16,25 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id)	;
+- (void);
+- (_Bool)_lastFrameHeight;
+- (void);
+- (void)ICDelegationServiceConnectionDelegate;
+- (id);
+- (id)5;
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)ibraryID;
+- (void)_libraryID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *artworkImageData; // @synthesize artworkImageData=_artworkImageData;
-@property(readonly, copy, nonatomic) NSURL *artworkImageURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *storage; // @synthesize storage=_storage;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

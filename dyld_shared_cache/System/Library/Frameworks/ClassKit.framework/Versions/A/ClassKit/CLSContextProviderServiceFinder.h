@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSObject;
-@protocol CLSContextProviderServiceFinderDelegate, OS_dispatch_queue;
+@class NSArray;
+@protocol CLSContextProviderServiceFinderDelegate;
 
 @interface CLSContextProviderServiceFinder
 {
     id <CLSContextProviderServiceFinderDelegate> _delegate;
-    id _extensionsFinderContext;
-    NSObject<OS_dispatch_queue> *_servicesQueue;
-    NSDictionary *_extensionAttributes;
-    NSMutableArray *_mutableAvailableServices;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)k;
 - (id);
 - (void);
 - (id);

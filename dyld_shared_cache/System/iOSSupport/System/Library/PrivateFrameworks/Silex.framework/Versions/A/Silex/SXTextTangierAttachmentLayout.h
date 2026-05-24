@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (void)stItem"24B32@?<v@?B>36;
-- (void)dView;
+- (void)loadView;
 
 // Remaining properties
 @property(retain, nonatomic) TSDWrapPolygon *polygon; // @synthesize polygon=_polygon;

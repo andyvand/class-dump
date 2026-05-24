@@ -7,12 +7,10 @@
 @class INSpeakableString;
 
 @protocol INSearchForAccountsIntentExport
-- (INSpeakableString *);
+- (long long);
+- (long long)remote_triggerUserNotificationHandoutPastDueSummaryWithReferenceDate:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) INSpeakableString *accountNickname;
-@property long long accountType;
-@property(copy) INSpeakableString *organizationName;
-@property long long requestedBalanceType;
 @end
 

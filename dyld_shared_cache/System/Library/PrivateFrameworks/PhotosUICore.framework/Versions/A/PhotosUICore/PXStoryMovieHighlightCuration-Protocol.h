@@ -8,13 +8,9 @@
 @protocol PXStoryMovieHighlight;
 
 @protocol PXStoryMovieHighlightCuration
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryMovieHighlight> bestHighlight;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> defaultHighlight;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> fullMovie;
-@property(readonly, copy, nonatomic) NSArray *highlights;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> livePhoto;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> movieSummary;
 @end
 

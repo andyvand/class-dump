@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBTodayModuleContentRequest
 {
     int _moduleDescriptorType;
-    NSString *_name;
-    NSString *_nameColorDark;
-    NSString *_nameColorLight;
-    NSString *_tagID;
-    struct {
-        unsigned int moduleDescriptorType:1;
-    } _has;
 }
 
 
 // Remaining properties
 @property(nonatomic) _Bool hasModuleDescriptorType;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasNameColorDark;
-@property(readonly, nonatomic) _Bool hasNameColorLight;
-@property(readonly, nonatomic) _Bool hasTagID;
-@property(nonatomic) int moduleDescriptorType; // @synthesize moduleDescriptorType=_moduleDescriptorType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *nameColorDark; // @synthesize nameColorDark=_nameColorDark;
-@property(retain, nonatomic) NSString *nameColorLight; // @synthesize nameColorLight=_nameColorLight;
-@property(retain, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
 @end
 

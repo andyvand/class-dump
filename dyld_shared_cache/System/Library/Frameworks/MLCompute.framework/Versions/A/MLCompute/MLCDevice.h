@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol MLCDeviceProperties, MLComputeEngineControl><MLCLayerOperations><MLCEngineDispatch><MLComputeEngineOptimizerUpdate><MLCDeviceProperties;
-
 @interface MLCDevice
 {
     int _type;
-    id <MLCDeviceProperties> _engine;
-    id <MLComputeEngineControl><MLCLayerOperations><MLCEngineDispatch><MLComputeEngineOptimizerUpdate><MLCDeviceProperties> _computeEngine;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -36,15 +31,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)ernel.mm;
 
 // Remaining properties
-@property(readonly, nonatomic) int actualDeviceType;
-@property(retain, nonatomic) id <MLComputeEngineControl><MLCLayerOperations><MLCEngineDispatch><MLComputeEngineOptimizerUpdate><MLCDeviceProperties> computeEngine; // @synthesize computeEngine=_computeEngine;
-@property(retain, nonatomic) id <MLCDeviceProperties> engine; // @synthesize engine=_engine;
-@property(readonly, nonatomic) NSArray *gpuDevices;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

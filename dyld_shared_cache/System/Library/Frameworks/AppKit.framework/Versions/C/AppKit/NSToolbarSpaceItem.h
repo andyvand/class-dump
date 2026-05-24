@@ -12,21 +12,21 @@
 
 + (id)|bÕÿ¥¸
 $J;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ocalized;
+- (_Bool)LiDARCalibrationPrCL;
+- (_Bool)KeyboardMutePreservesRegionalShutterClickBehaviorForLegacyDevices;
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)eady;
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)DataTask"24@0:8@"NSURLRequest"16 /* Error: Ran out of types for this method. */;
+- (_Bool)tifier;
+- (_Bool)public}@> no connection to background transfer daemon, and will not try to reconnect;
+- (_Bool)xyConnection.m;
 - (void);
 - (id);
-- (id)ags;
+- (id)_sliceRowFlags;
 - (struct CGSize)¼
 d¡h°c;
 - (struct CGSize)åÅÿ	XC;

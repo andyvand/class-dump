@@ -11,10 +11,10 @@
     CKConversation *_conversation;
 }
 
+- (id)g;
+- (id)_;
 - (id);
-- (id);
-- (id);
-- (void)HaAsset;
+- (void)TapbackClassicHaHaAsset;
 
 // Remaining properties
 @property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

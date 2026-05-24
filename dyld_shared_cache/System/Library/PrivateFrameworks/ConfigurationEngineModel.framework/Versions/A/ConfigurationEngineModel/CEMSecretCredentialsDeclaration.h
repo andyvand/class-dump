@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)AssistiveTouchScannerSpeechEnabled;
 - (id);
-- (void);
+- (void)ctory.MoIAiI/Sources/libressl/libressl-2.2/ssl/ssl_lib.c;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadSecret; // @synthesize payloadSecret=_payloadSecret;

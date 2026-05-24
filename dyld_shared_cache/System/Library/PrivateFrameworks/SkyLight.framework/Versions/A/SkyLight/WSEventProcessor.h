@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WSEventProcessor
 {
 }
 
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (int);
-- (int);
-- (void);
+- (void)SCloudKitMirroringDelegate remoteStoreDidChange:(struct SLSEventRecord *)arg1 ]_block_invoke;
+- (long long)oringDelegate _performMetadataResetRequest:(struct SLSEventRecord *)arg1 ]_block_invoke;
+- (_Bool)om.apple.coredata.cloudkit.fetch.records;
+- (void)HERE NEW.%@ IN (SELECT %@ FROM %@ WHERE %@);
+- (void)%@ FOR EACH ROW;
+- (id)bLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/source/NSFileBackedFuture.m;
+- (_Bool)dateValue;
+- (int)PFCloudKitMetadataNeedsZoneFetchAfterClientMigrationKey;
+- (int)PFCloudKitMetadataClientVersionHashesKey;
+- (void)ntext.m;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

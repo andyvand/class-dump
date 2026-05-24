@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
-
 @interface DGBrushStroke
 {
     float _radius;
-    float _softness;
-    float _opacity;
-    struct PFIntRect_st _extent;
-    NSMutableData *_data;
 }
 
 + (void);
@@ -22,32 +16,26 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (CDStruct_869f9c67);
+- (id)setLongPressStartLocation:(_Bool)arg1;
+- (void)setComponentIdentifier: /* Error: Ran out of types for this method. */;
+- (id)scrollPositionRestoring;
+- (id)scrollPositionForPlayingVideoComponentInComponentViews:(id)arg1;
+- (CDStruct_869f9c67);
 - (float);
 - (void);
-- (unsigned long long);
+- (unsigned long long)LemonadeSocialGroupPlaceholderView;
 - (struct PFIntRect_st);
 - (void);
 - (id);
-- (id);
+- (id);
 - (float);
-- (id);
+- (id)C!;
 - (float);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

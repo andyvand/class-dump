@@ -5,19 +5,14 @@
 //
 
 @protocol MTLIndirectCommandBufferSPI
-- (unsigned long long);
+- (void);
+- (unsigned long long)"!;
+- (unsigned long long)MTLDebugRenderCommandEncoder;
+
+@optional
+- (unsigned long long));
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long storageMode;
 @property(readonly) unsigned long long uniqueIdentifier;
 @end
 

@@ -20,7 +20,7 @@
 - (int);
 - (unsigned int);
 - (struct _cl_image_format);
-- (int);
+- (int)k ;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);

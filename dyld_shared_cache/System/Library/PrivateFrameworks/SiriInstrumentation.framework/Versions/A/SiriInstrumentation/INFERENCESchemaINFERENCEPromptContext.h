@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEConfirmationPromptContext, INFERENCESchemaINFERENCEDisambiguationPromptContext, NSData;
-
 @interface INFERENCESchemaINFERENCEPromptContext : SISchemaInstrumentationMessage
 {
     int _tag;
-    INFERENCESchemaINFERENCEConfirmationPromptContext *_confirmationPromptContext;
-    INFERENCESchemaINFERENCEDisambiguationPromptContext *_disambiguationPromptContext;
-    struct {
-        unsigned int tag:1;
-    } _has;
-    _Bool _hasConfirmationPromptContext;
-    _Bool _hasDisambiguationPromptContext;
-    unsigned long long _whichPromptcontext;
 }
 
 - (unsigned long long);
@@ -36,28 +26,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)I;
+- (id);
 - (id);
-- (id);
-- (id)teCrossIntentRankerResponse;
-- (id)ckEnvelopeStatistics;
+- (id)deleteCrossIntentRankerResponse;
+- (id)PFAClockEnvelopeStatistics;
 - (void)[";
 - (void)w»ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) INFERENCESchemaINFERENCEConfirmationPromptContext *confirmationPromptContext; // @synthesize confirmationPromptContext=_confirmationPromptContext;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEDisambiguationPromptContext *disambiguationPromptContext; // @synthesize disambiguationPromptContext=_disambiguationPromptContext;
-@property(nonatomic) _Bool hasConfirmationPromptContext; // @synthesize hasConfirmationPromptContext=_hasConfirmationPromptContext;
-@property(nonatomic) _Bool hasDisambiguationPromptContext; // @synthesize hasDisambiguationPromptContext=_hasDisambiguationPromptContext;
-@property(nonatomic) _Bool hasTag;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int tag; // @synthesize tag=_tag;
-@property(readonly, nonatomic) unsigned long long whichPromptcontext; // @synthesize whichPromptcontext=_whichPromptcontext;
 
 @end
 

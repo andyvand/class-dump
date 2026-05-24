@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiMetricsManagerEvent;
-
 @interface AWDWiFiMetricsManagerAssociationEvent
 {
     unsigned long long _timestamp;
-    AWDWiFiMetricsManagerEvent *_eventInfo;
-    int _eventType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int eventType:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)q;
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id):(int)arg1;
-- (void)txSuccess;
+- (void);
+- (id);
+- (id)setNumDynSdbEntrySuccess:(int)arg1;
+- (void)heOmitxSuccess;
 - (int)Wk;
 
 // Remaining properties
-@property(retain, nonatomic) AWDWiFiMetricsManagerEvent *eventInfo; // @synthesize eventInfo=_eventInfo;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasEventInfo;
-@property(nonatomic) _Bool hasEventType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

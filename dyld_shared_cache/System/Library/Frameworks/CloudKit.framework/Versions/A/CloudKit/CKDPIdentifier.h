@@ -9,15 +9,10 @@
 @interface CKDPIdentifier
 {
     NSString *_name;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int type; // @synthesize type=_type;
 @end
 

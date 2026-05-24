@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _ICLLClientInfoCommand
 {
     NSString *_externalId;
-    NSString *_sharedSessionToken;
 }
 
 - (id);

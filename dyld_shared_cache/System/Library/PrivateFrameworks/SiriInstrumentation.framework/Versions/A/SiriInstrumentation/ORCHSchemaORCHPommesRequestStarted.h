@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHPommesRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -23,16 +20,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)esponse;
+- (id)_crossIntentRankerResponse;
 - (id)MetricDuration",&,N,V_planResolverServiceHandleTime;
-- (_Bool)GED_VIA_SNIPPET;
-- (_Bool)nDecision;
+- (_Bool)FLOWSTATETYPE_CONTENT_CHANGED_VIA_SNIPPET;
+- (_Bool)ORCHSchemaORCHPreExecutionDecision;
 - (void)a;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)× ;
-- (id)tionView:(id)arg1 tableLayout:didEndEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)collectionView:(id)arg1 tableLayout:didEndEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)5Í$Ëi;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, _DPCoreDataStorage;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _DPStorage
 {
     _Bool _readOnly;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_converterFromEntity;
-    NSDictionary *_converterFromClass;
-    _DPCoreDataStorage *_coredataStorage;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -32,26 +28,22 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void)y result:(id)arg1 %llx;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)GPoint="x"d"y"d}"size"{CGSize="width"d"height"d}};
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *converterFromClass; // @synthesize converterFromClass=_converterFromClass;
-@property(readonly, nonatomic) NSDictionary *converterFromEntity; // @synthesize converterFromEntity=_converterFromEntity;
-@property(readonly, nonatomic) _DPCoreDataStorage *coredataStorage; // @synthesize coredataStorage=_coredataStorage;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
 
 @end
 

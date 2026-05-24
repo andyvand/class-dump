@@ -14,13 +14,13 @@
 
 + (id);
 + (id);
-- (id);
+- (id)type, ignoring;
 - (id);
 - (id);
 - (id)tadata";
-- (id)eType: /* Error: Ran out of types for this method. */;
-- (_Bool)ithReusableView:(id)arg1;
-- (unsigned long long)IntersectingFocus;
+- (id)setUsageType: /* Error: Ran out of types for this method. */;
+- (_Bool)copyWithReusableView:(id)arg1;
+- (unsigned long long)automaticallyDisableWhenIntersectingFocus;
 - (id)ÌNÄO¬P;
 - (void)èÇÿAy;
 

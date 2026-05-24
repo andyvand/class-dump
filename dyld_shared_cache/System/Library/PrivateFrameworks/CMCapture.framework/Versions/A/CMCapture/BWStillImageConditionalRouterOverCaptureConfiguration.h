@@ -10,14 +10,13 @@
 {
 }
 
-+ (id);
++ (id)@;
 - (unsigned int);
 - (unsigned int);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int narrowFieldOfViewOutputIndex;
-@property(readonly, nonatomic) unsigned int wideFieldOfViewOutputIndex;
 
 @end
 

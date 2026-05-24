@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSMutableSceneParameters, FBSSceneIdentity, FBSSceneSpecification, NSString;
+@class FBSMutableSceneParameters, FBSSceneIdentity;
 
 @interface FBSClientSceneFutureDefinition
 {
     FBSMutableSceneParameters *_parameters;
-    FBSSceneIdentity *_identity;
-    FBSSceneSpecification *_specification;
 }
 
 - (id);
@@ -18,21 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)LocalAuthenticationTests;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) FBSSceneIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) FBSMutableSceneParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) FBSSceneSpecification *specification; // @synthesize specification=_specification;
-@property(readonly) Class superclass;
 
 @end
 

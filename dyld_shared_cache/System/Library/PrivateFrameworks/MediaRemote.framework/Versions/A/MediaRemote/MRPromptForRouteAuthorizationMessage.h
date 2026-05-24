@@ -14,13 +14,12 @@
 }
 
 - (id);
-- (long long);
-- (unsigned long long);
-- (id);
+- (long long)Range",R,N,V_versionRequirement;
+- (unsigned long long)вод:%@ /* Error: Ran out of types for this method. */;
+- (id)B;
 - (void)onRequestProtobuf",&,N,V_request;
 
 // Remaining properties
-@property(readonly, nonatomic) long long inputType;
 @property(readonly, nonatomic) MRAVOutputDevice *route;
 
 @end

@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface ICTTTextEditGroup
 {
     unsigned long long _hash;
-    NSArray *_edits;
-    NSDate *_latestTimestamp;
-    NSString *_userID;
-    struct _NSRange _range;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (struct _NSRange);
 - (_Bool);
-- (id);
-- (id)tartDate: /* Error: Ran out of types for this method. */;
+- (id)n;
+- (id)setPolicyStartDate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *edits; // @synthesize edits=_edits;
-@property(readonly, copy, nonatomic) NSDate *latestTimestamp; // @synthesize latestTimestamp=_latestTimestamp;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

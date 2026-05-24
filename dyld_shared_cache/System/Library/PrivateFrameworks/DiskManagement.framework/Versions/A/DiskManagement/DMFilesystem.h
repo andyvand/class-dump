@@ -9,24 +9,24 @@
     id _instPriv;
 }
 
-+ (_Bool);
++ (_Bool)b;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)(aaj;
 + (id);
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,11 +49,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id) @;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (_Bool);
@@ -67,8 +67,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)TKSmartCardToken;
+- (id)[3f]}]}32@0:8^{opaqueCMFormatDescription=}16^Q24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);

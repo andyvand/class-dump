@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FPSearchableItemValue
 {
     double _doubleValue;
-    long long _integerValue;
-    double _timeIntervalSinceReferenceDateValue;
-    NSMutableArray *_arrayOfStringsValues;
-    NSData *_nameComponents;
-    NSString *_stringValue;
-    struct {
-        unsigned int doubleValue:1;
-        unsigned int integerValue:1;
-        unsigned int timeIntervalSinceReferenceDateValue:1;
-    } _has;
 }
 
 + (id);
@@ -39,23 +27,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)parameterValuesFromLegacyEventType:(double)arg1 sharpness:fullness:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void)prepareEncodedSampleBuffersForPaddedWrites;
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (void);
-- (_Bool);
-- (id);
+- (void)itude uncertainty is %s;
+- (_Bool)<spam-type>;
+- (id)ype=;
 - (double);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
-- (id);
+- (id))a;
 - (id);
 - (id);
 - (_Bool);
@@ -63,17 +51,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *arrayOfStringsValues; // @synthesize arrayOfStringsValues=_arrayOfStringsValues;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasIntegerValue;
-@property(readonly, nonatomic) _Bool hasNameComponents;
 @property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasTimeIntervalSinceReferenceDateValue;
-@property(nonatomic) long long integerValue; // @synthesize integerValue=_integerValue;
-@property(retain, nonatomic) NSData *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) double timeIntervalSinceReferenceDateValue; // @synthesize timeIntervalSinceReferenceDateValue=_timeIntervalSinceReferenceDateValue;
 
 @end
 

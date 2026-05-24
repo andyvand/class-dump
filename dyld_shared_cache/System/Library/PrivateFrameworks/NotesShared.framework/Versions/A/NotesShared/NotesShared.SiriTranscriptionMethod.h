@@ -7,7 +7,6 @@
 @interface NotesShared.SiriTranscriptionMethod
 {
     id recognitionManager;
-    id transcriptionContinuation;
 }
 
 @end

@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreData, NSManagedObjectContext, NSMutableSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDHH2CoreDataCloudKitMirroringObserver
 {
     _Bool _isExportProgressRequestAlreadyInProgress;
-    NSMutableSet *_objectIdsToMonitor;
-    CDUnknownBlockType _completionHandler;
-    HMDCoreData *_coreData;
-    NSString *_storeIdentifier;
-    NSManagedObjectContext *_cachedMOC;
-    unsigned long long _numberOfIgnoredExportProgressRequest;
-    unsigned long long _totalObjectsToMonitor;
 }
 
 + (id)C;
-- (_Bool);
+- (_Bool)__TEXT;
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)mutableArrayValueForKey:(id)arg1;
+- (void)methodForSelector:(unsigned long long)arg1;
+- (void)eraseFromStorageTypes:(_Bool)arg1 withCompletionQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)_postedNotifications;
+- (void)_icon;
+- (void)should always check:(id)arg1 %{public}@;
+- (id)MSPSharedTripServerEnabledKey;
+- (unsigned long long)MSPShareETACapabilityFetcherRetryIntervalKey;
 - (_Bool);
 - (id);
 - (void);
@@ -39,28 +32,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)*;
 - (void)ic}@' that is not defined in the coding model;
 - (void)ory model:(CDUnknownBlockType)arg1 %@;
-- (void)tchNewAccessoriesRequestKey;
+- (void)kFetchNewAccessoriesRequestKey;
 - (id)høÿÃúh·@;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectContext *cachedMOC; // @synthesize cachedMOC=_cachedMOC;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) HMDCoreData *coreData; // @synthesize coreData=_coreData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isExportProgressRequestAlreadyInProgress; // @synthesize isExportProgressRequestAlreadyInProgress=_isExportProgressRequestAlreadyInProgress;
-@property(nonatomic) unsigned long long numberOfIgnoredExportProgressRequest; // @synthesize numberOfIgnoredExportProgressRequest=_numberOfIgnoredExportProgressRequest;
 @property(retain, nonatomic) NSMutableSet *objectIdsToMonitor; // @synthesize objectIdsToMonitor=_objectIdsToMonitor;
-@property(retain, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long totalObjectsToMonitor; // @synthesize totalObjectsToMonitor=_totalObjectsToMonitor;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAPackage, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, UINSGameModuleEducationView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UINSInputAlternativesEducationViewController
 {
     _Bool _showAllOnboarding;
-    _Bool _enabled;
-    NSArray *_moduleClasses;
-    NSMutableDictionary *_onboardingTextViews;
-    NSMutableArray *_onboardingConstraints;
-    CAPackage *_onboardingAssetsPackage;
-    NSString *_attachedPointingDevice;
-    NSDictionary *_devicesDictionary;
-    UINSGameModuleEducationView *_educationView;
 }
 
 - (void);
@@ -37,20 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *moduleClasses;
-@property(nonatomic) _Bool showAllOnboarding;
-@property(readonly) Class superclass;
 
 @end
 

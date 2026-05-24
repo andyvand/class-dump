@@ -6,52 +6,41 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaABExperimentAllocation : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    NSString *_treatmentId;
-    long long _deploymentId;
-    CDStruct_487889ba _has;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R	;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)anchoringViewForSharingService:(_Bool)arg1 showRelativeToRect:preferredEdge: /* Error: Ran out of types for this method. */;
+- (_Bool)MMInfoCapacityPopoverViewController;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)d);
 - (id);
-- (_Bool);
+- (_Bool)m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
+- (id)E;
 - (id);
 - (id);
-- (id);
-- (void):(id)arg1;
-- (id)ionSource;
-- (long long)ay;
+- (void)setUserAuthenticationRequired:(id)arg1;
+- (id)componentInvocationSource;
+- (long long)appContactFreqForPhoneCall7Day;
 - (id)Id;
-- (void)AlignmentShapes;
+- (void)tupleInteractionsAlignmentShapes;
 
 // Remaining properties
-@property(nonatomic) long long deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

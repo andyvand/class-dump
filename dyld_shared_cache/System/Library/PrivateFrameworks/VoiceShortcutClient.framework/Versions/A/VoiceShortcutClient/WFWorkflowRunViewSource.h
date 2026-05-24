@@ -9,31 +9,25 @@
 @interface WFWorkflowRunViewSource
 {
     _Bool _invalidated;
-    unsigned int _contextID;
-    NSUUID *_uuid;
-    unsigned long long _renderID;
 }
 
-+ (_Bool);
++ (_Bool)*;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ryEvent";
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)ary/PrivateFrameworks/iCloudNotification.framework/Versions/A/iCloudNotification;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void)Uð!0Eù±^Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(nonatomic) unsigned long long renderID; // @synthesize renderID=_renderID;
 @property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

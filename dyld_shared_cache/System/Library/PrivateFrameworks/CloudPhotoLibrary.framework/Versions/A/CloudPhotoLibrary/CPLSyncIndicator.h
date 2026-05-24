@@ -11,9 +11,9 @@
 + (void);
 + (void);
 + (void);
++ (void)A;
 + (void);
-+ (void)¡;
-+ (void)ôO©À_Ö?Dù@CùÐÊP;
++ (void);
 
 @end
 

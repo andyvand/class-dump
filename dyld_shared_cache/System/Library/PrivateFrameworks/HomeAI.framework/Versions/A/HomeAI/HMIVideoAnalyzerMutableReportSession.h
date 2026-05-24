@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface HMIVideoAnalyzerMutableReportSession
 {
     NSString *_source;
-    NSMutableArray *_fragments;
 }
 
-+ (_Bool);
++ (_Bool)H;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSMutableArray *fragments; // @synthesize fragments=_fragments;
 @property(copy) NSString *source; // @synthesize source=_source;
 
 @end

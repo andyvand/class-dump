@@ -7,7 +7,6 @@
 @interface AppStoreKit.PageGridCache
 {
     id contentPageGrids;
-    id supplementaryPageGrids;
 }
 
 @end

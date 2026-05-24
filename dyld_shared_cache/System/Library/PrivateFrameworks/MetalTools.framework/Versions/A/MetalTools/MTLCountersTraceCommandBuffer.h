@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface MTLCountersTraceCommandBuffer
 {
     struct BinaryBuffer _commands;
-    NSMutableArray *_encoders;
-    struct AppendBuffer _samples;
-    unsigned long long _flags;
-    unsigned long long _timestamp;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

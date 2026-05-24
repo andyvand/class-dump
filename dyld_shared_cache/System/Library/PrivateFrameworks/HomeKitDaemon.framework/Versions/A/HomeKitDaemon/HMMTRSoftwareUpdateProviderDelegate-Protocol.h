@@ -5,5 +5,6 @@
 //
 
 @protocol HMMTRSoftwareUpdateProviderDelegate
+- (void)}@] - restoring state, resetting lastETAUpdateDate for %lu participants (%{private}@);
 @end
 

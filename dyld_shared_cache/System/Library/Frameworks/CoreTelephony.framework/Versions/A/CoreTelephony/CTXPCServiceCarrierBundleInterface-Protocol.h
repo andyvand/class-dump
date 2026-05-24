@@ -5,5 +5,8 @@
 //
 
 @protocol CTXPCServiceCarrierBundleInterface
+- (void));
+- (void)A;
+- (void)CD9;
 @end
 

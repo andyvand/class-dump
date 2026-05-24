@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSNotificationCenter;
-@protocol CNDowntimeWhitelistContainerFetching, NSObject;
+@class CNContactStore;
+@protocol CNDowntimeWhitelistContainerFetching;
 
 @interface CNDowntimeWhitelist
 {
     id <CNDowntimeWhitelistContainerFetching> _containerFetcher;
-    CNContactStore *_contactStore;
-    NSNotificationCenter *_notificationCenter;
-    id <NSObject> _contactStoreDidChangeNotificationToken;
 }
 
 + (id);
@@ -20,10 +17,10 @@
 + (_Bool);
 + (id);
 - (void);
-- (void);
+- (void)`;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)stream:(id)arg1 didStartSynchronizer:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -32,7 +29,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)er;
 - (_Bool);
 - (id);
 - (void);
@@ -45,9 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) id <NSObject> contactStoreDidChangeNotificationToken; // @synthesize contactStoreDidChangeNotificationToken=_contactStoreDidChangeNotificationToken;
-@property(readonly, nonatomic) id <CNDowntimeWhitelistContainerFetching> containerFetcher; // @synthesize containerFetcher=_containerFetcher;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 
 @end
 

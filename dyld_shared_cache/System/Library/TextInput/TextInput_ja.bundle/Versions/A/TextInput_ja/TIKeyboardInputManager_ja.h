@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSOperationQueue, NSString, TICandidateSorter, TISmartPunctuationController, TIWordSearch;
+@class NSOperationQueue, TICandidateSorter, TIWordSearch;
 
 @interface TIKeyboardInputManager_ja
 {
     TIWordSearch *_kbws;
     unsigned long long _remainingInputLength;
-    _Bool _shouldLearnAcceptedCandidate;
-    _Bool _isPhraseBoundarySet;
-    _Bool _isCandidateSelectionSuppressed;
-    _Bool _isKanaPlane;
-    _Bool _flickUsed;
-    _Bool _isEmojiFacemarkMode;
-    _Bool _filterCandidatesUsingInputIndex;
-    _Bool _selectFirstCandidate;
-    _Bool _liveConversionForceEnabled;
-    _Bool _liveConversionForceDisabled;
-    TICandidateSorter *_candidateSorter;
-    NSOperationQueue *_operationQueue;
-    NSMutableArray *_recentlyCommittedCandidatesForReanalysis;
-    TISmartPunctuationController *_smartPunctuationController;
-    NSString *_alternateDisplayString;
 }
 
 + (id);
@@ -58,7 +43,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)T(A;
 - (void);
 - (id);
 - (id);
@@ -70,35 +55,35 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)}�h;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void *);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)bA9(;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (void);
+- (id)`";
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -108,16 +93,16 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)4;
 - (unsigned int);
 - (_Bool);
 - (id);
@@ -128,36 +113,26 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (_Bool);
+- (id)k;
 - (id);
-- (id);
-- (void);
+- (void)mapTable;
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)_skipLastCharacterCandidates;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)__objc_classlist__DATA_CONST;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alternateDisplayString; // @synthesize alternateDisplayString=_alternateDisplayString;
 @property(readonly) TICandidateSorter *candidateSorter; // @synthesize candidateSorter=_candidateSorter;
-@property(nonatomic) _Bool filterCandidatesUsingInputIndex; // @synthesize filterCandidatesUsingInputIndex=_filterCandidatesUsingInputIndex;
-@property(nonatomic) _Bool flickUsed; // @synthesize flickUsed=_flickUsed;
-@property(nonatomic) _Bool isEmojiFacemarkMode; // @synthesize isEmojiFacemarkMode=_isEmojiFacemarkMode;
-@property(nonatomic) _Bool isKanaPlane; // @synthesize isKanaPlane=_isKanaPlane;
-@property(nonatomic) _Bool liveConversionForceDisabled; // @synthesize liveConversionForceDisabled=_liveConversionForceDisabled;
-@property(nonatomic) _Bool liveConversionForceEnabled; // @synthesize liveConversionForceEnabled=_liveConversionForceEnabled;
 @property(readonly) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) NSMutableArray *recentlyCommittedCandidatesForReanalysis; // @synthesize recentlyCommittedCandidatesForReanalysis=_recentlyCommittedCandidatesForReanalysis;
-@property(nonatomic) _Bool selectFirstCandidate; // @synthesize selectFirstCandidate=_selectFirstCandidate;
-@property(readonly, nonatomic) TISmartPunctuationController *smartPunctuationController; // @synthesize smartPunctuationController=_smartPunctuationController;
 
 @end
 

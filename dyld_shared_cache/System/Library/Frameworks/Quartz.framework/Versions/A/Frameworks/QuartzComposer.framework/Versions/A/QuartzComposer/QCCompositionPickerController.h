@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, QCCompositionPickerInfos;
-
 @interface QCCompositionPickerController
 {
     long long _currentPage;
-    NSString *_lastUpdatedDefaultKey;
-    struct CGRect _selectionZoomRect;
-    long long _pickerLayoutState;
-    long long _orderedState;
-    _Bool _isScrolling;
-    QCCompositionPickerInfos *_infos;
-    struct __CFDictionary *_views;
-    long long _pendingSelection;
-    struct CGRect _expandedGridFrame;
-    id _delegate;
-    NSArray *_originalCompositions;
-    NSMutableDictionary *_optimizedDefaultValues;
-    _Bool _disableOptimizations;
-    float _windowContentsScale;
 }
 
 - (float);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (void);
@@ -40,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)k`;
 - (void);
 - (void);
 - (void);
@@ -65,7 +49,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -93,7 +77,7 @@
 - (void);
 - (long long);
 - (struct CGSize);
-- (void);
+- (void)%{public}@Updating minimum media user privilege:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -106,25 +90,20 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)X;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)exesCount;
-- (void)ame;
-- (void)oat4E;
+- (void)C3DRendererContextProcessedVertexesCount;
+- (void)inputEffectName;
+- (void)N35domCommon_newparam_type_complexType9domFloat4E;
 - (_Bool);
 
 // Remaining properties
 @property long long currentPage; // @synthesize currentPage=_currentPage;
-@property(retain) NSString *lastUpdatedDefaultKey; // @synthesize lastUpdatedDefaultKey=_lastUpdatedDefaultKey;
-@property long long orderedState;
-@property long long pickerLayoutState; // @synthesize pickerLayoutState=_pickerLayoutState;
-@property struct CGRect selectionZoomRect; // @synthesize selectionZoomRect=_selectionZoomRect;
-@property float windowContentsScale; // @synthesize windowContentsScale=_windowContentsScale;
 
 @end
 

@@ -6,25 +6,17 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunDescriptor.h>
 
-@class LNAction, LNActionMetadata, LNFullyQualifiedActionIdentifier, NSString;
+@class LNFullyQualifiedActionIdentifier;
 
 @interface WFLinkActionRunDescriptor : WFWorkflowRunDescriptor
 {
     _Bool _isAutoShortcut;
-    LNFullyQualifiedActionIdentifier *_identifier;
-    LNAction *_action;
-    LNActionMetadata *_metadata;
-    NSString *_name;
 }
 
-+ (_Bool);
++ (_Bool)__objc_methtype;
 
 // Remaining properties
-@property(readonly, nonatomic) LNAction *action; // @synthesize action=_action;
 @property(readonly, nonatomic) LNFullyQualifiedActionIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isAutoShortcut; // @synthesize isAutoShortcut=_isAutoShortcut;
-@property(readonly, nonatomic) LNActionMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsFeed.FeaturePromotionDataSourceTagContext
 {
     id subscribedTagIDs;
-    id subscribedTags;
-    id autoFollowedTagIDs;
-    id autoFollowedTags;
-    id blockedTagIDs;
-    id blockedTags;
 }
 
 @end

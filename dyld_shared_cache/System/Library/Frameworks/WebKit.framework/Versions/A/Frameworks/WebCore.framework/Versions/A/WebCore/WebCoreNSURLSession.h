@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString, NSURLSessionConfiguration;
-@protocol NSURLSessionTaskDelegate;
-
 @interface WebCoreNSURLSession
 {
     struct RefPtr<WebCore::PlatformMediaResourceLoader, WTF::RawPtrTraits<WebCore::PlatformMediaResourceLoader>, WTF::DefaultRefDerefTraits<WebCore::PlatformMediaResourceLoader>> _loader;
-    struct RefPtr<WTF::GuaranteedSerialFunctionDispatcher, WTF::RawPtrTraits<WTF::GuaranteedSerialFunctionDispatcher>, WTF::DefaultRefDerefTraits<WTF::GuaranteedSerialFunctionDispatcher>> _targetDispatcher;
-    struct WeakObjCPtr<id<NSURLSessionDelegate>> _delegate;
-    struct RetainPtr<NSOperationQueue> _queue;
-    struct RetainPtr<NSString> _sessionDescription;
-    struct RetainPtr<NSURLSessionConfiguration> _configuration;
-    struct Lock _dataTasksLock;
-    struct HashSet<WTF::RetainPtr<WebCoreNSURLSessionDataTask>, WTF::DefaultHash<WTF::RetainPtr<WebCoreNSURLSessionDataTask>>, WTF::HashTraits<WTF::RetainPtr<WebCoreNSURLSessionDataTask>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes> _dataTasks;
-    struct HashSet<WTF::RefPtr<WebCore::SecurityOrigin>, WTF::DefaultHash<RefPtr<WebCore::SecurityOrigin>>, WTF::HashTraits<WTF::RefPtr<WebCore::SecurityOrigin>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes> _origins;
-    _Bool _invalidated;
-    unsigned long long _nextTaskIdentifier;
-    struct RefPtr<WTF::WorkQueue, WTF::RawPtrTraits<WTF::WorkQueue>, WTF::DefaultRefDerefTraits<WTF::WorkQueue>> _internalQueue;
-    unsigned char _corsResults;
-    struct RefPtr<WebCore::RangeResponseGenerator, WTF::RawPtrTraits<WebCore::RangeResponseGenerator>, WTF::DefaultRefDerefTraits<WebCore::RangeResponseGenerator>> _rangeResponseGenerator;
 }
 
 - (void);
 - (void);
 - (void);
-- (void *);
+- (void *);
 - (void *);
 - (_Bool);
-- (id);
+- (id));
 - (_Bool);
 - (unsigned char);
 - (void);
@@ -44,15 +28,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)V#;
+- (id)senderIdentityCapabilities;
+- (id)i;
 - (void);
-- (id);
+- (id)_countNgramMatchInTextContent;
 - (id);
 - (void);
 - (void);
@@ -80,14 +64,7 @@ dKç öìIFðà(DréìqkindianøêðÈdieselcusôëÑ¼tracëêTÆbikåêè�
 k£3aàÎão7­m÷âªRè`,*iqbèsäµteióæjïë(açêõ»gïïq$rganéìhprïê«å@@T8à+'÷åzÜôteìðß\éðÇöskinhikaùð®Pó	"lùèb×`Õàh]wåp=`'à7-viäfêXHópâÒðà,orîð÷_ððóleasåpØÒlaùïÕ½îð¬iïïhtáë¯üíðxÓoviåóëm®ïrøicïçôâð½/ackpaçí,®hNáè?rbamáð__tåð3¬î	jÄTbÀûãpconveòì%S®ãÃgíðöàeëdãtìkìmocéïì`,*ðÊo÷mìbÙàdÕpageóð-_®ðõøãdlÌì|°êðÖXackeôpÀ¬à5íhamííÍ--paçâ«!ën©$áøðdheòîB6âðÚáà+ËòðàótoavoéïüÓinhumáåíeèthatóæûa.paìèðæ-íðw-íìc£äððtouòì:ãiÞç /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSURLSessionConfiguration *configuration; // @dynamic configuration;
-@property unsigned char corsResults; // @synthesize corsResults=_corsResults;
-@property(retain) id <NSURLSessionTaskDelegate> delegate; // @dynamic delegate;
-@property(readonly, retain) NSOperationQueue *delegateQueue; // @dynamic delegateQueue;
-@property(readonly) _Bool didPassCORSAccessChecks; // @dynamic didPassCORSAccessChecks;
-@property _Bool invalidated; // @synthesize invalidated=_invalidated;
 @property(readonly) void *loader; // @dynamic loader;
-@property(copy) NSString *sessionDescription;
 
 @end
 

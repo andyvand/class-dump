@@ -6,30 +6,22 @@
 
 #import <UIKitCore/_UITabBarVisualProvider.h>
 
-@class NSString, UIPointerInteraction, UIView, _UIBarBackground, _UIBarBackgroundLayout;
+@class UIPointerInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarVisualProviderLegacyIOS : _UITabBarVisualProvider
 {
     UIPointerInteraction *_pointerInteraction;
-    _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayout *_backgroundViewLayout;
-    UIView *_customBackgroundView;
-    UIView *_accessoryView;
-    double _minimumWidthForHorizontalLayout;
-    _Bool _useModernAppearance;
-    long long _style;
-    double _backgroundTransitionProgress;
 }
 
 - (id);
-- (id);
-- (struct CGRect);
+- (id)	;
+- (struct CGRect)loadIncomingMailServerAuthentication;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)initWithCommand:(id)arg1 playbackQueue: /* Error: Ran out of types for this method. */;
+- (void)MPModelPropertyPodcastEpisodeChapters;
 - (id);
 - (void);
 - (void);
@@ -47,29 +39,29 @@ __attribute__((visibility("hidden")))
 - (void)6o^q24;
 - (void)d}}16Q48@56;
 - (void)h"16;
-- (void)ressTimestamp:(id)arg1;
-- (void)ine;
-- (_Bool)ngCustomBackgroundView;
-- (struct CGRect)vateLocalContext;
-- (void)veScaleWithLevel:(_Bool)arg1;
-- (id)onAssistantViewRespondsShouldShowEditMenu;
-- (void)WithTintColor:(id)arg1;
-- (void)n:previewForDismissingToItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)n;
+- (void)setLastPressTimestamp:(id)arg1;
+- (void)mediaPlaybackAllowsInline;
+- (_Bool)_usingCustomBackgroundView;
+- (struct CGRect)_privateLocalContext;
+- (void)_nativeScaleWithLevel:(_Bool)arg1;
+- (id)_interactionAssistantViewRespondsShouldShowEditMenu;
+- (void)_effectWithTintColor:(id)arg1;
+- (void)_dci_collectionView:contextMenuConfiguration:previewForDismissingToItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_activeLoupeSession;
 - (double)int",&,N,V_widthConstraint;
-- (void)WithAccessoryContainer:(id)arg1;
-- (double)CacheInfo;
+- (void)setTitleWithAccessoryContainer:(id)arg1;
+- (double)_accessibilityHUDImageCacheInfo;
 - (void)_extension;
 - (void);
 - (id)Ä¨´ÈDÀÜ;
 - (id)a later crash. self is a %@. viewController is a %@. navigationItem = %@;
 - (void);
-- (void)stExtension;
+- (void)CarPlayDockSecondItemHitTestExtension;
 - (void)storation path %@) couldn't be created from Storyboard %@, exception raised:(long long)arg1 %@;
-- (struct CGSize)eChange;
+- (struct CGSize)UITextFormattingViewControllerRemoveItalicToggleChange;
 - (id)l after failed readAdditionalContentsFromURL:(id)arg1 %@;
 - (id)ve a hosting window to fetch new proxy layers.;
-- (void)ationMark;
+- (void)UIAccessoryButtonExclamationMark;
 - (void)bbleInteraction;
 - (void)/CloudDocs;
 - (id)y;
@@ -81,13 +73,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

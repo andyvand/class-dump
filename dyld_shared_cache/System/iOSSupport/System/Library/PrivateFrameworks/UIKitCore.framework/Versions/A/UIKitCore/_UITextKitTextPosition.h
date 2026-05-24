@@ -6,31 +6,25 @@
 
 #import <UIKitCore/UITextPosition.h>
 
-@protocol NSTextLocation;
-
 @interface _UITextKitTextPosition : UITextPosition
 {
     long long _offset;
-    long long _affinity;
-    id <NSTextLocation> _location;
 }
 
 + (id)Fù1YÐ1Â0@ù
 × ;
-+ (id)ctiveTabBarHost;
-+ (id)erfacePresentationSemanticContext;
++ (id)_isActiveTabBarHost;
++ (id)_UIUserInterfacePresentationSemanticContext;
 - (id);
 - (id);
 - (_Bool);
 - (long long);
-- (long long)LayoutGuide;
+- (long long)belowInputLayoutGuide;
 - (id)ders:must be overridden if pasteConfiguration is not nil. /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long affinity; // @synthesize affinity=_affinity;
-@property(readonly, nonatomic) id <NSTextLocation> location; // @synthesize location=_location;
 @property(readonly, nonatomic) long long offset; // @synthesize offset=_offset;
 
 @end

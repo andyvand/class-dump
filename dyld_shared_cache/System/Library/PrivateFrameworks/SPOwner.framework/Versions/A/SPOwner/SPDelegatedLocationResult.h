@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDate;
 
 @interface SPDelegatedLocationResult
 {
     NSDate *_lastUploadTimestamp;
-    NSDictionary *_locationsByUuids;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *lastUploadTimestamp; // @synthesize lastUploadTimestamp=_lastUploadTimestamp;
-@property(copy, nonatomic) NSDictionary *locationsByUuids; // @synthesize locationsByUuids=_locationsByUuids;
 
 @end
 

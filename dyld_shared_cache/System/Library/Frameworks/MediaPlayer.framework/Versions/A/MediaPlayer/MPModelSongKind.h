@@ -9,24 +9,22 @@
 @interface MPModelSongKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
 + (id);
-+ (id);
++ (id)9;
 + (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)9;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (id);
+- (unsigned long long);
+- (_Bool)_alignedPointForPoint:(id)arg1 alignToContent:alignToScreenUsingPageController:orAlignToBitmapContext:usingAnnotation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

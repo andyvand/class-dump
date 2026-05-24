@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCameraDevice, IKPathPopupButton, NSButton, NSTextField;
+@class NSTextField;
 
 @interface IKAccessoryView
 {
     NSTextField *header;
-    NSTextField *popupLabel;
-    IKPathPopupButton *popup;
-    NSButton *deleteAfterImport;
-    NSButton *keepOriginals;
-    _Bool shown;
-    _Bool expanded;
-    _Bool supportsDelete;
-    _Bool supportsAutoLaunch;
-    _Bool supportsHEIF;
-    long long mode;
-    ICCameraDevice *_cameraDevice;
 }
 
 - (void);
@@ -48,18 +37,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)readGroup:(struct CGRect)arg1 message:extensionRegistry: /* Error: Ran out of types for this method. */;
 - (id)òÿÔ
 ;
 
 // Remaining properties
-@property(nonatomic) ICCameraDevice *cameraDevice; // @synthesize cameraDevice=_cameraDevice;
-@property NSButton *deleteAfterImport; // @synthesize deleteAfterImport;
 @property NSTextField *header; // @synthesize header;
-@property NSButton *keepOriginals; // @synthesize keepOriginals;
-@property(nonatomic) long long mode; // @synthesize mode;
-@property IKPathPopupButton *popup; // @synthesize popup;
-@property NSTextField *popupLabel; // @synthesize popupLabel;
 
 @end
 

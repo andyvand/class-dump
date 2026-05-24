@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol GEOTransitAttribution
+- (NSArray *)ror">24;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_providerNames) NSArray *providerNames;

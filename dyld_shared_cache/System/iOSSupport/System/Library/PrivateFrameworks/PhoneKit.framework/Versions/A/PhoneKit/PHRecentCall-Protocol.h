@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol PHRecentCall
+- (NSUUID *)PXPixelBufferView",R,N,V_pixelBufferView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *localParticipantUUID;

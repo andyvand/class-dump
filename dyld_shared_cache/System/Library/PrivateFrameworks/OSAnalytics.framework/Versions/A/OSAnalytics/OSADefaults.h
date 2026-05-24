@@ -11,8 +11,8 @@
 + (void);
 + (void);
 + (void);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)replaceOccurrencesOfString:(id)arg1 withString:options:range: /* Error: Ran out of types for this method. */;
 + (id);
 + (void)!üBù*ð1Â0@ù
 × ;

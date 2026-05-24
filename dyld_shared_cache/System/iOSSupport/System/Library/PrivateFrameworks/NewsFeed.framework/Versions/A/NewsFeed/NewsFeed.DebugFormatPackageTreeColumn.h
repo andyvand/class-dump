@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatPackageTreeColumn
 {
     id id;
-    id editor;
-    id column;
-    id groups;
 }
 
 @end

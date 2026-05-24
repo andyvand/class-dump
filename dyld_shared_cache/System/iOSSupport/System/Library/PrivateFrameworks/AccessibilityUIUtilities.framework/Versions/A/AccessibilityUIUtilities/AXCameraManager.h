@@ -7,10 +7,6 @@
 @interface AXCameraManager
 {
     id queue;
-    id shouldPublish;
-    id isInitialized;
-    id frameHandler;
-    id session;
 }
 
 - (void);

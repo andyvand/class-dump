@@ -9,57 +9,14 @@
 ?×¸Pøàª!
 {
     id ;
-    id °10@ù
-?×é;
-    id _øðªñªñÇåò0ÁÚñªñGÁÚë@;
-    id éª±Ð10@ù
-?×é;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: àò	?×¨
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: í|éªñ°10@ù
-?×é
-// Property attributes: ñ	ªñÇåò0ÁÚñªñGÁÚë@
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: 
 
 #ÕöW½©ôO©ý{©ý
 // Property attributes: Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: àò	?×iîCù(@ø`Cùáªñ	ªàò	?×h@øàªa:Dùñªàò	?×
-
-// Property attributes: ù
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª
-// Property attributes: Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: A
-// Property attributes: @PøªÑAPøñªàò1	?×àª¨ÃÑ	Pø(@øªÃ
-Ñ¨øÿ¨cÑPøàª¨cÑPø¢Pø¨CÑPø©Ñ)Pø(	?×¨ÑPøèª Óq©Ùàÿ¨cÑPø´Sø@ù0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: àªÓü`"
-// Property attributes: }ô
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: áª
-// Property attributes: Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: hÊCùhúùhÂCùhþùa?àR*eôô
-// Property attributes: 1	?×x"Aùèª	Cøàª!
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: uÝþà
-// Property attributes: 2-qÝÒ0
-ÁÚâª©R
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ªÑAPøñ	ªàò	?×¨ã
-// Property attributes: ù
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ÷ªñªàòÑ
-?×t.DùJDÕ 
-// Property attributes: ÑPøàª¨cÑPø¸Pøâª¨CÑPø©Ñ)Pø(	?×¨ãÑPøàªáªâª¨#
 
 @end
 

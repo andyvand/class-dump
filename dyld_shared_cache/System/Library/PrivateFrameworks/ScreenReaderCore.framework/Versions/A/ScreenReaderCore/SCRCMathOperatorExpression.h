@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned short);
+- (id);
 - (id);
-- (id);
+- (_Bool)-m;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (_Bool);
 - (_Bool);

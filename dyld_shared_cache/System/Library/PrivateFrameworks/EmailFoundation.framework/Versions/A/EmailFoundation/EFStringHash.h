@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EFStringHash
 {
     long long _primitiveHash;
 }
 
-+ (_Bool);
++ (_Bool)nd;
 - (id);
 - (long long);
 - (id);
@@ -26,28 +24,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)hashData;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *hexStringValue;
-@property(readonly, nonatomic) long long int64Value;
 @property(readonly, nonatomic) long long primitiveHash; // @synthesize primitiveHash=_primitiveHash;
-@property(readonly, copy, nonatomic) NSString *stringValue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,8 +11,6 @@
 @interface NUCopyKernel : NUComputeKernel
 {
     id <MTLTexture> _sourceTexture;
-    CDStruct_67e7699a _destinationOffset;
-    CDStruct_1e3be3a8 _sourceRegion;
 }
 
 + (void);
@@ -20,16 +18,14 @@
 + (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_14f26992);
-- (CDStruct_1e3be3a8);
+- (void)est for range %{public}@ (= file size %lu) timed out after %.3fs;
+- (CDStruct_14f26992)mp 1:%@ /* Error: Ran out of types for this method. */;
+- (CDStruct_4c83c94d);
 - (void);
 - (id);
 - (void)"<NUChannelOutputPort>";
 
 // Remaining properties
-@property(nonatomic) CDStruct_14f26992 destinationOffset; // @synthesize destinationOffset=_destinationOffset;
-@property(nonatomic) CDStruct_1e3be3a8 sourceRegion; // @synthesize sourceRegion=_sourceRegion;
 @property(retain, nonatomic) id <MTLTexture> sourceTexture; // @synthesize sourceTexture=_sourceTexture;
 
 @end

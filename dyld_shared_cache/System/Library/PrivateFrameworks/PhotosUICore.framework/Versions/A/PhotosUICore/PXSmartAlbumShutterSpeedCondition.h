@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumEXIFCondition.h>
 
-@class NSArray, PXLabeledValue;
+@class NSArray;
 
 @interface PXSmartAlbumShutterSpeedCondition : PXSmartAlbumEXIFCondition
 {
@@ -15,16 +15,14 @@
 
 + (id);
 + (id)\Õÿ;
-- (id);
-- (id);
+- (id)T7;
+- (id)?;
 - (void);
 - (void);
 - (id);
 - (void)Ï³_Û;
 
 // Remaining properties
-@property(retain, nonatomic) PXLabeledValue *secondShutterSpeedValue;
-@property(retain, nonatomic) PXLabeledValue *shutterSpeedValue;
 @property(readonly, nonatomic) NSArray *shutterSpeedValues;
 
 @end

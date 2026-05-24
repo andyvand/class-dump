@@ -7,13 +7,6 @@
 @interface NewsFeed.DebugFormatPackageTree
 {
     id editor;
-    id _identifier;
-    id _debugPackage;
-    id _compilerResultEntries;
-    id _workspaceGroup;
-    id _layoutContext;
-    id canvasGenerator;
-    id _expanded;
 }
 
 @end

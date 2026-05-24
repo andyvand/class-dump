@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (id);
++ (void)H;
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -17,9 +17,9 @@
 + (_Bool);
 + (_Bool);
 + (id);
++ (id)�;
 + (id);
-+ (id);
-+ (long long);
++ (long long)6t;
 + (_Bool);
 + (_Bool)npair:] /* Error: Ran out of types for this method. */;
 

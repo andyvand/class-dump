@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHContextualTextResults, CHStrokeClassificationResult, CHStrokeGroupingResult, CHTransformationParameters, NSArray, NSMutableArray, NSSet;
-@protocol CHStrokeProvider;
+@class NSArray;
 
 @interface CHTextTransformationManager
 {
     _Bool _usingInsertionPoint;
-    NSArray *_contextStrokes;
-    CHTransformationParameters *_transformationParameters;
-    CHContextualTextResults *_contextResults;
-    NSSet *_excludedStrokeTypes;
-    id <CHStrokeProvider> _strokeProvider;
-    CHStrokeGroupingResult *_strokeGroupingResult;
-    CHStrokeClassificationResult *_strokeClassificationResult;
-    NSMutableArray *_correctionAngles;
-    NSArray *_relatedNonTextStrokes;
-    NSArray *_initialStrokes;
 }
 
 + (void);
 + (id);
 + (struct CGAffineTransform);
 + (CDUnknownBlockType);
-+ (id);
++ (id)5);
 + (struct CGAffineTransform);
 + (id);
 + (struct CGAffineTransform);
 + (struct CGAffineTransform);
++ (struct CGAffineTransform)c;
 + (struct CGAffineTransform);
-+ (struct CGAffineTransform);
-+ (id);
-+ (void);
-+ (void);
 + (id);
 + (void);
++ (void);
++ (id);
++ (void)JnS;
 + (void);
 + (struct CGAffineTransform);
 + (void);
@@ -59,13 +48,13 @@
 - (void);
 - (void);
 - (void);
+- (id)rg;
+- (id)rJ;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)r;
 - (id);
 - (id);
 - (id);
@@ -75,17 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) CHContextualTextResults *contextResults; // @synthesize contextResults=_contextResults;
 @property(retain) NSArray *contextStrokes; // @synthesize contextStrokes=_contextStrokes;
-@property(retain) NSMutableArray *correctionAngles; // @synthesize correctionAngles=_correctionAngles;
-@property(retain) NSSet *excludedStrokeTypes; // @synthesize excludedStrokeTypes=_excludedStrokeTypes;
-@property(retain) NSArray *initialStrokes; // @synthesize initialStrokes=_initialStrokes;
-@property(retain) NSArray *relatedNonTextStrokes; // @synthesize relatedNonTextStrokes=_relatedNonTextStrokes;
-@property(retain) CHStrokeClassificationResult *strokeClassificationResult; // @synthesize strokeClassificationResult=_strokeClassificationResult;
-@property(retain) CHStrokeGroupingResult *strokeGroupingResult; // @synthesize strokeGroupingResult=_strokeGroupingResult;
-@property(retain) id <CHStrokeProvider> strokeProvider; // @synthesize strokeProvider=_strokeProvider;
-@property(retain) CHTransformationParameters *transformationParameters; // @synthesize transformationParameters=_transformationParameters;
-@property(nonatomic) _Bool usingInsertionPoint; // @synthesize usingInsertionPoint=_usingInsertionPoint;
 
 @end
 

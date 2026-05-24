@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface CalDAVCalendarServerChangedPropertyItem
 {
     NSMutableSet *_changedParameters;
-    NSString *_nameAttribute;
-    NSString *_typeAttribute;
 }
 
 - (void);
@@ -20,15 +18,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *changedParameters; // @synthesize changedParameters=_changedParameters;
-@property(retain, nonatomic) NSString *nameAttribute; // @synthesize nameAttribute=_nameAttribute;
-@property(retain, nonatomic) NSString *typeAttribute; // @synthesize typeAttribute=_typeAttribute;
 
 @end
 

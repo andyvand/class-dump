@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CPBitmapStore
 {
     NSString *_path;
-    NSString *_imagePath;
-    NSCache *_cache;
-    int _version;
-    NSString *_versionPath;
-    NSObject<OS_dispatch_queue> *_serialQueueRemoveImagesBackground;
-    NSObject<OS_dispatch_queue> *_serialQueueRemoveImagesDefault;
-    _Bool _lockOnRead;
 }
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long cacheItemLimit;
-@property(nonatomic) _Bool lockOnRead; // @synthesize lockOnRead=_lockOnRead;
 @property(readonly, nonatomic) int version;
 @end
 

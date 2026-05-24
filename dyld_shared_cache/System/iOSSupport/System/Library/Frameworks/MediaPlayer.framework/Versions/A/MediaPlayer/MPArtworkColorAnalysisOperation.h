@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVArtworkColorAnalysis, NSError, NSURL;
+@class MSVArtworkColorAnalysis, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MPArtworkColorAnalysisOperation
 {
     NSURL *_sourceURL;
-    MSVArtworkColorAnalysis *_colorAnalysis;
-    NSError *_error;
 }
 
-- (struct CGImageSource *);
-- (struct CGImage *);
+- (struct CGImageSource *);
+- (struct CGImage *)O;
 - (id);
 - (id);
 - (void);
@@ -25,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) MSVArtworkColorAnalysis *colorAnalysis;
-@property(readonly, nonatomic) NSError *error;
 
 @end
 

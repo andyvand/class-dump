@@ -6,7 +6,7 @@
 
 #import <VideoSubscriberAccount/VSKeychainItem.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VSKeychainGenericPassword : VSKeychainItem
@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
@@ -43,24 +43,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)ÀDùQVð1Â0@ù
 × ;
-- (void)SubscriptionInfo;
+- (void)providedSubscriptionInfo;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessGroup;
-@property(copy, nonatomic) NSString *account;
-@property(copy, nonatomic) NSString *comment;
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-@property(copy, nonatomic) NSNumber *creatorCode;
-@property(copy, nonatomic) NSString *generic;
-@property(nonatomic, getter=isInvisible) _Bool invisible;
-@property(copy, nonatomic) NSString *itemDescription;
-@property(copy, nonatomic) NSString *label;
-@property(readonly, copy, nonatomic) NSDate *modificationDate;
-@property(nonatomic, getter=isNegative) _Bool negative;
-@property(copy, nonatomic) NSString *service;
-@property(nonatomic, getter=isSynchronizable) _Bool synchronizable;
-@property(copy, nonatomic) NSNumber *typeCode;
-@property(copy, nonatomic) NSString *viewHint;
 
 @end
 

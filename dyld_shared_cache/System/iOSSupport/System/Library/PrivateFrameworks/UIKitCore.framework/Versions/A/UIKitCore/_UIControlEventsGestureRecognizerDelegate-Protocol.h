@@ -5,6 +5,6 @@
 //
 
 @protocol _UIControlEventsGestureRecognizerDelegate
-- (void)izontallyResizable;
+- (void)horizontallyResizable;
 @end
 

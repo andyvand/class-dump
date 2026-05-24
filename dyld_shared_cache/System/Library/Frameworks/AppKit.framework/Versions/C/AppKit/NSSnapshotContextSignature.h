@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance;
-
 __attribute__((visibility("hidden")))
 @interface NSSnapshotContextSignature
 {
     struct CGRect _modelLogicalRect;
-    struct CGRect _modelPixelLogicalRect;
-    struct CGRect _modelPixelDrawingRect;
-    struct CGColorSpace *_colorSpace;
-    unsigned long long _imageInterpolation;
-    NSAppearance *_appearance;
 }
 
 - (_Bool);
-- (id);
+- (id)in(s) for socket - invalid socket or no domain provided;
 - (void);
 - (id);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PKUserNotificationsConnectionClient
+- (void)ptions",&,N,V_c2RequestOptions;
 @end
 

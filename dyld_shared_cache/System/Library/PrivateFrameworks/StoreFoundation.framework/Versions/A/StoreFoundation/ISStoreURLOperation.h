@@ -6,32 +6,19 @@
 
 #import <StoreFoundation/ISURLOperation.h>
 
-@class ISAuthenticationContext, NSNumber, NSString;
+@class ISAuthenticationContext;
 @protocol ISStoreURLOperationDelegate><ISURLOperationDelegate><ISOperationDelegate;
 
 @interface ISStoreURLOperation : ISURLOperation
 {
     ISAuthenticationContext *_authenticationContext;
-    NSNumber *_authenticatedDSID;
-    int _bagType;
-    _Bool _needsAuthentication;
-    _Bool _sendToken;
-    NSString *_urlBagKey;
-    _Bool _urlKnownToBeTrusted;
-    _Bool _useDSIDSpecificBag;
-    _Bool _adiActionInResponse;
-    long long _adiSilentActionRetryCount;
-    _Bool _shouldRetryOnSilentADIAction;
-    CDUnknownBlockType _authenticationCompletedHandler;
-    CDUnknownBlockType _requestMutationHandler;
-    NSString *_strongToken;
 }
 
 + (id);
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)accessibilityAttributeValue:(id)arg1 forParameter:(id)arg2;
 + (id);
 - (void);
 - (id);
@@ -43,12 +30,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)=
+%@;
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -58,31 +46,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)l;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)6;
+- (id);
+- (void)X�?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)acyApp;
+- (_Bool)isLegacyApp;
 - (_Bool)rnal/Library/BuildRoots/4~CNq4ugDaAWdUnNWOjGwo_we9b0TL3ErS6EezKWQ/Library/Caches/com.apple.xbs/TemporaryDirectory.o484aD/Sources/Commerce/StoreFoundation/StoreFoundation/ISStoreClient.m;
 - (void);
 
 // Remaining properties
-@property(retain) NSNumber *authenticatedDSID; // @synthesize authenticatedDSID=_authenticatedDSID;
-@property(copy) CDUnknownBlockType authenticationCompletedHandler; // @synthesize authenticationCompletedHandler=_authenticationCompletedHandler;
-@property(retain) ISAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
 @property __weak id <ISStoreURLOperationDelegate><ISURLOperationDelegate><ISOperationDelegate> delegate; // @dynamic delegate;
-@property _Bool needsAuthentication; // @synthesize needsAuthentication=_needsAuthentication;
-@property(copy) CDUnknownBlockType requestMutationHandler; // @synthesize requestMutationHandler=_requestMutationHandler;
-@property _Bool sendToken; // @synthesize sendToken=_sendToken;
-@property _Bool shouldRetryOnSilentADIAction; // @synthesize shouldRetryOnSilentADIAction=_shouldRetryOnSilentADIAction;
-@property(copy, nonatomic) NSString *strongToken; // @synthesize strongToken=_strongToken;
-@property(retain) NSString *urlBagKey; // @synthesize urlBagKey=_urlBagKey;
-@property _Bool urlKnownToBeTrusted; // @synthesize urlKnownToBeTrusted=_urlKnownToBeTrusted;
-@property _Bool useDSIDSpecificBag; // @synthesize useDSIDSpecificBag=_useDSIDSpecificBag;
 
 @end
 

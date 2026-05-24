@@ -6,8 +6,6 @@
 
 #import <AppKit/NSBinder.h>
 
-@class NSArray, _NSTreeNodeObservingTracker;
-
 __attribute__((visibility("hidden")))
 @interface NSBrowserBinder : NSBinder
 {
@@ -15,31 +13,29 @@ __attribute__((visibility("hidden")))
         unsigned int _ignoreChanges:1;
         unsigned int _reservedOutlineViewBinder:31;
     } _browserBinderFlags;
-    NSArray *_selectedIndexPaths;
-    _NSTreeNodeObservingTracker *_treeNodeObservingTracker;
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
++ (id)as a problem establishing a secure tunnel through the web proxy server.;
++ (id)@;
 - (void);
+- (id)%{public}@ was selected for reporting;
+- (void);
+- (void);
+- (void);
+- (void)d request are both nullptr; Error:(id)arg1 %p [%ld:%d] /* Error: Ran out of types for this method. */;
+- (void)CBs=@?@?@?@?@?@?}@i}8;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)!;
+- (void)_DKSearchFeedbackMetadataKey__client;
+- (void)s;
+- (void)^;
 - (void)7;
 
 @end

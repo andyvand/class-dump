@@ -6,7 +6,7 @@
 
 #import <CallKit/CXChannelAction.h>
 
-@class CXChannelUpdate, NSString, NSURL;
+@class CXChannelUpdate;
 
 @interface CXChannelJoinAction : CXChannelAction
 {
@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id);
++ (id)dingLeaseAcquisition:%@, hasInflightLeaseAcquisition:%@, isTakenDueToLeasePrevention:%@, leaseState:%@; stateReasonDialog:%@> /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -23,14 +23,12 @@
 - (id);
 - (id);
 - (void);
+- (void)DisplayPort;
 - (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CXChannelUpdate *channelUpdate; // @synthesize channelUpdate=_channelUpdate;
-@property(retain, nonatomic) NSURL *imageURL;
-@property(readonly, copy, nonatomic) NSString *name;
 
 @end
 

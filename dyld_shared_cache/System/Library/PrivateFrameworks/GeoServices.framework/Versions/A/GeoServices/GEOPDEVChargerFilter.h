@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)publisherIds"b1"read_query"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)eCoordinate: /* Error: Ran out of types for this method. */;
+- (id)_courseScoreInfoForSegment:location:currentRouteCoordinate: /* Error: Ran out of types for this method. */;
 - (id),uÀu	<y;
 - (void);
 

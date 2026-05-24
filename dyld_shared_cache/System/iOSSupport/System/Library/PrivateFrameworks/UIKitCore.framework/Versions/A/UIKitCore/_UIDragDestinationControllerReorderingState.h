@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView, _UIDragDestinationControllerSessionState, _UIDragMovementCadenceSettings, _UIVelocityIntegrator;
+@class _UIDragDestinationControllerSessionState;
 
 __attribute__((visibility("hidden")))
 @interface _UIDragDestinationControllerReorderingState
 {
     _Bool _supportsLocalSessionReordering;
-    _Bool _hasStartedInteractiveReorder;
-    _UIVelocityIntegrator *_velocityIntegrator;
-    long long _reorderCount;
-    _UIDragMovementCadenceSettings *_reorderCadenceSettings;
-    _UIDragDestinationControllerSessionState *_sessionState;
-    UICollectionView *_collectionView;
-    double _reorderBecamePossibleTime;
-    long long _dragMovementPhase;
 }
 
-- (void);
+- (void)0x%x;
 - (long long);
 - (double);
 - (id);
-- (id);
-- (void);
+- (id)C};
+- (void)(%p) for %ld containers;
 - (void);
 - (void)× ;
 - (long long)¡;
@@ -36,33 +28,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)2@0:(double)arg1 8@"UITableViewCell"16@"UITouch"24;
 - (_Bool):8o^d16@24{CGSize=dd}32 /* Error: Ran out of types for this method. */;
-- (id)tected;
-- (void)yContents:withTraits: /* Error: Ran out of types for this method. */;
-- (_Bool)FloatingContentView:(double)arg1;
-- (void)thoutBouncingIncludingRevealableContentPaddingTopY;
+- (id)_resetClippingDetected;
+- (void)_renderVariantsFromKeyContents:withTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)_configureFloatingContentView:(double)arg1;
+- (void)_canScrollWithoutBouncingIncludingRevealableContentPaddingTopY;
 - (id)eftFrame;
 - (_Bool);
 - (void)Dtuv<w@xy;
 - (void)}@ send trait collection or coordinate space update, interface style %{public}ld -> %{public}ld, %{public}@ (%{public}@);
 - (void)eloadInputViewsForKeyWindowSceneResponder, updateInputViewsIfNecessary for geometryDelegate:(id)arg1 %@;
-- (void)Values;
-- (void)ngeNotification;
+- (void)edgePositionsUseLargeValues;
+- (void)_UIKeyboardFocusIndicatorColorWillChangeNotification;
 - (void)ctionary"8@"UICollectionViewLayoutAttributes"16;
 - (id)=Refresh;
 - (void)s not expected to use TAMIC;
 - (void) K;
 
 // Remaining properties
-@property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) long long dragMovementPhase; // @synthesize dragMovementPhase=_dragMovementPhase;
-@property(readonly, nonatomic) _Bool hasPerformedReordering;
-@property(nonatomic) _Bool hasStartedInteractiveReorder; // @synthesize hasStartedInteractiveReorder=_hasStartedInteractiveReorder;
-@property(nonatomic) double reorderBecamePossibleTime; // @synthesize reorderBecamePossibleTime=_reorderBecamePossibleTime;
-@property(retain, nonatomic) _UIDragMovementCadenceSettings *reorderCadenceSettings; // @synthesize reorderCadenceSettings=_reorderCadenceSettings;
-@property(nonatomic) long long reorderCount; // @synthesize reorderCount=_reorderCount;
 @property(retain, nonatomic) _UIDragDestinationControllerSessionState *sessionState; // @synthesize sessionState=_sessionState;
-@property(nonatomic) _Bool supportsLocalSessionReordering; // @synthesize supportsLocalSessionReordering=_supportsLocalSessionReordering;
-@property(retain, nonatomic) _UIVelocityIntegrator *velocityIntegrator; // @synthesize velocityIntegrator=_velocityIntegrator;
 
 @end
 

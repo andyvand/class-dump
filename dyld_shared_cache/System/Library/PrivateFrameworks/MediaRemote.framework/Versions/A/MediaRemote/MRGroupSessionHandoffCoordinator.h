@@ -5,22 +5,19 @@
 //
 
 @class NSSet;
-@protocol MRGroupSessionHandoffCoordinatorDelegate;
 
 @interface MRGroupSessionHandoffCoordinator
 {
     NSSet *_handoffSuppressedDevices;
-    id <MRGroupSessionHandoffCoordinatorDelegate> _delegate;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)resetUsingAppleIDButton;
+- (void)v16@?0@"NSDictionary"8;
 - (id);
 - (void)dDevices;
 
 // Remaining properties
-@property(nonatomic) __weak id <MRGroupSessionHandoffCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSSet *handoffSuppressedDevices; // @synthesize handoffSuppressedDevices=_handoffSuppressedDevices;
 
 @end

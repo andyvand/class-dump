@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)h;
 + (void);
-- (void);
-- (void);
+- (void)(.87;
+- (void)T;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMIVideoFrameSelectorDelegate
+- (struct opaqueCMSampleBuffer *);
 @end
 

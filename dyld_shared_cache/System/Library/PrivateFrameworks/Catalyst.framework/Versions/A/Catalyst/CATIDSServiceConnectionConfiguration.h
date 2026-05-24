@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CATIDSServiceConnectionConfiguration
 {
     long long _maxDataSendSize;
-    unsigned long long _keepAliveAttemptCount;
-    double _keepAliveCheckinInterval;
-    double _invitationAcknowledgeTimeout;
-    double _missingItemsCheckinInterval;
-    double _messageQueueFlushPromptInterval;
 }
 
 - (void);
@@ -30,12 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) double invitationAcknowledgeTimeout; // @synthesize invitationAcknowledgeTimeout=_invitationAcknowledgeTimeout;
-@property(nonatomic) unsigned long long keepAliveAttemptCount; // @synthesize keepAliveAttemptCount=_keepAliveAttemptCount;
-@property(nonatomic) double keepAliveCheckinInterval; // @synthesize keepAliveCheckinInterval=_keepAliveCheckinInterval;
 @property(nonatomic) long long maxDataSendSize; // @synthesize maxDataSendSize=_maxDataSendSize;
-@property(nonatomic) double messageQueueFlushPromptInterval; // @synthesize messageQueueFlushPromptInterval=_messageQueueFlushPromptInterval;
-@property(nonatomic) double missingItemsCheckinInterval; // @synthesize missingItemsCheckinInterval=_missingItemsCheckinInterval;
 
 @end
 

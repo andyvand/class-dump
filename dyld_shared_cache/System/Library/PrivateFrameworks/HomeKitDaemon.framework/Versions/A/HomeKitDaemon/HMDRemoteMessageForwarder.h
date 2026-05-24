@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteMessageForwarder
 {
     HMDHome *_home;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSUUID *_UUID;
-    NSUUID *_contextUUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_messagesByIdentifier;
 }
 
 + (id);
 + (id)B;
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)Info"24;
+- (id)@32@40@?48;
+- (id)or starting to share with contact %{private}@:(id)arg1 %{public}@;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id)!à!8Bùq1Â0@ù
 × ;
 - (id)
@@ -39,24 +33,7 @@ __attribute__((visibility("hidden")))
 t>;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSUUID *contextUUID; // @synthesize contextUUID=_contextUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSMutableDictionary *messagesByIdentifier; // @synthesize messagesByIdentifier=_messagesByIdentifier;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

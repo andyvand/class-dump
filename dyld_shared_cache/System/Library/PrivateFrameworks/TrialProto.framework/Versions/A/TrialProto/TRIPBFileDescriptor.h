@@ -9,12 +9,10 @@
 @interface TRIPBFileDescriptor
 {
     NSString *package_;
-    NSString *objcPrefix_;
-    unsigned char syntax_;
 }
 
 - (void);
-- (id);
+- (id)_ratiosForCategory:perCalendarUnit:useTotalScreenTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned char);
 - (id);
@@ -22,9 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *objcPrefix; // @synthesize objcPrefix=objcPrefix_;
 @property(readonly, copy, nonatomic) NSString *package; // @synthesize package=package_;
-@property(readonly, nonatomic) unsigned char syntax; // @synthesize syntax=syntax_;
 
 @end
 

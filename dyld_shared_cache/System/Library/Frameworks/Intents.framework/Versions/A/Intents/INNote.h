@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSArray, NSDateComponents, NSString;
+@class INSpeakableString;
 
 @interface INNote
 {
     INSpeakableString *_title;
-    NSArray *_contents;
-    INSpeakableString *_groupName;
-    NSDateComponents *_createdDateComponents;
-    NSDateComponents *_modifiedDateComponents;
-    NSString *_identifier;
-    NSString *_accountIdentifier;
 }
 
 + (id);
@@ -23,13 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)myRecoveryContactsGroupTitle;
+- (id)_timestampInSeconds;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)checkAssetsWithReason:(id)arg1 CanBlock:forAtomicInstance: /* Error: Ran out of types for this method. */;
+- (void));        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('click', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -38,28 +32,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)s;
+- (id)setFilePath: /* Error: Ran out of types for this method. */;
+- (id)clearPayloadTimerTypes;
 - (id),N;
-- (void)CollectionForAddMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideMediaItemsOptionsCollectionForAddMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)QWÂ;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, setter=_setContents:) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly, copy) NSDateComponents *createdDateComponents; // @synthesize createdDateComponents=_createdDateComponents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INSpeakableString *groupName; // @synthesize groupName=_groupName;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSDateComponents *modifiedDateComponents; // @synthesize modifiedDateComponents=_modifiedDateComponents;
-@property(readonly) Class superclass;
-@property(readonly, copy) INSpeakableString *title; // @synthesize title=_title;
 
 @end
 

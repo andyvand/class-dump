@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUChannelMatching, NUPipelinePath, _NUChannelPort, _NUPipeline;
+@class _NUChannelPort;
 
 @interface NUChannelPortRef
 {
     _Bool _isInput;
-    _NUChannelPort *_port;
-    NUChannelMatching *_matching;
-    _NUPipeline *_pipeline;
-    NUPipelinePath *_pipelinePath;
 }
 
 + (id);
@@ -30,18 +26,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (void)iIq}40;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInput; // @synthesize isInput=_isInput;
-@property(readonly, nonatomic) NUChannelMatching *matching; // @synthesize matching=_matching;
-@property(readonly, nonatomic) _NUPipeline *pipeline; // @synthesize pipeline=_pipeline;
-@property(readonly, nonatomic) NUPipelinePath *pipelinePath; // @synthesize pipelinePath=_pipelinePath;
 @property(readonly, nonatomic) _NUChannelPort *port; // @synthesize port=_port;
 
 @end

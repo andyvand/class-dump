@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void)horizationContext: /* Error: Ran out of types for this method. */;
+- (void)saveContactInStore:groups:container:request:authorizationContext: /* Error: Ran out of types for this method. */;
 
 @end
 

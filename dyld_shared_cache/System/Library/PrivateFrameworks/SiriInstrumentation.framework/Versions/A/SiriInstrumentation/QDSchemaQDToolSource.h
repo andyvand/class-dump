@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface QDSchemaQDToolSource : SISchemaInstrumentationMessage
 {
     NSArray *_spanMatches;
-    NSArray *_contexualMatches;
 }
 
 - (unsigned long long);
@@ -19,30 +18,28 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCompleteCoordinatorsRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)MADRID_MESSAGE_FORMAT;
 - (id);
 - (id);
-- (id)Id;
+- (id)_usoVerbElementId;
 - (id)entRaiseToWakeBoost;
-- (void)LED_NSCOCOAERRORDOMAIN;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_NSCOCOAERRORDOMAIN;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contexualMatches; // @synthesize contexualMatches=_contexualMatches;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *spanMatches; // @synthesize spanMatches=_spanMatches;
 
 @end

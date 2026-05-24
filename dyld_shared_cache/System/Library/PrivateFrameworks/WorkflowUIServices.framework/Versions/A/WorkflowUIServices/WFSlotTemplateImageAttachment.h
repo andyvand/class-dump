@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont;
-
 __attribute__((visibility("hidden")))
 @interface WFSlotTemplateImageAttachment
 {
     double _imageScaleFactor;
-    NSFont *_fontForAlignment;
 }
 
 - (void);
 - (void);
-- (double);
+- (double)T;
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSFont *fontForAlignment; // @synthesize fontForAlignment=_fontForAlignment;
 @property(nonatomic) double imageScaleFactor; // @synthesize imageScaleFactor=_imageScaleFactor;
 
 @end

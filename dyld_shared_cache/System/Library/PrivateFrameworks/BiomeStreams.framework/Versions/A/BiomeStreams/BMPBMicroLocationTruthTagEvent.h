@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBMicroLocationTruthTagEvent
 {
     double _absoluteTimestamp;
-    NSString *_clientBundleId;
-    NSString *_recordingRequestIdentifier;
-    NSString *_truthTagIdentifier;
-    CDStruct_d3e759b0 _has;
 }
 
 - (id);
@@ -24,30 +18,23 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)4;
 - (double);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)24;
 - (id);
 - (_Bool);
-- (id);
+- (id)˟;
 - (_Bool);
 - (void);
 - (void);
 - (void)÷øùúû;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *clientBundleId; // @synthesize clientBundleId=_clientBundleId;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasClientBundleId;
-@property(readonly, nonatomic) _Bool hasRecordingRequestIdentifier;
-@property(readonly, nonatomic) _Bool hasTruthTagIdentifier;
-@property(retain, nonatomic) NSString *recordingRequestIdentifier; // @synthesize recordingRequestIdentifier=_recordingRequestIdentifier;
-@property(retain, nonatomic) NSString *truthTagIdentifier; // @synthesize truthTagIdentifier=_truthTagIdentifier;
 
 @end
 

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 @interface CKMenuBarManager
 {
     _Bool _hasCompletedDraftsPreloading;
-    _Bool _shouldGenerateFilters;
-    _Bool _shouldConfigureAttributedTextStyleTitles;
-    NSDictionary *_labelByPhoneNumber;
-    NSSet *_activeFilterModes;
 }
 
 + (id)¡u;
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)_writingToolsSessionUUID;
+- (_Bool)_webView:saveDataToFile:suggestedFilename:mimeType:originatingURL: /* Error: Ran out of types for this method. */;
+- (void)_cachedMinimumColumnWidths;
+- (void)_authenticationAction;
+- (void)ts;
+- (void)_duration;
+- (void)NoteAttachmentPresentationOccurence;
 - (id);
-- (id);
-- (_Bool);
+- (id)JGtGGAGGAAyADyAEyA10__A11_AWyAEyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGGGGAGG;
+- (_Bool)o;
+- (void)o;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)ICNoteAnalyticsAudioTranscriptInteractionNotificationAttachmentKey;
+- (id)r;
 - (id);
 - (id);
 - (void);
@@ -45,10 +39,6 @@
 - (void)\;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *activeFilterModes; // @synthesize activeFilterModes=_activeFilterModes;
-@property(nonatomic, getter=hasCompletedDraftsPreloading) _Bool hasCompletedDraftsPreloading; // @synthesize hasCompletedDraftsPreloading=_hasCompletedDraftsPreloading;
-@property(retain, nonatomic) NSDictionary *labelByPhoneNumber; // @synthesize labelByPhoneNumber=_labelByPhoneNumber;
-@property(nonatomic) _Bool shouldConfigureAttributedTextStyleTitles; // @synthesize shouldConfigureAttributedTextStyleTitles=_shouldConfigureAttributedTextStyleTitles;
 @property(nonatomic) _Bool shouldGenerateFilters; // @synthesize shouldGenerateFilters=_shouldGenerateFilters;
 
 @end

@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (double);
-- (void);
-- (void);
+- (void)objectsPassingTest:(id)arg1;
+- (void)fetchMessageRecordsForChatRecordWithGUID:(id)arg1 filteredUsingPredicate:sortedUsingDescriptors:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_removeTransferFromiCloudBackupWithGuid: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (double);
@@ -32,9 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)¨]ÿ=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *effectiveTextAttributes; // @synthesize effectiveTextAttributes=_effectiveTextAttributes;
 @property(copy, nonatomic) NSDictionary *regularTextAttributes; // @synthesize regularTextAttributes=_regularTextAttributes;
-@property(readonly, nonatomic) double verticalSpacingToSpinner;
 
 @end
 

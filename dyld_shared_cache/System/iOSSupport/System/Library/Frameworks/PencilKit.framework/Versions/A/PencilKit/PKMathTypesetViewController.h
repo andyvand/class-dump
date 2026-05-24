@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImageView, UILabel, UITapGestureRecognizer, UIViewController;
+@class UIViewController;
 
 @interface PKMathTypesetViewController
 {
     struct CGSize _contentSize;
-    UILabel *_footerLabel;
-    CDUnknownBlockType _tapAction;
-    UIViewController *_typesetViewController;
-    UIImageView *_typesetImageView;
-    UIColor *_footerColor;
-    NSString *_footerString;
-    UITapGestureRecognizer *_tapGR;
 }
 
 + (double);
@@ -34,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGSize);
 - (_Bool);
@@ -42,11 +35,6 @@
 - (void)xwxÄz{|,~;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *footerColor; // @synthesize footerColor=_footerColor;
-@property(copy, nonatomic) NSString *footerString; // @synthesize footerString=_footerString;
-@property(copy, nonatomic) CDUnknownBlockType tapAction; // @synthesize tapAction=_tapAction;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGR; // @synthesize tapGR=_tapGR;
-@property(retain, nonatomic) UIImageView *typesetImageView; // @synthesize typesetImageView=_typesetImageView;
 @property(retain, nonatomic) UIViewController *typesetViewController; // @synthesize typesetViewController=_typesetViewController;
 
 @end

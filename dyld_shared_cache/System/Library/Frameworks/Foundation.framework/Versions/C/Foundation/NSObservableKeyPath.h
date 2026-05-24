@@ -6,7 +6,6 @@
 
 #import <Foundation/NSBoundKeyPath.h>
 
-@class NSString;
 @protocol NSObservable;
 
 @interface NSObservableKeyPath : NSBoundKeyPath
@@ -15,19 +14,12 @@
 
 - (void);
 - (_Bool);
-- (id);
+- (id)unarchivedObjectOfClasses:fromData:error: /* Error: Ran out of types for this method. */;
 - (id)<;
 - (id);
 
 // Remaining properties
 @property(readonly) id <NSObservable> changes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

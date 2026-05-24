@@ -6,19 +6,12 @@
 
 #import <Foundation/NSFileAccessClaim.h>
 
-@class NSFileAccessNode, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSFileWritingWritingClaim : NSFileAccessClaim
 {
     NSURL *_url1;
-    _Bool _url1DidChange;
-    unsigned long long _options1;
-    NSURL *_url2;
-    _Bool _url2DidChange;
-    unsigned long long _options2;
-    NSFileAccessNode *_location1;
-    NSFileAccessNode *_location2;
 }
 
 + (_Bool)ithCoder:] /* Error: Ran out of types for this method. */;
@@ -29,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void)port_t CoreDisplay_CopyRealtimeDisplayInfoShmem();
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (_Bool);
-- (void)idateName:error: /* Error: Ran out of types for this method. */;
+- (void)validateName:error: /* Error: Ran out of types for this method. */;
 - (void)ttuvvvvvwxxyz{{{{{{|||}}}~ ¡¡¢¢¢£¤¥¥¥¦§§§¨©ª««¬¬­­­®¯¯°±±²²³´µµµµ¶¶······¸¹¹¹¹¹º»»¼¼¼½½½½¾¿ÀÁÂÂÂÂÂÃÄÅÅÅÅÅÆÇÈÉÊËÌÌÌÍÍÍÍÍÎÎÎÏÐÑÒÒÓÔÔÕÖ×××××ØØØØÙÙÙÚÚÛÛÛÛÜÜÜÝÞßßààààááâãããäääåææçèèèééééêêêêëìììíîïðððññòóóóôõöö÷÷÷÷øùùùúúúúûüüüýýýýþþÿ;
 
 @end

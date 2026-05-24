@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableData;
+@class NSMutableArray;
 
 @interface CSShadowMicScoreCreator
 {
     unsigned long long _bestStartDetectSample;
-    unsigned long long _bestEarlyDetectSample;
-    unsigned long long _bestEndDetectSample;
-    double _shadowMicScore;
-    NSMutableArray *_rmsSamplesForEntireAudio;
-    NSMutableData *_audioBuffer;
-    double _speechVoiceLevel;
-    unsigned long long _numberOfVoicingFrames;
-    long long _numberOfTotalFramesETFT;
 }
 
 - (double);
-- (double);
+- (double);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -43,18 +35,10 @@
 - (void);
 - (void);
 - (id);
-- (void)IsMagusSupported;
+- (void)getIsMagusSupported;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *audioBuffer; // @synthesize audioBuffer=_audioBuffer;
-@property(nonatomic) unsigned long long bestEarlyDetectSample; // @synthesize bestEarlyDetectSample=_bestEarlyDetectSample;
-@property(nonatomic) unsigned long long bestEndDetectSample; // @synthesize bestEndDetectSample=_bestEndDetectSample;
-@property(nonatomic) unsigned long long bestStartDetectSample; // @synthesize bestStartDetectSample=_bestStartDetectSample;
-@property(nonatomic) long long numberOfTotalFramesETFT; // @synthesize numberOfTotalFramesETFT=_numberOfTotalFramesETFT;
-@property(nonatomic) unsigned long long numberOfVoicingFrames; // @synthesize numberOfVoicingFrames=_numberOfVoicingFrames;
 @property(retain, nonatomic) NSMutableArray *rmsSamplesForEntireAudio; // @synthesize rmsSamplesForEntireAudio=_rmsSamplesForEntireAudio;
-@property(nonatomic) double shadowMicScore; // @synthesize shadowMicScore=_shadowMicScore;
-@property(nonatomic) double speechVoiceLevel; // @synthesize speechVoiceLevel=_speechVoiceLevel;
 
 @end
 

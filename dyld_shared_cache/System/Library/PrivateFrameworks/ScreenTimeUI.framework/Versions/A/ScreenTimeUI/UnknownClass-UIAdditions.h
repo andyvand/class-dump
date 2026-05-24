@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface UnknownClass (UIAdditions)
 + (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)itemsDeleted;
 - (id);
 
 // Remaining properties
-@property(readonly) NSImage *darkColorsMonogram;
-@property(readonly) NSImage *iconImage;
-@property(readonly) NSImage *lightColorsMonogram;
 @property(readonly, copy) NSString *localizedDisplayName;
 @end
 

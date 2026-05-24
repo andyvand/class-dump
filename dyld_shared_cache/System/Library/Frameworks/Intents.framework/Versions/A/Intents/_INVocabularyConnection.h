@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface _INVocabularyConnection
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _connectionValid;
 }
 
 + (void)#;
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ts;
+- (void)duplicateAlarmExists;
 - (id);
 
 @end

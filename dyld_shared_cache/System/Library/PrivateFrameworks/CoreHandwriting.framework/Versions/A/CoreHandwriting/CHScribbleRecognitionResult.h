@@ -9,19 +9,17 @@
 @interface CHScribbleRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _center;
-    struct CGSize _size;
 }
 
-+ (_Bool);
++ (_Bool)_houghResults;
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGPoint);
 - (void);
 
 // Remaining properties
 @property(readonly) struct CGPoint center; // @synthesize center=_center;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

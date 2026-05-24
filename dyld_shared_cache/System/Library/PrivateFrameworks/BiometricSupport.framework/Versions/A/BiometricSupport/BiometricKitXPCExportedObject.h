@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitXPCServer, NSMutableDictionary, NSString, NSXPCConnection;
+@class BiometricKitXPCServer, NSMutableDictionary;
 
 @interface BiometricKitXPCExportedObject
 {
     NSMutableDictionary *_clients;
-    int _clientEntitlement;
-    BiometricKitXPCServer *_server;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -35,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -50,15 +47,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)reters;
+- (void)بهم;
+- (void)file ";
+- (void)7374757677787980818283848586878889909192939495969798990123456789ABCDEFuuuuuuuubtnufruuuuuuuuuuuuuuuuuu;
 - (void);
 - (void);
 - (void);
@@ -69,20 +66,20 @@
 - (void);
 - (void);
 - (id);
+- (void)6;
+- (void);
+- (void);
+- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)_receivedKeepAliveListener;
+- (void)ives;
 - (void);
 - (void);
 - (void);
@@ -97,24 +94,15 @@
 - (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id)hID;
 - (void);
+- (void)ents;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
+- (void);
 
 // Remaining properties
-@property(nonatomic) int clientEntitlement; // @synthesize clientEntitlement=_clientEntitlement;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) BiometricKitXPCServer *server; // @synthesize server=_server;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShare, NSData, NSString, NSUUID, TUConversationActivityMetadata;
+@class NSUUID;
 
 @interface TUConversationActivityCreateSessionRequest
 {
     NSUUID *_UUID;
-    NSString *_activityIdentifier;
-    NSData *_applicationContext;
-    TUConversationActivityMetadata *_metadata;
-    CKShare *_share;
-    NSString *_staticIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -27,27 +22,22 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)( A9;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)qa;
 - (id);
 - (void);
 - (void);
-- (void)necting: /* Error: Ran out of types for this method. */;
+- (void)setDateStartedConnecting: /* Error: Ran out of types for this method. */;
 - (id)D;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(copy, nonatomic) NSData *applicationContext; // @synthesize applicationContext=_applicationContext;
-@property(retain, nonatomic) TUConversationActivityMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(copy, nonatomic) NSString *staticIdentifier; // @synthesize staticIdentifier=_staticIdentifier;
 
 @end
 

@@ -6,28 +6,24 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, MURandom, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectMapSlides : MREffect
 {
     NSMutableDictionary *mSprites;
-    MRImageProvider *mBoxShadowBig;
-    MRImageProvider *mBoxShadowBigBottom;
-    MRImageProvider *mBoxShadowBigTop;
-    MURandom *mRandom;
 }
 
 - (void);
 - (void);
+- (void)5;
 - (void);
-- (void);
-- (void);
+- (void)0#;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)configProvider;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);

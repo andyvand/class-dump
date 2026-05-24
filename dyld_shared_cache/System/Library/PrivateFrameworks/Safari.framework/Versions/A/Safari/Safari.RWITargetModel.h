@@ -7,22 +7,6 @@
 @interface Safari.RWITargetModel
 {
     id liveTarget;
-    id id;
-    id _kind;
-    id _deviceClass;
-    id _udid;
-    id _deviceName;
-    id _displayName;
-    id _productVersion;
-    id _icon;
-    id _isCapable;
-    id _supportsRemoteWebInspector;
-    id _supportsServiceWorkerAutomaticInspection;
-    id _visibleApplications;
-    id _pairingState;
-    id _isRemoteInspectionEnabled;
-    id _isPasscodeLocked;
-    id _$observationRegistrar;
 }
 
 @end

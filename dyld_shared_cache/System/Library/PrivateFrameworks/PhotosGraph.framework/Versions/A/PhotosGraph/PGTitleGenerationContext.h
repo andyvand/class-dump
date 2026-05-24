@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSHolidayCalendarEventService, CLSServiceManager, PGGraph, PGGraphLocationHelper, PGGraphPublicEventCategoryNodeCollection;
+@class PGGraph;
 
 @interface PGTitleGenerationContext
 {
     PGGraph *_graph;
-    PGGraphLocationHelper *_locationHelper;
-    CLSHolidayCalendarEventService *_holidayService;
-    PGGraphPublicEventCategoryNodeCollection *_appleEventsCategoryNodes;
-    CLSServiceManager *_serviceManager;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)16@24B32q36;
+- (id)textElementFrame;
+- (id)setFocusedElementController:forApplication: /* Error: Ran out of types for this method. */;
+- (id)",R,N,V_elementFilterStrategy;
 - (void)ph/Framework/Memories/Memory Generators/CurrentMemoryGenerators/MeaningMemoryGenerators/PGMeaningfulEventMemoryGenerator.m;
 - (id)tItem>"8@"<PGHighlightItem>"16;
 - (id);
 - (void)±÷$Üýÿ;
 
 // Remaining properties
-@property(readonly) PGGraphPublicEventCategoryNodeCollection *appleEventsCategoryNodes; // @synthesize appleEventsCategoryNodes=_appleEventsCategoryNodes;
 @property(retain, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(readonly) CLSHolidayCalendarEventService *holidayService; // @synthesize holidayService=_holidayService;
-@property(readonly) PGGraphLocationHelper *locationHelper; // @synthesize locationHelper=_locationHelper;
-@property(readonly) CLSServiceManager *serviceManager; // @synthesize serviceManager=_serviceManager;
 
 @end
 

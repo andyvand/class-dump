@@ -14,15 +14,15 @@
 }
 
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)monopolize;
 - (id);
 - (id);
 - (id);
-- (void)dDataContext;
+- (void)HMCameraClipEncryptedDataContext;
 
 // Remaining properties
 @property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;

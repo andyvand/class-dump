@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id)nning (topic=%@).;
-- (void)ore;
+- (void)_backingStore;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDAnalyticsEventTriggerUserConfirmationSendData *analyticsData; // @synthesize analyticsData=_analyticsData;

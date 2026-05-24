@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTPreset, NSMutableArray;
+@class AVTPreset;
 
 __attribute__((visibility("hidden")))
 @interface AVTPresetStore
 {
     AVTPreset *_presets[40];
-    AVTPreset *_resolvedPresets[40];
-    NSMutableArray *_unresolvedDependencies[40];
-    unsigned long long _unresolvedDependencyCount;
 }
 
 - (void);

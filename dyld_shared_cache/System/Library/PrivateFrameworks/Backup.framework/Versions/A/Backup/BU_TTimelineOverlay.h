@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     void *_timelineControl;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

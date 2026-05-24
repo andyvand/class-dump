@@ -12,9 +12,10 @@
 }
 
 - (id);
+- (void)parseHomeSpecificCFParameters:(id)arg1 into: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ptr}] %sRaising a power assertion to prevent the system from sleeping; reason:%s.
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

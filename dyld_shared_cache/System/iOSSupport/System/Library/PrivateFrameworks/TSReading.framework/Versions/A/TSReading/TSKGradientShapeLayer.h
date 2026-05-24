@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CAShapeLayer, NSArray, NSString;
+@class CAGradientLayer;
 
 @interface TSKGradientShapeLayer
 {
     CAGradientLayer *_gradient;
-    CAShapeLayer *_shapeMask;
 }
 
-- (id);
-- (void);
+- (id)the main thread! - thread: /* Error: Ran out of types for this method. */;
+- (void)troller - Queue->Player synchronization completed - player:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -32,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)invalidPriceLocale;
 - (id);
 - (void);
 - (void);
@@ -46,13 +45,7 @@
 - (void)r layer class (%@)!;
 
 // Remaining properties
-@property(copy) NSArray *colors;
-@property struct CGPoint endPoint;
 @property(retain, nonatomic) CAGradientLayer *gradient; // @synthesize gradient=_gradient;
-@property(copy) NSArray *locations;
-@property(retain, nonatomic) CAShapeLayer *shapeMask; // @synthesize shapeMask=_shapeMask;
-@property struct CGPoint startPoint;
-@property(copy) NSString *type;
 
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EMBlockedSenderReader, EMVIPReader;
+@protocol EMBlockedSenderReader;
 
 @interface EDUserNotificationFilter
 {
     id <EMBlockedSenderReader> _blockedSenderReader;
-    id <EMVIPReader> _vipReader;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@B;
 - (_Bool);
 - (void)EGER PRIMARY KEY AUTOINCREMENT,
     item INTEGER NOT NULL,
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <EMBlockedSenderReader> blockedSenderReader; // @synthesize blockedSenderReader=_blockedSenderReader;
-@property(readonly, nonatomic) id <EMVIPReader> vipReader; // @synthesize vipReader=_vipReader;
 
 @end
 

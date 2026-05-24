@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdHomeActivityStateTransitionLogEvent
 {
     long long _homeCount;
-    long long _awayCount;
-    long long _vacationCount;
-    long long _comingHomeCount;
-    long long _comingHomeFromVacationCount;
-    long long _automatedCount;
-    long long _automatedHoldEndCount;
-    long long _manualHoldEndCount;
-    long long _manualHoldStartCount;
-    long long _otherCount;
-    long long _totalCount;
 }
 
 - (long long);
+- (long long)_saveSenderSessionDeleteError;
+- (long long)eleteError %@;
+- (id)E;
 - (long long);
 - (long long);
-- (id);
 - (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long)A;
 - (long long);
 - (long long);
 - (long long);
@@ -40,39 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)otifications] parameters not specific;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) long long automatedCount; // @synthesize automatedCount=_automatedCount;
-@property(readonly, nonatomic) long long automatedHoldEndCount; // @synthesize automatedHoldEndCount=_automatedHoldEndCount;
-@property(readonly, nonatomic) long long awayCount; // @synthesize awayCount=_awayCount;
-@property(readonly, nonatomic) long long comingHomeCount; // @synthesize comingHomeCount=_comingHomeCount;
-@property(readonly, nonatomic) long long comingHomeFromVacationCount; // @synthesize comingHomeFromVacationCount=_comingHomeFromVacationCount;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long homeCount; // @synthesize homeCount=_homeCount;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) long long manualHoldEndCount; // @synthesize manualHoldEndCount=_manualHoldEndCount;
-@property(readonly, nonatomic) long long manualHoldStartCount; // @synthesize manualHoldStartCount=_manualHoldStartCount;
-@property(readonly, nonatomic) long long otherCount; // @synthesize otherCount=_otherCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long totalCount; // @synthesize totalCount=_totalCount;
-@property(readonly, nonatomic) long long vacationCount; // @synthesize vacationCount=_vacationCount;
 
 @end
 

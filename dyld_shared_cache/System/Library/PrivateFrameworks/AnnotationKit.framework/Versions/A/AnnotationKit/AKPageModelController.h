@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCropAnnotation, AKInkAnnotation, AKStatistics, NSArray, NSMutableOrderedSet, NSMutableSet, NSSet;
+@class AKCropAnnotation, NSMutableOrderedSet;
 
 @interface AKPageModelController
 {
     NSMutableOrderedSet *_mutableAnnotations;
-    NSMutableSet *_mutableSelectedAnnotations;
-    AKInkAnnotation *_inkCanvasAnnotation;
-    id _representedObject;
-    AKCropAnnotation *_cropAnnotation;
-    AKStatistics *_statisticsLogger;
-    struct CGRect _appliedCropRect;
 }
 
-+ (_Bool)anceOverride:(id)arg1;
++ (_Bool)setInitialDrawingBoundsForAppearanceOverride:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -25,6 +19,7 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,45 +34,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGImage *);
-- (_Bool);
-- (id);
-- (double);
-- (void);
-- (struct CGRect);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)cteristic for characteristic updated characteristic ID:(struct CGRect)arg1 %@;
+- (struct CGImage *)nil;
+- (_Bool)for asset because no audio track was found:%@ /* Error: Ran out of types for this method. */;
+- (id)to %@;
+- (double)due to invalidation:%p /* Error: Ran out of types for this method. */;
+- (void)tings, user is not a restricted guest;
+- (struct CGRect)merge to %@ and %@;
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (id)ionSketchOverlay:forAnnotationController: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)B;
+- (id)positionSketchOverlay:forAnnotationController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *annotations;
-@property struct CGRect appliedCropRect; // @synthesize appliedCropRect=_appliedCropRect;
 @property(retain) AKCropAnnotation *cropAnnotation; // @synthesize cropAnnotation=_cropAnnotation;
-@property(retain) AKInkAnnotation *inkCanvasAnnotation; // @synthesize inkCanvasAnnotation=_inkCanvasAnnotation;
-@property __weak id representedObject; // @synthesize representedObject=_representedObject;
-@property(readonly) NSSet *selectedAnnotations;
-@property(nonatomic) __weak AKStatistics *statisticsLogger; // @synthesize statisticsLogger=_statisticsLogger;
 
 @end
 

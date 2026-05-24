@@ -6,28 +6,16 @@
 
 #import <IconFoundation/CUIPlaceholderCUIThemeRendition.h>
 
-@class CUIPlaceholderCUIRenditionKey, CUIPlaceholderCUIRenditionMetrics, CUIPlaceholderCUIRenditionSliceInformation, CUIStructuredThemeStore;
-
 __attribute__((visibility("hidden")))
 @interface CUIPlaceholder_CUIInternalLinkRendition : CUIPlaceholderCUIThemeRendition
 {
     unsigned int _nimages;
-    struct CGRect _imageRect[16];
-    struct CGImage *_image[16];
-    struct CGImage *_unslicedImage;
-    CUIPlaceholderCUIRenditionMetrics *_renditionMetrics;
-    CUIPlaceholderCUIRenditionSliceInformation *_sliceInformation;
-    struct CGRect _frame;
-    CUIStructuredThemeStore *_sourceProvider;
-    CUIPlaceholderCUIRenditionKey *_referenceKey;
-    struct CGSize _originalUncroppedSize;
-    struct CGRect _alphaCroppedFrame;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)FFF in LONG array.;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -36,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (int);
 - (id);

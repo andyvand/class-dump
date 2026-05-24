@@ -7,11 +7,6 @@
 @interface AppleMediaServicesUI.ReviewCoordinator
 {
     id reviewExtensionHostService;
-    id reviewExtensionHostView;
-    id hostingController;
-    id reviewExtensionProcess;
-    id currentPresentationViewController;
-    id currentWindow;
 }
 
 @end

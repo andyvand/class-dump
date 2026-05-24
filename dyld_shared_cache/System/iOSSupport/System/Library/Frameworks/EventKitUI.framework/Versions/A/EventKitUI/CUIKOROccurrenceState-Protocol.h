@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSArray, NSNumber, UITraitCollection;
+@class EKEvent, UITraitCollection;
 
 @protocol CUIKOROccurrenceState
-- (_Bool)View:didEndDisplayingCell:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (UITraitCollection *)ShownZeroKeywordResult;
+- (_Bool)figuration">;
+- (long long)e;
+- (double);
+- (_Bool)sharedAccountsNotificationPluginConfig;
+- (EKEvent *)Image=}16f24B28B32;
+- (_Bool)collectionView:didEndDisplayingCell:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (UITraitCollection *)_hasShownZeroKeywordResult;
 - (long long)@"EKEvent",R,N;
-- (_Bool)alue;
-- (NSArray *);
+- (_Bool)CNLabeledValue;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *allDayOverride;
-@property(readonly, nonatomic) struct CGRect backgroundRect;
-@property(readonly, nonatomic) long long birthdayCount;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) _Bool isDimmed;
-@property(readonly, nonatomic) _Bool isMiniPreviewInEventDetail;
-@property(readonly, nonatomic) _Bool isProposedTime;
-@property(readonly, nonatomic) _Bool isSelected;
 @property(readonly, nonatomic) EKEvent *occurrence;
-@property(readonly, nonatomic) _Bool occurrenceIsFirstVisibleDayOfEvent;
-@property(readonly, nonatomic) NSArray *occurrences;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
-@property(readonly, nonatomic) double travelTime;
-@property(readonly, nonatomic) double travelTimeHeight;
-@property(readonly, nonatomic) long long userInterfaceStyle;
-@property(readonly, nonatomic) _Bool usesSmallText;
-@property(readonly, nonatomic) double visibleHeight;
 @end
 

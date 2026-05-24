@@ -9,7 +9,6 @@
 @interface TTSRegexMatch
 {
     NSArray *_captureGroups;
-    struct _NSRange _utf8Range;
 }
 
 - (struct _NSRange);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *captureGroups; // @synthesize captureGroups=_captureGroups;
 @property(nonatomic) struct _NSRange utf8Range; // @synthesize utf8Range=_utf8Range;
 
 @end

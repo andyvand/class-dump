@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSMutableDictionary;
+@class ICUserIdentity;
 
 @interface ICPrivacyInfo
 {
     ICUserIdentity *_userIdentity;
-    NSMutableDictionary *_cache;
-    NSMutableDictionary *_observers;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -19,42 +16,82 @@
 + (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)URLOfResourceNamed:(id)arg1;
+- (void)ent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+    
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+#if USE_STAGE_IN
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[5], patch[15], patch[10], output);
+#else
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[patchIndices[0]], patch[patchIndices[5]], patch[patchIndices[15]], patch[patchIndices[10]], output);
+#endif
+    
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+	OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_basis_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+		osdBuffers.vertexBuffer,
+		osdBuffers.indexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+		osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord
+		);
+}
+
+;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)B;
+- (id)#;
+- (id);
+- (_Bool)Ԭ3;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)';
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)delayedShapeDetectionBlock;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)C,V_unlockActionLabel;
 - (void)V_bagEnhancedAudioDictionary;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPreviouslyAcknowledgedMusicIdentifier;
-@property(readonly, nonatomic) _Bool preflightDisclosureRequiredForMusic;
 @property(readonly, nonatomic) _Bool privacyAcknowledgementRequiredForMedia;
-@property(readonly, nonatomic) _Bool privacyAcknowledgementRequiredForMusic;
-@property(readonly, nonatomic) _Bool shouldBlockPersonalizedNetworkRequestsForMedia;
-@property(readonly, nonatomic) _Bool shouldBlockPersonalizedNetworkRequestsForMusic;
 
 @end
 

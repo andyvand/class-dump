@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFSoftwareVersion, NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDResidentSelectionPrimaryResidentChangedLogEvent
 {
     _Bool _isElectedDevicePreferred;
-    _Bool _isCurrentDevicePrimary;
-    _Bool _isCurrentDevicePreferred;
-    _Bool _isPreviousPrimaryRev2;
-    _Bool _isElectedDeviceLatestSWVersionInHome;
-    _Bool _isStatusChannelOnDedicatedTopic;
-    unsigned long long _residentSelectionMode;
-    unsigned long long _triggerReason;
-    unsigned long long _numResidentsREV3Capable;
-    unsigned long long _numResidentsREV3Incompatible;
-    HMFSoftwareVersion *_minimumVersionInHome;
-    HMFSoftwareVersion *_minimumParticipatingtvOS17Version;
-    HMFSoftwareVersion *_minimumParticipatingAllVersion;
-    HMFSoftwareVersion *_minimumParticipatingtvOS18Version;
-    unsigned long long _primaryResidentChangedSource;
-    double _durationToFindReachablePrimary;
-    long long _count;
 }
 
-+ (id);
++ (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -37,63 +19,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)setDroppedPin: /* Error: Ran out of types for this method. */;
+- (_Bool)scheduledTimerWithTimeInterval:queue:block: /* Error: Ran out of types for this method. */;
+- (_Bool)runAfterFirstUnlock:block: /* Error: Ran out of types for this method. */;
+- (_Bool)removeObserver:name:object: /* Error: Ran out of types for this method. */;
+- (_Bool)removeObjectsFromArray: /* Error: Ran out of types for this method. */;
+- (id)_favoritesSyncedMarkerFile;
+- (id)sender rules unarchiving error %@;
 - (double);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)ssibilityServerMessageOnMainThread called with bad args;
 - (id);
 - (id);
 - (long long)this is not the current accessory %@;
 - (void)ICMPTypeList types=%@>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double durationToFindReachablePrimary; // @synthesize durationToFindReachablePrimary=_durationToFindReachablePrimary;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool isCurrentDevicePreferred; // @synthesize isCurrentDevicePreferred=_isCurrentDevicePreferred;
-@property(readonly, nonatomic) _Bool isCurrentDevicePrimary; // @synthesize isCurrentDevicePrimary=_isCurrentDevicePrimary;
-@property(readonly, nonatomic) _Bool isElectedDeviceLatestSWVersionInHome; // @synthesize isElectedDeviceLatestSWVersionInHome=_isElectedDeviceLatestSWVersionInHome;
 @property(readonly, nonatomic) _Bool isElectedDevicePreferred; // @synthesize isElectedDevicePreferred=_isElectedDevicePreferred;
-@property(readonly, nonatomic) _Bool isPreviousPrimaryRev2; // @synthesize isPreviousPrimaryRev2=_isPreviousPrimaryRev2;
-@property(readonly, nonatomic) _Bool isStatusChannelOnDedicatedTopic; // @synthesize isStatusChannelOnDedicatedTopic=_isStatusChannelOnDedicatedTopic;
-@property(readonly, nonatomic) HMFSoftwareVersion *minimumParticipatingAllVersion; // @synthesize minimumParticipatingAllVersion=_minimumParticipatingAllVersion;
-@property(readonly, nonatomic) HMFSoftwareVersion *minimumParticipatingtvOS17Version; // @synthesize minimumParticipatingtvOS17Version=_minimumParticipatingtvOS17Version;
-@property(readonly, nonatomic) HMFSoftwareVersion *minimumParticipatingtvOS18Version; // @synthesize minimumParticipatingtvOS18Version=_minimumParticipatingtvOS18Version;
-@property(readonly, nonatomic) HMFSoftwareVersion *minimumVersionInHome; // @synthesize minimumVersionInHome=_minimumVersionInHome;
-@property(readonly, nonatomic) unsigned long long numResidentsREV3Capable; // @synthesize numResidentsREV3Capable=_numResidentsREV3Capable;
-@property(readonly, nonatomic) unsigned long long numResidentsREV3Incompatible; // @synthesize numResidentsREV3Incompatible=_numResidentsREV3Incompatible;
-@property(readonly, nonatomic) unsigned long long primaryResidentChangedSource; // @synthesize primaryResidentChangedSource=_primaryResidentChangedSource;
-@property(readonly, nonatomic) unsigned long long residentSelectionMode; // @synthesize residentSelectionMode=_residentSelectionMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long triggerReason; // @synthesize triggerReason=_triggerReason;
 
 @end
 

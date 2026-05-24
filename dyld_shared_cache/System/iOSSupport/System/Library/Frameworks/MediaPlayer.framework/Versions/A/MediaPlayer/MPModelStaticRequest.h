@@ -14,10 +14,10 @@
 }
 
 + (_Bool);
-- (id);
+- (id)\u;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

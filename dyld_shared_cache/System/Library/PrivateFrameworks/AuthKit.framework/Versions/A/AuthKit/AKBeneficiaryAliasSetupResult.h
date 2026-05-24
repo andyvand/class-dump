@@ -9,7 +9,6 @@
 @interface AKBeneficiaryAliasSetupResult
 {
     NSString *_beneficiaryAltDSID;
-    NSString *_beneficiaryAccountName;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 - (void)Identity.framework/DeviceIdentity;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *beneficiaryAccountName; // @synthesize beneficiaryAccountName=_beneficiaryAccountName;
 @property(copy, nonatomic) NSString *beneficiaryAltDSID; // @synthesize beneficiaryAltDSID=_beneficiaryAltDSID;
 
 @end

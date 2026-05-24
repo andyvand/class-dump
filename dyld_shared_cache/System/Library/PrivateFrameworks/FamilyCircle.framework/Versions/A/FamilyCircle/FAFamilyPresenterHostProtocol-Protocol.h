@@ -5,5 +5,6 @@
 //
 
 @protocol FAFamilyPresenterHostProtocol
+- (void)FetchScriptCommand;
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _AXFMouseCursorGeneratorLayer
 {
     struct CGPDFDocument *_pdf;
-    struct CGPDFPage *_pdfPage;
-    NSURL *__pdfURL;
 }
 
 - (void);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
+- (void)etadataFinalized;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *_pdfURL; // @synthesize _pdfURL=__pdfURL;

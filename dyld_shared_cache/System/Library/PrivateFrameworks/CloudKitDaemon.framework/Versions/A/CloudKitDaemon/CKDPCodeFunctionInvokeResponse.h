@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPCodeFunctionInvokeResponseAttestationResponse, NSData;
+@class CKDPCodeFunctionInvokeResponseAttestationResponse;
 
 @interface CKDPCodeFunctionInvokeResponse
 {
     CKDPCodeFunctionInvokeResponseAttestationResponse *_attestationResponse;
-    NSData *_serializedResult;
 }
 
 - (void);
@@ -19,10 +18,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)dataWithBytesNoCopy:(id)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ternal(FigEndpointStreamAudioEngineRef);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -30,10 +29,7 @@
 - (void)to get record field key;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPCodeFunctionInvokeResponseAttestationResponse *attestationResponse; // @synthesize attestationResponse=_attestationResponse;
-@property(readonly, nonatomic) _Bool hasAttestationResponse;
 @property(readonly, nonatomic) _Bool hasSerializedResult;
-@property(retain, nonatomic) NSData *serializedResult; // @synthesize serializedResult=_serializedResult;
 
 @end
 

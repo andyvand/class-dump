@@ -17,7 +17,7 @@
 - (id);
 - (struct MPSRegion);
 - (id);
-- (void);
+- (void)tactScope:(id)arg1;
 - (id)êÄÃ·?õDyâ©?xTþYg?;
 
 // Remaining properties

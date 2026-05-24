@@ -7,10 +7,6 @@
 @interface MAStatisticsElapsedTime
 {
     double _elapsedTime;
-    double _elapsedStart;
-    long long _elapsedCounter;
-    double _lastBeginTransactionTime;
-    double _lastEndTransactionTime;
 }
 
 - (_Bool);

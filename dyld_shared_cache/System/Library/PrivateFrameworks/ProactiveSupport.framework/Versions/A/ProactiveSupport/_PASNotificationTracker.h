@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface _PASNotificationTracker
 {
     struct _opaque_pthread_mutex_t _lock;
-    unsigned long long _nextNotificationToken;
-    NSMutableDictionary *_observers;
 }
 
-- (void);
+- (void)%{public}@ to path %@ for event store %@;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)/C/Foundation;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 
 @end
 

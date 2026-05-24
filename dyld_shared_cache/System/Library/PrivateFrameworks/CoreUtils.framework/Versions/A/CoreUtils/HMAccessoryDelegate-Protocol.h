@@ -5,5 +5,11 @@
 //
 
 @protocol HMAccessoryDelegate
+
+@optional
+- (void)ib/libSystem.B.dylib;
+- (void)oz2;
+- (void);
+- (void)__DATA_DIRTY;
 @end
 

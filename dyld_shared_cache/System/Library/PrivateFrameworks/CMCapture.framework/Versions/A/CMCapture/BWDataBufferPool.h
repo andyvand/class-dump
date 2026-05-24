@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 @protocol BWDataBufferBackedFormat;
 
 @interface BWDataBufferPool
 {
     id <BWDataBufferBackedFormat> _format;
-    unsigned long long _capacity;
-    NSString *_name;
-    _Bool _clientProvidesPool;
-    NSDictionary *_additionalDataBufferAttributes;
-    struct os_unfair_lock_s _dataBufferPoolConfigurationLock;
-    struct __CVDataBufferPool *_dataBufferPool;
-    NSDictionary *_dataBufferPoolAuxAttributes;
-    int _dataBufferPoolCreateError;
 }
 
 + (void)e.coremedia.capture.metadata-object-remote-queue;
 - (struct __CVBuffer *);
-- (id);
+- (id);
 - (struct __CFDictionary *);
 - (struct __CVDataBufferPool *);
 - (void);
@@ -37,11 +29,6 @@
 - (id)åDçlçî¸îÄî;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capacity;
-@property(readonly, nonatomic) struct __CVDataBufferPool *cvDataBufferPool;
-@property(readonly, nonatomic) struct __CFDictionary *cvDataBufferPoolAuxAttributes;
-@property(readonly, nonatomic) unsigned int dataFormat;
-@property(readonly, nonatomic) id <BWDataBufferBackedFormat> format;
 @property(readonly) NSString *name;
 
 @end

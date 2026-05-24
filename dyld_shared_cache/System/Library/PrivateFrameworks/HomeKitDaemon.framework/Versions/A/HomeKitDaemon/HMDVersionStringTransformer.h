@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)toreIdentifier:(id)arg1;
-+ (Class)dentifier:toEventDictionary: /* Error: Ran out of types for this method. */;
++ (id)initWithObjectIds:(id)arg1 coreData:(id *)arg2 storeIdentifier: /* Error: Ran out of types for this method. */;
++ (Class)addDimensionsForAccessoryIdentifier:toEventDictionary: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface CLMiLoServiceDescriptor
 {
     NSUUID *_serviceIdentifier;
-    unsigned long long _serviceType;
-    NSArray *_locationTypes;
 }
 
 + (_Bool);
-- (id);
+- (id)r;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)setFragmentAdditionalBinaryFunctions:(struct _NSZone *)arg1;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *locationTypes; // @synthesize locationTypes=_locationTypes;
 @property(readonly, nonatomic) NSUUID *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly, nonatomic) unsigned long long serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SecLaunchEvent
 {
     unsigned int _counter;
-    NSString *_name;
-    NSDate *_date;
 }
 
 - (id);
@@ -21,12 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)@;
 - (void)ÿø`;
 
 // Remaining properties
-@property unsigned int counter; // @synthesize counter=_counter;
-@property(retain) NSDate *date; // @synthesize date=_date;
 @property(retain) NSString *name; // @synthesize name=_name;
 
 @end

@@ -6,20 +6,12 @@
 
 #import <MediaPlayer/MPMediaArray.h>
 
-@class MPMediaLibrary, MPMediaQueryCriteria, MPMediaQuerySectionInfo, NSMutableArray, NSObject;
-@protocol MPMediaLibraryResultSet, OS_dispatch_queue;
+@protocol MPMediaLibraryResultSet;
 
 __attribute__((visibility("hidden")))
 @interface MPMediaEntityResultSetArray : MPMediaArray
 {
     id <MPMediaLibraryResultSet> _resultSet;
-    Class _entityClass;
-    MPMediaLibrary *_library;
-    MPMediaQuerySectionInfo *_sectionInfo;
-    NSMutableArray *_entities;
-    NSObject<OS_dispatch_queue> *_entitiesQueue;
-    MPMediaQueryCriteria *_queryCriteria;
-    long long _revision;
 }
 
 - (id);
@@ -28,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)H;
 - (void)@"NSString",R,N,V_type;
 
 // Remaining properties

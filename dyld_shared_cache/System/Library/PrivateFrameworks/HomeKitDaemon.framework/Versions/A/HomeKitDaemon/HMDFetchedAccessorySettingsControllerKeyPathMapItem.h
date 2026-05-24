@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 @protocol HMDFetchedSettingsDriver;
 
 __attribute__((visibility("hidden")))
 @interface HMDFetchedAccessorySettingsControllerKeyPathMapItem
 {
     id <HMDFetchedSettingsDriver> _driver;
-    NSMutableArray *_keyPathsInternal;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)pabilities;
+- (void)HomeKit_deviceCapabilities;
 
 // Remaining properties
-@property(readonly) id <HMDFetchedSettingsDriver> driver; // @synthesize driver=_driver;
 @property(readonly) NSArray *keyPaths;
 
 @end

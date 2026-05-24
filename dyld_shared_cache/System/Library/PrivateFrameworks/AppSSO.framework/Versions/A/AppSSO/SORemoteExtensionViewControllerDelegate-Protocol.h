@@ -5,5 +5,6 @@
 //
 
 @protocol SORemoteExtensionViewControllerDelegate
+- (void)A;
 @end
 

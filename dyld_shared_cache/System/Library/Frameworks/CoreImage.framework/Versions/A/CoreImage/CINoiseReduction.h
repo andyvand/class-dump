@@ -6,18 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CINoiseReduction : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputNoiseLevel;
-    NSNumber *inputSharpness;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputNoiseLevel; // @synthesize inputNoiseLevel;
-@property(retain, nonatomic) NSNumber *inputSharpness; // @synthesize inputSharpness;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TUBatchFetchRequestProcessingResult
 {
     NSDictionary *_handleToFetchRequest;
-    NSMutableArray *_handlesToBatchFetch;
-    NSMutableArray *_allHandlesFromFetchRequests;
-    NSMutableDictionary *_fetchRequestResults;
 }
 
 - (id);
@@ -23,10 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)pletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *allHandlesFromFetchRequests; // @synthesize allHandlesFromFetchRequests=_allHandlesFromFetchRequests;
-@property(readonly, nonatomic) NSMutableDictionary *fetchRequestResults; // @synthesize fetchRequestResults=_fetchRequestResults;
 @property(readonly, nonatomic) NSDictionary *handleToFetchRequest; // @synthesize handleToFetchRequest=_handleToFetchRequest;
-@property(readonly, nonatomic) NSMutableArray *handlesToBatchFetch; // @synthesize handlesToBatchFetch=_handlesToBatchFetch;
 
 @end
 

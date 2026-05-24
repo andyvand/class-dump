@@ -5,16 +5,15 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, SGTSearchQueryCollectorDelegate;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SGTBaseCollectorReserved
 {
     NSObject<OS_dispatch_queue> *dispatchQueue;
-    id <SGTSearchQueryCollectorDelegate> delegate;
 }
 
-- (void);
+- (void);
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TabDialogInstallationTarget
+- (void)A;
 @end
 

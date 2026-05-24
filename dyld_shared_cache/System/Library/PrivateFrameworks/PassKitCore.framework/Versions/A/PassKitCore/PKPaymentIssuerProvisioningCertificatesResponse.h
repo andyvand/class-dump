@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PKPaymentIssuerProvisioningCertificatesResponse : PKPaymentWebServiceResponse
 {
     NSArray *_certificates;
-    NSData *_nonce;
-    NSData *_publicKeyHash;
-    NSData *_nonceSignature;
 }
 
 - (void);
@@ -22,14 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void)lue;
-- (id)entPass;
+- (void)accessibilityValue;
+- (id)paymentPass;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(readonly, copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) NSData *nonceSignature; // @synthesize nonceSignature=_nonceSignature;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
 
 @end
 

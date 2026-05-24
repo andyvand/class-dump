@@ -5,5 +5,8 @@
 //
 
 @protocol IMSingletonOverriding
+
+@optional
+- (_Bool);
 @end
 

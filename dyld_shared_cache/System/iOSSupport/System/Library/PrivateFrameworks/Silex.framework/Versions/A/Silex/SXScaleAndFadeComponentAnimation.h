@@ -10,11 +10,10 @@
 {
 }
 
-- (Class);
+- (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) double initialAlpha; // @dynamic initialAlpha;
-@property(readonly, nonatomic) double initialScale; // @dynamic initialScale;
 
 @end
 

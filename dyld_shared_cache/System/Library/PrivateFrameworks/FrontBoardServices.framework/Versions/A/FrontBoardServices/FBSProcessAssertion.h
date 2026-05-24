@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSProcessAssertion, FBSProcessExecutionPolicy, NSString;
-@protocol FBSProcess;
+@class BKSProcessAssertion, NSString;
 
 @interface FBSProcessAssertion
 {
     NSString *_name;
-    id <FBSProcess> _process;
-    FBSProcessExecutionPolicy *_policy;
-    unsigned long long _activationCount;
-    _Bool _invalidated;
-    BKSProcessAssertion *_assertion;
 }
 
 - (unsigned long long);
@@ -25,32 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)V;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)carPlaySupportedOEMAppIdListWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActivated) _Bool activated;
-@property(readonly, nonatomic) unsigned long long activationCount; // @synthesize activationCount=_activationCount;
 @property(readonly, nonatomic) BKSProcessAssertion *assertion; // @synthesize assertion=_assertion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) FBSProcessExecutionPolicy *policy; // @synthesize policy=_policy;
-@property(readonly, nonatomic) __weak id <FBSProcess> process; // @synthesize process=_process;
-@property(readonly) Class superclass;
 
 @end
 

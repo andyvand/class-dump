@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVParamServiceList, HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVParamAccessorySignature
 {
     HAPTLVUnsignedNumberValue *_accessoryID;
-    HAP2TLVParamServiceList *_serviceList;
 }
 
 + (id);
@@ -22,21 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)o pruning policy for stream %@;
+- (_Bool)s/ProactiveSupport.framework/Versions/A/ProactiveSupport;
 - (id);
-- (void)rentPairVerifyError: /* Error: Ran out of types for this method. */;
+- (void)setCurrentPairVerifyError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *accessoryID; // @synthesize accessoryID=_accessoryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAP2TLVParamServiceList *serviceList; // @synthesize serviceList=_serviceList;
-@property(readonly) Class superclass;
 
 @end
 

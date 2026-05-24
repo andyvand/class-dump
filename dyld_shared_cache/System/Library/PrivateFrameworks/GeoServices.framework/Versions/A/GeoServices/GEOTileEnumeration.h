@@ -4,48 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileData, NSData, NSString;
+@class GEOTileData;
 
 @interface GEOTileEnumeration
 {
     GEOTileData *_data;
-    NSData *_key;
-    _Bool _current;
-    NSString *_eTag;
-    unsigned char _originalLoadReason;
-    double _age;
 }
 
 - (void);
 - (unsigned char);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)× ;
-- (void)erMinor:(id)arg1;
-- (double)nse;
+- (void)setModelNumberMinor:(id)arg1;
+- (double)GEOETAResponse;
 - (void)°;
 - (void)§!ªðg>Q@;
 - (id);
 - (_Bool)É9*\3;
 
 // Remaining properties
-@property(nonatomic) double age; // @synthesize age=_age;
-@property(nonatomic) _Bool current; // @synthesize current=_current;
 @property(retain, nonatomic) GEOTileData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *eTag; // @synthesize eTag=_eTag;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(nonatomic) unsigned char originalLoadReason; // @synthesize originalLoadReason=_originalLoadReason;
-@property(readonly) Class superclass;
 
 @end
 

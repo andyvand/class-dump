@@ -6,13 +6,11 @@
 
 #import <SocialUI/SOChatDisplayController.h>
 
-@class NSDate, NSMutableDictionary, NSUndoManager;
+@class NSDate, NSMutableDictionary;
 
 @interface SONewChatDisplayController : SOChatDisplayController
 {
     NSMutableDictionary *_knownIDStatus;
-    NSDate *_referenceDate;
-    NSUndoManager *_recipientBarUndoManager;
 }
 
 + (_Bool);
@@ -41,16 +39,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)%J;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUndoManager *recipientBarUndoManager; // @synthesize recipientBarUndoManager=_recipientBarUndoManager;
 @property(copy, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
 
 @end

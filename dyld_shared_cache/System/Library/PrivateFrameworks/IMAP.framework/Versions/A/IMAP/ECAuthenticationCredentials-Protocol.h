@@ -7,19 +7,13 @@
 @class NSString;
 
 @protocol ECAuthenticationCredentials
-- (NSString *)axConcurrentOperationCount: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *);
+- (NSString *)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *)initWithMaxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *appleAuthenticationToken;
-@property(readonly, copy) NSString *applePersonID;
-@property(readonly, copy) NSString *base64EncodedAppleAuthenticationToken2;
-@property(readonly, copy) NSString *clientInfo;
-@property(readonly, copy) NSString *hostname;
-@property(readonly, copy) NSString *machineID;
-@property(readonly, copy) NSString *oauthToken;
-@property(readonly, copy) NSString *oneTimePassword;
-@property(readonly, copy) NSString *password;
-@property(readonly, copy, nonatomic) NSString *saslProfileName;
 @property(readonly, copy) NSString *username;
 @end
 

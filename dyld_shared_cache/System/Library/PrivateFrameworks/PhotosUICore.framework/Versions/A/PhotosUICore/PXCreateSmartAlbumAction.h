@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSString, PHAssetCollection, PHCollectionList;
+@class NSString, PHAssetCollection;
 
 @interface PXCreateSmartAlbumAction : PXPhotosAction
 {
     PHAssetCollection *_createdAssetCollection;
-    NSString *_title;
-    PHCollectionList *_parentCollectionList;
-    NSString *_createdCollectionIdentifier;
 }
 
 - (void);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id)blic OS release? If so, please provide the OS version.
@@ -31,9 +28,6 @@
 - (void)LemonadeFeatureIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *createdAssetCollection; // @synthesize createdAssetCollection=_createdAssetCollection;
-@property(copy, nonatomic) NSString *createdCollectionIdentifier; // @synthesize createdCollectionIdentifier=_createdCollectionIdentifier;
-@property(readonly, nonatomic) PHCollectionList *parentCollectionList; // @synthesize parentCollectionList=_parentCollectionList;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

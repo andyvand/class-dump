@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, UIView, UIViewPropertyAnimator;
+@class CAAnimation;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewAdditiveAnimationAction
 {
     CAAnimation *_pendingAnimation;
-    UIViewPropertyAnimator *_animationObject;
-    UIView *_view;
 }
 
 - (void);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)__layoutInfo;
 - (id)4;
-- (void)x;
+- (void)SgXwz_Xx;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) UIViewPropertyAnimator *animationObject; // @synthesize animationObject=_animationObject;
 @property(readonly, retain, nonatomic) CAAnimation *pendingAnimation; // @synthesize pendingAnimation=_pendingAnimation;
-@property(readonly, retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

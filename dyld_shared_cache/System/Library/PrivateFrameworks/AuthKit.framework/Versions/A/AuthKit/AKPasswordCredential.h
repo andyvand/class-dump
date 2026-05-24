@@ -9,7 +9,6 @@
 @interface AKPasswordCredential
 {
     NSString *_userIdentifier;
-    NSString *_password;
 }
 
 + (_Bool);
@@ -21,15 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

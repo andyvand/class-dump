@@ -7,11 +7,6 @@
 @interface AWDCoreRoutineModelLength
 {
     unsigned long long _timestamp;
-    unsigned int _length;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int length:1;
-    } _has;
 }
 
 - (_Bool);
@@ -19,24 +14,21 @@
 - (unsigned int);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
-- (void);
+- (void)t5;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLength;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int length; // @synthesize length=_length;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

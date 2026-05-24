@@ -6,29 +6,24 @@
 
 #import <Safari/SecurePreferencesModule.h>
 
-@class NSBox, NSDictionary, NSOrderedSet, NSOutlineView, NSSearchField, NSString;
+@class NSBox, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface WebFeatureFlagSettings : SecurePreferencesModule
 {
     NSDictionary *_features;
-    NSDictionary *_filteredFeatures;
-    NSOrderedSet *_orderedFilteredFeatureCategoryKeys;
-    NSBox *_featuresBox;
-    NSOutlineView *_featuresOutlineView;
-    NSSearchField *_searchField;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -53,16 +48,7 @@ __attribute__((visibility("hidden")))
 - (id)¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak NSBox *featuresBox; // @synthesize featuresBox=_featuresBox;
-@property(nonatomic) __weak NSOutlineView *featuresOutlineView; // @synthesize featuresOutlineView=_featuresOutlineView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSSearchField *searchField; // @synthesize searchField=_searchField;
-@property(readonly) Class superclass;
 
 @end
 

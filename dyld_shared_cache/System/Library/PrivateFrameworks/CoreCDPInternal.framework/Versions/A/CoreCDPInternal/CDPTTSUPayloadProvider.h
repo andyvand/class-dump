@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KCPairingChannel, NSString;
-@protocol CDPDCircleProxy;
+@class KCPairingChannel;
 
 @interface CDPTTSUPayloadProvider
 {
     KCPairingChannel *_pairingChannel;
-    _Bool _complete;
-    id <CDPDCircleProxy> _circleProxy;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)FindBannerDelegate;
+- (id)WalletOrderDownloadSuppressionManager;
+- (id)_VisualScrubberItemViewAccessibilityWrapper;
+- (id)UnifiedFieldCompletionListSearchSuggestionsCoordinator;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

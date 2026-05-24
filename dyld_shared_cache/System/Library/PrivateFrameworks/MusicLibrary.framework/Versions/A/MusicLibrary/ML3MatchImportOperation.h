@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_55dea43e);
-- (shared_ptr_55dea43e);
-- (shared_ptr_9dbb0ac9);
-- (_Bool);
-- (shared_ptr_9dbb0ac9);
-- (unsigned long long);
-- (void);
+- (void)_assetContainmentSmallTorsoThreshold;
+- (shared_ptr_9dbb0ac9)sWithCaptionsThreshold;
+- (shared_ptr_9dbb0ac9)V_storyPromptDBEntitled;
+- (shared_ptr_9dbb0ac9),&,V_asset;
+- (shared_ptr_55dea43e)ntryPayload",R,N,V_assetPayload;
+- (shared_ptr_55dea43e)onDemandInstallAdjustedFullSizeVideoComplementResourceIfPresent;
+- (shared_ptr_9dbb0ac9)onDemandInstallAdjustedFullSizeVideoComplementResourceIfPresent;
+- (_Bool)getCloudScopedIdentifiersForLocalIdentifiers:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (shared_ptr_9dbb0ac9)_updateAlbumAssociationIfNeeded;
+- (unsigned long long)for internal resources:%@ /* Error: Ran out of types for this method. */;
+- (void)A;
 
 @end
 

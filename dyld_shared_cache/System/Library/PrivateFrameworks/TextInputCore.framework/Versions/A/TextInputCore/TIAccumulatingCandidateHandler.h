@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIAutocorrectionList, TICandidateRequestToken, TIKeyboardCandidateResultSet;
-@protocol TICandidateHandler;
+@class TIAutocorrectionList;
 
 @interface TIAccumulatingCandidateHandler
 {
     unsigned long long _status;
-    id <TICandidateHandler> _wrappedCandidateHandler;
-    CDUnknownBlockType _candidateHandler;
-    CDUnknownBlockType _candidateResultSetHandler;
-    TIAutocorrectionList *_candidates;
-    TIKeyboardCandidateResultSet *_candidateResultSet;
 }
 
-- (id);
+- (id)%d Supports RTT:%d RTT Enabled:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -29,23 +23,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)ternal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Util/CoreImageDataAdditions.m;
 - (id);
 - (void);
-- (void);
+- (void)`N;
 - (void);
 - (void)!GùiÐ1Â0@ù
 × ;
-- (void);
+- (void)setNextEligibleMaintenanceDate:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool asynchronous;
-@property(readonly, copy, nonatomic) CDUnknownBlockType candidateHandler; // @synthesize candidateHandler=_candidateHandler;
-@property(retain, nonatomic) TIKeyboardCandidateResultSet *candidateResultSet; // @synthesize candidateResultSet=_candidateResultSet;
-@property(readonly, copy, nonatomic) CDUnknownBlockType candidateResultSetHandler; // @synthesize candidateResultSetHandler=_candidateResultSetHandler;
 @property(retain, nonatomic) TIAutocorrectionList *candidates; // @synthesize candidates=_candidates;
-@property(readonly, nonatomic) TICandidateRequestToken *requestToken;
-@property(readonly, nonatomic) id <TICandidateHandler> wrappedCandidateHandler; // @synthesize wrappedCandidateHandler=_wrappedCandidateHandler;
 
 @end
 

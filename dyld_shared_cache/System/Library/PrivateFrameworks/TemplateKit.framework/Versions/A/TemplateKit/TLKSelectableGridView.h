@@ -6,16 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSArray, NSMutableArray, NSString, NUIContainerGridView;
-@protocol TLKSelectableGridViewDelegate;
+@class NUIContainerGridView;
 
 @interface TLKSelectableGridView : TLKView
 {
     long long _selectedIndex;
-    NSArray *_tuples;
-    id <TLKSelectableGridViewDelegate> _delegate;
-    NSMutableArray *_buttons;
-    double _lastMeasuredWidth;
 }
 
 + (unsigned long long);
@@ -28,31 +23,19 @@
 - (id);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)#;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)sizeOfAssetForRecord: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
-- (void);
+- (void)n't a generic intent with parameters;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buttons; // @synthesize buttons=_buttons;
 @property(retain, nonatomic) NUIContainerGridView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <TLKSelectableGridViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property double lastMeasuredWidth; // @synthesize lastMeasuredWidth=_lastMeasuredWidth;
-@property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *tuples; // @synthesize tuples=_tuples;
 
 @end
 

@@ -19,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *key;
 @property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *value;
 
 @end

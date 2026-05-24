@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol HMDEventCounterContext;
 
 @interface HMDEventCounterGroup
 {
     void context;
-    id bridgedGroup;
-    id dateQueryBlock;
 }
 
 - (void);
-- (void);
+- (void)Ȃ;
 - (long long);
 - (id);
+- (void)setIsUserCreated:(id)arg1;
+- (void)qH;
 - (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
 - (long long);
 - (void);
 - (id);
-- (void);
 - (long long);
+- (void);
+- (id);
+- (void);
+- (long long)8;
 - (double);
 - (double);
 - (long long)Aâ!4Dù1ð1Â0@ù
 × ;
-- (void)gTopicsWithTopics:(id)arg1 forHomeRouterWithUUID: /* Error: Ran out of types for this method. */;
-- (long long)rationType;
+- (void)forwardingTopicsWithTopics:(id)arg1 forHomeRouterWithUUID: /* Error: Ran out of types for this method. */;
+- (long long)dataOperationType;
 - (void)it is already set:%@ /* Error: Ran out of types for this method. */;
 - (id)stics manager %@;
 - (void)c}@Failed to add to transaction block from primary accessory model %@:%@ /* Error: Ran out of types for this method. */;
@@ -44,8 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDEventCounterContext> context; // @synthesize context;
-@property(nonatomic, readonly) NSDictionary *eventCounters;
-@property(nonatomic, readonly) long long summedEventCounters;
 
 @end
 

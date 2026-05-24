@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)uation with error %d;
 - (void);
 - (void);
 

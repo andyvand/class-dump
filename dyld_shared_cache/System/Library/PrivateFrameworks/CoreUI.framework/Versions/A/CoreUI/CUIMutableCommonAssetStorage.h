@@ -11,8 +11,6 @@
 @interface CUIMutableCommonAssetStorage : CUICommonAssetStorage
 {
     NSMutableDictionary *_bitmapInfo;
-    unsigned int _useBitmapIndex:1;
-    unsigned int _enableLargeCarKeyWorkaround:1;
 }
 
 - (_Bool);
@@ -20,21 +18,21 @@
 - (void);
 - (void);
 - (void);
+- (void)Ti;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)P;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)8);
 - (void);
+- (void);
+- (void)@;
+- (_Bool);
+- (_Bool);
+- (_Bool)StartDate;
+- (void)4;
 - (void);
 - (_Bool);
 - (void);
@@ -47,8 +45,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)-6670 due to invalid display in list;
+- (void)CleanAperture;
 - (_Bool);
 - (void);
 - (void);

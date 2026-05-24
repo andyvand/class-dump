@@ -6,101 +6,19 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWColorLookupCache, BWFencedAnimationQueue, BWFigVideoCaptureDevice, BWMetalColorCubeRenderer, BWNodeInput, BWRenderList, BWRenderListAnimator, BWRenderListProcessor, BWSemanticStyleColorCubeCache, BWStreamingCVAFilterRenderer, BWStreamingRaytracingSDOFRenderer, FigCaptureSemanticStyle, FigCaptureSemanticStyleSet, NSArray, NSDictionary, NSObject, NSString;
-@protocol MTLCommandQueue, OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface BWStreamingFilterNode : BWNode
 {
     _Bool _preparedToBecomeLive;
-    _Bool _streamingSegmentationFromInferenceEngine;
-    _Bool _depthDataDeliveryEnabled;
-    _Bool _focusBlurMapDeliveryEnabled;
-    _Bool _depthFromMonocularNetworkEnabled;
-    _Bool _portraitAutoSuggestEnabled;
-    _Bool _metadataProcessingEnabled;
-    _Bool _attachesInputPixelBufferAfterRendering;
-    _Bool _studioAndContourRenderingEnabled;
-    _Bool _stageRenderingEnabled;
-    _Bool _cinematicVideoEnabled;
-    _Bool _applyStyleBackgroundToEntireFrame;
-    _Bool _haveSeenFirstSampleBuffer;
-    _Bool _primaryStreamingPersonSegmentationEnabled;
-    _Bool _secondaryStreamingPersonSegmentationEnabled;
-    _Bool _depthFilterRenderingIsAfterPreviewStitcher;
-    struct os_unfair_lock_s _renderListLock;
-    BWRenderList *_currentRenderList;
-    BWRenderListAnimator *_currentAnimator;
-    BWRenderList *_nextRenderList;
-    BWRenderList *_mostRecentRenderListRequested;
-    BWRenderListAnimator *_nextAnimator;
-    struct os_unfair_lock_s _filterChangeLock;
-    NSArray *_filters;
-    BWMetalColorCubeRenderer *_metalFilterRenderer;
-    _Bool _semanticStyleRenderingEnabled;
-    FigCaptureSemanticStyle *_semanticStyle;
-    _Bool _semanticStyleRenderingSuspended;
-    struct os_unfair_lock_s _semanticStyleSceneLock;
-    int _semanticStyleSceneType;
-    BWFencedAnimationQueue *_fencedAnimationQueue;
-    _Bool _multipleSemanticStylesEnabled;
-    struct opaqueCMSampleBuffer *_lastSampleBuffer;
-    CDStruct_1b6d18a9 _lastRenderedPTS;
-    struct os_unfair_lock_s _lastSampleBufferLock;
-    _Bool _renderingSemanticStyleSet;
-    NSArray *_semanticStyleFiltersAndRegionArray;
-    FigCaptureSemanticStyleSet *_currentSemanticStyleSet;
-    struct CGRect _primaryCaptureRect;
-    struct CGRect _fullScreenRectangle;
-    struct os_unfair_lock_s _semanticStyleSetLock;
-    BWSemanticStyleColorCubeCache *_colorCubeCache;
-    float _pickerComparisonMaxCubeStrength;
-    _Bool _maskVisualizationEnabled;
-    BWStreamingCVAFilterRenderer *_streamingCVAFilterRenderer;
-    float _simulatedAperture;
-    float _portraitLightingEffectStrength;
-    _Bool _mirroredForMetadataAdjustment;
-    int _rotationDegreesForMetadataAdjustment;
-    BWStreamingRaytracingSDOFRenderer *_streamingRaytracingSDOFRenderer;
-    BWRenderListProcessor *_renderListProcessor;
-    BWColorLookupCache *_colorLookupCache;
-    NSObject<OS_dispatch_queue> *_processorPreparationQueue;
-    BWFigVideoCaptureDevice *_captureDevice;
-    _Bool _receivedInitialFixedPointDisparityBuffer;
-    _Bool _receivedOccludedFixedPointDisparityBuffer;
-    _Bool _mixColorCubesInGammaDomain;
-    _Bool _portraitPreviewForegroundBlurEnabled;
-    id <MTLCommandQueue> _metalCommandQueue;
-    unsigned int _priority;
-    unsigned int _receivedFrameCounter;
-    unsigned int _perFrameLoggingRatio;
-    _Bool _shouldLogPerFrameLogging;
-    _Bool _smartStyleRenderingEnabled;
-    _Bool _squareAspectRatioConfigEnabled;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    BWNodeInput *_videoInput;
-    NSDictionary *_stillImageInputsByPortType;
-    NSDictionary *_stillImageOutputsByPortType;
-    _Bool _stillImageCaptureEnabled;
-    struct os_unfair_lock_s _stillCaptureLock;
-    CDStruct_d638f5d0 _stillCaptureQueue[2];
-    unsigned int _stillCaptureEnqueueIndex;
-    int _maxLossyCompressionLevel;
-    struct OpaqueVTPixelTransferSession *_stillImagePixelTransferSession;
-    NSObject<OS_dispatch_queue> *_videoOutputEventMessagesEmitQueue;
-    _Bool _cropDepthToPrimaryCaptureAspectRatio;
-    _Bool _disableDepthAndSegmentationRotationInLandscape;
-    NSObject<OS_dispatch_semaphore> *_previewFilterBackpressureSemaphore;
-    long long _previewFilterBackpressureSemaphoreInitialCount;
 }
 
-+ (void)nematicVideo;
++ (void)CinematicVideo;
 - (id);
-- (void);
-- (void);
+- (void)sh_node<TSU:(_Bool)arg1:UUIDData<TSP::UUIDData>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)CHBBubbleSeries;
+- (_Bool)lY1;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (int);
 - (void);
 - (id);
@@ -109,16 +27,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void)initWithOAuthToken:(id)arg1 tokenSecret:(_Bool)arg2;
 - (void);
-- (void);
-- (void);
+- (void)getSyncCountThrottleThreshold;
 - (void);
 - (id);
 - (id);
@@ -136,7 +54,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void)ferTag:(long long)arg1 rawThumbnailsMetadataTag:mainRawThumbnailBufferTag:mainRawThumbnailMetadataTag:sifrRawThumbnailBufferTag:sifrRawThumbnailMetadataTag:portType:compressionProfile:URL: /* Error: Ran out of types for this method. */;
 - (_Bool)@"FigDepthDataCaptureConnectionConfiguration",R,N,V_depthDataConnectionConfiguration;
 - (id)n AVCaptureSession.plist;
@@ -151,12 +69,12 @@
 ÿ:ÇRÿ:ÇRÿ:ÇRÿ:ÇRÿ:ÇQÿ:ÇQÿ:ÇQÿ;ÇPÿ;ÇPÿ=ÇOÿBÈNÿGÈLÿMÉKÿSÊJÿZÊHÿ`ËFÿgÌCÿnÍAÿwÎ=ÿÏ:ÿÑ6ÿÒ2ÿÔ.ÿ£Õ)ÿ­×$ÿ¶ÙÿÀÛÿÊÜÿÒÞÿØßÿÜßÿßàÿ /* Error: Ran out of types for this method. */;
 - (void)Í«;
 - (id)r;
-- (_Bool)lbufferpool_trace;
-- (void)nCameraFallbackRamp;
+- (_Bool)bwpixelbufferpool_trace;
+- (void)StabilizationCameraFallbackRamp;
 - (_Bool)toImageControlModeCompletionHandler == ((void *)0);
 - (id)aph ports;
 - (_Bool)reprocess video;
-- (float)solutionFlavorByPortType;
+- (float)dimensionsByResolutionFlavorByPortType;
 - (_Bool)e.bwgraph.start-sources;
 - (void)(¶;
 - (void)Ö%;
@@ -164,38 +82,7 @@
 - (void)Ì%;
 
 // Remaining properties
-@property(nonatomic) _Bool attachesInputPixelBufferAfterRendering;
-@property(readonly) BWColorLookupCache *colorLookupCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=isDepthDataDeliveryEnabled) _Bool depthDataDeliveryEnabled;
-@property(nonatomic, getter=isDepthFromMonocularNetworkEnabled) _Bool depthFromMonocularNetworkEnabled;
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSArray *filters;
-@property(nonatomic, getter=isFocusBlurMapDeliveryEnabled) _Bool focusBlurMapDeliveryEnabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMetadataProcessingEnabled) _Bool metadataProcessingEnabled;
-@property(nonatomic, getter=isPortraitAutoSuggestEnabled) _Bool portraitAutoSuggestEnabled;
-@property float portraitLightingEffectStrength;
-@property(nonatomic) NSObject<OS_dispatch_semaphore> *previewFilterBackpressureSemaphore;
-@property(nonatomic) long long previewFilterBackpressureSemaphoreInitialCount;
-@property(nonatomic) _Bool primaryStreamingPersonSegmentationEnabled;
-@property(readonly, nonatomic, getter=isRenderingSemanticStyle) _Bool renderingSemanticStyle;
-@property(readonly, nonatomic, getter=isRenderingSemanticStyleSet) _Bool renderingSemanticStyleSet; // @synthesize renderingSemanticStyleSet=_renderingSemanticStyleSet;
-@property(nonatomic) _Bool secondaryStreamingPersonSegmentationEnabled;
-@property(readonly, retain, nonatomic) FigCaptureSemanticStyle *semanticStyle;
-@property(readonly, nonatomic, getter=isSemanticStyleRenderingEnabled) _Bool semanticStyleRenderingEnabled;
-@property(readonly, nonatomic, getter=isSemanticStyleRenderingSuspended) _Bool semanticStyleRenderingSuspended;
-@property(readonly, nonatomic) int semanticStyleSceneType;
-@property float simulatedAperture;
-@property(nonatomic) _Bool stageRenderingEnabled;
-@property(readonly, nonatomic) NSDictionary *stillImageInputsByPortType;
-@property(readonly, nonatomic) NSDictionary *stillImageOutputsByPortType;
 @property(nonatomic, getter=isStreamingSegmentationFromInferenceEngine) _Bool streamingSegmentationFromInferenceEngine;
-@property(nonatomic) _Bool studioAndContourRenderingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

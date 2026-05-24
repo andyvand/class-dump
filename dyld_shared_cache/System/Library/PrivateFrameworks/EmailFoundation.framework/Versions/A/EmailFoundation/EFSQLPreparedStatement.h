@@ -4,46 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFSQLQueryLogging;
 
 @interface EFSQLPreparedStatement
 {
     struct sqlite3_stmt *_compiled;
-    double _allowedExecutionTime;
-    id <EFSQLQueryLogging> _queryLogger;
-    NSString *_transactionLabel;
 }
 
-+ (id);
++ (id)P;
 - (id);
-- (struct sqlite3_stmt *);
+- (struct sqlite3_stmt *)lic}@No local model for %@, fetching via CKReference %@;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)applyPalettesForAvatar:(id)arg1 toNode:(unsigned long long *)arg2 palettesDescriptions:(id *)arg3;
 - (void);
+- (_Bool)generatePreviewforAnimatedImageWithfileURL:(id)arg1 maxPixelDimension:(CDUnknownBlockType)arg2 index:(id *)arg3 maxCount:resultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (double);
 - (_Bool);
-- (id);
+- (id)initWithLanguageDetectorV2Result: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)yZWthIFNlY3VyZSBCb290IFJvb3QgQ0EgMjETMBEGA1UECgwKQXBwbGUgSW5j
+LjELMAkGA1UEBhMCVVMwHhcNMTgwNjIwMTkxNTE1WhcNMTgwNjIxMTkxMTQxWjBD
+MR8wHQYDVQQDDBZNQVYtTG9jYWwtUmV2Qy1GYWN0b3J5MRMwEQYDVQQKDApBcHBs
+ZSBJbmMuMQswCQYDVQQGEwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABElVLuJg
+CQ2Xj0B7Rc70I0W/A0gM/l9cRUpqidy1ZAb/CSehI2GaKNZU7Y1NgmQ7oM6XEilz
+TYVpy6/tXoJu/zGw6rOF8fAIPRNV+C9cYvi89JfSasR0bNRbgKJtsK43zKOB2TCB
+1jAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFJhrqK+l31CPKfSFJz4lrp3Z3Bfs
+MB0GA1UdDgQWBBQl/Ci/cr1f9+q8u4zwhSFPYj8eJjAOBgNVHQ8BAf8EBAMCB4Aw
+dgYJKoZIhvdjZAYqAQH/BGYxZP+E6oWcUF0wWxYETUFOUDFT/4SalaBPCzAJFgRD
+RVBPAgEA/4aTveBoOjA4FgRib3BoBDB2Rwr9LGZCJRt1g3Z1CHiRYMi1EJotUHf4
+/WEfRcDiAzhAOHrfATNh7OQF5n6uvtUwCgYIKoZIzj0EAwMDaAAwZQIxAJYKuzPp
+60m7nJ6Dzs+l5R+hxgqNPCX8+3j3yuHzVWdZZCVISSfUmtQprdD+m7fbQAIwJEsL
+2kJxZWwNL1ZyDmp+KQxFTa9vCkNamhHDS9DP+y/4YcO4y1jA+0YvLERL8ijN
+-----END CERTIFICATE-----
+;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double allowedExecutionTime; // @synthesize allowedExecutionTime=_allowedExecutionTime;
-@property(readonly, nonatomic) struct sqlite3_stmt *compiled;
-@property(readonly, nonatomic) _Bool isFinalized;
-@property(readonly, copy, nonatomic) NSString *originalString;
 @property(retain, nonatomic) id <EFSQLQueryLogging> queryLogger; // @synthesize queryLogger=_queryLogger;
-@property(copy, nonatomic) NSString *transactionLabel; // @synthesize transactionLabel=_transactionLabel;
 
 @end
 

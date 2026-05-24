@@ -7,15 +7,12 @@
 @interface TSBlueprintManualImpressionUpdateProvider
 {
     id updateImpressionsBlocks;
-    id endImpressionsBlocks;
-    id visibleViewAccessor;
-    id visibleRectAccessor;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tagSubscriptionRepromptDelay;
 - (void);
 
 @end

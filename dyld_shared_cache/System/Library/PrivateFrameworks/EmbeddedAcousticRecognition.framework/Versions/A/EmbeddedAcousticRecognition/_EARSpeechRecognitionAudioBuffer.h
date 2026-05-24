@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _EARSpeechRecognizer;
-@protocol OS_dispatch_queue;
-
 @interface _EARSpeechRecognitionAudioBuffer
 {
     shared_ptr_809f9c31 _buffer;
-    NSObject<OS_dispatch_queue> *_queue;
-    _EARSpeechRecognizer *_speechRecognizer;
-    _Bool _cancelled;
-    _Bool _ended;
 }
 
 + (void)-;
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (double);
 - (void);
 - (double);
@@ -38,7 +31,6 @@ d¬&ø
 
 // Remaining properties
 @property(readonly) double bufferedAudioDuration;
-@property(readonly) double consumedAudioDuration;
 
 @end
 

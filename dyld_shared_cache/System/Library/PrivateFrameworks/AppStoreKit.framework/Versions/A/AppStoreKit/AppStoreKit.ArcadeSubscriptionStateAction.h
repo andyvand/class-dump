@@ -9,9 +9,6 @@
 @interface AppStoreKit.ArcadeSubscriptionStateAction : AppStoreKit.Action
 {
     id notSubscribedAction;
-    id purchasingAction;
-    id subscribedAction;
-    id unknownAction;
 }
 
 @end

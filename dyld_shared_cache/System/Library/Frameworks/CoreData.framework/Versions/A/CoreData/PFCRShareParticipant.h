@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSString, PFCRShare;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PFCRShareParticipant : NSManagedObject
@@ -16,6 +16,5 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *participantID; // @dynamic participantID;
-@property(retain, nonatomic) PFCRShare *share; // @dynamic share;
 @end
 

@@ -5,16 +5,25 @@
 //
 
 @protocol PLWriteableResource
-- (id)entifier:fileSize:type:withError: /* Error: Ran out of types for this method. */;
-- (id)lgorithmVersion: /* Error: Ran out of types for this method. */;
-- (id)ingletonObjectsInNewDatabaseWithNoPersistentStores;
+- (id);
+- (id)";
+- (id)url=%@, requestHeaders=
+%@,
+error=%@, httpStatusCode=%d;
+- (id)*93AF'
+;
+- (id);
+- (id)debugInfoKey;
+- (id)uploadFinishedForMasterResourceWithScopedIdentifier:fileSize:type:withError: /* Error: Ran out of types for this method. */;
+- (id)_fixFaceAlgorithmVersion: /* Error: Ran out of types for this method. */;
+- (id)_failed_repairSingletonObjectsInNewDatabaseWithNoPersistentStores;
 - (id)ÔÄÕ;
 - (id)rd version %{public}@ %@;
 - (id)ry. Error:%@ /* Error: Ran out of types for this method. */;
-- (id)tifier: /* Error: Ran out of types for this method. */;
+- (_Complex)tifier: /* Error: Ran out of types for this method. */;
 - (id)led on an empty array of assets.;
 - (id)24@?0Q8Q16;
-- (id)ce == %d).@count != 0;
+- (byref)ce == %d).@count != 0;
 - (id)tyState & %i) == 0;
 @end
 

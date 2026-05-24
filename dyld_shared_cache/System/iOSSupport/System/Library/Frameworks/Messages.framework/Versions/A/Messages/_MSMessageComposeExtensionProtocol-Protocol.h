@@ -5,5 +5,16 @@
 //
 
 @protocol _MSMessageComposeExtensionProtocol
+- (void);
+- (void)P;
+- (void)messageViewController:didSelectActionWithDialogResult: /* Error: Ran out of types for this method. */;
+- (void)componentState;
+- (void)ability",?,R,C,N;
+- (void)olsLayoutSpecProvider>",W,N,V_layoutSpecProvider;
+- (void)egate>",N,W,VresultProviderDelegate;
+- (void)ate;
+- (void)contextualNames;
+- (void)module:(_Bool)arg1 %@%@%@
+;
 @end
 

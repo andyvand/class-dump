@@ -5,6 +5,7 @@
 //
 
 @protocol FCOperationThrottler
+- (void);
 - (_Bool)tagMaximumCachedAge;
 - (void)pple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/OfflineDetection/FCOfflineModeMonitor.m;
 

@@ -6,26 +6,11 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryKernel.h>
 
-@class MPSKernelDAGObject, MPSMatrixMultiplication, MPSNDArray, MPSNDArrayIdentity, MPSNDArrayNormFusionDescriptor, MPSNDArrayQuantizationDescriptor, MPSNDArrayStitchedReductionRMSNorm, MPSNDArrayStitchedReductionSoftmax;
+@class MPSMatrixMultiplication, MPSNDArrayNormFusionDescriptor;
 
 @interface MPSNDArrayMatrixMultiplication : MPSNDArrayMultiaryKernel
 {
     MPSMatrixMultiplication *_mmul;
-    MPSNDArrayIdentity *_identity;
-    MPSKernelDAGObject *_alphaBetaKernelDAGObject;
-    MPSNDArrayQuantizationDescriptor *_leftQuantizationDescriptor;
-    MPSNDArrayQuantizationDescriptor *_rightQuantizationDescriptor;
-    MPSNDArrayNormFusionDescriptor *_normFusionDescriptor;
-    MPSNDArray *_normScaleArray;
-    void *_autoTuningParams;
-    int _autoTuningTarget;
-    long long _autoTuneIteration;
-    long long _nextAutoTuneIteration;
-    _Bool _logNextAutoTuneParams;
-    MPSNDArrayStitchedReductionRMSNorm *_rmsKernel;
-    MPSNDArrayStitchedReductionSoftmax *_softmaxKernel;
-    double _alpha;
-    double _beta;
 }
 
 + (_Bool);
@@ -44,21 +29,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)�!;
 - (id);
 - (void);
 - (id);
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) long long autoTuneIteration;
-@property(nonatomic) double beta; // @synthesize beta=_beta;
-@property(nonatomic) _Bool logNextAutoTuneParams;
 @property(retain, nonatomic) MPSNDArrayNormFusionDescriptor *normFusionDescriptor; // @synthesize normFusionDescriptor=_normFusionDescriptor;
 
 @end

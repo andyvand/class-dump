@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFDevice, FMLDevice, NSString;
+@class FMFDevice;
 
 @interface IMFindMyDevice
 {
     FMFDevice *_fmfDevice;
-    FMLDevice *_fmlDevice;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)bing not enabled;
++ (id)topActiveProbing failed:(id)arg1 Link probing not enabled;
+- (id)X:(id)arg1 %02d:(id)arg2 %02d)...;
+- (id)changed to %s;
+- (id)codec rate mode change:mode=%u bandwidth=%u /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -24,10 +23,7 @@
 - (void)äÃ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceName;
 @property(readonly, nonatomic) FMFDevice *fmfDevice; // @synthesize fmfDevice=_fmfDevice;
-@property(readonly, nonatomic) FMLDevice *fmlDevice; // @synthesize fmlDevice=_fmlDevice;
-@property(readonly, nonatomic) _Bool isThisDevice;
 
 @end
 

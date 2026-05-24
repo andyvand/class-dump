@@ -5,5 +5,6 @@
 //
 
 @protocol SFPasswordSharingServiceDelegate
+- (void)B;
 @end
 

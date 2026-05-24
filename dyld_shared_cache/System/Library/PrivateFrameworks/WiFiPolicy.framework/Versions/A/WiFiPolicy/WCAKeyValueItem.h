@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface WCAKeyValueItem
 {
     id _value;
-    NSString *_key;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)nsportStreamRef, float *);
+- (id);
 - (unsigned int);
-- (id);
+- (id)_parent;
 - (id);
 - (int);
 - (id);
@@ -27,27 +26,15 @@
 - (double);
 - (void);
 - (float);
-- (id);
-- (unsigned long long);
+- (id)`;
+- (unsigned long long);
 - (id);
 - (void)!lDù1¥1Â0@ù
 × ;
 - (id)d info;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *arrayValue;
-@property(readonly, nonatomic) _Bool boolValue;
-@property(readonly, nonatomic) NSData *bytesValue;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) double doubleValue;
-@property(readonly, copy, nonatomic) NSError *error;
-@property(readonly, nonatomic) float floatValue;
-@property(readonly, nonatomic) int int32Value;
-@property(readonly, nonatomic) long long int64Value;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *stringValue;
-@property(readonly, nonatomic) unsigned int uint32Value;
-@property(readonly, nonatomic) unsigned long long uint64Value;
 
 @end
 

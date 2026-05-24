@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 __attribute__((visibility("hidden")))
 @interface BWIntermediateJPEGCompressedBufferAssociatedSemaphore
 {
     NSObject<OS_dispatch_semaphore> *_semaphore;
-    NSString *_name;
-    CDStruct_1b6d18a9 _pts;
 }
 
 - (void);

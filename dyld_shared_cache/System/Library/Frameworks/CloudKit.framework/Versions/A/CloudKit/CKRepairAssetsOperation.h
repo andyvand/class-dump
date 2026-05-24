@@ -6,20 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKRepairAssetsOperationInfo, CKUploadRequestConfiguration, NSArray, NSMutableDictionary, NSString;
-@protocol CKRepairAssetsOperationCallbacks;
+@class NSArray;
 
 @interface CKRepairAssetsOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _repairAssetsCompletionBlock;
-    NSArray *_assets;
-    NSArray *_packages;
-    NSArray *_assetMetadata;
-    NSArray *_packageMetadata;
-    NSArray *_unavailableAssets;
-    NSArray *_unavailablePackages;
-    NSMutableDictionary *_perItemErrorsByRecordID;
-    CKUploadRequestConfiguration *_uploadRequestConfiguration;
 }
 
 + (SEL);
@@ -35,11 +26,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)K
+?;
 - (void);
 - (id);
 - (void);
@@ -58,25 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetMetadata; // @synthesize assetMetadata=_assetMetadata;
 @property(retain, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) id <CKRepairAssetsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKRepairAssetsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(retain, nonatomic) NSArray *packageMetadata; // @synthesize packageMetadata=_packageMetadata;
-@property(retain, nonatomic) NSArray *packages; // @synthesize packages=_packages;
-@property(retain, nonatomic) NSMutableDictionary *perItemErrorsByRecordID; // @synthesize perItemErrorsByRecordID=_perItemErrorsByRecordID;
-@property(copy, nonatomic) CDUnknownBlockType repairAssetsCompletionBlock; // @synthesize repairAssetsCompletionBlock=_repairAssetsCompletionBlock;
-@property(readonly, copy, nonatomic) CKUploadRequestConfiguration *resolvedUploadRequestConfiguration;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *unavailableAssets; // @synthesize unavailableAssets=_unavailableAssets;
-@property(retain, nonatomic) NSArray *unavailablePackages; // @synthesize unavailablePackages=_unavailablePackages;
-@property(copy, nonatomic) CKUploadRequestConfiguration *uploadRequestConfiguration; // @synthesize uploadRequestConfiguration=_uploadRequestConfiguration;
 
 @end
 

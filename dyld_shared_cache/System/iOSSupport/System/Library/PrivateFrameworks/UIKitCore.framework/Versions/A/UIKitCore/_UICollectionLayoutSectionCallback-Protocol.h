@@ -7,7 +7,7 @@
 @class UICollectionViewLayoutInvalidationContext;
 
 @protocol _UICollectionLayoutSectionCallback
-- (_Bool)roundBlur;
+- (_Bool)NoBackgroundBlur;
 - (UICollectionViewLayoutInvalidationContext *)li;
 @end
 

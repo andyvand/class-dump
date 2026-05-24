@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringSelectionPathIdentifier, BKSHIDEventDeferringToken, NSString;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSHIDEventDispatchingTarget
 {
     BKSHIDEventDeferringEnvironment *_environment;
-    BKSHIDEventDeferringToken *_deferringToken;
-    BKSHIDEventDeferringSelectionPathIdentifier *_selectionPathIdentifier;
-    int _pid;
 }
 
 + (id);
@@ -19,16 +16,16 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)ending incoming driver connection %@ to %@;
++ (id)m.apple.springboard;
 + (_Bool);
 + (id);
-+ (id);
++ (id)h;
 - (int);
+- (id)setTotalUnitCount:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)%q (%q) VALUES(NULL);;
 - (unsigned long long);
 - (void);
 - (id);
@@ -41,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringEnvironment *deferringEnvironment; // @synthesize deferringEnvironment=_environment;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringToken *deferringToken; // @synthesize deferringToken=_deferringToken;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringSelectionPathIdentifier *selectionPathIdentifier; // @synthesize selectionPathIdentifier=_selectionPathIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

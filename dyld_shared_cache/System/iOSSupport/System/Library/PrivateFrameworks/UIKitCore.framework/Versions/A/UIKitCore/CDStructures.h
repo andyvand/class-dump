@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplay, CADynamicFrameRateSource, NSString, NSTimer, UIImage, UIWebPDFView, _UIMutableFastIndexSet;
+@class CADisplay;
 
 #pragma mark Function Pointers and Blocks
 
@@ -21,26 +21,26 @@ struct ActionListHead {
 struct ActionListItem;
 
 struct CAColorMatrix {
-    float m11;
-    float m12;
-    float m13;
-    float m14;
-    float m15;
-    float m21;
-    float m22;
-    float m23;
-    float m24;
-    float m25;
-    float m31;
-    float m32;
-    float m33;
-    float m34;
-    float m35;
-    float m41;
-    float m42;
-    float m43;
-    float m44;
-    float m45;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    float _field10;
+    float _field11;
+    float _field12;
+    float _field13;
+    float _field14;
+    float _field15;
+    float _field16;
+    float _field17;
+    float _field18;
+    float _field19;
+    float _field20;
 };
 
 struct CACornerRadii {
@@ -51,9 +51,9 @@ struct CACornerRadii {
 };
 
 struct CAFrameRateRange {
-    float minimum;
-    float maximum;
-    float preferred;
+    float _field1;
+    float _field2;
+    float _field3;
 };
 
 struct CAPoint3D {
@@ -117,8 +117,8 @@ struct CGSize {
 };
 
 struct CGVector {
-    double dx;
-    double dy;
+    double _field1;
+    double _field2;
 };
 
 struct ContentSizeForNumberOfPagesCache {
@@ -198,8 +198,8 @@ struct UIEdgeInsets {
 };
 
 struct UIOffset {
-    double horizontal;
-    double vertical;
+    double _field1;
+    double _field2;
 };
 
 struct UIPeripheralAnimationGeometry {
@@ -211,22 +211,15 @@ struct UIPeripheralAnimationGeometry {
 };
 
 struct UIRectCornerRadii {
-    double topLeft;
-    double bottomLeft;
-    double bottomRight;
-    double topRight;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
     unsigned long long location;
     unsigned long long length;
-};
-
-struct _PDFHistoryItem {
-    _Bool restorePending;
-    _Bool isInitialScale;
-    double zoomScale;
-    struct CGPoint contentOffset;
 };
 
 struct _UIBasicCellContentViewSizes {
@@ -283,22 +276,10 @@ struct _UICollectionViewRTreeElement {
 };
 
 struct _UICornerInsets {
-    struct CGSize topLeft;
-    struct CGSize bottomLeft;
-    struct CGSize bottomRight;
-    struct CGSize topRight;
-};
-
-struct _UIDataSourceUpdateMaps {
-    unsigned int oldSectionCount;
-    unsigned int newSectionCount;
-    unsigned int oldGlobalItemCount;
-    unsigned int newGlobalItemCount;
-    unsigned int *oldSectionMap;
-    unsigned int *newSectionMap;
-    unsigned int *oldGlobalItemMap;
-    unsigned int *newGlobalItemMap;
-    _Bool updatesAreInvalid;
+    struct CGSize _field1;
+    struct CGSize _field2;
+    struct CGSize _field3;
+    struct CGSize _field4;
 };
 
 struct _UIDatePickerOverlayPlatterLayout {
@@ -315,10 +296,6 @@ struct _UIDragInteractionDriverStateMachine {
 
 struct _UIInstrumentedCADisplay {
     CADisplay *direct;
-};
-
-struct _UIInstrumentedCADynamicFrameRateSource {
-    CADynamicFrameRateSource *direct;
 };
 
 struct _UIIntegralCornerRadii {
@@ -342,8 +319,6 @@ struct _UIIntegralSize {
     long long _field1;
     long long _field2;
 };
-
-struct _UIItemSolveResult;
 
 struct _UIListContentViewLayoutInfo {
     long long _field1;
@@ -472,9 +447,9 @@ struct _UISEGestureFeatureSample {
 };
 
 struct _UISidebarWidths {
-    double minimum;
-    double preferred;
-    double maximum;
+    double _field1;
+    double _field2;
+    double _field3;
 };
 
 struct _UISmallVector<unsigned short, 16UL> {
@@ -482,15 +457,15 @@ struct _UISmallVector<unsigned short, 16UL> {
 };
 
 struct _UISplitViewControllerAdaptiveLayoutPreferredColumns {
-    long long primaryEdgeSplitViewControllerColumn;
-    long long secondaryEdgeSplitViewControllerColumn;
-    long long collapsedSplitViewControllerColumn;
-    long long presentedSplitViewControllerColumn;
-    long long preferredEdge;
-    _Bool shouldEnforcePreferences;
-    long long splitBehavior;
-    unsigned long long primaryEdgePreferenceMode;
-    unsigned long long secondaryEdgePreferenceMode;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    long long _field4;
+    long long _field5;
+    _Bool _field6;
+    long long _field7;
+    unsigned long long _field8;
+    unsigned long long _field9;
 };
 
 struct _UIStateMachineDebugging;
@@ -546,7 +521,10 @@ struct _UITableConstantsMacSidebarAppearance {
 struct _UITraitCollectionChangeDescription {
     id _field1;
     id _field2;
-    CDStruct_c35235bd _field3;
+    struct {
+        id _field1;
+        unsigned long long _field2[4];
+    } _field3;
     _Bool _field4;
     struct _UITraitCollectionTraitChanges _field5;
 };
@@ -620,15 +598,6 @@ struct _UIUpdatePresentationTiming {
     long long _field6;
 };
 
-struct _UIUpdateRequest {
-    unsigned int flags;
-    unsigned int minRate;
-    unsigned int preferredRate;
-    unsigned int maxRate;
-    unsigned long long phase;
-    unsigned long long load;
-};
-
 struct _UIUpdateTiming {
     unsigned long long _field1;
     unsigned long long _field2;
@@ -649,28 +618,28 @@ struct _UIValueCellContentViewSizes {
 struct _UIVelocityIntegratorDataSample;
 
 struct _UIWebTouchEvent {
-    int type;
-    double timestamp;
-    struct CGPoint locationInScreenCoordinates;
-    struct CGPoint locationInDocumentCoordinates;
-    double scale;
-    double rotation;
-    _Bool inJavaScriptGesture;
-    struct _UIWebTouchPoint *touchPoints;
-    unsigned int touchPointCount;
-    _Bool isPotentialTap;
+    int _field1;
+    double _field2;
+    struct CGPoint _field3;
+    struct CGPoint _field4;
+    double _field5;
+    double _field6;
+    _Bool _field7;
+    struct _UIWebTouchPoint *_field8;
+    unsigned int _field9;
+    _Bool _field10;
 };
 
 struct _UIWebTouchPoint;
 
 struct _UIWebViewportConfiguration {
-    struct CGSize size;
-    float initialScale;
-    float minimumScale;
-    float maximumScale;
-    _Bool allowsUserScaling;
-    _Bool allowsShrinkToFit;
-    _Bool avoidsUnsafeArea;
+    struct CGSize _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    _Bool _field5;
+    _Bool _field6;
+    _Bool _field7;
 };
 
 struct __UISignedRange {
@@ -694,7 +663,9 @@ struct deque<_UIVelocityIntegratorDataSample, std::allocator<_UIVelocityIntegrat
         } ;
     } __map_;
     unsigned long long __start_;
-    CDStruct_a7186859 ;
+    struct {
+        unsigned long long __size_;
+    } ;
 };
 
 struct optional<UICollectionElementCategory> {
@@ -707,11 +678,6 @@ struct optional<UICollectionElementCategory> {
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
 };
 
 struct shared_ptr<_UIOrderedRangeIndexerImpl> {
@@ -732,57 +698,9 @@ struct shared_ptr<_UIRTreeContainerNode<_UICollectionViewRTreeElement>> {
 struct ui_size_cache {
     CDStruct_183601bc *__begin_;
     CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
-struct unique_ptr<_UIItemSolveResult, std::default_delete<_UIItemSolveResult>> {
     struct {
-        struct _UIItemSolveResult *__ptr_;
+        CDStruct_183601bc *__cap_;
     } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<long, UICollectionViewLayoutAttributes *, std::hash<long>, std::equal_to<long>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>> {
-    struct __hash_table<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::__unordered_map_hasher<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<void (*)(), _UITrackedTraitUsageRecord, std::hash<void (*)()>, std::equal_to<void (*)()>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>> {
-    struct __hash_table<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, std::__unordered_map_hasher<void (*)(), std::pair<void (*const)(), _UITrackedTraitUsageRecord>, std::hash<void (*)()>, std::equal_to<void (*)()>>, std::__unordered_map_equal<void (*)(), std::pair<void (*const)(), _UITrackedTraitUsageRecord>, std::equal_to<void (*)()>, std::hash<void (*)()>>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
 };
 
 struct variant<_UIBitSet<256>, _UISmallVector<unsigned short, 16>, std::vector<unsigned long>> {
@@ -810,18 +728,6 @@ struct variant<_UIBitSet<256>, _UISmallVector<unsigned short, 16>, std::vector<u
     } __impl_;
 };
 
-struct vector<_UIIdentifiedChildTraitCollectionTransform, std::allocator<_UIIdentifiedChildTraitCollectionTransform>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
-struct vector<_UIIdentifiedTraitCollectionTransform, std::allocator<_UIIdentifiedTraitCollectionTransform>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
 struct vector<_UIOutlineNode, std::allocator<_UIOutlineNode>> {
     struct _UIOutlineNode *__begin_;
     struct _UIOutlineNode *__end_;
@@ -835,14 +741,6 @@ struct vector<_UIRegionSolveResult, std::allocator<_UIRegionSolveResult>> {
     struct _UIRegionSolveResult *__end_;
     struct {
         struct _UIRegionSolveResult *__cap_;
-    } ;
-};
-
-struct vector<long, std::allocator<long>> {
-    long long *__begin_;
-    long long *__end_;
-    struct {
-        long long *__cap_;
     } ;
 };
 
@@ -886,16 +784,16 @@ typedef struct {
 } CDStruct_1c347ee2;
 
 typedef struct {
-    NSString *label;
-    NSString *identifier;
-    UIImage *image;
-    unsigned long long type;
-} CDStruct_5aea72b4;
+    id _field1;
+    id _field2;
+    id _field3;
+    unsigned long long _field4;
+} CDStruct_b86b310a;
 
 typedef struct {
-    UIWebPDFView *view;
-    NSTimer *timer;
-} CDStruct_d58a15aa;
+    id _field1;
+    id _field2;
+} CDStruct_a70f6672;
 
 typedef struct {
     id _field1;
@@ -923,40 +821,35 @@ typedef struct {
 } CDStruct_856ef1b3;
 
 typedef struct {
-    _UIMutableFastIndexSet *set;
-    unsigned long long bitSet[4];
-} CDStruct_c35235bd;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    double _field6;
+    int _field7;
+} CDStruct_e950349b;
 
 typedef struct {
-    _Bool animateContentRotation;
-    _Bool preserveHeight;
-    _Bool avoidFadingBottomOfContent;
-    _Bool skipSnapshotOfEndState;
-    _Bool preventAdditveAnimations;
-    double contentStretchRightEdgeInset;
-    int edgeClip;
-} CDStruct_8bdd0ba6;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+} CDStruct_df7f102b;
 
 typedef struct {
-    _Bool isPreparedForDisplay;
-    _Bool hasVisibleSelectedItem;
-    _Bool hasDeepHierarchy;
-    _Bool hasAtLeastOneVisibleItem;
-    _Bool hasVisibleLargePalette;
-} CDStruct_9717cc2c;
+    _Bool _field1;
+    _Bool _field2;
+} CDStruct_3d581f42;
 
 typedef struct {
-    _Bool apertureOpen;
-    _Bool floatingAbove;
-} CDStruct_99503a0e;
-
-typedef struct {
-    unsigned long long direction;
-    _Bool primaryActionIsDestructive;
-    _Bool primaryActionCanBeTriggeredBySwipe;
-    double openThreshold;
-    double confirmationThreshold;
-} CDStruct_324b76a9;
+    unsigned long long _field1;
+    _Bool _field2;
+    _Bool _field3;
+    double _field4;
+    double _field5;
+} CDStruct_d18b0196;
 
 typedef struct {
     unsigned long long _field1;
@@ -966,21 +859,21 @@ typedef struct {
 } CDStruct_926ec9e0;
 
 typedef struct {
-    unsigned long long direction;
-    unsigned long long targetSwipeState;
-    _Bool animated;
-    double xOffset;
-    double initialSpringVelocity;
-    double springStiffness;
-} CDStruct_9b6dff2a;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    _Bool _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+} CDStruct_b06b0113;
 
 typedef struct {
-    unsigned long long attachment;
-    unsigned long long alignment;
-    double attachmentOffset;
-    double alignmentOffset;
-    long long gravity;
-} CDStruct_17a0fc55;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    double _field3;
+    double _field4;
+    long long _field5;
+} CDStruct_96a80611;
 
 typedef struct {
     unsigned long long senderID;
@@ -996,10 +889,6 @@ typedef struct {
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
 
 typedef struct {
     _Bool itemIsEnabled[46];
@@ -1063,8 +952,8 @@ typedef struct {
 } CDStruct_aa1ce654;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     unsigned int idiom:6;
@@ -1106,17 +995,24 @@ typedef struct {
 } CDStruct_d83abbfb;
 
 typedef struct {
-    double leadingTargetLayoutWidth;
-    double centerTargetLayoutWidth;
-    double trailingTargetLayoutWidth;
-    long long searchBarLayoutState;
-    float searchBarHorizontalCCRPriority;
-    double searchBarLeftInset;
-    double searchBarRightInset;
-    _Bool usesOverflowGroup;
-    _Bool hidesTitle;
-    _Bool isInitialized;
-} CDStruct_e617d9e5;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
+
+typedef struct {
+    double _field1;
+    double _field2;
+    double _field3;
+    long long _field4;
+    float _field5;
+    double _field6;
+    double _field7;
+    _Bool _field8;
+    _Bool _field9;
+    _Bool _field10;
+} CDStruct_10ecdd5e;
 
 typedef struct {
     double _field1;
@@ -1126,12 +1022,18 @@ typedef struct {
 } CDStruct_7c65fc50;
 
 typedef struct {
-    double value;
-    double scale;
-    long long state;
-    long long type;
-    double currentSnappingTarget;
-} CDStruct_a1200de1;
+    double width;
+    double height;
+    double depth;
+} CDStruct_bd34ff7f;
+
+typedef struct {
+    double _field1;
+    double _field2;
+    long long _field3;
+    long long _field4;
+    double _field5;
+} CDStruct_dd92d3d0;
 
 typedef struct {
     double _field1;
@@ -1140,26 +1042,32 @@ typedef struct {
 } CDStruct_99fbabfb;
 
 typedef struct {
-    double amount;
-    int unit;
-} CDStruct_73524d89;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
+    double _field1;
+    int _field2;
+} CDStruct_cdff19b3;
 
 typedef struct {
-    int commonRowHorizontalAlignment;
-    int lastRowHorizontalAlignment;
-    int rowVerticalAlignment;
-} CDStruct_2f5e8405;
+    int _field1;
+    int _field2;
+    int _field3;
+} CDStruct_77932685;
 
 typedef struct {
-    long long row;
-    long long column;
-    long long touchType;
-    _Bool isValid;
-} CDStruct_3f566597;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    _Bool _field4;
+} CDStruct_a01601a5;
+
+typedef struct {
+    long long _field1;
+    long long _field2;
+} CDStruct_912cb5d2;
 
 typedef struct CDStruct_183601bc;
 
@@ -1199,10 +1107,10 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
-    CDStruct_17a0fc55 _field2;
+    CDStruct_96a80611 _field2;
     struct CGPoint _field3;
     unsigned long long _field4;
-} CDStruct_182fafba;
+} CDStruct_25eeeb71;
 
 typedef struct {
     unsigned long long _field1;
@@ -1259,12 +1167,8 @@ typedef struct {
 } CDStruct_d8565a8c;
 
 typedef struct {
-    CDStruct_73524d89 _field1[4];
-} CDStruct_bd7e7c01;
-
-typedef struct {
-    CDStruct_183601bc *__cap_;
-} CDStruct_669ce3ce;
+    CDStruct_cdff19b3 _field1[4];
+} CDStruct_d923826d;
 
 typedef struct {
     CDStruct_7c65fc50 _field1;
@@ -1276,14 +1180,8 @@ typedef struct {
 } CDStruct_026d43e4;
 
 typedef struct {
-    struct {
-        double _field1;
-        double _field2;
-    } _field1;
-    struct {
-        double _field1;
-        double _field2;
-    } _field2;
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
     double _field3;
     double _field4;
 } CDStruct_21a1f582;
@@ -1315,6 +1213,11 @@ typedef struct {
 } CDStruct_912d1c89;
 
 typedef struct {
+    struct CGPoint point;
+    double time;
+} CDStruct_cccd6e1b;
+
+typedef struct {
     struct CGPoint _field1;
     struct CGPoint _field2;
     struct CGPoint _field3;
@@ -1322,11 +1225,11 @@ typedef struct {
 } CDStruct_f9662865;
 
 typedef struct {
-    struct UIEdgeInsets layoutMargins;
-    _Bool reversesLayoutDirection;
-    struct UIEdgeInsets safeAreaInsets;
-    struct CGSize size;
-} CDStruct_b8da1a4e;
+    struct UIEdgeInsets _field1;
+    _Bool _field2;
+    struct UIEdgeInsets _field3;
+    struct CGSize _field4;
+} CDStruct_c59c548a;
 
 typedef struct {
     struct _NSRange preferredItemsRange;
@@ -1365,12 +1268,12 @@ typedef struct {
 } CDStruct_758ece87;
 
 typedef struct {
-    double firstBaseline;
-    double lastBaseline;
-    struct CGRect referenceBounds;
-    long long measuredNumberOfLines;
-    struct CGRect bounds;
-} CDStruct_a0add0ba;
+    double _field1;
+    double _field2;
+    struct CGRect _field3;
+    long long _field4;
+    struct CGRect _field5;
+} CDStruct_3ae44ac1;
 
 typedef struct {
     struct CGPoint _field1;
@@ -1380,12 +1283,12 @@ typedef struct {
 } CDStruct_45cfb02b;
 
 typedef struct {
-    struct CGRect bounds;
-    struct CAPoint3D center;
-    struct CGPoint anchorPoint;
-    struct CGAffineTransform transform;
-    double alpha;
-} CDStruct_d52ce5d2;
+    struct CGRect _field1;
+    struct CAPoint3D _field2;
+    struct CGPoint _field3;
+    struct CGAffineTransform _field4;
+    double _field5;
+} CDStruct_9253ee8c;
 
 typedef struct {
     struct CGRect _field1;
@@ -1400,32 +1303,22 @@ typedef struct {
 } CDStruct_6024001e;
 
 typedef struct {
-    struct CGRect buttonBounds;
-    struct CGSize idealSize;
-    struct CGRect imageFrame;
-    struct CGRect indicatorFrame;
-    struct CGRect titleFrame;
-    struct CGRect subtitleFrame;
+    struct CGRect _field1;
+    struct CGSize _field2;
+    struct CGRect _field3;
+    struct CGRect _field4;
+    struct CGRect _field5;
+    struct CGRect _field6;
+    CDStruct_c3b9c2ee _field7;
     struct {
-        double firstFromTop;
-        double lastFromBottom;
-    } baselineOffsets;
-    struct {
-        unsigned int isValid:1;
-        unsigned int hasImage:1;
-        unsigned int hasIndicator:1;
-        unsigned int hasProgressIndicator:1;
-        unsigned int hasTitle:1;
-        unsigned int hasSubtitle:1;
-    } flags;
-} CDStruct_b8e46c6b;
-
-typedef struct {
-    struct SizeForMaximumContentSizeCache fittingSize;
-    struct NumberOfVisibleIndicatorsForStartIndexCache indicatorCount;
-    struct ContentSizeForNumberOfPagesCache contentSize;
-    struct MinimumContentSizeForIndicatorsInRangeCache contentSizeInRange;
-} CDStruct_d0d7e7b7;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+    } _field8;
+} CDStruct_19847cfa;
 
 // Ambiguous groups
 typedef struct {
@@ -1437,12 +1330,6 @@ typedef struct {
 } CDStruct_a12fb154;
 
 typedef struct {
-    unsigned int visible:1;
-    unsigned int isCleaningUp:1;
-    unsigned int didRevertStatusBar:1;
-} CDStruct_d1897728;
-
-typedef struct {
     unsigned int canSelect:1;
     unsigned int didSelect:1;
 } CDStruct_e5c9d39b;
@@ -1450,55 +1337,6 @@ typedef struct {
 typedef struct {
     unsigned int :1;
 } CDStruct_65389fcd;
-
-typedef struct {
-    double _field1;
-    double _field2;
-    double _field3;
-    double _field4;
-} CDStruct_d2b197d1;
-
-typedef struct {
-    double _field1;
-    double _field2;
-    double _field3;
-} CDStruct_39925896;
-
-typedef struct {
-    double width;
-    double height;
-    double depth;
-} CDStruct_bd34ff7f;
-
-typedef struct {
-    double _field1;
-    double _field2;
-} CDStruct_c3b9c2ee;
-
-typedef struct {
-    double minimum;
-    double maximum;
-} CDStruct_ef18196a;
-
-typedef struct {
-    long long _field1;
-    long long _field2;
-} CDStruct_912cb5d2;
-
-typedef struct {
-    long long location;
-    long long length;
-} CDStruct_627e0f85;
-
-typedef struct {
-    struct CGPoint _field1;
-    double _field2;
-} CDStruct_19cde01f;
-
-typedef struct {
-    struct CGPoint point;
-    double force;
-} CDStruct_23d8ee2f;
 
 typedef struct vector<_UIOutlineNode, std::allocator<_UIOutlineNode>> {
     struct _UIOutlineNode *__begin_;
@@ -1530,39 +1368,19 @@ typedef union {
 
 typedef union {
     struct {
-        unsigned char topLeftWidth;
-        unsigned char topLeftHeight;
-        unsigned char bottomLeftWidth;
-        unsigned char bottomLeftHeight;
-        unsigned char bottomRightWidth;
-        unsigned char bottomRightHeight;
-        unsigned char topRightWidth;
-        unsigned char topRightHeight;
-    } cornerInsets;
-    unsigned long long packedInsets;
-} CDUnion_10d111ce;
-
-typedef union {
-    CDStruct_227bb23d styling;
-    int intValue;
-} CDUnion_bf7716c0;
-
-typedef union {
-    struct {
-        double _field1;
-        double _field2;
-        double _field3;
-        double _field4;
+        unsigned char _field1;
+        unsigned char _field2;
+        unsigned char _field3;
+        unsigned char _field4;
+        unsigned char _field5;
+        unsigned char _field6;
+        unsigned char _field7;
+        unsigned char _field8;
     } _field1;
-} CDUnion_c6a188fc;
+    unsigned long long _field2;
+} CDUnion_76873331;
 
 typedef union {
-    struct {
-        double x;
-        double y;
-        double z;
-        double _padding;
-    } ;
-    id vector;
-} CDUnion_84fc7ef9;
+    CDStruct_d2b197d1 _field1;
+} CDUnion_c6a188fc;
 

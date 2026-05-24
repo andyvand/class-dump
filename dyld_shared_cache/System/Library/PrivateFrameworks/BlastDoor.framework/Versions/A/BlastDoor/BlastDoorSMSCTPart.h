@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorSMSCTPartContentWrapper, NSString;
+@class NSString;
 
 @interface BlastDoorSMSCTPart
 {
@@ -14,16 +14,12 @@
 - (id);
 - (id);
 - (id);
-- (id)ion;
+- (id)MBDChipAction;
 - (id)ô¸íÿðïÑÿ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorSMSCTPartContentWrapper *content;
-@property(nonatomic, readonly) NSString *contentId;
-@property(nonatomic, readonly) NSString *contentLocation;
-@property(nonatomic, readonly) NSString *contentType;
 @property(nonatomic, readonly) NSString *description;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface VCRateControlServerBag
 {
     NSNumber *_experimentGroupIndex;
-    NSDictionary *_serverBagDict;
-    int _operatingMode;
-    _Bool _experimentEnabled;
-    NSString *_defaultExperimentConfigString;
 }
 
 + (id);
@@ -32,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(readonly, retain) NSNumber *experimentGroupIndex;
 @property(readonly) int experimentVersion;
-@property(readonly) NSDictionary *serverBagDictionary; // @synthesize serverBagDictionary=_serverBagDict;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface PhotosUICore.LemonadeFeedSpec
 {
     id _verticalMargin;
-    id _cellSpecs;
-    id _zoomLevel;
-    id __containerSafeAreaInsets;
-    id __containerSize;
-    id __horizontalSizeClass;
-    id __verticalSizeClass;
-    id __orientation;
-    id _$observationRegistrar;
 }
 
 @end

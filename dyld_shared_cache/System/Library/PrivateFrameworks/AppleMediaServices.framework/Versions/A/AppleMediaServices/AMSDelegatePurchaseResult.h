@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ntifierAppleServices;
+- (void)FLGroupIdentifierAppleServices;
 - (void)ô&R¤Û¤ÕÞI:kÍÁÎiL'ç-ÕÝI«£ÐY¬ìzâFFÓ-» /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -4,44 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 @interface CTXPCContexts
 {
     NSArray *_subscriptions;
-    NSArray *_existingUserSubscriptions;
-    NSUUID *_dataPreferred;
-    NSUUID *_voicePreferred;
 }
 
-+ (_Bool);
++ (_Bool)erOutput does not currently support compressed output;
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)M;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)%@;
 - (_Bool);
-- (void);
+- (void)right;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)_metadataOutputsForKeys;
 - (id)0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *dataPreferred; // @synthesize dataPreferred=_dataPreferred;
-@property(retain, nonatomic) NSArray *existingUserSubscriptions; // @synthesize existingUserSubscriptions=_existingUserSubscriptions;
 @property(retain, nonatomic) NSArray *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(retain, nonatomic) NSUUID *voicePreferred; // @synthesize voicePreferred=_voicePreferred;
 
 @end
 

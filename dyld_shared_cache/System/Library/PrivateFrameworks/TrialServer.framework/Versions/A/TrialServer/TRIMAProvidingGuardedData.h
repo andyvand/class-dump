@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TRIMAAutoAsset;
-
 @interface TRIMAProvidingGuardedData
 {
     _Bool didDeferDuringMADownload;
-    _Bool deferralHandlerInvalid;
-    NSMutableArray *fetchSemaphores;
-    _Bool cancelReceived;
-    TRIMAAutoAsset *currentAsset;
 }
 
 - (id);

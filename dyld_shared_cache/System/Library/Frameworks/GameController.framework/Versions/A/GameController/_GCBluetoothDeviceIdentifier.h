@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     unsigned char _hardwareAddress[6];
 }
 
-+ (id);
++ (id)`;
 + (id);
 - (id);
 - (id);

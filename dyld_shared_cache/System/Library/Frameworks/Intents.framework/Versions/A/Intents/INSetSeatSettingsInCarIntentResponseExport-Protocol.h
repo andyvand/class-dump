@@ -5,7 +5,7 @@
 //
 
 @protocol INSetSeatSettingsInCarIntentResponseExport
-- (long long)setValueIfNonNil:forKey: /* Error: Ran out of types for this method. */;
+- (long long)if_setValueIfNonNil:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

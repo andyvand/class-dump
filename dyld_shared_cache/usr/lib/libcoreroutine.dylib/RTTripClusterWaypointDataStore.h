@@ -6,12 +6,9 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripClusterWaypointDataStore : RTStore
 {
     _Bool _rejectDuplicateWaypoints;
-    int _maxWaypointsPerChunk;
 }
 
 + (id);
@@ -29,27 +26,19 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)__objc_protorefs__DATA_CONST;
 - (void);
 - (_Bool);
+- (void)createNewIdentities:(id)arg1 roll:(CDUnknownBlockType)arg2 sync:forceSync:complete: /* Error: Ran out of types for this method. */;
+- (void)",&,V_existingItemReference;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)check:(id)arg1 PID mismatch, needs repair;
+- (void)to keychain successfully;
 - (id)ssage from URL %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int maxWaypointsPerChunk; // @synthesize maxWaypointsPerChunk=_maxWaypointsPerChunk;
-@property(nonatomic) _Bool rejectDuplicateWaypoints; // @synthesize rejectDuplicateWaypoints=_rejectDuplicateWaypoints;
-@property(readonly) Class superclass;
 
 @end
 

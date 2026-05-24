@@ -5,6 +5,8 @@
 //
 
 @protocol MPMutablePlaybackArchive
+- (void);
+- (void)atAddOf;
 - (void)x%f);
 @end
 

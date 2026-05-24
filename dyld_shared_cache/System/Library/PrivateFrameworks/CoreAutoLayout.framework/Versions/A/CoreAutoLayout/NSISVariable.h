@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSISEngine, NSMapTable;
 @protocol NSISVariableDelegate;
 
 @interface NSISVariable
 {
     id <NSISVariableDelegate> _delegate;
-    NSMapTable *_overflowEngines;
-    NSISEngine *_engines[3];
-    CDStruct_fcd6c539 _engineVarIndexes[3];
-    unsigned int _ident;
 }
 
 + (id);
@@ -32,8 +27,8 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (CDStruct_fcd6c539);
+- (void)_fetchOffset;
+- (CDStruct_6238c8e0)pletionBlock;
 - (_Bool);
 - (int);
 - (int);
@@ -42,10 +37,6 @@
 
 // Remaining properties
 @property id <NSISVariableDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSArray *engines;
-@property(readonly) int orientationHint;
-@property(readonly) _Bool shouldBeMinimized;
-@property(readonly) int valueRestriction;
 
 @end
 

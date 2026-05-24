@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, WBSDispatchSourceTimer, WBSSpotlightDonationEntityCorrelator, WBSSpotlightReindexingBackgroundSystemTaskManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSSiriIntelligenceDonor
 {
     NSObject<OS_dispatch_queue> *_coreSpotlightDonationSerialQueue;
-    NSMutableSet *_identifiersLeftToReindex;
-    NSObject<OS_dispatch_queue> *_tabDonationBackgroundQueue;
-    NSObject<OS_dispatch_queue> *_tabDonationExitQueue;
-    WBSSpotlightDonationEntityCorrelator *_entityCorrelator;
-    WBSDispatchSourceTimer *_tabDonationTimer;
-    NSMutableDictionary *_tabsToDonate;
-    NSMutableSet *_closedTabsToIndex;
-    WBSSpotlightReindexingBackgroundSystemTaskManager *_reindexingBackgroundSystemTaskManager;
 }
 
 + (id);

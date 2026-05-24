@@ -6,15 +6,11 @@
 
 #import <HomeKit/HMHomeInvitation.h>
 
-@class HMHomeManager, HMRestrictedGuestHomeAccessSchedule, HMUser, NSArray, NSString, NSUUID;
+@class HMHomeManager;
 
 @interface HMIncomingHomeInvitation : HMHomeInvitation
 {
     _Bool _homeHasCameras;
-    _Bool _inviteeRestrictedGuest;
-    HMUser *_inviter;
-    HMRestrictedGuestHomeAccessSchedule *_restrictedGuestSchedule;
-    HMHomeManager *_homeManager;
 }
 
 + (id);
@@ -24,8 +20,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)y;
 - (void);
 - (_Bool);
 - (void);
@@ -34,13 +30,13 @@
 - (void);
 - (void);
 - (id);
+- (id)whatsappBundleId;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)dune;
 - (void);
 - (id);
 - (id);
@@ -48,31 +44,7 @@
 - (void)Øí8îøî;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool homeHasCameras; // @synthesize homeHasCameras=_homeHasCameras;
 @property(nonatomic) __weak HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, copy, nonatomic) NSString *homeName;
-@property(readonly, copy, nonatomic) NSUUID *homeUUID;
-@property(readonly, copy, nonatomic) NSUUID *homeUniqueIdentifier;
-@property(readonly, nonatomic, getter=isInviteeRestrictedGuest) _Bool inviteeRestrictedGuest; // @synthesize inviteeRestrictedGuest=_inviteeRestrictedGuest;
-@property(readonly, nonatomic) HMUser *inviter; // @synthesize inviter=_inviter;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) HMRestrictedGuestHomeAccessSchedule *restrictedGuestSchedule; // @synthesize restrictedGuestSchedule=_restrictedGuestSchedule;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

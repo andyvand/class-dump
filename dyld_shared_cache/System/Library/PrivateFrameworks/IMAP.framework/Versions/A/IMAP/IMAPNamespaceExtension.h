@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMAPNamespaceExtension
 {
     NSString *_name;
-    NSArray *_flags;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)LEAKS;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *flags; // @synthesize flags=_flags;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -11,7 +11,7 @@
     _MRVolumeControlAvailabilityProtobuf *_capabilities;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -19,14 +19,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)thoughtful_announce;
 - (_Bool);
-- (void)sProxyGroupPlayerOverride;
+- (void)_isProxyGroupPlayerOverride;
 
 // Remaining properties
-@property(retain, nonatomic) _MRVolumeControlAvailabilityProtobuf *capabilities; // @synthesize capabilities=_capabilities;
 @property(readonly, nonatomic) _Bool hasCapabilities;
 
 @end

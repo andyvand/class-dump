@@ -14,9 +14,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)"5;
 - (id)BackgroundColor;
-- (void)commendationHidesIgnoredTags;
+- (void)sportsRecommendationHidesIgnoredTags;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;

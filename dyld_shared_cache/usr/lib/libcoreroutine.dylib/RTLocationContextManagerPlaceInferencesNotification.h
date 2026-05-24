@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)csfpTruelyAlive;
 - (id);
 - (void)shold has not set yet.;
 

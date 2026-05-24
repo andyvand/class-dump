@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface WebElementDictionary
 {
     void *_result;
-    NSMutableDictionary *_cache;
-    NSMutableSet *_nilValues;
-    _Bool _cacheComplete;
 }
 
 + (void);
-+ (void)IEnabled;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
++ (void)NavigatorUserAgentDataJavaScriptAPIEnabled;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,9 +22,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)^Q;
 - (id);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)omeone is attempting to remove an observer from a completed observable.;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}16;
 - (id);
 
 @end

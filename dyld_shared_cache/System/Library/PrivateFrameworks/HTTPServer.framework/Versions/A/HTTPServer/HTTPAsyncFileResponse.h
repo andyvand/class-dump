@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HTTPConnection, NSData, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class HTTPConnection;
 
 @interface HTTPAsyncFileResponse
 {
     HTTPConnection *connection;
-    NSString *filePath;
-    unsigned long long fileLength;
-    unsigned long long fileOffset;
-    unsigned long long readOffset;
-    _Bool aborted;
-    NSData *data;
-    int fileFD;
-    void *readBuffer;
-    unsigned long long readBufferSize;
-    unsigned long long readBufferOffset;
-    unsigned long long readRequestLength;
-    NSObject<OS_dispatch_queue> *readQueue;
-    NSObject<OS_dispatch_source> *readSource;
-    _Bool readSourceSuspended;
 }
 
 + (void);
@@ -37,14 +22,14 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (unsigned long long);
+- (id)fetchAssetsForLanguage:urgent:progress:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)(v;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)y: /* Error: Ran out of types for this method. */;
+- (void)s;
 - (unsigned long long);
-- (_Bool)ytes:length: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBytes:length: /* Error: Ran out of types for this method. */;
 
 @end
 

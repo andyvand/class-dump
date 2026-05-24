@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface NoteAttachmentPresentation
 {
     _Bool _sourceIsManaged;
-    _Bool _image;
-    NSString *_contentID;
-    NSURL *_contentIDURL;
-    NSURL *_dataFileURL;
-    NSString *_mimeType;
-    NSString *_filename;
-    NSError *_dataFileURLError;
-    NSString *_contentIDURLAbsoluteString;
-    NSData *_data;
-    struct CGSize _iconSize;
 }
 
 + (id);
@@ -51,29 +41,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)tionsInRange: /* Error: Ran out of types for this method. */;
+- (void)canCollapseSectionsInRange: /* Error: Ran out of types for this method. */;
 - (void)ating;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentID; // @synthesize contentID=_contentID;
-@property(copy, nonatomic) NSURL *contentIDURL; // @synthesize contentIDURL=_contentIDURL;
-@property(copy, nonatomic) NSString *contentIDURLAbsoluteString; // @synthesize contentIDURLAbsoluteString=_contentIDURLAbsoluteString;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) NSURL *dataFileURL; // @synthesize dataFileURL=_dataFileURL;
-@property(retain, nonatomic) NSError *dataFileURLError; // @synthesize dataFileURLError=_dataFileURLError;
-@property(readonly, nonatomic) NSNumber *dataSizeNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize iconSize; // @synthesize iconSize=_iconSize;
-@property(nonatomic, getter=isImage) _Bool image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
-@property(readonly, nonatomic) _Bool sourceIsManaged; // @synthesize sourceIsManaged=_sourceIsManaged;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.IssueCoordinator
 {
     id delegate;
-    id tracker;
-    id sessionManager;
-    id channelDataFactory;
 }
 
 @end

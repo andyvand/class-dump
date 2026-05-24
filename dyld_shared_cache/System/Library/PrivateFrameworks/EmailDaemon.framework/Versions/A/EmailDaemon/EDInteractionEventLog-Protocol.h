@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol EDInteractionEventLog
+- (void)4px 10px 0px">%@</div><div style="margin:(NSString *)arg1 3px 10px 0px">%@</div></div></div>;
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

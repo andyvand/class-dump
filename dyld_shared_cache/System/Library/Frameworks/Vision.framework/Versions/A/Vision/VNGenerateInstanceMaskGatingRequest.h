@@ -6,20 +6,17 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNGenerateInstanceMaskGatingRequest : VNImageBasedRequest
 {
 }
 
 + (Class);
-+ (const CDStruct_3a02d5a8 *);
-- (id);
++ (const CDStruct_3a02d5a8 *);
+- (id)hed %lu sharing paired contacts;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSArray *results; // @dynamic results;
 @property(nonatomic) _Bool usesCPUOnly;
 
 @end

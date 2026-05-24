@@ -10,6 +10,10 @@
 
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)Program, CoreML:(struct sqlite3 *)arg1:(id)arg2 ModelStructure::Path::Program::Function, CoreML::ModelStructure::Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>, std::allocator<std::variant<CoreML::ModelStructure::Path::Root, CoreML::ModelStructure::Path::Program, CoreML::ModelStructure::Path::Program::Function, CoreML::ModelStructure::Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>>>=^v^v{?=^v}}}40^@64 /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -21,19 +25,15 @@
 + (id);
 + (id);
 + (id);
++ (id)c;
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_namespacePolicy;
 + (id)
 × ;
-+ (id):(id)arg1;
++ (id)setPackageDBCreationDate:(id)arg1;
 + (id)ple.reminders;
 + (void)ption subclasses;
 - (void);

@@ -12,7 +12,6 @@
 @interface LUI2UserNameViewController : LUI2ViewController
 {
     LUI2TextFieldViewController *_textFieldViewController;
-    NSObject<OS_dispatch_queue> *_operationQueue;
 }
 
 - (void);
@@ -24,13 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void));
+- (id)a;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) LUI2TextFieldViewController *textFieldViewController; // @synthesize textFieldViewController=_textFieldViewController;
 
 @end
 

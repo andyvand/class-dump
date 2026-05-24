@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFSummaryItemStandardCardSection;
+@class NSData, _SFPBRFSummaryItemStandardCardSection;
 
 @protocol _SFPBRFExpandableStandardCardSection
+- (unsigned long long);
+- (NSData *)onKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *expanding_component_contents;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFSummaryItemStandardCardSection *summary_item_standard_card_section;
-@property(readonly, nonatomic) unsigned long long whichPrimary_Component;
 @end
 

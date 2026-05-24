@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
-
 @interface PXIDSAddressQuery
 {
     unsigned long long _destinationsCount;
-    NSMutableSet *_mutableRemainingDestinations;
-    NSMutableDictionary *_mutableStashedResults;
-    unsigned long long _resultsCount;
-    CDUnknownBlockType _resultHandler;
 }
 
 - (void);
@@ -24,8 +18,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isComplete;
-@property(readonly, copy, nonatomic) NSSet *remainingDestinations;
 @property(readonly, copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 
 @end

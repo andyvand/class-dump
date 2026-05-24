@@ -8,25 +8,25 @@
 {
 }
 
+- (id)w name:%@ on chat:%@ /* Error: Ran out of types for this method. */;
+- (Class)e:%@ /* Error: Ran out of types for this method. */;
+- (Class)updateChangeToken;
+- (Class);
+- (_Bool)Gc;
 - (id);
-- (Class);
-- (Class);
-- (Class);
+- (id);
+- (id);
+- (id);
+- (id)vD;
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (Class);
 - (Class);
 - (Class);
 - (Class);
-- (Class);
+- (Class);
 - (id);
 - (_Bool)ÐT¤p;
 

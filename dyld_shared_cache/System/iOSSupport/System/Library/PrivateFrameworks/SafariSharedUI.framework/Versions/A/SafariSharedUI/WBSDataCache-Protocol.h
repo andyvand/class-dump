@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol WBSDataCacheDelegate;
-
 @protocol WBSDataCache
+- (void);
 - (void)p-q,.H/rd1s¨2t 3uä4vÜ5w 7x(8yÜ8zÈ9{´:| ;}h<~´=d?¨@AðDTFðF`GìGH<HtIXJKPL L`MM	<O /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <WBSDataCacheDelegate> dataCacheDelegate;
 @property(readonly, nonatomic, getter=isTerminating) _Bool terminating;
 @end
 

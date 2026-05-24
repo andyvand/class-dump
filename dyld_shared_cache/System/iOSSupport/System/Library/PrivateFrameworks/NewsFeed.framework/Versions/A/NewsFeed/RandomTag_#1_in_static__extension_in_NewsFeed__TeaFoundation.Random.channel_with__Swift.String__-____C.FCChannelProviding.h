@@ -10,16 +10,16 @@
 {
 }
 
+- (id);
 - (id);
+- (id)2 digits;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id)x;
-- (id)ager;
+- (id)webEmbedManager;
 - (id)Create Packageâ¦;
 
 // Remaining properties

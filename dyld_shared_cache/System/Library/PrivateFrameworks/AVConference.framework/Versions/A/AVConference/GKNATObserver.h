@@ -14,7 +14,7 @@
 + (id)1ð §<&;
 - (id);
 - (id);
-- (int);
+- (int)@;
 - (void);
 - (void)Negotiator negotiateAudioSettings:] /* Error: Ran out of types for this method. */;
 

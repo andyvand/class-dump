@@ -7,6 +7,9 @@
 @class UIContextMenuInteraction;
 
 @protocol CNContactListActionHelperDelegate
-- (UIContextMenuInteraction *)rnerStyle: /* Error: Ran out of types for this method. */;
+- (UIContextMenuInteraction *)setCornerStyle: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void);
 @end
 

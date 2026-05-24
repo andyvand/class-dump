@@ -7,17 +7,9 @@
 @interface IDSQRProtoParticipantUpdateIndication
 {
     CDStruct_62a50c50 _participantIdLists;
-    unsigned long long _txnId;
-    unsigned int _operationFlags;
-    unsigned int _sessionStateCounter;
-    struct {
-        unsigned int txnId:1;
-        unsigned int operationFlags:1;
-        unsigned int sessionStateCounter:1;
-    } _has;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -35,26 +27,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`	;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)24@0:(id)arg1 8S16c20;
+- (void)ession failed %@, service %s:(id)arg1 %{error}
+;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOperationFlags;
-@property(nonatomic) _Bool hasSessionStateCounter;
-@property(nonatomic) _Bool hasTxnId;
-@property(nonatomic) unsigned int operationFlags; // @synthesize operationFlags=_operationFlags;
-@property(readonly, nonatomic) unsigned long long *participantIdLists;
 @property(readonly, nonatomic) unsigned long long participantIdListsCount;
-@property(nonatomic) unsigned int sessionStateCounter; // @synthesize sessionStateCounter=_sessionStateCounter;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

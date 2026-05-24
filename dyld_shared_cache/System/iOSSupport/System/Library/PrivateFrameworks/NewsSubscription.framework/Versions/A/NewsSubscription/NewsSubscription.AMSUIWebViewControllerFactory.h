@@ -7,10 +7,9 @@
 @interface NewsSubscription.AMSUIWebViewControllerFactory
 {
     id amsUIWebViewControllerDelegate;
-    id metricsBuilder;
 }
 
-- (id);
+- (id)[TSDGPUVoronoiTriangleData triangleIndexInCellFromGlobalTriangleIndex:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorMessageContent
 {
@@ -19,10 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSAttributedString *content;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *plainTextBody;
-@property(nonatomic, readonly) NSString *plainTextSubject;
 
 @end
 

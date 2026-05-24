@@ -9,55 +9,35 @@
 @interface AVCaptureResolvedPhotoSettings_Tundra
 {
     AVCaptureResolvedPhotoSettingsInternal_Tundra *_internal;
-    _Bool _stillImageStabilizationEnabled;
-    _Bool _fastCapturePrioritizationEnabled;
-    CDStruct_79c71658 _deferredPhotoProxyDimensions;
 }
 
 + (id);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (CDStruct_e83c9415);
+- (CDStruct_1ef3fb1f)setHasFinished: /* Error: Ran out of types for this method. */;
+- (CDStruct_1ef3fb1f)setDecodeError: /* Error: Ran out of types for this method. */;
+- (CDStruct_1ef3fb1f)initWithString: /* Error: Ran out of types for this method. */;
+- (CDStruct_5c5366e1)T@"NSData",&,N,V_ttmlData;
+- (_Bool)MSVWatchdog;
 - (_Bool);
 - (_Bool);
+- (_Bool)41$2;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (id);
-- (CDStruct_79c71658);
-- (void);
+- (CDStruct_1ef3fb1f)id=%{public}@;
+- (CDStruct_1ef3fb1f)ly code-signed. This is a client-issue. Check the crash report for the process. PID:(id)arg1 %lld.;
+- (id)@?0^{objc_ivar=}8r*16r*24^v32;
+- (CDStruct_1ef3fb1f);
+- (void)service:account:receivedGroupSessionParticipantDataUpdate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
+- (CDStruct_1ef3fb1f);
+- (CDStruct_1ef3fb1f);
 - (_Bool);
 - (long long);
-- (CDStruct_79c71658);
+- (CDStruct_1ef3fb1f);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isContentAwareDistortionCorrectionEnabled) _Bool contentAwareDistortionCorrectionEnabled;
-@property(readonly) CDStruct_79c71658 deferredPhotoProxyDimensions; // @synthesize deferredPhotoProxyDimensions=_deferredPhotoProxyDimensions;
-@property(readonly, getter=isDualCameraFusionEnabled) _Bool dualCameraFusionEnabled;
-@property(readonly) CDStruct_79c71658 embeddedThumbnailDimensions;
-@property(readonly) unsigned long long expectedPhotoCount;
-@property(readonly, getter=isFastCapturePrioritizationEnabled) _Bool fastCapturePrioritizationEnabled; // @synthesize fastCapturePrioritizationEnabled=_fastCapturePrioritizationEnabled;
-@property(readonly, getter=isFlashEnabled) _Bool flashEnabled;
-@property(readonly) CDStruct_79c71658 livePhotoMovieDimensions;
-@property(readonly) CDStruct_79c71658 photoDimensions;
-@property(readonly) CDStruct_e83c9415 photoProcessingTimeRange;
-@property(readonly) CDStruct_79c71658 portraitEffectsMatteDimensions;
-@property(readonly) CDStruct_79c71658 previewDimensions;
-@property(readonly) CDStruct_79c71658 rawEmbeddedThumbnailDimensions;
-@property(readonly) CDStruct_79c71658 rawPhotoDimensions;
-@property(readonly, getter=isRedEyeReductionEnabled) _Bool redEyeReductionEnabled;
-@property(readonly, getter=isStillImageStabilizationEnabled) _Bool stillImageStabilizationEnabled; // @synthesize stillImageStabilizationEnabled=_stillImageStabilizationEnabled;
 @property(readonly) long long uniqueID;
-@property(readonly, getter=isVirtualDeviceFusionEnabled) _Bool virtualDeviceFusionEnabled;
 
 @end
 

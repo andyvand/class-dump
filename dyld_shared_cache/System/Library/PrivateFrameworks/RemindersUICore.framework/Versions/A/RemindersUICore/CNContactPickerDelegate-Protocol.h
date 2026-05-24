@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContactPicker;
+
 @protocol CNContactPickerDelegate
+
+@optional
+- (void)_setPreviousPercentComplete:(CNContactPicker *)arg1;
+- (void)_setIsClone:(CNContactPicker *)arg1;
+- (void)_setHidesBackTitles:(CNContactPicker *)arg1;
+- (void)_currentUpdate;
 @end
 

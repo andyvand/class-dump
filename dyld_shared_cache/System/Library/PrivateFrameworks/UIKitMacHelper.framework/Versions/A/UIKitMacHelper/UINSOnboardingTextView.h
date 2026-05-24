@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface UINSOnboardingTextView
 {
     NSTextField *_titleLabel;
-    NSTextField *_descriptionLabel;
-    _Bool _isRightAligned;
-    NSString *_onboardingTitle;
-    NSString *_onboardingDescription;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
 - (id);
@@ -28,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isRightAligned; // @synthesize isRightAligned=_isRightAligned;
-@property(retain, nonatomic) NSString *onboardingDescription; // @synthesize onboardingDescription=_onboardingDescription;
 @property(retain, nonatomic) NSString *onboardingTitle; // @synthesize onboardingTitle=_onboardingTitle;
 
 @end

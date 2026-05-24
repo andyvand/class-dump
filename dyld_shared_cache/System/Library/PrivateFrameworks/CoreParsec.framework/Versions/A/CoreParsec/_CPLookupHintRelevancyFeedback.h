@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPRange;
-
 @interface _CPLookupHintRelevancyFeedback
 {
     _Bool _discarded;
-    int _grade;
-    unsigned long long _timestamp;
-    _CPRange *_hintRange;
-    NSString *_domain;
-    NSString *_context;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)nsionMatchPattern>>, Traits = WTF:(id)arg1:HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)td:(_Bool)arg1:unique_ptr<WTF::ListHashSetNode<WTF::URL>>, Value = std::unique_ptr<WTF::ListHashSetNode<WTF::URL>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<URL>>, Traits = WTF::ListHashSet<WTF::URL>::NodeTraits, KeyTraits = WTF::ListHashSet<WTF::URL>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)ser_url_overrides` manifest entry;
 - (void);
 - (void);
 - (id);
@@ -29,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (id);
@@ -37,19 +30,6 @@
 - (int)Ø';
 
 // Remaining properties
-@property(copy, nonatomic) NSString *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool discarded; // @synthesize discarded=_discarded;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) int grade; // @synthesize grade=_grade;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _CPRange *hintRange; // @synthesize hintRange=_hintRange;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

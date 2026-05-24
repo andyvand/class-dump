@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVRoutingDiscoverySession, MRBlockGuard, NSArray, NSDate, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface MRAVRoutingDiscoverySessionOperation
 {
     CDUnknownBlockType _outputDeviceDiscoveredHandler;
-    CDUnknownBlockType _endpointDiscoveredHandler;
-    CDUnknownBlockType _finishHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableSet *_discoveredEndpoints;
-    NSMutableSet *_discoveredOutputDevices;
-    NSMutableSet *_discoveredTargetOutputDeviceUIDs;
-    MRAVRoutingDiscoverySession *_session;
-    MRBlockGuard *_guard;
-    NSDate *_startDate;
-    NSString *_requestID;
-    NSArray *_outputDeviceUIDs;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)T;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)LogEventIdentifier = %@};
 - (void);
 - (id);
 - (void);
 - (void)_characteristics;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType endpointDiscoveredHandler;
-@property(copy, nonatomic) CDUnknownBlockType finishHandler;
-@property(copy, nonatomic) CDUnknownBlockType outputDeviceDiscoveredHandler;
 @property(readonly, copy, nonatomic) NSArray *outputDeviceUIDs; // @synthesize outputDeviceUIDs=_outputDeviceUIDs;
 
 @end

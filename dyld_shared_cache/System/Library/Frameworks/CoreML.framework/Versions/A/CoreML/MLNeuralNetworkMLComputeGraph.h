@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCDevice, MLCGraph, MLCInferenceGraph, MLCTrainingGraph, MLModelDescription, NSDictionary, NSString;
+@class MLCGraph;
 
 @interface MLNeuralNetworkMLComputeGraph
 {
     _Bool _classifierOutputIsSigmoidOutput;
-    _Bool _layerFusedToLoss;
-    MLCGraph *_graph;
-    MLCTrainingGraph *_trainingGraph;
-    MLCInferenceGraph *_inferenceGraph;
-    NSDictionary *_mlcInputs;
-    NSDictionary *_mlcLabels;
-    NSDictionary *_outputNameToLayerMap;
-    unsigned long long _executionOptions;
-    MLModelDescription *_modelDescription;
-    NSDictionary *_layersMap;
-    NSString *_fusedLayerInputName;
-    MLCDevice *_device;
 }
 
-+ (id);
++ (id)f
+;
+- (id)CISamplerArg;
+- (void)PatchFnAttr;
+- (void)fragmentPreloadedLibraries;
+- (void)maxVertexAmplificationCount;
+- (void)vertexAmplificationMode;
+- (void)tessellationPartitionMode;
+- (void)inputPrimitiveTopology;
+- (void)maxTotalThreadsPerThreadgroup;
+- (void)stageInputDescriptor;
+- (_Bool):(void *)arg1:(id *)arg2 lock:already locked /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)P8;
+- (id)L`;
 - (int);
 - (id);
 - (id);
@@ -45,8 +34,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)\;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -55,7 +44,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
@@ -66,19 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool classifierOutputIsSigmoidOutput; // @synthesize classifierOutputIsSigmoidOutput=_classifierOutputIsSigmoidOutput;
-@property(retain, nonatomic) MLCDevice *device; // @synthesize device=_device;
-@property(nonatomic) unsigned long long executionOptions; // @synthesize executionOptions=_executionOptions;
-@property(retain, nonatomic) NSString *fusedLayerInputName; // @synthesize fusedLayerInputName=_fusedLayerInputName;
 @property(retain, nonatomic) MLCGraph *graph; // @synthesize graph=_graph;
-@property(retain, nonatomic) MLCInferenceGraph *inferenceGraph; // @synthesize inferenceGraph=_inferenceGraph;
-@property(nonatomic) _Bool layerFusedToLoss; // @synthesize layerFusedToLoss=_layerFusedToLoss;
-@property(retain, nonatomic) NSDictionary *layersMap; // @synthesize layersMap=_layersMap;
-@property(retain, nonatomic) NSDictionary *mlcInputs; // @synthesize mlcInputs=_mlcInputs;
-@property(retain, nonatomic) NSDictionary *mlcLabels; // @synthesize mlcLabels=_mlcLabels;
-@property(retain, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(readonly, nonatomic) NSDictionary *outputNameToLayerMap; // @synthesize outputNameToLayerMap=_outputNameToLayerMap;
-@property(retain, nonatomic) MLCTrainingGraph *trainingGraph; // @synthesize trainingGraph=_trainingGraph;
 
 @end
 

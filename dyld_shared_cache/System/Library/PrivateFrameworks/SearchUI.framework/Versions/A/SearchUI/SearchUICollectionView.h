@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SearchUICollectionViewController;
-@protocol SearchUICollectionViewInteractionDelegate;
+@class SearchUICollectionViewController;
 
 @interface SearchUICollectionView
 {
     _Bool scrollEnabled;
-    SearchUICollectionViewController *_controller;
-    id <SearchUICollectionViewInteractionDelegate> _interactionDelegate;
 }
 
 - (id);
-- (id);
+- (id)wed services;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -44,22 +23,31 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)B;
 - (void);
-- (void)bled;
+- (_Bool);
+- (void);
+- (void);
+- (void)8d (c;
+- (_Bool)portEndTime;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)dragInteractionEnabled;
 - (void)=å´;
 - (void);
 
 // Remaining properties
 @property __weak SearchUICollectionViewController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <SearchUICollectionViewInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property(nonatomic) _Bool scrollEnabled; // @synthesize scrollEnabled;
-@property(readonly) Class superclass;
 
 @end
 

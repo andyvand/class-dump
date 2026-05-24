@@ -6,18 +6,16 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SARDAceRewriteMessage;
-
 @interface SARDAceDelegatedUserDialogAct : AceObject
 {
 }
 
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (id);
 - (long long);
 - (id);
@@ -25,16 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) long long asrHypothesisIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *externalParserId;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SARDAceRewriteMessage *rewriteMessage;
-@property(copy, nonatomic) NSString *rewrittenUtterance;
-@property(readonly) Class superclass;
 
 @end
 

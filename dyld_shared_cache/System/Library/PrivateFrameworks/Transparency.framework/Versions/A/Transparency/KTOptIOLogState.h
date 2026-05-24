@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface KTOptIOLogState
 {
     _Bool _optIn;
-    NSString *_uri;
-    NSDate *_smtTimestamp;
 }
 
 - (id);
@@ -24,8 +22,6 @@
 - (id);
 
 // Remaining properties
-@property _Bool optIn; // @synthesize optIn=_optIn;
-@property(retain) NSDate *smtTimestamp; // @synthesize smtTimestamp=_smtTimestamp;
 @property(retain) NSString *uri; // @synthesize uri=_uri;
 
 @end

@@ -9,15 +9,6 @@
 @interface ConversationKit.ParticipantInfoView
 {
     id gradientView;
-    ConversationKit.ParticipantViewLabelContainerView *nameLabel;
-    id shutterButton;
-    id expandButton;
-    id localParticipant;
-    id isExpanded;
-    id customCornerRadius;
-    _Bool isMomentsAvailable;
-    id recordingLocalVideo;
-    id delegate;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)dismissViewControllerWithTransition:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
@@ -35,8 +26,6 @@
 - (void)¨=ÿÿ;
 
 // Remaining properties
-@property(nonatomic) double alphaValue;
-@property(nonatomic) _Bool isMomentsAvailable; // @synthesize isMomentsAvailable;
 @property(nonatomic, readonly) ConversationKit.ParticipantViewLabelContainerView *nameLabel; // @synthesize nameLabel;
 
 @end

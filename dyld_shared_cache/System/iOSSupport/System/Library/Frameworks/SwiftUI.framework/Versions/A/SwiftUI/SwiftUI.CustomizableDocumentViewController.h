@@ -9,10 +9,6 @@
 @interface SwiftUI.CustomizableDocumentViewController : SwiftUI.DocumentViewController
 {
     id cardTitle;
-    id actions;
-    id screenBackground;
-    id backgroundAccessoryView;
-    id overlayAccessoryView;
 }
 
 - (id);

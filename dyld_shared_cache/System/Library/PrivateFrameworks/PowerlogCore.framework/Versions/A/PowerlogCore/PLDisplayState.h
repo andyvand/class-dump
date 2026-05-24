@@ -13,7 +13,7 @@
 + (id);
 + (void)ithDB:lastCompletedActivityStatesEntry=%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)n %s;
 
 @end
 

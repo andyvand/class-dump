@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderKnownFolderLocation;
-
 @interface NSFileProviderKnownFolderLocations
 {
     _Bool _shouldCreateBinaryCompatibilitySymlink;
-    NSFileProviderKnownFolderLocation *_desktopLocation;
-    NSFileProviderKnownFolderLocation *_documentsLocation;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void)#;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)4D;
 - (void)>&ð!`Gù±ç)1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSFileProviderKnownFolderLocation *desktopLocation; // @synthesize desktopLocation=_desktopLocation;
-@property(retain, nonatomic) NSFileProviderKnownFolderLocation *documentsLocation; // @synthesize documentsLocation=_documentsLocation;
 @property(readonly, nonatomic) unsigned long long providedKnownFolders;
-@property(nonatomic) _Bool shouldCreateBinaryCompatibilitySymlink; // @synthesize shouldCreateBinaryCompatibilitySymlink=_shouldCreateBinaryCompatibilitySymlink;
 
 @end
 

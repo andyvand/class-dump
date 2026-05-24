@@ -6,37 +6,19 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFSearchInAppCommand : SFCommand
 {
     struct {
         unsigned int searchInAppType:1;
     } _has;
-    int _searchInAppType;
-    NSString *_searchString;
-    NSString *_applicationBundleIdentifier;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(nonatomic) int searchInAppType; // @synthesize searchInAppType=_searchInAppType;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

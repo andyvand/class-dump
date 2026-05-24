@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, ABPerson, NSDictionary;
+@class ABPerson;
 
 @interface ABNewPersonCommand
 {
     ABPerson *_newPerson;
-    ABGroup *_selectedGroup;
-    NSDictionary *_personProperties;
 }
 
 - (id);

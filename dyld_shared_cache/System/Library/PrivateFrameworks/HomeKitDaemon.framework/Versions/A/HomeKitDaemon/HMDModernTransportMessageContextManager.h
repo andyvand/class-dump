@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
 @protocol HMDModernTransportMessageContextFactory;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernTransportMessageContextManager
 {
     id <HMDModernTransportMessageContextFactory> _factory;
-    NSMutableDictionary *_contexts;
 }
 
 + (id)Gïÿ £ B;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)getSourceRect:(id)arg1 forScreen:withDestinationRect: /* Error: Ran out of types for this method. */;
+- (id)random bytes for cIV:(id)arg1 %d;
 - (id);
 - (id);
 - (id);
@@ -27,16 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)ID;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long contextCount;
-@property(readonly, nonatomic) NSMutableDictionary *contexts; // @synthesize contexts=_contexts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak id <HMDModernTransportMessageContextFactory> factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

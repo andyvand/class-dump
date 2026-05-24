@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)ialingContact;
+- (id)_dialingContact;
 
 @end
 

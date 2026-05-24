@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNicknameFieldEncryptionKey, IMNicknameFieldTaggingKey, IMNicknameRecordTaggingKey, NSData;
+@class NSData;
 
 @interface IMNicknameEncryptionPreKey
 {
     NSData *_generatedData;
-    NSData *_derivedData;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)B ;
 - (id);
 - (id);
 - (id);
@@ -27,11 +26,7 @@
 - (void)chatPropertiesData;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *derivedData; // @synthesize derivedData=_derivedData;
-@property(readonly, nonatomic) IMNicknameFieldEncryptionKey *fieldEncryptionKey;
-@property(readonly, nonatomic) IMNicknameFieldTaggingKey *fieldTaggingKey;
 @property(retain, nonatomic) NSData *generatedData; // @synthesize generatedData=_generatedData;
-@property(readonly, nonatomic) IMNicknameRecordTaggingKey *recordTaggingKey;
 
 @end
 

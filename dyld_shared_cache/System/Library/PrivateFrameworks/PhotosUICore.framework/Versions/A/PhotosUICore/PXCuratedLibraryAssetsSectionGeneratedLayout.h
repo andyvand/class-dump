@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXCuratedLibrarySectionGeometryDescriptor;
 @protocol PXDisplayAsset;
 
 @interface PXCuratedLibraryAssetsSectionGeneratedLayout
 {
     id <PXDisplayAsset> _presentedKeyAsset;
-    struct CGRect _presentedKeyAssetRect;
 }
 
 - (void);
@@ -19,17 +17,14 @@
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXCuratedLibrarySectionGeometryDescriptor *presentedGeometryDescriptor;
 @property(retain, nonatomic) id <PXDisplayAsset> presentedKeyAsset; // @synthesize presentedKeyAsset=_presentedKeyAsset;
-@property(nonatomic) struct CGRect presentedKeyAssetRect; // @synthesize presentedKeyAssetRect=_presentedKeyAssetRect;
-@property(readonly, nonatomic) struct CGRect sectionRect;
 
 @end
 

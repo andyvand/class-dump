@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned int);
+- (id)setDataSource: /* Error: Ran out of types for this method. */;
+- (unsigned int)(i;
 
 @end
 

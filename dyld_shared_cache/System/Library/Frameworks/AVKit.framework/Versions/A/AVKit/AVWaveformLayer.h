@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVWaveform, AVWaveformTiledLayer, NSColor, NSString;
+@class AVObservationController, AVWaveform;
 
 __attribute__((visibility("hidden")))
 @interface AVWaveformLayer
 {
     AVObservationController *_observationController;
-    AVWaveformTiledLayer *_waveformLayer;
-    _Bool _hasPendingRedraw;
-    AVWaveform *_waveform;
-    NSColor *_primaryColor;
-    NSColor *_negativeSpaceColor;
-    unsigned long long _waveformStyle;
-    _Bool _smooth;
-    double _sampleWidth;
-    double _sampleGapWidth;
-    double _sampleScale;
-    CDStruct_e83c9415 _timeRange;
-    struct CGSize _contentSize;
 }
 
-+ (void)FrameAnalysis: /* Error: Ran out of types for this method. */;
++ (void)setAllowsVideoFrameAnalysis: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -37,41 +25,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ics;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ror recording indeterminate entry %{public}s, %{public}s, %{bool}d;
 - (_Bool);
-- (void);
-- (void);
+- (void)";
+- (void)lu
+;
+- (id)quickTypeItemsWithQuery:limit:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
 - (void);
 - (void)ontroller.touchBar;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSColor *negativeSpaceColor;
-@property(retain, nonatomic) NSColor *primaryColor;
-@property(nonatomic) double sampleGapWidth;
-@property(nonatomic) double sampleScale;
-@property(nonatomic) double sampleWidth;
-@property(nonatomic, getter=isSmooth) _Bool smooth;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_e83c9415 timeRange;
 @property(retain, nonatomic) AVWaveform *waveform;
-@property(nonatomic) unsigned long long waveformStyle;
 
 @end
 

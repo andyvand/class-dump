@@ -9,26 +9,16 @@
 @interface GEOLogMsgEventId
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _high;
-    unsigned long long _low;
-    unsigned int _deanonymizeId;
-    _Bool _isPaidAccount;
-    struct {
-        unsigned int has_high:1;
-        unsigned int has_low:1;
-        unsigned int has_deanonymizeId:1;
-        unsigned int has_isPaidAccount:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasSpokenGuidanceIndex:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)nextFreeGroupIDInRange:(_Bool)arg1;
 - (void);
 - (void);
 - (void);
@@ -36,7 +26,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)%02x %04x %04x %04x;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -46,7 +36,7 @@
 - (unsigned long long)'Ð!Cùº*Ð1Â0@ù
 × ;
 - (unsigned int)iers"b1"read_qualities"b1"wrote_anyField"b1};
-- (id)SearchPunchinEncodedString:(struct _NSZone *)arg1;
+- (id)setSpotlightSearchPunchinEncodedString:(struct _NSZone *)arg1;
 - (id)ccessPoint",R,N,V_accessPoint;
 - (id)inateOnRouteAt:] - index (%d) is out of bounds. coordinate count:%d /* Error: Ran out of types for this method. */;
 - (id)ÿÿ;
@@ -57,15 +47,7 @@
 - (_Bool)@Yÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int deanonymizeId;
-@property(nonatomic) _Bool hasDeanonymizeId;
 @property(nonatomic) _Bool hasHigh;
-@property(nonatomic) _Bool hasIsPaidAccount;
-@property(nonatomic) _Bool hasLow;
-@property(nonatomic) unsigned long long high;
-@property(nonatomic) _Bool isPaidAccount;
-@property(nonatomic) unsigned long long low;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

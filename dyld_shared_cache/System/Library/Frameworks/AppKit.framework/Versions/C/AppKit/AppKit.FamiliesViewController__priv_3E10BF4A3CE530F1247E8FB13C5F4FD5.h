@@ -9,27 +9,21 @@
 @interface AppKit.FamiliesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 : NSViewController
 {
     id selectedFamilyName;
-    id fontPanel;
-    id scrollView;
-    id outlineView;
-    id groupedFamilies;
-    id sortedSections;
-    id visibleObservation;
 }
 
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)ed to be loaded.;
+- (_Bool)ileGestalt/libMobileGestalt/IORegistryUtilities/sysconfig.c;
+- (long long)rned for key %@.;
+- (_Bool)IORegistryEntryPropertyKeys;
+- (_Bool)IONetworkController;
+- (id)eMatching failed for %s;
 - (void);
 - (id);
 - (id);
-- (void)ontDescriptors:fromCollection: /* Error: Ran out of types for this method. */;
-- (void)yph;
+- (void)removeFontDescriptors:fromCollection: /* Error: Ran out of types for this method. */;
+- (void)AXMenuItemCmdGlyph;
 
 @end
 

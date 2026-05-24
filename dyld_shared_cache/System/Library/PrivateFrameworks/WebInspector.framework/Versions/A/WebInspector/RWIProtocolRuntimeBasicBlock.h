@@ -16,14 +16,11 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) int endOffset;
-@property(nonatomic) int executionCount;
-@property(nonatomic) _Bool hasExecuted;
 @property(nonatomic) int startOffset;
 
 @end

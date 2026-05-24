@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID;
-
 __attribute__((visibility("hidden")))
 @interface _CDSnapshot
 {
     int _cd_rc;
-    int _cd_version;
-    NSManagedObjectID *_cd_objectID;
-    struct _snapshotFlags_st {
-        unsigned int _readOnly:1;
-        unsigned int _reservedFlags:7;
-    } _cd_flags;
-    unsigned char _cd_nullFlags_;
 }
 
 + (void);
 + (void);
 + (unsigned int);
-+ (Class);
++ (Class);
 + (void)raryDirectory.aLAJrA/Sources/Persistence/PFHistoryAnalyzerContext.m;
 + (id)STINCT ENTITYID, PRIMEKEY FROM %@;
 + (id)H;
@@ -30,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
-- (id);
+- (id)URLWithString:(id)arg1;
 - (id);
 - (id)n error:%@
  /* Error: Ran out of types for this method. */;

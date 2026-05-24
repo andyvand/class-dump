@@ -6,35 +6,26 @@
 
 #import <ChatKit/ChatKit.TapbackView.h>
 
-@protocol CKTapbackViewDelegate;
-
 @interface CKTapbackLegacyView : ChatKit.TapbackView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    void delegate;
-    id glyphView;
-    _Bool isSelected;
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)edObjectContext",&,N,V_modernViewContext;
+- (void)sChangeCoordinator",N,R;
+- (double)e;
 - (void);
-- (double);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)I;
 - (void);
 - (id);
+- (void)@;
+- (id)_disabledPresentationOptions;
 - (void) ;
 - (_Bool)jL4æÿj¤eÄÿjd4æÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

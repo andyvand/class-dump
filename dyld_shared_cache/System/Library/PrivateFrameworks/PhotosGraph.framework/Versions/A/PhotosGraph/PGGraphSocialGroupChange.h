@@ -6,24 +6,22 @@
 
 #import <PhotosGraph/PGGraphChange.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PGGraphSocialGroupChange : PGGraphChange
 {
     NSString *_socialGroupUUID;
-    NSSet *_propertyNames;
 }
 
-- (void);
-- (id);
+- (void)accessibilityRangeForPosition:(id)arg1;
+- (id)menuControllerSubMenuController;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)ignal_in_correct_inference_count;
+- (void)parent_contact_name_signal_in_correct_inference_count;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *propertyNames; // @synthesize propertyNames=_propertyNames;
 @property(readonly, nonatomic) NSString *socialGroupUUID; // @synthesize socialGroupUUID=_socialGroupUUID;
 
 @end

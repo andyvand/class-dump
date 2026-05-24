@@ -6,7 +6,7 @@
 
 #import <TimeMachine/TMMonoStructure.h>
 
-@class NSArray, NSDate, NSDictionary, NSString, TMInProgressContainer;
+@class TMInProgressContainer;
 
 @interface TMMachineStore : TMMonoStructure
 {
@@ -17,8 +17,8 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)8i;
++ (id);
 + (id);
 + (_Bool);
 + (id);
@@ -37,7 +37,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id);
 - (id);
@@ -47,25 +47,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
-@property(readonly) NSArray *backupDateHistory;
-@property(readonly) NSDictionary *backupHistoryDictionary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *hardwareModelIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *hostUUID;
-@property(retain) TMInProgressContainer *inProgressContainer; // @synthesize inProgressContainer=_inProgressContainer;
-@property(readonly) NSDate *latestCompleteBackupDate;
-@property(readonly) NSString *name;
 @property(readonly) Class snapshotClass;
-@property(readonly) NSArray *sortedCompleteBackups;
-@property(readonly) Class superclass;
 
 @end
 

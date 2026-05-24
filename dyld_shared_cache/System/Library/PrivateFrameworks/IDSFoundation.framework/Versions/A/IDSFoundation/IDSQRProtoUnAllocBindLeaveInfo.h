@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoMaterial;
-
 @interface IDSQRProtoUnAllocBindLeaveInfo
 {
     unsigned long long _participantId;
-    IDSQRProtoMaterial *_clientContextBlob;
-    int _reason;
-    CDStruct_19e42173 _has;
 }
 
 - (void);
@@ -29,9 +24,9 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)8S16C20*24;
 - (void);
-- (void);
+- (void)aborationAddParticipantsAllowedRequest.m;
 - (id);
 - (id);
 - (void)king phone number challenge, switch is ON !! ***********;
@@ -39,12 +34,7 @@
 - (id)WØúÏÿmqáWÈmÚÿUqáWÄmÚÿ;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoMaterial *clientContextBlob; // @synthesize clientContextBlob=_clientContextBlob;
-@property(readonly, nonatomic) _Bool hasClientContextBlob;
 @property(nonatomic) _Bool hasParticipantId;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) unsigned long long participantId; // @synthesize participantId=_participantId;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

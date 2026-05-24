@@ -7,10 +7,10 @@
 @class INNote, INNoteContent;
 
 @protocol INAppendToNoteIntentExport
-- (INNoteContent *)e: /* Error: Ran out of types for this method. */;
+- (id);
+- (INNoteContent *)addPairPersonValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) INNoteContent *content;
 @property(copy) INNote *targetNote;
 @end
 

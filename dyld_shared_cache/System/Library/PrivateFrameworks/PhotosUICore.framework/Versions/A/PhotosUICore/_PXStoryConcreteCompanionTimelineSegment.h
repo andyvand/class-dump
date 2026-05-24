@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol PXStoryCompanionTimelineSegmentTransition, PXStoryTimeline;
+@protocol PXStoryTimeline;
 
 @interface _PXStoryConcreteCompanionTimelineSegment
 {
     id <PXStoryTimeline> _timeline;
-    CDStruct_ae7b37d2 _segmentInfo;
 }
 
 - (id);
 - (id);
-- (CDStruct_ae7b37d2);
+- (CDStruct_1e69568f);
 - (CDStruct_1b6d18a9);
-- (id)eCrossfadeDuration;
+- (id)_floatingHeadersAppearanceCrossfadeDuration;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets;
-@property(readonly, nonatomic) id <PXStoryCompanionTimelineSegmentTransition> orderOutTransition;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 preferredDuration;
-@property(readonly, nonatomic) CDStruct_ae7b37d2 segmentInfo; // @synthesize segmentInfo=_segmentInfo;
 @property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
 
 @end

@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     DOMNode *_node;
 }
 
-+ (id);
++ (id)service %@ with context %@;
+- (id)NicknameWallpaperMetadataTag;
 - (id);
-- (id);
-- (_Bool)oDefaultInputModes:(SEL)arg1;
-- (_Bool):(id)arg1;
-- (void)ognizer;
-- (id);
+- (_Bool)suggestedInputModesForCurrentLocale:(SEL)arg1 fallbackToDefaultInputModes: /* Error: Ran out of types for this method. */;
+- (_Bool)setBubble1:(id)arg1;
+- (void)metricsGestureRecognizer;
+- (id)ignoresSyncingMasksToBounds;
 - (_Bool)ôTXV#¤[];
-- (id)acer;
+- (id)spacer;
 - (_Bool);
 - (void)³!ÿÉDÚ(Ó`;
 

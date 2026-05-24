@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Internal)
-- (id);
+- (id)isGreyModeOnForDataclass: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString, RBProcess, RBProcessMap, RBSProcessHandle, RBSProcessStateDescriptor;
-@protocol OS_dispatch_queue, RBProcessMonitorObserverConnection, RBProcessMonitoring;
+@protocol RBProcessMonitoring;
 
 @interface RBProcessMonitorObserver
 {
     id <RBProcessMonitoring> _monitor;
-    RBProcess *_process;
-    id <RBProcessMonitorObserverConnection> _connection;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    struct os_unfair_lock_s _lock;
-    unsigned int _qos;
-    RBProcessMap *_pendingProcessState;
-    NSMutableArray *_pendingExitEvents;
-    NSSet *_pendingPreventLaunchPredicates;
-    NSMutableDictionary *_configurations;
-    RBSProcessStateDescriptor *_stateDescriptor;
-    RBSProcessHandle *_lastMatchedHandle;
-    _Bool _extantStateUpdate;
-    _Bool _extantEventUpdate;
-    _Bool _didClearState;
-    double _lastSend;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)earliestSnapshot;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id)kMDItemPhotosPeopleNames_n2_word;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)U;
 - (void);
 - (id);
 - (id);
@@ -47,14 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

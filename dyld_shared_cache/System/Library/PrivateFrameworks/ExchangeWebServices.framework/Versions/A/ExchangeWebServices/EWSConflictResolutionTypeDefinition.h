@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)tWithString:(id)arg1 … | creating mutable connection [mutating sql statement] statement=%{public}@;
 
 @end
 

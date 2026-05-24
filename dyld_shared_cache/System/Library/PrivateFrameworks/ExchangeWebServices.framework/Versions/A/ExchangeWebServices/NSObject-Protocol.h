@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *)pecified: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long)A;
+- (_Bool);
+- (oneway void);
+- (id)"<CALNTimeToLeaveRefreshMonitorDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)ightConstraint;
+- (_Bool)A;
+- (struct _NSZone *)setPropertyIdSpecified: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

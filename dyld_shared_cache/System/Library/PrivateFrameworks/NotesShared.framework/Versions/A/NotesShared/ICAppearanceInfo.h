@@ -7,7 +7,6 @@
 @interface ICAppearanceInfo
 {
     unsigned long long _hash;
-    unsigned long long _type;
 }
 
 @end

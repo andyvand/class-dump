@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPParagraph, NSMutableArray;
+@class CPParagraph;
 
 __attribute__((visibility("hidden")))
 @interface CPParagraphFlow
 {
     CPParagraph *paragraph;
-    double fLeft;
-    double fRight;
-    double fTop;
-    double fBottom;
-    NSMutableArray *paragraphsAbove;
-    NSMutableArray *paragraphsBelow;
-    NSMutableArray *paragraphsLeft;
-    NSMutableArray *paragraphsRight;
-    _Bool placed;
-    _Bool adjacentToCallout;
-    int calloutType;
-    CPParagraph *nextInColumn;
 }
 
 - (id);
@@ -34,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)SA�;
 - (void);
 - (void);
 - (int);
@@ -73,13 +61,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property int calloutType; // @synthesize calloutType;
-@property double fBottom; // @synthesize fBottom;
-@property double fLeft; // @synthesize fLeft;
-@property double fRight; // @synthesize fRight;
-@property(nonatomic) CPParagraph *nextInColumn; // @synthesize nextInColumn;
 @property(retain, nonatomic) CPParagraph *paragraph; // @synthesize paragraph;
-@property _Bool placed; // @synthesize placed;
 
 @end
 

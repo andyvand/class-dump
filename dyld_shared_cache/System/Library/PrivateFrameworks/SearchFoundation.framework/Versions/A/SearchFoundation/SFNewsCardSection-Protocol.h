@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSString, SFImage, SFRichText;
 
 @protocol SFNewsCardSection
+- (_Bool);
+- (SFImage *);
+- (void)transactionManager:(SFRichText *)arg1 transactionGroupCompleted: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool overlayTextInImage;
-@property(retain, nonatomic) SFImage *providerImage;
-@property(retain, nonatomic) SFRichText *providerTitle;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFImage *thumbnail;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ing;
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)defaultContentAccessoryPadding;
++ (id)applyUnscaledImpulse:atPoint: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

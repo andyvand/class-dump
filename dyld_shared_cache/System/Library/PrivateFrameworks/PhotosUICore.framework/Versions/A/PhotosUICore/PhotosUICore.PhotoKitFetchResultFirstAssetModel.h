@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotoKitFetchResultFirstAssetModel
 {
     id _firstAsset;
-    id fetchResult;
-    id $__lazy_storage_$_proxy;
-    id _$observationRegistrar;
 }
 
 @end

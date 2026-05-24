@@ -10,7 +10,6 @@
 @interface PXStoryConcreteChapterCollectionChapterModification
 {
     NSObject<NSCopying> *_editedChapterIdentifier;
-    CDUnknownBlockType _chapterChangeRequest;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 - (void)Ê´o;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType chapterChangeRequest; // @synthesize chapterChangeRequest=_chapterChangeRequest;
 @property(readonly, nonatomic) NSObject<NSCopying> *editedChapterIdentifier; // @synthesize editedChapterIdentifier=_editedChapterIdentifier;
-@property(readonly, nonatomic) long long kind;
 
 @end
 

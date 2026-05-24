@@ -28,8 +28,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void)x;
 - (void);
 - (void);
 

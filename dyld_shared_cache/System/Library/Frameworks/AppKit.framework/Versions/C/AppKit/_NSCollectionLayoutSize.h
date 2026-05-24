@@ -9,19 +9,17 @@
 @interface _NSCollectionLayoutSize
 {
     _NSCollectionLayoutDimension *_width;
-    _NSCollectionLayoutDimension *_height;
 }
 
 + (id);
 - (id);
+- (id)structproxyList():no request! /* Error: Ran out of types for this method. */;
+- (id)4;
 - (id);
-- (id);
-- (id);
-- (id)llers;
-- (void)gateSizingForUserResize;
+- (id)dontCacheViewControllers;
+- (void)NSAllowsDelegateSizingForUserResize;
 
 // Remaining properties
-@property(readonly, nonatomic) _NSCollectionLayoutDimension *height;
 @property(readonly, nonatomic) _NSCollectionLayoutDimension *width;
 
 @end

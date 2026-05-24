@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage;
+
 @protocol SiriUIDataStoring
+- (NSImage *);
+- (void)@;
 @end
 

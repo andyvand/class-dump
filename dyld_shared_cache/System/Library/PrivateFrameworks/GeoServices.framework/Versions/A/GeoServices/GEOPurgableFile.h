@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCoalescingTimer, NSData, NSError, NSString, NSURL, PBCodable, geo_isolater;
+@class GEOCoalescingTimer, NSError;
 
 __attribute__((visibility("hidden")))
 @interface GEOPurgableFile
 {
     GEOCoalescingTimer *_purgeTimer;
-    geo_isolater *_isolater;
-    int _notifyToken;
-    NSURL *_url;
-    Class _pbType;
-    NSError *_lastError;
-    NSData *_data;
-    NSString *_string;
-    PBCodable *_proto;
 }
 
 - (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (id)e called once per object;
 - (void)+L@;

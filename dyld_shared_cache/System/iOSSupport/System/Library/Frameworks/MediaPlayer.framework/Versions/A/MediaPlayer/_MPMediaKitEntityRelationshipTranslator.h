@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface _MPMediaKitEntityRelationshipTranslator : _MPKeyPathEntityRelationshipTranslator
 {
     NSString *_mediaKitType;
-    CDUnknownBlockType _payloadTransformBlock;
 }
 
 - (void);
-- (id);
+- (id)\;
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (void)ons;
+- (id)wrapper;
+- (void)_countOfCollections;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mediaKitType; // @synthesize mediaKitType=_mediaKitType;
-@property(readonly, nonatomic) CDUnknownBlockType payloadTransformBlock; // @synthesize payloadTransformBlock=_payloadTransformBlock;
 
 @end
 

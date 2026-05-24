@@ -5,18 +5,16 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_source, OS_os_transaction;
+@protocol OS_os_transaction;
 
 @interface SGXpcTransaction
 {
     NSObject<OS_os_transaction> *_transaction;
-    struct atomic_flag _done;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)tarView]-(>=0)-|;
 - (void);
 - (id);
 - (id);

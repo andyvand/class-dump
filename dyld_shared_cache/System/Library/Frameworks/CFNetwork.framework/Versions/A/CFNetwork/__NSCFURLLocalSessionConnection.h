@@ -6,37 +6,16 @@
 
 #import <CFNetwork/__NSCFURLSessionConnection.h>
 
-@class NSError, NSObject, NSString, NSURLResponse;
-@protocol OS_dispatch_data;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalSessionConnection : __NSCFURLSessionConnection
 {
     struct SessionConnectionLoadable *_loaderClient;
-    struct URLConnectionLoader *_loader;
-    _Bool _canceled;
-    long long _suspended;
-    NSObject<OS_dispatch_data> *_pendingData;
-    long long _pendingCompletion;
-    unsigned long long _didReceiveResponseDisposition;
-    NSError *_pendingError;
-    int _state;
-    long long _clientBufferLength;
-    NSObject<OS_dispatch_data> *_sniffData;
-    NSURLResponse *_sniffResponse;
-    _Bool _isMixedReplace;
-    _Bool _didCheckMixedReplace;
-    _Bool _didCheckCredentialsSuppliedInURL;
-    _Bool _actuallyTriedCredentialsSuppliedInURL;
-    unsigned long long _maxDataSegmentCoalesceThreshhold;
-    unsigned long long _maxDataSegmentCount;
-    unsigned int _didReceiveDataCount;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)fiveroman;
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -66,13 +45,7 @@ __attribute__((visibility("hidden")))
 - (id)C08iC08oC08sC08t.08;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

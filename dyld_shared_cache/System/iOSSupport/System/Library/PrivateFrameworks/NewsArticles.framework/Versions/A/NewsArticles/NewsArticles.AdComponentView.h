@@ -7,16 +7,6 @@
 @interface NewsArticles.AdComponentView
 {
     id bannerView;
-    id $__lazy_storage_$_debugView;
-    id bannerAdFactory;
-    id viewManager;
-    id requestManager;
-    id bannerAdRenderer;
-    id integrator;
-    id exposureMonitor;
-    id journal;
-    id layoutAttributes;
-    id componentImpressionVisibilityPercentage;
 }
 
 - (void);
@@ -24,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void)Identifier;
+- (void)feedItemIdentifier;
 
 @end
 

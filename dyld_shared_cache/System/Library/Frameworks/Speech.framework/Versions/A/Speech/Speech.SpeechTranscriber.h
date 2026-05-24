@@ -7,11 +7,6 @@
 @interface Speech.SpeechTranscriber
 {
     id locale;
-    id modelOptions;
-    id transcriptionOptions;
-    id reportingOptions;
-    id resultAttributeOptions;
-    id common;
 }
 
 @end

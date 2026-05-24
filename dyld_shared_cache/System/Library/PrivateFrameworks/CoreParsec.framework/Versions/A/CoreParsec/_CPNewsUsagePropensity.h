@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPNewsUsagePropensity
 {
     float _other;
-    int _totalEngagements;
 }
 
-- (int);
-- (void);
-- (void);
-- (void);
+- (int)dRoots/4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/Vector.h;
+- (void)nsionControllerIdentifierType, WTF:(int)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ension(NSBundle *__strong, NSURL *__strong, RefPtr<API:(float)arg1:Error> &) /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (float);
+- (float)rsonHandleLabelForCNLabeledValue(CNLabeledValue *__strong);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
 @property(nonatomic) float other; // @synthesize other=_other;
-@property(readonly) Class superclass;
-@property(nonatomic) int totalEngagements; // @synthesize totalEngagements=_totalEngagements;
 
 @end
 

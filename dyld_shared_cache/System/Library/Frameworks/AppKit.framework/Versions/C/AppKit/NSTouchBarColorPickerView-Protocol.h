@@ -7,13 +7,17 @@
 @class NSColor;
 
 @protocol NSTouchBarColorPickerView
++ (long long)ictionary for %d:%s
+ /* Error: Ran out of types for this method. */;
+- (NSColor *)m4m<mDmL	mT
+m\m`;
+- (_Bool)P;
+- (void)_allowsUltraConstrainedInternal;
+- (void)ub;
 - (SEL);
 - (void)ic}s;
 
 // Remaining properties
-@property SEL action;
-@property _Bool allowsAlpha;
 @property(copy) NSColor *currentColor;
-@property __weak id target;
 @end
 

@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotAddressEntryList, CTLazuliChatBotPCC, NSString, NSURL;
+@class CTLazuliChatBotPCC;
 
 @interface CTLazuliChatBotInformation
 {
     CTLazuliChatBotPCC *_pcc;
-    NSString *_version;
-    NSString *_provider;
-    NSString *_email;
-    NSString *_color;
-    NSString *_backgroundImage;
-    NSURL *_website;
-    NSURL *_tcPageUrl;
-    CTLazuliChatBotAddressEntryList *_addresses;
 }
 
-+ (_Bool);
++ (_Bool)@, didRecover:%d error:%@> /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)q;
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id)-;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)_TtCE19LocalAuthenticationCSo20LASmartCardPublicKeyP33_E47ECC70128396A15C515EEBF424592010Properties;
 - (void);
 - (void);
 - (id);
@@ -50,15 +42,7 @@
 - (id)data rates;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotAddressEntryList *addresses; // @synthesize addresses=_addresses;
-@property(retain, nonatomic) NSString *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain, nonatomic) NSString *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
 @property(retain, nonatomic) CTLazuliChatBotPCC *pcc; // @synthesize pcc=_pcc;
-@property(retain, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(retain, nonatomic) NSURL *tcPageUrl; // @synthesize tcPageUrl=_tcPageUrl;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
-@property(retain, nonatomic) NSURL *website; // @synthesize website=_website;
 
 @end
 

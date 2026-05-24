@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSString *_unlockedWithPassword;
 }
 
-- (id);
+- (id)R�?;
 - (_Bool);
 - (void);
 - (void);

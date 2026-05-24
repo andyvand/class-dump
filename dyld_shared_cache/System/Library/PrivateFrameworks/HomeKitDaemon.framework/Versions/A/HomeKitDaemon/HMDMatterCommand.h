@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDHome, HMDMatterPath, NSArray, NSDictionary, NSString;
+@class HMDHome, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterCommand
 {
     NSDictionary *_commandFields;
-    NSArray *_expectedValues;
-    HMDMatterPath *_matterPath;
-    HMDHome *_home;
 }
 
 + (id)Lßÿ;
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)MSPPinnedPlaceStorage;
+- (_Bool)- LogDiscard error during BAA authentication:(id)arg1 %@;
+- (_Bool)_saveSendingRulesArchiveError;
+- (id)identifiers;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,19 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)gistrations (Local);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory;
-@property(copy, nonatomic) NSDictionary *commandFields; // @synthesize commandFields=_commandFields;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *expectedValues; // @synthesize expectedValues=_expectedValues;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) HMDMatterPath *matterPath; // @synthesize matterPath=_matterPath;
-@property(readonly) Class superclass;
 
 @end
 

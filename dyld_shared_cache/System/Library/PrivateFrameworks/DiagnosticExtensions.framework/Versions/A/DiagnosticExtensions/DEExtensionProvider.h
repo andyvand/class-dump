@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEExtensionProvider
 {
     _Bool _canGenerateNewAttachment;
-    _Bool _allowUserAttachmentSelection;
-    _Bool _isEnhancedLoggingStateOn;
-    NSString *_loggingConsent;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -25,28 +20,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_֪m;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)CKCDPCodeServiceRequestAccountConfig;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowUserAttachmentSelection; // @synthesize allowUserAttachmentSelection=_allowUserAttachmentSelection;
-@property(nonatomic) _Bool canGenerateNewAttachment; // @synthesize canGenerateNewAttachment=_canGenerateNewAttachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isEnhancedLoggingStateOn; // @synthesize isEnhancedLoggingStateOn=_isEnhancedLoggingStateOn;
-@property(copy, nonatomic) NSString *loggingConsent; // @synthesize loggingConsent=_loggingConsent;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,22 +7,6 @@
 @interface NewsFeed.DebugInspectViewController
 {
     id cloudContext;
-    id feedPersonalizer;
-    id key;
-    id result;
-    id factory;
-    id dataSource;
-    id inspector;
-    id commandCenter;
-    id inventory;
-    id tableView;
-    id headlineService;
-    id recipeService;
-    id tagService;
-    id webEmbedDataSourceService;
-    id searchController;
-    id radarAttachmentProvider;
-    id history;
 }
 
 - (void);
@@ -34,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long),[;
 - (void);
 - (void);
 - (void);

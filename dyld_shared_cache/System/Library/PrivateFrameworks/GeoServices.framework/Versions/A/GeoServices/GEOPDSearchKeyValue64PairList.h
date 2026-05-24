@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)"NSTimer"8;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)parators"b1"wrote_anyField"b1};
-- (id)sibleCoordinateRange;
+- (id)_possibleCoordinateRange;
 - (id)(;
 - (void)v©úzH@;
 

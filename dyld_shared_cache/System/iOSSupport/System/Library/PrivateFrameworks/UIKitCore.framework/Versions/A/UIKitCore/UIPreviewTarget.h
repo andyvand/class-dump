@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface UIPreviewTarget
 {
     struct CAPoint3D _center3D;
-    struct CATransform3D _transform3D;
-    double _contentScale;
-    UIView *_container;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (struct CATransform3D);
+- (id)Tag:(id)arg1 %@;
+- (id)=>               UTI:(id)arg1 %@;
+- (struct CATransform3D)UIntArray;
 - (struct CATransform3D);
 - (void);
 - (double);
@@ -28,17 +23,13 @@
 - (id);
 - (struct CGPoint)0@ù
 × ;
-- (_Bool)ettings;
+- (_Bool)navigationAndToolbarSettings;
 - (id)rtion>",&,N,V__borrowedAssertion;
 - (id)¼ÏÜ2Ya;
 - (void)ÌÿaØGd;
 
 // Remaining properties
-@property(nonatomic, getter=_contentScale, setter=_setContentScale:) double _contentScale; // @synthesize _contentScale;
 @property(readonly, nonatomic) struct CATransform3D _transform3D;
-@property(readonly, nonatomic) struct CGPoint center; // @dynamic center;
-@property(readonly, nonatomic) UIView *container; // @synthesize container=_container;
-@property(readonly, nonatomic) struct CGAffineTransform transform; // @dynamic transform;
 
 @end
 

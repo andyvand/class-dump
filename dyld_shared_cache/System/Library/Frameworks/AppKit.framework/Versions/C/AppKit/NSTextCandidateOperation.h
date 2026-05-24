@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSTextCandidateOperation
 {
     NSString *_string;
-    struct _NSRange _selectedRange;
-    unsigned long long _offset;
-    unsigned long long _checkingTypes;
-    NSDictionary *_options;
-    long long _tag;
-    long long _sequenceNumber;
-    unsigned long long _retryCount;
-    id _completionHandler;
-    NSArray *_results;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (long long);
 - (void)1Â0@ù
@@ -32,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ôC;
 
 // Remaining properties
-@property(readonly) NSArray *results;
-@property(readonly) unsigned long long retryCount;
 @property(readonly) long long sequenceNumber;
 
 @end

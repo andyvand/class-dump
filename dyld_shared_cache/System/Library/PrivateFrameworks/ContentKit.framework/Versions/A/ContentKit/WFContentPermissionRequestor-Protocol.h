@@ -8,6 +8,7 @@
 
 @protocol WFContentPermissionRequestor
 - (void);
+- (void)gt;
 - (WFContactStore *)hild(sel.getRangeAt(i).cloneContents());            }            html = container.innerHTML;        }    } else if (typeof document.selection != "undefined") {        if (document.selection.type == "Text") {            html = document.selection.createRange().htmlText;        }    }    return html;;
 
 // Remaining properties

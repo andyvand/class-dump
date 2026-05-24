@@ -6,26 +6,22 @@
 
 #import <TSReading/TSDContentAnimation.h>
 
-@class CAMediaTimingFunction, NSArray, TSDContentPath;
+@class NSArray;
 
 @interface TSDContentPathAnimation : TSDContentAnimation
 {
     NSArray *_contentLocations;
-    CAMediaTimingFunction *_timingFunction;
-    NSArray *_keyTimes;
-    NSArray *_timingFunctions;
-    double _duration;
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -36,11 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contentLocations; // @synthesize contentLocations=_contentLocations;
-@property(copy, nonatomic) TSDContentPath *contentPath;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSArray *keyTimes; // @synthesize keyTimes=_keyTimes;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
-@property(copy, nonatomic) NSArray *timingFunctions; // @synthesize timingFunctions=_timingFunctions;
 
 @end
 

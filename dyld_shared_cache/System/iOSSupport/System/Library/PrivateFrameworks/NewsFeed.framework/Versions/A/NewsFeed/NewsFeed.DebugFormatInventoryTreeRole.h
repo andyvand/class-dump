@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatInventoryTreeRole
 {
     id id;
-    id kind;
-    id _debugPackages;
-    id unfilteredDebugPackages;
 }
 
 @end

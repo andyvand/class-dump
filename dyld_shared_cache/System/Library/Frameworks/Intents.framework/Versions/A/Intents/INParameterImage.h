@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INParameter;
+@class INParameter;
 
 @interface INParameterImage
 {
     INParameter *_parameter;
-    INImage *_image;
 }
 
 - (id);
 - (id);
+- (id)T*7;
 - (id);
-- (id);
-- (void)OptionsCollectionForUpdateMediaAffinity:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideAffinityTypeOptionsCollectionForUpdateMediaAffinity:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) INImage *image; // @synthesize image=_image;
 @property(readonly, copy) INParameter *parameter; // @synthesize parameter=_parameter;
 
 @end

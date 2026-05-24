@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray, NSData;
 
 @interface ML3StoreItemAlbumArtistData
 {
     NSArray *_lookupItems;
-    NSData *_albumArtistData;
-    NSDictionary *_trackItemImportProperties;
-    NSArray *_parsedStoreAlbumArtistImportProperties;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_addHighlightStatusToProcessingSnapshot:photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_EMPTY_16_withCode:(id)arg1;
+- (id)_ALAssetsGroupFilterPredicate;
+- (id)=I},N,V_importMutex;
+- (unsigned long long)unpauseLaunchEventNotifications;
+- (id)erestCache",&,N,V_visitsCache;
+- (id)sandboxExtensionsByPathForClient:pathManager:libraryAccessRole: /* Error: Ran out of types for this method. */;
+- (id)Node: /* Error: Ran out of types for this method. */;
+- (id)",R,N,V_displayString;
 - (void)xtra.file_size FROM item JOIN item_stats USING (item_pid) JOIN item_extra USING (item_pid) WHERE album_pid = ? AND (%@);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long albumArtistCount;
 @property(readonly, nonatomic) NSData *albumArtistData;
-@property(readonly, nonatomic) NSArray *parsedStoreAlbumArtistImportProperties;
 
 @end
 

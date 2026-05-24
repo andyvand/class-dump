@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIButton;
-@protocol CKFocusFilterBannerDelegate;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface CKFocusFilterBannerCollapsedCollectionViewCell
 {
     _Bool _isFocusFilterEnabled;
-    id <CKFocusFilterBannerDelegate> _focusFilterBannerDelegate;
-    UIButton *_focusFilterToggleButton;
 }
 
-+ (id);
-- (void);
++ (id)";
+- (void)4;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)n;
 - (void);
 - (void);
 - (_Bool);
@@ -28,16 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)c&;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <CKFocusFilterBannerDelegate> focusFilterBannerDelegate; // @synthesize focusFilterBannerDelegate=_focusFilterBannerDelegate;
 @property(retain, nonatomic) UIButton *focusFilterToggleButton; // @synthesize focusFilterToggleButton=_focusFilterToggleButton;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFocusFilterEnabled; // @synthesize isFocusFilterEnabled=_isFocusFilterEnabled;
-@property(readonly) Class superclass;
 
 @end
 

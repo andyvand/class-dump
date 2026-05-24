@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, NUComposition, NUPriority, PAAutoCalculatorEntry, PACompositionEditController;
+@class NSObject, NUPriority;
 @protocol OS_dispatch_queue;
 
 @interface PAAutoCalculatorContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completionHandler;
-    NUComposition *_givenComposition;
-    PACompositionEditController *_compositionEditController;
-    NSString *_assetTypeName;
-    NSMutableArray *_pendingAutoCalculators;
-    PAAutoCalculatorEntry *_currentAutoCalculator;
-    NSArray *_faces;
-    _Bool _dirty;
-    _Bool _canceled;
-    NUPriority *_priority;
 }
 
 + (CDUnknownBlockType);
@@ -36,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -57,15 +47,7 @@
 - (id)"À@;
 
 // Remaining properties
-@property(readonly) PACompositionEditController *compositionEditController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NUPriority *priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
 
 @end
 

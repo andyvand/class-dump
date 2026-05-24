@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiRecipeDiversificationConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiRecipeDiversificationEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiRecipeDiversificationConfiguration *_configuration;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)/AppleInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCLegacyFeedPersonalizer.m;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiRecipeDiversificationConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

@@ -13,10 +13,10 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct AXLogColorTheme {
-    long long errorColor;
-    long long warningColor;
-    long long infoColor;
-    long long debugColor;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    long long _field4;
 };
 
 struct CGPoint {

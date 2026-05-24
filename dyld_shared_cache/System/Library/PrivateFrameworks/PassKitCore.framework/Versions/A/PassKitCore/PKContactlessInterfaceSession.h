@@ -6,39 +6,14 @@
 
 #import <PassKitCore/PKPaymentSession.h>
 
-@class NSArray, NSObject, NSString, PKExpressTransactionState, PKFieldProperties, PKPaymentApplication, PKPaymentPass, PKTransactionReleasedData;
-@protocol OS_dispatch_queue, PKContactlessInterfaceSessionDelegate;
+@class NSArray;
 
 @interface PKContactlessInterfaceSession : PKPaymentSession
 {
     NSArray *_activatedPaymentApplications;
-    PKPaymentPass *_activatedPaymentPass;
-    NSArray *_activatedValueAddedServicePasses;
-    NSArray *_activatedHostCards;
-    NSArray *_valueAddedServiceTransactions;
-    PKFieldProperties *_fieldProperties;
-    PKFieldProperties *_fieldPropertiesToLookup;
-    _Bool _restoreActiveApplets;
-    unsigned long long _transactionStartTime;
-    _Atomic _Bool _fieldPresent;
-    PKExpressTransactionState *_expressTransactionState;
-    _Bool _felicaStateChanged;
-    _Bool _noCredentialForISO18013Request;
-    unsigned long long _state;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    _Bool _prioritySessionExists;
-    _Atomic _Bool _persistentCardEmulation;
-    unsigned char _cardEmulationMode;
-    _Bool _requiresConfirmationForHandoff;
-    _Bool _isWaitingOnConfirmationForHandoff;
-    unsigned long long _sessionType;
-    PKTransactionReleasedData *_dataToRelease;
-    int _outstandingTransactionType;
-    struct os_unfair_lock_s _delegateLock;
-    id <PKContactlessInterfaceSessionDelegate> _delegate;
 }
 
-+ (id);
++ (id);
 + (struct __SecAccessControl *);
 + (_Bool);
 + (struct __SecAccessControl *);
@@ -52,6 +27,7 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,14 +38,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)O;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9_;
 - (void);
 - (void);
 - (void);
@@ -84,45 +59,45 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)@9	;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)3;
+- (_Bool);
+- (void);
+- (void);
+- (void)R;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
+- (void);
+- (id)_;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)m;
 - (_Bool);
 - (void);
 - (void);
@@ -130,27 +105,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void)p;
+- (unsigned long long)textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (void)expirationTimestamp;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPaymentApplication *activatedPaymentApplication;
-@property(readonly, nonatomic) NSArray *activatedPaymentApplications;
-@property(readonly, nonatomic) PKPaymentPass *activatedPaymentPass;
-@property(readonly, nonatomic) NSArray *activatedValueAddedServicePasses; // @synthesize activatedValueAddedServicePasses=_activatedValueAddedServicePasses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <PKContactlessInterfaceSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool fieldPresent;
-@property(readonly, nonatomic) PKFieldProperties *fieldProperties; // @synthesize fieldProperties=_fieldProperties;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isWaitingOnConfirmationForHandoff;
 @property(readonly, nonatomic) _Bool persistentCardEmulationQueued;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
 
 @end
 

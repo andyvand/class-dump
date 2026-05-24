@@ -6,26 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface ORCHSchemaORCHMultiUserScore : SISchemaInstrumentationMessage
 {
     NSString *_loggableSharedUserId;
-    unsigned int _score;
-    SISchemaUUID *_userEphemeralId;
-    unsigned int _userScoreIdHash;
-    NSString *_loggableUserIdHash;
-    struct {
-        unsigned int score:1;
-        unsigned int userScoreIdHash:1;
-    } _has;
-    _Bool _hasLoggableSharedUserId;
-    _Bool _hasUserEphemeralId;
-    _Bool _hasLoggableUserIdHash;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,17 +52,7 @@
 - (void)responseGenerationRequest.statementResults.payload.outcome.valueDisambiguation.items.value.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasLoggableUserIdHash; // @synthesize hasLoggableUserIdHash=_hasLoggableUserIdHash;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasUserEphemeralId; // @synthesize hasUserEphemeralId=_hasUserEphemeralId;
-@property(nonatomic) _Bool hasUserScoreIdHash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(copy, nonatomic) NSString *loggableUserIdHash; // @synthesize loggableUserIdHash=_loggableUserIdHash;
-@property(nonatomic) unsigned int score; // @synthesize score=_score;
-@property(retain, nonatomic) SISchemaUUID *userEphemeralId; // @synthesize userEphemeralId=_userEphemeralId;
-@property(nonatomic) unsigned int userScoreIdHash; // @synthesize userScoreIdHash=_userScoreIdHash;
 
 @end
 

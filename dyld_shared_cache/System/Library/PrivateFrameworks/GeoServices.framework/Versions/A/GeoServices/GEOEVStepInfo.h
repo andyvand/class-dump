@@ -9,46 +9,36 @@
 @interface GEOEVStepInfo
 {
     PBUnknownFields *_unknownFields;
-    double _remainingBatteryPercentage;
-    unsigned int _remainingTravelRange;
-    struct {
-        unsigned int has_remainingBatteryPercentage:1;
-        unsigned int has_remainingTravelRange:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasRemainingBatteryPercentage:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (double);
-- (_Bool);
-- (_Bool);
+- (double)rectory.framework/Versions/A/OpenDirectory;
+- (_Bool)rangeOfString:options:range: /* Error: Ran out of types for this method. */;
+- (_Bool)rangeOfComposedCharacterSequenceAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)voiceTriggerEnabled;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)HasSecondsSaved:(struct _NSZone *)arg1;
-- (id)OPlaceDataAmendment;
+- (id)setHasSecondsSaved:(struct _NSZone *)arg1;
+- (id)GEOPlaceDataAmendment;
 - (id)Ôÿÿðßÿÿàÿÿ;
 - (id)ÿÿ;
 - (void)phÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasRemainingBatteryPercentage;
-@property(nonatomic) _Bool hasRemainingTravelRange;
-@property(nonatomic) double remainingBatteryPercentage;
-@property(nonatomic) unsigned int remainingTravelRange;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

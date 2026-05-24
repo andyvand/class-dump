@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INSearchForTimersIntent : INIntent
 {
@@ -28,26 +28,17 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)nes;
 - (long long);
-- (long long);
+- (long long)`
+;
 - (id);
 - (void);
 - (id);
 - (void)ØzU;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSpeakableString *label;
-@property(readonly) long long state;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
 
 @end
 

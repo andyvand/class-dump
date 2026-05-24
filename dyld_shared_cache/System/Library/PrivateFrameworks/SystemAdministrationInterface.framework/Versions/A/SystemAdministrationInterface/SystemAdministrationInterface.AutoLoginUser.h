@@ -7,7 +7,6 @@
 @interface SystemAdministrationInterface.AutoLoginUser
 {
     id userRecord;
-    id displayName;
 }
 
 @end

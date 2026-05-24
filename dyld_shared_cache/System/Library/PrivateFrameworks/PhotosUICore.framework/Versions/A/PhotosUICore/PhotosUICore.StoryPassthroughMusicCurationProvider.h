@@ -9,8 +9,6 @@
 @interface PhotosUICore.StoryPassthroughMusicCurationProvider
 {
     id appleMusicCuration;
-    void recentlyUsedFlexSongIDs;
-    void recentlyUsedAppleMusicSongIDs;
 }
 
 - (void);
@@ -22,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *recentlyUsedAppleMusicSongIDs;
 @property(nonatomic, copy) NSArray *recentlyUsedFlexSongIDs;
 
 @end

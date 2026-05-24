@@ -7,40 +7,28 @@
 @interface RTLocationStoreMetrics
 {
     unsigned long long _count;
-    double _distanceTraveled;
-    double _maxIntervalBetweenLocations;
-    double _spread;
-    unsigned long long _firstFixType;
-    double _firstFixHorizontalUncertainty;
-    unsigned long long _signalEnvironment;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (double);
 - (id);
-- (unsigned long long);
-- (double);
+- (unsigned long long)setSuccessDependencies: /* Error: Ran out of types for this method. */;
+- (double)setStart: /* Error: Ran out of types for this method. */;
+- (double)Data",&,N,V_masterKeyId;
+- (void)get public identity for %@;
 - (double);
 - (void);
-- (double);
-- (void);
-- (id);
-- (id);
-- (void)tus:(unsigned long long)arg1;
-- (unsigned long long)tyFindPointOfInterest;
+- (id)with status %d.;
+- (id);
+- (void)createWithDeviceStatus:(unsigned long long)arg1;
+- (unsigned long long)_registerXpcActivityFindPointOfInterest;
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) double distanceTraveled; // @synthesize distanceTraveled=_distanceTraveled;
-@property(nonatomic) double firstFixHorizontalUncertainty; // @synthesize firstFixHorizontalUncertainty=_firstFixHorizontalUncertainty;
-@property(nonatomic) unsigned long long firstFixType; // @synthesize firstFixType=_firstFixType;
-@property(nonatomic) double maxIntervalBetweenLocations; // @synthesize maxIntervalBetweenLocations=_maxIntervalBetweenLocations;
-@property(nonatomic) unsigned long long signalEnvironment; // @synthesize signalEnvironment=_signalEnvironment;
-@property(nonatomic) double spread; // @synthesize spread=_spread;
 
 @end
 

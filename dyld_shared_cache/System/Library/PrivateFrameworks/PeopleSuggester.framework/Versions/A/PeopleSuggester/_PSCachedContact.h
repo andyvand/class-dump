@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDate;
+@class NSDate;
 
 @interface _PSCachedContact
 {
     NSDate *_expirationDate;
-    CNContact *_contact;
 }
 
+- (id)q;
 - (id);
-- (id);
-- (id);
+- (id)1�;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 
 @end

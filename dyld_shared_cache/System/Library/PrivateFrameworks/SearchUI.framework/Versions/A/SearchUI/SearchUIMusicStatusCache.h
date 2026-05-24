@@ -9,7 +9,6 @@
 @interface SearchUIMusicStatusCache
 {
     MPMediaItem *_nowPlayingItem;
-    long long _playbackState;
 }
 
 - (void);
@@ -19,11 +18,10 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) MPMediaItem *nowPlayingItem; // @synthesize nowPlayingItem=_nowPlayingItem;
-@property long long playbackState; // @synthesize playbackState=_playbackState;
 
 @end
 

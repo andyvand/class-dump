@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFRequestProductPageCommand
-- (unsigned long long)fReferenceItemButtonCardSection;
+- (NSString *);
+- (NSData *)B;
+- (unsigned long long)rfReferenceItemButtonCardSection;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *distributorBundleIdentifier;
-@property(nonatomic) unsigned long long itemIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long versionIdentifier;
 @end
 

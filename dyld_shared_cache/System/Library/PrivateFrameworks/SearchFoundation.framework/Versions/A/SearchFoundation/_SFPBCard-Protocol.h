@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBDrillDownMetadata, _SFPBImage, _SFPBURL;
+@class NSString, _SFPBColor;
 
 @protocol _SFPBCard
+- (_Bool);
+- (void)d)(b;
+- (void)initWithPlayingAlert:(_SFPBColor *)arg1 completionHandler:previousStateDescriptor: /* Error: Ran out of types for this method. */;
+- (int)uildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImporter.m;
+- (void)-;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(retain, nonatomic) _SFPBImage *backgroundImage;
-@property(copy, nonatomic) NSString *cardId;
-@property(copy) NSArray *cardSections;
-@property(copy, nonatomic) NSString *contextReferenceIdentifier;
-@property(copy, nonatomic) NSArray *dismissalCommands;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *drilldownMetadata;
-@property(copy, nonatomic) NSData *entityIdentifier;
-@property(copy, nonatomic) NSArray *entityProtobufMessages;
-@property(copy, nonatomic) NSString *fbr;
-@property(nonatomic) _Bool flexibleSectionOrder;
-@property(copy, nonatomic) NSData *intentMessageData;
-@property(copy, nonatomic) NSString *intentMessageName;
-@property(copy, nonatomic) NSData *intentResponseMessageData;
-@property(copy, nonatomic) NSString *intentResponseMessageName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *metadata;
-@property(nonatomic) unsigned long long queryId;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(nonatomic) int source;
 @property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) _SFPBImage *titleImage;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _SFPBURL *urlValue;
 @end
 

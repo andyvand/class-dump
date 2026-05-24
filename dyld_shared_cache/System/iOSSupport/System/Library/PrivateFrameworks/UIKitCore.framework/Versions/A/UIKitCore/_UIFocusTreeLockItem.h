@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol UIFocusEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusTreeLockItem
 {
     NSMutableArray *_lockCallStackSymbols;
-    NSMutableArray *_unlockCallStackSymbols;
-    _Bool _didSoftAssert;
-    _Bool _didCleanup;
-    id <UIFocusEnvironment> _unsafeEnvironment;
-    CDUnknownBlockType _finalUnlockHandler;
-    id <UIFocusEnvironment> _environment;
-    NSString *_environmentDescription;
-    unsigned long long _lockCount;
-    double _lockTime;
 }
 
 - (id);
-- (double);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (double)replySuggestions;
+- (unsigned long long)replicationSourceServiceNameWithBlastDoorBasicMessage: /* Error: Ran out of types for this method. */;
+- (id)replicationSourceServiceNameWithBlastDoorBasicMessage: /* Error: Ran out of types for this method. */;
+- (id)hasMultipleSubscriptionsWithAtLeastOneActive;
+- (id)broadcasterForVCConferenceListenersSupportingService: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -39,11 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UIFocusEnvironment> environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) NSString *environmentDescription; // @synthesize environmentDescription=_environmentDescription;
-@property(readonly, nonatomic) NSArray *lockCallStackSymbols; // @synthesize lockCallStackSymbols=_lockCallStackSymbols;
-@property(readonly, nonatomic) unsigned long long lockCount; // @synthesize lockCount=_lockCount;
-@property(readonly, nonatomic) double lockTime; // @synthesize lockTime=_lockTime;
-@property(readonly, nonatomic) NSArray *unlockCallStackSymbols; // @synthesize unlockCallStackSymbols=_unlockCallStackSymbols;
 
 @end
 

@@ -11,15 +11,12 @@
 @interface NWSRouteSnapshot : NWSSnapshot
 {
     NSData *_destination;
-    NSData *_mask;
-    NSData *_gateway;
-    struct nstat_route_descriptor _descriptor;
 }
 
 - (unsigned int);
-- (double);
+- (double)_;
 - (unsigned int);
-- (id);
+- (id)TRIActivationEventDatabase;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
@@ -40,22 +37,7 @@
 - (unsigned int)s_bitmap"{activity_bitmap="start"Q"bitmap"[2Q]}}}"nstat_rxduplicatebytes"Q"nstat_rxoutoforderbytes"Q"nstat_txretransmit"Q"nstat_min_rtt"I"nstat_avg_rtt"I"nstat_var_rtt"I"nstat_xtra_flags"I"nstat_xtra_uuid"[16C]}"provider"I"reserved"[4C]"quic_desc"{nstat_tcp_descriptor="upid"Q"eupid"Q"start_timestamp"Q"timestamp"Q"rx_transfer_size"Q"tx_transfer_size"Q"activity_bitmap"{activity_bitmap="start"Q"bitmap"[2Q]}"ifindex"I"state"I"sndbufsize"I"sndbufused"I"rcvbufsize"I"rcvbufused"I"txunacked"I"txwindow"I"txcwindow"I"traffic_class"I"traffic_mgt_flags"I"pid"I"epid"I"local"(?="v4"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"v6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})"remote"(?="v4"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"v6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})"cc_algo"[16c]"pname"[64c]"uuid"[16C]"euuid"[16C]"vuuid"[16C]"fuuid"[16C]"persona_id"I"uid"I""(?="connstatus"{tcp_conn_status=""(?=""{?="probe_activated"b1"write_probe_failed"b1"read_probe_failed"b1"conn_probe_failed"b1}"pad_field"I)}"__pad_connstatus"[4C])"ifnet_properties"I"fallback_mode"C"reserved"[3C]}};
 
 // Remaining properties
-@property(readonly) unsigned int connectAttempts;
-@property(readonly) unsigned int connectSuccesses;
-@property(readonly) NSData *destination;
-@property(readonly) unsigned int flags;
-@property(readonly) NSData *gateway;
-@property(readonly) unsigned long long gatewayID;
-@property(readonly) unsigned int interfaceIndex;
-@property(readonly) NSData *mask;
-@property(readonly) unsigned long long parentID;
 @property(readonly) unsigned long long routeID;
-@property(readonly) double rttAverage;
-@property(readonly) double rttMinimum;
-@property(readonly) double rttVariation;
-@property(readonly) unsigned int rxDuplicateBytes;
-@property(readonly) unsigned int rxOutOfOrderBytes;
-@property(readonly) unsigned int txRetransmittedBytes;
 
 @end
 

@@ -11,7 +11,7 @@
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)T;
 - (struct _NSRange);
 - (id);
 - (id);

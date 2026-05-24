@@ -9,7 +9,6 @@
 @interface AVTGroupPickerItem
 {
     NSString *_localizedName;
-    CDUnknownBlockType _symbolNameProvider;
 }
 
 - (CDUnknownBlockType);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) CDUnknownBlockType symbolNameProvider; // @synthesize symbolNameProvider=_symbolNameProvider;
 
 @end
 

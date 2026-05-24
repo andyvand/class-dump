@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface OADArcToPathElement : OADPathElement
 {
     struct OADAdjustPoint mSemiaxes;
-    struct OADAdjustCoord mStartAngle;
-    struct OADAdjustCoord mAngleLength;
 }
 
-- (struct OADAdjustPoint);
+- (struct OADAdjustPoint);
 - (id);
 - (struct OADAdjustCoord);
 - (struct OADAdjustCoord);

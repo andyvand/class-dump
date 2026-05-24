@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface WA_AP_BssesToProcess
 {
     NSDate *_queryFrom;
-    NSArray *_bssesToProcess;
 }
 
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *bssesToProcess; // @synthesize bssesToProcess=_bssesToProcess;
 @property(retain) NSDate *queryFrom; // @synthesize queryFrom=_queryFrom;
 
 @end

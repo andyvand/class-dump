@@ -6,22 +6,11 @@
 
 #import <Symbolication/VMUCallTreeNode.h>
 
-@class NSArray, NSMapTable, NSMutableSet, NSString, VMUSampler;
-@protocol VMUStackLogReader;
+@class NSString;
 
 @interface VMUCallTreeRoot : VMUCallTreeNode
 {
     struct _CSTypeRef _symbolicator;
-    id <VMUStackLogReader> _stackLogReader;
-    NSArray *_vmRegions;
-    VMUSampler *_sampler;
-    unsigned long long _options;
-    NSMutableSet *_uniqueNodeNames;
-    NSMapTable *_addressToSymbolNameMap;
-    NSMapTable *_addressToLeafSymbolNameMap;
-    NSMapTable *_threadPortToNameMap;
-    NSString *_binaryImagesDescription;
-    NSArray *_binaryImages;
 }
 
 - (void);
@@ -36,11 +25,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)f;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_p;
 - (id);
 
 // Remaining properties

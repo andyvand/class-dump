@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface DRSCloudChannelConfig
 {
     unsigned char _platform;
-    unsigned char _type;
-    unsigned char _environment;
-    _Bool _overridesDeviceDefault;
-    NSNumber *_populationSliceNumber;
 }
 
 + (unsigned short);
@@ -24,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)C;
 + (unsigned char);
 + (id);
 + (id);
@@ -34,12 +28,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)isDynamicFontSizeSupported;
 - (id);
 - (id);
 - (_Bool);
 - (unsigned char);
-- (_Bool);
+- (_Bool)!;
 - (unsigned char);
 - (_Bool);
 - (id);
@@ -48,15 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsWildcardBuild;
-@property(readonly, nonatomic) NSString *channelID;
-@property(readonly, nonatomic) NSString *channelName;
-@property(readonly, nonatomic) unsigned char environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) _Bool isNoSubscriptionConfig;
-@property(readonly, nonatomic) _Bool overridesDeviceDefault; // @synthesize overridesDeviceDefault=_overridesDeviceDefault;
 @property(readonly, nonatomic) unsigned char platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) NSNumber *populationSliceNumber; // @synthesize populationSliceNumber=_populationSliceNumber;
-@property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end
 

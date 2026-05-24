@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface _PSHistogramFeatureData
 {
     NSDictionary *_cache;
-    NSDictionary *_bucketSums;
-    NSDictionary *_bucketHasEver;
-    NSDictionary *_factorToUniqueBucketNames;
-    NSMutableDictionary *_candidateTimeIntervalSums;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)_failureResponseCount;
+- (void)_experimentContext;
+- (void)_expensiveNetworkAccessRequest;
+- (void)_expensiveCellularDownloadRequested;
+- (id)_assistantRecordPublishTimestampMs;
+- (id)_app;
+- (id)_answerSynthesisModelPromptGenerationTimeInMs;
+- (id)_answerSynthesisModelInferenceTimeInMs;
+- (id)X9;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *bucketHasEver; // @synthesize bucketHasEver=_bucketHasEver;
-@property(retain, nonatomic) NSDictionary *bucketSums; // @synthesize bucketSums=_bucketSums;
 @property(retain, nonatomic) NSDictionary *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSMutableDictionary *candidateTimeIntervalSums; // @synthesize candidateTimeIntervalSums=_candidateTimeIntervalSums;
-@property(retain, nonatomic) NSDictionary *factorToUniqueBucketNames; // @synthesize factorToUniqueBucketNames=_factorToUniqueBucketNames;
 
 @end
 

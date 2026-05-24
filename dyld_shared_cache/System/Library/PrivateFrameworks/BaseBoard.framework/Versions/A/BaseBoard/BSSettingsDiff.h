@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSettings, NSSet, NSString;
-@protocol BSSettingDescriptionProvider;
+@class BSSettings;
 
 @interface BSSettingsDiff
 {
     BSSettings *_changes;
-    NSSet *_flagRemovals;
-    NSSet *_objectRemovals;
-    id <BSSettingDescriptionProvider> _descriptionProvider;
 }
 
 + (Class);
@@ -22,10 +18,10 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,7 +34,8 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)w
+;
 - (void);
 - (id);
 - (id);
@@ -48,18 +45,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)thIdentifier:(CDUnknownBlockType)arg1 forReason:queue:invalidationBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithIdentifier:(CDUnknownBlockType)arg1 forReason:queue:invalidationBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <BSSettingDescriptionProvider> descriptionProvider; // @synthesize descriptionProvider=_descriptionProvider;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly) Class superclass;
 
 @end
 

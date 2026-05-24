@@ -13,27 +13,20 @@
     GEOMapItemPhotosAttribution *_geoPhotosAttribution;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)numberWithUnsignedChar: /* Error: Ran out of types for this method. */;
+- (_Bool)numberOfBytesDownloadedWiFi;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void)Override: /* Error: Ran out of types for this method. */;
+- (_Bool)addObjectsFromArray: /* Error: Ran out of types for this method. */;
+- (_Bool)eripheralConnectionState"b1"didFindPeripheral"b1"didLosePeripheral"b1"didLoseZone"b1"didUpdateConnectionParameters"b1"connectionEventDidOccur"b1"didSendBytesToPeripheralWithError"b1"didReceiveDataFromPeripheral"b1"didDiscoverMultiplePeripherals"b1"didUpdateANCSAuthorizationForPeripheral"b1"canSendDataToPeripheral"b1"didFailToStartScanWithError"b1"didUpdateControllerBTClockForPeripheral"b1"didUpdateControllerBTClockDictForPeripheral"b1"didUpdateSynchronizationEventForPeripheral"b1"didUpdateMTUForPeripheral"b1"didUpdateRSSIStatisticsDetectionForPeripheral"b1"didUpdateUsageStatisticEvent"b1"didUpdatePhyStatisticEvent"b1"didChannelSoundingProcedureEvent"b1"didUpdateScanParams"b1"didUpdateFindMyPeripherals"b1};
+- (id)eImplemented %d;
+- (void)setKeyframeIndexOverride: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addPhotoURLs;
-@property(readonly, nonatomic) _Bool isBusinessOwned;
-@property(readonly, nonatomic) _Bool requiresAttributionInPhotoViewerHeader;
-@property(readonly, nonatomic) _Bool shouldAddPhotosLocally;
-@property(readonly, nonatomic) _Bool shouldHandlePhotosLocally;
-@property(readonly, nonatomic) _Bool shouldSuppressPhotoAttribution;
-@property(readonly, nonatomic) _Bool supportsReportingIssue;
-@property(readonly, nonatomic, getter=isUserSubmitted) _Bool userSubmitted;
 
 @end
 

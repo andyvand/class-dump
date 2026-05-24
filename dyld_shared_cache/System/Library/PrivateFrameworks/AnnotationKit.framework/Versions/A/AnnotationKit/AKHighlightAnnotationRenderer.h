@@ -13,8 +13,8 @@
 + (struct CGRect);
 + (double);
 + (void);
-+ (void);
-+ (_Bool);
++ (void)P;
++ (_Bool)"A9iB;
 + (_Bool);
 + (struct CGRect);
 + (struct CGSize);

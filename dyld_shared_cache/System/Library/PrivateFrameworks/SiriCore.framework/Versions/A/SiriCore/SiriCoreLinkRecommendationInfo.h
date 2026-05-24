@@ -7,21 +7,19 @@
 @interface SiriCoreLinkRecommendationInfo
 {
     _Bool _btPreference;
-    _Bool _wifiPreference;
-    double _timeTaken;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)ForceAdvertiseGCMCapability;
+- (void)ShowSearchFeedbackPrompt;
+- (void)NSUbiquitousKeyValueStoreQuotaViolationChange;
+- (void)ion;
+- (id)filename="%@" data-size="%lu" data-expiration="%f" style="margin:(_Bool)arg1 15px; border:(_Bool)arg2 1px solid #CACACA; border-radius:(double)arg3 15px; height:(id)arg4 134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)kSearchableIndexQueryKeyIntervalForSpotlightFailureSimulation;
+- (_Bool)rrentProxy=%p, pendingReattempts=%@;
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)e"@"NSError">24;
+- (void)gStats:(id)arg1;
 - (id);
 
 @end

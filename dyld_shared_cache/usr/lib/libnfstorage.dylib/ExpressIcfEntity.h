@@ -15,8 +15,6 @@
 // Remaining properties
 @property(copy, nonatomic) NSString *aid; // @dynamic aid;
 @property(nonatomic) _Bool expressEnabled; // @dynamic expressEnabled;
-@property(copy, nonatomic) NSString *passID; // @dynamic passID;
-@property(copy, nonatomic) NSString *type; // @dynamic type;
 
 @end
 

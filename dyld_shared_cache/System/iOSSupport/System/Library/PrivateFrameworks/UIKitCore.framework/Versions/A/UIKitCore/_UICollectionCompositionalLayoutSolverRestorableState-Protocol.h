@@ -5,6 +5,6 @@
 //
 
 @protocol _UICollectionCompositionalLayoutSolverRestorableState
-- (void)romParentViewController;
+- (void)isMovingFromParentViewController;
 @end
 

@@ -6,25 +6,22 @@
 
 #import <PassKitCore/PKProvisioningAnalyticsSessionReporter.h>
 
-@class NSMutableArray;
-
 @interface PKProvisioningAnalyticsSessionPreflightReporter : PKProvisioningAnalyticsSessionReporter
 {
     _Bool _isUnaffiliated;
-    NSMutableArray *_pendingEventsToReport;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
-- (void);
-- (void)eItemCount;
+- (void)merchantLineItemCount;
 
 @end
 

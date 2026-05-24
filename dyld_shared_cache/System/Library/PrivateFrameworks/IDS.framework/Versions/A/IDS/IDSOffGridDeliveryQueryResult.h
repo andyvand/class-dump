@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSString;
+@class IDSURI;
 
 @interface IDSOffGridDeliveryQueryResult
 {
     _Bool _hasUsableSenderKey;
-    IDSURI *_uri;
-    NSString *_shortHandle;
-    long long _status;
 }
 
 + (_Bool);
@@ -21,20 +18,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)V_discoveryFlags;
+- (id)%d;
 - (void);
 - (void);
-- (long long);
+- (long long)!;
 - (void)1Â0@ù
 × ;
 - (id)f
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsableSenderKey; // @synthesize hasUsableSenderKey=_hasUsableSenderKey;
-@property(retain, nonatomic) NSString *shortHandle; // @synthesize shortHandle=_shortHandle;
-@property(nonatomic) long long status; // @synthesize status=_status;
 @property(retain, nonatomic) IDSURI *uri; // @synthesize uri=_uri;
 
 @end

@@ -4,36 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol AXImageMonitor, OS_dispatch_queue, OS_dispatch_source;
+@protocol AXImageMonitor;
 
 @interface AXCodeLoader
 {
     id <AXImageMonitor> _imageMonitor;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_loadAccessibilityCodeItemsSource;
-    NSObject<OS_dispatch_source> *_dyldImageActivityCoalesceTimer;
-    long long _monitoredLoadTriggeringImageCountSinceLastLoad;
-    NSMutableSet *_trackedCodeItems;
-    NSMutableSet *_accessibilityCodeItems;
-    NSMutableDictionary *_codeItemsByNameType;
-    CDUnknownBlockType _beginTrackingCompletion;
-    NSObject<OS_dispatch_queue> *_beginTrackingCompletionQueue;
-    _Bool _initialLoadHasOccurred;
-    _Bool _initialLoadHasFinished;
-    NSString *_currentPlatformKey;
-    _Bool _shouldAutoloadAccessibilityCodeItems;
-    long long _trackingMode;
-    CDUnknownBlockType _shouldLoadAccessibilityCodeItemBlock;
-    CDUnknownBlockType _didLoadAccessibilityCodeItemBlock;
-    CDUnknownBlockType _loadEventWillOccurBlock;
-    CDUnknownBlockType _loadEventDidOccurBlock;
 }
 
 + (id);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)|;
 - (void);
 - (void);
 - (void);
@@ -45,14 +26,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (void);
@@ -82,24 +63,10 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didLoadAccessibilityCodeItemBlock; // @synthesize didLoadAccessibilityCodeItemBlock=_didLoadAccessibilityCodeItemBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInitialLoadFinished;
-@property(readonly, nonatomic) _Bool isTrackingLoadedCodeItems;
-@property(copy, nonatomic) CDUnknownBlockType loadEventDidOccurBlock; // @synthesize loadEventDidOccurBlock=_loadEventDidOccurBlock;
-@property(copy, nonatomic) CDUnknownBlockType loadEventWillOccurBlock; // @synthesize loadEventWillOccurBlock=_loadEventWillOccurBlock;
-@property(nonatomic) _Bool shouldAutoloadAccessibilityCodeItems; // @synthesize shouldAutoloadAccessibilityCodeItems=_shouldAutoloadAccessibilityCodeItems;
-@property(copy, nonatomic) CDUnknownBlockType shouldLoadAccessibilityCodeItemBlock; // @synthesize shouldLoadAccessibilityCodeItemBlock=_shouldLoadAccessibilityCodeItemBlock;
-@property(readonly) Class superclass;
 @property(nonatomic) long long trackingMode; // @synthesize trackingMode=_trackingMode;
 
 @end

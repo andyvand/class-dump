@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)or: /* Error: Ran out of types for this method. */;
++ (long long)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)bleDescriptionFormatKey;
+- (id)__INCodableDescriptionFormatKey;
 
 @end
 

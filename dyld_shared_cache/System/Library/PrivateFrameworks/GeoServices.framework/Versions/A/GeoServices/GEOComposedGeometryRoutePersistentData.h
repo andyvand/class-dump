@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddressObject, GEOComposedRouteAnchorPointList, GEOElevationProfile, GEOMapItemIdentifier, GEOMapRegion, GEOPDURLData, GEORawRouteGeometry, GEORouteAttributes, NSArray, NSString, NSUUID, geo_isolater;
+@class geo_isolater;
 
 @interface GEOComposedGeometryRoutePersistentData
 {
     geo_isolater *_countryCodeIsolater;
-    int _transportType;
-    int _elevationModel;
-    unsigned long long _version;
-    unsigned long long _originalVersion;
-    NSUUID *_storageID;
-    NSString *_userProvidedName;
-    NSString *_userProvidedNotes;
-    NSUUID *_routeID;
-    NSString *_routeName;
-    unsigned long long _source;
-    GEOMapItemIdentifier *_tourIdentifier;
-    unsigned long long _tourMuid;
-    unsigned long long _mapItemMuid;
-    GEORawRouteGeometry *_rawRouteGeometry;
-    NSArray *_waypoints;
-    GEOComposedRouteAnchorPointList *_anchorPoints;
-    GEORouteAttributes *_routeAttributes;
-    GEOAddressObject *_address;
-    NSString *_iso3166CountryCode;
-    double _distance;
-    double _duration;
-    GEOElevationProfile *_elevationProfile;
-    NSArray *_travelDirectionArrows;
-    NSArray *_routeNameLabels;
-    GEOMapRegion *_boundingMapRegion;
-    NSString *_disclaimerText;
-    GEOPDURLData *_disclaimerURL;
 }
 
 + (_Bool)establish hard link for resource '%{public}@':%{public}@. Loading normally. /* Error: Ran out of types for this method. */;
@@ -53,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,14 +35,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (CDStruct_39925896);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (CDStruct_39925896);
+- (id)i24;
+- (CDStruct_39925896)stringWithFormat: /* Error: Ran out of types for this method. */;
+- (unsigned long long)removeObserver:forKeyPath:context: /* Error: Ran out of types for this method. */;
+- (_Bool)isDirectory;
+- (id)t CachingS ervices;
+- (int)suggestions_reload_for_selected_recipients;
+- (id)edin\.com)/in/([%\w\d]+)/?$;
+- (CDStruct_39925896)c Pakistan;
 - (id);
 - (id);
 - (id);
@@ -84,7 +57,7 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)gerRTModelRequestOptions"8@"NSError"16;
 - (id);
 - (void);
 - (unsigned long long);
@@ -94,7 +67,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long)Coordinate:preserveOriginalLocation: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithReverseGeocodeCoordinate:preserveOriginalLocation: /* Error: Ran out of types for this method. */;
 - (void)¬BAeª`TR?L@;
 - (id)<P§<ºF@;
 - (void)4ÿEÖ;
@@ -103,35 +76,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) GEOAddressObject *address; // @synthesize address=_address;
-@property(copy, nonatomic) GEOComposedRouteAnchorPointList *anchorPoints; // @synthesize anchorPoints=_anchorPoints;
-@property(retain, nonatomic) GEOMapRegion *boundingMapRegion; // @synthesize boundingMapRegion=_boundingMapRegion;
-@property(readonly, nonatomic) CDStruct_39925896 destinationCoordinate;
-@property(copy, nonatomic) NSString *disclaimerText; // @synthesize disclaimerText=_disclaimerText;
-@property(retain, nonatomic) GEOPDURLData *disclaimerURL; // @synthesize disclaimerURL=_disclaimerURL;
-@property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) int elevationModel; // @synthesize elevationModel=_elevationModel;
-@property(retain, nonatomic) GEOElevationProfile *elevationProfile; // @synthesize elevationProfile=_elevationProfile;
-@property(copy, nonatomic) NSString *iso3166CountryCode; // @synthesize iso3166CountryCode=_iso3166CountryCode;
-@property(nonatomic) unsigned long long mapItemMuid; // @synthesize mapItemMuid=_mapItemMuid;
-@property(readonly, nonatomic) CDStruct_39925896 originCoordinate;
-@property(readonly, nonatomic) unsigned long long originalVersion; // @synthesize originalVersion=_originalVersion;
-@property(retain, nonatomic) GEORawRouteGeometry *rawRouteGeometry; // @synthesize rawRouteGeometry=_rawRouteGeometry;
-@property(copy, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(retain, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
-@property(copy, nonatomic) NSString *routeName; // @synthesize routeName=_routeName;
-@property(copy, nonatomic) NSArray *routeNameLabels; // @synthesize routeNameLabels=_routeNameLabels;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(retain) NSUUID *storageID; // @synthesize storageID=_storageID;
-@property(retain, nonatomic) GEOMapItemIdentifier *tourIdentifier; // @synthesize tourIdentifier=_tourIdentifier;
-@property(nonatomic) unsigned long long tourMuid; // @synthesize tourMuid=_tourMuid;
-@property(nonatomic) int transportType; // @synthesize transportType=_transportType;
-@property(copy, nonatomic) NSArray *travelDirectionArrows; // @synthesize travelDirectionArrows=_travelDirectionArrows;
-@property(copy) NSString *userProvidedName; // @synthesize userProvidedName=_userProvidedName;
-@property(copy) NSString *userProvidedNotes; // @synthesize userProvidedNotes=_userProvidedNotes;
 @property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
-@property(copy, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end
 

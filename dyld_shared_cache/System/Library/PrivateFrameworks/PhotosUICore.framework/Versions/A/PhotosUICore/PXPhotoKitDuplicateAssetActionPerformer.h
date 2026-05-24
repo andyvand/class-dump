@@ -11,8 +11,6 @@
 @interface PXPhotoKitDuplicateAssetActionPerformer : PXPhotoKitAssetActionPerformer
 {
     PXPhotoKitDuplicateActionController *_duplicateActionController;
-    long long _action;
-    CDStruct_1b6d18a9 _stillImageTime;
 }
 
 + (id);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long action; // @synthesize action=_action;
 @property(retain, nonatomic) PXPhotoKitDuplicateActionController *duplicateActionController; // @synthesize duplicateActionController=_duplicateActionController;
-@property(nonatomic) CDStruct_1b6d18a9 stillImageTime; // @synthesize stillImageTime=_stillImageTime;
 
 @end
 

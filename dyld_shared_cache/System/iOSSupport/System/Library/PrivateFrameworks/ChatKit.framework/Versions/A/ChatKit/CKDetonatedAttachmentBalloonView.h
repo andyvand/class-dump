@@ -13,10 +13,10 @@
     CKDetonatedAttachmentView *_attachmentView;
 }
 
-- (struct CGSize);
+- (struct CGSize)sIndeterminate,V_indeterminate;
 - (struct CKBalloonDescriptor_t);
 - (struct UIEdgeInsets);
-- (void);
+- (void)m;
 - (id);
 - (void);
 - (id);

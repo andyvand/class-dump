@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MTLCaptureError)
-+ (id);
++ (id)\@9(;
 - (id);
 @end
 

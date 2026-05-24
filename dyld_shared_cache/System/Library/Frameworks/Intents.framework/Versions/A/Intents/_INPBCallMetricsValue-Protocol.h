@@ -5,11 +5,10 @@
 //
 
 @protocol _INPBCallMetricsValue
+- (void);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double callDuration;
-@property(nonatomic) _Bool hasCallDuration;
-@property(nonatomic) _Bool hasTimeToEstablish;
-@property(nonatomic) double timeToEstablish;
 @end
 

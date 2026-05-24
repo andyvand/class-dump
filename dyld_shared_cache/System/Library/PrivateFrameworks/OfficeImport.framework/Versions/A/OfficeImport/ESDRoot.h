@@ -19,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void *);
-- (id);
-- (void);
-- (id);
+- (void *)(;
+- (id);
+- (void)9;
+- (id)conformsToProtocol: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 

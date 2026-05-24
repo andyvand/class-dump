@@ -7,17 +7,6 @@
 @interface NewsUI2.AudioSessionManager
 {
     id sessionManager;
-    id sessionObserver;
-    id tracker;
-    id nextTrackTracker;
-    id playbackState;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id articleDataFactory;
-    id completedListeningProcessor;
-    id itemSession;
-    id onNextTrack;
-    id widgetUpdater;
 }
 
 @end

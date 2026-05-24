@@ -9,7 +9,6 @@
 @interface MRNowPlayingAudioFormatApplication
 {
     NSString *_bundleID;
-    NSString *_displayName;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 
 @end
 

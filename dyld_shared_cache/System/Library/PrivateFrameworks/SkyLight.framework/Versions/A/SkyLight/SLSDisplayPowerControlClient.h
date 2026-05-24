@@ -6,32 +6,25 @@
 
 #import <SkyLight/SLSDisplayControlClient.h>
 
-@class NSString, SLSXPCService;
+@class SLSXPCService;
 
 @interface SLSDisplayPowerControlClient : SLSDisplayControlClient
 {
     SLSXPCService *_service;
 }
 
-- (void);
-- (int);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)dKitMirroringDelegate _performFetchRecordsRequest:(id *)arg1 ]_block_invoke_2;
+- (int)wo components.;
+- (unsigned long long)keyPath.;
+- (id)pe (rtree indexes can only be created for floats or integers < 32 bit).;
+- (id)mportZoneContext.m;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SLSXPCService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface IDSOffGridSummaryMessage
 {
     NSNumber *_totalPendingMessagesCount;
-    NSDictionary *_pendingCounts;
 }
 
 + (_Bool);
+- (id)TH
+;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *pendingCounts; // @synthesize pendingCounts=_pendingCounts;
 @property(readonly, nonatomic) NSNumber *totalPendingMessagesCount; // @synthesize totalPendingMessagesCount=_totalPendingMessagesCount;
 
 @end

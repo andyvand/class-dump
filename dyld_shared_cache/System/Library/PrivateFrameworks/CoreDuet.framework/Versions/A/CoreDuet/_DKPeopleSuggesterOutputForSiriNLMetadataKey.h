@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ailed;
 
 @end
 

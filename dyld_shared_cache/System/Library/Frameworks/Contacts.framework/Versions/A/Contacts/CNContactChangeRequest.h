@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNContactChangeRequest
 {
     NSArray *_contacts;
-    long long _kind;
-    NSString *_linkIdentifier;
 }
 
 + (id);
@@ -26,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)SArray"24@?<v@?@"NSNumber"@"NSError">32;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *contactIdentifiers;
 @property(readonly, copy, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, copy, nonatomic) NSString *linkIdentifier; // @synthesize linkIdentifier=_linkIdentifier;
 
 @end
 

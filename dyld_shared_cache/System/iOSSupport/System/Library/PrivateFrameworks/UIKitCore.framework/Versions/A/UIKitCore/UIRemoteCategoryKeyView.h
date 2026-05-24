@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)adDisallowProximitySetup;
 - (id)d[;
 - (void)ÞªÚÄ_d;
 

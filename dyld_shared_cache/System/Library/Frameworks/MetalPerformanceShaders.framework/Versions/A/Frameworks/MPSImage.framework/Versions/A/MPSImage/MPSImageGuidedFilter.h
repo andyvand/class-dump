@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageBilinearScale, MPSImageBox, MPSImageLanczosScale;
-
 @interface MPSImageGuidedFilter
 {
     unsigned long long _kernelDiameter;
-    float _epsilon;
-    float _reconstructScale;
-    float _reconstructOffset;
-    _Bool _rescaleCoefficients;
-    _Bool _reconstructionCoefficientsSampleBicubic;
-    MPSImageBox *_boxFilter;
-    MPSImageLanczosScale *_lanczosScaler;
-    MPSImageBilinearScale *_bilinearScaler;
 }
 
 + (const struct MPSLibraryInfo *);
-- (void);
+- (void));
 - (void);
 - (void);
 - (id);
@@ -32,30 +22,25 @@
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)>%;
 - (id);
-- (void);
+- (void)initWithAttributedQuery:(id)arg1 embedding: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)isCriticalEditAllowedForAltDSID:(float)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
 - (float);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (float);
+- (float)brary/Documentation;
 
 // Remaining properties
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) unsigned long long kernelDiameter; // @synthesize kernelDiameter=_kernelDiameter;
-@property(nonatomic) float reconstructOffset; // @synthesize reconstructOffset=_reconstructOffset;
-@property(nonatomic) float reconstructScale; // @synthesize reconstructScale=_reconstructScale;
-@property(nonatomic) _Bool reconstructionCoefficientsSampleBicubic; // @synthesize reconstructionCoefficientsSampleBicubic=_reconstructionCoefficientsSampleBicubic;
 @property(nonatomic) _Bool rescaleCoefficients; // @synthesize rescaleCoefficients=_rescaleCoefficients;
 
 @end

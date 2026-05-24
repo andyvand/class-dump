@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBIntentMetadata, _INPBWellnessUnitType;
+@class _INPBIntentMetadata;
 
 @interface _INPBSaveHealthSampleIntent
 {
     struct {
         unsigned int objectType:1;
     } _has;
-    int _objectType;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDateTimeRange *_recordDate;
-    NSArray *_sampleMetadatas;
-    _INPBWellnessUnitType *_unit;
-    NSArray *_values;
 }
 
 + (Class);
 + (Class);
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)&;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,16 +33,16 @@
 - (int);
 - (id);
 - (void);
+- (id)v@?@"NSArray"@"NSError">16;
+- (unsigned long long)stopObserving;
 - (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
+- (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)p;
 - (int);
 - (void);
 - (id);
@@ -56,29 +50,11 @@
 - (id);
 - (void);
 - (_Bool)Amount;
-- (void)dcastArtist;
+- (void)podcastArtist;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasObjectType;
-@property(readonly, nonatomic) _Bool hasRecordDate;
-@property(readonly, nonatomic) _Bool hasUnit;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int objectType; // @synthesize objectType=_objectType;
-@property(retain, nonatomic) _INPBDateTimeRange *recordDate; // @synthesize recordDate=_recordDate;
-@property(copy, nonatomic) NSArray *sampleMetadatas; // @synthesize sampleMetadatas=_sampleMetadatas;
-@property(readonly, nonatomic) unsigned long long sampleMetadatasCount;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBWellnessUnitType *unit; // @synthesize unit=_unit;
-@property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

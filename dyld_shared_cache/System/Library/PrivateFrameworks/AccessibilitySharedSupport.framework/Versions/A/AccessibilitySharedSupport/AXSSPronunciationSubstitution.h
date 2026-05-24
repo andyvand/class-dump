@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface AXSSPronunciationSubstitution
 {
     _Bool _active;
-    _Bool _ignoreCase;
-    _Bool _appliesToAllApps;
-    _Bool _isUserSubstitution;
-    NSString *_originalString;
-    NSString *_replacementString;
-    NSString *_phonemes;
-    NSSet *_languages;
-    NSSet *_voiceIds;
-    NSSet *_bundleIdentifiers;
-    struct _NSRange _replacementRange;
 }
 
 - (id);
@@ -38,26 +28,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)URL:(id)arg1 reservationDuration:partySize:restaurantLocation: /* Error: Ran out of types for this method. */;
+- (void)u;
 - (id);
 - (void);
-- (void);
-- (_Bool)r;
-- (id)dSupportP33_CBECDD908EB1E0F957F08A3D85914CCD18AXGEOServiceHelper;
+- (void)8;
+- (_Bool)ScreenReaderRemoteControlReceiver;
+- (id)_TtC26AccessibilitySharedSupportP33_CBECDD908EB1E0F957F08A3D85914CCD18AXGEOServiceHelper;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool appliesToAllApps; // @synthesize appliesToAllApps=_appliesToAllApps;
-@property(copy, nonatomic) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(nonatomic) _Bool ignoreCase; // @synthesize ignoreCase=_ignoreCase;
-@property(nonatomic) _Bool isUserSubstitution; // @synthesize isUserSubstitution=_isUserSubstitution;
-@property(copy, nonatomic) NSSet *languages; // @synthesize languages=_languages;
 @property(copy, nonatomic) NSString *originalString; // @synthesize originalString=_originalString;
-@property(copy, nonatomic) NSString *phonemes; // @synthesize phonemes=_phonemes;
-@property(nonatomic) struct _NSRange replacementRange; // @synthesize replacementRange=_replacementRange;
-@property(copy, nonatomic) NSString *replacementString; // @synthesize replacementString=_replacementString;
-@property(copy, nonatomic) NSSet *voiceIds; // @synthesize voiceIds=_voiceIds;
 
 @end
 

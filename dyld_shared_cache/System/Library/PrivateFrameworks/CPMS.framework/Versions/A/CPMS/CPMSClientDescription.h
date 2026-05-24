@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CPMSClientDescription
 {
     _Bool _isContinuous;
-    unsigned int _powerBudgetUpdateMinimumPeriod;
-    long long _clientId;
-    NSDictionary *_powerLevels;
-    CDUnknownBlockType _notificationCallback;
-    CDUnknownBlockType _getCurrentPower;
 }
 
 - (unsigned int);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
@@ -34,11 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) long long clientId; // @synthesize clientId=_clientId;
-@property(copy, nonatomic) CDUnknownBlockType getCurrentPower; // @synthesize getCurrentPower=_getCurrentPower;
-@property(nonatomic) _Bool isContinuous; // @synthesize isContinuous=_isContinuous;
-@property(copy, nonatomic) CDUnknownBlockType notificationCallback; // @synthesize notificationCallback=_notificationCallback;
-@property(nonatomic) unsigned int powerBudgetUpdateMinimumPeriod; // @synthesize powerBudgetUpdateMinimumPeriod=_powerBudgetUpdateMinimumPeriod;
-@property(retain, nonatomic) NSDictionary *powerLevels; // @synthesize powerLevels=_powerLevels;
 
 @end
 

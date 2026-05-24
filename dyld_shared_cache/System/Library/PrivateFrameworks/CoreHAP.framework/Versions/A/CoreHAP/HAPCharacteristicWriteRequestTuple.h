@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristic, NSData, NSNumber, NSString, NSUUID;
-
 @interface HAPCharacteristicWriteRequestTuple
 {
     _Bool _timedWrite;
-    _Bool _includeResponseValue;
-    HAPCharacteristic *_characteristic;
-    id _value;
-    NSData *_authorizationData;
-    unsigned long long _writeType;
-    NSNumber *_enableEvents;
-    NSData *_contextData;
-    NSUUID *_hmdAccessoryUUID;
-    id _initialValue;
 }
 
 + (id);
@@ -33,37 +22,21 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)0EdEES8_EEE;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id)Q;
 - (id);
+- (id)Found variant:%@ /* Error: Ran out of types for this method. */;
 - (void)per";
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authorizationData; // @synthesize authorizationData=_authorizationData;
-@property(retain, nonatomic) HAPCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(retain, nonatomic) NSData *contextData; // @synthesize contextData=_contextData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSNumber *enableEvents; // @synthesize enableEvents=_enableEvents;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *hmdAccessoryUUID; // @synthesize hmdAccessoryUUID=_hmdAccessoryUUID;
-@property(nonatomic) _Bool includeResponseValue; // @synthesize includeResponseValue=_includeResponseValue;
-@property(retain, nonatomic) id initialValue; // @synthesize initialValue=_initialValue;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool timedWrite; // @synthesize timedWrite=_timedWrite;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
-@property(nonatomic) unsigned long long writeType; // @synthesize writeType=_writeType;
 
 @end
 

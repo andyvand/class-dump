@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSControlIdentity, NSString;
+@class CHSControlIdentity;
 
 @interface CHSControlInstanceIdentity
 {
     CHSControlIdentity *control;
-    void hostIdentifier;
-    void configurationIdentifier;
-    unsigned long long contentType;
 }
 
 - (id);
@@ -25,11 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *configurationIdentifier;
-@property(nonatomic, readonly) unsigned long long contentType; // @synthesize contentType;
-@property(nonatomic, readonly) CHSControlIdentity *control; // @synthesize control;
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *hostIdentifier;
 
 @end
 

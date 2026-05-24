@@ -6,19 +6,12 @@
 
 #import <UIKitCore/_UIPrototypingMenuCell.h>
 
-@class UILabel, UIStackView, UITapGestureRecognizer, _UIPrototypingMenuSlider;
+@class UIStackView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPrototypingMenuNumberCell : _UIPrototypingMenuCell
 {
     double _min;
-    double _max;
-    double _current;
-    UIStackView *_floatValueStackView;
-    UILabel *_minLabel;
-    UILabel *_maxLabel;
-    _UIPrototypingMenuSlider *_slider;
-    UITapGestureRecognizer *_tapRecognizer;
 }
 
 - (id);
@@ -28,30 +21,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)updateLastMessageGUID:forLanguageCode: /* Error: Ran out of types for this method. */;
+- (void)_destinationForDevice:(id)arg1 forcedIdentity: /* Error: Ran out of types for this method. */;
+- (void)IncomingMessage,V_incomingMessage;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_MPRemoteCommandEventDispatch;
 - (id);
 - (id)0p;
-- (double)Children;
+- (double)UIViewControllersAreChildren;
 - (double)traint * _Nonnull _ListCellCreateSeparatorLayoutGuideLeadingConstraint(NSLayoutAnchor * _Nonnull __strong, NSLayoutAnchor * _Nonnull __strong, NSString * _Nonnull __strong);
 - (void);
 - (double)`;
 
 // Remaining properties
-@property(nonatomic) double current; // @synthesize current=_current;
 @property(retain, nonatomic) UIStackView *floatValueStackView; // @synthesize floatValueStackView=_floatValueStackView;
-@property(nonatomic) double max; // @synthesize max=_max;
-@property(retain, nonatomic) UILabel *maxLabel; // @synthesize maxLabel=_maxLabel;
-@property(nonatomic) double min; // @synthesize min=_min;
-@property(retain, nonatomic) UILabel *minLabel; // @synthesize minLabel=_minLabel;
-@property(retain, nonatomic) _UIPrototypingMenuSlider *slider; // @synthesize slider=_slider;
-@property(retain, nonatomic) UITapGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
 
 @end
 

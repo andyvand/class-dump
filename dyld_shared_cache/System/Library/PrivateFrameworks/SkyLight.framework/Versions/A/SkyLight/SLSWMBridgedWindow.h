@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _WMWindow, _WMWindowChildInfo;
-
 __attribute__((visibility("hidden")))
 @interface SLSWMBridgedWindow
 {
     unsigned int _windowID;
-    _WMWindow *_window;
-    _Bool _individuallyOrderedOut;
-    SLSWMBridgedWindow *_parentWindow;
-    _WMWindowChildInfo *_parentChildInfo;
-    NSArray *_children;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)could not complete request '%@' because it does not have a zone.;
+- (void)%@;
+- (void)NSPersistentStoreMirroringOptionsKey;
+- (void)%@ = %lld;
 - (void);
 - (void);
 - (id);
@@ -31,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)¬à;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

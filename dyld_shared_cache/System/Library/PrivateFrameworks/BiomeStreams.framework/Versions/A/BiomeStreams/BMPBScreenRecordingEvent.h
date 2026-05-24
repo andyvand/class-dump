@@ -7,7 +7,6 @@
 @interface BMPBScreenRecordingEvent
 {
     _Bool _isStart;
-    CDStruct_95016f1d _has;
 }
 
 - (_Bool);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsStart;
-@property(nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
 
 @end
 

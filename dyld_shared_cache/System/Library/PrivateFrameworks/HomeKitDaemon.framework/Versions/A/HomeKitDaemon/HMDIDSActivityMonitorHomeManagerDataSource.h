@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDHomeManager, NSBackgroundActivityScheduler, NSObject, NSSet, NSString;
-@protocol HMDIDSActivityMonitorBroadcasterPushTokenDataSourceDelegate, OS_dispatch_queue;
+@class HMDHomeManager;
+@protocol HMDIDSActivityMonitorBroadcasterPushTokenDataSourceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSActivityMonitorHomeManagerDataSource
 {
     id <HMDIDSActivityMonitorBroadcasterPushTokenDataSourceDelegate> delegate;
-    NSSet *_pushTokens;
-    HMDHomeManager *_homeManager;
-    HMDAppleAccountManager *_appleAccountManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSBackgroundActivityScheduler *_updateTask;
 }
 
 + (id)ÛB;
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)teristicSupportsUserAttribution:(id)arg1;
+- (void)targetStateCharacteristicSupportsUserAttribution:(id)arg1;
 - (id)incoming message from device %@ because no clients have registered to monitor it;
 - (void)blic}@Failed to create secure session for the accessory (%@);
 - (void)ed while removing %@ from disk :(id)arg1 %@;
 - (void)Accessory Information;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDIDSActivityMonitorBroadcasterPushTokenDataSourceDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) Class superclass;
 
 @end
 

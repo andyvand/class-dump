@@ -11,8 +11,8 @@
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)4z;
+- (void)#ph|;
 - (void);
 - (void);
 

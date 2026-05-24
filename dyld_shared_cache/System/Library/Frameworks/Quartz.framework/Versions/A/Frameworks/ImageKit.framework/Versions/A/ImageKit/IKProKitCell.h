@@ -17,7 +17,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (unsigned long long);
+- (unsigned long long)legacy_usage_shutdown;
 
 @end
 

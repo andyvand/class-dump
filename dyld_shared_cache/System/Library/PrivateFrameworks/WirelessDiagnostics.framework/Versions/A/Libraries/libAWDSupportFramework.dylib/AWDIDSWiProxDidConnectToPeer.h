@@ -7,40 +7,32 @@
 @interface AWDIDSWiProxDidConnectToPeer
 {
     unsigned long long _duration;
-    unsigned long long _resultCode;
-    unsigned long long _timestamp;
-    CDStruct_8322d489 _has;
 }
 
-- (_Bool);
+- (_Bool)=JJ;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)l;
+- (id);
 - (void);
-- (void)ll:(_Bool)arg1;
-- (unsigned long long)art;
+- (void)setHasMultipathBytesOutCell:(_Bool)arg1;
+- (unsigned long long)_secureConnectionStart;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasResultCode;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

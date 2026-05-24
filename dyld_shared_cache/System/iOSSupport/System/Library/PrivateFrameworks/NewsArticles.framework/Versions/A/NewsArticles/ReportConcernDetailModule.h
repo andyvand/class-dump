@@ -7,7 +7,6 @@
 @interface ReportConcernDetailModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

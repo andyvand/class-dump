@@ -7,10 +7,6 @@
 @interface _CNLazyArrayGeneratorSource
 {
     id _state;
-    CDUnknownBlockType _condition;
-    CDUnknownBlockType _nextState;
-    CDUnknownBlockType _resultFromState;
-    _Bool _firstTime;
 }
 
 - (id);

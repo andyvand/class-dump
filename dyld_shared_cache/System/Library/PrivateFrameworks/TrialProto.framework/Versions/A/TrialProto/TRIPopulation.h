@@ -12,10 +12,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)with network:(id)arg1 %@, progress:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

@@ -14,8 +14,8 @@
 + (id);
 + (id);
 + (int);
-- (_Bool);
-- (id);
+- (_Bool)(C9;/;
+- (id)d;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol FCPrivateChannelMembershipObserving
+
+@optional
+- (void);
 @end
 

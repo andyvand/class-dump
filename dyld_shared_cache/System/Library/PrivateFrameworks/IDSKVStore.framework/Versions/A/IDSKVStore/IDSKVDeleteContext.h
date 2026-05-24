@@ -7,17 +7,15 @@
 @interface IDSKVDeleteContext
 {
     BOOL _valueType;
-    unsigned long long _rowIDCutoff;
 }
 
-- (unsigned long long);
+- (unsigned long long)&;
 - (void);
 - (void);
 - (BOOL);
 
 // Remaining properties
 @property(nonatomic) unsigned long long rowIDCutoff; // @synthesize rowIDCutoff=_rowIDCutoff;
-@property(nonatomic) BOOL valueType; // @synthesize valueType=_valueType;
 
 @end
 

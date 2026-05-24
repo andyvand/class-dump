@@ -9,7 +9,6 @@
 @interface PXWidgetBarLayout : PXTilingLayout
 {
     struct CGRect _contentBounds;
-    double _height;
 }
 
 + (struct PXTileIdentifier);
@@ -18,8 +17,8 @@
 - (void);
 - (struct CGRect);
 - (double);
-- (void)titleLastBaseline;
-- (void)s;
+- (void)_titleSubtitleLastBaseline;
+- (void)notifications;
 
 // Remaining properties
 @property(nonatomic) double height; // @synthesize height=_height;

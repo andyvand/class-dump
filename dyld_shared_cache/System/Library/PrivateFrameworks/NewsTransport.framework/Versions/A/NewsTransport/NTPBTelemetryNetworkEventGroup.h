@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NTPBTelemetryNetworkEventGroup
 {
     int _cellularRadioAccessTechnology;
-    int _eventType;
-    NSMutableArray *_failures;
-    NSString *_respondingPop;
-    NSMutableArray *_successes;
-    _Bool _wifiReachabilityStatus;
-    struct {
-        unsigned int cellularRadioAccessTechnology:1;
-        unsigned int eventType:1;
-        unsigned int wifiReachabilityStatus:1;
-    } _has;
 }
 
-+ (Class);
-+ (Class);
++ (Class)animationWithKeyPath: /* Error: Ran out of types for this method. */;
++ (Class)_progressToSharedSourcesCompletionHandlerMapping;
 
 @end
 

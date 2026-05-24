@@ -6,18 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, _UIAlignedLayoutArrangement, _UIOrderedLayoutArrangement;
+@class NSMutableArray;
 
 @interface UIStackView : UIView
 {
     NSMutableArray *_mutableLayoutArrangements;
-    _UIOrderedLayoutArrangement *_distributionArrangement;
-    _UIAlignedLayoutArrangement *_alignmentArrangement;
-    _Bool _didRequestTallestBaselineViewForFirst;
-    _Bool _didRequestTallestBaselineViewForLast;
-    _Bool _viewForFirstBaselineLayoutDidChange;
-    _Bool _viewForLastBaselineLayoutDidChange;
-    _Bool _layoutMarginsRelativeArrangement;
 }
 
 @end

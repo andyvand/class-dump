@@ -6,20 +6,14 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@class MPSImageBox;
-
 @interface MPSImageBox3D : MPSUnaryImageKernel
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _kernelDepth;
-    MPSImageBox *_boxFilter;
-    _Bool _supportsReadWriteTextures;
 }
 
 + (const struct MPSLibraryInfo *);
 + (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -29,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long kernelDepth; // @synthesize kernelDepth=_kernelDepth;
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end

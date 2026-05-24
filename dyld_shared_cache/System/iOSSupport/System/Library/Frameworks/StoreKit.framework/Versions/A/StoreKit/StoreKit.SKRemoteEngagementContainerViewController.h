@@ -8,9 +8,9 @@
 {
 }
 
-- (void);
+- (void)deserialize package;
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (id);
 

@@ -6,17 +6,13 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest;
+@class NSString;
 
 @interface SFTextColumnsCardSection : SFCardSection
 {
     struct {
         unsigned int titleWeight:1;
     } _has;
-    NSString *_type;
-    NSString *_title;
-    unsigned long long _titleWeight;
-    NSArray *_columns;
 }
 
 + (_Bool);
@@ -24,72 +20,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)URLCredential">40;
 - (unsigned long long);
-- (id);
+- (id)setIsReRing: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)performSynchronousBlock:(id)arg1;
+- (id);
+- (void)44@0:(id)arg1 8B16B20q24S32Q36;
+- (id)in query string:%@ /* Error: Ran out of types for this method. */;
+- (id)unavailable;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)umns;
+- (void)hasNumberOfColumns;
 - (id)Ôu;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(copy, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long titleWeight; // @synthesize titleWeight=_titleWeight;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

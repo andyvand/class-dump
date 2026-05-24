@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBSProcessIdentifier, RBSProcessIdentity;
+@class RBSProcessIdentifier, RBSProcessIdentity;
 
 @interface RBSProcessInstance
 {
     RBSProcessIdentity *_identity;
-    RBSProcessIdentifier *_identifier;
 }
 
 + (_Bool);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -29,21 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (int)+C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) RBSProcessIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) RBSProcessIdentity *identity; // @synthesize identity=_identity;
-@property(readonly) Class superclass;
 
 @end
 

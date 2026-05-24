@@ -15,7 +15,7 @@
 
 - (id);
 - (int);
-- (void);
+- (void)_pas_mappedArrayWithIndexedTransform:(double)arg1;
 - (id);
 - (void);
 

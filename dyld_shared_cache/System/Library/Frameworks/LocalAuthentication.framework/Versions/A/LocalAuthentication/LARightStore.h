@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol LAKeyStore, OS_dispatch_queue;
+@protocol LAKeyStore;
 
 @interface LARightStore
 {
     id <LAKeyStore> _keyStore;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _instanceID;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
 
 @end

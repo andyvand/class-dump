@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ApplicationAccessibility.m;
 + (void);
-- (_Bool);
+- (_Bool)reenBounds;
 - (unsigned long long);
 - (id);
 

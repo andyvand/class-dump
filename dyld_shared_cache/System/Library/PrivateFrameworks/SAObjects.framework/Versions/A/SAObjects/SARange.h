@@ -14,14 +14,13 @@
 + (id);
 - (long long);
 - (long long);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long length;
-@property(nonatomic) long long start;
 
 @end
 

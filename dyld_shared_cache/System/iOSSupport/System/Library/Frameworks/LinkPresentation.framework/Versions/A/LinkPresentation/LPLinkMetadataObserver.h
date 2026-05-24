@@ -9,11 +9,9 @@
 @interface LPLinkMetadataObserver
 {
     LPLinkMetadata *_metadata;
-    CDUnknownBlockType _callback;
-    _Bool _hasScheduledCallback;
 }
 
-- (id);
+- (id)suspended;
 - (void);
 - (void);
 - (void);

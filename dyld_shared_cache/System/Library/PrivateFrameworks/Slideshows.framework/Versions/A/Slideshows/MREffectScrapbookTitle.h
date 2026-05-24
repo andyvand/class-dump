@@ -6,29 +6,24 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImage, MRImageProvider, MRTextRenderer, NSMutableDictionary;
+@class MRImageProvider;
 
 @interface MREffectScrapbookTitle : MREffect
 {
     MRImageProvider *mImageProviders[5];
-    NSMutableDictionary *mSprites;
-    MRTextRenderer *mTextRenderer0;
-    MRImage *mTextImage0;
-    float mLocalTranslationX;
-    float mLocalTranslationY;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)T@"NDAnalyticsPayloadUploader",&,N,V_payloadUploader;
+- (void)handleLaunchEventForBackgroundSessionWithIdentifier:(double)arg1 completion:(id)arg2;
+- (void)NDAnalyticsPayloadAssembler;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)y/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStoreEntry.m;
+- (id)yloadUploader uploadPayloadsForInfos:(id)arg1 withEnvelopeStore:perPayloadCompletion:completion:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (struct CGSize);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

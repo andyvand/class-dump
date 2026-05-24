@@ -10,11 +10,11 @@
 
 + (void);
 + (void);
-+ (void);
++ (void);
 + (Class);
 + (_Bool);
-+ (Class);
-+ (Class);
++ (Class)tem/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit;
++ (Class);
 
 @end
 

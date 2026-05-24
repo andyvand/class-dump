@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DIMSchemaDIMEphemeralIdentifiers : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_userEphemeralId;
-    SISchemaUUID *_homeEphemeralId;
-    unsigned long long _secondsSinceEphemeralIdCreation;
-    struct {
-        unsigned int secondsSinceEphemeralIdCreation:1;
-    } _has;
-    _Bool _hasUserEphemeralId;
-    _Bool _hasHomeEphemeralId;
 }
 
 - (void);
@@ -25,35 +18,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)];
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)3;
 - (_Bool);
 - (id);
 - (id)1"taskAbandonCountForEntityInUsingApp1Hr"b1"taskAbandonCountForEntityInUsingApp6Hrs"b1"taskAbandonCountForEntityInUsingApp1Day"b1"taskAbandonCountForEntityInUsingApp7Days"b1"taskAbandonCountForEntityInUsingApp14Days"b1"taskAbandonCountForEntityInUsingApp28Days"b1"taskAbandonCountForEntityInUsingAppInf"b1};
-- (id)andleContext;
+- (id)NLRouterSchemaNLRouterBridgeHandleContext;
 - (id),Û;
 - (void)cÒ%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeEphemeralId; // @synthesize hasHomeEphemeralId=_hasHomeEphemeralId;
-@property(nonatomic) _Bool hasSecondsSinceEphemeralIdCreation;
-@property(nonatomic) _Bool hasUserEphemeralId; // @synthesize hasUserEphemeralId=_hasUserEphemeralId;
-@property(retain, nonatomic) SISchemaUUID *homeEphemeralId; // @synthesize homeEphemeralId=_homeEphemeralId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long secondsSinceEphemeralIdCreation; // @synthesize secondsSinceEphemeralIdCreation=_secondsSinceEphemeralIdCreation;
 @property(retain, nonatomic) SISchemaUUID *userEphemeralId; // @synthesize userEphemeralId=_userEphemeralId;
 
 @end

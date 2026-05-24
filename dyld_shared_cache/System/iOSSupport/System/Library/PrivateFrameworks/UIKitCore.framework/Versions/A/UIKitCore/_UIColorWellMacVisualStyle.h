@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     _UINSColorWell *_nsColorWell;
 }
 
-- (id);
-- (id);
+- (id)_bestGuessURI;
+- (id)PostDeliveryReceiptProcessingParameter;
 - (void);
 - (void);
 - (void);
-- (struct CGSize)s;
+- (struct CGSize)insets;
 - (void);
 - (void)@ÿHUÚ];
 

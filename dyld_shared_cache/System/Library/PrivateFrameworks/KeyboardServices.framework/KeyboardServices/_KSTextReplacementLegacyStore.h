@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectContext, NSObject, NSPersistentStore, NSPersistentStoreCoordinator, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class NSObject, NSPersistentStoreCoordinator;
+@protocol OS_os_transaction;
 
 @interface _KSTextReplacementLegacyStore
 {
     NSObject<OS_os_transaction> *_uptimeTransaction;
-    _Bool _suspendedForAccountChange;
-    _Bool _forceMaintenance;
-    _Bool _pendingSampleShortcutImport;
-    _Bool _minimumUptimeDidExpire;
-    _Bool _didScheduleCacheUpdate;
-    _Bool _shouldUpdateTheCache;
-    _Bool _ubiquityStoreLoaded;
-    _Bool _shouldDisableCaching;
-    NSString *_cacheFilePath;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSManagedObjectContext *_managedObjectContext;
-    NSPersistentStore *_persistentStore;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSDate *_lastMaintenanceDate;
-    long long _importedSinceMaintenance;
-    NSURL *_baseURL;
-    NSDate *_persistentStoreDidLoadTime;
-    NSDate *_ubiquityStoreLoadStartTime;
 }
 
 + (id);
@@ -40,29 +22,30 @@
 - (void);
 - (_Bool);
 - (id);
+- (_Bool)
+;
+- (id)V,;
+- (_Bool)k`;
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -71,7 +54,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -104,15 +87,15 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (id);
+- (void)contactIconStyleDarkBorderColor;
+- (id);
 - (id);
 - (void);
 - (double);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)GR;
 - (void);
 - (void);
 - (void);
@@ -123,7 +106,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)uthorizationManager authorizationForClient:accountTypeWithIdentifier:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -132,31 +115,7 @@
 - (id)@; "%@" (extended attributes %@)>;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *cacheFilePath; // @synthesize cacheFilePath=_cacheFilePath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didScheduleCacheUpdate; // @synthesize didScheduleCacheUpdate=_didScheduleCacheUpdate;
-@property(nonatomic) _Bool forceMaintenance; // @synthesize forceMaintenance=_forceMaintenance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long importedSinceMaintenance; // @synthesize importedSinceMaintenance=_importedSinceMaintenance;
-@property(retain, nonatomic) NSDate *lastMaintenanceDate; // @synthesize lastMaintenanceDate=_lastMaintenanceDate;
-@property(retain, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(nonatomic) _Bool minimumUptimeDidExpire; // @synthesize minimumUptimeDidExpire=_minimumUptimeDidExpire;
-@property(nonatomic) _Bool pendingSampleShortcutImport; // @synthesize pendingSampleShortcutImport=_pendingSampleShortcutImport;
-@property(retain, nonatomic) NSPersistentStore *persistentStore; // @synthesize persistentStore=_persistentStore;
 @property(retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(retain, nonatomic) NSDate *persistentStoreDidLoadTime; // @synthesize persistentStoreDidLoadTime=_persistentStoreDidLoadTime;
-@property(nonatomic) _Bool shouldDisableCaching; // @synthesize shouldDisableCaching=_shouldDisableCaching;
-@property(nonatomic) _Bool shouldUpdateTheCache; // @synthesize shouldUpdateTheCache=_shouldUpdateTheCache;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suspendedForAccountChange; // @synthesize suspendedForAccountChange=_suspendedForAccountChange;
-@property(retain, nonatomic) NSDate *ubiquityStoreLoadStartTime; // @synthesize ubiquityStoreLoadStartTime=_ubiquityStoreLoadStartTime;
-@property(nonatomic) _Bool ubiquityStoreLoaded; // @synthesize ubiquityStoreLoaded=_ubiquityStoreLoaded;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

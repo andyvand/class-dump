@@ -13,9 +13,9 @@
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)Disk=}24^@32;
 - (void);
-- (id);
+- (id)getCBPrivacySupported;
 - (id);
 - (id);
 - (void);

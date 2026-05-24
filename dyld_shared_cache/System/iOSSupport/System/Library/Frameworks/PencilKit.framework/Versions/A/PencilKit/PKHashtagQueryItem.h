@@ -11,15 +11,14 @@
 @interface PKHashtagQueryItem : PKDetectionQueryItem
 {
     NSString *_hashtagResult;
-    CHPrefixQueryItem *_coreHandwritingPrefixQueryItem;
 }
 
+- (void)";
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CHPrefixQueryItem *coreHandwritingPrefixQueryItem; // @synthesize coreHandwritingPrefixQueryItem=_coreHandwritingPrefixQueryItem;
-@property(copy, nonatomic) NSString *hashtagResult; // @synthesize hashtagResult=_hashtagResult;
 
 @end
 

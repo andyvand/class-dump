@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PKPushTokenFetcher
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    NSMutableArray *_completionHandlers;
-    APSConnection *_pushConnection;
 }
 
 - (void);
@@ -20,17 +17,11 @@
 - (void);
 - (void);
 - (id);
-- (void)t;
-- (void)eCount;
+- (void)recurringPaymentIntervalCount;
+- (void)provisionExternalDeviceCount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

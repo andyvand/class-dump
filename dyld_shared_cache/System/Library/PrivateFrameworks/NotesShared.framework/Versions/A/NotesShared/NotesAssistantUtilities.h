@@ -8,9 +8,9 @@
 {
 }
 
++ (id)installCompletionBlock;
 + (id);
-+ (id);
-+ (id);
++ (id)V;
 + (id);
 + (id);
 

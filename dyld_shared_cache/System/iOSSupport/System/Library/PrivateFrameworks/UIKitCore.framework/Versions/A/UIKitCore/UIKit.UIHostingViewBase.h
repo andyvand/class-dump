@@ -7,47 +7,19 @@
 @interface UIKit.UIHostingViewBase
 {
     id uiView;
-    id delegate;
-    id safeAreaRegions;
-    id configuration;
-    id viewGraph;
-    id inheritedEnvironment;
-    id environmentOverride;
-    id traitCollectionOverride;
-    id canAdvanceTimeAutomatically;
-    id allowUIKitAnimationsForNextUpdate;
-    id lastRenderTime;
-    id pendingPreferencesUpdate;
-    id pendingPostDisappearPreferencesUpdate;
-    id _updateFidelity;
-    id isHiddenForReuse;
-    id isEnteringForeground;
-    id isExitingForeground;
-    id isCapturingSnapshots;
-    id isRotatingWindow;
-    id isResizingWindow;
-    id _sceneActivationState;
-    id registeredForGeometryChanges;
-    id observedWindow;
-    id observedScene;
-    id keyboardFrame;
-    id inactiveKeyboardFrame;
-    id keyboardSeed;
-    id $__lazy_storage_$_trackingElement;
-    id isUpdatingKeyboard;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_trackingContexts;
+- (void)_syncIgnoredNicknameRecordsToOtherDevices;
+- (void)_suppressedUpdates;
+- (void)_supportedCapabilities;
+- (void)_subscriptionValidationTokenByHandleIDCache;
+- (void)_subscriptionValidationToken;
+- (void)_subscriptionCreatedOverride;
 - (void);
 - (void);
 - (id);

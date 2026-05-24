@@ -7,9 +7,6 @@
 @interface IDSGlobalLinkBlocks
 {
     CDUnknownBlockType _qraREQBlock;
-    CDUnknownBlockType _qraAWDBlock;
-    CDUnknownBlockType _qraCONBlock;
-    CDUnknownBlockType _qraDISBlock;
 }
 
 - (id);

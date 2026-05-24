@@ -6,7 +6,7 @@
 
 @interface UnknownClass (AppleMediaAccessory)
 - (id);
-- (id);
+- (id)initWithString:originalString:type:weight:origin: /* Error: Ran out of types for this method. */;
 - (id);
 @end
 

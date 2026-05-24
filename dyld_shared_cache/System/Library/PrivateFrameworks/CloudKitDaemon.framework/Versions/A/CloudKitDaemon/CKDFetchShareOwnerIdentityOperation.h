@@ -6,16 +6,14 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKRecordID, NSData;
+@class CKRecordID;
 
 @interface CKDFetchShareOwnerIdentityOperation : CKDOperation
 {
     CKRecordID *_shareRecordID;
-    NSData *_ownerPublicKey;
-    long long _ownerPublicKeyType;
 }
 
-+ (id);
++ (id)setRxCrsGlitchOverDecodingAttemptsPercentage:(unsigned long long)arg1;
 - (id);
 - (void);
 - (void);
@@ -26,14 +24,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (int);
-- (id);
+- (int)WiFiCloudSyncEngineScheduleWithRunLoop;
+- (id)	;
 - (void)uldn't get a Reminders identity set to add to PCS;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *ownerPublicKey; // @synthesize ownerPublicKey=_ownerPublicKey;
-@property(nonatomic) long long ownerPublicKeyType; // @synthesize ownerPublicKeyType=_ownerPublicKeyType;
-@property(retain, nonatomic) CKRecordID *shareRecordID; // @synthesize shareRecordID=_shareRecordID;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

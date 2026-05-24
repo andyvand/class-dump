@@ -7,7 +7,6 @@
 @interface Foundation._BPlistEncodingFormat.Reference
 {
     id backing;
-    id bplistObjectIdx;
 }
 
 @end

@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection, RPRemoteDisplayDevice, RPRemoteDisplayPerson;
-@protocol OS_dispatch_queue;
-
 @interface RPRemoteDisplayDiscovery
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_discoveredDevices;
-    NSMutableDictionary *_discoveredPeople;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    unsigned char _currentState;
-    unsigned char _discoverySessionStartReason;
-    _Bool _triggerEnhancedDiscovery;
-    unsigned long long _controlFlags;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _deviceChangedHandler;
-    CDUnknownBlockType _deviceSelectedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned long long _discoveryFlags;
-    unsigned long long _errorFlags;
-    CDUnknownBlockType _errorFlagsChangedHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _personChangedHandler;
-    CDUnknownBlockType _personDeclinedHandler;
-    CDUnknownBlockType _personFoundHandler;
-    CDUnknownBlockType _personLostHandler;
-    RPRemoteDisplayPerson *_personSelected;
-    long long _rssiThreshold;
-    NSString *_peerDeviceIdentifier;
-    RPRemoteDisplayDevice *_dedicatedDevice;
-    CDUnknownBlockType _dedicatedDeviceChangedHandler;
-    CDUnknownBlockType _discoverySessionStateChangedHandler;
 }
 
 + (_Bool);
@@ -61,39 +29,39 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id)4;
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (unsigned char);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)ng multi-device registration because device type does not match for device %{public}@ in memory:(id)arg1 %@;
 - (CDUnknownBlockType);
-- (id);
+- (id).sequoia;
+- (void)h usearch_setOffset failure: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)fEEiEELNS_10GallicTypeE0EEEEE;
 - (id);
 - (long long);
 - (void);
@@ -102,13 +70,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)Tl;
+- (void)1;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -120,31 +88,6 @@
 - (unsigned long long)Session activateWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(readonly, nonatomic) unsigned char currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) RPRemoteDisplayDevice *dedicatedDevice; // @synthesize dedicatedDevice=_dedicatedDevice;
-@property(copy, nonatomic) CDUnknownBlockType dedicatedDeviceChangedHandler; // @synthesize dedicatedDeviceChangedHandler=_dedicatedDeviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler; // @synthesize deviceChangedHandler=_deviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceSelectedHandler; // @synthesize deviceSelectedHandler=_deviceSelectedHandler;
-@property(readonly, copy, nonatomic) NSArray *discoveredDevices;
-@property(readonly, copy, nonatomic) NSArray *discoveredPeople;
-@property(nonatomic) unsigned long long discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
-@property(readonly, nonatomic) unsigned char discoverySessionStartReason; // @synthesize discoverySessionStartReason=_discoverySessionStartReason;
-@property(copy, nonatomic) CDUnknownBlockType discoverySessionStateChangedHandler; // @synthesize discoverySessionStateChangedHandler=_discoverySessionStateChangedHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned long long errorFlags; // @synthesize errorFlags=_errorFlags;
-@property(copy, nonatomic) CDUnknownBlockType errorFlagsChangedHandler; // @synthesize errorFlagsChangedHandler=_errorFlagsChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSString *peerDeviceIdentifier; // @synthesize peerDeviceIdentifier=_peerDeviceIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType personChangedHandler; // @synthesize personChangedHandler=_personChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType personDeclinedHandler; // @synthesize personDeclinedHandler=_personDeclinedHandler;
-@property(copy, nonatomic) CDUnknownBlockType personFoundHandler; // @synthesize personFoundHandler=_personFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType personLostHandler; // @synthesize personLostHandler=_personLostHandler;
-@property(retain, nonatomic) RPRemoteDisplayPerson *personSelected; // @synthesize personSelected=_personSelected;
-@property(nonatomic) long long rssiThreshold; // @synthesize rssiThreshold=_rssiThreshold;
 @property(nonatomic) _Bool triggerEnhancedDiscovery; // @synthesize triggerEnhancedDiscovery=_triggerEnhancedDiscovery;
 
 @end

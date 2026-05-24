@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)nIdentifierContainer:(id)arg1 invitationIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)kRxBadFCS;
+- (id)carKeySetEncryptedProductPlanIdentifierContainer:(id)arg1 invitationIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (void)confirmationTitle;
 
 // Remaining properties

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewItem, CustomViewSnapshotCache, NSString, NSView, TabSnapshotCacheWithPersistence, UnifiedTabBarItem, WBTab;
-@protocol TabBarViewItem, TabPreviewDataSourceDelegate;
+@class BrowserTabViewItem;
 
 __attribute__((visibility("hidden")))
 @interface BrowserTabPreviewDataSource
 {
     struct CGSize _cachedImageSize;
-    CustomViewSnapshotCache *_customViewSnapshotCache;
-    TabSnapshotCacheWithPersistence *_tabSnapshotCacheWithPersistence;
-    id <TabPreviewDataSourceDelegate> _tabPreviewDataSourceDelegate;
-    NSView *_tabThumbnailView;
-    BrowserTabViewItem *_browserTabViewItem;
 }
 
 - (void);
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (unsigned long long);
@@ -36,29 +30,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id)sOnly;
+- (id)FindOnPageMatchesWordStartsOnly;
 - (void)°;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak BrowserTabViewItem *browserTabViewItem; // @synthesize browserTabViewItem=_browserTabViewItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *secondaryTitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <TabBarViewItem> tabBarViewItem;
-@property(readonly, nonatomic) struct CGSize tabContentSize;
-@property(readonly, nonatomic) WBTab *tabGroupTab;
-@property(nonatomic) __weak id <TabPreviewDataSourceDelegate> tabPreviewDataSourceDelegate; // @synthesize tabPreviewDataSourceDelegate=_tabPreviewDataSourceDelegate;
-@property(readonly, nonatomic) NSView *tabThumbnailView; // @synthesize tabThumbnailView=_tabThumbnailView;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) UnifiedTabBarItem *unifiedTabBarItem;
 
 @end
 

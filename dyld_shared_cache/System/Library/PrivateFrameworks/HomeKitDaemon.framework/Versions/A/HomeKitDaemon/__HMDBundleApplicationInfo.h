@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool)× ;
-- (id)ssoryUUIDs:(id)arg1;
+- (id)subscribeToSettingsForAccessoryUUIDs:(id)arg1;
 - (void)cannot contain nameless parameters (%d is nameless);
 
 @end

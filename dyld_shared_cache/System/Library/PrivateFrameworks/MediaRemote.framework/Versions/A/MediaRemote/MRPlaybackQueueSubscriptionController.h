@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, MSVMutableBidirectionalDictionary, NSMutableArray, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class MRPlayerPath, NSMutableArray;
 
 @interface MRPlaybackQueueSubscriptionController
 {
     NSMutableArray *_requestFilters;
-    NSMutableSet *_requests;
-    MSVMutableBidirectionalDictionary *_offsets;
-    NSObject<OS_dispatch_queue> *_queue;
-    MRPlayerPath *_playerPath;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -25,14 +20,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (id);
+- (void)R";
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)AFSpeechRecordingAlertPolicyMutating;
 - (id);
 - (id);
 - (void)essage;

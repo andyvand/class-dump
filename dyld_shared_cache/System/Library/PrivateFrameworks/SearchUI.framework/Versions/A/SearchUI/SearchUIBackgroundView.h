@@ -7,7 +7,6 @@
 @interface SearchUIBackgroundView
 {
     _Bool _shouldUseInsetRoundedSections;
-    _Bool _inPreviewPlatter;
 }
 
 - (void);
@@ -17,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isInPreviewPlatter) _Bool inPreviewPlatter; // @synthesize inPreviewPlatter=_inPreviewPlatter;
 @property(nonatomic) _Bool shouldUseInsetRoundedSections; // @synthesize shouldUseInsetRoundedSections=_shouldUseInsetRoundedSections;
 
 @end

@@ -7,12 +7,6 @@
 @interface AppStoreKit.BreakoutDetails
 {
     id badge;
-    id title;
-    id description;
-    id callToActionButtonAction;
-    id backgroundStyle;
-    id textAlignment;
-    id badgeColorOverride;
 }
 
 @end

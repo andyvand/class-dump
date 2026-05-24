@@ -9,11 +9,6 @@
 @interface PLDisplayAPLStats
 {
     NSNumber *_avgRed;
-    NSNumber *_avgGreen;
-    NSNumber *_avgBlue;
-    NSNumber *_frames;
-    NSNumber *_avgPower;
-    NSNumber *_avgAPL;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_֐;
 - (id);
 - (id);
 - (id);
@@ -31,12 +26,7 @@
 - (void)dd 10 elements to context;
 
 // Remaining properties
-@property(retain) NSNumber *avgAPL; // @synthesize avgAPL=_avgAPL;
-@property(retain) NSNumber *avgBlue; // @synthesize avgBlue=_avgBlue;
-@property(retain) NSNumber *avgGreen; // @synthesize avgGreen=_avgGreen;
-@property(retain) NSNumber *avgPower; // @synthesize avgPower=_avgPower;
 @property(retain) NSNumber *avgRed; // @synthesize avgRed=_avgRed;
-@property(retain) NSNumber *frames; // @synthesize frames=_frames;
 
 @end
 

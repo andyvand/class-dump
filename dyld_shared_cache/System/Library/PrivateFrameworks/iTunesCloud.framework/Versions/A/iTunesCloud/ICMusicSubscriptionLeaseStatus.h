@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreDialogResponse, NSDictionary;
-
 @interface ICMusicSubscriptionLeaseStatus
 {
     _Bool _shouldPlaybackRequireOnlineKeys;
-    _Bool _hasOnlinePlaybackKeys;
-    _Bool _hasOfflinePlaybackKeys;
-    _Bool _hasPendingLeaseAcquisition;
-    _Bool _hasInflightLeaseAcquisition;
-    _Bool _takenDueToLeasePrevention;
-    long long _leaseState;
-    ICStoreDialogResponse *_stateReasonDialog;
-    NSDictionary *_stateReasonDialogMetricsDictionary;
 }
 
 - (id);
@@ -41,18 +31,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)ableTypesRequest;
+- (void)ICPushNotificationsEnableTypesRequest;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInflightLeaseAcquisition; // @synthesize hasInflightLeaseAcquisition=_hasInflightLeaseAcquisition;
-@property(nonatomic) _Bool hasOfflinePlaybackKeys; // @synthesize hasOfflinePlaybackKeys=_hasOfflinePlaybackKeys;
 @property(nonatomic) _Bool hasOnlinePlaybackKeys; // @synthesize hasOnlinePlaybackKeys=_hasOnlinePlaybackKeys;
-@property(nonatomic) _Bool hasPendingLeaseAcquisition; // @synthesize hasPendingLeaseAcquisition=_hasPendingLeaseAcquisition;
-@property(nonatomic) long long leaseState; // @synthesize leaseState=_leaseState;
-@property(nonatomic) _Bool shouldPlaybackRequireOnlineKeys; // @synthesize shouldPlaybackRequireOnlineKeys=_shouldPlaybackRequireOnlineKeys;
-@property(copy, nonatomic) ICStoreDialogResponse *stateReasonDialog; // @synthesize stateReasonDialog=_stateReasonDialog;
-@property(copy, nonatomic) NSDictionary *stateReasonDialogMetricsDictionary; // @synthesize stateReasonDialogMetricsDictionary=_stateReasonDialogMetricsDictionary;
-@property(nonatomic, getter=isTakenDueToLeasePrevention) _Bool takenDueToLeasePrevention; // @synthesize takenDueToLeasePrevention=_takenDueToLeasePrevention;
 
 @end
 

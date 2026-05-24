@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFCallStateSnapshot
 {
     _Bool _onSpeaker;
-    _Bool _isDropInCall;
-    unsigned long long _callState;
 }
 
 + (id);
@@ -18,34 +14,25 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)T@"NSDecimalNumber",C,N,SsetAPY:(CDUnknownBlockType)arg1 ,V_apy;
+- (unsigned long long);
+- (id)G;
+- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)onView"16q24;
+- (void)|;
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long callState; // @synthesize callState=_callState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDropInCall; // @synthesize isDropInCall=_isDropInCall;
-@property(readonly, nonatomic) _Bool onSpeaker; // @synthesize onSpeaker=_onSpeaker;
-@property(readonly) Class superclass;
 
 @end
 

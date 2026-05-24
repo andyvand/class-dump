@@ -7,16 +7,14 @@
 @class NSString, NSUUID;
 
 @protocol HMDWACDevice
+- (void)teError %@;
+- (_Bool);
+- (void)d;
+- (_Bool);
 - (NSUUID *)text>",W,N;
 - (NSString *)~&Äÿ{~&Åÿy{~&Åÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceID;
 @property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) _Bool isConfigured;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *ssid;
-@property(readonly, nonatomic) _Bool supportsAirPlay2;
-@property(readonly, nonatomic) id underlyingDevice;
 @end
 

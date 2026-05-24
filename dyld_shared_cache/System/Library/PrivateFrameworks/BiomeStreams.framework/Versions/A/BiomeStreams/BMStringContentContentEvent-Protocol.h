@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol BMStringContentContentEvent
-- (NSString *)ge_var__pack;
+- (NSString *)pg_query__range_var__pack;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *content;

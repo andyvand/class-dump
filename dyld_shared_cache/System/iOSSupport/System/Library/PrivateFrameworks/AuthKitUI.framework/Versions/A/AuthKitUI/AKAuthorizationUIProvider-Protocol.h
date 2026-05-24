@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationUIProvider
+- (void)o;
 @end
 

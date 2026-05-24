@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKPeerPaymentRecipient
 {
     _Bool _allowsFormalPaymentRequests;
-    NSString *_identifier;
-    unsigned long long _status;
-    unsigned long long _statusReason;
-    unsigned long long _receiveMethod;
-    NSString *_receiveCurrency;
-    NSDecimalNumber *_minimumReceiveAmount;
-    NSDecimalNumber *_maximumReceiveAmount;
-    NSDate *_cacheUntil;
-    NSString *_conversationAddress;
-    NSString *_normalizedAddress;
-    NSString *_idsQualifiedNormalizedAddress;
-    NSString *_displayName;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (unsigned long long);
 - (void);
@@ -42,42 +30,29 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)S;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)nsumptionDueToMac"b1"powerConsumptionDueToRF"b1"powerConsumptionDueToRoamScan"b1"powerConsumptionDueToRx"b1"powerConsumptionDueToTx"b1"powerConsumptionDueToUserScan"b1"receiveDuration"b1"roamDuration"b1"sleepDuration"b1"timestamp"b1"totalLPASDuration"b1"totalLpasPowerBudget"b1"totalLpasPowerMonitoringPeriod"b1"totalTimeForBugetExpiry"b1"transmitDuration"b1};
+- (void)OfOrder;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id)WithMerchantIdentifier:(id)arg1 domainName: /* Error: Ran out of types for this method. */;
+- (id)initWithMerchantIdentifier:(id)arg1 domainName: /* Error: Ran out of types for this method. */;
 - (id)'%@' because key set in defaults;
 - (void).;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address;
-@property(nonatomic) _Bool allowsFormalPaymentRequests; // @synthesize allowsFormalPaymentRequests=_allowsFormalPaymentRequests;
-@property(copy, nonatomic) NSDate *cacheUntil; // @synthesize cacheUntil=_cacheUntil;
-@property(copy, nonatomic) NSString *conversationAddress; // @synthesize conversationAddress=_conversationAddress;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic, setter=setIDSQualifiedNormalizedAddress:) NSString *idsQualifiedNormalizedAddress; // @synthesize idsQualifiedNormalizedAddress=_idsQualifiedNormalizedAddress;
-@property(copy, nonatomic) NSDecimalNumber *maximumReceiveAmount; // @synthesize maximumReceiveAmount=_maximumReceiveAmount;
-@property(copy, nonatomic) NSDecimalNumber *minimumReceiveAmount; // @synthesize minimumReceiveAmount=_minimumReceiveAmount;
-@property(copy, nonatomic) NSString *normalizedAddress; // @synthesize normalizedAddress=_normalizedAddress;
-@property(copy, nonatomic) NSString *receiveCurrency; // @synthesize receiveCurrency=_receiveCurrency;
-@property(nonatomic) unsigned long long receiveMethod; // @synthesize receiveMethod=_receiveMethod;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long statusReason; // @synthesize statusReason=_statusReason;
 
 @end
 

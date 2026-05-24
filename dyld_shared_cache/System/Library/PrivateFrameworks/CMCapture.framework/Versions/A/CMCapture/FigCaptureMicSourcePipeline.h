@@ -6,18 +6,16 @@
 
 #import <CMCapture/FigCaptureSourcePipeline.h>
 
-@class BWAudioSourceNode, BWZoomCommandHandler, NSMutableArray;
+@class BWAudioSourceNode;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMicSourcePipeline : FigCaptureSourcePipeline
 {
     BWAudioSourceNode *_sourceNode;
-    NSMutableArray *_pipelineOutputsByMicSourcePosition[3];
-    BWZoomCommandHandler *_zoomCommandHandlerForStereoAudioCapture;
 }
 
-+ (void)ransportType;
-- (void);
++ (void)CMIOTransportType;
+- (void)erOverridden;
 
 @end
 

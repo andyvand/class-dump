@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)"16i24@"ACDAccountStore"28@"ACAccount"36;
++ (_Bool)44@0:(id)arg1 8@16i24@28@36;
 - (void);
 - (void);
-- (id);
+- (id)`;
 
 @end
 

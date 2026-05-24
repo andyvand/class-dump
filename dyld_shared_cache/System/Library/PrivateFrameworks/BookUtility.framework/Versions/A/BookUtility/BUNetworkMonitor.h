@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_path, OS_nw_path_monitor;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BUNetworkMonitor
 {
     NSObject<OS_dispatch_queue> *_monitorQueue;
-    NSObject<OS_nw_path_monitor> *_pathMonitor;
-    NSObject<OS_nw_path> *_currentPath;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)placeholderBalloonViewClass;
+- (void)pinnedConversationActivityBroadShadowDarkOffset;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@"SiriUICompactViewController"16@"NSString"24@"AFUserUtterance"32@"AFUserUtteranceSelectionResults"40;
 - (void);
-- (_Bool)rrayByRecursivelyRemovingNSNulls: /* Error: Ran out of types for this method. */;
+- (_Bool)_bu_arrayByRecursivelyRemovingNSNulls: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_nw_path> *currentPath; // @synthesize currentPath=_currentPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *monitorQueue; // @synthesize monitorQueue=_monitorQueue;
-@property(retain, nonatomic) NSObject<OS_nw_path_monitor> *pathMonitor; // @synthesize pathMonitor=_pathMonitor;
-@property(readonly) Class superclass;
 
 @end
 

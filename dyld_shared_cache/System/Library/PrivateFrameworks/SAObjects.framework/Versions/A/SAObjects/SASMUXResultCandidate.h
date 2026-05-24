@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SASMUXResultCandidate : SABaseClientBoundCommand
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *rcID;
-@property(copy, nonatomic) NSDictionary *resultCandidates;
 
 @end
 

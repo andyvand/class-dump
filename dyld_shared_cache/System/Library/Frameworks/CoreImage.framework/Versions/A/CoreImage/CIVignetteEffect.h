@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIVignetteEffect : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputRadius;
-    NSNumber *inputIntensity;
-    NSNumber *inputFalloff;
 }
 
 + (id);
@@ -35,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)duq|ls}zy}VicmLXNcN`Ziyyyyzzzzyyvy ¢¢    m|x}}}}]mixhzylizw~{{{{mrlvQlc|£«««´´´´ªªªªxzw}Qe\u\utWb\fBNAUa]Ta{|||pyx}caYh=QEY?PESAPERBJ;RMSEYY^SeGbXtqyvxxxxLhco`icloomouuru}}}}}££££····¸¸¸¸£¦©©s££££djdopmhqmuq~apjz~~|_sm~Zlczv{w|zxurxwwwwwwwwEd]vUpl~x}zuw¨¨¨¨¹¹¹¹»»»»µµµµ´´´´¶¶¶¶°°°°§§§§[uns|¢¢¢¢¦¥¦¦£byvu~~{{{{uxxxwwwwuuuuXto} §®®¬´ºº····¤¤¤¤~~~~K_Qrdh\ukuuv^^U^)>+N8J=UffafB`Ynookppppp;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) NSNumber *inputFalloff; // @synthesize inputFalloff;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

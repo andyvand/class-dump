@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaActiveAudioDevice : SISchemaInstrumentationMessage
 {
     NSString *_vendorIdentifier;
-    NSString *_productIdentifier;
-    _Bool _hasVendorIdentifier;
-    _Bool _hasProductIdentifier;
 }
 
 - (void);
@@ -25,23 +22,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)~;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)amework;
+- (id)&;
+- (_Bool)eAttachmentSyndicationRanges:(id)arg1 shouldHideFromSyndication:] /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id)nUsedBySiri;
-- (id)ewIds;
-- (void)EVICE_SENSITIVITY_STATE_NOT_INTENDED_FOR_SIRI;
+- (id)4~CNqOugD81887uuqTGGakGQQvWRRgCpCFwldIh_s/Library/Caches/com.apple.xbs/TemporaryDirectory.yg06Le/Sources/vImage_CGInterfaces/Source/vImage_CVInterfaces.c;
+- (id)contactSuggestionUsedBySiri;
+- (id)_aceViewIds;
+- (void)DEVICE_SENSITIVITY_STATE_NOT_INTENDED_FOR_SIRI;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProductIdentifier; // @synthesize hasProductIdentifier=_hasProductIdentifier;
-@property(nonatomic) _Bool hasVendorIdentifier; // @synthesize hasVendorIdentifier=_hasVendorIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
 @property(copy, nonatomic) NSString *vendorIdentifier; // @synthesize vendorIdentifier=_vendorIdentifier;
 
 @end

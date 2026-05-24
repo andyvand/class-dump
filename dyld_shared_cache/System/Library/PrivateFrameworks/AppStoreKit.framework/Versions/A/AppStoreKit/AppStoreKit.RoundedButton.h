@@ -7,13 +7,6 @@
 @interface AppStoreKit.RoundedButton
 {
     id hasDivider;
-    id type;
-    id action;
-    id title;
-    id buttonColor;
-    id textColor;
-    id id;
-    id automationMetadata;
 }
 
 @end

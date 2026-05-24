@@ -5,6 +5,7 @@
 //
 
 @protocol UIAutoscrollContainer
+- (struct CGPoint);
 - (struct CGRect)!TFù1_Ð1Â0@ù
 × ;
 - (void)ð!TDùñcð1Â0@ù

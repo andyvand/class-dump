@@ -6,27 +6,11 @@
 
 #import <AssistantServices/AFEvent.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AFBTEvent : AFEvent
 {
     _Bool _hasProductID;
-    _Bool _starting;
-    _Bool _hasStarting;
-    _Bool _hasBatteryLevelHeadphoneCase;
-    _Bool _hasBatteryLevelHeadphoneRight;
-    _Bool _hasBatteryLevelHeadphoneLeft;
-    _Bool _appleAudioDevice;
-    _Bool _hasAppleAudioDevice;
-    _Bool _userWearing;
-    _Bool _hasUserWearing;
-    int _deviceType;
-    NSString *_address;
-    NSString *_name;
-    NSNumber *_productID;
-    NSNumber *_batteryLevelHeadphoneCase;
-    NSNumber *_batteryLevelHeadphoneRight;
-    NSNumber *_batteryLevelHeadphoneLeft;
 }
 
 - (_Bool);
@@ -34,11 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,34 +31,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)(=;
 - (id);
 - (int);
 - (_Bool);
 - (id)qn&1Â0@ù
 × ;
-- (void)g;
+- (void)AFBluetoothDeviceInfoMutating;
 - (id)w.JS.ServerFlow;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) _Bool appleAudioDevice; // @synthesize appleAudioDevice=_appleAudioDevice;
-@property(readonly, nonatomic) NSNumber *batteryLevelHeadphoneCase; // @synthesize batteryLevelHeadphoneCase=_batteryLevelHeadphoneCase;
-@property(readonly, nonatomic) NSNumber *batteryLevelHeadphoneLeft; // @synthesize batteryLevelHeadphoneLeft=_batteryLevelHeadphoneLeft;
-@property(readonly, nonatomic) NSNumber *batteryLevelHeadphoneRight; // @synthesize batteryLevelHeadphoneRight=_batteryLevelHeadphoneRight;
-@property(readonly, nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasAppleAudioDevice; // @synthesize hasAppleAudioDevice=_hasAppleAudioDevice;
-@property(nonatomic) _Bool hasBatteryLevelHeadphoneCase; // @synthesize hasBatteryLevelHeadphoneCase=_hasBatteryLevelHeadphoneCase;
-@property(nonatomic) _Bool hasBatteryLevelHeadphoneLeft; // @synthesize hasBatteryLevelHeadphoneLeft=_hasBatteryLevelHeadphoneLeft;
-@property(nonatomic) _Bool hasBatteryLevelHeadphoneRight; // @synthesize hasBatteryLevelHeadphoneRight=_hasBatteryLevelHeadphoneRight;
-@property(nonatomic) _Bool hasProductID; // @synthesize hasProductID=_hasProductID;
-@property(nonatomic) _Bool hasStarting; // @synthesize hasStarting=_hasStarting;
-@property(nonatomic) _Bool hasUserWearing; // @synthesize hasUserWearing=_hasUserWearing;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSNumber *productID; // @synthesize productID=_productID;
-@property(readonly, nonatomic) _Bool starting; // @synthesize starting=_starting;
-@property(readonly, nonatomic) _Bool userWearing; // @synthesize userWearing=_userWearing;
 
 @end
 

@@ -8,12 +8,13 @@
 {
 }
 
-+ (_Bool)ncludeEntryPoints:(id)arg1;
++ (_Bool)setIncludeEntryPoints:(id)arg1;
 - (void);
+- (id)
+;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)on on device %{private}@ (activation goodness score:(id)arg1 %f (deviceId:%{private}@), competing goodness score:%f (deviceId:%{private}@)) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -21,7 +22,7 @@
 - (id)b1"read_cellServiceProvider"b1"read_ftIRATRecommendationReason"b1"read_ftIRATRecommendation"b1"read_location"b1"wrote_anyField"b1};
 - (id)_lookaroundSessionEndTime;
 - (id)(ÍÎÈÏ;
-- (id)ternalTransitLookupResult;
+- (id)externalTransitLookupResult;
 
 @end
 

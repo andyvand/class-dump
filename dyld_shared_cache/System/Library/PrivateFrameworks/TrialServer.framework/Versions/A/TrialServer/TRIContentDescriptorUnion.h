@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIExperimentDeployment, TRIRolloutDeployment, TRITreatmentContentDescriptor;
-@protocol TRIFactorPackSetId;
-
 @interface TRIContentDescriptorUnion
 {
     unsigned char _type;
-    TRIExperimentDeployment *_experiment;
-    TRITreatmentContentDescriptor *_treatment;
-    TRIRolloutDeployment *_rollout;
-    NSString<TRIFactorPackSetId> *_factorPackSet;
 }
 
-+ (id);
++ (id)initWithCoordinate:(unsigned char)arg1 altitude:(id)arg2 horizontalAccuracy:(id)arg3 verticalAccuracy:(id)arg4 course:(id)arg5 speed:timestamp: /* Error: Ran out of types for this method. */;
+- (id)initWithPosterClassification:(unsigned char)arg1 initialRect:(id)arg2 imageSize:(id)arg3 effectiveAcceptableRect:(id)arg4 effectivePreferredRect:(id)arg5 validBoundsNormalized:headroomFeasible:hasTopEdgeContact:computeSpatial:spatialPadding:layoutType:allowedLayoutStrategies:layoutConfiguration: /* Error: Ran out of types for this method. */;
+- (id)initWithConfigurationDictionary: /* Error: Ran out of types for this method. */;
+- (id)imageByApplyingFilter:(id)arg1 withInputParameters: /* Error: Ran out of types for this method. */;
+- (id)headroomFeasible;
+- (id)hasselblad3FRRAWImageType;
+- (_Bool)composabilityTargetDurationMultiplier;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)K;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned char);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)×Ð! BùQ!1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) TRIExperimentDeployment *experiment; // @synthesize experiment=_experiment;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSet; // @synthesize factorPackSet=_factorPackSet;
-@property(readonly, nonatomic) TRIRolloutDeployment *rollout; // @synthesize rollout=_rollout;
-@property(readonly, nonatomic) TRITreatmentContentDescriptor *treatment; // @synthesize treatment=_treatment;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

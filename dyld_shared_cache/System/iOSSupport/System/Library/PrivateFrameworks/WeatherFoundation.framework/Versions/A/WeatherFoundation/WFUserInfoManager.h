@@ -5,14 +5,11 @@
 //
 
 @class NSObject, NSUbiquitousKeyValueStore;
-@protocol OS_dispatch_queue, WFUserInfoManagerDelegate;
+@protocol OS_dispatch_queue;
 
 @interface WFUserInfoManager
 {
     NSUbiquitousKeyValueStore *_encryptedStore;
-    id <WFUserInfoManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_ubiquitousKVSCommunicationsQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (id);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(retain, nonatomic) id <WFUserInfoManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSUbiquitousKeyValueStore *encryptedStore; // @synthesize encryptedStore=_encryptedStore;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ubiquitousKVSCommunicationsQueue; // @synthesize ubiquitousKVSCommunicationsQueue=_ubiquitousKVSCommunicationsQueue;
 
 @end

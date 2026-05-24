@@ -12,17 +12,14 @@
 
 + (id)`0;
 + (id)×;
+- (id)DeliveredChannelTotalTime;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) unsigned long long argumentIndexStride; // @dynamic argumentIndexStride;
-@property(readonly) unsigned long long arrayLength; // @dynamic arrayLength;
 @property(readonly) unsigned long long elementType; // @dynamic elementType;
-@property(readonly) unsigned long long stride; // @dynamic stride;
 
 @end
 

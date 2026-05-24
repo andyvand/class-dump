@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKPaymentLocalPassCredential.h>
 
-@class NSSet;
-
 @interface PKHomeKeyCredential : PKPaymentLocalPassCredential
 {
     _Bool _detailDescriptionAvailable;
-    NSSet *_paymentApplications;
 }
 
 - (id);

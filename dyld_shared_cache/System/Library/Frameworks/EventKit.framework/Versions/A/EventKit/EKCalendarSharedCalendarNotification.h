@@ -9,12 +9,10 @@
 @interface EKCalendarSharedCalendarNotification : EKCalendarNotification
 {
     unsigned long long _sharingInvitationResponse;
-    unsigned long long _allowedEntityTypes;
 }
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedEntityTypes; // @synthesize allowedEntityTypes=_allowedEntityTypes;
 @property(nonatomic) unsigned long long sharingInvitationResponse; // @synthesize sharingInvitationResponse=_sharingInvitationResponse;
 @end
 

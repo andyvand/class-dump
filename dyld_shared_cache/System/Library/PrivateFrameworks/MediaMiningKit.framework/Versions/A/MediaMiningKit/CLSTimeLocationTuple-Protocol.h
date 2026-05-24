@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol CLSTimeLocationTuple
+- (struct CLLocationCoordinate2D)requestMusicCurationWithOptions:operationID:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinates;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSDate *startDate;
 @property(readonly, nonatomic) NSString *timeLocationIdentifier;
 @end
 

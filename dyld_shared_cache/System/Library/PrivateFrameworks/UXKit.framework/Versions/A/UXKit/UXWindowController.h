@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTitlebarAccessoryViewController, NSToolbarItem, NSViewController, UXNavigationItem, UXToolbar, UXWindowToolbarController;
-@protocol UXViewController;
+@class NSTitlebarAccessoryViewController, NSToolbarItem;
 
 @interface UXWindowController
 {
     NSTitlebarAccessoryViewController *_titlebarAccessoryViewController;
-    UXToolbar *_currentAccessoryToolbar;
-    UXWindowToolbarController *_toolbarController;
-    NSToolbarItem *_navigationBarToolbarItem;
-    UXNavigationItem *_toolbarNavigationItem;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)#;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
+- (void)SH	;
 - (void);
-- (void);
-- (void);
+- (void)3�;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (double);
 - (id);
 - (void);
@@ -55,21 +50,10 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect)age:(id)arg1 imageOrientation:(id)arg2;
+- (struct CGRect)initWithCGImage:(id)arg1 imageOrientation:(id)arg2;
 
 // Remaining properties
-@property(readonly, nonatomic) double _accessoryBarHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSToolbarItem *navigationBarToolbarItem; // @synthesize navigationBarToolbarItem=_navigationBarToolbarItem;
-@property(retain, nonatomic) NSViewController<UXViewController> *rootViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTitlebarAccessoryViewController *titlebarAccessoryViewController;
-@property(retain, nonatomic) UXNavigationItem *toolbarNavigationItem; // @synthesize toolbarNavigationItem=_toolbarNavigationItem;
 
 @end
 

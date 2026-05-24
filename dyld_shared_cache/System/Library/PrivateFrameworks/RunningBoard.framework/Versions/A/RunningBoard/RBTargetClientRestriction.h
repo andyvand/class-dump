@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)FrameNonSkipPerceivedGlitchStats;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)mpletion precision  operating point to %i percent;
 - (id);
 - (void);
 

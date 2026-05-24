@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAttachmentRecord, NSString;
+@class IMDAttachmentRecord;
 
 @interface IMDExportedAttachmentRecord
 {
     IMDAttachmentRecord *attachmentRecord;
-    void messageGUID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) IMDAttachmentRecord *attachmentRecord; // @synthesize attachmentRecord;
-@property(nonatomic, readonly) NSString *messageGUID;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol BRFileCoordinationProvider
+- (void));
 @end
 

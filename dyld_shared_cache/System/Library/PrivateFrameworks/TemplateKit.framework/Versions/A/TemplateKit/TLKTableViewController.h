@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTableView;
+@class NSTableView;
 
 @interface TLKTableViewController
 {
@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)o data instances to seal over but it's match attribute case;
+- (id)assInstanceWithoutSikPub create failed;
+- (id)iled;
 - (long long);
 - (long long);
 - (id);
@@ -28,23 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long numberOfRows;
-@property(readonly) long long selectedRow;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableDictionary, NSPopover, NSRemoteViewControllerWithDelegate, NSString;
-@protocol IKPictureTakerServiceInterface;
-
 @interface IKPictureTaker
 {
     void *_ikReserved;
-    NSRemoteViewControllerWithDelegate<IKPictureTakerServiceInterface> *_remoteViewController;
-    id _pictureTakerDelegate;
-    SEL _didEndSelector;
-    void *_clientContextInfo;
-    _Bool _modalMode;
-    _Bool _sheetMode;
-    _Bool _popoverMode;
-    _Bool _mirroring;
-    NSImage *_originalImage;
-    NSImage *_outputImage;
-    _Bool _imageHasChanged;
-    struct CGRect _cropRect;
-    struct CGRect _screenCropRect;
-    NSString *_recentPictureID;
-    NSMutableDictionary *_pictureTakerConfiguration;
-    NSPopover *_popover;
 }
 
 + (id);
@@ -37,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,14 +35,14 @@
 - (void);
 - (struct CGRect);
 - (id);
+- (_Bool)R;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)__TEXT;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)e change:(struct CGRect)arg1 %@ - %@;
 - (id);
 - (long long);
 - (void);
@@ -78,20 +59,14 @@
 - (id);
 - (void);
 - (void)0:8@"NSWindow"16d24 /* Error: Ran out of types for this method. */;
-- (void)geFlow:(id)arg1 accessibilityItemAtIndex:parentItem: /* Error: Ran out of types for this method. */;
+- (void)imageFlow:(id)arg1 accessibilityItemAtIndex:parentItem: /* Error: Ran out of types for this method. */;
 - (_Bool)ntrolLabel;
 - (_Bool)ÀÝ;
 - (_Bool)are different. (%ld, %ld);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

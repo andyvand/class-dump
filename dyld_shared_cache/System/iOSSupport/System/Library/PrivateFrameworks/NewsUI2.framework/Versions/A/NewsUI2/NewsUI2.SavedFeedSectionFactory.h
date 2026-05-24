@@ -7,8 +7,6 @@
 @interface NewsUI2.SavedFeedSectionFactory
 {
     id engagementInlineViewManager;
-    id headlineModelFactory;
-    id tagService;
 }
 
 @end

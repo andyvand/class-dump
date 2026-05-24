@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSSet;
-@protocol _UICollectionLayoutAuxillaryOffsets;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionPreferredSizes
 {
     NSMutableDictionary *_sizes;
-    NSMutableIndexSet *_indexes;
-    NSMutableDictionary *_supplementarySizesDict;
-    long long _frameOffset;
-    id <_UICollectionLayoutAuxillaryOffsets> _supplementaryBaseOffsets;
-    struct CGSize _largestItemSize;
 }
 
 - (id);
-- (id);
+- (id)yer.MPAVOutputDeviceRoutingDataSource/discoverySessionQueue;
 - (id);
 - (id);
 - (void);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)ect={CGPoint=dd}{CGSize=dd}}16@48^{CGImage=}56B64;
 - (_Bool)40@48;
-- (_Bool)bviews;
+- (_Bool)_visualEffectSubviews;
 - (id)ubleTap;
 - (id)alEffect",&,N,V_backgroundEffect;
 - (id)Change:(struct _NSRange)arg1 ]_block_invoke  Unexpected bundleIdentifier:%@ for applicationIdentifier:%@ /* Error: Ran out of types for this method. */;
@@ -42,11 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *elementKinds;
 @property(nonatomic) long long frameOffset; // @synthesize frameOffset=_frameOffset;
-@property(readonly, nonatomic) NSIndexSet *indexes;
-@property(readonly, nonatomic) struct CGSize largestItemSize; // @synthesize largestItemSize=_largestItemSize;
-@property(retain, nonatomic) id <_UICollectionLayoutAuxillaryOffsets> supplementaryBaseOffsets; // @synthesize supplementaryBaseOffsets=_supplementaryBaseOffsets;
 
 @end
 

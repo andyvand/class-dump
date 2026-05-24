@@ -6,22 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSImage, MPSMatrix;
-@protocol MPSNNLossCallback;
-
 @interface MPSNNForwardLoss : MPSCNNKernel
 {
     _Bool _reduceAcrossBatch;
-    id <MPSNNLossCallback> _propertyCallback;
-    MPSMatrix *_reductionBuffer;
-    MPSImage *_firstLossImage;
-    unsigned int _lossType;
-    int _reductionType;
-    float _weight;
-    float _labelSmoothing;
-    float _epsilon;
-    float _delta;
-    unsigned long long _numberOfClasses;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -40,12 +27,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (float);
+- (float)A;
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)Tj;
+- (unsigned long long)copyFromBuffer:sourceOffset:toBuffer:destinationOffset:size: /* Error: Ran out of types for this method. */;
 - (void);
 - (float);
 - (id);
@@ -53,14 +40,7 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) float delta; // @synthesize delta=_delta;
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(nonatomic) float labelSmoothing; // @synthesize labelSmoothing=_labelSmoothing;
 @property(readonly, nonatomic) unsigned int lossType; // @synthesize lossType=_lossType;
-@property(readonly, nonatomic) unsigned long long numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(readonly, nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

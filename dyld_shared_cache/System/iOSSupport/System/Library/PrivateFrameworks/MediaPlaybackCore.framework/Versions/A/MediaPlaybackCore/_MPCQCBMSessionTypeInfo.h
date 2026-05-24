@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackAccount, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPCQCBMSessionTypeInfo
 {
     _Bool _supported;
-    _Bool _exportable;
-    NSString *_identifier;
-    MPCPlaybackAccount *_account;
-    NSString *_supportedReason;
-    NSString *_exportableReason;
 }
 
 + (id);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -33,12 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) MPCPlaybackAccount *account; // @synthesize account=_account;
-@property(nonatomic) _Bool exportable; // @synthesize exportable=_exportable;
-@property(copy, nonatomic) NSString *exportableReason; // @synthesize exportableReason=_exportableReason;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool supported; // @synthesize supported=_supported;
-@property(copy, nonatomic) NSString *supportedReason; // @synthesize supportedReason=_supportedReason;
 
 @end
 

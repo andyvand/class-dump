@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface EWSAutodiscoverResponse
 {
     NSString *_displayName;
-    NSString *_emailAddress;
-    NSString *_user;
-    NSURL *_internalURL;
-    NSURL *_externalURL;
-    NSURL *_autodiscoverURL;
 }
 
 - (id);
@@ -21,20 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@80@0:8@16Q24@32@40@48^@56@64Q72 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)e;
+- (void)EWSImAddressDictionaryEntryType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *autodiscoverURL; // @synthesize autodiscoverURL=_autodiscoverURL;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, nonatomic) NSURL *externalURL; // @synthesize externalURL=_externalURL;
-@property(readonly, nonatomic) NSURL *internalURL; // @synthesize internalURL=_internalURL;
-@property(copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end
 

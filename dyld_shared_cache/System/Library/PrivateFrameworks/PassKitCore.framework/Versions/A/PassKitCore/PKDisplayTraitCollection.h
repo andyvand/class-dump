@@ -7,7 +7,6 @@
 @interface PKDisplayTraitCollection
 {
     double _canvasScale;
-    struct CGSize _canvasSize;
 }
 
 + (_Bool)0@ù
@@ -16,13 +15,12 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)h;
 - (double);
 - (void);
 - (void)dPaymentSession"16B24;
 
 // Remaining properties
-@property(nonatomic) double canvasScale; // @synthesize canvasScale=_canvasScale;
 @property(nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;
 
 @end

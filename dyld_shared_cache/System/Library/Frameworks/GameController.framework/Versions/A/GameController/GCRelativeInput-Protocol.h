@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol GCRelativeInput
+- (void (^)(id <GCPhysicalInputElement>, id <GCRelativeInput>, float));
 - (float)20PhysicalInputElement»	;
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) float delta;
 @property(copy) CDUnknownBlockType deltaDidChangeHandler;
-@property(readonly) double lastDeltaLatency;
-@property(readonly) double lastDeltaTimestamp;
-@property(readonly, copy) NSSet *sources;
 @end
 

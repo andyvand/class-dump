@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, HMSettings, HMUser, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPHomeUserMonitor
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    HMUser *_user;
-    HMSettings *_privateHomeSettings;
-    HMSettings *_sharedSettings;
-    HMHomeManager *_homeManager;
-    _Bool _allowExplicitCachedValue;
-    _Bool _currentAccessoryPrivateListeningCachedValue;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)ivateFrameworks/TCC.framework/Versions/A/TCC;
 - (void);
 - (void);
 - (void);
@@ -42,22 +35,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)etFlavorType__MAPPING_MISSING__;
+- (void)__MPModelPropertyStaticAssetFlavorType__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isExplicitSettingEnabled) _Bool explicitSettingEnabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPrivateListeningEnabledForCurrentAccessory) _Bool privateListeningEnabledForCurrentAccessory;
-@property(readonly) Class superclass;
 
 @end
 

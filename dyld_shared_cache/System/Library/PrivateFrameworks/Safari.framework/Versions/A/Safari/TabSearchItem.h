@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TabSearchItem
 {
     id _representedObject;
-    NSString *_title;
 }
 
 + (id);
@@ -23,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

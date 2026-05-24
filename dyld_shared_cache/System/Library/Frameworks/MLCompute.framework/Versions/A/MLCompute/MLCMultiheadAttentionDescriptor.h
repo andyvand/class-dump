@@ -7,15 +7,6 @@
 @interface MLCMultiheadAttentionDescriptor
 {
     _Bool _hasBiases;
-    _Bool _hasAttentionBiases;
-    _Bool _addsZeroAttention;
-    _Bool _hasKeyPaddingMask;
-    _Bool _hasAttentionMask;
-    float _dropout;
-    unsigned long long _modelDimension;
-    unsigned long long _keyDimension;
-    unsigned long long _valueDimension;
-    unsigned long long _headCount;
 }
 
 + (id);
@@ -24,7 +15,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,22 +24,13 @@
 - (_Bool);
 - (float);
 - (unsigned long long);
-- (id);
+- (id) ;
 - (unsigned long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool addsZeroAttention; // @synthesize addsZeroAttention=_addsZeroAttention;
-@property(readonly, nonatomic) float dropout; // @synthesize dropout=_dropout;
-@property(readonly, nonatomic) _Bool hasAttentionBiases; // @synthesize hasAttentionBiases=_hasAttentionBiases;
-@property(nonatomic) _Bool hasAttentionMask; // @synthesize hasAttentionMask=_hasAttentionMask;
-@property(readonly, nonatomic) _Bool hasBiases; // @synthesize hasBiases=_hasBiases;
 @property(nonatomic) _Bool hasKeyPaddingMask; // @synthesize hasKeyPaddingMask=_hasKeyPaddingMask;
-@property(readonly, nonatomic) unsigned long long headCount; // @synthesize headCount=_headCount;
-@property(readonly, nonatomic) unsigned long long keyDimension; // @synthesize keyDimension=_keyDimension;
-@property(readonly, nonatomic) unsigned long long modelDimension; // @synthesize modelDimension=_modelDimension;
-@property(readonly, nonatomic) unsigned long long valueDimension; // @synthesize valueDimension=_valueDimension;
 
 @end
 

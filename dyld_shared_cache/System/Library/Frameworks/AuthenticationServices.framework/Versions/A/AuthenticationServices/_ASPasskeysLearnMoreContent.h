@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)rollKeys_async_completion: /* Error: Ran out of types for this method. */;
 
 @end
 

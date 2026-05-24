@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @protocol HMDSettingModelBaseProtocol
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *hmbModelID;
-@property(readonly, nonatomic) NSUUID *hmbParentModelID;
-@property(readonly, nonatomic) NSString *nameForKeyPath;
 @end
 

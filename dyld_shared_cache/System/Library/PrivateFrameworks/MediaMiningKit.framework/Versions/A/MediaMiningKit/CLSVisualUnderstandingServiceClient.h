@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)for crop score, %d for not safe for display, %d for positive people scene, %d for low light, %d for sensitive location;
 - (void);
 
 @end

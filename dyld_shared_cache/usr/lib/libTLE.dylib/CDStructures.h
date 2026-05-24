@@ -7,15 +7,15 @@
 #pragma mark Named Structures
 
 struct CEAccelerationContext {
-    struct CEAccelerationElement *index;
-    unsigned long long index_count;
+    struct CEAccelerationElement *_field1;
+    unsigned long long _field2;
 };
 
 struct CEAccelerationElement;
 
 struct CEQueryContext {
-    struct der_vm_context der_context;
-    _Bool managed;
+    struct der_vm_context _field1;
+    _Bool _field2;
 };
 
 struct CERuntime;
@@ -30,31 +30,24 @@ struct Fact {
     } value;
 };
 
-struct LWCR {
-    long long _version;
-    long long _compatVersion;
-    long long _constraintCat;
-    struct CEQueryContext ctx;
-};
-
 struct ccder_read_blob {
-    char *der;
-    char *der_end;
+    char *_field1;
+    char *_field2;
 };
 
 struct der_vm_context {
-    struct CERuntime *runtime;
-    struct CEAccelerationContext lookup;
-    unsigned long long dictionary_tag;
-    _Bool sorted;
-    _Bool valid;
+    struct CERuntime *_field1;
+    struct CEAccelerationContext _field2;
+    unsigned long long _field3;
+    _Bool _field4;
+    _Bool _field5;
     union {
-        struct ccder_read_blob ccstate;
+        struct ccder_read_blob _field1;
         struct {
-            char *der_start;
-            char *der_end;
-        } state;
-    } ;
+            char *_field1;
+            char *_field2;
+        } _field2;
+    } _field6;
 };
 
 #pragma mark Typedef'd Structures

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsService, NSMutableDictionary, geo_isolater;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MNDirectionsRequestManager
 {
     NSMutableDictionary *_pendingRequests;
-    geo_isolater *_pendingRequestsIsolater;
-    GEODirectionsService *_directionsService;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)1;
+- (void)X[7;
+- (void)TabBarOnlyTabViewStyle;
 - (id);
 - (void)OTransitIconDataSource>"16@0:8 /* Error: Ran out of types for this method. */;
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, NSView, TabDialogInstaller, WBSPair;
+@class BrowserViewController, NSView;
 
 __attribute__((visibility("hidden")))
 @interface BrowserContainerViewController
 {
     NSView *_firstResponderViewBeforeDimmingViewPresentation;
-    WBSPair *_currentURLToUsageState;
-    TabDialogInstaller *_tabDialogInstaller;
 }
 
 - (void);
@@ -35,20 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) BrowserViewController *browserViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didFireCloseEvent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBrowserViewVisible;
-@property(readonly, nonatomic) _Bool isShowingTabDialog;
-@property(readonly, nonatomic) _Bool isWindowClosing;
-@property(readonly, nonatomic) _Bool isWindowMainWindow;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView *tabDialogHostingView;
-@property(readonly, nonatomic) TabDialogInstaller *tabDialogInstaller; // @synthesize tabDialogInstaller=_tabDialogInstaller;
 
 @end
 

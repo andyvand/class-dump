@@ -6,17 +6,16 @@
 
 #import <HomeKit/HMHomeInvitation.h>
 
-@class HMMutableArray, HMUser, NSArray, NSDictionary;
+@class HMMutableArray, NSDictionary;
 
 @interface HMOutgoingHomeInvitation : HMHomeInvitation
 {
     HMMutableArray *_accessoryInvitations;
-    HMUser *_invitee;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)BoundedCodingKeys;
 - (_Bool);
 - (id);
 - (void);
@@ -32,9 +31,7 @@
 - (void)hÙÙÚ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessoryInvitations;
 @property(readonly, copy) NSDictionary *appleSharingDict;
-@property(readonly, nonatomic) HMUser *invitee; // @synthesize invitee=_invitee;
 
 @end
 

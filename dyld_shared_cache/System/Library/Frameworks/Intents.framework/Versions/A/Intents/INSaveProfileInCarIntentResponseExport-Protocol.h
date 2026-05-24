@@ -5,7 +5,7 @@
 //
 
 @protocol INSaveProfileInCarIntentResponseExport
-- (long long)tedReason;
+- (long long)hasSearchForMediaIntentMediaItemsUnsupportedReason;
 
 // Remaining properties
 @property(readonly) long long code;

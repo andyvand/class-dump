@@ -7,8 +7,6 @@
 @interface CHRecognizerOptions
 {
     _Bool _enableCachingIfAvailable;
-    _Bool _enableGen2ModelIfAvailable;
-    _Bool _enableGen2CharacterLMIfAvailable;
 }
 
 - (void);
@@ -17,12 +15,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 
 // Remaining properties
 @property(nonatomic) _Bool enableCachingIfAvailable; // @synthesize enableCachingIfAvailable=_enableCachingIfAvailable;
-@property(nonatomic) _Bool enableGen2CharacterLMIfAvailable; // @synthesize enableGen2CharacterLMIfAvailable=_enableGen2CharacterLMIfAvailable;
-@property(nonatomic) _Bool enableGen2ModelIfAvailable; // @synthesize enableGen2ModelIfAvailable=_enableGen2ModelIfAvailable;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKSharedUserData.h>
 
-@class MKFCKSharedUserDataRoot, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKSharedUserPhotosPerson : MKFCKSharedUserData
@@ -15,19 +15,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id);
+- (id)MSPShareETAIncludeMockTripForUITestingKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSUUID *photoLibraryPersonUUID; // @dynamic photoLibraryPersonUUID;
-@property(retain, nonatomic) MKFCKSharedUserDataRoot *root; // @dynamic root;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void)ƛ;
+- (void)`;
 - (void);
 @end
 

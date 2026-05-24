@@ -13,31 +13,31 @@
 
 + (id);
 + (_Bool);
-+ (void)wnloadSessionPriorityKey;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (void)AVAssetDownloadSessionPriorityKey;
+- (void)appendData:(struct CGAffineTransform)arg1;
+- (void)ane_performance_info;
+- (void)_results;
+- (void)_restartActiveRecognition;
+- (void)_isConfident;
+- (void)_interpretationIndices;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
-- (id);
+- (id)?|�?h;
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (int);
 

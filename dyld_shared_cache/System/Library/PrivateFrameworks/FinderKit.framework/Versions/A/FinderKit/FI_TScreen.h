@@ -9,24 +9,24 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (struct CGRect);
-+ (struct CGRect);
-+ (unsigned int);
-+ (double);
-+ (id);
-+ (double);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (double);
-+ (double);
-+ (struct CGSize);
-+ (struct CGRect);
-+ (struct CGRect);
-+ (set_868545f3);
-+ (id);
++ (id)cancelPreviousPerformRequestsWithTarget:(unsigned int)arg1 selector:object: /* Error: Ran out of types for this method. */;
++ (struct CGRect)bezierPathWithOvalInRect: /* Error: Ran out of types for this method. */;
++ (struct CGRect)bestImageForCursorScale: /* Error: Ran out of types for this method. */;
++ (unsigned int)beginNonDrawingTransaction;
++ (double)becomeFirstResponder;
++ (id)baselineOffsetInLayoutManager:glyphIndex: /* Error: Ran out of types for this method. */;
++ (double)appendBezierPathWithArcFromPoint:toPoint:radius: /* Error: Ran out of types for this method. */;
++ (id)accessibilityParent;
++ (id)accessibilityDisplayShouldDifferentiateWithoutColor;
++ (_Bool)_zoomRegionFrameWithZoomOrigin:(id)arg1 zoomFactor:(double)arg2 zoomDisplayID:displayStyle: /* Error: Ran out of types for this method. */;
++ (id)_updateWindowFrameAnimated:(const struct CGRect *)arg1;
++ (double)_updateTrackVisibility;
++ (double)_updateTextLayerWithBounds:(const struct CGRect *)arg1;
++ (struct CGSize)_updateMagicZoomWindow;
++ (struct CGRect)_updateLayoutOfViews;
++ (struct CGRect)_updateImageLayerWithBounds:(const struct CGPoint *)arg1;
++ (set_868545f3)_updateImageLayerFrame;
++ (id)_stopButton;
 
 @end
 

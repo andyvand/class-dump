@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PGGraphConsistencyCheckResult
 {
     double _overallSimilarityScore;
-    NSDictionary *_similarityScoreByDomain;
 }
 
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)_dockElementDestroyed: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)HourCos;
 
 // Remaining properties
 @property(nonatomic) double overallSimilarityScore; // @synthesize overallSimilarityScore=_overallSimilarityScore;
-@property(retain, nonatomic) NSDictionary *similarityScoreByDomain; // @synthesize similarityScoreByDomain=_similarityScoreByDomain;
 
 @end
 

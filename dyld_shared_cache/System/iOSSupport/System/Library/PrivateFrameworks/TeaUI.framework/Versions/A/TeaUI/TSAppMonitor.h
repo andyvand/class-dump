@@ -7,24 +7,20 @@
 @interface TSAppMonitor
 {
     _Bool isActive;
-    _Bool isTracking;
-    id onWindowDidBecomeBackgroundBlock;
-    id onWindowWillBecomeForegroundBlock;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)tagRecentStoriesOntologyLevelConfig;
 - (_Bool);
-- (_Bool)tCardItem;
+- (_Bool)_TtC5TeaUI13UIKitCardItem;
 - (void);
 - (void)ÉÿbxÊÿbìêÉÿUbtÊÿbT Çÿ]blÊÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive; // @synthesize isActive;
-@property(nonatomic) _Bool isTracking; // @synthesize isTracking;
 
 @end
 

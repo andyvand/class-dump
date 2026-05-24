@@ -5,5 +5,6 @@
 //
 
 @protocol PKServiceDelegate
+- (id);
 @end
 

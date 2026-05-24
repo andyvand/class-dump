@@ -10,7 +10,6 @@
 @interface CSIndexAgent
 {
     id <MDIndexer> _indexer;
-    NSMutableDictionary *_indexConnections;
 }
 
 + (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *indexConnections; // @synthesize indexConnections=_indexConnections;
-@property(retain, nonatomic) id <MDIndexer> indexer; // @synthesize indexer=_indexer;
 
 @end
 

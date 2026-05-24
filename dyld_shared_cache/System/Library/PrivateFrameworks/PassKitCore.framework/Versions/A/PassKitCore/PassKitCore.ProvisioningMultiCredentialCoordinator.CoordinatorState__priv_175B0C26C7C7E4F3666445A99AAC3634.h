@@ -7,11 +7,6 @@
 @interface PassKitCore.ProvisioningMultiCredentialCoordinator.CoordinatorState__priv_175B0C26C7C7E4F3666445A99AAC3634
 {
     id credential;
-    id coordinator;
-    id provisioningResult;
-    id currentStageIndex;
-    id stages;
-    id isInvalidated;
 }
 
 @end

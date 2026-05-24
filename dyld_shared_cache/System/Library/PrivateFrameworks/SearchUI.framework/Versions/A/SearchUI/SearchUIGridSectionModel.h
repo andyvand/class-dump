@@ -9,7 +9,6 @@
 @interface SearchUIGridSectionModel : SearchUISectionModel
 {
     int _gridStyle;
-    unsigned long long _numberOfColumns;
 }
 
 + (long long);
@@ -23,15 +22,14 @@
 - (int);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id)B;
+- (_Bool)CARBON_MONOXIDE_SENSOR;
+- (void)els dont match, pb:(int)arg1 %d fp:%d /* Error: Ran out of types for this method. */;
+- (_Bool){public}@ references %tu assets which are required for enrollment and are not already on disk.;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) int gridStyle; // @synthesize gridStyle=_gridStyle;
 @property(nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionViewLayout, UISwipeActionController, UISwipeOccurrence;
+@class UICollectionViewLayout;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewLayoutSwipeActionsModule
@@ -14,8 +14,6 @@ __attribute__((visibility("hidden")))
         unsigned int hasDeferredLayoutUpdateOrRefresh:1;
         unsigned int preserveExistingLayoutAttributesForSwipedViews:1;
     } _flags;
-    UICollectionViewLayout *_host;
-    UISwipeActionController *_swipeActionController;
 }
 
 - (id);
@@ -23,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ponse for chunks;
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)t",R,N,V_modelObject;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)6;
 - (struct UIEdgeInsets);
 - (id);
 - (id);
@@ -43,14 +41,14 @@ __attribute__((visibility("hidden")))
 - (id)!HFùQgÐ1Â0@ù
 × ;
 - (void)DirectionalEdgeInsets=dddd}24@0:(id)arg1 8@"UITraitCollection"16;
-- (void)kenForIdentifierOfCAContext: /* Error: Ran out of types for this method. */;
-- (id)lledFeedback: /* Error: Ran out of types for this method. */;
-- (id)tPoint:(id)arg1 completionHandler:(struct CGPoint)arg2;
-- (void)edCallback;
-- (id)IndexPath:(id)arg1;
+- (void)tokenForIdentifierOfCAContext: /* Error: Ran out of types for this method. */;
+- (id)setInteractionCancelledFeedback: /* Error: Ran out of types for this method. */;
+- (id)selectTextInGranularity:(id)arg1 atPoint:(struct CGPoint)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)modelValueChangedCallback;
+- (id)layoutAttributesForSupplementaryElementOfKind:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
 - (void)ryType:(id)arg1;
-- (id)latterWithMenuViewPresentedForActionSheet:(id)arg1;
-- (void);
+- (id)centerForPlatterWithMenuViewPresentedForActionSheet:(id)arg1;
+- (void)_animatesContents;
 - (long long)erTransform:(id)arg1;
 - (_Bool)sArrow;
 - (void);
@@ -62,21 +60,12 @@ __attribute__((visibility("hidden")))
 - (_Bool)24;
 - (void);
 - (void)putModelP;
-- (void)urce_t;
+- (void)So6UIViewC6source_t;
 - (void)üpþ;
 - (void)ÿf;ÝÈ*^;
 
 // Remaining properties
-@property(readonly, nonatomic) UISwipeOccurrence *currentSwipeOccurrence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UICollectionViewLayout *host; // @synthesize host=_host;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UISwipeActionController *swipeActionController; // @synthesize swipeActionController=_swipeActionController;
 
 @end
 

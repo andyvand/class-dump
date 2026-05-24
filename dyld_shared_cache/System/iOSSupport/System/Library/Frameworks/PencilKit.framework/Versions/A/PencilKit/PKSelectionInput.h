@@ -7,12 +7,10 @@
 @interface PKSelectionInput
 {
     long long _selectionType;
-    long long _inputType;
-    struct CGPoint _location;
 }
 
 + (id);
-- (long long);
+- (long long)lib;
 - (long long);
 - (void);
 - (void);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long inputType; // @synthesize inputType=_inputType;
-@property(nonatomic) struct CGPoint location; // @synthesize location=_location;
 @property(nonatomic) long long selectionType; // @synthesize selectionType=_selectionType;
 
 @end

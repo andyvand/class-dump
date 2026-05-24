@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNFileServices
 {
 }
 
 + (id);
-+ (id);
++ (id)@;
+- (id);
+- (int);
+- (id);
+- (id);
+- (id);
+- (id);
+- (int);
+- (int);
+- (int)x;
 - (id);
 - (int);
 - (id);
-- (id);
-- (id);
-- (id);
 - (int);
-- (int);
-- (int);
-- (id);
-- (int);
-- (id);
-- (int);
-- (id);
+- (id)ntDelegate SK_DM_AsyncCallbackWithDict:] /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

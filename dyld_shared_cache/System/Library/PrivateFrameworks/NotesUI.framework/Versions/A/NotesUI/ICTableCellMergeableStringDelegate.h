@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSUUID;
 @protocol ICTableCellMergeableStringObserving;
 
 @interface ICTableCellMergeableStringDelegate
 {
     id <ICTableCellMergeableStringObserving> _changeObserver;
-    NSUUID *_columnID;
-    NSUUID *_rowID;
-    unsigned long long _editingCount;
-    NSMutableArray *_undoCommands;
 }
 
 - (void);
@@ -21,8 +16,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)%;
+- (void)ation.framework/Versions/A/NewsFoundation;
 - (id);
 - (void);
 - (id);
@@ -31,21 +26,10 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)Container:proposedLineFragment:position: /* Error: Ran out of types for this method. */;
+- (void)attachmentBoundsForAttributes:location:textContainer:proposedLineFragment:position: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <ICTableCellMergeableStringObserving> changeObserver; // @synthesize changeObserver=_changeObserver;
-@property(readonly, nonatomic) NSUUID *columnID; // @synthesize columnID=_columnID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long editingCount; // @synthesize editingCount=_editingCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *rowID; // @synthesize rowID=_rowID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *undoCommands; // @synthesize undoCommands=_undoCommands;
 
 @end
 

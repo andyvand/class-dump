@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface TimingCollection
 {
     NSMutableDictionary *timings;
-    NSObject<OS_dispatch_queue> *queue;
 }
 
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -25,7 +23,7 @@
 - (double);
 - (void);
 - (_Bool);
-- (void)uration;
+- (void)_eyeContactDuration;
 
 @end
 

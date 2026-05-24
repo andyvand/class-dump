@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface FPDaemonOperationManager
 {
     _Bool _started;
-    NSMutableSet *_localOperationIDs;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _notifToken;
 }
 
 + (id)0@ù

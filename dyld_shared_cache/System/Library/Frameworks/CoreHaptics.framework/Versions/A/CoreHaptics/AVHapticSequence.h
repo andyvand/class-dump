@@ -9,16 +9,6 @@
 @interface AVHapticSequence
 {
     AVHapticPlayer *_player;
-    unsigned long long _seqID;
-    double _lastStartTime;
-    unsigned long long _eventBehavior;
-    _Bool _loopIsEnabled;
-    _Bool _isMuted;
-    float _loopLength;
-    float _playbackRate;
-    double _duration;
-    unsigned long long _channelCount;
-    unsigned long long _activeChannel;
 }
 
 - (_Bool);
@@ -32,9 +22,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -46,38 +36,27 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)N3fst19FactorWeightFstImplINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE4EEENS_12GallicFactorIiS4_LS6_4EEEEE;
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)loy.nearby.family;
+- (unsigned long long)T;
+- (void)createRadioStationWithDictionary:(CDUnknownBlockType)arg1 context: /* Error: Ran out of types for this method. */;
 - (float);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)rSeekOffset;
+- (void)clearSeekOffset;
 - (void)ime:(unsigned long long)arg1 %.3f;
 - (unsigned long long)dioEventType:time:eventParams:duration:] /* Error: Ran out of types for this method. */;
 - (unsigned long long)®;
 
 // Remaining properties
-@property unsigned long long activeChannel; // @synthesize activeChannel=_activeChannel;
-@property(readonly) unsigned long long channelCount; // @synthesize channelCount=_channelCount;
-@property(copy) CDUnknownBlockType completionHandler;
-@property double duration; // @synthesize duration=_duration;
-@property unsigned long long eventBehavior;
-@property(readonly) _Bool invalidated;
-@property _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property double lastStartTime; // @synthesize lastStartTime=_lastStartTime;
-@property _Bool loopingEnabled;
-@property float playbackRate;
 @property __weak AVHapticPlayer *player; // @synthesize player=_player;
-@property unsigned long long seqID; // @synthesize seqID=_seqID;
 
 @end
 

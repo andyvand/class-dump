@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSViewController;
+@class NSResponder;
 @protocol UXLayoutSupport, UXViewControllerTransitionCoordinator;
 
 @protocol UXViewController
+- (NSResponder *)#;
+- (void)`%;
+- (id <UXLayoutSupport>);
 - (void)tion"b1"delegateImplementsTitleForFooterInSection"b1"delegateImplementsHeaderViewForSection"b1"delegateImplementsFooterViewForSection"b1"delegateImplementsHeightForHeaderInSection"b1"delegateImplementsHeightForRowAtIndexPath"b1"delegateImplementsDidSelectionRowAtIndexPath"b1"delegateImplementsShouldHighlightRowAtIndexPath"b1"delegateImplementsDidHighlightRowAtIndexPath"b1"delegateImplementsDidUnhighlightRowAtIndexPath"b1"delegateImplementsEditingStyleForRowAtIndexPath"b1"delegateImplementsDidDeselectRowAtIndexPath"b1};
-- (id <UXViewControllerTransitionCoordinator>)InitialDelay;
-- (void)ableImage;
+- (id <UXViewControllerTransitionCoordinator>)_rearrangingInitialDelay;
+- (void)_UXResizableImage;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UXLayoutSupport> bottomLayoutGuide;
-@property(readonly, nonatomic) NSViewController *contentRepresentingViewController;
 @property(readonly, nonatomic) NSResponder *preferredFirstResponder;
-@property(readonly, nonatomic) id <UXLayoutSupport> topLayoutGuide;
-@property(readonly, nonatomic) id <UXViewControllerTransitionCoordinator> transitionCoordinator;
-@property(readonly, nonatomic, getter=isWindowConsideredInFullScreen) _Bool windowConsideredInFullScreen;
-@property(readonly, nonatomic, getter=isWindowInFullScreen) _Bool windowInFullScreen;
 @end
 

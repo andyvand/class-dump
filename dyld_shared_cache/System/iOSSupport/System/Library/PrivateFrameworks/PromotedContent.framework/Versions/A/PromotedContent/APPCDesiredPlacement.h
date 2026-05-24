@@ -7,16 +7,14 @@
 @interface APPCDesiredPlacement
 {
     long long type;
-    long long count;
 }
 
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)URLSession:task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) long long count; // @synthesize count;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

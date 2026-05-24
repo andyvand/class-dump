@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long even;
-@property(readonly, nonatomic) unsigned long long odd;
 @end
 

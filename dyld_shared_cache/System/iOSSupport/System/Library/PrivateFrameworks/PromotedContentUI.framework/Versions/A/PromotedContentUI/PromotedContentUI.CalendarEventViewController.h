@@ -7,20 +7,14 @@
 @interface PromotedContentUI.CalendarEventViewController
 {
     id actionResult;
-    id calendarEvent;
-    id eventStore;
-    id notificationObserver;
-    id notificationOpenObserver;
-    id backgroundedTime;
-    id actionDelegate;
 }
 
-- (void);
+- (void)startDateForRecurrence;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)al-event-contentMayVary;
 - (void);
 
 @end

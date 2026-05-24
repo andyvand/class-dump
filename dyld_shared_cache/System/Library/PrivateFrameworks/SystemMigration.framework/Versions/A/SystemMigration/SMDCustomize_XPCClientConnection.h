@@ -6,17 +6,16 @@
 
 #import <SystemMigration/SMDXPCClientConnection.h>
 
-@class SMPaths, SMWindowsAnalyzer;
+@class SMPaths;
 
 @interface SMDCustomize_XPCClientConnection : SMDXPCClientConnection
 {
     SMPaths *_pather;
-    SMWindowsAnalyzer *_windowsAnalyzer;
 }
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,8 +28,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)(i;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain) SMPaths *pather; // @synthesize pather=_pather;
-@property(retain) SMWindowsAnalyzer *windowsAnalyzer; // @synthesize windowsAnalyzer=_windowsAnalyzer;
 
 @end
 

@@ -6,29 +6,22 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSGridView, NSPopUpButton, NSSegmentedControl;
-
 @interface NSPDFPanelAccessoryViewController : NSViewController
 {
     NSViewController *_customAccessoryViewController;
-    NSPopUpButton *_pageSizePopup;
-    NSGridView *_pageAndOrientationContainer;
-    NSSegmentedControl *_orientationControl;
-    _Bool _showOrientation;
-    _Bool _showPaperSize;
 }
 
+- (id)SessionFlowDivertTokenProperties;
 - (id);
+- (void)isExpensive;
+- (void)isEqualToNumber:(id)arg1;
+- (void)backgroundAVAssetDownloadTask:didFinishDownloadForMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
+- (void)sume data;
 - (id);
-- (void);
-- (void);
-- (void);
+- (id)=@;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)lTipRectForCell:withFrame: /* Error: Ran out of types for this method. */;
+- (void)_toolTipRectForCell:withFrame: /* Error: Ran out of types for this method. */;
 
 @end
 

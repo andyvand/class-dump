@@ -13,9 +13,9 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CC_SHA256state_st {
-    unsigned int count[2];
-    unsigned int hash[8];
-    unsigned int wbuf[16];
+    unsigned int _field1[2];
+    unsigned int _field2[8];
+    unsigned int _field3[16];
 };
 
 struct _NSRange {
@@ -33,6 +33,6 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 

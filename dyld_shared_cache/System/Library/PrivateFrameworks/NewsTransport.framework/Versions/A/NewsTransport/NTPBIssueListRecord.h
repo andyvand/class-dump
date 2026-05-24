@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBIssueListRecord
 {
     NTPBRecordBase *_base;
-    NSMutableArray *_issueIDs;
 }
 
-+ (Class);
++ (Class)_showSwitchLibraryActionsInActionButton;
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (unsigned long long)autocompleteFetchDidBeginNetworkActivity: /* Error: Ran out of types for this method. */;
+- (id)autocompleteFetch:(unsigned long long)arg1 willSortResults: /* Error: Ran out of types for this method. */;
+- (id)autocompleteFetch:willSortResults: /* Error: Ran out of types for this method. */;
+- (void)_useGroupedBackgroundColor;
+- (void)_updateQueue_didFinishInitializingAudioSession;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)FCRelativePriority;
 - (id);
 - (id);
 - (void);
@@ -33,9 +32,7 @@
 - (id)Õ;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(retain, nonatomic) NSMutableArray *issueIDs; // @synthesize issueIDs=_issueIDs;
 
 @end
 

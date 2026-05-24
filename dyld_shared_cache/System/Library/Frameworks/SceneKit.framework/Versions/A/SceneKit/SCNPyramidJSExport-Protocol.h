@@ -5,13 +5,10 @@
 //
 
 @protocol SCNPyramidJSExport
+- (double)second;
+- (void);
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) double length;
-@property(nonatomic) long long lengthSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 @end
 

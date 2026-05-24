@@ -4,56 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMBusinessNameManager, NSHashTable, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IMHandleRegistrar
 {
     NSMutableDictionary *_siblingsMap;
-    NSHashTable *_allIMHandles;
-    NSMutableDictionary *_IDToHandlesMap;
-    NSMutableDictionary *_CNIDToHandlesMap;
-    IMBusinessNameManager *_businessNameManager;
 }
 
 + (id)ÿÿÿR;
-- (void);
+- (void)mediaType=%@ mediaState=%@ error=%@;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)type=kVCMediaControlInfoTypeECNByte, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)=%p in control info=%p for audio. error=%x;
+- (void)s] %s:(id)arg1 %d nil instance=%p or delegateVTable=%p passed;
+- (id)] %s:(id)arg1 %d ARPLSessionRelease:delete... /* Error: Ran out of types for this method. */;
+- (id)ract bundled packets from CDRx audio packet bundler for index=%d;
+- (id)bundler;
+- (id)ckets from shortRED audio packet bundler;
+- (id)%s:%d Unable to extract bundled packets from shortRED audio packet bundler /* Error: Ran out of types for this method. */;
+- (void)mpty failed with error %d;
+- (void)Receiver[%p] Unexpected idsParticipantID=%llu, expected=%llu;
+- (id)to rewind file=%p with error=%s;
+- (id)ceived connectionType %d;
+- (void)%s:(id)arg1 %d AVCRemoteVideoClient callback:(id)arg2 videoDidSuspend=%d for streamToken=%u;
+- (void)s not exist. Creating it...;
+- (void)[%s] %s:%d %@(%p) Cannot set capture framerate for captureSource=%d /* Error: Ran out of types for this method. */;
+- (void)direction token from server for tapType=%u;
+- (void)queue;
+- (void)widthxheight(%zux%zu);
+- (void)sferImage failed %d input widthxheight(%zux%zu) new widthxheight(%zux%zu);
+- (void)unt=%lu;
+- (id)ProbingQRLink failed:(id)arg1 QR link probing already in progress;
+- (void)ingResults failed:(id)arg1 Link probing not in progress;
+- (void)inkProbing:stopActiveProbing failed:Link probing not in progress /* Error: Ran out of types for this method. */;
+- (void)OPAudioDecodingEnabled=%d;
+- (id)ion time=%f. Current time=%f, replayProtectionThreshold=%llu;
+- (void)EnhancementEnabled %d;
+- (void)EnabledState message oneToOneEnabled=%d isLocal=%d;
+- (void)U+1 requested at improper time - canSwitch=%{BOOL}d, oneToOneModeEnabled=%{BOOL}d, remoteParticipantCount=%lu;
+- (id)GFTSwitchToOneToOne=%d ;
+- (id)%s:%d Failed to configure remote participant for 1:1! /* Error: Ran out of types for this method. */;
+- (id)deoDataOutput callback:(id)arg1 videoDidDegrade=%d for streamToken=%u;
+- (void)lient;
+- (id)[%s] %s:%d avcEndpointDict at index=%d is nil /* Error: Ran out of types for this method. */;
+- (id)T;
+- (id)2;
+- (id)P;
 - (void)ÜN4OäO;
 
 @end

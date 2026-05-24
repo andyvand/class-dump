@@ -11,25 +11,23 @@
 @interface PFPosterMediaSuggestion : PFPosterMedia
 {
     unsigned short _suggestionSubtype;
-    NSString *_suggestionUUID;
 }
 
 + (_Bool);
-- (unsigned short);
+- (unsigned short)8+;
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)mergeableDeltaRetrieveResponse;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)contentType;
 
 // Remaining properties
-@property(nonatomic) unsigned short suggestionSubtype; // @synthesize suggestionSubtype=_suggestionSubtype;
 @property(retain, nonatomic) NSString *suggestionUUID; // @synthesize suggestionUUID=_suggestionUUID;
 
 @end

@@ -7,7 +7,6 @@
 @interface TeaTemplate.LayoutContextFrame
 {
     id frame;
-    id direction;
 }
 
 @end

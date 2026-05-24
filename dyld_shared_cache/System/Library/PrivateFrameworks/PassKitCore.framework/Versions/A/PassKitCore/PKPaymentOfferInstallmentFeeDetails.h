@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKPaymentOfferInstallmentFeeDetails
 {
     PKCurrencyAmount *_totalFeeAmount;
-    NSArray *_feeItems;
 }
 
 + (_Bool)0@ù
@@ -21,15 +20,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setMptcpFirstPartyInteractiveAttempt:(id)arg1;
+- (void)AWDIDSRegistrationAuthenticationParametersReceived;
 - (id);
 - (id);
-- (id)r:(id)arg1 usingSession:withSessionSEID:error: /* Error: Ran out of types for this method. */;
-- (void)NDETERMINED_RECIPIENT;
+- (id)deleteFidoKeyFor:(id)arg1 usingSession:withSessionSEID:error: /* Error: Ran out of types for this method. */;
+- (void)TRANSFER_AMOUNT_TO_UNDETERMINED_RECIPIENT;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *feeItems; // @synthesize feeItems=_feeItems;
 @property(retain, nonatomic) PKCurrencyAmount *totalFeeAmount; // @synthesize totalFeeAmount=_totalFeeAmount;
 
 @end

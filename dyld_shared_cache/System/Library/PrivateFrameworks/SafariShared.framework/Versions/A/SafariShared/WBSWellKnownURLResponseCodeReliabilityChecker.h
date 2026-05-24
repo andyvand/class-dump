@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSURL, NSURLSession;
+@class NSURL;
 
 @interface WBSWellKnownURLResponseCodeReliabilityChecker
 {
     NSURL *_url;
-    NSOperationQueue *_fetchOperationQueue;
-    NSURLSession *_session;
-    CDUnknownBlockType _completion;
 }
 
 - (void);

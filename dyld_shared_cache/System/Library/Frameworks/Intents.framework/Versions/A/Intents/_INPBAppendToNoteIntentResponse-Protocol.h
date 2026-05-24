@@ -7,9 +7,10 @@
 @class _INPBNote;
 
 @protocol _INPBAppendToNoteIntentResponse
+- (_Bool);
+- (void)l synthetic device:(_INPBNote *)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNote;
 @property(retain, nonatomic) _INPBNote *note;
 @end
 

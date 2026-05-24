@@ -10,10 +10,9 @@
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLowerBoundExclusive; // @dynamic hasLowerBoundExclusive;
 @property(retain, nonatomic) TRIPBTimestamp *lowerBoundExclusive; // @dynamic lowerBoundExclusive;
 
 @end

@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPProblemContext, GEORPProblemCorrections, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPProblem
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _userPaths;
-    GEORPProblemContext *_problemContext;
-    GEORPProblemCorrections *_problemCorrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _problemType;
-    unsigned int _protocolVersion;
-    struct {
-        unsigned int has_problemType:1;
-        unsigned int has_protocolVersion:1;
-        unsigned int read_userPaths:1;
-        unsigned int read_problemContext:1;
-        unsigned int read_problemCorrections:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sGuideSavedPlacesCount:(id)arg1;
++ (_Bool)setLibraryFavoritesGuideSavedPlacesCount:(id)arg1;
 - (unsigned long long);
 - (id);
 - (int *);
@@ -36,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)appendName:(int)arg1 cnAccountCollectionUpdateWatcherState: /* Error: Ran out of types for this method. */;
+- (id)allABCDRecordsForEntityName:error: /* Error: Ran out of types for this method. */;
+- (id)allABCDRecordsForEntityName:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,42 +31,33 @@
 - (void);
 - (int);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)er"16B24B28;
+- (void)etHandler",&,N,V_assetHandler;
+- (void):(unsigned long long)arg1 ];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
+- (id)h;
+- (int);
 - (void);
 - (id)="has_field"b1"has_isMarkedIncorrect"b1"read_correctedValue"b1"read_fieldName"b1"read_originalValue"b1"wrote_anyField"b1};
-- (id)earSurchargeUnits;
+- (id)clearSurchargeUnits;
 - (id)èÞ,ß;
-- (id)yword_muid;
-- (void)nal23TypeDefinedMapFieldBaseINS0_6MapKeyENS0_11MapValueRefEEE;
+- (id)keyword_muid;
+- (void)N6google8protobuf8internal23TypeDefinedMapFieldBaseINS0_6MapKeyENS0_11MapValueRefEEE;
 - (unsigned int)Ãî;VP@;
 - (void)~­O@;
 - (_Bool)K;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasProblemContext;
-@property(readonly, nonatomic) _Bool hasProblemCorrections;
-@property(nonatomic) _Bool hasProblemType;
 @property(nonatomic) _Bool hasProtocolVersion;
-@property(retain, nonatomic) GEORPProblemContext *problemContext;
-@property(retain, nonatomic) GEORPProblemCorrections *problemCorrections;
-@property(nonatomic) int problemType;
-@property(nonatomic) unsigned int protocolVersion;
-@property(readonly, nonatomic) int *userPaths;
-@property(readonly, nonatomic) unsigned long long userPathsCount;
 
 @end
 

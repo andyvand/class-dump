@@ -9,14 +9,15 @@
 }
 
 - (id);
+- (void)parseTransitKepler:(id)arg1 file1E:file1A:into: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)count %d) audioBufferSize = %d
+;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 
 @end
 

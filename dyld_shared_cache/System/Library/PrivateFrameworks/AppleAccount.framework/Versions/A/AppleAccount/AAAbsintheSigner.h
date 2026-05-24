@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAAbsintheContext, AAAbsintheSignerContextCache, AAURLSession, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class AAURLSession;
 
 @interface AAAbsintheSigner
 {
     struct os_unfair_lock_s _contextLock;
-    NSObject<OS_dispatch_queue> *_contextQueue;
-    struct os_unfair_lock_s _signerLock;
-    NSObject<OS_dispatch_source> *_contextTimerSource;
-    AAAbsintheSignerContextCache *_contextCache;
-    double _cacheTimeout;
-    AAURLSession *_session;
 }
 
-+ (void);
-+ (CDUnknownBlockType);
++ (void)ccountInfo user GUID has not been set up;
++ (CDUnknownBlockType)urned %d;
 + (id);
+- (void)textWithBootstrapToken:(id)arg1 Error %d (0x%08x) adding ACM Credential;
+- (id)edClient:(double)arg1 add '%s' to _lpadmin;
+- (void)ofileManager.uninstallProfileCore ...removing %d profiles(s) with profileIdentifier '%s' for user guid %s;
+- (void)zation result = %d;
+- (void)payload %s (%s);
+- (void)nfo Found existing account record in profile for payload %s (%s);
+- (void)GUID has not been set up;
+- (void)le.addAccountInfo;
+- (id)UserHasSecureToken;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)P;
 - (double);
 - (id);
 - (void);
 - (void);
-- (void)ation;
+- (void)destination;
 
 // Remaining properties
-@property(readonly, nonatomic) double cacheTimeout; // @synthesize cacheTimeout=_cacheTimeout;
-@property(readonly, nonatomic) AAAbsintheContext *context;
 @property(retain, nonatomic) AAURLSession *session; // @synthesize session=_session;
 
 @end

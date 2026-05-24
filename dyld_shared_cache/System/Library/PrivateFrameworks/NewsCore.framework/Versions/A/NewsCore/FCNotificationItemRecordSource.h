@@ -15,8 +15,8 @@
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)erArticleID;
-- (id);
+- (unsigned long long)coverArticleID;
+- (id)padding;
 - (unsigned long long)9d9;
 - (id);
 - (int)8;

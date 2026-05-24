@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PKOSVersionRequirement, PKOSVersionRequirementRange;
-
 @interface PKPassUpgradeRequest
 {
     unsigned long long _type;
-    PKOSVersionRequirementRange *_osVersionRange;
-    NSString *_secureElementIdentifier;
-    NSArray *_paymentApplicationIdentifiers;
-    NSDictionary *_fields;
 }
 
 + (id);
@@ -25,19 +19,15 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)#
+;
+- (void)kdot11RTSFailureCount;
 - (id);
-- (id)hareAcceptanceFlow:(id)arg1 transportIdentifier:completion: /* Error: Ran out of types for this method. */;
-- (void)eredValueIdentifier;
+- (id)carKeyStartShareAcceptanceFlow:(id)arg1 transportIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)associatedEnteredValueIdentifier;
 - (id)`Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *fields; // @synthesize fields=_fields;
-@property(readonly, nonatomic) PKOSVersionRequirement *minimumOSVersion;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *osVersionRange; // @synthesize osVersionRange=_osVersionRange;
-@property(readonly, nonatomic) NSArray *paymentApplicationIdentifiers; // @synthesize paymentApplicationIdentifiers=_paymentApplicationIdentifiers;
-@property(copy, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

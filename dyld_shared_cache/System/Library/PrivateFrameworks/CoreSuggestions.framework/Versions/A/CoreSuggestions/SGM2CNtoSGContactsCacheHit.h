@@ -9,35 +9,28 @@
 @interface SGM2CNtoSGContactsCacheHit
 {
     NSString *_key;
-    _Bool _cacheHit;
-    struct {
-        unsigned int cacheHit:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)commentURL;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)D %s:(id)arg1 NULL whitePointMatrix; returning NULL;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cacheHit; // @synthesize cacheHit=_cacheHit;
-@property(nonatomic) _Bool hasCacheHit;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

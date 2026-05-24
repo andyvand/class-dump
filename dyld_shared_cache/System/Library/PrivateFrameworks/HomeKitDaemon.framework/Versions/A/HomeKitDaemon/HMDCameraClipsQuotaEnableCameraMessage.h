@@ -21,22 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)
 × ;
-- (id)ctionSetResponses:(struct _NSZone *)arg1 deviceIdsDestination: /* Error: Ran out of types for this method. */;
-- (id)etedWithChangeToken:error:moreComing:fetchInfo: /* Error: Ran out of types for this method. */;
+- (id)filterActionSetResponses:(struct _NSZone *)arg1 deviceIdsDestination: /* Error: Ran out of types for this method. */;
+- (id)__zoneFetchCompletedWithChangeToken:error:moreComing:fetchInfo: /* Error: Ran out of types for this method. */;
 - (id)essory pairing operation;
-- (_Bool)tEnd;
+- (_Bool)portEnd;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasZoneName;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

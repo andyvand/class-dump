@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id);
 - (id);
 
 // Remaining properties

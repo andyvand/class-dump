@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatGroupNodeDataLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id layoutAttributes;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id maskLayoutAttributes;
-    id style;
-    id auxViewRequirements;
-    id canFlatten;
 }
 
 @end

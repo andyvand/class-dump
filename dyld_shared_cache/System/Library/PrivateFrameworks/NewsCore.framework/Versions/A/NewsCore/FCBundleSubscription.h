@@ -4,70 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSOrderedSet, NSString;
+@class NSString;
 
 @interface FCBundleSubscription
 {
     _Bool _isPurchaser;
-    _Bool _isAmplifyUser;
-    _Bool _isPaidBundleViaOfferActivated;
-    NSString *_bundlePurchaseID;
-    NSOrderedSet *_bundleChannelIDs;
-    NSString *_bundleChannelIDsVersion;
-    NSString *_servicesBundlePurchaseID;
-    NSNumber *_initialPurchaseTimestamp;
-    unsigned long long _unprotectedSubscriptionState;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
+- (void)__const;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)_createPreparedSupplementaryViewForElementOfKind:(id)arg1 atIndexPath:withLayoutAttributes:applyAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)mpt to move index path (%@) to index path (%@) in section that does not exist - there are only %ld sections after the update;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)layoutSubviews;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)g;
+- (_Bool)_telemetryType;
+- (unsigned long long)Can't create from URL:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id)dePCS: /* Error: Ran out of types for this method. */;
-- (id)tName;
+- (id)setContainerWithZoneWidePCS: /* Error: Ran out of types for this method. */;
+- (id)_shadowMySportsGroupForYouHeadlineScoringOutputName;
 - (_Bool)tZoneClientRecordsByID;
-- (_Bool)oringConfig;
-- (void)ate;
-- (_Bool)TUGaNjlckE0Tng;
+- (_Bool)topicFeedScoringConfig;
+- (void)PurchaseModelCacheDate;
+- (_Bool)TdYIMKF3WTUGaNjlckE0Tng;
 
 // Remaining properties
-@property(copy, nonatomic) NSOrderedSet *bundleChannelIDs; // @synthesize bundleChannelIDs=_bundleChannelIDs;
-@property(copy, nonatomic) NSString *bundleChannelIDsVersion; // @synthesize bundleChannelIDsVersion=_bundleChannelIDsVersion;
 @property(copy, nonatomic) NSString *bundlePurchaseID; // @synthesize bundlePurchaseID=_bundlePurchaseID;
-@property(copy, nonatomic) NSNumber *initialPurchaseTimestamp; // @synthesize initialPurchaseTimestamp=_initialPurchaseTimestamp;
-@property(nonatomic) _Bool isAmplifyUser; // @synthesize isAmplifyUser=_isAmplifyUser;
-@property(nonatomic) _Bool isPaidBundleViaOfferActivated; // @synthesize isPaidBundleViaOfferActivated=_isPaidBundleViaOfferActivated;
-@property(nonatomic) _Bool isPurchaser; // @synthesize isPurchaser=_isPurchaser;
-@property(readonly, nonatomic) _Bool isServicesBundleUser;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(copy, nonatomic) NSString *servicesBundlePurchaseID; // @synthesize servicesBundlePurchaseID=_servicesBundlePurchaseID;
-@property(readonly, nonatomic) unsigned long long subscriptionState;
-@property(nonatomic) unsigned long long unprotectedSubscriptionState; // @synthesize unprotectedSubscriptionState=_unprotectedSubscriptionState;
 
 @end
 

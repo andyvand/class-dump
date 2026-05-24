@@ -21,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -34,19 +34,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (id);
 + (id);
 + (id);
 + (void);
@@ -59,10 +47,22 @@
 + (void);
 + (void);
 + (void);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 + (void);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 
 @end

@@ -7,7 +7,8 @@
 @class UIView;
 
 @protocol UITapRecognizerDelegate
-- (UIView *)imuthUnitVector;
+- (double);
+- (UIView *)_azimuthUnitVector;
 - (void)enterY;
 - (_Bool)éÿXtéÿtéÿøtéÿDuéÿhuéÿøwéÿpyéÿ;
 

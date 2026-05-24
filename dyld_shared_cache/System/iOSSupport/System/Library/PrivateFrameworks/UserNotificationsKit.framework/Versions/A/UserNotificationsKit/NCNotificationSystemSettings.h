@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NCNotificationSystemSettings
 {
     _Bool _scheduledDeliveryEnabled;
     _Bool _scheduledDeliveryUninitialized;
-    _Bool _scheduledDeliveryShowNextSummary;
-    NSArray *_scheduledDeliveryTimes;
-    long long _listDisplayStyleSetting;
-    _Bool _highlightsEnabled;
 }
 
-+ (id);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
++ (id)contentVersion;
+- (_Bool)cluding all data;
+- (long long)eForLinkValue:] /* Error: Ran out of types for this method. */;
+- (_Bool)on;
+- (_Bool)y"16@?0^@8;
+- (id)tions due to the %@ parameter not being set.;
 - (id);
-- (id);
-- (id);
+- (id)LengthSquaredNode;
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,25 +25,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=areHighlightsEnabled) _Bool highlightsEnabled; // @synthesize highlightsEnabled=_highlightsEnabled;
-@property(readonly, nonatomic) long long listDisplayStyleSetting; // @synthesize listDisplayStyleSetting=_listDisplayStyleSetting;
 @property(readonly, nonatomic, getter=isScheduledDeliveryEnabled) _Bool scheduledDeliveryEnabled; // @synthesize scheduledDeliveryEnabled=_scheduledDeliveryEnabled;
-@property(readonly, nonatomic, getter=shouldScheduledDeliveryShowNextSummary) _Bool scheduledDeliveryShowNextSummary; // @synthesize scheduledDeliveryShowNextSummary=_scheduledDeliveryShowNextSummary;
-@property(readonly, copy, nonatomic) NSArray *scheduledDeliveryTimes; // @synthesize scheduledDeliveryTimes=_scheduledDeliveryTimes;
 @property(readonly, nonatomic, getter=isScheduledDeliveryUninitialized) _Bool scheduledDeliveryUninitialized; // @synthesize scheduledDeliveryUninitialized=_scheduledDeliveryUninitialized;
-@property(readonly) Class superclass;
 
 @end
 

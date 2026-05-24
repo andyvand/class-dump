@@ -4,48 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CFPDDataBuffer, CFPrefsDaemon, NSObject;
-@protocol OS_os_transaction, OS_xpc_object;
+@class CFPrefsDaemon;
 
 __attribute__((visibility("hidden")))
 @interface CFPDSource
 {
     CFPrefsDaemon *_cfprefsd;
-    CFPDDataBuffer *_plist;
-    NSObject<OS_xpc_object> *_pendingChangesQueue;
-    unsigned long long _pendingChangesSize;
-    struct __CFString *_userName;
-    struct __CFString *_domain;
-    char *_actualPath;
-    char *_fileName;
-    struct __CFSet *_observingConnections;
-    NSObject<OS_os_transaction> *_dirtyTransaction;
-    struct __CFString *_uncanonicalizedPathCache;
-    struct os_unfair_lock_s _uncanonicalizedPathCacheLock;
-    struct os_unfair_lock_s _observingConnectionsLock;
-    struct os_unfair_lock_s _writeLock;
-    struct os_unfair_lock_s _lock;
-    unsigned int _plistFileOwner;
-    unsigned int _lastEuid;
-    unsigned int _lastEgid;
-    int _fileProtectionClass;
-    int _parentFD;
-    int _cachedPlistFD;
-    short _generationShmemIndex;
-    _Bool _byHost;
-    _Bool _managed;
-    _Bool _managedUsesContainer;
-    _Bool _watchingParentDirectory;
-    unsigned int _handlingRequest:1;
-    unsigned int _dirty:1;
-    unsigned int _neverCache:1;
-    unsigned int _checkedForNonPrefsPlist:1;
-    unsigned int _restrictedReadability:1;
-    unsigned int _waitingForDeviceUnlock:1;
-    unsigned int _disableBackup:1;
-    unsigned int _plistFileOwnerReadable:1;
-    unsigned int _plistFileWorldReadable:1;
-    unsigned int _actualPathRedirectedByTerminalSymlink:1;
 }
 
 - (int);
@@ -54,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)0 ;
 - (void);
 - (void);
 - (_Bool);
@@ -69,16 +33,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)deviceFamilies;
 - (struct __CFString *);
 - (_Bool);
-- (void);
+- (void)Coder:(id)arg1 ];
 - (void);
 - (id);
 - (void);
 - (struct __CFString *)"8@"NSError"16;
 - (void)uestion Mark;
-- (_Bool)irstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
+- (_Bool)FirstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
 - (CDUnknownBlockType);
 - (void);
 - (struct __CFString *);
@@ -86,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (struct __CFString *);
 - (void);
 - (void);
-- (_Bool)ClientRolloutArtifact;
+- (_Bool)TRIClientRolloutArtifact;
 - (struct __CFString *);
 - (void);
 

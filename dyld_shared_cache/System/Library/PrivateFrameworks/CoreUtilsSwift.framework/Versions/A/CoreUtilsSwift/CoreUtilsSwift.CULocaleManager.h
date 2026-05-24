@@ -7,9 +7,6 @@
 @interface CoreUtilsSwift.CULocaleManager
 {
     id locale;
-    id __localeChangedObserver;
-    id _preferredUnitSpeed;
-    id _$observationRegistrar;
 }
 
 @end

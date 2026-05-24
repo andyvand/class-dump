@@ -5,5 +5,7 @@
 //
 
 @protocol AVAirTransportReverseTransformationResultProtocol
+- (_Bool);
+- (_Bool)guration:blockedSenderManager:listUnsubscribeHandler:remindMeNotificationController:accountsProvider: /* Error: Ran out of types for this method. */;
 @end
 

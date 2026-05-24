@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIHyperspace
 {
     unsigned long long __dimensions;
@@ -15,21 +13,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)Width;
-- (void)rentOutputDeviceEnabled:(id)arg1;
-- (id)anager;
+- (_Bool)totalComponentWidth;
+- (void)setCurrentOutputDeviceEnabled:(id)arg1;
+- (id)_bannerManager;
 - (id)ReorderedItemInSession;
 - (void)d) inUpdateAnimation(%d):(double *)arg1 %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

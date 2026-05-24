@@ -20,13 +20,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (double);
+- (_Bool)r:(id)arg1 %@;
+- (id)@;
+- (id)ic}@Updating idsDestination from %@ to %@;
+- (_Bool)ess settings, user is not a restricted guest;
+- (void)ct as not active;
+- (id)ristic value from %@ -> %@ with value updated date:%@ /* Error: Ran out of types for this method. */;
+- (double)%{bool}d;
 - (id);
 - (void);
 

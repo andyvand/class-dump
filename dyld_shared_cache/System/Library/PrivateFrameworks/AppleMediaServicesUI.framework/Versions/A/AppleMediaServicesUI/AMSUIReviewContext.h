@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSColor, NSString;
+@class NSColor;
 
 @interface AMSUIReviewContext
 {
     NSColor *_accentColor;
-    long long _mediaTaskType;
-    AMSProcessInfo *_clientInfo;
-    NSString *_itemIdentifier;
 }
 
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)updateValuesFromPrefetchDictionary: /* Error: Ran out of types for this method. */;
+- (id)PKPredicateRequirementsException;
 - (void)ectionView"16@"NSSet"24@"NSEvent"32;
 - (id)contain image format;
 
 // Remaining properties
 @property(readonly) NSColor *accentColor; // @synthesize accentColor=_accentColor;
-@property(readonly) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly) long long mediaTaskType; // @synthesize mediaTaskType=_mediaTaskType;
 
 @end
 

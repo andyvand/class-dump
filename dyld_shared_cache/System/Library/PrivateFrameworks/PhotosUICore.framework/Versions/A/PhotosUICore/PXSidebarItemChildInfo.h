@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHCollection, PHFetchResult, PHObject;
+@class PHCollection;
 
 @interface PXSidebarItemChildInfo
 {
     PHCollection *_collection;
-    PHFetchResult *_fetchResult;
-    PHObject *_childObject;
-    long long _childIndexInFetchResult;
 }
 
 - (id);
@@ -22,10 +19,7 @@
 - (id)X¹öþ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long childIndexInFetchResult; // @synthesize childIndexInFetchResult=_childIndexInFetchResult;
-@property(readonly, nonatomic) PHObject *childObject; // @synthesize childObject=_childObject;
 @property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;
 
 @end
 

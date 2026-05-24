@@ -8,28 +8,24 @@ __attribute__((visibility("hidden")))
 @interface NSCGSSpace
 {
     unsigned long long _spaceID;
-    unsigned char _flags;
-    struct CGRect _finishedResizeRect;
-    unsigned int _companionWindowID;
-    double _companionWindowOffset;
 }
 
++ (void)ESYSTEMSLEEP"b1"_flag_SET_EXPLICIT_SHOULD_HANDLE_COOKIES"b1"_flag_SET_EXPLICIT_NETWORK_SERVICE_TYPE"b1"_flag_SET_EXPLICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
++ (id)RedirectionRecorder}CCC@CddC^{URLProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
++ (void)_transportConnection;
++ (void)e data from FS:(CDUnknownBlockType)arg1 %s, errno:%{errno}d, len:%lld /* Error: Ran out of types for this method. */;
 + (void);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
++ (unsigned long long)%p)> { simple response, url = %@, body = %ld bytes };
++ (id)cookiePartitionIdentifier;
++ (id)fnetwork.cfnetworkagent;
++ (id)SETTINGS_MAX_HEADER_LIST_SIZE;
 + (void);
 + (void);
 - (void);
-- (void);
+- (void)_didCheckCredentialsSuppliedInURL;
 - (id);
-- (void);
-- (void);
+- (void)Telemetry]:(struct CGRect)arg1 Calling symptoms. The number of transactions are %u;
+- (void)#;
 - (unsigned long long);
 - (void);
 

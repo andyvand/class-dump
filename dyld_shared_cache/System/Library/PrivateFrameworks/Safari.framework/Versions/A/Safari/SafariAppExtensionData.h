@@ -4,63 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppExtensionContextMenu, AppExtensionToolbarItem, ExtensionWebsiteAccess, NSDictionary, NSExtension, NSMapTable, NSMutableArray, NSMutableDictionary, NSNumber, NSSet, NSString, NSUUID, WKContentWorld;
+@class ExtensionWebsiteAccess, NSString;
 
 __attribute__((visibility("hidden")))
 @interface SafariAppExtensionData
 {
     NSString *_localizedDisplayName;
-    NSUUID *_baseURIHost;
-    NSMutableDictionary *_grantedPermissionOrigins;
-    NSMutableDictionary *_revokedPermissionOrigins;
-    NSMutableArray *_contentScripts;
-    NSMutableArray *_styleSheets;
-    NSMutableDictionary *_injectedStyleSheetsPerDomainPattern;
-    NSMutableDictionary *_injectedScriptsPerDomainPattern;
-    _Bool _didInjectSafariBindingsObject;
-    _Bool _didInjectSafariBindingsObjectInPrivateBrowsing;
-    NSMapTable *_pageToEventListenerMap;
-    _Bool _allowedInPrivateBrowsing;
-    _Bool _isAllowedInPrivateBrowsingValuePopulated;
-    WKContentWorld *_extensionWorld;
-    ExtensionWebsiteAccess *_websiteAccess;
-    AppExtensionToolbarItem *_toolbarItem;
-    AppExtensionContextMenu *_contextMenu;
-    NSExtension *_extension;
 }
 
 + (_Bool);
-+ (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
++ (_Bool);;
+- (id);
+- (id)A;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -68,6 +31,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void)CP;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -77,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -91,25 +74,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)allowsAccessToSyncMergeableDeltas;
 - (id)dowState UUID:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)×À*;
 
 // Remaining properties
-@property(nonatomic) _Bool allowedInPrivateBrowsing;
-@property(readonly, copy, nonatomic) NSDictionary *configuredPermissions;
-@property(retain, nonatomic) AppExtensionContextMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
-@property(copy, nonatomic) NSNumber *defaultPermission;
-@property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly, copy, nonatomic) NSDictionary *grantedPermissionOrigins;
-@property(readonly, nonatomic) _Bool hasMoreThanOneRequestedOriginNotAlreadyConfigured;
-@property(readonly, nonatomic) _Bool hasPermissionToAccessAllHosts;
-@property(readonly, copy, nonatomic) NSSet *requestedPermissionOriginsNotAlreadyConfigured;
-@property(readonly, copy, nonatomic) NSDictionary *revokedPermissionOrigins;
-@property(retain, nonatomic) AppExtensionToolbarItem *toolbarItem; // @synthesize toolbarItem=_toolbarItem;
-@property(readonly, nonatomic) NSDictionary *userVisiblePermissions;
 @property(retain, nonatomic) ExtensionWebsiteAccess *websiteAccess; // @synthesize websiteAccess=_websiteAccess;
 
 @end

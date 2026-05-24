@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TPBadgeView, UILabel, UIStackView, UITapGestureRecognizer;
-@protocol CKComposeSubscriptionSelectorButtonDelegate;
+@class TPBadgeView, UITapGestureRecognizer;
 
 @interface CKComposeSubscriptionSelectorButton
 {
     UITapGestureRecognizer *_gestureRecognizer;
-    id <CKComposeSubscriptionSelectorButtonDelegate> _delegate;
-    unsigned long long _theme;
-    TPBadgeView *_badgeView;
-    UILabel *_buttonTitleLabel;
-    UIStackView *_stackView;
 }
 
+- (void)_exportDirectory;
+- (void)_emptyTextStorage;
+- (void),N,V_startTime;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (id);
@@ -40,11 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TPBadgeView *badgeView; // @synthesize badgeView=_badgeView;
-@property(retain, nonatomic) UILabel *buttonTitleLabel; // @synthesize buttonTitleLabel=_buttonTitleLabel;
-@property(nonatomic) __weak id <CKComposeSubscriptionSelectorButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UITapGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(nonatomic) unsigned long long theme; // @synthesize theme=_theme;
 
 @end
 

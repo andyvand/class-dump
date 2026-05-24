@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSLocale;
-
 @protocol CHRecognizingText
+- (void)KcL;
+- (void);
+- (int)J};
 - (int)
 × ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSCharacterSet *activeCharacterSet;
-@property(nonatomic) int autoCapitalizationMode;
-@property(nonatomic) int autoCorrectionMode;
-@property(nonatomic) int baseWritingDirection;
-@property(nonatomic) int contentType;
-@property(readonly, nonatomic) _Bool enableGen2CharacterLMIfAvailable;
-@property(readonly, nonatomic) _Bool enableGen2ModelIfAvailable;
-@property(readonly, copy, nonatomic) NSLocale *locale;
 @property(readonly, nonatomic) int recognitionMode;
 @end
 

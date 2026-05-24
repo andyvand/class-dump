@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, TUHandle;
-
 @interface TUConversationMemberAssociation
 {
     _Bool _primary;
-    long long _type;
-    TUHandle *_handle;
-    unsigned long long _identifier;
-    NSString *_avcIdentifier;
-    NSData *_messagingData;
 }
 
 + (id);
@@ -25,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -37,16 +30,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void)art: /* Error: Ran out of types for this method. */;
+- (void)setPauseVideoToStart: /* Error: Ran out of types for this method. */;
 - (void),#h$$¤0¸2;
 - (void)ArC¼Öúÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *avcIdentifier; // @synthesize avcIdentifier=_avcIdentifier;
-@property(retain, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *messagingData; // @synthesize messagingData=_messagingData;
-@property(nonatomic, getter=isPrimary) _Bool primary; // @synthesize primary=_primary;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

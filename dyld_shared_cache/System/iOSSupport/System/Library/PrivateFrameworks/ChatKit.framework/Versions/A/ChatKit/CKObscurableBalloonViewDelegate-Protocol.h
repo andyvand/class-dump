@@ -5,5 +5,13 @@
 //
 
 @protocol CKObscurableBalloonViewDelegate
+- (_Bool)_webView:requestDisplayCapturePermissionForOrigin:initiatedByFrame:withSystemAudio:decisionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_webView:printFrame:pdfFirstPageSize:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ICImageAndMovieThumbnailView;
+- (void);
+
+@optional
+- (void)menuItemForPlainLink;
+- (void)gDetailItemIdentifier",R,N;
 @end
 

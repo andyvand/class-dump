@@ -6,9 +6,12 @@
 
 @interface PXStoryResourcesPreloadingStatsStore
 {
-    CDStruct_11a7f259 _imageClipsStats;
-    CDStruct_11a7f259 _livePhotoClipsStats;
-    CDStruct_11a7f259 _videoClipsStats;
+    struct {
+        long long preloadableClipsCount;
+        long long preloadedClipsCount;
+        double accumulatedClipsLoadingTime;
+        long long accumulatedClipsLoadedCount;
+    } _imageClipsStats;
 }
 
 - (void);
@@ -20,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didDownloadFirstVideo;
-@property(readonly, nonatomic) double estimatedLoadingTimeLeft;
 @property(readonly, nonatomic) float loadedFraction;
 
 @end

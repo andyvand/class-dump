@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDictionary, NSMutableIndexSet, NSObject, NSString, PXAssetCollectionReference, PXCuratedLibraryChapterHeaderLayoutSpec, PXNumberAnimator;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface PXCuratedLibraryChapterHeaderLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    unsigned short _titleVersion;
-    struct CGSize _chevronSize;
-    unsigned short _chevronVersion;
-    long long _alternateAppearanceFadeDirection;
-    double _alternateAppearanceFadeStartThresholdDistance;
-    NSArray *_itemIdentifierBySpriteIndex;
-    NSMutableIndexSet *_axSpriteIndexes;
-    long long _asyncDateGeneration;
-    NSObject<OS_dispatch_queue> *_asyncDateQueue;
-    _Bool _presentedAlternateAppearance;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_floatingAttributedTitle;
-    PXAssetCollectionReference *_assetCollectionReference;
-    PXCuratedLibraryChapterHeaderLayoutSpec *_spec;
-    NSString *_rawTitle;
-    NSDictionary *_titleEmphasizedAttributes;
-    NSDictionary *_floatingTitleEmphasizedAttributes;
-    NSDictionary *_titleDeemphasizedAttributes;
-    NSDictionary *_floatingTitleDeemphasizedAttributes;
-    PXNumberAnimator *_alternateAppearanceMixAnimator;
-    struct CGSize _attributedTitleSize;
-    struct PXSimpleIndexPath _sectionIndexPath;
-    struct NSEdgeInsets _padding;
 }
 
 - (void);
@@ -40,7 +16,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -62,16 +38,14 @@
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)%;
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -79,6 +53,8 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)";
 - (void)»É;
 - (id)Ôr;
 - (void)P1Ê;
@@ -86,27 +62,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXNumberAnimator *alternateAppearanceMixAnimator; // @synthesize alternateAppearanceMixAnimator=_alternateAppearanceMixAnimator;
-@property(retain, nonatomic) PXAssetCollectionReference *assetCollectionReference; // @synthesize assetCollectionReference=_assetCollectionReference;
-@property(readonly, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, nonatomic) struct CGSize attributedTitleSize; // @synthesize attributedTitleSize=_attributedTitleSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSAttributedString *floatingAttributedTitle; // @synthesize floatingAttributedTitle=_floatingAttributedTitle;
-@property(copy, nonatomic) NSDictionary *floatingTitleDeemphasizedAttributes; // @synthesize floatingTitleDeemphasizedAttributes=_floatingTitleDeemphasizedAttributes;
-@property(copy, nonatomic) NSDictionary *floatingTitleEmphasizedAttributes; // @synthesize floatingTitleEmphasizedAttributes=_floatingTitleEmphasizedAttributes;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(nonatomic) _Bool presentedAlternateAppearance; // @synthesize presentedAlternateAppearance=_presentedAlternateAppearance;
 @property(copy, nonatomic) NSString *rawTitle; // @synthesize rawTitle=_rawTitle;
-@property(nonatomic) struct PXSimpleIndexPath sectionIndexPath; // @synthesize sectionIndexPath=_sectionIndexPath;
-@property(retain, nonatomic) PXCuratedLibraryChapterHeaderLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *titleDeemphasizedAttributes; // @synthesize titleDeemphasizedAttributes=_titleDeemphasizedAttributes;
-@property(copy, nonatomic) NSDictionary *titleEmphasizedAttributes; // @synthesize titleEmphasizedAttributes=_titleEmphasizedAttributes;
 
 @end
 

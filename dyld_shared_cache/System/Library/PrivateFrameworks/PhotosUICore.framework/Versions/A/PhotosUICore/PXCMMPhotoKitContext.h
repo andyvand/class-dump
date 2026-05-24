@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXCMMContext.h>
 
-@class PHMomentShare, PHSuggestion, PXCMMPhotoKitActionManager;
+@class PHMomentShare, PXCMMPhotoKitActionManager;
 
 @interface PXCMMPhotoKitContext : PXCMMContext
 {
     PXCMMPhotoKitActionManager *_photoKitActionManager;
-    PHMomentShare *_momentShare;
-    PHSuggestion *_suggestion;
-    PHMomentShare *_originatingMomentShare;
 }
 
 - (void);
@@ -34,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
-@property(retain, nonatomic) PHMomentShare *originatingMomentShare; // @synthesize originatingMomentShare=_originatingMomentShare;
-@property(readonly, nonatomic) PHSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end
 

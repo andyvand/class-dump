@@ -5,5 +5,6 @@
 //
 
 @protocol _UITraitTrackingSupporting
+- (void);
 @end
 

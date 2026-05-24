@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNMutableContact, IMAccount, IMChat, IMHandle, IMNickname, NSString, UIImage;
+@class IMHandle;
 
 @interface CKEntity
 {
     _Bool _enlargedContactImage;
-    _Bool _cachedCNContactForNicknameIncludesImageData;
-    CNContact *_cnContact;
-    UIImage *_transcriptContactImage;
-    UIImage *_transcriptDrawerContactImage;
-    IMHandle *_handle;
-    IMAccount *_chatAccount;
-    IMChat *_chat;
-    CNMutableContact *_cachedCNContactForNickname;
-    IMNickname *_cachedNicknameForCNContact;
 }
 
 + (_Bool);
@@ -25,33 +16,33 @@
 + (void);
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)cancelAndWaitWithReason: /* Error: Ran out of types for this method. */;
+- (id)canConvertAttachmentToLink: /* Error: Ran out of types for this method. */;
+- (id)_webViewDidEnterFullscreen: /* Error: Ran out of types for this method. */;
+- (id)_webViewDidEnableInspectorBrowserDomain: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_9_p_G;
+- (id)n;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)y;
+- (_Bool)u;
+- (id)@;
+- (id)preview-generator;
+- (id)ICFolderListSectionTypeLocal;
+- (id)om.apple.notes.folder-list-index-access-queue;
+- (_Bool)finity:] /* Error: Ran out of types for this method. */;
+- (id)xtStorage savedSelectionWithSelectionAffinity:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -74,41 +65,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
-- (id);
+- (id)_insertRepresentedObjects:atCharacterRange: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)P;
 - (void)­»ÿbÜ Z0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *IDSCanonicalAddress;
-@property(readonly, copy, nonatomic) NSString *abbreviatedDisplayName;
-@property(retain, nonatomic) CNMutableContact *cachedCNContactForNickname; // @synthesize cachedCNContactForNickname=_cachedCNContactForNickname;
-@property(nonatomic) _Bool cachedCNContactForNicknameIncludesImageData; // @synthesize cachedCNContactForNicknameIncludesImageData=_cachedCNContactForNicknameIncludesImageData;
-@property(retain, nonatomic) IMNickname *cachedNicknameForCNContact; // @synthesize cachedNicknameForCNContact=_cachedNicknameForCNContact;
-@property(retain, nonatomic) IMChat *chat; // @synthesize chat=_chat;
-@property(retain, nonatomic) IMAccount *chatAccount; // @synthesize chatAccount=_chatAccount;
-@property(retain, nonatomic) CNContact *cnContact; // @synthesize cnContact=_cnContact;
-@property(readonly, nonatomic) IMHandle *defaultIMHandle;
-@property(nonatomic) _Bool enlargedContactImage; // @synthesize enlargedContactImage=_enlargedContactImage;
-@property(readonly, copy, nonatomic) NSString *fullName;
 @property(retain, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isBlocked;
-@property(readonly, nonatomic) _Bool isContact;
-@property(readonly, nonatomic) _Bool isMe;
-@property(readonly, nonatomic) UIImage *locationMapViewContactImage;
-@property(readonly, nonatomic) UIImage *locationShareBalloonContactImage;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSString *namePrefixedWithMaybe;
-@property(readonly, copy, nonatomic) NSString *originalAddress;
-@property(readonly, nonatomic) NSString *propertyType;
-@property(readonly, copy, nonatomic) NSString *rawAddress;
-@property(readonly, copy, nonatomic) NSString *textToneIdentifier;
-@property(readonly, copy, nonatomic) NSString *textVibrationIdentifier;
-@property(readonly, nonatomic) UIImage *transcriptContactImage; // @synthesize transcriptContactImage=_transcriptContactImage;
-@property(readonly, nonatomic) UIImage *transcriptDrawerContactImage; // @synthesize transcriptDrawerContactImage=_transcriptDrawerContactImage;
 
 @end
 

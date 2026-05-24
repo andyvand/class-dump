@@ -7,10 +7,6 @@
 @interface AppStoreKit.MediumAdLockupWithAlignedRegionBackground
 {
     id lockup;
-    id alignedRegionArtwork;
-    id impressionMetrics;
-    id clickAction;
-    id automationMetadata;
 }
 
 @end

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 __attribute__((visibility("hidden")))
 @interface CNContactGridViewLayout
 {
     _Bool _needsUpdateLayout;
-    long long _numberOfColumns;
-    NSIndexPath *_selectedIndexPath;
-    double _offsetBefore;
-    double _offsetAfter;
-    double _selectedItemWidthOffset;
 }
 
 - (void);
@@ -23,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)q;
+- (void)5;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -39,11 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool needsUpdateLayout; // @synthesize needsUpdateLayout=_needsUpdateLayout;
-@property(nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) double offsetAfter; // @synthesize offsetAfter=_offsetAfter;
-@property(nonatomic) double offsetBefore; // @synthesize offsetBefore=_offsetBefore;
-@property(retain, nonatomic) NSIndexPath *selectedIndexPath; // @synthesize selectedIndexPath=_selectedIndexPath;
-@property(nonatomic) double selectedItemWidthOffset; // @synthesize selectedItemWidthOffset=_selectedItemWidthOffset;
 
 @end
 

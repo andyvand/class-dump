@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSDictionary;
+@class CIImage;
 
 @interface PIPortraitDebugFilter
 {
     CIImage *_inputImage;
-    NSDictionary *_depthInfo;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void)etUseEmbeddedPreview: /* Error: Ran out of types for this method. */;
+- (void)setUseEmbeddedPreview: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *depthInfo; // @synthesize depthInfo=_depthInfo;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end

@@ -6,27 +6,23 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKPaymentPassesResponse : PKPaymentWebServiceResponse
 {
     NSArray *_passURLs;
-    NSString *_lastUpdatedTag;
-    NSArray *_devicePassSerialNumbers;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)ok.actions.switches.lock-screen;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *devicePassSerialNumbers; // @synthesize devicePassSerialNumbers=_devicePassSerialNumbers;
-@property(copy, nonatomic) NSString *lastUpdatedTag; // @synthesize lastUpdatedTag=_lastUpdatedTag;
 @property(copy, nonatomic) NSArray *passURLs; // @synthesize passURLs=_passURLs;
 
 @end

@@ -9,18 +9,16 @@
 @interface AVCaptureManualExposureBracketedStillImageSettings_Tundra : AVCaptureBracketedStillImageSettings_Tundra
 {
     CDStruct_1b6d18a9 _exposureDuration;
-    float _ISO;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)J)+;
 - (CDStruct_1b6d18a9)valid formats;
 - (float)ternalSyncDevice handleUnfollow];
 
 // Remaining properties
-@property(readonly) float ISO; // @synthesize ISO=_ISO;
 @property(readonly) CDStruct_1b6d18a9 exposureDuration; // @synthesize exposureDuration=_exposureDuration;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKComposer, NSString;
+@class CALayer, NSString;
 
 @interface IKAnnotationLayer
 {
     CALayer *_activeAnnotation;
-    int _annotationType;
-    IKComposer *_composer;
-    NSString *_undoString;
 }
 
 + (_Bool);
@@ -40,14 +37,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)r",&,V_me;
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (int);
 
 // Remaining properties
-@property int annotationType; // @synthesize annotationType=_annotationType;
 @property(copy) NSString *undoString; // @synthesize undoString=_undoString;
 
 @end

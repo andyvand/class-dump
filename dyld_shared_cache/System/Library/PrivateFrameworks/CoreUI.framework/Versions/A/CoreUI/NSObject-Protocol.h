@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)VQi;
+- (oneway void)f;
+- (_Bool);
+- (id)@;
+- (_Bool)J;
 - (struct _NSZone *)kCoreThemePrivateControlAccentEnclosure7Color;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)esponder;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

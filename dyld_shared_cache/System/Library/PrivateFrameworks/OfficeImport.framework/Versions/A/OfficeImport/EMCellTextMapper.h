@@ -6,19 +6,18 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class EDString, EDStyle;
+@class EDString;
 
 __attribute__((visibility("hidden")))
 @interface EMCellTextMapper : CMMapper
 {
     EDString *edString;
-    EDStyle *edStyle;
 }
 
-+ (double);
++ (double);
+- (void)F;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void)8@;

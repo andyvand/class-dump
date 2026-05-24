@@ -9,24 +9,12 @@
 @interface GEOLPRDefinedPlateCondition
 {
     PBDataReader *_reader;
-    NSMutableArray *_plateMatchConditions;
-    NSMutableArray *_powerTypeKeys;
-    NSMutableArray *_vehicleTypeKeys;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_plateMatchConditions:1;
-        unsigned int read_powerTypeKeys:1;
-        unsigned int read_vehicleTypeKeys:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)lt:(id)arg1;
++ (Class)>8;
++ (Class)0@"NSIndexSet"8;
++ (_Bool)setHasSalt:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
@@ -38,33 +26,31 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void)ntity;
+- (void)chdog>",&,D;
+- (void)vices;
 - (void);
+- (void)<?;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)FAFetchFamilyCircleRequest;
 - (void);
 - (id);
+- (id);
+- (void)othDeviceObserver>"16;
+- (id)eInterstitialWithLevel:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)teredColorizedIdentifier:(struct _NSZone *)arg1;
-- (id)arameters;
+- (id)setLogoCenteredColorizedIdentifier:(struct _NSZone *)arg1;
+- (id)GEOMIFAutocompleteRequestParameters;
 - (id)%s;
 - (id);
 - (void)9Ò;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *plateMatchConditions;
-@property(retain, nonatomic) NSMutableArray *powerTypeKeys;
 @property(retain, nonatomic) NSMutableArray *vehicleTypeKeys;
 
 @end

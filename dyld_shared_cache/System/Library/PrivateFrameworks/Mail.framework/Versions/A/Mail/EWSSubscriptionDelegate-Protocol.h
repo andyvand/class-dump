@@ -5,5 +5,8 @@
 //
 
 @protocol EWSSubscriptionDelegate
+
+@optional
+- (void);
 @end
 

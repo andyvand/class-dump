@@ -7,35 +7,6 @@
 @interface WiFiAnalyticsAWDWiFiRxDataStallStats
 {
     unsigned long long _healthcheckFaults;
-    unsigned long long _healthcheckFaultsRtscts;
-    unsigned long long _rxMuPpdu;
-    unsigned long long _rxMuRts;
-    unsigned long long _rxTotalPpdu;
-    unsigned long long _srMuRtsNoUcast;
-    unsigned long long _srRtsCtsNoUcast;
-    unsigned long long _srStallInProgress;
-    unsigned long long _srTimNoUcast;
-    unsigned long long _srTxBlanking;
-    unsigned long long _stallAge;
-    unsigned long long _stallElapsedDur;
-    unsigned long long _txCtsNoUcast;
-    unsigned long long _txCtsRxUcast;
-    struct {
-        unsigned int healthcheckFaults:1;
-        unsigned int healthcheckFaultsRtscts:1;
-        unsigned int rxMuPpdu:1;
-        unsigned int rxMuRts:1;
-        unsigned int rxTotalPpdu:1;
-        unsigned int srMuRtsNoUcast:1;
-        unsigned int srRtsCtsNoUcast:1;
-        unsigned int srStallInProgress:1;
-        unsigned int srTimNoUcast:1;
-        unsigned int srTxBlanking:1;
-        unsigned int stallAge:1;
-        unsigned int stallElapsedDur:1;
-        unsigned int txCtsNoUcast:1;
-        unsigned int txCtsRxUcast:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -57,6 +28,7 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -65,8 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -74,65 +45,38 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool));
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)T};
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)uest {saveRequest:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (void);
-- (id);
-- (id);
+- (id)TrackAndField;
+- (id)@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasHealthcheckFaults;
-@property(nonatomic) _Bool hasHealthcheckFaultsRtscts;
-@property(nonatomic) _Bool hasRxMuPpdu;
-@property(nonatomic) _Bool hasRxMuRts;
-@property(nonatomic) _Bool hasRxTotalPpdu;
-@property(nonatomic) _Bool hasSrMuRtsNoUcast;
-@property(nonatomic) _Bool hasSrRtsCtsNoUcast;
-@property(nonatomic) _Bool hasSrStallInProgress;
-@property(nonatomic) _Bool hasSrTimNoUcast;
-@property(nonatomic) _Bool hasSrTxBlanking;
-@property(nonatomic) _Bool hasStallAge;
-@property(nonatomic) _Bool hasStallElapsedDur;
-@property(nonatomic) _Bool hasTxCtsNoUcast;
-@property(nonatomic) _Bool hasTxCtsRxUcast;
-@property(nonatomic) unsigned long long healthcheckFaults; // @synthesize healthcheckFaults=_healthcheckFaults;
-@property(nonatomic) unsigned long long healthcheckFaultsRtscts; // @synthesize healthcheckFaultsRtscts=_healthcheckFaultsRtscts;
-@property(nonatomic) unsigned long long rxMuPpdu; // @synthesize rxMuPpdu=_rxMuPpdu;
-@property(nonatomic) unsigned long long rxMuRts; // @synthesize rxMuRts=_rxMuRts;
-@property(nonatomic) unsigned long long rxTotalPpdu; // @synthesize rxTotalPpdu=_rxTotalPpdu;
-@property(nonatomic) unsigned long long srMuRtsNoUcast; // @synthesize srMuRtsNoUcast=_srMuRtsNoUcast;
-@property(nonatomic) unsigned long long srRtsCtsNoUcast; // @synthesize srRtsCtsNoUcast=_srRtsCtsNoUcast;
-@property(nonatomic) unsigned long long srStallInProgress; // @synthesize srStallInProgress=_srStallInProgress;
-@property(nonatomic) unsigned long long srTimNoUcast; // @synthesize srTimNoUcast=_srTimNoUcast;
-@property(nonatomic) unsigned long long srTxBlanking; // @synthesize srTxBlanking=_srTxBlanking;
-@property(nonatomic) unsigned long long stallAge; // @synthesize stallAge=_stallAge;
-@property(nonatomic) unsigned long long stallElapsedDur; // @synthesize stallElapsedDur=_stallElapsedDur;
-@property(nonatomic) unsigned long long txCtsNoUcast; // @synthesize txCtsNoUcast=_txCtsNoUcast;
-@property(nonatomic) unsigned long long txCtsRxUcast; // @synthesize txCtsRxUcast=_txCtsRxUcast;
 
 @end
 

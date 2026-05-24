@@ -19,22 +19,13 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void)!\Bù±ç)ð1Â0@ù
 × ;
 - (id)numerator.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 @property(readonly, nonatomic) unsigned long long side;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
 
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface TKTLVRecord
 {
     unsigned long long _tag;
-    NSData *_value;
-    NSData *_data;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)\j;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)AVCFAssetExportPresetAppleM4V720pHD;
+- (void)LocalAuthentication_Private.LASRPVerificationResult;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) unsigned long long tag; // @synthesize tag=_tag;
-@property(readonly, nonatomic) NSData *value; // @synthesize value=_value;
 
 @end
 

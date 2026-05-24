@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MPMediaRemoteEntityPropertyTranslator
 {
     NSString *_keyPath;
-    CDUnknownBlockType _valueTransformBlock;
 }
 
 + (id);
@@ -18,18 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)reateMediaControlsIfNeeded;
+- (void)_createMediaControlsIfNeeded;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType valueTransformBlock; // @synthesize valueTransformBlock=_valueTransformBlock;
 
 @end
 

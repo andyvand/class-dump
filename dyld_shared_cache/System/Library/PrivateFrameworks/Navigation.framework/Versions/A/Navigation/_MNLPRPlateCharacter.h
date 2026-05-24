@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSString;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _MNLPRPlateCharacter
 {
     NSMutableOrderedSet *_valueMappings;
-    NSArray *_validReplacementChars;
-    _Bool _isPickupChar;
-    NSString *_glyph;
-    NSMutableDictionary *_fillTypes;
 }
 
 - (id);

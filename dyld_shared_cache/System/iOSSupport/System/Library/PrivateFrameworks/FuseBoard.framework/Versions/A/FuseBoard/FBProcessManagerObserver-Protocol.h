@@ -5,5 +5,6 @@
 //
 
 @protocol FBProcessManagerObserver
+- (void);
 @end
 

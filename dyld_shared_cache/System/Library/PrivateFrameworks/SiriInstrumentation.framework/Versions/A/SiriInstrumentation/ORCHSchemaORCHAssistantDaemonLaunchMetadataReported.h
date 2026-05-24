@@ -6,22 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHAssistantDaemonLaunchMetadataReported : SISchemaInstrumentationMessage
 {
     long long _assistantDaemonSpawnTimestampInNs;
-    long long _assistantDaemonLoadedTimestampInNs;
-    _Bool _isFirstRequest;
-    struct {
-        unsigned int assistantDaemonSpawnTimestampInNs:1;
-        unsigned int assistantDaemonLoadedTimestampInNs:1;
-        unsigned int isFirstRequest:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,22 +29,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)oreForMessagesUsingSiri;
-- (id)Ttfw;
+- (id)_appAffinityScoreForMessagesUsingSiri;
+- (id)hasTtfw;
 
 // Remaining properties
-@property(nonatomic) long long assistantDaemonLoadedTimestampInNs; // @synthesize assistantDaemonLoadedTimestampInNs=_assistantDaemonLoadedTimestampInNs;
 @property(nonatomic) long long assistantDaemonSpawnTimestampInNs; // @synthesize assistantDaemonSpawnTimestampInNs=_assistantDaemonSpawnTimestampInNs;
-@property(nonatomic) _Bool hasAssistantDaemonLoadedTimestampInNs;
-@property(nonatomic) _Bool hasAssistantDaemonSpawnTimestampInNs;
-@property(nonatomic) _Bool hasIsFirstRequest;
-@property(nonatomic) _Bool isFirstRequest; // @synthesize isFirstRequest=_isFirstRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

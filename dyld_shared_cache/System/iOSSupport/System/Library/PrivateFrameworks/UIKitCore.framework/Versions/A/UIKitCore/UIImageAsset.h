@@ -4,37 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUINamedLayerStack, NSBundle, NSString, UITraitCollection, _UIAssetManager;
-
 @interface UIImageAsset
 {
     struct os_unfair_lock_s _lock;
-    NSBundle *_containingBundle;
-    UITraitCollection *_defaultTraitCollection;
-    struct {
-        unsigned int hasRegisteredImages:1;
-        unsigned int supportsBlockGeneration:1;
-        unsigned int isUncached:1;
-        unsigned int isIconAsset:1;
-    } _assetFlags;
-    _UIAssetManager *_strongAssetManager;
-    _UIAssetManager *_assetManager;
-    CUINamedLayerStack *_layerStack;
-    id _unpinObserver;
-    CDUnknownBlockType _rebuildStackImage;
-    CDUnknownBlockType _creationBlock;
-    NSString *_assetName;
 }
 
 + (id);
 + (id);
-+ (_Bool)cker;
++ (_Bool)FontPicker;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ighlighted:(id)arg1;
-- (void)anSwitchIfNoDismissKey:(id)arg1;
+- (_Bool)handwritingCellBackgroundImageForDarkKeyboard:(id)arg1 highlighted: /* Error: Ran out of types for this method. */;
+- (void)addMessagesWriteboardKeyOrRomanSwitchIfNoDismissKey:(id)arg1;
 - (void)ntationController",R,N;
 - (id)übþyÕ^g;
 - (void)­Ï0bg;
@@ -61,7 +44,7 @@
 - (void)+ÿ;
 - (id);
 - (void)ø:(CDUnknownBlockType)arg1 k;
-- (id);
+- (id)D;
 - (_Bool)ÏL¿k;
 - (id)ÿôwÍX¦k;
 - (void)k;
@@ -87,15 +70,7 @@
 - (id)Øzo;
 
 // Remaining properties
-@property __weak _UIAssetManager *_assetManager; // @synthesize _assetManager;
 @property(readonly, getter=_isCoreGlyphsAsset) _Bool _coreGlyphsAsset;
-@property(readonly, nonatomic) UITraitCollection *_defaultTraitCollection; // @synthesize _defaultTraitCollection;
-@property(retain, nonatomic, setter=_setLayerStack:) CUINamedLayerStack *_layerStack; // @synthesize _layerStack;
-@property(copy, nonatomic, setter=_setRebuildStackImage:) CDUnknownBlockType _rebuildStackImage; // @synthesize _rebuildStackImage;
-@property(nonatomic, setter=_setStronglyRetainsAssetManager:) _Bool _stronglyRetainsAssetManager;
-@property(nonatomic, setter=_setUnpinObserver:) __weak id _unpinObserver; // @synthesize _unpinObserver;
-@property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;
-@property(copy, nonatomic) CDUnknownBlockType creationBlock; // @synthesize creationBlock=_creationBlock;
 
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, RTStateDepictionOnePredEl;
+@class RTStateDepictionOnePredEl;
 
 @interface RTStateDepcitionOneStatePred
 {
     RTStateDepictionOnePredEl *_weekly;
-    RTStateDepictionOnePredEl *_daily;
-    NSUUID *_stateUUID;
 }
 
 - (id);
-- (id);
+- (id)isExpensive: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (void)
@@ -24,8 +22,6 @@
 - (void)ults for the key %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTStateDepictionOnePredEl *daily; // @synthesize daily=_daily;
-@property(retain, nonatomic) NSUUID *stateUUID; // @synthesize stateUUID=_stateUUID;
 @property(retain, nonatomic) RTStateDepictionOnePredEl *weekly; // @synthesize weekly=_weekly;
 
 @end

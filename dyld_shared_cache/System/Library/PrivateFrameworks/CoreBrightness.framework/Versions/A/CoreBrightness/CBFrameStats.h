@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBFrameInfoProvider, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CBFrameStats
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CBFrameInfoProvider *_frameInfoProvider;
-    struct vector<float, std::allocator<float>> _rtplcFrameDelayedNitsTable;
-    struct vector<float, std::allocator<float>> _rtplcFrameDelayedAPCETable;
-    struct PeakAPCE _peakAPCE;
-    struct RTPLCCapApplied _rtplcCapApplied;
-    float _previousFramePresentationTime;
-    NSObject<OS_os_log> *_logHandle;
-    NSMutableArray *_frameArray;
-    float _lastFrameAPCE;
-    _Bool _frameInfoLoggingEnabled;
-    float _scaleFactor;
-    float _currentTripStartTime;
-    float _tripMaxAPCE;
-    double _movingAverageDuration;
-    unsigned long long _tripLength;
 }
 
 - (float);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -41,18 +26,14 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (float);
-- (void);
+- (void)LF;
 - (void);
 - (id);
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly) float currentTripStartTime; // @synthesize currentTripStartTime=_currentTripStartTime;
 @property double movingAverageDuration; // @synthesize movingAverageDuration=_movingAverageDuration;
-@property(readonly) float scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(readonly) unsigned long long tripLength; // @synthesize tripLength=_tripLength;
-@property(readonly) float tripMaxAPCE; // @synthesize tripMaxAPCE=_tripMaxAPCE;
 
 @end
 

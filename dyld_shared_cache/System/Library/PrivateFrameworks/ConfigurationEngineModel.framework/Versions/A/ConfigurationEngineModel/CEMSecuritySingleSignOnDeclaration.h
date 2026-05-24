@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMSecuritySingleSignOnDeclaration_Kerberos, NSString;
+@class NSString;
 
 @interface CEMSecuritySingleSignOnDeclaration : CEMConfigurationBase
 {
     NSString *_payloadName;
-    CEMSecuritySingleSignOnDeclaration_Kerberos *_payloadKerberos;
 }
 
 + (id);
@@ -30,20 +29,12 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)ing dispose on %@;
 - (id);
-- (void);
+- (void)decode error;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CEMSecuritySingleSignOnDeclaration_Kerberos *payloadKerberos; // @synthesize payloadKerberos=_payloadKerberos;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SPAdvertisementCacheXPCProtocol
+- (void)objectAtIndexedSubscript:(void (^)(NSError *))arg1;
 @end
 

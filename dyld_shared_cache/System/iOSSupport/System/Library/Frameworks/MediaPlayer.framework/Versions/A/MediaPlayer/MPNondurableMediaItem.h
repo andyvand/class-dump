@@ -11,17 +11,17 @@
     unsigned long long _persistentID;
 }
 
-+ (id);
++ (id)entt;
 + (_Bool);
 + (_Bool);
-- (id);
+- (id)F;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)isFiltered:(id)arg1 %d, filterModes:%@, hasHadSuccessfulQuery:%@, bizIntent:%@ personCentricID:%@ mergedPinningIdentifiers:%@, isRecovered:%@  isDeletingIncomingMessages:%@, isPendingReview:%@] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

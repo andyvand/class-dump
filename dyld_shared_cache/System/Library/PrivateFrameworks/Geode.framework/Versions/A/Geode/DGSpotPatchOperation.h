@@ -6,12 +6,9 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSArray;
-
 @interface DGSpotPatchOperation : DGOperation
 {
     unsigned long long _inputActiveSpotIndex;
-    NSArray *_inputSpots;
 }
 
 + (id);
@@ -37,7 +34,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);

@@ -30,12 +30,12 @@ struct CATransform3D {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -74,32 +74,17 @@ struct PFIntSize_st {
 };
 
 struct PIRotationAttributes {
-    double yaw;
-    double pitch;
-    double roll;
+    double _field1;
+    double _field2;
+    double _field3;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long width;
-    unsigned long long height;
-} CDStruct_5e758c1a;
-
-typedef struct {
-    double tx;
-    double ty;
-    double tz;
-    double sx;
-    double sy;
-    double sz;
-    double shXY;
-    double shXZ;
-    double shYZ;
-    double pitch;
-    double yaw;
-    double roll;
-} CDStruct_be095412;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     float _field1;
@@ -109,43 +94,43 @@ typedef struct {
 } CDStruct_818bb265;
 
 typedef struct {
-    float r;
-    float g;
-    float b;
-} CDStruct_3ac9af65;
+    float _field1;
+    float _field2;
+    float _field3;
+} CDStruct_869f9c67;
 
 typedef struct {
-    float min;
-    float max;
-} CDStruct_84af802f;
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
-    long long renderOrientation;
-    long long displayOrientation;
-} CDStruct_19170857;
+    long long _field1;
+    long long _field2;
+} CDStruct_912cb5d2;
 
 typedef struct {
-    CDStruct_84af802f _field1;
-    CDStruct_84af802f _field2;
-    CDStruct_84af802f _field3;
-} CDStruct_45e26d3d;
+    CDStruct_b2fbf00d _field1;
+    CDStruct_b2fbf00d _field2;
+    CDStruct_b2fbf00d _field3;
+} CDStruct_461dd235;
 
 typedef struct {
-    CDStruct_19170857 _field1;
-    CDStruct_19170857 _field2;
-} CDStruct_c3523bfd;
+    CDStruct_912cb5d2 _field1;
+    CDStruct_912cb5d2 _field2;
+} CDStruct_0973877e;
 
 typedef struct {
-    struct PFIntSize_st size;
-    long long orientation;
-} CDStruct_d459ca48;
+    struct PFIntSize_st _field1;
+    long long _field2;
+} CDStruct_9acccc45;
 
 typedef struct {
     union {

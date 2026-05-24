@@ -9,12 +9,11 @@
 @interface IMHandleStatusObserverAssertion
 {
     _Bool _valid;
-    IMHandle *_handle;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
 - (void)6@"NSSet"24;
 - (void)L;
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMHandle *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

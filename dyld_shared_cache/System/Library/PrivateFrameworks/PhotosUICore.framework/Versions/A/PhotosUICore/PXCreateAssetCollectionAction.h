@@ -6,18 +6,12 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSArray, NSString, PHAsset, PHAssetCollection, PHCollectionList, PXContentSyndicationPhotoKitAssetGroup;
+@class PXContentSyndicationPhotoKitAssetGroup;
 @protocol PXFastEnumeration;
 
 @interface PXCreateAssetCollectionAction : PXPhotosAction
 {
     PXContentSyndicationPhotoKitAssetGroup *_assetGroup;
-    PHAssetCollection *_createdAssetCollection;
-    NSString *_title;
-    PHCollectionList *_parentCollectionList;
-    id <PXFastEnumeration> _selectedAssets;
-    PHAsset *_keyAsset;
-    NSString *_createdCollectionIdentifier;
 }
 
 - (id);
@@ -35,22 +29,14 @@
 - (void);
 - (void);
 - (id);
-- (id)achAccessibilityHUDIfNeeded;
+- (id)_attachAccessibilityHUDIfNeeded;
 - (id)riptive summary information.
 
 ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXContentSyndicationPhotoKitAssetGroup *assetGroup; // @synthesize assetGroup=_assetGroup;
-@property(readonly, nonatomic) PHAssetCollection *createdAssetCollection; // @synthesize createdAssetCollection=_createdAssetCollection;
-@property(copy, nonatomic) NSString *createdCollectionIdentifier; // @synthesize createdCollectionIdentifier=_createdCollectionIdentifier;
-@property(readonly, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) PHCollectionList *parentCollectionList; // @synthesize parentCollectionList=_parentCollectionList;
 @property(readonly, nonatomic) id <PXFastEnumeration> selectedAssets; // @synthesize selectedAssets=_selectedAssets;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSArray *unsavedSyndicatedAssets;
-@property(readonly, nonatomic) NSArray *userLibraryAssets;
 
 @end
 

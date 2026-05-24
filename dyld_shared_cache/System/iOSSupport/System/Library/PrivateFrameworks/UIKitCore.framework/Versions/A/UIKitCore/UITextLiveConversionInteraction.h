@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
     long long _panOffset;
 }
 
-- (void);
-- (void);
+- (void)ous batch of attachment filesize updates completed, setting new watermark to be %@;
+- (void)r;
+- (id)\j;
 - (id);
-- (id);
-- (void)eadcrumbArrowLeft;
+- (void)BreadcrumbArrowLeft;
 - (id)IKit.emoji-client;
 - (double);
 - (void)ÐNa;

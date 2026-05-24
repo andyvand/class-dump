@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMLockdownManager
 {
     _Bool _settingUpActivationState;
-    _Bool _isInternalInstall;
-    _Bool _isCarrierInstall;
-    _Bool _isNonUIInstall;
-    _Bool _isVendorInstall;
-    _Bool _hasShownMismatchedSIM;
-    _Bool _hasShownWaitingAlertThisSession;
-    unsigned long long _state;
 }
 
 + (id);
@@ -27,46 +18,32 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)q;
+- (_Bool);
+- (_Bool)formSubAtomicInstanceSync:fromAtomicInstance:toBeComprisedOfEntries:error: /* Error: Ran out of types for this method. */;
+- (void)e use perfdata.framework (Swift/Objective-C), perfdata.py (Python 2/3), or perfdata.lua (Lua) to parse this data.;
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (_Bool);
+- (void)so lets just log it  %@;
+- (unsigned long long)ings returned %d;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)i;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)c;
 - (void))Ð!\GùñÖ,1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool _hasShownMismatchedSIM; // @synthesize _hasShownMismatchedSIM;
-@property(nonatomic) _Bool _hasShownWaitingAlertThisSession; // @synthesize _hasShownWaitingAlertThisSession;
-@property(nonatomic) _Bool _isCarrierInstall; // @synthesize _isCarrierInstall;
-@property(nonatomic) _Bool _isInternalInstall; // @synthesize _isInternalInstall;
-@property(nonatomic) _Bool _isNonUIInstall; // @synthesize _isNonUIInstall;
-@property(nonatomic) _Bool _isVendorInstall; // @synthesize _isVendorInstall;
-@property(nonatomic) _Bool _settingUpActivationState; // @synthesize _settingUpActivationState;
 @property(nonatomic, setter=_setState:) unsigned long long _state; // @synthesize _state;
-@property(readonly, nonatomic) _Bool isActivated;
-@property(readonly, nonatomic) _Bool isCarrierInstall;
-@property(readonly, nonatomic) _Bool isExpired;
-@property(readonly, nonatomic) _Bool isInternalInstall;
-@property(readonly, nonatomic) _Bool isNonUIInstall;
-@property(readonly, nonatomic) _Bool isVendorInstall;
-@property(readonly, nonatomic) NSString *uniqueDeviceIdentifier;
 
 @end
 

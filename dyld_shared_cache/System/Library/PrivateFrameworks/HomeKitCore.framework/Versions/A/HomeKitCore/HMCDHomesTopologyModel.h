@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSUUID;
+@class NSUUID;
 
 @interface HMCDHomesTopologyModel
 {
@@ -13,7 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSSet *homes; // @dynamic homes;
 @property(nonatomic, copy) NSUUID *modelID; // @dynamic modelID;
 
 @end

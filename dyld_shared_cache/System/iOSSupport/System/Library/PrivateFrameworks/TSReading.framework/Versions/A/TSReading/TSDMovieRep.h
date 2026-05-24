@@ -6,94 +6,50 @@
 
 #import <TSReading/TSDMediaRep.h>
 
-@class AVAsset, AVPlayerLayer, CALayer, NSString, TSDButtonKnob, TSDFrameRep, TSDMovieInfo, TSKAVPlayerController;
+@class TSDButtonKnob, TSKAVPlayerController;
 
 @interface TSDMovieRep : TSDMediaRep
 {
     TSKAVPlayerController *mPlayerController;
-    _Bool mCurrentlyObservingPlayerLayer;
-    _Bool mPlayerLayerShouldBeDisplayed;
-    AVPlayerLayer *mPlayerLayer;
-    CALayer *mLayerToStroke;
-    CALayer *mMovieReflectionLayer;
-    CALayer *mMovieReflectionMaskLayer;
-    AVPlayerLayer *mReflectionPlayerLayer;
-    CALayer *mReflectionPlayerStrokeMaskLayer;
-    _Bool mPreventDisposeOfPlayerLayer;
-    CALayer *mPlayerStrokeLayer;
-    CALayer *mReflectionPlayerStrokeLayer;
-    TSDFrameRep *mReflectionFrameRep;
-    CALayer *mReflectionFrameMaskLayer;
-    AVAsset *mAssetForPlayability;
-    _Bool mDidCheckPlayability;
-    _Bool mIsPlayable;
-    TSDButtonKnob *mPlayButtonKnob;
-    _Bool mPlayButtonKnobVisible;
-    _Bool mDidCancelUpdatingPlayButtonVisibility;
-    _Bool mInReadMode;
-    struct CGImage *mAlternatePosterImage;
-    unsigned long long mIsChangingDynamicVisibleTimeCount;
-    float mDynamicVolume;
-    _Bool mIsChangingDynamicVolume;
-    _Bool mNeedsTeardownPlayerController;
 }
 
-+ (double);
-- (void);
-- (void);
-- (_Bool);
++ (double);
+- (void)L sample rate change - timeSinceIntentionalChange:(id)arg1;
+- (void)endBackwardScanning;
+- (_Bool)ate converted to play [state restoration] - identifier: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
-- (void);
+- (void)SeekableTimeRanges;
 - (_Bool);
-- (_Bool);
+- (_Bool)tup for new queue;
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)Rate;
+- (void);
+- (void)rEmpty;
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)InterstitialSubscription;
+- (void)InterstitialObserver;
 - (void);
 - (void);
 - (void);
@@ -103,13 +59,32 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)MPCEnginePlayerError;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)OpenExternalURLOptionsKey;
+- (id)";
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)j_;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -119,7 +94,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (struct CGImage *);
 - (id);
 - (id);
@@ -132,37 +107,22 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)@9;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (float);
 - (void);
-- (_Bool)AtPoint:withRecognizer: /* Error: Ran out of types for this method. */;
+- (_Bool)shouldIgnoreEditMenuTapAtPoint:withRecognizer: /* Error: Ran out of types for this method. */;
 - (_Bool)m-Regular;
 - (id)[¿;
 
 // Remaining properties
-@property(nonatomic) struct CGImage *alternatePosterImage; // @synthesize alternatePosterImage=mAlternatePosterImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TSDMovieInfo *movieInfo;
-@property(readonly, nonatomic) _Bool p_playButtonFitsInFrame;
 @property(readonly, nonatomic) TSDButtonKnob *p_playButtonKnob;
-@property(readonly, nonatomic, getter=isPlayable) _Bool playable; // @synthesize playable=mIsPlayable;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly, nonatomic) _Bool shouldSingleTapPlay;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double visibleTime;
-@property(readonly, nonatomic) float volume;
 
 @end
 

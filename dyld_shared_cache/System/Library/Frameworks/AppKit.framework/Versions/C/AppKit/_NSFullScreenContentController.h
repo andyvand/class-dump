@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow, _NSFullScreenMenuBarCompanionController, _NSFullScreenSpace, _NSFullScreenStorage;
+@class NSWindow, _NSFullScreenSpace;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenContentController
 {
     _NSFullScreenSpace *_space;
-    NSWindow *_window;
-    _NSFullScreenMenuBarCompanionController *_menuBarController;
-    _NSFullScreenStorage *_fullScreenStorage;
-    _Bool _performingLiveResize;
-    _Bool _performingTileResizeToFit;
-    _Bool _hasInvalidTileFrame;
-    _NSFullScreenContentController *_surrogateContentController;
-    _NSFullScreenContentController *_realContentController;
-    _Bool _preventsResigningAsPrincipalWindow;
-    struct CGSize _fallbackMinFullScreenContentSize;
-    _Bool _hasAlwaysVisibleMenuBar;
-    unsigned long long _presentationOptions;
 }
 
 + (unsigned long long);
 - (id);
 - (_Bool);
+- (id)R;
 - (id);
-- (id);
 - (_Bool);
+- (void)ement info for copyBasebandStatusKey;
+- (void)LL;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (void)erminated_by(0));
+- (void)_AMFDRDecodeVerifyChain;
+- (_Bool)DeviceSupportsStereoAudioRecording;
+- (_Bool)oxH8p7+EaUzhkc2edrXsQQ;
+- (void)IS appropriately entitled; NO SANDBOX BUGS need be filed;
+- (_Bool)ik8OQ5JoYhyK8AoTx29MuA;
+- (id)frJGA;
+- (void)MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MobileGestalt.c;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -61,9 +49,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (unsigned int);
+- (void)FURLDownloadCreateWithResumeInformation():Asked to create from NULL resumeInformation! /* Error: Ran out of types for this method. */;
+- (_Bool)me data for background download. Background downloads must use http or https and must download to an accessible file.;
+- (unsigned int)g to background;
 - (void);
 - (void);
 - (id);
@@ -71,20 +59,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (unsigned int);
-- (void)dentifier;
+- (void)NSDestinationControllerIdentifier;
 - (id)À?;
 
 // Remaining properties
-@property(readonly) _Bool allowsCompanionWindowRevealInFullScreen;
-@property(nonatomic) struct CGSize fallbackMinFullScreenContentSize; // @synthesize fallbackMinFullScreenContentSize=_fallbackMinFullScreenContentSize;
-@property(nonatomic) _Bool hasAlwaysVisibleMenuBar; // @synthesize hasAlwaysVisibleMenuBar=_hasAlwaysVisibleMenuBar;
-@property(nonatomic) unsigned long long presentationOptions; // @synthesize presentationOptions=_presentationOptions;
-@property(nonatomic) _Bool preventsResigningAsPrincipalWindow; // @synthesize preventsResigningAsPrincipalWindow=_preventsResigningAsPrincipalWindow;
-@property(nonatomic) __weak _NSFullScreenContentController *realContentController; // @synthesize realContentController=_realContentController;
-@property(readonly) _Bool reservesSpaceForMenuBarInFullScreen;
-@property(retain, nonatomic) _NSFullScreenSpace *space; // @synthesize space=_space;
-@property(nonatomic) __weak _NSFullScreenContentController *surrogateContentController; // @synthesize surrogateContentController=_surrogateContentController;
-@property(readonly) _Bool visibleMenuBarAllowedInFullScreen;
 @property(readonly, nonatomic) NSWindow *window; // @synthesize window=_window;
 
 @end

@@ -9,32 +9,28 @@
 @interface IMDoubleLinkedList
 {
     IMDoubleLinkedListNode *_first;
-    IMDoubleLinkedListNode *_last;
-    unsigned long long _count;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)0B48d52B60@64@72;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)H;
+- (void)r<std::pair<const std::string, STSPerLabelControllerState>>>="__table_"{__hash_table<std::__hash_value_type<std::string, STSPerLabelControllerState>, std::__unordered_map_hasher<std::string, std::pair<const std::string, STSPerLabelControllerState>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, STSPerLabelControllerState>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, STSPerLabelControllerState>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, STSPerLabelControllerState>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long count; // @synthesize count=_count;
 @property(retain) IMDoubleLinkedListNode *first; // @synthesize first=_first;
-@property(retain) IMDoubleLinkedListNode *last; // @synthesize last=_last;
 
 @end
 

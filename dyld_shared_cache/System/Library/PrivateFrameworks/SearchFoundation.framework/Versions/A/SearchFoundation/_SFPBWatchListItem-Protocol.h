@@ -7,20 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBWatchListItem
+- (NSString *);
+- (NSData *)e;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addToUpNextText;
-@property(copy, nonatomic) NSString *addedToUpNextText;
-@property(copy, nonatomic) NSString *continueInTextFormat;
-@property(copy, nonatomic) NSString *inUpNextText;
-@property(copy, nonatomic) NSString *installButtonTitle;
-@property(nonatomic) _Bool isMediaContainer;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *openButtonTitle;
-@property(copy, nonatomic) NSString *purchaseOfferTextFormat;
-@property(copy, nonatomic) NSString *seasonEpisodeTextFormat;
-@property(nonatomic) int type;
 @property(copy, nonatomic) NSString *watchListIdentifier;
-@property(copy, nonatomic) NSString *watchLiveTextFormat;
 @end
 

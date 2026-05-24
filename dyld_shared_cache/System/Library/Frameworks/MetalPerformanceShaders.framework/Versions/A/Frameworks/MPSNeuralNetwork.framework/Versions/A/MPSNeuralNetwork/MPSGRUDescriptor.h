@@ -11,14 +11,6 @@
 @interface MPSGRUDescriptor : MPSRNNDescriptor
 {
     _Bool _flipOutputGates;
-    float _gatePnormValue;
-    id <MPSCNNConvolutionDataSource> _inputGateInputWeights;
-    id <MPSCNNConvolutionDataSource> _inputGateRecurrentWeights;
-    id <MPSCNNConvolutionDataSource> _recurrentGateInputWeights;
-    id <MPSCNNConvolutionDataSource> _recurrentGateRecurrentWeights;
-    id <MPSCNNConvolutionDataSource> _outputGateInputWeights;
-    id <MPSCNNConvolutionDataSource> _outputGateInputGateWeights;
-    id <MPSCNNConvolutionDataSource> _outputGateRecurrentWeights;
 }
 
 + (id);
@@ -32,12 +24,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (float);
 - (_Bool);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -45,15 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool flipOutputGates; // @synthesize flipOutputGates=_flipOutputGates;
-@property(nonatomic) float gatePnormValue; // @synthesize gatePnormValue=_gatePnormValue;
 @property(retain, nonatomic) id <MPSCNNConvolutionDataSource> inputGateInputWeights; // @synthesize inputGateInputWeights=_inputGateInputWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> inputGateRecurrentWeights; // @synthesize inputGateRecurrentWeights=_inputGateRecurrentWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> outputGateInputGateWeights; // @synthesize outputGateInputGateWeights=_outputGateInputGateWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> outputGateInputWeights; // @synthesize outputGateInputWeights=_outputGateInputWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> outputGateRecurrentWeights; // @synthesize outputGateRecurrentWeights=_outputGateRecurrentWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> recurrentGateInputWeights; // @synthesize recurrentGateInputWeights=_recurrentGateInputWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> recurrentGateRecurrentWeights; // @synthesize recurrentGateRecurrentWeights=_recurrentGateRecurrentWeights;
 
 @end
 

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _MLNLPWordTaggingModel
 {
     void *_wordTaggingModel;
-    MLModelDescription *_modelDescription;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)MTLBVHDescriptorForMTLAccelerationStructureDescriptor;
+- (id)MTL_DEBUG_IGNORE_PSO_FAIL_ON_MISS;
+- (void);
 - (id);
 - (id);
 - (void)Supplied;

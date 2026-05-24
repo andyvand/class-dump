@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (NSCATransaction)
-+ (_Bool);
-+ (void);
-+ (void);
++ (_Bool)2zo;
++ (void)2ze;
++ (void)6yg;
 @end
 

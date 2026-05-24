@@ -7,7 +7,6 @@
 @protocol TSKAnnotation
 
 // Remaining properties
-@property(readonly, nonatomic) int annotationDisplayStringType;
 @property(readonly, nonatomic) int annotationType;
 @end
 

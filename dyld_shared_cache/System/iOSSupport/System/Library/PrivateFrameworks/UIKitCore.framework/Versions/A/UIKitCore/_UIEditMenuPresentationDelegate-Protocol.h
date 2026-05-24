@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, UIView;
 
 @protocol _UIEditMenuPresentationDelegate
+- (UIView *);
+- (void);
+- (void)*@y
+;
 - (void);
 - (NSArray *)<féÿð^]þüÈþÿ;
 @end

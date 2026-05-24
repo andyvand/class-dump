@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBLocalDate
 {
     struct {
@@ -14,27 +12,24 @@
         unsigned int month:1;
         unsigned int year:1;
     } _has;
-    int _dayOfWeek;
-    long long _dayOfMonth;
-    long long _month;
-    long long _year;
 }
 
-+ (_Bool);
++ (_Bool)(A;
 - (void);
-- (void);
+- (void)n
+;
 - (_Bool);
 - (id);
 - (int);
 - (void);
 - (void);
+- (_Bool)ProductVersion;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)ceHaptics";
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -45,25 +40,11 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)6;
 - (long long)b;
 
 // Remaining properties
 @property(nonatomic) long long dayOfMonth; // @synthesize dayOfMonth=_dayOfMonth;
-@property(nonatomic) int dayOfWeek; // @synthesize dayOfWeek=_dayOfWeek;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasDayOfMonth;
-@property(nonatomic) _Bool hasDayOfWeek;
-@property(nonatomic) _Bool hasMonth;
-@property(nonatomic) _Bool hasYear;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long month; // @synthesize month=_month;
-@property(readonly) Class superclass;
-@property(nonatomic) long long year; // @synthesize year=_year;
 
 @end
 

@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *);
+- (Class)substringFromScanLocation;
+- (id)substringFromIndex: /* Error: Ran out of types for this method. */;
+- (id)subsampleFactorForScale:(SEL)arg1 additionalScale:(id)arg2;
+- (id)subsampleFactorForScale:(SEL)arg1;
+- (id)subportMatching:(SEL)arg1;
+- (Class)submitTime;
+- (oneway void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool)";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

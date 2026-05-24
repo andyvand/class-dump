@@ -15,7 +15,7 @@
 }
 
 - (void);
-- (id);
+- (id)bstones for %ld attachments still being referenced;
 - (id);
 - (void);
 - (long long);

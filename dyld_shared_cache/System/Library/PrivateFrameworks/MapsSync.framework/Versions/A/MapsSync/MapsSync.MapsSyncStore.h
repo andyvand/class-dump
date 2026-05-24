@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSync.MapsSyncStoreConfig;
-
 @interface MapsSync.MapsSyncStore
 {
     _Bool shouldDeleteDuplicates;
-    MapsSync.MapsSyncStoreConfig *config;
-    id containerInstanceLock;
-    id inDevelopmentStorage;
 }
 
 + (id);
-+ (void);
++ (void)u#;
 + (void);
 + (id);
 - (void);
@@ -34,7 +29,6 @@
 - (void)Èl;
 
 // Remaining properties
-@property(nonatomic, retain) MapsSync.MapsSyncStoreConfig *config; // @synthesize config;
 @property(nonatomic, readonly) _Bool shouldDeleteDuplicates; // @synthesize shouldDeleteDuplicates;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSMutableDictionary, NSObject, RBSTarget;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface _CPInhibitorManager
 {
     _Bool _isProcessRunningBoardManaged;
-    NSObject<OS_os_log> *_os_log;
-    NSMutableDictionary *_inhibitorMap;
-    NSLock *_inhibitorMapLock;
-    RBSTarget *_runningBoardTarget;
-    NSArray *_runningBoardAttributes;
 }
 
 + (id);
@@ -34,16 +29,11 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)<v@?@"NSError">28;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *inhibitorMap; // @synthesize inhibitorMap=_inhibitorMap;
-@property(retain, nonatomic) NSLock *inhibitorMapLock; // @synthesize inhibitorMapLock=_inhibitorMapLock;
-@property(nonatomic) _Bool isProcessRunningBoardManaged; // @synthesize isProcessRunningBoardManaged=_isProcessRunningBoardManaged;
 @property(retain, nonatomic) NSObject<OS_os_log> *os_log; // @synthesize os_log=_os_log;
-@property(retain, nonatomic) NSArray *runningBoardAttributes; // @synthesize runningBoardAttributes=_runningBoardAttributes;
-@property(retain, nonatomic) RBSTarget *runningBoardTarget; // @synthesize runningBoardTarget=_runningBoardTarget;
 
 @end
 

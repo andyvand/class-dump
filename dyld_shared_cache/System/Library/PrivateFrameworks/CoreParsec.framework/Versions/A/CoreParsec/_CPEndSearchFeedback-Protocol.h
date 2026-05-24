@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _CPEndSearchFeedback
+- (unsigned long long)$;
+- (NSData *);
+- (NSString *)BeatsStudioBuds1,1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSString *uuid;
 @end
 

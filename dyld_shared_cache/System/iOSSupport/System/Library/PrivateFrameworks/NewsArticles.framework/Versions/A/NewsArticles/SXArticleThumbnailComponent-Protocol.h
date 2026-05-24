@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol SXArticleThumbnailComponent
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *articleIdentifier;
-@property(readonly, nonatomic) _Bool showLayeredThumbnail;
 @end
 

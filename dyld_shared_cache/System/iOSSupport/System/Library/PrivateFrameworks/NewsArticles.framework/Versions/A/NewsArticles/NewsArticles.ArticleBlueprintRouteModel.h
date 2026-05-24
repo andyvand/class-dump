@@ -7,10 +7,6 @@
 @interface NewsArticles.ArticleBlueprintRouteModel
 {
     id article;
-    id articleBlueprintProvider;
-    id shownArticle;
-    id shadowObserver;
-    id shadowArticle;
 }
 
 @end

@@ -9,66 +9,43 @@
 @interface NTPBExternalAnalyticsEventSend
 {
     NSString *_contentViewedId;
-    NSString *_eventUdid;
-    int _externalAnalyticsEventType;
-    NSString *_externalAnalyticsId;
-    NSString *_failureReasonCode;
-    int _resultType;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int externalAnalyticsEventType:1;
-        unsigned int resultType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)cancelDelayedLockIfNeeded;
+- (void)bestColumnIndexForPreferredNumberOfColumns:(id)arg1 allowedColumns: /* Error: Ran out of types for this method. */;
+- (void)ions:(id)arg1 loggingOptions: /* Error: Ran out of types for this method. */;
+- (void)bestClipCompositionFromClipCompositions:(int)arg1 forKeyAsset:contentInfo:playbackStyle:spec:croppingContext:options:loggingOptions: /* Error: Ran out of types for this method. */;
+- (void)beginDisablingIdleTimerForReason:(id)arg1;
+- (void)availabilityPollingInterval;
+- (_Bool)_usesLargeMargins;
+- (_Bool)_userWantsAspectFitContent;
+- (_Bool)_userSuggestionByTokenString;
+- (_Bool)_useSplitWipeTransitionsFromOneUp;
+- (_Bool)_updateTrack;
+- (id)_updateMainAsset;
+- (id)_updateLocalizedContainerItemsCountIfNeeded;
+- (int)_updateLocalSprites;
+- (id)_updateLateralMargin;
+- (id)_timelineReadingQueue_processRequest:previousRequest: /* Error: Ran out of types for this method. */;
+- (id)gExited"b1"delegateImplementsDraggingEnded"b1};
+- (void)MapsSuggestionsDefaultLocationUpdaterWorkerQueue;
 - (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void)N15InputTranscoder5BiMapINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEjEE;
+- (_Bool)_vrrResolutions;
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)l;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (int);
-- (void)ribeUnsubscribeLocation;
+- (void)notificationSubscribeUnsubscribeLocation;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentViewedId; // @synthesize contentViewedId=_contentViewedId;
-@property(retain, nonatomic) NSString *eventUdid; // @synthesize eventUdid=_eventUdid;
-@property(nonatomic) int externalAnalyticsEventType; // @synthesize externalAnalyticsEventType=_externalAnalyticsEventType;
-@property(retain, nonatomic) NSString *externalAnalyticsId; // @synthesize externalAnalyticsId=_externalAnalyticsId;
-@property(retain, nonatomic) NSString *failureReasonCode; // @synthesize failureReasonCode=_failureReasonCode;
-@property(readonly, nonatomic) _Bool hasContentViewedId;
-@property(readonly, nonatomic) _Bool hasEventUdid;
 @property(nonatomic) _Bool hasExternalAnalyticsEventType;
-@property(readonly, nonatomic) _Bool hasExternalAnalyticsId;
-@property(readonly, nonatomic) _Bool hasFailureReasonCode;
-@property(nonatomic) _Bool hasResultType;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

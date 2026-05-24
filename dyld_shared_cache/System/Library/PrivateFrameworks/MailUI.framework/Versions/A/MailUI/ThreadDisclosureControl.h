@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSStackView, NSTextField;
+@class NSTextField;
 
 @interface ThreadDisclosureControl
 {
     _Bool _open;
-    _Bool _countHidden;
-    long long _count;
-    NSTextField *_countLabel;
-    NSImageView *_disclosureImageView;
-    NSStackView *_stackView;
 }
 
 - (void);
@@ -33,31 +28,24 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)?;
 - (id);
 - (void);
+- (id)assetWriterInputWithMediaType:(struct CGRect)arg1 outputSettings:sourceFormatHint: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (long long);
 - (void);
-- (void)osureControl: /* Error: Ran out of types for this method. */;
-- (id)itySelectedColumns;
+- (id)d;
+- (long long)iso_a3_297x420mm;
+- (void);
+- (void)setThreadDisclosureControl: /* Error: Ran out of types for this method. */;
+- (id)accessibilitySelectedColumns;
 - (void)g;
 - (_Bool), including receipts and delivery updates, when you bundle messages by sender.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *closedThreadImage;
-@property(nonatomic) long long count; // @synthesize count=_count;
-@property(nonatomic, getter=isCountHidden) _Bool countHidden; // @synthesize countHidden=_countHidden;
 @property(retain, nonatomic) NSTextField *countLabel; // @synthesize countLabel=_countLabel;
-@property(retain, nonatomic) NSImageView *disclosureImageView; // @synthesize disclosureImageView=_disclosureImageView;
-@property(nonatomic, getter=isOpen) _Bool open; // @synthesize open=_open;
-@property(readonly, nonatomic) NSImage *openThreadImage;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

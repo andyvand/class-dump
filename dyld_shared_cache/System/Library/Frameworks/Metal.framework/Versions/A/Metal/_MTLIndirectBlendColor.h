@@ -7,28 +7,20 @@
 @interface _MTLIndirectBlendColor
 {
     float red;
-    float green;
-    float blue;
-    float alpha;
-    float _red;
-    float _green;
-    float _blue;
-    float _alpha;
 }
 
+- (void)eturn p0;
+}
+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)StoredInstanceTransferSyntaxUID;
 - (float);
 - (float);
 - (float);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float blue; // @synthesize blue=_blue;
-@property(nonatomic) float green; // @synthesize green=_green;
 @property(nonatomic) float red; // @synthesize red=_red;
 
 @end

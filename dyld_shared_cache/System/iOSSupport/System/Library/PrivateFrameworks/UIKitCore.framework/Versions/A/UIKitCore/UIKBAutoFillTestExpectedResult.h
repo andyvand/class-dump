@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     long long _formType;
 }
 
-- (long long);
+- (long long);
+- (void)ng skip checks and allowing TrustKit decisioning.;
 - (void);
-- (void);
 - (long long);
+- (id)4;
 - (id);
-- (id);
-- (void)minate;
+- (void)applicationWillTerminate;
 - (void)IÀÿ1H;
 
 // Remaining properties

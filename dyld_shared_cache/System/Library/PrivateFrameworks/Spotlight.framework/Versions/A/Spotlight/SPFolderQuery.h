@@ -13,7 +13,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)id! (dbf %p dbo %p size 0x%x)
+;
 - (void);
 
 @end

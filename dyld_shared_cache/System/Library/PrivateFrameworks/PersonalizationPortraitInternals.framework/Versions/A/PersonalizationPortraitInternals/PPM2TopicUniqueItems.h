@@ -21,14 +21,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_extensionName;
 - (id);
 - (id);
 - (void)a¡!<Gù1÷Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
 @property(readonly, nonatomic) _Bool hasActiveTreatments;
 
 @end

@@ -4,76 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, NSTextInputContext, TITextInputTraits, TUIKeyboardCandidateMultiplexer, _NSTextSmartReplyContext, _NSTextSmartReplyLastClosedContext;
-@protocol NSTextSmartReplyAppController, WTWritingToolsDelegate_Proposed_v3;
-
 @interface NSTextSmartReplyReceiver
 {
     _Bool _isEnabled;
-    _Bool _isInWritingToolsSession;
-    _Bool _allowFeedbackForCurrentSmartReplies;
-    NSTextInputContext *_currentInputContext;
-    NSObject<WTWritingToolsDelegate_Proposed_v3> *_writingToolsDelegate;
-    TUIKeyboardCandidateMultiplexer *_multiplexer;
-    _NSTextSmartReplyContext *_smartReplyContext;
-    _NSTextSmartReplyLastClosedContext *_lastClosedContext;
-    NSArray *_displayedCandidates;
-    id <NSTextSmartReplyAppController> _appController;
-    NSString *_bundleID;
-    NSMutableArray *_intentionallyClosedHistories;
-    NSMutableArray *_passivelyClosedHistories;
-    TITextInputTraits *_lastTraits;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)+eyKMKG+ZSSg;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)!;
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)ergyTracing;
+- (id)P;
 - (_Bool);
 - (void);
 - (void);
+- (void)URLSession:task:didCompleteWithError: /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool)s %@;
+- (id)get here then?;
+- (_Bool)lder %@ does not exist, recreating.;
+- (void)%@ [%ld] for task %@;
 - (void);
+- (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (_Bool)/PrivateFrameworks/NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy;
+- (void)localizedDescription;
+- (void)ubclass should implement;
 - (void);
 - (id);
 - (void);
+- (void)te",C,N,V_lastIncomingRecipientDate;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
@@ -86,24 +70,10 @@
 - (void)]ÿww	ÌúA;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFeedbackForCurrentSmartReplies; // @synthesize allowFeedbackForCurrentSmartReplies=_allowFeedbackForCurrentSmartReplies;
-@property(retain, nonatomic) id <NSTextSmartReplyAppController> appController; // @synthesize appController=_appController;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSTextInputContext *currentInputContext; // @synthesize currentInputContext=_currentInputContext;
-@property(retain, nonatomic) NSArray *displayedCandidates; // @synthesize displayedCandidates=_displayedCandidates;
 @property(readonly, nonatomic) _Bool includesTextListMarkers;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
-@property(retain, nonatomic) NSMutableArray *intentionallyClosedHistories; // @synthesize intentionallyClosedHistories=_intentionallyClosedHistories;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(nonatomic) _Bool isInWritingToolsSession; // @synthesize isInWritingToolsSession=_isInWritingToolsSession;
-@property(retain, nonatomic) _NSTextSmartReplyLastClosedContext *lastClosedContext; // @synthesize lastClosedContext=_lastClosedContext;
-@property(retain, nonatomic) TITextInputTraits *lastTraits; // @synthesize lastTraits=_lastTraits;
-@property(retain, nonatomic) TUIKeyboardCandidateMultiplexer *multiplexer; // @synthesize multiplexer=_multiplexer;
-@property(retain, nonatomic) NSMutableArray *passivelyClosedHistories; // @synthesize passivelyClosedHistories=_passivelyClosedHistories;
-@property(retain, nonatomic) _NSTextSmartReplyContext *smartReplyContext; // @synthesize smartReplyContext=_smartReplyContext;
-@property(nonatomic) __weak NSObject<WTWritingToolsDelegate_Proposed_v3> *writingToolsDelegate; // @synthesize writingToolsDelegate=_writingToolsDelegate;
 
 @end
 

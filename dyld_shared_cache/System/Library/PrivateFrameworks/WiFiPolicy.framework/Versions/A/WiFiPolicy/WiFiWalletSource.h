@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, PKPassLibrary;
-@protocol OS_dispatch_queue;
+@class PKPassLibrary;
 
 @interface WiFiWalletSource
 {
     CDUnknownBlockType changeHandler;
-    CDUnknownBlockType relevancyHandler;
-    CDUnknownBlockType removalHandler;
-    PKPassLibrary *_passLibrary;
-    NSMutableDictionary *_networks;
-    NSMutableSet *_relevantPassIdentifiers;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)1;
 - (void);
 - (void);
 - (id);
@@ -52,25 +45,12 @@
 - (void);
 - (void)
 × ;
-- (void)echnology:(id)arg1 error:(id)arg2;
-- (void)FiLocationProvider;
+- (void)copyRadioAccessTechnology:(id)arg1 error:(id)arg2;
+- (void)WiFiLocationProvider;
 - (id)s set;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *networks; // @synthesize networks=_networks;
 @property(retain, nonatomic) PKPassLibrary *passLibrary; // @synthesize passLibrary=_passLibrary;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) CDUnknownBlockType relevancyHandler; // @synthesize relevancyHandler;
-@property(retain, nonatomic) NSMutableSet *relevantPassIdentifiers; // @synthesize relevantPassIdentifiers=_relevantPassIdentifiers;
-@property(copy, nonatomic) CDUnknownBlockType removalHandler; // @synthesize removalHandler;
-@property(readonly) Class superclass;
 
 @end
 

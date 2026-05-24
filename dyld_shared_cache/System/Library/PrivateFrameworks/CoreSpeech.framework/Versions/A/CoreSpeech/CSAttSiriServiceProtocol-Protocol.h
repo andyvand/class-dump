@@ -5,5 +5,7 @@
 //
 
 @protocol CSAttSiriServiceProtocol
+- (void);
+- (void);
 @end
 

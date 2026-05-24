@@ -9,10 +9,6 @@
 @interface CKDPZoneRetrieveAncestorsRequest
 {
     CKDPRecordZoneIdentifier *_zoneIdentifier;
-    _Bool _onlyFetchPCSInfo;
-    struct {
-        unsigned int onlyFetchPCSInfo:1;
-    } _has;
 }
 
 + (id);
@@ -21,14 +17,14 @@
 - (id);
 - (void);
 - (void);
+- (void)oid endpointCluster_startFailDelayTimerIfNeeded(FigEndpointRef);
+- (unsigned long long)StreamAudioFormatDescriptionRef, FigEndpointStreamAudioFormatDescriptionRef *);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id)!$@ùQÛ°1Â0@ù
@@ -36,10 +32,7 @@
 - (void)¸;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOnlyFetchPCSInfo;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) _Bool onlyFetchPCSInfo; // @synthesize onlyFetchPCSInfo=_onlyFetchPCSInfo;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

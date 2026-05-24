@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface ENStableGroupID
 {
@@ -23,15 +23,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)?	;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *dataRepresentation;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

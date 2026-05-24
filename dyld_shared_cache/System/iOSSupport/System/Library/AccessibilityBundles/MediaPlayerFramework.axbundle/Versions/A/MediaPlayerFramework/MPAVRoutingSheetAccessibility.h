@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__NSCFString;
 + (void);
 - (void);
 - (id);

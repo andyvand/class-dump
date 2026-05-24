@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PGMoodGenerationContext
 {
     NSMutableDictionary *_isLongTimeNoSeeByPersonLocalIdentifier;
-    NSMutableDictionary *_isLongTimeNoSeeBySocialGroupUUID;
-    NSMutableDictionary *_isLongTimeNoSeeByLocationUUID;
-    NSDate *_longTimeNoSeePeopleLatestDate;
-    NSDate *_longTimeNoSeeLocationLatestDate;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)XFUIElement"16;
+- (id)inputMarkingSession:(id)arg1 contentChanged: /* Error: Ran out of types for this method. */;
 - (void)me
 ;
 

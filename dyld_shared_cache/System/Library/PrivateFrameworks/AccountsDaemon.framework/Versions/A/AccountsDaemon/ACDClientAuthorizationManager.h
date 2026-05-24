@@ -11,18 +11,18 @@
     ACDDatabaseConnection *_databaseConnection;
 }
 
+- (id);
+- (id)commitChangesToWhitelistedContacts;
+- (id);
+- (id)presentWindow:(id)arg1 inWindow:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)}@)> from daemon in store <(%@)>;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 @end

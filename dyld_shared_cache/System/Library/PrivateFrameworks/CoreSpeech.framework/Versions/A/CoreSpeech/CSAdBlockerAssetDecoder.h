@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ithAudioProviderUUID: /* Error: Ran out of types for this method. */;
+- (void)_transitHearstAPEnable:withAudioProviderUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *payLoadData; // @synthesize payLoadData=_payLoadData;

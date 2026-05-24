@@ -6,33 +6,21 @@
 
 #import <BiomePubSub/BPSSubscription.h>
 
-@class NSMutableArray;
 @protocol BPSSubscriber;
 
 @interface _BPSAbstractZip : BPSSubscription
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _cancelled;
-    _Bool _errored;
-    _Bool _finished;
-    _Bool _recursive;
-    id <BPSSubscriber> _downstream;
-    NSMutableArray *_buffers;
-    NSMutableArray *_subscriptions;
-    NSMutableArray *_upstreamFinished;
-    long long _upstreamCount;
-    long long _pendingDemand;
 }
 
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,7 +30,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)t4;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -50,7 +38,7 @@
 - (void);
 - (long long);
 - (void);
-- (long long);
+- (long long)lure;
 - (void);
 - (void);
 - (void);
@@ -58,16 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffers; // @synthesize buffers=_buffers;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) _Bool errored; // @synthesize errored=_errored;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(nonatomic) long long pendingDemand; // @synthesize pendingDemand=_pendingDemand;
-@property(nonatomic) _Bool recursive; // @synthesize recursive=_recursive;
-@property(retain, nonatomic) NSMutableArray *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(nonatomic) long long upstreamCount; // @synthesize upstreamCount=_upstreamCount;
-@property(retain, nonatomic) NSMutableArray *upstreamFinished; // @synthesize upstreamFinished=_upstreamFinished;
 
 @end
 

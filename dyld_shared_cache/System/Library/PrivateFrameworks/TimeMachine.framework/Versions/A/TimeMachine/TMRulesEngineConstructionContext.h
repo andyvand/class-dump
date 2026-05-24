@@ -9,9 +9,6 @@
 @interface TMRulesEngineConstructionContext
 {
     NSMutableDictionary *_sourceDiskMap;
-    NSMutableDictionary *_filterGeneratorMap;
-    NSMutableDictionary *_spotlightOracleMap;
-    NSArray *_spotlightOracles;
 }
 
 - (id);
@@ -23,16 +20,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)`B;
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *filterGenerators;
 @property(readonly) NSArray *sourceDisks;
-@property(readonly) NSArray *spotlightOracles; // @synthesize spotlightOracles=_spotlightOracles;
 
 @end
 

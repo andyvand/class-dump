@@ -9,20 +9,16 @@
 @interface SOSelectionOverlayTextSegment
 {
     NSString *_text;
-    NSString *_label;
-    struct _NSRange _textRange;
 }
 
-- (void);
+- (void)N8cnmatrix8CNMatrixILj2ELj2EiEE;
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)N,V_buttonFont;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 @property(nonatomic) struct _NSRange textRange; // @synthesize textRange=_textRange;
 
 @end

@@ -9,15 +9,14 @@
 @interface CHSearchQueryItem
 {
     NSDictionary *_strokeBoundsByIdentifier;
-    NSSet *_strokeIdentifiers;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)c;
 - (struct CGRect);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (void)Ð	;
 
 // Remaining properties

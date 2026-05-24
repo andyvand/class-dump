@@ -7,35 +7,6 @@
 @interface NewsUI2.TodayDataManager
 {
     id delegate;
-    id feedManager;
-    id feedPluginManager;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id accessQueue;
-    id sharedItemManager;
-    id appConfigManager;
-    id bundleSubscriptionManager;
-    id bundleSessionManager;
-    id bundleCampaignSessionManager;
-    id bundleSubscriptionDetectionManager;
-    id subscriptionList;
-    id nativeAdService;
-    id _lastRefreshContext;
-    id sharedItemAdditions;
-    id subscriptionService;
-    id cachePreFlushTask;
-    id sportsOnboardingManager;
-    id shortcutService;
-    id readingList;
-    id historyService;
-    id puzzleStatsService;
-    id puzzleHistoryService;
-    id offlineManager;
-    id offlineFeedPrimer;
-    id offlineFeatures;
-    id blockNextAutoRefresh;
-    id contentShortcutsModule;
-    id contentShortcutsPluginConfig;
 }
 
 - (void);

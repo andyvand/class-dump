@@ -6,16 +6,9 @@
 
 #import <Geode/IPAOperation.h>
 
-@class NSString;
-
 @interface IPASmartBlackAndWhiteOperation : IPAOperation
 {
     double _inputBlackAndWhite;
-    double _offsetStrength;
-    double _offsetNeutralGamma;
-    double _offsetTone;
-    double _offsetHue;
-    double _offsetGrain;
 }
 
 + (_Bool);
@@ -28,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)R!;
 - (double);
 - (double);
 - (double);
@@ -43,19 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double inputBlackAndWhite; // @synthesize inputBlackAndWhite=_inputBlackAndWhite;
-@property(nonatomic) double offsetGrain; // @synthesize offsetGrain=_offsetGrain;
-@property(nonatomic) double offsetHue; // @synthesize offsetHue=_offsetHue;
-@property(nonatomic) double offsetNeutralGamma; // @synthesize offsetNeutralGamma=_offsetNeutralGamma;
-@property(nonatomic) double offsetStrength; // @synthesize offsetStrength=_offsetStrength;
-@property(nonatomic) double offsetTone; // @synthesize offsetTone=_offsetTone;
-@property(readonly) Class superclass;
 
 @end
 

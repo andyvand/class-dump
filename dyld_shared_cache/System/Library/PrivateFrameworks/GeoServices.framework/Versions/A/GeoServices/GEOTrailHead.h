@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOTrailHead
 {
     int _displayType;
-    NSArray *_trails;
-    unsigned long long _numberOfInlineItems;
 }
 
 + (id);
-+ (int);
++ (int)Rk;
 - (id);
 - (unsigned long long);
 - (id);
@@ -23,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int displayType; // @synthesize displayType=_displayType;
-@property(readonly, nonatomic) unsigned long long numberOfInlineItems; // @synthesize numberOfInlineItems=_numberOfInlineItems;
-@property(readonly, nonatomic) NSArray *trails; // @synthesize trails=_trails;
 
 @end
 

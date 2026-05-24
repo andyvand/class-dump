@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RPCompanionLinkDevice;
+@class RPCompanionLinkDevice;
 
 @interface RPStatusDevice
 {
     RPCompanionLinkDevice *_device;
-    NSMutableDictionary *_statusInfoMap;
-    NSMutableDictionary *_statusStateMap;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ration %@ to %{public}@;
 - (id);
 - (void);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RPCompanionLinkDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) NSMutableDictionary *statusInfoMap; // @synthesize statusInfoMap=_statusInfoMap;
-@property(retain, nonatomic) NSMutableDictionary *statusStateMap; // @synthesize statusStateMap=_statusStateMap;
 
 @end
 

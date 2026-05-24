@@ -12,20 +12,15 @@ __attribute__((visibility("hidden")))
 @interface NSResizeMoveHelper : NSMoveHelper
 {
     NSWindow *_window;
-    double _totalTime;
-    struct CGRect _frameDelta;
-    struct CGRect _startFrame;
-    double _percent;
-    _Bool _contentPreservationNeedsRestoration;
 }
 
 - (_Bool);
 - (void);
+- (void)S24@28@36;
+- (void)sessionWithConfiguration:(double)arg1 assetDownloadDelegate:delegateQueue: /* Error: Ran out of types for this method. */;
+- (void)sessionSendsLaunchEvents;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)b;
 - (double);
 - (void)þ;
 - (id);

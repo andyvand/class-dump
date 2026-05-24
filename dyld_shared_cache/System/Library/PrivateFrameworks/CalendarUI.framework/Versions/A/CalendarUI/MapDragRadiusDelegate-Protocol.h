@@ -5,5 +5,6 @@
 //
 
 @protocol MapDragRadiusDelegate
+- (void));
 @end
 

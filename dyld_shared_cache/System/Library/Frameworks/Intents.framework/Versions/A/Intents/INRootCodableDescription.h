@@ -6,32 +6,29 @@
 
 #import <Intents/INCodableDescription.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface INRootCodableDescription : INCodableDescription
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_referencedCodableDescriptionsByClassName;
-    NSArray *_referencedCodableDescriptions;
 }
 
-+ (_Bool);
-+ (id)TaskList:(id)arg1 taskTitles:(id *)arg2 spatialEventTrigger:temporalEventTrigger: /* Error: Ran out of types for this method. */;
++ (_Bool)(;
++ (id)initWithTargetTaskList:(id)arg1 taskTitles:(id *)arg2 spatialEventTrigger:temporalEventTrigger: /* Error: Ran out of types for this method. */;
 + (void)ãg;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)initWithProfile:(id)arg1;
+- (id)buttonLeftShoulder;
 - (id);
 - (long long);
-- (void);
-- (void)uestPayment:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)ewifi] %{public}s (%{public}s:(id)arg1 %u) Candidate known network does not match candidate BSS;
+- (void)providePayerOptionsForRequestPayment:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *_referencedCodableDescriptionsByClassName; // @synthesize _referencedCodableDescriptionsByClassName;
 @property(retain, nonatomic, setter=_setReferencedCodableDescriptions:) NSArray *referencedCodableDescriptions; // @synthesize referencedCodableDescriptions=_referencedCodableDescriptions;
 
 @end

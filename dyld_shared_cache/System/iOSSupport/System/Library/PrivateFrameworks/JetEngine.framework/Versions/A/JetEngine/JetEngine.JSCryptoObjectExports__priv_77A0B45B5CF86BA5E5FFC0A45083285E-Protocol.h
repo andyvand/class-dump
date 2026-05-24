@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol JetEngine.JSCryptoObjectExports__priv_77A0B45B5CF86BA5E5FFC0A45083285E
+- (_Bool);
+- (JSValue *)tState"@"NSError">;
 @end
 

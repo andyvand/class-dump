@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBCKConfigurationFieldValue;
+@class NSString;
 
 @interface NTPBCKConfigurationField
 {
     NSString *_name;
-    NTPBCKConfigurationFieldValue *_value;
 }
 
 - (void);
 - (id);
 - (_Bool);
+- (void)T;
 - (void);
-- (void);
-- (id);
+- (id)<OS_os_log>";
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)<!;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)d;
+- (void)AppleLanguages;
+- (void)hasPortraitGlobalThreshold;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NTPBCKConfigurationFieldValue *value; // @synthesize value=_value;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <AVFCapture/AVCaptureOutput_Tundra.h>
 
-@class AVCaptureFileOutputInternal_Tundra, NSURL;
+@class AVCaptureFileOutputInternal_Tundra;
 @protocol AVCaptureFileOutputDelegate_Tundra;
 
 @interface AVCaptureFileOutput_Tundra : AVCaptureOutput_Tundra
@@ -14,43 +14,35 @@
     AVCaptureFileOutputInternal_Tundra *_fileOutputInternal;
 }
 
+- (void)MSVLyricsTTMLParser;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (CDStruct_1b6d18a9);
-- (id);
-- (long long);
-- (long long);
-- (CDStruct_1b6d18a9);
+- (void)=%lu, _zstreamp->avail_out=%lu, in_len=%lu;
+- (long long)ge:[%@]%{public}@ /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)nnection] <%p> Received message:[%@]%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ata>;
+- (long long)ired (%{public}@);
+- (long long)s invalidated. duration=%f;
+- (CDStruct_1b6d18a9)}@] expired;
+- (_Bool)CGImageDestinationRef, CGFloat, CGFloat);
+- (id)SSet<Class> *__strong _Nonnull, NSData *__strong _Nonnull);
 - (_Bool);
+- (int)_DebugMarker;
+- (id)while reading data;
 - (id);
 - (_Bool);
-- (int);
+- (void);
+- (void)accountWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)cyWidth;
 - (void);
 - (_Bool)l;
 
 // Remaining properties
 @property(nonatomic) id <AVCaptureFileOutputDelegate_Tundra> delegate;
-@property(nonatomic) CDStruct_1b6d18a9 maxRecordedDuration;
-@property(nonatomic) long long maxRecordedFileSize;
-@property(nonatomic) long long minFreeDiskSpaceLimit;
-@property(readonly, nonatomic) NSURL *outputFileURL;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 recordedDuration;
-@property(readonly, nonatomic) long long recordedFileSize;
-@property(readonly, nonatomic, getter=isRecording) _Bool recording;
-@property(readonly, nonatomic, getter=isRecordingPaused) _Bool recordingPaused;
 
 @end
 

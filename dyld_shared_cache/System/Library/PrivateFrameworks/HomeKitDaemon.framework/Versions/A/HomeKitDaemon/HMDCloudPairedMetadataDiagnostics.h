@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterFirewallRuleAccessoryIdentifier, NSDictionary, NSURL;
+@class HMDNetworkRouterFirewallRuleAccessoryIdentifier, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudPairedMetadataDiagnostics
 {
     NSURL *_privacyPolicyURL;
-    NSURL *_uploadDestination;
-    unsigned long long _consentVersion;
-    unsigned long long _uploadType;
-    HMDNetworkRouterFirewallRuleAccessoryIdentifier *_accessoryIdentifier;
 }
 
 + (id)ØB;
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)mined expected access mode of %@ based on isAnyUserAtHome = %@, accessModeAtHome = %@, accessModeNotAtHome = %@;
@@ -30,11 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDNetworkRouterFirewallRuleAccessoryIdentifier *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(readonly, nonatomic) unsigned long long consentVersion; // @synthesize consentVersion=_consentVersion;
-@property(readonly, nonatomic) NSDictionary *prettyJSONDictionary;
-@property(readonly, nonatomic) NSURL *privacyPolicyURL; // @synthesize privacyPolicyURL=_privacyPolicyURL;
-@property(readonly, nonatomic) NSURL *uploadDestination; // @synthesize uploadDestination=_uploadDestination;
-@property(readonly, nonatomic) unsigned long long uploadType; // @synthesize uploadType=_uploadType;
 
 @end
 

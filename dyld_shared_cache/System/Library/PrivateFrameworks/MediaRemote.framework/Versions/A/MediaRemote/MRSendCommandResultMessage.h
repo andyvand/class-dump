@@ -16,7 +16,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)epted introductions for %lu handles;
 - (void)@,R,N,V_initialState;
 
 // Remaining properties

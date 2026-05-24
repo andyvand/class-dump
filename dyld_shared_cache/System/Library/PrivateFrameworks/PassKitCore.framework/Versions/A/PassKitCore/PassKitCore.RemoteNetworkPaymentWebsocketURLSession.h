@@ -7,26 +7,11 @@
 @interface PassKitCore.RemoteNetworkPaymentWebsocketURLSession
 {
     id delegate;
-    id sessionIdentifier;
-    id websocketURL;
-    id urlSession;
-    id delegateQueue;
-    id webSocketTask;
-    id hasExplicitlyDisconnected;
-    id pingTimer;
-    id pingInterval;
-    id pingTolerance;
-    id connectionTimeout;
-    id connectionAttemptCount;
-    id connectionAttemptLimit;
-    id hasReportedError;
-    id logger;
-    id remoteIdentifier;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

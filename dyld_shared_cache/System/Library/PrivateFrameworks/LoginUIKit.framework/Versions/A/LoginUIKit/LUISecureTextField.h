@@ -10,7 +10,7 @@
 
 + (Class);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

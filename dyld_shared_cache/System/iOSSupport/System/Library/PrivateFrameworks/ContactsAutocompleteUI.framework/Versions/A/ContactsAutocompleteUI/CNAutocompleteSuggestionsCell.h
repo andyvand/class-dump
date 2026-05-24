@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIImageView, UILabel;
+@class UIImageView;
 
 @interface CNAutocompleteSuggestionsCell
 {
     UIImageView *_avatarView;
-    UILabel *_nameLabel;
 }
 
 + (id);
@@ -23,15 +22,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) NSString *displayString;
-@property(retain, nonatomic) UIImage *image;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 
 @end
 

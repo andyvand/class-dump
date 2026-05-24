@@ -12,21 +12,19 @@ __attribute__((visibility("hidden")))
 @interface _UIBarBackgroundLayoutModern : _UIBarBackgroundLayout
 {
     _Bool _backgroundsAreSame;
-    _UIBarBackgroundAppearanceData *_backgroundData1;
-    _UIBarBackgroundAppearanceData *_backgroundData2;
 }
 
 - (double);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)"NSMutableSet"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)MPMediaLibraryChangeTypePlaylists;
 - (id);
 - (double);
 - (id);
 - (_Bool);
-- (id)iewHeight;
-- (id)setFrameOrBounds:oldRect:isFrameRect:settingAction: /* Error: Ran out of types for this method. */;
+- (id)inputAssistantViewHeight;
+- (id)_setFrameOrBounds:oldRect:isFrameRect:settingAction: /* Error: Ran out of types for this method. */;
 - (void)torationRoots(id<UIStateRestoring>);
 - (id);
 - (id)3ÿoÙ;

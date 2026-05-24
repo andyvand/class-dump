@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CRTextRecognizerModelEspressoInput
 {
     NSArray *_textFeatureInfo;
-    unsigned long long _batchSize;
-    struct vImage_Buffer _img_input;
 }
 
 - (id);
@@ -21,16 +19,7 @@
 - (void)geResourcesManager";
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct vImage_Buffer img_input; // @synthesize img_input=_img_input;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *textFeatureInfo; // @synthesize textFeatureInfo=_textFeatureInfo;
 
 @end
 

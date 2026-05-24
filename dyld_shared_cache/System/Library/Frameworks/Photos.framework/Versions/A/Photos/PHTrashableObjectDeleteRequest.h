@@ -9,7 +9,6 @@
 @interface PHTrashableObjectDeleteRequest : PHObjectDeleteRequest
 {
     _Bool _clientEntitledToExpunge;
-    long long _operation;
 }
 
 + (id);
@@ -18,11 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long)urce %@ claims to be locally available, but it's fileURL is not on disk. Treating as NOT available.;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClientEntitledToExpunge) _Bool clientEntitledToExpunge; // @synthesize clientEntitledToExpunge=_clientEntitledToExpunge;
 @property(readonly, nonatomic) long long operation; // @synthesize operation=_operation;
 
 @end

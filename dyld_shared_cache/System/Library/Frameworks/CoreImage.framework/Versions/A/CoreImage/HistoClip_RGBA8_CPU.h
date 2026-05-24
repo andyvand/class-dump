@@ -6,36 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface HistoClip_RGBA8_CPU : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputCenterLeft;
-    CIImage *inputCenterRight;
-    CIVector *inputCenterExtentLeft;
-    CIVector *inputCenterExtentRight;
-    NSNumber *inputPercentileRepair;
-    NSNumber *inputPercentileSpecular;
-    NSNumber *inputPercentRepair;
-    NSNumber *inputPercentSpecular;
-    NSNumber *inputInterPeakMinRepair;
-    NSNumber *inputAbortMaxCenterDist;
-    NSNumber *inputMinDensity;
-    NSNumber *inputMaxRelDensity;
-    NSNumber *inputDensityRadius;
-    NSNumber *inputMinInterDispersion;
-    NSNumber *inputMaxInterDispersion;
-    NSNumber *inputMinGobalLocalMeanDiff;
-    CIVector *inputMinimum;
-    CIVector *inputMaxArea;
-    CIVector *inputMaxAreaRatio;
-    CIVector *inputCenterOffsetLeft;
-    CIVector *inputCenterOffsetRight;
-    CIImage *inputDetectionLeft;
-    CIImage *inputDetectionRight;
-    NSNumber *inputTuning;
 }
 
 - (void);
@@ -54,18 +30,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)8h;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -91,31 +67,7 @@ __attribute__((visibility("hidden")))
 - (id)s}xWslcldn6O?`ITE^dd[dQg`p|mvvxMVLeBXOaZ^W^/F8T6E6Wjidk||||~~~~q}hrqr]YO]@NAU^^^^ccccOYR^BRJYV]]]ffffllllUkhu    ~}}}}ltpteiar||{|¡¡¡¡­­­­¢¢¢¢m}wKbUmU_QgPf[n`tm{ark{wuow||||{{w{iupx||y|y|^xvuuuuaa[aIQGS8I;R6OB`~{wwwwhhhh]]\]W^\^ddddQa\debZeVe]mVibxw|r¡¡¡¡¢¢¢¢zzwzonhoanjriyy}nzzw~ttqt_qjtpwxttttkkkkqqqqzzzzbssxgkgniicixxxxZjdsGaXieqpq}}}}||||~~~~k{y_oisnkto{cdZl[^Rfrqkrr~|yyvyNf^pqniqxxxxp{zblgxN[QieeeeW^Z^?NAUHUI]`try~ewq~k}w}}}gmhplokp{{{{£¸¸¸¸»»»»ªbUum\pff}yz|||LbWl^_Seilelttttqqqq`e[knsms££££yyyyYcYg[[O[KSCW>R@`nyt§§§§ºººº´´´´    z{¡¡¡¡¢¢¢¢ssquc`Ycbbbbjjjjrrrrsxxx|;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAbortMaxCenterDist; // @synthesize inputAbortMaxCenterDist;
-@property(retain, nonatomic) CIVector *inputCenterExtentLeft; // @synthesize inputCenterExtentLeft;
-@property(retain, nonatomic) CIVector *inputCenterExtentRight; // @synthesize inputCenterExtentRight;
-@property(retain, nonatomic) CIImage *inputCenterLeft; // @synthesize inputCenterLeft;
-@property(retain, nonatomic) CIVector *inputCenterOffsetLeft; // @synthesize inputCenterOffsetLeft;
-@property(retain, nonatomic) CIVector *inputCenterOffsetRight; // @synthesize inputCenterOffsetRight;
-@property(retain, nonatomic) CIImage *inputCenterRight; // @synthesize inputCenterRight;
-@property(retain, nonatomic) NSNumber *inputDensityRadius; // @synthesize inputDensityRadius;
-@property(retain, nonatomic) CIImage *inputDetectionLeft; // @synthesize inputDetectionLeft;
-@property(retain, nonatomic) CIImage *inputDetectionRight; // @synthesize inputDetectionRight;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputInterPeakMinRepair; // @synthesize inputInterPeakMinRepair;
-@property(retain, nonatomic) CIVector *inputMaxArea; // @synthesize inputMaxArea;
-@property(retain, nonatomic) CIVector *inputMaxAreaRatio; // @synthesize inputMaxAreaRatio;
-@property(retain, nonatomic) NSNumber *inputMaxInterDispersion; // @synthesize inputMaxInterDispersion;
-@property(retain, nonatomic) NSNumber *inputMaxRelDensity; // @synthesize inputMaxRelDensity;
-@property(retain, nonatomic) NSNumber *inputMinDensity; // @synthesize inputMinDensity;
-@property(retain, nonatomic) NSNumber *inputMinGobalLocalMeanDiff; // @synthesize inputMinGobalLocalMeanDiff;
-@property(retain, nonatomic) NSNumber *inputMinInterDispersion; // @synthesize inputMinInterDispersion;
-@property(retain, nonatomic) CIVector *inputMinimum; // @synthesize inputMinimum;
-@property(retain, nonatomic) NSNumber *inputPercentRepair; // @synthesize inputPercentRepair;
-@property(retain, nonatomic) NSNumber *inputPercentSpecular; // @synthesize inputPercentSpecular;
-@property(retain, nonatomic) NSNumber *inputPercentileRepair; // @synthesize inputPercentileRepair;
-@property(retain, nonatomic) NSNumber *inputPercentileSpecular; // @synthesize inputPercentileSpecular;
-@property(retain, nonatomic) NSNumber *inputTuning; // @synthesize inputTuning;
 
 @end
 

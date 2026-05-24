@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface NFEventManager
 {
     NSMutableSet *_events;
-    NSMutableDictionary *_triggers;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *events; // @synthesize events=_events;
-@property(readonly, nonatomic) NSMutableDictionary *triggers; // @synthesize triggers=_triggers;
 
 @end
 

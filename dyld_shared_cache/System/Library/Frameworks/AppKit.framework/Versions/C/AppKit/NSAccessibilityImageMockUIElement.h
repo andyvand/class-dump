@@ -6,26 +6,22 @@
 
 #import <AppKit/NSAccessibilityIndexedMockUIElement.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSAccessibilityImageMockUIElement : NSAccessibilityIndexedMockUIElement
 {
     struct CGRect _bounds;
-    NSString *_description;
-    NSString *_help;
 }
 
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ng [ATS violation]:(id)arg1 Did not use TLS when opening connection for server:(long long)arg2 %{sensitive}@;
+- (id)tent store directory.;
+- (id)ENT_TIMESTAMP, partition TEXT);;
+- (_Bool)HTTPConnectionCacheEntry;
+- (_Bool)i20;
+- (_Bool)ed_weak_count}}8^{__CFDictionary=}24;
+- (id)allowsExpensiveNetworkAccess;
+- (id)%@;
+- (id)try(@%p, key=%s);
+- (id)te;
 - (void);
 - (struct CGRect);
 

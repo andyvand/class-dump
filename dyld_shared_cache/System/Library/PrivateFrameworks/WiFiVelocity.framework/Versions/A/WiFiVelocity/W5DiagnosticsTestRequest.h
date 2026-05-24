@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface W5DiagnosticsTestRequest
 {
     NSUUID *_uuid;
-    long long _testID;
-    NSDictionary *_configuration;
 }
 
 + (id);
 + (_Bool);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)teFrameworks/IMDMessageServices.framework/Versions/A/IMDMessageServices;
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ingFullWindow;
 - (void);
 - (_Bool);
 - (void);
@@ -33,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) long long testID; // @synthesize testID=_testID;
 @property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

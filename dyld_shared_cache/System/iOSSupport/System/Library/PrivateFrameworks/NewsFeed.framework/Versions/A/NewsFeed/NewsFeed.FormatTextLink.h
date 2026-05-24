@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatTextLink
 {
     id links;
-    id textOffset;
 }
 
 @end

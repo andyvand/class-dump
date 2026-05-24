@@ -7,14 +7,14 @@
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    double givenName;
-    double familyName;
-    double initial;
-} CDStruct_08bc26a7;
+    double _field1;
+    double _field2;
+    double _field3;
+} CDStruct_39925896;
 
 typedef struct {
-    CDStruct_08bc26a7 givenName;
-    CDStruct_08bc26a7 familyName;
-    double threshold;
-} CDStruct_a720a2d7;
+    CDStruct_39925896 _field1;
+    CDStruct_39925896 _field2;
+    double _field3;
+} CDStruct_68406e8e;
 

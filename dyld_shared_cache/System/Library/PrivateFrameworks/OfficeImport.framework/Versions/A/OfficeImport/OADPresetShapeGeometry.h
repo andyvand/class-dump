@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     int mType;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)Ja;
 - (id);
 - (id);
 - (int);

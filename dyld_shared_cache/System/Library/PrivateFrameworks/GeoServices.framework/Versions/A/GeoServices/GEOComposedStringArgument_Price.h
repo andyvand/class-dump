@@ -6,33 +6,27 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class NSString;
-
 @interface GEOComposedStringArgument_Price : GEOComposedStringArgument
 {
     float _defaultAmount;
-    NSString *_defaultCurrencyCode;
-    float _overrideAmount;
-    NSString *_overrideCurrencyCode;
 }
 
 + (_Bool)y "%@", deleting - %@;
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)16;
 - (float);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)ceSpokenLocale:(struct _NSZone *)arg1;
+- (id)setDeviceSpokenLocale:(struct _NSZone *)arg1;
 - (void)Îfÿ;
 
 // Remaining properties
 @property(nonatomic) float overrideAmount; // @synthesize overrideAmount=_overrideAmount;
-@property(copy, nonatomic) NSString *overrideCurrencyCode; // @synthesize overrideCurrencyCode=_overrideCurrencyCode;
 
 @end
 

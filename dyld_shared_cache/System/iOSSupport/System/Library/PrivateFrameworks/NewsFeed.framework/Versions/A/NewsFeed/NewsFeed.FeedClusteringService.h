@@ -7,10 +7,6 @@
 @interface NewsFeed.FeedClusteringService
 {
     id cloudContext;
-    id allowlistProvider;
-    id personalizationService;
-    id topicClusteringJournalStorageService;
-    id tagService;
 }
 
 @end

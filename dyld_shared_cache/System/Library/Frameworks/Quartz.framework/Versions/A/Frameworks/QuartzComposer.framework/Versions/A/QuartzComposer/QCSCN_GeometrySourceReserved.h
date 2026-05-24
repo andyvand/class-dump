@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface QCSCN_GeometrySourceReserved
 {
     struct __C3DMeshSource *_meshSource;
-    NSData *_data;
-    NSString *_semantic;
-    long long _vectorCount;
-    _Bool _floatComponents;
-    long long _componentsPerVector;
-    long long _bytesPerComponent;
-    long long _dataOffset;
-    long long _dataStride;
 }
 
 - (void);

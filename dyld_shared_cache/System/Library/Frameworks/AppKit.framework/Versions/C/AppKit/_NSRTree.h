@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface _NSRTree
 {
     struct shared_ptr<_NSRTreeContainerNode> _root;
-    struct _NSRange _allIndexesRange;
-    NSMutableIndexSet *_allIndexes;
 }
 
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect)setMutableAttributedString: /* Error: Ran out of types for this method. */;
 - (struct CGRect)"NSURL"16@"NSURL"24;
 - (void)p;
 - (void)_NSTabBarTabPickerThumbnailBackgroundColor;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *allIndexes;
 @property(readonly, nonatomic) struct CGRect boundingFrame;
 
 @end

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PptMetaCharacterBlock
 {
     int mType;
-    int mPosition;
-    int mExtraData;
 }
 
 - (id);
@@ -17,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (void)llsFrom:(int)arg1 tableGrid:to:gridIndex:state: /* Error: Ran out of types for this method. */;
+- (void)readCellsFrom:(int)arg1 tableGrid:to:gridIndex:state: /* Error: Ran out of types for this method. */;
 
 @end
 

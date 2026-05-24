@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWNodeOutput, BWSceneStabilityMonitor, FigCaptureLogSmartCameraGating, NSArray, NSObject, NSString;
-@protocol OS_dispatch_group;
+@class BWNodeOutput, NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWMetadataDetectorGatingOutputController
 {
     NSString *_name;
-    BWNodeOutput *_nodeOutput;
-    _Bool _usesSceneClassifierToGateDetection;
-    _Bool _shouldEmitFirstBufferAfterSceneChange;
-    _Bool _sceneMotionEstimatesSupported;
-    _Bool _lowPowerModeEnabled;
-    _Bool _synchronizeWithOtherControllers;
-    CDStruct_1b6d18a9 _currentPTS;
-    CDStruct_1b6d18a9 _lastDetectionPTS;
-    NSArray *_detectionFrameRateRamp;
-    BOOL _detectionFrameRateRampStartIndex;
-    BWSceneStabilityMonitor *_sceneStabilityMonitor;
-    _Bool _shouldRunDetection;
-    _Bool _shouldApplySceneMotion;
-    _Bool _isHandlingFirstBufferAfterSceneChange;
-    _Bool _firstBufferAfterSceneChangeHasCodes;
-    FigCaptureLogSmartCameraGating *_logger;
-    NSObject<OS_dispatch_group> *_detectorAvailableGroup;
-    _Bool _sceneLikelyToHaveCodes;
-    _Bool _emittedFirstBufferAfterSceneChange;
-    _Bool _isSmartCameraSceneConfident;
-    long long _lastDetectedCodesCount;
-    CDStruct_1b6d18a9 _detectedCodesLastSeenPTS;
-    BOOL _detectionFrameRateRampIndex;
-    _Bool _forceSynchronizedControllersToRunDetectionImmediately;
-    struct os_unfair_lock_s _lock;
 }
 
-- (_Bool);
+- (_Bool)copyParagraphStyleWithState:isFirstParagraph: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -48,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (CDStruct_1b6d18a9);
-- (_Bool);
+- (_Bool)xtinput-1.0.plist;
 - (void);
 - (void);
-- (void);
+- (void)vent with the same opaque key found, but eventIdentifier is nil.;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -73,29 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)é;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceSynchronizedControllersToRunDetectionImmediately;
-@property(readonly, nonatomic, getter=isHandlingFirstBufferAfterSceneChange) _Bool handlingFirstBufferAfterSceneChange; // @synthesize handlingFirstBufferAfterSceneChange=_isHandlingFirstBufferAfterSceneChange;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long lastDetectedCodesCount; // @synthesize lastDetectedCodesCount=_lastDetectedCodesCount;
-@property(nonatomic) CDStruct_1b6d18a9 lastDetectionPTS; // @synthesize lastDetectionPTS=_lastDetectionPTS;
-@property(retain, nonatomic) FigCaptureLogSmartCameraGating *logger; // @synthesize logger=_logger;
-@property(nonatomic) _Bool lowPowerModeEnabled; // @synthesize lowPowerModeEnabled=_lowPowerModeEnabled;
 @property(readonly, nonatomic) BWNodeOutput *nodeOutput; // @synthesize nodeOutput=_nodeOutput;
-@property(readonly, nonatomic) _Bool sceneLikelyToHaveCodes; // @synthesize sceneLikelyToHaveCodes=_sceneLikelyToHaveCodes;
-@property(nonatomic) _Bool sceneMotionEstimatesSupported; // @synthesize sceneMotionEstimatesSupported=_sceneMotionEstimatesSupported;
-@property(readonly, nonatomic) _Bool shouldApplySceneMotion; // @synthesize shouldApplySceneMotion=_shouldApplySceneMotion;
-@property(readonly, nonatomic) _Bool shouldEmitBuffer;
-@property(nonatomic) _Bool shouldEmitFirstBufferAfterSceneChange; // @synthesize shouldEmitFirstBufferAfterSceneChange=_shouldEmitFirstBufferAfterSceneChange;
-@property(readonly, nonatomic) _Bool shouldRunDetection; // @synthesize shouldRunDetection=_shouldRunDetection;
-@property(nonatomic, getter=isSmartCameraSceneConfident) _Bool smartCameraSceneConfident;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool synchronizeWithOtherControllers; // @synthesize synchronizeWithOtherControllers=_synchronizeWithOtherControllers;
-@property(nonatomic) _Bool usesSceneClassifierToGateDetection; // @synthesize usesSceneClassifierToGateDetection=_usesSceneClassifierToGateDetection;
 
 @end
 

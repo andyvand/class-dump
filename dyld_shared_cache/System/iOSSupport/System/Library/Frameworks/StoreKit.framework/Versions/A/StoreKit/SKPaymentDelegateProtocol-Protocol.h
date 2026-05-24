@@ -5,5 +5,6 @@
 //
 
 @protocol SKPaymentDelegateProtocol
+- (void)B;
 @end
 

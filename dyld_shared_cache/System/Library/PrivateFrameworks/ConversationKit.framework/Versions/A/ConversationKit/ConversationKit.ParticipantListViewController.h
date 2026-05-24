@@ -9,16 +9,10 @@
 @interface ConversationKit.ParticipantListViewController : PlatformViewController
 {
     id collectionViewDataSource;
-    id participantListLayout;
-    id viewContent;
-    id lastLayedOutViewSize;
-    id participantsViewControllerDelegate;
-    id participantListViewControllerDelegate;
-    id recentlyVisibleParticipantIdentifiers;
 }
 
 - (void);
-- (id);
+- (id)xQr;
 - (id);
 - (id);
 - (void);

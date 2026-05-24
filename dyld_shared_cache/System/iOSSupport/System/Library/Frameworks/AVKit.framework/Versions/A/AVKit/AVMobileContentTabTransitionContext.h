@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVPlayerViewControllerAnimationCoordinator;
-
 __attribute__((visibility("hidden")))
 @interface AVMobileContentTabTransitionContext
 {
     unsigned long long _direction;
-    id <AVPlayerViewControllerAnimationCoordinator> _animationCoordinator;
 }
 
 - (void);
@@ -21,7 +18,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVPlayerViewControllerAnimationCoordinator> animationCoordinator; // @synthesize animationCoordinator=_animationCoordinator;
 @property(readonly, nonatomic) unsigned long long direction; // @synthesize direction=_direction;
 
 @end

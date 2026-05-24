@@ -5,5 +5,10 @@
 //
 
 @protocol _EXHostViewControllerDelegate
+
+@optional
+- (void);
+- (void)f;
+- (void)Rf;
 @end
 

@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRSharedWithYouProvider
 {
     id store;
-    id highlightCenter;
-    id invocationQueue;
-    id backgroundQueue;
-    id containerForAccountID;
-    id customFetchShareForSharedList;
-    id shareOperationManager;
 }
 
 - (id);

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface CRFormDetectorModelInput
 {
     MLMultiArray *_array;
 }
 
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void)titleTextFeature;
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MLMultiArray *array; // @synthesize array=_array;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

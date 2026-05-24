@@ -7,9 +7,11 @@
 @class NSData, _SFPBReferentialCommand;
 
 @protocol _SFPBCommandValue
+- (_SFPBReferentialCommand *);
+- (id)3;
+- (NSData *)PHLibraryScopeConditionDateRange;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBReferentialCommand *referentialCommand;
 @end
 

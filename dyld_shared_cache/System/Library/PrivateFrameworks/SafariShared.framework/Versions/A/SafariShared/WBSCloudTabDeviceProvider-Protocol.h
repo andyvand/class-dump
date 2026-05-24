@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol WBSCloudTabDeviceProvider
+- (_Bool).!8 ;
+- (NSArray *)the requested operation.;
+- (_Bool)@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool cloudTabsAreEnabled;

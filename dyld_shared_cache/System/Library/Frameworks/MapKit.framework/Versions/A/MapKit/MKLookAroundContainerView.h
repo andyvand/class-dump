@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLookAroundContainerBadgeView, MKMapItem, NSArray, NSColor, NSView, _MKLookAroundPassthroughView;
-@protocol MKLookAroundContainerViewDelegate, NSObject;
+@class NSColor;
 
 @interface MKLookAroundContainerView
 {
     NSColor *_dimmingViewBackgroundColorGreyOpaque;
-    NSColor *_dimmingViewBackgroundColorBlackOpaque;
-    NSColor *_dimmingViewBackgroundColorBlackTranslucent;
-    NSColor *_dimmingViewBackgroundColorClear;
-    NSColor *_dimmingViewBackgroundColorPhotosOpaque;
-    NSArray *_badgeConstraints;
-    _Bool _isMarkedLocation;
-    _Bool _badgeOnLeadingEdge;
-    _Bool _floatingDimmingStyle;
-    _Bool _photosDimmingStyle;
-    _Bool _pipDimmingStyle;
-    id <MKLookAroundContainerViewDelegate> _delegate;
-    MKMapItem *_mapItem;
-    unsigned long long _dimmingState;
-    _MKLookAroundPassthroughView *_dimmingView;
-    MKLookAroundContainerBadgeView *_badgeView;
-    NSView *_innerBorderView;
-    id <NSObject> _lookAroundViewDidBecomeAdequatelyDrawnObserver;
-    id <NSObject> _lookAroundViewDidBecomeFullyDrawnObserver;
 }
 
 - (void);
@@ -62,51 +43,33 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)k;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void)C;
+- (void)unifiedContactsFromCoreDataContacts:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)Manager _updateAssetWithLanguage:(struct CGRect)arg1 assetType:] /* Error: Ran out of types for this method. */;
+- (void)first (in %lld/%lld out %lld/%lld) last (in %lld/%lld out %lld/%lld)]skipping partial frame, split frames not allowed;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)etTransitLineColor: /* Error: Ran out of types for this method. */;
-- (void)entContainingPoint:inCellFrame: /* Error: Ran out of types for this method. */;
+- (id)setTransitLineColor: /* Error: Ran out of types for this method. */;
+- (void)indexOfSegmentContainingPoint:inCellFrame: /* Error: Ran out of types for this method. */;
 - (void)_Ì;
 
 // Remaining properties
-@property(nonatomic, getter=isBadgeHidden) _Bool badgeHidden;
-@property(nonatomic, getter=isBadgeOnLeadingEdge) _Bool badgeOnLeadingEdge; // @synthesize badgeOnLeadingEdge=_badgeOnLeadingEdge;
-@property(retain, nonatomic) MKLookAroundContainerBadgeView *badgeView; // @synthesize badgeView=_badgeView;
-@property(nonatomic) __weak id <MKLookAroundContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long dimmingState; // @synthesize dimmingState=_dimmingState;
-@property(retain, nonatomic) _MKLookAroundPassthroughView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(readonly, nonatomic) NSColor *dimmingViewBackgroundColorBlackOpaque;
-@property(readonly, nonatomic) NSColor *dimmingViewBackgroundColorBlackTranslucent;
-@property(readonly, nonatomic) NSColor *dimmingViewBackgroundColorClear;
 @property(readonly, nonatomic) NSColor *dimmingViewBackgroundColorGreyOpaque;
-@property(readonly, nonatomic) NSColor *dimmingViewBackgroundColorPhotosOpaque;
-@property(nonatomic) _Bool floatingDimmingStyle; // @synthesize floatingDimmingStyle=_floatingDimmingStyle;
-@property(retain, nonatomic) NSView *innerBorderView; // @synthesize innerBorderView=_innerBorderView;
-@property(nonatomic) _Bool isMarkedLocation; // @synthesize isMarkedLocation=_isMarkedLocation;
-@property(retain, nonatomic) id <NSObject> lookAroundViewDidBecomeAdequatelyDrawnObserver; // @synthesize lookAroundViewDidBecomeAdequatelyDrawnObserver=_lookAroundViewDidBecomeAdequatelyDrawnObserver;
-@property(retain, nonatomic) id <NSObject> lookAroundViewDidBecomeFullyDrawnObserver; // @synthesize lookAroundViewDidBecomeFullyDrawnObserver=_lookAroundViewDidBecomeFullyDrawnObserver;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(nonatomic) _Bool photosDimmingStyle; // @synthesize photosDimmingStyle=_photosDimmingStyle;
-@property(nonatomic) _Bool pipDimmingStyle; // @synthesize pipDimmingStyle=_pipDimmingStyle;
 
 @end
 

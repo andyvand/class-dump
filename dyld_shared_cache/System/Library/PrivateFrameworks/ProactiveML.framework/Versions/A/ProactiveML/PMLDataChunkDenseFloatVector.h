@@ -10,7 +10,7 @@
 {
 }
 
-+ (unsigned int);
++ (unsigned int)C;
 + (id);
 - (id);
 - (const float *);
@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int count;
-@property(readonly, nonatomic) const float *vector;
 
 @end
 

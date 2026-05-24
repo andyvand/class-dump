@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString, NSXPCListener;
+@class NSXPCListener;
 
 @interface ADAttributionService
 {
     NSXPCListener *_listener;
-    NSMutableDictionary *_clients;
-    NSNumber *_transactionID;
 }
 
 + (id);
@@ -18,24 +16,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)hannel - ;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *clients; // @synthesize clients=_clients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *transactionID; // @synthesize transactionID=_transactionID;
 
 @end
 

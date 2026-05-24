@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void);
+- (void)SH_pSg;
 
 @end
 

@@ -9,20 +9,19 @@
 @interface TRITrialOnDemandFactorFields
 {
     NSString *_factorName;
-    NSString *_namespaceName;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)missing video, reason:(id)arg1 unplayable;
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)_listenToCardSection;
 - (void);
 - (id);
 - (id);
@@ -30,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
 @property(readonly, nonatomic) _Bool hasFactorName;
-@property(readonly, nonatomic) _Bool hasNamespaceName;
-@property(retain, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
 
 @end
 

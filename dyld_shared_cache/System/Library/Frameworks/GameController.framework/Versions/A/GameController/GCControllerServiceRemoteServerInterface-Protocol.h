@@ -5,5 +5,6 @@
 //
 
 @protocol GCControllerServiceRemoteServerInterface
+- (void);
 @end
 

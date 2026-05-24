@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface PEGASUSSchemaPEGASUSMultistepGatingExecution : SISchemaInstrumentationMessage
 {
     int _loopbackDepth;
-    NSArray *_domains;
-    struct {
-        unsigned int loopbackDepth:1;
-    } _has;
 }
 
 - (void);
@@ -29,22 +23,19 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
-- (_Bool);
+- (_Bool)s number:(id)arg1 [%lu];
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (void)onType:(id)arg1;
-- (id)hasCatParameterValue;
+- (void)setHasAlternateQuerySuggestionType:(id)arg1;
+- (id)_hasCatParameterValue;
 - (id),V_offerId;
 - (void)ionBundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *domains; // @synthesize domains=_domains;
-@property(nonatomic) _Bool hasLoopbackDepth;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int loopbackDepth; // @synthesize loopbackDepth=_loopbackDepth;
 
 @end

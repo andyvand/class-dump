@@ -9,8 +9,6 @@
 @interface MediaPlaybackCore.ChangingQueueState : MediaPlaybackCore.State
 {
     id delayedActionWhenReady;
-    id initialLoadFailure;
-    id initialLoadShouldPlay;
 }
 
 @end

@@ -7,13 +7,9 @@
 @interface IMDCallManager_Impl
 {
     id queue;
-    id serviceSession;
-    id conversationManager;
-    id featureFlags;
-    id newChatListenerTask;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

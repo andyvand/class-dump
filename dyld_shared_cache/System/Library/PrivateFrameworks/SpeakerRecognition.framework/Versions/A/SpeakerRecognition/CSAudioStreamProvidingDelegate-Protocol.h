@@ -5,8 +5,11 @@
 //
 
 @protocol CSAudioStreamProvidingDelegate
+- (void)ot set/store the Orientation Covariance;
+- (void);
 
 @optional
+- (void);
 - (void);
 @end
 

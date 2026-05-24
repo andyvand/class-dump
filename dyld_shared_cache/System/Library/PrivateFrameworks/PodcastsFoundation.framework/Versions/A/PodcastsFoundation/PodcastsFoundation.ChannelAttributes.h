@@ -7,21 +7,6 @@
 @interface PodcastsFoundation.ChannelAttributes
 {
     id description;
-    id artwork;
-    id name;
-    id showCount;
-    id availableShowCount;
-    id displayType;
-    id isSubscribed;
-    id subscriptionEnabledDate;
-    id subscriptionName;
-    id editorialArtwork;
-    id subscriptionOffers;
-    id logoArtwork;
-    id backgroundSwatch;
-    id personalizedSubscriptionOffers;
-    id url;
-    id subscriptionType;
 }
 
 @end

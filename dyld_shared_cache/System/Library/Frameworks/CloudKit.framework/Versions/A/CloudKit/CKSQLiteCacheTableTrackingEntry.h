@@ -6,14 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 @interface CKSQLiteCacheTableTrackingEntry : CKSQLiteTableEntry
 {
     NSNumber *_tableID;
-    NSNumber *_entryCount;
-    NSNumber *_dataSize;
-    NSDate *_oldestExpireDate;
 }
 
 + (Class);
@@ -28,9 +25,6 @@
 - (void)eference;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *dataSize; // @synthesize dataSize=_dataSize;
-@property(retain, nonatomic) NSNumber *entryCount; // @synthesize entryCount=_entryCount;
-@property(retain, nonatomic) NSDate *oldestExpireDate; // @synthesize oldestExpireDate=_oldestExpireDate;
 @property(copy, nonatomic) NSNumber *tableID; // @synthesize tableID=_tableID;
 
 @end

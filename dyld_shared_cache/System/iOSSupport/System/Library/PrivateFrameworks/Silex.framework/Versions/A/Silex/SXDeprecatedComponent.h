@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentClassification;
+@class NSString;
 
 @interface SXDeprecatedComponent
 {
     NSString *_typeString;
-    SXComponentClassification *_replacementClassification;
 }
 
-- (id);
+- (id)C;
 - (void)"UIView"24@0:8@"SXIssueCover"16 /* Error: Ran out of types for this method. */;
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNotificationCenter, NSRecursiveLock, NSString, VNMTLDeviceWisdomParameters, VNWeakTypeWrapperCollection, VisionCoreObjectCache;
-@protocol NSLocking;
+@class NSNotificationCenter, VisionCoreObjectCache;
 
 __attribute__((visibility("hidden")))
 @interface VNFrameworkManager
 {
     NSNotificationCenter *_notificationCenter;
-    VisionCoreObjectCache *_detectorDescriptorsCache;
-    NSRecursiveLock *_detectorAccessingLock;
-    NSRecursiveLock *_trackerResourcesAccessingLock;
-    VNWeakTypeWrapperCollection *_sessions;
-    NSRecursiveLock *_sessionResourcesAccessingLock;
-    VNMTLDeviceWisdomParameters *_wisdomParameters;
 }
 
 + (int);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -35,31 +28,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)lusters: /* Error: Ran out of types for this method. */;
-- (id)NetV3CodingKeys;
+- (void)Clusters: /* Error: Ran out of types for this method. */;
+- (id)SceneNetV3CodingKeys;
 - (id)¦T8t¿ÿý¦TLt¿ÿý¦T<Ë­ÿý¦Tì±­ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <NSLocking> detectorAccessingLock;
 @property(readonly) VisionCoreObjectCache *detectorDescriptorsCache; // @synthesize detectorDescriptorsCache=_detectorDescriptorsCache;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) id <NSLocking> sessionResourcesAccessingLock;
-@property(readonly) Class superclass;
-@property(readonly) id <NSLocking> trackerResourcesAccessingLock;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSDictionary, NSString;
+@class NSDecimalNumber;
 
 @interface PKEnteredValueActionItem
 {
     _Bool _maxAmountIncludesLocalBalance;
-    NSDecimalNumber *_minLoadAmount;
-    NSDecimalNumber *_maxLoadAmount;
-    NSDecimalNumber *_minLoadedBalance;
-    NSDecimalNumber *_maxLoadedBalance;
-    NSArray *_defaultSuggestions;
-    NSArray *_lowBalanceReminderOptions;
-    NSString *_currency;
-    NSDictionary *_serviceProviderData;
 }
 
 + (_Bool);
@@ -31,26 +23,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)cceptedNetworks;
-- (void)GroupIdentifier;
+- (id)_serviceProviderAcceptedNetworks;
+- (void)_installmentGroupIdentifier;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(readonly, copy, nonatomic) NSArray *defaultSuggestions; // @synthesize defaultSuggestions=_defaultSuggestions;
-@property(readonly, copy, nonatomic) NSArray *lowBalanceReminderOptions; // @synthesize lowBalanceReminderOptions=_lowBalanceReminderOptions;
-@property(readonly, copy, nonatomic) NSDecimalNumber *maxAmount;
-@property(readonly, nonatomic) _Bool maxAmountIncludesLocalBalance; // @synthesize maxAmountIncludesLocalBalance=_maxAmountIncludesLocalBalance;
-@property(readonly, copy, nonatomic) NSDecimalNumber *maxLoadAmount; // @synthesize maxLoadAmount=_maxLoadAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *maxLoadedBalance; // @synthesize maxLoadedBalance=_maxLoadedBalance;
-@property(readonly, copy, nonatomic) NSDecimalNumber *minAmount;
 @property(readonly, copy, nonatomic) NSDecimalNumber *minLoadAmount; // @synthesize minLoadAmount=_minLoadAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *minLoadedBalance; // @synthesize minLoadedBalance=_minLoadedBalance;
-@property(readonly, copy, nonatomic) NSDictionary *serviceProviderData; // @synthesize serviceProviderData=_serviceProviderData;
 
 @end
 

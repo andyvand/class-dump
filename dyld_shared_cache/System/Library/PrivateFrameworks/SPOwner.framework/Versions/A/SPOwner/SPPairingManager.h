@@ -4,57 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject;
-@protocol OS_dispatch_queue, SPPairingManagerXPCProtocol;
+@class FMXPCServiceDescription;
 
 @interface SPPairingManager
 {
     FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    FMXPCServiceDescription *_userAgentServiceDescription;
-    FMXPCSession *_userAgentSession;
-    id <SPPairingManagerXPCProtocol> _proxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)P;
+- (void);
+- (id)(;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)__im_rangeToMessagePartIndexMap;
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)!;
 
 // Remaining properties
-@property(retain, nonatomic) id <SPPairingManagerXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) FMXPCServiceDescription *userAgentServiceDescription; // @synthesize userAgentServiceDescription=_userAgentServiceDescription;
-@property(retain, nonatomic) FMXPCSession *userAgentSession; // @synthesize userAgentSession=_userAgentSession;
 
 @end
 

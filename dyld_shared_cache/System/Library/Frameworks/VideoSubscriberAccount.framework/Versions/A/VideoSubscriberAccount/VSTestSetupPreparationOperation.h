@@ -11,7 +11,6 @@
 @interface VSTestSetupPreparationOperation : VSAsyncOperation
 {
     NSArray *_errors;
-    NSOperationQueue *_privateQueue;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
 @property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
 
 @end

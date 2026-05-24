@@ -7,21 +7,20 @@
 @interface NSAttributeDictionary
 {
     unsigned long long numElements;
-    struct _NSAttributeDictionaryElement elements[1];
 }
 
 + (id);
 + (id);
-+ (void)dTextLayoutManager: /* Error: Ran out of types for this method. */;
-- (void);
++ (void)addTextLayoutManager: /* Error: Ran out of types for this method. */;
+- (void)i;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)2iI;
+- (id)7;
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (void)"<NSTextLocation>"32@0:(CDUnknownFunctionPointerType)arg1 8@"<NSTextLocation>"16q24;
 
 @end

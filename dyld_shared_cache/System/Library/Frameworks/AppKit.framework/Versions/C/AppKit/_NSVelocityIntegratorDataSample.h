@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSVelocityIntegratorDataSample
 {
     NSDate *_time;
-    struct CGVector _translation;
-    struct CGPoint _point;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)C;
+- (void);
 - (void);
-- (void);
-- (struct CGVector);
+- (struct CGVector)t;
 - (id);
 - (id)üÀ$;
 - (struct CGPoint)¤6Ð%ª;
@@ -26,9 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)useLocation:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint point; // @synthesize point=_point;
 @property(retain, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(nonatomic) struct CGVector translation; // @synthesize translation=_translation;
 
 @end
 

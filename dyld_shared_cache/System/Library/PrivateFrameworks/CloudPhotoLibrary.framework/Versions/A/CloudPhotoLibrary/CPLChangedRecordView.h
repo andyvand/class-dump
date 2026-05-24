@@ -6,16 +6,13 @@
 
 #import <CloudPhotoLibrary/CPLRecordView.h>
 
-@class CPLRecordChange;
-
 @interface CPLChangedRecordView : CPLRecordView
 {
     CPLRecordView *_baseRecordView;
-    CPLRecordChange *_change;
 }
 
 - (id);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
@@ -23,7 +20,7 @@
 - (Class);
 - (id);
 - (id);
-- (id)Hô;
+- (id);
 - (id);
 - (id);
 - (void)¡ÂÐ!@ù11Â0@ù
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CPLRecordView *baseRecordView; // @synthesize baseRecordView=_baseRecordView;
-@property(readonly, nonatomic) CPLRecordChange *change; // @synthesize change=_change;
 
 @end
 

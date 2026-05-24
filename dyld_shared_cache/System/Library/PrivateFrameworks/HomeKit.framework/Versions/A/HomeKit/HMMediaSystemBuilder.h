@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFActivity, HMHome, HMMediaSystem, HMMutableArray, NSArray, NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMMediaSystemBuilder
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_components;
-    NSString *_name;
-    NSString *_configuredName;
-    _HMContext *_context;
-    HMFActivity *_activity;
-    NSUUID *_uuid;
-    NSUUID *_mediaSystemUUID;
-    NSString *_builderSessionID;
-    HMHome *_home;
-    NSUUID *_setupSessionIdentifier;
-    HMMediaSystem *_mediaSystem;
-    HMMutableArray *_componentsArray;
 }
 
 + (_Bool);
@@ -51,8 +39,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)8	&	-	?	0	A		@	(	G	;
 - (id);
 - (id);
 - (void);
@@ -62,25 +50,7 @@
 - (void)À·¬º,Â;
 
 // Remaining properties
-@property(readonly) HMFActivity *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) NSString *builderSessionID; // @synthesize builderSessionID=_builderSessionID;
-@property(copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) HMMutableArray *componentsArray; // @synthesize componentsArray=_componentsArray;
-@property(copy, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) HMMediaSystem *mediaSystem; // @synthesize mediaSystem=_mediaSystem;
-@property(readonly, nonatomic) NSUUID *mediaSystemUUID; // @synthesize mediaSystemUUID=_mediaSystemUUID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSUUID *setupSessionIdentifier; // @synthesize setupSessionIdentifier=_setupSessionIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

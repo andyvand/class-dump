@@ -6,39 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.ClippingView__priv_E55D530921B5D45A8EA231E2252C9835, (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.DimmingView__priv_E55D530921B5D45A8EA231E2252C9835, NSString, _UIScrollPocketCollectorInteraction, _UIScrollPocketInteraction;
-@protocol _UISplitViewControllerAdaptiveColumnInteractionDelegate, _UIViewMaterial;
-
 @interface _UISplitViewControllerAdaptiveColumnView : UIView
 {
     long long splitViewControllerColumn;
-    void interactionDelegate;
-    (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.ClippingView__priv_E55D530921B5D45A8EA231E2252C9835 *clippingView;
-    (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.DimmingView__priv_E55D530921B5D45A8EA231E2252C9835 *dimmingView;
-    UIView *ownedContentView;
-    _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction;
-    _UIScrollPocketInteraction *leftScrollPocketInteraction;
-    _UIScrollPocketInteraction *rightScrollPocketInteraction;
-    id <_UIViewMaterial> background;
-    unsigned long long maskedCorners;
-    double dimmingLevel;
-    double fallbackCornerRadius;
-    long long level;
-    struct UIEdgeInsets scrollPocketInsets;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t than the record we tried to update with GUID (%@); marking local attachment as synced, to skip it;
+- (void)etch operation from attachment zone;
+- (void)t error %@ writing attachment records. Stopping further writes;
+- (void)ons;
+- (void)ble:Sending Message via CT /* Error: Ran out of types for this method. */;
+- (void)ll be:%lld /* Error: Ran out of types for this method. */;
+- (void)be returned.;
+- (long long)%@ aliases has changes;
+- (void)leURLForFileTransferWithGUID:(struct UIEdgeInsets)arg1 options:outTransfer:outError:] /* Error: Ran out of types for this method. */;
+- (void)_messageForFileTransferWithGUID:(id)arg1 ];
+- (void)ransfers;
+- (void)IMDCKAccountStatusLoggedInWithNoD2DEncryptionSupport;
 - (void);
 - (void);
 - (struct UIEdgeInsets);
@@ -52,19 +36,19 @@
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)P;
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void)ts:(id)arg1;
-- (void)lView:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)UIFocusBehavior_CarPlay;
+- (id)c;
+- (id)setValue:forProperty:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)search:(id)arg1 hasPartialResults: /* Error: Ran out of types for this method. */;
+- (void)initWithTestName:(unsigned long long)arg1 scrollView:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_UIFocusBehavior_CarPlay;
 - (void);
 - (void);
 - (id)k;
@@ -77,22 +61,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic, retain) id <_UIViewMaterial> background; // @synthesize background;
-@property(nonatomic, retain) (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.ClippingView__priv_E55D530921B5D45A8EA231E2252C9835 *clippingView; // @synthesize clippingView;
-@property(nonatomic, readonly) UIView *containerView;
-@property(nonatomic, retain) UIView *contentView;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) double dimmingLevel; // @synthesize dimmingLevel;
-@property(nonatomic, retain) (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.DimmingView__priv_E55D530921B5D45A8EA231E2252C9835 *dimmingView; // @synthesize dimmingView;
-@property(nonatomic) double fallbackCornerRadius; // @synthesize fallbackCornerRadius;
-@property(nonatomic) __weak id <_UISplitViewControllerAdaptiveColumnInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate;
-@property(nonatomic, retain) _UIScrollPocketInteraction *leftScrollPocketInteraction; // @synthesize leftScrollPocketInteraction;
-@property(nonatomic) long long level; // @synthesize level;
-@property(nonatomic) unsigned long long maskedCorners; // @synthesize maskedCorners;
-@property(nonatomic, retain) UIView *ownedContentView; // @synthesize ownedContentView;
-@property(nonatomic, retain) _UIScrollPocketInteraction *rightScrollPocketInteraction; // @synthesize rightScrollPocketInteraction;
-@property(nonatomic, retain) _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction; // @synthesize scrollPocketCollectorInteraction;
-@property(nonatomic) struct UIEdgeInsets scrollPocketInsets; // @synthesize scrollPocketInsets;
 @property(nonatomic, readonly) long long splitViewControllerColumn; // @synthesize splitViewControllerColumn;
 
 @end

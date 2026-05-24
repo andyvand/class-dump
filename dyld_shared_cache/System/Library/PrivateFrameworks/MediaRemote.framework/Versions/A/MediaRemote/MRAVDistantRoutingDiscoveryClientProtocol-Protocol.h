@@ -5,5 +5,6 @@
 //
 
 @protocol MRAVDistantRoutingDiscoveryClientProtocol
+- (void);
 @end
 

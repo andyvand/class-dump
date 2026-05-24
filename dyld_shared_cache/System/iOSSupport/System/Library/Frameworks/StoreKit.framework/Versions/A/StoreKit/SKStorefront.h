@@ -9,7 +9,6 @@
 @interface SKStorefront
 {
     NSString *_countryCode;
-    NSString *_identifier;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

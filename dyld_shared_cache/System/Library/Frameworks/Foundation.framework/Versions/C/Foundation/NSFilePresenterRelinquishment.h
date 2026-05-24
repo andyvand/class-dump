@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSFilePresenterRelinquishment
 {
     struct os_unfair_lock_s _lock;
-    NSCountedSet *_blockingAccessClaimIDs;
-    NSMutableArray *_relinquishReplies;
-    CDUnknownBlockType _reacquirer;
-    NSMutableArray *_blockingPrerelinquishReplies;
-    _Bool _prerelinquishInProgress;
 }
 
 - (void);

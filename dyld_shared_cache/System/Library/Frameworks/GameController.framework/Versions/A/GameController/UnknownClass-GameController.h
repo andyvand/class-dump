@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (GameController)
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_discretionaryNetworkBehavior;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool customizable;
-@property(nonatomic, readonly) NSString *localizedName;
 @end
 

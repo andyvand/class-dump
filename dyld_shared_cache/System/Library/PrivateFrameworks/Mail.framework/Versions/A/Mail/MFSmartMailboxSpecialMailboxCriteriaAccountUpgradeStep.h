@@ -16,10 +16,12 @@
 + (_Bool);
 + (unsigned long long);
 - (id);
-- (void);
+- (void)k
+l	
+J;
 - (id);
 - (id);
-- (void);
+- (void)k;
 - (void)¼;
 
 // Remaining properties

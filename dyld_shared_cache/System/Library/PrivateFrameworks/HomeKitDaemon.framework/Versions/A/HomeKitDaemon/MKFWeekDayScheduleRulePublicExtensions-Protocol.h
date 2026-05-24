@@ -5,5 +5,6 @@
 //
 
 @protocol MKFWeekDayScheduleRulePublicExtensions
+- (void);
 @end
 

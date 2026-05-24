@@ -5,5 +5,9 @@
 //
 
 @protocol MRNowPlayingControllerDelegate
+
+@optional
+- (void)common_Quantifier_Single;
+- (void);
 @end
 

@@ -11,19 +11,17 @@
 @interface EWSWeeklyRecurrencePatternType : EWSIntervalRecurrencePatternBaseType
 {
     NSIndexSet *_DaysOfWeek;
-    long long _FirstDayOfWeek;
 }
 
-+ (id);
++ (id)SbSo8ADMGroupCSgIeghyg_Sg;
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *DaysOfWeek; // @synthesize DaysOfWeek=_DaysOfWeek;
-@property(nonatomic) long long FirstDayOfWeek; // @synthesize FirstDayOfWeek=_FirstDayOfWeek;
 
 @end
 

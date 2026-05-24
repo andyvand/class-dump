@@ -5,5 +5,8 @@
 //
 
 @protocol VisualTabPickerGridViewDelegate
+
+@optional
+- (void);
 @end
 

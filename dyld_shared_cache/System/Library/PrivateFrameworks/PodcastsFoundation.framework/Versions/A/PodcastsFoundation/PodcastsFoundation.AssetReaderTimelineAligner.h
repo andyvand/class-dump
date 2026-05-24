@@ -7,17 +7,6 @@
 @interface PodcastsFoundation.AssetReaderTimelineAligner
 {
     id assetReader;
-    id shazamMatcher;
-    id alignment;
-    id cache;
-    id episodeID;
-    id logger;
-    id signposter;
-    id workQueue;
-    id started;
-    id analyticsChannel;
-    id subscriptions;
-    id elapsedTimeProvider;
 }
 
 @end

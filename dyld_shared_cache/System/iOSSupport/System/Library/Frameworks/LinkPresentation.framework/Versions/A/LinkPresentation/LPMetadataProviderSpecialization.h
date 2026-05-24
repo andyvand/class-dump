@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPMetadataProviderSpecializationContext;
 @protocol LPMetadataProviderSpecializationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LPMetadataProviderSpecialization
 {
     id <LPMetadataProviderSpecializationDelegate> _delegate;
-    LPMetadataProviderSpecializationContext *_context;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)suggestionCategorySupportsBatchDismissal;
++ (id)suggestionCategorySubtitleForItems:(id)arg1;
++ (id)suggestionCategoryImageSGView;
++ (_Bool)siri_balloonColors;
 + (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (id)systemScreenDidPowerUp;
+- (void)stickerReactionTranscriptPaddingPercentage;
+- (void)`;
 - (id);
 - (void);
 - (id);
@@ -31,7 +29,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) LPMetadataProviderSpecializationContext *context; // @synthesize context=_context;
 @property(nonatomic) __weak id <LPMetadataProviderSpecializationDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

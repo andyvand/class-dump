@@ -6,8 +6,7 @@
 
 #import <Silex/SXResource.h>
 
-@class NSDictionary, NSString, NSURL;
-@protocol SXFontAttributes;
+@class NSString;
 
 @interface SXFontResource : SXResource
 {
@@ -17,18 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXFontAttributes> fontAttributes; // @dynamic fontAttributes;
-@property(readonly, nonatomic) NSDictionary *fontDescriptorAttributes; // @dynamic fontDescriptorAttributes;
-@property(readonly, nonatomic) NSString *fontName; // @dynamic fontName;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

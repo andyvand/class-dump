@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAddFieldTouchBar, NSCustomTouchBarItem, NSPopoverTouchBarItem, NSString, NSTouchBar;
 @protocol CNContactEditViewTouchBarDelegate;
 
 @interface CNContactEditViewTouchBar
 {
     id <CNContactEditViewTouchBarDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    NSPopoverTouchBarItem *_addFieldPopoverItem;
-    NSCustomTouchBarItem *_doneButtonTouchBarItem;
-    CNAddFieldTouchBar *_addFieldTouchBar;
 }
 
 - (void);
@@ -28,25 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)bugging;
+- (void)45CellularUsageReliableNetworkFallbackInterface;
 - (id);
 - (void);
 - (id)È;
 
 // Remaining properties
-@property(retain) NSPopoverTouchBarItem *addFieldPopoverItem; // @synthesize addFieldPopoverItem=_addFieldPopoverItem;
-@property(retain) CNAddFieldTouchBar *addFieldTouchBar; // @synthesize addFieldTouchBar=_addFieldTouchBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CNContactEditViewTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSCustomTouchBarItem *doneButtonTouchBarItem; // @synthesize doneButtonTouchBarItem=_doneButtonTouchBarItem;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, REMChangeTombstone, REMChangeTransaction, REMObjectID;
+@class REMChangeTransaction;
 
 @interface REMChangeObject
 {
     REMChangeTransaction *_transaction;
-    long long _changeID;
-    REMObjectID *_changedObjectID;
-    long long _changeType;
-    REMChangeTombstone *_tombstone;
 }
 
 + (_Bool);
@@ -21,24 +17,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long changeID; // @synthesize changeID=_changeID;
-@property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(readonly, nonatomic) REMObjectID *changedObjectID; // @synthesize changedObjectID=_changedObjectID;
-@property(readonly, nonatomic) REMChangeTombstone *tombstone; // @synthesize tombstone=_tombstone;
 @property(readonly, nonatomic) __weak REMChangeTransaction *transaction; // @synthesize transaction=_transaction;
-@property(readonly, nonatomic) NSSet *updatedProperties;
 
 @end
 

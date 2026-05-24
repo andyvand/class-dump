@@ -7,24 +7,17 @@
 @interface CLSPublicEventShazamQueryHelper
 {
     id $defaultActor;
-    id logger;
-    double timeoutInterval;
-    long long numberOfRetries;
-    id isSimulatingTimeout;
-    id query;
-    id shouldCancel;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)ing...;
 - (void);
-- (double)Parameters;
+- (double)locationGeoParameters;
 
 // Remaining properties
-@property(nonatomic, readonly) long long numberOfRetries; // @synthesize numberOfRetries;
 @property(nonatomic, readonly) double timeoutInterval; // @synthesize timeoutInterval;
 
 @end

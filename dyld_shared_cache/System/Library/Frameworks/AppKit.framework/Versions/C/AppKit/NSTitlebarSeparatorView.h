@@ -11,7 +11,7 @@
     long long _type;
 }
 
-- (_Bool);
+- (_Bool)GizkmSK+IxgCtUMOp2NA;
 - (long long);
 - (_Bool);
 - (void);
@@ -21,8 +21,8 @@
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (long long);
-- (void)hlighted:(long long)arg1;
+- (long long)cation>"24@"NSTextContainer"32;
+- (void)setHighlighted:(long long)arg1;
 
 // Remaining properties
 @property long long type;

@@ -6,8 +6,7 @@
 
 #import <AVFCore/AVPlayerItemOutput.h>
 
-@class AVPlayerItemMetadataOutputInternal, NSDictionary, NSObject;
-@protocol AVPlayerItemMetadataOutputPushDelegate, OS_dispatch_queue;
+@class AVPlayerItemMetadataOutputInternal, NSDictionary;
 
 @interface AVPlayerItemMetadataOutput : AVPlayerItemOutput
 {
@@ -15,25 +14,22 @@
 }
 
 + (void)eColorKey must be an NSNumber;
+- (void)dictationLanguagePriors;
+- (double)P';
+- (void);
 - (void);
-- (double);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)gi;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double advanceIntervalForDelegateInvocation;
-@property(readonly, nonatomic) __weak id <AVPlayerItemMetadataOutputPushDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
 @property(readonly, nonatomic, getter=_figMetadataOutputsDictionaryOptions) NSDictionary *figMetadataOutputsDictionaryOptions;
 
 @end

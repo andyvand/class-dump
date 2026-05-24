@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString;
+@class HMDHome, HMDHomeObjectLookup, NSOperationQueue, NSString;
 
 @protocol HMDBackingStoreDataSource
-- (NSOperationQueue *)ent: /* Error: Ran out of types for this method. */;
+- (HMDHomeObjectLookup *)rtRequest initWithRequest:(HMDHome *)arg1 ];
+- (NSString *);
+- (NSOperationQueue *)setUnregisterEvent: /* Error: Ran out of types for this method. */;
 - (_Bool)entifier %@ metric type:%@ session identifier:%@ setup start time:%llu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *activeControllerKeyUsername;
-@property(readonly) _Bool isAtomicSaveFeatureEnabled;
 @end
 

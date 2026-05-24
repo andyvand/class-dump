@@ -5,5 +5,6 @@
 //
 
 @protocol UINSDocumentPickerViewController
+- (void);
 @end
 

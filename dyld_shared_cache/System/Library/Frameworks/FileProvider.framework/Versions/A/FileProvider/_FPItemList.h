@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _FPItemList
 {
     NSMutableOrderedSet *_orderedSet;
-    NSMutableDictionary *_itemsByIDs;
-    NSMutableDictionary *_formerIDs;
 }
 
 - (void);
@@ -19,19 +17,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)Iz;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void)@;
 - (id);
 - (unsigned long long);
 - (void);

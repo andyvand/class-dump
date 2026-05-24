@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)l;
 - (_Bool)__hostDidMoveToParentSceneWithSettings: /* Error: Ran out of types for this method. */;
 
 @end

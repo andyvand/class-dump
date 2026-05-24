@@ -4,62 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSAttributedString, NSButton, NSData, NSError, NSImageView, NSLayoutConstraint, NSPopUpButton, NSProgressIndicator, NSScrollView, NSSecureTextField, NSString, NSTextField, NSTextView, NSView, SFCertificateView;
+@class CWDisplayedScanResult;
 
 @interface CWJoinDialog_SL
 {
     CWDisplayedScanResult *_scanResult;
-    NSString *_username;
-    NSString *_password;
-    NSData *_identityData;
-    _Bool _remember;
-    id _delegate;
-    NSError *_previousError;
-    NSString *_previousPassword;
-    _Bool _supportsWiFiPasswordSharing;
-    _Bool installerContext_;
-    _Bool _showingOpen;
-    _Bool _showingPassword;
-    _Bool _showingPSK;
-    _Bool _showingEnterprise;
-    _Bool _showingCertificateSelector;
-    _Bool _showingCertificate;
-    _Bool _shouldShowCertificate;
-    _Bool _showingAutomaticEAP;
-    _Bool _showingEAPTLS;
-    _Bool _certificatesAvailable;
-    _Bool _joinInProgress;
-    NSString *_titleOverride;
-    NSAttributedString *_descriptionOverride;
-    SFCertificateView *certificateView;
-    NSTextField *windowTitleLabel;
-    NSScrollView *windowDescScrollView;
-    NSTextView *windowDescTextView;
-    NSLayoutConstraint *windowDescScrollViewHeightConstraint;
-    NSButton *okButton;
-    NSButton *cancelButton;
-    NSView *usernameView;
-    NSTextField *usernameField;
-    NSView *passwordView;
-    NSSecureTextField *passwordField;
-    NSTextField *revealedPasswordField;
-    NSView *pskView;
-    NSSecureTextField *pskField;
-    NSTextField *revealedPSKField;
-    NSView *certificateSelectorView;
-    NSPopUpButton *certificatePopUpButton;
-    NSView *eapModeView;
-    NSPopUpButton *eapModePopUpButton;
-    NSButton *certificateDetailButton;
-    NSScrollView *certificateDetailView;
-    NSTextField *statusMessageLabel;
-    NSButton *warningButton;
-    NSProgressIndicator *progressIndicator;
-    NSView *showPasswordView;
-    NSButton *showPasswordCheckboxButton;
-    NSButton *helpButton;
-    NSImageView *imageView;
-    NSTextField *pskHintText;
 }
 
 + (id);
@@ -71,13 +20,13 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -87,36 +36,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)s;
+- (void)";
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (_Bool);
 - (void);
+- (void)B��;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)decimalDigitCharacterSet;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)`;
 - (id);
 - (void);
 - (void);
@@ -128,24 +77,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy) NSAttributedString *descriptionOverride; // @synthesize descriptionOverride=_descriptionOverride;
-@property(readonly) unsigned long long hash;
-@property(copy) NSData *identityData; // @synthesize identityData=_identityData;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property(copy) NSError *previousError; // @synthesize previousError=_previousError;
-@property(copy) NSString *previousPassword; // @synthesize previousPassword=_previousPassword;
-@property _Bool remember; // @synthesize remember=_remember;
-@property(copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
-@property(readonly) Class superclass;
-@property _Bool supportsWiFiPasswordSharing; // @synthesize supportsWiFiPasswordSharing=_supportsWiFiPasswordSharing;
-@property(copy) NSString *titleOverride; // @synthesize titleOverride=_titleOverride;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

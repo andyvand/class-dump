@@ -4,61 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSRulePredicateDateRangeType, EWSRulePredicateSizeRangeType, NSArray, NSString;
+@class NSArray;
 
 @interface EWSRulePredicatesType
 {
     _Bool _HasAttachments;
-    _Bool _HasAttachmentsSpecified;
-    _Bool _IsApprovalRequest;
-    _Bool _IsApprovalRequestSpecified;
-    _Bool _IsAutomaticForward;
-    _Bool _IsAutomaticForwardSpecified;
-    _Bool _IsAutomaticReply;
-    _Bool _IsAutomaticReplySpecified;
-    _Bool _IsEncrypted;
-    _Bool _IsEncryptedSpecified;
-    _Bool _IsMeetingRequest;
-    _Bool _IsMeetingRequestSpecified;
-    _Bool _IsMeetingResponse;
-    _Bool _IsMeetingResponseSpecified;
-    _Bool _IsNDR;
-    _Bool _IsNDRSpecified;
-    _Bool _IsPermissionControlled;
-    _Bool _IsPermissionControlledSpecified;
-    _Bool _IsReadReceipt;
-    _Bool _IsReadReceiptSpecified;
-    _Bool _IsSigned;
-    _Bool _IsSignedSpecified;
-    _Bool _IsVoicemail;
-    _Bool _IsVoicemailSpecified;
-    _Bool _NotSentToMe;
-    _Bool _NotSentToMeSpecified;
-    _Bool _SentCcMe;
-    _Bool _SentCcMeSpecified;
-    _Bool _SentOnlyToMe;
-    _Bool _SentOnlyToMeSpecified;
-    _Bool _SentToMe;
-    _Bool _SentToMeSpecified;
-    _Bool _SentToOrCcMe;
-    _Bool _SentToOrCcMeSpecified;
-    NSArray *_Categories;
-    NSArray *_ContainsBodyStrings;
-    NSArray *_ContainsHeaderStrings;
-    NSArray *_ContainsRecipientStrings;
-    NSArray *_ContainsSenderStrings;
-    NSArray *_ContainsSubjectOrBodyStrings;
-    NSArray *_ContainsSubjectStrings;
-    long long _FlaggedForAction;
-    NSArray *_FromAddresses;
-    NSArray *_FromConnectedAccounts;
-    long long _Importance;
-    NSArray *_ItemClasses;
-    NSArray *_MessageClassifications;
-    NSArray *_SentToAddresses;
-    long long _Sensitivity;
-    EWSRulePredicateDateRangeType *_WithinDateRange;
-    EWSRulePredicateSizeRangeType *_WithinSizeRange;
 }
 
 + (id);
@@ -68,6 +18,19 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)V;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,6 +40,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,32 +50,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool));
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -124,7 +74,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -145,7 +95,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)	;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -164,67 +114,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *Categories; // @synthesize Categories=_Categories;
-@property(copy, nonatomic) NSArray *ContainsBodyStrings; // @synthesize ContainsBodyStrings=_ContainsBodyStrings;
-@property(copy, nonatomic) NSArray *ContainsHeaderStrings; // @synthesize ContainsHeaderStrings=_ContainsHeaderStrings;
-@property(copy, nonatomic) NSArray *ContainsRecipientStrings; // @synthesize ContainsRecipientStrings=_ContainsRecipientStrings;
-@property(copy, nonatomic) NSArray *ContainsSenderStrings; // @synthesize ContainsSenderStrings=_ContainsSenderStrings;
-@property(copy, nonatomic) NSArray *ContainsSubjectOrBodyStrings; // @synthesize ContainsSubjectOrBodyStrings=_ContainsSubjectOrBodyStrings;
-@property(copy, nonatomic) NSArray *ContainsSubjectStrings; // @synthesize ContainsSubjectStrings=_ContainsSubjectStrings;
-@property(nonatomic) long long FlaggedForAction; // @synthesize FlaggedForAction=_FlaggedForAction;
-@property(copy, nonatomic) NSArray *FromAddresses; // @synthesize FromAddresses=_FromAddresses;
-@property(copy, nonatomic) NSArray *FromConnectedAccounts; // @synthesize FromConnectedAccounts=_FromConnectedAccounts;
-@property(nonatomic) _Bool HasAttachments; // @synthesize HasAttachments=_HasAttachments;
-@property(nonatomic) _Bool HasAttachmentsSpecified; // @synthesize HasAttachmentsSpecified=_HasAttachmentsSpecified;
-@property(nonatomic) long long Importance; // @synthesize Importance=_Importance;
-@property(nonatomic) _Bool IsApprovalRequest; // @synthesize IsApprovalRequest=_IsApprovalRequest;
-@property(nonatomic) _Bool IsApprovalRequestSpecified; // @synthesize IsApprovalRequestSpecified=_IsApprovalRequestSpecified;
-@property(nonatomic) _Bool IsAutomaticForward; // @synthesize IsAutomaticForward=_IsAutomaticForward;
-@property(nonatomic) _Bool IsAutomaticForwardSpecified; // @synthesize IsAutomaticForwardSpecified=_IsAutomaticForwardSpecified;
-@property(nonatomic) _Bool IsAutomaticReply; // @synthesize IsAutomaticReply=_IsAutomaticReply;
-@property(nonatomic) _Bool IsAutomaticReplySpecified; // @synthesize IsAutomaticReplySpecified=_IsAutomaticReplySpecified;
-@property(nonatomic) _Bool IsEncrypted; // @synthesize IsEncrypted=_IsEncrypted;
-@property(nonatomic) _Bool IsEncryptedSpecified; // @synthesize IsEncryptedSpecified=_IsEncryptedSpecified;
-@property(nonatomic) _Bool IsMeetingRequest; // @synthesize IsMeetingRequest=_IsMeetingRequest;
-@property(nonatomic) _Bool IsMeetingRequestSpecified; // @synthesize IsMeetingRequestSpecified=_IsMeetingRequestSpecified;
-@property(nonatomic) _Bool IsMeetingResponse; // @synthesize IsMeetingResponse=_IsMeetingResponse;
-@property(nonatomic) _Bool IsMeetingResponseSpecified; // @synthesize IsMeetingResponseSpecified=_IsMeetingResponseSpecified;
-@property(nonatomic) _Bool IsNDR; // @synthesize IsNDR=_IsNDR;
-@property(nonatomic) _Bool IsNDRSpecified; // @synthesize IsNDRSpecified=_IsNDRSpecified;
-@property(nonatomic) _Bool IsPermissionControlled; // @synthesize IsPermissionControlled=_IsPermissionControlled;
-@property(nonatomic) _Bool IsPermissionControlledSpecified; // @synthesize IsPermissionControlledSpecified=_IsPermissionControlledSpecified;
-@property(nonatomic) _Bool IsReadReceipt; // @synthesize IsReadReceipt=_IsReadReceipt;
-@property(nonatomic) _Bool IsReadReceiptSpecified; // @synthesize IsReadReceiptSpecified=_IsReadReceiptSpecified;
-@property(nonatomic) _Bool IsSigned; // @synthesize IsSigned=_IsSigned;
-@property(nonatomic) _Bool IsSignedSpecified; // @synthesize IsSignedSpecified=_IsSignedSpecified;
-@property(nonatomic) _Bool IsVoicemail; // @synthesize IsVoicemail=_IsVoicemail;
-@property(nonatomic) _Bool IsVoicemailSpecified; // @synthesize IsVoicemailSpecified=_IsVoicemailSpecified;
-@property(copy, nonatomic) NSArray *ItemClasses; // @synthesize ItemClasses=_ItemClasses;
-@property(copy, nonatomic) NSArray *MessageClassifications; // @synthesize MessageClassifications=_MessageClassifications;
-@property(nonatomic) _Bool NotSentToMe; // @synthesize NotSentToMe=_NotSentToMe;
-@property(nonatomic) _Bool NotSentToMeSpecified; // @synthesize NotSentToMeSpecified=_NotSentToMeSpecified;
-@property(nonatomic) long long Sensitivity; // @synthesize Sensitivity=_Sensitivity;
-@property(nonatomic) _Bool SentCcMe; // @synthesize SentCcMe=_SentCcMe;
-@property(nonatomic) _Bool SentCcMeSpecified; // @synthesize SentCcMeSpecified=_SentCcMeSpecified;
-@property(nonatomic) _Bool SentOnlyToMe; // @synthesize SentOnlyToMe=_SentOnlyToMe;
-@property(nonatomic) _Bool SentOnlyToMeSpecified; // @synthesize SentOnlyToMeSpecified=_SentOnlyToMeSpecified;
-@property(copy, nonatomic) NSArray *SentToAddresses; // @synthesize SentToAddresses=_SentToAddresses;
-@property(nonatomic) _Bool SentToMe; // @synthesize SentToMe=_SentToMe;
-@property(nonatomic) _Bool SentToMeSpecified; // @synthesize SentToMeSpecified=_SentToMeSpecified;
-@property(nonatomic) _Bool SentToOrCcMe; // @synthesize SentToOrCcMe=_SentToOrCcMe;
-@property(nonatomic) _Bool SentToOrCcMeSpecified; // @synthesize SentToOrCcMeSpecified=_SentToOrCcMeSpecified;
-@property(retain, nonatomic) EWSRulePredicateDateRangeType *WithinDateRange; // @synthesize WithinDateRange=_WithinDateRange;
-@property(retain, nonatomic) EWSRulePredicateSizeRangeType *WithinSizeRange; // @synthesize WithinSizeRange=_WithinSizeRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

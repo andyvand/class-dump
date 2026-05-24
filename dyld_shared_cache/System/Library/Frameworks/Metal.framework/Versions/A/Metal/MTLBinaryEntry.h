@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_data;
 
 __attribute__((visibility("hidden")))
 @interface MTLBinaryEntry
 {
     NSObject<OS_dispatch_data> *_data;
-    NSArray *_importedLibraries;
-    NSArray *_importedSymbols;
-    NSArray *_linkedBitcodes;
-    NSObject<OS_dispatch_data> *_bitcode;
-    NSObject<OS_dispatch_data> *_airScript;
-    NSObject<OS_dispatch_data> *_reflectionBlock;
-    int _reflectionFlags;
-    unsigned long long _binaryPosition;
-    unsigned long long _index;
 }
 
 - (void);
@@ -35,28 +26,19 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)F;
 - (unsigned long long);
-- (id)rOutputBlocks: /* Error: Ran out of types for this method. */;
-- (id)taTypeUChar8;
-- (void)_gfx906;
+- (id)releaseCompilerOutputBlocks: /* Error: Ran out of types for this method. */;
+- (id)MTLDataTypeUChar8;
+- (void)amdgpu_gfx906;
 - (id)¢R;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_data> *airScript;
-@property(readonly) unsigned long long binaryPosition; // @synthesize binaryPosition=_binaryPosition;
-@property(retain) NSObject<OS_dispatch_data> *bitcode;
 @property(readonly) NSObject<OS_dispatch_data> *data; // @synthesize data=_data;
-@property(readonly) NSArray *importedLibraries; // @synthesize importedLibraries=_importedLibraries;
-@property(readonly) NSArray *importedSymbols; // @synthesize importedSymbols=_importedSymbols;
-@property unsigned long long index; // @synthesize index=_index;
-@property(retain) NSArray *linkedBitcodes; // @synthesize linkedBitcodes=_linkedBitcodes;
-@property(readonly) NSObject<OS_dispatch_data> *reflectionBlock; // @synthesize reflectionBlock=_reflectionBlock;
-@property(readonly) int reflectionFlags; // @synthesize reflectionFlags=_reflectionFlags;
 
 @end
 

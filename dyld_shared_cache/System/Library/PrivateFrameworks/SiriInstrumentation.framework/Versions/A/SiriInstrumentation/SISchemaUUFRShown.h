@@ -6,37 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaGridCardSection, SISchemaSiriResponseContext, SISchemaUUID;
+@class NSString;
 
 @interface SISchemaUUFRShown : SISchemaInstrumentationMessage
 {
     NSString *_viewID;
-    NSString *_snippetClass;
-    int _siriUILocation;
-    NSString *_dialogIdentifier;
-    SISchemaSiriResponseContext *_siriResponseContext;
-    NSString *_aceViewID;
-    NSString *_aceViewClass;
-    int _viewRegionDesignation;
-    SISchemaGridCardSection *_gridCardSection;
-    SISchemaUUID *_linkId;
-    int _responseCategory;
-    SISchemaUUID *_subRequestId;
-    struct {
-        unsigned int siriUILocation:1;
-        unsigned int viewRegionDesignation:1;
-        unsigned int responseCategory:1;
-    } _has;
-    _Bool _hasViewID;
-    _Bool _hasSnippetClass;
-    _Bool _hasDialogIdentifier;
-    _Bool _hasSiriResponseContext;
-    _Bool _hasAceViewID;
-    _Bool _hasAceViewClass;
-    _Bool _hasGridCardSection;
-    _Bool _hasLinkId;
-    _Bool _hasSubRequestId;
-    unsigned long long _whichSubsection;
 }
 
 - (int);
@@ -45,6 +19,7 @@
 - (int);
 - (id);
 - (void);
+- (void)QW;
 - (void);
 - (void);
 - (void);
@@ -56,8 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -95,50 +69,25 @@
 - (id);
 - (void);
 - (id);
+- (void)setAttributedString:(id)arg1;
+- (void)selectFile:(_Bool)arg1 inFileViewerRootedAtPath: /* Error: Ran out of types for this method. */;
+- (id)makeViewWithIdentifier:owner: /* Error: Ran out of types for this method. */;
+- (_Bool)disableFMMOnHostWindow:usingCallback: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
+- (unsigned long long)initWithDictionary: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (_Bool)cessing_task(guid, task_flags);
 - (id);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ablementState;
-- (id)ntityId;
-- (void)N;
+- (id)deleteHeySiriHangupEnablementState;
+- (id)_hasEntityId;
+- (void)CDMSERVICETYPE_PLAN_RESOLUTION;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceViewClass; // @synthesize aceViewClass=_aceViewClass;
-@property(copy, nonatomic) NSString *aceViewID; // @synthesize aceViewID=_aceViewID;
-@property(copy, nonatomic) NSString *dialogIdentifier; // @synthesize dialogIdentifier=_dialogIdentifier;
-@property(retain, nonatomic) SISchemaGridCardSection *gridCardSection; // @synthesize gridCardSection=_gridCardSection;
-@property(nonatomic) _Bool hasAceViewClass; // @synthesize hasAceViewClass=_hasAceViewClass;
-@property(nonatomic) _Bool hasAceViewID; // @synthesize hasAceViewID=_hasAceViewID;
-@property(nonatomic) _Bool hasDialogIdentifier; // @synthesize hasDialogIdentifier=_hasDialogIdentifier;
-@property(nonatomic) _Bool hasGridCardSection; // @synthesize hasGridCardSection=_hasGridCardSection;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasResponseCategory;
-@property(nonatomic) _Bool hasSiriResponseContext; // @synthesize hasSiriResponseContext=_hasSiriResponseContext;
-@property(nonatomic) _Bool hasSiriUILocation;
-@property(nonatomic) _Bool hasSnippetClass; // @synthesize hasSnippetClass=_hasSnippetClass;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasViewID; // @synthesize hasViewID=_hasViewID;
-@property(nonatomic) _Bool hasViewRegionDesignation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int responseCategory; // @synthesize responseCategory=_responseCategory;
-@property(retain, nonatomic) SISchemaSiriResponseContext *siriResponseContext; // @synthesize siriResponseContext=_siriResponseContext;
-@property(nonatomic) int siriUILocation; // @synthesize siriUILocation=_siriUILocation;
-@property(copy, nonatomic) NSString *snippetClass; // @synthesize snippetClass=_snippetClass;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 @property(copy, nonatomic) NSString *viewID; // @synthesize viewID=_viewID;
-@property(nonatomic) int viewRegionDesignation; // @synthesize viewRegionDesignation=_viewRegionDesignation;
-@property(readonly, nonatomic) unsigned long long whichSubsection; // @synthesize whichSubsection=_whichSubsection;
 
 @end
 

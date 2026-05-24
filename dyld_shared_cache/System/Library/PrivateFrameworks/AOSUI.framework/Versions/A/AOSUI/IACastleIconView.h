@@ -9,7 +9,6 @@
 @interface IACastleIconView
 {
     NSImage *_icon;
-    _Bool _enabled;
 }
 
 - (_Bool);
@@ -18,13 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool),;
 - (void)òð! Dù1YÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
 
 @end
 

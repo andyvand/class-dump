@@ -14,14 +14,14 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void), mask.hash}s%s;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)ts.;
 
 @end

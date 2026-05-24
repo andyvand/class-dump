@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString, NSURL, PKCurrencyAmount, PKImage;
+@class NSString;
 
 @interface PKTransactionReceiptLineItem
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_secondarySubtitle;
-    PKImage *_image;
-    unsigned long long _quantity;
-    NSDecimalNumber *_amount;
-    NSString *_currencyCode;
-    NSURL *_iconImageURL;
-    unsigned long long _adamIdentifier;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)$;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (void);
 - (unsigned long long);
 - (void);
@@ -42,11 +33,11 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)addRxIPCDelay:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)hv8h;
+- (id);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -54,17 +45,7 @@
 - (void)ia1.fl.yelpcdn.com/bphoto/SvLGvBzWQWhoU4kCEcV8SA/o.jpg;
 
 // Remaining properties
-@property(nonatomic) unsigned long long adamIdentifier; // @synthesize adamIdentifier=_adamIdentifier;
-@property(retain, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, nonatomic) PKCurrencyAmount *currencyAmount;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) NSURL *iconImageURL; // @synthesize iconImageURL=_iconImageURL;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned long long quantity; // @synthesize quantity=_quantity;
-@property(copy, nonatomic) NSString *secondarySubtitle; // @synthesize secondarySubtitle=_secondarySubtitle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

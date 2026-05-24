@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSTextViewportRenderingSurface;
-
 @protocol NSTextViewportLayoutControllerDelegate
+- (void)lidated by previous edits.;
 
 @optional
 - (void)1Â0@ù
 × ;
-- (id <NSTextViewportRenderingSurface>);
+- (struct CGRect);
 @end
 

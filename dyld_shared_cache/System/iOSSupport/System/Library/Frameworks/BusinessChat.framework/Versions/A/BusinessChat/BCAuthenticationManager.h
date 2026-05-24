@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BCOAuth2RequestProtocol;
 
 @interface BCAuthenticationManager
 {
     id <BCOAuth2RequestProtocol> _authenticationRequest;
+    id authenticationRequest;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)minimumNumberOfItems;
+- (_Bool)metadataObjectTypes;
+- (id)keyboardFrameInView:(id)arg1;
+- (void)isTorchModeSupported:(id)arg1;
+- (void)isRunningWithToolKitClient;
+- (void)isEqual:(id)arg1;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)e",&,N,V_currentLaneGuidance;
 
 // Remaining properties
 @property(retain, nonatomic) id <BCOAuth2RequestProtocol> authenticationRequest; // @synthesize authenticationRequest=_authenticationRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

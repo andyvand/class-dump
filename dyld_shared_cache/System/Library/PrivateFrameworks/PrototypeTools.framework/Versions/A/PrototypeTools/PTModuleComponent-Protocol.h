@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString, PTSettings;
+@class NSArray;
 @protocol PTComponentObserver;
 
 @protocol PTModuleComponent
+- (void);
+- (NSArray *)@;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allSections;
-@property(retain, nonatomic) NSPredicate *appearancePredicate;
-@property(retain, nonatomic) NSString *childSettingsKeyPath;
 @property(nonatomic) __weak id <PTComponentObserver> componentObserver;
-@property(readonly, nonatomic) NSArray *enabledSections;
-@property(retain, nonatomic) PTSettings *settings;
 @end
 

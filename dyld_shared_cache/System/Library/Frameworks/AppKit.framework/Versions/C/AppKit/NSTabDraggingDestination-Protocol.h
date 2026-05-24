@@ -5,5 +5,11 @@
 //
 
 @protocol NSTabDraggingDestination
+
+@optional
+- (_Bool);
+- (void);
+- (_Bool)A*;
+- (_Bool)__overrideSessionCookieAcceptPolicy;
 @end
 

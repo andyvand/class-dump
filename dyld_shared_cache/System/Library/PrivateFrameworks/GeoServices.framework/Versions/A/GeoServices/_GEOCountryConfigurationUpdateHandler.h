@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _GEOCountryConfigurationUpdateHandler
 {
     CDUnknownBlockType _callback;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (id)cord->filePathType == filePathType;
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)numTapsPoi;
 - (void)dRouteReadAllFrom can only be called once per object;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 
 @end
 

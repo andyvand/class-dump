@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTRequestPrescribedPlanTextTool : SISchemaInstrumentationMessage
 {
     _Bool _isExplicit;
-    CDStruct_30801e2d _has;
 }
 
 - (void);
@@ -24,15 +21,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)oundation;
 - (id);
 - (id)ledAudioFileStorageFailed",&,N,V_sampledAudioFileStorageFailed;
-- (id)etadata;
+- (id)DialogEngineSchemaDLGENGClientEventMetadata;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExplicit;
 @property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

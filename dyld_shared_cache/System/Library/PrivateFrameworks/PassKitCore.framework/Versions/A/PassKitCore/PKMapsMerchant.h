@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CNPostalAddress, MKWalletMerchantStylingInfo, NSData, NSDate, NSString, NSURL;
+@class MKWalletMerchantStylingInfo;
 
 @interface PKMapsMerchant
 {
     MKWalletMerchantStylingInfo *_lazyStylingInfo;
-    int _resultProviderIdentifier;
-    unsigned long long _identifier;
-    NSString *_name;
-    NSString *_phoneNumber;
-    NSURL *_url;
-    double _locationLatitude;
-    double _locationLongitude;
-    CNPostalAddress *_postalAddress;
-    NSURL *_heroImageURL;
-    NSString *_heroImageAttributionName;
-    long long _category;
-    NSString *_detailedCategory;
-    NSData *_stylingInfoData;
-    NSURL *_businessChatURL;
-    NSDate *_lastProcessedDate;
 }
 
 + (void);
@@ -33,7 +18,7 @@
 × ;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +34,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
@@ -68,41 +53,25 @@
 - (double);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)setCallStatus:(id)arg1;
+- (id)StringAsTerminationReason: /* Error: Ran out of types for this method. */;
+- (void)connection_joining_failure;
 - (long long);
 - (void);
 - (id);
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (void)nHandler:(long long)arg1;
-- (double)Context;
-- (id)tupFieldBuiltInTotalAssetsPicker;
+- (void)writeValue:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (double)_externalizedContext;
+- (id)PKPaymentSetupFieldBuiltInTotalAssetsPicker;
 - (void)0ï;
-- (void);
+- (void)AverageOfMinimumAndStatetmentBalance;
 - (unsigned long long)Ï;
 - (void)x ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *businessChatURL; // @synthesize businessChatURL=_businessChatURL;
-@property(nonatomic) long long category; // @synthesize category=_category;
-@property(copy, nonatomic) NSString *detailedCategory; // @synthesize detailedCategory=_detailedCategory;
-@property(copy, nonatomic) NSString *heroImageAttributionName; // @synthesize heroImageAttributionName=_heroImageAttributionName;
-@property(copy, nonatomic) NSURL *heroImageURL; // @synthesize heroImageURL=_heroImageURL;
 @property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *lastProcessedDate; // @synthesize lastProcessedDate=_lastProcessedDate;
-@property(copy, nonatomic) CLLocation *location;
-@property(nonatomic) double locationLatitude; // @synthesize locationLatitude=_locationLatitude;
-@property(nonatomic) double locationLongitude; // @synthesize locationLongitude=_locationLongitude;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
-@property(nonatomic) int resultProviderIdentifier; // @synthesize resultProviderIdentifier=_resultProviderIdentifier;
-@property(retain, nonatomic) NSData *stylingInfoData; // @synthesize stylingInfoData=_stylingInfoData;
-@property(copy, nonatomic, setter=setURL:) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

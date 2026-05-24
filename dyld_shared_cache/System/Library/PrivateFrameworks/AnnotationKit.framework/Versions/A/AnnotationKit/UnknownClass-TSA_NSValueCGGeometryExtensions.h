@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (TSA_NSValueCGGeometryExtensions)
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (struct CGSize);
 - (struct CGRect);
-- (struct CGPoint);
-- (struct AKQuadrilateral);
-- (struct CGRect);
+- (struct CGPoint);
+- (struct AKQuadrilateral)with identifier:%@ /* Error: Ran out of types for this method. */;
+- (struct CGRect)AMSUIAlertDialogTask;
 
 // Remaining properties
 @property(readonly) struct AKQuadrilateral quadrilateralValue;

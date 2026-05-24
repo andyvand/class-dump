@@ -15,7 +15,7 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (id);
+- (id)found for inference;
 
 // Remaining properties
 @property(retain, nonatomic) TLKImagesView *contentView; // @dynamic contentView;

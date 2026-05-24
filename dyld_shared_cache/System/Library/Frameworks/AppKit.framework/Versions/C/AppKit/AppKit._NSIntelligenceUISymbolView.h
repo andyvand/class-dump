@@ -9,18 +9,13 @@
 @interface AppKit._NSIntelligenceUISymbolView : NSView
 {
     id symbolConfiguration;
-    id state;
-    id image;
-    id imageView;
-    id livingColorView;
-    id staticColorView;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (id)exesWithPinnedSupplementaryItems;
+- (id)_solutionBookmarkIndexesWithPinnedSupplementaryItems;
 - (void)ÀR;
 
 // Remaining properties

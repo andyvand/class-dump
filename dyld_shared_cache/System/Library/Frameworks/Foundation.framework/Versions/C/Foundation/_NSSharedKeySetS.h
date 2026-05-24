@@ -8,20 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSSharedKeySetS
 {
     char *_g;
-    unsigned char _select;
-    void *_rankTable;
-    double _c;
-    unsigned int _M;
-    unsigned int _factor;
-    unsigned int _numKey;
-    unsigned int *_seeds;
-    unsigned short (*_keys1)[1];
-    unsigned short (*_keys2)[2];
-    unsigned short (*_keys3)[3];
-    unsigned char (*_ckeys)[3];
-    _NSSharedKeySetS *_subSharedKeySet;
-    unsigned int _keyLen;
-    unsigned int _type;
 }
 
 - (unsigned long long);

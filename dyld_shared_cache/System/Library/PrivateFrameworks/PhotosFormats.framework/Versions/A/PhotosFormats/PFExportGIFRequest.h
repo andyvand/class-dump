@@ -9,15 +9,10 @@
 @interface PFExportGIFRequest
 {
     _Bool _shouldDither;
-    _Bool _synchronous;
-    double _ditherDepth;
-    double _maximumFrameRate;
-    unsigned long long _maximumFrameSize;
-    NSURL *_videoURL;
 }
 
 + (void);
-+ (id);
++ (id)%;
 + (id);
 + (_Bool);
 + (struct CGImage *);
@@ -25,26 +20,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)$;
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)ing decryption;
 - (id);
-- (double);
+- (double)P;
 - (id);
 - (void);
-- (void)s;
-- (double)defined;
+- (void)computeDateTimeValues;
+- (double)Undefined;
 
 // Remaining properties
-@property(nonatomic) double ditherDepth; // @synthesize ditherDepth=_ditherDepth;
-@property(nonatomic) double maximumFrameRate; // @synthesize maximumFrameRate=_maximumFrameRate;
-@property(nonatomic) unsigned long long maximumFrameSize; // @synthesize maximumFrameSize=_maximumFrameSize;
-@property(nonatomic) _Bool shouldDither; // @synthesize shouldDither=_shouldDither;
-@property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
 @property(copy, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end

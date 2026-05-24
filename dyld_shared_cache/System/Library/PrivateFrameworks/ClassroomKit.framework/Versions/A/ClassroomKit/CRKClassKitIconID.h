@@ -9,7 +9,6 @@
 @interface CRKClassKitIconID
 {
     NSString *_mascotIdentifier;
-    NSString *_colorIdentifier;
 }
 
 + (id);
@@ -25,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *colorIdentifier; // @synthesize colorIdentifier=_colorIdentifier;
 @property(copy, nonatomic) NSString *mascotIdentifier; // @synthesize mascotIdentifier=_mascotIdentifier;
-@property(readonly, copy, nonatomic) NSString *stringValue;
 
 @end
 

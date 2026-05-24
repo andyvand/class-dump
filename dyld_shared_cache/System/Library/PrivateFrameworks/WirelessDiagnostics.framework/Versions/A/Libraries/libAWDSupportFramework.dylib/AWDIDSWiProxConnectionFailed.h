@@ -7,16 +7,11 @@
 @interface AWDIDSWiProxConnectionFailed
 {
     long long _timeToFail;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int timeToFail:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
-- (long long);
+- (long long)C;
 - (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (id);
 - (void);
@@ -33,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimeToFail;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) long long timeToFail; // @synthesize timeToFail=_timeToFail;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

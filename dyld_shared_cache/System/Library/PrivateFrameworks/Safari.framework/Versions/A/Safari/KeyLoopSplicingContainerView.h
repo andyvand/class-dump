@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface KeyLoopSplicingContainerView
 {
     NSView *_externalNextKeyView;
-    NSView *_firstKeyView;
-    NSView *_lastKeyView;
 }
 
 - (void);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSView *firstKeyView; // @synthesize firstKeyView=_firstKeyView;
-@property(nonatomic) __weak NSView *lastKeyView; // @synthesize lastKeyView=_lastKeyView;
 
 @end
 

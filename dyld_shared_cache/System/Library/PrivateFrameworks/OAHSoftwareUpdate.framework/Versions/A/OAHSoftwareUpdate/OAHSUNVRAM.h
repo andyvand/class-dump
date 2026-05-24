@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (void);
++ (id)mountWithOptionsDictionary:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
@@ -20,10 +20,10 @@
 - (unsigned char);
 - (unsigned char);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)T`;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (_Bool);
 - (id);
 

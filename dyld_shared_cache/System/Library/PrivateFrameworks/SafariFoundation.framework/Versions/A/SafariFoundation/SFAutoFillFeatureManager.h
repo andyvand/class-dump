@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface SFAutoFillFeatureManager
 {
     _Bool _shouldOverrideShouldAutoFillPasswords;
-    _Bool _overrideShouldAutoFillPasswordsValue;
-    _Bool _shouldOverrideShouldAutoFillFromKeychain;
-    _Bool _overrideShouldAutoFillFromKeychainValue;
-    NSNumber *_overrideUserIsEligibleForPasskeys;
-    _Bool _cachedIsPasswordsAppInstalled;
 }
 
 + (_Bool);
@@ -21,9 +14,9 @@
 + (void);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)@�bB@9f;
 - (void);
 - (_Bool);
 - (void);
@@ -32,22 +25,16 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)em not set in AppController in MainMenu.nib.;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAutoFillFromKeychainRestricted;
-@property(readonly, nonatomic) _Bool isUserAllowedToTogglePasswordAutoFillEnabledState;
-@property(retain, nonatomic) NSString *preferredCredentialProviderForSaving;
-@property(nonatomic) _Bool shouldAutoFillPasswords;
 @property(nonatomic) _Bool shouldAutoFillPasswordsFromKeychain;
-@property(readonly, nonatomic) _Bool userIsEligibleForPasskeys;
-@property(readonly, nonatomic) _Bool userIsEligibleForPasskeysWithICloudKeychain;
 
 @end
 

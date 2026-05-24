@@ -7,14 +7,6 @@
 @interface PromotedContentUI.OcclusionDetector
 {
     id _isOccluded;
-    id _visiblePercentage;
-    id occlusionThreshold;
-    id probeView;
-    id cancellables;
-    id presentationOccluded;
-    id adFrame;
-    id keyboardFrame;
-    id manualOcclusionRegions;
 }
 
 @end

@@ -9,11 +9,10 @@
 @interface CalInMemoryBlockList
 {
     id blockedEmails;
-    void blockedPhoneNumbers;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)έ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *blockedPhoneNumbers;
-@property(nonatomic, readonly) _Bool isEmpty;
 
 @end
 

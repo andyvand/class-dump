@@ -10,27 +10,20 @@ __attribute__((visibility("hidden")))
 @interface GEOAlmanacRiseTransitSet
 {
     struct _GEORiseTransitSetEvent _rise;
-    struct _GEORiseTransitSetEvent _transit;
-    struct _GEORiseTransitSetEvent _set;
 }
 
 - (struct _GEORiseTransitSetEvent);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)forceContinuousLayout;
 - (id);
 - (id)*¯9;
 - (struct _GEORiseTransitSetEvent)4¡6@;
 - (id)ýþ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _GEORiseTransitSetEvent firstItem;
-@property(readonly, nonatomic) _Bool isIdeal;
-@property(readonly, nonatomic) struct _GEORiseTransitSetEvent lastItem;
 @property(readonly, nonatomic) NSDate *rise;
-@property(readonly, nonatomic) NSDate *set;
-@property(readonly, nonatomic) NSDate *transit;
 
 @end
 

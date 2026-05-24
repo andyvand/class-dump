@@ -9,15 +9,6 @@
 @interface PhotosUICore.LemonadeBookmarksDataSectionManager : PXDataSectionManager
 {
     id photoLibraryContext;
-    id topLevelIdentifier;
-    id bookmarksManager;
-    id photoLibrary;
-    id bookmarksManagerObserver;
-    id bookmarkCores;
-    id itemListObjects;
-    id itemListManagers;
-    id itemListManagerObservers;
-    id privacyControllerObservers;
 }
 
 - (id);

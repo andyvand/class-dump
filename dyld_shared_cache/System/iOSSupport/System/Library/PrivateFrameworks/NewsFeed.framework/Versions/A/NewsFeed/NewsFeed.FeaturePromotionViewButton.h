@@ -7,9 +7,6 @@
 @interface NewsFeed.FeaturePromotionViewButton
 {
     id _type;
-    id token;
-    id id;
-    id action;
 }
 
 @end

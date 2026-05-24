@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void)nLayoutRect: /* Error: Ran out of types for this method. */;
+- (id)tekey;
+- (void)_setCustomFixedPositionLayoutRect: /* Error: Ran out of types for this method. */;
 - (id)@"NSMutableArray",&,N,V_auxiliaryOptions;
 - (id)q;
 - (id)ä£4ÿô7;

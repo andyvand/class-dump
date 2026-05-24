@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSDataSourceSnapshotter
 {
@@ -14,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)h;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -22,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)_DKDiscoverabilitySignalsMetadataKey__userInfo;
+- (_Bool)A;
+- (id)NSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE;
 - (id);
 - (long long);
 - (long long);
@@ -34,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (_Bool);
 - (id)[64{CGRect={CGPoint=dd}{CGSize=dd}}][64{CGRect={CGPoint=dd}{CGSize=dd}}]dddd^{CGRect}Q@BBQQQ}56;
-- (_Bool)nder:(long long)arg1;
+- (_Bool)setShowsFirstResponder:(long long)arg1;
 - (long long): /* Error: Ran out of types for this method. */;
-- (id)rtcut;
+- (id)emptyShortcut;
 - (long long);
 - (long long)ngle);
 - (long long)ntextInfo:(long long)arg1 ]_block_invoke;
@@ -44,13 +42,7 @@ __attribute__((visibility("hidden")))
 - (id)8ÿh¸ÿíhÈÿ}hÄÿ}h´ÿÅhÐÿýhÜÿÍhÄÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

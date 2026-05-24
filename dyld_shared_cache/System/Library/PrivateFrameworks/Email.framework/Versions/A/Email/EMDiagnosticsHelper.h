@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EMObjectID, NSString;
+@class EMObjectID;
 @protocol EFCancelable;
 
 @interface EMDiagnosticsHelper
 {
     EMObjectID *_providerObjectID;
-    unsigned long long _source;
-    id <EFCancelable> _diagnosticInfoProviderToken;
-    EFLocked *_providers;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)h;
 - (void)!;
 - (id)icationDidEnterBackground];
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <EFCancelable> diagnosticInfoProviderToken; // @synthesize diagnosticInfoProviderToken=_diagnosticInfoProviderToken;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) EMObjectID *providerObjectID; // @synthesize providerObjectID=_providerObjectID;
-@property(retain, nonatomic) EFLocked *providers; // @synthesize providers=_providers;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

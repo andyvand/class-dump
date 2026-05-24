@@ -5,5 +5,7 @@
 //
 
 @protocol SGSuggestionsServiceURLsProtocol
+- (void);
+- (void)P;
 @end
 

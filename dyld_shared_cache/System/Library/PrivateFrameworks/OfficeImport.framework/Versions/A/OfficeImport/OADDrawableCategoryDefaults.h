@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADShapeProperties, OADTextBodyProperties, OADTextListStyle;
+@class OADShapeProperties;
 
 __attribute__((visibility("hidden")))
 @interface OADDrawableCategoryDefaults
 {
     OADShapeProperties *mShapeProperties;
-    OADTextBodyProperties *mTextBodyProperties;
-    OADTextListStyle *mTextListStyle;
 }
 
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)Ð
 ;
 

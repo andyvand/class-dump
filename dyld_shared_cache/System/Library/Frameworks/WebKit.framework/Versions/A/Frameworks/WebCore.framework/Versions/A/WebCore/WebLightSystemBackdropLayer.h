@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)s the currently-joined conversation, proceeding back to that conversation:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

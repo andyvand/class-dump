@@ -7,8 +7,6 @@
 @interface DGDescription
 {
     struct PFIntSize_st _inputSize;
-    long long _orientation;
-    long long _renderPipelineVersion;
 }
 
 + (id);
@@ -23,7 +21,7 @@
 - (struct PFIntSize_st);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -31,18 +29,16 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)setIsReceivingViewportDynamicBoundsChanges: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct PFIntSize_st);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 
 // Remaining properties
 @property(readonly) struct PFIntSize_st inputSize; // @synthesize inputSize=_inputSize;
-@property(readonly) long long orientation;
-@property(readonly) long long renderPipelineVersion;
 
 @end
 

@@ -14,9 +14,9 @@
 + (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)settings;
 - (id)c][256c][256c]}24i32;
-- (_Bool)hroughInteractionDidRecognize:(id)arg1;
+- (_Bool)_delegatePassthroughInteractionDidRecognize:(id)arg1;
 - (_Bool)sDelay;
 - (_Bool)e>",W,N;
 - (_Bool)¿èÂ`ÃäÃ;

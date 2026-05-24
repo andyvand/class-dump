@@ -9,8 +9,6 @@
 @interface PKCloudRecordArray
 {
     NSMutableDictionary *_cloudRecordByDatabase;
-    NSMutableDictionary *_reportItemsByAccountIdentifier;
-    long long _recordsFetchedCount;
 }
 
 + (_Bool)X"Ð!,Dùî%Ð1Â0@ù
@@ -24,8 +22,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)qIs;
 - (id);
 - (void);
 - (void);
@@ -40,12 +38,10 @@
 - (void);
 - (id);
 - (long long),;
-- (void)anceIdentifier;
+- (void)balanceIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cloudRecordByDatabase; // @synthesize cloudRecordByDatabase=_cloudRecordByDatabase;
-@property(nonatomic) long long recordsFetchedCount; // @synthesize recordsFetchedCount=_recordsFetchedCount;
-@property(retain, nonatomic) NSMutableDictionary *reportItemsByAccountIdentifier; // @synthesize reportItemsByAccountIdentifier=_reportItemsByAccountIdentifier;
 
 @end
 

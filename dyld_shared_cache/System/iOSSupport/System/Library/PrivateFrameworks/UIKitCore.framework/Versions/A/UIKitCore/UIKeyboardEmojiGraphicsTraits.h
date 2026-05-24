@@ -7,47 +7,27 @@
 @interface UIKeyboardEmojiGraphicsTraits
 {
     _Bool _isFirstPartyStickers;
-    double _emojiKeyWidth;
-    double _minimumLineSpacing;
-    double _minimumInteritemSpacing;
-    double _columnOffset;
-    double _sectionOffset;
-    double _bottomPadding;
-    double _categoryHeaderHeight;
-    double _categoryHeaderLeftPadding;
-    double _categorySelectedCirWidth;
-    double _categoryHeaderFontSize;
-    long long _prepolulatedRecentCount;
-    double _inputViewLeftMostPadding;
-    double _inputViewRightMostPadding;
-    double _rightBiasPercentage;
-    double _scrollSnapOffset;
-    double _screenToNativeScaleRatio;
-    double _topPadding;
-    double _categoryHeaderBottomInset;
-    double _alertTextWidth;
-    struct CGSize _fakeEmojiKeySize;
 }
 
++ (id)ۅ;
 + (id);
-+ (id);
+- (double)not get record completion block in delete operation;
+- (double)t have a SIM matching the last addressed SIM ID;
+- (long long)nced messages as needing sync;
+- (double)d to generate a CKRecord from class %@ ******;
+- (double)ause it is an incompatible action type %lld;
+- (id)tial fetch;
+- (struct CGSize)tPhoneAlias is this:%@ /* Error: Ran out of types for this method. */;
+- (double)dSafeForCacheDelete with time:%@ and accountValidForCD %@ /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
-- (long long);
+- (double)IncomingClientConnectionListening;
+- (double)Constants;
+- (double);
+- (double)e8;
 - (double);
 - (double);
-- (id);
-- (struct CGSize);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double);
 - (double)0@ù
 × ;
 - (double)tor to layout in this callback.;
@@ -55,26 +35,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double alertTextWidth; // @synthesize alertTextWidth=_alertTextWidth;
-@property(readonly, nonatomic) double bottomPadding; // @synthesize bottomPadding=_bottomPadding;
-@property(readonly, nonatomic) double categoryHeaderBottomInset; // @synthesize categoryHeaderBottomInset=_categoryHeaderBottomInset;
-@property(readonly, nonatomic) double categoryHeaderFontSize; // @synthesize categoryHeaderFontSize=_categoryHeaderFontSize;
-@property(readonly, nonatomic) double categoryHeaderHeight; // @synthesize categoryHeaderHeight=_categoryHeaderHeight;
-@property(readonly, nonatomic) double categoryHeaderLeftPadding; // @synthesize categoryHeaderLeftPadding=_categoryHeaderLeftPadding;
-@property(readonly, nonatomic) double categorySelectedCirWidth; // @synthesize categorySelectedCirWidth=_categorySelectedCirWidth;
-@property(readonly, nonatomic) double columnOffset; // @synthesize columnOffset=_columnOffset;
 @property(readonly, nonatomic) double emojiKeyWidth; // @synthesize emojiKeyWidth=_emojiKeyWidth;
-@property(readonly, nonatomic) struct CGSize fakeEmojiKeySize; // @synthesize fakeEmojiKeySize=_fakeEmojiKeySize;
-@property(readonly, nonatomic) double inputViewLeftMostPadding; // @synthesize inputViewLeftMostPadding=_inputViewLeftMostPadding;
-@property(readonly, nonatomic) double inputViewRightMostPadding; // @synthesize inputViewRightMostPadding=_inputViewRightMostPadding;
-@property(readonly, nonatomic) double minimumInteritemSpacing; // @synthesize minimumInteritemSpacing=_minimumInteritemSpacing;
-@property(readonly, nonatomic) double minimumLineSpacing; // @synthesize minimumLineSpacing=_minimumLineSpacing;
-@property(readonly, nonatomic) long long prepolulatedRecentCount; // @synthesize prepolulatedRecentCount=_prepolulatedRecentCount;
-@property(readonly, nonatomic) double rightBiasPercentage; // @synthesize rightBiasPercentage=_rightBiasPercentage;
-@property(readonly, nonatomic) double screenToNativeScaleRatio; // @synthesize screenToNativeScaleRatio=_screenToNativeScaleRatio;
-@property(readonly, nonatomic) double scrollSnapOffset; // @synthesize scrollSnapOffset=_scrollSnapOffset;
-@property(readonly, nonatomic) double sectionOffset; // @synthesize sectionOffset=_sectionOffset;
-@property(readonly, nonatomic) double topPadding; // @synthesize topPadding=_topPadding;
 
 @end
 

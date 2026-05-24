@@ -6,28 +6,22 @@
 
 #import <AppKit/NSSliderCell.h>
 
-@class NSBitmapImageRep, NSColor;
-
 @interface NSColorScaleSliderCell : NSSliderCell
 {
     long long _scaleType;
-    NSBitmapImageRep *_scaleBitmap;
-    _Bool _scaleBitmapValid;
-    NSColor *_scaleColor;
-    _Bool _flippedHorizontally;
 }
 
 + (Class);
 - (void);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)downloadTaskWithRequest:(_Bool)arg1 originalRequest:downloadFilePath:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (_Bool);
-- (void)mModalFunctionRow;
+- (void)wantsSystemModalFunctionRow;
 
 // Remaining properties
 @property _Bool flippedHorizontally;

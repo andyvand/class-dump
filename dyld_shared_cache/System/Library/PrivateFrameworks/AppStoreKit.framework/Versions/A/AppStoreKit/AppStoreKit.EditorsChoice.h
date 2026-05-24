@@ -7,13 +7,6 @@
 @interface AppStoreKit.EditorsChoice
 {
     id showsBadge;
-    id title;
-    id notes;
-    id isCollapsed;
-    id clickAction;
-    id clickSender;
-    id id;
-    id impressionMetrics;
 }
 
 @end

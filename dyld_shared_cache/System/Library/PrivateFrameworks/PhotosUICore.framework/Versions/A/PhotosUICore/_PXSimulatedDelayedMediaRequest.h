@@ -6,16 +6,9 @@
 
 #import <PhotosUICore/_PXSimulatedMediaRequest.h>
 
-@class NSDictionary;
-
 @interface _PXSimulatedDelayedMediaRequest : _PXSimulatedMediaRequest
 {
     double _delay;
-    double _delayFraction;
-    _Bool _didScheduleFinalCallback;
-    double _originalProgress;
-    id _lastOriginalResult;
-    NSDictionary *_lastOriginalInfo;
 }
 
 - (id);

@@ -9,19 +9,12 @@
 @interface UIKit._UIMorphAnimationSpec
 {
     UIViewSpringAnimationBehaviorSettings *contentMorph;
-    UIViewSpringAnimationBehaviorSettings *positionX;
-    UIViewSpringAnimationBehaviorSettings *positionY;
-    UIViewSpringAnimationBehaviorSettings *width;
-    UIViewSpringAnimationBehaviorSettings *height;
-    UIViewSpringAnimationBehaviorSettings *transform;
-    UIViewSpringAnimationBehaviorSettings *kick;
-    UIViewSpringAnimationBehaviorSettings *settle;
 }
 
-+ (id);
++ (id)@a;
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (id);
@@ -32,9 +25,9 @@
 - (id)!\Eùgð1Â0@ù
 × ;
 - (id)iew";
-- (id)illRemoveScene: /* Error: Ran out of types for this method. */;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ementRotationAnimationCount;
+- (id)workspace:willRemoveScene: /* Error: Ran out of types for this method. */;
+- (void)_setForceLevelClassifier: /* Error: Ran out of types for this method. */;
+- (void)_incrementRotationAnimationCount;
 - (void)view:(id)arg1 %@;
 - (void);
 - (id)illRotateToInterfaceOrientation:update _rotationInfo /* Error: Ran out of types for this method. */;
@@ -43,13 +36,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *contentMorph; // @synthesize contentMorph;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *height; // @synthesize height;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *kick; // @synthesize kick;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *positionX; // @synthesize positionX;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *positionY; // @synthesize positionY;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *settle; // @synthesize settle;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *transform; // @synthesize transform;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *width; // @synthesize width;
 
 @end
 

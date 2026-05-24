@@ -9,7 +9,6 @@
 @interface PKInkManager
 {
     NSMutableDictionary *_inks;
-    NSMutableDictionary *_supportedInkIdentifiers;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *inks; // @synthesize inks=_inks;
-@property(readonly, nonatomic) NSMutableDictionary *supportedInkIdentifiers; // @synthesize supportedInkIdentifiers=_supportedInkIdentifiers;
 
 @end
 

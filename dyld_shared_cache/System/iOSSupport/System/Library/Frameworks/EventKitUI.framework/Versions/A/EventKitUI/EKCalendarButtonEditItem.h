@@ -6,15 +6,11 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class NSString, UITableViewCell, UIView;
+@class UITableViewCell, UIView;
 
 @interface EKCalendarButtonEditItem : EKCalendarEditItem
 {
     UITableViewCell *_cell;
-    id _buttonTarget;
-    SEL _buttonAction;
-    NSString *_buttonTitle;
-    NSString *_accessibilityIdentifier;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ntative;
+- (void)isTentative;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *buttonView;

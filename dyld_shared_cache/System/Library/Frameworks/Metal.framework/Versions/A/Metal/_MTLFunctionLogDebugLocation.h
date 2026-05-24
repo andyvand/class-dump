@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLDebugLocation, NSString, NSURL;
+@class MTLDebugLocation, NSString;
 
 @interface _MTLFunctionLogDebugLocation
 {
     MTLDebugLocation *_debugLocation;
-    NSURL *_URL;
 }
 
 - (id);
@@ -21,17 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) unsigned long long column;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSString *functionName;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long line;
-@property(readonly) Class superclass;
 
 @end
 

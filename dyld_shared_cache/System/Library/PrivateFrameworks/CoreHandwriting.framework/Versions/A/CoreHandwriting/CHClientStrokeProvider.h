@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSOrderedSet, NSString;
-@protocol CHStrokeProviderVersion;
+@class NSArray, NSMutableDictionary;
 
 @interface CHClientStrokeProvider
 {
     NSArray *_orderedStrokes;
-    long long _version;
-    long long _strokeClassificationGTSource;
-    _Bool _hasValidMathAnnotation;
-    long long groupingPriority;
-    NSMutableDictionary *_strokesByID;
-    NSArray *_sectionedStrokes;
-    NSMutableDictionary *_transcriptionCache;
-    NSMutableDictionary *__strokeIdsByEncoding;
 }
 
 + (_Bool);
@@ -30,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -52,33 +43,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (void)ì¬¼§;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *_strokeIdsByEncoding; // @synthesize _strokeIdsByEncoding=__strokeIdsByEncoding;
-@property(readonly, nonatomic) struct CGRect boundingBox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGSize drawingCanvasSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) long long groupingPriority; // @synthesize groupingPriority;
-@property(nonatomic) _Bool hasValidMathAnnotation; // @synthesize hasValidMathAnnotation=_hasValidMathAnnotation;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *orderedStrokes;
-@property(readonly, nonatomic) NSArray *sectionedStrokes; // @synthesize sectionedStrokes=_sectionedStrokes;
-@property(readonly) id <CHStrokeProviderVersion> strokeProviderVersion;
-@property(readonly, nonatomic) NSMutableDictionary *strokesByID; // @synthesize strokesByID=_strokesByID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *transcriptionCache; // @synthesize transcriptionCache=_transcriptionCache;
-@property(readonly, copy) NSOrderedSet *visibleStrokeEncodedIdentifiers;
 
 @end
 

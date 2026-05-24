@@ -5,5 +5,10 @@
 //
 
 @protocol NSAnimationDelegate
+
+@optional
+- (void);
+- (float);
+- (void)PKApplicationMessageContent;
 @end
 

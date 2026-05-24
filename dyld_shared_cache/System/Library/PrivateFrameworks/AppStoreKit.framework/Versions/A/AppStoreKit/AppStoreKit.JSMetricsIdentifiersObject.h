@@ -9,10 +9,9 @@
 @interface AppStoreKit.JSMetricsIdentifiersObject
 {
     id metricsIdStore;
-    id metricsTopicProvider;
 }
 
-- (id);
+- (id)o;
 - (id);
 - (id);
 - (id);

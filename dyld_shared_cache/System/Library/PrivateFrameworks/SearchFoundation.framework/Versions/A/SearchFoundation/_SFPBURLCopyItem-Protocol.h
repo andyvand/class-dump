@@ -7,9 +7,10 @@
 @class NSData, _SFPBURL;
 
 @protocol _SFPBURLCopyItem
+- (NSData *)Criteria",R,C;
+- (_SFPBURL *)monthKeyAssetShared;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBURL *url;
 @end
 

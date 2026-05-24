@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotoKitHighlightsDataFactory
 {
     id photoLibrary;
-    id childItemManagersCache;
 }
 
 @end

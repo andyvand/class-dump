@@ -4,39 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAVAsset, FCContentArchive, FCContentManifest;
-
 @interface FCArticleAudioTrack
 {
     long long _type;
-    FCAVAsset *_asset;
-    double _duration;
-    double _embeddedUpsellStartTime;
-    double _embeddedUpsellEndTime;
 }
 
 - (double);
 - (double);
 - (id);
-- (double);
+- (double)4 t001 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 0, 1));
+vec4 t101 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 0, 1));
+vec4 t011 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 1, 1));
+vec4 t111 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 1, 1));
+vec3 a = fract(pos);
+vec4 t00 = mix(t000, t001, a.z);
+vec4 t10 = mix(t100, t101, a.z);
+vec4 t01 = mix(t010, t011, a.z);
+vec4 t11 = mix(t110, t111, a.z);
+vec4 t0 = mix(t00, t01, a.y);
+vec4 t1 = mix(t10, t11, a.y);
+return mix(t0, t1, a.x);
+}
+vec4 tileSample(sampler2DRect tex, vec2 pos, vec2 zInv, vec4 validRect)
+{
+return linearSample2DRect(tex, pos, zInv, validRect);
+}
+vec4 colorMatch(vec4 color, sampler3D lut)
+{
+vec4 outColor = linearSample3D(lut, color.bgr);
+return outColor;
+}
+uniform sampler2DRect texture;
+uniform vec2 scaleInv;
+uniform vec4 textureValidRect;
+uniform sampler3D colorLUT;
+uniform vec4 debugColor;
+uniform vec4 channelMask;
+noperspective centroid varying vec2 texCoord;
+void main()
+{
+vec4 texColor = tileSample(texture, texCoord, scaleInv, textureValidRect);
+vec4 outColor = colorMatch(texColor, colorLUT);
+texColor = outColor + debugColor;
+gl_FragColor = texColor * channelMask;
+}
+;
 - (unsigned long long);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id)Context:ANFHelper:articleID: /* Error: Ran out of types for this method. */;
+- (id)setWindowsMigrateOtherComponentsStepDuration:(long long)arg1;
+- (id)initWithContext:ANFHelper:articleID: /* Error: Ran out of types for this method. */;
 - (id)Count;
 - (id);
 - (void)odayfeedconfigrequests;
 
 // Remaining properties
-@property(readonly, nonatomic) FCAVAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double embeddedUpsellEndTime; // @synthesize embeddedUpsellEndTime=_embeddedUpsellEndTime;
-@property(readonly, nonatomic) double embeddedUpsellStartTime; // @synthesize embeddedUpsellStartTime=_embeddedUpsellStartTime;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

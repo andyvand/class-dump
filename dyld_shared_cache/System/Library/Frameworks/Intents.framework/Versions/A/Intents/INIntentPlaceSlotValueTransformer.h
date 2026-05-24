@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)OutputRouteId: /* Error: Ran out of types for this method. */;
++ (long long)setPreferredAudioOutputRouteId: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)"NSString",C,N,V_mediaRouteId;
 

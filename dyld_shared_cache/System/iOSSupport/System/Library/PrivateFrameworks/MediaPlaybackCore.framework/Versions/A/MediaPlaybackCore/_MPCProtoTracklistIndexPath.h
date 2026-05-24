@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _MPCProtoTracklistIndexPath
 {
     long long _containerIndex;
-    long long _itemIndex;
-    struct {
-        unsigned int containerIndex:1;
-        unsigned int itemIndex:1;
-    } _has;
 }
 
 - (id);

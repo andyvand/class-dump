@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, _CDDataCollectionSession, _CDEventStreamsRegister;
-@protocol OS_xpc_object, _DKKnowledgeQuerying;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface _CDDataCollection
 {
     _Bool _selectedForDataCollection;
-    _Bool _deleteSessionOnCleanup;
-    NSObject<OS_xpc_object> *_activity;
-    id <_DKKnowledgeQuerying> _storage;
-    CDUnknownBlockType _submissionBlock;
-    NSString *_dataDirectory;
-    NSString *_sessionPath;
-    NSDate *_collectionDate;
-    _CDDataCollectionSession *_session;
-    double _samplingRate;
-    unsigned long long _daysPerBatch;
-    unsigned long long _maxBatches;
-    _CDEventStreamsRegister *_eventStreamsRegister;
 }
 
-- (void);
+- (void)e;
+- (id)bQ;
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)};
 - (id);
 - (void);
 - (id);
@@ -36,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) id <_DKKnowledgeQuerying> storage; // @synthesize storage=_storage;
-@property(copy, nonatomic) CDUnknownBlockType submissionBlock; // @synthesize submissionBlock=_submissionBlock;
 
 @end
 

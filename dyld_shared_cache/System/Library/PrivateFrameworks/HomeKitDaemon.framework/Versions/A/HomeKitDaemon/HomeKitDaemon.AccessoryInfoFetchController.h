@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, OS_dispatch_queue;
+@class NSUUID;
 
 @interface HomeKitDaemon.AccessoryInfoFetchController
 {
     void messageTargetUUID;
-    OS_dispatch_queue *messageReceiveQueue;
-    id messageDispatcher;
-    id remoteEventRouterClientController;
 }
 
-- (void);
+- (void)C;
 - (id);
 - (id)Updated preferred media user to %@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void)T¸>;
 - (id)gÀD;
 
 // Remaining properties
-@property(nonatomic, readonly) OS_dispatch_queue *messageReceiveQueue; // @synthesize messageReceiveQueue;
 @property(nonatomic, readonly) NSUUID *messageTargetUUID;
 
 @end

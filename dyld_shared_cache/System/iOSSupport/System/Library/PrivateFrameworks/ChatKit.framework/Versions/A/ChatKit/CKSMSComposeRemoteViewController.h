@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CKSMSComposeRemoteViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
@@ -16,12 +15,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)isPreviewGenerationSupported;
+- (void)isPerformingHighlightUpdatesForTextStorage:(id)arg1;
+- (void)isOwnedByCurrentUser;
+- (void)isNoteHTMLEditorViewVisible: /* Error: Ran out of types for this method. */;
+- (void)isModifierPressed: /* Error: Ran out of types for this method. */;
+- (void)isMenuItemToggleItalics: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -31,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CKSMSComposeRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

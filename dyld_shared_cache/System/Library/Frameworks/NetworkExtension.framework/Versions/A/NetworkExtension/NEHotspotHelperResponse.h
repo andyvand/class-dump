@@ -9,11 +9,11 @@
     struct __CNPluginResponse *_response;
 }
 
+- (void)�#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)essLevel: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

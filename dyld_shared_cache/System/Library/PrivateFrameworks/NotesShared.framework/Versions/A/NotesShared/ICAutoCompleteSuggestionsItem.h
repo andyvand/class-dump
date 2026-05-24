@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSObject, NSString;
+@class NSString;
 
 @interface ICAutoCompleteSuggestionsItem
 {
     _Bool _isEmptyPlaceholder;
-    _Bool _isCreationSuggestion;
-    _Bool _isSectionHeader;
-    NSString *_displayText;
-    NSString *_shortText;
-    NSString *_rightText;
-    NSString *_uuidString;
-    NSString *_parentNoteIdentifier;
-    NSObject *_representedObject;
-    NSImage *_iconImage;
-    CDUnknownBlockType _iconGenerator;
 }
 
 - (id);
-- (void);
+- (void)ove subnet;
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)NSLock",&,V_connectionLock;
+- (_Bool),6;
 - (id);
 - (id);
 - (id);
@@ -36,25 +26,15 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
 - (id);
-- (id)ce: /* Error: Ran out of types for this method. */;
+- (id)addDataSource: /* Error: Ran out of types for this method. */;
 - (void)hx;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(copy, nonatomic) CDUnknownBlockType iconGenerator; // @synthesize iconGenerator=_iconGenerator;
-@property(retain, nonatomic) NSImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, nonatomic) _Bool isCreationSuggestion; // @synthesize isCreationSuggestion=_isCreationSuggestion;
-@property(readonly, nonatomic) _Bool isEmptyPlaceholder; // @synthesize isEmptyPlaceholder=_isEmptyPlaceholder;
-@property(readonly, nonatomic) _Bool isSectionHeader; // @synthesize isSectionHeader=_isSectionHeader;
-@property(readonly, copy, nonatomic) NSString *parentNoteIdentifier; // @synthesize parentNoteIdentifier=_parentNoteIdentifier;
-@property(readonly, nonatomic) NSObject *representedObject; // @synthesize representedObject=_representedObject;
-@property(readonly, copy, nonatomic) NSString *rightText; // @synthesize rightText=_rightText;
-@property(readonly, copy, nonatomic) NSString *shortText; // @synthesize shortText=_shortText;
-@property(readonly, copy, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end
 

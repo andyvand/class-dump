@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDefaultSwipeViewManipulator
 {
@@ -14,18 +12,11 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
+- (struct CGRect)saveReadReceiptStateToDatabase;
+- (void)registerTransfersForMessage:(id)arg1;
+- (void)has_groupPhotoCreationTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) double swipedViewRestingOffset; // @synthesize swipedViewRestingOffset=_swipedViewRestingOffset;
 
 @end

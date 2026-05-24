@@ -7,13 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedTracker
 {
     id tracker;
-    id audioPlaybackContext;
-    id readingHistory;
-    id suggestionsTracker;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id articleDataFactory;
-    id contentAvailabilityValidator;
 }
 
 @end

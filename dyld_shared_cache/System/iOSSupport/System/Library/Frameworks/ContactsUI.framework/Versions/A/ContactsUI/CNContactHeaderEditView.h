@@ -6,17 +6,9 @@
 
 #import <ContactsUI/CNContactHeaderView.h>
 
-@class CNMutableContact, CNSensitiveContentAnalysisManager, UIButton;
-
 @interface CNContactHeaderEditView : CNContactHeaderView
 {
     _Bool _canShowEditButton;
-    _Bool _allowsEditPhoto;
-    _Bool _isOutOfProcess;
-    UIButton *_editButton;
-    CNMutableContact *_editingWallpaperContact;
-    CNSensitiveContentAnalysisManager *_sensitiveContentManager;
-    struct CGSize _maxButtonSize;
 }
 
 + (id);
@@ -29,19 +21,19 @@
 - (void);
 - (void);
 - (void);
+- (void)yS!ySkb;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (double);
 - (double);
+- (double)E)	kA;
+- (double)@;
 - (double);
 - (double);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)@9i;
+- (_Bool)Y;
 - (void);
 - (void);
 - (void);
@@ -53,53 +45,47 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3�;
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)H+;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void)R;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)R;
+- (id);
 - (_Bool);
 - (double);
 - (double);
 - (void);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (void)R,N;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditPhoto; // @synthesize allowsEditPhoto=_allowsEditPhoto;
-@property(nonatomic) _Bool canShowEditButton;
-@property(retain, nonatomic) UIButton *editButton; // @synthesize editButton=_editButton;
-@property(retain, nonatomic) CNMutableContact *editingWallpaperContact; // @synthesize editingWallpaperContact=_editingWallpaperContact;
-@property(nonatomic) _Bool isOutOfProcess; // @synthesize isOutOfProcess=_isOutOfProcess;
 @property(nonatomic) struct CGSize maxButtonSize; // @synthesize maxButtonSize=_maxButtonSize;
-@property(readonly, nonatomic) CNSensitiveContentAnalysisManager *sensitiveContentManager; // @synthesize sensitiveContentManager=_sensitiveContentManager;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResultFactory, NSMutableArray;
+@class NSMutableArray;
 
 @interface CNAutocompleteLocalContactResultTransformBuilder
 {
     NSMutableArray *_transforms;
-    CNAutocompleteResultFactory *_factory;
-    unsigned long long _builtContactType;
 }
 
 + (id);
@@ -21,10 +19,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)f bucket in histogram buckets!;
 - (void);
 
 // Remaining properties

@@ -10,29 +10,20 @@ __attribute__((visibility("hidden")))
 @interface MNAudioSystemEvent
 {
     _Bool _isPrivate;
-    NSString *_utterance;
-    unsigned long long _shortPrompt;
-    unsigned long long _guidanceLevel;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)TL;
 - (CDUnknownBlockType);
 - (void)Plan";
 - (_Bool)vigating via %{private}@ (%@);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long guidanceLevel; // @synthesize guidanceLevel=_guidanceLevel;
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) _Bool hasSoundEffect;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly, nonatomic) unsigned long long shortPrompt; // @synthesize shortPrompt=_shortPrompt;
 @property(readonly, copy, nonatomic) NSString *utterance; // @synthesize utterance=_utterance;
 
 @end

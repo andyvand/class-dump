@@ -6,63 +6,47 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaCarPlayInvocationContext : SISchemaInstrumentationMessage
 {
     NSString *_bundleID;
-    int _directAction;
-    int _enhancedVoiceTriggerMode;
-    int _carPlayConnection;
-    struct {
-        unsigned int directAction:1;
-        unsigned int enhancedVoiceTriggerMode:1;
-        unsigned int carPlayConnection:1;
-    } _has;
-    _Bool _hasBundleID;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (int)J)K;
+- (void)";
+- (void);
+- (void);
+- (void);
 - (int);
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)6y;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ASDAggregateClusterMappingData;
+- (_Bool)ss getCNContactStoreConfigurationClass(void)_block_invoke;
+- (_Bool)recoverable_message_part (chat_id, message_id, part_index, delete_date, part_text, ck_sync_state)   SELECT cmj.chat_id, cmj.message_id, ?, ?, ?, 0   FROM chat_message_join AS cmj   JOIN message AS m   ON m.ROWID = cmj.message_id AND m.guid = ?;;
 - (_Bool);
 - (id);
-- (id);
-- (id)eAccessoryId;
-- (id)agesUsingSiri;
-- (void)ING;
+- (id)eation failed. Couldn't convert to desired format. err = %ld
+;
+- (id)deleteAccessoryId;
+- (id)_appFreqForMessagesUsingSiri;
+- (void)MHAUDIOSESSIONMODE_VIDEO_RECORDING;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) int carPlayConnection; // @synthesize carPlayConnection=_carPlayConnection;
-@property(nonatomic) int directAction; // @synthesize directAction=_directAction;
-@property(nonatomic) int enhancedVoiceTriggerMode; // @synthesize enhancedVoiceTriggerMode=_enhancedVoiceTriggerMode;
-@property(nonatomic) _Bool hasBundleID; // @synthesize hasBundleID=_hasBundleID;
-@property(nonatomic) _Bool hasCarPlayConnection;
-@property(nonatomic) _Bool hasDirectAction;
-@property(nonatomic) _Bool hasEnhancedVoiceTriggerMode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMUser, NSArray, NSString;
+@class HMAccessory;
 
 @interface HMMissingWalletKey
 {
     HMAccessory *_accessory;
-    HMUser *_user;
 }
 
 + (id);
@@ -19,8 +18,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)confiscate;
+- (id)lifeboat;
 - (id);
 - (id);
 - (void)T22ð39Ø9ð<|>;
@@ -28,24 +27,6 @@
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) HMUser *user; // @synthesize user=_user;
 
 @end
 

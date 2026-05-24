@@ -5,37 +5,32 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface HCXPCClient
 {
     NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    unsigned long long _requestedUpdates;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)C;
 - (void);
-- (void);
+- (void)C;
 - (int);
-- (id);
+- (id)data"8;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)object:isEqualToObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int pid;
-@property(nonatomic) unsigned long long requestedUpdates; // @synthesize requestedUpdates=_requestedUpdates;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcQueue; // @synthesize xpcQueue=_xpcQueue;
 
 @end
 

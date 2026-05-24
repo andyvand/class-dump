@@ -6,28 +6,12 @@
 
 #import <CoreGraphics/CPRegion.h>
 
-@class CPCharSequence, CPZoneProfile, NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CPZone : CPRegion
 {
     NSMutableArray *zoneBorders;
-    struct CGPoint *outerVertices;
-    struct CGPoint *swollenOuterVertices;
-    double area;
-    _Bool isStraddleZone;
-    CPZoneProfile *zoneProfile;
-    NSArray *leftGuides;
-    NSArray *rightGuides;
-    NSArray *gutters;
-    NSArray *spacers;
-    CPCharSequence *charactersInZone;
-    _Bool hasRotatedCharacters;
-    NSMutableArray *textLinesInZone;
-    NSArray *graphicsInZone;
-    NSMutableArray *backgroundGraphics;
-    unsigned int usedGraphicCount;
-    double rotationAngle;
 }
 
 - (id);
@@ -39,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R";
 - (void);
 - (void);
 - (double);
 - (id);
 - (void);
 - (_Bool);
-- (struct CGPoint *);
+- (struct CGPoint *)@;
 - (struct CGColor *);
 - (long long);
 - (_Bool);
@@ -54,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -80,7 +64,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned int);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty;
+@class RFTextProperty;
 
 @protocol RFLongItemStandardCardSection
+- (void)_;
+- (_Bool)R;
+- (_Bool);
+- (RFTextProperty *)_boolValueForAnnotationFlag:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool has_background_platter;
-@property(nonatomic) _Bool is_fresh;
-@property(nonatomic) _Bool is_markdown;
-@property(nonatomic) _Bool is_quote;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
 @end
 

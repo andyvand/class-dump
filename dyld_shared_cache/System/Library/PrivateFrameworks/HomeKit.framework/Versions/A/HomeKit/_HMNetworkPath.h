@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_nw_path;
 
 __attribute__((visibility("hidden")))
@@ -17,18 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (void)nIdentifier;
+- (void)_pendingConfigurationIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_nw_path> *nwPath; // @synthesize nwPath=_nwPath;
-@property(readonly, nonatomic) int status;
-@property(readonly) Class superclass;
 
 @end
 

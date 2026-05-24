@@ -6,15 +6,10 @@
 
 #import <UIKitCore/_UIKeyboardArbiterClient.h>
 
-@class UIKeyboardScenePresentationModeManager;
-
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardArbiterClientInputUIHost : _UIKeyboardArbiterClient
 {
     _Bool _showing;
-    _Bool _inputDestinationInWindowedMode;
-    UIKeyboardScenePresentationModeManager *_presentationModeManager;
-    struct CGRect _keyboardFrameIncludingRemoteIAV;
 }
 
 - (void);
@@ -23,39 +18,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)DaemonListenerChatProtocol>"20@0:8B16 /* Error: Ran out of types for this method. */;
+- (void)ageType:(struct CGRect)arg1 associatedMessageGuid:(_Bool)arg2;
 - (void);
-- (void);
+- (_Bool)setSpamBlockMap:(id)arg1;
+- (_Bool)setMessagesProcessedComingBackFromStorage: /* Error: Ran out of types for this method. */;
+- (void)serviceDefaultsForSetup;
+- (_Bool)service:activeAccountsChanged: /* Error: Ran out of types for this method. */;
+- (void)_updateLastAddressedIDsIfNeededForChatWithIdentifier:(id)arg1 style:lastAddressedHandle:lastAddressedSIMID:iMessageCapability: /* Error: Ran out of types for this method. */;
+- (void)_transferTimer;
+- (id)_handleWritingCloudKitMetrics: /* Error: Ran out of types for this method. */;
+- (void)JSONHelper;
+- (void)ad count:(id)arg1 %ld;
+- (_Bool)relay block mapping for %@;
 - (_Bool);
-- (_Bool);
+- (void)er",C,N,V_payloadAllowVPNCreation;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool)Ñ\°1Â0@ù
 × ;
 - (_Bool)ð!ôFùÑcÐ1Â0@ù
 × ;
-- (id)ntTraits:forceNotification: /* Error: Ran out of types for this method. */;
-- (struct CGRect)etIndexColor: /* Error: Ran out of types for this method. */;
+- (id)_processDidChangeRecursivelyFromOldTraits:toCurrentTraits:forceNotification: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_setIndexColor: /* Error: Ran out of types for this method. */;
 - (void)ôB;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool inputDestinationInWindowedMode; // @synthesize inputDestinationInWindowedMode=_inputDestinationInWindowedMode;
 @property(readonly, nonatomic) struct CGRect keyboardFrameIncludingRemoteIAV; // @synthesize keyboardFrameIncludingRemoteIAV=_keyboardFrameIncludingRemoteIAV;
-@property(readonly, nonatomic) UIKeyboardScenePresentationModeManager *presentationModeManager; // @synthesize presentationModeManager=_presentationModeManager;
-@property(nonatomic) _Bool showing; // @synthesize showing=_showing;
 
 @end
 

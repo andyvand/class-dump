@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationSubPaneConfirmButtonDelegate
+- (void);
 @end
 

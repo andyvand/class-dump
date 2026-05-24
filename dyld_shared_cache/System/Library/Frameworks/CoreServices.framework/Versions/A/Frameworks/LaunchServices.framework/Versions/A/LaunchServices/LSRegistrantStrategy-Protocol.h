@@ -5,5 +5,7 @@
 //
 
 @protocol LSRegistrantStrategy
+- (id);
+- (void);
 @end
 

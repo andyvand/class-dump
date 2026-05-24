@@ -8,23 +8,23 @@
 {
 }
 
-+ (void);
++ (void)"a;
 + (void);
 + (long long);
 + (long long);
 + (void);
 + (void);
 + (void);
++ (_Bool)9;
 + (_Bool);
 + (_Bool);
++ (_Bool)*`9 H;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned int);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool);
 
 @end
 

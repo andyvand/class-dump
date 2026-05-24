@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSLock, NSMutableDictionary;
+@class NSBundle, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CATLocalizationHelper
 {
     NSMutableDictionary *mStringByKeyByTableName;
-    NSLock *mLock;
-    NSBundle *_bundle;
 }
 
 + (id);

@@ -11,7 +11,7 @@
     NSString *_stickerAccessibilityDescription;
 }
 
-- (void);
+- (void)erReferences;
 - (id);
 - (id);
 - (id);

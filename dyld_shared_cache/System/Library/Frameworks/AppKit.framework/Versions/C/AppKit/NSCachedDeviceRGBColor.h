@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (oneway void);
+- (oneway void)ks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
-- (id)ment;
+- (id)_fileContentsComment;
 - (_Bool);
 - (id)allocating %lu bytes;
 - (id)"RÞF;

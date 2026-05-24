@@ -7,15 +7,11 @@
 @class NSArray, NSString;
 
 @protocol _INPBSearchCallHistoryIntentResponse
+- (NSString *);
+- (void);
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *callRecords;
-@property(readonly, nonatomic) unsigned long long callRecordsCount;
-@property(copy, nonatomic) NSString *dateCreated;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasTargetContact;
-@property(copy, nonatomic) NSString *status;
-@property(copy, nonatomic) NSString *targetContact;
 @end
 

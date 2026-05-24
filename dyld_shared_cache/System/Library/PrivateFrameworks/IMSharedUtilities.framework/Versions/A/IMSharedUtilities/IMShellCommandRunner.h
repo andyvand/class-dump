@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableString, NSString;
+@class NSMutableString, NSString;
 
 @interface IMShellCommandRunner
 {
     NSMutableString *_standardOut;
-    NSMutableString *_standardErr;
-    int _exitCode;
 }
 
 + (id);
@@ -21,16 +19,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void)|BÛÿôY;
 
 // Remaining properties
-@property(readonly) NSError *error;
-@property(readonly) int exitCode; // @synthesize exitCode=_exitCode;
 @property(readonly) NSString *standardErr; // @synthesize standardErr=_standardErr;
-@property(readonly) NSString *standardOut; // @synthesize standardOut=_standardOut;
 
 @end
 

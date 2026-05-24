@@ -15,9 +15,9 @@
 - (long long);
 - (id);
 - (id);
-- (long long)ctionProviderDelegate: /* Error: Ran out of types for this method. */;
+- (long long)viewControllerForSidebarNavigationDestination:photoLibrary:actionProviderDelegate: /* Error: Ran out of types for this method. */;
 - (id)der:] /* Error: Ran out of types for this method. */;
-- (long long)e;
+- (long long)LemonadeAccountViewTipMessage;
 - (void)i4²Ü±;
 
 // Remaining properties

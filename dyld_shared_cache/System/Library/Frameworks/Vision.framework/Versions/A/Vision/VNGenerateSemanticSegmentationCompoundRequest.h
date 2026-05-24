@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (Class);
-+ (Class);
++ (Class)C;
++ (Class)';
 + (id);
 + (const CDStruct_3a02d5a8 *);
 + (long long);
 + (_Bool);
 - (id);
-- (id);
+- (id)ex as failed to fetch change history, error:(unsigned long long)arg1 %@;
 - (id)Tèÿ°ÿâ§TÔ¯ÿâ§T¯ÿ;
 - (_Bool);
 

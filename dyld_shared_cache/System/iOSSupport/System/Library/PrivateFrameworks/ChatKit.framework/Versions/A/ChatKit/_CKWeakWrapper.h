@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _CKWeakWrapper
 {
     IMWeakReference *_weakReference;
-    Class _targetClass;
 }
 
-- (void);
+- (void)valueForKeyPath:(id)arg1;
 - (Class);
 - (id);
 - (id);
-- (Class);
+- (Class)(;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -26,13 +25,12 @@ __attribute__((visibility("hidden")))
 - (_Bool)
 × ;
 - (void)Playback:(Class)arg1;
-- (id):(SEL)arg1;
+- (id)_setPreferredNavigationBarVisibility:(SEL)arg1;
 - (_Bool)GG;
 - (id)ate transcript while update is already in progress â chained completion handler called. Did call completion:(id)arg1 %p;
-- (void)istLargeTextCellIdentifier;
+- (void)CKConversationListLargeTextCellIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) Class targetClass; // @synthesize targetClass=_targetClass;
 @property(retain, nonatomic) IMWeakReference *weakReference; // @synthesize weakReference=_weakReference;
 
 @end

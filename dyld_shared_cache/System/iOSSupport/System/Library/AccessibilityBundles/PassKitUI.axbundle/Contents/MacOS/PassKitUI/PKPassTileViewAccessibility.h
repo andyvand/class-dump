@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__VKImageAnalysisBarButtonItemAccessibility_super;
 + (void);
 - (id);
 - (id);

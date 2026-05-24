@@ -7,8 +7,6 @@
 @interface NewsFeed.ShareAttributionViewItem
 {
     id shareAttributionView;
-    id reuseIdentifier;
-    id onReuse;
 }
 
 @end

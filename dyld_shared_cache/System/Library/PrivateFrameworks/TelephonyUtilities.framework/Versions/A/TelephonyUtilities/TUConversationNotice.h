@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID, TUConversationActivitySession;
+@class NSUUID;
 
 @interface TUConversationNotice
 {
     NSUUID *_UUID;
-    long long _sessionEventType;
-    NSUUID *_sessionUUID;
-    NSURL *_actionURL;
-    NSString *_bundleIdentifier;
-    NSString *_item;
-    long long _queueItemType;
-    TUConversationActivitySession *_session;
 }
 
 + (_Bool);
@@ -35,30 +28,16 @@
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (id)K;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)ersistentSceneIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)setPersistentSceneIdentifiers: /* Error: Ran out of types for this method. */;
 - (void)&;
 - (id)ID %@ with error %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *item; // @synthesize item=_item;
-@property(nonatomic) long long queueItemType; // @synthesize queueItemType=_queueItemType;
-@property(retain, nonatomic) TUConversationActivitySession *session; // @synthesize session=_session;
-@property(nonatomic) long long sessionEventType; // @synthesize sessionEventType=_sessionEventType;
 @property(retain, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface PRSRankingCosineComponents
 {
     NSArray *_termFrequencies;
-    NSArray *_termFrequenciesWeighted;
-    NSArray *_inverseDocFrequencies;
-    NSArray *_termInverseDoc;
-    NSArray *_termInverseDocWeighted;
-    unsigned long long _fieldLength;
 }
 
 - (id);
@@ -23,20 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void)r;
+- (void)yView";
+- (id)setAddressComponents: /* Error: Ran out of types for this method. */;
+- (unsigned long long)installDarkeningViewIfNeeded;
+- (void)assetFromVideoPreviewDictionary:(unsigned long long)arg1 usingPreferredPlatformArray: /* Error: Ran out of types for this method. */;
+- (id)_usesBlurredBackgroundWithFadeOut;
+- (void)_walletBoardingPassConfirmationNumber;
 
 // Remaining properties
-@property(nonatomic) unsigned long long fieldLength; // @synthesize fieldLength=_fieldLength;
-@property(retain, nonatomic) NSArray *inverseDocFrequencies; // @synthesize inverseDocFrequencies=_inverseDocFrequencies;
 @property(retain, nonatomic) NSArray *termFrequencies; // @synthesize termFrequencies=_termFrequencies;
-@property(retain, nonatomic) NSArray *termFrequenciesWeighted; // @synthesize termFrequenciesWeighted=_termFrequenciesWeighted;
-@property(retain, nonatomic) NSArray *termInverseDoc; // @synthesize termInverseDoc=_termInverseDoc;
-@property(retain, nonatomic) NSArray *termInverseDocWeighted; // @synthesize termInverseDocWeighted=_termInverseDocWeighted;
 
 @end
 

@@ -9,17 +9,9 @@
 @interface GEOWiFiPasspointInfo
 {
     NSString *_venueName;
-    int _networkType;
-    int _venueGroup;
-    unsigned int _venueType;
-    struct {
-        unsigned int has_networkType:1;
-        unsigned int has_venueGroup:1;
-        unsigned int has_venueType:1;
-    } _flags;
 }
 
-+ (_Bool)tOriginalClientCapabilities:(id)arg1;
++ (_Bool)setOriginalClientCapabilities:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -32,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (int);
+- (int)ntainers:(id)arg1 No containers will be retuned; unexpected nil accountCollection %@;
 - (unsigned int);
 - (void);
 - (void);
@@ -40,10 +32,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)speechCapturingDidUpdateRecordingInfo:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)__AUTH_CONST;
 - (_Bool);
 - (int);
 - (void);
@@ -51,20 +43,13 @@
 × ;
 - (id)a	'°!|AùÑ¹*ð1Â0@ù
 × ;
-- (id)ownClientResolvedTypes;
+- (id)knownClientResolvedTypes;
 - (id)ue;
 - (id)oactivetile    (identifier, policy, start_timestamp, end_timestamp, tile_count, dl_attempts, success_count, failure_count, bytes_downloaded)    VALUES (@identifier, @policy, @start_timestamp, NULL, NULL, NULL, NULL, NULL, NULL);;
 - (void)þÿÿÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasNetworkType;
-@property(nonatomic) _Bool hasVenueGroup;
-@property(readonly, nonatomic) _Bool hasVenueName;
-@property(nonatomic) _Bool hasVenueType;
-@property(nonatomic) int networkType;
-@property(nonatomic) int venueGroup;
-@property(retain, nonatomic) NSString *venueName;
-@property(nonatomic) unsigned int venueType;
 
 @end
 

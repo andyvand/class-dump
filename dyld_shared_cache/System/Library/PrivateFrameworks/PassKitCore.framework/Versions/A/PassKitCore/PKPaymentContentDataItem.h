@@ -15,11 +15,11 @@
 
 + (_Bool);
 + (long long);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool)become invalid. Identifier:(id *)arg1 %@;
-- (void)Item;
+- (void)instantFundsOutFeeSummaryItem;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentContentItem *contentItem; // @synthesize contentItem=_contentItem;

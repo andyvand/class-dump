@@ -6,26 +6,11 @@
 
 #import <ImageKit/IKImageBrowserCell.h>
 
-@class IKImageWrapper, NSImage, NSString;
+@class IKImageWrapper;
 
 @interface IKIconCell : IKImageBrowserCell
 {
     IKImageWrapper *_cachedTitleImage;
-    CDStruct_f8c9b8af _cachedTitleSettings;
-    CDStruct_a6c50959 _savedMetrics;
-    NSString *_savedMetricsTitle;
-    struct CGSize _savedMetricsFrameSize;
-    NSImage *_tagImage;
-    struct CGRect _topTitleFrame;
-    struct CGRect _bottomTitleFrame;
-    unsigned long long _overlapCacheVersion;
-    unsigned int _overlapCacheValue:1;
-    unsigned int _isBlinking:1;
-    unsigned int _tagImageFetched:1;
-    unsigned int _isDefaultFolder:2;
-    unsigned int _supportsStatus:2;
-    unsigned int _supportsOldStatus:2;
-    unsigned int _isDimmed:2;
 }
 
 + (id);
@@ -37,26 +22,26 @@
 + (struct CGSize);
 + (double);
 + (id);
++ (struct CGSize);
 + (struct CGSize);
 + (struct CGSize);
 + (struct CGSize);
-+ (struct CGSize);
-+ (struct CGRect);
++ (struct CGRect)yI;
 + (struct CGRect);
 + (struct CGPoint);
-+ (struct CGPoint);
++ (struct CGPoint);
 + (void)\;
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (struct CGRect);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (id);
+- (id)@9	!;
 - (double);
 - (double);
 - (id);
@@ -64,7 +49,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -85,7 +70,7 @@
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (struct CGRect);
@@ -102,7 +87,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)_fractionOfAssetsWithSceneAnalysis;
 - (void);
 - (_Bool);
 - (double);

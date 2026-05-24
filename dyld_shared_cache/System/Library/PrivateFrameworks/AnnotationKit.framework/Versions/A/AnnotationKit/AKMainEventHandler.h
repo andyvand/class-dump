@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAlignmentGuideController, AKAnnotation, AKAnnotationEventHandler, AKController, AKPageController, NSEvent, NSString;
-
 @interface AKMainEventHandler
 {
     _Bool _mainEventHandlerIsInTrackingLoop;
-    _Bool _mainEventHandlerIsInDoodleTrackingLoop;
-    _Bool _mainEventHandlerIsInRotationLoop;
-    _Bool _shouldEatNextLeftMouseUp;
-    _Bool _shouldEatNextRightMouseUp;
-    _Bool _dragDidCopySelectedAnnotations;
-    _Bool _undoManagerWasGroupingByEvent;
-    _Bool _wasSelectedByLongPressRecognizer;
-    AKAnnotationEventHandler *_annotationEventHandler;
-    unsigned long long _currentModifierFlags;
-    AKPageController *_dragPageController;
-    AKAlignmentGuideController *_dragAlignmentGuideController;
-    double _draggedAnnotationsMaxLeftEdge;
-    double _draggedAnnotationsMinRightEdge;
-    double _draggedAnnotationsMaxBottomEdge;
-    double _draggedAnnotationsMinTopEdge;
-    NSEvent *_lastEventWithValidLocationForAutoscroll;
-    NSEvent *_lastLeftMouseDownEvent;
-    AKAnnotation *_annotationToBeginEditingOnDragEnd;
-    AKController *_controller;
-    struct CGPoint _leftMouseDownPoint;
-    struct CGPoint _lastDragPoint;
-    struct CGPoint _lastDragActualLocation;
-    struct CGPoint _lastDragActualLocationInWindow;
-    struct CGPoint _firstDragPoint;
-    struct CGPoint _panGestureStartPointInWindow;
 }
 
 + (id);
@@ -47,6 +20,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,8 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
@@ -78,12 +51,12 @@
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -92,7 +65,7 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (double);
 - (id);
 - (_Bool);
@@ -118,44 +91,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)checkForPermissions:onDocument:windowForSheet: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) AKAnnotationEventHandler *annotationEventHandler; // @synthesize annotationEventHandler=_annotationEventHandler;
-@property __weak AKAnnotation *annotationToBeginEditingOnDragEnd; // @synthesize annotationToBeginEditingOnDragEnd=_annotationToBeginEditingOnDragEnd;
-@property __weak AKController *controller; // @synthesize controller=_controller;
-@property unsigned long long currentModifierFlags; // @synthesize currentModifierFlags=_currentModifierFlags;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) AKAlignmentGuideController *dragAlignmentGuideController; // @synthesize dragAlignmentGuideController=_dragAlignmentGuideController;
-@property _Bool dragDidCopySelectedAnnotations; // @synthesize dragDidCopySelectedAnnotations=_dragDidCopySelectedAnnotations;
-@property(retain) AKPageController *dragPageController; // @synthesize dragPageController=_dragPageController;
-@property double draggedAnnotationsMaxBottomEdge; // @synthesize draggedAnnotationsMaxBottomEdge=_draggedAnnotationsMaxBottomEdge;
-@property double draggedAnnotationsMaxLeftEdge; // @synthesize draggedAnnotationsMaxLeftEdge=_draggedAnnotationsMaxLeftEdge;
-@property double draggedAnnotationsMinRightEdge; // @synthesize draggedAnnotationsMinRightEdge=_draggedAnnotationsMinRightEdge;
-@property double draggedAnnotationsMinTopEdge; // @synthesize draggedAnnotationsMinTopEdge=_draggedAnnotationsMinTopEdge;
-@property struct CGPoint firstDragPoint; // @synthesize firstDragPoint=_firstDragPoint;
-@property(readonly) unsigned long long hash;
-@property struct CGPoint lastDragActualLocation; // @synthesize lastDragActualLocation=_lastDragActualLocation;
-@property struct CGPoint lastDragActualLocationInWindow; // @synthesize lastDragActualLocationInWindow=_lastDragActualLocationInWindow;
-@property struct CGPoint lastDragPoint; // @synthesize lastDragPoint=_lastDragPoint;
-@property(retain) NSEvent *lastEventWithValidLocationForAutoscroll; // @synthesize lastEventWithValidLocationForAutoscroll=_lastEventWithValidLocationForAutoscroll;
-@property(retain) NSEvent *lastLeftMouseDownEvent; // @synthesize lastLeftMouseDownEvent=_lastLeftMouseDownEvent;
-@property struct CGPoint leftMouseDownPoint; // @synthesize leftMouseDownPoint=_leftMouseDownPoint;
-@property _Bool mainEventHandlerIsInDoodleTrackingLoop; // @synthesize mainEventHandlerIsInDoodleTrackingLoop=_mainEventHandlerIsInDoodleTrackingLoop;
-@property _Bool mainEventHandlerIsInRotationLoop; // @synthesize mainEventHandlerIsInRotationLoop=_mainEventHandlerIsInRotationLoop;
-@property _Bool mainEventHandlerIsInTrackingLoop; // @synthesize mainEventHandlerIsInTrackingLoop=_mainEventHandlerIsInTrackingLoop;
-@property struct CGPoint panGestureStartPointInWindow; // @synthesize panGestureStartPointInWindow=_panGestureStartPointInWindow;
 @property _Bool shouldEatNextLeftMouseUp; // @synthesize shouldEatNextLeftMouseUp=_shouldEatNextLeftMouseUp;
-@property _Bool shouldEatNextRightMouseUp; // @synthesize shouldEatNextRightMouseUp=_shouldEatNextRightMouseUp;
-@property(readonly) Class superclass;
-@property _Bool undoManagerWasGroupingByEvent; // @synthesize undoManagerWasGroupingByEvent=_undoManagerWasGroupingByEvent;
-@property _Bool wasSelectedByLongPressRecognizer; // @synthesize wasSelectedByLongPressRecognizer=_wasSelectedByLongPressRecognizer;
 
 @end
 

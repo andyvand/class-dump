@@ -15,24 +15,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
+- (id)Data"8;
 - (void);
+- (id)has %lu requesters;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ssionController>",W,V_client;
+- (void)PRSRankingItemAdditions_profileNumFollowers;
 - (void)aÐ!ÐCùQið1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *candidateAcceptedTrigger; // @synthesize candidateAcceptedTrigger=_candidateAcceptedTrigger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

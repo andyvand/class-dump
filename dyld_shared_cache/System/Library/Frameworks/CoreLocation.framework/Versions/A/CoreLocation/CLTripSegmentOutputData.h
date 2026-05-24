@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSUUID;
+@class NSUUID;
 
 @interface CLTripSegmentOutputData
 {
     _Bool _isFinalPart;
-    NSUUID *_tripSegmentID;
-    long long _modeOfTransport;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    double _duration_s;
-    double _distance_m;
-    double _distanceUnc_m;
-    NSArray *_tripLocations;
-    NSArray *_routeRoads;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (id);
 - (_Bool);
 - (id);
@@ -33,23 +24,14 @@
 - (double);
 - (double);
 - (long long);
-- (void);
+- (void)CreatePropertiesFromAppleMakerNote;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setObjectGlobalConstantsBase:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(nonatomic) double distanceUnc_m; // @synthesize distanceUnc_m=_distanceUnc_m;
-@property(nonatomic) double distance_m; // @synthesize distance_m=_distance_m;
-@property(nonatomic) double duration_s; // @synthesize duration_s=_duration_s;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) _Bool isFinalPart; // @synthesize isFinalPart=_isFinalPart;
-@property(readonly, nonatomic) long long modeOfTransport; // @synthesize modeOfTransport=_modeOfTransport;
-@property(readonly) NSArray *routeRoads; // @synthesize routeRoads=_routeRoads;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) NSArray *tripLocations; // @synthesize tripLocations=_tripLocations;
 @property(readonly) NSUUID *tripSegmentID; // @synthesize tripSegmentID=_tripSegmentID;
 
 @end

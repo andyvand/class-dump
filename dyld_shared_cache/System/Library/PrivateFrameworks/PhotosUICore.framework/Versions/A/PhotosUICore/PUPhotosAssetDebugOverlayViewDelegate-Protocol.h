@@ -5,5 +5,6 @@
 //
 
 @protocol PUPhotosAssetDebugOverlayViewDelegate
+- (long long);
 @end
 

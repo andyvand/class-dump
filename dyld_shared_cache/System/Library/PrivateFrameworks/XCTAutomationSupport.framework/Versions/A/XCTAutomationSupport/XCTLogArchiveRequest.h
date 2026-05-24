@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface XCTLogArchiveRequest
 {
     struct atomic_flag _hasExecuted;
-    NSDate *_startDate;
-    NSString *_outputPath;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -26,15 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *outputPath; // @synthesize outputPath=_outputPath;
-@property(readonly, copy) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
 
 @end
 

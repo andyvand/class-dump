@@ -9,7 +9,6 @@
 @interface CLFindMyAccessoryAbsoluteWildConfiguration
 {
     unsigned int _nextWildIndex;
-    NSDate *_desiredKeyRollDate;
 }
 
 + (_Bool);
@@ -17,15 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)555;
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSDate *desiredKeyRollDate; // @synthesize desiredKeyRollDate=_desiredKeyRollDate;
-@property(readonly) unsigned int nextWildIndex; // @synthesize nextWildIndex=_nextWildIndex;
 
 @end
 

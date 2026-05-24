@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol ACAccountStoreClientProtocol
+- (void)yAtOffset:(NSString *)arg1 withLength:] /* Error: Ran out of types for this method. */;
 @end
 

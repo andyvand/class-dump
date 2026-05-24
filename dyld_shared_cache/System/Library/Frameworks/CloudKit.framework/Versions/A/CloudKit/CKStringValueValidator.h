@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)Client;
+- (void)CKXPCContainerScopedClient;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *value; // @synthesize value=_value;

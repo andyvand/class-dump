@@ -11,10 +11,10 @@
 
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)setFragmentVisibleFunctionTable:(struct _NSZone *)arg1 atBufferIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long qualityReasonEnum; // @synthesize qualityReasonEnum=_qualityReasonEnum;

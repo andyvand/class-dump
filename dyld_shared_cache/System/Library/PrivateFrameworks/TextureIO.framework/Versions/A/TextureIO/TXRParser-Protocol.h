@@ -7,6 +7,8 @@
 @class TXRTextureInfo;
 
 @protocol TXRParser
++ (_Bool);
+- (TXRTextureInfo *);
 
 // Remaining properties
 @property(readonly, nonatomic) TXRTextureInfo *textureInfo;

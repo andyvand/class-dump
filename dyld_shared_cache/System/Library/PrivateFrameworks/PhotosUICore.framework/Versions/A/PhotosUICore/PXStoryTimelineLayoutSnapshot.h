@@ -9,24 +9,18 @@
 @interface PXStoryTimelineLayoutSnapshot
 {
     id <PXStoryTimeline> _timeline;
-    CDStruct_2bd92d94 _clipCornerRadius;
-    struct CGRect _timelineRect;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (struct CGRect);
 - (id);
-- (CDStruct_2bd92d94);
-- (id);
+- (CDStruct_c2259bfa);
+- (id);
 - (id)trollerPresentationDelegateP;
 - (CDStruct_e83c9415)tCurrentSkimmingIndex:] /* Error: Ran out of types for this method. */;
 - (void)deOneUpInsetMode;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_2bd92d94 clipCornerRadius; // @synthesize clipCornerRadius=_clipCornerRadius;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 @property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
-@property(readonly, nonatomic) struct CGRect timelineRect; // @synthesize timelineRect=_timelineRect;
 
 @end
 

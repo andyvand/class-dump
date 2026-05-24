@@ -8,9 +8,6 @@
 {
     id _locale;
     id _$scope;
-    id unitManager;
-    id task;
-    id state;
 }
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, AKAccountManager, CDPContext, NSString;
+@class ACAccount, ACAccountStore;
 
 @interface CDPAccountRepresentation
 {
     ACAccount *_appleAccount;
-    ACAccount *_authKitAccount;
-    NSString *_altDSID;
-    ACAccountStore *_accountStore;
-    AKAccountManager *_accountManager;
 }
 
 + (id);
@@ -32,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)p";
 - (id);
 - (id);
 - (id);
@@ -54,31 +50,11 @@
 - (void);
 - (void);
 - (id);
-- (id)etAppleID: /* Error: Ran out of types for this method. */;
-- (id)bationDuration;
+- (id)setAppleID: /* Error: Ran out of types for this method. */;
+- (id)_rpdProbationDuration;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *DSID;
-@property(retain, nonatomic) AKAccountManager *accountManager; // @synthesize accountManager=_accountManager;
 @property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly, nonatomic) ACAccount *authKitAccount; // @synthesize authKitAccount=_authKitAccount;
-@property(readonly, copy, nonatomic) NSString *authenticationToken;
-@property(readonly, copy, nonatomic) NSString *escrowURLString;
-@property(readonly, copy, nonatomic) NSString *firstName;
-@property(readonly, copy, nonatomic) NSString *fullName;
-@property(readonly, copy, nonatomic) CDPContext *generatedContext;
-@property(readonly, copy, nonatomic) NSString *iCloudEnvironment;
-@property(readonly, nonatomic) _Bool isBeneficiary;
-@property(readonly, nonatomic) _Bool isICDPEnabled;
-@property(readonly, nonatomic) _Bool isSilentBurnCDPRepairEnabled;
-@property(readonly, nonatomic) _Bool isSilentEscrowRecordRepairEnabled;
-@property(readonly, nonatomic) _Bool isSilentEscrowRecordRepairEnabledV2;
-@property(readonly, nonatomic) unsigned long long securityLevel;
-@property(readonly, nonatomic) _Bool shouldPerformSilentEscrowRecordRepair;
-@property(readonly, copy, nonatomic) NSString *stashedPRK;
-@property(readonly, copy, nonatomic) NSString *username;
 
 @end
 

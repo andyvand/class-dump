@@ -7,52 +7,6 @@
 @interface NewsUI2.TagFeedGroupKnobs
 {
     id promotedArticleListKnobs;
-    id paywallKnobs;
-    id issueListKnobs;
-    id articleListKnobs;
-    id curatedKnobs;
-    id channelSectionGroupKnobs;
-    id channelSectionDirectoryGroupKnobs;
-    id mySportsTopicKnobs;
-    id sportsScoresKnobs;
-    id sportsScoresCondensedKnobs;
-    id sportsStandingsKnobs;
-    id sportsBracketKnobs;
-    id sportsBoxScoresKnobs;
-    id sportsEventInfoKnobs;
-    id sportsEventLiveStreamKnobs;
-    id sportsInjuryReportsKnobs;
-    id sportsKeyPlayersKnobs;
-    id sportsEventArticlesKnobs;
-    id sportsRecordKnobs;
-    id sportsNavigationKnobs;
-    id sportsScheduleKnobs;
-    id sportsLinksKnobs;
-    id sportsTopStoriesKnobs;
-    id sportsFavoritesKnobs;
-    id weatherKnobs;
-    id highlightsKnobs;
-    id forYouKnobs;
-    id recentStoriesKnobs;
-    id dateRangeKnobs;
-    id sportsMastheadKnobs;
-    id sportsEventTopicKnobs;
-    id sportsOnboardingKnobs;
-    id puzzleListKnobs;
-    id puzzleArchiveKnobs;
-    id puzzleContinuePlayingKnobs;
-    id puzzleFeaturedKnobs;
-    id puzzleFullArchiveKnobs;
-    id puzzleScoreboardKnobs;
-    id affinityKnobs;
-    id sponsoredSuperfeedKnobs;
-    id channelRecipesKnobs;
-    id forYouRecipesKnobs;
-    id latestRecipesKnobs;
-    id recentlyViewedRecipesKnobs;
-    id savedRecipesKnobs;
-    id trendingRecipesKnobs;
-    id topicRecipesKnobs;
 }
 
 @end

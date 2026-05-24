@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateProfile, HMDAccessoryFirmwareUpdateSession, HMDHAPAccessory, NSObject, NSString;
-@protocol OS_xpc_object;
+@class HMDAccessoryFirmwareUpdateSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateTask
 {
     double _initialDelay;
-    HMDAccessoryFirmwareUpdateSession *_session;
-    HMDAccessoryFirmwareUpdateProfile *_profile;
 }
 
 + (id)vC;
 - (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)acteristicRangeEventWithDatabaseID:error: /* Error: Ran out of types for this method. */;
+- (id)findCharacteristicRangeEventWithDatabaseID:error: /* Error: Ran out of types for this method. */;
 - (id):%@  name:%@  uuid:%@  parent uuid:%@ type:%@> /* Error: Ran out of types for this method. */;
 - (double)äËÿ0;
 - (void)Äþ	J=;
 - (void)ØùÿKM;
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory;
-@property(readonly) long long accessoryActiveTransport;
-@property(readonly) NSObject<OS_xpc_object> *criteria;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double initialDelay; // @synthesize initialDelay=_initialDelay;
-@property(readonly) __weak HMDAccessoryFirmwareUpdateProfile *profile; // @synthesize profile=_profile;
 @property(readonly) __weak HMDAccessoryFirmwareUpdateSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) _Bool shouldRun;
-@property(readonly) _Bool shouldRunOnCurrentDevice;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isUserInitiated) _Bool userInitiated;
 
 @end
 

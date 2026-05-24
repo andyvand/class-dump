@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaGroupSource
 {
     NSUUID *_accessoryUniqueIdentifier;
-    NSString *_deviceIdentifier;
-    NSUUID *_homeTheaterIdentifier;
-    NSUUID *_roomIdentifier;
-    NSString *_roomName;
 }
 
-+ (_Bool);
++ (_Bool)VCCommand;
 - (id);
 - (id);
 - (id);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)wrongful;
 - (void);
 - (id);
 - (id);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUniqueIdentifier; // @synthesize accessoryUniqueIdentifier=_accessoryUniqueIdentifier;
-@property(readonly, copy) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, copy) NSUUID *homeTheaterIdentifier; // @synthesize homeTheaterIdentifier=_homeTheaterIdentifier;
-@property(readonly, copy) NSUUID *roomIdentifier; // @synthesize roomIdentifier=_roomIdentifier;
-@property(readonly, copy) NSString *roomName; // @synthesize roomName=_roomName;
 
 @end
 

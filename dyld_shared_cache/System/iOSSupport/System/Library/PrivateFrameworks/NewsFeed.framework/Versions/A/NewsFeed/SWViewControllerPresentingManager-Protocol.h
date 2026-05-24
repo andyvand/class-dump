@@ -7,6 +7,7 @@
 @class UIViewController;
 
 @protocol SWViewControllerPresentingManager
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *presentingViewController;

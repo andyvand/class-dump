@@ -9,10 +9,11 @@
 }
 
 - (id);
+- (void)numberWithShort:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)Set magic cookie [%{ptr}] for hose [%{ptr}] with magicCookieID:0x%llx
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

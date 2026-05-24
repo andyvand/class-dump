@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, INImage, NSString;
+@class CLLocation, NSString;
 
 @protocol INRideVehicleExport
+- (id)W;
 - (CLLocation *)%Ð!DBù¾(1Â0@ù
 × ;
 - (NSString *);
@@ -14,9 +15,5 @@
 
 // Remaining properties
 @property(copy) CLLocation *location;
-@property(copy) NSString *manufacturer;
-@property(copy) INImage *mapAnnotationImage;
-@property(copy) NSString *model;
-@property(copy) NSString *registrationPlate;
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HAL_DSP_IOProcessor;
+
 @protocol HAL_DSP_Factory
+- (id <HAL_DSP_IOProcessor>);
 @end
 

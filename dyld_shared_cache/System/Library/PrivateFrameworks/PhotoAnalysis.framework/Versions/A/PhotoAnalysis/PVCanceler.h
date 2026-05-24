@@ -7,7 +7,6 @@
 @interface PVCanceler
 {
     _Bool _canceled;
-    CDUnknownBlockType _updateBlock;
 }
 
 + (id);
@@ -15,11 +14,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)llback:error: /* Error: Ran out of types for this method. */;
+- (void)doTrainingOnData:forNumberOfEpochs:withCallback:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

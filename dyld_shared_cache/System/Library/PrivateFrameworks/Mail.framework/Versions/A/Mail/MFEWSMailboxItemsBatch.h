@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSString;
+@class NSString;
 
 @interface MFEWSMailboxItemsBatch
 {
     _Bool _isFinalBatch;
-    NSString *_initialSyncState;
-    NSString *_finalSyncState;
-    NSMapTable *_createdOrUpdatedItemIDsByType;
-    NSArray *_deletedItemIDs;
-    NSDictionary *_readFlagChangesByItemID;
-    NSDictionary *_fetchedItemsByID;
-    NSArray *_addedMessages;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -32,20 +25,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)<;
+- (id)WebAPIsInShadowRealmEnabled;
 - (id);
 - (void)¤;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *addedMessages; // @synthesize addedMessages=_addedMessages;
-@property(copy, nonatomic) NSMapTable *createdOrUpdatedItemIDsByType; // @synthesize createdOrUpdatedItemIDsByType=_createdOrUpdatedItemIDsByType;
-@property(copy, nonatomic) NSArray *deletedItemIDs; // @synthesize deletedItemIDs=_deletedItemIDs;
-@property(copy, nonatomic) NSDictionary *fetchedItemsByID; // @synthesize fetchedItemsByID=_fetchedItemsByID;
-@property(copy, nonatomic) NSString *finalSyncState; // @synthesize finalSyncState=_finalSyncState;
 @property(copy, nonatomic) NSString *initialSyncState; // @synthesize initialSyncState=_initialSyncState;
-@property(nonatomic) _Bool isFinalBatch; // @synthesize isFinalBatch=_isFinalBatch;
-@property(copy, nonatomic) NSDictionary *readFlagChangesByItemID; // @synthesize readFlagChangesByItemID=_readFlagChangesByItemID;
 
 @end
 

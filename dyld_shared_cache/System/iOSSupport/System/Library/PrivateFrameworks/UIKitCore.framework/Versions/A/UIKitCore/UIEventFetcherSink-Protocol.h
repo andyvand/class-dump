@@ -5,6 +5,6 @@
 //
 
 @protocol UIEventFetcherSink
-- (void)ge;
+- (void)_shouldInvalidateTraitCollectionForSemanticContentAttributeChange;
 @end
 

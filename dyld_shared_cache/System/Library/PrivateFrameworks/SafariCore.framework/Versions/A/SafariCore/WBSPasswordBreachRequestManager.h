@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSURLSession, WBSPasswordBreachContext;
+@class WBSPasswordBreachContext;
 
 @interface WBSPasswordBreachRequestManager
 {
     WBSPasswordBreachContext *_context;
-    NSURLSession *_session;
-    NSOperationQueue *_fetchOperationQueue;
 }
 
 - (void);

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSTextField, UINSInputAlternativesEducationViewController;
+@class NSButton, UINSInputAlternativesEducationViewController;
 
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleOnboardingController
 {
     UINSInputAlternativesEducationViewController *_educationViewController;
-    NSButton *_okButton;
-    NSTextField *_titleLabel;
-    NSTextField *_subtitleLabel;
 }
 
 - (id);
@@ -31,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *moduleClasses;
 @property NSButton *okButton; // @synthesize okButton=_okButton;
-@property(nonatomic) _Bool showAllOnboarding;
-@property NSTextField *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

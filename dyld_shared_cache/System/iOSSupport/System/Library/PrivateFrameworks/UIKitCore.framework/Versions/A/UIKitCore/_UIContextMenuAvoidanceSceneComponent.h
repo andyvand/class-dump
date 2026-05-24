@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIScene, _UIAssertionController;
+@class NSMutableDictionary;
 
 @interface _UIContextMenuAvoidanceSceneComponent
 {
     unsigned long long _assertionID;
-    UIScene *_scene;
-    NSMutableDictionary *_avoidanceRects;
-    _UIAssertionController *_assertionController;
 }
 
 + (id)1Â0@ù
 × ;
-- (void);
+- (void)interestingProtectionClasses;
+- (id);
 - (id);
-- (id);
-- (struct UIEdgeInsets);
-- (unsigned long long);
+- (struct UIEdgeInsets)existing message:(id)arg1 %@ similar to:%@   (Skip Services:%@   Skip GUIDs:%@   Within Time Interval:%f) /* Error: Ran out of types for this method. */;
+- (unsigned long long)updating record ID for previously handled nickname %@;
 - (id);
 - (_Bool);
 - (void)greater than zero or UITableViewAutomaticDimension.;
@@ -30,16 +27,7 @@
 - (void) a;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) _UIAssertionController *assertionController; // @synthesize assertionController=_assertionController;
 @property(readonly, nonatomic) NSMutableDictionary *avoidanceRects; // @synthesize avoidanceRects=_avoidanceRects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,44 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaIFError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    long long _code;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
-- (_Bool);
+- (_Bool)eer %'@ from legacyPeers array
+;
 - (void);
-- (unsigned long long);
+- (unsigned long long)pringboard,V_hiddenFromSpringboard;
+- (_Bool)never;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)gRef *, int64_t *, CFStringRef *, CFStringRef *, int64_t *, int64_t *, int64_t *, int64_t *, int64_t *);
 - (id);
 - (id);
 - (id)!EùQÝÐ1Â0@ù
 × ;
-- (id)eCheckerHSThreshold;
-- (id)edCategories;
+- (id)deleteCheckerHSThreshold;
+- (id)_denyListedCategories;
 - (long long)ä7h8pA;
 - (void)ClientEventV2.MTTranslationTTSPlayed;
 - (void)ference.INFERENCEClientEvent;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

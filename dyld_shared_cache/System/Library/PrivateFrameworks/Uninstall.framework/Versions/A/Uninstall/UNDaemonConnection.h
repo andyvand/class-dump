@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMachPort, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
+@class NSMachPort;
 
 @interface UNDaemonConnection
 {
     NSMachPort *serverPort;
-    NSMachPort *servicePort;
-    NSMachPort *statusPort;
-    NSMutableDictionary *requestLookup;
-    NSObject<OS_dispatch_source> *inSource;
-    NSObject<OS_dispatch_source> *outSource;
-    _Bool inShutdown;
 }
 
 + (id);

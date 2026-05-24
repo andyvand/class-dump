@@ -4,75 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, MRExternalDeviceTransportConnection, MRSupportedProtocolMessages, MSVMessageParser, NSError, NSMutableDictionary, NSObject, NSString;
-@protocol MRProtocolClientConnectionDelegate, OS_dispatch_queue;
+@class MRExternalDeviceTransportConnection, NSError;
 
 @interface MRProtocolClientConnection
 {
     MRExternalDeviceTransportConnection *_connection;
-    MSVMessageParser *_parser;
-    unsigned long long _firstClientNanoseconds;
-    unsigned long long _firstDeviceTicks;
-    MRDeviceInfo *_deviceInfo;
-    MRSupportedProtocolMessages *_supportedMessages;
-    NSMutableDictionary *_pendingReplyQueue;
-    _Bool _disconnected;
-    NSString *_label;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSError *_error;
-    id <MRProtocolClientConnectionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_sendQueue;
 }
 
+- (void)	@9;
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)SView"40@0:8@"NSCollectionView"16@"NSString"24@"NSIndexPath"32 /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)IMCoreSpotlightIndexReasonPermanentDeletion;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void)dNotPauseIfLastDeviceRemoved:(id)arg1;
+- (void)setHasShouldNotPauseIfLastDeviceRemoved:(id)arg1;
 - (void)tiesMessage;
 - (void)nts;
 
 // Remaining properties
-@property(readonly, nonatomic) MRExternalDeviceTransportConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MRProtocolClientConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MRDeviceInfo *deviceInfo;
-@property(readonly, nonatomic) _Bool disconnected; // @synthesize disconnected=_disconnected;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isValid;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *sendQueue; // @synthesize sendQueue=_sendQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MRSupportedProtocolMessages *supportedMessages;
 
 @end
 

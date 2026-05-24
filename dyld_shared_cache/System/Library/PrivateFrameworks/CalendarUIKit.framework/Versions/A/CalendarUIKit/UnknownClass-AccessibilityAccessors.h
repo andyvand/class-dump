@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (AccessibilityAccessors)
-+ (id)è@ùhê©{ò©vÞ©x"9ý{K©ôOJ©öWI©ø_H©úgG©üoF©ÿÿ_Ö©ÿÿv!`P	;
-+ (id)A;
-+ (_Bool)ð!;
-+ (_Bool)èkB©è;
-+ (void)B©è'©èÃ@9è;
++ (id);
++ (id);
++ (_Bool);
++ (_Bool);
++ (void);
 @end
 

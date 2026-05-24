@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSessionResult, CalculateUnitsTrie, NSArray, NSDictionary, NSMutableSet, NSObject, NSSet;
-@protocol CHCalculateDocumentProvider, CHRecognitionSessionTaskDelegate, CHStrokeProvider, OS_dispatch_queue;
+@class CHRecognitionSessionResult, NSMutableSet;
 
 @interface CHRecognitionSessionTask
 {
     NSMutableSet *_intermediateDeclaredVariables;
-    struct SymbolTokenPropertiesHelper _tokenPropertiesHelper;
-    NSDictionary *_cachedRecognitionResultsFromPostProcessing;
-    _Bool _cancelled;
-    _Bool _isHighResponsivenessTask;
-    _Bool _disableMathTextSwapping;
-    _Bool _leverageAllProvidedVariables;
-    _Bool _saveInputDrawings;
-    _Bool _strokeGroupingOnly;
-    _Bool _allowContributionToStyle;
-    _Bool _wantsAutoRefine;
-    CHRecognitionSessionResult *_inputResult;
-    long long _status;
-    id <CHRecognitionSessionTaskDelegate> _delegate;
-    long long _sessionMode;
-    NSArray *_recognitionLocales;
-    NSArray *_preferredLocales;
-    id <CHStrokeProvider> _strokeProvider;
-    id <CHCalculateDocumentProvider> _calculateDocumentProvider;
-    CHRecognitionSessionResult *_outputResult;
-    long long _recognitionEnvironment;
-    long long _strokeGroupingRequirement;
-    long long _principalLineRequirement;
-    NSDictionary *_recognitionOptions;
-    NSSet *_forceRecognitionStrokeGroupIdentifiers;
-    NSObject<OS_dispatch_queue> *__recognizersQueue;
-    NSArray *_subjectStrokeIdentifiers;
-    CDUnknownBlockType _partialResultBlock;
-    CalculateUnitsTrie *_unitsTrie;
 }
 
 + (_Bool);
@@ -73,38 +44,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)_fetchIntersectedStrokesForGeometricBasedStrokeClusteringBetweenPoint:otherPoint:visibleStrokes:completion: /* Error: Ran out of types for this method. */;
+- (long long)(;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CHCalculateDocumentProvider> calculateDocumentProvider; // @synthesize calculateDocumentProvider=_calculateDocumentProvider;
-@property(readonly) _Bool cancelled;
-@property(nonatomic) id <CHRecognitionSessionTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool disableMathTextSwapping; // @synthesize disableMathTextSwapping=_disableMathTextSwapping;
-@property(copy, nonatomic) NSSet *forceRecognitionStrokeGroupIdentifiers; // @synthesize forceRecognitionStrokeGroupIdentifiers=_forceRecognitionStrokeGroupIdentifiers;
 @property(readonly, nonatomic) CHRecognitionSessionResult *inputResult; // @synthesize inputResult=_inputResult;
-@property(readonly, nonatomic) _Bool isHighResponsivenessTask; // @synthesize isHighResponsivenessTask=_isHighResponsivenessTask;
-@property(readonly, nonatomic) _Bool isNonRecognitionTask;
-@property(nonatomic) _Bool leverageAllProvidedVariables; // @synthesize leverageAllProvidedVariables=_leverageAllProvidedVariables;
-@property(readonly, nonatomic) CHRecognitionSessionResult *outputResult; // @synthesize outputResult=_outputResult;
-@property(readonly, copy, nonatomic) NSArray *preferredLocales; // @synthesize preferredLocales=_preferredLocales;
-@property(readonly, nonatomic) long long principalLineRequirement; // @synthesize principalLineRequirement=_principalLineRequirement;
-@property(readonly, nonatomic) long long recognitionEnvironment; // @synthesize recognitionEnvironment=_recognitionEnvironment;
-@property(readonly, copy, nonatomic) NSArray *recognitionLocales; // @synthesize recognitionLocales=_recognitionLocales;
-@property(readonly, nonatomic) NSDictionary *recognitionOptions; // @synthesize recognitionOptions=_recognitionOptions;
-@property(nonatomic) _Bool saveInputDrawings; // @synthesize saveInputDrawings=_saveInputDrawings;
-@property(readonly, nonatomic) long long sessionMode; // @synthesize sessionMode=_sessionMode;
-@property(readonly, nonatomic) long long status;
-@property(nonatomic) _Bool strokeGroupingOnly; // @synthesize strokeGroupingOnly=_strokeGroupingOnly;
-@property(readonly, nonatomic) long long strokeGroupingRequirement; // @synthesize strokeGroupingRequirement=_strokeGroupingRequirement;
-@property(readonly, nonatomic) id <CHStrokeProvider> strokeProvider; // @synthesize strokeProvider=_strokeProvider;
 
 @end
 

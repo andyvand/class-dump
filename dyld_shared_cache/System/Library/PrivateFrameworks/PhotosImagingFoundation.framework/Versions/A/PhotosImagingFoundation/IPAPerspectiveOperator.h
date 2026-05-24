@@ -9,9 +9,6 @@
 @interface IPAPerspectiveOperator : IPAGeometryOperator
 {
     double _xAngle;
-    double _yAngle;
-    double _dx;
-    double _dy;
 }
 
 + (id);

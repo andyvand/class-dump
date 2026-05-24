@@ -7,17 +7,6 @@
 @interface AppStoreKit.HeroCarouselItem
 {
     id artwork;
-    id video;
-    id collectionIcons;
-    id overlay;
-    id backgroundColor;
-    id titleEffect;
-    id editorialDisplayOptions;
-    id isMediaDark;
-    id clickAction;
-    id clickSender;
-    id id;
-    id impressionMetrics;
 }
 
 @end

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDMediaGroupStagingManagerDataSource, OS_dispatch_queue;
+@class NSUUID;
+@protocol HMDMediaGroupStagingManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupStagingManager
 {
     id <HMDMediaGroupStagingManagerDataSource> _dataSource;
-    NSUUID *_identifier;
-    HMFMessageDispatcher *_messageDispatcher;
 }
 
 + (id);
 + (id)è[;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)Z;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)radialGradientFilter;
 - (void);
 - (id);
 - (id);
@@ -33,25 +31,11 @@ __attribute__((visibility("hidden")))
 - (id)public}@Failed to get room for all destination parent identifiers:%@ to no data source /* Error: Ran out of types for this method. */;
 - (id)_t}.16P] Issuing get snapshot request for reason:%@ /* Error: Ran out of types for this method. */;
 - (void)KindOfClass:[NSManagedObject class]] /* Error: Ran out of types for this method. */;
-- (id)oteLoginAccount;
+- (id)kStagedRemoteLoginAccount;
 - (void)S@;
 
 // Remaining properties
-@property __weak id <HMDMediaGroupStagingManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioHardwareClock, NSArray, NSString;
+@class NSString;
 
 @interface AVAudioRouteTopology
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)viderConfiguration",&,V_filterConfiguration;
+- (void)V_flow;
+- (void)UIToggleEnabled;
+- (id)NEIKEv2DeleteChildContext;
+- (unsigned long long)NEIKEv2NewChildContext;
+- (id)NEIKEv2InitiatorIdentifierPayload;
+- (unsigned long long)NEIKEv2IdentifierPayload;
+- (id)NEIKEv2Listener;
+- (id)NEIKEv2SecurityContext;
+- (id)NEIKEv2KeyExchangeHandlerMODP;
+- (id)NEIKEv2InitiatorTransportIPv6Address;
+- (_Bool)NEExtensionAppPushProviderHostContext;
+- (void)NEExtensionDNSProxyProviderContext;
+- (void)#;
 - (id);
 - (id);
 - (void);
@@ -33,19 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *UID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long inputPolicy;
-@property(copy, nonatomic) NSArray *inputStreamTopologies;
-@property(retain, nonatomic) AVAudioHardwareClock *masterClock;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(nonatomic) unsigned long long outputPolicy;
-@property(copy, nonatomic) NSArray *outputStreamTopologies;
-@property(readonly) Class superclass;
 
 @end
 

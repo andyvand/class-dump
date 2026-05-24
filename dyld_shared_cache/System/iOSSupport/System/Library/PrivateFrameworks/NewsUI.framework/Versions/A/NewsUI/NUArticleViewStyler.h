@@ -9,20 +9,16 @@
 @interface NUArticleViewStyler
 {
     UIColor *_mainBackgroundColor;
-    UIColor *_topContentColor;
-    long long _statusBarStyle;
-    UIColor *_tabBarTintColor;
-    UIColor *_toolbarTintColor;
 }
 
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -32,12 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *mainBackgroundColor; // @synthesize mainBackgroundColor=_mainBackgroundColor;
-@property(readonly, nonatomic) long long statusBarStyle; // @synthesize statusBarStyle=_statusBarStyle;
 @property(retain, nonatomic) UIColor *tabBarTintColor; // @synthesize tabBarTintColor=_tabBarTintColor;
-@property(retain, nonatomic) UIColor *toolbarTintColor; // @synthesize toolbarTintColor=_toolbarTintColor;
-@property(readonly, nonatomic) long long topBackgroundStatusBarStyle;
-@property(readonly, nonatomic) UIColor *topContentColor; // @synthesize topContentColor=_topContentColor;
 
 @end
 

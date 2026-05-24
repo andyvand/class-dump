@@ -7,17 +7,15 @@
 #import <NewsCore/FCFetchOperation.h>
 
 @class NSArray;
-@protocol FCContentContext;
 
 @interface FCPurchaseLookupFetchOperation : FCFetchOperation
 {
     NSArray *_purchaseIDs;
-    id <FCContentContext> _contentContext;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)preferredLocalizationsFromArray:forPreferences: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -27,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
 @property(retain, nonatomic) NSArray *purchaseIDs; // @synthesize purchaseIDs=_purchaseIDs;
 
 @end

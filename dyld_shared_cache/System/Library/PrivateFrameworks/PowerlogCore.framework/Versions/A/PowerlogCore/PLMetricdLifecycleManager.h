@@ -13,9 +13,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%s Calendar data class is disabled in iCloud settings;
 - (_Bool);
-- (void)stogram;
+- (void)QDSPConfigCountHistogram;
 
 // Remaining properties
 @property _Bool isActive; // @synthesize isActive=_isActive;

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PXPlacesGeotaggable;
 
 @interface _PXPlacesImageCacheKey
 {
     id <PXPlacesGeotaggable> _geotaggable;
-    NSString *_key;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void)èÿ%±L÷þ±àÿ%±{ÿ;

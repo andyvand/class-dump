@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatCustomNode
 {
     id _identifier;
-    id name;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id animation;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id flex;
 }
 
 @end

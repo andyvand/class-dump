@@ -9,8 +9,6 @@
 @interface MediaPlaybackCore._CriticalSectionAssertion__priv_D1952812ADC71DAE08E6CF49EC227596
 {
     void name;
-    id onInvalidate;
-    id _invalid;
 }
 
 - (void);
@@ -21,7 +19,6 @@
 - (void)Resolved devices:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool invalidated;
 @property(nonatomic, readonly) NSString *name;
 
 @end

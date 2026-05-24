@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MABinaryAdjacency, NSObject, NSString, PGGraph, PGTitleGenerationContext;
-@protocol OS_os_log;
+@class PGGraph;
 
 @interface PGBusinessLocationFeatureSummarySource
 {
     PGGraph *_graph;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGTitleGenerationContext *_titleGenerationContext;
-    MABinaryAdjacency *_businessNodesByMomentNode;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)screenDescriberDidFinishDescribingElementsStartingFrom:(id)arg1 ofWindow:inDirection:readableContent: /* Error: Ran out of types for this method. */;
+- (id)screenBelowScreen:(id)arg1 closestToPoint: /* Error: Ran out of types for this method. */;
+- (id);
 - (void)/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerRecentHighlights.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

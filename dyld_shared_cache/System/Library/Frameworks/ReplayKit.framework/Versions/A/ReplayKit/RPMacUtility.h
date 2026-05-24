@@ -9,7 +9,6 @@
 @interface RPMacUtility
 {
     id _replayKitDelegate;
-    NSStatusItem *_recStatusItem;
 }
 
 - (void);
@@ -22,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)k;
 - (void);
 
 // Remaining properties

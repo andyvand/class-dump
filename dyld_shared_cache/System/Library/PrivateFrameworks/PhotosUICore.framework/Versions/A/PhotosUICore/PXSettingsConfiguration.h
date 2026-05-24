@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PXSettings;
+@class NSString;
 
 @interface PXSettingsConfiguration
 {
     NSString *_name;
-    PXSettings *_settings;
-    NSDictionary *_archive;
 }
 
 + (id);
@@ -29,9 +27,7 @@
 - (void)»;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *archive; // @synthesize archive=_archive;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) PXSettings *settings; // @synthesize settings=_settings;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, PHFetchResult;
-@protocol PXSharedLibrarySharingSuggestionsDataSourceDelegate;
+@class NSArray, NSMutableDictionary;
 
 @interface PXSharedLibrarySharingSuggestionsDataSource
 {
     NSMutableDictionary *_promiseByContainer;
-    NSArray *_containers;
-    NSDate *_aggregateBeforeDate;
-    PHFetchResult *_sharingSuggestions;
-    id <PXSharedLibrarySharingSuggestionsDataSourceDelegate> _delegate;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,16 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (long long)tShowSyncedFromMacAlbums: /* Error: Ran out of types for this method. */;
-- (id)NG_WITH_FULL_STOP_PHRASE_FORMAT;
+- (long long)setShowSyncedFromMacAlbums: /* Error: Ran out of types for this method. */;
+- (id)CLOUD_FEED_YOU_SAID_SOMETHING_WITH_FULL_STOP_PHRASE_FORMAT;
 - (long long)¤ÆÉÜ?;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *aggregateBeforeDate; // @synthesize aggregateBeforeDate=_aggregateBeforeDate;
 @property(readonly, nonatomic) NSArray *containers; // @synthesize containers=_containers;
-@property(nonatomic) __weak id <PXSharedLibrarySharingSuggestionsDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) PHFetchResult *sharingSuggestions; // @synthesize sharingSuggestions=_sharingSuggestions;
 
 @end
 

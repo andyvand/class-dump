@@ -9,27 +9,20 @@
 @interface TSUZipEntry
 {
     _Bool _compressed;
-    unsigned short _nameLength;
-    unsigned short _extraFieldLength;
-    unsigned int _CRC;
-    NSString *_name;
-    unsigned long long _size;
-    unsigned long long _compressedSize;
-    unsigned long long _offset;
 }
 
-- (void);
+- (void)featureAvailability;
 - (unsigned short);
 - (void);
 - (void);
 - (unsigned short);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)applicationType;
 - (void);
 - (void);
 - (_Bool);
@@ -38,14 +31,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;
-@property(nonatomic, getter=isCompressed) _Bool compressed; // @synthesize compressed=_compressed;
-@property(nonatomic) unsigned long long compressedSize; // @synthesize compressedSize=_compressedSize;
-@property(nonatomic) unsigned short extraFieldLength; // @synthesize extraFieldLength=_extraFieldLength;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned short nameLength; // @synthesize nameLength=_nameLength;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

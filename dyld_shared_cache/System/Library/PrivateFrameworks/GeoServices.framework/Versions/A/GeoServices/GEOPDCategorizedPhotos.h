@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCategorizedPhotos
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_categoryId;
-    NSMutableArray *_categoryNames;
-    NSMutableArray *_photos;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _photosAvailable;
-    struct {
-        unsigned int has_photosAvailable:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_categoryId:1;
-        unsigned int read_categoryNames:1;
-        unsigned int read_photos:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)cationInSplitterMode: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_	;
 - (_Bool);
 - (id);
 - (id)'Ð!@Aù±¸*ð1Â0@ù
 × ;
 - (id)k";
-- (id)al;
+- (id)_bytesDlTotal;
 - (id)Ø¬:´ ÜÀ:´äøÔ:´lûè:´ü:´t;´¬X;´<!;´ð";´ S¨;´È<´l<´è<´<<´ü0¨<´<B=´ÀQT=´_°=´Ü`Ä=´¼bØ=´hd>´¤ /* Error: Ran out of types for this method. */;
 - (void)÷ÿöÿôÿþÿúÿüÿýÿûÿA;
 

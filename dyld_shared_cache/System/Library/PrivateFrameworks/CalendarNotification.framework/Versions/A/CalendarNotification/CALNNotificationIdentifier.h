@@ -9,30 +9,26 @@
 @interface CALNNotificationIdentifier
 {
     NSString *_sourceIdentifier;
-    NSString *_sourceClientIdentifier;
-    NSString *_stringRepresentation;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)I;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)contentFontSize;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *sourceClientIdentifier; // @synthesize sourceClientIdentifier=_sourceClientIdentifier;
 @property(readonly, copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, copy, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
 
 @end
 

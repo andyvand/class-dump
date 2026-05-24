@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliFileTransferDescriptor, CTLazuliGroupChatUri, CTLazuliMessageID;
+@class CTLazuliMessageID;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendFileTransferMessageRequest : CTXPCSubscriptionContextRequest
@@ -22,14 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)condition not satisfying:%@ /* Error: Ran out of types for this method. */;
 - (int);
-- (id)ingsModelSaveCallBarringValue;
+- (id)kSettingsModelSaveCallBarringValue;
 
 // Remaining properties
-@property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
-@property(readonly, nonatomic) CTLazuliFileTransferDescriptor *lazuliDescriptor;
 @property(readonly, nonatomic) CTLazuliMessageID *messageID;
 
 @end

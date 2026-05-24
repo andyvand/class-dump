@@ -8,16 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _ICLLClientInfoAction
 {
     long long _participantId;
-    int _code;
-    struct {
-        unsigned int participantId:1;
-        unsigned int code:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol MapsSuggestionsInsightsUpdates, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface MapsSuggestionsRealInsights
 {
     struct Queue _queue;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_source> *_closeTimer;
-    id <MapsSuggestionsInsightsUpdates> _insightUpdatesDelegate;
 }
 
 - (void);
@@ -34,24 +28,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (BOOL);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)scopeBarVisualEffectsView;
+- (_Bool)",R,N,V_contentView;
 - (void);
 - (double);
 - (void)>";
 - (_Bool);
-- (id)ime;
+- (id)EndTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <MapsSuggestionsInsightsUpdates> insightUpdatesDelegate; // @synthesize insightUpdatesDelegate=_insightUpdatesDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

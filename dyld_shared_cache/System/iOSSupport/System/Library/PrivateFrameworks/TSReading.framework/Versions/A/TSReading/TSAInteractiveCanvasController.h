@@ -6,21 +6,19 @@
 
 #import <TSReading/TSWPInteractiveCanvasController.h>
 
-@class TSAAnnotationController, TSDDrawableInfo;
+@class TSDDrawableInfo;
 
 @interface TSAInteractiveCanvasController : TSWPInteractiveCanvasController
 {
     TSDDrawableInfo *mInfoBeingDragInserted;
-    _Bool _supportsAnnotations;
-    TSAAnnotationController *_annotationController;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)MPPlaybackQueueInsertionPosition;
 - (void);
 - (id);
 - (_Bool);
@@ -33,14 +31,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TSAAnnotationController *annotationController; // @synthesize annotationController=_annotationController;
 @property(retain, nonatomic) TSDDrawableInfo *infoBeingDragInserted; // @synthesize infoBeingDragInserted=mInfoBeingDragInserted;
-@property(readonly, nonatomic) _Bool supportsAnnotations; // @synthesize supportsAnnotations=_supportsAnnotations;
-@property(readonly, nonatomic) _Bool wantsCanvasReferenceController;
 
 @end
 

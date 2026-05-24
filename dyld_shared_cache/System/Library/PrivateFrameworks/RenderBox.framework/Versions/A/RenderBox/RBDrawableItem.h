@@ -9,16 +9,11 @@
 @interface RBDrawableItem
 {
     struct objc_ptr<RBDisplayList *> _list;
-    float _targetHeadroom;
-    int _initialState;
-    CDStruct_0b1c536a _clearColor;
-    CDStruct_67e7699a _destinationOffset;
-    CDStruct_5f3a0cd7 _sourceRect;
 }
 
 - (void);
 - (id);
-- (CDStruct_67e7699a);
+- (CDStruct_14f26992)%@;
 - (void);
 - (float);
 - (void);
@@ -26,19 +21,14 @@
 - (id);
 - (void);
 - (id);
-- (CDStruct_5f3a0cd7);
-- (CDStruct_0b1c536a);
-- (int);
+- (CDStruct_33dcf794);
+- (CDStruct_818bb265);
+- (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_0b1c536a clearColor; // @synthesize clearColor=_clearColor;
-@property(nonatomic) CDStruct_67e7699a destinationOffset; // @synthesize destinationOffset=_destinationOffset;
 @property(retain, nonatomic) id <RBDisplayListContents> displayList;
-@property(nonatomic) int initialState; // @synthesize initialState=_initialState;
-@property(nonatomic) CDStruct_5f3a0cd7 sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(nonatomic) float targetHeadroom; // @synthesize targetHeadroom=_targetHeadroom;
 
 @end
 

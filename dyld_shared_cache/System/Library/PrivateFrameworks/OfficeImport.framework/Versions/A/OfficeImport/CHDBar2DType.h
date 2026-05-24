@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CHDBar2DType : CHDChartTypeWithGrouping
 {
     int mGapWidth;
-    _Bool mColumn;
-    int mOverlap;
 }
 
 - (void);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)b;
 
 @end
 

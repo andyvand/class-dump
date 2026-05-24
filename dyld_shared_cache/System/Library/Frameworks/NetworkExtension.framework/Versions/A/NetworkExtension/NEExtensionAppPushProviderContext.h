@@ -6,16 +6,14 @@
 
 #import <NetworkExtension/NEExtensionProviderContext.h>
 
-@class NSString;
-
 @interface NEExtensionAppPushProviderContext : NEExtensionProviderContext
 {
 }
 
 + (id);
-+ (id);
++ (id)siCount"C"rssiMedian"c}];
 - (void);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
@@ -26,13 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

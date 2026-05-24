@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _MKMultiPartStringComponent
 {
     NSAttributedString *_attributedString;
-    struct _NSRange _originalRange;
-    struct _NSRange _range;
 }
 
-- (struct _NSRange);
+- (struct _NSRange)setMatchedTerms: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct _NSRange);
 - (void);
 - (id);
-- (void)mScale: /* Error: Ran out of types for this method. */;
+- (void)setMapZoomScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, nonatomic) struct _NSRange originalRange; // @synthesize originalRange=_originalRange;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

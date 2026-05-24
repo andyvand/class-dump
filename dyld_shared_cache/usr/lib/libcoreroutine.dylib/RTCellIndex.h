@@ -7,21 +7,19 @@
 @interface RTCellIndex
 {
     short _x;
-    short _y;
 }
 
-- (id);
+- (id)hannel",&,VmRFCOMMChannel;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)Ѫ;
+- (id)`;
 - (void);
 - (short)dTime:destinationType:destinationMapItem:lowPowerModeWarningState: /* Error: Ran out of types for this method. */;
 - (short)s submission error, %@;
 
 // Remaining properties
 @property(nonatomic) short x; // @synthesize x=_x;
-@property(nonatomic) short y; // @synthesize y=_y;
 
 @end
 

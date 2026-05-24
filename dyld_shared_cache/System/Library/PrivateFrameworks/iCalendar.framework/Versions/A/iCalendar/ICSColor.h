@@ -7,12 +7,10 @@
 @interface ICSColor
 {
     unsigned char _red;
-    unsigned char _green;
-    unsigned char _blue;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)C;
 + (_Bool);
 - (id);
 - (id);

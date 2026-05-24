@@ -7,28 +7,26 @@
 @interface CKCBCorecryptoECPoint
 {
     struct ccec_cp *_group;
-    struct ccec_affine_point *_point;
 }
 
++ (unsigned long long));
 + (unsigned long long);
-+ (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)(;
+- (id)qH;
 - (id);
 - (id);
 - (id);
+- (id)&;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct ccec_affine_point *);
 - (struct ccec_cp *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct ccec_cp *group; // @synthesize group=_group;
-@property(readonly, nonatomic) struct ccec_affine_point *point; // @synthesize point=_point;
 
 @end
 

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)NSURLSessionDelegateImplementsWillSendRequestForEstablishedConnectionKey;
+- (double)InternationalMobileEquipmentIdentity;
+- (void)DeviceDBVDependentVSHCompensationTraits;
+- (id)68eiAurB2LJ96Vz/CzaAcA;
 - (double);
-- (void);
 - (id);
-- (double);
-- (id);
-- (id);
+- (id)rementsChangedBlock called;
 - (id);
 - (_Bool);
 

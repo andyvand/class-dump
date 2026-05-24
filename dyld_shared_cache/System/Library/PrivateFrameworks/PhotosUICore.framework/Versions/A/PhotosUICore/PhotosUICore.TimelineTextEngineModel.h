@@ -7,21 +7,6 @@
 @interface PhotosUICore.TimelineTextEngineModel
 {
     id _spec;
-    id _isFrozen;
-    id _paused;
-    id _isCompactLandscape;
-    id _dataSource;
-    id _dataSourceIndex;
-    id _rowIndex;
-    id _rowTimer;
-    id _topRowOne;
-    id _topRowTwo;
-    id _bottomRowOne;
-    id _bottomRowTwo;
-    id _reduceMotion;
-    id signposter;
-    id logger;
-    id _$observationRegistrar;
 }
 
 @end

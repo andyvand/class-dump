@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SXDocument, SXImageController, SXJSONObjectMerger, SXMetadata, UIColor;
+@class NSString, SXJSONObjectMerger;
 
 @interface SXDocumentController
 {
     NSString *_shareURL;
-    NSArray *_additions;
-    SXDocument *_document;
-    SXJSONObjectMerger *_componentStyleMerger;
-    SXImageController *_imageController;
-    NSMutableDictionary *_componentStyles;
 }
 
 - (void);
@@ -21,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -41,30 +36,11 @@
 - (id);
 - (id);
 - (void)s"24;
-- (id)rePoint:withPoint:maxDelta: /* Error: Ran out of types for this method. */;
-- (id)ontentProvider;
+- (id)comparePoint:withPoint:maxDelta: /* Error: Ran out of types for this method. */;
+- (id)_textContentProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additions; // @synthesize additions=_additions;
 @property(readonly, nonatomic) SXJSONObjectMerger *componentStyleMerger; // @synthesize componentStyleMerger=_componentStyleMerger;
-@property(retain, nonatomic) NSMutableDictionary *componentStyles; // @synthesize componentStyles=_componentStyles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SXDocument *document; // @synthesize document=_document;
-@property(readonly, nonatomic) UIColor *documentBackgroundColor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXImageController *imageController; // @synthesize imageController=_imageController;
-@property(readonly, nonatomic) SXMetadata *metadata;
-@property(readonly, nonatomic) NSArray *orderedImageIdentifiers;
-@property(readonly, nonatomic) NSArray *requiredNonImageResourceURLs;
-@property(readonly, nonatomic) NSArray *requiredResourceURLs;
-@property(readonly, nonatomic) _Bool requiresLinkedContentForLayout;
-@property(readonly, nonatomic) NSString *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIColor *topBackgroundColor;
 
 @end
 

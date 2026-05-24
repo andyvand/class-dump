@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GRRSchemaGRRClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_grrId;
-    NSString *_resultCandidateId;
-    _Bool _hasGrrId;
-    _Bool _hasResultCandidateId;
 }
 
 - (void);
@@ -29,10 +26,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@"NSControl"16@"NSString"24@"NSString"32;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id):groupId:callerId:endDate:completion:when Share My Location is restricted /* Error: Ran out of types for this method. */;
 - (id)plicitUtterances"b1"explicitUtterances"b1"firstPassTriggers"b1"isJSEnabled"b1};
 - (id)NSArray",C,N,V_isGroupMessages;
 - (id);
@@ -40,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *grrId; // @synthesize grrId=_grrId;
-@property(nonatomic) _Bool hasGrrId; // @synthesize hasGrrId=_hasGrrId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

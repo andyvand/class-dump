@@ -7,9 +7,6 @@
 @interface TeaUI.KeyCommandBlock
 {
     id key;
-    id flags;
-    id title;
-    id block;
 }
 
 @end

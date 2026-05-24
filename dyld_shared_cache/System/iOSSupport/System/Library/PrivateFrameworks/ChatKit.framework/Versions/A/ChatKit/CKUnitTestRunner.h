@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMUnitTestRunner, NSFileHandle, NSString;
+@class IMUnitTestRunner;
 
 @interface CKUnitTestRunner
 {
     _Bool _shouldWrite;
-    IMUnitTestRunner *_runner;
-    NSFileHandle *_fileHandle;
 }
 
-+ (id)alloonView;
-- (_Bool);
++ (id)AggregateAcknowledgmentGradientBalloonView;
+- (_Bool)webView:stopURLSchemeTask: /* Error: Ran out of types for this method. */;
+- (void)initWithBottomLeft:(id)arg1 bottomRight:(_Bool)arg2 topLeft:topRight: /* Error: Ran out of types for this method. */;
+- (void)e;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)[Ð^ô^è_`;
-- (void)LE;
+- (void)CONTACT_DETAILS_TITLE;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) IMUnitTestRunner *runner; // @synthesize runner=_runner;
-@property(nonatomic) _Bool shouldWrite; // @synthesize shouldWrite=_shouldWrite;
-@property(readonly) Class superclass;
 
 @end
 

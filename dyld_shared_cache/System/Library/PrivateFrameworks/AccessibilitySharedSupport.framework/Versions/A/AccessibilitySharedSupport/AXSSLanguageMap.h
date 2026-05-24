@@ -4,53 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSDialectMap, NSArray, NSString;
-
 @interface AXSSLanguageMap
 {
     _Bool _western;
-    _Bool _rtl;
-    _Bool _ambiguous;
-    NSString *_generalLanguageID;
-    NSArray *_alternateLanguageIDs;
-    NSArray *_dialects;
-    NSArray *_associatedAmbiguousLanguages;
-    AXSSDialectMap *_defaultDialect;
-    AXSSDialectMap *_userLocaleDialect;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)|;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)ionQueue",R,&;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternateLanguageIDs; // @synthesize alternateLanguageIDs=_alternateLanguageIDs;
-@property(nonatomic, getter=isAmbiguous) _Bool ambiguous; // @synthesize ambiguous=_ambiguous;
-@property(retain, nonatomic) NSArray *associatedAmbiguousLanguages; // @synthesize associatedAmbiguousLanguages=_associatedAmbiguousLanguages;
-@property(retain, nonatomic) AXSSDialectMap *defaultDialect; // @synthesize defaultDialect=_defaultDialect;
-@property(retain, nonatomic) NSArray *dialects; // @synthesize dialects=_dialects;
-@property(copy, nonatomic) NSString *generalLanguageID; // @synthesize generalLanguageID=_generalLanguageID;
-@property(nonatomic, getter=isRTL) _Bool rtl; // @synthesize rtl=_rtl;
-@property(retain, nonatomic) AXSSDialectMap *userLocaleDialect; // @synthesize userLocaleDialect=_userLocaleDialect;
 @property(nonatomic, getter=isWestern) _Bool western; // @synthesize western=_western;
 
 @end

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSData *_eventValue;
 }
 
+- (id)_virtualReceiverName;
 - (id);
-- (id);
-- (void)equired;
+- (void)ReprovisionNotRequired;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *eventValue; // @synthesize eventValue=_eventValue;

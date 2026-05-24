@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDContactlessPaymentsRibbonItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _contactlessPayAmenityItemIndexs;
-    GEOLocalizedString *_ribbonText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_contactlessPayAmenityItemIndexs:1;
-        unsigned int read_ribbonText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
-- (id);
+- (id)_;
 - (void);
-- (id);
+- (id)oInjectionDevice",W,N,V_connectedDevice;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)anyField"b1};
-- (id)ollectionIdsFilter;
+- (id)_collectionIdsFilter;
 - (id)ÈðÄxLüät;
 - (void)üÿÿÿûÿÿÿýÿÿÿøÿÿÿòÿÿÿùÿÿÿñÿÿÿôÿÿÿóÿÿÿõÿÿÿþÿÿÿúÿÿÿõÿÿÿòÿÿÿôÿÿÿøÿÿÿöÿÿÿóÿÿÿñÿÿÿ÷ÿÿÿöÿÿÿäÿÿÿõÿÿÿæÿÿÿîÿÿÿúÿÿÿåÿÿÿñÿÿÿôÿÿÿëÿÿÿòÿÿÿèÿÿÿíÿÿÿâÿÿÿïÿÿÿùÿÿÿçÿÿÿøÿÿÿìÿÿÿãÿÿÿÞÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿßÿÿÿÿÿÿÿàÿÿÿÿÿÿÿ÷ÿÿÿðÿÿÿêÿÿÿóÿÿÿìÿÿÿòÿÿÿðÿÿÿñÿÿÿóÿÿÿîÿÿÿïÿÿÿíÿÿÿ;
 

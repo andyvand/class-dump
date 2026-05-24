@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, MFMessageCriterion;
-@protocol MFMessageConsumer;
+@class MFMessageCriterion;
 
 @protocol MFSearchableIndexQueryResultProvider
+- (MFMessageCriterion *);
 
 // Remaining properties
 @property(readonly, nonatomic) MFMessageCriterion *criterion;
-@property(readonly, nonatomic) EFFuture *gatheredFuture;
-@property(readonly, nonatomic) unsigned int options;
-@property(readonly, nonatomic) id <MFMessageConsumer> target;
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationProxy, LSApplicationWorkspace, NSString, UIImage;
+@class LSApplicationProxy, NSString;
 
 @interface CKAppInstallation
 {
     NSString *_bundleIdentifier;
-    LSApplicationProxy *_proxy;
-    UIImage *_icon;
-    double _percentComplete;
-    unsigned long long _installState;
-    double _startTime;
-    LSApplicationWorkspace *__applicationWorkspace;
 }
 
-- (id);
-- (id);
+- (id)e;
+- (id)leForNamedStyle:(id)arg1 ];
 - (id);
 - (void);
 - (_Bool);
@@ -29,27 +23,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
 - (id)
 × ;
-- (id)me;
+- (id)ckShouldUpdateentryViewAppButtonName;
 - (void);
 - (double)@¹0;
 
 // Remaining properties
-@property(readonly, nonatomic) LSApplicationWorkspace *_applicationWorkspace; // @synthesize _applicationWorkspace=__applicationWorkspace;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) UIImage *icon;
-@property(nonatomic) unsigned long long installState; // @synthesize installState=_installState;
-@property(readonly, nonatomic) _Bool installed;
-@property(readonly, nonatomic) NSString *localizedDisplayName;
-@property(nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(readonly, nonatomic) NSString *pluginBundleIdentifier;
 @property(retain, nonatomic) LSApplicationProxy *proxy;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface FigCaptureSessionParsedConfigurationRestrictions
 {
     _Bool _allowAllConfigurations;
-    NSArray *_allowedConnectionMediaTypes;
-    NSArray *_allowedConnectionMetadataIdentifiers;
 }
 
-- (id);
-- (void);
+- (id)mlNode}^{_xmlDoc}^{_xmlNs}*^{_xmlAttr}^{_xmlNs}^vSS}16B24@28@36@44;
+- (void)URLByDeletingLastPathComponent;
 - (id);
 - (_Bool);
 - (id);
@@ -22,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowAllConfigurations; // @synthesize allowAllConfigurations=_allowAllConfigurations;
-@property(readonly, nonatomic) NSArray *allowedConnectionMediaTypes; // @synthesize allowedConnectionMediaTypes=_allowedConnectionMediaTypes;
-@property(readonly, nonatomic) NSArray *allowedConnectionMetadataIdentifiers; // @synthesize allowedConnectionMetadataIdentifiers=_allowedConnectionMetadataIdentifiers;
 
 @end
 

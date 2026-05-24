@@ -6,19 +6,17 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INAddMediaIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)leDictionary",&,N,V_pendingGenerationRequests;
 + (int);
 + (long long);
-+ (_Bool);
++ (_Bool)_	;
 + (_Bool);
 - (void);
-- (id);
+- (id)@�?;
 - (_Bool);
 - (long long);
 - (id);
@@ -26,20 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)List=[%@], ;
 - (id);
 - (id);
-- (long long)atStringDictionary;
+- (long long)__INCodableAttributeDialogFormatStringDictionary;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

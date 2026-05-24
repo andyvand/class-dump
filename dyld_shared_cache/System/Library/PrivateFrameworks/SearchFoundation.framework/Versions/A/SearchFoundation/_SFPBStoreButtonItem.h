@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBStoreButtonItem
 {
     _Bool _shouldOpenAppAfterInstallCompletes;
-    int _identifierType;
-    NSString *_identifier;
-    unsigned long long _uniqueId;
 }
 
 - (_Bool);
@@ -20,13 +17,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)STDeviceActivityDataSourceInterface;
 - (int);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)setCloudPhotoLibraryPauseState:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (id)e handling for inserts, falling back to refetch, oid:%@ missing properties:%@ for query:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -34,18 +31,7 @@
 - (void)nd";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int identifierType; // @synthesize identifierType=_identifierType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldOpenAppAfterInstallCompletes; // @synthesize shouldOpenAppAfterInstallCompletes=_shouldOpenAppAfterInstallCompletes;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

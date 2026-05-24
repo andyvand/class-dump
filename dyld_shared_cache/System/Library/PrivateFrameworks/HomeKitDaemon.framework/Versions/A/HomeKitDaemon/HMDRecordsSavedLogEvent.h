@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id)@Validating matter command for path:(id)arg1 %@;
-- (id);
+- (id)MSPCompanionSyncedItem;
 
 @end
 

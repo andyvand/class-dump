@@ -9,20 +9,18 @@
 @interface SDPommesSynonyms
 {
     NSDictionary *firstPassSynonymDictionary;
-    NSDictionary *secondPassSynonymDictionary;
-    NSDictionary *dateSynonymDictionary;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)handleFetchManagedConfigurationProfiles: /* Error: Ran out of types for this method. */;
+- (void)handleFetchLogEvent: /* Error: Ran out of types for this method. */;
+- (id)handleExecutionCompletionWithResponsePayload:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)handleErrorCaseTestMessage:(id)arg1;
+- (id)handleEnterEvent:(id)arg1;
+- (id)handleDoorLockEventReport:(id)arg1 forAccessory:(id)arg2 flow:(_Bool *)arg3;
+- (_Bool)handleCreateCHIPSetupPayloadMessage:(id)arg1;
+- (void)handleConnectionActiveStateUpdatedNotification: /* Error: Ran out of types for this method. */;
+- (id)handleConnection:(id)arg1;
+- (id)beffertjes;
 - (void);
 
 @end

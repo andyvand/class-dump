@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBSportsSubscriptionRequestItem;
+@class _SFPBSportsSubscriptionRequestItem;
 
 @interface _SFPBDomainSubscriptionRequestItem
 {
     _SFPBSportsSubscriptionRequestItem *_sportsSubscriptionRequestItem;
-    unsigned long long _whichValue;
 }
 
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)H;
+- (id)libraryScopeScopeIdentifierWasCreatedInLocalOnlyMode:(id)arg1;
+- (id)ocalAvailabilityRequest] Invalid asset passed to initializer:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)setMoreText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBSportsSubscriptionRequestItem *sportsSubscriptionRequestItem; // @synthesize sportsSubscriptionRequestItem=_sportsSubscriptionRequestItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

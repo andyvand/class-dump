@@ -12,7 +12,7 @@
     UIView<EKUITintColorUpdateDelegate> *_tintColorUpdateDelegate;
 }
 
-- (void);
+- (void)P;
 - (id);
 - (void);
 

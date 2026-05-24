@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISGenerationReport, NSString;
+@class ISGenerationReport;
 
 @interface UnknownClass (GenerationReport)
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_addText:(id)arg1 currentPos:(_Bool)arg2 newPos:(id)arg3 offset:(id)arg4 query:(unsigned long long)arg5;
++ (id)URLWithString:(id)arg1;
++ (id)dispatch_queue>",&,N,V_completionQueue;
++ (id);
 - (void);
-- (id);
+- (id)setText: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) ISGenerationReport *generationReport;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 @end
 

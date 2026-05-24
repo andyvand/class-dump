@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (id);
-- (void)fNecessary: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)rawAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSData *data; // @synthesize data=_data;

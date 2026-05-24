@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact, _INPBCurrencyAmount, _INPBIntentMetadata, _INPBString;
+@class _INPBCurrencyAmount;
 
 @interface _INPBSendPaymentIntent
 {
     struct _has;
-    _INPBCurrencyAmount *_currencyAmount;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBString *_note;
-    _INPBContact *_payee;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,7 +20,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)X;
 - (id);
 - (void);
 - (unsigned long long);
@@ -36,24 +32,10 @@
 - (id);
 - (void);
 - (_Bool)_INPBString",&,N,V_fallbackUsername;
-- (void)r;
+- (void)ConditionalOperator;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCurrencyAmount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNote;
-@property(readonly, nonatomic) _Bool hasPayee;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBString *note; // @synthesize note=_note;
-@property(retain, nonatomic) _INPBContact *payee; // @synthesize payee=_payee;
-@property(readonly) Class superclass;
 
 @end
 

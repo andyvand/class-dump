@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NLModelConfiguration, NLModelImpl, NSData, NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NLModelConfiguration;
 
 @interface NLModel
 {
     NLModelConfiguration *_configuration;
-    NSDictionary *_infoDictionary;
-    NLModelImpl *_modelImpl;
-    NSData *_data;
-    MLModel *_mlModel;
-    void *_container;
-    NSObject<OS_dispatch_queue> *_clientQueue;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)anguageCode;
+- (_Bool)IPAddInputSourceSheet;
+- (_Bool)cannot include special characters.;
+- (id)String"8@"NSString"16;
 - (id);
 - (id);
 - (id);
@@ -40,9 +34,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)addCondition:(id)arg1;
+- (id)_originalResourceChoice;
 - (id);
 - (void);
 - (id);
@@ -51,7 +44,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)initWithData:(id)arg1 encoding:(id *)arg2;
 
 // Remaining properties
 @property(readonly, copy) NLModelConfiguration *configuration;

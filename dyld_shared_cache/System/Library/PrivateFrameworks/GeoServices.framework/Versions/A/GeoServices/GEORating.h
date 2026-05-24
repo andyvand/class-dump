@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEORating
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_uRL;
-    double _maxScore;
-    NSString *_provider;
-    NSString *_ratingCategoryId;
-    NSMutableArray *_reviews;
-    double _score;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _numberOfRatings;
-    int _numberOfReviews;
-    struct {
-        unsigned int has_maxScore:1;
-        unsigned int has_score:1;
-        unsigned int has_numberOfRatings:1;
-        unsigned int has_numberOfReviews:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_uRL:1;
-        unsigned int read_provider:1;
-        unsigned int read_ratingCategoryId:1;
-        unsigned int read_reviews:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
@@ -45,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)has_appDarkMode"b1"has_autocompleteOriginationEditingServerWaypoints"b1"has_autocompleteRequestSupportsSectionHeader"b1"has_deviceDarkMode"b1"has_deviceInVehicle"b1"has_isAPICall"b1"has_isCarplayScreenAttached"b1"has_isRefund"b1"has_isRoutePlanningEditStopFillRequest"b1"has_isSettlement"b1"has_isWidgetRequest"b1"has_isWithinHikingBoundary"b1"has_isWithinHikingBufferRegion"b1"has_navigating"b1"has_optimizeSearchRequestComponents"b1"has_searchEnrichmentIsOptInEnabled"b1"has_searchEnrichmentIsWarmingSheetTriggered"b1"has_searchOriginationEditingServerWaypoints"b1"has_supportAutocompleteGuideResults"b1"has_supportAutocompletePublisherResults"b1"has_supportChildItems"b1"has_supportClientRankingCompositeFeatures"b1"has_supportClientRankingFeatureMetadata"b1"has_supportDirectionIntentAutocomplete"b1"has_supportDirectionIntentSearch"b1"has_supportDymSuggestion"b1"has_supportStructuredRapAffordance"b1"has_supportUnresolvedDirectionIntent"b1"has_supportsBrandFallback"b1"has_wantsBrandIcon"b1"has_wantsRouteCreationTip"b1"read_unknownFields"b1"read_engineTypes"b1"read_knownClientResolvedTypes"b1"read_knownRefinementTypes"b1"read_preferredBrands"b1"read_supportedAutocompleteListTypes"b1"read_supportedAutocompleteResultCellTypes"b1"read_supportedChildActions"b1"read_supportedPlaceSummaryFormatTypes"b1"read_supportedSearchTierTypes"b1"read_transportTypes"b1"read_addStopRouteInfo"b1"read_analyticsAppIdentifier"b1"read_appIdentifier"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_autocompleteOriginationPreviousLatlng"b1"read_automobileOptions"b1"read_carHeadunitManufacturer"b1"read_carHeadunitModel"b1"read_currentLocaleCurrencySymbol"b1"read_cyclingOptions"b1"read_deviceLocation"b1"read_deviceDisplayLanguages"b1"read_deviceKeyboardLocale"b1"read_deviceSpokenLocale"b1"read_displayRegion"b1"read_evChargingPorts"b1"read_hardwareIdentifier"b1"read_historicalLocations"b1"read_mapRegion"b1"read_photoSizes"b1"read_previousSearchViewport"b1"read_privacyMetadata"b1"read_providerID"b1"read_recentAutocompleteSessionData"b1"read_resultRefinementQuery"b1"read_reviewUserPhotoSizes"b1"read_searchEnrichmentClientRequestId"b1"read_searchEnrichmentRoutingInfoData"b1"read_searchImplicitFilterInfo"b1"read_searchOriginationPreviousLatlng"b1"read_spotlightSearchPunchinEncodedString"b1"read_transitOptions"b1"read_transitScheduleFilter"b1"read_transitTripStopTimeFilter"b1"read_userActionMetadata"b1"read_venueIdentifier"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)leSpecific;
+- (id)departuresAreVehicleSpecific;
 - (id)À !@$;
 - (void)£äÕ9P@;
 

@@ -6,30 +6,18 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString, UIBezierPath, UIColor;
-
 @interface AKDoodleAnnotation : AKAnnotation
 {
     _Bool _dashed;
-    _Bool _hasShadow;
-    _Bool _pathIsPrestroked;
-    _Bool _pathIsDot;
-    double _rotationAngle;
-    double _strokeWidth;
-    UIColor *_strokeColorHDR;
-    UIColor *_strokeColorSDR;
-    long long _brushStyle;
-    UIBezierPath *_path;
-    struct CGRect _rectangle;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,7 +28,7 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)Jl;
 - (long long);
 - (void);
 - (id);
@@ -52,8 +40,8 @@
 - (void);
 - (double);
 - (void);
-- (id);
-- (id);
+- (id)om.apple.calendarUIKit.userActivity.url;
+- (id)rƟ^X;
 - (void);
 - (void);
 - (id);
@@ -65,25 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(getter=brushStyle) long long brushStyle; // @synthesize brushStyle=_brushStyle;
-@property(getter=isDashed) _Bool dashed; // @synthesize dashed=_dashed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property(retain) UIBezierPath *path; // @synthesize path=_path;
-@property _Bool pathIsDot; // @synthesize pathIsDot=_pathIsDot;
-@property _Bool pathIsPrestroked; // @synthesize pathIsPrestroked=_pathIsPrestroked;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(copy) UIColor *strokeColor;
-@property(retain) UIColor *strokeColorHDR; // @synthesize strokeColorHDR=_strokeColorHDR;
-@property(retain) UIColor *strokeColorSDR; // @synthesize strokeColorSDR=_strokeColorSDR;
-@property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(readonly) Class superclass;
 
 @end
 

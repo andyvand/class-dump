@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRContainer, NSAttributedString, NSURL;
+@class NSAttributedString;
 
 @interface BRCloudPathComponentDisplayMetadata
 {
     NSAttributedString *_displayName;
-    NSAttributedString *_alternateDisplayName;
-    NSURL *_url;
-    id _icon;
-    BRContainer *_container;
 }
 
 + (id);
@@ -21,15 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *alternateDisplayName; // @synthesize alternateDisplayName=_alternateDisplayName;
-@property(readonly, copy, nonatomic) NSAttributedString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) id icon; // @synthesize icon=_icon;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

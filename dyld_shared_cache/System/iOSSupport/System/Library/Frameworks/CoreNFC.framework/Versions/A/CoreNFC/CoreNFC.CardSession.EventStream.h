@@ -7,6 +7,7 @@
 @interface CoreNFC.CardSession.EventStream
 {
     id stream;
+    id;
 }
 
 @end

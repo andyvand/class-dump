@@ -5,5 +5,9 @@
 //
 
 @protocol UMSyncXPCProtocol
+- (void);
+- (void)ӊz;
+- (void);
+- (void)`;
 @end
 

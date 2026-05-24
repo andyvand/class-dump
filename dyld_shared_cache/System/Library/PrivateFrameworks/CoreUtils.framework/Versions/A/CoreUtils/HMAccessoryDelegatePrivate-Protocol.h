@@ -5,5 +5,18 @@
 //
 
 @protocol HMAccessoryDelegatePrivate
+
+@optional
+- (void);
+- (void)3;
+- (void);
+- (void)Ax,;
+- (void)C;
+- (void);
+- (void)&;
+- (void)elerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib;
+- (void);
+- (void)P;
+- (void)s/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib;
 @end
 

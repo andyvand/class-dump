@@ -7,9 +7,11 @@
 @class NSArray, NSData;
 
 @protocol _SFPBProductAvailability
+- (id)a;
+- (NSData *),N,V_cameraIngestOptions;
+- (unsigned long long)PHImageResultClientShouldRetryKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results;
 @end
 

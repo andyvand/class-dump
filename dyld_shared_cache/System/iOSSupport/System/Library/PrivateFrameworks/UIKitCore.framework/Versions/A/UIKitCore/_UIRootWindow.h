@@ -6,45 +6,35 @@
 
 #import <UIKitCore/UIWindow.h>
 
-@class FBSDisplayIdentity, NSString, RBSAssertion;
+@class FBSDisplayIdentity, NSString;
 
 @interface _UIRootWindow : UIWindow
 {
     FBSDisplayIdentity *_currentDisplayIdentity;
-    double _scale;
-    struct os_unfair_lock_s _visibilityLock;
-    _Bool _visibilityLock_enabled;
-    NSString *_visibilityLock_environment;
-    NSString *_visibilityLock_identifier;
-    _Bool _visibilityLock_updateEnqueued;
-    struct os_unfair_lock_s _visibilityProcessingLock;
-    NSString *_visibilityProcessingLock_identifier;
-    RBSAssertion *_visibilityProcessingLock_assertion;
-    struct CGAffineTransform _additionalRootLayerAffineTransform;
 }
 
 - (id);
 - (void);
+- (id)didReceiveMessages:forChat:style:account:fromIDSID:completion: /* Error: Ran out of types for this method. */;
+- (void)didReceiveMessageSavedForMessageID:ofType:forChat:fromHandle:fromMe:date:account:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)didReceiveMessageReadReceiptForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)tions:callerID: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)antId:(id)arg1 %s;
+- (void)d with success %{BOOL}d;
+- (CDStruct_c8d2f6fa)ts for chat metadata %@;
+- (struct CGAffineTransform)upload for groupID:%@ so we need to compare last message time's /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)OutgoingMailServerUsername;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_c8d2f6fa);
-- (struct CGAffineTransform);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)ButtonReplaceAction:forText:checkAutocorrection: /* Error: Ran out of types for this method. */;
-- (void)gationBar:(_Bool)arg1 preferredHeightForTransitionToHeightRange: /* Error: Ran out of types for this method. */;
-- (id)ide;
+- (void)_shouldPerformUICalloutBarButtonReplaceAction:forText:checkAutocorrection: /* Error: Ran out of types for this method. */;
+- (void)_navigationBar:(_Bool)arg1 preferredHeightForTransitionToHeightRange: /* Error: Ran out of types for this method. */;
+- (id)_backButtonGuide;
 - (id)ghtForSymbolImage;
-- (void)nfiguration;
+- (void)BackgroundConfiguration;
 - (_Bool)»\;
 - (_Bool);
 - (_Bool)ÿ^Ú÷^;

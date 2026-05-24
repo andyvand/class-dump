@@ -5,6 +5,10 @@
 //
 
 @protocol MTLComputeCommandEncoder
+- (void);
+- (void)n;
+- (void)!;
+- (void)tionary=}16^B24;
 
 // Remaining properties
 @property(readonly) unsigned long long dispatchType;

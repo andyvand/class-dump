@@ -7,9 +7,6 @@
 @interface AudioDSPManagerSwift.InteropLayerSystemConfigurationQuery
 {
     id resourcePath;
-    id tuningBasePath;
-    id hardwareIdentifier;
-    id os;
 }
 
 - (id);

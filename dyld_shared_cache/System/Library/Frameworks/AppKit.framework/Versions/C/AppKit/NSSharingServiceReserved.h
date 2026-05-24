@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SHKSharingService;
 @protocol NSSharingServiceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSSharingServiceReserved
 {
     id <NSSharingServiceDelegate> delegate;
-    SHKSharingService *service;
 }
 
 - (void)R;

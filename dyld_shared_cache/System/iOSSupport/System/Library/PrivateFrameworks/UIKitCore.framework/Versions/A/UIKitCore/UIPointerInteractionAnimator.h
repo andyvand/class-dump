@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIPointerInteractionAnimator
 {
     NSString *_debugName;
-    NSMutableArray *_animations;
-    NSMutableArray *_completions;
 }
 
+- (void)nge reason is %ld;
 - (void);
-- (void);
 - (id);
 - (id);
-- (void)anteedPerformanceIdentifiers;
+- (void)_guaranteedPerformanceIdentifiers;
 - (id);
-- (void)pe;
+- (void)gestureType;
 - (void)mnViewControllers are %@;
 - (void);
 - (void)Ôpd;
 - (void)ài;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;
-@property(retain, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSString *debugName; // @synthesize debugName=_debugName;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

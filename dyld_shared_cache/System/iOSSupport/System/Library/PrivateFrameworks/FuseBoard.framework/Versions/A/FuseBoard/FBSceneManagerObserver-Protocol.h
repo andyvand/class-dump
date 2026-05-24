@@ -5,5 +5,10 @@
 //
 
 @protocol FBSceneManagerObserver
+
+@optional
+- (void);
+- (void)endCondition;
+- (void);
 @end
 

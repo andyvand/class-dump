@@ -7,11 +7,6 @@
 @interface IMDPersistence.ChatLookupRecord
 {
     id _identifier;
-    id _domain;
-    id _chat;
-    id _priority;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

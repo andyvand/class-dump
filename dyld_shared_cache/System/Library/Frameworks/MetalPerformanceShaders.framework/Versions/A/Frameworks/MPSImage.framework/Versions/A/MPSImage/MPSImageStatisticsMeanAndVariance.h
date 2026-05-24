@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithPattern:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ÿDJÌ?wxÚAÅ?Éj0=¸?¿¬áý©?;
 

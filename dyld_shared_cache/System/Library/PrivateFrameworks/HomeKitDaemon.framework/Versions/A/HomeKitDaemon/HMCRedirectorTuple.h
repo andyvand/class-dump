@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMCRedirectorTuple
 {
     HMCRedirector *_owner;
-    id _target;
-    SEL _selector;
 }
 
 - (id);

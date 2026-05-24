@@ -7,16 +7,11 @@
 @interface NewsArticles.ProxyAuthenticationKeyManager
 {
     id endpointConnection;
-    id configurationManager;
-    id deduper;
-    id lock;
-    id key;
-    id session;
 }
 
 - (void);
 - (id);
-- (void)gFactory;
+- (void)tipConfigFactory;
 
 @end
 

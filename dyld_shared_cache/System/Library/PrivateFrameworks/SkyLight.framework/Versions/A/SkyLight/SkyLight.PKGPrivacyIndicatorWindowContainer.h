@@ -7,20 +7,6 @@
 @interface SkyLight.PKGPrivacyIndicatorWindowContainer
 {
     id displayID;
-    id windowID;
-    id caContext;
-    id layerGenerator;
-    id windowRect;
-    id indicatorContext;
-    id displayItemContainer;
-    id globalEnableSecureIndicators;
-    id allowSecureIndicators;
-    id lastRequiredWidthProgress;
-    id windowSize;
-    id supportsSecureIndicator;
-    id visible;
-    id opaque;
-    id pkgCoreUITransaction;
 }
 
 @end

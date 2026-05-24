@@ -9,9 +9,6 @@
 @interface SGRTCLoggingGuardedData
 {
     NSMutableArray *_loggedExtractions;
-    NSMutableArray *_loggedInteractions;
-    NSMutableArray *_loggedInteractionsSummary;
-    double _storeCreationDate;
 }
 
 - (void)°}$P;

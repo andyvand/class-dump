@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyle, ABCardViewStyleProvider;
+@class ABCardViewStyle;
 
 @interface ABCardViewStyleInternalProvider
 {
     ABCardViewStyle *_style;
-    ABCardViewStyleProvider *_styleProvider;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ABCardViewStyle *style; // @synthesize style=_style;
-@property(readonly, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
 
 @end
 

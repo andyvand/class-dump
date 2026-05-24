@@ -5,5 +5,10 @@
 //
 
 @protocol NSXPCSpellServer
+- (void);
+- (void);
+- (void);
+- (void)P;
+- (void)Asset;
 @end
 

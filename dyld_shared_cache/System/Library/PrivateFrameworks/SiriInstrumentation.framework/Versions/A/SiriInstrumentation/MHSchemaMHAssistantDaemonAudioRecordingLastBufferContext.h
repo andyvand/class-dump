@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAssistantDaemonAudioRecordingLastBufferReceipt, MHSchemaMHAssistantDaemonAudioRecordingLastBufferStart, NSData;
+@class MHSchemaMHAssistantDaemonAudioRecordingLastBufferStart;
 
 @interface MHSchemaMHAssistantDaemonAudioRecordingLastBufferContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAssistantDaemonAudioRecordingLastBufferStart *_startedOrChanged;
-    MHSchemaMHAssistantDaemonAudioRecordingLastBufferReceipt *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -29,8 +25,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id))˪c;
+- (void)oraryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/f_enum.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,12 +37,7 @@
 - (void)\âÿæ×µ´ª!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioRecordingLastBufferReceipt *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioRecordingLastBufferStart *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

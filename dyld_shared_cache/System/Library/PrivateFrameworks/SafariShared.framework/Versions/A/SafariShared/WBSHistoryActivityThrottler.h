@@ -9,7 +9,6 @@
 @interface WBSHistoryActivityThrottler
 {
     NSMutableArray *_activityTimes;
-    unsigned long long _activityLimitPerSecond;
 }
 
 - (void);

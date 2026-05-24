@@ -9,17 +9,15 @@
 @interface MPSNDArrayRandomState : MPSNDArrayUnaryKernel
 {
     unsigned long long _counterStride;
-    unsigned long long _skipElements;
-    _Bool _incrementKey;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *)@;
 - (unsigned long long);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long counterStride; // @synthesize counterStride=_counterStride;
-@property(nonatomic) _Bool incrementKey; // @synthesize incrementKey=_incrementKey;
-@property(nonatomic) unsigned long long skipElements; // @synthesize skipElements=_skipElements;
 
 @end
 

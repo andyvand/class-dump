@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOLocalizedDisambiguationLabel
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_locale;
-    NSString *_string;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_locale:1;
-        unsigned int read_string:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)efault output device:%d /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ryType:(struct _NSZone *)arg1;
-- (id)rogress: /* Error: Ran out of types for this method. */;
+- (id)setPlaceCategoryType:(struct _NSZone *)arg1;
+- (id)_geo_progressMirroringProgress: /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (void)6D4;
 

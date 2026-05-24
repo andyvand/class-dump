@@ -7,13 +7,6 @@
 @interface NTPBNetworkSession
 {
     unsigned long long _sessionID;
-    int _cellularRadioAccessTechnology;
-    _Bool _wifiReachable;
-    struct {
-        unsigned int sessionID:1;
-        unsigned int cellularRadioAccessTechnology:1;
-        unsigned int wifiReachable:1;
-    } _has;
 }
 
 @end

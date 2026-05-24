@@ -55,9 +55,9 @@ struct IMFileSize {
 };
 
 struct IMMessagePartRanges {
-    struct _NSRange prefixRange;
-    struct _NSRange partNumberRange;
-    struct _NSRange messageGUIDRange;
+    struct _NSRange _field1;
+    struct _NSRange _field2;
+    struct _NSRange _field3;
 };
 
 struct IMPreviewConstraints {
@@ -84,12 +84,8 @@ struct NSEdgeInsets {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct _TidyDoc {
-    int _field1;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -104,8 +100,4 @@ typedef struct {
 typedef struct {
     unsigned int _field1[8];
 } CDStruct_6ad76789;
-
-typedef struct {
-    unsigned int version:1;
-} CDStruct_f20694ce;
 

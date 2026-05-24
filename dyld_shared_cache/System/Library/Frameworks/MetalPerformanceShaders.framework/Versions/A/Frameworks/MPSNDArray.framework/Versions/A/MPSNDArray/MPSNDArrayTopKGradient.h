@@ -9,7 +9,6 @@
 @interface MPSNDArrayTopKGradient : MPSNDArrayUnaryGradientKernel
 {
     unsigned long long _K;
-    _Bool _findIndices;
 }
 
 + (const struct MPSLibraryInfo *);

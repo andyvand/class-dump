@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableSet, NSSet;
 
 @interface LADomainStateCompanion
 {
     NSMutableSet *_availableCompanions;
-    NSData *_stateHash;
-    NSMutableDictionary *_stateHashForCompanionType;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)e;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *availableCompanionTypes;
-@property(readonly, nonatomic) NSData *stateHash;
 
 @end
 

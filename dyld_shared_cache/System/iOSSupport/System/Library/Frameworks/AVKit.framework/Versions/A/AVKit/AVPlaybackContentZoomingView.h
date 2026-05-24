@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCacheLargestInscribedRectInBoundingPath, AVPlaybackContentContainerView, NSString, UIWindow;
-
 __attribute__((visibility("hidden")))
 @interface AVPlaybackContentZoomingView
 {
     _Bool _playingOnSecondScreen;
-    _Bool _zoomingEnabled;
-    _Bool _fullScreen;
-    AVPlaybackContentContainerView *_activeContentView;
-    UIWindow *_lastKnownWindow;
-    AVCacheLargestInscribedRectInBoundingPath *_cacheLargestInscribedRect;
-    struct CGSize _contentAspectRatio;
-    struct CGRect _videoContentFrame;
-    struct CGRect _previousBounds;
 }
 
 - (void);
@@ -26,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (struct CGRect);
 - (id);
@@ -37,23 +27,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (struct UIEdgeInsets);
-- (_Bool);
+- (_Bool)ack=%lu;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)ordinator";
 - (void);
-- (void);
+- (void)pecializationMetadata",C,N,V_specialization;
 - (void);
 - (void);
 - (id);
@@ -62,23 +52,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlaybackContentContainerView *activeContentView; // @synthesize activeContentView=_activeContentView;
-@property(retain, nonatomic) AVCacheLargestInscribedRectInBoundingPath *cacheLargestInscribedRect; // @synthesize cacheLargestInscribedRect=_cacheLargestInscribedRect;
-@property(nonatomic) _Bool canShowStatusBarBackgroundGradientWhenStatusBarVisible;
-@property(nonatomic) struct CGSize contentAspectRatio; // @synthesize contentAspectRatio=_contentAspectRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFullScreen) _Bool fullScreen; // @synthesize fullScreen=_fullScreen;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIWindow *lastKnownWindow; // @synthesize lastKnownWindow=_lastKnownWindow;
-@property(nonatomic, getter=isPlayingOnSecondScreen) _Bool playingOnSecondScreen; // @synthesize playingOnSecondScreen=_playingOnSecondScreen;
 @property(nonatomic) struct CGRect previousBounds; // @synthesize previousBounds=_previousBounds;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect videoContentFrame; // @synthesize videoContentFrame=_videoContentFrame;
-@property(nonatomic, getter=isZoomingEnabled) _Bool zoomingEnabled; // @synthesize zoomingEnabled=_zoomingEnabled;
 
 @end
 

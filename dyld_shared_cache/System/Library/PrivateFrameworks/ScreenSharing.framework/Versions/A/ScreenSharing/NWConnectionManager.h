@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSRecursiveLock, NSString, NWConnection;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject, NWConnection;
+@protocol OS_dispatch_semaphore;
 
 @interface NWConnectionManager
 {
     NSObject<OS_dispatch_semaphore> *networkConnectionReadySemaphore;
-    NSObject<OS_dispatch_semaphore> *sendSemaphore;
-    NSObject<OS_dispatch_queue> *readDispatchQueue;
-    _Bool _stopConnection;
-    NWConnection *connection;
-    NSRecursiveLock *writeLock;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
@@ -34,9 +29,6 @@
 
 // Remaining properties
 @property(retain) NWConnection *connection; // @synthesize connection;
-@property(readonly) NSString *stateString;
-@property _Bool stopConnection; // @synthesize stopConnection=_stopConnection;
-@property(retain) NSRecursiveLock *writeLock; // @synthesize writeLock;
 
 @end
 

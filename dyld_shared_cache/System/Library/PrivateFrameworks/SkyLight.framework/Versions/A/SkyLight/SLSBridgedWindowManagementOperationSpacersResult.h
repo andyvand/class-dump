@@ -9,12 +9,10 @@
 @interface SLSBridgedWindowManagementOperationSpacersResult : SLSBridgedWindowManagementOperationResult
 {
     unsigned long long _verticalIndex;
-    unsigned long long _horizontalIndex;
-    struct CGRect _rect;
 }
 
 + (_Bool);
-- (id);
+- (id)PFCloudKitMetadataNeedsZoneFetchAfterClientMigrationKey;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -22,8 +20,6 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly) unsigned long long horizontalIndex; // @synthesize horizontalIndex=_horizontalIndex;
-@property(readonly) struct CGRect rect; // @synthesize rect=_rect;
 @property(readonly) unsigned long long verticalIndex; // @synthesize verticalIndex=_verticalIndex;
 
 @end

@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeHistoryURLHandler
 {
     id patterns;
-    id navigator;
-    id featureAvailability;
 }
 
 @end

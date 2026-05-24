@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDWiFiUIScanSession
 {
     unsigned long long _timestamp;
-    NSMutableArray *_counts;
-    unsigned int _duration;
-    NSString *_process;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int duration:1;
-    } _has;
 }
 
 + (Class);
@@ -34,7 +25,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (_Bool);
 - (void);
@@ -44,17 +35,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)setBaseWritingDirection:(_Bool)arg1;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *counts; // @synthesize counts=_counts;
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasProcess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *process; // @synthesize process=_process;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

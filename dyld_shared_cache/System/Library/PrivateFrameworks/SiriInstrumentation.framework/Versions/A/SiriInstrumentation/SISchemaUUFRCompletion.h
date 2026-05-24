@@ -6,25 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaSiriResponseContext;
-
 @interface SISchemaUUFRCompletion : SISchemaInstrumentationMessage
 {
     int _completionStatus;
-    NSArray *_homeKitAccessoryResponses;
-    SISchemaSiriResponseContext *_siriResponseContext;
-    struct {
-        unsigned int completionStatus:1;
-    } _has;
-    _Bool _hasSiriResponseContext;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -39,22 +31,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)getUpdatesWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)ċ;
+- (_Bool)= 0 AND item_type = 0 AND is_finished = 1 AND is_system_message = 0;
 - (id);
 - (id);
-- (id)eteHasHandleLabel;
-- (id)ctationExperimentDigestsReported;
-- (void)E_MDS;
+- (id)deleteHasHandleLabel;
+- (id)_hasDictationExperimentDigestsReported;
+- (void)CDMSERVICENAME_UAAP_NL_INFERENCE_MDS;
 
 // Remaining properties
 @property(nonatomic) int completionStatus; // @synthesize completionStatus=_completionStatus;
-@property(nonatomic) _Bool hasCompletionStatus;
-@property(nonatomic) _Bool hasSiriResponseContext; // @synthesize hasSiriResponseContext=_hasSiriResponseContext;
-@property(copy, nonatomic) NSArray *homeKitAccessoryResponses; // @synthesize homeKitAccessoryResponses=_homeKitAccessoryResponses;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaSiriResponseContext *siriResponseContext; // @synthesize siriResponseContext=_siriResponseContext;
 
 @end
 

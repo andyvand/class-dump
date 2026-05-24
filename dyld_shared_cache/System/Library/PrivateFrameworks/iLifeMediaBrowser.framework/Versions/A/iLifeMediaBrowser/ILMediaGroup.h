@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSImage, NSMutableArray, NSString, NSURL;
+@class NSString;
 
 @interface ILMediaGroup
 {
     NSString *_ID;
-    NSString *_name;
-    NSImage *_icon;
-    NSURL *_url;
-    NSDate *_modificationDate;
-    NSDictionary *_attributes;
-    NSMutableArray *_childGroups;
-    id _reserved4;
-    NSString *_parentID;
-    unsigned long long _type;
-    _Bool _dynamicMediaObjects;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,28 +67,28 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)@24;
+- (id)triggerOnceWhenAnyEventHasOccurred:block: /* Error: Ran out of types for this method. */;
+- (id)setResolve: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(id)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
+- (id)_TtC5TeaUI37PersonalizedAdsViewControllerProvider;
 - (id);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)4;
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (void)+;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (void);
 - (_Bool);
 - (id);
@@ -117,7 +104,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 
 @end

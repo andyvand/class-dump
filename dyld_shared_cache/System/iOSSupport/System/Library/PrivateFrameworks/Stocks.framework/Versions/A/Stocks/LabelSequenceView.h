@@ -11,9 +11,9 @@
     NSArray *_stringDrawingInfoValues;
 }
 
-- (id);
+- (id)l;
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);

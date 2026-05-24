@@ -15,14 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasSchemaVersion; // @dynamic hasSchemaVersion;
-@property(nonatomic) _Bool hasType; // @dynamic hasType;
-@property(nonatomic) _Bool hasTypedAssignmentTreeName; // @dynamic hasTypedAssignmentTreeName;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) unsigned int schemaVersion; // @dynamic schemaVersion;
-@property(nonatomic) int type; // @dynamic type;
-@property(copy, nonatomic) NSString *typedAssignmentTreeName; // @dynamic typedAssignmentTreeName;
 
 @end
 

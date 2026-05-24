@@ -5,5 +5,6 @@
 //
 
 @protocol _UIFallbackEnvironment
+- (void *)_biaReferenceID;
 @end
 

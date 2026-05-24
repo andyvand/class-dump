@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSGradient;
+@class NSDictionary, NSGradient;
 
 @interface IKTheme
 {
@@ -34,6 +34,7 @@
 - (id);
 - (id);
 - (id);
+- (id)\;
 - (id);
 - (id);
 - (id);
@@ -51,14 +52,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id):(id)arg1 score not implemented yet() - not supported for this distribution type;
+- (id)CoreosPowerExperience;
 - (id);
 - (id)ow(oneMinusT.b, p1) - tPart.b);               
     return s;                                                   
@@ -82,49 +82,7 @@ kernel vec4 correctCooler (sampler src, float param)
 ;
 
 // Remaining properties
-@property(readonly) NSColor *active1Color;
 @property(readonly) NSGradient *active1Gradient;
-@property(readonly) NSColor *active2Color;
-@property(readonly) NSGradient *active2Gradient;
-@property(readonly) NSColor *background1Color;
-@property(readonly) NSColor *background2Color;
-@property(readonly) NSColor *blackColor;
-@property(readonly) NSColor *blackShadow1Color;
-@property(readonly) NSColor *blackShadow2Color;
-@property(readonly) NSGradient *buttonSeparatorGradient;
-@property(readonly) NSGradient *buttonSeparatorHighlightGradient;
-@property(readonly) NSGradient *glassGradient;
-@property(readonly) NSColor *glassSeparatorColor;
-@property(readonly) NSColor *horizontalGrooved1;
-@property(readonly) NSColor *horizontalGrooved2;
-@property(readonly) NSGradient *horizontalSeparatorTaperedGradient;
-@property(readonly) NSGradient *iconGradient;
-@property(readonly) NSColor *inactiveColor;
-@property(readonly) NSGradient *inactiveGradient;
-@property(readonly) NSColor *parameterTextColor;
-@property(readonly) NSGradient *pathSeparatorGradient;
-@property(readonly) NSGradient *pathSeparatorHighlightGradient;
-@property(readonly) NSGradient *pressedTabBackgroundGradient;
-@property(readonly) NSGradient *scopeBar1Gradient;
-@property(readonly) NSGradient *scopeBar2Gradient;
-@property(readonly) NSGradient *selectedActiveGradient;
-@property(readonly) NSGradient *selectedGlassGradient;
-@property(readonly) NSGradient *selectedIconGradient;
-@property(readonly) NSGradient *selectedTabBackgroundGradient;
-@property(readonly) NSGradient *selectedTabBorderInnerGradient;
-@property(readonly) NSGradient *selectedTabBorderOuterGradient;
-@property(readonly) NSColor *stroke1Color;
-@property(readonly) NSColor *stroke2Color;
-@property(readonly) NSColor *stroke3Color;
-@property(readonly) NSColor *stroke4Color;
-@property(readonly) NSColor *stroke5Color;
-@property(readonly) NSColor *stroke6Color;
-@property(readonly) NSColor *stroke7Color;
-@property(readonly) NSGradient *tabBackgroundGradient;
-@property(readonly) NSColor *whiteColor;
-@property(readonly) NSColor *whiteShadow1Color;
-@property(readonly) NSColor *whiteShadow2Color;
-@property(readonly) NSColor *windowBackgroundColor;
 
 @end
 

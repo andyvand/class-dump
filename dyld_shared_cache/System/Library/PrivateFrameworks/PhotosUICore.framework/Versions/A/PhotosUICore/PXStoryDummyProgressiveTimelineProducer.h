@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PXStoryDummyTimelineProducer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXStoryDummyProgressiveTimelineProducer
 {
     long long _numberOfIterations;
-    double _delayBetweenIterations;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    PXStoryDummyTimelineProducer *_timelineProducer;
 }
 
 - (id);
@@ -21,14 +18,11 @@
 - (double);
 - (void);
 - (long long);
-- (id);
+- (id)K;
 - (id);
 - (void)Ø;
 
 // Remaining properties
-@property(nonatomic) double delayBetweenIterations; // @synthesize delayBetweenIterations=_delayBetweenIterations;
-@property(nonatomic) long long numberOfIterations; // @synthesize numberOfIterations=_numberOfIterations;
-@property(readonly, nonatomic) PXStoryDummyTimelineProducer *timelineProducer; // @synthesize timelineProducer=_timelineProducer;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

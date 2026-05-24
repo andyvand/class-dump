@@ -9,7 +9,6 @@
 @interface CXJoinCallParticipantCluster
 {
     NSUUID *_UUID;
-    long long _type;
 }
 
 + (_Bool);
@@ -17,17 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)elationKey:%{public}@; serverEnvironment:%{public}@). /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)_databaseID;
+- (void)on identifier:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

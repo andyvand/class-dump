@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPasswordCredentialIdentity, NSString;
-@protocol ASCredentialIdentity;
+@class ASPasswordCredentialIdentity;
 
 @interface ASPasswordCredentialRequest
 {
@@ -23,14 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASCredentialIdentity> credentialIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type;
 
 @end

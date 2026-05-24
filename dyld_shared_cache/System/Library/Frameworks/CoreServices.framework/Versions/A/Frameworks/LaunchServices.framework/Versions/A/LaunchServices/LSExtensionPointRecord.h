@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)0@0:8@"<MTLLibrary>"16@"MTLComputePipelineDescriptor"24^@32 /* Error: Ran out of types for this method. */;
 + (void);
 + (id);
 

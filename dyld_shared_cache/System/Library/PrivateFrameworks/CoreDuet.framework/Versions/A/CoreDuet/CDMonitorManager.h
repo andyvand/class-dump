@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary;
 
 @interface CDMonitorManager
 {
     NSMutableDictionary *_monitors;
-    NSMutableSet *_lazyMonitorNames;
-    CDUnknownBlockType _generalInstantHandler;
-    CDUnknownBlockType _generalHistoricalHandler;
-    CDUnknownBlockType _generalHistoricalDeletingHandler;
-    CDUnknownBlockType _generalShutdownHandler;
-    NSMutableDictionary *_instantHandlerMap;
-    NSMutableDictionary *_historicalHandlerMap;
-    NSMutableSet *_shutdownHandlingMonitors;
-    NSObject<OS_dispatch_queue> *_monitorWorkQueue;
-    NSObject<OS_dispatch_source> *_SIGTERMHandlerSource;
 }
 
 + (id);
@@ -28,6 +17,14 @@
 - (id);
 - (void);
 - (id);
+- (void)|S,;
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,24 +36,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (_Bool)-I;
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void)ù
 × ;
 - (void)

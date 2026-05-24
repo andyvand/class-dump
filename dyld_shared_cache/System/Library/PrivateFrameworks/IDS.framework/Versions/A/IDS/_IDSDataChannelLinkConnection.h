@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSNWQPodParameters, NSString, NSUUID;
+@class NSString;
 
 @interface _IDSDataChannelLinkConnection
 {
     _Bool _allowOutgoing;
-    _Bool _isQUICPod;
-    NSString *_type;
-    NSUUID *_childConnectionID;
-    NSString *_protocolStack;
-    unsigned long long _nwConnectionID;
-    unsigned long long _clientNWConnectionID;
-    NSString *_nwConnectionToken;
-    IDSNWQPodParameters *_qpodParameters;
-    long long _packetLogHandle;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -45,15 +36,6 @@
 × ;
 
 // Remaining properties
-@property _Bool allowOutgoing; // @synthesize allowOutgoing=_allowOutgoing;
-@property(retain) NSUUID *childConnectionID; // @synthesize childConnectionID=_childConnectionID;
-@property unsigned long long clientNWConnectionID; // @synthesize clientNWConnectionID=_clientNWConnectionID;
-@property _Bool isQUICPod; // @synthesize isQUICPod=_isQUICPod;
-@property unsigned long long nwConnectionID; // @synthesize nwConnectionID=_nwConnectionID;
-@property(retain) NSString *nwConnectionToken; // @synthesize nwConnectionToken=_nwConnectionToken;
-@property long long packetLogHandle; // @synthesize packetLogHandle=_packetLogHandle;
-@property(retain) NSString *protocolStack; // @synthesize protocolStack=_protocolStack;
-@property(retain) IDSNWQPodParameters *qpodParameters; // @synthesize qpodParameters=_qpodParameters;
 @property(retain) NSString *type; // @synthesize type=_type;
 
 @end

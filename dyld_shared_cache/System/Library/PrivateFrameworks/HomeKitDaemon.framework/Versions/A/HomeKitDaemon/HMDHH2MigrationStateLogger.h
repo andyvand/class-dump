@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface HMDHH2MigrationStateLogger
 {
     long long _totalTimeTakenForMigration;
-    NSDictionary *_logEventRecord;
 }
 
 + (id);
++ (void)persistentStores;
 + (void);
++ (void)tyleDefinition type];
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)R;
 + (void);
 + (id);
 + (long long);
@@ -30,8 +29,8 @@ __attribute__((visibility("hidden")))
 + (id)!á°!¬FùÑ°1Â0@ù
 × ;
 + (void);
-+ (id)inHH2: /* Error: Ran out of types for this method. */;
-+ (void)racteristicsNotifications:(id)arg1;
++ (id)setFirstCoreDataContainerSetupErrorDomainHH2: /* Error: Ran out of types for this method. */;
++ (void)_enableCharacteristicsNotifications:(id)arg1;
 + (void)ager home during import:(_Bool)arg1 %@;
 + (void)ion services enabled from update request payload:(_Bool)arg1 %@;
 + (void)>;
@@ -50,14 +49,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)ChangedLogEventManager";
 - (id);
-- (void)ginAccount;
+- (void)kStagedRemoteLoginAccount;
 - (_Bool)øCA;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAutoMigration) _Bool autoMigration;
 @property(retain, nonatomic) NSDictionary *logEventRecord; // @synthesize logEventRecord=_logEventRecord;
-@property(readonly, nonatomic, getter=isMigrationSuccessful) _Bool migrationSuccessful;
-@property(readonly, nonatomic) long long totalTimeTakenForMigration; // @synthesize totalTimeTakenForMigration=_totalTimeTakenForMigration;
 
 @end
 

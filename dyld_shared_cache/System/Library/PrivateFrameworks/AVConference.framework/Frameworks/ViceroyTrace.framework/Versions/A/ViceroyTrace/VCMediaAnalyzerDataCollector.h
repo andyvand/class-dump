@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, VCReportingHistogram;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VCMediaAnalyzerDataCollector
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    _Bool _isMediaAnalyzerEnabled;
-    double _mediaAnalyzerLastEnabledTime;
-    double _mediaAnalyzerEnabledDuration;
-    VCReportingHistogram *_mediaAnalyzerMeanProcessingTimesHistogram;
 }
 
 - (void);
+- (void);
+- (void)bח;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
 
 @end

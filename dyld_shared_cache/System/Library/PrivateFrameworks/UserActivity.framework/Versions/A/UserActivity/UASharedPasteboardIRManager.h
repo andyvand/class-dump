@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
+- (id)3;
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (id)5;
 - (void);
 
 // Remaining properties

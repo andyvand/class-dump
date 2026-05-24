@@ -6,15 +6,9 @@
 
 #import <CoreUI/CUIPSDLayerEffectComponent.h>
 
-@class CUIColor;
-
 @interface CUIPSDLayerEffectOuterGlow : CUIPSDLayerEffectComponent
 {
     int _blendMode;
-    double _opacity;
-    CUIColor *_color;
-    unsigned long long _blurSize;
-    unsigned long long _spread;
 }
 
 - (_Bool);
@@ -27,7 +21,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (double);
 - (void);
@@ -36,10 +30,6 @@
 
 // Remaining properties
 @property int blendMode; // @synthesize blendMode=_blendMode;
-@property unsigned long long blurSize; // @synthesize blurSize=_blurSize;
-@property(retain) CUIColor *color; // @synthesize color=_color;
-@property double opacity; // @synthesize opacity=_opacity;
-@property unsigned long long spread; // @synthesize spread=_spread;
 
 @end
 

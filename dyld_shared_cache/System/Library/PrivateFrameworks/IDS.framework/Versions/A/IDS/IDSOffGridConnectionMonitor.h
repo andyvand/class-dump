@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNetworkConnectionMonitor, NSObject;
-@protocol OS_dispatch_queue;
+@class IMNetworkConnectionMonitor;
 
 @interface IDSOffGridConnectionMonitor
 {
     IMNetworkConnectionMonitor *_networkConnectionMonitor;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id)ion"16@"NSNumber"24S32@"NSError"36;
@@ -19,22 +17,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)uS	;
 - (void);
 - (id);
-- (id);
+- (id)TI,N,V_colorCode;
 - (void);
 - (id);
 - (void)f(! Gù,Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isConnectionSuitableForIMLOverStewie;
-@property(readonly, nonatomic) _Bool isDeviceOnline;
-@property(readonly, nonatomic) _Bool isIMLActive;
-@property(readonly, nonatomic) _Bool isIMLAvailable;
 @property(retain, nonatomic) IMNetworkConnectionMonitor *networkConnectionMonitor; // @synthesize networkConnectionMonitor=_networkConnectionMonitor;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

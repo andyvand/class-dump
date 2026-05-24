@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
 @protocol _NSQuickActionItemSource;
 
 __attribute__((visibility("hidden")))
 @interface _NSLegacyServiceQuickActionValidation
 {
     id <_NSQuickActionItemSource> _itemSource;
-    NSSet *_unvalidatedQuickActions;
-    NSMutableSet *_validQuickActions;
-    void *_observationInfo;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)__nsurlrequest_proto_props;
 + (_Bool)È;
 - (_Bool);
 - (id);
-- (id);
+- (id)Accounts or Private Acccess Tokens;
 - (void);
 - (void)à³;
 - (void *)è;
 - (void)olor Profile;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSSet *validQuickActions;
 @property(readonly) _Bool wantsAutovalidation;
 
 @end

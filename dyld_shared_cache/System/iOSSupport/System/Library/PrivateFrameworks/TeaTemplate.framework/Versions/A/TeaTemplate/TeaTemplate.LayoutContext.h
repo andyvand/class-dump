@@ -7,12 +7,6 @@
 @interface TeaTemplate.LayoutContext
 {
     id name;
-    id origin;
-    id records;
-    id frames;
-    id metadata;
-    id embeds;
-    id embedLayoutResults;
 }
 
 @end

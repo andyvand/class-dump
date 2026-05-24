@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableSet, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface FCAssetStore
 {
     NSString *_directoryPath;
-    NSString *_preferredExtension;
-    NSMutableSet *_knownKeys;
-    NSObject<OS_dispatch_queue> *_removalQueue;
-    FCThreadSafeMutableSet *_keysAwaitingRemoval;
 }
 
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (id);
 - (void);
@@ -27,10 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)cument:(id)arg1 withErrors:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)clesOperation;
+- (id)FCFeaturedArticlesOperation;
 - (void)alling -appConfiguration without first making an attempt to fetch the app config;
 
 @end

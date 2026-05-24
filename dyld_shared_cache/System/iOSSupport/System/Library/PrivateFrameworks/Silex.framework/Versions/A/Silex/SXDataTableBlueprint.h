@@ -9,14 +9,6 @@
 @interface SXDataTableBlueprint
 {
     unsigned long long _numberOfRows;
-    unsigned long long _numberOfColumns;
-    SXDataTableDictionary *_blueprint;
-    SXDataTableDictionary *_contentBlueprint;
-    SXDataTableDictionary *_rowDividers;
-    SXDataTableDictionary *_columnDividers;
-    unsigned long long _dataOrientation;
-    struct CGSize _tableSize;
-    struct UIEdgeInsets _tableInsets;
 }
 
 - (void);
@@ -24,7 +16,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)=;
 - (_Bool);
 - (id);
 - (id);
@@ -37,7 +29,7 @@
 - (unsigned long long);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (id);
@@ -47,14 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SXDataTableDictionary *blueprint; // @synthesize blueprint=_blueprint;
-@property(readonly, nonatomic) SXDataTableDictionary *columnDividers; // @synthesize columnDividers=_columnDividers;
-@property(readonly, nonatomic) SXDataTableDictionary *contentBlueprint; // @synthesize contentBlueprint=_contentBlueprint;
-@property(nonatomic) unsigned long long dataOrientation; // @synthesize dataOrientation=_dataOrientation;
-@property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly, nonatomic) unsigned long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property(readonly, nonatomic) SXDataTableDictionary *rowDividers; // @synthesize rowDividers=_rowDividers;
-@property(readonly, nonatomic) struct UIEdgeInsets tableInsets; // @synthesize tableInsets=_tableInsets;
-@property(nonatomic) struct CGSize tableSize; // @synthesize tableSize=_tableSize;
 
 @end
 

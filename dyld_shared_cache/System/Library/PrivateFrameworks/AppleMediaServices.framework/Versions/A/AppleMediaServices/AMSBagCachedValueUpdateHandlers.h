@@ -7,7 +7,6 @@
 @interface AMSBagCachedValueUpdateHandlers
 {
     id handlerQueue;
-    id lock;
 }
 
 + (unsigned long long);

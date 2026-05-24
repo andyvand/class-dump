@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INDeleteTasksIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_metadata;
++ (int)QLServiceThumbnailRenderer;
 + (long long);
-+ (_Bool);
++ (_Bool)L;
 + (_Bool);
 - (void);
 - (void);
@@ -27,21 +25,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)om.apple.Softbank_YMobile_jp.4dd55aba-d474-11eb-92a5-f45c89abb0d9;
 - (id);
 - (id);
-- (long long)rencyAmountValue;
+- (long long)_INPBCurrencyAmountValue;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) NSArray *deletedTasks;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

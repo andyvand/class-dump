@@ -7,10 +7,10 @@
 @class MRNowPlayingControllerConfiguration, MRNowPlayingControllerDestination, MRNowPlayingControllerHelper;
 
 @protocol MRNowPlayingControllerImpl
+- (MRNowPlayingControllerConfiguration *)P;
+- (MRNowPlayingControllerDestination *)-predicate '%@';
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MRNowPlayingControllerConfiguration *configuration;
-@property(readonly, copy, nonatomic) MRNowPlayingControllerDestination *destination;
 @property(retain, nonatomic) MRNowPlayingControllerHelper *helper;
 @end
 

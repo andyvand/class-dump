@@ -5,19 +5,20 @@
 //
 
 @protocol VCVideoCaptureServer
+- (void);
+- (void));
+- (void)";
+- (void)!;
+- (int)R;
+
+@optional
+- (void)s;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int bestCameraCaptureFrameRate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
 @property(nonatomic) _Bool followSystemCamera;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool is1080pCameraAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
 
 @end
 

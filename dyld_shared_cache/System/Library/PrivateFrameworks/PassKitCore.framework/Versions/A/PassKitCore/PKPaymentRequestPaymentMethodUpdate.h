@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentRequestUpdate.h>
 
-@class NSArray, NSString, PKPeerPaymentQuote;
+@class NSArray, PKPeerPaymentQuote;
 
 @interface PKPaymentRequestPaymentMethodUpdate : PKPaymentRequestUpdate
 {
     NSArray *_errors;
-    PKPeerPaymentQuote *_peerPaymentQuote;
-    NSString *_installmentGroupIdentifier;
 }
 
 + (_Bool)0@ù
@@ -24,14 +22,12 @@
 - (id);
 - (id);
 - (void);
+- (id)*@9_A;
 - (id);
-- (id);
-- (void);
+- (void)cellNrFR2active;
 - (void)ment.pay.use-keyboard;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(copy, nonatomic) NSString *installmentGroupIdentifier; // @synthesize installmentGroupIdentifier=_installmentGroupIdentifier;
 @property(retain, nonatomic) PKPeerPaymentQuote *peerPaymentQuote; // @synthesize peerPaymentQuote=_peerPaymentQuote;
 
 @end

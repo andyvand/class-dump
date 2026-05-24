@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ECLocalMessageActionID
 {
     long long databaseID;
-    void stringValue;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)extStat;
 - (long long);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)matchScoreLaunchString:withEvaluator: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long databaseID; // @synthesize databaseID;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *stringValue;
 
 @end
 

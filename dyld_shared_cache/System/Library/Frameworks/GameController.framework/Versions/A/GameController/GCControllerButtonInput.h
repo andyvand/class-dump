@@ -9,22 +9,14 @@
 @interface GCControllerButtonInput : GCControllerElement
 {
     int _pressCounter;
-    _Bool _touched;
-    _Bool _touchedAndValueDistinct;
-    _Bool _nonAnalog;
-    float _deadzone;
-    float _value;
-    CDUnknownBlockType _valueChangedHandler;
-    CDUnknownBlockType _pressedChangedHandler;
-    CDUnknownBlockType _touchedChangedHandler;
 }
 
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)l;
+- (CDUnknownBlockType)x;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -33,28 +25,20 @@
 - (_Bool);
 - (id);
 - (int);
-- (float);
+- (float);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)AH;
 - (float);
 - (id);
 - (void);
 - (_Bool)Ô ;
 
 // Remaining properties
-@property(nonatomic) float deadzone; // @synthesize deadzone=_deadzone;
-@property _Bool nonAnalog; // @synthesize nonAnalog=_nonAnalog;
-@property(readonly, nonatomic, getter=isPressed) _Bool pressed;
-@property(copy, nonatomic) CDUnknownBlockType pressedChangedHandler; // @synthesize pressedChangedHandler=_pressedChangedHandler;
-@property(readonly, nonatomic, getter=isTouched) _Bool touched; // @synthesize touched=_touched;
 @property(nonatomic, getter=areTouchedAndValueDistinct) _Bool touchedAndValueDistinct; // @synthesize touchedAndValueDistinct=_touchedAndValueDistinct;
-@property(copy, nonatomic) CDUnknownBlockType touchedChangedHandler; // @synthesize touchedChangedHandler=_touchedChangedHandler;
-@property(readonly, nonatomic) float value; // @synthesize value=_value;
-@property(copy, nonatomic) CDUnknownBlockType valueChangedHandler; // @synthesize valueChangedHandler=_valueChangedHandler;
 
 @end
 

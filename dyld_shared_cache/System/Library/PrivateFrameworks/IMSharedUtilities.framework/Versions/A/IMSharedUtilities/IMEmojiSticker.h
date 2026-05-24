@@ -26,7 +26,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)predicate;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *emojiString; // @synthesize emojiString=_emojiString;

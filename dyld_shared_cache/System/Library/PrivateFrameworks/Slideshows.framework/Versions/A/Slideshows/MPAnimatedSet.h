@@ -4,65 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCContainerParallelizer, MUMathExpressionDoubleBased, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MPAnimatedSet
 {
     NSString *mAnimatedSetID;
-    NSDictionary *mDescription;
-    MUMathExpressionDoubleBased *mTimeOfGoodPositionFormula;
-    _Bool mTimeWraps;
-    NSMutableDictionary *mSlides;
-    NSMutableArray *mFeaturedSlidePositions;
-    NSMutableArray *mFeaturingAttributes;
-    double mStartTime;
-    double mIntroDuration;
-    double mMainDuration;
-    double mOutroDuration;
-    double mTotalNumberOfIntervals;
-    double mDefaultFeaturingDuration;
-    double mDefaultFeaturingAnimationDuration;
-    NSDictionary *mDefaultFeaturingAnimationAttributes;
-    NSDictionary *mAttributes;
-    _Bool mEaseInEaseOutBetweenFeaturedSlides;
-    _Bool mFirstSlideIsShared;
-    _Bool mLastSlideIsShared;
-    NSString *mIntroAnimationID;
-    NSString *mOutroAnimationID;
-    double mDistance;
-    double mSpeed;
-    MCContainerParallelizer *mContainer;
 }
 
 + (_Bool);
-- (_Bool);
-- (double);
-- (id);
+- (_Bool)daysSinceSubmission;
+- (double)eventName;
+- (id)thEntries:] /* Error: Ran out of types for this method. */;
+- (void)hPayload:(id)arg1 success:(unsigned long long)arg2 error:(id)arg3 willRetry:hitEndpoint:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)e;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)c;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
+- (_Bool);
+- (double);
 - (_Bool);
 - (double);
-- (_Bool);
 - (double);
-- (double);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -81,31 +58,14 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double));
 - (void);
 - (void);
-- (id);
-- (void)rguments;
+- (id)@;
+- (void)mRenderArguments;
 
 // Remaining properties
 @property(readonly) NSString *animatedSetID; // @synthesize animatedSetID=mAnimatedSetID;
-@property(copy) NSDictionary *attributes; // @synthesize attributes=mAttributes;
-@property(readonly) MCContainerParallelizer *container; // @synthesize container=mContainer;
-@property double defaultFeaturingAnimationDuration; // @synthesize defaultFeaturingAnimationDuration=mDefaultFeaturingAnimationDuration;
-@property double defaultFeaturingDuration; // @synthesize defaultFeaturingDuration=mDefaultFeaturingDuration;
-@property double distance; // @synthesize distance=mDistance;
-@property _Bool easeInEaseOutBetweenFeaturedSlides; // @synthesize easeInEaseOutBetweenFeaturedSlides=mEaseInEaseOutBetweenFeaturedSlides;
-@property _Bool firstSlideIsShared; // @synthesize firstSlideIsShared=mFirstSlideIsShared;
-@property(readonly) double fullDuration;
-@property(copy) NSString *introAnimationID; // @synthesize introAnimationID=mIntroAnimationID;
-@property _Bool lastSlideIsShared; // @synthesize lastSlideIsShared=mLastSlideIsShared;
-@property(readonly) unsigned long long maximumNumberOfSlides;
-@property(readonly) unsigned long long minimumNumberOfSlides;
-@property(readonly) _Bool needsEvenNumberOfSlides;
-@property(copy) NSString *outroAnimationID; // @synthesize outroAnimationID=mOutroAnimationID;
-@property double speed; // @synthesize speed=mSpeed;
-@property double startTime; // @synthesize startTime=mStartTime;
-@property(readonly) _Bool timeWraps; // @synthesize timeWraps=mTimeWraps;
 
 @end
 

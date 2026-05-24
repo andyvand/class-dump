@@ -9,16 +9,13 @@
 @interface _PXStoryPacingControllerDecisionHistory
 {
     NSMutableArray *_decisionHistory;
-    long long _onBarCount;
-    long long _decisionCount;
-    double _onBarPercentage;
 }
 
 - (long long);
-- (CDStruct_12f93e2f);
+- (CDStruct_2dd41ccf)�;
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (double);
 - (CDStruct_1b6d18a9);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentError;
-@property(readonly, nonatomic) long long decisionCount; // @synthesize decisionCount=_decisionCount;
-@property(readonly, nonatomic) long long onBarCount; // @synthesize onBarCount=_onBarCount;
-@property(readonly, nonatomic) double onBarPercentage; // @synthesize onBarPercentage=_onBarPercentage;
 
 @end
 

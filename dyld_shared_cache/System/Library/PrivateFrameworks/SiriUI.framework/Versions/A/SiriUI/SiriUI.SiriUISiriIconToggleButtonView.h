@@ -9,10 +9,9 @@
 @interface SiriUI.SiriUISiriIconToggleButtonView
 {
     void delegate;
-    id viewModel;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

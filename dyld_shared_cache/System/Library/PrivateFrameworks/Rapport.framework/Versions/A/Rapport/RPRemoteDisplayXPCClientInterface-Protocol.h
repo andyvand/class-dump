@@ -5,5 +5,10 @@
 //
 
 @protocol RPRemoteDisplayXPCClientInterface
+
+@optional
+- (void)_;
+- (void);
+- (void);
 @end
 

@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface MROptimisticState
 {
     id _initialState;
-    id _expectedState;
-    MSVTimer *_timer;
 }
 
-- (id);
+- (id)Ti;
 - (id);
 - (void);
-- (id);
+- (id)snap_u18_persistence;
 - (id);
 - (void)@"_MRAudioFadeMessageProtobuf",&,N,V_audioFadeMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) id expectedState; // @synthesize expectedState=_expectedState;
-@property(readonly, nonatomic) id initialState; // @synthesize initialState=_initialState;
 @property(readonly, nonatomic) MSVTimer *timer; // @synthesize timer=_timer;
 
 @end

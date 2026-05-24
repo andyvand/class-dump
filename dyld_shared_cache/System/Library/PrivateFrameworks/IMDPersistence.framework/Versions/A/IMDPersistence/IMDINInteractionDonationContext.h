@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface IMDINInteractionDonationContext
 {
     unsigned char _chatStyle;
-    _Bool _isMentionOfMe;
-    _Bool _isReplyToMe;
-    _Bool _isNotifyAnyway;
-    _Bool _isMergedBusinessThread;
-    _Bool _shouldDisplayGroupNameAndPhoto;
-    NSString *_messageGUID;
-    NSString *_messagePlainBody;
-    NSDate *_messageDate;
-    NSString *_serviceName;
-    NSString *_senderHandleID;
-    NSString *_uncanonicalizedSenderHandleID;
-    NSString *_chatGUID;
-    NSString *_chatIdentifier;
-    NSString *_chatDisplayName;
-    NSArray *_chatParticipants;
-    NSString *_chatLastAddressedLocaleHandle;
-    NSString *_groupPhotoGuid;
-    NSString *_groupPhotoInternalFilePath;
 }
 
 - (id);
@@ -71,25 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *chatDisplayName; // @synthesize chatDisplayName=_chatDisplayName;
-@property(retain, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
-@property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(retain, nonatomic) NSString *chatLastAddressedLocaleHandle; // @synthesize chatLastAddressedLocaleHandle=_chatLastAddressedLocaleHandle;
-@property(retain, nonatomic) NSArray *chatParticipants; // @synthesize chatParticipants=_chatParticipants;
-@property(nonatomic) unsigned char chatStyle; // @synthesize chatStyle=_chatStyle;
-@property(retain, nonatomic) NSString *groupPhotoGuid; // @synthesize groupPhotoGuid=_groupPhotoGuid;
-@property(retain, nonatomic) NSString *groupPhotoInternalFilePath; // @synthesize groupPhotoInternalFilePath=_groupPhotoInternalFilePath;
-@property(nonatomic) _Bool isMentionOfMe; // @synthesize isMentionOfMe=_isMentionOfMe;
-@property(nonatomic) _Bool isMergedBusinessThread; // @synthesize isMergedBusinessThread=_isMergedBusinessThread;
-@property(nonatomic) _Bool isNotifyAnyway; // @synthesize isNotifyAnyway=_isNotifyAnyway;
-@property(nonatomic) _Bool isReplyToMe; // @synthesize isReplyToMe=_isReplyToMe;
-@property(retain, nonatomic) NSDate *messageDate; // @synthesize messageDate=_messageDate;
 @property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(retain, nonatomic) NSString *messagePlainBody; // @synthesize messagePlainBody=_messagePlainBody;
-@property(retain, nonatomic) NSString *senderHandleID; // @synthesize senderHandleID=_senderHandleID;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldDisplayGroupNameAndPhoto; // @synthesize shouldDisplayGroupNameAndPhoto=_shouldDisplayGroupNameAndPhoto;
-@property(retain, nonatomic) NSString *uncanonicalizedSenderHandleID; // @synthesize uncanonicalizedSenderHandleID=_uncanonicalizedSenderHandleID;
 
 @end
 

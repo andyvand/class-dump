@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIShape, UIVisualEffect;
+@class UIColor;
 
 @interface _UIContextMenuBackgroundDescriptor
 {
     UIColor *_backgroundColor;
-    UIColor *_contentBackgroundColor;
-    UIVisualEffect *_effect;
-    UIShape *_backgroundShape;
 }
 
-- (void);
-- (void);
+- (void)sendCloudKitZoneFetchRequestToNoteFeatureIsOn;
+- (void)replicationSourceIDForSending;
 - (id);
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)mContentLayoutGuideFlushTrailing;
-- (id)dentifier;
+- (void)isNavItemContentLayoutGuideFlushTrailing;
+- (id)UIDestinationViewControllerIdentifier;
 - (void)$­Ï]];
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UIShape *backgroundShape; // @synthesize backgroundShape=_backgroundShape;
-@property(retain, nonatomic) UIColor *contentBackgroundColor; // @synthesize contentBackgroundColor=_contentBackgroundColor;
-@property(retain, nonatomic) UIVisualEffect *effect; // @synthesize effect=_effect;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface RBProcessMap
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_valueMap;
 }
 
 - (void);
@@ -18,16 +15,16 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)committedWordDeletionWithDocumentState:keyboardState: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
-- (id)ltContextWithExplanation: /* Error: Ran out of types for this method. */;
+- (id)defaultContextWithExplanation: /* Error: Ran out of types for this method. */;
 
 @end
 

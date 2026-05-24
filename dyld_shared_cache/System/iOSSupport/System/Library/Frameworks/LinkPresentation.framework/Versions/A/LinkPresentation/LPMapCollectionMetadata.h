@@ -6,42 +6,33 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSArray, NSString;
-
 @interface LPMapCollectionMetadata : LPSpecializationMetadata
 {
     unsigned int _numberOfItems;
-    NSString *_name;
-    LPImage *_icon;
-    LPImage *_image;
-    LPImage *_darkImage;
-    NSArray *_addresses;
-    NSString *_publisherName;
-    LPImage *_publisherIcon;
 }
 
-+ (id);
++ (id)splitViewController:didShowColumn: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)textEffectCoordinator:(id)arg1 highPriorityTextViewIdentifiersForUnplayedVisibleTextViewIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)textEffectCoordinator:(id)arg1 highPriorityTextViewIdentifiersForUnplayedVisibleTextViewIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)textEffectCoordinator:(id)arg1 didDetectInvalidAnimationForTextViewIdentifier: /* Error: Ran out of types for this method. */;
+- (void)textDroppableView:(id)arg1 willPerformDrop: /* Error: Ran out of types for this method. */;
+- (id)systemGrayChevronImage;
+- (_Bool)supportsTelephonyCalls;
+- (void)startLocation;
+- (id)springAnimationWithMass:stiffness:damping:duration: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (void);
+- (id)SIRI_CONVERSATIONS_TITLE;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)] Failed to build EnrichmentSessionIdData for row:(id)arg1 %s.;
 - (id);
 - (unsigned long long);
 - (id);
@@ -50,27 +41,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned int);
+- (void)pAuthSignCtx = NULL
+;
+- (unsigned int)erial number:[%s]
+ /* Error: Ran out of types for this method. */;
 - (void)á÷!LFùQð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
-@property(retain, nonatomic) LPImage *darkImage; // @synthesize darkImage=_darkImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(retain, nonatomic) LPImage *publisherIcon; // @synthesize publisherIcon=_publisherIcon;
-@property(copy, nonatomic) NSString *publisherName; // @synthesize publisherName=_publisherName;
-@property(readonly) Class superclass;
 
 @end
 

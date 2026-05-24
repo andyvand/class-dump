@@ -9,9 +9,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *currentPixelBuffer;
-@property(copy, nonatomic) CDUnknownBlockType pixelBufferDidChangeHandler;
-@property(readonly, nonatomic) struct CGAffineTransform preferredTransform;
-@property(copy, nonatomic) CDUnknownBlockType providePlaceholderHandler;
-@property(readonly, nonatomic) double suppressContentsRect;
 @end
 

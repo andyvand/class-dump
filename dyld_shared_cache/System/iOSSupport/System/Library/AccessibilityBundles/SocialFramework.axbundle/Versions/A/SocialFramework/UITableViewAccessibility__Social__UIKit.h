@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)ARReferenceImageCachedError;
 - (id);
 
 @end

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface SUProductManager
 {
     id _indexFile;
-    NSMutableSet *_lockedProducts;
-    NSObject<OS_dispatch_queue> *_updatesRepoQueue;
 }
 
 + (id);
++ (id)Q;
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
+- (_Bool)_|;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -31,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);

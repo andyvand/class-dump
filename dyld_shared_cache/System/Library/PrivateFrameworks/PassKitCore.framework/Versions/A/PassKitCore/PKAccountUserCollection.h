@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, PKAccountUser;
+@class NSDictionary, NSSet;
 
 @interface PKAccountUserCollection
 {
     NSDictionary *_accountUsersByAltDSID;
-    _Bool _coOwner;
-    NSSet *_accountUsers;
-    PKAccountUser *_currentAccountUser;
-    PKAccountUser *_coOwnerAccountUser;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -24,25 +20,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)q`;
+- (id)a;
+- (id)!;
+- (id)%;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)K*;
+- (_Bool)addLessThan25mIntervalHistogram:(id)arg1;
 - (void);
-- (void)N_PROGRESS_TITLE;
+- (void)ERROR_BACKGROUND_PROVISION_IN_PROGRESS_TITLE;
 - (unsigned long long)àªòÿáØm[ ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accountUsers; // @synthesize accountUsers=_accountUsers;
-@property(readonly, nonatomic, getter=isCoOwner) _Bool coOwner; // @synthesize coOwner=_coOwner;
-@property(readonly, nonatomic) PKAccountUser *coOwnerAccountUser; // @synthesize coOwnerAccountUser=_coOwnerAccountUser;
-@property(readonly, nonatomic) PKAccountUser *currentAccountUser; // @synthesize currentAccountUser=_currentAccountUser;
 
 @end
 

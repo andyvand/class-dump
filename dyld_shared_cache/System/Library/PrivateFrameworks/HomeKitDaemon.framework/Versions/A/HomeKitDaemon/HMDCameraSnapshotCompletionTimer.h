@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (void)HomeGraphVisitor;
 
 // Remaining properties
 @property(readonly) __weak HMDCameraSnapshotSession *snapshotSession; // @synthesize snapshotSession=_snapshotSession;

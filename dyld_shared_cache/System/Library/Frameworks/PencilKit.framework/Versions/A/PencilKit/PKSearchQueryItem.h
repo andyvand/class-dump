@@ -9,7 +9,6 @@
 @interface PKSearchQueryItem
 {
     NSArray *_strokes;
-    struct CGRect _bounds;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, copy, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end
 

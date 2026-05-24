@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)setDistribution: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AXKElementController *leafNode; // @synthesize leafNode=_leafNode;

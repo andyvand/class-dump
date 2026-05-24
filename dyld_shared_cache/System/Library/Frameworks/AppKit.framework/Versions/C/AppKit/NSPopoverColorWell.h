@@ -6,8 +6,6 @@
 
 #import <AppKit/NSColorWell.h>
 
-@class NSString;
-
 @interface NSPopoverColorWell : NSColorWell
 {
     struct {
@@ -16,12 +14,12 @@
     } _flags;
 }
 
-+ (id);
-+ (id);
++ (id)m;
++ (id)X;
 + (void);
 + (Class);
-+ (id);
-- (void);
++ (id)@;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,10 +28,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (_Bool);
+- (CDUnknownBlockType)aggregateAssetDownloadTaskWithURLAsset:mediaSelections:assetTitle:assetArtworkData:options: /* Error: Ran out of types for this method. */;
+- (void)NSURLRequest",C,V_originalRequest;
+- (void)@ into db;
+- (_Bool)valuation to terminalDelegate;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,16 +46,7 @@
 - (void)ÿbí;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType afterRenderer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEmptyColorEnabled) _Bool emptyColorEnabled; // @dynamic emptyColorEnabled;
 @property _Bool hasNoSelection;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

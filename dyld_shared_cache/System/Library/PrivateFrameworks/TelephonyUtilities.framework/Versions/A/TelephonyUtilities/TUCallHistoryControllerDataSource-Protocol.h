@@ -5,5 +5,6 @@
 //
 
 @protocol TUCallHistoryControllerDataSource
+- (void);
 @end
 

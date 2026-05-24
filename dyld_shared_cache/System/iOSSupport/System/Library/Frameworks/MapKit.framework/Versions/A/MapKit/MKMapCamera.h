@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView;
-
 @interface MKMapCamera
 {
     struct CLLocationCoordinate2D _centerCoordinate;
-    double _heading;
-    double _pitch;
-    double _altitude;
-    MKMapView *_mapView;
-    _Bool _pitchAdjustsAltitude;
-    _Bool _needsStateUpdate;
 }
 
 + (id);
@@ -34,8 +26,8 @@
 - (double);
 - (void);
 - (id);
-- (CDStruct_02837cd9);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
+- (CDStruct_90e2a262);
 - (_Bool);
 - (void);
 - (void);
@@ -43,22 +35,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (double);
-- (double);
+- (double);
 - (double);
 - (struct CLLocationCoordinate2D);
 - (void)6@144;
-- (void)aints;
+- (void)_stackConstraints;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) struct CLLocationCoordinate2D centerCoordinate; // @synthesize centerCoordinate=_centerCoordinate;
-@property(nonatomic) double centerCoordinateDistance;
-@property(nonatomic) double heading; // @synthesize heading=_heading;
-@property(nonatomic) double pitch;
 @property(nonatomic, getter=_precisePitch, setter=_setPrecisePitch:) double precisePitch; // @synthesize precisePitch=_pitch;
 
 @end

@@ -5,11 +5,14 @@
 //
 
 @class NSArray, NSString;
-@protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
+- (NSArray *)ersationKit/ParticipantVideoProvider.swift;
+- (void)u;
+- (_Bool);
+- (double)backContext",R,N,V_playbackContext;
 - (_Bool)w with timeDiff:%f, allowedWelcomeMessageTime:%lld /* Error: Ran out of types for this method. */;
-- (NSString *)onsFactory;
+- (NSString *)magazineMoreActionsFactory;
 - (unsigned long long)Q;
 - (NSString *)cription.entitlements.entitlements_override;
 - (unsigned long long)eZøÅ
@@ -21,35 +24,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) _Bool canBePurchased;
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, nonatomic) unsigned long long contentType;
-@property(readonly, nonatomic, getter=isExplicitContent) _Bool explicitContent;
-@property(readonly, nonatomic) unsigned long long feedHalfLifeMilliseconds;
 @property(readonly, copy, nonatomic) NSString *feedID;
-@property(readonly, nonatomic, getter=isFromBlockedStorefront) _Bool fromBlockedStorefront;
-@property(readonly, nonatomic) double globalUserFeedback;
-@property(readonly, nonatomic) _Bool hasVideoStillImage;
-@property(readonly, nonatomic) _Bool isCoread;
-@property(readonly, nonatomic) long long minimumNewsVersion;
-@property(readonly, nonatomic) unsigned long long order;
-@property(readonly, nonatomic) unsigned long long publishDateMilliseconds;
-@property(readonly, nonatomic) long long publisherArticleVersion;
-@property(readonly, nonatomic) unsigned long long role;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCChannelProviding>",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *sourceChannelID;
-@property(readonly, nonatomic, getter=isSponsored) _Bool sponsored;
-@property(readonly, nonatomic) int storyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
-@property(readonly, nonatomic) NSArray *surfacedByArticleListIDs;
 @end
 

@@ -8,12 +8,12 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)er) != nil);
++ (void)TouchBarController removeButton:(id)arg1 ];
++ (void)ddButton:(double)arg1 ];
++ (void)tSheetTouchBarController.m;
++ (void)/Sources/NotesFramework/Ironcade/SharedUI/Mac/ICMAlertSheetTouchBarController.m;
++ (void)rary/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/Mac/ICMAlertSheetTouchBarController.m;
 + (id);
 
 @end

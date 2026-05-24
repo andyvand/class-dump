@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     id <SOAddRemoveActionBarCellDelegate> _customDelegate;
 }
 
-- (void);
-- (id);
+- (void)pletionHandler:(id)arg1;
+- (id)mailboxIDForMailboxURL:useNumericSearch:supportsLabels: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (double);

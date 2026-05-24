@@ -5,5 +5,8 @@
 //
 
 @protocol AKAuthorizationViewControllerDelegate
+
+@optional
+- (void)XTm;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol ABGroupDropHelper
-- (void):(void (^)(void))arg1;
+- (unsigned long long);
+- (void)setHostingController:(void (^)(void))arg1;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorAudioMessage
 {
@@ -19,10 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSAttributedString *content;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *inlineAudioMessages;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
 
 @end
 

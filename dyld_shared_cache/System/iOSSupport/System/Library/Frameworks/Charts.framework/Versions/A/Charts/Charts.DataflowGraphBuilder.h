@@ -8,14 +8,6 @@
 {
     id scaleSignals;
     id plotAreaContents;
-    id xAxis;
-    id yAxis;
-    id selectionSignal;
-    id legendContext;
-    id accessibilityElements;
-    id accessibilityAudioGraph;
-    id paddingAroundPlotArea;
-    id safeMarginAroundPlotArea;
 }
 
 @end

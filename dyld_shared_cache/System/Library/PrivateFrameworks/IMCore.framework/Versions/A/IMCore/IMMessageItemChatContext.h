@@ -11,7 +11,6 @@
 @interface IMMessageItemChatContext : IMItemChatContext
 {
     _Bool _invitation;
-    IMMessage *_message;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void)ÄÕ;
 
 // Remaining properties
-@property(nonatomic) _Bool invitation; // @synthesize invitation=_invitation;
 @property(retain, nonatomic) IMMessage *message; // @synthesize message=_message;
 
 @end

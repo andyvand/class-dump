@@ -6,7 +6,7 @@
 
 #import <TelephonyUtilities/TUConversationActivityCreateSessionRequest.h>
 
-@class CKShare, NSData, NSString, NSUUID, TUConversationActivityMetadata;
+@class NSUUID;
 
 @interface TUMutableConversationActivityCreateSessionRequest : TUConversationActivityCreateSessionRequest
 {
@@ -15,10 +15,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @dynamic UUID;
-@property(copy, nonatomic) NSString *activityIdentifier; // @dynamic activityIdentifier;
-@property(copy, nonatomic) NSData *applicationContext; // @dynamic applicationContext;
-@property(retain, nonatomic) TUConversationActivityMetadata *metadata; // @dynamic metadata;
-@property(copy, nonatomic) CKShare *share; // @dynamic share;
-@property(copy, nonatomic) NSString *staticIdentifier; // @dynamic staticIdentifier;
 @end
 

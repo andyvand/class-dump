@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.PodcastPlaybackPositionDataAttributes
 {
     id positionInMilliseconds;
-    id completed;
-    id recordedAtTimestamp;
 }
 
 @end

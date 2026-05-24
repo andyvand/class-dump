@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCGamepadEventHID
 {
     struct __IOHIDEvent *_extendedEvent;
-    struct __IOHIDEvent *_event;
 }
 
 - (_Bool);
@@ -19,18 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (struct __IOHIDEvent *);
-- (id);
+- (id)shouldPresentConsentUIForAccount:(struct _NSZone *)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) struct __IOHIDEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long timestamp;
 
 @end
 

@@ -6,55 +6,43 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface SSMusicResultBuilder : SSResultBuilder
 {
     _Bool _isExplicit;
-    NSDate *_creationDate;
-    NSString *_album;
-    NSString *_artist;
-    NSString *_mediaId;
-    NSString *_song;
-    NSNumber *_songLengthInSeconds;
 }
 
-+ (id);
-+ (_Bool);
++ (id)Point=dd}{CGSize=dd}}48@80;
++ (_Bool)_;
 + (id);
 - (id);
 - (void);
 - (unsigned long long);
+- (id)setNeedsSpaceAffordanceForDeleteButton: /* Error: Ran out of types for this method. */;
+- (id)setMaximumResponseCount: /* Error: Ran out of types for this method. */;
+- (id)setLanguage: /* Error: Ran out of types for this method. */;
+- (id)setIsFinished: /* Error: Ran out of types for this method. */;
+- (id)setIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)setIgnoreSafeAreaInset: /* Error: Ran out of types for this method. */;
+- (id)setIconProvider: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void)mutableCopy;
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void)opertyName:withQueryString:isCJK:isBullseyeSearch:withEvaluator:keyboardLanguage:seenAuthorEmail:seenPrimaryRecipientEmail: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)TRIFactorPackSetStorage;
+- (void)getBundleSpecificValue:forPropertyName:withQueryString:isCJK:isBullseyeSearch:withEvaluator:keyboardLanguage:seenAuthorEmail:seenPrimaryRecipientEmail: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *artist; // @synthesize artist=_artist;
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(retain, nonatomic) NSString *mediaId; // @synthesize mediaId=_mediaId;
-@property(retain, nonatomic) NSString *song; // @synthesize song=_song;
-@property(retain, nonatomic) NSNumber *songLengthInSeconds; // @synthesize songLengthInSeconds=_songLengthInSeconds;
 
 @end
 

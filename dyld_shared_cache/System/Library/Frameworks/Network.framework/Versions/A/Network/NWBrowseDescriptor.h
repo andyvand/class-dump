@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_nw_browse_descriptor;
 
 @interface NWBrowseDescriptor
@@ -14,30 +14,27 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)_֡;
 + (Class);
-+ (unsigned int);
++ (unsigned int)height"d}"windowFrameMinSize"{CGSize="width"d"height"d}"windowFrameMaxSize"{CGSize="width"d"height"d}"serviceViewFrame"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"serviceWindowID"I"touchBarsDescription"@"NSArray"};
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
+- (id)Q}]}24@0:8@16 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)dMessage;
+- (id)composedMessage;
 - (id)
 ;
 - (id)qd_pG;
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bonjourServiceDomain;
-@property(readonly, nonatomic) NSString *bonjourServiceType;
 @property(retain, nonatomic) NSObject<OS_nw_browse_descriptor> *internalDescriptor; // @synthesize internalDescriptor=_internalDescriptor;
-@property(readonly, copy, nonatomic) NSString *privateDescription;
 
 @end
 

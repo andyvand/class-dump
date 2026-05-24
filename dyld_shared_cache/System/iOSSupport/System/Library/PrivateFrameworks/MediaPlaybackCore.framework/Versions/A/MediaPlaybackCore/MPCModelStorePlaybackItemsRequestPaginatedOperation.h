@@ -5,32 +5,27 @@
 //
 
 @class MPCModelStorePlaybackItemsRequest, MPCPlaybackAccount;
-@protocol MPCModelStorePlaybackItemsRequestAccumulator;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelStorePlaybackItemsRequestPaginatedOperation
 {
     MPCPlaybackAccount *_account;
-    id <MPCModelStorePlaybackItemsRequestAccumulator> _accumulator;
-    MPCModelStorePlaybackItemsRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ns/C/Foundation;
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (void)c}@ [%.3fs];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPCModelStorePlaybackItemsRequest *request; // @synthesize request=_request;
-@property(readonly, copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

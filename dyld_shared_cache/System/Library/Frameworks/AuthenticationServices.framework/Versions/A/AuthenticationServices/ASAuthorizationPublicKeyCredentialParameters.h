@@ -9,7 +9,7 @@
     long long _algorithm;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (id);
 - (long long);

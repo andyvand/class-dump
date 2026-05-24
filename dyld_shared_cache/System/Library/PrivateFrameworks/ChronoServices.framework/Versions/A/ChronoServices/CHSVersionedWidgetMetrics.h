@@ -17,7 +17,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)covery Flow with context (%@);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CHSVersionedWidgetMetrics *priorVersionedWidgetMetrics;

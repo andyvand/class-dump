@@ -9,9 +9,6 @@
 @interface SoundAnalysis.SNDSPGraphInfo : SoundAnalysis.SNDSPItemInfo
 {
     id path;
-    id text;
-    id includePaths;
-    id substitutions;
 }
 
 - (id);

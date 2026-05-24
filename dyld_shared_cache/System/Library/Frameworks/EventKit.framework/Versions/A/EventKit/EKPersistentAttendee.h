@@ -6,46 +6,37 @@
 
 #import <EventKit/EKPersistentParticipant.h>
 
-@class NSDate;
-
 @interface EKPersistentAttendee : EKPersistentParticipant
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)(CoreUtils)] Pairing device %@...;
++ (id)backQueueDataSourceCreateChildContentItemCallback, MRPlaybackQueueRequest *__strong, MRContentItem *__strong);
++ (id)eateSectionsForRequest(MRNowPlayingPlayerClient *__strong, __strong MRPlaybackQueueDataSourceCreateChildContentItemCallback, MRPlaybackQueueRequest *__strong, MRContentItem *__strong);
 + (Class);
 + (id);
-+ (id);
++ (id);
 - (int);
 - (void);
-- (void);
+- (void)l$;
 - (void);
 - (int);
+- (id)T;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ations for legacy clients because new device added:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long)sharedAccountsAuthenticationPluginConfig;
+- (long long)setTimeoutIntervalForRequest: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (int);
 - (id);
-- (unsigned int);
-- (void);
+- (unsigned int)layerHostingView;
+- (void)Type &) [Key = WTF:(unsigned int)arg1:String, Value = WTF::String, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ASCIICaseInsensitiveHash, Traits = WTF::HashTraits<String>, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool commentChanged; // @dynamic commentChanged;
-@property(copy, nonatomic) NSDate *lastModified; // @dynamic lastModified;
-@property(nonatomic) long long participantRole; // @dynamic participantRole;
-@property(nonatomic) long long participantType; // @dynamic participantType;
-@property(nonatomic) int pendingStatus; // @dynamic pendingStatus;
-@property(nonatomic) _Bool proposedStartDateChanged; // @dynamic proposedStartDateChanged;
-@property(nonatomic) _Bool statusChanged; // @dynamic statusChanged;
 @property(nonatomic) int statusRaw; // @dynamic statusRaw;
 
 @end

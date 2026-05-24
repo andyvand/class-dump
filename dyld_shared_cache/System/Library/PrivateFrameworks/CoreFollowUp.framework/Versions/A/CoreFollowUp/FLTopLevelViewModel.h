@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLFollowUpController, FLItemChangeObserver, NSMutableDictionary, NSString;
+@class FLFollowUpController, NSString;
 
 @interface FLTopLevelViewModel
 {
     FLFollowUpController *_controller;
-    FLItemChangeObserver *_observer;
-    NSString *_bundleIdentifier;
-    NSMutableDictionary *_timersByID;
-    NSString *_localizedDeviceRowTitle;
 }
 
 + (id);
@@ -21,8 +17,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)_onPersistenceManagerNotification: /* Error: Ran out of types for this method. */;
+- (void)!;
 - (id);
 - (void);
 - (void);
@@ -40,14 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *localizedDeviceRowTitle; // @synthesize localizedDeviceRowTitle=_localizedDeviceRowTitle;
-@property(readonly) Class superclass;
 
 @end
 

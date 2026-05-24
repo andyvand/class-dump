@@ -6,24 +6,23 @@
 
 #import <UserNotificationsKit/NCNotificationAction.h>
 
-@class NSDictionary, NSString, NSURL;
-@protocol NCNotificationActionRunner;
+@class NSString;
 
 @interface NCMutableNotificationAction : NCNotificationAction
 {
 }
 
+- (void)ssetBundle];
+- (void)]_block_invoke;
+- (void)CloudKitSyncSession.m;
+- (void)setWalrusEnabled:(id)arg1 ];
+- (void)VCVoiceShortcutMigrationDidRun;
+- (void)t;
+- (void)WFAllowDeletingWithoutConfirmationKey;
 - (void);
+- (_Bool)a;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)=̊=q;
 - (void);
 - (void);
 - (void);
@@ -31,19 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <NCNotificationActionRunner> actionRunner; // @dynamic actionRunner;
-@property(nonatomic) unsigned long long activationMode; // @dynamic activationMode;
-@property(nonatomic) unsigned long long behavior; // @dynamic behavior;
-@property(copy, nonatomic) NSDictionary *behaviorParameters; // @dynamic behaviorParameters;
-@property(nonatomic, getter=isDestructiveAction) _Bool destructiveAction; // @dynamic destructiveAction;
-@property(copy, nonatomic) NSString *iconImageBundlePath; // @dynamic iconImageBundlePath;
-@property(copy, nonatomic) NSString *iconImageName; // @dynamic iconImageName;
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(nonatomic) _Bool isSiriActionCandidate; // @dynamic isSiriActionCandidate;
-@property(copy, nonatomic) NSString *launchBundleID; // @dynamic launchBundleID;
-@property(copy, nonatomic) NSURL *launchURL; // @dynamic launchURL;
-@property(nonatomic) _Bool requiresAuthentication; // @dynamic requiresAuthentication;
-@property(nonatomic) _Bool shouldDismissNotification; // @dynamic shouldDismissNotification;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

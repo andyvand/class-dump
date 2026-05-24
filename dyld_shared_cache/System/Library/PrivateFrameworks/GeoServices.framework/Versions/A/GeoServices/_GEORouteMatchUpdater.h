@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, GEOMapFeatureAccess, GEOMotionContext, GEOTransitRouteMatcher;
+@class GEOTransitRouteMatcher;
 
 __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater
 {
     GEOTransitRouteMatcher *_routeMatcher;
-    GEOComposedRoute *_route;
-    GEOMapFeatureAccess *_mapFeatureAccess;
-    GEOMotionContext *_motionContext;
-    GEOApplicationAuditToken *_auditToken;
-    double _stationRadius;
 }
 
 - (_Bool);
 - (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (double)phoneticFirstName;
+- (_Bool)initWithNeedsMovedAside:(id)arg1 message:(CDStruct_c3b9c2ee)arg2 reason:(unsigned long long)arg3;
+- (_Bool)initWithName:(id)arg1 type:(id)arg2 writable: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithName:(id)arg1;
 - (void)ýÿÿÿ;
 - (unsigned long long);
 

@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (id);
-- (void)rationRule;
+- (id)n;
+- (void)MapPreferenceMigrationRule;
 
 @end
 

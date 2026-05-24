@@ -6,7 +6,6 @@
 
 #import <AppKit/NSRemoteMenuImpl.h>
 
-@class NSMenuTrackingSession;
 @protocol NSMenuBarImplDelegate;
 
 __attribute__((visibility("hidden")))
@@ -15,33 +14,30 @@ __attribute__((visibility("hidden")))
     id <NSMenuBarImplDelegate> menuBarDelegate;
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)backgroundTaskDidSuspend: /* Error: Ran out of types for this method. */;
++ (void)nvoke;
++ (void)]:Attempting to closeRead on a URLSessionStreamTask after task has completed /* Error: Ran out of types for this method. */;
+- (void)32^v40;
+- (_Bool)initWithUser:password:initialAccess: /* Error: Ran out of types for this method. */;
+- (void)encodeBool:forKey: /* Error: Ran out of types for this method. */;
+- (void)backgroundTask:(id)arg1 didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)_allowsExpensiveNetworkAccess;
+- (void);
+- (void);
+- (id);
+- (void)Define -[%s %s]!;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)2zo;
+- (id):VI /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)hh8׫;
+- (id)P;
 - (void)`Î¤ÿå;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isLocalInstance;
 @property(nonatomic, retain) id <NSMenuBarImplDelegate> menuBarDelegate; // @synthesize menuBarDelegate;
-@property(nonatomic, readonly) _Bool shouldPresentAsPullDown;
-@property(nonatomic, retain) NSMenuTrackingSession *trackingSession;
 
 @end
 

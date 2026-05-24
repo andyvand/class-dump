@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol ECDMARCRecordSource
+- (NSArray *)enhance dialogue option:(NSString *)arg1 %@;
 @end
 

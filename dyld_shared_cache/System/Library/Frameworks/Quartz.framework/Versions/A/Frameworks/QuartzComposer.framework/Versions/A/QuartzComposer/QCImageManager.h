@@ -4,48 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFList, NSDictionary, NSMutableDictionary, QCCGLContext, QCResourcePool;
-@protocol QCCache;
+@class NSDictionary;
 
 @interface QCImageManager
 {
     NSDictionary *_options;
-    QCCGLContext *_context;
-    NSMutableDictionary *_userInfo;
-    struct __CFBag *_clients;
-    struct _opaque_pthread_mutex_t _managerMutex;
-    QCResourcePool *_pixelBufferPool;
-    QCResourcePool *_textureBufferPool;
-    QCResourcePool *_texturePool;
-    id <QCCache> _providerImageCache;
-    id <QCCache> _representationCache;
-    id <QCCache> _conversionCache;
-    id <QCCache> _sequenceCache;
-    id <QCCache> _imageCache;
-    double _ageConfidence;
-    double _requestedRAM;
-    double _maximumAvailableRAM;
-    double _requestedVRAM[8];
-    double _maximumAvailableVRAM[8];
-    long long _rendererID[8];
-    double _reclaimResourcesTimestamp;
-    double _GCReclaimResourcesTimestamp;
-    GFList *_converterCache;
-    unsigned long long _converterCacheTimestamp;
-    struct _opaque_pthread_mutex_t _converterCacheMutex;
-    NSMutableDictionary *_exporterClassCache;
-    NSMutableDictionary *_exporterTypeCache;
-    unsigned long long _exporterCacheTimestamp;
-    struct _opaque_pthread_mutex_t _exporterCacheMutex;
-    NSMutableDictionary *_convertersList;
-    struct _opaque_pthread_mutex_t _convertersListMutex;
-    struct _opaque_pthread_cond_t _convertersListCondition;
-    NSMutableDictionary *_exportersList;
-    struct _opaque_pthread_mutex_t _exportersListMutex;
-    struct _opaque_pthread_cond_t _exportersListCondition;
-    void *_cvTextureCache;
-    struct _QCCacheProfileInfo *_cacheProfileInfo;
-    void *_unused[1];
 }
 
 + (id);
@@ -53,14 +16,14 @@
 + (float);
 + (id);
 + (id);
-+ (double);
++ (double)__objc_ivar;
 + (id);
-+ (void)ions;
++ (void)keyframedAnimations;
 - (void);
+- (id);
+- (void)C;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -104,11 +67,11 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)MTLTextureTypeCubeArray;
 - (void);
 - (void);
 

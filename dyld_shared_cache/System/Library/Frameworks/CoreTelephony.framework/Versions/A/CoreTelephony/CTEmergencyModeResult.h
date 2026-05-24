@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTEmergencyMode, CTXPCServiceSubscriptionContext;
+@class CTEmergencyMode;
 
 @interface CTEmergencyModeResult
 {
     CTEmergencyMode *_mode;
-    CTXPCServiceSubscriptionContext *_context;
 }
 
-+ (_Bool);
++ (_Bool)sourceTrackID;
 - (id);
-- (id);
+- (id)-;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CTXPCServiceSubscriptionContext *context; // @synthesize context=_context;
 @property(readonly, nonatomic) CTEmergencyMode *mode; // @synthesize mode=_mode;
 
 @end

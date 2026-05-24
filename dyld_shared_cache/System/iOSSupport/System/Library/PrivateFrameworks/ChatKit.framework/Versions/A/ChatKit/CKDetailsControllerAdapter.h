@@ -4,64 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBusinessDetailsController, CKConversation, CKDetailsController, NSString, UIViewController;
-@protocol CKDetailsControllerAdapterDelegate, UINavigationControllerDelegate;
+@class CKConversation;
 
 @interface CKDetailsControllerAdapter
 {
     _Bool _useBusinessDetails;
-    _Bool _addMemberPopoverPresented;
-    id <CKDetailsControllerAdapterDelegate> _delegate;
-    CKConversation *_conversation;
-    UIViewController<UINavigationControllerDelegate> *_detailsController;
-    CKDetailsController *_legacyDetails;
-    CKBusinessDetailsController *_businessDetails;
-    UIViewController<UINavigationControllerDelegate> *_modernDetails;
-    UIViewController<UINavigationControllerDelegate> *_customDetails;
 }
 
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)didFailToUpdateShareWithError:(id)arg1;
+- (id)dataWithContentsOfURL:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)createAndAddSubAttachmentsToGalleryAttachment:fromDocuments:imageCache:context: /* Error: Ran out of types for this method. */;
+- (void)riptMessageHandler;
+- (void)@"NSWindow",&,V_containingWindow;
+- (void)FetchedResultsController",&,N,V_fetchedResultsController;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)So17ICCoreDataIndexerC;
+- (id);
+- (id)a;
+- (_Bool)c;
+- (_Bool)s;
+- (id)t;
 - (id);
 - (id);
+- (void)5;
+- (void)lling back to PDF (error:%@) /* Error: Ran out of types for this method. */;
+- (void)attachment size:(CDUnknownBlockType)arg1 %hd;
+- (void)Attachment is nil;
+- (void)om index {objectID:(id)arg1 %@, section:(id)arg2 %@};
+- (void)dle attachment was invalid;
+- (void)writing out file for note export:(id)arg1 %@;
+- (void)arting to generate System Paper image for attachment %@;
+- (void)ng System Paper image for attachment %@;
 - (void);
+- (void)use range is invalid {attachment:(id)arg1 %@};
+- (void)%@ %@ %@ early return;
+- (void)ing skipping timestamp updates without corresponding begin;
+- (void)to rotating media for attachment:(id)arg1 %@;
+- (id)mbnail view when it is hidden;
+- (void)writing recognition %@ for %@;
+- (void)string;
+- (id)ICAttachment:%{private}@ at %@ /* Error: Ran out of types for this method. */;
+- (id)thumbnails;
+- (void)ier;
 - (_Bool);
 - (id);
 - (id);
@@ -74,23 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool addMemberPopoverPresented; // @synthesize addMemberPopoverPresented=_addMemberPopoverPresented;
-@property(retain, nonatomic) CKBusinessDetailsController *businessDetails; // @synthesize businessDetails=_businessDetails;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(nonatomic) __weak UIViewController<UINavigationControllerDelegate> *customDetails; // @synthesize customDetails=_customDetails;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKDetailsControllerAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIViewController<UINavigationControllerDelegate> *detailsController; // @synthesize detailsController=_detailsController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isShowingAddMemberPopover;
-@property(retain, nonatomic) CKDetailsController *legacyDetails; // @synthesize legacyDetails=_legacyDetails;
-@property(retain, nonatomic) UIViewController<UINavigationControllerDelegate> *modernDetails; // @synthesize modernDetails=_modernDetails;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useBusinessDetails; // @synthesize useBusinessDetails=_useBusinessDetails;
 
 @end
 

@@ -4,51 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOMapAssetMetadataFetcher, GEOSPRMetroAvailabilityFetcher, GEOTileKeyList, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface GEONavRoutePreloadStep
 {
     CDStruct_2c43369c coord;
-    double routeIdx;
-    NSMutableDictionary *wantedTiles;
-    GEOTileKeyList *assetMetadataTiles;
-    double startTime;
-    double endTime;
-    unsigned int bytesLoadedFromNetwork;
-    unsigned int generation;
-    int cellularCoverage;
-    unsigned int nearManeuver:1;
-    unsigned int loading:1;
-    unsigned int loaded:1;
-    GEOApplicationAuditToken *_auditToken;
-    GEOSPRMetroAvailabilityFetcher *_sprMetrosAvailabilityFetcher;
-    GEOMapAssetMetadataFetcher *_assetMetadataFetcher;
-    unsigned int _errorCount;
-    unsigned int _lifetimeErrorCount;
-    unsigned char _metrosSupported;
-    unsigned long long _parentSignpostID;
-    unsigned long long _signpostID;
 }
 
 - (void);
 - (_Bool);
 - (double);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)nfo :%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool)¹7DÆ6;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasError;
-@property(readonly, nonatomic) _Bool hasLifetimeError;
 
 @end
 

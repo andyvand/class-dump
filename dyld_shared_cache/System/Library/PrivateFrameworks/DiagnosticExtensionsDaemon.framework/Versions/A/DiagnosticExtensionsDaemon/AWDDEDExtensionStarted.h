@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDDEDExtensionStarted
 {
     unsigned long long _timestamp;
-    NSString *_extension;
-    CDStruct_b5306035 _has;
 }
 
-- (id);
+- (id)serializedSession;
+- (void)ZoneZoneReference",&,N,V_parentReference;
 - (void);
-- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)M5;
+- (_Bool)GnssMsmtAnalysisToolData.UserToSatelliteState;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *extension; // @synthesize extension=_extension;
-@property(readonly, nonatomic) _Bool hasExtension;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

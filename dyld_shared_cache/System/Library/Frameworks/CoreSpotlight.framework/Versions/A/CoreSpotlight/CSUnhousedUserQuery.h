@@ -6,18 +6,16 @@
 
 #import <CoreSpotlight/CSUserQuery.h>
 
-@class CSSearchConnection, NSString;
+@class NSString;
 
 @interface CSUnhousedUserQuery : CSUserQuery
 {
     NSString *_resolvedIndexPath;
-    NSString *_indexPath;
-    CSSearchConnection *_savedConnection;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -29,16 +27,14 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)(;
+- (void)n;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) NSString *resolvedIndexPath;
-@property(retain, nonatomic) CSSearchConnection *savedConnection; // @synthesize savedConnection=_savedConnection;
 
 @end
 

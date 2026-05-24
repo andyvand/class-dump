@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
-@protocol CNCancelable;
+@class CALayer;
 
 @interface CNUIAvatarLayoutLayerItem
 {
     CALayer *_layer;
-    id <CNCancelable> _avatarImageRendererToken;
-    NSString *_identifier;
 }
 
 - (void);
 - (id);
+- (id)p;
+- (void);
+- (id);
+- (void)outlineView:namesOfPromisedFilesDroppedAtDestination:forDraggedItems: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)ssionIfNecessaryWithSnapshotOfItems: /* Error: Ran out of types for this method. */;
+- (void)startEditingSessionIfNecessaryWithSnapshotOfItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNCancelable> avatarImageRendererToken; // @synthesize avatarImageRendererToken=_avatarImageRendererToken;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) CALayer *layer; // @synthesize layer=_layer;
 
 @end

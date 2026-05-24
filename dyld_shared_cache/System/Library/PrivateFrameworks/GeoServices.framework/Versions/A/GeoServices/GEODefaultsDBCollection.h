@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
-- (void)asSpeedingCard;
+- (void)H! ;
+- (id)ime as NOW;
+- (void)hasSpeedingCard;
 
 @end
 

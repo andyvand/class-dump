@@ -8,12 +8,6 @@
 {
     id id;
     id keys;
-    id subgraph;
-    id displayList;
-    id layoutComptuer;
-    id index;
-    id seed;
-    id isRemoved;
 }
 
 @end

@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface SAMountStatusTracker
 {
     NSMutableSet *_threadsSeen;
-    NSMutableDictionary *_mountStatusDict;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityFrontmost;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

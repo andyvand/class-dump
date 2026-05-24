@@ -7,12 +7,11 @@
 @interface NewsArticles.TableOfContentsPDFCellView
 {
     id imageView;
-    id borderLayer;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)appConfigManager;
 
 @end
 

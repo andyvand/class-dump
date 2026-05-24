@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSSet;
 
 @interface PGPublicEventFetchResults
 {
     NSSet *_momentNodesForConsolidatedAddresses;
-    NSDictionary *_publicEventsByTimeLocationTupleIdentifier;
-    NSDictionary *_consolidatedAddressesByMomentIdentifier;
 }
 
 - (void);
@@ -23,9 +21,7 @@
 - (void)RevGeocodeProcessor.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *consolidatedAddressesByMomentIdentifier; // @synthesize consolidatedAddressesByMomentIdentifier=_consolidatedAddressesByMomentIdentifier;
 @property(retain, nonatomic) NSSet *momentNodesForConsolidatedAddresses; // @synthesize momentNodesForConsolidatedAddresses=_momentNodesForConsolidatedAddresses;
-@property(retain, nonatomic) NSDictionary *publicEventsByTimeLocationTupleIdentifier; // @synthesize publicEventsByTimeLocationTupleIdentifier=_publicEventsByTimeLocationTupleIdentifier;
 
 @end
 

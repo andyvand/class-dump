@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAtomicUnsignedIntegerGenerator, NSObject, NSString;
-@protocol CNContactPosterDataStore, OS_dispatch_queue;
+@protocol CNContactPosterDataStore;
 
 __attribute__((visibility("hidden")))
 @interface _ListenerStoreAdapter
 {
     id <CNContactPosterDataStore> _store;
-    NSObject<OS_dispatch_queue> *_queue;
-    CNAtomicUnsignedIntegerGenerator *_integerGenerator;
 }
 
 - (id);
@@ -22,22 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)reports integrity in question; offlining/flushing required;
 - (id);
 - (void);
 - (id)act:(id)arg1 contact;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CNAtomicUnsignedIntegerGenerator *integerGenerator; // @synthesize integerGenerator=_integerGenerator;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly) id <CNContactPosterDataStore> store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

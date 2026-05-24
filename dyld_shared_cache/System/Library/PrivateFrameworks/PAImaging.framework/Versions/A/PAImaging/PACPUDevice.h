@@ -13,7 +13,7 @@
     _PALowPriorityCPUDevice *_lowPriorityDevice;
 }
 
-+ (id);
++ (id)zeroKeywordMeaning;
 + (id);
 - (id);
 - (id);

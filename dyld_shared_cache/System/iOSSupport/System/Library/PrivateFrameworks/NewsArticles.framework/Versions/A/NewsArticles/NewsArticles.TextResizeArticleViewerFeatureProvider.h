@@ -7,7 +7,6 @@
 @interface NewsArticles.TextResizeArticleViewerFeatureProvider
 {
     id paidAccessChecker;
-    id tipSourceManager;
 }
 
 @end

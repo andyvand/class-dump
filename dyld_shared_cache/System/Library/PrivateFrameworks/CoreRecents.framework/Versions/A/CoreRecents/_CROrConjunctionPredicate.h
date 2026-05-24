@@ -13,14 +13,14 @@
     NSArray *_subpredicates;
 }
 
-+ (_Bool);
++ (_Bool)leEventByInputMethod;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ull or it does not have type CFDictionaryGetTypeID;
 - (_Bool);
 - (void);
-- (id);
+- (id)ic day of the year concise;
 - (void);
 
 // Remaining properties

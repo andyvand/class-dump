@@ -4,26 +4,150 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLLogState;
-
 @interface MTLCommandQueueDescriptor
 {
     unsigned long long _maxCommandBufferCount;
-    id <MTLLogState> _logState;
 }
 
 + (id);
 + (id)è/;
 + (id)Ál;
-- (void);
+- (void)y(s);
+}
+
+hvec4 srgb_to_linear (hvec4 s)
+{
+    s = unpremultiply(s);
+    s.rgb = sign(s.rgb)*mix(abs(s.rgb)*0.077399380804954h, pow(abs(s.rgb)*0.947867298578199h + 0.052132701421801h, hvec3(2.4h)), step(0.04045h, abs(s.rgb)));
+    return premultiply(s);
+}
+
+// for kIntermediateNeedsSRGBConversion support
+vec4 _srgb_to_linear (vec4 s)
+{
+    s.rgb = sign(s.rgb)*mix(abs(s.rgb)*0.077399380804954, pow(abs(s.rgb)*0.947867298578199 + 0.052132701421801, vec3(2.4)), step(0.04045, abs(s.rgb)));
+    return s;
+}
+
+// Converts a color from linear to sRGB tone curve.
+vec3 linear_to_srgb (vec3 s)
+{
+    return sign(s)*mix(abs(s)*12.92, pow(abs(s), vec3(0.4166667)) * 1.055 - 0.055, step(0.0031308, abs(s)));
+}
+
+hvec3 linear_to_srgb (hvec3 s)
+{
+    return sign(s)*mix(abs(s)*12.92h, pow(abs(s), hvec3(0.4166667h)) * 1.055h - 0.055h, step(0.0031308h, abs(s)));
+}
+
+// Converts a premultiplied color from linear to sRGB tone curve.
+vec4 linear_to_srgb (vec4 s)
+{
+    s = unpremultiply(s);
+    s.rgb = sign(s.rgb)*mix(abs(s.rgb)*12.92, pow(abs(s.rgb), vec3(0.4166667)) * 1.055 - 0.055, step(0.0031308, abs(s.rgb)));
+    return premultiply(s);
+}
+
+hvec4 linear_to_srgb (hvec4 s)
+{
+    s = unpremultiply(s);
+    s.rgb = sign(s.rgb)*mix(abs(s.rgb)*12.92h, pow(abs(s.rgb), hvec3(0.4166667h)) * 1.055h - 0.055h, step(0.0031308h, abs(s.rgb)));
+    return premultiply(s);
+}
+
+// for kIntermediateNeedsSRGBConversion support
+vec4 _linear_to_srgb (vec4 s)
+{
+    s.rgb = sign(s.rgb)*mix(abs(s.rgb)*12.92, pow(abs(s.rgb), vec3(0.4166667)) * 1.055 - 0.055, step(0.0031308, abs(s.rgb)));
+    return s;
+}
+
+// Returns the position, in working space coordinates, of the pixel currently being computed.
+// The destination space refers to the coordinate space of the image you are rendering.
+vec2 destCoord ()
+{
+    return _dc;
+}
+
+// Simulate a GLSL 4.00+ textureGather call
+// xyzw in counter clockwise order, starting with the sample to the lower left of the queried location
+
+#define _samplerOffset(src, offset) (samplerTransform(src,offset) - samplerTransform(src,vec2(0.0)))
+
+//TODO:Need to snap 'point' to nearest 2x2 pixel grid center, since samplers may not be using nearest filtering.
+
+vec4 gatherX (sampler src, vec2 point)
+{
+    vec4 r = vec4(
+        sample(src, point+_samplerOffset(src,vec2(-0.5,-0.5))).x,
+        sample(src, point+_samplerOffset(src,vec2( 0.5,-0.5))).x,
+        sample(src, point+_samplerOffset(src,vec2( 0.5, 0.5))).x,
+        sample(src, point+_samplerOffset(src,vec2(-0.5, 0.5))).x);
+    return r;
+}
+
+vec4 gatherY (sampler src, vec2 point)
+{
+    vec4 r = vec4(
+        sample(src, point+_samplerOffset(src,vec2(-0.5,-0.5))).y,
+        sample(src, point+_samplerOffset(src,vec2( 0.5,-0.5))).y,
+        sample(src, point+_samplerOffset(src,vec2( 0.5, 0.5))).y,
+        sample(src, point+_samplerOffset(src,vec2(-0.5, 0.5))).y);
+    return r;
+}
+
+vec4 gatherZ (sampler src, vec2 point)
+{
+    vec4 r = vec4(
+        sample(src, point+_samplerOffset(src,vec2(-0.5,-0.5))).z,
+        sample(src, point+_samplerOffset(src,vec2( 0.5,-0.5))).z,
+        sample(src, point+_samplerOffset(src,vec2( 0.5, 0.5))).z,
+        sample(src, point+_samplerOffset(src,vec2(-0.5, 0.5))).z);
+    return r;
+}
+
+vec4 gatherW (sampler src, vec2 point)
+{
+    vec4 r = vec4(
+        sample(src, point+_samplerOffset(src,vec2(-0.5,-0.5))).w,
+        sample(src, point+_samplerOffset(src,vec2( 0.5,-0.5))).w,
+        sample(src, point+_samplerOffset(src,vec2( 0.5, 0.5))).w,
+        sample(src, point+_samplerOffset(src,vec2(-0.5, 0.5))).w);
+    return r;
+}
+
+// Equivalent to gather{X|Y|Z|W}
+#define _unordered_gatherX(src, point) gatherX(src, point)
+#define _unordered_gatherY(src, point) gatherY(src, point)
+#define _unordered_gatherZ(src, point) gatherZ(src, point)
+#define _unordered_gatherW(src, point) gatherW(src, point)
+
+// Equivalent to samplerExtent (src).xy.
+#define samplerOrigin(src) samplerExtent(src).xy
+
+// Equivalent to samplerExtent (src).zw.
+#define samplerSize(src) samplerExtent(src).zw
+
+// Stubs for compute kernels compiled with Fosl (to be replaced with context-dependent implementations, post-Fosl codegen)
+void writeImage (vec4 color, vec2 point) {}
+void writeImagePlane (vec4 color, vec2 point) {}
+vec2 writeCoord () { return vec2(0.0); }
+
+// Rename some (C++) reserved keywords to avoid conflict with Metal shading language
+#define new _new
+#define delete _delete
+#define and _and
+#define not _not
+#define or _or
+#define xor _xor
+  /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLLogState> logState; // @synthesize logState=_logState;
 @property(nonatomic) unsigned long long maxCommandBufferCount; // @synthesize maxCommandBufferCount=_maxCommandBufferCount;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMergeableDeltaVectors, NSSet, NSString;
+@class CKMergeableDeltaVectors;
 
 @interface CKMergeableDeltaMetadata
 {
     CKMergeableDeltaVectors *_vectors;
-    NSSet *_replacedDeltaIdentifiers;
-    NSString *_identifier;
 }
 
 @end

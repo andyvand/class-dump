@@ -16,20 +16,20 @@ __attribute__((visibility("hidden")))
 
 + (float);
 + (id);
-+ (id);
++ (id)k	;
 + (float);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)_;
 + (id);
 + (id);
 + (struct CGColor *);
 + (struct CGColor *);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (_Bool);
 - (id);
 - (void)hÌ;

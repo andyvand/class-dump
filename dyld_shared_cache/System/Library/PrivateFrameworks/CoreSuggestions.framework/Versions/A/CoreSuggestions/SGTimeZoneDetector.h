@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSDictionary;
 
 @interface SGTimeZoneDetector
 {
     NSDictionary *_countryCodeForCountryName;
-    NSDictionary *_timeZoneForCountryCode;
-    NSDictionary *_timeZoneForCountryCodeDictionarySupplement;
-    NSDictionary *_regionAbbreviations;
-    NSDictionary *_timeZoneForPostalCode;
-    NSDictionary *_timeZoneAbbreviations;
-    NSDictionary *_uniquePostalCodeFormats;
-    NSDictionary *_postalCodeFormats;
-    _Bool _keepData;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    unsigned long long _memoryPressureStatus;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)$;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)(!`a;
 - (id);
 - (id);
 - (struct _NSRange);

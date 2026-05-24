@@ -7,19 +7,10 @@
 @interface MRLayerClock
 {
     double _internalTimeOffset;
-    double _externalTimeForPauseInversion;
-    unsigned long long _flags;
-    double _externalTime;
-    double _phaseInDuration;
-    double _loopDuration;
-    double _phaseOutDuration;
-    double _numberOfLoops;
-    double _containerTime;
-    double _containerDuration;
-    long long _currentLoopIndex;
 }
 
 - (void);
+- (void)ties.framework/Versions/A/TelephonyUtilities;
 - (void);
 - (void);
 - (void);
@@ -27,25 +18,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)@"NSError">24;
+- (void)texLock";
+- (void)nalyticsUploadScheduler";
+- (void)_schedulingAndForegroundUploadThrottler;
+- (double)"NSString",R,C;
+- (void)uploadEnvelopeBatch:withURL:valuesByHTTPHeaderField:completion: /* Error: Ran out of types for this method. */;
+- (void)_valuesByHTTPHeaderField;
+- (_Bool)emetryUploader;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (double);
+- (double)8@"NSError"16;
 - (long long);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (void);
@@ -54,22 +44,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool _isPaused;
-@property(readonly, nonatomic) double containerDuration; // @synthesize containerDuration=_containerDuration;
-@property(nonatomic) double containerTime; // @synthesize containerTime=_containerTime;
-@property(readonly, nonatomic) long long currentLoopIndex; // @synthesize currentLoopIndex=_currentLoopIndex;
 @property(nonatomic) double externalTime; // @synthesize externalTime=_externalTime;
-@property(nonatomic) double fullDuration;
-@property(readonly, nonatomic) _Bool isInPhaseIn;
-@property(readonly, nonatomic) _Bool isInPhaseOut;
-@property(readonly, nonatomic) _Bool isPaused;
-@property(readonly, nonatomic) _Bool jumpedBackInTime;
-@property(nonatomic) double loopDuration; // @synthesize loopDuration=_loopDuration;
-@property(nonatomic) double numberOfLoops; // @synthesize numberOfLoops=_numberOfLoops;
-@property(nonatomic) _Bool parentIsPaused;
-@property(nonatomic) double phaseInDuration; // @synthesize phaseInDuration=_phaseInDuration;
-@property(nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration=_phaseOutDuration;
-@property(readonly) _Bool selfIsPaused;
 
 @end
 

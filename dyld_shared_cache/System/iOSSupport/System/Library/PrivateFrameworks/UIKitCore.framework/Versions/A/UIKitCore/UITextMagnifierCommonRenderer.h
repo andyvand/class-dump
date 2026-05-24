@@ -6,29 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface UITextMagnifierCommonRenderer : UIView
 {
     _Bool m_loaded;
-    NSDictionary *m_images;
-    NSDictionary *m_offsets;
-    CALayer *m_back;
-    CALayer *m_mask;
-    CALayer *m_content;
-    CALayer *m_front;
-    _Bool _isRegisteredForGeometryChanges;
 }
 
-- (id);
+- (id)reflectJunkChatToPeerDevicesForMessageGUID: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)ial sync device Not writing up messages;
 - (void);
 - (void);
-- (void)rrentMenuLayout;
+- (void)currentMenuLayout;
 - (void)a;
 
 @end

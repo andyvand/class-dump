@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CLVLLocalizationDebugInfo;
-
 @interface _CLVLLocalizationResult
 {
     float _confidence;
-    double _timestamp;
-    _CLVLLocalizationDebugInfo *_debugInfo;
-    CDStruct_c3074bf1 _location;
-    CDStruct_95fa7c00 _transform;
-    CDStruct_2972252c _covariance;
 }
 
 + (_Bool);
-- (void);
+- (void)E;
+- (id)Q;
+- (CDStruct_80ba4949);
+- (void)GImageCreateConforming.
+;
+- (id)*;
 - (id);
-- (CDStruct_2972252c);
-- (void);
-- (id);
-- (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (double);
 - (void);
 - (void);
 - (void);
+- (id)setStrides:(struct _NSZone *)arg1;
+- (void)BGRA10Uint_PACKED;
 - (id);
+- (float);
 - (void);
-- (id);
-- (float);
-- (void);
-- (CDStruct_c3074bf1);
+- (CDStruct_2418a849);
 - (void)etry19roadsAtIntersectionER10CLMapCrumbPNSt3__14listIN13CLMapGeometry23IntersectionQueryResultENS2_9allocatorIS5_EEEES9_bRKNS2_10shared_ptrI9CLMapRoadEEbddRdE3$_1;
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) CDStruct_2972252c covariance; // @synthesize covariance=_covariance;
-@property(copy, nonatomic) _CLVLLocalizationDebugInfo *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(nonatomic) CDStruct_c3074bf1 location; // @synthesize location=_location;
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) CDStruct_95fa7c00 transform; // @synthesize transform=_transform;
 
 @end
 

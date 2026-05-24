@@ -10,25 +10,23 @@
 @interface CSAttSiriStateMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _attendingState;
 }
 
-+ (id)backPhraseType;
++ (id)_mFallbackPhraseType;
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ance unavailable;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void):(id)arg1 pixelFormatType:outputBlobNamesWithTypes:confidencesBlobNamesWithLabelsFiles:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void)nfoWithTimestamp:arrivalTimestamp:currentMachTime: /* Error: Ran out of types for this method. */;
+- (id)(;
+- (void)addPktInfoWithTimestamp:arrivalTimestamp:currentMachTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long attendingState; // @synthesize attendingState=_attendingState;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

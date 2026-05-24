@@ -6,21 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSImageView, NSTrackingArea, NSWindow, NUIContainerBoxView, NUIContainerStackView, SFVerticalLayoutCardSection, SearchUIImageView, SearchUILabel;
+@class NUIContainerStackView;
 
 @interface SearchUIVerticalLayoutCardSectionView : SearchUICardSectionView
 {
     _Bool _useAppIconMetrics;
-    _Bool _useToolTips;
-    SearchUIImageView *_thumbnailView;
-    SearchUILabel *_titleLabel;
-    SearchUILabel *_footnoteLabel;
-    NUIContainerBoxView *_thumbnailOverlayContainer;
-    NSImageView *_gradientImageView;
-    SearchUILabel *_thumbnailOverlayLabel;
-    SearchUIImageView *_thumbnailOverlayImageView;
-    NSWindow *_tooltipWindow;
-    NSTrackingArea *_mouseTrackingArea;
 }
 
 + (_Bool);
@@ -46,19 +36,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)categorySemanticClasses;
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)25.heic;
+- (void)eyebrows_willowLeaf_rounded_medium_variant_age_child.heic;
+- (void)t_kebaya.aa;
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)I;
 - (void);
 - (void);
 - (void);
@@ -69,18 +59,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NUIContainerStackView *contentView; // @dynamic contentView;
-@property(retain, nonatomic) SearchUILabel *footnoteLabel; // @synthesize footnoteLabel=_footnoteLabel;
-@property(retain, nonatomic) NSImageView *gradientImageView; // @synthesize gradientImageView=_gradientImageView;
-@property(retain, nonatomic) NSTrackingArea *mouseTrackingArea; // @synthesize mouseTrackingArea=_mouseTrackingArea;
-@property(retain, nonatomic) SFVerticalLayoutCardSection *section; // @dynamic section;
-@property(retain, nonatomic) NUIContainerBoxView *thumbnailOverlayContainer; // @synthesize thumbnailOverlayContainer=_thumbnailOverlayContainer;
-@property(retain, nonatomic) SearchUIImageView *thumbnailOverlayImageView; // @synthesize thumbnailOverlayImageView=_thumbnailOverlayImageView;
-@property(retain, nonatomic) SearchUILabel *thumbnailOverlayLabel; // @synthesize thumbnailOverlayLabel=_thumbnailOverlayLabel;
-@property(retain, nonatomic) SearchUIImageView *thumbnailView; // @synthesize thumbnailView=_thumbnailView;
-@property(retain, nonatomic) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSWindow *tooltipWindow; // @synthesize tooltipWindow=_tooltipWindow;
-@property(nonatomic) _Bool useAppIconMetrics; // @synthesize useAppIconMetrics=_useAppIconMetrics;
-@property(nonatomic) _Bool useToolTips; // @synthesize useToolTips=_useToolTips;
 
 @end
 

@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSRecursiveLock;
-
 @interface PXLRUMemoryCache
 {
     unsigned long long _numberOfSlots;
-    NSMapTable *_cacheDictionary;
-    NSRecursiveLock *_recursiveLock;
-    struct _PXLRUMemoryCacheList *_leastRecentUsedList;
-    NSMapTable *_leastRecentUsedDictionary;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void)utesProvider:(id)arg1 subscriptionStatusProvider:(id)arg2 debugLayoutOptionsProvider:newsletterSubscriptionStatusProvider:offerUpsellScenarioProvider:subscriptionActivationEligibilityProvider:offerIdentifierProvider:renderingConfigurationProvider:tagSubscriptionStatusProvider: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)icle unavailable due to needing OS upgrade.;
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void)%ð!@ù18°1Â0@ù
 × ;
-- (void)vior:(struct _PXLRUMemoryCacheListElement *)arg1;
+- (void)setSaliencyFallbackBehavior:(struct _PXLRUMemoryCacheListElement *)arg1;
 - (unsigned long long)uldUseSubtitles;
 - (void)$;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentUsedSlots;
 @property(nonatomic) unsigned long long numberOfSlots; // @synthesize numberOfSlots=_numberOfSlots;
 
 @end

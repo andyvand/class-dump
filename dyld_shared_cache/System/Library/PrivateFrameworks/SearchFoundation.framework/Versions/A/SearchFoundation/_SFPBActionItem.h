@@ -4,52 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBGraphicalFloat, _SFPBImage, _SFPBLatLng, _SFPBPunchout, _SFPBURL;
+@class NSString;
 
 @interface _SFPBActionItem
 {
     _Bool _isOverlay;
-    _Bool _requiresLocalMedia;
-    _Bool _isITunes;
-    _Bool _shouldSearchDirectionsAlongCurrentRoute;
-    int _mediaEntityType;
-    int _directionsMode;
-    NSString *_label;
-    NSString *_labelForLocalMedia;
-    NSArray *_storeIdentifiers;
-    NSString *_localMediaIdentifier;
-    _SFPBPunchout *_punchout;
-    NSString *_applicationBundleIdentifier;
-    NSString *_contactIdentifier;
-    NSString *_phoneNumber;
-    NSString *_email;
-    NSData *_mapsData;
-    _SFPBGraphicalFloat *_latitude;
-    _SFPBGraphicalFloat *_longitude;
-    NSString *_provider;
-    NSString *_offerType;
-    NSString *_type;
-    NSString *_labelITunes;
-    _SFPBImage *_icon;
-    _SFPBImage *_baseIcon;
-    _SFPBLatLng *_location;
-    NSString *_messageIdentifier;
-    _SFPBURL *_messageURL;
-    NSString *_persistentID;
-    NSString *_universalLibraryID;
-    NSString *_interactionContentType;
-    _SFPBPunchout *_customDirectionsPunchout;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)$;
+- (void)(;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -59,7 +29,7 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (int);
@@ -69,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setDouble:(_Bool)arg1 forStateKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -79,7 +49,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_handleAMSBagChangedNotification: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -89,13 +59,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)voicemail;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (void)ices;
+- (id);
+- (id)initWithImageData:(id)arg1 contentType:options:timeZoneLookup:cacheImageSource:cacheImageData: /* Error: Ran out of types for this method. */;
+- (id)expungeCollectionShares: /* Error: Ran out of types for this method. */;
+- (id)predicateToExcludeTrashedShares;
+- (id)Cancelled download asset for export:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -103,62 +80,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void)!èDù±¦Ð1Â0@ù
 × ;
-- (void)tTrailingThumbnail:(id)arg1;
-- (void)_image_element;
-- (void)le;
+- (void)setTrailingThumbnail:(id)arg1;
+- (void)inline_image_element;
+- (void)secondaryTitle;
 - (id);
 - (void)	;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(retain, nonatomic) _SFPBImage *baseIcon; // @synthesize baseIcon=_baseIcon;
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain, nonatomic) _SFPBPunchout *customDirectionsPunchout; // @synthesize customDirectionsPunchout=_customDirectionsPunchout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int directionsMode; // @synthesize directionsMode=_directionsMode;
-@property(copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *interactionContentType; // @synthesize interactionContentType=_interactionContentType;
-@property(nonatomic) _Bool isITunes; // @synthesize isITunes=_isITunes;
-@property(nonatomic) _Bool isOverlay; // @synthesize isOverlay=_isOverlay;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *labelForLocalMedia; // @synthesize labelForLocalMedia=_labelForLocalMedia;
-@property(copy, nonatomic) NSString *labelITunes; // @synthesize labelITunes=_labelITunes;
-@property(retain, nonatomic) _SFPBGraphicalFloat *latitude; // @synthesize latitude=_latitude;
-@property(copy, nonatomic) NSString *localMediaIdentifier; // @synthesize localMediaIdentifier=_localMediaIdentifier;
-@property(retain, nonatomic) _SFPBLatLng *location; // @synthesize location=_location;
-@property(retain, nonatomic) _SFPBGraphicalFloat *longitude; // @synthesize longitude=_longitude;
-@property(copy, nonatomic) NSData *mapsData; // @synthesize mapsData=_mapsData;
-@property(nonatomic) int mediaEntityType; // @synthesize mediaEntityType=_mediaEntityType;
-@property(copy, nonatomic) NSString *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(retain, nonatomic) _SFPBURL *messageURL; // @synthesize messageURL=_messageURL;
-@property(copy, nonatomic) NSString *offerType; // @synthesize offerType=_offerType;
-@property(copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(retain, nonatomic) _SFPBPunchout *punchout; // @synthesize punchout=_punchout;
-@property(nonatomic) _Bool requiresLocalMedia; // @synthesize requiresLocalMedia=_requiresLocalMedia;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute; // @synthesize shouldSearchDirectionsAlongCurrentRoute=_shouldSearchDirectionsAlongCurrentRoute;
-@property(copy, nonatomic) NSArray *storeIdentifiers; // @synthesize storeIdentifiers=_storeIdentifiers;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *universalLibraryID; // @synthesize universalLibraryID=_universalLibraryID;
 
 @end
 

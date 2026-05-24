@@ -9,10 +9,9 @@
 @interface MPRatingCommand : MPRemoteCommand
 {
     float _minimumRating;
-    float _maximumRating;
 }
 
-- (id);
+- (id)D;
 - (id);
 - (void);
 - (float);
@@ -20,7 +19,6 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) float maximumRating; // @synthesize maximumRating=_maximumRating;
 @property(nonatomic) float minimumRating; // @synthesize minimumRating=_minimumRating;
 
 @end

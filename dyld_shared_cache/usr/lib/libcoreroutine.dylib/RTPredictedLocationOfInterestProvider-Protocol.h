@@ -5,5 +5,7 @@
 //
 
 @protocol RTPredictedLocationOfInterestProvider
+- (void)C;
+- (void)tesReceivedOnLink;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFMailResultDetails;
+@class NSString;
 
 @interface MSParsecSearchSessionSuggestion
 {
     NSString *_resultID;
-    long long _option;
-    SFMailResultDetails *_resultDetails;
-    NSString *_category;
 }
 
 + (id);
@@ -22,20 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0x19;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long option; // @synthesize option=_option;
-@property(readonly, nonatomic) SFMailResultDetails *resultDetails; // @synthesize resultDetails=_resultDetails;
-@property(readonly, nonatomic) NSString *resultID; // @synthesize resultID=_resultID;
-@property(readonly) Class superclass;
 
 @end
 

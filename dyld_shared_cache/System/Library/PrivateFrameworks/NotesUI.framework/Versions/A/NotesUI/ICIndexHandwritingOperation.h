@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectID;
+@class NSManagedObjectID;
 
 @interface ICIndexHandwritingOperation
 {
     NSManagedObjectID *_attachmentObjectID;
-    NSManagedObjectContext *_context;
 }
 
 + (id);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)nation;
+- (void);
+- (void)_makeDecisionForMovingModernObjectsToVirtualDestination;
 
 // Remaining properties
 @property(retain, nonatomic) NSManagedObjectID *attachmentObjectID; // @synthesize attachmentObjectID=_attachmentObjectID;
-@property(retain, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
 
 @end
 

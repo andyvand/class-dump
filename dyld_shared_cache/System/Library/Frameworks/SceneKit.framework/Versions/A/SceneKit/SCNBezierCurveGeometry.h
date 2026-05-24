@@ -9,10 +9,9 @@
 @interface SCNBezierCurveGeometry : SCNGeometry
 {
     struct CGPath *_cgPath;
-    CDStruct_95fa7c00 _curveToGeometryTransform;
 }
 
-+ (_Bool);
++ (_Bool);
 
 @end
 

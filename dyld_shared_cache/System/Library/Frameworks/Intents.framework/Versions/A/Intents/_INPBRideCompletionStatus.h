@@ -4,30 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCurrencyAmountValue, _INPBUserActivity;
-
 @interface _INPBRideCompletionStatus
 {
     CDStruct_95bda58d _feedbackTypes;
-    struct {
-        unsigned int canceled:1;
-        unsigned int canceledByService:1;
-        unsigned int completed:1;
-        unsigned int missedPickup:1;
-        unsigned int outstanding:1;
-    } _has;
-    _Bool _canceled;
-    _Bool _canceledByService;
-    _Bool _completed;
-    _Bool _missedPickup;
-    _Bool _outstanding;
-    _INPBUserActivity *_completionUserActivity;
-    NSArray *_defaultTippingOptions;
-    _INPBCurrencyAmountValue *_paymentAmount;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -36,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,7 +33,7 @@
 - (int *);
 - (int);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -63,49 +46,25 @@
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)Failed to write metadata directory to archive;
 - (void);
+- (void);
+- (id)setWithObjects:(id)arg1;
+- (void);
+- (unsigned long long)j;
+- (_Bool)h;
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)L;
 - (_Bool)1Â0@ù
 × ;
-- (void)ermanentlyIntentResponseCodeInProgress;
+- (void)INDeleteFilePermanentlyIntentResponseCodeInProgress;
 
 // Remaining properties
 @property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(nonatomic) _Bool canceledByService; // @synthesize canceledByService=_canceledByService;
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(retain, nonatomic) _INPBUserActivity *completionUserActivity; // @synthesize completionUserActivity=_completionUserActivity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSArray *defaultTippingOptions; // @synthesize defaultTippingOptions=_defaultTippingOptions;
-@property(readonly, nonatomic) unsigned long long defaultTippingOptionsCount;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int *feedbackTypes;
-@property(readonly, nonatomic) unsigned long long feedbackTypesCount;
-@property(nonatomic) _Bool hasCanceled;
-@property(nonatomic) _Bool hasCanceledByService;
-@property(nonatomic) _Bool hasCompleted;
-@property(readonly, nonatomic) _Bool hasCompletionUserActivity;
-@property(nonatomic) _Bool hasMissedPickup;
-@property(nonatomic) _Bool hasOutstanding;
-@property(readonly, nonatomic) _Bool hasPaymentAmount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool missedPickup; // @synthesize missedPickup=_missedPickup;
-@property(nonatomic) _Bool outstanding; // @synthesize outstanding=_outstanding;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *paymentAmount; // @synthesize paymentAmount=_paymentAmount;
-@property(readonly) Class superclass;
 
 @end
 

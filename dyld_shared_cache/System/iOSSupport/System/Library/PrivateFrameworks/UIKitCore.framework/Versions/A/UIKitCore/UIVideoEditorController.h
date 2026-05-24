@@ -6,50 +6,44 @@
 
 #import <UIKitCore/UINavigationController.h>
 
-@class NSMutableDictionary, NSString;
 @protocol UINavigationControllerDelegate><UIVideoEditorControllerDelegate;
 
 @interface UIVideoEditorController : UINavigationController
 {
     int _previousStatusBarStyle;
-    NSMutableDictionary *_properties;
-    CDStruct_d1897728 _flags;
 }
 
 + (_Bool);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)setPerRecordSaveBlock: /* Error: Ran out of types for this method. */;
+- (double)setNotificationCenter: /* Error: Ran out of types for this method. */;
+- (void)existingChatsForIDs:(id)arg1 onService:style: /* Error: Ran out of types for this method. */;
+- (void)existingChatsForIDs:(double)arg1 onService:displayName:originalGroupID:style: /* Error: Ran out of types for this method. */;
+- (void)`;
 - (void);
 - (void);
-- (void);
+- (id)al updates.;
+- (id)ng in the background;
+- (void)age blastdoor object from result:<%@ %p>,  /* Error: Ran out of types for this method. */;
+- (void)ching next batch ***;
+- (void)ken;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void)eProperties";
-- (void)ity;
+- (void)_displayIdentity;
 - (void);
 - (void)ppâÿhãÒè¯g;
 
 // Remaining properties
 @property(nonatomic) id <UINavigationControllerDelegate><UIVideoEditorControllerDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) double videoMaximumDuration;
-@property(copy, nonatomic) NSString *videoPath;
-@property(nonatomic) long long videoQuality;
 
 @end
 

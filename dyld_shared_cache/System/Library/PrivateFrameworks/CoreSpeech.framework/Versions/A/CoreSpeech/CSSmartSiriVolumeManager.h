@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CSConnectionServiceDelegate, CSSmartSiriVolumeProcessor, OS_dispatch_queue;
+@class NSObject;
+@protocol CSConnectionServiceDelegate, OS_dispatch_queue;
 
 @interface CSSmartSiriVolumeManager
 {
     id <CSConnectionServiceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSSmartSiriVolumeProcessor> _smartSiriVolume;
 }
 
-+ (id)dSamples;
++ (id)_numProcessedSamples;
 - (void);
 - (void);
 - (id);
@@ -27,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)objectClassOutputNameForObjectClassID:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -37,16 +35,7 @@
 - (void)AD:isFloat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSConnectionServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id <CSSmartSiriVolumeProcessor> smartSiriVolume; // @synthesize smartSiriVolume=_smartSiriVolume;
-@property(readonly) Class superclass;
 
 @end
 

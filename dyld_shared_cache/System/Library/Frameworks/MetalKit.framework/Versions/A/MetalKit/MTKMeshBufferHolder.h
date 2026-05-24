@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property MTKMeshBuffer *buffer; // @synthesize buffer=_buffer;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSMapTable *m_data;
 }
 
-- (void);
+- (void)3;
 - (id);
 - (void);
 - (id);

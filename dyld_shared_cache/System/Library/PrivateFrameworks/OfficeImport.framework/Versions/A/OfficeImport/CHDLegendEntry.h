@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources;
-
 __attribute__((visibility("hidden")))
 @interface CHDLegendEntry
 {
     unsigned long long mFontIndex;
-    unsigned int mEntryIndex;
-    EDResources *mResources;
 }
 
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
+- (id)L;
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (void)(D;
 

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (int);
+- (id)otFound;
+- (int)T_d;
 
 @end
 

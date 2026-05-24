@@ -11,7 +11,7 @@
     CIImage *_inputImage;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -20,10 +20,9 @@
 - (id);
 - (void);
 - (id);
-- (void)ialPhotoNormalizedBounds: /* Error: Ran out of types for this method. */;
+- (void)setSpatialPhotoNormalizedBounds: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 @property(readonly, nonatomic) _Bool isBlackAndWhite;
 
 @end

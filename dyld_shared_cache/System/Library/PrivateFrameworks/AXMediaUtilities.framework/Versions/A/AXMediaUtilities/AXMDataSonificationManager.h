@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMChartDescriptor, AXMDataSummary, NSArray, NSObject, NSString, NSTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AXMDataSonificationManager
 {
     NSObject<OS_dispatch_queue> *_dataSonifierAccessQueue;
-    _Bool _hapticsEnabled;
-    _Bool _isDataSeriesRegressionModelLoaded;
-    AXMChartDescriptor *_currentChartDescriptor;
-    double _lastPlayheadPosition;
-    NSArray *_xGridlinePositions;
-    NSArray *_xCategoryLabels;
-    AXMDataSummary *_dataSeriesSummary;
-    double _lastScrubbingValueAnnouncementPosition;
-    NSTimer *_scrubbingValueAnnouncementTimer;
 }
 
-+ (id);
++ (id)account:didPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void)\|;
+- (void)N|\|;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)f\|;
+- (void)e\|;
+- (void);
 - (double);
 - (double);
 - (_Bool);
 - (void);
-- (id);
-- (long long);
+- (id)z;
+- (long long);
 - (double);
 - (id);
 - (id);
@@ -56,33 +47,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)ey: /* Error: Ran out of types for this method. */;
-- (_Bool)m_featuresSortedByConfidence;
+- (void)encodeFloat:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)axm_featuresSortedByConfidence;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) AXMChartDescriptor *currentChartDescriptor; // @synthesize currentChartDescriptor=_currentChartDescriptor;
-@property(readonly, nonatomic) double currentPlaybackPosition;
-@property(nonatomic) long long currentSeriesIndex;
-@property(retain, nonatomic) AXMDataSummary *dataSeriesSummary; // @synthesize dataSeriesSummary=_dataSeriesSummary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hapticsEnabled; // @synthesize hapticsEnabled=_hapticsEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDataSeriesRegressionModelLoaded; // @synthesize isDataSeriesRegressionModelLoaded=_isDataSeriesRegressionModelLoaded;
-@property(readonly, nonatomic) _Bool isPaused;
-@property(readonly, nonatomic) _Bool isPlaying;
-@property(readonly, nonatomic) _Bool isScrubbing;
-@property(nonatomic) double lastPlayheadPosition; // @synthesize lastPlayheadPosition=_lastPlayheadPosition;
 @property(nonatomic) double lastScrubbingValueAnnouncementPosition; // @synthesize lastScrubbingValueAnnouncementPosition=_lastScrubbingValueAnnouncementPosition;
-@property(readonly, nonatomic) unsigned long long playbackStatus;
-@property(retain, nonatomic) NSTimer *scrubbingValueAnnouncementTimer; // @synthesize scrubbingValueAnnouncementTimer=_scrubbingValueAnnouncementTimer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *xCategoryLabels; // @synthesize xCategoryLabels=_xCategoryLabels;
-@property(readonly, nonatomic) NSArray *xGridlinePositions; // @synthesize xGridlinePositions=_xGridlinePositions;
 
 @end
 

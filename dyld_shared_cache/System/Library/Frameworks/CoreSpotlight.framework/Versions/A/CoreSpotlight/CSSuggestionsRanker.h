@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSQueryRankingConfiguration, NSArray, NSMutableArray;
+@class CSQueryRankingConfiguration, NSMutableArray;
 
 @interface CSSuggestionsRanker
 {
     NSMutableArray *_lockedlocalSuggestions;
-    NSMutableArray *_lockedLocalPeopleSuggestions;
-    NSMutableArray *_lockedPeopleSuggestions;
-    NSMutableArray *_lockedTokenSuggestions;
-    CSQueryRankingConfiguration *_queryRankingConfiguration;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id) a;
 - (id);
 - (id);
 - (void);
@@ -26,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CSQueryRankingConfiguration *queryRankingConfiguration; // @synthesize queryRankingConfiguration=_queryRankingConfiguration;
-@property(readonly, nonatomic) NSArray *suggestions;
 
 @end
 

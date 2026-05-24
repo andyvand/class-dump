@@ -10,23 +10,20 @@ __attribute__((visibility("hidden")))
 @interface TKDataSource
 {
     NSData *_data;
-    const char *_ptr;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned char);
 - (id);
-- (const char *);
+- (const char *)ForceL2CAP;
 - (id);
 - (const char *);
 - (id);
-- (id);
-- (void);
+- (id)sharedUserId;
+- (void)t generate nonce;
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly) const char *end;
 @property(readonly) const char *ptr; // @synthesize ptr=_ptr;
 
 @end

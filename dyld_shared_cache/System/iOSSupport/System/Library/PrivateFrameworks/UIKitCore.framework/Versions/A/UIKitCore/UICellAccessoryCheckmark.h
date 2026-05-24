@@ -11,7 +11,7 @@
 }
 
 + (_Bool)existing cell. Dequeued reuse identifier:%@; Original reuse identifier:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
-- (long long)balSupplementaryFrameOffset;
+- (long long)_globalSupplementaryFrameOffset;
 - (id)y?Òè\;
 - (long long)hÍbþ;
 

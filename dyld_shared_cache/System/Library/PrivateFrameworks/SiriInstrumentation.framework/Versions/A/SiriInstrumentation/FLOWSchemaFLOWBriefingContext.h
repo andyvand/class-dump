@@ -6,45 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWBriefingContext : SISchemaInstrumentationMessage
 {
     NSArray *_enabledFeatures;
-    int _briefingAttribute;
-    struct {
-        unsigned int briefingAttribute:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
+- (int);
+- (void);
+- (void);
+- (void);
 - (int);
 - (void);
-- (void);
-- (void);
-- (int);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)B;
 - (id)ones"b1"isEnabledForCarPlay"b1};
 - (id)uageModelEnrollmentContext",&,N,V_languageModelEnrollmentContext;
 - (id)´k;
 - (void)Ô>%;
 
 // Remaining properties
-@property(nonatomic) int briefingAttribute; // @synthesize briefingAttribute=_briefingAttribute;
 @property(copy, nonatomic) NSArray *enabledFeatures; // @synthesize enabledFeatures=_enabledFeatures;
-@property(nonatomic) _Bool hasBriefingAttribute;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

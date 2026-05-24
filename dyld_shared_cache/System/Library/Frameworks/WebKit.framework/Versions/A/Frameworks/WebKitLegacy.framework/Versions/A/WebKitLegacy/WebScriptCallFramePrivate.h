@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface WebScriptCallFramePrivate
 {
     WebScriptObject *globalObject;
-    struct String functionName;
-    struct JSValue exceptionValue;
 }
 
-- (void);
+- (void)ication.;
 - (id);
 - (void)á#ð!Eù1'ð1Â0@ù
 × ;

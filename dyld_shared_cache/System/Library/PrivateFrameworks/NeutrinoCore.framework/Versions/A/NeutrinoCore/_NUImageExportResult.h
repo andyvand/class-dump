@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NUExportResult.h>
 
-@class NSData, NSString, NSURL, NUImageGeometry;
-@protocol NURenderStatistics;
+@class NSData, NSURL;
 
 @interface _NUImageExportResult : _NUExportResult
 {
@@ -20,17 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSData *destinationData; // @synthesize destinationData=_destinationData;
 @property(retain) NSURL *destinationURL; // @dynamic destinationURL;
-@property(readonly) NUImageGeometry *geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

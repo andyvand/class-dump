@@ -6,20 +6,16 @@
 
 #import <GameController/_GCDevicePhysicalInputElementParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCSteeringWheelElementParameters : _GCDevicePhysicalInputElementParameters
 {
     float _maximumDegreesOfRotation;
-    NSSet *_sources;
-    unsigned long long _eventRotationValueField;
 }
 
 + (Class);
 - (id);
 - (_Bool);
-- (id);
+- (id)"AALocalContactInfo";
 - (void);
 
 @end

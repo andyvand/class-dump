@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AuthKitUI)
-- (void);
+- (void)setPreviousTransactionID:(id)arg1;
 @end
 

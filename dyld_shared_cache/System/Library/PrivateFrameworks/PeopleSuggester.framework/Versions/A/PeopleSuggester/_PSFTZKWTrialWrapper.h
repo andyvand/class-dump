@@ -9,13 +9,11 @@
 @interface _PSFTZKWTrialWrapper
 {
     _PASLock *_lock;
-    _PASLock *_updateLock;
-    TRIClient *_triClient;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id);
 - (void);
 - (long long);
 - (void);
@@ -26,7 +24,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)ntifier;
 - (void);
 
 // Remaining properties

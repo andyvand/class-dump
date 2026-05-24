@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GMSSchemaGMSPrivateCloudSpeculativeDecodingMetrics, NSData;
-
 @interface GMSSchemaGMSPrivateCloudMetrics : SISchemaInstrumentationMessage
 {
     double _tokenRate;
-    double _timeToFirstTokenMillis;
-    double _extendLatencyMillis;
-    long long _outputTokensCount;
-    long long _inputTokensCount;
-    GMSSchemaGMSPrivateCloudSpeculativeDecodingMetrics *_gmsPrivateCloudSpeculativeDecodingMetrics;
-    struct {
-        unsigned int tokenRate:1;
-        unsigned int timeToFirstTokenMillis:1;
-        unsigned int extendLatencyMillis:1;
-        unsigned int outputTokensCount:1;
-        unsigned int inputTokensCount:1;
-    } _has;
-    _Bool _hasGmsPrivateCloudSpeculativeDecodingMetrics;
 }
 
 - (double);
@@ -59,28 +44,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)stringWithUTF8String: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)FENCE_FRIEND_WILL_BE_NOTIFIED_WHEN_YOU_ARRIVE_AT_LOCATION;
 - (id)p";
-- (id)dex:(id)arg1;
+- (id)autoMOSAtIndex:(id)arg1;
 - (id)(Pü ;
 - (void)1P$;
 
 // Remaining properties
-@property(nonatomic) double extendLatencyMillis; // @synthesize extendLatencyMillis=_extendLatencyMillis;
-@property(retain, nonatomic) GMSSchemaGMSPrivateCloudSpeculativeDecodingMetrics *gmsPrivateCloudSpeculativeDecodingMetrics; // @synthesize gmsPrivateCloudSpeculativeDecodingMetrics=_gmsPrivateCloudSpeculativeDecodingMetrics;
-@property(nonatomic) _Bool hasExtendLatencyMillis;
-@property(nonatomic) _Bool hasGmsPrivateCloudSpeculativeDecodingMetrics; // @synthesize hasGmsPrivateCloudSpeculativeDecodingMetrics=_hasGmsPrivateCloudSpeculativeDecodingMetrics;
-@property(nonatomic) _Bool hasInputTokensCount;
-@property(nonatomic) _Bool hasOutputTokensCount;
-@property(nonatomic) _Bool hasTimeToFirstTokenMillis;
-@property(nonatomic) _Bool hasTokenRate;
-@property(nonatomic) long long inputTokensCount; // @synthesize inputTokensCount=_inputTokensCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long outputTokensCount; // @synthesize outputTokensCount=_outputTokensCount;
-@property(nonatomic) double timeToFirstTokenMillis; // @synthesize timeToFirstTokenMillis=_timeToFirstTokenMillis;
 @property(nonatomic) double tokenRate; // @synthesize tokenRate=_tokenRate;
 
 @end

@@ -9,18 +9,6 @@
 @interface PPM2FeedbackAtK
 {
     NSString *_activeTreatments;
-    unsigned int _bucket;
-    int _domain;
-    unsigned int _evaluatedCount;
-    int _feedbackType;
-    unsigned int _k;
-    struct {
-        unsigned int bucket:1;
-        unsigned int domain:1;
-        unsigned int evaluatedCount:1;
-        unsigned int feedbackType:1;
-        unsigned int k:1;
-    } _has;
 }
 
 - (void);
@@ -33,7 +21,7 @@
 - (int);
 - (id);
 - (id);
-- (int);
+- (int)2;
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -43,37 +31,26 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)startAddressLookupWithError:(unsigned int)arg1;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (void);
-- (_Bool);
-- (id);
+- (void)";
+- (_Bool)_chat:updateIsRecovered: /* Error: Ran out of types for this method. */;
+- (id)c;
 - (id);
 - (int);
 - (void)chemaVersion"b1};
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) unsigned int bucket; // @synthesize bucket=_bucket;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned int evaluatedCount; // @synthesize evaluatedCount=_evaluatedCount;
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasBucket;
-@property(nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasEvaluatedCount;
-@property(nonatomic) _Bool hasFeedbackType;
 @property(nonatomic) _Bool hasK;
-@property(nonatomic) unsigned int k; // @synthesize k=_k;
 
 @end
 

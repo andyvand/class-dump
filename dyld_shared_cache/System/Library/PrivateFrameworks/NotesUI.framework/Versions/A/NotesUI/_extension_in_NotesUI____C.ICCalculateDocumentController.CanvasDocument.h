@@ -7,8 +7,6 @@
 @interface (extension in NotesUI):__C.ICCalculateDocumentController.CanvasDocument
 {
     id controller;
-    id parentIndex;
-    id indexes;
 }
 
 @end

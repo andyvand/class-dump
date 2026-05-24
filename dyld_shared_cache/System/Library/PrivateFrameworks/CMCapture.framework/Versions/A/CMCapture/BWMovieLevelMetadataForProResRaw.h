@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface BWMovieLevelMetadataForProResRaw
 {
     int _isoSpeedRating;
-    NSString *_cameraManufacturer;
-    NSString *_cameraModelName;
-    NSData *_colorTranslationMatrices;
-    NSData *_whiteBalanceFactors;
-    NSData *_cctAndTintColorMatrices;
-    NSData *_lscGains;
-    double _shutterSpeedAngle;
-    double _exposureTime;
-    short _whiteBalanceCCT;
-    _Bool _isMetadataValid;
-    double _currentFrameRate;
-    NSData *_stabilizationInfo;
 }
 
 - (void);

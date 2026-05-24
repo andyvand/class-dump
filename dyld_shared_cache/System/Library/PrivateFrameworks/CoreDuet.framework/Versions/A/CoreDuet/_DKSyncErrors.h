@@ -11,15 +11,16 @@
 + (id);
 + (id);
 + (id);
++ (id)D;
++ (id)A;
++ (id)N;
 + (id);
 + (id);
++ (id)Rf
+;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)e;
++ (id)KnowledgeStoreDisable;
 
 @end
 

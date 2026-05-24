@@ -7,6 +7,7 @@
 @protocol CAAnimationDelegate
 
 @optional
+- (void);
 - (void)ommand"16;
 @end
 

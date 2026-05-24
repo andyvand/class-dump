@@ -7,9 +7,6 @@
 @interface CloudKitCode.CodeConnection
 {
     id serviceName;
-    id container;
-    id databaseScope;
-    id local;
 }
 
 @end

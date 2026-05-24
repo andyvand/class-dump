@@ -5,15 +5,12 @@
 //
 
 @protocol PXPhotosViewModelHelper
+- (_Bool);
 - (_Bool)Transition:%@
 Requested Motion:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long authenticationType;
-@property(readonly, nonatomic) unsigned long long dateType;
 @property(readonly, nonatomic) _Bool isFiltering;
-@property(readonly, nonatomic) _Bool isLocked;
-@property(readonly, nonatomic) _Bool wantsContentUnavailableUnlockButtonVisible;
 @end
 

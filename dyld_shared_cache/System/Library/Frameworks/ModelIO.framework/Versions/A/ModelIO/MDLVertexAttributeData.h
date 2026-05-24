@@ -9,32 +9,28 @@
 @interface MDLVertexAttributeData
 {
     MDLMeshBufferMap *_map;
-    void *_dataStart;
-    unsigned long long _stride;
-    unsigned long long _format;
-    unsigned long long _bufferSize;
 }
 
 - (void);
 - (void);
 - (void *);
 - (void);
-- (unsigned long long);
+- (unsigned long long)C2AMQ1JnBpWsdekX5xEoEAGqQNrTRhwQ3HZ21LW24csoM2fXMx
+ktplGmIr1R6Iw81kvqaWDXYFYvBWOUU4YQPxTql9fA7DoP8UINGC/IYGfvCzDywR
+rsB2ViYwcaaS/CA4/QIDAQAB
+-----END PUBLIC KEY-----
+;
+- (id)uest to Start Browsing for HomeKit accessories;
 - (id);
-- (id);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)@;
+- (unsigned long long);
+- (void)@y?-;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bufferSize; // @synthesize bufferSize=_bufferSize;
-@property(nonatomic) void *dataStart;
-@property(nonatomic) unsigned long long format;
 @property(retain, nonatomic) MDLMeshBufferMap *map;
-@property(nonatomic) unsigned long long stride;
 
 @end
 

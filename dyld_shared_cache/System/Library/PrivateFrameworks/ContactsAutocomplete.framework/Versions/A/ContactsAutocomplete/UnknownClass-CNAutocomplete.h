@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CNAutocomplete)
 + (id);
-- (long long);
+- (long long)8;
 @end
 

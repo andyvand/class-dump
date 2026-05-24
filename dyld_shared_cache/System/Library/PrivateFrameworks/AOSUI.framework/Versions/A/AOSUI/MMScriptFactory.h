@@ -20,6 +20,10 @@
 - (id);
 - (id);
 - (id);
+- (id)R*;
+- (id);
+- (id);
+- (id)q	3;
 - (id);
 - (id);
 - (id);
@@ -31,11 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)e.cdp.confirmexistingsecret.continue;
 - (void);
 
 // Remaining properties

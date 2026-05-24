@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UIAlertControllerModernTVActionBackgroundView : _UIAlertControllerTVBackgroundView
 {
     NSMutableDictionary *_vibrancies;
-    _Bool _shouldUseTintColorAsHighlightColor;
-    UIVisualEffectView *_effectView;
 }
 
 + (struct CGSize);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)2q76@"NSDictionary"84@?<v@?q@"NSDictionary">92;
+- (_Bool)shouldForceAccountsActive;
+- (void)Watch:(_Bool)arg1 onlyWatch: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -28,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (double)!ØEù1^Ð1Â0@ù
 × ;
 - (struct CGSize);
-- (id)tionWithPreviewMenuItem:(struct CGRect)arg1;
+- (id)_actionWithPreviewMenuItem:(struct CGRect)arg1;
 - (void)scene specification. Internal scenes must also have a distinct UISceneSessionRole:specification:%@; role:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ÿ;

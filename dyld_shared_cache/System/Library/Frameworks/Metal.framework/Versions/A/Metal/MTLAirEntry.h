@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_data;
 
 __attribute__((visibility("hidden")))
 @interface MTLAirEntry
 {
     NSObject<OS_dispatch_data> *_data;
-    NSObject<OS_dispatch_data> *_bitcode;
-    NSObject<OS_dispatch_data> *_airScript;
-    NSArray *_linkedBitcodes;
 }
 
 - (void);
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)éÿbí;
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_data> *airScript; // @synthesize airScript=_airScript;
-@property(readonly) NSObject<OS_dispatch_data> *bitcode; // @synthesize bitcode=_bitcode;
 @property(readonly) NSObject<OS_dispatch_data> *data; // @synthesize data=_data;
-@property(retain) NSArray *linkedBitcodes; // @synthesize linkedBitcodes=_linkedBitcodes;
 
 @end
 

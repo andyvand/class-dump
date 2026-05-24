@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageRepository, MUISearchSenderQueryManager, NSArray, NSString;
-@protocol MUISearchResultsSuggesterConfiguration;
+@class NSString;
 
 @interface MUISearchResultsSuggester
 {
     NSString *_bundleID;
-    EMMessageRepository *_messageRepository;
-    MUISearchSenderQueryManager *_senderQueryManager;
-    id <MUISearchResultsSuggesterConfiguration> _configuration;
 }
 
++ (id);
 + (id);
 + (id);
++ (id)?;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool)R	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)MenuBar: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityMenuBar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logIdentifier;
-@property(readonly, nonatomic) _Bool shouldQueryForAsYouType;
-@property(readonly) Class superclass;
 
 @end
 

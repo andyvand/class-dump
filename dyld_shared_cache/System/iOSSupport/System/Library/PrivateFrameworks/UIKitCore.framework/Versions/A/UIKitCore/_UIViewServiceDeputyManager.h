@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSMutableSet, NSObject, _UIAsyncInvocation;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceDeputyManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _UIAsyncInvocation *_invalidationInvocation;
-    NSMutableDictionary *_connectionHandlers;
-    NSLock *_connectionHandlersLock;
-    NSMutableSet *_deputies;
-    id _delegate;
 }
 
 + (id);
 + (void)Ôthÿúj;
 - (void);
+- (void);
 - (void);
 - (void);
+- (Class)So8NSStringCSgSo7IMDChatCSgIeyBya_;
 - (void);
-- (Class);
-- (void);
-- (void);
-- (void);
+- (void)ck-in for a periodic sync at priority %s;
+- (void)apbackMessageProcessingPipelineComponent> Started processing for Message GUID:(Class)arg1 %@;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ckUI;
+- (void)willShowFeedbackUI;
 - (id)¼Þ°ã4ðãèä;
 
 // Remaining properties

@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)c;
+- (id)_cloneWithOptions:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 @end
 

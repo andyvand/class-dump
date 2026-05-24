@@ -6,42 +6,36 @@
 
 #import <ContactsUI/CNContactCell.h>
 
-@class CNPropertyGroupItem, UIResponder, UITextField;
-@protocol CNPropertyCellDelegate;
+@class CNPropertyGroupItem, UITextField;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyNameCell : CNContactCell
 {
     UITextField *_textField;
-    UIResponder *_firstResponderItem;
-    id <CNPropertyCellDelegate> _delegate;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
+- (id);
 - (id);
+- (id);
+- (void)H;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)`;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)er;
+- (void)_sgLogger;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UIResponder *firstResponderItem; // @synthesize firstResponderItem=_firstResponderItem;
 @property(retain, nonatomic) CNPropertyGroupItem *propertyItem;
-@property(readonly, nonatomic) UITextField *textField; // @synthesize textField=_textField;
 
 @end
 

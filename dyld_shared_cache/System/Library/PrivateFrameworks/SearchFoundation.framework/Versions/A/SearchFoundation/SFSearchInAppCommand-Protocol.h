@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFSearchInAppCommand
+- (int);
+- (NSString *)cloudQuotaResourceBytesUsed:minVideoSize:error: /* Error: Ran out of types for this method. */;
 - (void)N,V_descriptionText;
-- (NSString *)CategoryCommand;
+- (NSString *)SFClearProactiveCategoryCommand;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int searchInAppType;
 @property(copy, nonatomic) NSString *searchString;
 @end
 

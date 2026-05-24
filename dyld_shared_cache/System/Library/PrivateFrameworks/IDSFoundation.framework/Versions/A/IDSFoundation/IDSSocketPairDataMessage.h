@@ -6,26 +6,13 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSData, NSDate, NSString;
-
 @interface IDSSocketPairDataMessage : IDSSocketPairMessage
 {
     unsigned int _sequenceNumber;
-    unsigned short _streamID;
-    unsigned long long _payloadOffset;
-    unsigned long long _payloadLength;
-    NSData *_data;
-    _Bool _expectsPeerResponse;
-    _Bool _wantsAppAck;
-    _Bool _compressed;
-    _Bool _didWakeHint;
-    NSString *_peerResponseIdentifier;
-    NSString *_messageUUID;
-    NSDate *_expiryDate;
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -37,25 +24,16 @@
 - (unsigned short);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)Unknown1ByteQuantity;
 - (unsigned char);
 - (void)sion:preferred interface from initiator:%d /* Error: Ran out of types for this method. */;
 - (id)ailed to process QUIC Realloc indication:no session /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool compressed; // @synthesize compressed=_compressed;
-@property(readonly, nonatomic) NSData *data;
-@property(nonatomic) _Bool didWakeHint; // @synthesize didWakeHint=_didWakeHint;
-@property(readonly, nonatomic) _Bool expectsPeerResponse; // @synthesize expectsPeerResponse=_expectsPeerResponse;
-@property(retain, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly, nonatomic) NSString *messageUUID; // @synthesize messageUUID=_messageUUID;
-@property(readonly, nonatomic) NSString *peerResponseIdentifier; // @synthesize peerResponseIdentifier=_peerResponseIdentifier;
 @property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
-@property(readonly, nonatomic) _Bool wantsAppAck; // @synthesize wantsAppAck=_wantsAppAck;
 
 @end
 

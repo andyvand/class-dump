@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_A_Expr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _kind;
-    id _name;
-    id _lexpr;
-    id _rexpr;
-    id _location;
 }
 
 @end

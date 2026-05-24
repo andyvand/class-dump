@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)fileHandleForWritingAtPath:(id)arg1;
 - (id);
 
 @end

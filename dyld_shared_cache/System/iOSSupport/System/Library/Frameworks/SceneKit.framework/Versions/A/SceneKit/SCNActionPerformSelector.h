@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface SCNActionPerformSelector : SCNAction
 {
     SEL _selector;
-    id _target;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)TemplateIconCacheVersion;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

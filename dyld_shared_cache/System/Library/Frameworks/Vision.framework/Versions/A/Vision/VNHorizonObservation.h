@@ -9,16 +9,15 @@
 @interface VNHorizonObservation : VNObservation
 {
     struct CGAffineTransform _transform;
-    double _angle;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (struct CGAffineTransform);
-- (double);
+- (double),;
 - (void);
-- (id);
+- (id)enumerateChangesFromToken:(id)arg1 suggestedBatchSize:reply: /* Error: Ran out of types for this method. */;
 - (struct CGAffineTransform);
 - (unsigned long long);
 - (_Bool);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double angle; // @synthesize angle=_angle;
 @property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end

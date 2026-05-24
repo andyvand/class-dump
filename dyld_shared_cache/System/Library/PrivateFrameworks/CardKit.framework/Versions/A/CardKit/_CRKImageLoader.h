@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _CRKImageLoaderDelegate;
 
 @interface _CRKImageLoader
 {
     _Bool _active;
-    id <_CRKImageLoaderDelegate> _delegate;
 }
 
 + (id);
@@ -19,23 +17,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_searchableFullText;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)Ȃ;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_CRKImageLoaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKit._UIDebouncingAnimatableFloat, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIMagicMorphAnimation
 {
     id animationItems;
-    id currentItem;
-    id currentReparentingItem;
-    id groupCompletion;
-    id $__lazy_storage_$_geometryTrackingDisplayLink;
-    id morphView;
-    id animationContainerView;
-    id intermediateStepHidingAssertion;
-    id animationSettings;
-    id intermediateStepDelayTimer;
-    id genieAnimator;
-    void clientContainerView;
-    _Bool cleansUpAutomatically;
-    _Bool reparentsDuringMorph;
-    _Bool didSetUpKickTransformer;
-    id $__lazy_storage_$_kickAmountProperty;
-    id $__lazy_storage_$_kickScaleProperty;
 }
 
+- (void)upID %@, creating;
+- (void)CloudKitExitRecord;
+- (void),;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (_Bool);
@@ -52,18 +36,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)oteInputSystemRequiresDocumentStateForAutofill;
+- (void)_remoteInputSystemRequiresDocumentStateForAutofill;
 - (void)pSl;
 
 // Remaining properties
-@property(nonatomic) _Bool cleansUpAutomatically; // @synthesize cleansUpAutomatically;
 @property(nonatomic) __weak UIView *clientContainerView; // @synthesize clientContainerView;
-@property(nonatomic) _Bool didSetUpKickTransformer; // @synthesize didSetUpKickTransformer;
-@property(nonatomic, readonly) _Bool hasAnimationItems;
-@property(nonatomic, retain) UIKit._UIDebouncingAnimatableFloat *kickAmountProperty;
-@property(nonatomic, retain) UIKit._UIDebouncingAnimatableFloat *kickScaleProperty;
-@property(nonatomic, readonly) UIView *morphContainer;
-@property(nonatomic) _Bool reparentsDuringMorph; // @synthesize reparentsDuringMorph;
 
 @end
 

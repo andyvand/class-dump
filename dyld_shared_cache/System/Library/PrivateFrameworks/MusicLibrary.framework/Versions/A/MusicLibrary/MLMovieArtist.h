@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MLMovieArtist
 {
     NSMutableDictionary *_dictionary;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)_actionDictionaryWithLogArchive:(id)arg1 networkInfo:crashAndSpinLogs:diagnosticExtensions: /* Error: Ran out of types for this method. */;
+- (id)},&,N,V_collectionIds;
+- (void)orizedForTCCServicePhotosAdd;
+- (id)pickOptimalStateForUserInitiatedMergeWithPersons:nominalTarget: /* Error: Ran out of types for this method. */;
+- (id)4@32@40;
+- (id);
 - (id);
 - (void)ode:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (void)oint_type >= 0 THEN new.playback_endpoint_type ELSE (CASE WHEN store_saga_id THEN cloud_playback_endpoint_type WHEN sync_id THEN 0 WHEN purchase_history_id THEN 1 WHEN is_ota_purchased THEN 0 WHEN is_subscription THEN 3 ELSE 0 END) END) WHERE item_pid = new.item_pid; END;;
@@ -24,7 +24,6 @@
 - (void)io_language, audio_track_index, audio_track_id, subtitle_language, subtitle_track_index, subtitle_track_id, episode_id, network_name, extended_content_rating, movie_info, bit_rate, pending_genius_checksum FROM item_extra;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *ITunesStoreIdentifier;
 @property(copy, nonatomic) NSString *artistName;
 
 @end

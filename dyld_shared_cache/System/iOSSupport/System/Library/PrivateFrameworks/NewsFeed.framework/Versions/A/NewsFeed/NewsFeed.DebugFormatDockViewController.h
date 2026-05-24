@@ -7,14 +7,9 @@
 @interface NewsFeed.DebugFormatDockViewController
 {
     id editor;
-    id mainViewController;
-    id leadingItemContainerView;
-    id trailingItemContainerView;
-    id separator;
-    id $__lazy_storage_$_uploadPresenter;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)mO:eø /* Error: Ran out of types for this method. */;

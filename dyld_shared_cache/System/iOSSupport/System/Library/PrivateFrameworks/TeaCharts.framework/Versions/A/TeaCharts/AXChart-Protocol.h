@@ -7,6 +7,7 @@
 @class AXChartDescriptor;
 
 @protocol AXChart
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXChartDescriptor *accessibilityChartDescriptor;

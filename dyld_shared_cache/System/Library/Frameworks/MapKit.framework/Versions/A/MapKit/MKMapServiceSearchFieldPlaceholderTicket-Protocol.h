@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceSearchFieldPlaceholderTicket
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

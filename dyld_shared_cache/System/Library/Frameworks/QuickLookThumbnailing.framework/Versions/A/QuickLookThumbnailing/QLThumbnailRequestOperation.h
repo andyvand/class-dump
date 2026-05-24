@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSObject, QLThumbnailGenerationRequest, QLThumbnailRepresentation;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface QLThumbnailRequestOperation
 {
     _Bool _finished;
-    _Bool _executing;
-    NSDate *_beginDate;
-    CDUnknownBlockType _requestUpdateBlock;
-    CDUnknownBlockType _requestCompletionBlock;
-    NSObject<OS_dispatch_queue> *_serialResponseQueue;
-    QLThumbnailGenerationRequest *_request;
-    CDUnknownBlockType _thumbnailRequestGenerationWillStartBlock;
-    QLThumbnailRepresentation *_mostRepresentativeThumbnail;
-    NSError *_thumbnailRequestInvalidError;
 }
 
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (void);
@@ -57,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)z;
 - (void);
 - (void);
 - (_Bool);
@@ -70,15 +61,7 @@
 - (_Bool)y;
 
 // Remaining properties
-@property(nonatomic) double minimumDimension;
-@property(retain, nonatomic) QLThumbnailRepresentation *mostRepresentativeThumbnail; // @synthesize mostRepresentativeThumbnail=_mostRepresentativeThumbnail;
-@property(retain) QLThumbnailGenerationRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType requestCompletionBlock; // @synthesize requestCompletionBlock=_requestCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType requestUpdateBlock; // @synthesize requestUpdateBlock=_requestUpdateBlock;
-@property(nonatomic) unsigned long long requestedTypes;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialResponseQueue; // @synthesize serialResponseQueue=_serialResponseQueue;
-@property(copy, nonatomic) CDUnknownBlockType thumbnailRequestGenerationWillStartBlock; // @synthesize thumbnailRequestGenerationWillStartBlock=_thumbnailRequestGenerationWillStartBlock;
-@property(retain, nonatomic) NSError *thumbnailRequestInvalidError; // @synthesize thumbnailRequestInvalidError=_thumbnailRequestInvalidError;
 
 @end
 

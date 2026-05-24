@@ -6,17 +6,15 @@
 
 #import <Safari/Banner.h>
 
-@class NSStackView, SLAttributionView, SLHighlight;
+@class NSStackView, SLAttributionView;
 
 __attribute__((visibility("hidden")))
 @interface HighlightBanner : Banner
 {
     SLAttributionView *_attributionView;
-    SLHighlight *_highlight;
-    NSStackView *_stackView;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -30,11 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)eItemsFromSerializedArray;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SLHighlight *highlight; // @synthesize highlight=_highlight;
 @property(nonatomic) __weak NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end

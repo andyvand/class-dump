@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSLayoutConstraint, NSTextField, RolloverImageButton;
+@class NSLayoutConstraint;
 @protocol BookmarksSidebarTableCellViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksSidebarTableCellView
 {
     id <BookmarksSidebarTableCellViewDelegate> _delegate;
-    long long _bookmarkStyle;
-    NSImage *_bookmarkIconImage;
-    NSLayoutConstraint *_textFieldRightMarginConstraintWhenEditing;
-    NSImageView *_faviconView;
-    NSTextField *_bookmarkTitleTextField;
-    RolloverImageButton *_removeButton;
-    NSLayoutConstraint *_removeButtonWidthConstraint;
-    NSLayoutConstraint *_removeButtonHeightConstraint;
 }
 
 - (id);
@@ -34,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)64;
 - (id);
 - (void);
 - (void);
@@ -45,10 +37,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)ame:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)rrow.down.fill;
 - (_Bool);
@@ -57,14 +49,6 @@ __attribute__((visibility("hidden")))
 - (id)h°;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *bookmarkIconImage; // @synthesize bookmarkIconImage=_bookmarkIconImage;
-@property(nonatomic) long long bookmarkStyle; // @synthesize bookmarkStyle=_bookmarkStyle;
-@property(nonatomic) __weak NSTextField *bookmarkTitleTextField; // @synthesize bookmarkTitleTextField=_bookmarkTitleTextField;
-@property(nonatomic) __weak id <BookmarksSidebarTableCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSImageView *faviconView; // @synthesize faviconView=_faviconView;
-@property(nonatomic) __weak RolloverImageButton *removeButton; // @synthesize removeButton=_removeButton;
-@property __weak NSLayoutConstraint *removeButtonHeightConstraint; // @synthesize removeButtonHeightConstraint=_removeButtonHeightConstraint;
-@property __weak NSLayoutConstraint *removeButtonWidthConstraint; // @synthesize removeButtonWidthConstraint=_removeButtonWidthConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *textFieldRightMarginConstraintWhenEditing; // @synthesize textFieldRightMarginConstraintWhenEditing=_textFieldRightMarginConstraintWhenEditing;
 
 @end

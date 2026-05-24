@@ -6,19 +6,16 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceAccountUserInfoRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    unsigned long long _requestedUserInfo;
-    NSArray *_certificates;
-    NSString *_encryptionVersion;
 }
 
 - (void);
-- (void);
+- (void)k
+(;
 - (unsigned long long);
 - (id);
 - (id);
@@ -32,10 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
-@property(nonatomic) unsigned long long requestedUserInfo; // @synthesize requestedUserInfo=_requestedUserInfo;
 
 @end
 

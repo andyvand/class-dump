@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UIView;
+@class UIView;
 @protocol UIInterfaceActionVisualSeparatorDisplaying><UIInterfaceActionVisualSectionSeparatorDisplaying;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionSeparatorConstraintController
 {
     double _constantAxisDimension;
-    UIView<UIInterfaceActionVisualSeparatorDisplaying><UIInterfaceActionVisualSectionSeparatorDisplaying> *_separatorView;
-    NSLayoutConstraint *_fixedHeightConstraint;
-    NSLayoutConstraint *_fixedWidthConstraint;
-    long long _constantSizedAxis;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (double);
+- (id)reachabilityContextForChat:(id)arg1 forceServerRefresh: /* Error: Ran out of types for this method. */;
+- (id)frequentRepliesForForChatIdentifiers:onServices:limit: /* Error: Ran out of types for this method. */;
+- (id)forwardMessageToPeers:messageType:guid:originalSender:forcedCallerID:hasAttachment:watchOnly: /* Error: Ran out of types for this method. */;
+- (long long)_scheduleOperation: /* Error: Ran out of types for this method. */;
+- (double)_scheduleNextEvaluation;
 - (_Bool);
-- (void);
+- (void)s:%@ removed participants:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double constantAxisDimension; // @synthesize constantAxisDimension=_constantAxisDimension;
-@property(nonatomic) long long constantSizedAxis; // @synthesize constantSizedAxis=_constantSizedAxis;
-@property(readonly, nonatomic) NSLayoutConstraint *fixedHeightConstraint; // @synthesize fixedHeightConstraint=_fixedHeightConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *fixedWidthConstraint; // @synthesize fixedWidthConstraint=_fixedWidthConstraint;
 @property(readonly, nonatomic) __weak UIView<UIInterfaceActionVisualSeparatorDisplaying><UIInterfaceActionVisualSectionSeparatorDisplaying> *separatorView; // @synthesize separatorView=_separatorView;
 
 @end

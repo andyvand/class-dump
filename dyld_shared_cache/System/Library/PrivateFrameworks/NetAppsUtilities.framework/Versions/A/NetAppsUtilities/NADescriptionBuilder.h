@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
 @protocol NSObject;
 
 @interface NADescriptionBuilder
 {
     id <NSObject> _object;
-    NSMutableString *_proem;
-    NSMutableString *_description;
-    int _activeComponent;
-    NSString *_activePrefix;
-    _Bool _useDebugDescription;
 }
 
 + (id);
@@ -22,12 +16,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)incomingRecordComputeStates;
 
 // Remaining properties
 @property(nonatomic) int activeComponent; // @synthesize activeComponent=_activeComponent;
-@property(retain, nonatomic) NSString *activeMultilinePrefix; // @synthesize activeMultilinePrefix=_activePrefix;
-@property(nonatomic) _Bool useDebugDescription; // @synthesize useDebugDescription=_useDebugDescription;
 
 @end
 

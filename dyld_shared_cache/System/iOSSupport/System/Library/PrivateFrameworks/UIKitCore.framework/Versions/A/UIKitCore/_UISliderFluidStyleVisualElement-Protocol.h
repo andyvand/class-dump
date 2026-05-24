@@ -5,6 +5,8 @@
 //
 
 @protocol _UISliderFluidStyleVisualElement
+- (unsigned long long)ork.framework/Versions/A/CFNetwork;
+- (void)h;
 
 // Remaining properties
 @property(nonatomic) _Bool changeWithVolumeButtons;

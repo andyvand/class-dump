@@ -6,15 +6,11 @@
 
 #import <AvatarUI/AVTAttributeCollectionViewCell.h>
 
-@class NSString, UILabel, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface AVTAttributeLabeledCollectionViewCell : AVTAttributeCollectionViewCell
 {
     _Bool _shouldHideLabelBackground;
-    NSString *_labelString;
-    double _labelVerticalSpace;
-    UIVisualEffectView *_labelBackgroundView;
-    UILabel *_label;
 }
 
 + (id);
@@ -28,20 +24,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)xF
+;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)setUserInfo:(id)arg1 forAccessControlWithGUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 @property(retain, nonatomic) UIVisualEffectView *labelBackgroundView; // @synthesize labelBackgroundView=_labelBackgroundView;
-@property(copy, nonatomic) NSString *labelString; // @synthesize labelString=_labelString;
-@property(nonatomic) double labelVerticalSpace; // @synthesize labelVerticalSpace=_labelVerticalSpace;
-@property(nonatomic) _Bool shouldHideLabelBackground; // @synthesize shouldHideLabelBackground=_shouldHideLabelBackground;
 
 @end
 

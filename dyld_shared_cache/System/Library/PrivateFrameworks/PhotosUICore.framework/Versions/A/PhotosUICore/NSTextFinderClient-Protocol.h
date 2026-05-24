@@ -9,38 +9,15 @@
 @protocol NSTextFinderClient
 
 @optional
+- (NSString *){;
+- (_Bool);
 - (NSArray *)&,N,V_curationLengthsProgress;
 - (void)þeéÿtË&ÿ¼Q;
-- (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool allowsMultipleSelection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisEditable
-
-@property(readonly) struct _NSRange firstSelectedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{_NSRange=QQ},?,R
-
 @property(readonly, getter=isSelectable) _Bool selectable;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,GisSelectable
-
-@property(copy) NSArray *selectedRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C
-
-@property(readonly) NSString *string;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly, copy) NSArray *visibleCharacterRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
 
 @end
 

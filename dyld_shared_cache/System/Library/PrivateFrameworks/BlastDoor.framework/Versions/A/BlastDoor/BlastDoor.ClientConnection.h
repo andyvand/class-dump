@@ -7,10 +7,6 @@
 @interface BlastDoor.ClientConnection
 {
     id server;
-    id connection;
-    id process;
-    id sessionHandlers;
-    id clientConnectionQueue;
 }
 
 @end

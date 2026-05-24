@@ -6,9 +6,6 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSString;
-@protocol CAWindowLayerDelegate><CALayerDelegate;
-
 @interface CAWindowLayer : CALayer
 {
     _Bool _windowFlattened;
@@ -16,8 +13,8 @@
 
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)I;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -26,20 +23,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@9);
 - (void);
 - (void);
 - (void *);
 - (_Bool);
 - (id);
-- (void);
+- (void)tic;
 
 // Remaining properties
-@property __weak id <CAWindowLayerDelegate><CALayerDelegate> delegate; // @dynamic delegate;
-@property(copy) NSString *flattenMode;
-@property _Bool fullyOccluded;
-@property _Bool ignoreAnimations;
-@property double postCommitDuration;
 @property(nonatomic) _Bool windowFlattened; // @synthesize windowFlattened=_windowFlattened;
 
 @end

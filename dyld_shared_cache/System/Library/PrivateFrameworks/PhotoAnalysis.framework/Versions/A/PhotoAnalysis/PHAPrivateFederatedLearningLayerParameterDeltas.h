@@ -9,7 +9,6 @@
 @interface PHAPrivateFederatedLearningLayerParameterDeltas
 {
     MAFloatVector *_weightDeltas;
-    MAFloatVector *_biasDeltas;
 }
 
 + (id);
@@ -17,11 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)nts;
+- (id)F;
+- (void)availableMetricEvents;
 
 // Remaining properties
-@property(retain, nonatomic) MAFloatVector *biasDeltas; // @synthesize biasDeltas=_biasDeltas;
 @property(retain, nonatomic) MAFloatVector *weightDeltas; // @synthesize weightDeltas=_weightDeltas;
 
 @end

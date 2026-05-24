@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     _UIViewAnimationFrame *_finalValue;
 }
 
-- (id);
+- (id)equest is not available on macOS;
 - (void);
-- (void)geName:(id)arg1 maxLength:boolValue: /* Error: Ran out of types for this method. */;
-- (void)roller;
+- (void)initFromData:(id)arg1 type:imageName:maxLength:boolValue: /* Error: Ran out of types for this method. */;
+- (void)_UICalendarViewDataSourceController;
 - (_Bool);
 - (void)_ytô¯;
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDConversationRemoteCloudKitStorage, EDTransactionService, NSObject, NSString;
-@protocol EDConversationRemoteStorage, EDConversationRemoteStorageDelegate, OS_dispatch_queue;
+@protocol EDConversationRemoteStorageDelegate;
 
 @interface EDConversationMultipleRemoteStorage
 {
     id <EDConversationRemoteStorageDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_privateQueue;
-    id <EDConversationRemoteStorage> _kvsStorage;
-    EDConversationRemoteCloudKitStorage *_cloudKitStorage;
-    EDTransactionService *_dataReplicationTransaction;
 }
 
 + (id)0@ù
@@ -44,23 +39,12 @@
 - (void)p populate business_categories table with existing user overrides;
 - (void)ing removals:%lu (%p)
  /* Error: Ran out of types for this method. */;
-- (void)BIMIResult;
+- (void)hasBIMIResult;
 - (id);
 - (_Bool)ø;
 
 // Remaining properties
-@property(retain, nonatomic) EDConversationRemoteCloudKitStorage *cloudKitStorage; // @synthesize cloudKitStorage=_cloudKitStorage;
-@property(retain, nonatomic) EDTransactionService *dataReplicationTransaction; // @synthesize dataReplicationTransaction=_dataReplicationTransaction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EDConversationRemoteStorageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <EDConversationRemoteStorage> kvsStorage; // @synthesize kvsStorage=_kvsStorage;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(readonly) Class superclass;
 
 @end
 

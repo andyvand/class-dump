@@ -9,15 +9,6 @@
 @interface ABConstraintDescription
 {
     NSString *_viewName1;
-    long long _attribute1;
-    long long _relation;
-    NSString *_viewName2;
-    long long _attribute2;
-    double _constantSign;
-    double _constantValue;
-    NSString *_constantName;
-    float _priorityValue;
-    NSString *_priorityName;
 }
 
 + (id);
@@ -27,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (long long);
++ (long long)';
 + (id);
 - (id);
 - (id);
@@ -39,24 +30,15 @@
 - (long long);
 - (float);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (long long);
-- (double);
+- (double)ources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:140 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void)Á@ð!ìCùªÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) long long attribute1; // @synthesize attribute1=_attribute1;
-@property(readonly) long long attribute2; // @synthesize attribute2=_attribute2;
-@property(readonly, copy) NSString *constantName; // @synthesize constantName=_constantName;
-@property(readonly) double constantSign; // @synthesize constantSign=_constantSign;
-@property(readonly) double constantValue; // @synthesize constantValue=_constantValue;
-@property(readonly) NSString *priorityName; // @synthesize priorityName=_priorityName;
-@property(readonly) float priorityValue; // @synthesize priorityValue=_priorityValue;
-@property(readonly) long long relation; // @synthesize relation=_relation;
 @property(readonly, copy) NSString *viewName1; // @synthesize viewName1=_viewName1;
-@property(readonly, copy) NSString *viewName2; // @synthesize viewName2=_viewName2;
 
 @end
 

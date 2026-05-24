@@ -8,8 +8,6 @@
 {
     id $defaultActor;
     id applicationPolicyManager;
-    id callCenter;
-    id logger;
 }
 
 @end

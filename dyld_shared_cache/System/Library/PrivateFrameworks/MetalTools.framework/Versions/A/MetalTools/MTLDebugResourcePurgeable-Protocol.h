@@ -5,5 +5,6 @@
 //
 
 @protocol MTLDebugResourcePurgeable
+- (_Bool)(a;
 @end
 

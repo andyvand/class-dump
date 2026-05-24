@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TIDocumentWordsAligned
 {
     NSMutableArray *_inDocumentWordsStack;
-    NSMutableDictionary *_leftContextToWordMap;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ard record timestamp %lld to %lld
+;
 - (id);
 - (id);
 - (id);
@@ -37,7 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *inDocumentWordsStack; // @synthesize inDocumentWordsStack=_inDocumentWordsStack;
-@property(retain, nonatomic) NSMutableDictionary *leftContextToWordMap; // @synthesize leftContextToWordMap=_leftContextToWordMap;
 
 @end
 

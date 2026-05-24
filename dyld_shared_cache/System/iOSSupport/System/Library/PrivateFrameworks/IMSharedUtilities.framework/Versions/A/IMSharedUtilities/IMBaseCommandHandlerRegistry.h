@@ -9,7 +9,6 @@
 @interface IMBaseCommandHandlerRegistry
 {
     NSMutableDictionary *_standardHandlers;
-    NSMutableDictionary *_lockdownHandlers;
 }
 
 - (id);
@@ -25,13 +24,10 @@
 - (_Bool);
 - (id);
 - (id)pEÿÿEÿÿ;
-- (void)TTranslatorCSg;
+- (void)So13_LTTranslatorCSg;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *handlers;
-@property(readonly, nonatomic) NSDictionary *lockdownHandlers; // @synthesize lockdownHandlers=_lockdownHandlers;
-@property(readonly, nonatomic, getter=isLockedDown) _Bool lockedDown;
-@property(readonly, nonatomic) NSDictionary *standardHandlers; // @synthesize standardHandlers=_standardHandlers;
 
 @end
 

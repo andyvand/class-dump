@@ -6,30 +6,24 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SSNoteResultBuilder : SSResultBuilder
 {
     _Bool _isShared;
-    _Bool _isLocked;
-    NSString *_title;
-    NSDate *_modificationDate;
-    NSString *_formattedBody;
-    NSString *_folder;
-    NSString *_account;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)valueForUndefinedKey: /* Error: Ran out of types for this method. */;
+- (id)setOverrideAllowOpeningSensitiveURLs: /* Error: Ran out of types for this method. */;
+- (id)setMaximumWidth: /* Error: Ran out of types for this method. */;
+- (id)setLayoutDirection: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)initWithResourcePath:(id)arg1 assetFileName:assetVersion:assetHash: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -39,16 +33,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)ForCategory: /* Error: Ran out of types for this method. */;
-- (id)_completed_query_ordered_span_prefix;
+- (void)getCountForCategory: /* Error: Ran out of types for this method. */;
+- (id)parsec_completed_query_ordered_span_prefix;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSString *folder; // @synthesize folder=_folder;
-@property(retain, nonatomic) NSString *formattedBody; // @synthesize formattedBody=_formattedBody;
-@property(nonatomic) _Bool isLocked; // @synthesize isLocked=_isLocked;
-@property(nonatomic) _Bool isShared; // @synthesize isShared=_isShared;
-@property(retain, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;
-@property(readonly, nonatomic) long long entryType;
 @end
 

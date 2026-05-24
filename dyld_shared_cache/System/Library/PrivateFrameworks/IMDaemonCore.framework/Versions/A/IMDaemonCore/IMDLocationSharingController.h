@@ -9,7 +9,6 @@
 @interface IMDLocationSharingController
 {
     FMFSession *_session;
-    FindMyLocateSession *_fmlSession;
 }
 
 + (void);
@@ -20,15 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void),E;
 - (void);
 - (void);
 - (void);

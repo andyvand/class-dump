@@ -9,13 +9,6 @@
 @interface OTJoiningConfiguration
 {
     _Bool _isInitiator;
-    _Bool _testsEnabled;
-    NSString *_protocolType;
-    NSString *_uniqueDeviceID;
-    NSString *_uniqueClientID;
-    NSString *_pairingUUID;
-    unsigned long long _epoch;
-    long long _timeout;
 }
 
 + (_Bool);
@@ -34,22 +27,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (void);
-- (long long);
+- (long long)`;
 - (void);
 - (void)slocate:(unsigned long long)arg1:joinPathUpTo invalid index %lu (size %lu) /* Error: Ran out of types for this method. */;
 - (unsigned long long)%@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long epoch; // @synthesize epoch=_epoch;
-@property(nonatomic) _Bool isInitiator; // @synthesize isInitiator=_isInitiator;
-@property(retain, nonatomic) NSString *pairingUUID; // @synthesize pairingUUID=_pairingUUID;
 @property(retain, nonatomic) NSString *protocolType; // @synthesize protocolType=_protocolType;
-@property(nonatomic) _Bool testsEnabled; // @synthesize testsEnabled=_testsEnabled;
-@property long long timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) NSString *uniqueClientID; // @synthesize uniqueClientID=_uniqueClientID;
-@property(retain, nonatomic) NSString *uniqueDeviceID; // @synthesize uniqueDeviceID=_uniqueDeviceID;
 
 @end
 

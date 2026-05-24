@@ -11,11 +11,11 @@
     long long _objectID;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id);
+- (id)_completionHandler;
+- (id)_colorFromITColor:(long long)arg1;
+- (id)_arraySupportInstalled;
+- (id)Color=},R,N,V_secondaryDropShadowColor;
 - (id);
 - (id);
 - (long long);

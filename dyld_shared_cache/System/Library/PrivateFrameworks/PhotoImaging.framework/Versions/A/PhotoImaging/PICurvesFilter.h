@@ -9,7 +9,6 @@
 @interface PICurvesFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputTableImage;
 }
 
 + (id);
@@ -18,11 +17,10 @@
 - (id);
 - (void);
 - (id);
-- (void)withObject: /* Error: Ran out of types for this method. */;
+- (void)replaceObjectAtIndex:withObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) CIImage *inputTableImage; // @synthesize inputTableImage=_inputTableImage;
 
 @end
 

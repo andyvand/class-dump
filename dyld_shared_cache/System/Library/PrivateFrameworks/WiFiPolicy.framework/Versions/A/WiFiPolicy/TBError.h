@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)BackgroundTransaction;
 - (id);
 
 @end

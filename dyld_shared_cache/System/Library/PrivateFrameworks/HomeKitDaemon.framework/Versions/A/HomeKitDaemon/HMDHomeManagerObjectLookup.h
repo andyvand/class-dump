@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)conversationManager:presentationContextChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)enting delete home confirmation dialog to user for %@;
 - (id)etch or nfc reader key for matter accessory:%@ /* Error: Ran out of types for this method. */;
 - (void)tcut action is unavailable to execute;
-- (void)ilurePercentage;
+- (void)failurePercentage;
 - (void)essoryFirmwareUpdateSession stagingComplete];
 - (id)é?;
 

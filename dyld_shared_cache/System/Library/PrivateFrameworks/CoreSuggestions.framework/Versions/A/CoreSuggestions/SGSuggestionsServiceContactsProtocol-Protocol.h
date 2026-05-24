@@ -4,13 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGOrigin, SGRecordId;
+@class CNContact, NSArray, NSString, SGOrigin, SGRecordId;
 
 @protocol SGSuggestionsServiceContactsProtocol
-- (NSArray *)ument:atIndex: /* Error: Ran out of types for this method. */;
+- (NSArray *)s
+B;
+- (NSArray *);
+- (void)decodeBoolForKey:(CNContact *)arg1;
+- (NSArray *)(;
+- (void) ;
+- (void))a;
+- (void)addEntriesFromDictionary:(NSString *)arg1;
+- (NSArray *)setArgument:atIndex: /* Error: Ran out of types for this method. */;
 - (SGOrigin *)one:(SGRecordId *)arg1 isAllDay:(id *)arg2 creationDate:lastModifiedDate:locations:tagStrings:URL:naturalLanguageEventIdentifier:naturalLanguageEventAttributes:schemaOrg: /* Error: Ran out of types for this method. */;
-- (NSArray *):(NSArray *)arg1;
-- (void)tKey;
+- (NSArray *)decodeObjectOfClass:(NSArray *)arg1 forKey:(id *)arg2;
+- (void)_SuggestionsReHarvestKey;
 - (void)ssBook;
 @end
 

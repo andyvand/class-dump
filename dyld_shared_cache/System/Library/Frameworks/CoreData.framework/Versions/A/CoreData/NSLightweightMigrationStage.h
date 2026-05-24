@@ -11,7 +11,6 @@
 @interface NSLightweightMigrationStage : NSMigrationStage
 {
     NSArray *_versionChecksums;
-    NSMigrationStage *_subsequentStage;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain) NSMigrationStage *subsequentStage; // @synthesize subsequentStage=_subsequentStage;
-@property(readonly) NSArray *versionChecksums; // @synthesize versionChecksums=_versionChecksums;
 
 @end
 

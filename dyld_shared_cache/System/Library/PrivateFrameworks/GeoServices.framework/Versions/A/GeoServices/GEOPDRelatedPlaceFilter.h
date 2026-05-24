@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDRelatedPlaceFilter
 {
     PBUnknownFields *_unknownFields;
-    int _relatedPlaceTemplateItemCount;
-    _Bool _canSupportTemplateModule;
-    struct {
-        unsigned int has_relatedPlaceTemplateItemCount:1;
-        unsigned int has_canSupportTemplateModule:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)8;
-- (id)Context;
+- (id)_motionContext;
 - (id)÷;
 - (void)weÞF@;
 

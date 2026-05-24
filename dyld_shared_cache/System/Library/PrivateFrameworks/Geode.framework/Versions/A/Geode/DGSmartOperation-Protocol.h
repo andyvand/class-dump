@@ -5,5 +5,6 @@
 //
 
 @protocol DGSmartOperation
+- (void);
 @end
 

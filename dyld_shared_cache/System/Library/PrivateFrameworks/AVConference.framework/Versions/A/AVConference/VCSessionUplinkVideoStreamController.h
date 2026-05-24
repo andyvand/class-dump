@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, VCIDRScheduler;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionUplinkVideoStreamController
 {
     float _startTime;
-    float _currentFrameTime;
-    id _delegate;
-    NSMutableDictionary *_videoStreams;
-    NSMutableDictionary *_streamInfoMap;
-    NSMutableDictionary *_activeVideoStreams;
-    NSMutableSet *_streamToPause;
-    NSMutableSet *_streamToResume;
-    NSMutableDictionary *_streamScheduleWifi;
-    NSMutableDictionary *_streamScheduleCell;
-    NSMutableDictionary *_currentStreamSchedule;
-    NSMutableDictionary *_pendingVideoStreams;
-    VCIDRScheduler *_schedulerWifi;
-    VCIDRScheduler *_schedulerCell;
-    _Bool _pendingStreamsUpdated;
-    struct _opaque_pthread_mutex_t _mutex;
-    double _pendingKeyFrameGenerationStartTime;
-    NSMutableArray *_streamsPendingKeyFrameGeneration;
-    NSMutableArray *_streamResetIDR;
-    NSArray *_streamIDsWifi;
-    NSArray *_streamIDsCell;
-    unsigned int _captureFrameRate;
-    _Bool _dynamicVideoPriorityEnabled;
-    _Bool _shouldSkipIDRScheduler;
-    _Bool _streamsUseRTCP;
-    NSDictionary *_cachedActiveVideoStreams;
-    struct opaqueRTCReporting *_reportingAgent;
 }
 
 - (id);
@@ -59,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)-@9(-;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (float);
 - (unsigned int);
 - (id);
@@ -77,17 +51,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)ureSource initWithCaptureSourceID:configuration:] /* Error: Ran out of types for this method. */;
-- (void)ufferList_SetAveragePower;
+- (void)VCAudioBufferList_SetAveragePower;
 
 // Remaining properties
 @property(readonly) NSDictionary *activeVideoStreams;
-@property unsigned int captureFrameRate; // @synthesize captureFrameRate=_captureFrameRate;
-@property(nonatomic) float currentFrameTime; // @synthesize currentFrameTime=_currentFrameTime;
-@property(nonatomic) _Bool dynamicVideoPriorityEnabled; // @synthesize dynamicVideoPriorityEnabled=_dynamicVideoPriorityEnabled;
-@property(copy, nonatomic) NSDictionary *pendingVideoStreams; // @synthesize pendingVideoStreams=_pendingVideoStreams;
-@property(nonatomic) _Bool shouldSkipIDRScheduler; // @synthesize shouldSkipIDRScheduler=_shouldSkipIDRScheduler;
-@property(copy, nonatomic) NSArray *streamIDsCell; // @synthesize streamIDsCell=_streamIDsCell;
-@property(copy, nonatomic) NSArray *streamIDsWifi; // @synthesize streamIDsWifi=_streamIDsWifi;
 
 @end
 

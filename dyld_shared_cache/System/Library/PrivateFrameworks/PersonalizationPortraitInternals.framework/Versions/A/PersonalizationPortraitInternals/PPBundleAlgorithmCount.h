@@ -9,8 +9,6 @@
 @interface PPBundleAlgorithmCount
 {
     unsigned int _algorithm;
-    unsigned int _count;
-    NSString *_bundleId;
 }
 
 - (unsigned int);
@@ -18,13 +16,11 @@
 - (void);
 - (void);
 - (unsigned int);
-- (void)ast:error:queryId:completion: /* Error: Ran out of types for this method. */;
+- (void)topicRecordBatch:isLast:error:queryId:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int algorithm; // @synthesize algorithm=_algorithm;
 @property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
 
 @end
 

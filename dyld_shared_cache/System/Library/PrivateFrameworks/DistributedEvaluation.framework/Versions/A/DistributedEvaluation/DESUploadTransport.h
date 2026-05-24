@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface DESUploadTransport
 {
     _Bool _originRoute;
-    _Bool _parsecRoute;
-    _Bool _dediscoRoute;
-    NSURL *_postBackBaseURL;
 }
 
 + (_Bool);
+- (_Bool).typeIdentifier.custom.bundleId;
+- (_Bool)nerationRequest.statementResults.payload.outcome.parameterNotAllowed.value.value.query.typeIdentifier.custom.bundleId;
+- (id)es.entity.typeIdentifier.custom.bundleId;
+- (id)tcome.parameterDisambiguation.items.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (_Bool);
-- (_Bool);
+- (id)sponseGenerationRequest.statementResults.payload.outcome.success.returnValue.value.enumeration.typeIdentifier.custom.bundleId;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)J
+;
+- (id)__DATA_CONST;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool dediscoRoute; // @synthesize dediscoRoute=_dediscoRoute;
 @property(readonly, nonatomic) _Bool originRoute; // @synthesize originRoute=_originRoute;
-@property(readonly, nonatomic) _Bool parsecRoute; // @synthesize parsecRoute=_parsecRoute;
-@property(readonly, copy, nonatomic) NSURL *postBackBaseURL; // @synthesize postBackBaseURL=_postBackBaseURL;
 
 @end
 

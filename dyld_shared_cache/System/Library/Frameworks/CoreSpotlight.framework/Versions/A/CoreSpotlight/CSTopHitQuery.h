@@ -11,10 +11,9 @@
 @interface CSTopHitQuery : CSUserQuery
 {
     NSMutableArray *_batches;
-    unsigned long long _tokenCount;
 }
 
-+ (void);
++ (void)6 ;
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (void)tifier;
+- (void)relatedAppBundleIdentifier;
 
 @end
 

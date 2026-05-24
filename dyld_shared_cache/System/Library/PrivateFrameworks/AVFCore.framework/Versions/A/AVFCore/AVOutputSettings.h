@@ -16,11 +16,11 @@
 + (id);
 + (id);
 + (unsigned long long);
++ (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
-- (id);
+- (_Bool)T@"EMTStablePrefixState",&,N,V_stablePrefixState;
+- (id)y;
 - (id);
 - (id);
 - (_Bool);
@@ -28,13 +28,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)I;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *compatibleMediaTypes;
-@property(readonly, nonatomic) NSDictionary *outputSettingsDictionary; // @synthesize outputSettingsDictionary=_outputSettingsDictionary;
-@property(readonly, nonatomic) _Bool willYieldCompressedSamples;
 
 @end
 

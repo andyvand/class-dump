@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSString;
 
 @interface WBSBannerTracker
 {
     NSMutableDictionary *_blockedBanners;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
-+ (id);
++ (id)h;
 - (void);
-- (_Bool);
+- (_Bool)qa;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (long long);
-- (id);
+- (long long)_isFullyHidden;
+- (id)SaySo17IMDPersistentTaskCG;
 - (id);
 - (void);
 - (void)äÔ;
@@ -29,7 +27,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long basis;
 @property(readonly, nonatomic) NSString *categoryName;
 
 @end

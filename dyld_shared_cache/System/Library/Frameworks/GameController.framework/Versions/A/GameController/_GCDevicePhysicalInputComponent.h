@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _GCDevicePhysicalInputGroup;
-@protocol GCDevice, NSObject><NSCopying><NSSecureCoding;
+@class _GCDevicePhysicalInputGroup;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputComponent
 {
     _GCDevicePhysicalInputGroup *_defaultPhysicalInputGroup;
-    id _gamepadEventObservation;
-    id _collectionEventObservation;
-    struct os_unfair_lock_s _eventBufferLock;
-    _Atomic unsigned long long _cached_collectionEventBufferCount;
-    NSMutableArray *_collectionEventBuffer;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    id <GCDevice> _device;
 }
 
 - (void);
@@ -30,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)or}d ;
 - (void);
 - (void);
 - (id);
@@ -40,14 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetStore, FCCacheCoordinator, NSString;
+@class FCAssetStore;
 @protocol NDAnalyticsEnvelopeStoreObserver;
 
 @interface NDAnalyticsEnvelopeStore
 {
     id <NDAnalyticsEnvelopeStoreObserver> _observer;
-    FCAssetStore *_assetStore;
-    FCCacheCoordinator *_cacheCoordinator;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
+- (id)mImageSize;
+- (void)didMoveToURL:(id)arg1;
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,15 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCAssetStore *assetStore; // @synthesize assetStore=_assetStore;
-@property(retain, nonatomic) FCCacheCoordinator *cacheCoordinator; // @synthesize cacheCoordinator=_cacheCoordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <NDAnalyticsEnvelopeStoreObserver> observer; // @synthesize observer=_observer;
-@property(readonly) Class superclass;
 
 @end
 

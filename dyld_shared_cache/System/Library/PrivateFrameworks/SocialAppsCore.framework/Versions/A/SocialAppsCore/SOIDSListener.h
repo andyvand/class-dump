@@ -9,15 +9,14 @@
 @interface SOIDSListener
 {
     long long _listenCount;
-    NSString *_listenerID;
 }
 
 + (id);
-- (long long);
+- (long long)(=;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setValueTextField: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

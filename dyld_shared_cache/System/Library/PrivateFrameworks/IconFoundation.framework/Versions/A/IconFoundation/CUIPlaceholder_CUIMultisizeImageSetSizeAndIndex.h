@@ -7,27 +7,21 @@
 @interface CUIPlaceholder_CUIMultisizeImageSetSizeAndIndex
 {
     struct CGSize _size;
-    unsigned int _index;
-    long long _idiom;
-    unsigned long long _subtype;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)orithm %s not trusted for self signatures;
 - (long long);
-- (unsigned int);
+- (unsigned int)the list. This is a bug.;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long idiom; // @synthesize idiom=_idiom;
-@property(nonatomic) unsigned int index; // @synthesize index=_index;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
 
 @end
 

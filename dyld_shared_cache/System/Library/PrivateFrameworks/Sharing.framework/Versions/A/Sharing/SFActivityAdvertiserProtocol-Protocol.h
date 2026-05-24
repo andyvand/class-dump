@@ -5,5 +5,6 @@
 //
 
 @protocol SFActivityAdvertiserProtocol
+- (void)4;
 @end
 

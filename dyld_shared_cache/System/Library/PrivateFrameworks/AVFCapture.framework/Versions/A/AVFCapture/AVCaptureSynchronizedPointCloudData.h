@@ -11,20 +11,16 @@
 @interface AVCaptureSynchronizedPointCloudData : AVCaptureSynchronizedData
 {
     AVPointCloudData *_pointCloudData;
-    _Bool _pointCloudDataWasDropped;
-    long long _droppedReason;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)rLight;
+- (id)opmost;
 - (long long);
-- (id);
-- (void);
+- (id)ent is an array.;
+- (void)t"16@"NSString"24@?<v@?@"ACCredentialItem"@"NSError">32;
 
 // Remaining properties
-@property(readonly) long long droppedReason;
 @property(readonly) AVPointCloudData *pointCloudData;
-@property(readonly) _Bool pointCloudDataWasDropped;
 
 @end
 

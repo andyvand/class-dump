@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionButtonPresentationProperties, LPCaptionPresentationProperties;
+@class LPCaptionPresentationProperties;
 
 @interface LPCaptionRowPresentationProperties
 {
     LPCaptionPresentationProperties *_leading;
-    LPCaptionPresentationProperties *_trailing;
-    LPCaptionButtonPresentationProperties *_button;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -28,10 +26,7 @@
 - (id)Xjäklèmo;
 
 // Remaining properties
-@property(retain, nonatomic) LPCaptionButtonPresentationProperties *button; // @synthesize button=_button;
 @property(readonly, nonatomic) _Bool hasAnyContent;
-@property(retain, nonatomic) LPCaptionPresentationProperties *leading; // @synthesize leading=_leading;
-@property(retain, nonatomic) LPCaptionPresentationProperties *trailing; // @synthesize trailing=_trailing;
 
 @end
 

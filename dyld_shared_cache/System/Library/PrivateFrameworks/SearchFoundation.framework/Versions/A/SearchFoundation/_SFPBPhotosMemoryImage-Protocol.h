@@ -7,10 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBPhotosMemoryImage
+- (NSString *)fullsizeRenderVideoPath;
+- (NSData *)URL",R;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *memoryIdentifier;
 @end
 

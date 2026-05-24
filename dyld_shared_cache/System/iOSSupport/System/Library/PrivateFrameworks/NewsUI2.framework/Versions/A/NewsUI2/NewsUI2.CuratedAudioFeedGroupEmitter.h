@@ -7,9 +7,6 @@
 @interface NewsUI2.CuratedAudioFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id offlineContentManager;
 }
 
 @end

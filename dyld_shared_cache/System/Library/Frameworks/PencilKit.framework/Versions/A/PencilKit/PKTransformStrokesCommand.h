@@ -11,8 +11,6 @@
 @interface PKTransformStrokesCommand : PKUndoCommand
 {
     NSArray *_strokes;
-    NSArray *_strokeTransforms;
-    struct CGAffineTransform _strokeTransform;
 }
 
 + (id);
@@ -20,16 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct CGAffineTransform);
 - (void);
 - (id);
-- (id);
+- (id)Acknowledgement-ThumbsUp.caf;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform strokeTransform; // @synthesize strokeTransform=_strokeTransform;
-@property(readonly, nonatomic) NSArray *strokeTransforms; // @synthesize strokeTransforms=_strokeTransforms;
 @property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end

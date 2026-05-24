@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIScrollView *_contentScrollView;
 }
 
-- (void);
+- (void)versionFolderPathForAttachment:(id)arg1;
 - (id);
 - (void)(;
 

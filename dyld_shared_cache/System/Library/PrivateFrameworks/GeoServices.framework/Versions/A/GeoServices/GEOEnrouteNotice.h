@@ -4,43 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteAnnotation, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOEnrouteNotice
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_guidances;
-    NSString *_objectIdentifier;
-    GEORouteAnnotation *_routeAnnotation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _groupItemHorizontalDisplayOrder;
-    unsigned int _groupItemVerticalDisplayOrder;
-    unsigned int _highlightDistance;
-    unsigned int _objectGroupId;
-    unsigned int _priority;
-    int _type;
-    unsigned int _zilchPathIndex;
-    struct {
-        unsigned int has_groupItemHorizontalDisplayOrder:1;
-        unsigned int has_groupItemVerticalDisplayOrder:1;
-        unsigned int has_highlightDistance:1;
-        unsigned int has_objectGroupId:1;
-        unsigned int has_priority:1;
-        unsigned int has_type:1;
-        unsigned int has_zilchPathIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_guidances:1;
-        unsigned int read_objectIdentifier:1;
-        unsigned int read_routeAnnotation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setHasRenderingMode:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -56,43 +28,43 @@
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (unsigned int)ObserverDelegate>";
+- (_Bool)trategy>";
+- (_Bool)secTask:valuesForEntitlements:error: /* Error: Ran out of types for this method. */;
+- (_Bool)observableWithObservable:transform:decoratorGenerator:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)observableWithObservable:transform:decoratorGenerator:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBundleIdentifier:teamIdentifier:localizedName:activityTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithArray:copyItems: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithApplicationWorkspace: /* Error: Ran out of types for this method. */;
+- (unsigned long long)adjustTokensForNobiliaryParticles;
+- (id)adjustRanges:toIncludeNonBreakingCharactersInString: /* Error: Ran out of types for this method. */;
+- (id)addObject:(unsigned long long)arg1;
+- (unsigned int)addFailureBlock:scheduler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)CNKeychainFacade;
+- (id);
+- (unsigned int);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)8@"CSAutomaticVolumeEnabledMonitor"16B24;
+- (void)8@"Protocol"16;
+- (id)keywordDetector;
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool)yQ;
+- (int)dataDetectorWithTypes:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id)topIndex:(struct _NSZone *)arg1;
-- (id)otification:purgeDelay:protocolBufferType: /* Error: Ran out of types for this method. */;
+- (void)dsAuthMethodNative:(id)arg1;
+- (id)setHasStartingStopIndex:(struct _NSZone *)arg1;
+- (id)initInternalWithURL:changedNotification:purgeDelay:protocolBufferType: /* Error: Ran out of types for this method. */;
 - (void)ntNetworkMetrics",&,N;
-- (id)EOMapFeatureRoadFinder;
+- (id)GEOMapFeatureRoadFinder;
 - (int)ublic}@ / %u;
 - (id)onds.
 	Error:%@
@@ -106,26 +78,7 @@
 - (unsigned int)/¨: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int groupItemHorizontalDisplayOrder;
-@property(nonatomic) unsigned int groupItemVerticalDisplayOrder;
-@property(retain, nonatomic) NSMutableArray *guidances;
-@property(nonatomic) _Bool hasGroupItemHorizontalDisplayOrder;
-@property(nonatomic) _Bool hasGroupItemVerticalDisplayOrder;
-@property(nonatomic) _Bool hasHighlightDistance;
-@property(nonatomic) _Bool hasObjectGroupId;
-@property(readonly, nonatomic) _Bool hasObjectIdentifier;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasRouteAnnotation;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasZilchPathIndex;
-@property(nonatomic) unsigned int highlightDistance;
-@property(nonatomic) unsigned int objectGroupId;
-@property(retain, nonatomic) NSString *objectIdentifier;
-@property(nonatomic) unsigned int priority;
-@property(retain, nonatomic) GEORouteAnnotation *routeAnnotation;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zilchPathIndex;
 
 @end
 

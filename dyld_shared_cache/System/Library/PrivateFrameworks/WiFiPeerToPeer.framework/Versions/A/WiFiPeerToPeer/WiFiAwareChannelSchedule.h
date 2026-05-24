@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface WiFiAwareChannelSchedule
 {
     unsigned int _channel;
-    unsigned int _bandwidth;
-    unsigned int _band;
-    unsigned int _period;
-    NSData *_timeBitmap;
 }
 
 + (_Bool);
@@ -21,19 +15,15 @@
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)p;
 - (id);
+- (unsigned int)premultiply(im); };
 - (unsigned int);
-- (unsigned int);
-- (void);
+- (void)A;
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int band; // @synthesize band=_band;
-@property(readonly, nonatomic) unsigned int bandwidth; // @synthesize bandwidth=_bandwidth;
 @property(readonly, nonatomic) unsigned int channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) unsigned int period; // @synthesize period=_period;
-@property(readonly, nonatomic) NSData *timeBitmap; // @synthesize timeBitmap=_timeBitmap;
 
 @end
 

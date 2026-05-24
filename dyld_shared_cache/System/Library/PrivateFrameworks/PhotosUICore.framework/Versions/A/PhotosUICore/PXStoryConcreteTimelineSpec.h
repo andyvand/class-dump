@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 @interface PXStoryConcreteTimelineSpec
 {
     BOOL _fallbackTransitionKind;
-    double _nUpDividerWidth;
-    long long _layoutDirection;
-    unsigned long long _allowedInlineTitles;
-    NSIndexSet *_allowedTransitionKinds;
-    unsigned long long _storyTransitionCurveType;
-    struct CGSize _viewportSize;
-    CDStruct_1b6d18a9 _fixedSegmentDuration;
-    struct NSEdgeInsets _safeAreaInsets;
 }
 
 - (unsigned long long);
@@ -39,15 +29,7 @@
 - (long long)ÖÿçdRDÐ<;
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedInlineTitles; // @synthesize allowedInlineTitles=_allowedInlineTitles;
-@property(retain, nonatomic) NSIndexSet *allowedTransitionKinds; // @synthesize allowedTransitionKinds=_allowedTransitionKinds;
-@property(nonatomic) BOOL fallbackTransitionKind; // @synthesize fallbackTransitionKind=_fallbackTransitionKind;
 @property(nonatomic) CDStruct_1b6d18a9 fixedSegmentDuration; // @synthesize fixedSegmentDuration=_fixedSegmentDuration;
-@property(readonly, nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(readonly, nonatomic) double nUpDividerWidth; // @synthesize nUpDividerWidth=_nUpDividerWidth;
-@property(readonly, nonatomic) struct NSEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
-@property(nonatomic) unsigned long long storyTransitionCurveType; // @synthesize storyTransitionCurveType=_storyTransitionCurveType;
-@property(readonly, nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
 
 @end
 

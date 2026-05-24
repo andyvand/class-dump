@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSData, NSDictionary, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHAPMetadataModel : HMDBackingStoreModelObject
 {
@@ -24,19 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *legacyCloudData; // @dynamic legacyCloudData;
-@property(retain, nonatomic) NSData *legacyIDSData; // @dynamic legacyIDSData;
-@property(retain, nonatomic) NSNumber *metadataVersion; // @dynamic metadataVersion;
-@property(readonly, nonatomic) NSDictionary *rawPlist;
-@property(retain, nonatomic) NSData *rawPlistData; // @dynamic rawPlistData;
-@property(retain, nonatomic) NSNumber *schemaVersion; // @dynamic schemaVersion;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBTextColumnSection
 {
     _Bool _textNoWrap;
-    unsigned int _textWeight;
-    NSArray *_textLines;
 }
 
 - (unsigned int);
@@ -28,24 +26,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setEnableRankedResults:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void)ionary"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *textLines; // @synthesize textLines=_textLines;
-@property(nonatomic) _Bool textNoWrap; // @synthesize textNoWrap=_textNoWrap;
-@property(nonatomic) unsigned int textWeight; // @synthesize textWeight=_textWeight;
 
 @end
 

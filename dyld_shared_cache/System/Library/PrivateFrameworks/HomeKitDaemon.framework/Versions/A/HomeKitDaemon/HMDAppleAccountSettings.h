@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccountSettings
 {
     struct hmf_unfair_data_lock_s _lock;
-    _Bool _homeEnabled;
-    _Bool _keychainSyncEnabled;
-    _Bool _managed;
-    _Bool _multiUser;
-    _Bool _migrated;
-    NSObject<OS_dispatch_queue> *_clientQueue;
 }
 
 + (_Bool);
@@ -29,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)e;
 - (void)ùð1Â0@ù
 × ;
-- (void)DiscoveringAssociatedAccessoriesViaBonjour;
+- (void)stopDiscoveringAssociatedAccessoriesViaBonjour;
 - (void)DèE¬F\L UôU\V°VPWX¸XTY¤ZìZ [°];
 - (void)sh message %@:missing domain /* Error: Ran out of types for this method. */;
 - (id)bag update;
@@ -46,19 +37,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)èºÑÿ2ÙR;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, getter=isHomeEnabled) _Bool homeEnabled; // @synthesize homeEnabled=_homeEnabled;
-@property(readonly, getter=isKeychainSyncEnabled) _Bool keychainSyncEnabled; // @synthesize keychainSyncEnabled=_keychainSyncEnabled;
-@property(readonly, getter=isManaged) _Bool managed; // @synthesize managed=_managed;
-@property(nonatomic) _Bool migrated; // @synthesize migrated=_migrated;
-@property(readonly, getter=isMultiUser) _Bool multiUser; // @synthesize multiUser=_multiUser;
-@property(readonly) Class superclass;
 
 @end
 

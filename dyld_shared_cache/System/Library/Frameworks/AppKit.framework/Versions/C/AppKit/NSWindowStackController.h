@@ -6,63 +6,46 @@
 
 #import <AppKit/NSWindowTabGroup.h>
 
-@class NSMenu, NSMutableArray, NSMutableDictionary, NSString, NSTabBar, NSTabPickerViewController, NSTabPickerWindow, NSWindow, NSWindowTab, _NSFullScreenModalStackController;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowStackController : NSWindowTabGroup
 {
     NSMutableArray *_syncedItems;
-    NSString *_stateIdentifier;
-    NSMutableDictionary *_talTabbingOrder;
-    NSTabBar *_tabBar;
-    NSWindow *_overlayWindow;
-    NSWindow *_minimizedWindow;
-    NSWindow *_windowBeingRemoved;
-    NSWindow *_windowBeingDragged;
-    NSMenu *_tabItemMenu;
-    NSMenu *_pinnedTabItemMenu;
-    NSTabPickerViewController *_tabPickerViewController;
-    NSTabPickerWindow *_tabPickerWindow;
-    NSWindowTab *_plusTab;
-    _NSFullScreenModalStackController *_fullScreenModalStackController;
-    unsigned int _doingClose:1;
-    unsigned int _inFullScreen:1;
-    unsigned int _changingSelection:1;
-    unsigned int _shouldAnimate:1;
-    unsigned int _isSyncing:1;
 }
 
 + (id);
 + (_Bool);
 + (void);
 + (void);
-+ (void);
++ (void)inTime"d"connectBeginTime"d"domainLookupDuration"I"connectDuration"I"secureConnectionDuration"I"secure"B};
 + (void);
 + (_Bool);
 + (id);
 + (void);
++ (void);
 + (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)es == HEADERS_NOT_YET_CHECKED;
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)createTreeIterator:(id)arg1;
+- (id)ble to register for match notifications:(id)arg1 0x%x
+;
+- (struct CGRect)bbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmv;
+- (void)ukskLCrP#doMngeRUKSWDROBMODSdicadiee#tabpcprkadskadbkadmkadpbupsbupbbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmv;
+- (void)diun#blm#prd#craukswnvrsemitdilcukskLCrP#doMngeRUKSWDROBMODSdicadiee#tabpcprkadskadbkadmkadpbupsbupbbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmv;
+- (id)mNrS#BLMcaMWcaMBdies2iesdistiemi2emidiemdiun#blm#prd#craukswnvrsemitdilcukskLCrP#doMngeRUKSWDROBMODSdicadiee#tabpcprkadskadbkadmkadpbupsbupbbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmv;
 - (struct CGRect);
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
-- (void);
-- (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -85,14 +68,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)RearFacingCameraHFRCapability;
+- (void)RearFacingCameraHDRCapability;
+- (void)calized;
+- (void)DeviceSupportsHypertensivePatternMeasurements;
+- (void)DeviceSupports9Pin;
+- (void)DeviceSupports1080p;
+- (void)D3LeXyjrxDFYSi6pWFEL4A;
+- (void)product/camera;
 - (id);
 - (unsigned long long);
 - (id);
@@ -116,63 +99,63 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)-;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void)__DATA_DIRTY;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)shared_weak_count}};
+- (id)_nw_context>""__cntrl_"^{__shared_weak_count}};
+- (void)AVAssetDownloadTask"24@"AVMediaSelection"32;
+- (long long)ionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)24@"NSURLResponse"32@?<v@?>40;
+- (unsigned long long)?^?^?^?}16@0:(unsigned long long)arg1 8;
+- (void)2@40@48;
+- (void)setUserAgent:(id)arg1;
+- (_Bool)_willSendRequestForEstablishedConnection:(unsigned long long)arg1 completion:(id)arg2;
+- (unsigned long long)_retryError;
+- (void)accept_didReceiveData_withoutCB;
+- (void)Domain;
+- (void)HTTPConnectionInfo;
+- (void)__NSCFURLLocalStreamTaskFromDataTaskDataBlobby;
+- (void)NSURLSessionEffectiveConfiguration;
+- (void)_EffectiveConfiguration;
+- (void)__NSCFLocalDownloadFile;
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)[;
+- (void)el, file:(long long)arg1 %@;
+- (void)oadFile:(_Bool)arg1 error %d writing for ioChannel, file:%@ /* Error: Ran out of types for this method. */;
+- (void)is in transistional discretionary period;
+- (void)ice;
+- (_Bool)est %@;
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -181,7 +164,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
@@ -191,22 +174,7 @@ __attribute__((visibility("hidden")))
 - (void)|SA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak _NSFullScreenModalStackController *fullScreenModalStackController; // @synthesize fullScreenModalStackController=_fullScreenModalStackController;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSyncing;
-@property(readonly) long long numberOfTabs;
-@property NSWindow *selectedWindow; // @dynamic selectedWindow;
 @property _Bool shouldAnimate; // @dynamic shouldAnimate;
-@property _Bool shouldShowTabBarWithOneItem; // @dynamic shouldShowTabBarWithOneItem;
-@property(copy) NSString *stateIdentifier; // @synthesize stateIdentifier=_stateIdentifier;
-@property(readonly) Class superclass;
-@property(getter=isTabBarVisible) _Bool tabBarVisible;
-@property(readonly) __weak NSWindow *windowBeingDragged; // @synthesize windowBeingDragged=_windowBeingDragged;
 
 @end
 

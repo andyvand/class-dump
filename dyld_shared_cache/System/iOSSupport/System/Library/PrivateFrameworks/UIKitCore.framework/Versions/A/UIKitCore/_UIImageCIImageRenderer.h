@@ -10,21 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UIImageCIImageRenderer
 {
     struct __IOSurface *_surface;
-    long long _width;
-    long long _height;
-    struct {
-        unsigned int surfaceIsValid:1;
-        unsigned int uses16bpc:1;
-    } _flags;
-    CIContext *_context;
 }
 
+- (void)"24@"NSString"32@"NSDate"40;
 - (void);
+- (struct CGColorSpace *)#;
+- (void)SimulatedEntryBatch;
 - (void);
-- (struct CGColorSpace *);
-- (void);
-- (void);
-- (struct __IOSurface *);
+- (struct __IOSurface *)T;
 - (id)!(Eù1gð1Â0@ù
 × ;
 - (void)ØxÒÔT[;

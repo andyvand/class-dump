@@ -6,48 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CAARSchemaCAARAppLevelDisambiguationHistory : SISchemaInstrumentationMessage
 {
     unsigned int _numAppDisambiguationsLastTwoMinutes;
-    unsigned int _numAppDisambiguationsLastTenMinutes;
-    unsigned int _numAppDisambiguationsLastOneHour;
-    unsigned int _numAppDisambiguationsLastSixHours;
-    unsigned int _numAppDisambiguationsLastOneDay;
-    unsigned int _numAppDisambiguationsLastSevenDays;
-    unsigned int _numAppDisambiguationsLastTwentyEightDays;
-    unsigned int _numAppDisambiguationsLastInfinity;
-    unsigned int _numSelectedAppDisambiguationsTwoMinutes;
-    unsigned int _numSelectedAppDisambiguationsLastTenMinutes;
-    unsigned int _numSelectedAppDisambiguationsLastOneHour;
-    unsigned int _numSelectedAppDisambiguationsLastSixHours;
-    unsigned int _numSelectedAppDisambiguationsLastOneDay;
-    unsigned int _numSelectedAppDisambiguationsLastSevenDays;
-    unsigned int _numSelectedAppDisambiguationsLastTwentyEightDays;
-    unsigned int _numSelectedAppDisambiguationsLastInfinity;
-    _Bool _wasAppSelectedInLastDisambiguation;
-    unsigned int _minutesSinceLastDisambiguationSameApps;
-    struct {
-        unsigned int numAppDisambiguationsLastTwoMinutes:1;
-        unsigned int numAppDisambiguationsLastTenMinutes:1;
-        unsigned int numAppDisambiguationsLastOneHour:1;
-        unsigned int numAppDisambiguationsLastSixHours:1;
-        unsigned int numAppDisambiguationsLastOneDay:1;
-        unsigned int numAppDisambiguationsLastSevenDays:1;
-        unsigned int numAppDisambiguationsLastTwentyEightDays:1;
-        unsigned int numAppDisambiguationsLastInfinity:1;
-        unsigned int numSelectedAppDisambiguationsTwoMinutes:1;
-        unsigned int numSelectedAppDisambiguationsLastTenMinutes:1;
-        unsigned int numSelectedAppDisambiguationsLastOneHour:1;
-        unsigned int numSelectedAppDisambiguationsLastSixHours:1;
-        unsigned int numSelectedAppDisambiguationsLastOneDay:1;
-        unsigned int numSelectedAppDisambiguationsLastSevenDays:1;
-        unsigned int numSelectedAppDisambiguationsLastTwentyEightDays:1;
-        unsigned int numSelectedAppDisambiguationsLastInfinity:1;
-        unsigned int wasAppSelectedInLastDisambiguation:1;
-        unsigned int minutesSinceLastDisambiguationSameApps:1;
-    } _has;
 }
 
 - (_Bool);
@@ -55,6 +16,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,6 +27,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,10 +37,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -100,38 +61,39 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)K
+;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -141,7 +103,7 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -152,43 +114,7 @@
 - (id)¨y÷ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMinutesSinceLastDisambiguationSameApps;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastInfinity;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastOneDay;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastOneHour;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastSevenDays;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastSixHours;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastTenMinutes;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastTwentyEightDays;
-@property(nonatomic) _Bool hasNumAppDisambiguationsLastTwoMinutes;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastInfinity;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastOneDay;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastOneHour;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastSevenDays;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastSixHours;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastTenMinutes;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsLastTwentyEightDays;
-@property(nonatomic) _Bool hasNumSelectedAppDisambiguationsTwoMinutes;
-@property(nonatomic) _Bool hasWasAppSelectedInLastDisambiguation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int minutesSinceLastDisambiguationSameApps; // @synthesize minutesSinceLastDisambiguationSameApps=_minutesSinceLastDisambiguationSameApps;
-@property(nonatomic) unsigned int numAppDisambiguationsLastInfinity; // @synthesize numAppDisambiguationsLastInfinity=_numAppDisambiguationsLastInfinity;
-@property(nonatomic) unsigned int numAppDisambiguationsLastOneDay; // @synthesize numAppDisambiguationsLastOneDay=_numAppDisambiguationsLastOneDay;
-@property(nonatomic) unsigned int numAppDisambiguationsLastOneHour; // @synthesize numAppDisambiguationsLastOneHour=_numAppDisambiguationsLastOneHour;
-@property(nonatomic) unsigned int numAppDisambiguationsLastSevenDays; // @synthesize numAppDisambiguationsLastSevenDays=_numAppDisambiguationsLastSevenDays;
-@property(nonatomic) unsigned int numAppDisambiguationsLastSixHours; // @synthesize numAppDisambiguationsLastSixHours=_numAppDisambiguationsLastSixHours;
-@property(nonatomic) unsigned int numAppDisambiguationsLastTenMinutes; // @synthesize numAppDisambiguationsLastTenMinutes=_numAppDisambiguationsLastTenMinutes;
-@property(nonatomic) unsigned int numAppDisambiguationsLastTwentyEightDays; // @synthesize numAppDisambiguationsLastTwentyEightDays=_numAppDisambiguationsLastTwentyEightDays;
 @property(nonatomic) unsigned int numAppDisambiguationsLastTwoMinutes; // @synthesize numAppDisambiguationsLastTwoMinutes=_numAppDisambiguationsLastTwoMinutes;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastInfinity; // @synthesize numSelectedAppDisambiguationsLastInfinity=_numSelectedAppDisambiguationsLastInfinity;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastOneDay; // @synthesize numSelectedAppDisambiguationsLastOneDay=_numSelectedAppDisambiguationsLastOneDay;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastOneHour; // @synthesize numSelectedAppDisambiguationsLastOneHour=_numSelectedAppDisambiguationsLastOneHour;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastSevenDays; // @synthesize numSelectedAppDisambiguationsLastSevenDays=_numSelectedAppDisambiguationsLastSevenDays;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastSixHours; // @synthesize numSelectedAppDisambiguationsLastSixHours=_numSelectedAppDisambiguationsLastSixHours;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastTenMinutes; // @synthesize numSelectedAppDisambiguationsLastTenMinutes=_numSelectedAppDisambiguationsLastTenMinutes;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsLastTwentyEightDays; // @synthesize numSelectedAppDisambiguationsLastTwentyEightDays=_numSelectedAppDisambiguationsLastTwentyEightDays;
-@property(nonatomic) unsigned int numSelectedAppDisambiguationsTwoMinutes; // @synthesize numSelectedAppDisambiguationsTwoMinutes=_numSelectedAppDisambiguationsTwoMinutes;
-@property(nonatomic) _Bool wasAppSelectedInLastDisambiguation; // @synthesize wasAppSelectedInLastDisambiguation=_wasAppSelectedInLastDisambiguation;
 
 @end
 

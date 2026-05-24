@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)nLocale from the context.;
 - (id);
 - (void);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *previousValue;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

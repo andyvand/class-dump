@@ -6,22 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class CLLocationManager, HMFScheduler, NSMutableSet, NSObject, NSString, __HMFLocationAuthorizationMarkOperation, __HMFLocationAuthorizationRequest;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface HMFLocationAuthorization : HMFObject
 {
     struct hmf_unfair_data_lock_s _lock;
-    HMFScheduler *_scheduler;
-    int _status;
-    long long _state;
-    NSMutableSet *_observers;
-    __HMFLocationAuthorizationRequest *_request;
-    __HMFLocationAuthorizationMarkOperation *_operation;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_bundleIdentifier;
-    NSString *_bundlePath;
-    CLLocationManager *_internal;
 }
 
 + (id);
@@ -30,23 +19,23 @@
 + (id)ý°!HEù{Ð1Â0@ù
 × ;
 - (void);
+- (id)A;
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool)'1;
+- (void)*M*A4A;
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (int)(;
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -55,20 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isAuthorized) _Bool authorized;
 @property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CLLocationManager *internal; // @synthesize internal=_internal;
-@property(readonly, getter=isMonitoring) _Bool monitoring;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) int status;
-@property(readonly) Class superclass;
 
 @end
 

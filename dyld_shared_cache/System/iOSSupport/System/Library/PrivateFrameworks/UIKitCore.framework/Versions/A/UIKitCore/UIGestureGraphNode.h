@@ -6,36 +6,33 @@
 
 #import <UIKitCore/UIGestureGraphElement.h>
 
-@class NSMapTable, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface UIGestureGraphNode : UIGestureGraphElement
 {
     NSMutableSet *_inEdges;
-    NSMutableSet *_outEdges;
-    NSMutableSet *_inOutEdges;
-    NSMapTable *_edgesByLabel;
 }
 
 - (id);
+- (void)payloadAllowFindMyFriendsModification;
+- (_Bool);
 - (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ction",R,N,V_serviceConnection;
+- (id)ing-collaborator;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (void);
 - (_Bool)0@ù
 × ;
 - (id);
 - (unsigned long long);
-- (id)nceSupportClientComponent;
+- (id)_UISceneIntelligenceSupportClientComponent;
 - (void);
 - (void)LayoutFragmentView>"8;
 - (_Bool)(Òf;
@@ -43,11 +40,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)è¤ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allEdges;
 @property(readonly, nonatomic) unsigned long long edgeCount;
-@property(readonly, nonatomic) NSSet *inEdges;
-@property(readonly, nonatomic) NSSet *inOutEdges;
-@property(readonly, nonatomic) NSSet *outEdges;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TKTokenConfiguration;
+@class NSArray, TKTokenConfiguration;
 
 @interface TKTokenKeychainContents
 {
     NSArray *_items;
-    TKTokenConfiguration *_configuration;
-    NSString *_tokenID;
 }
 
 - (id);
@@ -20,19 +18,15 @@
 - (id);
 - (id);
 - (id);
+- (id)tem/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox;
+- (id)eTrafficRegistrationForIP:(id)arg1 ];
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)ions %{public}@ started;
+- (id)_;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *certificates;
 @property(readonly) TKTokenConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSArray *items;
-@property(readonly, copy) NSDictionary *keys;
-@property(readonly) NSString *tokenID; // @synthesize tokenID=_tokenID;
 
 @end
 

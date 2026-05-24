@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSIncomingBatchMessageContext, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface IDSIncomingBatchMessage
 {
     NSArray *_messages;
-    IDSIncomingBatchMessageContext *_context;
-    NSString *_service;
 }
 
-+ (_Bool);
++ (_Bool)P;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSIncomingBatchMessageContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(readonly, nonatomic) unsigned long long messagesCount;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end

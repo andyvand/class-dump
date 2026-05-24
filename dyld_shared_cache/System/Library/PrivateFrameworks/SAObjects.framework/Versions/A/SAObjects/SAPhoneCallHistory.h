@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -31,11 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *blocked;
-@property(copy, nonatomic) NSNumber *callCount;
-@property(copy, nonatomic) NSNumber *faceTime;
-@property(copy, nonatomic) NSNumber *faceTimeAudio;
-@property(copy, nonatomic) NSNumber *missed;
-@property(copy, nonatomic) NSNumber *outgoing;
 
 @end
 

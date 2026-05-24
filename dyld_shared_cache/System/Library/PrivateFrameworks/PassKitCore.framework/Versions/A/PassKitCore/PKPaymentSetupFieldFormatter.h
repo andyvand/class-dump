@@ -13,8 +13,8 @@
 
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)ibrary;
+- (_Bool);
+- (void)isPassInLibrary;
 - (id);
 
 @end

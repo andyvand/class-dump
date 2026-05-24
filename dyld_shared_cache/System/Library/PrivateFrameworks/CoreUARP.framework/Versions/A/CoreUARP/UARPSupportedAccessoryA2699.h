@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (unsigned short);
-- (id);
+- (id)AMSPaymentSheetPerformanceMetrics;
 - (void);
 
 @end

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMFileAttributes
 {
     unsigned long long _mode;
-    unsigned long long _protectionClass;
-    NSString *_path;
-    NSString *_filename;
 }
 
 + (_Bool);
@@ -19,19 +14,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Cancelled;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *filename; // @synthesize filename=_filename;
 @property(readonly, nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) unsigned long long protectionClass; // @synthesize protectionClass=_protectionClass;
 
 @end
 

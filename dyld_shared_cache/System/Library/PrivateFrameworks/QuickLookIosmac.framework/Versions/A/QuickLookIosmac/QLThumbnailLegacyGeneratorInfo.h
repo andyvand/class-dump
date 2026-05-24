@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface QLThumbnailLegacyGeneratorInfo
 {
@@ -17,20 +15,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (struct __QLGenerator *);
+- (struct __QLGenerator *)n;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property struct __QLGenerator *generator;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isThumbnailGeneratorDisabled;
-@property(readonly) unsigned long long minimumThumbnailSize;
-@property(readonly) Class superclass;
 
 @end
 

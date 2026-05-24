@@ -6,17 +6,15 @@
 
 #import <ContentKit/WFSafariWebPage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface WFShareSheetSafariWebPage : WFSafariWebPage
 {
     NSString *_selectionText;
-    NSData *_selectionHTML;
-    NSString *_javaScriptRunnerIdentifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@8;
 - (id);
 - (id);
 - (id);

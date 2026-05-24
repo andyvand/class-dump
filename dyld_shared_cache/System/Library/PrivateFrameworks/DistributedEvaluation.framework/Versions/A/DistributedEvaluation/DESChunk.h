@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSNumber, NSString;
+@class NSString;
 
 @interface DESChunk
 {
     NSString *_key;
-    NSNumber *_clippingBound;
-    NSMutableData *_data;
 }
 
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (void).success.followUpAction.action.linkAction.bundleId;
+- (id)n.values.primitive.app.bundleId;
+- (id)alue.toolId;
+- (unsigned long long)B;
+- (id)X;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *clippingBound; // @synthesize clippingBound=_clippingBound;
-@property(readonly, nonatomic) NSMutableData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

@@ -6,16 +6,10 @@
 
 #import <Vision/VNEntityIdentificationModelTrainedModel.h>
 
-@class NSArray, VNRequestSpecifier;
-
 __attribute__((visibility("hidden")))
 @interface VNEntityIdentificationModelTrainedModelVIPv2 : VNEntityIdentificationModelTrainedModel
 {
     shared_ptr_8c39738b _faceIDModel;
-    VNRequestSpecifier *_entityPrintOriginatingRequestSpecifier;
-    int _maximumElementsPerID;
-    NSArray *_entityUniqueIdentifiers;
-    NSArray *_entityPrintCounts;
 }
 
 + (id);
@@ -26,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)#;
+- (id)archivedDataWithRootObject:(id)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);

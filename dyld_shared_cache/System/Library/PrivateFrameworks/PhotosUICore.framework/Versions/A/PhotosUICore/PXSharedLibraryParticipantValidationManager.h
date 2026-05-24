@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface PXSharedLibraryParticipantValidationManager
 {
     NSMutableDictionary *_queryAddressesToQueries;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
 }
 
 - (void);

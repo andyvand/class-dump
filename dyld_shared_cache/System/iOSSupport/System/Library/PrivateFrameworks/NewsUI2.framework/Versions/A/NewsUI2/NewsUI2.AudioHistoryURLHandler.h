@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioHistoryURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

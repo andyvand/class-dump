@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatItemNodeDataLayoutAttributes
 {
     id renderKeyIdentifier;
-    id style;
-    id resizing;
-    id resizingGroupIdentifier;
-    id contextMenuItemOptions;
-    id columnSystemKind;
-    id feedItem;
-    id zIndex;
-    id visibility;
-    id reuseIdentifier;
-    id dataLayoutAttributes;
 }
 
 @end

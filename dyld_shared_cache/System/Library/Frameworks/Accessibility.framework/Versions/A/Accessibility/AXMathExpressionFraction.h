@@ -9,18 +9,16 @@
 @interface AXMathExpressionFraction : AXMathExpression
 {
     AXMathExpression *_numeratorExpression;
-    AXMathExpression *_denimonatorExpression;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ut:(id)arg1 errorDict:] /* Error: Ran out of types for this method. */;
+- (void)tx=%p argscfstr**=%p;
+- (id)nDisk=%@ inPath=%@ inReadOnly=%d inOtherArguments=%@ inTimeout=%.4f;
+- (id)umeDisk:(id)arg1 error:(id)arg2 ];
+- (id)nts=(0=norvt/1=decryptrvt/2=quickrvt/3=err)=%d;
+- (void)A	*;
 
 // Remaining properties
-@property(retain, nonatomic) AXMathExpression *denimonatorExpression; // @synthesize denimonatorExpression=_denimonatorExpression;
 @property(retain, nonatomic) AXMathExpression *numeratorExpression; // @synthesize numeratorExpression=_numeratorExpression;
 
 @end

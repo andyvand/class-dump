@@ -5,5 +5,7 @@
 //
 
 @protocol MKMapViewRouteContextUpdates
+- (void);
+- (void);
 @end
 

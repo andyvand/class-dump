@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APClientInfo, APContext, NSArray;
+@class APContext;
 
 @interface APAdRequestContents
 {
     _Bool _deliverEntireBatch;
-    APContext *_apContext;
-    NSArray *_contentTypes;
-    APClientInfo *_clientInfo;
 }
 
 - (id);
@@ -23,9 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) APContext *apContext; // @synthesize apContext=_apContext;
-@property(readonly, nonatomic) APClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, nonatomic) NSArray *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(readonly, nonatomic) _Bool deliverEntireBatch; // @synthesize deliverEntireBatch=_deliverEntireBatch;
 
 @end
 

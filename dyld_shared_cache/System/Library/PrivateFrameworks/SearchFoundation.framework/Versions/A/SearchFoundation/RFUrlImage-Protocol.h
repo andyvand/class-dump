@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, RFAspectRatio, RFColor, RFSymbolImage;
+@class NSString;
 
 @protocol RFUrlImage
+- (int);
+- (int);
 
 // Remaining properties
-@property(retain, nonatomic) RFAspectRatio *aspect_ratio;
-@property(retain, nonatomic) RFColor *background_color;
-@property(nonatomic) int corner_rounding_mode;
-@property(copy, nonatomic) NSString *dark_mode_url;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int image_rendering_mode;
-@property(nonatomic) int image_style;
-@property(copy, nonatomic) NSNumber *inset_padding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int sizing_mode;
-@property(retain, nonatomic) RFSymbolImage *symbol_placeholder_image;
 @property(copy, nonatomic) NSString *url;
 @end
 

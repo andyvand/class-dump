@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURLDownloadInternal, NSURLRequest;
+@class NSURLDownloadInternal;
 
 @interface NSURLDownload
 {
@@ -17,7 +17,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -28,30 +28,21 @@
 - (id);
 - (id);
 - (id);
+- (id)a8Cia8_;
+- (void)Ddotaccent;
+- (void);
+- (void)Z	;
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)T;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool deletesFileUponFailure;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSURLRequest *request;
-@property(readonly, copy) NSData *resumeData;
-@property(readonly) Class superclass;
 
 @end
 

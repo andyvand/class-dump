@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, NSString;
+@class NSString;
 
 @interface ICMusicSubscriptionAccountlessPlaybackRequest
 {
     NSString *_assetSourceStorefrontID;
-    ICStoreRequestContext *_requestContext;
-    long long _qualityOfService;
-    long long _storeSubscriptionAdamID;
 }
 
 - (void);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
-- (void)ReportProtocol;
+- (void)MSVQRConnectionReportProtocol;
 - (void)blic}@;
 - (id)ÿ«ØÛ¤
 ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetSourceStorefrontID; // @synthesize assetSourceStorefrontID=_assetSourceStorefrontID;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly, copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(readonly, nonatomic) long long storeSubscriptionAdamID; // @synthesize storeSubscriptionAdamID=_storeSubscriptionAdamID;
 
 @end
 

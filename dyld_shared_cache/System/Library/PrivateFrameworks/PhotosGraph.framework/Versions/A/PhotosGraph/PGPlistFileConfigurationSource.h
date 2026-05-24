@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PGPlistFileConfigurationSource
 {
     NSDictionary *_configurationData;
 }
 
-- (id);
-- (void);
+- (id)visibleArea;
+- (void)locationAreaLeadingLayoutAnchor;
 - (id);
 - (id);
 - (void)alendarUnitNode:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configurationData; // @synthesize configurationData=_configurationData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

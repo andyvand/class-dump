@@ -8,19 +8,11 @@
 {
     id recipeID;
     id recipeCardID;
-    id observableRecipeCardViewSessionID;
-    id paywallStatus;
-    id isPreviewing;
-    id observableIsPrimaryRecipe;
-    id observableHorizontalParallaxModel;
-    id appleAccountInfo;
-    id hostingViewController;
-    id didSetupRecipeCardHostingController;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)?k`;
 - (void);
 - (void);
 

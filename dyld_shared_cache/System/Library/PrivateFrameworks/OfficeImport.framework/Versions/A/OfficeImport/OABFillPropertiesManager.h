@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol OABPropertiesManager;
-
 __attribute__((visibility("hidden")))
 @interface OABFillPropertiesManager
 {
     const struct EshFill *mFill;
-    int mShapeType;
-    id <OABPropertiesManager> mMasterManager;
 }
 
 - (struct EshColor);
-- (struct EshColor);
+- (struct EshColor)';
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (const void *);
 - (int);
 - (int);
@@ -27,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (struct EshColor);
 - (int);
-- (id);
+- (id)T;
 - (unsigned int);
 - (struct EshBlip *);
-- (struct EshColor);
+- (struct EshColor)9h;
 - (int);
 - (int);
 - (int);
@@ -39,13 +34,7 @@ __attribute__((visibility("hidden")))
 - (void),X;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorPriorityMessageCommand
 {
@@ -13,14 +13,12 @@
 
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) NSArray *priorityMessageGUIDs;
 
 @end
 

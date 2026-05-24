@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriCommandEvent
 {
     long long _durationMilliseconds;
-    NSString *_actionType;
-    NSString *_outcome;
-    unsigned long long _numberOfEntities;
-    unsigned long long _numberOfFailures;
-    unsigned long long _numberOfIncompletions;
-    unsigned long long _configurationVersion;
-    unsigned long long _lastSyncedConfigurationVersion;
-    unsigned long long _serverConfigurationVersion;
-    NSString *_clientMetricIdentifier;
 }
 
 + (unsigned long long)
 × ;
-+ (id)Device;
++ (id)_hasConfirmedPrimaryResidentDevice;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (long long);
+- (id)querySearch;
+- (long long)];
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)olutionMode to %d because a transition is in progress;
 - (double);
 - (id);
 - (id);
@@ -42,37 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)mera.recording.fragment.analyzed;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) NSString *clientMetricIdentifier; // @synthesize clientMetricIdentifier=_clientMetricIdentifier;
-@property(readonly, nonatomic) unsigned long long configurationVersion; // @synthesize configurationVersion=_configurationVersion;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) unsigned long long lastSyncedConfigurationVersion; // @synthesize lastSyncedConfigurationVersion=_lastSyncedConfigurationVersion;
-@property(readonly, nonatomic) unsigned long long numberOfEntities; // @synthesize numberOfEntities=_numberOfEntities;
-@property(readonly, nonatomic) unsigned long long numberOfFailures; // @synthesize numberOfFailures=_numberOfFailures;
-@property(readonly, nonatomic) unsigned long long numberOfIncompletions; // @synthesize numberOfIncompletions=_numberOfIncompletions;
-@property(readonly, nonatomic) NSString *outcome; // @synthesize outcome=_outcome;
-@property(readonly, nonatomic) unsigned long long serverConfigurationVersion; // @synthesize serverConfigurationVersion=_serverConfigurationVersion;
-@property(readonly) Class superclass;
 
 @end
 

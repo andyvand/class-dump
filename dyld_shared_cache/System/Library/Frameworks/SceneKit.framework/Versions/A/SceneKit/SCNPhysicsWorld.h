@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSString, SCNPhysicsContact, SCNScene;
-@protocol SCNPhysicsContactDelegate;
-
 @interface SCNPhysicsWorld
 {
     void *_world;
-    struct btOverlappingPairCallback *_ghostPairCallback;
-    struct btVehicleRaycaster *_vehicleRayCaster;
-    struct btC3DDebugDraw *_debugDrawer;
-    struct c3dAether _aether;
-    _Bool _hasActiveFields;
-    _Bool _firstSimulationDone;
-    id <SCNPhysicsContactDelegate> _contactDelegate;
-    SCNPhysicsContact *_contact;
-    SCNScene *_scene;
-    struct SCNVector3 _gravity;
-    double _speed;
-    double _scale;
-    double _timeStep;
-    NSMutableArray *_fields;
-    double _elapsedTime;
-    NSMutableArray *_behaviors;
-    NSArray *_activeBehaviors;
-    _Bool _activeBehaviorsValid;
-    struct os_unfair_lock_s _lock;
-    NSMutableSet *_bodies;
 }
 
 + (_Bool);
@@ -43,13 +20,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -61,18 +38,18 @@
 - (struct btVehicleRaycaster *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void *);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (double);
-- (void);
+- (double)>6?(?;
+- (void)5G*M*?2;
 - (void);
 - (void);
 - (id);
@@ -87,7 +64,7 @@
 - (void *);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id)on, 1.f))).rgb;
     if (LIGHT_IS_MODULATE(lightInfo)) {
         params.attenuation *= mix(float3(1.), goboColor, goboIntensity);
@@ -2205,18 +2182,7 @@ __DoFragmentModifier__
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allBehaviors;
-@property __weak id <SCNPhysicsContactDelegate> contactDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) struct SCNVector3 gravity;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double speed;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeStep;
 
 @end
 

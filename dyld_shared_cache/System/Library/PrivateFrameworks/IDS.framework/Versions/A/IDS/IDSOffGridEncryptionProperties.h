@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 @interface IDSOffGridEncryptionProperties
 {
     NSNumber *_ratchetCounter;
-    NSData *_encryptionKeyID;
-    NSData *_authTag;
-    NSNumber *_segmentNumber;
-    NSNumber *_totalSegments;
 }
 
 + (_Bool);
@@ -27,9 +23,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)TTRPeopleSuggestion;
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -37,11 +33,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authTag; // @synthesize authTag=_authTag;
-@property(retain, nonatomic) NSData *encryptionKeyID; // @synthesize encryptionKeyID=_encryptionKeyID;
 @property(retain, nonatomic) NSNumber *ratchetCounter; // @synthesize ratchetCounter=_ratchetCounter;
-@property(retain, nonatomic) NSNumber *segmentNumber; // @synthesize segmentNumber=_segmentNumber;
-@property(retain, nonatomic) NSNumber *totalSegments; // @synthesize totalSegments=_totalSegments;
 
 @end
 

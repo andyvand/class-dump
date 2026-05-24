@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, SCNAssetCatalog;
+@class NSArray, NSURL;
 
 @interface SCNKeyedUnarchiver
 {
     NSURL *_documentURL;
-    NSDictionary *_context;
-    SCNAssetCatalog *_assetCatalog;
-    NSString *_lookUpKey;
-    id _lookUpFoundInstance;
-    NSArray *_allTargetsFromAnimCodec;
 }
 
 - (void);
@@ -27,20 +22,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)s;
 - (void);
-- (void);
+- (void)STextContainer"72{_NSRange=QQ}80^B96;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allTargetsFromAnimCodec; // @synthesize allTargetsFromAnimCodec=_allTargetsFromAnimCodec;
-@property(retain, nonatomic) SCNAssetCatalog *assetCatalog; // @synthesize assetCatalog=_assetCatalog;
-@property(retain, nonatomic) NSDictionary *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSURL *documentEnclosingURL;
-@property(retain, nonatomic) NSURL *documentURL; // @synthesize documentURL=_documentURL;
-@property(retain, nonatomic) id lookUpFoundInstance; // @synthesize lookUpFoundInstance=_lookUpFoundInstance;
-@property(retain, nonatomic) NSString *lookUpKey; // @synthesize lookUpKey=_lookUpKey;
 
 @end
 

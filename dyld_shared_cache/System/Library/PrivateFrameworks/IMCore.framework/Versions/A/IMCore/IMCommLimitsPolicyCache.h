@@ -9,36 +9,30 @@
 @interface IMCommLimitsPolicyCache
 {
     NSMutableDictionary *_conversationContextToParticipantIDsHash;
-    NSMutableDictionary *_participantIDsHashToConversationContext;
-    NSMutableDictionary *_participantIDsHashToChatIdentifier;
-    NSMutableDictionary *_chatIdentifierToParticipantIDsHash;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)f] didplayID=%u layout=%d state=%u;
+- (void)O] Receiving presentation info:(id)arg1 rect=[%f, %f, %f, %f] didplayID=%u layout=%d state=%u;
+- (void)x;
+- (void)oteSSRC failed %d;
+- (void)ing to cross-fade with non-mono channels=%u;
+- (id):%d Failed to allocate last Decoded playback buffer /* Error: Ran out of types for this method. */;
+- (id)te Output playback buffer;
+- (_Bool)%d UplinkRateAdaptation config=%@;
+- (id)id file descriptor to stop;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)s] %s:(id)arg1 %d AVCPacketRelayDriver:invalid file descriptor to drive /* Error: Ran out of types for this method. */;
+- (id)unds xpc call failed;
+- (id)root layer=%p with context=%p;
+- (id)id rootLayer or contextId;
+- (void)med out;
+- (void)andler error=%@;
+- (void)e session;
 - (id);
 - (void)´>;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *chatIdentifierToParticipantIDsHash; // @synthesize chatIdentifierToParticipantIDsHash=_chatIdentifierToParticipantIDsHash;
 @property(retain, nonatomic) NSMutableDictionary *conversationContextToParticipantIDsHash; // @synthesize conversationContextToParticipantIDsHash=_conversationContextToParticipantIDsHash;
-@property(retain, nonatomic) NSMutableDictionary *participantIDsHashToChatIdentifier; // @synthesize participantIDsHashToChatIdentifier=_participantIDsHashToChatIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *participantIDsHashToConversationContext; // @synthesize participantIDsHashToConversationContext=_participantIDsHashToConversationContext;
 
 @end
 

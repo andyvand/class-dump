@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INStartAudioCallIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)dler:(long long)arg1;
++ (long long)removeThumbnailAdditionsOnURL:(int)arg1 completionBlock:(int)arg2;
++ (_Bool)provideFullResolutionThumbnail;
 + (_Bool);
 - (double);
 - (void);
@@ -24,24 +22,16 @@
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (id)setSinglePressHandler:(id)arg1;
+- (id);
+- (void)supported 6GHz channels;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)ithBundleIdentifier:error: /* Error: Ran out of types for this method. */;
+- (long long)initWithBundleIdentifier:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property double timeToEstablishCall;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSData, NSURL, PKSubcredentialEncryptedContainer;
+@class NSURL;
 
 @interface PKPaymentRegisterCredentialResponse : PKPaymentWebServiceResponse
 {
     NSURL *_passURL;
-    NSData *_credentialAttestation;
-    PKSubcredentialEncryptedContainer *_vehicleMobilizationEncryptedContainer;
 }
 
 - (id);
@@ -22,9 +20,7 @@
 - (void)ked;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *credentialAttestation; // @synthesize credentialAttestation=_credentialAttestation;
 @property(readonly, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(readonly, nonatomic) PKSubcredentialEncryptedContainer *vehicleMobilizationEncryptedContainer; // @synthesize vehicleMobilizationEncryptedContainer=_vehicleMobilizationEncryptedContainer;
 
 @end
 

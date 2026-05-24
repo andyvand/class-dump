@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLGPUDebugImageData, NSArray, NSString;
-@protocol MTLComputePipelineState, MTLFunction, MTLFunctionLogDebugLocation, MTLRenderPipelineState;
+@class MTLGPUDebugImageData, NSString;
 
 @interface MTLGPUDebugGPULog
 {
     MTLGPUDebugImageData *_image;
-    NSArray *_errorStackTrace;
-    NSArray *_allocationStackTrace;
-    unsigned long long _callIndex;
-    unsigned long long _type;
-    NSString *_encoderLabel;
-    id <MTLFunction> _function;
-    unsigned long long _functionType;
-    NSString *_functionName;
-    id <MTLFunctionLogDebugLocation> _debugLocation;
-    NSString *_pipelineIdentifier;
-    id <MTLComputePipelineState> _computePipeline;
-    id <MTLRenderPipelineState> _renderPipeline;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,8 +28,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)"W;
+- (id)/;
 - (id);
 - (id);
 - (void);
@@ -52,32 +39,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id)aries: /* Error: Ran out of types for this method. */;
+- (id)setObjectPreloadedLibraries: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allocationStackTrace; // @synthesize allocationStackTrace=_allocationStackTrace;
-@property(nonatomic) unsigned long long callIndex; // @synthesize callIndex=_callIndex;
-@property(retain, nonatomic) id <MTLComputePipelineState> computePipeline; // @synthesize computePipeline=_computePipeline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <MTLFunctionLogDebugLocation> debugLocation; // @synthesize debugLocation=_debugLocation;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *encoderLabel; // @synthesize encoderLabel=_encoderLabel;
-@property(retain, nonatomic) NSArray *errorStackTrace; // @synthesize errorStackTrace=_errorStackTrace;
-@property(retain, nonatomic) id <MTLFunction> function; // @synthesize function=_function;
-@property(readonly, nonatomic) NSString *functionDescription;
-@property(retain, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(nonatomic) unsigned long long functionType; // @synthesize functionType=_functionType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MTLGPUDebugImageData *image; // @synthesize image=_image;
 @property(readonly, nonatomic) NSString *locationDescription;
-@property(retain, nonatomic) NSString *pipelineIdentifier; // @synthesize pipelineIdentifier=_pipelineIdentifier;
-@property(retain, nonatomic) id <MTLRenderPipelineState> renderPipeline; // @synthesize renderPipeline=_renderPipeline;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

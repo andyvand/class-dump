@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPKSkintoneHelpViewController
 {
     NSView *_imageEnclosingView;
-    NSView *_imageForEmojiSkinTones;
-    NSView *_imageForCouplesSkinTones;
-    CDUnknownBlockType _completionBlock;
-    _Bool _hasCompletionBlockCalled;
-    NSButton *_confirmButton;
 }
 
 - (id);

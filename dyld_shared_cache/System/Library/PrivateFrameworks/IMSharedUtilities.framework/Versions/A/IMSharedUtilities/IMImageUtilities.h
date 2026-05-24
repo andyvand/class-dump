@@ -9,17 +9,17 @@
 }
 
 + (struct CGSize);
-+ (_Bool);
++ (_Bool);
 + (double);
 + (void);
 + (void);
 + (_Bool);
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *)P;
 + (struct CGImage *);
 + (_Bool);
-+ (struct CGSize);
++ (struct CGSize)T	;
 + (_Bool);
 + (_Bool);
 + (struct CGImage *);

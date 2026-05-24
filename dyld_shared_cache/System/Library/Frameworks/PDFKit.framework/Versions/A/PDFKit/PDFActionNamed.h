@@ -13,16 +13,16 @@
     PDFActionNamedPrivateVars *_private2;
 }
 
-- (id);
+- (id);
 - (struct __CFDictionary *);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)*o;
+- (id)_TtC20AppleMediaServicesUI20PaidDownloadsSetting;
 - (long long);
-- (id);
-- (void);
-- (void);
+- (id)?;
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSLayoutConstraint, NSTextView;
-@protocol WBSTranslationConsentAlertHelperDelegate;
-
 @interface WBSTranslationConsentAlertLearnMoreWindowControllerMac
 {
     unsigned long long _alertType;
-    NSButton *_agreeButton;
-    NSButton *_declineButton;
-    NSTextView *_textView;
-    NSLayoutConstraint *_declineButtonTrailingConstraint;
-    NSLayoutConstraint *_declineButtonBottomConstraint;
-    id <WBSTranslationConsentAlertHelperDelegate> _delegate;
 }
 
 + (id);
@@ -30,25 +21,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)int8_t;
+- (void)z;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)onfigureView]E3$_4;
 - (id);
 - (void)vate;
 - (id)_platformSpecificBundleID;
 
 // Remaining properties
-@property __weak NSButton *agreeButton; // @synthesize agreeButton=_agreeButton;
 @property(nonatomic) unsigned long long alertType; // @synthesize alertType=_alertType;
-@property __weak NSButton *declineButton; // @synthesize declineButton=_declineButton;
-@property(nonatomic) __weak NSLayoutConstraint *declineButtonBottomConstraint; // @synthesize declineButtonBottomConstraint=_declineButtonBottomConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *declineButtonTrailingConstraint; // @synthesize declineButtonTrailingConstraint=_declineButtonTrailingConstraint;
-@property(nonatomic) __weak id <WBSTranslationConsentAlertHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property NSTextView *textView; // @synthesize textView=_textView;
 
 @end
 

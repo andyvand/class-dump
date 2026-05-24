@@ -4,76 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerController, AVValueTiming, NSArray, NSString, WebAVMediaSelectionOption;
+@class AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface WebAVPlayerController
 {
     struct WeakPtr<WebCore::PlaybackSessionModel, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> _delegate;
-    struct WeakPtr<WebCore::PlaybackSessionInterfaceIOS, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> _playbackSessionInterface;
-    double _defaultPlaybackRate;
-    double _rate;
-    _Bool _liveStreamEventModePossible;
-    _Bool _isScrubbing;
-    _Bool _allowsPictureInPicture;
-    _Bool _pictureInPictureInterrupted;
-    _Bool _muted;
-    double _seekToTime;
-    WebAVMediaSelectionOption *_currentAudioMediaSelectionOption;
-    WebAVMediaSelectionOption *_currentLegibleMediaSelectionOption;
-    struct RetainPtr<AVPlayer> _player;
-    _Bool _canScanBackward;
-    _Bool _hasContentChapters;
-    _Bool _canPlay;
-    _Bool _canPause;
-    _Bool _canTogglePlayback;
-    _Bool _canSeek;
-    _Bool _hasEnabledAudio;
-    _Bool _hasEnabledVideo;
-    _Bool _hasVideo;
-    _Bool _playingOnSecondScreen;
-    _Bool _externalPlaybackActive;
-    _Bool _allowsExternalPlayback;
-    AVPlayerController *_playerControllerProxy;
-    double _contentDuration;
-    double _contentDurationWithinEndTimes;
-    NSArray *_loadedTimeRanges;
-    long long _status;
-    AVValueTiming *_timing;
-    NSArray *_seekableTimeRanges;
-    NSArray *_audioMediaSelectionOptions;
-    NSArray *_legibleMediaSelectionOptions;
-    long long _externalPlaybackType;
-    NSString *_externalPlaybackAirPlayDeviceLocalizedName;
-    double _seekableTimeRangesLastModifiedTime;
-    double _liveUpdateInterval;
-    AVValueTiming *_minTiming;
-    AVValueTiming *_maxTiming;
-    struct CGSize _contentDimensions;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)tStream">32;
++ (id)__objc_methtype;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)preserveSymlinks;
 + (id);
 + (id)yExtractor, WTF::DefaultHash<WTF::WeakPtr<WebCore::EventLoopTaskGroup>>, WTF::HashTraits<WTF::WeakPtr<WebCore::EventLoopTaskGroup>>, WTF::HashTraits<WTF::WeakPtr<WebCore::EventLoopTaskGroup>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebCore::EventLoopTaskGroup>, Value = WTF::WeakPtr<WebCore::EventLoopTaskGroup>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebCore::EventLoopTaskGroup>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebCore::EventLoopTaskGroup>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebCore::EventLoopTaskGroup>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 + (id)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h;
 + (id)Ijv-m-hY/Library/Caches/com.apple.xbs/TemporaryDirectory.9HxyI2/Sources/WebCore/Source/WebCore/PAL/pal/cocoa/RevealSoftLink.mm;
 + (id);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)R#;
 - (void);
 - (void);
 - (void);
@@ -87,25 +47,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void *);
+- (void *)~;
 - (double);
-- (double);
+- (double)( @9 ;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)YES;
+- (void *),N,V_spotlightBrowsingSearchScope;
+- (void);
+- (void)oes not name a non-static data member or base class;
 - (id);
-- (void *);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (double)lueType &) [Key = WebCore::Style::ResolvedScopedName, Value = WebCore::Style::ResolvedScopedName, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WebCore::Style::ResolvedScopedName>, Traits = WTF::HashTraits<WebCore::Style::ResolvedScopedName>, KeyTraits = WTF::HashTraits<WebCore::Style::ResolvedScopedName>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)Source/WebCore/layout/formattingContexts/inline/InlineTextItem.cpp;
 - (long long)ap<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WebCore::AXRelation, WTF::ListHashSet<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::DefaultHash<uint8_t>, WTF::UnsignedWithZeroKeyHashTraits<unsigned char>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WebCore::AXRelation, WTF::ListHashSet<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::DefaultHash<uint8_t>, WTF::UnsignedWithZeroKeyHashTraits<unsigned char>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WebCore::AXRelation, WTF::ListHashSet<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::DefaultHash<uint8_t>, WTF::UnsignedWithZeroKeyHashTraits<unsigned char>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WebCore::AXRelation, WTF::ListHashSet<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::DefaultHash<uint8_t>, WTF::UnsignedWithZeroKeyHashTraits<unsigned char>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)888;
+- (void)GL_EXT_texture_format_BGRA8888;
 - (void);
 - (id);
 - (void)à;
@@ -6752,63 +6712,11 @@ m/Pc2ÈàS;ôocá/~sô	a4Iï¶æðÝÕïï½áïå§wiåðò	@@ñ_
 - (void)7426<BFL    ""!#'#"%*0)()/5</,-39AG5237=FMU #$)**-00./25/--1591..26;=30036<@D   !  "#""#%)%$&'-3+)**18?/,-.4;CG "#'%(+/++-/10../25/---27:(id)arg1 1...27<=      !"!!"#%""#$'+%$%&).3)'(),16: !##%'+')*-/-,-/020../0350.-./368      !   "# !!"#$""!#$&'##"$&(*0 ""#'$%'*.'(),//***-/000/.//125          !    !"    ""#!!!!##$& ""##'##$$()%&'(+,/())*,-/0                     !      !!     !!""##$'!""##$''                             !!   !"#""!"#%'#""#$%)+$#"#$&*-0'&%&'(-/26,*))**/26:?.,*+,,147;AC0.,--.359=CEG63112169<AGJLR;86665:=@EKNPW\>;8887<?BGMPSY_bA>;;;:?ADIORU\beiGDA@@?DFINTWZagkouPLHHGEJLOTZ]`hnrv}QMIIHFKMPU[^aiosw~SNKJJHLOQV\_cjquyXTPONLPRU[_bgosw~[VSRQOQTX\_dkns{^YVUTRRVZ\agiowy¡¦a\ZXVUTY[_dflrt}£¦¨®e_][YYW[]beioqx~«®°·hca^]]Z\`dflotz}¥©³¶¸¿kfea``]]ceinqxz¡£­²»¿ÁÈoihedca`fgmoux}¨­´½ÃÈÊÒsmlhhfedgjoqwy¢¨°·¼ÇÌÒÔÜwqpkkjiginpux}¥©³·ÁÅÒÖÜÞç{ttoomnkkrryz£¤°±¾¿ÌÎÞàæèò   !!#!"#%'$&()+/)**+-/0--,-./121/.//02350/-...13561/----1357:2/-...1368;<20....2468<<=42////2469=>?B641110457:>@ADG853221468;?@BEHI964332578<?ACFIKL<9665479:=ACDHKMOR?<99869;<?CEGKNPRUY@=:997:;=@CEGKNPRUYZA=::97:<=@DFGKOQSVZ[[C?=<;9<=?BEFIMOQUXZ\^`D@>=<:;=@BCGJKNRTVZ]^`bEA?>=;;>@ADGHKOPSWY\`abdFB@?>=<?@BEFILMQTUY\]bcdfGCB@?>=?@CDFJKNQSVX[^_defhHDCA@@=?ACDGIKNOTUX[]abfghjIEDBAA??BCEGILMQRUXZ^_cehijmJFFCBB@?BCFGJKNPRVW[\`behjlloKGGDDCB@BDFGJKOOTTXZ]_begklnoqLHHEEDCABEFHJLNQSUXZ]_bdhimopqtNJJFFEEBBFFJJMNRRVW\\`affkkpqssv          !   !"# !!!"$$""!"#%&'$#"#$&(*0&%$$&'),23'&%&'(*-246,*))**,/68:?/-,,--/28:<BE1/.-..039<>DGI63212136<?AGKMR;866657:@CEKOQW\=:88879<ADFMQSY^aA><;;:<?DGIOTW\beiGDAA@?ADILNTY\agjouLHFEDBDGLOQX\_eknszPLIHGEGJORTZ_bhnqv}SNLKJHILQTV\adjqtyVRONMJLOTWY_dgmtw|YURQONNRVW\adiprx\XUTRQPUVZ_afknuz}¢_ZXVUTRVX]_cijqvy¡£©b][YXWUWZ^`fhmru~¦¨ª°e`_\[ZXX]_cgjpry| ¥­°²¸hcb_^][Z_`fgmpuz} §®´¸ºÁlfeba`_]adhjoqyz¢©®·¼ÀÂÉoiiedcb`bgimpuy}¥©²µÁÄÉÊÒrmmhhffcdjjqqxy¢¢¯°»¼ËÌÒÓÛ   !!"#$'$&'(+/&()),//)**+-/001/../01251/.../02550/.-..015661/----/1577:20..../2678;=30/././2678<=>420///02689=?@B6421101479:>@BDG753221248:;?ABEHI964332358:<?BCFIJL<9765457:<=ADEHKMOR>;987568;=?BEFJMNPTV?<:98679<>?CFGKNORUWYA=;:978:=?@DGHKOPSVXZ[B?<;:8:;>@AEHILPQTWZ[]^C@>=;::<?@BEGIMNQUVY]^_aDA?><;:=>@CDGJKOQSWY[_`acEB@?==;=>ABDHILNPTUX[\abbeFCA?>><=?ABEGILMQSUXZ^_cddgGCC@??==@ACEGJKNPSUW[\_adffiHDDAA@>>@ADEHILNPSTXY]_adfhhkIEEBBA@?@BDEHIMMQRVWZ\_acghjjmJFFCCBA?@CDFHJLNPRUWZ[_`deijlloKGGDDBB@@DDGGKKOOSTXY]]bbfgllnnq          !    !"    ""#""!!#$%'""""$$%)*$#""$%&*-0'&&%'((-/26)''&(().0378,*))***/26:;?0.-,---258=>BF1/.-...359>?DGI632121168<ACGLMR:7655549;?DFJOQVZ;976666;=@EGKPRW[]A><;;::?ADIKOUW\aciEB@??>=BDGLNSXZ`dfmqGDBA@??DFINPTZ\afhosuPLIHGFEJLOTVZ`bhmov{}QMKJIHGKMPUW[acinpx}SNLKJIHLNQVX\bdjoqy~WSQONMKPRUZ[`egnru}ZUSQPONQSWY]bdjnry|]XVTSRPRUYZ`bfkmvx}£_ZYVUUSSXY]acijqtz¢¤©b]\YXWVUYZ`afimru|~ ¦©ª°e`_[[ZYWZ]achipqyz ¨¬°±¸hcb^^\\Z\`bfhmpty}£¦±³¸¹¿keeaa__]]cciippxx¡¡¬¬¹º¿ÀÇ  !"##'#$%%)+$&'(+-/)***-./0,,,,../121//.//02350/.-...13560/.-...135671/.----13578:20/....23689;=30/./..23689<>>420////2469:=?@B6321100357:;>@ADF7432110457;<>ABDFG9654322568<=?BCFIIL;86554368:=>ADEHJKNP<97655478:=?ADEHKLOQR?<:98769;<?ACFGKMNRTUY@=;:987:;=@ADGHKNORUVYZA=<:987:;=@ADGHKNOSUVZ[[C?=<;:9<=?ABEHIMOPTVX\]]_D@?=<;:<=?ACFGJLNQSVXY^^_aDA@>=<:;=@@DEGJKOPSVW[\_`acEBA?>=;;>?ACEHHLNPSTXY\^abceFCB??>=<??BCEGILMQRUVZ[^`cddgGCC@@?>=>@BCFGJJNOSTWY[^_cdffhHDDAA@?=>ABDEGIKMORTWX\]`aefhhjIEEBB@@>>BBEEHILMQQUUYZ^^cchhjjl          !   !!    !"# !!!""$$"""!##%&'##""$$&'*.$##"$$&(*/0'&&%''(*-126)('&(()+.2479,**)***,/46:<?/--,,--/278<>BE0.-,--./379=?CFG632112136;<ACGKLR854333358<=BEIMNTV;8766657:>@EGKOPWY\@=<:::9;>BCHKOST[]afA>=;;;:<?CDIKOTU\^bgiGDCA@@?ADHINPTYZadgmouJGEDCCACFJKPSV[]dfjprx{PLJHGGEGJNOTVZ_`hjntv}RNLJIIGILOPVX\abjlpvxSNMKJJHILPQVY\acjmqwyWSQONNKMPSUZ\`dfnpuz}ZUTQPPNNRTW[]bcjlqvy\XWTSRPPTUZ[_bfjmsu}~¢_ZYVUTSRUW[\abiipry{¡¢¨a\\XXVVTUZ[_aehlpty}¢¤¨¨®d__ZZYYVV\\abhhooww©ª®¯µ  !"""%!"##&'$&'(*+/&(()+,//)***,-/00/..-.//0241//.//012450/.-...014561/.-.../145771/.----/14579:20/..../25689;=20/..../2568:<==421////02569;=??B522000/1367:;>@@CD64311101477:<>@ADEG86533313578;=?BBFGIK96543323588<=?BCFGILL<98655457::=?ADDHIKNOR=:9776568:;>@BEEIJLOPST?<;988679<<?ACFGKLNQRUVY@=<:9978:<=@BDFGKMORRVWZ[A=<:9978:==@BDGGKMORSVXZ[[C?><;;9:<>?BCEHIMNPSTXY\]]_C@?=<<::==?ACFFJKNPQUVY[]^_aDA@>=<;:==@ACEGIKNOSSWX[]_`acEAA>>=<;=>@ADDHHLLPQTVXZ\_`bbdFBB??>=<<?@BCEGIKMOQTUXY]]abddfGCC@@>><<@@CCFFJJNNRRVV[[__ddeeh              !!    !!"    !"##!!!!"#$$&"""!"#$%''$##"#$%&**0$##"#$&&*+01'&&%&'((,-236)''&'(()-.3478,**))***./66:;?.,,*+,,,0177;=AC0..,---.2399=?CEG4210000045;;@AFHJN6331121156<<ACGJLPR:87555559:?@DFKMPTV[;88666559:@@EFKNPUW[\A>=;;;::>?DDIKORUZ\abiB??<<<;;?@EEJLPSV[]bcjkGDCAA@??CDIINPTWZ_aggopuJGFDCCBAEFKKPRVY]adijrsx{PLKHHGFEIJOOTVZ]`ehnnvw}QMMJIIGGJKPPUW[^bgiopxySNNKJJHHKLQQVX\_chjpqyzVRQNMMKJNOTTY[_bejmst|}YTTPPONMOQUV[\abhjprw{[VVRRQPOPTUX[^adhkpsx{]XXTTSSPQVV[[`aggnnvw~~¤    !"!"##%'#%%&'),$&'()+./())*+,./0)***+-./001//..//02251//..///12550//-....115560/.--...1155671/.-----015678:2//-....116689;<200.....126689<<=411////.12669:=>?A421/////12669:=>?AB643111003477:;>?ACDF643111003478:<>@ACDFG966433224589<=?ACEFIIL976443325599<=@ACFGIJMM<986654467:;=?ACDGHKKOOR=:97765578;;>?BDEHILLPPST?<;9987699<=?ACEGIKNNRRUVY@=<:99879:==@ADEGJKNNRSVWYZA==::987::=>@ADFGJKNOSSVXZ[[B?><;:98;;>?ABEFHKLOPTTWY[\]^C@?=<;:9;<>?BBFFIJMNQSUWY\]^^`D@@==<;:;=>@ACEGHJMNQRUVYZ^^``bEAA>>==:;>>AADDGGKKOOSSWW[[``aac               !    !!     ""#     ""##"""!!##%%'"""!!##%%''$##""$$&&**0$##""$$&&**00'&&%%''((--226'&&%%''((--2266,**))****//66::?,**))****//66::??0..,,--..3399==CCG0..,,--..3399==CCGG63311221166<<AAGGLLR63311221166<<AAGGLLRR;88666655::@@EEKKPPWW\;88666655::@@EEKKPPWW\\A>>;;;;::??DDIIOOUU\\bbiA>>;;;;::??DDIIOOUU\\bbiiGDDAA@@??DDIINNTTZZaaggoouGDDAA@@??DDIINNTTZZaaggoouuPLLHHGGEEJJOOTTZZ``hhnnvv}}PLLHHGGEEJJOOTTZZ``hhnnvv}}SNNKKJJHHLLQQVV\\ccjjqqyySNNKKJJHHLLQQVV\\ccjjqqyyWSSOOMMKKPPTTZZ``ffmmtt||    !""##'!""##''$&&((++/$&&((++//)****--//0)****--//001//..//002251//..//0022550//--....115560//--....1155661//------115577:1//------115577::200......226688<<=200......226688<<==422//////226699==??B422//////226699==??BB6441111004477::>>AADDG6441111004477::>>AADDGG9664433225588<<??CCFFIIL9664433225588<<??CCFFIILL<9966554477::==AADDHHKKOOR<9966554477::==AADDHHKKOORR?<<99886699<<??CCGGKKNNRRUUY?<<99886699<<??CCGGKKNNRRUUYYA==::9977::==@@DDGGKKOOSSVVZZ[A==::9977::==@@DDGGKKOOSSVVZZ[[C??<<;;99<<>>BBEEHHLLPPTTXX\\]]_                   !!     !!"     !""#    !!""##"""!!"##%%'"""!!"##%%''###""#$$&&**.$##""#$%&&**/0&%%$$%&&'(,,023'&&&%&''()--1246)(('&'(())..24679,**)))***+//468:<?-++*)**+++00569:<@A0..-,---..3379;=?CDG0..-,---..3379;=?CDGG533111111166:;>@CGHKKQ643211211266;<?ACGHLLQR977544444499=>ACFJKOOUUY;886666656::>@CEGKLPPVWZ\>;;9888878<<@BEGIMNSSYY]_bA>><;;;;::??CDGIKOQUU[\`beiC@@>==<<;<@@DEHJMQRWW]^bcgjlGDDBA@@@??DDHILNPTUZZaafgkoquHEEBAAA@?@DDHILNQUV[[abfhloqvwPLLIHHGFEFJJNORTVZ[``ghlnrvx}~PLLIHHGFEFJJNORTVZ[``ghlnrvx}~    !!!#!""##%'"##$$&()$&&'()+,/%&'((*+,//)****+--//0)****+--//00/...-.///022410//.///0022451//....///224550//.-..../1145661//.--....11456771//-------1145779:1//.-----.1145789;;200/......225678:<<=200/......225678:<<==4210////./225689;==??B4220//////225689;==??BB633211100033679:<>>AACDE644211110044779:<>?AADDFG85533222114478:;=??BBEEGHI96644333225588:<=?@CCFFHIKL:7754443236689;<>@ACCGGIJKMN<99766554477::<=?ABDDHHJKMOPR<99766654477::<>?ABEEHIKLMOPRR?<<:99876799<<>?ACDGGJKMNPRSUUY?<<:99876799<<>?ACDGGJKMNPRSUUYY                   !     !!      !!"      !""#      !""##!!!!!!"##$$&""""!!##$%%''""""""#$$%%()*$###""$$%&&**-0$###""$$%&&**-00&&&%%%&&'((+,.224'&&&%%'''((,-/2256)(('&&((())-.044679,***))*****./2669:<?,***))*****./2669:<??/.--,,,----12488;<>BBE0/.-,,---..23599<=?CCFG210/../////346::=>ADDHIK64321112111568<<@ACGGKLNR64321112111568<<@ACGGKLNRR:876555554489;??CDFJJNORVVZ;98766666559:<@@DEGKKOPSWW[\=;:98888777;<>AAEFIMMQRUYY]^aA?>=;;;;;::>?ADDHIKOOTUX\\abeiA?>=;;;;;::>?ADDHIKOOTUX\\abeiiFCCA@@???>>BCEHHLMOSSXY\``efimmr    !!""""%!""###&'"$$$%%((*$&&'((*+-/$&&'((*+-//()))**,,-//0)*****,-.//00,,,,,,-..//11210//..///00223510//..///00223550//.--...//1235560//.--.....11355661//.--.....113556771//.-------01355779:1//.-------01355779::200/.......12366889;;=210/.......1236688:<<==3110/////..1236689:<<>>?4221///////1246699;==??AB4221///////1246699;==??ABB6432111100033577::<>>@ABDDF6443111110034577::<>>@ABDDFG7554222211134688:;<??ABCEEGHI9765443322245688;<=??BCDFFIIJL9765443322245688;<=??BCDFFIIJLL;9876655433678::<=?AACDFHHJKLNNP                         !      !!      !!!"      !"""#      !"""## !!!!!!""#$$$""""!!"###%%&'""""!!"###%%&''#""""""#$$%%'))+$###""#$$%&&(**-0$###""#$$%&&(**-00&%%%$$$&&&''),,/223''&&%%&'''((*--/2246''&&%%&'''((*--/22466*)))((()))**,//155788<,+**)))*****,//2668::=?,++*)))***++-003668::>@@/.--,,,,----/22588:<<@BBE0/..-,----../33599;==ACCFG10//.--.....033699<>>BDDGHI5333111111113669;;>@@EGGJKMQ6433211221113669<<?AAEGHKLMQR755432233322477:==@BBFHILMNSSU;988666666557::=@@CEEIKLOPQVWX\;988666666557::=@@CEEIKLOPQVWX\\      !!"""###&!"""##$&'"##$$$%(()$&&&'((++,/$&&&'((++,//&'(()))+,-///)*****+,--//00)*****+,--//000----,,,...//011210//...///001223510//...///001223551///.....///02235550///.--.....011355660///.--.....0113556661///--------/1135567791//.--------/113557779:1///--------/11355788::;2100......../22466788:;;=2100/......./22466788;<<==3100/..//.../22466788;<<=>>42110/////..022466899<==??@B42210///////022466899<==??@BB5322000000//0334668::<=>?@@CCD6544211111001445779::=>?@ABDDEG6544211111001445779::=>?@ABDDEGG                              !       !!       !!!       !!!!"       !!""##       !!""### !!!!!!!"""#$$$"""""!!"###$%%&'"""""!!"###$%%&''""""""""###$%%&(()####""""$$$%&&'**+.$####""#$$$%&&(**,/0$####""#$$$%&&(**,/00&%%%$$$$%&&'''),,-0223''&&&%%&'''(((*--.12246''&&&%%&'''(((*--.122466)((('&&'((()))+../2446779,+***)))******,//14668::<?,+***)))******,//14668::<??-,++*))****+++-0015669::<@@A/.---,,,,-----/223788:<<>BBCE0/..-,,-----../334799;==?CCDFG0/..-,,-----../334799;==?CCDFGG32110///00000025569::=??BEEFIJJM         !!!"""""#%!"""###$&'!"""###$&''#$%%%&&&))),$%&&'(((*++./$%&&'(((*++.//&'((()))+,,.///)******+,--.//00)******+,--.//000++++++++---.//0111//...--../////0222410///...////0012234510///...////00122345510//.......///022245550///.---......0112455660///.---......01124556661///.---....../11245567771///.---------/1124557779:1///.---------/1124557779::10//.---------/1124557889;;;2100/........./2225667889;;<=2100/........./222566788:<<<==2100/........./222566788:<<<===32110///////..0223566899:<<=>??@                                              !!        !!!        !!!!         !!!!"         !""""#         !""""##         !""""###!!!!!!!!!""""#$$$%""""""!!!"###$%%%&'""""""!!!"###$%%%&''""""""!!!"###$%%%&'''#""""""""#$$$$%%%')))+$#####"""#$$$%&&&(***-0$#####"""#$$$%&&&(***-00$#####"""#$$$%&&&(***-000%%%%%$$$$%&&&&'''),,,.1113''&&&&%%%&'''((((*---/22246''&&&&%%%&'''((((*---/222466''&&&&%%%&'''((((*---/2224666))(((''''(((()))),...14446888:,+***)))))*******-///26668:::<?,+***)))))*******-///26668:::<??         !!!!!!!#!""""####%'!""""####%''!""""####%'''##$$$%%%%')))+$%&&&'((()+++-/$%&&&'((()+++-//$%&&&'((()+++-///''((())))*,,,-////)********+---.///00)********+---.///000)********+---.///0000-----,,,,-...////0111210////.../////00012223510////.../////000122235510////.../////0001222355510///.....///////02223555500///.---........011135555600///.---........0111355556600///.---........01113555566610///.----......./11135556777810///.-----------/111355567779:10///.-----------/111355567779::                                                             !!          !!!          !!!!          !!!!!           !!!!!"           !!""""#           !!""""##           !!""""###           !!""""####  !!!!!!!!!!""""##$$$$!!!!!!!!!!!""####$$$$%&"""""""!!!!"####$$%%%&''"""""""!!!!"####$$%%%&'''"""""""!!!!"####$$%%%&''''""""""""""""#$$$$%%%%&()))*######"""""#$$$$%%&&&')***,.$######""""#$$$$%&&&&(****-/0$######""""#$$$$%&&&&(****-/00$######""""#$$$$%&&&&(****-/000%%$$$$$####$%%%%&'''')*+++-01112            !!!!!"!!!""""""""$%!"""""#####%&'!"""""#####%&''!"""""#####%&'''"#$$$$$%%%%&((((*$$%%%%&&'''()***,.$%&&&&''((()*+++-./$%&&&&''((()*+++-.//$%&&&&''((()*+++-.///&''(((())))*+,,,-/////())))))****+,,,,-////00)**********+,---.////000)**********+,---.////0000)**********+,---.////00000,,,,,,,,,,,,-....////011112//......---..////////0122234100////.....//////00012222345100////.....//////000122223455100////.....//////000122223455510/////......////////01222345555                                                                                                           !!              !!!              !!!!              !!!!!              !!!!!!              !!!!!!!"              !!!!!!!""              !!!""""""#              !!!"""""###              !!!"""""####              !!!"""""#####          !!!!!!""""""######  !!!!!!!!!!!!!""""""###$$$$$!!!!!!!!!!!!!!!""######$$$$$%&"""""""""!!!!!""######$$%%%%&&'"""""""""!!!!!""######$$%%%%&&''                      !    !!!!!!!!!!"#!!!"""""""""""#$%!"""""""######$%&'!"""""""######$%&''!"""""""######$%&'''!"""""""######$%&''''"######$$$$$$$%&'(((()#$$$%%%%%%&&&&&')))))*,$%%&&&&&&'''''()*++++,-.$%%&&&&&''((((()*++++,.//$%%&&&&&''((((()*++++,.///$%%&&&&&''((((()*++++,.////%%&&'''''((((()*+++++,./////&''((((((()))))*+,,,,-.//////((()))))))*****+,,,,,-./////00)*************++,-----./////000)*************++,-----./////0000                                                                                                                                                                                                               !                     !!!                     !!!!                     !!!!!                     !!!!!!                     !!!!!!!                     !!!!!!!!                     !!!!!!!!!                     !!!!!!!!!!!                                      !          !!!!!!!!!""   !!!!!!!!!!!""""""""#$!!!!!""""""""""""""""#$%%!!"""""""""##########$%%&'!!"""""""""##########$%%&''!!"""""""""##########$%%&'''!!"""""""""##########$%%&''''!!"""""""""##########$%%&'''''!!"""""""""##########$%%&''''''"""##########$$$$$$$$%%&'(((((((                                                                                                                                                                                                                                                                                                           /* Error: Ran out of types for this method. */;
 - (void)$";
 - (_Bool);
-- (void)meStamp;
+- (void)CMSampleBufferGetPresentationTimeStamp;
 - (void)P	þÿV;
 
 // Remaining properties
-@property _Bool allowsExternalPlayback; // @synthesize allowsExternalPlayback=_allowsExternalPlayback;
-@property(retain) NSArray *audioMediaSelectionOptions; // @synthesize audioMediaSelectionOptions=_audioMediaSelectionOptions;
-@property _Bool canPause; // @synthesize canPause=_canPause;
-@property _Bool canPlay; // @synthesize canPlay=_canPlay;
-@property _Bool canScanBackward; // @synthesize canScanBackward=_canScanBackward;
-@property(readonly) _Bool canScanForward;
-@property _Bool canSeek; // @synthesize canSeek=_canSeek;
-@property(readonly) _Bool canSeekFrameBackward;
-@property(readonly) _Bool canSeekFrameForward;
-@property(readonly) _Bool canSeekToBeginning;
-@property(readonly) _Bool canSeekToEnd;
-@property _Bool canTogglePlayback; // @synthesize canTogglePlayback=_canTogglePlayback;
-@property struct CGSize contentDimensions; // @synthesize contentDimensions=_contentDimensions;
-@property double contentDuration; // @synthesize contentDuration=_contentDuration;
-@property double contentDurationWithinEndTimes; // @synthesize contentDurationWithinEndTimes=_contentDurationWithinEndTimes;
-@property(retain) WebAVMediaSelectionOption *currentAudioMediaSelectionOption;
-@property(retain) WebAVMediaSelectionOption *currentLegibleMediaSelectionOption;
-@property double defaultPlaybackRate;
-@property void *delegate;
-@property(getter=isExternalPlaybackActive) _Bool externalPlaybackActive; // @synthesize externalPlaybackActive=_externalPlaybackActive;
-@property(retain) NSString *externalPlaybackAirPlayDeviceLocalizedName; // @synthesize externalPlaybackAirPlayDeviceLocalizedName=_externalPlaybackAirPlayDeviceLocalizedName;
-@property long long externalPlaybackType; // @synthesize externalPlaybackType=_externalPlaybackType;
-@property(readonly) _Bool hasAudioMediaSelectionOptions;
-@property(readonly) _Bool hasContentChapters; // @synthesize hasContentChapters=_hasContentChapters;
-@property _Bool hasEnabledAudio; // @synthesize hasEnabledAudio=_hasEnabledAudio;
-@property _Bool hasEnabledVideo; // @synthesize hasEnabledVideo=_hasEnabledVideo;
-@property(readonly) _Bool hasLegibleMediaSelectionOptions;
-@property(readonly) _Bool hasMediaSelectionOptions;
-@property _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
-@property(readonly) _Bool isScrubbing;
-@property(readonly) _Bool isSeeking;
-@property(retain) NSArray *legibleMediaSelectionOptions; // @synthesize legibleMediaSelectionOptions=_legibleMediaSelectionOptions;
-@property double liveUpdateInterval; // @synthesize liveUpdateInterval=_liveUpdateInterval;
-@property(retain) NSArray *loadedTimeRanges; // @synthesize loadedTimeRanges=_loadedTimeRanges;
-@property(readonly) double maxTime;
-@property(retain) AVValueTiming *maxTiming; // @synthesize maxTiming=_maxTiming;
-@property(readonly) double minTime;
-@property(retain) AVValueTiming *minTiming; // @synthesize minTiming=_minTiming;
-@property(getter=isMuted) _Bool muted;
-@property(getter=isPictureInPictureInterrupted) _Bool pictureInPictureInterrupted;
-@property(readonly, getter=isPictureInPicturePossible) _Bool pictureInPicturePossible;
-@property void *playbackSessionInterface;
 @property(retain) AVPlayerController *playerControllerProxy; // @synthesize playerControllerProxy=_playerControllerProxy;
-@property(getter=isPlaying) _Bool playing;
-@property(readonly, getter=isPlayingOnExternalScreen) _Bool playingOnExternalScreen;
-@property(nonatomic, getter=isPlayingOnSecondScreen) _Bool playingOnSecondScreen; // @synthesize playingOnSecondScreen=_playingOnSecondScreen;
-@property double rate;
-@property(readonly) double seekToTime;
-@property(retain) NSArray *seekableTimeRanges; // @synthesize seekableTimeRanges=_seekableTimeRanges;
-@property double seekableTimeRangesLastModifiedTime; // @synthesize seekableTimeRangesLastModifiedTime=_seekableTimeRangesLastModifiedTime;
-@property long long status; // @synthesize status=_status;
-@property(retain) AVValueTiming *timing; // @synthesize timing=_timing;
-@property double volume;
 
 @end
 

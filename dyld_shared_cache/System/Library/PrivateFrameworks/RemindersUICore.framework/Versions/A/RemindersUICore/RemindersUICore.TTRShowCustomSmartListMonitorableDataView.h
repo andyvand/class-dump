@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRShowCustomSmartListMonitorableDataView
 {
     id smartList;
-    id showCompleted;
-    id countCompleted;
-    id sortingStyle;
-    id remindersToPrefetchCount;
 }
 
 @end

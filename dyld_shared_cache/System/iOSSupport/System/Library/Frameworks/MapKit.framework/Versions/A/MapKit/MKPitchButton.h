@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, UIButton, UIView, UIVisualEffectView;
+@class MKMapView;
 
 @interface MKPitchButton
 {
     long long _state;
-    UIButton *_button;
-    UIView *_buttonWrapper;
-    UIVisualEffectView *_effectView;
-    MKMapView *_mapView;
-    long long _visibility;
-    unsigned long long _backgroundStyle;
-    unsigned long long _controlSize;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (struct CGSize)	;
+- (void)A;
 - (struct CGSize);
-- (void);
-- (struct CGSize);
-- (id);
+- (id)NIMClientCapabilities;
 - (long long);
-- (void)alloonRect;
-- (id)andler: /* Error: Ran out of types for this method. */;
-- (void)elGlyph;
+- (void)balloonRect;
+- (id)_mapItemsFromHandleURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)badgeLabelGlyph;
 - (void)¨Ê;
 
 // Remaining properties
-@property(nonatomic, getter=_backgroundStyle, setter=_setBackgroundStyle:) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(nonatomic, getter=_controlSize, setter=_setControlSize:) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
 @property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) long long visibility; // @synthesize visibility=_visibility;
 
 @end
 

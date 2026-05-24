@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface UnknownClass (CHCSVAdditions)
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (long long);
+- (long long)H;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
@@ -36,7 +36,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,23 +53,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)THJH$;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *CSVComponents;
-@property(readonly, copy, nonatomic) NSString *safari_bestKnownLanguageTag;
-@property(readonly, nonatomic) _Bool safari_isPDFMIMEType;
-@property(readonly, copy, nonatomic) NSString *safari_lastPathComponentWithoutZipExtension;
-@property(readonly, nonatomic) NSString *safari_stringByAddingSoftBreaksBeforePeriods;
-@property(readonly, copy, nonatomic) NSString *safari_stringByRemovingParenthesizedDomain;
-@property(readonly, nonatomic) NSString *safari_stringByReplacingLastOccurrenceOfWhitespaceWithANonBreakingSpace;
-@property(readonly, nonatomic) NSString *safari_stringByReplacingMarkupCharactersWithHTMLEntities;
-@property(readonly, copy, nonatomic) NSString *safari_stringDecodedFromURLQueryParameter;
-@property(readonly, copy, nonatomic) NSString *safari_stringEncodedAsURLQueryParameter;
-@property(readonly, copy, nonatomic) NSString *safari_userVisibleTitleIgnoringFullURLString;
-@property(readonly, nonatomic) long long safari_wordCount;
 @end
 

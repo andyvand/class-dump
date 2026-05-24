@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
+@class NSNumber;
 
 @interface ExclaveLayout
 {
     NSNumber *_layoutId;
-    NSNumber *_sharedCacheIndex;
-    NSMutableArray *_segments;
 }
 
+- (id)flowRunViewSource",&,N,V_runViewSource;
+- (void),N,V_provider;
+- (void)eadingTextButton;
+- (id),&,V_headerView;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *layoutId; // @synthesize layoutId=_layoutId;
-@property(retain, nonatomic) NSMutableArray *segments; // @synthesize segments=_segments;
-@property(retain, nonatomic) NSNumber *sharedCacheIndex; // @synthesize sharedCacheIndex=_sharedCacheIndex;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCameraDevice, NSString, NSURL;
 @protocol IKCameraDeviceViewDelegate;
 
 @interface IKCameraDeviceView
@@ -12,7 +11,7 @@
     id _privateData;
 }
 
-+ (_Bool);
++ (_Bool)AnswerType;
 - (long long);
 - (void);
 - (void);
@@ -34,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,10 +49,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,7 +72,7 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)trashedDate;
 - (id);
 - (id);
 - (void);
@@ -81,30 +80,14 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)@0:(struct CGRect)arg1 8;
+- (void)b;
+- (void);
+- (void)(;
 - (void);
 
 // Remaining properties
-@property ICCameraDevice *cameraDevice;
-@property(readonly) _Bool canDeleteSelectedItems;
-@property(readonly) _Bool canDownloadSelectedItems;
-@property(readonly) _Bool canRotateSelectedItemsLeft;
-@property(readonly) _Bool canRotateSelectedItemsRight;
 @property id <IKCameraDeviceViewDelegate> delegate;
-@property _Bool displaysDownloadsDirectoryControl;
-@property _Bool displaysPostProcessApplicationControl;
-@property(copy) NSString *downloadAllControlLabel;
-@property(copy) NSString *downloadSelectedControlLabel;
-@property(retain) NSURL *downloadsDirectory;
-@property _Bool hasDisplayModeIcon;
-@property _Bool hasDisplayModeTable;
-@property unsigned long long iconSize;
-@property long long mode;
-@property(retain) NSURL *postProcessApplication;
-@property long long transferMode;
 
 @end
 

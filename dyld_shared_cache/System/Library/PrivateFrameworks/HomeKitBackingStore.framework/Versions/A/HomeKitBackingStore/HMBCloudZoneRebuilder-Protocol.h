@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZoneRebuilderStatus, NAFuture;
+@class NAFuture;
 
 @protocol HMBCloudZoneRebuilder
+- (NAFuture *);
+- (void)?;
 
 // Remaining properties
 @property(readonly, nonatomic) NAFuture *rebuildCompleteFuture;
-@property(readonly, copy) HMBCloudZoneRebuilderStatus *rebuilderStatus;
-@property(readonly, nonatomic, getter=isZoneRebuildInProgress) _Bool zoneRebuildInProgress;
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, SignpostCAProcessStallAggregation;
+@class SignpostCAProcessStallAggregation;
 
 @interface SignpostCAStallAggregation
 {
     SignpostCAProcessStallAggregation *_systemAggregation;
-    NSDictionary *_executablePathToStallAggregation;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)#;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *executablePathToStallAggregation; // @synthesize executablePathToStallAggregation=_executablePathToStallAggregation;
 @property(readonly, nonatomic) SignpostCAProcessStallAggregation *systemAggregation; // @synthesize systemAggregation=_systemAggregation;
 
 @end

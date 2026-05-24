@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXGLayout, PXPhotosContentController, PXStoryChromeLayout, PXStoryLayout, PXStoryModel, PXStoryRelatedOverlayItemDecorationSource, PXStoryScrubberLayout, PXStoryViewModeTransition, PXStoryViewModeTransitionsHelper, PXStoryViewModel;
-@protocol PXMemoryAssetsActionFactory;
+@class PXStoryModel;
 
 @interface PXStoryViewLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    unsigned short _contentVersion;
-    _Bool _isUpdatingSublayouts;
-    _Bool _isUpdatingGridLayout;
-    PXStoryRelatedOverlayItemDecorationSource *_relatedDecorationSource;
-    _Bool _shouldScrollGridToPlaybackPosition;
-    PXStoryViewModel *_viewModel;
-    PXStoryModel *_mainModel;
-    PXStoryLayout *_mainStoryLayout;
-    PXGLayout *_mainStoryPlaceholderLayout;
-    PXGLayout *_gridPlaceholderLayout;
-    long long _mainStoryLayoutIndex;
-    long long _legibilityOverlayLayoutIndex;
-    PXStoryChromeLayout *_chromeLayout;
-    long long _chromeLayoutIndex;
-    PXStoryScrubberLayout *_scrubberLayout;
-    long long _scrubberLayoutIndex;
-    PXGLayout *_relatedOverlayLayout;
-    long long _relatedOverlayLayoutIndex;
-    long long _gridLayoutIndex;
-    long long _diagnosticHUDLayoutIndex;
-    PXPhotosContentController *_gridContentController;
-    PXStoryViewModeTransitionsHelper *_viewModeTransitionsHelper;
-    PXStoryViewModeTransition *_gridViewModeTransition;
-    CDStruct_c1f6e9bb _presentedGridTransform;
 }
 
 - (id);
@@ -53,21 +27,21 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long);
+- (long long);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (CDStruct_c1f6e9bb);
+- (CDStruct_db347611);
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct NSEdgeInsets);
 - (id);
 - (long long);
-- (id);
+- (id)k;
 - (id);
 - (CDUnknownBlockType);
 - (long long);
@@ -81,7 +55,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -95,7 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -113,7 +87,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (id);
@@ -130,43 +104,11 @@
 - (id);
 - (void)}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32@"PXStoryClipLayout"800^B808;
 - (id)tionalAttributes.keywords;
-- (void)StoryPromptEntryViewType;
+- (void)PXGenerativeStoryPromptEntryViewType;
 - (id)Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryChromeLayout *chromeLayout; // @synthesize chromeLayout=_chromeLayout;
-@property(readonly, nonatomic) long long chromeLayoutIndex; // @synthesize chromeLayoutIndex=_chromeLayoutIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long diagnosticHUDLayoutIndex; // @synthesize diagnosticHUDLayoutIndex=_diagnosticHUDLayoutIndex;
-@property(readonly, nonatomic) PXPhotosContentController *gridContentController; // @synthesize gridContentController=_gridContentController;
-@property(readonly, nonatomic) long long gridLayoutIndex; // @synthesize gridLayoutIndex=_gridLayoutIndex;
-@property(readonly, nonatomic) PXGLayout *gridPlaceholderLayout; // @synthesize gridPlaceholderLayout=_gridPlaceholderLayout;
-@property(retain, nonatomic) PXStoryViewModeTransition *gridViewModeTransition; // @synthesize gridViewModeTransition=_gridViewModeTransition;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool inGridViewMode;
-@property(readonly, nonatomic) long long legibilityOverlayLayoutIndex; // @synthesize legibilityOverlayLayoutIndex=_legibilityOverlayLayoutIndex;
-@property(readonly, nonatomic) id mainItemReference;
 @property(retain, nonatomic) PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
-@property(retain, nonatomic) PXStoryLayout *mainStoryLayout; // @synthesize mainStoryLayout=_mainStoryLayout;
-@property(readonly, nonatomic) long long mainStoryLayoutIndex; // @synthesize mainStoryLayoutIndex=_mainStoryLayoutIndex;
-@property(readonly, nonatomic) PXGLayout *mainStoryPlaceholderLayout; // @synthesize mainStoryPlaceholderLayout=_mainStoryPlaceholderLayout;
-@property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXMemoryAssetsActionFactory>",?,R,N
-
-@property(nonatomic) CDStruct_c1f6e9bb presentedGridTransform; // @synthesize presentedGridTransform=_presentedGridTransform;
-@property(readonly, nonatomic) PXGLayout *relatedOverlayLayout; // @synthesize relatedOverlayLayout=_relatedOverlayLayout;
-@property(readonly, nonatomic) long long relatedOverlayLayoutIndex; // @synthesize relatedOverlayLayoutIndex=_relatedOverlayLayoutIndex;
-@property(readonly, nonatomic) PXStoryScrubberLayout *scrubberLayout; // @synthesize scrubberLayout=_scrubberLayout;
-@property(readonly, nonatomic) long long scrubberLayoutIndex; // @synthesize scrubberLayoutIndex=_scrubberLayoutIndex;
-@property(nonatomic) _Bool shouldScrollGridToPlaybackPosition; // @synthesize shouldScrollGridToPlaybackPosition=_shouldScrollGridToPlaybackPosition;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXStoryViewModeTransitionsHelper *viewModeTransitionsHelper; // @synthesize viewModeTransitionsHelper=_viewModeTransitionsHelper;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

@@ -11,18 +11,14 @@
 @interface MPSNDArrayFourierTransform : MPSNDArrayUnaryKernel
 {
     MPSNDArrayIdentity *_identity;
-    unsigned int _axesMask;
-    double _scale;
-    _Bool _inverse;
-    int _scalingMode;
 }
 
-+ (const struct MPSLibraryInfo *);
-- (id);
++ (const struct MPSLibraryInfo *);
+- (id)`P;
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int)1;
 - (unsigned long long);
 - (id);
 - (unsigned int);
@@ -38,9 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int axesMask; // @synthesize axesMask=_axesMask;
-@property(nonatomic) _Bool inverse; // @synthesize inverse=_inverse;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) int scalingMode; // @synthesize scalingMode=_scalingMode;
 
 @end
 

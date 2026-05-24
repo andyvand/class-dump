@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureAudioSettings, AVWeakReference, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureAudioDataOutputInternal_Tundra
 {
     AVWeakReference *weakReferenceDelegate;
-    NSObject<OS_dispatch_queue> *clientQueue;
-    struct __CFDictionary *splitterUnits;
-    struct __CFDictionary *mixerUnits;
-    struct __CFDictionary *audioConverterUnits;
-    struct __CFDictionary *audioToProcsUnits;
-    struct __CFDictionary *callbackData;
-    AVCaptureAudioSettings *audioSettings;
-    struct os_unfair_lock_s internalLock;
 }
 
 - (void);

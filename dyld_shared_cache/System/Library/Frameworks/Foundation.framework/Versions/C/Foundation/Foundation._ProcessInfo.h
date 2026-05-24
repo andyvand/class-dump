@@ -7,7 +7,6 @@
 @interface Foundation._ProcessInfo
 {
     id state;
-    id _hostName;
 }
 
 @end

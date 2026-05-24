@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTREditSectionsChangeItem.Storage
 {
     id sectionNames;
-    id orderedSectionIDs;
-    id initialOrderedSectionIDs;
-    id shouldHideEmptySections;
 }
 
 - (id);

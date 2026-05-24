@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)leadingAnchor;
+- (oneway void)_totalAccessoryViewsInTabs;
+- (NSString *)_migratedBookmarksFolder;
+- (_Bool)_canSetFirstResponder;
 - (struct _NSZone *)context;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)/swift/libswiftSpatial.dylib;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

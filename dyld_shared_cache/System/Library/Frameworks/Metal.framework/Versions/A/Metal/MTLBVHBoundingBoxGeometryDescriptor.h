@@ -11,7 +11,6 @@
 @interface MTLBVHBoundingBoxGeometryDescriptor : MTLBVHGeometryDescriptor
 {
     NSArray *_boundingBoxBuffers;
-    unsigned long long _boundingBoxStride;
 }
 
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSArray *boundingBoxBuffers; // @synthesize boundingBoxBuffers=_boundingBoxBuffers;
-@property(nonatomic) unsigned long long boundingBoxStride; // @synthesize boundingBoxStride=_boundingBoxStride;
 
 @end
 

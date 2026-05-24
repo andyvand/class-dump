@@ -4,44 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, PXGScrollLayout, PXGenerativeStoryInWatchNextController, PXNumberAnimator, PXStoryChromeButtonConfiguration, PXStoryRelatedLayoutGenerator, PXStoryRelatedOverlayItemDecorationSource, PXStoryScrollContentLayout, PXStoryViewModel;
+@class PXStoryRelatedLayoutGenerator;
 
 @interface PXStoryRelatedOverlayLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    _Bool _shouldIgnoreContentScrollOffsetChanges;
-    unsigned int _titleSpriteIndex;
-    unsigned short _titleVersion;
-    unsigned int _countDownSpriteIndex;
-    unsigned int _countDownDecorationSpriteIndex;
-    unsigned int _navigationButtonSpriteIndex;
-    unsigned int _navigationHitTestVisabilitySpriteIndex;
-    unsigned int _createButtonSpriteIndex;
-    struct _NSRange _relatedSublayoutIndexRange;
-    long long _scrollSublayoutIndex;
-    long long _capacity;
-    struct CGRect *_relatedDefaultFrames;
-    _Bool _isRelatedOverlayScrolledIntoView;
-    _Bool _shouldCountDown;
-    _Bool _wantsNavigationButton;
-    _Bool _wasAnimatingScrollOffsetForNavigation;
-    PXStoryViewModel *_viewModel;
-    struct _PXGSpriteIndexRange _relatedSelectionSpriteIndexRange;
-    PXStoryRelatedLayoutGenerator *_layoutGenerator;
-    PXStoryScrollContentLayout *_scrollContentLayout;
-    PXGScrollLayout *_scrollLayout;
-    PXNumberAnimator *_countDownAlphaAnimator;
-    NSTimer *_countDownTimer;
-    long long _countDownValue;
-    long long _selectedIndex;
-    PXNumberAnimator *_navigationButtonAlphaAnimator;
-    long long _navigationButtonDirection;
-    PXStoryChromeButtonConfiguration *_navigationButtonConfiguration;
-    long long _navigationButtonVersion;
-    PXNumberAnimator *_navigationButtonScrollAnimator;
-    double _navigationButtonScrollAnimatorTarget;
-    PXStoryRelatedOverlayItemDecorationSource *_decorationSource;
-    PXStoryChromeButtonConfiguration *_createButtonConfiguration;
 }
 
 - (_Bool);
@@ -55,14 +22,14 @@
 - (void);
 - (void);
 - (void);
+- (void)Z;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -80,7 +47,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)	;
 - (id);
 - (_Bool);
 - (id);
@@ -89,13 +56,13 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -129,7 +96,7 @@
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
@@ -144,41 +111,13 @@
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void)dKey;
+- (void)_nearingEndForSerializer:(long long)arg1;
+- (void)kPXFeedbackImageQualityPersonPetPartiallyDeformedKey;
 - (void)è;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PXNumberAnimator *countDownAlphaAnimator; // @synthesize countDownAlphaAnimator=_countDownAlphaAnimator;
-@property(retain, nonatomic) NSTimer *countDownTimer; // @synthesize countDownTimer=_countDownTimer;
-@property(nonatomic) long long countDownValue; // @synthesize countDownValue=_countDownValue;
-@property(copy, nonatomic) PXStoryChromeButtonConfiguration *createButtonConfiguration; // @synthesize createButtonConfiguration=_createButtonConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) PXStoryRelatedOverlayItemDecorationSource *decorationSource; // @synthesize decorationSource=_decorationSource;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXGenerativeStoryInWatchNextController *generativeMemoryController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRelatedOverlayScrolledIntoView; // @synthesize isRelatedOverlayScrolledIntoView=_isRelatedOverlayScrolledIntoView;
 @property(readonly, nonatomic) PXStoryRelatedLayoutGenerator *layoutGenerator; // @synthesize layoutGenerator=_layoutGenerator;
-@property(readonly, nonatomic) PXNumberAnimator *navigationButtonAlphaAnimator; // @synthesize navigationButtonAlphaAnimator=_navigationButtonAlphaAnimator;
-@property(copy, nonatomic) PXStoryChromeButtonConfiguration *navigationButtonConfiguration; // @synthesize navigationButtonConfiguration=_navigationButtonConfiguration;
-@property(nonatomic) long long navigationButtonDirection; // @synthesize navigationButtonDirection=_navigationButtonDirection;
-@property(readonly, nonatomic) PXNumberAnimator *navigationButtonScrollAnimator; // @synthesize navigationButtonScrollAnimator=_navigationButtonScrollAnimator;
-@property(nonatomic) double navigationButtonScrollAnimatorTarget; // @synthesize navigationButtonScrollAnimatorTarget=_navigationButtonScrollAnimatorTarget;
-@property(nonatomic) long long navigationButtonVersion; // @synthesize navigationButtonVersion=_navigationButtonVersion;
-@property(readonly, nonatomic) struct _PXGSpriteIndexRange relatedSelectionSpriteIndexRange; // @synthesize relatedSelectionSpriteIndexRange=_relatedSelectionSpriteIndexRange;
-@property(readonly, nonatomic) PXStoryScrollContentLayout *scrollContentLayout; // @synthesize scrollContentLayout=_scrollContentLayout;
-@property(readonly, nonatomic) PXGScrollLayout *scrollLayout; // @synthesize scrollLayout=_scrollLayout;
-@property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(nonatomic) _Bool shouldCountDown; // @synthesize shouldCountDown=_shouldCountDown;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(nonatomic) _Bool wantsNavigationButton; // @synthesize wantsNavigationButton=_wantsNavigationButton;
-@property(nonatomic) _Bool wasAnimatingScrollOffsetForNavigation; // @synthesize wasAnimatingScrollOffsetForNavigation=_wasAnimatingScrollOffsetForNavigation;
 
 @end
 

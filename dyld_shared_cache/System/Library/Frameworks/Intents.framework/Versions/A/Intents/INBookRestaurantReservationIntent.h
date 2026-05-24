@@ -6,22 +6,15 @@
 
 #import <Intents/INIntent.h>
 
-@class INRestaurant, INRestaurantGuest, INRestaurantOffer, NSDate, NSDateComponents, NSString;
+@class INRestaurant, NSDate;
 
 @interface INBookRestaurantReservationIntent : INIntent
 {
     INRestaurant *_restaurant;
-    NSDateComponents *_bookingDateComponents;
-    unsigned long long _partySize;
-    NSString *_bookingIdentifier;
-    INRestaurantGuest *_guest;
-    INRestaurantOffer *_selectedOffer;
-    NSString *_guestProvidedSpecialRequestText;
-    NSDate *_bookingDate;
 }
 
 + (_Bool);
-+ (id)ECIRCULATE_AIR;
++ (id)RECIRCULATE_AIR;
 - (void);
 - (void);
 - (void);
@@ -33,35 +26,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)8@16@24@32@?40;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)erformWiFiNetworkSharingAccessoryScanHandler;
+- (void)soft_EAPSecIdentityHandleCreateSecIdentity(EAPSecIdentityHandleRef, SecIdentityRef *);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)Intent;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *bookingDate; // @synthesize bookingDate=_bookingDate;
-@property(copy) NSDateComponents *bookingDateComponents; // @synthesize bookingDateComponents=_bookingDateComponents;
-@property(copy) NSString *bookingIdentifier; // @synthesize bookingIdentifier=_bookingIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) INRestaurantGuest *guest; // @synthesize guest=_guest;
-@property(copy) NSString *guestProvidedSpecialRequestText; // @synthesize guestProvidedSpecialRequestText=_guestProvidedSpecialRequestText;
-@property(readonly) unsigned long long hash;
-@property unsigned long long partySize; // @synthesize partySize=_partySize;
-@property(copy) INRestaurant *restaurant; // @synthesize restaurant=_restaurant;
-@property(copy) INRestaurantOffer *selectedOffer; // @synthesize selectedOffer=_selectedOffer;
-@property(readonly) Class superclass;
 
 @end
 

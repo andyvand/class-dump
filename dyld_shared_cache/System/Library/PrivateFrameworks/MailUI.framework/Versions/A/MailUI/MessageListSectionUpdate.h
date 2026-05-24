@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MessageListSectionDataSource, NSString;
+@class MessageListSectionDataSource;
 
 @interface MessageListSectionUpdate
 {
     _Bool _animated;
-    _Bool _cleanSnapshot;
-    _Bool _immediateCompletion;
-    MessageListSectionDataSource *_sectionDataSource;
-    CDUnknownBlockType _prepareHandler;
-    CDUnknownBlockType _updateHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -30,33 +24,15 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)%?;
 - (_Bool);
 - (void);
-- (void)ayer: /* Error: Ran out of types for this method. */;
-- (void)derRepository;
+- (void)setPriorityBorderLayer: /* Error: Ran out of types for this method. */;
+- (void)_senderRepository;
 - (CDUnknownBlockType)Document(),this.contentState=MUIWebDocumentDisplayControllerContentState.webDocument},MUIWebDocumentDisplayController.prototype.prepareContentForDisplay=function(){this.contentState=MUIWebDocumentDisplayControllerContentState.inconsistent;for(var t=0;t<this.attachmentControllers.length;t++)this.attachmentControllers[t].prepareForDisplay();var e=this.delegate;e&&e.prepareContentForDisplay&&e.prepareContentForDisplay(),this.contentState=MUIWebDocumentDisplayControllerContentState.display},MUIWebDocumentDisplayController.prototype.selectedText=function(){var t="",e=document.getSelection();return e.rangeCount&&(t=e.getRangeAt(0).toString()),t},MUIWebDocumentDisplayController.prototype.hasStyleToInline=function(){var t=!1;if(document.getElementsByTagName("style").length&&(t=!0),!t)for(var e=document.getElementsByTagName("link"),n=0;n<e.length;n++)if("STYLESHEET"===e.item(n).getAttribute("rel").toUpperCase()){t=!0;break}return t},MUIWebDocumentDisplayController.prototype.registerAttachment=function(t,e,n,o,r,a,l,i,c,s){var p=MUIWebAttachmentController.registerAttachment(t,e,n,o,r,a,l,i,c,s);p.length&&(this.attachmentControllers=this.attachmentControllers.concat(p))},MUIWebDocumentDisplayController.prototype.deleteAttachment=function(t){this.attachmentControllerForContentID(t).deleteAttachment()},MUIWebDocumentDisplayController.prototype.setImageScale=function(t,e){this.attachmentControllerForContentID(t).setImageScale(e)},MUIWebDocumentDisplayController.prototype.attachmentControllerForContentID=function(t){for(var e=null,n=0;n<this.attachmentControllers.length;n++)if(this.attachmentControllers[n].contentID===t){e=this.attachmentControllers[n];break}return e},MUIWebDocumentDisplayController.prototype.showProgressForContentID=function(t,e,n){var o=this.attachmentControllerForContentID(t);o&&o.showProgress(e,n)},MUIWebDocumentDisplayController.prototype.handleDownloadErrorForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&n.handleDownloadError(e)},MUIWebDocumentDisplayController.prototype.startDownloadForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&(n.currentNode.setAttribute("subtitle",e),n.currentNode.setAttribute("progress",.01),n.currentNode.style.opacity=1)},MUIWebDocumentDisplayController.prototype.handleDownloadFinishedForContentID=function(t){var e=this.attachmentControllerForContentID(t);e&&e.downloadFinished()},MUIWebDocumentDisplayController.prototype.setDisplayStateForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&n.setDisplayState(e)},MUIWebDocumentDisplayController.prototype.convertToInlineImage=function(t){var e=this.attachmentControllerForContentID(t);e&&e.convertToInlineImage()},MUIWebDocumentDisplayController.prototype.selectedAttachmentControllerNodes=function(){var t=[],e=document.getSelection();if(e.rangeCount){var n=e.getRangeAt(0);this.attachmentControllers.forEach(function(e){n.isPointInRange(e.currentNode,0)&&t.push(e.currentNode)})}return t},MUIWebDocumentDisplayController.prototype.anchorYPosition=function(t){var e=document.getElementById(t);if(!e){var n=document.getElementsByName(t);n.length>0&&(e=n[0])}return e.getBoundingClientRect().top},MUIWebDocumentDisplayController.prototype.addLink=function(t){t&&t.length&&(t=encodeURI(t),document.execCommand("CreateLink",!1,t))},MUIWebDocumentDisplayController.prototype.removeLink=function(){document.execCommand("Unlink",!1,!1)};var MUIWebDocumentDisplayController_sharedInstance=new MUIWebDocumentDisplayController;;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
-@property(nonatomic) _Bool cleanSnapshot; // @synthesize cleanSnapshot=_cleanSnapshot;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool immediateCompletion; // @synthesize immediateCompletion=_immediateCompletion;
-@property(copy, nonatomic) CDUnknownBlockType prepareHandler; // @synthesize prepareHandler=_prepareHandler;
 @property(retain, nonatomic) MessageListSectionDataSource *sectionDataSource; // @synthesize sectionDataSource=_sectionDataSource;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateHandler; // @synthesize updateHandler=_updateHandler;
 
 @end
 

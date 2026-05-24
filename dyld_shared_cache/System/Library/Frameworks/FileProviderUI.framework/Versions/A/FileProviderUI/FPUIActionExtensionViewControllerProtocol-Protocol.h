@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, NSURL;
+
 @protocol FPUIActionExtensionViewControllerProtocol
+- (void)_cachedProcessInfoForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_cachedPaymentSheetResponse;
+- (void)_cachedImagePathForIdentifier:(NSString *)arg1 assetURL:(NSArray *)arg2;
+- (void)_cachedFamilyInfoLookupResultForAccount:(NSURL *)arg1;
+- (void)_buySignatureJSONWithFinalizedBlindedItems:(NSString *)arg1;
+- (void)_buyParamsStringFromAuthenticationContext:(NSURL *)arg1;
 @end
 

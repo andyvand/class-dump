@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSData, NSString;
+@class NSString;
 
 @interface CRKSetUserImageRequest
 {
     NSString *_userIdentifier;
-    NSData *_userImageData;
-    DMFControlGroupIdentifier *_courseIdentifier;
 }
 
 + (Class);
@@ -22,13 +20,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
 @property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(copy, nonatomic) NSData *userImageData; // @synthesize userImageData=_userImageData;
 
 @end
 

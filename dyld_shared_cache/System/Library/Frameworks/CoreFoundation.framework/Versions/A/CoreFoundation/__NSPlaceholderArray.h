@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)+m;
-- (unsigned long long);
+- (unsigned long long)9;
 - (void);
 - (oneway void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)panelSelectionDidChange:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
 - (id)mestamps"8@"NSError"16;
-- (id)atterPatternCharacterKey;
+- (id)kCFDateFormatterPatternCharacterKey;
 - (unsigned long long);
 - (void);
 - (id)·×;

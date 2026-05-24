@@ -4,49 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSObject, NSString, NSXPCListener, _KSTRClient, _KSTextReplacementManager;
+@class APSConnection, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _KSTextReplacementServer
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    _KSTRClient *_daemonClient;
-    _KSTextReplacementManager *_textReplacementManager;
-    APSConnection *_pushConnection;
-    NSXPCListener *_listener;
-    NSString *_directoryPath;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
+- (void)DetailsViewController",W,N,V_contactDetailsViewController;
+- (id);
+- (id)dsAttrTypeStandard:(id)arg1 JPEGPhoto;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (_Bool)setCreateAssociated:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)@32;
+- (void)`";
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void)	?׀;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,17 +53,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *directoryPath; // @synthesize directoryPath=_directoryPath;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
 @property(retain, nonatomic) APSConnection *pushConnection; // @synthesize pushConnection=_pushConnection;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _KSTextReplacementManager *textReplacementManager; // @synthesize textReplacementManager=_textReplacementManager;
 
 @end
 

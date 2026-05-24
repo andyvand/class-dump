@@ -15,17 +15,16 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)globalLastKeyboardUsed;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)�;
+- (id)@;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *previousValue;
-@property(nonatomic) _Bool value;
 
 @end
 

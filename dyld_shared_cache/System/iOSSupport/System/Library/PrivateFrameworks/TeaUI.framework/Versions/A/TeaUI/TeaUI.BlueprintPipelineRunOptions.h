@@ -7,9 +7,6 @@
 @interface TeaUI.BlueprintPipelineRunOptions
 {
     id process;
-    id recorder;
-    id traits;
-    id sidecarOperationQueue;
 }
 
 @end

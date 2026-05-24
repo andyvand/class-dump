@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPInternalFeedback
 {
     unsigned char _storeType;
-    NSString *_build;
 }
 
 + (id);
@@ -17,26 +14,17 @@
 - (unsigned int);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned char);
+- (unsigned char)ctionary"16B24;
 - (id);
 - (void);
 - (id);
 - (void)ault_delete<std::vector<PPSubscoreIdentifier>>>=""{?="__ptr_"^v}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned char storeType; // @synthesize storeType=_storeType;
-@property(readonly) Class superclass;
 
 @end
 

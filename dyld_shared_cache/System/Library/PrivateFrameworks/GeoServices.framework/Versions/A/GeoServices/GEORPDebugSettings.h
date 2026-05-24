@@ -9,45 +9,39 @@
 @interface GEORPDebugSettings
 {
     NSMutableArray *_keywords;
-    int _mode;
-    struct {
-        unsigned int has_mode:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)etIsPersonLocationShared:(id)arg1;
++ (Class)Wallpaper;
++ (_Bool)setIsPersonLocationShared:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)f, firstBufferTimestamp = %f, mostRecentTTSEndTimestamp = %f, extendedSuppressDuration = %f).;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (id)rl"b1"read_navBackgroundColor"b1"read_navTintColor"b1"read_timezone"b1"wrote_anyField"b1};
-- (id)HybridUnavailableRegion: /* Error: Ran out of types for this method. */;
+- (id)addHybridUnavailableRegion: /* Error: Ran out of types for this method. */;
 - (_Bool)ging;
 - (id)ay",&,N,V_resources;
 - (id)Ôø<ù¬ú0û4ü	¬þ(øX;
-- (id)_legacy;
+- (id)spatialLookupURL_legacy;
 - (void)L@;
 - (void)¸òøþ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMode;
-@property(retain, nonatomic) NSMutableArray *keywords;
-@property(nonatomic) int mode;
 
 @end
 

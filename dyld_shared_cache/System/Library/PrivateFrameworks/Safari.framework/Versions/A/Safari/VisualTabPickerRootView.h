@@ -6,20 +6,12 @@
 
 #import <Safari/MouseEventBlockingView.h>
 
-@class BackgroundColorView, NSLayoutConstraint, NSScrollView, NSString, NSView, VisualTabPickerGridView, VisualTabPickerRootViewTransitionCoordinator, VisualTabPickerSearchField, VisualTabPickerViewController;
-@protocol VisualTabPickerTransitioning;
+@class NSScrollView, VisualTabPickerGridView;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerRootView : MouseEventBlockingView
 {
     NSScrollView *_scrollView;
-    NSView *_topBarView;
-    BackgroundColorView *_topBarViewSeparator;
-    VisualTabPickerRootViewTransitionCoordinator *_transitionCoordinator;
-    NSLayoutConstraint *_topEdgeConstraint;
-    VisualTabPickerGridView *_gridView;
-    VisualTabPickerSearchField *_searchField;
-    VisualTabPickerViewController *_visualTabPickerViewController;
 }
 
 - (id);
@@ -31,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
@@ -53,18 +45,7 @@ __attribute__((visibility("hidden")))
 - (id)¬;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) VisualTabPickerGridView *gridView; // @synthesize gridView=_gridView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isShowingTopBar;
-@property(readonly, nonatomic) VisualTabPickerSearchField *searchField; // @synthesize searchField=_searchField;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <VisualTabPickerTransitioning> transitionCoordinator;
-@property(nonatomic) __weak VisualTabPickerViewController *visualTabPickerViewController; // @synthesize visualTabPickerViewController=_visualTabPickerViewController;
 
 @end
 

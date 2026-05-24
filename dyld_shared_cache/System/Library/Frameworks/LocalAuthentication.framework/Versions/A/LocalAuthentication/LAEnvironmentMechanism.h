@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACEnvironmentMechanism, NSString;
+@class LACEnvironmentMechanism;
 
 @interface LAEnvironmentMechanism
 {
@@ -16,17 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e;
 - (_Bool);
-- (id);
+- (id)EEEE17CSSharedCacheTypeE_clES9_SA_EUlPK4UUIDyE_;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LACEnvironmentMechanism *coreMechanism; // @synthesize coreMechanism=_coreMechanism;
-@property(readonly, nonatomic) NSString *iconSystemName;
-@property(readonly, nonatomic) _Bool isUsable;
-@property(readonly, nonatomic) NSString *localizedName;
 
 @end
 

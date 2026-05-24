@@ -7,29 +7,28 @@
 @interface CKDPResponseOperationResultErrorServer
 {
     int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)from message ring complete:next valid message media time %1.3f (sample time %1.3f)
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
 - (_Bool);
-- (id);
+- (id)zR;
 - (void);
 - (id);
 - (void);
 - (id);
 - (int);
-- (id)eSideEffectRecordPendingDelete:(int)arg1;
+- (id)noteSideEffectRecordPendingDelete:(int)arg1;
 - (_Bool)N,V_oldestLastUsedTime;
 - (void)omplete;
 
 // Remaining properties
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

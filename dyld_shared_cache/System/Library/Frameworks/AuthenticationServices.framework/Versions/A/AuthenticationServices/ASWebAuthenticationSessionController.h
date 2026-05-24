@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASWebAuthenticationSessionLaunchAgentProxy, ASWebAuthenticationSessionRequestClient, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ASWebAuthenticationSessionController
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    ASWebAuthenticationSessionLaunchAgentProxy *_launchAgentProxy;
-    ASWebAuthenticationSessionRequestClient *_client;
-    NSMutableSet *_requests;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)textFieldMetadataMeetsRequirementsForAutomaticStrongPasswordTreatment:form: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

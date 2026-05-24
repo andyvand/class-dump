@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCModelStorePlaybackItemsRequest, MPCModelStorePlaybackItemsResponse, MPCPlaybackAccount, NSMutableArray;
+@class MPCModelStorePlaybackItemsRequest, MPCModelStorePlaybackItemsResponse;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelStorePlaybackItemsRequestOperation
 {
     MPCModelStorePlaybackItemsResponse *_previousModelResponse;
-    MPCPlaybackAccount *_account;
-    NSMutableArray *_errors;
-    _Bool _hasReceivedFinalResponse;
-    _Bool _hasCalledResponseHandler;
-    _Bool _requiresFollowupRequest;
-    MPCModelStorePlaybackItemsRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (void);
@@ -30,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPCModelStorePlaybackItemsRequest *request; // @synthesize request=_request;
-@property(readonly, copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

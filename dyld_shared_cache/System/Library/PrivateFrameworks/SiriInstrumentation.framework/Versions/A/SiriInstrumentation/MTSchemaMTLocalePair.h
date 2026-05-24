@@ -6,19 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTLocalePair : SISchemaInstrumentationMessage
 {
     int _sourceLocale;
-    int _targetLocale;
-    struct {
-        unsigned int sourceLocale:1;
-        unsigned int targetLocale:1;
-    } _has;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -29,7 +22,7 @@
 - (int);
 - (int);
 - (id);
-- (void);
+- (void)c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,11 +33,7 @@
 - (id)e;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSourceLocale;
-@property(nonatomic) _Bool hasTargetLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int sourceLocale; // @synthesize sourceLocale=_sourceLocale;
-@property(nonatomic) int targetLocale; // @synthesize targetLocale=_targetLocale;
 
 @end
 

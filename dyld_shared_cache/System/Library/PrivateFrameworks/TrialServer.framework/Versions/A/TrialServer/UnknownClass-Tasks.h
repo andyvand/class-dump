@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Tasks)
-+ (_Bool);
++ (_Bool)initWithArray:(_Bool)arg1;
 @end
 

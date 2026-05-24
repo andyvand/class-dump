@@ -5,5 +5,7 @@
 //
 
 @protocol _DASActivityBackgroundTasksScheduler
+- (void);
+- (void));
 @end
 

@@ -6,24 +6,20 @@
 
 #import <AppStoreDaemon/ASDRequestResponse.h>
 
-@class NSArray;
-
 @interface ASDPurgeAppsResponse : ASDRequestResponse
 {
     long long _purgedSize;
-    NSArray *_purgedApps;
 }
 
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *purgedApps; // @synthesize purgedApps=_purgedApps;
 @property(readonly, nonatomic) long long purgedSize; // @synthesize purgedSize=_purgedSize;
 
 @end

@@ -6,13 +6,17 @@
 
 @protocol PLMomentData
 + (id)ND (%K in %@);
+- (id);
+- (id)1J*J
+;
 - (id)0@ù
 × ;
 - (id);
 - (id)e. Unable to choose a face for face crop generation;
-- (id)loudBatchDownloader _handleDeleteRecords:inLibrary:] /* Error: Ran out of types for this method. */;
+- (BOOL)loudBatchDownloader _handleDeleteRecords:inLibrary:] /* Error: Ran out of types for this method. */;
 
 @optional
+- (id)S;
 - (id)mUUIDsToNotify;
 @end
 

@@ -4,75 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSColor, NSDate, NSDictionary, NSFont, NSIndexSet, NSLock, NSMutableDictionary, NSString, NSURL, NSUUID, PDFAKAnnotationAdaptor, PDFAccessibilityNode, PDFAction, PDFBorder, PDFDestination, PDFPage;
-@protocol NSCopying;
+@class NSFont;
 
 @interface PDFAnnotation
 {
     _Bool _loggingEnabled;
-    _Bool _shouldExport;
-    PDFPage *_page;
-    struct CGPDFDictionary *_sourceDictionary;
-    struct __CFDictionary *_dictionaryRef;
-    NSUUID *_pdfAnnotationUUID;
-    struct CGPDFAnnotation *_cgAnnotation;
-    NSMutableDictionary *_PDFAnnotationDictionary;
-    NSDictionary *_PDFAnnotationKeyMapping;
-    NSMutableDictionary *_internalPDFAnnotationDictionary;
-    struct CGPDFForm *_normalAppearance;
-    struct CGPDFForm *_rolloverAppearance;
-    struct CGPDFForm *_downAppearance;
-    struct CGPDFForm *_normalOffAppearance;
-    struct CGPDFForm *_rolloverOffAppearance;
-    struct CGPDFForm *_downOffAppearance;
-    _Bool _saveAppearance;
-    struct os_unfair_lock_s _cachedAppearancesLock;
-    NSMutableDictionary *_cachedAppearances;
-    _Bool _isSelected;
-    _Bool _isHighlighted;
-    NSIndexSet *_quadPointsIndexSet;
-    struct CGPath *_quadPointsPath;
-    PDFAnnotation *_parent;
-    PDFAnnotation *_popup;
-    struct CGPDFDictionary *_popupDictionary;
-    _Bool _popupDrawCloseWidget;
-    _Bool _popupDrawText;
-    struct CGPath **_cgPaths;
-    NSLock *_pathLock;
-    _Bool _isSignatureWidget;
-    _Bool _shouldBurnIn;
-    id _signatureAnnotationForRendering;
-    NSString *_widgetOnStateString;
-    id _control;
-    _Bool _pointerIsOverAnnotation;
-    _Bool _shouldHideInteractiveBackgroundColor;
-    NSString *_autoFillTextContentType;
-    unsigned long long _formContentType;
-    unsigned long long _autofillEntryType;
-    NSString *_labelText;
-    _Bool _isDetectedCheckbox;
-    _Bool _isDetectedSignature;
-    _Bool _shouldReportAnalytics;
-    _Bool _isAutofillNewContextStart;
-    _Bool _suppressAppearanceStreamText;
-    double _suggestedLineHeight;
-    _Bool _restoreLinePoints;
-    _Bool _restoreQuadPoints;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
-    NSArray *_quadPoints;
-    _Bool _isTransparent;
-    PDFAccessibilityNode *_accessibilityNode;
-    double _scaleFactor;
-    _Bool _isFullyConstructed;
-    _Bool _constructingDictionaryRef;
-    PDFAKAnnotationAdaptor *_akAnnotationAdaptor;
-    id <NSCopying> _akAnnotationForCopying;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
 + (long long);
 + (id);
 + (double);
@@ -144,6 +85,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -161,8 +103,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (_Bool);
@@ -244,7 +185,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct __CFDictionary *);
@@ -308,10 +249,10 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -320,7 +261,7 @@
 - (void);
 - (void *);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
 - (_Bool);
@@ -331,9 +272,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (CDStruct_e3b9714e);
+- (CDStruct_d0b1bdbd);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -357,11 +298,15 @@
 - (id);
 - (struct CGPDFAnnotation *);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (void)c%c%c%c
+;
+- (void)ented yet.
+;
+- (_Bool)%p (%dx%d, %s):Decoder failed to create the parameter_sets, err = %d
+ /* Error: Ran out of types for this method. */;
+- (_Bool)= ""
+;
+- (unsigned long long)Uh;
 - (id);
 - (long long);
 - (id);
@@ -370,34 +315,34 @@
 - (long long);
 - (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (id)M1?~;
+- (id);
 - (_Bool);
 - (void);
+- (void);
 - (id);
+- (void);
 - (id);
+- (void);
+- (id)intValue;
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)K;
+- (long long)plied new key = ;
 - (_Bool);
+- (void)(void);
+- (id)queryVersionWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)onHandler:(struct CGPoint)arg1 ];
 - (id);
 - (void);
 - (struct CGPoint);
@@ -408,8 +353,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)setPageAppearTime:(_Bool)arg1;
+- (id)includeAuthKitTokens;
 - (id);
 - (id);
 - (void);
@@ -424,19 +369,998 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)n.controlPoints[1].color, in.controlPoints[2].color, patchCoord) :(id)arg1 float4(1.f);
+}
+
+static void standard_configure_out(constant commonprofile_uniforms& commonprofile,
+                                   thread SCNShaderSurface&         surface,
+                                   thread SCNShaderGeometry&        geometry,
+                                   thread commonprofile_io&         out)
+{
+    if (use_io_position)
+        out.position = surface.position;
+    
+    if (use_io_normal)
+        out.normal = surface.normal;
+    
+    if (need_tangent) {
+        out.tangent = surface.tangent;
+        out.bitangent = surface.bitangent;
+    }
+    
+    if (use_io_vertex_color)
+        out.vertexColor = geometry.color;
+    
+    float2 uvOut[kSCNTexcoordCount];
+    
+    if (is_function_constant_defined(diffuse_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ diffuse_channel ];
+        if (is_function_constant_defined(diffuse_transform_index))
+            uv = (commonprofile.textureTransforms[diffuse_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ diffuse_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(normal_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ normal_channel ];
+        if (is_function_constant_defined(normal_transform_index))
+            uv = (commonprofile.textureTransforms[normal_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ normal_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ transparent_channel ];
+        if (is_function_constant_defined(transparent_transform_index))
+            uv = (commonprofile.textureTransforms[transparent_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ transparent_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(emission_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ emission_channel ];
+        if (is_function_constant_defined(emission_transform_index))
+            uv = (commonprofile.textureTransforms[emission_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ emission_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ ambient_channel ];
+        if (is_function_constant_defined(ambient_transform_index))
+            uv = (commonprofile.textureTransforms[ambient_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ ambient_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ multiply_channel ];
+        if (is_function_constant_defined(multiply_transform_index))
+            uv = (commonprofile.textureTransforms[multiply_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ multiply_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(specular_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ specular_channel ];
+        if (is_function_constant_defined(specular_transform_index))
+            uv = (commonprofile.textureTransforms[specular_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ specular_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ roughness_channel ];
+        if (is_function_constant_defined(roughness_transform_index))
+            uv = (commonprofile.textureTransforms[roughness_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ roughness_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(metalness_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ metalness_channel ];
+        if (is_function_constant_defined(metalness_transform_index))
+            uv = (commonprofile.textureTransforms[metalness_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ metalness_texcoord_io_index ] = uv;
+    }
+    
+    switch (io_texcoord_count - 1) {
+        case 7 :out.texcoord7 = uvOut[7];
+        case 6 :out.texcoord6 = uvOut[6];
+        case 5 :out.texcoord5 = uvOut[5];
+        case 4 :out.texcoord4 = uvOut[4];
+        case 3 :out.texcoord3 = uvOut[3];
+        case 2 :out.texcoord2 = uvOut[2];
+        case 1 :out.texcoord1 = uvOut[1];
+        case 0 :out.texcoord0 = uvOut[0];
+    }
+}
+
+vertex commonprofile_io standard_vert(scn_vertex_t                      in                        [[ stage_in ]],
+                                      constant SCNSceneBuffer&          scn_frame                 [[ buffer(0) ]],
+                                      constant scn_std_node&            scn_node                  [[ buffer(1), function_constant(use_no_instancing) ]],
+                                      
+                                      device scn_std_node*              scn_nodes                 [[ buffer(1), function_constant(use_instancing) ]],
+                                      device SCNLightData*              scn_lights                [[ buffer(2), function_constant(use_per_vertex_lighting) ]],
+                                      constant commonprofile_uniforms&  scn_commonprofile         [[ buffer(3) ]],
+                                      uint                              instanceID                [[ instance_id, function_constant(use_instancing) ]]
+                                      
+#ifdef USE_VERTEX_EXTRA_ARGUMENTS
+                                      __VertexExtraArguments__
+#endif
+                                      )
+{
+    scn_std_node in_node;
+    if (use_instancing) {
+        in_node = scn_nodes[instanceID];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderGeometry _geometry;
+    standard_initalize_geometry(in, _geometry);
+    
+#ifdef USE_GEOMETRY_MODIFIER
+
+__DoGeometryModifier__
+
+#endif
+    
+    
+    SCNShaderSurface _surface;
+    standard_initalize_surface(_surface, _geometry, in_node);
+
+    commonprofile_io out;
+    
+    
+    if (use_per_vertex_lighting) {
+        SCNShaderLightingContribution _lightingContribution;
+        _lightingContribution.diffuse = 0.;
+        _lightingContribution.specular = 0.;
+        _surface.shininess = scn_commonprofile.materialShininess;
+
+        
+        
+
+        out.diffuse = _lightingContribution.diffuse;
+        if (use_specular)
+            out.specular = _lightingContribution.specular;
+    }
+
+    standard_configure_out(scn_commonprofile, _surface, _geometry, out);
+    
+    
+    
+
+    out.fragmentPosition = scn_frame.projectionTransform * float4(_surface.position, 1.f);
+    
+    if (use_point_rendering) 
+        out.fragmentSize = 1.f;
+    return out;
+}
+
+[[ patch(triangle, 3) ]]
+vertex commonprofile_io standard_post_tessellation_vert(scn_patch_t                       in                        [[ stage_in ]],
+                                                        float3                            patchCoord                [[ position_in_patch ]],
+                                                        constant SCNSceneBuffer&          scn_frame                 [[ buffer(0) ]],
+                                                        constant scn_std_node&            scn_node                  [[ buffer(1), function_constant(use_no_instancing) ]],
+                                                        
+                                                        device scn_std_node*              scn_nodes                 [[ buffer(1), function_constant(use_instancing) ]],
+                                                        device SCNLightData*              scn_lights                [[ buffer(2), function_constant(use_per_vertex_lighting) ]],
+                                                        constant commonprofile_uniforms&  scn_commonprofile         [[ buffer(3) ]],
+                                                        
+
+                                                        uint                              instanceID                [[ instance_id, function_constant(use_instancing) ]]
+                                                        
+#ifdef USE_VERTEX_EXTRA_ARGUMENTS
+                                      __VertexExtraArgumentsPostTessellation__
+#endif
+                                      )
+{
+    scn_std_node in_node;
+    if (use_instancing) {
+        in_node = scn_nodes[instanceID];
+    } else {
+        in_node = scn_node;
+    }
+    
+    SCNShaderGeometry _geometry;
+    standard_initalize_geometry_post_tessellation(in, _geometry, patchCoord);
+    
+#ifdef USE_GEOMETRY_MODIFIER
+    
+    __DoGeometryModifierPostTessellation__
+    
+#endif
+    
+    
+    SCNShaderSurface _surface;
+    standard_initalize_surface(_surface, _geometry, in_node);
+    
+    commonprofile_io out;
+    
+    
+    if (use_per_vertex_lighting) {
+        SCNShaderLightingContribution _lightingContribution;
+        _lightingContribution.diffuse = 0.;
+        _lightingContribution.specular = 0.;
+        _surface.shininess = scn_commonprofile.materialShininess;
+        
+        
+        
+        
+        out.diffuse = _lightingContribution.diffuse;
+        if (use_specular)
+            out.specular = _lightingContribution.specular;
+    }
+    
+    standard_configure_out(scn_commonprofile, _surface, _geometry, out);
+    
+    
+    
+    
+    out.fragmentPosition = scn_frame.projectionTransform * float4(_surface.position, 1.f);
+    
+    if (use_point_rendering) 
+        out.fragmentSize = 1.f;
+    return out;
+}
+
+struct SCNOutput
+{
+    float4 color;
+};
+
+
+
+fragment half4 standard_frag(commonprofile_io in [[stage_in]],
+                             constant commonprofile_uniforms& scn_commonprofile [[buffer(0)]],
+                             constant SCNSceneBuffer& scn_frame [[buffer(1)]]
+                             
+                             , device SCNLightData* scn_lights                     [[ buffer(2),  function_constant(use_per_pixel_lighting) ]]
+                             , constant scn_std_node& scn_node                     [[ buffer(3), function_constant(use_no_instancing) ]]
+                             , device scn_std_node* scn_nodes                      [[ buffer(3), function_constant(use_instancing) ]]
+                             , constant float4* u_shadowKernel                     [[ buffer(4) ]] 
+                             , constant sh3_coefficients& scn_shCoefficients       [[ buffer(5), function_constant(use_probes_lighting) ]]
+
+                             , texture2d<float> u_emissionTexture                  [[ texture(0), function_constant(use_emission_map)]]
+                             , sampler          u_emissionTextureSampler           [[ sampler(0), function_constant(use_emission_map)]]
+                             , texture2d<float> u_ambientTexture                   [[ texture(1), function_constant(use_ambient_map)]]
+                             , sampler          u_ambientTextureSampler            [[ sampler(1), function_constant(use_ambient_map)]]
+                             , texture2d<float> u_diffuseTexture                   [[ texture(2), function_constant(use_diffuse_map)]]
+                             , sampler          u_diffuseTextureSampler            [[ sampler(2), function_constant(use_diffuse_map)]]
+                             , texture2d<float> u_specularTexture                  [[ texture(3), function_constant(use_specular_map)]]
+                             , sampler          u_specularTextureSampler           [[ sampler(3), function_constant(use_specular_map)]]
+                             , texture2d<float> u_reflectiveTexture                [[ texture(4), function_constant(use_reflective_map)]]
+                             , sampler          u_reflectiveTextureSampler         [[ sampler(4), function_constant(use_reflective_map)]]
+                             , texturecube<float> u_reflectiveCubeTexture          [[ texture(4), function_constant(use_reflectivecube_map)]]
+                             , sampler            u_reflectiveCubeTextureSampler   [[ sampler(4), function_constant(use_reflectivecube_map)]]
+                             , texture2d<float> u_transparentTexture               [[ texture(5), function_constant(use_transparent_map)]]
+                             , sampler          u_transparentTextureSampler        [[ sampler(5), function_constant(use_transparent_map)]]
+                             , texture2d<float> u_multiplyTexture                  [[ texture(6), function_constant(use_multiply_map)]]
+                             , sampler          u_multiplyTextureSampler           [[ sampler(6), function_constant(use_multiply_map)]]
+                             , texture2d<float> u_normalTexture                    [[ texture(7), function_constant(use_normal_map)]]
+                             , sampler          u_normalTextureSampler             [[ sampler(7), function_constant(use_normal_map)]]
+                             , texture2d<float> u_metalnessTexture                 [[ texture(3), function_constant(use_metalness_map) ]]
+                             , sampler          u_metalnessTextureSampler          [[ sampler(3), function_constant(use_metalness_map) ]]
+                             , texture2d<float> u_roughnessTexture                 [[ texture(4), function_constant(use_roughness_map) ]]
+                             , sampler          u_roughnessTextureSampler          [[ sampler(4), function_constant(use_roughness_map) ]]
+                             , texturecube<float> u_irradianceTexture              [[ texture(8), function_constant(use_pbr) ]]
+                             
+                             , texturecube<float> u_radianceTexture                [[ texture(9), function_constant(use_pbr) ]]
+                             , texture2d<float>   u_specularDFGTexture             [[ texture(10), function_constant(use_pbr) ]]
+                             , texture2d<float> u_ssaoTexture                      [[ texture(11), function_constant(use_ssao) ]]
+
+                             
+                             , depth2d<float> u_shadowTexture0                     [[ texture(12), function_constant(use_shadow0) ]]
+                             , depth2d<float> u_shadowTexture1                     [[ texture(13), function_constant(use_shadow1) ]]
+                             , depth2d<float> u_shadowTexture2                     [[ texture(14), function_constant(use_shadow2) ]]
+                             , depth2d<float> u_shadowTexture3                     [[ texture(15), function_constant(use_shadow3) ]]
+                             
+                             
+                             , texture2d<float> u_goboTexture0                     [[ texture(16), function_constant(use_gobo0) ]]
+                             , texture2d<float> u_goboTexture1                     [[ texture(17), function_constant(use_gobo1) ]]
+                             , texture2d<float> u_goboTexture2                     [[ texture(18), function_constant(use_gobo2) ]]
+                             , texture2d<float> u_goboTexture3                     [[ texture(19), function_constant(use_gobo3) ]]
+
+                             
+                             
+                             
+                             
+                             
+                             , texture2d<float> u_iesTexture0                      [[ texture(16), function_constant(use_ies0) ]]
+                             , texture2d<float> u_iesTexture1                      [[ texture(17), function_constant(use_ies1) ]]
+                             , texture2d<float> u_iesTexture2                      [[ texture(18), function_constant(use_ies2) ]]
+                             , texture2d<float> u_iesTexture3                      [[ texture(19), function_constant(use_ies3) ]]
+
+                             
+                             , texturecube<float> u_iesCubeTexture0                [[ texture(16), function_constant(use_iesCube0) ]]
+                             , texturecube<float> u_iesCubeTexture1                [[ texture(17), function_constant(use_iesCube1) ]]
+                             , texturecube<float> u_iesCubeTexture2                [[ texture(18), function_constant(use_iesCube2) ]]
+                             , texturecube<float> u_iesCubeTexture3                [[ texture(19), function_constant(use_iesCube3) ]]
+                             
+                             , bool isFrontFacing                                  [[ front_facing, function_constant(use_double_sided) ]]
+
+#ifdef USE_FRAGMENT_EXTRA_ARGUMENTS
+__FragmentExtraArguments__
+#endif
+                             )
+{
+    
+    
+    scn_std_node in_node;
+    if (use_instancing) {
+        
+        in_node = scn_nodes[0];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderSurface _surface;
+
+    float2 uv[kSCNTexcoordCount];
+    switch (io_texcoord_count - 1) {
+        case 7 :uv[7] = in.texcoord7;
+        case 6 :uv[6] = in.texcoord6;
+        case 5 :uv[5] = in.texcoord5;
+        case 4 :uv[4] = in.texcoord4;
+        case 3 :uv[3] = in.texcoord3;
+        case 2 :uv[2] = in.texcoord2;
+        case 1 :uv[1] = in.texcoord1;
+        case 0 :uv[0] = in.texcoord0;
+    }
+
+    if (is_function_constant_defined(diffuse_texcoord_io_index))
+        _surface.diffuseTexcoord = uv[diffuse_texcoord_io_index];
+    
+    if (is_function_constant_defined(normal_texcoord_io_index))
+        _surface.normalTexcoord = uv[normal_texcoord_io_index];
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index))
+        _surface.transparentTexcoord = uv[transparent_texcoord_io_index];
+    
+    if (is_function_constant_defined(emission_texcoord_io_index))
+        _surface.emissionTexcoord = uv[emission_texcoord_io_index];
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index))
+        _surface.ambientTexcoord = uv[ambient_texcoord_io_index];
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index))
+        _surface.multiplyTexcoord = uv[multiply_texcoord_io_index];
+    
+    if (is_function_constant_defined(specular_texcoord_io_index))
+        _surface.specularTexcoord = uv[specular_texcoord_io_index];
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index))
+        _surface.roughnessTexcoord = uv[roughness_texcoord_io_index];
+
+    if (is_function_constant_defined(metalness_texcoord_io_index))
+        _surface.metalnessTexcoord = uv[metalness_texcoord_io_index];
+
+    _surface.ambientOcclusion = 1.f; 
+    if (use_ambient_map) {
+        float4 c = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        if (is_function_constant_defined(ambient_texture_component)) {
+            c = c[ambient_texture_component];
+        }
+        
+        if (use_ambient_as_ambientOcclusion) {
+            _surface.ambientOcclusion = c.r;
+            if (use_ambient_intensity)
+                _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        } else {
+            _surface.ambient = c;
+            if (use_ambient_intensity)
+                _surface.ambient *= scn_commonprofile.ambientIntensity;
+        }
+    } else {
+        _surface.ambient = scn_commonprofile.ambientColor;
+    }
+    if (use_ambient && use_io_vertex_color)
+        _surface.ambient *= in.vertexColor;
+    if (use_ssao)
+        _surface.ambientOcclusion *= u_ssaoTexture.sample( linearSampler, in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+    
+    if (use_diffuse_map) {
+        _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+        if (is_function_constant_defined(diffuse_texture_component))
+            _surface.diffuse = _surface.diffuse[diffuse_texture_component];
+        if (use_diffuse_intensity)
+            _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+    } else {
+        _surface.diffuse = scn_commonprofile.diffuseColor;
+    }
+    if (use_diffuse && use_io_vertex_color) {
+        _surface.diffuse *= in.vertexColor;
+    }
+    
+    if (use_specular_map) {
+        _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+        if (is_function_constant_defined(specular_texture_component))
+            _surface.specular = _surface.specular[specular_texture_component];
+        if (use_specular_intensity)
+            _surface.specular *= scn_commonprofile.specularIntensity;
+    } else {
+        _surface.specular = scn_commonprofile.specularColor;
+    }
+
+    if (use_emission_map) {
+        _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+        if (is_function_constant_defined(emission_texture_component))
+            _surface.emission = float4(_surface.emission[emission_texture_component]);
+        if (use_emission_intensity)
+            _surface.emission *= scn_commonprofile.emissionIntensity;
+    } else {
+        _surface.emission = scn_commonprofile.emissionColor;
+    }
+
+    if (use_multiply_map) {
+        _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+        if (is_function_constant_defined(multiply_texture_component))
+            _surface.multiply = float4(_surface.multiply[multiply_texture_component]);
+        if (use_multiply_intensity)
+            _surface.multiply = mix(float4(1.f), _surface.multiply, scn_commonprofile.multiplyIntensity);
+    } else {
+        _surface.multiply = scn_commonprofile.multiplyColor;
+    }
+    
+    if (use_transparent_map) {
+        _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+        if (is_function_constant_defined(transparent_texture_component))
+            _surface.transparent = float4(_surface.transparent[transparent_texture_component]);
+        if (use_transparent_intensity)
+            _surface.transparent *= scn_commonprofile.transparentIntensity;
+    } else {
+        _surface.transparent = scn_commonprofile.transparentColor;
+    }
+
+    if (use_metalness_map) {
+        float4 c = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord);
+        if (is_function_constant_defined(metalness_texture_component))
+            _surface.metalness = c[metalness_texture_component];
+        else 
+            _surface.metalness = c.r;
+        if (use_metalness_intensity)
+            _surface.metalness *= scn_commonprofile.metalnessIntensity;
+    } else {
+        _surface.metalness = scn_commonprofile.metalness;
+    }
+    
+    if (use_roughness_map) {
+        float4 c = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+        if (is_function_constant_defined(roughness_texture_component))
+            _surface.roughness = c[roughness_texture_component];
+        else 
+            _surface.roughness = c.r;
+        if (use_roughness_intensity)
+            _surface.roughness *= scn_commonprofile.roughnessIntensity;
+    } else {
+        _surface.roughness = scn_commonprofile.roughness;
+    }
+    
+    
+    if (use_io_normal) {
+        if (use_double_sided)
+            _surface.geometryNormal = normalize(in.normal.xyz) * (in.normal.z >= 0.f ? 1.f :-1.f );
+        else
+            _surface.geometryNormal = normalize(in.normal.xyz);
+        _surface.normal = _surface.geometryNormal;
+    }
+    if (need_tangent) {
+        _surface.tangent = in.tangent;
+        _surface.bitangent = in.bitangent;
+    }
+    if (use_io_position)
+        _surface.position = in.position;
+    if (use_io_view)
+        _surface.view = normalize(-in.position);
+
+    if (use_normal_map) {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        if (is_function_constant_defined(normal_texture_component)) { 
+            _surface._normalTS.xy = _surface._normalTS.xy * 2.f - 1.f;
+            _surface._normalTS.z = sqrt(1 - length_squared(_surface._normalTS.xy));
+        } else {
+            _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+        }
+        if (use_normal_intensity)
+            _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+        
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+    } else {
+        _surface._normalTS = float3(0.f);
+    }
+    
+    if (use_reflective_map) {
+        
+        float3 refl = reflect( -_surface.view, _surface.normal );
+        float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + scn::sq(refl.z + 1.f));
+        _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else if (use_reflectivecube_map) {
+    
+        float3 refl = reflect( _surface.position, _surface.normal );
+        _surface.reflective = u_reflectiveCubeTexture.sample(u_reflectiveCubeTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else {
+        _surface.reflective = scn_commonprofile.reflectiveColor;
+    }
+    
+    if (use_fresnel) {
+        _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
+- (void)CH
+attribute vec4 a_texCoord2; 
+uniform float u_stretchFactor;
+#elif defined(ENABLE_ORIENTATION_FREE)
+attribute vec4 a_texCoord2; 
+
+mat3 axisangle_to_matrix(vec4 axis_angle)
+{
+	float c = cos(axis_angle.w);
+    float s = sin(axis_angle.w);
+    float t = 1. - c;
+    
+    mat3 m;
+    m[0][0] = c + axis_angle.x * axis_angle.x * t;
+    m[1][1] = c + axis_angle.y * axis_angle.y * t;
+    m[2][2] = c + axis_angle.z * axis_angle.z * t;
+    
+	float tmp1 = axis_angle.x * axis_angle.y * t;
+    float tmp2 = axis_angle.z * s;
+    m[1][0] = tmp1 + tmp2;
+    m[0][1] = tmp1 - tmp2;
+    
+    tmp1 = axis_angle.x * axis_angle.z * t;
+    tmp2 = axis_angle.y * s;
+    m[2][0] = tmp1 - tmp2;
+    m[0][2] = tmp1 + tmp2;
+    
+    tmp1 = axis_angle.y*axis_angle.z*t;
+    tmp2 = axis_angle.x*s;
+    m[2][1] = tmp1 + tmp2;
+    m[1][2] = tmp1 - tmp2;
+    return m;
+}
+
+#endif
+
+#ifdef ENABLE_FOG
+uniform mediump vec4 u_fogColor;
+uniform vec3 u_fogParameters; 
+#endif
+
+#ifdef ENABLE_SOFT
+varying float v_eyeLinearZ;
+#endif
+
+#ifdef ENABLE_CUBE_MAP
+uniform mat4 u_viewToCubeWorld;
+varying vec4 v_normal;
+#endif
+
+#ifdef ENABLE_ANIMATION
+
+#define REPEAT 0
+#define CLAMP 1
+#define AUTOREVERSE  2
+
+uniform vec4 u_frameSize; 
+
+
+float __modf(float value, out float intValue)
+{
+	float fracValue = fract(value);
+	intValue = value - fracValue;
+	return fracValue;
+}
+
+vec4 ComputeUVS(vec2 iNormUV, float iFrame)
+{
+	vec4 outUV;
+
+#if ENABLE_ANIMATION == CLAMP
+    
+    iFrame = clamp(iFrame, 0., u_frameSize.w - 1.); 
+    
+    float intFrame;
+    float frameFrac = __modf(iFrame, intFrame);
+    vec2 frame;
+    frame.x = __modf(intFrame * u_frameSize.x, frame.y);
+    frame.y *= u_frameSize.y;
+    
+    outUV.xy = frame + iNormUV * u_frameSize.xy;
+    outUV.w = frameFrac;
+    outUV.z = ((frame.x + u_frameSize.x) == 1.)?1.:(id)arg1 0.; 
+#elif ENABLE_ANIMATION == REPEAT
+    
+    float tmp = iFrame * u_frameSize.x;
+    
+    vec2 frame;
+    frame.y = tmp - fract(tmp);
+    frame.x = fract(tmp) * u_frameSize.z;
+    
+    float frameFrac = fract(frame.x);
+    frame.x -= frameFrac;
+    
+    outUV.xy = (frame + iNormUV) * u_frameSize.xy;
+    outUV.w = frameFrac;
+    outUV.z = (frame.x == (u_frameSize.z - 1.))?1.:0.; 
+#else 
+    
+    float invFrameCount = u_frameSize.x * u_frameSize.y;
+    float normFrame = iFrame * invFrameCount;
+    float lastFrame = u_frameSize.w - 1.;
+    float frameIndex = fract(normFrame) * u_frameSize.w;
+    if (fract(normFrame * 0.5) > 0.5) {
+        frameIndex = (lastFrame-frameIndex);
+    }
+
+    frameIndex = clamp(frameIndex, 0., lastFrame); 
+    
+    float tmp = frameIndex * u_frameSize.x;
+    
+    vec2 frame;
+    frame.y = tmp - fract(tmp);
+    
+    frame.x = fract(tmp) * u_frameSize.z;
+    
+    float frameFrac = fract(frame.x);
+    frame.x -= frameFrac;
+    
+    outUV.xy = (frame + iNormUV) * u_frameSize.xy;
+    
+    outUV.w = frameFrac;
+    outUV.z = (frame.x == (u_frameSize.z - 1.))?1.:0.; 
+#endif
+	return outUV;
+}
+
+#endif
+
+
+uniform mat4 viewTransform; 
+uniform mat4 u_projectionTransform;
+
+#ifdef ENABLE_LIGHTING
+
+uniform vec3 u_lightPosition0; 
+uniform vec4 u_lightColor0;
+#endif
+
+#ifdef ENABLE_COLOR_RAMP
+uniform sampler2D u_colorRamp;
+#endif
+
+
+#ifdef ENABLE_ANIMATION
+varying vec3 v_uv0;
+varying vec2 v_uv1;
+#else
+varying vec2 v_uv0;
+#endif
+
+varying vec4 v_vertexColor;
+
+void main()
+{
+    
+    vec4 viewPos = viewTransform * vec4(a_position.xyz, 1);
+
+#ifdef ENABLE_STRETCH
+    
+    vec4 viewDir = viewTransform * vec4(a_texCoord2.xyz, 0);
+    viewDir *= u_stretchFactor;
+    
+    
+    viewPos.xyz += (a_texCoord1.y > 0.) ? viewDir.xyz :vec3(0.);
+    
+    
+
+
+    vec2 u = normalize(viewDir.xy); 
+    vec2 r = vec2(-u.y, u.x);
+    vec2 off = r * a_texCoord1.x + u * a_texCoord1.y ; 
+    viewPos.xy += off * a_texCoord0.y; 
+
+    vec3 N = normalize(vec3(-off.x, -off.y, -2));
+    
+#else 
+    
+    
+    float sn = sin(a_position.w);
+    float cs = cos(a_position.w);
+
+    
+    vec2 dir = vec2( a_texCoord1.x * cs - a_texCoord1.y * sn,  a_texCoord1.y * cs + a_texCoord1.x * sn);
+    dir *= a_texCoord0.y;
+
+#ifdef ENABLE_ORIENTATION_FREE
+    
+    
+    mat3 vt = mat3(viewTransform[0].xyz, viewTransform[1].xyz, viewTransform[2].xyz);
+    mat3 mat = vt * axisangle_to_matrix(a_texCoord2); 
+    
+#ifdef ENABLE_CUBE_MAP
+    vec3 N = mat[0] * dir.x + mat[1] * dir.y + mat[2];
+    viewPos.xy += dir;
+#else
+    vec3 off = mat[0] * dir.x + mat[1] * dir.y;
+    viewPos.xyz += off;
+#endif
+
+    
+    
+#elif defined(ENABLE_BILLBOARD_VIEW)
+    vec3 u = vec3(0,1,0);
+    vec3 r = normalize(cross(u, -viewPos.xyz));
+    vec3 off = dir.x * r + dir.y * u;
+    viewPos.xyz += off;
+    vec3 N = normalize(vec3(-off.x/a_texCoord0.y, -off.y/a_texCoord0.y, -2));
+
+#elif defined(ENABLE_BILLBOARD_Y)
+    vec3 u = (viewTransform * vec4(0, 1, 0, 0)).xyz;
+    vec3 r = normalize(cross(u, vec3(0,0,1))); 
+
+    vec3 off = dir.x * r + dir.y * u;
+    viewPos.xyz += off;
+    vec3 N = normalize(vec3(-off.x/a_texCoord0.y, -off.y/a_texCoord0.y, -2));
+    
+#else 
+    viewPos.xy += dir;
+    vec3 N = normalize(vec3(-dir.x, -dir.y, -2));
+    
+#endif 
+
+#endif 
+
+#ifdef ENABLE_CUBE_MAP
+#ifdef ENABLE_ORIENTATION_FREE
+    v_normal.xyz = N;
+#else
+    vec3 refl = reflect( viewPos.xyz, N );
+    v_normal.xyz = mat3(u_viewToCubeWorld) * refl;
+#endif 
+#endif
+
+#ifdef ENABLE_COLOR_RAMP
+    v_vertexColor = a_color * texture2D(u_colorRamp, a_texCoord0.xx);
+#else 
+    v_vertexColor = a_color;
+#endif
+    
+#ifndef ENABLE_BLACKPASS
+#ifdef ENABLE_LIGHTING
+    vec3 L = normalize(viewPos.xyz - u_lightPosition0);
+
+#if defined(ENABLE_ORIENTATION_FREE) && !defined(ENABLE_CUBE_MAP)
+    
+    
+
+    vec3 N = sign(dot(mat[2], viewPos.xyz)) * mat[2];
+
+    
+    float NdotL = dot(N, L);
+
+    vec3 diff = u_lightColor0.rgb * (max(0.0, NdotL) + 0.3 * (1. - abs(NdotL)));
+
+    
+    float _shininess = 100.0;
+    vec3 halfVector = normalize(L + viewPos.xyz);
+    float spec = max(0.0, pow(max(0.0, dot(N, halfVector)), _shininess));
+    v_vertexColor.rgb *= diff;
+    v_vertexColor.rgb += spec;
+#else
+    
+    vec3 diff = vec3(max(0.0, dot(N, L))) * u_lightColor0.rgb;
+
+    
+    
+
+    
+    
+    
+    v_vertexColor.rgb *= diff;
+#endif 
+#endif 
+#endif 
+
+    
+#ifdef ENABLE_ANIMATION
+    vec4 animUVS = ComputeUVS(a_texCoord1.xy * vec2(0.5, -0.5) + 0.5, a_texCoord0.z);
+    v_uv0 = animUVS.xyw;
+    v_uv1 = animUVS.xy + u_frameSize.xy * vec2(1.0, animUVS.z);
+#else
+    v_uv0 = a_texCoord1.xy * vec2(0.5, -0.5) + 0.5;
+#endif
+    
+#ifndef ENABLE_BLACKPASS
+    #ifdef ENABLE_FOG
+        float fogFactor = pow(clamp(viewPos.z * u_fogParameters.x + u_fogParameters.y, 0.0, u_fogColor.a), u_fogParameters.z);
+        #ifdef ENABLE_CUBE_MAP
+            v_normal.a = fogFactor;
+        #else
+            
+            v_vertexColor.rgb = mix(v_vertexColor.rgb, u_fogColor.rgb * v_vertexColor.a, fogFactor);
+        #endif 
+    #endif 
+#endif 
+
+#ifdef ENABLE_SOFT
+    v_eyeLinearZ = viewPos.z;
+#endif
+    
+    gl_Position = u_projectionTransform * viewPos;
+}
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -445,23 +1369,23 @@
 - (id);
 - (void);
 - (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (struct CGPoint);
-- (void);
+- (void)x";
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)7;
+- (_Bool)Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
 - (_Bool)CùQä°1Â0@ù
 × ;
 - (id)qäÐ1Â0@ù
@@ -471,99 +1395,13 @@
 - (id)ct=}16^{__CFSet=}24^B32;
 - (void)STextAttachmentCell>"24{CGRect={CGPoint=dd}{CGSize=dd}}32@"NSEvent"64Q72;
 - (void)eCoding><NSObject>"16;
-- (id)otation;
-- (long long)figuration: /* Error: Ran out of types for this method. */;
+- (id)isSyncingFromAKAnnotation;
+- (long long)scanString:range:configuration: /* Error: Ran out of types for this method. */;
 - (_Bool)-0-|;
 - (unsigned long long)òÿFq0;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL;
-@property(retain, nonatomic) PDFAction *action;
-@property(readonly, getter=isActivatableTextField) _Bool activatableTextField;
-@property(nonatomic) long long alignment;
-@property(nonatomic) _Bool allowsToggleToOff;
-@property(readonly, copy, nonatomic) NSDictionary *annotationKeyValues;
-@property _Bool autofillNewContextStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property(copy, nonatomic) NSColor *backgroundColor;
-@property(retain, nonatomic) PDFBorder *border;
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic) long long buttonWidgetState;
-@property(copy, nonatomic) NSString *buttonWidgetStateString;
-@property(copy, nonatomic) NSString *caption;
-@property(copy, nonatomic) NSArray *choices;
-@property(copy, nonatomic) NSColor *color;
-@property(nonatomic, getter=hasComb) _Bool comb;
-@property(copy, nonatomic) NSString *contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PDFDestination *destination;
-@property(nonatomic) long long endLineStyle;
-@property(nonatomic) struct CGPoint endPoint;
-@property(copy, nonatomic) NSString *fieldName;
-@property(readonly) unsigned long long fieldSource;
-@property(readonly) unsigned long long fieldType;
-@property(readonly, copy) NSString *fieldValue;
 @property(copy, nonatomic) NSFont *font;
-@property(copy, nonatomic) NSColor *fontColor;
-@property(readonly, nonatomic) _Bool hasAppearanceStream;
-@property(readonly) _Bool hasBoundedHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool hasBoundedWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(nonatomic) long long iconType;
-@property(copy, nonatomic) NSColor *interiorColor;
-@property(readonly, nonatomic) _Bool isPasswordField;
-@property(readonly) unsigned long long layoutDirection;
-@property(nonatomic, getter=isListChoice) _Bool listChoice;
-@property(nonatomic) long long markupType;
-@property(readonly) unsigned long long maxCharacterCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(nonatomic) long long maximumLength;
-@property(copy, nonatomic) NSDate *modificationDate;
-@property(nonatomic, getter=isMultiline) _Bool multiline;
-@property(nonatomic, getter=isOpen) _Bool open;
-@property(nonatomic) __weak PDFPage *page;
-@property(readonly, nonatomic) NSArray *paths;
-@property(retain, nonatomic) PDFAnnotation *popup;
-@property(copy, nonatomic) NSArray *quadrilateralPoints;
-@property(nonatomic) _Bool radiosInUnison;
-@property(nonatomic, getter=isReadOnly) _Bool readOnly;
-@property(nonatomic) _Bool shouldDisplay; // @dynamic shouldDisplay;
-@property(nonatomic) _Bool shouldPrint; // @dynamic shouldPrint;
-@property(copy, nonatomic) NSString *stampName;
-@property(nonatomic) long long startLineStyle;
-@property(nonatomic) struct CGPoint startPoint;
-@property double suggestedLineHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?
-
-@property(readonly) Class superclass;
-@property unsigned long long textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSString *userName;
-@property(copy, nonatomic) NSArray *values;
-@property(nonatomic) long long widgetControlType;
-@property(copy, nonatomic) NSString *widgetDefaultStringValue;
-@property(copy, nonatomic) NSString *widgetFieldType;
-@property(copy, nonatomic) NSString *widgetStringValue;
 
 @end
 

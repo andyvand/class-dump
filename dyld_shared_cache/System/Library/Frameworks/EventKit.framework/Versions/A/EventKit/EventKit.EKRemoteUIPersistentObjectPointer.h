@@ -9,11 +9,10 @@
 @interface EventKit.EKRemoteUIPersistentObjectPointer
 {
     EKObjectID *objectID;
-    _Bool isPendingInsert;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)inspectorStartsAttached;
+- (_Bool)erPathRef, _Bool));
 - (id);
 - (id);
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isPendingInsert; // @synthesize isPendingInsert;
 @property(nonatomic, readonly) EKObjectID *objectID; // @synthesize objectID;
 
 @end

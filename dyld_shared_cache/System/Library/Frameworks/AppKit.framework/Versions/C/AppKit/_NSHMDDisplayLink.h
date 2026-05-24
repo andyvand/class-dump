@@ -6,15 +6,10 @@
 
 #import <AppKit/NSHMDDisplayLink.h>
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _NSHMDDisplayLink : NSHMDDisplayLink
 {
     CDUnknownBlockType _displayTimingBlock;
-    NSObject<OS_dispatch_source> *_timer;
-    _Atomic unsigned long long _suspensions;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)rangementKeysPaths;
+- (void)_updateAutomaticRearrangementKeysPaths;
 
 @end
 

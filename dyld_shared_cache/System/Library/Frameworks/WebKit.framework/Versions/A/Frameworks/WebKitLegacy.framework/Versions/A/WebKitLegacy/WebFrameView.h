@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, WebFrame, WebFrameViewPrivate;
-@protocol WebDocumentView;
+@class WebFrame, WebFrameViewPrivate;
 
 @interface WebFrameView
 {
@@ -21,39 +20,39 @@
 - (_Bool);
 - (id);
 - (NakedPtr_9be60511);
+- (id)Q;
+- (Class);
+- (float)";
+- (void)a;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)6x;
+- (id);
+- (id)[;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (float);
+- (float);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (Class);
 - (float);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (float);
-- (float);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (Class);
-- (float);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -65,7 +64,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h rating value:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -76,15 +75,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ollmentDaemon fetchBetaEnrollmentTokens:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)ithCapacity: /* Error: Ran out of types for this method. */;
+- (id)arrayWithCapacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsScrolling;
-@property(readonly, nonatomic) _Bool canPrintHeadersAndFooters;
-@property(readonly, nonatomic) NSView<WebDocumentView> *documentView;
-@property(readonly, nonatomic) _Bool documentViewShouldHandlePrint;
 @property(readonly, nonatomic) WebFrame *webFrame;
 
 @end

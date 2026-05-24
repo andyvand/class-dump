@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface PDFAppearanceCharacteristicsPrivate
 {
     NSColor *backgroundColor;
-    NSColor *borderColor;
-    long long rotation;
-    long long controlType;
-    NSString *caption;
-    NSString *rolloverCaption;
-    NSString *downCaption;
-    struct CGPDFForm *icon;
-    int scaleCircumstance;
-    _Bool scaleProportional;
 }
 
 - (void);

@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (void)orkspaces/photoanalysis/PhotosGraph/Framework/Suggestions/Suggesters/CameraStyleable/PGMeCameraStyleableSuggester.m;
-- (id)PhotosHighlightEnrichmentProcessor;
+- (id)PGGraphPhotosHighlightEnrichmentProcessor;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PGEventEnrichment> collection; // @synthesize collection=_collection;

@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSMutableArray, NSMutableDictionary, NSObject, NSString, VCCellularAudioTap;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioPowerSpectrumManager
 {
     NSMutableArray *_meters;
-    NSMutableDictionary *_sources;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSMutableDictionary *_cellularTapTypeToStreamTokenMap;
-    NSMutableDictionary *_powerSpectrumMetersForCellularTapType;
-    VCCellularAudioTap *_cellularAudioTap;
 }
 
-+ (id)hRedPayload;
++ (id)VCAudioRedBuilder_UpdateAudioPacketWithRedPayload;
+- (void);
 - (void);
-- (void);
+- (id);
+- (id)ĉR	k;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)k;
 - (id);
 - (void);
 - (id);
@@ -35,27 +28,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)Q?;
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)imeOffset: /* Error: Ran out of types for this method. */;
+- (id)ne invitation;
+- (void)setSynchronizationTimeOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableArray *meters; // @synthesize meters=_meters;
-@property(readonly, nonatomic) NSMutableDictionary *sources; // @synthesize sources=_sources;
-@property(readonly) Class superclass;
 
 @end
 

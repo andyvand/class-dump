@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LASmartCardIdentifier, LASmartCardOneTimePassword;
+@class LASmartCardOneTimePassword;
 
 @interface LASmartCardCredential
 {
     LASmartCardOneTimePassword *oneTimePassword;
-    LASmartCardIdentifier *identifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)`;
+- (id)Q;
+- (id)getAirplaneModeWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) LASmartCardIdentifier *identifier; // @synthesize identifier;
 @property(nonatomic, readonly) LASmartCardOneTimePassword *oneTimePassword; // @synthesize oneTimePassword;
 
 @end

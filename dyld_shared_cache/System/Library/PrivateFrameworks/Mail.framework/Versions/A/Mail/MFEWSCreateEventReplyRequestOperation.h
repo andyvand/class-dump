@@ -6,34 +6,27 @@
 
 #import <Mail/MFEWSCreateItemRequestOperation.h>
 
-@class MFEWSCreateEventReplyResponseOperation, MFEWSGetItemsResponseOperation, NSString;
-
 @interface MFEWSCreateEventReplyRequestOperation : MFEWSCreateItemRequestOperation
 {
     BOOL _messageResponseType;
-    NSString *_messageMeetingItemIdString;
-    MFEWSGetItemsResponseOperation *_getItemsResponse;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)j;
 - (BOOL);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)9;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSGetItemsResponseOperation *getItemsResponse; // @synthesize getItemsResponse=_getItemsResponse;
-@property(readonly, copy, nonatomic) NSString *messageMeetingItemIdString; // @synthesize messageMeetingItemIdString=_messageMeetingItemIdString;
 @property(readonly, nonatomic) BOOL messageResponseType; // @synthesize messageResponseType=_messageResponseType;
-@property(retain, nonatomic) MFEWSCreateEventReplyResponseOperation *responseOperation;
 
 @end
 

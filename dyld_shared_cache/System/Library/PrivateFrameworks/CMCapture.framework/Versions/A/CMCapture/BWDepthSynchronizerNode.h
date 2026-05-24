@@ -6,48 +6,27 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWNodeError, BWNodeInput, NSMutableArray;
+@class BWNodeInput;
 
 @interface BWDepthSynchronizerNode : BWNode
 {
     int _numEODMessagesReceived;
-    _Atomic _Bool _depthInputHasReceivedEOD;
-    NSMutableArray *_imageBufferQueue;
-    NSMutableArray *_depthBufferQueue;
-    int _maxQueueDepth;
-    int _lastEmittedFrameCaptureID;
-    int _lastReceivedImageID;
-    int _lastReceivedDepthID;
-    unsigned long long _lastReceivedDepthErrorSettingsID;
-    int _imageIDWrapAroundCounter;
-    int _depthIDWrapAroundCounter;
-    _Bool _discardsDegradedDepthBuffers;
-    _Bool _separateDepthComponentsEnabled;
-    BWNodeInput *_imageInput;
-    BWNodeInput *_depthInput;
-    _Bool _streaming;
-    _Bool _flushOnDepthEOD;
-    BWNodeError *_errorForImageInput;
-    BWNodeError *_errorForDepthInput;
-    struct os_unfair_lock_s _bufferServicingLock;
-    CDStruct_1b6d18a9 _lastReceivedImagePTS;
-    CDStruct_1b6d18a9 _lastReceivedDepthPTS;
 }
 
 + (void)de.appClipCodeOutput toInput:appClipCodeNode.input pipelineStage:pipelineStage] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)StabilityOnlyWhenWideIsMaster;
+- (_Bool);
+- (void);
+- (void)target CNContact is missing required keys;
+- (void);
+- (id)($A�;
+- (void)_increaseSlaveFrameRateWhenWaitingForExposureFocusStabilityOnlyWhenWideIsMaster;
 - (id)ize audio unit (%d);
 - (void)w#ÿÿ$ÿÿ$ÿÿ%ÿÿ&ÿÿ&ÿÿ¤'ÿÿ¬(ÿÿ³)ÿÿ»*ÿÿÄ+ÿÿË,ÿÿÓ-ÿÿÚ.ÿÿã/ÿÿ;
 - (void)_.Xÿf.Zÿm.[ÿt/\ÿ|/^ÿ0_ÿ0`ÿ1aÿ2aÿ¡3bÿ¨3cÿ°4dÿ·5eÿ¿6fÿÇ7fÿÎ9gÿÕ:(id)arg1 hÿÝ;hÿ4Sÿ4Qÿ	4Oÿ4Mÿ4Jÿ!4Gÿ*4Dÿ14Cÿ75Hÿ>5LÿD5OÿK5RÿQ5TÿX6Vÿ`6Wÿg6Yÿn7Zÿu7\ÿ}7]ÿ8^ÿ8_ÿ9aÿ:(id)arg2 bÿ¢:cÿ©;dÿ°<dÿ·=eÿÀ>fÿÇ?gÿÎ@hÿÕAiÿÝBjÿ=Xÿ=Vÿ=Tÿ=Rÿ=Pÿ=Nÿ'=Kÿ0<Gÿ<<=ÿ?=IÿE=MÿL=PÿR=RÿY>Tÿa>Wÿh>Xÿo?Zÿv?[ÿ~?]ÿ@^ÿ@_ÿA`ÿAbÿ¢BcÿªCdÿ±Deÿ¸DfÿÀEgÿÇFhÿÏGiÿÖHjÿÞIkÿF[ÿFYÿFXÿFVÿFTÿFQÿ'FNÿ0FKÿ9FHÿAFHÿGFKÿMFOÿTGQÿZGSÿbGVÿiGXÿpHYÿwH[ÿI\ÿI^ÿI_ÿJ`ÿJbÿ£KcÿªLdÿ±Leÿ¹MfÿÁNgÿÈOhÿÏPiÿÖQjÿÞRlÿNZÿNYÿNWÿNVÿNTÿ!NRÿ)NOÿ1NMÿ9NKÿANKÿHNLÿNNNÿTOQÿ[OSÿcOUÿjPWÿqPYÿwPZÿQ\ÿQ^ÿQ_ÿR`ÿRbÿ¤Scÿ«Tdÿ²Tfÿ¹UgÿÁVhÿÉWiÿÐWjÿ×XkÿßYlÿVYÿVXÿVWÿVUÿVTÿ#VRÿ+VQÿ2VOÿ:VNÿBVMÿIVNÿOVOÿUWQÿ\WSÿdWUÿjXWÿqXYÿxXZÿY\ÿY^ÿZ_ÿZ`ÿ[bÿ¥[cÿ¬\eÿ³\fÿº]gÿÂ^hÿÉ^jÿÐ_kÿ×`lÿßamÿ^Xÿ^Wÿ^Vÿ^Uÿ^Tÿ&^Sÿ-^Rÿ4^Qÿ;^PÿC^OÿJ^PÿP^PÿV_Rÿ]_Sÿd`Uÿk`Wÿr`YÿyaZÿa\ÿa^ÿb_ÿbaÿcbÿ¥cdÿ¬deÿ´dfÿ»egÿÃfiÿÊfjÿÑgkÿØhlÿàinÿfWÿfWÿfVÿfUÿ#fUÿ)fTÿ0fSÿ6fRÿ=fQÿDfQÿKfQÿQfRÿXgSÿ^gTÿehVÿlhWÿshYÿzi[ÿi\ÿi^ÿj_ÿjaÿkbÿ¦kdÿ­leÿ´lfÿ»mhÿÃniÿËnkÿÒolÿÙpmÿápnÿoWÿoWÿoVÿ"oVÿ'oUÿ-oUÿ2oTÿ9oSÿ?oSÿFoSÿMoSÿSpTÿYpTÿ`pUÿgqWÿmqXÿtqZÿ{r[ÿr]ÿs^ÿs`ÿsaÿtcÿ§tdÿ®ufÿµugÿ¼vhÿÄwjÿËwkÿÒxlÿÚxnÿáyoÿwWÿ!wWÿ#wWÿ&wVÿ+wVÿ0wUÿ5wUÿ;wUÿAwTÿHxTÿNxUÿUxUÿ[xVÿaxWÿhyXÿoyYÿuy[ÿ|z\ÿz]ÿ{_ÿ{`ÿ|bÿ |cÿ¨}eÿ¯}fÿ¶}gÿ½~iÿÅjÿÌlÿÓmÿÚnÿâpÿ#Xÿ%Wÿ(Wÿ+Wÿ.Wÿ3Vÿ8Vÿ>VÿCVÿJVÿPVÿVWÿ]WÿcXÿjYÿpZÿw\ÿ}]ÿ^ÿ`ÿaÿbÿ¡dÿ©eÿ°gÿ·hÿ¾iÿÆkÿÍlÿÔmÿÛoÿãpÿ(Xÿ*Xÿ,Xÿ/Xÿ2Wÿ7Wÿ;Wÿ@WÿFWÿLWÿRWÿXXÿ^YÿeYÿlZÿr[ÿx]ÿ^ÿ_ÿ`ÿbÿcÿ¡dÿ©fÿ°gÿ¸iÿ¿jÿÇkÿÎmÿÕnÿÜoÿäqÿ-Yÿ/Yÿ1Yÿ3Yÿ6Xÿ;Xÿ?XÿDXÿIXÿOYÿUYÿ[YÿaZÿg[ÿn\ÿt]ÿz^ÿ_ÿ`ÿbÿcÿdÿ£eÿªgÿ±hÿ¸iÿÀkÿÇlÿÏmÿÖoÿÝpÿärÿ2Zÿ4Zÿ5Zÿ7Yÿ:Yÿ>YÿBYÿGYÿLZÿRZÿWZÿ][ÿc[ÿi\ÿo]ÿv^ÿ|_ÿ`ÿaÿcÿdÿeÿ¤fÿ«hÿ²iÿ¹jÿÀkÿÈ mÿÏ nÿÖ¡oÿÝ¡qÿå¢rÿ7¡Zÿ8¡Zÿ9¡Zÿ<¡Zÿ>¡ZÿB¡ZÿF¡ZÿJ¡[ÿO¡[ÿT¢[ÿZ¢[ÿ_¢\ÿe¢]ÿk¢]ÿr¢^ÿx£_ÿ~£`ÿ£aÿ¤cÿ¤dÿ¥eÿ¥fÿ¥¥gÿ¬¦iÿ³¦jÿº§kÿÁ§lÿÉ¨nÿÐ¨oÿ×©pÿÞ©qÿæ©sÿ;©[ÿ<©[ÿ>©[ÿ@©[ÿB©[ÿF©[ÿIª\ÿMª\ÿRª\ÿWª\ÿ\ª]ÿbª]ÿgª^ÿmª^ÿt«_ÿz«`ÿ«aÿ«bÿ¬dÿ¬eÿ­fÿ ­gÿ¦®hÿ®®jÿ´®kÿ»¯lÿÂ¯mÿÊ°nÿÑ°pÿØ±qÿß±rÿç±tÿ@±\ÿA²\ÿB²\ÿD²\ÿF²\ÿJ²]ÿM²]ÿQ²]ÿU²]ÿZ²^ÿ_²^ÿe²^ÿj²_ÿp³`ÿv³aÿ|³bÿ³bÿ´dÿ´eÿ´fÿµgÿ¡µhÿ¨¶iÿ¯¶kÿ¶¶lÿ¼·mÿÃ·nÿË¸oÿÒ¸qÿÙ¸rÿà¹sÿç¹tÿE»]ÿF»^ÿG»^ÿI»^ÿK»^ÿN»^ÿQ»^ÿU»^ÿY»_ÿ^»_ÿc»_ÿh»`ÿm¼`ÿr¼aÿy¼bÿ~¼cÿ¼dÿ½eÿ½fÿ½gÿ¾hÿ£¾iÿª¿kÿ±¿lÿ·¿mÿ¾ÀnÿÅÀoÿÌÁpÿÓÁrÿÚÁsÿáÂtÿèÂuÿIÃ_ÿJÃ_ÿKÃ_ÿMÃ_ÿOÃ_ÿRÃ_ÿUÃ_ÿXÃ_ÿ\Ã`ÿaÃ`ÿfÃaÿkÄaÿpÄbÿuÄbÿ{ÄcÿÄdÿÅeÿÅfÿÅgÿÅhÿÆiÿ¥Æjÿ«Ælÿ²Çmÿ¹Çnÿ¿ÈoÿÆÈpÿÍÉqÿÔÉrÿÛÉtÿâÊuÿéÊvÿNË`ÿOË`ÿPË`ÿQË`ÿSË`ÿVË`ÿYË`ÿ\Ëaÿ`ËaÿdÌaÿiÌbÿnÌbÿsÌcÿxÌdÿ~ÌdÿÌeÿÍfÿÍgÿÍhÿÍiÿ¡Îjÿ§Îkÿ­Îmÿ´ÏnÿºÏoÿÁÐpÿÇÐqÿÎÐrÿÕÑsÿÜÑtÿâÑuÿêÒwÿRÓaÿSÓaÿTÓaÿVÓaÿWÓaÿZÓaÿ]Óbÿ`ÓbÿcÔbÿhÔcÿlÔcÿqÔdÿuÔdÿzÔeÿÔfÿÕfÿÕgÿÕhÿÕiÿÖjÿ£Ökÿ©Ömÿ¯Önÿ¶×oÿ¼×pÿÂ×qÿÉØrÿÐØsÿÖÙtÿÝÙuÿäÙvÿëÙwÿXÜbÿXÜbÿYÜbÿ[Übÿ\Ücÿ_ÜcÿaÜcÿdÝcÿhÝdÿlÝdÿpÝdÿtÝeÿyÝfÿ~ÝfÿÝgÿÞhÿÞiÿÞiÿÞkÿßlÿ¥ßmÿ«ßnÿ±ßoÿ¸àpÿ¾àqÿÄàrÿÊásÿÑátÿØáuÿÞâvÿåâwÿíâxÿ\ädÿ]ädÿ^ädÿ_ädÿaädÿcädÿeädÿhåeÿkåeÿoåeÿsåfÿxåfÿ|ågÿågÿåhÿæiÿæjÿækÿælÿ¢çmÿ§çnÿ­çoÿ³çpÿºèqÿÀèrÿÆèsÿÌètÿÓéuÿÙévÿßéwÿæéxÿíêyÿaìeÿaìeÿbìeÿcìeÿeìeÿgìeÿiìfÿlífÿoífÿsígÿwígÿ{íhÿíhÿíiÿíiÿîjÿîkÿîlÿîmÿ¤înÿªïoÿ¯ïpÿµïqÿ¼ïrÿÁðsÿÇðtÿÍðuÿÔðvÿÛñwÿáñxÿçñyÿíñyÿeôfÿfôfÿgôfÿhôfÿiôgÿkôgÿmôgÿpõgÿsõhÿwõhÿzõhÿ~õiÿõiÿõjÿõkÿökÿölÿömÿ¡önÿ¦öoÿ¬÷pÿ±÷qÿ·÷rÿ¾÷sÿÃ÷tÿÉøuÿÏøvÿÖøwÿÜøxÿâøyÿèùyÿíùzÿjýhÿkýhÿlýhÿmýhÿnýhÿpýhÿrýhÿuýiÿwýiÿ{þiÿ~þjÿþjÿþkÿþkÿþlÿþmÿÿmÿÿnÿ¤ÿoÿ©ÿpÿ®ÿqÿ´ÿrÿ¹ÿsÿÀÿtÿÅÿuÿËÿvÿÑÿvÿØÿxÿÞÿxÿäÿyÿêÿzÿíÿ{ÿ /* Error: Ran out of types for this method. */;
@@ -55,9 +34,6 @@
 - (void)/%;
 
 // Remaining properties
-@property(readonly) BWNodeInput *depthInput; // @synthesize depthInput=_depthInput;
-@property(nonatomic) _Bool discardsDegradedDepthBuffers;
-@property(nonatomic) _Bool flushOnDepthEOD; // @synthesize flushOnDepthEOD=_flushOnDepthEOD;
 @property(readonly) BWNodeInput *imageInput; // @synthesize imageInput=_imageInput;
 
 @end

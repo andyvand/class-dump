@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, RVDocumentContext, RVItem, RVPresenter, RVPresentingContext;
+@class RVPresenter;
 
 __attribute__((visibility("hidden")))
 @interface RVMenuItem
 {
     RVPresenter *_presenter;
-    RVItem *_item;
-    RVDocumentContext *_documentContext;
-    RVPresentingContext *_presentingContext;
-    NSDictionary *_options;
-    _Bool _forceLookup;
 }
 
 + (id);
 - (long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

@@ -9,8 +9,6 @@
 @interface _MLCANESoftmaxParameters
 {
     NSDictionary *_softmaxParams;
-    NSDictionary *_neuronParams;
-    NSDictionary *_gocParams;
 }
 
 + (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *gocParams; // @synthesize gocParams=_gocParams;
-@property(readonly, retain, nonatomic) NSDictionary *neuronParams; // @synthesize neuronParams=_neuronParams;
 @property(readonly, retain, nonatomic) NSDictionary *softmaxParams; // @synthesize softmaxParams=_softmaxParams;
 
 @end

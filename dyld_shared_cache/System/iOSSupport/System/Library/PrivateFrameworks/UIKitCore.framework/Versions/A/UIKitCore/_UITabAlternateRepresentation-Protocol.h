@@ -7,7 +7,7 @@
 @class NSString, UIImage;
 
 @protocol _UITabAlternateRepresentation
-- (NSString *)Locked;
+- (NSString *)UILayoutGuideOwningViewIsLocked;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image;

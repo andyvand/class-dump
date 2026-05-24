@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface NewsAnalytics.DynamicEndpoint
 {
     id appConfigurationManager;
-    id environment;
 }
 
 - (id);
@@ -18,8 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *sharedContainerIdentifier;
 @property(nonatomic, readonly) NSURL *url;
 
 @end

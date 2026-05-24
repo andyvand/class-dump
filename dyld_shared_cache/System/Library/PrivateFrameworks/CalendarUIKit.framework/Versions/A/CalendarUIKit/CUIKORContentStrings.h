@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString;
+@class NSAttributedString;
 
 @interface CUIKORContentStrings
 {
     NSAttributedString *_combinedString;
-    NSAttributedString *_titleString;
-    NSAttributedString *_locationString;
-    NSAttributedString *_timeString;
-    NSAttributedString *_trailingString;
 }
 
-- (id)*Løèªô;
-- (void)ø £Ñ?íý¶ßy© Ñáªíýèª	Køô;
-- (void)<È<É<b­Ê<b­;
-- (id)ÁÚë@;
-- (id)ªõªã;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id)JAPAN_Ohmi_Railway;
+- (id)JAPAN_Nagasaki_Electric_Railway;
+- (void)JPN_KYOTO_Kinkakuji;
 - (void);
 - (void)@0:8B16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *combinedString; // @synthesize combinedString=_combinedString;
-@property(retain, nonatomic) NSAttributedString *locationString; // @synthesize locationString=_locationString;
-@property(readonly, nonatomic) NSArray *nonNilComponents;
-@property(retain, nonatomic) NSAttributedString *timeString; // @synthesize timeString=_timeString;
-@property(retain, nonatomic) NSAttributedString *titleString; // @synthesize titleString=_titleString;
-@property(retain, nonatomic) NSAttributedString *trailingString; // @synthesize trailingString=_trailingString;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFTSchemaASTFlatExprSearchVariantTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_query;
-    _Bool _hasLinkId;
-    _Bool _hasQuery;
 }
 
 - (void);
@@ -24,15 +21,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)selectStatementWithError:(id)arg1;
 - (id);
-- (id);
+- (id)ayoutTag, APAudioFormatIndex *);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)setPendingImageQueue: /* Error: Ran out of types for this method. */;
 - (id)! Gùà°1Â0@ù
 × ;
 - (id)tsReported",&,N,V_orchestratorResultsStatsReported;
@@ -40,11 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasQuery; // @synthesize hasQuery=_hasQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
 
 @end
 

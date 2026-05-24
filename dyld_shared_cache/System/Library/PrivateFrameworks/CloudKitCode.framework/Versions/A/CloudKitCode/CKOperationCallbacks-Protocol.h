@@ -5,5 +5,19 @@
 //
 
 @protocol CKOperationCallbacks
+- (void)currentlyShownConversation;
+- (void)currentTranscriptNavigationBarMode;
+- (void)currentState;
+- (void)currentPluginIdentifierForIconLoading;
+- (void);
+- (void)currentMentionSuggestions;
+- (void)currentInputViewController;
+- (void)currentHeight;
+- (void)currentFrameImage;
+- (void)currentEntryView;
+- (void)currentEffect;
+- (void)contactsTableViewBackgroundColor;
+- (void)constraintEqualToAnchor:(void (^)(NSError *))arg1 multiplier:constant: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

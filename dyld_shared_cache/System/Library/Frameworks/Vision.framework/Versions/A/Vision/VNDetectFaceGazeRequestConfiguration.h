@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface VNDetectFaceGazeRequestConfiguration : VNImageBasedRequestConfiguration
 {
     float _gazeHeatMapThreshold;
-    float _minimumFaceDimension;
-    float _commonGazeLocationRadius;
-    _Bool _resolveSomewhereElseDirection;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (float);
 - (float);
@@ -27,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)tx6;
 
 // Remaining properties
-@property(nonatomic) float commonGazeLocationRadius; // @synthesize commonGazeLocationRadius=_commonGazeLocationRadius;
 @property(nonatomic) float gazeHeatMapThreshold; // @synthesize gazeHeatMapThreshold=_gazeHeatMapThreshold;
-@property(nonatomic) float minimumFaceDimension; // @synthesize minimumFaceDimension=_minimumFaceDimension;
-@property(nonatomic) _Bool resolveSomewhereElseDirection; // @synthesize resolveSomewhereElseDirection=_resolveSomewhereElseDirection;
 
 @end
 

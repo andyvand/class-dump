@@ -6,20 +6,16 @@
 
 #import <Vision/VNDetector.h>
 
-@protocol VNModelFile;
-
 __attribute__((visibility("hidden")))
 @interface VNFaceBBoxAligner : VNDetector
 {
     struct shared_ptr<vision::mod::FaceBoxPoseAligner<signed char>> mFaceBoxPoseAlignerImpl;
-    _Bool _modelFilesWereMemmapped;
-    id <VNModelFile> mFaceBoxAlignerModelFileHandle;
 }
 
-+ (id);
++ (id)CNContactImageUpdater;
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (id);

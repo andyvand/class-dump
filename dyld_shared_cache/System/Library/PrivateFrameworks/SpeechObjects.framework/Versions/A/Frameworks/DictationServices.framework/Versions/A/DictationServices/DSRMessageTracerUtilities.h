@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DSRMessageTracerUtilities
 {
     _Bool _touchBarActivation;
-    _Bool _touchBarDeactivation;
-    _Bool _recordingTimedOut;
-    _Bool _usingOffline;
-    _Bool _dictationModelClient;
-    unsigned short _fan0InitialActualSpeed;
-    unsigned short _fan0FinalActualSpeed;
-    float _microphoneGain;
-    NSString *_languages;
-    NSString *_microphoneIdentifier;
-    NSString *_hotKeyDescription;
-    NSString *_clientIdentifier;
-    NSString *_startingAffordance;
-    NSString *_stoppingAffordance;
-    long long _insertionPointLength;
-    double _recordingTimeInterval;
-    double _timeIntervalSinceLastDictation;
-    long long _numberOfAlternativesChosen;
-    NSArray *_inputMethodLanguageIdentifiers;
-    long long _numberOfAlternativesProvided;
-    long long _numberOfAlternativeWords;
-    NSString *_additonalLogsPath;
-    NSString *_dictationModelVersion;
 }
 
 + (id);
@@ -42,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)r);
 - (void);
 - (void);
 - (void);
@@ -65,9 +43,9 @@
 - (long long);
 - (long long);
 - (long long);
-- (float);
+- (float);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,11 +60,11 @@
 - (id);
 - (void);
 - (id);
+- (void)S is too big for key rolling:(id)arg1 %lu bytes (cap:%lu bytes) /* Error: Ran out of types for this method. */;
+- (id)try decrypting the record PCS anyway, but this might fail.;
+- (void)om the server for %{public}@ %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
@@ -95,30 +73,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *additonalLogsPath; // @synthesize additonalLogsPath=_additonalLogsPath;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(nonatomic) _Bool dictationModelClient; // @synthesize dictationModelClient=_dictationModelClient;
-@property(retain, nonatomic) NSString *dictationModelVersion; // @synthesize dictationModelVersion=_dictationModelVersion;
-@property(nonatomic) unsigned short fan0FinalActualSpeed; // @synthesize fan0FinalActualSpeed=_fan0FinalActualSpeed;
-@property(nonatomic) unsigned short fan0InitialActualSpeed; // @synthesize fan0InitialActualSpeed=_fan0InitialActualSpeed;
-@property(retain, nonatomic) NSString *hotKeyDescription; // @synthesize hotKeyDescription=_hotKeyDescription;
-@property(retain, nonatomic) NSArray *inputMethodLanguageIdentifiers; // @synthesize inputMethodLanguageIdentifiers=_inputMethodLanguageIdentifiers;
-@property(nonatomic) long long insertionPointLength; // @synthesize insertionPointLength=_insertionPointLength;
 @property(retain, nonatomic) NSString *languages; // @synthesize languages=_languages;
-@property(nonatomic) float microphoneGain; // @synthesize microphoneGain=_microphoneGain;
-@property(retain, nonatomic) NSString *microphoneIdentifier; // @synthesize microphoneIdentifier=_microphoneIdentifier;
-@property(nonatomic) long long numberOfAlternativeWords; // @synthesize numberOfAlternativeWords=_numberOfAlternativeWords;
-@property(nonatomic) long long numberOfAlternativesChosen; // @synthesize numberOfAlternativesChosen=_numberOfAlternativesChosen;
-@property(nonatomic) long long numberOfAlternativesProvided; // @synthesize numberOfAlternativesProvided=_numberOfAlternativesProvided;
-@property(nonatomic) double recordingTimeInterval; // @synthesize recordingTimeInterval=_recordingTimeInterval;
-@property(nonatomic) _Bool recordingTimedOut; // @synthesize recordingTimedOut=_recordingTimedOut;
-@property(retain, nonatomic) NSString *startingAffordance; // @synthesize startingAffordance=_startingAffordance;
-@property(retain, nonatomic) NSString *stoppingAffordance; // @synthesize stoppingAffordance=_stoppingAffordance;
-@property(nonatomic) double timeIntervalSinceLastDictation; // @synthesize timeIntervalSinceLastDictation=_timeIntervalSinceLastDictation;
-@property(nonatomic) _Bool touchBarActivation; // @synthesize touchBarActivation=_touchBarActivation;
-@property(nonatomic) _Bool touchBarDeactivation; // @synthesize touchBarDeactivation=_touchBarDeactivation;
-@property(readonly, retain, nonatomic) id turnIdentifier;
-@property(nonatomic) _Bool usingOffline; // @synthesize usingOffline=_usingOffline;
 
 @end
 

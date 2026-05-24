@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)lx;
 - (void);
-- (void);
-- (void);
+- (void)=dd}}16@48@?56;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reportsDirectoryPath; // @synthesize reportsDirectoryPath=_reportsDirectoryPath;

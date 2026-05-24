@@ -5,8 +5,21 @@
 //
 
 @protocol CWFXPCRequestProtocolPrivate
-- (void)Q,R;
 - (void);
-- (void)dBand;
+- (void)ected session group (%@) but found (%@).;
+- (void)!1;
+- (void);
+- (void)eryConfiguration  enableTelemetry=YES ;
+- (void)IO.framework/Versions/A/ImageIO;
+- (void)@?0r*8@"NSObject<OS_xpc_object>"16;
+- (void)(;
+- (void)try>",W;
+- (void)onnect;
+- (void)at the restaurant;
+- (void)tropic;
+- (void)_CONNECTION_TYPE_LISTENER" -> %llu;
+- (void)Q,R;
+- (void)mapLabelCalloutDeviceNamesKey;
+- (void)_followModePreferredBand;
 @end
 

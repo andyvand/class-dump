@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKClusterAnnotation, MKOverlayView, MKSelectionAccessory;
+
 @protocol MKMapViewDelegate
+
+@optional
+- (MKOverlayView *);
+- (void)f;
+- (MKSelectionAccessory *);
+- (void)af;
+- (MKClusterAnnotation *)f;
 @end
 

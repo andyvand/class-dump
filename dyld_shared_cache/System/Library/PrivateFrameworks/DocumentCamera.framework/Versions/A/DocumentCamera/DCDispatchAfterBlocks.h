@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)generateStatsBlob;
 - (id);
-- (void);
+- (void)shouldGenerateTrainingDataWithDatabase:(id)arg1;
 - (id);
 - (void);
 

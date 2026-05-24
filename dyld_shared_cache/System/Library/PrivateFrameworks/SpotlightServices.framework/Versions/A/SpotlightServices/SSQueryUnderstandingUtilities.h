@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)setOnlyShowIcon:(id)arg1;
 + (int);
 
 @end

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSPersonNameComponents;
 @protocol CNMeCardSharingNameProvider;
 
 @interface CNMeCardSharingNameFormatter
 {
     id <CNMeCardSharingNameProvider> _nameProvider;
-    NSPersonNameComponents *_nameComponents;
-    NSMutableDictionary *_cachedFormattedNames;
 }
 
 + (id);
-+ (id);
++ (id)qa;
 + (id);
 - (void);
 - (id);
@@ -23,11 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void)datePicker;
+- (void)_datePicker;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cachedFormattedNames; // @synthesize cachedFormattedNames=_cachedFormattedNames;
-@property(readonly, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
 @property(readonly, nonatomic) id <CNMeCardSharingNameProvider> nameProvider; // @synthesize nameProvider=_nameProvider;
 
 @end

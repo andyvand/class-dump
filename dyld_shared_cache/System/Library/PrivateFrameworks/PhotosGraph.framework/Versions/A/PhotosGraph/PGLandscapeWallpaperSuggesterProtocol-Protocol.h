@@ -7,9 +7,10 @@
 @class PGLandscapeWallpaperSuggesterFilteringContext;
 
 @protocol PGLandscapeWallpaperSuggesterProtocol
+- (void);
+- (PGLandscapeWallpaperSuggesterFilteringContext *)(8B;
 
 // Remaining properties
 @property(retain, nonatomic) PGLandscapeWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGLandscapeWallpaperSuggesterFilteringContext *secondaryFilteringContext;
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CDPFollowUpContext
 {
     unsigned long long _repairType;
-    _Bool _shouldNotify;
-    _Bool _force;
-    NSString *_altDSID;
-    NSString *_telemetryDeviceSessionID;
-    NSString *_telemetryFlowID;
-    unsigned long long _pdpState;
-    unsigned long long _pdpHealth;
-    NSString *_followUpType;
 }
 
 + (id);
@@ -26,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)F";
 + (id);
 + (id);
 + (id);
@@ -37,15 +27,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *followUpType; // @synthesize followUpType=_followUpType;
-@property(nonatomic) _Bool force; // @synthesize force=_force;
-@property(nonatomic) unsigned long long pdpHealth; // @synthesize pdpHealth=_pdpHealth;
-@property(nonatomic) unsigned long long pdpState; // @synthesize pdpState=_pdpState;
 @property(nonatomic) unsigned long long repairType;
-@property(nonatomic) _Bool shouldNotify; // @synthesize shouldNotify=_shouldNotify;
-@property(copy, nonatomic) NSString *telemetryDeviceSessionID; // @synthesize telemetryDeviceSessionID=_telemetryDeviceSessionID;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

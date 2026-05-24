@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSAutomaticDownloadKindsSetTask, NSArray, NSString, NSViewController;
-@protocol AMSBagProtocol;
+@class ACAccount, AMSAutomaticDownloadKindsSetTask;
 
 @interface AMSUIAutomaticDownloadKindsSetTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSArray *_enabledMediaKinds;
-    NSViewController *_viewController;
-    AMSAutomaticDownloadKindsSetTask *_task;
 }
 
 + (id);
 + (id);
-+ (id)ollerCSg;
++ (id)So40AMSUIRegulatoryAgeVerificationControllerCSg;
 + (id)equest failed with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
+- (void)ributes.aperture;
+- (id)appex connection was interrupted;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)n:forKey:onRequest: /* Error: Ran out of types for this method. */;
-- (id)tentSizeDidChange: /* Error: Ran out of types for this method. */;
+- (void)setHeader:withValueIn:forKey:onRequest: /* Error: Ran out of types for this method. */;
+- (id)preferredContentSizeDidChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *enabledMediaKinds; // @synthesize enabledMediaKinds=_enabledMediaKinds;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) AMSAutomaticDownloadKindsSetTask *task; // @synthesize task=_task;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

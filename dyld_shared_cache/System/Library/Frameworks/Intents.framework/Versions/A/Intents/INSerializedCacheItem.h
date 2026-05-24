@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface INSerializedCacheItem
 {
     long long _type;
-    NSString *_identifier;
-    NSDictionary *_payload;
 }
 
 + (void);
@@ -18,21 +14,19 @@
 + (_Bool);
 + (void);
 - (id);
+- (id)registerSetValueEvent:(id)arg1 queue: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)E;
 - (unsigned long long);
 - (id);
-- (long long);
-- (_Bool);
-- (void);
+- (long long)P;
+- (_Bool)queryPasswordForKnownNetworkProfile:(id)arg1 requestParams:reply: /* Error: Ran out of types for this method. */;
+- (void)annels found for %@ scan on interface %@, skipping;
 - (id);
 - (id);
-- (void)ptionsForRequestRide:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)providePickupLocationOptionsForRequestRide:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

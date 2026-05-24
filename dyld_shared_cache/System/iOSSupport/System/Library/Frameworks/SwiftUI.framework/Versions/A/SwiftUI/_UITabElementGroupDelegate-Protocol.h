@@ -5,5 +5,8 @@
 //
 
 @protocol _UITabElementGroupDelegate
+
+@optional
+- (void);
 @end
 

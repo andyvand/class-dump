@@ -6,16 +6,14 @@
 
 #import <AnnotationKit/AKFormFeature.h>
 
-@class AKFormFeatureLine, NSArray;
+@class AKFormFeatureLine;
 
 @interface AKFormFeatureSegmented : AKFormFeature
 {
     AKFormFeatureLine *_baseline;
-    NSArray *_characterSegmentRects;
-    struct CGRect _enclosingRegionRect;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AKFormFeatureLine *baseline; // @synthesize baseline=_baseline;
-@property(retain, nonatomic) NSArray *characterSegmentRects; // @synthesize characterSegmentRects=_characterSegmentRects;
-@property(nonatomic) struct CGRect enclosingRegionRect; // @synthesize enclosingRegionRect=_enclosingRegionRect;
 
 @end
 

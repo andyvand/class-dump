@@ -9,17 +9,15 @@
 @interface SFBLEData
 {
     NSData *_data;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)PBonjourCacheHomeKit activateWithCompletionInternal:] /* Error: Ran out of types for this method. */;
 - (void)FormatInput;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSNumber, NSString;
+@class NSString;
 
 @interface INSetProfileInCarIntent : INIntent
 {
@@ -14,44 +14,33 @@
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)m;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)Q	;
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)PreflightResultTotalFileSize;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) INSpeakableString *carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSNumber *defaultProfile;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *profileLabel;
-@property(readonly, copy) NSString *profileName;
-@property(readonly, copy) NSNumber *profileNumber;
-@property(readonly) Class superclass;
 
 @end
 

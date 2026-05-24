@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)%u; exponential moving average:%.3f /* Error: Ran out of types for this method. */;
++ (id)kno].by_name);
++ (id)buckno].by_nameval);
 + (id)q§ãkK;
 - (unsigned long long);
 - (unsigned long long);
@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id)soBindHidden:(struct _NSZone *)arg1;
+- (id)_itemFromButton:(struct _NSZone *)arg1 withIdentifier:alsoBindHidden: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long interval;

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, _NSAcceleratorButtonHelper;
+@class _NSAcceleratorButtonHelper;
 
 __attribute__((visibility("hidden")))
 @interface _NSSegmentedCellAuxiliary
 {
     _NSAcceleratorButtonHelper *_acceleratorHelper;
-    struct CGRect _segmentFrameOfTrackedCell;
-    struct CGRect *_segmentTrackingRects;
-    unsigned long long _segmentTrackingRectCount;
-    NSTimer *_menuTimer;
-    struct CGRect _delayedMenuTrackingRect;
-    _Bool _sendSelectionAction;
-    _Bool _sendActionOnGasPedal;
-    _Bool _acceleratorPressBegan;
-    _Bool _lastGasPedalActionWasHighlighted;
-    _Bool _alsoWantsMenuTracking;
-    _Bool _needsFauxMouseUp;
-    double _gasPedalDoubleValue;
-    CDUnknownBlockType _delayedMenuPostHandler;
 }
 
 - (void);
@@ -32,42 +19,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)titlement string;
+- (void)ry Mesa provisioning state:(double)arg1 %s;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGRect *);
-- (unsigned long long);
-- (struct CGRect);
+- (void)was issued by trusted root %d failed with error 0x%016llX;
+- (_Bool)bute:%d /* Error: Ran out of types for this method. */;
+- (_Bool)_AMFDRDecodeVerifyCertIssuerInternal;
+- (struct CGRect *)nifestUniqueID;
+- (unsigned long long)FDRTag_inst property != fdrDecode->manifestUniqueID;
+- (struct CGRect)_AMFDRDecodeVerifyDataCallback;
 - (_Bool);
 - (id);
 - (_Bool);
 - (double);
 - (struct CGRect);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool acceleratorPressBegan; // @synthesize acceleratorPressBegan=_acceleratorPressBegan;
-@property _Bool alsoWantsMenuTracking; // @synthesize alsoWantsMenuTracking=_alsoWantsMenuTracking;
-@property(copy) CDUnknownBlockType delayedMenuPostHandler; // @synthesize delayedMenuPostHandler=_delayedMenuPostHandler;
-@property struct CGRect delayedMenuTrackingRect; // @synthesize delayedMenuTrackingRect=_delayedMenuTrackingRect;
-@property double gasPedalDoubleValue; // @synthesize gasPedalDoubleValue=_gasPedalDoubleValue;
-@property _Bool lastGasPedalActionWasHighlighted; // @synthesize lastGasPedalActionWasHighlighted=_lastGasPedalActionWasHighlighted;
-@property(retain) NSTimer *menuTimer; // @synthesize menuTimer=_menuTimer;
-@property _Bool needsFauxMouseUp; // @synthesize needsFauxMouseUp=_needsFauxMouseUp;
 @property struct CGRect segmentFrameOfTrackedCell; // @synthesize segmentFrameOfTrackedCell=_segmentFrameOfTrackedCell;
-@property unsigned long long segmentTrackingRectCount;
-@property struct CGRect *segmentTrackingRects; // @synthesize segmentTrackingRects=_segmentTrackingRects;
-@property _Bool sendActionOnGasPedal; // @synthesize sendActionOnGasPedal=_sendActionOnGasPedal;
-@property _Bool sendSelectionAction; // @synthesize sendSelectionAction=_sendSelectionAction;
 
 @end
 

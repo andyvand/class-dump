@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ScribbleFeedbackController : FeedbackAlertController
 {
     id <WBSCloudFeedbackSource> _feedbackSource;
-    CDUnknownBlockType _openFeedbackAppForBugReportWithIssueCategory;
 }
 
 - (void);
@@ -31,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSCloudFeedbackSource> feedbackSource; // @synthesize feedbackSource=_feedbackSource;
-@property(copy, nonatomic) CDUnknownBlockType openFeedbackAppForBugReportWithIssueCategory; // @synthesize openFeedbackAppForBugReportWithIssueCategory=_openFeedbackAppForBugReportWithIssueCategory;
 
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTangierController;
-@protocol SXActionManager;
+@class SXTangierController;
 
 @interface SXTextInteractionContextProvider
 {
     SXTangierController *_tangierController;
-    id <SXActionManager> _actionManager;
 }
 
 - (struct CGRect);
 - (id);
-- (id);
+- (id)ү;
 - (id);
 - (void);
 - (id);
@@ -26,14 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXTangierController *tangierController; // @synthesize tangierController=_tangierController;
 
 @end

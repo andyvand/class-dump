@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate;
-
 @interface STDowntimeOverride
 {
     long long _type;
-    long long _state;
-    NSDate *_creationDate;
-    NSCalendar *_calendar;
-    NSDate *_endDate;
 }
 
-+ (id);
-+ (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
++ (id)urce_type FROM item_artwork WHERE best_artwork_token != '';
++ (id)ND) END);
+- (long long)ed_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (_Bool)play_count_recent INTEGER NOT NULL DEFAULT 0, has_been_played INTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, date_skipped INTEGER NOT NULL DEFAULT 0, date_accessed INTEGER NOT NULL DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (_Bool)INTEGER PRIMARY KEY, user_rating INTEGER NOT NULL DEFAULT 0, needs_restore INTEGER NOT NULL DEFAULT 0, download_identifier TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, has_been_played INTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, date_skipped INTEGER NOT NULL DEFAULT 0, date_accessed INTEGER NOT NULL DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (id)k_identifier, store_bookmark_timestamp, store_bookmark_entity_revision FROM item JOIN item_storebookmark_identifier USING(item_pid) JOIN item_stats USING(item_pid);;
+- (_Bool)D) END);
+- (id):@@} /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (id);
 - (long long);
@@ -34,10 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, copy) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) long long state; // @synthesize state=_state;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

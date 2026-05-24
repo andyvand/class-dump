@@ -7,17 +7,15 @@
 @interface AXMPoint
 {
     double _x;
-    double _y;
 }
 
 - (void);
-- (void);
+- (void)_N>GG;
 - (double);
 - (double);
 
 // Remaining properties
 @property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

@@ -11,9 +11,9 @@
     PNRPhoneNumberResolver *_resolver;
 }
 
-+ (id);
++ (id)ATION;
 - (void);
-- (id);
+- (id)isCurrentlyInActiveCall;
 - (void);
 
 @end

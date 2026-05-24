@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSScene, FBSSceneSettings, NSHashTable, NSMutableDictionary, NSSet, NSString;
+@class FBSScene, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIChildRemoteContentRegistry
 {
     FBSScene *_parentScene;
-    NSHashTable *_childScenes;
-    NSHashTable *_childViewServices;
-    NSMutableDictionary *_enqueuedSettingsAvailabilityBlocks;
 }
 
+- (void)deleteChatBotMessageZone;
+- (void)deleteChatBotAttachmentZone;
+- (_Bool)_writeRecoverableMessagesCKConfiguration: /* Error: Ran out of types for this method. */;
+- (id)NSNumber",R,N,V_totalExpectedBatches;
+- (void);
+- (id)blockListController;
+- (id)sharedUtilitiesHelloWorld;
 - (void);
 - (void);
-- (_Bool);
+- (id)+;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)criptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)};
 - (id);
 - (id)1Â0@ù
 × ;
 - (void);
 - (id)
 × ;
-- (id)ndIfAppropriate;
+- (id)_addReturnKeyCommandIfAppropriate;
 - (id)6^B24;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *childScenes;
-@property(readonly, nonatomic) NSSet *childViewServices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FBSSceneSettings *parentSettings;
-@property(readonly, nonatomic) _Bool parentSettingsAvailable;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface TLAlertPlaybackCompletionContext
 {
     CDUnknownBlockType _completionHandler;
-    long long _playbackCompletionType;
-    NSError *_error;
 }
 
 - (void);
@@ -24,8 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) long long playbackCompletionType; // @synthesize playbackCompletionType=_playbackCompletionType;
 
 @end
 

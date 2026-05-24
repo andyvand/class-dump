@@ -7,9 +7,6 @@
 @interface ChatKit.ConversationTitle
 {
     id title;
-    id leadingIndicatorIcons;
-    id wantsChevron;
-    id color;
 }
 
 - (id);

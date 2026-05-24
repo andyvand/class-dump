@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSString;
+@class NSCountedSet;
 
 @interface PGGraphPortraitDonationEnrichmentProcessor
 {
     NSCountedSet *_meaningNodes;
-    NSCountedSet *_poiNodes;
-    NSCountedSet *_roiNodes;
-    NSCountedSet *_businessNodes;
-    NSCountedSet *_publicEventNodes;
-    NSCountedSet *_performerNodes;
-    NSMutableDictionary *_datesByAddressNode;
-    NSCountedSet *_addressNodes;
 }
 
-+ (id);
++ (id)R;
 - (id);
-- (id);
+- (id)setCurrentToken: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -41,25 +34,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCountedSet *addressNodes; // @synthesize addressNodes=_addressNodes;
-@property(readonly, nonatomic) NSCountedSet *businessNodes; // @synthesize businessNodes=_businessNodes;
-@property(readonly, nonatomic) NSMutableDictionary *datesByAddressNode; // @synthesize datesByAddressNode=_datesByAddressNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSCountedSet *meaningNodes; // @synthesize meaningNodes=_meaningNodes;
-@property(readonly, nonatomic) NSCountedSet *performerNodes; // @synthesize performerNodes=_performerNodes;
-@property(readonly, nonatomic) NSCountedSet *poiNodes; // @synthesize poiNodes=_poiNodes;
-@property(readonly, nonatomic) NSCountedSet *publicEventNodes; // @synthesize publicEventNodes=_publicEventNodes;
-@property(readonly, nonatomic) _Bool requiresValidGraph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSCountedSet *roiNodes; // @synthesize roiNodes=_roiNodes;
-@property(readonly) Class superclass;
 
 @end
 

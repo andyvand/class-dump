@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSString, SWURLSchemeHandlerSession, WKWebViewConfiguration;
-@protocol SWLogger;
+@class WKWebViewConfiguration;
 
 @interface SWURLSchemeHandlerManager
 {
     WKWebViewConfiguration *_configuration;
-    id <SWLogger> _logger;
-    NSMutableDictionary *_factories;
-    NSMapTable *_handlers;
-    SWURLSchemeHandlerSession *_session;
 }
 
 - (id);
@@ -24,24 +19,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)i;
 - (id);
 - (void);
 - (id)uest";
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WKWebViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *factories; // @synthesize factories=_factories;
-@property(readonly, nonatomic) NSMapTable *handlers; // @synthesize handlers=_handlers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) SWURLSchemeHandlerSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

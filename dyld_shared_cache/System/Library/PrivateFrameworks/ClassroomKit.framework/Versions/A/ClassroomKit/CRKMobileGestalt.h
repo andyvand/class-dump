@@ -11,22 +11,17 @@
 }
 
 + (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)get clientID for requested budget %@;
 - (id);
 - (id);
 - (id)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long availableBytes;
-@property(readonly, copy, nonatomic) NSString *buildVersion;
-@property(readonly, nonatomic) double mainScreenScale;
-@property(readonly, nonatomic) struct CGSize mainScreenSizeInPixels;
-@property(readonly, copy, nonatomic) NSString *productVersion;
 @property(readonly, copy, nonatomic) NSString *serialNumber;
 
 @end

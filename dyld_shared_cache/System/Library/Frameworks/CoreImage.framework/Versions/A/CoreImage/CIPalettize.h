@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPalettize : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputPaletteImage;
-    NSNumber *inputPerceptual;
 }
 
 + (id);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputPaletteImage; // @synthesize inputPaletteImage;
-@property(retain, nonatomic) NSNumber *inputPerceptual; // @synthesize inputPerceptual;
 
 @end
 

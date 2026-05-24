@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)setSortIDForItem:(CDUnknownBlockType)arg1 parentChatID: /* Error: Ran out of types for this method. */;
+- (void)setBroadcastedSyncStateToDeleting;
+- (id)_replicatedMessageGUIDToReleaseFromMessageDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool)
 × ;
-- (void)ration;
+- (void)sheetClientConfiguration;
 - (id);
 - (void);
 

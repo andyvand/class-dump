@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMapTable, NSMutableData;
-@protocol MFPOPAccount, MFPOPConnectionDelegate;
+@class NSMutableData;
 
 @interface MFPOPConnection
 {
     NSMutableData *_sendBuffer;
-    NSMapTable *_listResults;
-    NSMapTable *_serverMessageIdsByNumber;
-    id <MFPOPConnectionDelegate> _delegate;
-    NSData *_apopTimeStamp;
-    NSArray *_capabilities;
-    _Bool _capaCommandFailed;
-    _Bool _currentlyFetchingMessage;
-    _Bool _connectionShouldPrefetchMessages;
-    id _context;
-    unsigned long long _numberOfMessagesToFetch;
-    unsigned long long _numberOfMessagesFetched;
-    unsigned long long _totalBytesToFetch;
-    unsigned long long _totalBytesReceived;
-    long long _activityMonitorKey;
-    unsigned long long _numberOfMessagesAvailable;
 }
 
 + (id)minimum_AA3maxt;
@@ -38,11 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%@qA;
+- (void)ב;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -66,7 +50,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (id);
 - (void);
@@ -78,35 +62,25 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)<;
+- (id)webView:updateHistoryTitle:forURL:inFrame: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)_itemIDToSelectAfterMoveID;
+- (_Bool)himmered messages for mailbox:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)Pè;
 - (_Bool)àÿ;
-- (_Bool)pNodeFound;
+- (_Bool)NoTopNodeFound;
 
 // Remaining properties
-@property __weak id <MFPOPAccount> account;
-@property(nonatomic) long long activityMonitorKey; // @synthesize activityMonitorKey=_activityMonitorKey;
-@property(nonatomic) _Bool connectionShouldPrefetchMessages; // @synthesize connectionShouldPrefetchMessages=_connectionShouldPrefetchMessages;
 @property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) _Bool currentlyFetchingMessage; // @synthesize currentlyFetchingMessage=_currentlyFetchingMessage;
-@property(readonly, nonatomic) _Bool messagesAvailable;
-@property(nonatomic) unsigned long long numberOfMessagesAvailable; // @synthesize numberOfMessagesAvailable=_numberOfMessagesAvailable;
-@property(nonatomic) unsigned long long numberOfMessagesFetched; // @synthesize numberOfMessagesFetched=_numberOfMessagesFetched;
-@property(nonatomic) unsigned long long numberOfMessagesToFetch; // @synthesize numberOfMessagesToFetch=_numberOfMessagesToFetch;
-@property(nonatomic) unsigned long long totalBytesReceived; // @synthesize totalBytesReceived=_totalBytesReceived;
-@property(nonatomic) unsigned long long totalBytesToFetch; // @synthesize totalBytesToFetch=_totalBytesToFetch;
 
 @end
 

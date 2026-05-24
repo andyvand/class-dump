@@ -9,17 +9,9 @@
 @interface GEOPDEvChargingPort
 {
     PBUnknownFields *_unknownFields;
-    int _chargingConnectorType;
-    int _chargingLevel;
-    unsigned int _power;
-    struct {
-        unsigned int has_chargingConnectorType:1;
-        unsigned int has_chargingLevel:1;
-        unsigned int has_power:1;
-    } _flags;
 }
 
-+ (_Bool)ighlightMain:(id)arg1;
++ (_Bool)setHighlightMain:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -35,12 +27,12 @@
 - (int);
 - (int);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dated;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -48,19 +40,13 @@
 - (unsigned int);
 - (void);
 - (id)oup"b1"read_searchClientBehavior"b1"read_searchSessionData"b1"read_searchTierMetadatas"b1"read_sectionList"b1"wrote_anyField"b1};
-- (id)ue;
+- (id)_defaultMinValue;
 - (id)3X4 547|8Ä9;
-- (id)e;
+- (id)segment_name;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int chargingConnectorType;
-@property(nonatomic) int chargingLevel;
-@property(nonatomic) _Bool hasChargingConnectorType;
-@property(nonatomic) _Bool hasChargingLevel;
 @property(nonatomic) _Bool hasPower;
-@property(nonatomic) unsigned int power;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -9,13 +9,10 @@
 @interface SCNManipulableItem
 {
     double _screenSize;
-    SCNNode *node;
-    id component;
-    unsigned long long elementIndex;
 }
 
 + (void);
-+ (void);
++ (void);
 - (void);
 - (_Bool);
 - (id);
@@ -24,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)TIKeyboardFeatureSpecialization_ar_ars;
+- (unsigned long long)foreteller;
 - (void);
 - (id);
 - (void);
@@ -40,12 +37,7 @@
 - (id)Û@2_?;
 
 // Remaining properties
-@property(retain, nonatomic) id component; // @synthesize component;
-@property(nonatomic) unsigned long long elementIndex; // @synthesize elementIndex;
-@property(readonly, nonatomic) struct SCNVector3 elementPosition;
 @property(retain, nonatomic) SCNNode *node; // @synthesize node;
-@property(nonatomic) struct CATransform3D transform;
-@property(nonatomic) struct CATransform3D worldTransform;
 
 @end
 

@@ -6,34 +6,30 @@
 
 #import <XCTAutomationSupport/XCTElementSetCodableTransformer.h>
 
-@class NSPredicate;
-
 @interface XCTElementFilteringTransformer : XCTElementSetCodableTransformer
 {
     long long _scope;
-    NSPredicate *_predicate;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)AFUISpeechSynthesis>";
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (unsigned long long);
 - (long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)*%{;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(readonly) long long scope; // @synthesize scope=_scope;
 
 @end

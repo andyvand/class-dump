@@ -12,7 +12,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)for spam detection to BlastDoor for %@;
 - (id);
 - (id);
 

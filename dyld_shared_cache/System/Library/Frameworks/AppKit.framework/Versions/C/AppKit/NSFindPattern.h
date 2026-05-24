@@ -10,17 +10,9 @@ __attribute__((visibility("hidden")))
 @interface NSFindPattern
 {
     NSString *regularExpression;
-    NSString *tokenString;
-    NSString *displayString;
-    NSString *replacementString;
-    NSString *uniqueID;
-    _Bool allowsBackreferences;
-    int groupID;
-    int captureGroupID;
-    int repeatedPatternID;
 }
 
-+ (unsigned long long);
++ (unsigned long long)h_;
 + (id);
 + (id);
 - (id);
@@ -30,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)accept_didBecomeDownloadTask;
 - (int);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ertificateForHost;
+- (void)NetworkServiceType;
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -47,24 +39,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (id)s;
+- (id)_matchWebViews;
 - (int)le;
 - (void)ll be lost.;
 - (void)/Library/Colors;
-- (id)SMutableString;
+- (id)NSMutableString;
 - (id)ØQïþíÙ\C;
 - (id)®E;
 
 // Remaining properties
-@property _Bool allowsBackreferences; // @synthesize allowsBackreferences;
-@property int captureGroupID; // @synthesize captureGroupID;
-@property(copy) NSString *displayString; // @synthesize displayString;
-@property int groupID; // @synthesize groupID;
 @property(copy) NSString *regularExpression; // @synthesize regularExpression;
-@property int repeatedPatternID; // @synthesize repeatedPatternID;
-@property(copy) NSString *replacementString; // @synthesize replacementString;
-@property(copy) NSString *tokenString; // @synthesize tokenString;
-@property(readonly) NSString *uniqueID; // @synthesize uniqueID;
 
 @end
 

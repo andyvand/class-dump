@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet;
+@class NSDictionary;
 
 @interface CRTunableParameterManager
 {
     NSDictionary *_parametersDict;
-    NSMutableSet *_overriddenKeyPaths;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)qa;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 - (void)t>>=^{CGRect}^{CGRect}{?=^{CGRect}}}16;
 
 // Remaining properties
-@property(retain) NSMutableSet *overriddenKeyPaths; // @synthesize overriddenKeyPaths=_overriddenKeyPaths;
 @property(retain) NSDictionary *parametersDict; // @synthesize parametersDict=_parametersDict;
 
 @end

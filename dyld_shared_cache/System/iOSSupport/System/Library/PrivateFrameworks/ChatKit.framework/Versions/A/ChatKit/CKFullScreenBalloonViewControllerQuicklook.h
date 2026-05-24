@@ -10,14 +10,14 @@
 {
 }
 
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)ringBlock: /* Error: Ran out of types for this method. */;
+- (void)_checkIsVoiceOverRunning;
+- (_Bool)_noteSuggestions;
+- (id)c;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)r;
+- (_Bool)w;
+- (_Bool)count participant ;
 - (_Bool);
 - (id);
 - (id);

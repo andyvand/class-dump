@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)0;
 @end
 

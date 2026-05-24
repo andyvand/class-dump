@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)axes:(long long)arg1 name: /* Error: Ran out of types for this method. */;
++ (id)reductionSumWithTensor:(long long)arg1 axes:name: /* Error: Ran out of types for this method. */;
 
 @end
 

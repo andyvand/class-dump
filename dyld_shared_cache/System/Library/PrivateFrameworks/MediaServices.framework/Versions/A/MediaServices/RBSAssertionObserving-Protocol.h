@@ -11,6 +11,6 @@
 @optional
 - (void)
 × ;
-- (void)ata:(RBSAssertion *)arg1 userInfo:error: /* Error: Ran out of types for this method. */;
+- (void)decodedObjectOfClasses:(RBSAssertion *)arg1 fromData:userInfo:error: /* Error: Ran out of types for this method. */;
 @end
 

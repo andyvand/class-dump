@@ -4,14 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSData, NSString;
 
 @protocol IMAPTaskManager
+- (void);
+- (_Bool)T	;
+- (void)Th";
+- (NSString *)R;
+- (_Bool);
+- (NSData *),;
+- (NSData *);
+- (_Bool);
+- (void)running, something must have negotiated it so we'll leave it alone;
+- (_Bool)= %u, .Alignment = %u, .Stride = %u, .NumFields = %u}
+;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
 @property(copy) NSString *defaultIdleMailboxName;
-@property(nonatomic) unsigned int firstNewInboxUID;
-@property(copy) NSString *secondaryIdleMailboxName;
 @end
 

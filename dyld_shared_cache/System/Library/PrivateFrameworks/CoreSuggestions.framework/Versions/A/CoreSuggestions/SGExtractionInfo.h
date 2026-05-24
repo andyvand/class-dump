@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface SGExtractionInfo
 {
     unsigned long long _extractionType;
-    NSNumber *_modelVersion;
-    NSNumber *_confidence;
 }
 
 + (id);
@@ -18,16 +14,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) unsigned long long extractionType; // @synthesize extractionType=_extractionType;
-@property(readonly, nonatomic) NSNumber *modelVersion; // @synthesize modelVersion=_modelVersion;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.HeadlineViewStyler
 {
     id fontBook;
-    id colorPalette;
-    id scaleFactor;
-    id colorPaletteProvider;
 }
 
 @end

@@ -7,18 +7,10 @@
 @interface ChatKit.CKTranscriptNavigationBarContext
 {
     id conversationProvider;
-    id conversationTitleProvider;
-    id navigationBarModeProvider;
-    id displayModeProvider;
-    id unifiedCallButtonViewProvider;
-    id chatBotPersistentMenuProvider;
-    id unreadCountProvider;
-    id navigationBarFlagsProvider;
-    id nicknameOracleProvider;
 }
 
 - (id);
-- (void)layConfiguration;
+- (void)TapbackPickerBalloonDisplayConfiguration;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface NewsUI2.MyRecipesConfig
 {
     id feedContext;
-    id formatContent;
-    id layoutOptionsProvider;
-    id trackerObserver;
-    id log;
-    id maxNumberOfItems;
-    id maxAge;
-    id feedKind;
-    id dataSource;
 }
 
 @end

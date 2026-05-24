@@ -9,7 +9,6 @@
 @interface TSDDoubleSegmentedControlTableViewCell
 {
     TSKSegmentedControl *mLeftSegmentedControl;
-    TSKSegmentedControl *mRightSegmentedControl;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) TSKSegmentedControl *leftSegmentedControl; // @synthesize leftSegmentedControl=mLeftSegmentedControl;
-@property(readonly, nonatomic) TSKSegmentedControl *rightSegmentedControl; // @synthesize rightSegmentedControl=mRightSegmentedControl;
 
 @end
 

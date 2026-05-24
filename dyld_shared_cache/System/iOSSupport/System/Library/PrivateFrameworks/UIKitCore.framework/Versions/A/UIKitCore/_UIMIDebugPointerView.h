@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     UIView *_actualPointer;
 }
 
-- (void)ldShowSeparatorAboveActionsSequenceView;
-- (id)ectionalAxis;
+- (void)_shouldShowSeparatorAboveActionsSequenceView;
+- (id)_exclusiveDirectionalAxis;
 - (void);
 
 @end

@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NETSchemaNETSessionConnectionHttpHeaderCreated : SISchemaInstrumentationMessage
 {
     NSString *_userAgent;
-    NSString *_aceHost;
-    _Bool _hasUserAgent;
-    _Bool _hasAceHost;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (_Bool);
@@ -33,16 +30,12 @@
 - (id)1Â0@ù
 × ;
 - (id)lverEndedTier1;
-- (id)ol: /* Error: Ran out of types for this method. */;
+- (id)numberWithBool: /* Error: Ran out of types for this method. */;
 - (id)dleId;
 - (void)L+>;
-- (void)eason;
+- (void)IFTSchemaIFTParameterNotAllowedReason;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceHost; // @synthesize aceHost=_aceHost;
-@property(nonatomic) _Bool hasAceHost; // @synthesize hasAceHost=_hasAceHost;
-@property(nonatomic) _Bool hasUserAgent; // @synthesize hasUserAgent=_hasUserAgent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end

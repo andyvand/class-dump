@@ -7,7 +7,7 @@
 @interface UnknownClass (QLUtilsAdditions)
 + (id);
 + (int);
-+ (double);
++ (double)T?;
 + (_Bool);
 - (id);
 - (unsigned long long);

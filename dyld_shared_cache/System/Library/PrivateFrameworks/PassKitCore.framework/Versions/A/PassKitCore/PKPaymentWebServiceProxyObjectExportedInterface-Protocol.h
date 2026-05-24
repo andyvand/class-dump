@@ -7,11 +7,29 @@
 @class PKAutoFillCardDescriptor, PKPushProvisioningTarget;
 
 @protocol PKPaymentWebServiceProxyObjectExportedInterface
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)T	M;
+- (void)C;
+- (void);
+- (void);
+- (void));
+- (void)+;
+- (_Bool);
+- (void)Z;
+- (void);
+- (void)H;
+- (void);
+- (void)`;
+- (void)WMF;
+- (void);
 - (void)1Â0@ù
 × ;
-- (void)Notification:(PKAutoFillCardDescriptor *)arg1;
-- (void)rtionOfType:(void (^)(NSArray *))arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)eservationsWithCompletion:(PKPushProvisioningTarget *)arg1;
+- (void)passLibraryDidChangeWithNotification:(PKAutoFillCardDescriptor *)arg1;
+- (void)hasValidAssertionOfType:(void (^)(NSArray *))arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)deleteExpiredReservationsWithCompletion:(PKPushProvisioningTarget *)arg1;
 - (void)defaultVariant;
 - (void)tion-suppression;
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol PXAudioAsset;
 
 @interface _PXAudioAssetArrayFetchResult
@@ -18,24 +18,15 @@
 - (_Bool);
 - (id);
 - (id)Time;
-- (id)Configuration;
+- (id)PXStoryMutableExportConfiguration;
 - (id)÷ÿÔÒúÿ;
-- (long long)oryResourcesPreloaderBufferingOperation;
+- (long long)PXStoryResourcesPreloaderBufferingOperation;
 - (void)8ÄÉ;
 - (id);
 - (id)¨¥×ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <PXAudioAsset> firstObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXAudioAsset> lastObject;
-@property(readonly) Class superclass;
 
 @end
 

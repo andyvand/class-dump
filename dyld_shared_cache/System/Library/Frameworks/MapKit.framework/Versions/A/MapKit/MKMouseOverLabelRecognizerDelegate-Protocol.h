@@ -5,5 +5,6 @@
 //
 
 @protocol MKMouseOverLabelRecognizerDelegate
+- (_Bool))!;
 @end
 

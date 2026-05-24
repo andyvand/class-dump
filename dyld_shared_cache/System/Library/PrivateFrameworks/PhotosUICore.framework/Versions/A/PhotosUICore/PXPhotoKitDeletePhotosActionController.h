@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUndoManager, PXActionRecord;
-@protocol PXPhotoKitDeletePhotosActionControllerDelegate;
+@class NSArray, PXActionRecord;
 
 @interface PXPhotoKitDeletePhotosActionController
 {
     PXActionRecord *_record;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _willDeleteHandler;
-    _Bool _shouldSkipDeleteConfirmation;
-    long long _action;
-    NSUndoManager *_undoManager;
-    id <PXPhotoKitDeletePhotosActionControllerDelegate> _delegate;
-    NSArray *__assets;
-    NSArray *__plAssets;
 }
 
 + (id);
@@ -43,11 +34,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *_assets; // @synthesize _assets=__assets;
-@property(readonly, copy, nonatomic) NSArray *_plAssets; // @synthesize _plAssets=__plAssets;
-@property(readonly, nonatomic) long long action; // @synthesize action=_action;
-@property(readonly, nonatomic) __weak id <PXPhotoKitDeletePhotosActionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool shouldSkipDeleteConfirmation; // @synthesize shouldSkipDeleteConfirmation=_shouldSkipDeleteConfirmation;
-@property(readonly, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

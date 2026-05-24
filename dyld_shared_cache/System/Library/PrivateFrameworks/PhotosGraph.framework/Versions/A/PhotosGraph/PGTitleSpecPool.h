@@ -11,7 +11,7 @@
     NSArray *_specs;
 }
 
-+ (id);
++ (id)LibCall_ACMContextCredentialGetProperty;
 - (id);
 - (id);
 - (id);

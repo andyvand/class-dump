@@ -15,8 +15,8 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)isProvisionedForDataclass:(id)arg1;
++ (_Bool)_ensureVisibilityOfSelectedRow;
 
 @end
 

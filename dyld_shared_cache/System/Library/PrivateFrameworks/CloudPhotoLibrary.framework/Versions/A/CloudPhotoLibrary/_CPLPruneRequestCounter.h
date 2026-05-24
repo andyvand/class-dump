@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSDate, NSDictionary, NSString;
+@class NSCountedSet, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _CPLPruneRequestCounter
 {
     NSCountedSet *_successStatsPerResourceType;
-    NSCountedSet *_failedStatsPerResourceType;
-    unsigned long long _successSize;
-    NSDate *_lastRequestDate;
-    NSString *_title;
-    NSString *_statusKey;
 }
 
 - (void);
@@ -27,9 +22,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *status;
-@property(readonly, nonatomic) NSDictionary *statusDictionary;
-@property(readonly, nonatomic) NSString *statusKey; // @synthesize statusKey=_statusKey;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

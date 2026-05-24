@@ -6,40 +6,28 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class NSArray, NSLayoutConstraint, UIImageView, UILabel, UIStackView, UIView, _UIEditMenuListItem, _UISlotView;
+@class UIStackView, _UIEditMenuListItem;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuListViewCell : UICollectionViewCell
 {
     _UIEditMenuListItem *_item;
-    double _maximumContentWidth;
-    _UISlotView *_securePasteButtonSlotView;
-    UIStackView *_contentStackView;
-    UILabel *_titleLabel;
-    UIImageView *_imageView;
-    UIView *_customView;
-    NSArray *_contentConstraints;
-    NSLayoutConstraint *_minimumWidthConstraint;
-    NSLayoutConstraint *_maximumWidthConstraint;
-    NSLayoutConstraint *_slotViewCenterXConstraint;
-    NSLayoutConstraint *_slotViewCenterYConstraint;
-    struct UIEdgeInsets _arrowEdgeInsets;
 }
 
 + (struct CGSize);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)useChatRoom:(struct UIEdgeInsets)arg1 forGroupChatIdentifier: /* Error: Ran out of types for this method. */;
+- (id)submitCloudKitMetricWithOperationGroupName: /* Error: Ran out of types for this method. */;
+- (id)joinChat:style:groupID:joinProperties: /* Error: Ran out of types for this method. */;
+- (id)isFetchingExitForEnablement;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
+- (unsigned int)request for persistent task;
+- (void)ark as played, trying again in a bit;
+- (void)o enabled. Need to update filter params.;
+- (void)%@};
 - (struct UIEdgeInsets);
 - (void);
 - (double);
@@ -47,13 +35,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setDistribution:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (void)að!4FùQ\Ð1Â0@ù
 × ;
-- (void)ectedIndicatorViewWithImage:(struct CGRect)arg1;
+- (void)_selectedIndicatorViewWithImage:(struct CGRect)arg1;
 - (id)additionalInsets:(struct CGRect)arg1 containingScrollViewBounds: /* Error: Ran out of types for this method. */;
 - (id)IRemoteViewService",R,N,V_service;
 - (void):|; /* Error: Ran out of types for this method. */;
@@ -63,19 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets arrowEdgeInsets; // @synthesize arrowEdgeInsets=_arrowEdgeInsets;
-@property(readonly, nonatomic) NSArray *contentConstraints; // @synthesize contentConstraints=_contentConstraints;
 @property(readonly, nonatomic) UIStackView *contentStackView; // @synthesize contentStackView=_contentStackView;
-@property(readonly, nonatomic) UIView *customView; // @synthesize customView=_customView;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) _UIEditMenuListItem *item; // @synthesize item=_item;
-@property(nonatomic) double maximumContentWidth; // @synthesize maximumContentWidth=_maximumContentWidth;
-@property(readonly, nonatomic) NSLayoutConstraint *maximumWidthConstraint; // @synthesize maximumWidthConstraint=_maximumWidthConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *minimumWidthConstraint; // @synthesize minimumWidthConstraint=_minimumWidthConstraint;
-@property(readonly, nonatomic) _UISlotView *securePasteButtonSlotView; // @synthesize securePasteButtonSlotView=_securePasteButtonSlotView;
-@property(readonly, nonatomic) NSLayoutConstraint *slotViewCenterXConstraint; // @synthesize slotViewCenterXConstraint=_slotViewCenterXConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *slotViewCenterYConstraint; // @synthesize slotViewCenterYConstraint=_slotViewCenterYConstraint;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

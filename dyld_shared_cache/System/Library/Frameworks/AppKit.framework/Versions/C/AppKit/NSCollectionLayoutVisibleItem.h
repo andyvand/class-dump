@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutItem, NSCollectionViewLayoutAttributes, NSIndexPath, NSString;
+@class NSCollectionViewLayoutAttributes;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionLayoutVisibleItem
 {
     _Bool _dirty;
-    NSCollectionViewLayoutAttributes *_layoutAttributes;
-    NSCollectionLayoutItem *_layoutItem;
 }
 
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)*48;
 - (void);
 - (struct CGAffineTransform);
 - (id);
@@ -27,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
-- (struct CATransform3D);
+- (struct CATransform3D);
 - (struct CGRect)Áê/!lDùQß3ð1Â0@ù
 × ;
 - (_Bool)
@@ -36,7 +34,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (void)orderType:(_Bool)arg1 controlSize:scrollerStyle: /* Error: Ran out of types for this method. */;
-- (long long)servationProcessingEnabled;
+- (long long)_observationProcessingEnabled;
 - (void)ay",R,C,V_colors;
 - (void)­;
 - (void)¬;
@@ -46,28 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)P«¼ÿa¦¸C;
 
 // Remaining properties
-@property double alpha;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property struct CGPoint center;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSIndexPath *indexPath;
 @property(retain, nonatomic) NSCollectionViewLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(retain, nonatomic) NSCollectionLayoutItem *layoutItem; // @synthesize layoutItem=_layoutItem;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long representedElementCategory;
-@property(readonly, nonatomic) NSString *representedElementKind;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) struct CATransform3D transform3D;
-@property long long zIndex;
 
 @end
 

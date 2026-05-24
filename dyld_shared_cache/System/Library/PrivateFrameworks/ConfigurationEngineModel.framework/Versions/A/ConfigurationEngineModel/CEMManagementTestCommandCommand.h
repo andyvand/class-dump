@@ -11,13 +11,12 @@
 @interface CEMManagementTestCommandCommand : CEMCommandBase
 {
     NSString *_payloadEcho;
-    NSString *_payloadReturnStatus;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)__TEXT;
 + (id);
 - (void);
 - (id);
@@ -26,20 +25,13 @@
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)mat string:(id)arg1 %s
+;
 - (id);
-- (void);
+- (void))s->d1->w_msg_hdr.msg_len + DTLS1_HM_HEADER_LENGTH;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadEcho; // @synthesize payloadEcho=_payloadEcho;
-@property(copy, nonatomic) NSString *payloadReturnStatus; // @synthesize payloadReturnStatus=_payloadReturnStatus;
-@property(readonly) Class superclass;
 
 @end
 

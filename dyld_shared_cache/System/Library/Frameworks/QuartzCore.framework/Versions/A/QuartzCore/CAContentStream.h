@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContentStreamOptions, NSObject;
-@protocol OS_dispatch_queue;
+@class CAContentStreamOptions;
 
 @interface CAContentStream
 {
     CAContentStreamOptions *_options;
-    struct unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> _includedContexts;
-    struct unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> _excludedContexts;
-    struct small_vector<ContentStreamClientFrame, 8UL> _seen_surfaces;
-    unsigned int _serverPort;
-    struct ClientIPC _clientIPC;
-    _Bool _started;
-    _Bool _warmed_up;
-    struct SpinLock _callback_lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
 }
 
 + (id);
@@ -27,14 +16,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
-- (void)ayer: /* Error: Ran out of types for this method. */;
+- (void)stateOfLayer: /* Error: Ran out of types for this method. */;
 - (unsigned int)program to dynamic cache;
 - (_Bool)].y + acc;
   acc = q4 * weight[0].z + acc;

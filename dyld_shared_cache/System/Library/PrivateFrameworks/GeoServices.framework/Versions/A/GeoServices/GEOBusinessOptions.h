@@ -4,88 +4,70 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOBusinessOptions
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_attributeKeys;
-    NSMutableArray *_photoOptions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxBusinessResults;
-    _Bool _includeBusinessHours;
-    _Bool _includeCenter;
-    struct {
-        unsigned int has_maxBusinessResults:1;
-        unsigned int has_includeBusinessHours:1;
-        unsigned int has_includeCenter:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_attributeKeys:1;
-        unsigned int read_photoOptions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)y, Country;
 + (Class);
-+ (Class);
-+ (_Bool)etHasMptcpNegotiated:(id)arg1;
++ (_Bool)setHasMptcpNegotiated:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)setSomeoneWaiting:(id)arg1;
+- (unsigned long long)delay:scheduler: /* Error: Ran out of types for this method. */;
+- (id)defaultTCCForType:(unsigned long long)arg1;
+- (id)defaultTCC;
+- (int)_notificationCenter;
+- (_Bool);
+- (_Bool);
+- (_Bool)esult must be non-nil;
+- (_Bool)8;
+- (_Bool)ABCollationKey;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (void);
+- (void);
 - (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)currentLanguageCode;
+- (id);
+- (void);
+- (id)P;
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (_Bool)																												
+
+
+
+
+
+
+
+;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void)!PGù·*1Â0@ù
 × ;
-- (id)orCode:(struct _NSZone *)arg1 userInfo: /* Error: Ran out of types for this method. */;
+- (id)providerReceivedErrorCode:(struct _NSZone *)arg1 userInfo: /* Error: Ran out of types for this method. */;
 - (id)¼º;
 - (id)anguage_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN parents_of_recursive    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
 - (id);
 - (void)~n6;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributeKeys;
-@property(nonatomic) _Bool hasIncludeBusinessHours;
-@property(nonatomic) _Bool hasIncludeCenter;
-@property(nonatomic) _Bool hasMaxBusinessResults;
-@property(nonatomic) _Bool includeBusinessHours;
-@property(nonatomic) _Bool includeCenter;
-@property(nonatomic) int maxBusinessResults;
 @property(retain, nonatomic) NSMutableArray *photoOptions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,21 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXNamespace;
-
 __attribute__((visibility("hidden")))
 @interface OCXState
 {
     int mXMLFormat;
-    CXNamespace *mOCXRelationshipsNamespace;
-    CXNamespace *mOCXDrawingNamespace;
 }
 
-- (int);
+- (int);
+- (void)#;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
@@ -41,18 +42,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CXNamespace *OCXDrawingNamespace; // @synthesize OCXDrawingNamespace=mOCXDrawingNamespace;
-@property(retain, nonatomic) CXNamespace *OCXRelationshipsNamespace; // @synthesize OCXRelationshipsNamespace=mOCXRelationshipsNamespace;
 @property(readonly, nonatomic) int xmlFormat; // @synthesize xmlFormat=mXMLFormat;
 
 @end

@@ -6,14 +6,12 @@
 
 #import <MediaPlayer/MPModelLibraryPlaylistEditDataSource.h>
 
-@class MPMediaLibrary, MPModelAlbum, MPPropertySet;
+@class MPMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface MPModelLibraryPlaylistEditAlbumDataSource : MPModelLibraryPlaylistEditDataSource
 {
     MPMediaLibrary *_library;
-    MPModelAlbum *_album;
-    MPPropertySet *_trackPropertySet;
 }
 
 - (void);

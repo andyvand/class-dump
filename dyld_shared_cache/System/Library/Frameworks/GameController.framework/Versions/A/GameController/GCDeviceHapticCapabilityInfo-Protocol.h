@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceHaptics, NSArray;
+@class GCDeviceHaptics;
 
 @protocol GCDeviceHapticCapabilityInfo
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) GCDeviceHaptics *deviceHaptics;
-@property(readonly, copy) NSArray *hapticEngines;
 @end
 

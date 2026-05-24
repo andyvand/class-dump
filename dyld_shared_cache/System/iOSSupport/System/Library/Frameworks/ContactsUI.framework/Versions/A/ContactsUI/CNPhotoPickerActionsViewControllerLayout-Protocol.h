@@ -7,10 +7,6 @@
 @protocol CNPhotoPickerActionsViewControllerLayout
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect actionButtonsViewFrame;
-@property(readonly, nonatomic) long long buttonCount;
 @property(readonly, nonatomic) struct CGSize containerSize;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(readonly, nonatomic) struct CGRect imageContainerViewFrame;
 @end
 

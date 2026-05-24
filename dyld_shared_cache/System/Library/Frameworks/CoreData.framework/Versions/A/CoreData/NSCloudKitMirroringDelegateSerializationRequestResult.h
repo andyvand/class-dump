@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)rM;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *serializedObjects; // @synthesize serializedObjects=_serializedObjects;

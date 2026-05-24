@@ -9,11 +9,10 @@
 @interface PXVideoPlaybackReporterAVPlayerItemEndpoint
 {
     NSString *loggingIdentifier;
-    AVPlayerItem *_playerItem;
 }
 
 + (_Bool);
-+ (id);
++ (id)rootViewController;
 - (void);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *loggingIdentifier; // @synthesize loggingIdentifier;
 @property(readonly, nonatomic) AVPlayerItem *playerItem; // @synthesize playerItem=_playerItem;
 
 @end

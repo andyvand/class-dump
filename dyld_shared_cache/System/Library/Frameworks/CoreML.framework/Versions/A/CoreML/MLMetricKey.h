@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)extMulti,%{public}.1lf,distFromPriorCrumb,%{public}.1lf,fabsCourseDiffWithSnap,%{public}.1lf,fabsCourseDiffWithPriorFullSnap,%{public}.1lf;
 
 @end
 

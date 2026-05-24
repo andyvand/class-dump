@@ -6,58 +6,43 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString, NSVisualTabPickerRootViewController;
-@protocol NSVisualTabPickerGridViewDataSource, NSVisualTabPickerGridViewDelegate;
+@protocol NSVisualTabPickerGridViewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerGridView : NSView
 {
     NSView *_gridContainerView;
-    NSMutableArray *_tileContainerViews;
-    NSMutableArray *_arrayOfTabItemsPerContainer;
-    NSMutableArray *_additionalVerticalOffsetForTilesAtRow;
-    NSMutableDictionary *_cachedSnapshots;
-    unsigned long long _currentMaximumNumberOfContainersPerRow;
-    double _leadingGridOffset;
-    double _tileWidth;
-    double _tileHeight;
-    _Bool _didStartEntryAnimation;
-    id <NSVisualTabPickerGridViewDataSource> _dataSource;
-    id <NSVisualTabPickerGridViewDelegate> _delegate;
-    NSVisualTabPickerRootViewController *_visualTabPickerViewController;
-    _Bool _shouldDisplayHostnameForThumbnailContainers;
-    _Bool _gridAnimationInProgress;
-    _Bool _shouldShowNewTabButton;
-    _Bool _shouldHighlightTiles;
-    _Bool _shouldShowCloseButtons;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)TreePlane :/product strict-wake-product-id not found /* Error: Ran out of types for this method. */;
+- (id)at kIODeviceTreePlane :(id)arg1 /product strict-wake-product-id;
+- (id)reePlane :(id)arg1 /product strict-wake-vendor-id not found;
+- (id)e at kIODeviceTreePlane :(id)arg1 /product strict-wake-vendor-id;
+- (_Bool)'t get calibration data for %s
+;
+- (void)te Mesa command object;
+- (void);
+- (void);
+- (id)g3Version, const SysConfigData *__single, const SysConfigData *__single, const SysConfigData *__single);
+- (void)LiDARCalibrationPrCL;
+- (_Bool)tries
+;
+- (_Bool)onst MGAPTicket_s *);
+- (_Bool)%@;
+- (_Bool)y's name:0x%x
+ /* Error: Ran out of types for this method. */;
+- (void)OImuoRzP9vclh3eYueyRDg;
+- (void)1plD8faLv1bhScZQ3t0PLQ;
+- (void)tbdNCtok0BwuLN11WwnwsQ;
+- (void)GdXjx1ixZYvN9Gg8iSf68A;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)v;
+- (void);
 - (id);
 - (void);
 - (double);
@@ -65,65 +50,51 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)es %zu is_mmap %d>;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)K;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (struct _NSRange);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (void);
+- (struct _NSRange)Protocol=};
+- (unsigned long long)mainBundle;
+- (unsigned long long)localeWithLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)accept_didCreateTask;
+- (unsigned long long)_deliveredConnectionEstablished;
+- (unsigned long long)LSessionTaskGroupForConfiguration>",R,&,V__taskGroup;
+- (double)_onqueue_postConnectConfiguration:parameters:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)rray",R,N;
 - (void);
 - (struct CGRect);
+- (void)c,d;
+- (void)g cookie based on Secure Attribute. Cookie= %@;
+- (id)kgroundSession <%{public}@> Cannot set property on data task with identifier %lu because there is no such task;
+- (void)or occurred on the xpc connection to setup the background session:(id)arg1 %@;
+- (void);
+- (void)g the CFNetwork loader is no longer supported;
+- (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)d.;
 - (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)nHandler:(id)arg1;
+- (void)setMinimumScaleFactor:(id)arg1;
+- (void)_rangeOfCombinedLineFragmentsInRanges:(id)arg1;
+- (void)deleteSearchableItemsWithIdentifiers:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void)sShowing;
 
 // Remaining properties
 @property(nonatomic) __weak id <NSVisualTabPickerGridViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NSVisualTabPickerGridViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool gridAnimationInProgress; // @synthesize gridAnimationInProgress=_gridAnimationInProgress;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shouldDisplayHostnameForThumbnailContainers; // @synthesize shouldDisplayHostnameForThumbnailContainers=_shouldDisplayHostnameForThumbnailContainers;
-@property(nonatomic) _Bool shouldHighlightTiles; // @synthesize shouldHighlightTiles=_shouldHighlightTiles;
-@property(nonatomic) _Bool shouldShowCloseButtons; // @synthesize shouldShowCloseButtons=_shouldShowCloseButtons;
-@property(nonatomic) _Bool shouldShowNewTabButton; // @synthesize shouldShowNewTabButton=_shouldShowNewTabButton;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSVisualTabPickerRootViewController *visualTabPickerViewController; // @synthesize visualTabPickerViewController=_visualTabPickerViewController;
 
 @end
 

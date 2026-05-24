@@ -15,7 +15,7 @@
 
 + (int);
 - (id);
-- (id);
+- (id)setKeyboardType: /* Error: Ran out of types for this method. */;
 - (void)¡#°!BùQ2'°1Â0@ù
 × ;
 

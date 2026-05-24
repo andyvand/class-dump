@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBFloatArray, CBPILParams, NSObject;
-@protocol OS_os_log;
-
 __attribute__((visibility("hidden")))
 @interface PILABCurve
 {
     float _currentLux;
-    float _mappedNits;
-    float _minNits;
-    float _maxNits;
-    CBFloatArray *_pilCurveLux;
-    CBFloatArray *_pilCurveNits;
-    unsigned long long _luxToNitsTableSize;
-    CBPILParams *_params;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (void);

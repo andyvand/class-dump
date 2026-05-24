@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VN5xRo0q9Wz9Io02mmbtoLsConfiguration : VNImageBasedRequestConfiguration
 {
     VN6Ac6Cyl5O5oK19HboyMBR *inputSignatureprint;
-    unsigned long long _imageSignatureprintType;
-    unsigned long long _imageSignatureHashType;
-    VN6Ac6Cyl5O5oK19HboyMBR *_inputSignatureprint;
 }
 
 - (void);
@@ -29,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)call failed;
 
 // Remaining properties
-@property(nonatomic) unsigned long long imageSignatureHashType; // @synthesize imageSignatureHashType=_imageSignatureHashType;
 @property(nonatomic) unsigned long long imageSignatureprintType; // @synthesize imageSignatureprintType=_imageSignatureprintType;
-@property(copy, nonatomic) VN6Ac6Cyl5O5oK19HboyMBR *inputSignatureprint; // @synthesize inputSignatureprint=_inputSignatureprint;
 
 @end
 

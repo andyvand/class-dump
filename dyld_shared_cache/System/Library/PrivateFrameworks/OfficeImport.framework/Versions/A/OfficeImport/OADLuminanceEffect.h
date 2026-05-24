@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADLuminanceEffect : OADBlipEffect
 {
     float mBrightness;
-    float mContrast;
 }
 
 - (id);

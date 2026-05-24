@@ -9,7 +9,6 @@
 @interface CRKFetchControlGroupIdentifiersRequest
 {
     _Bool _includeTemporary;
-    NSString *_leaderIdentifier;
 }
 
 + (Class);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool includeTemporary; // @synthesize includeTemporary=_includeTemporary;
 @property(copy, nonatomic) NSString *leaderIdentifier; // @synthesize leaderIdentifier=_leaderIdentifier;
 
 @end

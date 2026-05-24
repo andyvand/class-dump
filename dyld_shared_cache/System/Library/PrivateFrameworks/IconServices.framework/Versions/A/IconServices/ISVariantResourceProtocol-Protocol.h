@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol ISVariantResourceProtocol
+- (NSString *);
+- (unsigned long long)! ;
 
 // Remaining properties
-@property(readonly) unsigned long long flags;
 @property(readonly) NSString *variantName;
 @end
 

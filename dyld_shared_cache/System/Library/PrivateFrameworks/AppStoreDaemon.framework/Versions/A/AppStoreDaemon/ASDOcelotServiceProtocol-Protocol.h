@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount;
+
 @protocol ASDOcelotServiceProtocol
+- (void);
+- (void)ded):(void (^)(NSArray *, NSError *))arg1 %{public}@;
+- (void)component:(ACAccount *)arg1 fromDate:(void (^)(NSArray *, NSError *))arg2;
 @end
 

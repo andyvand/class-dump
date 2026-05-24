@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceInput, AVCaptureMovieFileOutput, AVCaptureSession, AVCaptureStillImageOutput, AVCaptureVideoPreviewLayer, NSObject, NSString, NSURL;
-@protocol CKVideoRecorderDelegate, OS_dispatch_queue;
+@class AVCaptureSession;
 
 __attribute__((visibility("hidden")))
 @interface CKVideoRecorder
 {
     long long _currentDevice;
-    _Bool _previousStatusBarHidden;
-    AVCaptureDevice *_frontFacingCamera;
-    AVCaptureDevice *_rearFacingCamera;
-    NSObject<OS_dispatch_queue> *_avCaptureSessionDispatchQueue;
-    _Bool _canceled;
-    AVCaptureVideoPreviewLayer *_captureVideoPreviewLayer;
-    id <CKVideoRecorderDelegate> _delegate;
-    NSURL *_outputFileURL;
-    AVCaptureSession *_session;
-    AVCaptureDeviceInput *_rearVideoInput;
-    AVCaptureDeviceInput *_frontVideoInput;
-    AVCaptureDeviceInput *_audioInput;
-    AVCaptureMovieFileOutput *_videoOutput;
-    AVCaptureStillImageOutput *_stillImageOutput;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ttChangeInLength;
+- (void)setSanitizedFilteredModernSourceObjects:(id)arg1;
+- (void)setIsReadingSelectionFromPasteboard:(id)arg1;
+- (void)removeLastObject;
+- (void)overrideContainerIdentifier;
+- (id)ic_emphasisBackgroudColorFromColor: /* Error: Ran out of types for this method. */;
+- (id)ic_ellipsisCharacterString;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)l {error:%s} /* Error: Ran out of types for this method. */;
+- (id)id for note URI:%s /* Error: Ran out of types for this method. */;
+- (id)t:(long long)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)d, reducing the chances of losing access to your locked notes.;
 - (void);
 - (_Bool);
 - (void);
@@ -46,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -58,35 +43,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)addSyncStatusViewToViewControllerWithView:navigationItem: /* Error: Ran out of types for this method. */;
 - (void)R\G¤\GV±\G;
-- (void)alCoverInsets;
+- (void)CKEntryViewLayoutMetricsInfoLastCachedEntryViewVerticalCoverInsets;
 
 // Remaining properties
-@property(retain, nonatomic) AVCaptureDeviceInput *audioInput; // @synthesize audioInput=_audioInput;
-@property(nonatomic) long long cameraDevice;
-@property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(retain, nonatomic) AVCaptureVideoPreviewLayer *captureVideoPreviewLayer; // @synthesize captureVideoPreviewLayer=_captureVideoPreviewLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKVideoRecorderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVCaptureDeviceInput *frontVideoInput; // @synthesize frontVideoInput=_frontVideoInput;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURL *outputFileURL; // @synthesize outputFileURL=_outputFileURL;
-@property(retain, nonatomic) AVCaptureDeviceInput *rearVideoInput; // @synthesize rearVideoInput=_rearVideoInput;
 @property(retain, nonatomic) AVCaptureSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) AVCaptureStillImageOutput *stillImageOutput; // @synthesize stillImageOutput=_stillImageOutput;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVCaptureMovieFileOutput *videoOutput; // @synthesize videoOutput=_videoOutput;
 
 @end
 

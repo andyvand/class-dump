@@ -5,5 +5,11 @@
 //
 
 @protocol EMMessageListItemQueryResultsObserver
+- (void);
+- (void)@g@;
+- (void)a;
+
+@optional
+- (void);
 @end
 

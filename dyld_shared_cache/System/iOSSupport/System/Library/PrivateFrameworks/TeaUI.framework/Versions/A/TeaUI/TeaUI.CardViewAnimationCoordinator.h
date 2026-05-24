@@ -7,28 +7,11 @@
 @interface TeaUI.CardViewAnimationCoordinator
 {
     id layoutOptions;
-    id delegate;
-    id parentDelegate;
-    id behavior;
-    id presentationState;
-    id coordinatingCoordinators;
-    id initialCoordinatingPresentationState;
-    id dimmingAlpha;
-    id animatingPresentationState;
-    id coordinatingPresentationState;
-    id rootView;
-    id panView;
-    id contentView;
-    id dimmingView;
-    id panGestureRecoginzer;
-    id panLockState;
-    id state;
-    id session;
 }
 
 - (void);
-- (id);
-- (_Bool);
+- (id)ceCursor";
+- (_Bool)lLQMetadata;
 - (void)ÃüÿTÃüÿÄüÿ8ÄüÿÄüÿÌÄüÿÅüÿ ÅüÿÆüÿ|ÆüÿÆüÿ¬ÆüÿøÇüÿPÈüÿÉüÿLÉüÿÊüÿpÊüÿÊüÿèÊüÿËüÿ<ËüÿhËüÿËüÿøËüÿDÌüÿdÌüÿ|ÌüÿÍüÿÍüÿ4ÍüÿLÍüÿdÍüÿ|ÍüÿÍüÿðÍüÿ;
 
 @end

@@ -14,9 +14,9 @@
 }
 
 + (id);
-- (id);
-- (void);
-- (id);
+- (id)handwritingRecognitionSupported;
+- (void)ICTableColumnTextStorage;
+- (id)e;
 - (void);
 
 // Remaining properties

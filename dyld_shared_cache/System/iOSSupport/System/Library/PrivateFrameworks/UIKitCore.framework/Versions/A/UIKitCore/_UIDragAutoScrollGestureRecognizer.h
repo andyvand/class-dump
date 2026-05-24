@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIDragGestureRecognizer.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDragAutoScrollGestureRecognizer : UIDragGestureRecognizer
 {
@@ -16,20 +14,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)
 × ;
-- (_Bool)tyScaleHint:(id)arg1;
-- (void)sets;
-- (void):(id)arg1 inLayer: /* Error: Ran out of types for this method. */;
-- (_Bool)orHighlightedItem:(id)arg1;
-- (void)UIButtonBarItemGroupLayout;
+- (_Bool)setIdentityScaleHint:(id)arg1;
+- (void)displayInsets;
+- (void)_setOriginalToValue:(id)arg1 forKey:inLayer: /* Error: Ran out of types for this method. */;
+- (_Bool)setIndexPathForHighlightedItem:(id)arg1;
+- (void)_UIButtonBarItemGroupLayout;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,49 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroup, GEOActiveTileGroupMigrationTaskOptions, GEODataSetDescription, GEOReportedProgress, GEOResourceManifestConfiguration, GEOResources, GEOServiceURLsActiveTileGroupMigrator, GEOTileGroup, NSProgress, NSString;
-@protocol NSObject;
+@class GEOServiceURLsActiveTileGroupMigrator;
 
 __attribute__((visibility("hidden")))
 @interface _GEOServiceURLsActiveTileGroupMigrationTask
 {
     GEOServiceURLsActiveTileGroupMigrator *_migrator;
-    GEOResourceManifestConfiguration *_manifestConfiguration;
-    GEOTileGroup *_newTileGroup;
-    GEOResources *_resourceManifest;
-    GEOActiveTileGroup *_oldTileGroup;
-    GEODataSetDescription *_dataSetDescription;
-    GEOReportedProgress *_progress;
-    GEOActiveTileGroupMigrationTaskOptions *_options;
-    id <NSObject> _transaction;
 }
 
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)registerSynchronouslyWithError: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (void)@;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)_REQUEST;
+- (id)EV_INVALID_REQUEST;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long estimatedWeight;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOActiveTileGroupMigrationTaskOptions *options; // @synthesize options=_options;
-@property(readonly) NSProgress *progress;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <NSObject> transaction; // @synthesize transaction=_transaction;
 
 @end
 

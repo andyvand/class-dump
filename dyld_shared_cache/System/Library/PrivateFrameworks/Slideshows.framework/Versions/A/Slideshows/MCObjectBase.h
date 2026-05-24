@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)RrJ;
 + (void);
 + (void);
 + (void)ue `%{public}@` was successfuly decoded (key:%{public}@, entity:%{public}@):%{public}@ /* Error: Ran out of types for this method. */;
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)ialTransitionAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)setInitialTransitionAttributes: /* Error: Ran out of types for this method. */;
 - (id)areTextureCoordinates1; 
 		void main() 
 		{ 

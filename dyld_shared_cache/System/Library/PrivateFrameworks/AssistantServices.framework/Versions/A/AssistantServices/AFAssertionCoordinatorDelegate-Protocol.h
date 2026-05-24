@@ -5,5 +5,8 @@
 //
 
 @protocol AFAssertionCoordinatorDelegate
+- (void)';
+- (void);
+- (void);
 @end
 

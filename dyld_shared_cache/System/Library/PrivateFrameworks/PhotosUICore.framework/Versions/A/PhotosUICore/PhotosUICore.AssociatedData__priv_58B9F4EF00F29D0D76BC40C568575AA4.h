@@ -9,7 +9,7 @@
     id isActive;
 }
 
-- (id);
+- (id);
 
 @end
 

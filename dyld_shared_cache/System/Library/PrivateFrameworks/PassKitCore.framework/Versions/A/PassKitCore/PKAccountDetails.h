@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAppleBalanceAccountDetails, PKCreditAccountDetails, PKSavingsAccountDetails;
+@class PKCreditAccountDetails;
 
 @interface PKAccountDetails
 {
     PKCreditAccountDetails *_creditDetails;
-    PKAppleBalanceAccountDetails *_appleBalanceDetails;
-    PKSavingsAccountDetails *_savingsDetails;
-    unsigned long long _type;
 }
 
 + (_Bool)!X"!Ø@ù±î%1Â0@ù
 × ;
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -27,19 +24,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_rxVHTSuccess;
 - (void);
 - (id);
-- (void)ecureElementPassCG6passes_t;
+- (void)SaySo19PKSecureElementPassCG6passes_t;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAppleBalanceAccountDetails *appleBalanceDetails; // @synthesize appleBalanceDetails=_appleBalanceDetails;
 @property(readonly, nonatomic) PKCreditAccountDetails *creditDetails; // @synthesize creditDetails=_creditDetails;
-@property(readonly, nonatomic) PKSavingsAccountDetails *savingsDetails; // @synthesize savingsDetails=_savingsDetails;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

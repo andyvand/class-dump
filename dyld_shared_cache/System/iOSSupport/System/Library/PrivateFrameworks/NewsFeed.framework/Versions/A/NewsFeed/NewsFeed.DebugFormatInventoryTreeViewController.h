@@ -7,18 +7,13 @@
 @interface NewsFeed.DebugFormatInventoryTreeViewController
 {
     id editor;
-    id styler;
-    id $__lazy_storage_$_inventoryTreeViewController;
-    id $__lazy_storage_$_model;
-    id $__lazy_storage_$_versionBarButtonItem;
-    id _searchTerm;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)2O;
 - (void))d1/;
 - (void)ä`gÁ:3 /* Error: Ran out of types for this method. */;
 - (void)]@;

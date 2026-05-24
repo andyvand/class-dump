@@ -4,55 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, NSMutableDictionary, NSObject, PGBusinessLocationFeatureSummarySource, PGGraph, PGHolidayDateFeatureSummarySource, PGLocationFeatureSummarySource, PGMeaningFeatureSummarySource, PGNeighborScoreComputer, PGPublicEventFeatureSummarySource, PGTitleGenerationContext, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PGGraph, PHPhotoLibrary;
 
 @interface PGHighlightTailorContext
 {
     PGGraph *_graph;
-    NSMutableDictionary *_pendingEnrichmentStateByHighlightUUID;
-    PHPhotoLibrary *_photoLibrary;
-    PGNeighborScoreComputer *_neighborScoreComputer;
-    CLSCurationContext *_curationContext;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGTitleGenerationContext *_titleGenerationContext;
-    double _topTierAestheticScore;
-    PGLocationFeatureSummarySource *_locationFeatureSummarySource;
-    PGMeaningFeatureSummarySource *_meaningFeatureSummarySource;
-    PGBusinessLocationFeatureSummarySource *_businessFeatureSummarySource;
-    PGPublicEventFeatureSummarySource *_publicEventFeatureSummarySource;
-    PGHolidayDateFeatureSummarySource *_holidayDateFeatureSummarySource;
 }
 
 - (id);
 - (void);
 - (unsigned short);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)set_didRegisterWindowDidDeminiaturizeNotification: /* Error: Ran out of types for this method. */;
+- (id)eventTapManager:passivelyTappedEvent:type:withProxy: /* Error: Ran out of types for this method. */;
+- (id)canHaveKeyboardFocus;
+- (id)__sharedKeyboardFocusedElementSelectedElementControllers;
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
 - (void)tigationItem>"8@"NSDictionary"16;
-- (id)eText;
+- (id)PGMeaningWinterSportSearchableText;
 - (id)osGraph16EventLabelWriterP;
 - (id)$´¶ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PGBusinessLocationFeatureSummarySource *businessFeatureSummarySource; // @synthesize businessFeatureSummarySource=_businessFeatureSummarySource;
-@property(readonly) CLSCurationContext *curationContext; // @synthesize curationContext=_curationContext;
-@property(readonly, nonatomic) PGHolidayDateFeatureSummarySource *holidayDateFeatureSummarySource; // @synthesize holidayDateFeatureSummarySource=_holidayDateFeatureSummarySource;
-@property(readonly, nonatomic) PGLocationFeatureSummarySource *locationFeatureSummarySource; // @synthesize locationFeatureSummarySource=_locationFeatureSummarySource;
-@property(readonly) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) PGMeaningFeatureSummarySource *meaningFeatureSummarySource; // @synthesize meaningFeatureSummarySource=_meaningFeatureSummarySource;
-@property(readonly) PGNeighborScoreComputer *neighborScoreComputer; // @synthesize neighborScoreComputer=_neighborScoreComputer;
 @property(readonly) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PGPublicEventFeatureSummarySource *publicEventFeatureSummarySource; // @synthesize publicEventFeatureSummarySource=_publicEventFeatureSummarySource;
-@property(readonly) PGTitleGenerationContext *titleGenerationContext; // @synthesize titleGenerationContext=_titleGenerationContext;
-@property(readonly) double topTierAestheticScore; // @synthesize topTierAestheticScore=_topTierAestheticScore;
 
 @end
 

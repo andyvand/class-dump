@@ -11,14 +11,14 @@
     AAAgeMigrationDaemonConnection *_daemonConnection;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)UpdateState mcxUsr_setpasscodeupdatestate returned %d;
+- (void)in domain and that the path exists on your volume.  You may need to remove the local home if you continue to have this problem.);
+- (void)ed exception "%s" because "%s";
+- (void)eyValueForIDPayloadType result is not a string;
+- (void)to None;
 - (id);
 - (id);
-- (void)ations:completion: /* Error: Ran out of types for this method. */;
+- (void)fetchCapability:destinations:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiFeedPersonalizationOutputConfiguration, NSDictionary;
+@class NSDictionary;
 
 @interface FCNewsTabiFeedPersonalizationConfiguration : FCNewsTabiEndpointConfiguration
 {
     NSDictionary *_dictionary;
-    long long _maxTopicIds;
-    long long _titleEmbeddingDimension;
-    long long _fullBodyEmbeddingDimension;
-    FCNewsTabiFeedPersonalizationOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiFeedPersonalizationOutputConfiguration *_nonBundleOutputConfiguration;
 }
 
 - (long long);
@@ -28,7 +23,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (id);
@@ -37,12 +32,7 @@
 - (void)es/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCurrentIssuesFetchOperation.m;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiFeedPersonalizationOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(nonatomic) long long fullBodyEmbeddingDimension; // @synthesize fullBodyEmbeddingDimension=_fullBodyEmbeddingDimension;
-@property(nonatomic) long long maxTopicIds; // @synthesize maxTopicIds=_maxTopicIds;
-@property(retain, nonatomic) FCNewsTabiFeedPersonalizationOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
-@property(nonatomic) long long titleEmbeddingDimension; // @synthesize titleEmbeddingDimension=_titleEmbeddingDimension;
 
 @end
 

@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDContextualPhoto
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_vendorId;
-    NSString *_vendorPhotoId;
-    NSString *_vendorPlaceId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_vendorId:1;
-        unsigned int read_vendorPhotoId:1;
-        unsigned int read_vendorPlaceId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)uousVoiceTrigger;
 - (unsigned long long);
+- (_Bool)o;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (id)ad_countryOrRegion"b1"wrote_anyField"b1};
 - (id)_completeWithError: /* Error: Ran out of types for this method. */;
 - (id)Øx¼¼ ðèÔ|;

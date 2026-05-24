@@ -6,7 +6,7 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSArray, NSDictionary, NSNumber;
+@class NSArray;
 
 @interface PIPortraitVideoAdjustmentController : PIAdjustmentController
 {
@@ -18,10 +18,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void);
@@ -29,11 +29,7 @@
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *aperture;
-@property(retain, nonatomic) NSDictionary *cinematographyState;
-@property(nonatomic) long long debugMode;
 @property(copy, nonatomic) NSArray *disparityKeyframes;
-@property(nonatomic) unsigned long long renderingVersionAtCapture;
 
 @end
 

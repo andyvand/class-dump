@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCFuture, GCHIDServiceInfo, GCPromise, NSObject, _GCNintendoJoyConDeviceManager;
-@protocol OS_dispatch_queue, _GCDeviceDriverConnection;
+@class GCFuture, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _GCNintendoJoyConDevicePending
 {
     NSObject<OS_dispatch_queue> *_queue;
-    GCFuture *_deviceFuture;
-    GCPromise *_devicePromise;
-    _GCNintendoJoyConDeviceManager *_manager;
-    id <_GCDeviceDriverConnection> _filterConnection;
-    id <_GCDeviceDriverConnection> _driverConnection;
-    GCHIDServiceInfo *_serviceInfo;
 }
 
 - (void);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -35,10 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) GCFuture *device; // @synthesize device=_deviceFuture;
-@property(retain) id <_GCDeviceDriverConnection> driverConnection;
-@property(retain) id <_GCDeviceDriverConnection> filterConnection;
-@property(readonly) _GCNintendoJoyConDeviceManager *manager; // @synthesize manager=_manager;
-@property(readonly) GCHIDServiceInfo *serviceInfo; // @synthesize serviceInfo=_serviceInfo;
 
 @end
 

@@ -9,26 +9,22 @@
 @interface PMLLabelLimitRowId
 {
     NSString *_label;
-    long long _limit;
-    long long _rowId;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id) ;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) long long limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) long long rowId; // @synthesize rowId=_rowId;
 
 @end
 

@@ -19,14 +19,14 @@
 + (_Bool);
 + (_Bool);
 + (void);
++ (_Bool)inkBehaviorsWithIdentifer:version: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)@0:8@"ICCameraDevice"16^{CGImage=}24@"ICCameraItem"32@"NSError"40 /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)h;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -34,7 +34,7 @@
 + (void);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)3;
 + (id);
 + (void);
 + (_Bool);

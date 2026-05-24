@@ -6,59 +6,41 @@
 
 #import <CoreParsec/PARRequest.h>
 
-@class NSArray, NSDictionary, NSString, SFSearchSuggestion;
+@class NSString;
 
 @interface PARSearchRequest : PARRequest
 {
     NSString *_queryString;
-    NSDictionary *_topics;
-    long long _type;
-    NSString *_l2version;
-    NSString *_l3version;
-    NSArray *_localContextualSuggestions;
-    long long _exp;
-    SFSearchSuggestion *_engagedSuggestion;
-    NSArray *_completionCacheSuggestions;
-    NSString *_previouslyEngagedQuery;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (void)manifest entry.;
+- (void)alid `preferred_environment` key.;
+- (void)portScripts(";
+- (void)rc 'self';
+- (void)r<WebKit:(id)arg1:SecKeyProxyStore>::operator*() const [T = WebKit::SecKeyProxyStore, WeakPtrImpl = WTF::DefaultWeakPtrImpl, PtrTraits = WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>] /* Error: Ran out of types for this method. */;
+- (void)scrollbarsVisible;
+- (id)Target = WebKit::WebFormSubmissionListenerProxy, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id)_ptr<WTF::ListHashSetNode<unsigned long>>, std::unique_ptr<WTF::ListHashSetNode<unsigned long>>, WTF::IdentityExtractor, WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<unsigned long>>, WTF::ListHashSet<unsigned long>::NodeTraits, WTF::ListHashSet<unsigned long>::NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<unsigned long>>, Value = std::unique_ptr<WTF::ListHashSetNode<unsigned long>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<unsigned long>>, Traits = WTF::ListHashSet<unsigned long>::NodeTraits, KeyTraits = WTF::ListHashSet<unsigned long>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)hTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)r>>, Traits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<API::HTTPCookieStoreObserver>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)entWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)urce recovery failed:Source size is invalid and would overflow. /* Error: Ran out of types for this method. */;
+- (long long)erMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)>, Traits = WTF:(long long)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::ViewGestureController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)_participantIdentifierMap;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *completionCacheSuggestions; // @synthesize completionCacheSuggestions=_completionCacheSuggestions;
-@property(retain, nonatomic) SFSearchSuggestion *engagedSuggestion; // @synthesize engagedSuggestion=_engagedSuggestion;
-@property(nonatomic) long long exp; // @synthesize exp=_exp;
-@property(copy, nonatomic) NSString *l2version; // @synthesize l2version=_l2version;
-@property(copy, nonatomic) NSString *l3version; // @synthesize l3version=_l3version;
-@property(copy, nonatomic) NSArray *localContextualSuggestions; // @synthesize localContextualSuggestions=_localContextualSuggestions;
-@property(copy, nonatomic) NSString *previouslyEngagedQuery; // @synthesize previouslyEngagedQuery=_previouslyEngagedQuery;
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(copy, nonatomic) NSDictionary *topics; // @synthesize topics=_topics;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

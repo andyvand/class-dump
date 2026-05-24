@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, SCKZoneDiff, SCKZoneSchema;
+@class SCKZoneSchema;
 
 @interface SCKZoneModificationSilo
 {
     SCKZoneSchema *_zoneSchema;
-    NSMutableDictionary *_originalRecordsByID;
-    NSMutableDictionary *_workingRecordsByID;
-    NSMutableDictionary *_recordsToSaveByID;
-    NSMutableArray *_deletedRecordIDs;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)b;
 - (void);
 - (void);
+- (id)@@"<IDSXPCOffGridStateManagerClient>";
+- (void)Array";
 - (id);
-- (void);
-- (id);
-- (id);
+- (id):: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -34,11 +30,6 @@
 - (id)z;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;
-@property(readonly, copy, nonatomic) SCKZoneDiff *diff;
-@property(retain, nonatomic) NSMutableDictionary *originalRecordsByID; // @synthesize originalRecordsByID=_originalRecordsByID;
-@property(retain, nonatomic) NSMutableDictionary *recordsToSaveByID; // @synthesize recordsToSaveByID=_recordsToSaveByID;
-@property(retain, nonatomic) NSMutableDictionary *workingRecordsByID; // @synthesize workingRecordsByID=_workingRecordsByID;
 @property(retain, nonatomic) SCKZoneSchema *zoneSchema; // @synthesize zoneSchema=_zoneSchema;
 
 @end

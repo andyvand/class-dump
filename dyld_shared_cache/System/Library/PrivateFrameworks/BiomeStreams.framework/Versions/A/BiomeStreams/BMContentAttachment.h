@@ -9,11 +9,9 @@
 @interface BMContentAttachment
 {
     NSString *_type;
-    NSString *_filename;
-    NSString *_path;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
@@ -21,13 +19,13 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)userDidOKErrorDialog: /* Error: Ran out of types for this method. */;
+- (_Bool)>;
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -38,16 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

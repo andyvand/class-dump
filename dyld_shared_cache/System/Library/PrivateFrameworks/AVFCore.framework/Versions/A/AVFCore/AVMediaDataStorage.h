@@ -11,13 +11,13 @@
     AVMediaDataStorageInternal *_mediaDataStorageInternal;
 }
 
-- (id);
+- (id)A4;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void)stItem;
+- (id)t allowed on %@;
+- (void)lastItem;
 
 @end
 

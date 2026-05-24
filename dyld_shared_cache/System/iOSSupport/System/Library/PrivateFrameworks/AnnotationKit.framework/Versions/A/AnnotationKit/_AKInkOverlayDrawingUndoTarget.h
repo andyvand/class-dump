@@ -11,10 +11,10 @@
     AKPageController *_pageController;
 }
 
-- (void);
+- (void)com.apple.photos.ui;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

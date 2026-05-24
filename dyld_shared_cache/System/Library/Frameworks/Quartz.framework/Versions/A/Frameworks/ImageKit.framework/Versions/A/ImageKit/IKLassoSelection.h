@@ -4,38 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKComposer, IKImageLayer, IKKnobLayer;
+@class IKComposer;
 
 @interface IKLassoSelection
 {
     IKComposer *_composer;
-    IKImageLayer *_imageLayer;
-    struct CGRect _selectionRect;
-    _Bool _creatingPath;
-    struct CGPoint _mouseDownLocation;
-    struct CGPoint _originalPos;
-    struct CGRect _originalBounds;
-    struct CGPoint *_points;
-    struct CGPoint _lastPoint;
-    int _numberOfPoints;
-    float _minX;
-    float _maxX;
-    float _minY;
-    float _maxY;
-    IKKnobLayer *_knobLayer;
-    double _factor;
-    double _lineWidthFactor;
-    unsigned short _ant_stipple;
-    _Bool _supportsUndo;
 }
 
-+ (double);
++ (double)P;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -45,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -53,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)replaceLevelWithStringVal:(struct CGRect)arg1;
 - (void);
 - (void);
 - (void);

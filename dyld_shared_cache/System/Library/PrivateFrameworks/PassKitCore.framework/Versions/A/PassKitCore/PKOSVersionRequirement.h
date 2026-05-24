@@ -9,13 +9,6 @@
 @interface PKOSVersionRequirement
 {
     NSString *_iphone;
-    NSString *_ipad;
-    NSString *_ipod;
-    NSString *_appletv;
-    NSString *_mac;
-    NSString *_watch;
-    NSString *_vision;
-    NSString *_specifiediphone;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
@@ -35,30 +28,23 @@
 - (unsigned long long);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)setDecisionVIBE:(id)arg1;
+- (void)I,N,V_heRxtrigBasic;
+- (void)tcpECNFallbackSynLoss;
 - (id);
 - (id);
 - (id);
 - (id)ï%1Â0@ù
 × ;
 - (id)16@"PKAutoFillCardCredential"24@?<v@?@"NSError">32;
-- (id)AccountUsersExcludingCurrentAccountUser;
+- (id)activeAccountUsersExcludingCurrentAccountUser;
 - (void)l*;
 - (void)Passes with an NFC dictionary or a Personalization JSON file must be signed with an enhanced Passbook certificate.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appletv; // @synthesize appletv=_appletv;
-@property(retain, nonatomic) NSString *ipad; // @synthesize ipad=_ipad;
 @property(retain, nonatomic) NSString *iphone; // @synthesize iphone=_iphone;
-@property(retain, nonatomic) NSString *ipod; // @synthesize ipod=_ipod;
-@property(retain, nonatomic) NSString *mac; // @synthesize mac=_mac;
-@property(retain, nonatomic) NSString *specifiediphone; // @synthesize specifiediphone=_specifiediphone;
-@property(retain, nonatomic) NSString *vision; // @synthesize vision=_vision;
-@property(retain, nonatomic) NSString *watch; // @synthesize watch=_watch;
 
 @end
 

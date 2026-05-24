@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACUIAccountTypesCellView, NSArray, NSString, NSTableView;
-@protocol ACUIAccountTypesViewControllerDelegate;
+@class NSArray;
 
 @interface ACUIAccountTypesViewController
 {
     _Bool _isDisplayingOtherAccounts;
-    NSTableView *_tableView;
-    id <ACUIAccountTypesViewControllerDelegate> _delegate;
-    NSArray *_accountTypes;
-    ACUIAccountTypesCellView *_lastHighlightedCell;
 }
 
 - (void);
@@ -38,17 +33,6 @@
 
 // Remaining properties
 @property(retain) NSArray *accountTypes; // @synthesize accountTypes=_accountTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <ACUIAccountTypesViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isDisplayingOtherAccounts; // @synthesize isDisplayingOtherAccounts=_isDisplayingOtherAccounts;
-@property __weak ACUIAccountTypesCellView *lastHighlightedCell; // @synthesize lastHighlightedCell=_lastHighlightedCell;
-@property(readonly) Class superclass;
-@property(retain) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

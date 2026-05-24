@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface DMFBook
 {
     NSString *_persistentID;
-    NSNumber *_iTunesStoreID;
-    NSString *_author;
-    NSString *_title;
-    NSString *_version;
-    unsigned long long _type;
-    unsigned long long _state;
 }
 
 + (_Bool);
@@ -22,26 +16,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)55;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id)udeUnmanagedApps;
+- (id)excludeUnmanagedApps;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(readonly, copy, nonatomic) NSNumber *iTunesStoreID; // @synthesize iTunesStoreID=_iTunesStoreID;
 @property(readonly, copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

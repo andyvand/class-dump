@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)X;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *settingKey;

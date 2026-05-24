@@ -16,10 +16,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)getDoubleValue:(CDUnknownBlockType)arg1 forKey:inOptions:withDefaultValue:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)e;
+- (void)inputRecordingSampleRate;
 
 @end
 

@@ -9,21 +9,19 @@
 @interface OIPieChartRenderer
 {
     id <OIPieSliceRenderer> _sliceRenderer;
-    struct __OIChart *_chart;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Em;
 - (id);
 - (struct __OIChart *);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property struct __OIChart *chart; // @synthesize chart=_chart;
 @property(retain) id <OIPieSliceRenderer> sliceRenderer; // @synthesize sliceRenderer=_sliceRenderer;
 
 @end

@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAEmitterLayer, NSObject, NSString;
-@protocol CKSendAnimationManager, OS_dispatch_group;
+@class CAEmitterLayer;
+@protocol CKSendAnimationManager;
 
 @interface CKChatControllerDummyAnimator
 {
     id <CKSendAnimationManager> _animationDelegate;
-    CAEmitterLayer *_dustEmitter;
-    NSObject<OS_dispatch_group> *_throwAnimationGroup;
-    CDUnknownBlockType _popAnimationCompletionBlock;
 }
 
-- (id);
+- (id)orViewDelegate>",W,N,V_delegate;
 - (void);
 - (void);
+- (void)n;
 - (void);
+- (void)e;
 - (void);
+- (CDUnknownBlockType)n;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
+- (id)generated paper document fallback PDF and preview images;
 - (void);
 - (void);
 - (id);
@@ -49,17 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CKSendAnimationManager> animationDelegate; // @synthesize animationDelegate=_animationDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CAEmitterLayer *dustEmitter; // @synthesize dustEmitter=_dustEmitter;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType popAnimationCompletionBlock; // @synthesize popAnimationCompletionBlock=_popAnimationCompletionBlock;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *throwAnimationGroup; // @synthesize throwAnimationGroup=_throwAnimationGroup;
 
 @end
 

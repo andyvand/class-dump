@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer, NSURL, WBSConfigurationDownloader;
-@protocol OS_dispatch_queue, OS_dispatch_source, WBSRemotelyUpdatableDataControllerDelegate, WBSRemotelyUpdatableDataSnapshot;
+@protocol WBSRemotelyUpdatableDataControllerDelegate;
 
 @interface WBSRemotelyUpdatableDataController
 {
     long long _dataFormat;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_diskWriteQueue;
-    CDUnknownBlockType _builtInListDataProvider;
-    NSURL *_downloadsDirectoryURL;
-    NSString *_resourceName;
-    NSString *_resourceVersion;
-    NSString *_updateDateDefaultsKey;
-    Class _snapshotClass;
-    Class _snapshotTransformerClass;
-    double _updateInterval;
-    id <WBSRemotelyUpdatableDataSnapshot> _builtInSnapshot;
-    id <WBSRemotelyUpdatableDataSnapshot> _remotelyLoadedSnapshot;
-    id <WBSRemotelyUpdatableDataSnapshot> _currentSnapshot;
-    WBSConfigurationDownloader *_configurationDownloader;
-    NSTimer *_updateTimer;
-    NSObject<OS_dispatch_source> *_downloadedFileChangedSource;
-    NSObject<OS_dispatch_source> *_downloadedFileChangedCoalescingSource;
-    _Bool _shouldAttemptToUpdateConfiguration;
-    _Bool _shouldAttemptToDownloadConfiguration;
-    _Bool _dataIsUsedByMultipleProcesses;
-    _Bool _shouldKeepBuiltInSnapshotLoaded;
-    id <WBSRemotelyUpdatableDataControllerDelegate> _delegate;
 }
 
 + (id);
@@ -61,22 +38,18 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)propertyListWithData:(id)arg1 options:format:error: /* Error: Ran out of types for this method. */;
+- (void)properties;
+- (id)predicateWithProperty:values: /* Error: Ran out of types for this method. */;
+- (void)accessibilityChildrenInNavigationOrder;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)setAllInkEnabled: /* Error: Ran out of types for this method. */;
+- (void)ICMachineDataProvisionOperation;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool dataIsUsedByMultipleProcesses; // @synthesize dataIsUsedByMultipleProcesses=_dataIsUsedByMultipleProcesses;
 @property(nonatomic) __weak id <WBSRemotelyUpdatableDataControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool shouldAttemptToDownloadConfiguration; // @synthesize shouldAttemptToDownloadConfiguration=_shouldAttemptToDownloadConfiguration;
-@property(nonatomic) _Bool shouldAttemptToUpdateConfiguration; // @synthesize shouldAttemptToUpdateConfiguration=_shouldAttemptToUpdateConfiguration;
-@property(nonatomic) _Bool shouldKeepBuiltInSnapshotLoaded; // @synthesize shouldKeepBuiltInSnapshotLoaded=_shouldKeepBuiltInSnapshotLoaded;
 
 @end
 

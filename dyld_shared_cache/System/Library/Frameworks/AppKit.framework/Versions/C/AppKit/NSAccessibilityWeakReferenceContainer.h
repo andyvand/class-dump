@@ -8,17 +8,14 @@ __attribute__((visibility("hidden")))
 @interface NSAccessibilityWeakReferenceContainer
 {
     unsigned long long _hash;
-    id _weakReference;
-    id _danglingReference;
-    _Bool _hasWeakReference;
 }
 
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id)erns:(struct _NSZone *)arg1 atIndex:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_detectPatternsForPatterns:(struct _NSZone *)arg1 atIndex:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)Nô;
 
 // Remaining properties

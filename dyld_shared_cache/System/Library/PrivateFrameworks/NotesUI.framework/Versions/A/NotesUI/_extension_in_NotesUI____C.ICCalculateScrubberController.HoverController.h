@@ -7,12 +7,9 @@
 @interface (extension in NotesUI):__C.ICCalculateScrubberController.HoverController
 {
     id scrubberController;
-    id numberLiteral;
-    id hoveredCharacterIndex;
-    id $__lazy_storage_$_showScrubberDelayer;
 }
 
-- (void);
+- (void)es:isBundleSubscriber:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)tedString;
 

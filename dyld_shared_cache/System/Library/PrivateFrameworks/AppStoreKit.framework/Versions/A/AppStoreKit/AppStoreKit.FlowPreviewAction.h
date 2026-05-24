@@ -9,8 +9,6 @@
 @interface AppStoreKit.FlowPreviewAction : AppStoreKit.Action
 {
     id previewViewController;
-    id presentationContext;
-    id requiresNavigationController;
 }
 
 @end

@@ -10,7 +10,6 @@
 @interface SPKCalculatorQuery
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_results;
 }
 
 + (int);
@@ -22,11 +21,12 @@
 + (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)rty %@ for endpoint:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)bytes at %lld to to_fdp
+;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSArray *results; // @synthesize results=_results;

@@ -7,12 +7,6 @@
 @interface ChatKit.DetailsPhotosTab
 {
     id _viewModel;
-    id _currentSelection;
-    id _defaultTitle;
-    id _title;
-    id _editMenuTitle;
-    id _position;
-    id _$observationRegistrar;
 }
 
 @end

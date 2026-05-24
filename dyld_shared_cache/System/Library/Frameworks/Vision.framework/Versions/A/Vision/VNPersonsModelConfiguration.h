@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, VNPersonsModelAlgorithm;
+@class VNPersonsModelAlgorithm;
 
 @interface VNPersonsModelConfiguration
 {
     VNPersonsModelAlgorithm *_algorithm;
-    unsigned long long _faceprintRequestRevision;
-    NSNumber *_explicitlySetMaximumIdentities;
-    NSNumber *_explicitlySetMaximumTrainingFaceprintsPerIdentity;
 }
 
 + (unsigned long long);
@@ -19,7 +16,7 @@
 + (_Bool);
 - (int);
 - (unsigned long long);
-- (id);
+- (id)fp_fpfsProviderDomainID:(id)arg1 skipTypeCheck:error: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
@@ -27,10 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)propertiesForFilesystem:mergeWithOtherFilesystems: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)A;
 - (int);
 - (unsigned long long);
 - (void);
@@ -42,9 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) VNPersonsModelAlgorithm *algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) unsigned long long faceprintRequestRevision; // @synthesize faceprintRequestRevision=_faceprintRequestRevision;
-@property(nonatomic) unsigned long long maximumIdentities;
-@property(nonatomic) unsigned long long maximumTrainingFaceprintsPerIdentity;
 
 @end
 

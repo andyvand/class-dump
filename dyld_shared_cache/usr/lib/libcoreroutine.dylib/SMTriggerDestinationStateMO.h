@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
-
 @interface SMTriggerDestinationStateMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)SNumber"@"NSNumber"@"NSNumber"@"NSError">28;
++ (id)_insertMirrorKey;
++ (id)nedByPublicIdentity:decryptionBlock:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) short currentStatus; // @dynamic currentStatus;
-@property(copy, nonatomic) NSDate *currentStatusDate; // @dynamic currentStatusDate;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSDate *lastLockDate; // @dynamic lastLockDate;
-@property(copy, nonatomic) NSDate *lastUnlockDate; // @dynamic lastUnlockDate;
-@property(nonatomic) double mapsExpectedTravelTime; // @dynamic mapsExpectedTravelTime;
-@property(nonatomic) short numberOfETARetries; // @dynamic numberOfETARetries;
-@property(nonatomic) long long predominantModeOfTransport_v2; // @dynamic predominantModeOfTransport_v2;
-@property(nonatomic) double remainingDistance; // @dynamic remainingDistance;
-@property(copy, nonatomic) NSDate *roundTripReminderDate; // @dynamic roundTripReminderDate;
-@property(copy, nonatomic) NSUUID *sessionIdentifier_v2; // @dynamic sessionIdentifier_v2;
-@property(nonatomic) _Bool shouldRetryETAQuery; // @dynamic shouldRetryETAQuery;
-@property(copy, nonatomic) NSDate *timeToUpdateStatus; // @dynamic timeToUpdateStatus;
-@property(copy, nonatomic) NSDate *upperBoundEtaCrowFliesUpperBoundEta; // @dynamic upperBoundEtaCrowFliesUpperBoundEta;
-@property(copy, nonatomic) NSDate *upperBoundEtaMapsUpperBoundEta; // @dynamic upperBoundEtaMapsUpperBoundEta;
 
 @end
 

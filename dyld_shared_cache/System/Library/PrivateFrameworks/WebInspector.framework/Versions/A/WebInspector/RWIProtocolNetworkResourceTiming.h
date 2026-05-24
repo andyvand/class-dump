@@ -13,41 +13,32 @@
 - (id);
 - (void);
 - (double);
-- (double);
-- (double);
-- (void);
-- (double);
+- (double);
 - (double);
 - (void);
-- (void);
-- (void);
 - (double);
 - (double);
+- (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (void);
-- (void);
+- (void)%p rpc__naf_set_pkt_nodelay failed, error = %d
+;
+- (void)pred_rtn)
+;
+- (double);
 - (double);
 - (void);
 - (void);
 - (double);
+- (void);
+- (void)f;
+- (double);
 - (double);
 - (void)\;
 
 // Remaining properties
-@property(nonatomic) double connectEnd;
-@property(nonatomic) double connectStart;
-@property(nonatomic) double domainLookupEnd;
-@property(nonatomic) double domainLookupStart;
-@property(nonatomic) double fetchStart;
-@property(nonatomic) double redirectEnd;
-@property(nonatomic) double redirectStart;
-@property(nonatomic) double requestStart;
-@property(nonatomic) double responseEnd;
-@property(nonatomic) double responseStart;
-@property(nonatomic) double secureConnectionStart;
 @property(nonatomic) double startTime;
 
 @end

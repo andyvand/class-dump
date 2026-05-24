@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, MSAlertManager;
-
 @interface MSAuthenticationManager
 {
     int _state;
-    MSAlertManager *_alertManager;
-    ACAccountStore *_acAccountStore;
-    int _bagRefetchCount;
-    _Bool _isListeningToKeybagChanges;
-    int _keybagChangeNotifyToken;
 }
 
 + (id);
@@ -23,18 +16,16 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)e update %@;
 - (void);
 - (void);
-- (void);
-- (int);
+- (int);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isListeningToKeybagChanges; // @synthesize isListeningToKeybagChanges=_isListeningToKeybagChanges;
-@property(nonatomic) int keybagChangeNotifyToken; // @synthesize keybagChangeNotifyToken=_keybagChangeNotifyToken;
-@property(readonly, nonatomic, getter=isWaitingForAuth) _Bool waitingForAuth;
 
 @end
 

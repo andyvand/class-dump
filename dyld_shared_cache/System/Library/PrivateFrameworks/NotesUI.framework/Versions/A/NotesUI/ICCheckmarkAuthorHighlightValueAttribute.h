@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface ICCheckmarkAuthorHighlightValueAttribute
 {
     double _foregroundAlpha;
-    NSColor *_highlightColor;
 }
 
 - (id);
@@ -20,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void)sEvaluatorMatchString;
+- (void)_csEvaluatorMatchString;
 - (double)ate result;
 
 // Remaining properties
 @property(nonatomic) double foregroundAlpha; // @synthesize foregroundAlpha=_foregroundAlpha;
-@property(copy, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
 
 @end
 

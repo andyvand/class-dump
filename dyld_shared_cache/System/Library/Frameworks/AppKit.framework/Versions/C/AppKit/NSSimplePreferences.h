@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_customButtons;
 }
 
-+ (void);
-+ (void);
++ (void)checked_didResumeAtOffset;
++ (void)_undeterminedDownloadProgressState;
 + (id);
 - (_Bool);
 - (void);
@@ -27,30 +27,29 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)setContentDispositionEncodingFallbackArray:(id)arg1;
+- (id)setAllowsSpecificHTTPSCertificate:(id)arg1 forHost:(id)arg2;
+- (void)addChild:withPendingUnitCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (float);
+- (float)huff_decode_fast;
+- (id)request:%@ /* Error: Ran out of types for this method. */;
+- (id)or;
+- (id)violationType;
+- (id);
+- (id)a99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (id)EUuQ09NoiowKKADAgEDoSEwHxsESFRUUBsXY29yZXByb3h5MjAwNi5hcHBsZS5jb22jggPIMIIDxKADAgEXoQMCAQuiggO2BIIDsr462JTRgOjDtOBS82RF5fsT81I+xb2M7e2roBBr/iiPw7ceB94eq1yqTjfHFDlScm96toANdWSwRyAXDc5zpV6IE4+R4i3rDAAAiESAEThFXkIIm1A9oDDkvdbRYxpQ7ZxQTIRnf9scj2NMcQYJjeZgcoevQmRw1anhxXQPyTwNXGlz4XHVmS8hC4uoDOH0IhSkT3grri1c/GwQnHSmQdP82oKGjU9NKN4a3I/daTWoAXoX+Rx/Pi8zvT1DJiarcC9R4r50z4/hSZHo72jVY+BfbekKuzGPPVULO3NZMh2bGTq+1wsVCk86GVhq21BQZPS7ovvAu7yMj2pDUPLDDiuXUEwBdtZj6UR64VZE8MVY75cgOXU89QjVkA4cJVp7wmWVPiJRYDos2NhHvdfza2PM5uAi3wxpj3u4SUvWdrnl3T6mGIvzP+rle+osabo+votkD6bewAYPgzIHmZ8EdbzjADBsziSQGZu7zVU6nxm/6dfsRkX368s/jnIhAjZjLp34o5uTqA4LfSzuUf4zC5hE1q/PSD8DNTK/LH4pMApZqCN03hbugMsf2Ya1irOY/7/uHsfA0Vv/GbsQmbXxDfdao3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (id)CCBBqgAwIBBaEbGxlDT1JFU0VSVklDRVNET00uQVBQTEUuQ09NoiowKKADAgEDoSEwHxsESFRUUBsXY29yZXByb3h5MjAwNi5hcHBsZS5jb22jggPIMIIDxKADAgEXoQMCAQuiggO2BIIDsr462JTRgOjDtOBS82RF5fsT81I+xb2M7e2roBBr/iiPw7ceB94eq1yqTjfHFDlScm96toANdWSwRyAXDc5zpV6IE4+R4i3rDAAAiESAEThFXkIIm1A9oDDkvdbRYxpQ7ZxQTIRnf9scj2NMcQYJjeZgcoevQmRw1anhxXQPyTwNXGlz4XHVmS8hC4uoDOH0IhSkT3grri1c/GwQnHSmQdP82oKGjU9NKN4a3I/daTWoAXoX+Rx/Pi8zvT1DJiarcC9R4r50z4/hSZHo72jVY+BfbekKuzGPPVULO3NZMh2bGTq+1wsVCk86GVhq21BQZPS7ovvAu7yMj2pDUPLDDiuXUEwBdtZj6UR64VZE8MVY75cgOXU89QjVkA4cJVp7wmWVPiJRYDos2NhHvdfza2PM5uAi3wxpj3u4SUvWdrnl3T6mGIvzP+rle+osabo+votkD6bewAYPgzIHmZ8EdbzjADBsziSQGZu7zVU6nxm/6dfsRkX368s/jnIhAjZjLp34o5uTqA4LfSzuUf4zC5hE1q/PSD8DNTK/LH4pMApZqCN03hbugMsf2Ya1irOY/7/uHsfA0Vv/GbsQmbXxDfdao3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (id)st-name.  Failing operation.;
+- (id)henticationChallenge must have init parameters;
+- (id)eam error:(id)arg1 %d;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *_customButtons; // @synthesize _customButtons;
 @property(readonly, nonatomic) float _horizontalBasePriority;
 
 @end

@@ -7,28 +7,23 @@
 #import <CloudPhotoLibrary/CPLResourceTransferTask.h>
 
 @class CPLResource;
-@protocol CPLEngineTransportTask;
 
 @interface CPLEngineResourceUploadTask : CPLResourceTransferTask
 {
     _Bool _backgroundTask;
-    CPLResource *_cloudResource;
-    id <CPLEngineTransportTask> _transportTask;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=isBackgroundTask) _Bool backgroundTask; // @synthesize backgroundTask=_backgroundTask;
 @property(retain, nonatomic) CPLResource *cloudResource; // @synthesize cloudResource=_cloudResource;
-@property(retain, nonatomic) id <CPLEngineTransportTask> transportTask; // @synthesize transportTask=_transportTask;
 
 @end
 

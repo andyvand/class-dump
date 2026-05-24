@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _CDPModelTuningState, _CDPSimpleModelParameterManagerTuningValue;
+@class _CDPSimpleModelParameterManagerTuningValue;
 
 @interface _CDPSimpleModelParameterManagerAccountState
 {
     _CDPSimpleModelParameterManagerTuningValue *_previousBestTuningValue;
-    NSMutableArray *_tuningValues;
-    _CDPModelTuningState *_lastTuningState;
 }
 
 + (_Bool);
@@ -20,16 +18,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void)ª31Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) _CDPModelTuningState *lastTuningState; // @synthesize lastTuningState=_lastTuningState;
 @property(retain, nonatomic) _CDPSimpleModelParameterManagerTuningValue *previousBestTuningValue; // @synthesize previousBestTuningValue=_previousBestTuningValue;
-@property(retain, nonatomic) NSMutableArray *tuningValues; // @synthesize tuningValues=_tuningValues;
 
 @end
 

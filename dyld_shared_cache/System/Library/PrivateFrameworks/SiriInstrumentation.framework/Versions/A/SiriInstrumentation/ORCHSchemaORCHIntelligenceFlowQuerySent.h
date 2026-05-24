@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHIntelligenceFlowQuerySent : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_plannerQueryId;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    SISchemaUUID *_traceId;
-    _Bool _hasPlannerQueryId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
-    _Bool _hasTraceId;
 }
 
 - (id);
@@ -47,21 +40,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)s;
+- (id)_candidateTuples;
 - (id)HSchemaORCHUIActivationEnded",&,N,V_ended;
 - (void)utcome.parameterConfirmation.item.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (id)êÿìê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlannerQueryId; // @synthesize hasPlannerQueryId=_hasPlannerQueryId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *plannerQueryId; // @synthesize plannerQueryId=_plannerQueryId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

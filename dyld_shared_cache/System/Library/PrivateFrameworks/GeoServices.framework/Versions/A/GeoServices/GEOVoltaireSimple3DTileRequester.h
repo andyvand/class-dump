@@ -13,9 +13,10 @@
 + (unsigned char);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool))1
+*J@9I3J@9I;
 - (CDUnion_20bcf645);
-- (id);
+- (id)supports_area_events_enhancements;
 
 @end
 

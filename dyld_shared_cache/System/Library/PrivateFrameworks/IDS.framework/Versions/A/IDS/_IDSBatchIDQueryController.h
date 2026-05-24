@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, NSArray, NSDate, NSMutableArray, NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface _IDSBatchIDQueryController
 {
     NSString *_serviceName;
-    CUTWeakReference *_delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_listenerID;
-    NSArray *_destinations;
-    NSMutableArray *_destinationsToQuery;
-    struct os_unfair_lock_s _destinationsToQuerylock;
-    NSTimer *_nextQueryTimer;
-    NSDate *_timeOfDeath;
-    id _rateLimiter;
-    CUTWeakReference *_parent;
-    int _numberOfQueriesDone;
-    _Bool _isDead;
 }
 
-- (void);
+- (void)Th: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -37,13 +24,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

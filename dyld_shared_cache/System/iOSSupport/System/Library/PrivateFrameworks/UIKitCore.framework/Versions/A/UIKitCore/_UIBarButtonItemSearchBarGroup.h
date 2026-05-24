@@ -6,24 +6,18 @@
 
 #import <UIKitCore/UIBarButtonItemGroup.h>
 
-@class UIBarButtonItem, UISearchBar;
+@class UISearchBar;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarButtonItemSearchBarGroup : UIBarButtonItemGroup
 {
     _Bool _hadRepresentativeItemBeforeMovingToProvisionalState;
-    _Bool _disabledExpansion;
-    double _contextualExpandedPadding;
-    _Bool _providesRestingMeasurementValues;
-    UIBarButtonItem *_searchItem;
-    UISearchBar *_searchBar;
-    UIBarButtonItem *_searchIconItem;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)tists|stations;
 - (void);
 - (void)°1Â0@ù
 × ;
@@ -35,9 +29,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)@"UITableViewCellReorderControl";
 - (id);
-- (id)leKey: /* Error: Ran out of types for this method. */;
+- (id)initWithEmphasisStyleKey: /* Error: Ran out of types for this method. */;
 - (_Bool)initWithEdge: /* Error: Ran out of types for this method. */;
-- (void)tionForTab:(_Bool)arg1;
+- (void)_contextMenuConfigurationForTab:(_Bool)arg1;
 - (_Bool)Î#;
 - (double));
 - (void)AndComposerGetterP;
@@ -45,11 +39,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)¤uÿ5VX;
 
 // Remaining properties
-@property(nonatomic, setter=_setSearchBarShouldBeFlexible:) _Bool _searchBarShouldBeFlexible;
-@property(nonatomic) _Bool providesRestingMeasurementValues; // @synthesize providesRestingMeasurementValues=_providesRestingMeasurementValues;
 @property(readonly, nonatomic) __weak UISearchBar *searchBar; // @synthesize searchBar=_searchBar;
-@property(readonly, nonatomic) __weak UIBarButtonItem *searchIconItem; // @synthesize searchIconItem=_searchIconItem;
-@property(readonly, nonatomic) __weak UIBarButtonItem *searchItem; // @synthesize searchItem=_searchItem;
 
 @end
 

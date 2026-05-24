@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitPaymentMethodSuggestionDetails, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitPaymentMethodSuggestion
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _paymentMethodIndexs;
-    GEOPBTransitPaymentMethodSuggestionDetails *_paymentMethodSuggestionDetails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _purpose;
-    int _type;
-    struct {
-        unsigned int has_purpose:1;
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_paymentMethodIndexs:1;
-        unsigned int read_paymentMethodSuggestionDetails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)asVehicleSpeed:(id)arg1;
++ (_Bool)setHasVehicleSpeed:(id)arg1;
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (id);
 - (id);
@@ -48,17 +32,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)handleSessionInfoProvidingDelegateInterruptionNotification:(id)arg1 ];
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool)!bl!(b	a;
+- (int)dd}}48Q80d88B96@100;
 - (_Bool);
 - (id);
 - (void);
 - (id)b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
-- (void)gestionsContactRevelanceScore;
-- (id)unt;
+- (void)_mapsSuggestionsContactRevelanceScore;
+- (id)userActionMetadataElementsCount;
 - (int)Ü©;
 - (id)øïð;
 - (id)p.observersIsolation;
@@ -70,15 +54,7 @@
 - (void)g'6þº6;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPaymentMethodSuggestionDetails;
-@property(nonatomic) _Bool hasPurpose;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) unsigned int *paymentMethodIndexs;
 @property(readonly, nonatomic) unsigned long long paymentMethodIndexsCount;
-@property(retain, nonatomic) GEOPBTransitPaymentMethodSuggestionDetails *paymentMethodSuggestionDetails;
-@property(nonatomic) int purpose;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

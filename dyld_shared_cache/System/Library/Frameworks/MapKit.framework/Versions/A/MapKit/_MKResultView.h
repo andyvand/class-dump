@@ -4,60 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, MKImageView, MKLocationManager, MKMapItem, NSArray, NSColor, NSMutableArray, NSString, NSTimer, _MKUILabel;
-@protocol _MKResultViewDelegate;
+@class NSArray, _MKUILabel;
 
 @interface _MKResultView
 {
     NSArray *_mapItems;
-    CLLocation *_referenceLocation;
-    _Bool _alwaysUsesBusinessLayout;
-    int _layoutType;
-    id <_MKResultViewDelegate> delegate;
-    _Bool _selected;
-    _Bool _showsDistance;
-    NSMutableArray *_resultConstraints;
-    MKLocationManager *_locManager;
-    NSString *_primaryLabelText;
-    NSString *_secondaryLabelText;
-    NSTimer *_refLocationTimer;
-    _Bool _isResizableImage;
-    _MKUILabel *_nameLabel;
-    _MKUILabel *_secondaryLabel;
-    _MKUILabel *_tertiaryLabel;
-    id <_MKResultViewDelegate> _delegate;
-    double _fallbackDistance;
-    NSColor *_primaryTextColor;
-    NSColor *_secondaryTextColor;
-    MKImageView *_imageView;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)40;
+- (void)timeIntervalSince1970;
+- (void)testHighVolumeStartStopReporting:(id)arg1 withInfo:withNumIterations: /* Error: Ran out of types for this method. */;
+- (void)setPendingTaskCache:(id)arg1;
+- (void)setActivityNameToInvolvedIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)reportQuickEnergyForInterval:(id)arg1 withIdentifier:andAdjustSnapshotToNow: /* Error: Ran out of types for this method. */;
+- (void)powerlogReportTimer;
+- (void)description;
+- (void)l1Duration;
+- (id)onQueue;
+- (id)h_queue>",&,V_workQueue;
+- (id)ilities:failed to copy minor upgrade logs, srcPath = %@ /* Error: Ran out of types for this method. */;
+- (id), srcPath = %@;
+- (_Bool)g coalition ID mapping;
+- (void)ergy from coalitions snapshot for  coalitionID=%llu;
+- (void)ions data for identifier=%@, mockDataForIdentifier=%@;
 - (id);
 - (id);
 - (double);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (unsigned long long);
@@ -71,7 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)safetyAlertsAlertID;
 - (void);
 - (void);
 - (struct CGSize);
@@ -79,57 +58,34 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (id);
+- (id)VNFaceDetectorInitOption_EnableLowMemoryMode;
 - (void);
 - (id);
-- (struct CGSize);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (struct CGSize)u&;
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)Delayed active audio session:(struct CGRect)arg1 Ignored activate audio session for reason %{public}@ because the scheduled token %{public}@ does not match the current token %{public}@.;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)�;
 - (double);
-- (void);
-- (void);
-- (void)electedTimeIndex: /* Error: Ran out of types for this method. */;
+- (void)_callCompletionWithAuthIdentity:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)NSString",R,V_responseBody;
+- (void)setSelectedTimeIndex: /* Error: Ran out of types for this method. */;
 - (void)T@"GEOURLLocationQueryItem",R,N;
 - (void);
-- (_Bool)erAnnotationViewReuseIdentifier;
+- (_Bool)MKMapViewDefaultClusterAnnotationViewReuseIdentifier;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysUsesBusinessLayout; // @synthesize alwaysUsesBusinessLayout=_alwaysUsesBusinessLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_MKResultViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fallbackDistance; // @synthesize fallbackDistance=_fallbackDistance;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) MKMapItem *mapItem;
-@property(retain, nonatomic) NSArray *mapItems;
 @property(retain, nonatomic) _MKUILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(readonly, nonatomic) double preferredHeight;
-@property(retain, nonatomic) NSString *primaryLabelText;
-@property(retain, nonatomic) NSColor *primaryTextColor; // @synthesize primaryTextColor=_primaryTextColor;
-@property(retain, nonatomic) CLLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(retain, nonatomic) _MKUILabel *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
-@property(retain, nonatomic) NSString *secondaryLabelText;
-@property(retain, nonatomic) NSColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
-@property(nonatomic) _Bool selected;
-@property(nonatomic) _Bool showsDistance;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _MKUILabel *tertiaryLabel; // @synthesize tertiaryLabel=_tertiaryLabel;
 
 @end
 

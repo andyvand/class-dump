@@ -7,20 +7,6 @@
 @interface NewsUI2.SearchService
 {
     id searchFetcher;
-    id searchModelFactory;
-    id tagService;
-    id headlineService;
-    id recipeService;
-    id recipeBoxSearchDatabase;
-    id feedContextFactory;
-    id inflaterFactory;
-    id tagFactory;
-    id articleFactory;
-    id recipeFactory;
-    id headlineModelFactory;
-    id featureAvailability;
-    id recipeAccessProvider;
-    id logger;
 }
 
 @end

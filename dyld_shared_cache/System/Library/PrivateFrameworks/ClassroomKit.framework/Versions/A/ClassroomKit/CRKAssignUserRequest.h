@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CRKAssignUserRequest
 {
     NSString *_userIdentifier;
-    NSNumber *_groupID;
-    NSString *_displayName;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_imageURL;
-    NSString *_fullScreenImageURL;
-    NSString *_appleID;
-    NSString *_passcodeType;
-    NSString *_password;
-    NSArray *_enrolledCourseIdentifiers;
 }
 
 + (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)logIDSNetworkEntries:(id)arg1;
+- (id)ousPortControllerRead;
+- (void)>;
+- (void);
+- (id)P;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)o;
 - (id);
 - (void);
 - (id);
@@ -46,19 +36,9 @@
 - (void);
 - (void);
 - (id)2;
-- (id)ficatePersistentID;
+- (id)_resourcePayloadCertificatePersistentID;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *enrolledCourseIdentifiers; // @synthesize enrolledCourseIdentifiers=_enrolledCourseIdentifiers;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *fullScreenImageURL; // @synthesize fullScreenImageURL=_fullScreenImageURL;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(copy, nonatomic) NSString *imageURL; // @synthesize imageURL=_imageURL;
-@property(copy, nonatomic) NSString *passcodeType; // @synthesize passcodeType=_passcodeType;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 @property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end

@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIconDecoration, NSString;
+@class ISIconDecoration;
 @protocol ISScalableCompositorResource;
 
 @interface ISIconDecorationResource
 {
     ISIconDecoration *_decoration;
-    id <ISScalableCompositorResource> _internalResource;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) ISIconDecoration *decoration; // @synthesize decoration=_decoration;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <ISScalableCompositorResource> internalResource; // @synthesize internalResource=_internalResource;
-@property(readonly) Class superclass;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

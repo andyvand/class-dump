@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOCyclingOptions, GEOStorageResumeRouteHandle, GEOTransitOptions, GEOURLRouteHandle, GEOWalkingOptions, NSData, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOStorageRouteRequestStorage
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOCyclingOptions *_cyclingOptions;
-    NSData *_destinationPersistentData;
-    GEOStorageResumeRouteHandle *_resumeRouteHandleStorage;
-    GEOURLRouteHandle *_routeHandle;
-    GEOTransitOptions *_transitOptions;
-    GEOWalkingOptions *_walkingOptions;
-    NSMutableArray *_waypoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _transportType;
-    struct {
-        unsigned int has_transportType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_automobileOptions:1;
-        unsigned int read_cyclingOptions:1;
-        unsigned int read_destinationPersistentData:1;
-        unsigned int read_resumeRouteHandleStorage:1;
-        unsigned int read_routeHandle:1;
-        unsigned int read_transitOptions:1;
-        unsigned int read_walkingOptions:1;
-        unsigned int read_waypoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)lternateRouteCount:(id)arg1;
++ (_Bool)setMaxAlternateRouteCount:(id)arg1;
 
 @end
 

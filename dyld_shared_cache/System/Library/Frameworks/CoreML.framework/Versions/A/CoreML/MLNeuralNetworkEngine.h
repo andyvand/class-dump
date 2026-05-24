@@ -6,63 +6,9 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class EspressoProfilingNetworkInfo, MLCompilerNeuralNetworkOutput, MLFeatureProviderConformer, MLModelConfiguration, MLModelDescription, MLModelMetadata, MLPixelBufferPool, MLVersionInfo, NSArray, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface MLNeuralNetworkEngine : MLModelEngine
 {
     struct vector<std::map<std::string, espresso_buffer_t *>, std::allocator<std::map<std::string, espresso_buffer_t *>>> _inputBuffers;
-    struct vector<std::map<std::string, espresso_buffer_t *>, std::allocator<std::map<std::string, espresso_buffer_t *>>> _outputBuffers;
-    struct map<std::string, Espresso::vimage2espresso_param, std::less<std::string>, std::allocator<std::pair<const std::string, Espresso::vimage2espresso_param>>> _params;
-    struct map<std::string, _BlobShape, std::less<std::string>, std::allocator<std::pair<const std::string, _BlobShape>>> _currentBlobShapes;
-    struct vector<bool, std::allocator<bool>> _bufferAvailable;
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> _flexibleShapesConfigNamesInNet;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> _currentConfigurationName;
-    struct map<std::string, bool, std::less<std::string>, std::allocator<std::pair<const std::string, bool>>> _OutputBlobIsDynamic;
-    struct OpaqueVTPixelTransferSession *_transferSession;
-    MLCompilerNeuralNetworkOutput *_compilerOutput;
-    _Bool _hardwareFallbackDetected;
-    _Bool _ndArrayInterpretation;
-    _Bool _modelIsMIL;
-    _Bool _usingCPU;
-    _Bool _isEspressoBiasPreprocessingShared;
-    _Bool _hasBidirectionalLayer;
-    _Bool _modelIsEncrypted;
-    _Bool _hasOptionalInputSequenceConcat;
-    _Bool _isGPUPathForbidden;
-    _Bool _isANEPathForbidden;
-    int _precision;
-    int _engine;
-    int _qos;
-    int _priority;
-    NSArray *_classLabels;
-    NSString *_classScoreVectorName;
-    NSArray *_inputLayers;
-    NSArray *_outputLayers;
-    NSDictionary *_imagePreprocessingParameters;
-    NSDictionary *_espressoInputShapes;
-    NSDictionary *_espressoInputStrides;
-    MLVersionInfo *_modelVersionInfo;
-    unsigned long long _numInputs;
-    unsigned long long _numOutputs;
-    void *_plan;
-    void *_context;
-    id _probabilityDictionarySharedKeySet;
-    NSString *_modelFilePath;
-    NSObject<OS_dispatch_semaphore> *_bufferSemaphore;
-    NSObject<OS_dispatch_queue> *_espressoQueue;
-    NSObject<OS_dispatch_queue> *_predictionsQueue;
-    NSObject<OS_dispatch_semaphore> *_submitSemaphore;
-    NSMutableDictionary *_inputBlobNameToLastBackingMode;
-    NSMutableDictionary *_outputBlobNameToLastBackingMode;
-    EspressoProfilingNetworkInfo *_espressoProfileInfo;
-    NSDictionary *_optionalInputTypes;
-    MLFeatureProviderConformer *_inputFeatureConformer;
-    MLPixelBufferPool *_pixelBufferPool;
-    NSDictionary *_defaultOptionalValues;
-    MLVersionInfo *_compilerVersionInfo;
-    NSString *_activeFunction;
-    CDStruct_2bc666a5 _network;
 }
 
 + (id);
@@ -70,21 +16,21 @@
 + (id);
 + (int);
 + (int);
-+ (id);
++ (id);
 + (Class)¡^Y¡^Ñ¡^=¡^ë¡^¡^O¡^Ç¡^£¡^?¡^û¡^¾¡^¡^6¡^<¡^l¡^
 ¡^®¡^)¡^`¡^X¡^ï¡^¤¡^¬¡^,¡^º¡^D¡^Ù¡^¡^	¡^ü¡^*¡^M¡^¡^¡^¡^Á¡^¡^¡^¡^Ê¡^¡^~¡^¡^¡^P¡^¡^]¡^¡^:¡^¡^'¡^×¡^¡^o¡^Ø¡^\¡^±¡^r¡^|¡^@¡^!¡^¡^[¡^Õ¡^^¡^ó¡^2¡^»¡^¡^Ö¡^i¡^q¡^¡^À¡^B¡^ì¡^´¡^¡^ù¡^¡^¡^ÿ¡^3¡^­¡^>¡^c¡^¡^²¡^Ä¡^ö¡^È¡^¡^¡^¡^C¡^ß¡^Ý¡^ô¡^Ã¡^z¡^¼¡^¡^W¡^#¡^w¡^¡^¡^G¡^v¡^}¡^å¡^I¡^¢¡^¡^p¡^Í¡^8¡^ò¡^ã¡^T¡^¡^m¡^N¡^é¡^S¡^¡^Ì¡^¡^¡^F¡^K¡^¡^n¡^¡^y¡^Â¡^¡^"¡^h¡^¡^ð¡^í¡^·¡^ä¡^à¡^¶¡^5¡^ý¡^/¡^î¡^0¡^Q¡^J¡^Æ¡^1¡^¡^ê¡^ú¡^¡^á¡^ª¡^¡^;¡^9Ïþ^Ê\Ñ¤ß6¦m¨o¨ø8Ô7»½77¨²Ðo¨ç©¨ÍÍË©¨ÍÙèèôý¸Ñöû¶©¾¨¼ÍÙèèôý¸Ûýêìñþñûùìñ÷ö¸Ùíìð÷êñìá©«¨©Í²Ùèèôý¸ÞùñêÈôùá¸ÙÙÙ¸Ûýêìñþñûùìñ÷ö¸Ùíìð÷êñìá¨ª«¨©ª­©¯­ ­ Âª ¨©ª®©¯­ ­¯Â¨ý©¨ÍÍË©¨ÍÙèèôý¸Ñöû¶©¨ÍÙèèôý¸ÞùñêÈôùá©°¨¾ÍÛ÷êýÕÔ¶¬ÛÙÞª«¨©ª­ÙÞ¨¨¨©ÙÞ¨¨¨¨¨©¨¨²Ðo¨K£³y*êé"jÌè÷í|Ø°ìòç>Ê,ÉIé,¹.VõË@G(u'".£r»Zû·¯ÄòÖ#]ª#z_ÆOýÖlÓ	PÏôH#]¡b.±rà
 [¬ºÆº0{<ÕjIßî´C;	¨¨Íg¨¨Í»¨ÎAÖPÁÉý&;|³h¨ÍbÊAµ}½Ç_¦IIo°÷xþ%¨Íg ¨¶²Ðoûü¸$I$J$K$L$M¨²ÐoÒ{ê¹÷ 0Dæ§KXÑ&\×WªA?iA??i²¼Úç²¨4PL_aåIøÒ·gpwm¿yº^°Ô²¯=8#ª+Uwô8È»ÔW_ÏÑîÿª¢ãÌXW5ÞØC§ FÝ»Maõênß /* Error: Ran out of types for this method. */;
+- (void)meout; cnt = %lld;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void *);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@9;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -103,45 +49,45 @@
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void)?;
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)CR;
 - (int);
 - (void);
 - (struct __CVBuffer *);
-- (void);
+- (void)<;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct __CVBuffer *);
-- (CDStruct_2bc666a5);
+- (CDStruct_e4961688);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)a;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ch(N?2;
 - (unsigned long long)1Â0@ù
 × ;
 - (_Bool)á#-ð!Bù±þ0°1Â0@ù
@@ -156,12 +102,12 @@
 - (id)ing>>=^v^v{?=^v}}16@0:8 /* Error: Ran out of types for this method. */;
 - (_Bool)0:(id)arg1 8^{__CVBuffer=}16I24;
 - (struct __CVBuffer *)};
-- (id)ePipeline:imageFilterFunctionInfo:error: /* Error: Ran out of types for this method. */;
-- (void)ndirectSamplers;
-- (id)nitWithInputs:outputNames:operations: /* Error: Ran out of types for this method. */;
-- (id)meters;
-- (id)uration;
-- (void)revision;
+- (id)newLibraryWithCIFiltersForComputePipeline:imageFilterFunctionInfo:error: /* Error: Ran out of types for this method. */;
+- (void)maxIndirectSamplers;
+- (id)initWithInputs:outputNames:operations: /* Error: Ran out of types for this method. */;
+- (id)featureExtractorParameters;
+- (id)defaultConfiguration;
+- (void)_revision;
 - (_Bool)",R;
 - (id)figuration",&,N,V_configuration;
 - (void)ÿÿÿÿ ;
@@ -209,8 +155,8 @@ Backend for device `;
 - (int)idet;
 - (_Bool);
 - (_Bool)ðððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððððð;
-- (long long)leLayerParamsE;
-- (_Bool)ompiler7Backend3MIL22ProgramLayerTranslatorERKNS6_20LayerTranslationInfoERKN3MIL11IROperationERNS6_15MILBlockBuilderEEJRKNS_12placeholders4__phILi1EEERKNSM_ILi2EEERKNSM_ILi3EEERKNSM_ILi4EEEEEESJ_EE;
+- (long long)N6CoreML13Specification19UpsampleLayerParamsE;
+- (_Bool)NSt3__110__function6__funcINS_6__bindIPFvRKN6CoreML10NNCompiler7Backend3MIL22ProgramLayerTranslatorERKNS6_20LayerTranslationInfoERKN3MIL11IROperationERNS6_15MILBlockBuilderEEJRKNS_12placeholders4__phILi1EEERKNSM_ILi2EEERKNSM_ILi3EEERKNSM_ILi4EEEEEESJ_EE;
 - (void)RAM:(_Bool)arg1 CoreML  PROJECT:CoreML-3520.5.1
  /* Error: Ran out of types for this method. */;
 - (id)nIä&bòjÖÎwìjþìjöìjîìjæìjÞìjÖìjÎìjÆæìj¾àìj¶æìj®äìj¦ìjàìjìjìjöìj~ðìjvöìjnôìjfþìj^ðìjVþìjNüìjFæìj>àìj6æìj.äìj&þìjàìjþìjüìjìjþìjöìjîìjæìjÞìjÖìjÎìjÆ'ìj¾!ìj¶'ìj®%ìj¦ìj!ìjìjìj7ìj~1ìjv7ìjn5ìjf?ìj^1ìjV?ìjN=ìjF'ìj>!ìj6'ìj.%ìj&?ìj!ìj?ìj=ìjìjþìjöìjîìjæìjÞìjÖìjÎìjÆdìj¾bìj¶dìj®fìj¦ìjbìjìjìjtìj~rìjvtìjnvìjf|ìj^rìjV|ìjN~ìjFdìj>bìj6dìj.fìj&|ìjbìj|ìj~ìjìjþìjöìjîìjæìjÞìjÖìjÎìjÆ%ìj¾#ìj¶%ìj®'ìj¦ìj#ìjìjìj5ìj~3ìjv5ìjn7ìjf=ìj^3ìjV=ìjN?ìjF%ìj>#ìj6%ìj.'ìj&=ìj#ìj=ìj?ìjìjþìjöìjîìjæìjÞìjÖìjÎìjÆâíj¾äíj¶âíj®àíj¦ìjäíjìjìjòíj~ôíjvòíjnðíjfúíj^ôíjVúíjNøíjFâíj>äíj6âíj.àíj&úíjäíjúíjøíjìjþìjöìjîìjæìjÞìjÖìjÎìjÆ#ìj¾%ìj¶#ìj®!ìj¦ìj%ìjìjìj3ìj~5ìjv3ìjn1ìjf;ìj^5ìjV;ìjN9ìjF#ìj>%ìj6#ìj.!ìj&;ìj%ìj;ìj9ìjìjþìjöìjîìjæìjÞìjÖìjÎìjÆ`ìj¾fìj¶`ìj®bìj¦ìjfìjìjìjpìj~vìjvpìjnrìjfxìj^vìjVxìjNzìjF`ìj>fìj6`ìj.bìj&xìjfìjxìjzìjìjþìjöìjîìjæìjÞìjÖìjÎìjÆ!ìj¾'ìj¶!ìj®#ìj¦ìj'ìjìjìj1ìj~7ìjv1ìjn3ìjf9ìj^7ìjV9ìjN;ìjF!ìj>'ìj6!ìj.#ìj&9ìj'ìj9ìj;ìjéOg@¡9wgÑù¤ôM±ñ{÷3ÑgÆPPIq>õ' ªßÖ$óÙYEB-×²Rl³RlÝ°Rl±Rl]·Rl¶RlÝµRl´Rl]¸Rl¹RlÝºRl»Rl]½Rl¼RlÝ¿Rl¾Rl]¦Rl§RlÝ¤Rl¥Rl]£Rl¢RlÝ¡Rl Rl]¬Rl­RlÝ®Rl¯Rl]©Rl¨RlÝ«RlªRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]âRlãRlÝàRláRl]çRlæRlÝåRläRl]èRléRlÝêRlëRl]íRlìRlÝïRlîRl]öRl÷RlÝôRlõRl]óRlòRlÝñRlðRl]üRlýRlÝþRlÿRl]ùRløRlÝûRlúRl]ÊRlËRlÝÈRlÉRl]ÏRlÎRlÝÍRlÌRl]ÀRlÁRlÝÂRlÃRl]ÅRlÄRlÝÇRlÆRl]ÞRlßRlÝÜRlÝRl]ÛRlÚRlÝÙRlØRl]ÔRlÕRlÝÖRl×Rl]ÑRlÐRlÝÓRlÒRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRlRl]RlRlÝRl;
@@ -253,69 +199,14 @@ YÒYòY²YY2YYRYrYÒYòY²YY2YYRYrYÒY�
 - (id)Áâ®jap#<2Ç|ÇëvçÌã[êÇfìÒ8îÊ;=¡·X¸©}³0ZÀ»-;
 - (void)' 08?(7ôüûì¨ §ó·¿¸¯°s{|kÕÝÚtÊÂÅÒëãäÍRZ]	MEBUldcJaó2Ï]l-öSfP1j«=tÄ>Z7oÊ8É¨Ü¤í§
 Ã®q¡;
-- (_Bool)eContext;
+- (_Bool)MLComputeContext;
 - (_Bool)^»;
 - (void *);
 - (_Bool)<Ü;
 - (id)°ï;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeFunction; // @synthesize activeFunction=_activeFunction;
-@property(retain) NSObject<OS_dispatch_semaphore> *bufferSemaphore; // @synthesize bufferSemaphore=_bufferSemaphore;
-@property(retain, nonatomic) NSArray *classLabels; // @synthesize classLabels=_classLabels;
-@property(retain, nonatomic) NSString *classScoreVectorName; // @synthesize classScoreVectorName=_classScoreVectorName;
-@property(readonly, retain, nonatomic) MLVersionInfo *compilerVersionInfo; // @synthesize compilerVersionInfo=_compilerVersionInfo;
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(nonatomic) void *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSDictionary *defaultOptionalValues; // @synthesize defaultOptionalValues=_defaultOptionalValues;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int engine; // @synthesize engine=_engine;
-@property(retain, nonatomic) NSDictionary *espressoInputShapes; // @synthesize espressoInputShapes=_espressoInputShapes;
-@property(retain, nonatomic) NSDictionary *espressoInputStrides; // @synthesize espressoInputStrides=_espressoInputStrides;
-@property(retain, nonatomic) EspressoProfilingNetworkInfo *espressoProfileInfo; // @synthesize espressoProfileInfo=_espressoProfileInfo;
-@property(retain) NSObject<OS_dispatch_queue> *espressoQueue; // @synthesize espressoQueue=_espressoQueue;
-@property(nonatomic) _Bool hardwareFallbackDetected; // @synthesize hardwareFallbackDetected=_hardwareFallbackDetected;
-@property(nonatomic) _Bool hasBidirectionalLayer; // @synthesize hasBidirectionalLayer=_hasBidirectionalLayer;
-@property(nonatomic) _Bool hasOptionalInputSequenceConcat; // @synthesize hasOptionalInputSequenceConcat=_hasOptionalInputSequenceConcat;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *imagePreprocessingParameters; // @synthesize imagePreprocessingParameters=_imagePreprocessingParameters;
-@property(readonly, nonatomic) NSMutableDictionary *inputBlobNameToLastBackingMode; // @synthesize inputBlobNameToLastBackingMode=_inputBlobNameToLastBackingMode;
-@property(readonly) MLFeatureProviderConformer *inputFeatureConformer; // @synthesize inputFeatureConformer=_inputFeatureConformer;
-@property(readonly, retain, nonatomic) NSArray *inputLayers; // @synthesize inputLayers=_inputLayers;
-@property _Bool isANEPathForbidden; // @synthesize isANEPathForbidden=_isANEPathForbidden;
-@property(nonatomic) _Bool isEspressoBiasPreprocessingShared; // @synthesize isEspressoBiasPreprocessingShared=_isEspressoBiasPreprocessingShared;
-@property _Bool isGPUPathForbidden; // @synthesize isGPUPathForbidden=_isGPUPathForbidden;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(retain, nonatomic) NSString *modelFilePath; // @synthesize modelFilePath=_modelFilePath;
-@property(readonly, nonatomic) _Bool modelIsEncrypted; // @synthesize modelIsEncrypted=_modelIsEncrypted;
-@property(nonatomic) _Bool modelIsMIL; // @synthesize modelIsMIL=_modelIsMIL;
-@property(readonly, nonatomic) MLVersionInfo *modelVersionInfo; // @synthesize modelVersionInfo=_modelVersionInfo;
-@property(nonatomic) _Bool ndArrayInterpretation; // @synthesize ndArrayInterpretation=_ndArrayInterpretation;
-@property(nonatomic) CDStruct_2bc666a5 network; // @synthesize network=_network;
 @property(readonly, nonatomic) unsigned long long numInputs; // @synthesize numInputs=_numInputs;
-@property(readonly, nonatomic) unsigned long long numOutputs; // @synthesize numOutputs=_numOutputs;
-@property(readonly, nonatomic) NSDictionary *optionalInputTypes; // @synthesize optionalInputTypes=_optionalInputTypes;
-@property(readonly, nonatomic) NSMutableDictionary *outputBlobNameToLastBackingMode; // @synthesize outputBlobNameToLastBackingMode=_outputBlobNameToLastBackingMode;
-@property(readonly, retain, nonatomic) NSArray *outputLayers; // @synthesize outputLayers=_outputLayers;
-@property(readonly, nonatomic) MLPixelBufferPool *pixelBufferPool; // @synthesize pixelBufferPool=_pixelBufferPool;
-@property(nonatomic) void *plan; // @synthesize plan=_plan;
-@property(nonatomic) int precision; // @synthesize precision=_precision;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(retain) NSObject<OS_dispatch_queue> *predictionsQueue; // @synthesize predictionsQueue=_predictionsQueue;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) id probabilityDictionarySharedKeySet; // @synthesize probabilityDictionarySharedKeySet=_probabilityDictionarySharedKeySet;
-@property(nonatomic) int qos; // @synthesize qos=_qos;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(retain) NSObject<OS_dispatch_semaphore> *submitSemaphore; // @synthesize submitSemaphore=_submitSemaphore;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
-@property(nonatomic) _Bool usingCPU; // @synthesize usingCPU=_usingCPU;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface AccessoryNotifications.AccessoryNotificationManager
 {
     id sessionLock;
+    id;
 }
 
 @end

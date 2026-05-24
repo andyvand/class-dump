@@ -11,7 +11,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ed, overriding iCDP value;
 + (id);
 
 @end

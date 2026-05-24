@@ -10,10 +10,11 @@
 }
 
 + (id);
++ (id)=x$
+;
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)tarting to clear recent System Paper thumbnail;
 - (id);
 - (void);
 

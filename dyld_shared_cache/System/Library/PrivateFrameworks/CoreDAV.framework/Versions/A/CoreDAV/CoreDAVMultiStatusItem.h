@@ -6,17 +6,16 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVLeafItem, NSMutableArray, NSSet;
+@class NSMutableArray, NSSet;
 
 @interface CoreDAVMultiStatusItem : CoreDAVItem
 {
     NSMutableArray *_orderedResponses;
-    CoreDAVLeafItem *_responseDescription;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)P;
+- (id)_zeroIndexDate;
 - (id);
 - (id);
 - (id);
@@ -26,8 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *orderedResponses; // @synthesize orderedResponses=_orderedResponses;
-@property(retain, nonatomic) CoreDAVLeafItem *responseDescription; // @synthesize responseDescription=_responseDescription;
 @property(readonly, nonatomic) NSSet *responses;
 
 @end

@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)__AUTH_CONST;
 - (unsigned long long);
 
 @end

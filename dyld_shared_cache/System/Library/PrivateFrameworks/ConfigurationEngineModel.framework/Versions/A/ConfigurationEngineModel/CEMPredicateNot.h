@@ -6,8 +6,6 @@
 
 #import <ConfigurationEngineModel/CEMPredicateBase.h>
 
-@class NSString;
-
 @interface CEMPredicateNot : CEMPredicateBase
 {
     CEMPredicateBase *_payloadPredicate;
@@ -20,20 +18,13 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (_Bool)rulesets WHERE 1;
+- (id)2_pGSSG;
+- (void)n certificate type;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMPredicateBase *payloadPredicate; // @synthesize payloadPredicate=_payloadPredicate;
-@property(readonly) Class superclass;
 
 @end
 

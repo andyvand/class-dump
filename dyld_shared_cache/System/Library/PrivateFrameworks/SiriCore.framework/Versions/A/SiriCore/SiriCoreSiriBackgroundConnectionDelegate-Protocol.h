@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SiriCoreSiriBackgroundConnection;
+
 @protocol SiriCoreSiriBackgroundConnectionDelegate
+- (void)y:(SiriCoreSiriBackgroundConnection *)arg1 %@;
+- (void)%@;
+- (void)vider info in server configuration has invalid type.;
+- (void)ation.;
+- (void)on has invalid type.;
+- (void)ail provider allowlist.;
+
+@optional
+- (void)d found. Nothing to do;
 @end
 

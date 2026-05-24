@@ -4,46 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISpringAnimationPrototypeSettings;
-
 __attribute__((visibility("hidden")))
 @interface _UIPointerEffectSettings
 {
     double _defaultPointerCornerRadius;
-    double _overrideSlipPoints;
-    double _slipFactorX;
-    double _slipFactorY;
-    double _parallaxAmount;
-    double _maxSlipPoints;
-    double _scaleUpPoints;
-    double _scaleUpAnimationResponse;
-    double _scaleUpAnimationDampingRatio;
-    double _dampedAnimationResponse;
-    double _dampedAnimationDampingRatio;
-    double _liftForceFloor;
-    double _liftForceExponent;
-    _UISpringAnimationPrototypeSettings *_liftProgress;
-    double _plasmaLensParallaxFactor;
-    double _plasmaParallaxFactor;
-    struct CGPoint _plasmaRubberbandFactor;
 }
 
-+ (_Bool);
++ (_Bool)pT;
 + (id);
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
+- (void)qi;
 - (void);
 - (void);
 - (void);
+- (void)rator.framework/Versions/A/IOAccelerator;
+- (void)_changeStateIfAppropriate;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Jl;
 - (void);
 - (void);
 - (double);
@@ -58,33 +40,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)receiverIsCandidateForAppleSMSFilter;
+- (double)overrideStorageControllerWithDatabaseFromPath: /* Error: Ran out of types for this method. */;
+- (double)overrideStatusForHandleWithID:publishedBeforeDate: /* Error: Ran out of types for this method. */;
+- (void)cePayload, notice:(double)arg1 %p;
+- (void)%@, tried rowid %lld instead, found? %{BOOL}d;
 - (void);
-- (void);
-- (void);
-- (void)Selector: /* Error: Ran out of types for this method. */;
+- (void)setObject:forSelector: /* Error: Ran out of types for this method. */;
 - (void)I÷;
 
 // Remaining properties
-@property(nonatomic) double dampedAnimationDampingRatio; // @synthesize dampedAnimationDampingRatio=_dampedAnimationDampingRatio;
-@property(nonatomic) double dampedAnimationResponse; // @synthesize dampedAnimationResponse=_dampedAnimationResponse;
 @property(nonatomic) double defaultPointerCornerRadius; // @synthesize defaultPointerCornerRadius=_defaultPointerCornerRadius;
-@property(nonatomic) double liftForceExponent; // @synthesize liftForceExponent=_liftForceExponent;
-@property(nonatomic) double liftForceFloor; // @synthesize liftForceFloor=_liftForceFloor;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *liftProgress; // @synthesize liftProgress=_liftProgress;
-@property(nonatomic) double maxSlipPoints; // @synthesize maxSlipPoints=_maxSlipPoints;
-@property(nonatomic) double overrideSlipPoints; // @synthesize overrideSlipPoints=_overrideSlipPoints;
-@property(nonatomic) double parallaxAmount; // @synthesize parallaxAmount=_parallaxAmount;
-@property(nonatomic) double plasmaLensParallaxFactor; // @synthesize plasmaLensParallaxFactor=_plasmaLensParallaxFactor;
-@property(nonatomic) double plasmaParallaxFactor; // @synthesize plasmaParallaxFactor=_plasmaParallaxFactor;
-@property(nonatomic) struct CGPoint plasmaRubberbandFactor; // @synthesize plasmaRubberbandFactor=_plasmaRubberbandFactor;
-@property(nonatomic) double scaleUpAnimationDampingRatio; // @synthesize scaleUpAnimationDampingRatio=_scaleUpAnimationDampingRatio;
-@property(nonatomic) double scaleUpAnimationResponse; // @synthesize scaleUpAnimationResponse=_scaleUpAnimationResponse;
-@property(nonatomic) double scaleUpPoints; // @synthesize scaleUpPoints=_scaleUpPoints;
-@property(nonatomic) double slipFactorX; // @synthesize slipFactorX=_slipFactorX;
-@property(nonatomic) double slipFactorY; // @synthesize slipFactorY=_slipFactorY;
 
 @end
 

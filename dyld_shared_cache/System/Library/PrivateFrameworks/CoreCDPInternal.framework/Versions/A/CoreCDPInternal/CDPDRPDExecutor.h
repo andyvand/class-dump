@@ -7,14 +7,11 @@
 @interface CDPDRPDExecutor
 {
     id ledger;
-    id sbDeleter;
-    id circleControl;
-    id cdpContext;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)ReaderControllerMessageReceiver;
+- (id)FormAutoFillController;
+- (id);
 - (void);
 
 @end

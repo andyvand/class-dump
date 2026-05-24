@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXComponentActionHandler, SXTextSourceFactory;
+@protocol SXTextSourceFactory;
 
 @interface SXFullscreenCaptionViewFactory
 {
     id <SXTextSourceFactory> _textSourceFactory;
-    id <SXComponentActionHandler> _actionHandler;
 }
 
 - (id);
+- (id)R�G;
 - (id);
-- (id);
-- (id);
+- (id)M�Y�;
 - (void)@0:8@"UIViewController"16@"NSURL"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <SXTextSourceFactory> textSourceFactory; // @synthesize textSourceFactory=_textSourceFactory;
 
 @end

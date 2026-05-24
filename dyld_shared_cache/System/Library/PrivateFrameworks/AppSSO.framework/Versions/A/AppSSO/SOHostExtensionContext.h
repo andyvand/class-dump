@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOExtension;
+@class SOExtension;
 
 __attribute__((visibility("hidden")))
 @interface SOHostExtensionContext
@@ -22,18 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)destinationOfSymbolicLinkAtPath:(id)arg1 error:(id)arg2;
 - (void);
 
 // Remaining properties
 @property __weak SOExtension *contextExtension; // @synthesize contextExtension=_contextExtension;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

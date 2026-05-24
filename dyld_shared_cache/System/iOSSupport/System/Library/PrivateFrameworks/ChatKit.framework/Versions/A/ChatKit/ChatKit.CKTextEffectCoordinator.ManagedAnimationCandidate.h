@@ -7,9 +7,6 @@
 @interface ChatKit.CKTextEffectCoordinator.ManagedAnimationCandidate
 {
     id identifier;
-    id textView;
-    id animation;
-    id ignoreTextViewEligibilityCheck;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphLocationNodeCollection.h>
 
-@class CLLocation, NSArray, NSSet, NSString, PGGraphAreaNodeCollection, PGGraphFeatureNodeCollection, PGGraphHomeWorkNodeCollection, PGGraphLanguageNodeCollection, PGGraphLocationCityNodeCollection, PGGraphLocationContinentNodeCollection, PGGraphLocationCountryNodeCollection, PGGraphLocationCountyNodeCollection, PGGraphLocationDistrictNodeCollection, PGGraphLocationNumberNodeCollection, PGGraphLocationStateNodeCollection, PGGraphLocationStreetNodeCollection, PGGraphLocationSubcontinentNodeCollection, PGGraphMomentNodeCollection;
+@class NSSet;
 
 @interface PGGraphAddressNodeCollection : PGGraphLocationNodeCollection
 {
@@ -14,63 +14,36 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)r;
 + (Class);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)_insertEmptyRowIntoColumns:atIndex: /* Error: Ran out of types for this method. */;
+- (id)tInputMethodWindow;
+- (id)ryMatchAttempted;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)*)C;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (struct CLLocationCoordinate2D);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)lÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphAreaNodeCollection *areaNodes;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D centroidCoordinate;
-@property(readonly, nonatomic) CLLocation *centroidLocation;
-@property(readonly, nonatomic) PGGraphLocationCityNodeCollection *cityNodes;
-@property(readonly, nonatomic) PGGraphLocationContinentNodeCollection *continentNodes;
-@property(readonly, nonatomic) PGGraphLocationCountryNodeCollection *countryNodes;
-@property(readonly, nonatomic) PGGraphLocationCountyNodeCollection *countyNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphLocationDistrictNodeCollection *districtNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PGGraphHomeWorkNodeCollection *homeNodes;
-@property(readonly, nonatomic) PGGraphHomeWorkNodeCollection *homeWorkNodes;
-@property(readonly, nonatomic) PGGraphLanguageNodeCollection *languageNodes;
-@property(readonly, nonatomic) NSArray *locations;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphLocationNumberNodeCollection *numberNodes;
-@property(readonly, nonatomic) PGGraphAddressNodeCollection *preciseSubset;
-@property(readonly, nonatomic) PGGraphLocationStateNodeCollection *stateNodes;
-@property(readonly, nonatomic) PGGraphLocationStreetNodeCollection *streetNodes;
-@property(readonly, nonatomic) PGGraphLocationSubcontinentNodeCollection *subcontinentNodes;
-@property(readonly) Class superclass;
 @property(readonly) NSSet *uuids;
-@property(readonly, nonatomic) PGGraphHomeWorkNodeCollection *workNodes;
 
 @end
 

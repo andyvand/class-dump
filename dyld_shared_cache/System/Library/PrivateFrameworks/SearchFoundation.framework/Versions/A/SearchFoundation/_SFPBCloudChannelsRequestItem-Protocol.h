@@ -7,12 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBCloudChannelsRequestItem
-- (NSString *);
+- (NSData *)$;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pushTopic;
-@property(copy, nonatomic) NSString *subscribedEntityIdentifier;
 @end
 

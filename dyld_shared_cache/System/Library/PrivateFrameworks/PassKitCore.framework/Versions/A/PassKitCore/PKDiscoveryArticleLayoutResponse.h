@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)gSummaryButton;
+- (void)spendingSummaryButton;
 
 // Remaining properties
 @property(readonly, nonatomic) PKDiscoveryArticleLayout *discoveryArticleLayout; // @synthesize discoveryArticleLayout=_discoveryArticleLayout;

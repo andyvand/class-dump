@@ -7,16 +7,13 @@
 @interface PMLSparseVector
 {
     unsigned long long _length;
-    unsigned long long _numberOfNonZeroValues;
-    long long *_sparseIndices;
-    float *_sparseValues;
 }
 
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -30,7 +27,7 @@
 - (void);
 - (float);
 - (float);
-- (float);
+- (float)#;
 - (id);
 - (id);
 - (id);
@@ -44,18 +41,15 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)_encryptedAnonymousShareHashToAddByRequestID;
+- (id);
 - (float);
 - (void);
-- (float):shouldNormalizeTokens:shouldNormalizeCharacters:localeForNonwordTokens:tokenizeNewlines:idVectorLength:extraIdOptions:vectorizerStrategy:vectorNormalization: /* Error: Ran out of types for this method. */;
-- (float)jectWithPlist:(unsigned long long)arg1 chunks:context: /* Error: Ran out of types for this method. */;
+- (float)withBucketSize:characterNGramRange:tokenNGramRange:shouldNormalizeTokens:shouldNormalizeCharacters:localeForNonwordTokens:tokenizeNewlines:idVectorLength:extraIdOptions:vectorizerStrategy:vectorNormalization: /* Error: Ran out of types for this method. */;
+- (float)readObjectWithPlist:(unsigned long long)arg1 chunks:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
 @property(nonatomic) unsigned long long numberOfNonZeroValues; // @synthesize numberOfNonZeroValues=_numberOfNonZeroValues;
-@property(nonatomic) long long *sparseIndices; // @synthesize sparseIndices=_sparseIndices;
-@property(nonatomic) float *sparseValues; // @synthesize sparseValues=_sparseValues;
 
 @end
 

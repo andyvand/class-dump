@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface GEORouteHypothesizerAnalyticsStore
 {
     double _observedEarlyDeltaFromRequiredTimeToLeave;
-    double _observedLateDeltaFromRequiredTimeToLeave;
-    unsigned long long _hypothesizerRerouteCount;
-    unsigned long long _etaUpdatesAfterEventStart;
-    _Bool _etaUpdatesWereReported;
-    unsigned long long _hypothesisCount;
-    _Bool _stopped;
-    unsigned long long _uiNotificationType;
-    NSDate *_lastGenerationDate;
 }
 
 + (_Bool)only %0.1fm. This is probably a server error;
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)m;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -40,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long etaUpdatesAfterEventStart; // @synthesize etaUpdatesAfterEventStart=_etaUpdatesAfterEventStart;
-@property(nonatomic) _Bool etaUpdatesWereReported; // @synthesize etaUpdatesWereReported=_etaUpdatesWereReported;
 
 @end
 

@@ -9,6 +9,6 @@
 @protocol PXSectionedDataSourceManagerObserver
 
 @optional
-- (NSArray *)IncrementalDetails;
+- (NSArray *)_prepareIncrementalDetails;
 @end
 

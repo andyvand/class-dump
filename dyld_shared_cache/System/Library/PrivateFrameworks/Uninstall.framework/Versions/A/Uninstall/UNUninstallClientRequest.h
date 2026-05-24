@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface UNUninstallClientRequest
 {
     _Bool _preserveApplicationUserData;
-    _Bool _forceQuitForegroundApps;
-    NSArray *_bundleURLs;
-    NSUUID *_requestID;
 }
 
 + (_Bool);
@@ -20,19 +17,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)KeyCommandFocusSelectionProvider;
+- (id)filter;
+- (id)customSmartList;
+- (id)TTRShowPublicTemplateDataModelSourceType;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bundleURLs; // @synthesize bundleURLs=_bundleURLs;
-@property(readonly, nonatomic) _Bool forceQuitForegroundApps; // @synthesize forceQuitForegroundApps=_forceQuitForegroundApps;
-@property(readonly, nonatomic) _Bool preserveApplicationUserData; // @synthesize preserveApplicationUserData=_preserveApplicationUserData;
 @property(retain, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
 
 @end

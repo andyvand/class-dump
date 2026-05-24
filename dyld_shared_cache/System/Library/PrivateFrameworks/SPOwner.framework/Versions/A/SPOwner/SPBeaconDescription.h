@@ -9,12 +9,6 @@
 @interface SPBeaconDescription
 {
     NSString *_stableIdentifier;
-    NSString *_name;
-    NSString *_model;
-    NSString *_systemVersion;
-    long long _vendorId;
-    long long _productId;
-    long long _role;
 }
 
 + (_Bool);
@@ -29,8 +23,8 @@
 - (id);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)%@;
+- (id)sage;
 - (id);
 - (void);
 - (long long);
@@ -38,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long productId; // @synthesize productId=_productId;
-@property(nonatomic) long long role; // @synthesize role=_role;
-@property(readonly, copy, nonatomic) NSString *stableIdentifier; // @synthesize stableIdentifier=_stableIdentifier;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(nonatomic) long long vendorId; // @synthesize vendorId=_vendorId;
 
 @end
 

@@ -4,99 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
+@class NSMutableSet;
 @protocol GCDevice;
 
 @interface GCControllerElement
 {
     NSMutableSet *_aliases;
-    _Bool _updatePending;
-    _Bool _boundToSystemGesture;
-    _Bool _remappable;
-    _Bool _mappableToSystemGestures;
-    float _pendingValue;
-    float _deadzone;
-    int _remappingKey;
-    GCControllerElement *_collection;
-    id <GCDevice> _device;
-    NSString *_primaryAlias;
-    long long _preferredSystemGestureState;
-    NSString *_sfSymbolsName;
-    NSString *_localizedName;
-    NSString *_unmappedSfSymbolsName;
-    NSString *_unmappedLocalizedName;
-    NSString *_unmappedNameLocalizationKey;
-    NSString *_nameLocalizationKey;
 }
 
 - (_Bool);
+- (id)u;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
+- (int)LH;
 - (_Bool);
 - (id);
 - (long long);
 - (float);
-- (id);
+- (id)&;
 - (_Bool);
+- (_Bool)Ќ;
 - (_Bool);
-- (_Bool);
-- (int);
+- (int);
 - (float);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)initWithChunkDelegate:createListener: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
 - (void);
-- (id);
+- (id)S;
 - (void);
-- (void);
+- (void)%.512s);
 - (void);
 - (id);
 - (_Bool)× ;
-- (void)ontrollersLock;
+- (void)_controllersLock;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *aliases;
-@property(readonly, nonatomic, getter=isAnalog) _Bool analog;
-@property(nonatomic, getter=isBoundToSystemGesture) _Bool boundToSystemGesture; // @synthesize boundToSystemGesture=_boundToSystemGesture;
-@property(nonatomic) __weak GCControllerElement *collection; // @synthesize collection=_collection;
-@property(nonatomic) float deadzone; // @synthesize deadzone=_deadzone;
 @property(nonatomic) __weak id <GCDevice> device; // @synthesize device=_device;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) _Bool mappableToSystemGestures; // @synthesize mappableToSystemGestures=_mappableToSystemGestures;
-@property(retain, nonatomic) NSString *nameLocalizationKey; // @synthesize nameLocalizationKey=_nameLocalizationKey;
-@property float pendingValue; // @synthesize pendingValue=_pendingValue;
-@property(nonatomic) long long preferredSystemGestureState; // @synthesize preferredSystemGestureState=_preferredSystemGestureState;
-@property(retain, nonatomic) NSString *primaryAlias; // @synthesize primaryAlias=_primaryAlias;
-@property(nonatomic) _Bool remappable; // @synthesize remappable=_remappable;
-@property(nonatomic) int remappingKey; // @synthesize remappingKey=_remappingKey;
-@property(retain, nonatomic) NSString *sfSymbolsName; // @synthesize sfSymbolsName=_sfSymbolsName;
-@property(retain, nonatomic) NSString *unmappedLocalizedName; // @synthesize unmappedLocalizedName=_unmappedLocalizedName;
-@property(retain, nonatomic) NSString *unmappedNameLocalizationKey; // @synthesize unmappedNameLocalizationKey=_unmappedNameLocalizationKey;
-@property(retain, nonatomic) NSString *unmappedSfSymbolsName; // @synthesize unmappedSfSymbolsName=_unmappedSfSymbolsName;
-@property _Bool updatePending; // @synthesize updatePending=_updatePending;
 
 @end
 

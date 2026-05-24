@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSStartPageSectionManager;
+@class WBSStartPageSectionManager;
 
 __attribute__((visibility("hidden")))
 @interface StartPageContextMenuBuilder
 {
     WBSStartPageSectionManager *_startPageSectionManager;
-    _Bool _includesTabGroupSections;
-    NSString *_profileIdentifier;
-    CDUnknownBlockType _showMoreHandler;
-    CDUnknownBlockType _showLessHandler;
 }
 
 - (void);
@@ -24,17 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void)rToCurrentTab;
+- (void)applyNewTabBehaviorToCurrentTab;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool includesTabGroupSections; // @synthesize includesTabGroupSections=_includesTabGroupSections;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType showLessHandler; // @synthesize showLessHandler=_showLessHandler;
-@property(copy, nonatomic) CDUnknownBlockType showMoreHandler; // @synthesize showMoreHandler=_showMoreHandler;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHIntelligenceFlowSubRequestFallback : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originSubRequestId;
-    SISchemaUUID *_fallbackSubRequestId;
-    _Bool _hasOriginSubRequestId;
-    _Bool _hasFallbackSubRequestId;
 }
 
 - (void);
@@ -30,20 +27,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)dN;
+- (_Bool)`;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)nelScore;
+- (id)_channelScore;
 - (id)chExecution",&,N,V_multistepSubSearchExecution;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *fallbackSubRequestId; // @synthesize fallbackSubRequestId=_fallbackSubRequestId;
-@property(nonatomic) _Bool hasFallbackSubRequestId; // @synthesize hasFallbackSubRequestId=_hasFallbackSubRequestId;
-@property(nonatomic) _Bool hasOriginSubRequestId; // @synthesize hasOriginSubRequestId=_hasOriginSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originSubRequestId; // @synthesize originSubRequestId=_originSubRequestId;
 
 @end

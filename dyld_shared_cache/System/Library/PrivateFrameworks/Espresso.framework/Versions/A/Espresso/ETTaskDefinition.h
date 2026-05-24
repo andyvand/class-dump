@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETModelDefinition, ETOptimizerDefinition, ETTaskState, ETVariablesDefinition, NSArray;
-
 @interface ETTaskDefinition
 {
     struct unordered_map<std::string, unsigned long, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, unsigned long>>> inference_layer_index;
-    ETVariablesDefinition *varsDef;
-    unsigned long long runtimePlatform;
-    int precision;
-    unsigned long long batchSize;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> training_control_name;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> gradient_control_name;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> optimizer_control_name;
-    NSArray *infInputNames;
-    NSArray *infOutputNames;
-    NSArray *trainInputNames;
-    NSArray *trainOutputNames;
-    unordered_map_3d313a2a infInputBlobShapes;
-    unordered_map_3d313a2a trainInputBlobShapes;
-    unordered_map_3d313a2a infOutputBlobShapes;
-    unordered_map_3d313a2a trainOutputBlobShapes;
-    ETModelDefinition *_inferenceModel;
-    ETOptimizerDefinition *_optimizer;
-    unsigned long long _platform;
-    ETTaskState *_taskState;
-    shared_ptr_d082c67d _inferenceGraphNetPtr;
-    shared_ptr_d082c67d _trainingGraphNetPtr;
 }
 
 - (shared_ptr_d082c67d);
@@ -51,20 +28,20 @@
 - (unsigned long long);
 - (shared_ptr_ae8b808b);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
-- (_Bool);
+- (_Bool)yPeriodicTask:(id)arg1 Finished RT metrics collection;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)C;
 - (_Bool);
 - (id);
-- (void);
+- (_Bool)�;
 - (id);
-- (id);
-- (id);
+- (void)saveReminder:(id)arg1 commit:error: /* Error: Ran out of types for this method. */;
+- (id)requestCalendarAvailabilityWithAccountID:startDate:endDate:ignoredEventID:addresses:resultsBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)journal_hardlink_new_journal Error %d creating dir for hardlinkging:%s /* Error: Ran out of types for this method. */;
+- (id)b;
 - (void);
 - (unsigned long long);
 - (id)ot supported with double buffer submit;
@@ -73,11 +50,6 @@
 
 // Remaining properties
 @property shared_ptr_d082c67d inferenceGraphNetPtr; // @synthesize inferenceGraphNetPtr=_inferenceGraphNetPtr;
-@property(retain, nonatomic) ETModelDefinition *inferenceModel; // @synthesize inferenceModel=_inferenceModel;
-@property(retain, nonatomic) ETOptimizerDefinition *optimizer; // @synthesize optimizer=_optimizer;
-@property(nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) ETTaskState *taskState; // @synthesize taskState=_taskState;
-@property shared_ptr_d082c67d trainingGraphNetPtr; // @synthesize trainingGraphNetPtr=_trainingGraphNetPtr;
 
 @end
 

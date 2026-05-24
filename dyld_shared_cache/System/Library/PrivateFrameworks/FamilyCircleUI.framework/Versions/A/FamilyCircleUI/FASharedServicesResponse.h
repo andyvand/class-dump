@@ -9,8 +9,6 @@
 @interface FASharedServicesResponse
 {
     _Bool _locationAllowed;
-    NSArray *_services;
-    NSArray *_serviceGroups;
 }
 
 - (void);
@@ -18,13 +16,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)_bytesRetransmitted;
 - (id);
 - (void)$;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool locationAllowed; // @synthesize locationAllowed=_locationAllowed;
-@property(readonly, nonatomic) NSArray *serviceGroups; // @synthesize serviceGroups=_serviceGroups;
 @property(readonly, nonatomic) NSArray *services; // @synthesize services=_services;
 
 @end

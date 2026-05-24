@@ -7,16 +7,10 @@
 @class NSString;
 
 @protocol MutableMediaSource
+- (NSString *);
 - (_Bool),ü	;
 
 // Remaining properties
-@property(nonatomic, getter=isMediaCaptureMuted) _Bool mediaCaptureMuted;
-@property(readonly, copy, nonatomic) NSString *mediaMenuItemTitle;
-@property(readonly, nonatomic) unsigned long long mutableMediaState;
-@property(readonly, nonatomic, getter=isMuted) _Bool muted;
-@property(nonatomic) long long mutedState;
-@property(readonly, nonatomic, getter=isPlayingMutableMedia) _Bool playingMutableMedia;
-@property(nonatomic, getter=isScreenCapturePaused) _Bool screenCapturePaused;
 @property(readonly, copy, nonatomic) NSString *userVisibleMediaOrigin;
 @end
 

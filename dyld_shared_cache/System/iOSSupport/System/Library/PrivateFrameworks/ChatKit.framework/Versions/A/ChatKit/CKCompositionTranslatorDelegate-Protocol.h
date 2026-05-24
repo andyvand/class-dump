@@ -5,5 +5,6 @@
 //
 
 @protocol CKCompositionTranslatorDelegate
+- (void));
 @end
 

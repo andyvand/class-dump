@@ -9,12 +9,12 @@
 }
 
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)i32@0:(id)arg1 8C16C20^{BluetoothEventFilterCondition=[7C]}24;
+- (void)eivedStartAck:(id)arg1 ]_block_invoke;
 - (id);
 - (id);
 

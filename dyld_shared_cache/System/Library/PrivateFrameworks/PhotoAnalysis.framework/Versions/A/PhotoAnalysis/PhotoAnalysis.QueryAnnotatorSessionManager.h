@@ -7,9 +7,6 @@
 @interface PhotoAnalysis.QueryAnnotatorSessionManager
 {
     id $defaultActor;
-    id sessionCreationTaskByClientIdentifier;
-    id endingAllSessions;
-    id currentSessionExecutionTask;
 }
 
 @end

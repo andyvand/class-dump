@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISelectionFeedbackGenerator, UIViewSpringAnimationBehavior, UIViewVectorAnimatableProperty, _UIHyperInteractor, _UISpringParameters;
+@class UIViewSpringAnimationBehavior;
 
 @interface _UIHyperInProcessPointAnimator
 {
     _Bool __generatesFeedbackWhenBoundaryIsCrossed;
-    _Bool __regionChangedDiscontinuouslyOnChange;
-    unsigned long long __dimensions;
-    _UIHyperInteractor *__interactor;
-    _UISpringParameters *__trackingSpringParameters;
-    _UISpringParameters *__nonTrackingSpringParameters;
-    UIViewSpringAnimationBehavior *__springAnimationBehavior;
-    UISelectionFeedbackGenerator *__feedbackGenerator;
-    UIViewVectorAnimatableProperty *__animatableProperty;
 }
 
 + (_Bool)r;
 - (void);
-- (id);
+- (id)/`/;
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)d to remove current transcript background asset at:%@. Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Skiping updating last message as hint message is a user scheduled message;
+- (id)evious custom acknowledgments failed with error:%@ /* Error: Ran out of types for this method. */;
+- (id)ng SMS relay block mapping for %@;
+- (void)ror"20@"NSString"28@"NSString"36@"NSData"44@"NSString"52@"NSData"60q68;
 - (void);
 - (id);
 - (id);
@@ -40,31 +32,16 @@
 - (void);
 - (void);
 - (void)tionForTouch"b1"highlightStyleUpdated"b1"indexColorUpdated"b1"legibilityWeightOrPreferredContentSizeUpdated"b1};
-- (_Bool)ndaryOnlyBarButtonItem;
-- (void)tControlKeyBackgroundName:(id)arg1;
-- (id)elector;
+- (_Bool)toggleSecondaryOnlyBarButtonItem;
+- (void)setControlKeyBackgroundName:(id)arg1;
+- (id)_backgroundSelector;
 - (id)ButtonDown;
 - (void)hm[;
 - (id)°uþ;
 - (void)a;
 
 // Remaining properties
-@property(readonly, nonatomic) UIViewVectorAnimatableProperty *_animatableProperty; // @synthesize _animatableProperty=__animatableProperty;
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, nonatomic) UISelectionFeedbackGenerator *_feedbackGenerator; // @synthesize _feedbackGenerator=__feedbackGenerator;
-@property(nonatomic, setter=_setGeneratesFeedbackWhenBoundaryIsCrossed:) _Bool _generatesFeedbackWhenBoundaryIsCrossed; // @synthesize _generatesFeedbackWhenBoundaryIsCrossed=__generatesFeedbackWhenBoundaryIsCrossed;
-@property(nonatomic, setter=_setInteractor:) __weak _UIHyperInteractor *_interactor; // @synthesize _interactor=__interactor;
-@property(copy, nonatomic, setter=_setNonTrackingSpringParameters:) _UISpringParameters *_nonTrackingSpringParameters; // @synthesize _nonTrackingSpringParameters=__nonTrackingSpringParameters;
-@property(nonatomic, setter=_setRegionChangedDiscontinuouslyOnChange:) _Bool _regionChangedDiscontinuouslyOnChange; // @synthesize _regionChangedDiscontinuouslyOnChange=__regionChangedDiscontinuouslyOnChange;
 @property(readonly, nonatomic) UIViewSpringAnimationBehavior *_springAnimationBehavior; // @synthesize _springAnimationBehavior=__springAnimationBehavior;
-@property(copy, nonatomic, setter=_setTrackingSpringParameters:) _UISpringParameters *_trackingSpringParameters; // @synthesize _trackingSpringParameters=__trackingSpringParameters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

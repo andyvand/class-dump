@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MFPhoneDeviceDriver
 {
     struct CGRect m_canvas;
-    struct CGAffineTransform m_canvasTransform;
-    struct CGRect m_viewBox;
-    struct CGAffineTransform m_viewBoxTransform;
-    struct CGAffineTransform m_worldToDeviceTransform;
-    struct CGAffineTransform m_combinedTransform;
 }
 
 + (int);
@@ -21,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int)";
+- (int);
+- (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int)";
 - (int);
 - (int);
 - (int);
@@ -34,34 +29,34 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (struct CGRect);
+- (int);
 - (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)R(;
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (int);
 - (int);
 - (int);
 - (int);
+- (int);
+- (int)G;
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
+- (int)#;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_pregeneratedIdMappings;
 }
 
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void)yStruct_V1=b2b3b1b27},N,V_keyStruct;
+- (long long)mestamp;
+- (id)Q,N,V_cplType;
+- (void)V_resourceFingerprint;
 - (void)>"8;
 
 @end

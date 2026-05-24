@@ -6,8 +6,6 @@
 
 #import <PodcastServices/PODContentChange.h>
 
-@class NSString, PODPlaylistChangeEntityData;
-
 @interface PODPlaylistChange : PODContentChange
 {
 }
@@ -20,15 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PODPlaylistChangeEntityData *entityData;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long playlistSyncID;
-@property(readonly) Class superclass;
 
 @end
 

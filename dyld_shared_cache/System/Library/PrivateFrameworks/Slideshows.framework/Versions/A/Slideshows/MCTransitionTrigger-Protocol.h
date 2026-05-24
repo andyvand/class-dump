@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol MCTransitionTrigger
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *transitionAttributes;
-@property(nonatomic) double transitionDuration;
 @property(copy) NSString *transitionID;
 @end
 

@@ -6,20 +6,12 @@
 
 #import <HomeKitDaemon/HMDSharedUserInviteLogEventBuilder.h>
 
-@class HMDHomeManager, HMDSharedUserInviteAcceptLogEvent, NSString;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteAcceptLogEventBuilder : HMDSharedUserInviteLogEventBuilder
 {
     unsigned long long joinOwnerShareBeginTime;
-    unsigned long long createMKFCKSharedUserDataRootBeginTime;
-    unsigned long long createReverseShareBeginTime;
-    unsigned long long addUserToShareBeginTime;
-    unsigned long long sendAcceptanceToOwnerBeginTime;
-    unsigned long long discoverPrimaryResidentBeginTime;
-    unsigned long long residentSyncBeginTime;
-    HMDHomeManager *_homeManager;
-    HMDSharedUserInviteAcceptLogEvent *_acceptLogEvent;
 }
 
 + (id)Kòÿ×ØKB;
@@ -37,26 +29,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)_batchDelayTimer;
+- (id)_allowMessageWithState:(id)arg1 forGroup:(id)arg2 fromID:(id)arg3;
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)SettingsCharacteristicSynchronization;
+- (void)needsInitialSettingsCharacteristicSynchronization;
 - (id)list is the same skipping;
 - (void)mutableSetting"8;
 
 // Remaining properties
-@property(readonly) HMDSharedUserInviteAcceptLogEvent *acceptLogEvent; // @synthesize acceptLogEvent=_acceptLogEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) Class superclass;
 
 @end
 

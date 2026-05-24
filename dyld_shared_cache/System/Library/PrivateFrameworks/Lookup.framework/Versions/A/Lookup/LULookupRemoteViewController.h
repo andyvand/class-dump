@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSPopover, NSRemoteView, NSString, RVQuery;
+@class NSPopover, NSRemoteView;
 
 @interface LULookupRemoteViewController
 {
     NSPopover *_popover;
-    NSString *_searchTerm;
-    NSString *_searchTermContext;
-    NSString *_searchDomain;
-    NSNumber *_selectionType;
-    NSNumber *_triggerType;
-    NSRemoteView *_remoteView;
-    RVQuery *_remoteQuery;
-    CDUnknownBlockType _textQueryProvider;
-    _Bool _bridgeBurnt;
 }
 
 - (CDUnknownBlockType);
@@ -28,56 +19,37 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)C;
+- (id)_sendMessageMetadataExtracted;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Qo__Qo_;
 - (struct CGSize);
 - (void);
 - (void);
+- (void)/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework/Versions/A/QuartzComposer;
 - (void);
-- (void);
-- (id);
+- (id){C;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSPopover *popover; // @synthesize popover=_popover;
-@property(retain, nonatomic) RVQuery *remoteQuery; // @synthesize remoteQuery=_remoteQuery;
 @property(retain, nonatomic) NSRemoteView *remoteView; // @synthesize remoteView=_remoteView;
-@property(copy, nonatomic) NSString *searchDomain; // @synthesize searchDomain=_searchDomain;
-@property(copy, nonatomic) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property(copy, nonatomic) NSString *searchTermContext; // @synthesize searchTermContext=_searchTermContext;
-@property(copy, nonatomic) NSNumber *selectionType; // @synthesize selectionType=_selectionType;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType textQueryProvider; // @synthesize textQueryProvider=_textQueryProvider;
-@property(copy, nonatomic) NSNumber *triggerType; // @synthesize triggerType=_triggerType;
 
 @end
 

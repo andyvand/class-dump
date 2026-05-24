@@ -11,8 +11,8 @@
     NSDictionary *_results;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)ressesUpdatedFromTransportStream(FigTransportStreamRef, CFDictionaryRef, LogCategory *, void *);
+- (id)e",R,N;
 - (id);
 - (void);
 - (void);

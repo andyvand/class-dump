@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setSubscribed: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)yboardCandidateResultSet"16;
-- (_Bool)mpulse:(id)arg1;
-- (void)hForIndexPath:(id)arg1;
+- (_Bool)applyUnscaledImpulse:(id)arg1;
+- (void)_previousIndexPathForIndexPath:(id)arg1;
 - (void)Zl;
 
 // Remaining properties

@@ -7,43 +7,6 @@
 @interface PhotosUICore.GenerativeStoryCreationViewModel
 {
     id _userPrompt;
-    id _predictionsViewModel;
-    id _currentQuery;
-    id _inputIsFocused;
-    id _blockGenerationCompletionContinuation;
-    id _vfxController;
-    id _vfxDataSource;
-    id _animationPlaying;
-    id _vfxPrewarmTask;
-    id _textController;
-    id _generatedStoryDebug;
-    id _tapToRadarDescription;
-    id _tapToRadarFlowRequested;
-    id _diagnosticContext;
-    id _storyGenerationEventRecorder;
-    id signposter;
-    id _ambiguityManager;
-    id _currentState;
-    id _generatedStories;
-    id _itemListManager;
-    id photoLibrary;
-    id launchedIntoGeneration;
-    id presentedWithTransition;
-    id logger;
-    id _storyOrchestrator;
-    id _currentGenerationTask;
-    id _currentAutoCancellationTask;
-    id _suggestionViewModel;
-    id _randomPlaceholderAssetUUIDs;
-    id _previousUserQuery;
-    id generationEntryPoint;
-    id _showAppleMusicPrivacyTip;
-    id pendingMemoryHandler;
-    id _lastRequestedGenerationDate;
-    id _shortStoryWarningState;
-    id _preventedDisplaySleepToken;
-    id _shouldPreventDisplaySleep;
-    id _$observationRegistrar;
 }
 
 - (void);

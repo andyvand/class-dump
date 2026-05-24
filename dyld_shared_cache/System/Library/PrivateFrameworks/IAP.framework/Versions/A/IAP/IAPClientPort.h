@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface IAPClientPort
 {
     NSString *_uuid;
-    CDUnknownBlockType _sendDataHandler;
-    NSObject<OS_dispatch_queue> *_sendDataHandlerQueue;
-    NSObject<OS_dispatch_queue> *_clientPortEventQueue;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)process;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientPortEventQueue; // @synthesize clientPortEventQueue=_clientPortEventQueue;
-@property(nonatomic) CDUnknownBlockType sendDataHandler; // @synthesize sendDataHandler=_sendDataHandler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sendDataHandlerQueue; // @synthesize sendDataHandlerQueue=_sendDataHandlerQueue;
 @property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

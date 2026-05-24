@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSNumber;
+@class NSArray;
 
 @interface VCPFrameSuperResolutionConfiguration
 {
     _Bool _sessionStarted;
-    long long _sourceframeWidth;
-    long long _sourceframeHeight;
-    NSNumber *_scaleFactor;
-    NSArray *_supportedScaleFactors;
-    NSArray *_supportedPixelFormats;
-    NSDictionary *_sourcePixelBufferAttributes;
-    NSDictionary *_destinationPixelBufferAttributes;
-    NSMutableArray *_configWithIndexArray;
-    CDStruct_d2d250c8 _modelConfig;
 }
 
 + (_Bool);
@@ -33,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (CDStruct_d2d250c8);
+- (CDStruct_6229c11b);
 - (id);
 - (void);
 - (void);
@@ -42,8 +33,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)x`;
+- (void)48@56B64;
 - (void);
 - (id);
 - (id);
@@ -51,15 +42,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *configWithIndexArray; // @synthesize configWithIndexArray=_configWithIndexArray;
-@property(retain, nonatomic) NSDictionary *destinationPixelBufferAttributes; // @synthesize destinationPixelBufferAttributes=_destinationPixelBufferAttributes;
-@property(nonatomic) CDStruct_d2d250c8 modelConfig; // @synthesize modelConfig=_modelConfig;
-@property(retain, nonatomic) NSNumber *scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) _Bool sessionStarted; // @synthesize sessionStarted=_sessionStarted;
-@property(retain, nonatomic) NSDictionary *sourcePixelBufferAttributes; // @synthesize sourcePixelBufferAttributes=_sourcePixelBufferAttributes;
-@property(nonatomic) long long sourceframeHeight; // @synthesize sourceframeHeight=_sourceframeHeight;
-@property(nonatomic) long long sourceframeWidth; // @synthesize sourceframeWidth=_sourceframeWidth;
-@property(retain, nonatomic) NSArray *supportedPixelFormats; // @synthesize supportedPixelFormats=_supportedPixelFormats;
 @property(retain, nonatomic) NSArray *supportedScaleFactors; // @synthesize supportedScaleFactors=_supportedScaleFactors;
 
 @end

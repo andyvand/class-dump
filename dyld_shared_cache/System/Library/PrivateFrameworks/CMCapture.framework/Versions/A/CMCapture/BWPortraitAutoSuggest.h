@@ -4,42 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface BWPortraitAutoSuggest
 {
     _Bool _shallowDepthOfFieldRenderingEnabled;
-    _Bool _portTypeIsFFC;
-    _Bool _doSuggest;
-    _Bool _lastDoSuggest;
-    unsigned int _validityCounter;
-    unsigned int _validObjectCounterOld;
-    unsigned int _invalidityCounter;
-    float _validObjectIntervalThSec;
-    unsigned int _validObjectIntervalTh;
-    float _fadeValidThInvalidityActiveSec;
-    unsigned int _fadeValidThInvalidityActive;
-    float _fadeValidThInvalidityBuildSec;
-    unsigned int _fadeValidThInvalidityBuild;
-    float _fadeInvalidThCst;
-    float _fadeValidThCst;
-    float _objectFrameRatio;
-    unsigned int _objectBoxFrameAreaValidityRatio;
-    unsigned int _objectBoxFrameAreaValidityRatioWhenOn;
-    unsigned int _marginInRatioWidth;
-    unsigned int _marginInRatioHeight;
-    unsigned int _marginOutRatioWidth;
-    unsigned int _marginOutRatioHeight;
-    unsigned int _temporalValidityTh;
-    unsigned int _fadeValidTh;
-    unsigned int _fadeInvalidTh;
-    float _objectCentersLookbackIntervalSec;
-    unsigned int _objectCentersLookbackInterval;
-    unsigned int _maxMotionThreshold;
-    unsigned int _minMotionThreshold;
-    float _xObjectCenterStdTh;
-    float _yObjectCenterStdTh;
-    NSMutableArray *_trackers;
 }
 
 + (void);
@@ -52,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool portTypeIsFFC; // @synthesize portTypeIsFFC=_portTypeIsFFC;
 @property(nonatomic) _Bool shallowDepthOfFieldRenderingEnabled; // @synthesize shallowDepthOfFieldRenderingEnabled=_shallowDepthOfFieldRenderingEnabled;
 
 @end

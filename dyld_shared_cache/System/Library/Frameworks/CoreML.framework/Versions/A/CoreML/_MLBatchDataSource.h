@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLNeuralNetworkEngine, NSString;
 @protocol MLBatchProvider;
 
 @interface _MLBatchDataSource
 {
     _Bool _useForPrediction;
-    id <MLBatchProvider> _batchProvider;
-    MLNeuralNetworkEngine *_nnEngine;
 }
 
-- (_Bool);
-- (unsigned long long);
+- (_Bool)Q24Q32Q40;
+- (unsigned long long)CIPointerArg;
+- (id)WorldSpaceDirectionArg;
+- (id)pelineDescriptorInternal setLinkedFunctions:(id)arg1 ];
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ds;
+- (void)RecallConfidenceThresholds;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MLBatchProvider> batchProvider; // @synthesize batchProvider=_batchProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MLNeuralNetworkEngine *nnEngine; // @synthesize nnEngine=_nnEngine;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useForPrediction; // @synthesize useForPrediction=_useForPrediction;
 
 @end
 

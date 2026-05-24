@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AUHostDelegate, NSExtension, NSXPCConnection;
+@class NSExtension;
 
 @interface AUHostExtensionContext
 {
     NSExtension *_extension;
-    AUHostDelegate *_delegate;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)P;
 + (id);
 + (_Bool);
 - (id);
@@ -22,17 +21,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void)tion;
+- (id)h;
+- (_Bool);
+- (id);
+- (void)release_audio_unit_and_connection;
 - (id)jáA,AUCî@ö9À#¹Á>ÒÒÁØ	Âêþ&ÂÉ@Â÷ºOÂá]ÂÛòiÂljlÂþLjÂfÂ!»hÂ1jÂÈÉeÂVÂÈDÂ9ø5Â¿
  ÂO°;
 
 // Remaining properties
-@property(retain, nonatomic) AUHostDelegate *delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly, nonatomic) __weak NSXPCConnection *xpcConnection;
 
 @end
 

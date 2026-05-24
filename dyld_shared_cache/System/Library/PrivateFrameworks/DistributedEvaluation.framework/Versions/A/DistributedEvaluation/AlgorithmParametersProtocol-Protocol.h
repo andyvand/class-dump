@@ -7,9 +7,12 @@
 @class NSDictionary;
 
 @protocol AlgorithmParametersProtocol
+- (double);
+- (_Bool)tionRequest.statementResults.payload.outcome.parameterConfirmation.item.value.primitive.app.bundleId;
+- (void)ss.followUpAction.action.linkAction.bundleId;
+- (NSDictionary *)r criterion=%@;
 
 // Remaining properties
 @property(readonly, nonatomic) double clippingBound;
-@property(readonly, nonatomic) NSDictionary *parameters;
 @end
 

@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSObject, NSString, NSURL, NSURLRequest, NSURLResponse, NSUUID, NWPathEvaluator;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSURL;
 
 @interface NEFilterSource
 {
     _Bool _registered;
-    _Bool _expectRemediation;
-    int _sourceAppPid;
-    unsigned int _controlUnit;
-    long long _status;
-    NSURL *_url;
-    long long _direction;
-    unsigned long long _socketIdentifier;
-    NSString *_sourceAppIdentifier;
-    NSMutableData *_pendingData;
-    NWPathEvaluator *_evaluator;
-    NSUUID *_flowUUID;
-    unsigned long long _lastPendingDataStartIndex;
-    unsigned long long _lastSendDataLength;
-    unsigned long long _pendingDataStartIndex;
-    unsigned long long _peekIndex;
-    unsigned long long _passLength;
-    NSURLResponse *_currentResponse;
-    NSURLRequest *_currentRequest;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_urlAppendString;
-    NSString *_remediationURL;
-    NSString *_remediationButtonText;
-    NSString *_organization;
-    NSURL *_parentURL;
-    struct ne_filter_globals *_globals;
-    unsigned long long _byteInboundCount;
-    unsigned long long _byteOutboundCount;
-    NSObject<OS_dispatch_group> *_sendDataGroup;
 }
 
 + (void);
@@ -47,7 +18,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (id);
@@ -59,15 +30,10 @@
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long):withCode:managementType:, session doesn't match %@ vs. %@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) long long direction; // @synthesize direction=_direction;
-@property(readonly) unsigned long long socketIdentifier; // @synthesize socketIdentifier=_socketIdentifier;
-@property(copy) NSString *sourceAppIdentifier; // @synthesize sourceAppIdentifier=_sourceAppIdentifier;
-@property int sourceAppPid; // @synthesize sourceAppPid=_sourceAppPid;
-@property(readonly) long long status; // @synthesize status=_status;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

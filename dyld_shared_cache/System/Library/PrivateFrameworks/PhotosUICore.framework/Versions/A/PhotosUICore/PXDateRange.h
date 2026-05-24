@@ -7,7 +7,6 @@
 @interface PXDateRange
 {
     double _startDate;
-    double _endDate;
 }
 
 - (_Bool);
@@ -18,10 +17,9 @@
 - (id);
 - (_Bool);
 - (double);
-- (id)Reference;
+- (id)lastActionPresentationMemoryReference;
 
 // Remaining properties
-@property(readonly) double endDate; // @synthesize endDate=_endDate;
 @property(readonly) double startDate; // @synthesize startDate=_startDate;
 
 @end

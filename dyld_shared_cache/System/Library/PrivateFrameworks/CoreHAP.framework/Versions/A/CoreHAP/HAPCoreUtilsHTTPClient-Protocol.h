@@ -5,5 +5,7 @@
 //
 
 @protocol HAPCoreUtilsHTTPClient
+- (void);
+- (int);
 @end
 

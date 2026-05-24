@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, NSString;
+@class NSString;
 
 @interface IMDChatDisplayNameChangeContext
 {
     unsigned char _chatStyle;
-    _Bool _unattributed;
-    NSString *_displayName;
-    NSString *_messageGUID;
-    NSString *_fromID;
-    NSString *_toIdentifier;
-    NSString *_chatIdentifier;
-    IMDAccount *_account;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)  H;
 - (_Bool);
 - (void);
 - (void);
@@ -34,19 +27,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)setStickerPackGUIDToPackMap:(unsigned char)arg1;
 - (void)¸³;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(nonatomic) unsigned char chatStyle; // @synthesize chatStyle=_chatStyle;
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *fromID; // @synthesize fromID=_fromID;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(retain, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
-@property(nonatomic) _Bool unattributed; // @synthesize unattributed=_unattributed;
 
 @end
 

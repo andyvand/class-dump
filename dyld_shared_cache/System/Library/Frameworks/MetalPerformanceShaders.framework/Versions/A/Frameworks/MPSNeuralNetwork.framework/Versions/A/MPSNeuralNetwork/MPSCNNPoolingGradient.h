@@ -11,7 +11,7 @@
     CDStruct_da2e99ad _sourceSize;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (CDStruct_14f26992);
 - (void);
 - (void);
@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id)f;
+- (unsigned long long)l.sourceMatrixOrigin.x;
+- (id)MPSRNNLSTMRecursionCombined0half;
 
 // Remaining properties
 @property(nonatomic) CDStruct_14f26992 sourceSize; // @synthesize sourceSize=_sourceSize;

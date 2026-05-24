@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EQKitBox, EQKitEnvironmentInstance, NSString;
+@class EQKitBox;
 @protocol EQKitRootNode;
 
 @interface EQKitLayout
 {
     id <EQKitRootNode> mRoot;
-    EQKitBox *mBox;
-    double mAscent;
-    double mDescent;
-    double mLeading;
-    double mNaturalAlignmentOffset;
-    double mScale;
-    _Bool mSingleLineHeight;
-    EQKitEnvironmentInstance *mEnvironment;
 }
 
 - (double);
@@ -36,13 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

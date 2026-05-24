@@ -8,11 +8,6 @@
 {
     id $defaultActor;
     id pollingLocations;
-    id pollingGuidanceIdentifiers;
-    id urlSession;
-    id defaults;
-    id energyConfig;
-    id pendingGuidanceRequests;
 }
 
 @end

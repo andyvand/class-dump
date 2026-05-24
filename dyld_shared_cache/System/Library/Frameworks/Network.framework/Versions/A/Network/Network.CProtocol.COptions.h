@@ -7,7 +7,6 @@
 @interface Network.CProtocol.COptions
 {
     id allocatedHandle;
-    id cDefinition;
 }
 
 @end

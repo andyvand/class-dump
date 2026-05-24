@@ -8,7 +8,7 @@
 
 @interface UnknownClass (CIBarcodeDescriptor)
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CIBarcodeDescriptor *detectedBarcodeDescriptor;

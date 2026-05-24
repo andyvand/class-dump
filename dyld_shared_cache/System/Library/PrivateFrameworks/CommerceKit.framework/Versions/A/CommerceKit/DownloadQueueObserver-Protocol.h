@@ -5,5 +5,6 @@
 //
 
 @protocol DownloadQueueObserver
+- (void);
 @end
 

@@ -16,8 +16,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)C$;
+- (void)C
+;
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioIOClient *client; // @synthesize client;

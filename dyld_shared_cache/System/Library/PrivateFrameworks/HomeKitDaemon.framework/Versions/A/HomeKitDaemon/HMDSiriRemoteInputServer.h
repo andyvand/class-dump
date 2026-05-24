@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriRemoteInputServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_xpcServer;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSHashTable *_siriSessions;
 }
 
 + (id)FB;
@@ -23,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)d;
+- (void){private}@, we haven't fetched both services yet;
+- (void)nt command messageUUID:(id)arg1 %{public}@;
+- (void)IDS;
+- (void)NecessaryForGroup called for group %@ without update timestamp;
+- (void)eiverETAController purge expired blocked trip identifiers;
 - (void);
 - (void);
 - (void);
@@ -36,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)DiagnosticInfoFromLocalResponse: /* Error: Ran out of types for this method. */;
+- (id)_decodeDiagnosticInfoFromLocalResponse: /* Error: Ran out of types for this method. */;
 - (id)onForBlock;
 - (void)ge %{public}@ (%{public}@) from client '%{public}@' for target %{public}@ that does%{public}s expect a response, payload %{private}@, QoS:(id)arg1 %{public}@;
 - (void)DC41;
@@ -44,17 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)ì=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSHashTable *siriSessions; // @synthesize siriSessions=_siriSessions;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcServer; // @synthesize xpcServer=_xpcServer;
 
 @end
 

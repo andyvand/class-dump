@@ -6,14 +6,11 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class HMAccessorySettings, HMHome, HMMediaSession, NSString, NSUUID;
-@protocol HMMediaProfileDelegate;
+@class NSString;
 
 @interface HMMediaProfile : HMAccessoryProfile
 {
     NSString *_routeUID;
-    unsigned long long _capability;
-    id <HMMediaProfileDelegate> _delegate;
 }
 
 - (void);
@@ -27,27 +24,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)setAcceptedCandidate:(id)arg1;
+- (id)$	2	5	>	0	;
 - (id);
 - (void)V;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capability; // @synthesize capability=_capability;
-@property(readonly) __weak HMHome *containerHome;
-@property(readonly) __weak NSUUID *containerUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMMediaProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) HMMediaSession *mediaSession;
 @property(readonly, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(readonly) HMAccessorySettings *settings;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,17 +6,15 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKTransactionReceiptAuthorizationResponse : PKPaymentWebServiceResponse
 {
     NSString *_authorizationToken;
-    NSData *_signature;
-    NSString *_conversationIdentifier;
 }
 
-- (id);
-- (void);
+- (id)\;
+- (void)@-;
 - (id);
 - (id)OèP<R¸TüX]à`PbÈcXeÐf hiØjPlÔmLoØprXstÐuwDxxyÄz;
 - (void)w.walgreens.com;
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authorizationToken; // @synthesize authorizationToken=_authorizationToken;
-@property(copy, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

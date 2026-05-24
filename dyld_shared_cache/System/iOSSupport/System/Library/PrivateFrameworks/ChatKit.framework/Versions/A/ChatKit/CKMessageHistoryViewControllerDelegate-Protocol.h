@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageHistoryViewController, NSArray, NSDate, NSDateComponents;
+
 @protocol CKMessageHistoryViewControllerDelegate
+- (void)document;
+- (void)initWithAccountId:(CKMessageHistoryViewController *)arg1 objectId:(NSDateComponents *)arg2 thumbnailId:(NSArray *)arg3;
+- (NSDate *)bjectsInSource;
 @end
 

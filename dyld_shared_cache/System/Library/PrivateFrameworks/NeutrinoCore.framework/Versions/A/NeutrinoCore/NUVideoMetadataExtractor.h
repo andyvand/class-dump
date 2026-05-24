@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetTrack, NSArray;
+@class AVAsset, NSArray;
 
 @interface NUVideoMetadataExtractor
 {
     AVAsset *_asset;
-    AVAssetTrack *_videoTrack;
-    AVAssetTrack *_mdataTrack;
-    struct CGAffineTransform ndcMetadataTransform;
-    struct CGAffineTransform pxlMetadataTransform;
-    NSArray *timedMetadataArray;
 }
 
 + (_Bool);
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
 - (id);
 - (struct CGPoint);
 - (struct CGVector);

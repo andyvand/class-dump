@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNDateComponentsFormatter, NSCalendar, NSLocale, NSString;
+@class CNDateComponentsFormatter, NSString;
 
 @interface ABDateComponentsValueTransformer
 {
     CNDateComponentsFormatter *_dateFormatter;
-    _Bool _shouldReinterpretAsGregorian;
 }
 
 + (_Bool);
@@ -27,10 +26,7 @@
 - (id)ook/ABUserActivityRestoration.m;
 
 // Remaining properties
-@property(readonly) NSCalendar *calendar;
 @property(readonly) NSString *dateFormatPlaceholderString;
-@property(retain, nonatomic) NSLocale *locale;
-@property(nonatomic) _Bool shouldReinterpretAsGregorian; // @synthesize shouldReinterpretAsGregorian=_shouldReinterpretAsGregorian;
 
 @end
 

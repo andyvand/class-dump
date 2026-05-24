@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _BSNSXPCConnectionEvent
 {
     int _code;
-    _Bool _onQueue;
 }
 
 - (_Bool);
@@ -19,16 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isKnownToBeOnQueue) _Bool knownToBeOnQueue; // @synthesize knownToBeOnQueue=_onQueue;
-@property(readonly, nonatomic, getter=isLocalCancel) _Bool localCancel;
-@property(readonly, nonatomic, getter=isPermanent) _Bool permanent;
-@property(readonly) Class superclass;
 
 @end
 

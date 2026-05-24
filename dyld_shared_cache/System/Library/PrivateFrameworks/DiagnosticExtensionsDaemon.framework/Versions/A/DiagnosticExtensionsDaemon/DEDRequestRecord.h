@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface DEDRequestRecord
 {
     _Bool _isFailure;
-    NSString *_URL;
-    NSDate *_date;
-    NSString *_method;
-    long long _runtime;
-    NSString *_requestHeader;
-    NSString *_requestBody;
-    NSString *_responseHeader;
-    NSString *_responseBody;
 }
 
 - (void);
@@ -31,29 +23,21 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)iMsgInSleepCount;
+- (void)(;
 - (id);
 - (id);
 - (void);
+- (id)initWithOperation:apsToken:apsEnvironmentString:bundleID:skipBundleIDCheck: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *URL; // @synthesize URL=_URL;
-@property(retain) NSDate *date; // @synthesize date=_date;
-@property _Bool isFailure; // @synthesize isFailure=_isFailure;
-@property(retain) NSString *method; // @synthesize method=_method;
 @property(retain) NSString *requestBody; // @synthesize requestBody=_requestBody;
-@property(retain) NSString *requestHeader; // @synthesize requestHeader=_requestHeader;
-@property(retain) NSString *responseBody; // @synthesize responseBody=_responseBody;
-@property(retain) NSString *responseHeader; // @synthesize responseHeader=_responseHeader;
-@property long long runtime; // @synthesize runtime=_runtime;
 
 @end
 

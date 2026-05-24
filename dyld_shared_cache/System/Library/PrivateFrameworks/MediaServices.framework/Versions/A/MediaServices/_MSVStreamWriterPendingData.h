@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _MSVStreamWriterPendingData
 {
     NSData *_data;
-    CDUnknownBlockType _completionHandler;
-    long long _bytesWritten;
 }
 
 - (long long);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (void);
+- (id)@;
+- (CDUnknownBlockType)member of actionTypes provided to the initializer;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long bytesWritten; // @synthesize bytesWritten=_bytesWritten;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 
 @end

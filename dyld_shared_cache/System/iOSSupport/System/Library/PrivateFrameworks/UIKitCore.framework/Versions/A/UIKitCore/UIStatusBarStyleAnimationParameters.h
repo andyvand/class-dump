@@ -11,7 +11,7 @@
     int _styleAnimation;
 }
 
-- (id);
+- (id);
 - (int);
 - (_Bool);
 - (void)ÃíÿþÿxÊîÿH×íÿ;

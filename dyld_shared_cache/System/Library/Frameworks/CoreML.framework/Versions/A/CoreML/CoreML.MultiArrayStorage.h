@@ -7,8 +7,6 @@
 @interface CoreML.MultiArrayStorage
 {
     id _multiArray;
-    id shape;
-    id strides;
 }
 
 @end

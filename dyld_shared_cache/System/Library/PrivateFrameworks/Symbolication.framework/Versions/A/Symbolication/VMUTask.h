@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VMUProcessDescription, VMUTaskMemoryCache;
-
 @interface VMUTask
 {
     unsigned int _liveTask;
-    NSString *_coreFilePath;
-    _Bool _taskIsSelf;
-    _Bool _isGeneratedCorpse;
-    _Bool _isCorpse;
-    struct _VMURange _taskDyldSharedCacheRange;
-    VMUTaskMemoryCache *_taskMemory;
-    VMUProcessDescription *_processDescription;
-    _Bool _processDescriptionInitialized;
-    unsigned long long _exclaveType;
-    unsigned long long _addrableBitsPointerStrippingMask;
-    _Bool _targetUsesExtraBits;
-    _Bool _targetUsesExtraBitsInitialized;
-    unsigned long long _taskType;
 }
 
 - (_Bool);
@@ -30,7 +15,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -45,22 +30,17 @@
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned int)bjectGraph;
+- (void)_fadeInTextAndButtonsAnimation;
+- (unsigned int)VMUProcessObjectGraph;
 - (unsigned long long)traceUniquingTable || !_originalUniquingTable;
-- (id)LOCATE;
+- (id)VM_ALLOCATE;
 
 // Remaining properties
-@property(readonly, copy) NSString *coreFilePath; // @synthesize coreFilePath=_coreFilePath;
-@property(readonly, nonatomic) _Bool isCorpse;
-@property(readonly, nonatomic) _Bool isDebuggable;
-@property(readonly, nonatomic) _Bool isGeneratedCorpse;
-@property(readonly, nonatomic) _Bool isRestricted;
 @property(readonly, nonatomic) unsigned long long taskType; // @synthesize taskType=_taskType;
 
 @end

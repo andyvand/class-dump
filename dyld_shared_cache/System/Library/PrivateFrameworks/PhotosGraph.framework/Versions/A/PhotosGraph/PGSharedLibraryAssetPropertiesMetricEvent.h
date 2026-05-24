@@ -6,36 +6,24 @@
 
 #import <PhotosGraph/PGPhotosChallengeMetricEvent.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, PGManagerWorkingContext;
+@class NSDictionary, PGManagerWorkingContext;
 
 @interface PGSharedLibraryAssetPropertiesMetricEvent : PGPhotosChallengeMetricEvent
 {
     PGManagerWorkingContext *_workingContext;
-    NSMutableDictionary *_payloadByAssetIdentifier;
-    NSDictionary *_resultsByAssetIdentifier;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)@;
 - (id)f$Á°÷$HH;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSDictionary *payload;
-@property(readonly, nonatomic) NSArray *payloads;
 @property(retain, nonatomic) NSDictionary *resultsByAssetIdentifier; // @synthesize resultsByAssetIdentifier=_resultsByAssetIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

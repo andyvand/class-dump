@@ -9,7 +9,6 @@
 @interface MPSeekCommandEvent : MPRemoteCommandEvent
 {
     unsigned int _commandType;
-    unsigned long long _type;
 }
 
 - (unsigned int);

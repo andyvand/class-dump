@@ -11,9 +11,9 @@
     long long _libraryID;
 }
 
-- (id);
+- (id)_canShowMIMETypeAsHTML: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long libraryID; // @synthesize libraryID=_libraryID;

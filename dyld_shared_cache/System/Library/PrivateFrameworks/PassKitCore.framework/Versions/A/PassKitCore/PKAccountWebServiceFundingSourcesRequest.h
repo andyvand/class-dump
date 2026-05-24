@@ -6,24 +6,22 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceFundingSourcesRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (id)Invalid group type;
-- (void)BY_ERROR_SEND_RESTRICTION_FAMILY_RESTRICTED_MESSAGE;
+- (void)NEARBY_ERROR_SEND_RESTRICTION_FAMILY_RESTRICTED_MESSAGE;
 - (void);
 - (id)</òÿ;
 - (void)÷ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

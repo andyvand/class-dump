@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMAssetBaseDescriptor, CEMAssetBaseReference, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMCertificateDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    CEMAssetBaseReference *_payloadReference;
 }
 
 + (id);
@@ -29,15 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(copy, nonatomic) CEMAssetBaseReference *payloadReference; // @synthesize payloadReference=_payloadReference;
-@property(readonly) Class superclass;
 
 @end
 

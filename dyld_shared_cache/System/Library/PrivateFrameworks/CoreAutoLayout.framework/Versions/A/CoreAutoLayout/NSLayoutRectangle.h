@@ -17,13 +17,13 @@
 + (id);
 - (id);
 - (id);
+- (id)(;
+- (id)E9;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)A9;
 
 // Remaining properties
 @property(readonly, copy) NSLayoutPoint *centerPoint;

@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AAPSyncAppIdentifier
 {
     NSString *_appId;
-    NSURL *_bundleURL;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)@@"<GKAccountService>";
+- (_Bool)_UIModalItemHostingWindow;
 - (void);
 - (id);
 - (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(readonly, copy, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
 
 @end
 

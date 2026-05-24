@@ -5,5 +5,7 @@
 //
 
 @protocol FBSWorkspaceServiceTarget
+- (void);
+- (void);
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSData;
 
 @interface HAPWebRTCReofferRequest
 {
     NSData *_sessionIdentifier;
-    NSData *_SDPOffer;
-    NSMutableArray *_SFrameConfiguration;
 }
 
 + (id);
@@ -30,16 +28,7 @@
 - (id)T¢;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *SDPOffer; // @synthesize SDPOffer=_SDPOffer;
-@property(retain, nonatomic) NSMutableArray *SFrameConfiguration; // @synthesize SFrameConfiguration=_SFrameConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

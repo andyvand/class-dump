@@ -11,21 +11,21 @@
     NSDictionary *_conversationListSIMLabelImagesDictionary;
 }
 
++ (id)r updateButton:(id)arg1 ];
 + (id);
 + (id);
-+ (id);
-+ (id)sitiveContentActionKey;
++ (id)SensitiveContentActionKey;
+- (void)convergeAttachmentsInNoteWithID:configuration: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void)on;
+- (void)Inspection;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *conversationListSIMLabelImagesDictionary; // @synthesize conversationListSIMLabelImagesDictionary=_conversationListSIMLabelImagesDictionary;

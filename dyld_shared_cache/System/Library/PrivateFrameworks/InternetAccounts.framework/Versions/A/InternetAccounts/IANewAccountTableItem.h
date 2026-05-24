@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAListPlugin, NSImage, NSString;
+@class NSImage;
 
 @interface IANewAccountTableItem
 {
     NSImage *_image;
-    NSString *_title;
-    IAAListPlugin *_plugin;
-    unsigned long long _type;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) NSImage *image; // @synthesize image=_image;
-@property(retain) IAAListPlugin *plugin; // @synthesize plugin=_plugin;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property unsigned long long type; // @synthesize type=_type;
 
 @end
 

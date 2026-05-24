@@ -5,5 +5,6 @@
 //
 
 @protocol AVDecodedAudioSettingsForFig
+- (struct AudioChannelLayout *)`w;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
-
 @interface AKAnnotationTheme
 {
     int _pageTheme;
@@ -18,51 +16,34 @@
 + (id);
 + (id);
 + (id);
++ (id)_;
 + (id);
-+ (id);
-+ (id);
++ (id)q;
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
-- (int);
-- (id);
-- (id);
+- (int)Li;
+- (id)|j;
+- (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (double);
-- (struct CGSize);
+- (double);
+- (struct CGSize)o;
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool)OI;
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (id);
+- (int);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int annotationStyle;
-@property(readonly, nonatomic) UIColor *highlightColor;
-@property(readonly, nonatomic) _Bool isUnderline;
-@property(readonly, nonatomic) UIColor *noteBorderColor;
-@property(readonly, nonatomic) UIColor *noteFillColor;
-@property(readonly, nonatomic) UIColor *noteMarkerBorderColor;
-@property(readonly, nonatomic) UIColor *noteMarkerFillColor;
-@property(readonly, nonatomic) UIColor *noteMarkerStrikethroughColor;
-@property(readonly, nonatomic) UIColor *noteShadowColor;
-@property(readonly, nonatomic) struct CGSize noteShadowOffset;
-@property(readonly, nonatomic) double noteShadowOpacity;
-@property(readonly, nonatomic) double noteShadowRadius;
-@property(readonly, nonatomic) UIColor *noteTextColor;
-@property(readonly, nonatomic) UIFont *noteTextFont;
-@property(readonly, nonatomic) UIFont *noteTextFontInTable;
-@property(readonly, nonatomic) UIColor *notesSidebarBarColor;
-@property(readonly, nonatomic) UIColor *notesSidebarTextColor;
 @property(nonatomic) int pageTheme; // @synthesize pageTheme=_pageTheme;
 
 @end

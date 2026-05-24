@@ -4,70 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, _PFContextMapTable, _PFManagedObjectReferenceQueue;
-
 @interface NSManagedObjectContext
 {
     _Atomic id _queueOwner;
-    int _wasDisposed;
-    int _spinLock;
-    void *_dispatchQueue;
-    id _parentObjectStore;
-    struct _managedObjectContextFlags {
-        unsigned int _registeredForCallback:1;
-        unsigned int _propagatesDeletesAtEndOfEvent:1;
-        unsigned int _exhaustiveValidation:1;
-        unsigned int _processingChanges:1;
-        unsigned int _useCommittedSnapshot:1;
-        unsigned int _registeredUndoTransactionID:1;
-        unsigned int _retainsAllRegisteredObjects:1;
-        unsigned int _savingInProgress:1;
-        unsigned int _unprocessedChangesPending:1;
-        unsigned int _hasExcessivePrepareForPendingChangesAttempts:1;
-        unsigned int _isDirty:1;
-        unsigned int _ignoreUndoCheckpoints:1;
-        unsigned int _propagatingDeletes:1;
-        unsigned int _isNSEditorEditing:1;
-        unsigned int _preflightSaveInProgress:1;
-        unsigned int _disableDiscardEditing:1;
-        unsigned int _postSaveNotifications:1;
-        unsigned int _isMerging:1;
-        unsigned int _concurrencyType:1;
-        unsigned int _deleteInaccessible:1;
-        unsigned int _priority:2;
-        unsigned int _autoMerge:1;
-        unsigned int _isXPCServerContext:1;
-        unsigned int _pushSecureDelete:1;
-        unsigned int _refreshAfterSave:1;
-        unsigned int _allowAncillary:1;
-        unsigned int _postSavedObjectNotifications:1;
-        unsigned int _allowAdditionalUserInfoKeys:1;
-        unsigned int _trackSQLiteDatabaseStatistics:1;
-        unsigned int _usedBySwift:1;
-        unsigned int reserved:1;
-    } _flags;
-    short _undoTransactionID;
-    short _ignoreChangeNotification;
-    _Atomic _Bool _isParentStoreContext;
-    _Atomic _Bool _isMainThreadBlessed;
-    _Atomic _Bool _generatedMutatedIDsNotification;
-    _Atomic unsigned char _referenceCallbackRegistration;
-    int _lockCount;
-    NSMutableSet *_unprocessedChanges;
-    NSMutableSet *_unprocessedDeletes;
-    NSMutableSet *_unprocessedInserts;
-    NSMutableSet *_insertedObjects;
-    NSMutableSet *_deletedObjects;
-    NSMutableSet *_changedObjects;
-    NSMutableSet *_lockedObjects;
-    NSMutableSet *_refreshedObjects;
-    _PFContextMapTable *_infoByGID;
-    id *_cachedObsInfoByEntity;
-    id _lock;
-    double _fetchTimestamp;
-    _PFManagedObjectReferenceQueue *_referenceQueue;
-    NSArray *_persistentStoreIdentifiers;
-    id *_additionalPrivateIvars;
 }
 
 @end

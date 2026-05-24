@@ -6,34 +6,30 @@
 
 #import <AppKit/NSView.h>
 
-@class NSTextAttachmentViewProvider, NSTrackingArea;
+@class NSTrackingArea;
 @protocol NSServicesRolloverViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSServicesRolloverView : NSView
 {
     NSTrackingArea *_rolloverTrackingArea;
-    id <NSServicesRolloverViewDelegate> _delegate;
-    long long _style;
-    _Bool _mouseInside;
-    NSTextAttachmentViewProvider *_textAttachmentViewProvider;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)u*sa;
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void)TipObject;
+- (void)}
+;
+- (void)_toolTipObject;
 - (void)ÿf(ìE;
 
 // Remaining properties
 @property __weak id <NSServicesRolloverViewDelegate> delegate;
-@property NSTextAttachmentViewProvider *textAttachmentViewProvider; // @synthesize textAttachmentViewProvider=_textAttachmentViewProvider;
 
 @end
 

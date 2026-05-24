@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (void);
-- (long long);
+- (long long)myIdleTime;
 - (_Bool);
 - (_Bool);
 - (void);

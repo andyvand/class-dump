@@ -4,51 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDWidgetTimelineRefresherDailyTotalLogEvent
 {
     NSString *_kind;
-    NSString *_reason;
-    unsigned long long _count;
 }
 
-- (id);
+- (id)ype"b1"lastUpdatedDatetime"b1"startDatetime"b1"blockingIncident"b1};
 - (unsigned long long);
 - (id);
-- (id);
+- (id)ivenessTimerFired:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id)sing removal for AppleMediaAccessory;
 - (unsigned long long)on succeeded;
-- (void)eHomeUUIDNotificationKey;
+- (void)HMDResidentDeviceHomeUUIDNotificationKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

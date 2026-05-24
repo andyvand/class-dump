@@ -7,13 +7,10 @@
 @interface ConversationKit.StagingAreaViewConstraintsController
 {
     id floatingControlsState;
-    id floatingControlsConstraints;
-    long long inCallControlsState;
-    id inCallControlsConstraints;
 }
 
 - (void);
-- (long long);
+- (long long){;
 - (id);
 - (void)ÀCÿÿ;
 

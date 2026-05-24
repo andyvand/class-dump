@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptionGroupInternal
 {
     NSArray *captions;
-    CDStruct_e83c9415 timeRange;
 }
 
 @end

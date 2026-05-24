@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PSGExperimentResolver, _PASBundleIdResolver;
+@class NSString;
 @protocol PSGInternalServerProtocol;
 
 @interface PSGInternalRequestHandler
 {
     id <PSGInternalServerProtocol> _clientProxy;
-    PSGExperimentResolver *_experimentResolver;
-    NSString *_clientProcessName;
-    _PASBundleIdResolver *_bundleIdResolver;
 }
 
 - (id);
@@ -21,15 +18,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)R";
 - (void);
-- (void);
+- (void)trueNegatives:predictions:predicate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _PASBundleIdResolver *bundleIdResolver; // @synthesize bundleIdResolver=_bundleIdResolver;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

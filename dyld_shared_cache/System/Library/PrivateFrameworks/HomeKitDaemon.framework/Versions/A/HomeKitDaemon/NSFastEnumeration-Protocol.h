@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)unt;
+- (unsigned long long)ShortArrivalPredictionCount;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)t checksum error;
 @end
 

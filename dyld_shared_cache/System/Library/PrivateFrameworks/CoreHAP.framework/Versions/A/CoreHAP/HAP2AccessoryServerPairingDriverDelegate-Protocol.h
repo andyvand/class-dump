@@ -5,5 +5,6 @@
 //
 
 @protocol HAP2AccessoryServerPairingDriverDelegate
+- (void);
 @end
 

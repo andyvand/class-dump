@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGMusicCurationFeatures
 {
     id memoryCategory;
-    id memorySubcategory;
-    id eventCollectionDuration;
-    id eventRatioByLanguageCode;
-    id mostFrequentMeaningLabel;
-    id performerIdentifiers;
-    id inferredUserLanguageCodes;
-    id maestroSongScoresBySongID;
-    id consistentHash;
-    id location;
-    id curatorEvents;
-    id keywordsDataFrame;
-    id scoreByAssetCollectionMaestroKeyword;
-    _Bool shouldAvoidColorGrading;
 }
 
 - (_Bool);
@@ -30,7 +15,6 @@
 - (void)e.photos.intelligence.overnightsimulationmetrics;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) _Bool shouldAvoidColorGrading; // @synthesize shouldAvoidColorGrading;
 
 @end

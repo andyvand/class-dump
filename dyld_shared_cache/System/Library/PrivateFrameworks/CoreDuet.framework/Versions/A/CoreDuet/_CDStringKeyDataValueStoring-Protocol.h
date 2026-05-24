@@ -5,5 +5,6 @@
 //
 
 @protocol _CDStringKeyDataValueStoring
+- (_Bool);
 @end
 

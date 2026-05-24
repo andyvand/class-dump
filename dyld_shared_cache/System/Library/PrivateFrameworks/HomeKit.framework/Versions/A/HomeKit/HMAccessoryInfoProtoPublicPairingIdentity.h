@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HMAccessoryInfoProtoPublicPairingIdentity
 {
     NSString *_identifier;
-    NSData *_publicPairingKeyData;
 }
 
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)diplomatist;
+- (void)for key:(id)arg1 ';
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void)h html and text release notes provided, using text notes;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPublicPairingKeyData;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *publicPairingKeyData; // @synthesize publicPairingKeyData=_publicPairingKeyData;
 
 @end
 

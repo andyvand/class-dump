@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKEventLog, NSDate, NSString;
+@class CRKEventLog;
 
 @interface CRKFetchLogEventsResultObject
 {
     CRKEventLog *_eventLog;
-    NSDate *_currentDate;
-    NSString *_sessionToken;
 }
 
 + (_Bool);
@@ -20,14 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *currentDate; // @synthesize currentDate=_currentDate;
 @property(retain, nonatomic) CRKEventLog *eventLog; // @synthesize eventLog=_eventLog;
-@property(copy, nonatomic) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
 
 @end
 

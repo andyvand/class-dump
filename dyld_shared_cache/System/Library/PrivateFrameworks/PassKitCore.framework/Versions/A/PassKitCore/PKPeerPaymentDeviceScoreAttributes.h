@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PKPeerPaymentDeviceScoreAttributes
 {
     unsigned long long _payloadVersion;
-    unsigned long long _endpoint;
-    NSString *_recipientAddress;
-    NSArray *_recipientAddresses;
-    unsigned long long _quoteRequestDestination;
-    unsigned long long _messagesContext;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (unsigned long long);
 - (void);
@@ -28,17 +21,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)1;
 - (void);
 - (void)access control for merchandising BAA:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endpoint; // @synthesize endpoint=_endpoint;
-@property(nonatomic) unsigned long long messagesContext; // @synthesize messagesContext=_messagesContext;
 @property(nonatomic) unsigned long long payloadVersion; // @synthesize payloadVersion=_payloadVersion;
-@property(nonatomic) unsigned long long quoteRequestDestination; // @synthesize quoteRequestDestination=_quoteRequestDestination;
-@property(copy, nonatomic) NSString *recipientAddress; // @synthesize recipientAddress=_recipientAddress;
-@property(copy, nonatomic) NSArray *recipientAddresses; // @synthesize recipientAddresses=_recipientAddresses;
 
 @end
 

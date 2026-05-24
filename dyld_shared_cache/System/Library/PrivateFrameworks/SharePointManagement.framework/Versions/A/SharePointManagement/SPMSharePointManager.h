@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSHashTable, NSObject, NSString, ODNode, SPMVolumeObserver;
-@protocol OS_dispatch_queue;
+@class ODNode;
 
 @interface SPMSharePointManager
 {
     ODNode *_node;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSHashTable *_observers;
-    NSArray *_sharePoints;
-    NSData *_authorizationToken;
-    SPMVolumeObserver *_volumeObserver;
 }
 
 + (id);
@@ -25,11 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -39,24 +33,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void){__CFString=}8^{__CFSet=}16;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSData *authorizationToken; // @synthesize authorizationToken=_authorizationToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
 @property(readonly) ODNode *node; // @synthesize node=_node;
-@property(readonly) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) NSArray *sharePoints; // @synthesize sharePoints=_sharePoints;
-@property(readonly) Class superclass;
-@property(readonly) SPMVolumeObserver *volumeObserver; // @synthesize volumeObserver=_volumeObserver;
 
 @end
 

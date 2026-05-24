@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, _CKPurchaseQueueDelegateWrapper;
+@class NSMutableArray, _CKPurchaseQueueDelegateWrapper;
 
 @interface CKPurchaseQueue
 {
     NSMutableArray *_transactions;
-    NSString *_identifier;
-    _CKPurchaseQueueDelegateWrapper *_delegateWrapper;
 }
 
 + (id);
@@ -24,18 +22,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)or permanent store;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) _CKPurchaseQueueDelegateWrapper *delegateWrapper; // @synthesize delegateWrapper=_delegateWrapper;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSArray *transactions;
 
 @end
 

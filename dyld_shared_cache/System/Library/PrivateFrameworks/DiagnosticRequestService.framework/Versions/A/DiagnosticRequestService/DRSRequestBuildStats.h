@@ -6,7 +6,7 @@
 
 #import <DiagnosticRequestService/DRSRequestStats.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface DRSRequestBuildStats : DRSRequestStats
 {
@@ -16,10 +16,9 @@
 + (Class);
 + (id);
 - (id);
-- (id);
+- (id)_createImageMediaObjectWithPath:isAlias:resolvedAliasPath:spotlightAttributesDict: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *build;
 @property(readonly, nonatomic) NSDictionary *perTeamIDStats;
 
 @end

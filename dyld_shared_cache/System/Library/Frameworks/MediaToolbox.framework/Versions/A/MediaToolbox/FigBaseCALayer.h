@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CATextLayer;
-
 @interface FigBaseCALayer
 {
     _Bool _preventsChangesToSublayerHierarchy;
-    CAShapeLayer *_DRMFallbackIconLayer;
-    CATextLayer *_DRMFallbackTextLayer;
-    struct CGSize _DRMFallbackIconSize;
-    _Bool _enabledDRMFallback;
-    id _snapshotObserverForAppKit;
-    id _snapshotObserverForWebKit;
 }
 
 + (id);
 - (void);
 - (float);
 - (void);
+- (void)%ld (%{public}@);
+- (void);
+- (id)Iq;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -37,8 +29,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)aderProperty_Metadata;
+- (void)o;
+- (void)MTPluginTrackReaderProperty_Metadata;
 
 // Remaining properties
 @property(nonatomic) _Bool preventsChangesToSublayerHierarchy; // @synthesize preventsChangesToSublayerHierarchy=_preventsChangesToSublayerHierarchy;

@@ -10,25 +10,24 @@
 @interface STUnique
 {
     NSPersistentHistoryToken *_migratedToken;
-    id <STPersistenceControllerProtocol> _persistenceController;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (Class);
-+ (_Bool);
++ (id)_item_artist TEXT, series_name TEXT NOT NULL DEFAULT '', sort_series_name TEXT, grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', artist_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
++ (id)T 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
++ (id)ULT NULL, hidden INTEGER DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
++ (_Bool)GER NOT NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
++ (Class)format TEXT, gapless_heuristic_info INTEGER NOT NULL DEFAULT 0, gapless_encoding_delay INTEGER NOT NULL DEFAULT 0, gapless_encoding_drain INTEGER NOT NULL DEFAULT 0, gapless_last_frame_resynch INTEGER NOT NULL DEFAULT 0, has_video INTEGER NOT NULL DEFAULT 0, relative_volume INTEGER, sample_rate REAL NOT NULL DEFAULT 0, start_time_ms REAL NOT NULL DEFAULT 0, stop_time_ms REAL NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0);
++ (_Bool)$;
 + (id);
 - (void);
-- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool)characterIndexesForQuadPoints:(id *)arg1 onPageAtIndex:forAnnotationController: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)J1;
 - (id);
 - (void);
 

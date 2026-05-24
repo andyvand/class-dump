@@ -7,12 +7,6 @@
 @interface ADBannerView
 {
     _Bool _bannerLoaded;
-    _Bool _bannerViewActionInProgress;
-    long long _adType;
-    id _delegate;
-    id _advertisingSection;
-    id _requiredContentSizeIdentifiers;
-    id _currentContentSizeIdentifier;
 }
 
 + (struct CGSize);
@@ -25,20 +19,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ispatch(_:(long long)arg1 objectGraph:configuration:) using the default implementation, which does not support caching. Implement dispatch(_:objectGraph:configuration:) to support caching. /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
-- (void);
+- (void)H;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long adType; // @synthesize adType=_adType;
-@property(copy, nonatomic) id advertisingSection; // @synthesize advertisingSection=_advertisingSection;
-@property(readonly, nonatomic, getter=isBannerLoaded) _Bool bannerLoaded; // @synthesize bannerLoaded=_bannerLoaded;
-@property(readonly, nonatomic, getter=isBannerViewActionInProgress) _Bool bannerViewActionInProgress; // @synthesize bannerViewActionInProgress=_bannerViewActionInProgress;
-@property(copy, nonatomic) id currentContentSizeIdentifier; // @synthesize currentContentSizeIdentifier=_currentContentSizeIdentifier;
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) id requiredContentSizeIdentifiers; // @synthesize requiredContentSizeIdentifiers=_requiredContentSizeIdentifiers;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol LAKeyStore
+- (void);
 @end
 

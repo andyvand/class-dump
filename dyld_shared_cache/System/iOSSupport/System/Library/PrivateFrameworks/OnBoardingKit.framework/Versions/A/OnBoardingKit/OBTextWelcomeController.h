@@ -6,12 +6,11 @@
 
 #import <OnBoardingKit/OBWelcomeController.h>
 
-@class OBTextBulletedList, UIStackView;
+@class UIStackView;
 
 @interface OBTextWelcomeController : OBWelcomeController
 {
     UIStackView *_stackView;
-    OBTextBulletedList *_currentBulletedList;
 }
 
 - (void);
@@ -23,14 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)tion dictionary representation;
+- (void)d:(id)arg1 Process is ready to suspend;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) OBTextBulletedList *currentBulletedList; // @synthesize currentBulletedList=_currentBulletedList;
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
 
 @end

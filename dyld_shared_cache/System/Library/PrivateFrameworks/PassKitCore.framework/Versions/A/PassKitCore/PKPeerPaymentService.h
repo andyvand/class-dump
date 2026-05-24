@@ -4,48 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, PKPeerPaymentAccount, PKPeerPaymentPreferences, PKPeerPaymentWebServiceContext, PKXPCService;
-@protocol OS_dispatch_queue;
+@class PKPeerPaymentWebServiceContext, PKXPCService;
 
 @interface PKPeerPaymentService
 {
     PKXPCService *_remoteService;
-    PKPeerPaymentAccount *_account;
-    PKPeerPaymentPreferences *_preferences;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    struct os_unfair_lock_s _accountLock;
-    struct os_unfair_lock_s _lockObservers;
-    NSHashTable *_observers;
-    long long _accountChangedNotificationSuspensionCount;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -59,6 +29,28 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void))	k ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -75,12 +67,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -88,24 +75,27 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)q;
+- (id);
 - (void);
-- (void)orceReAddParticipant;
+- (id);
+- (void)setHasBcnSched:(CDUnknownBlockType)arg1;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)failedForceReAddParticipant;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPeerPaymentAccount *account;
-@property(readonly, nonatomic) PKPeerPaymentPreferences *preferences;
 @property(retain, nonatomic) PKPeerPaymentWebServiceContext *sharedPeerPaymentWebServiceContext;
 
 @end

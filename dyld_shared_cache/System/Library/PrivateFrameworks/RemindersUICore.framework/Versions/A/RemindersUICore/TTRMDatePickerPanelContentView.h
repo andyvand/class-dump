@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IIDatePicker, NSDatePicker;
+@class IIDatePicker;
 
 @interface TTRMDatePickerPanelContentView
 {
     _Bool _shouldFlipContents;
-    IIDatePicker *__textDatePicker;
-    NSDatePicker *__calendarDatePicker;
 }
 
 - (void);
@@ -19,19 +17,17 @@
 - (void);
 - (id);
 - (id);
+- (void)/Accelerate;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)ignoreImpressionValue;
+- (id)clientRecordIDWithZoneWidePCS;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSDatePicker *_calendarDatePicker; // @synthesize _calendarDatePicker=__calendarDatePicker;
 @property(retain) IIDatePicker *_textDatePicker; // @synthesize _textDatePicker=__textDatePicker;
-@property(nonatomic) _Bool shouldFlipContents; // @synthesize shouldFlipContents=_shouldFlipContents;
 
 @end
 

@@ -7,14 +7,13 @@
 @interface NUISizeCache
 {
     struct nui_size_cache _sizeCache;
-    _Bool _threadSafe;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)__text;
 - (void);
 - (void);
 

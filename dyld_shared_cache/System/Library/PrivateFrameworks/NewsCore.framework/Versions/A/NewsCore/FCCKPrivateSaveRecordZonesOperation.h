@@ -11,9 +11,6 @@
 @interface FCCKPrivateSaveRecordZonesOperation : FCCKPrivateDatabaseOperation
 {
     _Bool _canBypassEncryptionRequirement;
-    NSArray *_recordZonesToSave;
-    CDUnknownBlockType _saveRecordZonesCompletionBlock;
-    NSArray *_resultSavedRecordZones;
 }
 
 - (void);
@@ -23,17 +20,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)`;
 - (void)FCFileCoordinatedDictionaryUtilities.m;
 - (void)ble because it has no narrative track;
 - (void)blic}@;
 - (_Bool)ÃFá;
 
 // Remaining properties
-@property(nonatomic) _Bool canBypassEncryptionRequirement; // @synthesize canBypassEncryptionRequirement=_canBypassEncryptionRequirement;
-@property(copy, nonatomic) NSArray *recordZonesToSave; // @synthesize recordZonesToSave=_recordZonesToSave;
 @property(retain, nonatomic) NSArray *resultSavedRecordZones; // @synthesize resultSavedRecordZones=_resultSavedRecordZones;
-@property(copy, nonatomic) CDUnknownBlockType saveRecordZonesCompletionBlock; // @synthesize saveRecordZonesCompletionBlock=_saveRecordZonesCompletionBlock;
 
 @end
 

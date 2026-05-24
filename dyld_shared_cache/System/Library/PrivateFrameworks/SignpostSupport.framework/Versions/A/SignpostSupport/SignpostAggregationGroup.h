@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SignpostAggregation;
+@class SignpostAggregation;
 
 @interface SignpostAggregationGroup
 {
     _Bool _telemetryEnabled;
-    unsigned long long _count;
-    NSString *_countUnit;
-    NSString *_name;
-    NSDictionary *_durationTypeToDurationDict;
-    NSDictionary *_measuredValueTypeToMeasuredValueDict;
-    SignpostAggregation *_parentAggregation;
 }
 
-+ (id);
++ (id)2h^;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
@@ -32,27 +26,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`
+;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) double countPerMs;
-@property(readonly, nonatomic) double countPerNs;
-@property(readonly, nonatomic) double countPerSecond;
-@property(readonly, nonatomic) NSString *countUnit; // @synthesize countUnit=_countUnit;
-@property(retain, nonatomic) NSDictionary *durationTypeToDurationDict; // @synthesize durationTypeToDurationDict=_durationTypeToDurationDict;
-@property(retain, nonatomic) NSDictionary *measuredValueTypeToMeasuredValueDict; // @synthesize measuredValueTypeToMeasuredValueDict=_measuredValueTypeToMeasuredValueDict;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) __weak SignpostAggregation *parentAggregation; // @synthesize parentAggregation=_parentAggregation;
-@property(readonly, nonatomic) _Bool telemetryEnabled; // @synthesize telemetryEnabled=_telemetryEnabled;
 
 @end
 

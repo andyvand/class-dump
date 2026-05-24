@@ -11,15 +11,15 @@
     _Bool _prefersLargeSize;
 }
 
-+ (unsigned long long);
-+ (_Bool);
++ (unsigned long long);
++ (_Bool)(K;
 + (_Bool);
 - (_Bool);
-- (void);
+- (void)�;
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (id);
+- (id)_lock_contentLoadError;
 - (_Bool);
 - (void);
 - (void);

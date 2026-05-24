@@ -7,8 +7,6 @@
 @interface CoreUtilsSwift.CUDarwinNotification
 {
     id handler;
-    id name;
-    id token;
 }
 
 @end

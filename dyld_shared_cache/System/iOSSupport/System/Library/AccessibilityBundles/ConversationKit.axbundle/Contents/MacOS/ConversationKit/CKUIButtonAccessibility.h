@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (void);
+- (void)accessibilityEnumerateContainerElementsWithOptions:(_Bool)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKDShareTokenMetadata
 {
     _Bool _forceDSRefetch;
-    NSString *_routingKey;
-    NSData *_shortSharingTokenData;
-    NSData *_publicTokenData;
-    NSData *_privateTokenData;
-    NSString *_participantID;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)JY;
 - (id);
 - (id);
 - (void);
@@ -34,14 +29,7 @@
 - (id)d %{public}@";
 
 // Remaining properties
-@property(nonatomic) _Bool forceDSRefetch; // @synthesize forceDSRefetch=_forceDSRefetch;
-@property(retain, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(retain, nonatomic) NSData *privateTokenData; // @synthesize privateTokenData=_privateTokenData;
-@property(retain, nonatomic) NSData *publicTokenData; // @synthesize publicTokenData=_publicTokenData;
 @property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(readonly, nonatomic) NSString *shortSharingToken;
-@property(retain, nonatomic) NSData *shortSharingTokenData; // @synthesize shortSharingTokenData=_shortSharingTokenData;
-@property(readonly, nonatomic) NSData *shortSharingTokenHashData;
 
 @end
 

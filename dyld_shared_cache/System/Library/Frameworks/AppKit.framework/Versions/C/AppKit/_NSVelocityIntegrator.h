@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSVelocityIntegrator
 {
     _Bool _hasMemoizedVelocity;
-    double _minimumRequiredMovement;
-    NSMutableArray *_samples;
-    double _hysteresisTimeInterval;
-    double _resetHysteresisOnSampleThetaDiff;
-    CDUnknownBlockType _didResetHysteresisOnThetaDiffHandler;
-    struct CGVector _offset;
-    struct CGVector _totalTranslation;
-    struct CGVector _memoizedVelocity;
 }
 
 - (void);
 - (void);
-- (struct CGVector);
+- (struct CGVector)fA;
 - (_Bool);
-- (struct CGVector);
-- (void);
+- (struct CGVector)addOperation: /* Error: Ran out of types for this method. */;
+- (void).eu;
 - (double);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (struct CGVector);
-- (struct CGVector);
-- (double)FromSettingPendingStages;
-- (id)ews;
+- (struct CGVector)@Kz;
+- (struct CGVector);
+- (double)reactionsFromSettingPendingStages;
+- (id)_hasExistingViews;
 - (void);
 - (_Bool);
 - (void)¨;
@@ -48,16 +38,7 @@ __attribute__((visibility("hidden")))
 - (struct CGVector);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType didResetHysteresisOnThetaDiffHandler; // @synthesize didResetHysteresisOnThetaDiffHandler=_didResetHysteresisOnThetaDiffHandler;
-@property(nonatomic) _Bool hasMemoizedVelocity; // @synthesize hasMemoizedVelocity=_hasMemoizedVelocity;
-@property(nonatomic) double hysteresisTimeInterval; // @synthesize hysteresisTimeInterval=_hysteresisTimeInterval;
-@property(nonatomic) struct CGVector memoizedVelocity; // @synthesize memoizedVelocity=_memoizedVelocity;
-@property(nonatomic) double minimumRequiredMovement; // @synthesize minimumRequiredMovement=_minimumRequiredMovement;
 @property(nonatomic) struct CGVector offset; // @synthesize offset=_offset;
-@property(nonatomic) double resetHysteresisOnSampleThetaDiff; // @synthesize resetHysteresisOnSampleThetaDiff=_resetHysteresisOnSampleThetaDiff;
-@property(retain, nonatomic) NSMutableArray *samples; // @synthesize samples=_samples;
-@property(nonatomic) struct CGVector totalTranslation; // @synthesize totalTranslation=_totalTranslation;
-@property(readonly, nonatomic) struct CGVector velocity;
 
 @end
 

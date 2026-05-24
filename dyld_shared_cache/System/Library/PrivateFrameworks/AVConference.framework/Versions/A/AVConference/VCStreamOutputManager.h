@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCStreamOutputManager
 {
     NSMutableDictionary *_streamOutputSourceForStreamToken;
-    NSMutableDictionary *_streamOutputs;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_xpcCallbackQueue;
-    _Bool _useFigRemoteQueue;
 }
 
 + (id)StreamGroupU1Configuration updateCommonNegotiatedVideoSettings:localU1Config:remoteU1Config:] /* Error: Ran out of types for this method. */;
@@ -28,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,13 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)B24@"NSURL"28@"NSError"36;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

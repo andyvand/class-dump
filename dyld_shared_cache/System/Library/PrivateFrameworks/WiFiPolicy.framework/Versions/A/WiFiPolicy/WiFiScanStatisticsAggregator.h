@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface WiFiScanStatisticsAggregator
 {
     NSMutableArray *_aggregator;
-    NSDate *_lastSubmissionTime;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)meEstimateForHoseStartup bufferLevelTime=%1.4f ;
 - (void);
 - (void)¥°1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *aggregator; // @synthesize aggregator=_aggregator;
-@property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(retain, nonatomic) NSDate *lastSubmissionTime; // @synthesize lastSubmissionTime=_lastSubmissionTime;
 
 @end
 

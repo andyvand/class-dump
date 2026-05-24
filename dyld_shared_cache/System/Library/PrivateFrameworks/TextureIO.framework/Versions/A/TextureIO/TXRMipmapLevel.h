@@ -9,13 +9,12 @@
 @interface TXRMipmapLevel
 {
     NSMutableArray *_elements;
-    unsigned long long _level;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�3;
 - (void);
 - (id);
 

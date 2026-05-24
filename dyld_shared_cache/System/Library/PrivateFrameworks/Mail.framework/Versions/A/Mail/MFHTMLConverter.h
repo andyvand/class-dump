@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSPort, NSString, WebView;
+@class NSPort, WebView;
 
 @interface MFHTMLConverter
 {
     NSPort *_replyPort;
-    _Bool _didHandlePortMessage;
-    unsigned int _sequenceNumber;
-    NSData *_resultData;
-    WebView *_webView;
-    long long _mainThreadSelectorType;
 }
 
 + (id)¿*,)
@@ -25,7 +20,7 @@
 - (void);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)K;
 - (void);
 - (void);
 - (void);
@@ -35,13 +30,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)i;
+- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -51,17 +46,6 @@
 - (id)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didHandlePortMessage; // @synthesize didHandlePortMessage=_didHandlePortMessage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long mainThreadSelectorType; // @synthesize mainThreadSelectorType=_mainThreadSelectorType;
-@property(retain, nonatomic) NSData *resultData; // @synthesize resultData=_resultData;
-@property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WebView *webView; // @synthesize webView=_webView;
 
 @end

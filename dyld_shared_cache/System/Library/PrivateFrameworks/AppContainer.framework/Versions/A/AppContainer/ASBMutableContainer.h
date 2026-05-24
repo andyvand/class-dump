@@ -6,16 +6,11 @@
 
 #import <AppContainer/ASBContainer.h>
 
-@class CodeIdentity, NSDictionary, NSRegularExpression, NSString, NSURL;
+@class CodeIdentity, NSURL;
 
 @interface ASBMutableContainer : ASBContainer
 {
     CodeIdentity *_owner;
-    _Bool _created;
-    NSDictionary *varMap;
-    NSRegularExpression *matchVars;
-    _Bool _pathSpecOnce;
-    NSString *_backupPath;
 }
 
 + (id);
@@ -31,7 +26,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -52,12 +47,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSURL *backupURL;
-@property(readonly) NSURL *migrationManifestURL;
-@property(readonly) CodeIdentity *ownerCode; // @synthesize ownerCode=_owner;
 
 @end
 

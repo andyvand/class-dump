@@ -7,9 +7,6 @@
 @interface NewsUI2.AdContext
 {
     id qToken;
-    id previewID;
-    id previewSessionID;
-    id maximumAdRequestsForCurrentAdPreviewID;
 }
 
 - (id);

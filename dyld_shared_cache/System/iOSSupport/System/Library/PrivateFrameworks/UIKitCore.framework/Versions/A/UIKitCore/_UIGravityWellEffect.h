@@ -4,51 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UITargetedPreview, _UIGravityWellEffectBody;
+@class UITargetedPreview;
 @protocol _UIContentEffectDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface _UIGravityWellEffect
 {
     id <_UIContentEffectDescriptor> _descriptor;
-    UITargetedPreview *_continuationPreview;
-    _UIGravityWellEffectBody *_primaryBody;
-    NSArray *_secondaryBodies;
-    NSMutableArray *_completions;
-    unsigned long long _animationCount;
-    double _effectProgress;
-    long long _state;
-    double _baseZOffset;
 }
 
-+ (id);
++ (id)P;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)ing"24I32@"NSDictionary"36I44@"NSDictionary"48;
+- (id)wallpaperMetadataTag;
+- (id)updateSyndicatedMessageWithSyndicationMessageAction:(id)arg1;
+- (void)dHandle:lastAddressedSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
+- (double)ck: /* Error: Ran out of types for this method. */;
+- (id)_lastMeContactStoreSync;
+- (double)B,N,V_needToLoadMapsInfoFromDisk;
+- (void);
+- (void);
+- (void)IncomingDB on a non gizmo. Really bad!!;
+- (void)g to use the Dominent phone number one if possible ;
+- (id)llpaperUpdate:%i, existingNickname:%@ /* Error: Ran out of types for this method. */;
+- (id)age, so let's try and transcode them;
+- (void)0;
+- (id)IMDFileTransferCenter retrieveLocalFileURLForFileTransferWithGUIDs:options:completion:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (double);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)topicCalibration.trie;
 - (unsigned long long);
 - (void)!CùQ^1Â0@ù
 × ;
 - (long long);
-- (void)LineBreak;
+- (void)addLineBreak;
 - (void)uration;
 - (void);
 - (id)efore deallocating;
@@ -56,23 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)Ä{ÿ£Ùê_;
 
 // Remaining properties
-@property(nonatomic) unsigned long long animationCount; // @synthesize animationCount=_animationCount;
-@property(nonatomic) double baseZOffset; // @synthesize baseZOffset=_baseZOffset;
-@property(readonly, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
 @property(retain, nonatomic) UITargetedPreview *continuationPreview; // @synthesize continuationPreview=_continuationPreview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <_UIContentEffectDescriptor> descriptor; // @synthesize descriptor=_descriptor;
-@property(nonatomic) double effectProgress; // @synthesize effectProgress=_effectProgress;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIGravityWellEffectBody *primaryBody; // @synthesize primaryBody=_primaryBody;
-@property(retain, nonatomic) NSArray *secondaryBodies; // @synthesize secondaryBodies=_secondaryBodies;
-@property(readonly, nonatomic) NSArray *secondaryBodyPreviews;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
-
 @interface SASUtterance : AceObject
 {
 }
@@ -23,14 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) double confidenceScore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *interpretationIndices;
-@property(readonly) Class superclass;
 
 @end
 

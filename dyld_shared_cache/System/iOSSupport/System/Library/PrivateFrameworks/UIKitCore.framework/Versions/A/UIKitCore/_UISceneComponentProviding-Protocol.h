@@ -11,8 +11,9 @@
 - (void)ö?ÀDëÓ@>=¶e1uÀ[²*ÂMò?;
 
 @optional
-- (void):(UIScene *)arg1 range:(long long)arg2 options:(unsigned long long)arg3;
 - (UIScene *);
+- (void)ck:(UIScene *)arg1;
+- (void)generatorForTextInput:(UIScene *)arg1 range:(long long)arg2 options:(unsigned long long)arg3;
 - (void)0>\;
 
 // Remaining properties

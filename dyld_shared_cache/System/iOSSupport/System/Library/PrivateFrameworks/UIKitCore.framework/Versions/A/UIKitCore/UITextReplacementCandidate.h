@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     UITextReplacement *_replacement;
 }
 
-+ (id);
-- (id);
++ (id)nished.;
+- (id);
 - (id);
 - (id);
 - (void);

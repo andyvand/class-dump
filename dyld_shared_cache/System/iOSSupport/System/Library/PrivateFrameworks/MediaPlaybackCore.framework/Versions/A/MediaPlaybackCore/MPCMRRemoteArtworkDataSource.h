@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCMediaRemoteController, NSString;
+@class MPCMediaRemoteController;
 
 __attribute__((visibility("hidden")))
 @interface MPCMRRemoteArtworkDataSource
@@ -18,20 +18,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ShelfGridPaginationInstruction;
 - (id)1Â0@ù
 × ;
 - (void)meters event=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCMediaRemoteController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

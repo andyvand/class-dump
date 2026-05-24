@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TILRUDictionaryNode;
-
 __attribute__((visibility("hidden")))
 @interface TILRUDictionary
 {
     struct __CFDictionary *_dictionary;
-    unsigned long long _maxCount;
-    TILRUDictionaryNode *_head;
-    TILRUDictionaryNode *_tail;
 }
 
 + (id);
 - (void);
 - (void);
+- (id)P;
 - (id);
 - (id);
-- (id);
+- (id)bootstrapConfiguration;
+- (void);
+- (id)`;
+- (void);
+- (id)kMDItemAuthorEmailAddresses_norm_match_count;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
+- (unsigned long long)ec_personNameComponents;
+- (void),R,C;
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)_fetchLastDisplayTimeForGlobalPresentationPolicyGroup:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)];
 - (void)Qið1Â0@ù
 × ;
 

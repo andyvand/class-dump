@@ -11,11 +11,133 @@
 
 - (void);
 - (struct CGSize);
+- (struct CGRect)unction recieved:(struct CGRect)arg1 "%@";
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
+- (struct CGRect)t>
+			<key>colorStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>SceneKit_renderFloor</key>
+		<dict>
+			<key>depthStates</key>
+			<dict>
+				<key>clear</key>
+				<false/>
+			</dict>
+			<key>colorStates</key>
+			<dict>
+				<key>clear</key>
+				<false/>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>u_floorReflectionDepth</key>
+				<string>SceneKit-Floor-depth</string>
+				<key>u_floorReflectionColor</key>
+				<string>SceneKit-Floor-color</string>
+				<key>u_floorNormal</key>
+				<string>u_floorNormal</string>
+				<key>u_floorTangent</key>
+				<string>u_floorTangent</string>
+				<key>u_floorCenter</key>
+				<string>u_floorCenter</string>
+				<key>u_floorExtent</key>
+				<string>u_floorExtent</string>
+				<key>u_floorReflectivity</key>
+				<string>u_floorReflectivity</string>
+				<key>u_floor_viewport</key>
+				<string>u_floor_viewport</string>
+				<key>u_floorMVP_i</key>
+				<string>u_floorMVP_i</string>
+				<key>u_floorPlane</key>
+				<string>u_floorPlane</string>
+				<key>u_floorFalloff</key>
+				<string>u_floorFalloff</string>
+				<key>u_floorFalloffStart</key>
+				<string>u_floorFalloffStart</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_GEOMETRY</string>
+			<key>installViewport</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>symbols</key>
+	<dict>
+		<key>u_floorNormal</key>
+		<dict>
+			<key>type</key>
+			<string>vec3</string>
+		</dict>
+		<key>u_floorTangent</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorCenter</key>
+		<dict>
+			<key>type</key>
+			<string>vec3</string>
+		</dict>
+		<key>u_floorExtent</key>
+		<dict>
+			<key>type</key>
+			<string>vec2</string>
+		</dict>
+		<key>u_floor_viewport</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorReflectivity</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorMVP_i</key>
+		<dict>
+			<key>type</key>
+			<string>mat4</string>
+		</dict>
+		<key>u_floorPlane</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorFalloff</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorFalloffStart</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-Floor-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+		</dict>
+		<key>SceneKit-Floor-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
+- (struct CGRect)geSequenceColumnCount:(struct CGRect)arg1 ];
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGSize insetSize; // @synthesize insetSize=_insetSize;

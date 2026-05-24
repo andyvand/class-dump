@@ -6,7 +6,7 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsBallSocketJoint : SCNPhysicsBehavior
 {
@@ -16,8 +16,6 @@
         struct SCNVector3 anchorA;
         struct SCNVector3 anchorB;
     } _definition;
-    struct btPoint2PointConstraint *_constraint;
-    SCNPhysicsWorld *_world;
 }
 
 + (id);
@@ -25,7 +23,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,10 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 anchorA;
-@property(nonatomic) struct SCNVector3 anchorB;
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
 
 @end
 

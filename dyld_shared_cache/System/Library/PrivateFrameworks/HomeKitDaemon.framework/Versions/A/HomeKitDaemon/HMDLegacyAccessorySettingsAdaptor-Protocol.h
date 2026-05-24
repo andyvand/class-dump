@@ -7,6 +7,7 @@
 @protocol HMDLegacyAccessorySettingsAdaptorDelegate;
 
 @protocol HMDLegacyAccessorySettingsAdaptor
+- (void)k;
 
 // Remaining properties
 @property __weak id <HMDLegacyAccessorySettingsAdaptorDelegate> delegate;

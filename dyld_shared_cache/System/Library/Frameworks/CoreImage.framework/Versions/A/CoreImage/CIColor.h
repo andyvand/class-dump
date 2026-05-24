@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CIColor
 {
     void *_priv;
-    void *_pad[3];
 }
 
 
 // Remaining properties
-@property(readonly) double alpha;
-@property(readonly) double blue;
-@property(readonly) struct CGColorSpace *colorSpace;
-@property(readonly) const double *components;
-@property(readonly) double green;
 @property(readonly) unsigned long long numberOfComponents;
-@property(readonly) double red;
-@property(readonly) NSString *stringRepresentation;
 @end
 

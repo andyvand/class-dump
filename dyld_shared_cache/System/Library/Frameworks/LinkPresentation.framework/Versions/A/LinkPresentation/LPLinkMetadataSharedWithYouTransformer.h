@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSURL;
+@class LPLinkMetadata;
 
 @interface LPLinkMetadataSharedWithYouTransformer
 {
     LPLinkMetadata *_metadata;
-    NSURL *_URL;
 }
 
 - (_Bool);
 - (id);
+- (id)NSDate",C,N,V_sending;
 - (id);
-- (id);
-- (void);
+- (void)__objc_ivar;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) _Bool shouldDonateToSharedWithYou;
 
 @end
 

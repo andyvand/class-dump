@@ -6,16 +6,11 @@
 
 #import <AppleMediaServices/AMSPurchaseTask.h>
 
-@class AKAuthorization, AKCredentialRequestContext, AMSPurchaseSIWA, NSError, NSUUID;
+@class AMSPurchaseSIWA;
 
 @interface AMSPurchaseSIWATask : AMSPurchaseTask
 {
     _Bool _purchaseRequiresAuthorization;
-    AMSPurchaseSIWA *_purchaseSIWA;
-    AKCredentialRequestContext *_requestContext;
-    NSUUID *_continuationRequestIdentifier;
-    NSError *_siwaError;
-    AKAuthorization *_authorization;
 }
 
 - (id);
@@ -39,7 +34,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)<;
 - (void)ì|
 ÈZ
 Ú_Õ*AG}
@@ -54,12 +49,7 @@ cáÃe_U×A;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AKAuthorization *authorization; // @synthesize authorization=_authorization;
-@property(copy, nonatomic) NSUUID *continuationRequestIdentifier; // @synthesize continuationRequestIdentifier=_continuationRequestIdentifier;
-@property(nonatomic) _Bool purchaseRequiresAuthorization; // @synthesize purchaseRequiresAuthorization=_purchaseRequiresAuthorization;
 @property(retain, nonatomic) AMSPurchaseSIWA *purchaseSIWA; // @synthesize purchaseSIWA=_purchaseSIWA;
-@property(retain, nonatomic) AKCredentialRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(copy, nonatomic) NSError *siwaError; // @synthesize siwaError=_siwaError;
 
 @end
 

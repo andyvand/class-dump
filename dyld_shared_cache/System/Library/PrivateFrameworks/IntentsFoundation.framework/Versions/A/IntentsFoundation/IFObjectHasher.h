@@ -7,17 +7,15 @@
 @interface IFObjectHasher
 {
     struct SipHasher _hasher;
-    unsigned long long _hash;
-    _Bool _finalized;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)`;;
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)sharedSerialResponseQueue;
+- (id);
 
 @end
 

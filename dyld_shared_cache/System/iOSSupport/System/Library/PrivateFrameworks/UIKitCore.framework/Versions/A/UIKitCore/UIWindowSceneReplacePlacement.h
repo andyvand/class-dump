@@ -15,12 +15,12 @@
 
 + (unsigned long long);
 + (id);
+- (id)ation sharing from:%@ (%@) /* Error: Ran out of types for this method. */;
+- (id)y message:(id)arg1 %@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)nselectionDuration:(id)arg1;
-- (id)roundViewAnimationProgress;
+- (id){public}@;
+- (_Bool)setLayerUnselectionDuration:(id)arg1;
+- (id)backgroundViewAnimationProgress;
 - (void)n|;
 
 // Remaining properties

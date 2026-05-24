@@ -6,19 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNGradientKernel.h>
 
-@class NSData;
-@protocol MTLBuffer;
-
 @interface MPSCNNNeuronGradient : MPSCNNGradientKernel
 {
     int _neuronType;
-    float _a;
-    float _b;
-    float _c;
-    NSData *_data;
-    _Bool _noCopy;
-    unsigned long long _count;
-    id <MTLBuffer> _aBuf;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -30,10 +20,10 @@
 - (void);
 - (id);
 - (float);
+- (id);
+- (float)to fetch device session ID without an account;
 - (id);
-- (float);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
@@ -41,10 +31,6 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) float a; // @synthesize a=_a;
-@property(readonly, nonatomic) float b; // @synthesize b=_b;
-@property(readonly, nonatomic) float c; // @synthesize c=_c;
-@property(readonly, retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
 
 @end

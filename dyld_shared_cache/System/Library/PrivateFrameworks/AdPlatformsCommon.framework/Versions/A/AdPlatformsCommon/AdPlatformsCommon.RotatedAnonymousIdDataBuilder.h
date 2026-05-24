@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.RotatedAnonymousIdDataBuilder
 {
     id datasource;
-    id dsidProvider;
-    id statusProvider;
 }
 
 @end

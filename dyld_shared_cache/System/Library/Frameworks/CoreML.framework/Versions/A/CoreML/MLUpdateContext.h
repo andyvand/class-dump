@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLUpdateTask, NSDictionary, NSError;
-@protocol MLWritable;
+@class MLUpdateTask;
 
 @interface MLUpdateContext
 {
     MLUpdateTask *_task;
-    MLModel<MLWritable> *_model;
-    long long _event;
-    NSDictionary *_metrics;
-    NSDictionary *_parameters;
-    NSError *_error;
 }
 
 + (id);
 + (id);
+- (id);
 - (id);
-- (id);
+- (void)_cl_ticketForForwardGeocodeAddressDictionary:(id)arg1 maxResults:traits: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)om.apple.xbs/TemporaryDirectory.V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/video/encoder_bitrate_adjuster.cc;
 - (id);
 - (long long);
 - (void);
@@ -35,11 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) long long event; // @synthesize event=_event;
-@property(retain, nonatomic) NSDictionary *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) MLModel<MLWritable> *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
 @property(retain, nonatomic) MLUpdateTask *task; // @synthesize task=_task;
 
 @end

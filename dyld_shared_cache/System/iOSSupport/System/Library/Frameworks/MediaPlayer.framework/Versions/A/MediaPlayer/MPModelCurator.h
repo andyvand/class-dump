@@ -14,33 +14,26 @@
 
 + (id);
 + (long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-- (id);
-- (id);
++ (id)hw;
++ (id)System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet;
++ (id)tem/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet;
++ (id)/CoreDuet;
++ (id)k:r:path:/System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet /* Error: Ran out of types for this method. */;
++ (id)rivateFrameworks/CoreDuet.framework/CoreDuet;
++ (id)view for %s in %s. Access assertion:%s /* Error: Ran out of types for this method. */;
++ (void)ng graph while converting subscription to xpc event %@;
++ (void)r subscription:%@; error:%@ /* Error: Ran out of types for this method. */;
++ (void)be parsed;
++ (void):%@, provided graph is not a dictionary and was not able to be parsed /* Error: Ran out of types for this method. */;
++ (void)eSubscription unable to unarchive BMDSL graph for subscription:%@, provided graph is not a dictionary and was not able to be parsed /* Error: Ran out of types for this method. */;
++ (void)unable to unarchive BMDSL graph for subscription:%@; error:%@ /* Error: Ran out of types for this method. */;
++ (void)ry-based format. Subscription:%@; error:%@ /* Error: Ran out of types for this method. */;
++ (void)unarchive BMDSL as JSON archived object, falling back to legacy dictionary-based format. Subscription:%@; error:%@ /* Error: Ran out of types for this method. */;
++ (id)ert BMNowPlayingPlaybackState enum value:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)createTableLikeIdentity;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType brandLogoArtworkCatalogBlock; // @dynamic brandLogoArtworkCatalogBlock;
-@property(nonatomic) long long curatorKind; // @dynamic curatorKind;
-@property(nonatomic) long long curatorSubKind; // @dynamic curatorSubKind;
-@property(copy, nonatomic) NSString *editorNotes; // @dynamic editorNotes;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
-@property(copy, nonatomic) NSString *handle; // @dynamic handle;
-@property(copy, nonatomic) NSString *shortEditorNotes; // @dynamic shortEditorNotes;
 @property(copy, nonatomic) NSString *shortName; // @dynamic shortName;
 
 @end

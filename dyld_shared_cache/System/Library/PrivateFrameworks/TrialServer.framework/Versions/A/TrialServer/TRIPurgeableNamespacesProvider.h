@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol TRIClientNamespaceMetadataStoring, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIPurgeableNamespacesProvider
 {
     id <TRIPaths> _paths;
-    id <TRIClientNamespaceMetadataStoring> _clientNamespaceMetadataStorage;
 }
 
 - (void);
@@ -19,13 +17,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

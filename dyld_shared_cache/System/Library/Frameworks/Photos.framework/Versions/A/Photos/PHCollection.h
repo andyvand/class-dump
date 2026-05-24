@@ -6,18 +6,9 @@
 
 #import <Photos/PHObject.h>
 
-@class NSDate, NSString;
-
 @interface PHCollection : PHObject
 {
     _Bool _trashed;
-    _Bool _customSortAscending;
-    unsigned int _customSortKey;
-    unsigned long long _estimatedPhotosCount;
-    unsigned long long _estimatedVideosCount;
-    NSDate *_creationDate;
-    NSDate *_modificationDate;
-    NSString *_localizedSubtitle;
 }
 
 + (id);
@@ -28,9 +19,9 @@
 + (id);
 + (id);
 + (id);
++ (id)eventParametersAtIndex: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id)stmentsURL:(id)arg1 fromResource:(id)arg2 photoLibrary:error: /* Error: Ran out of types for this method. */;
++ (id)_extractValidatedAdjustmentsURL:(id)arg1 fromResource:(id)arg2 photoLibrary:error: /* Error: Ran out of types for this method. */;
 + (_Bool)023;
 + (id)ÿâØ;
 

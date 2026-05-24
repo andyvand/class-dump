@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void)ts: /* Error: Ran out of types for this method. */;
+- (void)initWithObjects: /* Error: Ran out of types for this method. */;
 
 @end
 

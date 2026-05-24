@@ -6,32 +6,26 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImage, NSMutableSet, NSOperationQueue;
+@class NSMutableSet;
 
 @interface MREffectMap : MREffect
 {
     NSMutableSet *mTiles;
-    double mZoomLevel;
-    struct CGPoint mCenter;
-    _Bool mIsPanning;
-    struct CGPoint mStartCenter;
-    NSOperationQueue *mTileQueue;
-    MRImage *mMapImage;
 }
 
-- (void);
+- (void)$;
+- (double);
 - (double);
 - (double);
-- (double);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (void)ntType.allKeys fc_containsObjectPassingTest:(double)arg1 ^BOOL(NSNumber *contentType) { return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
+- (_Bool)Analytics/NDAnalyticsPayloadAssembler.m;
+- (_Bool)ory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (int);
+- (int)@;
 - (void);
 - (struct CGRect);
 - (double);

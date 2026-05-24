@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol FPMemoryObject;
-
 @interface FPMemoryCategory
 {
     _Bool _isSummary;
-    unsigned int _totalRegions;
-    NSString *_name;
-    id <FPMemoryObject> _firstMemoryObject;
-    unsigned long long _totalDirtySize;
-    unsigned long long _totalSwappedSize;
-    unsigned long long _totalCleanSize;
-    unsigned long long _totalReclaimableSize;
-    unsigned long long _totalWiredSize;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)(ih8	;
 - (unsigned long long);
 - (void);
 - (id);
@@ -37,7 +26,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Z;
 - (id);
 - (unsigned long long);
 - (void);
@@ -45,19 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *auxData;
-@property(readonly, nonatomic) NSString *auxDataFullName;
-@property(readonly, nonatomic) NSString *detailedName;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool hasNoFootprint;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) unsigned long long totalCleanSize; // @synthesize totalCleanSize=_totalCleanSize;
 @property(nonatomic) unsigned long long totalDirtySize; // @synthesize totalDirtySize=_totalDirtySize;
-@property(nonatomic) unsigned long long totalReclaimableSize; // @synthesize totalReclaimableSize=_totalReclaimableSize;
-@property(nonatomic) unsigned int totalRegions; // @synthesize totalRegions=_totalRegions;
-@property(nonatomic) unsigned long long totalSwappedSize; // @synthesize totalSwappedSize=_totalSwappedSize;
-@property(nonatomic) unsigned long long totalWiredSize; // @synthesize totalWiredSize=_totalWiredSize;
-@property(readonly, nonatomic) _Bool verbose;
 
 @end
 

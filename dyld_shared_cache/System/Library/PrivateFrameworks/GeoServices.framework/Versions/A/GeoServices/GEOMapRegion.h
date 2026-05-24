@@ -4,59 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOMapRegion
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _eastLng;
-    double _northLat;
-    NSString *_providingVendor;
-    double _southLat;
-    NSMutableArray *_vertexs;
-    double _westLng;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _mapRegionSourceType;
-    _Bool _isManuallyEntered;
-    struct {
-        unsigned int has_eastLng:1;
-        unsigned int has_northLat:1;
-        unsigned int has_southLat:1;
-        unsigned int has_westLng:1;
-        unsigned int has_mapRegionSourceType:1;
-        unsigned int has_isManuallyEntered:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_providingVendor:1;
-        unsigned int read_vertexs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) double centerLat;
-@property(readonly, nonatomic) double centerLng;
-@property(nonatomic) double eastLng;
-@property(nonatomic) _Bool hasEastLng;
-@property(nonatomic) _Bool hasIsManuallyEntered;
-@property(nonatomic) _Bool hasMapRegionSourceType;
-@property(nonatomic) _Bool hasNorthLat;
-@property(readonly, nonatomic) _Bool hasProvidingVendor;
-@property(readonly, nonatomic) _Bool hasRectangleVertices;
-@property(nonatomic) _Bool hasSouthLat;
-@property(nonatomic) _Bool hasWestLng;
-@property(nonatomic) _Bool isManuallyEntered;
-@property(nonatomic) int mapRegionSourceType;
-@property(nonatomic) double northLat;
-@property(retain, nonatomic) NSString *providingVendor;
-@property(nonatomic) double southLat;
-@property(readonly, nonatomic) double spanLat;
-@property(readonly, nonatomic) double spanLng;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *vertexs;
-@property(nonatomic) double westLng;
 @end
 

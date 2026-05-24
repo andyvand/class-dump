@@ -6,48 +6,38 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSAttributedString, NSMutableDictionary, NSString, UIColor, UIFont, _UILabelContent, _UIVectorTextLayout;
+@class _UILabelContent;
 
 @interface UIVectorLabel : UIView
 {
     _UILabelContent *_content;
-    NSMutableDictionary *_defaultAttributes;
-    UIColor *_textColor;
-    _UIVectorTextLayout *_sizingLayout;
-    _UIVectorTextLayout *_visualLayout;
-    struct {
-        unsigned int usesExplicitPreferredMaxLayoutWidth:1;
-    } _labelFlags;
-    double _multilineContextWidth;
-    unsigned long long _numberOfLines;
-    double _preferredMaxLayoutWidth;
 }
 
-+ (Class);
++ (Class)_hasSubscriptionLease;
 + (id)@ù
 × ;
 + (id)8&e;
-- (struct CGRect);
+- (struct CGRect)populateIMMessageItemWithProtobufFields:(struct CGRect)arg1 withProtobufDataP3:(long long)arg2;
+- (void)imID on chat %@ to %@ but phoneNumber is nil so force updating IMChat to have nil lastAddressedHandle;
+- (void)cessingPipelineComponent> Started processing;
 - (void);
+- (id)R;
+- (id);
+- (double);
+- (id);
+- (double);
+- (double);
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
-- (id);
-- (double);
-- (double);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (double);
 - (double);
-- (void);
+- (void)b ;
 - (struct CGSize);
 - (void);
-- (void);
+- (void)_data;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -56,8 +46,8 @@
 × ;
 - (_Bool)¡!èAù`1Â0@ù
 × ;
-- (void)tedOnValue;
-- (double)stedDescriptorEffectInvertingView: /* Error: Ran out of types for this method. */;
+- (void)_lastCommitedOnValue;
+- (double)_applyRequestedDescriptorEffectInvertingView: /* Error: Ran out of types for this method. */;
 - (id)eyboardState;
 - (id)ew:,V_referenceView /* Error: Ran out of types for this method. */;
 - (void)ô;
@@ -76,13 +66,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setAttributedText:) NSAttributedString *_attributedText;
 @property(retain, nonatomic, getter=_content, setter=_setContent:) _UILabelContent *_content;
-@property(retain, nonatomic) UIFont *font;
-@property(nonatomic) unsigned long long numberOfLines; // @synthesize numberOfLines=_numberOfLines;
-@property(nonatomic) double preferredMaxLayoutWidth; // @synthesize preferredMaxLayoutWidth=_preferredMaxLayoutWidth;
-@property(copy, nonatomic) NSString *text;
-@property(retain, nonatomic) UIColor *textColor;
 
 @end
 

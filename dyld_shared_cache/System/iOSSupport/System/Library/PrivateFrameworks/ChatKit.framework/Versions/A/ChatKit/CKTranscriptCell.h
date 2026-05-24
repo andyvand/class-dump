@@ -6,37 +6,23 @@
 
 #import <ChatKit/CKEditableCollectionViewCell.h>
 
-@class NSArray, UIColor;
-@protocol CKBalloonViewAnimationDelegate;
-
 @interface CKTranscriptCell : CKEditableCollectionViewCell
 {
     _Bool _shouldConfigureForDarkFSM;
-    _Bool _insertingBeforeReplyPreview;
-    _Bool _insertingWithReplyPreview;
-    _Bool _suppressAnimationsForLineUpdates;
-    _Bool _shouldFreezeReplyDecorationsForTimestampReveal;
-    double _drawerPercentRevealed;
-    long long _emphasisState;
-    long long _insertionType;
-    double _insertionDuration;
-    double _insertionBeginTime;
-    id <CKBalloonViewAnimationDelegate> _animationDelegate;
-    NSArray *_linkInteractions;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)setIsChangingNoteContentFontByFontPanel: /* Error: Ran out of types for this method. */;
+- (_Bool)parentController;
+- (_Bool)outlineControllerCollapsedStateDidChange: /* Error: Ran out of types for this method. */;
+- (void)legacyAccountForLocalAccountWithContext:(_Bool)arg1;
+- (void)invalidateLayoutForRange:(_Bool)arg1;
+- (void)interfaceWithProtocol:(_Bool)arg1;
+- (void)ic_nonOwnerPendingParticipantsCount;
+- (void)ic_attributedStringByFlatteningInlineAttachmentsWithContext:(double)arg1 flattenUnsupportedInlineAttachmentsOnly:updateRangeValueToObjectMapBlock:replacementAttributedStringBlock: /* Error: Ran out of types for this method. */;
+- (void)ic_attributedStringByFlatteningInlineAttachmentsWithContext:(double)arg1 flattenUnsupportedInlineAttachmentsOnly:updateRangeValueToObjectMapBlock:replacementAttributedStringBlock: /* Error: Ran out of types for this method. */;
+- (void)ic_attributedStringByFlatteningInlineAttachmentsWithContext:(_Bool)arg1;
+- (void)folderPathForAttachmentIdentifier:(long long)arg1 passwordProtected: /* Error: Ran out of types for this method. */;
+- (void)filteredAttributedSubstringFromRange:(double)arg1;
 - (id);
 - (void);
 - (double);
@@ -46,30 +32,19 @@
 - (long long);
 - (double);
 - (id);
-- (void);
-- (void);
+- (void)So22ICAttachmentAudioModelC;
+- (void)IC) ic_imageForRange:(_Bool)arg1 ];
 - (void);
 - (long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)acceptsFloatingKeyboard;
 - (void)D;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKBalloonViewAnimationDelegate> animationDelegate; // @synthesize animationDelegate=_animationDelegate;
-@property(readonly, nonatomic) UIColor *debugBorderColor;
-@property(nonatomic) long long emphasisState; // @synthesize emphasisState=_emphasisState;
-@property(nonatomic) _Bool insertingBeforeReplyPreview; // @synthesize insertingBeforeReplyPreview=_insertingBeforeReplyPreview;
-@property(nonatomic) _Bool insertingWithReplyPreview; // @synthesize insertingWithReplyPreview=_insertingWithReplyPreview;
-@property(nonatomic) double insertionBeginTime; // @synthesize insertionBeginTime=_insertionBeginTime;
-@property(nonatomic) double insertionDuration; // @synthesize insertionDuration=_insertionDuration;
-@property(nonatomic) long long insertionType; // @synthesize insertionType=_insertionType;
-@property(retain, nonatomic) NSArray *linkInteractions; // @synthesize linkInteractions=_linkInteractions;
 @property(nonatomic) _Bool shouldConfigureForDarkFSM; // @synthesize shouldConfigureForDarkFSM=_shouldConfigureForDarkFSM;
-@property(nonatomic) _Bool shouldFreezeReplyDecorationsForTimestampReveal; // @synthesize shouldFreezeReplyDecorationsForTimestampReveal=_shouldFreezeReplyDecorationsForTimestampReveal;
-@property(nonatomic, getter=suppressesAnimationsForLineUpdates) _Bool suppressAnimationsForLineUpdates; // @synthesize suppressAnimationsForLineUpdates=_suppressAnimationsForLineUpdates;
 
 @end
 

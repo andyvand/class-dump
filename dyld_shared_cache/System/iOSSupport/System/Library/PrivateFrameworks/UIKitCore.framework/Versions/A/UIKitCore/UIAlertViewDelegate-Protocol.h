@@ -5,5 +5,9 @@
 //
 
 @protocol UIAlertViewDelegate
+
+@optional
+- (void)a;
+- (void)er with error %@;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol UIPageViewControllerDelegate
+
+@optional
+- (void);
 @end
 

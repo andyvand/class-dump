@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSPData, TSUFlushingManager;
-
 @interface TSDImageProvider
 {
     int mLoadState;
-    TSPData *mImageData;
-    TSUFlushingManager *mFlushingManager;
-    int mInterest;
-    struct os_unfair_lock_s mInterestLock;
-    struct atomic<int> mRetainCount;
-    struct atomic<int> mOwnerCount;
 }
 
 + (id)au;
@@ -23,11 +15,11 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (_Bool);
+- (void)9;
+- (_Bool)1;
 - (void);
 - (void);
 - (int);
@@ -35,7 +27,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (oneway void);
+- (oneway void)p(;
 - (id);
 - (_Bool);
 - (id);

@@ -9,22 +9,20 @@
 @interface SFAutoFillOneTimeCodeEmbeddedDomainPair
 {
     _Bool _strict;
-    NSString *_domain;
 }
 
-+ (_Bool);
++ (_Bool)inputBoostShadowAmount;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)catesData;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool strict; // @synthesize strict=_strict;
 
 @end
 

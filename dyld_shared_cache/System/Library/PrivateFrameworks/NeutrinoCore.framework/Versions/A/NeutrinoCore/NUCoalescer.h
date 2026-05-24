@@ -5,27 +5,24 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 @interface NUCoalescer
 {
     NSObject<OS_dispatch_source> *_timer;
-    double _delay;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) double delay; // @synthesize delay=_delay;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

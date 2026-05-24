@@ -7,28 +7,6 @@
 @interface SkyLight.PresetSpecificationsShim
 {
     id colorspace;
-    id perceptualColorspace;
-    id whitepoint;
-    id customWPX;
-    id customWPY;
-    id perceptualWhitepoint;
-    id maxHDRLuminance;
-    id maxSDRLuminance;
-    id minLuminance;
-    id transferFunction;
-    id defaultTransferFunction;
-    id purePowerGamma;
-    id advertisedGamma;
-    id enableBT2020;
-    id enableGlobalBacklight;
-    id contrastEnhancementFactorMax;
-    id contrastEnhancementFactorMin;
-    id supportedLatencyModes;
-    id defaultLatencyMode;
-    id calibrationSpace;
-    id useUserCalibrationsIfAvailable;
-    id perceptualOptimization;
-    id generatizedTransferFunction;
 }
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long)q ;
 - (void);
 
 @end

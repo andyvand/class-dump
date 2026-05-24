@@ -7,12 +7,9 @@
 @interface JetUI.JUNavigationItem
 {
     id title;
-    id leadingView;
-    id trailingView;
-    id standardAppearance;
 }
 
-- (id);
+- (id)restrictExplicitBooks;
 - (void);
 
 @end

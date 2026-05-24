@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor;
+@class FCColor;
 
 @interface FCPuzzleTypeOverrides
 {
     FCColor *_themeColor;
-    FCColor *_darkStyleThemeColor;
-    FCAssetHandle *_exploreTileImageAssetHandle;
 }
 
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)?;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)figuration;
+- (void)personalizedPaywallsConfiguration;
 
 // Remaining properties
-@property(retain, nonatomic) FCColor *darkStyleThemeColor; // @synthesize darkStyleThemeColor=_darkStyleThemeColor;
-@property(retain, nonatomic) FCAssetHandle *exploreTileImageAssetHandle; // @synthesize exploreTileImageAssetHandle=_exploreTileImageAssetHandle;
 @property(retain, nonatomic) FCColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end

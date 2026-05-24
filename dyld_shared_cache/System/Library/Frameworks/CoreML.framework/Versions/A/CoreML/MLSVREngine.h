@@ -7,30 +7,24 @@
 @interface MLSVREngine
 {
     _Bool _isInputSizeLowerBoundOnly;
-    _Bool _freeModelOnDealloc;
-    unsigned long long _inputSize;
-    struct svm_model *_model;
 }
 
-- (void);
-- (_Bool);
+- (void)char3;
+- (_Bool)riptor setLabel:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (struct svm_node *);
-- (void);
-- (void);
+- (void);
+- (void)CLGeocoderInternal;
 - (void);
 - (unsigned long long);
 - (id);
 - (struct svm_model *);
 
 // Remaining properties
-@property _Bool freeModelOnDealloc; // @synthesize freeModelOnDealloc=_freeModelOnDealloc;
-@property(readonly) unsigned long long inputSize; // @synthesize inputSize=_inputSize;
-@property(readonly) _Bool isInputSizeLowerBoundOnly; // @synthesize isInputSizeLowerBoundOnly=_isInputSizeLowerBoundOnly;
 @property struct svm_model *model; // @synthesize model=_model;
 
 @end

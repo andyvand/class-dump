@@ -11,19 +11,17 @@
 @interface EWSAddDelegateType : EWSBaseDelegateType
 {
     NSArray *_DelegateUsers;
-    long long _DeliverMeetingRequests;
 }
 
 + (id);
 - (void);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (id);
-- (void);
+- (void)i;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *DelegateUsers; // @synthesize DelegateUsers=_DelegateUsers;
-@property(nonatomic) long long DeliverMeetingRequests; // @synthesize DeliverMeetingRequests=_DeliverMeetingRequests;
 
 @end
 

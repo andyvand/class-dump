@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTouchBarTrackView;
 @protocol AVTouchBarTrackControlling><AVTimeControlling;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarTrackViewController
 {
     _Bool _hasRoundedCorners;
-    id <AVTouchBarTrackControlling><AVTimeControlling> _playerController;
 }
 
 + (id);
@@ -20,8 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (Class);
-- (void);
-- (id);
+- (void)BKDevice::protectedConfigurationForUser:%u (_cid:%lu)
+ /* Error: Ran out of types for this method. */;
+- (id)_deleteStateForRemovedContentBlockersAfterDelay: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -29,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool hasRoundedCorners;
 @property(retain) id <AVTouchBarTrackControlling><AVTimeControlling> playerController; // @synthesize playerController=_playerController;
-@property(readonly) AVTouchBarTrackView *touchBarTrackView;
 
 @end
 

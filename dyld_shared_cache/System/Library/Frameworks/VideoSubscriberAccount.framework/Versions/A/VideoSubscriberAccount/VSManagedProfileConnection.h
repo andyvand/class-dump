@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VSManagedProfileConnection
 {
     NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSMutableSet *_observers;
 }
 
-+ (id);
++ (id)St;
 - (void);
 - (id);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long));
 - (long long);
 - (void);
-- (void);
+- (void)initDateFormatter;
 - (id);
 - (id);
 - (void);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
 
 @end
 

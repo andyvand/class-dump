@@ -11,7 +11,7 @@
     BMStoreStream *_storeStream;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

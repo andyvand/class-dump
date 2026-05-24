@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCSessionConfiguration, AVCSessionParticipant, NSArray, NSData, NSDictionary, NSMutableDictionary, NSObject, NSString, NSUUID, VCSessionPresentationInfo, VCXPCClientShared;
-@protocol AVCSessionDelegate, OS_dispatch_queue;
+@class NSDictionary, NSMutableDictionary;
 
 @interface AVCSession
 {
     NSMutableDictionary *_remoteParticipants;
-    NSMutableDictionary *_participantsToAdd;
-    AVCSessionParticipant *_localParticipant;
-    AVCSessionConfiguration *_configuration;
-    NSData *_cachedNegotiationData;
-    NSString *_transportToken;
-    id _delegate;
-    NSObject<OS_dispatch_queue> *_delegateNotificationQueue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    VCXPCClientShared *_connection;
-    long long _sessionToken;
-    NSDictionary *_capabilities;
-    NSString *_uuid;
-    NSData *_frequencyLevels;
-    int _activeConfigurationCount;
-    VCSessionPresentationInfo *_presentationInfo;
 }
 
 + (int);
@@ -41,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)y	;
 - (void);
 - (struct tagAVCSessionPresentationInfo);
 - (id);
@@ -56,34 +40,34 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned int);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)+);
+- (void)NSt3__114default_deleteIN3geo5codec16AssetLodInstanceEEE;
+- (_Bool);
+- (_Bool)8;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -94,12 +78,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)(;
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)!;
+- (void)Ľ;
 - (void);
 - (id);
 - (void);
@@ -113,36 +97,7 @@
 - (void)eQueue;
 
 // Remaining properties
-@property(nonatomic, getter=isAudioEnabled) _Bool audioEnabled;
-@property(nonatomic, getter=isAudioMuted) _Bool audioMuted;
-@property(nonatomic, getter=isAudioPaused) _Bool audioPaused;
 @property(retain, nonatomic) NSDictionary *capabilities; // @synthesize capabilities=_capabilities;
-@property(retain, nonatomic) AVCSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <AVCSessionDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateNotificationQueue; // @synthesize delegateNotificationQueue=_delegateNotificationQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *frequencyLevels; // @synthesize frequencyLevels=_frequencyLevels;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVCSessionParticipant *localParticipant; // @synthesize localParticipant=_localParticipant;
-@property(readonly, nonatomic) NSData *negotiationData;
-@property(nonatomic, getter=isOneToOneEnabled) _Bool oneToOneEnabled;
-@property(readonly, nonatomic) NSMutableDictionary *participantsToAdd; // @synthesize participantsToAdd=_participantsToAdd;
-@property(retain, nonatomic) NSUUID *playbackSynchronizationGroupUUID;
-@property(nonatomic) struct tagAVCSessionPresentationInfo presentationInfo;
-@property(readonly, nonatomic) NSArray *remoteParticipants;
-@property(readonly, nonatomic) NSMutableDictionary *remoteParticipantsMap; // @synthesize remoteParticipantsMap=_remoteParticipants;
-@property(nonatomic, getter=isScreenEnabled) _Bool screenEnabled;
-@property(readonly, nonatomic) long long sessionToken; // @synthesize sessionToken=_sessionToken;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uuid;
-@property(nonatomic, getter=isVideoEnabled) _Bool videoEnabled;
-@property(nonatomic, getter=isVideoPaused) _Bool videoPaused;
-@property(nonatomic) float volume;
-@property(readonly, nonatomic) VCXPCClientShared *xpcConnection; // @synthesize xpcConnection=_connection;
 
 @end
 

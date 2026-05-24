@@ -6,22 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSString;
-
 @interface MRVolumeControlCapabilitiesDidChangeMessage : MRProtocolMessage
 {
 }
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned int);
+- (id)logicalMigrationRequirementsFromMergedRequirements: /* Error: Ran out of types for this method. */;
+- (unsigned long long)@;
+- (unsigned int)st connections active;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int capabilities;
-@property(readonly, nonatomic) NSString *endpointUID;
-@property(readonly, nonatomic) NSString *outputDeviceUID;
 
 @end
 

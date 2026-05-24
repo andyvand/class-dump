@@ -7,9 +7,6 @@
 @interface TeaUI.BlueprintViewActionResponse
 {
     id result;
-    id completion;
-    id state;
-    id apply;
 }
 
 @end

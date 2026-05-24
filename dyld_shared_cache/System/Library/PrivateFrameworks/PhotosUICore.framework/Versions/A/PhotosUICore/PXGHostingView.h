@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PXGHostingController, PXPixelBufferView;
-@protocol OS_dispatch_queue, PXGMutableHostingControllerPresenter;
+@class PXPixelBufferView;
+@protocol PXGMutableHostingControllerPresenter;
 
 @interface PXGHostingView
 {
     id <PXGMutableHostingControllerPresenter> _presenter;
-    PXGHostingController *_hostingController;
-    PXPixelBufferView *_pixelBufferView;
 }
 
 - (id);
+- (void)a;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id)lt">40;
-- (void)ntentSyndicationSaveToLibraryActionPerformer;
+- (void)PXPhotoKitAssetCollectionContentSyndicationSaveToLibraryActionPerformer;
 - (void)¤Qõþ^·°Qõþ^·¼QõþM^·ÈQõþ^·ÐQõþU^·àQõþ;
 
 // Remaining properties
-@property(retain, nonatomic) PXGHostingController *hostingController; // @synthesize hostingController=_hostingController;
-@property(readonly) NSObject<OS_dispatch_queue> *hostingControllerObservationQueue;
 @property(readonly, nonatomic) PXPixelBufferView *pixelBufferView; // @synthesize pixelBufferView=_pixelBufferView;
 
 @end

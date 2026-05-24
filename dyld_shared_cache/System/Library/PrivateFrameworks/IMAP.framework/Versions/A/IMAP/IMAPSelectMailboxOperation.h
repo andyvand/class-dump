@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)D_pGG;
 - (void);
 - (void);
 

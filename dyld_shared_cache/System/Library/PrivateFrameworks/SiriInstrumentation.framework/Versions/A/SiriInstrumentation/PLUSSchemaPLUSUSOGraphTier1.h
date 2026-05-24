@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraphTier1;
+@class USOSchemaUSOGraphTier1;
 
 @interface PLUSSchemaPLUSUSOGraphTier1 : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraphTier1 *_usoGraphTier1;
-    _Bool _hasUsoGraphTier1;
 }
 
 - (id);
@@ -24,17 +23,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ght metadata Message:(id)arg1 %@;
 - (id);
 - (id)!@ùqÝ1Â0@ù
 × ;
-- (id)ntSearch;
+- (id)_isContentSearch;
 - (id)eSubComponentContext;
-- (void)NTRYCODE_SE;
+- (void)COUNTRYCODE_SE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsoGraphTier1; // @synthesize hasUsoGraphTier1=_hasUsoGraphTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraphTier1 *usoGraphTier1; // @synthesize usoGraphTier1=_usoGraphTier1;
 
 @end

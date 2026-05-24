@@ -7,8 +7,6 @@
 @interface SiriInference.FallbackAppProvider
 {
     id trialConfigProviderPhone;
-    id trialConfigProviderMessages;
-    id defaultAppProvider;
 }
 
 @end

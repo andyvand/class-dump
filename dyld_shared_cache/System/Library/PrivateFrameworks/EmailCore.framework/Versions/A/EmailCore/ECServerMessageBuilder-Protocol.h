@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol ECServerMessageBuilder
+- (void)(6];
 
 // Remaining properties
 @property(copy, nonatomic) NSString *remoteID;

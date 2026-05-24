@@ -9,10 +9,10 @@
     id swiftVariant;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)MovieTheater;
++ (id);
++ (id)&;
+- (id);
 - (id);
 - (_Bool);
 - (void);

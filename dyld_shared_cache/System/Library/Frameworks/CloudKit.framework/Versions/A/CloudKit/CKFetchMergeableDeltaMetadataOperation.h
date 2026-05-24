@@ -6,15 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchMergeableDeltaMetadataOperationInfo, NSArray, NSMutableDictionary, NSString;
-@protocol CKFetchMergeableDeltaMetadataOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKFetchMergeableDeltaMetadataOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _metadataFetchedBlock;
-    CDUnknownBlockType _fetchMergeableDeltaMetadataCompletionBlock;
-    NSArray *_mergeableValueIDs;
-    NSMutableDictionary *_perValueErrors;
 }
 
 + (SEL);
@@ -22,35 +18,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool)ð\ ;
 - (void)\;
 - (void)ventMetric %{public}@.;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKFetchMergeableDeltaMetadataOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fetchMergeableDeltaMetadataCompletionBlock; // @synthesize fetchMergeableDeltaMetadataCompletionBlock=_fetchMergeableDeltaMetadataCompletionBlock;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *mergeableValueIDs; // @synthesize mergeableValueIDs=_mergeableValueIDs;
-@property(copy, nonatomic) CDUnknownBlockType metadataFetchedBlock; // @synthesize metadataFetchedBlock=_metadataFetchedBlock;
-@property(readonly, nonatomic) CKFetchMergeableDeltaMetadataOperationInfo *operationInfo; // @dynamic operationInfo;
 @property(retain, nonatomic) NSMutableDictionary *perValueErrors; // @synthesize perValueErrors=_perValueErrors;
-@property(readonly) Class superclass;
 
 @end
 

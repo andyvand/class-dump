@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFHomeSetting.h>
 
-@class MKFHomeNetworkRouterSettingDatabaseID, NSDate, NSString, NSUUID;
-@protocol MKFHAPAccessory, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomeNetworkRouterSetting : _MKFHomeSetting
@@ -18,33 +17,14 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 + (id);
-- (id);
+- (id).N;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activeNetworkRouterInitialSetupNeededUUID; // @dynamic activeNetworkRouterInitialSetupNeededUUID;
-@property(readonly, copy, nonatomic) MKFHomeNetworkRouterSettingDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *minHomeKitVersionForAccessoryNetworkProtectionChange; // @dynamic minHomeKitVersionForAccessoryNetworkProtectionChange;
-@property(copy, nonatomic) NSString *minimumNetworkRouterSupportHomeKitVersion; // @dynamic minimumNetworkRouterSupportHomeKitVersion;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) id <MKFHAPAccessory> networkAccessory; // @dynamic networkAccessory;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

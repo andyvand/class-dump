@@ -4,39 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBString;
+@class _INPBDataString;
 
 @protocol _INPBHomeEntity
+- (int);
+- (void)int=dd}{CGSize=dd}}32@40q48{CGPoint=dd}56;
+- (int)>48;
+- (int *);
+- (void);
+- (_INPBDataString *);
+- (int);
 - (void)1Â0@ù
 × ;
 - (_INPBDataString *)t;
 - (_INPBDataString *)INIntentParameterPromptDialogFormatString;
-- (void);
 
 // Remaining properties
 @property(nonatomic) int deviceType;
-@property(readonly, nonatomic) int *deviceTypes;
-@property(readonly, nonatomic) unsigned long long deviceTypesCount;
-@property(copy, nonatomic) NSString *entityIdentifier;
-@property(retain, nonatomic) _INPBDataString *entityName;
-@property(nonatomic) int entityType;
-@property(retain, nonatomic) _INPBDataString *group;
-@property(nonatomic) _Bool hasDeviceType;
-@property(readonly, nonatomic) _Bool hasEntityIdentifier;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasGroup;
-@property(readonly, nonatomic) _Bool hasHome;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasRoom;
-@property(nonatomic) _Bool hasSceneType;
-@property(readonly, nonatomic) _Bool hasZone;
-@property(retain, nonatomic) _INPBDataString *home;
-@property(retain, nonatomic) _INPBString *name;
-@property(retain, nonatomic) _INPBDataString *room;
-@property(nonatomic) int sceneType;
-@property(retain, nonatomic) _INPBDataString *zone;
-@property(copy, nonatomic) NSArray *zones;
-@property(readonly, nonatomic) unsigned long long zonesCount;
 @end
 

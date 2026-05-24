@@ -9,25 +9,15 @@
 @interface AppKit.FontPanelBIUSPopUpButton__priv_05EA0EB8E781FFE22747790FC22932B1 : NSPopUpButton
 {
     id effectsBox;
-    id conversionHandler;
-    id $__lazy_storage_$_titleItem;
-    id $__lazy_storage_$_boldItem;
-    id $__lazy_storage_$_italicItem;
-    id $__lazy_storage_$_underlineItem;
-    id $__lazy_storage_$_doubleUnderlineItem;
-    id $__lazy_storage_$_underlineColorItem;
-    id $__lazy_storage_$_strikethroughItem;
-    id $__lazy_storage_$_doubleStrikethroughItem;
-    id $__lazy_storage_$_strikethroughColorItem;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)before response is received, failing task;
+- (void)triggered;
+- (id)Connection=%p DB=%@ Pragma checkpoint failed:(id)arg1 %s ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)SwitchOnActivationChanged:(struct CGRect)arg1;
+- (id)_spacesSwitchOnActivationChanged:(struct CGRect)arg1;
 - (void)ðeE;
 
 // Remaining properties

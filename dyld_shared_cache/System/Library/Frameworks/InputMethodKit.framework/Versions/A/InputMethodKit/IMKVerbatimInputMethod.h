@@ -11,8 +11,8 @@
     _Bool _useComposingText;
 }
 
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 
 // Remaining properties

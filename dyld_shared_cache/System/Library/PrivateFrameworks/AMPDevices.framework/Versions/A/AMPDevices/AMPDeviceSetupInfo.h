@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface AMPDeviceSetupInfo
 {
     _Bool _showLicenseAgreement;
-    _Bool _showWarrantyInfo;
-    _Bool _suppressRestoreFromBackup;
-    NSArray *_backupList;
-    long long _bestBackupIndex;
-    NSString *_licenseAgreementText;
-    NSString *_warrantyInfoText;
 }
 
 + (_Bool);
@@ -25,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -33,18 +25,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *backupList; // @synthesize backupList=_backupList;
-@property(nonatomic) long long bestBackupIndex; // @synthesize bestBackupIndex=_bestBackupIndex;
-@property(retain, nonatomic) NSString *licenseAgreementText; // @synthesize licenseAgreementText=_licenseAgreementText;
 @property(nonatomic) _Bool showLicenseAgreement; // @synthesize showLicenseAgreement=_showLicenseAgreement;
-@property(nonatomic) _Bool showWarrantyInfo; // @synthesize showWarrantyInfo=_showWarrantyInfo;
-@property(nonatomic) _Bool suppressRestoreFromBackup; // @synthesize suppressRestoreFromBackup=_suppressRestoreFromBackup;
-@property(retain, nonatomic) NSString *warrantyInfoText; // @synthesize warrantyInfoText=_warrantyInfoText;
 
 @end
 

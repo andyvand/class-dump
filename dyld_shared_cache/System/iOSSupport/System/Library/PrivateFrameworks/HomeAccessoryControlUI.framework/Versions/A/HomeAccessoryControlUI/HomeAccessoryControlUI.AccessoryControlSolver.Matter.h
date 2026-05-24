@@ -7,6 +7,7 @@
 @interface HomeAccessoryControlUI.AccessoryControlSolver.Matter
 {
     id context;
+    id;
 }
 
 @end

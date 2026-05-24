@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, GEOLocation, GEOPathMatcher, GEORouteMatch, NSArray, NSMutableArray, _GEOCandidateRouteMatch;
+@class GEOComposedRoute;
 
 @interface GEORouteMatcher
 {
     unsigned long long _targetLegIndex;
-    _Bool _useStrictInitialOnRouteCriteria;
-    double _maxMatchDistanceFromPreviousRouteMatch;
-    _Bool _requiresRoadNetworkData;
-    _Bool _shouldSnapRouteMatchToRoute;
-    _Bool _useMatchedCoordinateForMatching;
-    GEOPathMatcher *_pathMatcher;
-    NSArray *_snappedSegments;
-    _Bool _shouldWaitForSnappedSegments;
-    NSMutableArray *_candidateRouteMatches;
-    _Bool _hasBeenOnRouteOnce;
-    GEOComposedRoute *_route;
-    GEOLocation *_currentLocation;
-    GEORouteMatch *_previousRouteMatch;
-    GEORouteMatch *_lastGoodRouteMatch;
-    _GEOCandidateRouteMatch *_closestCandidateRouteMatch;
-    GEOApplicationAuditToken *_auditToken;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -43,8 +27,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)setImageType:(id)arg1;
+- (_Bool)ed.;
 - (double);
 - (double);
 - (struct PolylineCoordinate);
@@ -70,27 +54,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id)efrontFilter;
+- (id)storefrontFilter;
 - (id)ÿE;
 - (void)K«!qP@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) NSArray *candidateRouteMatches;
-@property(readonly, nonatomic) _GEOCandidateRouteMatch *closestCandidateRouteMatch; // @synthesize closestCandidateRouteMatch=_closestCandidateRouteMatch;
-@property(readonly, nonatomic) GEOLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, nonatomic) _Bool hasBeenOnRouteOnce; // @synthesize hasBeenOnRouteOnce=_hasBeenOnRouteOnce;
-@property(readonly, nonatomic) GEORouteMatch *lastGoodRouteMatch; // @synthesize lastGoodRouteMatch=_lastGoodRouteMatch;
-@property(nonatomic) double maxMatchDistanceFromPreviousRouteMatch; // @synthesize maxMatchDistanceFromPreviousRouteMatch=_maxMatchDistanceFromPreviousRouteMatch;
-@property(readonly, nonatomic) GEORouteMatch *previousRouteMatch; // @synthesize previousRouteMatch=_previousRouteMatch;
-@property(nonatomic) _Bool requiresRoadNetworkData; // @synthesize requiresRoadNetworkData=_requiresRoadNetworkData;
 @property(readonly, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(nonatomic) _Bool shouldSnapRouteMatchToRoute; // @synthesize shouldSnapRouteMatchToRoute=_shouldSnapRouteMatchToRoute;
-@property(nonatomic) _Bool shouldWaitForSnappedSegments; // @synthesize shouldWaitForSnappedSegments=_shouldWaitForSnappedSegments;
-@property(readonly, nonatomic) NSArray *snappedSegments;
-@property(nonatomic) unsigned long long targetLegIndex; // @synthesize targetLegIndex=_targetLegIndex;
-@property(nonatomic) _Bool useMatchedCoordinateForMatching; // @synthesize useMatchedCoordinateForMatching=_useMatchedCoordinateForMatching;
-@property(nonatomic) _Bool useStrictInitialOnRouteCriteria; // @synthesize useStrictInitialOnRouteCriteria=_useStrictInitialOnRouteCriteria;
 
 @end
 

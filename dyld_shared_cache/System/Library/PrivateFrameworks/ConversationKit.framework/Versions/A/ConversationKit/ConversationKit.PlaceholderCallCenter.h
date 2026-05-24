@@ -7,15 +7,12 @@
 @interface ConversationKit.PlaceholderCallCenter
 {
     id activeCalls;
-    id expectedAVLessConversationUUIDs;
-    id conversationManager;
-    id queue;
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)in;
+- (id);
+- (void);
 - (void);
 
 @end

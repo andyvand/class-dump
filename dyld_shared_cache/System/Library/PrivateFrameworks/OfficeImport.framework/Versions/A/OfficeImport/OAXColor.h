@@ -16,6 +16,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
@@ -23,11 +24,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)r;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Q	;
 + (id);
 + (id);
 + (id);

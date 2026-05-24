@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)of which %ld were newly downloaded, and %ld were already present on disk. All requested guids:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
+- (void)};
+- (id)L;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)AMSSubscriptionEntitlementsResult;
 
 // Remaining properties
 @property(readonly) unsigned long long ecID; // @synthesize ecID=_ecID;

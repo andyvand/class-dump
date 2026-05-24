@@ -9,7 +9,6 @@
 @interface IXAppRemovabilityMetadata
 {
     unsigned long long _removability;
-    unsigned long long _client;
 }
 
 + (_Bool);
@@ -17,20 +16,17 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)0;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)s/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsAppGuardian.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long client; // @synthesize client=_client;
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool isUnknown;
-@property(readonly, nonatomic) unsigned long long removability; // @synthesize removability=_removability;
 
 @end
 

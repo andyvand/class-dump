@@ -9,13 +9,9 @@
 @interface GEOLogMsgStateTransit
 {
     PBUnknownFields *_unknownFields;
-    _Bool _transitNotAvailableAdvisoryShowing;
-    struct {
-        unsigned int has_transitNotAvailableAdvisoryShowing:1;
-    } _flags;
 }
 
-+ (_Bool)ortsGenericCombinationsInstructionsForAllModes:(id)arg1;
++ (_Bool)setHasSupportsGenericCombinationsInstructionsForAllModes:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -30,17 +26,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)Category:(struct _NSZone *)arg1 parentMuid:traits: /* Error: Ran out of types for this method. */;
-- (id)enityType: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ticketForPlaceLookupWithSearchCategory:(struct _NSZone *)arg1 parentMuid:traits: /* Error: Ran out of types for this method. */;
+- (id)StringAsAmenityType: /* Error: Ran out of types for this method. */;
 - (id)y read %ld / %ld bytes from entry:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)¨´?üÔ??¬°?Ä¬?ä¨?ü¤? ?´?Ô?ì??ÌÐ?äð>Ø ?!?¤!t;
 - (void)³;
 
 // Remaining properties
 @property(nonatomic) _Bool hasTransitNotAvailableAdvisoryShowing;
-@property(nonatomic) _Bool transitNotAvailableAdvisoryShowing;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSHTTPURLResponse, NSString, NSURLRequest;
+@class NSURLRequest;
 
 @interface NWURLSessionResumeInfo
 {
     _Bool _prefersIncrementalDelivery;
-    float _priority;
-    unsigned int _taskIdentifier;
-    NSURLRequest *_originalRequest;
-    NSURLRequest *_currentRequest;
-    NSHTTPURLResponse *_response;
-    NSDate *_earliestBeginDate;
-    long long _countOfBytesClientExpectsToSend;
-    long long _countOfBytesClientExpectsToReceive;
-    NSString *_taskDescription;
-    double _startTime;
 }
 
 + (_Bool)) == parray->vector2.size());
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?	;
 - (id);
 - (long long);
 - (long long);
@@ -37,7 +27,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,17 +41,7 @@ N
 - (float)¤gëþP;
 
 // Remaining properties
-@property(nonatomic) long long countOfBytesClientExpectsToReceive; // @synthesize countOfBytesClientExpectsToReceive=_countOfBytesClientExpectsToReceive;
-@property(nonatomic) long long countOfBytesClientExpectsToSend; // @synthesize countOfBytesClientExpectsToSend=_countOfBytesClientExpectsToSend;
-@property(retain, nonatomic) NSURLRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(retain, nonatomic) NSDate *earliestBeginDate; // @synthesize earliestBeginDate=_earliestBeginDate;
 @property(retain, nonatomic) NSURLRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
-@property(nonatomic) _Bool prefersIncrementalDelivery; // @synthesize prefersIncrementalDelivery=_prefersIncrementalDelivery;
-@property(nonatomic) float priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSHTTPURLResponse *response; // @synthesize response=_response;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSString *taskDescription; // @synthesize taskDescription=_taskDescription;
-@property(nonatomic) unsigned int taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol WebCoreFrameScrollView
+- (void);
+- (void);
+- (void);
 @end
 

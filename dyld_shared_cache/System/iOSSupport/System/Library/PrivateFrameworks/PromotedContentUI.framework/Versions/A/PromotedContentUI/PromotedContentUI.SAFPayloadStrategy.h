@@ -7,9 +7,6 @@
 @interface PromotedContentUI.SAFPayloadStrategy
 {
     id locale;
-    id bundleID;
-    id appVersion;
-    id idAccount;
 }
 
 @end

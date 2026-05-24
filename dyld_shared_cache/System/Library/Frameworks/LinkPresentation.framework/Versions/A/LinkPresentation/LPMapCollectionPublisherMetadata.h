@@ -6,49 +6,36 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
-
 @interface LPMapCollectionPublisherMetadata : LPSpecializationMetadata
 {
     unsigned int _numberOfPublishedCollections;
-    NSString *_name;
-    LPImage *_icon;
 }
 
 + (id);
 + (_Bool);
+- (id)d;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id)forceZoneUsageUpdateFailure;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfPublishedCollections; // @synthesize numberOfPublishedCollections=_numberOfPublishedCollections;
-@property(readonly) Class superclass;
 
 @end
 

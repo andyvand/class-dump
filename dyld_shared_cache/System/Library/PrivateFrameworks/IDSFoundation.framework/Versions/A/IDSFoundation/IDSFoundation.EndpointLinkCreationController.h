@@ -7,10 +7,6 @@
 @interface IDSFoundation.EndpointLinkCreationController
 {
     id tags;
-    id localEndpointsHook;
-    id remoteEndpointsHook;
-    id definitionsHook;
-    id linkCreationController;
 }
 
 @end

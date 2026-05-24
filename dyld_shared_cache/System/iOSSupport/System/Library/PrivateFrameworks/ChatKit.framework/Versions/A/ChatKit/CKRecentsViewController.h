@@ -6,48 +6,39 @@
 
 #import <ChatKit/CKBrowserViewController.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString, UILabel;
-
 @interface CKRecentsViewController : CKBrowserViewController
 {
     _Bool _hasHandwritingRecents;
-    _Bool _hasStickerRecents;
-    _Bool _isLoadingRecents;
-    _Bool _preparingForDisplay;
-    NSMutableArray *_recentItems;
-    UILabel *_noRecentsLabel;
-    NSMutableDictionary *_stickerCache;
-    CDUnknownBlockType _draggingCompletionHandler;
 }
 
+- (id)invalidateWidthForColumns: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_localizedNameWithDefaultFormattingStyle;
+- (void)ic_PNGData;
+- (void)exportAsynchronouslyWithCompletionHandler:(id)arg1;
+- (void)convertToBuffer:(_Bool)arg1 error:withInputFromBlock: /* Error: Ran out of types for this method. */;
+- (void)closeProgressDialog;
+- (void)attachmentInsertionController:(_Bool)arg1 willAddAttachment:atRange: /* Error: Ran out of types for this method. */;
+- (void)addSearchResultsBySection:(_Bool)arg1;
+- (void)addOperationWithAttachment:(_Bool)arg1 size:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
+- (void)_webView:(CDUnknownBlockType)arg1 didClickAutoFillButtonWithUserInfo: /* Error: Ran out of types for this method. */;
+- (void)setIc_menuIcon: /* Error: Ran out of types for this method. */;
+- (void)V_imageViewLeftLayoutConstraint;
+- (id)orHeadIndent;
+- (void)et;
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)5;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)8columnIdAC03rowC0t;
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)l;
+- (void)tesModeMigrator presentBackwardsCompatibilityAlertIfNeededForAccount:mode:window:confirmHandler:cancelHandler:] /* Error: Ran out of types for this method. */;
+- (void)pSheetForAccount:(CDUnknownBlockType)arg1 displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -64,21 +55,7 @@
 - (void)0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType draggingCompletionHandler; // @synthesize draggingCompletionHandler=_draggingCompletionHandler;
 @property(nonatomic) _Bool hasHandwritingRecents; // @synthesize hasHandwritingRecents=_hasHandwritingRecents;
-@property(nonatomic) _Bool hasStickerRecents; // @synthesize hasStickerRecents=_hasStickerRecents;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLoadingRecents; // @synthesize isLoadingRecents=_isLoadingRecents;
-@property(retain, nonatomic) UILabel *noRecentsLabel; // @synthesize noRecentsLabel=_noRecentsLabel;
-@property(nonatomic, getter=isPreparingForDisplay) _Bool preparingForDisplay; // @synthesize preparingForDisplay=_preparingForDisplay;
-@property(retain, nonatomic) NSMutableArray *recentItems; // @synthesize recentItems=_recentItems;
-@property(retain, nonatomic) NSMutableDictionary *stickerCache; // @synthesize stickerCache=_stickerCache;
-@property(readonly) Class superclass;
 
 @end
 

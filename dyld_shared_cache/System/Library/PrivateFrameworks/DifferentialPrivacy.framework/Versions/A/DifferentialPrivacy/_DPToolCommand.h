@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPStorage;
+@class _DPStorage;
 
 @interface _DPToolCommand
 {
     _Bool _writeOK;
-    NSString *_action;
-    NSString *_arguments;
-    NSString *_metadata;
-    NSString *_recordKey;
-    NSString *_databasePath;
-    _DPStorage *_storage;
 }
 
 + (id);
@@ -29,14 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)everseForUILayoutDirection: /* Error: Ran out of types for this method. */;
+- (id)nges later if you change your mind.;
 - (id);
 - (id);
 - (id);
@@ -47,13 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSString *arguments; // @synthesize arguments=_arguments;
-@property(readonly, copy, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(readonly, copy, nonatomic) NSString *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSString *recordKey; // @synthesize recordKey=_recordKey;
 @property(readonly, nonatomic) _DPStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) _Bool writeOK; // @synthesize writeOK=_writeOK;
 
 @end
 

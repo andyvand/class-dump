@@ -6,23 +6,17 @@
 
 #import <NewsCore/FCCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FCModifyNotificationsForChannelsCommand : FCCommand
 {
     int _deviceDigestMode;
-    NSArray *_channelIDsToAdd;
-    NSArray *_paidChannelIDsToAdd;
-    NSArray *_channelIDsToRemove;
-    NSString *_userID;
-    NSString *_deviceToken;
-    NSString *_storefrontID;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (void);
@@ -40,16 +34,10 @@
 - (id);
 - (id);
 - (void)tToken:(int)arg1 sourceChannel:parentIssue:storyStyleConfigs:storyTypeTimeout:rapidUpdatesTimeout:assetManager:experimentalTitleProvider:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)PPT;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *channelIDsToAdd; // @synthesize channelIDsToAdd=_channelIDsToAdd;
-@property(copy, nonatomic) NSArray *channelIDsToRemove; // @synthesize channelIDsToRemove=_channelIDsToRemove;
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(copy, nonatomic) NSArray *paidChannelIDsToAdd; // @synthesize paidChannelIDsToAdd=_paidChannelIDsToAdd;
-@property(copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

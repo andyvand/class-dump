@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFDisambiguationCollectionFilter;
-@protocol WFPropertyListObject;
+@class NSString;
 
 @interface WFContextualActionParameter
 {
     _Bool _askEachTime;
-    _Bool _actionInput;
-    NSString *_type;
-    NSString *_displayString;
-    NSString *_wfParameterKey;
-    id <WFPropertyListObject> _wfSerializedRepresentation;
-    WFDisambiguationCollectionFilter *_askEachTimeCollectionFilter;
 }
 
 + (_Bool);
@@ -23,29 +16,23 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)U;
 - (void);
+- (_Bool)ervices for account %@, changeType %d, accountBecomesVerified %d;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)localizedStringForKey:(id)arg1;
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)undleIdentifier:desiredSize:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)loadIconWithBundleIdentifier:desiredSize:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActionInput) _Bool actionInput; // @synthesize actionInput=_actionInput;
-@property(readonly, nonatomic, getter=isAskEachTime) _Bool askEachTime; // @synthesize askEachTime=_askEachTime;
-@property(readonly, copy, nonatomic) WFDisambiguationCollectionFilter *askEachTimeCollectionFilter; // @synthesize askEachTimeCollectionFilter=_askEachTimeCollectionFilter;
-@property(readonly, copy, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) NSString *wfParameterKey; // @synthesize wfParameterKey=_wfParameterKey;
-@property(readonly, nonatomic) id <WFPropertyListObject> wfSerializedRepresentation; // @synthesize wfSerializedRepresentation=_wfSerializedRepresentation;
 
 @end
 

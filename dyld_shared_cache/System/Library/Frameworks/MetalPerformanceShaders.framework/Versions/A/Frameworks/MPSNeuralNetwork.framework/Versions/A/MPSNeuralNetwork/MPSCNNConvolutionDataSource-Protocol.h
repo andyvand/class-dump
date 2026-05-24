@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPSCNNConvolutionDescriptor, MPSCNNConvolutionWeightsAndBiasesState;
+
 @protocol MPSCNNConvolutionDataSource
-- (_Bool)x2d_tex2d_TGMCHNorm_fw3_true;
+- (MPSCNNConvolutionDescriptor *);
+- (_Bool)MPSCNNNormalization_tex2d_tex2d_TGMCHNorm_fw3_true;
+
+@optional
+- (MPSCNNConvolutionWeightsAndBiasesState *);
+- (float *);
 @end
 

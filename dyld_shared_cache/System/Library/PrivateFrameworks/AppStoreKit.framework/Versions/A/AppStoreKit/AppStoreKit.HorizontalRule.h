@@ -7,10 +7,6 @@
 @interface AppStoreKit.HorizontalRule
 {
     id style;
-    id color;
-    id isFullWidth;
-    id id;
-    id automationMetadata;
 }
 
 @end

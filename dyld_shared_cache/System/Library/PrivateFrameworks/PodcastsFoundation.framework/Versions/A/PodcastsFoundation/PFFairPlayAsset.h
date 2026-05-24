@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PFFairPlayAsset
 {
     id adamID;
-    id avAsset;
-    id keyStore;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)P;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) _Bool isOfflineAsset;
 
 @end

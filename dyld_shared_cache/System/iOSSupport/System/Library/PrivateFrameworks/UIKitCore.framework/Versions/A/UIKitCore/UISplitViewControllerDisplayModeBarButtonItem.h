@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     id <UISplitViewControllerImpl> _impl;
 }
 
-- (void);
+- (void)ase sandbox token, %@ token:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);

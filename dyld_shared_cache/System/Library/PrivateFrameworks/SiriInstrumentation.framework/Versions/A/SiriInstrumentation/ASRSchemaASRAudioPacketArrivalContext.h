@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRAudioPacketArrivalEnded, ASRSchemaASRAudioPacketArrivalStarted, NSData;
+@class ASRSchemaASRAudioPacketArrivalStarted;
 
 @interface ASRSchemaASRAudioPacketArrivalContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRAudioPacketArrivalStarted *_startedOrChanged;
-    ASRSchemaASRAudioPacketArrivalEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,31 +18,26 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)40;
+- (void)tokenField:(id)arg1 writeRepresentedObjects:toPasteboard: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)Ti,V_locationSentenceTypesMask;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)RecognizerUsed: /* Error: Ran out of types for this method. */;
+- (id)setTwoPassRecognizerUsed: /* Error: Ran out of types for this method. */;
 - (id)ü$;
 - (id);
 - (void)²²P/';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRAudioPacketArrivalEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRAudioPacketArrivalStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

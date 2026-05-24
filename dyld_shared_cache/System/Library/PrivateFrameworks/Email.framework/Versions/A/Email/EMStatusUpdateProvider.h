@@ -9,12 +9,10 @@
 @interface EMStatusUpdateProvider
 {
     NSDateFormatter *_timeFormatter;
-    NSDateFormatter *_weekdayFormatter;
-    NSDateFormatter *_dateFormatter;
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

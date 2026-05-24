@@ -11,9 +11,6 @@
 @interface FCCKPrivateDeleteRecordsOperation : FCCKPrivateDatabaseOperation
 {
     NSArray *_recordIDsToDelete;
-    CDUnknownBlockType _deleteRecordsCompletionBlock;
-    NSArray *_resultSavedRecords;
-    NSArray *_resultDeletedRecordIDs;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void)brary/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPrivateFetchRecordZoneChangesOperation.m;
 - (void)ords, token %@, more coming %@;
 - (void)ificationsForChannelsCommand:(id)arg1 adding channelIDs:%{public}@ paidChannelIDs:%{public}@ /* Error: Ran out of types for this method. */;
@@ -30,9 +27,6 @@
 - (void)ÿFFà;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deleteRecordsCompletionBlock; // @synthesize deleteRecordsCompletionBlock=_deleteRecordsCompletionBlock;
-@property(copy, nonatomic) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(retain, nonatomic) NSArray *resultDeletedRecordIDs; // @synthesize resultDeletedRecordIDs=_resultDeletedRecordIDs;
 @property(retain, nonatomic) NSArray *resultSavedRecords; // @synthesize resultSavedRecords=_resultSavedRecords;
 
 @end

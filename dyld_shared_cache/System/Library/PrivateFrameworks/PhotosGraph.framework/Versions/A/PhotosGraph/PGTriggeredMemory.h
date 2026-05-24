@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSIndexSet, NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection;
+@class NSDate;
 
 @interface PGTriggeredMemory
 {
     _Bool _generatedWithFallbackRequirements;
-    unsigned long long _memoryCategory;
-    unsigned long long _memoryCategorySubcategory;
-    PGGraphMomentNodeCollection *_memoryMomentNodes;
-    NSDate *_creationDate;
-    NSIndexSet *_triggerTypes;
-    PGGraphFeatureNodeCollection *_memoryFeatureNodes;
-    NSString *_uniqueMemoryIdentifier;
-    NSDictionary *_validityIntervalByTriggerType;
-    NSArray *_blockableFeatures;
-    double _electionScore;
-    long long _photosGraphVersion;
 }
 
 - (id);
@@ -28,42 +17,24 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)__oslogstring;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (double);
+- (_Bool)setAccessibilityElement: /* Error: Ran out of types for this method. */;
+- (double)_signalForElement:updateCurrentEditingElementInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (long long);
 - (id);
 - (id);
+- (id)ewController configureView]E4$_15FvvEEE;
 - (id);
-- (id);
-- (void)atchRequests;
+- (void)routineNumberofMatchRequests;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *blockableFeatures; // @synthesize blockableFeatures=_blockableFeatures;
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double electionScore; // @synthesize electionScore=_electionScore;
-@property(readonly, nonatomic) _Bool generatedWithFallbackRequirements; // @synthesize generatedWithFallbackRequirements=_generatedWithFallbackRequirements;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long memoryCategory; // @synthesize memoryCategory=_memoryCategory;
-@property(readonly, nonatomic) unsigned long long memoryCategorySubcategory; // @synthesize memoryCategorySubcategory=_memoryCategorySubcategory;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes; // @synthesize memoryFeatureNodes=_memoryFeatureNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *memoryMomentNodes; // @synthesize memoryMomentNodes=_memoryMomentNodes;
-@property(readonly, nonatomic) long long photosGraphVersion; // @synthesize photosGraphVersion=_photosGraphVersion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSIndexSet *triggerTypes; // @synthesize triggerTypes=_triggerTypes;
-@property(readonly, nonatomic) NSString *uniqueMemoryIdentifier; // @synthesize uniqueMemoryIdentifier=_uniqueMemoryIdentifier;
-@property(readonly, nonatomic) NSDictionary *validityIntervalByTriggerType; // @synthesize validityIntervalByTriggerType=_validityIntervalByTriggerType;
 
 @end
 

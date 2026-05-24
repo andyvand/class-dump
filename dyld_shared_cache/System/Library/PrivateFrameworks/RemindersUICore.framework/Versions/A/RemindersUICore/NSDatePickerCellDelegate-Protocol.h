@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDatePickerCell;
+
 @protocol NSDatePickerCellDelegate
+
+@optional
+- (void)performSelector:(NSDatePickerCell *)arg1 withObject:(id *)arg2;
 @end
 

@@ -6,23 +6,20 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class UILabel, UITextView;
+@class UILabel;
 
 @interface EKReminderDetailTextCell : EKEventDetailCell
 {
     UILabel *_title;
-    UITextView *_textView;
-    _Bool _noBackgroundStyle;
-    _Bool _hideBottomCellSeparator;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)N;
 - (void);
 - (void);
 - (void)isLegacyClient: /* Error: Ran out of types for this method. */;

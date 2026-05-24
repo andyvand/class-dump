@@ -6,24 +6,21 @@
 
 #import <TSReading/TSDLayout.h>
 
-@class NSMutableArray, NSString, TSDBezierPath, TSDCanvas, TSPObject, TSWPLayoutManager;
-@protocol TSDHint, TSWPFootnoteHeightMeasurer, TSWPFootnoteMarkProvider, TSWPOffscreenColumn;
+@class TSWPLayoutManager;
 
 @interface TSWPLayout : TSDLayout
 {
     TSWPLayoutManager *_layoutManager;
-    NSMutableArray *_columns;
-    _Bool _textLayoutValid;
 }
 
-- (id);
-- (_Bool);
-- (struct CGRect);
+- (id)MPCModelPlaybackResponse;
+- (_Bool)ePlaybackItemsRequest.m;
+- (struct CGRect)e.music.mediaplayback.dsp.evaluation;
 - (void);
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (_Bool);
+- (struct CGRect)ith spurious event:(id)arg1;
+- (struct CGRect)- Stack:(struct CGRect)arg1;
+- (_Bool)tempting to play without a player - Stack: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -38,14 +35,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (struct CGPoint);
-- (double);
+- (struct CGPoint)΋]@-;
+- (double)8]<3;
 - (id);
 - (struct CGRect);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -63,7 +60,7 @@
 - (int);
 - (unsigned int);
 - (unsigned int);
-- (double);
+- (double);
 - (struct CGRect);
 - (_Bool);
 - (id);
@@ -81,18 +78,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (struct CGPoint);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)emimage:(id)arg1 //checkmark.circle.fill;
 - (unsigned long long);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (unsigned int);
@@ -106,97 +103,11 @@
 - (struct CGSize)r ranged selection is not meaningful;
 - (id);
 - (id)nimation stopped;
-- (unsigned long long)rtSeriesDefaultErrorBarFixedValueScatterXProperty;
+- (unsigned long long)TSCHChartSeriesDefaultErrorBarFixedValueScatterXProperty;
 - (struct CGSize)ðñÿßD\\;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsDescendersToClip;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool allowsLastLineTruncation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool alwaysAllowWordSplit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) struct CGPoint anchorPoint;
-@property(retain, nonatomic) NSMutableArray *anchoredDrawablesForRelayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSMutableArray",?,&,N
-
-@property(readonly, nonatomic) unsigned int autosizeFlags;
-@property(readonly, nonatomic) TSDCanvas *canvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDCanvas",?,R,N
-
-@property(readonly, retain, nonatomic) NSMutableArray *columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) struct CGSize currentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <TSWPFootnoteHeightMeasurer> footnoteHeightMeasurer;
-@property(readonly, nonatomic) id <TSWPFootnoteMarkProvider> footnoteMarkProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct __CFLocale *hyphenationLocale;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFLocale=},?,R,N
-
-@property(readonly, nonatomic) _Bool ignoresEquationAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) TSDBezierPath *interiorClippingPath;
-@property(readonly, nonatomic) _Bool layoutIsValid;
 @property(readonly, nonatomic) TSWPLayoutManager *layoutManager;
-@property(readonly, nonatomic) unsigned int lineCount;
-@property(readonly, nonatomic) struct CGRect maskRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, nonatomic) double maxAnchorY;
-@property(readonly, nonatomic) unsigned int maxLineCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) struct CGSize maxSize;
-@property(readonly, nonatomic) struct CGSize minSize;
-@property(readonly, nonatomic) unsigned int naturalAlignment;
-@property(readonly, nonatomic) int naturalDirection;
-@property(readonly, nonatomic) TSPObject<TSDHint> *nextTargetFirstChildHint;
-@property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> nextTargetFirstColumn;
-@property(readonly, nonatomic) const void *nextTargetTopicNumbers;
-@property(readonly, nonatomic) unsigned long long pageCount;
-@property(readonly, nonatomic) unsigned long long pageNumber;
-@property(readonly, nonatomic) TSDLayout *parentLayoutForInlineAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDLayout",?,R,N
-
-@property(readonly, nonatomic) struct CGPoint position;
-@property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-@property(readonly, nonatomic) const void *previousTargetTopicNumbers;
-@property(readonly, nonatomic) _Bool pushAscendersIntoColumn;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double reservedWidthWhenTruncating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldHyphenate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldWrapAroundExternalDrawables;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool textIsVertical;
-@property(readonly, nonatomic) _Bool textLayoutValid;
-@property(readonly, nonatomic) unsigned int verticalAlignment;
-@property(readonly, nonatomic) _Bool wantsLineFragments;
 
 @end
 

@@ -9,27 +9,25 @@
 @interface NSIBUserDefinedRuntimeAttributesConnector
 {
     NSArray *keyPaths;
-    NSArray *values;
-    id object;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)connection:willSendRequestForAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (void)t.na;
 - (void);
 - (id);
+- (id)Le;
+- (id);
+- (void)!;
 - (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (id)verrideAutoFillMode: /* Error: Ran out of types for this method. */;
-- (id)nt;
+- (id)_presentAutoFillPanelForView:withOverrideAutoFillMode: /* Error: Ran out of types for this method. */;
+- (id)_gradient;
 - (void)@sXv;
 - (void);
 

@@ -11,18 +11,16 @@
 @interface AXMathExpressionTable : AXMathExpression
 {
     NSArray *_expressions;
-    NSArray *_Expressions;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)waitForDACallBack;
+- (id)isAPFSContainerReferenceDisk:error:] /* Error: Ran out of types for this method. */;
+- (id)CSSaysParentOfflineCombined=%d;
+- (void)as offline, or lack of known online status:(id)arg1 CSSaysParentOfflineCombined=%d;
+- (void)(;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *Expressions; // @synthesize Expressions=_Expressions;
-@property(readonly, nonatomic) NSArray *expressions; // @synthesize expressions=_expressions;
 
 @end
 

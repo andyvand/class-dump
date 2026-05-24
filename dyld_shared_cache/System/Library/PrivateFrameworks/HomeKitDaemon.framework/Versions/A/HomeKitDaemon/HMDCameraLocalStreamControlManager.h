@@ -6,18 +6,30 @@
 
 #import <HomeKitDaemon/HMDCameraStreamControlManager.h>
 
-@class HMDCameraLocalStreamAccessoryCommunicator, HMDCameraLocalStreamSession, HMDCameraMediaConfigGenerator, HMDCameraStreamMetrics, HMDCameraSupportedConfigurationCache, NSDictionary, NSNumber, NSString;
+@class HMDCameraLocalStreamSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraLocalStreamControlManager : HMDCameraStreamControlManager
 {
     HMDCameraLocalStreamSession *_streamSession;
-    HMDCameraLocalStreamAccessoryCommunicator *_accessoryCommunicator;
-    HMDCameraSupportedConfigurationCache *_supportedConfigCache;
-    HMDCameraMediaConfigGenerator *_configGenerator;
 }
 
 + (id)oÿ;
+- (void)_setState:(id)arg1;
+- (void)_setSimulatesClearingDiscardableDataAfterOperations:(unsigned long long)arg1;
+- (id),&,N,V_clientIdentifier;
+- (id)pabilityFetchingQueueDelegate>",W,N,V_delegate;
+- (void)_handleChunk:(id)arg1 fromID:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (void)erETAControllerDelegate>",W,N,V_delegate;
+- (void)datedObject;
+- (void)_disableLogging;
+- (void),N;
+- (void)_checkBlockList;
+- (void)receivingHandle;
+- (void)te;
+- (void);
+- (void)ck list did update, scheduling coalescing check in %#.1lfs;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -25,25 +37,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (id);
@@ -61,9 +58,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)searchEntitiesByMomentUUID;
 - (unsigned long long);
-- (id);
+- (id)searchComputationCache;
 - (id);
 - (id);
 - (void);
@@ -71,26 +68,7 @@ __attribute__((visibility("hidden")))
 - (id)À;
 
 // Remaining properties
-@property(readonly) HMDCameraLocalStreamAccessoryCommunicator *accessoryCommunicator; // @synthesize accessoryCommunicator=_accessoryCommunicator;
-@property(readonly, copy) NSNumber *aspectRatio;
-@property(readonly, copy) NSNumber *audioDownlinkToken;
-@property(readonly) unsigned long long audioStreamSetting;
-@property(readonly, copy) NSNumber *audioUplinkToken;
-@property(readonly) HMDCameraMediaConfigGenerator *configGenerator; // @synthesize configGenerator=_configGenerator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isSendingStream) _Bool sendingStream;
-@property(readonly, copy) NSNumber *slotIdentifier;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) HMDCameraStreamMetrics *streamMetrics;
 @property(retain) HMDCameraLocalStreamSession *streamSession; // @synthesize streamSession=_streamSession;
-@property(readonly, copy) NSNumber *streamToken;
-@property(readonly) Class superclass;
-@property(readonly) HMDCameraSupportedConfigurationCache *supportedConfigCache; // @synthesize supportedConfigCache=_supportedConfigCache;
 
 @end
 

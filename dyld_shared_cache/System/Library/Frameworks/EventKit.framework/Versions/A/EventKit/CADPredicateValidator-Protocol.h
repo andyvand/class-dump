@@ -5,5 +5,6 @@
 //
 
 @protocol CADPredicateValidator
++ (_Bool);
 @end
 

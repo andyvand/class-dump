@@ -7,7 +7,6 @@
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
 @class NSString;
-@protocol MapsSuggestionsSourceDelegate;
 
 @interface MapsSuggestionsReInjectSource : MapsSuggestionsBaseSource
 {
@@ -28,16 +27,7 @@
 - (void)neBuilder""observers"@"MapsSuggestionsObservers""automobileOptions"@"GEOAutomobileOptions""minRunTime"d"maxRunTime"d"minSleepTime"d"maxSleepTime"d"leewayRunTime"d"leewaySleepTime"d"triggers"@"NSMutableArray""conditions"@"NSMutableArray""filters"@"NSMutableSet""maxEntries"Q"nilledWhenAsleep"B};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

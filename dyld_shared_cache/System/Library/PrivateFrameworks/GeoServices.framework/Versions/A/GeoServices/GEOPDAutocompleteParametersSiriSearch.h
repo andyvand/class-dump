@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersSiriSearch
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_prefix;
-    NSString *_query;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxResults;
-    _Bool _completed;
-    _Bool _highlightDiff;
-    struct {
-        unsigned int has_maxResults:1;
-        unsigned int has_completed:1;
-        unsigned int has_highlightDiff:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_prefix:1;
-        unsigned int read_query:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)xRetry:(id)arg1;
++ (_Bool)setHasWifiRxRetry:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -47,19 +27,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)riVolumeProcessor>",&,N,V_smartSiriVolume;
+- (void)rallelRecordingFromPeerId:(id)arg1 recordingInfo:withReply:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -67,26 +47,14 @@
 - (void);
 - (id);
 - (id)text"b1"wrote_anyField"b1};
-- (id)estamp;
+- (id)_arrivedTimestamp;
 - (id)ÔÎJ$³ôÓJ<³ÙJT³4ÞJl³øèJÀ³ÀïJØ³öJð³K³HK³PK8³K³ÈK$³DK8³ÄKd³1K¼³dBK ³üQK4³\fKH³älK\³oKt³ÄK³Kä³ìKø³¼KP³¬¼Kd³h½Kx³ÐK³ÙK ³0ßK´³àâKÈ³¬æKÜ³Lð³XL³;
 - (id)ata_pk INT NOT NULL REFERENCES data(rowid) ON UPDATE CASCADE ON DELETE CASCADE,    UNIQUE(subscription_pk, data_pk)    ON CONFLICT REPLACE    );;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool completed;
-@property(nonatomic) _Bool hasCompleted;
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasMaxResults;
-@property(readonly, nonatomic) _Bool hasPrefix;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) int maxResults;
-@property(retain, nonatomic) NSString *prefix;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

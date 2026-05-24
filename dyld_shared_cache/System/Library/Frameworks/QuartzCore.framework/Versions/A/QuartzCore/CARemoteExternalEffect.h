@@ -11,7 +11,6 @@
 @interface CARemoteExternalEffect : CARemoteEffect
 {
     NSString *_effectName;
-    NSDictionary *_propertiesByState;
 }
 
 + (id);
@@ -22,18 +21,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void *);
-- (_Bool);
+- (_Bool)9h;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSString *effectName; // @synthesize effectName=_effectName;
 @property(retain, nonatomic) NSDictionary *propertiesByState; // @synthesize propertiesByState=_propertiesByState;
 
 @end

@@ -4,30 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNotification;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (struct CGRect)setRequireXHRRequestSystemTrust:(NSWindow *)arg1;
 - (void)0@ù
 × ;
 - (void)0@ù
 × ;
 - (void)leView"16@"NSTableColumn"24q32;
 - (void)_SecKeychainItem=}40@0:(NSNotification *)arg1 8@16@24^@32;
-- (void)mID:(NSNotification *)arg1;
-- (id)blicKey;
-- (void)agIsActive;
-- (void)ptionKeyServerToViewer;
-- (NSArray *)mPaused;
+- (void)service:(NSNotification *)arg1 account:inviteReceivedForSession:fromID: /* Error: Ran out of types for this method. */;
+- (id)rsaPublicKey;
+- (void)dynamicDragIsActive;
+- (void)audioStreamEncryptionKeyServerToViewer;
+- (NSArray *)_deviceAudioStreamPaused;
 - (void)l;
 - (void)r",&,VconnectionWindowController;
-- (void);
 - (void)timebase is %p saved timebase is %p storage location:(NSNotification *)arg1 %p;
-- (void)Core;
+- (void)RFBAuthenticateCore;
 - (void)ession returned cmdResult.result = %d. Commands now allowed are:(NSNotification *)arg1 %u;
 - (void)reInfoOffset %u;
-- (void)onnection_block_invoke;
+- (void)RFBAuthorizeConnection_block_invoke;
 - (void)step 3;
 - (struct CGRect)rary/BuildRoots/4~CNrdugCizy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/ScreenSharingFramework/Source/SSConnectionProgressViewController.m;
 - (void)%s;

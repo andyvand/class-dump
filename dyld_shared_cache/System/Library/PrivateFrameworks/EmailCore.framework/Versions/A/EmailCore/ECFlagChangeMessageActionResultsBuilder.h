@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableIndexSet, NSString;
+@class NSError, NSMutableIndexSet;
 
 @interface ECFlagChangeMessageActionResultsBuilder
 {
     NSError *_error;
-    NSMutableIndexSet *_completedUIDs;
 }
 
+- (id)rouped devices; activeDevice = %@;
 - (id);
-- (id);
-- (id);
+- (id)_bulkSymbolicationACCredentialProvidingBlock;
 - (void);
-- (void);
+- (void)ning 0;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableIndexSet *completedUIDs; // @synthesize completedUIDs=_completedUIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

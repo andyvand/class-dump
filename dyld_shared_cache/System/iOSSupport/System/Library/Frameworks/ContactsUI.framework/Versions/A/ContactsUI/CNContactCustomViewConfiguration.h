@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactAction, NSArray, NSAttributedString, NSString, UIColor;
+@class NSAttributedString;
 
 @interface CNContactCustomViewConfiguration
 {
     _Bool _allowsCopy;
-    NSString *_trailingDisclosureSystemImageName;
-    CNContactAction *_trailingDisclosureAction;
-    NSAttributedString *_title;
-    NSString *_titleIconSymbolName;
-    UIColor *_titleIconColor;
-    NSAttributedString *_body;
-    NSArray *_actions;
 }
 
 - (id);
 - (id);
+- (id)L;
 - (id);
-- (id);
-- (void);
+- (void)8	;
 - (void);
 - (void);
 - (void);
@@ -37,14 +30,7 @@
 - (void)"NSString",&,N,V_limitedAccessInitialSearchQuery;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic) _Bool allowsCopy; // @synthesize allowsCopy=_allowsCopy;
-@property(retain, nonatomic) NSAttributedString *body; // @synthesize body=_body;
 @property(retain, nonatomic) NSAttributedString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UIColor *titleIconColor; // @synthesize titleIconColor=_titleIconColor;
-@property(retain, nonatomic) NSString *titleIconSymbolName; // @synthesize titleIconSymbolName=_titleIconSymbolName;
-@property(readonly, nonatomic) CNContactAction *trailingDisclosureAction; // @synthesize trailingDisclosureAction=_trailingDisclosureAction;
-@property(readonly, nonatomic) NSString *trailingDisclosureSystemImageName; // @synthesize trailingDisclosureSystemImageName=_trailingDisclosureSystemImageName;
 
 @end
 

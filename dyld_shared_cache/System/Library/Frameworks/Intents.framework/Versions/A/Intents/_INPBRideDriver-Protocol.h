@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactValue, _INPBImageValue;
+@class NSString, _INPBImageValue;
 
 @protocol _INPBRideDriver
-- (void)ntToExecute;
+- (_Bool);
+- (NSString *);
+- (void)_intentToExecute;
 - (_Bool)proxying into %@, returning original image;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImage;
-@property(readonly, nonatomic) _Bool hasPerson;
-@property(readonly, nonatomic) _Bool hasPhoneNumber;
-@property(readonly, nonatomic) _Bool hasRating;
 @property(retain, nonatomic) _INPBImageValue *image;
-@property(retain, nonatomic) _INPBContactValue *person;
-@property(copy, nonatomic) NSString *phoneNumber;
-@property(copy, nonatomic) NSString *rating;
 @end
 

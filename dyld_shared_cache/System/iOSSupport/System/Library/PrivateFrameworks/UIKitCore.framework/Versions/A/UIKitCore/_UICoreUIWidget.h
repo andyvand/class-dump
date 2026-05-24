@@ -10,22 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _UICoreUIWidget
 {
     NSMutableDictionary *_additionDrawingOptions;
-    _Bool _enabled;
-    _Bool _pressed;
-    int _size;
-    NSString *_name;
-    NSString *_variant;
-    id _value;
 }
 
-- (id);
-- (struct CGSize);
-- (id);
+- (id)pathExtensionForMIMEType:(id)arg1;
+- (struct CGSize)attachmentSyncController;
+- (id)_truthContainer;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -42,12 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)÷[b;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic, getter=isPressed) _Bool pressed; // @synthesize pressed=_pressed;
-@property(nonatomic) int size; // @synthesize size=_size;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
-@property(retain, nonatomic) NSString *variant; // @synthesize variant=_variant;
 
 @end
 

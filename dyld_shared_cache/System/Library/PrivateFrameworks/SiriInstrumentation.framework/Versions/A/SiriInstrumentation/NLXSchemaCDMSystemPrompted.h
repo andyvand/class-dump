@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, USOSchemaUSOGraph;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSystemPrompted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    USOSchemaUSOGraph *_target;
-    _Bool _hasTaskId;
-    _Bool _hasTarget;
 }
 
 - (void);
@@ -22,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)presentICloudMailOptions:mailEnabled:customDomainAvailable:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)us to verify;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -40,10 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTarget; // @synthesize hasTarget=_hasTarget;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) USOSchemaUSOGraph *target; // @synthesize target=_target;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

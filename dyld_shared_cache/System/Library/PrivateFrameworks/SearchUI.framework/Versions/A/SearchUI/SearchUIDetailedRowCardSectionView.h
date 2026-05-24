@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SearchUIDetailedRowModel, SearchUIDetailedView;
+@class SearchUIDetailedView;
 
 @interface SearchUIDetailedRowCardSectionView : SearchUICardSectionView
 {
@@ -14,21 +14,20 @@
 
 + (_Bool);
 + (_Bool);
-+ (int);
++ (int)_;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)or language %@ and plist path %@;
+- (id)ativeSamplingRate <= 1;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SearchUIDetailedView *contentView; // @dynamic contentView;
-@property(retain, nonatomic) SearchUIDetailedRowModel *rowModel; // @dynamic rowModel;
 
 @end
 

@@ -6,14 +6,10 @@
 
 #import <UIKitCore/_UIUndoTextOperation.h>
 
-@class NSArray, NSAttributedString;
-
 __attribute__((visibility("hidden")))
 @interface _UITextUndoOperationReplace : _UIUndoTextOperation
 {
     struct _NSRange _replacementRange;
-    NSAttributedString *_attributedString;
-    NSArray *_replacements;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface NewsUI2.MyMagazinesBlueprintModifierFactory
 {
     id issueModelFactory;
-    id bundleSubscriptionManager;
-    id offlineIssueManager;
 }
 
 @end

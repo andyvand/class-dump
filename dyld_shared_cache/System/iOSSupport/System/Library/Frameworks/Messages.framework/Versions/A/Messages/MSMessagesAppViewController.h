@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSConversation, NSString, UIColor, _MSMessagesAppPresentationControllerDelegate;
-@protocol _MSMessageComposeExtensionImplProtocol;
-
 @interface MSMessagesAppViewController
 {
     _Bool _viewHasAppeared;
-    _Bool _isReadyForDisplay;
-    _Bool _providesExplicitSizeSnapshot;
-    _Bool _needsSizeMatchBeforeSnapshotSwap;
-    _Bool _performSendAnimationOnAppear;
-    MSConversation *_activeConversation;
-    _MSMessagesAppPresentationControllerDelegate *_sheetPresentationControllerDelegate;
-    id <_MSMessageComposeExtensionImplProtocol> _appContext;
-    double _backgroundLuminance;
-    struct CGRect _initialFrameBeforeAppearance;
 }
 
 + (void);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +47,7 @@
 - (struct UIEdgeInsets);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,25 +55,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -93,24 +81,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)NVCDemo;
 - (struct CGSize);
+- (void)messageViewController:(id)arg1 didLoadDialogRequest:(CDUnknownBlockType)arg2;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_bundleIdentifierForActivityImageCreation;
+- (void)_TtC12NewsArticlesP33_EB63D8792045F9CB316DE87A7AC9CC2D15PassthroughView;
+- (void)_TtCE12NewsArticlesVVE5TeaUIC11TeaSettings8Settings4Tips5Debug27RecipeChromeConfigOverrides;
+- (void)_TtC12NewsArticles37ArticleThumbnailComponentSizerFactory;
+- (void)_TtC12NewsArticles27PDFReplicaViewerDataManager;
+- (void)image;
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@"NSString"8;
 - (void);
 - (id);
 - (struct UIEdgeInsets);
@@ -133,28 +121,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets _balloonMaskEdgeInsets;
-@property(readonly, nonatomic) double _percentExpanded;
-@property(retain, nonatomic) MSConversation *activeConversation; // @synthesize activeConversation=_activeConversation;
-@property(retain, nonatomic) id <_MSMessageComposeExtensionImplProtocol> appContext; // @synthesize appContext=_appContext;
-@property(nonatomic) double backgroundLuminance; // @synthesize backgroundLuminance=_backgroundLuminance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect initialFrameBeforeAppearance; // @synthesize initialFrameBeforeAppearance=_initialFrameBeforeAppearance;
-@property(nonatomic) _Bool isReadyForDisplay; // @synthesize isReadyForDisplay=_isReadyForDisplay;
-@property(readonly, nonatomic) double messageCornerRadius;
-@property(readonly, nonatomic) UIColor *messageTintColor;
-@property(nonatomic) _Bool needsSizeMatchBeforeSnapshotSwap; // @synthesize needsSizeMatchBeforeSnapshotSwap=_needsSizeMatchBeforeSnapshotSwap;
-@property(nonatomic) _Bool performSendAnimationOnAppear; // @synthesize performSendAnimationOnAppear=_performSendAnimationOnAppear;
-@property(readonly, nonatomic) unsigned long long presentationContext;
-@property(readonly, nonatomic) unsigned long long presentationStyle;
-@property(nonatomic) _Bool providesExplicitSizeSnapshot; // @synthesize providesExplicitSizeSnapshot=_providesExplicitSizeSnapshot;
-@property(retain, nonatomic) _MSMessagesAppPresentationControllerDelegate *sheetPresentationControllerDelegate; // @synthesize sheetPresentationControllerDelegate=_sheetPresentationControllerDelegate;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool viewHasAppeared; // @synthesize viewHasAppeared=_viewHasAppeared;
 
 @end

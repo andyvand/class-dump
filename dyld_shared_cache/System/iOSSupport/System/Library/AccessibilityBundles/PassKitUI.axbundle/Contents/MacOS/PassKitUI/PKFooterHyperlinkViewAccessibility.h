@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)MADVIVisualSearchGatingDomainInfo;
++ (void);
 - (id);
 - (id);
 

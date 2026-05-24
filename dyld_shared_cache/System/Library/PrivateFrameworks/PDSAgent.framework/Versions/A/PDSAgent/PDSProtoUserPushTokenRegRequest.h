@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PDSProtoUserPushToken;
+@class PDSProtoUserPushToken;
 
 @interface PDSProtoUserPushTokenRegRequest
 {
     long long _ttl;
-    NSMutableArray *_deviceInfos;
-    NSMutableArray *_topics;
-    PDSProtoUserPushToken *_userPushToken;
-    struct {
-        unsigned int ttl:1;
-    } _has;
 }
 
-+ (Class);
-+ (Class);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (Class)wn during object unarchival from path %@:%{public}@. Ignored. /* Error: Ran out of types for this method. */;
++ (Class)nload asset:%{public}@ due to MMCS auth error:%{public}@. Will reauthorize now. /* Error: Ran out of types for this method. */;
+- (id)ed to add asset collection %{public}@. Error:%{public}@. Deleting asset collection and cancelling pending commands. /* Error: Ran out of types for this method. */;
+- (id)ons for %ld photos.;
+- (void). Re-reading album metadata.;
+- (unsigned long long)ts of album GUID %{public}@ due to a reset sync.;
+- (id)ic}@:Reconciling contents of album GUID %{public}@ due to a reset sync. /* Error: Ran out of types for this method. */;
+- (id)Finished checking album access controls;
+- (void)st due to a reset sync.;
+- (void)GUID %{public}@;
+- (void)on GUID %{public}@ in album GUID %{public}@;
+- (void)ame as the previous state:(id)arg1 %d;
 - (void);
 - (_Bool);
-- (void);
+- (void)sortKeysForSectionPredicates: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)cacheDeleteAvailableSpaceClass;
+- (void)DOperationCallbackProxy>",&,D,N;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -49,10 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *deviceInfos; // @synthesize deviceInfos=_deviceInfos;
-@property(nonatomic) _Bool hasTtl;
-@property(retain, nonatomic) NSMutableArray *topics; // @synthesize topics=_topics;
-@property(nonatomic) long long ttl; // @synthesize ttl=_ttl;
 @property(retain, nonatomic) PDSProtoUserPushToken *userPushToken; // @synthesize userPushToken=_userPushToken;
 
 @end

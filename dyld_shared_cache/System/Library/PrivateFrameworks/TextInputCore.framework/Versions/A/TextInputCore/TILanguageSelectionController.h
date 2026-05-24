@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, TIInputMode, TILanguageModelAdaptationContext;
-@protocol TILanguageLikelihoodModeling, TILanguageSelectionControllerDelegate, TIMultilingualPreferenceProviding;
+@protocol TILanguageLikelihoodModeling;
 
 @interface TILanguageSelectionController
 {
     id <TILanguageLikelihoodModeling> _languageLikelihoodModel;
-    struct vector<TITokenID, std::allocator<TITokenID>> m_buffered_tokens;
-    id <TILanguageSelectionControllerDelegate> _delegate;
-    TILanguageModelAdaptationContext *_adaptationContext;
-    NSArray *_activeInputModes;
-    id <TIMultilingualPreferenceProviding> _preferenceProvider;
-    TIInputMode *_primaryInputMode;
-    TIInputMode *_preferredSecondaryInputMode;
-    NSArray *_preferredAdditionalInputModes;
-    TIInputMode *_inferredSecondaryInputMode;
-    NSArray *_inferredAdditionalInputModes;
-    NSArray *_userEnabledInputModes;
-    NSMutableDictionary *_inputModeProbabilities;
-    NSDictionary *_referenceInputModeProbabilities;
-    NSMutableArray *_bufferedTokenStrings;
 }
 
 + (id);
 + (void);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -42,40 +27,40 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)accessibilityValueAsFloat;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)setBytesWrittenLimit: /* Error: Ran out of types for this method. */;
+- (id)$};
 - (id);
 - (id);
 - (void);
 - (vector_4858b34d);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id)PAMediaConversionServiceAdjustmentFormatVersionKey;
+- (void)ed identifier:(id)arg1 %@ base64String:(struct TITokenID)arg2 %@ type:(const struct TITokenID *)arg3 %lu>;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ROR subclass must implement this;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)enum_kMDItemPhotosTitle_TermFrequencies_Var_Word;
+- (id)r-brightside.myParcel;
 - (void);
 - (float);
 - (id);
@@ -85,26 +70,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)chunk is already being appended (%{errno}d);
 - (void)1Â0@ù
 × ;
 - (id)°Á;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeInputModes; // @synthesize activeInputModes=_activeInputModes;
-@property(retain, nonatomic) TILanguageModelAdaptationContext *adaptationContext; // @synthesize adaptationContext=_adaptationContext;
-@property(readonly, nonatomic) NSMutableArray *bufferedTokenStrings; // @synthesize bufferedTokenStrings=_bufferedTokenStrings;
-@property(nonatomic) id <TILanguageSelectionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *inferredAdditionalInputModes; // @synthesize inferredAdditionalInputModes=_inferredAdditionalInputModes;
-@property(retain, nonatomic) TIInputMode *inferredSecondaryInputMode; // @synthesize inferredSecondaryInputMode=_inferredSecondaryInputMode;
-@property(readonly, nonatomic) NSMutableDictionary *inputModeProbabilities; // @synthesize inputModeProbabilities=_inputModeProbabilities;
 @property(readonly, nonatomic) id <TILanguageLikelihoodModeling> languageLikelihoodModel; // @synthesize languageLikelihoodModel=_languageLikelihoodModel;
-@property(readonly, nonatomic) id <TIMultilingualPreferenceProviding> preferenceProvider; // @synthesize preferenceProvider=_preferenceProvider;
-@property(retain, nonatomic) NSArray *preferredAdditionalInputModes; // @synthesize preferredAdditionalInputModes=_preferredAdditionalInputModes;
-@property(retain, nonatomic) TIInputMode *preferredSecondaryInputMode; // @synthesize preferredSecondaryInputMode=_preferredSecondaryInputMode;
-@property(retain, nonatomic) TIInputMode *primaryInputMode; // @synthesize primaryInputMode=_primaryInputMode;
-@property(copy, nonatomic) NSDictionary *referenceInputModeProbabilities; // @synthesize referenceInputModeProbabilities=_referenceInputModeProbabilities;
-@property(retain, nonatomic) NSArray *userEnabledInputModes; // @synthesize userEnabledInputModes=_userEnabledInputModes;
 
 @end
 

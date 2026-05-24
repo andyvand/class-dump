@@ -7,18 +7,11 @@
 @interface FBSApplicationLibraryConfiguration
 {
     _Bool _personaAware;
-    _Bool _allowConcurrentLoading;
-    Class _applicationInfoClass;
-    Class _applicationPlaceholderClass;
-    CDUnknownBlockType _installedApplicationFilter;
-    CDUnknownBlockType _placeholderFilter;
-    CDUnknownBlockType _applicationIdentityFilter;
-    CDUnknownBlockType _placeholderIdentityFilter;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -28,23 +21,16 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void)setConnectionPrepareHandler:(Class)arg1;
 - (id);
 - (CDUnknownBlockType);
 - (Class);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowConcurrentLoading; // @synthesize allowConcurrentLoading=_allowConcurrentLoading;
-@property(copy, nonatomic) CDUnknownBlockType applicationIdentityFilter; // @synthesize applicationIdentityFilter=_applicationIdentityFilter;
 @property(retain, nonatomic) Class applicationInfoClass; // @synthesize applicationInfoClass=_applicationInfoClass;
-@property(retain, nonatomic) Class applicationPlaceholderClass; // @synthesize applicationPlaceholderClass=_applicationPlaceholderClass;
-@property(copy, nonatomic) CDUnknownBlockType installedApplicationFilter; // @synthesize installedApplicationFilter=_installedApplicationFilter;
-@property(nonatomic, getter=isPersonaAware) _Bool personaAware; // @synthesize personaAware=_personaAware;
-@property(copy, nonatomic) CDUnknownBlockType placeholderFilter; // @synthesize placeholderFilter=_placeholderFilter;
-@property(copy, nonatomic) CDUnknownBlockType placeholderIdentityFilter; // @synthesize placeholderIdentityFilter=_placeholderIdentityFilter;
 
 @end
 

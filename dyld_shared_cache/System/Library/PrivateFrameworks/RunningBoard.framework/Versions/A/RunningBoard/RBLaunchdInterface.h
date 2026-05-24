@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RBLaunchdInterface
 {
 }
 
 + (id);
+- (id)p;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)sui_fetchSeasonTitlesSettingWithCompletionHandler:(id)arg1;
+- (id)setController:(id)arg1;
+- (id)localSuggestionsData;
+- (id)initWithDictionary:(id)arg1 queryId:(id)arg2;
+- (id)com_apple_people_requestStatus;
 - (id);
 - (id);
 - (id);
@@ -28,13 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

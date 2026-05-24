@@ -5,32 +5,25 @@
 //
 
 @class NSArray;
-@protocol EKShareePickerViewControllerDelegate;
 
 @interface EKShareePickerViewController
 {
     _Bool _shouldSuggestFamilySharees;
-    NSArray *_sharees;
-    id <EKShareePickerViewControllerDelegate> _delegate;
-    NSArray *_filterOutFamilySharees;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)&s;
+- (id)*s;
+- (id)D%s;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)ceRule:date:timeZone:lowercase: /* Error: Ran out of types for this method. */;
+- (void)createAppleIDWithParameters:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)shortNaturalLanguageDescriptionForRecurrenceRule:date:timeZone:lowercase: /* Error: Ran out of types for this method. */;
 - (id)2SôäÿÿSo7NSValueCACSo7UIColorCSgIegggyggg_;
 
 // Remaining properties
-@property(nonatomic) __weak id <EKShareePickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *filterOutFamilySharees; // @synthesize filterOutFamilySharees=_filterOutFamilySharees;
 @property(readonly, copy, nonatomic) NSArray *sharees; // @synthesize sharees=_sharees;
-@property(nonatomic) _Bool shouldSuggestFamilySharees; // @synthesize shouldSuggestFamilySharees=_shouldSuggestFamilySharees;
 
 @end
 

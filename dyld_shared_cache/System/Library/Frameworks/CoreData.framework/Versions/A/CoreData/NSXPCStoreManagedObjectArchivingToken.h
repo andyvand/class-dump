@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id)cationFromAccountInfoKey;
+- (id)PFCKAccountMonitorAccountChangedNotificationFromAccountInfoKey;
 
 @end
 

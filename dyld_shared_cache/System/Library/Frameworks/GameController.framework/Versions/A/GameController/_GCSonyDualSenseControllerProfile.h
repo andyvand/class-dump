@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCSonyDualSenseControllerProfile
 {
@@ -15,18 +13,18 @@ __attribute__((visibility("hidden")))
 + (long long);
 + (id);
 + (id);
++ (void);
++ (void);
++ (void)Ԉ;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)Ќ;
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)Ќ;
 + (_Bool);
 + (void);
 + (void);
@@ -34,13 +32,7 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

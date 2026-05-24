@@ -9,38 +9,35 @@
 @interface TRIPBUInt32Array
 {
     TRIPBMessage *_autocreator;
-    unsigned int *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (void)WBSPasswordBreachRequestManager;
 - (void);
-- (void);
-- (void);
+- (void),V_notificationToken;
 - (id);
 - (id);
-- (void);
+- (void)	X9駟	\9?;
 - (id);
-- (unsigned long long);
+- (unsigned long long)8&;
 - (id);
-- (void);
+- (void)TB,R,N,GisCurrent,V_current;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)k ;
 - (unsigned long long);
-- (void);
+- (void)initWithDeployment:(unsigned int)arg1 treatmentId:(unsigned long long)arg2;
 - (void)DùÑÒÐ1Â0@ù
 × ;
-- (unsigned int)actorPackSetMapping_Count;
-- (void)iriAssetDeliveryQeTest1;
+- (unsigned int)factorPackSetMapping_Count;
+- (void)SiriAssetDeliveryQeTest1;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

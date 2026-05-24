@@ -5,5 +5,6 @@
 //
 
 @protocol IMDSpotlightActivityMonitorQueries
+- (void);
 @end
 

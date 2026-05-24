@@ -8,8 +8,6 @@
 {
     id _imageURL;
     id _stepLabel;
-    id _recipeTitle;
-    id _$observationRegistrar;
 }
 
 @end

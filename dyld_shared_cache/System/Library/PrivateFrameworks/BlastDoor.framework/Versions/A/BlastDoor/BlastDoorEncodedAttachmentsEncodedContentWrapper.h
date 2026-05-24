@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorEncodedAttachments_EncodedAstc, BlastDoorEncodedAttachments_RawData, NSString;
+@class NSString;
 
 @interface BlastDoorEncodedAttachmentsEncodedContentWrapper
 {
     id encodedAttachments_EncodedContent;
 }
 
+- (id)ttributedString"24@"UITextRange"32;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)Status:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void)©¸´ÄÉÿ¸PdÂÿ¸ ÄÉÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorEncodedAttachments_EncodedAstc *astc;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorEncodedAttachments_RawData *other;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSArray, NSString;
-
 @interface MPModelMediaClip : MPModelObject
 {
 }
@@ -17,8 +15,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType previewArtworkCatalogBlock; // @dynamic previewArtworkCatalogBlock;
-@property(copy, nonatomic) NSArray *staticAssets; // @dynamic staticAssets;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

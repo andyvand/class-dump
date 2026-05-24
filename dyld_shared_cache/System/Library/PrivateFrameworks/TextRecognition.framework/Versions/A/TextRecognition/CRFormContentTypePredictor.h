@@ -7,7 +7,6 @@
 @interface CRFormContentTypePredictor
 {
     struct unique_ptr<CoreRecognition::EspressoModelWrapper, std::default_delete<CoreRecognition::EspressoModelWrapper>> _espressoModel;
-    struct map<std::string, float, std::less<std::string>, std::allocator<std::pair<const std::string, float>>> _customNoneBonuses;
 }
 
 - (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)le: /* Error: Ran out of types for this method. */;
+- (void)textFeaturesFromPolygons:withScale:withNMSOutputScale: /* Error: Ran out of types for this method. */;
 
 @end
 

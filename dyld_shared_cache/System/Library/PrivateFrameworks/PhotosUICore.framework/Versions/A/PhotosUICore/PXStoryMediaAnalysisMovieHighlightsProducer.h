@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, PXStoryConfiguration;
-@protocol OS_dispatch_queue, OS_os_log, PXMediaAnalyzer;
+@class NSObject;
+@protocol OS_dispatch_queue, PXMediaAnalyzer;
 
 @interface PXStoryMediaAnalysisMovieHighlightsProducer
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_results_queue;
-    NSObject<OS_os_log> *_log;
-    PXStoryConfiguration *_storyConfiguration;
-    _Bool _didProcessConfiguration;
-    NSDictionary *_customTimeRangeByAssetUUID;
-    id <PXMediaAnalyzer> _mediaAnalyzer;
-    unsigned long long _batchSize;
 }
 
 - (void);
@@ -26,13 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long)er;
+- (unsigned long long)_permuteTimer;
 - (void)ryExportManager);
 - (void)t9mÿ1´;
 - (void)Ôÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
 @property(retain, nonatomic) id <PXMediaAnalyzer> mediaAnalyzer; // @synthesize mediaAnalyzer=_mediaAnalyzer;
 
 @end

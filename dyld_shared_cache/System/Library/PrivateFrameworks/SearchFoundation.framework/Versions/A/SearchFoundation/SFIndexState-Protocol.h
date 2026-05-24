@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSDictionary, NSNumber;
 
 @protocol SFIndexState
+- (NSDictionary *)(!Ț);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *embeddedMessageCount;
-@property(copy, nonatomic) NSNumber *embeddedMessagePercentage;
-@property(copy, nonatomic) NSNumber *indexedMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *percentAttachmentsIndexed;
 @property(copy, nonatomic) NSNumber *percentMessagesIndexed;
-@property(copy, nonatomic) NSNumber *searchIndex;
-@property(copy, nonatomic) NSNumber *totalMessageCount;
 @end
 

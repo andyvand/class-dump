@@ -6,14 +6,14 @@
 
 #import <Foundation/NSURLComponents.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSURLComponentsBridge : NSURLComponents
 {
 }
 
-- (void);
+- (void)ȱ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -28,26 +28,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (id)ÀÿÙî#kà;
@@ -55,15 +55,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *_encodedHost;
-@property(readonly) NSString *_percentEncodedFragment;
-@property(readonly) NSString *_percentEncodedHost;
-@property(readonly) NSString *_percentEncodedPassword;
-@property(readonly) NSString *_percentEncodedPath;
-@property(readonly) NSString *_percentEncodedQuery;
-@property(readonly) NSArray *_percentEncodedQueryItems;
-@property(readonly) NSString *_percentEncodedUser;
-@property(readonly) NSNumber *_port;
 @property(readonly) NSString *_scheme;
 
 @end

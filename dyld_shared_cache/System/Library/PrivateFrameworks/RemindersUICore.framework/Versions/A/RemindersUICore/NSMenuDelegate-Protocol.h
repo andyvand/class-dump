@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
+@class NSMenu, NSScreen;
 
 @protocol NSMenuDelegate
 
 @optional
+- (struct CGRect)ion"))),t||(t=_isRichTextAlignmentStyleCSSValue(e.getPropertyCSSValue("text-align"))),t||(t=!!e.getPropertyCSSValue("direction")),t},Element.prototype.isRichTextElement=function(){let e=this.isRichTextElementType();if(!e){let t=this.nodeName.toLowerCase();if("blockquote"===t){let t=this.getAttribute("type");e=!t||"cite"!==t.toLowerCase()}else if("img"===t){if(!(this instanceof HTMLImageElement&&this.attachmentIdentifier)){let t=this.src;if(t){let i;try{i=new URL(t).protocol}catch(e){}e=i===undefined||i!==MFContentIDScheme+":(NSMenu *)arg1 "}}}else document.isInlineGenmojiEnabled&&"source"===t?e=this instanceof HTMLSourceElement&&this.parentElement instanceof HTMLPictureElement&&this.attachmentIdentifier:(NSScreen *)arg2 "p"===t&&(e=!this.hasMarginsOfZero())}if(!e){let t=this.hasAttribute("STYLE")?this.style:undefined;t&&"none"!==t.getPropertyValue("display")&&(e=this.isRichTextStyle(t))}return e||this.getAttribute("class")!==MFMailDropItemClass&&this.getAttribute("class")!==MFMailDropBannerClass||(e=!0),e||this.getAttribute("id")===MFHtmlIDSignature&&(e=!0),e},Element.prototype.isRichLink=function(){let e=this.classList;return e.length&&e.contains(MFRichLinkClass)},Element.prototype.richLinkContainer=function(){if(this.isRichLink())return this;let e=this.parentElement;return e?e.richLinkContainer():null},Element.prototype.isRichLinkPlaceholder=function(){let e=this.classList;return e.length&&e.contains(linkPlaceHolderClass)},Element.prototype.richLinkPlaceholderContainer=function(){if(this.isRichLinkPlaceholder())return this;let e=this.parentElement;return e?e.richLinkPlaceholderContainer():null},Element.prototype.mf_isListContainer=function(){return this instanceof HTMLOListElement||this instanceof HTMLUListElement},Element.prototype.mf_insertChildrenWithUndoSupport=function(){let e=[],t=insertAttachmentsAtEnd;for(let i of this.querySelectorAll("attachment, img")){let S=i.mf_attachmentIdentifier();if(S)if(e.push(i),t)i.remove();else{let e=document.createElement("span");e.setAttribute("class",MFMailTemporaryAttachmentWrapper),e.id=S,i.replaceWith(e)}}document.execCommand("InsertHTML",!0,this.innerHTML);for(let i of e)if(t)document.body.appendChild(i);else{let e=i.mf_attachmentIdentifier();document.getElementById(e).appendChild(i)}}; /* Error: Ran out of types for this method. */;
 - (_Bool)ot support sections {templateID:(NSMenu *)arg1 %@};
 @end
 

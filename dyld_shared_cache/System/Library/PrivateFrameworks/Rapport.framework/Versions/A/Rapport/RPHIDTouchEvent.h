@@ -7,9 +7,6 @@
 @interface RPHIDTouchEvent
 {
     int _finger;
-    int _phase;
-    double _timestampSeconds;
-    struct CGPoint _location;
 }
 
 - (double);
@@ -23,9 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) int finger; // @synthesize finger=_finger;
-@property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) int phase; // @synthesize phase=_phase;
-@property(nonatomic) double timestampSeconds; // @synthesize timestampSeconds=_timestampSeconds;
 
 @end
 

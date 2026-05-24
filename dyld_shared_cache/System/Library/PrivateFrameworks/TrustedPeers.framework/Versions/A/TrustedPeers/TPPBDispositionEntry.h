@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TPPBDisposition;
+@class TPPBDisposition;
 
 @interface TPPBDispositionEntry
 {
     TPPBDisposition *_disposition;
-    NSString *_peerID;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)i~;
 - (void);
 - (_Bool);
-- (void);
+- (void)art event length %zu (exp) %zu;
+- (id)intCommChannelCreationOptionControlType, FigEndpointRemoteControlSessionRef *);
+- (id)c;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TPPBDisposition *disposition; // @synthesize disposition=_disposition;
-@property(readonly, nonatomic) _Bool hasDisposition;
 @property(readonly, nonatomic) _Bool hasPeerID;
-@property(retain, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
 
 @end
 

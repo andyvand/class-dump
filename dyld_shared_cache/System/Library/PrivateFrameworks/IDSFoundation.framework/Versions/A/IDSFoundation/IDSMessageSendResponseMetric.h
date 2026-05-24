@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface IDSMessageSendResponseMetric
 {
     _Bool _hasDataToEncrypt;
-    _Bool _ckvOptedIn;
-    _Bool _ckvAppliedEnforcment;
-    long long _responseCode;
-    NSString *_service;
-    NSNumber *_command;
-    long long _messageType;
-    long long _ckvEnforcementMetricType;
-    long long _ckvEnforcementCode;
 }
 
 - (id);
@@ -34,24 +24,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ckvAppliedEnforcment; // @synthesize ckvAppliedEnforcment=_ckvAppliedEnforcment;
-@property(readonly, nonatomic) long long ckvEnforcementCode; // @synthesize ckvEnforcementCode=_ckvEnforcementCode;
-@property(readonly, nonatomic) long long ckvEnforcementMetricType; // @synthesize ckvEnforcementMetricType=_ckvEnforcementMetricType;
-@property(readonly, nonatomic) _Bool ckvOptedIn; // @synthesize ckvOptedIn=_ckvOptedIn;
-@property(readonly, nonatomic) NSNumber *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool hasDataToEncrypt; // @synthesize hasDataToEncrypt=_hasDataToEncrypt;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long messageType; // @synthesize messageType=_messageType;
-@property(readonly) NSString *name;
 @property(readonly, nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

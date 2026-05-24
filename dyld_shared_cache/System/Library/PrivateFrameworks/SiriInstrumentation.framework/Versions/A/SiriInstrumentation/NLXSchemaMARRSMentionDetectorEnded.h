@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface NLXSchemaMARRSMentionDetectorEnded : SISchemaInstrumentationMessage
 {
     NSArray *_mentionDetectorSpans;
-    SISchemaUUID *_linkId;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -25,11 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,9 +38,6 @@
 - (void)ëN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(copy, nonatomic) NSArray *mentionDetectorSpans; // @synthesize mentionDetectorSpans=_mentionDetectorSpans;
 
 @end

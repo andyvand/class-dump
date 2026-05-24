@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRReminderPrintingInteractor
 {
     id dataModelSource;
-    id participantAvatarProvider;
-    id participantAvatarProviderInvocationQueue;
 }
 
 @end

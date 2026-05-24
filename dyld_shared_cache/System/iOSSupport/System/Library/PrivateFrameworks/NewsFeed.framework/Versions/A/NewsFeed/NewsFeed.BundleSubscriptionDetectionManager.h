@@ -7,9 +7,6 @@
 @interface NewsFeed.BundleSubscriptionDetectionManager
 {
     id detectionProvider;
-    id configurationManager;
-    id bundleSubscriptionManager;
-    id observers;
 }
 
 - (void);

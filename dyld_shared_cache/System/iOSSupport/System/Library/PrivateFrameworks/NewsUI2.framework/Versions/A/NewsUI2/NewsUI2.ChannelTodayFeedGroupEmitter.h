@@ -7,11 +7,6 @@
 @interface NewsUI2.ChannelTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id personalizationService;
-    id configurationManager;
-    id name;
 }
 
 @end

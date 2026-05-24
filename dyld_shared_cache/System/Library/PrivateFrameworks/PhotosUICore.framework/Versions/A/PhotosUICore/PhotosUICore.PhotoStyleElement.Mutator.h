@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotoStyleElement.Mutator
 {
     id observable;
-    id _contentVersion;
 }
 
 @end

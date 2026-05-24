@@ -26,11 +26,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)h;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,8 +46,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)B;
+- (id);
 
 @end
 

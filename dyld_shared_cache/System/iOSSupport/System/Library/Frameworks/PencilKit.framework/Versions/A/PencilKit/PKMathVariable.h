@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSUUID;
+@class NSUUID;
 
 @interface PKMathVariable
 {
     NSUUID *_identifier;
-    long long _fractionalDigits;
-    double _value;
-    NSIndexSet *_strokeIndexes;
-    struct _NSRange _characterRange;
-    struct _NSRange _symbolsRange;
 }
 
 + (id);
@@ -26,20 +21,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_;
+- (void)?;
 - (double);
 - (id);
-- (struct _NSRange)hDict:maskDict:shouldUseStrokeDataUUID: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)_originalDataUUIDToTransformedStrokeDictFromStrokes:pathDict:maskDict:shouldUseStrokeDataUUID: /* Error: Ran out of types for this method. */;
 - (void)tÁ,Â;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange characterRange; // @synthesize characterRange=_characterRange;
-@property(nonatomic) long long fractionalDigits; // @synthesize fractionalDigits=_fractionalDigits;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSIndexSet *strokeIndexes; // @synthesize strokeIndexes=_strokeIndexes;
-@property(nonatomic) struct _NSRange symbolsRange; // @synthesize symbolsRange=_symbolsRange;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

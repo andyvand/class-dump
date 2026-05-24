@@ -5,5 +5,6 @@
 //
 
 @protocol CSKeywordAnalyzerQuasarScoreDelegate
+- (void)T;
 @end
 

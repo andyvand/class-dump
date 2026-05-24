@@ -6,15 +6,11 @@
 
 #import <MLCompute/MLCOptimizer.h>
 
-@class MLCOptimizerDescriptor, NSString;
+@class MLCOptimizerDescriptor;
 
 @interface MLCRMSPropOptimizer : MLCOptimizer
 {
     _Bool _isCentered;
-    float _momentumScale;
-    float _alpha;
-    float _epsilon;
-    MLCOptimizerDescriptor *_optimizerDescriptor;
 }
 
 + (id);
@@ -27,22 +23,11 @@
 - (id);
 - (id);
 - (float);
-- (float);
-- (void);
+- (float)P;
+- (void)cInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCentered; // @synthesize isCentered=_isCentered;
-@property(readonly, nonatomic) float momentumScale; // @synthesize momentumScale=_momentumScale;
 @property(readonly, nonatomic) MLCOptimizerDescriptor *optimizerDescriptor; // @synthesize optimizerDescriptor=_optimizerDescriptor;
-@property(readonly) Class superclass;
 
 @end
 

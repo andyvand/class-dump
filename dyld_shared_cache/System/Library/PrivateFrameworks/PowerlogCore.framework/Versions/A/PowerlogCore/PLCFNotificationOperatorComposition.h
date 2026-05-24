@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PLOperator;
-@protocol OS_dispatch_queue;
+@class PLOperator;
 
 @interface PLCFNotificationOperatorComposition
 {
     _Bool _listeningForNotifications;
-    _Bool _isStateRequired;
-    int _stateToken;
-    NSString *_notificationName;
-    CDUnknownBlockType _operatorBlock;
-    PLOperator *_operator;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (id);
-- (int);
+- (int)okup attempt (user=%@);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool));
 - (void);
 - (void);
 - (void);
 - (void)
 × ;
 - (CDUnknownBlockType);
-- (id)dCurrent;
+- (id)ConfiguredCurrent;
 
 // Remaining properties
-@property _Bool isStateRequired; // @synthesize isStateRequired=_isStateRequired;
-@property _Bool listeningForNotifications; // @synthesize listeningForNotifications=_listeningForNotifications;
-@property(retain) NSString *notificationName; // @synthesize notificationName=_notificationName;
 @property __weak PLOperator *operator; // @synthesize operator=_operator;
-@property(copy, nonatomic) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
-@property int stateToken; // @synthesize stateToken=_stateToken;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

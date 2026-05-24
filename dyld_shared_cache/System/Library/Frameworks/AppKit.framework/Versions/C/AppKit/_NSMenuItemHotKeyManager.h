@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSMenuItemHotKeyManager
 {
     NSMutableDictionary *_hotKeyItems;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
-- (id);
+- (id);
 
 @end
 

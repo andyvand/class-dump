@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDSiriInCallProperties : SISchemaInstrumentationMessage
 {
     int _heySiriHangupEnablementState;
-    int _siriInCallEnablementState;
-    struct {
-        unsigned int heySiriHangupEnablementState:1;
-        unsigned int siriInCallEnablementState:1;
-    } _has;
 }
 
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
@@ -32,18 +25,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)};
 - (id);
 - (id);
 - (id)tityPartialSiriCount1Hr;
-- (id)edEntityPresented;
+- (id)deleteAnonymizedEntityPresented;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeySiriHangupEnablementState;
-@property(nonatomic) _Bool hasSiriInCallEnablementState;
 @property(nonatomic) int heySiriHangupEnablementState; // @synthesize heySiriHangupEnablementState=_heySiriHangupEnablementState;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int siriInCallEnablementState; // @synthesize siriInCallEnablementState=_siriInCallEnablementState;
 
 @end
 

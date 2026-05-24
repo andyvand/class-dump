@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *instantAnswersSuggestions; // @synthesize instantAnswersSuggestions=_instantAnswersSuggestions;

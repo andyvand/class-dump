@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFont;
-
 @protocol MFModernAtomViewResembling
-- (long long);
+- (_Bool);
+- (_Bool)!';
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint baselinePoint;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(nonatomic) _Bool hidesVIPIndicator;
 @property(nonatomic) _Bool isPrimaryAddressAtom;
-@property(nonatomic) unsigned long long presentationOptions;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool separatorHidden;
-@property(nonatomic) _Bool separatorIsLeftAligned;
-@property(nonatomic) long long separatorStyle;
-@property(retain, nonatomic) UIFont *titleFont;
 @end
 

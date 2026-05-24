@@ -6,55 +6,23 @@
 
 #import <MapKit/_MKUIViewController.h>
 
-@class MKMapItem, MKPhotoBigAttributionView, MKPlaceAttributionCell, NSArray, NSButton, NSLayoutConstraint, NSScrollView, NSString, NSView, _MKPlaceViewController;
-@protocol MKPlaceCardPhotosControllerDelegate><MKPlaceCardActionControllerDelegate, _MKInfoCardAnalyticsDelegate;
+@class MKPhotoBigAttributionView;
 
 @interface MKPlacePhotosViewController : _MKUIViewController
 {
     MKPhotoBigAttributionView *_primaryAttributionView;
-    MKPhotoBigAttributionView *_secondaryAttributionView;
-    NSArray *_photoViews;
-    NSScrollView *_photosContainerScrollView;
-    NSView *_photosContainer;
-    NSView *_photosSmallAttributionsView;
-    NSView *_attributionClippingview;
-    double _lastPhotoScrollOffset;
-    _Bool _photoScrollViewScrollingLeft;
-    _Bool _photoScrollViewScrollingRight;
-    _Bool _canUseFullscreenViewer;
-    _Bool _photoLoaded;
-    _Bool _loadAppImageCanceledOrFailed;
-    _Bool _isRTL;
-    unsigned long long _photosCount;
-    NSView *_externalView;
-    MKMapItem *_mapItem;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSArray *_photos;
-    unsigned long long _mode;
-    unsigned long long _originalMode;
-    unsigned long long _options;
-    MKPlaceAttributionCell *_attributionCell;
-    NSButton *_previousPageButton;
-    NSButton *_nextPageButton;
-    NSScrollView *_parentScrollView;
-    unsigned long long _initialAppearanceSignpostID;
-    _Bool _isDisappearing;
-    _Bool _hoverActive;
-    _MKPlaceViewController *_owner;
-    id <MKPlaceCardPhotosControllerDelegate><MKPlaceCardActionControllerDelegate> _photosControllerDelegate;
 }
 
-- (void);
-- (void);
-- (struct CGSize);
-- (_Bool);
+- (void)@;
+- (void)apshot=%@, firstRelevantSnapshot=%@;
+- (struct CGSize)PSClientDonation createIdentifierForSubsystem:(unsigned long long)arg1 category:] /* Error: Ran out of types for this method. */;
+- (_Bool)ple.powerlog;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)Rc;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -66,8 +34,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)A;
+- (void)7<;
 - (void);
 - (struct CGSize);
 - (struct CGSize);
@@ -80,38 +48,24 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)6d24@32@40@48B56@?60;
+- (_Bool)SString"16@"NSString"24@"NSString"32@?<v@?@"NSDictionary">40;
+- (void)snapshotWithSignature:(id)arg1 duration:events:payload:actions:reply: /* Error: Ran out of types for this method. */;
+- (id)S;
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
+- (void)siriClientBehaviorMonitor;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void)ree;
+- (void)nextKeyViewAfterSubtree;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_MKInfoCardAnalyticsDelegate> analyticsDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hoverActive; // @synthesize hoverActive=_hoverActive;
-@property(readonly, nonatomic) _Bool isCompactMode;
 @property(readonly, nonatomic) _Bool isFirstParty;
-@property(readonly, nonatomic) unsigned long long numberOfBigAttributionViews;
-@property(nonatomic) __weak _MKPlaceViewController *owner; // @synthesize owner=_owner;
-@property(nonatomic) __weak id <MKPlaceCardPhotosControllerDelegate><MKPlaceCardActionControllerDelegate> photosControllerDelegate; // @synthesize photosControllerDelegate=_photosControllerDelegate;
-@property(readonly, nonatomic) _Bool shouldShowAddPhotoButtons;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (RelativeRanks)
-+ (id);
++ (id)_lp_getAttributedString;
 @end
 

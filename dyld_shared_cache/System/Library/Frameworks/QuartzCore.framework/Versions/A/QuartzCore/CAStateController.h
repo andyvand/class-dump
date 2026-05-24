@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSObject;
-@protocol CAStateControllerDelegate;
+@class CALayer;
 
 @interface CAStateController
 {
@@ -15,10 +14,11 @@
 - (void);
 - (void);
 - (void);
+- (void)
+k);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)cksqlcs_appendFunctionExpressionSQLToString:(id)arg1 statement:(id)arg2;
 - (id);
 - (id);
 - (id);
@@ -29,10 +29,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property __weak NSObject<CAStateControllerDelegate> *delegate;
 @property(readonly) CALayer *layer;
 
 @end

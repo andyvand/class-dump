@@ -9,10 +9,6 @@
 @interface FCNewsPersonalizationLogisticRegressionClassifierConfiguration
 {
     NSNumber *_l2Penalty;
-    NSNumber *_l1Penalty;
-    NSNumber *_maximumIterations;
-    NSNumber *_stepSize;
-    NSNumber *_convergenceThreshold;
 }
 
 - (void);
@@ -31,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *convergenceThreshold; // @synthesize convergenceThreshold=_convergenceThreshold;
-@property(retain, nonatomic) NSNumber *l1Penalty; // @synthesize l1Penalty=_l1Penalty;
 @property(retain, nonatomic) NSNumber *l2Penalty; // @synthesize l2Penalty=_l2Penalty;
-@property(retain, nonatomic) NSNumber *maximumIterations; // @synthesize maximumIterations=_maximumIterations;
-@property(retain, nonatomic) NSNumber *stepSize; // @synthesize stepSize=_stepSize;
 
 @end
 

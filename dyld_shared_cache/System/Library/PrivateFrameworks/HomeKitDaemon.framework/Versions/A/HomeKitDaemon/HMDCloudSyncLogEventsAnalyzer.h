@@ -6,34 +6,28 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCountersManager, HMDTimeBasedFlagsManager, HMMDateProvider;
-@protocol HMDLogEventAnalyzerDataSource, HMDMetricsDeviceStateProvider, HMMLogEventSubmitting;
+@class HMDEventCountersManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudSyncLogEventsAnalyzer : HMDLogEventAnalyzer
 {
     HMDEventCountersManager *_eventCountersManager;
-    HMDTimeBasedFlagsManager *_flagsManager;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMMDateProvider *_dateProvider;
-    id <HMDMetricsDeviceStateProvider> _deviceStateProvider;
-    id <HMDLogEventAnalyzerDataSource> _dataSource;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)ion %p %s;
 - (id);
 - (void);
-- (void);
+- (void)greatSpaceGrandparent;
 - (id);
 - (void);
 - (void);
 - (void)AáÐ!@Dùñð1Â0@ù
 × ;
-- (void)RouterServerIfNeeded;
-- (id)rtHomeManagerWithContext: /* Error: Ran out of types for this method. */;
+- (void)createRemoteEventRouterServerIfNeeded;
+- (id)_exportHomeManagerWithContext: /* Error: Ran out of types for this method. */;
 - (void)}@Scheduled user request, utid %@
 %@;
 - (void)nfigure with reader key:(id)arg1 %@, it doesn't support nfc access service %@;
@@ -45,12 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)£°;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDLogEventAnalyzerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, nonatomic) id <HMDMetricsDeviceStateProvider> deviceStateProvider; // @synthesize deviceStateProvider=_deviceStateProvider;
 @property(readonly, nonatomic) HMDEventCountersManager *eventCountersManager; // @synthesize eventCountersManager=_eventCountersManager;
-@property(readonly, nonatomic) HMDTimeBasedFlagsManager *flagsManager; // @synthesize flagsManager=_flagsManager;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 
 @end
 

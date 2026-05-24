@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol SCUIInterventionContainer;
+
 @protocol SCUIInterventionViewControllerDelegate
+- (void)ICMonostyledBorderColor;
+- (void)ton",W,N,V_cancelButton;
+
+@optional
+- (void)initWithNotes:(id <SCUIInterventionContainer>)arg1 toFolder:legacyContext:didCopyBlock: /* Error: Ran out of types for this method. */;
+- (void)ableArray",&,N,V_completionHandlers;
+- (void)N,V_mainContext;
+- (void)xtViewHeightConstraint;
+- (void)newNote;
+- (void)ilingConstraint;
 @end
 

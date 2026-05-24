@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id)_changeWordCaseWithSelector: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties

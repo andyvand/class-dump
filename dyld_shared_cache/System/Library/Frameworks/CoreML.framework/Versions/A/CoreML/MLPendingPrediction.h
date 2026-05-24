@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface MLPendingPrediction
 {
     id <MLPredictionRequest> _predictionRequest;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (id);
-- (id);
+- (id)atomic_fetch_sub;
+- (id)h;
 - (CDUnknownBlockType);
 - (void)ocessing not available on this version;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) id <MLPredictionRequest> predictionRequest; // @synthesize predictionRequest=_predictionRequest;
 
 @end

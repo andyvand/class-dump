@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)_accountDefaults;
 - (id);Ù?];
 
 @end

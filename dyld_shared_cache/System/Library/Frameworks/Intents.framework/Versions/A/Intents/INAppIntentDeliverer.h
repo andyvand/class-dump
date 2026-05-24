@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntentForwardingAction, INWatchdogTimer, NSObject, NSString;
-@protocol INIntentBackgroundHandlingAssertion, OS_dispatch_queue;
+@class INIntentForwardingAction, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface INAppIntentDeliverer
 {
     INIntentForwardingAction *_intentForwardingAction;
-    NSString *_bundleIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completionBlock;
-    INWatchdogTimer *_requestTimer;
-    id <INIntentBackgroundHandlingAssertion> _auxiliaryAssertion;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id)o;
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (CDUnknownBlockType)r;
-- (void)allIntent;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (CDUnknownBlockType)_driver;
+- (void)StartAudioCallIntent;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <INIntentBackgroundHandlingAssertion> auxiliaryAssertion; // @synthesize auxiliaryAssertion=_auxiliaryAssertion;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) INIntentForwardingAction *intentForwardingAction; // @synthesize intentForwardingAction=_intentForwardingAction;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) INWatchdogTimer *requestTimer; // @synthesize requestTimer=_requestTimer;
-@property(readonly) Class superclass;
 
 @end
 

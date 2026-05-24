@@ -11,7 +11,6 @@
 @interface EKReminderDateDetailItem : EKEventDetailItem
 {
     EKReminderDateDetailCell *_cell;
-    _Bool _hidesBottomSeparator;
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (_Bool);
 - (double)1Â0@ù
 × ;
-- (void):sourceAccountManagement:sourceBundleID: /* Error: Ran out of types for this method. */;
+- (void)setupViewContextWithViewHierarchy:layoutDirection:sizeCategory:sourceAccountManagement:sourceBundleID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hidesBottomSeparator; // @synthesize hidesBottomSeparator=_hidesBottomSeparator;

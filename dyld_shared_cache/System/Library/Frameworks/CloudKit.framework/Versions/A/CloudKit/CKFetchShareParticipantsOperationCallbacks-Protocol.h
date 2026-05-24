@@ -5,5 +5,6 @@
 //
 
 @protocol CKFetchShareParticipantsOperationCallbacks
+- (void);
 @end
 

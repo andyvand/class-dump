@@ -5,5 +5,6 @@
 //
 
 @protocol TSWPStorageObserver
+- (void)d;
 @end
 

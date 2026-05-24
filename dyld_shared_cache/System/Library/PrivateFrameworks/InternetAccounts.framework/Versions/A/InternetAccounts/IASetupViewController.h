@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAccount, NSView;
+@class IAAccount;
 
 @interface IASetupViewController
 {
     IAAccount *_account;
-    NSView *_currentView;
-    _Bool _showCreateButton;
-    _Bool _showBackButton;
-    _Bool _inputValidForNext;
-    _Bool _authenticating;
-    _Bool _appWillQuitOnCancel;
 }
 
 - (void);
@@ -35,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)W Ð!D@ùqæ#°1Â0@ù
@@ -43,12 +37,6 @@
 
 // Remaining properties
 @property(retain) IAAccount *account; // @synthesize account=_account;
-@property _Bool appWillQuitOnCancel; // @synthesize appWillQuitOnCancel=_appWillQuitOnCancel;
-@property _Bool authenticating; // @synthesize authenticating=_authenticating;
-@property(retain) NSView *currentView; // @synthesize currentView=_currentView;
-@property _Bool inputValidForNext; // @synthesize inputValidForNext=_inputValidForNext;
-@property _Bool showBackButton; // @synthesize showBackButton=_showBackButton;
-@property _Bool showCreateButton; // @synthesize showCreateButton=_showCreateButton;
 
 @end
 

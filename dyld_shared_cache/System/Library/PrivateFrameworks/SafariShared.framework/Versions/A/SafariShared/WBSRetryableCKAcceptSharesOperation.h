@@ -11,23 +11,19 @@
 @interface WBSRetryableCKAcceptSharesOperation : WBSRetryableCKOperation
 {
     NSArray *_shareMetadatas;
-    CDUnknownBlockType _perShareCompletionBlock;
-    CDUnknownBlockType _acceptSharesCompletionBlock;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (id)ed for namespace "%@";
+- (void)(NSString * _Nonnull __strong);
+- (CDUnknownBlockType)Namespace Compatibility Version information has moved to trial-namespace-compatibility-versions.log;
+- (CDUnknownBlockType)wY;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType acceptSharesCompletionBlock; // @synthesize acceptSharesCompletionBlock=_acceptSharesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareCompletionBlock; // @synthesize perShareCompletionBlock=_perShareCompletionBlock;
 @property(copy, nonatomic) NSArray *shareMetadatas; // @synthesize shareMetadatas=_shareMetadatas;
 
 @end

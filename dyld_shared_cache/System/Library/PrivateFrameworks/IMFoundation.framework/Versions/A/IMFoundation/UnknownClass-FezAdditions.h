@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (FezAdditions)
-+ (id);
++ (id)ions";
 @end
 

@@ -10,7 +10,7 @@
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (void);
@@ -26,18 +26,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)TIPFilterEndpoint",&,N,V_src;
 - (unsigned long long);
-- (id);
-- (void);
+- (id)X;
+- (void)inating registration just yet.;
 - (_Bool);
 - (void);
-- (void);
+- (void)ullPeers invoked for context:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)IOUnit;
 
 @end
 

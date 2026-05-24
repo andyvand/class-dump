@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, SECSFAAction;
-
 __attribute__((visibility("hidden")))
 @interface SECSFARule
 {
     long long _repeatAfterSeconds;
-    SECSFAAction *_action;
-    int _eventClass;
-    NSString *_eventType;
-    NSData *_match;
-    NSString *_process;
-    struct {
-        unsigned int repeatAfterSeconds:1;
-        unsigned int eventClass:1;
-    } _has;
 }
 
 - (void);
@@ -33,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (unsigned long long);
@@ -42,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (_Bool)or running garbage collection:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)Za ;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)ks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -55,18 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)ô;
 
 // Remaining properties
-@property(retain, nonatomic) SECSFAAction *action; // @synthesize action=_action;
-@property(nonatomic) int eventClass; // @synthesize eventClass=_eventClass;
-@property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasEventClass;
 @property(readonly, nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) _Bool hasMatch;
-@property(readonly, nonatomic) _Bool hasProcess;
-@property(nonatomic) _Bool hasRepeatAfterSeconds;
-@property(retain, nonatomic) NSData *match; // @synthesize match=_match;
-@property(retain, nonatomic) NSString *process; // @synthesize process=_process;
-@property(nonatomic) long long repeatAfterSeconds; // @synthesize repeatAfterSeconds=_repeatAfterSeconds;
 
 @end
 

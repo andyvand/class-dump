@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BUBufferedReadChannel, NSString;
+@class BUBufferedReadChannel;
 
 @interface BUBufferedReadChannelHelper
 {
     BUBufferedReadChannel *_bufferedReadChannel;
 }
 
-- (void);
+- (void)4˟;
 - (id);
 - (void);
 - (id);
@@ -21,13 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak BUBufferedReadChannel *bufferedReadChannel; // @synthesize bufferedReadChannel=_bufferedReadChannel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

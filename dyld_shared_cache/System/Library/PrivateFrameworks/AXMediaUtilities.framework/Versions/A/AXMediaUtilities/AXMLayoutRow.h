@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_cells;
 }
 
-+ (id);
++ (id)h|;
 - (struct CGRect);
 - (void);
 - (id);

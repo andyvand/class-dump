@@ -9,13 +9,11 @@
 @interface GEORPCuratedCollectionCorrections
 {
     PBUnknownFields *_unknownFields;
-    int _correctionType;
-    CDStruct_ef3e2236 _flags;
 }
 
-+ (_Bool)lyClientizedSearchResult:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIsPartiallyClientizedSearchResult:(id)arg1;
+- (void)_container;
+- (void)CNPersistentStoreCoordinatorFactory;
 - (_Bool);
 - (id);
 - (int);
@@ -24,23 +22,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)Qq;
+- (void)ksByType is nil.;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)o"b1"wrote_anyField"b1};
-- (id)ddEtaResultReferencePointDestination: /* Error: Ran out of types for this method. */;
+- (id)addEtaResultReferencePointDestination: /* Error: Ran out of types for this method. */;
 - (id)<ÄÉ;
-- (id)ionsURL_legacy;
+- (id)directionsURL_legacy;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int correctionType;
 @property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

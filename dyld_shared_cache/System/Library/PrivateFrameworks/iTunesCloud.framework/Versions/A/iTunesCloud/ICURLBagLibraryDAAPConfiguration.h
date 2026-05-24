@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICURLBagLibraryDAAPConfiguration
 {
@@ -25,15 +25,7 @@
 - (id)ge notification;
 
 // Remaining properties
-@property(readonly, nonatomic) long long autoUpdatePollingFrequencySeconds;
-@property(readonly, nonatomic) NSString *baseURL;
 @property(readonly, nonatomic) long long databaseID;
-@property(readonly, nonatomic) NSString *databaseName;
-@property(readonly, nonatomic) unsigned long long maxSyncRetryIntervalSeconds;
-@property(readonly, nonatomic, getter=isOnlineGeniusForMatchEnabled) _Bool onlineGeniusForMatchEnabled;
-@property(readonly, nonatomic) long long playDataBatchIntervalInMinutes;
-@property(readonly, nonatomic) long long subscribedContainerPollingFrequencySeconds;
-@property(readonly, nonatomic) long long updatePollingFrequencySeconds;
 
 @end
 

@@ -12,7 +12,7 @@
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)c;
 
 // Remaining properties
 @property int style; // @synthesize style=_style;

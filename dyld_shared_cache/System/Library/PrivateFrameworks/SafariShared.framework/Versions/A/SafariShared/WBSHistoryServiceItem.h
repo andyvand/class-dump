@@ -6,17 +6,9 @@
 
 #import <SafariShared/WBSHistoryServiceObject.h>
 
-@class NSData, NSString;
-
 @interface WBSHistoryServiceItem : WBSHistoryServiceObject
 {
     _Bool _shouldRecomputeDerivedVisitCountScores;
-    long long _visitCount;
-    long long _statusCode;
-    long long _visitCountScore;
-    NSData *_dailyVisitCounts;
-    NSData *_weeklyVisitCounts;
-    NSString *_url;
 }
 
 + (_Bool);
@@ -30,7 +22,7 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)expected %lu;
@@ -41,13 +33,7 @@
 - (void)´éÿ ñ;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *dailyVisitCounts; // @synthesize dailyVisitCounts=_dailyVisitCounts;
-@property(nonatomic) _Bool shouldRecomputeDerivedVisitCountScores; // @synthesize shouldRecomputeDerivedVisitCountScores=_shouldRecomputeDerivedVisitCountScores;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly, nonatomic) NSString *url; // @synthesize url=_url;
 @property(nonatomic) long long visitCount; // @synthesize visitCount=_visitCount;
-@property(nonatomic) long long visitCountScore; // @synthesize visitCountScore=_visitCountScore;
-@property(copy, nonatomic) NSData *weeklyVisitCounts; // @synthesize weeklyVisitCounts=_weeklyVisitCounts;
 
 @end
 

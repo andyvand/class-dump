@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, RBProcess;
-@protocol OS_dispatch_queue, RBDaemonContextProviding;
+@protocol RBDaemonContextProviding;
 
 @interface RBProcessReconnectManager
 {
     id <RBDaemonContextProviding> _daemonContext;
-    RBProcess *_originatorProcess;
-    NSMutableSet *_currentAssertionIdentifiers;
-    NSMutableSet *_pendingProcesses;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)dictionaryRepresentationWithReportableMetricsEvents;
+- (void)huffmanCodesMemoryMappedData;
+- (id);
 - (void);
 
 @end

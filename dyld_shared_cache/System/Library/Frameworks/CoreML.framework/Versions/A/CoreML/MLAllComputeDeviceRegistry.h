@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MLAllComputeDeviceRegistry
@@ -13,22 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)maryTensor:secondaryTensor:name: /* Error: Ran out of types for this method. */;
++ (id)maximumWithPrimaryTensor:secondaryTensor:name: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)sing parameters to pixel buffer for the feature named '%@'.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSArray *deviceRegistries; // @synthesize deviceRegistries=_deviceRegistries;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *registeredComputeDevices;
-@property(readonly) Class superclass;
 
 @end
 

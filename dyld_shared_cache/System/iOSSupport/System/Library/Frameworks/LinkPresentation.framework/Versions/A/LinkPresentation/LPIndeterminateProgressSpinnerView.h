@@ -6,22 +6,19 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPIndeterminateProgressSpinnerPresentationProperties, LPIndeterminateProgressSpinnerStyle, LPTextView, UIActivityIndicatorView;
+@class UIActivityIndicatorView;
 
 __attribute__((visibility("hidden")))
 @interface LPIndeterminateProgressSpinnerView : LPComponentView
 {
     UIActivityIndicatorView *_indicatorView;
-    LPTextView *_text;
-    LPIndeterminateProgressSpinnerStyle *_style;
-    LPIndeterminateProgressSpinnerPresentationProperties *_properties;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
+- (void)syncProgressLeadingPadding;
+- (id)supportsCapabilities:(id)arg1;
+- (void)suggestionCategoryIconSFSymbol;
+- (void)suggestionCategoryDivider;
+- (struct CGSize)a;
 - (void);
 
 @end

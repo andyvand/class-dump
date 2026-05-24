@@ -9,26 +9,24 @@
 @interface PKOSVersionRequirementRange
 {
     PKOSVersionRequirement *_minimum;
-    PKOSVersionRequirement *_maximum;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setDestinationType:(id)arg1;
+- (void)tcpConnectionAccepts;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)activeItemFromEngagementRequest:(id)arg1;
 - (void)ntain key '%@'.;
 - (id)ingContinuityCarClientManager;
 
 // Remaining properties
-@property(readonly, nonatomic) PKOSVersionRequirement *maximum; // @synthesize maximum=_maximum;
 @property(readonly, nonatomic) PKOSVersionRequirement *minimum; // @synthesize minimum=_minimum;
 
 @end

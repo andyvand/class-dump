@@ -5,5 +5,7 @@
 //
 
 @protocol CMIOExtensionProtocol
+- (void);
+- (void)';
 @end
 

@@ -9,8 +9,6 @@
 @interface GEOPDStorefrontFeature
 {
     GEOPDOrientedBoundingBox *_geometry;
-    int _type;
-    CDStruct_3af5a977 _flags;
 }
 
 + (_Bool)setInfoCard:(id)arg1;
@@ -18,19 +16,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)choiceIdentifier;
+- (void)shortened start recording sound.;
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void)o;
 - (id)e_"{__hash_node_base<std:(struct _NSZone *)arg1:__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)traits:(int)arg1 clientAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
-- (id)n;
+- (void)composedWaypointForIdentifier:(int)arg1 traits:clientAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
+- (id)_rotation;
 - (int)¿TÊàÊDÎÐ	PÓÕüÖD×Ø Û;
 - (id)°¤;
-- (id);
+- (id)ADD_TO_FAVORITE_GUIDE;
 - (void);
 - (id)j¸TüiÀT4jôTðiUÔiU¸i¤Ui´UiÐU;
 - (id)Ø;
@@ -39,10 +37,7 @@
 - (void)qh.ÝI@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDOrientedBoundingBox *geometry;
-@property(readonly, nonatomic) _Bool hasGeometry;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
 
 @end
 

@@ -13,30 +13,18 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <AppStoreDaemon/ASDTestFlightServiceExtensionContext.h>
 
-@class ASDTestFlightServiceExtension, NSString;
+@class ASDTestFlightServiceExtension;
 
 @interface ASDTestFlightServiceExtensionRemoteContext : ASDTestFlightServiceExtensionContext
 {
@@ -27,14 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) ASDTestFlightServiceExtension *extensionInstance; // @synthesize extensionInstance=_extensionInstance;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

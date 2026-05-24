@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PDTransitionOptions
 {
     _Bool mHasSound;
-    _Bool mIsStartSoundAction;
-    NSString *mSoundFile;
 }
 
 - (id);

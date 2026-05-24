@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCacheLargestInscribedRectInBoundingPathKey
 {
     double _aspectRatio;
-    struct CGPoint _center;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (double)ÿJtû`;
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
 @property(nonatomic) struct CGPoint center; // @synthesize center=_center;
 
 @end

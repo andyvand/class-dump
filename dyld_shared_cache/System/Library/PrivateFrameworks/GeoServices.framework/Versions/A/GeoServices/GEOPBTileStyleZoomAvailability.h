@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPBTileStyleZoomAvailability
 {
     CDStruct_9f2792e4 _zooms;
-    int _size;
-    int _style;
-    struct {
-        unsigned int has_size:1;
-        unsigned int has_style:1;
-    } _flags;
 }
 
 - (void);

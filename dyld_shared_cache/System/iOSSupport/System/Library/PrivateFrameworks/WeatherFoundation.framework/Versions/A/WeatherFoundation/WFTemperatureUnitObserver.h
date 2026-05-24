@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WFTemperatureUnitObserver
 {
     struct os_unfair_lock_s _dataSynchronizationLock;
-    int _userTemperatureUnit;
-    NSObject<OS_dispatch_queue> *_temperatureUnitUpdateQueue;
-    NSMutableDictionary *_blockObserversForUUID;
-    NSHashTable *_observerObjects;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
-+ (id);
++ (id)c@;
 - (int);
 - (id);
 - (void);
@@ -34,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)link confirmation alert;
 - (struct os_unfair_lock_s);
 - (int);
 - (_Bool);
@@ -45,13 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *blockObserversForUUID; // @synthesize blockObserversForUUID=_blockObserversForUUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property struct os_unfair_lock_s dataSynchronizationLock; // @synthesize dataSynchronizationLock=_dataSynchronizationLock;
-@property(retain) NSHashTable *observerObjects; // @synthesize observerObjects=_observerObjects;
-@property(readonly) int temperatureUnit;
 @property(retain) NSObject<OS_dispatch_queue> *temperatureUnitUpdateQueue; // @synthesize temperatureUnitUpdateQueue=_temperatureUnitUpdateQueue;
-@property int userTemperatureUnit; // @synthesize userTemperatureUnit=_userTemperatureUnit;
 
 @end
 

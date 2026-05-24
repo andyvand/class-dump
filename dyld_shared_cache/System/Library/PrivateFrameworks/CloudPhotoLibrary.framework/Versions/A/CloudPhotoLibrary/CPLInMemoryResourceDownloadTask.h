@@ -6,27 +6,22 @@
 
 #import <CloudPhotoLibrary/CPLResourceTransferTask.h>
 
-@class CPLPlaceholderRecord, CPLResource, NSObject;
-@protocol CPLEngineTransportTask, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLInMemoryResourceDownloadTask : CPLResourceTransferTask
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <CPLEngineTransportTask> _transportTask;
-    CPLResource *_cloudResource;
-    CPLPlaceholderRecord *_cloudRecord;
-    CDUnknownBlockType _launchHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
-+ (id);
++ (id)4;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)envelope;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
@@ -34,9 +29,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLPlaceholderRecord *cloudRecord; // @synthesize cloudRecord=_cloudRecord;
-@property(readonly, nonatomic) CPLResource *cloudResource; // @synthesize cloudResource=_cloudResource;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, copy, nonatomic) CDUnknownBlockType launchHandler; // @synthesize launchHandler=_launchHandler;
 
 @end

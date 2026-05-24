@@ -6,20 +6,18 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NUIContainerGridView, SearchUIImageView, SearchUILabel;
+@class NUIContainerGridView, SearchUIImageView;
 
 @interface SearchUICompactCardSectionView : SearchUICardSectionView
 {
     SearchUIImageView *_imageView;
-    SearchUILabel *_titleLabel;
-    SearchUILabel *_subtitleLabel;
 }
 
 + (_Bool);
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)sesClassificationParameters alloc] initWithDictionary:dict[CLASSIFICATION_PARAMETERS] language:language] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -31,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NUIContainerGridView *contentView; // @dynamic contentView;
-@property(retain, nonatomic) SearchUIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) SearchUILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

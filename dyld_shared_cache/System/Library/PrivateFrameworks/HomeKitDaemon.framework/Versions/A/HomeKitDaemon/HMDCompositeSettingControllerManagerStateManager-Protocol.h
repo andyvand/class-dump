@@ -5,16 +5,14 @@
 //
 
 @class NSUUID;
-@protocol HMDCompositeSettingControllerManagerStateManagerDataSource, HMDCompositeSettingControllerManagerStateTransitionDelegate, HMDCompositeSettingNotificationRegistrationProviding;
+@protocol HMDCompositeSettingControllerManagerStateManagerDataSource, HMDCompositeSettingNotificationRegistrationProviding;
 
 @protocol HMDCompositeSettingControllerManagerStateManager
+- (id <HMDCompositeSettingControllerManagerStateManagerDataSource>);
 - (NSUUID *);
 - (long long)nable to process forwarded shared user invitation acceptance due to remote account resolving error;
 
 // Remaining properties
-@property(readonly) __weak id <HMDCompositeSettingControllerManagerStateManagerDataSource> dataSource;
-@property(readonly) __weak id <HMDCompositeSettingControllerManagerStateTransitionDelegate> delegate;
 @property(readonly) id <HMDCompositeSettingNotificationRegistrationProviding> notificationRegistrationProvider;
-@property(readonly, copy) NSUUID *uuid;
 @end
 

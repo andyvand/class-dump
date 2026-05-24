@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallInvitationSent
 {
     unsigned long long _timestamp;
-    int _errorCode;
-    NSString *_guid;
-    unsigned int _isVideo;
-    unsigned int _onLockScreen;
-    unsigned int _sendDuration;
-    CDStruct_35259bad _has;
 }
 
 - (void);
@@ -25,12 +17,12 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)\S;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -38,13 +30,13 @@
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)SendFailureCount"b1"resultServerUnreachableCount"b1"resultSuccessCount"b1"resultUnknownErrorCount"b1"timestamp"b1"interfaceType"b1"protocolType"b1"requestType"b1};
 - (void)aStall;
@@ -53,18 +45,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasErrorCode;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasSendDuration;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned int sendDuration; // @synthesize sendDuration=_sendDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

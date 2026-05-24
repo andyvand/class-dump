@@ -5,5 +5,6 @@
 //
 
 @protocol MSPSenderETAControllerDelegate
+- (void);
 @end
 

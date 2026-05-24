@@ -6,9 +6,6 @@
 
 #import <CoreSuggestionsInternals/SGModel.h>
 
-@class NSString;
-@protocol PMLMultiLabelClassifierProtocol><PMLPlistAndChunksSerializableProtocol;
-
 @interface SGBinaryClassificationModel : SGModel
 {
     double _threshold;
@@ -24,14 +21,6 @@
 - (double)ProactiveSummarization.framework/ProactiveSummarization;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <PMLMultiLabelClassifierProtocol><PMLPlistAndChunksSerializableProtocol> model; // @dynamic model;
-@property(readonly) Class superclass;
 @property(readonly) double threshold; // @synthesize threshold=_threshold;
 
 @end

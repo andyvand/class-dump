@@ -6,25 +6,11 @@
 
 #import <RemoteConfiguration/RCOperation.h>
 
-@class NSArray, NSObject, NSString, NSURL, RCConfigurationResource, RCDebugOverrides;
-@protocol OS_dispatch_queue;
+@class RCConfigurationResource;
 
 @interface RCFallbackOperation : RCOperation
 {
     _Bool _enableExtraLogs;
-    NSString *_requestKey;
-    NSURL *_fallbackURL;
-    RCConfigurationResource *_cachedConfigurationResource;
-    unsigned long long _environment;
-    CDUnknownBlockType _configurationCompletionHandler;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    double _fallbackTimeoutDuration;
-    NSString *_userID;
-    NSString *_storefrontID;
-    NSArray *_preferredLanguages;
-    RCDebugOverrides *_debugOverrides;
-    CDUnknownBlockType _networkEventHandler;
-    RCConfigurationResource *_configurationResource;
 }
 
 - (void);
@@ -40,18 +26,18 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
+- (void)@;
 - (void);
-- (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (id);
@@ -63,20 +49,7 @@
 - (_Bool)erationID;
 
 // Remaining properties
-@property(retain, nonatomic) RCConfigurationResource *cachedConfigurationResource; // @synthesize cachedConfigurationResource=_cachedConfigurationResource;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(copy, nonatomic) CDUnknownBlockType configurationCompletionHandler; // @synthesize configurationCompletionHandler=_configurationCompletionHandler;
 @property(retain, nonatomic) RCConfigurationResource *configurationResource; // @synthesize configurationResource=_configurationResource;
-@property(retain, nonatomic) RCDebugOverrides *debugOverrides; // @synthesize debugOverrides=_debugOverrides;
-@property(nonatomic) _Bool enableExtraLogs; // @synthesize enableExtraLogs=_enableExtraLogs;
-@property(nonatomic) unsigned long long environment; // @synthesize environment=_environment;
-@property(nonatomic) double fallbackTimeoutDuration; // @synthesize fallbackTimeoutDuration=_fallbackTimeoutDuration;
-@property(retain, nonatomic) NSURL *fallbackURL; // @synthesize fallbackURL=_fallbackURL;
-@property(copy, nonatomic) CDUnknownBlockType networkEventHandler; // @synthesize networkEventHandler=_networkEventHandler;
-@property(retain, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(retain, nonatomic) NSString *requestKey; // @synthesize requestKey=_requestKey;
-@property(retain, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
-@property(retain, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface C2MPInternalTestConfig
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -32,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

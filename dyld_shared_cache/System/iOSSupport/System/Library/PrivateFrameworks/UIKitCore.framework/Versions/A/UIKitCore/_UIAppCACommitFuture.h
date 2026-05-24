@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIAppCACommitFuture
 {
     CDUnknownBlockType _block;
-    _Bool _invalidated;
-    _Bool _finished;
 }
 
 + (id);

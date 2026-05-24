@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRLyricsTokenProtobuf;
-
 @interface _MRLyricsEventProtobuf
 {
     double _endTime;
-    double _startTime;
-    _MRLyricsTokenProtobuf *_token;
-    struct {
-        unsigned int endTime:1;
-        unsigned int startTime:1;
-    } _has;
 }
 
 - (void);
@@ -25,28 +17,23 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ngeHistoryUpdateContactEvent"16;
 - (_Bool);
 - (void);
 - (id);
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)ient#interstitialFinal;
 - (_Bool);
-- (void)onService;
+- (void)_nowPlayingSessionService;
 - (_Bool)equivalentMediaIdentifier;
 - (void)4`
 XaDbÀc;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(nonatomic) _Bool hasEndTime;
 @property(nonatomic) _Bool hasStartTime;
-@property(readonly, nonatomic) _Bool hasToken;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) _MRLyricsTokenProtobuf *token; // @synthesize token=_token;
 
 @end
 

@@ -7,6 +7,6 @@
 @class NSString;
 
 @protocol BSDescriptionStringAppendTarget
-- (void)tWithMessage:(NSString *)arg1;
+- (void)initWithMessage:(NSString *)arg1;
 @end
 

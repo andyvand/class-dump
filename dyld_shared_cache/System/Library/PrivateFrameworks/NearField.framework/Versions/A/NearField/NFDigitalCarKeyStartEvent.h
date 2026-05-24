@@ -9,9 +9,6 @@
 @interface NFDigitalCarKeyStartEvent
 {
     NSString *_appletIdentifier;
-    NFApplet *_applet;
-    NSString *_keyIdentifier;
-    NSString *_spIdentifier;
 }
 
 + (_Bool);
@@ -28,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NFApplet *applet; // @synthesize applet=_applet;
-@property(readonly, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, nonatomic) NSString *spIdentifier; // @synthesize spIdentifier=_spIdentifier;
 
 @end
 

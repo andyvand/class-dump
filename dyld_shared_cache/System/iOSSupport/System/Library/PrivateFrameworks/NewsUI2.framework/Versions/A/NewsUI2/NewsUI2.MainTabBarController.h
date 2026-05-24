@@ -9,11 +9,6 @@
 @interface NewsUI2.MainTabBarController : NewsUI2.FloatingTabBarController
 {
     id eventHandler;
-    id isTransitioning;
-    id tracker;
-    id tipManager;
-    id followingEngagementView;
-    id followingEngagementViewManager;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void)dlineConverter;
+- (void)AudioHeadlineConverter;
 
 @end
 

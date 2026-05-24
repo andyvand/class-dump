@@ -6,36 +6,12 @@
 
 #import <TelephonyUtilities/TUConversationParticipant.h>
 
-@class NSString, TUConversationParticipantAssociation, TUConversationParticipantCapabilities, TUConversationParticipantCluster, TUHandle;
-
 @interface TUMutableConversationParticipant : TUConversationParticipant
 {
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activeIDSDestination; // @dynamic activeIDSDestination;
-@property(copy, nonatomic) TUConversationParticipantAssociation *association; // @dynamic association;
-@property(nonatomic, getter=isAudioEnabled) _Bool audioEnabled; // @dynamic audioEnabled;
-@property(nonatomic) long long audioPriority; // @dynamic audioPriority;
-@property(nonatomic) unsigned long long audioVideoMode; // @dynamic audioVideoMode;
-@property(copy, nonatomic) NSString *avcIdentifier; // @dynamic avcIdentifier;
-@property(nonatomic, getter=isCameraMixedWithScreen) _Bool cameraMixedWithScreen; // @dynamic cameraMixedWithScreen;
-@property(copy, nonatomic) TUConversationParticipantCapabilities *capabilities; // @dynamic capabilities;
-@property(nonatomic) long long captionsToken; // @dynamic captionsToken;
-@property(copy, nonatomic) TUConversationParticipantCluster *cluster; // @dynamic cluster;
-@property(nonatomic, getter=isGuestModeEnabled) _Bool guestModeEnabled; // @dynamic guestModeEnabled;
-@property(copy, nonatomic) TUHandle *handle; // @dynamic handle;
 @property(nonatomic) unsigned long long identifier; // @dynamic identifier;
-@property(nonatomic) _Bool isNearbySharePlay; // @dynamic isNearbySharePlay;
-@property(nonatomic, getter=isLightweight) _Bool lightweight;
-@property(nonatomic, getter=isMuted) _Bool muted; // @dynamic muted;
-@property(nonatomic) unsigned long long presentationMode; // @dynamic presentationMode;
-@property(nonatomic, getter=isScreenEnabled) _Bool screenEnabled; // @dynamic screenEnabled;
-@property(nonatomic) long long screenToken; // @dynamic screenToken;
-@property(nonatomic, getter=isSpatialPersonaEnabled) _Bool spatialPersonaEnabled; // @dynamic spatialPersonaEnabled;
-@property(nonatomic) long long streamToken; // @dynamic streamToken;
-@property(nonatomic, getter=isVideoEnabled) _Bool videoEnabled; // @dynamic videoEnabled;
-@property(nonatomic) long long videoPriority; // @dynamic videoPriority;
 @end
 

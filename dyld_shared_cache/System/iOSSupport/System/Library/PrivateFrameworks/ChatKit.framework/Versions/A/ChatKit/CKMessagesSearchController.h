@@ -6,23 +6,22 @@
 
 #import <ChatKit/CKMessageTypeSearchController.h>
 
-@class NSString;
-
 @interface CKMessagesSearchController : CKMessageTypeSearchController
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)ssibilityAppearanceDidChange;
++ (_Bool)idUpdateSystemPaperNotesWithCoalescingAndDelay;
 + (id);
 + (Class);
 + (id);
-+ (id);
-- (double);
++ (id)T	@9
+@yIA	*;
+- (double)removeSearchResultsWithIdentifiers:forHiding: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (_Bool);
+- (id)atibility alert for device password mode;
+- (struct NSDirectionalEdgeInsets)ICMGlobalZoomDidNotifyNotification;
+- (_Bool)waveform;
 - (id);
 - (_Bool);
 - (double);
@@ -30,13 +29,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol AMSUIEngagementTaskRemoteInterface
+- (void)etType;
+- (void)%ld;
 @end
 

@@ -6,21 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SADSchemaSADAvailableAssetDailyStatus : SISchemaInstrumentationMessage
 {
     NSArray *_namespaceStatus;
-    NSArray *_assetSetStatus;
-    int _statusReason;
-    CDStruct_b48ac316 _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,29 +27,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)^;
 - (id);
 - (_Bool);
 - (int);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)$;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)CKBBContextKeyIsFailedMessage;
 - (id);
 - (id);
-- (id)arDayOfWeek;
+- (id)calendarDayOfWeek;
 - (id)ProtectionClass;
-- (void)donCountForEntityInUsingApp1Hr;
+- (void)taskAbandonCountForEntityInUsingApp1Hr;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *assetSetStatus; // @synthesize assetSetStatus=_assetSetStatus;
-@property(nonatomic) _Bool hasStatusReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *namespaceStatus; // @synthesize namespaceStatus=_namespaceStatus;
-@property(nonatomic) int statusReason; // @synthesize statusReason=_statusReason;
 
 @end
 

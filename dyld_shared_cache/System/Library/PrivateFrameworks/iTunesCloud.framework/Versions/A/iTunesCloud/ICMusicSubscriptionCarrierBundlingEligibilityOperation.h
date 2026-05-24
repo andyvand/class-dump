@@ -12,13 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ICMusicSubscriptionCarrierBundlingEligibilityOperation : ICAsyncOperation
 {
     NSString *_cellularProviderName;
-    NSString *_mobileSubscriberCountryCode;
-    NSString *_mobileSubscriberNetworkCode;
-    NSString *_phoneNumber;
-    NSString *_IMEI;
-    _Bool _deepLink;
-    ICStoreRequestContext *_requestContext;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (_Bool);
@@ -33,13 +26,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)ity;
+- (void)_ICLLAvailability;
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isDeepLink) _Bool deepLink; // @synthesize deepLink=_deepLink;
 @property(readonly, copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

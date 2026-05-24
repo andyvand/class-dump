@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSURL, SafariWebBookmarkList;
+@class NSURL, SafariWebBookmarkList;
 
 __attribute__((visibility("hidden")))
 @interface RecursiveBookmarkDuplicateHousekeeper
 {
     SafariWebBookmarkList *_rootBookmark;
-    _Bool _keepsBookmarksWithSyncData;
-    NSURL *_davHomeURL;
-    NSSet *_addedBookmarks;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Aa `	;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *addedBookmarks; // @synthesize addedBookmarks=_addedBookmarks;
 @property(retain, nonatomic, setter=setDAVHomeURL:) NSURL *davHomeURL; // @synthesize davHomeURL=_davHomeURL;
-@property(nonatomic) _Bool keepsBookmarksWithSyncData; // @synthesize keepsBookmarksWithSyncData=_keepsBookmarksWithSyncData;
 
 @end
 

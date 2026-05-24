@@ -20,10 +20,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)qa;
++ (id)p;
 - (id);
-- (id);
+- (id)o;
 - (void);
 - (_Bool);
 - (id);
@@ -32,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

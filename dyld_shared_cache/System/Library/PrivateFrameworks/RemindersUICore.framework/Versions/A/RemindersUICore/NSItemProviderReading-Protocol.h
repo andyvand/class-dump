@@ -5,5 +5,6 @@
 //
 
 @protocol NSItemProviderReading
++ (id)downloader;
 @end
 

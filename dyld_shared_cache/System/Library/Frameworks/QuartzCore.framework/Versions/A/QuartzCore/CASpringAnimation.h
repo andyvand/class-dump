@@ -12,14 +12,6 @@
 
 
 // Remaining properties
-@property _Bool allowsOverdamping;
-@property(readonly) double bounce;
-@property double damping;
-@property double initialVelocity;
-@property double mass;
-@property(readonly) double perceptualDuration;
-@property(readonly) double settlingDuration;
-@property double stiffness;
 @property double velocity;
 @end
 

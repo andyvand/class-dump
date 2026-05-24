@@ -12,7 +12,67 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)s (
+    applicationID             text,
+    containerID               text,
+    personaID                 text,
+    accountID                 text,
+    apsToken                  blob,
+    apsEnvironment            text,
+    expirationDate            real,
+    unique (applicationID, containerID, personaID, accountID) on conflict replace
+);
+create table if not exists AppBundle (
+    applicationID               text,
+    adopterProcessType          integer,
+    applicationContainerPath    text,
+    clientSDKVersion            integer,
+    containingBundleID          text,
+    entitlements                text,
+    isMainBundleAppleExecutable integer,
+    unique (applicationID) on conflict replace
+);
+create table if not exists ContainerServerInfo (
+    containerID                 text,
+    publicCloudDBURL            text,
+    publicShareServiceURL       text,
+    publicDeviceServiceURL      text,
+    publicCodeServiceURL        text,
+    publicMetricsServiceURL     text,
+    scopedUserID                text,
+    orgAdminUserID              text,
+    environment                 text,
+    accountID                   text,
+    unique (containerID, accountID) on conflict replace
+);
+ create table if not exists AppContainerAccount (
+    applicationID               text,
+    containerID                 text,
+    personaID                   text,
+    accountID                   text,
+    containerOptions            text,
+    tokenRegistered             integer,
+    unique (applicationID, containerID, personaID, accountID) on conflict replace
+);
+create table if not exists ServerConfiguration (
+     valuesData            blob,
+     expiry                real
+);
+create table if not exists VerifiedPublicKey (
+     keyType          text,
+     keyID            text,
+     publicKey        blob,
+     keyVersion       integer,
+     keyExpiration    integer,
+     keyCert          blob,
+     protectionSource text,
+     unique (keyType, keyID) on conflict replace
+);
+create table if not exists DSIDMap (
+     accountID        text primary key,
+     DSID             text
+);
+;
 + (id);
 
 @end

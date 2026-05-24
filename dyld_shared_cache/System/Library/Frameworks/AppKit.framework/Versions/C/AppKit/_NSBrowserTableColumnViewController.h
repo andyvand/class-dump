@@ -6,47 +6,46 @@
 
 #import <AppKit/NSBrowserColumnViewController.h>
 
-@class NSIndexSet, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _NSBrowserTableColumnViewController : NSBrowserColumnViewController
 {
     NSMutableArray *_selectedItems;
-    NSIndexSet *_selectedIndexes;
 }
 
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)__const;
+- (void)hR`SxS;
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)#;
+- (id)X;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)y;
 - (long long);
 - (id);
 - (double);
+- (_Bool)ataAccessor.framework/MSUDataAccessor;
+- (void)manifest property '%@' did not exist in the sealing manifest;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)>uniqueID, found corresponding Data Instance.;
+- (void)DeviceSupportsP3ColorspaceVideoRecording;
+- (void)nzama4/PzHQ;
+- (void)ogD3p+HYgaW0Q;
+- (id)s+pw5tRyxqSy5kfgZNuQ;
+- (id)Zmd7xYUw9EutGXifzpvfsA;
 - (void);
 - (long long);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (long long);
+- (long long);
 - (struct CGRect);
 - (long long);
 - (void);
@@ -56,20 +55,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)ong;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)URLSession:(id)arg1 avAssetDownloadTask:didReceiveAVAssetDownloadToken: /* Error: Ran out of types for this method. */;
+- (id),C,N,V_olderThanCreationDate;
+- (void)ot invoked;
+- (_Bool)gregateAssetDownloadTask in a session that has been invalidated;
+- (void)hat has been invalidated;
+- (void)2eB;
 - (void);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (void)fItsWindow;
+- (void)isSubviewFirstResponderOfItsWindow;
 - (void),%ld);
 - (void)or tabViewItem with identifier %@;
 - (unsigned long long)"8;
@@ -78,13 +77,7 @@
 - (void)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

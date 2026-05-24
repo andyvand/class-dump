@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface HLPDataCache
 {
     unsigned long long _cacheType;
     long long _maxAge;
-    unsigned long long _fileSize;
-    NSString *_identifier;
-    NSString *_lastModified;
-    NSString *_languageCode;
-    NSDate *_updatedDate;
 }
 
 + (_Bool);
@@ -28,7 +21,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@0:(id)arg1 8@"NSDictionary"16;
 - (id);
 - (void);
 - (id);
@@ -36,18 +29,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)nCount: /* Error: Ran out of types for this method. */;
+- (void)systemImageNamed:(long long)arg1;
+- (unsigned long long)setMaxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cacheType; // @synthesize cacheType=_cacheType;
 @property(readonly, nonatomic) _Bool expired; // @dynamic expired;
-@property(nonatomic) unsigned long long fileSize; // @synthesize fileSize=_fileSize;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(retain, nonatomic) NSString *lastModified; // @synthesize lastModified=_lastModified;
-@property(nonatomic) long long maxAge; // @synthesize maxAge=_maxAge;
-@property(retain, nonatomic) NSDate *updatedDate; // @synthesize updatedDate=_updatedDate;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocationShifter, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface GEOCoarseLocationProvider
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _inFlightTileLoadsCount;
-    GEOLocationShifter *_locationShifter;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)lWithConfig:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)X;
 - (void);
 - (void)1b1b1}},R,N;
-- (_Bool);
+- (_Bool)initEntityFilterWithSpokenNames;
 - (void);
 - (void)q;
 

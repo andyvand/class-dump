@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (void);
++ (void)N;
 + (void);
 + (void);
 + (void);
@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
++ (id)e;
 + (unsigned long long);
 + (unsigned long long);
 + (id);
@@ -36,10 +36,10 @@
 + (int);
 + (unsigned long long);
 + (unsigned long long);
-+ (void);
++ (void);
 + (int);
 + (id);
-+ (void);
++ (void)task manager has been shut down.;
 
 @end
 

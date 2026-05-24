@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SCKZoneSchema;
+@class SCKZoneSchema;
 
 @interface SCKZoneSnapshot
 {
     SCKZoneSchema *_zoneSchema;
-    NSArray *_records;
 }
 
 - (id);
@@ -21,14 +20,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)SCRCComposedCharacterStringExtras;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allRecords;
-@property(copy, nonatomic) NSArray *records; // @synthesize records=_records;
 @property(retain, nonatomic) SCKZoneSchema *zoneSchema; // @synthesize zoneSchema=_zoneSchema;
 
 @end

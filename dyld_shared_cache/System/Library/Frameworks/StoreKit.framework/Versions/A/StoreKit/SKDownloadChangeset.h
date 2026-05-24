@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSURL;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface SKDownloadChangeset
 {
     NSNumber *_contentLength;
-    NSURL *_contentURL;
-    NSNumber *_downloadID;
-    NSNumber *_downloadState;
-    NSError *_error;
-    NSNumber *_progress;
-    NSNumber *_timeRemaining;
 }
 
 + (id);
@@ -31,19 +25,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)#;
+- (id)ain expected value for key:%s userInfo:%s /* Error: Ran out of types for this method. */;
+- (void)A;
 - (void)ct metadata;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *contentLength; // @synthesize contentLength=_contentLength;
-@property(copy, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(copy, nonatomic) NSNumber *downloadID; // @synthesize downloadID=_downloadID;
-@property(copy, nonatomic) NSNumber *downloadState; // @synthesize downloadState=_downloadState;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSNumber *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) NSNumber *timeRemaining; // @synthesize timeRemaining=_timeRemaining;
 
 @end
 

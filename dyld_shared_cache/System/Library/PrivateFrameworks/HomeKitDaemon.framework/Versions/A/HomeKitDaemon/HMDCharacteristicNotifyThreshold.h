@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDCharacteristicNotifyThreshold
 {
     NSNumber *_threshold;
-    NSNumber *_lastNotifiedValue;
 }
 
-- (void);
+- (void)n dispatch group missing when checkin completed;
 - (id);
 - (void);
 - (void)point:heatingSetpoint:) /* Error: Ran out of types for this method. */;
 - (id)HxA;
 
 // Remaining properties
-@property(retain) NSNumber *lastNotifiedValue; // @synthesize lastNotifiedValue=_lastNotifiedValue;
 @property(retain) NSNumber *threshold; // @synthesize threshold=_threshold;
 
 @end

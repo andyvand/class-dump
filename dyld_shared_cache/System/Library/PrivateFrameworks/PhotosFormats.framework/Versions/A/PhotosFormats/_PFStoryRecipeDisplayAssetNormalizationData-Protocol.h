@@ -7,13 +7,11 @@
 @class NSDictionary;
 
 @protocol _PFStoryRecipeDisplayAssetNormalizationData
+- (NSDictionary *);
+- (NSDictionary *);
+- (double)(;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *highKeyProperties;
-@property(readonly, nonatomic) double score;
-@property(readonly, nonatomic) NSDictionary *smartColorProperties;
-@property(readonly, nonatomic) NSDictionary *smartToneProperties;
-@property(readonly, nonatomic) NSDictionary *tempTintProperties;
 @property(readonly, nonatomic) long long version;
 @end
 

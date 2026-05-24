@@ -6,17 +6,9 @@
 
 #import <Slideshows/MPAnimationKeyframe.h>
 
-@class NSDictionary, NSString;
-
 @interface MPAnimationKeyframeFunction : MPAnimationKeyframe
 {
     double _duration;
-    NSString *_function;
-    NSDictionary *_functionParameters;
-    double _functionTimeOffset;
-    double _functionTimeFactor;
-    double _innerEaseInControl;
-    double _innerEaseOutControl;
 }
 
 + (id);
@@ -25,34 +17,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)DynamicEndpoint;
 - (void);
 - (double);
 - (double);
-- (id);
+- (id)5;
 - (double);
 - (double);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (double);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSString *function; // @synthesize function=_function;
-@property(copy, nonatomic) NSDictionary *functionParameters; // @synthesize functionParameters=_functionParameters;
-@property(nonatomic) double functionTimeFactor; // @synthesize functionTimeFactor=_functionTimeFactor;
-@property(nonatomic) double functionTimeOffset; // @synthesize functionTimeOffset=_functionTimeOffset;
-@property(nonatomic) double innerEaseInControl; // @synthesize innerEaseInControl=_innerEaseInControl;
-@property(nonatomic) double innerEaseOutControl; // @synthesize innerEaseOutControl=_innerEaseOutControl;
 
 @end
 

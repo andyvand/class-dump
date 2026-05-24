@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent;
-
 @protocol CUIKAttachmentDownloadControllerDelegate
-- (void);
-- (void)£Qøäªåª;
-- (void)1ôò1?×h¸ð;
-- (void)òq
-?×;
-- (EKEvent *);
-- (void)Òáª­©ù;
-- (void)ªáª";
 @end
 

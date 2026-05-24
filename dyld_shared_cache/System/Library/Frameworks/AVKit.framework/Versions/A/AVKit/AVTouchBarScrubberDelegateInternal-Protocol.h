@@ -5,5 +5,8 @@
 //
 
 @protocol AVTouchBarScrubberDelegateInternal
+
+@optional
+- (_Bool);
 @end
 

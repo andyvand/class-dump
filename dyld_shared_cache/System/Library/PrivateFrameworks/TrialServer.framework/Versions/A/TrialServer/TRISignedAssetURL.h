@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface TRISignedAssetURL
 {
     NSURL *_url;
-    NSString *_signature;
 }
 
++ (id)computeLayoutsWithHelper:(id)arg1;
++ (id)newVisibleRect:(id)arg1;
 + (id);
-+ (id);
-+ (id);
-- (_Bool);
+- (_Bool)setAutoEditDecisionLists:(id)arg1;
+- (id)setAssetReaderOutput:(id)arg1;
+- (id)plistForEncoding;
+- (id)platformInformation;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -30,7 +29,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *signature; // @synthesize signature=_signature;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

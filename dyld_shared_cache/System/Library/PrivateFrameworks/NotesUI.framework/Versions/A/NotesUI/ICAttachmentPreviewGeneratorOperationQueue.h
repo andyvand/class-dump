@@ -13,7 +13,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)_serviceReachabilityEvaluator;
 
 // Remaining properties
 @property(nonatomic) unsigned long long suspendCount; // @synthesize suspendCount=_suspendCount;

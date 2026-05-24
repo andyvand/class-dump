@@ -9,14 +9,13 @@
 @interface _MTLObjectWithLabel
 {
     NSString *_label;
-    struct os_unfair_lock_s _labelLock;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)unt:(id)arg1;
+- (void)supportsVertexAmplificationCount:(id)arg1;
 
 // Remaining properties
 @property(copy) NSString *label; // @dynamic label;

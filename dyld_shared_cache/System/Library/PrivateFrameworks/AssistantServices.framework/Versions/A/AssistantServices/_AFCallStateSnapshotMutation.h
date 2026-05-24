@@ -4,40 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCallStateSnapshot, NSString;
+@class AFCallStateSnapshot;
 
 @interface _AFCallStateSnapshotMutation
 {
     AFCallStateSnapshot *_base;
-    unsigned long long _callState;
-    _Bool _onSpeaker;
-    _Bool _isDropInCall;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasCallState:1;
-        unsigned int hasOnSpeaker:1;
-        unsigned int hasIsDropInCall:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)롖;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)ClientStateMetadata;
+- (void);
+- (id)siriClientStateMetadata;
 - (void)_intentForwardingActionHandler;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

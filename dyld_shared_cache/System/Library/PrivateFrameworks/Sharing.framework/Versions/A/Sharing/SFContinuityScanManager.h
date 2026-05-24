@@ -6,14 +6,12 @@
 
 #import <Sharing/SFXPCClient.h>
 
-@class NSHashTable, NSMutableSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface SFContinuityScanManager : SFXPCClient
 {
     NSMutableSet *_foundDevices;
-    NSHashTable *_observers;
-    unsigned long long _scanTypes;
 }
 
 + (id);
@@ -26,33 +24,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)32@0:(CDUnknownBlockType)arg1 8@16d24;
+- (id)containerSyncId;
 - (void)0@ù
 × ;
 - (void)NÇÿÿ²äþÿ;
 - (id)entURL:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSMutableSet *foundDevices; // @synthesize foundDevices=_foundDevices;
-@property(readonly) unsigned long long hash;
-@property(retain) NSHashTable *observers; // @synthesize observers=_observers;
-@property unsigned long long scanTypes; // @synthesize scanTypes=_scanTypes;
-@property(readonly) Class superclass;
 
 @end
 

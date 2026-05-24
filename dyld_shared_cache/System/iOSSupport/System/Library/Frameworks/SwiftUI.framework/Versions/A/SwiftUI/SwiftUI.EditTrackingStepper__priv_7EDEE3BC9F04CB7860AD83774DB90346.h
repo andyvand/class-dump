@@ -13,7 +13,7 @@
 + (Class);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)&Ð´,	;

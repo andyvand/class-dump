@@ -5,5 +5,7 @@
 //
 
 @protocol KCSharingXPCServerProtocol
+- (void);
+- (void)A;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSPrintGraphicsContextAdvancing
+- (void);
 @end
 

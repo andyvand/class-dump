@@ -7,7 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesPetProcessorEntity
 {
     id petNode;
-    id localIdentifier;
 }
 
 @end

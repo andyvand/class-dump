@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColorPanel, NSString, NSTextField, NSTimer;
+@class NSColorPanel;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPanelTextController
 {
     NSColorPanel *_colorPanel;
-    NSTextField *_textControl;
-    NSTimer *_textTimer;
-    NSString *_lastEditedStringValue;
-    id _delegate;
-    _Bool _acceptLastEnteredText;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_cachedPeerCerts;
+- (void)PK;
+- (void)e %p;
+- (_Bool)X-mobile me auth to request;
+- (_Bool)quest from an HTTP message.;
+- (_Bool)D;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (_Bool)_F;
 - (void)Íÿù3ÚG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

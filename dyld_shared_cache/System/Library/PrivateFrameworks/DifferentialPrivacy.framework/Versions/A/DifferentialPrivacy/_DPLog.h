@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)%ld web page save entries to metadata file;
 + (id);
 + (id);
 + (id);

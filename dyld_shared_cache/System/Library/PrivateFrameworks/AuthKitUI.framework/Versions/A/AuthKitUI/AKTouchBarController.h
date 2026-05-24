@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGroupTouchBarItem, NSMutableDictionary, NSMutableOrderedSet, NSString, NSTouchBar;
+@class NSTouchBar;
 
 @interface AKTouchBarController
 {
     NSTouchBar *_akTouchBar;
-    NSGroupTouchBarItem *_buttonGroup;
-    NSMutableDictionary *_buttonDictionary;
-    NSMutableOrderedSet *_buttonIdentifiers;
 }
 
+- (void)a$;
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)A;
 - (id)henticationInAppContextAlertDelegate>",W,N,V_alertDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) NSTouchBar *akTouchBar; // @synthesize akTouchBar=_akTouchBar;
-@property(retain, nonatomic) NSMutableDictionary *buttonDictionary; // @synthesize buttonDictionary=_buttonDictionary;
-@property(retain, nonatomic) NSGroupTouchBarItem *buttonGroup; // @synthesize buttonGroup=_buttonGroup;
-@property(retain, nonatomic) NSMutableOrderedSet *buttonIdentifiers; // @synthesize buttonIdentifiers=_buttonIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 
 @end
 

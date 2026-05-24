@@ -7,9 +7,6 @@
 @interface NewsUI2.ChannelIssuesBlueprintViewCellProvider
 {
     id feedItemRenderer;
-    id offlineIssueManager;
-    id commandCenter;
-    id tracker;
 }
 
 @end

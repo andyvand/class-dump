@@ -7,7 +7,6 @@
 @interface WBSMRTabOrderPreferenceProvider
 {
     id defaultProvider;
-    id shouldInsertAfterCurrentTab;
 }
 
 - (_Bool);
@@ -19,11 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) double minimumDelayForRelatingNewBlankTab;
-@property(nonatomic, readonly) _Bool newBlankTabPositionAppliesToAllBlankTabs;
 @property(nonatomic, readonly) unsigned long long newTabPosition;
-@property(nonatomic, readonly) _Bool newTabPositionAppliesToSpawnedTabs;
-@property(nonatomic, readonly) _Bool suppressRelatingNewBlankTabs;
 
 @end
 

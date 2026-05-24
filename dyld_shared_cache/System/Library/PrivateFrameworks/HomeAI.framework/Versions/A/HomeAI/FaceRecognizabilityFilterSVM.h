@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (id);
-+ (void);
++ (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)J;
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

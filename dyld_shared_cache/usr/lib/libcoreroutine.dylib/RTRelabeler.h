@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID, RTDistanceCalculator, RTInferredMapItemDeduper, RTRelabelerParameters;
+@class RTDistanceCalculator;
 
 @interface RTRelabeler
 {
     _Bool _loggingEnabled;
-    RTDistanceCalculator *_distanceCalculator;
-    RTInferredMapItemDeduper *_deduper;
-    RTRelabelerParameters *_parameters;
-    NSUUID *_placeholderUUID;
-    NSArray *_hallucinatedUUIDs;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)I;
 - (id);
 - (id);
 - (id);
@@ -27,20 +22,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)work/Versions/A/MediaAnalysis;
+- (id)__objc_protolist__DATA_CONST;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)2@0:(id)arg1 8^{_PCSIdentitySetData=}16@24;
+- (id)8i16;
+- (id)CSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
+- (id)triggerUserRegistryCheck:(id)arg1 withReply:(id *)arg2;
+- (id)telemetryDeviceSessionIDForAccount:(id)arg1;
+- (double)stripOperationErrorIfPCSError: /* Error: Ran out of types for this method. */;
+- (id)setICDPHSMArmed:(id)arg1;
+- (id)not a string;
 - (void);
 - (id);
 - (id);
@@ -52,12 +47,7 @@
 - (void)EnvironmentAtRisk, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTInferredMapItemDeduper *deduper; // @synthesize deduper=_deduper;
 @property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) NSArray *hallucinatedUUIDs; // @synthesize hallucinatedUUIDs=_hallucinatedUUIDs;
-@property(nonatomic) _Bool loggingEnabled; // @synthesize loggingEnabled=_loggingEnabled;
-@property(readonly, nonatomic) RTRelabelerParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSUUID *placeholderUUID; // @synthesize placeholderUUID=_placeholderUUID;
 
 @end
 

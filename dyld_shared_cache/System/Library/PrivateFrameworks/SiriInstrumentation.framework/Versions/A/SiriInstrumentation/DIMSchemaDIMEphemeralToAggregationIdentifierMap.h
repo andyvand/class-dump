@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DIMSchemaDIMEphemeralToAggregationIdentifierMap : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_userEphemeralId;
-    SISchemaUUID *_userAggregationId;
-    unsigned long long _userAggregationIdRotationTimestampMs;
-    unsigned long long _userAggregationIdExpirationTimestampMs;
-    SISchemaUUID *_deviceAggregationId;
-    SISchemaUUID *_userSamplingId;
-    unsigned long long _userSamplingIdRotationTimestampMs;
-    unsigned long long _userSamplingIdExpirationTimestampMs;
-    struct {
-        unsigned int userAggregationIdRotationTimestampMs:1;
-        unsigned int userAggregationIdExpirationTimestampMs:1;
-        unsigned int userSamplingIdRotationTimestampMs:1;
-        unsigned int userSamplingIdExpirationTimestampMs:1;
-    } _has;
-    _Bool _hasUserEphemeralId;
-    _Bool _hasUserAggregationId;
-    _Bool _hasDeviceAggregationId;
-    _Bool _hasUserSamplingId;
 }
 
 - (unsigned long long);
@@ -78,28 +61,12 @@
 - (_Bool);
 - (id);
 - (id)ount2Min"b1"appUsageCount10Min"b1"appUsageCount1Hr"b1"appUsageCount6Hrs"b1"appUsageCount1Day"b1"appUsageCount7Days"b1"appUsageCount14Days"b1"appUsageCount28Days"b1"appUsageCountInf"b1"recencyOrderOfAppUsed"b1"timeSinceAppUsedInSec"b1"appUsageCountFromSiri2Min"b1"appUsageCountFromSiri10Min"b1"appUsageCountFromSiri1Hr"b1"appUsageCountFromSiri6Hrs"b1"appUsageCountFromSiri1Day"b1"appUsageCountFromSiri7Days"b1"appUsageCountFromSiri14Days"b1"appUsageCountFromSiri28Days"b1"appUsageCountFromSiriInf"b1"recencyOrderOfAppUsageFromSiri"b1"timeSinceAppUsedFromSiriInSec"b1"taskAbandonCountInUsingApp2Min"b1"taskAbandonCountInUsingApp10Min"b1"taskAbandonCountInUsingApp1Hr"b1"taskAbandonCountInUsingApp6Hrs"b1"taskAbandonCountInUsingApp1Day"b1"taskAbandonCountInUsingApp7Days"b1"taskAbandonCountInUsingApp14Days"b1"taskAbandonCountInUsingApp28Days"b1"taskAbandonCountInUsingAppInf"b1};
-- (id)erHandleContext;
+- (id)NLRouterSchemaNLRouterHandleContext;
 - (id)Ô46;
 - (void)#Ñ%;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *deviceAggregationId; // @synthesize deviceAggregationId=_deviceAggregationId;
-@property(nonatomic) _Bool hasDeviceAggregationId; // @synthesize hasDeviceAggregationId=_hasDeviceAggregationId;
-@property(nonatomic) _Bool hasUserAggregationId; // @synthesize hasUserAggregationId=_hasUserAggregationId;
-@property(nonatomic) _Bool hasUserAggregationIdExpirationTimestampMs;
-@property(nonatomic) _Bool hasUserAggregationIdRotationTimestampMs;
-@property(nonatomic) _Bool hasUserEphemeralId; // @synthesize hasUserEphemeralId=_hasUserEphemeralId;
-@property(nonatomic) _Bool hasUserSamplingId; // @synthesize hasUserSamplingId=_hasUserSamplingId;
-@property(nonatomic) _Bool hasUserSamplingIdExpirationTimestampMs;
-@property(nonatomic) _Bool hasUserSamplingIdRotationTimestampMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *userAggregationId; // @synthesize userAggregationId=_userAggregationId;
-@property(nonatomic) unsigned long long userAggregationIdExpirationTimestampMs; // @synthesize userAggregationIdExpirationTimestampMs=_userAggregationIdExpirationTimestampMs;
-@property(nonatomic) unsigned long long userAggregationIdRotationTimestampMs; // @synthesize userAggregationIdRotationTimestampMs=_userAggregationIdRotationTimestampMs;
 @property(retain, nonatomic) SISchemaUUID *userEphemeralId; // @synthesize userEphemeralId=_userEphemeralId;
-@property(retain, nonatomic) SISchemaUUID *userSamplingId; // @synthesize userSamplingId=_userSamplingId;
-@property(nonatomic) unsigned long long userSamplingIdExpirationTimestampMs; // @synthesize userSamplingIdExpirationTimestampMs=_userSamplingIdExpirationTimestampMs;
-@property(nonatomic) unsigned long long userSamplingIdRotationTimestampMs; // @synthesize userSamplingIdRotationTimestampMs=_userSamplingIdRotationTimestampMs;
 
 @end
 

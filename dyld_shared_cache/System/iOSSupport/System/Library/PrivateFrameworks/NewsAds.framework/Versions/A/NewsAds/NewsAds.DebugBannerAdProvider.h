@@ -7,9 +7,6 @@
 @interface NewsAds.DebugBannerAdProvider
 {
     id isEnabled;
-    id _successRate;
-    id _loadingDelay;
-    id _collapseBehavior;
 }
 
 @end

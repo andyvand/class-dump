@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, ABRecordContext, NSString;
+@class ABRecordContext;
 
 @interface ABGroupDragSource
 {
     ABRecordContext *_recordContext;
-    ABGroup *_group;
-    NSString *_entryIdentifier;
-    NSString *_name;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)setCachePolicy: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSString *entryIdentifier; // @synthesize entryIdentifier=_entryIdentifier;
-@property(readonly) ABGroup *group; // @synthesize group=_group;
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) ABRecordContext *recordContext; // @synthesize recordContext=_recordContext;
 
 @end

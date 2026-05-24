@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RWITarget;
-@protocol RWIServiceConnectionDelegate;
+@class RWITarget;
 
 __attribute__((visibility("hidden")))
 @interface RWIServiceConnection
 {
     RWITarget *_target;
-    id <RWIServiceConnectionDelegate> _delegate;
-    _Bool _closed;
-    NSString *_connectionIdentifier;
 }
 
 - (id);
@@ -24,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)(;
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -34,8 +30,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(nonatomic) __weak id <RWIServiceConnectionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) RWITarget *target; // @synthesize target=_target;
 
 @end

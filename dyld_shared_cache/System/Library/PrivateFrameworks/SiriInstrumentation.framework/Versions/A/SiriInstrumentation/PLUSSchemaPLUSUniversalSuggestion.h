@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSUniversalSuggestion : SISchemaInstrumentationMessage
 {
     double _confidence;
-    CDStruct_81d693a7 _has;
 }
 
 - (void);
@@ -20,19 +17,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)pending highlight metadata for Message:(id)arg1 %@;
 - (id);
 - (id);
 - (double)DisputedResponse"b1"isWebExtractedFact"b1};
-- (void)CollectionTime;
-- (id)rossDevice;
+- (void)hasQueryDecorationInputCollectionTime;
+- (id)_isCrossDevice;
 - (id)SubComponentHandleEndedData;
 
 // Remaining properties
 @property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool hasConfidence;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

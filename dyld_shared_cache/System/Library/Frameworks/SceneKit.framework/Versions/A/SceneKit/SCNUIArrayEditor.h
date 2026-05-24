@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArrayController, NSButton, NSObject, NSString, NSTableView;
+@class NSArrayController, NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface SCNUIArrayEditor
 {
     NSArrayController *_arrayController;
-    NSObject *observer;
-    NSString *arrayOwnerPath;
-    NSString *observedKeyPath;
-    NSString *propertyName;
-    _Bool _targetsProxy;
-    NSTableView *table;
-    NSButton *add;
-    NSButton *remove;
-    id representedObject;
-    id delegate;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
@@ -640,10 +630,6 @@ __attribute__((visibility("hidden")))
 - (void)_øCÎÿ?;
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *add; // @synthesize add;
-@property(nonatomic) __weak id delegate; // @synthesize delegate;
-@property(retain, nonatomic) NSButton *remove; // @synthesize remove;
-@property(retain, nonatomic) id representedObject; // @synthesize representedObject;
 @property(retain, nonatomic) NSTableView *table; // @synthesize table;
 
 @end

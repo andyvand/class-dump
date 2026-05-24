@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL;
-
 @interface _PXMomentShareMockMomentShare
 {
     unsigned short _status;
-    unsigned short _px_highlightEnrichmentState;
-    unsigned long long _assetCount;
-    unsigned long long _photosCount;
-    unsigned long long _videosCount;
-    unsigned long long _cloudPhotoCount;
-    unsigned long long _cloudVideoCount;
-    NSURL *_shareURL;
-    NSDate *_expiryDate;
-    NSString *_localizedTitle;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_localizedLocationNames;
-    unsigned long long _estimatedAssetCount;
-    long long _px_highlightKind;
 }
 
-+ (id);
++ (id);
 - (long long);
 - (_Bool);
 - (id);
@@ -37,192 +21,23 @@
 - (id);
 - (unsigned long long);
 - (long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (id)4{CGPoint=dd}32N^{CGPoint=dd}48;
 - (id);
 - (id);
+- (unsigned long long)=============== Effect %d Texts ==============================
+;
 - (id);
-- (unsigned long long);
-- (id);
-- (unsigned short):toIndexPath:inDataSource: /* Error: Ran out of types for this method. */;
+- (unsigned short)configureItemLayout:forChangedItemFromIndexPath:inDataSource:toIndexPath:inDataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)%½h¥;
 - (unsigned long long)@ÿ°NÊ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long aggregateMediaType;
-@property(readonly, nonatomic) unsigned long long assetCount; // @synthesize assetCount=_assetCount;
-@property(readonly, nonatomic) _Bool canContainAssets;
-@property(readonly, nonatomic) _Bool canContainCollections;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount; // @synthesize cloudPhotoCount=_cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount; // @synthesize cloudVideoCount=_cloudVideoCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) unsigned long long estimatedAssetCount; // @synthesize estimatedAssetCount=_estimatedAssetCount;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAggregation; // @dynamic isAggregation;
-@property(readonly, nonatomic) _Bool isEnriched; // @dynamic isEnriched;
-@property(readonly, nonatomic) _Bool isEnrichmentComplete; // @dynamic isEnrichmentComplete;
-@property(readonly, nonatomic) _Bool isRecent; // @dynamic isRecent;
-@property(readonly, nonatomic) NSString *localizedDateDescription; // @dynamic localizedDateDescription;
-@property(readonly, nonatomic) NSString *localizedDebugDescription; // @dynamic localizedDebugDescription;
-@property(readonly, nonatomic) NSArray *localizedLocationNames; // @synthesize localizedLocationNames=_localizedLocationNames;
-@property(readonly, nonatomic) NSString *localizedShortDateDescription; // @dynamic localizedShortDateDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,D,N
-
-@property(readonly, nonatomic) NSString *localizedSmartDescription; // @dynamic localizedSmartDescription;
-@property(readonly, nonatomic) NSString *localizedSubtitle; // @dynamic localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, nonatomic) unsigned long long photosCount; // @synthesize photosCount=_photosCount;
-@property(readonly, nonatomic) double promotionScore; // @dynamic promotionScore;
-@property(readonly, nonatomic) _Bool px_allowsImplicitSelectionForProjectOrSharingAction;
-@property(readonly, nonatomic) _Bool px_allowsKeyAssetDisplay;
-@property(readonly, nonatomic) _Bool px_allowsMoveToPersonalLibrary;
-@property(readonly, nonatomic) _Bool px_allowsMoveToSharedLibrary;
-@property(readonly, nonatomic) _Bool px_canAddContent;
-@property(readonly, nonatomic) _Bool px_canContainPotentiallySensitiveContent;
-@property(readonly, nonatomic) _Bool px_canCreateContent;
-@property(readonly, nonatomic) _Bool px_canDeleteContent;
-@property(readonly, nonatomic) _Bool px_canRearrangeContent;
-@property(readonly, nonatomic) _Bool px_canRemoveContent;
-@property(readonly, nonatomic) id px_cheapLogIdentifier;
-@property(readonly, nonatomic) _Bool px_containsPrivateContent;
-@property(readonly, nonatomic) unsigned short px_highlightEnrichmentState; // @synthesize px_highlightEnrichmentState=_px_highlightEnrichmentState;
-@property(readonly, nonatomic) long long px_highlightKind; // @synthesize px_highlightKind=_px_highlightKind;
-@property(readonly, nonatomic) _Bool px_isAllAlbumsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isAllLibraryDuplicatesSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isAllMacSyncedAlbumsFolder;
-@property(readonly, nonatomic) _Bool px_isAllPhotosSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isAllProjectsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isAnimatedSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isBookmarksFolder;
-@property(readonly, nonatomic) _Bool px_isBookmarksVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isBurstsSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isCinematicSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isCloudKitSharedAlbum;
-@property(readonly, nonatomic) _Bool px_isCollectionsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isContentSyndicationAlbum;
-@property(readonly, nonatomic) _Bool px_isContentSyndicationAllPhotosAlbum;
-@property(readonly, nonatomic) _Bool px_isContentSyndicationFolder;
-@property(readonly, nonatomic) _Bool px_isContentSyndicationVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isDayGroupHighlight;
-@property(readonly, nonatomic) _Bool px_isDayHighlight;
-@property(readonly, nonatomic) _Bool px_isDeletable;
-@property(readonly, nonatomic) _Bool px_isDepthEffectSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isDuplicatesAlbum;
-@property(readonly, nonatomic) _Bool px_isEvent;
-@property(readonly, nonatomic) _Bool px_isEventsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isFavoritesSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isFeaturedPhotosCollection;
-@property(readonly, nonatomic) _Bool px_isFolder;
-@property(readonly, nonatomic) _Bool px_isHiddenSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isHighlight;
-@property(readonly, nonatomic) _Bool px_isHighlightEnrichedWithAssetMetadataAndScenesProcessed;
-@property(readonly, nonatomic) _Bool px_isImportAssetCollection;
-@property(readonly, nonatomic) _Bool px_isImportHistoryCollection;
-@property(readonly, nonatomic) _Bool px_isImportSessionCollection;
-@property(readonly, nonatomic) _Bool px_isImportedAlbum;
-@property(readonly, nonatomic) _Bool px_isInReadWriteCloudLibrary;
-@property(readonly, nonatomic) _Bool px_isLemonadeUtilitiesAlbum;
-@property(readonly, nonatomic) _Bool px_isLibraryVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isLivePhotosSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isLongExposuresSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isMacSyncedAlbum;
-@property(readonly, nonatomic) _Bool px_isMacSyncedEventsFolder;
-@property(readonly, nonatomic) _Bool px_isMacSyncedFacesAlbum;
-@property(readonly, nonatomic) _Bool px_isMacSyncedFacesFolder;
-@property(readonly, nonatomic) _Bool px_isMacSyncedRegularAlbum;
-@property(readonly, nonatomic) _Bool px_isMapVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isMediaTypeSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isMediaTypesFolder;
-@property(readonly, nonatomic) _Bool px_isMemoriesVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isMemory;
-@property(readonly, nonatomic) _Bool px_isMoment;
-@property(readonly, nonatomic) _Bool px_isMomentShare;
-@property(readonly, nonatomic) _Bool px_isMomentShareVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isMomentsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isMonthHighlight;
-@property(readonly, nonatomic) _Bool px_isMyPhotoStreamAlbum;
-@property(readonly, nonatomic) _Bool px_isOwnedCloudKitSharedAlbum;
-@property(readonly, nonatomic) _Bool px_isOwnedStreamSharedAlbum;
-@property(readonly, nonatomic) _Bool px_isPanoramasSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isPeopleVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isPerson;
-@property(readonly, nonatomic) _Bool px_isPickerVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isPlacesSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isPrivacySensitiveAlbum;
-@property(readonly, nonatomic) _Bool px_isProResSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isProject;
-@property(readonly, nonatomic) _Bool px_isProjectsFolder;
-@property(readonly, nonatomic) _Bool px_isRAWSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isRecentlyAddedSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isRecentlyDeletedSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isRecentlyEditedCollection;
-@property(readonly, nonatomic) _Bool px_isRecentlyEditedSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isRecentlySavedCollection;
-@property(readonly, nonatomic) _Bool px_isRecentlySharedCollection;
-@property(readonly, nonatomic) _Bool px_isRecentlyViewedCollection;
-@property(readonly, nonatomic) _Bool px_isRecentsCollection;
-@property(readonly, nonatomic) _Bool px_isRecentsSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isRecoveredSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isRegularAlbum;
-@property(readonly, nonatomic) _Bool px_isRegularFolder;
-@property(readonly, nonatomic) _Bool px_isRenamable;
-@property(readonly, nonatomic) _Bool px_isRootSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isSavedTodayCollection;
-@property(readonly, nonatomic) _Bool px_isScreenRecordingsSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isScreenshotsSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isSearchResultsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isSelfPortraitsSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isSharedActivityVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isSharedAlbum;
-@property(readonly, nonatomic) _Bool px_isSharedAlbumsAndActivityFolder;
-@property(readonly, nonatomic) _Bool px_isSharedAlbumsFolder;
-@property(readonly, nonatomic) _Bool px_isSharedAlbumsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isSharedLibrarySharingSuggestion;
-@property(readonly, nonatomic) _Bool px_isSharedLibrarySharingSuggestionsSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isSlomoVideosSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isSmartFolder;
-@property(readonly, nonatomic) _Bool px_isSocialGroup;
-@property(readonly, nonatomic) _Bool px_isSpatialSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isStreamSharedAlbum;
-@property(readonly, nonatomic) _Bool px_isStreamSharedAlbumMultipleContributorsEnabled;
-@property(readonly, nonatomic) _Bool px_isSuggestion;
-@property(readonly, nonatomic) _Bool px_isTimelapsesSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isTopLevelFolder;
-@property(readonly, nonatomic) _Bool px_isTransientPlacesCollection;
-@property(readonly, nonatomic) _Bool px_isTrip;
-@property(readonly, nonatomic) _Bool px_isTripsVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isUnableToUploadSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isUserCreated;
-@property(readonly, nonatomic) _Bool px_isUserSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isUtilitiesFolder;
-@property(readonly, nonatomic) _Bool px_isUtilityCollection;
-@property(readonly, nonatomic) _Bool px_isVideosSmartAlbum;
-@property(readonly, nonatomic) _Bool px_isVirtualCollection;
-@property(readonly, nonatomic) _Bool px_isWallpaperSuggestionsVirtualCollection;
-@property(readonly, nonatomic) long long px_momentShareType;
-@property(readonly, nonatomic) _Bool px_shouldSelectAllAssetsWhenSharing;
-@property(readonly, nonatomic) _Bool px_shouldUseFacesRectForSmartCropping;
-@property(readonly, nonatomic) _Bool px_supportsFastCuration;
-@property(readonly, nonatomic) NSString *px_symbolImageName;
-@property(readonly, nonatomic) _Bool px_wantsCurationByDefault;
-@property(readonly, nonatomic) _Bool px_wantsDynamicHeaderDisabled;
-@property(readonly, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(readonly, nonatomic) unsigned short status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uuid;
-@property(readonly, nonatomic) unsigned long long videosCount; // @synthesize videosCount=_videosCount;
 
 @end
 

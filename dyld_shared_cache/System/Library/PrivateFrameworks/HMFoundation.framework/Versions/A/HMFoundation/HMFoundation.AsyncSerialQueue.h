@@ -7,9 +7,6 @@
 @interface HMFoundation.AsyncSerialQueue
 {
     id $defaultActor;
-    id isProcessing;
-    id continuations;
-    id internalFatalError;
 }
 
 @end

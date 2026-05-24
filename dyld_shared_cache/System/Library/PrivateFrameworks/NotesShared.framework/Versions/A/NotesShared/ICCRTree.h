@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCRObject.h>
 
-@class ICCROrderedSet, ICCRTreeNode;
+@class ICCROrderedSet;
 
 @interface ICCRTree : ICCRObject
 {
@@ -18,21 +18,19 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)installWaitSemaphore;
 - (void);
-- (void);
-- (id);
+- (void)transformationWithPersonalizer:configurationSet: /* Error: Ran out of types for this method. */;
+- (id)TTRMQuickBarReminderSuggestionTableCellViewModel;
 - (id);
 - (void);
 - (void);
 - (long long);
-- (id)eType: /* Error: Ran out of types for this method. */;
+- (id)initWithMergeType: /* Error: Ran out of types for this method. */;
 - (void)Decrypting sidecar fileâ¦ {object:(id)arg1 %@, fileURL:%@}%s:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
 @property(readonly, nonatomic) ICCROrderedSet *nodes;
-@property(readonly, nonatomic) ICCRTreeNode *root;
 
 @end
 

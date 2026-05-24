@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAudioBuffer, NSData, _MRAudioDataBlockProtobuf;
+@class MRAudioBuffer;
 
 __attribute__((visibility("hidden")))
 @interface MRAudioDataBlock
 {
     MRAudioBuffer *_buffer;
-    CDStruct_ace97b7a _time;
-    float _gain;
 }
 
 - (void);
@@ -24,17 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (CDStruct_ace97b7a);
+- (CDStruct_c3b9c2ee);
 - (void)kFormats;
 - (id)@> %@;
-- (float);
+- (float)PreviousInContext;
 
 // Remaining properties
 @property(readonly, nonatomic) MRAudioBuffer *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) float gain; // @synthesize gain=_gain;
-@property(readonly, nonatomic) _MRAudioDataBlockProtobuf *protobuf;
-@property(readonly, nonatomic) CDStruct_ace97b7a time; // @synthesize time=_time;
 
 @end
 

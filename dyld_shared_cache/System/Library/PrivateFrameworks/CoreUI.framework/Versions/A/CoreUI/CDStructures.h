@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers and Blocks
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+#pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
@@ -202,21 +200,6 @@ struct _colordef {
     struct _rgbquad _field3;
 };
 
-struct _csibitmap {
-    unsigned int _field1;
-    union {
-        unsigned int _field1;
-        struct _csibitmapflags {
-            unsigned int :1;
-            unsigned int :1;
-            unsigned int :30;
-        } _field2;
-    } _field2;
-    unsigned int _field3;
-    unsigned int _field4;
-    unsigned char _field5[0];
-};
-
 struct _csicolor {
     unsigned int _field1;
     unsigned int _field2;
@@ -281,10 +264,10 @@ struct _psdGradientColor {
 };
 
 struct _renditionkeyattributeindex {
-    unsigned long long keymask;
-    unsigned char keyindices[65];
-    unsigned int nkeys;
-    unsigned int keylist[29];
+    unsigned long long _field1;
+    unsigned char _field2[65];
+    unsigned int _field3;
+    unsigned int _field4[29];
 };
 
 struct _renditionkeyfmt {
@@ -306,26 +289,20 @@ struct _rgbquad {
     unsigned int :8;
 };
 
-struct crmFlags {
-    unsigned int scalesVertically:1;
-    unsigned int scalesHorizontally:1;
-    unsigned int reserved:14;
-};
-
 struct cuithemerenditionrenditionflags {
-    unsigned int isVectorBased:1;
-    unsigned int isOpaque:1;
-    unsigned int bitmapEncoding:4;
-    unsigned int optOutOfThinning:1;
-    unsigned int isFlippable:1;
-    unsigned int isTintable:1;
-    unsigned int preservedVectorRepresentation:1;
-    unsigned int preserveForArchiveOnly:1;
-    unsigned int reserved:21;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :4;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :21;
 };
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 struct vImage_Buffer {
@@ -367,8 +344,13 @@ typedef struct {
 } CDStruct_3d979a67;
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    id _field1[4];
+} CDStruct_34f00414;
+
+typedef struct {
+    double *pointComponents;
+    unsigned long long numPoints;
+} CDStruct_5450d214;
 
 typedef struct {
     double top;
@@ -489,22 +471,6 @@ typedef struct {
     unsigned long long _field5;
     CDStruct_c57d91d4 _field6[125];
 } CDStruct_35a2250d;
-
-// Ambiguous groups
-typedef struct {
-    double *_field1;
-    unsigned long long _field2;
-} CDStruct_f92c8eab;
-
-typedef struct {
-    double *deltaComponents;
-    unsigned long long numDeltas;
-} CDStruct_351aa1f6;
-
-typedef struct {
-    double *pointComponents;
-    unsigned long long numPoints;
-} CDStruct_5450d214;
 
 #pragma mark Typedef'd Unions
 

@@ -7,12 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.EventViewModel
 {
     id id;
-    id event;
-    id overrideShowingLocation;
-    id overrideShowingTravelTime;
-    id heightWithTwoLines;
-    id heightWithThreeLines;
-    id heightWithFourLines;
 }
 
 @end

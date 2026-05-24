@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSArray, NSSet, NSString, PGGraphFeatureNodeCollection, PGGraphPersonNodeCollection, PGGraphPetNodeCollection, PGGraphSocialGroupNodeCollection;
+@class NSSet;
 
 @interface PGGraphSocialGroupMemberNodeCollection : PGGraphNodeCollection
 {
@@ -14,31 +14,18 @@
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)works/AccessibilitySupport.framework/Versions/A/Frameworks/AccessibilityKit.framework/Versions/A/AccessibilityKit;
+- (id)s/AccessibilityFoundation.framework/Versions/A/AccessibilityFoundation;
+- (id)KElementController";
+- (id)6@24{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (id)_trackerQueue;
+- (id);
 - (id);
 - (id);
 - (id)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *localIdentifiers;
-@property(readonly, nonatomic) NSArray *names;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) PGGraphPetNodeCollection *petNodes;
-@property(readonly, nonatomic) PGGraphSocialGroupNodeCollection *socialGroupNodes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *uuids;
 
 @end
 

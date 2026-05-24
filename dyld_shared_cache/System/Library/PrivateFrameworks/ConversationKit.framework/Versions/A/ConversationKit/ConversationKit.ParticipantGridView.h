@@ -7,26 +7,9 @@
 @interface ConversationKit.ParticipantGridView
 {
     id layoutStyle;
-    id participantIdentifiableTiles;
-    id unfocusedParticipantOverlay;
-    id featureFlags;
-    id deviceType;
-    id organicLayoutConfiguration;
-    id currentlyFocusedParticipantIdentifier;
-    id mostProminentParticipantIdentifier;
-    id fullScreenFocusedParticipantInfo;
-    id mostRecentAnimationIndex;
-    id delegate;
-    id currentAnimationInfo;
-    id videoInfoCache;
-    id cachedFrameSize;
-    id isLocalMemberAuthorizedToChangeGroupMembership;
-    id deviceOrientation;
-    id frozenFrameOverlayState;
-    id rdarRemoteOrientation;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

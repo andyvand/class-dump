@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCalendarEvent;
+@class _SFPBCalendarEvent;
 
 @interface _SFPBCreateCalendarEventCommand
 {
@@ -16,24 +16,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)o;
+- (id)isValidFolderAtURL:(id)arg1;
+- (id)ange video export output URL already existed, file was removed before new export:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)nnableInBackground: /* Error: Ran out of types for this method. */;
+- (void)setIsRunnableInBackground: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _SFPBCalendarEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

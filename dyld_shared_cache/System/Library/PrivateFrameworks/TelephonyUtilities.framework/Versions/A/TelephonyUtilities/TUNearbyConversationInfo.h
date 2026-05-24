@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSUUID, TUNearbyDeviceHandle;
+@class NSUUID;
 
 @interface TUNearbyConversationInfo
 {
     NSUUID *_conversationUUID;
-    NSString *_userProfileIdentifier;
-    TUNearbyDeviceHandle *_deviceHandle;
-    unsigned long long _avMode;
-    NSSet *_supportedHandoffTypes;
 }
 
 + (_Bool);
@@ -21,22 +17,18 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)= WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::RTCDataChannelRemoteSource>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RTCDataChannelLocalIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (unsigned long long)TCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CheckedRef<WebKit::LibWebRTCSocket>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CheckedRef<WebKit::LibWebRTCSocket>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CheckedRef<WebKit::LibWebRTCSocket>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CheckedRef<WebKit::LibWebRTCSocket>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CheckedRef<WebKit::LibWebRTCSocket>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CheckedRef<WebKit::LibWebRTCSocket>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::LibWebRTCSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void)CallBlockingForSubscriptionContext: /* Error: Ran out of types for this method. */;
+- (void)supportsCallBlockingForSubscriptionContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long avMode; // @synthesize avMode=_avMode;
 @property(readonly, copy, nonatomic) NSUUID *conversationUUID; // @synthesize conversationUUID=_conversationUUID;
-@property(readonly, copy, nonatomic) TUNearbyDeviceHandle *deviceHandle; // @synthesize deviceHandle=_deviceHandle;
-@property(readonly, copy, nonatomic) NSSet *supportedHandoffTypes; // @synthesize supportedHandoffTypes=_supportedHandoffTypes;
-@property(readonly, copy, nonatomic) NSString *userProfileIdentifier; // @synthesize userProfileIdentifier=_userProfileIdentifier;
 
 @end
 

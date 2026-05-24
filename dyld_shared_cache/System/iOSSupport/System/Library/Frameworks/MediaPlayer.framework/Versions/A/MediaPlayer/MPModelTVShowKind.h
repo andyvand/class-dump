@@ -13,15 +13,15 @@
     MPModelTVSeasonKind *_seasonKind;
 }
 
-+ (id);
++ (id)_oldFirstRelfilenodeSubid;
 + (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)th:(id)arg1 %@;
+- (unsigned long long)normalizeHandle: /* Error: Ran out of types for this method. */;
+- (id)2@?40@?48;
 - (_Bool);
 - (void);
 - (void)ition;

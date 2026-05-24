@@ -4,41 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigWeakReference, NSDictionary, NSMutableDictionary, NSString;
-@protocol BWFigCaptureStreamStartStopDelegate;
+@class NSString;
 
 @interface BWFigCaptureStream
 {
     struct OpaqueFigCaptureStream *_stream;
-    NSString *_portType;
-    NSString *_uniqueID;
-    _Bool _staticPropertiesCacheEnabled;
-    NSString *_portTypeShortString;
-    NSDictionary *_supportedProperties;
-    NSMutableDictionary *_cachedProperties;
-    _Bool _calibrationDataSent;
-    _Bool _invalidated;
-    struct os_unfair_lock_s _lock;
-    _Bool _streaming;
-    unsigned int _ktraceCodePrefix;
-    _Bool _createFakeISPMotionData;
-    FigWeakReference *_startStopDelegateWeakReference;
-    NSString *_loggingPrefix;
-    _Bool _vibeMitigationEnabled;
-    _Bool _vibeMitigationWhileCameraStreamingSupported;
-    _Bool _workaroundToTurnTorchOnWhenStreamStartsIfNecessary;
-    _Bool _workaroundShouldTurnOnTorchWhenNextStreamStarts;
-    CDUnknownBlockType _reactionsInProgressChangedHandler;
-    CDUnknownBlockType _suppressedGestureHandler;
 }
 
 + (void)ueSinkNode renderSampleBuffer:forInput:] /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
+- (void)mapAdjustedColor:colorMap:colorScheme:colorPalette: /* Error: Ran out of types for this method. */;
+- (id)_separator;
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id);
 - (int);
 - (int);
 - (void);
@@ -54,35 +33,26 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)O;
+- (_Bool)4;
 - (void)× ;
 - (void)ovieURL %@, irisMovieInfo.spatialOverCaptureExpected %d, _firstIrisMovieInfo %p captureID:(_Bool)arg1 %lld;
 - (id)Û;
 - (id)ò;
 - (int)®!ÿµÿ½ÿÃ;
-- (void)nitoringForFigAssetWriterWritingVideoNotificationIfNecessary_block_invoke_2;
+- (void)captureSession_startMonitoringForFigAssetWriterWritingVideoNotificationIfNecessary_block_invoke_2;
 - (id)rectUserNotification cancel];
 - (int)reDeviceVendor _takePowerAssertion];
 - (id)omeLiveForInput:] /* Error: Ran out of types for this method. */;
-- (void)nchronizedStreamsSwitchOverParameters;
+- (void)SynchronizedStreamsSwitchOverParameters;
 - (id)cessingSuspended:(struct __CFString *)arg1 ];
-- (id)ty;
-- (int)yFraction;
+- (id)FacePriority;
+- (int)squareDistanceDisparityFraction;
 - (id)pture/CMCapture/Sources/Graph/Nodes/BWPiecemealEncodingNode.m;
 - (void)ÿÝsÆf&;
 
 // Remaining properties
-@property(nonatomic) _Bool calibrationDataSent; // @synthesize calibrationDataSent=_calibrationDataSent;
 @property(readonly, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(copy, nonatomic) CDUnknownBlockType reactionsInProgressChangedHandler; // @synthesize reactionsInProgressChangedHandler=_reactionsInProgressChangedHandler;
-@property(nonatomic) __weak id <BWFigCaptureStreamStartStopDelegate> startStopDelegate;
-@property(readonly, nonatomic) _Bool streaming; // @synthesize streaming=_streaming;
-@property(readonly, nonatomic) NSDictionary *supportedProperties; // @synthesize supportedProperties=_supportedProperties;
-@property(copy, nonatomic) CDUnknownBlockType suppressedGestureHandler; // @synthesize suppressedGestureHandler=_suppressedGestureHandler;
-@property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(nonatomic) _Bool vibeMitigationEnabled;
-@property(nonatomic) _Bool workaroundToTurnTorchOnWhenStreamStartsIfNecessary; // @synthesize workaroundToTurnTorchOnWhenStreamStartsIfNecessary=_workaroundToTurnTorchOnWhenStreamStartsIfNecessary;
 
 @end
 

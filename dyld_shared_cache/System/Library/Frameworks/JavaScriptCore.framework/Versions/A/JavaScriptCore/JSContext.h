@@ -7,10 +7,6 @@
 @interface JSContext
 {
     struct RetainPtr<JSVirtualMachine> m_virtualMachine;
-    struct OpaqueJSContext *m_context;
-    struct RetainPtr<JSValue> m_exception;
-    struct WeakObjCPtr<id<JSModuleLoaderDelegate>> m_moduleLoaderDelegate;
-    CDUnknownBlockType _exceptionHandler;
 }
 
 + (id);

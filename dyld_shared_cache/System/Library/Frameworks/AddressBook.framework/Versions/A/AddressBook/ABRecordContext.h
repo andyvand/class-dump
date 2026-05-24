@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, NSString;
+@class ABAccount;
 
 @interface ABRecordContext
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
 }
 
 + (id);
@@ -17,11 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,14 +44,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAccount *account; // @synthesize account=_account;
-@property(readonly, retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

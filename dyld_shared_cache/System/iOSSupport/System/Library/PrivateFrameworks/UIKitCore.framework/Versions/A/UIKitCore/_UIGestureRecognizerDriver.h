@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIGestureRecognizerDriverContext, _UIGestureRecognizerDriverDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIGestureRecognizerDriver
 {
     long long _state;
-    struct {
-        unsigned int needsTouches:1;
-        unsigned int needsTransform:1;
-    } _flags;
-    id <_UIGestureRecognizerDriverContext> _context;
-    id <_UIGestureRecognizerDriverDelegate> _delegate;
 }
 
 - (void);
 - (_Bool);
+- (void)_updateContext:(long long)arg1 withChange:(long long)arg2;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)lNumber:%@ /* Error: Ran out of types for this method. */;
+- (void)saveAttributionFeedbackForAttributionIdentifier:feedbackType:client:variant: /* Error: Ran out of types for this method. */;
+- (void)PkI;
 - (id);
 - (id);
 - (id);
@@ -35,17 +27,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!ôEùQgÐ1Â0@ù
 × ;
-- (void)ectionLearningAllowed;
-- (void)angeIndexOfCurrentDetent:(id)arg1;
-- (void)figuredFloatableView;
+- (void)m_correctionLearningAllowed;
+- (void)_sheetPresentationController:(id)arg1 didChangeIndexOfCurrentDetent:(id)arg2;
+- (void)_configuredFloatableView;
 - (void)__allReceivers;
 - (_Bool)@"_UINavigationBarLargeTitleViewLayout",&,N,V_largeTitleViewLayout;
 - (void);
 - (void)ØüÓ¡[;
 
 // Remaining properties
-@property(retain, nonatomic) id <_UIGestureRecognizerDriverContext> context; // @synthesize context=_context;
-@property(nonatomic) __weak id <_UIGestureRecognizerDriverDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) long long state;
 
 @end

@@ -9,11 +9,13 @@
     struct __EmojiLocaleDataWrapper *_localeData;
 }
 
-+ (id);
-+ (id);
-- (struct __EmojiLocaleDataWrapper *);
-- (id);
-- (void);
++ (id)earch the App Store for apps that can display RSS feeds?;
++ (id)h Apple Pay and Apple Card using your iPhone or Apple Watch to confirm your payment.;
+- (struct __EmojiLocaleDataWrapper *)Smart Search field. By default, Safari uses Google for its search results.
+
+If you would like to choose another search engine, click Open Settings below. This setting can be changed at any time.;
+- (id)nager"16@?0@"WBSPair"8;
+- (void)hoose (style sheet open panel);
 - (void);
 
 // Remaining properties

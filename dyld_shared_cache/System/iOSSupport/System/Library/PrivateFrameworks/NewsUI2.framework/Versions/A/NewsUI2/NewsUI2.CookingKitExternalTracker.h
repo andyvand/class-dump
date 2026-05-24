@@ -7,11 +7,6 @@
 @interface NewsUI2.CookingKitExternalTracker
 {
     id _baseTrackers;
-    id _cookingSessions;
-    id _groceryListSessions;
-    id _cookingRecipes;
-    id _groceryListRecipes;
-    id recipeService;
 }
 
 @end

@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (void)STATES_READY;
++ (void)luna_POWER_STATES_READY;
 - (void);
 - (void);
 - (void);

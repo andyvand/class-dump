@@ -5,5 +5,7 @@
 //
 
 @protocol CLSimulationLocationProtocol
+- (void);
+- (void)@;
 @end
 

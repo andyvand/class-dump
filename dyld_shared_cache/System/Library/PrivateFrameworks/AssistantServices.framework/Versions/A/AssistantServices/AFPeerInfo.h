@@ -9,32 +9,14 @@
 @interface AFPeerInfo
 {
     _Bool _isDeviceOwnedByCurrentUser;
-    _Bool _isCommunalDevice;
-    _Bool _isLocationSharingDevice;
-    _Bool _isSiriCloudSyncEnabled;
-    NSString *_assistantIdentifier;
-    NSString *_sharedUserIdentifier;
-    NSString *_idsIdentifier;
-    NSString *_idsDeviceUniqueIdentifier;
-    NSString *_rapportEffectiveIdentifier;
-    NSString *_homeKitAccessoryIdentifier;
-    NSString *_mediaSystemIdentifier;
-    NSString *_mediaRouteIdentifier;
-    NSString *_roomName;
-    NSString *_name;
-    NSString *_productType;
-    NSString *_buildVersion;
-    NSString *_userInterfaceIdiom;
-    NSString *_aceVersion;
-    NSString *_myriadTrialTreatment;
 }
 
-+ (id);
-+ (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)J#;
++ (_Bool)hB@9;
+- (id)_mccCodeToMerchantCategory;
+- (id)Items;
+- (id)IN_APP_PAYMENT_BUTTON_SET_UP;
+- (id)t!;
 - (_Bool);
 - (id);
 - (id);
@@ -46,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (id);
 - (id);
@@ -55,7 +37,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)nk:r:path:/System/Library/PrivateFrameworks/SmartReplies.framework/SmartReplies /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -70,33 +52,7 @@
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *aceVersion; // @synthesize aceVersion=_aceVersion;
-@property(readonly, copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
-@property(readonly, copy, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *homeKitAccessoryIdentifier; // @synthesize homeKitAccessoryIdentifier=_homeKitAccessoryIdentifier;
-@property(readonly, copy, nonatomic) NSString *idsDeviceUniqueIdentifier; // @synthesize idsDeviceUniqueIdentifier=_idsDeviceUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(readonly, nonatomic) _Bool isCommunalDevice; // @synthesize isCommunalDevice=_isCommunalDevice;
-@property(readonly, nonatomic) _Bool isDeviceOwnedByCurrentUser; // @synthesize isDeviceOwnedByCurrentUser=_isDeviceOwnedByCurrentUser;
-@property(readonly, nonatomic) _Bool isLocationSharingDevice; // @synthesize isLocationSharingDevice=_isLocationSharingDevice;
-@property(readonly, nonatomic) _Bool isSiriCloudSyncEnabled; // @synthesize isSiriCloudSyncEnabled=_isSiriCloudSyncEnabled;
-@property(readonly, copy, nonatomic) NSString *mediaRouteIdentifier; // @synthesize mediaRouteIdentifier=_mediaRouteIdentifier;
-@property(readonly, copy, nonatomic) NSString *mediaSystemIdentifier; // @synthesize mediaSystemIdentifier=_mediaSystemIdentifier;
-@property(readonly, copy, nonatomic) NSString *myriadTrialTreatment; // @synthesize myriadTrialTreatment=_myriadTrialTreatment;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(readonly, copy, nonatomic) NSString *rapportEffectiveIdentifier; // @synthesize rapportEffectiveIdentifier=_rapportEffectiveIdentifier;
-@property(readonly, copy, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
 @property(readonly, copy, nonatomic) NSString *sharedUserID;
-@property(readonly, copy, nonatomic) NSString *sharedUserIdentifier; // @synthesize sharedUserIdentifier=_sharedUserIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
 
 @end
 

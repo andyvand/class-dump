@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)rsByCatalog:autoDecisionLists:presentations: /* Error: Ran out of types for this method. */;
++ (id)exportAsynchronouslyWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

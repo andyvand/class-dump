@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUITokenField, NSAttributedString, NSColor;
+@class EKUITokenField;
 
 @interface EKUITokenAttachmentCell
 {
     float _attributedStringWidth;
-    EKUITokenField *_tokenField;
-    NSAttributedString *_cachedAttributedString;
-    long long _cachedBackgroundStyle;
-    NSColor *_cachedTextColor;
-    struct CGSize _cachedCellSize;
-    struct CGRect _cachedCellFrame;
-    struct CGRect _boundsForCellSize;
 }
 
 + (id);
+- (id));
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -33,12 +26,12 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)k;
 - (id);
-- (id);
-- (id);
+- (id)<;
 - (struct CGSize);
 - (long long);
-- (id);
+- (id)4;
 - (struct CGRect);
 - (float);
 - (_Bool);
@@ -53,21 +46,14 @@
 - (struct CGSize);
 - (struct CGRect);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)1;
+- (void)push registration message asynchronously to daemon. %s;
 - (id)ÔÁ5 ð!;
 
 // Remaining properties
-@property float attributedStringWidth; // @synthesize attributedStringWidth=_attributedStringWidth;
-@property struct CGRect boundsForCellSize; // @synthesize boundsForCellSize=_boundsForCellSize;
-@property(retain) NSAttributedString *cachedAttributedString; // @synthesize cachedAttributedString=_cachedAttributedString;
-@property long long cachedBackgroundStyle; // @synthesize cachedBackgroundStyle=_cachedBackgroundStyle;
-@property struct CGRect cachedCellFrame; // @synthesize cachedCellFrame=_cachedCellFrame;
-@property struct CGSize cachedCellSize; // @synthesize cachedCellSize=_cachedCellSize;
-@property(retain) NSColor *cachedTextColor; // @synthesize cachedTextColor=_cachedTextColor;
 @property(retain) EKUITokenField *tokenField; // @synthesize tokenField=_tokenField;
 
 @end

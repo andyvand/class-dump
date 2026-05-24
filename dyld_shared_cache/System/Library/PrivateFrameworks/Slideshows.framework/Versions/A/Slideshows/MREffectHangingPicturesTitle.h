@@ -6,25 +6,19 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRImageProvider, MRTextRenderer;
+@class MRImageProvider;
 
 @interface MREffectHangingPicturesTitle : MREffect
 {
     MRImageProvider *mRopeImageProvider;
-    MRTextRenderer *mTextRenderer;
-    struct CGSize mTextSize;
-    struct CGSize mEditedTextSize;
-    MRCroppingSprite *mSprite;
-    float mMatrix[16];
-    MRImage *mTextImage;
 }
 
 + (void)P&;
-- (void);
+- (void)wwan5G;
 - (_Bool);
-- (_Bool);
+- (_Bool)yticsEnvelopeContentTypesFromEntries(NSArray<id<NDAnalyticsEnvelopeStoreEntry>> *__strong _Nonnull);
 - (id);
-- (_Bool);
+- (_Bool)Assembly;
 - (id);
 - (struct CGSize);
 - (long long);

@@ -7,9 +7,6 @@
 @interface PBUnknownFields
 {
     char *_buf;
-    unsigned long long _bufSpace;
-    unsigned long long _bufLen;
-    unsigned long long _recursionDepth;
 }
 
 - (void);

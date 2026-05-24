@@ -4,10 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4CommandQueueDescriptor, MTLArchitecture, NSArray, NSString;
-@protocol MTL4CommandQueue, MTLIndirectCommandBuffer, MTLTensor;
+@class MTL4CommandQueueDescriptor, MTLArchitecture, MTLStitchedLibraryDescriptor, MTLTileRenderPipelineDescriptor, NSString;
+@protocol MTL4Archive, MTL4CommandQueue, MTLArgumentEncoder, MTLBuffer, MTLComputePipelineState, MTLEvent, MTLFunction, MTLIOFileHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRenderPipelineState, MTLTensor;
 
 @protocol MTLDevice
+- (CDStruct_14f26992);
+- (id <MTLBuffer>);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool)e limiter persistence;
+- (id <MTLLibrary>)th versionID [%ld] for chat:%@ /* Error: Ran out of types for this method. */;
+- (id <MTLComputePipelineState>)e Verification Codes | Presenting Delete Verification Codes notification with title:(id <MTLFunction>)arg1 "%@" message:(id *)arg2 "%@";
+- (void);
+- (id <MTLIOFileHandle>);
+- (unsigned long long)@;
+- (NSString *);_;
+- (id <MTLArgumentEncoder>)allowlistedRichLinkSender;
+- (CDStruct_4bcfbbae);
+- (_Bool)missing a handle or record ID. Handle:%@, RecordID:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ptr<std::vector<float>>=^v^{__shared_weak_count}}24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id <MTLRenderPipelineState>)bundleIdentifierOrProcessName:(MTLTileRenderPipelineDescriptor *)arg1;
+- (void)e;
+- (_Bool)PEventKitImporter:_eventIdentifiersToReimport:error from Location store:%@ /* Error: Ran out of types for this method. */;
+- (void)_DKEvent due to invalid topic identifier %{sensitive}@. Source:(MTLStitchedLibraryDescriptor *)arg1 %{private}@;
+- (id <MTLEvent>):CFStringGetCString failed /* Error: Ran out of types for this method. */;
+- (id <MTL4Archive>)ring failed;
+- (void)3;
+- (_Bool)w;
 - (MTLArchitecture *)Â0@ù
 × ;
 - (id <MTLIndirectCommandBuffer>)@ù
@@ -17,57 +40,17 @@
 - (_Bool)DùÑ'1Â0@ù
 × ;
 - (unsigned long long)Descriptor"16^@24;
-- (unsigned long long)s:lodMaxClamps:withRange: /* Error: Ran out of types for this method. */;
-- (_Bool)escriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
-- (_Bool)ptor:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (id <MTL4CommandQueue>):(MTL4CommandQueueDescriptor *)arg1 stage:(id *)arg2;
-- (void);
+- (unsigned long long)setMeshSamplerStates:lodMinClamps:lodMaxClamps:withRange: /* Error: Ran out of types for this method. */;
+- (_Bool)newRenderPipelineStateWithTileDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (_Bool)newRenderPipelineStateWithDescriptor:dynamicLinkingDescriptor:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)newFence;
+- (id <MTL4CommandQueue>)functionHandleWithBinaryFunction:(MTL4CommandQueueDescriptor *)arg1 stage:(id *)arg2;
 - (id <MTLTensor>);
 
+@optional
+- (void)gistrationProfileValidateHandle(NSString *, BOOL, FTAWDNetworkConnectionType, FTAWDConferenceMessageResultCode, FTAWDIDSRegistrationError, FTAWDIDSEmailVettingStatus, NSNumber *, NSNumber *, NSNumber *)_block_invoke;
+
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) struct maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

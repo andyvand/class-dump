@@ -7,7 +7,6 @@
 @interface NewsCore.MyArticlesRequestFactory
 {
     id cloudContext;
-    id feedPersonalizer;
 }
 
 @end

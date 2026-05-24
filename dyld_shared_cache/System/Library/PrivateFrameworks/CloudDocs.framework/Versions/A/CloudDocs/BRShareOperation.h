@@ -6,18 +6,13 @@
 
 #import <CloudDocs/BROperation.h>
 
-@class NSError, NSFileProviderService, NSObject, NSString, NSURL;
-@protocol BRShareOperationProtocol><NSXPCProxyCreating, OS_dispatch_group;
+@class NSObject, NSURL;
+@protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface BRShareOperation : BROperation
 {
     NSObject<OS_dispatch_group> *_serviceGroup;
-    NSError *_initError;
-    NSFileProviderService *_sharingService;
-    id <BRShareOperationProtocol><NSXPCProxyCreating> _remoteObject;
-    NSURL *_url;
-    NSString *_itemID;
 }
 
 - (_Bool);
@@ -25,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
@@ -37,7 +32,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *itemID; // @synthesize itemID=_itemID;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -8,18 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _NSKeyedCoderOldStyleArray
 {
     void *_addr;
-    unsigned long long _count;
-    unsigned long long _size;
-    BOOL _type;
-    _Bool _decoded;
-    char _padding[2];
 }
 
 + (_Bool)stributed objects message send timed out (timeout:%f at time:%f) 1 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)v;
 - (void);
 
 @end

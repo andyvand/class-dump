@@ -6,15 +6,10 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AOSUIInheritanceShareDataViewModel : AOSUIAccountContactBaseViewModel
 {
     _Bool _shouldEnableFirstButtonOnLoad;
-    _Bool _shouldShowHelpLinkAsTemplateButton;
-    NSString *_imageName;
-    long long _templateContentViewLayout;
 }
 
 - (long long);

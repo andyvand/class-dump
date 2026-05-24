@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
-
 @interface AFMyriadAdvertisementContextRecord
 {
     unsigned char _advertisementContextVersion;
-    long long _advertisementRecordType;
-    double _voiceTriggerEndTime;
-    NSData *_advertisementPayload;
-    NSUUID *_deviceID;
-    double _advertisementDispatchTime;
 }
 
 - (double);
@@ -34,18 +27,13 @@
 - (BOOL);
 - (id);
 - (unsigned long long);
+- (id)6;
 - (id);
-- (id);
-- (id);
-- (void)ontexts;
+- (id)0:8@16d24d32@40B48@52@60 /* Error: Ran out of types for this method. */;
+- (void)_activeContexts;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char advertisementContextVersion; // @synthesize advertisementContextVersion=_advertisementContextVersion;
-@property(nonatomic) double advertisementDispatchTime; // @synthesize advertisementDispatchTime=_advertisementDispatchTime;
-@property(readonly, copy, nonatomic) NSData *advertisementPayload; // @synthesize advertisementPayload=_advertisementPayload;
-@property(readonly, nonatomic) long long advertisementRecordType; // @synthesize advertisementRecordType=_advertisementRecordType;
-@property(readonly, copy, nonatomic) NSUUID *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) double voiceTriggerEndTime; // @synthesize voiceTriggerEndTime=_voiceTriggerEndTime;
 
 @end
 

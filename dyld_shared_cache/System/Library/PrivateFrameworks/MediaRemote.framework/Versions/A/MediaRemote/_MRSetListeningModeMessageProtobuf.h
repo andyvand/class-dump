@@ -9,7 +9,6 @@
 @interface _MRSetListeningModeMessageProtobuf
 {
     NSString *_listeningMode;
-    NSString *_outputDeviceUID;
 }
 
 - (_Bool);
@@ -20,20 +19,17 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)updateImmediatelyWithReason: /* Error: Ran out of types for this method. */;
+- (_Bool)components:fromDate:toDate:options: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void)mousListener;
+- (id)StateCapture;
+- (id)isMainThread];
+- (void)anonymousListener;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasListeningMode;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *listeningMode; // @synthesize listeningMode=_listeningMode;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

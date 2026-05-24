@@ -4,65 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnalytics, AFAudioPowerUpdater, AFCallSiteInfo, AFCheckSRT, AFClientConfiguration, AFInstanceContext, AFInterstitialProvider, AFOneArgumentSafetyBlock, AFPreferences, AFQueue, AFSiriClientStateManager, AFWatchdogTimer, NSArray, NSError, NSMutableDictionary, NSObject, NSString, NSUUID, NSXPCConnection;
-@protocol AFAssistantUIService, AFSpeechDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol AFAssistantUIService;
 
 @interface AFConnection
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    NSString *_outstandingRequestClass;
-    void *_clientID;
-    AFCallSiteInfo *_initiationCallSiteInfo;
-    AFCheckSRT *_checkSRT;
-    NSArray *_cachedBulletins;
-    NSUUID *_activeRequestUUID;
-    long long _activeRequestType;
-    long long _activeRequestUsefulUserResultType;
-    AFWatchdogTimer *_requestTimeoutTimer;
-    AFOneArgumentSafetyBlock *_requestCompletion;
-    long long _activeRequestActivationEvent;
-    long long _activeRequestSpeechEvent;
-    int _activeRequestTypeForRequestCategorization;
-    _Bool _activeRequestHasSpeechRecognition;
-    _Bool _activeRequestIsDucking;
-    _Bool _activeRequestIsTwoShot;
-    _Bool _connectionHadActiveNetwork;
-    double _activeRequestBeginTime;
-    unsigned long long _activeRequestSpeechEndHostTime;
-    unsigned long long _activeRequestNumberOfPresentedInterstitials;
-    double _activeRequestStartSpeechTimeRequested;
-    double _activeRequestStartSpeechTimeAPICalled;
-    double _activeRequestStopSpeechTimeRequested;
-    double _activeRequestStopSpeechTimeAPICalled;
-    double _activeRequestSpeechRecordingEndTimeInterval;
-    double _activeRequestSpeechRecognitionTimeInterval;
-    double _activeRequestInitialInterstitialBeginTimeInterval;
-    NSUUID *_activeTurnIdentifier;
-    NSMutableDictionary *_replyHandlerForAceId;
-    unsigned int _stateInSync:1;
-    unsigned int _shouldSpeak:1;
-    unsigned int _isCapturingSpeech:1;
-    unsigned int _hasOutstandingRequest:1;
-    NSString *_recordRoute;
-    NSString *_playbackRoute;
-    AFAudioPowerUpdater *_inputAudioPowerUpdater;
-    AFClientConfiguration *_clientConfiguration;
-    AFInterstitialProvider *_interstitialProvider;
-    AFQueue *_interstitialCommandQueue;
-    unsigned int _clientConfigurationIsInSync:1;
-    unsigned int _voiceOverIsActive:1;
-    NSError *_lastRetryError;
-    unsigned long long _pendingSpeechRequestCounter;
-    NSObject<OS_dispatch_group> *_speechCallbackGroup;
-    unsigned long long _uufrID;
-    AFPreferences *_preferences;
-    AFInstanceContext *_instanceContext;
-    AFAnalytics *_analytics;
-    AFSiriClientStateManager *_siriClientStateManager;
-    _Atomic unsigned long long _activeSpeechPlaybackCount;
-    id <AFAssistantUIService> _delegate;
-    id <AFSpeechDelegate> _speechDelegate;
 }
 
 + (_Bool);
@@ -74,15 +21,17 @@
 + (_Bool);
 + (id);
 + (id);
-+ (void);
++ (void))@9?q;
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool)rentAudioRoute;
++ (_Bool)currentAudioRoute;
 + (void)ti-user.setup.homepod.missing-home-member-settings;
 - (void);
 - (void);
 - (void);
+- (void)1;
+- (void)kdA:!, /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -94,10 +43,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -105,6 +52,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -116,13 +64,12 @@
 - (void);
 - (void);
 - (void);
+- (void)9*;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_kDA:(id)arg1 ;
 - (void);
 - (void);
 - (void);
@@ -166,6 +113,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -177,31 +126,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)H;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)g: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Қ=;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -211,7 +158,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)B?;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -232,12 +179,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (void);
@@ -253,17 +200,17 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)ae;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void)	@9;
+- (void)hant;
+- (void)teriaID %@ and the newly selected payment offer sessionID %@. Using the sessionID on the selected offer.;
+- (void)SETUP_PURCHASE_STATUS_TEXT_DATE_PURCHASED;
+- (void)walletInstalledInBackup;
 - (void);
 - (void);
 - (void);
@@ -286,26 +233,16 @@
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)nnouncementMutation;
-- (id)adphoneInEarDetectionState::secondaryInEarStatus /* Error: Ran out of types for this method. */;
+- (void)_AFHomeAnnouncementMutation;
+- (id)AFBluetoothHeadphoneInEarDetectionState::secondaryInEarStatus /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AFAssistantUIService> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasActiveRequest;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRecording;
-@property(nonatomic) __weak id <AFSpeechDelegate> speechDelegate; // @synthesize speechDelegate=_speechDelegate;
-@property(readonly) Class superclass;
 
 @end
 

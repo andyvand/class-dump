@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExternalActionDetail
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_actionLabel;
-    NSString *_actionUrlComponent;
-    NSString *_actionUrlVerb;
-    NSString *_logoId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionLabel:1;
-        unsigned int read_actionUrlComponent:1;
-        unsigned int read_actionUrlVerb:1;
-        unsigned int read_logoId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)tion;
+- (unsigned long long)\;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nyField"b1};
-- (id)s;
+- (id)_detailFormatteds;
 - (id)´\Ð;
 - (void)Ãõ(\Â@fffffÂq@;
 

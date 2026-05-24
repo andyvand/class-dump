@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EBReader : OCBReader
 {
     NSString *mTemporaryDirectory;
-    struct XlObjectFactory *mXlObjectFactory;
-    _Bool mUseStringOptimization;
-    _Bool mIsFileStructuredStorage;
-    const void *mBuffer;
 }
 
 - (void *);
@@ -34,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isFileStructuredStorage; // @synthesize isFileStructuredStorage=mIsFileStructuredStorage;
 @property(retain, nonatomic) NSString *temporaryDirectory; // @synthesize temporaryDirectory=mTemporaryDirectory;
-@property(nonatomic) _Bool useStringOptimization; // @synthesize useStringOptimization=mUseStringOptimization;
-@property(readonly, nonatomic) void *xlReader;
 
 @end
 

@@ -13,14 +13,15 @@
     CLLocation *_location;
 }
 
-+ (id);
++ (id)�;
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)S
+;
 - (void)V;
 
 // Remaining properties

@@ -5,5 +5,6 @@
 //
 
 @protocol PHImportSourceObserver
+- (void)qI;
 @end
 

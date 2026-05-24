@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void)y;
+- (void)TraitKey;
 - (void);
 
 @end

@@ -7,7 +7,6 @@
 @interface NSURLConnectionDelegateProxy
 {
     id delegate;
-    unsigned long long flags;
 }
 
 - (_Bool);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void)é
 é
 ê

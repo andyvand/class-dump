@@ -6,42 +6,32 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPerspectiveTransformWithExtent : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputExtent;
-    CIVector *inputTopLeft;
-    CIVector *inputTopRight;
-    CIVector *inputBottomRight;
-    CIVector *inputBottomLeft;
 }
 
 + (id);
 - (void);
+- (void)IH@9?;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)b;
 - (void);
 - (id);
 - (id)mmmmbbZbgkfl{§§§§`uqildqmmimhoitcrk|Uf[rosnuvvvvllgrwutw~~~~Nb_h=RI]bbabWaZg@ZPkmokuttttAYOdfe^ixyx{wwwwhrosooookkkkU_UiI^Tkooko\miooomoWhcm`gbkkkkkkkkkmmmmvvvv¥¥¥¥µµµµ¶¶¶¶¥¥¥¥mr|{extd~|qs|xktqucc^cPZP[eeeewwww}m|xQld|{vuov@YKm;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputBottomLeft; // @synthesize inputBottomLeft;
-@property(retain, nonatomic) CIVector *inputBottomRight; // @synthesize inputBottomRight;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputTopLeft; // @synthesize inputTopLeft;
-@property(retain, nonatomic) CIVector *inputTopRight; // @synthesize inputTopRight;
 
 @end
 

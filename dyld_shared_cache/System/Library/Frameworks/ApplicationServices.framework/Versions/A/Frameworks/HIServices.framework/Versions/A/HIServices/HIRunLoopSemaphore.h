@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HIRunLoopSemaphore
 {
     unsigned int _waiting:1;
-    unsigned int _waited:1;
-    unsigned int _signaled:1;
-    unsigned int _stopped:1;
-    unsigned int _legacyWake:1;
-    NSString *_legend;
-    struct __CFString *_mode;
 }
 
 + (void);
-+ (id);
++ (id)+;
 + (void);
 - (void);
 - (void);
@@ -33,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *legend; // @synthesize legend=_legend;
 @property(readonly) struct __CFString *mode; // @synthesize mode=_mode;
 
 @end

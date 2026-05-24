@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _NSDateValueBinderPlugin : _NSValueBinderPlugin
 {
     NSDate *_originalMinValue;
-    NSDate *_originalMaxValue;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)R-;
 - (void);
 - (id);
-- (void);
+- (void)CFNumber=}40@0:(id)arg1 8@16c24@28c36;
 - (id);
 - (id);
 - (id);

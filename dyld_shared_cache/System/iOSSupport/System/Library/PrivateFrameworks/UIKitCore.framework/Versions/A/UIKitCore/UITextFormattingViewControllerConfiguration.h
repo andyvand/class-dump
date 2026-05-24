@@ -4,78 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIFontPickerViewControllerConfiguration;
-
 @interface UITextFormattingViewControllerConfiguration
 {
     _Bool __textAnimationsConfiguration;
-    _Bool __textViewConfiguration;
-    _Bool __useReducedMetrics;
-    _Bool __hasPopoverPresentation;
-    _Bool __useLandscapeLayout;
-    _Bool __hasParentViewController;
-    _Bool __preferringDimmingVisible;
-    _Bool __allowContentToScroll;
-    _Bool __includeDefaultFont;
-    NSArray *_groups;
-    NSArray *_formattingStyles;
-    UIFontPickerViewControllerConfiguration *_fontPickerConfiguration;
-    NSArray *__emphasisStyles;
 }
 
 + (id);
 + (_Bool);
+- (void)ntentLength:(_Bool)arg1 chat: /* Error: Ran out of types for this method. */;
+- (void)addStandardCommandHandlersToRegistry:(_Bool)arg1;
+- (void)addRegistrationDelegate:(_Bool)arg1 queue: /* Error: Ran out of types for this method. */;
+- (void)activeAccountsAreEligibleForFilterUnknownSendersByDefault;
+- (void)account:(_Bool)arg1 devicesChanged: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)acceptFileTransfer:(_Bool)arg1;
+- (void)yncTelemetryReporter",&,N,V_telemetryReporter;
+- (id);
+- (_Bool)=> Updating existing transfer;
+- (_Bool);
+- (_Bool)fromID:%@,  /* Error: Ran out of types for this method. */;
+- (_Bool)not update it's guid %@ (rowid %@);
+- (void)chatForOutgoingMessage not providing error to caller.;
+- (void)active accounts, ensuring power notifications are *off*;
+- (void)ower notifications are on;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)7
+;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool)nging;
+- (_Bool)selectionChanging;
 - (void)purchaser:(id)arg1 eventMessage: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ðÆ;ÿåxÚLoa;
 - (id)¼ºc;
 
 // Remaining properties
-@property(nonatomic) _Bool _allowContentToScroll; // @synthesize _allowContentToScroll=__allowContentToScroll;
-@property(copy, nonatomic) NSArray *_emphasisStyles; // @synthesize _emphasisStyles=__emphasisStyles;
-@property(nonatomic, setter=_setHasParentViewController:) _Bool _hasParentViewController; // @synthesize _hasParentViewController=__hasParentViewController;
-@property(nonatomic, setter=_setHasPopoverPresentation:) _Bool _hasPopoverPresentation; // @synthesize _hasPopoverPresentation=__hasPopoverPresentation;
-@property(nonatomic) _Bool _includeDefaultFont; // @synthesize _includeDefaultFont=__includeDefaultFont;
-@property(nonatomic) _Bool _preferringDimmingVisible; // @synthesize _preferringDimmingVisible=__preferringDimmingVisible;
 @property(nonatomic) _Bool _textAnimationsConfiguration; // @synthesize _textAnimationsConfiguration=__textAnimationsConfiguration;
-@property(nonatomic) _Bool _textViewConfiguration; // @synthesize _textViewConfiguration=__textViewConfiguration;
-@property(nonatomic, setter=_setUseLandscapeLayout:) _Bool _useLandscapeLayout; // @synthesize _useLandscapeLayout=__useLandscapeLayout;
-@property(nonatomic) _Bool _useReducedMetrics; // @synthesize _useReducedMetrics=__useReducedMetrics;
-@property(copy, nonatomic) UIFontPickerViewControllerConfiguration *fontPickerConfiguration; // @synthesize fontPickerConfiguration=_fontPickerConfiguration;
-@property(copy, nonatomic) NSArray *formattingStyles; // @synthesize formattingStyles=_formattingStyles;
-@property(readonly, copy, nonatomic) NSArray *groups; // @synthesize groups=_groups;
 
 @end
 

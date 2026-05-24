@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSDictionaryInvitationContext
 {
     NSString *_schemaIdentifier;
-    long long _contextType;
-    NSDictionary *_dictionary;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)@"IDSQRProtoTestRequest",&,N,V_testRequest;
+- (_Bool)ReqAppToOptInStatusDataKey;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) long long contextType; // @synthesize contextType=_contextType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *schemaIdentifier; // @synthesize schemaIdentifier=_schemaIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

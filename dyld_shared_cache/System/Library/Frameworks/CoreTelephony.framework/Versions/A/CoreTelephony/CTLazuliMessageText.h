@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotSuggestedChipList, CTLazuliCustomMetaData, NSString;
+@class CTLazuliChatBotSuggestedChipList, NSString;
 
 @interface CTLazuliMessageText
 {
     NSString *_content;
-    CTLazuliChatBotSuggestedChipList *_chipList;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
++ (_Bool)nt:%ld error:%@ stallCount:%ld variantSwitchCount:%ld playbackDuration:%ld mediaResourceRequestCount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
+- (void)b;
+- (_Bool);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)_evaluateAccessControl:(id)arg1 operation:options:log:cid:synchronous:reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliChatBotSuggestedChipList *chipList; // @synthesize chipList=_chipList;
-@property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 
 @end
 

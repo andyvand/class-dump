@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
++ (id)o;
 - (id);
-- (double);
+- (double)go;
 
 @end
 

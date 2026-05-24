@@ -5,5 +5,13 @@
 //
 
 @protocol WAXPCRequestDelegate
+- (void);
+- (void);
+- (void)w;
+- (void)in6_addr=(?=[16C][8S][4I])}S[21C][16C]}QQQQQQ}{?=i[4c]^{packet_header}{quic_frame_list=^{quic_frame}^^{quic_frame}}c[3c](?=iC)}{?=QCCC[1c]C[3c]}{?=QQQQQQQQQc[7c]}{?=CCC}{?=QCCC[5c]}){?=^{quiclog_event}}}24;
+- (void);
+- (void)InPictureSampleBufferDisplayLayerView"8@16@"NSNotification"24;
+- (void)"y"d"z"d};
+- (void)ݾ;
 @end
 

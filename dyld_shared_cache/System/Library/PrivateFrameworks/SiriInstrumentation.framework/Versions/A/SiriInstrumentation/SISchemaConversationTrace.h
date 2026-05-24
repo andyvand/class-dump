@@ -11,7 +11,6 @@
 @interface SISchemaConversationTrace : SISchemaInstrumentationMessage
 {
     NSData *_previousTurnID;
-    _Bool _hasPreviousTurnID;
 }
 
 - (void);
@@ -19,21 +18,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long),N,V_usageWeight;
+- (_Bool)tCNContactPhonemeDataKey(void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)id,     id = lower(id) WHERE     id != lower(id);
+- (id);
+- (id)v8@?0;
+- (id)deleteAppShortcutId;
 - (id)_blacklistedBundleIdentifiers;
 - (void)l.siri.mh.MHClientEvent.MHVoiceProfileICloudSyncFinished;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPreviousTurnID; // @synthesize hasPreviousTurnID=_hasPreviousTurnID;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *previousTurnID; // @synthesize previousTurnID=_previousTurnID;
 
 @end

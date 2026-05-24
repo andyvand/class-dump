@@ -7,6 +7,7 @@
 @interface StocksAnalytics.ExternalAnalyticsURLProvider
 {
     id queryItemsGenerators;
+    id;
 }
 
 @end

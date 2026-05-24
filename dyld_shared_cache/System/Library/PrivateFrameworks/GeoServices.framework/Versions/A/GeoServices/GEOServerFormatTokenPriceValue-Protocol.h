@@ -11,7 +11,6 @@
 - (NSString *)<IôI|KHLÜM<O;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currencyCode;
 @property(readonly, nonatomic) double value;
 @end
 

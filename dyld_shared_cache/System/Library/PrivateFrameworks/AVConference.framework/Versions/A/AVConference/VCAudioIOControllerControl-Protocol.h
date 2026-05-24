@@ -8,11 +8,12 @@
 
 @protocol VCAudioIOControllerControl
 
-// Remaining properties
-@property(readonly, nonatomic) NSDictionary *reportingStats;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
+@optional
+- (void);
+- (NSDictionary *);
+- (void)A9;
 
+// Remaining properties
 @property(readonly, nonatomic) _Bool supportsVoiceActivityDetection;
 @end
 

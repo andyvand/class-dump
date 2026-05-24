@@ -32,6 +32,11 @@ struct NSEdgeInsets {
     double _field4;
 };
 
+struct _NSRange {
+    unsigned long long _field1;
+    unsigned long long _field2;
+};
+
 struct __SecKey {
     struct __CFRuntimeBase {
         unsigned long long _field1;

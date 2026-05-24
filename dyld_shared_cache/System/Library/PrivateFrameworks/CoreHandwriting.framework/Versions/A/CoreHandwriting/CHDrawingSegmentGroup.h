@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CHDrawingSegmentGroup
 {
     long long _segmentGroupIndex;
-    NSArray *_segments;
 }
 
 - (long long);
 - (long long);
 - (id);
-- (id);
-- (struct CGRect);
+- (id)addMediaItems: /* Error: Ran out of types for this method. */;
+- (struct CGRect)test;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
 @property(readonly, nonatomic) long long segmentGroupIndex; // @synthesize segmentGroupIndex=_segmentGroupIndex;
-@property(readonly, nonatomic) NSArray *segments; // @synthesize segments=_segments;
-@property(readonly, nonatomic) long long totalSegmentCount;
 
 @end
 

@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface OADHyperlink
 {
     NSURL *mTargetLocation;
-    int mTargetMode;
-    NSString *mTargetFrame;
-    NSString *mAction;
-    NSString *mTooltip;
-    NSString *mInvalidUrl;
-    _Bool mDoEndSound;
-    _Bool mIsVisited;
-    _Bool mDoAddToHistory;
 }
 
 - (int);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void));
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)A	;
 - (_Bool);
 - (id);
 - (void);
@@ -46,9 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ¬;
 
 // Remaining properties
-@property(nonatomic) _Bool doAddToHistory; // @synthesize doAddToHistory=mDoAddToHistory;
 @property(nonatomic) _Bool doEndSound; // @synthesize doEndSound=mDoEndSound;
-@property(nonatomic) _Bool isVisited; // @synthesize isVisited=mIsVisited;
 
 @end
 

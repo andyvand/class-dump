@@ -8,13 +8,13 @@
 {
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)appID;
+- (void)@"<NSCopying>"8@"NSError"16;
 - (void);
 - (void);
 - (void);

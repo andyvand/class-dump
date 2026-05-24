@@ -5,5 +5,6 @@
 //
 
 @protocol CTAdaptiveImageProviding
+- (struct CGImage *)_permittedFrontList;
 @end
 

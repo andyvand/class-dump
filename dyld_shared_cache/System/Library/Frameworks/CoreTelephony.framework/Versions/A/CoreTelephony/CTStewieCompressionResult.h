@@ -9,11 +9,9 @@
 @interface CTStewieCompressionResult
 {
     _Bool _isPreferredCodec;
-    NSData *_compressedData;
-    long long _codecId;
 }
 
-+ (_Bool);
++ (_Bool)ative & numeric or positive infinity - see CMTIME_IS_NUMERIC;
 - (void);
 - (void);
 - (void);
@@ -22,16 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)mdmRecoveryKeyWithPassword:(id)arg1;
 - (id);
 - (void)qª)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long codecId; // @synthesize codecId=_codecId;
 @property(retain, nonatomic) NSData *compressedData; // @synthesize compressedData=_compressedData;
-@property(nonatomic) _Bool isPreferredCodec; // @synthesize isPreferredCodec=_isPreferredCodec;
 
 @end
 

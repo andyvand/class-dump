@@ -5,6 +5,8 @@
 //
 
 @protocol TableView_Common_Delegate
+- (void);
+- (struct TFENode);
 
 // Remaining properties
 @property struct TFENode nodeToDoubleClick;

@@ -5,6 +5,7 @@
 //
 
 @protocol AVBehaviorInternal
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id behaviorContext;

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInvocation, NSObject, NSTimer;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface PDFTimerPrivate
 {
     NSObject *target;
-    NSInvocation *methodInvocation;
-    NSTimer *timer;
-    double timeInterval;
-    _Bool isRequested;
 }
 
 - (void);

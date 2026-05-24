@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QCPixelFormat;
+@class NSString, QCPixelFormat;
 
 @protocol QCStreamProvider
+- (NSString *);
+- (int)ghtTypeProbe;
 - (QCPixelFormat *)à;
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly) unsigned long long elementSize;
-@property(readonly) QCPixelFormat *pixelFormat;
-@property(readonly) unsigned long long pixelsDeep;
-@property(readonly) unsigned long long pixelsHigh;
-@property(readonly) unsigned long long pixelsWide;
-@property(readonly) _Bool supportsConversion;
-@property(readonly) int type;
 @end
 

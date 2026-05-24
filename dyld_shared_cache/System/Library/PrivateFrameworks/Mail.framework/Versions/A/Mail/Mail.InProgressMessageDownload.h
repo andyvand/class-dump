@@ -7,14 +7,6 @@
 @interface Mail.InProgressMessageDownload
 {
     id uid;
-    id isWatchDownload;
-    id bodyStructure;
-    id existingData;
-    id downloadedHeader;
-    id sections;
-    id passAndActionID;
-    id cleanedUpFullMessageData;
-    id _cachedAttachmentFilenames;
 }
 
 @end

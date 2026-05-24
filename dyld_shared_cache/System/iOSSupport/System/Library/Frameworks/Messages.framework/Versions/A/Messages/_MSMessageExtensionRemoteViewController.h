@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSUUID;
+@class NSUUID;
 
 @interface _MSMessageExtensionRemoteViewController
 {
     _Bool _providesExplicitSizeSnapshot;
-    _Bool _needsSizeMatchBeforeSnapshotSwap;
-    _Bool _readyToDisplay;
-    NSUUID *_requestUUID;
-    NSExtension *_weakExtension;
-    long long _intent;
 }
 
 - (void);
@@ -32,15 +27,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)8;
 
 // Remaining properties
-@property(nonatomic) long long intent; // @synthesize intent=_intent;
-@property(nonatomic) _Bool needsSizeMatchBeforeSnapshotSwap; // @synthesize needsSizeMatchBeforeSnapshotSwap=_needsSizeMatchBeforeSnapshotSwap;
-@property(nonatomic) _Bool providesExplicitSizeSnapshot; // @synthesize providesExplicitSizeSnapshot=_providesExplicitSizeSnapshot;
-@property(nonatomic, getter=isReadyToDisplay) _Bool readyToDisplay; // @synthesize readyToDisplay=_readyToDisplay;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(nonatomic) __weak NSExtension *weakExtension; // @synthesize weakExtension=_weakExtension;
 
 @end
 

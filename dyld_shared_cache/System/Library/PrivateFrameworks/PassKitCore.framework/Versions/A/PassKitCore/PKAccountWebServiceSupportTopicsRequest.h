@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKPaymentTransaction;
+@class NSString;
 
 @interface PKAccountWebServiceSupportTopicsRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    PKPaymentTransaction *_transaction;
 }
 
 - (id);
 - (id);
-- (void);
+- (void));
 - (id)t response:%@ /* Error: Ran out of types for this method. */;
-- (void)cationInfo;
+- (void)verificationInfo;
 - (void);
 - (id)à>áÿWkDF;
 - (void)jþÚ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKPaymentTransaction *transaction; // @synthesize transaction=_transaction;
 
 @end
 

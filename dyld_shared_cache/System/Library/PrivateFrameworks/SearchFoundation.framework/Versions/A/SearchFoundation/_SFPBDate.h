@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBDate
 {
     double _secondsSince1970;
@@ -16,23 +14,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (double);
+- (_Bool)o;
+- (id)onshipPredicateForHighlight (sharedHandler):Unhandled highlight kind:%ld /* Error: Ran out of types for this method. */;
+- (double)refetchCount=%lu;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double secondsSince1970; // @synthesize secondsSince1970=_secondsSince1970;
-@property(readonly) Class superclass;
 
 @end
 

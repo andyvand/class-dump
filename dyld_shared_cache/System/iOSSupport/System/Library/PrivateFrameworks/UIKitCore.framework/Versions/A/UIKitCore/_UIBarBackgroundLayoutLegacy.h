@@ -6,20 +6,12 @@
 
 #import <UIKitCore/_UIBarBackgroundLayout.h>
 
-@class NSArray, UIColor, UIImage, UIVibrancyEffect;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarBackgroundLayoutLegacy : _UIBarBackgroundLayout
 {
     long long _translucence;
-    UIImage *_backgroundImage;
-    UIColor *_backgroundTintColor;
-    NSArray *_backgroundEffects;
-    UIImage *_shadowImage;
-    UIColor *_shadowColor;
-    UIVibrancyEffect *_shadowEffect;
-    _Bool _hasShadow;
-    double _topInset;
 }
 
 - (void);
@@ -28,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (id);
+- (id)setHasBoolPredicateValue:(long long)arg1;
 - (id);
-- (id);
-- (double);
+- (double);
 - (void);
 - (void)`Ð1Â0@ù
 × ;
@@ -38,17 +30,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Q24@0:(id)arg1 8r^{InteractionEndingContext={InteractionContext=@}BQ@@?@?}16;
 - (void);
-- (void)eMovementOfItemsToFinalIndexPaths:(long long)arg1 previousIndexPaths:(id)arg2 movementCancelled:(_Bool)arg3;
-- (double)nitialGlobalIndexForFinalGlobalIndex: /* Error: Ran out of types for this method. */;
-- (id)dState: /* Error: Ran out of types for this method. */;
-- (id)te: /* Error: Ran out of types for this method. */;
+- (void)invalidationContextForEndingInteractiveMovementOfItemsToFinalIndexPaths:(long long)arg1 previousIndexPaths:(id)arg2 movementCancelled:(_Bool)arg3;
+- (double)initialGlobalIndexForFinalGlobalIndex: /* Error: Ran out of types for this method. */;
+- (id)buttonHeldState:forRequestedState: /* Error: Ran out of types for this method. */;
+- (id)_setFormDelegate: /* Error: Ran out of types for this method. */;
 - (void)ontainerView;
 - (void)t;;
 - (id)dOther - flushing recent actions;
 - (void);
 - (void)p}Ö^;
 - (void)¾^;
-- (id);
+- (id)D8_;
 - (id);
 - (void);
 - (_Bool)ÓÊÿ;
@@ -59,11 +51,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ì£e;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;
-@property(nonatomic) _Bool disableTinting; // @dynamic disableTinting;
-@property(readonly, nonatomic) _Bool hasBackgroundEffect;
 @property(readonly, nonatomic) UIImage *shadowImage;
-@property(nonatomic) double topInset; // @synthesize topInset=_topInset;
 
 @end
 

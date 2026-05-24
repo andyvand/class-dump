@@ -11,34 +11,27 @@
 @interface TSKPulseAnimationController : TSKHighlightController
 {
     id <TSKPulseAnimationControllerProtocol> _delegate;
-    _Bool _pulsating;
-    _Bool _autohide;
-    double _duration;
-    double _pulseOffset;
 }
 
+- (void)PlaybackStackController - Failing jumpToTime [Media services unavailable]- identifier:(_Bool)arg1;
+- (void)kDidStart while playing (no stall flags) - forwarding to cancel stall timer;
+- (_Bool);
+- (_Bool);
+- (_Bool)LJ;
+- (double)presentation;
+- (void)userChannelContextData;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (double);
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)Ҽ;
 - (id);
-- (void);
+- (void)TSCHChartAxisNumberOfMajorGridlinesProperty;
 - (void)";
 
 // Remaining properties
-@property(nonatomic) _Bool autohide; // @synthesize autohide=_autohide;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(nonatomic) _Bool pulsating; // @synthesize pulsating=_pulsating;
-@property(nonatomic) double pulseOffset; // @synthesize pulseOffset=_pulseOffset;
 
 @end
 

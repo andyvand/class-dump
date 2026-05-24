@@ -5,5 +5,6 @@
 //
 
 @protocol MessageListDataSourceDelegate
+- (_Bool)`I;
 @end
 

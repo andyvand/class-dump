@@ -15,7 +15,7 @@
 + (id);
 + (unsigned long long);
 + (unsigned long long);
-+ (long long);
++ (long long))	;
 + (id);
 + (id);
 + (id);

@@ -7,12 +7,9 @@
 @interface CLBIO_Quaternion
 {
     double _X;
-    double _Y;
-    double _Z;
-    double _W;
 }
 
-+ (_Bool);
++ (_Bool);
 - (double);
 - (double);
 - (double);
@@ -21,13 +18,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)pipelineNames;
 
 // Remaining properties
-@property(readonly, nonatomic) double W; // @synthesize W=_W;
 @property(readonly, nonatomic) double X; // @synthesize X=_X;
-@property(readonly, nonatomic) double Y; // @synthesize Y=_Y;
-@property(readonly, nonatomic) double Z; // @synthesize Z=_Z;
 
 @end
 

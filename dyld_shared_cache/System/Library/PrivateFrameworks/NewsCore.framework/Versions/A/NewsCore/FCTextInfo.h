@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, FCLoadableFont;
+@class FCLoadableFont;
 
 @interface FCTextInfo
 {
     FCLoadableFont *_font;
-    long long _fontSizeAdjustment;
-    double _lineHeightMultiplier;
-    FCColor *_color;
 }
 
 + (id);
@@ -24,14 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (void)ludeOptions;
-- (void)sionValue;
+- (void)_includeOptions;
+- (void)presentationBaselineImpressionValue;
 
 // Remaining properties
-@property(copy, nonatomic) FCColor *color; // @synthesize color=_color;
 @property(copy, nonatomic) FCLoadableFont *font; // @synthesize font=_font;
-@property(nonatomic) long long fontSizeAdjustment; // @synthesize fontSizeAdjustment=_fontSizeAdjustment;
-@property(nonatomic) double lineHeightMultiplier; // @synthesize lineHeightMultiplier=_lineHeightMultiplier;
 
 @end
 

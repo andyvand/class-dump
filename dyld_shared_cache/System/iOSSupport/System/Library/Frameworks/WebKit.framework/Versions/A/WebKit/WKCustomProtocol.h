@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WKCustomProtocol
 {
     Markable_93b2c3f8 _customProtocolID;
-    struct RetainPtr<__CFRunLoop *> _initializationRunLoop;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) Markable_93b2c3f8 customProtocolID; // @synthesize customProtocolID=_customProtocolID;
-@property(readonly, nonatomic) struct __CFRunLoop *initializationRunLoop;
 
 @end
 

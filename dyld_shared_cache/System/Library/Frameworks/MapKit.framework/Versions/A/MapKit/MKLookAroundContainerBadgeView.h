@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _MKUILabel *_label;
 }
 
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id)ger _getCurrentHEPAsset];
+- (void)indexOfObjectPassingTest: /* Error: Ran out of types for this method. */;
 
 @end
 

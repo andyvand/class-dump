@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -27,9 +27,9 @@
 - (id);
 - (long long);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 

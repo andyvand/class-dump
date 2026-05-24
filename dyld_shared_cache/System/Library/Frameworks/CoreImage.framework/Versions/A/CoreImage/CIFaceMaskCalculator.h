@@ -6,31 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFaceMaskCalculator : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputFacesLeftEyeX;
-    CIVector *inputFacesLeftEyeY;
-    CIVector *inputFacesCenterX;
-    CIVector *inputFacesCenterY;
-    CIVector *inputFacesRightEyeX;
-    CIVector *inputFacesRightEyeY;
-    CIVector *inputFacesChinX;
-    CIVector *inputFacesChinY;
-    NSNumber *inputMaxBlur;
-    NSNumber *inputFacesCapMultip;
-    NSNumber *inputFacesMaxBlurOnEyes;
-    NSNumber *inputFacesMaxBlurDistFromFocus;
-    NSNumber *inputFacesLinearBlurGrowthM;
-    NSNumber *inputFacesLinearBlurGrowthC;
-    NSNumber *inputFacesEyeToEyebrowRatio;
-    NSNumber *inputFacesDistToBlurScaling;
-    NSNumber *inputFacesGainMultip;
-    NSNumber *inputApertureScaling;
-    NSDictionary *inputTuningParameters;
 }
 
 - (void);
@@ -42,12 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);F9
+];
+- (void)};
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -63,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -79,26 +61,7 @@ __attribute__((visibility("hidden")))
 - (id)q|{££££¸¸¸¸ªªªªM`VgBTG]NaWf~~~~££££ |q}{}}}}d{z~y~}^sn|bqk}~s}}txwzyyyy{{{{`xwbb|xo    {zy{U]U^SSSSEUIWonio¢¢¢¢aunsxs~}|{}quqwzzxz_urx{Xpfr{t¡¡vvvvR^Ud@\Ti{{{{grqukmir~~~~yyyyTd\jXbYb`aWcjohs¢´´´´¼¼¼¼¡¡¡¡F`WsFF6TNM@NUTKUccbckkkkaaaaCF:MGG:GSSOSTebfttttotttXf\o_mext|IcVuReXpzzszt}n{~Yso^c\iNNBN#3"=*<0@HHHHKKDK<K@Vdiekgvu|qvvvvooloalftPsq|{{{{gqntBaZqalftszy||}ekfn6N?_JZO_cc[c@]Rjo~}{{kn}x]|{swwww`jfnPgancnirvyv{x £¦¦¨¨¨¨UrjDi_vyw{ppoprrrr~~~~wwwwbf`gHUK]@QEYBRHVOOCOAH8M@UH_p¥¥¥¥±±±±££¤¤i}UmbXumz}bvoxwoYtlzqEWGcTO;X^g\j¡¡¡8]Uqfhckmmmmgppqttttpppp_e_klpnr}}}}v{{{^mgqmmgmkrlvRlc|Qi`xiwt~ruuuu`]T`6I:Zqolqeqo| /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputApertureScaling; // @synthesize inputApertureScaling;
-@property(copy, nonatomic) NSNumber *inputFacesCapMultip; // @synthesize inputFacesCapMultip;
-@property(retain, nonatomic) CIVector *inputFacesCenterX; // @synthesize inputFacesCenterX;
-@property(retain, nonatomic) CIVector *inputFacesCenterY; // @synthesize inputFacesCenterY;
-@property(retain, nonatomic) CIVector *inputFacesChinX; // @synthesize inputFacesChinX;
-@property(retain, nonatomic) CIVector *inputFacesChinY; // @synthesize inputFacesChinY;
-@property(copy, nonatomic) NSNumber *inputFacesDistToBlurScaling; // @synthesize inputFacesDistToBlurScaling;
-@property(copy, nonatomic) NSNumber *inputFacesEyeToEyebrowRatio; // @synthesize inputFacesEyeToEyebrowRatio;
-@property(copy, nonatomic) NSNumber *inputFacesGainMultip; // @synthesize inputFacesGainMultip;
-@property(retain, nonatomic) CIVector *inputFacesLeftEyeX; // @synthesize inputFacesLeftEyeX;
-@property(retain, nonatomic) CIVector *inputFacesLeftEyeY; // @synthesize inputFacesLeftEyeY;
-@property(copy, nonatomic) NSNumber *inputFacesLinearBlurGrowthC; // @synthesize inputFacesLinearBlurGrowthC;
-@property(copy, nonatomic) NSNumber *inputFacesLinearBlurGrowthM; // @synthesize inputFacesLinearBlurGrowthM;
-@property(copy, nonatomic) NSNumber *inputFacesMaxBlurDistFromFocus; // @synthesize inputFacesMaxBlurDistFromFocus;
-@property(copy, nonatomic) NSNumber *inputFacesMaxBlurOnEyes; // @synthesize inputFacesMaxBlurOnEyes;
-@property(retain, nonatomic) CIVector *inputFacesRightEyeX; // @synthesize inputFacesRightEyeX;
-@property(retain, nonatomic) CIVector *inputFacesRightEyeY; // @synthesize inputFacesRightEyeY;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputMaxBlur; // @synthesize inputMaxBlur;
-@property(retain, nonatomic) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

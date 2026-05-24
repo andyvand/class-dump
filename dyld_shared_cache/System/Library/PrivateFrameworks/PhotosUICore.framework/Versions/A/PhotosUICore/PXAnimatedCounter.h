@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSMutableArray, UXLabel;
+@class NSFont, NSMutableArray;
 
 @interface PXAnimatedCounter
 {
     NSFont *_font;
-    unsigned long long _number;
-    NSMutableArray *_digitLabels;
-    UXLabel *_backingLabel;
-    unsigned long long _animationsInProgress;
-    struct CGSize _maxDigitSize;
-    struct CGSize _previousSize;
 }
 
 - (void);
@@ -30,7 +24,7 @@
 - (unsigned long long);
 - (double);
 - (void);
-- (void);
+- (void)%;
 - (id);
 - (unsigned long long);
 - (void);
@@ -46,20 +40,14 @@
 × ;
 - (id)"PHPhotoLibrary"24@?<v@?B@"NSError">32;
 - (void);
-- (void)ed: /* Error: Ran out of types for this method. */;
+- (void)keyFaceUpdated: /* Error: Ran out of types for this method. */;
 - (id)Äâã;
 - (void)jÿ;
 - (void)cesMapSimpleLayout layout] dataSource cannot be nil;
 - (void);
 
 // Remaining properties
-@property unsigned long long animationsInProgress; // @synthesize animationsInProgress=_animationsInProgress;
-@property(readonly) UXLabel *backingLabel; // @synthesize backingLabel=_backingLabel;
 @property(readonly) NSMutableArray *digitLabels; // @synthesize digitLabels=_digitLabels;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property struct CGSize maxDigitSize; // @synthesize maxDigitSize=_maxDigitSize;
-@property(nonatomic) unsigned long long number; // @synthesize number=_number;
-@property struct CGSize previousSize; // @synthesize previousSize=_previousSize;
 
 @end
 

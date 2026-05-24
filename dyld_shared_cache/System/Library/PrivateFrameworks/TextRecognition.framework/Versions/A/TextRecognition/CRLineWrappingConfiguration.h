@@ -7,7 +7,6 @@
 @interface CRLineWrappingConfiguration
 {
     _Bool _allowWrappingBetweenGroups;
-    _Bool _mergeOversegmentedTokens;
 }
 
 - (void);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property _Bool allowWrappingBetweenGroups; // @synthesize allowWrappingBetweenGroups=_allowWrappingBetweenGroups;
-@property _Bool mergeOversegmentedTokens; // @synthesize mergeOversegmentedTokens=_mergeOversegmentedTokens;
 
 @end
 

@@ -7,12 +7,9 @@
 @interface ConversationKit.DisplayLayerVisibilityObserver
 {
     id _isHidingLayersFromClonedDisplay;
-    id displayObservers;
-    id display;
-    id screenShareAttributes;
 }
 
-- (void);
+- (void)z;
 - (void);
 
 @end

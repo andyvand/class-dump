@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-- (void);
+- (void)@"NSData"8;
 - (void);
 - (void);
 - (void);

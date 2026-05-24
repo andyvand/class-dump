@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)configureAlertBehavior:(id)arg1 audioStreamHandleId: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)mpletionHandler:(struct _NSZone *)arg1;
+- (id)preloadRoadTilesNear:(struct _NSZone *)arg1 radius:preloadToDiskOnly:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)$+;
 - (id)me, name, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE region_id IN lookup_region_name_by_id_recursive AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0    LIMIT 1;;
 - (void)Ó¦þø;

@@ -7,7 +7,6 @@
 @interface NewsUI2.WebEmbedInteractor
 {
     id delegate;
-    id dataManager;
 }
 
 @end

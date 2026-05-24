@@ -6,17 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaBookMetadata : _BlastDoorLPSpecializationMetadata
 {
     _Bool _hasSpineOnRight;
-    NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_author;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
@@ -28,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ng for non-reply context preview type %lu;
 - (id);
 - (id);
 - (void);
@@ -37,20 +31,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)alCommand;
+- (id)V}*J;
+- (void)originalCommand;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(nonatomic) _Bool hasSpineOnRight; // @synthesize hasSpineOnRight=_hasSpineOnRight;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

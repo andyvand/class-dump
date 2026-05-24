@@ -11,20 +11,20 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)fig;
 + (_Bool)ng converted to an Apple event record.;
 + (void);
 + (id)y­0k¼÷,;
 - (id);
 - (unsigned long long);
-- (id);
+- (id);;
 - (oneway void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id)

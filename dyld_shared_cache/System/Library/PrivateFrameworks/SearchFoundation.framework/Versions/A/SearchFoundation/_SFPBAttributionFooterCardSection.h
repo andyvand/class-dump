@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBCommand, _SFPBPunchout, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBAttributionFooterCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBRichText *_leadingAttribution;
-    _SFPBPunchout *_leadingAttributionPunchout;
-    _SFPBRichText *_trailingAttribution;
-    _SFPBPunchout *_trailingAttributionPunchout;
-    _SFPBCommand *_trailingAttributionCommand;
 }
 
 - (id);
@@ -31,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -47,49 +34,28 @@
 - (void);
 - (void);
 - (void);
+- (id)8;
+- (_Bool)-;
+- (_Bool)ipping;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)_;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)dioFileURL"b1"played"b1"trashed"b1};
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ePairedVideoURL:(id)arg1 adjustmentBaseFullSizePairedVideoURL:spatialOvercapturePairedVideoURL:fullSizeVideoURL:adjustmentsURL:originalAdjustmentsURL:adjustmentsSecondaryDataURL:mediaSubtypes:playbackStyle:playbackVariation:videoComplementVisibilityState: /* Error: Ran out of types for this method. */;
+- (id)ng without hints...;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ForKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (void)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (int)1øÿÙýï;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRichText *leadingAttribution; // @synthesize leadingAttribution=_leadingAttribution;
-@property(retain, nonatomic) _SFPBPunchout *leadingAttributionPunchout; // @synthesize leadingAttributionPunchout=_leadingAttributionPunchout;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *trailingAttribution; // @synthesize trailingAttribution=_trailingAttribution;
-@property(retain, nonatomic) _SFPBCommand *trailingAttributionCommand; // @synthesize trailingAttributionCommand=_trailingAttributionCommand;
-@property(retain, nonatomic) _SFPBPunchout *trailingAttributionPunchout; // @synthesize trailingAttributionPunchout=_trailingAttributionPunchout;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

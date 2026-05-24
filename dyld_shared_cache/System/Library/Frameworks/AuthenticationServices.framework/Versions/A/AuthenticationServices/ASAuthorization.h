@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ASAuthorizationCredential, ASAuthorizationProvider;
+@protocol ASAuthorizationProvider;
 
 @interface ASAuthorization
 {
     id <ASAuthorizationProvider> _provider;
-    id <ASAuthorizationCredential> _credential;
 }
 
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)ndlingPageTransition;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)supplementalSearchFieldCommandPerformer;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASAuthorizationCredential> credential; // @synthesize credential=_credential;
 @property(readonly, nonatomic) id <ASAuthorizationProvider> provider; // @synthesize provider=_provider;
 
 @end

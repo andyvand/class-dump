@@ -5,6 +5,8 @@
 //
 
 @protocol SpeakerRecognition.CSVTUIKeywordDetectorProtocol
+- (_Bool)-;
 - (id);
+- (void)ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 @end
 

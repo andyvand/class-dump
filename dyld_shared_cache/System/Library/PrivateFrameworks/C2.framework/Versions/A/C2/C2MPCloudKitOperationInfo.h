@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface C2MPCloudKitOperationInfo
 {
     unsigned int _operationGroupIndex;
-    NSString *_operationId;
-    NSString *_operationType;
-    _Bool _operationTriggered;
-    struct {
-        unsigned int operationGroupIndex:1;
-        unsigned int operationTriggered:1;
-    } _has;
 }
 
 - (id);
@@ -38,21 +29,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)wrapperWithURL:(id)arg1 extensionClass:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOperationGroupIndex;
 @property(readonly, nonatomic) _Bool hasOperationId;
-@property(nonatomic) _Bool hasOperationTriggered;
-@property(readonly, nonatomic) _Bool hasOperationType;
-@property(nonatomic) unsigned int operationGroupIndex; // @synthesize operationGroupIndex=_operationGroupIndex;
-@property(retain, nonatomic) NSString *operationId; // @synthesize operationId=_operationId;
-@property(nonatomic) _Bool operationTriggered; // @synthesize operationTriggered=_operationTriggered;
-@property(retain, nonatomic) NSString *operationType; // @synthesize operationType=_operationType;
 
 @end
 

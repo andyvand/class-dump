@@ -25,7 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isiWorkURL) _Bool iWorkURL;
 @property(retain, setter=ls_setPreferredLocalizations:) NSArray *ls_preferredLocalizations;
 @end
 

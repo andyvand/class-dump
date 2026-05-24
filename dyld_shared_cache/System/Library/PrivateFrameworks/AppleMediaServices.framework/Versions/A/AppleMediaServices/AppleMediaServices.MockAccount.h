@@ -7,13 +7,6 @@
 @interface AppleMediaServices.MockAccount
 {
     id accountType;
-    id altDSID;
-    id dsid;
-    id firstName;
-    id identifier;
-    id lastName;
-    id username;
-    id activeMediaTypes;
 }
 
 @end

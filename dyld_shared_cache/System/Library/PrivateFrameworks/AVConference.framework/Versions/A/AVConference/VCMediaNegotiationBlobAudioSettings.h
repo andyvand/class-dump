@@ -8,14 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobAudioSettings
 {
     unsigned int _audioUnitModel;
-    unsigned int _payloadFlags;
-    unsigned int _rtpSSRC;
-    unsigned int _secondaryFlags;
-    unsigned int _supportFlags;
-    _Bool _useSBR;
-    struct {
-        unsigned int audioUnitModel:1;
-    } _has;
 }
 
 + (int);
@@ -28,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
+- (void)j;
 - (unsigned int);
 - (void);
 - (unsigned int);
@@ -39,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -53,14 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowAudioRecording;
-@property(readonly, nonatomic) _Bool allowAudioSwitching;
-@property(nonatomic) unsigned int audioUnitModel; // @synthesize audioUnitModel=_audioUnitModel;
-@property(nonatomic) _Bool hasAudioUnitModel;
-@property(nonatomic) unsigned int payloadFlags; // @synthesize payloadFlags=_payloadFlags;
-@property(nonatomic) unsigned int rtpSSRC; // @synthesize rtpSSRC=_rtpSSRC;
-@property(nonatomic) unsigned int secondaryFlags; // @synthesize secondaryFlags=_secondaryFlags;
-@property(nonatomic) unsigned int supportFlags; // @synthesize supportFlags=_supportFlags;
-@property(nonatomic) _Bool useSBR; // @synthesize useSBR=_useSBR;
 
 @end
 

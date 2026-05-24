@@ -5,5 +5,9 @@
 //
 
 @protocol CNGroupIdentityHeaderViewControllerDelegate
+
+@optional
+- (void)GColor=},&,N,V_strokeColor;
+- (void),V_type;
 @end
 

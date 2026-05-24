@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSRemoteView, REMReminderCreationRemoteViewController;
+@class REMReminderCreationRemoteViewController;
 
 @interface REMReminderServiceViewController
 {
     _Bool _viewHasAppeared;
-    REMReminderCreationRemoteViewController *_childViewController;
-    NSRemoteView *_remoteView;
-    NSError *_deferredErrorDuringPresentation;
 }
 
-+ (id);
++ (id)s.;
 + (id);
 - (id);
 - (void);
@@ -28,12 +25,12 @@
 - (id);
 - (void);
 - (id);
+- (void)\y@G\yRt;
 - (void);
 - (void);
+- (id)to missing contactIdentifier. contactIdentifier:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (id);
@@ -42,13 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=setChildViewController:) REMReminderCreationRemoteViewController *childViewController; // @synthesize childViewController=_childViewController;
-@property(copy, nonatomic) NSError *deferredErrorDuringPresentation; // @synthesize deferredErrorDuringPresentation=_deferredErrorDuringPresentation;
-@property(retain, nonatomic) NSRemoteView *remoteView; // @synthesize remoteView=_remoteView;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(nonatomic) _Bool viewHasAppeared; // @synthesize viewHasAppeared=_viewHasAppeared;
 
 @end
 

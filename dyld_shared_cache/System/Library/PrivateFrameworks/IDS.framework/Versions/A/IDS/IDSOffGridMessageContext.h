@@ -9,10 +9,6 @@
 @interface IDSOffGridMessageContext
 {
     NSString *_senderMergeID;
-    NSString *_identifier;
-    long long _transportType;
-    long long _serviceType;
-    long long _underlyingCommand;
 }
 
 + (_Bool);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)d,N,V_pairCheckTime;
 - (void);
 - (void);
 - (void);
@@ -31,14 +27,10 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (long long)SigningDigest: /* Error: Ran out of types for this method. */;
+- (long long)initWithSigningDigest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSString *senderMergeID; // @synthesize senderMergeID=_senderMergeID;
-@property(nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) long long transportType; // @synthesize transportType=_transportType;
-@property(nonatomic) long long underlyingCommand; // @synthesize underlyingCommand=_underlyingCommand;
 
 @end
 

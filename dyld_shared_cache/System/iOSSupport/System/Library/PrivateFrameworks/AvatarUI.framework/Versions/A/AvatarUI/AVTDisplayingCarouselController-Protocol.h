@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTView;
 @protocol AVTDisplayingCarouselControllerDelegate;
 
 @protocol AVTDisplayingCarouselController
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTDisplayingCarouselControllerDelegate> displayingDelegate;
-@property(readonly, nonatomic) AVTView *focusedDisplayView;
 @end
 

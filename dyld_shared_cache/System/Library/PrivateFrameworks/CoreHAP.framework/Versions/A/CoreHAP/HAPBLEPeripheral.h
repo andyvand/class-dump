@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPeripheral, NSArray, NSData, NSMutableArray, NSNumber, NSString, NSUUID;
+@class NSMutableArray;
 
 @interface HAPBLEPeripheral
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isCached;
-    NSString *_name;
-    NSString *_identifier;
-    NSUUID *_uniqueBTIdentifier;
-    NSNumber *_hkType;
-    NSNumber *_advInterval;
-    NSString *_advDeviceAddress;
-    NSNumber *_statusFlags;
-    NSNumber *_category;
-    NSNumber *_stateNumber;
-    NSNumber *_configNumber;
-    NSData *_setupHash;
-    NSData *_encryptedPayload;
-    NSNumber *_averageRSSI;
-    double _lastSeen;
-    unsigned long long _advertisementFormat;
-    CBPeripheral *_cbPeripheral;
-    NSString *_whbStableIdentifier;
-    NSMutableArray *_cbPeripheralUUIDs;
 }
 
 + (id);
@@ -35,11 +16,11 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
@@ -47,8 +28,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (long long);
 - (long long);
 - (id);
@@ -58,7 +39,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -68,49 +49,29 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (id)erRecognitionSATProcessingStatus;
+- (_Bool)processName:(id)arg1;
+- (id)\;
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@"NSURL"16;
+- (void)b;
 - (_Bool)(@ùq¸°1Â0@ù
 × ;
 - (void)ticMetadata";
 - (_Bool);
 
 // Remaining properties
-@property(retain) NSString *advDeviceAddress; // @synthesize advDeviceAddress=_advDeviceAddress;
-@property(retain) NSNumber *advInterval; // @synthesize advInterval=_advInterval;
-@property unsigned long long advertisementFormat; // @synthesize advertisementFormat=_advertisementFormat;
-@property(retain) NSNumber *averageRSSI; // @synthesize averageRSSI=_averageRSSI;
-@property(retain) NSNumber *category; // @synthesize category=_category;
-@property(retain) CBPeripheral *cbPeripheral; // @synthesize cbPeripheral=_cbPeripheral;
 @property(retain, nonatomic) NSMutableArray *cbPeripheralUUIDs; // @synthesize cbPeripheralUUIDs=_cbPeripheralUUIDs;
-@property(retain) NSNumber *configNumber; // @synthesize configNumber=_configNumber;
-@property(retain) NSData *encryptedPayload; // @synthesize encryptedPayload=_encryptedPayload;
-@property(retain) NSNumber *hkType; // @synthesize hkType=_hkType;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isCached; // @synthesize isCached=_isCached;
-@property(readonly, nonatomic) _Bool isReachable;
-@property double lastSeen; // @synthesize lastSeen=_lastSeen;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *peripheralUUIDs;
-@property(retain) NSData *setupHash; // @synthesize setupHash=_setupHash;
-@property(retain) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(retain) NSNumber *statusFlags; // @synthesize statusFlags=_statusFlags;
-@property(readonly) NSUUID *uniqueBTIdentifier; // @synthesize uniqueBTIdentifier=_uniqueBTIdentifier;
-@property(copy) NSString *whbStableIdentifier; // @synthesize whbStableIdentifier=_whbStableIdentifier;
 
 @end
 

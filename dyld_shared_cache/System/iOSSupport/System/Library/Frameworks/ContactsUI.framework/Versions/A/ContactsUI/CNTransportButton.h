@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage;
+@class UIImage;
 
 @interface CNTransportButton
 {
     _Bool _showBackgroundPlatter;
-    long long _transportType;
-    UIColor *_glyphColor;
-    UIImage *_image;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)R	j!;
 - (void);
 - (struct CGSize);
-- (void);
+- (void)error = %{public}@;
 - (void);
 - (id);
-- (void);
-- (struct CGSize);
+- (void)SEASON_NUMBER_BONUS_DOCUMENT;
+- (struct CGSize);!A�v;
 - (id);
 - (void)AE!¸Dùñtð1Â0@ù
 × ;
-- (void);
-- (long long)untry;
+- (void)addContactsToListTappedWithSender: /* Error: Ran out of types for this method. */;
+- (long long)country;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *glyphColor; // @synthesize glyphColor=_glyphColor;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool showBackgroundPlatter; // @synthesize showBackgroundPlatter=_showBackgroundPlatter;
-@property(nonatomic) long long transportType; // @synthesize transportType=_transportType;
 
 @end
 

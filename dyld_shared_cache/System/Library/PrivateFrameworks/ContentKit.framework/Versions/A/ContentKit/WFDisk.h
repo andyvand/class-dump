@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, WFFileRepresentation;
+@class NSString;
 
 @interface WFDisk
 {
     NSString *_diskName;
-    NSString *_volumeUUID;
-    NSDictionary *_metadata;
-    WFFileRepresentation *_fileRepresentation;
-    NSURL *_rawURL;
 }
 
 + (_Bool);
@@ -27,15 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)__auth_got;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *diskName; // @synthesize diskName=_diskName;
-@property(readonly, nonatomic) WFFileRepresentation *fileRepresentation; // @synthesize fileRepresentation=_fileRepresentation;
-@property(readonly, copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSURL *rawURL; // @synthesize rawURL=_rawURL;
-@property(readonly, copy, nonatomic) NSString *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

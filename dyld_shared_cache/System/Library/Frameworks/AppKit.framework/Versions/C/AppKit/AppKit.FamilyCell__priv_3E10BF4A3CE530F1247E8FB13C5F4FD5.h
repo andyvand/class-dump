@@ -11,18 +11,13 @@
 @interface AppKit.FamilyCell__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 : NSTableCellView
 {
     id family;
-    id _textField;
-    id previewContainer;
-    id previewTextField;
-    id padding;
-    id inSelectedTableRowObservation;
 }
 
-- (void);
-- (void);
+- (void)description;
+- (void)A;
 - (id);
-- (id);
-- (id)iew:(struct CGRect)arg1 canOverlayArrangedView: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)_splitView:(struct CGRect)arg1 canOverlayArrangedView: /* Error: Ran out of types for this method. */;
 - (void)bí;
 
 // Remaining properties

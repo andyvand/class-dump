@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEORequestCounterCacheGetResultsReply : GEOXPCReply
 {
@@ -14,21 +14,14 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)g for the read buffer;
 - (id);
 - (void);
-- (void)conId:(id)arg1;
+- (void)setCustomIconId:(id)arg1;
 - (void)g,ÎN"P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
 
 @end
 

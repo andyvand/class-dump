@@ -9,10 +9,6 @@
 @interface EMTSentencePiece
 {
     unsigned int _vocabID;
-    unsigned int _byteBegin;
-    unsigned int _byteEnd;
-    NSString *_piece;
-    NSString *_surface;
 }
 
 + (_Bool);
@@ -31,11 +27,7 @@
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int byteBegin; // @synthesize byteBegin=_byteBegin;
-@property(readonly, nonatomic) unsigned int byteEnd; // @synthesize byteEnd=_byteEnd;
 @property(readonly, copy, nonatomic) NSString *piece; // @synthesize piece=_piece;
-@property(readonly, copy, nonatomic) NSString *surface; // @synthesize surface=_surface;
-@property(readonly, nonatomic) unsigned int vocabID; // @synthesize vocabID=_vocabID;
 
 @end
 

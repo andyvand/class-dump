@@ -5,5 +5,7 @@
 //
 
 @protocol AVAudioNotificationCenterServerDelegate
+- (void)NEAppProxyProviderContainer;
+- (int)NEAppProxyProvider;
 @end
 

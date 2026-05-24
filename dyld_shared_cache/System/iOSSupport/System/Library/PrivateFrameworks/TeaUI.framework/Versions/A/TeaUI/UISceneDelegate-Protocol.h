@@ -7,6 +7,9 @@
 @protocol UISceneDelegate
 
 @optional
+- (void)#;
+- (void);
+- (void)	;
 - (void)ÿ¸ÿÿvIþÿLIþÿ;
 - (void)(ûâÿ;
 @end

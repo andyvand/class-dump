@@ -5,5 +5,6 @@
 //
 
 @protocol WindowSectionDelegate
+- (void)",C,D;
 @end
 

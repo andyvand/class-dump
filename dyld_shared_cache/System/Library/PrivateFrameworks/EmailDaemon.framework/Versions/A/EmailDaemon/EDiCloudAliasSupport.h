@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString, NSURL;
+@class ACAccount;
 
 @interface EDiCloudAliasSupport
 {
@@ -14,27 +14,17 @@
 + (id)0@ù
 × ;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id),V_previousDisconnectReason;
 - (id);
 - (void)eived:now:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aliasAuthorizationHeader;
-@property(readonly, nonatomic) NSURL *aliasLookupURL;
-@property(readonly, nonatomic) NSString *aliasUserAgent;
 @property(readonly, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

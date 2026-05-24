@@ -4,69 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableSet, NSString, PKPassVerificationMethodGroup, PKVerificationChannel;
+@class NSDictionary, NSString;
 
 @interface PKVerificationRequestRecord
 {
     NSDictionary *_requiredFieldData;
-    NSMutableSet *_startedMethodIdentifiers;
-    NSMutableSet *_completedMethodIdentifiers;
-    NSDate *_inProgressMethodStart;
-    NSString *_currentStepIdentifier;
-    NSString *_previousStepIdentifier;
-    long long _verificationStatus;
-    NSString *_passUniqueID;
-    NSDate *_date;
-    NSArray *_methodGroups;
-    PKPassVerificationMethodGroup *_activeMethodGroup;
 }
 
-+ (id);
++ (id)R;
 + (_Bool);
 - (long long);
 - (void);
+- (void)T	A@9?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)=;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)T4;
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)channelScanCountAtIndex:(id)arg1;
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)ST_DELIMITER_WITH_SPACE;
+- (id);
+- (void)LOCALIZED_LIST_DELIMITER_WITH_SPACE;
 
 // Remaining properties
-@property(retain, nonatomic) PKPassVerificationMethodGroup *activeMethodGroup; // @synthesize activeMethodGroup=_activeMethodGroup;
-@property(copy, nonatomic) NSArray *allChannels;
-@property(copy, nonatomic) PKVerificationChannel *channel;
 @property(copy, nonatomic) NSString *currentStepIdentifier; // @synthesize currentStepIdentifier=_currentStepIdentifier;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSArray *methodGroups; // @synthesize methodGroups=_methodGroups;
-@property(copy, nonatomic) NSString *passUniqueID; // @synthesize passUniqueID=_passUniqueID;
-@property(copy, nonatomic) NSString *previousStepIdentifier; // @synthesize previousStepIdentifier=_previousStepIdentifier;
-@property(nonatomic) long long verificationStatus; // @synthesize verificationStatus=_verificationStatus;
 
 @end
 

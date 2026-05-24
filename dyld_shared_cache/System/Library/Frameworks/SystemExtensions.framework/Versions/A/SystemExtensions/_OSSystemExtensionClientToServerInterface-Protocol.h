@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSString, NSURL, OSSystemExtensionProperties;
+
 @protocol _OSSystemExtensionClientToServerInterface
+- (void)@ messageUUID %@ expiryDate %@;
+- (void)Receiver:(NSString *)arg1 appending message %@ (size:(NSURL *)arg2 %lu) to file %@;
+- (void)%@ (size:(NSString *)arg1 %lu decompressed:(NSData *)arg2 %lu) to file %@;
+- (void)ketPairResourceTransferReceiver:(OSSystemExtensionProperties *)arg1 already done with this resource! messageUUID %@;
+- (void)r @ %@;
 @end
 

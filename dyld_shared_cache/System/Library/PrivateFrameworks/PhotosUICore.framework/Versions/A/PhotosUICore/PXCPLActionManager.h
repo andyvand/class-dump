@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (id)ing;
+- (id)labelPadding;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface Foundation._FTSSequence.Iterator
 {
     id state;
-    id path;
-    id lastDeviceInode;
-    id deviceNumbers;
-    id deviceEntryPoints;
-    id shouldFilterUnderbars;
 }
 
 @end

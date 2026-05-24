@@ -5,5 +5,8 @@
 //
 
 @protocol CNPredicateVisitor
+- (void);
+- (void);
+- (void);
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INTimer
 {
     INSpeakableString *_label;
-    double _duration;
-    double _remainingTime;
-    NSString *_identifier;
-    long long _state;
-    long long _type;
 }
 
 + (id);
@@ -28,29 +23,17 @@
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)setNumberOfReports:(id)arg1;
+- (void)scover/join a more-preferred network, will join less-preferred candidate;
 - (id);
 - (id);
 - (id);
-- (id)dDefaultValue:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)ithCompletion: /* Error: Ran out of types for this method. */;
+- (id)initWithArchivedDefaultValue:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)provideWorkoutNameOptionsCollectionForEndWorkout:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)(Ü¾ÿÎî;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy) INSpeakableString *label; // @synthesize label=_label;
-@property(readonly) double remainingTime; // @synthesize remainingTime=_remainingTime;
-@property(readonly) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

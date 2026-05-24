@@ -9,43 +9,35 @@
 @interface GEOChargerPlug
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _maximumPower;
-    unsigned int _maximumVoltage;
-    int _type;
-    struct {
-        unsigned int has_maximumPower:1;
-        unsigned int has_maximumVoltage:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasNavigationActive:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned int);
-- (unsigned int);
-- (_Bool);
+- (unsigned int)dateFormatPlaceholderStringForLanguage: /* Error: Ran out of types for this method. */;
+- (unsigned int)dateFormatPlaceholderStringForLanguage: /* Error: Ran out of types for this method. */;
+- (_Bool)block immediately;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)sibility.describes-music-and-sound;
+- (void)getAnalyzedResultFromAudioChunk:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool)TTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUUUUUUUUUUr;
+- (int)_incidentsAffectingMuid: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)!'Ð!°Dùñ¶*°1Â0@ù
 × ;
-- (id)e:(struct _NSZone *)arg1 withAttributedString: /* Error: Ran out of types for this method. */;
-- (void)eCompositeIdentifier;
+- (id)replaceCharactersInRange:(struct _NSZone *)arg1 withAttributedString: /* Error: Ran out of types for this method. */;
+- (void)GEOClientRankingModelFeatureCompositeIdentifier;
 - (id)°
 ;
-- (int)IC_ROAD_SPEED_UPDATE_RUNTIME_MS;
+- (int)MSL_ROUTING_TRAFFIC_ROAD_SPEED_UPDATE_RUNTIME_MS;
 - (id)%@;
 - (id);
 - (id)5¥BAÍXÎH@;
@@ -54,13 +46,7 @@
 - (void)H°ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaximumPower;
-@property(nonatomic) _Bool hasMaximumVoltage;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int maximumPower;
-@property(nonatomic) unsigned int maximumVoltage;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

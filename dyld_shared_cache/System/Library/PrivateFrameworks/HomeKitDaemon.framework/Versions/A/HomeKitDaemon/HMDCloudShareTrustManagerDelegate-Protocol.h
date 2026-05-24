@@ -5,5 +5,9 @@
 //
 
 @protocol HMDCloudShareTrustManagerDelegate
+- (void)MSPMapsPushDaemonRemoteProxy;
+- (void)MSPSenderVirtualLiveStrategy;
+- (void)block_invoke;
+- (void)lock_invoke;
 @end
 

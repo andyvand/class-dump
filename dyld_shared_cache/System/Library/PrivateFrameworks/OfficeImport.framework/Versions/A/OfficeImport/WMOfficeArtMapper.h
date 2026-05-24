@@ -6,23 +6,17 @@
 
 #import <OfficeImport/CMDrawableMapper.h>
 
-@class WDAContent;
-
 __attribute__((visibility("hidden")))
 @interface WMOfficeArtMapper : CMDrawableMapper
 {
     _Bool mFloating;
-    _Bool mIsMapped;
-    _Bool mIsInsideGroup;
-    WDAContent *mContent;
-    unsigned int mCurrentPage;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGSize);
-- (id);
-- (void);
+- (id)r@;
+- (void)defaultDataProvider;
 - (void)UMacPrintUtilities printerWithPrinterID:] /* Error: Ran out of types for this method. */;
 
 @end

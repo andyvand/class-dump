@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSDictionary;
 @protocol MAGraphProxy;
 
 @protocol MAElement
+- (NSDictionary *)collectionView:didEndDisplayingSupplementaryView:forElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
+- (id <MAGraphProxy>);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short domain;
 @property(readonly, nonatomic) id <MAGraphProxy> graph;
-@property(readonly, nonatomic) unsigned long long identifier;
-@property(readonly, copy, nonatomic) NSString *label;
-@property(readonly, nonatomic) float weight;
 @end
 

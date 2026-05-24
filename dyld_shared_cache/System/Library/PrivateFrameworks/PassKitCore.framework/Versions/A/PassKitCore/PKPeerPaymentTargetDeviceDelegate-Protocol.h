@@ -5,5 +5,7 @@
 //
 
 @protocol PKPeerPaymentTargetDeviceDelegate
+- (void);
+- (void)@	;
 @end
 

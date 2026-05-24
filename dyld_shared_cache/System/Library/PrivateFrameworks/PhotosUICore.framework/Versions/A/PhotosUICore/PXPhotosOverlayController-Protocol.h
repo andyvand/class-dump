@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXPhotosViewModel;
-@protocol PXPhotosLensControlItem, PXPhotosOverlayControllerDelegate;
+@protocol PXPhotosLensControlItem;
 
 @protocol PXPhotosOverlayController
+- (id <PXPhotosLensControlItem>);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableLenses;
-@property(retain, nonatomic) id <PXPhotosLensControlItem> currentLens;
-@property(nonatomic) __weak id <PXPhotosOverlayControllerDelegate> delegate;
 @property(readonly, nonatomic) CDUnknownBlockType overlayLayoutProvider;
-@property(retain, nonatomic) PXPhotosViewModel *photosViewModel;
 @end
 

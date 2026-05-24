@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioNextTrackAutoPrewarmer
 {
     id audioPlaybackQueue;
-    id articleAudioPrewarmer;
-    id bundleSubscriptionManager;
-    id prewarming;
 }
 
 - (id);

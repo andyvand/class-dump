@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSMutableArray, NSString;
 @protocol EFScheduler;
 
 @interface _EDMessageItemIDCollector
 {
     id <EFScheduler> _scheduler;
-    NSMutableArray *_messageItemIDs;
-    NSConditionLock *_collectionLock;
-    NSString *_errorString;
 }
 
 - (void);
@@ -28,18 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)UsoEntityBuilderProtocol_commonEventTrigger_EventTriggerAttribute;
 - (void)started_at, NULL);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,29 +6,23 @@
 
 #import <ModelIO/MDLObject.h>
 
-@class MDLAnimatedQuaternionArray, MDLAnimatedVector3Array, NSArray;
+@class NSArray;
 
 @interface MDLPackedJointAnimation : MDLObject
 {
     NSArray *_jointPaths;
-    MDLAnimatedVector3Array *_translations;
-    MDLAnimatedQuaternionArray *_rotations;
-    MDLAnimatedVector3Array *_scales;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)SpeakerRecognition asset (Preinstalled) with config file name:%@ at path:%{private}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *jointPaths; // @synthesize jointPaths=_jointPaths;
-@property(readonly, nonatomic) MDLAnimatedQuaternionArray *rotations; // @synthesize rotations=_rotations;
-@property(readonly, nonatomic) MDLAnimatedVector3Array *scales; // @synthesize scales=_scales;
-@property(readonly, nonatomic) MDLAnimatedVector3Array *translations; // @synthesize translations=_translations;
 
 @end
 

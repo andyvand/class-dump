@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _UIFocusItemPlatformSupport
+- (long long)"IMDRelayPushHandler"16@"NSString"24B32B36@"NSString"40@"NSString"48@"NSNumber"56@"NSNumber"64;
+- (NSArray *)invitePersonInfo:withMessage:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (struct CGRect)highlightCenter;
 @end
 

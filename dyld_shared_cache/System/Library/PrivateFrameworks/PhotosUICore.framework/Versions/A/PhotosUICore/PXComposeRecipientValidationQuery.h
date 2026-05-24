@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXComposeRecipient;
+@class PXComposeRecipient;
 
 @interface PXComposeRecipientValidationQuery
 {
     PXComposeRecipient *_composeRecipient;
-    NSString *_address;
-    long long _addressKind;
-    long long _validationType;
 }
 
 + (id);
@@ -24,15 +21,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)pshot:(struct _NSZone *)arg1 destinationViewMode:destinationSnapshot:assetReference:focusedClipIdentifiers:trackingClipIdentifier: /* Error: Ran out of types for this method. */;
-- (id)yDraftSaveConfirmationSpec;
+- (id)initWithSourceViewMode:(struct _NSZone *)arg1 sourceSnapshot:destinationViewMode:destinationSnapshot:assetReference:focusedClipIdentifiers:trackingClipIdentifier: /* Error: Ran out of types for this method. */;
+- (id)StoryDraftSaveConfirmationSpec;
 - (void)w¸\ÿw¸´Ðþþqw¸Pÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) long long addressKind; // @synthesize addressKind=_addressKind;
 @property(readonly, nonatomic) PXComposeRecipient *composeRecipient; // @synthesize composeRecipient=_composeRecipient;
-@property(nonatomic) long long validationType; // @synthesize validationType=_validationType;
 
 @end
 

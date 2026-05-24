@@ -7,12 +7,6 @@
 @interface ChatKit.CKGenerateButtonBackground__priv_48E4CE588C5118AF31EDCFDBF5B7EAE8
 {
     id backdropLayer;
-    id maskLayer;
-    id illuminated;
-    id defaultBackdropFilters;
-    id illuminatedBackdropFilters;
-    id illuminatedPlusLighterLayer;
-    id illuminatedPlusDarkerLayer;
 }
 
 - (id);

@@ -8,9 +8,6 @@
 {
     id _cBarcodeDetectionProvider;
     id _cBarcodeDetectionConfiguration;
-    id anchorUpdateIterators;
-    id anchorQueue;
-    id symbologies;
 }
 
 @end

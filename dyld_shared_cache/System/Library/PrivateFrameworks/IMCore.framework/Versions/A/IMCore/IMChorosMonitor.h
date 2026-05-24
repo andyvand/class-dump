@@ -4,47 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary;
-
 @interface IMChorosMonitor
 {
     _Bool _needsShowConnectionUI;
-    _Bool _monitorStarted;
-    _Bool _didPresentBannerForStrugglingMessage;
-    NSDictionary *_emergencyHandles;
-    long long _showConnectionUIRetryCount;
-    NSDate *_lastFringeNetworkCheckRequestDate;
-    NSMutableDictionary *_activeSendTimers;
 }
 
-+ (_Bool);
++ (_Bool)ing VCNAT64ListenerContext;
 + (id)R;
-- (double);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (double)%s:%d destination=%@, options=%s, error=%@ /* Error: Ran out of types for this method. */;
+- (void)for addParticipantDidSucceed %d, participantID %@;
+- (void)tDidSucceed %d, participantID %@;
+- (void)] %s:(long long)arg1 %d received callback for addParticipantDidSucceed %d, participantID %@;
+- (long long)sion-didAddParticipant (%p) uuid=%@, didSucceed=%d, error=%@;
+- (_Bool)add nil participant;
+- (void)ondary Screen rules:(long long)arg1 Could not retrieve hardware encoder type;
+- (void)eTime audio media control info;
+- (void)control info, expecting %u;
+- (void)rage is null, transportStream is nil;
+- (void)yer [%s] %s:(_Bool)arg1 %d Channel count mismatch! sampleBufferChannelCount=%hhu audioPlayerChannelCount=%d;
+- (void)[%s] %s:(id)arg1 %d SoundDec_GetOpusDecodeFECStatus soundDec=%p fecStatus=%u;
+- (void)ameInterval=%.3f, elapsedTime(s)=%.2f, encIndex=%d, currentTargetBitrate(Mbps)=%.2f, longTermAverageBitrate(Mbps)=%.2f, predictedBitrate(Mbps)=%.2f, delta=%.2f, newRecommendedBitrate(Mbps)=%.2f, appliedBitrate(Mbps)=%.2f;
+- (void)Invalid parameter passed to lag processor new stream. LagProcessor=%p, lagPacket=%p, TSRate=%u, samplesPerFrame=%u;
+- (_Bool)%ld];
+- (long long)CVirtualTTYDevice [%s] %s:%d @:@ AVCVirtualTTYDevice-didStart (%p) didSucceed=%d /* Error: Ran out of types for this method. */;
+- (_Bool)started(%d);
+- (void)act bundled packets from main audio packet bundler;
+- (id)pleRate=%d, audioIOSampleCount=%d;
+- (_Bool)] %s:%d %@(%p) Audio issue detector=%p is stopped in audio transmitter=%p /* Error: Ran out of types for this method. */;
+- (_Bool)-> %d %d samplesPerFrame;
+- (_Bool)ratorType=%u version=%u;
+- (_Bool)yerForMode;
+- (id)listeners array;
+- (_Bool)vice=%p;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -53,16 +45,10 @@
 - (id);
 - (id)ring",&,N,V_browserDisplayName;
 - (void)¼5;
-- (_Bool)it;
+- (_Bool)ReminderKit;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activeSendTimers; // @synthesize activeSendTimers=_activeSendTimers;
-@property(nonatomic) _Bool didPresentBannerForStrugglingMessage; // @synthesize didPresentBannerForStrugglingMessage=_didPresentBannerForStrugglingMessage;
-@property(retain, nonatomic) NSDictionary *emergencyHandles; // @synthesize emergencyHandles=_emergencyHandles;
-@property(retain, nonatomic) NSDate *lastFringeNetworkCheckRequestDate; // @synthesize lastFringeNetworkCheckRequestDate=_lastFringeNetworkCheckRequestDate;
-@property(nonatomic) _Bool monitorStarted; // @synthesize monitorStarted=_monitorStarted;
 @property(nonatomic) _Bool needsShowConnectionUI; // @synthesize needsShowConnectionUI=_needsShowConnectionUI;
-@property(nonatomic) long long showConnectionUIRetryCount; // @synthesize showConnectionUIRetryCount=_showConnectionUIRetryCount;
 
 @end
 

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSString;
+@class AMSUIWebClientContext;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebLoadingPageModel
 {
     _Bool _animateFadeIn;
-    _Bool _disableDelay;
-    NSString *_backgroundColor;
-    AMSMetricsEvent *_impressionEvent;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _userInterfaceStyle;
-    NSString *_message;
-    AMSUIWebClientContext *_context;
-    struct CGSize _windowSize;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)Supported compatibility version for LinguisticData assets = %ld;
+- (void)r:(_Bool)arg1 %{public}@;
+- (id)assetDownload;
+- (id)query;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)dn't find disk with path:(id)arg1 %@;
 - (void)6@"NSArray"24;
 - (id);
 - (long long)_î=yAFyNã=yACyACyºâ=Þ=ySiSgGGAHyþá=SgGG_Qo__Èç=yAFy7è=_ACyACy«;Ó@~¸=GÀ=GARtGGtGSg_;Ó@ACyACyACyACyACyAG:¾=GÄÕ=ynæ=GGANGATGATGtGGG_Qo_AHy³=GGt /* Error: Ran out of types for this method. */;
@@ -42,27 +34,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)ÍóÿDÎóÿ¬å9;
 
 // Remaining properties
-@property _Bool animateFadeIn; // @synthesize animateFadeIn=_animateFadeIn;
-@property(readonly) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableDelay; // @synthesize disableDelay=_disableDelay;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
-@property(retain) NSString *message; // @synthesize message=_message;
-@property(readonly) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(readonly) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(readonly) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

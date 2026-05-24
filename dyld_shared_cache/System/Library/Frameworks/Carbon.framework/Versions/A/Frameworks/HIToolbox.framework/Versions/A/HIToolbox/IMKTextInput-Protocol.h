@@ -5,6 +5,7 @@
 //
 
 @protocol IMKTextInput
-- (struct _NSRange)stNotificationName:object: /* Error: Ran out of types for this method. */;
+- (int);
+- (struct _NSRange)postNotificationName:object: /* Error: Ran out of types for this method. */;
 @end
 

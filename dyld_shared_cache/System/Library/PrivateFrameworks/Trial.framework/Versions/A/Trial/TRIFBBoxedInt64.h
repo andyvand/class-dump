@@ -15,12 +15,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) const struct BoxedInt64 *cppPointer;
-@property(readonly, nonatomic) long long val;
 
 @end
 

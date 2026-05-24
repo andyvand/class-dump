@@ -7,11 +7,10 @@
 @class NSData;
 
 @protocol _SFPBTableColumnAlignment
+- (int);
+- (NSData *)PHPhotoLibrary",R,W,N,V_photoLibrary;
 
 // Remaining properties
 @property(nonatomic) int columnAlignment;
-@property(nonatomic) int dataAlignment;
-@property(nonatomic) _Bool isEqualWidth;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

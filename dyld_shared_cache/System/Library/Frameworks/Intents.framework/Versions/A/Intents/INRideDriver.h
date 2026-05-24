@@ -15,34 +15,26 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)initWithLevel:(id)arg1 isCharging: /* Error: Ran out of types for this method. */;
+- (unsigned long long)P;
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
+- (id);
+- (_Bool)localURL;
+- (id)device (%@), not adding ({public}%@);
+- (void)S is WPA;
+- (id)ocal;
+- (id);
+- (id);
+- (id);
+- (id)�c;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)Completion: /* Error: Ran out of types for this method. */;
+- (void)provideFromAccountOptionsForPayBill:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *phoneNumber; // @dynamic phoneNumber;
 @property(readonly, copy) NSString *rating; // @synthesize rating=_rating;
-@property(readonly) Class superclass;
 
 @end
 

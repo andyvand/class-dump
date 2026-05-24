@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWWebAnswerExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSString *_answerId;
-    _Bool _hasAnswerId;
 }
 
 - (void);
@@ -19,10 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)__objc_classlist__DATA_CONST;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)w;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *answerId; // @synthesize answerId=_answerId;
-@property(nonatomic) _Bool hasAnswerId; // @synthesize hasAnswerId=_hasAnswerId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

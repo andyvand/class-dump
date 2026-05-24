@@ -6,25 +6,23 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIColorThreshold : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputThreshold;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)WWUW``[`ennnssss]mfm_f\nvwtwuuuu<XKgXYM`cc`cKaZeggfgdnknv{{{tnt~zq~~~}}}}¦¦¦¦~z¡¡¡¡©«­­¯´´´­­­­x[oh|}gzNbSuA\Mnkphvozu~rrorlljlnnnnrrrrknkpelhsPha|\vt~~~~nwq{s©©©©¯¯¯¯    bf_fRQDRLOBO^^V^huuuo|zTjcobcYc:RBc]ldz««««   zhg{v^[N^<K:Smmmm_sq|?^Uopngvt\kdtUbXjttttxxxxbkfk\\Q\WWNW<RFZKWLcMkewNqkHh`||zd|z\rmnvrz|zzzxzfrpsggggTUJU.=)H5C1MbbbbqqqqUleupxu|_up~uxs}³³³³¸¸¸¸¢¢¢¢w~~~R`XbSXM^luuuevrszxz|y¤¤¤¤°°°°¥­­¡¡¡¡krlRmgy¡¡¡¡I^StvxvyThdn?NAZ^^^^ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputThreshold; // @synthesize inputThreshold;
 
 @end
 

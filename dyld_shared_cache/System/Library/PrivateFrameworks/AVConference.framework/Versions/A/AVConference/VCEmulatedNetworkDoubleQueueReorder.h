@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCEmulatedNetworkDoubleQueueReorder : VCEmulatedNetworkDoubleQueue
 {
     double _probability;
-    double _correlation;
-    _Bool _useMarkovModel;
-    int _reorderGap;
-    int _gap;
-    int _state;
 }
 
 - (_Bool);

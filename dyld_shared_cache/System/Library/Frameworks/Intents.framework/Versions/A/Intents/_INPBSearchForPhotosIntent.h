@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBActivityList, _INPBContactList, _INPBDateTimeRange, _INPBEventList, _INPBGeographicalFeatureList, _INPBIntentMetadata, _INPBLocation, _INPBPlaceList, _INPBString, _INPBStringList;
+@class _INPBActivityList;
 
 @interface _INPBSearchForPhotosIntent
 {
     CDStruct_95bda58d _excludedAttributes;
-    CDStruct_95bda58d _includedAttributes;
-    struct _has;
-    _INPBActivityList *_activities;
-    _INPBString *_albumName;
-    _INPBDateTimeRange *_dateCreated;
-    _INPBEventList *_events;
-    _INPBGeographicalFeatureList *_geographicalFeatures;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBLocation *_locationCreated;
-    _INPBString *_memoryName;
-    _INPBContactList *_peopleInPhoto;
-    _INPBPlaceList *_places;
-    _INPBStringList *_searchTerm;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,9 +22,9 @@
 - (unsigned long long);
 - (id);
 - (int *);
-- (int);
+- (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,64 +48,34 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ySJyj
+J!Q
+!;
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_LUICopyLoginUICoreBundle;
 - (unsigned long long);
-- (id);
+- (id)';
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)ResultDataProvider:(id)arg1;
+- (void)_updateIntent:(id)arg1 intentSlotDescription:resolutionResultDataProvider: /* Error: Ran out of types for this method. */;
 - (_Bool)nkMetadata",&,N,V_linkMetadata;
-- (id)entResponse;
+- (id)INSearchForFilesIntentResponse;
 - (void)rs;
-- (void)trings;
+- (void)resolveSelectorStrings;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBActivityList *activities; // @synthesize activities=_activities;
-@property(retain, nonatomic) _INPBString *albumName; // @synthesize albumName=_albumName;
-@property(retain, nonatomic) _INPBDateTimeRange *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBEventList *events; // @synthesize events=_events;
-@property(readonly, nonatomic) int *excludedAttributes;
-@property(readonly, nonatomic) unsigned long long excludedAttributesCount;
-@property(retain, nonatomic) _INPBGeographicalFeatureList *geographicalFeatures; // @synthesize geographicalFeatures=_geographicalFeatures;
-@property(readonly, nonatomic) _Bool hasActivities;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasEvents;
-@property(readonly, nonatomic) _Bool hasGeographicalFeatures;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLocationCreated;
-@property(readonly, nonatomic) _Bool hasMemoryName;
-@property(readonly, nonatomic) _Bool hasPeopleInPhoto;
-@property(readonly, nonatomic) _Bool hasPlaces;
-@property(readonly, nonatomic) _Bool hasSearchTerm;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int *includedAttributes;
-@property(readonly, nonatomic) unsigned long long includedAttributesCount;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBLocation *locationCreated; // @synthesize locationCreated=_locationCreated;
-@property(retain, nonatomic) _INPBString *memoryName; // @synthesize memoryName=_memoryName;
-@property(retain, nonatomic) _INPBContactList *peopleInPhoto; // @synthesize peopleInPhoto=_peopleInPhoto;
-@property(retain, nonatomic) _INPBPlaceList *places; // @synthesize places=_places;
-@property(retain, nonatomic) _INPBStringList *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property(readonly) Class superclass;
 
 @end
 

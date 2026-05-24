@@ -6,43 +6,42 @@
 
 #import <PersonalizationPortrait/PPNamedEntityStore.h>
 
-@class PPClientFeedbackHelper, _PASLock;
+@class PPClientFeedbackHelper;
 
 @interface PPXPCNamedEntityStore : PPNamedEntityStore
 {
     PPClientFeedbackHelper *_clientFeedbackHelper;
-    _PASLock *_monitoringSessionsLock;
 }
 
 - (id);
+- (void)_beginTransaction;
+- (_Bool);
+- (id)tb;
+- (CDUnknownBlockType)ABDistributedDatabaseChangedNotificationPriv;
+- (_Bool);
+- (id);
+- (id)Decoder"^^?"blankLabel_"Q"beamScorer_"{AdditiveCombiningBeamScorer<CoreRecognition:(id)arg1:decoder::CombinedBeamState>="_vptr$BaseBeamScorer"^^?"weight_"d"logProbLowerBound_"d"scorers_"{vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}}"pathBuilder_"{SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>="_vptr$AbstractResultPathBuilder"^^?"optimizeAlignment_"B"spaceLabels_"{vector<unsigned long, std::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}"splitSpaceProbability_"B}"config_"{CTCBeamSearchConfig="blankLabel"Q"beamWidth"i"numBestPaths"i"labelSelectionThreshold"d"pruner"{optional<CoreRecognition::decoder::ActivationPruning>=""(?="__null_state_"c"__val_"{ActivationPruning="threshold"f"numCandidates"Q"cumulative"B})"__engaged_"B}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool)<;
 - (void);
 - (_Bool);
 - (id);
-- (CDUnknownBlockType);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)performSelector:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)× ;
-- (id)ges:(id)arg1 client:(id *)arg2 queryId: /* Error: Ran out of types for this method. */;
-- (_Bool)torFromData:(id)arg1 version:(id)arg2;
+- (id)resolveEventNameRecordChanges:(id)arg1 client:(id *)arg2 queryId: /* Error: Ran out of types for this method. */;
+- (_Bool)decodeFeatureVectorFromData:(id)arg1 version:(id)arg2;
 - (_Bool)V_handleBatch;
 - (_Bool);
 - (_Bool)st from data:(id)arg1 %@;

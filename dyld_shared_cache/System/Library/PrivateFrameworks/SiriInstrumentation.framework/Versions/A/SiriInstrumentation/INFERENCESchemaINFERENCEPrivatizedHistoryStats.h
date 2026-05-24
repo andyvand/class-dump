@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface INFERENCESchemaINFERENCEPrivatizedHistoryStats : SISchemaInstrumentationMessage
 {
     unsigned int _recency;
-    NSArray *_frequencies;
-    struct {
-        unsigned int recency:1;
-    } _has;
 }
 
 - (void);
@@ -24,11 +18,11 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id)ould be a valid string.;
 - (id);
 - (void);
 - (unsigned long long);
@@ -36,14 +30,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)eteComponent;
-- (id)SSchemaPEGASUSWebAnswerExecutionTier1;
+- (id)deleteComponent;
+- (id)PEGASUSSchemaPEGASUSWebAnswerExecutionTier1;
 - (void)TÏÛÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *frequencies; // @synthesize frequencies=_frequencies;
-@property(nonatomic) _Bool hasRecency;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int recency; // @synthesize recency=_recency;
 
 @end

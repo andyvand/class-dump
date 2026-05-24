@@ -15,7 +15,7 @@
 + (id);
 - (void);
 - (id);
-- (void)otationView;
+- (void)draggingAnnotationView;
 
 @end
 

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)oid IMDSqlStatementBindDouble(IMDSqlStatement *, double);
+- (void)ive, mask.hash}@;
 
 @end
 

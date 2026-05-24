@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray, NSUUID, WBSPair;
+@class NSArray, NSMutableArray;
 
 @interface WBSPasswordBreachQueuedPassword
 {
     NSMutableArray *_bucketIdentifierAndHashStack;
-    NSUUID *_uuid;
-    NSData *_highFrequencyEncodedPassword;
-    NSArray *_persistentIdentifiers;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
+- (id)%;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)a;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *highFrequencyEncodedPasswordData;
 @property(readonly, nonatomic) NSArray *persistentIdentifiers; // @synthesize persistentIdentifiers=_persistentIdentifiers;
-@property(readonly, nonatomic) unsigned long long remainingHashCount;
-@property(readonly, nonatomic) WBSPair *topBucketIdentiferAndHash;
-@property(readonly, nonatomic) NSUUID *uuid;
 
 @end
 

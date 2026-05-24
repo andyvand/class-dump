@@ -9,14 +9,13 @@
 @interface NSReduceObservationTransformer : NSObservationTransformer
 {
     CDUnknownBlockType _reducer;
-    id _accumulator;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)3;
 
 @end
 

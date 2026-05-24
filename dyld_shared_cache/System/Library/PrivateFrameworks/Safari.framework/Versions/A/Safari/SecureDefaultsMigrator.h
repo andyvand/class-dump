@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SecureDefaultsMigrator
 {
     id _keyBagObserverToken;
-    NSArray *_preferenceKeysToMigrate;
 }
 
 - (id);
@@ -18,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

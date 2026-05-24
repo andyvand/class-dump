@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface NSControlStateValueTransformer
 {
     NSString *_trueValue;
-    NSString *_falseValue;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)ssibility-is-ignored is not used to build the core, platform-agnostic accessibility tree, and instead is expected to be applied at any platform-exposed layer.;
 + (Class);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)there are no more search attempts left.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *falseValue; // @synthesize falseValue=_falseValue;
 @property(retain) NSString *trueValue; // @synthesize trueValue=_trueValue;
 
 @end

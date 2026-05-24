@@ -7,20 +7,18 @@
 @interface CRKClearASMCredentialsRequest
 {
     long long _role;
-    long long _type;
 }
 
 + (_Bool);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)initWithMessageListItems:(long long)arg1 origin:actor:highImpactChange: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void)figuration;
+- (void)studentRosterConfiguration;
 
 // Remaining properties
 @property(nonatomic) long long role; // @synthesize role=_role;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

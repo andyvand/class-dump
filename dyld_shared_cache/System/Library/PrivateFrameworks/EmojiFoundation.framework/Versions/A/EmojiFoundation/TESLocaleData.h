@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
+@class NSLocale;
 
 @interface TESLocaleData
 {
     NSLocale *_locale;
-    NSString *_localeIdentifier;
 }
 
-+ (id);
++ (id)open an external app.;
 + (id);
 + (long long);
 + (id);
-- (id);
-- (void);
+- (id)etionInfo"8;
+- (void)g"8Q16^B24;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 
 @end
 

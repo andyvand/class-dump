@@ -7,8 +7,6 @@
 @interface NewsUI2.NotificationAdSegmentProvider
 {
     id needsUpdate;
-    id tagService;
-    id subscriptionService;
 }
 
 @end

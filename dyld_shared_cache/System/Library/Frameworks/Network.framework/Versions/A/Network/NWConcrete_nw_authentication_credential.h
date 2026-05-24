@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_sec_identity, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_authentication_credential
 {
     int type;
-    int persistence;
-    char *username;
-    char *password;
-    NSObject<OS_sec_identity> *identity;
-    NSObject<OS_xpc_object> *valid_authentication_types;
 }
 
-- (void);
+- (void)Background;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNBoundingSphere
 {
     struct SCNVector3 center;
-    double radius;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct SCNVector3 center; // @synthesize center;
-@property(nonatomic) double radius; // @synthesize radius;
 
 @end
 

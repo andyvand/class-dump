@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString, TIInputMode, TIMecabraEnvironment, TIMecabraWrapper, TIWordSearchOperationGetCandidates;
+@class TIWordSearchOperationGetCandidates;
 
 @interface TIWordSearch
 {
     id _userDictionaryObserver;
-    id _dictionaryUpdateObserver;
-    _Bool _autoCorrects;
-    _Bool _shouldLearnAcceptedCandidate;
-    TIInputMode *_inputMode;
-    TIMecabraEnvironment *_mecabraEnvironment;
-    TIMecabraWrapper *_mecabraWrapper;
-    TIWordSearchOperationGetCandidates *_operation;
-    NSCache *_candidatesCache;
-    id _supplementalLexiconObserver;
-    CDUnknownBlockType _contactObserver;
 }
 
 + (id);
@@ -48,80 +38,63 @@
 - (void);
 - (void);
 - (void);
+- (void)6@24;
+- (void)2@0:(id)arg1 8@16@24;
+- (void)tionary";
+- (unsigned char)startTranscribingForCallUUID: /* Error: Ran out of types for this method. */;
+- (id)setSubstitutions: /* Error: Ran out of types for this method. */;
+- (id)setShouldSuppressIncomingNotification: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setShouldReportPartialResults: /* Error: Ran out of types for this method. */;
+- (void)outgoingTTYCallCount;
+- (id)copyWithZone:(id)arg1;
+- (id)conversationWithID:(id)arg1 andUtterances: /* Error: Ran out of types for this method. */;
+- (void)ltVoiceContext;
 - (void);
-- (void);
-- (void);
-- (unsigned char);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (int);
-- (CDUnknownBlockType);
-- (id);
+- (void)@ [%@];
+- (void)for %@ and context %@;
+- (void)=%@ for context:(id)arg1 %@;
+- (void)callUUID %@;
+- (void)cribing:%@ /* Error: Ran out of types for this method. */;
+- (void)for callUUID %@;
+- (id)ve call request with paired call device:(id)arg1 %@ for call:%@ /* Error: Ran out of types for this method. */;
+- (id)t response %@ = %@;
+- (id)all did receive:%@ for [%@]->%@ /* Error: Ran out of types for this method. */;
+- (_Bool)to archive RTTConversation %@ with error %@;
+- (void)non-numeric character stripping;
+- (_Bool)relay phone numbers;
+- (void)mber info cache;
+- (void)ed blank phone number for context %@. Error? %@;
+- (void)_UpdateInfo;
+- (id)InternalOverrideTTYAvailabilityPreference;
+- (_Bool)TUIsRelayCallingEnabledPreference;
+- (void)RTTContinuityEmergencyRTTIsSupportedPreference;
+- (void)OS/AccessibilityUtilities;
+- (id)ork/Contents/MacOS/LiveTranscription;
+- (int)RTTError;
+- (CDUnknownBlockType)kAUVoiceIOProperty_OperationMode;
+- (id)-queue;
 - (void);
 - (id);
 - (int);
 - (struct __Mecabra *);
 - (void);
+- (void)fferImage>",&,V_image;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ore;
+- (void)msEvaluator:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)etchAssetUpdateStatusForInputModeIdentifier:callback: /* Error: Ran out of types for this method. */;
-- (id)nce;
+- (id)fetchAssetUpdateStatusForInputModeIdentifier:callback: /* Error: Ran out of types for this method. */;
+- (id)_inSessionAlignmentConfidence;
 - (void);
 
 // Remaining properties
-@property _Bool autoCorrects; // @synthesize autoCorrects=_autoCorrects;
-@property(retain, nonatomic) NSCache *candidatesCache; // @synthesize candidatesCache=_candidatesCache;
-@property(copy, nonatomic) CDUnknownBlockType contactObserver; // @synthesize contactObserver=_contactObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) TIInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(readonly) struct __Mecabra *mecabra;
-@property(retain, nonatomic) TIMecabraEnvironment *mecabraEnvironment; // @synthesize mecabraEnvironment=_mecabraEnvironment;
-@property(readonly, nonatomic) int mecabraLanguage;
-@property(retain) TIMecabraWrapper *mecabraWrapper; // @synthesize mecabraWrapper=_mecabraWrapper;
 @property(retain) TIWordSearchOperationGetCandidates *operation; // @synthesize operation=_operation;
-@property _Bool shouldLearnAcceptedCandidate; // @synthesize shouldLearnAcceptedCandidate=_shouldLearnAcceptedCandidate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id supplementalLexiconObserver; // @synthesize supplementalLexiconObserver=_supplementalLexiconObserver;
 
 @end
 

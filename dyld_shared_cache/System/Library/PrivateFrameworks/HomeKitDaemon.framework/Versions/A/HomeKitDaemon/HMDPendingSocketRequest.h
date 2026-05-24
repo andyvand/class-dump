@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDPendingSocketRequest
 {
     NSString *_applicationProtocolName;
-    CDUnknownBlockType _completion;
 }
 
+- (id)te waypoint;
 - (id);
-- (id);
-- (CDUnknownBlockType)onForwardingFailureForDecision: /* Error: Ran out of types for this method. */;
-- (void)FNotificationRegistrationActionSet;
+- (CDUnknownBlockType)handleRecordingSessionForwardingFailureForDecision: /* Error: Ran out of types for this method. */;
+- (void)MKFNotificationRegistrationActionSet;
 
 // Remaining properties
 @property(readonly) NSString *applicationProtocolName; // @synthesize applicationProtocolName=_applicationProtocolName;
-@property(readonly) CDUnknownBlockType completion; // @synthesize completion=_completion;
 
 @end
 

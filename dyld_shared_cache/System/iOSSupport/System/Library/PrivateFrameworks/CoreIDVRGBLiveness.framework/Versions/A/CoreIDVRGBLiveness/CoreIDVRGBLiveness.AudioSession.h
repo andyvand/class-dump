@@ -8,13 +8,6 @@
 {
     id scanSound;
     id endSound;
-    id completeSound;
-    id failSound;
-    id lockSound;
-    id audioSession;
-    id player;
-    id hapticEngine;
-    id originalCategory;
 }
 
 @end

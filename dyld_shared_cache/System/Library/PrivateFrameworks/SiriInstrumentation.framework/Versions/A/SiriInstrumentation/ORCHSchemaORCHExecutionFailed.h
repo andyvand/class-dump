@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ORCHSchemaORCHExecutionFailed : SISchemaInstrumentationMessage
 {
     NSString *_errorString;
-    int _errorDomain;
-    int _errorCode;
-    CDStruct_7b2c8649 _has;
-    _Bool _hasErrorString;
 }
 
 - (void);
@@ -25,32 +21,26 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ge"24;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)__TEXT;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)E;
 - (_Bool);
 - (_Bool);
 - (int);
 - (id);
 - (id);
-- (id)oundSignalSet;
+- (id)_backgroundSignalSet;
 - (id)BridgeContext",&,N,V_muxBridgeContext;
 - (void)ts.payload.outcome.success.returnValue.value.entity.typeIdentifier.custom.bundleId;
 - (void)ý×æ9é=ÿ;
 - (int)ìi%;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
 @property(copy, nonatomic) NSString *errorString; // @synthesize errorString=_errorString;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasErrorString; // @synthesize hasErrorString=_hasErrorString;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDPhotoFilter
 {
     PBUnknownFields *_unknownFields;
-    struct GEOPDPhotoSizeFilterValue *_photoSizeFilters;
-    unsigned long long _photoSizeFiltersCount;
-    unsigned long long _photoSizeFiltersSpace;
 }
 
 - (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)sqlite3_stmt=}32^@40;
-- (id)dFeatures;
+- (id)_ignoreUnnamedFeatures;
 - (id)àL;
 - (void)ìQ¸ë@R¸ëÅy@;
 

@@ -7,28 +7,18 @@
 @interface CLRacingRoutePerformanceResults
 {
     double _timeAhead_s;
-    double _currentDistance_m;
-    double _referenceDistance_m;
-    double _currentAveragePace_s_per_m;
-    double _totalOverlapDistance_m;
-    unsigned long long _state;
 }
 
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)Zv;
 - (double);
 - (double);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) double currentAveragePace_s_per_m; // @synthesize currentAveragePace_s_per_m=_currentAveragePace_s_per_m;
-@property(readonly, nonatomic) double currentDistance_m; // @synthesize currentDistance_m=_currentDistance_m;
-@property(readonly, nonatomic) double referenceDistance_m; // @synthesize referenceDistance_m=_referenceDistance_m;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(readonly, nonatomic) double timeAhead_s; // @synthesize timeAhead_s=_timeAhead_s;
-@property(readonly, nonatomic) double totalOverlapDistance_m; // @synthesize totalOverlapDistance_m=_totalOverlapDistance_m;
 
 @end
 

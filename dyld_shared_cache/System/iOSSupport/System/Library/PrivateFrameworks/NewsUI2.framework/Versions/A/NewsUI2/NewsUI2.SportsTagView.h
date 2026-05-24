@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NewsUI2.SportsTagView
 {
     id iconImageView;
-    id nameLabel;
-    id secondaryNameLabel;
-    id accessoryButton;
-    id token;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)P;
 - (id);
 - (void);
-- (void);
+- (id);
+- (void);
+- (void)_continuityCameraUsed;
 - (id);
 - (id);
 - (void);
 - (void)¬ ¸
 ¹^4i;
-- (id)ndler;
+- (id)AppDiscardedStateRestorationActivityHandler;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic, copy) NSString *accessibilityHint;
 @property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityValue;
 
 @end
 

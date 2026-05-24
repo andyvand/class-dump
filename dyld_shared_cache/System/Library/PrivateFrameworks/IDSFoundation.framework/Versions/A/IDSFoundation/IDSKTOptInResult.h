@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSError;
-
 @interface IDSKTOptInResult
 {
     _Bool _success;
-    NSData *_serverProvidedSMT;
-    NSError *_error;
-    NSArray *_optedInOutURIs;
-    NSDictionary *_serverSMTByURI;
 }
 
 + (_Bool);
@@ -22,18 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)i;
 - (id);
 - (void);
 - (_Bool);
 - (void)ntity:%@, adminIdentity:%@, signingIdentity:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSArray *optedInOutURIs; // @synthesize optedInOutURIs=_optedInOutURIs;
-@property(readonly, nonatomic) NSData *serverProvidedSMT; // @synthesize serverProvidedSMT=_serverProvidedSMT;
-@property(readonly, nonatomic) NSDictionary *serverSMTByURI; // @synthesize serverSMTByURI=_serverSMTByURI;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

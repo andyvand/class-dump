@@ -5,5 +5,9 @@
 //
 
 @protocol RVPresenterHighlightDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

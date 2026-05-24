@@ -7,7 +7,6 @@
 @interface NewsUI2.TodayFeedEngagementEventHandler
 {
     id delegate;
-    id engagementEventHandler;
 }
 
 @end

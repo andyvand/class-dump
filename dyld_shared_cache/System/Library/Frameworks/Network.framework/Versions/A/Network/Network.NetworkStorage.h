@@ -7,7 +7,6 @@
 @interface Network.NetworkStorage
 {
     id url;
-    id internalStorage;
 }
 
 @end

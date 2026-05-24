@@ -7,15 +7,6 @@
 @interface NSPurgeableData
 {
     unsigned long long _length;
-    struct {
-        unsigned long long _field1;
-        unsigned long long _field2;
-        unsigned long long _field3;
-        _Bool _field4;
-        _Bool _field5;
-        unsigned long long _field6;
-    } *_reserved;
-    int _accessCount;
 }
 
 - (void);

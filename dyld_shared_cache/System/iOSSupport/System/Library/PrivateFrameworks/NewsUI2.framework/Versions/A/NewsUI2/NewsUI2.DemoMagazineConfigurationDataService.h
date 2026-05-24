@@ -7,8 +7,6 @@
 @interface NewsUI2.DemoMagazineConfigurationDataService
 {
     id returnJSON;
-    id assetService;
-    id paidBundleConfigurationManager;
 }
 
 @end

@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.LiveActivitiesDiagnosticManager.WeakLiveActivityDiagnosticStateProvider__priv_EF7A15553F87420FB06998FB088D00FB
 {
     id provider;
+    id;
 }
 
 @end

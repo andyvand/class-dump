@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PARSession, WBSCompletionQuery, WBSParsecDFeedbackDispatcher;
-@protocol WBSParsecFeedbackDispatcher, WBSParsecSearchSessionDelegate;
+@class WBSParsecDFeedbackDispatcher;
 
 @interface WBSParsecDSession
 {
     WBSParsecDFeedbackDispatcher *_feedbackDispatcher;
-    WBSCompletionQuery *_currentQuery;
-    NSString *_rewrittenQueryStringFromParsec;
-    id <WBSParsecSearchSessionDelegate> _delegate;
-    _Bool _skipAutoFillDataUpdates;
-    double _uiScale;
-    PARSession *_parsecdSession;
-    unsigned long long _currentQueryID;
 }
 
++ (id): /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (id);
@@ -40,24 +32,12 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void)Ü;
 
 // Remaining properties
 @property unsigned long long currentQueryID; // @synthesize currentQueryID=_currentQueryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <WBSParsecFeedbackDispatcher> feedbackDispatcher;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PARSession *parsecdSession; // @synthesize parsecdSession=_parsecdSession;
-@property(readonly, copy, nonatomic) NSString *rewrittenQueryStringFromParsec;
-@property(readonly, nonatomic) _Bool skipAutoFillDataUpdates; // @synthesize skipAutoFillDataUpdates=_skipAutoFillDataUpdates;
-@property(readonly) Class superclass;
-@property(nonatomic, setter=setUIScale:) double uiScale; // @synthesize uiScale=_uiScale;
 
 @end
 

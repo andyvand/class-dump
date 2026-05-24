@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol IMPreviewDispatchCacheProtocol
+- (void)setMutableFailedSketches:(id)arg1;
+- (_Bool)addAttachmentWithUTI:(NSString *)arg1 data:filenameExtension: /* Error: Ran out of types for this method. */;
+- (void)int",&,N,V_zeroWidthConstraint;
+- (void)youtConstraint",&,N,V_undoneHeightConstraint;
+- (id)Body;
 - (void);
 @end
 

@@ -4,62 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSISObjectiveLinearExpression, NSISVariable, NSISVariableObservation, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSThread, _NSISVariableObservable;
-@protocol NSISEngineDelegate, NSObservable;
+@class NSMutableArray;
 
 @interface NSISEngine
 {
     NSMutableArray *_variablesWithValueRestrictionViolations;
-    NSMutableArray *_pendingRemovals;
-    NSHashTable *_pendingMarkerDelegates;
-    NSObject<NSObservable> *_variableChangeTransactionSignal;
-    NSMapTable *_variableObservables;
-    _NSISVariableObservable *_dirtyObservables;
-    id <NSISEngineDelegate> _delegate;
-    NSMapTable *_brokenConstraintPositiveErrors;
-    NSMapTable *_brokenConstraintNegativeErrors;
-    CDUnknownBlockType _unsatisfiabilityHandler;
-    unsigned long long _pivotCount;
-    unsigned long long _variableChangeCount;
-    struct CGSize _engineScalingCoefficients;
-    NSMutableDictionary *_recordedOperations;
-    NSThread *_allowedBGThread;
-    int _automaticOptimizationDisabledCount;
-    int _engineDelegateCallsDisabledCount;
-    int _variableDelegateCallsDisabledCount;
-    unsigned int _totalChangeCount;
-    unsigned int _changeCountAtLastOptimization;
-    _Bool _revertsAfterUnsatisfiabilityHandler;
-    _Bool _accumulatingRemovals;
-    _Bool _engineNeedsOptimization;
-    _Bool _allowUnoptimizedReads;
-    _Bool _optimizationInProgress;
-    _Bool _accessedFromMainThread;
-    _Bool _engineNeedsRebuildFromConstraints;
-    _Bool _changeNotificationsDirty;
-    struct NSISObjectTable *_variablesObservations;
-    NSISVariableObservation *_dirtyVariableObservations;
-    NSMapTable *_rows;
-    CDStruct_419bcb5e _engineVarTable;
-    CDStruct_419bcb5e _rowTables[2];
-    CDStruct_419bcb5e _colTables[2];
-    NSISVariable *_headForObjectiveRow;
-    struct {
-        NSISEngine *engine;
-        CDStruct_183601bc *storage;
-    } _objectiveRow;
-    NSISVariable *_placeholderHeadForExpressionBeingAdded;
-    NSISVariable *_artificialRowHead;
-    NSISVariable *_artificialObjectiveRowHead;
-    NSISObjectiveLinearExpression *_artificialObjectiveRowBody;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)`;
 + (void);
-+ (_Bool);
++ (_Bool);
 + (void);
-+ (void);
++ (void)R;
 
 @end
 

@@ -7,24 +7,20 @@
 @interface AOSImpatientExecutor
 {
     CDUnknownBlockType _targetBlock;
-    double _timeout;
-    CDUnknownBlockType _timeoutBlock;
 }
 
 + (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509/x509_obj.c;
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType targetBlock; // @synthesize targetBlock=_targetBlock;
-@property double timeout; // @synthesize timeout=_timeout;
-@property(copy) CDUnknownBlockType timeoutBlock; // @synthesize timeoutBlock=_timeoutBlock;
 
 @end
 

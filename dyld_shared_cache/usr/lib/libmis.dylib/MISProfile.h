@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString;
+@class NSData;
 
 @interface MISProfile
 {
     NSData *signature;
-    struct CEQueryContext *ceCtx;
-    NSData *derEntitlementsStorage;
-    _Bool _fixedup;
-    int flavor;
-    NSMutableDictionary *payload;
-    NSDictionary *entitlements;
-    NSArray *certs;
 }
 
 - (void);
@@ -27,19 +20,14 @@
 - (id);
 - (id);
 - (int);
-- (void);
-- (id);
+- (void)lection:(id)arg1;
+- (id)string for synthesis request did not execute reply block;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *certs; // @synthesize certs;
-@property(readonly) struct CEQueryContext *derEntitlements;
-@property(copy) NSDictionary *entitlements; // @synthesize entitlements;
 @property int flavor; // @synthesize flavor;
-@property(retain) NSMutableDictionary *payload; // @synthesize payload;
-@property(readonly, nonatomic) NSString *uuid;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SKUIRemoteEngagementClientProtocol
+- (void)";
 @end
 

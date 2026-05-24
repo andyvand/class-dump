@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)ze:(id)arg1 %lu) to file %@;
+- (void)iled to fchmod the file %d;
 - (void);
 
 @end

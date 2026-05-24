@@ -6,58 +6,36 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class FPItem, FPItemManager, FPService, FPStitchingSession, NSArray, NSDictionary, NSProgress, NSSet, NSString;
+@class FPService, NSDictionary;
 @protocol FPXOperationService;
 
 @interface FPActionOperation : FPOperation
 {
     NSDictionary *_itemsByDomainID;
-    NSString *_providerIdentifier;
-    _Bool _multiProviders;
-    unsigned long long _logSection;
-    FPStitchingSession *_stitcher;
-    unsigned long long _attemptedRecoveryCount;
-    _Bool _finishAfterPreflight;
-    _Bool _skipPreflight;
-    _Bool _setupRemoteOperationService;
-    _Bool _haveErrorRecovery;
-    _Bool _havePreflight;
-    _Bool _haveStitching;
-    CDUnknownBlockType _placeholdersCreationBlock;
-    CDUnknownBlockType _actionCompletionBlock;
-    NSProgress *_progress;
-    CDUnknownBlockType _errorRecoveryHandler;
-    FPItemManager *_itemManager;
-    FPService<FPXOperationService> *_remoteService;
-    NSString *_action;
-    NSArray *_sourceItemsToPreflight;
-    NSSet *_sourceItemKeysAllowList;
-    NSSet *_destinationItemKeysAllowList;
-    FPItem *_destinationItemToPreflight;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)M;
 - (id);
 - (id);
 - (id);
+- (_Bool)bM;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -73,8 +51,8 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)=;
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -84,9 +62,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -95,32 +73,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(copy, nonatomic) CDUnknownBlockType actionCompletionBlock; // @synthesize actionCompletionBlock=_actionCompletionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSSet *destinationItemKeysAllowList; // @synthesize destinationItemKeysAllowList=_destinationItemKeysAllowList;
-@property(copy, nonatomic) FPItem *destinationItemToPreflight; // @synthesize destinationItemToPreflight=_destinationItemToPreflight;
-@property(copy, nonatomic) CDUnknownBlockType errorRecoveryHandler; // @synthesize errorRecoveryHandler=_errorRecoveryHandler;
-@property(nonatomic) _Bool finishAfterPreflight; // @synthesize finishAfterPreflight=_finishAfterPreflight;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool haveErrorRecovery; // @synthesize haveErrorRecovery=_haveErrorRecovery;
-@property(nonatomic) _Bool havePreflight; // @synthesize havePreflight=_havePreflight;
-@property(nonatomic) _Bool haveStitching; // @synthesize haveStitching=_haveStitching;
-@property(retain, nonatomic) FPItemManager *itemManager; // @synthesize itemManager=_itemManager;
-@property(copy, nonatomic) CDUnknownBlockType placeholdersCreationBlock; // @synthesize placeholdersCreationBlock=_placeholdersCreationBlock;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
 @property(retain, nonatomic) FPService<FPXOperationService> *remoteService; // @synthesize remoteService=_remoteService;
-@property(readonly, nonatomic) id <FPXOperationService> remoteServiceProxy;
-@property(nonatomic) _Bool setupRemoteOperationService; // @synthesize setupRemoteOperationService=_setupRemoteOperationService;
-@property(nonatomic) _Bool skipPreflight; // @synthesize skipPreflight=_skipPreflight;
-@property(copy, nonatomic) NSSet *sourceItemKeysAllowList; // @synthesize sourceItemKeysAllowList=_sourceItemKeysAllowList;
-@property(copy, nonatomic) NSArray *sourceItemsToPreflight; // @synthesize sourceItemsToPreflight=_sourceItemsToPreflight;
-@property(readonly, nonatomic) FPStitchingSession *stitcher;
-@property(readonly) Class superclass;
 
 @end
 

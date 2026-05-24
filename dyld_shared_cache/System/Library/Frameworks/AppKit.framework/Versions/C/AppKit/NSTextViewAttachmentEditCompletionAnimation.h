@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewAnimation;
+@class NSViewAnimation;
 
 __attribute__((visibility("hidden")))
 @interface NSTextViewAttachmentEditCompletionAnimation
 {
     NSViewAnimation *_animation;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void)Dk;
-- (void)oolbarUseReducedGlassShadows;
+- (void)NSToolbarUseReducedGlassShadows;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

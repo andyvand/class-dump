@@ -11,7 +11,7 @@
     PETScalarEventTracker *_tracker;
 }
 
-- (void);
+- (void)W;
 - (id);
 - (id);
 - (void);

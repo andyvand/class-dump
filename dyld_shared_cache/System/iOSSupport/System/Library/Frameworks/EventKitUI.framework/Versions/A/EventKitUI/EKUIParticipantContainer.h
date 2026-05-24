@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKParticipant, EKUILabeledAvatarView, NSMutableArray, UILabel, UINavigationController;
+@class EKParticipant;
 
 @interface EKUIParticipantContainer
 {
     EKParticipant *_participant;
-    EKUILabeledAvatarView *_avatar;
-    UILabel *_nameLabel;
-    UILabel *_subLabel;
-    NSMutableArray *_labelConstraints;
-    UINavigationController *_navController;
 }
 
 - (void);
@@ -23,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void){;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -32,16 +27,11 @@
 - (void);
 - (id);
 - (id);
-- (void)ollerWillSuspend: /* Error: Ran out of types for this method. */;
-- (id)ccurrenceViewIterator;
+- (void)viewControllerWillSuspend: /* Error: Ran out of types for this method. */;
+- (id)EKDayOccurrenceViewIterator;
 
 // Remaining properties
-@property(retain) EKUILabeledAvatarView *avatar; // @synthesize avatar=_avatar;
-@property(retain) NSMutableArray *labelConstraints; // @synthesize labelConstraints=_labelConstraints;
-@property(retain) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property __weak UINavigationController *navController; // @synthesize navController=_navController;
 @property(retain) EKParticipant *participant; // @synthesize participant=_participant;
-@property(retain) UILabel *subLabel; // @synthesize subLabel=_subLabel;
 
 @end
 

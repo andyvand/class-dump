@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSMapTable, NSString, UIDropInteraction, UITableView, UITableViewDropProposal;
-@protocol UIDropSession, _UITableViewDropControllerDelegate;
+@class UIDropInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropController
 {
     _Bool _canOnlyHandleReordering;
-    UIDropInteraction *_dropInteraction;
-    UITableView<_UITableViewDropControllerDelegate> *_tableView;
-    unsigned long long _defaultDropOperation;
-    NSIndexPath *_targetIndexPath;
-    UITableViewDropProposal *_dropProposal;
-    id <UIDropSession> _dropSession;
-    long long _ignoringDragsCount;
-    NSMapTable *_dragItemDropAnimations;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)	k ;
+- (id)buildWithIdentifier:withDescriptor:withBundleIdentifier:withDesignatedRequirement:withSigningIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)_adjustedItemPropertyContentRatingOfEntity:(_Bool)arg1 withDefaultValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id)°1Â0@ù
 × ;
@@ -41,20 +32,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)ControllerAdaptiveLayoutTransitionController";
 - (id)ew";
-- (id)llToContainer;
-- (long long)eActionsContainer;
-- (void)bel: /* Error: Ran out of types for this method. */;
-- (id)options: /* Error: Ran out of types for this method. */;
+- (id)_transfersScrollToContainer;
+- (long long)_createSwipeActionsContainer;
+- (void)_applyToLabel: /* Error: Ran out of types for this method. */;
+- (id)prepareForInputSession:options: /* Error: Ran out of types for this method. */;
 - (void)ð;
 - (void)T³;
 - (void)=%@; supportedOrientations=[%@].;
 - (id)ÜDÿÿôDÿÿEÿÿdEÿÿEÿÿ´EÿÿÔEÿÿFÿÿ,FÿÿÐFÿÿèFÿÿGÿÿ Gÿÿ@Gÿÿ°GÿÿðGÿÿ(Hÿÿ@HÿÿXHÿÿxHÿÿHÿÿ¨Hÿÿ8KÿÿKÿÿLÿÿ4Lÿÿ¬LÿÿÄLÿÿÜLÿÿMÿÿðLÿÿÄMÿÿ\Nÿÿ|Nÿÿ¼NÿÿôNÿÿtOÿÿPÿÿ<PÿÿtPÿÿ´PÿÿÔPÿÿôPÿÿQÿÿ8QÿÿXQÿÿxQÿÿQÿÿ¸QÿÿØQÿÿøQÿÿ$Rÿÿ<RÿÿTRÿÿlRÿÿRÿÿSÿÿ(Sÿÿ@SÿÿXSÿÿpSÿÿ|Vÿÿ¼Vÿÿ0WÿÿHWÿÿ`Wÿÿ WÿÿôWÿÿXÿÿ$Xÿÿ<XÿÿTXÿÿlXÿÿXÿÿXÿÿ´XÿÿÌXÿÿäXÿÿüXÿÿYÿÿ,YÿÿDYÿÿ\YÿÿtYÿÿYÿÿ¤YÿÿÄYÿÿZÿÿ(Zÿÿ4\ÿÿd\ÿÿ\ÿÿÀ]ÿÿø]ÿÿÀ^ÿÿØ^ÿÿ0_ÿÿH_ÿÿx_ÿÿ¼_ÿÿÔ_ÿÿì_ÿÿ`ÿÿ`ÿÿ4`ÿÿL`ÿÿd`ÿÿ|`ÿÿ`ÿÿ¬`ÿÿÄ`ÿÿÜ`ÿÿHaÿÿÜaÿÿbÿÿ0bÿÿHbÿÿhbÿÿbÿÿbÿÿÔcÿÿPdÿÿÜdÿÿeÿÿ4eÿÿTeÿÿteÿÿ¬eÿÿfÿÿ<fÿÿLgÿÿdgÿÿ|gÿÿgÿÿ¬gÿÿðgÿÿ4hÿÿLhÿÿdhÿÿhÿÿpiÿÿiÿÿ iÿÿ¸iÿÿmÿÿ¬mÿÿÐmÿÿèmÿÿ;
 - (id)Hêÿ;
 - (void)ä¥éÿ¤x]þP¶þÿ	;
-- (id)mn;
+- (id)presentedColumn;
 - (void)a.m;
 - (void)an;
-- (id)StyleOverrideDeveloperTools;
+- (id)UIStatusBarStyleOverrideDeveloperTools;
 - (_Bool)fects = %@;
 - (id)%@; dest=%@; boundsInSource=%@;
 - (void)32@?0@"_UINavigationBarItemStackEntry"8Q16^B24;
@@ -62,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)vvæ?Ë?VVVVVVÖ?p=
 ×£pÝ?ffffffæ?433333Ó?433333Ó?ffffffæ?Ù?333333ã?333333ã?Ù?;
-- (id)tMetricsState;
+- (id)_UICellConfigurationStateReadonlyCoreListMetricsState;
 - (void);
 - (_Bool);
 - (void);
@@ -73,25 +64,7 @@ __attribute__((visibility("hidden")))
 - (void)ÆI;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool canOnlyHandleReordering; // @synthesize canOnlyHandleReordering=_canOnlyHandleReordering;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long defaultDropOperation; // @synthesize defaultDropOperation=_defaultDropOperation;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMapTable *dragItemDropAnimations; // @synthesize dragItemDropAnimations=_dragItemDropAnimations;
 @property(retain, nonatomic) UIDropInteraction *dropInteraction; // @synthesize dropInteraction=_dropInteraction;
-@property(retain, nonatomic) UITableViewDropProposal *dropProposal; // @synthesize dropProposal=_dropProposal;
-@property(retain, nonatomic) id <UIDropSession> dropSession; // @synthesize dropSession=_dropSession;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long ignoringDragsCount; // @synthesize ignoringDragsCount=_ignoringDragsCount;
-@property(readonly, nonatomic) _Bool shouldIgnoreDrags;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UITableView<_UITableViewDropControllerDelegate> *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) NSIndexPath *targetIndexPath; // @synthesize targetIndexPath=_targetIndexPath;
-@property(readonly, nonatomic, getter=isTrackingDrag) _Bool trackingDrag;
 
 @end
 

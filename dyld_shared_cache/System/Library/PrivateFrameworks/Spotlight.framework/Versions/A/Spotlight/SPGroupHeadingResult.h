@@ -17,11 +17,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *rollOverString;
 @property(readonly) _Bool supportsFocus;
 
 @end

@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDSecureRemoteStreamInternal, HMDUser, HMFPairingIdentity, NSArray, NSDate, NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDSecureRemoteStream
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _open;
-    _Bool _idle;
-    _Bool _authenticated;
-    _Bool _supportsSharedIdentities;
-    long long _qualityOfService;
-    NSNumber *_maximumRemoteStreams;
-    NSDate *_lastActivity;
-    HMDDevice *_peerDevice;
-    long long _role;
-    NSUUID *_sessionID;
-    HMDUser *_peer;
-    HMFPairingIdentity *_peerIdentity;
-    HMDSecureRemoteStreamInternal *_remoteSession;
-    HMDDevice *_currentDevice;
 }
 
 + (id)
@@ -35,18 +19,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)] _showOrUpdateNotification not showing notification as type is none;
+- (void)MSPUGCTimeIntervalToCacheBAACertificatesForRAPRequestsKey;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -56,54 +40,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)etCompanionDevice:(_Bool)arg1 forHome: /* Error: Ran out of types for this method. */;
-- (id)imumTransactionsForStoreChange;
-- (id)mwareRevisionNumber;
+- (void)setCompanionDevice:(_Bool)arg1 forHome: /* Error: Ran out of types for this method. */;
+- (id)maximumTransactionsForStoreChange;
+- (id)matterFirmwareRevisionNumber;
 - (id)T@"NSMapTable",&,N,V_registeredAccessories;
 - (id)egistering with FirmwareUpdateManager due to invalid matter AFU settings;
 - (long long)data;
 - (void)"8;
-- (void)Home;
+- (void)numWidgetsInHome;
 - (_Bool)¹eÿ;
 - (_Bool)ÿòÔz?;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, getter=isAuthenticated) _Bool authenticated; // @synthesize authenticated=_authenticated;
-@property(readonly, nonatomic) HMDDevice *currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isIdle) _Bool idle; // @synthesize idle=_idle;
-@property(readonly, copy) NSDate *lastActivity; // @synthesize lastActivity=_lastActivity;
-@property(readonly, copy) NSNumber *maximumRemoteStreams; // @synthesize maximumRemoteStreams=_maximumRemoteStreams;
-@property(readonly, getter=isOpen) _Bool open; // @synthesize open=_open;
-@property(retain, nonatomic) HMDUser *peer; // @synthesize peer=_peer;
 @property(retain) HMDDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(retain, nonatomic) HMFPairingIdentity *peerIdentity; // @synthesize peerIdentity=_peerIdentity;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(retain, nonatomic) HMDSecureRemoteStreamInternal *remoteSession; // @synthesize remoteSession=_remoteSession;
-@property(readonly) long long role; // @synthesize role=_role;
-@property(readonly, copy, nonatomic) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsSharedIdentities; // @synthesize supportsSharedIdentities=_supportsSharedIdentities;
 
 @end
 

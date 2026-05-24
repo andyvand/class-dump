@@ -8,9 +8,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long durationInFrames;
-@property(nonatomic, readonly) unsigned int encodingDelayInFrames;
-@property(nonatomic, readonly) unsigned int encodingDrainInFrames;
-@property(nonatomic, readonly) unsigned int heuristicInfo;
-@property(nonatomic, readonly) unsigned long long lastPacketsResync;
 @end
 

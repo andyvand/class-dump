@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCondition;
-
 __attribute__((visibility("hidden")))
 @interface _NSThreadPerformInfo
 {
     id _target;
-    SEL _selector;
-    id _argument;
-    _Atomic unsigned long long _pac_signature;
-    NSArray *_modes;
-    NSCondition *_waiter;
-    int _state;
 }
 
 - (void);

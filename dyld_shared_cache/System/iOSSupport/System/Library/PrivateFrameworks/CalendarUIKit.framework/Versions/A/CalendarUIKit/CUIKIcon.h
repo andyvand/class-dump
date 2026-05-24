@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIcon, NSCalendar, NSDateComponents, NSMutableDictionary;
-@protocol CUIKIconGenerator;
+@class NSDateComponents;
 
 @interface CUIKIcon
 {
     NSDateComponents *_dateComponents;
-    NSCalendar *_calendar;
-    long long _format;
-    id <CUIKIconGenerator> _iconGenerator;
-    ISIcon *_internalIcon;
-    NSMutableDictionary *_internalIcons;
 }
 
 - (void);
@@ -31,19 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)easurement_t={IMFileLocation_t=****i}QQ^{__CFString}ddd}}^{__CFError}}8;
+- (id)H;
 - (long long);
-- (void)CalendarIsEnabled:withAccountStore: /* Error: Ran out of types for this method. */;
+- (void)setHolidayCalendarIsEnabled:withAccountStore: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
 @property(readonly, copy, nonatomic) NSDateComponents *dateComponents; // @synthesize dateComponents=_dateComponents;
-@property(readonly, nonatomic) long long format; // @synthesize format=_format;
-@property(readonly, nonatomic) id <CUIKIconGenerator> iconGenerator; // @synthesize iconGenerator=_iconGenerator;
-@property(retain, nonatomic) ISIcon *internalIcon; // @synthesize internalIcon=_internalIcon;
-@property(retain, nonatomic) NSMutableDictionary *internalIcons; // @synthesize internalIcons=_internalIcons;
 
 @end
 

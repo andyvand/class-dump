@@ -10,14 +10,15 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)	
+;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)z;
+- (unsigned long long)lityPipelineComponent> Incomplete identifier(s), returning empty capabilities (from:%@, to:%@) /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);

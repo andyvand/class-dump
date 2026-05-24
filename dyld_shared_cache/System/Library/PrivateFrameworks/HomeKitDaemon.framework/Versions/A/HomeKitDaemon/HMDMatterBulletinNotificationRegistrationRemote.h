@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinNotificationRegistrationSource, HMDMatterBulletinNotificationRegistration;
+@class HMDMatterBulletinNotificationRegistration;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterBulletinNotificationRegistrationRemote
 {
     HMDMatterBulletinNotificationRegistration *_registration;
-    HMDBulletinNotificationRegistrationSource *_source;
 }
 
 + (_Bool)à;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)3;
 - (void);
-- (id)ry:(struct _NSZone *)arg1 delegate:snapshotRequestHandler: /* Error: Ran out of types for this method. */;
-- (id)edFirmwareVersionChangedNotification: /* Error: Ran out of types for this method. */;
+- (id)initWithSessionInfo:(struct _NSZone *)arg1 workQueue:accessory:delegate:snapshotRequestHandler: /* Error: Ran out of types for this method. */;
+- (id)handleStagedFirmwareVersionChangedNotification: /* Error: Ran out of types for this method. */;
 - (id)ir Verify with accessory :%@/%@, for Home:%@ /* Error: Ran out of types for this method. */;
 - (void)sory Characteristic Registrations (Local);
 - (id);
 
 // Remaining properties
 @property(readonly, copy) HMDMatterBulletinNotificationRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, copy) HMDBulletinNotificationRegistrationSource *source; // @synthesize source=_source;
 
 @end
 

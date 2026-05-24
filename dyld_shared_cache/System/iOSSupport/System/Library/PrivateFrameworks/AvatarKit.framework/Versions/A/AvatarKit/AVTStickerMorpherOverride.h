@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVTStickerMorpherOverride
 {
     float _weight;
-    id _nodeNames;
-    NSString *_morphTargetName;
 }
 
 + (id);
@@ -19,14 +15,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)lf,SolutionChecker:est, %u. solution_to_check_against direction of travel vector is equal to zero, %.2lf. Marking the RavenSolution as unhealthy. Exiting with check passed return value. /* Error: Ran out of types for this method. */;
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *morphTargetName; // @synthesize morphTargetName=_morphTargetName;
 @property(readonly, copy, nonatomic) id nodeNames; // @synthesize nodeNames=_nodeNames;
-@property(readonly, nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

@@ -9,31 +9,27 @@
 @interface HMAccessoryInfoProtoAirportInfoEvent
 {
     NSData *_bssid;
-    NSData *_ssid;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)authenticationCompletedHandler;
+- (_Bool)=%@,accountIdentifier=%@, purchaseType=%li>;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)deflexion;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)tAllNotificationsEnabled:includeAppleMediaAccessories:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setStoreResponse:(id)arg1;
+- (id)setAllNotificationsEnabled:includeAppleMediaAccessories:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)caller from context:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *bssid; // @synthesize bssid=_bssid;
-@property(readonly, nonatomic) _Bool hasBssid;
 @property(readonly, nonatomic) _Bool hasSsid;
-@property(retain, nonatomic) NSData *ssid; // @synthesize ssid=_ssid;
 
 @end
 

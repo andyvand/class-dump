@@ -5,5 +5,8 @@
 //
 
 @protocol CDPAuthProvider
+
+@optional
+- (void);
 @end
 

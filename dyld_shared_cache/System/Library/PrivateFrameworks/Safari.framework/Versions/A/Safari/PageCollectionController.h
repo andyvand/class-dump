@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSButton, NSString, NSURL, NSWindow, WBSPageCollectionMetadata, WKWebView;
-@protocol PageCollectionControllerDelegate;
+@class BrowserViewController, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface PageCollectionController
 {
     BrowserViewController *_browserViewController;
-    NSButton *_additionalQuestionsWindowCaptureDoesNotMatchButton;
-    NSButton *_additionalQuestionsWindowCaptureDoesMatchButton;
-    NSButton *_additionalQuestionsWindowPopupButton;
-    WKWebView *_additionalQuestionsWebView;
-    NSURL *_temporarySaveDirectory;
-    NSURL *_temporaryDirectory;
-    NSURL *_downloadLocationURLWithSecurityScopedAccess;
-    WBSPageCollectionMetadata *_collectionMetadata;
-    NSWindow *_additionalQuestionsWindow;
-    id <PageCollectionControllerDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)logger;
 - (void);
 - (void);
 - (void)ÌÀ;
@@ -41,14 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSWindow *additionalQuestionsWindow; // @synthesize additionalQuestionsWindow=_additionalQuestionsWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PageCollectionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

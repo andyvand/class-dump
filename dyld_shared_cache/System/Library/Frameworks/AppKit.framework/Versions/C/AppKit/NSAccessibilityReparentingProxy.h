@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NSAccessibilityReparentingProxy : NSAccessibilityProxy
 {
     id _realElement;
-    id _fauxParent;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)_TLSMinimumSupportedProtocolVersion;
+- (id)alled before forget;
+- (id)ime_stamp - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)rationDate:isEligibleForPrediction:isPubliclyIndexable:itemIdentifier:itemRelatedContentURL:itemRelatedUniqueIdentifier:shortcutAvailability:suggestedInvocationPhrase:title:userActivityRequiredString:userActivityUUID:sourceID:sourceBundleID:sourceItemID:sourceGroupID:calendarUserActivityDate:calendarUserActivityExternalID:calendarUserActivityEndDate:locationName:latitude:longitude:city:stateOrProvince:country:thoroughfare:fullyFormattedAddress:subThoroughfare:postalCode:phoneNumbers:displayName:URL: /* Error: Ran out of types for this method. */;
 
 @end
 

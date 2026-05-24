@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSECall, PSESchemaPSECommonSignal;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSECallSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    PSESchemaPSECall *_callSignal;
-    _Bool _hasCommonSignal;
-    _Bool _hasCallSignal;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,21 +26,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)accountName;
 - (_Bool);
-- (_Bool);
+- (_Bool)nalize image for %s;
 - (id);
-- (id);
-- (id)stSpotlightContext;
+- (id)h;
+- (id)_stSpotlightContext;
 - (id)erStatedTaskOnTheFirstUserParse;
-- (void)TART;
+- (void)FLOWSTATETYPE_HANDLE_INTENT_START;
 
 // Remaining properties
-@property(retain, nonatomic) PSESchemaPSECall *callSignal; // @synthesize callSignal=_callSignal;
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(nonatomic) _Bool hasCallSignal; // @synthesize hasCallSignal=_hasCallSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

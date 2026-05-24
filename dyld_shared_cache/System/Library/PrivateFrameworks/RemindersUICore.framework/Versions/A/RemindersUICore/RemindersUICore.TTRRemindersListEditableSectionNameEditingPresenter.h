@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRRemindersListEditableSectionNameEditingPresenter
 {
     id item;
-    id delegate;
-    id presenterManager;
-    id interactor;
-    id state;
-    id shouldSkipCommitting;
 }
 
 @end

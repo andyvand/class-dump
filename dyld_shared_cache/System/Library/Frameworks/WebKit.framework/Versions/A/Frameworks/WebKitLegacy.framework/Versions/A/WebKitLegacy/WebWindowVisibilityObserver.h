@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void)drain_duration_p_1_00_at_charge_start_secs_curr_dynamic_bin_4;
 - (id);
 
 @end

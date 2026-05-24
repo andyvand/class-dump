@@ -7,11 +7,6 @@
 @interface IdentityLookup.StoreWrapper
 {
     id onContextDidSave;
-    id protectedState;
-    id stateLock;
-    id containerName;
-    id model;
-    id storeDescription;
 }
 
 @end

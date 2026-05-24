@@ -5,7 +5,7 @@
 //
 
 @protocol _UITextInputSourceCacheProtocol
-- (void):(long long)arg1 asTap:(unsigned long long)arg2 precision: /* Error: Ran out of types for this method. */;
+- (void)_canBeginInteractionSessionForLinkAtPoint:(long long)arg1 asTap:(unsigned long long)arg2 precision: /* Error: Ran out of types for this method. */;
 - (long long)h!;
 
 // Remaining properties

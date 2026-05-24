@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMScriptFactory, MMScriptInterface, NSMutableDictionary, NSString;
+@class MMScriptFactory;
 
 __attribute__((visibility("hidden")))
 @interface MMUserContentController
 {
     struct os_unfair_lock_s _messageBlocksLock;
-    NSMutableDictionary *_messageBlocks;
-    MMScriptFactory *_factory;
-    MMScriptInterface *_exportedInterface;
-    id _exportedObject;
 }
 
 - (void);
 - (void);
+- (void)?Uq	3;
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)3;
+- (CDUnknownBlockType)%;
 - (id);
 - (id);
 - (void);
@@ -40,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)ller"16@"ACAccount"24@?<v@?B@"NSError">32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MMScriptInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
 @property(retain, nonatomic) MMScriptFactory *factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

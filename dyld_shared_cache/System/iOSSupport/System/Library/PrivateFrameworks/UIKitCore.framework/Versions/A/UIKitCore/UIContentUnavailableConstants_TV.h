@@ -25,12 +25,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)× ;
 - (id)4@0:(id)arg1 8@"NSString"16;
-- (id)DisplayView: /* Error: Ran out of types for this method. */;
-- (id)wEdgeConstraints;
-- (id)ion;
-- (double)RLOptionsSourceProcessHandleKey;
+- (id)shouldDismissModalDisplayView: /* Error: Ran out of types for this method. */;
+- (id)clearInputViewEdgeConstraints;
+- (id)_previewClickInteraction;
+- (double)_UIApplicationOpenURLOptionsSourceProcessHandleKey;
 - (id)%@; boundingBox:(id)arg1 %@; primaryRect:%@> /* Error: Ran out of types for this method. */;
-- (id)EnhanceBackgroundContrastChangedNotification;
+- (id)UIAccessibilityEnhanceBackgroundContrastChangedNotification;
 - (double)Ôg;
 
 @end

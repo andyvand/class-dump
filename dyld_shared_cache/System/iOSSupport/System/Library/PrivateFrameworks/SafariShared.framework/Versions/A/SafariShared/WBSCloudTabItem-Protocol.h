@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @protocol WBSCloudTabItem
 - (NSString *)tab %{private}@ on "%{private}@";
 
 // Remaining properties
-@property(readonly, nonatomic) double lastViewedTime;
-@property(readonly, nonatomic, getter=isPinned) _Bool pinned;
-@property(readonly, copy, nonatomic) NSDictionary *readerScrollPositionDictionary;
-@property(readonly, nonatomic, getter=isShowingReader) _Bool showingReader;
 @property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSURL *url;
-@property(readonly, copy, nonatomic) NSString *uuidString;
 @end
 

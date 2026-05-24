@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface MPDisplayHW
 {
     int _displayID;
-    NSDictionary *_displayInfo;
 }
 
 - (id);
@@ -45,7 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property int displayID; // @synthesize displayID=_displayID;
-@property(retain) NSDictionary *displayInfo; // @synthesize displayInfo=_displayInfo;
 
 @end
 

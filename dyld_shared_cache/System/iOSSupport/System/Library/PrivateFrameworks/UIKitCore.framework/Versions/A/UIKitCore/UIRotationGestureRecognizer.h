@@ -15,12 +15,12 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)yScreenBasedWindowLookup;
++ (_Bool)DisableLegacyScreenBasedWindowLookup;
 - (void);
-- (double);
+- (double)nID AND child_key = @childKey ORDER BY suborder;
 - (double)nizer"24@"UIView"32;
-- (struct CGPoint)ingViewsUnnecessary;
-- (double)uAvoidanceSceneComponent;
+- (struct CGPoint)areClippingViewsUnnecessary;
+- (double)_contextMenuAvoidanceSceneComponent;
 - (void)ø;
 - (_Bool)%@;
 - (id)UISceneLifecycle(FBSDisplayIdentity *__strong, BOOL);

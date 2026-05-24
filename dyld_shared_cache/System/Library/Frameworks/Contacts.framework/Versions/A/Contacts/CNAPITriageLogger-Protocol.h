@@ -5,5 +5,7 @@
 //
 
 @protocol CNAPITriageLogger
+- (void)`;
+- (void)supportsSyncingTrash;
 @end
 

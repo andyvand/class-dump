@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncDataDownloadTriggered : SISchemaInstrumentationMessage
 {
     int _trigger;
-    int _syncData;
-    struct {
-        unsigned int trigger:1;
-        unsigned int syncData:1;
-    } _has;
 }
 
 - (int);
@@ -23,26 +16,22 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)y(;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ces/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableAppResponse_macOS.m:29 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)AG2sfPAn4RIPhda0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/IMDCFAttachmentRecord.m;
 - (id);
 - (id);
-- (id)text;
+- (id)assistantDaemonAudioSessionSetInactiveContext;
 - (id)PhoneCallUsingSiri;
-- (int)OOL_DISAMBIGUATION;
+- (int)IFOUTCOME_TOOL_DISAMBIGUATION;
 - (void)Event;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSyncData;
-@property(nonatomic) _Bool hasTrigger;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int syncData; // @synthesize syncData=_syncData;
 @property(nonatomic) int trigger; // @synthesize trigger=_trigger;
 
 @end

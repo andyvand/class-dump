@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWLINKSchemaFLOWLINKActionParametersUpdated : SISchemaInstrumentationMessage
 {
@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (id);
+- (id)ediaServicesUI.framework/Contents/MacOS/AppleMediaServicesUI;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setSchemaData: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)initWithStreamName:(id)arg1 queue: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -28,12 +28,11 @@
 - (void);
 - (id)orted";
 - (id)itionEnded";
-- (id)er1;
+- (id)USOSchemaUSOSpanPropertyTier1;
 - (id)°^;
 - (void)¡¼ÿò;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 
 @end

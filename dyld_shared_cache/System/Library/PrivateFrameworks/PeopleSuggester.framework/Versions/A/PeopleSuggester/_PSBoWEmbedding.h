@@ -9,28 +9,26 @@
 @interface _PSBoWEmbedding
 {
     long long _embeddingDimension;
-    NLEmbedding *_embedding;
 }
 
+- (id)_executorAppIntentMetrics;
+- (void)_correctedPunctuation;
+- (id)_assistantDaemonSpawnTimestampInNs;
+- (id)_acousticMitigatorAcceptPostAcousticMitigationCount;
+- (id)_userLocale;
+- (id)onsWhitelistSettings;
+- (id)nscriptionType;
+- (id)echRecognitionSource;
+- (id)V_searchType;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NLEmbedding *embedding; // @synthesize embedding=_embedding;
-@property(readonly, nonatomic) long long embeddingDimension; // @synthesize embeddingDimension=_embeddingDimension;
 
 @end
 

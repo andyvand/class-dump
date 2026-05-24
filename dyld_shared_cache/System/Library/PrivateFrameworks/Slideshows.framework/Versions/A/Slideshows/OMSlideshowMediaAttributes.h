@@ -7,17 +7,13 @@
 @interface OMSlideshowMediaAttributes
 {
     double _duration;
-    double _scale;
-    double _scale2;
-    struct CGPoint _center;
-    struct CGPoint _center2;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)lopeTracker registerEnvelopesAsSubmittedToUploader:] /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (id);
 - (double);
@@ -30,11 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(nonatomic) struct CGPoint center2; // @synthesize center2=_center2;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) double scale2; // @synthesize scale2=_scale2;
 
 @end
 

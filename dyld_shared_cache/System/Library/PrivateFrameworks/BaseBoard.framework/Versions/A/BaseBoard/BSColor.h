@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BSColor
 {
     struct CGColor *_colorRef;
-    double _red;
-    double _green;
-    double _blue;
-    double _alpha;
 }
 
 + (id);
@@ -20,18 +14,7 @@
 + (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColor *CGColor;
-@property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) double blue; // @synthesize blue=_blue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double green; // @synthesize green=_green;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double red; // @synthesize red=_red;
-@property(readonly) Class superclass;
 
 @end
 

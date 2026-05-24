@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)_dateFirstTransaction;
 
 // Remaining properties
 @property(retain) SFTextCopyItem *item; // @dynamic item;

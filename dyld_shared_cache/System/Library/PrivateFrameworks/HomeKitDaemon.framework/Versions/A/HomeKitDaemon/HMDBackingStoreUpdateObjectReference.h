@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreUpdateObjectReference
 {
     id _object;
-    NSUUID *_uuid;
 }
 
 - (id);
@@ -24,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

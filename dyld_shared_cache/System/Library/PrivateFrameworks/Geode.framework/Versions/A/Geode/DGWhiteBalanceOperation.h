@@ -6,33 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSColor, NSNumber, NSString;
-@protocol DGWhiteBalanceRAWProperties;
+@class NSNumber;
 
 @interface DGWhiteBalanceOperation : DGOperation
 {
     NSNumber *_inputColorType;
-    NSNumber *_isDefaults;
-    NSColor *_inputGrayColor;
-    NSNumber *_inputGrayWarmth;
-    NSNumber *_inputEV;
-    NSNumber *_inputSlope;
-    NSNumber *_inputBias;
-    NSColor *_legacyFaceColor;
-    long long _legacyVersion;
-    NSNumber *_inputFaceWarmth;
-    _Bool _warmFace;
-    float _faceOrigI;
-    float _faceOrigQ;
-    float _faceStrength;
-    float _warmTemp;
-    float _warmTint;
-    NSNumber *_inputGrayY;
-    NSNumber *_inputGrayI;
-    NSNumber *_inputGrayQ;
-    id <DGWhiteBalanceRAWProperties> _rawProperties;
-    NSNumber *_temperature;
-    NSNumber *_tint;
 }
 
 + (_Bool);
@@ -59,7 +37,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct DGRGBf_t);
@@ -92,54 +70,25 @@
 - (id);
 - (id);
 - (float);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)nent>"16@"<SXComponentState>"24{CGSize=dd}32;
+- (id)DOM"32;
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)s;
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)P;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float faceOrigI; // @synthesize faceOrigI=_faceOrigI;
-@property(nonatomic) float faceOrigQ; // @synthesize faceOrigQ=_faceOrigQ;
-@property(nonatomic) float faceStrength; // @synthesize faceStrength=_faceStrength;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *inputBias; // @synthesize inputBias=_inputBias;
-@property(copy, nonatomic) NSNumber *inputColorType; // @synthesize inputColorType=_inputColorType;
-@property(copy, nonatomic) NSNumber *inputEV; // @synthesize inputEV=_inputEV;
-@property(copy, nonatomic) NSNumber *inputFaceWarmth; // @synthesize inputFaceWarmth=_inputFaceWarmth;
-@property(copy, nonatomic) NSColor *inputGrayColor; // @synthesize inputGrayColor=_inputGrayColor;
-@property(copy, nonatomic) NSNumber *inputGrayI; // @synthesize inputGrayI=_inputGrayI;
-@property(copy, nonatomic) NSNumber *inputGrayQ; // @synthesize inputGrayQ=_inputGrayQ;
-@property(copy, nonatomic) NSNumber *inputGrayWarmth; // @synthesize inputGrayWarmth=_inputGrayWarmth;
-@property(copy, nonatomic) NSNumber *inputGrayY; // @synthesize inputGrayY=_inputGrayY;
-@property(copy, nonatomic) NSNumber *inputIsDefaults; // @synthesize inputIsDefaults=_isDefaults;
-@property long long inputLegacyVersion; // @synthesize inputLegacyVersion=_legacyVersion;
-@property(copy, nonatomic) NSNumber *inputSlope; // @synthesize inputSlope=_inputSlope;
-@property(copy, nonatomic) NSNumber *inputTemperature;
-@property(copy, nonatomic) NSNumber *inputTint;
-@property(retain, nonatomic) id <DGWhiteBalanceRAWProperties> rawProperties; // @synthesize rawProperties=_rawProperties;
-@property(readonly) Class superclass;
 @property(copy) NSNumber *temperature; // @synthesize temperature=_temperature;
-@property(copy) NSNumber *tint; // @synthesize tint=_tint;
-@property(nonatomic) _Bool warmFace; // @synthesize warmFace=_warmFace;
-@property(nonatomic) float warmTemp; // @synthesize warmTemp=_warmTemp;
-@property(nonatomic) float warmTint; // @synthesize warmTint=_warmTint;
 
 @end
 

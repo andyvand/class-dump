@@ -10,7 +10,6 @@
 @interface FBSWorkspaceService
 {
     id <FBSWorkspaceServiceTarget> _target;
-    NSString *_identifier;
 }
 
 + (id);

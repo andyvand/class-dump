@@ -7,18 +7,6 @@
 @interface MLCConvolutionDescriptor
 {
     int _convolutionType;
-    int _paddingPolicy;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _inputFeatureChannelCount;
-    unsigned long long _outputFeatureChannelCount;
-    unsigned long long _strideInX;
-    unsigned long long _strideInY;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _groupCount;
-    unsigned long long _paddingSizeInX;
-    unsigned long long _paddingSizeInY;
 }
 
 + (id);
@@ -39,7 +27,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)G;
 - (unsigned long long);
 - (unsigned long long);
 - (int);
@@ -57,21 +45,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) int convolutionType; // @synthesize convolutionType=_convolutionType;
-@property(readonly, nonatomic) unsigned long long dilationRateInX; // @synthesize dilationRateInX=_dilationRateInX;
-@property(readonly, nonatomic) unsigned long long dilationRateInY; // @synthesize dilationRateInY=_dilationRateInY;
-@property(readonly, nonatomic) unsigned long long groupCount; // @synthesize groupCount=_groupCount;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannelCount; // @synthesize inputFeatureChannelCount=_inputFeatureChannelCount;
-@property(readonly, nonatomic) _Bool isConvolutionTranspose;
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannelCount; // @synthesize outputFeatureChannelCount=_outputFeatureChannelCount;
 @property(nonatomic) int paddingPolicy; // @synthesize paddingPolicy=_paddingPolicy;
-@property(nonatomic) unsigned long long paddingSizeInX; // @synthesize paddingSizeInX=_paddingSizeInX;
-@property(nonatomic) unsigned long long paddingSizeInY; // @synthesize paddingSizeInY=_paddingSizeInY;
-@property(readonly, nonatomic) unsigned long long strideInX; // @synthesize strideInX=_strideInX;
-@property(readonly, nonatomic) unsigned long long strideInY; // @synthesize strideInY=_strideInY;
-@property(readonly, nonatomic) _Bool usesDepthwiseConvolution;
 
 @end
 

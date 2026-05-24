@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCETaskSpecificInfo, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface INFERENCESchemaINFERENCESimpleTaskInfoGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalResolutionContextId;
-    int _taskSuccessType;
-    _Bool _isSuccess;
-    _Bool _isExecuted;
-    _Bool _isSuccessfulDirectExecution;
-    INFERENCESchemaINFERENCETaskSpecificInfo *_taskSpecificInfo;
-    struct {
-        unsigned int taskSuccessType:1;
-        unsigned int isSuccess:1;
-        unsigned int isExecuted:1;
-        unsigned int isSuccessfulDirectExecution:1;
-    } _has;
-    _Bool _hasOriginalResolutionContextId;
-    _Bool _hasTaskSpecificInfo;
 }
 
 - (id);
@@ -44,45 +31,33 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (int);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setMobileDocumentDoneButton:(_Bool)arg1;
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (id)ÑßÐ1Â0@ù
 × ;
 - (id)"NSArray",C,N,V_parameterTypes;
-- (id)SchemaPLUSSuggestionMatchResult;
+- (id)PLUSSchemaPLUSSuggestionMatchResult;
 - (void)Z´	N";
 - (_Bool);F#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExecuted;
-@property(nonatomic) _Bool hasIsSuccess;
-@property(nonatomic) _Bool hasIsSuccessfulDirectExecution;
-@property(nonatomic) _Bool hasOriginalResolutionContextId; // @synthesize hasOriginalResolutionContextId=_hasOriginalResolutionContextId;
-@property(nonatomic) _Bool hasTaskSpecificInfo; // @synthesize hasTaskSpecificInfo=_hasTaskSpecificInfo;
-@property(nonatomic) _Bool hasTaskSuccessType;
-@property(nonatomic) _Bool isExecuted; // @synthesize isExecuted=_isExecuted;
-@property(nonatomic) _Bool isSuccess; // @synthesize isSuccess=_isSuccess;
-@property(nonatomic) _Bool isSuccessfulDirectExecution; // @synthesize isSuccessfulDirectExecution=_isSuccessfulDirectExecution;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalResolutionContextId; // @synthesize originalResolutionContextId=_originalResolutionContextId;
-@property(retain, nonatomic) INFERENCESchemaINFERENCETaskSpecificInfo *taskSpecificInfo; // @synthesize taskSpecificInfo=_taskSpecificInfo;
-@property(nonatomic) int taskSuccessType; // @synthesize taskSuccessType=_taskSuccessType;
 
 @end
 

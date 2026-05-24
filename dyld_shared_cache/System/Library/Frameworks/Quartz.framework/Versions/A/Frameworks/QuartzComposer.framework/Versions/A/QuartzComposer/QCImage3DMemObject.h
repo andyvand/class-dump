@@ -11,15 +11,6 @@
 @interface QCImage3DMemObject : QCMemObject
 {
     QCArray *_backing;
-    unsigned long long _elementSize;
-    int _type;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _depth;
-    CDUnknownFunctionPointerType _backingCallback;
-    void *_backingInfo;
-    void *_hostPtr;
-    void *_unused3[4];
 }
 
 - (unsigned long long);
@@ -37,19 +28,13 @@
 - (void);
 - (id);
 - (int);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly) QCArray *array;
-@property(readonly) QCArray *backing; // @synthesize backing=_backing;
-@property(readonly) unsigned long long elementSize; // @synthesize elementSize=_elementSize;
-@property(readonly) unsigned long long pixelsDeep; // @synthesize pixelsDeep=_depth;
-@property(readonly) unsigned long long pixelsHigh; // @synthesize pixelsHigh=_height;
 @property(readonly) unsigned long long pixelsWide; // @synthesize pixelsWide=_width;
-@property(readonly) int type; // @synthesize type=_type;
 
 @end
 

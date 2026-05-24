@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXAction.h>
 
-@class NSString, NUComposition, PICompositionController;
+@class NUComposition, PICompositionController;
 
 @interface PXEditCompositionAction : PXAction
 {
     PICompositionController *_compositionController;
-    NSString *_actionNameLocalizationKey;
-    NSString *_localizedActionName;
 }
 
 - (id);
@@ -25,16 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)K;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionNameLocalizationKey; // @synthesize actionNameLocalizationKey=_actionNameLocalizationKey;
-@property(readonly, nonatomic) PICompositionController *compositionController; // @synthesize compositionController=_compositionController;
-@property(copy, nonatomic) NSString *localizedActionName; // @synthesize localizedActionName=_localizedActionName;
 @property(readonly, nonatomic) NUComposition *sourceComposition;
-@property(readonly, nonatomic) NUComposition *targetComposition;
 
 @end
 

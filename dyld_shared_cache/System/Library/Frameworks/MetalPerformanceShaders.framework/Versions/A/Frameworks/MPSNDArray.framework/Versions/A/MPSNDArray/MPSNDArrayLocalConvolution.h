@@ -9,8 +9,6 @@
 @interface MPSNDArrayLocalConvolution : MPSNDArrayBinaryKernel
 {
     unsigned int _dataFormat;
-    struct MPSNDArrayConvolutionSizes _kernelSizes;
-    struct MPSNDArrayConvolutionSizes _dilationRates;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(nonatomic) struct MPSNDArrayConvolutionSizes dilationRates; // @synthesize dilationRates=_dilationRates;
-@property(nonatomic) struct MPSNDArrayConvolutionSizes kernelSizes; // @synthesize kernelSizes=_kernelSizes;
 
 @end
 

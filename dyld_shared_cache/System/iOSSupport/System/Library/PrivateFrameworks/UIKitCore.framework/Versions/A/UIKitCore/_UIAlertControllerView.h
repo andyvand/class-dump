@@ -6,53 +6,39 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSAttributedString, NSString, UIAlertController, UIAlertControllerVisualStyle;
+@class NSString;
 
 @interface _UIAlertControllerView : UIView
 {
     _Bool _actionsReversed;
-    _Bool _shouldHaveBackdropView;
-    _Bool _alignsToKeyboard;
-    _Bool _hasDimmingView;
-    _Bool _presentedAsPopover;
-    NSString *_title;
-    NSString *_message;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_attributedMessage;
-    NSAttributedString *_attributedDetailMessage;
-    UIAlertController *_alertController;
-    UIView *__contentView;
-    UIView *__dimmingView;
-    UIAlertControllerVisualStyle *__visualStyle;
-    double _effectAlpha;
 }
 
+- (_Bool)simulateOneTimeCodeArriving: /* Error: Ran out of types for this method. */;
+- (void)replyCountsByPart;
+- (void)personCentricGroupedChatsCache;
+- (void)initWithArray:(_Bool)arg1;
+- (void);
+- (void)conversationManager:(id)arg1 kickedMembersChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)_persistedChatCount;
 - (_Bool);
+- (double)P@;
+- (void);
+- (id)};
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (double);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ath %@, finalAssetPath %@;
+- (void):(id)arg1 %@;
+- (void)vs %@) is in the past. Not setting syndication type %ld for chat:(id)arg1 %@;
+- (void)tion date parameter;
+- (void)uppressed:(_Bool)arg1 Broadcasting unreadCountChanged;
+- (void)tinationCallerID:%@ /* Error: Ran out of types for this method. */;
+- (void)actionIdentifier=%@;
 - (id);
 - (void);
 - (_Bool);
@@ -74,20 +60,6 @@
 - (id)pW²ÿ¤KÏpea;
 
 // Remaining properties
-@property(readonly) UIView *_contentView; // @synthesize _contentView=__contentView;
-@property(readonly) UIView *_dimmingView; // @synthesize _dimmingView=__dimmingView;
-@property(retain, nonatomic, setter=_setVisualStyle:) UIAlertControllerVisualStyle *_visualStyle; // @synthesize _visualStyle=__visualStyle;
-@property(nonatomic, getter=_actionsReversed, setter=_setActionsReversed:) _Bool actionsReversed; // @synthesize actionsReversed=_actionsReversed;
-@property __weak UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property _Bool alignsToKeyboard; // @synthesize alignsToKeyboard=_alignsToKeyboard;
-@property(copy, nonatomic, setter=_setAttributedDetailMessage:) NSAttributedString *attributedDetailMessage; // @synthesize attributedDetailMessage=_attributedDetailMessage;
-@property(copy, nonatomic, setter=_setAttributedMessage:) NSAttributedString *attributedMessage; // @synthesize attributedMessage=_attributedMessage;
-@property(copy, nonatomic, setter=_setAttributedTitle:) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(nonatomic) double effectAlpha; // @synthesize effectAlpha=_effectAlpha;
-@property _Bool hasDimmingView; // @synthesize hasDimmingView=_hasDimmingView;
-@property(copy, nonatomic, setter=_setMessage:) NSString *message; // @synthesize message=_message;
-@property _Bool presentedAsPopover; // @synthesize presentedAsPopover=_presentedAsPopover;
-@property _Bool shouldHaveBackdropView; // @synthesize shouldHaveBackdropView=_shouldHaveBackdropView;
 @property(copy, nonatomic, setter=_setTitle:) NSString *title; // @synthesize title=_title;
 
 @end

@@ -6,24 +6,16 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKDatabase, CKMovePhotosOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol CKMovePhotosOperationCallbacks;
+@class NSDictionary;
 
 @interface CKMovePhotosOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _perRecordProgressBlock;
-    CDUnknownBlockType _perRecordMoveBlock;
-    CDUnknownBlockType _movePhotosCompletionBlock;
-    NSArray *_moveChanges;
-    CKDatabase *_sourceDatabase;
-    NSDictionary *_moveChangesBySourceRecordID;
-    NSDictionary *_moveChangesByDestinationRecordID;
-    NSMutableDictionary *_recordErrorsBySourceRecordID;
 }
 
 + (SEL);
 + (void);
-- (id);
+- (id)S*;
 - (void);
 - (void);
 - (void);
@@ -37,44 +29,28 @@
 - (void);
 - (void);
 - (void);
+- (id));
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void).Specification.ScaleLayerParams;
+- (void)S	;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void));
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)'t find _SIActivityDump in SpotlightIndex framework :%s%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void)> with error %@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKMovePhotosOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *moveChanges; // @synthesize moveChanges=_moveChanges;
-@property(retain, nonatomic) NSDictionary *moveChangesByDestinationRecordID; // @synthesize moveChangesByDestinationRecordID=_moveChangesByDestinationRecordID;
 @property(retain, nonatomic) NSDictionary *moveChangesBySourceRecordID; // @synthesize moveChangesBySourceRecordID=_moveChangesBySourceRecordID;
-@property(copy, nonatomic) CDUnknownBlockType movePhotosCompletionBlock; // @synthesize movePhotosCompletionBlock=_movePhotosCompletionBlock;
-@property(readonly, nonatomic) CKMovePhotosOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perRecordMoveBlock; // @synthesize perRecordMoveBlock=_perRecordMoveBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordProgressBlock; // @synthesize perRecordProgressBlock=_perRecordProgressBlock;
-@property(retain, nonatomic) NSMutableDictionary *recordErrorsBySourceRecordID; // @synthesize recordErrorsBySourceRecordID=_recordErrorsBySourceRecordID;
-@property(retain, nonatomic) CKDatabase *sourceDatabase; // @synthesize sourceDatabase=_sourceDatabase;
-@property(readonly) Class superclass;
 
 @end
 

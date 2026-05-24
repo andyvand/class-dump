@@ -6,24 +6,22 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIContextMenuInteraction, UITapGestureRecognizer;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface UIDotsInputSwitcherView : UIView
 {
     UITapGestureRecognizer *_tapGestureRecognizer;
-    UIContextMenuInteraction *_contextMenuInteraction;
-    UIView *_contextMenuTargettedPreview;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)F;
 - (void)w";
-- (id)teContainer;
-- (_Bool)temGroup;
+- (id)preUpdateContainer;
+- (_Bool)_UIBarSectionItemGroup;
 - (void)Engine:(id)arg1 %@;
 - (_Bool)Rounding frame (%@) from preferred layout attributes resulted in a frame with one or more invalid members (%@).
 Layout attributes:(struct CGPoint)arg1 %@
@@ -37,15 +35,6 @@ View:(id)arg2 %@;
 - (id)Tn;
 
 // Remaining properties
-@property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(retain, nonatomic) UIView *contextMenuTargettedPreview; // @synthesize contextMenuTargettedPreview=_contextMenuTargettedPreview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end

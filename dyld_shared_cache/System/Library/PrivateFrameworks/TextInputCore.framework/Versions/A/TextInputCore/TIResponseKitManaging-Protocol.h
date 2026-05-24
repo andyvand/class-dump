@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TIResponseKitManaging
+- (void)__DATA_CONST;
+- (void)didRemoveCapabilitiesForSenderIdentityWithUUID:(NSString *)arg1;
 @end
 

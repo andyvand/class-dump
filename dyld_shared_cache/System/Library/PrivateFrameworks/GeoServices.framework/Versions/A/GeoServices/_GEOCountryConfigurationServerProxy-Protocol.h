@@ -5,6 +5,7 @@
 //
 
 @protocol _GEOCountryConfigurationServerProxy
+- (void);
 - (void)ô¤Ü´ÄÄ¬ ¨¤t;
 - (id)_obj.V2AddressObjectProto"e
 VenueDecoratorProto

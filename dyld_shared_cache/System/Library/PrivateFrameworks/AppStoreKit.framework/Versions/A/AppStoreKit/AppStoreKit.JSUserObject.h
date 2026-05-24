@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AppStoreKit.JSUserObject
 {
     id accounts;
-    id onDevicePersonalizationDataManager;
 }
 
-- (id);
+- (id)o;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)Ko;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)úÿ¨úÿÐúÿì£úÿ¤úÿ|¤úÿ¥úÿ§úÿ¨úÿ«úÿÄ«úÿL´úÿ¨¶úÿè·úÿ¹úÿ¼»úÿ¿úÿ$Àúÿ¬ÀúÿàÀúÿìÈúÿ$ÉúÿHÉúÿxÊúÿÜËúÿÏúÿ$ÑúÿLÑúÿ|Ñúÿ´Ñúÿ`×úÿÙúÿ¬Ùúÿ,ÚúÿhÛúÿ¤ÜúÿäÜúÿåúÿðåúÿ çúÿêúÿ8êúÿ\êúÿÐíúÿäíúÿïúÿPðúÿHòúÿìôúÿ`õúÿ¤õúÿxúúÿPýúÿÿúÿûÿ¤ûÿìûÿðûÿ¼ûÿ$	ûÿ¤	ûÿ¼ûÿÈûÿLûÿÄûÿ\ûÿ¨ûÿxûÿÔûÿûÿHûÿÌ ûÿL%ûÿ¸(ûÿL)ûÿ)ûÿ¼)ûÿÄ*ûÿH+ûÿ;
 - (id);
@@ -26,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accountIdentifier;
-@property(nonatomic, readonly) NSString *dsid;
 @property(nonatomic, readonly) NSString *firstName;
-@property(nonatomic, readonly) _Bool isFitnessAppInstallationAllowed;
-@property(nonatomic, readonly) _Bool isManagedAppleID;
-@property(nonatomic, readonly) _Bool isOnDevicePersonalizationEnabled;
-@property(nonatomic, readonly) _Bool isUnderThirteen;
-@property(nonatomic, readonly) NSString *lastName;
-@property(nonatomic, readonly) NSNumber *userAgeIfAvailable;
 
 @end
 

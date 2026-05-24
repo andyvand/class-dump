@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface WBSBrowsingDataImportData
 {
     unsigned long long _numberOfItemsSuccessfullyImported;
-    unsigned long long _numberOfItemsFailedToImport;
-    NSString *_errorMessage;
-    NSArray *_extensionLockupViews;
 }
 
 - (void);
@@ -21,14 +16,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)�;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(retain, nonatomic) NSArray *extensionLockupViews; // @synthesize extensionLockupViews=_extensionLockupViews;
-@property(nonatomic) unsigned long long numberOfItemsFailedToImport; // @synthesize numberOfItemsFailedToImport=_numberOfItemsFailedToImport;
 @property(nonatomic) unsigned long long numberOfItemsSuccessfullyImported; // @synthesize numberOfItemsSuccessfullyImported=_numberOfItemsSuccessfullyImported;
 
 @end

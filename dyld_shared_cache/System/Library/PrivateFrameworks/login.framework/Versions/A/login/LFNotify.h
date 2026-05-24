@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LFConnection, LFListener, NSMutableDictionary;
+@class LFConnection;
 
 @interface LFNotify
 {
     LFConnection *_connection;
-    LFListener *_listener;
-    NSMutableDictionary *_tokenMap;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)/F';
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)"";
 - (void);
 
 // Remaining properties
 @property LFConnection *connection; // @synthesize connection=_connection;
-@property LFListener *listener; // @synthesize listener=_listener;
-@property(retain) NSMutableDictionary *tokenMap; // @synthesize tokenMap=_tokenMap;
 
 @end
 

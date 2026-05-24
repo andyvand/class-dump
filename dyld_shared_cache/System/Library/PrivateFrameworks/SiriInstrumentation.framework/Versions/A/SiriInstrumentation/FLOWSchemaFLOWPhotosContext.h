@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWPhotosContext : SISchemaInstrumentationMessage
 {
     int _taskType;
-    int _entityType;
-    int _faceType;
-    struct {
-        unsigned int taskType:1;
-        unsigned int entityType:1;
-        unsigned int faceType:1;
-    } _has;
 }
 
 - (void);
@@ -33,8 +24,8 @@
 - (void);
 - (int);
 - (void);
-- (id);
-- (void);
+- (id)user, this is expected);
+- (void);
 - (int);
 - (unsigned long long);
 - (_Bool);
@@ -46,12 +37,6 @@
 - (int)a;
 
 // Remaining properties
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(nonatomic) int faceType; // @synthesize faceType=_faceType;
-@property(nonatomic) _Bool hasEntityType;
-@property(nonatomic) _Bool hasFaceType;
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int taskType; // @synthesize taskType=_taskType;
 
 @end

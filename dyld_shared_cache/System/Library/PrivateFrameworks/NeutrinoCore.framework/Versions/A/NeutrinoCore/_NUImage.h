@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPointerArray, NSString, NUColorSpace, NUImageLayout, NUPixelFormat, NURegion;
-@protocol NUStorageFactory, OS_dispatch_queue;
+@class NSObject, NUImageLayout;
+@protocol OS_dispatch_queue;
 
 @interface _NUImage
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_writeQueue;
-    NUImageLayout *_layout;
-    NUPixelFormat *_format;
-    NUColorSpace *_colorSpace;
-    NURegion *_validRegion;
-    NSPointerArray *_tiles;
-    id <NUStorageFactory> _tileFactory;
-    struct vector<unsigned char, std::allocator<unsigned char>> _accessCount;
-    float _contentHeadroom;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,24 +40,12 @@
 - (id);
 - (id);
 - (float);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly) float contentHeadroom; // @synthesize contentHeadroom=_contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NUPixelFormat *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
 @property(readonly) NUImageLayout *layout; // @synthesize layout=_layout;
-@property(readonly) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
-@property(copy) NURegion *validRegion; // @synthesize validRegion=_validRegion;
 
 @end
 

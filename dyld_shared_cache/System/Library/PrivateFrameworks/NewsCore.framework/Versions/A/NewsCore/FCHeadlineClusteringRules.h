@@ -7,28 +7,12 @@
 @interface FCHeadlineClusteringRules
 {
     _Bool _enforcePublisherCap;
-    unsigned long long _minClusterSize;
-    unsigned long long _maxClusterSize;
-    unsigned long long _minIdealClusterSize;
-    unsigned long long _maxIdealClusterSize;
-    unsigned long long _minClusterSizeAutoFavorite;
-    unsigned long long _maxClusterSizeAutoFavorite;
-    unsigned long long _minIdealClusterSizeAutoFavorite;
-    unsigned long long _maxIdealClusterSizeAutoFavorite;
-    unsigned long long _maxPublisherOccurrences;
-    unsigned long long _maxNativeAdCount;
-    unsigned long long _maxUnpaidArticles;
-    unsigned long long _maxEvergreenArticles;
-    double _topicDiversityThreshold;
-    unsigned long long _thumbnailMinHammingDistance;
-    double _autoFavoriteClusterMinSizeMultiplier;
-    double _autoFavoriteClusterMaxSizeMultiplier;
 }
 
++ (id)0:(id)arg1 8@16{CGPoint=dd}24;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)updatePairedDeviceNameFor:(id)arg1 withDeviceID:(long long)arg2 toNewName:(_Bool)arg3 completionHandler:(_Bool)arg4;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -37,13 +21,13 @@
 - (unsigned long long);
 - (double);
 - (id);
-- (void);
+- (void)RenderedImageAssetClient _render:(double)arg1 ]:asking for zoom render on %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (double);
+- (void)Requires a mapItem;
+- (double)@<unlocalized>;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -56,23 +40,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double autoFavoriteClusterMaxSizeMultiplier; // @synthesize autoFavoriteClusterMaxSizeMultiplier=_autoFavoriteClusterMaxSizeMultiplier;
-@property(nonatomic) double autoFavoriteClusterMinSizeMultiplier; // @synthesize autoFavoriteClusterMinSizeMultiplier=_autoFavoriteClusterMinSizeMultiplier;
-@property(readonly, nonatomic) _Bool enforcePublisherCap; // @synthesize enforcePublisherCap=_enforcePublisherCap;
-@property(readonly, nonatomic) unsigned long long maxClusterSize; // @synthesize maxClusterSize=_maxClusterSize;
-@property(nonatomic) unsigned long long maxClusterSizeAutoFavorite; // @synthesize maxClusterSizeAutoFavorite=_maxClusterSizeAutoFavorite;
-@property(readonly, nonatomic) unsigned long long maxEvergreenArticles; // @synthesize maxEvergreenArticles=_maxEvergreenArticles;
-@property(readonly, nonatomic) unsigned long long maxIdealClusterSize; // @synthesize maxIdealClusterSize=_maxIdealClusterSize;
-@property(nonatomic) unsigned long long maxIdealClusterSizeAutoFavorite; // @synthesize maxIdealClusterSizeAutoFavorite=_maxIdealClusterSizeAutoFavorite;
-@property(readonly, nonatomic) unsigned long long maxNativeAdCount; // @synthesize maxNativeAdCount=_maxNativeAdCount;
-@property(readonly, nonatomic) unsigned long long maxPublisherOccurrences; // @synthesize maxPublisherOccurrences=_maxPublisherOccurrences;
-@property(readonly, nonatomic) unsigned long long maxUnpaidArticles; // @synthesize maxUnpaidArticles=_maxUnpaidArticles;
-@property(readonly, nonatomic) unsigned long long minClusterSize; // @synthesize minClusterSize=_minClusterSize;
 @property(nonatomic) unsigned long long minClusterSizeAutoFavorite; // @synthesize minClusterSizeAutoFavorite=_minClusterSizeAutoFavorite;
-@property(readonly, nonatomic) unsigned long long minIdealClusterSize; // @synthesize minIdealClusterSize=_minIdealClusterSize;
-@property(nonatomic) unsigned long long minIdealClusterSizeAutoFavorite; // @synthesize minIdealClusterSizeAutoFavorite=_minIdealClusterSizeAutoFavorite;
-@property(readonly, nonatomic) unsigned long long thumbnailMinHammingDistance; // @synthesize thumbnailMinHammingDistance=_thumbnailMinHammingDistance;
-@property(readonly, nonatomic) double topicDiversityThreshold; // @synthesize topicDiversityThreshold=_topicDiversityThreshold;
 
 @end
 

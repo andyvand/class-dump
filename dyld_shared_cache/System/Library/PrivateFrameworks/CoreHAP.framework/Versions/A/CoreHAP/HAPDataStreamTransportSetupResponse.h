@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPDataStreamTransportCommandStatusWrapper, HAPDataStreamTransportParameters, NSData, NSString;
+@class HAPDataStreamTransportCommandStatusWrapper;
 
 @interface HAPDataStreamTransportSetupResponse
 {
     HAPDataStreamTransportCommandStatusWrapper *_status;
-    HAPDataStreamTransportParameters *_parameters;
-    NSData *_accessoryKeySalt;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -21,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)setByAddingObjectsFromSet:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
@@ -30,16 +28,7 @@
 - (void)r"32;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *accessoryKeySalt; // @synthesize accessoryKeySalt=_accessoryKeySalt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPDataStreamTransportParameters *parameters; // @synthesize parameters=_parameters;
 @property(retain, nonatomic) HAPDataStreamTransportCommandStatusWrapper *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

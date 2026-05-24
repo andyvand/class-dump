@@ -19,13 +19,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)audiomxd;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isPermitted) _Bool permitted;
-@property(readonly, nonatomic) _Bool shouldMakeRecord;
 
 @end
 

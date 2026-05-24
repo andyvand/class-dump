@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, SFContentBlockerManager, WBProfile, WBSCoreAnalyticsExtensionsStatistics, WBSDiagnosticStateCollector, WKContentRuleListStore, WKUserContentController;
-@protocol OS_dispatch_queue;
+@class NSMutableSet, WBProfile;
 
 @interface SafariContentBlockerAppExtensionsController
 {
     NSMutableSet *_contentBlockersInInvalidAppBundles;
-    NSObject<OS_dispatch_queue> *_appBundleValidationQueue;
-    WKContentRuleListStore *_contentBlockerStore;
-    WKUserContentController *_userContentController;
-    NSString *_profileServerID;
-    SFContentBlockerManager *_contentBlockerManager;
-    WBSDiagnosticStateCollector *_diagnosticStateCollector;
-    NSString *_crashReporterMessage;
 }
 
 + (id);
@@ -35,7 +27,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)$;
 - (_Bool);
 - (id);
 - (void);
@@ -68,17 +60,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WKContentRuleListStore *contentBlockerStore;
-@property(readonly, nonatomic) NSString *crashReporterMessage; // @synthesize crashReporterMessage=_crashReporterMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) WBSCoreAnalyticsExtensionsStatistics *extensionStatisticsReport;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WBProfile *profile;
-@property(readonly) Class superclass;
 
 @end
 

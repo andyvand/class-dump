@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_store;
 }
 
-+ (id);
-+ (id);
++ (id)rameter Failed to create SyndicationAction from BlastDoorSyndicationAction data;
++ (id)ype:(id)arg1 %ld;
 + (void);
 + (id)sController,V_motionEffectsController;
 - (id);

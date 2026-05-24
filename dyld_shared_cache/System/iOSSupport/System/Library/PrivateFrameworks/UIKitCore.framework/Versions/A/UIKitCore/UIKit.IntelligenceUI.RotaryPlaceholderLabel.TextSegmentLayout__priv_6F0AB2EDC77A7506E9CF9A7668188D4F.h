@@ -7,9 +7,6 @@
 @interface UIKit.IntelligenceUI.RotaryPlaceholderLabel.TextSegmentLayout__priv_6F0AB2EDC77A7506E9CF9A7668188D4F
 {
     id bounds;
-    id attributedString;
-    id $__lazy_storage_$_views;
-    id calculator;
 }
 
 @end

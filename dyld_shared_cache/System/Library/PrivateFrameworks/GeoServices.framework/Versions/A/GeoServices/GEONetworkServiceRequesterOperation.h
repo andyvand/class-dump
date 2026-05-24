@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEODataRequestThrottlerToken, GEOMapServiceTraits, GEOProtobufSessionTask, NSString, NSURL, PBRequest;
-@protocol GEOServiceRequestConfiguring;
+@class GEOProtobufSessionTask;
 
 @interface GEONetworkServiceRequesterOperation
 {
     GEOProtobufSessionTask *_task;
-    _Bool _canceled;
-    PBRequest *_request;
-    NSString *_debugRequestName;
-    CDUnknownBlockType _willSendRequestHandler;
-    CDUnknownBlockType _validationHandler;
-    CDUnknownBlockType _completionHandler;
-    NSURL *_url;
-    id <GEOServiceRequestConfiguring> _config;
-    NSString *_appIdentifier;
-    GEOApplicationAuditToken *_auditToken;
-    CDStruct_d1a7ebee _dataRequestKind;
-    GEOMapServiceTraits *_traits;
-    double _timeout;
-    GEODataRequestThrottlerToken *_throttleToken;
-    unsigned long long _requestOptions;
 }
 
-- (void);
+- (void)9	kA;
 - (id);
 - (void);
 - (id);
@@ -40,13 +24,7 @@
 - (void)¸Û^ÿ@³;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

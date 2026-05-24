@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, NSUUID;
-
 @interface AVCaptureDeskViewApplicationLaunchConfiguration
 {
     struct CGRect _mainWindowFrame;
-    _Bool _requiresSetupCompletion;
-    AVCaptureDevice *_preferredDeskViewCamera;
-    NSUUID *_screenSharingSessionUUID;
-    _Bool _requiresSetUpModeCompletion;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)rterLibrary(void);
+- (void)ons>"8;
+- (void)_Nonnull _MSVSegmentedCodingPackageEncoderForCoderType(NSString * _Nonnull __strong);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)(^__strong)(NSError *__strong));
+- (id)erties
+;
 - (struct CGRect);
-- (void);
-- (void);
+- (void);
+- (void)N,V_dataclassOwnersManager;
 - (id);
 
 // Remaining properties
 @property struct CGRect mainWindowFrame; // @synthesize mainWindowFrame=_mainWindowFrame;
-@property _Bool requiresSetUpModeCompletion; // @synthesize requiresSetUpModeCompletion=_requiresSetUpModeCompletion;
 
 @end
 

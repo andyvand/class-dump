@@ -9,46 +9,34 @@
 @interface WFGradient
 {
     struct CGGradient *_CGGradient;
-    WFColor *_baseColor;
-    WFColor *_darkBaseColor;
-    WFColor *_accessibilityBaseColor;
-    WFColor *_darkAccessibilityBaseColor;
-    WFColor *_startColor;
-    WFColor *_endColor;
 }
 
 + (_Bool);
-- (double);
+- (double)|;
+- (id);
+- (id)|;
+- (id)}2|;
+- (id)2|;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (struct CGGradient *);
 - (void);
 - (id);
-- (id);
+- (id)ݖz;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)l;
 - (void)!Uð!ØBùÑ^ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGGradient *CGGradient; // @synthesize CGGradient=_CGGradient;
-@property(readonly, nonatomic) WFColor *accessibilityBaseColor; // @synthesize accessibilityBaseColor=_accessibilityBaseColor;
 @property(readonly, nonatomic) WFColor *baseColor; // @synthesize baseColor=_baseColor;
-@property(readonly, nonatomic) WFColor *darkAccessibilityBaseColor; // @synthesize darkAccessibilityBaseColor=_darkAccessibilityBaseColor;
-@property(readonly, nonatomic) WFColor *darkBaseColor; // @synthesize darkBaseColor=_darkBaseColor;
-@property(readonly, nonatomic) WFColor *endColor; // @synthesize endColor=_endColor;
-@property(readonly, nonatomic) WFColor *startColor; // @synthesize startColor=_startColor;
 
 @end
 

@@ -6,14 +6,12 @@
 
 #import <OfficeImport/OAVReadState.h>
 
-@class NSMutableDictionary, WDParagraph, WXReadState;
+@class WXReadState;
 
 __attribute__((visibility("hidden")))
 @interface WXOAVReadState : OAVReadState
 {
     WXReadState *mWxState;
-    WDParagraph *mParagraph;
-    NSMutableDictionary *mNextVmlShapeIdToTextBoxMap;
 }
 
 - (id);

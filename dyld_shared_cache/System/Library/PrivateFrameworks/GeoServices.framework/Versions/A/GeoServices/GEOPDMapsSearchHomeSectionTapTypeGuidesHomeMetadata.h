@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDExploreGuides, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMapsSearchHomeSectionTapTypeGuidesHomeMetadata
 {
     PBUnknownFields *_unknownFields;
-    GEOPDExploreGuides *_exploreGuides;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)reIntentRequestType";
-- (id)ractionalDistance;
+- (id)_fractionalDistance;
 - (id)pãÜæ;
 - (void)¸¯ç¨@-²ïÅi@;
 

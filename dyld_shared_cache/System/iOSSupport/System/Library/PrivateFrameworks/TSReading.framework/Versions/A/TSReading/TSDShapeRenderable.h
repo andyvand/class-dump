@@ -6,14 +6,14 @@
 
 #import <TSReading/TSDRenderable.h>
 
-@class CAShapeLayer, NSArray, NSString;
+@class CAShapeLayer;
 
 @interface TSDShapeRenderable : TSDRenderable
 {
 }
 
 + (id);
-+ (id);
++ (id)lS;
 - (void);
 - (void);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -38,21 +38,11 @@
 - (void)@ù
 × ;
 - (void)16;
-- (double)tion:session:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (double)_dragItemsForInteraction:session:withTouchAtPoint: /* Error: Ran out of types for this method. */;
 - (void)epeatingLayer:(double)arg1 withImageRect:start:end:vertical:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *fillColor;
-@property(copy, nonatomic) NSString *lineCap;
-@property(copy, nonatomic) NSArray *lineDashPattern;
-@property(nonatomic) double lineDashPhase;
-@property(copy, nonatomic) NSString *lineJoin;
-@property(nonatomic) double lineWidth;
-@property(nonatomic) double miterLimit;
-@property(nonatomic) struct CGPath *path;
 @property(readonly, nonatomic) CAShapeLayer *shapeLayer;
-@property(nonatomic) struct CGColor *strokeColor;
-@property(nonatomic) double strokeEnd;
 
 @end
 

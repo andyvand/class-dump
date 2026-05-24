@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotSuggestedChipList, CTLazuliCustomMetaData, CTLazuliLocationCoordinates, NSString;
+@class CTLazuliChatBotSuggestedChipList, CTLazuliLocationCoordinates;
 
 @interface CTLazuliMessageGeoLocationPush
 {
     CTLazuliLocationCoordinates *_coordinates;
-    NSString *_additionalDescription;
-    CTLazuliChatBotSuggestedChipList *_chipList;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)audioRendition;
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void)kয়a;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (_Bool);
-- (void);
+- (void)setTag:(id)arg1;
 - (id);
-- (id);
+- (id)P;
 - (void)&Ð!à@ùª)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *additionalDescription; // @synthesize additionalDescription=_additionalDescription;
 @property(retain, nonatomic) CTLazuliChatBotSuggestedChipList *chipList; // @synthesize chipList=_chipList;
-@property(retain, nonatomic) CTLazuliLocationCoordinates *coordinates; // @synthesize coordinates=_coordinates;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 
 @end
 

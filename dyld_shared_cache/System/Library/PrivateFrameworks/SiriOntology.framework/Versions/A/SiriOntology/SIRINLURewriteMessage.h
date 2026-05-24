@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SIRINLURewriteMessage
 {
     int _rewriteType;
-    NSString *_rewrittenUtterance;
 }
 
 + (_Bool);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) int rewriteType; // @synthesize rewriteType=_rewriteType;
-@property(retain, nonatomic) NSString *rewrittenUtterance; // @synthesize rewrittenUtterance=_rewrittenUtterance;
 
 @end
 

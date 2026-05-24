@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSThemeFrame;
+@class NSThemeFrame;
 
 __attribute__((visibility("hidden")))
 @interface NSThemeFrameBackgroundDelegate
@@ -15,18 +15,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void)antsBezelView;
+- (void)wantsBezelView;
 - (void)sing contentArray binding instead of contentSet binding;
 - (id)¢D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property NSThemeFrame *themeFrame; // @synthesize themeFrame=_themeFrame;
 
 @end

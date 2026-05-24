@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTPreset, NSMutableArray;
+@class AVTPreset;
 
 __attribute__((visibility("hidden")))
 @interface AVTPresetStoreDependency
 {
     AVTPreset *_overridePreset;
-    NSMutableArray *_conditions;
 }
 
 - (void);
@@ -21,10 +20,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *conditions; // @synthesize conditions=_conditions;
 @property(retain, nonatomic) AVTPreset *overridePreset; // @synthesize overridePreset=_overridePreset;
 
 @end

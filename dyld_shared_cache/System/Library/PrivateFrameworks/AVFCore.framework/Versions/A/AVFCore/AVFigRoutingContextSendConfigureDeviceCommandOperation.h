@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AVFigRoutingContextSendConfigureDeviceCommandOperation : AVOperation
 {
     struct OpaqueFigRoutingContext *_routingContext;
-    CDUnknownBlockType _configuratorBlock;
-    id <AVOutputDeviceConfigurationRetrieval> _finalConfiguration;
 }
 
 + (void)on property %@, video codec type %@ only allows the following values:%@ /* Error: Ran out of types for this method. */;

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSString;
+@class MKMapView;
 
 __attribute__((visibility("hidden")))
 @interface MKAccessibilityItem
 {
     MKMapView *_mapView;
-    long long _type;
-    NSString *_title;
-    struct CGRect _frame;
-    struct CLLocationCoordinate2D _coordinate;
-    _Bool _selectable;
 }
 
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)v32@0:(_Bool)arg1 8@"CNRetry"16@"NSError"24;
+- (_Bool)tainerIdentifiers;
+- (void)CNWallpaperMetadata;
+- (_Bool)currentNickname;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)-;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,22 +32,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (struct CGRect);
-- (void);
-- (struct CLLocationCoordinate2D);
+- (void)_underlyingError;
+- (struct CLLocationCoordinate2D)_audioStreamHolding;
 - (void);
 - (void);
 - (id);
-- (void)rval: /* Error: Ran out of types for this method. */;
-- (id)pkit_sizeToFit;
-- (void);
+- (void)dateByAddingTimeInterval: /* Error: Ran out of types for this method. */;
+- (id)_mapkit_sizeToFit;
+- (void)1;
 
 // Remaining properties
-@property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(retain, nonatomic) MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic, getter=isSelectable) _Bool selectable; // @synthesize selectable=_selectable;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

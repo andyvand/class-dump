@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaVerticalLayoutCardSectionInvocationContext : SISchemaInstrumentationMessage
 {
     NSString *_resultIdentifier;
-    _Bool _hasResultIdentifier;
 }
 
 - (void);
@@ -21,18 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)isFeedbackEnabledForBundleID:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)layer while in a test;
 - (id);
 - (id);
-- (id)xt;
-- (id)adata;
-- (void)ULETYPE_SKIPPED;
+- (id)deleteInferencePluginInvocationContext;
+- (id)_hasFirstPassMetadata;
+- (void)MARRSREPETITIONDETECTIONRULETYPE_SKIPPED;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResultIdentifier; // @synthesize hasResultIdentifier=_hasResultIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
 
 @end

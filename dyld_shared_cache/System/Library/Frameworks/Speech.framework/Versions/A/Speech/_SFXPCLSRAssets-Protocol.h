@@ -5,5 +5,6 @@
 //
 
 @protocol _SFXPCLSRAssets
+- (oneway void);
 @end
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDiOSGeneralProperties : SISchemaInstrumentationMessage
 {
     _Bool _hasPairedAppleWatch;
-    _Bool _hasTvOSDeviceInHome;
-    struct {
-        unsigned int hasPairedAppleWatch:1;
-        unsigned int hasTvOSDeviceInHome:1;
-    } _has;
 }
 
 - (void);
@@ -24,7 +17,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)BI;
 - (_Bool);
 - (void);
 - (void);
@@ -40,11 +33,7 @@
 - (id)edUsoEntitySpans;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasPairedAppleWatch;
-@property(nonatomic) _Bool hasHasTvOSDeviceInHome;
 @property(nonatomic) _Bool hasPairedAppleWatch; // @synthesize hasPairedAppleWatch=_hasPairedAppleWatch;
-@property(nonatomic) _Bool hasTvOSDeviceInHome; // @synthesize hasTvOSDeviceInHome=_hasTvOSDeviceInHome;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

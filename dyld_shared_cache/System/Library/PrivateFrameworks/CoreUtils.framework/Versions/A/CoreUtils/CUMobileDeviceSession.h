@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUMobileDevice, CURunLoopThread, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUMobileDeviceSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    CURunLoopThread *_mdRunLoopThread;
-    CDUnknownFunctionPointerType _mdTryPINCallback;
-    struct _AMDevice *_mdTryPINDevice;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CUMobileDevice *_peerDevice;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _promptForPINHandler;
 }
 
 - (void);
@@ -25,32 +17,41 @@
 - (void);
 - (id);
 - (void);
+- (void)ror;
+- (_Bool)m end;
+- (_Bool)						
+
+
+
+
+
+need dictionary;
+- (void)						
+
+
+
+
+
+need dictionary;
+- (_Bool);
+- (void);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)b;
 - (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)b;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) CUMobileDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
 
 @end
 

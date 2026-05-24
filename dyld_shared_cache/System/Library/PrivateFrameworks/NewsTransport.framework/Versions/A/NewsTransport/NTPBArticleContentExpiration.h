@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NTPBArticleContentExpiration
 {
     long long _globalExpireUtcTime;
-    NSMutableArray *_tagsExpirationLists;
-    CDStruct_4039bf57 _has;
 }
 
 + (Class);
@@ -19,25 +15,23 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)rterFetchBaseURLString;
+- (void)ices/feldsparcore/Classes/FCNotificationPoolOperation.m;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_accessibilityLeftOpaqueScrollViewContentOffsetLimit;
 - (void);
-- (void)eEngagement;
+- (void)hasArticleEngagement;
 
 // Remaining properties
-@property(nonatomic) long long globalExpireUtcTime; // @synthesize globalExpireUtcTime=_globalExpireUtcTime;
 @property(nonatomic) _Bool hasGlobalExpireUtcTime;
-@property(retain, nonatomic) NSMutableArray *tagsExpirationLists; // @synthesize tagsExpirationLists=_tagsExpirationLists;
 
 @end
 

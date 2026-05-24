@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
-
 @interface CTXPCServiceSubscriptionContext
 {
     _Bool _isSimPresent;
-    _Bool _isSimGood;
-    _Bool _isSimHidden;
-    _Bool _isSimDataOnly;
-    long long _slotID;
-    NSUUID *_uuid;
-    NSString *_labelID;
-    NSString *_label;
-    NSString *_phoneNumber;
-    NSNumber *_userDataPreferred;
-    NSNumber *_userDefaultVoice;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)0;
 
 @end
 

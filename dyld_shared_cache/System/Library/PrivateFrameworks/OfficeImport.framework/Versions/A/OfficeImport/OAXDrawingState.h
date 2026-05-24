@@ -6,46 +6,19 @@
 
 #import <OfficeImport/OCXReadState.h>
 
-@class CXNamespace, NSMutableArray, NSMutableDictionary, OADBlipCollection, OADColorMap, OADColorScheme, OADFontScheme, OADStyleMatrix, OAVReadState, OAXClient, OAXTableStyleCache, OCPPackagePart;
+@class OAXClient;
 
 __attribute__((visibility("hidden")))
 @interface OAXDrawingState : OCXReadState
 {
     OAXClient *mClient;
-    OCPPackagePart *mPackagePart;
-    OADStyleMatrix *mStyleMatrix;
-    OAXTableStyleCache *mTableStyleCache;
-    NSMutableDictionary *mShapeIdMap;
-    NSMutableDictionary *mDrawableIdToVmlShapeIdMap;
-    OADBlipCollection *mTgtBlipCollection;
-    NSMutableDictionary *mSrcURLToTgtBlipIndexMap;
-    NSMutableArray *mTgtBulletBlips;
-    NSMutableDictionary *mSrcURLToTgtBulletBlipIndexMap;
-    OAVReadState *mOavState;
-    OADColorScheme *mColorScheme;
-    OADColorMap *mColorMap;
-    OADFontScheme *mFontScheme;
-    NSMutableArray *mGroupStack;
-    CXNamespace *mOAXMainNamespace;
-    CXNamespace *mOAXChartNamespace;
-    CXNamespace *mOAXChartDrawingNamespace;
-    CXNamespace *mOAXCompatNamespace;
-    CXNamespace *mOAXLockedCanvasNamespace;
-    CXNamespace *mOAXPictureNamespace;
-    CXNamespace *mOAXTableNamespace;
-    CXNamespace *mOAXWordProcessingMLNamespace;
-    CXNamespace *mOAXDrawing2010Namespace;
-    CXNamespace *mOAXChart2012Namespace;
-    CXNamespace *mOAXMathNamespace;
-    id mDocumentState;
-    CDUnknownBlockType _clientChartGraphicPropertyDefaultsBlock;
 }
 
+- (id)q;
+- (id)h;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -57,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)h	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)q@;
 - (void);
 - (void);
 - (void);
@@ -72,12 +45,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)?;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -111,21 +84,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CXNamespace *OAXChart2012Namespace; // @synthesize OAXChart2012Namespace=mOAXChart2012Namespace;
-@property(retain, nonatomic) CXNamespace *OAXChartDrawingNamespace; // @synthesize OAXChartDrawingNamespace=mOAXChartDrawingNamespace;
-@property(retain, nonatomic) CXNamespace *OAXChartNamespace; // @synthesize OAXChartNamespace=mOAXChartNamespace;
-@property(retain, nonatomic) CXNamespace *OAXCompatNamespace; // @synthesize OAXCompatNamespace=mOAXCompatNamespace;
-@property(retain, nonatomic) CXNamespace *OAXDrawing2010Namespace; // @synthesize OAXDrawing2010Namespace=mOAXDrawing2010Namespace;
-@property(retain, nonatomic) CXNamespace *OAXLockedCanvasNamespace; // @synthesize OAXLockedCanvasNamespace=mOAXLockedCanvasNamespace;
-@property(retain, nonatomic) CXNamespace *OAXMainNamespace; // @synthesize OAXMainNamespace=mOAXMainNamespace;
-@property(retain, nonatomic) CXNamespace *OAXMathNamespace; // @synthesize OAXMathNamespace=mOAXMathNamespace;
-@property(retain, nonatomic) CXNamespace *OAXPictureNamespace; // @synthesize OAXPictureNamespace=mOAXPictureNamespace;
-@property(retain, nonatomic) CXNamespace *OAXTableNamespace; // @synthesize OAXTableNamespace=mOAXTableNamespace;
-@property(retain, nonatomic) CXNamespace *OAXWordProcessingMLNamespace; // @synthesize OAXWordProcessingMLNamespace=mOAXWordProcessingMLNamespace;
-@property(copy, nonatomic) CDUnknownBlockType clientChartGraphicPropertyDefaultsBlock; // @synthesize clientChartGraphicPropertyDefaultsBlock=_clientChartGraphicPropertyDefaultsBlock;
 @property __weak id documentState; // @synthesize documentState=mDocumentState;
-@property(retain, nonatomic) NSMutableDictionary *sourceURLToTargetBlipIndexMap; // @synthesize sourceURLToTargetBlipIndexMap=mSrcURLToTgtBlipIndexMap;
-@property(retain, nonatomic) NSMutableDictionary *sourceURLToTargetBulletBlipIndexMap; // @synthesize sourceURLToTargetBulletBlipIndexMap=mSrcURLToTgtBulletBlipIndexMap;
 
 @end
 

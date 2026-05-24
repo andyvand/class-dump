@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSData;
 
 @interface CKDPNotificationSyncResponse
 {
     NSData *_changeID;
-    NSMutableArray *_pushMessages;
-    _Bool _moreAvailable;
-    struct {
-        unsigned int moreAvailable:1;
-    } _has;
 }
 
 + (Class);
@@ -26,27 +21,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)kj;
 - (void);
 - (void);
 - (id);
+- (void)processEndOfTransaction:(id)arg1 withApplet:withPackage:withModule:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)mer(void *);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)ntainerOverrides;
+- (void)containerOverrides;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *changeID; // @synthesize changeID=_changeID;
 @property(readonly, nonatomic) _Bool hasChangeID;
-@property(nonatomic) _Bool hasMoreAvailable;
-@property(nonatomic) _Bool moreAvailable; // @synthesize moreAvailable=_moreAvailable;
-@property(retain, nonatomic) NSMutableArray *pushMessages; // @synthesize pushMessages=_pushMessages;
 
 @end
 

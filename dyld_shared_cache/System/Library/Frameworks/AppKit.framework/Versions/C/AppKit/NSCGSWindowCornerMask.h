@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 - (struct CGImage *);
 - (struct CGImage *);
-- (_Bool);
+- (_Bool)statement (stmt=%p);
 - (_Bool);
 - (struct CGImage *);
 - (unsigned int);
@@ -20,10 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) _Bool clipsWindowContents;
-@property(readonly) double cornerRadius;
-@property(readonly) _Bool definesShadowShape;
-@property(readonly) unsigned int maskedCorners;
-@property(readonly) struct CGPath *path;
 
 @end
 

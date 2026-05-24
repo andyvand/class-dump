@@ -6,71 +6,48 @@
 
 #import <EventKitUI/EKAbstractCalendarEditor.h>
 
-@class EKCalendarAccountEditItem, EKCalendarColorEditItem, EKCalendarDeleteButtonEditItem, EKCalendarIgnoreAlertsEditItem, EKCalendarIgnoreSharedCalendarResourceChangeNotificationsEditItem, EKCalendarIsAffectingAvailabilityEditItem, EKCalendarPublishingEditItem, EKCalendarShareesEditItem, EKCalendarTitleEditItem, EKSharee, EKSource, NSSet, NSString;
+@class EKCalendarTitleEditItem;
 
 @interface EKCalendarEditor : EKAbstractCalendarEditor
 {
     EKCalendarTitleEditItem *_titleItem;
-    EKCalendarAccountEditItem *_accountItem;
-    EKCalendarShareesEditItem *_shareesEditItem;
-    EKCalendarIgnoreSharedCalendarResourceChangeNotificationsEditItem *_ignoreSharedResourceChangeNotificationsItem;
-    EKCalendarColorEditItem *_colorEditItem;
-    EKCalendarIgnoreAlertsEditItem *_ignoreAlertsItem;
-    EKCalendarIsAffectingAvailabilityEditItem *_affectsAvailabilityItem;
-    EKCalendarPublishingEditItem *_publishItem;
-    EKCalendarDeleteButtonEditItem *_deleteItem;
-    unsigned long long _entityType;
-    EKSource *_limitedToSource;
-    NSSet *_shareesBeforeSave;
-    _Bool _isNewFamilyCalendar;
-    NSString *_prefillCalendarTitle;
-    EKSharee *_meSharee;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)&s;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id)s;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)s;
 - (id);
-- (id);
+- (void)?%s;
+- (void);
+- (void)z;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ion: /* Error: Ran out of types for this method. */;
+- (void)mapView:didDeselectAnnotation: /* Error: Ran out of types for this method. */;
 - (void)?	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isNewFamilyCalendar; // @synthesize isNewFamilyCalendar=_isNewFamilyCalendar;
-@property(retain, nonatomic) EKSharee *meSharee; // @synthesize meSharee=_meSharee;
-@property(retain, nonatomic) NSString *prefillCalendarTitle; // @synthesize prefillCalendarTitle=_prefillCalendarTitle;
-@property(readonly) Class superclass;
 
 @end
 

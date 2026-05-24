@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMessageActionHandler, MFMessageRule, MFMessageStore, NSArray, NSConditionLock, NSDictionary, NSMutableArray, NSString;
-@protocol EFCancelable, EFScheduler;
+@class NSMutableArray;
 
 @interface MFMessageRouter
 {
     NSMutableArray *_queuedMessages;
-    NSConditionLock *_queuedMessagesFull;
-    NSConditionLock *_queuedMessagesEmpty;
-    NSConditionLock *_queuedMessagesRouting;
-    unsigned long long _bytesInQueue;
-    unsigned long long _queueSize;
-    _Bool _routingThreadShouldQuit;
-    id <EFCancelable> _junkMailTrustHeadersObservationToken;
-    id <EFCancelable> _junkMailEvaluationAfterRulesObservationToken;
-    MFMessageRule *_junkRule;
-    MFMessageRule *_safeToMarkAsNotJunkRule;
-    MFMessageRule *_blockedSenderRule;
-    NSArray *_defaultRules;
-    NSArray *_sortRules;
-    NSMutableArray *_requiredHeaderKeys;
-    _Bool _registeredForMailboxNotifications;
-    _Bool _junkMailTrustHeaders;
-    _Bool _junkMailEvaluationAfterRules;
-    NSDictionary *_junkMailHeaderFlags;
-    long long _colorChangeCounter;
-    long long _syncState;
-    _Bool _isDirty;
-    NSMutableArray *_unrecognizedRules;
-    MFMessageStore *_store;
-    unsigned long long _estimatedNumberOfMessagesToRoute;
-    unsigned long long _numMessagesRoutedSoFar;
 }
 
 + (void);
-+ (void);
++ (void);
 + (long long);
 + (id);
 + (id)Ûz;#yÕ{;#ySDy,)g%,)GGÐ¯;
@@ -49,13 +23,13 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -73,23 +47,23 @@
 - (id);
 - (id);
 - (_Bool);
+- (long long)q;
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -105,11 +79,11 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)q#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)qA;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -119,7 +93,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)/A/CoreImage;
 - (id);
 - (id);
 - (id);
@@ -129,34 +103,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) MFMessageRule *blockedSenderRule;
-@property(nonatomic) long long colorChangeCounter;
-@property(readonly, nonatomic) _Bool colorsUpdateDynamically;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *diagnosticsCategory;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) unsigned long long estimatedNumberOfMessagesToRoute; // @synthesize estimatedNumberOfMessagesToRoute=_estimatedNumberOfMessagesToRoute;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *headersRequiredForRouting;
-@property long long junkMailBehavior;
-@property(nonatomic) _Bool junkMailEvaluationAfterRules;
-@property(readonly, copy, nonatomic) NSDictionary *junkMailHeaderFlags;
-@property(retain) MFMessageRule *junkMailRule;
-@property(nonatomic) _Bool junkMailTrustHeaders;
-@property(readonly, nonatomic) MFMessageActionHandler *messageActionHandler;
 @property(nonatomic) unsigned long long numMessagesRoutedSoFar; // @synthesize numMessagesRoutedSoFar=_numMessagesRoutedSoFar;
-@property(readonly) unsigned long long numberOfRules;
-@property(readonly) NSArray *rules;
-@property(nonatomic) __weak MFMessageStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EFScheduler> writeRulesScheduler;
 
 @end
 

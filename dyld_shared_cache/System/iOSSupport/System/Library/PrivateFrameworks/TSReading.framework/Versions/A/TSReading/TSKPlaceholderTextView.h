@@ -13,15 +13,15 @@
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)u;
 - (void);
-- (id);
+- (id)9;
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)articleID;
 - (void);
 - (void);
+- (void);
+- (void);
 - (void)1°1Â0@ù
 × ;
 - (void)%f %f %f %f %f %f curveto;

@@ -5,5 +5,7 @@
 //
 
 @protocol BSServiceConnectionCommonConfiguring
+- (void)FMF (%@) or app (%@) tokens, creating FMF child account;
+- (void);
 @end
 

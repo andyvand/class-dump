@@ -7,11 +7,9 @@
 @interface TSIssueViewerModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
-- (id);
+- (id);
 - (void)overriddenTraitCollection;
 
 @end

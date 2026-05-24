@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INCreateFileIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_fileProviderFileIdentifier;
 + (int);
 + (long long);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)8|;
++ (_Bool)@;
 - (void);
 - (void);
 - (id);
@@ -26,34 +24,22 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setFamilyName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)GCSessionErrorDomain;
+- (id);
+- (id);
+- (void)74-11eb-b7b7-f45c89abb0d9;
 - (id);
 - (id);
 - (id)dedIntentResponse;
-- (long long)tentExport;
+- (long long)INPlayVoicemailIntentExport;
 - (void)qpQx;
 - (id)¼ëåÿø;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *destinationName;
-@property(copy) NSString *entityName;
-@property(copy) NSString *entityType;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *overwrite;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

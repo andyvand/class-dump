@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMutablePromise, NSArray, NSDictionary, NSMutableArray, NSMutableSet, NSObject, NWNetworkOfInterestManager;
-@protocol OS_dispatch_queue;
+@class NSDictionary, NWNetworkOfInterestManager;
 
 @interface AMSNetworkQualityInquiry
 {
     NWNetworkOfInterestManager *_manager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_knownNetworks;
-    NSMutableArray *_knownNetworksReadyHandlers;
-    NSArray *_lastKnownReports;
-    long long _lastReportRefreshTimestamp;
-    AMSMutablePromise *_currentInvestigation;
-    NSDictionary *_lastConnectionReport;
 }
 
 + (id);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)TB,R,N,GisClusterLeader,V_clusterLeader;
 - (void);
 - (_Bool);
 - (void);

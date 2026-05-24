@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ITLibSearchRequest
 {
     unsigned int _maximumResultsPerScope;
-    NSArray *_scopes;
-    NSString *_searchString;
 }
 
 - (id);
@@ -19,14 +17,12 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ramework/Versions/A/GSS;
+- (void)setActionButtonMenu:(id)arg1;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int maximumResultsPerScope; // @synthesize maximumResultsPerScope=_maximumResultsPerScope;
 @property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

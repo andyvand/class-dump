@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSString;
 @protocol UIFocusItem;
 
 __attribute__((visibility("hidden")))
 @interface UIFocusRingClientState
 {
     id <UIFocusItem> _currentFocusItem;
-    NSMutableArray *_activeFocusLayers;
-    NSMapTable *_activeFocusLayersToItems;
-    NSString *_clientID;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)e T3 with limit %ld, attemptCount %lu;
+- (void):(id)arg1 %@;
+- (void)ce %@;
 - (id);
 - (id);
 - (id);
@@ -29,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (id)´Ê j;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activeFocusLayers; // @synthesize activeFocusLayers=_activeFocusLayers;
-@property(retain, nonatomic) NSMapTable *activeFocusLayersToItems; // @synthesize activeFocusLayersToItems=_activeFocusLayersToItems;
-@property(retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
 @property(nonatomic) __weak id <UIFocusItem> currentFocusItem; // @synthesize currentFocusItem=_currentFocusItem;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESCacheLookupEnded, POMMESSchemaPOMMESCacheLookupFailed, POMMESSchemaPOMMESCacheLookupStarted;
+@class POMMESSchemaPOMMESCacheLookupStarted;
 
 @interface POMMESSchemaPOMMESCacheLookupContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESCacheLookupStarted *_startedOrChanged;
-    POMMESSchemaPOMMESCacheLookupEnded *_ended;
-    POMMESSchemaPOMMESCacheLookupFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,13 +18,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)post_process_file;
 - (void);
 - (id);
 - (id);
@@ -40,22 +34,15 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)iguationsLastTwentyEightDays;
+- (_Bool)t. groupPhotoGUID %@ chatGUID %@ filepath %@;
+- (id)v;
+- (id);
+- (id)_numSelectedActionDisambiguationsLastTwentyEightDays;
 - (id)TB,N,V_hasStateTransitionEvent;
-- (void)RTED_PLATFORM_WATCH;
+- (void)FLOWAPPLEMUSICVOICEPREVIEWOFFERNOTSHOWNREASON_UNSUPPORTED_PLATFORM_WATCH;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheLookupEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheLookupFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESCacheLookupStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsSubscription.BundlePaywallDataProvider
 {
     id assetManager;
-    id imageCache;
-    id viewModel;
 }
 
 @end

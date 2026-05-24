@@ -9,7 +9,6 @@
 @interface AFSpeechPhrase
 {
     _Bool _isLowConfidence;
-    NSArray *_interpretations;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (_Bool);
@@ -28,11 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ncementRequestsPermittedByPresentationWhileActive;
+- (void)_areAnnouncementRequestsPermittedByPresentationWhileActive;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *interpretations; // @synthesize interpretations=_interpretations;
-@property(nonatomic) _Bool isLowConfidence; // @synthesize isLowConfidence=_isLowConfidence;
 
 @end
 

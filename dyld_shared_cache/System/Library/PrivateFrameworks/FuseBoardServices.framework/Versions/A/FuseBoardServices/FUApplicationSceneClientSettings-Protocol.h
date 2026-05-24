@@ -5,14 +5,10 @@
 //
 
 @protocol FUApplicationSceneClientSettings
+- (unsigned long long);
+- (unsigned int)(@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long fu_preferredDisplayGamut;
-@property(readonly, nonatomic) unsigned int fu_preferredDisplayID;
-@property(readonly, nonatomic) double fu_preferredDisplayScale;
-@property(readonly, nonatomic) struct NSEdgeInsets fu_preferredEdgeInsets;
-@property(readonly, nonatomic) unsigned long long fu_preferredFullScreenOrientations;
-@property(readonly, nonatomic) struct CGSize fu_preferredSize;
 @property(readonly, nonatomic) long long fu_state;
 @end
 

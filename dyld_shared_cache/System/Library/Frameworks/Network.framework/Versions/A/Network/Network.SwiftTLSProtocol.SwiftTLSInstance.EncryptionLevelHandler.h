@@ -7,9 +7,6 @@
 @interface Network.SwiftTLSProtocol.SwiftTLSInstance.EncryptionLevelHandler
 {
     id level;
-    id parentInstance;
-    id outputLinkage;
-    id _selfAsInputLinkage;
 }
 
 @end

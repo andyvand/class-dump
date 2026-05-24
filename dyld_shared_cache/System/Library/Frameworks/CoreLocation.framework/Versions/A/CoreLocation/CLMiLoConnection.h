@@ -5,7 +5,6 @@
 //
 
 @class CLMiLoConnectionInternal;
-@protocol CLMiLoConnectionDelegate;
 
 @interface CLMiLoConnection
 {
@@ -16,23 +15,23 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)xmp:CreateDate /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,7 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CLMiLoConnectionInternal *_internal; // @synthesize _internal;
-@property(nonatomic) id <CLMiLoConnectionDelegate> delegate;
 
 @end
 

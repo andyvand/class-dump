@@ -11,7 +11,7 @@
     AVAssetWriterInputMetadataAdaptorInternal *_internal;
 }
 
-+ (id);
++ (id)=x;
 + (void)available rates for a given format.;
 - (id);
 - (id);

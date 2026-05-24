@@ -6,43 +6,29 @@
 
 #import <CMCapture/BWSinkNode.h>
 
-@class BWStillImageAnalyticsPayloadCommon, BWStillImageFrameCoordinatorNode, BWStillImageSampleBufferSinkNodeAnalyticsConfiguration, NSArray;
-
 @interface BWStillImageSampleBufferSinkNode : BWSinkNode
 {
     CDUnknownBlockType _sampleBufferAvailableHandler;
-    int _stillImageCapturePipeliningMode;
-    _Bool _deferredPhotoProcessorEnabled;
-    _Bool _clientIsCameraOrDerivative;
-    _Bool _captureTimePhotosCurationSupported;
-    NSArray *_propagatedAttachedMediaKeys;
-    _Bool _focusPixelBlurScoreEnabled;
-    BWStillImageSampleBufferSinkNodeAnalyticsConfiguration *_analyticsConfiguration;
-    _Bool _cameraSupportsFlash;
-    long long _lastCaptureRequestTime;
-    long long _lastReportedSettingsID;
-    BWStillImageAnalyticsPayloadCommon *_cachedAnalyticsPayloadForPortraitFailures;
-    BWStillImageFrameCoordinatorNode *_frameCoordinatorNode;
 }
 
 + (void)y/PrivateFrameworks/DiskArbitration.framework/Contents/MacOS/DiskArbitration;
 - (CDUnknownBlockType);
-- (id);
-- (int);
-- (void);
+- (id)mMultipleFieldFilters;
+- (int)blipRefWithURL:blipArray:blipURLtoIndexMap: /* Error: Ran out of types for this method. */;
+- (void)ECUtils;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)17XlChartPieSubPlot;
 - (id);
 - (void);
+- (void)$;
+- (void)reverseMapped_TITLE__HOTEL_RESTAURANT_NAME;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void)trength:(_Bool)arg1 bravoTelephotoEnabled:attachDebugFrameStatistics: /* Error: Ran out of types for this method. */;
+- (void)initWithTuningParametersByPortType:(_Bool)arg1 videoStabilizationStrength:bravoTelephotoEnabled:attachDebugFrameStatistics: /* Error: Ran out of types for this method. */;
 - (void)ublic}@ setActiveMinFrameRate (%@, %@);
 - (void)òÿóÿôÿõÿöÿ£÷ÿ«÷ÿ³÷ÿº÷ÿÃ øÿË"÷ÿÒ#÷ÿÚ$÷ÿã&÷ÿ;
 - (void)ê|ÿõ|ÿþ~ÿÿÿÿÿÿÿ;
@@ -51,7 +37,7 @@
 - (_Bool)Â¬ÿ;
 - (void);
 - (void)treaming;
-- (id)led;
+- (id)cinematicFramingEnabled;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType sampleBufferAvailableHandler; // @synthesize sampleBufferAvailableHandler=_sampleBufferAvailableHandler;

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface IDSMissingMessageMetric
 {
     long long _reason;
-    NSString *_guid;
-    NSString *_service;
-    NSDictionary *_additionalInfo;
 }
 
 - (_Bool);
@@ -20,21 +15,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)P;
 - (_Bool);
 - (id);
 - (id);
-- (id)m: /* Error: Ran out of types for this method. */;
+- (id)prependItem: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)vd;
+- (void)kvd;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(readonly, nonatomic) NSNumber *command;
-@property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) NSDictionary *payload;
 @property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end
 

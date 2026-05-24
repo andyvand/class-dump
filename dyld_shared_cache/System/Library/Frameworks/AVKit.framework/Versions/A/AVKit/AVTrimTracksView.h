@@ -16,10 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)signing_identities
+LEFT JOIN profiles ON profiles.uuid = signing_identities.uuid
+WHERE profiles.uuid = ?1;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)disableTextureRWBoundsCheck;
 - (void);
 
 // Remaining properties

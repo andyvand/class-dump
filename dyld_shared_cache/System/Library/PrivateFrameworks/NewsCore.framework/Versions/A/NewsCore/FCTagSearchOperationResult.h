@@ -9,18 +9,16 @@
 @interface FCTagSearchOperationResult
 {
     FCStreamingResults *_channels;
-    FCStreamingResults *_topics;
 }
 
 - (void);
 - (void);
 - (id);
 - (id)etHandle",?,R,N;
-- (void)ableSportsManagementSource;
+- (void)sportsTagSeenEnableSportsManagementSource;
 
 // Remaining properties
 @property(retain, nonatomic) FCStreamingResults *channels; // @synthesize channels=_channels;
-@property(retain, nonatomic) FCStreamingResults *topics; // @synthesize topics=_topics;
 
 @end
 

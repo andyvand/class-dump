@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFHomeAccessCode.h>
 
-@class MKFGuestAccessCodeDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFGuestAccessCode : _MKFHomeAccessCode
@@ -15,36 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)I3;
 + (Class);
 + (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessCode;
-@property(readonly, copy, nonatomic) MKFGuestAccessCodeDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSUUID *hh2ModelID; // @dynamic hh2ModelID;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *userUniqueIDForAccessories; // @dynamic userUniqueIDForAccessories;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

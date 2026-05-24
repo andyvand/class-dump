@@ -7,26 +7,20 @@
 @interface UXViewAnimationContext
 {
     double _mass;
-    double _stiffness;
-    double _damping;
-    double _velocity;
 }
 
 - (double);
+- (double)<˟;
 - (double);
-- (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void)¤øÿüóéo;
 
 // Remaining properties
-@property(nonatomic) double damping; // @synthesize damping=_damping;
 @property(nonatomic) double mass; // @synthesize mass=_mass;
-@property(nonatomic) double stiffness; // @synthesize stiffness=_stiffness;
-@property(nonatomic) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

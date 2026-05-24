@@ -5,5 +5,8 @@
 //
 
 @protocol PKDataDetectorInteractionHelperDelegate
+
+@optional
+- (void);
 @end
 

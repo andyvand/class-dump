@@ -9,13 +9,12 @@ __attribute__((visibility("hidden")))
 {
     id didSelectCallback;
     id didFinishSelectionCallback;
-    id didCancelCallback;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)ll Screen;
+- (void)(Default Output Name);
 - (void);
 - (id);
 - (id);

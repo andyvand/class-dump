@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStoryMemoryFeedActionPerformer
 {
     CDUnknownBlockType _viewControllerSetupBlock;
@@ -15,19 +13,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)qB;
 - (void);
 - (id);
-- (void)ontroller;
+- (void)PhotosHighlightsOverlayController;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) CDUnknownBlockType viewControllerSetupBlock; // @synthesize viewControllerSetupBlock=_viewControllerSetupBlock;
 
 @end

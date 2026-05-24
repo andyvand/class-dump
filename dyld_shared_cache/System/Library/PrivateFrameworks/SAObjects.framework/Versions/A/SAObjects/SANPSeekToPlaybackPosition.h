@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface SANPSeekToPlaybackPosition : SADomainCommand
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(copy, nonatomic) NSNumber *positionInMilliseconds;
 
 @end
 

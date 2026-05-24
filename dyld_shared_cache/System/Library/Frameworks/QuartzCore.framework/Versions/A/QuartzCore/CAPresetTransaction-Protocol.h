@@ -5,12 +5,10 @@
 //
 
 @protocol CAPresetTransaction
+- (void)attributes;
 - (long long)°L;
 
 // Remaining properties
-@property(nonatomic) _Bool isReferencePreset;
-@property(nonatomic) _Bool preserveAppleSRGBGammaResponse;
-@property(nonatomic) long long shortPresetID;
 @property(nonatomic) long long trinityCabalConfig;
 @end
 

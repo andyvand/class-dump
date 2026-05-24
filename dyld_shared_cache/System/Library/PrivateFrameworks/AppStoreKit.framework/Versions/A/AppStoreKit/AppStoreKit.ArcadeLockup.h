@@ -7,13 +7,6 @@
 @interface AppStoreKit.ArcadeLockup
 {
     id title;
-    id subscribedSubtitle;
-    id nonsubscribedSubtitle;
-    id unsubscribedButtonAction;
-    id subscribedButtonAction;
-    id offerDisplayProperties;
-    id id;
-    id impressionMetrics;
 }
 
 @end

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLChangeBatch, NSDictionary, NSMutableDictionary, NSMutableSet, NSSet, NSString;
-@protocol NSFastEnumeration;
+@class CPLChangeBatch, NSDictionary;
 
 @interface CPLExtractedBatch
 {
     NSDictionary *_pushContexts;
-    NSMutableDictionary *_mutablePushContexts;
-    NSSet *_untrustableScopedIdentifiers;
-    NSMutableSet *_mutableUntrustableScopedIndentifiers;
-    _Bool _resourceSizeIsCalculated;
-    unsigned long long _resourceSize;
-    _Bool _full;
-    _Bool _batchCanLowerQuota;
-    CPLChangeBatch *_batch;
-    NSString *_clientCacheIdentifier;
 }
 
 + (_Bool);
@@ -43,11 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CPLChangeBatch *batch; // @synthesize batch=_batch;
-@property(readonly, nonatomic) _Bool batchCanLowerQuota; // @synthesize batchCanLowerQuota=_batchCanLowerQuota;
-@property(copy, nonatomic) NSString *clientCacheIdentifier; // @synthesize clientCacheIdentifier=_clientCacheIdentifier;
-@property(nonatomic, getter=isFull) _Bool full; // @synthesize full=_full;
-@property(readonly, nonatomic) unsigned long long resourceSize; // @synthesize resourceSize=_resourceSize;
-@property(readonly, nonatomic) id <NSFastEnumeration> uploadIdentifiers;
 
 @end
 

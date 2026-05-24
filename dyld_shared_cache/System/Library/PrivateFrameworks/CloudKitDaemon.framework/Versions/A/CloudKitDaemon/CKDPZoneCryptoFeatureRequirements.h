@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAdopterFeatureSet, CKDPDate, CKDPFieldCryptoFeatureSet, CKDPFieldPermittedCryptoFeatureSet, CKDPRecordCryptoFeatureSet, CKDPRecordPermittedCryptoFeatureSet, CKDPRecordZoneIdentifier, CKDPZoneCryptoFeatureSet, CKDPZonePermittedCryptoFeatureSet;
+@class CKDPDate;
 
 @interface CKDPZoneCryptoFeatureRequirements
 {
     CKDPDate *_lastModifiedTimestamp;
-    int _minimumSchemaVersion;
-    CKDPFieldPermittedCryptoFeatureSet *_permittedFieldCryptoFeatures;
-    CKDPRecordPermittedCryptoFeatureSet *_permittedRecordCryptoFeatures;
-    CKDPZonePermittedCryptoFeatureSet *_permittedZoneCryptoFeatures;
-    CKDPAdopterFeatureSet *_requiredAdopterFeatures;
-    CKDPFieldCryptoFeatureSet *_requiredFieldCryptoFeatures;
-    CKDPRecordCryptoFeatureSet *_requiredRecordCryptoFeatures;
-    CKDPZoneCryptoFeatureSet *_requiredZoneCryptoFeatures;
-    int _revision;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    struct {
-        unsigned int minimumSchemaVersion:1;
-        unsigned int revision:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)6I;
 - (void);
 - (void);
 - (id);
@@ -54,12 +40,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)d}32@0:(_Bool)arg1 8{CGSize=dd}16;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ibleStreamWrapper_suspendInternal(FigEndpointStreamRef, CFDictionaryRef);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -72,28 +58,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLastModifiedTimestamp;
 @property(nonatomic) _Bool hasMinimumSchemaVersion;
-@property(readonly, nonatomic) _Bool hasPermittedFieldCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasPermittedRecordCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasPermittedZoneCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasRequiredAdopterFeatures;
-@property(readonly, nonatomic) _Bool hasRequiredFieldCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasRequiredRecordCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasRequiredZoneCryptoFeatures;
-@property(nonatomic) _Bool hasRevision;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) CKDPDate *lastModifiedTimestamp; // @synthesize lastModifiedTimestamp=_lastModifiedTimestamp;
-@property(nonatomic) int minimumSchemaVersion; // @synthesize minimumSchemaVersion=_minimumSchemaVersion;
-@property(retain, nonatomic) CKDPFieldPermittedCryptoFeatureSet *permittedFieldCryptoFeatures; // @synthesize permittedFieldCryptoFeatures=_permittedFieldCryptoFeatures;
-@property(retain, nonatomic) CKDPRecordPermittedCryptoFeatureSet *permittedRecordCryptoFeatures; // @synthesize permittedRecordCryptoFeatures=_permittedRecordCryptoFeatures;
-@property(retain, nonatomic) CKDPZonePermittedCryptoFeatureSet *permittedZoneCryptoFeatures; // @synthesize permittedZoneCryptoFeatures=_permittedZoneCryptoFeatures;
-@property(retain, nonatomic) CKDPAdopterFeatureSet *requiredAdopterFeatures; // @synthesize requiredAdopterFeatures=_requiredAdopterFeatures;
-@property(retain, nonatomic) CKDPFieldCryptoFeatureSet *requiredFieldCryptoFeatures; // @synthesize requiredFieldCryptoFeatures=_requiredFieldCryptoFeatures;
-@property(retain, nonatomic) CKDPRecordCryptoFeatureSet *requiredRecordCryptoFeatures; // @synthesize requiredRecordCryptoFeatures=_requiredRecordCryptoFeatures;
-@property(retain, nonatomic) CKDPZoneCryptoFeatureSet *requiredZoneCryptoFeatures; // @synthesize requiredZoneCryptoFeatures=_requiredZoneCryptoFeatures;
-@property(nonatomic) int revision; // @synthesize revision=_revision;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

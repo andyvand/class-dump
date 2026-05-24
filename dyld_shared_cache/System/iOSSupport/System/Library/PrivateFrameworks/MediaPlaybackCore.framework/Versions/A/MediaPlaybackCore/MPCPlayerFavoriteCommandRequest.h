@@ -12,17 +12,15 @@ __attribute__((visibility("hidden")))
 @interface MPCPlayerFavoriteCommandRequest : MPCPlayerCommandRequest
 {
     _Bool _value;
-    MPModelObject *_modelObject;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)ic}@ %2i %{public}@  â° totalTime:%0.3f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *modelObject; // @synthesize modelObject=_modelObject;
-@property(readonly, nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

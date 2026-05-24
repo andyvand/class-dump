@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;

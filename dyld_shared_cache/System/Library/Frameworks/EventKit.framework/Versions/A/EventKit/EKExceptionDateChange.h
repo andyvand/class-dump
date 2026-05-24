@@ -11,20 +11,18 @@
 @interface EKExceptionDateChange : EKObjectChange
 {
     EKObjectID *_ownerID;
-    NSDate *_date;
 }
 
 + (int);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)ientManager] %{public}@SystemEndpoint changed from %{public}@ to %{public}@ because %{public}@;
+- (id)presentationAction;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) EKObjectID *ownerID; // @synthesize ownerID=_ownerID;
 
 @end
 

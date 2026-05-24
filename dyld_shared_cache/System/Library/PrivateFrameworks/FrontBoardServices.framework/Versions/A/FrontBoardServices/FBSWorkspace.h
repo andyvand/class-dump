@@ -4,77 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceCompoundQueue, BSServiceConnectionEndpoint, BSServiceConnectionEndpointMonitor, BSServiceDispatchQueue, BSServiceQueue, FBSPseudoSceneUpdater, NSArray, NSMutableDictionary, NSString;
-@protocol FBSWorkspaceDelegate;
+@class BSServiceDispatchQueue;
 
 @interface FBSWorkspace
 {
     BSServiceDispatchQueue *_queue;
-    BSServiceQueue *_callOutQueue;
-    BSServiceCompoundQueue *_serviceQueue;
-    FBSPseudoSceneUpdater *_psuedoSceneUpdater;
-    id <FBSWorkspaceDelegate> _delegate;
-    NSMutableDictionary *_queue_identifierToScenesSource;
-    BSServiceConnectionEndpointMonitor *_connectionEndpointMonitor;
-    BSServiceConnectionEndpoint *_defaultShellEndpoint;
-    _Bool _isSingleton;
-    _Bool _queue_invalidated;
 }
 
-+ (void);
++ (void)Th;
 + (id);
 - (void);
+- (id)@;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)4;
+- (void);
+- (void)kj;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)b;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void));
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)dation: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)distance;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)_updateForInitialization:forTransformInvalidation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) BSServiceQueue *callOutQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) BSServiceConnectionEndpoint *defaultShellEndpoint; // @synthesize defaultShellEndpoint=_defaultShellEndpoint;
-@property(readonly, nonatomic) id <FBSWorkspaceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) BSServiceDispatchQueue *machQueue;
-@property(readonly, copy, nonatomic) NSArray *scenes;
-@property(readonly) Class superclass;
 
 @end
 

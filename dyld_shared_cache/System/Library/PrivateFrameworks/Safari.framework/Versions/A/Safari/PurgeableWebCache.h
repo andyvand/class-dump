@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKWebsiteDataStore;
+@class WKWebsiteDataStore;
 
 @interface PurgeableWebCache
 {
     WKWebsiteDataStore *_websiteDataStore;
-    unsigned long long _purgeOrder;
 }
 
-- (void);
+- (void);;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -22,15 +21,7 @@
 - (void)< ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long purgeOrder; // @synthesize purgeOrder=_purgeOrder;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly) Class superclass;
 
 @end
 

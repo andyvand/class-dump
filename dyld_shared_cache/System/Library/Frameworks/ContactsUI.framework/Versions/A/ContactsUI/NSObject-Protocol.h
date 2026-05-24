@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (id)?;
+- (id)@;
+- (_Bool);
+- (_Bool)0@0:(id)arg1 8@"NSTableView"16@"NSURL"24@"NSIndexSet"32;
+- (id)xpected value of field string in nested fields!;
+- (_Bool);
 - (struct _NSZone *)Ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

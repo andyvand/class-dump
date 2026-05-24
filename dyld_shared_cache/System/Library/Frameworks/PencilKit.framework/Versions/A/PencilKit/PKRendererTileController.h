@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKRendererTileController
 {
     NSObject<OS_dispatch_queue> *_tileQueue;
-    NSMutableDictionary *_tileFramebuffers;
-    NSMutableDictionary *_tileMultiplyFramebuffers;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)PHSmartAlbumChangeRequest;
 - (void);
 
 @end

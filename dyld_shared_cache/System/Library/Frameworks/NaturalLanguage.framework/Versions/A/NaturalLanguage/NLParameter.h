@@ -9,20 +9,17 @@
 @interface NLParameter
 {
     NSString *_name;
-    long long _parameterType;
-    double _minimumValue;
-    double _maximumValue;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)(֊;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -31,13 +28,10 @@
 - (double);
 - (id);
 - (void);
-- (double);
+- (double)M;
 
 // Remaining properties
-@property(readonly, nonatomic) double maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(readonly, nonatomic) double minimumValue; // @synthesize minimumValue=_minimumValue;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long parameterType; // @synthesize parameterType=_parameterType;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SUMetadataCache
 {
     NSString *_cachePath;
-    NSMutableArray *_metadata;
-    double _cacheAge;
 }
 
 + (_Bool);
@@ -19,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

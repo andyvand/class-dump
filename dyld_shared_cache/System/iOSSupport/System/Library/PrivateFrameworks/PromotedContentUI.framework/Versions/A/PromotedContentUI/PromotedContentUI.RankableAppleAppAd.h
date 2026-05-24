@@ -7,8 +7,6 @@
 @interface PromotedContentUI.RankableAppleAppAd
 {
     id instanceId;
-    id adData;
-    id commonAdInfo;
 }
 
 @end

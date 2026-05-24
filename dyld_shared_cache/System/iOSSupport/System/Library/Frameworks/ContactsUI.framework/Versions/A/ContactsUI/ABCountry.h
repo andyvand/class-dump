@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ABCountry
 {
     NSString *_countryCode;
-    NSString *_countryName;
-    NSString *_phoneticCountryName;
 }
 
 - (void);
@@ -21,12 +19,10 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (id)t:searchString:isShowingGroups: /* Error: Ran out of types for this method. */;
-- (void)ght;
+- (void)minAvatarHeight;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *countryName; // @synthesize countryName=_countryName;
-@property(copy, nonatomic) NSString *phoneticCountryName; // @synthesize phoneticCountryName=_phoneticCountryName;
 
 @end
 

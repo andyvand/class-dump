@@ -7,10 +7,6 @@
 @interface IdentityLookup.IdentityInfoSnapshot
 {
     id extensionIdentifier;
-    id name;
-    id iconURL;
-    id type;
-    id expiration;
 }
 
 - (id);

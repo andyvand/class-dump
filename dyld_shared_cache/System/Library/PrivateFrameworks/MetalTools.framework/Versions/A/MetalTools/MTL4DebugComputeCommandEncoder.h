@@ -7,20 +7,10 @@
 #import <MetalTools/MTL4ToolsComputeCommandEncoder.h>
 
 @class MTL4DebugCommandEncoder;
-@protocol MTLComputePipelineState;
 
 @interface MTL4DebugComputeCommandEncoder : MTL4ToolsComputeCommandEncoder
 {
     MTL4DebugCommandEncoder *_debugCommandEncoder;
-    struct MTL4DebugComputeCommandEncoderState _encoderState;
-    unsigned long long _numSubstreams;
-    _Bool _allowsNullBufferBindings;
-    struct MTLDebugFunctionArgument _currentThreadgroupMemoryLengths[31];
-    CDStruct_da2e99ad _currentImageBlockSize;
-    id <MTLComputePipelineState> _currentComputePipelineState;
-    struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> _currentSubstreamProgressLabels;
-    unsigned long long _currentVirtualSubstreamIndex;
-    _Bool _currentVirtualSubstreamHasEncodedDispatch;
 }
 
 - (void);
@@ -50,7 +40,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)';
 - (void);
 - (void);
 - (void);
@@ -62,6 +52,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -69,52 +60,51 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)D�a;
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)ibraryObjectCache;
+- (void)sourceLibraryObjectCache;
 
 @end
 

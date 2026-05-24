@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface TPPBPolicySecret
 {
     NSString *_name;
-    NSData *_secret;
 }
 
 - (_Bool);
@@ -18,22 +17,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void);
+- (id)ԃ;
+- (unsigned long long)2;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)the history number information for Suica, invalid block:(id)arg1 %@;
+- (id)ause endpoint doesn't support it.
+;
 - (id);
-- (id);
-- (void);
+- (void)Bm) crossing BadLink Threshold (%@dBm); cancel the goodRssi timer/continue the bad session;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasSecret;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *secret; // @synthesize secret=_secret;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface ContactsAutocomplete.AutocompleteStore.DirectImpl
 {
     id store;
-    id idsProxy;
-    id normalizedNumbers;
 }
 
 @end

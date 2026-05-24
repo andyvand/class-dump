@@ -6,17 +6,12 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class CUIKCalendarModel, EKEventDetailAttendeesCell, EKEventDetailAttendeesCellModel, NSArray, NSString;
+@class EKEventDetailAttendeesCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventAttendeesDetailItem : EKEventDetailItem
 {
     EKEventDetailAttendeesCell *_cell;
-    CUIKCalendarModel *_model;
-    EKEventDetailAttendeesCellModel *_attendeesModel;
-    EKEventDetailAttendeesCell *_oldCell;
-    long long _status;
-    NSArray *_attendees;
 }
 
 - (void);
@@ -24,30 +19,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)g;
+- (unsigned long long);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)interpretKeyEvents:(struct CGRect)arg1;
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (double)
 × ;
-- (void)letionBlock: /* Error: Ran out of types for this method. */;
+- (void)scrollToEvent:animated:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attendees; // @synthesize attendees=_attendees;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

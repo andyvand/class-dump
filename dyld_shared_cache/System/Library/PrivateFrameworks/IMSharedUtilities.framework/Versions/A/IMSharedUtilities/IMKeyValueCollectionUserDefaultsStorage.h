@@ -16,24 +16,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)T;
+- (id)phone_call;
+- (id);
+- (void)E;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)agnosticsOnly;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)remoteDiagnosticsOnly;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

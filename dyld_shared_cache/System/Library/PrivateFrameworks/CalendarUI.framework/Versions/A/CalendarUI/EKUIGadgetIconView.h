@@ -6,30 +6,26 @@
 
 #import <CalendarUI/EKUIGadgetView.h>
 
-@class NSLayoutConstraint, NSView;
+@class NSView;
 
 @interface EKUIGadgetIconView : EKUIGadgetView
 {
     NSView *_contentView;
-    NSView *_iconView;
-    NSLayoutConstraint *_iconWidthConstraint;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)	;
+- (void);
 - (void);
 - (id)NSButton",&,V_actionButton;
 
 // Remaining properties
 @property(retain) NSView *contentView; // @synthesize contentView=_contentView;
-@property(retain) NSView *iconView; // @synthesize iconView=_iconView;
-@property(retain) NSLayoutConstraint *iconWidthConstraint; // @synthesize iconWidthConstraint=_iconWidthConstraint;
 
 @end
 

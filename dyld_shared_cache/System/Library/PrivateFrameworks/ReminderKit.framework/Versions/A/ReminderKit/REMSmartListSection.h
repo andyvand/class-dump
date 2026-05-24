@@ -6,7 +6,7 @@
 
 #import <ReminderKit/REMBaseSection.h>
 
-@class REMObjectID, REMSmartList;
+@class REMSmartList;
 
 @interface REMSmartListSection : REMBaseSection
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) REMSmartList *smartList; // @synthesize smartList=_smartList;
-@property(retain, nonatomic) REMObjectID *smartListID; // @dynamic smartListID;
 
 @end
 

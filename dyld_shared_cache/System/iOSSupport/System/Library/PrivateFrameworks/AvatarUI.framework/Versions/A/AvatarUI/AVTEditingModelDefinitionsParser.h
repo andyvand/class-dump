@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTEditingModelColors, AVTUILogger, NSData, NSDictionary, NSError, NSString;
-
 @interface AVTEditingModelDefinitionsParser
 {
     unsigned long long _platform;
-    NSString *_platformDictionaryKey;
-    AVTUILogger *_logger;
-    NSData *_plistData;
-    NSError *_error;
-    AVTEditingModelColors *_colorCache;
-    NSDictionary *_neutralMemojiPresetsIdentifierPerCategory;
-    NSDictionary *_presetPickersDefinitions;
-    NSDictionary *_colorPickersDefinitions;
-    NSDictionary *_multicolorPickersDefinitions;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)7;
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id)TB�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void){;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -72,16 +61,7 @@
 - (id)%ld;
 
 // Remaining properties
-@property(retain, nonatomic) AVTEditingModelColors *colorCache; // @synthesize colorCache=_colorCache;
-@property(retain, nonatomic) NSDictionary *colorPickersDefinitions; // @synthesize colorPickersDefinitions=_colorPickersDefinitions;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) AVTUILogger *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) NSDictionary *multicolorPickersDefinitions; // @synthesize multicolorPickersDefinitions=_multicolorPickersDefinitions;
-@property(retain, nonatomic) NSDictionary *neutralMemojiPresetsIdentifierPerCategory; // @synthesize neutralMemojiPresetsIdentifierPerCategory=_neutralMemojiPresetsIdentifierPerCategory;
 @property(readonly, nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) NSString *platformDictionaryKey; // @synthesize platformDictionaryKey=_platformDictionaryKey;
-@property(readonly, nonatomic) NSData *plistData; // @synthesize plistData=_plistData;
-@property(retain, nonatomic) NSDictionary *presetPickersDefinitions; // @synthesize presetPickersDefinitions=_presetPickersDefinitions;
 
 @end
 

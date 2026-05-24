@@ -17,7 +17,7 @@
 - (int);
 - (_Bool);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id)propertyDependencies=%@};
 

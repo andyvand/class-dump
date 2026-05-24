@@ -5,7 +5,6 @@
 //
 
 @class UIPageControl;
-@protocol UIPageControlProgressDelegate;
 
 @interface UIPageControlProgress
 {
@@ -13,15 +12,11 @@
         unsigned int initialProgressForPage:1;
         unsigned int visibilityDidChange:1;
     } _delegateImplements;
-    _Bool _progressVisible;
-    float _currentProgress;
-    id <UIPageControlProgressDelegate> _delegate;
-    UIPageControl *_pageControl;
 }
 
-- (id);
-- (_Bool);
-- (void);
+- (id)attributes up %@;
+- (_Bool)e its expire state %d is already %d;
+- (void);
 - (void);
 - (float);
 - (void);
@@ -34,10 +29,7 @@
 - (void)z Ú¤e;
 
 // Remaining properties
-@property(nonatomic) float currentProgress; // @synthesize currentProgress=_currentProgress;
-@property(nonatomic) __weak id <UIPageControlProgressDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak UIPageControl *pageControl; // @synthesize pageControl=_pageControl;
-@property(readonly, nonatomic, getter=isProgressVisible) _Bool progressVisible; // @synthesize progressVisible=_progressVisible;
 
 @end
 

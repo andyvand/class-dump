@@ -9,13 +9,11 @@
 @interface _DKThermalPressureMonitor : _DKMonitor
 {
     _Bool _initialized;
-    int _thermalPressureToken;
-    int _lastThermalPressureLevel;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)p5;
 - (void);
 - (void);
 - (void);
@@ -25,7 +23,7 @@
 - (int);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)ts",R,C,V_threshold;
 - (void);
 - (void);
 - (void);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(nonatomic) int lastThermalPressureLevel; // @synthesize lastThermalPressureLevel=_lastThermalPressureLevel;
-@property(nonatomic) int thermalPressureToken; // @synthesize thermalPressureToken=_thermalPressureToken;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CADTestingInterface
+- (void);
+- (void)er proxy to restore state. Giving up.;
+- (void)allowed:(void (^)(int))arg1 %d;
 @end
 

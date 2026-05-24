@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ASWebAuthenticationSessionCallback
 {
     unsigned long long _callbackType;
-    NSString *_customScheme;
-    NSString *_host;
-    NSString *_path;
-    NSString *_downloadMIMEType;
 }
 
 + (id);
@@ -24,20 +18,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)%;
 - (id);
-- (void);
+- (void)Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation;
 
 // Remaining properties
 @property(nonatomic) unsigned long long callbackType; // @synthesize callbackType=_callbackType;
-@property(readonly, nonatomic) NSString *customScheme; // @synthesize customScheme=_customScheme;
-@property(readonly, nonatomic) NSString *downloadMIMEType; // @synthesize downloadMIMEType=_downloadMIMEType;
-@property(readonly, nonatomic) NSString *host; // @synthesize host=_host;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

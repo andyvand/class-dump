@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSUUID;
+@class NSUUID;
 
 @interface CRKRequestCertificatesResponseIDSMessage
 {
     NSUUID *_requestIdentifier;
-    NSArray *_certificateDataCollection;
-    NSError *_error;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long)for entitled attributes scan;
 - (void);
 - (id)e:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *certificateDataCollection; // @synthesize certificateDataCollection=_certificateDataCollection;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) long long messageType;
 @property(readonly, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODMSiriSchemaODMDynamicDimensions, ODMSiriSchemaODMSiriTaskCounts;
+@class ODMSiriSchemaODMDynamicDimensions;
 
 @interface ODMSiriSchemaODMSiriCounts : SISchemaInstrumentationMessage
 {
     ODMSiriSchemaODMDynamicDimensions *_dimensions;
-    ODMSiriSchemaODMSiriTaskCounts *_taskCounts;
-    _Bool _hasDimensions;
-    _Bool _hasTaskCounts;
 }
 
 - (id);
@@ -30,7 +27,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)Pt;
 - (id);
 - (id)0@ù
 × ;
@@ -41,10 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODMSiriSchemaODMDynamicDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(nonatomic) _Bool hasTaskCounts; // @synthesize hasTaskCounts=_hasTaskCounts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODMSiriSchemaODMSiriTaskCounts *taskCounts; // @synthesize taskCounts=_taskCounts;
 
 @end
 

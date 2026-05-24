@@ -9,17 +9,15 @@
 @interface FCMultiResolutionImage
 {
     NSURL *_imageURL1x;
-    NSURL *_imageURL2x;
-    NSURL *_imageURL3x;
 }
 
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setPreferredScrollEdgeEffectStyle: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)infoPlistContent;
 - (id);
 - (id);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *imageURL1x; // @synthesize imageURL1x=_imageURL1x;
-@property(retain, nonatomic) NSURL *imageURL2x; // @synthesize imageURL2x=_imageURL2x;
-@property(retain, nonatomic) NSURL *imageURL3x; // @synthesize imageURL3x=_imageURL3x;
 
 @end
 

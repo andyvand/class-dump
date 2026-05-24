@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (id)esHomeParameters";
-- (id)r;
+- (id)_exitNumber;
 - (id)pÈ@;
 - (void)q¬Ûh;
 

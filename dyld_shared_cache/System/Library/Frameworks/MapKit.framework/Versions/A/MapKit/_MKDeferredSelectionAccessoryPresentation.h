@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _MKDeferredSelectionAccessoryPresentation
 {
     _Bool _animated;
-    _Bool _ready;
-    unsigned long long _reason;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)Uv;
 - (_Bool);
 - (_Bool)sçÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
-@property(nonatomic) _Bool ready; // @synthesize ready=_ready;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, CNContactStore, NSArray, _CDPeopleSuggesterContext, _CDPeopleSuggesterSettings;
+@class CNAutocompleteFetchRequest;
 
 @interface _CNAutocompleteCoreDuetPredictionSearchStrategyTask
 {
     CNAutocompleteFetchRequest *_request;
-    CNContactStore *_contactStore;
-    _CDPeopleSuggesterContext *_context;
-    _CDPeopleSuggesterSettings *_settings;
-    NSArray *_suggestions;
-    NSArray *_results;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);

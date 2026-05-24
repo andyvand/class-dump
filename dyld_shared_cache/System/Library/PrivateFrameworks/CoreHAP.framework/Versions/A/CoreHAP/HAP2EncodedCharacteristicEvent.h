@@ -6,35 +6,23 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSData, NSNumber, NSString;
-@protocol HAP2AccessoryCharacteristicEncodedData;
+@class NSNumber;
 
 @interface HAP2EncodedCharacteristicEvent : HAP2LoggingObject
 {
     NSNumber *_instanceID;
-    id <HAP2AccessoryCharacteristicEncodedData> _encodedValueData;
-    NSData *_encodedContextData;
 }
 
-+ (id);
++ (id)_֟Q;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)eID: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setAvailableInstanceID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *encodedContextData; // @synthesize encodedContextData=_encodedContextData;
-@property(readonly, nonatomic) id <HAP2AccessoryCharacteristicEncodedData> encodedValueData; // @synthesize encodedValueData=_encodedValueData;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSNumber *instanceID; // @synthesize instanceID=_instanceID;
-@property(readonly) Class superclass;
 
 @end
 

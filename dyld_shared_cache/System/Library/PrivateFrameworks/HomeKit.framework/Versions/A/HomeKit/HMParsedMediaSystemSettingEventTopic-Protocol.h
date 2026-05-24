@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @protocol HMParsedMediaSystemSettingEventTopic
+- (NSUUID *);
+- (NSUUID *);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accessoryEventTopicSuffixID;
 @property(readonly, nonatomic) NSUUID *homeUUID;
-@property(readonly, copy, nonatomic) NSString *mediaSystemSettingKeyPath;
-@property(readonly, nonatomic) NSUUID *mediaSystemUUID;
 @end
 

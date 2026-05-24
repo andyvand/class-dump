@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBInteger, _INPBString;
+@class NSArray, _INPBString;
 
 @protocol _INPBOpenFileIntentResponse
-- (_Bool)ms;
-- (void)finityIntentResponseCodeFailureRequiringAppLaunch;
+- (unsigned long long);
+- (_INPBString *)@;
+- (void)violation;
+- (_Bool)updatedVocabularyItems;
+- (void)INUpdateMediaAffinityIntentResponseCodeFailureRequiringAppLaunch;
 - (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entities;
-@property(readonly, nonatomic) unsigned long long entitiesCount;
-@property(readonly, nonatomic) _Bool hasNumResults;
-@property(readonly, nonatomic) _Bool hasQuery;
-@property(nonatomic) _Bool hasSuccess;
-@property(retain, nonatomic) _INPBInteger *numResults;
-@property(retain, nonatomic) _INPBString *query;
-@property(nonatomic) _Bool success;
 @end
 

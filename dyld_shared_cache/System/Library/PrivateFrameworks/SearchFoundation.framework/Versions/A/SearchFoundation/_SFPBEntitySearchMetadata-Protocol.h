@@ -7,12 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBEntitySearchMetadata
+- (NSString *)%;
+- (void)B;
+- (NSData *)oken",R,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *entityIdentifier;
 @property(copy, nonatomic) NSString *entitySearchQuery;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *tokenQuery;
-@property(copy, nonatomic) NSString *viewConfigName;
 @end
 

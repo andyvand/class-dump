@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotCardContent, CTLazuliChatBotCardLayout;
+@class CTLazuliChatBotCardLayout;
 
 @interface CTLazuliChatBotCard
 {
     CTLazuliChatBotCardLayout *_layout;
-    CTLazuliChatBotCardContent *_content;
 }
 
-+ (_Bool);
++ (_Bool)ther AVAssetReader;
 - (_Bool);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotCardContent *content; // @synthesize content=_content;
 @property(retain, nonatomic) CTLazuliChatBotCardLayout *layout; // @synthesize layout=_layout;
 
 @end

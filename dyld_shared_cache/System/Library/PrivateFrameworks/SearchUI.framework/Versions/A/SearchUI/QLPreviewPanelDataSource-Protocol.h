@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class QLPreviewPanel;
+@protocol QLPreviewItem;
+
 @protocol QLPreviewPanelDataSource
+- (id <QLPreviewItem>)capabilities:(QLPreviewPanel *)arg1 %@>;
 @end
 

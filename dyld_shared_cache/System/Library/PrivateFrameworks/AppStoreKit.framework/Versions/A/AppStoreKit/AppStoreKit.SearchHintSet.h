@@ -7,11 +7,6 @@
 @interface AppStoreKit.SearchHintSet
 {
     id hints;
-    id ghostHintTerm;
-    id pageMetrics;
-    id pageRenderEvent;
-    id searchCancelAction;
-    id searchClearAction;
 }
 
 @end

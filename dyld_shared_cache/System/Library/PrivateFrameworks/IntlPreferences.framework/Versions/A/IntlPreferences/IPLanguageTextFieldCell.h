@@ -11,8 +11,8 @@
     NSString *_voLanguage;
 }
 
-- (id);
-- (void);
+- (id)createSnapshot:error: /* Error: Ran out of types for this method. */;
+- (void)copyFromBuffer:(id)arg1 sourceOffset:sourceBytesPerRow:sourceBytesPerImage:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

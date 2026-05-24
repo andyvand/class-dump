@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEDNSProxyProviderProtocol, NEPerApp;
-
 @interface NEDNSProxy
 {
     _Bool _enabled;
-    NEDNSProxyProviderProtocol *_protocol;
-    NEPerApp *_perApp;
 }
 
-+ (_Bool);
++ (_Bool)setKtOptInErrorCode: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ager.queue;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)RL:error: /* Error: Ran out of types for this method. */;
-- (_Bool)tion;
+- (void)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
+- (_Bool)description;
 - (id)retry KE);
 - (void)remote;
 - (id)[NEConfigurationManager saveConfigurationToDisk:(int)arg1 currentSignature:(unsigned long long)arg2 userUUID:isUpgrade:completionQueue:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NEPerApp *perApp; // @synthesize perApp=_perApp;
-@property(copy) NEDNSProxyProviderProtocol *protocol; // @synthesize protocol=_protocol;
 
 @end
 

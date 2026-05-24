@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSDLineEnd
 {
     struct CGPath *mPath;
-    struct CGPath *mWrapPath;
-    struct CGPoint mEndPoint;
-    _Bool mIsFilled;
-    NSString *mIdentifier;
-    int mLineJoin;
 }
 
++ (id)j(8h;
++ (id)A;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -48,13 +41,7 @@
 - (struct CGPoint):8{CGRect={CGPoint=dd}{CGSize=dd}}16B48^{CGContext=}52 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint endPoint; // @synthesize endPoint=mEndPoint;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=mIdentifier;
-@property(readonly, nonatomic) _Bool isFilled; // @synthesize isFilled=mIsFilled;
-@property(readonly, nonatomic) _Bool isNone;
-@property(readonly, nonatomic) int lineJoin; // @synthesize lineJoin=mLineJoin;
 @property(readonly, nonatomic) struct CGPath *path; // @synthesize path=mPath;
-@property(readonly, nonatomic) struct CGPath *wrapPath;
 
 @end
 

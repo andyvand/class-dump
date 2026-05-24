@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCollectionView, NSImage;
+@protocol NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (NSArray *);
+- (_Bool);
+- (NSImage *);
+- (void);
+- (void)`;
+- (void)h;
+- (id <NSPasteboardWriting>)els:(NSCollectionView *)arg1 ];
 @end
 

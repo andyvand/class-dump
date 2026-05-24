@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GVRank
 {
     NSMutableArray *nodes;
-    double separation;
-    GVRank *prevRank;
-    GVRank *nextRank;
-    GVGraph *graph;
-    long long rank;
 }
 
 - (void);
@@ -31,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)E1',9*;
 - (void);
 - (void);
 - (void);
@@ -39,21 +34,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)k;
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double breadth;
-@property(readonly) unsigned long long count;
 @property GVGraph *graph; // @synthesize graph;
-@property(readonly, nonatomic) double length;
-@property(nonatomic) __weak GVRank *nextRank; // @synthesize nextRank;
-@property(nonatomic) __weak GVRank *prevRank; // @synthesize prevRank;
-@property(readonly) long long rank; // @synthesize rank;
 
 @end
 

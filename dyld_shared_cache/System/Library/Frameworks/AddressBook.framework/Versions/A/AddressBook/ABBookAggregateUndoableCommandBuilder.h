@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSMutableArray, NSString;
+@class ABAddressBook, NSString;
 
 @interface ABBookAggregateUndoableCommandBuilder
 {
     NSString *_actionName;
-    ABAddressBook *_addressBook;
-    NSMutableArray *_undoableCommands;
-    _Bool _shouldSave;
 }
 
+- (id)	s;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
@@ -35,14 +32,6 @@
 
 // Remaining properties
 @property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool shouldSave; // @synthesize shouldSave=_shouldSave;
-@property(readonly) Class superclass;
 
 @end
 

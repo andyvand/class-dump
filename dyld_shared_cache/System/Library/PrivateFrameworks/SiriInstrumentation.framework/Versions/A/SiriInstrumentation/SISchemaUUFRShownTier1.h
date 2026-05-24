@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUUFRShownTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_displayedSiriDialogOutput;
-    _Bool _hasLinkId;
-    _Bool _hasDisplayedSiriDialogOutput;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setCachePrefToHide:(id)arg1;
+- (void)sessionWithConfiguration:(_Bool)arg1 delegate:delegateQueue: /* Error: Ran out of types for this method. */;
+- (id)mbWebkitViewSaveFile:withLocalizedDisplayName:content: /* Error: Ran out of types for this method. */;
+- (_Bool)displayQuota: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void)h";
+- (unsigned long long)initWithStoreMetadata: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (_Bool)nt < 5;
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)eleteHomeKitTarget;
-- (id)ext;
-- (void)DMTOKENIZATIONINPUTTYPE_USER_UTTERANCE;
+- (id)deleteHomeKitTarget;
+- (id)_hasExecutionCommitContext;
+- (void)CDMTOKENIZATIONINPUTTYPE_USER_UTTERANCE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayedSiriDialogOutput; // @synthesize displayedSiriDialogOutput=_displayedSiriDialogOutput;
-@property(nonatomic) _Bool hasDisplayedSiriDialogOutput; // @synthesize hasDisplayedSiriDialogOutput=_hasDisplayedSiriDialogOutput;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

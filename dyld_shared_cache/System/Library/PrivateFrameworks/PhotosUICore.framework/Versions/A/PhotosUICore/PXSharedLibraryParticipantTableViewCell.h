@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSImageSymbolConfiguration, NSLayoutConstraint, NSString, NSTextField, NSTrackingArea, PXRoundImageView, PXSharedLibraryParticipantTableCellModel;
-@protocol PXSharedLibraryParticipantTableViewCellDelegate;
+@class PXRoundImageView, PXSharedLibraryParticipantTableCellModel;
 
 @interface PXSharedLibraryParticipantTableViewCell
 {
     PXRoundImageView *_imageView;
-    NSTextField *_nameLabel;
-    NSTextField *_addressLabel;
-    NSTrackingArea *_trackingArea;
-    NSLayoutConstraint *_trailingStackViewConstraintToContainer;
-    NSLayoutConstraint *_trailingStackViewConstraintToEllipsisButton;
-    NSLayoutConstraint *_trailingEllipsisButtonConstraintToContainer;
-    NSButton *_ellipsisButton;
-    NSImage *_ellipsisDefaultImage;
-    NSImage *_ellipsisClickedImage;
-    NSImageSymbolConfiguration *_ellipsisDefaultSymbolConfiguration;
-    NSImageSymbolConfiguration *_ellipsisClickedSymbolConfiguration;
-    _Bool _mouseInTrackingArea;
-    PXSharedLibraryParticipantTableCellModel *_cellModel;
-    id <PXSharedLibraryParticipantTableViewCellDelegate> _delegate;
 }
 
 + (double);
@@ -42,20 +27,12 @@
 - (void);
 - (id)
 × ;
-- (void)rifiedFaceCount:(id)arg1;
+- (void)setMinimumUnverifiedFaceCount:(id)arg1;
 - (void)NSString * _Nullable __strong, NSDictionary<NSAttributedStringKey,id> *__strong _Nonnull);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXSharedLibraryParticipantTableCellModel *cellModel; // @synthesize cellModel=_cellModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSharedLibraryParticipantTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

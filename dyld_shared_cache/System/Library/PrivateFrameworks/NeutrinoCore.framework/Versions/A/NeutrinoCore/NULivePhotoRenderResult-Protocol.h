@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVVideoComposition, NUImageGeometry;
+@class AVAsset, AVVideoComposition;
 
 @protocol NULivePhotoRenderResult
+- (AVAsset *);
+- (AVVideoComposition *)2@?0@"ETDataTensor"8@"NSString"16@"NSString"24;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *photo;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoTime;
 @property(readonly, nonatomic) AVAsset *video;
-@property(readonly, nonatomic) AVVideoComposition *videoComposition;
-@property(readonly, nonatomic) NUImageGeometry *videoGeometry;
 @end
 

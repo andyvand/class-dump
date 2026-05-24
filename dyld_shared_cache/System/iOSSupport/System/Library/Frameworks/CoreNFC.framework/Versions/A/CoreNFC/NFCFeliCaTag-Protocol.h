@@ -7,6 +7,8 @@
 @class NSData;
 
 @protocol NFCFeliCaTag
+- (void);
+- (NSData *);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSData *currentIDm;

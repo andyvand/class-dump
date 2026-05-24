@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface PDAnimationTextTarget : PDAnimationShapeTarget
 {
     int mType;
-    struct _NSRange mRange;
 }
 
 - (id);
 - (unsigned long long);
 - (int);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool)s;
 - (void);
 - (void);
 

@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class INDateComponentsRange;
 
 @interface INSearchForPhotosIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,50 +40,26 @@
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)C;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)s.framework/Versions/A/IconServices;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)askListOptionsForDeleteTasks:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)provideTaskListOptionsForDeleteTasks:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *activities;
-@property(readonly) long long activitiesOperator;
-@property(readonly, copy) NSString *albumName;
 @property(readonly, copy) INDateComponentsRange *dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *events;
-@property(readonly) long long eventsOperator;
-@property(readonly) unsigned long long excludedAttributes;
-@property(copy) NSArray *geographicalFeatures;
-@property(readonly) long long geographicalFeaturesOperator;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long includedAttributes;
-@property(readonly, copy) CLPlacemark *locationCreated;
-@property(copy) NSString *memoryName;
-@property(readonly, copy) NSArray *peopleInPhoto;
-@property(readonly) long long peopleInPhotoOperator;
-@property(copy) NSArray *places;
-@property(readonly) long long placesOperator;
-@property(readonly, copy) NSArray *searchTerms;
-@property(readonly) long long searchTermsOperator;
-@property(readonly) Class superclass;
 
 @end
 

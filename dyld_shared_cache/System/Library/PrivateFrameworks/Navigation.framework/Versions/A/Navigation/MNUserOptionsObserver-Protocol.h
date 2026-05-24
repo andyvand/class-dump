@@ -5,5 +5,7 @@
 //
 
 @protocol MNUserOptionsObserver
+- (void)7,
+;
 @end
 

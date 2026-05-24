@@ -7,8 +7,6 @@
 @interface TeaCharts.LineChartInteractor
 {
     id categoryCoordinateCalculator;
-    id valueCoordinateCalculator;
-    id isRTL;
 }
 
 @end

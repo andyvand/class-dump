@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMJSDialog, NSView, NSWindow;
+@class MMJSDialog, NSView;
 
 @interface MMJSDialogController
 {
     NSView *_parentView;
-    MMJSDialog *_mmJSDialog;
-    struct OpaqueJSContext *_jsContext;
 }
 
 - (void);
 - (id);
-- (void);
-- (struct OpaqueJSContext *);
+- (void)T	;
+- (struct OpaqueJSContext *);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property struct OpaqueJSContext *jsContext; // @synthesize jsContext=_jsContext;
 @property(retain) MMJSDialog *mmJSDialog; // @synthesize mmJSDialog=_mmJSDialog;
-@property(readonly, retain) NSWindow *parentWindow; // @dynamic parentWindow;
 
 @end
 

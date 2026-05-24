@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)fc_newsURLType;
 
 @end
 

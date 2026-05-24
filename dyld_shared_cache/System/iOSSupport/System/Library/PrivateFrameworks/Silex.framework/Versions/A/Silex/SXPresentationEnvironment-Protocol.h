@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITraitCollection;
-
 @protocol SXPresentationEnvironment
 
 // Remaining properties
-@property(readonly, nonatomic) UITraitCollection *presentationTraitCollection;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsets;
-@property(readonly, nonatomic) _Bool smartInvertColorsEnabled;
-@property(readonly, nonatomic) unsigned long long viewingLocation;
 @property(readonly, nonatomic) struct CGSize viewportSize;
 @end
 

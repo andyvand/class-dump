@@ -7,9 +7,11 @@
 @class NSArray, NSSet;
 
 @protocol CHRecognizingMath
+- (void)N;
+- (NSSet *)ing notification [%@];
+- (NSArray *)C;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *declaredVariables;
-@property(copy, nonatomic) NSArray *locales;
 @end
 

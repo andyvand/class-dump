@@ -9,6 +9,8 @@
 @protocol AVCAudioStreamDelegate
 
 @optional
-- (void)ionManager:(AVCAudioStream *)arg1 localVideoToggledForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)�;
+- (void);
+- (void)conversationManager:(AVCAudioStream *)arg1 localVideoToggledForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
 @end
 

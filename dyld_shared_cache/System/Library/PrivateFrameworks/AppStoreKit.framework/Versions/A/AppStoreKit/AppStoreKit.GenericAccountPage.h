@@ -7,9 +7,6 @@
 @interface AppStoreKit.GenericAccountPage
 {
     id title;
-    id sections;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

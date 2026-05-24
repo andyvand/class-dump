@@ -9,7 +9,7 @@
 @protocol CAAnimationDelegate
 
 @optional
-- (void)nvalidated:(CAAnimation *)arg1;
+- (void)_handleConnectionInvalidated:(CAAnimation *)arg1;
 - (void)received 3:(CAAnimation *)arg1 CID 0x%08X, Header %zu bytes, Body %zu bytes, ignored
 ;
 @end

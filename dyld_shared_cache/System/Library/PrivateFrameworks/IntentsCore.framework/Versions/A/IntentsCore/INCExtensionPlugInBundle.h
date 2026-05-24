@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface INCExtensionPlugInBundle
 {
     Class _principalClass;
-    NSSet *_intentsSupported;
-    NSSet *_intentsRestrictedWhileLocked;
 }
 
 - (id);
@@ -21,8 +17,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *intentsRestrictedWhileLocked; // @synthesize intentsRestrictedWhileLocked=_intentsRestrictedWhileLocked;
-@property(readonly, copy, nonatomic) NSSet *intentsSupported; // @synthesize intentsSupported=_intentsSupported;
 @property(readonly, nonatomic) Class principalClass; // @synthesize principalClass=_principalClass;
 
 @end

@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_requestElements;
 }
 
-+ (Class);
-+ (_Bool)over:(id)arg1;
++ (Class)ty string;
++ (_Bool)setHasPrefixMatchCover:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)_isMe;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)setIsKeywordAnalyzerCorrupted:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -32,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id)HasDirectionsResponseWaypointIndex:(struct _NSZone *)arg1;
-- (id)lt;
-- (id)pLaunchAction_ShowKeyboardAction;
+- (id)setHasDirectionsResponseWaypointIndex:(struct _NSZone *)arg1;
+- (id)GEOCollectionResult;
+- (id)MapLaunchAction_ShowKeyboardAction;
 - (id)¤;
 - (Class)K©BAY¾.ÃK@;
 - (void)§Ó9¾Z5;

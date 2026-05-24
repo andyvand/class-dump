@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString;
-
 @interface RTKeychainManager : RTService
 {
 }
@@ -16,28 +14,22 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)Primary Record to decode;
+- (int)PCSKeys WHERE recordID = ? AND type = ?;;
+- (_Bool)otential missing guitarfish record;
 - (id);
-- (int);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)String=}32^{__CFString=}40;
+- (id)8@?0I8^{__CFString=}12B20B24i28^{__CFString=}32^{__CFString=}40;
 - (int);
 - (int);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)tal_uninterrupted_WiFi_connection_duration_work_bucketed;
+- (void)mean_daily_total_uninterrupted_WiFi_connection_duration_work_bucketed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

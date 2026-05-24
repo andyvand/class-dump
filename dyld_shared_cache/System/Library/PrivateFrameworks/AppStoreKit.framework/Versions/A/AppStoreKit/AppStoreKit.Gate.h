@@ -7,14 +7,6 @@
 @interface AppStoreKit.Gate
 {
     id queue;
-    id passingDelay;
-    id name;
-    id consistencyLock;
-    id conditions;
-    id printUnsatisfiedConditions;
-    id pendingTryToPass;
-    id observerScheduler;
-    id observer;
 }
 
 @end

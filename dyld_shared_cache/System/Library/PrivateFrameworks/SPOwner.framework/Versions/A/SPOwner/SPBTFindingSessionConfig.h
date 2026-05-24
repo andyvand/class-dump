@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)rEventRelayTranslationOutgoingKey;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool optInRawRSSIMeasurement; // @synthesize optInRawRSSIMeasurement=_optInRawRSSIMeasurement;

@@ -6,19 +6,12 @@
 
 #import <Safari/Banner.h>
 
-@class NSArray, NSButton, NSImageView, NSTextField;
+@class NSArray, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NewExtensionBanner : Banner
 {
     NSArray *_extensionWrappers;
-    long long _extensionEnablementMode;
-    NSArray *_remotelyEnabledExtensionWrappers;
-    NSTextField *_titleLabel;
-    NSTextField *_descriptionLabel;
-    NSButton *_extensionPreferencesButton;
-    NSImageView *_extensionsPuzzlePieceImageView;
-    NSButton *_dismissBannerButton;
 }
 
 - (_Bool);
@@ -44,10 +37,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property __weak NSButton *dismissBannerButton; // @synthesize dismissBannerButton=_dismissBannerButton;
-@property __weak NSButton *extensionPreferencesButton; // @synthesize extensionPreferencesButton=_extensionPreferencesButton;
-@property __weak NSImageView *extensionsPuzzlePieceImageView; // @synthesize extensionsPuzzlePieceImageView=_extensionsPuzzlePieceImageView;
 @property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

@@ -4,62 +4,111 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSURL, SFQueueingServiceViewControllerProxy, SFSafariLaunchPlaceholderView, SFSafariViewControllerConfiguration, UIColor, _WKActivatedElementInfo;
-@protocol SFSafariViewControllerDelegate, SFServiceViewControllerProtocol;
+@class NSNumber, SFQueueingServiceViewControllerProxy;
+@protocol SFServiceViewControllerProtocol;
 
 @interface SFSafariViewController
 {
     NSNumber *_adoptsPlatformConventions;
-    SFSafariViewControllerConfiguration *_configuration;
-    _Bool _didHandlerURLExternally;
-    _Bool _hasBeenDisplayedAtLeastOnce;
-    SFSafariLaunchPlaceholderView *_launchPlaceholderView;
-    _Bool _urlLikelyForAuthentication;
-    _Bool _usesCompatibilityPlaceholder;
-    _Bool _defersAddingRemoteViewController;
-    _Bool __showingLinkPreview;
-    _Bool __showingLinkPreviewWithMinimalUI;
-    id <SFSafariViewControllerDelegate> _delegate;
-    UIColor *_preferredBarTintColor;
-    UIColor *_preferredControlTintColor;
-    long long _dismissButtonStyle;
-    SFQueueingServiceViewControllerProxy<SFServiceViewControllerProtocol> *_serviceProxy;
-    NSURL *_initialURL;
-    NSArray *__previewActions;
-    _WKActivatedElementInfo *__activatedElementInfo;
 }
 
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)CodingKeys;
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)DestinationType;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id)H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_action;
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)targetShapes;
+- (void)newBufferWithData:(_Bool)arg1 type: /* Error: Ran out of types for this method. */;
+- (void)0; i < 5; i++) {
+        int4 indices = ((device int4*)patchIndices)[i];
+        
+        int n = i * 4;
+        cv[n + 0] = (patch + indices[0])->position;
+        cv[n + 1] = (patch + indices[1])->position;
+        cv[n + 2] = (patch + indices[2])->position;
+        cv[n + 3] = (patch + indices[3])->position;
+    }
+#else
+    float3 cv[20];
+    for (int i = 0; i < 20; ++i) {
+        cv[i] = patch[patchIndices[i]].position;
+    }
+#endif
+#endif
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+    
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+#if USE_STAGE_IN
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[5], patch[15], patch[10], output);
+#else
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[patchIndices[0]], patch[patchIndices[5]], patch[patchIndices[15]], patch[patchIndices[10]], output);
+#endif
+    
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+	OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_basis_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+		osdBuffers.vertexBuffer,
+		osdBuffers.indexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+		osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord
+		);
+}
+
+;
 - (id);
 - (void);
 - (void);
@@ -68,17 +117,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setActivatedElementInfo:) _WKActivatedElementInfo *_activatedElementInfo; // @synthesize _activatedElementInfo=__activatedElementInfo;
-@property(retain, nonatomic, setter=_setPreviewActions:) NSArray *_previewActions; // @synthesize _previewActions=__previewActions;
-@property(nonatomic, setter=_setShowingLinkPreview:) _Bool _showingLinkPreview; // @synthesize _showingLinkPreview=__showingLinkPreview;
-@property(nonatomic, setter=_setShowingLinkPreviewWithMinimalUI:) _Bool _showingLinkPreviewWithMinimalUI; // @synthesize _showingLinkPreviewWithMinimalUI=__showingLinkPreviewWithMinimalUI;
-@property(readonly, copy, nonatomic) SFSafariViewControllerConfiguration *configuration;
-@property(nonatomic) _Bool defersAddingRemoteViewController; // @synthesize defersAddingRemoteViewController=_defersAddingRemoteViewController;
-@property(nonatomic) __weak id <SFSafariViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long dismissButtonStyle; // @synthesize dismissButtonStyle=_dismissButtonStyle;
-@property(readonly, nonatomic) NSURL *initialURL; // @synthesize initialURL=_initialURL;
-@property(retain, nonatomic) UIColor *preferredBarTintColor; // @synthesize preferredBarTintColor=_preferredBarTintColor;
-@property(retain, nonatomic) UIColor *preferredControlTintColor; // @synthesize preferredControlTintColor=_preferredControlTintColor;
 @property(readonly, nonatomic) SFQueueingServiceViewControllerProxy<SFServiceViewControllerProtocol> *serviceProxy; // @synthesize serviceProxy=_serviceProxy;
 
 @end

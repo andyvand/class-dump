@@ -9,12 +9,9 @@
 @interface PKProtobufCloudStoreZoneInvitationResponse
 {
     PKProtobufCloudStoreZoneInvitation *_invitation;
-    unsigned int _status;
-    unsigned int _version;
-    CDStruct_47fe53f2 _has;
 }
 
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (id);
 - (unsigned int);
@@ -23,22 +20,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (_Bool)minRxRetry"b1"minSnr"b1"minTxAirLatency"b1"minTxPacketLoss"b1"minTxRetrans"b1"percentageActive"b1"percentagePowerSave"b1"percentageWcpsDisabled"b1"percentageWcpsEnabled"b1"percentageWcpsReduced"b1"timestamp"b1};
+- (void)iSynrexmits;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool)ngerNameRecordNumber;
+- (_Bool)_passengerNameRecordNumber;
 - (void)vice called for PKPaymentSetupAssistantCompanion, but NanoPassKit is not linkable. File a radar!;
 - (void)entWebServiceRegion"8;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasInvitation;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) PKProtobufCloudStoreZoneInvitation *invitation; // @synthesize invitation=_invitation;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

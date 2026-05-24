@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)_256_GCM_SHA384;
 - (_Bool);
 
 // Remaining properties

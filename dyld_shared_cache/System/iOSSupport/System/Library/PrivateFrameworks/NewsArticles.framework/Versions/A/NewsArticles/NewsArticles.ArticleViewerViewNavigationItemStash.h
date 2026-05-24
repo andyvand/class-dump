@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticleViewerViewNavigationItemStash
 {
     id leftBarButtonItems;
-    id rightBarButtonItems;
-    id additionalOverflowItems;
-    id hidesBackButton;
 }
 
 @end

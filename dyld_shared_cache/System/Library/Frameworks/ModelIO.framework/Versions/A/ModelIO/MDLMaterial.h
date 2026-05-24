@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLScatteringFunction, NSMutableArray, NSString;
+@class MDLScatteringFunction, NSMutableArray;
 
 @interface MDLMaterial
 {
     NSMutableArray *_userProperties;
-    NSMutableArray *_builtinProperties;
-    MDLScatteringFunction *_scatteringFunction;
-    NSString *_name;
-    MDLMaterial *_baseMaterial;
-    unsigned long long _materialFace;
 }
 
 - (void);
@@ -28,30 +23,26 @@
 - (void);
 - (struct BidirectionalScatteringDistributionFunction *);
 - (id);
-- (void);
+- (void)itemIdentifier char(128) NOT NULL,                           FOREIGN KEY (sessionId) REFERENCES sessions (id)               ON DELETE CASCADE                                          );
 - (id);
+- (id)t;
 - (id);
+- (unsigned long long);
+- (id)Foundation.framework/Versions/C/Foundation;
+- (void)initWithLocaleIdentifier:(id)arg1 withAppDomain: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)stopDiscoveringAccessoryServers;
+- (id)ns an invalid Manufacturer characteristic;
 - (id);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)UISDisplayConfigurationChangedNotification;
 - (id);
 - (unsigned long long)L;
 
 // Remaining properties
-@property(retain, nonatomic) MDLMaterial *baseMaterial; // @synthesize baseMaterial=_baseMaterial;
-@property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) unsigned long long materialFace; // @synthesize materialFace=_materialFace;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, retain, nonatomic) MDLScatteringFunction *scatteringFunction;
 
 @end

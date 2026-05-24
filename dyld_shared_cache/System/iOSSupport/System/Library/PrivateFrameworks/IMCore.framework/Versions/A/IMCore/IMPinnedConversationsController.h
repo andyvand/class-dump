@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOrderedSet, NSUbiquitousKeyValueStore;
-
 @interface IMPinnedConversationsController
 {
     _Bool _hasCompletedInitialization;
-    _Bool _hasDefferedPinnedConversationsDidChangeNotification;
-    long long _numberOfPendingForceSyncs;
-    NSUbiquitousKeyValueStore *_dataStore;
-    NSOrderedSet *_pinnedConversationIdentifierSet;
-    NSDictionary *_chatMetadata;
 }
 
 + (_Bool);
@@ -36,11 +29,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)O;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (void);
 - (long long);
@@ -49,26 +42,26 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -82,12 +75,7 @@
 - (void)ð{	ø~ØX	tð$	,D;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *chatMetadata; // @synthesize chatMetadata=_chatMetadata;
-@property(retain, nonatomic) NSUbiquitousKeyValueStore *dataStore; // @synthesize dataStore=_dataStore;
 @property(nonatomic) _Bool hasCompletedInitialization; // @synthesize hasCompletedInitialization=_hasCompletedInitialization;
-@property(nonatomic) _Bool hasDefferedPinnedConversationsDidChangeNotification; // @synthesize hasDefferedPinnedConversationsDidChangeNotification=_hasDefferedPinnedConversationsDidChangeNotification;
-@property(nonatomic) long long numberOfPendingForceSyncs; // @synthesize numberOfPendingForceSyncs=_numberOfPendingForceSyncs;
-@property(retain, nonatomic) NSOrderedSet *pinnedConversationIdentifierSet; // @synthesize pinnedConversationIdentifierSet=_pinnedConversationIdentifierSet;
 
 @end
 

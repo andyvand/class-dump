@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISApplicationSupportDisplayEdgeInsetsWrapper
 {
     double _topInset;
-    double _leftInset;
-    double _bottomInset;
-    double _rightInset;
 }
 
-- (void);
+- (void)data;
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)lf;
 - (double);
 - (void);
 - (void);
@@ -29,16 +24,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double bottomInset; // @synthesize bottomInset=_bottomInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double leftInset; // @synthesize leftInset=_leftInset;
-@property(nonatomic) double rightInset; // @synthesize rightInset=_rightInset;
-@property(readonly) Class superclass;
 @property(nonatomic) double topInset; // @synthesize topInset=_topInset;
 
 @end

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSVBAuditToken, NSWindow;
-
 @interface UnknownClass (NSServiceViewController)
 + (id);
 + (void);
@@ -25,16 +23,16 @@
 - (void);
 - (void);
 - (void);
+- (void) ;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (struct CGSRegionObject *);
-- (id);
+- (id)A;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -46,11 +44,11 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)a;
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (void);
@@ -65,7 +63,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,13 +73,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 
 // Remaining properties
 @property _Bool viewBridgeBecomingChild;
-@property(retain) NSVBAuditToken *viewBridgeHostApp;
-@property unsigned int viewBridgeSheetParent;
-@property(readonly) NSWindow *viewBridgeSheetParentWindow;
 @end
 

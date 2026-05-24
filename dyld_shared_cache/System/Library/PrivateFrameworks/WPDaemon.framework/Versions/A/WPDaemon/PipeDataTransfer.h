@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData, NSUUID;
+@class NSUUID;
 
 @interface PipeDataTransfer
 {
     unsigned char _txSeqNum;
-    unsigned char _rxSeqNum;
-    _Bool _rxFirstPacket;
-    _Bool _rxWaitForMoreData;
-    unsigned short _txTotalLenToSend;
-    unsigned short _rxTotalLenToReceive;
-    unsigned short _rxCurrentDataSize;
-    NSUUID *_peerUUID;
-    NSData *_txTotalDataToSend;
-    NSData *_txData;
-    unsigned long long _txDataLeftToSend;
-    NSData *_rxTotalDataToReceive;
-    NSData *_rxData;
-    NSMutableData *_rxCurrentReceivedData;
-    NSMutableData *_rxTotalDataWithLen;
 }
 
 - (unsigned short);
@@ -46,7 +32,7 @@
 - (id);
 - (id);
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned short);
 - (void);
@@ -61,24 +47,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)u;
 
 // Remaining properties
 @property(retain) NSUUID *peerUUID; // @synthesize peerUUID=_peerUUID;
-@property unsigned short rxCurrentDataSize; // @synthesize rxCurrentDataSize=_rxCurrentDataSize;
-@property(retain) NSMutableData *rxCurrentReceivedData; // @synthesize rxCurrentReceivedData=_rxCurrentReceivedData;
-@property(retain) NSData *rxData; // @synthesize rxData=_rxData;
-@property _Bool rxFirstPacket; // @synthesize rxFirstPacket=_rxFirstPacket;
-@property unsigned char rxSeqNum; // @synthesize rxSeqNum=_rxSeqNum;
-@property(retain) NSData *rxTotalDataToReceive; // @synthesize rxTotalDataToReceive=_rxTotalDataToReceive;
-@property(retain) NSMutableData *rxTotalDataWithLen; // @synthesize rxTotalDataWithLen=_rxTotalDataWithLen;
-@property unsigned short rxTotalLenToReceive; // @synthesize rxTotalLenToReceive=_rxTotalLenToReceive;
-@property _Bool rxWaitForMoreData; // @synthesize rxWaitForMoreData=_rxWaitForMoreData;
-@property(retain) NSData *txData; // @synthesize txData=_txData;
-@property unsigned long long txDataLeftToSend; // @synthesize txDataLeftToSend=_txDataLeftToSend;
-@property unsigned char txSeqNum; // @synthesize txSeqNum=_txSeqNum;
-@property(retain) NSData *txTotalDataToSend; // @synthesize txTotalDataToSend=_txTotalDataToSend;
-@property unsigned short txTotalLenToSend; // @synthesize txTotalLenToSend=_txTotalLenToSend;
 
 @end
 

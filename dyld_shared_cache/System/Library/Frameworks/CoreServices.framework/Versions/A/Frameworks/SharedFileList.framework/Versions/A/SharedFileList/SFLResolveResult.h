@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURL;
+@class NSURL;
 
 @interface SFLResolveResult
 {
     _Bool _stale;
-    NSURL *_url;
-    NSError *_error;
 }
 
 + (id);
@@ -19,17 +17,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)"CKCompleteParticipantVettingOperationInfo"16@?<v@?@"NSError">24;
+- (void)ding asset syncs to add;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
-@property _Bool stale; // @synthesize stale=_stale;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

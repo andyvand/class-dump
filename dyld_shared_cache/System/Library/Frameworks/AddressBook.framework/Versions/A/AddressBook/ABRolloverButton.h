@@ -9,7 +9,6 @@
 @interface ABRolloverButton
 {
     NSImage *mRolloverImage;
-    NSImage *mOriginalImage;
 }
 
 - (void);

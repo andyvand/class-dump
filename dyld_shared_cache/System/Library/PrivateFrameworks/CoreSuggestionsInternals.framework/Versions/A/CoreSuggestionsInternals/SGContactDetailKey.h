@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGIdentityKey;
+@class SGIdentityKey;
 
 @interface SGContactDetailKey
 {
     SGIdentityKey *_identityKey;
-    NSString *_label;
-    NSString *_value;
 }
 
 + (id);
@@ -22,22 +20,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)¸ð;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SGIdentityKey *identityKey; // @synthesize identityKey=_identityKey;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <HomeKitDaemon/HMDTokenBasedStructuredReader.h>
 
-@class NSDictionary, NSEnumerator, NSMutableArray;
+@class NSEnumerator;
 
 __attribute__((visibility("hidden")))
 @interface HMDStructuredDataFoundationReader : HMDTokenBasedStructuredReader
 {
     NSEnumerator *_enumerator;
-    NSDictionary *_dictionary;
-    NSMutableArray *_stack;
 }
 
 - (struct _HMDStructuredDataToken);
 - (void);
-- (void)tLanguageGenderCodeValueName;
+- (void)root_siri_language_outputLanguageGenderCodeValueName;
 
 @end
 

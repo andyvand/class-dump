@@ -11,12 +11,12 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id);
++ (void)w;
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)36;
 
 @end
 

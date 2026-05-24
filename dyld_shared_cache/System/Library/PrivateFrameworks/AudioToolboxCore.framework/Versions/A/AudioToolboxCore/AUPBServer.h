@@ -4,70 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSXPCConnection, NSXPCListener;
-@protocol AUPBRegistrarHosting;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AUPBServer
 {
     NSXPCConnection *mRegistrarConnection;
-    id <AUPBRegistrarHosting> mProxyInterface;
-    NSXPCListener *mListener;
-    NSMutableArray *mClientConnections;
-    struct unique_ptr<caulk::mach::unfair_recursive_lock, std::default_delete<caulk::mach::unfair_recursive_lock>> mLock;
-    struct map<unsigned int, RemoteAUHandleInfo, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, RemoteAUHandleInfo>>> mAUHandlesToInfo;
-    struct map<unsigned int, AUProcessingBlock, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, AUProcessingBlock>>> mBlockHandlesToMethods;
-    unsigned int mAUPBRefCounter;
-    struct unique_ptr<TestAUProcessingBlock, std::default_delete<TestAUProcessingBlock>> mTestBlock;
-    unsigned int mAUHandleCntr;
-    int mNotifyToken;
-    _Bool mValidToken;
-    _Bool mConnectionAcknowledged;
 }
 
 + (id)t necessarily byte-aligned;
 + (id);
-- (void);
+- (void)";
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (int);
-- (void);
+- (void)SecAccessCopyOwnerAndACL;
 - (void);
 - (unsigned int);
 - (void);
 - (oneway void);
 - (void);
-- (void);
+- (void);
 - (int);
-- (id);
-- (int);
-- (struct AUProcessingBlock *);
+- (id)h;
+- (int)__objc_imageinfo__DATA_CONST;
+- (struct AUProcessingBlock *)Root node not found in graph:(unsigned int)arg1 %s;
 - (struct OpaqueAUPB *);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)`;
+- (void)kA';
 - (struct AUProcessingBlock *);
 - (id);
 - (unsigned int);
 - (struct OpaqueRemoteAudioUnit *);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)ProN-W6;
 - (void);
 - (void);
 - (id);
 - (void)igned int;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

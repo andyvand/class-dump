@@ -6,47 +6,48 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, CPLRejectedRecords, NSMutableArray, NSString;
+@class CPLPlatformObject, CPLRejectedRecords;
 
 @interface CPLEngineQuarantinedRecords : CPLEngineStorage
 {
     CPLRejectedRecords *_rejectedRecords;
-    unsigned long long _rejectedCount;
-    _Bool _rejectedRecordsHasChanges;
-    CPLRejectedRecords *_newRejectedRecords;
-    unsigned long long _newRejectedCount;
-    NSMutableArray *_quarantineMessages;
 }
 
-+ (unsigned long long);
-- (_Bool);
++ (unsigned long long)c/dfutil/dsmstream.cpp;
+- (_Bool)able to enumerate changes in the list of items that are
+  -- materialized on disk, we track the items from the reconciliation table
+  -- for which the children status (or has been) of interest.
+  --
+  -- In order to allow the change-based enumeration, we use an auto-incremented
+  -- integer and assign its value to items for which the children monitoring
+  -- has changed. This is done in two places:(id)arg1 --  - in reconciliation_table for items that are still live and reconciled
+  --  - in the new tombstone_table for delete items
+  enumeration_anchor INT NULL,
+
+  -- Update the enumeration on an item by keeping track of the last known
+  -- change for that item on disk or on the FP
+  last_change INT NULL
+);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)Úð'©óS©àªçâ;
-- (_Bool)È@ù@ùa;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (Class);
-- (void);
+- (void);
 - (unsigned long long);
 - (void)¡Â!lDùÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

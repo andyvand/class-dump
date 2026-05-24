@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSURL;
+@class NSDecimalNumber;
 
 @interface PKAppleBalanceDirectTopUpConfiguration
 {
     NSDecimalNumber *_minAmount;
-    NSDecimalNumber *_maxAmount;
-    NSDecimalNumber *_maxBalance;
-    NSArray *_denominations;
-    NSURL *_termsURL;
 }
 
 + (_Bool);
-- (id);
+- (id)[;
 - (void);
 - (void);
 - (void);
+- (void)kL!;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?!;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)connectionReadyTimesAtIndex:(id)arg1;
 - (void);
 - (id);
-- (id)Key:(id)arg1;
+- (id)_hunkIndexForKey:(id)arg1;
 - (void)queChipIdentifier:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *denominations; // @synthesize denominations=_denominations;
-@property(copy, nonatomic) NSDecimalNumber *maxAmount; // @synthesize maxAmount=_maxAmount;
-@property(copy, nonatomic) NSDecimalNumber *maxBalance; // @synthesize maxBalance=_maxBalance;
 @property(copy, nonatomic) NSDecimalNumber *minAmount; // @synthesize minAmount=_minAmount;
-@property(copy, nonatomic) NSURL *termsURL; // @synthesize termsURL=_termsURL;
 
 @end
 

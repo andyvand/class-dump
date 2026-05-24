@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSString, _UIVelocityIntegrator;
-@protocol UISpringLoadedInteractionBehaviorDelegate, UISpringLoadedInteractionContext;
+@class CADisplayLink;
+@protocol UISpringLoadedInteractionBehaviorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UISpringLoadedHysteresisBehavior
 {
     id <UISpringLoadedInteractionBehaviorDelegate> delegate;
-    double _beginningVelocityThreshold;
-    double _cancelingVelocityThreshold;
-    CADisplayLink *_displayLink;
-    _UIVelocityIntegrator *_velocityIntegrator;
-    id <UISpringLoadedInteractionContext> _context;
 }
 
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)@a;
 - (void);
 - (_Bool);
 - (id);
@@ -29,28 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)ng;
-- (void)enuConfigurationForItemsAtIndexPaths:(id)arg1 point: /* Error: Ran out of types for this method. */;
-- (void)erredSize;
-- (void)ccessoryView:(id)arg1;
-- (double)Options;
+- (id)_disableEdgeAntialiasing;
+- (void)_dci_collectionView:(id)arg1 contextMenuConfigurationForItemsAtIndexPaths:point: /* Error: Ran out of types for this method. */;
+- (void)__grabberPreferredSize;
+- (void)_accessoryView:(id)arg1;
+- (double)_imageOptions;
 - (void);
 - (id)$ç^;
 
 // Remaining properties
-@property(nonatomic) double beginningVelocityThreshold; // @synthesize beginningVelocityThreshold=_beginningVelocityThreshold;
-@property(nonatomic) double cancelingVelocityThreshold; // @synthesize cancelingVelocityThreshold=_cancelingVelocityThreshold;
-@property(nonatomic) __weak id <UISpringLoadedInteractionContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UISpringLoadedInteractionBehaviorDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIVelocityIntegrator *velocityIntegrator; // @synthesize velocityIntegrator=_velocityIntegrator;
 
 @end
 

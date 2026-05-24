@@ -6,17 +6,16 @@
 
 #import <MPSNDArray/MPSNDArrayUnaryKernel.h>
 
-@class MPSNDArray, MPSNDArrayOffsetIdentity;
+@class MPSNDArrayOffsetIdentity;
 
 @interface MPSNDArrayIdentity : MPSNDArrayUnaryKernel
 {
     MPSNDArrayOffsetIdentity *_offsetKernel;
-    MPSNDArray *_zeroOffsetsArray;
 }
 
-+ (const struct MPSLibraryInfo *);
-- (id);
-- (_Bool);
++ (const struct MPSLibraryInfo *)TW;
+- (id)";
+- (_Bool);
 - (id);
 - (id);
 - (id);

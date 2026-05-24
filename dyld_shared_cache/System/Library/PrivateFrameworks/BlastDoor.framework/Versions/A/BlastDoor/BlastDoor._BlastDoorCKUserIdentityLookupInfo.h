@@ -7,15 +7,6 @@
 @interface BlastDoor._BlastDoorCKUserIdentityLookupInfo
 {
     id emailAddress;
-    id phoneNumber;
-    id userRecordID;
-    id shouldReportMissingIdentity;
-    id encryptedPersonalInfo;
-    id EmailAddressKey;
-    id PhoneNumberKey;
-    id RecordIDKey;
-    id ReportsMissingKey;
-    id EncryptedPersonalInfoKey;
 }
 
 + (void);

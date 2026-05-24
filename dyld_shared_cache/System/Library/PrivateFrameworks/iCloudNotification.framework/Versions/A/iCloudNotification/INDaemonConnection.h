@@ -32,14 +32,14 @@
 - (id);
 - (void);
 - (void);
+- (void)!;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (_Bool)integerValueForPreferenceKey:(id)arg1 defaultValue:(unsigned long long)arg2;
+- (void);
+- (id);
+- (void)B;
 
 @end
 

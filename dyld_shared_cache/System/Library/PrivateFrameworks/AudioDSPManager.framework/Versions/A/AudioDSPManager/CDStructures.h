@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
 #pragma mark Named Structures
-
-struct ArrayRef {
-    struct ObjectRef<const __CFArray *> mObject;
-};
 
 struct AudioCaptureOptions {
     unsigned int mExclaveAudioCapturePoints;
@@ -24,16 +18,6 @@ struct AudioObjectPropertyAddress {
     unsigned int _field1;
     unsigned int _field2;
     unsigned int _field3;
-};
-
-struct ChannelLayout {
-    struct vector<char, std::allocator<char>> mStorage;
-};
-
-struct ConfigurationChangeRequest {
-    _Bool mIsActivation;
-    struct IOContextDescription mIOContextDescription;
-    struct vector<adm::DeviceDescription, std::allocator<adm::DeviceDescription>> mDeviceDescriptions;
 };
 
 struct ConfigurationContext {
@@ -47,81 +31,9 @@ struct ConfigurationContext {
     _Bool mIsIntel;
 };
 
-struct ContentCreationSettings {
-    unsigned int mInputPortType;
-    unsigned int mInputPortSubType;
-    unsigned int mInputSubPortType;
-    unsigned int mOutputPortType;
-    unsigned int mOutputPortSubType;
-    unsigned int mOutputSubPortType;
-    _Bool mIsSharePlayActive;
-    struct ArrayRef mFIRFilterIDs;
-};
-
-struct CustomPropertyManager {
-    struct function<void (CA::PropertyAddress)> mCallback;
-    struct queue mDispatchQueue;
-    struct messenger mMessenger;
-    struct map<unsigned int, std::atomic<float>, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, std::atomic<float>>>> mParameterStorage;
-    struct weak_ptr<adm::graph::DSPNode> mActiveNode;
-};
-
-struct DSPNode;
-
-struct DSPSettings {
-    struct optional<adm::ContentCreationSettings> mContentCreationSettings;
-};
-
-struct DeviceConfiguration;
-
-struct DeviceDescription;
-
-struct GraphBuilder {
-    struct SystemConfiguration mSystemConfig;
-    struct HostDescription mHostDescription;
-};
-
-struct HostDescription {
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> mBundleID;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> mIOContextUID;
-};
-
-struct IOContextDescription {
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> mSemantics;
-    struct optional<CA::StreamDescription> mRequestedInputFormat;
-    struct optional<CA::StreamDescription> mRequestedOutputFormat;
-    struct optional<CA::ChannelLayout> mRequestedOutputChannelLayout;
-    struct optional<unsigned int> mRequestedBufferFrameSize;
-    struct vector<std::string, std::allocator<std::string>> mStreamIDs;
-    struct optional<adm::DSPSettings> mDSPSettings;
-};
-
-struct NodeManager {
-    struct unique_ptr<adm::vp::ProxyFactory, std::default_delete<adm::vp::ProxyFactory>> mVpProxyFactory;
-    struct shared_ptr<adm::graph::DSPNode> mPreviousNode;
-};
-
 struct NotificationSubscriptions {
     _Bool _field1;
     _Bool _field2;
-};
-
-struct ObjectRef<const __CFArray *> {
-    struct __CFArray *mCFObject;
-};
-
-struct ProxyFactory;
-
-struct StreamDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
 };
 
 struct SystemConfiguration {
@@ -134,8 +46,6 @@ struct SystemConfiguration {
     struct AudioCaptureOptions mAudioCaptureOptions;
     _Bool mDSPBypass;
 };
-
-struct __shared_weak_count;
 
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     struct {
@@ -155,95 +65,6 @@ struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     } ;
 };
 
-struct function<void (CA::PropertyAddress)> {
-    struct __value_func<void (CA::PropertyAddress)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct map<unsigned int, std::atomic<float>, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, std::atomic<float>>>> {
-    struct __tree<std::__value_type<unsigned int, std::atomic<float>>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, std::atomic<float>>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, std::atomic<float>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct messenger {
-    struct shared_ptr<caulk::concurrent::details::messenger_servicer> mServicer;
-};
-
-struct messenger_servicer;
-
-struct object {
-    NSObject *fObj;
-};
-
-struct optional<CA::ChannelLayout> {
-    union {
-        char __null_state_;
-        struct ChannelLayout __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<CA::StreamDescription> {
-    union {
-        char __null_state_;
-        struct StreamDescription __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<adm::ConfigurationChangeRequest> {
-    union {
-        char __null_state_;
-        struct ConfigurationChangeRequest __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<adm::ContentCreationSettings> {
-    union {
-        char __null_state_;
-        struct ContentCreationSettings __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<adm::CustomPropertyManager> {
-    union {
-        char __null_state_;
-        struct CustomPropertyManager __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<adm::DSPSettings> {
-    union {
-        char __null_state_;
-        struct DSPSettings __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<adm::graph::GraphBuilder> {
-    union {
-        char __null_state_;
-        struct GraphBuilder __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<adm::graph::NodeManager> {
-    union {
-        char __null_state_;
-        struct NodeManager __val_;
-    } ;
-    _Bool __engaged_;
-};
-
 struct optional<int> {
     union {
         char __null_state_;
@@ -260,14 +81,6 @@ struct optional<std::string> {
     _Bool __engaged_;
 };
 
-struct optional<std::vector<adm::DeviceConfiguration>> {
-    union {
-        char __null_state_;
-        struct vector<adm::DeviceConfiguration, std::allocator<adm::DeviceConfiguration>> __val_;
-    } ;
-    _Bool __engaged_;
-};
-
 struct optional<unsigned int> {
     union {
         char __null_state_;
@@ -278,34 +91,6 @@ struct optional<unsigned int> {
 
 struct path {
     struct basic_string<char, std::char_traits<char>, std::allocator<char>> __pn_;
-};
-
-struct queue {
-    struct object fObj;
-};
-
-struct set<std::string, std::less<std::string>, std::allocator<std::string>> {
-    struct __tree<std::string, std::less<std::string>, std::allocator<std::string>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct shared_ptr<adm::graph::DSPNode> {
-    struct DSPNode *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<caulk::concurrent::details::messenger_servicer> {
-    struct messenger_servicer *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct unique_ptr<adm::vp::ProxyFactory, std::default_delete<adm::vp::ProxyFactory>> {
-    struct {
-        struct ProxyFactory *__ptr_;
-    } ;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *>*>*>>> {
@@ -332,66 +117,9 @@ struct unordered_map<std::string, std::unordered_map<std::string, adm::DSPGraphB
     } __table_;
 };
 
-struct vector<DSPProcessor *__weak, std::allocator<DSPProcessor *__weak>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
-struct vector<adm::DeviceConfiguration, std::allocator<adm::DeviceConfiguration>> {
-    struct DeviceConfiguration *__begin_;
-    struct DeviceConfiguration *__end_;
-    struct {
-        struct DeviceConfiguration *__cap_;
-    } ;
-};
-
-struct vector<adm::DeviceDescription, std::allocator<adm::DeviceDescription>> {
-    struct DeviceDescription *__begin_;
-    struct DeviceDescription *__end_;
-    struct {
-        struct DeviceDescription *__cap_;
-    } ;
-};
-
-struct vector<char, std::allocator<char>> {
-    char *__begin_;
-    char *__end_;
-    struct {
-        char *__cap_;
-    } ;
-};
-
-struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    struct {
-        void *__cap_;
-    } ;
-};
-
-struct weak_ptr<adm::graph::DSPNode> {
-    struct DSPNode *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
     unsigned long long __size_;
 } CDStruct_a7186859;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
-
-#pragma mark Named Unions
-
-union type {
-    unsigned char __data[24];
-};
 

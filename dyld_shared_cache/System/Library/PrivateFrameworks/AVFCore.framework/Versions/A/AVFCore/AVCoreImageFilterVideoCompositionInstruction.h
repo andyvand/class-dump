@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVCoreImageFilterVideoCompositionInstruction
 {
     CDStruct_e83c9415 _timeRange;
-    NSArray *_requiredSourceTrackIDs;
-    CDUnknownBlockType _handler;
-    struct CGAffineTransform _sourceTrackPreferredTransform;
 }
 
 - (struct CGAffineTransform);
@@ -23,29 +18,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
-- (CDStruct_e83c9415);
+- (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsTweening; // @dynamic containsTweening;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enablePostProcessing; // @dynamic enablePostProcessing;
 @property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int passthroughTrackID; // @dynamic passthroughTrackID;
-@property(readonly, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *requiredSourceTrackIDs; // @synthesize requiredSourceTrackIDs=_requiredSourceTrackIDs;
-@property(nonatomic) struct CGAffineTransform sourceTrackPreferredTransform; // @synthesize sourceTrackPreferredTransform=_sourceTrackPreferredTransform;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 
 @end
 

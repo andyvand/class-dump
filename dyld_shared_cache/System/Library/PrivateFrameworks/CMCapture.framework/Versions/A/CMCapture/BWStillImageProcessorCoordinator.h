@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWStillImageProcessorCoordinator
 {
     NSMutableDictionary *_processorControllersByType;
-    struct os_unfair_lock_s _processorControllersLock;
 }
 
 - (void);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)EBPane;
 - (id);
 
 // Remaining properties

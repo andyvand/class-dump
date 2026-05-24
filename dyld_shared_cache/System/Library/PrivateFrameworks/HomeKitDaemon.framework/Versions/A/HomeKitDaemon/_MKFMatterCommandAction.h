@@ -6,51 +6,27 @@
 
 #import <HomeKitDaemon/_MKFAction.h>
 
-@class MKFMatterCommandActionDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFActionSet, MKFHome;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MKFMatterCommandAction : _MKFAction
 {
 }
 
-+ (id);
++ (id);
 + (Class);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
 @property(retain, nonatomic) NSArray *commands; // @dynamic commands;
-@property(readonly, copy, nonatomic) MKFMatterCommandActionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *enforceExecutionOrder; // @dynamic enforceExecutionOrder;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) NSArray *matterPaths;
-@property(retain, nonatomic) NSSet *matterPaths_; // @dynamic matterPaths_;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

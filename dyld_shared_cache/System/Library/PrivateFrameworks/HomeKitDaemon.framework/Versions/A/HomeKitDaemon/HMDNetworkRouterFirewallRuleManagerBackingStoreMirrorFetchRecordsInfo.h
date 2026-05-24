@@ -6,28 +6,22 @@
 
 #import <HomeKitDaemon/HMDNetworkRouterFirewallRuleManagerBackingStoreFetchHelper.h>
 
-@class CKRecordID, CKRecordZoneID, NSArray, NSMutableSet;
+@class CKRecordZoneID;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorFetchRecordsInfo : HMDNetworkRouterFirewallRuleManagerBackingStoreFetchHelper
 {
     CKRecordZoneID *_zoneID;
-    CKRecordID *_recordID;
-    NSArray *_desiredKeys;
-    NSMutableSet *_records;
 }
 
 - (id);
 - (id);
-- (id)gureMatterAccessoryWithReaderKeyMessage: /* Error: Ran out of types for this method. */;
+- (id)handleHMDHomeConfigureMatterAccessoryWithReaderKeyMessage: /* Error: Ran out of types for this method. */;
 - (id)error:%@ /* Error: Ran out of types for this method. */;
 - (id)ccept because legacy home zone exists for:%@ /* Error: Ran out of types for this method. */;
-- (void)YWAY;
+- (void)ADD_ANYWAY;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(readonly, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly, nonatomic) NSMutableSet *records; // @synthesize records=_records;
 @property(readonly, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end

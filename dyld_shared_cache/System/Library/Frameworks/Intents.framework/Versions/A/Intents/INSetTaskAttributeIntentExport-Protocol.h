@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INContactEventTrigger, INSpatialEventTrigger, INSpeakableString, INTask, INTemporalEventTrigger;
+@class INTask, INTemporalEventTrigger;
 
 @protocol INSetTaskAttributeIntentExport
+- (INTemporalEventTrigger *);
+- (void);
 - (long long)£M;
 
 // Remaining properties
-@property(copy) INContactEventTrigger *contactEventTrigger;
-@property long long priority;
-@property(copy) INSpatialEventTrigger *spatialEventTrigger;
-@property long long status;
 @property(copy) INTask *targetTask;
-@property(copy) INSpeakableString *taskTitle;
-@property(copy) INTemporalEventTrigger *temporalEventTrigger;
 @end
 

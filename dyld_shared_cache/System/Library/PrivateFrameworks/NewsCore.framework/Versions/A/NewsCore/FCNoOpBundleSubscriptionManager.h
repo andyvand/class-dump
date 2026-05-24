@@ -5,14 +5,10 @@
 //
 
 @class FCBundleSubscription;
-@protocol FCEntitlementsOverrideProviderType;
 
 @interface FCNoOpBundleSubscriptionManager
 {
     FCBundleSubscription *cachedSubscription;
-    FCBundleSubscription *validatedCachedSubscription;
-    id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
-    FCBundleSubscription *bundleSubscription;
 }
 
 - (void);
@@ -23,22 +19,19 @@
 - (id);
 - (void);
 - (id);
+- (id)MapsSuggestionsEntryTypeUserPlaceEnabledKey;
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void)(;
+- (void)ctionary:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)rID;
+- (void)_userID;
 - (void)brary/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCTodayFeedConfigOperation.m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FCBundleSubscription *bundleSubscription; // @synthesize bundleSubscription;
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription; // @synthesize cachedSubscription;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider; // @synthesize entitlementsOverrideProvider;
-@property(readonly, nonatomic) FCBundleSubscription *validatedCachedSubscription; // @synthesize validatedCachedSubscription;
 
 @end
 

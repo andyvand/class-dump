@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)setThumbnailLQURL:(struct CGRect)arg1;
 - (_Bool);
 
 @end

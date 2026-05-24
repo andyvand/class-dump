@@ -9,9 +9,9 @@
     id arrowColor;
 }
 
-- (id);
+- (id)A;
 - (void);
-- (id);
+- (id)setSubscriptionType:(struct CGRect)arg1;
 - (void)(ÿÿB=þÿ;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IAPluginManager
 {
     NSMutableDictionary *_plugins;
-    NSMutableDictionary *_cachedDisplayNames;
-    NSMutableDictionary *_cachedImagePaths;
-    NSDictionary *_identifierToPathMapping;
-    _Bool _allLoaded;
 }
 
 + (id);
@@ -28,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
-- (id);
+- (id)7h;
 - (id);
 - (id);
 - (id);
@@ -48,7 +44,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -58,7 +54,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

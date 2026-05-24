@@ -6,12 +6,11 @@
 
 #import <NetworkExtension/NEFilterProvider.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface NEFilterControlProvider : NEFilterProvider
 {
     NSDictionary *_remediationMap;
-    NSDictionary *_URLAppendStringMap;
 }
 
 - (void);
@@ -21,18 +20,10 @@
 - (void);
 - (void);
 - (id);
-- (void)horization: /* Error: Ran out of types for this method. */;
+- (void)setAuthorization: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSDictionary *URLAppendStringMap; // @synthesize URLAppendStringMap=_URLAppendStringMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSDictionary *remediationMap; // @synthesize remediationMap=_remediationMap;
-@property(readonly) Class superclass;
 
 @end
 

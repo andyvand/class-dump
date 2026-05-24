@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString, NSUUID, SFAutoUnlockManager;
-@protocol OS_dispatch_queue, SFAuthenticationManagerDelegate;
+@class SFAutoUnlockManager;
 
 @interface SFAuthenticationManager
 {
     int _hasEnabledTypesToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <SFAuthenticationManagerDelegate> _delegate;
-    SFAutoUnlockManager *_autoUnlockManager;
-    NSSet *_cachedEnabledTypes;
-    NSUUID *_latestAuthenticationStateChangeObserverIdentifier;
 }
 
 - (id);
@@ -37,58 +31,46 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)@;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)�;
+- (id);
 - (void);
-- (void);
+- (void)work/Versions/A/CrashReporterSupport;
 - (id);
 - (id);
 - (void);
 - (void)CGImage=};
 - (id);
-- (void)6;
+- (void)base6;
 - (void)resumeContinuation;
 - (_Bool)@);
 - (void)ÀÀ;
 
 // Remaining properties
 @property(readonly, nonatomic) SFAutoUnlockManager *autoUnlockManager; // @synthesize autoUnlockManager=_autoUnlockManager;
-@property(retain, nonatomic) NSSet *cachedEnabledTypes; // @synthesize cachedEnabledTypes=_cachedEnabledTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFAuthenticationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int hasEnabledTypesToken; // @synthesize hasEnabledTypesToken=_hasEnabledTypesToken;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *latestAuthenticationStateChangeObserverIdentifier; // @synthesize latestAuthenticationStateChangeObserverIdentifier=_latestAuthenticationStateChangeObserverIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

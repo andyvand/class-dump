@@ -11,31 +11,22 @@
 @interface DADREMShareResponseDelegate : DADREMXPCPerformerDelegate
 {
     NSString *_calendarID;
-    NSString *_shareID;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)Δ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *calendarID; // @synthesize calendarID=_calendarID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *shareID; // @synthesize shareID=_shareID;
-@property(readonly) Class superclass;
 
 @end
 

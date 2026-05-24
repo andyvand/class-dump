@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
     long long _userInterfaceStyle;
 }
 
-- (id);
+- (id)ate IMDChat for guid %@ chatIdentifier %@ ChatRecord %@;
 - (void);
 - (long long);
 - (double);

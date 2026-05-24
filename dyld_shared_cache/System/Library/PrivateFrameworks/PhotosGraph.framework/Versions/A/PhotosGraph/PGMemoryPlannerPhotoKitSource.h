@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PHPhotoLibrary;
 
 @interface PGMemoryPlannerPhotoKitSource
 {
     PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
-+ (_Bool);
++ (_Bool)eventTapManager:(unsigned long long)arg1 activelyTappedGestureEvent:(unsigned long long)arg2 cgEvent:(unsigned long long *)arg3 withProxy:(unsigned long long *)arg4;
 - (id);
 - (id);
-- (id);
+- (id)XKActionDelegate>";
 - (id);
 - (void)ate Range:%lu - %lu
 
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

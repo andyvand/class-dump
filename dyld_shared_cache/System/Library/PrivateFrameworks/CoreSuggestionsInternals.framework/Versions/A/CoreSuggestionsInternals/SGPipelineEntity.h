@@ -6,38 +6,11 @@
 
 #import <CoreSuggestionsInternals/SGEntity.h>
 
-@class INInteraction, NSArray, NSMutableArray, NSMutableDictionary, NSSet, NSString, SGHarvestQueueMetrics, SGMessage, SGSimpleMailMessage, SGTextMessage, _PASLazyResult;
+@class NSMutableArray, SGMessage;
 
 @interface SGPipelineEntity : SGEntity
 {
     NSMutableArray *_enrichments;
-    NSMutableArray *_externalEnrichments;
-    _Bool _flushExternalEnrichments;
-    NSMutableArray *_taggedCharacterRanges;
-    _Bool _fullDownloadRequested;
-    CDStruct_f96224e3 _inhumanFeatures;
-    struct _opaque_pthread_mutex_t _dissectorLock;
-    _Bool _messageInhumannessChecked;
-    struct _NSRange _dataDetectorsSignatureForTesting;
-    _Bool _overrideDataDetectorSignatureForTesting;
-    _PASLazyResult *_lazySnippetsContent;
-    _Bool _contactInformationExtracted;
-    _Bool _needsSourceVerification;
-    _Bool _pendingVerification;
-    NSArray *_instantMessageAddresses;
-    NSMutableDictionary *_emailToCanonicalEmailCache;
-    NSString *_accountType;
-    NSArray *_invalidatedMessageIdentifiers;
-    NSArray *_authorMatchingContacts;
-    NSSet *_authorMatchingContactsKeys;
-    NSArray *_primaryRecipients;
-    NSArray *_accountHandles;
-    SGMessage *_message;
-    SGSimpleMailMessage *_mailMessage;
-    SGTextMessage *_textMessage;
-    INInteraction *_interaction;
-    SGHarvestQueueMetrics *_harvestMetrics;
-    struct _NSRange _plainTextSigRange;
 }
 
 + (id);
@@ -67,7 +40,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -86,30 +59,30 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)__AUTH_CONST;
+- (void)__const;
+- (void);
+- (void)__AUTH_CONST;
+- (void)__objc_selrefs;
+- (void);
+- (void)__objc_imageinfo__DATA_CONST;
+- (void);
+- (void)__objc_catlist;
+- (void);
+- (void);
+- (void);
+- (void)__objc_methtype;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDStruct_f96224e3 *);
+- (CDStruct_02e9026e *);
 - (void);
 - (void);
 - (id);
@@ -129,32 +102,7 @@
 - (id)EXISTS ix_identityPhones_phone ON identityPhones(phone);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accountHandles; // @synthesize accountHandles=_accountHandles;
-@property(readonly, nonatomic) NSString *accountType; // @synthesize accountType=_accountType;
-@property(readonly, nonatomic) NSArray *addresses;
-@property(retain, nonatomic) NSArray *authorMatchingContacts; // @synthesize authorMatchingContacts=_authorMatchingContacts;
-@property(retain, nonatomic) NSSet *authorMatchingContactsKeys; // @synthesize authorMatchingContactsKeys=_authorMatchingContactsKeys;
-@property(nonatomic) _Bool contactInformationExtracted; // @synthesize contactInformationExtracted=_contactInformationExtracted;
-@property(readonly, nonatomic) NSArray *emailAddresses;
-@property(readonly, nonatomic) NSMutableDictionary *emailToCanonicalEmailCache; // @synthesize emailToCanonicalEmailCache=_emailToCanonicalEmailCache;
-@property(retain, nonatomic) NSArray *enrichments; // @synthesize enrichments=_enrichments;
-@property(retain, nonatomic) NSArray *externalEnrichments; // @synthesize externalEnrichments=_externalEnrichments;
-@property(readonly, getter=hasFullDownloadBeenRequested) _Bool fullDownloadRequested;
-@property(retain, nonatomic) SGHarvestQueueMetrics *harvestMetrics; // @synthesize harvestMetrics=_harvestMetrics;
-@property(readonly, nonatomic) CDStruct_f96224e3 *inhumanFeatures;
-@property(readonly, nonatomic) NSArray *instantMessageAddresses; // @synthesize instantMessageAddresses=_instantMessageAddresses;
-@property(readonly, nonatomic) INInteraction *interaction; // @synthesize interaction=_interaction;
-@property(retain) NSArray *invalidatedMessageIdentifiers; // @synthesize invalidatedMessageIdentifiers=_invalidatedMessageIdentifiers;
-@property(readonly, nonatomic) SGSimpleMailMessage *mailMessage; // @synthesize mailMessage=_mailMessage;
 @property(readonly, nonatomic) SGMessage *message; // @synthesize message=_message;
-@property(nonatomic) _Bool needsSourceVerification; // @synthesize needsSourceVerification=_needsSourceVerification;
-@property(nonatomic) _Bool pendingVerification; // @synthesize pendingVerification=_pendingVerification;
-@property(readonly, nonatomic) NSArray *phoneNumbers;
-@property(nonatomic) struct _NSRange plainTextSigRange; // @synthesize plainTextSigRange=_plainTextSigRange;
-@property(retain, nonatomic) NSArray *primaryRecipients; // @synthesize primaryRecipients=_primaryRecipients;
-@property(readonly, nonatomic) NSString *snippetsContent;
-@property(retain, nonatomic) NSArray *taggedCharacterRanges; // @synthesize taggedCharacterRanges=_taggedCharacterRanges;
-@property(readonly, nonatomic) SGTextMessage *textMessage; // @synthesize textMessage=_textMessage;
 
 @end
 

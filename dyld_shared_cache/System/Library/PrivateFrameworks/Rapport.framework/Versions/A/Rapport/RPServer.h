@@ -4,94 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface RPServer
 {
     _Bool _activateCalled;
-    _Bool _changesPending;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    _Bool _advertiseDeviceName;
-    unsigned int _pairSetupFlags;
-    unsigned int _pairVerifyFlags;
-    int _passwordType;
-    int _passwordTypeActual;
-    unsigned int _internalAuthFlags;
-    NSArray *_allowedMACAddresses;
-    NSArray *_pairSetupACL;
-    NSString *_password;
-    CDUnknownBlockType _authCompletionHandler;
-    CDUnknownBlockType _showPasswordHandler;
-    CDUnknownBlockType _hidePasswordHandler;
-    CDUnknownBlockType _promptForPasswordHandler;
-    NSData *_pairingInfo;
-    CDUnknownBlockType _acceptHandler;
-    unsigned long long _controlFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    NSString *_serviceType;
 }
 
-+ (_Bool);
++ (_Bool)!M;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
+- (void)�7;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)egionInfos;
+- (id)eypath:(id)arg1 %@;
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)HypoTotalCost;
+- (void)(only used for lattice stuff);
+- (id)5 E_5 r\;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)ESE_SE_LSG_2EEENS_24GenericComposeStateTableIS5_NS_15PairFilterStateINSL_INS_18IntegerFilterStateIaEENS_17WeightFilterStateIS4_EEEENSM_IiEEEENS_24DefaultComposeStateTupleIiSS_EENS_21CompactHashStateTableISU_NS_11ComposeHashISU_EEEEEEEE;
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)(2h;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (int);
-- (void);
+- (void);
 - (CDUnknownBlockType);
+- (void)*;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (id);
 - (void);
-- (int);
+- (int)6(;
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (CDUnknownBlockType)@;
+- (void);
+- (void)0;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -99,33 +69,12 @@
 - (void);
 - (void)Eù±Z)Ð1Â0@ù
 × ;
-- (void)yData;
+- (void)_identityKeyData;
 - (void);
 - (id)üÿ>;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType acceptHandler; // @synthesize acceptHandler=_acceptHandler;
-@property(nonatomic) _Bool advertiseDeviceName; // @synthesize advertiseDeviceName=_advertiseDeviceName;
-@property(retain, nonatomic) NSArray *allowedMACAddresses; // @synthesize allowedMACAddresses=_allowedMACAddresses;
-@property(copy, nonatomic) CDUnknownBlockType authCompletionHandler; // @synthesize authCompletionHandler=_authCompletionHandler;
-@property(nonatomic) unsigned long long controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType hidePasswordHandler; // @synthesize hidePasswordHandler=_hidePasswordHandler;
 @property(readonly, nonatomic) unsigned int internalAuthFlags; // @synthesize internalAuthFlags=_internalAuthFlags;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSArray *pairSetupACL; // @synthesize pairSetupACL=_pairSetupACL;
-@property(nonatomic) unsigned int pairSetupFlags; // @synthesize pairSetupFlags=_pairSetupFlags;
-@property(nonatomic) unsigned int pairVerifyFlags; // @synthesize pairVerifyFlags=_pairVerifyFlags;
-@property(copy, nonatomic) NSData *pairingInfo; // @synthesize pairingInfo=_pairingInfo;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) int passwordType; // @synthesize passwordType=_passwordType;
-@property(readonly, nonatomic) int passwordTypeActual; // @synthesize passwordTypeActual=_passwordTypeActual;
-@property(copy, nonatomic) CDUnknownBlockType promptForPasswordHandler; // @synthesize promptForPasswordHandler=_promptForPasswordHandler;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) CDUnknownBlockType showPasswordHandler; // @synthesize showPasswordHandler=_showPasswordHandler;
 
 @end
 

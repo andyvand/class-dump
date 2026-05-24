@@ -6,18 +6,16 @@
 
 #import <XQuery/XQueryExpr.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface XQueryQuantifiedExpr : XQueryExpr
 {
     NSArray *_items;
-    id _satisfies;
-    _Bool _every;
 }
 
 + (id);
-+ (id);
++ (id)m;
 - (id);
 - (id);
 - (id);
@@ -26,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

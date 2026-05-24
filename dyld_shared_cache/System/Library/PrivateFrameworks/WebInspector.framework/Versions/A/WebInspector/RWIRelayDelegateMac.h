@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RWIRelay;
-@protocol OS_xpc_object;
+@class RWIRelay;
 
 @interface RWIRelayDelegateMac
 {
     RWIRelay *_relay;
-    NSObject<OS_xpc_object> *_xpcClientConnectionListener;
 }
 
-- (id);
+- (id)Q;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -25,17 +23,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

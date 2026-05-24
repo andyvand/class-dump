@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSProgressIndicator;
-@protocol CDPUIBottomButtonTrayDelegate;
+@class NSButton;
 
 @interface CDPUIBottomButtonTray
 {
     NSButton *_primaryButton;
-    NSButton *_secondaryButton;
-    NSButton *_tertiaryLinkButton;
-    NSProgressIndicator *_spinner;
-    id <CDPUIBottomButtonTrayDelegate> _delegate;
 }
 
 - (id);

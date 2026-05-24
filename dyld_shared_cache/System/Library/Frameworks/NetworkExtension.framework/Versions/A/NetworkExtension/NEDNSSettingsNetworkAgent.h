@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void)orType: /* Error: Ran out of types for this method. */;
+- (void)routeRuleWithAction:forType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NEDNSSettings *settings; // @synthesize settings=_settings;

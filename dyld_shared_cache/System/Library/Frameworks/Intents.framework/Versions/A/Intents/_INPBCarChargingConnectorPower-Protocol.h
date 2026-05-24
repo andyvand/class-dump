@@ -7,11 +7,11 @@
 @class _INPBPower;
 
 @protocol _INPBCarChargingConnectorPower
+- (void)r;
+- (void)ibility timelines for %@:(_INPBPower *)arg1 %@;
+- (_Bool)k@;
 
 // Remaining properties
 @property(nonatomic) int chargingConnector;
-@property(nonatomic) _Bool hasChargingConnector;
-@property(readonly, nonatomic) _Bool hasMaximumPower;
-@property(retain, nonatomic) _INPBPower *maximumPower;
 @end
 

@@ -6,54 +6,37 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _UIEditMenuDismissalGestureRecognizer, _UIEditMenuPresentation, _UITouchFallbackView;
+@class _UIEditMenuDismissalGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuContainerView : UIView
 {
     _Bool _lastHitTestPassedThrough;
-    _Bool _didDismissFromGesture;
-    _Bool _ignoresPassthroughInPresentationSource;
-    _Bool _dismissesOnViewportResize;
-    _UITouchFallbackView *_touchFallbackView;
-    _UIEditMenuPresentation *_presentation;
-    _UIEditMenuDismissalGestureRecognizer *_dismissalGestureRecognizer;
 }
 
 - (_Bool);
 - (id);
+- (void)ring"16@"NSString"24@"NSString"32;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)conversationManager:(id)arg1 conversation:(_Bool)arg2 screenSharingChangedForParticipant: /* Error: Ran out of types for this method. */;
+- (_Bool)_writeCKRecordsToAttachmentZone:activity:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)_combinedPayloadAttachmentDictionary;
+- (_Bool)_clearTimoutTimerForRelayMessageID:(id)arg1;
+- (id)_clearSpamMapForMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)ary:(id)arg1 inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)data is nil, not writing to disk;
+- (void)mmand.;
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)tate;
-- (void)ButtonVisualProvider;
+- (void)_segmentState;
+- (void)UIButtonVisualProvider;
 - (void)9x´;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _UIEditMenuDismissalGestureRecognizer *dismissalGestureRecognizer; // @synthesize dismissalGestureRecognizer=_dismissalGestureRecognizer;
-@property(nonatomic) _Bool dismissesOnViewportResize; // @synthesize dismissesOnViewportResize=_dismissesOnViewportResize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoresPassthroughInPresentationSource; // @synthesize ignoresPassthroughInPresentationSource=_ignoresPassthroughInPresentationSource;
-@property(readonly, nonatomic) __weak _UIEditMenuPresentation *presentation; // @synthesize presentation=_presentation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UITouchFallbackView *touchFallbackView; // @synthesize touchFallbackView=_touchFallbackView;
 
 @end
 

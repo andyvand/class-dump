@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
-
 @interface EMTResult
 {
     _Bool _lowConfidence;
-    float _confidence;
-    NSLocale *_locale;
-    NSArray *_tokens;
-    NSString *_metaInfo;
-    NSString *_romanization;
-    NSArray *_alternativeSelectionSpans;
-    NSArray *_stableSegments;
-    NSArray *_sourceSpans;
-    NSArray *_targetProjections;
 }
 
 @end

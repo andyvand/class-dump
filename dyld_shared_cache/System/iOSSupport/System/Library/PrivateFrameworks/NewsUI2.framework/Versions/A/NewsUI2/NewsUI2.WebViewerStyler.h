@@ -7,7 +7,6 @@
 @interface NewsUI2.WebViewerStyler
 {
     id baseStyler;
-    id hideBarShadow;
 }
 
 @end

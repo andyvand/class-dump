@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSData, NSString, UIBezierPath;
-
 @interface UIAccessibilityElementDescription
 {
     _Bool _isAccessibleElement;
-    unsigned long long _traits;
-    NSString *_identifier;
-    NSString *_label;
-    NSAttributedString *_attributedLabel;
-    NSString *_value;
-    NSAttributedString *_attributedValue;
-    NSArray *_userInputLabels;
-    NSArray *_attributedUserInputLabels;
-    UIBezierPath *_path;
-    NSArray *_customActionsForRemoteDevice;
-    NSData *_elementRefData;
-    NSArray *_accessibilityActionsForRemoteDevice;
-    struct CGRect _frameInContainerSpace;
-    struct CGRect _frame;
 }
 
 + (id);
@@ -42,22 +26,22 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)_PXStoryMusicCurationProviderRequest;
+- (id)_TtC12PhotosUICoreP33_58B9F4EF00F29D0D76BC40C568575AA414AssociatedData;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)loadCompositionFrom:(id)arg1 formatIdentifier:formatVersion:sidecarData:error: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)away in %{public}s;
 - (id);
-- (id);
-- (id);
+- (id)fileURLWithPath:isDirectory: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
+- (struct CGRect)_webURLResolutionEndpointConnection;
+- (void)SArray",R,C,N,V_topics;
 - (void);
 - (id);
 - (void);
@@ -67,21 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessibilityActionsForRemoteDevice; // @synthesize accessibilityActionsForRemoteDevice=_accessibilityActionsForRemoteDevice;
-@property(retain, nonatomic) NSAttributedString *attributedLabel; // @synthesize attributedLabel=_attributedLabel;
-@property(retain, nonatomic) NSArray *attributedUserInputLabels; // @synthesize attributedUserInputLabels=_attributedUserInputLabels;
-@property(retain, nonatomic) NSAttributedString *attributedValue; // @synthesize attributedValue=_attributedValue;
-@property(retain, nonatomic) NSArray *customActionsForRemoteDevice; // @synthesize customActionsForRemoteDevice=_customActionsForRemoteDevice;
-@property(retain, nonatomic) NSData *elementRefData; // @synthesize elementRefData=_elementRefData;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) struct CGRect frameInContainerSpace; // @synthesize frameInContainerSpace=_frameInContainerSpace;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) _Bool isAccessibleElement; // @synthesize isAccessibleElement=_isAccessibleElement;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) UIBezierPath *path; // @synthesize path=_path;
-@property(nonatomic) unsigned long long traits; // @synthesize traits=_traits;
-@property(retain, nonatomic) NSArray *userInputLabels; // @synthesize userInputLabels=_userInputLabels;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

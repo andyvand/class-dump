@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAAccessory, NSInputStream, NSOutputStream, NSString;
+@class EAAccessory;
 
 @interface EASession
 {
     EAAccessory *_accessory;
-    unsigned int _sessionID;
-    NSString *_protocolString;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    _Bool _openCompleted;
-    int _sock;
-    _Bool _useSocketInterfaceForEASession;
-    NSString *_eaSessionUUIDFromCoreAccessories;
 }
 
 - (void);
@@ -34,13 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)40@48@56@64@72@80;
 
 // Remaining properties
 @property(readonly, nonatomic) EAAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly, nonatomic) NSString *protocolString; // @synthesize protocolString=_protocolString;
 
 @end
 

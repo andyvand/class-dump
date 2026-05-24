@@ -6,53 +6,45 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIButton, UIFont, UIKBTutorialModalDisplayStyling, UIVisualEffectView;
+@class UIKBTutorialModalDisplayStyling;
 
 __attribute__((visibility("hidden")))
 @interface UIKBTutorialModalDisplay : UIView
 {
     long long _appearance;
-    UIView *_containerView;
-    UIView *_mediaView;
-    UIButton *_button;
-    UIKBTutorialModalDisplayStyling *_styling;
-    UIVisualEffectView *_backgroundBlurView;
-    NSLayoutConstraint *_containerViewTopConstraits;
-    NSArray *_adjustableConstraints;
-    NSLayoutConstraint *_widthAdjustmentConstraint;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)};
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)0;
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)validation:(id)arg1 %@;
+- (void)ndle:(id)arg1 %@, bailing;
+- (void)provided;
+- (void)was not from one of our own devices From:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)AccountProcessingPipelineComponent> Failed to find service session for replicated message with source service %@ replicating account %@, but is SOS, permitting on received iMessage account session instead;
+- (double)eding CK update T1 with limit %ld, attemptCount %lu;
+- (double)ping ignored list update;
+- (id);
+- (id)using accountController:%@ /* Error: Ran out of types for this method. */;
+- (id)ID [%ld] for chat:(long long)arg1 %@;
+- (void)onse failed with error %@;
+- (id)eipts;
 - (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (double);
 - (void);
 - (void);
-- (void);
+- (void)IMDPersistentTaskCriticalLimiter;
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)ScheduledMessageBlocklistController;
 - (id);
-- (id);
+- (id)'gt;
 - (void);
 - (id);
 - (long long);
@@ -67,34 +59,14 @@ __attribute__((visibility("hidden")))
 - (_Bool)e; skipping CoreHaptics engine and player creation.;
 - (void)ºþÿ;
 - (void);
-- (struct UIEdgeInsets)a;
+- (struct UIEdgeInsets)PercentDimmedData;
 - (void)f;
 - (void)úÓÄgg;
 - (id);
 - (id)Ð~j;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *adjustableConstraints; // @synthesize adjustableConstraints=_adjustableConstraints;
-@property(nonatomic) long long appearance; // @synthesize appearance=_appearance;
-@property(retain, nonatomic) UIVisualEffectView *backgroundBlurView; // @synthesize backgroundBlurView=_backgroundBlurView;
-@property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(readonly, nonatomic) NSString *buttonTitle;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSLayoutConstraint *containerViewTopConstraits; // @synthesize containerViewTopConstraits=_containerViewTopConstraits;
-@property(readonly, nonatomic) NSString *largeTitle;
-@property(readonly, nonatomic) UIFont *largeTitleFont;
-@property(readonly, nonatomic) NSArray *mediaContents;
-@property(readonly, nonatomic) double mediaLayoutWidthAdjustment;
-@property(retain, nonatomic) UIView *mediaView; // @synthesize mediaView=_mediaView;
-@property(readonly, nonatomic) double pagingInterval;
-@property(readonly, nonatomic) _Bool presentsFullScreen;
 @property(retain, nonatomic) UIKBTutorialModalDisplayStyling *styling; // @synthesize styling=_styling;
-@property(readonly, nonatomic) NSArray *textBodyDescriptions;
-@property(readonly, nonatomic) UIFont *textBodyFont;
-@property(readonly, nonatomic) long long textBodyMaxLines;
-@property(readonly, nonatomic) NSArray *textTitleDescriptions;
-@property(readonly, nonatomic) UIFont *textTitleFont;
-@property(retain, nonatomic) NSLayoutConstraint *widthAdjustmentConstraint; // @synthesize widthAdjustmentConstraint=_widthAdjustmentConstraint;
 
 @end
 

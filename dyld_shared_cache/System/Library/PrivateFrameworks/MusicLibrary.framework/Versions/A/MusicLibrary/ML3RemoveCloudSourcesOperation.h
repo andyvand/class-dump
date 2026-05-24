@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)regroundMonitorIdentifier;
+- (_Bool)payloadClassIDs;
 - (unsigned long long);
 
 @end

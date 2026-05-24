@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUOSStateHandler
 {
     CDUnknownBlockType _handler;
-    unsigned long long _stateHandle;
-    NSString *_title;
 }
 
 - (id);
@@ -21,15 +17,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (struct os_state_data_s *);
-- (id);
+- (id)%{public}@;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) unsigned long long stateHandle; // @synthesize stateHandle=_stateHandle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

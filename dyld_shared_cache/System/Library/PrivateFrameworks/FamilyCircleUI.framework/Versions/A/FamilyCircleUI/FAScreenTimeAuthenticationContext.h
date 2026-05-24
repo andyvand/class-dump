@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAPINContainerViewController, NSString, NSWindow;
-
 @interface FAScreenTimeAuthenticationContext
 {
     _Bool _authenticationCompleted;
-    CDUnknownBlockType _completionHandler;
-    FAPINContainerViewController *_containerViewController;
-    NSWindow *_parentWindow;
 }
 
 - (void);
@@ -32,17 +27,7 @@
 - (void)ä{kdl°m¸nLoXpdqr¼sàtXuLvw°x|«y®z ¯{X±|²}Ð¸~$»PÂ¨ÃÈÅäÆÄÊÐËDÏtÑ¤ÒPÓ\Ô Õ Ö×`× ×,Ø;
 
 // Remaining properties
-@property _Bool authenticationCompleted; // @synthesize authenticationCompleted=_authenticationCompleted;
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) FAPINContainerViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly) Class superclass;
 
 @end
 

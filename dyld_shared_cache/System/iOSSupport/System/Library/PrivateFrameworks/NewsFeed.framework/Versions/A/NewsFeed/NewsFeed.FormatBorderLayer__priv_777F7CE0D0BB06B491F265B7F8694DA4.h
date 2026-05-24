@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)CodingKeys;
 - (id);
 - (id);
 

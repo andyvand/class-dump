@@ -7,10 +7,6 @@
 @interface NewsArticles.ExportToGroceryListCommandHandler
 {
     id recipeFactory;
-    id featureAvailability;
-    id sceneProvider;
-    id recipeURLProvider;
-    id recipeCoordinator;
 }
 
 @end

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, PKContact;
+@class NSString;
 
 @interface PKDisbursementRequest
 {
     _Bool _isDelegatedRequest;
-    NSString *_merchantIdentifier;
-    NSString *_regionCode;
-    NSArray *_supportedNetworks;
-    unsigned long long _merchantCapabilities;
-    NSArray *_summaryItems;
-    NSString *_currencyCode;
-    NSArray *_requiredRecipientContactFields;
-    PKContact *_recipientContact;
-    NSArray *_supportedRegions;
-    NSData *_applicationData;
 }
 
 + (id);
@@ -30,9 +20,9 @@
 - (void);
 - (void);
 - (void);
+- (id)c;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -50,24 +40,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)hasTcpECNSynAckLost;
 - (void);
 - (id);
-- (id)trationFlowState: /* Error: Ran out of types for this method. */;
-- (void)nt;
+- (id)setRegistrationFlowState: /* Error: Ran out of types for this method. */;
+- (void)auto_payment;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *applicationData; // @synthesize applicationData=_applicationData;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) _Bool isDelegatedRequest; // @synthesize isDelegatedRequest=_isDelegatedRequest;
-@property(nonatomic) unsigned long long merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
 @property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(retain, nonatomic) PKContact *recipientContact; // @synthesize recipientContact=_recipientContact;
-@property(copy, nonatomic) NSString *regionCode; // @synthesize regionCode=_regionCode;
-@property(retain, nonatomic) NSArray *requiredRecipientContactFields; // @synthesize requiredRecipientContactFields=_requiredRecipientContactFields;
-@property(copy, nonatomic) NSArray *summaryItems; // @synthesize summaryItems=_summaryItems;
-@property(copy, nonatomic) NSArray *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;
-@property(copy, nonatomic) NSArray *supportedRegions; // @synthesize supportedRegions=_supportedRegions;
 
 @end
 

@@ -9,18 +9,16 @@
 @interface AMPLanguageAwareTextStorage
 {
     NSTextStorage *textStorage;
-    id originalTextStorageDelegate;
-    id languageAwareString;
 }
 
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)actionAvailabilityRequest;
+- (void)differentProvenances;
 - (id);
 - (id);
 - (id);
-- (void)ccessibilityFeatures;
+- (void)_TtC11AppStoreKit21AccessibilityFeatures;
 - (void)ç¡YyÁ¤Y_GG;
 
 // Remaining properties

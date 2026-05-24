@@ -7,9 +7,6 @@
 @interface SwiftUI.SwiftUISharingServicePicker
 {
     id configuration;
-    id innerDelegate;
-    id wrappedDelegate;
-    id prepared;
 }
 
 - (id);

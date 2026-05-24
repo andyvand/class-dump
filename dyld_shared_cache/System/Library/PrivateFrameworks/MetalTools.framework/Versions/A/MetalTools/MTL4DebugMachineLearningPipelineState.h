@@ -13,7 +13,7 @@
     MTL4MachineLearningPipelineDescriptor *_descriptor;
 }
 
-- (id);
+- (id)T;
 - (void);
 - (id);
 

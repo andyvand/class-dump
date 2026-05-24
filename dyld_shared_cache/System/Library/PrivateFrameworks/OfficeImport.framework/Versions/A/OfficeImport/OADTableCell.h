@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADTableCellProperties, OADTextBody;
+@class OADTextBody;
 
 __attribute__((visibility("hidden")))
 @interface OADTableCell
 {
     OADTextBody *mTextBody;
-    OADTableCellProperties *mProperties;
-    int mRowSpan;
-    int mGridSpan;
-    _Bool mHorzMerge;
-    _Bool mVertMerge;
-    int mTopRow;
-    int mLeftColumn;
 }
 
-- (_Bool);
+- (_Bool);
 - (int);
-- (id);
+- (id)	;
 - (int);
 - (void);
 - (void);

@@ -6,20 +6,15 @@
 
 #import <AppStoreDaemon/ASDBaseClient.h>
 
-@class ASDServiceBroker, NSObject;
-@protocol OS_dispatch_queue;
+@class ASDServiceBroker;
 
 @interface ASDSoftwareUpdatesStore : ASDBaseClient
 {
     ASDServiceBroker *_serviceBroker;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    _Bool _hasUpdatesEntitlement;
-    int _storeChangedNotificationToken;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, CNContactStore, NSArray, _PSPredictionContext;
+@class CNAutocompleteFetchRequest;
 
 @interface _CNAutocompletePeopleSuggesterPredictionSearchStrategyTask
 {
     CNAutocompleteFetchRequest *_request;
-    CNContactStore *_contactStore;
-    _PSPredictionContext *_context;
-    NSArray *_psResults;
-    NSArray *_results;
 }
 
 + (id);
-+ (id);
++ (id);
 + (long long);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_;
 - (id);
 - (void);
 

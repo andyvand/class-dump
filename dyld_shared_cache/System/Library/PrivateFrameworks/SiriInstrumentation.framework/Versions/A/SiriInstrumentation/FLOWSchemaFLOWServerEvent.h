@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class FLOWSchemaFLOWEventMetadata, FLOWSchemaFLOWStep, NSData, SISchemaInstrumentationMessage;
+@class FLOWSchemaFLOWEventMetadata, SISchemaInstrumentationMessage;
 
 @interface FLOWSchemaFLOWServerEvent : SISchemaTopLevelUnionType
 {
     FLOWSchemaFLOWEventMetadata *_eventMetadata;
-    FLOWSchemaFLOWStep *_flowStep;
-    _Bool _hasEventMetadata;
-    _Bool _hasFlowStep;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -27,35 +23,29 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)dictionaryWithDictionary:(id)arg1;
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)maPGPrescribedPlanFailed";
-- (id)bled;
+- (id)hasPreciseLocationDisabled;
 - (unsigned long long)peIdentifier;
 - (id)rOccurred;
 - (id)$1;
-- (int)ONFIRM_START;
+- (int)FLOWSTATETYPE_RESOLVE_CONFIRM_START;
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) FLOWSchemaFLOWStep *flowStep; // @synthesize flowStep=_flowStep;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFlowStep; // @synthesize hasFlowStep=_hasFlowStep;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

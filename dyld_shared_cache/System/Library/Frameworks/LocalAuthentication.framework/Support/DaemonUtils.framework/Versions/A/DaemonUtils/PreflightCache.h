@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSHashTable;
+@class NSCache;
 
 @interface PreflightCache
 {
     NSCache *_cache;
-    NSArray *_invalidationSources;
-    NSHashTable *_bypassAssertions;
 }
 
 + (id);
@@ -22,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id){;
 - (void);
 - (void).;
 

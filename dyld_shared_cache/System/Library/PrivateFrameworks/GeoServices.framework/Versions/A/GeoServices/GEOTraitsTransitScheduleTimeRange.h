@@ -9,15 +9,9 @@
 @interface GEOTraitsTransitScheduleTimeRange
 {
     PBUnknownFields *_unknownFields;
-    double _duration;
-    double _startTime;
-    struct {
-        unsigned int has_duration:1;
-        unsigned int has_startTime:1;
-    } _flags;
 }
 
-+ (_Bool)sponseStatus:(id)arg1;
++ (_Bool)setMifResponseStatus:(id)arg1;
 - (void);
 - (id);
 - (double);
@@ -26,17 +20,17 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)layingMonitor:(id)arg1 alarmMonitor:timerMonitor:audioSessionController:supportPhatic:supportHearstVoiceTrigger:supportTriagleModeSessionActivationRetry:supportSessionActivateDelay:supportsDuckingOnSpeakerEvaluator: /* Error: Ran out of types for this method. */;
+- (id)9;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id)as_bestMapsUseStartDate"b1"has_mapsUseLastDate"b1"has_mapsUseStartDate"b1"has_syncFirstTimestamp"b1"has_syncLastTimestamp"b1"has_isSignedInWithDsid"b1"has_isTourist"b1"read_unknownFields"b1"read_homeCountryCode"b1"read_homeMetroRegion"b1"wrote_anyField"b1};
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id)serEmail;
-- (id)pView;
+- (_Bool)valueForKeyPath: /* Error: Ran out of types for this method. */;
+- (id)hasUserEmail;
+- (id)GEOLogMsgStateMapView;
 - (id)once per object;
 - (void)ÿÿ;
 - (void)ðRêqVQ@;
@@ -44,11 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasStartTime;
-@property(nonatomic) double startTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

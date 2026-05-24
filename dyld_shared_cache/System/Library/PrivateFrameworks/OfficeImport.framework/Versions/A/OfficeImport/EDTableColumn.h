@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources, EDString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDTableColumn
 {
     EDResources *mResources;
-    unsigned long long mHeaderRowDxfIndex;
-    unsigned long long mTotalsRowDxfIndex;
-    unsigned long long mDataAreaDxfIndex;
-    EDString *mName;
-    EDString *mUniqueName;
-    EDString *mTotalsRowLabel;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long)캔;
+- (id)@;
+- (unsigned long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)-;
 - (id);
-- (unsigned long long);
+- (id)t for realm, replacing principal & username;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void):(id)arg1;
+- (void)setTableRowPropertiesOverridden:(id)arg1;
 - (void)p;
 
 @end

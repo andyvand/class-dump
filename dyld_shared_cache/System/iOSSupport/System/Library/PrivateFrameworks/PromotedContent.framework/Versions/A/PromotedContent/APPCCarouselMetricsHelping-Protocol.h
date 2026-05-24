@@ -5,5 +5,6 @@
 //
 
 @protocol APPCCarouselMetricsHelping
+- (void);
 @end
 

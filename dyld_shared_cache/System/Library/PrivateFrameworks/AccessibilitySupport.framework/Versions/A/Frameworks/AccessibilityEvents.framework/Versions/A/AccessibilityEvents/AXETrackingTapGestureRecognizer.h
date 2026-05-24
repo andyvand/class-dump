@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSString;
-@protocol AXETimer, AXETrackingTapGestureRecognizerDelegate;
+@class NSArray;
 
 @interface AXETrackingTapGestureRecognizer
 {
     _Bool _ignoreEventsAtEdge;
-    unsigned long long _fingerCount;
-    unsigned long long _tapCount;
-    double _maximumTapDownDeviation;
-    double _maximumTapDownDuration;
-    double _maximumTapInterval;
-    id <AXETrackingTapGestureRecognizerDelegate> _delegate;
-    NSArray *__tapSequenceStartingTouchEvents;
-    NSMutableArray *__mostRecentTapStartTouchEvents;
-    NSDate *__mostRecentTapStartTime;
-    NSDate *__mostRecentTapEndTime;
-    unsigned long long __currentState;
-    unsigned long long __detectedTapCount;
-    id <AXETimer> __singleTapTimeoutTimer;
-    NSArray *__lastTouchingTouches;
 }
 
 - (void);
@@ -39,7 +24,7 @@
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)y	?%@qa;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -51,44 +36,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)?%@qa;
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
+- (void)P;
 - (id);
-- (void);
+- (void) ;
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)setAnalyzerDidCreateTimelapseFragment: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long _currentState; // @synthesize _currentState=__currentState;
-@property(nonatomic) unsigned long long _detectedTapCount; // @synthesize _detectedTapCount=__detectedTapCount;
-@property(retain, nonatomic) NSArray *_lastTouchingTouches; // @synthesize _lastTouchingTouches=__lastTouchingTouches;
-@property(retain, nonatomic) NSDate *_mostRecentTapEndTime; // @synthesize _mostRecentTapEndTime=__mostRecentTapEndTime;
-@property(retain, nonatomic) NSDate *_mostRecentTapStartTime; // @synthesize _mostRecentTapStartTime=__mostRecentTapStartTime;
-@property(retain, nonatomic) NSMutableArray *_mostRecentTapStartTouchEvents; // @synthesize _mostRecentTapStartTouchEvents=__mostRecentTapStartTouchEvents;
-@property(retain, nonatomic) id <AXETimer> _singleTapTimeoutTimer; // @synthesize _singleTapTimeoutTimer=__singleTapTimeoutTimer;
 @property(retain, nonatomic) NSArray *_tapSequenceStartingTouchEvents; // @synthesize _tapSequenceStartingTouchEvents=__tapSequenceStartingTouchEvents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXETrackingTapGestureRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long fingerCount; // @synthesize fingerCount=_fingerCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreEventsAtEdge; // @synthesize ignoreEventsAtEdge=_ignoreEventsAtEdge;
-@property(readonly, nonatomic) double maximumTapDownDeviation; // @synthesize maximumTapDownDeviation=_maximumTapDownDeviation;
-@property(readonly, nonatomic) double maximumTapDownDuration; // @synthesize maximumTapDownDuration=_maximumTapDownDuration;
-@property(readonly, nonatomic) double maximumTapInterval; // @synthesize maximumTapInterval=_maximumTapInterval;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long tapCount; // @synthesize tapCount=_tapCount;
 
 @end
 

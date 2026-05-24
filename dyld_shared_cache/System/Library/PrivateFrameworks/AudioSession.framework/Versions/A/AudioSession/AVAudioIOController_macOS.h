@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSString;
+@class AVAudioSession;
 
 __attribute__((visibility("hidden")))
 @interface AVAudioIOController_macOS
 {
     AVAudioSession *_owningSession;
-    struct unique_ptr<avas::client::IOControllerImpl, std::default_delete<avas::client::IOControllerImpl>> _impl;
-    struct unique_ptr<avas::client::AggregateDeviceFactory, std::default_delete<avas::client::AggregateDeviceFactory>> _aggregateDeviceFactory;
 }
 
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (struct AudioPresentationTimeStamp);
-- (unsigned int);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (_Bool);
-- (struct AVAudioTimeInterval);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
+- (_Bool)Manager",R;
+- (void)NEIPSecSASession;
+- (_Bool)NEIPC;
+- (void)NEIKEv2IKEAuthPacket;
+- (struct AudioPresentationTimeStamp)NEIKEv2TrafficSelectorPayload;
+- (unsigned int)NEIKEv2SecurityContextChaCha20Poly1305;
+- (_Bool)NEIKEv2IPv4NetmaskAttribute;
+- (unsigned int)NEIKEv2TrafficSelector;
+- (id)NEHotspotHelperCommand;
+- (_Bool)NEEthernetTunnelNetworkSettings;
+- (struct AVAudioTimeInterval)NEFilterControlExtensionProviderHostProtocol;
+- (void)NEFilterControlExtensionProviderProtocol;
+- (long long)NEExtensionDNSProxyProviderProtocol;
+- (id)NEAgentDNSProxyExtension;
+- (_Bool)dObject;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -43,16 +41,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct AVAudioIOPeriod IOPeriod;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct AVAudioTimeInterval dynamicLatency;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsDynamicLatency;
 
 @end
 

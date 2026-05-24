@@ -6,45 +6,11 @@
 
 #import <ScreenReaderCore/SCRCUserDefaultsBase.h>
 
-@class NSDictionary, NSLock, NSMutableDictionary, NSSet, NSString, SCRCTargetSelectorTimer, SCRCThreadKey, SCRCUserDefaultsRegistry;
-@protocol SCRCUserDefaultsDiskArbDelegate;
+@class NSLock;
 
 @interface SCRCUserDefaults : SCRCUserDefaultsBase
 {
     NSLock *_lock;
-    long long _familyMember;
-    NSString *_familyMemberString;
-    _Bool _useMainThreadForCallbacks;
-    SCRCTargetSelectorTimer *_syncTimer;
-    SCRCTargetSelectorTimer *_syncTimerLocal;
-    SCRCTargetSelectorTimer *_syncTimerCommon;
-    SCRCTargetSelectorTimer *_syncTimerCustom;
-    NSString *_domain;
-    NSString *_pdomain;
-    _Bool _disableValueForKey;
-    id _commonProxy;
-    id _localProxy;
-    struct __CFDictionary *_customProxies;
-    NSSet *_profileSet;
-    struct __DASession *_daSession;
-    struct __DASession *_daApprovalSession;
-    NSMutableDictionary *_portableDevices;
-    NSDictionary *_currentPortablePreferences;
-    NSDictionary *_detectedPortablePreferences;
-    double _lastPortablePrefFoundTime;
-    NSString *_currentPortableIdentifier;
-    id <SCRCUserDefaultsDiskArbDelegate> _diskArbDelegate;
-    _Bool _remote;
-    _Bool _remoteHasChanges;
-    _Bool _localPrefsTouched;
-    NSString *_preferencesFolder;
-    SCRCThreadKey *_threadKey;
-    SCRCUserDefaultsRegistry *_registry;
-    unsigned char _cursorTrackingEnabledCommand;
-    _Bool _trackingForcedForScreenSharing;
-    _Bool _speakItemUnderMouseForcedForScreenSharing;
-    _Bool _soundsTemporarilyMuted;
-    id _outputManager;
 }
 
 @end

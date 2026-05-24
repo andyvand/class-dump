@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHRaiseToSpeakTriggered : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)pported for cancel;
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void)dsa_lib.c;
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

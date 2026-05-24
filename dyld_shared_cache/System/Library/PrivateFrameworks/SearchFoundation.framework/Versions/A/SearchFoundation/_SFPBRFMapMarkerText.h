@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng, _SFPBRFTextProperty;
+@class _SFPBLatLng;
 
 @interface _SFPBRFMapMarkerText
 {
     _SFPBLatLng *_coordinate;
-    NSString *_title;
-    _SFPBRFTextProperty *_monogram;
 }
 
 - (id);
@@ -18,30 +16,20 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ߚ;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (id)queryForRepresentativeAssetsInMemory:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id):"%@", completion suggestion texts:"%@", query suggestion components:"%@". /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)0:8@16@24@32@40@48i56 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBLatLng *coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *monogram; // @synthesize monogram=_monogram;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

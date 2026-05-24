@@ -6,32 +6,26 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceCreatedZoneRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSString *_containerName;
-    NSString *_zoneName;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)hhx;
 - (id)uirements response from shared state;
 - (id);
-- (void)pressEnabled;
+- (void)isExpressEnabled;
 - (void);
 - (id)´6;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

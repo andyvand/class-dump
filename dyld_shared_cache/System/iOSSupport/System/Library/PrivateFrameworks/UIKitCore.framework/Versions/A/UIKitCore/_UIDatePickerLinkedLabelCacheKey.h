@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerLinkedLabelCacheKey
 {
     NSString *_text;
-    UIFont *_font;
-    double _height;
-    unsigned long long _hash;
 }
 
 + (id);
-- (id);
+- (id)accountAssociatedWithHandle:(id)arg1;
 - (unsigned long long);
-- (_Bool)ppearanceTransition;
+- (_Bool)shouldFlipFromAndToViewsForDisappearanceTransition;
 - (void);
 
 @end

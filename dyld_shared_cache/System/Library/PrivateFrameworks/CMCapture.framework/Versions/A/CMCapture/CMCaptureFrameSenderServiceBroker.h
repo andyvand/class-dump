@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface CMCaptureFrameSenderServiceBroker
 {
     CDUnknownBlockType _connectionBrokenHandler;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_frameSenderServiceBrokerConnection;
-    _Bool _connectionIsValid;
 }
 
 - (int);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)affectedObjects;
 
 @end
 

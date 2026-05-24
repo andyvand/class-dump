@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOPDAllCollectionsViewResultFilterTypeAddress, GEOPDEntity, NSString;
+@class GEOMapItemIdentifier, GEOPDAllCollectionsViewResultFilterTypeAddress;
 
 @interface GEOAllCollectionsViewResultFilterTypeAddress
 {
     GEOPDAllCollectionsViewResultFilterTypeAddress *_filterAddressIdentifier;
-    GEOPDEntity *_placeEntity;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)@X:Î6 /* Error: Ran out of types for this method. */;
 - (id)B88;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPDAllCollectionsViewResultFilterTypeAddress *addressIdentifier;
-@property(readonly, nonatomic) NSString *displayString;
 @property(readonly, nonatomic) GEOMapItemIdentifier *filterAddressIdentifier;
 
 @end

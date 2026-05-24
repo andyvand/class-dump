@@ -15,7 +15,6 @@
 - (id);
 
 // Remaining properties
-@property long long source; // @dynamic source;
 @property(copy) NSUUID *unassociatedFaceCropUUID; // @dynamic unassociatedFaceCropUUID;
 
 @end

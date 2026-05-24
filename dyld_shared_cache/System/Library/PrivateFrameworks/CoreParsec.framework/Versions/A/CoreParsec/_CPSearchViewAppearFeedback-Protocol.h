@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @protocol _CPSearchViewAppearFeedback
-- (void)lizers;
+- (void)V;
+- (_Bool);
+- (void), fromBlockList=NO;
+- (void)PARInitializers;
 
 // Remaining properties
-@property(nonatomic) _Bool isOnLockScreen;
-@property(nonatomic) _Bool isOverApp;
-@property(nonatomic) _Bool isUsingLoweredSearchBar;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *originatingApp;
-@property(copy, nonatomic) NSString *preexistingInput;
-@property(nonatomic) _Bool readerTextAvailable;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int viewAppearEvent;
 @end
 

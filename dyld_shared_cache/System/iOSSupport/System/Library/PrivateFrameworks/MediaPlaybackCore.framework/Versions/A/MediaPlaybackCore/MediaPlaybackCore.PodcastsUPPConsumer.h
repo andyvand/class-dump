@@ -7,15 +7,12 @@
 @interface MediaPlaybackCore.PodcastsUPPConsumer
 {
     id subscription;
-    id engineID;
-    id playbackPositionController;
-    id playbackPositionHandler;
 }
 
 + (unsigned int);
 + (void);
 + (id);
-- (void);
+- (void)__TEXT;
 - (void);
 - (id);
 - (id);

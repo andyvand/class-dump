@@ -4,105 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncStatistics, NSArray, NSDate, NSString;
-
 @interface IMCloudKitSyncState
 {
     unsigned long long syncControllerSyncState;
-    long long syncControllerSyncType;
-    long long syncControllerRecordType;
-    _Bool hasExited;
-    long long changingEnabledState;
-    _Bool isDisablingDevices;
-    _Bool hasAvailableRecordsToDownload;
-    void errors;
-    long long accountStatus;
-    unsigned long long syncType;
-    unsigned long long syncStatus;
-    unsigned long long syncJobState;
-    IMCloudKitSyncStatistics *statistics;
-    double lastDownloadProgress;
-    id _exitDate;
-    id _lastFullSyncDate;
-    id _lastFullPartialSyncDate;
-    id _lastSyncDate;
-    id _isBetweenInitialAndFullSync;
-    id accountEnabled;
-    id syncState;
 }
 
+- (_Bool)stop;
+- (id)video configuration:error[%s] /* Error: Ran out of types for this method. */;
+- (unsigned long long)eam [%s] %s:%d Invalid video configuration:error[%s] /* Error: Ran out of types for this method. */;
+- (id)VCVideoStream-dealloc (%p);
+- (long long)loc;
+- (unsigned long long)s:%d %@(%p)  /* Error: Ran out of types for this method. */;
+- (_Bool)succeed[%d];
+- (_Bool)@] received callback for video enabled[%d] did succeed[%d];
+- (id)ed.;
+- (id)TYDevice [%s] %s:%d %@ has not started. /* Error: Ran out of types for this method. */;
+- (double)ualTTYDevice [%s] %s:%d @:@ AVCVirtualTTYDevice-sendCharacter (%p) error=%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (_Bool)rstLinkIndex=%d, arrivalTime=%f;
+- (_Bool)to [newOwrd=%f,newBWE=%d,ssrc=0x%x], worstLinkIndex=%d, arrivalTime=%f;
+- (_Bool)ferSize=%u %s=%u;
+- (_Bool)e value;
+- (id)me Pool;
+- (_Bool)2f%% (rec:%u exp:%u, loss:%u) receiver(rtp=%u, bb=%u, unk=%u, dup=%u, drop=%u) jb(enc=%u, drop=%u) /* Error: Ran out of types for this method. */;
+- (_Bool)oReceiver [%s] %s:%d AudioReceiver[%p] Unregistered statisticsCollector[%p] with index=%d /* Error: Ran out of types for this method. */;
+- (id)eWifi = %d;
+- (long long)ssageReceived:%@ notify client for sessionID '%d' /* Error: Ran out of types for this method. */;
+- (_Bool)t remote participant '%@' sends encrypted messages. Dropping encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (_Bool)sageReceived:message encryption is disabled locally via user defaults but remote participant '%@' sends encrypted messages. Dropping encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!) /* Error: Ran out of types for this method. */;
+- (_Bool)mReport=%d;
+- (_Bool)odelUID=%@ manufacturerName=%@ modelName=%@ configurationBundleID=%@ samplingRate=%f;
 - (unsigned long long);
 - (id);
-- (long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (void)ä!6;
-- (unsigned long long)cordExporterStateC;
+- (unsigned long long)So29IMDMessageRecordExporterStateC;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool accountNeedsRepair;
-@property(nonatomic, readonly) long long accountStatus; // @synthesize accountStatus;
-@property(nonatomic, readonly) _Bool canChangeEnabledSetting;
-@property(nonatomic, readonly) _Bool canEnableSyncing;
-@property(nonatomic, readonly) _Bool canStartSyncing;
-@property(nonatomic, readonly) long long changingEnabledState; // @synthesize changingEnabledState;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *errors;
-@property(nonatomic, readonly) NSDate *exitDate;
-@property(nonatomic, readonly) _Bool hasAvailableRecordsToDownload; // @synthesize hasAvailableRecordsToDownload;
-@property(nonatomic, readonly) _Bool hasExited; // @synthesize hasExited;
-@property(nonatomic, readonly) _Bool isBetweenInitialAndFullSync;
-@property(nonatomic, readonly) _Bool isDisablingDevices; // @synthesize isDisablingDevices;
-@property(nonatomic, readonly) _Bool isSyncEnabledForDisplayOnly;
-@property(nonatomic, readonly) _Bool isSyncing;
-@property(nonatomic, readonly) _Bool isSyncingAvailable;
-@property(nonatomic, readonly) _Bool isSyncingEnabled;
-@property(nonatomic, readonly) _Bool isSyncingPaused;
-@property(nonatomic, readonly) double lastDownloadProgress; // @synthesize lastDownloadProgress;
-@property(nonatomic, readonly) NSDate *lastFullPartialSyncDate;
-@property(nonatomic, readonly) NSDate *lastFullSyncDate;
-@property(nonatomic, readonly) NSDate *lastSyncDate;
-@property(nonatomic, readonly) IMCloudKitSyncStatistics *statistics; // @synthesize statistics;
-@property(nonatomic, readonly) long long syncControllerRecordType; // @synthesize syncControllerRecordType;
 @property(nonatomic, readonly) unsigned long long syncControllerSyncState; // @synthesize syncControllerSyncState;
-@property(nonatomic, readonly) long long syncControllerSyncType; // @synthesize syncControllerSyncType;
-@property(nonatomic, readonly) unsigned long long syncJobState; // @synthesize syncJobState;
-@property(nonatomic, readonly) unsigned long long syncStatus; // @synthesize syncStatus;
-@property(nonatomic, readonly) NSString *syncStatusText;
-@property(nonatomic, readonly) unsigned long long syncType; // @synthesize syncType;
-@property(nonatomic, readonly) _Bool syncingFailed;
 
 @end
 

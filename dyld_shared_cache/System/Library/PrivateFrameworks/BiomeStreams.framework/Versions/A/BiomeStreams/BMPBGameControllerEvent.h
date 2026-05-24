@@ -7,11 +7,6 @@
 @interface BMPBGameControllerEvent
 {
     int _numberOfControllersConnected;
-    _Bool _isControllerConnected;
-    struct {
-        unsigned int numberOfControllersConnected:1;
-        unsigned int isControllerConnected:1;
-    } _has;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)infoCollectionFromSidecarItems:(id)arg1 imageCache:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -34,9 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsControllerConnected;
-@property(nonatomic) _Bool hasNumberOfControllersConnected;
-@property(nonatomic) _Bool isControllerConnected; // @synthesize isControllerConnected=_isControllerConnected;
-@property(nonatomic) int numberOfControllersConnected; // @synthesize numberOfControllersConnected=_numberOfControllersConnected;
 
 @end
 

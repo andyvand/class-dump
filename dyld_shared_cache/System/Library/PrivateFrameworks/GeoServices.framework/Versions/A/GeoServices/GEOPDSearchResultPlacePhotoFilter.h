@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchResultPlacePhotoFilter
 {
     PBUnknownFields *_unknownFields;
-    struct GEOPDPhotoSizeFilterValue *_photoSizeFilters;
-    unsigned long long _photoSizeFiltersCount;
-    unsigned long long _photoSizeFiltersSpace;
 }
 
 - (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)s_walkingLimitMeters"b1"has_directZilchByLaneFlowlines"b1"has_enableExperimentalMode"b1"has_includeContingencyRoutes"b1"has_includeHistoricTravelTime"b1"has_includeLaneGuidance"b1"has_includeManeuverIcons"b1"has_includePhonetics"b1"has_includeTrafficAlongRoute"b1"has_includeTrafficIncidents"b1"has_includeZilchPoints"b1"has_includeCellularCoverage"b1"has_includeCrossLanguagePhonetics"b1"has_includeLaneWidths"b1"has_includeRouteSegmentInfo"b1"has_includeRoutingPathLeg"b1"has_useMetricThreshold"b1"read_unknownFields"b1"read_additionalTransportTypes"b1"read_initialPromptTypes"b1"read_uiContexts"b1"read_automobileOptions"b1"read_cyclingOptions"b1"read_destinationInfo"b1"read_phoneticLocaleIdentifier"b1"read_transitOptions"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)ap;
+- (id)_rap;
 - (id)Ì<ÍÎDÎ;
 - (void);
 

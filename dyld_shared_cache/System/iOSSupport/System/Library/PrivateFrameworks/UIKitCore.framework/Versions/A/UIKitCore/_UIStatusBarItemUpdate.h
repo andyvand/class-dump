@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _UIStatusBarData, _UIStatusBarStyleAttributes;
-
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarItemUpdate
 {
     _Bool _enabilityChanged;
-    _Bool _enabled;
-    _Bool _dataChanged;
-    _Bool _styleAttributesChanged;
-    _UIStatusBarData *_data;
-    _UIStatusBarStyleAttributes *_styleAttributes;
-    NSDictionary *_placementInfo;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)ityAssociationParameters;
+- (_Bool);
+- (id)@;
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
-- (void);
+- (void)nCollectionDataSource identifiersForItemAtIndexPath:(_Bool)arg1 ] (originalObject has no identifiers);
 - (_Bool)Ôá°!<Gù[Ð1Â0@ù
 × ;
 - (void)!à@ùÑ\°1Â0@ù
@@ -33,19 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)std::allocator<_UIVelocityIntegratorDataSample *>>="__first_"^^{_UIVelocityIntegratorDataSample}"__begin_"^^{_UIVelocityIntegratorDataSample}"__end_"^^{_UIVelocityIntegratorDataSample}""{?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
 - (id):8@"NSToolbar"16 /* Error: Ran out of types for this method. */;
-- (void)omSignature;
-- (id)Presentations;
+- (void)_responseHasCustomSignature;
+- (id)_alwaysAllowPopoverPresentations;
 - (_Bool)B;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UIStatusBarData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool dataChanged; // @synthesize dataChanged=_dataChanged;
 @property(nonatomic) _Bool enabilityChanged; // @synthesize enabilityChanged=_enabilityChanged;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSDictionary *placementInfo; // @synthesize placementInfo=_placementInfo;
-@property(retain, nonatomic) _UIStatusBarStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
-@property(nonatomic) _Bool styleAttributesChanged; // @synthesize styleAttributesChanged=_styleAttributesChanged;
 
 @end
 

@@ -9,6 +9,12 @@
 @protocol IDSServiceDelegate
 
 @optional
+- (void)l=;
+- (void)ijh8	;
+- (void)initWithBundleIdentifier:(IDSService *)arg1;
+- (void)_provisioningExtension;
+- (void);
+- (void)�l;
 - (void)ä8;
 - (void)vice:(IDSService *)arg1 listenerID:(IDSAccount *)arg2 queue:(NSString *)arg3 completionBlock:(_Bool)arg4 ];
 @end

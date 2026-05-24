@@ -10,8 +10,6 @@
 @interface EDListUnsubscribeHandler
 {
     EMListUnsubscribeDetector *_detector;
-    struct os_unfair_lock_s _detectorLock;
-    id <EFScheduler> _scheduler;
 }
 
 + (id)0@ù
@@ -21,12 +19,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Siri_Nl_Core_Protocol_UserWantedToPause;
 - (id);
 - (void)essages SET reindex_type = %lld WHERE transaction_id != %lld AND message_id IN (%@);
 
 // Remaining properties
-@property(readonly, nonatomic) EMListUnsubscribeDetector *detector;
 @property(readonly, nonatomic) id <EFScheduler> scheduler; // @synthesize scheduler=_scheduler;
 
 @end

@@ -7,9 +7,6 @@
 @interface ChatKit.ImagePlaygroundSuggestionStore
 {
     id persistenceDuration;
-    id fileSizeLimit;
-    id fileURL;
-    id store;
 }
 
 @end

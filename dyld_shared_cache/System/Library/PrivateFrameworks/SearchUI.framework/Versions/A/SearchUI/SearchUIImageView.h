@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, SFImage, SearchUIButton;
+@class SFImage;
 
 @interface SearchUIImageView
 {
     SFImage *_currentImage;
-    SearchUIButton *_overlayPlayButton;
-    SFImage *_fallbackImage;
-    NSView *_tintView;
 }
 
 + (id);
@@ -27,10 +24,10 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)re (prediction for language %@ not supported?);
+- (void)el with language %@;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setPropertyAsDate:(id)arg1 value: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -40,17 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SFImage *currentImage; // @synthesize currentImage=_currentImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SFImage *fallbackImage; // @synthesize fallbackImage=_fallbackImage;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSView *highlightReferenceView;
-@property(retain, nonatomic) SearchUIButton *overlayPlayButton; // @synthesize overlayPlayButton=_overlayPlayButton;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSView *tintView; // @synthesize tintView=_tintView;
 
 @end
 

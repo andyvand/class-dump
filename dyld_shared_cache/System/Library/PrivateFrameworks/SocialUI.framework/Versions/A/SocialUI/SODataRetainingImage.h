@@ -9,7 +9,6 @@
 @interface SODataRetainingImage
 {
     NSString *_fileExtension;
-    NSData *_originalData;
 }
 
 + (_Bool);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (id)MenuForRepresentedObject:(id)arg1;
+- (id)setShowingMenuForRepresentedObject:(id)arg1;
 
 // Remaining properties
 @property(retain) NSData *originalData; // @synthesize originalData=_originalData;

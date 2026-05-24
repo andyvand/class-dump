@@ -7,23 +7,14 @@
 @interface GEOURLCenterSpan
 {
     double _latitudeDelta;
-    double _latitude;
-    double _longitudeDelta;
-    double _longitude;
-    struct {
-        unsigned int has_latitudeDelta:1;
-        unsigned int has_latitude:1;
-        unsigned int has_longitudeDelta:1;
-        unsigned int has_longitude:1;
-    } _flags;
 }
 
-+ (_Bool)kResults:(id)arg1;
++ (_Bool)setNetworkResults:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -31,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)osdAnalyzer:(id)arg1 didUpdateVisualSpeechProbability:from:to: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -42,7 +33,7 @@
 - (void)yCharge"b1"has_remainingBatteryPercentage"b1};
 - (id)allowContactBackAtEmailAddress:traits: /* Error: Ran out of types for this method. */;
 - (id)GEOLogMsgEventMarcoLiteUsage",&,N;
-- (id)_length;
+- (id)min_length;
 - (void)eRequest">8;
 - (double)ly be called once per object;
 - (_Bool);
@@ -52,13 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLatitudeDelta;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) _Bool hasLongitudeDelta;
-@property(nonatomic) double latitude;
-@property(nonatomic) double latitudeDelta;
-@property(nonatomic) double longitude;
-@property(nonatomic) double longitudeDelta;
 
 @end
 

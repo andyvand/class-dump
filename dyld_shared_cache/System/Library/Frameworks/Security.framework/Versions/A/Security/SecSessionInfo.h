@@ -9,10 +9,6 @@
 @interface SecSessionInfo
 {
     unsigned int _ticket_age_add;
-    NSData *_psk;
-    NSData *_psk_id;
-    unsigned long long _ticket_creation_time;
-    unsigned long long _ticket_lifetime;
 }
 
 - (unsigned long long);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(retain) NSData *psk; // @synthesize psk=_psk;
-@property(retain) NSData *psk_id; // @synthesize psk_id=_psk_id;
-@property unsigned int ticket_age_add; // @synthesize ticket_age_add=_ticket_age_add;
-@property unsigned long long ticket_creation_time; // @synthesize ticket_creation_time=_ticket_creation_time;
-@property unsigned long long ticket_lifetime; // @synthesize ticket_lifetime=_ticket_lifetime;
 
 @end
 

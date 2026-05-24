@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXNavigationListItem.h>
 
-@class NSImage, PHImportSource, PHPhotoLibrary;
+@class PHImportSource;
 
 @interface PXImportSourceNavigationListItem : PXNavigationListItem
 {
     PHImportSource *_importSource;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);
@@ -24,15 +23,13 @@
 - (unsigned long long);
 - (id);
 - (id)mpletionHandler:(struct _NSZone *)arg1;
-- (void)tionGestureSchema;
+- (void)OneUpSharePlayNavigationGestureSchema;
 - (id)¨p;;
 - (id)B<;
 - (_Bool)ÿÆ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *image;
 @property(readonly, nonatomic) PHImportSource *importSource; // @synthesize importSource=_importSource;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

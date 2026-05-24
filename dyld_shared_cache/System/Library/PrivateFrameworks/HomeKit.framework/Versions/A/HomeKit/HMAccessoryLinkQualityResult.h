@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMAccessoryLinkQualityResult
 {
     _Bool _supported;
-    unsigned long long _linkLayerType;
-    NSString *_macAddress;
-    NSString *_networkName;
-    unsigned long long _linkQuality;
 }
 
 - (unsigned long long);
@@ -24,10 +18,6 @@
 - (_Bool)ï;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long linkLayerType; // @synthesize linkLayerType=_linkLayerType;
-@property(readonly, nonatomic) unsigned long long linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(readonly, copy, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(readonly, copy, nonatomic) NSString *networkName; // @synthesize networkName=_networkName;
 @property(readonly, nonatomic) _Bool supported; // @synthesize supported=_supported;
 
 @end

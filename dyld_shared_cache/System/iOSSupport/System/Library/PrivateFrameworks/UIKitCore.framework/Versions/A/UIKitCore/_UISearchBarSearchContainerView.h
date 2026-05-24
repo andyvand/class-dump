@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UISearchBarSearchContainerView : UIView
 {
     _Bool _needsLayoutWhenThawed;
-    _Bool _frozenLayout;
-    _UISearchBarSearchContainerLayout *_layout;
 }
 
 - (struct CGSize);

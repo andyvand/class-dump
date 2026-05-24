@@ -4,9 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UITextFieldCanvasView;
+@class UIColor, UIView, UIVisualEffectView, _UITextFieldCanvasView;
 
 @protocol _UITextFieldVisualStyleSubject
+- (long long)chatRepairController:updateSyncStateTo:onChat: /* Error: Ran out of types for this method. */;
+- (_Bool)_relayMessage:chat:didSendSMS:attemptingReplication:forceReflection:relayToWatchOnly:shouldDisableScreenTimeRestrictions:callerID: /* Error: Ran out of types for this method. */;
+- (_Bool)_lastAveragedBytes;
+- (double)_broadcastMessageEventWithCommand:eventName:forGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)_broadcastActiveListChanged;
+- (UIColor *)_TtC12IMDaemonCore32XPCClientConnectionRouteProvider;
+- (UIVisualEffectView *);
+- (_Bool)locationManager:didUpdateLocations: /* Error: Ran out of types for this method. */;
+- (_Bool)4;
 - (_UITextFieldCanvasView *)
 × ;
 - (UIView *)ePropertiesCG;

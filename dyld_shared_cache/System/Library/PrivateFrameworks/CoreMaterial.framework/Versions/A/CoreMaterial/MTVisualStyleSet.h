@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MTVisualStyleSet
 {
     NSMutableDictionary *_visualStylesToStyleNames;
-    NSMutableDictionary *_styleNamesToVisualStylings;
-    long long _visualStyleSetVersion;
-    NSString *_visualStyleSetName;
 }
 
-+ (id);
++ (id)e entity named %@ (extension entity %@) in dataclass %@ has unknown keys. Unknown keys:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)fetchCustodianRecoveryKeysWithSessionID:completion: /* Error: Ran out of types for this method. */;
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *visualStyleSetName; // @synthesize visualStyleSetName=_visualStyleSetName;
 @property(readonly, nonatomic) long long visualStyleSetVersion; // @synthesize visualStyleSetVersion=_visualStyleSetVersion;
 
 @end

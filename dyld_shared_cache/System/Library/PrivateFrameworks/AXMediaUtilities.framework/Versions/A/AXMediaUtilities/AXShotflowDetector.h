@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXShotflowNetwork, NSArray;
+@class AXShotflowNetwork;
 
 @interface AXShotflowDetector
 {
     AXShotflowNetwork *_network;
-    float _overlap_threshold;
-    float _nmsThreshold;
-    float _mergeHeadsThreshold;
-    float _osfsThreshold;
-    float _osfsSizeRatio;
-    float _olmcsThreshold;
-    int _olmcsMergeCountDelta;
-    float _smartThreshold;
-    float _smartDistanceFactor;
-    NSArray *_filterThreshold;
 }
 
 + (id);
-+ (id);
++ (id)[;
 - (void);
 - (void);
 - (void);
@@ -31,45 +21,35 @@
 - (id);
 - (float);
 - (id);
-- (id);
-- (id);
-- (id);
-- (float);
+- (id)m;
+- (id)sS{;
 - (id);
 - (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (float);
+- (void);
+- (void)o;
+- (void);
+- (void);
+- (void)o;
+- (void);
+- (void);
+- (id)gz;
+- (id);
+- (float)^{;
 - (float);
-- (float);
+- (float)^{;
 - (int);
 - (float);
+- (id)I;
+- (id)o;
 - (id);
-- (id);
-- (id);
+- (void)iptor";
 - (void);
-- (void);
-- (float)XMDataSonifier;
+- (float)AXMDataSonifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *filterThreshold; // @synthesize filterThreshold=_filterThreshold;
-@property(nonatomic) float mergeHeadsThreshold; // @synthesize mergeHeadsThreshold=_mergeHeadsThreshold;
-@property(nonatomic) float nmsThreshold; // @synthesize nmsThreshold=_nmsThreshold;
-@property(nonatomic) int olmcsMergeCountDelta; // @synthesize olmcsMergeCountDelta=_olmcsMergeCountDelta;
-@property(nonatomic) float olmcsThreshold; // @synthesize olmcsThreshold=_olmcsThreshold;
-@property(nonatomic) float osfsSizeRatio; // @synthesize osfsSizeRatio=_osfsSizeRatio;
-@property(nonatomic) float osfsThreshold; // @synthesize osfsThreshold=_osfsThreshold;
 @property(nonatomic) float overlap_threshold; // @synthesize overlap_threshold=_overlap_threshold;
-@property(nonatomic) float smartDistanceFactor; // @synthesize smartDistanceFactor=_smartDistanceFactor;
-@property(nonatomic) float smartThreshold; // @synthesize smartThreshold=_smartThreshold;
-@property(nonatomic) float threshold;
 
 @end
 

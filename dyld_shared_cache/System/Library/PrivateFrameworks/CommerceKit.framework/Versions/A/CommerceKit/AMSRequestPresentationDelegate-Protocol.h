@@ -5,5 +5,7 @@
 //
 
 @protocol AMSRequestPresentationDelegate
+- (void);
+- (void);
 @end
 

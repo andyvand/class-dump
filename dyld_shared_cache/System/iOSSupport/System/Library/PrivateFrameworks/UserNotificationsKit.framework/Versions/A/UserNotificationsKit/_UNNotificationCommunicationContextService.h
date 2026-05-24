@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)ple matching interactions found;
 
 @end
 

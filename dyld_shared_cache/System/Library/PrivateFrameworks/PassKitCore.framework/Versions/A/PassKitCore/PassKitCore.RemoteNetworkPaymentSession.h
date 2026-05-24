@@ -7,37 +7,18 @@
 @interface PassKitCore.RemoteNetworkPaymentSession
 {
     id remoteIdentifier;
-    id paymentTopicID;
-    id conversationID;
-    id requestAPIType;
-    id isDelegatedRequest;
-    id paymentRequestReceived;
-    id paymentSheetPresented;
-    id paymentSheetStatusReported;
-    id requestPromiseRejected;
-    id authCoordinatorPresented;
-    id walletUninstallDetected;
-    id pendingUpdateEvents;
-    id originatingProcess;
-    id sessionIdentifier;
-    id initiationType;
-    id websocket;
-    id authorizationCoordinator;
-    id inAppPaymentService;
-    id delegate;
-    id state;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)t;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id));
 - (void)ÐÒÿ;
 
 @end

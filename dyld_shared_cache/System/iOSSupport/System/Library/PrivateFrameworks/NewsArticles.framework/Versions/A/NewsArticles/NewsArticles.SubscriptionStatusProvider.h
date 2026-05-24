@@ -7,12 +7,6 @@
 @interface NewsArticles.SubscriptionStatusProvider
 {
     id headline;
-    id paidAccessChecker;
-    id bundleSubscriptionManager;
-    id offerManager;
-    id observers;
-    long long bundleSubscriptionStatus;
-    long long channelSubscriptionStatus;
 }
 
 - (void);
@@ -25,11 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void)Module;
+- (void)recipeModule;
 
 // Remaining properties
 @property(nonatomic) long long bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus;
-@property(nonatomic) long long channelSubscriptionStatus; // @synthesize channelSubscriptionStatus;
 
 @end
 

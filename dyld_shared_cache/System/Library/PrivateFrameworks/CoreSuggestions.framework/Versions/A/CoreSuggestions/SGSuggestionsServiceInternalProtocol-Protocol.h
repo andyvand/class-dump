@@ -4,15 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASDomainSelection;
+@class NSArray, NSString, _PASDomainSelection;
 
 @protocol SGSuggestionsServiceInternalProtocol
+- (void)setProperty:(NSArray *)arg1 onChannel:(NSString *)arg2 responseHandler:(void (^)(NSError *))arg3;
+- (void);
+- (void)B64B68B72S76@80;
+- (void)B;
+- (NSArray *)
+;
 - (void);
-- (void)jectEvent:(_Bool)arg1 error:(void (^)(NSError *))arg2;
-- (void)bAdministrativeArea;
-- (void)s:(NSString *)arg1 origin:(_PASDomainSelection *)arg2 options:(void (^)(NSError *))arg3 error: /* Error: Ran out of types for this method. */;
-- (_Bool)veArea;
-- (_Bool)gesFound:(id *)arg1 lost:error: /* Error: Ran out of types for this method. */;
+- (void)rejectEvent:(_Bool)arg1 error:(void (^)(NSError *))arg2;
+- (void)hasSubAdministrativeArea;
+- (void)filteredSuggestionsFromExtractions:(NSString *)arg1 origin:(_PASDomainSelection *)arg2 options:(void (^)(NSError *))arg3 error: /* Error: Ran out of types for this method. */;
+- (_Bool)_administrativeArea;
+- (_Bool)reportMessagesFound:(id *)arg1 lost:error: /* Error: Ran out of types for this method. */;
 - (void)ing * _Nonnull SGMSelfIdSupervisionType_toString(SGMSelfIdSupervisionType);
 - (void)ble"8;
 @end

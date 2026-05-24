@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (int);
 - (int);
-- (id);
+- (id);
 - (void);
 
 @end

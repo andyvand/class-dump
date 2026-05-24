@@ -7,26 +7,6 @@
 @interface InternalSwiftProtobuf.Google_Protobuf_FileOptions._StorageClass__priv_BD4C1D1A5DBF5507AE6AF16875FA18AB
 {
     id _javaPackage;
-    id _javaOuterClassname;
-    id _javaMultipleFiles;
-    id _javaGenerateEqualsAndHash;
-    id _javaStringCheckUtf8;
-    id _optimizeFor;
-    id _goPackage;
-    id _ccGenericServices;
-    id _javaGenericServices;
-    id _pyGenericServices;
-    id _deprecated;
-    id _ccEnableArenas;
-    id _objcClassPrefix;
-    id _csharpNamespace;
-    id _swiftPrefix;
-    id _phpClassPrefix;
-    id _phpNamespace;
-    id _phpMetadataNamespace;
-    id _rubyPackage;
-    id _features;
-    id _uninterpretedOption;
 }
 
 @end

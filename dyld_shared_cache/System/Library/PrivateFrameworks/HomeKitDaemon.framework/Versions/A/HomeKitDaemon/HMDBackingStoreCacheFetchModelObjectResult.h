@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, HMDBackingStoreModelObject;
+@class CKRecord;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchModelObjectResult
 {
     CKRecord *_record;
-    HMDBackingStoreModelObject *_object;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void)þþu/~&ÈÆèþ/~&,þþ/~&þþu/~&ôþþE/~&þþ¥/~& þþ/~&Æèþ¥/~&(þþ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBackingStoreModelObject *object; // @synthesize object=_object;
 @property(readonly, nonatomic) CKRecord *record; // @synthesize record=_record;
 
 @end

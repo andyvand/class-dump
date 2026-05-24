@@ -9,7 +9,6 @@
 @interface MPSNDArrayGatherND : MPSNDArrayBinaryKernel
 {
     unsigned long long _batchDimensions;
-    _Bool _allowNegativeIndices;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -19,14 +18,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowNegativeIndices; // @synthesize allowNegativeIndices=_allowNegativeIndices;
 @property(nonatomic) unsigned long long batchDimensions; // @synthesize batchDimensions=_batchDimensions;
 
 @end

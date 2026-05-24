@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHStrokeGroupingManager;
-
 @interface CHGroupingPostprocessingStep
 {
     _Bool _saveInputDrawings;
-    CHStrokeGroupingManager *_groupingManager;
 }
 
-+ (id);
++ (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void)¼;
 
 // Remaining properties
-@property(retain, nonatomic) CHStrokeGroupingManager *groupingManager; // @synthesize groupingManager=_groupingManager;
 @property(nonatomic) _Bool saveInputDrawings; // @synthesize saveInputDrawings=_saveInputDrawings;
 
 @end

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCReadingHistory, FCReadingList, FCSubscriptionList, NSString;
-@protocol FCHeadlineProviding, NUArticleActivityOptionsProvider, NUReportConcernViewPresenter, NUURLHandling, NUURLModifying;
+@class FCReadingHistory;
+@protocol FCHeadlineProviding;
 
 @interface NUArticleActivityManager
 {
     id <FCHeadlineProviding> _headline;
-    FCReadingHistory *_readingHistory;
-    FCReadingList *_readingList;
-    FCSubscriptionList *_subscriptionList;
-    id <NUURLHandling> _URLHandler;
-    id <NUReportConcernViewPresenter> _reportConcernViewPresenter;
-    id <NUURLModifying> _URLModifier;
-    id <NUArticleActivityOptionsProvider> _optionsProvider;
 }
 
-- (void);
+- (void)fE䗡;
 - (void);
 - (void);
 - (void);
@@ -39,29 +32,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)atched;
+- (id)s/AlderShared/text/TSWPListLabel.mm;
+- (void)Ȃ@9;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUURLHandling> URLHandler; // @synthesize URLHandler=_URLHandler;
-@property(readonly, nonatomic) id <NUURLModifying> URLModifier; // @synthesize URLModifier=_URLModifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
-@property(readonly, nonatomic) id <NUArticleActivityOptionsProvider> optionsProvider; // @synthesize optionsProvider=_optionsProvider;
 @property(readonly, nonatomic) FCReadingHistory *readingHistory; // @synthesize readingHistory=_readingHistory;
-@property(readonly, nonatomic) FCReadingList *readingList; // @synthesize readingList=_readingList;
-@property(readonly, nonatomic) id <NUReportConcernViewPresenter> reportConcernViewPresenter; // @synthesize reportConcernViewPresenter=_reportConcernViewPresenter;
-@property(readonly, nonatomic) FCSubscriptionList *subscriptionList; // @synthesize subscriptionList=_subscriptionList;
-@property(readonly) Class superclass;
 
 @end
 

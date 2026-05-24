@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPassField.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKPassSectionDetailDrillInField : PKPassField
 {
     NSArray *_sectionIdentifiers;
-    long long _authRequirement;
-    NSString *_localizedTitle;
 }
 
 + (_Bool)0@ù
@@ -20,19 +18,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long);
+- (id);
+- (void)uJ;
+- (void)channel;
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)equest;
+- (void)existingCardAuthorizationDiscoveryRequest;
 - (id);
 - (id)ÆëÿÁEh(î;
 
 // Remaining properties
-@property(nonatomic) long long authRequirement; // @synthesize authRequirement=_authRequirement;
-@property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 @property(retain, nonatomic) NSArray *sectionIdentifiers; // @synthesize sectionIdentifiers=_sectionIdentifiers;
 
 @end

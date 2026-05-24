@@ -6,8 +6,6 @@
 
 #import <CoreThemeDefinition/TDElementProduction.h>
 
-@class TDTextureInterpretation;
-
 @interface TDNamedTextureProduction : TDElementProduction
 {
 }
@@ -15,6 +13,5 @@
 
 // Remaining properties
 @property(nonatomic) _Bool optOutOfThinning; // @dynamic optOutOfThinning;
-@property(retain, nonatomic) TDTextureInterpretation *textureInterpretation; // @dynamic textureInterpretation;
 @end
 

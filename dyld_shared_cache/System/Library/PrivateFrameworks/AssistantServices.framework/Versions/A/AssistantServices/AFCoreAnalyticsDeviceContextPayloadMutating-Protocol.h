@@ -5,5 +5,6 @@
 //
 
 @protocol AFCoreAnalyticsDeviceContextPayloadMutating
+- (void)h;
 @end
 

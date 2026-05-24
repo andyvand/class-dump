@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaEuclidConfusionPair;
+@class SISchemaEuclidConfusionPair;
 
 @interface SISchemaUEIDictationEuclidAlternativesEventTier1 : SISchemaInstrumentationMessage
 {
     SISchemaEuclidConfusionPair *_confusionPair;
-    _Bool _hasConfusionPair;
 }
 
-- (void);
+- (void)(=;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)JU;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)backgroundAssetMetadata;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDDatabase(LegacyChats) fetchChatRecordsFilteredUsingPredicate:(id)arg1 sortedUsingDescriptors:limit:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)10Min;
-- (id)NotShown;
-- (void)TING;
+- (id)deleteEntityAbsoluteCount10Min;
+- (id)_hasAppleMusicVoicePreviewOfferNotShown;
+- (void)NETSESSIONSTATE_WAITING;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaEuclidConfusionPair *confusionPair; // @synthesize confusionPair=_confusionPair;
-@property(nonatomic) _Bool hasConfusionPair; // @synthesize hasConfusionPair=_hasConfusionPair;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

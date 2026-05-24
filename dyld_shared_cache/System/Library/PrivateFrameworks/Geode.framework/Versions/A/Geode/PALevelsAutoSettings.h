@@ -7,31 +7,23 @@
 @interface PALevelsAutoSettings
 {
     int _inputMode;
-    CDStruct_b9c68237 _luminance;
-    CDStruct_b9c68237 _red;
-    CDStruct_b9c68237 _green;
-    CDStruct_b9c68237 _blue;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDStruct_b9c68237);
-- (CDStruct_b9c68237);
-- (CDStruct_b9c68237);
-- (CDStruct_b9c68237);
+- (CDStruct_fc903803);
+- (CDStruct_fc903803);
+- (CDStruct_fc903803);
+- (CDStruct_fc903803);
 - (void);
 - (int)rnal/Library/BuildRoots/4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Loading/PACGImage.m;
 
 // Remaining properties
-@property(nonatomic) CDStruct_b9c68237 blue; // @synthesize blue=_blue;
-@property(nonatomic) CDStruct_b9c68237 green; // @synthesize green=_green;
 @property(nonatomic) int inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) CDStruct_b9c68237 luminance; // @synthesize luminance=_luminance;
-@property(nonatomic) CDStruct_b9c68237 red; // @synthesize red=_red;
 
 @end
 

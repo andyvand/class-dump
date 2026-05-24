@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUColorSpace, NUPixelFormat, NURegion;
-
 @protocol NUImageStorage
+- (void);
+- (void)initWithResourcePath:(_Bool)arg1 assetFileName:assetVersion:assetHash: /* Error: Ran out of types for this method. */;
+- (_Bool)_sleepInterval;
 
 // Remaining properties
-@property(retain) NUColorSpace *colorSpace;
-@property float contentHeadroom;
-@property(readonly) NUPixelFormat *format;
-@property _Bool isDirty;
 @property(readonly) CDStruct_912cb5d2 size;
-@property(readonly) long long sizeInBytes;
-@property(readonly) NURegion *validRegion;
 @end
 

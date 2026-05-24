@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMRKResponse
 {
     NSString *_string;
-    NSDictionary *_attributes;
-    NSString *_category;
 }
 
 + (id)-> 1;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly) NSString *category; // @synthesize category=_category;
 @property(readonly) NSString *string; // @synthesize string=_string;
 
 @end

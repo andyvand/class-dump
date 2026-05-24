@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVRoutingDiscoverySession, MRAVRoutingDiscoverySessionConfiguration, NSMutableDictionary;
+@class MRAVRoutingDiscoverySessionConfiguration, NSMutableDictionary;
 
 @interface MRAVRoutingDiscoverySessionWrapper
 {
     NSMutableDictionary *_endpointsChangedCallbacks;
-    NSMutableDictionary *_endpointsAddedCallbacks;
-    NSMutableDictionary *_endpointsRemovedCallbacks;
-    NSMutableDictionary *_endpointsModifiedCallbacks;
-    NSMutableDictionary *_outputDevicesChangedCallbacks;
-    NSMutableDictionary *_outputDevicesAddedCallbacks;
-    NSMutableDictionary *_outputDevicesRemovedCallbacks;
-    NSMutableDictionary *_outputDevicesModifiedCallbacks;
-    NSMutableDictionary *_endpointsTokensMap;
-    NSMutableDictionary *_outputDevicesTokensMap;
-    unsigned int _discoveryMode;
-    MRAVRoutingDiscoverySessionConfiguration *_configuration;
-    MRAVRoutingDiscoverySession *_sharedSession;
 }
 
 - (void);
@@ -33,9 +21,19 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)T;
+- (void);
+- (void)layoutChangeAllowedTime;
+- (void);
+- (id)@;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -46,17 +44,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (void)
@@ -64,7 +52,7 @@
 - (id)1&Ð1Â0@ù
 × ;
 - (id)@?<v@?@"NSString"@"NSError">24;
-- (void)andleMediaRemoteServiceInvalidatedNotification:(_Bool)arg1;
+- (void)handleMediaRemoteServiceInvalidatedNotification:(_Bool)arg1;
 - (void)hot;
 - (unsigned int)invalidated...;
 - (void)ue_t, void (^__strong)(NSError *__strong));
@@ -74,7 +62,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MRAVRoutingDiscoverySessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) MRAVRoutingDiscoverySession *sharedSession; // @synthesize sharedSession=_sharedSession;
 
 @end
 

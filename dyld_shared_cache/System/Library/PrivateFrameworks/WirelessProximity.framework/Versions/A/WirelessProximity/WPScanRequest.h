@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber;
-
 @interface WPScanRequest
 {
     unsigned char _clientType;
-    _Bool _allowDuplicates;
-    _Bool _scanWhenLocked;
-    _Bool _activeScanning;
-    _Bool _scanCache;
-    _Bool _priorityCritical;
-    _Bool _range;
-    _Bool _holdVoucher;
-    NSNumber *_rssiThreshold;
-    NSData *_blobValue;
-    NSData *_maskValue;
-    NSDictionary *_options;
-    NSArray *_peers;
-    double _updateTime;
-    long long _nearbyScanMode;
-    long long _advBuffer;
-    NSArray *_useCaseList;
-    long long _requestedAtNsec;
-    NSNumber *_heySiriElectionEndTimeNsec;
-    CDStruct_9e3626a3 _scanningRates;
 }
 
 + (_Bool);
@@ -43,8 +22,8 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_9e3626a3);
-- (_Bool);
+- (CDStruct_2ec95fd7);
+- (_Bool)j;
 - (_Bool);
 - (long long);
 - (id);
@@ -58,48 +37,29 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)calendarServerResultWithDisplayName:(double)arg1 value:nameComponents:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
-- (void);
+- (void)areProgrammableSamplePositionsSupported;
+- (id);
+- (void)_currencyString;
+- (id)tand-alone.abbreviated;
+- (void);
 - (void);
 - (double);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)setValueForScalarKeyWithDomain:(struct _NSZone *)arg1 subdomain:suffix:action:value: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned char)nyScanResultsRequested;
 
 // Remaining properties
-@property _Bool activeScanning; // @synthesize activeScanning=_activeScanning;
-@property long long advBuffer; // @synthesize advBuffer=_advBuffer;
-@property _Bool allowDuplicates; // @synthesize allowDuplicates=_allowDuplicates;
-@property(retain, nonatomic) NSData *blobValue; // @synthesize blobValue=_blobValue;
 @property unsigned char clientType; // @synthesize clientType=_clientType;
-@property(retain) NSNumber *heySiriElectionEndTimeNsec; // @synthesize heySiriElectionEndTimeNsec=_heySiriElectionEndTimeNsec;
-@property _Bool holdVoucher; // @synthesize holdVoucher=_holdVoucher;
-@property(retain, nonatomic) NSData *maskValue; // @synthesize maskValue=_maskValue;
-@property long long nearbyScanMode; // @synthesize nearbyScanMode=_nearbyScanMode;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSArray *peers; // @synthesize peers=_peers;
-@property _Bool priorityCritical; // @synthesize priorityCritical=_priorityCritical;
-@property _Bool range; // @synthesize range=_range;
-@property long long requestedAtNsec; // @synthesize requestedAtNsec=_requestedAtNsec;
-@property(retain) NSNumber *rssiThreshold; // @synthesize rssiThreshold=_rssiThreshold;
-@property _Bool scanCache; // @synthesize scanCache=_scanCache;
-@property _Bool scanWhenLocked; // @synthesize scanWhenLocked=_scanWhenLocked;
-@property CDStruct_9e3626a3 scanningRates; // @synthesize scanningRates=_scanningRates;
-@property double updateTime; // @synthesize updateTime=_updateTime;
-@property(retain) NSArray *useCaseList; // @synthesize useCaseList=_useCaseList;
 
 @end
 

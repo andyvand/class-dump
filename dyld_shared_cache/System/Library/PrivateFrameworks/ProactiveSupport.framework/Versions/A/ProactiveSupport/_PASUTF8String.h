@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _PASUTF8String
 {
     const char *_buffer;
-    const char *_bufferEnd;
-    NSData *_backingData;
-    struct {
-        unsigned int :6;
-        unsigned int :1;
-        unsigned int :1;
-        unsigned int :24;
-    } *_chunks;
-    unsigned int _nchunks;
-    unsigned int _asciiPrefixLength;
-    unsigned int _length;
-    _Bool _nullTerminated;
 }
 
-- (id);
-- (id);
-- (const char *);
+- (id)equest;
+- (id)ata Response Length;
+- (const char *)ointer;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (const char *);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)updateMeltedAndCachedMultiRelationObjects:(unsigned short *)arg1 forKey:(struct _NSRange)arg2;
+- (void)pending integration event ID from %{public}@ to %{public}@;
+- (unsigned long long)alDAVMkcalendarTaskDelegate><CoreDAVTaskDelegate>",D,N;
+- (id)udible.aa-audiobook;
 - (id);
 - (unsigned long long);
 - (id);

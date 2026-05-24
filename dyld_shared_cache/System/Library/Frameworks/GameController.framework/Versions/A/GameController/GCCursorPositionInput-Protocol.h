@@ -9,6 +9,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c3b9c2ee delta;
-@property(copy) CDUnknownBlockType positionDidChangeHandler;
 @end
 

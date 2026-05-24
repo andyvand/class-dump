@@ -6,23 +6,19 @@
 
 #import <MediaPlaybackCore/MPCAssistantContext.h>
 
-@class MPCAssistantDiscovery, NSObject;
-@protocol OS_dispatch_queue;
+@class MPCAssistantDiscovery;
 
 @interface MPCAssistantEndpointContext : MPCAssistantContext
 {
     MPCAssistantDiscovery *_discoveryLogical;
-    MPCAssistantDiscovery *_discoveryAudio;
-    MPCAssistantDiscovery *_discoveryEndpoint;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (_Bool);
+- (void)modified account %@;
+- (void)abling shared album for modified account %@;
+- (void)nt %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)change to device locator account;
 - (void);
 - (void);
 - (void);

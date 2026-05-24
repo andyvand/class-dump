@@ -7,23 +7,6 @@
 @interface CSSmartSiriVolumeUserIntent
 {
     unsigned long long kSSVCAUserIntentValidForSeconds;
-    float kSSVCAUserIntentVolumeIncreaseFactor;
-    float kSSVCAUserIntentVolumeDecreaseFactor;
-    float kSSVCAUserIntentPermanentOffsetFactorDelta;
-    float kSSVCAUserIntentPermanentOffsetFactorLowerBound;
-    float kSSVCAUserIntentPermanentOffsetFactorUpperBound;
-    float kSSVCA_DEVICE_SIMPLE_MIN_TTS_VOLUME;
-    float kSSVCA_DEVICE_SIMPLE_MAX_TTS_VOLUME;
-    float kSSVCA_DEVICE_DEFAULT_MIN_TTS_VOLUME;
-    float kSSVCA_DEVICE_DEFAULT_MAX_TTS_VOLUME;
-    _Bool _permanentOffsetIsEnabled;
-    float _userIntentVolume;
-    float _latestVolume;
-    float _permanentOffsetFactor;
-    unsigned long long _userIntentType;
-    unsigned long long _userIntentValidForSeconds;
-    long long _userIntentTime;
-    long long _latestVolumeTime;
 }
 
 - (float);
@@ -31,7 +14,7 @@
 - (unsigned long long);
 - (long long);
 - (void);
-- (void);
+- (void)RO^;
 - (void);
 - (void);
 - (void);
@@ -50,14 +33,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) float latestVolume; // @synthesize latestVolume=_latestVolume;
-@property(nonatomic) long long latestVolumeTime; // @synthesize latestVolumeTime=_latestVolumeTime;
-@property(nonatomic) float permanentOffsetFactor; // @synthesize permanentOffsetFactor=_permanentOffsetFactor;
-@property(nonatomic) _Bool permanentOffsetIsEnabled; // @synthesize permanentOffsetIsEnabled=_permanentOffsetIsEnabled;
-@property(nonatomic) long long userIntentTime; // @synthesize userIntentTime=_userIntentTime;
 @property(nonatomic) unsigned long long userIntentType; // @synthesize userIntentType=_userIntentType;
-@property(nonatomic) unsigned long long userIntentValidForSeconds; // @synthesize userIntentValidForSeconds=_userIntentValidForSeconds;
-@property(nonatomic) float userIntentVolume; // @synthesize userIntentVolume=_userIntentVolume;
 
 @end
 

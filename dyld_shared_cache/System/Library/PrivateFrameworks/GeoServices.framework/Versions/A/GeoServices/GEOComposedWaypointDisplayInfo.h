@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOARInfo, GEOComposedRouteEVChargingStationInfo, GEOComposedString, GEOPBTransitArtwork, GEOStyleAttributes, GEOWaypointInfo, NSString;
+@class GEOARInfo;
 
 @interface GEOComposedWaypointDisplayInfo
 {
     GEOARInfo *_arInfo;
-    GEOPBTransitArtwork *_artwork;
-    GEOComposedRouteEVChargingStationInfo *_evChargingInfo;
-    NSString *_name;
-    CDStruct_2c43369c _position;
-    GEOStyleAttributes *_styleAttributes;
-    GEOWaypointInfo *_waypointInfo;
-    GEOComposedString *_waypointCaption;
 }
 
 + (_Bool)resource %{public}@ "%@" != "%@";
@@ -24,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)isFinished;
+- (id)X;
 - (id);
 - (void);
 - (id);
@@ -45,13 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) GEOARInfo *arInfo; // @synthesize arInfo=_arInfo;
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) GEOComposedRouteEVChargingStationInfo *evChargingInfo; // @synthesize evChargingInfo=_evChargingInfo;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) CDStruct_c3b9c2ee position; // @synthesize position=_position;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
-@property(copy, nonatomic) GEOComposedString *waypointCaption; // @synthesize waypointCaption=_waypointCaption;
-@property(retain, nonatomic) GEOWaypointInfo *waypointInfo; // @synthesize waypointInfo=_waypointInfo;
 
 @end
 

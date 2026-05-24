@@ -5,5 +5,8 @@
 //
 
 @protocol MRGroupSessionEligibilityObserver
+
+@optional
+- (void);
 @end
 

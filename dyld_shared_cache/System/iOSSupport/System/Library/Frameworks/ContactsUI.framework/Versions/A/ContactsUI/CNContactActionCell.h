@@ -6,17 +6,17 @@
 
 #import <ContactsUI/CNLabeledCell.h>
 
-@class CNCardActionGroupItem, CNContactAction, CNTransportButton, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CNContactActionCell : CNLabeledCell
 {
     UILabel *_label;
-    CNTransportButton *_transportIcon;
 }
 
 + (_Bool);
-- (id);
+- (id)hx)
+;
 - (id);
 - (_Bool);
 - (void);
@@ -25,18 +25,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)lj;
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (void)eAvatarImageOfSize:(id)arg1 imageHandler: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (void)generateAvatarImageOfSize:(id)arg1 imageHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactAction *action;
-@property(readonly, nonatomic) CNCardActionGroupItem *actionGroupItem;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) CNTransportButton *transportIcon; // @synthesize transportIcon=_transportIcon;
 
 @end
 

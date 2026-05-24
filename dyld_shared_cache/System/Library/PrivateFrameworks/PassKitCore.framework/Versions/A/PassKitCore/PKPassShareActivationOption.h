@@ -9,9 +9,6 @@
 @interface PKPassShareActivationOption
 {
     NSString *_identifier;
-    unsigned long long _type;
-    NSString *_value;
-    long long _valueLength;
 }
 
 + (id);
@@ -25,33 +22,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (id);
+- (id)@;
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasHttp3Status:(id)arg1;
+- (void)powerConsumptionDueToAWDLRx;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ccountCredential;
+- (void)AccountCredential;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *localizationKeyPostfix;
-@property(readonly, nonatomic) NSString *localizationKeyPostfixForInitiation;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) _Bool requiresActivationCode;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
-@property(nonatomic) long long valueLength; // @synthesize valueLength=_valueLength;
 
 @end
 

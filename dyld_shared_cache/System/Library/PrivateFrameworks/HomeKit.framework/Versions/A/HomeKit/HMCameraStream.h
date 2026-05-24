@@ -6,17 +6,11 @@
 
 #import <HomeKit/HMCameraSource.h>
 
-@class NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface HMCameraStream : HMCameraSource
 {
     NSUUID *_sessionUUID;
-    unsigned long long _internalAudioStreamSetting;
-    NSNumber *_internalAudioVolume;
-    long long _audioDownlinkToken;
-    long long _audioUplinkToken;
-    long long _streamToken;
 }
 
 + (id)dler:] /* Error: Ran out of types for this method. */;
@@ -41,31 +35,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)phoneNumbers;
 - (void);
-- (id)dingKey;
+- (id)HMAccessoryIsVendorAccessoryCodingKey;
 
 // Remaining properties
-@property(readonly) long long audioDownlinkToken; // @synthesize audioDownlinkToken=_audioDownlinkToken;
-@property(readonly, nonatomic) unsigned long long audioStreamSetting;
-@property(readonly) long long audioUplinkToken; // @synthesize audioUplinkToken=_audioUplinkToken;
-@property(readonly, nonatomic) NSNumber *audioVolume;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long internalAudioStreamSetting; // @synthesize internalAudioStreamSetting=_internalAudioStreamSetting;
-@property(copy) NSNumber *internalAudioVolume; // @synthesize internalAudioVolume=_internalAudioVolume;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(readonly, copy) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) Class superclass;
 
 @end
 

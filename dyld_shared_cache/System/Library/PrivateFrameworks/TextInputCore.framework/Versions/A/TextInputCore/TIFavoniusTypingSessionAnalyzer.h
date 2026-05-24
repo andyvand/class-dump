@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TIKeyboardState, TITypingSession;
-@protocol TIUserModeling;
+@class NSArray, TITypingSession;
 
 __attribute__((visibility("hidden")))
 @interface TIFavoniusTypingSessionAnalyzer
 {
     NSArray *_activeInputModes;
-    NSDictionary *_testingParameters;
-    int _lastMessageWordsEntered;
-    id <TIUserModeling> _userModel;
-    TITypingSession *_currentSession;
-    NSString *_lastMessage;
-    TIKeyboardState *_lastMessageKeyboardState;
-    double _lastMessageStartTime;
-    double _lastMessageEndTime;
 }
 
 + (id);
@@ -29,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)scheduledTimerWithTimeInterval:(id)arg1 repeats:(id)arg2 block: /* Error: Ran out of types for this method. */;
 - (int);
 - (double);
-- (void);
-- (_Bool);
+- (void)interactionIdentifier;
+- (_Bool)@~	;
 - (_Bool);
 - (id);
 - (void);
@@ -45,13 +36,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int);
-- (void);
+- (int);
+- (void)setInProgressOperationComplete:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void)
@@ -60,19 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) TITypingSession *currentSession; // @synthesize currentSession=_currentSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *lastMessage; // @synthesize lastMessage=_lastMessage;
-@property(nonatomic) double lastMessageEndTime; // @synthesize lastMessageEndTime=_lastMessageEndTime;
-@property(nonatomic) __weak TIKeyboardState *lastMessageKeyboardState; // @synthesize lastMessageKeyboardState=_lastMessageKeyboardState;
-@property(nonatomic) double lastMessageStartTime; // @synthesize lastMessageStartTime=_lastMessageStartTime;
-@property(nonatomic) int lastMessageWordsEntered; // @synthesize lastMessageWordsEntered=_lastMessageWordsEntered;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <TIUserModeling> userModel; // @synthesize userModel=_userModel;
 
 @end
 

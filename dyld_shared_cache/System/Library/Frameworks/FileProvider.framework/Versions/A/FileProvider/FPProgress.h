@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSOperation *_operation;
 }
 
+- (void)20DeferredSubscription;
 - (void);
-- (void);
-- (id)ties;
+- (id)_capabilities;
 
 @end
 

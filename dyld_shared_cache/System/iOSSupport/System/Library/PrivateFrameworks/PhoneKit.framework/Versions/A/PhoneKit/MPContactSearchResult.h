@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactMatchInfo, CNLabeledValue;
+@class CNContact, CNContactMatchInfo;
 
 @interface MPContactSearchResult
 {
     CNContact *_contact;
     CNContactMatchInfo *_matchInfo;
-    CNLabeledValue *_preferredPhoneNumber;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -25,7 +24,6 @@
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) CNContactMatchInfo *matchInfo; // @synthesize matchInfo=_matchInfo;
-@property(retain, nonatomic) CNLabeledValue *preferredPhoneNumber; // @synthesize preferredPhoneNumber=_preferredPhoneNumber;
 
 @end
 

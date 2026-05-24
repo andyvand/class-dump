@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSManagedObject;
+@class NSArray;
 
 @interface NSConstraintConflict
 {
     NSArray *_constraint;
-    NSManagedObject *_databaseObject;
-    NSDictionary *_databaseSnapshot;
-    NSDictionary *_conflictedValues;
-    NSArray *_conflictingObjects;
-    NSArray *_conflictingSnapshots;
 }
 
 + (_Bool);
@@ -21,24 +16,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ve;
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *conflictingObjects; // @synthesize conflictingObjects=_conflictingObjects;
-@property(readonly, copy) NSArray *conflictingSnapshots; // @synthesize conflictingSnapshots=_conflictingSnapshots;
 @property(readonly, copy) NSArray *constraint; // @synthesize constraint=_constraint;
-@property(readonly, copy) NSDictionary *constraintValues; // @synthesize constraintValues=_conflictedValues;
-@property(readonly, retain) NSManagedObject *databaseObject; // @synthesize databaseObject=_databaseObject;
-@property(readonly, retain) NSDictionary *databaseSnapshot; // @synthesize databaseSnapshot=_databaseSnapshot;
 
 @end
 

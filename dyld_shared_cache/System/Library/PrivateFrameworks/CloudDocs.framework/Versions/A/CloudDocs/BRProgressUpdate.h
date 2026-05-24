@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRFileObjectID, NSArray;
+@class BRFileObjectID;
 
 @interface BRProgressUpdate
 {
     BRFileObjectID *_folderID;
-    unsigned long long _uploadCompletedSize;
-    unsigned long long _uploadTotalSize;
-    unsigned long long _downloadCompletedSize;
-    unsigned long long _downloadTotalSize;
-    NSArray *_parentFileIDs;
 }
 
 + (_Bool);
@@ -31,17 +26,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long downloadCompletedSize; // @synthesize downloadCompletedSize=_downloadCompletedSize;
-@property(nonatomic) unsigned long long downloadTotalSize; // @synthesize downloadTotalSize=_downloadTotalSize;
 @property(copy, nonatomic) BRFileObjectID *folderID; // @synthesize folderID=_folderID;
-@property(copy, nonatomic) NSArray *parentFileIDs; // @synthesize parentFileIDs=_parentFileIDs;
-@property(nonatomic) unsigned long long uploadCompletedSize; // @synthesize uploadCompletedSize=_uploadCompletedSize;
-@property(nonatomic) unsigned long long uploadTotalSize; // @synthesize uploadTotalSize=_uploadTotalSize;
 
 @end
 

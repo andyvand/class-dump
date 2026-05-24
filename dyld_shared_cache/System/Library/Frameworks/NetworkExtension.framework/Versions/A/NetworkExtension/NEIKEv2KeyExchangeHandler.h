@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NEIKEv2KeyExchangeHandler
 {
     unsigned long long _method;
-    NSData *_keyExchangeData;
-    NSData *_sharedSecret;
 }
 
 - (_Bool);
 - (_Bool);
-- (void)forKey: /* Error: Ran out of types for this method. */;
+- (void)setValue:forKey: /* Error: Ran out of types for this method. */;
 
 @end
 

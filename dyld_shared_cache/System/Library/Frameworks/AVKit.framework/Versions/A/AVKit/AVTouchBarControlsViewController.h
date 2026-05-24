@@ -11,20 +11,18 @@ __attribute__((visibility("hidden")))
 @interface AVTouchBarControlsViewController
 {
     AVDesktopPlaybackControlsController *_playbackControlsController;
-    id <AVTouchBarControlsViewControllerDelegate> _delegate;
 }
 
-- (void);
+- (void)o;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)2h";
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTouchBarControlsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak AVDesktopPlaybackControlsController *playbackControlsController; // @synthesize playbackControlsController=_playbackControlsController;
 
 @end
 

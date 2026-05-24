@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (BusinessChat)
-- (id);
+- (id);
 @end
 

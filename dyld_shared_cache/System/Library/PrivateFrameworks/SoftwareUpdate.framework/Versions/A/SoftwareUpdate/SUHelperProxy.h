@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface SUHelperProxy
 {
     unsigned int _suhelperd_port;
-    unsigned int _client_port;
-    long long _currentRights;
-    NSObject<OS_dispatch_queue> *_q;
-    NSObject<OS_dispatch_source> *clientPortDeadChecker;
-    long long _recentRights;
 }
 
 + (id);
@@ -25,19 +17,19 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (_Bool)6Л;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (_Bool);
@@ -45,16 +37,16 @@
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);

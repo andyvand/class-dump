@@ -11,8 +11,6 @@
 @interface DAMoveAction : DAAction
 {
     NSString *_sourceContainerId;
-    NSString *_sourceServerId;
-    NSString *_destinationContainerId;
 }
 
 + (_Bool);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationContainerId; // @synthesize destinationContainerId=_destinationContainerId;
 @property(retain, nonatomic) NSString *sourceContainerId; // @synthesize sourceContainerId=_sourceContainerId;
-@property(retain, nonatomic) NSString *sourceServerId; // @synthesize sourceServerId=_sourceServerId;
 
 @end
 

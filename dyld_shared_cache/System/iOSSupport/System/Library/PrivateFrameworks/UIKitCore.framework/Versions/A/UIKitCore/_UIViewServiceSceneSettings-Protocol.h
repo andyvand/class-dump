@@ -7,6 +7,8 @@
 @class NSString, NSUUID;
 
 @protocol _UIViewServiceSceneSettings
+- (NSUUID *)provideFrameAtFramerate: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *contextToken;

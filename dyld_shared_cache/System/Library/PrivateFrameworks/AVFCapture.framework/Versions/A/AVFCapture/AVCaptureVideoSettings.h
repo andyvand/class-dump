@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     AVVideoOutputSettings *_avVideoOutputSettings;
 }
 
+- (id)setAlertHeader:(id)arg1;
+- (id)er",&,N,V_gradientColorStartPosition;
+- (id)r while writing to data stream:err=%{public}@, status=%lu, bytesWritten:%d /* Error: Ran out of types for this method. */;
+- (id)tableBorderStyle;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)16@"ACDClient"24^@32;
 - (id);
 
 // Remaining properties

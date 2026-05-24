@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheData, IKImageWrapper;
-
 @interface IKCacheNode
 {
     unsigned long long _uid;
-    int _size;
-    IKImageWrapper *_thumbnail;
-    id _data[2];
-    IKCacheData *_parent;
 }
 
 - (void);
@@ -26,7 +20,7 @@
 - (unsigned long long);
 - (int);
 - (void);
-- (void);
+- (void)initWithMatchingSpanPriorInfo:(id)arg1 matchScore: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

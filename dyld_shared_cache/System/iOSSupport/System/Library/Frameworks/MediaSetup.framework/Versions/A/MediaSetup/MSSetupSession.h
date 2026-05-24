@@ -11,23 +11,19 @@
 {
     id <MSAuthenticationPresentationContext> _presentationContext;
     MSServiceAccount *_account;
-    unsigned long long _testFlags;
-    UIViewController *_viewController;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)v";
+- (void)AL_LINEAR_DISTANCE;
 
 // Remaining properties
-@property(readonly, nonatomic) MSServiceAccount *account; // @synthesize account=_account;
-@property(nonatomic) __weak id <MSAuthenticationPresentationContext> presentationContext; // @synthesize presentationContext=_presentationContext;
 @property(readonly, nonatomic) unsigned long long testFlags; // @synthesize testFlags=_testFlags;
 @property(readonly, retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 

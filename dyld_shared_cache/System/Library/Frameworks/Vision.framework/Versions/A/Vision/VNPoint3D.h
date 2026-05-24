@@ -11,13 +11,13 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)fp_lastEditorNameComponents;
 - (id);
 - (unsigned long long);
-- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00)"24;
 - (_Bool);
-- (void);
-- (id);
+- (void)A;
+- (id)P;
 
 // Remaining properties
 @property(readonly) CDStruct_95fa7c00 position; // @synthesize position=_position;

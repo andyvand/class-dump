@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol PKPackageSource
+- (NSArray *);
 
 // Remaining properties
 @property(readonly) NSArray *allPackageReferences;

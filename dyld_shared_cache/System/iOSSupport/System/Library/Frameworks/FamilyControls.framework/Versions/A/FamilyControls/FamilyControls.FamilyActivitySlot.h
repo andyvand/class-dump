@@ -8,7 +8,6 @@
 {
     id width;
     id slotView;
-    id slotDelegate;
 }
 
 @end

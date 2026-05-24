@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol PPContactClientProtocol
+- (void)removeAllValuesFromSynchedStoreWithIdentifier:(NSArray *)arg1 completionHandler:(_Bool)arg2;
+- (void);
+- (void)/;
 @end
 

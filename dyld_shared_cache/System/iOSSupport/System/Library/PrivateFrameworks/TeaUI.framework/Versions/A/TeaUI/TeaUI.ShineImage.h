@@ -7,9 +7,6 @@
 @interface TeaUI.ShineImage
 {
     id image;
-    id size;
-    id context;
-    id backgroundImage;
 }
 
 @end

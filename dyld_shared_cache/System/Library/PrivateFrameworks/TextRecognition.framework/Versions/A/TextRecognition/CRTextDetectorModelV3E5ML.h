@@ -9,17 +9,17 @@
 @interface CRTextDetectorModelV3E5ML
 {
     VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor;
-    NSUUID *_owner;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)@
+;
 - (id);
 - (id);
 - (void)8;

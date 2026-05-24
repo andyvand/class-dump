@@ -9,11 +9,6 @@
 @interface RemindersUICore.TTRRemindersListImportedContent
 {
     id title;
-    id notes;
-    id url;
-    id userActivity;
-    id image;
-    id copyPasteItem;
 }
 
 - (id);
@@ -23,7 +18,6 @@
 - (void)DqWÿ´¢;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
 @property(nonatomic, readonly) NSString *description;
 
 @end

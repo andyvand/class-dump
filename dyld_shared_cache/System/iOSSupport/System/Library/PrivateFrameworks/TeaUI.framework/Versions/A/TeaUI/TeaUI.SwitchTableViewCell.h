@@ -7,7 +7,6 @@
 @interface TeaUI.SwitchTableViewCell
 {
     id onChange;
-    id switchControl;
 }
 
 - (void);

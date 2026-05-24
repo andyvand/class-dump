@@ -7,15 +7,6 @@
 @interface NewsArticles.PDFReplicaViewerInteractor
 {
     id delegate;
-    id coordinator;
-    id issue;
-    id dataManager;
-    id pageBlueprintFactory;
-    id activityItemFactory;
-    id issueReadingHistory;
-    id configurationManager;
-    id commandCenter;
-    id options;
 }
 
 @end

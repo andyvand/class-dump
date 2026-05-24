@@ -7,6 +7,7 @@
 @protocol MTExternalFeedDownloaderDelegate;
 
 @protocol MTExternalFeedDownloaderProtocol
+- (void)i;
 
 // Remaining properties
 @property(nonatomic) __weak id <MTExternalFeedDownloaderDelegate> delegate;

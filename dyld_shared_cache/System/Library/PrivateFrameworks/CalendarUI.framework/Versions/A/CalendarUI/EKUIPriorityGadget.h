@@ -14,12 +14,12 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)?;
 - (void);
 - (id);
 - (id);

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface AMPRemoveArtworkRequest
 {
     unsigned long long _dbID;
-    NSString *_uuid;
-    NSArray *_persistentIDs;
 }
 
 + (_Bool);
@@ -27,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long dbID; // @synthesize dbID=_dbID;
-@property(retain, nonatomic) NSArray *persistentIDs; // @synthesize persistentIDs=_persistentIDs;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

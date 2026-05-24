@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CBPairingAgent;
+
 @protocol CBPairingAgentDelegate
+
+@optional
+- (void)attributedSubstringFromRange:(CBPairingAgent *)arg1;
 @end
 

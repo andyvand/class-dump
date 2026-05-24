@@ -6,31 +6,9 @@
 
 #import <PassKitCore/PKContent.h>
 
-@class NSArray, NSDictionary, NSSet, NSString, PKFidoProfile, PKPassBarcodeSettings, PKPassLiveDataConfiguration, PKPassPersonalization, PKPassUpcomingPassInformation;
-
 @interface PKPassContent : PKContent
 {
     long long _transitType;
-    NSString *_logoText;
-    NSArray *_frontFieldBuckets;
-    NSArray *_backFieldBuckets;
-    NSArray *_passDetailSections;
-    NSArray *_auxiliaryPassInformationSections;
-    PKPassUpcomingPassInformation *_upcomingPassInformation;
-    NSArray *_balanceFields;
-    NSArray *_autoTopUpFields;
-    NSArray *_additionalInfoFields;
-    NSSet *_balances;
-    PKPassPersonalization *_personalization;
-    NSDictionary *_semantics;
-    NSDictionary *_allSemantics;
-    NSString *_businessChatIdentifier;
-    PKPassBarcodeSettings *_barcodeSettings;
-    NSString *_cardholderInfoSectionTitle;
-    NSDictionary *_features;
-    PKFidoProfile *_fidoProfile;
-    NSDictionary *_issuerBindingInformation;
-    PKPassLiveDataConfiguration *_liveDataConfiguration;
 }
 
 + (_Bool)X"°!ô@ùî%1Â0@ù
@@ -43,17 +21,17 @@
 - (void);
 - (void);
 - (void);
+- (void));
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -71,14 +49,14 @@
 - (id);
 - (id);
 - (id);
+- (id)s;
+- (id);
+- (id)R	ja;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (long long);
@@ -86,35 +64,14 @@
 - (void);
 - (id);
 - (void);
+- (id)?;
 - (id);
+- (void)result_server_interrupt_count;
 - (id);
-- (void);
-- (id);
-- (void)ded;
+- (void)discoveryCardExpanded;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalInfoFields; // @synthesize additionalInfoFields=_additionalInfoFields;
-@property(copy, nonatomic) NSDictionary *allSemantics; // @synthesize allSemantics=_allSemantics;
-@property(copy, nonatomic) NSArray *autoTopUpFields; // @synthesize autoTopUpFields=_autoTopUpFields;
-@property(copy, nonatomic) NSArray *auxiliaryPassInformationSections; // @synthesize auxiliaryPassInformationSections=_auxiliaryPassInformationSections;
-@property(copy, nonatomic) NSArray *backFieldBuckets; // @synthesize backFieldBuckets=_backFieldBuckets;
-@property(copy, nonatomic) NSArray *balanceFields; // @synthesize balanceFields=_balanceFields;
-@property(copy, nonatomic) NSSet *balances; // @synthesize balances=_balances;
-@property(retain, nonatomic) PKPassBarcodeSettings *barcodeSettings; // @synthesize barcodeSettings=_barcodeSettings;
-@property(copy, nonatomic) NSString *businessChatIdentifier; // @synthesize businessChatIdentifier=_businessChatIdentifier;
-@property(copy, nonatomic) NSString *cardholderInfoSectionTitle; // @synthesize cardholderInfoSectionTitle=_cardholderInfoSectionTitle;
-@property(readonly, nonatomic) NSDictionary *features; // @synthesize features=_features;
-@property(retain, nonatomic) PKFidoProfile *fidoProfile; // @synthesize fidoProfile=_fidoProfile;
-@property(copy, nonatomic) NSArray *frontFieldBuckets; // @synthesize frontFieldBuckets=_frontFieldBuckets;
-@property(retain, nonatomic) NSDictionary *issuerBindingInformation; // @synthesize issuerBindingInformation=_issuerBindingInformation;
-@property(retain, nonatomic) PKPassLiveDataConfiguration *liveDataConfiguration; // @synthesize liveDataConfiguration=_liveDataConfiguration;
-@property(copy, nonatomic) NSString *logoText; // @synthesize logoText=_logoText;
-@property(copy, nonatomic) NSArray *passDetailSections; // @synthesize passDetailSections=_passDetailSections;
-@property(copy, nonatomic) PKPassPersonalization *personalization; // @synthesize personalization=_personalization;
-@property(readonly, nonatomic) NSArray *primaryFields;
-@property(copy, nonatomic) NSDictionary *semantics; // @synthesize semantics=_semantics;
 @property(nonatomic) long long transitType; // @synthesize transitType=_transitType;
-@property(retain, nonatomic) PKPassUpcomingPassInformation *upcomingPassInformation; // @synthesize upcomingPassInformation=_upcomingPassInformation;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSData, NSNumber;
 
 @protocol RFTableContentColumnDefinition
+- (NSNumber *)p;
+- (void)Rh";
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool disable_truncation;
-@property(copy, nonatomic) NSNumber *drop_order;
-@property(copy, nonatomic) NSNumber *equal_size_column_group;
-@property(nonatomic) int horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool should_drop_in_flow_layout;
 @property(copy, nonatomic) NSNumber *size_percent;
 @end
 

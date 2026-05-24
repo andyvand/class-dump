@@ -8,21 +8,19 @@
 @protocol HMDCLLocationManagerDelegate;
 
 @protocol HMDCLLocationManager
++ (int);
 - (NSSet *)Q,V_numReadFirstPartyApp;
 - (CLLocation *)onfig for selected video tier %@;
 - (int)with duration:%f to expire /* Error: Ran out of types for this method. */;
-- (void)ogEventsAnalyzerUploadMaximumDelayReached;
-- (void)ype360x640;
-- (void)ansientUnderlyingErrorDomain;
-- (void)edDevice;
+- (void)HMDCloudSyncLogEventsAnalyzerUploadMaximumDelayReached;
+- (void)HMDVideoResolutionType360x640;
+- (void)lastTransientUnderlyingErrorDomain;
+- (void)kRemoteLoginQueryProxiedDevice;
 - (void);
 - (void)ÿp;
 - (double);
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDCLLocationManagerDelegate> delegate;
-@property(nonatomic) double desiredAccuracy;
-@property(readonly, copy, nonatomic) CLLocation *location;
-@property(readonly, copy, nonatomic) NSSet *monitoredRegions;
 @end
 

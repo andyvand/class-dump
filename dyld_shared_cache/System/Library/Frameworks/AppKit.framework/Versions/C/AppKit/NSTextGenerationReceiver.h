@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextMathCompletionReceiver, NSTextSmartReplyReceiver, TUIKeyboardCandidateMultiplexer;
+@class TUIKeyboardCandidateMultiplexer;
 
 __attribute__((visibility("hidden")))
 @interface NSTextGenerationReceiver
 {
     _Bool _isSmartReplyEnabled;
-    TUIKeyboardCandidateMultiplexer *_multiplexer;
-    NSTextSmartReplyReceiver *_smartReplyReceiver;
-    NSTextMathCompletionReceiver *_mathCompletionReceiver;
 }
 
 - (id);
@@ -33,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)ö(\Âõà?;
 
 // Remaining properties
-@property(nonatomic) _Bool isSmartReplyEnabled; // @synthesize isSmartReplyEnabled=_isSmartReplyEnabled;
-@property(retain, nonatomic) NSTextMathCompletionReceiver *mathCompletionReceiver; // @synthesize mathCompletionReceiver=_mathCompletionReceiver;
 @property(retain, nonatomic) TUIKeyboardCandidateMultiplexer *multiplexer; // @synthesize multiplexer=_multiplexer;
-@property(retain, nonatomic) NSTextSmartReplyReceiver *smartReplyReceiver; // @synthesize smartReplyReceiver=_smartReplyReceiver;
 
 @end
 

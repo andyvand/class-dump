@@ -5,5 +5,6 @@
 //
 
 @protocol MKPlaceCardContentSizeDelegate
+- (void)setLinkLevel1Parameters:(struct CGSize)arg1;
 @end
 

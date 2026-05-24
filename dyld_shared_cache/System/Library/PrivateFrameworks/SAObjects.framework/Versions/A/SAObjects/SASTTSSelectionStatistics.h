@@ -6,46 +6,32 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SASTTSSelectionStatistics : SABaseCommand
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *completionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *interactionId;
-@property(copy, nonatomic) NSArray *listenedItems;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(nonatomic) long long selectedItemIndex;
-@property(copy, nonatomic) NSString *sessionId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *timesListened;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSLayoutConstraint, NSMenuItem, NSString;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface TabGroupPickerToolbarButton
 {
     NSMenuItem *_tabGroupPickerItem;
-    NSString *_tabGroupPickerTitle;
-    NSImage *_arrowImage;
-    NSImage *_arrowImageForDarkMode;
-    NSLayoutConstraint *_maximumWidthConstraint;
-    _Bool _sidebarVisible;
-    _Bool _privateBrowsing;
 }
 
 - (void);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (struct CGSize);
+- (struct CGSize)tData:slot: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)s;
@@ -35,15 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool privateBrowsing; // @synthesize privateBrowsing=_privateBrowsing;
 @property(readonly, nonatomic) _Bool sidebarVisible; // @synthesize sidebarVisible=_sidebarVisible;
-@property(readonly) Class superclass;
 
 @end
 

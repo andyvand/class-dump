@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RowCompareExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _rctype;
-    id _opnos;
-    id _opfamilies;
-    id _inputcollids;
-    id _largs;
-    id _rargs;
 }
 
 @end

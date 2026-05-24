@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCEmulatedNetworkAlgorithmQueueBandwidth
 {
     NSDictionary *_policies;
-    double _expectedProcessEndTime;
-    unsigned int _packetCountInNetworkQueue;
-    int _packetCountBytesInNetworkQueue;
-    unsigned int _networkQueueServiceRate;
-    unsigned int _networkQueueServiceRateMean;
-    unsigned int _networkQueueServiceRateStdDev;
-    unsigned int _networkQueueAQMRate;
-    int _currentIndexForServiceRate;
-    int _currentIndexForServiceRateDistribution;
-    int _currentIndexForAQMRate;
-    double _lastNetworkQueueServiceRateLoadTime;
-    double _lastNetworkQueueServiceRateDistributionLoadTime;
-    double _lastNetworkQueueAQMRateLoadTime;
-    double _budgetBufferPktTime[4096];
-    double _budgetBufferPktSize[4096];
-    int _budgentBufferIndex;
-    int _budgetBufferSize;
 }
 
 - (void);
@@ -34,25 +17,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (int);
+- (int)C
+;
 - (int);
 - (double);
 - (double);
 - (void);
-- (id);
+- (id)[;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) double expectedProcessEndTime; // @synthesize expectedProcessEndTime=_expectedProcessEndTime;
-@property(readonly) unsigned long long hash;
-@property int packetCountBytesInNetworkQueue; // @synthesize packetCountBytesInNetworkQueue=_packetCountBytesInNetworkQueue;
-@property unsigned int packetCountInNetworkQueue; // @synthesize packetCountInNetworkQueue=_packetCountInNetworkQueue;
-@property(readonly) Class superclass;
 
 @end
 

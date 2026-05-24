@@ -4,23 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @interface NSPPDParse
 {
-    CDStruct_d87b8232 inputStreamStack[17];
-    CDStruct_d87b8232 *input;
-    id delegate;
-    CDStruct_815caf98 argBuf;
-    CDStruct_815caf98 keyTran;
-    CDStruct_815caf98 argTran;
+    struct {
+        NSData *stream;
+        char *currentPtr;
+        char *endPtr;
+    } inputStreamStack[17];
 }
 
 + (id);
-+ (id);
++ (id)request_object=%q,									 proto_props=%q, user_info=%q WHERE entry_ID=%q;;
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)as %s <non-app-initiated flag %d>;
 - (id);
 - (BOOL);
 - (id);

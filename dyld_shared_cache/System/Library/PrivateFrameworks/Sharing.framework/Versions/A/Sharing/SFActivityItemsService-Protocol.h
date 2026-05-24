@@ -5,5 +5,6 @@
 //
 
 @protocol SFActivityItemsService
+- (_Bool);
 @end
 

@@ -7,7 +7,6 @@
 @interface PassKitCore.TaskQueue
 {
     id _lock;
-    id _state;
 }
 
 @end

@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoChannelExperiment
 {
     int _experimentId;
-    NSString *_experimentName;
-    int _int32Value;
-    NSString *_stringValue;
-    int _testValue;
-    _Bool _boolValue;
-    struct {
-        unsigned int experimentId:1;
-        unsigned int int32Value:1;
-        unsigned int testValue:1;
-        unsigned int boolValue:1;
-    } _has;
 }
 
 - (id);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
+- (int)hjh8;
 - (int);
-- (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (int);
@@ -49,8 +36,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)streamingState:(id)arg1 streamingState:AAP: /* Error: Ran out of types for this method. */;
+- (void)r}
+;
 - (id);
 - (int);
 - (id);
@@ -61,18 +49,7 @@
 - (void)ualityMeasurerDelta;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(nonatomic) int experimentId; // @synthesize experimentId=_experimentId;
-@property(retain, nonatomic) NSString *experimentName; // @synthesize experimentName=_experimentName;
-@property(nonatomic) _Bool hasBoolValue;
 @property(nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasExperimentName;
-@property(nonatomic) _Bool hasInt32Value;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasTestValue;
-@property(nonatomic) int int32Value; // @synthesize int32Value=_int32Value;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int testValue; // @synthesize testValue=_testValue;
 
 @end
 

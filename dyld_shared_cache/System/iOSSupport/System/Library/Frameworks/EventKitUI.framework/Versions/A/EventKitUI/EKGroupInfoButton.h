@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)TextPart1:part2: /* Error: Ran out of types for this method. */;
+- (void)setTextPart1:part2: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak CUIKGroupInfo *groupInfo; // @synthesize groupInfo=_groupInfo;

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString, SPUnknownDiscoverySessionState;
-@protocol OS_dispatch_queue, SPUnknownDiscoveryXPCProtocol;
+@class NSObject, SPUnknownDiscoverySessionState;
+@protocol OS_dispatch_queue;
 
 @interface SPUnknownDiscoverySession
 {
     SPUnknownDiscoverySessionState *_state;
-    CDUnknownBlockType _sessionInvalidatedCallback;
-    CDUnknownBlockType _accessoryDiscoveredCallback;
-    CDUnknownBlockType _accessoryDiscoveryErrorCallback;
-    CDUnknownBlockType _accessoryDiscoveryFinishedCallback;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPUnknownDiscoveryXPCProtocol> _proxy;
 }
 
 + (id);
@@ -35,47 +26,32 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@L`@!`
+Lj @a( `;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)˟;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType accessoryDiscoveredCallback; // @synthesize accessoryDiscoveredCallback=_accessoryDiscoveredCallback;
-@property(copy, nonatomic) CDUnknownBlockType accessoryDiscoveryErrorCallback; // @synthesize accessoryDiscoveryErrorCallback=_accessoryDiscoveryErrorCallback;
-@property(copy, nonatomic) CDUnknownBlockType accessoryDiscoveryFinishedCallback; // @synthesize accessoryDiscoveryFinishedCallback=_accessoryDiscoveryFinishedCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPUnknownDiscoveryXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType sessionInvalidatedCallback; // @synthesize sessionInvalidatedCallback=_sessionInvalidatedCallback;
-@property(copy, nonatomic) SPUnknownDiscoverySessionState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

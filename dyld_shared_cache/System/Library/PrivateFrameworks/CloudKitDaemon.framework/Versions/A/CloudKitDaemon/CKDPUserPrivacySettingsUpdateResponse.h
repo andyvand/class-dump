@@ -11,12 +11,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nds. [%{ptr}]...;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)C;
 
 @end
 

@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface CPLResetFeedbackMessage : CPLFeedbackMessage
 {
     NSString *_resetType;
-    NSString *_reason;
-    NSString *_uuid;
 }
 
-+ (id)eNewBatchFromChanges:newSyncAnchor:inTransaction: /* Error: Ran out of types for this method. */;
++ (id)_handleNewBatchFromChanges:newSyncAnchor:inTransaction: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -26,9 +24,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) NSString *resetType; // @synthesize resetType=_resetType;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

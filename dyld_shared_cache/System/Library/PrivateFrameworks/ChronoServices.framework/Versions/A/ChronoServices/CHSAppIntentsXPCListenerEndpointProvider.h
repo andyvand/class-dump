@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSChronoServicesConnection, NSString;
+@class CHSChronoServicesConnection;
 
 @interface CHSAppIntentsXPCListenerEndpointProvider
 {
     CHSChronoServicesConnection *_connection;
-    NSString *_bundleIdentifier;
 }
 
-- (void);
+- (void)B;
 - (id);
 - (void);
 

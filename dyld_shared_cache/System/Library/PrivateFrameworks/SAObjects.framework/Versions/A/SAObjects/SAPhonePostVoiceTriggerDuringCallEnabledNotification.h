@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)<m;
 - (_Bool);
 - (_Bool);
 - (id);

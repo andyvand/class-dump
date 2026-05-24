@@ -9,23 +9,15 @@
 @interface GEOARElementDetails
 {
     PBUnknownFields *_unknownFields;
-    int _arElementShown;
-    _Bool _didSafetyUiTraggier;
-    _Bool _didUserSeeArLabel;
-    struct {
-        unsigned int has_arElementShown:1;
-        unsigned int has_didSafetyUiTraggier:1;
-        unsigned int has_didUserSeeArLabel:1;
-    } _flags;
 }
 
-+ (_Bool)ttingsPauseSpokenAudioEnabled:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setHasMapSettingsPauseSpokenAudioEnabled:(id)arg1;
+- (void)initWithName:(_Bool)arg1 tasks: /* Error: Ran out of types for this method. */;
+- (void)initWithName:(_Bool)arg1 implementation:typeEncoding: /* Error: Ran out of types for this method. */;
+- (void)formattedTimeString;
+- (void)cardDAVAccountForPrimaryAppleAccountWithAppleID:(_Bool)arg1 logger: /* Error: Ran out of types for this method. */;
+- (void)cardDAVAccountForPrimaryAppleAccountWithAppleID:(_Bool)arg1 logger: /* Error: Ran out of types for this method. */;
+- (void)_hardCodedPrincipalPathForFamilyMember:(int)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,28 +30,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_isJarvisConnected;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)Nabataean;
+- (_Bool);
 - (void)!ØAùQ·*Ð1Â0@ù
 × ;
-- (id)datesDesiredAccuracyForDriving;
+- (id)locationUpdatesDesiredAccuracyForDriving;
 - (id)¼éHêüëDðTò¬óôÜô¬õ0÷;
-- (id)chEnableSiriSuggestions;
+- (id)LagunaBeachEnableSiriSuggestions;
 - (id);
 - (void)(7;
 
 // Remaining properties
-@property(nonatomic) int arElementShown;
-@property(nonatomic) _Bool didSafetyUiTraggier;
-@property(nonatomic) _Bool didUserSeeArLabel;
 @property(nonatomic) _Bool hasArElementShown;
-@property(nonatomic) _Bool hasDidSafetyUiTraggier;
-@property(nonatomic) _Bool hasDidUserSeeArLabel;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

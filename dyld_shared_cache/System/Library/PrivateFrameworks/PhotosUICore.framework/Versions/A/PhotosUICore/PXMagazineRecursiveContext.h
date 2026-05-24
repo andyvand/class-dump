@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PXNewMagazineRectArray;
+@class NSMutableArray;
 
 @interface PXMagazineRecursiveContext
 {
     NSMutableArray *_generatedChunks;
-    PXNewMagazineRectArray *_outRectArray;
-    PXNewMagazineRectArray *_fallbackRectArray;
 }
 
 - (void);
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXNewMagazineRectArray *fallbackRectArray; // @synthesize fallbackRectArray=_fallbackRectArray;
 @property(retain, nonatomic) NSMutableArray *generatedChunks; // @synthesize generatedChunks=_generatedChunks;
-@property(retain, nonatomic) PXNewMagazineRectArray *outRectArray; // @synthesize outRectArray=_outRectArray;
 
 @end
 

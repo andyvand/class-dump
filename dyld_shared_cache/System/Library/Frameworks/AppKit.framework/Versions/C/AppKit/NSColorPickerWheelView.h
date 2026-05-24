@@ -6,41 +6,34 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColorSpace, NSImage;
+@class NSColorSpace;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerWheelView : NSView
 {
     _Bool _wheelImageIsValid;
-    NSImage *_wheelImage;
-    struct CGPoint currentPt;
-    _Bool _isTracking;
-    id colorPanel;
-    id controllingPicker;
-    double _brightness;
-    NSColorSpace *_preferredDisplayColorSpace;
 }
 
-+ (id);
++ (id)5;
 - (void);
-- (id);
+- (id)ne_tracker_set_test_domains;
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)ICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)set_expiredDNSBehavior: /* Error: Ran out of types for this method. */;
+- (void)set_TCPConnectionMetadata:(id)arg1;
+- (void)setUserInfo:(id)arg1;
+- (void)setTaskCompleted;
+- (_Bool)setQualityOfService: /* Error: Ran out of types for this method. */;
+- (id)$1;
+- (id)sleep/wake;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)P;
+- (void)ices)+1);
+- (void)@;
 - (id);
 - (struct CGPoint);
 - (_Bool);
@@ -57,14 +50,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void)ceID;
+- (void)wallSpaceID;
 - (void)_pSgXw;
 - (_Bool)ÆÞ?;
 - (_Bool)*@;
 - (void)ÿ¨åI;
 
 // Remaining properties
-@property(readonly, retain) NSColorSpace *effectiveDisplayColorSpace;
 @property(retain) NSColorSpace *preferredDisplayColorSpace;
 
 @end

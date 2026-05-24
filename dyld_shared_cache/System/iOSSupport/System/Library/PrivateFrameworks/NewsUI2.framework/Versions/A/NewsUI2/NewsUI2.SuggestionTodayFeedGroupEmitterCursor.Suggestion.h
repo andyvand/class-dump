@@ -7,8 +7,6 @@
 @interface NewsUI2.SuggestionTodayFeedGroupEmitterCursor.Suggestion
 {
     id cluster;
-    id tag;
-    id headlines;
 }
 
 @end

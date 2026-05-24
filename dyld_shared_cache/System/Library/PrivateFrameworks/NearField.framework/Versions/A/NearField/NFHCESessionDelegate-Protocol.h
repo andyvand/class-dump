@@ -5,5 +5,13 @@
 //
 
 @protocol NFHCESessionDelegate
+
+@optional
+- (void)plusButton;
+- (void)messagingServiceView;
+- (void)labelView;
+- (void)ONS@200-[plusButton];
+- (void)_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS@200-[plusButton];
+- (void)ABTemplateNameViewPhotoInsetLeading;
 @end
 

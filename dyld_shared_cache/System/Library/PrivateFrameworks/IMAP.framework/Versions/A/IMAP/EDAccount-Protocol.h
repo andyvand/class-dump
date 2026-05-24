@@ -7,17 +7,13 @@
 @class ACAccount, NSString;
 
 @protocol EDAccount
+- (NSString *);
+- (ACAccount *)keys detected - entity %{public}@ - predicate %{public}@;
+- (NSString *)8@16^B24;
 - (NSString *)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *altDSID;
-@property(copy) NSString *displayName;
 @property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isActive;
-@property(readonly) _Bool primaryiCloudAccount;
-@property(readonly, copy, nonatomic) NSString *statisticsKind;
-@property(readonly) ACAccount *systemAccount;
-@property(readonly, copy) NSString *username;
 @end
 

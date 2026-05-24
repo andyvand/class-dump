@@ -9,7 +9,6 @@
 @interface PKCatalog
 {
     NSMutableArray *_groups;
-    NSDate *_timestamp;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -30,18 +29,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)v";
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)w;
+- (id);
+- (void)requestStoreReview;
 - (id)Çþk¬;
 - (void)ñÿUåj<;
 - (unsigned long long)t½ÿ\;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *groups; // @synthesize groups=_groups;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

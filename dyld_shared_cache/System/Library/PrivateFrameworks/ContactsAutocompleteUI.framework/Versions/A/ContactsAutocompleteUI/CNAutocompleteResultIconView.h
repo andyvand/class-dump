@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView;
+@class NSImage;
 
 @interface CNAutocompleteResultIconView
 {
     NSImage *_image;
-    NSImage *_selectedImage;
-    NSImageView *_iconView;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)߈);
 - (id);
 - (void);
 - (void);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImageView *iconView; // @synthesize iconView=_iconView;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSImage *selectedImage; // @synthesize selectedImage=_selectedImage;
 
 @end
 

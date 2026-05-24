@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSArray;
-@protocol GEOEncyclopedicInfo, GEOTransitAttribution;
+@class NSArray;
 
 @protocol GEOTransitLineItem
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitAttribution> attribution;
-@property(readonly, nonatomic) id <GEOEncyclopedicInfo> encyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasEncyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasIncidentComponent;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) _Bool isIncidentsTTLExpired;
 @property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
 @end
 

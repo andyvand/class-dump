@@ -6,9 +6,6 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString;
-@protocol NURenderStatistics;
-
 @interface _NUVideoPlaybackFrameRequestResponse : _NURenderResult
 {
     struct __CVBuffer *_frame;
@@ -16,18 +13,10 @@
 
 - (void);
 - (struct __CVBuffer *);
-- (void);
+- (void)sum:(struct __CVBuffer *)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) struct __CVBuffer *frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

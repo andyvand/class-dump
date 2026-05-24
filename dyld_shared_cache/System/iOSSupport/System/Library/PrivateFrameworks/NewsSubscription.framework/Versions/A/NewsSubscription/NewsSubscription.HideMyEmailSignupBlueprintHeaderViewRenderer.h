@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupBlueprintHeaderViewRenderer
 {
     id styler;
-    id logoProvider;
 }
 
 @end

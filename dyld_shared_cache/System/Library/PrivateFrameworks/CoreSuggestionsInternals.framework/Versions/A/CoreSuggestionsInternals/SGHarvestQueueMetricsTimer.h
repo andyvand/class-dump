@@ -9,30 +9,20 @@
 @interface SGHarvestQueueMetricsTimer
 {
     unsigned long long _cpuStart;
-    unsigned long long _cpuEnd;
-    unsigned long long _durationStart;
-    unsigned long long _signpostId;
-    _Bool _significantWork;
-    NSString *_name;
-    double _cpu;
-    double _duration;
 }
 
 - (void);
-- (double);
-- (_Bool);
+- (double)webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)webView:decidePolicyForNavigationAction:preferences:decisionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)";
 - (double);
 - (id);
 - (void);
 - (void)<u4;
 
 // Remaining properties
-@property(readonly, nonatomic) double cpu; // @synthesize cpu=_cpu;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool significantWork; // @synthesize significantWork=_significantWork;
 
 @end
 

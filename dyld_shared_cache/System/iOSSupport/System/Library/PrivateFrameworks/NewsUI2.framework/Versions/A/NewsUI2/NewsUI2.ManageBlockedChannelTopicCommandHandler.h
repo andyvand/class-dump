@@ -7,8 +7,6 @@
 @interface NewsUI2.ManageBlockedChannelTopicCommandHandler
 {
     id navigator;
-    id tracker;
-    id subscriptionList;
 }
 
 @end

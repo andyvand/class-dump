@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)bleIndex: /* Error: Ran out of types for this method. */;
+- (id)frameForViewAtVisibleIndex: /* Error: Ran out of types for this method. */;
 - (void);ÿ$@;
 
 // Remaining properties

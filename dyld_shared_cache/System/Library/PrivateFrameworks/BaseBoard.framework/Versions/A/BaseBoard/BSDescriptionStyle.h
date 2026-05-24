@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface BSDescriptionStyle
 {
     long long _verbosity;
-    long long _debugging;
-    long long _collectionLineBreak;
-    long long _proemItemSeparator;
-    long long _bodyItemSeparator;
-    long long _nameTruncation;
-    long long _maximumNameLengthBeforeTruncation;
-    long long _valueTruncation;
-    long long _maximumValueLengthBeforeTruncation;
-    long long _collectionTruncationStyle;
-    long long _keyValuePairSorting;
-    long long _maximumItemCountForTruncation;
-    NSSet *_clientInformation;
 }
 
 + (id);
@@ -36,8 +22,8 @@
 - (id);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long)R@;
+- (long long)*;
 - (long long);
 - (long long);
 - (long long);
@@ -47,34 +33,15 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)a&;
 - (unsigned long long);
-- (id);
+- (id)`;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bodyItemSeparator;
-@property(readonly, copy, nonatomic) NSSet *clientInformation;
-@property(readonly, nonatomic) long long collectionLineBreak;
-@property(readonly, nonatomic) long long collectionTruncationStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long debugging;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long keyValuePairSorting;
-@property(readonly, nonatomic) long long maximumItemCountForTruncation;
-@property(readonly, nonatomic) long long maximumNameLengthBeforeTruncation;
-@property(readonly, nonatomic) long long maximumValueLengthBeforeTruncation;
-@property(readonly, nonatomic) long long nameTruncation;
-@property(readonly, nonatomic) long long proemItemSeparator;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long valueTruncation;
 @property(readonly, nonatomic) long long verbosity;
 
 @end

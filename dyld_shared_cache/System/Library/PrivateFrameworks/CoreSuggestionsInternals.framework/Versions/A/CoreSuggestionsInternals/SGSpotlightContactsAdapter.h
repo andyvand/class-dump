@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SGSqlEntityStore;
+@class NSURL, SGSqlEntityStore;
 
 @interface SGSpotlightContactsAdapter
 {
     NSURL *_vCardsDirectoryURL;
-    SGSqlEntityStore *_store;
 }
 
 + (void);
++ (id)=dd}56;
++ (id)Am(;
 + (id);
-+ (id);
-+ (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void)r;
+- (void)SGEKEventStoreProvider;
 - (void)ABLE keyValueStore (key TEXT PRIMARY KEY NOT NULL, value) WITHOUT ROWID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak SGSqlEntityStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol AVDesktopGestureControllerDelegate
+
+@optional
+- (void)L;
 @end
 

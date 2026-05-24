@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFSimpleItemRichCardSection, SFCommandReference;
+@class NSData, RFSimpleItemRichCardSection;
 
 @protocol RFSummaryItemExpandableContent
+- (NSData *);
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandReference *command_reference;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFSimpleItemRichCardSection *simple_item_rich_card_section;
 @end
 

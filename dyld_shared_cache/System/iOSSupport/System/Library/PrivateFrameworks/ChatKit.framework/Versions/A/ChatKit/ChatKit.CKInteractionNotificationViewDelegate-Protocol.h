@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ChatKit.CKInteractionNotificationView;
+
 @protocol ChatKit.CKInteractionNotificationViewDelegate
+- (void)configureMenuItemForCustomSorting:(ChatKit.CKInteractionNotificationView *)arg1;
+- (void)convertAttachmentToLinkSystemImageName;
 @end
 

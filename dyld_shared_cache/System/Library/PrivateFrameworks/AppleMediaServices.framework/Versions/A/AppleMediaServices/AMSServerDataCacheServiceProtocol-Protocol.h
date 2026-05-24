@@ -5,5 +5,7 @@
 //
 
 @protocol AMSServerDataCacheServiceProtocol
+- (void);
+- (void)o;
 @end
 

@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISceneDestructionCondition
 {
     long long _kind;
 }
 
-+ (id);
-+ (id);
++ (id)tifier of last published status, not attempting to recover;
++ (id)at with guid %@ to have shouldForceToSMS = YES;
 + (_Bool)UIView"8@"UIView"16;
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id)0@ù
 × ;
-- (_Bool)ectForSlot:(id)arg1;
-- (void)singMask;
+- (_Bool)objectForSlot:(id)arg1;
+- (void)edgeAntialiasingMask;
 - (void)_startedFromFloating;
 - (id)ewControllerContentViewEmbedding>",R,D,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

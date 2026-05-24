@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, RTLearnedLocation, RTLearnedPlace;
+@class NSUUID;
 
 @interface RTLearnedLocationOfInterest
 {
     NSUUID *_identifier;
-    RTLearnedLocation *_location;
-    RTLearnedPlace *_place;
-    NSArray *_visits;
-    NSArray *_transitions;
 }
 
 + (id);
@@ -21,35 +17,24 @@
 + (id);
 + (unsigned long long);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (id);
+- (id)%@:%d], %@. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)alidateTrainingDurationCapTimer;
-- (id)Transit;
+- (id)_invalidateTrainingDurationCapTimer;
+- (id)SMDirectionsTransportTypeTransit;
 - (void)dVisits.count (in %s:%d) /* Error: Ran out of types for this method. */;
 - (double)error while verifying visit graph expiration dates, %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) RTLearnedLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) RTLearnedPlace *place; // @synthesize place=_place;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *transitions; // @synthesize transitions=_transitions;
-@property(readonly, nonatomic) NSArray *visits; // @synthesize visits=_visits;
 
 @end
 

@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTypeSelectPanel, NSView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSTypeSelectData
 {
     NSString *_currentSearch;
-    long long _currentSearchRow;
-    long long _currentSearchCol;
-    long long _initialSearchRow;
-    long long _totalRows;
-    NSView *_view;
-    NSTypeSelectPanel *_typeSelectPanel;
-    unsigned int _foundMatch:1;
-    unsigned int _reserved:31;
 }
 
-+ (_Bool);
++ (_Bool)ame():passed a bogus filename /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)eKgHzGQ9HnWdPKX7W16OAg;
 - (long long);
-- (id);
+- (id)`;
 - (_Bool);
 - (long long);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)Дj;
+- (void)session uuid;
 - (void);
 - (void);
 

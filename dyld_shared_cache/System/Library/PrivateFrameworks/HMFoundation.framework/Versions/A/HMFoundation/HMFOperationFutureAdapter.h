@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFFuture, HMFPromise;
+@class HMFPromise;
 
 __attribute__((visibility("hidden")))
 @interface HMFOperationFutureAdapter
 {
     HMFPromise *_promise;
-    HMFFuture *_future;
 }
 
 - (void);

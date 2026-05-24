@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPress, UIPressesEvent, UIResponder;
+@class UIPressesEvent, UIResponder;
 
 __attribute__((visibility("hidden")))
 @interface _UIRIPReceiver
 {
     UIPressesEvent *_event;
-    UIResponder *_responder;
-    Class _clazz;
-    long long _phase;
-    UIPress *_press;
 }
 
 - (id);
-- (Class);
+- (Class)meCardHasUpdated;
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)ns [not found] count=%lld;
 - (unsigned long long);
 - (_Bool)ct={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) Class clazz; // @synthesize clazz=_clazz;
-@property(readonly, nonatomic) long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) UIPress *press; // @synthesize press=_press;
 @property(readonly, nonatomic) UIResponder *responder; // @synthesize responder=_responder;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NoteHTMLEditorView;
+@class NoteHTMLEditorView;
 
 @interface NoteHTMLEditorViewScriptMessageHandler
 {
@@ -14,18 +14,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)ex: /* Error: Ran out of types for this method. */;
+- (void)_setAccessibilityEncodedHierarchyData:(id)arg1;
+- (void)characterAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NoteHTMLEditorView *noteHTMLEditorView; // @synthesize noteHTMLEditorView=_noteHTMLEditorView;
-@property(readonly) Class superclass;
 
 @end
 

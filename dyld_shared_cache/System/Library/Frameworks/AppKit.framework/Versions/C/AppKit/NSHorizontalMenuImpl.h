@@ -6,15 +6,13 @@
 
 #import <AppKit/NSCocoaMenuImpl.h>
 
-@class NSObject, NSView;
-@protocol NSMenuItemViewProtocol, NSMenuRepresentable;
+@class NSObject;
+@protocol NSMenuRepresentable;
 
 __attribute__((visibility("hidden")))
 @interface NSHorizontalMenuImpl : NSCocoaMenuImpl
 {
     NSObject<NSMenuRepresentable> *_representationView;
-    NSView<NSMenuItemViewProtocol> *_rememberedHighlightedItemView;
-    _Bool _selectionDrawsInactive;
 }
 
 - (void);
@@ -22,22 +20,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)or<std:(id)arg1:pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)set_allowsHTTP3:(long long)arg1;
+- (_Bool)set_allowsConstrainedOverride:(long long)arg1;
+- (void)initWithProxyHost:(CDUnknownBlockType)arg1 port:type:realm:authenticationMethod: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (struct CGRect);
+- (id);
+- (struct CGRect)ate;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id):OL /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
-- (void)Error: /* Error: Ran out of types for this method. */;
+- (void)_setNonModalDocumentError: /* Error: Ran out of types for this method. */;
 - (void)PAA;
 
 @end

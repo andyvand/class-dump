@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _ANEIOSurfaceOutputSets
 {
     struct __IOSurface *_statsSurRef;
-    NSArray *_outputBuffer;
 }
 
 + (id);
@@ -26,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *outputBuffer; // @synthesize outputBuffer=_outputBuffer;
 @property(readonly, nonatomic) struct __IOSurface *statsSurRef; // @synthesize statsSurRef=_statsSurRef;
 
 @end

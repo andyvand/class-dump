@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFSQLExpressable;
 
 @interface EFSQLOrderExpression
 {
     _Bool _isAscending;
-    id <EFSQLExpressable> _expression;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)ternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/asn1/asn_pack.c;
 - (id);
 - (id);
 - (id);
@@ -22,16 +20,7 @@
 - (void)_queue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
 @property(readonly, nonatomic) id <EFSQLExpressable> expression; // @synthesize expression=_expression;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAscending; // @synthesize isAscending=_isAscending;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,19 +11,19 @@
     id <TRIWKMSAuthenticationProvider> _authProvider;
 }
 
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
++ (id)sibleFrame: /* Error: Ran out of types for this method. */;
++ (id)encodeBool:(id)arg1 forKey:(id *)arg2;
++ (void)embeddedJPEGSuitableForDerivativesInRawImageSource:(id)arg1 enforcePixelCountLimits:(CDUnknownBlockType)arg2 timeZoneLookup: /* Error: Ran out of types for this method. */;
++ (id)embeddedJPEGSuitableForDerivativesInRawImageSource:(id)arg1 enforcePixelCountLimits:(id *)arg2 timeZoneLookup: /* Error: Ran out of types for this method. */;
++ (void)embeddedJPEGSuitableForDerivativesInImageOfType:(id)arg1 url:(CDUnknownBlockType)arg2 imageProperties: /* Error: Ran out of types for this method. */;
++ (id)addIndexesInRange: /* Error: Ran out of types for this method. */;
+- (id)setExportItemStateQueue:(id)arg1;
+- (void)setExifMutableDictionary:(id)arg1;
+- (id)setEncryptedArchiveMetadata:(id)arg1;
+- (void)setEffectFilterName:(id)arg1;
+- (id)pixelValidBounds;
+- (id)livePhotoOriginalImageDisplayTime;
+- (id);
 - (void)0@ù
 × ;
 

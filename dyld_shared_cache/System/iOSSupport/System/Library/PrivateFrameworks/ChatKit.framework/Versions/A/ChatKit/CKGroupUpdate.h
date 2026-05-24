@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKGroupUpdate
 {
     long long _groupUpdateType;
-    NSString *_handleID;
 }
 
-- (void);
-- (id);
+- (void)ICMProgressWindowController;
+- (id)e;
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
 @property(nonatomic) long long groupUpdateType; // @synthesize groupUpdateType=_groupUpdateType;
-@property(retain, nonatomic) NSString *handleID; // @synthesize handleID=_handleID;
 
 @end
 

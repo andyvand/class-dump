@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassDescriptor, NSMutableSet, TSDMetalShader;
-@protocol MTLCommandBuffer, MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder;
+@class NSMutableSet;
+@protocol MTLDevice;
 
 @interface TSDMetalContext
 {
     id <MTLDevice> _device;
-    unsigned long long _pixelFormat;
-    unsigned long long _currentBuffer;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLCommandBuffer> _commandBuffer;
-    MTLRenderPassDescriptor *_passDescriptor;
-    TSDMetalShader *_shader;
-    id <MTLRenderCommandEncoder> _renderEncoder;
-    struct CGColorSpace *_destinationColorSpace;
-    NSMutableSet *_retainedObjects;
-    struct CGSize _layerSize;
-    struct {
-        double currentTime;
-        double displayLinkPresentationTime;
-        double elapsedShowTime;
-    } _timingInfo;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (struct CGColorSpace *);
-- (unsigned long long);
+- (unsigned long long)<;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)K;
 - (id);
 - (id);
 - (void);
@@ -56,18 +41,7 @@
 - (id)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_commandBuffer;
-@property(nonatomic) __weak id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(nonatomic) unsigned long long currentBuffer; // @synthesize currentBuffer=_currentBuffer;
-@property(nonatomic) struct CGColorSpace *destinationColorSpace; // @synthesize destinationColorSpace=_destinationColorSpace;
-@property(nonatomic) __weak id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) struct CGSize layerSize; // @synthesize layerSize=_layerSize;
-@property(nonatomic) __weak MTLRenderPassDescriptor *passDescriptor; // @synthesize passDescriptor=_passDescriptor;
-@property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) __weak id <MTLRenderCommandEncoder> renderEncoder; // @synthesize renderEncoder=_renderEncoder;
 @property(retain, nonatomic) NSMutableSet *retainedObjects; // @synthesize retainedObjects=_retainedObjects;
-@property(nonatomic) __weak TSDMetalShader *shader; // @synthesize shader=_shader;
-@property(nonatomic) CDStruct_39925896 timingInfo; // @synthesize timingInfo=_timingInfo;
 
 @end
 

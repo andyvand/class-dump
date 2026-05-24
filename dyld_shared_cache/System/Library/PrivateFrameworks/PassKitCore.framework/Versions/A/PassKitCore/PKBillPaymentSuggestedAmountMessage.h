@@ -9,7 +9,6 @@
 @interface PKBillPaymentSuggestedAmountMessage
 {
     NSString *_title;
-    NSString *_message;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void)card;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

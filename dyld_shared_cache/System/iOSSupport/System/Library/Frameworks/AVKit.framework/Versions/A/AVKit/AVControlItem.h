@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVButton, NSString, UIColor, UIFont, UIImage, UIMenu, UIView;
+@class AVButton;
 @protocol AVControlItemDelegate;
 
 @interface AVControlItem
 {
     AVButton *_button;
-    UIFont *_titleFont;
-    long long _style;
-    _Bool _enabled;
-    _Bool _titleLabelEncapsulated;
-    _Bool _firstGenerationControl;
-    long long _type;
-    NSString *_title;
-    UIImage *_image;
-    CDUnknownBlockType _action;
-    UIColor *_tintColor;
-    id <AVControlItemDelegate> _delegate;
-    NSString *_identifier;
-    id _tip;
 }
 
 + (id);
@@ -39,63 +26,42 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)hread, :mailbox); /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void)of horizontal dot has zero magnitude;
+- (void)gation.CLP.LogEntry.RayTracingTileData.FacetInterVisibilityData;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)143580;
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)__AUTH_CONST;
+- (id)KRecord field is not set or not of the expected type (got %@);
 - (void);
 - (id);
 - (void)!ÜBù±[1Â0@ù
 × ;
-- (id)te: /* Error: Ran out of types for this method. */;
-- (id)tion;
+- (id)scrollingObserverDidChangeScrollingState: /* Error: Ran out of types for this method. */;
+- (id)_transitionDirection;
 - (void)jèû´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVControlItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isFirstGenerationControl) _Bool firstGenerationControl; // @synthesize firstGenerationControl=_firstGenerationControl;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIMenu *menu;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(retain, nonatomic) id tip; // @synthesize tip=_tip;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic, getter=isTitleLabelEncapsulated) _Bool titleLabelEncapsulated; // @synthesize titleLabelEncapsulated=_titleLabelEncapsulated;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) UIView *view;
 
 @end
 

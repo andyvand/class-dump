@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, _PASLazyPurgeableResult;
+@class NSString;
 
 @interface SGMultiHeadEspressoModelWrapper
 {
     NSString *_espressoModelFile;
-    NSString *_inputName;
-    NSDictionary *_headDimensionality;
-    _PASLazyPurgeableResult *_model;
 }
 
 - (void);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *espressoModelFile; // @synthesize espressoModelFile=_espressoModelFile;
-@property(retain, nonatomic) NSDictionary *headDimensionality; // @synthesize headDimensionality=_headDimensionality;
-@property(retain, nonatomic) NSString *inputName; // @synthesize inputName=_inputName;
-@property(retain, nonatomic) _PASLazyPurgeableResult *model; // @synthesize model=_model;
 
 @end
 

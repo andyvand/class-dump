@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol NSItemProviderWriting
++ (NSArray *);
+
+@optional
++ (long long)initWithObjects:(NSString *)arg1;
+- (long long)initialFrameForViewController:(NSString *)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

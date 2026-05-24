@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDDeviceSetupSessionInternal.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
@@ -17,20 +17,14 @@ __attribute__((visibility("hidden")))
 
 + (id)c}@Update completed with error:%@ /* Error: Ran out of types for this method. */;
 + (_Bool)lient;
-+ (long long)hreadRadioManager;
++ (long long)threadRadioManager;
 + (id)ÿ0â;
-- (_Bool);
+- (_Bool)lciBEcloXQ2hpY2FnbywgSUwgIDYwNjA2LTYzMDZaDVVuaXRlZCBTdGF0ZXN6mgEKDVVuaXRlZCBTdGF0ZXMSAlVTGghJbGxpbm9pcyICSUwqBENvb2syB0NoaWNhZ286BTYwNjA2QghUaGUgTG9vcFILUyBXYWNrZXIgRHJaAzIzM2IPMjMzIFMgV2Fja2VyIERyagQ2MzA2cgxXaWxsaXMgVG93ZXKKAQdDaGljYWdvigEIVGhlIExvb3CiAQo2MDYwNi02MzA2ShIJIRqCiHnwREARgBL69LPoVcBYBGISCTJrzmZ68ERAEfH7kujA6FXAcMI7;
 - (id);
 - (void)sory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

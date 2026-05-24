@@ -4,46 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAgeVerificationState, NSError;
 @protocol MPCContentAgeRequirementDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MPCContentAgeRequirementManager
 {
     id <MPCContentAgeRequirementDelegate> _delegate;
-    long long _status;
-    NSError *_authorizationError;
-    ICAgeVerificationState *_lastKnownAgeVerificationState;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
+- (void)tion/AADataclassEnableNotificationPlugin.bundle/Contents/MacOS/AADataclassEnableNotificationPlugin;
+- (void)__objc_methlist;
+- (id)NSObject;
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)__objc_classlist__DATA_CONST;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)o email address;
+- (_Bool)country;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)(=;
 - (long long);
 - (void)ut reason [No audio tap setup possible] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *authorizationError; // @synthesize authorizationError=_authorizationError;
 @property(readonly, nonatomic) long long authorizationReason;
-@property(nonatomic) __weak id <MPCContentAgeRequirementDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) ICAgeVerificationState *lastKnownAgeVerificationState; // @synthesize lastKnownAgeVerificationState=_lastKnownAgeVerificationState;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

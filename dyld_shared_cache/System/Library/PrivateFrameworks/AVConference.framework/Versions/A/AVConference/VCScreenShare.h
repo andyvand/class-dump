@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface VCScreenShare
 {
     _Bool _isWindowed;
-    _Bool _isCursorCaptured;
-    _Bool _privateContentCaptureAllowed;
-    _Bool _contentRepickingAllowed;
-    unsigned int _height;
-    unsigned int _width;
-    unsigned int _frameRate;
-    unsigned int _screenCaptureDisplayID;
-    int _displayMode;
-    unsigned int _selectiveSharingPort;
-    NSNumber *_clientPID;
-    NSString *_clientBundleID;
-    NSData *_clientAuditTokenData;
-    NSString *_screenVirtualDisplayLabel;
-    NSArray *_excludedApplicationBundleIDs;
-    NSArray *_excludedAudioPids;
-    NSString *_selectiveScreenUUID;
-    long long _captureSourceID;
-    unsigned long long _pdProtectionOptions;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int)C;
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (_Bool);
 - (unsigned long long);
@@ -61,29 +43,11 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)urveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}68^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}76B84B88B92;
 - (int)Init options;
 
 // Remaining properties
-@property(readonly, nonatomic) long long captureSourceID; // @synthesize captureSourceID=_captureSourceID;
-@property(readonly, nonatomic) NSData *clientAuditTokenData; // @synthesize clientAuditTokenData=_clientAuditTokenData;
-@property(retain, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
 @property(retain, nonatomic) NSNumber *clientPID; // @synthesize clientPID=_clientPID;
-@property(nonatomic) _Bool contentRepickingAllowed; // @synthesize contentRepickingAllowed=_contentRepickingAllowed;
-@property(readonly, nonatomic) int displayMode; // @synthesize displayMode=_displayMode;
-@property(retain, nonatomic) NSArray *excludedApplicationBundleIDs; // @synthesize excludedApplicationBundleIDs=_excludedApplicationBundleIDs;
-@property(retain, nonatomic) NSArray *excludedAudioPids; // @synthesize excludedAudioPids=_excludedAudioPids;
-@property(readonly, nonatomic) unsigned int frameRate; // @synthesize frameRate=_frameRate;
-@property(readonly, nonatomic) unsigned int height; // @synthesize height=_height;
-@property(nonatomic) _Bool isCursorCaptured; // @synthesize isCursorCaptured=_isCursorCaptured;
-@property(readonly, nonatomic) _Bool isWindowed; // @synthesize isWindowed=_isWindowed;
-@property(nonatomic) unsigned long long pdProtectionOptions; // @synthesize pdProtectionOptions=_pdProtectionOptions;
-@property(readonly, nonatomic) _Bool privateContentCaptureAllowed; // @synthesize privateContentCaptureAllowed=_privateContentCaptureAllowed;
-@property(readonly, nonatomic) unsigned int screenCaptureDisplayID; // @synthesize screenCaptureDisplayID=_screenCaptureDisplayID;
-@property(readonly, nonatomic) NSString *screenVirtualDisplayLabel; // @synthesize screenVirtualDisplayLabel=_screenVirtualDisplayLabel;
-@property(retain, nonatomic) NSString *selectiveScreenUUID; // @synthesize selectiveScreenUUID=_selectiveScreenUUID;
-@property(readonly, nonatomic) unsigned int selectiveSharingPort; // @synthesize selectiveSharingPort=_selectiveSharingPort;
-@property(readonly, nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

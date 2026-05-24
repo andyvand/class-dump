@@ -6,7 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString, SARemoteDevice;
 @protocol SAHandoffPayload;
 
 @interface SAInitiateHandoffOnCompanion : SABaseClientBoundCommand
@@ -19,28 +18,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id)+;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id)${ýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id <SAHandoffPayload> handoffPayload;
-@property(copy, nonatomic) NSNumber *isSiriXRequest;
-@property(copy, nonatomic) NSString *lockScreenText;
-@property(copy, nonatomic) NSString *lockScreenTextDialogIdentifier;
-@property(copy, nonatomic) NSString *notificationText;
-@property(copy, nonatomic) NSString *notificationTextDialogIdentifier;
-@property(retain, nonatomic) SARemoteDevice *targetDevice;
 
 @end
 

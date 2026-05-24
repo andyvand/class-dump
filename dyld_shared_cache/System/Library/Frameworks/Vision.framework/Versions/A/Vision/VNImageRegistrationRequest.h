@@ -6,19 +6,18 @@
 
 #import <Vision/VNTargetedImageRequest.h>
 
-@class VNImageBuffer, VNImageRegistrationSignature;
+@class VNImageBuffer;
 
 @interface VNImageRegistrationRequest : VNTargetedImageRequest
 {
     VNImageBuffer *_cachedFloatingImageBuffer;
-    VNImageRegistrationSignature *_cachedFloatingImageSignature;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)currentHistoryAnchorInContext:error: /* Error: Ran out of types for this method. */;
 - (void)eLandmarks2D object. Error:%@ /* Error: Ran out of types for this method. */;
 
 @end

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)er;
++ (_Bool)header;
 + (id)ä¡8;
 - (unsigned long long);
 - (id);
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MixBox:(BOOL)arg1:getParameter /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

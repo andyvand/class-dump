@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface FMDVolatileMetaDataRecord
 {
     NSDictionary *_dictionary;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (_Bool);
+- (void):(id)arg1:allocator<_PKStrokePoint>>="__begin_"^{_PKStrokePoint}"__end_"^{_PKStrokePoint}""{?="__cap_"^{_PKStrokePoint}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)inuous;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)me:routeEndLocationWithReferenceFrame: /* Error: Ran out of types for this method. */;
+- (void)istory request.;
 - (id);
 - (void);
 - (id);
@@ -27,16 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

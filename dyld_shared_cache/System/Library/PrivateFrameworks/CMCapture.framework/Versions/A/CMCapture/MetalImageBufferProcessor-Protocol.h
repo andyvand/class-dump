@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIExternalMemoryResource;
 @protocol MTLCommandQueue;
 
 @protocol MetalImageBufferProcessor
+- (void)}8,;
+- (id <MTLCommandQueue>);
+
+@optional
+- (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) CMIExternalMemoryResource *externalMemoryResource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CMIExternalMemoryResource",?,&,N
-
 @property(retain, nonatomic) id <MTLCommandQueue> metalCommandQueue;
-@property(readonly, nonatomic) _Bool supportsExternalMemoryResource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

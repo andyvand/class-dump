@@ -10,30 +10,30 @@
 {
 }
 
-+ (id);
-+ (long long);
-+ (id);
++ (id)setFractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold: /* Error: Ran out of types for this method. */;
++ (long long)tring",C,N,V_assetCloudGUID;
++ (id)currentProgress;
++ (_Bool)currentCaptionGenerationVersion;
++ (id)criteriaForUrgentResourceWorker;
++ (id)Predicate",&,N,Vpredicate;
++ (id)@"NSPersistentStore",&,N,V_store;
++ (_Bool)_suggestionType;
++ (_Bool)NSManagedObjectID",&,N,V_assetObjectID;
++ (id)@"<PLAssetID>",R,C,N;
++ (_Bool)hedMinSplit;
++ (id)mageVersion;
++ (id)cted;
++ (_Bool)IGroup",R,N,V_group;
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (id)HMMediaGroupStageRequestPayloadDestinationControllersDataKey;
 + (id)Að! CùqÐ1Â0@ù
 × ;
 + (void)', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 + (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)UUIDStringLength;
+- (id)deo;
+- (id)isSyncComplete;
+- (id)are disabled [%d];
 
 @end
 

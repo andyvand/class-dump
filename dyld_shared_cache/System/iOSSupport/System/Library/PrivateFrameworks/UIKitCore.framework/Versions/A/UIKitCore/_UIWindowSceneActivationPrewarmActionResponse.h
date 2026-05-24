@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)accountIsVerifiedForMOCAndSafeForCacheDelete;
 - (struct CGRect);
 - (struct UIRectCornerRadii);
 - (unsigned long long);
@@ -16,9 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int sceneContainerContextId;
-@property(readonly, nonatomic) unsigned long long sceneContainerRenderId;
-@property(readonly, nonatomic) struct UIRectCornerRadii sceneCornerRadii;
-@property(readonly, nonatomic) struct CGRect sceneFrame;
 
 @end
 

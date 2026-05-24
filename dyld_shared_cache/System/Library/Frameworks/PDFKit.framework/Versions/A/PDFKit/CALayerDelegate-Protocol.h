@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALayer;
 @protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
+- (void)setHorizonElevation:(CALayer *)arg1;
+- (void);
 - (id <CAAction>)
 ô;
 @end

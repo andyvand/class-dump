@@ -11,21 +11,21 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)MatchPositionFirstQueryToken:(id)arg1;
++ (_Bool)setHasPrefixTokenMatchPositionFirstQueryToken:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)setRequestHistoricalAudioDataWithHostTime:(id)arg1;
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (_Bool)d;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)asHasTrafficLightAtEnd:(struct _NSZone *)arg1;
-- (id)ras;
-- (id)CH_PROBE_COLLECTION_SENT_PROBE_COUNT;
+- (void)x;
+- (id)setHasHasTrafficLightAtEnd:(struct _NSZone *)arg1;
+- (id)PlaceDataExtras;
+- (id)BATCH_PROBE_COLLECTION_SENT_PROBE_COUNT;
 - (id)¸	;
 - (void)Üëþ	¶5'W5;
 

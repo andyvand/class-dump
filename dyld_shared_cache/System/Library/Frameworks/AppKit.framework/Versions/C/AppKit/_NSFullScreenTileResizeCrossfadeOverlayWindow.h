@@ -6,24 +6,12 @@
 
 #import <AppKit/NSPanel.h>
 
-@class CALayer, _NSFullScreenTileResizeCrossfadeOverlayLayer;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileResizeCrossfadeOverlayWindow : NSPanel
 {
     CALayer *_rootLayer;
-    unsigned long long _tileID;
-    unsigned long long _parentID;
-    unsigned long long _closingSpaceID;
-    unsigned long long _openingSpaceID;
-    _Bool _doResize;
-    _Bool _lockedMenuBar;
-    struct CGRect _targetFrame;
-    struct CGRect _targetTileFrame;
-    _NSFullScreenTileResizeCrossfadeOverlayLayer *_beforeTileLayer;
-    _NSFullScreenTileResizeCrossfadeOverlayLayer *_afterTileLayer;
-    _NSFullScreenTileResizeCrossfadeOverlayLayer *_closingTileLayer;
-    _NSFullScreenTileResizeCrossfadeOverlayLayer *_openingTileLayer;
 }
 
 - (id);
@@ -31,27 +19,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)trace.dylib;
 - (void);
 - (void);
-- (void);
-- (id)ledStateFrom:to: /* Error: Ran out of types for this method. */;
+- (id)_didChangeEnabledStateFrom:to: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _NSFullScreenTileResizeCrossfadeOverlayLayer *afterTileLayer; // @synthesize afterTileLayer=_afterTileLayer;
-@property(readonly) unsigned long long closingSpaceID;
-@property(readonly) _NSFullScreenTileResizeCrossfadeOverlayLayer *closingTileLayer; // @synthesize closingTileLayer=_closingTileLayer;
 @property unsigned long long openingSpaceID; // @synthesize openingSpaceID=_openingSpaceID;
-@property(readonly) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
 
 @end
 

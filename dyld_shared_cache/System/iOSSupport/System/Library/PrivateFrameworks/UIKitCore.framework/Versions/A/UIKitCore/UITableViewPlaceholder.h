@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSIndexPath;
 
 @interface UITableViewPlaceholder
 {
     CDUnknownBlockType _cellUpdateHandler;
-    NSIndexPath *_insertionIndexPath;
-    NSString *_reuseIdentifier;
-    double _rowHeight;
 }
 
-- (void);
-- (void);
+- (void)_broadcaster;
+- (void)cryptionValidationToken;
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)is a message from me, not processing for filtering:%@ /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (double)rButtonItemData";
@@ -27,10 +24,7 @@
 - (void)4ÜIÿ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cellUpdateHandler; // @synthesize cellUpdateHandler=_cellUpdateHandler;
 @property(retain, nonatomic) NSIndexPath *insertionIndexPath; // @synthesize insertionIndexPath=_insertionIndexPath;
-@property(retain, nonatomic) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
 
 @end
 

@@ -7,11 +7,10 @@
 @class NSArray, _INPBMessage;
 
 @protocol _INPBSendMessageIntentResponse
+- (_INPBMessage *)@9;
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSentMessage;
 @property(retain, nonatomic) _INPBMessage *sentMessage;
-@property(copy, nonatomic) NSArray *sentMessages;
-@property(readonly, nonatomic) unsigned long long sentMessagesCount;
 @end
 

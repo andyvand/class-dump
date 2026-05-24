@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MANode, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface MANodeLegacyImplementation
 {
     NSMutableArray *_edges;
-    MANode *_node;
 }
 
 - (void);
@@ -18,23 +17,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)JK;
 - (void);
-- (void);
-- (void);
+- (void)8:16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

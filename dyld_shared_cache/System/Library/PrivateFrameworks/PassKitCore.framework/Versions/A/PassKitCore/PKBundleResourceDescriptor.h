@@ -9,7 +9,6 @@
 @interface PKBundleResourceDescriptor
 {
     NSString *_name;
-    NSString *_extension;
 }
 
 + (_Bool)!üCùî%Ð1Â0@ù
@@ -18,17 +17,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasFirstLevelMMCSErrorDomain;
 - (void);
 - (id);
 - (id)claim succeeded:%@ /* Error: Ran out of types for this method. */;
 - (void)ansit.navigo;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *extension; // @synthesize extension=_extension;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

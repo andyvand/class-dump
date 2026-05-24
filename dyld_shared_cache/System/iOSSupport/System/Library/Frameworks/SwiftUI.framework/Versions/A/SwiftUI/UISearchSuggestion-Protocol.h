@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage;
+@class NSString, UIImage;
 
 @protocol UISearchSuggestion
+- (NSString *)ready presented for view controller:%@ /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)WFAQIScaleDisplayLabelKey;
+- (UIImage *)C;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *iconImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImage",?,R,N
-
-@property(readonly, nonatomic) NSAttributedString *localizedAttributedSuggestion;
-@property(readonly, nonatomic) NSString *localizedDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSString *localizedSuggestion;
-@property(retain, nonatomic) id representedObject;
 @end
 

@@ -9,32 +9,20 @@
 @interface IFGraphicSymbolDefaults
 {
     NSString *_symbolName;
-    long long _renderingMode;
-    long long _symbolColor;
-    long long _symbolColorAlternate;
-    long long _enclosureColor;
-    long long _enclosureColorAlternate;
-    double _enclosureSizeMultiplier;
 }
 
 + (id);
 - (long long);
-- (double);
+- (double)�E2H1*1;
 - (long long);
 - (long long);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)5zc;
 - (long long)lip;
 
 // Remaining properties
-@property(readonly) long long enclosureColor; // @synthesize enclosureColor=_enclosureColor;
-@property(readonly) long long enclosureColorAlternate; // @synthesize enclosureColorAlternate=_enclosureColorAlternate;
-@property(readonly) double enclosureSizeMultiplier; // @synthesize enclosureSizeMultiplier=_enclosureSizeMultiplier;
-@property(readonly) long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly) long long symbolColor; // @synthesize symbolColor=_symbolColor;
-@property(readonly) long long symbolColorAlternate; // @synthesize symbolColorAlternate=_symbolColorAlternate;
 @property(readonly) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end

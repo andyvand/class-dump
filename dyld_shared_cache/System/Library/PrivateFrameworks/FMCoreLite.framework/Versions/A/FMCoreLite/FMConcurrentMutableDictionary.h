@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMReadWriteLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface FMConcurrentMutableDictionary
 {
     NSMutableDictionary *_underlyingDictionary;
-    FMReadWriteLock *_lock;
 }
 
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)ijv8	7;
+- (id)c;
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) FMReadWriteLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableDictionary *underlyingDictionary; // @synthesize underlyingDictionary=_underlyingDictionary;
 
 @end

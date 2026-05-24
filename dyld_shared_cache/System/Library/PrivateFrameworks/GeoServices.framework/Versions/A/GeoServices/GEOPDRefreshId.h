@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRefreshId
 {
     PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_forwardMapsId;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"b1"read_exitNumber"b1"read_maneuverNames"b1"read_shield"b1"read_signposts"b1"wrote_anyField"b1};
-- (id)Major;
+- (id)_modelNumberMajor;
 - (id)°ð#HXÔ;
 - (void);
 

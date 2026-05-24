@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (_Bool)%d
 ;
 - (void);
-- (_Bool);
+- (_Bool)calculateAndSaveAliasesToDefaults;
 - (void);
 - (void);
 - (void);

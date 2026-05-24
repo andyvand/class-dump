@@ -15,8 +15,8 @@
 
 - (id);
 - (void);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_loadDataSource:forSection:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *supportedSessionTypes; // @synthesize supportedSessionTypes=_supportedSessionTypes;

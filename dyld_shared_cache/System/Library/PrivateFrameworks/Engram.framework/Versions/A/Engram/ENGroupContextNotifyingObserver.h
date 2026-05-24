@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ENGroupContextNotifyingObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _onGroupCache;
-    CDUnknownBlockType _onGroupCreate;
-    CDUnknownBlockType _onGroupUpdate;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType onGroupCache; // @synthesize onGroupCache=_onGroupCache;
-@property(copy, nonatomic) CDUnknownBlockType onGroupCreate; // @synthesize onGroupCreate=_onGroupCreate;
-@property(copy, nonatomic) CDUnknownBlockType onGroupUpdate; // @synthesize onGroupUpdate=_onGroupUpdate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

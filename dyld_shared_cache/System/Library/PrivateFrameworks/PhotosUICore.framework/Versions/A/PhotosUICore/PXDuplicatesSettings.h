@@ -11,11 +11,11 @@
     _Bool _showDuplicateGroupsWithASingleAsset;
 }
 
-+ (id);
++ (id)repeatableImageFillViewForFill: /* Error: Ran out of types for this method. */;
 + (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (void);
 
 // Remaining properties

@@ -6,15 +6,12 @@
 
 #import <CryptoTokenKit/TKTokenBaseContext.h>
 
-@class NSString, NSXPCListenerEndpoint, TKTokenConfigurationConnection, TKTokenDriver;
+@class TKTokenConfigurationConnection, TKTokenDriver;
 
 __attribute__((visibility("hidden")))
 @interface TKTokenDriverContext : TKTokenBaseContext
 {
     TKTokenConfigurationConnection *_configurationConnection;
-    id _initialKeepAlive;
-    TKTokenDriver *_driver;
-    NSXPCListenerEndpoint *_configurationEndpoint;
 }
 
 - (_Bool);
@@ -31,21 +28,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)mentKey;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TKTokenConfigurationConnection *configurationConnection;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *configurationEndpoint; // @synthesize configurationEndpoint=_configurationEndpoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) TKTokenDriver *driver; // @synthesize driver=_driver;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double idleTimeout;
-@property(readonly) Class superclass;
 
 @end
 

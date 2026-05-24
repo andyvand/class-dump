@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)m;
 - (long long);
 - (void);
 - (void);

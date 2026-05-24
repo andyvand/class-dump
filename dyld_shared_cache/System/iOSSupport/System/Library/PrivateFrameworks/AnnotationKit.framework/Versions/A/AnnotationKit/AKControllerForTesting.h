@@ -6,26 +6,16 @@
 
 #import <AnnotationKit/AKController.h>
 
-@class AKActionController, AKAttributeController, AKLegacyDoodleController, AKMainEventHandler, AKModelController, AKSignatureModelController, AKToolController, AKUndoController, UIView;
 @protocol AKControllerDelegateProtocol;
 
 @interface AKControllerForTesting : AKController
 {
     id <AKControllerDelegateProtocol> _testingDelegate;
-    AKModelController *_testingModelController;
-    AKActionController *_testingActionController;
-    AKToolController *_testingToolController;
-    AKAttributeController *_testingAttributeController;
-    AKUndoController *_testingUndoController;
-    AKMainEventHandler *_testingMainEventHandler;
-    UIView *_testingToolbarView;
-    UIView *_testingOverlayView;
-    AKLegacyDoodleController *_testingIntelligentSketchController;
-    AKSignatureModelController *_testingSignatureModelController;
 }
 
 + (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,24 +24,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)|;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -67,17 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) AKActionController *testingActionController; // @synthesize testingActionController=_testingActionController;
-@property(retain) AKAttributeController *testingAttributeController; // @synthesize testingAttributeController=_testingAttributeController;
 @property(retain) id <AKControllerDelegateProtocol> testingDelegate; // @synthesize testingDelegate=_testingDelegate;
-@property(retain) AKLegacyDoodleController *testingIntelligentSketchController; // @synthesize testingIntelligentSketchController=_testingIntelligentSketchController;
-@property(retain) AKMainEventHandler *testingMainEventHandler; // @synthesize testingMainEventHandler=_testingMainEventHandler;
-@property(retain) AKModelController *testingModelController; // @synthesize testingModelController=_testingModelController;
-@property(retain) UIView *testingOverlayView; // @synthesize testingOverlayView=_testingOverlayView;
-@property(retain) AKSignatureModelController *testingSignatureModelController; // @synthesize testingSignatureModelController=_testingSignatureModelController;
-@property(retain) AKToolController *testingToolController; // @synthesize testingToolController=_testingToolController;
-@property(retain) UIView *testingToolbarView; // @synthesize testingToolbarView=_testingToolbarView;
-@property(retain) AKUndoController *testingUndoController; // @synthesize testingUndoController=_testingUndoController;
 
 @end
 

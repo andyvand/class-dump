@@ -7,9 +7,11 @@
 @class UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)sAfterDate:(UICollectionView *)arg1;
+- (UICollectionViewCell *)CalIsAfterDate:(UICollectionView *)arg1;
 
 @optional
+- (long long)5ڰǔ;
+- (_Bool)WritingToolsCodingKeys;
 - (void)wæG;
 - (UICollectionReusableView *)ÈL;
 @end

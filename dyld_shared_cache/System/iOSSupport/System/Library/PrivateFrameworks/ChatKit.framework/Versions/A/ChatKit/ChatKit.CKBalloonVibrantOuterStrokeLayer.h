@@ -7,15 +7,12 @@
 @interface ChatKit.CKBalloonVibrantOuterStrokeLayer
 {
     id animationDelegate;
-    id shape;
-    id stroke;
-    id material;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)orAllAssets;
+- (id)stopCachingImagesForAllAssets;
 - (void)ÎùÿPÿÿ;
 - (void);
 

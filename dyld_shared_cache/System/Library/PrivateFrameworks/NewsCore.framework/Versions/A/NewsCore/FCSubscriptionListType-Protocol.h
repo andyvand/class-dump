@@ -7,11 +7,10 @@
 @class NSArray, NSSet;
 
 @protocol FCSubscriptionListType
+- (NSSet *);
 - (NSSet *)Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeedRequestOperation.m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *autoFavoriteTagIDs;
-@property(readonly, copy, nonatomic) NSSet *mutedTagIDs;
 @property(readonly, copy, nonatomic) NSArray *rankedAllSubscribedTagIDs;
 @end
 

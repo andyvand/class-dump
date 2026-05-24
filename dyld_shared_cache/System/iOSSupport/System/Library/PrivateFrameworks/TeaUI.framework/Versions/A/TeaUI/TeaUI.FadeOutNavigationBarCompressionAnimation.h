@@ -12,7 +12,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)1b;
 - (void);
 - (void);
 - (double);
@@ -20,14 +20,11 @@
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id)updateEngagementCohortsExpField:conversionCohortsExpField: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;
 @property(nonatomic, readonly) _Bool shouldCloseGapOnScroll;
-@property(nonatomic, readonly) _Bool shouldCompressAtTop;
-@property(nonatomic, readonly) double topOffset;
 
 @end
 

@@ -10,11 +10,11 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)o;
+- (void);
 - (id);
-- (id);
+- (id)?;
 - (void)Processed %ld chats in %ld batches.;
 
 @end

@@ -7,11 +7,6 @@
 @interface AppStoreKit.SearchLink
 {
     id id;
-    id title;
-    id imageName;
-    id clickAction;
-    id impressionMetrics;
-    id artwork;
 }
 
 @end

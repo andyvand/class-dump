@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRecurrenceRule, NSDate, NSDateComponents, NSDateInterval, NSNumber, NSString;
+@class NSDateComponents, NSDateInterval;
 
 @interface INDateComponentsRange
 {
     NSDateComponents *_startDateComponents;
-    NSDateComponents *_endDateComponents;
-    INRecurrenceRule *_recurrenceRule;
-    NSString *_userInput;
-    NSNumber *_allDay;
 }
 
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -28,37 +25,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ceRemoteServerInterface>",R;
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)o;
+- (_Bool)__hasPendingRequestWithType:(id)arg1;
+- (void)-11eb-aa99-f45c89abb0d9;
 - (id);
 - (id);
-- (id)e;
-- (void)tifierOptionsForUpdateEvent:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)_place;
+- (void)provideTargetEventIdentifierOptionsForUpdateEvent:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ì;
 
 // Remaining properties
-@property(readonly, copy) NSNumber *allDay; // @synthesize allDay=_allDay;
 @property(readonly, copy) NSDateInterval *dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDate *endDate;
-@property(readonly, copy) NSDateComponents *endDateComponents; // @synthesize endDateComponents=_endDateComponents;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INRecurrenceRule *recurrenceRule; // @synthesize recurrenceRule=_recurrenceRule;
-@property(readonly, copy) NSDate *startDate;
-@property(readonly, copy) NSDateComponents *startDateComponents; // @synthesize startDateComponents=_startDateComponents;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *userInput; // @synthesize userInput=_userInput;
 
 @end
 

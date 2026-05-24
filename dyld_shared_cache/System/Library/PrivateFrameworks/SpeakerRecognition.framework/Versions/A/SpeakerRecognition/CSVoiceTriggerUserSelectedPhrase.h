@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, VTPreferences;
-@protocol CSVoiceTriggerUserSelectedPhraseDelegate, OS_dispatch_queue;
+@class VTPreferences;
 
 @interface CSVoiceTriggerUserSelectedPhrase
 {
     _Bool _mphSelected;
-    id <CSVoiceTriggerUserSelectedPhraseDelegate> _delegate;
-    VTPreferences *_vtPrefrences;
-    NSUUID *_endpointDeviceId;
-    unsigned long long _uSelectedPhraseType;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -37,15 +31,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (id)ic}lu(%{public}lu) utterances to profile %{public}@;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSVoiceTriggerUserSelectedPhraseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSUUID *endpointDeviceId; // @synthesize endpointDeviceId=_endpointDeviceId;
-@property(nonatomic) _Bool mphSelected; // @synthesize mphSelected=_mphSelected;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long uSelectedPhraseType; // @synthesize uSelectedPhraseType=_uSelectedPhraseType;
 @property(retain, nonatomic) VTPreferences *vtPrefrences; // @synthesize vtPrefrences=_vtPrefrences;
 
 @end

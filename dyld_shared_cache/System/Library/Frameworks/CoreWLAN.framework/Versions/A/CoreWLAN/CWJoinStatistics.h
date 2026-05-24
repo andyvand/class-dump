@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWNetwork, CWNetworkProfile, NSDate, NSError, NSNumber, NSString;
+@class NSString;
 
 @interface CWJoinStatistics
 {
     NSString *_interfaceName;
-    NSString *_processName;
-    CWNetwork *_network;
-    CWNetworkProfile *_profile;
-    NSDate *_startedAt;
-    NSDate *_assocEndedAt;
-    NSDate *_authEndedAt;
-    NSDate *_ipAssignedAt;
-    NSDate *_endedAt;
-    NSError *_error;
-    _Bool _result;
 }
 
 + (_Bool);
@@ -33,8 +23,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)\;
+- (void)rs:(id)arg1 personType:nameAlternatives:nameAlternativesCounts:faceAttributes:faceAttributesCounts:persons: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -44,35 +34,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)resultValuesMatrix:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tup transient server done -- client authenticated
+;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *assocDuration;
-@property(copy) NSDate *assocEndedAt; // @synthesize assocEndedAt=_assocEndedAt;
-@property(readonly, nonatomic) NSNumber *authDuration;
-@property(copy) NSDate *authEndedAt; // @synthesize authEndedAt=_authEndedAt;
-@property(copy) NSDate *endedAt; // @synthesize endedAt=_endedAt;
-@property(copy) NSError *error; // @synthesize error=_error;
 @property(copy) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy) NSDate *ipAssignedAt; // @synthesize ipAssignedAt=_ipAssignedAt;
-@property(readonly, nonatomic) NSNumber *ipDuration;
-@property(readonly, nonatomic) NSNumber *joinDuration;
-@property(copy) CWNetwork *network; // @synthesize network=_network;
-@property(copy) NSString *processName; // @synthesize processName=_processName;
-@property(copy) CWNetworkProfile *profile; // @synthesize profile=_profile;
-@property _Bool result; // @synthesize result=_result;
-@property(copy) NSDate *startedAt; // @synthesize startedAt=_startedAt;
 
 @end
 

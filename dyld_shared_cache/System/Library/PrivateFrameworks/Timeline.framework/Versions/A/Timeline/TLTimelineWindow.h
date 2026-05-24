@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, TLTimelineEntryNode, TLTimelineSegment;
+@class TLTimelineEntryNode;
 
 @interface TLTimelineWindow
 {
     TLTimelineEntryNode *_focalNode;
-    TLTimelineSegment *_leftSegment;
-    TLTimelineSegment *_rightSegment;
-    unsigned long long _maxNodes;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)5;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -28,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -39,21 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) TLTimelineEntryNode *focalNode; // @synthesize focalNode=_focalNode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long leftEntryCount;
-@property(readonly, nonatomic) TLTimelineSegment *leftSegment; // @synthesize leftSegment=_leftSegment;
-@property(readonly, nonatomic) NSDate *leftmostContiguousEntryDate;
-@property(readonly, nonatomic) unsigned long long maxNodes; // @synthesize maxNodes=_maxNodes;
-@property(readonly, nonatomic) unsigned long long rightEntryCount;
-@property(readonly, nonatomic) TLTimelineSegment *rightSegment; // @synthesize rightSegment=_rightSegment;
-@property(readonly, nonatomic) NSDate *rightmostContiguousEntryDate;
-@property(readonly) Class superclass;
 
 @end
 

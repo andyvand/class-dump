@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol FAFamilySuggesterProtocol
+- (long long)GetBooleanPreference;
+- (NSArray *)contentRating;
 
 // Remaining properties
 @property(readonly, nonatomic) long long proactiveModel;

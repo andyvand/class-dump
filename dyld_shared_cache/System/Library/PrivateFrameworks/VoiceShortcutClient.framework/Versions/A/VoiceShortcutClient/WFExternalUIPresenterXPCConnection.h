@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface WFExternalUIPresenterXPCConnection
 {
     _Bool _connected;
-    NSXPCListenerEndpoint *_endpoint;
-    NSXPCConnection *_xpcConnection;
 }
 
 - (void);
@@ -24,16 +22,7 @@
 - (_Bool)Ô$;
 
 // Remaining properties
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

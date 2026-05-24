@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, UIImageView, UILabel;
+@class UIColor, UILabel;
 
 @interface PricePopoverBar
 {
     UILabel *_priceLabel;
-    UILabel *_percentChangeLabel;
-    UIImage *_backgroundImage;
-    UIImageView *_priceChangeSignView;
-    UIImageView *_percentChangeSignView;
-    UIColor *_imageMaskColor;
 }
 
 - (void);

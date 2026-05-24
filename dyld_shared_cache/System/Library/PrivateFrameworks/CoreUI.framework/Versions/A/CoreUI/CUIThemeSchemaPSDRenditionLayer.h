@@ -13,7 +13,7 @@
     CUIThemeSchemaRendition *rendition;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

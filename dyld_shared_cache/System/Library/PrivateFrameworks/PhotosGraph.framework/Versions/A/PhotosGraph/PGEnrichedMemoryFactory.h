@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PGGraph, PGMemoryCurationSession, PGMoodKeywordComputer, PGTitleGenerationContext;
-@protocol OS_os_log;
+@class PGMoodKeywordComputer;
 
 @interface PGEnrichedMemoryFactory
 {
     PGMoodKeywordComputer *_moodKeywordComputer;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGMemoryCurationSession *_memoryCurationSession;
-    PGTitleGenerationContext *_titleGenerationContext;
-    PGGraph *_graph;
 }
 
 + (double);

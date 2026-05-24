@@ -5,6 +5,9 @@
 //
 
 @protocol IMDaemonCloudSyncProtocol
+- (void);
+- (void)@;
+- (void);
 - (void)on -- %d bytes;
 @end
 

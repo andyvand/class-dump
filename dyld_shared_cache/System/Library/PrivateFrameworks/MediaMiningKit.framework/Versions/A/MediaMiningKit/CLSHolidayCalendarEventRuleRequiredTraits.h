@@ -6,23 +6,16 @@
 
 #import <MediaMiningKit/CLSHolidayCalendarEventRuleTraits.h>
 
-@class NSDictionary;
-
 @interface CLSHolidayCalendarEventRuleRequiredTraits : CLSHolidayCalendarEventRuleTraits
 {
     _Bool _mustContainMePerson;
-    _Bool _allowApproximateDateCalculation;
-    unsigned long long _type;
-    unsigned long long _eventCategory;
-    unsigned long long _minimumPeopleCount;
-    NSDictionary *_defaultScenesWithImportanceString;
 }
 
 + (unsigned long long);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)˪#;
 - (void);
 - (void);
 - (_Bool);
@@ -34,20 +27,14 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)shuffle_eligible_people_count;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowApproximateDateCalculation; // @synthesize allowApproximateDateCalculation=_allowApproximateDateCalculation;
-@property(retain, nonatomic) NSDictionary *defaultScenesWithImportanceString; // @synthesize defaultScenesWithImportanceString=_defaultScenesWithImportanceString;
-@property(nonatomic) unsigned long long eventCategory; // @synthesize eventCategory=_eventCategory;
-@property(readonly, nonatomic) _Bool isCelebration;
-@property(nonatomic) unsigned long long minimumPeopleCount; // @synthesize minimumPeopleCount=_minimumPeopleCount;
 @property(nonatomic) _Bool mustContainMePerson; // @synthesize mustContainMePerson=_mustContainMePerson;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -5,5 +5,24 @@
 //
 
 @protocol MNNavigationServiceObserver
+
+@optional
+- (void)ChildEnvironment;
+- (void)__Key_toolbarMatchedTransitionIdentifier;
+- (void);
+- (void)MatchedTransitionIdentifier;
+- (void)epperWidgetDefinition;
+- (void);
+- (void)EditTrackingStepperCell;
+- (void)56;
+- (void)PresentedSceneValueKey;
+- (void)PresentedWindowContent;
+- (void)Y7H3
+;
+- (void)LinearDashboardGaugeStyle;
+- (void);
+- (void)7Å;
+- (void)G4M.Z7(7
+;
 @end
 

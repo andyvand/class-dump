@@ -6,48 +6,36 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INFileProperty, NSNumber, NSString;
-
 @interface INGetFileInformationIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)_typeWithIdentifier:(long long)arg1 allowUndeclared: /* Error: Ran out of types for this method. */;
++ (int)NSString",&,N,V_fileExtensionToken;
++ (long long)V_saveURLSandboxWrapper;
++ (_Bool)QLThumbnailAdditionCache;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)k;
 - (id);
-- (void);
+- (void)#;
+- (id)_persistentControllerIdentifier;
+- (id);
+- (void)LanAsNetworkName:(id)arg1 ];
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)rSetBinarySetting:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)resolveTemporalEventTriggerForSetBinarySetting:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)R,C,V_providerBundleId;
-- (long long)mberAttributeMetadataMinimumValue;
+- (long long)__INCodableNumberAttributeMetadataMinimumValue;
 - (void)ì;
 - (void);
 - (id)Äªáÿ;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *entityName;
-@property(readonly) unsigned long long hash;
-@property(copy) INFileProperty *property;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

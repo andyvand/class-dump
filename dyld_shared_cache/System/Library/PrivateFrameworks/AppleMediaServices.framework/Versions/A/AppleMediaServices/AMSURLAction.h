@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSAuthenticateResult, AMSDialogResult, NSData, NSDictionary, NSError, NSString, NSURL;
+@class AMSAuthenticateResult;
 
 @interface AMSURLAction
 {
     long long _actionType;
-    NSString *_updatedBuyParams;
-    NSError *_error;
-    NSString *_reason;
-    NSURL *_redirectURL;
-    NSString *_retryIdentifier;
-    AMSAuthenticateResult *_authenticateResult;
-    AMSDialogResult *_dialogResult;
-    NSDictionary *_updatedHeaders;
-    NSData *_updatedBody;
-    NSString *_updatedMethod;
 }
 
 + (id);
@@ -32,15 +22,15 @@
 - (id);
 - (id);
 - (id);
+- (id)r;
+- (void);
+- (void);
+- (long long)CDATRIGGER_EMERGENCY_TRIGGER;
+- (void)AFMyriadSession:(id)arg1:generation /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (long long);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)_MRGameControllerPropertiesMessageProtobuf;
+- (void)thumbnailsWidth;
 - (id);
 - (id);
 - (id);
@@ -53,17 +43,7 @@
 - (void)lµåÂÌÈòÅ0ÂcrÙ+k»ÑöoÇ{sÀNË#Ó¼½ºâ°qÏì!AYÜÉ][àäsóÆº#t\^õ/CË`ù[R	ïMæ­èÎjñWæ¬3Ï:ø5!Ó{N·§<iuk÷Zîn1¸Y¡yaH&ö6®f-¬¨~!ºgfÓ\¹5ÿ¦¢ö»Oj¬×X /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long actionType; // @synthesize actionType=_actionType;
 @property(retain) AMSAuthenticateResult *authenticateResult; // @synthesize authenticateResult=_authenticateResult;
-@property(retain) AMSDialogResult *dialogResult; // @synthesize dialogResult=_dialogResult;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(retain) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) NSURL *redirectURL; // @synthesize redirectURL=_redirectURL;
-@property(retain) NSString *retryIdentifier; // @synthesize retryIdentifier=_retryIdentifier;
-@property(retain) NSData *updatedBody; // @synthesize updatedBody=_updatedBody;
-@property(retain) NSString *updatedBuyParams; // @synthesize updatedBuyParams=_updatedBuyParams;
-@property(retain) NSDictionary *updatedHeaders; // @synthesize updatedHeaders=_updatedHeaders;
-@property(retain) NSString *updatedMethod; // @synthesize updatedMethod=_updatedMethod;
 
 @end
 

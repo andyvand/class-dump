@@ -9,7 +9,6 @@
 @interface EQKitMathMLBinaryNode : EQKitMathMLNode
 {
     EQKitMathMLNode *mFirst;
-    EQKitMathMLNode *mSecond;
 }
 
 - (const void *);

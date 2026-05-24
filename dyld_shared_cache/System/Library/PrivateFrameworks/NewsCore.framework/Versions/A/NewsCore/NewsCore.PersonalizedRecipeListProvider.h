@@ -7,10 +7,6 @@
 @interface NewsCore.PersonalizedRecipeListProvider
 {
     id configurationManager;
-    id contentVariantProvider;
-    id subscriptionList;
-    id tagController;
-    id autofavoritesProvider;
 }
 
 @end

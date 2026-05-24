@@ -13,7 +13,7 @@
 
 - (id);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -22,11 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)mbers;
+- (id)AFSetAudioSessionActiveContext::playbackType /* Error: Ran out of types for this method. */;
+- (void)activatedClusterMembers;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingClientProtobuf *client; // @synthesize client=_client;
 @property(readonly, nonatomic) _Bool hasClient;
 
 @end

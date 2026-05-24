@@ -9,10 +9,6 @@
 @interface MMCSBoundedQueue
 {
     _Bool _isValid;
-    unsigned long long _bytesUpperBound;
-    unsigned long long _bytesErrorLevel;
-    NSMutableArray *_entries;
-    struct dispatch_semaphore_s *_boundsExceeded;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (struct dispatch_semaphore_s *);
-- (_Bool);
+- (_Bool)0;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,16 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct dispatch_semaphore_s *boundsExceeded; // @synthesize boundsExceeded=_boundsExceeded;
-@property(nonatomic) unsigned long long bytesErrorLevel; // @synthesize bytesErrorLevel=_bytesErrorLevel;
-@property(readonly, nonatomic) unsigned long long bytesUpperBound; // @synthesize bytesUpperBound=_bytesUpperBound;
 @property(retain, nonatomic) NSMutableArray *entries; // @synthesize entries=_entries;
-@property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 
 @end
 

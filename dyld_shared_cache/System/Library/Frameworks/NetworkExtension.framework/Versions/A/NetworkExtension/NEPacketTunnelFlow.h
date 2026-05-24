@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSFileHandle, NSObject;
-@protocol OS_dispatch_queue;
+@class NSFileHandle;
 
 @interface NEPacketTunnelFlow
 {
     _Bool _handlerSetup;
-    NSFileHandle *_socket;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _packetObjectHandler;
-    char **_packetDataArray;
-    unsigned int *_packetProtocols;
-    unsigned long long *_packetLengths;
-    unsigned long long _buffersSize;
-    NSDictionary *_uuidMap;
-    long long _interfaceType;
-    struct NEVirtualInterface_s *_interface;
-    CDUnknownBlockType _packetHandler;
 }
 
 - (_Bool);

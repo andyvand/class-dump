@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCanonicalLocationSearchParameters
 {
     PBUnknownFields *_unknownFields;
-    NSString *_queryString;
 }
 
-- (id);
-- (void);
+- (id)z;
+- (void)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)entifiers;
+- (id)_businessChatPreflightIdentifiers;
 - (id)`Ktì.´ÄUt;
 - (void);
 

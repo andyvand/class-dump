@@ -12,30 +12,26 @@ __attribute__((visibility("hidden")))
 @interface _NSToolbarItemBadgeView : NSView
 {
     NSColor *_backgroundColor;
-    NSColor *_foregroundColor;
-    NSTextField *_titleLabel;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)URLSessionUploadTask"24@0:8@"__NSCFTaskForClass"16 /* Error: Ran out of types for this method. */;
+- (id)ask"24@0:8@"__NSCFTaskForClass"16 /* Error: Ran out of types for this method. */;
+- (void)setExportedInterface: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ï/Ð!|Dùå3ð1Â0@ù
 × ;
 - (id)d40d48d56;
 - (id);
-- (void)vingDelay;
-- (id)or;
+- (void)NSDocumentControllerAutosavingDelay;
+- (id)_NSTabBarDraggedTabTitleTextColor;
 - (void)¨´ÿ;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor;
-@property(retain, nonatomic) NSColor *foregroundColor;
 @property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

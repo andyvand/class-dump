@@ -10,35 +10,29 @@ __attribute__((visibility("hidden")))
 @interface UAOnboardingZoomCustomViewController
 {
     NSImageView *__dotsImageView;
-    NSImageView *__keyImageView;
-    NSImageView *__zoomBackgroundView;
-    NSImageView *__mouseImageView;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)aPlayerContext";
+- (void)nded";
+- (void)nicationEnded";
+- (void)FetchContext";
+- (void){?="isEnabled"b1};
+- (id)etadata";
+- (_Bool)TRequestEnded";
+- (void)GATRequestStarted";
+- (void)SchemaGATRegisterMediaEventFailed";
+- (id)aGATImageResizingEventEnded";
+- (id)ode"b1};
+- (void)TCreateSessionEventFailed";
+- (id)Id"b1"donationTrigger"b1"wasTupleDonated"b1};
 - (id);
-- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)e;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSImageView *_dotsImageView; // @synthesize _dotsImageView=__dotsImageView;
-@property(retain, nonatomic) NSImageView *_keyImageView; // @synthesize _keyImageView=__keyImageView;
-@property(retain, nonatomic) NSImageView *_mouseImageView; // @synthesize _mouseImageView=__mouseImageView;
-@property(retain, nonatomic) NSImageView *_zoomBackgroundView; // @synthesize _zoomBackgroundView=__zoomBackgroundView;
 
 @end
 

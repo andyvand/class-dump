@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol HMDLibXPCInterfacing
+- (struct _xpc_type_s *);
+- (NSObject<OS_xpc_object> *)n %s line %d;
+- (void)redTripService sharedTripDidClose:(NSObject<OS_xpc_object> *)arg1 ];
 @end
 

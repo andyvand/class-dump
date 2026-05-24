@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface ASAuthorizationPublicKeyCredentialLargeBlobAssertionInput
 {
     long long _operation;
-    NSData *_dataToWrite;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)reEmoji.framework/Versions/A/CoreEmoji;
 - (void);
 - (id);
 - (void);
@@ -24,7 +21,6 @@
 - (id)sage.and.message.fill;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *dataToWrite; // @synthesize dataToWrite=_dataToWrite;
 @property(readonly, nonatomic) long long operation; // @synthesize operation=_operation;
 
 @end

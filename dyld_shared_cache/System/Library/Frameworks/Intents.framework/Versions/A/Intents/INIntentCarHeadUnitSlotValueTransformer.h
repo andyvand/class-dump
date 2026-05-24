@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)susMetaData;
++ (long long)pegasusMetaData;
 - (id);
-- (id)esolveObjectReferenceIntentResponse;
+- (id)INResolveObjectReferenceIntentResponse;
 
 @end
 

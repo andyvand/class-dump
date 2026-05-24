@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSAttributeFilter, NSString;
+@class DDSAttributeFilter;
 
 @interface DDSAssetQuery
 {
     _Bool _localOnly;
-    _Bool _installedOnly;
-    _Bool _latestOnly;
-    _Bool _cachedOnly;
-    DDSAttributeFilter *_filter;
-    NSString *_assetType;
 }
 
-+ (_Bool);
++ (_Bool)a;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)FJ'F
+;
+- (id)n;
 - (id);
 - (_Bool);
+- (_Bool),;
 - (id);
+- (_Bool)resolution:error occurred %d %s /* Error: Ran out of types for this method. */;
+- (id)PkgCState7Residency;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (id)âº;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) NSString *cacheKey;
-@property _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
 @property(readonly, nonatomic) DDSAttributeFilter *filter; // @synthesize filter=_filter;
-@property _Bool installedOnly; // @synthesize installedOnly=_installedOnly;
-@property _Bool latestOnly; // @synthesize latestOnly=_latestOnly;
-@property _Bool localOnly; // @synthesize localOnly=_localOnly;
 
 @end
 

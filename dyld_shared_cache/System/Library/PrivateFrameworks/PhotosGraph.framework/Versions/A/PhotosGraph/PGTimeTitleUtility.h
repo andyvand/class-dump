@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)set_previousValues:(id)arg1;
++ (id)menuControllerSelectedItem;
++ (id)menuControllerParent;
++ (id)eventTapManager:(id)arg1 activelyTappedEvent:type:withProxy: /* Error: Ran out of types for this method. */;
++ (id)enumerateObjectsWithOptions:(id)arg1 usingBlock:(unsigned long long)arg2;
++ (id)attributesAtIndex:(id)arg1 longestEffectiveRange:(unsigned long long)arg2 inRange: /* Error: Ran out of types for this method. */;
++ (id)crypto_generateKey;
++ (id)false;
++ (long long)@?0;
++ (id)trollerClassPreflight:(id)arg1 applicationIdentifier:(id)arg2 role:(_Bool)arg3 subrole:predicate:] /* Error: Ran out of types for this method. */;
++ (id)b;
++ (id)wl;
 + (_Bool);
 + (id);
 + (_Bool);

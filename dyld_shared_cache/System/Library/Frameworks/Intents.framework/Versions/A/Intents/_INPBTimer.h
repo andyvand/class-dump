@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString;
-
 @interface _INPBTimer
 {
     struct {
@@ -14,19 +12,13 @@
         unsigned int state:1;
         unsigned int type:1;
     } _has;
-    int _state;
-    int _type;
-    double _duration;
-    NSString *_identifier;
-    _INPBDataString *_label;
-    double _remainingTime;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)S*;
 - (_Bool);
 - (double);
 - (void);
@@ -37,48 +29,30 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (int);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)s;
+- (void)!;
+- (int)?;
 - (int);
 - (_Bool);
-- (void)AlarmSearchType:(_Bool)arg1;
+- (void);
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (int)(;
+- (_Bool);
+- (void)setAlarmSearchType:(_Bool)arg1;
+- (id)hasIsOpenEnded;
 - (void)eBundle",C,N,V_imageBundle;
 - (_Bool)eComponents",C,V_bookingDateComponents;
-- (void)ntReservationBookingDefaultsIntentResponse;
+- (void)INGetAvailableRestaurantReservationBookingDefaultsIntentResponse;
 - (void)arrivalBoatTerminalLocation;
-- (_Bool)endPaymentIntentResponseCodeFailureNotEligible;
+- (_Bool)INSendPaymentIntentResponseCodeFailureNotEligible;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasRemainingTime;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBDataString *label; // @synthesize label=_label;
-@property(nonatomic) double remainingTime; // @synthesize remainingTime=_remainingTime;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

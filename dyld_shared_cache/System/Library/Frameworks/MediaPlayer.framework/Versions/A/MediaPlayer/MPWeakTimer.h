@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void)tformKinds;
+- (void)_unsupportedStorePlatformKinds;
 
 @end
 

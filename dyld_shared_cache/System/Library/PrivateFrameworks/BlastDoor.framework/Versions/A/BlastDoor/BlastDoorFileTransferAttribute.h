@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorFileTransferAttributeAttachmentSubtypeWrapper, BlastDoorFileTransferAttribute_ImageInfo, NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface BlastDoorFileTransferAttribute
 {
     void attachments;
-    BlastDoorFileTransferAttribute_ImageInfo *imageInfo;
-    BlastDoorFileTransferAttributeAttachmentSubtypeWrapper *attachmentSubtype;
-    void name;
-    unsigned long long datasize;
-    void utiType;
-    void mimeType;
-    NSNumber *legacyAnimoji;
 }
 
 - (void);
@@ -31,23 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)";
+- (void)requestViewController:(id)arg1 fromServiceWithBundleIdentifier:connectionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)©Ê<ÃÉÿ©ÊHó~ÿ©ÊTfÂÿ;
 - (id)iG£4_;;
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) BlastDoorFileTransferAttributeAttachmentSubtypeWrapper *attachmentSubtype; // @synthesize attachmentSubtype;
 @property(nonatomic, copy) NSArray *attachments;
-@property(nonatomic) unsigned long long datasize; // @synthesize datasize;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, retain) BlastDoorFileTransferAttribute_ImageInfo *imageInfo; // @synthesize imageInfo;
-@property(nonatomic, retain) NSNumber *legacyAnimoji; // @synthesize legacyAnimoji;
-@property(nonatomic, copy) NSString *mimeType;
-@property(nonatomic, copy) NSString *name;
-@property(nonatomic, copy) NSString *utiType;
 
 @end
 

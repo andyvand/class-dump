@@ -8,14 +8,6 @@
 {
     id request;
     id onPaymentAuthorizationChange;
-    id onMerchantSessionRequested;
-    id onPaymentAuthorizationCompletion;
-    id onPaymentMethodChange;
-    id onShippingContactChange;
-    id onShippingChange;
-    id onCouponCodeChange;
-    id activeWindow;
-    id underlyingCoordinator;
 }
 
 - (id);
@@ -23,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);

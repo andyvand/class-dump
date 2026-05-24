@@ -4,61 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWiFiQualityNetworkSearch, NSDate, NSPredicate, NSSet, NSString, TBLocalFetchRequestDescriptor;
+@class GEOWiFiQualityNetworkSearch, NSPredicate;
 
 @interface TBNetworkFetchRequestDescriptor
 {
     NSPredicate *_localFetchPredicate;
-    GEOWiFiQualityNetworkSearch *_remoteRequest;
-    unsigned long long _type;
-    NSDate *_maxCacheAge;
-    TBLocalFetchRequestDescriptor *_localFetchDescriptor;
-    TBLocalFetchRequestDescriptor *_preferLocalFetchDescriptor;
-    NSSet *_bssids;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (Class);
 - (void);
-- (id);
-- (void);
+- (id)%X);
+- (void);
 - (id);
 - (void)
 × ;
 - (id)nt:(id)arg1 %u;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *bssids; // @synthesize bssids=_bssids;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TBLocalFetchRequestDescriptor *localFetchDescriptor; // @synthesize localFetchDescriptor=_localFetchDescriptor;
-@property(retain, nonatomic) NSPredicate *localFetchPredicate; // @synthesize localFetchPredicate=_localFetchPredicate;
-@property(retain, nonatomic) NSDate *maxCacheAge; // @synthesize maxCacheAge=_maxCacheAge;
-@property(retain, nonatomic) TBLocalFetchRequestDescriptor *preferLocalFetchDescriptor; // @synthesize preferLocalFetchDescriptor=_preferLocalFetchDescriptor;
 @property(retain, nonatomic) GEOWiFiQualityNetworkSearch *remoteRequest; // @synthesize remoteRequest=_remoteRequest;
-@property(readonly, nonatomic) Class remoteRequestClass;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *tileItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

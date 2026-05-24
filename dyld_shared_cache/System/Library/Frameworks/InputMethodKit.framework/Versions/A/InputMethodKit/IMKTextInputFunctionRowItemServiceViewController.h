@@ -11,9 +11,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
-- (void);
+- (void)vcSessionSetVideoPaused;
 - (void);
 - (id);
 

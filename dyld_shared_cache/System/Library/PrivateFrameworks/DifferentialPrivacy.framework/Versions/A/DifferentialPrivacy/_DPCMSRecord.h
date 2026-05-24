@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
-
 @interface _DPCMSRecord
 {
     _Bool _submitted;
-    double _creationDate;
-    NSString *_key;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
 + (_Bool);
 + (id);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
-- (double);
-- (id);
+- (double)ause of a request to open an AppSSO Kerberos URL; %{public}@;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,21 +29,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)=;
+- (void)actionRemovePrepared:(double)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tion list window visibility to %{bool}d after parent window 'visible' changed; parent window is visible:%{bool}d; has positioning view:%{bool}d; completion list has content to show:%{bool}d /* Error: Ran out of types for this method. */;
 - (id)±.ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface PKPeerPaymentRequestToken
 {
     NSString *_requestToken;
-    NSUUID *_deviceScoreIdentifier;
-    NSDate *_expiryDate;
 }
 
 + (_Bool);
@@ -23,14 +21,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (void)ssStyle;
+- (_Bool)astCipher"b1"phyMode"b1"reason"b1"rxCSAFrames"b1"securityType"b1"subreason"b1"ucastCipher"b1"vhtInfo"b1"wpaProtocol"b1"isInVol"b1"isLinkUp"b1};
+- (void)upsTrue;
+- (id);
+- (void)passStyle;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *deviceScoreIdentifier; // @synthesize deviceScoreIdentifier=_deviceScoreIdentifier;
-@property(readonly, copy, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
 @property(readonly, copy, nonatomic) NSString *requestToken; // @synthesize requestToken=_requestToken;
 
 @end

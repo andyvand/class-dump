@@ -5,7 +5,7 @@
 //
 
 @protocol INSetClimateSettingsInCarIntentResponseExport
-- (long long)unt;
+- (long long)hashedRouteUIDsCount;
 
 // Remaining properties
 @property(readonly) long long code;

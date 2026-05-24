@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOMiniCard
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_buttonText;
-    GEOFormattedString *_detail;
-    GEOFormattedString *_metadata;
-    GEOFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _shouldEmphasize;
-    struct {
-        unsigned int has_shouldEmphasize:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_buttonText:1;
-        unsigned int read_detail:1;
-        unsigned int read_metadata:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sTransactionLocationAge:(id)arg1;
++ (_Bool)setHasTransactionLocationAge:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -37,20 +19,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)rsonNameComponents";
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)newUser;
+- (void)`;
+- (id)o SELF for MH ID:%@, TRP ID:%@ /* Error: Ran out of types for this method. */;
+- (void)TriggerDetectorEnabledConditions]_block_invoke;
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_locationProvider;
 - (_Bool);
 - (id);
 - (id);
@@ -66,17 +48,7 @@
 - (void)ì=3;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buttonText;
-@property(retain, nonatomic) GEOFormattedString *detail;
-@property(readonly, nonatomic) _Bool hasButtonText;
-@property(readonly, nonatomic) _Bool hasDetail;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(nonatomic) _Bool hasShouldEmphasize;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOFormattedString *metadata;
-@property(nonatomic) _Bool shouldEmphasize;
-@property(retain, nonatomic) GEOFormattedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

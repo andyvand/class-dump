@@ -6,30 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGCacheManagerCallEnded, RGSiriSchemaRGCacheManagerCallFailed, RGSiriSchemaRGCacheManagerCallStarted, SISchemaUUID;
+@class RGSiriSchemaRGCacheManagerCallStarted;
 
 @interface RGSiriSchemaRGCacheManagerCallContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGCacheManagerCallStarted *_startedOrChanged;
-    RGSiriSchemaRGCacheManagerCallEnded *_ended;
-    RGSiriSchemaRGCacheManagerCallFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)W;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -41,30 +33,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)Kteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ddressed_handle, display_name, group_id, is_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE guid = ? ORDER BY chat.ROWID ASC;;
 - (id);
 - (id);
-- (id)CarBluetoothHeadUnitsActiveWithinLast24Hours:(id)arg1;
+- (id)addCarBluetoothHeadUnitsActiveWithinLast24Hours:(id)arg1;
 - (id)cyInMs;
 - (void)HALClientEvent.HALForceFetchContext;
 - (id)";
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGCacheManagerCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGCacheManagerCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGCacheManagerCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

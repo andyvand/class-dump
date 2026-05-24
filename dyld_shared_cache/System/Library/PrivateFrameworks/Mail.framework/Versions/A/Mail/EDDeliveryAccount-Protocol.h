@@ -5,6 +5,7 @@
 //
 
 @protocol EDDeliveryAccount
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maximumMessageBytes;

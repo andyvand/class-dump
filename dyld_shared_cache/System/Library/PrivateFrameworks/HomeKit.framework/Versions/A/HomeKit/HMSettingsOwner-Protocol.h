@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSettingGroup;
 @protocol HMSettingsDelegate;
 
 @protocol HMSettingsOwner
+- (id <HMSettingsDelegate>);
+- (void);
 
 // Remaining properties
 @property __weak id <HMSettingsDelegate> delegate;
-@property(readonly) HMSettingGroup *rootGroup;
 @end
 

@@ -7,13 +7,6 @@
 @interface NewsUI2.AudioFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id commandCenter;
-    id tracker;
-    id offlineBannerCoordinator;
-    id mastheadViewProviderDelegate;
-    id $__lazy_storage_$_audioControlBarButtonItem;
 }
 
 - (void);

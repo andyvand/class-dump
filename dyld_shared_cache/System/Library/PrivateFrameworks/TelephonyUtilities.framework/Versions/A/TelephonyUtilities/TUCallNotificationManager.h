@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNotificationCenter;
+@class NSMutableArray;
 
 @interface TUCallNotificationManager
 {
     _Bool _wantsCallNotifications;
-    NSNotificationCenter *_notificationCenter;
-    NSMutableArray *_deferredNotificationBlocks;
 }
 
 - (void);
@@ -27,6 +25,21 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,28 +50,13 @@
 - (void);
 - (void);
 - (void);
+- (void)T^;
 - (void);
 - (void);
 - (void);
+- (void)3;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -70,10 +68,10 @@
 - (id);
 - (void);
 - (void);
+- (void)|;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)~;
 - (void);
 - (void);
 - (void);
@@ -82,6 +80,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,18 +89,15 @@
 - (void);
 - (void);
 - (void);
+- (void)DMFFetchLastLoginDateResultObject;
+- (void)dQ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)tAvailable;
+- (void)receptionistAvailable;
 - (id)';
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *deferredNotificationBlocks; // @synthesize deferredNotificationBlocks=_deferredNotificationBlocks;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) _Bool wantsCallNotifications; // @synthesize wantsCallNotifications=_wantsCallNotifications;
 
 @end
 

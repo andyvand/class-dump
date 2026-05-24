@@ -7,20 +7,15 @@
 @interface WFRunnerConnection
 {
     id policy;
-    id languageIdentifier;
-    id host;
-    id connection;
-    void onInterruption;
-    void onInvalidation;
 }
 
-- (id);
+- (id)|;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType)|;
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id){;
 - (id);
 - (void);
 - (void)
@@ -28,8 +23,6 @@
 - (long long)ring the request.;
 
 // Remaining properties
-@property(nonatomic, copy) CDUnknownBlockType onInterruption;
-@property(nonatomic, copy) CDUnknownBlockType onInvalidation;
 @property(nonatomic, readonly) long long targetType;
 
 @end

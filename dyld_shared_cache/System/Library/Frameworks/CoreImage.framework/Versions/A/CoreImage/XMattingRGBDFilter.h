@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, XMattingBoxTensorFilter;
-@protocol MTLComputePipelineState, MTLDevice, MTLLibrary, MTLTexture;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface XMattingRGBDFilter
 {
     id <MTLDevice> _device;
-    id <MTLLibrary> _library;
-    id <MTLTexture> _guideStack;
-    id <MTLTexture> _guideStackTexture2DView;
-    id <MTLTexture> _alphaStack;
-    id <MTLTexture> _alphaStackTexture2DView;
-    id <MTLTexture> _mean_I;
-    id <MTLTexture> _mean_alpha;
-    NSArray *_var_I;
-    NSArray *_coefficients;
-    NSArray *_coefficientsTexture2DView;
-    id <MTLTexture> _constraints;
-    id <MTLTexture> _constraintsTexture2DView;
-    id <MTLComputePipelineState> _nearestNeighborDownsamplingKernel;
-    id <MTLComputePipelineState> _halfToAlphaBLKernel;
-    id <MTLComputePipelineState> _computeInverted4DGuideCovarianceMatrixKernel;
-    id <MTLComputePipelineState> _compute4DCoefficientsKernel;
-    id <MTLComputePipelineState> _applyDepthAwareCoefficientsKernel;
-    id <MTLComputePipelineState> _applyDepthAwareCoefficientsNoConstraintsKernel;
-    id <MTLComputePipelineState> _applyDepthAwareCoefficientsSamplingKernel;
-    id <MTLComputePipelineState> _applyDepthAwareCoefficientsSamplingNoConstraintsKernel;
-    _Bool _supportsReadWriteTextures;
-    id <MTLTexture> _tmp_RGBA;
-    _Bool stateComputed;
-    _Bool coefficientsComputed;
-    XMattingBoxTensorFilter *boxTensorFilter;
-    CDStruct_79af1cb6 config;
 }
 
 - (_Bool);
@@ -52,12 +25,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (int);
-- (int);
+- (int);
 - (id);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (CDStruct_79af1cb6)PbZnQ\Rly|| ¢¢¥¥¥¥~SbZiUURULOIOTZSZlplp}{gTwrXjgnUZS\TTOTTTTTUUUUKUMXU_Zg||||xp~}zzzzvvpvvslygqo~Qe_tssssllllP[ScRfchppppXifjNVMaK\Uehoor{{{{xxxx_jererm~©©©©]nhw0E3S,9&C+>/GTTOTZZWZ@RI\ee_essssNni}v}zVtoZldvutou^oosppppwwww||||wxxzsmhsSbYjO]RgSe]pv}z1P>lAWGi||||q|x    z £yk|vkwr|Wd[hCO@X4L<\ZokuF_UosssspkbpS`Uhae^oyzzz{{{{dsssllllhhhhhidlxxxx{{{{rvrvyytyjxs~wwwwssssuuuussssmmmmTg^my|z~ptn{uutuvvvvftqvtvuvxxxxzzzz~~~~qwt{zyv|z©©©©§­­¢§§§[h`wuyvQh`vbpjwZlftlldlwwqw©¥©©«´´±±±±££££jzyJe\w5VGlqslx`zuz{w~lzz}zzzz{{{{||||}}}}zzzzgniqFYLhiaUkvxsz|e}rwrymj`mF`Uqlupeokohkgksuuu}}}}7VKjUfanyyyypppp_]U_O[S]mmmmxupx`haonnnn`igi^bYfusnu¥§§ªªªª££££Ye]g?RD]Sd]huuuu{{{{rZe^md_Vdqqqq||||dqovdhbnqqoq~~~~tq|zcywzo~tzzzooootttt¡¡jjhjMPJPHHHHQQQQVc_ezzzz_zv©©©©i~n}}}}}c|z    x{fvp{;
+- (void)und;
+- (CDStruct_21828f50)PbZnQ\Rly|| ¢¢¥¥¥¥~SbZiUURULOIOTZSZlplp}{gTwrXjgnUZS\TTOTTTTTUUUUKUMXU_Zg||||xp~}zzzzvvpvvslygqo~Qe_tssssllllP[ScRfchppppXifjNVMaK\Uehoor{{{{xxxx_jererm~©©©©]nhw0E3S,9&C+>/GTTOTZZWZ@RI\ee_essssNni}v}zVtoZldvutou^oosppppwwww||||wxxzsmhsSbYjO]RgSe]pv}z1P>lAWGi||||q|x    z £yk|vkwr|Wd[hCO@X4L<\ZokuF_UosssspkbpS`Uhae^oyzzz{{{{dsssllllhhhhhidlxxxx{{{{rvrvyytyjxs~wwwwssssuuuussssmmmmTg^my|z~ptn{uutuvvvvftqvtvuvxxxxzzzz~~~~qwt{zyv|z©©©©§­­¢§§§[h`wuyvQh`vbpjwZlftlldlwwqw©¥©©«´´±±±±££££jzyJe\w5VGlqslx`zuz{w~lzz}zzzz{{{{||||}}}}zzzzgniqFYLhiaUkvxsz|e}rwrymj`mF`Uqlupeokohkgksuuu}}}}7VKjUfanyyyypppp_]U_O[S]mmmmxupx`haonnnn`igi^bYfusnu¥§§ªªªª££££Ye]g?RD]Sd]huuuu{{{{rZe^md_Vdqqqq||||dqovdhbnqqoq~~~~tq|zcywzo~tzzzooootttt¡¡jjhjMPJPHHHHQQQQVc_ezzzz_zv©©©©i~n}}}}}c|z    x{fvp{;
 - (void)nMaxRed16(sampler image, vec2 bound, float pass) {
   vec2 d = 4.0 * destCoord();
   vec2 mm = vec2(1.000000e+20, -1.000000e+20);
@@ -74,10 +47,7 @@ __attribute__((visibility("hidden")))
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) XMattingBoxTensorFilter *boxTensorFilter; // @synthesize boxTensorFilter;
-@property(readonly) _Bool coefficientsComputed; // @synthesize coefficientsComputed;
-@property CDStruct_79af1cb6 config; // @synthesize config;
-@property(readonly) _Bool stateComputed; // @synthesize stateComputed;
+@property CDStruct_21828f50 config; // @synthesize config;
 
 @end
 

@@ -6,14 +6,14 @@
 
 #import <Mail/MFSizeEngine.h>
 
-@class MFPOPAccount, NSArray, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 @interface MFPOPSizeEngine : MFSizeEngine
 {
     NSMutableDictionary *_infoByMessageID;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -27,7 +27,6 @@
 - (void)üD;
 
 // Remaining properties
-@property(readonly, nonatomic) MFPOPAccount *account; // @dynamic account;
 @property(readonly, copy) NSArray *allMessageIDs;
 
 @end

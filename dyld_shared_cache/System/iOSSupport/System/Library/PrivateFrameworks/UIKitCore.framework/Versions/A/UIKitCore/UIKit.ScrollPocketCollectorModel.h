@@ -9,14 +9,9 @@
 @interface UIKit.ScrollPocketCollectorModel
 {
     id _receivers;
-    id _name;
-    id parentModel;
-    id _childModels;
-    id __allReceivers;
-    id _$observationRegistrar;
 }
 
-- (id);
+- (id)setCancellationHandler: /* Error: Ran out of types for this method. */;
 - (void)that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
 
 // Remaining properties

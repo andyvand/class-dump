@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessageChangeManager, MFMessageStore, NSArray, NSString;
+@class MFMessageStore, NSArray;
 
 @interface MFMutedMessageAction
 {
     NSArray *_mutedMessages;
-    MFMessageStore *_store;
-    EDMessageChangeManager *_changeManager;
 }
 
 + (id)isting_Sny];#G6addingt;
@@ -27,16 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EDMessageChangeManager *changeManager; // @synthesize changeManager=_changeManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *mutedMessages; // @synthesize mutedMessages=_mutedMessages;
 @property(readonly, nonatomic) MFMessageStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface MPSImageHistogram
 {
     unsigned long long histogramEntries;
-    _Bool histogramAlpha;
-    id minPixelValue;
-    id maxPixelValue;
-    _Bool useMinMaxHistogramKernel;
-    CDStruct_1e3be3a8 _clipRectSource;
-    _Bool _zeroHistogram;
-    id _minPixelThresholdValue;
-    unsigned long long _histogramAtomicType;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -26,7 +18,7 @@
 - (id);
 - (CDStruct_5577c19c);
 - (void);
-- (void);
+- (void)kj;
 - (void);
 - (void);
 - (CDStruct_1e3be3a8);
@@ -36,15 +28,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithBytes:(id)arg1 length:encoding: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)¦qÄ?Ô¶êÄÃ·?õDyâ©?xTþYg?;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1e3be3a8 clipRectSource; // @synthesize clipRectSource=_clipRectSource;
-@property(readonly, nonatomic) CDStruct_5577c19c histogramInfo;
-@property(nonatomic) id minPixelThresholdValue; // @synthesize minPixelThresholdValue=_minPixelThresholdValue;
-@property(nonatomic) _Bool zeroHistogram; // @synthesize zeroHistogram=_zeroHistogram;
 
 @end
 

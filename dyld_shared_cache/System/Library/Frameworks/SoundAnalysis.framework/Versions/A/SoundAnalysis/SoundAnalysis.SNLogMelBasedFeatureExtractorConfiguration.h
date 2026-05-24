@@ -7,10 +7,9 @@
 @interface SoundAnalysis.SNLogMelBasedFeatureExtractorConfiguration
 {
     id model;
-    id stepSizeFrames;
 }
 
-- (id);
+- (id)@;
 - (long long);
 - (_Bool);
 - (void)l-ùÿx.ùÿ$/ùÿH/ùÿ/ùÿÔ0ùÿ,1ùÿh1ùÿ1ùÿÔ1ùÿ2ùÿL2ùÿ|2ùÿ3ùÿ03ùÿT3ùÿ3ùÿ´3ùÿ4ùÿ4ùÿ4ùÿ°4ùÿÔ4ùÿø4ùÿT5ùÿx5ùÿ5ùÿØ5ùÿü5ùÿx6ùÿ´6ùÿØ6ùÿp7ùÿ¬7ùÿ¬8ùÿ¸:ùÿô:ùÿ;ùÿà=ùÿ>ùÿ(>ùÿ\>ùÿÈ>ùÿ¼?ùÿà?ùÿ@ùÿ@@ùÿ@ùÿÀ@ùÿä@ùÿ AùÿDAùÿàAùÿBùÿ(BùÿdBùÿBùÿBùÿDCùÿhCùÿCùÿÈCùÿìCùÿ(DùÿLDùÿDùÿ`FùÿÌFùÿtGùÿ°GùÿÔGùÿHùÿIùÿ`IùÿIùÿ´IùÿDJùÿÐJùÿXKùÿ|KùÿLùÿ Lùÿ\LùÿLùÿ¸MùÿÜMùÿ /* Error: Ran out of types for this method. */;

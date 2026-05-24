@@ -7,9 +7,6 @@
 @interface PhotosUICore.GenerativeStoryPromptEntryViewRepresentable.Coordinator
 {
     id promptEntryView;
-    id viewModel;
-    id menuBuilder;
-    id logger;
 }
 
 @end

@@ -8,21 +8,13 @@
 {
     id range;
     id options;
-    id type;
-    id granularity;
-    id flowDirection;
-    id venueID;
-    id deviceID;
-    id deviceType;
-    id appID;
-    id certified;
 }
 
-+ (_Bool);
++ (_Bool))A;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void));
 
 @end
 

@@ -9,18 +9,10 @@
 @interface PXStoryScrubberLayoutSettings : PXSettings
 {
     double _currentAssetWidthLandscape;
-    double _currentAssetWidthPortrait;
-    double _defaultAssetWidthLandscape;
-    double _defaultAssetWidthPortrait;
-    double _scrubberHeightLandscape;
-    double _scrubberHeightPortrait;
-    double _currentAssetPadding;
-    double _defaultAssetPadding;
-    double _assetCornerRadius;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)ecognizer;
 + (id)ýþ¼ýþLemonadeVisionPeopleShelfCell;
 - (void);
 - (void);
@@ -30,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -44,15 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double assetCornerRadius; // @synthesize assetCornerRadius=_assetCornerRadius;
-@property(nonatomic) double currentAssetPadding; // @synthesize currentAssetPadding=_currentAssetPadding;
 @property(nonatomic) double currentAssetWidthLandscape; // @synthesize currentAssetWidthLandscape=_currentAssetWidthLandscape;
-@property(nonatomic) double currentAssetWidthPortrait; // @synthesize currentAssetWidthPortrait=_currentAssetWidthPortrait;
-@property(nonatomic) double defaultAssetPadding; // @synthesize defaultAssetPadding=_defaultAssetPadding;
-@property(nonatomic) double defaultAssetWidthLandscape; // @synthesize defaultAssetWidthLandscape=_defaultAssetWidthLandscape;
-@property(nonatomic) double defaultAssetWidthPortrait; // @synthesize defaultAssetWidthPortrait=_defaultAssetWidthPortrait;
-@property(nonatomic) double scrubberHeightLandscape; // @synthesize scrubberHeightLandscape=_scrubberHeightLandscape;
-@property(nonatomic) double scrubberHeightPortrait; // @synthesize scrubberHeightPortrait=_scrubberHeightPortrait;
 
 @end
 

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _ANEModelInstanceParameters
 {
     NSString *_instanceName;
-    NSArray *_procedureArray;
 }
 
-+ (id);
++ (id)2;
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)5b;
+- (id)4|;
 - (id);
 - (id);
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *instanceName; // @synthesize instanceName=_instanceName;
-@property(readonly, nonatomic) NSArray *procedureArray; // @synthesize procedureArray=_procedureArray;
 
 @end
 

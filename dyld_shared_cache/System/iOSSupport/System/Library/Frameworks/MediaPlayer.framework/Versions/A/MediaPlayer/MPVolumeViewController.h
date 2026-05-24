@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGSize);
-- (void)bservationCount;
+- (void)_cloudLibraryObservationCount;
 
 // Remaining properties
 @property(readonly, nonatomic) MPVolumeView *volumeView; // @synthesize volumeView=_volumeView;

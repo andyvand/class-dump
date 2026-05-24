@@ -7,7 +7,6 @@
 @interface ChatKit.PrioritizedTextEffectIdentifiers
 {
     id highPriorityIdentifiers;
-    id defaultIdentifiers;
 }
 
 @end

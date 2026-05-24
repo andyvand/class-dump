@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)_dateRetracted;
 - (id);
 
 @end

@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSObject, NSString, NSUUID, VCSessionParticipantUpdateConfig, VCXPCClientShared;
-@protocol AVCSessionParticipantDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AVCSessionParticipant
 {
     unsigned long long _idsParticipantID;
-    NSString *_participantID;
-    NSData *_participantData;
-    id _delegate;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_localStateQueue;
-    NSObject<OS_dispatch_queue> *_delegateNotificationQueue;
-    VCXPCClientShared *_connection;
-    NSData *_frequencyLevels;
-    NSDictionary *_streamGroupIDToStreamTokenMap;
-    NSMutableDictionary *_participantConfig;
-    _Bool _oneToOneEnabled;
-    float _volume;
-    _Bool _configurationInProgress;
-    NSMutableDictionary *_mediaStates;
-    _Bool _remoteScreenEnabled;
-    _Bool _screenControlEnabled;
-    NSDictionary *_mediaTypeToSpatialSourceIDMap;
-    struct _opaque_pthread_mutex_t _mediaStateMutex;
-    VCSessionParticipantUpdateConfig *_updateConfig;
-    _Bool _isLocal;
-    struct _opaque_pthread_rwlock_t _stateQueueLock;
-    long long _videoToken;
-    long long _screenToken;
 }
 
 + (id);
@@ -41,7 +18,7 @@
 + (unsigned int);
 + (id);
 - (long long);
-- (struct tagAVCPositionalInfo);
+- (struct tagAVCPositionalInfo)@;
 - (void);
 - (unsigned int);
 - (long long);
@@ -50,40 +27,40 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (_Bool)7: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)/;
 - (void);
 - (id);
 - (id);
 - (unsigned int);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -94,18 +71,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)yq);
 - (void);
 - (void);
 - (unsigned int);
@@ -114,7 +91,7 @@
 - (unsigned int);
 - (id);
 - (void);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (long long);
 - (_Bool);
@@ -125,60 +102,23 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)L);
 - (id);
 - (float);
 - (unsigned long long)@ù
 × ;
 - (id)xxä(LP;
-- (id)SetMagicCookieForPayload;
+- (id)VCAudioReceiver_SetMagicCookieForPayload;
 
 // Remaining properties
-@property(nonatomic, getter=isAudioEnabled) _Bool audioEnabled;
-@property(nonatomic, getter=isAudioMuted) _Bool audioMuted;
-@property(nonatomic, getter=isAudioPaused) _Bool audioPaused;
-@property(readonly, nonatomic) NSDictionary *config;
-@property(nonatomic) _Bool configurationInProgress; // @synthesize configurationInProgress=_configurationInProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <AVCSessionParticipantDelegate> delegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateNotificationQueue; // @synthesize delegateNotificationQueue=_delegateNotificationQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *dispatchedParticipantStatus;
-@property(readonly, nonatomic) unsigned int dispatchedProminenceIndex;
-@property(readonly, nonatomic) NSData *frequencyLevels; // @synthesize frequencyLevels=_frequencyLevels;
-@property(readonly, nonatomic) _Bool hasPendingChanges;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPlaybackSynchronizationGroupMember;
-@property(readonly, nonatomic) NSData *negotiationData; // @synthesize negotiationData=_participantData;
-@property(nonatomic, getter=isOneToOneEnabled) _Bool oneToOneEnabled; // @synthesize oneToOneEnabled=_oneToOneEnabled;
-@property(readonly, nonatomic) unsigned long long participantID; // @synthesize participantID=_idsParticipantID;
-@property(retain, nonatomic) NSUUID *playbackSynchronizationGroupUUID;
-@property(nonatomic) unsigned int prominenceIndex;
-@property(nonatomic) _Bool remoteScreenEnabled; // @synthesize remoteScreenEnabled=_remoteScreenEnabled;
-@property(nonatomic, getter=isScreenControlEnabled) _Bool screenControlEnabled; // @synthesize screenControlEnabled=_screenControlEnabled;
-@property(nonatomic, getter=isScreenEnabled) _Bool screenEnabled;
-@property(nonatomic) long long screenToken; // @synthesize screenToken=_screenToken;
-@property(retain, nonatomic) VCXPCClientShared *sharedXPCConnection;
-@property(readonly, nonatomic) unsigned long long spatialAudioSourceID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_participantID;
-@property(nonatomic, getter=isVideoEnabled) _Bool videoEnabled;
-@property(nonatomic, getter=isVideoPaused) _Bool videoPaused;
-@property(nonatomic) struct tagAVCPositionalInfo videoPositionalInfo;
-@property(nonatomic) unsigned char videoQuality;
-@property(nonatomic) long long videoToken; // @synthesize videoToken=_videoToken;
-@property(nonatomic) unsigned int visibilityIndex;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol WFTextAttachmentSizeProvider
+
+@optional
+- (_Bool);
+- (double)*T;
 @end
 

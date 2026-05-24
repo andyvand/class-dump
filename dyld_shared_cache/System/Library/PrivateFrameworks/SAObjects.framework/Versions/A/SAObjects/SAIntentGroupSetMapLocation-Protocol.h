@@ -7,7 +7,8 @@
 @class SAIntentGroupProtobufMessage;
 
 @protocol SAIntentGroupSetMapLocation
-- (void)ts;
+- (SAIntentGroupProtobufMessage *)a;
+- (void)contacts;
 
 // Remaining properties
 @property(retain, nonatomic) SAIntentGroupProtobufMessage *location;

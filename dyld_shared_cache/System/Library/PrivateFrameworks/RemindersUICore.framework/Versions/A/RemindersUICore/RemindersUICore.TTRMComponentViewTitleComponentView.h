@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, RemindersUICore.TTRMRemindersListCustomTextStorageResizingTextView;
+@class RemindersUICore.TTRMRemindersListCustomTextStorageResizingTextView;
 
 @interface RemindersUICore.TTRMComponentViewTitleComponentView
 {
     void titleTextView;
-    void flaggedButton;
 }
 
 - (void);
@@ -19,11 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)B;
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *flaggedButton; // @synthesize flaggedButton;
 @property(nonatomic) __weak RemindersUICore.TTRMRemindersListCustomTextStorageResizingTextView *titleTextView; // @synthesize titleTextView;
 
 @end

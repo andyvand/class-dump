@@ -11,17 +11,6 @@
 @interface NSConcreteTextStorage : NSTextStorage
 {
     NSConcreteNotifyingMutableAttributedString *_contents;
-    struct _opaque_pthread_rwlock_t {
-        long long __sig;
-        char __opaque[192];
-    } _lock;
-    struct {
-        unsigned int _forceFixAttributes:1;
-        unsigned int _needLock:1;
-        unsigned int _lockInitialized:1;
-        unsigned int _inFixingAttributes:1;
-        unsigned int _reserved:28;
-    } _pFlags;
 }
 
 + (unsigned long long);
@@ -29,12 +18,12 @@
 - (unsigned long long);
 - (Class);
 - (id);
+- (id)k/Versions/A/VideoToolbox;
+- (void)K;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)0;
 - (id);
 - (id);
 - (_Bool);
@@ -53,7 +42,7 @@
 - (void)tensionDistance: /* Error: Ran out of types for this method. */;
 - (void)¼N¤O;
 - (_Bool);
-- (_Bool)lternativesDisplayStyle;
+- (_Bool)NSTextAlternativesDisplayStyle;
 - (void)À;
 
 @end

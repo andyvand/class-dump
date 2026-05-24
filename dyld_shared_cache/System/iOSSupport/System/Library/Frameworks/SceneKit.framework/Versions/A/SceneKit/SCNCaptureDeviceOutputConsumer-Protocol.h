@@ -5,11 +5,11 @@
 //
 
 @protocol SCNCaptureDeviceOutputConsumer
+- (void)ttings.drawing.hasSeenHandwritingEducationPane;
 - (_Bool)6{CGSize=dd}32{CGPoint=dd}48;
 - (void)?;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyAdjustsVideoMirroring;
-@property(nonatomic, getter=isVideoMirrored) _Bool videoMirrored;
 @end
 

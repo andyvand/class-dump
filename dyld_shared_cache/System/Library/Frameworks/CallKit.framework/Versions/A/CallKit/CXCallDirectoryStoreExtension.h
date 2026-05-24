@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CXCallDirectoryStoreExtension
 {
     NSString *_identifier;
-    long long _primaryKey;
-    long long _priority;
-    long long _state;
-    NSDate *_stateLastModified;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)encodeFloat:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (long long);
-- (void);
+- (long long)J(*
+=;
+- (void)*getITLibMediaItemPropertyIsCloud();
 - (void);
 - (id);
 - (void);
-- (long long)supportsSharePlay;
+- (long long)_supportsSharePlay;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long primaryKey; // @synthesize primaryKey=_primaryKey;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSDate *stateLastModified; // @synthesize stateLastModified=_stateLastModified;
 
 @end
 

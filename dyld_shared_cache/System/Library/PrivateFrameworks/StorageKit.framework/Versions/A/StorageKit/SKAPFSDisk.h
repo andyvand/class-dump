@@ -6,36 +6,25 @@
 
 #import <StorageKit/SKDisk.h>
 
-@class NSString;
-
 @interface SKAPFSDisk : SKDisk
 {
     _Bool _isEncrypted;
-    _Bool _defaultEffaceable;
-    _Bool _isConvertingToEncrypted;
-    _Bool _isConvertingToDecrypted;
-    _Bool _canBeMountedReadWrite;
-    unsigned long long _usedSpace;
-    unsigned long long _reserveSpace;
-    unsigned long long _quotaSpace;
-    NSString *_apfsVolumeGroupUUID;
-    NSString *_apfsRole;
 }
 
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)#;
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (void)qh;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -73,10 +62,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
@@ -85,29 +74,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Z;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *apfsRole; // @synthesize apfsRole=_apfsRole;
-@property(readonly) NSString *apfsUUID;
-@property(retain) NSString *apfsVolumeGroupUUID; // @synthesize apfsVolumeGroupUUID=_apfsVolumeGroupUUID;
-@property _Bool canBeMountedReadWrite; // @synthesize canBeMountedReadWrite=_canBeMountedReadWrite;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool defaultEffaceable; // @synthesize defaultEffaceable=_defaultEffaceable;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasVolumeSiblings;
-@property(readonly) unsigned long long hash;
-@property _Bool isConvertingToDecrypted; // @synthesize isConvertingToDecrypted=_isConvertingToDecrypted;
-@property _Bool isConvertingToEncrypted; // @synthesize isConvertingToEncrypted=_isConvertingToEncrypted;
-@property _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property unsigned long long quotaSpace; // @synthesize quotaSpace=_quotaSpace;
 @property unsigned long long reserveSpace; // @synthesize reserveSpace=_reserveSpace;
-@property(readonly) Class superclass;
-@property unsigned long long usedSpace; // @synthesize usedSpace=_usedSpace;
 
 @end
 

@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nimplemented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobAsset_macOS.m:40 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)id _IMDMessageRecordBulkCopyXPCDictionary(IMDMessageRecordRef, xpc_object_t, Boolean, Boolean, Boolean);
+- (id)ZB;
 - (id);
-- (id);
-- (id);
+- (id)alternativeSelections;
 - (id)InSecond;
-- (_Bool)APPBUNDLEID_COM_APPLE_INCALLSERVICE;
+- (_Bool)ODMSIRITASKAPPBUNDLEID_COM_APPLE_INCALLSERVICE;
 - (_Bool)fier.custom.bundleId;
 - (void)Ð;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

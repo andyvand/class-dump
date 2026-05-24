@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDSoftwareUpdateModel, HMFMessageDispatcher, HMFSoftwareVersion, HMSoftwareUpdateDocumentationMetadata, NSArray, NSDate, NSObject, NSString, NSUUID;
-@protocol HMDSoftwareUpdateDataSource, OS_dispatch_queue;
+@class HMFMessageDispatcher;
 
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdate
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _hasRegisteredDocumentationMetadata;
-    _Bool _allowExtraUpdate;
-    long long _state;
-    HMSoftwareUpdateDocumentationMetadata *_documentationMetadata;
-    unsigned long long _updateType;
-    NSDate *_releaseDate;
-    unsigned long long _needsAttentionReasons;
-    NSUUID *_identifier;
-    HMFSoftwareVersion *_version;
-    NSString *_displayableVersion;
-    unsigned long long _downloadSize;
-    double _installDuration;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDSoftwareUpdateDataSource> _dataSource;
-    HMDAccessory *_accessory;
 }
 
 + (_Bool)àÅàÆÂÜÊ@ËxÎÃàÏÄÐÄ`Ô ÕÅ(Ö(×ÆÚÇHÛÈÀÛ$ÜàñóÉô|õÊôùËlþx;
@@ -36,9 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (_Bool)cribed from trip %@;
+- (void)V;
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -47,17 +31,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)__TEXT;
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)P;
+- (id)o not unpause session  isAMutableCopy %d isSessionPausedByViewer %d isServerDisplaySleeping %d;
+- (id)width and height.  closing connection;
 - (id);
 - (unsigned long long);
 - (void);
@@ -65,23 +48,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (id);
 - (void);
 - (void)@ù
 × ;
-- (id)otHandler:reachabilityPath:device:delegate:accessory:streamManagementService:localNetworkConfig:remoteCapabilities:supportedConfigCache:streamPreference: /* Error: Ran out of types for this method. */;
+- (id)initWithSessionInfo:workQueue:streamSnapshotHandler:reachabilityPath:device:delegate:accessory:streamManagementService:localNetworkConfig:remoteCapabilities:supportedConfigCache:streamPreference: /* Error: Ran out of types for this method. */;
 - (id)eUpdateEventProtoSoftwareUpdateProgress",N,&;
-- (id)llerClientProtocol;
+- (id)MTRDeviceControllerClientProtocol;
 - (void)UØ;q¼Ø;¤Ù;ì0Ú;4 xÚ;ÊèÚ;ðûÛ;àTÛ;d&Û;(S´Û;üZÜ;;
 - (id)AllowedWhenLocked settings to all entitled clients :[%@] /* Error: Ran out of types for this method. */;
 - (unsigned long long)dent connection %@;
 - (id)<Stage (%{public}@) Apply (%{public}@)>;
 - (void)have been received for get-action-types, calling result handler;
 - (void)onary"16^B24;
-- (void)essageOriginMergeIDKey;
-- (id)Event;
+- (void)HMDInvitationForwardMessageOriginMergeIDKey;
+- (id)CameraClipSignificantEvent;
 - (id)interface_name;
 - (void)I=;
 - (id);
@@ -91,44 +74,7 @@ __attribute__((visibility("hidden")))
 - (void)@{ÿá¿ÈÅ>;
 
 // Remaining properties
-@property __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property _Bool allowExtraUpdate; // @synthesize allowExtraUpdate=_allowExtraUpdate;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property __weak id <HMDSoftwareUpdateDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *displayableVersion; // @synthesize displayableVersion=_displayableVersion;
-@property(readonly) HMSoftwareUpdateDocumentationMetadata *documentationMetadata; // @synthesize documentationMetadata=_documentationMetadata;
-@property(readonly) unsigned long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property _Bool hasRegisteredDocumentationMetadata; // @synthesize hasRegisteredDocumentationMetadata=_hasRegisteredDocumentationMetadata;
-@property(readonly) unsigned long long hash;
-@property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) double installDuration; // @synthesize installDuration=_installDuration;
 @property(retain, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) HMDSoftwareUpdateModel *model;
-@property unsigned long long needsAttentionReasons; // @synthesize needsAttentionReasons=_needsAttentionReasons;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSDate *releaseDate; // @synthesize releaseDate=_releaseDate;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long updateType; // @synthesize updateType=_updateType;
-@property(readonly, copy) HMFSoftwareVersion *version; // @synthesize version=_version;
 
 @end
 

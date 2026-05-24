@@ -4,57 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBConnectedCall;
+@class _INPBConnectedCall;
 
 @interface _INPBAnswerCallIntentResponse
 {
     CDStruct_bcb1eac0 _has;
-    int _statusCode;
-    _INPBConnectedCall *_answeredCall;
-    NSArray *_callRecords;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)(	;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (int);
-- (id);
+- (id)ollection"16@0:(id)arg1 8;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)9;
+- (_Bool)updateKnownNetworkHandler;
+- (void)backhaul monitor (error=%{public}@);
 - (id);
 - (id);
-- (void)seCodeFailure;
+- (void)INPlayAudioMessageIntentResponseCodeFailure;
 - (int);
 - (void)Îùÿ;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBConnectedCall *answeredCall; // @synthesize answeredCall=_answeredCall;
-@property(copy, nonatomic) NSArray *callRecords; // @synthesize callRecords=_callRecords;
-@property(readonly, nonatomic) unsigned long long callRecordsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAnsweredCall;
-@property(nonatomic) _Bool hasStatusCode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

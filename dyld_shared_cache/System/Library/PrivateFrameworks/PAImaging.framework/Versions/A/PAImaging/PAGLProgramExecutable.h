@@ -6,19 +6,11 @@
 
 #import <PAImaging/PAGLObject.h>
 
-@class NSObject, PAGLGeometryShader, PAGLShader, PAOpenGLProgram;
-@protocol OS_dispatch_queue;
+@class PAOpenGLProgram;
 
 @interface PAGLProgramExecutable : PAGLObject
 {
     PAOpenGLProgram *_program;
-    NSObject<OS_dispatch_queue> *_queue;
-    PAGLShader *_vertexShader;
-    PAGLShader *_fragmentShader;
-    PAGLGeometryShader *_geometryShader;
-    _Bool _isCompiled;
-    _Bool _isLinked;
-    _Bool _isRunning;
 }
 
 + (void);
@@ -27,7 +19,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (_Bool);
 - (void);
@@ -42,18 +34,17 @@
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)ü;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isLoaded) _Bool loaded;
 @property(readonly, nonatomic) __weak PAOpenGLProgram *program; // @synthesize program=_program;
 
 @end

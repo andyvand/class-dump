@@ -20,7 +20,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)HQz;
 - (id);
 - (id);
 - (void);

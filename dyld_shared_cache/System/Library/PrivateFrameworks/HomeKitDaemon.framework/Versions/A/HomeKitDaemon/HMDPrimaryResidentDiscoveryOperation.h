@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDFeaturesDataSource, HMDHome, HMDMessageDispatcher, HMDPrimaryResidentDiscoveryLogEvent, HMDResidentDevice, HMFFuture, HMFPromise, HMFTimer, NSArray, NSEnumerator, NSError, NSString, NSUUID;
-@protocol HMDResidentDeviceManagerContext;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryResidentDiscoveryOperation
 {
     NSString *_logIdentifier;
-    HMFFuture *_initialDiscoveryAttemptCompletionFuture;
-    HMFFuture *_completionFuture;
-    HMDResidentDevice *_currentPrimaryResident;
-    NSUUID *_currentPrimaryResidentGenerationID;
-    HMDPrimaryResidentDiscoveryLogEvent *_logEvent;
-    HMDMessageDispatcher *_messageDispatcher;
-    CDUnknownBlockType _responseHandler;
-    NSEnumerator *_candidateDestinationsEnumerator;
-    HMFPromise *_initialDiscoveryAttemptCompletionPromise;
-    HMDFeaturesDataSource *_featuresDataSource;
-    id <HMDResidentDeviceManagerContext> _context;
-    HMDHome *_home;
-    NSArray *_candidateDestinations;
-    HMFTimer *_sendToNextDestinationTimer;
-    HMFTimer *_sendAccountMessageTimer;
 }
 
 + (id)~B;
@@ -37,24 +21,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_createMinimalSenderWithMapsClass:messagesClass:serviceName: /* Error: Ran out of types for this method. */;
+- (id)_createMinimalSenderWithMapsClass:messagesClass:serviceName: /* Error: Ran out of types for this method. */;
+- (id)] cached sender rules %@;
+- (void);
+- (id)O.;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (void)ssion stSendGestureSwipeEvent:(id)arg1 ];
 - (void);
-- (void);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (id);
@@ -62,38 +46,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (id)ledError: /* Error: Ran out of types for this method. */;
+- (id)cloudZone:didEncounterZoneDisabledError: /* Error: Ran out of types for this method. */;
 - (void)ic}@Updating minimum router support HomeKit version to enable network router support from %@ to cloud version %@;
 - (void)rootCert;
 - (id)essory Firmware Update Profile %@, %@;
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly) NSArray *candidateDestinations; // @synthesize candidateDestinations=_candidateDestinations;
-@property(retain) NSEnumerator *candidateDestinationsEnumerator; // @synthesize candidateDestinationsEnumerator=_candidateDestinationsEnumerator;
-@property(readonly) HMFFuture *completionFuture; // @synthesize completionFuture=_completionFuture;
-@property(readonly, nonatomic) __weak id <HMDResidentDeviceManagerContext> context; // @synthesize context=_context;
-@property(readonly) HMDResidentDevice *currentPrimaryResident; // @synthesize currentPrimaryResident=_currentPrimaryResident;
-@property(readonly) NSUUID *currentPrimaryResidentGenerationID; // @synthesize currentPrimaryResidentGenerationID=_currentPrimaryResidentGenerationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSError *error;
-@property(readonly) HMDFeaturesDataSource *featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMFFuture *initialDiscoveryAttemptCompletionFuture; // @synthesize initialDiscoveryAttemptCompletionFuture=_initialDiscoveryAttemptCompletionFuture;
-@property(retain) HMFPromise *initialDiscoveryAttemptCompletionPromise; // @synthesize initialDiscoveryAttemptCompletionPromise=_initialDiscoveryAttemptCompletionPromise;
-@property(readonly) HMDPrimaryResidentDiscoveryLogEvent *logEvent; // @synthesize logEvent=_logEvent;
 @property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) HMDMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(retain) HMFTimer *sendAccountMessageTimer; // @synthesize sendAccountMessageTimer=_sendAccountMessageTimer;
-@property(retain) HMFTimer *sendToNextDestinationTimer; // @synthesize sendToNextDestinationTimer=_sendToNextDestinationTimer;
-@property(readonly) Class superclass;
 
 @end
 

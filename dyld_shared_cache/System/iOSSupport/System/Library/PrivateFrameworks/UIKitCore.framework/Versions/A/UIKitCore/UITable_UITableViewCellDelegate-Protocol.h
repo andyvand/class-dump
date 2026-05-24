@@ -4,20 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableViewCell;
+@class NSString, UITableViewCell;
+@protocol UIInteraction;
 
 @protocol UITable_UITableViewCellDelegate
-- (long long)Corrections;
+- (NSString *)@"NSDictionary"16@"NSString"24@"NSString"32@"NSString"40C48@"NSString"52;
+- (void)B64^B72;
+- (UITableViewCell *)8B56;
+- (_Bool)updateGroupPhotoUploadFailureCount:(UITableViewCell *)arg1;
+- (void)setPendingRequests:(UITableViewCell *)arg1;
+- (double)invitePersonInfo:withMessage:toChat:style: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)existingChatsForIDs:onService:displayName:originalGroupID:style: /* Error: Ran out of types for this method. */;
+- (void)defaultCenter;
+- (void)broadcasterForRemoteIntentListeners;
+- (_Bool)_getDevicesForBothNicknameServices:removeNewServiceURIsFromIMessageList:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_fileTransferForAssetUUID:forMessage:momentShare:atIndex:ofTotal: /* Error: Ran out of types for this method. */;
+- (_Bool)_fetchArchivedRecordsIfNeeded:(UITableViewCell *)arg1 currentBatchCount:maxNumberOfBatches:activity:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)service:(UITableViewCell *)arg1 account:(id <UIInteraction>)arg2 didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)sendDeliveryReceiptIfRequested:(UITableViewCell *)arg1;
+- (void)SyndicationActions;
+- (_Bool)IMDCKSyncTokenStore;
+- (void)<;
+- (void);
+- (_Bool)_filter;
+- (void);
+- (long long)NSGrammarCorrections;
 - (void)viewControllerTitle;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isEditingForSwipeDeletion) _Bool editingForSwipeDeletion;
-@property(readonly, nonatomic, getter=_isInModalViewController) _Bool inModalViewController;
-@property(readonly, nonatomic, getter=_popoverControllerStyle) long long popoverControllerStyle;
-@property(readonly, nonatomic, getter=_rawSeparatorInset) struct UIEdgeInsets rawSeparatorInset;
 @property(readonly, nonatomic, getter=_rowSpacing) double rowSpacing;
-@property(readonly, nonatomic) _Bool selectionFollowsFocus;
-@property(retain, nonatomic, getter=_swipeToDeleteCell, setter=_setSwipeToDeleteCell:) UITableViewCell *swipeToDeleteCell;
-@property(readonly, nonatomic, getter=_wasEditing) _Bool wasEditing;
 @end
 

@@ -6,13 +6,10 @@
 
 #import <HomeKitDaemon/HMDHAPMetrics.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface HMDHAPMetricsReachabilityAddRemoveEvent : HMDHAPMetrics
 {
     unsigned long long _addRemoveEvent;
-    NSNumber *_linkType;
 }
 
 - (id);
@@ -24,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long addRemoveEvent; // @synthesize addRemoveEvent=_addRemoveEvent;
-@property(readonly, nonatomic) NSNumber *linkType; // @synthesize linkType=_linkType;
 
 @end
 

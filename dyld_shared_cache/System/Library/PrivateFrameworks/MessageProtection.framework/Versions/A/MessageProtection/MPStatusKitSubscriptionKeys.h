@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MPStatusKitSubscriptionKeys
 {
     unsigned short _index;
-    NSData *_chainKey;
-    NSData *_signingKey;
 }
 
-- (id);
+- (id)h;
 - (id);
 - (unsigned short);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *chainKey; // @synthesize chainKey=_chainKey;
 @property(readonly, nonatomic) unsigned short index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *signingKey; // @synthesize signingKey=_signingKey;
 
 @end
 

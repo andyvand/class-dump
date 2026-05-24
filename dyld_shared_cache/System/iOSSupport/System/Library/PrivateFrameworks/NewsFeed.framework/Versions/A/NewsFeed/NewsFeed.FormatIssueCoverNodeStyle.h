@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatIssueCoverNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id borders;
-    id cornerRadius;
-    id shadow;
-    id ignoresSmartInvertColors;
-    id _traits;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol ECIMAPServerMessageBuilder
+- (unsigned int)n state:%ld -> new presentation state:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int imapUID;
-@property(copy, nonatomic) NSSet *labels;
 @end
 

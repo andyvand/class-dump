@@ -6,31 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, POMMESSchemaPOMMESPegasusRequestArguments, POMMESSchemaPOMMESPegasusRequestKfedLatency, POMMESSchemaPOMMESPegasusResponseClientDrivenContext, POMMESSchemaPOMMESPegasusResponseServerDrivenContext;
-
 @interface POMMESSchemaPOMMESPegasusRequestEnded : SISchemaInstrumentationMessage
 {
     int _status;
-    double _confidenceScore;
-    double _payloadSizeInKB;
-    POMMESSchemaPOMMESPegasusResponseServerDrivenContext *_serverDriven;
-    POMMESSchemaPOMMESPegasusResponseClientDrivenContext *_clientDriven;
-    NSString *_pegasusDomain;
-    _Bool _isRewrittenUtteranceUsed;
-    POMMESSchemaPOMMESPegasusRequestArguments *_requestArguments;
-    POMMESSchemaPOMMESPegasusRequestKfedLatency *_kfedLatency;
-    struct {
-        unsigned int status:1;
-        unsigned int confidenceScore:1;
-        unsigned int payloadSizeInKB:1;
-        unsigned int isRewrittenUtteranceUsed:1;
-    } _has;
-    _Bool _hasServerDriven;
-    _Bool _hasClientDriven;
-    _Bool _hasPegasusDomain;
-    _Bool _hasRequestArguments;
-    _Bool _hasKfedLatency;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -39,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˿;
 - (void);
 - (void);
 - (void);
@@ -54,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�hB;
 - (_Bool);
 - (void);
 - (void);
@@ -71,47 +49,28 @@
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)ary"48@56;
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)/Libraries/AppStoreDaemon/Stubs/ASDUpdateWatchApps_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)uld ~not~ clean up '%@' due to error '%@'.;
 - (id);
-- (int);
+- (int)/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts;
 - (id);
-- (id)rawLanguage;
+- (id)_rawLanguage;
 - (id)sCarDoNotDisturbModeEnabled;
 - (_Bool)V_hasProvisionalEvent;
 - (void)¦;
-- (void)ATION_BELOW_STREET;
+- (void)FLOWMAPSQUERYLABEL_LOCATION_BELOW_STREET;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusResponseClientDrivenContext *clientDriven; // @synthesize clientDriven=_clientDriven;
-@property(nonatomic) double confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) _Bool hasClientDriven; // @synthesize hasClientDriven=_hasClientDriven;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasIsRewrittenUtteranceUsed;
-@property(nonatomic) _Bool hasKfedLatency; // @synthesize hasKfedLatency=_hasKfedLatency;
-@property(nonatomic) _Bool hasPayloadSizeInKB;
-@property(nonatomic) _Bool hasPegasusDomain; // @synthesize hasPegasusDomain=_hasPegasusDomain;
-@property(nonatomic) _Bool hasRequestArguments; // @synthesize hasRequestArguments=_hasRequestArguments;
-@property(nonatomic) _Bool hasServerDriven; // @synthesize hasServerDriven=_hasServerDriven;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool isRewrittenUtteranceUsed; // @synthesize isRewrittenUtteranceUsed=_isRewrittenUtteranceUsed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusRequestKfedLatency *kfedLatency; // @synthesize kfedLatency=_kfedLatency;
-@property(nonatomic) double payloadSizeInKB; // @synthesize payloadSizeInKB=_payloadSizeInKB;
-@property(copy, nonatomic) NSString *pegasusDomain; // @synthesize pegasusDomain=_pegasusDomain;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusRequestArguments *requestArguments; // @synthesize requestArguments=_requestArguments;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusResponseServerDrivenContext *serverDriven; // @synthesize serverDriven=_serverDriven;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

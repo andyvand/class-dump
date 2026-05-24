@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabase, EDPersistenceHookRegistry, EDUbiquitousConversationManager, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EDPersistenceDatabase;
 
 @interface EDConversationPersistence
 {
     EDPersistenceDatabase *_database;
-    EDUbiquitousConversationManager *_conversationManager;
-    EDPersistenceHookRegistry *_hookRegistry;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
 }
 
 + (id);
@@ -23,20 +19,20 @@
 + (id);
 + (id)³ð1Â0@ù
 × ;
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (long long);
 - (void);
 - (void);
+- (void)_TtC12SiriOntology40UsoTask_checkExistence_common_NoteFolder;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)appleSlideshow_SlideshowAttribute_PhotoAttributesFromFrontFacingCamera;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)5;
 - (void);
 - (_Bool);
 - (void);
@@ -44,8 +40,8 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
-- (long long);
+- (void)ion ended;
+- (long long)LqmCcaTotal50to60Duration;
 - (void);
 - (id);
 - (id);
@@ -53,22 +49,11 @@
 - (id)Ñ³ð1Â0@ù
 × ;
 - (void)earchableIndex.redonateItems;
-- (id);
+- (id)T;
 - (id)ÿ@;
 
 // Remaining properties
-@property(readonly, nonatomic) EDUbiquitousConversationManager *conversationManager; // @synthesize conversationManager=_conversationManager;
 @property(readonly, nonatomic) __weak EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasSubscribedConversations;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,51 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSTextField;
-@protocol AXVSearchDropDownSectionProtocol;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AXVSearchDropDownDefaultSectionView
 {
     Class _itemViewClass;
-    NSTextField *__nameTextField;
-    NSArray *_sectionViewItems;
-    NSObject<AXVSearchDropDownSectionProtocol> *_sectionViewSection;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)?%@q!;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (Class);
+- (Class)qa;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)qA;
+- (void)a;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTextField *_nameTextField; // @synthesize _nameTextField=__nameTextField;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) Class itemViewClass; // @synthesize itemViewClass=_itemViewClass;
-@property(retain, nonatomic) NSArray *sectionViewItems; // @synthesize sectionViewItems=_sectionViewItems;
-@property(retain, nonatomic) NSString *sectionViewName;
-@property(retain, nonatomic) NSObject<AXVSearchDropDownSectionProtocol> *sectionViewSection; // @synthesize sectionViewSection=_sectionViewSection;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,23 +11,22 @@
     NSData *_issueViewingSessionId;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)addChapterWithDateInterval:(id)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (id)_stepForward;
+- (_Bool)_setPlayheadTime: /* Error: Ran out of types for this method. */;
+- (id)(;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)SubscriptionCount;
+- (void)channelSubscriptionCount;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIssueViewingSessionId;
-@property(retain, nonatomic) NSData *issueViewingSessionId; // @synthesize issueViewingSessionId=_issueViewingSessionId;
 
 @end
 

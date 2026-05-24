@@ -6,33 +6,27 @@
 
 #import <iTunesCloud/ICAsyncOperation.h>
 
-@class ICStoreRequestContext, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ICMachineDataOperation : ICAsyncOperation
 {
     NSData *_data;
-    ICStoreRequestContext *_requestContext;
-    long long _protocolVersion;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)elector:(long long)arg1 withObject: /* Error: Ran out of types for this method. */;
-- (void)ictionary:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(long long)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)isValidSubscriptionStatusResponseDictionary:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (long long)Dynamic;
-- (void)CLLMediaInfo;
+- (void)_ICLLMediaInfo;
 - (id)ø
 ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) long long protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(retain, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
 
 @end
 

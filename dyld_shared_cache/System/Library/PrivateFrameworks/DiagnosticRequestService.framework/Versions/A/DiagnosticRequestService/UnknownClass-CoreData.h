@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CoreData)
 - (id);
-- (id);
+- (id)R;
 @end
 

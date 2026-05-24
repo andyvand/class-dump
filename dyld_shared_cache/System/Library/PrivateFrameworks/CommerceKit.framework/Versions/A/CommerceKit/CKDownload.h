@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDownloadStatus, CKStoreClient, NSArray, NSDictionary, NSString, NSURL;
+@class CKStoreClient;
 
 @interface CKDownload
 {
     unsigned char _priority;
-    _Bool _decryptAsset;
-    _Bool _verifyAsset;
-    NSString *_identifier;
-    NSString *_itemIdentifier;
-    NSString *_versionIdentifier;
-    unsigned long long _primaryAssetSize;
-    NSDictionary *_metadata;
-    CKDownloadStatus *_status;
-    NSString *_installedVersionIdentifier;
-    CKStoreClient *_storeClient;
-    NSURL *_cancelURL;
-    NSArray *_assets;
-    NSString *_downloadQueueIdentifier;
 }
 
 + (_Bool);
@@ -34,17 +21,17 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)4h;
+- (id);
+- (void);
+- (void)];
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)a;
+- (void)6 ;
 - (void);
 - (void);
 - (id);
@@ -57,20 +44,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly) NSURL *cancelURL; // @synthesize cancelURL=_cancelURL;
-@property _Bool decryptAsset; // @synthesize decryptAsset=_decryptAsset;
-@property(copy) NSString *downloadQueueIdentifier; // @synthesize downloadQueueIdentifier=_downloadQueueIdentifier;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *installedVersionIdentifier; // @synthesize installedVersionIdentifier=_installedVersionIdentifier;
-@property(readonly) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly) unsigned long long primaryAssetSize; // @synthesize primaryAssetSize=_primaryAssetSize;
-@property unsigned char priority; // @synthesize priority=_priority;
-@property(retain) CKDownloadStatus *status; // @synthesize status=_status;
 @property(readonly) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property _Bool verifyAsset; // @synthesize verifyAsset=_verifyAsset;
-@property(readonly) NSString *versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <NotesShared/ICCRDocument.h>
 
-@class NSMutableArray, TTICCRVectorMultiTimestamp;
+@class TTICCRVectorMultiTimestamp;
 
 @interface ICCRTTCompatibleDocument : ICCRDocument
 {
     TTICCRVectorMultiTimestamp *_sharedTopotextTimestamp;
-    NSMutableArray *_stringsWithClocksNeedingUpdating;
-    NSMutableArray *_stringsWithClocksToResetAfterRealizingLocalChanges;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TTICCRVectorMultiTimestamp *sharedTopotextTimestamp; // @synthesize sharedTopotextTimestamp=_sharedTopotextTimestamp;
-@property(retain, nonatomic) NSMutableArray *stringsWithClocksNeedingUpdating; // @synthesize stringsWithClocksNeedingUpdating=_stringsWithClocksNeedingUpdating;
-@property(retain, nonatomic) NSMutableArray *stringsWithClocksToResetAfterRealizingLocalChanges; // @synthesize stringsWithClocksToResetAfterRealizingLocalChanges=_stringsWithClocksToResetAfterRealizingLocalChanges;
 
 @end
 

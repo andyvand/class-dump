@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCError, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface BCNativeOAuth2Response
 {
     long long _status;
     NSString *_token;
-    NSArray *_errors;
 }
 
-- (id);
+- (id)presentFromRect:(id)arg1 inView:(id)arg2 animated:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)$: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)i,N,V_cloudState;
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)y",R,C,N,V_eventStatusText;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) BCError *error;
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
 @property(nonatomic) long long status; // @synthesize status=_status;
 @property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 

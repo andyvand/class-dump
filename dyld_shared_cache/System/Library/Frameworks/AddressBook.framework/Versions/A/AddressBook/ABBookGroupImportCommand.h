@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntriesList, ABImportRecordFactory, ABLazyGroup, ABRecordContext, NSArray, NSMutableArray;
+@class ABRecordContext;
 
 @interface ABBookGroupImportCommand
 {
     ABRecordContext *_sourceContext;
-    NSArray *_sourceGroups;
-    NSArray *_sourcePersonUids;
-    ABRecordContext *_destinationContext;
-    ABLazyGroup *_destinationGroup;
-    ABGroupEntriesList *_groupEntriesList;
-    ABImportRecordFactory *_importRecordFactory;
-    NSMutableArray *_importedGroups;
-    NSMutableArray *_importedPeopleUids;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)`;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,16 +30,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 

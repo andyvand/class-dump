@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSData, NSUUID;
+
 @protocol VNClusteringReadOnly
++ (NSUUID *);
++ (NSArray *);
+- (NSData *);
 @end
 

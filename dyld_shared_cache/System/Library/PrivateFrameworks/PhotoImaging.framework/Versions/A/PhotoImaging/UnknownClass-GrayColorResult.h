@@ -11,7 +11,6 @@
 - (CDStruct_145c54d4);
 
 // Remaining properties
-@property(readonly) CDStruct_145c54d4 RGBResultValue;
 @property(readonly) CDStruct_92960315 pi_grayColorResultValue;
 @end
 

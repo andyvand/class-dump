@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSForceClickMonitor, NSView;
-@protocol NSImmediateActionAnimationController, NSImmediateActionGestureRecognizerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface NSImmediateActionToQuickLookPresentationAdaptor
 {
     long long _presentationState;
-    NSForceClickMonitor *_forceClickMonitor;
-    NSView *_view;
-    id <NSImmediateActionGestureRecognizerDelegate> _delegate;
-    id <NSImmediateActionAnimationController> _animationController;
-    NSEvent *_startEvent;
-    long long _flags;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (void);
-- (double);
+- (double)(D;
+- (id);
+- (void)1206;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)288;
 - (unsigned long long);
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (long long);
 - (id);
@@ -43,17 +34,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGPoint)
 × ;
-- (id)nishLaunchTestIfAppropriate;
+- (id)_finishLaunchTestIfAppropriate;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) id <NSImmediateActionAnimationController> animationController;
-@property(readonly) double animationProgress;
-@property __weak id <NSImmediateActionGestureRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) unsigned long long modifierFlags;
 @property long long presentationState; // @synthesize presentationState=_presentationState;
-@property __weak NSView *view; // @synthesize view=_view;
 
 @end
 

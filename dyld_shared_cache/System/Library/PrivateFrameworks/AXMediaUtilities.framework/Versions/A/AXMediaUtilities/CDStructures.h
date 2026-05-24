@@ -23,12 +23,12 @@ struct AudioStreamBasicDescription {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGImage;
@@ -54,8 +54,8 @@ struct CGVector {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {
@@ -74,43 +74,11 @@ struct vImage_Buffer {
     unsigned long long _field4;
 };
 
-struct vector<NSString *, std::allocator<NSString *>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
-struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
-    struct {
-        float *__cap_;
-    } ;
-};
-
-struct vector<int, std::allocator<int>> {
-    int *__begin_;
-    int *__end_;
-    struct {
-        int *__cap_;
-    } ;
-};
-
-struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> {
-    void *__begin_;
-    void *__end_;
-    struct {
-        void *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    id _field1[4];
+} CDStruct_34f00414;
 
 typedef struct {
     int _field1;

@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyValue32Pair
 {
     NSString *_key;
-    unsigned int _value;
-    CDStruct_38ef1b98 _flags;
 }
 
 - (id);
-- (void);
+- (void)TestRecipeEatsVolumeDown;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (id)_urlData"b1"read_valString"b1"wrote_anyField"b1};
 - (id):convertEndpointsToSupportPoints: /* Error: Ran out of types for this method. */;

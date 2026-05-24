@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSViewController;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface BrowserWindowContentViewController
 {
     NSView *_mainContentView;
-    NSView *_splitViewClipView;
-    NSViewController *_splitViewController;
-    NSViewController *_lockedBrowsingViewController;
 }
 
 - (id);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)àÈ;
 
 // Remaining properties
-@property(retain, nonatomic) NSViewController *lockedBrowsingViewController; // @synthesize lockedBrowsingViewController=_lockedBrowsingViewController;
 @property(readonly, nonatomic) NSView *mainContentView; // @synthesize mainContentView=_mainContentView;
-@property(readonly, nonatomic) NSView *splitViewClipView; // @synthesize splitViewClipView=_splitViewClipView;
-@property(retain, nonatomic) NSViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
 
 @end
 

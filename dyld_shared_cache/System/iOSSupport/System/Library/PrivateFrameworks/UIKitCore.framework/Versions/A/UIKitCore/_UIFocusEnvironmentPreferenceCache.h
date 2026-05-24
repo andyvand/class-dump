@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)setPersonalNickname:(id)arg1;
+- (id)_getTempDBPath;
 - (id);
 - (id);
 - (void)°Ñ[;

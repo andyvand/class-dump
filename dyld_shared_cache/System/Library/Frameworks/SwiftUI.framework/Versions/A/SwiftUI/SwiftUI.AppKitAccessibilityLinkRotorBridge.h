@@ -7,8 +7,6 @@
 @interface SwiftUI.AppKitAccessibilityLinkRotorBridge
 {
     id node;
-    id paragraphHash;
-    id elements;
 }
 
 - (id);

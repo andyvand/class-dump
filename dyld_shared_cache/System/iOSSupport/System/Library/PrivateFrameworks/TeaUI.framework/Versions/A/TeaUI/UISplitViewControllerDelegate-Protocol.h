@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UISplitViewController;
+
 @protocol UISplitViewControllerDelegate
+
+@optional
+- (void)A;
+- (void)ѿ#8�h:(UISplitViewController *)arg1;
+- (long long)b;
+- (_Bool)h;
 @end
 

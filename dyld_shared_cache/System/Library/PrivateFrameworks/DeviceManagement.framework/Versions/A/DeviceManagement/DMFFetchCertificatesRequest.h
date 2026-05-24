@@ -13,13 +13,13 @@
 
 + (Class);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(nonatomic) _Bool managedOnly; // @synthesize managedOnly=_managedOnly;

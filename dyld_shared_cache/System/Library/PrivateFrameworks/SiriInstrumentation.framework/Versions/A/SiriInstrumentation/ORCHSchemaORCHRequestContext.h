@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHRequestCancelled, ORCHSchemaORCHRequestEnded, ORCHSchemaORCHRequestFailed, ORCHSchemaORCHRequestStarted;
+@class ORCHSchemaORCHRequestStarted;
 
 @interface ORCHSchemaORCHRequestContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHRequestEnded *_ended;
-    ORCHSchemaORCHRequestFailed *_failed;
-    ORCHSchemaORCHRequestCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -36,11 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ntrollerDelegate>";
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -51,21 +43,12 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)hotCaptured;
+- (id)_debugSessionConnectionSnapshotCaptured;
 - (id)talCollectInputsDuration;
 - (void)ad.outcome.parameterDisambiguation.items.collection.values.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHRequestCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) ORCHSchemaORCHRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

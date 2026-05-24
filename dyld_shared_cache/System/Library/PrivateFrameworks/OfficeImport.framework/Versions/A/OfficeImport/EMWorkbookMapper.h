@@ -6,38 +6,16 @@
 
 #import <OfficeImport/CMDocumentMapper.h>
 
-@class EDWorkbook, NSMutableArray, NSString, OIXMLDocument, OIXMLElement;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface EMWorkbookMapper : CMDocumentMapper
 {
     unsigned long long mRealSheetCount;
-    int mWidth;
-    int mHeight;
-    NSMutableArray *mWorksheetUrls;
-    NSMutableArray *mWorksheetNames;
-    NSMutableArray *mWorksheetGuids;
-    NSString *mResourceUrlPrefix;
-    NSString *mResourceUrlProtocol;
-    NSString *mStyleSheetGuid;
-    NSString *mFileName;
-    unsigned int mSheetIndex;
-    _Bool mIsFirstMappedSheet;
-    _Bool mIsFrameset;
-    OIXMLDocument *mXhtmlDoc;
-    OIXMLElement *mBodyElement;
-    OIXMLDocument *mTabBarDoc;
-    NSString *mTabBarURL;
-    NSMutableArray *mSheetURLs;
-    double mTabPosition;
-    unsigned long long mNumberOfMappedSheets;
-    _Bool mHasPushedHeader;
-    _Bool mHasPushedFirstSheet;
-    _Bool mLoadingMessageVisible;
 }
 
-+ (id);
-+ (id);
++ (id)qn;
++ (id);
 + (id);
 - (id);
 - (id);
@@ -45,26 +23,25 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)i;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)B;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
-- (id)etClippingIsRestarted: /* Error: Ran out of types for this method. */;
+- (id)setClippingIsRestarted: /* Error: Ran out of types for this method. */;
 - (void)H;
 - (id)Öÿ/ÙvF,;
 
 // Remaining properties
-@property(readonly) EDWorkbook *document; // @dynamic document;
 @property(retain) NSString *fileName; // @synthesize fileName=mFileName;
 
 @end

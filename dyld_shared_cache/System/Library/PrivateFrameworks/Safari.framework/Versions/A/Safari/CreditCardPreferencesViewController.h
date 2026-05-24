@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AuthorizationSheetViewController, CreditCardDataEditor, NSString, NSViewController, NSWindow, SecureWindowLockPolicyEnforcer;
+@class CreditCardDataEditor, NSViewController;
 
 __attribute__((visibility("hidden")))
 @interface CreditCardPreferencesViewController
 {
     NSViewController *_currentViewController;
-    CreditCardDataEditor *_creditCardDataEditor;
-    AuthorizationSheetViewController *_authorizationSheetViewController;
-    SecureWindowLockPolicyEnforcer *_lockPolicyEnforcer;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (id);
@@ -33,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AuthorizationSheetViewController *authorizationSheetViewController; // @synthesize authorizationSheetViewController=_authorizationSheetViewController;
 @property(readonly, nonatomic) CreditCardDataEditor *creditCardDataEditor; // @synthesize creditCardDataEditor=_creditCardDataEditor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SecureWindowLockPolicyEnforcer *lockPolicyEnforcer; // @synthesize lockPolicyEnforcer=_lockPolicyEnforcer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSWindow *windowToSecure;
-@property(readonly, nonatomic) _Bool windowToSecureIsMainWindow;
 
 @end
 

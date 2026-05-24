@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BPSPublisher;
 
 @interface BPSOrderedMergeUpstreamState
 {
     id <BPSPublisher> _upstream;
-    id _nextEvent;
-    id _lastReturnedEvent;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setFollowUpController: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -29,15 +26,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id lastReturnedEvent; // @synthesize lastReturnedEvent=_lastReturnedEvent;
-@property(retain, nonatomic) id nextEvent; // @synthesize nextEvent=_nextEvent;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end

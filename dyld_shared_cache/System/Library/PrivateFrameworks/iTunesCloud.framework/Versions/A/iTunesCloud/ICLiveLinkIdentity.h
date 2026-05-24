@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString, NSURL, NSUUID;
-
 @interface ICLiveLinkIdentity
 {
     long long _serverID;
-    NSUUID *_identifier;
-    NSString *_externalIdentifier;
-    NSPersonNameComponents *_nameComponents;
-    NSURL *_imageURL;
 }
 
 @end

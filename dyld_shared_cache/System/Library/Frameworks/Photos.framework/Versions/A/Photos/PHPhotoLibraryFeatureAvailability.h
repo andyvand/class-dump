@@ -7,39 +7,20 @@
 @interface PHPhotoLibraryFeatureAvailability
 {
     _Bool _stillAssetEmbeddingsAreIndexedEnough;
-    _Bool _photosKnowledgeGraphIsReady;
-    _Bool _libraryHasEnoughCuratedAssets;
-    unsigned long long _feature;
-    double _fractionOfAssetsWithSceneAnalysis;
-    double _fractionOfAssetsWithFaceAnalysis;
-    double _fractionOfAssetsWithEmbeddings;
-    double _fractionOfAssetsWithCaptions;
-    double _fractionOfAssetsWithScenesInIndex;
-    double _fractionOfAssetsWithFacesInIndex;
-    double _fractionOfAssetsWithEmbeddingsInIndex;
-    double _fractionOfStillAssetsWithEmbeddings;
-    double _fractionOfStillAssetsWithCaptions;
-    double _fractionOfStillAssetsWithEmbeddingsInIndex;
-    double _fractionOfCuratedAssetsWithEmbeddings;
-    double _fractionOfCuratedAssetsWithCaptions;
-    double _fractionOfCuratedAssetsWithEmbeddingsInIndex;
-    double _fractionOfHighlightsEnriched;
-    unsigned long long _numberOfCuratedAssets;
-    long long _featureAvailability;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,7 +34,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)<;
 - (double);
 - (double);
 - (double);
@@ -64,34 +45,15 @@
 - (double);
 - (double);
 - (void);
-- (id);
+- (id)C3DGetFirstNodeWithLightAttribute;
 - (void);
 - (long long);
 - (_Bool);
-- (id);
-- (unsigned long long)peVideoHDRMediumSize;
+- (id)x;
+- (unsigned long long)_PHResourceLocalAvailabilityRequestResourceTypeVideoHDRMediumSize;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long feature; // @synthesize feature=_feature;
-@property(nonatomic) long long featureAvailability; // @synthesize featureAvailability=_featureAvailability;
-@property(nonatomic) double fractionOfAssetsWithCaptions; // @synthesize fractionOfAssetsWithCaptions=_fractionOfAssetsWithCaptions;
-@property(nonatomic) double fractionOfAssetsWithEmbeddings; // @synthesize fractionOfAssetsWithEmbeddings=_fractionOfAssetsWithEmbeddings;
-@property(nonatomic) double fractionOfAssetsWithEmbeddingsInIndex; // @synthesize fractionOfAssetsWithEmbeddingsInIndex=_fractionOfAssetsWithEmbeddingsInIndex;
-@property(nonatomic) double fractionOfAssetsWithFaceAnalysis; // @synthesize fractionOfAssetsWithFaceAnalysis=_fractionOfAssetsWithFaceAnalysis;
-@property(nonatomic) double fractionOfAssetsWithFacesInIndex; // @synthesize fractionOfAssetsWithFacesInIndex=_fractionOfAssetsWithFacesInIndex;
-@property(nonatomic) double fractionOfAssetsWithSceneAnalysis; // @synthesize fractionOfAssetsWithSceneAnalysis=_fractionOfAssetsWithSceneAnalysis;
-@property(nonatomic) double fractionOfAssetsWithScenesInIndex; // @synthesize fractionOfAssetsWithScenesInIndex=_fractionOfAssetsWithScenesInIndex;
-@property(nonatomic) double fractionOfCuratedAssetsWithCaptions; // @synthesize fractionOfCuratedAssetsWithCaptions=_fractionOfCuratedAssetsWithCaptions;
-@property(nonatomic) double fractionOfCuratedAssetsWithEmbeddings; // @synthesize fractionOfCuratedAssetsWithEmbeddings=_fractionOfCuratedAssetsWithEmbeddings;
-@property(nonatomic) double fractionOfCuratedAssetsWithEmbeddingsInIndex; // @synthesize fractionOfCuratedAssetsWithEmbeddingsInIndex=_fractionOfCuratedAssetsWithEmbeddingsInIndex;
-@property(nonatomic) double fractionOfHighlightsEnriched; // @synthesize fractionOfHighlightsEnriched=_fractionOfHighlightsEnriched;
-@property(nonatomic) double fractionOfStillAssetsWithCaptions; // @synthesize fractionOfStillAssetsWithCaptions=_fractionOfStillAssetsWithCaptions;
-@property(nonatomic) double fractionOfStillAssetsWithEmbeddings; // @synthesize fractionOfStillAssetsWithEmbeddings=_fractionOfStillAssetsWithEmbeddings;
-@property(nonatomic) double fractionOfStillAssetsWithEmbeddingsInIndex; // @synthesize fractionOfStillAssetsWithEmbeddingsInIndex=_fractionOfStillAssetsWithEmbeddingsInIndex;
-@property(nonatomic) _Bool libraryHasEnoughCuratedAssets; // @synthesize libraryHasEnoughCuratedAssets=_libraryHasEnoughCuratedAssets;
-@property(nonatomic) unsigned long long numberOfCuratedAssets; // @synthesize numberOfCuratedAssets=_numberOfCuratedAssets;
-@property(nonatomic) _Bool photosKnowledgeGraphIsReady; // @synthesize photosKnowledgeGraphIsReady=_photosKnowledgeGraphIsReady;
-@property(nonatomic) _Bool stillAssetEmbeddingsAreIndexedEnough; // @synthesize stillAssetEmbeddingsAreIndexedEnough=_stillAssetEmbeddingsAreIndexedEnough;
 
 @end
 

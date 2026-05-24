@@ -7,12 +7,6 @@
 @interface NewsUI2.HistoryFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id sharingActivityProviderFactory;
-    id newsActivityManager;
-    id commandContainer;
-    id $__lazy_storage_$_clearButton;
 }
 
 - (id);
@@ -23,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ItemModel;
+- (void)MagazineGridItemModel;
 - (void),ËðþÍÌ^¼ÃXÿÕÌ^ØÃXÿÕÌ^ôÃXÿÕÌ^ÄXÿ;
 - (void);
 - (void);

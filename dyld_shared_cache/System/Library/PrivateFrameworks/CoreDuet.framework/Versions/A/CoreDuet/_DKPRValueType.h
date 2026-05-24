@@ -7,7 +7,6 @@
 @interface _DKPRValueType
 {
     long long _typeCode;
-    int _type;
 }
 
 - (id);

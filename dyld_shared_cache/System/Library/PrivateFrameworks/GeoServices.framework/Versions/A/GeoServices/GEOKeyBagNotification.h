@@ -7,8 +7,6 @@
 @interface GEOKeyBagNotification
 {
     int _currentState;
-    int _notifyTokenBeforeFirstUnlock;
-    int _notifyTokenAfterFirstUnlock;
 }
 
 + (_Bool);
@@ -16,7 +14,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)oiceTriggerAsset:forLanguageCode:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (int);
 - (void)ld"b1};
 - (void)ÊZÿ;

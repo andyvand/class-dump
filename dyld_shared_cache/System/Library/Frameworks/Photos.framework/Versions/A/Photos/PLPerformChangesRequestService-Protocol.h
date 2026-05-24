@@ -7,6 +7,6 @@
 @class NSString;
 
 @protocol PLPerformChangesRequestService
-- (NSString *)dOidsByFetchResult:context: /* Error: Ran out of types for this method. */;
+- (NSString *)_updateChangeHandlingValuesIfNeeded:seedOidsByFetchResult:context: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,51 +6,44 @@
 
 #import <IMCore/IMItemsController.h>
 
-@class IMChat, IMMessage, IMScheduledUpdater, NSArray;
-@protocol IMChatItemRules;
+@class IMChat;
 
 @interface IMChatItemFilterController : IMItemsController
 {
     _Bool _hasEarlierMessagesToLoad;
-    _Bool _hasRecentMessagesToLoad;
-    _Bool _disableItemInserts;
-    _Bool _isUpdatingChatItems;
-    IMChat *_chat;
-    id <IMChatItemRules> _chatItemRules;
-    IMScheduledUpdater *_chatItemsUpdater;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)ror=%@;
+- (void)%d Didn't decode any samples this cycle. Output buffer should compensate to return erased samples to caller. Moving up the inputSamplesTS to account for implicit erasure. originalInputSamplesTS=%u samples=%d sampleCount=%d;
+- (void)teering:(_Bool)arg1 Packet Lifetime=%d percentile=%f;
+- (void)CheckForQueueSizeUnderTarget=%d;
+- (void)d, inputBuffer.playbackBuffer=%p, inputBuffer.samples=%d, decoded=%d;
+- (void)%0.6f seconds (larger than %0.6f threshold). Incrementing by sampleCount=%d instead of by oldSampleCount=%d.;
+- (void)zing DTMF;
+- (void)mputation;
+- (void)ad!;
+- (id)trieve RTCP packet. Error:%x /* Error: Ran out of types for this method. */;
+- (_Bool)eceiver [%s] %s:(id)arg1 %d Failed to retrieve RTCP packet. Error:%x /* Error: Ran out of types for this method. */;
+- (_Bool)AudioReceiver [%s] %s:%d Audio receiver %p RTPRecvRTP returned[%x] sleeping 15000usecs?? /* Error: Ran out of types for this method. */;
+- (void)mp[%d] seqNum[%d];
+- (id)creating directory path=%s error=%s ;
+- (_Bool)%p statsElement=%p;
+- (_Bool)frame received. Error=%d;
+- (id)pend=%d for streamToken=%u;
+- (id)callback:remoteScreenAttributesDidChange for streamToken=%d (streamToken=%u), delegate=%p /* Error: Ran out of types for this method. */;
+- (_Bool)ecryptMessageWithMKI='%@' message='%@', sequenceNumber='%d';
+- (id)%d;
+- (id)Report initial memory usage %d;
+- (id)to srcDstInfo conn %p;
+- (void)with mode=%d;
+- (void)Initialize VCRedundancyControlAlgorithmAudio with mode=%d;
+- (void)t exist for device[%@];
+- (void)ady stopped;
+- (void)ture flag=%d);
+- (void)%llu, element index=%ld, index=%ld, element retry=%ld, retry=%ld;
+- (void)eliableMessage result=%s topic=%@ participantID=%llu, index=%ld, retry=%ld, payload=%@;
+- (id)sted at improper time - canSwitch=%{BOOL}d, oneToOneModeEnabled=%{BOOL}d, remoteParticipantCount=%lu;
+- (void)%s] %s:(id)arg1 %d Switch to U+1 requested at improper time - canSwitch=%{BOOL}d, oneToOneModeEnabled=%{BOOL}d, remoteParticipantCount=%lu;
 - (void);
 - (id);
 - (void);
@@ -58,19 +51,10 @@
 - (void);
 - (void);
 - (void)Súÿ8Súÿ\SúÿSúÿ¬SúÿÐSúÿTúÿ0TúÿTTúÿxTúÿ´TúÿØTúÿüTúÿ¤\úÿÈ\úÿì\úÿ(]úÿL]úÿp]úÿ]úÿÐ]úÿô]úÿ^úÿ<^úÿx^úÿ^úÿÀ^úÿä^úÿ _úÿD_úÿh_úÿ_úÿÈ_úÿì_úÿ`úÿ4`úÿp`úÿ`úÿ¸`úÿÜ`úÿaúÿ<aúÿ`aúÿaúÿÀaúÿäaúÿbúÿ,búÿPbúÿtbúÿbúÿ¼búÿøbúÿcúÿ@cúÿdcúÿcúÿ¬cúÿècúÿdúÿ0dúÿTdúÿdúÿ´dúÿØdúÿüdúÿ8eúÿ\eúÿeúÿ¤eúÿàeúÿfúÿ(fúÿLfúÿfúÿ¬fúÿÐfúÿôfúÿ0gúÿTgúÿxgúÿgúÿÀgúÿägúÿ húÿDhúÿhhúÿhúÿÈhúÿìhúÿiúÿ4iúÿpiúÿiúÿàiúÿ,júÿxjúÿÄjúÿkúÿ\kúÿ¨kúÿôkúÿ@lúÿlúÿØlúÿ$múÿpmúÿ¼múÿnúÿTnúÿ núÿìnúÿ8oúÿoúÿÐoúÿ(púÿlpúÿpúÿqúÿ<qúÿ`qúÿqúÿÀqúÿ rúÿDrúÿhrúÿrúÿrúÿ¼rúÿàrúÿsúÿ<súÿ`súÿsúÿÀsúÿPtúÿttúÿ°túÿätúÿ0uúÿTuúÿxuúÿuúÿØuúÿvúÿXvúÿ|vúÿ vúÿÄvúÿ;
-- (id)_kIMAccountProfileValidationStatusFailedReasonKey;
+- (id)__kIMAccountProfileValidationStatusFailedReasonKey;
 
 // Remaining properties
 @property(nonatomic) __weak IMChat *chat; // @synthesize chat=_chat;
-@property(readonly, nonatomic) id <IMChatItemRules> chatItemRules; // @synthesize chatItemRules=_chatItemRules;
-@property(readonly, nonatomic) NSArray *chatItems;
-@property(retain, nonatomic) IMScheduledUpdater *chatItemsUpdater; // @synthesize chatItemsUpdater=_chatItemsUpdater;
-@property(nonatomic) _Bool disableItemInserts; // @synthesize disableItemInserts=_disableItemInserts;
-@property(readonly, nonatomic) IMMessage *firstMessage;
-@property(nonatomic) _Bool hasEarlierMessagesToLoad; // @synthesize hasEarlierMessagesToLoad=_hasEarlierMessagesToLoad;
-@property(nonatomic) _Bool hasRecentMessagesToLoad; // @synthesize hasRecentMessagesToLoad=_hasRecentMessagesToLoad;
-@property(nonatomic) _Bool isUpdatingChatItems; // @synthesize isUpdatingChatItems=_isUpdatingChatItems;
-@property(readonly, nonatomic) IMMessage *lastMessage;
 
 @end
 

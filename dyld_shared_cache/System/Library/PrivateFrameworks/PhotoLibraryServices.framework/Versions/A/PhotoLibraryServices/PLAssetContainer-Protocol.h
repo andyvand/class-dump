@@ -6,15 +6,18 @@
 
 @protocol PLAssetContainer
 - (id);
+- (id);
+- (id)a;
+- (id);
 - (id)1Â0@ù
 × ;
 - (id)SArray",R,N,V_nextTokenSuggestions;
 - (id)source previously marked as unavailable. Asset uuid:%{public}@ /* Error: Ran out of types for this method. */;
-- (id)eArea;
-- (id)VERTICAL_PANORAMAS;
+- (id)sceneArea;
+- (id)ALL_VERTICAL_PANORAMAS;
 - (id)tdoor source metadata;
 
 @optional
-+ (id)lSizeRender;
++ (id)FullSizeRender;
 @end
 

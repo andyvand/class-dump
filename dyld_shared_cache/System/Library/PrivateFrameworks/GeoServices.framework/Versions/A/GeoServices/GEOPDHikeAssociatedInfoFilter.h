@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ult";
-- (id)yptedTourMuid;
+- (id)_encryptedTourMuid;
 - (id)à[];
 - (void);
 

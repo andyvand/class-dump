@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PGManagerWorkingContext;
+@class PGManagerWorkingContext;
 
 @interface PGHighlightStatisticsEstimator
 {
     PGManagerWorkingContext *_workingContext;
-    NSDictionary *_highlightEstimatesDictionary;
 }
 
 - (id);
@@ -17,12 +16,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Z;
 - (id);
 - (void)ia, retrying without criteria;
 

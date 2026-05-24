@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVContentKeyPSSHRequestTracker
 {
     long long _totalExpectedRequestCount;
-    NSMutableArray *_requests;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);

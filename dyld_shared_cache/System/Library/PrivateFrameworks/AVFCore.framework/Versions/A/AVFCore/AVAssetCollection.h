@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetCollectionInternal, NSString, NSURL;
+@class AVAssetCollectionInternal, NSURL;
 
 @interface AVAssetCollection
 {
@@ -16,7 +16,7 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id)\;
 + (id);
 - (id);
 - (void);
@@ -24,7 +24,7 @@
 - (struct OpaqueFigAsset *);
 - (id);
 - (id);
-- (id);
+- (id)̩v;
 - (unsigned long long);
 - (void);
 - (void);
@@ -37,8 +37,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) unsigned long long assetCount;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

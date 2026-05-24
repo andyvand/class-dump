@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPCSManager, CKMergeableValueID;
-
 @interface CKDKeyEnvelopeContext
 {
     _Bool _encryptMergeableValueMetadata;
-    struct _OpaquePCSShareProtection *_shareProtection;
-    CKMergeableValueID *_mergeableValueID;
-    CKDPCSManager *_pcsManager;
 }
 
-- (void);
+- (void)~;
 - (void);
 - (id);
 - (id);
-- (struct _OpaquePCSShareProtection *);
+- (struct _OpaquePCSShareProtection *)_avtViewLayout;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)roamStatus_FailedNotFound_Count_WhileTDWait;
 - (id);
 - (void)a parent zone PCS to a nil child zone PCS;
 - (id)g"8@"CKAssetTransferOptions"16^B24;
 - (void)with error %@;
 
 // Remaining properties
-@property(nonatomic) _Bool encryptMergeableValueMetadata; // @synthesize encryptMergeableValueMetadata=_encryptMergeableValueMetadata;
-@property(copy, nonatomic) CKMergeableValueID *mergeableValueID; // @synthesize mergeableValueID=_mergeableValueID;
-@property(retain, nonatomic) CKDPCSManager *pcsManager; // @synthesize pcsManager=_pcsManager;
 @property(nonatomic) struct _OpaquePCSShareProtection *shareProtection; // @synthesize shareProtection=_shareProtection;
 
 @end

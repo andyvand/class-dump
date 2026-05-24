@@ -10,7 +10,6 @@
 @interface NUPagingBlueprintItem
 {
     id <NUPage> _page;
-    NSString *_identifier;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id <NUPage> page; // @synthesize page=_page;
 
 @end
 

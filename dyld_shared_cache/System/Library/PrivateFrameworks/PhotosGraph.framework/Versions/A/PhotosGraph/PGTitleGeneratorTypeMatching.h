@@ -7,17 +7,15 @@
 @interface PGTitleGeneratorTypeMatching
 {
     long long _type;
-    CDUnknownBlockType _eventEvaluationBlock;
 }
 
-+ (id);
++ (id)rangeOfString:(long long)arg1 options:(CDUnknownBlockType)arg2 range: /* Error: Ran out of types for this method. */;
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)applicationManager:didUpdateFocusedApplication: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)apple.PhotosGraph.PGFeatureExtractorSpecialPOIDomain;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType eventEvaluationBlock; // @synthesize eventEvaluationBlock=_eventEvaluationBlock;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

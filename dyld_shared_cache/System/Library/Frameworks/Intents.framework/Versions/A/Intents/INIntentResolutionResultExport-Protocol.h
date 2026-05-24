@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSArray;
 
 @protocol INIntentResolutionResultExport
++ (id);
++ (id);
+- (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternatives;
 @property(retain, nonatomic) NSArray *disambiguationItems;
-@property(retain, nonatomic) NSObject *itemToConfirm;
-@property(retain, nonatomic) NSObject *resolvedValue;
-@property(nonatomic) unsigned long long unsupportedReason;
 @end
 

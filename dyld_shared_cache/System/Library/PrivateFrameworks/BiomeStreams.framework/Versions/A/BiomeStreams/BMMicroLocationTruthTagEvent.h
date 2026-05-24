@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface BMMicroLocationTruthTagEvent
 {
     double _absoluteTimestamp;
-    NSString *_clientBundleIdentifier;
-    NSUUID *_truthTagIdentifier;
-    NSUUID *_recordingRequestIdentifier;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (unsigned int);
@@ -32,17 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, copy, nonatomic) NSString *clientBundleIdentifier; // @synthesize clientBundleIdentifier=_clientBundleIdentifier;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *recordingRequestIdentifier; // @synthesize recordingRequestIdentifier=_recordingRequestIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *truthTagIdentifier; // @synthesize truthTagIdentifier=_truthTagIdentifier;
 
 @end
 

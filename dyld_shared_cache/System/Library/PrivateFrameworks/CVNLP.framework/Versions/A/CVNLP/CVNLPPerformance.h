@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CVNLPPerformance
 {
     _Bool _computePerf;
-    NSMutableDictionary *_results;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool computePerf; // @synthesize computePerf=_computePerf;
-@property(readonly, nonatomic) NSMutableDictionary *results; // @synthesize results=_results;
 
 @end
 

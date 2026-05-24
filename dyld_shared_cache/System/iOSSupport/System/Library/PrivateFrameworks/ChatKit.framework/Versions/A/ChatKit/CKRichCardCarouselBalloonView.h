@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     id richCards;
 }
 
-- (struct CGSize);
+- (struct CGSize)isCalculateMathEnabled;
+- (void)ICTTTextStorageDelegate;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)u;
+- (void)i;
 - (id);
 - (void);
 - (id);

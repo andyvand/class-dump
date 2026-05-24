@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface DDMacAction
 {
     NSString *_name;
-    NSString *_actionUTI;
-    int _type;
-    _Bool _alternate;
-    _Bool _isImmediate;
-    _Bool _hasDynamicName;
-    NSMutableArray *_actions;
 }
 
 + (id);
@@ -39,11 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionUTI; // @synthesize actionUTI=_actionUTI;
-@property(readonly, nonatomic) _Bool alternate; // @synthesize alternate=_alternate;
-@property(readonly, nonatomic) _Bool hasDynamicName; // @synthesize hasDynamicName=_hasDynamicName;
-@property(readonly, nonatomic) _Bool isImmediate; // @synthesize isImmediate=_isImmediate;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

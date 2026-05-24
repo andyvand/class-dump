@@ -7,30 +7,11 @@
 @interface NewsUI2.ChannelUpsellHandler
 {
     id configurationManager;
-    id paidAccessChecker;
-    id purchaseController;
-    id pptContext;
-    id internalTriggerRecord;
-    id dateProvider;
-    id localTracker;
-    id postActionHandlerManager;
-    id upsellShareClosure;
-    id upsellCancellationClosure;
-    id sceneProvider;
-    id offlineProvider;
-    id router;
-    id bundleSubscriptionManager;
-    id lazyKeyValueStore;
-    id didLoadTriggerRecord;
-    id lastEOAArticleID;
-    id lastAnyChannelEOAArticleID;
-    id _pendingTriggerConditions;
-    id $__lazy_storage_$_anyChannelChannelIDs;
 }
 
-- (void);
-- (id);
-- (void)ger;
+- (void)TE IS EMPTY. CONTINUE entry:(id)arg1 %u;
+- (id)=;
+- (void)WebEmbedDataManager;
 
 @end
 

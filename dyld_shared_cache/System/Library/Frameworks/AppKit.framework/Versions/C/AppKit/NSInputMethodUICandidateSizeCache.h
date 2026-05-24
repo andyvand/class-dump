@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGSize);
-+ (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize);
++ (struct CGSize)NSAllowsLocalNetworking;
 
 @end
 

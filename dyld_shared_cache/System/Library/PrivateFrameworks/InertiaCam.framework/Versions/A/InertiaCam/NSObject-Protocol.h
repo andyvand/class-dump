@@ -7,14 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)e %@ *****;
+- (id)orted message type %@ *****;
+- (id)Record from class %@ ******;
+- (id)%lld;
+- (id)s an incompatible action type %lld;
+- (Class)ve ckrecord. Error:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool);
+- (id)etries;
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

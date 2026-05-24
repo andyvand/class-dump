@@ -7,16 +7,6 @@
 @interface GLKTextureInfo
 {
     unsigned int name;
-    unsigned int target;
-    unsigned int width;
-    unsigned int height;
-    unsigned int depth;
-    int alphaState;
-    int textureOrigin;
-    _Bool containsMipmaps;
-    unsigned int mimapLevelCount;
-    unsigned int arrayLength;
-    _Bool lossyCompressedSource;
 }
 
 - (int);
@@ -30,23 +20,14 @@
 - (void);
 - (id);
 - (unsigned int);
+- (unsigned int)V_frameRate;
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)!@�H;
 - (id);
-- (unsigned int);
+- (unsigned int)3;
 
 // Remaining properties
-@property(readonly) int alphaState; // @synthesize alphaState;
-@property(readonly) unsigned int arrayLength; // @synthesize arrayLength;
-@property(readonly) _Bool containsMipmaps; // @synthesize containsMipmaps;
-@property(readonly) unsigned int depth; // @synthesize depth;
-@property(readonly) unsigned int height; // @synthesize height;
-@property(readonly) unsigned int mimapLevelCount; // @synthesize mimapLevelCount;
 @property(readonly) unsigned int name; // @synthesize name;
-@property(readonly) unsigned int target; // @synthesize target;
-@property(readonly) int textureOrigin; // @synthesize textureOrigin;
-@property(readonly) unsigned int width; // @synthesize width;
 
 @end
 

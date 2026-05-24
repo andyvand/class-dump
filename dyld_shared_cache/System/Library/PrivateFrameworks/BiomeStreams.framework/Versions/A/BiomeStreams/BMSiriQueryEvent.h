@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMSiriQueryEvent
 {
     NSString *_uniqueId;
-    NSString *_personaId;
-    double _absoluteTimestamp;
-    NSString *_query;
-    NSArray *_results;
-    NSString *_contentProtection;
 }
 
 + (id);
@@ -41,31 +36,10 @@
 - (id);
 - (id);
 - (id);
-- (id)d_size;
+- (id)pg_query__alter_owner_stmt__get_packed_size;
 - (void)QRSTUVWXYa;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

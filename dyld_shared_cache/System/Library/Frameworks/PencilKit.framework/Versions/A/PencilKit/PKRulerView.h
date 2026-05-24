@@ -9,17 +9,15 @@
 @interface PKRulerView
 {
     _Bool _rulerHidden;
-    PKRulerLayer *_rulerLayer;
 }
 
-- (void);
-- (id);
+- (void)&;
+- (id)(! ;
 - (_Bool);
-- (void);
+- (void) ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool rulerHidden; // @synthesize rulerHidden=_rulerHidden;
 @property(retain, nonatomic) PKRulerLayer *rulerLayer; // @synthesize rulerLayer=_rulerLayer;
 
 @end

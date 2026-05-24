@@ -7,9 +7,9 @@
 @class NSData, _SFPBPerson;
 
 @protocol _SFPBFindMyCardSection
+- (NSData *)tificationsEnabled,V_cloudNotificationsEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person;
 @end
 

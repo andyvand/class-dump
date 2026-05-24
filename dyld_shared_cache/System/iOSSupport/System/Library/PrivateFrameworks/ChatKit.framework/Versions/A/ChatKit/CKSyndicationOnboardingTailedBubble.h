@@ -6,21 +6,17 @@
 
 #import <ChatKit/CKPinnedConversationRichLinkBubble.h>
 
-@class NSAttributedString;
-
 @interface CKSyndicationOnboardingTailedBubble : CKPinnedConversationRichLinkBubble
 {
     long long _appName;
-    NSAttributedString *_bubbleText;
-    struct CGRect _bubbleFrame;
 }
 
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (struct CGRect);
 - (double);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -31,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) long long appName; // @synthesize appName=_appName;
-@property(nonatomic) struct CGRect bubbleFrame; // @synthesize bubbleFrame=_bubbleFrame;
-@property(retain, nonatomic) NSAttributedString *bubbleText; // @synthesize bubbleText=_bubbleText;
 
 @end
 

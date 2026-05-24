@@ -6,23 +6,17 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWStillImageNodeConfiguration, NSMutableDictionary, NSString;
+@class BWStillImageNodeConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface BWStillImageSmartStyleAttachmentTransferNode : BWNode
 {
     BWStillImageNodeConfiguration *_nodeConfiguration;
-    NSMutableDictionary *_inferencesFromUnstyledBuffers;
-    NSMutableDictionary *_attachedMediaFromUnstyledBuffers;
-    NSMutableDictionary *_attachmentsFromUnstyledBuffers;
-    _Bool _hasAttachmentsFromUnstyledBuffer;
-    struct opaqueCMSampleBuffer *_styledBuffer;
-    NSString *_lastCaptureRequestIdentifier;
 }
 
 + (void)tion;
 - (id);
-- (void);
+- (void)EDReferenceIterator;
 - (void);
 - (id);
 - (id)and releasing visProcessingSemaphore;
@@ -43,7 +37,7 @@ __attribute__((visibility("hidden")))
 ÿ¨Âÿ®Âÿ´ÂÿºÃÿÁÃÿÇÃÿÎÄÿÕÄÿÛÄÿãÅÿêÅÿñÅÿùÆÿÿÆÿÿÆÿÿÇÿÿÇÿÿÇ ÿ|Èÿ}Èÿ~ÈÿÈÿÈÿÈÿÈÿÉÿÉÿÉÿÉÿÉÿ É	ÿ¥Ê
 ÿ¬Êÿ±Êÿ·Êÿ½ËÿÄËÿÊËÿÑÌÿ×ÌÿÞÌÿåÍÿìÍÿóÍÿúÎÿÿÎÿÿÎÿÿÎÿÿÏ ÿÿÏ!ÿÑÿÑÿÑÿÑÿÑÿÑÿÑÿÑÿÒÿÒÿÒÿ Òÿ¤Ò	ÿ©Òÿ¯ÓÿµÓÿ»ÓÿÀÓÿÇÔÿÍÔÿÔÔÿÚÕÿàÕÿèÕÿïÖÿõÖÿüÖÿÿÖÿÿ×ÿÿ× ÿÿ×!ÿÿØ"ÿÙÿÙÿÙÿÙÿÙÿÙÿÙÿÙÿÙÿÚÿÚÿ¤Úÿ¨Ú
 ÿ­Úÿ³Ûÿ¸Ûÿ¾ÛÿÄÛÿÊÜÿÐÜÿÖÜÿÝÜÿãÝÿêÝÿñÝÿøÞÿþÞÿÿÞÿÿÞ ÿÿß!ÿÿß"ÿÿß#ÿá;
-- (void)rity;
+- (void)inputDisparity;
 
 @end
 

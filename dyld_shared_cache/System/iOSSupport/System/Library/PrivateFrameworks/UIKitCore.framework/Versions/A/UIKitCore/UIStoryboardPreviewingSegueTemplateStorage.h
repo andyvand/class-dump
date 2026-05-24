@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIStoryboardPreviewingSegueTemplate, UIStoryboardSegueTemplate, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIStoryboardPreviewingSegueTemplateStorage
 {
     UIView *_sender;
-    UIStoryboardPreviewingSegueTemplate *_previewTemplate;
-    UIStoryboardSegueTemplate *_commitTemplate;
 }
 
+- (void)IMDeliveredQuietlyReceiptProcessingPipelineComponent;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)orKey:(id)arg1;
+- (id)transfer %@ from CKRecord. Associating with message guid %@ hasAsset:%@ /* Error: Ran out of types for this method. */;
+- (id)@;
+- (id)_rectRegions;
+- (void)hasDelayedTasksForKey:(id)arg1;
 - (id)Must provide an identifier;
 - (void)À[²*ÂMò?;
 - (void)ÀÏb;
 
 // Remaining properties
-@property(nonatomic) __weak UIStoryboardSegueTemplate *commitTemplate; // @synthesize commitTemplate=_commitTemplate;
-@property(nonatomic) __weak UIStoryboardPreviewingSegueTemplate *previewTemplate; // @synthesize previewTemplate=_previewTemplate;
 @property(nonatomic) __weak UIView *sender; // @synthesize sender=_sender;
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOServer;
-
 __attribute__((visibility("hidden")))
 @interface _GEOServerProxy
 {
     Class _serverClass;
-    GEOServer *_server;
 }
 
-+ (id);
-+ (id);
++ (id)_CNObservableSkipUntilOperator;
++ (id)_CNJumpToMainQueueScheduler;
 - (id);
 - (void);
 - (_Bool);
@@ -22,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (Class);
-- (void)sStartOffsetCm;
+- (void)hasStartOffsetCm;
 - (void)C;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOServer *server; // @synthesize server=_server;
 @property(readonly, nonatomic) Class serverClass; // @synthesize serverClass=_serverClass;
 
 @end

@@ -7,12 +7,6 @@
 @interface HomeKitDaemon.LocalPresence.Detector.HAPAccessoryPresenceDetector
 {
     id $defaultActor;
-    id stream;
-    id continuation;
-    id notificationHandlerTasks;
-    id observingAccessories;
-    id notificationCenter;
-    id dataSource;
 }
 
 @end

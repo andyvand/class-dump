@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationOperation
 {
     unsigned long long _timestamp;
-    unsigned int _connectionType;
-    int _genericError;
-    NSString *_guid;
-    unsigned int _heartbeatDelay;
-    unsigned int _heartbeatRegister;
-    int _pOSIXError;
-    unsigned int _registrationError;
-    unsigned int _resultCode;
-    unsigned int _success;
-    int _uRLError;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int genericError:1;
-        unsigned int heartbeatDelay:1;
-        unsigned int heartbeatRegister:1;
-        unsigned int pOSIXError:1;
-        unsigned int registrationError:1;
-        unsigned int resultCode:1;
-        unsigned int success:1;
-        unsigned int uRLError:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)RA;
+- (void)(;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -50,26 +26,26 @@
 - (void);
 - (int);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool));
+- (void);
 - (unsigned int);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void)?=;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)#m;
 - (void);
 - (id);
 - (_Bool);
@@ -79,37 +55,16 @@
 - (unsigned int);
 - (void);
 - (id)dPeersOnDFS"b1"cachedPeersOnOther"b1"cachedPeersSameInfra"b1"dfspAirplayConnected"b1"dfspAirplayFailed"b1"dfspCSAReceivedFromAP"b1"dfspCSAReceivedFromPeer"b1"dfspResume"b1"dfspSuspect"b1"flags"b1"ifPacketFailures"b1"ifRxBytes"b1"ifTxBytes"b1"numAirplaySessions"b1"numDynSdbAirplayAllowed"b1"numDynSdbEntrySuccess"b1"numDynSdbExitDueToRate"b1"numDynSdbReEntrySuccess"b1"numOfCachedPeers"b1"numOfPeers"b1"peerInfraChannel"b1"peerInfraChannelFlags"b1"periodInMinutes"b1"selfCapOther"b1"selfInfraChannel"b1"selfInfraChannelFlags"b1};
-- (void);
-- (unsigned int)cessWiFiFirstParty;
-- (void)veragePhyrateTx:(unsigned int)arg1;
+- (void)setHasFoldersWithDupesCount:(_Bool)arg1;
+- (unsigned int)_mptcpHandshakeHandoverSuccessWiFiFirstParty;
+- (void)setHasWeightedAveragePhyrateTx:(unsigned int)arg1;
 - (unsigned int)N,V_tcpiOptions;
 - (unsigned int);
-- (int)Scanning;
+- (int)activity_Scanning;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int genericError; // @synthesize genericError=_genericError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasGenericError;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasHeartbeatDelay;
-@property(nonatomic) _Bool hasHeartbeatRegister;
-@property(nonatomic) _Bool hasPOSIXError;
-@property(nonatomic) _Bool hasRegistrationError;
-@property(nonatomic) _Bool hasResultCode;
-@property(nonatomic) _Bool hasSuccess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasURLError;
-@property(nonatomic) unsigned int heartbeatDelay; // @synthesize heartbeatDelay=_heartbeatDelay;
-@property(nonatomic) unsigned int heartbeatRegister; // @synthesize heartbeatRegister=_heartbeatRegister;
-@property(nonatomic) int pOSIXError; // @synthesize pOSIXError=_pOSIXError;
-@property(nonatomic) unsigned int registrationError; // @synthesize registrationError=_registrationError;
-@property(nonatomic) unsigned int resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uRLError; // @synthesize uRLError=_uRLError;
 
 @end
 

@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)Context;
+- (void)authenticationContext;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *payments; // @synthesize payments=_payments;

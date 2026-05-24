@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MRNowPlayingPlayerPathProtobuf;
+@class NSMutableArray;
 
 @interface _MRUpdateContentItemArtworkMessageProtobuf
 {
     NSMutableArray *_contentItems;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
 }
 
 + (Class);
@@ -19,25 +18,23 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)PFTimeService;
+- (unsigned long long)tion:%@ /* Error: Ran out of types for this method. */;
+- (void)urning languageCode:(id)arg1 %@;
+- (id)sion.request.end;
 - (void);
 - (id)ùÑ&1Â0@ù
 × ;
-- (void)rkFormats;
+- (void)clearRequestedRemoteArtworkFormats;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *contentItems; // @synthesize contentItems=_contentItems;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

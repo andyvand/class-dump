@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long);
+- (unsigned long long)verify_chat_update;
 @end
 

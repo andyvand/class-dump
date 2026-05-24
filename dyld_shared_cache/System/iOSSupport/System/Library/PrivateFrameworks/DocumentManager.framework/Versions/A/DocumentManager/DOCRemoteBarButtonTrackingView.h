@@ -11,7 +11,7 @@
     NSUUID *_uuid;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

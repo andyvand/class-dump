@@ -5,6 +5,12 @@
 //
 
 @protocol TSDTileGeometryProviding
+- (struct CGRect)temID from remote artwork loading than when we requested %@ -> %@;
+- (_Bool)uest.;
+- (unsigned long long)t.;
+- (void)emote artwork request.;
+- (void)MPArtworkImage;
+- (void)s an unexpected type:(_Bool)arg1 %@.;
 
 // Remaining properties
 @property(nonatomic) _Bool tileGeometryDirty;

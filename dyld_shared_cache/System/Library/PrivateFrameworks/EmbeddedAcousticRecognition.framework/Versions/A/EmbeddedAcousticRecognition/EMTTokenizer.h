@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSObject, _EARFormatter;
-@protocol OS_dispatch_queue;
+@class NSLocale, _EARFormatter;
 
 @interface EMTTokenizer
 {
     _EARFormatter *_formatter;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSLocale *_outputLocale;
 }
 
 - (id);

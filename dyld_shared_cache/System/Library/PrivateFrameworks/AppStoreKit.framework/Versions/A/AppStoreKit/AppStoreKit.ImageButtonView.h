@@ -6,14 +6,11 @@
 
 #import <AppStoreKit/AppStoreKit.ButtonView.h>
 
-@class NSImage, NSImageView, NSString;
+@class NSImage;
 
 @interface AppStoreKit.ImageButtonView : AppStoreKit.ButtonView
 {
     id imageAlignment;
-    id interItemSpace;
-    NSImageView *imageView;
-    void accessibilityDescription;
 }
 
 + (double);
@@ -26,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void)nonsubscribedText;
@@ -34,12 +31,7 @@
 - (_Bool)(\ÿÐØ	4^ÿÐØ	0^ÿ;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityDescription;
-@property(nonatomic, readonly) _Bool hasContent;
-@property(nonatomic, readonly) _Bool hasImage;
 @property(nonatomic, retain) NSImage *image;
-@property(nonatomic, readonly) NSImageView *imageView; // @synthesize imageView;
-@property(nonatomic, readonly) struct CGRect textLayoutFrame;
 
 @end
 

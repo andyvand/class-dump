@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PGRemoteConfiguration
 {
     NSMutableDictionary *_remoteConfigurationCache;
-    NSArray *_configurationSources;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (double);
-- (id);
+- (id)screenAboveScreen:(id)arg1 closestToPoint: /* Error: Ran out of types for this method. */;
+- (id)_placeholderText;
+- (double)rArray",&,N,V__observers;
+- (id)setPageElement:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
@@ -26,7 +25,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)NotificationLevelStellar;
+- (void)PGMemoryNotificationLevelStellar;
 
 @end
 

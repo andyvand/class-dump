@@ -6,8 +6,6 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSColor, NSScrollerImp, NSString;
-
 @interface NSScroller : NSControl
 {
     struct {
@@ -25,53 +23,10 @@
         unsigned int controlTint:3;
         unsigned int repeatCount:16;
     } sFlags;
-    NSScrollerImp *_scrollerImp;
-    double _curValue;
-    double _percent;
-    double _knobSize;
-    struct {
-        unsigned int hitPart:4;
-        unsigned int controlSize:2;
-        unsigned int inMaxEnd:1;
-        unsigned int setFloatValueOverridden:1;
-        unsigned int setFloatValueKnobProportionOverridden:1;
-        unsigned int style:1;
-        unsigned int styleCompatibility:1;
-        unsigned int overlayScrollerState:2;
-        unsigned int knobStyle:2;
-        unsigned int :2;
-        unsigned int isTrackingMouse:1;
-        unsigned int :14;
-    } _sFlags2;
-    _Bool __prefersFlushBottomAppearance;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSColor *_effectiveKnobColor;
-@property(readonly, copy) NSColor *_effectiveTrackColor;
-@property(setter=_setHitPart:) unsigned long long _hitPart;
 @property(setter=_setLionScrollerStyle:) long long _lionScrollerStyle;
-@property(readonly) long long _orientation;
-@property(readonly) unsigned long long _overlayScrollerState;
-@property(nonatomic) _Bool _prefersFlushBottomAppearance; // @synthesize _prefersFlushBottomAppearance=__prefersFlushBottomAppearance;
-@property(setter=_setThumbingDoubleValue:) double _thumbingDoubleValue;
-@property(setter=_setThumbingKnobProportion:) double _thumbingKnobProportion;
-@property unsigned long long controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hitPart;
-@property double knobProportion;
-@property long long knobStyle;
-@property(readonly) double overlayScrollerKnobAlpha;
-@property(readonly) double overlayScrollerTrackAlpha;
-@property(readonly) NSScrollerImp *scrollerImp;
-@property long long scrollerStyle;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long usableParts;
 @end
 

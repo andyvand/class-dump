@@ -16,12 +16,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NURenderNode *blurMap;
 @property(readonly, nonatomic) NURenderNode *input;
 
 @end

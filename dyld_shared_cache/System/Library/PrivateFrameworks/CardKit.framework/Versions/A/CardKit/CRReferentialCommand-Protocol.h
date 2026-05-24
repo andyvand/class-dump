@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol CRReferentialCommand
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *referenceIdentifier;

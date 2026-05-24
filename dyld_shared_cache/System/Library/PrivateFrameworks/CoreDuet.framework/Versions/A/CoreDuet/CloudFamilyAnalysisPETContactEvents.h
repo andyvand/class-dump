@@ -11,20 +11,20 @@
     NSMutableArray *_contactEvents;
 }
 
-+ (Class);
++ (Class)c;
 - (void);
-- (unsigned long long);
+- (unsigned long long)zm`;
 - (id);
-- (id);
+- (id));
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)NSURLSessionDelegateImplementsWillBeginDelayedRequestKey;
 - (id);
 - (id);
 - (void);

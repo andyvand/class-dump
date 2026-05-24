@@ -6,24 +6,19 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaRadioMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_curator;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)N#�N-D;
 - (void);
-- (id);
-- (id);
+- (id)O;
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -31,11 +26,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)rsistence _deleteSendersFromThreadWithDatabaseID:(id)arg1 messageThreadExpression:] /* Error: Ran out of types for this method. */;
+- (id)seJournalManager test_tearDown];
+- (id)%@ using keyID %@ with record PCS %@:(id)arg1 %@;
+- (id)fetch-share-owner-identity;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -43,23 +38,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)s!;
 - (id)èÓ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *curator; // @synthesize curator=_curator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

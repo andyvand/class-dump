@@ -7,9 +7,11 @@
 @class NSArray;
 
 @protocol _INPBMediaItemGroup
+- (void);
+- (unsigned long long);
+- (void)ܺ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

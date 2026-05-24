@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSMetricsEvent, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, AMSUIWebWrapperViewController, NSDictionary, NSString, NSURL;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebRoutePageModel
 {
     _Bool _loadUsingWebKit;
-    NSString *_backgroundColor;
-    AMSMetricsEvent *_impressionEvent;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _userInterfaceStyle;
-    ACAccount *_account;
-    NSDictionary *_clientOptions;
-    AMSUIWebClientContext *_context;
-    NSDictionary *_headers;
-    NSURL *_URL;
-    AMSUIWebWrapperViewController *_viewController;
-    struct CGSize _windowSize;
 }
 
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)selector:%@ due to error:%@ /* Error: Ran out of types for this method. */;
+- (id)to clear cache...;
+- (_Bool)AssetLocale;
+- (id)x;
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -39,36 +28,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void)B32d36B44;
-- (id)Task;
+- (id)AMSUIPurchaseTask;
 - (long long)H=GGQo_;
-- (id)ent;
+- (id)placement;
 - (struct CGSize){;
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly) NSDictionary *clientOptions; // @synthesize clientOptions=_clientOptions;
-@property(readonly) __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *headers; // @synthesize headers=_headers;
-@property(readonly) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
-@property(readonly) _Bool loadUsingWebKit; // @synthesize loadUsingWebKit=_loadUsingWebKit;
-@property(readonly) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(readonly) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(retain) AMSUIWebWrapperViewController *viewController; // @synthesize viewController=_viewController;
-@property(readonly) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

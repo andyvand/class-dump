@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, PXDisplayAssetViewModel, PXUpdater, PXVKImageAnalysisOverlayView, PXVisualIntelligenceManager;
-@protocol PXDisplayAssetViewMenuDelegate, PXVKImageAnalysis;
+@class PXUpdater;
 
 @interface PXDisplayAssetImageAnalysisOverlayView
 {
     _Bool _isPerformingLayout;
-    _Bool _shouldHideTextHighlights;
-    int _currentRequestID;
-    id <PXDisplayAssetViewMenuDelegate> _displayAssetViewMenuDelegate;
-    PXDisplayAssetViewModel *_viewModel;
-    PXUpdater *_updater;
-    PXVisualIntelligenceManager *_visualIntelligenceManager;
-    PXVKImageAnalysisOverlayView *_imageAnalysisOverlayView;
-    NSImage *_imageToAnalyse;
-    id <PXVKImageAnalysis> _imageAnalysis;
-    struct NSEdgeInsets _imageAnalysisOverlayViewDefaultActionInfoEdgeInsets;
 }
 
 + (_Bool);
@@ -53,8 +42,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)@"<SXLayoutContextFactory>"16@?0@"<TFResolver>"8;
+- (id)P;
 - (int);
 - (void);
 - (id)ueue=};
@@ -64,23 +53,7 @@
 - (id)àRâO>;
 
 // Remaining properties
-@property(nonatomic) int currentRequestID; // @synthesize currentRequestID=_currentRequestID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PXDisplayAssetViewMenuDelegate> displayAssetViewMenuDelegate; // @synthesize displayAssetViewMenuDelegate=_displayAssetViewMenuDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <PXVKImageAnalysis> imageAnalysis; // @synthesize imageAnalysis=_imageAnalysis;
-@property(readonly, nonatomic) PXVKImageAnalysisOverlayView *imageAnalysisOverlayView; // @synthesize imageAnalysisOverlayView=_imageAnalysisOverlayView;
-@property(readonly, nonatomic) struct NSEdgeInsets imageAnalysisOverlayViewDefaultActionInfoEdgeInsets; // @synthesize imageAnalysisOverlayViewDefaultActionInfoEdgeInsets=_imageAnalysisOverlayViewDefaultActionInfoEdgeInsets;
-@property(retain, nonatomic) NSImage *imageToAnalyse; // @synthesize imageToAnalyse=_imageToAnalyse;
-@property(nonatomic) _Bool shouldHideTextHighlights; // @synthesize shouldHideTextHighlights=_shouldHideTextHighlights;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) PXDisplayAssetViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) PXVisualIntelligenceManager *visualIntelligenceManager; // @synthesize visualIntelligenceManager=_visualIntelligenceManager;
 
 @end
 

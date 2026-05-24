@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MNNavigationServicePeer
 {
     NSString *_peerIdentifier;
-    int _processIdentifier;
 }
 
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *peerIdentifier; // @synthesize peerIdentifier=_peerIdentifier;
-@property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
 
 @end
 

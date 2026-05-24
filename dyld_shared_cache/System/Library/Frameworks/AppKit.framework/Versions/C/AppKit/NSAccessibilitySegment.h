@@ -11,27 +11,27 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id);
+- (id)connection:wasRedirected:newRequest:responseCallback: /* Error: Ran out of types for this method. */;
+- (id)ip address already exists at %s config %p;
+- (id)NSTemporaryExceptionRequiresForwardSecrecy;
+- (void)URLStorageURLCacheDB deleteResponsesSinceDate:(id)arg1 dbConnection=%p DB=%@ Select for FS data failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)TE cfurl_cache_response SET version=%q, hash_value=%q, storage_policy=%q, partition=%q									 WHERE entry_ID=%q;;
+- (_Bool)a auto vacuum - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (_Bool)iled to get the path to the FS cached data at %@;
+- (_Bool)@.;
+- (_Bool):] /* Error: Ran out of types for this method. */;
+- (_Bool)e;
+- (_Bool)NACOAuthSigner>::GET() [OBJTYPE = CFNACOAuthSigner] /* Error: Ran out of types for this method. */;
+- (_Bool)nish:] /* Error: Ran out of types for this method. */;
+- (id)e(%p) Requests(%ld);
+- (id)v32@?0{shared_ptr<NetworkProxy>=^{NetworkProxy}^{__shared_weak_count}}8^{__CFDictionary=}24;
+- (id)ue;
+- (id)rPluggedIn=%d;
+- (id)nputStream"8;
+- (id)kTubeTypeHTTP3;
+- (id)hared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}24{shared_ptr<__CFError>=^{__CFError}^{__shared_weak_count}}40;
+- (id)}{%d}{%d}{%d}{%s}{%d};
 - (void);
 - (id);
 - (id);

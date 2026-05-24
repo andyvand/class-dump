@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface UINSToolbarReplicantView
 {
     UIView<UINSToolbarItemEngineHostingView_forUIKitMacHelper> *_replicatedView;
-    unsigned long long preferredGlassBehavior;
 }
 
 - (void);

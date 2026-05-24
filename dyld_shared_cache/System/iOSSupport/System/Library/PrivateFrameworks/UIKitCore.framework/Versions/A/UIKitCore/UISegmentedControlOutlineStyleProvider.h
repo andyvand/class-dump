@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (double)mVelocity;
-- (double)eateSystemInputViewControllerIfNeededForTraitEnvironment:(int)arg1;
+- (_Bool)valueWithRect: /* Error: Ran out of types for this method. */;
+- (double)_momentumVelocity;
+- (double)_createSystemInputViewControllerIfNeededForTraitEnvironment:(int)arg1;
 - (double)UI;
-- (id)ngs;
+- (id)UISectionStartStrings;
 
 @end
 

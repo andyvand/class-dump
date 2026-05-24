@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLogMsgStateSearchResults
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_searchQuery;
-    NSMutableArray *_searchResults;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _includesEnrichedResult;
-    struct {
-        unsigned int has_includesEnrichedResult:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_searchQuery:1;
-        unsigned int read_searchResults:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ut:(id)arg1;
++ (_Bool)setHasSupportsDodgeballCameraInput:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -35,37 +21,32 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)setCurrentProcessHasError:(id)arg1 forEntitlement: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)!;
+- (id);
+- (void);
+- (void);
+- (id)peaker is active and playback volume is high;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)dd}}72;
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)s:(struct _NSZone *)arg1;
-- (void)tLocationHint:(id)arg1;
+- (void)rt for Feature Flag %s;
+- (id)ticketForFreshIdentifier:(struct _NSZone *)arg1 resultProviderID:contentProvider:traits: /* Error: Ran out of types for this method. */;
+- (void)setLocationHint:(id)arg1;
 - (id)abelSummaryIcon=III},R,N;
 - (id);
 - (id)¨;
 - (void)A3;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIncludesEnrichedResult;
-@property(readonly, nonatomic) _Bool hasSearchQuery;
-@property(nonatomic) _Bool includesEnrichedResult;
-@property(retain, nonatomic) NSString *searchQuery;
 @property(retain, nonatomic) NSMutableArray *searchResults;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

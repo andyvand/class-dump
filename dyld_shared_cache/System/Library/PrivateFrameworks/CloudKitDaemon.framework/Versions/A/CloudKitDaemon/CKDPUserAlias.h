@@ -9,35 +9,31 @@
 @interface CKDPUserAlias
 {
     NSString *_identifier;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)OF SYNC! messageSeqNum=%hu rfc2198SeqNum%hu
+;
 - (_Bool);
 - (int);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
 - (_Bool);
-- (id)ecryptOperation;
+- (id)recordDecryptOperation;
 - (_Bool)T@"NSMutableOrderedSet",R,N,V_itemIDsToUnregister;
 - (void)ssetRequest;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -6,17 +6,12 @@
 
 #import <CoreUARP/UARPAccessoryHardwareID.h>
 
-@class UARPAccessoryMetadata;
-
 @interface UARPAccessoryHardwareCHIP : UARPAccessoryHardwareID
 {
     unsigned short _vendorID;
-    unsigned short _productID;
-    unsigned short _hwID;
-    UARPAccessoryMetadata *_metadata;
 }
 
-- (id);
+- (id)}};
 - (unsigned short);
 - (id);
 - (id);
@@ -25,9 +20,6 @@
 - (unsigned short);
 
 // Remaining properties
-@property(readonly) unsigned short hwID; // @synthesize hwID=_hwID;
-@property(readonly) UARPAccessoryMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly) unsigned short productID; // @synthesize productID=_productID;
 @property(readonly) unsigned short vendorID; // @synthesize vendorID=_vendorID;
 
 @end

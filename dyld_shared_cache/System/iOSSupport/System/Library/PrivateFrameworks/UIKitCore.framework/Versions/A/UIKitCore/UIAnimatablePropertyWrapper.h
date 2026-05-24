@@ -19,7 +19,7 @@
 - (id);
 - (void)ñ[ð1Â0@ù
 × ;
-- (id)nlySystemInvocations:(id)arg1;
+- (id)_applyInvocationsTo:(id)arg1 window:matchingSelector:onlySystemInvocations: /* Error: Ran out of types for this method. */;
 - (void)ousContainerSize;
 - (id)ìþ;
 - (_Bool)r: /* Error: Ran out of types for this method. */;

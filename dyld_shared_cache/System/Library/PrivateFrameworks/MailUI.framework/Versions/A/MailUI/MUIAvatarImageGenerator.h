@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, EFLocked, EFPromise, NSCache, NSDate;
-@protocol EFScheduler, MUIBIMIProvider, MUIBusinessServiceProvider, MUICategoryProvider, MUIContactsProvider, MUIGenericAvatarProvider;
+@protocol EFScheduler;
 
 @interface MUIAvatarImageGenerator
 {
     struct EFAtomicObject _contactsProvider;
-    id <MUIBIMIProvider> _bimiProvider;
-    id <MUICategoryProvider> _categoryProvider;
-    id <MUIBusinessServiceProvider> _businessServiceProvider;
-    id <MUIGenericAvatarProvider> _genericAvatarProvider;
-    id <EFScheduler> _avatarImageScheduler;
-    id <EFScheduler> _businessAvatarScheduler;
-    CDUnknownBlockType _contactsProviderHandler;
-    EFPromise *_allowsGeneratePromise;
-    EFLocked *_senderStyleCache;
-    NSCache *_avatarCache;
-    NSCache *_genericAvatarCache;
-    NSDate *_lastTimeout;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id)V;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)k;
+- (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)212nq;
 - (id);
 - (id);
 - (id);
@@ -49,7 +36,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -58,31 +45,18 @@
 - (id);
 - (long long);
 - (void);
+- (id)@;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void)ientsPlaceholder;
+- (void)noRecipientsPlaceholder;
 
 // Remaining properties
-@property(readonly, nonatomic) EFFuture *allowGeneratingAvatarImagesFuture;
-@property(readonly, nonatomic) EFPromise *allowsGeneratePromise; // @synthesize allowsGeneratePromise=_allowsGeneratePromise;
-@property(retain, nonatomic) NSCache *avatarCache; // @synthesize avatarCache=_avatarCache;
 @property(readonly, nonatomic) id <EFScheduler> avatarImageScheduler; // @synthesize avatarImageScheduler=_avatarImageScheduler;
-@property(readonly, nonatomic) id <MUIBIMIProvider> bimiProvider; // @synthesize bimiProvider=_bimiProvider;
-@property(readonly, nonatomic) id <EFScheduler> businessAvatarScheduler; // @synthesize businessAvatarScheduler=_businessAvatarScheduler;
-@property(readonly, nonatomic) id <MUIBusinessServiceProvider> businessServiceProvider; // @synthesize businessServiceProvider=_businessServiceProvider;
-@property(readonly, nonatomic) id <MUICategoryProvider> categoryProvider; // @synthesize categoryProvider=_categoryProvider;
-@property(readonly, nonatomic) id <MUIContactsProvider> contactsProvider;
-@property(copy, nonatomic) CDUnknownBlockType contactsProviderHandler; // @synthesize contactsProviderHandler=_contactsProviderHandler;
-@property(retain, nonatomic) NSCache *genericAvatarCache; // @synthesize genericAvatarCache=_genericAvatarCache;
-@property(readonly, nonatomic) id <MUIGenericAvatarProvider> genericAvatarProvider; // @synthesize genericAvatarProvider=_genericAvatarProvider;
-@property(retain, nonatomic) NSDate *lastTimeout; // @synthesize lastTimeout=_lastTimeout;
-@property(retain, nonatomic) EFLocked *senderStyleCache; // @synthesize senderStyleCache=_senderStyleCache;
 
 @end
 

@@ -4,14 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScene;
+@class NSArray, UIScene;
 
 @protocol _UISceneComponentProviding
+- (id);
 
 @optional
-- (void)tringForKey:(UIScene *)arg1;
+- (NSArray *);
+- (void);
+- (void)stringForKey:(UIScene *)arg1;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
+// Error: Property attributes should begin with the type ('T') attribute, property name: v24@0:8@"UIScene"16
+// Property attributes: @"UIScene"16@0:8
+
 @end
 

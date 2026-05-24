@@ -11,7 +11,6 @@
 @interface AAPaymentSummaryRequest : AAAppleIDSettingsRequest
 {
     NSString *_secondaryAuthToken;
-    NSString *_heartbeatToken;
 }
 
 + (Class);
@@ -21,11 +20,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)utoMigratableToCK;
-- (id)D_RECOVERY_KEY_PRIMARY_ACTION;
+- (void)remindersAutoMigratableToCK;
+- (id)DISTRUSTED_RECOVERY_KEY_PRIMARY_ACTION;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *heartbeatToken; // @synthesize heartbeatToken=_heartbeatToken;
 @property(copy, nonatomic) NSString *secondaryAuthToken; // @synthesize secondaryAuthToken=_secondaryAuthToken;
 
 @end

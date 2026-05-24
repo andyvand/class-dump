@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDateTimeRange, _INPBString;
+@class NSString, _INPBDateTimeRange, _INPBString;
 
 @protocol _INPBMediaSearch
-- (void);
-- (void)e;
-- (void)pletion:(_Bool)arg1;
-- (void)m:(_INPBDateTimeRange *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)T;
+- (NSString *);
+- (_INPBString *);
+- (int);
+- (int);
+- (int)_registerDirectionPad: /* Error: Ran out of types for this method. */;
+- (void)-C;
+- (int);
+- (void)encodeBool:(_INPBString *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)_userNotificationType;
+- (void)provideDateTimeRangeOptionsCollectionForFindEvents:(_Bool)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideAlarmRepeatScheduleOptionsOptionsCollectionForCreateAlarm:(_INPBDateTimeRange *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool)eAlarmIntent;
 - (_INPBDateTimeRange *);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *albumName;
-@property(retain, nonatomic) _INPBString *artistName;
-@property(copy, nonatomic) NSArray *genreNames;
-@property(readonly, nonatomic) unsigned long long genreNamesCount;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasArtistName;
-@property(readonly, nonatomic) _Bool hasMediaIdentifier;
-@property(readonly, nonatomic) _Bool hasMediaName;
-@property(nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasReference;
-@property(readonly, nonatomic) _Bool hasReleaseDate;
-@property(nonatomic) _Bool hasSortOrder;
-@property(retain, nonatomic) _INPBString *mediaIdentifier;
-@property(retain, nonatomic) _INPBString *mediaName;
-@property(nonatomic) int mediaType;
-@property(copy, nonatomic) NSArray *moodNames;
-@property(readonly, nonatomic) unsigned long long moodNamesCount;
-@property(nonatomic) int reference;
-@property(retain, nonatomic) _INPBDateTimeRange *releaseDate;
-@property(nonatomic) int sortOrder;
 @end
 

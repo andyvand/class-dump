@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CRTextFeatureOrdering, MTLDevice;
-
 @interface CRRecognizerConfiguration
 {
     struct os_unfair_lock_s _cachedTextFeatureOrderLock;
-    struct os_unfair_lock_s _cachedTextFeatureFilterLock;
-    _Bool _falsePositiveFilteringDisabled;
-    _Bool _scriptDetectionDisabled;
-    _Bool _skipRecognition;
-    _Bool _rectifyPolygons;
-    _Bool _optimizeGroupsForStability;
-    int _colorSpace;
-    unsigned long long _revision;
-    long long _numTopStringCandidates;
-    double _angleThresholdForRotatedCrops;
-    NSObject<MTLDevice> *_metalDevice;
-    unsigned long long _computeDeviceType;
-    NSObject<CRTextFeatureOrdering> *_cachedTextFeatureOrder;
-    id _cachedTextFeatureFilter;
 }
 
 + (id);
@@ -31,33 +14,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)=;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (double);
-- (id);
+- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (int);
+- (int);
 - (id);
 - (void)TLDRegion>>=^{CTLDRegion}^{CTLDRegion}{?=^{CTLDRegion}}}}56@0:8@16i24{CGSize=dd}28f44Q48 /* Error: Ran out of types for this method. */;
-- (unsigned long long)erConfiguration;
+- (unsigned long long)recognizerConfiguration;
 
 // Remaining properties
-@property(readonly) double angleThresholdForRotatedCrops; // @synthesize angleThresholdForRotatedCrops=_angleThresholdForRotatedCrops;
-@property(readonly) int colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly) unsigned long long computeDeviceType; // @synthesize computeDeviceType=_computeDeviceType;
-@property(readonly) _Bool falsePositiveFilteringDisabled; // @synthesize falsePositiveFilteringDisabled=_falsePositiveFilteringDisabled;
-@property(readonly) NSObject<MTLDevice> *metalDevice; // @synthesize metalDevice=_metalDevice;
-@property(readonly) long long numTopStringCandidates; // @synthesize numTopStringCandidates=_numTopStringCandidates;
-@property(readonly) _Bool rectifyPolygons; // @synthesize rectifyPolygons=_rectifyPolygons;
 @property(readonly) unsigned long long revision; // @synthesize revision=_revision;
-@property(readonly) _Bool scriptDetectionDisabled; // @synthesize scriptDetectionDisabled=_scriptDetectionDisabled;
-@property(readonly) _Bool skipRecognition; // @synthesize skipRecognition=_skipRecognition;
-@property(readonly) id textFeatureFilter;
-@property(readonly) NSObject<CRTextFeatureOrdering> *textFeatureOrder;
 
 @end
 

@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATNotForMeResponseReturned : SISchemaInstrumentationMessage
 {
     _Bool _isUtteranceRewritten;
-    struct {
-        unsigned int isUtteranceRewritten:1;
-    } _has;
 }
 
 - (void);
@@ -21,20 +16,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (void);
-- (unsigned long long);
+- (unsigned long long)_updateDetailTextOfVibrationItem;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)"countOfOTAAssetsInAssetSet"b1"totalSizeOfOTAAssetsInAssetSet"b1"countOfPSUSAssetsInAssetSet"b1"totalSizeOfPSUSAssetsInAssetSet"b1};
 - (id)serSpeakingContext;
 - (id)é;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsUtteranceRewritten;
 @property(nonatomic) _Bool isUtteranceRewritten; // @synthesize isUtteranceRewritten=_isUtteranceRewritten;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -8,11 +8,9 @@
 {
     id name;
     id website;
-    id artwork;
-    id support;
 }
 
-- (id);
+- (id)!;
 - (void);
 
 @end

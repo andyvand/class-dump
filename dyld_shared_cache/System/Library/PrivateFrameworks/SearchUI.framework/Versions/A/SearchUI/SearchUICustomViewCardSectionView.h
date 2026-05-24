@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SearchUICustomViewCardSectionView : SearchUICardSectionView
 {
     id baseView;
-    id hostingView;
-    id wrappedView;
-    id alreadyDispatchedOnMainQueue;
-    void viewProvider;
 }
 
 + (_Bool);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)9v&#;
 - (id);
 - (void);
 - (id);

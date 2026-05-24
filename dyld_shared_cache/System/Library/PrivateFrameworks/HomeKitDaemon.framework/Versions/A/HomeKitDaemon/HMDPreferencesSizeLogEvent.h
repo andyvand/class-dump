@@ -4,54 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDPreferencesSizeLogEvent
 {
     NSString *_applicationID;
-    NSString *_preferencesKey;
-    unsigned long long _preferencesSize;
-    unsigned long long _eventTrigger;
 }
 
 - (id);
-- (id);
+- (id)istoryEntryRoute"8;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void)ngStoreTransactionActions;
+- (void)BackingStoreTransactionActions;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) NSString *applicationID; // @synthesize applicationID=_applicationID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long eventTrigger; // @synthesize eventTrigger=_eventTrigger;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSString *preferencesKey; // @synthesize preferencesKey=_preferencesKey;
-@property(readonly) unsigned long long preferencesSize; // @synthesize preferencesSize=_preferencesSize;
-@property(readonly) Class superclass;
 
 @end
 

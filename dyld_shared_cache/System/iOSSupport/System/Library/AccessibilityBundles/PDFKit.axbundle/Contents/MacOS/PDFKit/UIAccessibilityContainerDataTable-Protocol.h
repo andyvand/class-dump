@@ -5,5 +5,6 @@
 //
 
 @protocol UIAccessibilityContainerDataTable
+- (unsigned long long);
 @end
 

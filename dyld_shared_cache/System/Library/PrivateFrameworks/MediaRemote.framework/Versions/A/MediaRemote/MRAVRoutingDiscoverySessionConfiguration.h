@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRDiscoverySessionConfigurationProtobuf;
+@class NSString;
 
 @interface MRAVRoutingDiscoverySessionConfiguration
 {
     _Bool _enableThrottling;
-    _Bool _alwaysAllowUpdates;
-    _Bool _cachedDiscoveryEnabled;
-    unsigned int _features;
-    unsigned int _targetAudioSessionID;
-    NSString *_routingContextUID;
-    NSString *_outputDeviceUID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)?;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id)blastdoorInterfaceForSenderContext: /* Error: Ran out of types for this method. */;
+- (void)ranscode.skip.jpeg;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)[;
 - (void);
 - (_Bool);
 - (void);
@@ -37,23 +31,15 @@
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)iceContext"8Q16^B24;
 - (void);
 - (_Bool);
-- (void)viceUIDForType:(_Bool)arg1 requestID:queue:completion: /* Error: Ran out of types for this method. */;
-- (void)ics;
+- (void)handleActiveSystemEndpointOutputDeviceUIDForType:(_Bool)arg1 requestID:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)characteristics;
 - (_Bool)¥B;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysAllowUpdates; // @synthesize alwaysAllowUpdates=_alwaysAllowUpdates;
-@property(nonatomic) _Bool cachedDiscoveryEnabled; // @synthesize cachedDiscoveryEnabled=_cachedDiscoveryEnabled;
-@property(nonatomic) _Bool enableThrottling; // @synthesize enableThrottling=_enableThrottling;
-@property(readonly, nonatomic) unsigned int features; // @synthesize features=_features;
-@property(readonly, nonatomic) _Bool isLocal;
 @property(copy, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(readonly, copy, nonatomic) _MRDiscoverySessionConfigurationProtobuf *protobuf;
-@property(copy, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
-@property(nonatomic) unsigned int targetAudioSessionID; // @synthesize targetAudioSessionID=_targetAudioSessionID;
 
 @end
 

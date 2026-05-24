@@ -9,21 +9,30 @@
 @interface CKDPListRange
 {
     CKDPListPosition *_left;
-    CKDPListPosition *_right;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)ibeType:(id)arg1 %ld 
+	ConversationID:%@ 
+	Date:%@ 
+	DisplayDate:%@ 
+	Remind Me:%@ 
+	Follow Up:%@ 
+	Summary:%@ 
+	Generated Summary:%@ (isUrgent = %@)
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (void)initWithCourseIdentifier:(id)arg1 courseName:courseDescription:courseMascotType:courseColorType:instructorName:anchorCertificateDatas: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)getSubDecoderConfig:(id)arg1 withPackage:withModule:withTransceiver:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)sAudioDataBBufDispatchInternal while not resumed. 
+;
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)noMailboxesScope;
 - (void);
 - (id);
 - (void);
@@ -32,9 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLeft;
-@property(readonly, nonatomic) _Bool hasRight;
-@property(retain, nonatomic) CKDPListPosition *left; // @synthesize left=_left;
-@property(retain, nonatomic) CKDPListPosition *right; // @synthesize right=_right;
 
 @end
 

@@ -16,7 +16,7 @@
 + (unsigned int);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 
 @end
 

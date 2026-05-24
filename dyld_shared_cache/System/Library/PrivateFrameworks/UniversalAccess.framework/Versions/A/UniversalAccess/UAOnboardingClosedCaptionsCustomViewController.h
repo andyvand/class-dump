@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)ntext";
+- (void)nse"b1"isWebExtractedFact"b1};
 - (void);
 - (void);
 

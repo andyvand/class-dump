@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Base62)
-- (id);
+- (id)?<v@?@"AFSiriActivationResult">;
 @end
 

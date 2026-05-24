@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSMutableArray;
+@class NSArray;
 
 @interface AVExternalSyncDeviceDiscoverySession
 {
     struct os_unfair_lock_s _deviceLock;
-    struct os_unfair_lock_s _sourceLock;
-    NSMutableArray *_devices;
-    AVWeakReference *_weakReference;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void)~©7©Ö?JêtÀ;
 - (void);
 - (id);

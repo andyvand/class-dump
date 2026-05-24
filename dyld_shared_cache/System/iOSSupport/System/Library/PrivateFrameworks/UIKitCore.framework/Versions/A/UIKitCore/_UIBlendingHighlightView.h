@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIColor;
+@class NSMutableArray;
 
 @interface _UIBlendingHighlightView : UIView
 {
@@ -17,11 +17,11 @@
 + (_Bool);
 + (id);
 + (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)setBroadcastedSyncStateToDownloading;
+- (id)iMessageIDSTrustedData",&,N,V_trustedData;
+- (id)_TtC12IMDaemonCore32IMDPersistentTaskCriticalLimiter;
+- (void)nt;
+- (void)ile-size;
 - (struct UIEdgeInsets);
 - (void);
 - (void);
@@ -33,17 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *fillColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

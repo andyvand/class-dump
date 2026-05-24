@@ -9,7 +9,6 @@
 @interface _CHSExtensionIdentityBufBuilder
 {
     AFBBufferBuilder *_owner;
-    struct ExtensionIdentityBufBuilder *_bldr;
 }
 
 - (void);

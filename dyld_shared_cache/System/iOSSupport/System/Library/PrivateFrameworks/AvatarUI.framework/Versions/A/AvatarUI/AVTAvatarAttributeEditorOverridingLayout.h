@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AVTAvatarAttributeEditorLayout;
 
 @interface AVTAvatarAttributeEditorOverridingLayout
 {
     double _avatarContainerAlpha;
-    id <AVTAvatarAttributeEditorLayout> _backingLayout;
-    struct CGRect _avatarContainerFrame;
-    struct CGRect _attributesContentViewFrame;
 }
 
 - (struct CGRect);
@@ -38,34 +34,13 @@
 - (_Bool);
 - (struct UIEdgeInsets);
 - (id);
-- (id);
+- (id)BandProgs(260) cannot add 1 element to context;
 - (double);
-- (struct CGSize);
-- (void);
+- (struct CGSize)a;
+- (void)__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool RTL;
-@property(nonatomic) struct CGRect attributesContentViewFrame; // @synthesize attributesContentViewFrame=_attributesContentViewFrame;
-@property(readonly, nonatomic) struct UIEdgeInsets attributesContentViewInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets attributesContentViewScrollIndicatorInsets;
-@property(nonatomic) double avatarContainerAlpha; // @synthesize avatarContainerAlpha=_avatarContainerAlpha;
-@property(nonatomic) struct CGRect avatarContainerFrame; // @synthesize avatarContainerFrame=_avatarContainerFrame;
 @property(readonly, nonatomic) id <AVTAvatarAttributeEditorLayout> backingLayout; // @synthesize backingLayout=_backingLayout;
-@property(readonly, nonatomic) struct CGSize containerSize;
-@property(readonly, copy, nonatomic) NSString *contentSizeCategory;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(readonly, nonatomic) struct CGRect groupDialContainerFrame;
-@property(readonly, nonatomic) double headerMaskingViewAlpha;
-@property(readonly, nonatomic) struct CGRect headerMaskingViewFrame;
-@property(readonly, nonatomic) double maxGroupLabelWidth;
-@property(readonly, nonatomic) double screenScale;
-@property(readonly, nonatomic) _Bool showSideGroupPicker;
-@property(readonly, nonatomic) struct CGRect sideGroupContainerFrame;
-@property(readonly, nonatomic) unsigned long long supportedLayoutOrientation;
-@property(readonly, nonatomic) struct CGRect userInfoFrame;
-@property(readonly, nonatomic) double userInfoViewHeight;
-@property(readonly, nonatomic) double verticalRuleAlpha;
-@property(readonly, nonatomic) struct CGRect verticalRuleFrame;
 
 @end
 

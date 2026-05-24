@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface AWDNWDurationAccumulation
 {
     NSString *_name;
-    NSMutableArray *_states;
 }
 
-+ (Class);
-- (unsigned long long);
++ (Class);
+- (unsigned long long)_;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
+- (id)`;
 - (_Bool);
 - (void);
 - (id);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *states; // @synthesize states=_states;
 
 @end
 

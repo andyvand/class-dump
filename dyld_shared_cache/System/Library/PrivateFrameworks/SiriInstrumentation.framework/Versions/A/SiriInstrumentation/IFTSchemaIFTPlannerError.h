@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFTSchemaIFTPlannerError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_other;
-    _Bool _failedToPlan;
-    IFTSchemaIFTIntelligenceFlowError *_networkError;
-    _Bool _hasOther;
-    _Bool _hasFailedToPlan;
-    _Bool _hasNetworkError;
-    unsigned long long _whichOneof_Plannererror;
 }
 
 - (unsigned long long);
@@ -40,23 +34,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)__TEXT;
 - (id)tð!üDùQàÐ1Â0@ù
 × ;
-- (id)ounts: /* Error: Ran out of types for this method. */;
-- (id)text;
-- (id)ionInfoTier1;
+- (id)addPreprocessingEntityCategoryCounts: /* Error: Ran out of types for this method. */;
+- (id)ttmNeuralCombinerRequestContext;
+- (id)ASRSchemaASRFullPayloadCorrectionInfoTier1;
 - (void)oÐÿê®òI#;
 
 // Remaining properties
-@property(nonatomic) _Bool failedToPlan; // @synthesize failedToPlan=_failedToPlan;
-@property(nonatomic) _Bool hasFailedToPlan; // @synthesize hasFailedToPlan=_hasFailedToPlan;
-@property(nonatomic) _Bool hasNetworkError; // @synthesize hasNetworkError=_hasNetworkError;
-@property(nonatomic) _Bool hasOther; // @synthesize hasOther=_hasOther;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *networkError; // @synthesize networkError=_networkError;
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *other; // @synthesize other=_other;
-@property(readonly, nonatomic) unsigned long long whichOneof_Plannererror; // @synthesize whichOneof_Plannererror=_whichOneof_Plannererror;
 
 @end
 

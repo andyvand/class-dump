@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, NSXPCInterface, NSXPCListener;
-@protocol CWFXPCListenerDelegate, OS_dispatch_queue;
+@class NSXPCListener;
+@protocol CWFXPCListenerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CWFXPCListener
 {
     NSXPCListener *_XPCListener;
-    NSMutableArray *_mutableXPCConnections;
-    NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSXPCInterface *_requestXPCInterface;
-    NSXPCInterface *_eventXPCInterface;
-    NSArray *_bootArgs;
-    id <CWFXPCListenerDelegate> _delegate;
-    long long _serviceType;
 }
 
 - (id);
-- (void);
-- (long long);
+- (void);
+- (long long));
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)*;
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)out;
+- (void)er>"8;
+- (void);
+- (_Bool)b;
 - (id);
-- (_Bool);
+- (_Bool)m;
 - (id);
-- (void)work:context:allowForSeamlessSSIDTransition:defer:targetQueue:error: /* Error: Ran out of types for this method. */;
+- (void)__allowKnownNetwork:context:allowForSeamlessSSIDTransition:defer:targetQueue:error: /* Error: Ran out of types for this method. */;
 - (void)to find class %s;
-- (id)sion;
+- (id)assetVersionInfoVersion;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSXPCListener *XPCListener; // @synthesize XPCListener=_XPCListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) id <CWFXPCListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

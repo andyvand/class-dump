@@ -6,28 +6,22 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class NSAppearance, NSNumber, WBSCGImage;
+@class WBSCGImage;
 
 @interface WBSBackgroundImageResponse : WBSSiteMetadataResponse
 {
     _Bool _tiled;
-    WBSCGImage *_image;
-    NSNumber *_luminance;
-    NSAppearance *_appearance;
 }
 
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void)mageRenderingFetchOperation;
+- (void)WBSSVGImageRenderingFetchOperation;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
 @property(readonly, nonatomic) WBSCGImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSNumber *luminance; // @synthesize luminance=_luminance;
-@property(readonly, nonatomic, getter=isTiled) _Bool tiled; // @synthesize tiled=_tiled;
 
 @end
 

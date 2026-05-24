@@ -12,23 +12,17 @@ __attribute__((visibility("hidden")))
 @interface _UIImageMultiVectorGlyphContent : _UIImageContent
 {
     NSArray *_glyphs;
-    NSArray *_colors;
-    NSArray *_offsets;
-    NSArray *_scaleFactors;
-    struct CGSize _sizeInPixels;
-    struct CGPoint _anchorPoint;
-    struct CGImage *_imageRef;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)monitoredAccountStore:didUpdateAccount: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
-- (_Bool)a;
-- (double)nPinchGesture: /* Error: Ran out of types for this method. */;
-- (_Bool)nclosingTabBarControllerForStackChange;
-- (void)dFinishContentOffsetAnimation;
+- (_Bool)tracksLuma;
+- (double)beginPinchGesture: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateEnclosingTabBarControllerForStackChange;
+- (void)_contentScrollViewDidFinishContentOffsetAnimation;
 - (_Bool)posedContentOffset: /* Error: Ran out of types for this method. */;
 - (struct CGImage *)id<UIFocusItem> _Nonnull, UIFocusSystem *__strong _Nonnull);
 - (void)ì+;

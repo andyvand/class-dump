@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCoalescer;
-
 @interface _CKExpiringCacheEntry
 {
     _Bool _supportsDeferral;
-    _Bool _expired;
-    double _expiration;
-    CKCoalescer *_coalescer;
-    id _object;
 }
 
-+ (id);
++ (id)?;
 - (_Bool);
 - (void);
 - (void);
@@ -24,20 +18,16 @@
 - (id);
 - (id);
 - (void);
+- (void)h;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)B;
 - (id)?<v@?@"NSError">24;
-- (void)RowError: /* Error: Ran out of types for this method. */;
+- (void)CKIsNoMatchingRowError: /* Error: Ran out of types for this method. */;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) CKCoalescer *coalescer; // @synthesize coalescer=_coalescer;
-@property double expiration; // @synthesize expiration=_expiration;
 @property(getter=isExpired) _Bool expired; // @synthesize expired=_expired;
-@property(readonly, nonatomic) __weak id object; // @synthesize object=_object;
-@property _Bool supportsDeferral; // @synthesize supportsDeferral=_supportsDeferral;
 
 @end
 

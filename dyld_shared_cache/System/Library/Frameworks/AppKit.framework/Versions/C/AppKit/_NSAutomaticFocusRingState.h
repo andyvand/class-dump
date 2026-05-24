@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSBitmapImageRep, NSRegion, NSResponder, NSTimer, NSValue, NSView;
-
 __attribute__((visibility("hidden")))
 @interface _NSAutomaticFocusRingState
 {
     _Bool automaticFocusRingShown;
-    _Bool automaticFocusRingNeedsUpdate;
-    NSView *automaticFocusRingView;
-    NSBitmapImageRep *automaticFocusRingBitmap;
-    struct CGRect automaticFocusRingWindowRect;
-    NSRegion *automaticFocusRingRegion;
-    CALayer *automaticFocusRingLayer;
-    NSResponder *previousActiveFirstResponder;
-    double focusRingAnimationStartTime;
-    NSTimer *animationTimer;
-    struct CGRect animatedFocusRingBounds;
-    NSValue *alreadyFocusedWindow;
-    NSView *lastNonNilFocusRingView;
-    double nilFocusTime;
-    NSValue *forceRect;
-    _Bool accessibilityRequest;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ExtendedLOMMacAddress;
+- (void)AP ticket:(double)arg1 %d;
+- (void)MobileGestaltRunLoopMode;
+- (void)laymode;
+- (void)/9e8lQWMszEjbPzng;
+- (void)YDwoPAktVQ;
+- (void)WqjQ;
+- (void)MYKMJDMFE/lhvOVXgtDNuw;
+- (void)yZf3GTRMGTuwSV/lD7Cagw;
+- (void)eLfYx8jpSlim2NZFIonPzA;
+- (void)BDEEZTeWlHQ;
+- (void)7ZipyD32hkjOUTl66Q8REw;
+- (void)SAGvsp6O6kAQ4fEfDJpC4Q;
+- (void)eJGhnVvylF3dMOHBKJzeiw;
+- (void)kfgZNuQ;
 - (id);
 - (double);
 - (id);
@@ -52,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (struct CGRect);
@@ -63,22 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(getter=isAccessibilityRequest) _Bool accessibilityRequest; // @synthesize accessibilityRequest;
-@property(retain) NSValue *alreadyFocusedWindow; // @synthesize alreadyFocusedWindow;
-@property struct CGRect animatedFocusRingBounds; // @synthesize animatedFocusRingBounds;
-@property(retain) NSTimer *animationTimer; // @synthesize animationTimer;
-@property(retain) NSBitmapImageRep *automaticFocusRingBitmap; // @synthesize automaticFocusRingBitmap;
-@property(retain) CALayer *automaticFocusRingLayer; // @synthesize automaticFocusRingLayer;
-@property _Bool automaticFocusRingNeedsUpdate; // @synthesize automaticFocusRingNeedsUpdate;
-@property(retain) NSRegion *automaticFocusRingRegion; // @synthesize automaticFocusRingRegion;
 @property(getter=isAutomaticFocusRingShown) _Bool automaticFocusRingShown; // @synthesize automaticFocusRingShown;
-@property(retain) NSView *automaticFocusRingView; // @synthesize automaticFocusRingView;
-@property struct CGRect automaticFocusRingWindowRect; // @synthesize automaticFocusRingWindowRect;
-@property double focusRingAnimationStartTime; // @synthesize focusRingAnimationStartTime;
-@property(retain) NSValue *forceRect; // @synthesize forceRect;
-@property NSView *lastNonNilFocusRingView; // @synthesize lastNonNilFocusRingView;
-@property double nilFocusTime; // @synthesize nilFocusTime;
-@property(retain) NSResponder *previousActiveFirstResponder; // @synthesize previousActiveFirstResponder;
 
 @end
 

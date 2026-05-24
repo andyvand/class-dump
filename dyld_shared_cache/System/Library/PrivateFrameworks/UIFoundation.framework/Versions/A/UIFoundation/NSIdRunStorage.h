@@ -10,7 +10,7 @@
 {
 }
 
-+ (void)veRootObject:toFile: /* Error: Ran out of types for this method. */;
++ (void)archiveRootObject:toFile: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

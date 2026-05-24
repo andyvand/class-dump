@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenu;
+
 @protocol CKLocationShareBalloonViewDelegate
+- (UIMenu *)d}{CGSize=dd}}16@"NSView"48Q56;
+- (void)attachmentPreviewImageLoader;
+- (void)attachmentParagraphSpacingBefore;
 @end
 

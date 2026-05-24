@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailHashtagEditorPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id viewModel;
-    id interactor;
-    id router;
-    id presenterCapability;
 }
 
 @end

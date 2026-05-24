@@ -6,51 +6,32 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CLSLocation : CLSObject
 {
     _Bool _isEditable;
-    NSString *_locationName;
-    NSString *_searchText;
-    long long _sourceType;
 }
 
-+ (_Bool);
++ (_Bool)_dataclassAdditionActions;
+- (id)ANEServicesDeviceProgramDestroy;
+- (void);
+- (id);
+- (id)C�?;
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)CKm;
 - (void);
-- (long long)isterDataObserver:withID:querySpecification:oldChangeTag:completion: /* Error: Ran out of types for this method. */;
+- (long long)remote_registerDataObserver:withID:querySpecification:oldChangeTag:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *displayName;
-@property(readonly) NSString *emailAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *groupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property _Bool isEditable; // @synthesize isEditable=_isEditable;
 @property(copy, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
-@property(readonly) NSPersonNameComponents *nameComponents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSPersonNameComponents",?,R
-
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

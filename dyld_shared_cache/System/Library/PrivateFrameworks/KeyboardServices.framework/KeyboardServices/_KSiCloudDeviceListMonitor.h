@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore;
+@class ACAccountStore;
 
 @interface _KSiCloudDeviceListMonitor
 {
     ACAccountStore *_accountStore;
-    ACAccount *_account;
-    long long _majorVersForCloudKitSyncMacOS;
-    long long _minorVersForCloudKitSyncMacOS;
-    long long _minorSubversionForCloudKitSyncMacOS;
-    long long _majorVersForCloudKitSynciOS;
-    long long _minorVersForCloudKitSynciOS;
 }
 
 + (id);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ctListView",&,N,V_contactListView;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
 @property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(nonatomic) long long majorVersForCloudKitSyncMacOS; // @synthesize majorVersForCloudKitSyncMacOS=_majorVersForCloudKitSyncMacOS;
-@property(nonatomic) long long majorVersForCloudKitSynciOS; // @synthesize majorVersForCloudKitSynciOS=_majorVersForCloudKitSynciOS;
-@property(nonatomic) long long minorSubversionForCloudKitSyncMacOS; // @synthesize minorSubversionForCloudKitSyncMacOS=_minorSubversionForCloudKitSyncMacOS;
-@property(nonatomic) long long minorVersForCloudKitSyncMacOS; // @synthesize minorVersForCloudKitSyncMacOS=_minorVersForCloudKitSyncMacOS;
-@property(nonatomic) long long minorVersForCloudKitSynciOS; // @synthesize minorVersForCloudKitSynciOS=_minorVersForCloudKitSynciOS;
 
 @end
 

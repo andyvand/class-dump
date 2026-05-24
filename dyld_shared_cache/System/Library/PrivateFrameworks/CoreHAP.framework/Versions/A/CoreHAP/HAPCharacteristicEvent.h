@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface HAPCharacteristicEvent
 {
     NSString *_serverIdentifier;
-    NSNumber *_accessoryInstanceID;
-    NSNumber *_serviceInstanceID;
-    NSNumber *_characteristicInstanceID;
-    id _value;
-    NSDate *_updateTime;
-    NSNumber *_stateNumber;
 }
 
 + (id);
@@ -24,19 +18,13 @@
 - (id);
 - (id);
 - (id);
+- (id)range:original %{public}@, timestamp %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)0:8@"<HAP2AccessoryServerDelegate>"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *accessoryInstanceID; // @synthesize accessoryInstanceID=_accessoryInstanceID;
-@property(readonly, copy, nonatomic) NSNumber *characteristicInstanceID; // @synthesize characteristicInstanceID=_characteristicInstanceID;
 @property(readonly, copy, nonatomic) NSString *serverIdentifier; // @synthesize serverIdentifier=_serverIdentifier;
-@property(readonly, copy, nonatomic) NSNumber *serviceInstanceID; // @synthesize serviceInstanceID=_serviceInstanceID;
-@property(readonly, nonatomic) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(readonly, nonatomic) NSDate *updateTime; // @synthesize updateTime=_updateTime;
-@property(readonly, copy, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
-- (void);
-- (id);
+- (double)IsThereEnoughBatteryLevelForSoftwareUpdate;
+- (void)DeviceMesaType;
+- (id)Ih7hA;
 - (long long);
 - (double);
 - (id);
-- (id);
-- (_Bool);
+- (id)tionary>=^{__CFDictionary}^{__shared_weak_count}}16;
+- (_Bool);
 
 @end
 

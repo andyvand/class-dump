@@ -4,49 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKIconStyle, NSString, VKLabelMarker;
+@class VKLabelMarker;
 
 @interface MKMapFeatureAnnotation
 {
     _Bool _isHybridMap;
-    long long _featureType;
-    MKIconStyle *_iconStyle;
-    NSString *_pointOfInterestCategory;
-    VKLabelMarker *_marker;
 }
 
 - (id);
 - (id);
 - (void);
+- (id)";
 - (id);
 - (id);
+- (struct CLLocationCoordinate2D)Account is not eligible for enabling SMS Filter by default.;
 - (id);
-- (struct CLLocationCoordinate2D);
-- (id);
-- (void)ingAtPoint: /* Error: Ran out of types for this method. */;
-- (long long)llSharingURLWithLookAroundViewState: /* Error: Ran out of types for this method. */;
+- (void)_stopPanningAtPoint: /* Error: Ran out of types for this method. */;
+- (long long)_fullSharingURLWithLookAroundViewState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long featureType; // @synthesize featureType=_featureType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MKIconStyle *iconStyle; // @synthesize iconStyle=_iconStyle;
 @property(readonly, nonatomic) VKLabelMarker *marker; // @synthesize marker=_marker;
-@property(readonly, nonatomic) NSString *pointOfInterestCategory; // @synthesize pointOfInterestCategory=_pointOfInterestCategory;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

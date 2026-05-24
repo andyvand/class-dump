@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -26,20 +26,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (int);
-- (_Bool);
-- (id);
-- (void);
+- (int)_kj;
+- (_Bool)nterruption:(id)arg1 ];
+- (id)q_xYaYbKc;
+- (void)y.MoIAiI/Sources/libressl/libressl-2.2/ssl/ssl_ciph.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(readonly) Class superclass;
 
 @end
 

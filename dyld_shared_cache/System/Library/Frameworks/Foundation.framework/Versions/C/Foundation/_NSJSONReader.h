@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)SzzZSðy8^*Y3YòAShT@\oRáO_r>yÇRNøvÔk·_}²LÉfvaN¿ÐcGSå]à^ÙTTS©R-pNSú^<h¾FUhSRþfvaLMOiQMOý_ù[dkrsÖS)Yl;
 - (id);
-- (id);
+- (id)tePredictionEnumerator16PredictionSubsetEbRNSt3__112basic_stringIcNSB_11char_traitsIcEENSB_9allocatorIcEEEERKNSB_8functionIFbRKNS0_16InlineCompletionEEEEE3$_1;
 
 @end
 

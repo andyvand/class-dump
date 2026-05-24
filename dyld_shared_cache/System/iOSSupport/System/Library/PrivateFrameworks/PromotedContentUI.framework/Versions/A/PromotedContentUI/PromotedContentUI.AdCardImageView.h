@@ -7,13 +7,6 @@
 @interface PromotedContentUI.AdCardImageView
 {
     id configuration;
-    id footer;
-    id imageViewHeightConstraint;
-    id imageViewWidthConstraint;
-    id fetchImageTask;
-    id adMarker;
-    id imageView;
-    id delegate;
 }
 
 - (void);

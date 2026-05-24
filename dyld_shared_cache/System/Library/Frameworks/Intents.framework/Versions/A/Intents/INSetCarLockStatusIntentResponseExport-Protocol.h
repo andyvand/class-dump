@@ -5,7 +5,7 @@
 //
 
 @protocol INSetCarLockStatusIntentResponseExport
-- (long long)etadata;
+- (long long)hasValueMetadata;
 
 // Remaining properties
 @property(readonly) long long code;

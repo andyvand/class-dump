@@ -7,8 +7,6 @@
 @interface DDMAssetURLProtocolOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    CDUnknownBlockType _resumeBlock;
 }
 
 - (CDUnknownBlockType);
@@ -22,14 +20,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool)ok;
+- (_Bool)P;
+- (void)__AUTH_CONST;
+- (_Bool)DDMBook;
 
 // Remaining properties
 @property(nonatomic) _Bool executing; // @synthesize executing=_executing;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(copy) CDUnknownBlockType resumeBlock; // @synthesize resumeBlock=_resumeBlock;
 
 @end
 

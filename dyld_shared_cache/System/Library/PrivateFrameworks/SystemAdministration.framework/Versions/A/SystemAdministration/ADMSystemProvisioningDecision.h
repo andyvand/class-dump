@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMLocalUser, NSString;
+@class NSString;
 
 @interface ADMSystemProvisioningDecision
 {
     _Bool _requirePasswordChange;
-    ADMLocalUser *_user;
-    NSString *_password;
 }
 
-+ (id);
++ (id)?;
 - (void);
 - (_Bool);
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSString *password; // @synthesize password=_password;
-@property _Bool requirePasswordChange; // @synthesize requirePasswordChange=_requirePasswordChange;
-@property(readonly, retain) ADMLocalUser *user; // @synthesize user=_user;
 
 @end
 

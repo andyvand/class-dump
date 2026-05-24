@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 @protocol PXHUDVisualizationDelegate;
 
 @interface PXHUDVisualization
 {
     NSColor *_color;
-    NSString *_title;
-    id <PXHUDVisualizationDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)l;
 - (void)
 × ;
 - (void);Ð1Â0@ù
@@ -26,9 +24,7 @@
 - (void)JÊ}B·¨Ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(nonatomic) __weak id <PXHUDVisualizationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

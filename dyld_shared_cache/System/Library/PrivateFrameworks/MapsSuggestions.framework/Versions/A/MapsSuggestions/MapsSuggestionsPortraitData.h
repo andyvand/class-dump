@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MapsSuggestionsPortraitData
 {
     NSString *_name;
-    NSDate *_lastInteractionTime;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setAccessibilityRoleDescription:(id)arg1;
 - (void)_cxx_atomic_base_impl<unsigned int>>="__a_value"AI}};
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastInteractionTime; // @synthesize lastInteractionTime=_lastInteractionTime;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

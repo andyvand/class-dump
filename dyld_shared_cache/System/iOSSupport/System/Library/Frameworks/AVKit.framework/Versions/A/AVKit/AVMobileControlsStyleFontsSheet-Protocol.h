@@ -7,17 +7,10 @@
 @class UIFont;
 
 @protocol AVMobileControlsStyleFontsSheet
+- (UIFont *);
+- (UIFont *)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIFont *buttonFont;
-@property(readonly, nonatomic) UIFont *contentTabLabelFont;
-@property(readonly, nonatomic) UIFont *contentTagFont;
-@property(readonly, nonatomic) UIFont *infoAffordanceButtonFont;
-@property(readonly, nonatomic) UIFont *playPauseButtonFont;
-@property(readonly, nonatomic) UIFont *prominentContentTagFont;
-@property(readonly, nonatomic) UIFont *secondaryPlaybackControlsFont;
-@property(readonly, nonatomic) UIFont *subtitleFont;
 @property(readonly, nonatomic) UIFont *timeLabelFont;
-@property(readonly, nonatomic) UIFont *titleFont;
 @end
 

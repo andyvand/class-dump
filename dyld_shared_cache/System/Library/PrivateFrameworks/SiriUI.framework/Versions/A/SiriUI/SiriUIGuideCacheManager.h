@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, SAGuidanceGuideSnippet, SAGuidanceGuideUpdate, SAGuidanceSuggestedUtterances;
-@protocol OS_dispatch_queue;
+@class NSNumber, SAGuidanceGuideUpdate;
 
 @interface SiriUIGuideCacheManager
 {
     SAGuidanceGuideUpdate *_cachedGuideUpdate;
-    NSObject<OS_dispatch_queue> *_cacheFileQueue;
 }
 
 + (id);
@@ -31,9 +29,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) SAGuidanceGuideSnippet *cachedGuideSnippet;
 @property(readonly, nonatomic) NSNumber *cachedGuideTag;
-@property(readonly, nonatomic) SAGuidanceSuggestedUtterances *cachedSuggestedUtterances;
 
 @end
 

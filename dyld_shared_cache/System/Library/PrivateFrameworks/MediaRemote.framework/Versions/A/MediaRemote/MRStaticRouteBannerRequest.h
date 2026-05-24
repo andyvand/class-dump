@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MRStaticRouteBannerRequest
 {
     NSString *_routeIdentifier;
-    NSString *_routeName;
-    NSArray *_outputDeviceNames;
-    NSString *_routeSymbolName;
-    NSString *_actionImageName;
-    NSString *_soloModelID;
-    NSString *_soloDeviceEnclosureColor;
-    NSArray *_userSelectedDeviceNames;
 }
 
 + (_Bool);
@@ -28,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)';
 - (id);
 - (id);
 - (void);
@@ -41,14 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionImageName; // @synthesize actionImageName=_actionImageName;
-@property(retain, nonatomic) NSArray *outputDeviceNames; // @synthesize outputDeviceNames=_outputDeviceNames;
 @property(retain, nonatomic) NSString *routeIdentifier; // @synthesize routeIdentifier=_routeIdentifier;
-@property(retain, nonatomic) NSString *routeName; // @synthesize routeName=_routeName;
-@property(retain, nonatomic) NSString *routeSymbolName; // @synthesize routeSymbolName=_routeSymbolName;
-@property(retain, nonatomic) NSString *soloDeviceEnclosureColor; // @synthesize soloDeviceEnclosureColor=_soloDeviceEnclosureColor;
-@property(retain, nonatomic) NSString *soloModelID; // @synthesize soloModelID=_soloModelID;
-@property(retain, nonatomic) NSArray *userSelectedDeviceNames; // @synthesize userSelectedDeviceNames=_userSelectedDeviceNames;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface NSExtendedRegularExpressionCheckingResult : NSRegularExpressionCheckingResult
 {
     NSRegularExpression *_regularExpression;
-    struct _NSRange _ranges[7];
 }
 
 - (void);

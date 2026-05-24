@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPProtocolProxy, NSMapTable;
+@class MPProtocolProxy;
 @protocol MPCQueueControllerPublisher;
 
 __attribute__((visibility("hidden")))
 @interface _MPCQueueControllerRegistry
 {
     MPProtocolProxy<MPCQueueControllerPublisher> *_publisherProxy;
-    NSMapTable *_transportableExtensions;
 }
 
 + (id)S] <%p> Sending discovered local endpoint to caller;
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void)urce doesn't want to load more];
 
 // Remaining properties
 @property(readonly, nonatomic) MPProtocolProxy<MPCQueueControllerPublisher> *publisherProxy; // @synthesize publisherProxy=_publisherProxy;
-@property(readonly, copy, nonatomic) NSMapTable *transportableExtensions; // @synthesize transportableExtensions=_transportableExtensions;
 
 @end
 

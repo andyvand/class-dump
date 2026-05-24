@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
+- (id)AMSAutomaticDownloadKindsFetchTask;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

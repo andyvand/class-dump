@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)@ù
 × ;
-- (void)ryRequestToSend: /* Error: Ran out of types for this method. */;
+- (void)setAccessoryRequestToSend: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HAP2CoAPIOConsumer> consumer; // @synthesize consumer=_consumer;

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEORoadCoursePenalty
 {
     GEOLocation *_location;
-    _Bool _useRawLocations;
 }
 
 - (void);

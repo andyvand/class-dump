@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SGNameMappingTransformer
 {
     _Bool _forNameDetector;
-    NSDictionary *_nameMappings;
-    NSString *_tokenToIgnore;
-    int _minimumConfidence;
-    CDUnknownBlockType _confidenceMapper;
 }
 
 + (id);
@@ -23,20 +17,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)number for script code from ICU:(id)arg1 %d;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void)4¤;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

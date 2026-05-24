@@ -12,12 +12,12 @@
     NSObject<OS_dispatch_semaphore> *__semaphore;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)__kIMAVChatMayRequireBreakBeforeMakeChangedNotification;
 - (void);
 
 // Remaining properties

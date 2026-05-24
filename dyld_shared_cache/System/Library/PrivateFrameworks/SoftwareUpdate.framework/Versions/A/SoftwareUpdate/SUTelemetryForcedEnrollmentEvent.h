@@ -11,7 +11,6 @@
 @interface SUTelemetryForcedEnrollmentEvent : SUTelemetryEvent
 {
     _Bool _isAutoCheckForUpdatesManaged;
-    NSString *_eventSubtype;
 }
 
 - (void);
@@ -20,14 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *eventName;
 @property NSString *eventSubtype; // @synthesize eventSubtype=_eventSubtype;
-@property _Bool isAutoCheckForUpdatesManaged; // @synthesize isAutoCheckForUpdatesManaged=_isAutoCheckForUpdatesManaged;
-@property(readonly) long long telemetryServer;
 
 @end
 

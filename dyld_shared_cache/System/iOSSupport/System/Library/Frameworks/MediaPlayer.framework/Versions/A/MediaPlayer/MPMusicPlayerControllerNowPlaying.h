@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItem, MPNowPlayingInfoAudioFormat, NSString;
+@class MPMediaItem;
 
 @interface MPMusicPlayerControllerNowPlaying
 {
     MPMediaItem *_item;
-    MPNowPlayingInfoAudioFormat *_audioFormat;
-    NSString *_itemIdentifier;
-    unsigned long long _itemUID;
-    NSString *_artworkIdentifier;
-    long long _index;
-    long long _count;
 }
 
 + (id);
-+ (id);
++ (id)nullsFirst;
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id)lastTUConversationCreatedDate;
 - (id);
 - (id);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (void)delPropertyAlbumLibraryAddEligible__MAPPING_MISSING__;
-- (id)d;
+- (void)__MPModelPropertyAlbumLibraryAddEligible__MAPPING_MISSING__;
+- (id)isCancelled;
 - (id)6Ê
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(readonly, nonatomic) MPNowPlayingInfoAudioFormat *audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
 @property(readonly, nonatomic) MPMediaItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) unsigned long long itemUID; // @synthesize itemUID=_itemUID;
 
 @end
 

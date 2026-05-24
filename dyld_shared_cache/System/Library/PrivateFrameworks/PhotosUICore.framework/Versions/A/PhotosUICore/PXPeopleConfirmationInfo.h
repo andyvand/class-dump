@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PHPerson;
+@class PHPerson;
 
 @interface PXPeopleConfirmationInfo
 {
     _Bool _wasNaming;
-    PHPerson *_sourcePerson;
-    PHPerson *_targetPerson;
-    NSSet *_otherPersons;
-    NSString *_localizedName;
 }
 
 - (_Bool);
@@ -22,15 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)mDefaultKenBurnsType;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) NSSet *otherPersons; // @synthesize otherPersons=_otherPersons;
 @property(readonly, nonatomic) PHPerson *sourcePerson; // @synthesize sourcePerson=_sourcePerson;
-@property(readonly, nonatomic) PHPerson *targetPerson; // @synthesize targetPerson=_targetPerson;
-@property(readonly, nonatomic) _Bool wasNaming; // @synthesize wasNaming=_wasNaming;
 
 @end
 

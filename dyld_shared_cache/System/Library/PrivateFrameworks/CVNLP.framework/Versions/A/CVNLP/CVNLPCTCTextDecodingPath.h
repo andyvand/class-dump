@@ -6,55 +6,29 @@
 
 #import <CVNLP/CVNLPTextDecodingPath.h>
 
-@class CVNLPLanguageResourceBundle, CVNLPLexiconCursors, NSString;
-
 @interface CVNLPCTCTextDecodingPath : CVNLPTextDecodingPath
 {
     vector_9c509c4c _tokenString;
-    vector_9c509c4c _histWordTokenIDs;
-    unsigned long long _beginningCurrentWord;
-    struct vector<double, std::allocator<double>> _cumulativeTokenLogProbabilities;
-    struct vector<double, std::allocator<double>> _tokenBoundaryLogProbabilities;
-    struct vector<unsigned long, std::allocator<unsigned long>> _tokenStringSegmentationPositions;
-    struct vector<unsigned long, std::allocator<unsigned long>> _tokenMaxActivations;
-    struct vector<unsigned long, std::allocator<unsigned long>> _tokenCommitCharacterLengths;
-    _Bool _hasContext;
-    double _normalizedTotalLogProbability;
-    NSString *_latestExpandedSymbolIncludingPseudospace;
-    _Bool _hasExpanded;
-    _Bool _hasProblematicMixedScriptWords;
-    _Bool _hasCalculatedHasProblematicMixedScriptWords;
-    int _lastCodeUnitType;
-    _Bool _optimizingAlignment;
-    double _blankLogProbability;
-    double _nonBlankLogProbability;
-    double _historyLexiconLogProbability;
-    double _activeWordLexiconLogProbability;
-    double _languageResourceLogProbability;
-    CVNLPLexiconCursors *_cursors;
-    struct CVNLPLanguageModelWithState *_characterLMState;
-    CVNLPLanguageResourceBundle *_languageResourceBundle;
-    CDUnknownBlockType _scoringFunction;
 }
 
 + (void);
-+ (id);
-- (void);
-- (id);
-- (void);
-- (void);
++ (id)F;
+- (void)H;
+- (id)'*';
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)';
 - (void);
 - (void);
 - (double);
 - (long long);
-- (id);
+- (id)'F~F';
 - (_Bool);
 - (double);
 - (double);
@@ -64,50 +38,36 @@
 - (double);
 - (id);
 - (id);
-- (double);
+- (double)1F';
+- (id)'/;
 - (id);
-- (id);
-- (double);
+- (double);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)D;
+- (void)D;
+- (id)1B'F;
 - (struct CVNLPLanguageModelWithState *);
-- (double);
+- (double);
 - (float);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)'EF';
 - (CDUnknownBlockType);
-- (double);
+- (double);
 - (double);
 - (id);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (long long);
+- (long long)B;
+- (long long)@9
+J(;
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property double activeWordLexiconLogProbability; // @synthesize activeWordLexiconLogProbability=_activeWordLexiconLogProbability;
 @property double blankLogProbability; // @synthesize blankLogProbability=_blankLogProbability;
-@property(nonatomic) struct CVNLPLanguageModelWithState *characterLMState; // @synthesize characterLMState=_characterLMState;
-@property(retain, nonatomic) CVNLPLexiconCursors *cursors; // @synthesize cursors=_cursors;
-@property(readonly, nonatomic) _Bool hasExpanded;
-@property double historyLexiconLogProbability; // @synthesize historyLexiconLogProbability=_historyLexiconLogProbability;
-@property(readonly, retain, nonatomic) CVNLPLanguageResourceBundle *languageResourceBundle; // @synthesize languageResourceBundle=_languageResourceBundle;
-@property(readonly) double languageResourceLogProbability; // @synthesize languageResourceLogProbability=_languageResourceLogProbability;
-@property double lastTokenBoundaryLogProbability;
-@property(readonly, nonatomic) NSString *latestExpandedSymbol;
-@property(readonly, nonatomic) NSString *latestExpandedSymbolIncludingPseudospace;
-@property double nonBlankLogProbability; // @synthesize nonBlankLogProbability=_nonBlankLogProbability;
-@property(readonly) double normalizedActivationLogProbability;
-@property(readonly) double normalizedTotalLogProbability;
-@property(readonly) _Bool optimizingAlignment; // @synthesize optimizingAlignment=_optimizingAlignment;
-@property(readonly, nonatomic) CDUnknownBlockType scoringFunction; // @synthesize scoringFunction=_scoringFunction;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSDictionary, NSString;
+@class NSDictionary;
 @protocol PXStoryMovieHighlight;
 
 @interface PXStoryMediaAnalysisMovieHighlightCuration
 {
     NSDictionary *_analysis;
-    NSCache *_timeRangeCache;
 }
 
 + (id);
@@ -20,26 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)umbnails:(struct _NSZone *)arg1;
+- (id)setLoadRetinaThumbnails:(struct _NSZone *)arg1;
 - (void)øÈÉ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryMovieHighlight> bestHighlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> defaultHighlight;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> fullMovie;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *highlights;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> livePhoto;
-@property(readonly, nonatomic) id <PXStoryMovieHighlight> movieSummary;
-@property(readonly) Class superclass;
 
 @end
 

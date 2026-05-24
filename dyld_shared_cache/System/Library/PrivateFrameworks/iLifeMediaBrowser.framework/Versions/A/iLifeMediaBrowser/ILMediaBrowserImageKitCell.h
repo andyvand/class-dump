@@ -7,7 +7,6 @@
 @interface ILMediaBrowserImageKitCell
 {
     _Bool _isProject;
-    id _representedObject;
 }
 
 - (long long);
@@ -26,10 +25,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)gradientDescriptor;
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 
 @end
 

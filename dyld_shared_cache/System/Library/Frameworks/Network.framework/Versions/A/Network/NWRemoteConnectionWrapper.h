@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, NWConnection;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface NWRemoteConnectionWrapper
 {
     NSUUID *_clientID;
-    NWConnection *_connection;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSUUID *clientID; // @synthesize clientID=_clientID;
-@property(retain) NWConnection *connection; // @synthesize connection=_connection;
 
 @end
 

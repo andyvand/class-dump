@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKBalloonChatItem.h>
 
-@class FMFLocation, IMHandle, NSString;
+@class FMFLocation;
 
 @interface CKLocationShareOfferChatItem : CKBalloonChatItem
 {
@@ -14,43 +14,39 @@
 }
 
 + (id);
-+ (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (Class);
-- (id);
++ (id)hare in didStopSharing:%@ /* Error: Ran out of types for this method. */;
+- (id)hideSearchResultsForObjects: /* Error: Ran out of types for this method. */;
+- (_Bool)_webView:(id)arg1 createWebViewWithConfiguration:(id)arg2 forNavigationAction:(id)arg3 windowFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)rectTextView;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)t %@ error:(id)arg1 %@;
+- (Class)"16;
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id)ackgroundGUID:posterConfiguration:completion: /* Error: Ran out of types for this method. */;
+- (id)_updateChannel:usingChatGUID:deviceIndependentID:backgroundGUID:posterConfiguration:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)À;
 
 // Remaining properties
 @property(retain, nonatomic) FMFLocation *lastKnownLocation; // @synthesize lastKnownLocation=_lastKnownLocation;
-@property(readonly, nonatomic) __weak NSString *locationText;
-@property(readonly, nonatomic) long long offerState;
-@property(readonly, nonatomic) __weak IMHandle *sender;
-@property(readonly, nonatomic) __weak NSString *titleText;
 
 @end
 

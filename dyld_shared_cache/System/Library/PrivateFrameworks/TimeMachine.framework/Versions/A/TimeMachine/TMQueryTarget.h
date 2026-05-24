@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TMTarget;
+@class TMTarget;
 
 @interface TMQueryTarget
 {
     int _originDeviceID;
-    TMTarget *_originTarget;
-    NSDate *_originBackupDate;
-    unsigned long long _originFileID;
-    NSDate *_revisionDate;
 }
 
 - (id);
 - (unsigned long long);
-- (int);
+- (int) �;
 - (id);
 - (id);
 - (id);
@@ -27,12 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSDate *originBackupDate; // @synthesize originBackupDate=_originBackupDate;
-@property(readonly) int originDeviceID; // @synthesize originDeviceID=_originDeviceID;
-@property(readonly) unsigned long long originFileID; // @synthesize originFileID=_originFileID;
 @property(readonly, copy) TMTarget *originTarget; // @synthesize originTarget=_originTarget;
-@property(readonly, copy) NSDate *revisionDate; // @synthesize revisionDate=_revisionDate;
-@property(readonly) struct TMQueryTargetKey targetKey;
 
 @end
 

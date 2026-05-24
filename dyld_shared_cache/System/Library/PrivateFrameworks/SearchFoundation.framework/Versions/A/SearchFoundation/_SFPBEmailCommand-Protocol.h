@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBEmailCommand
+- (NSData *)_changeRequest;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *email;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

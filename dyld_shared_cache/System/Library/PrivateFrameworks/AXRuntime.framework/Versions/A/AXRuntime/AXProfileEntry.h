@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXProfileEntry
 {
     int _pid;
-    unsigned long long _type;
-    long long _attribute;
-    unsigned long long _valueSize;
-    unsigned long long _valueHash;
-    double _duration;
-    NSString *_appName;
-    CDStruct_26bd94fa _uid;
 }
 
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)07*;
+- (void)TH;
 - (int);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
-- (CDStruct_26bd94fa);
+- (CDStruct_4bcfbbae);
 - (id);
 - (unsigned long long);
+- (void)_TtC18PodcastsFoundation24PodcastEpisodeAttributes;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(nonatomic) long long attribute; // @synthesize attribute=_attribute;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) CDStruct_26bd94fa uid; // @synthesize uid=_uid;
-@property(nonatomic) unsigned long long valueHash; // @synthesize valueHash=_valueHash;
-@property(nonatomic) unsigned long long valueSize; // @synthesize valueSize=_valueSize;
 
 @end
 

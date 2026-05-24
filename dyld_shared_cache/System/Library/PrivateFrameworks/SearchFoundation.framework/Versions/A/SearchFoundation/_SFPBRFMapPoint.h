@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBRFMapPoint
 {
     double _x;
-    double _y;
 }
 
-- (id);
+- (id)h7;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)queryForShareParticipantWithPerson:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)_includeAssetSourceTypesNumber;
+- (id)".;
 - (void);
 - (id);
 - (id);
@@ -27,16 +24,7 @@
 - (double)er",C,N,V_serverScore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

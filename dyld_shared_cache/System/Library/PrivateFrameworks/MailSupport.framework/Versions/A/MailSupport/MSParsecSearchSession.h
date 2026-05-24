@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSParsecSearchEmbeddingState, MSParsecSearchIndexState, NSMutableArray, NSString, PARSession, SFStartLocalSearchFeedback;
+@class MSParsecSearchIndexState, PARSession;
 
 @interface MSParsecSearchSession
 {
     MSParsecSearchIndexState *_indexState;
-    MSParsecSearchEmbeddingState *_embeddingState;
-    PARSession *_session;
-    long long _currentQueryID;
-    NSMutableArray *_currentFeedback;
-    SFStartLocalSearchFeedback *_currentLocalSearchFeedback;
 }
 
++ (id)isFloatingPanel;
 + (id);
-+ (id);
+- (void)@y%@q!;
 - (void);
 - (void);
 - (void);
+- (void)q@;
+- (void);
+- (void);
+- (void)@y	?%@qa;
+- (void);
+- (void)q`;
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)c9;
 - (void);
 - (void);
 - (void);
@@ -48,25 +43,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (void);
-- (void)recent;
+- (void)n page image;
+- (void)percentUnindexedBodiesInFrecent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *currentFeedback; // @synthesize currentFeedback=_currentFeedback;
-@property(retain, nonatomic) SFStartLocalSearchFeedback *currentLocalSearchFeedback; // @synthesize currentLocalSearchFeedback=_currentLocalSearchFeedback;
-@property(nonatomic) long long currentQueryID; // @synthesize currentQueryID=_currentQueryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MSParsecSearchEmbeddingState *embeddingState; // @synthesize embeddingState=_embeddingState;
-@property(readonly) unsigned long long hash;
-@property(retain) MSParsecSearchIndexState *indexState; // @synthesize indexState=_indexState;
 @property(readonly, nonatomic) PARSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

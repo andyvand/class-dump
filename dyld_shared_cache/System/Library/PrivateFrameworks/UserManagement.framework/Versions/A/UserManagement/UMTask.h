@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface UMTask
 {
     _Bool _isFinished;
-    int _pid;
-    NSString *_name;
-    NSString *_reason;
-    NSString *_bundleID;
-    NSUUID *_uuid;
 }
 
 + (id);
-+ (id);
++ (id)&;
 - (void);
 - (int);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)is class for the model loading.;
+- (id)q;
 - (void);
 - (id);
 - (void);
+- (void)internalDaemonContainerPathWithError: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (_Bool)J;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

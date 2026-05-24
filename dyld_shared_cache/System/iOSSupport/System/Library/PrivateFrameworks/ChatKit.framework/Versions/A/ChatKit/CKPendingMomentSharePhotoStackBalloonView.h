@@ -12,7 +12,7 @@
 {
 }
 
-- (void);
+- (void)s;
 - (void);
 - (id);
 - (void);

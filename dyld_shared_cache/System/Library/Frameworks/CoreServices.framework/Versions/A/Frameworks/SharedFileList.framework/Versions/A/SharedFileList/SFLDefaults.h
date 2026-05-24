@@ -12,17 +12,15 @@
 
 + (id);
 + (id);
+- (id))!;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *legacyAsyncServiceName;
-@property(readonly) NSString *legacyServiceName;
 @property(readonly) NSString *serviceName;
 
 @end

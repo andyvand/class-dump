@@ -10,15 +10,10 @@ __attribute__((visibility("hidden")))
 @interface ODDColorTransformStyleLabel
 {
     ODDFillColorList *mFillColors;
-    ODDFillColorList *mLineColors;
-    ODDFillColorList *mEffectColors;
-    ODDFillColorList *mTextLineColors;
-    ODDFillColorList *mTextFillColors;
-    ODDFillColorList *mTextEffectColors;
 }
 
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (void);

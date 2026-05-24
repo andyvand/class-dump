@@ -13,13 +13,13 @@
     NSArray *_precomputedInverseObjects;
 }
 
-- (void);
-- (id)?×;
-- (id);
-- (Class)ùªu;
-- (_Bool)ÿ_Ö ;
-- (_Bool)ªÝ÷ÿðRð#ÁÚäª	Þ#ÕÿÑôO©ý{©ýÃ;
+- (void);
 - (id);
+- (id);
+- (Class);
+- (_Bool);
+- (_Bool);
+- (id)SDEnvHolderInfo;
 - (void)raffic:transportType:eta: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

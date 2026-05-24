@@ -7,12 +7,6 @@
 @interface MLCDeviceOps
 {
     _Bool _sourceOfForwardNeededForGradient;
-    _Bool _resultOfForwardNeededForGradient;
-    id _source;
-    id _secondarySource;
-    id _tertiarySource;
-    id _result;
-    unsigned long long _batchSize;
 }
 
 - (id);
@@ -31,16 +25,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)MPSMatrixLUVectorMatrixUpdate;
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(retain, nonatomic) id result; // @synthesize result=_result;
-@property(nonatomic) _Bool resultOfForwardNeededForGradient; // @synthesize resultOfForwardNeededForGradient=_resultOfForwardNeededForGradient;
-@property(retain, nonatomic) id secondarySource; // @synthesize secondarySource=_secondarySource;
 @property(retain, nonatomic) id source; // @synthesize source=_source;
-@property(nonatomic) _Bool sourceOfForwardNeededForGradient; // @synthesize sourceOfForwardNeededForGradient=_sourceOfForwardNeededForGradient;
-@property(retain, nonatomic) id tertiarySource; // @synthesize tertiarySource=_tertiarySource;
 
 @end
 

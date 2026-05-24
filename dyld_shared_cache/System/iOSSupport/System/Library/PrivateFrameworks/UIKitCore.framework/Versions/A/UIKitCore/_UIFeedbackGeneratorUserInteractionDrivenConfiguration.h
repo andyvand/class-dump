@@ -12,22 +12,18 @@
 @interface _UIFeedbackGeneratorUserInteractionDrivenConfiguration : _UIFeedbackGeneratorConfiguration
 {
     _UIFeedback<_UIFeedbackDiscretePlayable> *_interactionStartedFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_interactionEndedFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_interactionCancelledFeedback;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)handleEditMessageCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)guidsForStoredAttachmentPayloadData:messageGUID: /* Error: Ran out of types for this method. */;
+- (id)sFlags: /* Error: Ran out of types for this method. */;
 - (id)vent"24;
 - (void)X=\;
 
 // Remaining properties
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *interactionCancelledFeedback; // @synthesize interactionCancelledFeedback=_interactionCancelledFeedback;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *interactionEndedFeedback; // @synthesize interactionEndedFeedback=_interactionEndedFeedback;
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *interactionStartedFeedback; // @synthesize interactionStartedFeedback=_interactionStartedFeedback;
 
 @end

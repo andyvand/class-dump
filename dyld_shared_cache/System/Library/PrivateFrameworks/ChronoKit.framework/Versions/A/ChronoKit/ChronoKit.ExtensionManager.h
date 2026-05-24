@@ -7,18 +7,6 @@
 @interface ChronoKit.ExtensionManager
 {
     id requireValidExtensions;
-    id _extensionsPublisher;
-    id _addedPublisher;
-    id _updatedPublisher;
-    id _removedPublisher;
-    id extensionsByIdentifier;
-    id queue;
-    id lookupLock;
-    id exExtensionIdentityDiscovererSubscription;
-    id exExtensionIdentityDiscoverer;
-    id remoteWidgetExtensionSubscription;
-    id remoteWidgetExtensionProvider;
-    id extensionFactory;
 }
 
 - (id);

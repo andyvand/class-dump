@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool)ToStopAccessingSecurityScopedResource"b1"replacedDefaultUserActivity"b1};
 - (_Bool)ck:(id)arg1;
-- (id)backing_isHidden;
+- (id)_backing_isHidden;
 - (id), textFieldContainer;
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CIFilterListProvider
 {
     _Bool _isInternal;
-    NSMutableDictionary *_collections;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
@@ -28,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)enTimeCore16AccessRespondingP;
 - (id);
 
 @end

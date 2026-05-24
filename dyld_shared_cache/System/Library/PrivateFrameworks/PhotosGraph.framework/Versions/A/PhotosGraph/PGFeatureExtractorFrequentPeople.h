@@ -6,26 +6,22 @@
 
 #import <PhotosGraph/PGAssetFeatureExtractor.h>
 
-@class PHFetchResult;
-
 @interface PGFeatureExtractorFrequentPeople : PGAssetFeatureExtractor
 {
     unsigned long long _numberOfFrequentPeopleToExtract;
-    PHFetchResult *_frequencySortedPersons;
 }
 
-- (void);
+- (void)deleteCharactersInRange:(id)arg1;
 - (id);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (unsigned long long);
-- (id);
-- (id)tDonationEnrichmentProcessor;
-- (void)tra;
+- (id)reportFetchCompletionOfType:forIconURLs:responses:errors:lastFetchedURL:lastFetchedIcon:didUseOffScreenWebView: /* Error: Ran out of types for this method. */;
+- (id)PGGraphPortraitDonationEnrichmentProcessor;
+- (void)orchestra;
 
 // Remaining properties
-@property(retain, nonatomic) PHFetchResult *frequencySortedPersons; // @synthesize frequencySortedPersons=_frequencySortedPersons;
 @property(readonly, nonatomic) unsigned long long numberOfFrequentPeopleToExtract; // @synthesize numberOfFrequentPeopleToExtract=_numberOfFrequentPeopleToExtract;
 
 @end

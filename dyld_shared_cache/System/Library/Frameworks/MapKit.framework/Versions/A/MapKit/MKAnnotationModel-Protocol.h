@@ -5,5 +5,7 @@
 //
 
 @protocol MKAnnotationModel
+- (void)";
+- (void)loadedCell;
 @end
 

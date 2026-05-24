@@ -4,46 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHPhotoLibrary, PXContentSyndicationConfigurationProvider;
+@class PXContentSyndicationConfigurationProvider;
 
 @interface PXContentFilterState
 {
     PXContentSyndicationConfigurationProvider *_contentSyndicationConfigurationProvider;
-    _Bool _includeSharedWithYou;
-    _Bool _showOnlySharedWithYou;
-    _Bool _saved;
-    _Bool _unsaved;
-    _Bool _favorite;
-    _Bool _edited;
-    _Bool _image;
-    _Bool _video;
-    _Bool _live;
-    _Bool _portrait;
-    _Bool _inUserAlbum;
-    _Bool _notInUserAlbum;
-    _Bool _showOnlySentICloudLinks;
-    _Bool _showOnlyReceivedICloudLinks;
-    _Bool _includeScreenshots;
-    _Bool _showOnlyScreenshots;
-    _Bool _includeFromMyMac;
-    _Bool _showOnlyFromMyMac;
-    _Bool _includeOthersInSocialGroupAssets;
-    _Bool _isSearchResultsFilterButton;
-    PHPhotoLibrary *_photoLibrary;
-    NSArray *_keywords;
-    NSArray *_uuids;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -54,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (_Bool);
 - (id);
 - (_Bool);
@@ -93,48 +70,17 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)WithStatusProvider:(struct _NSZone *)arg1 actionManager:presentationStyle: /* Error: Ran out of types for this method. */;
-- (id)ticsProvider;
+- (id)initWithStatusProvider:(struct _NSZone *)arg1 actionManager:presentationStyle: /* Error: Ran out of types for this method. */;
+- (id)_TtC12PhotosUICore40GenerativeStoryVisualDiagnosticsProvider;
 - (void)÷ÿ;
-- (void)hangePersonSortOrder;
+- (void)PhotoKitAssetCollectionChangePersonSortOrder;
 - (void)ð1ÿár¸Ü1ÿÑr¸Ø1ÿ;
 - (id)Õ°M[ï>;
 - (void)$øÿ3£Rb«>;
 - (_Bool)ÛQDþ>;
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeFilterCount;
-@property(readonly, nonatomic) PXContentSyndicationConfigurationProvider *contentSyndicationConfigurationProvider; // @synthesize contentSyndicationConfigurationProvider=_contentSyndicationConfigurationProvider;
-@property(nonatomic) _Bool edited; // @synthesize edited=_edited;
-@property(nonatomic) _Bool favorite; // @synthesize favorite=_favorite;
-@property(readonly, nonatomic) _Bool hasRules;
-@property(nonatomic) _Bool image; // @synthesize image=_image;
-@property(nonatomic) _Bool inUserAlbum; // @synthesize inUserAlbum=_inUserAlbum;
-@property(nonatomic) _Bool includeFromMyMac; // @synthesize includeFromMyMac=_includeFromMyMac;
-@property(nonatomic) _Bool includeOthersInSocialGroupAssets; // @synthesize includeOthersInSocialGroupAssets=_includeOthersInSocialGroupAssets;
-@property(nonatomic) _Bool includeScreenshots; // @synthesize includeScreenshots=_includeScreenshots;
-@property(nonatomic) _Bool includeSharedWithYou; // @synthesize includeSharedWithYou=_includeSharedWithYou;
-@property(readonly, nonatomic) _Bool isFiltering;
-@property(nonatomic) _Bool isSearchResultsFilterButton; // @synthesize isSearchResultsFilterButton=_isSearchResultsFilterButton;
-@property(copy, nonatomic) NSArray *keywords; // @synthesize keywords=_keywords;
-@property(nonatomic) _Bool live; // @synthesize live=_live;
-@property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *localizedFooterDescription;
-@property(nonatomic) _Bool notInUserAlbum; // @synthesize notInUserAlbum=_notInUserAlbum;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(nonatomic) _Bool portrait; // @synthesize portrait=_portrait;
 @property(readonly, nonatomic) long long ruleCount;
-@property(nonatomic) _Bool saved; // @synthesize saved=_saved;
-@property(readonly, nonatomic) _Bool shouldExcludeFromMyMac;
-@property(readonly, nonatomic) _Bool shouldExcludeScreenshots;
-@property(nonatomic) _Bool showOnlyFromMyMac; // @synthesize showOnlyFromMyMac=_showOnlyFromMyMac;
-@property(nonatomic) _Bool showOnlyReceivedICloudLinks; // @synthesize showOnlyReceivedICloudLinks=_showOnlyReceivedICloudLinks;
-@property(nonatomic) _Bool showOnlyScreenshots; // @synthesize showOnlyScreenshots=_showOnlyScreenshots;
-@property(nonatomic) _Bool showOnlySentICloudLinks; // @synthesize showOnlySentICloudLinks=_showOnlySentICloudLinks;
-@property(nonatomic) _Bool showOnlySharedWithYou; // @synthesize showOnlySharedWithYou=_showOnlySharedWithYou;
-@property(nonatomic) _Bool unsaved; // @synthesize unsaved=_unsaved;
-@property(copy, nonatomic) NSArray *uuids; // @synthesize uuids=_uuids;
-@property(nonatomic) _Bool video; // @synthesize video=_video;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatFeedConfigManager
 {
     id lock;
-    id feedConfig;
-    id feedConfigSource;
-    id decoder;
 }
 
 @end

@@ -12,7 +12,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *safari_faviconPersistenceBaseURL;
 @property(readonly, nonatomic) NSURL *safari_sharedDataDirectory;
 @end
 

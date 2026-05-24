@@ -10,14 +10,17 @@ __attribute__((visibility("hidden")))
 @interface HMCContextProvider
 {
     HMCContext *_context;
-    NSMutableArray *_redirections;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)d, vid.created_at, vid.data
+FROM valueInferenceData vid
+LEFT OUTER JOIN processedIntents pi ON vid.taskId = pi.taskId
+WHERE pi.taskId IS NULL
+ORDER BY vid.taskId ASC;
 - (id);
 - (void)!hFùÐ1Â0@ù
 × ;
@@ -25,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) HMCContext *context; // @synthesize context=_context;
 @property(readonly) NSMutableArray *redirections; // @synthesize redirections=_redirections;
 
 @end

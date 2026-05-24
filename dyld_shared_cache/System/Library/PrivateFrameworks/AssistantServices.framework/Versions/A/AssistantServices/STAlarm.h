@@ -6,28 +6,18 @@
 
 #import <AssistantServices/STSiriModelObject.h>
 
-@class NSString;
-
 @interface STAlarm : STSiriModelObject
 {
     _Bool _enabled;
-    long long _daysOfWeek;
-    long long _hourOfDay;
-    long long _minuteOfHour;
-    NSString *_label;
-    _Bool _sleepAlarm;
-    _Bool _overrideAlarm;
-    long long _bedtimeHour;
-    long long _bedtimeMinute;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)#;
 - (_Bool);
 - (void);
-- (long long);
+- (long long)showingExternalPasswordEntry;
 - (void);
 - (long long);
 - (id);
@@ -35,7 +25,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (id);
 - (_Bool);
@@ -43,18 +33,10 @@
 - (long long);
 - (void);
 - (void)ementContext";
-- (void)calDeviceContextWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)_fetchLocalDeviceContextWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long bedtimeHour; // @synthesize bedtimeHour=_bedtimeHour;
-@property(nonatomic) long long bedtimeMinute; // @synthesize bedtimeMinute=_bedtimeMinute;
-@property(nonatomic) long long daysOfWeek; // @synthesize daysOfWeek=_daysOfWeek;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long hourOfDay; // @synthesize hourOfDay=_hourOfDay;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) long long minuteOfHour; // @synthesize minuteOfHour=_minuteOfHour;
-@property(nonatomic, getter=isOverrideAlarm) _Bool overrideAlarm; // @synthesize overrideAlarm=_overrideAlarm;
-@property(nonatomic, getter=isSleepAlarm) _Bool sleepAlarm; // @synthesize sleepAlarm=_sleepAlarm;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBString;
+@class NSArray;
 
 @interface _INPBEvent
 {
     struct _has;
-    NSArray *_eventDescriptors;
-    _INPBString *_eventType;
 }
 
 + (Class);
@@ -19,15 +17,15 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)clientID=%{public}@, network=%{public}@, error=%{public}@, status=%{public}@);
 - (id);
 - (void);
 - (id);
@@ -35,17 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *eventDescriptors; // @synthesize eventDescriptors=_eventDescriptors;
-@property(readonly, nonatomic) unsigned long long eventDescriptorsCount;
-@property(retain, nonatomic) _INPBString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasEventType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

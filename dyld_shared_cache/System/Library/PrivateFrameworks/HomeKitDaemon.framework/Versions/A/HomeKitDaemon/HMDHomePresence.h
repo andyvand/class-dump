@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDHome, NSArray, NSDictionary, NSString;
+@class HMDHome, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePresence
 {
     HMDHome *_home;
-    NSDictionary *_userPresenceMap;
-    HMDDevice *_lastUpdateByDevice;
 }
 
 + (id)Å	ÔªB;
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)submitWithHandler:networkActivity: /* Error: Ran out of types for this method. */;
+- (id)stripForSendingUpdatedRoute;
+- (id)sh:%d minimumETADifferenceMet:%d isUnderMaximumPushLimit:%d /* Error: Ran out of types for this method. */;
+- (_Bool)ion type;
+- (_Bool)derETAController _cleanObjects];
+- (_Bool)ForDuplicateStorageIdentifiers;
+- (_Bool)MSPPinnedPlacesVersion;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,22 +33,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)Ev2. Scheduling an Auto mode evaluation.;
-- (void)sFromPrimary;
+- (void)isFromPrimary;
 
 // Remaining properties
-@property(readonly, getter=isAnyUserAtHome) _Bool anyUserAtHome;
-@property(readonly, nonatomic) NSArray *authorizedUsers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPresenceRegionForAllUsers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) HMDDevice *lastUpdateByDevice; // @synthesize lastUpdateByDevice=_lastUpdateByDevice;
-@property(readonly, getter=isNoUserAtHome) _Bool noUserAtHome;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *userPresenceMap; // @synthesize userPresenceMap=_userPresenceMap;
 
 @end

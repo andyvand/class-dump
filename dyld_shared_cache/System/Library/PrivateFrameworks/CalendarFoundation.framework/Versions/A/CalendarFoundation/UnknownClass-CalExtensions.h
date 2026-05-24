@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CalExtensions)
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

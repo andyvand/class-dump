@@ -9,23 +9,9 @@
 @interface _SNAudioStreamAnalyzer
 {
     id receivedBufferCount;
-    id id;
-    id requests;
-    id currentFormat;
-    id analyzerQueue;
-    id firstPassRecordingPredicate;
-    id firstPassRecordingHistoryDuration;
-    id sysdiagnoseHistoryDuration;
-    id firstPassAnalyzer;
-    id firstPassUltronReportOps;
-    id firstPassResultsHistory;
-    id ringBuffer;
-    id ringBufferWriteBufferList;
-    id unregisterLogCollectHook;
-    id combineAnalyzer;
 }
 
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (_Bool);
@@ -35,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)SNClassificationResult;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *detailedDescription;

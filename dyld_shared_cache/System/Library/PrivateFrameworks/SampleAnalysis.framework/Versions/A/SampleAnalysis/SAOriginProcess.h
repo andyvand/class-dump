@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface SAOriginProcess
 {
     unsigned int _count;
-    NSString *_name;
-    NSMutableArray *_pids;
 }
 
 - (void);

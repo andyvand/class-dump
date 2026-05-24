@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuWindowManagerBackingStore, NSMenuWindowManagerDrawingHandlerView, NSMenuWindowManagerWindow, NSVisualEffectView;
-
 @interface NSMenuWindowManager
 {
     struct CGRect _frame;
-    NSMenuWindowManagerWindow *_window;
-    struct CGRect _menuItemsClipRect;
-    struct CGRect _selectionMaterialRect;
-    struct CGContext *_ctx;
-    struct CGDisplayList *_displayList;
-    NSMenuWindowManagerBackingStore *_backingStore;
-    double _backingStoreScale;
-    NSVisualEffectView *_selectionMaterialView;
-    NSMenuWindowManagerDrawingHandlerView *_nonVibrantContentView;
-    NSMenuWindowManagerDrawingHandlerView *_vibrantContentView;
-    struct CGSRegionObject *_nonVibrantBlendingRegion;
 }
 
-+ (void);
++ (void)&,N,V_publishingURL;
 + (_Bool);
-+ (id);
++ (id)ed to insert cookie %@ into db;
 + (_Bool);
 - (_Bool);
 - (void);
@@ -35,38 +22,28 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)4H;
 - (struct CGSRegionObject *);
 - (struct CGRect);
-- (struct CGImage *);
+- (struct CGImage *)3;
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)*> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std:(struct CGImage *)arg1:(struct CGRect)arg2 string, std:(long long)arg3:(struct CGContext *)arg4 set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)@"NSURLRequest"24@?<v@?@"NSURLRequest"@"NSFileHandle">32;
 - (void);
 - (void);
 - (struct CGContext *);
-- (void);
+- (void)a;
 - (void);
 - (unsigned int);
 - (struct CGRect);
-- (void)SpaceCGRect;
-- (id)orOutlineView:(struct CGRect)arg1 row: /* Error: Ran out of types for this method. */;
-- (void)l;
+- (void)parentSpaceCGRect;
+- (id)indexPathForOutlineView:(struct CGRect)arg1 row: /* Error: Ran out of types for this method. */;
+- (void)NSPrintingInternal;
 - (_Bool);
 - (long long);
 
 // Remaining properties
-@property(readonly) struct CGContext *CGContext;
-@property(getter=isFocused) _Bool focused;
-@property struct CGRect frame;
-@property _Bool hasDarkAppearance;
-@property long long level;
-@property struct CGImage *maskImage;
-@property struct CGRect menuItemsClipRect;
-@property(copy) struct CGSRegionObject *nonVibrantBlendingRegion;
-@property struct CGRect selectionMaterialRect;
-@property _Bool usesMenuBarMaterial;
 @property(readonly) unsigned int windowID;
 
 @end

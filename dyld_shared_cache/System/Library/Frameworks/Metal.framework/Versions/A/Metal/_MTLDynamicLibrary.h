@@ -6,15 +6,11 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class MTLDebugInstrumentationData, MTLDynamicLibraryContainer, NSArray, NSObject, NSString;
-@protocol MTLDevice, OS_dispatch_data;
+@class NSArray, NSString;
 
 @interface _MTLDynamicLibrary : _MTLObjectWithLabel
 {
     NSString *_libraryPath;
-    MTLDynamicLibraryContainer *_container;
-    NSArray *_relocations;
-    _Bool _shaderValidationEnabled;
 }
 
 + (unsigned int);
@@ -30,44 +26,36 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)yP
+0Jwc47JVEF/KjAkqP10TmAbbvpLuFhb8sr5trYYlzSHgaB8uebPm/zP8pJoY3/W5
+HrI+YQKCAQEAwanht7GVqDCg4GmTz4O0Iy5cxqDvdr5v/O1mtM9CuGl5R04yEHgy
+cwJoOB8dX3guiSyJd6OFqBWBlr7Wc47shQbg+Iu9Q+gPnUFitMYYhZsWlS9fGhrB
+ie8dGYcXdk9ouu+tGir7nim7wm8CLVEnyk6H2ScnioYkjGHV5to3Q2opEVq9J8Sr
+DB4mwUfGMmQidWAJHMwnnYKnSVRtxKMIB33WNoKFXEpVNR8vFQbtoKRbvSxITkTP
+sTirwe6ol1ql9UCT0gIUiDh+xLQZW5Jw8g7H5JxBFenEU6dHXeDEF+M5jDM3Gl6N
+sXakekYH67Iql9+6JzN7M+8/L0gf0gIsAQKCAQBeANWy/tf47n9ge0D7DVXVDiLt
+v3PrkBUgx25V9AfMUUG38or/0BxWnmSkrxnsKSbPjWC0W4WLdG8XrrD/Da0Otg4L
+FCK07umLNXitLGJC7hLSiyumcO0dQXjS+kU9b+7CokSovcSMJv0PYDfLkGIj4Xfd
+UedbDFYnynMfig0dL5kbWIB6uWFlDliboGVtly0gBYdT+0p3bAdGzm+5p1sGEYB8
+JJaSzsOBdT6nAVI6ONPAt+TbPuWsNl8XeFFx/wXb+UQEDtkub3k/0xuJeeBwzFr1
+vj0KkKXDfJRVHjZCwmxb/ShpSApVzI8ujkst6zznEqi2OshndSPPVpYCG0R3
+-----END RSA PRIVATE KEY-----
+;
+- (id)B2E820DD;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id)× ;
 - (id)eDescriptor"16@"MTL4CompilerTaskOptions"24@?<v@?@"<MTLRenderPipelineState>"@"NSError">32;
 - (id)LLoaderSliceIdentifier=ii}16Q24B32;
-- (id)hreadgroup: /* Error: Ran out of types for this method. */;
+- (id)setMeshThreadsPerThreadgroup: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_data> *binaryData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *exportedFunctions;
-@property(readonly) NSArray *exportedVariables;
-@property unsigned long long globalConstantsBase;
-@property unsigned long long globalConstantsSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(readonly) NSString *installName;
-@property(copy) NSString *label;
-@property(readonly) NSString *libraryPath; // @synthesize libraryPath=_libraryPath;
-@property(readonly) const CDStruct_41a22ec7 *libraryUUID;
-@property(readonly) NSObject<OS_dispatch_data> *reflectionData;
 @property(copy, nonatomic) NSArray *relocations; // @synthesize relocations=_relocations;
-@property(readonly, nonatomic) _Bool shaderValidationEnabled; // @synthesize shaderValidationEnabled=_shaderValidationEnabled;
-@property(readonly) Class superclass;
 
 @end
 

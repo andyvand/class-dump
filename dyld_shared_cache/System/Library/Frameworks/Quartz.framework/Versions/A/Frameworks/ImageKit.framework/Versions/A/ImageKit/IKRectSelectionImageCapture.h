@@ -9,7 +9,6 @@
 @interface IKRectSelectionImageCapture : IKRectSelection
 {
     long long _scanOrientation;
-    _Bool _isBound;
 }
 
 - (void);
@@ -19,10 +18,10 @@
 - (unsigned int);
 - (long long);
 - (void);
+- (void)^@64;
+- (void)e;
 - (void);
-- (void);
-- (void);
-- (void)Objects;
+- (void)IKDebugScannerObjects;
 
 // Remaining properties
 @property long long scanOrientation; // @synthesize scanOrientation=_scanOrientation;

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInputHelper, AVAssetWriterInputPassDescriptionResponder, AVFigAssetWriterTrack, AVKeyPathDependencyManager, AVWeakReference, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputInternal
 {
     AVWeakReference *weakReference;
-    AVAssetWriterInputHelper *helper;
-    AVFigAssetWriterTrack *assetWriterTrack;
-    NSObject<OS_dispatch_queue> *helperQueue;
-    AVWeakReference *weakReferenceToAttachedAdaptor;
-    AVWeakReference *weakReferenceToAssetWriter;
-    AVKeyPathDependencyManager *keyPathDependencyManager;
-    long long numberOfAppendFailures;
-    _Bool markAsFinishedCalled;
-    NSObject<OS_dispatch_queue> *appendFailureReadWriteQueue;
-    AVAssetWriterInputPassDescriptionResponder *passDescriptionResponder;
-    _Bool hasReceiver;
 }
 
 @end

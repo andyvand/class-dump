@@ -7,10 +7,6 @@
 @interface ChatKit.TapbackPickerMaterialCircleView__priv_F9B6E841E8DE6EE361333F7360F8ABF3
 {
     id colorType;
-    id backgroundLuminance;
-    id materialView;
-    id isSelected;
-    id selectionColor;
 }
 
 - (id);

@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLHeading, CLLocation, NSString;
-@protocol MKAnnotationPrivate;
+@class CLLocation;
 
 __attribute__((visibility("hidden")))
 @interface MKUserLocationInternal
 {
     CLLocation *fixedLocation;
-    CLLocation *predictedLocation;
-    CLHeading *heading;
-    NSString *title;
-    NSString *subtitle;
-    id <MKAnnotationPrivate> _annotation;
-    double timestamp;
-    _Bool updating;
-    double course;
-    id <MKAnnotationPrivate> annotation;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (double);
 - (id);
 - (void);
@@ -39,18 +29,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void)Category: /* Error: Ran out of types for this method. */;
+- (void)excludesCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MKAnnotationPrivate> annotation; // @synthesize annotation;
-@property(nonatomic) double course; // @synthesize course;
 @property(retain, nonatomic) CLLocation *fixedLocation; // @synthesize fixedLocation;
-@property(retain, nonatomic) CLHeading *heading; // @synthesize heading;
-@property(retain, nonatomic) CLLocation *predictedLocation; // @synthesize predictedLocation;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle;
-@property(nonatomic) double timestamp; // @synthesize timestamp;
-@property(retain, nonatomic) NSString *title; // @synthesize title;
-@property(nonatomic, getter=isUpdating) _Bool updating; // @synthesize updating;
 
 @end
 

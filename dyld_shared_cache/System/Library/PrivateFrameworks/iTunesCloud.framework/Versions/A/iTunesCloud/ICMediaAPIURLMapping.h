@@ -12,13 +12,12 @@
 }
 
 - (id);
-- (id);
+- (id)(T;
 - (id);
 - (void)ICPlayInfoRequest;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *featureName;
-@property(readonly, copy, nonatomic) NSString *pattern;
 
 @end
 

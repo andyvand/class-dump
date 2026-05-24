@@ -10,15 +10,15 @@
 {
 }
 
-+ (id);
++ (id)ReceiverPairingIdentity = %@;
 + (id)ÑUð1Â0@ù
 × ;
-- (id);
-- (unsigned int);
+- (id)onse version seems incorrect; have '%{public}@' but expecting '%{public}@';
+- (unsigned int)ew when view was already loaded.;
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)Us;
+- (_Bool)dg;
 - (_Bool);
 
 @end

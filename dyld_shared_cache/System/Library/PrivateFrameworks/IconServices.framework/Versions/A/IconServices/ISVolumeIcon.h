@@ -12,31 +12,27 @@ __attribute__((visibility("hidden")))
 @interface ISVolumeIcon : ISConcreteIcon
 {
     unsigned int _typeCode;
-    NSString *_kextBundleIdentifier;
-    NSString *_kextIconName;
 }
 
-+ (id);
-+ (id);
-+ (unsigned int);
++ (id)kilopascals;
++ (id)kilojoules;
++ (unsigned int)/Versions/A/NaturalLanguage;
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)DolbyVision10p4;
 - (unsigned int);
 - (void);
-- (id);
-- (id);
+- (id)T@"CBFloatArray",R,V_nits;
+- (id)tem/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork;
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *kextBundleIdentifier; // @synthesize kextBundleIdentifier=_kextBundleIdentifier;
-@property(readonly) NSString *kextIconName; // @synthesize kextIconName=_kextIconName;
-@property(readonly) unsigned int typeCode; // @synthesize typeCode=_typeCode;
 
 @end
 

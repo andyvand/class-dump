@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)geLabel;
 - (void)tMessage";
 
 // Remaining properties

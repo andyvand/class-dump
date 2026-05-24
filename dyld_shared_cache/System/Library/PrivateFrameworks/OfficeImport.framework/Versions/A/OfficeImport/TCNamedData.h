@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface TCNamedData
 {
     NSData *mData;
-    NSString *mName;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)ez;
 - (id);
 - (void)THB;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=mData;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=mName;
 
 @end
 

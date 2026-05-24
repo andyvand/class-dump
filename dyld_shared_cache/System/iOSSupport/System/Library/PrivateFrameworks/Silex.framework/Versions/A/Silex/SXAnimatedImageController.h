@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentView, SXImageView, SXViewport;
-
 @interface SXAnimatedImageController
 {
     _Bool _isReceivingViewportChanges;
-    SXViewport *_viewport;
-    SXImageView *_imageView;
-    double _previousYOffset;
-    SXComponentView *_componentView;
 }
 
 - (void);
 - (void)SXExperiment"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

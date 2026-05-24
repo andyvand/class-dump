@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)_supportsHH2;
 @end
 

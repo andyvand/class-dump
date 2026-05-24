@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSMapTable, NSMutableArray, NSString;
+@class NSDictionary, NSString;
 
 @interface _IDSAccount
 {
     NSDictionary *_accountConfig;
-    NSString *_serviceToken;
-    NSString *_uniqueID;
-    NSString *_service;
-    NSMutableArray *_devices;
-    NSMutableArray *_suppressedDevices;
-    id _delegateContext;
-    NSMapTable *_delegateToInfo;
-    NSMapTable *_registrationDelegateToInfo;
-    _Bool _devicesLoaded;
-    _Bool _isEnabled;
-    NSString *_loginID;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
+- (void)~;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)*;
 - (int);
 - (void);
 - (void);
@@ -49,23 +38,24 @@
 - (id);
 - (id);
 - (id);
+- (void)initWithFormat:(id)arg1 arguments:(id)arg2;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)5;
 - (int);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)44;
+- (void)setAutoAnswerCalls: /* Error: Ran out of types for this method. */;
+- (void)BluetoothHCILEReadWhiteListSize:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)postNotificationName:(id)arg1 object:userInfo: /* Error: Ran out of types for this method. */;
+- (void)DirectWiredCodingKeys;
+- (id)rt it.
+;
+- (id)DeviceSetupSessioniOS _run]_block_invoke;
+- (_Bool)SiriTraining;
 - (void);
 - (_Bool);
 - (void);
@@ -83,20 +73,20 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)te:(id)arg1 previousNetworkConnectionState:(id)arg2 currentNetworkConnectionState:duration: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1 %d localInterfaceIndex should not be 0 with valid localAddress;
+- (void)ry/BuildRoots/4~COdyugBUyZEJ-k16sBj1A0ZEirDhV4TOzEpeqeU/Library/Caches/com.apple.xbs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDSFoundation/IDSSocketPairMessage.m;
+- (void)data; starting connection and sending;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)gnostic_signals;
+- (_Bool)ldcard_subscription;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -112,83 +102,32 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool)e:withCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)upUUID;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)statusOfUsersOnService:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)groupUUID;
 - (int),&,N,V_applicationToVerificationInfoProviders;
 - (id)nd no connection;
 - (void)DelegatesRespondingToSelector:withPreCallbacksBlock:callbackBlock:postCallbacksBlock:group:] /* Error: Ran out of types for this method. */;
-- (id);
+- (id)IDSSendMessageOptionForceLocalDelivery;
 - (void)y;
 
 // Remaining properties
-@property(nonatomic, setter=_setIsEnabled:) _Bool _isEnabled;
-@property(retain, nonatomic) NSDictionary *accountInfo;
-@property(readonly, nonatomic) __weak NSArray *accountRegisteredURIs;
-@property(readonly, nonatomic) int accountType;
-@property(readonly, nonatomic) NSArray *aliasStrings;
-@property(readonly, nonatomic) NSArray *aliases;
-@property(readonly, nonatomic) NSArray *aliasesToRegister;
-@property(readonly, nonatomic) _Bool canSend;
-@property(readonly, nonatomic) NSArray *connectedDevices;
-@property(readonly, nonatomic) __weak NSDate *dateRegistered;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *devices;
-@property(retain, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSArray *handles;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isFirstGDRAllowlistedAccount;
-@property(readonly, nonatomic) _Bool isInTransientRegistrationState;
-@property(readonly, nonatomic) _Bool isTransientAllowlistedAccount;
-@property(readonly, nonatomic) _Bool isUsableForOuterMessaging;
-@property(readonly, nonatomic) _Bool isUserDisabled;
-@property(readonly, nonatomic) __weak NSDate *lastGDRDate;
-@property(retain, nonatomic) NSString *loginID; // @synthesize loginID=_loginID;
-@property(readonly, nonatomic) NSArray *nearbyDevices;
-@property(readonly, nonatomic) __weak NSDate *nextRegistrationDate;
-@property(readonly, nonatomic) NSString *primaryServiceName;
-@property(readonly, nonatomic) __weak NSString *profileID;
-@property(readonly, nonatomic) NSDictionary *profileInfo;
-@property(readonly, nonatomic) int profileValidationErrorReason;
-@property(readonly, nonatomic) long long profileValidationStatus;
-@property(readonly, nonatomic) NSDictionary *pseudonymURIMap;
-@property(readonly, nonatomic) NSArray *pseudonyms;
-@property(readonly, nonatomic) __weak NSData *pushToken;
-@property(readonly, nonatomic) NSString *pushTopic;
-@property(retain, nonatomic) NSString *regionBasePhoneNumber;
-@property(retain, nonatomic) NSString *regionID;
-@property(readonly, nonatomic) __weak NSDictionary *regionServerContext;
-@property(readonly, nonatomic) __weak NSArray *registeredURIs;
-@property(readonly, nonatomic) NSDictionary *registrationAlertInfo;
-@property(readonly, nonatomic) __weak NSData *registrationCertificate;
-@property(readonly, nonatomic) int registrationError;
-@property(readonly, nonatomic) int registrationStatus;
-@property(readonly, nonatomic) NSString *serviceName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *suppressedDevices;
 @property(readonly, nonatomic) NSString *uniqueID;
-@property(readonly, nonatomic) NSString *userUniqueIdentifier;
-@property(readonly, nonatomic) NSArray *vettedAliases;
 
 @end
 

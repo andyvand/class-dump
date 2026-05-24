@@ -6,14 +6,11 @@
 
 #import <CalendarUIKit/CUIKDescriptionGenerator.h>
 
-@class NSDateFormatter, NSNumberFormatter;
+@class NSNumberFormatter;
 
 @interface CUIKNotificationDescriptionGenerator : CUIKDescriptionGenerator
 {
     NSNumberFormatter *_numberFormatter;
-    NSDateFormatter *_dateFormatter;
-    NSDateFormatter *_timeFormatter;
-    NSDateFormatter *_dateTimeFormatter;
 }
 
 + (id);
@@ -31,8 +28,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ateFormatFromTemplate: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setLocalizedDateFormatFromTemplate: /* Error: Ran out of types for this method. */;
 
 @end
 

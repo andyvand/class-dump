@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)accessibilitySubrole;
 + (id);
 + (id);
 + (id);

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_newIndexPath;
 }
 
+- (id)_maxLines;
 - (id);
-- (id);
-- (id);
-- (id)STRUCTION;
+- (id)searchButtonItem;
+- (id)ATV_DICTATION_SPELLING_INSTRUCTION;
 - (void)ûc;
 
 @end

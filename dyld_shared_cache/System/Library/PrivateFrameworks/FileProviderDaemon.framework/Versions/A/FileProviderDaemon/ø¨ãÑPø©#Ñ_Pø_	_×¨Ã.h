@@ -9,31 +9,12 @@
     id ªâªñªéò1	?×hÊCù@ù@ùàªáªôªâªåP`Ê¹àª×@øáªñªàòñ
 ?×øªz¾Cù[@ø`bCùt&Dùáªñªàòq?×`¢Cùáªñªàòq?×àªáªñªàòñ
 ?×àªáª{2ùñªàòq?×w2Dù|¦CùyÞCù{BCùhÊF¹Hõ6wÂBùàªáªt:DùâªhòCùi>Cù(	?×àª!;
-    id Ð10@ù
-?×é;
-    id àªaDùÄûÿvÆCùèª	BøAwBùàªâªñªéò1	?×hÊCù@ù@ùàªáªôªâªåP`Ê¹àª×@øáªñªàòñ
-?×øªz¾Cù[@ø`bCùt&Dùáªñªàòq?×`¢Cùáªñªàòq?×àªáªñªàòñ
-?×àªáª{2ùñªàòq?×w2Dù|¦CùyÞCù{BCùhÊF¹Hõ6wÂBùàªáªt:DùâªhòCùi>Cù(	?×àª!;
-    id i2ù?;
-    id @ù
-?×é;
-    id °10@ù
-?×é;
-    id ;
-    long long nâ;
-    id ;
-    id 8ÔpÞùðªñ	ªñÇåò0ÁÚ"@ùéª±ð10@ù
-?×é;
-    id ×é;
 }
 
 
 // Remaining properties
 // Error: Property attributes should begin with the type ('T') attribute, property name: ø7
 // Property attributes: ªáªñ	ªàò	?×Ê
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: 	@øªÑ@PøªC
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneTransitionContext, FBScene, FUApplication;
+@class FBScene, FUApplication;
 
 @interface FUApplicationSceneClientSettingsDiffInspector
 {
     FUApplication *_app;
     FBScene *_scene;
-    FBSSceneTransitionContext *_transitionContext;
-    _Bool _preventPreferredSettingCallout;
-    _Bool _preventDisplayConfigCallout;
 }
 
+- (void)xa$z;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void){;
+- (void)<|;
 - (void);
 - (void);
 

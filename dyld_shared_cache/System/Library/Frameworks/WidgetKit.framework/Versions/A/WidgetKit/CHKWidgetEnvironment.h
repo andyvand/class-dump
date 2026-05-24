@@ -9,23 +9,19 @@
 @interface CHKWidgetEnvironment
 {
     id encodePubliclyFor3rdParty;
-    id codableArchiveVersion;
-    id tuples;
-    id _sortedValuesCache;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (long long);
 - (_Bool);
-- (void);
+- (void)nd:(id)arg1 vo2MaxUpperBound: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

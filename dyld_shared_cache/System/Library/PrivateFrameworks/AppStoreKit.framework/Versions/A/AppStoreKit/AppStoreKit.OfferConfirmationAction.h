@@ -9,8 +9,6 @@
 @interface AppStoreKit.OfferConfirmationAction : AppStoreKit.Action
 {
     id buyAction;
-    id confirmationInitiationAction;
-    id confirmationAccessibilityAction;
 }
 
 @end

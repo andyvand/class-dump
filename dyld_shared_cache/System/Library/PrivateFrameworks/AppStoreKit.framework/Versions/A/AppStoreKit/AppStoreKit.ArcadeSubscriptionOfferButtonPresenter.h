@@ -7,21 +7,9 @@
 @interface AppStoreKit.ArcadeSubscriptionOfferButtonPresenter
 {
     id view;
-    id buttonAction;
-    id subscribedButtonAction;
-    id appStoreInstallStateMonitor;
-    id offerDisplayProperties;
-    id theme;
-    id alignment;
-    id subtitlePosition;
-    id arcadeSubscriptionManager;
-    id restrictions;
-    id currentSubscriptionState;
-    id appStateMachine;
-    id arePreordersCancellable;
 }
 
-- (void);
+- (void)o;
 
 @end
 

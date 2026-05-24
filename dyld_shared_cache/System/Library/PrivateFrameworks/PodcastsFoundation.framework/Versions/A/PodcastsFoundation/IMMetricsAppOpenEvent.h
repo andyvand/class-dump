@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *referringAppName;
-@property(retain, nonatomic) NSString *referringURL;
 
 @end
 

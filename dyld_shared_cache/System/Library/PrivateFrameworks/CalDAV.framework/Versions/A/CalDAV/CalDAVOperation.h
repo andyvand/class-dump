@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
 @protocol CalDAVPrincipal;
 
 @interface CalDAVOperation
 {
     _Bool _isCancellingTaskGroups;
-    id <CalDAVPrincipal> _principal;
-    NSMutableSet *_outstandingTaskGroups;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *outstandingTaskGroups; // @synthesize outstandingTaskGroups=_outstandingTaskGroups;
 @property(retain, nonatomic) id <CalDAVPrincipal> principal; // @synthesize principal=_principal;
 
 @end

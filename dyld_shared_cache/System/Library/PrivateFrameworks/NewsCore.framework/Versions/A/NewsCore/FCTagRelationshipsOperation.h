@@ -6,15 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCTagRelationships;
-@protocol FCContentContext, FCTagProviding;
+@protocol FCContentContext;
 
 @interface FCTagRelationshipsOperation : FCOperation
 {
     CDUnknownBlockType _completionHandler;
-    id <FCContentContext> _context;
-    id <FCTagProviding> _tag;
-    FCTagRelationships *_resultTagRelationships;
 }
 
 - (void);
@@ -23,16 +19,13 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)ded:(CDUnknownBlockType)arg1 delegate: /* Error: Ran out of types for this method. */;
-- (void)lisherDiversificationInitialPenalty;
-- (void)s;
-- (void)wD1hTkaS7BRVCjJ5IQ;
+- (void)initWithContext:(CDUnknownBlockType)arg1 urgency:suspended:delegate: /* Error: Ran out of types for this method. */;
+- (void)publisherDiversificationInitialPenalty;
+- (void)todayWidgetForYouMaxAIGArticles;
+- (void)TydBawD1hTkaS7BRVCjJ5IQ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, copy, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) FCTagRelationships *resultTagRelationships; // @synthesize resultTagRelationships=_resultTagRelationships;
-@property(readonly, copy, nonatomic) id <FCTagProviding> tag; // @synthesize tag=_tag;
 
 @end
 

@@ -7,26 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerManager
 {
     id delegate;
-    id reuseDelegate;
-    id offscreenVisibility;
-    id partialVisibility;
-    id onscreenVisibility;
-    id playerViewController;
-    id pictureInPictureState;
-    id offlineManager;
-    id visibilityPercentage;
-    id isBookmarkInProgress;
-    id isViewTransitionInProcess;
-    id cover;
-    id cacheKey;
-    id data;
-    id videoAdProviderFactory;
-    id coordinator;
-    id commandCenter;
-    id adJournal;
-    id sceneProvider;
-    id offlineAlertControllerFactory;
-    id restrictionManager;
 }
 
 - (void);
@@ -38,9 +18,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

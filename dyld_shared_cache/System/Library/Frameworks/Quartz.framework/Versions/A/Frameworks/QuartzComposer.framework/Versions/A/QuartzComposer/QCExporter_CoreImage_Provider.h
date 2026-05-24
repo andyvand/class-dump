@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAffineTransform, NSDictionary, QCImageManager, QCPixelFormat;
 @protocol QCImageProvider;
 
 @interface QCExporter_CoreImage_Provider
 {
     id <QCImageProvider> _provider;
-    QCImageManager *_manager;
-    QCPixelFormat *_format;
-    NSAffineTransform *_transformation;
-    struct CGRect _bounds;
-    struct CGColorSpace *_colorSpace;
-    NSDictionary *_options;
 }
 
-- (unsigned int);
+- (unsigned int)R9h;
 - (id);
 - (void);
 - (void);

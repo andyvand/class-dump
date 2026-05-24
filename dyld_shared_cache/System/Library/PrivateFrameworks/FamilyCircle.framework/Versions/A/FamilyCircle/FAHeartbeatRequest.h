@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)server INVITE transaction;
 
 @end
 

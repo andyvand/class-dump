@@ -7,7 +7,6 @@
 @interface ICDidMoveToWindowSpy
 {
     id _owner;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -16,10 +15,9 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void)gStyleFontSizeThreshold;
+- (void)_headingStyleFontSizeThreshold;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) __weak id owner; // @synthesize owner=_owner;
 
 @end

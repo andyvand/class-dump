@@ -6,25 +6,11 @@
 
 #import <Email/EMQueryingCollection.h>
 
-@class EFFuture, EFLazyCache, EFLocked, EMCollectionItemIDStateCapturer, EMMailboxScope, EMMessageRepository, EMObjectID, EMThreadScope, NSDictionary, NSMapTable, NSMutableDictionary, NSObject, NSPredicate, NSSet, NSString;
-@protocol EFScheduler, OS_dispatch_queue;
+@class EMMessageRepository, NSMutableDictionary;
 
 @interface EMMessageList : EMQueryingCollection
 {
     NSMutableDictionary *_expandedThreads;
-    NSMapTable *_messageListItemsForRetry;
-    struct os_unfair_lock_s _expandedThreadsLock;
-    EMMailboxScope *_mailboxScope;
-    EMThreadScope *_threadScope;
-    EFLazyCache *_cache;
-    id <EFScheduler> _observerScheduler;
-    NSObject<OS_dispatch_queue> *_contentProtectionQueue;
-    EMMessageList *_unfilteredMessageList;
-    NSSet *_recentlyCollapsedItemIDs;
-    NSPredicate *_filterPredicate;
-    EMCollectionItemIDStateCapturer *_stateCapturer;
-    EFLocked *_itemIDSections;
-    NSDictionary *_topHitsSnippetHintsByGlobalMessageID;
 }
 
 + (id);
@@ -39,46 +25,46 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (void);
+- (void)HMDHomeManager;
+- (void);
+- (void)AccessoryInfoFetchController;
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)io',;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)0;
 - (void);
+- (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,39 +79,39 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ChangeTokenPayloadSerializer;
+- (unsigned long long)PresencePayloadStateSyncPayload;
 - (id);
 - (id);
 - (id);
+- (id)NETWORK_CONNECTION_TYPE_UNSPECIFIED;
+- (id);
+- (id);
+- (void);
+- (id)|	;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)2;
+- (void);
+- (void)TaskExpirationInfo;
+- (id);
+- (void)UMUserManager;
+- (void);
+- (void);
+- (id);
+- (id)5B;
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)n;
 - (id);
 - (id);
 - (id);
@@ -138,35 +124,7 @@
 %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) EFFuture *allItemIDs;
-@property(readonly, nonatomic) EFLazyCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *contentProtectionQueue; // @synthesize contentProtectionQueue=_contentProtectionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy) NSSet *expandedThreadItemIDs;
-@property(copy, nonatomic) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property(readonly, nonatomic) _Bool hasSectionPredicates;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isThreaded;
-@property(readonly, nonatomic) EFLocked *itemIDSections; // @synthesize itemIDSections=_itemIDSections;
-@property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
-@property(readonly, copy, nonatomic) EMObjectID *objectID;
-@property(readonly, nonatomic) id <EFScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
-@property(retain, nonatomic) NSSet *recentlyCollapsedItemIDs; // @synthesize recentlyCollapsedItemIDs=_recentlyCollapsedItemIDs;
 @property(readonly, nonatomic) EMMessageRepository *repository;
-@property(readonly, nonatomic) EMCollectionItemIDStateCapturer *stateCapturer; // @synthesize stateCapturer=_stateCapturer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
-@property(copy, nonatomic) NSDictionary *topHitsSnippetHintsByGlobalMessageID; // @synthesize topHitsSnippetHintsByGlobalMessageID=_topHitsSnippetHintsByGlobalMessageID;
-@property(retain, nonatomic) EMMessageList *unfilteredMessageList; // @synthesize unfilteredMessageList=_unfilteredMessageList;
 
 @end
 

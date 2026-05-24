@@ -6,26 +6,9 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSArray, QCPixelFormat, QCRegion;
-
 @interface QCProvider_CoreGraphics : QCImageProvider
 {
     void *_source;
-    unsigned long long _index;
-    struct CGRect _bounds;
-    QCRegion *_domainOfDefinition;
-    struct CGColorSpace *_colorSpace;
-    _Bool _hasAlpha;
-    QCPixelFormat *_pixelFormat;
-    struct CGAffineTransform _transform;
-    NSArray *_pixelFormats;
-    CDStruct_bdcb2b0d _md5;
-    double _imageWidth;
-    double _imageHeight;
-    struct CGImage *_cachedImage;
-    struct _opaque_pthread_mutex_t _mutex;
-    struct CGColor *_backgroundColor;
-    struct __CFDictionary *_properties;
 }
 
 + (_Bool);
@@ -36,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (id);
 - (id);
 - (id);
@@ -51,7 +34,7 @@
 - (struct CGColorSpace *);
 - (id);
 - (void);
-- (id);
+- (id)isAnnotationType:(id)arg1;
 - (struct __CFDictionary *);
 
 @end

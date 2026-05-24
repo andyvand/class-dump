@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (void);
+- (void)ijh8);
 - (void);
 - (void);
 - (void);

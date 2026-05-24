@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WDTableCellProperties, WDTableRow, WDText;
+@class WDTableRow;
 
 __attribute__((visibility("hidden")))
 @interface WDTableCell
 {
     unsigned long long mIndex;
-    WDTableCellProperties *mProperties;
-    WDText *mText;
-    NSString *mIdentifier;
-    _Bool mUseTrackedProperties;
-    WDTableRow *mRow;
 }
 
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
+- (id)_candidateListTouchBarItem;
 - (id);
+- (id)CNBackgroundStackView;
 - (id);
+- (void)ze=dd}24@"_UNMachSendRight"40;
 - (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)v2;
 - (void)%@ error:%zd %{public}@ %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

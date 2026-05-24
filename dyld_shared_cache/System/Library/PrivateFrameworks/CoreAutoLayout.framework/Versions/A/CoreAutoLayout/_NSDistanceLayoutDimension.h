@@ -11,7 +11,6 @@
 @interface _NSDistanceLayoutDimension : NSLayoutDimension
 {
     NSLayoutAnchor *_minuend;
-    NSLayoutAnchor *_subtrahend;
 }
 
 + (id);
@@ -19,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
-- (void);
-- (id);
-- (void);
+- (void)MLOptimizationHints;
+- (id)H;
+- (void)_invitationToken;
 
 // Remaining properties
 @property(readonly) NSArray *_childAnchors;

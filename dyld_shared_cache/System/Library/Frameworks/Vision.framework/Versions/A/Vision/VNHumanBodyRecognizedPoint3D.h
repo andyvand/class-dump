@@ -11,22 +11,20 @@
 @interface VNHumanBodyRecognizedPoint3D : VNRecognizedPoint3D
 {
     NSString *_parentJoint;
-    CDStruct_95fa7c00 _localPosition;
 }
 
 + (_Bool);
 - (id);
 - (CDStruct_95fa7c00);
 - (id);
-- (id);
+- (id)enumeratorAtURL:(id)arg1 includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)knee;
+- (void)animal_joint_left_back_knee;
 
 // Remaining properties
 @property(readonly) CDStruct_95fa7c00 localPosition; // @synthesize localPosition=_localPosition;
-@property(readonly) NSString *parentJoint; // @synthesize parentJoint=_parentJoint;
 
 @end
 

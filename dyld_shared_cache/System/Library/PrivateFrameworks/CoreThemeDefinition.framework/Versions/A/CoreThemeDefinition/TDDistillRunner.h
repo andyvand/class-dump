@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TDDistiller, TDLogger;
+@class NSURL;
 
 @interface TDDistillRunner
 {
     _Bool _packDocument;
-    TDDistiller *_distiller;
-    NSURL *_carScratchURL;
-    NSURL *_outputURL;
-    TDLogger *_logger;
-    NSString *_assetStoreVersionString;
-    long long _assetStoreVersionNumber;
-    NSString *_minDeploymentTarget;
 }
 
 - (void);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -39,12 +32,7 @@
 - (void)mã¬;
 
 // Remaining properties
-@property long long assetStoreVersionNumber; // @synthesize assetStoreVersionNumber=_assetStoreVersionNumber;
-@property(copy) NSString *assetStoreVersionString; // @synthesize assetStoreVersionString=_assetStoreVersionString;
-@property(retain, nonatomic) TDLogger *logger; // @synthesize logger=_logger;
-@property(nonatomic) NSString *minDeploymentTarget; // @synthesize minDeploymentTarget=_minDeploymentTarget;
 @property(copy, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(nonatomic) _Bool packImagesInDocument;
 
 @end
 

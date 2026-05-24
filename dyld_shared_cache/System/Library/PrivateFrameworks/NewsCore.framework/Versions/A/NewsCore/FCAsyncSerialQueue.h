@@ -11,26 +11,24 @@
     NSOperationQueue *_serialOperationQueue;
 }
 
+- (void)!;
+- (id);
+- (id);
+- (void)s;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool):contentHostDirectory:networkBehaviorMonitor:networkReachability:setupCustomURLProtocols:desiredHeadlineFieldOptions:feedUsage:assetKeyManagerDelegate:appActivityMonitor:backgroundTaskable:pptContext: /* Error: Ran out of types for this method. */;
+- (id)webProcessPlugInBrowserContextController:(long long)arg1 frame:didInitiateLoadForResource:request:pageIsProvisionallyLoading: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithConfiguration:configurationManager:contentDatabase:contentHostDirectory:networkBehaviorMonitor:networkReachability:setupCustomURLProtocols:desiredHeadlineFieldOptions:feedUsage:assetKeyManagerDelegate:appActivityMonitor:backgroundTaskable:pptContext: /* Error: Ran out of types for this method. */;
 - (void)NSData"8@"NSArray"16@"NSArray"24@"NSError"32;
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *serialOperationQueue; // @synthesize serialOperationQueue=_serialOperationQueue;
-@property(nonatomic) _Bool suspended;
-@property(readonly, nonatomic) NSOperationQueue *underlyingOperationQueue;
 
 @end
 

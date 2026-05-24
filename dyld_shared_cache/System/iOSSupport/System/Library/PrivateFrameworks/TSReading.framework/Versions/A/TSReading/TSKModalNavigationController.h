@@ -9,14 +9,12 @@
 @interface TSKModalNavigationController
 {
     UIView *mTopSeparator;
-    _Bool mShowTopSeparator;
-    _Bool mIsFullscreenViewController;
 }
 
-- (void);
+- (void)ayerController - Unable to perform any seek [no player item, no pre-setQueue item] - time:(_Bool)arg1;
 - (void);
 - (_Bool);
-- (long long);
+- (long long)FollowingTouchInsetsButton;
 - (_Bool);
 - (void);
 - (void);
@@ -25,7 +23,6 @@
 - (void)l *, TSTCellStyle *, TSTCellID);
 
 // Remaining properties
-@property(nonatomic) _Bool isFullscreenViewController; // @synthesize isFullscreenViewController=mIsFullscreenViewController;
 @property(nonatomic) _Bool showTopSeparator; // @synthesize showTopSeparator=mShowTopSeparator;
 
 @end

@@ -11,15 +11,12 @@
     CoreDAVItem *_supported;
 }
 
-+ (id);
++ (id)P;
+- (id)_roomResults;
 - (id);
-- (id);
-- (void);
-- (id)orted: /* Error: Ran out of types for this method. */;
-- (void)omaticRedirects;
-
-// Remaining properties
+- (void)g"8@"NSString"16^B24;
 @property(retain, nonatomic) CoreDAVItem *supported; // @synthesize supported=_supported;
+- (void)_allowAutomaticRedirects;
 
 @end
 

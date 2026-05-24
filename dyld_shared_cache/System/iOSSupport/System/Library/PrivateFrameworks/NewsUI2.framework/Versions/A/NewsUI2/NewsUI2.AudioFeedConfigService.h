@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioFeedConfigService
 {
     id decoder;
-    id contentContext;
-    id appConfigManager;
-    id audioFeedConfigManager;
 }
 
 @end

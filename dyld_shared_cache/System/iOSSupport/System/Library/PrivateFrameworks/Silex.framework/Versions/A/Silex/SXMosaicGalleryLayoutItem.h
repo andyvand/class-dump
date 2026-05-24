@@ -7,7 +7,6 @@
 @interface SXMosaicGalleryLayoutItem
 {
     int _tileType;
-    struct CGSize _dimensions;
 }
 
 - (int);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly, nonatomic) int tileType; // @synthesize tileType=_tileType;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AppKit.NSCGSScreenEDRProvider
 {
     id screenEDRUpdateObserver;
-    id _registeredForNotifications;
 }
 
 @end

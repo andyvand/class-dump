@@ -8,16 +8,6 @@
 {
     id logger;
     id text;
-    id searchTokens;
-    id tableView;
-    id delegate;
-    id lastSearchStartTime;
-    id tableViewReloadTask;
-    id $__lazy_storage_$_datasource;
-    id searchTask;
-    id searchControllers;
-    id searchControllersWithResults;
-    id searchCompleteControllerSet;
 }
 
 - (void);

@@ -6,25 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaConversationTrace, SISchemaDeviceFixedContext, SISchemaInstrumentationMessage, SISchemaServerEventMetadata, SISchemaServerGeneratedDismissal, SISchemaSpeechResultSelected, SISchemaTurnInteraction, SISchemaUserSpeechDuration;
+@class SISchemaInstrumentationMessage, SISchemaServerEventMetadata;
 
 @interface SISchemaServerEvent : SISchemaTopLevelUnionType
 {
     SISchemaServerEventMetadata *_eventMetadata;
-    SISchemaUserSpeechDuration *_userSpeechDuration;
-    SISchemaConversationTrace *_serverConversationTrace;
-    SISchemaTurnInteraction *_turnInteraction;
-    SISchemaSpeechResultSelected *_speechResultSelected;
-    SISchemaDeviceFixedContext *_serverDeviceFixedContext;
-    SISchemaServerGeneratedDismissal *_serverGeneratedDismissal;
-    _Bool _hasEventMetadata;
-    _Bool _hasUserSpeechDuration;
-    _Bool _hasServerConversationTrace;
-    _Bool _hasTurnInteraction;
-    _Bool _hasSpeechResultSelected;
-    _Bool _hasServerDeviceFixedContext;
-    _Bool _hasServerGeneratedDismissal;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -39,69 +25,53 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_isBackgroundUpdate;
+- (_Bool)/Contacts.framework/Contacts;
+- (_Bool)t.db;
 - (id);
 - (id);
 - (id)Ð!ìGù1à1Â0@ù
 × ;
-- (unsigned long long)FromSiri1Hr;
-- (id)OptInState;
-- (id)eCount;
-- (int)ionMetadata;
-- (void)D;
+- (unsigned long long)hasAppUsageCountFromSiri1Hr;
+- (id)deleteDataSharingOptInState;
+- (id)_firstPassFireSampleCount;
+- (int)PLUSSchemaPLUSSuggesterMediaSuggestionMetadata;
+- (void)MWTFORMATLAYOUT_LOGIC_5_1_D;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaServerEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasServerConversationTrace; // @synthesize hasServerConversationTrace=_hasServerConversationTrace;
-@property(nonatomic) _Bool hasServerDeviceFixedContext; // @synthesize hasServerDeviceFixedContext=_hasServerDeviceFixedContext;
-@property(nonatomic) _Bool hasServerGeneratedDismissal; // @synthesize hasServerGeneratedDismissal=_hasServerGeneratedDismissal;
-@property(nonatomic) _Bool hasSpeechResultSelected; // @synthesize hasSpeechResultSelected=_hasSpeechResultSelected;
-@property(nonatomic) _Bool hasTurnInteraction; // @synthesize hasTurnInteraction=_hasTurnInteraction;
-@property(nonatomic) _Bool hasUserSpeechDuration; // @synthesize hasUserSpeechDuration=_hasUserSpeechDuration;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaConversationTrace *serverConversationTrace; // @synthesize serverConversationTrace=_serverConversationTrace;
-@property(retain, nonatomic) SISchemaDeviceFixedContext *serverDeviceFixedContext; // @synthesize serverDeviceFixedContext=_serverDeviceFixedContext;
-@property(retain, nonatomic) SISchemaServerGeneratedDismissal *serverGeneratedDismissal; // @synthesize serverGeneratedDismissal=_serverGeneratedDismissal;
-@property(retain, nonatomic) SISchemaSpeechResultSelected *speechResultSelected; // @synthesize speechResultSelected=_speechResultSelected;
-@property(retain, nonatomic) SISchemaTurnInteraction *turnInteraction; // @synthesize turnInteraction=_turnInteraction;
-@property(retain, nonatomic) SISchemaUserSpeechDuration *userSpeechDuration; // @synthesize userSpeechDuration=_userSpeechDuration;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

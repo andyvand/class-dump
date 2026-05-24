@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface GEOComposedStringTokenReplacementOptions
 {
     _Bool requestAttributedString;
-    _Bool allowDefaults;
-    NSDictionary *formatStyleAttributes;
 }
 
 - (void)Û%;

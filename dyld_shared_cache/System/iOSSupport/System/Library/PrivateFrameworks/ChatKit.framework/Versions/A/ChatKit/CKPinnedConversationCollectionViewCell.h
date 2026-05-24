@@ -4,66 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversationListAccessoryView, CKPinnedConversationView, NSArray, NSObject;
-@protocol CKPinnedConversationCollectionViewCellDelegate;
+@class CKPinnedConversationView;
 
 @interface CKPinnedConversationCollectionViewCell
 {
     _Bool _showsBackgroundViewWhenSelected;
-    _Bool _allowActivitySuppressionWhenSelected;
-    _Bool _isShowingUnpinAccessory;
-    _Bool _isShowingCheckboxAccessory;
-    _Bool _isPreparingForReuse;
-    NSObject<CKPinnedConversationCollectionViewCellDelegate> *_delegate;
-    CKPinnedConversationView *_pinnedConversationView;
-    CKConversationListAccessoryView *_unpinAccessoryView;
-    NSArray *_linkInteractions;
-    unsigned long long _editingMode;
-    CKConversationListAccessoryView *_checkboxAccessoryView;
-    struct CGRect _cellFrameFromLayoutAttributes;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)setActivityIndicator: /* Error: Ran out of types for this method. */;
+- (void)removeCompletionHandler:cancelIfNoneLeft: /* Error: Ran out of types for this method. */;
+- (void)readWriteSharedSubObjectsInSource;
+- (struct CGRect)readOnlySharedSubObjectsInSource;
+- (id)readIntoBuffer:frameCount:error: /* Error: Ran out of types for this method. */;
+- (void)documentMergeController;
+- (void)eadingSelectionFromPasteboard:(_Bool)arg1;
+- (void)convertLinkToAttachmentSystemImageName;
+- (void)convertFont:(_Bool)arg1 toHaveTrait: /* Error: Ran out of types for this method. */;
+- (void)attributedStringWithMatchHighlighted:(id)arg1 textCheckingResult:highlightColor:insideFrame:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
+- (void)activityItems;
+- (void)ler:(_Bool)arg1;
+- (void)_webView:(_Bool)arg1 printFrame:pdfFirstPageSize:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_isPausingUndoActions;
+- (void)ge=QQ},N,V_beforeEndEditedRange;
+- (void)V_timelineSectionType;
+- (void)B,N,GisRemovedOnCompletion,V_removedOnCompletion;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (_Bool)hasBorder;
+- (_Bool)cachedRange;
+- (_Bool)text;
+- (_Bool)appBackgroundOccurred;
+- (unsigned long long)u;
+- (void)g;
+- (struct CGRect)c;
+- (id)s;
+- (struct CGRect)its thumbnail. Bailing out.;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (double)NPNotePreviewKeyPreview;
+- (void).;
+- (void)word.;
 - (void);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
-- (_Bool);
-- (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -73,23 +61,11 @@
 - (void);
 - (void);
 - (id);
-- (void)ipWithLanguages:(id)arg1;
+- (void)presentTranslationTipWithLanguages:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowActivitySuppressionWhenSelected; // @synthesize allowActivitySuppressionWhenSelected=_allowActivitySuppressionWhenSelected;
-@property(nonatomic) struct CGRect cellFrameFromLayoutAttributes; // @synthesize cellFrameFromLayoutAttributes=_cellFrameFromLayoutAttributes;
-@property(retain, nonatomic) CKConversationListAccessoryView *checkboxAccessoryView; // @synthesize checkboxAccessoryView=_checkboxAccessoryView;
-@property(nonatomic) __weak NSObject<CKPinnedConversationCollectionViewCellDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long editingMode; // @synthesize editingMode=_editingMode;
-@property(nonatomic, setter=setJittering:) _Bool isJittering;
-@property(nonatomic) _Bool isPreparingForReuse; // @synthesize isPreparingForReuse=_isPreparingForReuse;
-@property(nonatomic, setter=setShowingCheckboxAccessory:) _Bool isShowingCheckboxAccessory; // @synthesize isShowingCheckboxAccessory=_isShowingCheckboxAccessory;
-@property(nonatomic, setter=setShowingUnpinAccessory:) _Bool isShowingUnpinAccessory; // @synthesize isShowingUnpinAccessory=_isShowingUnpinAccessory;
-@property(retain, nonatomic) NSArray *linkInteractions; // @synthesize linkInteractions=_linkInteractions;
 @property(retain, nonatomic) CKPinnedConversationView *pinnedConversationView; // @synthesize pinnedConversationView=_pinnedConversationView;
-@property(nonatomic) _Bool showsBackgroundViewWhenSelected; // @synthesize showsBackgroundViewWhenSelected=_showsBackgroundViewWhenSelected;
-@property(retain, nonatomic) CKConversationListAccessoryView *unpinAccessoryView; // @synthesize unpinAccessoryView=_unpinAccessoryView;
 
 @end
 

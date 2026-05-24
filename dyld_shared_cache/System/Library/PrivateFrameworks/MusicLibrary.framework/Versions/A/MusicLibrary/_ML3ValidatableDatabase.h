@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ML3ValidatableDatabase
 {
     unsigned long long _queueID;
-    NSString *_databasePath;
-    unsigned long long _validationState;
-    NSObject<OS_dispatch_queue> *_validationSerialQueue;
 }
 
 - (void);
@@ -25,12 +21,10 @@ __attribute__((visibility("hidden")))
 - (void)re_playlist_id, adam_id = excluded.adam_id, universal_cloud_library_id = excluded.universal_cloud_library_id, purchased_adam_id = excluded.purchased_adam_id, subscription_adam_id = excluded.subscription_adam_id, reporting_adam_id = excluded.reporting_adam_id, asset_adam_id = excluded.asset_adam_id, is_library_add_eligible = excluded.is_library_add_eligible, is_store_redownloadable = excluded.is_store_redownloadable, is_mastered_for_itunes = excluded.is_mastered_for_itunes, match_redownload_params = excluded.match_redownload_params, purchase_history_redownload_params = excluded.purchase_history_redownload_params, playback_endpoint_type = excluded.playback_endpoint_type, is_protected = excluded.is_protected; END;;
 - (id)e_location_id) WHERE path = 'Podcasts');
 - (void);
-- (id)L3ProtoSyncContainerTrackItemImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
+- (id)NSt3__120__shared_ptr_pointerIP40ML3ProtoSyncContainerTrackItemImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *validationSerialQueue; // @synthesize validationSerialQueue=_validationSerialQueue;
-@property(nonatomic) unsigned long long validationState; // @synthesize validationState=_validationState;
 
 @end
 

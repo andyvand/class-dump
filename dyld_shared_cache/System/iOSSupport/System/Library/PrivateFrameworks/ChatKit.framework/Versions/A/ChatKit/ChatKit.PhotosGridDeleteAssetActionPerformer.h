@@ -9,12 +9,12 @@
 }
 
 + (id);
-+ (id);
++ (id)"NSString"8;
 + (_Bool);
 + (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)t addInlineAttachment because mentionsAttachment is nil;
+- (void)note;
 - (id);
 
 // Remaining properties

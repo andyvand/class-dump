@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
-- (id);
++ (unsigned int)%s.;
+- (id);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)AMSSQLiteSchema;
 
 // Remaining properties
 @property(readonly) unsigned int chipEpoch; // @synthesize chipEpoch=_chipEpoch;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt32Int32Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -23,15 +22,15 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)|;
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)ngGrr;
+- (void)SiriUnderstandingGrr;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

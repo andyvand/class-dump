@@ -7,7 +7,6 @@
 @interface NewsAds.InterstitialAdProvider
 {
     id contextWrapper;
-    id $__lazy_storage_$_debugAdProvider;
 }
 
 @end

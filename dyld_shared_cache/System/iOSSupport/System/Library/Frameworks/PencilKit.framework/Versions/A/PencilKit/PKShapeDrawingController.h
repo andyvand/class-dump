@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognizer, NSUUID, PKAveragePointGenerator, PKShape, PKStrokeRenderMask;
-@protocol PKShapeDrawingControllerDelegate;
+@class PKStrokeRenderMask;
 
 @interface PKShapeDrawingController
 {
     struct vector<ClipperLib::IntPoint, std::allocator<ClipperLib::IntPoint>> _currentStrokePoints;
-    struct CGRect _currentStrokeBounds;
-    _Bool _closedShapeDetected;
-    _Bool _stopGestureDetected;
-    _Bool _hasDetected;
-    _Bool _shouldDetect;
-    struct vector<TimestampedPoint, std::allocator<TimestampedPoint>> _timestampedPoints;
-    struct vector<TimestampedAngles, std::allocator<TimestampedAngles>> _timestampedAngles;
-    PKAveragePointGenerator *_averageInputPointGenerator;
-    unsigned long long _numInputPoints;
-    double _strokeStartTime;
-    double _latestAddedPointTime;
-    double _strokeDuration;
-    double _minimumRecognitionDelay;
-    double _maximumRecognitionDelay;
-    double _maximumFastRecognitionDelay;
-    double _previousRecognitionTimestamp;
-    _Bool _smartFillEnabled;
-    _Bool _shapeRecognitionOn;
-    _Bool _fastDetectionEnabled;
-    _Bool _fastDetectionAllowedForInkAndInputType;
-    id <PKShapeDrawingControllerDelegate> _delegate;
-    PKShape *_detectedShape;
-    PKStrokeRenderMask *_smartFillRenderMask;
-    NSUUID *_smartFillGroupID;
-    CHRecognizer *_shapeRecognizer;
 }
 
 + (_Bool);
@@ -98,9 +72,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
@@ -116,18 +90,6 @@
 - (void)oints;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) CDStruct_4cc01785 averageInputPoint;
-@property(nonatomic) __weak id <PKShapeDrawingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) PKShape *detectedShape; // @synthesize detectedShape=_detectedShape;
-@property(nonatomic, getter=isFastDetectionAllowedForInkAndInputType) _Bool fastDetectionAllowedForInkAndInputType; // @synthesize fastDetectionAllowedForInkAndInputType=_fastDetectionAllowedForInkAndInputType;
-@property(nonatomic, getter=isFastDetectionEnabled) _Bool fastDetectionEnabled; // @synthesize fastDetectionEnabled=_fastDetectionEnabled;
-@property(readonly, nonatomic, getter=isRecordingStroke) _Bool recordingStroke;
-@property(nonatomic, getter=isShapeRecognitionOn) _Bool shapeRecognitionOn; // @synthesize shapeRecognitionOn=_shapeRecognitionOn;
-@property(retain, nonatomic) CHRecognizer *shapeRecognizer; // @synthesize shapeRecognizer=_shapeRecognizer;
-@property(readonly, nonatomic, getter=isSmartFillActive) _Bool smartFillActive;
-@property(nonatomic, getter=isSmartFillEnabled) _Bool smartFillEnabled; // @synthesize smartFillEnabled=_smartFillEnabled;
-@property(retain, nonatomic) NSUUID *smartFillGroupID; // @synthesize smartFillGroupID=_smartFillGroupID;
 @property(retain, nonatomic) PKStrokeRenderMask *smartFillRenderMask; // @synthesize smartFillRenderMask=_smartFillRenderMask;
 
 @end

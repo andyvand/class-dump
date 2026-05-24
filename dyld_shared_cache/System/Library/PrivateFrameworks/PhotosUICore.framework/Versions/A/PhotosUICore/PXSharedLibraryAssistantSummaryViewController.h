@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSProgress, NSString, PXLibraryFilterState, PXSharedLibraryAssistantViewModel, PXSharedLibraryStatusProvider;
-@protocol PXAssistantViewControllerDelegate;
+@class NSProgress, PXSharedLibraryAssistantViewModel;
 
 @interface PXSharedLibraryAssistantSummaryViewController : PXAssistantTemplateViewController
 {
     PXSharedLibraryAssistantViewModel *_viewModel;
-    PXSharedLibraryStatusProvider *_statusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    NSProgress *_previewProgress;
 }
 
 - (void);
@@ -30,29 +26,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)llVelocity;
+- (void)smallestSignificantScrollVelocity;
 - (id)XRejectMemoriesAction setRejectReason:] /* Error: Ran out of types for this method. */;
 - (void)Çª;
 - (id)¬ôQTà;;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
 @property(retain, nonatomic) NSProgress *previewProgress; // @synthesize previewProgress=_previewProgress;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

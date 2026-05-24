@@ -9,32 +9,27 @@
 @interface PDSProtoUserPushTokenRegResponse
 {
     NSString *_message;
-    int _status;
-    PDSProtoUserPushToken *_userPushToken;
 }
 
+- (id)ates to Failed.;
+- (void)ivatives for %ld photos took %.2f seconds, or %.2f per photo.;
+- (_Bool)twoFourGHzDeniedChannelCount;
+- (void);
 - (id);
+- (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)SSecureCoding>",R,N;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMessage;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) int status; // @synthesize status=_status;
 @property(retain, nonatomic) PDSProtoUserPushToken *userPushToken; // @synthesize userPushToken=_userPushToken;
 
 @end

@@ -9,21 +9,18 @@
 @interface ICCalculatePreviewBehaviorMenu
 {
     void note;
-    _Bool isMathEnabled;
-    id allBehaviors;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)ing: /* Error: Ran out of types for this method. */;
+- (void)control:textShouldBeginEditing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isMathEnabled; // @synthesize isMathEnabled;
 @property(nonatomic) __weak ICNote *note; // @synthesize note;
 
 @end

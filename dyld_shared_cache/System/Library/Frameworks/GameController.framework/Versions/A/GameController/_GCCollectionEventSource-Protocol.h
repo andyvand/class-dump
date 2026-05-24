@@ -5,5 +5,6 @@
 //
 
 @protocol _GCCollectionEventSource
+- (id);
 @end
 

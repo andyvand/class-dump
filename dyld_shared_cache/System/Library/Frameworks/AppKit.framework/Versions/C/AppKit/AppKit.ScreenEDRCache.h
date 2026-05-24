@@ -7,8 +7,6 @@
 @interface AppKit.ScreenEDRCache
 {
     id _provider;
-    id _state;
-    id _clientWantsUpdates;
 }
 
 @end

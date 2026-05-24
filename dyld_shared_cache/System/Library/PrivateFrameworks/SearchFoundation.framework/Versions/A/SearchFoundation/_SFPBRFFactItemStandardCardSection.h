@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFFactItemStandardCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    _SFPBRFTextProperty *_text_3;
-    NSArray *_text_4s;
-    NSArray *_text_5s;
-    _SFPBRFVisualProperty *_thumbnail;
-    _SFPBRFVisualProperty *_thumbnail2;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -26,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,36 +32,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)set environment variable "PDFKIT_LOG_ANNOTATIONS" to any value.;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)queryForCuratedAssetsInMomentShare:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)d, PHSearchResults:%tu, Top Assets:%tu, Query Embedding:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)p;
 - (void)ection";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3; // @synthesize text_3=_text_3;
-@property(copy, nonatomic) NSArray *text_4s; // @synthesize text_4s=_text_4s;
-@property(copy, nonatomic) NSArray *text_5s; // @synthesize text_5s=_text_5s;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail2; // @synthesize thumbnail2=_thumbnail2;
 
 @end
 

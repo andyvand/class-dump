@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCardSection, _SFPBRFAttribution, _SFPBRFVisualProperty;
+@class _SFPBRFAttribution;
 
 @interface _SFPBRFAttributionSource
 {
     _SFPBRFAttribution *_attribution;
-    _SFPBCardSection *_card_section;
-    _SFPBRFVisualProperty *_thumbnail;
-    NSString *_text_1;
-    unsigned long long _whichSource;
 }
 
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (id)ng;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (_Bool));
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)ers:(id)arg1;
+- (id)' (%@);
 - (id);
 - (id);
 - (id);
@@ -37,18 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBRFAttribution *attribution; // @synthesize attribution=_attribution;
-@property(retain, nonatomic) _SFPBCardSection *card_section; // @synthesize card_section=_card_section;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(readonly, nonatomic) unsigned long long whichSource; // @synthesize whichSource=_whichSource;
 
 @end
 

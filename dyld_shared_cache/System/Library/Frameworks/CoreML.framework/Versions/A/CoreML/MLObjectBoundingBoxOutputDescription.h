@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MLObjectBoundingBoxOutputDescription
 {
     int _format;
-    NSString *_confidenceFeatureName;
-    NSString *_coordinatesFeatureName;
-    NSArray *_labelNames;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)WorkgroupMaxSizeFnAttr;
+- (void)sourceAlphaBlendFactor;
+- (void)indexBufferIndex;
+- (id)>;
+- (id);
 - (id);
-- (id);
-- (id);
-- (int);
+- (int);
 - (void)er:Step can't be less than 1 /* Error: Ran out of types for this method. */;
 - (void)C&;
 
 // Remaining properties
-@property(retain) NSString *confidenceFeatureName; // @synthesize confidenceFeatureName=_confidenceFeatureName;
-@property(retain) NSString *coordinatesFeatureName; // @synthesize coordinatesFeatureName=_coordinatesFeatureName;
 @property int format; // @synthesize format=_format;
-@property(retain) NSArray *labelNames; // @synthesize labelNames=_labelNames;
 
 @end
 

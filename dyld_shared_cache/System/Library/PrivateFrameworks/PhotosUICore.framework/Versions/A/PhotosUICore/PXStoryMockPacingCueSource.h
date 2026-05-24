@@ -10,9 +10,6 @@
 @interface PXStoryMockPacingCueSource
 {
     id <PXAudioCueSource> _audioCueSource;
-    NSArray *_cueTimes;
-    long long _cuesVersion;
-    CDStruct_1b6d18a9 _currentTime;
 }
 
 - (id);
@@ -25,14 +22,11 @@
 - (void);
 - (id);
 - (void){CGRect={CGPoint=dd}{CGSize=dd}}56@0:(CDStruct_1b6d18a9)arg1 8@"NSWindow"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
-- (CDStruct_1b6d18a9)tionHandler: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)ás´XnÿÑs´Tnÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAudioCueSource> audioCueSource; // @synthesize audioCueSource=_audioCueSource;
 @property(readonly, copy, nonatomic) NSArray *cueTimes; // @synthesize cueTimes=_cueTimes;
-@property(nonatomic) long long cuesVersion; // @synthesize cuesVersion=_cuesVersion;
-@property(nonatomic) CDStruct_1b6d18a9 currentTime; // @synthesize currentTime=_currentTime;
 
 @end
 

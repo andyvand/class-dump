@@ -9,12 +9,10 @@
 @interface UARPTLVPayloadCompressionAlgorithm : UARPMetaDataTLV
 {
     unsigned int _tlvType;
-    unsigned int _tlvLength;
-    int _compressionAlgorithm;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (unsigned int);
@@ -22,7 +20,7 @@
 - (id);
 - (int);
 - (unsigned int);
-- (id);
+- (id)AMSSQLiteNullPredicate;
 
 // Remaining properties
 @property(readonly) int compressionAlgorithm;

@@ -9,7 +9,6 @@
 @interface MKCalloutView
 {
     _Bool _parallaxEnabled;
-    MKAnnotationView *_annotationView;
 }
 
 - (void);
@@ -17,23 +16,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (long long);
-- (_Bool);
-- (id);
-- (id);
-- (void)intWithMapItem:wantsCloseUpView:cameraFrameOverride: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)oundation.framework/Versions/C/Foundation;
+- (id)nvoke;
+- (void)entryPointWithMapItem:wantsCloseUpView:cameraFrameOverride: /* Error: Ran out of types for this method. */;
 - (_Bool)fInterestRequest configured to exclude all categories - This request cannot fetch any POIs;
 
 // Remaining properties
-@property(readonly, nonatomic) long long anchorPosition;
 @property(readonly, nonatomic) __weak MKAnnotationView *annotationView; // @synthesize annotationView=_annotationView;
-@property(readonly, nonatomic) _Bool hasPendingVisibility;
-@property(readonly, nonatomic, getter=isLeftAnchored) _Bool leftAnchored;
-@property(nonatomic) _Bool parallaxEnabled; // @synthesize parallaxEnabled=_parallaxEnabled;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
 
 @end
 

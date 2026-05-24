@@ -9,33 +9,25 @@
 @interface ISUserNotification
 {
     long long _allowedRetryCount;
-    long long _currentRetryCount;
-    NSDictionary *_dictionary;
-    unsigned long long _optionFlags;
-    NSDictionary *_userInfo;
 }
 
 - (struct __CFUserNotification *);
 - (long long);
 - (void);
 - (long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)@"MHSchemaMHEndpointDelayContext",&,N,V_endpointDelayContext;
+- (void)perimentContext;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6);
 - (void);
 - (void);
 
 // Remaining properties
-@property long long allowedRetryCount; // @synthesize allowedRetryCount=_allowedRetryCount;
-@property long long currentRetryCount; // @synthesize currentRetryCount=_currentRetryCount;
 @property(retain) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property unsigned long long optionFlags; // @synthesize optionFlags=_optionFlags;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

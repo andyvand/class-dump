@@ -5,5 +5,9 @@
 //
 
 @protocol NSCandidateListTouchBarItemDelegate
+
+@optional
+- (void);
+- (void)q`;
 @end
 

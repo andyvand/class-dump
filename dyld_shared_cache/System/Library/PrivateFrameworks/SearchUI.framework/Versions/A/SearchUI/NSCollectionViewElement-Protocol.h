@@ -5,5 +5,8 @@
 //
 
 @protocol NSCollectionViewElement
+
+@optional
+- (void)PAMediaConversionResourceRoleCompositionSidecarDataFile;
 @end
 

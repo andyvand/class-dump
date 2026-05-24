@@ -11,8 +11,8 @@
     long long _trigger;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)essAttribute:for IPv4 remainingLength:%zd < 1 /* Error: Ran out of types for this method. */;
 - (id);
 - (long long)lu PLOIs, latency, %.3f;
 

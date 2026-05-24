@@ -9,7 +9,6 @@
 @interface AOSUICloudDataProtectionStateValidator
 {
     CDPUIDeviceToDeviceEncryptionFlowContext *_flowContext;
-    CDPContext *_context;
 }
 
 - (void);

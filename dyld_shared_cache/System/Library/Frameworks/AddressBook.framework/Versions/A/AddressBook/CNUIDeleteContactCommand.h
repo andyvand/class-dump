@@ -6,12 +6,11 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNContact, NSString;
+@class CNContact;
 
 @interface CNUIDeleteContactCommand : CNUIUndoableCommand
 {
     CNContact *_contact;
-    NSString *_containerIdentifier;
 }
 
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
 
 @end
 

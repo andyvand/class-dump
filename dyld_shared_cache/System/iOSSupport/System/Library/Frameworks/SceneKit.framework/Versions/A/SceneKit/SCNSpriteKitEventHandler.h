@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SKScene;
+@class SKScene;
 
 __attribute__((visibility("hidden")))
 @interface SCNSpriteKitEventHandler
 {
     SKScene *_scene;
-    NSMutableDictionary *_touchMap;
-    _Bool _mouseIsDown;
-    _Bool _rightMouseIsDown;
 }
 
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)WBSSiteMetadataFetchOperation;
 - (_Bool)output.bitangent = dPv;
 #if OSD_COMPUTE_NORMAL_DERIVATIVES
     output.Nu = dNu;

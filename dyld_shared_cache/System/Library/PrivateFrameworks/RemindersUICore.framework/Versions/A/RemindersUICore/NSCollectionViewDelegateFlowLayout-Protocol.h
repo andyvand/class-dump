@@ -5,5 +5,8 @@
 //
 
 @protocol NSCollectionViewDelegateFlowLayout
+
+@optional
+- (struct CGSize)p;
 @end
 

@@ -7,15 +7,13 @@
 @interface VMUAttributeGraphTypeIdentifier
 {
     id swiftValueInAttributeGraphAddressesToTypeMetadata;
-    id attributeGraphSwiftMetadataToClassInfo;
-    id objectIdentifier;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)d;
+- (void)tate to timesUp;
 
 @end
 

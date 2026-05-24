@@ -20,12 +20,12 @@
 × ;
 - (_Bool)!<Aùñd°1Â0@ù
 × ;
-- (_Bool)eaderView;
+- (_Bool)_wantsSeparatorForCustomHeaderView;
 - (void)_updateToggleAction;
-- (id)InCellInWindow:(id)arg1;
+- (id)_rectToScrollToVisibleInCellInWindow:(id)arg1;
 - (id)ertIndexPaths;
 - (void);
-- (void)yboardBoundsUserInfoKey;
+- (void)UIKeyboardBoundsUserInfoKey;
 
 // Remaining properties
 @property(nonatomic, setter=_setPrefersCompactAppearance:) _Bool _prefersCompactAppearance; // @synthesize _prefersCompactAppearance=__prefersCompactAppearance;

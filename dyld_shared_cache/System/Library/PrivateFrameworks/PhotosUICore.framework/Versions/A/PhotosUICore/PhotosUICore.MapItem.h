@@ -7,9 +7,6 @@
 @interface PhotosUICore.MapItem
 {
     id assets;
-    id boundingRegion;
-    id id;
-    id localizedTitle;
 }
 
 @end

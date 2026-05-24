@@ -10,26 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _GEOThrottledTicket
 {
     unsigned int qos;
-    id <GEOMapServiceThrottlableTicket> ticket;
-    CDUnknownBlockType submissionHandler;
-    double safeTime;
 }
 
 + (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
-- (id);
-- (void)SINESS;
+- (id)[;
+- (void)PLACECARD_SHOWN_BUSINESS;
 - (unsigned int)NULL, NULL, NULL, NULL, NULL, NULL);;
 - (void)ÿÿÿÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int qos; // @synthesize qos;
-@property(nonatomic) double safeTime; // @synthesize safeTime;
-@property(copy, nonatomic) CDUnknownBlockType submissionHandler; // @synthesize submissionHandler;
 @property(retain, nonatomic) id <GEOMapServiceThrottlableTicket> ticket; // @synthesize ticket;
 
 @end

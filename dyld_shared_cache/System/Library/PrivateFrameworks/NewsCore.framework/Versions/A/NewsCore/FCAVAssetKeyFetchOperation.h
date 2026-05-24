@@ -6,23 +6,17 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class AVPersistableContentKeyRequest, NSData, NSURL;
-@protocol FCAVAssetKeyCacheType, FCAVAssetKeyServiceType;
+@class NSData;
 
 @interface FCAVAssetKeyFetchOperation : FCOperation
 {
     NSData *_resultCKCData;
-    CDUnknownBlockType _fetchCompletionHandler;
-    AVPersistableContentKeyRequest *_keyRequest;
-    NSURL *_keyURI;
-    id <FCAVAssetKeyServiceType> _service;
-    id <FCAVAssetKeyCacheType> _cache;
 }
 
-- (_Bool);
+- (_Bool)_requestStickerExtensionMetadataDictionary:(id)arg1;
 - (void);
 - (unsigned long long);
-- (void)TabBar;
+- (void)enableBadgeInSpotlightTabBar;
 - (void)%lu changed records and %lu deleted records;
 - (void)Configuration due to failure to decode bundleOutputConfiguration from configuration %{public}@;
 

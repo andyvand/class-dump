@@ -6,40 +6,30 @@
 
 #import <Vision/VNEspressoModelFileBasedDetector.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNFaceLandmarkDetector : VNEspressoModelFileBasedDetector
 {
     struct shared_ptr<vision::mod::LandmarkAttributes> _faceAttributesPupilRefiner;
-    _Bool _requireFaceAttributesPupilRefiner;
-    _Bool _modelFilesWereMemmapped;
 }
 
 + (const struct _LandmarkDetector_faceMeshParts_ *);
 + (struct _Geometry2D_point2D_);
 + (const void *);
-+ (id);
++ (id)CNManagedCohort;
 + (Class)°45;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (_Bool);
 - (id);
-- (void)ectorInternalProcessOption_RecordImageTooSmallWarning;
+- (void)VNDetectorInternalProcessOption_RecordImageTooSmallWarning;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

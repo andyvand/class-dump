@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDVenueIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSSearchVenueFilter
 {
     PBUnknownFields *_unknownFields;
-    GEOPDVenueIdentifier *_venueFilter;
-    int _venueSearchType;
-    struct {
-        unsigned int has_venueSearchType:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (id)ackResource"b1"wrote_anyField"b1};
-- (id)ndleId;
+- (id)_peerBundleId;
 - (id)Ø{|D}´};
 - (void)ýHÊG@;
 

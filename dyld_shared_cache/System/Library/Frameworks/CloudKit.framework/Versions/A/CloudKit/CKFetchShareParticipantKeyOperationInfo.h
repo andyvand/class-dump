@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface CKFetchShareParticipantKeyOperationInfo : CKDatabaseOperationInfo
 {
     NSDictionary *_baseTokensByShareID;
-    NSDictionary *_childRecordIDsByShareID;
-    NSArray *_shareIDs;
 }
 
 + (_Bool);
@@ -21,15 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)M;
 - (id);
 - (void);
 - (void)@©®¯;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *baseTokensByShareID; // @synthesize baseTokensByShareID=_baseTokensByShareID;
-@property(retain, nonatomic) NSDictionary *childRecordIDsByShareID; // @synthesize childRecordIDsByShareID=_childRecordIDsByShareID;
-@property(retain, nonatomic) NSArray *shareIDs; // @synthesize shareIDs=_shareIDs;
 
 @end
 

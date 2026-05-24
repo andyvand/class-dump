@@ -14,10 +14,7 @@
 + (id)¤;
 
 // Remaining properties
-@property(readonly) unsigned long long index; // @dynamic index;
 @property(readonly) NSString *name; // @dynamic name;
-@property(readonly) _Bool required; // @dynamic required;
-@property(readonly) unsigned long long type; // @dynamic type;
 
 @end
 

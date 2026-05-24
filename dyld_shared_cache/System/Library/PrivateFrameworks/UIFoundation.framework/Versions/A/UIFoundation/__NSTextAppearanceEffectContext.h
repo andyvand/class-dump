@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, CUIStyleEffectConfiguration, NSColor, NSFont, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface __NSTextAppearanceEffectContext
 {
     NSString *_effectName;
-    CUICatalog *_catalog;
-    CUIStyleEffectConfiguration *_effectConfiguration;
-    NSFont *_font;
-    NSColor *_color;
 }
 
 - (void);

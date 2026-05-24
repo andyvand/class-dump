@@ -7,10 +7,9 @@
 @interface CSClamshellStateMonitor
 {
     struct IONotificationPort *_notificationPort;
-    unsigned int _serviceNotification;
 }
 
-+ (id)ggerCoordinatorIfNeeded: /* Error: Ran out of types for this method. */;
++ (id)_myriadSelfTriggerCoordinatorIfNeeded: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);

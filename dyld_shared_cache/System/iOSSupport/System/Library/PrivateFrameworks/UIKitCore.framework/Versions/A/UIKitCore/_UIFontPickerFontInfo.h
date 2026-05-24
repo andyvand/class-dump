@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSNumber, NSString, UIFontDescriptor, UIImage;
+@class NSString;
 
 @interface _UIFontPickerFontInfo
 {
     NSString *_familyName;
-    NSString *_styleName;
-    NSString *_fontName;
-    NSString *_localizedFamilyName;
-    NSString *_localizedStyleName;
-    NSString *_localizedFullName;
-    double _lineHeight;
-    UIFontDescriptor *_fontDescriptor;
-    NSAttributedString *_attributedString;
-    NSString *_attributedStringContentSize;
-    NSString *_preferredShortPreviewString;
-    NSNumber *_previewStringContainsArabic;
-    UIImage *_previewImage;
-    NSString *_previewImageContentSize;
-    double _previewImageDisplayScale;
-    _Bool _previewImageUsesSingleCharacter;
-    unsigned long long _hasMultipleFaces;
-    NSArray *_subInfos;
-    _Bool _isSystemFont;
-    NSNumber *_canRenderName;
-    _Bool _previewImagePrefersSingleCharacter;
 }
 
 + (id);
@@ -37,38 +17,38 @@
 + (id);
 - (void);
 - (void);
+- (_Bool)uncanonicalizedURIString;
+- (id)subscriptionValidationTokenByHandleIDCache;
+- (_Bool)setReplaceID:(id)arg1;
+- (_Bool)retrieveLocalFileURLForFileTransferWithGUIDs:(unsigned int)arg1 options: /* Error: Ran out of types for this method. */;
+- (_Bool)retrieveLocalFileURLForFileTransferWithGUID:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)e:(id)arg1 progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)yptionKey:(id)arg1 requestedSize:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)retrieveLocalFileTransfer:(id)arg1 attachmentIndex:path:requestURLString:ownerID:signature:decryptionKey:requestedSize:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)reportNotJunkToTrustKitForMessageGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)parser:foundAttributes:inRange:fileTransferGUID:filename:bookmark:width:height: /* Error: Ran out of types for this method. */;
+- (id)incomingMessageHasTooManyRecipients:(id)arg1;
+- (id)idsDeviceForFromID:(id)arg1;
+- (_Bool)didReceiveDisplayNameChange:guid:fromID:toIdentifier:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:conversation:didChangeStateForActivitySession: /* Error: Ran out of types for this method. */;
+- (id)chatGUIDToCountMap;
+- (id)ents:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)oaded %@;
+- (id)from unformatted phone number %@ based on phoneNumberIsValid %d and phoneNumberIsShortCode %d;
+- (void)deferred;
+- (_Bool)PCSIdentityWasLost;
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (struct __CTFontDescriptor *);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
@@ -78,8 +58,8 @@
 - (unsigned long long);
 - (id)aÐ1Â0@ù
 × ;
-- (_Bool)rtAutofillContent:(id)arg1;
-- (id)ToneOnly;
+- (_Bool)textOperation_insertAutofillContent:(id)arg1;
+- (id)_containsBopomofoToneOnly;
 - (id)*;
 - (id)Restoration) _doRestorationIfNecessary];
 - (void);
@@ -88,33 +68,7 @@
 - (id),`;
 
 // Remaining properties
-@property(readonly) NSAttributedString *attributedString;
-@property(readonly) struct __CTFontDescriptor *ctFontDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *faces;
-@property(readonly) _UIFontPickerFontInfo *familyInfo;
 @property(readonly) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly) _Bool fontCanRenderLocalizedName;
-@property(readonly) UIFontDescriptor *fontDescriptor;
-@property(readonly, getter=isFontFamilyAvailable) _Bool fontFamilyAvailable;
-@property(readonly) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly) _Bool hasMultipleFaces;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSystemFont;
-@property(readonly) double lineHeight;
-@property(readonly) NSString *localizedFamilyName;
-@property(readonly) NSString *localizedFullName;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *postscriptName;
-@property(readonly) NSString *preferredShortPreviewString;
-@property(readonly) UIImage *previewImage;
-@property(nonatomic) _Bool previewImagePrefersSingleCharacter; // @synthesize previewImagePrefersSingleCharacter=_previewImagePrefersSingleCharacter;
-@property(readonly) NSString *styleName; // @synthesize styleName=_styleName;
-@property(readonly) Class superclass;
 
 @end
 

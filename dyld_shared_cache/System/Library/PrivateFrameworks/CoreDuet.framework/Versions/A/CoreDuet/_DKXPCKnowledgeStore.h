@@ -23,10 +23,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ationContext=II^{CGXConnectionNotice}}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1^vI^{__CFDictionary}^{CGSRegionObject}IIIdd^QQQII^{CGSRegionObject}^{CGXCursor}^{__CFDictionary}^vIIIiI{CPSProcessSerNum=II}IIIb1b1b1b1b1b1b1b1b1b1b1b1b1^{CGXEventTap}^{CGXCaptureState}I^v^?dddddI^{CGXDirtyScreenState}IB^{PKGSpace}{WSSymbolicHotKeyBitMask=[9I]}iQ^{x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^vQ^{x_list_struct}Ib1ib1}16{CPSProcessSerNum=II}24;
+- (_Bool)sortedArrayUsingSelector:(id *)arg1;
+- (void)IsMenuBarVisibleOnSpace;
+- (unsigned long long)kCGSEventLeftMouseDown;
 - (id);
 - (void);
 - (_Bool);
@@ -39,13 +39,13 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)Ñ©3ð1Â0@ù
 × ;
 

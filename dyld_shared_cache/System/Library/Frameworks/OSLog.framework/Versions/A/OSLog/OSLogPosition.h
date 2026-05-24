@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface OSLogPosition
 {
     long long _precision;
-    NSDate *_date;
-    double _offset;
 }
 
 - (id);
@@ -22,8 +18,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) double offset; // @synthesize offset=_offset;
 @property(readonly, nonatomic) long long precision; // @synthesize precision=_precision;
 
 @end

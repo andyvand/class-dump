@@ -9,9 +9,6 @@
 @interface MovingAverage
 {
     struct os_unfair_lock_s _lock;
-    double _movingAverage;
-    NSMutableArray *_queue;
-    unsigned long long _windowSize;
 }
 
 - (void);
@@ -19,15 +16,13 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)contentImage;
 - (id);
 - (void);
 - (unsigned long long)eUUIDPair"16@?0@"HMPersonLink"8;
 
 // Remaining properties
-@property double movingAverage; // @synthesize movingAverage=_movingAverage;
 @property(retain, nonatomic) NSMutableArray *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) unsigned long long windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

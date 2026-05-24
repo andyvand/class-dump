@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateTimeWindow, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdatePolicyCriteria
 {
     _Bool _noUserAtHome;
-    _Bool _anyUserAtHome;
-    _Bool _checkForScheduledAutomation;
-    NSArray *_characteristicConfigurations;
-    HMDAccessoryFirmwareUpdateTimeWindow *_updateTimeWindow;
 }
 
 - (_Bool);
@@ -22,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)Controller;
-- (_Bool)ateSupportsAdaptiveTemperatureAutomations: /* Error: Ran out of types for this method. */;
+- (_Bool)supportsTargetController;
+- (_Bool)evaluateSupportsAdaptiveTemperatureAutomations: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)confirm is not set for device:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
@@ -32,18 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)üxõB;
 
 // Remaining properties
-@property _Bool anyUserAtHome; // @synthesize anyUserAtHome=_anyUserAtHome;
-@property(retain) NSArray *characteristicConfigurations; // @synthesize characteristicConfigurations=_characteristicConfigurations;
-@property _Bool checkForScheduledAutomation; // @synthesize checkForScheduledAutomation=_checkForScheduledAutomation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool noUserAtHome; // @synthesize noUserAtHome=_noUserAtHome;
-@property(readonly) Class superclass;
-@property(retain) HMDAccessoryFirmwareUpdateTimeWindow *updateTimeWindow; // @synthesize updateTimeWindow=_updateTimeWindow;
 
 @end
 

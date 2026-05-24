@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAlignmentInfo, EDBorders, EDContentFormat, EDFill, EDFont, EDProtection;
+@class EDAlignmentInfo;
 
 __attribute__((visibility("hidden")))
 @interface EDDifferentialStyle
 {
     EDAlignmentInfo *mAlignmentInfo;
-    EDBorders *mBorders;
-    EDFill *mFill;
-    EDFont *mFont;
-    EDProtection *mProtection;
-    EDContentFormat *mContentFormat;
 }
 
 + (id);
@@ -28,20 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)cal;
 - (id);
-- (id);
-- (id);
+- (id)-[%@ %@];
 - (void)
 × ;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EDAlignmentInfo *alignmentInfo; // @synthesize alignmentInfo=mAlignmentInfo;
-@property(retain, nonatomic) EDBorders *borders; // @synthesize borders=mBorders;
-@property(retain, nonatomic) EDContentFormat *contentFormat; // @synthesize contentFormat=mContentFormat;
-@property(retain, nonatomic) EDFill *fill; // @synthesize fill=mFill;
-@property(retain, nonatomic) EDFont *font; // @synthesize font=mFont;
-@property(retain, nonatomic) EDProtection *protection; // @synthesize protection=mProtection;
 
 @end
 

@@ -6,18 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKMapShareURLsToInstalledBundleIDsOperationInfo, NSArray, NSMutableArray, NSMutableDictionary, NSString;
-@protocol CKMapShareURLsToInstalledBundleIDsOperationCallbacks;
+@class NSMutableArray;
 
 @interface CKMapShareURLsToInstalledBundleIDsOperation : CKOperation
 {
     _Bool _returnLocalBundlesOnly;
-    CDUnknownBlockType _perShareURLBlock;
-    CDUnknownBlockType _mapBundleIDsCompletionBlock;
-    NSArray *_shareURLs;
-    NSMutableArray *_specialURLs;
-    NSMutableArray *_genericURLs;
-    NSMutableDictionary *_errorsByURL;
 }
 
 + (SEL);
@@ -25,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ka;
 - (void);
 - (id);
 - (_Bool);
@@ -34,17 +27,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)(;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)lock specified%@;
 - (void);
 - (_Bool);
 - (_Bool)ÿÿÿÿ<;
@@ -57,22 +50,7 @@ H¥ü¥
 - (void)Gí~ñ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKMapShareURLsToInstalledBundleIDsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *errorsByURL; // @synthesize errorsByURL=_errorsByURL;
-@property(retain, nonatomic) NSMutableArray *genericURLs; // @synthesize genericURLs=_genericURLs;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType mapBundleIDsCompletionBlock; // @synthesize mapBundleIDsCompletionBlock=_mapBundleIDsCompletionBlock;
-@property(readonly, nonatomic) CKMapShareURLsToInstalledBundleIDsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perShareURLBlock; // @synthesize perShareURLBlock=_perShareURLBlock;
-@property(nonatomic) _Bool returnLocalBundlesOnly; // @synthesize returnLocalBundlesOnly=_returnLocalBundlesOnly;
-@property(copy, nonatomic) NSArray *shareURLs; // @synthesize shareURLs=_shareURLs;
 @property(retain, nonatomic) NSMutableArray *specialURLs; // @synthesize specialURLs=_specialURLs;
-@property(readonly) Class superclass;
 
 @end
 

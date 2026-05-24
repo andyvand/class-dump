@@ -5,5 +5,8 @@
 //
 
 @protocol CSOpportuneSpeakListenerDelegate
+
+@optional
+- (void);
 @end
 

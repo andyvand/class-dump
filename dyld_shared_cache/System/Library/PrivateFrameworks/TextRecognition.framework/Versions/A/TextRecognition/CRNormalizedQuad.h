@@ -9,7 +9,6 @@
 @interface CRNormalizedQuad
 {
     CRImageSpaceQuad *_denormalizedQuad;
-    struct CGSize _normalizationSize;
 }
 
 + (_Bool);

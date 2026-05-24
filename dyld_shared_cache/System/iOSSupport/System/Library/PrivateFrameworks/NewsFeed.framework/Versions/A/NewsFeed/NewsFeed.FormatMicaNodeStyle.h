@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatMicaNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id borders;
-    id cornerRadius;
-    id shadow;
-    id ignoresSmartInvertColors;
 }
 
 @end

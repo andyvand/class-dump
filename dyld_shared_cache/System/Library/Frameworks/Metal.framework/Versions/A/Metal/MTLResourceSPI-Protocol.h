@@ -5,13 +5,13 @@
 //
 
 @protocol MTLResourceSPI
+- (unsigned long long);
+- (void);
+- (unsigned long long)A;
 - (_Bool)Nìÿÿ;
 - (unsigned long long)port any textureType other than MTLTextureType2D;
 
 // Remaining properties
-@property(readonly) unsigned long long allocationID;
-@property(readonly) unsigned long long protectionOptions;
 @property int responsibleProcess;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 @end
 

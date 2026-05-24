@@ -5,5 +5,7 @@
 //
 
 @protocol ScreenReaderCaptureReceiver
+- (void);
+- (void);
 @end
 

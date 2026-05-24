@@ -7,9 +7,6 @@
 @interface WebScriptObjectPrivate
 {
     void *imp;
-    void *rootObject;
-    void *originRootObject;
-    _Bool isCreatedByDOMWrapper;
 }
 
 @end

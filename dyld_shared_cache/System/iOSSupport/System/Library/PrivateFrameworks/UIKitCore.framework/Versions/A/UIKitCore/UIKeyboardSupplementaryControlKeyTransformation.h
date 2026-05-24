@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSupplementaryControlKeyTransformation
 {
 }
 
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (id)%@ (rowid %@) as forever failed to upload, as we could not find an associated message;
++ (void)should not store the message [%@] because our destination callerID [%@] has been unselected from list of available aliases;
++ (void)please file a radar;
++ (void)mac;
++ (void)message [%@] because we do not want to store a message from Mako URI on mac;
++ (void)hone number so will store message [%@] anyways;
++ (id)but phone does not have SIM inserted and caller ID is a phone number so will store message [%@] anyways;
 + (struct CGSize);
 + (id);
 + (void);
@@ -37,13 +35,7 @@ __attribute__((visibility("hidden")))
 + (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

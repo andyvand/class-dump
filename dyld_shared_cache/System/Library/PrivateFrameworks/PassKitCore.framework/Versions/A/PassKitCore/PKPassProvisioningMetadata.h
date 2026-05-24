@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKPassProvisioningMetadata
 {
     unsigned long long _sourceDeviceType;
-    NSString *_localizedSourceDeviceDescription;
 }
 
 + (_Bool)X"!Aùqî%ð1Â0@ù
@@ -18,13 +15,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (unsigned long long)actlessProductCredential;
+- (void)updateCount;
+- (id)$;
+- (unsigned long long)contactlessProductCredential;
 - (void)t:%ld;  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *localizedSourceDeviceDescription; // @synthesize localizedSourceDeviceDescription=_localizedSourceDeviceDescription;
 @property(nonatomic) unsigned long long sourceDeviceType; // @synthesize sourceDeviceType=_sourceDeviceType;
 
 @end

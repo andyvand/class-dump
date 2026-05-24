@@ -7,7 +7,6 @@
 @interface TeaUI.CommandContextStore
 {
     id _onChange;
-    id contexts;
 }
 
 @end

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURL;
+@class NSURL;
 
 @interface SFShareSheetSharedURLResult
 {
     NSURL *_sharedURL;
-    NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 - (void)þÿþÿlþÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSURL *sharedURL; // @synthesize sharedURL=_sharedURL;
 
 @end

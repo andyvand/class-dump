@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface _ANEWeight
 {
     NSString *_weightSymbol;
-    NSURL *_weightURL;
-    NSData *_SHACode;
-    NSString *_sandboxExtension;
 }
 
 + (id);
-+ (id);
++ (id)peechAudioAnalytics"72;
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)B;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *SHACode; // @synthesize SHACode=_SHACode;
-@property(copy, nonatomic) NSString *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
-@property(readonly, copy, nonatomic) NSString *weightSymbol; // @synthesize weightSymbol=_weightSymbol;
 @property(copy, nonatomic) NSURL *weightURL; // @synthesize weightURL=_weightURL;
 
 @end

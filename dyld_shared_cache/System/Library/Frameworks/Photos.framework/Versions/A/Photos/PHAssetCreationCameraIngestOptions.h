@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface PHAssetCreationCameraIngestOptions
 {
     _Bool _isRearFacingCamera;
-    _Bool _isExpectingPairedVideo;
-    unsigned short _candidateOptions;
-    unsigned short _sharingRestriction;
-    NSString *_cameraMetadataPath;
-    NSString *_dbgFilePath;
-    NSString *_jobType;
-    NSString *_portraitEffectFilterName;
-    NSString *_captureID;
-    NSString *_backupAdjustmentsFile;
-    NSString *_deferredPhotoIdentifier;
-    NSDate *_creationDate;
-    NSData *_previewImageData;
-    void *_previewImgSurfaceRef;
-    double _finalAssetHeight;
-    double _finalAssetWidth;
-    double _placeholderHeight;
-    double _placeholderWidth;
 }
 
 + (id);
@@ -36,27 +19,27 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void *);
-- (id);
+- (id)R'`"4d;
 - (id);
 - (double);
-- (double);
+- (double)E9?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)H;
 - (void);
 - (id);
 - (id);
@@ -73,29 +56,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)video;
 - (id);
 - (void)Suggestions;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *backupAdjustmentsFile; // @synthesize backupAdjustmentsFile=_backupAdjustmentsFile;
 @property(copy, nonatomic) NSString *cameraMetadataPath; // @synthesize cameraMetadataPath=_cameraMetadataPath;
-@property(nonatomic) unsigned short candidateOptions; // @synthesize candidateOptions=_candidateOptions;
-@property(copy, nonatomic) NSString *captureID; // @synthesize captureID=_captureID;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *dbgFilePath; // @synthesize dbgFilePath=_dbgFilePath;
-@property(copy, nonatomic) NSString *deferredPhotoIdentifier; // @synthesize deferredPhotoIdentifier=_deferredPhotoIdentifier;
-@property(nonatomic) double finalAssetHeight; // @synthesize finalAssetHeight=_finalAssetHeight;
-@property(nonatomic) double finalAssetWidth; // @synthesize finalAssetWidth=_finalAssetWidth;
-@property(nonatomic) _Bool isExpectingPairedVideo; // @synthesize isExpectingPairedVideo=_isExpectingPairedVideo;
-@property(nonatomic) _Bool isRearFacingCamera; // @synthesize isRearFacingCamera=_isRearFacingCamera;
-@property(copy, nonatomic) NSString *jobType; // @synthesize jobType=_jobType;
-@property(nonatomic) double placeholderHeight; // @synthesize placeholderHeight=_placeholderHeight;
-@property(nonatomic) double placeholderWidth; // @synthesize placeholderWidth=_placeholderWidth;
-@property(copy, nonatomic) NSString *portraitEffectFilterName; // @synthesize portraitEffectFilterName=_portraitEffectFilterName;
-@property(copy, nonatomic) NSData *previewImageData; // @synthesize previewImageData=_previewImageData;
-@property(nonatomic) void *previewImgSurfaceRef; // @synthesize previewImgSurfaceRef=_previewImgSurfaceRef;
-@property(nonatomic) unsigned short sharingRestriction; // @synthesize sharingRestriction=_sharingRestriction;
 
 @end
 

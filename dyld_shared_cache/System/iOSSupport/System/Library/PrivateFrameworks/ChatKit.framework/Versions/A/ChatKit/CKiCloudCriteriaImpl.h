@@ -8,8 +8,8 @@
 {
 }
 
-+ (long long);
-+ (_Bool);
++ (long long)InContext.;
++ (_Bool)oke;
 + (id);
 - (void);
 

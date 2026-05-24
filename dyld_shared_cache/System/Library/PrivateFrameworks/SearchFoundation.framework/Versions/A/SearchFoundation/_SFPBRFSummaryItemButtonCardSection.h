@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBButtonItem, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSummaryItemButtonCardSection
 {
     _Bool _buttonItemsAreTrailing;
-    _SFPBRFTextProperty *_text_1;
-    _SFPBButtonItem *_button_1;
-    _SFPBButtonItem *_button_2;
-    _SFPBButtonItem *_button_3;
-    NSArray *_text_2s;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
-- (id);
+- (id)";
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -41,41 +33,25 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)&;
+- (id);
+- (id);
+- (id)tion' property;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)reportInvitationAsSpam;
+- (id)Created export request:%@ for asset:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)PlayerCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool buttonItemsAreTrailing; // @synthesize buttonItemsAreTrailing=_buttonItemsAreTrailing;
-@property(retain, nonatomic) _SFPBButtonItem *button_1; // @synthesize button_1=_button_1;
-@property(retain, nonatomic) _SFPBButtonItem *button_2; // @synthesize button_2=_button_2;
-@property(retain, nonatomic) _SFPBButtonItem *button_3; // @synthesize button_3=_button_3;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(copy, nonatomic) NSArray *text_2s; // @synthesize text_2s=_text_2s;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

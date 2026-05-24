@@ -11,13 +11,10 @@
 @interface RBSDextProcessIdentity : RBSProcessIdentity
 {
     NSString *_serverName;
-    NSString *_label;
-    NSString *_bundleID;
-    unsigned char _type;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ing (existing) connection to appleeventsd for this call, connectionID=0x%p;
 - (void);
 
 @end

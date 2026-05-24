@@ -7,24 +7,20 @@
 @interface GCColor
 {
     float _red;
-    float _green;
-    float _blue;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
-- (id);
-- (float);
+- (id)configuration;
+- (float)w with error %@;
 - (float);
 - (float);
 
 // Remaining properties
-@property(readonly) float blue; // @synthesize blue=_blue;
-@property(readonly) float green; // @synthesize green=_green;
 @property(readonly) float red; // @synthesize red=_red;
 
 @end

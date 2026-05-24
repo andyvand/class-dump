@@ -15,17 +15,17 @@
 + (_Bool)e;
 + (void);
 - (unsigned long long);
-- (id);
+- (id)@9;
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)dium;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)A;
 - (id)ÞÞÞßßààáââãäääååææççèééêêëëëëìíîïïïïïïðññòòóóôõöö÷øøøøùúûüüüýýýýþþÿÿÿ;
 
 // Remaining properties

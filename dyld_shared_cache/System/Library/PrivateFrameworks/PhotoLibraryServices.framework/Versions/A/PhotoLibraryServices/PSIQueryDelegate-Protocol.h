@@ -7,5 +7,6 @@
 @protocol PSIQueryDelegate
 - (id);
 - (id)t.collection.collectionShare;
+- (id)RAW_ALBUM_TITLE;
 @end
 

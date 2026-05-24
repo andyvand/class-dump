@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)RestoreDefaultsObserver>";
+- (unsigned long long)a;
 - (_Bool);
 - (_Bool);
 - (id)isOptionalKeyword"b1"has_negateAttribute"b1"read_attributeId"b1"read_attributeValue"b1"read_name"b1"read_tokenSet"b1"wrote_anyField"b1};
-- (id)nCard;
+- (id)_showMyLocationCard;
 - (id)ø¿ÐÀ0Â´Â;
 - (void);
 

@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCMediaStreamSynchronizer;
-@protocol VCMediaStreamSyncSource, VCVideoReceiverDelegate;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoReceiverBase
 {
     struct tagVCVideoReceiverRealtimeClassVTable _vTable;
-    int _remoteVideoOrientation;
-    struct tagVCVideoReceiverDelegateRealtimeInstanceVTable _delegateFunctions;
-    id <VCVideoReceiverDelegate> _delegate;
-    id <VCMediaStreamSyncSource> _syncSource;
-    double _roundTripTime;
-    double _lastReceivedVideoRTPPacketTime;
-    double _lastReceivedVideoRTCPPacketTime;
-    double _synchronizationTimeOffset;
-    float lastLastVideoStallDuration;
-    unsigned int _rtpTimestampRate;
-    VCMediaStreamSynchronizer *_mediaStreamSynchronizer;
-    float _lastLastVideoStallDuration;
 }
 
 - (void);
@@ -59,25 +44,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_calculateCharacterRuns:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <VCVideoReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct tagVCVideoReceiverDelegateRealtimeInstanceVTable delegateFunctions; // @synthesize delegateFunctions=_delegateFunctions;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int lastDisplayedFrameRTPTimestamp;
-@property(readonly) float lastLastVideoStallDuration; // @synthesize lastLastVideoStallDuration=_lastLastVideoStallDuration;
-@property(readonly) double lastReceivedVideoRTCPPacketTime; // @synthesize lastReceivedVideoRTCPPacketTime=_lastReceivedVideoRTCPPacketTime;
-@property(readonly) double lastReceivedVideoRTPPacketTime; // @synthesize lastReceivedVideoRTPPacketTime=_lastReceivedVideoRTPPacketTime;
 @property int remoteVideoOrientation; // @synthesize remoteVideoOrientation=_remoteVideoOrientation;
-@property double roundTripTime; // @synthesize roundTripTime=_roundTripTime;
-@property(readonly) Class superclass;
-@property(nonatomic) id <VCMediaStreamSyncSource> syncSource; // @synthesize syncSource=_syncSource;
 
 @end
 

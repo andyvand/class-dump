@@ -5,5 +5,6 @@
 //
 
 @protocol IDSXPCKeyTransparencyManagerClient
+- (void);
 @end
 

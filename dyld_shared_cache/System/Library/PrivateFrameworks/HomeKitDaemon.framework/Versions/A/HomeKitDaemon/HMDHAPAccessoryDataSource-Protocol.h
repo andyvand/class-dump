@@ -8,19 +8,14 @@
 @protocol HMDHAPAccessorySwiftDataSource, HMDPreferences;
 
 @protocol HMDHAPAccessoryDataSource
+- (HMDBackgroundTaskManager *)GEOTransitArtworkSourceTypeSFSymbol;
+- (HMDHAPMetadata *);
 - (id <HMDPreferences>)!Cùqð1Â0@ù
 × ;
 - (NSDate *)%f;
 - (NSNotificationCenter *)th;
-- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBackgroundTaskManager *backgroundTaskManager;
-@property(readonly, nonatomic) NSDate *currentDate;
-@property(readonly, nonatomic) HMDHAPMetadata *hapMetadata;
-@property(readonly, nonatomic) _Bool isResidentCapable;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) id <HMDPreferences> preferences;
 @property(readonly, nonatomic) id <HMDHAPAccessorySwiftDataSource> swiftDataSource;
 @end
 

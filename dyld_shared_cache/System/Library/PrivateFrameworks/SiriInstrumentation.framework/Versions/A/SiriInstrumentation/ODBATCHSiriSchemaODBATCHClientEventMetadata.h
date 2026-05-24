@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTimeInterval, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODBATCHSiriSchemaODBATCHClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_odbatchId;
-    ODDSiriSchemaODDTimeInterval *_aggregationInterval;
-    unsigned long long _eventTimestampInMsSince1970;
-    CDStruct_5250209a _has;
-    _Bool _hasOdbatchId;
-    _Bool _hasAggregationInterval;
 }
 
 - (void);
@@ -37,21 +32,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)DatabaseExportRecordCounter;
+- (id);
+- (id)%;
 - (id);
 - (id)rationInMs;
 - (id)TB,N,V_hasWatchDeviceAttributes;
-- (void)AREDCONTEXT_TIMER;
+- (void)HALDEVICESHAREDCONTEXT_TIMER;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDTimeInterval *aggregationInterval; // @synthesize aggregationInterval=_aggregationInterval;
-@property(nonatomic) unsigned long long eventTimestampInMsSince1970; // @synthesize eventTimestampInMsSince1970=_eventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasAggregationInterval; // @synthesize hasAggregationInterval=_hasAggregationInterval;
-@property(nonatomic) _Bool hasEventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasOdbatchId; // @synthesize hasOdbatchId=_hasOdbatchId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *odbatchId; // @synthesize odbatchId=_odbatchId;
 
 @end

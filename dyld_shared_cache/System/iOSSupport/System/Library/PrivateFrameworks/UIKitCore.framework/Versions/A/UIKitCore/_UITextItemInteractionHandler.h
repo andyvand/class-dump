@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UITextInteractableItem;
-@protocol _UITextContent;
+@class _UITextInteractableItem;
 
 __attribute__((visibility("hidden")))
 @interface _UITextItemInteractionHandler
 {
     _UITextInteractableItem *_item;
-    UIView<_UITextContent> *_textContentView;
-    struct _NSRange _range;
 }
 
 - (id);
 - (id);
+- (id)removeDelegate:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)its before sorting %@;
+- (id)eption handling incomming local incoming push:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (struct _NSRange)QcÐ1Â0@ù
 × ;
@@ -32,9 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)ØL03_pGIegg_;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak _UITextInteractableItem *item; // @synthesize item=_item;
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) __weak UIView<_UITextContent> *textContentView; // @synthesize textContentView=_textContentView;
 
 @end
 

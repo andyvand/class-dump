@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneSettingsDiffInspector;
+@class UIApplicationSceneSettingsDiffInspector;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneOcclusionSettingsDiffAction
@@ -12,20 +12,13 @@ __attribute__((visibility("hidden")))
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsBackgroundAndOcclusionDiffInspector;
 }
 
-- (void);
+- (void)#;
 - (id)wareKeyboardExclusivityIdentifier:systemShellHostingSpaceIdentifier:systemDisplayIdentifier: /* Error: Ran out of types for this method. */;
-- (void)HasExplicitlySetBounces;
+- (void)_applicationHasExplicitlySetBounces;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *sceneSettingsBackgroundAndOcclusionDiffInspector; // @synthesize sceneSettingsBackgroundAndOcclusionDiffInspector=_sceneSettingsBackgroundAndOcclusionDiffInspector;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchQuerySynonymMetadata, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryDymMetadata
 {
     PBDataReader *_reader;
-    NSString *_originalQuery;
-    GEOPDSearchQuerySynonymMetadata *_synonymMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_originalQuery:1;
-        unsigned int read_synonymMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)%@;
+- (id)currentDarwinHostState;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)i\;
 - (_Bool);
 - (id);
 - (id)hargingStationMuid"b1};
-- (id)sNetworkDefaultsResponse:data:error:request: /* Error: Ran out of types for this method. */;
+- (id)_processNetworkDefaultsResponse:data:error:request: /* Error: Ran out of types for this method. */;
 - (id)èÄ¸Å ÆpÇÈÉ;
 - (void);
 

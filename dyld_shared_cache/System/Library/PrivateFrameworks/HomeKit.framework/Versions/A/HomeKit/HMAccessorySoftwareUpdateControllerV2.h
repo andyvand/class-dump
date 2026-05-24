@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, HMSoftwareUpdateDocumentationManager, NSMutableDictionary, NSString, _HMContext;
-@protocol HMAccessorySoftwareUpdateControllerV2Delegate, HMESubscriptionProviding;
+@class _HMContext;
 
 @interface HMAccessorySoftwareUpdateControllerV2
 {
     struct os_unfair_lock_s _lock;
-    id <HMAccessorySoftwareUpdateControllerV2Delegate> _delegate;
-    _HMContext *_context;
-    HMHome *_home;
-    id <HMESubscriptionProviding> _subscriptionProvider;
-    HMSoftwareUpdateDocumentationManager *_documentationManager;
-    NSMutableDictionary *_softwareUpdateByAccessory;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id)SensorManagerTestErrorCaseResetADKKey;
++ (id)HMAppleMediaAccessorySensorManagerTestErrorCaseResetADKKey;
 - (id);
 - (void);
 - (id);
@@ -39,8 +32,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_maxContextLength;
+- (id)>		;
 - (id);
 - (void);
 - (void)Ð	;
@@ -48,18 +41,6 @@
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMAccessorySoftwareUpdateControllerV2Delegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMSoftwareUpdateDocumentationManager *documentationManager; // @synthesize documentationManager=_documentationManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly) NSMutableDictionary *softwareUpdateByAccessory; // @synthesize softwareUpdateByAccessory=_softwareUpdateByAccessory;
-@property(readonly) id <HMESubscriptionProviding> subscriptionProvider; // @synthesize subscriptionProvider=_subscriptionProvider;
-@property(readonly) Class superclass;
 
 @end
 

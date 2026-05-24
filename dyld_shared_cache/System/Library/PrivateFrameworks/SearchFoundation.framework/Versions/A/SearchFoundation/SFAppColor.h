@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFColor.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFAppColor : SFColor
 {
@@ -16,22 +16,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) double alphaComponent;
 @property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(nonatomic) double blueComponent;
-@property(nonatomic) int colorTintStyle;
-@property(retain, nonatomic) SFColor *darkModeColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) double greenComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double redComponent;
-@property(readonly) Class superclass;
 
 @end
 

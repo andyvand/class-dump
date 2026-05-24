@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)elegateWrapper;
+- (id)_delegateWrapper;
 - (id)ä ;
 - (void)@;
 

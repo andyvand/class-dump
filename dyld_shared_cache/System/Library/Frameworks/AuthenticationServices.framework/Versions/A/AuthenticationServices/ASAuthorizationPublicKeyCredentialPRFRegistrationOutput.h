@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface ASAuthorizationPublicKeyCredentialPRFRegistrationOutput
 {
     _Bool isSupported;
-    void first;
-    void second;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)startReadingListHopAnimationFromMouseLocation;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)g;
 
 // Remaining properties
-@property(nonatomic, copy) NSData *first;
 @property(nonatomic) _Bool isSupported; // @synthesize isSupported;
-@property(nonatomic, copy) NSData *second;
 
 @end
 

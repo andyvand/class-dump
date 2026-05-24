@@ -7,9 +7,10 @@
 @class HMApplicationData, NSUUID;
 
 @protocol HMMutableApplicationDataContainer
+- (void);
+- (HMApplicationData *)_shouldAllowAlertsFromContactWithEmail: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HMApplicationData *applicationData;
 @property(readonly, copy) NSUUID *applicationDataIdentifier;
 @end
 

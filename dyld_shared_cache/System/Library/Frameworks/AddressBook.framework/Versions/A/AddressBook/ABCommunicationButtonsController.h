@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABFaceTimeCommunicationsBridge, CNContact, CNFuture, NSArray, NSButton, NSMutableArray, NSMutableDictionary, NSStackView, NSString;
-@protocol ABFaceTimeDataSource, CNSchedulerProvider, CNUIUserActionListDataSource;
+@class NSStackView;
 
 @interface ABCommunicationButtonsController
 {
     _Bool _availableForFaceTime;
-    NSStackView *_communicationButtonsRow;
-    id <ABFaceTimeDataSource> _dataSource;
-    ABFaceTimeCommunicationsBridge *_bridge;
-    CNFuture *_availabilityFuture;
-    NSButton *_faceTimeButton;
-    NSButton *_faceTimeAudioButton;
-    NSMutableArray *_tokens;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNUIUserActionListDataSource> _actionsDataSource;
-    NSMutableDictionary *_modelsByType;
-    CNContact *_contact;
 }
 
 + (id);
@@ -44,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -67,55 +55,36 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (id);
+- (id)teger;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CNUIUserActionListDataSource> actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
-@property(readonly, nonatomic) NSArray *allButtons;
-@property(retain, nonatomic) CNFuture *availabilityFuture; // @synthesize availabilityFuture=_availabilityFuture;
-@property(nonatomic) _Bool availableForFaceTime; // @synthesize availableForFaceTime=_availableForFaceTime;
-@property(retain, nonatomic) ABFaceTimeCommunicationsBridge *bridge; // @synthesize bridge=_bridge;
 @property(retain, nonatomic) NSStackView *communicationButtonsRow; // @synthesize communicationButtonsRow=_communicationButtonsRow;
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) __weak id <ABFaceTimeDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSButton *faceTimeAudioButton; // @synthesize faceTimeAudioButton=_faceTimeAudioButton;
-@property(readonly, nonatomic) NSButton *faceTimeVideoButton; // @synthesize faceTimeVideoButton=_faceTimeButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *modelsByType; // @synthesize modelsByType=_modelsByType;
-@property(retain, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

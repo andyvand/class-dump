@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-@protocol TabDialogConfiguration, TabDialogView, TabDialogViewControllerDelegate, TabDialogViewControllerPresentationDelegate;
+@protocol TabDialogConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface TabDialogViewController
 {
     _Bool _hasRelayedLayoutInformation;
-    id <TabDialogConfiguration> _configuration;
-    id <TabDialogViewControllerDelegate> _delegate;
-    id <TabDialogViewControllerPresentationDelegate> _presentationDelegate;
-    CDStruct_497cfc99 _slot;
 }
 
 - (id);
@@ -27,16 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)T;
-- (CDStruct_497cfc99)ÄXl-;
+- (CDStruct_fca5f1f5)ÄXl-;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TabDialogConfiguration> configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak id <TabDialogViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak id <TabDialogViewControllerPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(readonly, nonatomic) CDStruct_497cfc99 slot; // @synthesize slot=_slot;
-@property(retain) NSView<TabDialogView> *view; // @dynamic view;
 
 @end
 

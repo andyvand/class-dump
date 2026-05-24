@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)Gz;
 - (id);
-- (id);
-- (double);
+- (double);
 - (id);
 
 // Remaining properties

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceConnectionEndpoint, BSServiceQueue, NSString;
 @protocol FBSOrientationObserverClientDelegate;
 
 @interface FBSOrientationObserverClient
 {
     id <FBSOrientationObserverClientDelegate> _delegate;
-    BSServiceConnectionEndpoint *_endpoint;
-    BSServiceQueue *_calloutQueue;
-    BSServiceConnection *_lock_connection;
-    struct os_unfair_lock_s _lock;
-    unsigned int _lock_interest;
-    _Bool _lock_invalidated;
 }
 
 - (void);
@@ -26,7 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)on:(id)arg1 %@
+;
 - (void);
 - (oneway void);
 - (id);
@@ -39,13 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

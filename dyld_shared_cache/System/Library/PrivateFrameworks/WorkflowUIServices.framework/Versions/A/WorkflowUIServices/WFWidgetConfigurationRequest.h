@@ -4,45 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSColor, NSSecurityScopedURLWrapper, NSString, WFImage;
+@class NSString;
 
 @interface WFWidgetConfigurationRequest
 {
     _Bool _usesWidgetAccentColor;
-    NSColor *_widgetTintColor;
-    NSString *_appBundleIdentifier;
-    INIntent *_intent;
-    long long _family;
-    unsigned long long _widgetConfigurationStyle;
-    unsigned long long _widgetConfigurationType;
-    NSString *_widgetDisplayName;
-    NSString *_widgetDescription;
-    NSColor *_widgetPrimaryColor;
-    NSString *_remoteDeviceIdentifier;
-    NSString *_remoteAppLocalizedName;
-    WFImage *_remoteAppIcon;
-    INIntent *_remoteLocalizedIntent;
-    NSString *_remoteLanguageCode;
-    NSString *_bundleIdentifier;
-    NSSecurityScopedURLWrapper *_intentLocalizationTableBundleURL;
-    NSSecurityScopedURLWrapper *_widgetBundleScopedURL;
-    struct CGSize _defaultCardSize;
-    struct CGRect _initialCardFrame;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)t;
+- (id)\+T;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)J*T;
 - (id);
 - (id);
 - (void);
@@ -52,44 +33,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (struct CGSize);
 - (id);
-- (id);
+- (id)o;
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)ary";
 - (id);
 - (void);
-- (id);
+- (id)omesStoreC0C4DataO27PersistentContainerProtocolP;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) struct CGSize defaultCardSize; // @synthesize defaultCardSize=_defaultCardSize;
-@property(readonly, copy, nonatomic) NSString *fallbackDisplayName;
-@property(readonly, nonatomic) long long family; // @synthesize family=_family;
-@property(readonly, nonatomic) struct CGRect initialCardFrame; // @synthesize initialCardFrame=_initialCardFrame;
-@property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly, copy, nonatomic) NSSecurityScopedURLWrapper *intentLocalizationTableBundleURL; // @synthesize intentLocalizationTableBundleURL=_intentLocalizationTableBundleURL;
-@property(readonly, copy, nonatomic) WFImage *remoteAppIcon; // @synthesize remoteAppIcon=_remoteAppIcon;
-@property(readonly, copy, nonatomic) NSString *remoteAppLocalizedName; // @synthesize remoteAppLocalizedName=_remoteAppLocalizedName;
-@property(readonly, copy, nonatomic) NSString *remoteDeviceIdentifier; // @synthesize remoteDeviceIdentifier=_remoteDeviceIdentifier;
-@property(copy, nonatomic) NSString *remoteLanguageCode; // @synthesize remoteLanguageCode=_remoteLanguageCode;
-@property(retain, nonatomic) INIntent *remoteLocalizedIntent; // @synthesize remoteLocalizedIntent=_remoteLocalizedIntent;
-@property(readonly, nonatomic) unsigned long long resolvedWidgetConfigurationStyle;
-@property(readonly, nonatomic) _Bool usesWidgetAccentColor; // @synthesize usesWidgetAccentColor=_usesWidgetAccentColor;
-@property(readonly, nonatomic) NSSecurityScopedURLWrapper *widgetBundleScopedURL; // @synthesize widgetBundleScopedURL=_widgetBundleScopedURL;
-@property(readonly, nonatomic) unsigned long long widgetConfigurationStyle; // @synthesize widgetConfigurationStyle=_widgetConfigurationStyle;
-@property(readonly, nonatomic) unsigned long long widgetConfigurationType; // @synthesize widgetConfigurationType=_widgetConfigurationType;
-@property(readonly, copy, nonatomic) NSString *widgetDescription; // @synthesize widgetDescription=_widgetDescription;
-@property(readonly, copy, nonatomic) NSString *widgetDisplayName; // @synthesize widgetDisplayName=_widgetDisplayName;
-@property(readonly, nonatomic, getter=isWidgetExtensionInformationLoaded) _Bool widgetExtensionInformationLoaded;
-@property(readonly, nonatomic) NSColor *widgetPrimaryColor; // @synthesize widgetPrimaryColor=_widgetPrimaryColor;
-@property(readonly, nonatomic) NSColor *widgetTintColor; // @synthesize widgetTintColor=_widgetTintColor;
 
 @end
 

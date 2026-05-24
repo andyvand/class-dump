@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDeviceCapabilities, NSString, NSUUID;
+@class NSString, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaDeviceInfo
 {
     NSString *_deviceID;
-    NSUUID *_modelID;
-    NSUUID *_mediaRouteUUID;
-    HMDDeviceCapabilities *_capabilities;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)A;
+- (id);
+- (id)P;
 - (id)ñÐ1Â0@ù
 × ;
 - (id)OS_xpc_object>",&,N,V_boostMessage;
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)(õÿC;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDeviceCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) NSUUID *mediaRouteUUID; // @synthesize mediaRouteUUID=_mediaRouteUUID;
 @property(retain, nonatomic) NSUUID *modelID; // @synthesize modelID=_modelID;
 
 @end

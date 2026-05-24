@@ -7,20 +7,11 @@
 @interface HMDDiscoveryController
 {
     id queue;
-    id logger;
-    id discoveryNeedsAssertion;
-    id isDiscoveryAsserted;
-    id rpInfraWifiDiscoveryClient;
-    id sfDiscoveryClient;
-    id rapportDiscoveryClientFactory;
-    id sharingDiscoveryClientFactory;
-    id visibleSFDevices;
-    id assertions;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void)8¥OÿUs$ ?;

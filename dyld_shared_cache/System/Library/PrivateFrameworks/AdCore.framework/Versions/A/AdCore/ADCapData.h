@@ -6,29 +6,17 @@
 
 #import <AdCore/ADSingleton.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface ADCapData : ADSingleton
 {
     NSString *_toroID;
-    NSMutableArray *_frequencyCapData;
-    NSMutableArray *_clickCountData;
-    NSMutableArray *_downloadData;
-    NSString *_keychainKey;
-    NSString *_title;
-    long long _storageType;
 }
 
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clickCountData; // @synthesize clickCountData=_clickCountData;
-@property(retain, nonatomic) NSMutableArray *downloadData; // @synthesize downloadData=_downloadData;
-@property(retain, nonatomic) NSMutableArray *frequencyCapData; // @synthesize frequencyCapData=_frequencyCapData;
 @property(retain, nonatomic) NSString *keychainKey; // @synthesize keychainKey=_keychainKey;
-@property(nonatomic) long long storageType; // @synthesize storageType=_storageType;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *toroID; // @synthesize toroID=_toroID;
 
 @end
 

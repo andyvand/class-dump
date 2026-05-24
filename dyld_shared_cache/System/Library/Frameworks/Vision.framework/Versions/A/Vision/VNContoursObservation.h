@@ -6,22 +6,16 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface VNContoursObservation : VNObservation
 {
     NSData *_compressedPoints;
-    struct CGSize _imageSize;
-    struct os_unfair_lock_s _pathLock;
-    struct CGPath *_normalizedPath;
-    struct shared_ptr<apple::vision::libraries::autotrace::EPolygonList> _polygonList;
-    struct vector<unsigned int, std::allocator<unsigned int>> _topLevelContoursIndices;
-    struct vector<std::vector<unsigned int>, std::allocator<std::vector<unsigned int>>> _contourChildrenIndices;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)b;
 - (long long);
 - (const struct EPolygonList *);
 - (struct CGPath *);
@@ -33,18 +27,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)_perItemCompletionBlockFor:(id)arg1 version:thumbnailURL:thumbnailData:contentType:metadata:error: /* Error: Ran out of types for this method. */;
+- (id)#;
 - (_Bool);
 - (void);
-- (void)alue;
+- (void)appClipCodeMetadataValue;
 - (id);
 
 // Remaining properties
 @property(readonly) long long contourCount;
-@property(readonly) struct CGPath *normalizedPath;
-@property(readonly) long long topLevelContourCount;
-@property(readonly) NSArray *topLevelContours;
 
 @end
 

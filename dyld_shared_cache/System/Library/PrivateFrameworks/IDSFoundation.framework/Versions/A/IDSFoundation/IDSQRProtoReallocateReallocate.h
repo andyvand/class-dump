@@ -13,8 +13,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ment";
+- (void)_invoke;
 - (id);
 - (id);
 

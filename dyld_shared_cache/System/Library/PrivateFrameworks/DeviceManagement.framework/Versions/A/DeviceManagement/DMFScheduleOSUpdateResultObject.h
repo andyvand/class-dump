@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface DMFScheduleOSUpdateResultObject
 {
     unsigned long long _action;
-    NSString *_productKey;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -19,14 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!t;
 - (unsigned long long);
-- (void);
+- (void)autocompleteLabelTextColor;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSString *productKey; // @synthesize productKey=_productKey;
 
 @end
 

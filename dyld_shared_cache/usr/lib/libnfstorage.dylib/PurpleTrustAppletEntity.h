@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
+@class NSObject, NSString;
 
 @interface PurpleTrustAppletEntity
 {
@@ -14,9 +14,7 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject *blob; // @dynamic blob;
-@property(retain, nonatomic) NSSet *purpleTrust; // @dynamic purpleTrust;
 @property(copy, nonatomic) NSString *uniqueIdentifier; // @dynamic uniqueIdentifier;
-@property(nonatomic) int version; // @dynamic version;
 
 @end
 

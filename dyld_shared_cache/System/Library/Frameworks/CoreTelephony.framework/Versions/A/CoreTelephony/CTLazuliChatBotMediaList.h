@@ -11,15 +11,15 @@
     CTLazuliChatBotMediaEntryList *_entry;
 }
 
-+ (_Bool);
++ (_Bool)%@ requestEndTime:%@ responseStartTime:%@ responseEndTime:%@ error:%@ byteRange:(%lu,%lu) readFromCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)0@ù
 × ;

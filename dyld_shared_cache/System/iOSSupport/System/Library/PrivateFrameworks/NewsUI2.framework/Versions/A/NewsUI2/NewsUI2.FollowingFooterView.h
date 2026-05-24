@@ -7,9 +7,6 @@
 @interface NewsUI2.FollowingFooterView
 {
     id backgroundView;
-    id stripe;
-    id topHairline;
-    id bottomHairline;
 }
 
 - (id);

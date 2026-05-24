@@ -7,7 +7,6 @@
 @interface SIRINLURepetitionResult
 {
     unsigned int _asrHypothesisIndex;
-    unsigned int _repetitionType;
 }
 
 + (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property unsigned int asrHypothesisIndex; // @synthesize asrHypothesisIndex=_asrHypothesisIndex;
-@property unsigned int repetitionType; // @synthesize repetitionType=_repetitionType;
 
 @end
 

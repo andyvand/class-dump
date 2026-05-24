@@ -5,12 +5,16 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
+@protocol MTLCommandBuffer, MTLDevice;
 
 @protocol MTLCommandQueue
+- (void)I;
+- (void)SigningIdentifier;
+- (id <MTLDevice>)) ;
+- (id <MTLCommandBuffer>) ;
+- (void)( ;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(copy) NSString *label;
 @end
 

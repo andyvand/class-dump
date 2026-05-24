@@ -6,24 +6,10 @@
 
 #import <CoreHAP/HAP2AsynchronousOperation.h>
 
-@class HAP2AccessoryServerController, HMFTimer, NSString;
-@protocol HAP2AccessoryServerEncoding, HAP2AccessoryServerTransportCommon, HAP2AccessoryServerTransportRequestEndpoint, HAP2EncodedRequest, HAP2EncodedResponse;
-
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerControllerOperation : HAP2AsynchronousOperation
 {
     _Bool _attemptedSessionRefresh;
-    HMFTimer *_timer;
-    HAP2AccessoryServerController *_controller;
-    id <HAP2AccessoryServerEncoding> _encoding;
-    id <HAP2AccessoryServerTransportCommon> _transport;
-    id <HAP2AccessoryServerTransportRequestEndpoint> _endpoint;
-    NSString *_mimeType;
-    double _timeout;
-    unsigned long long _options;
-    long long _dscpPriority;
-    id <HAP2EncodedRequest> _request;
-    id <HAP2EncodedResponse> _response;
 }
 
 - (id);
@@ -38,16 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)cteristics:timeout:completion: /* Error: Ran out of types for this method. */;
+- (void)readValuesForCharacteristics:timeout:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

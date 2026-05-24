@@ -9,8 +9,6 @@
 @interface OSActivityCreateEvent : OSActivityEvent
 {
     unsigned long long _creatorActivityID;
-    unsigned long long _creatorProcessUniqueID;
-    unsigned long long _senderProgramCounter;
 }
 
 - (unsigned long long);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long creatorActivityID; // @synthesize creatorActivityID=_creatorActivityID;
-@property(readonly, nonatomic) unsigned long long creatorProcessUniqueID; // @synthesize creatorProcessUniqueID=_creatorProcessUniqueID;
-@property(readonly, nonatomic) unsigned long long senderProgramCounter; // @synthesize senderProgramCounter=_senderProgramCounter;
 
 @end
 

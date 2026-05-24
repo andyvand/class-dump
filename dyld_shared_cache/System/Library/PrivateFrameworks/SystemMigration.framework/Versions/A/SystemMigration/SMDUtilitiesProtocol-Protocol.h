@@ -5,5 +5,7 @@
 //
 
 @protocol SMDUtilitiesProtocol
+- (void)P;
+- (void);
 @end
 

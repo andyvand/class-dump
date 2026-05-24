@@ -11,9 +11,9 @@
     struct OpaqueFigCaptionRendererRenderedLegibleOutputNodeContentLayerInternal *layerInternal;
 }
 
-- (void);
+- (void);
 - (id);
-- (id)ckTimeClosedCaptionStringKey;
+- (id)QuickTimeClosedCaptionStringKey;
 
 @end
 

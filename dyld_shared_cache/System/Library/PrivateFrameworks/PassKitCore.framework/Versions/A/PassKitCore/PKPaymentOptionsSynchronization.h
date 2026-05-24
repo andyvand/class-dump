@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PKPaymentOptionsSynchronizationDelegate;
-
 @interface PKPaymentOptionsSynchronization
 {
     _Bool _shouldSyncToCloud;
-    id <PKPaymentOptionsSynchronizationDelegate> _delegate;
 }
 
 + (_Bool);
@@ -18,12 +15,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (void);
-- (void)s;
+- (void)enrolledPaymentPlans;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKPaymentOptionsSynchronizationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool shouldSyncToCloud; // @synthesize shouldSyncToCloud=_shouldSyncToCloud;
 
 @end

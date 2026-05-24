@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSDictionary, NSMutableDictionary, NSString;
+@class HMFTimer;
 
 @interface HMIPreference
 {
     struct os_unfair_lock_s _lock;
-    HMFTimer *_preferenceCacheFlushTimer;
-    NSMutableDictionary *_preferenceCache;
-    NSMutableDictionary *_preferenceLoggedValues;
-    NSMutableDictionary *_preferenceOverridesInternal;
 }
 
 + (void);
@@ -25,7 +21,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)6;
 + (_Bool);
 + (id);
 + (id)ó;
@@ -33,14 +29,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C9	;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (id);
@@ -48,13 +44,13 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (double);
 - (double);
 - (double);
-- (void);
-- (_Bool);
+- (void)!;
+- (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -66,24 +62,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned int analysisQOS;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isIdle;
-@property(readonly) double maxAnalysisFPSForCurrentThermalLevel;
-@property(readonly, nonatomic) NSMutableDictionary *preferenceCache; // @synthesize preferenceCache=_preferenceCache;
 @property(readonly) HMFTimer *preferenceCacheFlushTimer; // @synthesize preferenceCacheFlushTimer=_preferenceCacheFlushTimer;
-@property(readonly, nonatomic) NSMutableDictionary *preferenceLoggedValues; // @synthesize preferenceLoggedValues=_preferenceLoggedValues;
-@property(readonly) NSDictionary *preferenceOverrides;
-@property(readonly, nonatomic) NSMutableDictionary *preferenceOverridesInternal; // @synthesize preferenceOverridesInternal=_preferenceOverridesInternal;
-@property(readonly) _Bool shouldEnableTorsoRecognition;
-@property(readonly) _Bool shouldUseCPUOnlyForVisionFaceDetection;
-@property(readonly) Class superclass;
-@property(readonly) _Bool usesCPUOnly;
 
 @end
 

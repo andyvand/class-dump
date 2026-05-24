@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPBAccessoryReference, NSData;
+@class HMPBAccessoryReference;
 
 @interface HMPBCommandContainer
 {
     HMPBAccessoryReference *_accessoryReference;
-    NSData *_clusterID;
-    NSData *_commandFields;
-    NSData *_commandID;
-    NSData *_endpointID;
-    NSData *_expectedValues;
 }
 
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -28,16 +23,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)BackgroundPluggedInTime;
+- (_Bool)PLAccountingOperator_EventForward_QualificationEvents;
+- (id)policy_ProjectedLifetime_controller_integral_error;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)immortalize;
 - (void);
 - (id);
 - (id);
@@ -46,18 +41,7 @@
 - (_Bool)3¢b&;
 
 // Remaining properties
-@property(retain, nonatomic) HMPBAccessoryReference *accessoryReference; // @synthesize accessoryReference=_accessoryReference;
-@property(retain, nonatomic) NSData *clusterID; // @synthesize clusterID=_clusterID;
-@property(retain, nonatomic) NSData *commandFields; // @synthesize commandFields=_commandFields;
-@property(retain, nonatomic) NSData *commandID; // @synthesize commandID=_commandID;
-@property(retain, nonatomic) NSData *endpointID; // @synthesize endpointID=_endpointID;
-@property(retain, nonatomic) NSData *expectedValues; // @synthesize expectedValues=_expectedValues;
-@property(readonly, nonatomic) _Bool hasAccessoryReference;
-@property(readonly, nonatomic) _Bool hasClusterID;
-@property(readonly, nonatomic) _Bool hasCommandFields;
 @property(readonly, nonatomic) _Bool hasCommandID;
-@property(readonly, nonatomic) _Bool hasEndpointID;
-@property(readonly, nonatomic) _Bool hasExpectedValues;
 
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _MRTelevisionControllerBlockCallback
 {
     CDUnknownBlockType _callbackBlock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType);
+- (id)AFQuickStopActionInterruptSiriVoiceOutput;
 - (void)bestAvailableContent;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType callbackBlock; // @synthesize callbackBlock=_callbackBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

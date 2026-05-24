@@ -12,11 +12,11 @@
 {
 }
 
++ (id)initWithContainer:(long long)arg1 startElement:(id)arg2 searchKeys:searchText:visibleOnly: /* Error: Ran out of types for this method. */;
++ (id)initWithConfiguration:(long long)arg1;
 + (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-- (void);
++ (unsigned long long)D_PRINTF_ARG_PROTO;
+- (void)3;
 - (id);
 
 // Remaining properties

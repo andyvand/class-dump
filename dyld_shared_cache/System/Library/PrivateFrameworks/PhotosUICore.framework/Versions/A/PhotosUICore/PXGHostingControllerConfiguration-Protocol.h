@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, PXGViewEnvironment, PXMediaProvider;
+@class NSColor;
 
 @protocol PXGHostingControllerConfiguration
+- (_Bool);
+- (void)@;
 - (double):Ð1Â0@ù
 ×  /* Error: Ran out of types for this method. */;
 - (NSColor *);
-- (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *backgroundColor;
-@property(nonatomic) _Bool deferReferenceSizeChanges;
-@property(nonatomic) double displayScale;
-@property(nonatomic) _Bool isVisible;
-@property(retain, nonatomic) PXMediaProvider *mediaProvider;
-@property(nonatomic) struct CGSize referenceSize;
 @property(copy, nonatomic) CDUnknownBlockType rootLayoutPromise;
-@property(copy, nonatomic) PXGViewEnvironment *viewEnvironment;
 @end
 

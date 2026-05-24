@@ -9,12 +9,9 @@
 @interface CKBrowserDraggedSticker
 {
     CKAnimatedImage *_animatedImage;
-    double _scale;
-    double _rotationAngle;
-    struct CGRect _frame;
 }
 
-- (id);
+- (id)oller senderNameForMentions:(id)arg1 ];
 - (id);
 - (double);
 - (id);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

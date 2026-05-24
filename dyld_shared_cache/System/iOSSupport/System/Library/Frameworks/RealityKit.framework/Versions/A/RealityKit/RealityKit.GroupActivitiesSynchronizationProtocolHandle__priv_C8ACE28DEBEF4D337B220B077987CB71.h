@@ -8,7 +8,6 @@
 {
     id participant;
     id address;
-    id handle;
 }
 
 @end

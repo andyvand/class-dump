@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSIndexSet, NSLock, NSMutableIndexSet, NSMutableRangeArray, NSString, NSTextFinderAsyncSearch;
+@class NSTextFinderAsyncSearch;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextFinderAsyncSearchOperation
 {
     NSTextFinderAsyncSearch *_searchController;
-    NSString *_searchString;
-    NSString *_contentString;
-    unsigned long long _searchOptions;
-    unsigned long long _matchOptions;
-    NSMutableRangeArray *_matchRanges;
-    NSMutableIndexSet *_searchedIndexes;
-    NSMutableIndexSet *_allSearchedIndexes;
-    NSLock *_accessLock;
-    NSCondition *_condition;
-    NSIndexSet *_indexesWaitedFor;
-    _Bool _finished;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)CFDictionary;
+- (unsigned long long)_allocAndCopyData(const uint8_t *__single __counted_by(dataLength), uint32_t);
+- (_Bool)_single __terminated_by(0), size_t);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)e splitting an existing node;
+- (_Bool)tion for delegate class %llu was interrupted;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)P;
 - (void)
 × ;
 - (void);
@@ -49,14 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSString *contentString; // @synthesize contentString=_contentString;
-@property(copy) NSIndexSet *indexesWaitedFor; // @synthesize indexesWaitedFor=_indexesWaitedFor;
-@property unsigned long long matchOptions; // @synthesize matchOptions=_matchOptions;
-@property(readonly) NSMutableRangeArray *matchRanges; // @synthesize matchRanges=_matchRanges;
 @property(retain) NSTextFinderAsyncSearch *searchController; // @synthesize searchController=_searchController;
-@property unsigned long long searchOptions; // @synthesize searchOptions=_searchOptions;
-@property(copy) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) NSMutableIndexSet *searchedIndexes; // @synthesize searchedIndexes=_searchedIndexes;
 
 @end
 

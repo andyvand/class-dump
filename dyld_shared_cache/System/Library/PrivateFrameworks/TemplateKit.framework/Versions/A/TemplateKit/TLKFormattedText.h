@@ -6,33 +6,26 @@
 
 #import <TemplateKit/TLKFormattedTextItem.h>
 
-@class NSString;
-
 @interface TLKFormattedText : TLKFormattedTextItem
 {
     long long _verticalTextAlignment;
-    long long _encapsulationStyle;
-    NSString *_string;
-    unsigned long long _maxLines;
 }
 
 + (id);
-- (long long);
+- (long long)deleteDate;
 - (void);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)
+;
+- (void)ectOnIdleTimer:(unsigned long long)arg1;
+- (unsigned long long)onTimes:withTimeBudget: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long encapsulationStyle; // @synthesize encapsulationStyle=_encapsulationStyle;
-@property(nonatomic) unsigned long long maxLines; // @synthesize maxLines=_maxLines;
-@property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 @property(nonatomic) long long verticalTextAlignment; // @synthesize verticalTextAlignment=_verticalTextAlignment;
 
 @end

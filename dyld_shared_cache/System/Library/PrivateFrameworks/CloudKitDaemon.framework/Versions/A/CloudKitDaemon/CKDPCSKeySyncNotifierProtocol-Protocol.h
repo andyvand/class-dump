@@ -5,6 +5,8 @@
 //
 
 @protocol CKDPCSKeySyncNotifierProtocol
+- (_Bool)%1.1f seconds
+;
 - (void);
 @end
 

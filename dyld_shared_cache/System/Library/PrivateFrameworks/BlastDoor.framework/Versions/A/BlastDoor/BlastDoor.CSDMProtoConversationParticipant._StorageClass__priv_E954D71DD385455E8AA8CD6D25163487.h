@@ -7,38 +7,6 @@
 @interface BlastDoor.CSDMProtoConversationParticipant._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _version;
-    id _identifier;
-    id _handle;
-    id _avcData;
-    id _isMomentsAvailable;
-    id _isScreenSharingAvailable;
-    id _isGondolaCallingAvailable;
-    id _isPersonaAvailable;
-    id _isLightweight;
-    id _sharePlayProtocolVersion;
-    id _options;
-    id _isGftdowngradeToOneToOneAvailable;
-    id _guestModeEnabled;
-    id _association;
-    id _isUplusNdowngradeAvailable;
-    id _avMode;
-    id _supportsLeaveContext;
-    id _isUplusOneScreenSharingAvailable;
-    id _personaHandshakeData;
-    id _isSpatialPersonaEnabled;
-    id _isUplusOneAvlessAvailable;
-    id _visionFeatureVersion;
-    id _visionCallEstablishmentVersion;
-    id _isUplusOneVisionToVisionAvailable;
-    id _supportsRequestToScreenShare;
-    id _spatialPersonaGenerationCounter;
-    id _isPhotosSharePlayAvailable;
-    id _presentationMode;
-    id _stableDeviceIdentifier;
-    id _cluster;
-    id _isTranslationAvailable;
-    id _isNearbySharePlay;
-    id _nearbyFeatureVersion;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBLocation;
+@class _INPBLocation;
 
 @interface _INPBReportIncidentIntentResponse
 {
     CDStruct_95bda58d _transportTypes;
-    struct _has;
-    _INPBLocation *_location;
-    NSArray *_supportedTypes;
 }
 
 + (Class);
@@ -25,18 +22,18 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_adaptiveTriggersComponentStatusUpdatedHandler;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (int *);
+- (int *);
 - (int);
 - (void);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id)0@ù
 × ;
@@ -46,19 +43,7 @@
 - (void)SÍÿ½;QS;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBLocation *location; // @synthesize location=_location;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedTypes; // @synthesize supportedTypes=_supportedTypes;
-@property(readonly, nonatomic) unsigned long long supportedTypesCount;
-@property(readonly, nonatomic) int *transportTypes;
-@property(readonly, nonatomic) unsigned long long transportTypesCount;
 
 @end
 

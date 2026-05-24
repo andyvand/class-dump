@@ -6,26 +6,24 @@
 
 #import <AppStoreKit/ASKLoadResourceOperation.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ASKLoadBundleResourceOperation : ASKLoadResourceOperation
 {
     NSString *_resourceName;
-    NSArray *_searchBundles;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)o;
+- (id)co;
 - (id);
-- (id);
-- (id);
+- (id)o;
 - (id);
 - (void);
 - (void)ycleMetricsReporterP;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *resourceName; // @synthesize resourceName=_resourceName;
-@property(readonly, copy, nonatomic) NSArray *searchBundles; // @synthesize searchBundles=_searchBundles;
 
 @end
 

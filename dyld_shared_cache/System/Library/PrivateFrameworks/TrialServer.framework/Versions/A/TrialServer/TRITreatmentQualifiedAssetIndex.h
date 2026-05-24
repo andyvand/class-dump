@@ -9,26 +9,24 @@
 @interface TRITreatmentQualifiedAssetIndex
 {
     unsigned int _index;
-    NSString *_treatmentId;
 }
 
-+ (id);
-- (id);
-- (id);
-- (_Bool);
++ (id)exifDateTimeFromDate:(id)arg1;
+- (id)setProportionalGain:(id)arg1;
+- (id)rootNode;
+- (_Bool)layerStackByUpdatingInactiveFrame:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id)!;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int)A;
 - (void)a×!,Gù!°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int index; // @synthesize index=_index;
 @property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end

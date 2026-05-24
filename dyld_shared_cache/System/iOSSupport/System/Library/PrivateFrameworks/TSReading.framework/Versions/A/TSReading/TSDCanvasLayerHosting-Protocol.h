@@ -4,16 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, TSDCanvasLayer, TSDCanvasView, TSDInteractiveCanvasController;
+@class CALayer, TSDInteractiveCanvasController;
 
 @protocol TSDCanvasLayerHosting
+- (TSDInteractiveCanvasController *)\z;
+- (void)/;
+- (void)SKExtensions;
 - (CALayer *);
 
+@optional
+- (_Bool);
+
 // Remaining properties
-@property(readonly, nonatomic) TSDCanvasLayer *canvasLayer;
-@property(readonly, nonatomic) TSDCanvasView *canvasView;
-@property(readonly, nonatomic) CALayer *clippingLayer;
 @property(nonatomic) TSDInteractiveCanvasController *interactiveCanvasController;
-@property(readonly, nonatomic) CALayer *layer;
 @end
 

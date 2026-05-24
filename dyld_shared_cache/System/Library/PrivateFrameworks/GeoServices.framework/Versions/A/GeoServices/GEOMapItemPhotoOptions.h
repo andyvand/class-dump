@@ -7,8 +7,6 @@
 @interface GEOMapItemPhotoOptions
 {
     _Bool _allowSmaller;
-    long long _preferredCropStyle;
-    long long _preferredFormat;
 }
 
 + (id);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowSmaller; // @synthesize allowSmaller=_allowSmaller;
-@property(readonly, nonatomic) long long preferredCropStyle; // @synthesize preferredCropStyle=_preferredCropStyle;
-@property(readonly, nonatomic) long long preferredFormat; // @synthesize preferredFormat=_preferredFormat;
 
 @end
 

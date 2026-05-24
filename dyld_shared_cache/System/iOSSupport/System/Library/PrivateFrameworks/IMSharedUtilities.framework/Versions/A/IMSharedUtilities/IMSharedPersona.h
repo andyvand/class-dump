@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMSharedPersona
 {
     NSString *_senderID;
-    NSString *_suggestedDisplayName;
 }
 
 + (id);
@@ -22,12 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void)er;
+- (void)primaryPhoneNumber;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, copy, nonatomic) NSString *senderID; // @synthesize senderID=_senderID;
-@property(readonly, copy, nonatomic) NSString *suggestedDisplayName; // @synthesize suggestedDisplayName=_suggestedDisplayName;
 
 @end
 

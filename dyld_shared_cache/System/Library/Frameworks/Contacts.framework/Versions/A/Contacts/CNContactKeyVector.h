@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNContactKeyVector
 {
     long long _bitBuckets[2];
@@ -14,24 +12,24 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)ng if it is correct;
 + (id);
 + (_Bool);
 - (long long *);
 - (_Bool);
 - (id);
 - (id);
+- (id)should listen for access barring changes;
+- (id)oggled;
+- (id)20MessageEventDelegateEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEEE;
+- (void)intervention required;
+- (id);
+- (id)a";
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -41,17 +39,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)n;
 - (id)mo, ($rmo.lastFourDigits IN %@)).@count != 0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

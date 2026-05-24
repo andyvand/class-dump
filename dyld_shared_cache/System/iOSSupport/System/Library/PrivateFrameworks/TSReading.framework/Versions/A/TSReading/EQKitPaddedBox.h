@@ -9,23 +9,18 @@
 @interface EQKitPaddedBox : EQKitBox
 {
     EQKitBox *mBox;
-    double mHeight;
-    double mDepth;
-    double mWidth;
-    double mLspace;
-    double mVoffset;
 }
 
 - (void);
 - (_Bool);
 - (double);
-- (double);
+- (double)&;
 - (id);
 - (struct CGRect);
 - (_Bool);
 - (double);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (double);
@@ -36,11 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;
-@property(readonly, nonatomic) double depth;
-@property(readonly, nonatomic) double height;
-@property(readonly, nonatomic) double lspace; // @synthesize lspace=mLspace;
-@property(readonly, nonatomic) double voffset; // @synthesize voffset=mVoffset;
-@property(readonly, nonatomic) double width;
 
 @end
 

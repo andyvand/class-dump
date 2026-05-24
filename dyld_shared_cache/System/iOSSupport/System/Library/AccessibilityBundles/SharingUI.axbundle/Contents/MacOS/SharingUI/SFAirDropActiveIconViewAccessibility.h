@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-- (_Bool);
++ (Class);
++ (id)guration changes:%li,%li/%li => %i,%i/%i /* Error: Ran out of types for this method. */;
+- (_Bool)24q32;
 - (id);
 - (id);
 - (id);

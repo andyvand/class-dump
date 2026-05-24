@@ -11,14 +11,15 @@
     _CDInteractionStore *_store;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id),V_commandType;
++ (id)Tf,N,V_pommesCalibratedL1Score;
+- (id)bandonCountForEntityInUsingApp14Days;
+- (id)etSpeed;
+- (id)tType;
+- (id)nState;
+- (id)V_mapsAction;
+- (id)'K
+;
 - (void);
 - (void);
 - (id)nt %@ since not IDS eligible;

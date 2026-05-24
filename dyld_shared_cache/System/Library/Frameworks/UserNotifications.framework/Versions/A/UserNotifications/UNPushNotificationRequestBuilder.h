@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface UNPushNotificationRequestBuilder
 {
     NSDictionary *_payload;
-    NSString *_bundleIdentifier;
-    NSString *_identifier;
 }
 
 - (id);
@@ -20,14 +18,14 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)(;
+- (id);
+- (id)}	(;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id),;
 - (void);
 
 @end

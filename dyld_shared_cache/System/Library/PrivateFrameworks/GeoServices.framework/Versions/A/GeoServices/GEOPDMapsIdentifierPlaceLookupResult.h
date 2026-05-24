@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)?="has_type"b1"read_unknownFields"b1"read_brand"b1"read_category"b1"wrote_anyField"b1};
-- (id)inate: /* Error: Ran out of types for this method. */;
+- (id)_firstTimeOnRouteScoreInfoForSegment:location:currentRouteCoordinate: /* Error: Ran out of types for this method. */;
 - (id)è>;
 - (void);
 

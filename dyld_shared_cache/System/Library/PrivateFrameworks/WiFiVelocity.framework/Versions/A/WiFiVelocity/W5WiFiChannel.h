@@ -7,29 +7,27 @@
 @interface W5WiFiChannel
 {
     unsigned int _flags;
-    long long _channel;
 }
 
 + (_Bool);
 - (id);
+- (id)tem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)umeSliderRegularFullScreenWidth;
+- (_Bool)/crying_face;
 - (id);
 - (_Bool);
 - (void);
+- (id)timeStampWithSaltGrain;
 - (id);
-- (id);
 - (long long);
 - (long long);
-- (unsigned int);
-- (long long);
+- (unsigned int);
+- (long long)OfflineTranscription;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
 
 @end
 

@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSURLSession;
+@class AMSURLAction, AMSURLSession;
 
 @protocol AMSURLHandling
+- (void);
 
 @optional
-- (id);
+- (AMSURLAction *);
+- (void);
 - (void)çÏÿÿ4¿ýÿt¸ýÿ¯ýÿ;
 
 // Remaining properties

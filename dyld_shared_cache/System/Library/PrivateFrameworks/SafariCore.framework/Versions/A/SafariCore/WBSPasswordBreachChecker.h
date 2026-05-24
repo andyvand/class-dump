@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSPasswordBreachContext, WBSPasswordBreachQueuedPasswordBagManager, WBSPasswordBreachRequestManager;
+@class WBSPasswordBreachContext;
 
 @interface WBSPasswordBreachChecker
 {
     WBSPasswordBreachContext *_context;
-    WBSPasswordBreachQueuedPasswordBagManager *_bagManager;
-    WBSPasswordBreachRequestManager *_requestManager;
 }
 
 - (void);

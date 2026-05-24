@@ -6,16 +6,11 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSAffineTransform, QCRegion;
 @protocol QCImageProvider;
 
 @interface QCCroppedImageProvider : QCImageProvider
 {
     id <QCImageProvider> _originalProvider;
-    NSAffineTransform *_transformation;
-    struct CGRect _croppingRect;
-    QCRegion *_domainOfDefinition;
-    void *_unused2[4];
 }
 
 - (_Bool);
@@ -25,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);

@@ -11,15 +11,10 @@
 @interface CHPhoneNumber : CHLogger
 {
     _Bool _formattedRepresentationAttempted;
-    _Bool _normalizedRepresentationAttempted;
-    NSString *_formattedRepresentation;
-    NSString *_normalizedRepresentation;
-    NSString *_digits;
-    NSString *_isoCountryCode;
 }
 
 - (id);
-- (void);
+- (void)to generate external resource, file may not be present;
 - (_Bool);
 - (void);
 - (id);
@@ -32,11 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *digits; // @synthesize digits=_digits;
-@property(readonly, copy, nonatomic) NSString *formattedRepresentation; // @synthesize formattedRepresentation=_formattedRepresentation;
-@property(nonatomic) _Bool formattedRepresentationAttempted; // @synthesize formattedRepresentationAttempted=_formattedRepresentationAttempted;
-@property(copy, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(readonly, copy, nonatomic) NSString *normalizedRepresentation; // @synthesize normalizedRepresentation=_normalizedRepresentation;
-@property(nonatomic) _Bool normalizedRepresentationAttempted; // @synthesize normalizedRepresentationAttempted=_normalizedRepresentationAttempted;
 
 @end
 

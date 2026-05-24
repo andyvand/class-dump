@@ -9,17 +9,11 @@
 @interface UIKit._UILightEffectTransitionView : UIView
 {
     id transitionController;
-    id visibility;
-    id activationTransition;
-    id deactivationTransition;
-    id transitionSubviewOutset;
-    id transitionSubviews;
-    id hidesWhenIdle;
 }
 
 - (id);
 - (void);
-- (id)ventRecognizerDelegate;
+- (id)_UIFocusEventRecognizerDelegate;
 - (void)¤Ò;
 - (void);
 

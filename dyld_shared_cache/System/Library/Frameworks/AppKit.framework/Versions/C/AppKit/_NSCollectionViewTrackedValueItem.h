@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionViewTrackedValueItem
 {
     double _timeStamp;
-    double _value;
 }
 
 - (double);
 - (void);
 - (void);
-- (double)oScreenSizeSnappingFromResizedEdge:frame:state: /* Error: Ran out of types for this method. */;
+- (double)_shouldDoScreenSizeSnappingFromResizedEdge:frame:state: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double timeStamp; // @synthesize timeStamp=_timeStamp;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

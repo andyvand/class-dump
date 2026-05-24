@@ -6,21 +6,16 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSDictionary, NSMutableDictionary, NSString, VCSessionBandwidthAllocationTable;
+@class VCSessionBandwidthAllocationTable;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionUplinkBandwidthAllocatorMultiway : VCObject
 {
     VCSessionBandwidthAllocationTable *_table;
-    NSDictionary *_currentTable;
-    NSMutableDictionary *_streamTokenToEnableMap;
-    _Bool _redundancyEnabled;
-    _Bool _redundancyEnabledFor720Stream;
-    _Bool _camera1080pAvailable;
 }
 
 - (id);
-- (id);
+- (id)O� ;
 - (void);
 - (id);
 - (id);
@@ -41,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isCamera1080pAvailable) _Bool camera1080pAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isRedundancyEnabled) _Bool redundancyEnabled;
-@property(nonatomic, getter=isRedundancyEnabledFor720Stream) _Bool redundancyEnabledFor720Stream;
-@property(readonly) Class superclass;
 
 @end
 

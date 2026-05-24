@@ -6,34 +6,30 @@
 
 #import <CoreML/MLClassifier.h>
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface MLTreeEnsembleXGBoostClassifier : MLClassifier
 {
     NSArray *_labelsForDataPoints;
-    NSURL *_modelURL;
-    NSString *_objective;
-    unsigned long long _numClasses;
-    void *_booster;
 }
 
-- (CDStruct_b50b3e40);
-- (CDStruct_b50b3e40);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (CDStruct_b50b3e40)ommitted encoder;
+- (CDStruct_b50b3e40)nditionalAbortEvent:(id)arg1 ];
+- (void)getMTLInstanceBoundsKernel;
+- (void)copyMTLBVHGeometriesKernel;
+- (void)encodeMTLInstanceBVHInnerNodeKernel;
+- (void)native_inline;
+- (void)ThreadsPerThreadgroupArg;
+- (id):(id)arg1;
+- (id)maxTotalThreadsPerObjectThreadgroup;
+- (unsigned long long)stepFunction;
+- (id)MTLCodeGenServiceBuildRequest;
+- (id)8@?0;
+- (_Bool)elFormat.;
+- (_Bool)nctions:(id)arg1 ];
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)(̱;
 - (id);
 - (void *);
 - (void);
@@ -46,11 +42,7 @@
 - (id)Ã·"VlñÎº/[Q%ükþ°ÄY-þk5AÌ¸{îÔ =Ikþ4@-YzïÕ¡<H/[ÎºäiÞª?Kqì¾Ê_+!UøoúÀ´)]úoE1¼Èê¤ÐM9oúÄ°])þk%QÌ¸_+¾Êàm®ÚO;uèqú3¿ióx¥À¹Ï;
 
 // Remaining properties
-@property(nonatomic) void *booster; // @synthesize booster=_booster;
 @property(retain, nonatomic) NSArray *labelsForDataPoints; // @synthesize labelsForDataPoints=_labelsForDataPoints;
-@property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(nonatomic) unsigned long long numClasses; // @synthesize numClasses=_numClasses;
-@property(retain, nonatomic) NSString *objective; // @synthesize objective=_objective;
 
 @end
 

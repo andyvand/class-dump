@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (DOCExtensions)
-- (id);
+- (id)_bundleRecordForIdentifier: /* Error: Ran out of types for this method. */;
 @end
 

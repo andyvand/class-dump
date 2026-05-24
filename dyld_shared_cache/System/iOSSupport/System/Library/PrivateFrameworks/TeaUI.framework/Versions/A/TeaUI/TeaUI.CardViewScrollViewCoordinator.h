@@ -7,15 +7,10 @@
 @interface TeaUI.CardViewScrollViewCoordinator
 {
     id delegate;
-    id isEnabled;
-    id isTransitioning;
-    id trackingPollTimer;
-    id scrollView;
-    id scrollLock;
 }
 
 - (void);
-- (id);
+- (id)v40@0:8@"NSURLSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32 /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ØÒüÿÓüÿ4ÓüÿXÓüÿÓüÿÔÓüÿìÓüÿ|ÔüÿìÔüÿ0ÕüÿXÕüÿ;
 

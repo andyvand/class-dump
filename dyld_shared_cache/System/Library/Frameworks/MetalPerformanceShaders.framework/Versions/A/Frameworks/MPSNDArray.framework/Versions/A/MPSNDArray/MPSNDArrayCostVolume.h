@@ -9,18 +9,9 @@
 @interface MPSNDArrayCostVolume : MPSNDArrayMultiaryKernel
 {
     unsigned int _samplingMode;
-    unsigned int _nearestMode;
-    unsigned int _dataFormat;
-    int _paddingMode;
-    _Bool _relativeCoordinates;
-    _Bool _normalizeCoordinates;
-    _Bool _alignCorners;
-    _Bool _coordinate1DInWidth;
-    double _constantValue;
-    struct MPSNDArrayCostVolumeWindowSizes _windowSizes;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *)c;
 - (struct MPSNDArrayCostVolumeWindowSizes);
 - (void);
 - (void);
@@ -28,21 +19,22 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)_;
 - (_Bool);
 - (int);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)+;
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)?m;
+- (id)1~;
 - (unsigned int);
 - (_Bool);
 - (void);
-- (void);
+- (void)T
+;
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
 - (id);
@@ -52,16 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool alignCorners; // @synthesize alignCorners=_alignCorners;
-@property(nonatomic) double constantValue; // @synthesize constantValue=_constantValue;
-@property(nonatomic) _Bool coordinate1DInWidth; // @synthesize coordinate1DInWidth=_coordinate1DInWidth;
-@property(nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(nonatomic) unsigned int nearestMode; // @synthesize nearestMode=_nearestMode;
-@property(nonatomic) _Bool normalizeCoordinates; // @synthesize normalizeCoordinates=_normalizeCoordinates;
-@property(nonatomic) int paddingMode; // @synthesize paddingMode=_paddingMode;
-@property(nonatomic) _Bool relativeCoordinates; // @synthesize relativeCoordinates=_relativeCoordinates;
 @property(nonatomic) unsigned int samplingMode; // @synthesize samplingMode=_samplingMode;
-@property(nonatomic) struct MPSNDArrayCostVolumeWindowSizes windowSizes; // @synthesize windowSizes=_windowSizes;
 
 @end
 

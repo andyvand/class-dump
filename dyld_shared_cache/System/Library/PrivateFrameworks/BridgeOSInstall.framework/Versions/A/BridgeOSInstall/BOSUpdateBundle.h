@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BOSBundleComponentVersion, NSBundle, NSString, NSURL;
+@class NSBundle;
 
 @interface BOSUpdateBundle
 {
     unsigned long long _payloadArchiveSize;
-    NSString *_buildVersion;
-    NSString *_bundleIdentifier;
-    BOSBundleComponentVersion *_bundleVersion;
-    NSBundle *_bundle;
-    NSURL *_buildManifestURL;
 }
 
 - (void);
@@ -34,13 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSURL *buildManifestURL; // @synthesize buildManifestURL=_buildManifestURL;
-@property(retain) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
 @property(retain) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) BOSBundleComponentVersion *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly) NSString *payloadArchivePath;
-@property unsigned long long payloadArchiveSize; // @synthesize payloadArchiveSize=_payloadArchiveSize;
 
 @end
 

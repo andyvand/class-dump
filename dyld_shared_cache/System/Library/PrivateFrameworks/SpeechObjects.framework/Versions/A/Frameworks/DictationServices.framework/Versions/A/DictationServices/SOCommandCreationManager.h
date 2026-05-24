@@ -5,12 +5,10 @@
 //
 
 @class NSMutableArray;
-@protocol SOCommandCreationManagerDelegate;
 
 @interface SOCommandCreationManager
 {
     NSMutableArray *_activeEditors;
-    id <SOCommandCreationManagerDelegate> _delegate;
 }
 
 + (id);
@@ -21,11 +19,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)imageNameForMicaPackageState;
 
 // Remaining properties
 @property(readonly) NSMutableArray *activeEditors; // @synthesize activeEditors=_activeEditors;
-@property(nonatomic) id <SOCommandCreationManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

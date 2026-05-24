@@ -18,13 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)­ôàª«ôÿ;
+- (_Bool);
 - (void);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (void)Ñð1Â0@ù

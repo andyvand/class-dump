@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _INPBResolveObjectReferenceIntentResponse
 {
     struct _has;
-    NSData *_resolvedReferences;
 }
 
-+ (_Bool);
++ (_Bool));
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)ent/KernelCollections/;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -24,18 +23,10 @@
 - (void);
 - (id);
 - (id);
-- (void)TATION;
+- (void)ALGORITHMIC_RADIO_STATION;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasResolvedReferences;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *resolvedReferences; // @synthesize resolvedReferences=_resolvedReferences;
-@property(readonly) Class superclass;
 
 @end
 

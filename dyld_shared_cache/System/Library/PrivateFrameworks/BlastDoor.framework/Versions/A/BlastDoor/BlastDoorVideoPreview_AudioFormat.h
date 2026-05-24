@@ -11,16 +11,14 @@
     id videoPreview_AudioFormat;
 }
 
+- (id)60@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48B52B56 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *codec;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *formatName;
 
 @end
 

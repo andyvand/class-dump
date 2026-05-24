@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.PodcastStateController
 {
     id dataSources;
-    id stateMachinesByAdamId;
-    id stateMachinesByUuid;
-    id stateTransitionRules;
-    id stateMachineAccessQueue;
 }
 
 @end

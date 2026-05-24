@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface BMWriteService
 {
     struct os_unfair_lock_s _lock;
-    NSString *_useCase;
-    NSXPCConnection *_connection;
 }
 
 - (_Bool);
+- (void)PoorLinkSessionStartedByTDRecommendedCount;
+- (id)LastRoamScanFoundSSIDTransitionTarget;
 - (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)ERR:Failed to compute SAT score:err:%s /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SABlockingInfo
 {
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)X;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (int);
 - (id);
 - (id);
 - (long long);
-- (id)hunk;
+- (id)ReadChunk;
 
 // Remaining properties
-@property(readonly) int blockingPid;
 @property(readonly) unsigned long long blockingTid;
-@property(readonly) unsigned long long portDomain;
-@property(readonly) unsigned long long portFlags;
-@property(readonly) NSString *portName;
 
 @end
 

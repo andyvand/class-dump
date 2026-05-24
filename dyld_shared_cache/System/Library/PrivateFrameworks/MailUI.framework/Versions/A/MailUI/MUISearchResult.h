@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUISearchInAllMailboxesSuggestion, MUISearchRequestID, NSArray;
+@class NSArray;
 
 @interface MUISearchResult
 {
     unsigned char _phraseKind;
-    MUISearchInAllMailboxesSuggestion *_searchInAllMailboxesSuggestion;
-    NSArray *_suggestions;
-    NSArray *_categories;
-    MUISearchRequestID *_requestID;
 }
 
 - (void);
-- (id);
+- (id);
 - (unsigned char);
 - (id);
 - (id);
 - (id);
-- (void)bilityMarkerUIElements: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityMarkerUIElements: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(readonly, nonatomic) unsigned char phraseKind; // @synthesize phraseKind=_phraseKind;
-@property(readonly, nonatomic) MUISearchRequestID *requestID; // @synthesize requestID=_requestID;
-@property(retain, nonatomic) MUISearchInAllMailboxesSuggestion *searchInAllMailboxesSuggestion; // @synthesize searchInAllMailboxesSuggestion=_searchInAllMailboxesSuggestion;
 @property(readonly, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end

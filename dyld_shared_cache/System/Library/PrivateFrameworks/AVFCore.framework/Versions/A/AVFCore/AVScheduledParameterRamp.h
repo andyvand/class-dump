@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVScheduledParameterRamp
 {
@@ -16,23 +14,21 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)0@ù
 × ;
-- (id);
-- (id);
-- (id);
+- (id)_replacePunctuation;
+- (id)e_detector:(CDStruct_1b6d18a9)arg1:Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)EARAudioResult;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)?
+kB;
 - (id);
 - (CDStruct_e83c9415);
-- (id)alPlayer: /* Error: Ran out of types for this method. */;
+- (id)_linkAndSyncAudioSessionWithInterstitialPlayer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, getter=_additionalFigRepresentationObjects) NSArray *additionalFigRepresentationObjects;
-@property(readonly) id endValue;
-@property(readonly) id startValue;
 @property(readonly) CDStruct_e83c9415 timeRange;
 
 @end

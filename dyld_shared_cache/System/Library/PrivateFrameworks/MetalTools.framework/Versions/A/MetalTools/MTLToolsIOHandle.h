@@ -6,8 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-
 @interface MTLToolsIOHandle : MTLToolsObject
 {
 }
@@ -18,29 +16,17 @@
 - (void *);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)_k;
+- (void)p;
 - (unsigned long long)32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
-@property(readonly) unsigned int vnioID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R
-
 
 @end
 

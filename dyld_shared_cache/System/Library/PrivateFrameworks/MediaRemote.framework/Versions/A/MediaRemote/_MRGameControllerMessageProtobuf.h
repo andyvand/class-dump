@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRGameControllerButtonsProtobuf, _MRGameControllerDigitizerProtobuf, _MRGameControllerMotionProtobuf;
-
 @interface _MRGameControllerMessageProtobuf
 {
     unsigned long long _controllerID;
-    _MRGameControllerButtonsProtobuf *_buttons;
-    _MRGameControllerDigitizerProtobuf *_digitizer;
-    _MRGameControllerMotionProtobuf *_motion;
-    CDStruct_669c4a63 _has;
 }
 
 - (void);
+- (void)_;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)q
+;
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)or User UUID:(id)arg1 %@;
+- (id)%@;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void)ConnectionDate;
+- (id)_;
+- (id)SiriRecognition;
+- (void)_hostedRoutingConnectionDate;
 
 // Remaining properties
-@property(retain, nonatomic) _MRGameControllerButtonsProtobuf *buttons; // @synthesize buttons=_buttons;
-@property(nonatomic) unsigned long long controllerID; // @synthesize controllerID=_controllerID;
-@property(retain, nonatomic) _MRGameControllerDigitizerProtobuf *digitizer; // @synthesize digitizer=_digitizer;
-@property(readonly, nonatomic) _Bool hasButtons;
 @property(nonatomic) _Bool hasControllerID;
-@property(readonly, nonatomic) _Bool hasDigitizer;
-@property(readonly, nonatomic) _Bool hasMotion;
-@property(retain, nonatomic) _MRGameControllerMotionProtobuf *motion; // @synthesize motion=_motion;
 
 @end
 

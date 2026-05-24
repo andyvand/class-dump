@@ -5,6 +5,7 @@
 //
 
 @protocol HMDAccessorySettingsLocalMessageHandlerDelegate
+- (void)Password;
 - (void)	
 ;
 @end

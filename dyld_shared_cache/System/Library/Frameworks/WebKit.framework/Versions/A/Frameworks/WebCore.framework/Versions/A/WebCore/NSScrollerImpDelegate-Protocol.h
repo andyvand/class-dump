@@ -7,7 +7,11 @@
 @class CALayer;
 
 @protocol NSScrollerImpDelegate
+- (struct CGRect);
 - (CALayer *)ëgæàpûãb@eï{à3ãoæçùâain-loròå}`tégàoÉìiáçeåb@cZ`wtaj[àV3óèSúôè=ÇaòæzÒòç¹odõëè'ctivåæ¬Æhealtèçáesenôç¢-ï	3@[	èHdweòç¼óôçÝitory®
 çwtudeìå©;
+
+@optional
+- (void);
 @end
 

@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMDocument, DOMDocumentFragment, DOMElement, LPCSSResolver, LPCaptionBarPresentationProperties, LPHTMLComponent, LPImage, LPImagePresentationProperties, LPLinkMetadata, LPMetadataProvider, LPPointUnit, LPTheme, NSColor, NSString, NSURL;
-@protocol LPLinkHTMLGeneratorDelegate;
+@class DOMDocument, LPMetadataProvider;
 
 @interface LPLinkHTMLGenerator
 {
     LPMetadataProvider *_pendingMetadataProvider;
-    _Bool _mayReceiveAdditionalMetadata;
-    _Bool _usesComputedPresentationProperties;
-    LPCaptionBarPresentationProperties *_captionBar;
-    LPCaptionBarPresentationProperties *_mediaTopCaptionBar;
-    LPCaptionBarPresentationProperties *_mediaBottomCaptionBar;
-    NSString *_quotedText;
-    LPImage *_image;
-    LPImagePresentationProperties *_imageProperties;
-    DOMElement *_rootElement;
-    LPHTMLComponent *_linkComponent;
-    _Bool _everBuiltView;
-    _Bool _applyCornerRadiusToLink;
-    _Bool _isPreliminary;
-    _Bool __disableAutoPlay;
-    id <LPLinkHTMLGeneratorDelegate> _delegate;
-    LPLinkMetadata *_metadata;
-    NSURL *_URL;
-    DOMDocument *_parentDocument;
-    LPCSSResolver *_cssResolver;
-    long long _style;
-    LPTheme *_theme;
-    NSColor *_backgroundColor;
-    NSColor *_dominantImageBackgroundColor;
 }
 
 + (void)hï;
@@ -49,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)8ԏ};
 - (void);
 - (void);
 - (void);
@@ -59,7 +35,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -80,7 +56,7 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)setShouldReportMissingIdentity: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -91,27 +67,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic, setter=_setAllowsTapToLoad:) _Bool _allowsTapToLoad;
-@property(readonly, nonatomic) _Bool _canTapToLoad;
-@property(nonatomic, setter=_setDisableAutoPlay:) _Bool _disableAutoPlay; // @synthesize _disableAutoPlay=__disableAutoPlay;
-@property(nonatomic, setter=_setIncludeClassNamesWhenUsingInlineStyles:) _Bool _includeClassNamesWhenUsingInlineStyles;
-@property(nonatomic, setter=_setIncludeDarkInterfaceInlineStyles:) _Bool _includeDarkInterfaceInlineStyles;
-@property(nonatomic, setter=_setUseVariablesWhenUsingInlineStyles:) _Bool _useVariablesWhenUsingInlineStyles;
-@property(nonatomic) _Bool applyCornerRadiusToLink; // @synthesize applyCornerRadiusToLink=_applyCornerRadiusToLink;
-@property(readonly, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) LPCSSResolver *cssResolver; // @synthesize cssResolver=_cssResolver;
-@property(nonatomic) __weak id <LPLinkHTMLGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, retain, nonatomic) DOMDocumentFragment *documentFragment;
-@property(readonly, nonatomic) NSColor *dominantImageBackgroundColor; // @synthesize dominantImageBackgroundColor=_dominantImageBackgroundColor;
-@property(nonatomic) _Bool generateEmailCompatibleMarkup;
-@property(readonly, nonatomic) _Bool isPreliminary; // @synthesize isPreliminary=_isPreliminary;
-@property(copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 @property(readonly, nonatomic) DOMDocument *parentDocument; // @synthesize parentDocument=_parentDocument;
-@property(readonly, nonatomic) LPPointUnit *rootWidth;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, nonatomic) LPTheme *theme; // @synthesize theme=_theme;
-@property(nonatomic) _Bool useInlineStyles;
 
 @end
 

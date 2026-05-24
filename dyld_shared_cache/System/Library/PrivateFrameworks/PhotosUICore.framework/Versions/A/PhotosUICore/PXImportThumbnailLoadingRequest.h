@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHImportAssetDataRequest, PXImportItemViewModel;
+@class PXImportItemViewModel;
 
 @interface PXImportThumbnailLoadingRequest
 {
     PXImportItemViewModel *_importItem;
-    long long _requestID;
-    unsigned long long _requestSize;
-    CDUnknownBlockType _completionBlock;
-    PHImportAssetDataRequest *_assetDataRequest;
 }
 
 - (void);
@@ -25,11 +21,7 @@
 - (void)Ä·;
 
 // Remaining properties
-@property(retain) PHImportAssetDataRequest *assetDataRequest; // @synthesize assetDataRequest=_assetDataRequest;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(readonly, nonatomic) __weak PXImportItemViewModel *importItem; // @synthesize importItem=_importItem;
-@property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) unsigned long long requestSize; // @synthesize requestSize=_requestSize;
 
 @end
 

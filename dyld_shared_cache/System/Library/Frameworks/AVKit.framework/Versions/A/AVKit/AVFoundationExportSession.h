@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetExportSession, AVAudioMix, AVVideoComposition, NSString, NSTimer, NSURL;
-@protocol AVExportSessionHelperDelegate;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AVFoundationExportSession
 {
     NSURL *_outputURL;
-    AVAssetExportSession *_avSession;
-    id <AVExportSessionHelperDelegate> _delegate;
-    AVAsset *_sourceAsset;
-    AVVideoComposition *_sourceVideoComposition;
-    AVAudioMix *_sourceAudioMix;
-    NSTimer *_exportProgressTimer;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)__DATA;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SGDatabaseJournalFile;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SGDatabaseJournal
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_directoryPath;
-    unsigned long long _serialNumber;
-    NSString *_uuid;
-    _Bool _journaling;
-    _Bool _inMemory;
-    SGDatabaseJournalFile *_currentFile;
 }
 
 + (id);
-+ (id);
++ (id)_cancelWillQuit;
 + (id);
 + (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)';
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ks/Foundation.framework/Versions/C/Foundation;
 - (void);
 - (_Bool)FROM urls WHERE bundle_id = :bundleIdentifier /* Error: Ran out of types for this method. */;
 

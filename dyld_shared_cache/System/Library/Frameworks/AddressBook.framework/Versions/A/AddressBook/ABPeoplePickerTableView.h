@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-@protocol ABPeoplePickerTableViewDataSource, ABPeoplePickerTableViewDelegate;
+@protocol ABPeoplePickerTableViewDelegate;
 
 @interface ABPeoplePickerTableView
 {
     int _subrowSelectionBehavior;
-    NSMutableDictionary *_rowToSelectedSubrowIndexesMap;
 }
 
 - (int);
 - (long long);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (long long);
@@ -37,9 +35,7 @@
 - (void)ÁÌ;
 
 // Remaining properties
-@property id <ABPeoplePickerTableViewDataSource> dataSource; // @dynamic dataSource;
 @property id <ABPeoplePickerTableViewDelegate> delegate; // @dynamic delegate;
-@property int subrowSelectionBehavior;
 
 @end
 

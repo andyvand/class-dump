@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, W5Peer;
-
 @interface W5Event
 {
     long long _eventID;
-    double _timestamp;
-    NSDictionary *_info;
-    W5Peer *_peer;
 }
 
 + (_Bool);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)=.;
+- (unsigned long long)olIcon;
 - (double);
 - (_Bool);
-- (id);
+- (id)A;
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)objectForKeyedSubscript:(double)arg1;
 - (id);
-- (void);
+- (void)y size of PNG;
 - (long long);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long eventID; // @synthesize eventID=_eventID;
-@property(copy, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(copy, nonatomic) W5Peer *peer; // @synthesize peer=_peer;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

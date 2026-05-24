@@ -6,30 +6,27 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString, TRIRolloutDeployment, TRIRolloutTaskSupport;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class TRIRolloutDeployment, TRIRolloutTaskSupport;
 
 @interface TRIRolloutTargetingTask : TRIBaseTask
 {
     TRIRolloutTaskSupport *_support;
-    _Bool _includeDependencies;
-    id <TRITaskAttributing> _taskAttribution;
-    unsigned long long _triggerEvent;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)tablishing relationship with controller key:(id)arg1 [%@];
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)perInstanceProperties;
+- (void)o %.2f
+;
+- (id)+;
 - (id);
 - (_Bool);
 - (void);
@@ -41,25 +38,12 @@
 × ;
 - (id);
 - (id):%{public}@ /* Error: Ran out of types for this method. */;
-- (id)OCNTErrorDomain;
+- (id)TRITaskQueuingOptionsOCNTErrorDomain;
 - (int)S (:rowid, :path); /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) TRIRolloutDeployment *rolloutDeployment;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
 
 @end
 

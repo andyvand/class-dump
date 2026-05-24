@@ -9,23 +9,21 @@
 @interface CUIPSDLayerEffectComponent
 {
     _Bool _visible;
-    NSString *_name;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (unsigned int);
-- (id);
+- (id)?kB;
 - (void);
 - (void)ng photoshop file.
 ;
-- (_Bool)hlight;
+- (_Bool)kCUIEffectTypeTextHighlight;
 
 // Remaining properties
 @property(retain) NSString *name; // @synthesize name=_name;
-@property _Bool visible; // @synthesize visible=_visible;
 
 @end
 

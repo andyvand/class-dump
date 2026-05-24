@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _UIVectorTextLayout;
+@class NSArray, _UIVectorTextLayout;
 
 __attribute__((visibility("hidden")))
 @interface _UIVectorLabelLayer
 {
     NSArray *_currentLayers;
-    _UIVectorTextLayout *_currentTextLayout;
-    unsigned long long _maxRenderedMoveDistance;
 }
 
 + (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)sendCommand:(CDUnknownBlockType)arg1 withProperties:(CDUnknownBlockType)arg2 toPerson:toChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (id)IMDiMessageIncomingMessageHandler;
 - (_Bool);
-- (id);
+- (id)?;
 - (void);
-- (void);
+- (void)U;
 - (void);
 - (id);
 - (void);
@@ -30,14 +28,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxRenderedMoveDistance; // @synthesize maxRenderedMoveDistance=_maxRenderedMoveDistance;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) _UIVectorTextLayout *textLayout; // @dynamic textLayout;
 
 @end

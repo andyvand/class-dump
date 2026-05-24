@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileActionsPopoverController, NSString, NSURL;
-@protocol NSRemoteTitlebarToolbarRenameSessionDelegate;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _NSRemoteTitlebarToolbarRenameSession
@@ -13,38 +12,24 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int didRename:1;
     } _flags;
-    NSURL *_fileURL;
-    id <NSRemoteTitlebarToolbarRenameSessionDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    NSFileActionsPopoverController *_controller;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)napshots;
+- (void)g;
+- (void)sNm4HYxfChAt48rf54qAyQ;
 - (id);
-- (id);
+- (id)E;
+- (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)#;
 - (void)Ð;
 - (id)LP;
-- (void)RangeLength;
-- (void)mage;
+- (void)WordRangeLength;
+- (void)CIImage;
 - (id)cí3HMå±F`¬®NíiwZµG½à°óËhòÔIÀûB¾¾)Aÿ<ßÞ^V:Ä>FÍÑUêjQ${Ï /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) NSFileActionsPopoverController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSRemoteTitlebarToolbarRenameSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

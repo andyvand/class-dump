@@ -7,13 +7,10 @@
 #import <CoreCDPUI/CDPStateBaseUIController.h>
 
 @class NSView, NSWindow;
-@protocol CDPWindowDelegateProtocol;
 
 @interface CDPStateUIController : CDPStateBaseUIController
 {
     NSView *_iCDPWindowView;
-    NSWindow *_iCDPWindow;
-    id <CDPWindowDelegateProtocol> _delegate;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPWindowDelegateProtocol> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSWindow *iCDPWindow; // @synthesize iCDPWindow=_iCDPWindow;
-@property(retain, nonatomic) NSView *iCDPWindowView; // @synthesize iCDPWindowView=_iCDPWindowView;
 
 @end
 

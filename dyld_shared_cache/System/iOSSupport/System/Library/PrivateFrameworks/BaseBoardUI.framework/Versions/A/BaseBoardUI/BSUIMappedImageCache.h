@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSUIMappedImageCacheRegistry, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface BSUIMappedImageCache
 {
     NSString *_uniqueIdentifier;
-    BSUIMappedImageCacheRegistry *_registry;
-    NSString *_path;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_queue_keysToImagesOrFutures;
-    NSMutableSet *_queue_allKeys;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
 @end

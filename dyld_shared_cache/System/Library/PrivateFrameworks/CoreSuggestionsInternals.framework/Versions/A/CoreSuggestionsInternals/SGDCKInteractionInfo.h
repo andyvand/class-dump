@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SGDCKInteractionInfo
 {
     NSString *_intentResponseUserActivityString;
-    NSString *_interactionBundleId;
-    NSString *_interactionGroupId;
-    NSString *_interactionId;
-    NSString *_interactionTeamId;
-    NSData *_reservationContainerReference;
-    NSData *_reservationItemReferences;
 }
 
 - (void);
@@ -30,11 +24,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)=0)-[title]-(>=0)-|;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -42,7 +36,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -50,20 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentResponseUserActivityString;
-@property(readonly, nonatomic) _Bool hasInteractionBundleId;
-@property(readonly, nonatomic) _Bool hasInteractionGroupId;
 @property(readonly, nonatomic) _Bool hasInteractionId;
-@property(readonly, nonatomic) _Bool hasInteractionTeamId;
-@property(readonly, nonatomic) _Bool hasReservationContainerReference;
-@property(readonly, nonatomic) _Bool hasReservationItemReferences;
-@property(retain, nonatomic) NSString *intentResponseUserActivityString; // @synthesize intentResponseUserActivityString=_intentResponseUserActivityString;
-@property(retain, nonatomic) NSString *interactionBundleId; // @synthesize interactionBundleId=_interactionBundleId;
-@property(retain, nonatomic) NSString *interactionGroupId; // @synthesize interactionGroupId=_interactionGroupId;
-@property(retain, nonatomic) NSString *interactionId; // @synthesize interactionId=_interactionId;
-@property(retain, nonatomic) NSString *interactionTeamId; // @synthesize interactionTeamId=_interactionTeamId;
-@property(retain, nonatomic) NSData *reservationContainerReference; // @synthesize reservationContainerReference=_reservationContainerReference;
-@property(retain, nonatomic) NSData *reservationItemReferences; // @synthesize reservationItemReferences=_reservationItemReferences;
 
 @end
 

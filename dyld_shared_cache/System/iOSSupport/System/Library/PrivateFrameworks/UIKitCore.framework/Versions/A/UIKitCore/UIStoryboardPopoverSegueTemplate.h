@@ -6,34 +6,26 @@
 
 #import <UIKitCore/UIStoryboardSegueTemplate.h>
 
-@class NSArray, UIBarButtonItem, UIView;
-
 __attribute__((visibility("hidden")))
 @interface UIStoryboardPopoverSegueTemplate : UIStoryboardSegueTemplate
 {
     unsigned long long _permittedArrowDirections;
-    NSArray *_passthroughViews;
-    UIView *_anchorView;
-    UIBarButtonItem *_anchorBarButtonItem;
 }
 
 - (void);
-- (id);
+- (id)our pending map without a handle %@;
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)ggestions;
-- (void)t;
+- (id)_listKeypointsSimple_metal:(id)arg1 suppressedResponseMapTexture:tileBuffer:tileCountBuffer:tileCount:thresholdsBuffer:cumulativePointsBuffer:keypointLocationsBuffer:keypointResponsesBuffer:desiredKeypointsBuffer:indexBuffer: /* Error: Ran out of types for this method. */;
+- (void)hasCurrentSuggestions;
+- (void)inlineHomeAffordanceVerticalOffset;
 - (id)ionView"8;
 - (unsigned long long)diom to %@ when original interface idiom is %@.;
 - (void);
 - (void)tW(ÿ$Þf;
 
 // Remaining properties
-@property(retain, nonatomic) UIBarButtonItem *anchorBarButtonItem; // @synthesize anchorBarButtonItem=_anchorBarButtonItem;
-@property(retain, nonatomic) UIView *anchorView; // @synthesize anchorView=_anchorView;
-@property(copy, nonatomic) NSArray *passthroughViews; // @synthesize passthroughViews=_passthroughViews;
 @property(nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;
 
 @end

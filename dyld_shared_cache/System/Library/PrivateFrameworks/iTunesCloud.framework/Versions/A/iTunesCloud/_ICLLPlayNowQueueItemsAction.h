@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _ICLLQueueQuery, _ICLLRadioSource;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLPlayNowQueueItemsAction
 {
     NSMutableArray *_items;
-    int _position;
-    NSString *_preferredPlayItemId;
-    _ICLLQueueQuery *_queueQuery;
-    _ICLLRadioSource *_radioSource;
-    int _revision;
-    CDStruct_bf543796 _has;
 }
 
 - (id);

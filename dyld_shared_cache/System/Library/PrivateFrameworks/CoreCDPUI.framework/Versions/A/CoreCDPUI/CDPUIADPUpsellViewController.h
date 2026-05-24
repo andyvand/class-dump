@@ -9,9 +9,6 @@
 @interface CDPUIADPUpsellViewController
 {
     NSView *_contentView;
-    CDUnknownBlockType _turnOnButtonAction;
-    CDUnknownBlockType _cancelButtonAction;
-    CDUnknownBlockType _setUpLaterButtonAction;
 }
 
 - (CDUnknownBlockType);
@@ -29,10 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancelButtonAction; // @synthesize cancelButtonAction=_cancelButtonAction;
 @property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(copy, nonatomic) CDUnknownBlockType setUpLaterButtonAction; // @synthesize setUpLaterButtonAction=_setUpLaterButtonAction;
-@property(copy, nonatomic) CDUnknownBlockType turnOnButtonAction; // @synthesize turnOnButtonAction=_turnOnButtonAction;
 
 @end
 

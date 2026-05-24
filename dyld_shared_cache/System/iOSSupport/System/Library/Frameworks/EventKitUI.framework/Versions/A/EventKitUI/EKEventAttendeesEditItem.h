@@ -6,31 +6,28 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class EKParticipant, NSOperationQueue, NSString;
+@class EKParticipant;
 
 __attribute__((visibility("hidden")))
 @interface EKEventAttendeesEditItem : EKEventEditItem
 {
     EKParticipant *_selfOrganizer;
-    NSString *_searchAccountID;
-    NSOperationQueue *_availabilityQueue;
-    long long _numberOfConflicts;
 }
 
-+ (id);
++ (id)%s;
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)s;
+- (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)&s;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)et: /* Error: Ran out of types for this method. */;
+- (id)isAccessibilityElement;
+- (void)scrollViewDidChangeAdjustedContentInset: /* Error: Ran out of types for this method. */;
 - (_Bool)tate:(id)arg1 [%@];
 
 @end

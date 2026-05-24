@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, NSButton;
-@protocol AVTouchBarPlaybackControlsControllingInternal;
+@class AVObservationController;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarPlayButtonViewController
 {
     _Bool _showsPlayButton;
-    id <AVTouchBarPlaybackControlsControllingInternal> _playerController;
-    CDUnknownBlockType _playButtonLongPressAction;
-    AVObservationController *_observationController;
-    NSButton *_playButton;
-    id _touchBarDidExitCustomizationObserver;
 }
 
 - (void);
@@ -31,7 +25,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)me:%d)
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -40,11 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(retain) NSButton *playButton; // @synthesize playButton=_playButton;
-@property(copy, nonatomic) CDUnknownBlockType playButtonLongPressAction; // @synthesize playButtonLongPressAction=_playButtonLongPressAction;
-@property(retain) id <AVTouchBarPlaybackControlsControllingInternal> playerController; // @synthesize playerController=_playerController;
-@property _Bool showsPlayButton; // @synthesize showsPlayButton=_showsPlayButton;
-@property(retain) id touchBarDidExitCustomizationObserver; // @synthesize touchBarDidExitCustomizationObserver=_touchBarDidExitCustomizationObserver;
 
 @end
 

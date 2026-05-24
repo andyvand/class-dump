@@ -14,9 +14,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)T;
+- (id)eSinceLastWristRaiseSec;
+- (void)authentication dictionary service keys.  Please file! [%@];
 - (void);
 - (void)0@ù
 × ;

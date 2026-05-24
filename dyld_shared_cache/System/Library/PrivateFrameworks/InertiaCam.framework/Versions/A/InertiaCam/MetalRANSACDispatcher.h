@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLFunction, MTLLibrary;
+@protocol MTLDevice;
 
 @interface MetalRANSACDispatcher
 {
     float inlierLimit;
-    struct CGSize frameSize;
-    id <MTLCommandQueue> m_metalCommandQueue;
-    id <MTLDevice> m_metalDevice;
-    id <MTLFunction> m_metalKernelFunction;
-    id <MTLLibrary> m_metalLibrary;
-    id <MTLComputePipelineState> m_metalPipeline;
-    unsigned long long _m_numThreadsPerGroup;
-    unsigned long long _m_maxCorrespondences;
-    id <MTLBuffer> _m_mX;
-    id <MTLBuffer> _m_mXhat;
-    id <MTLBuffer> _m_ScoreBuffer;
-    id <MTLBuffer> _m_RansacParams;
-    id <MTLBuffer> _m_RansacHomographies;
-    id <MTLBuffer> _m_ModelScores;
 }
 
 - (void);
@@ -52,30 +38,16 @@
 - (id);
 - (float);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)iew"16;
 
 // Remaining properties
-@property(nonatomic) struct CGSize frameSize; // @synthesize frameSize;
-@property(nonatomic) float inlierLimit; // @synthesize inlierLimit;
-@property(retain, nonatomic) id <MTLBuffer> m_ModelScores; // @synthesize m_ModelScores=_m_ModelScores;
-@property(retain, nonatomic) id <MTLBuffer> m_RansacHomographies; // @synthesize m_RansacHomographies=_m_RansacHomographies;
-@property(retain, nonatomic) id <MTLBuffer> m_RansacParams; // @synthesize m_RansacParams=_m_RansacParams;
-@property(retain, nonatomic) id <MTLBuffer> m_ScoreBuffer; // @synthesize m_ScoreBuffer=_m_ScoreBuffer;
-@property(retain, nonatomic) id <MTLBuffer> m_mX; // @synthesize m_mX=_m_mX;
-@property(retain, nonatomic) id <MTLBuffer> m_mXhat; // @synthesize m_mXhat=_m_mXhat;
-@property(nonatomic) unsigned long long m_maxCorrespondences; // @synthesize m_maxCorrespondences=_m_maxCorrespondences;
-@property(retain, nonatomic) id <MTLCommandQueue> m_metalCommandQueue; // @synthesize m_metalCommandQueue;
 @property(retain, nonatomic) id <MTLDevice> m_metalDevice; // @synthesize m_metalDevice;
-@property(retain, nonatomic) id <MTLFunction> m_metalKernelFunction; // @synthesize m_metalKernelFunction;
-@property(retain, nonatomic) id <MTLLibrary> m_metalLibrary; // @synthesize m_metalLibrary;
-@property(retain, nonatomic) id <MTLComputePipelineState> m_metalPipeline; // @synthesize m_metalPipeline;
-@property(nonatomic) unsigned long long m_numThreadsPerGroup; // @synthesize m_numThreadsPerGroup=_m_numThreadsPerGroup;
 
 @end
 

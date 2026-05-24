@@ -5,6 +5,7 @@
 //
 
 @protocol _UISceneZoomTransitionSettings
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool wantsDismissInteraction;

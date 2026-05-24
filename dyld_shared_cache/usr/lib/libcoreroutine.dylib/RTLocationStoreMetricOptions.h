@@ -9,9 +9,6 @@
 @interface RTLocationStoreMetricOptions
 {
     _Bool _includeFixMetrics;
-    _Bool _includeSignalEnvironment;
-    NSDateInterval *_dateInterval;
-    double _uncertaintyThreshold;
 }
 
 - (double);
@@ -20,15 +17,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)= %p;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) _Bool includeFixMetrics; // @synthesize includeFixMetrics=_includeFixMetrics;
-@property(readonly, nonatomic) _Bool includeSignalEnvironment; // @synthesize includeSignalEnvironment=_includeSignalEnvironment;
-@property(readonly, nonatomic) double uncertaintyThreshold; // @synthesize uncertaintyThreshold=_uncertaintyThreshold;
 
 @end
 

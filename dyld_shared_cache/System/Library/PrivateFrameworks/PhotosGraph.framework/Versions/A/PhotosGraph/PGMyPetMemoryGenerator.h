@@ -6,16 +6,9 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGMyPetMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
 }
 
 - (id);
@@ -23,16 +16,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ions/A/ImageIO;
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)Element"16;
+- (id)disableTRMStateAndInformUserIfNeededWithCompletionBlock:(id)arg1;
+- (id)onController",&,N,V__applicationController;
+- (id)plicationController",&,N,S_setKeyboardFocusedApplicationController:,V__keyboardFocusedApplicationController /* Error: Ran out of types for this method. */;
+- (void)AXKAction;
 - (unsigned long long);
 - (unsigned long long);
 - (void)Adult Age Category:%@

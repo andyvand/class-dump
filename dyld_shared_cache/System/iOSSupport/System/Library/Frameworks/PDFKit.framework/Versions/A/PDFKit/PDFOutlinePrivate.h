@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PDFAction, PDFDocument, PDFOutline;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFOutlinePrivate
 {
     PDFDocument *document;
-    NSString *title;
-    PDFAction *action;
-    PDFOutline *parent;
-    NSMutableArray *children;
-    _Bool childrenLoaded;
-    struct __CFDictionary *dictionary;
-    _Bool open;
-    struct CGPDFDictionary *srcDictionary;
 }
 
 - (void);

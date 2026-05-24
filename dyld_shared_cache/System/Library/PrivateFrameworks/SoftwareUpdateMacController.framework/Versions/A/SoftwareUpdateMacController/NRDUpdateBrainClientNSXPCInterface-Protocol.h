@@ -5,5 +5,6 @@
 //
 
 @protocol NRDUpdateBrainClientNSXPCInterface
+- (void);
 @end
 

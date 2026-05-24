@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, NSOperationQueue, NSSet, NSString, NSURL;
+@class NSURL;
 
 @interface FCFileCoordinatedDictionary
 {
     NSURL *_presentedItemURL;
-    NSOperationQueue *_presentedItemOperationQueue;
-    NSURL *_fileURL;
-    NSSet *_allowedClasses;
-    FCAsyncSerialQueue *_asyncAccessQueue;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)stopWirelessNetworkSwitch;
 - (id);
 - (id);
 - (id)È;
@@ -30,26 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allowedClasses; // @synthesize allowedClasses=_allowedClasses;
-@property(readonly, nonatomic) FCAsyncSerialQueue *asyncAccessQueue; // @synthesize asyncAccessQueue=_asyncAccessQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue; // @synthesize presentedItemOperationQueue=_presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL; // @synthesize presentedItemURL=_presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
 
 @end
 

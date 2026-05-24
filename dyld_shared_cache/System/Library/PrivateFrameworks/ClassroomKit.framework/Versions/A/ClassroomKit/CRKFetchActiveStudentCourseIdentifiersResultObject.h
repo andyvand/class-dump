@@ -9,7 +9,6 @@
 @interface CRKFetchActiveStudentCourseIdentifiersResultObject
 {
     NSArray *_activeCourseIdentifiers;
-    NSArray *_activeInstructorIdentifiers;
 }
 
 + (_Bool);
@@ -17,13 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)[;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activeCourseIdentifiers; // @synthesize activeCourseIdentifiers=_activeCourseIdentifiers;
-@property(copy, nonatomic) NSArray *activeInstructorIdentifiers; // @synthesize activeInstructorIdentifiers=_activeInstructorIdentifiers;
 
 @end
 

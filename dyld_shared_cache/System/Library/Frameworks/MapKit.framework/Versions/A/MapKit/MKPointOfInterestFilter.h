@@ -9,11 +9,10 @@
 @interface MKPointOfInterestFilter
 {
     NSSet *_includedCategories;
-    NSSet *_excludedCategories;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
@@ -22,20 +21,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)nerResult"8;
+- (id)lized_Width;
 - (_Bool);
 - (void);
 - (id);
-- (void)ay:drawKey:withData:inIOSurface:withTimestamp: /* Error: Ran out of types for this method. */;
+- (void)overlay:drawKey:withData:inIOSurface:withTimestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isAllCategories) _Bool isAllCategories;
 @property(readonly, nonatomic, getter=_isInclusive) _Bool isInclusive;
 
 @end

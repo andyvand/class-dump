@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TSUQuicklookAssetColorMap
 {
     NSMutableDictionary *mAssetMap;
-    NSString *mAppAssetPath;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id)Î;
 - (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Z*;
 - (oneway void);
 - (id);
-- (id);
+- (id)%@;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appAssetPath; // @synthesize appAssetPath=mAppAssetPath;
 @property(retain, nonatomic) NSMutableDictionary *assetMap; // @synthesize assetMap=mAssetMap;
 
 @end

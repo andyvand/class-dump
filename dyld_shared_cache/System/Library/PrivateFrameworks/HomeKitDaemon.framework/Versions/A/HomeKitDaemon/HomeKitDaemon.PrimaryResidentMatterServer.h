@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.PrimaryResidentMatterServer
 {
     id $defaultActor;
-    id services;
-    id fsm;
-    id dataProvider;
-    id deviceController;
 }
 
 - (id);

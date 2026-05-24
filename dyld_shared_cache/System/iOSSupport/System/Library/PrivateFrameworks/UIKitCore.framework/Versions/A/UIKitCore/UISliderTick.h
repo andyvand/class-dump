@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-
 @interface UISliderTick
 {
     id _tick;
@@ -13,24 +11,21 @@
 
 + (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)7;
+- (void)24@0:(id)arg1 8@16;
+- (id)#;
 - (long long);
 - (id)Ô ;
-- (float);
-- (_Bool)y;
-- (void)Key:(id)arg1;
+- (float)setDragItemDropAnimations: /* Error: Ran out of types for this method. */;
+- (_Bool)adjustsFontForContentSizeCategory;
+- (void)_setPocketRelativeSubview:(id)arg1 isOver:forKey: /* Error: Ran out of types for this method. */;
 - (void)geColorTransformer;
 - (id);
 - (id);
 - (void)0m;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, retain) UIImage *image;
 @property(nonatomic, readonly) float position;
-@property(nonatomic, copy) NSString *title;
 
 @end
 

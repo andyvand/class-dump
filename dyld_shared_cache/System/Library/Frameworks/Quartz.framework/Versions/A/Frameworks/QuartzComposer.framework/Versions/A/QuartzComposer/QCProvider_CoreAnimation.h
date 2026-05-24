@@ -6,14 +6,11 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class CALayer, NSArray, QCRegion;
+@class CALayer;
 
 @interface QCProvider_CoreAnimation : QCImageProvider
 {
     CALayer *_layer;
-    QCRegion *_domainOfDefinition;
-    NSArray *_pixelFormats;
-    NSArray *_textureFormats;
 }
 
 + (_Bool);

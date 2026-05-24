@@ -8,6 +8,7 @@
 {
 }
 
++ (id)ticReadingListContentProvider",R,&,N,V_automaticReadingListContentProvider;
 + (id);
 + (id);
 + (id);
@@ -18,8 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)19CMetadataParserFuji;
 + (id);
 + (id);
 + (id);

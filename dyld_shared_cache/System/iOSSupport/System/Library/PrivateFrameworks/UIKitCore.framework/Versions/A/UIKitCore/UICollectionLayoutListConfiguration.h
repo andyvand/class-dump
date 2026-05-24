@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIListSeparatorConfiguration;
-
 @interface UICollectionLayoutListConfiguration
 {
     _Bool _hasCompactSectionSpacing;
-    _Bool _showsSeparators;
-    UIListSeparatorConfiguration *_separatorConfiguration;
-    double _cornerRadius;
-    CDUnknownBlockType _willBeginSwipingHandler;
-    CDUnknownBlockType _didEndSwipingHandler;
-    long long _appearance;
-    CDUnknownBlockType _itemSeparatorHandler;
-    UIColor *_backgroundColor;
-    CDUnknownBlockType _leadingSwipeActionsConfigurationProvider;
-    CDUnknownBlockType _trailingSwipeActionsConfigurationProvider;
-    long long _headerMode;
-    long long _footerMode;
-    double _headerTopPadding;
-    unsigned long long _contentHuggingElements;
 }
 
 - (double);
 - (long long);
-- (_Bool);
+- (_Bool)laration_App",C,N,V_payloadApp;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)resourceLoader:(_Bool)arg1 shouldWaitForRenewalOfRequestedResource: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -45,20 +29,20 @@
 - (CDUnknownBlockType)ØEù1bÐ1Â0@ù
 × ;
 - (CDUnknownBlockType)@0:8@16@24d32 /* Error: Ran out of types for this method. */;
-- (double)ementaryItemGeometricIndexer: /* Error: Ran out of types for this method. */;
+- (double)setSupplementaryItemGeometricIndexer: /* Error: Ran out of types for this method. */;
 - (void)setRequiresTintViews:(_Bool)arg1;
-- (id):reorderedItemIdentifiers:difference:sectionTransactions: /* Error: Ran out of types for this method. */;
-- (void)henOverridden:(id)arg1;
-- (unsigned long long)tesForPossibleChangesOfIdiom:orScreen:traverseHierarchy: /* Error: Ran out of types for this method. */;
+- (id)initWithInitialSnapshot:finalSnapshot:source:reorderedItemIdentifiers:difference:sectionTransactions: /* Error: Ran out of types for this method. */;
+- (void)_setShouldUpdatePlaceholderTextAlignmentWhenOverridden:(id)arg1;
+- (unsigned long long)_performUpdatesForPossibleChangesOfIdiom:orScreen:traverseHierarchy: /* Error: Ran out of types for this method. */;
 - (void)rationBounceAnimationSpec",N,&,VscaleOut;
-- (id)ler;
+- (id)UIDebuggingIvarViewController;
 - (id)tÉÔÉÐÊÀÍlÐðÐ Ñ0ÒðÒÓ;
 - (long long);
 - (CDUnknownBlockType)h\Ì ;
-- (long long)Map;
+- (long long)keyTranslationMap;
 - (CDUnknownBlockType)ntimeOutletCollectionConnection.m;
 - (void)containerView]|;
-- (id)onLegacyVisualProviderC;
+- (id)So28UIButtonLegacyVisualProviderC;
 - (_Bool)ÂÿîÙÈ^;
 - (void);
 - (void);
@@ -67,21 +51,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_cornerRadius, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
-@property(copy, nonatomic, getter=_didEndSwipingHandler, setter=_setDidEndSwipingHandler:) CDUnknownBlockType _didEndSwipingHandler; // @synthesize _didEndSwipingHandler;
-@property(nonatomic, setter=_setHasCompactSectionSpacing:) _Bool _hasCompactSectionSpacing; // @synthesize _hasCompactSectionSpacing;
-@property(nonatomic, setter=_setSectionHeaderHugsContent:) _Bool _sectionHeaderHugsContent;
-@property(copy, nonatomic, getter=_willBeginSwipingHandler, setter=_setWillBeginSwipingHandler:) CDUnknownBlockType _willBeginSwipingHandler; // @synthesize _willBeginSwipingHandler;
-@property(readonly, nonatomic) long long appearance; // @synthesize appearance=_appearance;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) unsigned long long contentHuggingElements; // @synthesize contentHuggingElements=_contentHuggingElements;
-@property(nonatomic) long long footerMode; // @synthesize footerMode=_footerMode;
-@property(nonatomic) long long headerMode; // @synthesize headerMode=_headerMode;
-@property(nonatomic) double headerTopPadding; // @synthesize headerTopPadding=_headerTopPadding;
-@property(copy, nonatomic) CDUnknownBlockType itemSeparatorHandler; // @synthesize itemSeparatorHandler=_itemSeparatorHandler;
-@property(copy, nonatomic) CDUnknownBlockType leadingSwipeActionsConfigurationProvider; // @synthesize leadingSwipeActionsConfigurationProvider=_leadingSwipeActionsConfigurationProvider;
-@property(copy, nonatomic) UIListSeparatorConfiguration *separatorConfiguration; // @synthesize separatorConfiguration=_separatorConfiguration;
-@property(nonatomic) _Bool showsSeparators; // @synthesize showsSeparators=_showsSeparators;
-@property(copy, nonatomic) CDUnknownBlockType trailingSwipeActionsConfigurationProvider; // @synthesize trailingSwipeActionsConfigurationProvider=_trailingSwipeActionsConfigurationProvider;
 
 @end
 

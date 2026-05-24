@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocationShifter, MapsSuggestionsLimitedDictionary, MapsSuggestionsMapsSync, MapsSuggestionsObservers, NSArray, NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol MapsSuggestionsNetworkRequester, MapsSuggestionsRoutineConnector, MapsSuggestionsShortcutMatcher;
+@class NSString;
+@protocol MapsSuggestionsRoutineConnector;
 
 @interface MapsSuggestionsRoutine
 {
     id <MapsSuggestionsRoutineConnector> _connector;
-    id <MapsSuggestionsNetworkRequester> _networkRequester;
-    MapsSuggestionsMapsSync *_mapsSync;
-    struct Queue _queue;
-    MapsSuggestionsObservers *_parkedCarObservers;
-    NSMutableDictionary *_loiLocationsForHome;
-    NSMutableDictionary *_loiLocationsForWork;
-    NSMutableDictionary *_loiLocationsForSchool;
-    NSMutableDictionary *_loiVisits;
-    NSMutableDictionary *_identifierToDatesMapping;
-    NSDate *_cacheTimeStamp;
-    NSDate *_visitQueryTimeStamp;
-    double _requeryInterval;
-    NSArray *_allVisitsForRatingsRequest;
-    NSObject<MapsSuggestionsShortcutMatcher> *_shortcutMatcher;
-    MapsSuggestionsLimitedDictionary *_mapItemCache;
-    MapsSuggestionsLimitedDictionary *_mapItemCacheOrigin;
-    GEOLocationShifter *_locationShifter;
-    _Bool _areFrequentLocationsAvailable;
 }
 
 + (id);
-+ (id);
++ (id)P;
 + (void);
 + (void);
 + (id);
@@ -58,25 +40,18 @@
 - (id);
 - (BOOL);
 - (void);
-- (void);
+- (void)alpha last;
 - (BOOL);
 - (BOOL);
 - (unsigned long long);
 - (void)"16;
 - (BOOL)extractFromDestinationEntry:(id)arg1 originCoordinate:(id)arg2;
 - (BOOL)ResolvablePartialInformation;
-- (BOOL)legate;
-- (BOOL)ue;
+- (BOOL)_delegate;
+- (BOOL)MapsSuggestionsRoutineRelevanceScoreProviderQueue;
 - (BOOL)hx;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

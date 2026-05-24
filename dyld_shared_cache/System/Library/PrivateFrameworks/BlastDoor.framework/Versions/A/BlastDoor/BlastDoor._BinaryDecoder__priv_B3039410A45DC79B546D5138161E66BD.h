@@ -7,9 +7,6 @@
 @interface BlastDoor._BinaryDecoder__priv_B3039410A45DC79B546D5138161E66BD
 {
     id codingPath;
-    id userInfo;
-    id stream;
-    id endianess;
 }
 
 @end

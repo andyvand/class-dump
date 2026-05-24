@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, NSViewController;
+@class NSString;
 
 @interface NSTouchBarItem
 {
     NSString *_identifier;
-    float _visibilityPriority;
-    long long _visibilityCount;
-    _Bool _requiresTrueCenterLayout;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *customizationLabel;
-@property(readonly, copy) NSString *identifier;
-@property(readonly) Class preferredPopoverTransposerClass;
-@property(readonly) long long preferredPopoverTransposerPriority;
 @property(readonly) struct CGSize preferredSizeForCustomizationPalette;
-@property(readonly) NSView *view;
-@property(readonly) NSViewController *viewController;
-@property float visibilityPriority;
-@property(readonly, getter=isVisible) _Bool visible;
 @end
 

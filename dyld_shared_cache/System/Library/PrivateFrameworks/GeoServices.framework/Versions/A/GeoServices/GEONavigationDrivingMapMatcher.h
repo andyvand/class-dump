@@ -6,13 +6,9 @@
 
 #import <GeoServices/GEONavigationMapMatcher.h>
 
-@class GEOLocation;
-
 @interface GEONavigationDrivingMapMatcher : GEONavigationMapMatcher
 {
     _Bool _useMatchedCoordinateForMatching;
-    _Bool _isCorrectingCourseSwing;
-    GEOLocation *_lastAccurateCourseLocation;
 }
 
 - (void);
@@ -25,7 +21,7 @@
 - (CDStruct_c3b9c2ee);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)sharedLockDirectoryUrl;
 - (void);
 - (int);
 

@@ -7,9 +7,10 @@
 @class ACAccount, NSString;
 
 @protocol AMSBagAccountProvider
+- (ACAccount *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly) ACAccount *account;
 @property(readonly) NSString *identity;
 @end
 

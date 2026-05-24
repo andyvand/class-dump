@@ -7,8 +7,6 @@
 @interface AppletTranslationLibrary.ExpressMode.PTAExpressModeManager__priv_F6A5673F67A2A086B8B4649671CBFF82
 {
     id homeEndpoints;
-    id hydraEndpoints;
-    id lyonEndpoints;
 }
 
 @end

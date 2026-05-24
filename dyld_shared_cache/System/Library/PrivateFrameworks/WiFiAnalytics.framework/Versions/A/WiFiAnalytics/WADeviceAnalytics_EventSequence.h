@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSManagedObject;
+@class NSDictionary;
 
 @interface WADeviceAnalytics_EventSequence
 {
     _Bool _asc;
-    NSDictionary *_startEvent;
-    NSDictionary *_endEvent;
-    NSArray *_events;
-    NSManagedObject *_startEventMO;
-    NSManagedObject *_endEventMO;
-    NSArray *_eventMOs;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -29,20 +23,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)aAccess accounts {accountIDs:%{public}@} /* Error: Ran out of types for this method. */;
+- (id)service:account:incomingOpportunisticData:withIdentifier:fromID:context: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
+- (id)rt;
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool asc; // @synthesize asc=_asc;
-@property(retain, nonatomic) NSDictionary *endEvent; // @synthesize endEvent=_endEvent;
-@property(retain, nonatomic) NSManagedObject *endEventMO; // @synthesize endEventMO=_endEventMO;
-@property(retain, nonatomic) NSArray *eventMOs; // @synthesize eventMOs=_eventMOs;
-@property(retain, nonatomic) NSArray *events; // @synthesize events=_events;
 @property(retain, nonatomic) NSDictionary *startEvent; // @synthesize startEvent=_startEvent;
-@property(retain, nonatomic) NSManagedObject *startEventMO; // @synthesize startEventMO=_startEventMO;
 
 @end
 

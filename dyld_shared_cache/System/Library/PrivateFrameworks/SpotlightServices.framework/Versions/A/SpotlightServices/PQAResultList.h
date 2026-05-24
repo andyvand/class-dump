@@ -17,9 +17,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)r;
 - (id);
 - (void);
 - (id);
@@ -27,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (void)atus;
+- (void)_requestStatus;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;

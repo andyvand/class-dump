@@ -5,5 +5,8 @@
 //
 
 @protocol QLThumbnailsInterface
+- (void);
+- (void)N8Espresso6SerDes8layer_ioINS_31generic_matrix_band_part_kernelEEE;
+- (void)s;
 @end
 

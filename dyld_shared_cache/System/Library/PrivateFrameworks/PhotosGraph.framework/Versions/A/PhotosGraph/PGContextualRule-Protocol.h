@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PGContextualOptions, PGHighlightItemList;
+
 @protocol PGContextualRule
+- (void)initWithElementController:(PGHighlightItemList *)arg1;
+- (_Bool)_fontDescriptorTraitsFromAXFont:(PGContextualOptions *)arg1;
 @end
 

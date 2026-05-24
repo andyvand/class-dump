@@ -7,8 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool)otations;
-- (long long)upportsImageDescriptionEditing;
+- (_Bool)selectNewlyCreatedAnnotations;
+- (long long)_supportsImageDescriptionEditing;
 - (void)47Ä5;
 @end
 

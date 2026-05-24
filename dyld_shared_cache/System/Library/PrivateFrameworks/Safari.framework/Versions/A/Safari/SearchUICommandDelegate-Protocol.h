@@ -5,5 +5,8 @@
 //
 
 @protocol SearchUICommandDelegate
+
+@optional
+- (_Bool)*;
 @end
 

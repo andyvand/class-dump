@@ -11,12 +11,6 @@
 @interface IAServerAccountSetupInput : IAAccountSetupInput
 {
     NSString *_serverName;
-    NSString *_serverAddress;
-    _Bool _enableMail;
-    _Bool _enableJabber;
-    _Bool _enableCalDAV;
-    _Bool _enableCardDAV;
-    _Bool _enableVPN;
 }
 
 - (void);
@@ -36,12 +30,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool enableCalDAV; // @synthesize enableCalDAV=_enableCalDAV;
-@property _Bool enableCardDAV; // @synthesize enableCardDAV=_enableCardDAV;
-@property _Bool enableJabber; // @synthesize enableJabber=_enableJabber;
-@property _Bool enableMail; // @synthesize enableMail=_enableMail;
-@property _Bool enableVPN; // @synthesize enableVPN=_enableVPN;
-@property(retain) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
 @property(retain) NSString *serverName; // @synthesize serverName=_serverName;
 
 @end

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPBaseScoreInputSet, PPScoreInterpreterBytecode, _PASLock;
+@class PPScoreInterpreterBytecode;
 
 @interface PPScoreInterpreter
 {
     PPScoreInterpreterBytecode *_bytecode;
-    PPBaseScoreInputSet *_scoreInputSet;
-    _PASLock *_reusableContext;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)T^;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 
 @end

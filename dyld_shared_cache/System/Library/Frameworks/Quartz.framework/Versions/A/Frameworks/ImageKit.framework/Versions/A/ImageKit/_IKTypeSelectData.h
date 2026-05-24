@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSString;
 
 @interface _IKTypeSelectData
 {
     NSString *_currentSearch;
-    long long _currentSearchIndex;
-    long long _initialSearchIndex;
-    long long _totalIndexes;
-    NSView *_view;
 }
 
 - (void);
@@ -21,9 +17,9 @@
 - (long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)4B28;
+- (id)allowExternalIntelligenceIntegrations;
+- (id)g;
 - (void);
 - (void);
 - (void);

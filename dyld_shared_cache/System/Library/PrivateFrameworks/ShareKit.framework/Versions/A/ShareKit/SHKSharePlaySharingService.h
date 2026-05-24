@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)application_added;
 - (_Bool);
-- (void);
+- (void)__unwind_info;
 
 // Remaining properties
 @property(retain, nonatomic) NSViewController<GPGroupActivitySharingControllerHelpers> *groupActivitySharingController; // @synthesize groupActivitySharingController=_groupActivitySharingController;

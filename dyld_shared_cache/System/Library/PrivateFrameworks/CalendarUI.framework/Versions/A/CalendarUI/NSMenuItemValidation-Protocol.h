@@ -7,6 +7,6 @@
 @class NSMenuItem;
 
 @protocol NSMenuItemValidation
-- (_Bool)pdateResults:(NSMenuItem *)arg1;
+- (_Bool)completerWillUpdateResults:(NSMenuItem *)arg1;
 @end
 

@@ -4,23 +4,91 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStore, HMDBackingStoreTransactionOptions, NSMutableArray, NSString;
+@class HMDBackingStore;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreTransactionBlock
 {
     _Bool _committed;
-    HMDBackingStoreTransactionOptions *_options;
-    HMDBackingStore *_backingStore;
-    NSMutableArray *_objects;
 }
 
 + (id)U\ÿ5s;
 + (void);
 - (void);
+- (id)screenSharingVCCapabilities;
 - (id);
-- (id);
-- (void);
+- (void)lms = sign(lms)*pow(abs(lms), vec3(0.43));
+vec3 ipt = lms.r * vec3(0.4,  4.455,  0.8056) +
+lms.g * vec3(0.4, -4.851,  0.3572) +
+lms.b * vec3(0.2,  0.396,-1.1628);
+return vec4(ipt, im.a);
+}
+kernel vec4 ipt_to_srgb(__sample ipt)
+{
+vec3 lms = ipt.r * vec3(1.0000, 1.0000, 1.0000) +
+ipt.g * vec3(0.0976,-0.1139, 0.0326) +
+ipt.b * vec3(0.2052, 0.1332,-0.6769);
+lms = sign(lms)*pow(abs(lms), vec3(1.0/.43));
+vec3 im = lms.r * vec3(5.472212058380287, -1.125241895533569, 0.029801651173470) +
+lms.g * vec3(-4.641960098354471, 2.293170938060623, -0.193180728257140) +
+lms.b * vec3(0.169637076827974, -0.167895202223709, 1.163647892783812);
+return vec4(im, ipt.a);
+}
+kernel vec4 ipt_to_hue_chroma(__sample im)
+{
+vec4 ihc = im;
+ihc.g = atan(im.b, im.g);
+ihc.b = sqrt(im.g*im.g+im.b*im.b);
+return ihc;
+}
+kernel vec4 ipt_from_hue_chroma(__sample ihc)
+{
+vec4 ipt = ihc;
+ipt.g = ihc.b * cos(ihc.g);
+ipt.b = ihc.b * sin(ihc.g);
+return ipt;
+}
+kernel vec4 ipt_hue_chroma_scale_hue(__sample ihc, vec2 hso) {
+float luma = ihc.r;
+float hue = ihc.g;
+float chroma = ihc.b;
+float alpha = ihc.a;
+float hueScale = hso.x;
+float hueOffset = hso.y;
+hue = hueScale * hue + hueOffset;
+return vec4(luma, hue, chroma, alpha);
+}
+kernel vec4 ipt_hue_chroma_filter_hue(__sample ihc, vec4 hcr) {
+float luma = ihc.r;
+float hue = ihc.g;
+float chroma = ihc.b;
+float alpha = ihc.a;
+float hueTarget = hcr.x;
+float hueRange = hcr.y;
+float hueModulo = hcr.z;
+float chromaMin = hcr.w;
+float chromaFactor = step(chromaMin, chroma);
+float hueDelta = min(abs(hue - hueTarget), min(abs(hue + hueModulo - hueTarget), abs(hue - hueModulo - hueTarget)));
+float hueFactor = 1.0 - smoothstep(0.0, hueRange, hueDelta);
+alpha *= hueFactor * chromaFactor;
+return vec4(luma, hue, chroma, alpha);
+}
+kernel vec4 ipt_hue_chroma_filter_luma(__sample ihc, vec3 hcr) {
+float luma = ihc.r;
+float hue = ihc.g;
+float chroma = ihc.b;
+float alpha = ihc.a;
+float lumaTarget = hcr.x;
+float lumaRange = hcr.y;
+float chromaMax = hcr.z;
+float chromaFactor = 1.0 - step(chromaMax, chroma);
+float lumaDelta = abs(luma - lumaTarget);
+float lumaFactor = 1.0 - smoothstep(0.0, lumaRange, lumaDelta);
+alpha *= lumaFactor * chromaFactor;
+return vec4(luma, hue, chroma, alpha);
+}
+
+;
 - (_Bool);
 - (void);
 - (void);
@@ -29,31 +97,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rameworks/PegasusAPI.framework/Versions/A/PegasusAPI;
 - (id)1Â0@ù
 × ;
-- (void)dSubscript:(CDUnknownBlockType)arg1;
+- (void)__swift_setObject:(CDUnknownBlockType)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (void)",&,V_location;
 - (void);
 - (void)lt / error:(id)arg1 %@ / %@;
 - (void)connection requested:(_Bool)arg1 %@;
 - (void)A:Replaying %@.%@.%@ /* Error: Ran out of types for this method. */;
-- (void)esident;
+- (void)publishReasonCountResident;
 - (void)¤MØ#ÐR;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak HMDBackingStore *backingStore; // @synthesize backingStore=_backingStore;
-@property(nonatomic) _Bool committed; // @synthesize committed=_committed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) HMDBackingStoreTransactionOptions *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

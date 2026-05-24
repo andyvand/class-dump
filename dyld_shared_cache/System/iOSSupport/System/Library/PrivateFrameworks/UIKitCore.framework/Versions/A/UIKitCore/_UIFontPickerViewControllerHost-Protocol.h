@@ -5,5 +5,7 @@
 //
 
 @protocol _UIFontPickerViewControllerHost
+- (void)downloadAssetsForTransferGUIDs;
+- (void)doubleForKey:withDefault: /* Error: Ran out of types for this method. */;
 @end
 

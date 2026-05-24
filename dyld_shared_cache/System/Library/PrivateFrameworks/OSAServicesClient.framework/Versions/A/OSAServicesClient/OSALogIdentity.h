@@ -9,7 +9,6 @@
 @interface OSALogIdentity
 {
     NSString *_incidentID;
-    NSString *_bugType;
 }
 
 + (_Bool);
@@ -17,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bugType; // @synthesize bugType=_bugType;
 @property(readonly, nonatomic) NSString *incidentID; // @synthesize incidentID=_incidentID;
 
 @end

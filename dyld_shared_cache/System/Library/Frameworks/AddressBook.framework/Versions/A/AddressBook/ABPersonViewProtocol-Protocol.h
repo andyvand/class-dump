@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, CNContact;
-
 @protocol ABPersonViewProtocol
+- (_Bool);
+- (void);
+- (void)h@9H;
+- (_Bool);
+- (_Bool);
+- (void)"STKImageGlyphDataSource",&,V_imageDataSource;
+- (void)locate any software update assets (no error);
+- (void)ponse_error_data, waypoints_data, 0 FROM directions;
 - (long long);
 - (_Bool)0@ù
 × ;
@@ -14,22 +20,6 @@
 - (struct CGSize)HXPX;
 
 // Remaining properties
-@property(nonatomic) _Bool _quicklook_fetchAsynchronously;
-@property _Bool autoSave;
-@property long long backgroundStyle;
-@property(readonly) _Bool canEditContact;
-@property(retain) CNContact *contact;
-@property(readonly) struct CGSize contentSize;
-@property _Bool drawsBackground;
-@property(getter=isEditable) _Bool editable;
 @property _Bool editing;
-@property(readonly) _Bool hasChanges;
-@property(readonly) struct CGRect imageFrame;
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(retain) ABPerson *person;
-@property(readonly) struct CGSize preferredMinimumSize;
-@property(getter=isSelectable) _Bool selectable;
-@property _Bool shouldShowLinkedPeople;
-@property(nonatomic) _Bool showsShowInMapsButtons;
 @end
 

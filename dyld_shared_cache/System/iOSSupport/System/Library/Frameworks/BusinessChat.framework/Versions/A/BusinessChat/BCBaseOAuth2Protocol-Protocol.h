@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol BCBaseOAuth2Protocol
+- (_Bool)requestAuthorizationWithConfiguration:(NSURL *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (NSURL *)presentationControllerShouldDismiss: /* Error: Ran out of types for this method. */;
 @end
 

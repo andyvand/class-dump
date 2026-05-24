@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool):(id)arg1 8q16@24;
 - (id);
 
 @end

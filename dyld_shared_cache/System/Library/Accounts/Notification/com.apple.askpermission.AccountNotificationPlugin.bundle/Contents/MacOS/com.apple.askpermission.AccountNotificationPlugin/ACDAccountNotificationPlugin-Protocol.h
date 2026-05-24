@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount, ACDAccountStore;
+
 @protocol ACDAccountNotificationPlugin
+
+@optional
+- (void);
+- (_Bool){;
+- (_Bool);
+- (_Bool)P;
+- (_Bool)dictionaryWithObjects:(ACAccount *)arg1 forKeys:(ACDAccountStore *)arg2 count: /* Error: Ran out of types for this method. */;
 @end
 

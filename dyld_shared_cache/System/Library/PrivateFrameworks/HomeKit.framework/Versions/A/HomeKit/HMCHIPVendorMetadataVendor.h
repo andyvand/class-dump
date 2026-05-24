@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSDictionary, NSNumber;
 
 @interface HMCHIPVendorMetadataVendor
 {
     NSNumber *_identifier;
-    NSString *_name;
-    NSDictionary *_productsByProductID;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)isOneTimeCodeThatRequiresAuthentication;
 - (id);
 - (id);
 - (id);
@@ -29,26 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
 @property(copy) NSDictionary *productsByProductID; // @synthesize productsByProductID=_productsByProductID;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

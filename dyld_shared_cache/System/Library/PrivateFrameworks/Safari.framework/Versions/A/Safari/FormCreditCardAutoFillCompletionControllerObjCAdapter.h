@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FormCreditCardAutoFillCompletionControllerObjCAdapter : FormAutoFillCompletionControllerObjCAdapter
 {
     AutoFillLocalAuthenticationManager *_autoFillLocalAuthenticationManager;
-    WBSCreditCardData *_lastFilledCreditCard;
 }
 
 - (double);

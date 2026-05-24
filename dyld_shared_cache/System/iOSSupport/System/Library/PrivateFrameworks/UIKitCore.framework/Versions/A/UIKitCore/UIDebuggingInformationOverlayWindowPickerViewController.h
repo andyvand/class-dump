@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UITableView;
+@class NSArray, UITableView;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationOverlayWindowPickerViewController : UIViewController
@@ -18,25 +18,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Request was cancelled.;
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)userInterfaceStyle;
+- (void)MPMoviePlayerFullscreenAnimationDurationUserInfoKey;
 - (void);
 - (void);
 - (id)bí;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) NSArray *windows; // @synthesize windows=_windows;
 
 @end
 

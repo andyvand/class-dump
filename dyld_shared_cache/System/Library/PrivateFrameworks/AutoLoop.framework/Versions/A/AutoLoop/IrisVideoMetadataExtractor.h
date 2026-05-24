@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class AVAsset, NSArray;
 
 @interface IrisVideoMetadataExtractor
 {
     NSArray *_framesMetadataArray;
-    _Bool saveAllMetadata;
-    _Bool processedFile;
-    NSMutableDictionary *videoTrackMetadataDict;
-    AVAsset *inMovieAsset;
-    NSMutableArray *desiredIrisKeysArray;
-    NSDictionary *allMetadata;
 }
 
 - (id);
@@ -27,23 +21,17 @@
 - (int);
 - (int);
 - (id);
-- (id);
-- (id);
+- (id)s;
+- (id)D;
 - (_Bool);
 - (void);
 - (int);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *allMetadata; // @synthesize allMetadata;
-@property(retain) NSMutableArray *desiredIrisKeysArray; // @synthesize desiredIrisKeysArray;
-@property(readonly) NSArray *framesMetadataArray; // @synthesize framesMetadataArray=_framesMetadataArray;
 @property(retain) AVAsset *inMovieAsset; // @synthesize inMovieAsset;
-@property _Bool processedFile; // @synthesize processedFile;
-@property _Bool saveAllMetadata; // @synthesize saveAllMetadata;
-@property(readonly) NSMutableDictionary *videoTrackMetadataDict; // @synthesize videoTrackMetadataDict;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoPutMaterialErrorIndication, NSMutableArray;
+@class NSMutableArray;
 
 @interface IDSQRProtoPutMaterialIndication
 {
     unsigned long long _txnId;
-    NSMutableArray *_materials;
-    IDSQRProtoPutMaterialErrorIndication *_missingMaterial;
-    CDStruct_783edc84 _has;
 }
 
 + (Class);
@@ -33,18 +30,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)44@0:(id)arg1 8^{BluetoothDeviceAddress=[6C]}16S24*28@36;
+- (void)ify:(id)arg1 start:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id)T;
 - (void)d due to invalid parameter.;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMissingMaterial;
-@property(nonatomic) _Bool hasTxnId;
 @property(retain, nonatomic) NSMutableArray *materials; // @synthesize materials=_materials;
-@property(retain, nonatomic) IDSQRProtoPutMaterialErrorIndication *missingMaterial; // @synthesize missingMaterial=_missingMaterial;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

@@ -7,19 +7,6 @@
 @interface COMAPPLEPROACTIVEGMSGMSAssetEvent
 {
     double _latencyMillis;
-    unsigned long long _memoryCostKB;
-    long long _version;
-    int _loadReason;
-    int _loadResult;
-    int _loadType;
-    struct {
-        unsigned int latencyMillis:1;
-        unsigned int memoryCostKB:1;
-        unsigned int version:1;
-        unsigned int loadReason:1;
-        unsigned int loadResult:1;
-        unsigned int loadType:1;
-    } _has;
 }
 
 - (void);
@@ -29,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (int);
@@ -57,24 +44,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)<NSTextAttachmentCell>"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLatencyMillis;
-@property(nonatomic) _Bool hasLoadReason;
-@property(nonatomic) _Bool hasLoadResult;
-@property(nonatomic) _Bool hasLoadType;
-@property(nonatomic) _Bool hasMemoryCostKB;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) double latencyMillis; // @synthesize latencyMillis=_latencyMillis;
-@property(nonatomic) int loadReason; // @synthesize loadReason=_loadReason;
-@property(nonatomic) int loadResult; // @synthesize loadResult=_loadResult;
-@property(nonatomic) int loadType; // @synthesize loadType=_loadType;
-@property(nonatomic) unsigned long long memoryCostKB; // @synthesize memoryCostKB=_memoryCostKB;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

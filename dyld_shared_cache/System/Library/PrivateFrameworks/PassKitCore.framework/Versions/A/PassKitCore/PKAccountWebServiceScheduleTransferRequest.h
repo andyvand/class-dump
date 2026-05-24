@@ -6,32 +6,25 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSData, NSString, NSURL, PKAccountScheduledTransferList, PKAccountTransferScheduleDetails, PKApplePayTrustHashResponse, PKPaymentDeviceMetadata;
+@class NSURL, PKAccountScheduledTransferList;
 
 @interface PKAccountWebServiceScheduleTransferRequest : PKAccountWebServiceRequest
 {
     NSURL *baseURL;
-    PKApplePayTrustHashResponse *hashResponse;
-    NSData *_publicKeyHash;
-    PKAccountScheduledTransferList *_scheduledTransfers;
-    PKAccountTransferScheduleDetails *_scheduleDetails;
-    NSString *_accountIdentifier;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    NSString *_odiAssessment;
 }
 
 - (Class);
+- (void)h;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id));
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_;
+- (id)9m;
 - (id);
 - (void);
 - (id);
@@ -43,21 +36,7 @@
 - (void)j0Á;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKApplePayTrustHashResponse *hashResponse; // @synthesize hashResponse;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(retain, nonatomic) PKAccountTransferScheduleDetails *scheduleDetails; // @synthesize scheduleDetails=_scheduleDetails;
 @property(retain, nonatomic) PKAccountScheduledTransferList *scheduledTransfers; // @synthesize scheduledTransfers=_scheduledTransfers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ILMediaBrowserImageMatrix
 {
     NSMutableArray *selectedCells;
-    struct CGRect selectionRect;
-    _Bool mAllowMultipleSelection;
-    _Bool mDisplaysToolTips;
-    _Bool mDrawTitles;
-    struct CGSize mImageCellSize;
-    NSMutableArray *_contents;
-    NSMutableArray *_contentImages;
-    NSMutableArray *_contentTitles;
-    id _observedObjectForContent;
-    NSString *_observedKeyPathForContent;
-    id _observedObjectForContentImages;
-    NSString *_observedKeyPathForContentImages;
-    id _observedObjectForContentTitles;
-    NSString *_observedKeyPathForContentTitles;
 }
 
 + (void);
@@ -50,22 +36,22 @@
 - (long long);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)auto;
+- (id)manualWithDescriptorSolver;
+- (void)motionTransform;
+- (void)minimalTopPadding;
+- (void)infiniteScrollManager;
+- (_Bool)oundViewProvidingP;
 - (void);
-- (void);
+- (id);
+- (unsigned long long)ton.swift;
+- (void)ller=%@, object=%@;
+- (void)ovided object, viewController=%@, object=%@;
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -75,7 +61,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void));
 - (void);
 - (_Bool);
 - (_Bool);

@@ -5,5 +5,6 @@
 //
 
 @protocol SafariCore.WBSPasswordsNotificationManagerProtocol
+- (void);
 @end
 

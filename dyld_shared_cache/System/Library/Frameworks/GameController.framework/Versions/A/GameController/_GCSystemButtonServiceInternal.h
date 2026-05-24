@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSet, NSString, _GCSystemButtonServerConnection;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _GCSystemButtonServiceInternal
 {
     NSMutableArray *_consumers;
-    _GCSystemButtonServerConnection *_serverConnection;
-    id _serverConnectionInvalidation;
-    id _serverConnectionInterruption;
-    _Bool _available;
-    NSString *_sfSymbolName;
-    NSString *_localizedName;
-    NSSet *_respondingProcessBundleIdentifiers;
 }
 
 - (id);
@@ -33,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, getter=isAvailable) _Bool available; // @synthesize available=_available;
-@property(readonly, copy) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy) NSSet *respondingProcessBundleIdentifiers; // @synthesize respondingProcessBundleIdentifiers=_respondingProcessBundleIdentifiers;
-@property(readonly, copy) NSString *sfSymbolName; // @synthesize sfSymbolName=_sfSymbolName;
 
 @end
 

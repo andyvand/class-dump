@@ -6,29 +6,27 @@
 
 #import <VoiceShortcutClient/WFContextualAction.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface WFOpenURLContextualAction : WFContextualAction
 {
     NSURL *_url;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
 - (id);
+- (id)|;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)=^{}}}{__compressed_pair<unsigned long, std::__1::__map_value_compare<TileId, std::__1::__value_type<TileId, CLTileFile *>, std::__1::less<TileId>, true> >=Q}}}QQ} /* Error: Ran out of types for this method. */;
+- (_Bool)p;
 - (void);
-- (id);
+- (id)sByName;
 - (id);
 - (void)!UÐ!ØEùÑ^Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

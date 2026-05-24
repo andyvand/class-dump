@@ -6,8 +6,6 @@
 
 #import <MapKit/MKMapConfiguration.h>
 
-@class MKPointOfInterestFilter, NSString;
-
 @interface MKStandardMapConfiguration : MKMapConfiguration
 {
     long long _emphasisStyle;
@@ -15,10 +13,10 @@
 
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,12 +27,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (_Bool);
@@ -43,18 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_allowsTerrainModePromotion) _Bool allowsTerrainModePromotion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long emphasisStyle; // @synthesize emphasisStyle=_emphasisStyle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter;
-@property(nonatomic) _Bool showsHiking;
-@property(nonatomic) _Bool showsTopographicFeatures;
-@property(nonatomic) _Bool showsTraffic;
-@property(readonly) Class superclass;
 
 @end
 

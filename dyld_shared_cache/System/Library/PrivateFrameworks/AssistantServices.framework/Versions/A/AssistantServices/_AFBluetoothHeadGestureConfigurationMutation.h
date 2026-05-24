@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothHeadGestureConfiguration, NSString;
+@class AFBluetoothHeadGestureConfiguration;
 
 @interface _AFBluetoothHeadGestureConfigurationMutation
 {
     AFBluetoothHeadGestureConfiguration *_base;
-    _Bool _isEnabled;
-    _Bool _isSupported;
-    long long _acceptGesture;
-    long long _rejectGesture;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIsEnabled:1;
-        unsigned int hasIsSupported:1;
-        unsigned int hasAcceptGesture:1;
-        unsigned int hasRejectGesture:1;
-    } _mutationFlags;
 }
 
-- (void);
+- (void)D(;
 - (void);
 - (long long);
 - (_Bool);
@@ -30,18 +19,12 @@
 - (long long);
 - (void);
 - (_Bool);
-- (id)jCTypes:(id)arg1;
-- (void)tListenerEndpoint: /* Error: Ran out of types for this method. */;
+- (id)signatureWithObjCTypes:(id)arg1;
+- (void)_initWithRequest:remoteResponseListenerEndpoint:usageResultListenerEndpoint: /* Error: Ran out of types for this method. */;
 - (void)n-notifications.message-received;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

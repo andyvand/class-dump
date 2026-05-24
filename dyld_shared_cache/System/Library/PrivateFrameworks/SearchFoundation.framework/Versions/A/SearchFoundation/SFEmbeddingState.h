@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFSpotlightEmbeddingState;
-
 @interface SFEmbeddingState
 {
     struct {
@@ -18,15 +16,6 @@
         unsigned int hasHybridResults:1;
         unsigned int hasMetadataResults:1;
     } _has;
-    _Bool _hasQueryEmbedding;
-    _Bool _hasEmbeddingResults;
-    _Bool _hasResults;
-    _Bool _hasSuppressedResults;
-    _Bool _hasKeywordResults;
-    _Bool _hasHybridResults;
-    _Bool _hasMetadataResults;
-    int _queryStatus;
-    SFSpotlightEmbeddingState *_spotlightEmbeddingState;
 }
 
 + (_Bool);
@@ -44,9 +33,9 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,37 +43,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)sectionedIdentifierList:(id)arg1 dataSourceDidBeginTransactionForSection: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)tone:(id)arg1 Text-Message-Acknowledgment-Question-Mark;
+- (id)0@0:(id)arg1 8@16q24q32;
+- (id)PHQueryForAssetInAlbumKind_SlomoVideosAlbum_block_invoke_59;
 - (id);
 - (id);
 - (int);
 - (void)N,V_bitsPerChannel;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool hasEmbeddingResults; // @synthesize hasEmbeddingResults=_hasEmbeddingResults;
-@property(nonatomic) _Bool hasHybridResults; // @synthesize hasHybridResults=_hasHybridResults;
-@property(nonatomic) _Bool hasKeywordResults; // @synthesize hasKeywordResults=_hasKeywordResults;
-@property(nonatomic) _Bool hasMetadataResults; // @synthesize hasMetadataResults=_hasMetadataResults;
-@property(nonatomic) _Bool hasQueryEmbedding; // @synthesize hasQueryEmbedding=_hasQueryEmbedding;
-@property(nonatomic) _Bool hasResults; // @synthesize hasResults=_hasResults;
-@property(nonatomic) _Bool hasSuppressedResults; // @synthesize hasSuppressedResults=_hasSuppressedResults;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int queryStatus; // @synthesize queryStatus=_queryStatus;
-@property(retain, nonatomic) SFSpotlightEmbeddingState *spotlightEmbeddingState; // @synthesize spotlightEmbeddingState=_spotlightEmbeddingState;
-@property(readonly) Class superclass;
 
 @end
 

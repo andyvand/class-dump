@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (struct CGSize);
-- (struct CGRect);
-- (id);
+- (struct CGSize)N,V_deferredUnreadCountRefresh;
+- (struct CGRect)}};
+- (id)1 chat bound to message , matches input hint? %{BOOL}d;
 - (void);
-- (id)outPass: /* Error: Ran out of types for this method. */;
+- (id)_setSafeAreaInsets:updateSubviewsDuringNextLayoutPass: /* Error: Ran out of types for this method. */;
 - (void)const BOOL);
 - (void);
 

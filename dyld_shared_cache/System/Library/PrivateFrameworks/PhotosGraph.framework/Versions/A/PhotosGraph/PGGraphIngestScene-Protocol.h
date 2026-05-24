@@ -7,17 +7,10 @@
 @class NSString;
 
 @protocol PGGraphIngestScene
+- (_Bool);
 - (unsigned long long)LáèãÄç;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isReliable;
-@property(readonly, nonatomic) unsigned long long numberOfAssets;
-@property(readonly, nonatomic) unsigned long long numberOfDominantSceneAssets;
-@property(readonly, nonatomic) unsigned long long numberOfHighConfidenceAssets;
-@property(readonly, nonatomic) unsigned long long numberOfSearchConfidenceAssets;
-@property(readonly, nonatomic) double relevance;
-@property(readonly, nonatomic) unsigned long long sceneIdentifier;
 @end
 

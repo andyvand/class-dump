@@ -9,18 +9,15 @@
 @interface PXAudioSettings : PXSettings
 {
     _Bool _workaround80278485;
-    _Bool _flexReturnOnlyLocalSongs;
-    _Bool _flexSimulateDownloadFailure;
-    _Bool _flexSimulateAssetFetchFailure;
 }
 
-+ (id);
++ (id)initWithRecords:andDescriptors: /* Error: Ran out of types for this method. */;
 + (id)¬dT|: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool flexReturnOnlyLocalSongs; // @synthesize flexReturnOnlyLocalSongs=_flexReturnOnlyLocalSongs;
-@property(nonatomic) _Bool flexSimulateAssetFetchFailure; // @synthesize flexSimulateAssetFetchFailure=_flexSimulateAssetFetchFailure;
-@property(nonatomic) _Bool flexSimulateDownloadFailure; // @synthesize flexSimulateDownloadFailure=_flexSimulateDownloadFailure;
 @property(nonatomic) _Bool workaround80278485; // @synthesize workaround80278485=_workaround80278485;
 
 @end

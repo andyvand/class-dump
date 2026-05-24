@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSMetadataQueryResultArray
 {
     id _query;
-    int _rc;
 }
 
 - (unsigned long long);

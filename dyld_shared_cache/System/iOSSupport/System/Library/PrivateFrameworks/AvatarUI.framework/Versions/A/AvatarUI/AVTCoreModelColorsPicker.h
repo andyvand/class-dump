@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTCoreModelPairing, AVTCoreModelPickerOptions, NSArray, NSString;
+@class NSArray;
 
 @interface AVTCoreModelColorsPicker
 {
     _Bool _alwaysShowExtended;
-    NSString *_identifier;
-    NSString *_title;
-    AVTCoreModelPickerOptions *_options;
-    AVTCoreModelPairing *_pairing;
-    NSArray *_primaryColors;
-    NSArray *_extendedColors;
-    long long _destination;
-    long long _colorCategory;
 }
 
 - (id);
@@ -26,8 +18,8 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id);
-- (long long);
+- (id)ependent tasks that are modal in Nominal state;
+- (long long)0x%x);
 - (id);
 - (id);
 - (_Bool);
@@ -35,22 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysShowExtended; // @synthesize alwaysShowExtended=_alwaysShowExtended;
-@property(readonly, nonatomic) long long colorCategory; // @synthesize colorCategory=_colorCategory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) NSArray *extendedColors; // @synthesize extendedColors=_extendedColors;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) AVTCoreModelPickerOptions *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) AVTCoreModelPairing *pairing; // @synthesize pairing=_pairing;
 @property(readonly, nonatomic) NSArray *primaryColors; // @synthesize primaryColors=_primaryColors;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

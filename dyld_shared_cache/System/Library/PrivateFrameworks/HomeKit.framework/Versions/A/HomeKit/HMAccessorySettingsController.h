@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettingsMessenger, HMAccessorySettingsMetricsDispatcher, NSString, _HMContext;
-@protocol HMAccessorySettingsControllerDataSource, HMAccessorySettingsMessengerFactory;
+@protocol HMAccessorySettingsMessengerFactory;
 
 @interface HMAccessorySettingsController
 {
     struct os_unfair_lock_s _lock;
-    HMAccessorySettingsMessenger *_messenger;
-    id <HMAccessorySettingsMessengerFactory> _messengerFactory;
-    HMAccessorySettingsMetricsDispatcher *_metricsDispatcher;
-    id <HMAccessorySettingsControllerDataSource> _dataSource;
-    _HMContext *_context;
 }
 
 + (id);
@@ -25,24 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)5/'B*;
+- (id)>		@	$	;
 - (void)handling stop stream response:Received session UUID %{public,uuid_t}.16P does not match the current one %{public,uuid_t}.16P /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property __weak id <HMAccessorySettingsControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <HMAccessorySettingsMessengerFactory> messengerFactory; // @synthesize messengerFactory=_messengerFactory;
-@property(readonly) HMAccessorySettingsMetricsDispatcher *metricsDispatcher; // @synthesize metricsDispatcher=_metricsDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,46 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString, PDIterate;
+@class NSDictionary, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface PDTimeNode
 {
     NSMutableArray *mStartTimeConditions;
-    NSMutableArray *mEndTimeConditions;
-    NSMutableArray *mChildTimeNodeList;
-    NSMutableArray *mSubTimeNodeList;
-    PDIterate *mIterate;
-    int mType;
-    int mAnimationPresetClass;
-    _Bool mHasPresetId;
-    int mPresetId;
-    _Bool mHasPresetSubType;
-    int mPresetSubType;
-    _Bool mHasRepeatCount;
-    int mRepeatCount;
-    _Bool mHasRepeatDuration;
-    int mRepeatDuration;
-    int mRestartType;
-    _Bool mHasDuration;
-    double mDuration;
-    _Bool mHasSpeed;
-    double mSpeed;
-    _Bool mHasAcceleration;
-    double mAcceleration;
-    _Bool mHasDeceleration;
-    double mDeceleration;
-    _Bool mHasDisplay;
-    _Bool mDisplay;
-    _Bool mHasFillType;
-    int mFillType;
-    NSString *mGroupId;
-    NSDictionary *attributeMap;
 }
 
 - (long long);
 - (id);
-- (void);
+- (void)9	;
 - (void);
 - (void);
 - (void);
@@ -55,38 +26,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
+- (int)6";
 - (int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (double);
+- (id);
+- (id);
 - (int);
+- (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (int);
+- (_Bool)isParsingMultiChunkMessage;
+- (int);
 - (id);
 - (double);
-- (id);
-- (id);
-- (int);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (_Bool);
-- (int);
-- (id);
-- (double);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)CNAvatarPickerExtensionDiscoveryManager;
 - (double);
 - (long long);
 - (int);
@@ -96,7 +67,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (void);
+- (void)ColorHex;
 - (_Bool);
 - (void);
 - (_Bool)üM;

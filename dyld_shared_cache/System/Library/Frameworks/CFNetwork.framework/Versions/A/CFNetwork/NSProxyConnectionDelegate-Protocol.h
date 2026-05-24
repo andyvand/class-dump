@@ -5,6 +5,7 @@
 //
 
 @protocol NSProxyConnectionDelegate
-- (void)4;
+- (void);
+- (void)234;
 @end
 

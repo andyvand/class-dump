@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface SCNActionPerformSelector : SCNAction
 {
     SEL _selector;
-    id _target;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);

@@ -9,8 +9,6 @@
 @interface CNHandle
 {
     NSString *_stringValue;
-    unsigned long long _type;
-    NSString *_customIdentifier;
 }
 
 + (long long);
@@ -29,19 +27,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ier: /* Error: Ran out of types for this method. */;
+- (void)shouldPerformDefaultActionForPropertyKey:propertyIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

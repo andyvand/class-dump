@@ -7,12 +7,6 @@
 @interface AppStoreKit.AccessibilityFeatures
 {
     id id;
-    id title;
-    id artwork;
-    id features;
-    id impressionMetrics;
-    id segue;
-    id clickAction;
 }
 
 @end

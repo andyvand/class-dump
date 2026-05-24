@@ -5,5 +5,6 @@
 //
 
 @protocol NSAppExceptionListener
+- (void);
 @end
 

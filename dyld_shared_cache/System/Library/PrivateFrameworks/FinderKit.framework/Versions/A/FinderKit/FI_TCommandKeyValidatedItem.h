@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TCommandKeyValidatedItem
 {
     SEL _action;
-    long long _tag;
 }
 
 - (id);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) SEL action;
-@property(readonly) long long tag;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol AVCAudioStreamDelegate
 
 @optional
-- (void)e;
+- (void);
+- (void)database;
 @end
 

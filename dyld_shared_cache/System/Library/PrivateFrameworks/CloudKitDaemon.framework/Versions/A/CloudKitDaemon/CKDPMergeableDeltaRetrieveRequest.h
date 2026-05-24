@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMergeableValueIdentifier, NSData;
+@class NSData;
 
 @interface CKDPMergeableDeltaRetrieveRequest
 {
     NSData *_continuation;
-    CKDPMergeableValueIdentifier *_identifier;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void)objectForKeyedSubscript:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_hoseSetMagicCookieCallbackCompletionHandler;
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -29,14 +28,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (Class)Present:error: /* Error: Ran out of types for this method. */;
-- (void)nerSpecificOpWithBadiCloudToken;
+- (Class)ensureRegistrationPresent:error: /* Error: Ran out of types for this method. */;
+- (void)TestContainerSpecificOpWithBadiCloudToken;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuation; // @synthesize continuation=_continuation;
-@property(readonly, nonatomic) _Bool hasContinuation;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPMergeableValueIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

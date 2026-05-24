@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIWindow;
+
 @protocol _UIWindowSceneSuperlayerSecurityAnalysisDelegate
+- (unsigned long long)setLatestReadReceipt:(UIWindow *)arg1;
 @end
 

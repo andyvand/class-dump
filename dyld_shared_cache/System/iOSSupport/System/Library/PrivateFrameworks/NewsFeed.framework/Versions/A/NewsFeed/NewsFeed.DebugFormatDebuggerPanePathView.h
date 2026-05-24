@@ -7,14 +7,10 @@
 @interface NewsFeed.DebugFormatDebuggerPanePathView
 {
     id sourceMap;
-    id topSeparatorView;
-    id bottomSeparatorView;
-    id filePathLabel;
-    id lineColumnLabel;
 }
 
 - (id);
-- (void);
+- (void)mOffset:length:queue:handler:] /* Error: Ran out of types for this method. */;
 - (id)! Aùñþð1Â0@ù
 × ;
 - (void);

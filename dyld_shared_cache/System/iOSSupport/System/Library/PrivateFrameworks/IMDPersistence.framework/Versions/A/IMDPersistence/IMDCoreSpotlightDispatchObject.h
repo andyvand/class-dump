@@ -9,10 +9,6 @@
 @interface IMDCoreSpotlightDispatchObject
 {
     _Bool _allowsOverrideOfObjects;
-    _Bool _shouldAddToSuggestions;
-    _Bool _shouldAddToSpotlight;
-    _Bool _shouldAddToCoreRecents;
-    CRRecentContactsLibrary *_recentsInstance;
 }
 
 + (id)licate message found with handle:%@ matching body matching service:%@ /* Error: Ran out of types for this method. */;
@@ -21,7 +17,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -30,11 +26,7 @@
 - (void)d remaining attachment records;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsOverrideOfObjects; // @synthesize allowsOverrideOfObjects=_allowsOverrideOfObjects;
 @property(retain) CRRecentContactsLibrary *recentsInstance; // @synthesize recentsInstance=_recentsInstance;
-@property(nonatomic) _Bool shouldAddToCoreRecents; // @synthesize shouldAddToCoreRecents=_shouldAddToCoreRecents;
-@property(nonatomic) _Bool shouldAddToSpotlight; // @synthesize shouldAddToSpotlight=_shouldAddToSpotlight;
-@property(nonatomic) _Bool shouldAddToSuggestions; // @synthesize shouldAddToSuggestions=_shouldAddToSuggestions;
 
 @end
 

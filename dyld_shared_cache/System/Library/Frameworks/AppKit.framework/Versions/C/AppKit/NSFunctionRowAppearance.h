@@ -11,10 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)API such as URLSession.;
+- (_Bool)kCFStreamPropertyFTPAttemptPersistentConnection;
+- (_Bool)kCFStreamPropertyFTPUserName;
+- (_Bool)QQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (_Bool);
 - (id);
 - (_Bool);

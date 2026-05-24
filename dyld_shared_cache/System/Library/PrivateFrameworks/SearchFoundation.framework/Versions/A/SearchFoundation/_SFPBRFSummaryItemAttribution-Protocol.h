@@ -7,11 +7,9 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemAttribution
+- (NSData *)createdFilename;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_compact;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_minimal;
 @end
 

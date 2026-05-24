@@ -7,12 +7,10 @@
 @class _INPBString;
 
 @protocol _INPBCallGroup
-- (void);
+- (_Bool);
+- (_INPBString *);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *groupId;
-@property(retain, nonatomic) _INPBString *groupName;
-@property(readonly, nonatomic) _Bool hasGroupId;
-@property(readonly, nonatomic) _Bool hasGroupName;
 @end
 

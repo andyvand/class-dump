@@ -9,10 +9,6 @@
 @interface ETLossDefinition
 {
     NSString *_inputName;
-    NSString *_targetInputName;
-    NSString *_lossOutputName;
-    unsigned long long _mode;
-    NSString *_outputName;
 }
 
 + (id);
@@ -28,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *inputName; // @synthesize inputName=_inputName;
-@property(readonly) NSString *lossOutputName; // @synthesize lossOutputName=_lossOutputName;
-@property(readonly) unsigned long long mode; // @synthesize mode=_mode;
 @property(retain) NSString *outputName; // @synthesize outputName=_outputName;
-@property(readonly) NSString *targetInputName; // @synthesize targetInputName=_targetInputName;
 
 @end
 

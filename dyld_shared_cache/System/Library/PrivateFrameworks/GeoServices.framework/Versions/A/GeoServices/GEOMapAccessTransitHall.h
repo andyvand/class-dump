@@ -6,7 +6,6 @@
 
 #import <GeoServices/GEOMapAccessTransitNodeBase.h>
 
-@class NSString;
 @protocol GEOMapTransitStation;
 
 __attribute__((visibility("hidden")))
@@ -21,21 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)Ê 3;
 
 // Remaining properties
-@property(readonly, nonatomic) double boundingRadius;
-@property(readonly, nonatomic) CDStruct_90e2a262 boundingRect;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *internalName;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *polygonPoints;
-@property(readonly, nonatomic) long long polygonPointsCount;
 @property(readonly, nonatomic) unsigned long long stationID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long transitID;
 
 @end
 

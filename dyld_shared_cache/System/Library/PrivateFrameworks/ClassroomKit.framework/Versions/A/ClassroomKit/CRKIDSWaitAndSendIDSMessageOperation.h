@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, CRKIDSMessageOptions, NSDictionary, NSString;
-@protocol CRKIDSLocalPrimitives, CRKIDSReadinessEvaluating;
+@protocol CRKIDSLocalPrimitives;
 
 @interface CRKIDSWaitAndSendIDSMessageOperation
 {
     id <CRKIDSLocalPrimitives> _IDSLocalPrimitives;
-    id <CRKIDSReadinessEvaluating> _readinessEvaluator;
-    NSDictionary *_message;
-    NSString *_destinationAddress;
-    NSString *_sourceAppleID;
-    CRKIDSMessageOptions *_options;
-    CATOperation *_evaluateReadinessOperation;
-    CATOperation *_sendMessageOperation;
 }
 
 - (id);
@@ -32,22 +24,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)T;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)updateIsActive;
 - (_Bool)ÿQ©;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSLocalPrimitives> IDSLocalPrimitives; // @synthesize IDSLocalPrimitives=_IDSLocalPrimitives;
-@property(readonly, copy, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(retain, nonatomic) CATOperation *evaluateReadinessOperation; // @synthesize evaluateReadinessOperation=_evaluateReadinessOperation;
-@property(readonly, copy, nonatomic) NSDictionary *message; // @synthesize message=_message;
-@property(readonly, nonatomic) CRKIDSMessageOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) id <CRKIDSReadinessEvaluating> readinessEvaluator; // @synthesize readinessEvaluator=_readinessEvaluator;
-@property(retain, nonatomic) CATOperation *sendMessageOperation; // @synthesize sendMessageOperation=_sendMessageOperation;
-@property(readonly, copy, nonatomic) NSString *sourceAppleID; // @synthesize sourceAppleID=_sourceAppleID;
 
 @end
 

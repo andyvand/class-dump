@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, RTSSchemaRTSClientEventMetadata, RTSSchemaRTSFalseRejectDetected, RTSSchemaRTSFirstPassPolicyTriggered, RTSSchemaRTSMotionData, RTSSchemaRTSSecondPassPolicyDecisionMade, RTSSchemaRTSTriggered, SISchemaInstrumentationMessage;
+@class RTSSchemaRTSClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface RTSSchemaRTSClientEvent : SISchemaTopLevelUnionType
 {
     RTSSchemaRTSClientEventMetadata *_eventMetadata;
-    RTSSchemaRTSFalseRejectDetected *_rtsFalseRejectDetected;
-    RTSSchemaRTSTriggered *_rtsTriggered;
-    RTSSchemaRTSFirstPassPolicyTriggered *_rtsFirstPassPolicyTriggered;
-    RTSSchemaRTSSecondPassPolicyDecisionMade *_rtsSecondPassPolicyDecisionMade;
-    RTSSchemaRTSMotionData *_rtsMotionData;
-    _Bool _hasEventMetadata;
-    _Bool _hasRtsFalseRejectDetected;
-    _Bool _hasRtsTriggered;
-    _Bool _hasRtsFirstPassPolicyTriggered;
-    _Bool _hasRtsSecondPassPolicyDecisionMade;
-    _Bool _hasRtsMotionData;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -31,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -57,42 +45,28 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)_enableOfflineFindingStatusTextField;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeAppsResponse_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)__kmessageBalloonBundleIDKey;
 - (id);
 - (id);
 - (id)°!DùàÐ1Â0@ù
 × ;
-- (unsigned long long)nseGenerationGMSCallTime;
-- (id)x:(id)arg1;
+- (unsigned long long)deleteResponseGenerationGMSCallTime;
+- (id)audioDevicesActiveWithin24HoursAtIndex:(id)arg1;
 - (id)y;
-- (int)LinkMetadataTier1;
-- (void)trics;
+- (int)CNVSchemaCNVLinkMetadataTier1;
+- (void)euclidServiceMetrics;
 
 // Remaining properties
-@property(retain, nonatomic) RTSSchemaRTSClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasRtsFalseRejectDetected; // @synthesize hasRtsFalseRejectDetected=_hasRtsFalseRejectDetected;
-@property(nonatomic) _Bool hasRtsFirstPassPolicyTriggered; // @synthesize hasRtsFirstPassPolicyTriggered=_hasRtsFirstPassPolicyTriggered;
-@property(nonatomic) _Bool hasRtsMotionData; // @synthesize hasRtsMotionData=_hasRtsMotionData;
-@property(nonatomic) _Bool hasRtsSecondPassPolicyDecisionMade; // @synthesize hasRtsSecondPassPolicyDecisionMade=_hasRtsSecondPassPolicyDecisionMade;
-@property(nonatomic) _Bool hasRtsTriggered; // @synthesize hasRtsTriggered=_hasRtsTriggered;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RTSSchemaRTSFalseRejectDetected *rtsFalseRejectDetected; // @synthesize rtsFalseRejectDetected=_rtsFalseRejectDetected;
-@property(retain, nonatomic) RTSSchemaRTSFirstPassPolicyTriggered *rtsFirstPassPolicyTriggered; // @synthesize rtsFirstPassPolicyTriggered=_rtsFirstPassPolicyTriggered;
-@property(retain, nonatomic) RTSSchemaRTSMotionData *rtsMotionData; // @synthesize rtsMotionData=_rtsMotionData;
-@property(retain, nonatomic) RTSSchemaRTSSecondPassPolicyDecisionMade *rtsSecondPassPolicyDecisionMade; // @synthesize rtsSecondPassPolicyDecisionMade=_rtsSecondPassPolicyDecisionMade;
-@property(retain, nonatomic) RTSSchemaRTSTriggered *rtsTriggered; // @synthesize rtsTriggered=_rtsTriggered;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

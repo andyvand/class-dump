@@ -7,7 +7,6 @@
 @interface TrialServer.TRIBAAClientCertDelegate__priv_0ABDD8BE8CF1C9FE456BEA3934586577
 {
     id certChain;
-    id privateKey;
 }
 
 - (id);

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)Ѡ;
 
 @end
 

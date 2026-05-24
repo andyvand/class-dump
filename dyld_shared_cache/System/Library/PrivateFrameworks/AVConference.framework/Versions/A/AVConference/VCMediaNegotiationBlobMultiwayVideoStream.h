@@ -8,39 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobMultiwayVideoStream
 {
     unsigned int _frameRate;
-    unsigned int _keyFrameInterval;
-    unsigned int _maxMediaBitrate;
-    unsigned int _maxNetworkBitrate;
-    unsigned int _maxPacketsPerSecond;
-    unsigned int _metadata;
-    unsigned int _payload;
-    unsigned int _qualityIndex;
-    unsigned int _repairedMaxNetworkBitrate;
-    unsigned int _repairedStreamID;
-    unsigned int _ssrc;
-    unsigned int _streamID;
-    unsigned int _supportedVideoFormats;
-    struct {
-        unsigned int maxMediaBitrate:1;
-        unsigned int maxNetworkBitrate:1;
-        unsigned int maxPacketsPerSecond:1;
-        unsigned int metadata:1;
-        unsigned int repairedMaxNetworkBitrate:1;
-        unsigned int repairedStreamID:1;
-    } _has;
 }
 
 + (int);
-+ (int);
++ (int)d;
 + (int);
 + (_Bool);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,22 +31,22 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)=h;
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -75,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
@@ -87,26 +67,7 @@ __attribute__((visibility("hidden")))
 - (void)ÉFÊEÏ@ÌC;
 
 // Remaining properties
-@property(nonatomic) unsigned int frameRate; // @synthesize frameRate=_frameRate;
-@property(nonatomic) _Bool hasMaxMediaBitrate;
-@property(nonatomic) _Bool hasMaxNetworkBitrate;
-@property(nonatomic) _Bool hasMaxPacketsPerSecond;
-@property(nonatomic) _Bool hasMetadata;
-@property(nonatomic) _Bool hasRepairedMaxNetworkBitrate;
-@property(nonatomic) _Bool hasRepairedStreamID;
 @property(readonly, nonatomic) _Bool isSubStream;
-@property(nonatomic) unsigned int keyFrameInterval; // @synthesize keyFrameInterval=_keyFrameInterval;
-@property(nonatomic) unsigned int maxMediaBitrate; // @synthesize maxMediaBitrate=_maxMediaBitrate;
-@property(nonatomic) unsigned int maxNetworkBitrate; // @synthesize maxNetworkBitrate=_maxNetworkBitrate;
-@property(nonatomic) unsigned int maxPacketsPerSecond; // @synthesize maxPacketsPerSecond=_maxPacketsPerSecond;
-@property(nonatomic) unsigned int metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) unsigned int payload; // @synthesize payload=_payload;
-@property(nonatomic) unsigned int qualityIndex; // @synthesize qualityIndex=_qualityIndex;
-@property(nonatomic) unsigned int repairedMaxNetworkBitrate; // @synthesize repairedMaxNetworkBitrate=_repairedMaxNetworkBitrate;
-@property(nonatomic) unsigned int repairedStreamID; // @synthesize repairedStreamID=_repairedStreamID;
-@property(nonatomic) unsigned int ssrc; // @synthesize ssrc=_ssrc;
-@property(nonatomic) unsigned int streamID; // @synthesize streamID=_streamID;
-@property(nonatomic) unsigned int supportedVideoFormats; // @synthesize supportedVideoFormats=_supportedVideoFormats;
 
 @end
 

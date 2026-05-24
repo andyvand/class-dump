@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface STYSignpostStreamingStatistics
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_subsystemDict;
-    NSObject<OS_dispatch_source> *_periodicTimer;
-    NSObject<OS_dispatch_source> *_sigtermSource;
-    unsigned long long _machAbsTimeStart;
-    unsigned long long _totalCount;
 }
 
 - (void);

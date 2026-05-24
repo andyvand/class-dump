@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPLocationBound, CKDPLocationCoordinate;
+@class CKDPLocationBound;
 
 @interface CKDPLocation
 {
     CKDPLocationBound *_bounds;
-    CKDPLocationCoordinate *_coordinate;
 }
 
-- (void);
+- (void)UsoEntityBuilderProtocol_common_OffsetDate;
 - (id);
+- (void)getTransitModality:(id)arg1 forProvider:forCity: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)flush pending, pausing data transmission. flushPendingCount = %d
+;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)+ ;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)onType;
+- (_Bool)_cachedPartitionType;
 - (void)oudKit/%@ (%@);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPLocationBound *bounds; // @synthesize bounds=_bounds;
-@property(retain, nonatomic) CKDPLocationCoordinate *coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, nonatomic) _Bool hasBounds;
 @property(readonly, nonatomic) _Bool hasCoordinate;
 
 @end

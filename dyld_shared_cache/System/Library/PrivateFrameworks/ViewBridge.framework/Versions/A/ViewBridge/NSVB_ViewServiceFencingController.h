@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface NSVB_ViewServiceFencingController
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_pendingFenceSendRights;
-    NSMutableArray *_proxies;
-    NSMutableArray *_resumeActions;
-    unsigned long long _resumedFencingProxyCount;
-    NSTimer *_fencingControlTimeoutTimer;
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (_Bool);

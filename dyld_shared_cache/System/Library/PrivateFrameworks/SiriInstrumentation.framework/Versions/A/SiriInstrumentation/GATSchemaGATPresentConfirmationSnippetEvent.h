@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATPresentConfirmationSnippetEvent : SISchemaInstrumentationMessage
 {
     int _confirmationDialogName;
-    int _requestedAgent;
-    CDStruct_a7c29d72 _has;
 }
 
 - (void);
@@ -27,20 +23,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)control:textShouldEndEditing: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ale"b1"status"b1"currentSubscriptionHash"b1"downloadState"b1"timeSinceLastMobileAssetDownloadAttemptInSeconds"b1"timeSinceLastMobileAssetDownloadErrorInSeconds"b1"lastMobileAssetDownloadAttemptErrorCode"b1"errorCount"b1"sampledErrorCode"b1"sampledErrorHash"b1"sampledErrorUnderlyingCode"b1"timeSinceLastAppleIntelligenceToggleInSeconds"b1"timeSinceLastSubscriptionHashChangeInSeconds"b1"timeSinceLastBootInSeconds"b1"countPSUSAssets"b1"countRequiredAssets"b1"timeSinceLastSoftwareUpdateInSeconds"b1"timeSinceSampledErrorInSeconds"b1"buddyStatus"b1"invocationsCountWhileNotAvailable"b1"lastMobileAssetDownloadAttemptErrorUnderlyingCode"b1"mode"b1"subscriptionDownloadStatus"b1"timeSinceSubscriptionDownloadStatusCompleteInSeconds"b1"currentMode"b1"invocationsCountWhileAvailable"b1"numberOfMobileAssetAlters"b1"numberOfMobileAssetEliminates"b1"numberOfMobileAssetScans"b1"countFactoryAssetInBytes"b1"countFactoryAssets"b1"sizeInBytesPSUSAssets"b1"countPSUSAssetsMobileAsset"b1"totalBytesDownloaded"b1"totalNumberOfBytesDownloaded"b1};
-- (id)laylistRequestDurationInMs;
+- (id)_subPlaylistRequestDurationInMs;
 - (id)à;
 
 // Remaining properties
 @property(nonatomic) int confirmationDialogName; // @synthesize confirmationDialogName=_confirmationDialogName;
-@property(nonatomic) _Bool hasConfirmationDialogName;
-@property(nonatomic) _Bool hasRequestedAgent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestedAgent; // @synthesize requestedAgent=_requestedAgent;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol GCPlayerIndicatorXPCProxyServiceRemoteServerInterface
+- (void);
 @end
 

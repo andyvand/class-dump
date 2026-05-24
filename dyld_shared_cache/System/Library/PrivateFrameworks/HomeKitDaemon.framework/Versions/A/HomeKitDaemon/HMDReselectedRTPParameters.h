@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDReselectedRTPParameters
 {
     NSNumber *_maximumBitrate;
-    NSNumber *_minimumBitrate;
-    NSNumber *_rtcpInterval;
 }
 
 + (_Bool)(â¨â;
 - (id);
-- (id);
+- (id)16@?24;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)allRelevantAssetUUIDs;
 - (void);
-- (id);
+- (id)ion error:(id)arg1 %s;
 - (void);
 - (void)Analyzers;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *maximumBitrate; // @synthesize maximumBitrate=_maximumBitrate;
-@property(readonly, copy, nonatomic) NSNumber *minimumBitrate; // @synthesize minimumBitrate=_minimumBitrate;
-@property(readonly, copy, nonatomic) NSNumber *rtcpInterval; // @synthesize rtcpInterval=_rtcpInterval;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

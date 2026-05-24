@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void)Vv24@0:(id)arg1 8@?<v@?@"NSArray"@"NFApplet"@"NSError">16;
 - (void);
 - (id);
 - (id);

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCallRecord, INCallRecordFilter, INStartCallRequestMetadata, NSArray, NSNumber, NSString;
+@class INCallRecord, INCallRecordFilter;
 
 @protocol INStartCallIntentExport
+- (void);
+- (void)6;
+- (INCallRecord *)_runPrivateEmailFlow;
+- (long long)_performAuthKitActionWithResponse:additionalData:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long audioRoute;
-@property long long callCapability;
-@property(copy) NSArray *callGroups;
 @property(copy) INCallRecordFilter *callRecordFilter;
-@property(copy) INCallRecord *callRecordToCallBack;
-@property(copy) INStartCallRequestMetadata *callRequestMetadata;
-@property(copy) NSArray *contacts;
-@property long long destinationType;
-@property(copy) NSString *faceTimeLink;
-@property(copy) NSNumber *isGroupCall;
-@property(copy) NSString *notificationThreadIdentifier;
-@property long long preferredCallProvider;
-@property(setter=setTTYType:) long long ttyType;
 @end
 

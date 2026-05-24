@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventFullNavTrace
 {
     PBUnknownFields *_unknownFields;
-    NSData *_navTraceData;
 }
 
-+ (_Bool)tHasSpeedLimitMps:(id)arg1;
++ (_Bool)setHasSpeedLimitMps:(id)arg1;
+- (void);
+- (id)#;
+- (_Bool)unexpected behavior may follow:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)-y=v	;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Command is not handled by the controller state machine.;
 - (_Bool);
 - (void);
 - (id)setShowIntermediateStateTapBehaviorListView:(struct _NSZone *)arg1;
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasNavTraceData;
-@property(retain, nonatomic) NSData *navTraceData;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

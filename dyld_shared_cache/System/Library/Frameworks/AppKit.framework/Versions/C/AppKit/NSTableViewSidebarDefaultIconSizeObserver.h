@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (long long);
-+ (void);
++ (long long)__NSCFBackgroundUploadTask;
++ (void);
 + (long long);
 + (void)ØOH;
 

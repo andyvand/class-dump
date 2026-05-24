@@ -9,10 +9,6 @@
 @interface AppStoreKit.LockupCollectionSearchResult : AppStoreKit.SearchResult
 {
     id heading;
-    id headingArtwork;
-    id title;
-    id items;
-    id detailAction;
 }
 
 @end

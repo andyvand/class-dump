@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface _SFPBRFMarkdownCardSection
 {
     int _streaming_state;
-    NSArray *_markdown_strings;
-    NSDictionary *_markdown_data;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (void);
@@ -29,25 +27,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)h;
+- (id)queryForShareParticipantsWithParticipantIDs:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)navailable, cannot initialize suggestions query;
 - (id);
 - (id);
 - (void)16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSDictionary *markdown_data; // @synthesize markdown_data=_markdown_data;
 @property(copy, nonatomic) NSArray *markdown_strings; // @synthesize markdown_strings=_markdown_strings;
-@property(nonatomic) int streaming_state; // @synthesize streaming_state=_streaming_state;
-@property(readonly) Class superclass;
 
 @end
 

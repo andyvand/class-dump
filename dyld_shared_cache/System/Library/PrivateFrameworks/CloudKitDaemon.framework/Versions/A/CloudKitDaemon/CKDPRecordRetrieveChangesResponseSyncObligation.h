@@ -15,7 +15,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)[%{ptr}] %s[0x%04X] (startup) Hose [%{ptr}] (%@) Primed -> Ready (clusterUUID %@)
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

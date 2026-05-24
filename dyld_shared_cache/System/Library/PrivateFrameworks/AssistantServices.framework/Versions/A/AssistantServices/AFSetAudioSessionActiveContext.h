@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechRequestOptions;
-
 @interface AFSetAudioSessionActiveContext
 {
     unsigned long long _options;
-    long long _reason;
-    AFSpeechRequestOptions *_speechRequestOptions;
-    long long _playbackType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)=;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)rIdentifier;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`";
 - (long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)=;
 - (void)_supportsSpokenNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) long long playbackType; // @synthesize playbackType=_playbackType;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) AFSpeechRequestOptions *speechRequestOptions; // @synthesize speechRequestOptions=_speechRequestOptions;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFFactItemHeroNumberCardSection
-- (_SFPBRFTextProperty *)PBPunchout;
+- (_SFPBRFTextProperty *);
+- (void)_;
+- (NSData *)npostId;
+- (_SFPBRFTextProperty *)_SFPBPunchout;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number;
-@property(copy, nonatomic) NSArray *text_2s;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *unit;
 @end
 

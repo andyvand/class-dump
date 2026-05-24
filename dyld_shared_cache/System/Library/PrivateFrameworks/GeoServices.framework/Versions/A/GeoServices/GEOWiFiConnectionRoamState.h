@@ -7,42 +7,34 @@
 @interface GEOWiFiConnectionRoamState
 {
     int _lateRoamMaxRSSI;
-    int _lateRoamMinRSSI;
-    struct {
-        unsigned int has_lateRoamMaxRSSI:1;
-        unsigned int has_lateRoamMinRSSI:1;
-    } _flags;
 }
 
-+ (_Bool)Response:(id)arg1;
++ (_Bool)setOriginPlaceSearchResponse:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)P;
+- (int);
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)siriClientBehaviorMonitor:(id)arg1 willStartStreamWithContext:option: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)!d@ùÑ¹*ð1Â0@ù
 × ;
-- (id)ertainArrival;
-- (id)tCellBssLoad: /* Error: Ran out of types for this method. */;
+- (id)isUncertainArrival;
+- (id)setCellBssLoad: /* Error: Ran out of types for this method. */;
 - (id)ributionManifestVersionMigrationTask;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLateRoamMaxRSSI;
 @property(nonatomic) _Bool hasLateRoamMinRSSI;
-@property(nonatomic) int lateRoamMaxRSSI;
-@property(nonatomic) int lateRoamMinRSSI;
 
 @end
 

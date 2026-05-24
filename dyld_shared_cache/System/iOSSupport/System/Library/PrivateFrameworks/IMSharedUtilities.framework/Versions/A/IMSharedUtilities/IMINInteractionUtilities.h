@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)val;
+- (id);
+- (void)earliestDeleteDateInterval;
 
 // Remaining properties
 @property(retain, nonatomic) CSSearchableIndex *searchableIndex; // @synthesize searchableIndex=_searchableIndex;

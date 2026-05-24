@@ -13,7 +13,7 @@
     UXLabel *_titleAndValueLabel;
 }
 
-- (void);
+- (void);
 - (void);
 - (id)}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}24q32@?40;
 - (void)$Ú;

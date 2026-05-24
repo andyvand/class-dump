@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
-
 @interface AMSSendableBag
 {
     id wrappedBag;
@@ -14,26 +12,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)}@ foreground bundle id changed:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool)dObservable: /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool)setExecutedObservable: /* Error: Ran out of types for this method. */;
+- (id)AMSDialogButton;
 - (void)ð÷²¦lVÈÚâ?¯¾°~8m;
 - (id)mM8ø¤ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *expirationDate;
 @property(nonatomic, readonly) _Bool expired;
-@property(nonatomic, readonly) AMSProcessInfo *processInfo;
-@property(nonatomic, readonly) NSString *profile;
-@property(nonatomic, readonly) NSString *profileVersion;
 
 @end
 

@@ -9,28 +9,22 @@
 @interface PKPaletteToolPickerEdgeView
 {
     CAGradientLayer *_gradientLayer;
-    CAGradientLayer *_maskLayer;
-    _Bool _flipHorizontally;
-    _Bool _flipVertically;
-    long long _axis;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void)oller;
+- (void)PKTextInputFeedbackController;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;
-@property(nonatomic) _Bool flipHorizontally; // @synthesize flipHorizontally=_flipHorizontally;
-@property(nonatomic) _Bool flipVertically; // @synthesize flipVertically=_flipVertically;
 
 @end
 

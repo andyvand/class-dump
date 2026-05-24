@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFocusSystem, _UIFocusInputDeviceInfo;
+@class UIFocusSystem;
 
 @protocol _UIFocusUpdateRequesting
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsDeferral;
-@property(readonly, nonatomic) _Bool allowsFocusingCurrentItem;
-@property(readonly, nonatomic) _Bool allowsOverridingPreferedFocusEnvironments;
 @property(readonly, nonatomic) __weak UIFocusSystem *focusSystem;
-@property(readonly, nonatomic) _UIFocusInputDeviceInfo *inputDeviceInfo;
-@property(readonly, nonatomic, getter=isMovementRequest) _Bool movementRequest;
-@property(readonly, nonatomic) _Bool requiresEnvironmentValidation;
-@property(readonly, nonatomic) _Bool requiresNextFocusedItem;
-@property(readonly, nonatomic, getter=shouldScrollIfNecessary) _Bool scrollIfNecessary;
-@property(readonly, nonatomic) _Bool shouldPerformHapticFeedback;
-@property(readonly, nonatomic) _Bool shouldPlayFocusSound;
 @end
 

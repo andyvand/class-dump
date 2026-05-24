@@ -6,16 +6,11 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class BMHomeKitClientBase, NSArray, NSString;
+@class BMHomeKitClientBase, NSString;
 
 @interface BMHomeKitClientActionSetEvent : BMEventBase
 {
     BMHomeKitClientBase *_base;
-    NSString *_actionSetUniqueIdentifier;
-    NSString *_actionSetType;
-    NSArray *_associatedAccessoryUniqueIdentifiers;
-    NSString *_actionSetName;
-    NSString *_homeName;
 }
 
 + (id);
@@ -31,26 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)OCATION ;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionSetName; // @synthesize actionSetName=_actionSetName;
-@property(readonly, copy, nonatomic) NSString *actionSetType; // @synthesize actionSetType=_actionSetType;
-@property(readonly, copy, nonatomic) NSString *actionSetUniqueIdentifier; // @synthesize actionSetUniqueIdentifier=_actionSetUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSArray *associatedAccessoryUniqueIdentifiers; // @synthesize associatedAccessoryUniqueIdentifiers=_associatedAccessoryUniqueIdentifiers;
-@property(readonly, copy, nonatomic) BMHomeKitClientBase *base; // @synthesize base=_base;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;
-@property(readonly) Class superclass;
 
 @end
 

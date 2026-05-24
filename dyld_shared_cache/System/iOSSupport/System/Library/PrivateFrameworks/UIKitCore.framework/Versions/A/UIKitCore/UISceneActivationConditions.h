@@ -9,24 +9,22 @@
 @interface UISceneActivationConditions
 {
     NSPredicate *_canActivatePredicate;
-    NSPredicate *_prefersPredicate;
-    UIScene *_uiScene;
 }
 
 + (_Bool);
 - (void);
+- (id)%;
+- (id)iner missing tag:tag length %ld /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (long long)
 × ;
-- (_Bool)ForLocales:(id *)arg1;
-- (_Bool)RowsForCalendarUnit:(id)arg1;
-- (void)alStringKeyTopTextOffset;
+- (_Bool)suggestedInputModesForLocales:(id *)arg1;
+- (_Bool)numberOfRowsForCalendarUnit:(id)arg1;
+- (void)dualStringKeyTopTextOffset;
 - (void);
-- (void)tionController;
+- (void)temporaryPresentationController;
 - (id)ate;
 - (id)ðúpþù33$8tþ;
 - (id);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setUIScene:) __weak UIScene *_UIScene; // @synthesize _UIScene=_uiScene;
-@property(copy, nonatomic) NSPredicate *canActivateForTargetContentIdentifierPredicate;
-@property(copy, nonatomic) NSPredicate *prefersToActivateForTargetContentIdentifierPredicate;
 
 @end
 

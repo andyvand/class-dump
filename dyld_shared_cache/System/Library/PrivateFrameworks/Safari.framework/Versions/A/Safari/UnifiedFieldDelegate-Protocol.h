@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSMenu, NSURL;
+@class NSColor, NSMenu, NSURL, UnifiedField;
 
 @protocol UnifiedFieldDelegate
+- (_Bool)addObserver:(UnifiedField *)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
 - (NSMenu *)È;
 - (void);
 - (void)Øô;

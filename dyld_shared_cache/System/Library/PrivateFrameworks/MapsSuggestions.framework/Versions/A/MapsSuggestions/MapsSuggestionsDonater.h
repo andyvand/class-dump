@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsDonater
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_source> *_closeTimer;
 }
 
 - (_Bool);
@@ -23,13 +21,6 @@
 - (void)56@0:8@16@24@32@40@48 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

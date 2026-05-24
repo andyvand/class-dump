@@ -9,11 +9,9 @@
 @interface ArraySlice
 {
     NSArray *_array;
-    unsigned long long _offset;
-    unsigned long long _count;
 }
 
-- (id);
+- (id)2;
 - (id);
 - (unsigned long long);
 - (void);

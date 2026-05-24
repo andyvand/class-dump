@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneLayoutPreferenceBuilder
 {
     double _minWidth;
-    double _minHeight;
-    double _minDepth;
-    double _maxWidth;
-    double _maxHeight;
-    double _maxDepth;
-    unsigned long long _builderDepth;
 }
 
 - (void);
 - (void);
+- (void)personCentricGroupedChatsArrayWithMaximumNumberOfChats:(id)arg1 skipsLastMessageLoading:(CDUnknownBlockType)arg2 usingChats:useCachedChatGroups:includingPinnedChatIdentifiers:repairInconsistentMergedChats: /* Error: Ran out of types for this method. */;
+- (id)operties for modelClass:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void)tKind;
-- (void)ius;
-- (void)KeyValueStorage;
+- (void)__footerElementKind;
+- (void)UILegibilityShadowRadius;
+- (void)UISceneKeyValueStorage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

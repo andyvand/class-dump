@@ -19,14 +19,13 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)lookout;
 - (id);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *number;
-@property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

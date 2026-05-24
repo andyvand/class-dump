@@ -7,7 +7,6 @@
 @interface JetEngine.NestedPreferences__priv_B7AB52098AD455E0619818B67BF97BDF
 {
     id key;
-    id parent;
 }
 
 @end

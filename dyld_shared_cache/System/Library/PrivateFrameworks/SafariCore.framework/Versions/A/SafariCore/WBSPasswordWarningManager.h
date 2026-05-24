@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableDictionary, NSObject, NSSet, NSString, NSUserDefaults, SafariCore.WBSPasswordEvaluationsCacheStore, WBSPasswordAuditor, WBSPasswordBreachHelperProxy, WBSPasswordEvaluator, WBSPasswordManagerWebsiteMetadataStore, WBSPasswordWarningTopFraudTargetsManager, WBSSavedAccountStore;
-@protocol OS_dispatch_queue, OS_dispatch_queue_serial, WBSHistoricalHighLevelDomainsProvider;
+@class NSObject, WBSPasswordAuditor;
+@protocol OS_dispatch_queue_serial;
 
 @interface WBSPasswordWarningManager
 {
     NSObject<OS_dispatch_queue_serial> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    struct os_unfair_lock_s _passwordEvaluatorLock;
-    WBSPasswordEvaluator *_passwordEvaluator;
-    WBSPasswordAuditor *_passwordAuditor;
-    WBSSavedAccountStore *_accountStore;
-    NSUserDefaults *_userDefaults;
-    WBSPasswordWarningTopFraudTargetsManager *_topFraudTargetsManager;
-    WBSPasswordBreachHelperProxy *_passwordBreachHelperProxy;
-    id <WBSHistoricalHighLevelDomainsProvider> _historyHighLevelDomainsProvider;
-    NSSet *_historyHighLevelDomains;
-    struct os_unfair_lock_s _cachedDataLock;
-    _Bool _updateInProgress;
-    NSArray *_cachedWarnings;
-    NSMapTable *_cachedWarningsForSavedAccounts;
-    NSMutableDictionary *_cachedPasswordEvaluations;
-    NSMutableDictionary *_inMemoryCachedPasswordEvaluations;
-    _Bool _shouldInitializePasswordEvaluationCache;
-    WBSPasswordManagerWebsiteMetadataStore *_websiteMetadataStore;
-    SafariCore.WBSPasswordEvaluationsCacheStore *_passwordEvaluationsCacheStore;
-    NSMutableDictionary *_cachedDomainToMetadataEntry;
 }
 
 - (_Bool);
@@ -41,7 +21,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -57,21 +37,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_thumbnailView;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasUnacknowledgedHighPriorityWarnings;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long numberOfNonHiddenWarningsWithSpecifiedPriority;
 @property(readonly, nonatomic) WBSPasswordAuditor *passwordAuditor; // @synthesize passwordAuditor=_passwordAuditor;
-@property(readonly, nonatomic) WBSPasswordEvaluator *passwordEvaluator;
-@property(readonly) Class superclass;
 
 @end
 

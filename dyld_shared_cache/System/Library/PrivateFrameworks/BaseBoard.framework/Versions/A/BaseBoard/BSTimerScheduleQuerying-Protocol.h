@@ -10,7 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isScheduled) _Bool scheduled;
-@property(readonly, nonatomic) double timeRemaining;
 @end
 

@@ -4,70 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMerchantBrandLookupResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _abstractOfBrandMuids;
-    CDStruct_62a50c50 _childBrandMuids;
-    CDStruct_62a50c50 _variantBrandMuids;
-    NSMutableArray *_geoHashs;
-    unsigned long long _muid;
-    unsigned long long _relatedGlobalBrandMuid;
-    NSString *_scope;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isPrimaryVariant;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_relatedGlobalBrandMuid:1;
-        unsigned int has_isPrimaryVariant:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_abstractOfBrandMuids:1;
-        unsigned int read_childBrandMuids:1;
-        unsigned int read_variantBrandMuids:1;
-        unsigned int read_geoHashs:1;
-        unsigned int read_scope:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)Identifier:(id)arg1;
++ (_Bool)setIOSBundleIdentifier:(id)arg1;
+- (unsigned long long);
+- (unsigned long long *);
+- (unsigned long long)/;
+- (void)externalModificationTag;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (unsigned long long)#�);
+- (unsigned long long);
+- (void);
+- (void)R#;
+- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long *);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long *);
-- (unsigned long long);
 - (id);
 - (unsigned long long *);
 - (void);
@@ -77,43 +53,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)_beginMonitoring;
+- (void)echRecorder speechControllerDidStartRecording:(id)arg1 audioDeviceInfo:successfully:error:] /* Error: Ran out of types for this method. */;
+- (id)D;
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)4;
+- (_Bool)ate2D=dd}36@52;
 - (_Bool);
 - (id);
-- (void);
+- (void)9;
 - (id)"b1"read_etaFilter"b1"read_evChargingParameters"b1"read_inferredSignals"b1"read_mostRecentAutocompleteRequestSessionData"b1"read_paginationParameters"b1"read_previousSearchViewport"b1"read_punchInHints"b1"read_recentRouteInfo"b1"read_resultRefinementQuery"b1"read_retainedSearch"b1"read_searchEnrichmentRequestMetadata"b1"read_searchEnrichmentRevisionMetadatas"b1"read_searchFilter"b1"read_searchLocationParameters"b1"read_searchLocation"b1"read_searchOriginationInfo"b1"read_searchSessionData"b1"read_searchString"b1"read_searchStructureIntentType"b1"read_sessionUserActionMetadata"b1"read_suggestionEntryMetadata"b1"read_suggestionEntry"b1"read_suggestionMetadata"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id);
+- (id)_gainedBatteryCharge;
 - (id)p};
-- (id)ACY_PROMPT;
+- (id)IMPROVE_LOCATION_ACCURACY_PROMPT;
 - (void)ú~j¼tð?/Ý$@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *abstractOfBrandMuids;
-@property(readonly, nonatomic) unsigned long long abstractOfBrandMuidsCount;
-@property(readonly, nonatomic) unsigned long long *childBrandMuids;
-@property(readonly, nonatomic) unsigned long long childBrandMuidsCount;
-@property(retain, nonatomic) NSMutableArray *geoHashs;
-@property(nonatomic) _Bool hasIsPrimaryVariant;
 @property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasRelatedGlobalBrandMuid;
-@property(readonly, nonatomic) _Bool hasScope;
-@property(nonatomic) _Bool isPrimaryVariant;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) unsigned long long relatedGlobalBrandMuid;
-@property(retain, nonatomic) NSString *scope;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, nonatomic) unsigned long long *variantBrandMuids;
-@property(readonly, nonatomic) unsigned long long variantBrandMuidsCount;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaUI.DebugSubViewController
 {
     id tableView;
-    id tableViewSource;
 }
 
 - (void);

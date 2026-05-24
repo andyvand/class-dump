@@ -5,5 +5,6 @@
 //
 
 @protocol _GCHIDEventSource
+- (id);
 @end
 

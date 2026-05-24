@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterResidentClient : HMDRemoteEventRouterClient
 {
     _Bool _hasResetConnectionTimer;
-    NSUUID *_homeUUID;
 }
 
-- (id);
+- (id)nerStateSnapshot>"8@"NSError"16;
 - (void);
-- (void);
+- (void)9F;
 - (void);
 - (id);
 - (_Bool);
@@ -25,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)rocessingInterval;
+- (void)mediaBrowserProcessingInterval;
 - (id)V;
 - (void)¢l¨?;
 

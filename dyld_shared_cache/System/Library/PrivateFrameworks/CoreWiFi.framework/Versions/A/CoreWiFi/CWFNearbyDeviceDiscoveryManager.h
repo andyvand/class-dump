@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFNearbyDeviceDiscoveryParameter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CWFNearbyDeviceDiscoveryParameter;
 
 @interface CWFNearbyDeviceDiscoveryManager
 {
     _Bool __didDriverCrash;
-    CDUnknownBlockType _sendNDDRequest;
-    CDUnknownBlockType _isNDDAllowed;
-    CDUnknownBlockType _sendNDDXPCEvent;
-    CWFNearbyDeviceDiscoveryParameter *__currentNDDRequest;
-    NSString *__interface;
-    NSObject<OS_dispatch_queue> *__serviceQueue;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9h;
+- (void)";
 - (void);
 - (CDUnknownBlockType);
 - (int);
@@ -31,9 +24,9 @@
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
@@ -43,16 +36,10 @@
 - (id);
 - (id);
 - (void);
-- (void)nsion;
+- (void)_isAppExtension;
 
 // Remaining properties
 @property(retain, nonatomic) CWFNearbyDeviceDiscoveryParameter *_currentNDDRequest; // @synthesize _currentNDDRequest=__currentNDDRequest;
-@property(nonatomic) _Bool _didDriverCrash; // @synthesize _didDriverCrash=__didDriverCrash;
-@property(retain, nonatomic) NSString *_interface; // @synthesize _interface=__interface;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_serviceQueue; // @synthesize _serviceQueue=__serviceQueue;
-@property(copy) CDUnknownBlockType isNDDAllowed; // @synthesize isNDDAllowed=_isNDDAllowed;
-@property(copy) CDUnknownBlockType sendNDDRequest; // @synthesize sendNDDRequest=_sendNDDRequest;
-@property(copy) CDUnknownBlockType sendNDDXPCEvent; // @synthesize sendNDDXPCEvent=_sendNDDXPCEvent;
 
 @end
 

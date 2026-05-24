@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGRankingStepEnded, SUGSchemaSUGRankingStepStarted;
+@class SUGSchemaSUGRankingStepStarted;
 
 @interface SUGSchemaSUGRankingStepContext : SISchemaInstrumentationMessage
 {
     SUGSchemaSUGRankingStepStarted *_startedOrChanged;
-    SUGSchemaSUGRankingStepEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,22 +27,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@?16;
+- (_Bool)monogramForegroundSelectedColor;
+- (_Bool)NULL;
 - (id);
-- (id);
-- (id)teNumPlansCreatedForResponse;
-- (id)ated;
-- (void)E_DEFAULT_DISABLED;
+- (id);
+- (id)deleteNumPlansCreatedForResponse;
+- (id)_hasTuplesGenerated;
+- (void)ODDSIRIINCALLENABLEMENTSTATE_DEFAULT_DISABLED;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGRankingStepEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SUGSchemaSUGRankingStepStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

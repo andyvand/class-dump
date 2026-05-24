@@ -8,16 +8,16 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)(H;
++ (void);
 + (void);
 + (id);
 - (_Bool);
 - (void);
 - (id);
 - (int);
-- (void);
-- (_Bool);
+- (void)H;
+- (_Bool)QH;
 - (id);
 
 @end

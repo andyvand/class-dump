@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKCloudStoreZoneInvitation, PKSharingDestination;
+@class PKCloudStoreZoneInvitation;
 
 @interface PKCloudStoreZoneInvitationResponse
 {
     PKCloudStoreZoneInvitation *_invitation;
-    PKSharingDestination *_destination;
-    long long _status;
 }
 
-+ (id);
++ (id);
 + (_Bool)0@ù
 × ;
 - (void);
-- (id);
+- (id)x;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)i;
+- (_Bool)hasLocationsProcessed;
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
-- (void)SN_SUFFIX;
+- (void)SSN_SUFFIX;
 
 // Remaining properties
-@property(retain, nonatomic) PKSharingDestination *destination; // @synthesize destination=_destination;
 @property(retain, nonatomic) PKCloudStoreZoneInvitation *invitation; // @synthesize invitation=_invitation;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

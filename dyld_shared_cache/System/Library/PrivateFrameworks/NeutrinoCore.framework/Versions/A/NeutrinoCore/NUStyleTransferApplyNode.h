@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tionary",&,N,V_propertyListDictionary;
+- (id)String",R,N,V_algorithm;
 - (id);
 
 @end

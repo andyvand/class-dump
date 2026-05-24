@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RTDefaultsManager, RTXPCTimerAlarm, SMCarPlayAlertManager, SMSessionManagerState, TLAlert;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SMAnomalyAlertManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    SMSessionManagerState *_anomalyState;
-    RTXPCTimerAlarm *_secondAlertAlarm;
-    RTXPCTimerAlarm *_thirdAlertAlarm;
-    TLAlert *_tlAlert;
-    double _toneDelay;
-    RTDefaultsManager *_defaultsManager;
-    SMCarPlayAlertManager *_carPlayAlertManager;
 }
 
-+ (unsigned long long);
-- (double);
++ (unsigned long long)reList.val[n].wrappedMaster, wrappedKey);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -35,14 +28,14 @@
 - (void);
 - (void);
 - (id);
+- (void)updateEscrowKey:(long long)arg1 escrowBlob: /* Error: Ran out of types for this method. */;
+- (void)getCurrentIdentities:(id)arg1 result: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)removing:(id)arg1 %s;
 - (void);
 - (void);
 - (void);
@@ -54,14 +47,7 @@
 - (void)y verification;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SMSessionManagerState *anomalyState; // @synthesize anomalyState=_anomalyState;
-@property(readonly, nonatomic) SMCarPlayAlertManager *carPlayAlertManager; // @synthesize carPlayAlertManager=_carPlayAlertManager;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTXPCTimerAlarm *secondAlertAlarm; // @synthesize secondAlertAlarm=_secondAlertAlarm;
-@property(retain, nonatomic) RTXPCTimerAlarm *thirdAlertAlarm; // @synthesize thirdAlertAlarm=_thirdAlertAlarm;
-@property(retain, nonatomic) TLAlert *tlAlert; // @synthesize tlAlert=_tlAlert;
-@property(readonly, nonatomic) double toneDelay; // @synthesize toneDelay=_toneDelay;
 
 @end
 

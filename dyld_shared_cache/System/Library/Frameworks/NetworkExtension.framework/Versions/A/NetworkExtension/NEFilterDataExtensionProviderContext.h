@@ -6,26 +6,15 @@
 
 #import <NetworkExtension/NEFilterExtensionProviderContext.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSXPCListenerEndpoint;
-@protocol OS_dispatch_source, OS_xpc_object;
+@class NSDictionary;
 
 @interface NEFilterDataExtensionProviderContext : NEFilterExtensionProviderContext
 {
     _Bool _controlProviderExists;
-    NSDictionary *_remediationMap;
-    NSDictionary *_URLAppendStringMap;
-    NSObject<OS_xpc_object> *_clientListener;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    NSMutableDictionary *_browserFlows;
-    NSMutableDictionary *_socketFlows;
-    NSMutableDictionary *_channelFlows;
-    NSMutableArray *_socketExceptions;
-    NSObject<OS_dispatch_source> *_source;
-    NSMutableArray *_pendingConnections;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)12C];
 - (void);
 - (void);
 - (void);
@@ -41,23 +30,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ndInterfaceName: /* Error: Ran out of types for this method. */;
+- (void)setBoundInterfaceName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *URLAppendStringMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDictionary *remediationMap;
-@property(readonly) Class superclass;
 
 @end
 

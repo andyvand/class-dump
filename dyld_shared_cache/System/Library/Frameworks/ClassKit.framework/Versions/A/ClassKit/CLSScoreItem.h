@@ -9,15 +9,16 @@
 @interface CLSScoreItem : CLSActivityItem
 {
     double _score;
-    double _maxScore;
 }
 
-+ (_Bool);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
++ (_Bool)_delegate_presentProgressViewForAccount:completion: /* Error: Ran out of types for this method. */;
+- (void)wift/libswiftIOKit.dylib;
+- (id)with programHandle:(id)arg1 0x%llx
+;
+- (id)atus=0x%x
+;
+- (double)eric_batchnorm_grad_kernelEEENS_9allocatorIS5_EEEE;
+- (id)~;
 - (id);
 - (id);
 - (void);
@@ -26,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double maxScore;
 @property(nonatomic) double score;
 
 @end

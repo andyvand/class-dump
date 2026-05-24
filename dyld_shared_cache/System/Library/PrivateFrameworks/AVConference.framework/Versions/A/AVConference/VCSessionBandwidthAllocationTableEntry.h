@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
-@protocol VCSessionDownlinkBandwidthAllocatorClient, VCSessionUplinkBandwidthAllocatorClient;
+@protocol VCSessionDownlinkBandwidthAllocatorClient;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionBandwidthAllocationTableEntry
 {
     id <VCSessionDownlinkBandwidthAllocatorClient> _client;
-    NSNumber *_streamToken;
-    unsigned int _minNetworkBitrate;
-    unsigned int _maxNetworkBitrate;
-    unsigned int _maxMediaBitrate;
-    unsigned int _qualityIndex;
-    _Bool _isLowestQuality;
-    unsigned char _type;
-    unsigned int _streamID;
-    unsigned int _v2StreamID;
-    unsigned int _actualNetworkBitrate;
-    _Bool _hasRepairStreamID;
-    unsigned int _repairStreamID;
-    unsigned int _repairMaxNetworkBitrate;
-    _Bool _onDemand;
-    unsigned int _streamGroupID;
-    unsigned int _encoderGroupID;
-    NSDictionary *_upgradeQualityTiers;
-    _Bool _subscribedTo;
-    _Bool _startOnDemand;
-    id <VCSessionUplinkBandwidthAllocatorClient> _uplinkClient;
 }
 
 + (unsigned char);
@@ -45,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -67,25 +46,7 @@ __attribute__((visibility("hidden")))
 - (long long)eedbackController is nil in VideoStream;
 
 // Remaining properties
-@property unsigned int actualNetworkBitrate; // @synthesize actualNetworkBitrate=_actualNetworkBitrate;
 @property(readonly) id <VCSessionDownlinkBandwidthAllocatorClient> client; // @synthesize client=_client;
-@property(readonly) unsigned int encoderGroupID; // @synthesize encoderGroupID=_encoderGroupID;
-@property(readonly) _Bool hasRepairStreamID; // @synthesize hasRepairStreamID=_hasRepairStreamID;
-@property _Bool isLowestQuality; // @synthesize isLowestQuality=_isLowestQuality;
-@property(readonly) unsigned int maxMediaBitrate; // @synthesize maxMediaBitrate=_maxMediaBitrate;
-@property(readonly) unsigned int maxNetworkBitrate; // @synthesize maxNetworkBitrate=_maxNetworkBitrate;
-@property(readonly) unsigned int minNetworkBitrate; // @synthesize minNetworkBitrate=_minNetworkBitrate;
-@property(readonly) unsigned int qualityIndex; // @synthesize qualityIndex=_qualityIndex;
-@property(readonly) unsigned int repairMaxNetworkBitrate; // @synthesize repairMaxNetworkBitrate=_repairMaxNetworkBitrate;
-@property(readonly) unsigned int repairStreamID; // @synthesize repairStreamID=_repairStreamID;
-@property(readonly, getter=isStartOnDemand) _Bool startOnDemand; // @synthesize startOnDemand=_startOnDemand;
-@property(readonly) unsigned int streamGroupID; // @synthesize streamGroupID=_streamGroupID;
-@property(readonly) unsigned int streamID; // @synthesize streamID=_streamID;
-@property(readonly) NSNumber *streamToken; // @synthesize streamToken=_streamToken;
-@property(getter=isSubscribedTo) _Bool subscribedTo; // @synthesize subscribedTo=_subscribedTo;
-@property(readonly) unsigned char type; // @synthesize type=_type;
-@property(readonly) id <VCSessionUplinkBandwidthAllocatorClient> uplinkClient; // @synthesize uplinkClient=_uplinkClient;
-@property(readonly) unsigned int v2StreamID; // @synthesize v2StreamID=_v2StreamID;
 
 @end
 

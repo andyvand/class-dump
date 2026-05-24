@@ -7,17 +7,11 @@
 @interface NAEndOfArticlePresentationOptions
 {
     id suppressMoreFromSection;
-    id suppressMoreToReadSection;
-    id suppressMoreFromIssueSection;
-    id suppressRelatedSection;
-    id suppressRecommendedReadsSection;
-    id articleBackgroundColor;
-    id isIssueArticle;
 }
 
 - (id);
 - (id);
-- (void)entView;
+- (void)contentView;
 
 @end
 

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, NSObject, NSString;
+@class MPCPlaybackEngine, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPCStatisticsReporter
 {
     NSObject<OS_dispatch_queue> *_writerQueue;
-    MPCPlaybackEngine *_playbackEngine;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (id);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, copy, nonatomic) NSString *recordScenarioName;
 
 @end
 

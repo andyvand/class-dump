@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView, UIViewController, UIWindow;
+
 @protocol _UIPopoverPresentationControllerSourceItem_Internal
+- (UIView *)"8q16^B24;
+- (struct CGRect)0:(UIWindow *)arg1 8;
+- (UIViewController *)ldConversation: /* Error: Ran out of types for this method. */;
 @end
 

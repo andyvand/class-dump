@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     unsigned long long _targetedAccountType;
 }
 
-+ (id);
-+ (id);
++ (id)motherPersonNodes;
++ (id)enumeratePublicEventEdgesAndNodesUsingBlock:(id)arg1;
 + (id);
 + (_Bool)ä-;
 - (unsigned long long);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);

@@ -9,7 +9,6 @@
 @interface _PXStoryDefaultStyleProducer
 {
     _Bool _thumbnailOnly;
-    PXStoryConfiguration *_storyConfiguration;
 }
 
 - (id);

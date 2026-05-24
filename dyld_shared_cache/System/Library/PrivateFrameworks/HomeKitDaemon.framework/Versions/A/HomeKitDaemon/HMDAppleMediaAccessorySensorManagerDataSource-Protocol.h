@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAccessory, HMDAppleMediaAccessorySensorManager, HMFFuture, NSNotificationCenter, NSUUID;
+@protocol HMMLogEventSubmitting;
+
 @protocol HMDAppleMediaAccessorySensorManagerDataSource
+- (NSNotificationCenter *);
+- (id <HMMLogEventSubmitting>);
+- (NSUUID *)subdataWithRange:(HMDAppleMediaAccessorySensorManager *)arg1;
+- (NSUUID *)stringByReplacingOccurrencesOfString:(HMDAppleMediaAccessorySensorManager *)arg1 withString: /* Error: Ran out of types for this method. */;
+- (HMFFuture *)_msp_hasValidIDSAccount;
+- (HMDAccessory *)�;
 @end
 

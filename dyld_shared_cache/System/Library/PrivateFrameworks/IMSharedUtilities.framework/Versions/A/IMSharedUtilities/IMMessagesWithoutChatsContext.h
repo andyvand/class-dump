@@ -7,11 +7,9 @@
 @interface IMMessagesWithoutChatsContext
 {
     unsigned long long totalMessagesCount;
-    unsigned long long missingMessagesCount;
-    _Bool micEnabled;
 }
 
-- (unsigned long long);
+- (unsigned long long)�;
 - (void);
 - (void);
 - (void);
@@ -20,9 +18,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool micEnabled; // @synthesize micEnabled;
-@property(nonatomic) unsigned long long missingMessagesCount; // @synthesize missingMessagesCount;
-@property(nonatomic, readonly) float percentMissing;
 @property(nonatomic) unsigned long long totalMessagesCount; // @synthesize totalMessagesCount;
 
 @end

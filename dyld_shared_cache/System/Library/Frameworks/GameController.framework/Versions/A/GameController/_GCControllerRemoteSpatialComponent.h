@@ -6,8 +6,7 @@
 
 #import <GameController/_GCDeviceSpatialComponent.h>
 
-@class NSString;
-@protocol GCDeviceSpatial, NSObject><NSCopying><NSSecureCoding;
+@protocol GCDeviceSpatial;
 
 __attribute__((visibility("hidden")))
 @interface _GCControllerRemoteSpatialComponent : _GCDeviceSpatialComponent
@@ -17,15 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier;
 @property(readonly) id <GCDeviceSpatial> spatialFacade; // @dynamic spatialFacade;
-@property(readonly) Class superclass;
 
 @end
 

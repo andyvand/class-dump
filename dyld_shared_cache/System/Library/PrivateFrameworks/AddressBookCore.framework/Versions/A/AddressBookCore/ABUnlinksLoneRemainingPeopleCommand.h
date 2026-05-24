@@ -7,12 +7,10 @@
 #import <AddressBookCore/ABBookCommand.h>
 
 @class NSArray;
-@protocol ABLinkingInfoDataSource;
 
 @interface ABUnlinksLoneRemainingPeopleCommand : ABBookCommand
 {
     NSArray *_linkIds;
-    id <ABLinkingInfoDataSource> _adapter;
 }
 
 + (id);

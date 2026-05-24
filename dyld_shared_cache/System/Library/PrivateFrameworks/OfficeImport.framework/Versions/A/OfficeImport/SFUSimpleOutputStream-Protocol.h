@@ -5,5 +5,6 @@
 //
 
 @protocol SFUSimpleOutputStream
+- (void)qav;
 @end
 

@@ -6,20 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCArticleSearchOperationFeedbackResult, FCArticleStreamingResults, FCCloudContext, NSError, NSString;
+@class FCArticleStreamingResults, NSString;
 
 @interface FCArticleSearchOperation : FCOperation
 {
     NSString *_query;
-    NSString *_keyboardInputMode;
-    double _scale;
-    unsigned long long _resultsLimit;
-    FCCloudContext *_cloudContext;
-    CDUnknownBlockType _articleSearchCompletion;
-    unsigned long long _parsecQueryID;
-    FCArticleStreamingResults *_results;
-    NSError *_searchError;
-    FCArticleSearchOperationFeedbackResult *_feedbackResult;
 }
 
 - (void);
@@ -43,23 +34,14 @@
 - (void);
 - (void);
 - (void);
-- (void)bledForESL;
+- (void)isSmarterFetchEnabledForESL;
 - (void)ting to prune %{public}@ from sessions;
 - (void)c}@, leagueTag identifier=%{public}@;
 - (unsigned long long);
 - (_Bool)üÏFØ;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType articleSearchCompletion; // @synthesize articleSearchCompletion=_articleSearchCompletion;
-@property(retain, nonatomic) FCCloudContext *cloudContext; // @synthesize cloudContext=_cloudContext;
-@property(retain, nonatomic) FCArticleSearchOperationFeedbackResult *feedbackResult; // @synthesize feedbackResult=_feedbackResult;
-@property(nonatomic) NSString *keyboardInputMode; // @synthesize keyboardInputMode=_keyboardInputMode;
-@property(nonatomic) unsigned long long parsecQueryID; // @synthesize parsecQueryID=_parsecQueryID;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
 @property(retain, nonatomic) FCArticleStreamingResults *results; // @synthesize results=_results;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(retain, nonatomic) NSError *searchError; // @synthesize searchError=_searchError;
 
 @end
 

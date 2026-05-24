@@ -11,12 +11,9 @@
 }
 
 - (void);
-- (id);
+- (id)m %q where pKey BETWEEN %d AND %d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *videoTVOutReservedForIPodOut; // @dynamic videoTVOutReservedForIPodOut;
-@property(readonly, nonatomic) NSString *videoTVOutReservedForRemoteUI; // @dynamic videoTVOutReservedForRemoteUI;
-@property(readonly, nonatomic) NSString *videoTVOutSignal; // @dynamic videoTVOutSignal;
 @property(retain, nonatomic) NSString *videoTVOutSystem; // @dynamic videoTVOutSystem;
 
 @end

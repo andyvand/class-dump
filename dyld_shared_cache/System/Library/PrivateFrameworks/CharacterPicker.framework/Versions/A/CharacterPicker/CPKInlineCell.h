@@ -21,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSCollectionView *collectionViewPrivate; // @synthesize collectionViewPrivate=_collectionViewPrivate;
 @property(readonly, nonatomic) STKImageGlyph *imageGlyph;
 
 @end

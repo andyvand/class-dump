@@ -10,7 +10,7 @@
 {
 }
 
-- (long long);
+- (long long)_optsOutOfAds;
 
 @end
 

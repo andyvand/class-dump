@@ -7,13 +7,9 @@
 @interface _PASSQLColumnMapping
 {
     struct sqlite3_stmt *_stmt;
-    int _stmtReprepareCounter;
-    const struct _PASCompactStringArray *_tableColumnNamesFromSchema;
-    const struct _PASCompactStringArray *_columnAliases;
-    const char *_uniqueTableName;
 }
 
-- (void);
+- (void)ath %@;
 - (void);
 - (void);
 - (int);

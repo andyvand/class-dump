@@ -11,10 +11,10 @@
     MKMapSnapshotter *_snapshotter;
 }
 
-- (id);
+- (id)B;
+- (void)E;
 - (void);
-- (void);
-- (void):pitch: /* Error: Ran out of types for this method. */;
+- (void)initForMapFrameWithCenter:distance:heading:pitch: /* Error: Ran out of types for this method. */;
 - (_Bool)ÿÿ;
 
 // Remaining properties

@@ -11,7 +11,6 @@
 @interface CXPullCallAction : CXCallAction
 {
     CXHandoffContext *_handoffContext;
-    NSDate *_dateConnected;
 }
 
 + (_Bool);
@@ -25,14 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)Library_Oversize;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *dateConnected; // @synthesize dateConnected=_dateConnected;
-@property(retain, nonatomic) CXHandoffContext *handoffContext; // @synthesize handoffContext=_handoffContext;
 
 @end
 

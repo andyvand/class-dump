@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol MTLComputePipelineState;
-
 __attribute__((visibility("hidden")))
 @interface AVTCompositorPipeline
 {
     _Bool _isAffectedBySkin;
-    _Bool _shouldCompositeAgainDueToGPUError;
-    unsigned long long _affectingComponentsMask;
-    NSArray *_bindings;
-    id <MTLComputePipelineState> _pipelineState;
 }
 
 - (void);

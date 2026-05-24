@@ -7,11 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBTextColumnSection
+- (void);
+- (NSData *)er",R,N,V_momentShareHelper;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *textLines;
-@property(nonatomic) _Bool textNoWrap;
-@property(nonatomic) unsigned int textWeight;
 @end
 

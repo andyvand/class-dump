@@ -9,21 +9,19 @@
 @interface PKTransactionReceiptHeaderField
 {
     NSString *_key;
-    NSString *_label;
-    NSString *_value;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)addResponseTimeBuckets:(id)arg1;
 - (id);
 - (id);
 - (void)value type:(id)arg1 %{public}@;
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

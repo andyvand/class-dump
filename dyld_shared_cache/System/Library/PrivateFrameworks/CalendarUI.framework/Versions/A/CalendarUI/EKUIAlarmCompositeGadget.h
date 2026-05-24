@@ -6,16 +6,14 @@
 
 #import <CalendarUI/EKUICompositeGadget.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface EKUIAlarmCompositeGadget : EKUICompositeGadget
 {
     _Bool _showingNewAlarm;
-    NSMutableArray *_alarmGadgets;
-    NSArray *_existingConstraints;
 }
 
-+ (id);
++ (id)*;
 - (void);
 - (id);
 - (_Bool);
@@ -39,8 +37,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *alarmGadgets; // @synthesize alarmGadgets=_alarmGadgets;
-@property(retain) NSArray *existingConstraints; // @synthesize existingConstraints=_existingConstraints;
-@property _Bool showingNewAlarm; // @synthesize showingNewAlarm=_showingNewAlarm;
 
 @end
 

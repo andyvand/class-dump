@@ -7,8 +7,6 @@
 @interface IMNicknameProvider_Impl
 {
     id listener;
-    id daemonConnection;
-    id nicknameController;
 }
 
 - (void);

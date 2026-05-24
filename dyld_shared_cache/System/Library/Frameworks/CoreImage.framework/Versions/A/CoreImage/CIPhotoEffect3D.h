@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPhotoEffect3D : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputDepthMap;
-    NSNumber *inputThreshold;
-    NSNumber *inputGrainAmount;
-    NSNumber *inputScale;
 }
 
 + (id);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -34,7 +30,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (int);
-- (id);
+- (id)M
+;
 - (id);
 - (void);
 - (int);
@@ -44,11 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)I = %g, Q = %g;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputDepthMap; // @synthesize inputDepthMap;
-@property(retain, nonatomic) NSNumber *inputGrainAmount; // @synthesize inputGrainAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain, nonatomic) NSNumber *inputThreshold; // @synthesize inputThreshold;
 
 @end
 

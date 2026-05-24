@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMeasurement, NSString;
+@class NSString;
 
 @interface GEODistanceStringFormattingResult
 {
     void string;
-    void roundedDistance;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void)ÄýYÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSMeasurement *roundedDistance;
 @property(nonatomic, readonly) NSString *string;
 
 @end

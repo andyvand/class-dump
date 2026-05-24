@@ -5,5 +5,6 @@
 //
 
 @protocol HMDLegacyAccessorySettingsAdaptorDelegate
+- (void);
 @end
 

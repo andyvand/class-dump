@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXCMMSession.h>
 
-@class NSString, PHMomentShare, PHSuggestion, PXPhotoKitAssetsDataSourceManager, PXPhotoKitImportStatusManager, PXPhotoKitMomentShareStatus;
+@class PHMomentShare, PXPhotoKitImportStatusManager;
 
 @interface PXCMMPhotoKitSession : PXCMMSession
 {
     PXPhotoKitImportStatusManager *_importStatusManager;
-    PXPhotoKitMomentShareStatus *_photoKitMomentShareStatus;
-    NSString *_photoKitImportSessionID;
-    PHMomentShare *_momentShare;
-    PHSuggestion *_suggestion;
-    PHMomentShare *_originatingMomentShare;
 }
 
 - (id);
@@ -28,15 +23,12 @@
 - (id);
 - (id)!ø@ùq:°1Â0@ù
 ×  /* Error: Ran out of types for this method. */;
-- (id)Order;
+- (id)manualOrder;
 - (id) ÿ¡,¸g;
 - (void)¨Aÿ0;
 
 // Remaining properties
-@property(readonly, nonatomic) PXPhotoKitAssetsDataSourceManager *dataSourceManager; // @dynamic dataSourceManager;
 @property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
-@property(readonly, nonatomic) PHMomentShare *originatingMomentShare; // @synthesize originatingMomentShare=_originatingMomentShare;
-@property(readonly, nonatomic) PHSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end
 

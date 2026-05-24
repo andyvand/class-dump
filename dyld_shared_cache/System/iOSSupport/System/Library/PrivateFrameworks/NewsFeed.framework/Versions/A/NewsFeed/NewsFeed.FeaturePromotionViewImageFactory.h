@@ -7,7 +7,6 @@
 @interface NewsFeed.FeaturePromotionViewImageFactory
 {
     id assetManager;
-    id tagImageApplier;
 }
 
 @end

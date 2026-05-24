@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)might be an error unless there are multiple waiting callbacks. currTimestamp:%@. waitOnTimestamp:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)eply;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;

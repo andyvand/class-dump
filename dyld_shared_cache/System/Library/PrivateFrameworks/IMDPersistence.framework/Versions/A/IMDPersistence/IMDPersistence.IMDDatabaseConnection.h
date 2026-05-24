@@ -7,7 +7,6 @@
 @interface IMDPersistence.IMDDatabaseConnection
 {
     id sqlConnectionGetter;
-    id queue;
 }
 
 @end

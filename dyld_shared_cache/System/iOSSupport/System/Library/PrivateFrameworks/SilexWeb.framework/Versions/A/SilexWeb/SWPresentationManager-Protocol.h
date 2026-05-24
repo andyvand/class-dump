@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SWPresentationDatastore;
-
 @protocol SWPresentationManager
 
 // Remaining properties
-@property(readonly, nonatomic) SWPresentationDatastore *datastore;
-@property(readonly, nonatomic) double height;
-@property(copy, nonatomic, setter=onLoad:) CDUnknownBlockType loadBlock;
-@property(copy, nonatomic, setter=onPresentable:) CDUnknownBlockType presentableBlock;
 @property(nonatomic) unsigned long long presentationState;
 @end
 

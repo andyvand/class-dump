@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface EKDirectoryRecord
 {
     NSString *_displayName;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_preferredAddress;
-    NSString *_principalPath;
 }
 
-+ (id);
++ (id)<%@> ReconRetryTimer is already scheduled to retry in %lf more seconds;
 - (void);
-- (id);
+- (id)d incomplete cluster (expected:%lu):%{public}@ in endpoint:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -33,11 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *preferredAddress; // @synthesize preferredAddress=_preferredAddress;
-@property(retain, nonatomic) NSString *principalPath; // @synthesize principalPath=_principalPath;
-@property(readonly) NSDictionary *userInfo;
 
 @end
 

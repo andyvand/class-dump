@@ -4,42 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
-
 @interface NTPBKeyValueStore
 {
     long long _clientVersion;
-    long long _version;
-    NSMutableArray *_keyValuePairs;
-    NSData *_plistSidecar;
-    struct {
-        unsigned int clientVersion:1;
-        unsigned int version:1;
-    } _has;
 }
 
-+ (Class);
-- (_Bool);
++ (Class)_showUnmodifiedOriginalsExportSwitch;
+- (_Bool)t = unpremultiply(sample(src, samplerCoord(src))); 				
+													
+	// use .0005 (i.e,. 0.05% for rounding purposes)					
+	// use abs() to avoid flagging out of gamut pixels (which are negative)	
+	t.rgb = step(vec3(0.0005), abs(t.rgb));						
+													
+	return premultiply(t);									
+};
 - (void);
-- (id);
+- (id)constraintGreaterThanOrEqualToAnchor: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ation;
 - (unsigned long long);
-- (id);
+- (id)updateSnapshotWithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCOngoingPurchaseEntry.m;
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -47,13 +45,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) long long clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(nonatomic) _Bool hasClientVersion;
-@property(readonly, nonatomic) _Bool hasPlistSidecar;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSMutableArray *keyValuePairs; // @synthesize keyValuePairs=_keyValuePairs;
-@property(retain, nonatomic) NSData *plistSidecar; // @synthesize plistSidecar=_plistSidecar;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeConstraints, HMAccessory, NSError;
+@class HMAccessory;
 
 @interface HMAccessoryAccessCodeConstraintsFetchResponse
 {
     HMAccessory *_accessory;
-    HMAccessCodeConstraints *_constraints;
-    NSError *_error;
 }
 
 + (id);
@@ -18,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dismissible;
 - (void)schedule %@;
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) HMAccessCodeConstraints *constraints; // @synthesize constraints=_constraints;
-@property(retain) NSError *error; // @synthesize error=_error;
 
 @end
 

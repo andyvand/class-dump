@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, _QLCacheThread;
+@class _QLCacheThread;
 
 @interface QLCacheFragHandler
 {
     unsigned long long _totalLen;
-    unsigned long long _holesLen;
-    NSArray *_sizeRanks;
-    NSMutableArray *_orderedByStart;
-    NSString *_path;
-    _Bool _isDirty;
-    _Bool _needsCompact;
-    _QLCacheThread *_cacheThread;
 }
 
 + (void);
@@ -23,17 +16,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4;
 - (unsigned long long);
 - (float);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)(=;
 - (id);
 - (_Bool);
 - (void);
@@ -42,9 +35,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)rootKeyID;
 - (_Bool);
-- (void);
+- (void)H;
 
 // Remaining properties
 @property __weak _QLCacheThread *cacheThread; // @synthesize cacheThread=_cacheThread;

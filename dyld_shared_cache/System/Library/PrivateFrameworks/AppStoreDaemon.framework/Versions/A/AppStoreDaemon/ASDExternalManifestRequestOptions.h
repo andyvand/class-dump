@@ -11,7 +11,6 @@
 @interface ASDExternalManifestRequestOptions : ASDRequestOptions
 {
     _Bool _shouldHideUserPrompts;
-    NSURL *_manifestURL;
 }
 
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *manifestURL; // @synthesize manifestURL=_manifestURL;
-@property(nonatomic) _Bool shouldHideUserPrompts; // @synthesize shouldHideUserPrompts=_shouldHideUserPrompts;
 
 @end
 

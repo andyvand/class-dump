@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKScannerDeviceViewHandler, NSMutableArray;
+@class IKScannerDeviceViewHandler;
 
 @interface IKAutoDetection
 {
     IKScannerDeviceViewHandler *_scannerViewHandler;
-    unsigned long long _rhoRange;
-    unsigned long long _thetaSize;
-    unsigned long long _width;
-    unsigned long long _height;
-    NSMutableArray *_houghResults;
-    int _houghResultsCount;
-    unsigned long long _houghBufferSize;
-    double _imageScale;
 }
 
 - (void);

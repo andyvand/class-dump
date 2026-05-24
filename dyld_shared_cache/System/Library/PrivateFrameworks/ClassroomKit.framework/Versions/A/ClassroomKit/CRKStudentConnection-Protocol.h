@@ -5,5 +5,6 @@
 //
 
 @protocol CRKStudentConnection
+- (void)s;
 @end
 

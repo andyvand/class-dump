@@ -6,54 +6,47 @@
 
 #import <UIKitCore/UIImageView.h>
 
-@class NSString, TIKeyboardCandidateResultSet, _UIDynamicCaretAlternatives, _UIDynamicCaretHelpLabel, _UIDynamicCaretInput, _UIDynamicCaretNoContentView;
+@class _UIDynamicCaretInput;
 @protocol UIKeyboardCandidateListDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIDynamicCaret : UIImageView
 {
     id <UIKeyboardCandidateListDelegate> _candidateListDelegate;
-    long long _selectedIndex;
-    _Bool _justDeleted;
-    _UIDynamicCaretInput *_inputView;
-    _UIDynamicCaretAlternatives *_alternativesView;
-    _UIDynamicCaretNoContentView *_noContentView;
-    _UIDynamicCaretHelpLabel *_helpLabel;
-    TIKeyboardCandidateResultSet *_candidateSet;
 }
 
+- (id)persistence;
+- (void)did not have an IMDCKSyncController when trying report _PCSPendingKeyroll;
+- (void)eport _PCSBackupStateKeyrollSuccessful;
+- (_Bool)yncController when trying report _PCSBackupStateKeyrollSuccessful;
+- (void);
+- (void)hived records;
+- (void)e dropped;
+- (void):(_Bool)arg1 %@;
+- (void)fully sent nickname to message (%@) to destinations %@;
+- (void)ng updates to peers;
+- (void)ion deleted matches current spam extension %@.;
+- (unsigned long long)we could not find an associated message;
+- (id)orwardMessageToPeers:Not compressing data /* Error: Ran out of types for this method. */;
+- (_Bool)hasChallenged;
+- (_Bool)ircle;
+- (_Bool)chatBotRecoverableMessageChangeToken;
+- (id);
+- (void)i;
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (_Bool)Ô ;
 - (_Bool)Provider"b1"hasCustomBackgroundViewConfiguration"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
 - (unsigned long long)"BSServiceQueue";
-- (id):shouldAttemptDismissWhenWindowSceneUpdatesEffectiveGeometry: /* Error: Ran out of types for this method. */;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ecified:(id)arg1;
-- (void)hed:(id)arg1;
-- (id)w:(struct CGRect)arg1 itemsForDrag: /* Error: Ran out of types for this method. */;
+- (id)popoverWithIdentifier:shouldAttemptDismissWhenWindowSceneUpdatesEffectiveGeometry: /* Error: Ran out of types for this method. */;
+- (void)_setTabButtonWidth: /* Error: Ran out of types for this method. */;
+- (void)_setSoftAssertWhenNoSourceViewOrBarButtonItemSpecified:(id)arg1;
+- (void)_animationDidStopWithNilAnimationFinished:(id)arg1;
+- (id)textDraggableView:(struct CGRect)arg1 itemsForDrag: /* Error: Ran out of types for this method. */;
 - (void)otation",N,V_popup;
 - (void)e",&,N,V_colorTintMaskImage;
 - (void)the UITableViewDataSource. This error will cause undefined behavior. Please move the implementation of this method to the delegate of this table view, instead of the data source:(struct CGRect)arg1 %@;
@@ -64,19 +57,7 @@ __attribute__((visibility("hidden")))
 - (void)Ývn;
 
 // Remaining properties
-@property(retain, nonatomic) _UIDynamicCaretAlternatives *alternativesView; // @synthesize alternativesView=_alternativesView;
-@property(retain, nonatomic) TIKeyboardCandidateResultSet *candidateSet; // @synthesize candidateSet=_candidateSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIDynamicCaretHelpLabel *helpLabel; // @synthesize helpLabel=_helpLabel;
 @property(retain, nonatomic) _UIDynamicCaretInput *inputView; // @synthesize inputView=_inputView;
-@property(nonatomic) _Bool isActive;
-@property(retain, nonatomic) _UIDynamicCaretNoContentView *noContentView; // @synthesize noContentView=_noContentView;
-@property(readonly) Class superclass;
 
 @end
 

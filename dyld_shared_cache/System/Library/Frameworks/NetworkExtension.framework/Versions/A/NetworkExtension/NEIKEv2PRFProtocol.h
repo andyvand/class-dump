@@ -10,15 +10,14 @@
 }
 
 - (unsigned int);
-- (id);
+- (id)HomeKitLegacy;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned int nonceSize;
 @property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end

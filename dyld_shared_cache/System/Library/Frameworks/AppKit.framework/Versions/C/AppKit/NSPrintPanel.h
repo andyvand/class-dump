@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPrintInfo, NSPrintOperation, NSPrintPreviewUpdater, NSString, NSView, NSWindowController;
+@class NSArray, NSMutableArray;
 
 @interface NSPrintPanel
 {
     NSMutableArray *_accessoryControllers;
-    NSPrintOperation *_printOperation;
-    NSPrintPreviewUpdater *_previewUpdater;
-    NSView *_thumbnailView;
-    long long _options;
-    NSString *_defaultButtonTitle;
-    NSString *_helpAnchor;
-    NSString *_jobStyleHint;
-    NSPrintInfo *_originalPrintInfo;
-    NSPrintInfo *_presentedPrintInfo;
-    NSWindowController *_windowController;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (long long);
 - (long long);
-- (long long);
+- (void)A;
 - (void);
-- (void);
-- (void);
+- (void)/Versions/C/Foundation;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)set_backtrace:(id)arg1;
+- (void)set_backgroundPublishingURL:(id)arg1;
+- (void)alternatePort;
+- (id)_waitsForConnectivity;
+- (id);
+- (void)e connection %p received error %lu:(id)arg1 %d => proxy error %lu:%d /* Error: Ran out of types for this method. */;
+- (void)use there is no such task;
+- (void)ssionDownloadTask, as remote session is unavailable;
 - (long long);
 - (unsigned int);
-- (id);
+- (id)ookieManagerAcceptPolicyChanged;
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
@@ -56,8 +46,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)fileExistsAtPath:isDirectory: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)iñ
 @ØA;
@@ -65,10 +55,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessoryControllers;
-@property(copy) NSString *helpAnchor;
-@property(copy) NSString *jobStyleHint;
-@property unsigned long long options;
-@property(readonly) NSPrintInfo *printInfo;
 
 @end
 

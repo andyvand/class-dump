@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSURL;
+@class NSMutableSet, NSURL;
 
 @interface MCFileURLAttachmentDataSource
 {
     NSMutableSet *_operations;
-    NSURL *_fileURL;
 }
 
 - (id);
@@ -27,17 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canResultsBeCached;
-@property(readonly, nonatomic) _Bool dataIsLocallyAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDirectory;
-@property(readonly) Class superclass;
 
 @end
 

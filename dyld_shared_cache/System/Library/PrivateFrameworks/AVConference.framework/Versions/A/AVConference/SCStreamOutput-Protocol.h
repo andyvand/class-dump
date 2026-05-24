@@ -5,5 +5,8 @@
 //
 
 @protocol SCStreamOutput
+
+@optional
+- (void);
 @end
 

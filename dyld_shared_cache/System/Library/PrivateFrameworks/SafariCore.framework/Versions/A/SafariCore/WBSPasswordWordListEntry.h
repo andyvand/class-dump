@@ -9,9 +9,6 @@
 @interface WBSPasswordWordListEntry
 {
     _Bool _sensitive;
-    NSString *_word;
-    NSString *_wordListIdentifier;
-    unsigned long long _guessesRequired;
 }
 
 - (id);
@@ -24,10 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long guessesRequired; // @synthesize guessesRequired=_guessesRequired;
-@property(readonly, nonatomic, getter=isSensitive) _Bool sensitive; // @synthesize sensitive=_sensitive;
 @property(readonly, copy, nonatomic) NSString *word; // @synthesize word=_word;
-@property(readonly, copy, nonatomic) NSString *wordListIdentifier; // @synthesize wordListIdentifier=_wordListIdentifier;
 
 @end
 

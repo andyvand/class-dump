@@ -4,88 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString, NSTimeZone, NSURL;
+@class NSString, NSTimeZone, NSURL;
 @protocol CalDAVPrincipal;
 
 @protocol CalDAVCalendar
+- (void)";
+- (NSURL *)is not in progress:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)all reference;
+- (void)lFromBetaProgramWithUserIdentifier:(_Bool)arg1 ];
+- (_Bool)_locations;
 - (void)mVersions;
-- (NSTimeZone *)ItemTranslator;
-- (void)AVMkcalendarWithFallbackTaskGroup;
+- (NSTimeZone *)CalDAVCalendarUserAddressItemTranslator;
+- (void)CalDAVMkcalendarWithFallbackTaskGroup;
+
+@optional
+- (NSString *);
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allItemURLs;
-@property(readonly, nonatomic) _Bool becameDefaultSchedulingCalendar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSDictionary *bulkRequests;
-@property(retain, nonatomic) NSURL *calendarURL;
-@property(nonatomic) _Bool canBePublished;
-@property(nonatomic) _Bool canBeShared;
-@property(retain, nonatomic) NSString *color;
-@property(retain, nonatomic) NSString *ctag;
-@property(retain, nonatomic) NSString *guid;
-@property(readonly, nonatomic) NSDictionary *hrefsToModDeleteActions;
-@property(nonatomic) _Bool isAffectingAvailability;
-@property(nonatomic) _Bool isEditable;
-@property(nonatomic) _Bool isEnabled;
-@property(nonatomic) _Bool isEventContainer;
-@property(nonatomic) _Bool isFamilyCalendar;
-@property(nonatomic) _Bool isManagedByServer;
-@property(nonatomic) _Bool isMarkedImmutableSharees;
-@property(nonatomic) _Bool isMarkedUndeletable;
-@property(nonatomic) _Bool isNotification;
-@property(nonatomic) _Bool isPoll;
-@property(nonatomic) _Bool isPublished;
-@property(nonatomic) _Bool isRenameable;
-@property(nonatomic) _Bool isScheduleInbox;
-@property(nonatomic) _Bool isScheduleOutbox;
-@property(nonatomic) _Bool isSubscribed;
-@property(nonatomic) _Bool isTaskContainer;
-@property(readonly, nonatomic) NSArray *itemsToReportAsJunk;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) NSString *lastSyncTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(nonatomic) long long maxAttendees;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) _Bool needsIsAffectingAvailabilityUpdate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool needsPublishUpdate;
-@property(nonatomic) _Bool needsResync;
-@property(retain, nonatomic) NSString *notes;
-@property(nonatomic) int order;
-@property(retain, nonatomic) NSURL *owner;
-@property(retain, nonatomic) NSString *ownerDisplayName;
-@property(retain, nonatomic) NSURL *prePublishURL;
-@property(retain, nonatomic) NSSet *preferredCalendarUserAddresses;
 @property(readonly, nonatomic) id <CalDAVPrincipal> principal;
-@property(retain, nonatomic) NSURL *publishURL;
-@property(retain, nonatomic) NSString *pushKey;
-@property(readonly, nonatomic) NSArray *recurrenceSplitActions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *reportJunkActions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *shareeActions;
-@property(retain, nonatomic) NSSet *sharees;
-@property(nonatomic) int sharingStatus;
-@property(retain, nonatomic) NSString *symbolicColorName;
-@property(readonly, nonatomic) NSArray *syncActions;
-@property(retain, nonatomic) NSString *syncToken;
-@property(retain, nonatomic) NSTimeZone *timeZone;
-@property(retain, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSDictionary *uuidsToAddActions;
-@property(nonatomic) _Bool wasModifiedLocally;
 @end
 

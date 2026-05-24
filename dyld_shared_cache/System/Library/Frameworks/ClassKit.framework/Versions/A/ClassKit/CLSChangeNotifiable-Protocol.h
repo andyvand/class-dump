@@ -5,5 +5,7 @@
 //
 
 @protocol CLSChangeNotifiable
+- (oneway void)ROR:(unsigned long long)arg1 %s:Non-blocking usage not supported yet!
+ /* Error: Ran out of types for this method. */;
 @end
 

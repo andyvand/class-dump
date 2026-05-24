@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SPQueryResultsQueue
 {
     _Bool _canceled;
-    _Bool _tracked;
-    _Bool _live;
-    _Bool _shared;
-    _Bool _disableResultStreaming;
-    NSString *_identifier;
-    struct __SIResultQueue *_siResultsQueue;
-    NSMutableDictionary *_jobs;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    long long _pausedCount;
 }
 
-+ (id);
++ (id);
 + (void);
 + (id);
 + (void);
@@ -33,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)_rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mDescription"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mSampleValue"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mVersionAdded"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mDeprecated"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mProfanityFilter"B"mOptional"B"mRedacted"B"mSemanticConcept"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mValueFromCat"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mDefaultValue"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mIsIterator"B"mCanOverride"B})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct __SIResultQueue *);
@@ -43,7 +33,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)PowerTelemetryErrorCount;
 - (_Bool);
 - (void);
 - (id);
@@ -57,22 +47,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (_Bool)Manager;
+- (_Bool)SPHistoricalReportManager;
 
 // Remaining properties
-@property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(nonatomic) _Bool disableResultStreaming; // @synthesize disableResultStreaming=_disableResultStreaming;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) _Bool hasPausedResults;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableDictionary *jobs; // @synthesize jobs=_jobs;
-@property(nonatomic) _Bool live; // @synthesize live=_live;
-@property(nonatomic) long long pausedCount; // @synthesize pausedCount=_pausedCount;
-@property(nonatomic) _Bool shared; // @synthesize shared=_shared;
-@property(nonatomic) struct __SIResultQueue *siResultsQueue; // @synthesize siResultsQueue=_siResultsQueue;
-@property(nonatomic) _Bool tracked; // @synthesize tracked=_tracked;
 
 @end
 

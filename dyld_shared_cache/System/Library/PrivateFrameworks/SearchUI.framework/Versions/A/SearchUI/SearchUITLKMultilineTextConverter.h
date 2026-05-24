@@ -9,12 +9,12 @@
 }
 
 + (id);
-+ (id);
++ (id)HAP2EncodedRequestTypeCharacteristicConfiguration;
 + (id);
 + (void);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)queryOperationForRecordType:(id)arg1 predicate:sortDescriptors:desiredKeys:options:recordMatchedBlock:queryCompletionBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

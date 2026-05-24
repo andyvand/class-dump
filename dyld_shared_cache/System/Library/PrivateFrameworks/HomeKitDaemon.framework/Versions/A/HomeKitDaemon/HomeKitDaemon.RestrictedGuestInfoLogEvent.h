@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.RestrictedGuestInfoLogEvent
 {
     id hasHomeKey;
-    id hasPinCode;
-    id isChildWatch;
-    id numberOfSchedules;
-    id scheduleType;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (void);
@@ -27,9 +21,7 @@
 - (void)¨ýèÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, copy) NSString *coreAnalyticsEventName;
-@property(nonatomic) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface SIRINLURRAnnotation
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

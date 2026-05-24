@@ -5,5 +5,7 @@
 //
 
 @protocol CPKGenerationUIRemoteProtocol
+- (void);
+- (void);
 @end
 

@@ -6,24 +6,22 @@
 
 #import <Vision/VNPixelBufferObservation.h>
 
-@class VNImageSignature, VNLKTOpticalFlow;
+@class VNImageSignature;
 
 __attribute__((visibility("hidden")))
 @interface VNOpticalFlowObservation : VNPixelBufferObservation
 {
     VNImageSignature *_targetImageSignature;
-    VNLKTOpticalFlow *_opticalFlow;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void)cvml::util::binserialized_contents::init_model_values(const binserialized_table_of_contents &, const char *, const vision::mod::BinSerializedModelFileInfo &) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) VNLKTOpticalFlow *opticalFlow; // @synthesize opticalFlow=_opticalFlow;
 @property(retain, nonatomic) VNImageSignature *targetImageSignature; // @synthesize targetImageSignature=_targetImageSignature;
 
 @end

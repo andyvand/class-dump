@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IPDateFormatExtra)
-- (id);
+- (id);
 - (void);
 @end
 

@@ -25,7 +25,10 @@
         NSObject<OS_voucher> *_voucher;
         CDUnknownBlockType __schedule;
         struct _opaque_pthread_mutex_t __wait_mutex;
-        struct _opaque_pthread_cond_t __wait_cond;
+        struct _opaque_pthread_cond_t {
+            long long __sig;
+            char __opaque[40];
+        } __wait_cond;
         struct os_unfair_lock_s __lock;
         _Bool _shouldRemoveDependenciesAfterFinish;
         _Atomic unsigned char __state;

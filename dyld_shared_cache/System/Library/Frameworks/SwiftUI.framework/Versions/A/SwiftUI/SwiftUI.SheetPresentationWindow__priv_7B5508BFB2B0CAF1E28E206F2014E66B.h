@@ -7,11 +7,6 @@
 @interface SwiftUI.SheetPresentationWindow__priv_7B5508BFB2B0CAF1E28E206F2014E66B
 {
     id pendingSheetParent;
-    id behavior;
-    id presentationID;
-    id onDismiss;
-    id sheetDelegate;
-    id handleEscapeKey;
 }
 
 - (void);

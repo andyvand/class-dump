@@ -4,58 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABBranchInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_abBranchId;
-    NSString *_multilayerAbBranchId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_abBranchId:1;
-        unsigned int read_multilayerAbBranchId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sMapSettingsDrivingVoiceSettings:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setHasMapSettingsDrivingVoiceSettings:(id)arg1;
+- (void)ct={CGPoint=dd}{CGSize=dd}}80@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
+- (void)delay;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
-- (void);
+- (void)_handleResultCompletion:(id)arg1 voiceTriggerInfo:isSecondChanceCandidate:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)LL;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void)
 × ;
 - (id)ck:(struct _NSZone *)arg1;
 - (id)`OOQXR;
-- (id)afficDensityKey;
+- (id)GEORouteHypothesisCurrentTrafficDensityKey;
 - (id)ÿÿ;
 - (void)ç57;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abBranchId;
 @property(readonly, nonatomic) _Bool hasAbBranchId;
-@property(readonly, nonatomic) _Bool hasMultilayerAbBranchId;
-@property(retain, nonatomic) NSString *multilayerAbBranchId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

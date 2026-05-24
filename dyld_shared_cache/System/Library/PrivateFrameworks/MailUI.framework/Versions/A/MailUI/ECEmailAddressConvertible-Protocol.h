@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECEmailAddress, NSString;
+@class ECEmailAddress;
 
 @protocol ECEmailAddressConvertible
+- (ECEmailAddress *)kipping named person with UUID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ECEmailAddress *emailAddressValue;
-@property(readonly, nonatomic) NSString *stringValue;
 @end
 

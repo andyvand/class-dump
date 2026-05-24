@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, SearchUIWatchListState;
+@class NSArray;
 
 @interface SearchUIWatchListButtonResponse
 {
     NSArray *_buttonModels;
-    SearchUIWatchListState *_state;
-    NSError *_error;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (id);
-- (void);
+- (void)lizing (with %u children), ended with length %ld, should be %lu;
 - (void);
 
 // Remaining properties
 @property(retain) NSArray *buttonModels; // @synthesize buttonModels=_buttonModels;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) SearchUIWatchListState *state; // @synthesize state=_state;
 
 @end
 

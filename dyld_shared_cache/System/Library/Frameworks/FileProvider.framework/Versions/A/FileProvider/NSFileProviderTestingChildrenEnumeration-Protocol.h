@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol NSFileProviderTestingChildrenEnumeration
-- (NSString *)ntrash;
+- (NSString *)Untrash;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(readonly, nonatomic) unsigned long long side;
 @end
 

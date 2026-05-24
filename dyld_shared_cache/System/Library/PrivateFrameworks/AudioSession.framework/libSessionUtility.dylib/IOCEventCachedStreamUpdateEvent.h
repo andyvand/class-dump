@@ -9,7 +9,6 @@
 @interface IOCEventCachedStreamUpdateEvent
 {
     NSString *inputDeviceUID;
-    NSString *outputDeviceUID;
 }
 
 + (_Bool);
@@ -17,14 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ler received unknown;
+- (void)al (5V) load-side power (Watts) (PH0R);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *inputDeviceUID; // @synthesize inputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID;
 
 @end
 

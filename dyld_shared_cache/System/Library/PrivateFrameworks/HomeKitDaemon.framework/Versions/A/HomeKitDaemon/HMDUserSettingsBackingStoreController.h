@@ -4,34 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, HMDCloudShareMessenger, HMDCloudShareParticipantsManager, NSObject, NSString, NSUUID;
-@protocol HMDAssistantAccessControlModelUpdateReceiver, HMDDatabase, HMDMediaContentProfileAccessControlModelUpdateReceiver, HMDSettingTransactionReceiverProtocol, HMDSharedUserDataModelUpdateReceiver, HMDUserListeningHistoryUpdateControlModelUpdateReceiver, HMDUserSettingsBackingStoreControllerDelegate, HMMLogEventSubmitting, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue, OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserSettingsBackingStoreController
 {
     NSObject<OS_os_log> *_logger;
-    unsigned long long _startupSignPost;
-    id <HMDUserSettingsBackingStoreControllerDelegate> _delegate;
-    HMBLocalZone *_localZone;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_zoneName;
-    id <HMDDatabase> _database;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMDCloudShareMessenger *_shareMessenger;
-    HMDCloudShareParticipantsManager *_participantsManager;
-    HMBCloudZone *_cloudZone;
-    long long _runState;
-    long long _logEventRunState;
-    id <HMDSettingTransactionReceiverProtocol> _transactionReceiver;
-    id <HMDAssistantAccessControlModelUpdateReceiver> _assistantAccessControlModelUpdateReceiver;
-    NSUUID *_assistantAccessControlModelID;
-    id <HMDMediaContentProfileAccessControlModelUpdateReceiver> _mediaContentProfileAccessControlModelUpdateReceiver;
-    NSUUID *_mediaContentProfileAccessControlModelID;
-    NSUUID *_userListeningHistoryUpdateModelID;
-    id <HMDUserListeningHistoryUpdateControlModelUpdateReceiver> _userListeningHistoryUpdateControlModelUpdateReceiver;
-    NSUUID *_sharedUserDataModelUpdateModelID;
-    id <HMDSharedUserDataModelUpdateReceiver> _sharedUserDataModelUpdateReceiver;
 }
 
 + (id);
@@ -59,10 +38,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
@@ -73,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)__TEXT;
 - (void);
 - (long long);
 - (id);
@@ -82,16 +61,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)initWithWaypoints:(id)arg1 routeAttributes:(id)arg2 directionsResponse:(id)arg3;
+- (void)initial load from persister %p (%@);
+- (void)@"NSString"8@"MSPSharedTripFetchedCapabilityStatus"16^B24;
+- (void)24@?0@"NSMutableDictionary"8@"NSString"16;
+- (void)MapsSyncPolicyMinimumDeteleRatioForDataLoss;
+- (void)affected_entities;
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -103,7 +82,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -113,38 +92,12 @@ __attribute__((visibility("hidden")))
 - (id)}@No snapshotData was provided, so using whatever we had in the mostRecentCoalescedPersonNotification;
 - (id)unconfigured resident:no accessory identifiers found /* Error: Ran out of types for this method. */;
 - (void)rProtocolType %ld;
-- (void)WeekDayScheduleRule;
+- (void)MKFWeekDayScheduleRule;
 - (id);
 - (long long);
 
 // Remaining properties
-@property(copy) NSUUID *assistantAccessControlModelID; // @synthesize assistantAccessControlModelID=_assistantAccessControlModelID;
-@property __weak id <HMDAssistantAccessControlModelUpdateReceiver> assistantAccessControlModelUpdateReceiver; // @synthesize assistantAccessControlModelUpdateReceiver=_assistantAccessControlModelUpdateReceiver;
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly) id <HMDDatabase> database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDUserSettingsBackingStoreControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property long long logEventRunState; // @synthesize logEventRunState=_logEventRunState;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(copy) NSUUID *mediaContentProfileAccessControlModelID; // @synthesize mediaContentProfileAccessControlModelID=_mediaContentProfileAccessControlModelID;
-@property __weak id <HMDMediaContentProfileAccessControlModelUpdateReceiver> mediaContentProfileAccessControlModelUpdateReceiver; // @synthesize mediaContentProfileAccessControlModelUpdateReceiver=_mediaContentProfileAccessControlModelUpdateReceiver;
-@property(retain) HMDCloudShareParticipantsManager *participantsManager; // @synthesize participantsManager=_participantsManager;
-@property long long runState; // @synthesize runState=_runState;
-@property(readonly) HMDCloudShareMessenger *shareMessenger; // @synthesize shareMessenger=_shareMessenger;
-@property(copy) NSUUID *sharedUserDataModelUpdateModelID; // @synthesize sharedUserDataModelUpdateModelID=_sharedUserDataModelUpdateModelID;
-@property __weak id <HMDSharedUserDataModelUpdateReceiver> sharedUserDataModelUpdateReceiver; // @synthesize sharedUserDataModelUpdateReceiver=_sharedUserDataModelUpdateReceiver;
-@property(readonly) Class superclass;
-@property __weak id <HMDSettingTransactionReceiverProtocol> transactionReceiver; // @synthesize transactionReceiver=_transactionReceiver;
-@property __weak id <HMDUserListeningHistoryUpdateControlModelUpdateReceiver> userListeningHistoryUpdateControlModelUpdateReceiver; // @synthesize userListeningHistoryUpdateControlModelUpdateReceiver=_userListeningHistoryUpdateControlModelUpdateReceiver;
-@property(copy) NSUUID *userListeningHistoryUpdateModelID; // @synthesize userListeningHistoryUpdateModelID=_userListeningHistoryUpdateModelID;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, copy) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

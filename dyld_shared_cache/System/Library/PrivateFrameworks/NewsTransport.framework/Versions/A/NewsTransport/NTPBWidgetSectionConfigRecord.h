@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBRecordBase;
+@class NSMutableArray;
 
 @interface NTPBWidgetSectionConfigRecord
 {
     NSMutableArray *_articleIDs2s;
-    NSMutableArray *_articleListIDs2s;
-    NTPBRecordBase *_base;
-    NSString *_configuration2;
-    NSString *_singleTagConfiguration;
 }
 
-+ (Class);
-+ (Class);
++ (Class)_playbackEndUnfavoriteButtonSpriteIndex;
++ (Class)_oneShelfExpandingMovementAnimationType;
 
 @end
 

@@ -15,8 +15,8 @@
 
 + (id);
 + (unsigned short);
-- (id);
-- (void);
+- (id)AMSUnsignedShort;
+- (void)g$;
 
 @end
 

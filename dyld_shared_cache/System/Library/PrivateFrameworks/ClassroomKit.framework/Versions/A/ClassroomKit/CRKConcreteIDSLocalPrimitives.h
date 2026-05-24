@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKArrayDifferenceEngine, IDSAccountController, IDSService, NSArray, NSDictionary, NSHashTable, NSMutableArray, NSString;
+@class NSString;
 
 @interface CRKConcreteIDSLocalPrimitives
 {
     NSString *_serviceName;
-    IDSService *_service;
-    IDSAccountController *_accountController;
-    CRKArrayDifferenceEngine *_accountsDifferenceEngine;
-    NSMutableArray *_backingAccounts;
-    NSHashTable *_didSendSubscriptions;
-    NSHashTable *_didReceiveSubscriptions;
 }
 
 + (id);
@@ -46,30 +40,15 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
+- (void)p;
 - (void);
-- (void);
-- (void);
+- (void)ѿ[;�(;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) IDSAccountController *accountController; // @synthesize accountController=_accountController;
-@property(readonly, copy, nonatomic) NSArray *accounts;
-@property(readonly, nonatomic) CRKArrayDifferenceEngine *accountsDifferenceEngine; // @synthesize accountsDifferenceEngine=_accountsDifferenceEngine;
-@property(readonly, nonatomic) NSMutableArray *backingAccounts; // @synthesize backingAccounts=_backingAccounts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSHashTable *didReceiveSubscriptions; // @synthesize didReceiveSubscriptions=_didReceiveSubscriptions;
-@property(readonly, nonatomic) NSHashTable *didSendSubscriptions; // @synthesize didSendSubscriptions=_didSendSubscriptions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IDSService *service; // @synthesize service=_service;
 @property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

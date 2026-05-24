@@ -6,23 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHVoiceTriggerFirstPassDailyMetadata, NSArray, NSData;
-
 @interface SISchemaVoiceTriggerMetrics : SISchemaInstrumentationMessage
 {
     int _implicitUtterances;
-    int _explicitUtterances;
-    int _firstPassTriggers;
-    NSArray *_firstPassStatistics;
-    MHSchemaMHVoiceTriggerFirstPassDailyMetadata *_firstPassMetadata;
-    _Bool _isJSEnabled;
-    struct {
-        unsigned int implicitUtterances:1;
-        unsigned int explicitUtterances:1;
-        unsigned int firstPassTriggers:1;
-        unsigned int isJSEnabled:1;
-    } _has;
-    _Bool _hasFirstPassMetadata;
 }
 
 - (void);
@@ -46,7 +32,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (void);
 - (void);
@@ -54,34 +40,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|�;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)`;
+- (unsigned long long)isWrapped;
 - (_Bool);
-- (_Bool);
+- (_Bool)ightIndexingManager(SharedWithYou) _updateItem:(id)arg1 withFPProviderID:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)leteIntent;
-- (id);
+- (id)deleteIntent;
+- (id)_hasFullPayloadCorrectionExperimentTier1;
 - (void)r1;
 
 // Remaining properties
-@property(nonatomic) int explicitUtterances; // @synthesize explicitUtterances=_explicitUtterances;
-@property(retain, nonatomic) MHSchemaMHVoiceTriggerFirstPassDailyMetadata *firstPassMetadata; // @synthesize firstPassMetadata=_firstPassMetadata;
-@property(copy, nonatomic) NSArray *firstPassStatistics; // @synthesize firstPassStatistics=_firstPassStatistics;
-@property(nonatomic) int firstPassTriggers; // @synthesize firstPassTriggers=_firstPassTriggers;
-@property(nonatomic) _Bool hasExplicitUtterances;
-@property(nonatomic) _Bool hasFirstPassMetadata; // @synthesize hasFirstPassMetadata=_hasFirstPassMetadata;
-@property(nonatomic) _Bool hasFirstPassTriggers;
-@property(nonatomic) _Bool hasImplicitUtterances;
-@property(nonatomic) _Bool hasIsJSEnabled;
 @property(nonatomic) int implicitUtterances; // @synthesize implicitUtterances=_implicitUtterances;
-@property(nonatomic) _Bool isJSEnabled; // @synthesize isJSEnabled=_isJSEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

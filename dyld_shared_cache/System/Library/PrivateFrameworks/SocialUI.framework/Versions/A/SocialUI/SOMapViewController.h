@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFMapViewController, NSArray, NSString;
+@class FMFMapViewController, NSArray;
 
 @interface SOMapViewController
 {
     NSArray *_trackedIMHandles;
-    FMFMapViewController *_fmfViewController;
 }
 
 - (void);
@@ -27,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)id;
 - (void);
 - (void);
 - (void);
@@ -36,15 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) FMFMapViewController *fmfViewController; // @synthesize fmfViewController=_fmfViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) NSArray *trackedIMHandles; // @synthesize trackedIMHandles=_trackedIMHandles;
 
 @end
 

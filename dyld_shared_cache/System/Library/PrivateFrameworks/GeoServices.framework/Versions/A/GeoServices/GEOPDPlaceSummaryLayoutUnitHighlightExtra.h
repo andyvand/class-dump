@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool)nt:(id)arg1;
++ (_Bool)setIncidentIndices:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tManager is nil. This is an error;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)esourceIndex=III{?=b1b1b1}}16;
-- (id)outStyle;
+- (id)_layoutStyle;
 - (id)Ð;
 - (id)sReadAllFrom can only be called once per object;
 

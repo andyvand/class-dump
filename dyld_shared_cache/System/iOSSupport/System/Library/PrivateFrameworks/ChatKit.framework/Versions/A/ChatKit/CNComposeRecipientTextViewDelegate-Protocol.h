@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNComposeRecipient;
+
 @protocol CNComposeRecipientTextViewDelegate
+
+@optional
+- (_Bool)Image",&,N,V_undoneImage;
+- (void)rItemIdentifiersToParentFolderItemIdentifier;
+- (void);
+- (void)4<;
+- (CNComposeRecipient *)!;
+- (void);
 @end
 

@@ -9,13 +9,11 @@
 @interface SecExternalPreSharedKey
 {
     NSData *_external_identity;
-    NSData *_epsk;
-    NSData *_context;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)x;
 - (id);
 - (id);
 - (id);
@@ -23,8 +21,6 @@
 - (void)ÿÿ»d°;
 
 // Remaining properties
-@property(retain) NSData *context; // @synthesize context=_context;
-@property(retain) NSData *epsk; // @synthesize epsk=_epsk;
 @property(retain) NSData *external_identity; // @synthesize external_identity=_external_identity;
 
 @end

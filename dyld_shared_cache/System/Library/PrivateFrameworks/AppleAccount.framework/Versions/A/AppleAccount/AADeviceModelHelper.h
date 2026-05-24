@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)(isUPP:%d) /* Error: Ran out of types for this method. */;
++ (_Bool)e to provisioning profile (isUPP:%d) /* Error: Ran out of types for this method. */;
++ (_Bool)itlement(s) for %{public}@ due to provisioning profile (isUPP:(id)arg1 %d);
 
 @end
 

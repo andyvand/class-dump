@@ -9,41 +9,20 @@
 @interface MRTexture
 {
     struct _CGLContextObject *_parenGLContext;
-    struct _CGLContextObject *_glContext;
-    float _borderColor[4];
-    _Bool _textureNameIsNotOurs;
-    _Bool _hasMipmap;
-    _Bool _isPowerOfTwo;
-    _Bool _isShared;
-    _Bool _isFloat;
-    _Bool _isPremultiplied;
-    _Bool _isOpaque;
-    unsigned int _textureName;
-    unsigned int _textureTarget;
-    unsigned int _pixelFormat;
-    unsigned int _framebufferName;
-    int _minFilter;
-    int _magFilter;
-    int _wrapS;
-    int _wrapT;
-    MRContextState *_innerState;
-    CDStruct_3e356df7 _size;
-    double _timestamp;
-    unsigned long long _orientation;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)tilities.framework/Versions/A/TelephonyUtilities;
+- (_Bool)deleteEnvelopesForEntries: /* Error: Ran out of types for this method. */;
+- (id)allValues;
+- (id)_observer;
+- (id)_fetchAnalyticsEnvelopeContentTypeConfigsWithCompletion:(CDStruct_c0454aff)arg1;
+- (id)uploadEnvelopeBatch:(struct __IOSurface *)arg1 withURL:(struct _CGLContextObject *)arg2 valuesByHTTPHeaderField:(const CDStruct_ad85aa33 *)arg3 completion: /* Error: Ran out of types for this method. */;
+- (id)nf_objectsForKeysWithoutMarker:(void **)arg1;
+- (id)AnalyticsPayloadAssembler",&,N,V_payloadAssembler;
+- (id)_payloadUploader;
+- (_Bool)FCCacheCoordinatorDelegate;
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -66,9 +45,9 @@
 - (void);
 - (double);
 - (void);
-- (CDStruct_3e356df7);
+- (CDStruct_c0454aff)_TtCV10XavierNews7Classic14CohortProvider;
 - (unsigned long long);
-- (void);
+- (void)#;
 - (const float *);
 - (void);
 - (_Bool);
@@ -79,28 +58,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) const float *borderColor;
-@property(readonly) unsigned int framebufferName; // @synthesize framebufferName=_framebufferName;
-@property(readonly) struct _CGLContextObject *glContext; // @synthesize glContext=_glContext;
-@property(readonly) _Bool hasMipmap; // @synthesize hasMipmap=_hasMipmap;
 @property(readonly) MRContextState *innerState; // @synthesize innerState=_innerState;
-@property(readonly) _Bool isFBO;
-@property(readonly) _Bool isFloat; // @synthesize isFloat=_isFloat;
-@property(readonly) _Bool isMonochromatic;
-@property(nonatomic) _Bool isOpaque; // @synthesize isOpaque=_isOpaque;
-@property(readonly) _Bool isPowerOfTwo; // @synthesize isPowerOfTwo=_isPowerOfTwo;
-@property(nonatomic) _Bool isPremultiplied; // @synthesize isPremultiplied=_isPremultiplied;
-@property(nonatomic) _Bool isShared; // @synthesize isShared=_isShared;
-@property(nonatomic) int magFilter; // @synthesize magFilter=_magFilter;
-@property(nonatomic) int minFilter; // @synthesize minFilter=_minFilter;
-@property(nonatomic) unsigned long long orientation; // @synthesize orientation=_orientation;
-@property(readonly) unsigned int pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly) CDStruct_3e356df7 size; // @synthesize size=_size;
-@property(readonly) unsigned int textureName; // @synthesize textureName=_textureName;
-@property(readonly) unsigned int textureTarget; // @synthesize textureTarget=_textureTarget;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int wrapS; // @synthesize wrapS=_wrapS;
-@property(nonatomic) int wrapT; // @synthesize wrapT=_wrapT;
 
 @end
 

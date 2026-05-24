@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLModel, NSString;
-
 @interface NLEmbedding
 {
     void *_embedding;
-    NLModel *_nlModel;
-    _Bool _usesUntokenizedSentences;
 }
 
 + (unsigned long long);
 + (void);
++ (id);
++ (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)kIKLocalizedImageBitPerChannel;
 + (id);
 + (_Bool);
++ (unsigned long long)P;
++ (_Bool);
++ (id)i;
 + (unsigned long long);
-+ (_Bool);
-+ (id);
-+ (unsigned long long);
-+ (id);
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -43,15 +39,15 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_targetedTargetingRuleIndex;
 - (void);
 - (void *);
 - (_Bool);
 - (id);
 - (double);
-- (id);
+- (id)JRDeIsMK6g/Library/Caches/com.apple.xbs/TemporaryDirectory.EO60Xj/Sources/CoreKDL/CoreKDL/CoreKDL.m;
 - (_Bool);
-- (id);
+- (id)enumeratePointsWithDistanceStep:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -65,7 +61,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void *);
 - (id);
 - (void);
@@ -76,14 +72,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long)tate:objects:count: /* Error: Ran out of types for this method. */;
+- (id)exportedInterface;
+- (unsigned long long)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long dimension;
-@property(readonly, copy) NSString *language;
-@property(readonly) unsigned long long revision;
-@property(readonly) unsigned long long vocabularySize;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaUI.FallbackPluginViewController__priv_555B43D3A3BE92296C45DE65B67B87E4
 {
     id pluggableDelegate;
-    id isBeingUsedAsPlugin;
 }
 
 - (id);

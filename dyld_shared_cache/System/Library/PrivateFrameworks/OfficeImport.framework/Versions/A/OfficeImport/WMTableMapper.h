@@ -6,15 +6,12 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class WDTable, WMBordersProperty, WMTableColumnInfo, WMTableStyle;
+@class WDTable;
 
 __attribute__((visibility("hidden")))
 @interface WMTableMapper : CMMapper
 {
     WDTable *mWdTable;
-    WMBordersProperty *mInsideBorders;
-    WMTableStyle *mStyle;
-    WMTableColumnInfo *mColumnInfo;
 }
 
 + (_Bool);

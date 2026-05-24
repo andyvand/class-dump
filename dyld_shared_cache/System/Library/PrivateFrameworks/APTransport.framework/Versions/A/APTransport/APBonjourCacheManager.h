@@ -4,47 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUCoalescer, CUSystemMonitor, CWFInterface, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface APBonjourCacheManager
 {
     _Bool _auditCaches;
-    _Bool _cacheChanged;
-    NSMutableDictionary *_cachedItems;
-    NSMutableDictionary *_deviceMap;
-    NSMutableDictionary *_p2pDeviceMap;
-    int _pairedPeersChangedToken;
-    _Bool _pairedPeersGetting;
-    NSMutableDictionary *_pairedPeersMap;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSString *_networkSignature;
-    double _networkSignatureWasValidAt;
-    CUCoalescer *_writeCoaleser;
-    CUSystemMonitor *_systemMonitor;
-    struct LogCategory *_ucat;
-    CWFInterface *_coreWiFiInterface;
-    NSObject<OS_dispatch_queue> *_coreWiFiQueue;
-    _Bool _isMonitoringKnownNetworkProfile;
-    _Bool _isPublicAirPlayNetwork;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CDUnknownBlockType _reportDeviceFoundHandler;
-    CDUnknownBlockType _reportDeviceLostHandler;
-    NSString *_serviceType;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -74,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
@@ -91,11 +66,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType reportDeviceFoundHandler; // @synthesize reportDeviceFoundHandler=_reportDeviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType reportDeviceLostHandler; // @synthesize reportDeviceLostHandler=_reportDeviceLostHandler;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

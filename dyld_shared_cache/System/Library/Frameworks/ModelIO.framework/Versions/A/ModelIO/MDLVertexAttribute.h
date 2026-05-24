@@ -9,22 +9,17 @@
 @interface MDLVertexAttribute
 {
     NSString *_name;
-    unsigned long long _offset;
-    unsigned long long _bufferIndex;
-    unsigned long long _format;
-    double _time;
-    id _initializationValue;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e;
+- (id)scan type:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (double);
 - (unsigned long long);
@@ -37,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bufferIndex; // @synthesize bufferIndex=_bufferIndex;
-@property(nonatomic) unsigned long long format; // @synthesize format=_format;
-@property(nonatomic) id initializationValue; // @synthesize initializationValue=_initializationValue;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) double time; // @synthesize time=_time;
 
 @end
 

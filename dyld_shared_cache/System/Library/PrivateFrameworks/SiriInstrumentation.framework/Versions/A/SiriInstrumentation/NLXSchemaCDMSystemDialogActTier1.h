@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSystemDialogActTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_renderedText;
-    _Bool _hasLinkId;
-    _Bool _hasRenderedText;
 }
 
 - (void);
@@ -22,13 +19,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)X509_ATTRIBUTE_create_by_OBJ;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -36,15 +33,11 @@
 - (id)1Â0@ù
 × ;
 - (id)sUserAction;
-- (id)ggered: /* Error: Ran out of types for this method. */;
+- (id)setRtsFirstPassPolicyTriggered: /* Error: Ran out of types for this method. */;
 - (void)(2>ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasRenderedText; // @synthesize hasRenderedText=_hasRenderedText;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *renderedText; // @synthesize renderedText=_renderedText;
 
 @end
 

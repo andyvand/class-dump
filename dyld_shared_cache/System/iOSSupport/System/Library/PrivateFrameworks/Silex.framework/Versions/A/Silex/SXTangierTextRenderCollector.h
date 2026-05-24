@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, SXArticleSearchManager;
+@class NSMutableDictionary;
 
 @interface SXTangierTextRenderCollector
 {
     NSMutableDictionary *_flows;
-    NSDictionary *_previousFlows;
-    NSMutableDictionary *_layoutsByComponentIdentifier;
-    SXArticleSearchManager *_searchManager;
 }
 
 - (_Bool);
@@ -39,17 +36,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *flows; // @synthesize flows=_flows;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *layoutsByComponentIdentifier; // @synthesize layoutsByComponentIdentifier=_layoutsByComponentIdentifier;
-@property(retain, nonatomic) NSDictionary *previousFlows; // @synthesize previousFlows=_previousFlows;
-@property(retain, nonatomic) SXArticleSearchManager *searchManager; // @synthesize searchManager=_searchManager;
-@property(readonly) Class superclass;
 
 @end
 

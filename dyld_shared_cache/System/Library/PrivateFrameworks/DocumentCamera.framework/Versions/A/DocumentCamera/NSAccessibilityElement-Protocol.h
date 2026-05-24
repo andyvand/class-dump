@@ -5,5 +5,6 @@
 //
 
 @protocol NSAccessibilityElement
+- (struct CGRect)%@, with opted-in stream %@;
 @end
 

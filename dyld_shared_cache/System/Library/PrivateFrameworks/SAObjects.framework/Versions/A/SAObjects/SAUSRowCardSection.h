@@ -6,13 +6,13 @@
 
 #import <SAObjects/SAUSCardSection.h>
 
-@class NSString, SAUIImageResource;
+@class SAUIImageResource;
 
 @interface SAUSRowCardSection : SAUSCardSection
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -20,16 +20,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)i;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIImageResource *image;
-@property(nonatomic) _Bool imageIsRightAligned;
-@property(copy, nonatomic) NSString *leftText;
-@property(copy, nonatomic) NSString *rightText;
 
 @end
 

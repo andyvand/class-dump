@@ -11,10 +11,6 @@
 @interface IXPlaceholderSeed : IXOwnedDataPromiseSeed
 {
     NSString *_bundleName;
-    NSString *_bundleDirectoryName;
-    NSString *_bundleID;
-    unsigned long long _installType;
-    unsigned long long _placeholderType;
 }
 
 + (_Bool);
@@ -27,7 +23,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -36,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleDirectoryName; // @synthesize bundleDirectoryName=_bundleDirectoryName;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(copy, nonatomic) NSString *bundleName; // @synthesize bundleName=_bundleName;
-@property(nonatomic) unsigned long long installType; // @synthesize installType=_installType;
-@property(readonly, nonatomic) _Bool isAppExtension;
-@property(nonatomic) unsigned long long placeholderType; // @synthesize placeholderType=_placeholderType;
 
 @end
 

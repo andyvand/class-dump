@@ -5,14 +5,11 @@
 //
 
 @class CNContactStore;
-@protocol CNScheduler, CNSchedulerProvider;
 
 __attribute__((visibility("hidden")))
 @interface CNReputationContactsAdapter
 {
     CNContactStore *_contactStore;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNScheduler> _storeScheduler;
 }
 
 - (id);
@@ -29,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, nonatomic) id <CNScheduler> storeScheduler; // @synthesize storeScheduler=_storeScheduler;
 
 @end
 

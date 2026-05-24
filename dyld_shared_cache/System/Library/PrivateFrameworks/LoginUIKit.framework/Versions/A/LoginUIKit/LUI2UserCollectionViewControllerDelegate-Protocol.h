@@ -5,5 +5,9 @@
 //
 
 @protocol LUI2UserCollectionViewControllerDelegate
+
+@optional
+- (void);
+- (void)Q?A;
 @end
 

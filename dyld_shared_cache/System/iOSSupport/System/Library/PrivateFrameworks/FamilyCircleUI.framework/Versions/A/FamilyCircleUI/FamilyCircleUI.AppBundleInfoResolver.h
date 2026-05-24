@@ -7,6 +7,7 @@
 @interface FamilyCircleUI.AppBundleInfoResolver
 {
     id createMediaTask;
+    id;
 }
 
 @end

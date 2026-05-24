@@ -8,17 +8,14 @@ __attribute__((visibility("hidden")))
 @interface SSICloudDriveAppLibraryCollectionObserver
 {
     id collectionWorkingQueue;
-    id observationEndWorkItem;
-    id itemCollectionsLock;
-    id itemCollectionsForDomain;
 }
 
-+ (id)sent:config: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)_availability:weightSumPresent:config: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 8@"LPIndeterminateProgressSpinnerPresentationProperties"16;
 - (void);
 - (id);
-- (void);
-- (void)ameInitialsFirstWordAndMoreMatchOnly;
+- (void)contains a cycle;
+- (void)_displayNameInitialsFirstWordAndMoreMatchOnly;
 
 @end
 

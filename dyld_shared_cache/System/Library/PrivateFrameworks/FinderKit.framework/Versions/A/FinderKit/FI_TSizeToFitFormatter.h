@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TSizeToFitFormatter
 {
     NSDictionary *_attributes;
-    struct CGSize _size;
 }
 
 - (void);

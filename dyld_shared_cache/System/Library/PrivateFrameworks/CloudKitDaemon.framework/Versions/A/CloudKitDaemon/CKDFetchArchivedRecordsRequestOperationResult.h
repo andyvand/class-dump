@@ -9,19 +9,17 @@
 @interface CKDFetchArchivedRecordsRequestOperationResult
 {
     NSData *_resultServerChangeTokenData;
-    long long _status;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)LWrapper_deactivateInternal(FigEndpointRef, FigEndpointRef, CFDictionaryRef, FigEndpointActivationCompletionCallback, void *);
 - (long long);
 - (id);
 - (void)invernessServiceName;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *resultServerChangeTokenData; // @synthesize resultServerChangeTokenData=_resultServerChangeTokenData;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

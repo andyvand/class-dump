@@ -4,40 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HPDAuthChallengeHandler, HPDReachability, NSMapTable, NSString, NSURLSession;
+@class NSURLSession;
 
 @interface DDMObjectManager
 {
     NSURLSession *_urlSession;
-    NSMapTable *_ddmObjectCache;
-    NSMapTable *_ddmBookCache;
-    NSMapTable *_topicPreloadsByBook;
-    HPDAuthChallengeHandler *_authHandler;
-    HPDReachability *_reachability;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool));
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)5;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id)A;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)R(;
+- (void);
+- (id)`I;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -46,22 +41,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HPDAuthChallengeHandler *authHandler; // @synthesize authHandler=_authHandler;
-@property(retain, nonatomic) NSMapTable *ddmBookCache; // @synthesize ddmBookCache=_ddmBookCache;
-@property(retain, nonatomic) NSMapTable *ddmObjectCache; // @synthesize ddmObjectCache=_ddmObjectCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HPDReachability *reachability; // @synthesize reachability=_reachability;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMapTable *topicPreloadsByBook; // @synthesize topicPreloadsByBook=_topicPreloadsByBook;
 @property(retain, nonatomic) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end

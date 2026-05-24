@@ -6,17 +6,9 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, UIView, _UIStickerPickerServiceRemoteViewController;
-@protocol _UIStickerPickerViewControllerDelegate;
-
 @interface _UIStickerPickerViewController : UIViewController
 {
     _Bool _isLaunchedFromKeyboard;
-    _Bool _keyWindowChangedDuringInsert;
-    id <_UIStickerPickerViewControllerDelegate> _delegate;
-    UIView *_sourceView;
-    _UIStickerPickerServiceRemoteViewController *_card;
-    struct CGRect _sourceRect;
 }
 
 + (id);
@@ -29,56 +21,43 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_performControlDidChange;
+- (void)IMServiceImpl;
 - (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setTaskGroupedByServiceName:(id)arg1;
+- (void)setHighlightChangeEventType:(id)arg1;
+- (void)setHfsType:(id)arg1;
+- (id)removePersonInfo:chatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (void)messageQuery:finishedWithResult:chatGUIDs: /* Error: Ran out of types for this method. */;
+- (struct CGRect)consumeCodeWithGuid: /* Error: Ran out of types for this method. */;
+- (void)databaseManager;
+- (void)ould reconnect flag = YES);
+- (void)ilar message:(_Bool)arg1 %@;
+- (void)ecoverably deleting messages with GUID %@:(id)arg1;
 - (id);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void)
+;
+- (void)kMDItemFSName;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)etting privateListening for currentAccessory. userID=%{private}@ enabled=%{BOOL}u;
 - (id);
 - (void);
 - (struct CGRect)ns:completion: /* Error: Ran out of types for this method. */;
-- (void)t;
+- (void)_countStringRowCount;
 - (void)ibleItem:(id)arg1;
-- (void)nt;
+- (void)widthConstraint;
 - (void);
 - (void)-:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) _UIStickerPickerServiceRemoteViewController *card; // @synthesize card=_card;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIStickerPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType dismissCompletionHandler;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLaunchedFromKeyboard; // @synthesize isLaunchedFromKeyboard=_isLaunchedFromKeyboard;
-@property(nonatomic) _Bool keyWindowChangedDuringInsert; // @synthesize keyWindowChangedDuringInsert=_keyWindowChangedDuringInsert;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(retain) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsReturningStickerIdentifiersDuringAddition;
 
 @end
 

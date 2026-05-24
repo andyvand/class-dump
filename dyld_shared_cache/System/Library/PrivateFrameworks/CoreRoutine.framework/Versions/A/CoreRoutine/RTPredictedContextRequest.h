@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, RTPredictedContextResult;
+@class NSUUID;
 
 @interface RTPredictedContextRequest
 {
     NSUUID *_identifier;
-    RTPredictedContextResult *_predictedContextResult;
-    NSDate *_requestStartDate;
-    NSDate *_requestEndDate;
-    double _memoryFootprintStart;
-    double _memoryFootprintEnd;
-    long long _inferenceTriggerReason;
-    unsigned long long _clientCount;
 }
 
 @end

@@ -4,46 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSessionParsedMicSourceConfiguration, FigCaptureSmartStyle, NSArray;
-
 @interface FigCaptureSessionParsedConfiguration
 {
     _Bool _empty;
-    _Bool _isMultiCamSession;
-    _Bool _continuityCameraIsWired;
-    int _continuityCameraClientDeviceClass;
-    _Bool _clientIsVOIP;
-    _Bool _suppressVideoEffects;
-    _Bool _useOfflineVISPipeline;
-    _Bool _smartStyleRenderingEnabled;
-    long long _smartStyleControlMode;
-    FigCaptureSmartStyle *_smartStyle;
-    _Bool _isAudioOnlyRecordingSession;
-    NSArray *_connectionConfigurationsToBuild;
-    NSArray *_parsedCameraSourceConfigurations;
-    FigCaptureSessionParsedMicSourceConfiguration *_parsedMicSourceConfiguration;
-    NSArray *_metadataSourceConfigurations;
-    NSArray *_parsedPreviewSinkConfigurations;
-    NSArray *_videoThumbnailSinkConfigurations;
-    NSArray *_parsedStillImageSinkConfigurations;
-    NSArray *_parsedVideoDataSinkConfigurations;
-    NSArray *_parsedVisionDataSinkConfigurations;
-    NSArray *_parsedDepthDataSinkConfigurations;
-    NSArray *_parsedMetadataSinkConfigurations;
-    NSArray *_parsedMovieFileSinkConfigurations;
-    NSArray *_audioFileSinkConnectionConfigurations;
-    NSArray *_audioDataSinkConnectionConfigurations;
-    NSArray *_pointCloudDataSinkConnectionConfigurations;
-    NSArray *_cameraCalibrationDataSinkConnectionConfigurations;
-    NSArray *_parsedLiDARDepthPipelineConfigurations;
-    NSArray *_parsedCinematographyConfigurations;
 }
 
-+ (void)stedAutoFocusSupported;
++ (void)TimeOfFlightAssistedAutoFocusSupported;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)Timing;
+- (id)-width;
 - (_Bool);
 - (id);
 - (id);
@@ -56,13 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)WPObjectDiscoveryDelegate>",W,N,V_delegate;
 - (id);
 - (int);
 - (id);
@@ -73,35 +43,7 @@
 - (_Bool)yzpMw1wVxJcPw8/Library/Caches/com.apple.xbs/TemporaryDirectory.AUzpBv/Sources/CameraCapture/CMCapture/Sources/Graph/Nodes/BWStillImageCoordinatorNode.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *audioDataSinkConnectionConfigurations; // @synthesize audioDataSinkConnectionConfigurations=_audioDataSinkConnectionConfigurations;
-@property(readonly, nonatomic) NSArray *audioFileSinkConnectionConfigurations; // @synthesize audioFileSinkConnectionConfigurations=_audioFileSinkConnectionConfigurations;
-@property(readonly, nonatomic, getter=isAudioOnlyRecordingSession) _Bool audioOnlyRecordingSession; // @synthesize audioOnlyRecordingSession=_isAudioOnlyRecordingSession;
-@property(readonly, nonatomic) NSArray *cameraCalibrationDataSinkConnectionConfigurations; // @synthesize cameraCalibrationDataSinkConnectionConfigurations=_cameraCalibrationDataSinkConnectionConfigurations;
-@property(readonly, nonatomic) _Bool clientIsVOIP; // @synthesize clientIsVOIP=_clientIsVOIP;
-@property(readonly, nonatomic) NSArray *connectionConfigurationsToBuild; // @synthesize connectionConfigurationsToBuild=_connectionConfigurationsToBuild;
-@property(readonly, nonatomic) int continuityCameraClientDeviceClass; // @synthesize continuityCameraClientDeviceClass=_continuityCameraClientDeviceClass;
-@property(readonly, nonatomic) _Bool continuityCameraIsWired; // @synthesize continuityCameraIsWired=_continuityCameraIsWired;
 @property(readonly, nonatomic) _Bool empty; // @synthesize empty=_empty;
-@property(readonly, nonatomic) NSArray *metadataSourceConfigurations; // @synthesize metadataSourceConfigurations=_metadataSourceConfigurations;
-@property(readonly, nonatomic, getter=isMultiCamSession) _Bool multiCamSession; // @synthesize multiCamSession=_isMultiCamSession;
-@property(readonly, nonatomic) NSArray *parsedCameraSourceConfigurations; // @synthesize parsedCameraSourceConfigurations=_parsedCameraSourceConfigurations;
-@property(readonly, nonatomic) NSArray *parsedCinematographyConfigurations; // @synthesize parsedCinematographyConfigurations=_parsedCinematographyConfigurations;
-@property(readonly, nonatomic) NSArray *parsedDepthDataSinkConfigurations; // @synthesize parsedDepthDataSinkConfigurations=_parsedDepthDataSinkConfigurations;
-@property(readonly, nonatomic) NSArray *parsedLiDARDepthPipelineConfigurations; // @synthesize parsedLiDARDepthPipelineConfigurations=_parsedLiDARDepthPipelineConfigurations;
-@property(readonly, nonatomic) NSArray *parsedMetadataSinkConfigurations; // @synthesize parsedMetadataSinkConfigurations=_parsedMetadataSinkConfigurations;
-@property(readonly, nonatomic) FigCaptureSessionParsedMicSourceConfiguration *parsedMicSourceConfiguration; // @synthesize parsedMicSourceConfiguration=_parsedMicSourceConfiguration;
-@property(readonly, nonatomic) NSArray *parsedMovieFileSinkConfigurations; // @synthesize parsedMovieFileSinkConfigurations=_parsedMovieFileSinkConfigurations;
-@property(readonly, nonatomic) NSArray *parsedPreviewSinkConfigurations; // @synthesize parsedPreviewSinkConfigurations=_parsedPreviewSinkConfigurations;
-@property(readonly, nonatomic) NSArray *parsedStillImageSinkConfigurations; // @synthesize parsedStillImageSinkConfigurations=_parsedStillImageSinkConfigurations;
-@property(readonly, nonatomic) NSArray *parsedVideoDataSinkConfigurations; // @synthesize parsedVideoDataSinkConfigurations=_parsedVideoDataSinkConfigurations;
-@property(readonly, nonatomic) NSArray *parsedVisionDataSinkConfigurations; // @synthesize parsedVisionDataSinkConfigurations=_parsedVisionDataSinkConfigurations;
-@property(readonly, nonatomic) NSArray *pointCloudDataSinkConnectionConfigurations; // @synthesize pointCloudDataSinkConnectionConfigurations=_pointCloudDataSinkConnectionConfigurations;
-@property(readonly, nonatomic) FigCaptureSmartStyle *smartStyle; // @synthesize smartStyle=_smartStyle;
-@property(readonly, nonatomic) long long smartStyleControlMode; // @synthesize smartStyleControlMode=_smartStyleControlMode;
-@property(readonly, nonatomic) _Bool smartStyleRenderingEnabled; // @synthesize smartStyleRenderingEnabled=_smartStyleRenderingEnabled;
-@property(readonly, nonatomic) _Bool suppressVideoEffects; // @synthesize suppressVideoEffects=_suppressVideoEffects;
-@property(readonly, nonatomic) _Bool useOfflineVISPipeline; // @synthesize useOfflineVISPipeline=_useOfflineVISPipeline;
-@property(readonly, nonatomic) NSArray *videoThumbnailSinkConfigurations; // @synthesize videoThumbnailSinkConfigurations=_videoThumbnailSinkConfigurations;
 
 @end
 

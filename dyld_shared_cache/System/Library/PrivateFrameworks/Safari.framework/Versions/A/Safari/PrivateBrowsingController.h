@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSDispatchSourceTimer;
-
 __attribute__((visibility("hidden")))
 @interface PrivateBrowsingController
 {
     _Bool _shouldBeLockedIfPossible;
-    _Bool _privateBrowsingRequiresAuthentication;
-    _Bool _isPasscodeAuthenticationAvailable;
-    WBSDispatchSourceTimer *_backgroundLockTimer;
-    id _keybagLockStatusChangeObserver;
-    _Bool _canRequireAuthenticationForPrivateBrowsing;
-    _Bool _locked;
 }
 
-+ (id);
++ (id)removeObserver:forContainerType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -37,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canRequireAuthenticationForPrivateBrowsing; // @synthesize canRequireAuthenticationForPrivateBrowsing=_canRequireAuthenticationForPrivateBrowsing;
 @property(readonly, nonatomic, getter=isEnabledInAnyWindow) _Bool enabledInAnyWindow;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(nonatomic) _Bool privateBrowsingRequiresAuthentication;
 
 @end
 

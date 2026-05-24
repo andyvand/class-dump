@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLAnimatedScalarArray, NSArray;
+@class NSArray;
 
 @protocol MDLMorphDeformerComponent
+- (NSArray *);
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *shapeSetTargetCounts;
-@property(readonly, nonatomic) NSArray *shapeSetTargetWeights;
 @property(readonly, nonatomic) NSArray *targetShapes;
-@property(readonly, nonatomic) MDLAnimatedScalarArray *weights;
 @end
 

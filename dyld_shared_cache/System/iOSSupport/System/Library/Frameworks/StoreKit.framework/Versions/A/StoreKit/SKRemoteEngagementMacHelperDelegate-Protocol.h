@@ -5,5 +5,6 @@
 //
 
 @protocol SKRemoteEngagementMacHelperDelegate
+- (void)ion ADD COLUMN is_system_client INTEGER NOT NULL DEFAULT(0) CHECK (is_system_client IN (0, 1));
 @end
 

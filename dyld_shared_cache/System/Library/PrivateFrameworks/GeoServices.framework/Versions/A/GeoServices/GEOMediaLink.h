@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEOMediaLink
 {
     int _mediaType;
-    int _mediaSubType;
-    NSString *_adamID;
-    NSArray *_thirdPartyLinks;
-    long long _relatedCollectionItemIndex;
-    unsigned long long _position;
 }
 
-+ (id);
++ (id)ogressiveForkJoin(%@);
 - (long long);
 - (id);
-- (id);
+- (id)primitiveRemoveObjectForKey: /* Error: Ran out of types for this method. */;
 - (int);
 - (int);
-- (unsigned long long);
+- (unsigned long long)",W,N,V_delegate;
 - (void)|2;
 - (id)6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *adamID; // @synthesize adamID=_adamID;
-@property(readonly, nonatomic) int mediaSubType; // @synthesize mediaSubType=_mediaSubType;
-@property(readonly, nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) unsigned long long position; // @synthesize position=_position;
-@property(readonly, nonatomic) long long relatedCollectionItemIndex; // @synthesize relatedCollectionItemIndex=_relatedCollectionItemIndex;
-@property(readonly, nonatomic) NSArray *thirdPartyLinks; // @synthesize thirdPartyLinks=_thirdPartyLinks;
 
 @end
 

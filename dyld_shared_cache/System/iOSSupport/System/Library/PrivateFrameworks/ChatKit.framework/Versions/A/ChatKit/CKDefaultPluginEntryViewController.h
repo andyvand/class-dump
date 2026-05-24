@@ -4,53 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBalloonView, IMBalloonPlugin, IMBalloonPluginDataSource, NSString, UIContextMenuInteraction;
-@protocol CKPluginEntryViewControllerDelegate, CKTranscriptBalloonPluginController;
+@class IMBalloonPluginDataSource;
 
 @interface CKDefaultPluginEntryViewController
 {
     _Bool _showsBalloonTail;
-    id <CKTranscriptBalloonPluginController> _pluginBubbleViewController;
-    IMBalloonPluginDataSource *_datasource;
-    CKBalloonView *_balloonView;
-    IMBalloonPlugin *_plugin;
-    UIContextMenuInteraction *_contextMenuInteraction;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)containsOnlyStyle:inRange:inTextStorage: /* Error: Ran out of types for this method. */;
+- (_Bool)containsAttachmentsInRange: /* Error: Ran out of types for this method. */;
+- (void)attachmentActivityItemsForSharing;
+- (void)analyticsSessionWillEnd:(id)arg1;
+- (_Bool)iew;
+- (void)ICInlineDrawingChangeCoalescer;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)opCGAFGGSo6ICNoteCG;
 - (void);
 - (void);
+- (void);
+- (_Bool)d;
 - (void);
 - (id);
+- (id)s;
+- (id)s;
+- (void)ing share %@ %@:(_Bool)arg1 %@;
+- (void)tline.controller.update;
+- (void)mbnails;
 - (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)9p;
 - (void);
 - (struct CGSize);
 - (void);
@@ -64,35 +58,7 @@
 - (id)EntryViewPlusButton;
 
 // Remaining properties
-@property(retain, nonatomic) CKBalloonView *balloonView; // @synthesize balloonView=_balloonView;
-@property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
 @property(retain, nonatomic) IMBalloonPluginDataSource *datasource; // @synthesize datasource=_datasource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <CKPluginEntryViewControllerDelegate> entryViewDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<CKPluginEntryViewControllerDelegate>",?,W,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool loadedContentView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(retain, nonatomic) IMBalloonPlugin *plugin; // @synthesize plugin=_plugin;
-@property(retain, nonatomic) id <CKTranscriptBalloonPluginController> pluginBubbleViewController; // @synthesize pluginBubbleViewController=_pluginBubbleViewController;
-@property(nonatomic) _Bool showsBalloonTail; // @synthesize showsBalloonTail=_showsBalloonTail;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsClearButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool wantsEdgeToEdgeLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

@@ -7,10 +7,6 @@
 @interface _DPPINEParameter
 {
     long long fractionalBitCount;
-    float l2NormBound;
-    long long numOfProofs;
-    long long wraparoundCheckCount;
-    unsigned int pineType;
 }
 
 - (long long);
@@ -23,10 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long fractionalBitCount; // @synthesize fractionalBitCount;
-@property(nonatomic, readonly) float l2NormBound; // @synthesize l2NormBound;
-@property(nonatomic, readonly) long long numOfProofs; // @synthesize numOfProofs;
-@property(nonatomic, readonly) unsigned int pineType; // @synthesize pineType;
-@property(nonatomic, readonly) long long wraparoundCheckCount; // @synthesize wraparoundCheckCount;
 
 @end
 

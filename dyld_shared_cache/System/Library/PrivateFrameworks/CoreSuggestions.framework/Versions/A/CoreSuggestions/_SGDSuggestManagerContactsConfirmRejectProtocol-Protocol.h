@@ -5,5 +5,6 @@
 //
 
 @protocol _SGDSuggestManagerContactsConfirmRejectProtocol
+- (void)3;
 @end
 

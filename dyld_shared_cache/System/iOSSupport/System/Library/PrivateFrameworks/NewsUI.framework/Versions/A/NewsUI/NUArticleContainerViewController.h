@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUPageViewController;
-@protocol NUArticleContainerViewControllerDelegate, NUPaging, NUPagingFactory, NURouter;
+@class NUPageViewController;
 
 @interface NUArticleContainerViewController
 {
     _Bool _linkPreviewing;
-    id <NUArticleContainerViewControllerDelegate> _delegate;
-    NUPageViewController *_pageViewController;
-    id <NUPagingFactory> _pagingFactory;
-    id <NUPaging> _paging;
-    id <NURouter> _router;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -36,27 +30,14 @@
 - (void);
 - (id);
 - (struct UIEdgeInsets);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NUArticleContainerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLinkPreviewing) _Bool linkPreviewing; // @synthesize linkPreviewing=_linkPreviewing;
-@property(readonly, nonatomic) struct UIEdgeInsets overrideSafeAreaInsets;
 @property(readonly, nonatomic) NUPageViewController *pageViewController; // @synthesize pageViewController=_pageViewController;
-@property(retain, nonatomic) id <NUPaging> paging; // @synthesize paging=_paging;
-@property(readonly, nonatomic) id <NUPagingFactory> pagingFactory; // @synthesize pagingFactory=_pagingFactory;
-@property(readonly, nonatomic) id <NURouter> router; // @synthesize router=_router;
-@property(readonly) Class superclass;
 
 @end
 

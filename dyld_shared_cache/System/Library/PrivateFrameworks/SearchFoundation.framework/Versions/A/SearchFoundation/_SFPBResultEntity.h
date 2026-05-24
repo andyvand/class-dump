@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLocationTypeInfo;
+@class NSString;
 
 @interface _SFPBResultEntity
 {
     NSString *_name;
-    NSString *_maps_encrypted_muid;
-    _SFPBLocationTypeInfo *_location_type_info;
 }
 
 - (id);
@@ -23,25 +21,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)retrieveRequiredResourcesWithOptions:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)dated metadata:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)SFPBRichTitleCardSection";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLocationTypeInfo *location_type_info; // @synthesize location_type_info=_location_type_info;
-@property(copy, nonatomic) NSString *maps_encrypted_muid; // @synthesize maps_encrypted_muid=_maps_encrypted_muid;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

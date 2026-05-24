@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIContextualAction;
+@class UIContextualAction;
 @protocol UISwipeActionPullViewDelegate;
 
 @protocol UISwipeActionPullViewCommonProtocol
+- (void);
+- (UIContextualAction *)R;
+- (struct UIEdgeInsets)16@0:8 /* Error: Ran out of types for this method. */;
+- (void)}};
+- (void)P;
 - (void)!ìAùñZ1Â0@ù
 × ;
 - (void);
 - (unsigned long long)1Â0@ù
 × ;
-- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool autosizesButtons;
-@property(copy, nonatomic) UIColor *backgroundPullColor;
-@property(nonatomic) _Bool buttonsUnderlapSwipedView;
-@property(readonly, nonatomic) unsigned long long cellEdge;
-@property(readonly, nonatomic) double confirmationThreshold;
-@property(nonatomic) struct UIEdgeInsets contentInsets;
 @property(nonatomic) __weak id <UISwipeActionPullViewDelegate> delegate;
-@property(nonatomic) struct UIEdgeInsets extraInsets;
-@property(readonly, nonatomic) double openThreshold;
-@property(nonatomic) _Bool primaryActionCanBeTriggeredBySwipe;
-@property(readonly, nonatomic) _Bool primaryActionIsDestructive;
-@property(readonly, nonatomic) UIContextualAction *primarySwipeAction;
-@property(nonatomic) struct UIEdgeInsets pullViewInsets;
-@property(nonatomic) unsigned long long state;
 @end
 

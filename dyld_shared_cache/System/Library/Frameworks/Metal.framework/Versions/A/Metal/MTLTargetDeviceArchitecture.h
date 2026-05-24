@@ -7,28 +7,21 @@
 @interface MTLTargetDeviceArchitecture
 {
     unsigned int _cpuType;
-    unsigned int _subType;
-    struct MTLTargetDeviceArchVersion _version;
-    unsigned long long _driverVersion;
 }
 
 - (unsigned long long);
-- (struct MTLTargetDeviceArchVersion);
+- (struct MTLTargetDeviceArchVersion)k!;
 - (void);
 - (id);
 - (unsigned int);
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)";
 - (unsigned int);
 
 // Remaining properties
 @property(nonatomic) unsigned int cpuType; // @synthesize cpuType=_cpuType;
-@property(nonatomic) unsigned long long driverVersion; // @synthesize driverVersion=_driverVersion;
-@property(nonatomic) unsigned int subType; // @synthesize subType=_subType;
-@property(nonatomic) struct MTLTargetDeviceArchVersion version; // @synthesize version=_version;
-@property(readonly) unsigned int versionCombined;
 
 @end
 

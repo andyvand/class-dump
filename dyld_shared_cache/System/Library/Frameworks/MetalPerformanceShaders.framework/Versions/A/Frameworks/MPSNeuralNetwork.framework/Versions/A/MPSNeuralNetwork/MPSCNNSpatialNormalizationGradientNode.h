@@ -9,15 +9,11 @@
 @interface MPSCNNSpatialNormalizationGradientNode : MPSNNGradientFilterNode
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    float _alpha;
-    float _beta;
-    float _delta;
 }
 
 + (id);
 - (void);
-- (void *);
+- (void *)j;
 - (id);
 - (id);
 - (float);
@@ -31,10 +27,6 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float beta; // @synthesize beta=_beta;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end

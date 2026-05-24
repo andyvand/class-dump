@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)setCreditsArtist: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ÐCÈD<E;
 - (void)v^X¤l;

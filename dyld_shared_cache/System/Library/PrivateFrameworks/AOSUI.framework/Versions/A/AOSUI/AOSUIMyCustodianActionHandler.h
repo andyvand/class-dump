@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AALocalContactInfo, AIDAAccountManager, AKBiometricRatchetController, NSString, NSWindow;
+@class AIDAAccountManager, AKBiometricRatchetController;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIMyCustodianActionHandler
 {
     AKBiometricRatchetController *_bioRatchetController;
-    AALocalContactInfo *_contactInfo;
-    AIDAAccountManager *_accountManager;
-    NSWindow *_modalWindow;
 }
 
 - (id);
@@ -26,21 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)¡ò°!p@ùQY1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) AIDAAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(readonly) AALocalContactInfo *contactInfo; // @synthesize contactInfo=_contactInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property(readonly) Class superclass;
 
 @end
 

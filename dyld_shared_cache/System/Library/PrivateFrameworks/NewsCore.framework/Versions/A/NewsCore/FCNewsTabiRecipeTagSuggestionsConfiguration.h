@@ -6,13 +6,11 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiRecipeEventAggregationConfiguration, FCNewsTabiRecipeTagSuggestionsOutputConfiguration;
+@class FCNewsTabiRecipeTagSuggestionsOutputConfiguration;
 
 @interface FCNewsTabiRecipeTagSuggestionsConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiRecipeTagSuggestionsOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiRecipeTagSuggestionsOutputConfiguration *_nonBundleOutputConfiguration;
-    FCNewsTabiRecipeEventAggregationConfiguration *_eventAggregationConfiguration;
 }
 
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCNewsTabiRecipeTagSuggestionsOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeEventAggregationConfiguration *eventAggregationConfiguration; // @synthesize eventAggregationConfiguration=_eventAggregationConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecipeTagSuggestionsOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

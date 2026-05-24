@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSIndexSet;
+@class NSDictionary;
 
 @interface IMDMessageRecordExporterState
 {
     NSDictionary *_batchIterationKeys;
-    NSIndexSet *_prematureExportSuppressions;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_alternateButtonTitle;
 - (void);
-- (void)stModification;
+- (void)notSyncedSinceLastModification;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *batchIterationKeys; // @synthesize batchIterationKeys=_batchIterationKeys;
-@property(readonly, nonatomic) NSIndexSet *prematureExportSuppressions; // @synthesize prematureExportSuppressions=_prematureExportSuppressions;
 
 @end
 

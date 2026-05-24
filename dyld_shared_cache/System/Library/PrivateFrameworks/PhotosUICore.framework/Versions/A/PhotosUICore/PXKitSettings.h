@@ -9,28 +9,9 @@
 @interface PXKitSettings : PXSettings
 {
     _Bool _honorSilentMode;
-    _Bool _simulateSilentMode;
-    _Bool _defaultAsyncTextRenderingEnabled;
-    _Bool _defaultTextAutoscalingEnabled;
-    _Bool _defaultTextTruncationEnabled;
-    _Bool _allowCapitalization;
-    _Bool _useFancyDarkening;
-    _Bool _simulateDroppedFramesDuringPPT;
-    double _downGesturesAngularToleranceInDegrees;
-    double _upGesturesAngularToleranceInDegrees;
-    double _horizontalGesturesAngularToleranceInDegrees;
-    double _uncontestedGesturesAngularToleranceInDegrees;
-    double _smallestSignificantScrollVelocity;
-    long long _defaultLabelTypesettingMode;
-    double _defaultTextMinimumScaleFactor;
-    double _defaultTruncatedTextMinimumScaleFactor;
-    long long _deviceGraphicsQuality;
-    double _simulatedDroppedFramesDurationInMilliseconds;
-    long long _simulatedDroppedFramesPeriod;
-    double _viewResetTimeoutDuration;
 }
 
-+ (id);
++ (id)et",&,N,V_snapLines;
 + (id)s: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
@@ -40,12 +21,12 @@
 - (long long);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!Ț;
 - (void);
 - (void);
 - (void);
@@ -76,26 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowCapitalization; // @synthesize allowCapitalization=_allowCapitalization;
-@property(nonatomic) _Bool defaultAsyncTextRenderingEnabled; // @synthesize defaultAsyncTextRenderingEnabled=_defaultAsyncTextRenderingEnabled;
-@property(nonatomic) long long defaultLabelTypesettingMode; // @synthesize defaultLabelTypesettingMode=_defaultLabelTypesettingMode;
-@property(nonatomic) _Bool defaultTextAutoscalingEnabled; // @synthesize defaultTextAutoscalingEnabled=_defaultTextAutoscalingEnabled;
-@property(nonatomic) double defaultTextMinimumScaleFactor; // @synthesize defaultTextMinimumScaleFactor=_defaultTextMinimumScaleFactor;
-@property(nonatomic) _Bool defaultTextTruncationEnabled; // @synthesize defaultTextTruncationEnabled=_defaultTextTruncationEnabled;
-@property(nonatomic) double defaultTruncatedTextMinimumScaleFactor; // @synthesize defaultTruncatedTextMinimumScaleFactor=_defaultTruncatedTextMinimumScaleFactor;
-@property(nonatomic) long long deviceGraphicsQuality; // @synthesize deviceGraphicsQuality=_deviceGraphicsQuality;
 @property(nonatomic) double downGesturesAngularToleranceInDegrees; // @synthesize downGesturesAngularToleranceInDegrees=_downGesturesAngularToleranceInDegrees;
-@property(nonatomic) _Bool honorSilentMode; // @synthesize honorSilentMode=_honorSilentMode;
-@property(nonatomic) double horizontalGesturesAngularToleranceInDegrees; // @synthesize horizontalGesturesAngularToleranceInDegrees=_horizontalGesturesAngularToleranceInDegrees;
-@property(nonatomic) _Bool simulateDroppedFramesDuringPPT; // @synthesize simulateDroppedFramesDuringPPT=_simulateDroppedFramesDuringPPT;
-@property(nonatomic) _Bool simulateSilentMode; // @synthesize simulateSilentMode=_simulateSilentMode;
-@property(nonatomic) double simulatedDroppedFramesDurationInMilliseconds; // @synthesize simulatedDroppedFramesDurationInMilliseconds=_simulatedDroppedFramesDurationInMilliseconds;
-@property(nonatomic) long long simulatedDroppedFramesPeriod; // @synthesize simulatedDroppedFramesPeriod=_simulatedDroppedFramesPeriod;
-@property(nonatomic) double smallestSignificantScrollVelocity; // @synthesize smallestSignificantScrollVelocity=_smallestSignificantScrollVelocity;
-@property(nonatomic) double uncontestedGesturesAngularToleranceInDegrees; // @synthesize uncontestedGesturesAngularToleranceInDegrees=_uncontestedGesturesAngularToleranceInDegrees;
-@property(nonatomic) double upGesturesAngularToleranceInDegrees; // @synthesize upGesturesAngularToleranceInDegrees=_upGesturesAngularToleranceInDegrees;
-@property(nonatomic) _Bool useFancyDarkening; // @synthesize useFancyDarkening=_useFancyDarkening;
-@property(nonatomic) double viewResetTimeoutDuration; // @synthesize viewResetTimeoutDuration=_viewResetTimeoutDuration;
 
 @end
 

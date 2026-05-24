@@ -7,10 +7,9 @@
 @interface RemindersUICore.TTRMReminderDetailRootView
 {
     id overriddenUndoManager;
-    id hostScreenChangeHandler;
 }
 
-- (id);
+- (id)setGeneralChannelSuggestionsScoreOutputName:(_Bool)arg1;
 - (id);
 - (void);
 - (id);

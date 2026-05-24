@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow, _SKUIPaymentSheetViewController;
+@class _SKUIPaymentSheetViewController;
 
 @interface SKUIPaymentSheetController
 {
     _SKUIPaymentSheetViewController *_viewController;
-    NSWindow *_window;
 }
 
-+ (void);
-- (id);
++ (void)@;
+- (id)RB;
 - (void);
 - (void);
 - (void);

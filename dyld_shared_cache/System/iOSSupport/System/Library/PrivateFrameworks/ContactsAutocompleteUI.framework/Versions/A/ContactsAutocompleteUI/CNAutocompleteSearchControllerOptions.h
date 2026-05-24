@@ -9,38 +9,26 @@
 @interface CNAutocompleteSearchControllerOptions
 {
     NSNumber *_trailingButtonMidlineInsetFromLayoutMargin;
-    NSNumber *_labelTopPadding;
-    NSNumber *_labelLeadingPadding;
-    NSNumber *_shouldHideSeparator;
-    NSNumber *_shouldAlwaysShowAddContactsButton;
-    NSNumber *_showGlassBackground;
-    long long _addressableGroupResultStyle;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)readFromURL:error: /* Error: Ran out of types for this method. */;
+- (void)presentationController;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long addressableGroupResultStyle; // @synthesize addressableGroupResultStyle=_addressableGroupResultStyle;
-@property(retain, nonatomic) NSNumber *labelLeadingPadding; // @synthesize labelLeadingPadding=_labelLeadingPadding;
-@property(retain, nonatomic) NSNumber *labelTopPadding; // @synthesize labelTopPadding=_labelTopPadding;
-@property(retain, nonatomic) NSNumber *shouldAlwaysShowAddContactsButton; // @synthesize shouldAlwaysShowAddContactsButton=_shouldAlwaysShowAddContactsButton;
-@property(retain, nonatomic) NSNumber *shouldHideSeparator; // @synthesize shouldHideSeparator=_shouldHideSeparator;
-@property(retain, nonatomic) NSNumber *showGlassBackground; // @synthesize showGlassBackground=_showGlassBackground;
 @property(retain, nonatomic) NSNumber *trailingButtonMidlineInsetFromLayoutMargin; // @synthesize trailingButtonMidlineInsetFromLayoutMargin=_trailingButtonMidlineInsetFromLayoutMargin;
 
 @end

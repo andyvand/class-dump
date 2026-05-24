@@ -6,36 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID;
-
 @interface ORCHSchemaORCHMUXRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _isMultiUser;
-    unsigned int _nlRerunTimeInMs;
-    NSArray *_userScores;
-    int _ORCHUserIdentityClassification;
-    _Bool _isOutsider;
-    NSString *_voiceIdAssetVersion;
-    _Bool _isSelectedUserPartOfMultipleHomes;
-    NSString *_selectedSharedUserId;
-    unsigned long long _nlRerunLatencyInMs;
-    SISchemaUUID *_selectedUserEphemeralId;
-    NSString *_selectedloggableUserIdHash;
-    NSArray *_voiceIdScores;
-    int _voiceIdClassification;
-    struct {
-        unsigned int isMultiUser:1;
-        unsigned int nlRerunTimeInMs:1;
-        unsigned int ORCHUserIdentityClassification:1;
-        unsigned int isOutsider:1;
-        unsigned int isSelectedUserPartOfMultipleHomes:1;
-        unsigned int nlRerunLatencyInMs:1;
-        unsigned int voiceIdClassification:1;
-    } _has;
-    _Bool _hasVoiceIdAssetVersion;
-    _Bool _hasSelectedSharedUserId;
-    _Bool _hasSelectedUserEphemeralId;
-    _Bool _hasSelectedloggableUserIdHash;
 }
 
 - (unsigned long long);
@@ -55,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,6 +59,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,8 +68,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -111,41 +84,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)%@;
+- (_Bool);
 - (id);
 - (id)!¤@ùÞ1Â0@ù
 × ;
-- (id);
+- (id)_clientApplicationId;
 - (id)xt",&,N,V_preprocessorExecutionContext;
 - (void)tom.bundleId;
 
 // Remaining properties
-@property(nonatomic) int ORCHUserIdentityClassification; // @synthesize ORCHUserIdentityClassification=_ORCHUserIdentityClassification;
-@property(nonatomic) _Bool hasIsMultiUser;
-@property(nonatomic) _Bool hasIsOutsider;
-@property(nonatomic) _Bool hasIsSelectedUserPartOfMultipleHomes;
-@property(nonatomic) _Bool hasNlRerunLatencyInMs;
-@property(nonatomic) _Bool hasNlRerunTimeInMs;
-@property(nonatomic) _Bool hasORCHUserIdentityClassification;
-@property(nonatomic) _Bool hasSelectedSharedUserId; // @synthesize hasSelectedSharedUserId=_hasSelectedSharedUserId;
-@property(nonatomic) _Bool hasSelectedUserEphemeralId; // @synthesize hasSelectedUserEphemeralId=_hasSelectedUserEphemeralId;
-@property(nonatomic) _Bool hasSelectedloggableUserIdHash; // @synthesize hasSelectedloggableUserIdHash=_hasSelectedloggableUserIdHash;
-@property(nonatomic) _Bool hasVoiceIdAssetVersion; // @synthesize hasVoiceIdAssetVersion=_hasVoiceIdAssetVersion;
-@property(nonatomic) _Bool hasVoiceIdClassification;
 @property(nonatomic) _Bool isMultiUser; // @synthesize isMultiUser=_isMultiUser;
-@property(nonatomic) _Bool isOutsider; // @synthesize isOutsider=_isOutsider;
-@property(nonatomic) _Bool isSelectedUserPartOfMultipleHomes; // @synthesize isSelectedUserPartOfMultipleHomes=_isSelectedUserPartOfMultipleHomes;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long nlRerunLatencyInMs; // @synthesize nlRerunLatencyInMs=_nlRerunLatencyInMs;
-@property(nonatomic) unsigned int nlRerunTimeInMs; // @synthesize nlRerunTimeInMs=_nlRerunTimeInMs;
-@property(copy, nonatomic) NSString *selectedSharedUserId; // @synthesize selectedSharedUserId=_selectedSharedUserId;
-@property(retain, nonatomic) SISchemaUUID *selectedUserEphemeralId; // @synthesize selectedUserEphemeralId=_selectedUserEphemeralId;
-@property(copy, nonatomic) NSString *selectedloggableUserIdHash; // @synthesize selectedloggableUserIdHash=_selectedloggableUserIdHash;
-@property(copy, nonatomic) NSArray *userScores; // @synthesize userScores=_userScores;
-@property(copy, nonatomic) NSString *voiceIdAssetVersion; // @synthesize voiceIdAssetVersion=_voiceIdAssetVersion;
-@property(nonatomic) int voiceIdClassification; // @synthesize voiceIdClassification=_voiceIdClassification;
-@property(copy, nonatomic) NSArray *voiceIdScores; // @synthesize voiceIdScores=_voiceIdScores;
 
 @end
 

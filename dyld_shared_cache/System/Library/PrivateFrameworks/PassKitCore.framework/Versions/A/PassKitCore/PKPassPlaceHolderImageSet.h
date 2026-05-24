@@ -6,17 +6,15 @@
 
 #import <PassKitCore/PKPassImageSet.h>
 
-@class PKColor, PKImage;
+@class PKImage;
 
 @interface PKPassPlaceHolderImageSet : PKPassImageSet
 {
     PKImage *_placeHolderImage;
-    PKColor *_placeHolderImageAverageColor;
-    struct CGRect _logoRect;
 }
 
 + (long long);
-+ (id);
++ (id);
 + (_Bool)!Aùqî%ð1Â0@ù
 × ;
 + (unsigned int)i¨";
@@ -27,18 +25,16 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void)E_TITLE;
+- (_Bool)setHasFwTxPerSign:(id)arg1;
+- (void)selfPeerRssi24G;
+- (void)CARKEY_CANNOT_SHARE_TITLE;
 
 // Remaining properties
-@property(nonatomic) struct CGRect logoRect; // @synthesize logoRect=_logoRect;
 @property(retain, nonatomic) PKImage *placeHolderImage; // @synthesize placeHolderImage=_placeHolderImage;
-@property(retain, nonatomic) PKColor *placeHolderImageAverageColor; // @synthesize placeHolderImageAverageColor=_placeHolderImageAverageColor;
 
 @end
 

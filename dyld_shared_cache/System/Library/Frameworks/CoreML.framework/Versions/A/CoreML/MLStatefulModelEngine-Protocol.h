@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MLState;
+@protocol MLFeatureProvider, MLPredictionRequest;
+
 @protocol MLStatefulModelEngine
+- (id <MLFeatureProvider>)copyMTLBVHTransformsKernel;
+- (MLState *)criptor.;
+- (id <MLPredictionRequest>)t within the range [0,1).;
 @end
 

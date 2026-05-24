@@ -6,22 +6,18 @@
 
 #import <Slideshows/MCPlug.h>
 
-@class MCContainerSerializer, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MCPlugSerial : MCPlug
 {
     NSMutableDictionary *mTransitionAttributes;
-    unsigned long long mIndex;
-    NSString *mTransitionID;
-    double mTransitionDuration;
-    MCContainerSerializer *mSupercontainer;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadUploader.m;
+- (id)yloadUploader init];
+- (id)alue for '%s';
+- (id)toreDirectoryFileURL:URLSessionQueue:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -39,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=mIndex;
-@property MCContainerSerializer *supercontainer; // @synthesize supercontainer=mSupercontainer;
-@property(copy, nonatomic) NSDictionary *transitionAttributes;
-@property(nonatomic) double transitionDuration; // @synthesize transitionDuration=mTransitionDuration;
-@property(copy) NSString *transitionID; // @synthesize transitionID=mTransitionID;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)al target time:(id)arg1;
 
 @end
 

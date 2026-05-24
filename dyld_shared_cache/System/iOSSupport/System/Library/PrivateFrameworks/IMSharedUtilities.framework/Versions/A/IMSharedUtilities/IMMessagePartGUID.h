@@ -9,10 +9,6 @@
 @interface IMMessagePartGUID
 {
     NSString *_prefix;
-    unsigned long long _partNumber;
-    NSString *_messageGUID;
-    NSString *_encodedMessagePartGUID;
-    struct IMMessagePartRanges _ranges;
 }
 
 + (id);
@@ -21,13 +17,13 @@
 - (struct _NSRange);
 - (unsigned long long);
 - (struct _NSRange);
-- (id);
+- (id)e( `;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (id);
 - (id);
@@ -36,17 +32,10 @@
 - (void);
 - (id);
 - (id);
-- (struct IMMessagePartRanges)onalSubscriptionWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)gArchiveOnly;
+- (struct IMMessagePartRanges)_personalSubscriptionWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)logArchiveOnly;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *encodedMessagePartGUID; // @synthesize encodedMessagePartGUID=_encodedMessagePartGUID;
-@property(readonly, copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(readonly, nonatomic) struct _NSRange messageGUIDRange;
-@property(readonly, nonatomic) unsigned long long partNumber; // @synthesize partNumber=_partNumber;
-@property(readonly, nonatomic) struct _NSRange partNumberRange;
-@property(readonly, copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, nonatomic) struct _NSRange prefixRange;
 @property(readonly, nonatomic) struct IMMessagePartRanges ranges; // @synthesize ranges=_ranges;
 
 @end

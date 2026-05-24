@@ -10,6 +10,7 @@
 
 + (unsigned long long);
 + (unsigned long long);
++ (unsigned long long)F;
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
@@ -19,8 +20,7 @@
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 
 @end

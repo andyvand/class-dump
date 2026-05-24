@@ -7,11 +7,10 @@
 @interface LFMachPortWrapper
 {
     long long _type;
-    unsigned int _machPort;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (id);
 - (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int machPort; // @synthesize machPort=_machPort;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

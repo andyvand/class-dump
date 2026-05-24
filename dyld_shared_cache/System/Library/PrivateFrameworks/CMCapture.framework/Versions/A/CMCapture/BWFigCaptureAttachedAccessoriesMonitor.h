@@ -17,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool batteryPackAccessoryConnected;
 @property(readonly, nonatomic) _Bool walletAccessoryConnected;
 
 @end

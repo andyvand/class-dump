@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRRemoteArtwork, NSData, NSString;
+@class MRRemoteArtwork;
 
 @interface MPNowPlayingContentItemRemoteArtwork
 {
     MRRemoteArtwork *_mediaRemoteRemoteArtwork;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void)uteID: /* Error: Ran out of types for this method. */;
+- (_Bool)_dragAlignmentGuideController;
+- (void)_homeAccesssoryWithRouteID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkURLString;
-@property(readonly, nonatomic) NSData *artworkURLTemplateData;
 @property(readonly, nonatomic) MRRemoteArtwork *mediaRemoteRemoteArtwork; // @synthesize mediaRemoteRemoteArtwork=_mediaRemoteRemoteArtwork;
 
 @end

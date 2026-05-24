@@ -9,9 +9,6 @@
 @interface AppStoreKit.StorefrontPickerPagePresenter : AppStoreKit.BasePresenter
 {
     id platform;
-    id view;
-    id selectedCountry;
-    id selectedLanguageId;
 }
 
 @end

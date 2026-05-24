@@ -9,22 +9,20 @@
 @interface FigCameraCalibrationDataCaptureConnectionConfiguration : FigCaptureConnectionConfiguration
 {
     _Bool _mirroringEnabled;
-    int _rotationDegrees;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id)rrayIntermediate;
+- (id)BWDeferredArrayIntermediate;
 - (id);
 - (_Bool);
 - (int)RequestClass(void)_block_invoke;
-- (void)tioFromSource;
-- (void)trolMode;
+- (void)digitalZoomRatioFromSource;
+- (void)cinematicFramingControlMode;
 
 // Remaining properties
 @property(nonatomic) _Bool mirroringEnabled; // @synthesize mirroringEnabled=_mirroringEnabled;
-@property(nonatomic) int rotationDegrees; // @synthesize rotationDegrees=_rotationDegrees;
 
 @end
 

@@ -7,9 +7,11 @@
 @class AFAudioPlaybackRequest;
 
 @protocol CSSiriAudioPlaybackSession
+- (void);
+- (AFAudioPlaybackRequest *)rs;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options;
 @property(readonly, nonatomic) AFAudioPlaybackRequest *request;
 @end
 

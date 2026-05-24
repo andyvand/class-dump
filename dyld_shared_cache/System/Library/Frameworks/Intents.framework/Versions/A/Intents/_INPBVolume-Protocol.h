@@ -7,11 +7,12 @@
 @class NSArray, _INPBVolumeValue;
 
 @protocol _INPBVolume
-- (void)ion:(_INPBVolumeValue *)arg1;
-- (_INPBVolumeValue *)orAddCallParticipant:(unsigned long long)arg1;
++ (Class):success
+ /* Error: Ran out of types for this method. */;
+- (void)provideScopeOptionsCollectionForSearchForFiles:(_INPBVolumeValue *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBVolumeValue *)defaultParticipantsForAddCallParticipant:(unsigned long long)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

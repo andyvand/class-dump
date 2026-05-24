@@ -6,54 +6,30 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFPhotosAlbumImage : SFImage
 {
     NSString *_albumIdentifier;
-    NSString *_applicationBundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setStationEventID:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e>",&,N,V_deleteEjectQueue;
+- (id)PHPhotosErrorDatabaseIsCorrupt;
+- (id)called with no options to load, will no op;
 - (id);
 - (void);
-- (void);
+- (void)_tableColumnAlignments;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
 @property(copy, nonatomic) NSString *albumIdentifier; // @synthesize albumIdentifier=_albumIdentifier;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

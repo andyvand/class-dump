@@ -9,42 +9,35 @@
 @interface GEOTrafficCameraInformation
 {
     NSString *_cameraIdentifier;
-    int _cameraType;
-    struct {
-        unsigned int has_cameraType:1;
-    } _flags;
 }
 
-+ (_Bool)MerchantName:(id)arg1;
++ (_Bool)setMerchantName:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)initWithInteger: /* Error: Ran out of types for this method. */;
+- (_Bool)ifier:providerMetadata: /* Error: Ran out of types for this method. */;
+- (id)ath:(int)arg1 %@;
 - (int);
-- (void);
+- (void)r;
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
-- (void);
+- (void)inAttendingWindow;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (void);
 - (id)aunchActionInternal"b1"has_launchAction"b1"has_isHandoff"b1"read_unknownFields"b1"read_launchUri"b1"read_referringWebsite"b1"read_sourceAppId"b1"read_sourceHandoffDevice"b1"wrote_anyField"b1};
-- (id)emSubmissionURLLegacy;
-- (id)ggerCount;
-- (id)artObservingRequest;
-- (id)hCrash;
+- (id)problemSubmissionURLLegacy;
+- (id)hasThrottleTriggerCount;
+- (id)GEOMapSubscriptionStateStartObservingRequest;
+- (id)replaceAccidentStringWithCrash;
 - (void)üÿ8aÂ[Q@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cameraIdentifier;
-@property(nonatomic) int cameraType;
 @property(readonly, nonatomic) _Bool hasCameraIdentifier;
-@property(nonatomic) _Bool hasCameraType;
 
 @end
 

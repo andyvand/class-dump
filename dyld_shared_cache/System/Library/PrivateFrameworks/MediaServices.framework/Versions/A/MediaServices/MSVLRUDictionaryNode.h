@@ -8,27 +8,21 @@ __attribute__((visibility("hidden")))
 @interface MSVLRUDictionaryNode
 {
     id _key;
-    id _object;
-    MSVLRUDictionaryNode *_next;
-    MSVLRUDictionaryNode *_prev;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)EventInvitationNotificationDefaultTitle;
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)yricsLineKey;
+- (void);
+- (id)_lyricsLineKey;
 
 // Remaining properties
 @property(readonly, nonatomic) id key; // @synthesize key=_key;
-@property(nonatomic) __weak MSVLRUDictionaryNode *next; // @synthesize next=_next;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
-@property(nonatomic) __weak MSVLRUDictionaryNode *prev; // @synthesize prev=_prev;
 
 @end
 

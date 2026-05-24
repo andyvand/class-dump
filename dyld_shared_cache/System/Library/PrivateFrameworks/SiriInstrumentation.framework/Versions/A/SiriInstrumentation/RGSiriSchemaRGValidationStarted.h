@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface RGSiriSchemaRGValidationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_validationsMobileAssetVersion;
-    CDStruct_b33ad018 _has;
-    _Bool _hasValidationsMobileAssetVersion;
 }
 
 - (id);
@@ -21,28 +16,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s/AppStoreDaemon/Stubs/ASDEphemeralRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)tionGUIDForChat:(id)arg1 Failed to create chat guid due to a null chat identifier or service.;
+- (id);
 - (id);
-- (id);
-- (id)alues;
+- (id)anonymizedHandleValues;
 - (id)N,V_firstPassScore;
-- (_Bool)stCounts;
-- (void);
+- (_Bool)requestCounts;
+- (void)IFTCANDIDATESOURCE_OMNISEARCH;
 - (_Bool)lowed.value.collection.typeIdentifier.custom.bundleId;
 - (void)Ð®Ê¾";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasValidationsMobileAssetVersion; // @synthesize hasValidationsMobileAssetVersion=_hasValidationsMobileAssetVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *validationsMobileAssetVersion; // @synthesize validationsMobileAssetVersion=_validationsMobileAssetVersion;
 
 @end
 

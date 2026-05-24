@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary, NSURL;
 
 @protocol PKBundleProxy
+- (NSDictionary *);
+- (NSURL *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier;
 @property(readonly, nonatomic) NSURL *bundleURL;
-@property(readonly, nonatomic) NSString *bundleVersion;
-@property(readonly, nonatomic) NSURL *dataContainerURL;
-@property(readonly, nonatomic) NSDictionary *entitlements;
-@property(readonly, copy, nonatomic) NSString *localizedName;
 @end
 

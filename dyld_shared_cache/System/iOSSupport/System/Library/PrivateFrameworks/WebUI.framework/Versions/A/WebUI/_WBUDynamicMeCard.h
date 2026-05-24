@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSMutableArray;
+@class NSMutableArray;
 
 @interface _WBUDynamicMeCard
 {
     NSMutableArray *_blocksPendingMeCard;
-    CNContact *_me;
-    _Bool _meCardExists;
 }
 
 + (id);
-- (id);
+- (id)ConversationEntity;
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)�C;
 - (void);
 - (id);
 

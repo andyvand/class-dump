@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)lH;
+- (id);
 - (id);
 - (int);
 - (void);
@@ -30,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds;
 @property(copy, nonatomic) NSArray *captions;
 
 @end

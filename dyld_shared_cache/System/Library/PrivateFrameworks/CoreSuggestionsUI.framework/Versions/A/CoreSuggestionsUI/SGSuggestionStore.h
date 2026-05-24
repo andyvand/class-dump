@@ -6,30 +6,25 @@
 
 #import <CoreSuggestionsUI/SGList.h>
 
-@class NSArray, NSMutableArray, NSString;
-@protocol SGSuggestionDelegate;
+@class NSArray, NSMutableArray;
 
 @interface SGSuggestionStore : SGList
 {
     NSMutableArray *_suggestions;
-    long long _notificationsLockCount;
-    _Bool _modified;
-    id <SGSuggestionDelegate> _suggestionDelegate;
-    long long _hostApp;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)arameter-0-2> WTF:(id)arg1:ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>::generate() [T = WebKit::WebExtensionPortChannelIdentifierType, ThreadSafety = WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, RawValue = unsigned long long] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -37,16 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long hostApp; // @synthesize hostApp=_hostApp;
-@property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate; // @synthesize suggestionDelegate=_suggestionDelegate;
 @property(copy, nonatomic) NSArray *suggestions;
-@property(readonly) Class superclass;
 
 @end
 

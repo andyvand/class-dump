@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMWallpaperMetadataColor_Impl, NSDictionary, NSString;
+@class NSString;
 
 @interface IMWallpaperMetadata_Impl
 {
     id fontNameKey;
-    id fontSizeKey;
-    id fontWeightKey;
-    id fontColorKey;
-    id isVerticalKey;
-    id typeKey;
-    id backgroundColorKey;
-    void fontName;
-    double fontSize;
-    double fontWeight;
-    IMWallpaperMetadataColor_Impl *fontColor;
-    _Bool isVertical;
-    void type;
-    IMWallpaperMetadataColor_Impl *backgroundColor;
 }
 
 + (_Bool);
@@ -44,14 +31,7 @@
 - (void)to complete it again with a new result. This is a programmer error.;
 
 // Remaining properties
-@property(nonatomic, retain) IMWallpaperMetadataColor_Impl *backgroundColor; // @synthesize backgroundColor;
-@property(nonatomic, readonly) NSDictionary *dictionaryRepresentation;
-@property(nonatomic, retain) IMWallpaperMetadataColor_Impl *fontColor; // @synthesize fontColor;
 @property(nonatomic, readonly) NSString *fontName;
-@property(nonatomic, readonly) double fontSize; // @synthesize fontSize;
-@property(nonatomic, readonly) double fontWeight; // @synthesize fontWeight;
-@property(nonatomic, readonly) _Bool isVertical; // @synthesize isVertical;
-@property(nonatomic, readonly) NSString *type;
 
 @end
 

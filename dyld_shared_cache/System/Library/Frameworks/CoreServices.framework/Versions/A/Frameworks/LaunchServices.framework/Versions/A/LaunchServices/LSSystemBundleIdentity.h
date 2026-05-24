@@ -13,13 +13,13 @@
     NSString *_bundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)@"<MTLComputePipelineState>"32@0:8@"MTLComputePipelineDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)( ;
 - (id);
 - (id);
 - (void)ð;

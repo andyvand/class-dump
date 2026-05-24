@@ -4,94 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, MKMapItem, NSArray, NSDate;
+@class MKMapItem;
 
 @interface MKDirectionsRequest
 {
     MKMapItem *_source;
-    MKMapItem *_destination;
-    unsigned long long _transportType;
-    _Bool _requestsAlternateRoutes;
-    _Bool _includeTravelTimes;
-    _Bool _includeTrafficIncidents;
-    _Bool _includeRoutePoints;
-    _Bool _resolveExtraAutomobileOptions;
-    _Bool _includeDistanceInETA;
-    _Bool _useBackgroundURL;
-    NSDate *_departureDate;
-    NSDate *_arrivalDate;
-    NSArray *_additionalTransportTypesRequested;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOTransitOptions *_transitOptions;
-    GEOWalkingOptions *_walkingOptions;
-    GEOCyclingOptions *_cyclingOptions;
-    long long _tollPreference;
-    long long _highwayPreference;
 }
 
 + (_Bool);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (_Bool)8;
 - (long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)dispatch_queue>";
+- (void)6;
+- (void)triggerRemoteSessionForSignature:(id)arg1 groupIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)resetAllWithReply: /* Error: Ran out of types for this method. */;
+- (id)NoPacketsGroup;
+- (id)MigrationFailure;
+- (id)l SIM Message Errors;
+- (_Bool);
+- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id);
+- (id)k;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)4;
 - (unsigned long long);
+- (void)ֵ;
 - (void);
-- (void);
+- (id)c;
 - (id);
 - (id);
+- (id)ers array.;
+- (id)I;
+- (void)invalidateAndCancel;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)neAnchor;
-- (unsigned long long)redContainerSelectionAnimated;
+- (void)firstBaselineAnchor;
+- (unsigned long long)_deferredContainerSelectionAnimated;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _includeRoutePoints; // @synthesize _includeRoutePoints;
-@property(readonly, nonatomic) _Bool _includeTrafficIncidents; // @synthesize _includeTrafficIncidents;
 @property(readonly, nonatomic) _Bool _includeTravelTimes; // @synthesize _includeTravelTimes;
-@property(readonly, nonatomic) _Bool _resolveExtraAutomobileOptions; // @synthesize _resolveExtraAutomobileOptions;
-@property(retain, nonatomic, getter=_additionalTransportTypesRequested, setter=_setAdditionalTransportTypesRequested:) NSArray *additionalTransportTypesRequested; // @synthesize additionalTransportTypesRequested=_additionalTransportTypesRequested;
-@property(retain, nonatomic, getter=_automobileOptions, setter=_setAutomobileOptions:) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(retain, nonatomic, getter=_cyclingOptions, setter=_setCyclingOptions:) GEOCyclingOptions *cyclingOptions; // @synthesize cyclingOptions=_cyclingOptions;
-@property(retain, nonatomic) MKMapItem *destination; // @synthesize destination=_destination;
-@property(nonatomic, getter=_includeDistanceInETA, setter=_setIncludeDistanceInETA:) _Bool includeDistanceInETA; // @synthesize includeDistanceInETA=_includeDistanceInETA;
-@property(retain, nonatomic) MKMapItem *source; // @synthesize source=_source;
-@property(retain, nonatomic, getter=_transitOptions, setter=_setTransitOptions:) GEOTransitOptions *transitOptions; // @synthesize transitOptions=_transitOptions;
-@property(nonatomic, getter=_useBackgroundURL, setter=_setUseBackgroundURL:) _Bool useBackgroundURL; // @synthesize useBackgroundURL=_useBackgroundURL;
-@property(retain, nonatomic, getter=_walkingOptions, setter=_setWalkingOptions:) GEOWalkingOptions *walkingOptions; // @synthesize walkingOptions=_walkingOptions;
 
 @end
 

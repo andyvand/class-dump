@@ -10,13 +10,9 @@
 @protocol HMFMessageReceiver
 
 @optional
-- (NSObject<OS_dispatch_queue> *)y;
+- (NSObject<OS_dispatch_queue> *)HMHomeEnableHomeAppleMediaNotificationsKey;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
 @property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @end
 

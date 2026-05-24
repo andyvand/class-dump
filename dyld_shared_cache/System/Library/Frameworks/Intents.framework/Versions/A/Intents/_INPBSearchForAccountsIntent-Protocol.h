@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @protocol _INPBSearchForAccountsIntent
-- (_Bool)uncementIntentAnnouncementConfirmationReason;
+- (int)";
+- (_Bool)hasSendAnnouncementIntentAnnouncementConfirmationReason;
 - (_INPBDataString *)nt.geo.RetrieveParkingLocationIntentResponse;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *accountNickname;
-@property(nonatomic) int accountType;
-@property(readonly, nonatomic) _Bool hasAccountNickname;
-@property(nonatomic) _Bool hasAccountType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(nonatomic) _Bool hasRequestedBalanceType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *organizationName;
-@property(nonatomic) int requestedBalanceType;
 @end
 

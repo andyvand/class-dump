@@ -6,13 +6,11 @@
 
 #import <SpeechSynthesis/BFSpeechElement.h>
 
-@class BFProsodicState, NSString;
+@class NSString;
 
 @interface BFIsoProsodicTextSpeechElement : BFSpeechElement
 {
     NSString *_text;
-    unsigned long long _mode;
-    BFProsodicState *_prosodicState;
 }
 
 - (void);
@@ -22,11 +20,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) BFProsodicState *prosodicState; // @synthesize prosodicState=_prosodicState;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

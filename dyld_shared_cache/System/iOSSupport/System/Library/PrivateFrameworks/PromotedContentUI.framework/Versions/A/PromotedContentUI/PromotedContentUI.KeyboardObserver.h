@@ -7,7 +7,6 @@
 @interface PromotedContentUI.KeyboardObserver
 {
     id _keyboardFrame;
-    id cancellables;
 }
 
 @end

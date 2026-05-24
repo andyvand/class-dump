@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface SFShareSheetRecipient
 {
     NSString *_realName;
-    NSString *_displayName;
-    NSSet *_formattedHandles;
-    NSString *_contactIdentifier;
 }
 
 + (_Bool);
@@ -24,14 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)X1;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSSet *formattedHandles; // @synthesize formattedHandles=_formattedHandles;
 @property(readonly, nonatomic) NSString *realName; // @synthesize realName=_realName;
 
 @end

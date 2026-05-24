@@ -9,14 +9,6 @@
 @interface AppStoreKit.InAppPurchaseAction : AppStoreKit.Action
 {
     id productIdentifier;
-    id appAdamId;
-    id appBundleId;
-    id installRequiredAction;
-    id streamlineBuyAction;
-    id minimumShortVersionSupportingInAppPurchaseFlow;
-    id appTitle;
-    id productTitle;
-    id additionalBuyParams;
 }
 
 @end

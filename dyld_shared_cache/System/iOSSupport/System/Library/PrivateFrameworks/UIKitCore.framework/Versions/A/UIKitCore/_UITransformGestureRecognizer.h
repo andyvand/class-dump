@@ -6,44 +6,31 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, _UIGestureRecognizerDriver, _UIPinchGestureRecognizerDriver, _UIRotationGestureRecognizerDriver;
+@class _UIPinchGestureRecognizerDriver;
 
 @interface _UITransformGestureRecognizer : UIGestureRecognizer
 {
     _UIPinchGestureRecognizerDriver *_pinchDriver;
-    _UIRotationGestureRecognizerDriver *_rotationDriver;
-    _UIGestureRecognizerDriver *_composedDriver;
-    struct CGPoint _eventTranslation;
 }
 
 - (struct CGAffineTransform);
-- (void);
+- (void)rtedToCarrier:(id)arg1 reply:(long long)arg2;
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (struct CGPoint);
 - (double);
-- (struct CGAffineTransform);
-- (double);
+- (struct CGAffineTransform)_updateUserListeningHistoryControlForAccessory:enable: /* Error: Ran out of types for this method. */;
+- (double);
 - (struct CGPoint);
-- (struct CGPoint)oundStyle:(id)arg1;
-- (_Bool)leView;
+- (struct CGPoint)setPrimaryBackgroundStyle:(id)arg1;
+- (_Bool)UIKBCacheableView;
 - (id);
-- (void)dByTextDelegate;
+- (void)itemsModifiedByTextDelegate;
 - (void)28_UISceneDestructionConditionCG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double rotation;
 @property(readonly, nonatomic) double scale;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform transform;
-@property(readonly, nonatomic) struct CGPoint translation;
 
 @end
 

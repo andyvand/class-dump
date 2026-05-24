@@ -4,68 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSPointerArray, NSString, UIGestureRecognizer, UIHoverGestureRecognizer, UIInterfaceActionRepresentationView, UILongPressGestureRecognizer, UIScrollView, UISelectionFeedbackGenerator, UIView, _UIInterfaceActionSelectByPressGestureRecognizer, _UIInterfaceActionSelectionDelayGestureRecognizer;
-
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionSelectionTrackingController
 {
     _Bool _scrubbingEnabled;
-    _Bool _selectByPressGestureEnabled;
-    _Bool _selectionFeedbackEnabled;
-    _Bool _selectByIndirectPointerTouchEnabled;
-    UIView *_trackableContainerView;
-    UIScrollView *_actionsScrollView;
-    NSArray *_representationViews;
-    UILongPressGestureRecognizer *_selectionGestureRecognizer;
-    _UIInterfaceActionSelectionDelayGestureRecognizer *_selectionDelayGestureRecognizer;
-    UIGestureRecognizer *_systemProvidedGestureRecognizer;
-    NSMutableSet *_viewsRequiringSelectionGestureDisabling;
-    _UIInterfaceActionSelectByPressGestureRecognizer *_selectByPressGestureRecognizer;
-    UISelectionFeedbackGenerator *_selectionRetargetFeedbackGenerator;
-    NSPointerArray *_weakCooperatingSelectionTrackingControllers;
-    id _scrollViewWillBeginDraggingNotificationToken;
-    id _scrollViewDidEndDraggingNotificationToken;
-    id _scrollViewDidEndDeceleratingNotificationToken;
-    UIInterfaceActionRepresentationView *_proposedActionToActivate;
-    UIHoverGestureRecognizer *_hoverGestureRecognizer;
-    struct CGPoint _actionSelectionInitialLocationInContainerView;
 }
 
+- (id)aR;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
+- (void)en;
+- (void)ears to need recovery but style is not supported %hhu;
+- (void)before message, wants delivery receipt;
+- (void)zone %s for tombstone dictionary %s;
+- (void)cordZoneManager;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)delete for attachments returning nil;
+- (void)ting new dictionary;
+- (void)aborationClearNoticeRateLimiter:(id)arg1 Loaded empty dictionary, creating new dictionary;
+- (void)ld not delete DB at path %@;
+- (void)ived a valid response when validating tokens, no further action needed.;
+- (void)%@;
+- (void)singPipelineComponent> Found associated GUID %@ for %@. Cross Service Association message has already binded this message to an IML. Dropping.;
+- (void)empty message GUID.;
+- (id)entry in DB for Aux video transfer %@;
+- (id)tion raised while attempting to create IMFileTransfer:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)countProcessingPipelineComponent> Assigning account %@ service session %@ (replication source:%@) /* Error: Ran out of types for this method. */;
+- (id)ype;
+- (_Bool)message update %@, unrecognized update type;
+- (_Bool)update T3 message:message not found for guid %@ (it may have been deleted) /* Error: Ran out of types for this method. */;
+- (_Bool)repairing duplicate chats in %f seconds;
+- (id)ts %@, in list of chat duplicates:%@ /* Error: Ran out of types for this method. */;
+- (id)pgrade;
+- (id){BOOL}d error %@;
+- (id)e. Bailing for now;
+- (id)%@;
+- (id)erties:(id)arg1 %@;
+- (id)IMiMessageSizeLimitsForTransferTypeDisableLargeSizeNetworkRestriction;
+- (void)t:(id)arg1 reason:] /* Error: Ran out of types for this method. */;
+- (id)ownload-message;
+- (void)#;
 - (void);
 - (id);
 - (struct CGPoint);
@@ -77,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -88,43 +67,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)mationsForOnScreenViews;
+- (_Bool)_animationsForOnScreenViews;
 - (_Bool)ssistantViewController",R,N;
 - (void)l<óþ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint actionSelectionInitialLocationInContainerView; // @synthesize actionSelectionInitialLocationInContainerView=_actionSelectionInitialLocationInContainerView;
-@property(nonatomic) __weak UIScrollView *actionsScrollView; // @synthesize actionsScrollView=_actionsScrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIHoverGestureRecognizer *hoverGestureRecognizer; // @synthesize hoverGestureRecognizer=_hoverGestureRecognizer;
-@property(retain, nonatomic) UIInterfaceActionRepresentationView *proposedActionToActivate; // @synthesize proposedActionToActivate=_proposedActionToActivate;
-@property(retain, nonatomic) NSArray *representationViews; // @synthesize representationViews=_representationViews;
-@property(retain, nonatomic) id scrollViewDidEndDeceleratingNotificationToken; // @synthesize scrollViewDidEndDeceleratingNotificationToken=_scrollViewDidEndDeceleratingNotificationToken;
-@property(retain, nonatomic) id scrollViewDidEndDraggingNotificationToken; // @synthesize scrollViewDidEndDraggingNotificationToken=_scrollViewDidEndDraggingNotificationToken;
-@property(retain, nonatomic) id scrollViewWillBeginDraggingNotificationToken; // @synthesize scrollViewWillBeginDraggingNotificationToken=_scrollViewWillBeginDraggingNotificationToken;
-@property(nonatomic) _Bool scrubbingEnabled; // @synthesize scrubbingEnabled=_scrubbingEnabled;
-@property(nonatomic) _Bool selectByIndirectPointerTouchEnabled; // @synthesize selectByIndirectPointerTouchEnabled=_selectByIndirectPointerTouchEnabled;
-@property(nonatomic) _Bool selectByPressGestureEnabled; // @synthesize selectByPressGestureEnabled=_selectByPressGestureEnabled;
-@property(retain, nonatomic) _UIInterfaceActionSelectByPressGestureRecognizer *selectByPressGestureRecognizer; // @synthesize selectByPressGestureRecognizer=_selectByPressGestureRecognizer;
-@property(readonly, nonatomic) _UIInterfaceActionSelectionDelayGestureRecognizer *selectionDelayGestureRecognizer; // @synthesize selectionDelayGestureRecognizer=_selectionDelayGestureRecognizer;
-@property(nonatomic) _Bool selectionFeedbackEnabled; // @synthesize selectionFeedbackEnabled=_selectionFeedbackEnabled;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *selectionGestureRecognizer; // @synthesize selectionGestureRecognizer=_selectionGestureRecognizer;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *selectionRetargetFeedbackGenerator; // @synthesize selectionRetargetFeedbackGenerator=_selectionRetargetFeedbackGenerator;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIGestureRecognizer *systemProvidedGestureRecognizer; // @synthesize systemProvidedGestureRecognizer=_systemProvidedGestureRecognizer;
-@property(nonatomic) __weak UIView *trackableContainerView; // @synthesize trackableContainerView=_trackableContainerView;
-@property(readonly, nonatomic) NSMutableSet *viewsRequiringSelectionGestureDisabling; // @synthesize viewsRequiringSelectionGestureDisabling=_viewsRequiringSelectionGestureDisabling;
-@property(retain, nonatomic) NSPointerArray *weakCooperatingSelectionTrackingControllers; // @synthesize weakCooperatingSelectionTrackingControllers=_weakCooperatingSelectionTrackingControllers;
 
 @end
 

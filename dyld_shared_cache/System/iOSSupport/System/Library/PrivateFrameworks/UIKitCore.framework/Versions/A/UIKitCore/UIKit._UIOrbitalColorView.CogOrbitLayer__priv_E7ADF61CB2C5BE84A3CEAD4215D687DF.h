@@ -7,18 +7,13 @@
 @interface UIKit._UIOrbitalColorView.CogOrbitLayer__priv_E7ADF61CB2C5BE84A3CEAD4215D687DF
 {
     id clockwiseCog;
-    id counterClockwiseCog;
-    id container;
-    id colors;
-    id period;
-    id relativeCogSpeed;
 }
 
 - (id);
-- (id);
+- (id)3A;
 - (id)0@ù
 × ;
-- (void)w;
+- (void)SegmentView;
 - (void)<
 kþoÍpl;
 

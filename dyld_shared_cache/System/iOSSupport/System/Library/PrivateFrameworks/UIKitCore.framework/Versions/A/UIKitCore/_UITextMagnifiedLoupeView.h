@@ -6,29 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CADisplayLink, NSString, _UIGroupCompletion, _UIPortalView;
-@protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
+@class _UIGroupCompletion;
 
 __attribute__((visibility("hidden")))
 @interface _UITextMagnifiedLoupeView : UIView
 {
     _UIGroupCompletion *_transitionGroupCompletion;
-    _Bool _closeLoupeAnimationRunning;
-    _Bool _visible;
-    CDStruct_99503a0e _animationState;
-    double _dismissalProgress;
-    UIView<_UITextSelectionWidgetAnimating> *_animatableSelectionWidget;
-    unsigned long long _orientation;
-    CADisplayLink *_displayLink;
-    UIView *_portalContainerView;
-    UIView *_containerView;
-    UIView *_glowView;
-    UIView *_coverView;
-    _UIPortalView *_portalView;
-    struct CGPoint _modelPosition;
 }
 
-+ (double);
++ (double);
 + (double);
 - (void);
 - (void);
@@ -42,31 +28,31 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (struct CGPoint);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)32@40@48B56;
+- (void)setInitialSyncAttempts:(struct CGPoint)arg1;
+- (void)setFlagMask:(CDUnknownBlockType)arg1;
+- (void)retrieveLocalFileURLForFileTransferWithGUID:(CDUnknownBlockType)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)_getPendingNicknameForUpload;
 - (CDStruct_45cfb02b);
 - (CDStruct_e1624b90);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)%@) registered for:(struct CGRect)arg1 %@ but registration status was wrong. Saving for later;
+- (void)dableUTIs called with resourcePath %@;
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (CDStruct_99503a0e);
+- (CDStruct_3d581f42);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long)ionHandler: /* Error: Ran out of types for this method. */;
-- (id)nController;
+- (unsigned long long)imageWithImage:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_UISheetPresentationController;
 - (void)Ðþÿ;
-- (void)onNotification;
+- (void)UIStatusBarItemViewPerformButtonActionNotification;
 - (void):(struct CGPoint)arg1 .3;
 - (void)5Value½½¾7Qyd__So10BSSettingsCc;
 - (void);
@@ -76,27 +62,7 @@ __attribute__((visibility("hidden")))
 - (id)ÔÝàþñ&ÌÄ^;
 
 // Remaining properties
-@property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget; // @synthesize animatableSelectionWidget=_animatableSelectionWidget;
-@property(nonatomic) CDStruct_99503a0e animationState; // @synthesize animationState=_animationState;
-@property(readonly, nonatomic) id <UICoordinateSpace> containerCoordinateSpace;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) UIView *coverView; // @synthesize coverView=_coverView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double dismissalProgress; // @synthesize dismissalProgress=_dismissalProgress;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(retain, nonatomic) UIView *glowView; // @synthesize glowView=_glowView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint modelPosition; // @synthesize modelPosition=_modelPosition;
-@property(nonatomic) unsigned long long orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) UIView *portalContainerView; // @synthesize portalContainerView=_portalContainerView;
-@property(retain, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(readonly, nonatomic) struct CGSize preferredSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool visible; // @synthesize visible=_visible;
+@property(nonatomic) CDStruct_3d581f42 animationState; // @synthesize animationState=_animationState;
 
 @end
 

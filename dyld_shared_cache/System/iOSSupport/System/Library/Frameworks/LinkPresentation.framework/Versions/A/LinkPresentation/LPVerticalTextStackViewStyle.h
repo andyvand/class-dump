@@ -4,58 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPadding, LPPointUnit, LPTextRowStyle;
+@class LPPointUnit;
 
 __attribute__((visibility("hidden")))
 @interface LPVerticalTextStackViewStyle
 {
     _Bool _shouldAlignToBaselines;
-    _Bool _shouldApplyFallbackFontForTruncatedSingleLine;
-    unsigned int _maximumNumberOfLines;
-    LPPointUnit *_firstLineLeading;
-    LPPointUnit *_lastLineDescent;
-    LPTextRowStyle *_aboveTopCaption;
-    LPTextRowStyle *_topCaption;
-    LPTextRowStyle *_bottomCaption;
-    LPTextRowStyle *_belowBottomCaption;
-    LPPadding *_captionTextPadding;
-    LPPadding *_emailCompatibleMargin;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)n:animator: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:previewForDismissingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:didTapReplyCountStatusButtonForChatItem: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(_Bool)arg1 balloonViewDidRequestCommitPayload:forPlugin:allowAllCommits:error: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(_Bool)arg1 balloonView:tappedForChatItem: /* Error: Ran out of types for this method. */;
+- (void)transcriptBalloonCell:(id)arg1 layoutAttributesForTextBalloonView:messageDisplayViewFrame:inContainerFrame:proposedAttributes: /* Error: Ran out of types for this method. */;
+- (void)transcriptAvailabilityDeemphasizedFontAttributes;
+- (id)texture2DDescriptorWithPixelFormat:(long long)arg1 width:(unsigned long long)arg2 height:(double)arg3 mipmapped: /* Error: Ran out of types for this method. */;
+- (id)textFieldDidEndEditing:reason: /* Error: Ran out of types for this method. */;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)targetPreviewTransform;
+- (id)tapbackViewLeadingConstraint;
+- (id)tapbackViewBottomConstraint;
+- (void)tapbackPickerCollectionView;
+- (void)tapbackPickerCellCenterPointDidChange:(CDUnknownBlockType)arg1;
+- (id)stopPlayingAlert;
+- (id)stopAllEffects;
 - (unsigned int);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) LPTextRowStyle *aboveTopCaption; // @synthesize aboveTopCaption=_aboveTopCaption;
-@property(readonly, nonatomic) LPTextRowStyle *belowBottomCaption; // @synthesize belowBottomCaption=_belowBottomCaption;
-@property(readonly, nonatomic) LPTextRowStyle *bottomCaption; // @synthesize bottomCaption=_bottomCaption;
-@property(readonly, retain, nonatomic) LPPadding *captionTextPadding; // @synthesize captionTextPadding=_captionTextPadding;
-@property(readonly, retain, nonatomic) LPPadding *emailCompatibleMargin; // @synthesize emailCompatibleMargin=_emailCompatibleMargin;
 @property(retain, nonatomic) LPPointUnit *firstLineLeading; // @synthesize firstLineLeading=_firstLineLeading;
-@property(retain, nonatomic) LPPointUnit *lastLineDescent; // @synthesize lastLineDescent=_lastLineDescent;
-@property(nonatomic) unsigned int maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property(nonatomic) _Bool shouldAlignToBaselines; // @synthesize shouldAlignToBaselines=_shouldAlignToBaselines;
-@property(nonatomic) _Bool shouldApplyFallbackFontForTruncatedSingleLine; // @synthesize shouldApplyFallbackFontForTruncatedSingleLine=_shouldApplyFallbackFontForTruncatedSingleLine;
-@property(readonly, nonatomic) LPTextRowStyle *topCaption; // @synthesize topCaption=_topCaption;
 
 @end
 

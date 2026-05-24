@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (_Bool);
+- (id)AXRTTSettingsListenerHelper;
+- (_Bool)il call id;
 - (id);
 - (struct _NSRange);
 - (id);
-- (void);
+- (void)lityKit.framework/Versions/A/AccessibilityKit;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_TIUITextChecking> checker; // @synthesize checker=_checker;

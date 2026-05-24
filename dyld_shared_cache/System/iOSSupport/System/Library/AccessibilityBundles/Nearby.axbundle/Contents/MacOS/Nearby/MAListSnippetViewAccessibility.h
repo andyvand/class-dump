@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)mapTemplate:pitchWithCenter: /* Error: Ran out of types for this method. */;
 + (id);
-- (id);
+- (id)Q;
 
 @end
 

@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSDate, NSObject;
 @protocol OS_os_log;
 
 @interface VMUDebugTimer
 {
     NSDate *_programStartTime;
-    NSDate *_eventStartTime;
-    NSString *_eventMessage;
-    NSString *_categoryMessage;
-    NSObject<OS_os_log> *_logHandle;
-    unsigned long long _signpostID;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)@;
+- (void)k
+;
+- (id);
+- (unsigned long long)X,;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(readonly) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
 
 @end
 

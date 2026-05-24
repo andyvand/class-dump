@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSRegistrationOperationGetHandlesMetric
 {
     _Bool _success;
-    unsigned int _connectionType;
-    unsigned int _resultCode;
-    unsigned int _registrationError;
-    NSString *_guid;
-    NSNumber *_genericError;
-    NSNumber *_URLError;
-    NSNumber *_POSIXError;
 }
 
 - (id);
+- (id)h;
+- (id)h0;
 - (id);
-- (id);
-- (id);
-- (unsigned int);
+- (unsigned int)ock [%{ptr}];
 - (id);
 - (_Bool);
 - (id)`£åÿ;
@@ -32,23 +25,7 @@
 - (id)E;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *POSIXError; // @synthesize POSIXError=_POSIXError;
-@property(readonly, nonatomic) NSNumber *URLError; // @synthesize URLError=_URLError;
-@property(readonly, nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSNumber *genericError; // @synthesize genericError=_genericError;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned int registrationError; // @synthesize registrationError=_registrationError;
-@property(readonly, nonatomic) unsigned int resultCode; // @synthesize resultCode=_resultCode;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.DiagnosticBag
 {
     id diagnosticKeys;
-    id signposter;
-    id analyticsEventKeys;
 }
 
 @end

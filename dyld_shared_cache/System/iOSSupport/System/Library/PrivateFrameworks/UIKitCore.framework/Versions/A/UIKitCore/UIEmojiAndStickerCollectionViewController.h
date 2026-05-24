@@ -6,57 +6,38 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, STKEmojiAndStickerCollectionViewConfiguration, UIEmojiAndStickerBackgroundView, UIEmojiNoResultsView, UIKBScreenTraits, UIKeyboardLayoutStar;
-@protocol UIEmojiAndStickerCollectionViewControllerDelegate;
+@class STKEmojiAndStickerCollectionViewConfiguration, UIKeyboardLayoutStar;
 
 @interface UIEmojiAndStickerCollectionViewController : UIViewController
 {
     UIKeyboardLayoutStar *_layout;
-    UIKBScreenTraits *_screenTraits;
-    UIEmojiAndStickerBackgroundView *_backgroundView;
-    UIEmojiNoResultsView *_noResultsView;
-    _Bool _previousShowsNoResultsView;
-    STKEmojiAndStickerCollectionViewConfiguration *_configuration;
-    id <UIEmojiAndStickerCollectionViewControllerDelegate> _delegate;
-    NSString *_bundleId;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)IMDaemonCore;
+- (_Bool);
+- (void)/;
+- (id)nk references due to item %lld completing.;
+- (void)ud library enabled state [cloudEnabled=%{BOOL}u];
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
 - (void)ition"16@"UITextPosition"24;
-- (_Bool)sformerFromTouchForceMessageToProgressToForceLevel:minimumRequiredForceLevel: /* Error: Ran out of types for this method. */;
-- (id)aleHint: /* Error: Ran out of types for this method. */;
-- (void)isplaySecureTextUsingPlainText:(id)arg1;
-- (id)dToken;
+- (_Bool)transformerFromTouchForceMessageToProgressToForceLevel:minimumRequiredForceLevel: /* Error: Ran out of types for this method. */;
+- (id)setRequestedScaleHint: /* Error: Ran out of types for this method. */;
+- (void)setDisplaySecureTextUsingPlainText:(id)arg1;
+- (id)endToken;
 - (void)dInMediaPlayback:(_Bool)arg1;
 - (void)xÉÊ;
 - (void)fault-data-protection;
-- (id)nputSource:(id)arg1;
+- (id)_addInputString:(id)arg1 withFlags:withInputManagerHint:withInputSource: /* Error: Ran out of types for this method. */;
 - (id)ðgäþ;
 - (void)¸Ih;
 - (_Bool)«¤ÿÑC;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(retain, nonatomic) STKEmojiAndStickerCollectionViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIEmojiAndStickerCollectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id emojiKeyManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *searchResults;
-@property(readonly) Class superclass;
 
 @end
 

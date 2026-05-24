@@ -5,5 +5,6 @@
 //
 
 @protocol AKFollowUpProvider
+- (_Bool)�8;
 @end
 

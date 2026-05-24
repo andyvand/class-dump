@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSASStateMachine;
+@class MSASAlbum, MSASStateMachine, NSString;
 
 @protocol MSASStateMachineDelegate
+- (void);
+- (void)r*************o;
+- (void)B;
+- (void);
+- (void)(``;
+- (void)setCertificatesStatus:(MSASStateMachine *)arg1;
+- (void);
+- (MSASAlbum *)sions:(NSString *)arg1 );
 
 // Remaining properties
 @property(nonatomic) MSASStateMachine *MSASCounterpartInstance;

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue, SPMVolumeObserverDelegate;
-
 @interface SPMVolumeObserver
 {
     _Bool _existingVolumeEventsRecieved;
-    id <SPMVolumeObserverDelegate> _delegate;
-    struct _CFVolumeObserver *_observer;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_group> *_initializeGroup;
-    NSMutableSet *_internalVolumes;
 }
 
 - (void);
@@ -22,13 +14,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)R;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id),N,V_aneVersion;
 - (id);
 - (id);
 - (id);
@@ -38,11 +30,6 @@
 - (struct _CFVolumeObserver *);
 
 // Remaining properties
-@property(readonly) id <SPMVolumeObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool existingVolumeEventsRecieved; // @synthesize existingVolumeEventsRecieved=_existingVolumeEventsRecieved;
-@property(retain) NSObject<OS_dispatch_group> *initializeGroup; // @synthesize initializeGroup=_initializeGroup;
-@property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(retain) NSMutableSet *internalVolumes; // @synthesize internalVolumes=_internalVolumes;
 @property struct _CFVolumeObserver *observer; // @synthesize observer=_observer;
 
 @end

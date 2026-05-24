@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateConcurrencyLogEventManager, HMDDefaultUARPControllerDelegate, HMDHomeManager, HMDMatterUARPControllerDelegate, HMFTimer, NSMapTable, NSMutableDictionary, NSObject, NSString, NSURL, UARPController;
-@protocol HMDAccessoryFirmwareUpdateManagerWingman, OS_dispatch_queue;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateManager
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSURL *_documentationPath;
-    HMDHomeManager *_homeManager;
-    NSMutableDictionary *_activeSessions;
-    HMDAccessoryFirmwareUpdateConcurrencyLogEventManager *_logEventManager;
-    id <HMDAccessoryFirmwareUpdateManagerWingman> _wingman;
-    NSMapTable *_registeredAccessories;
-    NSMutableDictionary *_accessoryRetries;
-    HMDDefaultUARPControllerDelegate *_defaultUARPControllerDelegate;
-    HMDMatterUARPControllerDelegate *_matterUARPControllerDelegate;
-    HMFTimer *_statusTimer;
 }
 
 + (id)î\ÿKmC;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id)h;
+- (id);
+- (void)postProcessLocationsOfInterest;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)k identifier %0llx;
+- (void)$;
 - (id);
 - (void);
 - (id);
@@ -47,19 +35,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)eventWithThreeLinesHeight;
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (void);
 - (id);
@@ -67,8 +55,8 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (id);
-- (long long)eavePrimaryMesh:(id)arg1;
-- (void);
+- (long long)setDidCurrentDeviceLeavePrimaryMesh:(id)arg1;
+- (void)MKFHAPAccessoryPrivateExtensions;
 - (id)´E;(rÐ;
 - (_Bool)ð	;
 - (_Bool)Primary resident should handle creating native matter;
@@ -82,26 +70,7 @@ __attribute__((visibility("hidden")))
 - (id)H>ü7C;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *accessoryRetries; // @synthesize accessoryRetries=_accessoryRetries;
-@property(retain, nonatomic) NSMutableDictionary *activeSessions; // @synthesize activeSessions=_activeSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) UARPController *defaultUARPController;
-@property(readonly, nonatomic) HMDDefaultUARPControllerDelegate *defaultUARPControllerDelegate; // @synthesize defaultUARPControllerDelegate=_defaultUARPControllerDelegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *documentationPath; // @synthesize documentationPath=_documentationPath;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) HMDAccessoryFirmwareUpdateConcurrencyLogEventManager *logEventManager; // @synthesize logEventManager=_logEventManager;
-@property(readonly, nonatomic) HMDMatterUARPControllerDelegate *matterUARPControllerDelegate; // @synthesize matterUARPControllerDelegate=_matterUARPControllerDelegate;
-@property(retain, nonatomic) NSMapTable *registeredAccessories; // @synthesize registeredAccessories=_registeredAccessories;
-@property(retain, nonatomic) HMFTimer *statusTimer; // @synthesize statusTimer=_statusTimer;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsFirmwareUpdate;
-@property(readonly) id <HMDAccessoryFirmwareUpdateManagerWingman> wingman; // @synthesize wingman=_wingman;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

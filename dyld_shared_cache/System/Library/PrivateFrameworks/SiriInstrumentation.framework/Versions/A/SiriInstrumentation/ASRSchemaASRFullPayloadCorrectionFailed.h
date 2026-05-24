@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRFullPayloadCorrectionFailed : SISchemaInstrumentationMessage
 {
     int _errorType;
-    unsigned long long _responseTimeInNs;
-    struct {
-        unsigned int errorType:1;
-        unsigned int responseTimeInNs:1;
-    } _has;
 }
 
 - (void);
@@ -28,22 +21,18 @@
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)ry";
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)esCount;
+- (id)speechProfileCategoriesCount;
 - (id)¨L¡è¢;
 - (id)ÐÉÿÿtæöÿä2ÿ;
 
 // Remaining properties
 @property(nonatomic) int errorType; // @synthesize errorType=_errorType;
-@property(nonatomic) _Bool hasErrorType;
-@property(nonatomic) _Bool hasResponseTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long responseTimeInNs; // @synthesize responseTimeInNs=_responseTimeInNs;
 
 @end
 

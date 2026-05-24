@@ -4,90 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCHIPThreadNetworkEventListener, HMDHome, HMDHomeManager, HMDUIDialogPresenter, HMFTimer, HMMTRAccessoryServerBrowser, HMMTRAttestationDataStore, HMMTRResidentStateManager, HMMTRStorageEventDispatcher, HMMTRThreadRadioManager, HMMTRUIDialogPresenter, NSNotificationCenter, NSSet, NSString, NSUUID;
-@protocol HMDFileManager, HMMTRVendorMetadataStore;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPDataSource
 {
     struct os_unfair_lock_s _geo_lock;
-    _Bool _pendingRadioStateChangeNotification;
-    _Bool _threadPairingOverride;
-    _Bool _pnExistsOnCurrentNetwork;
-    _Bool _threadNetworkShouldRestartOnNetworkChange;
-    _Bool _startThreadOnWakeEnabled;
-    HMDHomeManager *_homeManager;
-    id <HMMTRVendorMetadataStore> _vendorMetadataStore;
-    HMMTRAttestationDataStore *_attestationDataStore;
-    HMMTRUIDialogPresenter *_uiDialogPresenter;
-    id <HMDFileManager> _fileManager;
-    NSNotificationCenter *_notificationCenter;
-    HMFTimer *_attestationDataRefreshTimer;
-    HMDUIDialogPresenter *_dialogPresenter;
-    HMMTRResidentStateManager *_chipResidentStateManager;
-    HMMTRStorageEventDispatcher *_chipStorage;
-    HMMTRAccessoryServerBrowser *_matterAccessoryServerBrowser;
-    HMMTRThreadRadioManager *_matterThreadRadioManager;
-    HMDHome *_activeThreadHome;
-    HMDHome *_pendingThreadHome;
-    long long _locationAuthorization;
-    NSUUID *_threadPairingFabricUUID;
-    HMDCHIPThreadNetworkEventListener *_userPreferredThreadNetworkEventListener;
-    unsigned long long _networkChangedLastUpdatedTime;
 }
 
 + (id)îB;
-- (id);
-- (id);
+- (id)artworkDataSource;
+- (id)_transitLineBookmark;
+- (void)_identifiersAtopByIdentifier;
+- (void)iledGeoDirectionsSettingsPath;
+- (void)ing",R,C,N,V_label;
+- (void)styleAttributes;
+- (void)xt;
+- (void)eivingHandle;
+- (id)cords;
+- (_Bool)entifiers;
+- (id)minimalStrategyIdentifiersCount;
+- (_Bool)ies;
+- (void)|
+;
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)r;
+- (void);
+- (void)t:(id)arg1 %@ legIndex:%lu /* Error: Ran out of types for this method. */;
+- (void)NavigationListener waypoints updated %{private}@;
+- (void)contact %{private}@:(id)arg1 %lu;
+- (void)ver] Will stop monitoring system block list updates;
+- (void)onitoring system block list updates;
+- (void)blocked, will update record;
+- (void)ityType_Unknown. Will wait for response.;
+- (void)ver] %{private}s;
+- (void)disabled remotely;
+- (void)ripService sharedTripDidClose:(_Bool)arg1 ];
+- (void)MSPMutableObjectContentDidUpdateNotification;
+- (void)MSPSenderMinimalStrategyETAUpdateNearArrivalIntervalThrottleKey;
+- (void)MSPShareETAMessageQueueDelayIntervalKey;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -96,7 +73,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,10 +84,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
+- (long long);
+- (long long)c;
 - (long long);
-- (long long);
-- (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -122,7 +99,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -141,7 +118,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)7T;
 - (void);
 - (id);
 - (void);
@@ -163,41 +140,7 @@ __attribute__((visibility("hidden")))
 - (id)È;
 
 // Remaining properties
-@property(retain) HMDHome *activeThreadHome; // @synthesize activeThreadHome=_activeThreadHome;
-@property(readonly, copy, nonatomic) NSSet *allFabricIDs;
-@property(readonly, copy, nonatomic) NSSet *allPairedHAPServerIdentifiers;
-@property(readonly, copy, nonatomic) NSSet *allTargetFabricUUIDs;
-@property(readonly) HMFTimer *attestationDataRefreshTimer; // @synthesize attestationDataRefreshTimer=_attestationDataRefreshTimer;
-@property(retain) HMMTRAttestationDataStore *attestationDataStore; // @synthesize attestationDataStore=_attestationDataStore;
-@property(retain) HMMTRResidentStateManager *chipResidentStateManager; // @synthesize chipResidentStateManager=_chipResidentStateManager;
-@property(retain) HMMTRStorageEventDispatcher *chipStorage; // @synthesize chipStorage=_chipStorage;
-@property(readonly, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
-@property(readonly, copy) NSUUID *currentFabricUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDUIDialogPresenter *dialogPresenter; // @synthesize dialogPresenter=_dialogPresenter;
-@property(retain) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(nonatomic) long long locationAuthorization; // @synthesize locationAuthorization=_locationAuthorization;
-@property __weak HMMTRAccessoryServerBrowser *matterAccessoryServerBrowser; // @synthesize matterAccessoryServerBrowser=_matterAccessoryServerBrowser;
-@property __weak HMMTRThreadRadioManager *matterThreadRadioManager; // @synthesize matterThreadRadioManager=_matterThreadRadioManager;
-@property(nonatomic) unsigned long long networkChangedLastUpdatedTime; // @synthesize networkChangedLastUpdatedTime=_networkChangedLastUpdatedTime;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property _Bool pendingRadioStateChangeNotification; // @synthesize pendingRadioStateChangeNotification=_pendingRadioStateChangeNotification;
-@property(retain) HMDHome *pendingThreadHome; // @synthesize pendingThreadHome=_pendingThreadHome;
-@property _Bool pnExistsOnCurrentNetwork; // @synthesize pnExistsOnCurrentNetwork=_pnExistsOnCurrentNetwork;
-@property _Bool startThreadOnWakeEnabled; // @synthesize startThreadOnWakeEnabled=_startThreadOnWakeEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool threadNetworkShouldRestartOnNetworkChange; // @synthesize threadNetworkShouldRestartOnNetworkChange=_threadNetworkShouldRestartOnNetworkChange;
-@property(retain) NSUUID *threadPairingFabricUUID; // @synthesize threadPairingFabricUUID=_threadPairingFabricUUID;
-@property _Bool threadPairingOverride; // @synthesize threadPairingOverride=_threadPairingOverride;
-@property(retain) HMMTRUIDialogPresenter *uiDialogPresenter; // @synthesize uiDialogPresenter=_uiDialogPresenter;
-@property(retain) HMDCHIPThreadNetworkEventListener *userPreferredThreadNetworkEventListener; // @synthesize userPreferredThreadNetworkEventListener=_userPreferredThreadNetworkEventListener;
-@property(retain) id <HMMTRVendorMetadataStore> vendorMetadataStore; // @synthesize vendorMetadataStore=_vendorMetadataStore;
 
 @end
 

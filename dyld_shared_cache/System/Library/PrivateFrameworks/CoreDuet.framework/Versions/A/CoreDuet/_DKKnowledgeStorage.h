@@ -4,57 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, NSURL, NSUUID, _DKCoreDataStorage, _DKTombstonePolicy;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface _DKKnowledgeStorage
 {
     _Bool _enableBiomeMigrationDeletion;
-    _Bool _localOnly;
-    _DKCoreDataStorage *_syncStorage;
-    NSUUID *_deviceUUID;
-    NSObject<OS_dispatch_queue> *_defaultResponseQueue;
-    NSString *_directory;
-    NSURL *_modelURL;
-    NSHashTable *_knowledgeStorageEventNotificationDelegates;
-    unsigned long long _insertsAndDeletesObserverCount;
-    NSString *_clientID;
-    _DKTombstonePolicy *_tombstonePolicy;
-    NSObject<OS_dispatch_queue> *_executionQueue;
-    _DKCoreDataStorage *_storage;
 }
 
 + (id);
++ (id)@;
 + (id);
 + (id);
 + (id);
-+ (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
+- (unsigned long long)*n;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)`;
+- (void);
+- (id);
+- (void)@;
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)}^{CGXCursor}^{__CFDictionary}^vIIIiI{CPSProcessSerNum=II}IIIb1b1b1b1b1b1b1b1b1b1b1b1b1^{CGXEventTap}^{CGXCaptureState}I^v^?dddddI^{CGXDirtyScreenState}IB^{PKGSpace}{WSSymbolicHotKeyBitMask=[9I]}iQ^{x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^vQ^{x_list_struct}Ib1ib1}16Q24I32I36^?40;
 - (void);
 - (id);
 - (void);
@@ -64,20 +51,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)kTimer";
+- (unsigned long long)n <%{public}@> attempting to reconnect to background transfer daemon prior to NSURLSessionTask creation, reconnect=%c, invalid=%c;
 - (void);
+- (unsigned long long)2b-;
+- (id)2_b;
+- (id)U;
+- (id);
+- (_Bool)�
+;
+- (void)P;
 - (id);
 - (void);
 - (_Bool);
@@ -96,11 +84,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *deviceUUID; // @synthesize deviceUUID=_deviceUUID;
-@property(nonatomic) _Bool enableBiomeMigrationDeletion; // @synthesize enableBiomeMigrationDeletion=_enableBiomeMigrationDeletion;
-@property(readonly, nonatomic) _Bool localOnly; // @synthesize localOnly=_localOnly;
-@property(readonly, nonatomic) _DKCoreDataStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) _DKCoreDataStorage *syncStorage; // @synthesize syncStorage=_syncStorage;
-@property(retain) _DKTombstonePolicy *tombstonePolicy; // @synthesize tombstonePolicy=_tombstonePolicy;
 
 @end
 

@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExternalTileCacheInfo, GEOMapRegion;
-
 @interface GEOExternalTileRequest
 {
     _Bool _requireInexpensiveNetwork;
-    unsigned long long _type;
-    GEOExternalTileCacheInfo *_cacheInfo;
-    struct _GEOTileKey _key;
 }
 
-+ (id);
++ (id)emoved;
 - (void);
 - (struct _GEOTileKey *);
 - (id);
 - (id);
 - (id);
 - (id);
-- (CDStruct_60067b7e);
+- (CDStruct_60067b7e)_cn_isChildDelegateAccount;
 - (_Bool);
 - (id);
-- (id);
+- (id)URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
 - (struct _GEOTileKey);
-- (unsigned long long);
+- (unsigned long long)dictionaryWithObject:forKey: /* Error: Ran out of types for this method. */;
 - (void)\Iÿ>;8ØÍ4;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOExternalTileCacheInfo *cacheInfo; // @synthesize cacheInfo=_cacheInfo;
-@property(readonly, nonatomic) CDStruct_60067b7e externalKey;
-@property(readonly, nonatomic) struct _GEOTileKey key; // @synthesize key=_key;
-@property(readonly, nonatomic) struct _GEOTileKey *keyPtr;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) _Bool requireInexpensiveNetwork; // @synthesize requireInexpensiveNetwork=_requireInexpensiveNetwork;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

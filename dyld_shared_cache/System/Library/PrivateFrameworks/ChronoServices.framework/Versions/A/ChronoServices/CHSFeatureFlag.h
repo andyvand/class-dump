@@ -9,29 +9,25 @@
 @interface CHSFeatureFlag
 {
     NSString *_domain;
-    NSString *_featureName;
-    char *_cDomain;
-    char *_cFeatureName;
 }
 
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
 
 @end
 

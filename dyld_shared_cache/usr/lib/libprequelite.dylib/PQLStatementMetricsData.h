@@ -8,21 +8,15 @@ __attribute__((visibility("hidden")))
 @interface PQLStatementMetricsData
 {
     struct sqlite3_stmt *_stmt;
-    unsigned long long _returnedRows;
-    double _executionTime;
-    double _preparationTime;
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 - (double);
 - (double);
 - (struct sqlite3_stmt *);
 
 // Remaining properties
-@property(readonly, nonatomic) double executionTime; // @synthesize executionTime=_executionTime;
-@property(readonly, nonatomic) double preparationTime; // @synthesize preparationTime=_preparationTime;
-@property(readonly, nonatomic) unsigned long long returnedRows; // @synthesize returnedRows=_returnedRows;
 @property(readonly, nonatomic) struct sqlite3_stmt *stmt; // @synthesize stmt=_stmt;
 
 @end

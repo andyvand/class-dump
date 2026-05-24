@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (UIWindowSceneActivationConfiguration *)permittedIdentifiers;
 - (UITargetedPreview *);
 - (void)=Ð=\>Ü>¼?dB;
 - (UITargetedPreview *)Ø:(UICollectionView *)arg1 ;

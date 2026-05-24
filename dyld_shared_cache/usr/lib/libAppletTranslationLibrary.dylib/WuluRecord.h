@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface WuluRecord
 {
     unsigned char _sfi;
-    unsigned char _number;
-    unsigned short _associatedSerialNumber;
-    NSData *_data;
 }
 
 + (id);
-- (void);
+- (void)M;
 - (unsigned short);
 - (unsigned char);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned char);
+- (unsigned char)UsoEntity_common_PersonSocialAction;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned short associatedSerialNumber; // @synthesize associatedSerialNumber=_associatedSerialNumber;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned char number; // @synthesize number=_number;
 @property(nonatomic) unsigned char sfi; // @synthesize sfi=_sfi;
 
 @end

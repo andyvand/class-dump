@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore, CNContactStoreFilter, CNContactViewCache, CNUIContactsEnvironment;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListActionConfiguration
 {
     CNContactStore *_contactStore;
-    CNUIContactsEnvironment *_environment;
-    CNContactViewCache *_contactViewCache;
-    CNContactFormatter *_contactFormatter;
-    CNContactStoreFilter *_contactStoreFilter;
 }
 
 + (id)0@ù
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)bí;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNContactStoreFilter *contactStoreFilter; // @synthesize contactStoreFilter=_contactStoreFilter;
-@property(retain, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(retain, nonatomic) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
 
 @end
 

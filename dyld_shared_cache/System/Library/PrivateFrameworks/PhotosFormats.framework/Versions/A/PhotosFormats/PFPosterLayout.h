@@ -9,13 +9,12 @@
 @interface PFPosterLayout
 {
     PFPosterOrientedLayout *_portraitLayout;
-    PFPosterOrientedLayout *_landscapeLayout;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)TC;
 - (id);
-- (id);
+- (id)_TtCO10Accelerate4BNNS14EmbeddingLayer;
 - (id);
 - (id);
 - (id);
@@ -26,14 +25,10 @@
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)}s;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize imageSize;
-@property(readonly, nonatomic) _Bool isUsingHeadroom;
-@property(readonly, nonatomic) PFPosterOrientedLayout *landscapeLayout; // @synthesize landscapeLayout=_landscapeLayout;
 @property(readonly, nonatomic) PFPosterOrientedLayout *portraitLayout; // @synthesize portraitLayout=_portraitLayout;
-@property(readonly, nonatomic) _Bool supportsBothOrientations;
 
 @end
 

@@ -11,20 +11,16 @@
 @interface PKAccountWebServiceRequestPhysicalCardResponse : PKAccountWebServiceResponse
 {
     PKPhysicalCard *_physicalCard;
-    unsigned long long _shipmentQuoteMinimum;
-    unsigned long long _shipmentQuoteMaximum;
 }
 
-- (unsigned long long);
+- (unsigned long long)!r`;
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ppleAccountInformation;
+- (void)appleAccountInformation;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPhysicalCard *physicalCard; // @synthesize physicalCard=_physicalCard;
-@property(readonly, nonatomic) unsigned long long shipmentQuoteMaximum; // @synthesize shipmentQuoteMaximum=_shipmentQuoteMaximum;
-@property(readonly, nonatomic) unsigned long long shipmentQuoteMinimum; // @synthesize shipmentQuoteMinimum=_shipmentQuoteMinimum;
 
 @end
 

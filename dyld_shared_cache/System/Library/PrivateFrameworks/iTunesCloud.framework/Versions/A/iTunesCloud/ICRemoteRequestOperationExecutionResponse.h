@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
 @protocol NSSecureCoding;
 
 @interface ICRemoteRequestOperationExecutionResponse
 {
     id <NSSecureCoding> _remoteRequestOperationResponse;
-    NSError *_remoteRequestOperationError;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)U;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)setRadioAdamID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *remoteRequestOperationError; // @synthesize remoteRequestOperationError=_remoteRequestOperationError;
 @property(retain, nonatomic) id <NSSecureCoding> remoteRequestOperationResponse; // @synthesize remoteRequestOperationResponse=_remoteRequestOperationResponse;
 
 @end

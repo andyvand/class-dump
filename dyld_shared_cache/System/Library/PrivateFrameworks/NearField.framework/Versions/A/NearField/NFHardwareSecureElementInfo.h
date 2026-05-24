@@ -4,55 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSData, NSString;
 
 @interface NFHardwareSecureElementInfo
 {
     NSData *_rsaCertificateAsData;
-    NSData *_ecdsaCertificateAsData;
-    NSData *_eckaCertificateAsData;
-    NSData *_serialNumberAsData;
-    NSData *_systemOSSerialNumberAsData;
-    _Bool _restrictedMode;
-    _Bool _restrictedPerformanceMode;
-    _Bool _osUpdateMode;
-    _Bool _personalisable;
-    _Bool _jcopTooOld;
-    NSString *_identifier;
-    unsigned long long _OSVersion;
-    unsigned long long _fullOSVersion;
-    unsigned long long _firmwareVersion;
-    NSNumber *_compiledFWVersion;
-    unsigned long long _hardwareVersion;
-    unsigned long long _deviceType;
-    NSNumber *_sequenceCounter;
-    NSNumber *_referenceCounter;
-    unsigned long long _osid;
-    NSNumber *_otherOSValid;
-    unsigned long long _OSMode;
-    unsigned long long _signingKeyType;
-    unsigned long long _migrationState;
-    unsigned long long _migrationContext;
-    NSNumber *_migrationPackages;
-    NSNumber *_migrationInstances;
-    NSString *_platformIdentifier;
-    unsigned long long _appletMap;
-    NSNumber *_persistentConfigID;
-    NSString *_rootKeyID;
-    NSString *_osKeyID;
-    NSString *_firmwareKeyID;
-    NSString *_nonce;
-    NSData *_manifestQuery;
-    NSArray *_bootHistory;
-    unsigned long long _supportedTechnologies;
-    unsigned long long _seType;
-    NSString *_atrString;
 }
 
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -69,16 +31,16 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)__AUTH_CONST;
 - (_Bool);
 - (void);
 - (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)˟;
 - (id);
 - (id);
 - (id);
@@ -93,7 +55,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)__objc_methname;
 - (void);
 - (unsigned long long);
 - (id);
@@ -102,46 +64,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long OSMode; // @synthesize OSMode=_OSMode;
-@property(readonly, nonatomic) unsigned long long OSVersion; // @synthesize OSVersion=_OSVersion;
-@property(readonly, nonatomic) unsigned long long appletMap; // @synthesize appletMap=_appletMap;
-@property(readonly, retain, nonatomic) NSString *atrString; // @synthesize atrString=_atrString;
-@property(readonly, retain, nonatomic) NSArray *bootHistory; // @synthesize bootHistory=_bootHistory;
-@property(readonly, retain, nonatomic) NSNumber *compiledFWVersion; // @synthesize compiledFWVersion=_compiledFWVersion;
-@property(readonly, nonatomic) unsigned long long deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, retain, nonatomic) NSString *ecdsaCertificate; // @dynamic ecdsaCertificate;
-@property(readonly, retain, nonatomic) NSString *eckaCertificate; // @dynamic eckaCertificate;
-@property(readonly, nonatomic) NSNumber *expectedSequenceCounter;
-@property(readonly, retain, nonatomic) NSString *firmwareKeyID; // @synthesize firmwareKeyID=_firmwareKeyID;
-@property(readonly, nonatomic) unsigned long long firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly, nonatomic) unsigned long long fullOSVersion; // @synthesize fullOSVersion=_fullOSVersion;
-@property(readonly, nonatomic) unsigned long long hardwareVersion; // @synthesize hardwareVersion=_hardwareVersion;
 @property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool jcopTooOld; // @synthesize jcopTooOld=_jcopTooOld;
-@property(readonly, retain, nonatomic) NSData *manifestQuery; // @synthesize manifestQuery=_manifestQuery;
-@property(readonly, nonatomic) unsigned long long migrationContext; // @synthesize migrationContext=_migrationContext;
-@property(readonly, retain, nonatomic) NSNumber *migrationInstances; // @synthesize migrationInstances=_migrationInstances;
-@property(readonly, retain, nonatomic) NSNumber *migrationPackages; // @synthesize migrationPackages=_migrationPackages;
-@property(readonly, nonatomic) unsigned long long migrationState; // @synthesize migrationState=_migrationState;
-@property(readonly, retain, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(readonly, retain, nonatomic) NSString *osKeyID; // @synthesize osKeyID=_osKeyID;
-@property(readonly, nonatomic) _Bool osUpdateMode; // @synthesize osUpdateMode=_osUpdateMode;
-@property(readonly, nonatomic) unsigned long long osid; // @synthesize osid=_osid;
-@property(readonly, retain, nonatomic) NSNumber *otherOSValid; // @synthesize otherOSValid=_otherOSValid;
-@property(readonly, retain, nonatomic) NSNumber *persistentConfigID; // @synthesize persistentConfigID=_persistentConfigID;
-@property(readonly, nonatomic) _Bool personalisable; // @synthesize personalisable=_personalisable;
-@property(readonly, retain, nonatomic) NSString *platformIdentifier; // @synthesize platformIdentifier=_platformIdentifier;
-@property(readonly, retain, nonatomic) NSNumber *referenceCounter; // @synthesize referenceCounter=_referenceCounter;
-@property(readonly, nonatomic) _Bool restrictedMode; // @synthesize restrictedMode=_restrictedMode;
-@property(readonly, nonatomic) _Bool restrictedPerformanceMode; // @synthesize restrictedPerformanceMode=_restrictedPerformanceMode;
-@property(readonly, retain, nonatomic) NSString *rootKeyID; // @synthesize rootKeyID=_rootKeyID;
-@property(readonly, retain, nonatomic) NSString *rsaCertificate; // @dynamic rsaCertificate;
-@property(readonly, nonatomic) unsigned long long seType; // @synthesize seType=_seType;
-@property(readonly, retain, nonatomic) NSNumber *sequenceCounter; // @synthesize sequenceCounter=_sequenceCounter;
-@property(readonly, retain, nonatomic) NSString *serialNumber; // @dynamic serialNumber;
-@property(readonly, nonatomic) unsigned long long signingKeyType; // @synthesize signingKeyType=_signingKeyType;
-@property(readonly, nonatomic) unsigned long long supportedTechnologies; // @synthesize supportedTechnologies=_supportedTechnologies;
-@property(readonly, retain, nonatomic) NSString *systemOSSerialNumber; // @dynamic systemOSSerialNumber;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol ARSessionDelegate
+
+@optional
+- (void)0;
 @end
 

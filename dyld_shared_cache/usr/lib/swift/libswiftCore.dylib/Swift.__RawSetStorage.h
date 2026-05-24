@@ -9,16 +9,9 @@
 @interface Swift.__RawSetStorage : Swift.__SwiftNativeNSSet
 {
     id _count;
-    id _capacity;
-    id _scale;
-    id _reservedScale;
-    id _extra;
-    id _age;
-    id _seed;
-    id _rawElements;
 }
 
-- (id);
+- (id)`;
 
 @end
 

@@ -13,7 +13,7 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)0031002F003100300030;
 - (id);
 - (void)+ë
 ;

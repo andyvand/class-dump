@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenu;
+
 @protocol NANowPlayingViewControllerDelegate
+- (UIMenu *);
+- (void)9j;
+- (void);
 @end
 

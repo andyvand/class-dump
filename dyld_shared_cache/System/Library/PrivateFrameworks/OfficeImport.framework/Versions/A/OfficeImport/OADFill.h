@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADFill : OADProperties
 {
     _Bool mDefinedByStyle;
-    _Bool _definedByStyle;
 }
 
 - (_Bool);

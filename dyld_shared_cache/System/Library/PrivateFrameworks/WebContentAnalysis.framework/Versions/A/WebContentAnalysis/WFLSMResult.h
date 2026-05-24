@@ -9,7 +9,6 @@
 @interface WFLSMResult
 {
     NSMutableArray *categoryJudgements;
-    float _threshold;
 }
 
 + (id);
@@ -19,8 +18,8 @@
 - (long long);
 - (id);
 - (void);
-- (id);
-- (long long);
+- (id);
+- (long long)8;
 - (_Bool);
 - (id);
 

@@ -13,15 +13,15 @@
     UARPAssetTag *_tag;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)|;
++ (id);
++ (id);
 + (unsigned int);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ISOCountryCodes;
+- (id);
 - (void);
 - (void);
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSManagedObjectModel;
+@class NSManagedObjectModel;
 
 __attribute__((visibility("hidden")))
 @interface _PFModelMap
 {
     NSManagedObjectModel *_clientModel;
-    NSArray *_allEntities;
-    NSArray *_models;
-    id *_indexedEntities;
-    unsigned long long _clientEntityCount;
-    unsigned long long _entityCount;
-    NSDictionary *_entitiesByPath;
-    unsigned long long *_modelEntityCounts;
 }
 
-+ (id);
++ (id)mach_msg_header_t *);
 - (void);
 - (unsigned long long);
 - (id);
@@ -27,10 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEntities; // @synthesize allEntities=_allEntities;
-@property(readonly, nonatomic) unsigned long long clientEntityCount; // @synthesize clientEntityCount=_clientEntityCount;
 @property(readonly, nonatomic) NSManagedObjectModel *clientModel; // @synthesize clientModel=_clientModel;
-@property(readonly, nonatomic) NSDictionary *entitiesByPath; // @synthesize entitiesByPath=_entitiesByPath;
 
 @end
 

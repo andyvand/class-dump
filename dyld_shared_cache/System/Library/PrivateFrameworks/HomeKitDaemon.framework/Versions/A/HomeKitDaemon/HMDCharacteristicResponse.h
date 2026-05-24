@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicRequest, NSData, NSDate, NSDictionary, NSError, NSNumber;
+@class HMDCharacteristicRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicResponse
 {
     struct os_unfair_lock_s _lock;
-    _Bool _remote;
-    HMDCharacteristicRequest *_request;
-    id _value;
-    NSError *_error;
-    NSNumber *_stateNumber;
-    NSDate *_valueUpdatedTime;
-    NSData *_notificationContext;
 }
 
 + (id);
@@ -24,30 +17,23 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
+- (void)_maps_arrayWithObjectsConformingToProtocols:(id)arg1;
+- (id);
+- (id);
+- (id)runWithPhotoLibrary:progressReporter:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id)ssage: /* Error: Ran out of types for this method. */;
+- (_Bool)nRequestStarted;
+- (id)_removeAction:message: /* Error: Ran out of types for this method. */;
 - (void)À;
 - (id)yUserAtHome;
-- (void)rrivedHome;
+- (void)predictedComingHomeWhenArrivedHome;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *characteristicUpdateDictionary;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSData *notificationContext; // @synthesize notificationContext=_notificationContext;
-@property(getter=isRemote) _Bool remote; // @synthesize remote=_remote;
 @property(readonly, nonatomic) HMDCharacteristicRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
-@property(readonly, nonatomic) NSDate *valueUpdatedTime; // @synthesize valueUpdatedTime=_valueUpdatedTime;
 
 @end
 

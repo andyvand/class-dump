@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id)d}}32;
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)rokePoint}""{?="__cap_"^{PKMetalPaintStrokePoint}}};
+- (id)stopOnSuccess;
+- (void)s in %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *devicesToLookUp;

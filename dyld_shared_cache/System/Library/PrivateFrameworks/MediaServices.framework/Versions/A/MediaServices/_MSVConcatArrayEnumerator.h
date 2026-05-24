@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _MSVConcatArrayEnumerator
 {
     NSArray *_arrays;
-    unsigned long long _index;
-    unsigned long long _innerIndex;
 }
 
-- (id);
+- (id)CPU_SUBTYPE_POWERPC_604e;
 - (void);
 
 @end

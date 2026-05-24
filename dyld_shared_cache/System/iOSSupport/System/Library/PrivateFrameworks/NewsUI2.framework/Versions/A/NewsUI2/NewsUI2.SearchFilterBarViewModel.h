@@ -7,8 +7,6 @@
 @interface NewsUI2.SearchFilterBarViewModel
 {
     id _delegate;
-    id _filterItems;
-    id _$observationRegistrar;
 }
 
 @end

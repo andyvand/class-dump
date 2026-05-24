@@ -9,16 +9,6 @@
 @interface PKAddPaymentPassRequest
 {
     NSData *_encryptedPassData;
-    NSData *_activationData;
-    NSData *_ephemeralPublicKey;
-    NSData *_wrappedKey;
-    NSString *_encryptionVersion;
-    NSData *_publicKeyHash;
-    NSString *_issuerIdentifier;
-    NSData *_nonce;
-    NSString *_hostApplicationIdentifier;
-    NSString *_hostApplicationVersion;
-    NSData *_FPInfo;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -33,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	*	;
 - (id);
 - (id);
 - (id);
@@ -41,30 +31,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)qa;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void)1.2.840.113635.100.19.1.1.3.2;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *FPInfo; // @synthesize FPInfo=_FPInfo;
-@property(copy, nonatomic) NSData *activationData; // @synthesize activationData=_activationData;
-@property(copy, nonatomic) NSData *encryptedPassData; // @synthesize encryptedPassData=_encryptedPassData;
 @property(copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
-@property(copy, nonatomic) NSData *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(copy, nonatomic) NSString *hostApplicationIdentifier; // @synthesize hostApplicationIdentifier=_hostApplicationIdentifier;
-@property(copy, nonatomic) NSString *hostApplicationVersion; // @synthesize hostApplicationVersion=_hostApplicationVersion;
-@property(copy, nonatomic) NSString *issuerIdentifier; // @synthesize issuerIdentifier=_issuerIdentifier;
-@property(copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(copy, nonatomic) NSData *wrappedKey; // @synthesize wrappedKey=_wrappedKey;
 
 @end
 

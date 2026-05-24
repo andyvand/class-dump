@@ -9,9 +9,6 @@
 @interface TUAnimationFloatFunction
 {
     CAMediaTimingFunction *_timingFunction;
-    double _startValue;
-    double _endValue;
-    double _speed;
 }
 
 - (double);
@@ -20,17 +17,14 @@
 - (void);
 - (double);
 - (double);
-- (id);
-- (void);
+- (id)whiteGradient;
+- (void)_avAssetDownloadManager;
 - (double);
 - (id);
 - (void);
 - (void)0ÝøÿXÝøÿÝøÿÀÝøÿèÝøÿ0ÞøÿXÞøÿÞøÿÀÞøÿèÞøÿ(ßøÿpßøÿßøÿÐßøÿ;
 
 // Remaining properties
-@property(nonatomic) double endValue; // @synthesize endValue=_endValue;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) double startValue; // @synthesize startValue=_startValue;
 @property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 
 @end

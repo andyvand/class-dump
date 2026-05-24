@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, UIImage, UIImageView, UILabel;
+@class NSUUID, UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingOnboardingAvatarCarouselCell
 {
     NSUUID *_displaySessionUUID;
-    double _imageInsetPercentage;
-    UIImageView *_imageView;
-    UILabel *_label;
 }
 
 + (id);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_requestAdditionalTime:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)fo:(struct CGRect)arg1;
+- (id)P;
+- (void)automaticallyNotifiesObserversOfStatusMessage;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)extMenuConfigurationForSelectedItemsAtIndexPaths:point: /* Error: Ran out of types for this method. */;
+- (void)renderAvatarWithBackgroundWithImageData:(id)arg1;
+- (void)_dci_collectionView:contextMenuConfigurationForSelectedItemsAtIndexPaths:point: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) double imageInsetPercentage; // @synthesize imageInsetPercentage=_imageInsetPercentage;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

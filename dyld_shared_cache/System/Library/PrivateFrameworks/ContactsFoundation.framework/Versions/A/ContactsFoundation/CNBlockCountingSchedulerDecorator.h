@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNScheduler;
 
 @interface CNBlockCountingSchedulerDecorator
 {
     id <CNScheduler> _scheduler;
-    long long _pendingBlockCount;
-    long long _activeBlockCount;
-    long long _completedBlockCount;
 }
 
 + (id);
@@ -21,32 +17,21 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)[;
 - (void);
 - (id);
 - (id);
 - (id);
 - (double);
 - (void);
+- (id)peripheral:(double)arg1 didOpenL2CAPChannel:(CDUnknownBlockType)arg2 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_synthesizeURLFromUserName;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeBlockCount; // @synthesize activeBlockCount=_activeBlockCount;
-@property(readonly, nonatomic) long long completedBlockCount; // @synthesize completedBlockCount=_completedBlockCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long pendingBlockCount; // @synthesize pendingBlockCount=_pendingBlockCount;
 @property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

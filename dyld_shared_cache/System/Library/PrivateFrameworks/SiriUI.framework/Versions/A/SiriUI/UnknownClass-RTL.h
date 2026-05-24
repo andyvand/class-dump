@@ -5,33 +5,33 @@
 //
 
 @interface UnknownClass (RTL)
-+ (_Bool);
++ (_Bool)	;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
-- (void)hBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (struct CGSize)PREVIEW_TITLE_ANIMOJI;
+- (void)assistantConnection:appLaunchFailedWithBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (void)updateStatusViewHeight:textFieldHeight:] /* Error: Ran out of types for this method. */;
 @end
 

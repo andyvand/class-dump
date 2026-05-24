@@ -14,14 +14,13 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
 - (void)ount filtering.;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *url;
 
 @end

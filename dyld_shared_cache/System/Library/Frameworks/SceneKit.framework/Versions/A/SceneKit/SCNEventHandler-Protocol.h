@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, SCNNode, SCNView;
+@class NSEvent;
 
 @protocol SCNEventHandler
+- (void);
+- (_Bool)91;
+- (void)P;
 - (_Bool)Q³°1Â0@ù
 × ;
 - (_Bool)ctor:(NSEvent *)arg1 ];
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool enableFreeCamera;
 @property(nonatomic) _Bool enabled;
-@property(readonly, nonatomic) SCNNode *freeCamera;
-@property(nonatomic) SCNView *view;
 @end
 

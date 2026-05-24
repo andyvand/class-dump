@@ -9,7 +9,6 @@
 @interface MPChangeQueueEndActionCommandEvent : MPRemoteCommandEvent
 {
     _Bool _preservesQueueEndAction;
-    long long _queueEndAction;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool preservesQueueEndAction; // @synthesize preservesQueueEndAction=_preservesQueueEndAction;
 @property(readonly, nonatomic) long long queueEndAction; // @synthesize queueEndAction=_queueEndAction;
 
 @end

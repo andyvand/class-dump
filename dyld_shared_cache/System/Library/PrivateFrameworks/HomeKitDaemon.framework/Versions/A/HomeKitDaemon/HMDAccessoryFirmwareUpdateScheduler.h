@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateProfile, HMDAccessoryFirmwareUpdateSession, HMDHAPAccessory, HMFTimer, NSBackgroundActivityScheduler, NSObject, NSString;
-@protocol HMDAccessoryFirmwareUpdatePolicy, HMDAccessoryFirmwareUpdateSchedulerWingman, HMDAccessoryFirmwareUpdateTask, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDAccessoryFirmwareUpdateTask, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateScheduler
 {
     id <HMDAccessoryFirmwareUpdateTask> _currentTask;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    HMDAccessoryFirmwareUpdateSession *_updateSession;
-    id <HMDAccessoryFirmwareUpdateSchedulerWingman> _wingman;
-    HMFTimer *_initialDelayTimer;
-    NSBackgroundActivityScheduler *_backgroundScheduler;
-    CDUnknownBlockType _activityCompletion;
-    HMFTimer *_deferCheckTimer;
-    long long _currentState;
-    id <HMDAccessoryFirmwareUpdatePolicy> _updatePolicy;
 }
 
 + (id)î\ÿF'ìB;
-- (id);
-- (id);
+- (id)| failed to delete all identifiers with error:%@ /* Error: Ran out of types for this method. */;
+- (id)ly %lu/%lu participants are currently reachable for route;
+- (void);
 - (void);
 - (void);
+- (void)';
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -63,16 +53,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)publicEventsByTimeLocationTupleIdentifierForTimeLocationTuples:cachingOptions:progressBlock:error: /* Error: Ran out of types for this method. */;
+- (id)al:%u /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)measurements;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)i
+;
 - (id)
 × ;
 - (id)d;
@@ -86,31 +77,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(copy, nonatomic) CDUnknownBlockType activityCompletion; // @synthesize activityCompletion=_activityCompletion;
-@property(retain, nonatomic) NSBackgroundActivityScheduler *backgroundScheduler; // @synthesize backgroundScheduler=_backgroundScheduler;
-@property(nonatomic) long long currentState; // @synthesize currentState=_currentState;
-@property(retain, nonatomic) id <HMDAccessoryFirmwareUpdateTask> currentTask; // @synthesize currentTask=_currentTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) HMFTimer *deferCheckTimer; // @synthesize deferCheckTimer=_deferCheckTimer;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isIdle) _Bool idle;
-@property(retain, nonatomic) HMFTimer *initialDelayTimer; // @synthesize initialDelayTimer=_initialDelayTimer;
-@property(readonly, nonatomic) _Bool needsToScheduleApply;
-@property(readonly, nonatomic) _Bool needsToScheduleRegister;
-@property(readonly, nonatomic) _Bool needsToScheduleStaging;
-@property(readonly, nonatomic) _Bool needsToStop;
-@property(readonly, nonatomic, getter=isStagingInProgress) _Bool stagingInProgress;
-@property(readonly, nonatomic) long long state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <HMDAccessoryFirmwareUpdatePolicy> updatePolicy; // @synthesize updatePolicy=_updatePolicy;
-@property(readonly, nonatomic) HMDAccessoryFirmwareUpdateProfile *updateProfile;
-@property(readonly) __weak HMDAccessoryFirmwareUpdateSession *updateSession; // @synthesize updateSession=_updateSession;
-@property(readonly) id <HMDAccessoryFirmwareUpdateSchedulerWingman> wingman; // @synthesize wingman=_wingman;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

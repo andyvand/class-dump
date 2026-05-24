@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(copy) NSString *cite;
-@property(copy) NSString *dateTime;
 
 @end
 

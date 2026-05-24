@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupListController, NSArray, NSPasteboard;
+@class ABGroupListController;
 
 @interface ABGroupDragScope
 {
     ABGroupListController *_viewController;
-    NSArray *_entries;
-    NSPasteboard *_pasteboard;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSArray *entries; // @synthesize entries=_entries;
-@property(readonly) NSPasteboard *pasteboard; // @synthesize pasteboard=_pasteboard;
 @property(readonly) ABGroupListController *viewController; // @synthesize viewController=_viewController;
 
 @end

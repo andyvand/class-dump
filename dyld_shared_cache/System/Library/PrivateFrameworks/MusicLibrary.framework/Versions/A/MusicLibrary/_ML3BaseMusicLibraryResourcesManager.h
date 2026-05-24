@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
+- (id)_constructPlaceholdersForDirectory:(id)arg1 itemsWithPathExtension:appendingToArray:bundleType:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
+- (id)STextMarkerRangeProtocol>";
 - (id);
-- (id);
-- (id);
+- (id)numResidents;
 - (id);
 - (id);
 - (void);
@@ -28,23 +28,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)ATE TRIGGER IF NOT EXISTS item_state_delete_sync AFTER DELETE ON item FOR EACH ROW BEGIN DELETE FROM item_state WHERE item_pid = OLD.item_pid; END;;
 - (id)history_redownload_params, '') != '' AND item_store.purchase_history_id != 0 THEN 100 ELSE ( CASE WHEN item_store.subscription_store_item_id != 0 AND item_store.is_subscription AND item_store.cloud_asset_available THEN 50 ELSE ( CASE WHEN item_store.sync_redownload_params == 'redownload' AND item_store.sync_id != 0 THEN 20 ELSE ( CASE WHEN item_store.sync_redownload_params == 'local' AND item_store.sync_id != 0 THEN 10 ELSE 0 END) END) END) END) END) END;
-- (id)rity;
-- (id)OwnerMismatch;
+- (id)integrity;
+- (id)UserHashContainerOwnerMismatch;
 - (id);
 - (id)ÌìR;
 - (id)e;
 - (id)ì;
-- (id)t3__120__shared_ptr_emplaceI13ML3ArtistDataNS_9allocatorIS1_EEEE;
+- (id)NSt3__120__shared_ptr_emplaceI13ML3ArtistDataNS_9allocatorIS1_EEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *libraryContainerIdentifier; // @synthesize libraryContainerIdentifier=_libraryContainerIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

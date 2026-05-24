@@ -6,44 +6,33 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMPasscodeSetFirmwarePasswordCommand : CEMCommandBase
 {
     NSString *_payloadCurrentPassword;
-    NSString *_payloadNewPassword;
-    NSNumber *_payloadAllowOroms;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)j*;
 - (_Bool);
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)phers specified;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowOroms; // @synthesize payloadAllowOroms=_payloadAllowOroms;
 @property(copy, nonatomic) NSString *payloadCurrentPassword; // @synthesize payloadCurrentPassword=_payloadCurrentPassword;
-@property(copy, nonatomic) NSString *payloadNewPassword; // @synthesize payloadNewPassword=_payloadNewPassword;
-@property(readonly) Class superclass;
 
 @end
 

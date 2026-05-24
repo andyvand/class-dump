@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMList;
+@class REMList;
 
 @interface REMListCalDAVNotificationContext
 {
@@ -12,14 +12,13 @@
 }
 
 - (id);
-- (id);
+- (id)essageUUID = '%@' }>;
 - (id);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *calDAVNotifications;
 @property(retain, nonatomic) REMList *list; // @synthesize list=_list;
 
 @end

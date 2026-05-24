@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol NSSecureCoding;
+@class NSString;
 
 @interface CKDPCSData
 {
     struct _OpaquePCSShareProtection *_pcs;
-    NSString *_etag;
-    NSData *_pcsData;
-    NSString *_pcsKeyID;
 }
 
 + (_Bool);
@@ -20,26 +16,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)<;
 - (id);
 - (void);
+- (id);
+- (_Bool)(;
+- (id)_localeSource;
 - (void);
+- (void));
 - (id);
 - (struct _OpaquePCSShareProtection *);
-- (id);
+- (id)Activator (MobileActivation-1076.120.12);
 - (void);
-- (id)ReplaceDeltas: /* Error: Ran out of types for this method. */;
+- (id)_uploadAndReplaceDeltas: /* Error: Ran out of types for this method. */;
 - (void)a-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(readonly, nonatomic) id <NSSecureCoding> itemID;
-@property(nonatomic) struct _OpaquePCSShareProtection *pcs; // @synthesize pcs=_pcs;
-@property(copy, nonatomic) NSData *pcsData; // @synthesize pcsData=_pcsData;
 @property(retain, nonatomic) NSString *pcsKeyID; // @synthesize pcsKeyID=_pcsKeyID;
 
 @end

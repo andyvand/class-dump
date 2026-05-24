@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchACHintMetadata
 {
     PBDataReader *_reader;
-    NSMutableArray *_addressEntrys;
-    NSMutableArray *_brooklynEntrys;
-    NSMutableArray *_businessEntrys;
-    NSMutableArray *_features;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_addressEntrys:1;
-        unsigned int read_brooklynEntrys:1;
-        unsigned int read_businessEntrys:1;
-        unsigned int read_features:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)audioEngineBufferAvailable:audioStreamHandleId:buffer:remoteVAD:atTime:isFileLoadedBuffer: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ewportFrame"16@0:(struct _NSZone *)arg1 8;
-- (id)nID;
+- (id)_personID;
 - (id)Ìhi;
 - (void);
 

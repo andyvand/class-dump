@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPPairingIdentity, HMDAccessoryPairingAuditor, HMDBackgroundOperationGraph, HMDHomeManager, HMFTimer, NSMutableArray, NSNotificationCenter, NSOperationQueue, NSString;
-@protocol HMDBackgroundOperationManagerCurrentDeviceStateDataSource;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundOperationManager
 {
     struct os_unfair_lock_s _lock;
-    HMDAccessoryPairingAuditor *_accessoryPairingAuditor;
-    HMFTimer *_expirationTimer;
-    HMFTimer *_deferralTimer;
-    HMFTimer *_dataSourceCoalescingTimer;
-    id <HMDBackgroundOperationManagerCurrentDeviceStateDataSource> _currentDeviceStateDataSource;
-    HMDHomeManager *_homeManager;
-    NSMutableArray *_operationList;
-    NSMutableArray *_dataSourceList;
-    HMDBackgroundOperationGraph *_opGraph;
-    NSNotificationCenter *_notificationCenter;
-    HAPPairingIdentity *_hh1Key;
-    HAPPairingIdentity *_hh2Key;
-    NSOperationQueue *_queue;
 }
 
 + (id);
++ (id)aces/neutrino/PhotoImaging/Adjustments/PINeutralGrayWhiteBalanceFilter.m;
 + (id);
 + (id);
++ (id)6;
 + (id);
-+ (id);
-+ (id);
-+ (id)nOptions;
++ (id)HMDBackingStoreTransactionOptions;
 + (id)q;
 - (void);
 - (void);
@@ -40,14 +26,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)clueWithValue:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ixel.rgb = lum_scale * pixel.rgb + lum_offset;
+return pixel;
+}
+
+;
+- (void),i;
 - (void);
 - (id);
 - (void);
@@ -59,24 +49,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (id)=;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)S;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)?;
 - (id)@ù
 × ;
 - (id)0@ù
@@ -84,11 +74,11 @@ __attribute__((visibility("hidden")))
 - (id)× ;
 - (id)Aã°!Cùð1Â0@ù
 × ;
-- (void)ForPairing;
-- (_Bool)App;
-- (void)PinCodeWithValue:forUserIndex:flow: /* Error: Ran out of types for this method. */;
-- (void)ogHomeSettingEnabled;
-- (id)ogEvent;
+- (void)unsetFabricForPairing;
+- (_Bool)namesOfServicesShowingTilesInHomeApp;
+- (void)addOrUpdatePinCodeWithValue:forUserIndex:flow: /* Error: Ran out of types for this method. */;
+- (void)_eventLogHomeSettingEnabled;
+- (id)HMDHomeLocationLogEvent;
 - (void);
 - (void);
 - (void)îÏî;
@@ -107,25 +97,7 @@ __attribute__((visibility("hidden")))
 - (id)àwB;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDBackgroundOperationManagerCurrentDeviceStateDataSource> currentDeviceStateDataSource; // @synthesize currentDeviceStateDataSource=_currentDeviceStateDataSource;
-@property(readonly, nonatomic) HMFTimer *dataSourceCoalescingTimer; // @synthesize dataSourceCoalescingTimer=_dataSourceCoalescingTimer;
-@property(retain, nonatomic) NSMutableArray *dataSourceList; // @synthesize dataSourceList=_dataSourceList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) HMFTimer *deferralTimer; // @synthesize deferralTimer=_deferralTimer;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMFTimer *expirationTimer; // @synthesize expirationTimer=_expirationTimer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPPairingIdentity *hh1Key; // @synthesize hh1Key=_hh1Key;
-@property(retain, nonatomic) HAPPairingIdentity *hh2Key; // @synthesize hh2Key=_hh2Key;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) HMDBackgroundOperationGraph *opGraph; // @synthesize opGraph=_opGraph;
 @property(retain, nonatomic) NSMutableArray *operationList; // @synthesize operationList=_operationList;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

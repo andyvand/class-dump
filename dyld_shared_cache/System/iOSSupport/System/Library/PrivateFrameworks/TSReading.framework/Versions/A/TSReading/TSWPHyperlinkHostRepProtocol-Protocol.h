@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSWPHyperlinkField;
+
 @protocol TSWPHyperlinkHostRepProtocol
+- (void)ntation, but failed to provide transportable extension;
+- (struct CGRect)te:(TSWPHyperlinkField *)arg1;
+
+@optional
+- (_Bool)ext;
+- (_Bool)ontroller=%@;
+- (void);
 @end
 

@@ -12,7 +12,7 @@
 
 - (id);
 - (long long);
-- (id);
+- (id)responseWithURL:thumbnail: /* Error: Ran out of types for this method. */;
 - (id)PGGraphLocationDistrictNodeCollection;
 
 @end

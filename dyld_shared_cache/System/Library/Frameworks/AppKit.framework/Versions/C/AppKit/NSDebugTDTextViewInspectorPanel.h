@@ -6,28 +6,20 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugTDTextViewInspectorPanel : NSPanel
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)nAVAggregateAssetDownloadTask"56@0:(_Bool)arg1 8@"AVURLAsset"16@"NSArray"24@"NSString"32@"NSData"40@"NSDictionary"48;
++ (id)ownloadConfiguration"48;
++ (id)AVAssetDownloadSessionLinkAssetURLToDestinationURLKey;
++ (id)AVAssetDownloadTaskMinimumRequiredPresentationSizeKey;
++ (id)AVAssetDownloadTaskDownloadConfigurationKey;
++ (id)2k2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,11 +14,11 @@
 - (struct CGPoint);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)AVFoundation;
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)replaceObjectAtIndex:withObject: /* Error: Ran out of types for this method. */;
 
 @end
 

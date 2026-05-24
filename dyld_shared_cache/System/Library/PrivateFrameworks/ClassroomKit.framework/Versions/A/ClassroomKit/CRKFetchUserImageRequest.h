@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKFetchUserImageRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_userIdentifier;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)n,;
 - (void);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

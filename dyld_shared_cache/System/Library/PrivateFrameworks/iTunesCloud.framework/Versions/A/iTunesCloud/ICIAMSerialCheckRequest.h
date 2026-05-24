@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICIAMSerialCheckRequest
 {
     long long _dSID;
-    NSString *_deviceID;
-    CDStruct_f07dd4d9 _has;
 }
 
 - (void);
@@ -28,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ICLLReactionCommand;
+- (void)_ICLLReactionCommand;
 - (void)Îôª´³n>Üw¿J|hÛ¾sÍ9ù»@"Îv¼¼YéeÆö5A[_8ÊpØ}Äj°]:(long long)arg1 ½#1ÛÆÑö¹NoÎØG;aäìÂÂqãY¸âªm±{'PÝ3Á¥LïÐLæù7vòO¹îÛXÊ:üéÙQ(,ª ïB.\hûv[àÕÚv%±&@Þkú`uLþØµ
 ê
 d<TS¨
@@ -36,10 +32,7 @@ d<TS¨
 BÒK±<ZÍÀÕpI:õ)8Î~	'Óµú.Írµ¤?³i¼á¸yJhÖtÂ¡wÁ¶3+ILÔxiÞ¡ÜT\Pt(Ãð-y.ÏaQ9iu?zçb;»,÷¶úñÇk%Çs=ãà~@TÀ+Fd+`ùý{ïø(5û·Æ@oÈºñOg^OzF=ë\Ðª/w®"=ÐË;¿ÙÔÉ)¥exgíbEÙç$üfZåÙD¡U×á¦Ãí&ÃÏ½á7c×ÓÛX"ß¨×T7,EøV`2f£m¿>0æMÄü2®ôZ¢n½BuRH·ae÷FìAÑïG¬òÀ~+c /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long dSID; // @synthesize dSID=_dSID;
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
 @property(nonatomic) _Bool hasDSID;
-@property(readonly, nonatomic) _Bool hasDeviceID;
 
 @end
 

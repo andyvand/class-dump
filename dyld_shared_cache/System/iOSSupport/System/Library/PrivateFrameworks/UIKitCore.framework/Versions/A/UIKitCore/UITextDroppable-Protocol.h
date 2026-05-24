@@ -8,10 +8,11 @@
 @protocol UITextDropDelegate;
 
 @protocol UITextDroppable
+- (UIDropInteraction *);
+- (id <UITextDropDelegate>);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isTextDropActive) _Bool textDropActive;
 @property(nonatomic) __weak id <UITextDropDelegate> textDropDelegate;
-@property(readonly, nonatomic) UIDropInteraction *textDropInteraction;
 @end
 

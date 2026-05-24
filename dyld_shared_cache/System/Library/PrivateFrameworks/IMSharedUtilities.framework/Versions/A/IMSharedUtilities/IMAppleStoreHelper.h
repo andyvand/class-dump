@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)8@"NSSet"16;
 
 @end
 

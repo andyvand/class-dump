@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)_kTCPKeepAliveParametersEnabled;
 + (id);
 + (id)÷K;
 - (id);

@@ -6,55 +6,44 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaTRPRequestLink : SISchemaTopLevelUnionType
 {
     SISchemaUUID *_trpId;
-    SISchemaUUID *_requestId;
-    int _source;
-    CDStruct_dbbab10b _has;
-    _Bool _hasTrpId;
-    _Bool _hasRequestId;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)mmCSCPinRecoveryViewControllerDidEnd:(_Bool)arg1;
+- (_Bool)aida_alternateDSID;
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)_resultCache;
+- (_Bool)blic}@ be deleted;
 - (void);
-- (_Bool);
+- (_Bool)rvice_center, handle_id, subject, country, attributedBody, version, type, service, account, account_guid, error, date, date_read, date_delivered, is_delivered, is_finished, is_emote, is_from_me, is_empty, is_delayed, is_auto_reply, is_prepared, is_read, is_system_message, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated FROM message_import ORDER BY message_import.order_date ASC, message_import.ROWID ASC;;
 - (void);
 - (id);
 - (int);
 - (id);
 - (id)0@ù
 × ;
-- (id);
-- (id)eModelRegion;
-- (_Bool)CATIONSOURCE_DICTATION_KEYBOARD_STANDARD_SHORTCUT;
-- (void)SABLED;
-- (void)EL_MAXIMUM;
+- (id)deleteDidConnectionTimeOut;
+- (id)_geoLanguageModelRegion;
+- (_Bool)INVOCATIONSOURCE_DICTATION_KEYBOARD_STANDARD_SHORTCUT;
+- (void)MWTSUBSCRIPTIONTYPE_SUBSCRIPTION_DISABLED;
+- (void)MHENDPOINTERACCESSIBLELEVEL_MAXIMUM;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(nonatomic) int source; // @synthesize source=_source;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end

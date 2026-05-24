@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
+@class SATimestamp;
 
 @interface SANANDGarbageCollectionEvent
 {
     SATimestamp *_startTimestamp;
-    SATimestamp *_endTimestamp;
-    unsigned long long _reasonCode;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityFullScreenButton;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,17 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) SATimestamp *endTimestamp;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSString *reason;
-@property(readonly) unsigned long long reasonCode;
-@property(readonly) SATimestamp *startTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IXCoordinatorWithEssentialAssetPromises
+- (_Bool);
 @end
 

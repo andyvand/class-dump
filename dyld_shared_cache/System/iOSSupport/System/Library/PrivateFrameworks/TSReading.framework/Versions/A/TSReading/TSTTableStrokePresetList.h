@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTTableStrokePresetData;
-
 @interface TSTTableStrokePresetList
 {
     unsigned long long mCount;
-    TSTTableStrokePresetData *mPresets[15];
 }
 
++ (id)InternalCoordinatorActions;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
-- (void);
-- (void);
+- (id)r loaded enhanced audio;
+- (void)-key-request-end;
+- (void)t-load-end;
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);

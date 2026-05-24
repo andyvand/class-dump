@@ -7,7 +7,6 @@
 @interface PXPhotosMetadataCountsCache
 {
     CDStruct_aa0b146f _assetCounts;
-    CDStruct_aa0b146f _guestAssetCounts;
 }
 
 - (id);
@@ -16,7 +15,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_aa0b146f assetCounts; // @synthesize assetCounts=_assetCounts;
-@property(readonly, nonatomic) CDStruct_aa0b146f guestAssetCounts; // @synthesize guestAssetCounts=_guestAssetCounts;
 
 @end
 

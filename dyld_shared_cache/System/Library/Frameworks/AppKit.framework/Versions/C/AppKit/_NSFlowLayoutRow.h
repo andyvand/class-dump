@@ -10,43 +10,32 @@ __attribute__((visibility("hidden")))
 @interface _NSFlowLayoutRow
 {
     NSMutableArray *_items;
-    _NSFlowLayoutSection *_section;
-    struct CGSize _rowSize;
-    struct CGRect _rowFrame;
-    long long _index;
-    _Bool _isValid;
-    _Bool _complete;
-    int _verticalAlignement;
-    int _horizontalAlignement;
-    double _availableSpace;
-    struct CGPoint _rowOffsetForDropTargetInsertionGap;
-    _Bool _fixedItemSize;
 }
 
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)ed type.;
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)_allocateSlabWithSize: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void)1Â0@ù
 × ;
 - (id)!î/!|DùÑã3ð1Â0@ù
 × ;
-- (void)ss;
-- (void)ntifier:(id)arg1;
-- (struct CGRect)licantView;
+- (void)shouldAnimateNextLayoutPass;
+- (void)findStackControllerForIdentifier:(id)arg1 stateIdentifier:(long long)arg2;
+- (struct CGRect)NSStatusItemReplicantView;
 - (long long);
-- (double)LogToConsole;
+- (double)NSScrollViewResponsiveScrollingOptInLogToConsole;
 - (_Bool)borrow an item which is already on loan;
 - (void)lOptions, NULL, NULL );
 - (void)initWithCoder:(_Bool)arg1 ]:found NSMatrix object version %ld; cannot unarchive NSMatrix versions less than 6. /* Error: Ran out of types for this method. */;
@@ -54,14 +43,6 @@ __attribute__((visibility("hidden")))
 - (id)\%ÿ;
 
 // Remaining properties
-@property(nonatomic) double availableSpace; // @synthesize availableSpace=_availableSpace;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(nonatomic) _Bool fixedItemSize; // @synthesize fixedItemSize=_fixedItemSize;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(nonatomic) struct CGRect rowFrame; // @synthesize rowFrame=_rowFrame;
-@property(nonatomic) struct CGPoint rowOffsetForDropTargetInsertionGap; // @synthesize rowOffsetForDropTargetInsertionGap=_rowOffsetForDropTargetInsertionGap;
-@property(nonatomic) struct CGSize rowSize; // @synthesize rowSize=_rowSize;
 @property(nonatomic) __weak _NSFlowLayoutSection *section; // @synthesize section=_section;
 
 @end

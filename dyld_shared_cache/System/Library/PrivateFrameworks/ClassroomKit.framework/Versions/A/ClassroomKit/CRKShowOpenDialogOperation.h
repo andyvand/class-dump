@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString, NSURL;
-@protocol CRKFileSystemPrimitives, CRKSharingAirDropTransfer, CRKSharingPrimitives;
+@class NSSet;
 
 @interface CRKShowOpenDialogOperation
 {
     NSSet *mURLs;
-    _Bool mKeepOriginalFiles;
-    NSData *mPreviewImageData;
-    NSString *mSenderName;
-    _Bool mAutoAccept;
-    NSString *mSourceBundleIdentifier;
-    NSString *mFilesDescription;
-    _Bool mTransferAccepted;
-    _Bool mTransferFinished;
-    NSURL *mTransferDirectoryURL;
-    double _cleanupDelay;
-    id <CRKSharingPrimitives> _sharingPrimitives;
-    id <CRKFileSystemPrimitives> _fileSystemPrimitives;
-    id <CRKSharingAirDropTransfer> _transfer;
 }
 
 + (id);
@@ -47,13 +33,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)PayloadCertificatePersistentID;
+- (_Bool)ResourcePayloadCertificatePersistentID;
 
 // Remaining properties
 @property(readonly, nonatomic) double cleanupDelay; // @synthesize cleanupDelay=_cleanupDelay;
-@property(readonly, nonatomic) id <CRKFileSystemPrimitives> fileSystemPrimitives; // @synthesize fileSystemPrimitives=_fileSystemPrimitives;
-@property(readonly, nonatomic) id <CRKSharingPrimitives> sharingPrimitives; // @synthesize sharingPrimitives=_sharingPrimitives;
-@property(retain, nonatomic) id <CRKSharingAirDropTransfer> transfer; // @synthesize transfer=_transfer;
 
 @end
 

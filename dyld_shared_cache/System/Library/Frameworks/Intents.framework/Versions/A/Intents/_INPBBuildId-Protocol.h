@@ -7,12 +7,10 @@
 @class NSString;
 
 @protocol _INPBBuildId
+- (void);
 - (NSString *)@ with updated intent %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buildNumber;
-@property(readonly, nonatomic) _Bool hasBuildNumber;
-@property(readonly, nonatomic) _Bool hasVersionNumber;
-@property(copy, nonatomic) NSString *versionNumber;
 @end
 

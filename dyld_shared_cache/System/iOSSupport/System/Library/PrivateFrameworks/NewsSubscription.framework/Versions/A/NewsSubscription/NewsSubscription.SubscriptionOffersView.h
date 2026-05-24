@@ -7,19 +7,10 @@
 @interface NewsSubscription.SubscriptionOffersView
 {
     id contentView;
-    id logoImageView;
-    id accessLabel1;
-    id subscribeButton1;
-    id accessLabel2;
-    id subscribeButton2;
-    id accessLabel3;
-    id subscribeButton3;
-    id webAuthButton;
-    id learnMoreLabel;
 }
 
 - (id);
-- (id);
+- (id)C;
 - (void);
 
 @end

@@ -11,11 +11,10 @@
 @interface IMSuggestedRepliesMessagePartChatItem : IMAttachmentMessagePartChatItem
 {
     NSArray *_suggestedRepliesList;
-    long long _selectedIndex;
 }
 
-+ (id);
-- (id);
++ (id)%f,oldBWE=%d,ssrc=0x%x] to [newOwrd=%f,newBWE=%d,ssrc=0x%x], worstLinkIndex=%d, arrivalTime=%f;
+- (id)%s:(id)arg1 %d Failed to create rules for secondary screen!;
 - (id);
 - (long long);
 - (_Bool);
@@ -23,7 +22,6 @@
 - (void)§d¨;
 
 // Remaining properties
-@property(readonly, nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
 @property(readonly, copy, nonatomic) NSArray *suggestedRepliesList; // @synthesize suggestedRepliesList=_suggestedRepliesList;
 
 @end

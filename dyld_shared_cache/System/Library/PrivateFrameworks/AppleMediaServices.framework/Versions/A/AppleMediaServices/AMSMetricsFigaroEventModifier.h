@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsFigaroEventModifier
 {
     NSDictionary *_fieldFilters;
-    NSString *_sampleSessionKey;
-    NSDictionary *_metricsDictionary;
-    NSDictionary *_overrideDictionary;
 }
 
 - (id);
@@ -20,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id):(id)arg1 v	;
 - (id);
 - (_Bool);
 - (double);
 - (id);
 - (_Bool);
-- (id);
+- (id)dictionaryWithContentsOfFile: /* Error: Ran out of types for this method. */;
 - (_Bool)4;
 - (id)S¨wÃyEÞ`o¿sFU¹
 ÷Î®ç·ÖAÂ#6ÅgÛjkãë^ÄDá !ú_n+ÐêÔÆ~GµÈð(JO½LvæHÌß±ñ£öÿq	Óèd}«{x¯ËÕm74<âÍ²]îû¥å´ò¸T=WKÊ)QRgk«­AÊQm×{t7ÖsÑ"ºÚãUÂ£ó54õzKî÷~ÏPÐJÿÜ¡Sj[^<äÀþÄ?	Òå¥ËØëâ·bX©\ò
@@ -36,10 +33,6 @@ oß»lÇe¿ipüÙö(úI¦#yÁ C)@¬E=Þ_±ïæ ñnhÆÔ�
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *fieldFilters; // @synthesize fieldFilters=_fieldFilters;
-@property(readonly, nonatomic) double flushInterval;
-@property(readonly, nonatomic) NSDictionary *metricsDictionary; // @synthesize metricsDictionary=_metricsDictionary;
-@property(readonly, nonatomic) NSDictionary *overrideDictionary; // @synthesize overrideDictionary=_overrideDictionary;
-@property(readonly, nonatomic) NSString *sampleSessionKey; // @synthesize sampleSessionKey=_sampleSessionKey;
 
 @end
 

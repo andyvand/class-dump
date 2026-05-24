@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)_reusedAfterTime;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)2iS;
 
 @end
 

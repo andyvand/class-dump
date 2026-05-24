@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSSendMessageMetadataExtracted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalPlusId;
-    unsigned int _initialSendMessageRequestNumberOfContacts;
-    _Bool _initialSendMessageRequestHasPayload;
-    unsigned int _numberOfTimesMessageContactChanged;
-    unsigned int _numberOfTimesMessagePayloadChanged;
-    struct {
-        unsigned int initialSendMessageRequestNumberOfContacts:1;
-        unsigned int initialSendMessageRequestHasPayload:1;
-        unsigned int numberOfTimesMessageContactChanged:1;
-        unsigned int numberOfTimesMessagePayloadChanged:1;
-    } _has;
-    _Bool _hasOriginalPlusId;
 }
 
 - (void);
@@ -51,28 +40,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ress %@ mapped to alias %@ class %@ available keys %@;
 - (id);
 - (id)
 × ;
-- (id)sVoice;
+- (id)_hasVoice;
 - (id)teUtteranceInfoTier1;
 - (void)titiesUsed;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInitialSendMessageRequestHasPayload;
-@property(nonatomic) _Bool hasInitialSendMessageRequestNumberOfContacts;
-@property(nonatomic) _Bool hasNumberOfTimesMessageContactChanged;
-@property(nonatomic) _Bool hasNumberOfTimesMessagePayloadChanged;
-@property(nonatomic) _Bool hasOriginalPlusId; // @synthesize hasOriginalPlusId=_hasOriginalPlusId;
-@property(nonatomic) _Bool initialSendMessageRequestHasPayload; // @synthesize initialSendMessageRequestHasPayload=_initialSendMessageRequestHasPayload;
-@property(nonatomic) unsigned int initialSendMessageRequestNumberOfContacts; // @synthesize initialSendMessageRequestNumberOfContacts=_initialSendMessageRequestNumberOfContacts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numberOfTimesMessageContactChanged; // @synthesize numberOfTimesMessageContactChanged=_numberOfTimesMessageContactChanged;
-@property(nonatomic) unsigned int numberOfTimesMessagePayloadChanged; // @synthesize numberOfTimesMessagePayloadChanged=_numberOfTimesMessagePayloadChanged;
 @property(retain, nonatomic) SISchemaUUID *originalPlusId; // @synthesize originalPlusId=_originalPlusId;
 
 @end
